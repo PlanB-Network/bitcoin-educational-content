@@ -1,9 +1,8 @@
-question: Qual é a diferença entre uma transação de fechamento e uma transação de compromisso em um fechamento cooperativo?
-answer: Uma transação de fechamento não possui Timelock e chave de revogação.
+question: Por que é difícil para um nó transmissor estimar a liquidez exata de um canal?
+answer: Porque apenas os dois participantes conhecem a distribuição precisa dos fundos
 wrong_answers:
-  - Uma transação de fechamento possui Timelock e chave de revogação.
-  - Uma transação de fechamento é mais lenta do que uma transação de compromisso.
-  - Uma transação de fechamento é mais cara do que uma transação de compromisso.
+  - Porque a capacidade total dos canais está constantemente mudando
+  - Porque as taxas dos nós intermediários não são publicadas
+  - Porque os canais fecham automaticamente após cada transação
 explanation: |
-  Em um fechamento cooperativo, os dois pares concordam com um estado final do canal e criam uma transação de fechamento. Essa transação é diferente das transações de compromisso porque não possui Timelock e chave de revogação.
-reviewed: false
+  A distribuição precisa dos fundos em um canal é visível apenas para os dois nós participantes, impedindo que outros nós estimem a liquidez disponível para roteamento.

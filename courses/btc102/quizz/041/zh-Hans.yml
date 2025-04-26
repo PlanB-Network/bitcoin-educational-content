@@ -1,0 +1,9 @@
+question: 比特币的最大流通 Supply 大概是多少？
+answer: 2 100 万
+wrong_answers:
+  - 一千万
+  - 4 700 万
+  - 1.5 亿
+explanation: |
+  Bitcoin 计划拥有有限的 Supply，数量约为 2 100 万比特币。
+reviewed: false

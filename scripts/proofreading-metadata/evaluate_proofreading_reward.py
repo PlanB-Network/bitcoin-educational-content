@@ -53,7 +53,8 @@ def main():
                 else:
                     selected_language = select_language(selected_subfolder_path)
                     proofread_iteration = get_proofreading_state(data, selected_language)  
-                    reward = evaluate_proofreading_reward(file_path, selected_language)
+                    reward = get_proofreading_property(data, selected_language,
+                                                       "reward")
                 print()
                 print(f"For {content_name}:")
                 print(f"The proofreading reward is: {reward} sats")

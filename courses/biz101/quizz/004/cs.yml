@@ -1,0 +1,9 @@
+question: Co charakterizuje složitost dnešního procesu platby kartou v maloobchodním prodejním místě?
+answer: Zahrnuje více zprostředkovatelů, několik kroků a úplné vypořádání finančních prostředků může trvat několik dní.
+wrong_answers:
+  - Vyžaduje pouze jeden okamžitý krok a finanční prostředky jsou vypořádány okamžitě.
+  - Spoléhá se výhradně na fyzickou hotovost a žádné zprostředkovatele.
+  - Zajišťuje, že po přiložení karty má obchodník okamžitě a nevratně k dispozici finanční prostředky.
+explanation: |
+  Platby kartou často zahrnují řetězec zprostředkovatelů (acquirery, vydavatele, karetní sítě), vyžadují autorizaci a zúčtování a může trvat 48 hodin až několik dní, než obchodník obdrží čisté finanční prostředky.
+reviewed: false

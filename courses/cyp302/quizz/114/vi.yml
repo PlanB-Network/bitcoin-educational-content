@@ -1,0 +1,8 @@
+question: Điều gì làm cho một luồng khóa RC4 chuẩn khác biệt so với phiên bản đơn giản được trình bày trong ví dụ?
+answer: Độ dài của mảng S trong RC4 chuẩn là 256 byte
+wrong_answers:
+  - Mảng S bị giới hạn ở 128 byte
+  - Khóa được sử dụng phải nhiều hơn 8 byte
+  - Không có độ dài cố định cho S trong RC4 chuẩn
+explanation: |
+  Trong RC4 chuẩn, mảng S chứa 256 byte, điều này làm tăng đáng kể độ phức tạp của các phép tính và cải thiện bảo mật so với phiên bản đơn giản chỉ với 8 byte.

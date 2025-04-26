@@ -1,10 +1,9 @@
-question: What happens during transaction
-answer: The secret of transaction
+question: What happens if a channel with an active HTLC is closed forcibly?
+answer: The HTLC is included in the commitment transactions as an output.
 wrong_answers:
-  - The secret of transaction
-  - A new secret is decided and a new revocation key is created.
-  - The previous commitment transaction is updated with the new secret and revocation
-    key.
+  - The HTLC is automatically cancelled.
+  - The funds are redistributed to the previous nodes.
+  - The channel cannot be closed until the HTLC has expired.
 explanation: |
-  During transaction
+  During a forced closure, pending HTLCs are represented as outputs in the commitment transactions, thus ensuring their execution or return according to the defined conditions.
 reviewed: false

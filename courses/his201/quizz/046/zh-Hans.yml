@@ -1,0 +1,8 @@
+question: 2010年7月，Slashdot上特别报道了哪个软件版本号？
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation:
+  Satoshi和Martti长期准备的这个版本的发布，标志着在沟通方面的新努力。

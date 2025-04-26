@@ -1,0 +1,5 @@
+---
+term: STRATUM V2
+
+---
+Stratumi areng, tuntud ülekandevõrgu protokoll Bitcoini jaoks, mis on mõeldud kaevandamiseks. Seda tüüpi protokoll on loodud selleks, et optimeerida suhtlust üksikute kaevurite ja kaevandamisbasseini serverite vahel, et suurendada nende kasumlikkust. Braiins pooli (endine "Slush Pool") poolt välja töötatud Stratum V2 sisaldab mitmeid täiustusi, sealhulgas tõhusamat kommunikatsiooni kaevurite ja kaevanduspoolide vahel, vähendades seeläbi vajalikku ribalaiust. Samuti vähendab see basseinide taristuvajadusi. Turvalisuse osas lisab see krüptograafilise autentimise, et vältida erinevaid man-in-the-middle rünnakuid, sealhulgas pealtkuulamist ja hashrate'i pahatahtlikku ümberjuhtimist. Stratum V2 oluline aspekt on see, et see sisaldab alamprotokolle, mis võimaldavad üksikutel kaevandajatel valida oma tehingukogumid, mida nad oma plokkidesse lisavad. See funktsioon annab üksikutele kaevuritele rohkem võimu, erinevalt algsest protokollist, kus koondised omasid täielikku kontrolli plokkide malli üle. See meetod võib seega tugevdada kaevandamisprotsessi detsentraliseerimist poolide poolt.

@@ -1,0 +1,9 @@
+question: Hvilket land er Gavin Andresen, som skapte den første Bitcoin-kranen i juni 2010 og hjalp Satoshi med utviklingen av programvaren, opprinnelig fra?
+answer: Australia
+wrong_answers:
+  - USA
+  - Frankrike
+  - Nederland
+explanation: |
+  Han ble [født](https: //gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) i Australia, men fikk amerikansk statsborgerskap i 2004.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Bitcoin Coreの設定ファイルでP2PトランスポートV2を有効または無効にするオプションはどれですか？
+
+answer: v2transport=
+
+wrong_answers:
+  - p2penable=
+  - networkv2=
+  - enablev2=
+
+explanation: |
+  P2P V2トランスポートは、Coreノードの設定ファイルでv2transport=オプションを使用して変更できます。
+
+  レビュー済み: false

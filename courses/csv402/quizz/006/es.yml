@@ -1,0 +1,9 @@
+question: En RGB, ¿dónde está el compromiso cuando se cierra un precinto de un solo uso?
+answer: En la salida de la transacción que gasta el punto de salida
+wrong_answers:
+  - En la entrada de la transacción gastando el punto de salida
+  - En el scriptSig de la transacción que gasta el punto de salida
+  - En el Testigo de la transacción que pasa el punto de salida
+explanation: |
+  El compromiso se inserta en la salida de la transacción que gasta el punto de salida que define el sello de un solo uso.
+reviewed: false

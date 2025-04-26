@@ -1,0 +1,9 @@
+question: Ufunguo unawezaje kufafanuliwa katika usimbaji fiche wa shift?
+answer: Nambari kutoka 0 hadi 25
+wrong_answers:
+  - Neno la nasibu
+  - Nambari yoyote ya nasibu bila kizuizi
+  - Nambari kutoka 1 hadi 26
+explanation: |
+  Katika usimbaji fiche wa shift, ufunguo ni nambari kati ya 0 na 25, ambayo inalingana na idadi ya nafasi za shift zinazotumika kwa kila herufi ya ujumbe katika alfabeti ya herufi 26.
+reviewed: false

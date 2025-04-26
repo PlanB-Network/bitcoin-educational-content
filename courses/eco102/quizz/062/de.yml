@@ -1,0 +1,9 @@
+question: Was passiert laut Laffer mit den Steuereinnahmen, wenn die Steuersätze übermäßig erhöht werden?
+answer: Sie sinken
+wrong_answers:
+  - Sie steigen
+  - Sie bleiben stabil
+  - Sie schwanken unvorhersehbar
+explanation: |
+  Gemäß der Laffer-Kurve führt eine übermäßige Erhöhung der Steuersätze zu einem Rückgang der Steuereinnahmen, da sie Arbeit, Investitionen und Produktion entmutigt.
+reviewed: false

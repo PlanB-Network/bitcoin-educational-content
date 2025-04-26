@@ -1,9 +1,0 @@
-question: Quel est le but de la Profondeur 2 dans la structure du Portefeuille HD?
-answer: Elle permet de différencier les comptes pour différentes cryptomonnaies ou réseaux.
-wrong_answers:
-  - Elle est utilisée pour dériver des clés enfants dans un but spécifique.
-  - Elle est utilisée pour les adresses de réception dans un portefeuille standard.
-  - Elle correspond aux chaînes externes et internes.
-explanation: |
-  Dans la structure du Portefeuille HD, la Profondeur 2 permet de différencier les comptes pour différentes cryptomonnaies ou réseaux. Cela permet d'organiser le portefeuille en fonction de différentes sources de fonds.
-reviewed: false

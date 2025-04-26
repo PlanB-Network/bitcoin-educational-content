@@ -1,0 +1,9 @@
+question: Como um cifrador de bloco pode ser transformado em um cifrador de fluxo?
+answer: Usando modos como OFB que geram um fluxo de chave a partir do cifrador de bloco
+wrong_answers:
+  - Dividindo o texto claro em bytes e criptografando-os um por um
+  - Aplicando preenchimento às mensagens antes da criptografia
+  - Aumentando o comprimento da chave para cada bloco criptografado
+explanation: |
+  Modos como OFB permitem que um cifrador de bloco atue como um cifrador de fluxo ao gerar um fluxo de chave, que é então usado para cada parte do texto claro.
+reviewed: false

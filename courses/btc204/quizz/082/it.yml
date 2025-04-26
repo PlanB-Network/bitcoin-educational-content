@@ -1,0 +1,13 @@
+question: Quale fase del processo Chaumian CoinJoin comporta il cambio di identità su Tor per garantire l'anonimato?
+
+answer: La registrazione degli output.
+
+wrong_answers:
+  - La registrazione degli input.
+  - La firma della transazione.
+  - La trasmissione della transazione.
+
+explanation: |
+  Per impedire al coordinatore di poter collegare un output specifico con un input, gli utenti cambiano la loro identità su Tor prima di inviare i loro indirizzi di ricezione in chiaro al coordinatore.
+
+reviewed: false

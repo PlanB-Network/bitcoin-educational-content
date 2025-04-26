@@ -1,4 +1,4 @@
-question: What is one of the main concerns about the banking system?
+question: What could be a main concern regarding the banking system?
 answer: The rules of the banking game are not transparent and understandable to all.
 wrong_answers:
   - The banking system is too easy to understand.
@@ -8,4 +8,4 @@ explanation: >-
   The text mentions that the question of who should control the banking
   system is crucial because the rules of the banking game are not transparent and
   understandable to all.
-reviewed: false
+reviewed: true

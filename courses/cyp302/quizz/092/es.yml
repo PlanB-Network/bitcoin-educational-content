@@ -1,0 +1,9 @@
+question: ¿Cómo se puede transformar un cifrado de bloque en un cifrado de flujo?
+answer: Utilizando modos como OFB que generan un flujo de clave a partir del cifrado de bloque
+wrong_answers:
+  - Dividiendo el texto plano en bytes y cifrándolos uno por uno
+  - Aplicando relleno a los mensajes antes de cifrar
+  - Aumentando la longitud de la clave para cada bloque cifrado
+explanation: |
+  Modos como OFB permiten que un cifrado de bloque actúe como un cifrado de flujo al generar un flujo de clave, que luego se utiliza para cada porción del texto plano.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hva er rollen til gruvearbeidere i Bitcoin-nettverket?
+answer: Gruvearbeidere sikrer nettverket og legger til transaksjoner i blokkene.
+wrong_answers:
+  - Gruvearbeidere skaper nye bitcoins.
+  - Gruvearbeidere verifiserer identiteten til Bitcoin-brukere.
+  - Gruvearbeidere setter prisen på Bitcoin.
+explanation: >-
+  Gruvearbeidere bruker sin beregningskraft til å løse komplekse matematiske problemer,
+  som lar dem legge til nye transaksjoner i blokkjeden. Denne prosessen sikrer
+  nettverket og opprettholder dets integritet.
+reviewed: false

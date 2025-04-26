@@ -1,0 +1,9 @@
+question: Quelle est la principale exigence matérielle pour qu'un profil Starter accepte les paiements en bitcoins ?
+answer: Un smartphone
+wrong_answers:
+  - Un mineur Bitcoin ASIC
+  - Un portefeuille matériel
+  - Un serveur auto-hébergé
+explanation: |
+  Le profil Starter ne nécessite qu'un smartphone ou une tablette avec un portefeuille Lightning, ce qui en fait une solution légère.
+reviewed: false

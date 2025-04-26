@@ -1,0 +1,11 @@
+question: Hva er den standard metoden for å ta sikkerhetskopi av den private nøkkelen i en Bitcoin-lommebok?
+answer: Å skrive inn din mnemoniske frase i hvilken som helst lommebokprogramvare
+wrong_answers:
+  - Å lagre din mnemoniske frase i en digital fil
+  - Å skrive din mnemoniske frase på en whiteboard
+  - Å dele din mnemoniske frase med en betrodd venn
+explanation: |
+  Den standard metoden for å ta sikkerhetskopi av den private nøkkelen i en Bitcoin-lommebok
+  er ved å skrive inn din mnemoniske frase i hvilken som helst lommebokprogramvare. Dette lar deg
+  gjenopprette lommeboken din.
+reviewed: true

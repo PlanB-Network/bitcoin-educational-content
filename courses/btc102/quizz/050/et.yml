@@ -1,0 +1,9 @@
+question: Millist lahendust soovitatakse Bitcoin maksete tegemiseks soodsalt?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Pangakonto
+  - RGB Layer
+explanation: |
+  Lightning võimaldab kiireid ja odavaid tehinguid igapäevaste ostude puhul. See on ideaalne vahend aktiivsele kasutajale.
+reviewed: false

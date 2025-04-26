@@ -1,0 +1,11 @@
+question: Mis on üks soovitatud alternatiivseid lahendusi paberile, et hoida oma mnemoonilist fraasi?
+answer: Graveerimine metallplaadile
+wrong_answers:
+  - Hoidmine digitaalses failis
+  - Kirjutamine tahvlile
+  - Salvestamine kontaktina oma telefonis
+explanation: |
+  Üks alternatiivseid lahendusi paberile oma mnemoonilise fraasi hoidmiseks
+  on graveerimine metallplaadile. See võib pakkuda vastupidavamat ja pikaealisemat
+  lahendust.
+reviewed: true

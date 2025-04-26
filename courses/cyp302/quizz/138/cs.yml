@@ -1,0 +1,9 @@
+question: Jakou vlastnost musí mít hašovací funkce, aby zajistila bezpečnost při ověřování softwaru?
+answer: Odolnost vůči kolizím
+wrong_answers:
+  - Reverzibilita
+  - Operabilita s asymetrickými klíči
+  - Generovatelnost v reálném čase
+explanation: |
+  Odolnost vůči kolizím zajišťuje, že je prakticky nemožné najít dva různé vstupy produkující stejný hash, což je důležité pro ověření, že software nebyl pozměněn.
+reviewed: false

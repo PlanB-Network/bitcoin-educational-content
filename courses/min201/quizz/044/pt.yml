@@ -1,9 +1,13 @@
-question: O que são "bitcoins virgens"?
-answer: São bitcoins recém-minerados que nunca foram gastos e não possuem histórico associado a eles.
+question: O que são bitcoins virgens?
+answer: Bitcoins recém-minerados que nunca foram gastos e não têm nenhum histórico associado a eles.
 wrong_answers:
   - Bitcoins que foram usados em atividades ilegais.
   - Bitcoins que foram perdidos ou esquecidos.
-  - Bitcoins que foram armazenados em uma carteira por um longo tempo.
+  - Bitcoins que foram armazenados em uma carteira por muito tempo.
 explanation: |
-  Bitcoins virgens são bitcoins recém-minerados que nunca foram gastos e não possuem histórico associado a eles. Esses bitcoins são frequentemente considerados mais valiosos, pois nunca foram contaminados, fornecendo alguma garantia contra rejeição por reguladores ou grandes plataformas de câmbio.
-reviewed: false
+  Bitcoins virgens são bitcoins recém-minerados que nunca
+  foram gastos e não têm nenhum histórico associado a eles. Esses
+  bitcoins são frequentemente considerados mais valiosos porque nunca
+  foram contaminados, oferecendo alguma garantia contra
+  rejeição por reguladores ou grandes plataformas de troca.
+reviewed: true

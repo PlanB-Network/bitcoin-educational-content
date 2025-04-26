@@ -5,9 +5,8 @@ wrong_answers:
   - Těžaři kontrolují cenu Bitcoinu.
   - Těžaři nemají v síti Bitcoin žádnou roli.
 explanation: |
-  Těžaři hrají zásadní roli v síti Bitcoin tím, že ověřují a
-
-  vytvářejí bloky. Posilují síť proti cenzuře použitím elektrické energie
-
-  pro výpočet důkazu práce pro Bitcoin.
-reviewed: false
+  Těžaři hrají zásadní roli v síti Bitcoin tím,
+  že ověřují a vytvářejí bloky. Posilují síť
+  proti cenzuře použitím elektřiny k výpočtu
+  důkazu práce pro Bitcoin.
+reviewed: true

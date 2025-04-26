@@ -1,0 +1,9 @@
+question: Quelle est l'illusion concernant la sécurité des canaux de communication dans le monde moderne ?
+answer: Croire que protéger physiquement le canal empêche l'interception
+wrong_answers:
+  - Penser que les réseaux sans fil sont inefficaces
+  - Croire que la cryptographie n'est pas nécessaire pour les communications locales
+  - Considérer que seules les agences nationales peuvent intercepter les données
+explanation: |
+  Il est illusoire de penser qu'il suffit de sécuriser physiquement le canal pour garantir la confidentialité, car de nombreux points d'interception restent accessibles, notamment pour les communications sans fil.
+reviewed: false

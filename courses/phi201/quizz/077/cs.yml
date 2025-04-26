@@ -1,0 +1,9 @@
+question: Jaký je název knihy Thomase Paina?
+answer: Zdravý rozum.
+wrong_answers:
+  - Unikátní smysl.
+  - Společné dobro.
+  - Žádná z výše uvedených odpovědí není správná.
+explanation: |
+  Kniha Thomase Paina s názvem Zdravý rozum (Le sens commun ve francouzštině) je vlivná brožura, která argumentovala pro nezávislost Ameriky a odsoudila britskou tyrannii, čímž hrála klíčovou roli v mobilizaci kolonistů.
+reviewed: false

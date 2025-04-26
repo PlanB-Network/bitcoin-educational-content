@@ -1,0 +1,5 @@
+---
+term: RELÉ DE BLOQUE COMPACTO
+
+---
+Protocolo introducido en Bitcoin Core en 2016 a través de BIP152, que propone un método de ahorro de ancho de banda para los nodos de la red. Compact Block Relay permite la comunicación de información de bloques de forma compacta, basándose en la suposición de que los nodos ya tienen la mayoría de las transacciones de un bloque reciente en su mempool. En lugar de transmitir cada transacción en su totalidad, lo que daría lugar a duplicaciones, Compact Block Relay propone enviar sólo identificadores cortos de las transacciones ya conocidas por los pares, acompañados de unas pocas transacciones seleccionadas (en particular, la transacción coinbase y las que el nodo probablemente no conozca). A continuación, el nodo puede solicitar a sus pares las transacciones que falten. Compact Block Relay reduce así la cantidad de datos intercambiados durante la propagación de bloques, lo que a su vez disminuye los picos de ancho de banda y mejora la eficiencia general de la red.

@@ -1,0 +1,9 @@
+question: Qu'est-ce que le problème de distribution des clés ?
+answer: La difficulté de transmettre des clés de manière sécurisée sans échange physique
+wrong_answers:
+  - La nécessité de générer de multiples paires de clés par client
+  - La difficulté de sécuriser le stockage physique des clés
+  - L'obligation de changer de clé à chaque communication
+explanation: |
+  Le problème de distribution des clés concerne le défi de transmettre des clés de manière sécurisée, une nécessité devenue cruciale dans les communications numériques où un échange physique est impraticable.
+reviewed: false

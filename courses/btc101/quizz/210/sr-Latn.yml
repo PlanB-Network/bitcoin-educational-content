@@ -1,0 +1,8 @@
+question: Koja zemlja je proglasila Bitcoin kao zakonsko sredstvo plaćanja?
+answer: El Salvador.
+wrong_answers:
+  - Sjedinjene Američke Države.
+  - Kina.
+  - Indija.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Pourquoi la rareté est-elle une propriété essentielle d'une bonne monnaie ?
+answer: Il préserve la valeur
+wrong_answers:
+  - Il garantit que seuls les actifs physiques peuvent être utilisés comme monnaie
+  - Elle garantit que la monnaie est largement accessible à tous les individus
+  - Il garantit que la monnaie doit toujours être garantie par une matière première telle que l'or
+explanation: |
+  La rareté empêche la création excessive de monnaie, ce qui permet de maintenir sa valeur et son pouvoir d'achat dans le temps.
+reviewed: false

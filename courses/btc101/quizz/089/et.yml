@@ -1,0 +1,9 @@
+question: Mis on risk liigselt keerukaks muuta oma bitcoinide turvalisus ja kättesaadavus?
+answer: Sa võid endale kahju teha, kui sa käidlad varukoopiate rahakotte valesti
+wrong_answers:
+  - Sa võid endale kahju teha, kui sa käidlad füüsilisi rahakotte valesti
+  - Sa võid endale kahju teha, kui sa käidlad digitaalseid rahakotte valesti
+  - Sa võid endale kahju teha, kui sa käidlad multisig rahakotte valesti
+explanation: |
+  Oma bitcoinide turvalisuse ja kättesaadavuse liigne keerukaks muutmine võib sulle kahju teha, näiteks kui sa käidlad oma rahakottide varukoopiaid valesti. See on seetõttu, et lihtsad varundamisprotseduurid on olulised juhuks, kui kaotad oma telefoni või arvuti, et taastada ligipääs oma vahenditele.
+reviewed: true

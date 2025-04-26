@@ -1,0 +1,9 @@
+question: Warum ist Knappheit eine wesentliche Eigenschaft einer guten Währung?
+answer: Sie bewahrt den Wert
+wrong_answers:
+  - Es garantiert, dass nur physische Vermögenswerte als Währung verwendet werden können
+  - Sie stellt sicher, dass die Währung für jeden Einzelnen weithin zugänglich ist
+  - Sie stellt sicher, dass die Währung immer durch einen Rohstoff wie Gold gedeckt sein muss
+explanation: |
+  Knappheit verhindert eine übermäßige Geldschöpfung, so dass der Wert und die Kaufkraft des Geldes auf Dauer erhalten bleiben.
+reviewed: false

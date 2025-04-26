@@ -1,0 +1,9 @@
+question: Jaký je základní rozdíl mezi filozofií svobody a filozofií moci?
+answer: Všechny ostatní odpovědi
+wrong_answers:
+  - Filozofie svobody upřednostňuje jednotlivce, zatímco filozofie moci upřednostňuje společnost
+  - Filozofie svobody hodnotí soukromé vlastnictví, zatímco filozofie moci hodnotí kolektivní zájem
+  - Filozofie svobody je založena na přirozeném právu, zatímco filozofie moci je založena na pozitivním právu
+explanation: |
+  Základní rozdíl spočívá v tom, že filozofie svobody zdůrazňuje jednotlivce a jejich práva, zatímco filozofie moci se zaměřuje na sociální a politické struktury, často na úkor autonomie jednotlivce a soukromého vlastnictví.
+reviewed: false

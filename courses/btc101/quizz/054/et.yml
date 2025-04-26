@@ -1,0 +1,10 @@
+question: Mis on hüperinflatsiooni teine faas?
+answer: Valuuta kokkuvarisemine & hinnatõus.
+wrong_answers:
+  - Usalduse kaotus.
+  - Raha trükkimise nõiaring.
+  - Uue valuuta teke.
+explanation: |
+  Hüperinflatsiooni teine faas on valuuta kokkuvarisemine & hinnatõus,
+  just pärast Usalduse Kaotuse Faasi.
+reviewed: true

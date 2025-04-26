@@ -1,0 +1,9 @@
+question: Mitkä ovat kaksi tapaa valaista kansalaisten arvostelukykyä Bastiat'n mukaan?
+answer: Filosofinen moraali ja taloudellinen moraali
+wrong_answers:
+  - Laki ja koulutus
+  - Uskonto ja tiede
+  - Henkilökohtainen kokemus ja kirjat
+explanation: |
+  Bastiat erottaa filosofisen moraalin, joka koskettaa sydäntä, ja taloudellisen moraalin, joka valaisee älyä näyttämällä toimien seuraukset.
+reviewed: false

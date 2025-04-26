@@ -5,9 +5,10 @@ wrong_answers:
   - An agent gains control over more than half of the nodes in the Bitcoin network.
   - An agent gains control over more than half of the mining pools in the Bitcoin
     network.
-explanation: >-
-  In a 51% attack, an agent with more than half of the network's hashrate
-  could potentially manipulate the blockchain by creating an alternate chain of blocks.
-  However, such an attack would be extremely costly and unlikely to be profitable,
-  making it an unlikely scenario.
-reviewed: false
+explanation: |
+  In a 51% attack, an agent with more than half of the
+  network hashrate could potentially manipulate the
+  blockchain by creating an alternative chain of blocks.
+  However, such an attack would be extremely costly and
+  unlikely to be profitable, making it an unlikely scenario.
+reviewed: true

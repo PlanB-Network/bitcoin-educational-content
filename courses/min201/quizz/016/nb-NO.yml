@@ -1,0 +1,14 @@
+question: Hva er rollen til Bitcoin-minere i energiverdenen?
+answer: Bitcoin-minere søker konstant etter kilder til billig elektrisitet, ofte de som er bortkastet eller uutnyttet. De kan fungere som en fleksibel etterspørselskilde, klar til å forbruke denne forlatte elektrisiteten, og dermed bidra til å kompensere for infrastrukturkostnader.
+wrong_answers:
+  - Bitcoin-minere søker konstant etter kilder til fornybar energi for å redusere sitt karbonavtrykk.
+  - Bitcoin-minere søker konstant etter kilder til kjerneenergi for å drive sine gruveoperasjoner, siden dette er den eneste rene og fornybare måten å produsere energi på.
+  - Bitcoin-minere søker konstant etter kilder til solenergi for å drive sine gruveoperasjoner.
+explanation: |
+  Kapittelet forklarer at Bitcoin-minere konstant
+  søker etter kilder til billig elektrisitet, ofte de som
+  er bortkastet eller uutnyttet. De kan fungere som en
+  fleksibel etterspørselskilde, klar til å forbruke denne
+  forlatte elektrisiteten, og dermed bidra til å
+  kompensere for infrastrukturkostnader.
+reviewed: true

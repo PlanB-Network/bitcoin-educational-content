@@ -1,0 +1,5 @@
+---
+term: KANÁLOVÉ TOVÁRNY
+
+---
+Pokročilý mechanismus, který se v současné době vyvíjí v systému Lightning a který umožňuje vytvářet a spravovat více platebních kanálů z jediného UTXO. Továrny kanálů využívají `n-of-n` multisig adres, takže skupina uživatelů může společně držet jedno UTXO. Z něj mohou mezi sebou otevírat a zavírat platební kanály bez dalších transakcí na řetězci, s výjimkou případů, kdy chtějí své prostředky z továrny vybrat. Tato metoda by mohla výrazně snížit náklady a prostor zabraný na Bitcoinu pro transakce Lightning. V praxi to znamená, že operace, které by normálně vyžadovaly transakce v řetězci pro každé otevření nebo uzavření kanálu, lze provádět mimo řetězec, přičemž bezpečnost je zaručena možností v případě potřeby zveřejnit nezveřejněné transakce. Slovy Davida A. Hardinga lze továrny na kanály popsat jako kanály Lightning používané ke generování dalších kanálů Lightning.

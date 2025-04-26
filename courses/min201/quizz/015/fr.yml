@@ -1,9 +1,9 @@
-question: Sur quel principe fonctionne le minage de Bitcoin ?
+question: Quel est le principe sur lequel fonctionne le minage de Bitcoin ?
 answer: Le minage de Bitcoin fonctionne sur un principe de loterie, où les chances de gagner un bloc (et donc la récompense en Bitcoin) toutes les dix minutes sont extrêmement faibles pour un petit mineur individuel.
 wrong_answers:
-  - Le minage de Bitcoin fonctionne sur un principe de premier arrivé, premier servi, où le premier mineur à résoudre un problème mathématique complexe obtient la récompense en Bitcoin.
-  - Le minage de Bitcoin fonctionne sur un principe d'enchères, où le mineur qui propose l'enchère la plus élevée obtient la récompense en Bitcoin.
+  - Le minage de Bitcoin fonctionne sur un principe du premier arrivé, premier servi, où le premier mineur à résoudre un problème mathématique complexe obtient la récompense en Bitcoin.
+  - Le minage de Bitcoin fonctionne sur un principe d'enchère, où le mineur qui propose l'offre la plus élevée obtient la récompense en Bitcoin.
   - Le minage de Bitcoin fonctionne sur un principe de rotation, où chaque mineur a son tour pour miner un bloc et recevoir la récompense en Bitcoin.
 explanation: |
   Le chapitre explique que le minage de Bitcoin fonctionne sur un principe de loterie, où les chances de gagner un bloc (et donc la récompense en Bitcoin) toutes les dix minutes sont extrêmement faibles pour un petit mineur individuel.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: ¿En qué obra económica popular Henri Hazlitt revisita el ejemplo de la ventana rota de Bastiat?
+answer: Economía en una lección
+wrong_answers:
+  - 49 Lecciones de Economía
+  - Freakonomía
+  - El Arte de la Economía
+explanation: |
+  Henri Hazlitt, en Economía en una lección, utiliza el ejemplo de la ventana rota para ilustrar las consecuencias ocultas de las políticas económicas.
+reviewed: false

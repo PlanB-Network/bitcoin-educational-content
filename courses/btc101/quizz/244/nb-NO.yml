@@ -1,0 +1,8 @@
+question: Hva er en måte å teste ut Lightning Network på selv?
+answer: Ved å prøve podcastapplikasjonen Fountain
+wrong_answers:
+  - Ved å utvinne Bitcoin
+  - Ved å kjøpe Bitcoin
+  - Ved å lage en ny kryptovaluta
+explanation: >-
+  En måte å teste ut Lightning Network på selv er ved å prøve podcastapplikasjonen Fountain, som lar deg bli belønnet med noen sats for å lytte til dine favorittpodcaster.

@@ -1,0 +1,9 @@
+question: Millist suurt probleemi püüdsid krüptograafid Diffie, Hellman ja Merkle 1970ndatel lahendada?
+answer: Võtmete levitamise ja haldamise probleemid
+wrong_answers:
+  - Post-kvantkrüptograafia arendamine
+  - Sõjaliste sidete turvamine
+  - Sümmeetrilise krüpteerimise tehnikate täiustamine
+explanation: |
+  Diffie, Hellman ja Merkle olid motiveeritud praktilistest raskustest, mis kaasnesid võtmete levitamise ja haldamisega, et tagada suhtlus turvaliselt, mis on kriitilised väljakutsed maailmas, mis liigub digitaalse suhtluse suunas.
+reviewed: false

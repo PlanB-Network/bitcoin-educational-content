@@ -1,9 +1,9 @@
 question: Was ist der Zweck von Phishing-Versuchen?
 answer: Um sensible Informationen wie Ihre Zugangsdaten und Passwörter zu extrahieren.
 wrong_answers:
-  - Um Ihnen Spam-E-Mails zu senden.
-  - Um Ihnen Produkte oder Dienstleistungen zu verkaufen.
-  - Um Sie zu Veranstaltungen oder Webinaren einzuladen.
+  - Ihnen Spam-E-Mails zu senden.
+  - Ihnen Produkte oder Dienstleistungen zu verkaufen.
+  - Sie zu Veranstaltungen oder Webinaren einzuladen.
 explanation: |
   Phishing-Versuche zielen darauf ab, sensible Informationen wie Ihre Zugangsdaten und Passwörter zu extrahieren. Hacker verwenden verschiedene Taktiken wie betrügerische E-Mails, um Sie dazu zu bringen, Ihre Informationen preiszugeben.
-reviewed: false
+reviewed: true

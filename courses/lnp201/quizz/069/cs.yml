@@ -1,9 +1,0 @@
-question: Co se stane, když pokus o transakci selže kvůli nedostatečné likviditě v Lightning Network?
-answer: Zkouší se jiná trasa, dokud není transakce úspěšně provedena.
-wrong_answers:
-  - Transakce je zrušena a prostředky jsou vráceny odesílateli.
-  - Transakce je pozastavena, dokud nebude k dispozici dostatečná likvidita.
-  - Transakce je automaticky přesměrována na kanál s dostatečnou likviditou.
-explanation: |
-  V Lightning Network, pokud pokus o transakci selže kvůli nedostatečné likviditě v kanálu, uzel zkusí jinou trasu. Tento proces pokračuje, dokud není transakce úspěšně provedena. Tento mechanismus zajišťuje, že transakce mohou být dokončeny, i když původně zvolená trasa nemá dostatek likvidity.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Apa fungsi dari algoritma pembangkit kunci dalam skema enkripsi simetris?
+answer: Ia menghasilkan kunci privat
+wrong_answers:
+  - Ia menghasilkan kunci publik
+  - Ia meng-hash pesan
+  - Ia mengenkripsi pesan
+explanation: |
+  Dalam skema enkripsi simetris, algoritma pembangkit kunci menghasilkan sebuah kunci privat, yang kemudian akan digunakan untuk mengenkripsi dan mendekripsi pesan.
+reviewed: false

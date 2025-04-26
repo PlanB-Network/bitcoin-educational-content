@@ -1,0 +1,8 @@
+question: O que distingue um fluxo de chave RC4 de comprimento padrão da versão simplificada apresentada no exemplo?
+answer: O comprimento do array S no RC4 padrão é de 256 bytes
+wrong_answers:
+  - O array S é limitado a 128 bytes
+  - A chave usada deve ter mais de 8 bytes
+  - Não há um comprimento fixo para o S no RC4 padrão
+explanation: |
+  No RC4 padrão, o array S contém 256 bytes, o que aumenta significativamente a complexidade dos cálculos e melhora a segurança em comparação com a versão simplificada que possui apenas 8 bytes.

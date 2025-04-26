@@ -162,6 +162,11 @@ La passphrase non deve essere confusa con il codice PIN. Gioca un ruolo nella de
 La passphrase è uno strumento molto potente per migliorare la sicurezza dei tuoi bitcoin. Tuttavia, è molto importante capire come funziona prima di implementarla, per evitare di perdere l'accesso al tuo portafoglio. Spiegherò come utilizzare la passphrase in un altro tutorial dedicato.
 
 ![LEDGER FLEX](assets/notext/29.webp)
+
+La passphrase è uno strumento molto potente per rafforzare la sicurezza dei tuoi bitcoin. Tuttavia, è fondamentale comprenderne il funzionamento prima di implementarla, per evitare di perdere l’accesso al portafoglio. Per questo ti spiego tutto in un tutorial dedicato:
+
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 Infine, l'ultima pagina delle impostazioni ti permette di resettare il tuo Ledger. Procedi con questo reset solo se sei certo che non contenga chiavi che assicurano bitcoin, poiché potresti perdere definitivamente l'accesso ai tuoi fondi.
 ![LEDGER FLEX](assets/notext/30.webp)
 
@@ -250,7 +255,7 @@ Puoi aggiungere un'*Etichetta* per descrivere la fonte dei bitcoin che saranno a
 
 Per maggiori informazioni sull'etichettatura, ti consiglio anche di consultare questo altro tutorial:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Puoi quindi utilizzare questo indirizzo per ricevere bitcoin.
 

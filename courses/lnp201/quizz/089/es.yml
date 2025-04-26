@@ -1,9 +1,0 @@
-question: ¿Qué necesita hacer un comprador para gestionar la liquidez en la Lightning Network?
-answer: Canales abiertos
-wrong_answers:
-  - Conectarse a otros nodos
-  - Mantener un equilibrio de liquidez en ambos lados
-  - Comprar canales
-explanation: |
-  Para los compradores en la Lightning Network, gestionar la liquidez implica abrir canales. Esto les proporciona liquidez saliente.
-reviewed: false

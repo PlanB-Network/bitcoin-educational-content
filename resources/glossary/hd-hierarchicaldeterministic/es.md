@@ -1,0 +1,5 @@
+---
+term: HD (JERÁRQUICO-DETERMINISTA)
+
+---
+Se refiere a un monedero Bitcoin que utiliza una información única (la semilla) para generar multitud de pares de claves públicas y privadas de forma secuencial y reproducible. Este método de gestión de claves está definido por el estándar BIP32. La principal ventaja de los monederos HD es que permiten a los usuarios disponer de una multitud de pares de claves diferentes, en particular para evitar la reutilización de direcciones, pudiendo al mismo tiempo regenerarlas todas a partir de una única información. Esta estructura se describe como jerárquica porque permite crear una organización en forma de árbol de múltiples claves y direcciones a partir de una única semilla. Y es determinista en el sentido de que cada semilla genera siempre la misma secuencia de claves en cualquier monedero que se ajuste a este sistema.

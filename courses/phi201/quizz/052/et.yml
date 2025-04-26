@@ -1,0 +1,9 @@
+question: Mis oli Püha Augustinuse seisukoht vaimse võimu ja ajaliku võimu suhte kohta?
+answer: Ajalik võim peab alluma vaimsele võimule.
+wrong_answers:
+  - Vaimne võim peab alluma ajalikule võimule.
+  - Mõlemad võimud on sõltumatud üksteisest ja peavad rahumeelselt koos eksisteerima.
+  - Ajalikul võimul puudub legitiimsus ja see tuleb kaotada vaimse võimu kasuks.
+explanation: |
+  Püha Augustinus väitis, et ajalik võim peab alluma vaimsele võimule, kuna inimelu eesmärk on vaimne ja peaks juhendama poliitilisi tegevusi, et need oleksid kooskõlas kristlike väärtustega.
+reviewed: false

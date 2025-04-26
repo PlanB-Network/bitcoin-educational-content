@@ -1,0 +1,9 @@
+question: Jaký je hlavní cíl klasické kryptografie, který je stále přítomen v moderní kryptografii?
+answer: Důvěrnost zpráv
+wrong_answers:
+  - Zjednodušení zpráv
+  - Opakování zpráv
+  - Automatizace odesílání zpráv
+explanation: |
+  Klasická kryptografie byla primárně zaměřena na důvěrnost, a tento cíl zůstává zásadní i v moderní kryptografii, i když byly přidány další tématy, jako jsou integrita a autentičnost.
+reviewed: false

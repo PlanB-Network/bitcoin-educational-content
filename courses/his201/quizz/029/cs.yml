@@ -1,0 +1,9 @@
+question: Jakou kritiku vyslovil zakládající člen cypherpunků, John Gilmore, na adresu vynálezu Satoshiho Nakamota v lednu 2009?
+answer: Bitcoin znečišťuje planetu
+wrong_answers:
+  - Bitcoin usnadňuje daňové úniky
+  - Bitcoin je zranitelný vůči Sybil útokům
+  - Bitcoin je deflační
+explanation: |
+  [Kritizoval](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin za spotřebu elektřiny a generování oxidu uhličitého (skleníkový plyn).
+reviewed: false

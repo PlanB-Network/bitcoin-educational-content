@@ -1,7 +1,0 @@
-description: |
-  Electrum là một ví Bitcoin đa năng, ưu tiên sự an toàn và linh hoạt cho người dùng.
-
-  Nó hỗ trợ nhiều nền tảng bao gồm di động, máy tính để bàn và giao diện dòng lệnh. Khóa riêng của bạn được mã hóa và giữ trên thiết bị của bạn, đảm bảo rằng chúng không bao giờ bị lộ. Hơn nữa, Electrum sử dụng một cụm từ bí mật để cho phép khôi phục quỹ, và cung cấp quyền truy cập nhanh chóng vào blockchain Bitcoin thông qua mạng lưới máy chủ của mình. Nó hỗ trợ lưu trữ ngoại tuyến "cold storage" để giữ an toàn cho khóa riêng của bạn, và cung cấp khả năng multisig để chia sẻ quyền cho việc chi tiêu coin. Electrum cũng xác minh tất cả các giao dịch trong lịch sử của bạn sử dụng Simplified Payment Verification (SPV), và cho phép tích hợp plugin của bên thứ ba, như dịch vụ multisig và ví cứng.
-
-contributors:
-  - rabbit-hole

@@ -1,0 +1,9 @@
+question: Hva er fordelen med Lightning Network-betalinger for selgere på utsalgsstedet?
+answer: Lynbetalinger gjøres opp nesten umiddelbart og krever ikke flere mellomledd, noe som reduserer gebyrer og forsinkelser i oppgjøret.
+wrong_answers:
+  - Lynutbetalinger tar flere uker å bekrefte og krever mye papirarbeid.
+  - Lynbetalinger skjer bare hvis de er godkjent av en sentralbanks myndighet.
+  - Lynbetalinger kan reverseres etter kjøpers ønske etter salget.
+explanation: |
+  Lightning Network gjør transaksjoner raskere og billigere ved å tillate oppgjør utenfor kjeden. Selgere kan motta penger nesten umiddelbart, med minimale gebyrer, og uten å være avhengig av tradisjonelle betalingsformidlere.
+reviewed: false

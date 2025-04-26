@@ -1,11 +1,9 @@
-question: Co je hash v kontextu kryptografických hashovacích funkcí?
-answer: Unikátní a pevně velká digitální otisk vytvořený hashovací funkcí.
+question: Co se děje během každého kompresního kola v SHA256?
+answer: Stavové proměnné jsou aktualizovány z datových slov zprávy a konstant
 wrong_answers:
-  - Typ šifrovacího algoritmu.
-  - Klíč použitý k dešifrování dat.
-  - Metoda komprese dat.
+  - Konečný hash je postupně generován po každém kole
+  - Bity zprávy jsou přeuspořádány
+  - Počáteční hodnoty proměnných zůstávají nezměněny
 explanation: |
-  V kontextu kryptografických hashovacích funkcí je hash unikátní a
-  pevně velký digitální otisk vytvořený hashovací funkcí. Reprezentuje
-  vstupní data způsobem, který je unikátní a nevratný.
+  Každé kolo upravuje stavové proměnné pomocí slov, konstant a logických operací pro rozšíření informací.
 reviewed: false

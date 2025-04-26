@@ -1,0 +1,9 @@
+question: Hvorfor kan Lightning Network sammenlignes med "e-post for betalinger"?
+answer: Fordi det muliggjør sømløs, global og tillatelsesfri verdiutveksling like enkelt som å sende en melding.
+wrong_answers:
+  - Fordi den sender betalinger gjennom tradisjonelle e-postleverandører.
+  - Fordi den bare fungerer når den er vedlagt vanlige e-postmeldinger.
+  - Fordi den lagrer brukerbalanser i brødteksten i en e-post.
+explanation: |
+  På samme måte som e-post revolusjonerte kommunikasjonen ved å fjerne mellomledd og gjøre det mulig for alle å sende meldinger over hele verden, forenkler og fremskynder Lightning Network transaksjoner og gjør verdioverføring like friksjonsfri og tilgjengelig som e-post.
+reviewed: false

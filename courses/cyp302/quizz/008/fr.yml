@@ -1,0 +1,9 @@
+question: Comment appelle-t-on la branche de la cryptographie utilisant une paire de clés publique et privée ?
+answer: La cryptographie asymétrique
+wrong_answers:
+  - La cryptographie symétrique
+  - La cryptographie mono-algorithmique
+  - La cryptographie intégrative
+explanation: |
+  La cryptographie asymétrique repose sur l'utilisation d'une paire de clés, publique et privée, permettant un chiffrement sans partage de clé secrète.
+reviewed: false

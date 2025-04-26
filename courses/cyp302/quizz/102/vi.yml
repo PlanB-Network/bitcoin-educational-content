@@ -1,0 +1,8 @@
+question: Thứ tự đúng của các bước trong mã hóa xác thực là gì?
+answer: Đầu tiên mã hóa, sau đó tạo một thẻ trên văn bản đã mã hóa
+wrong_answers:
+  - Đầu tiên tạo một thẻ, sau đó mã hóa tin nhắn và thẻ
+  - Kết hợp văn bản gốc với một thẻ, sau đó mã hóa
+  - Tạo một thẻ, sau đó sử dụng khóa công khai để mã hóa nó
+explanation: |
+  Để đảm bảo an ninh, mã hóa xác thực phải mã hóa tin nhắn trước, sau đó tạo ra một thẻ trên văn bản đã mã hóa. Các thứ tự khác có thể tiềm ẩn rủi ro.

@@ -1,0 +1,9 @@
+question: Welcher amerikanische Entwickler entdeckte einen seltsamen Block während des Wertüberlaufvorfalls am 15. August 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Dieser Block, der einen Fehler ausnutzte, schuf über 184 Milliarden Bitcoins.
+reviewed: false

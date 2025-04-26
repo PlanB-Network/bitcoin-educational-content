@@ -1,0 +1,9 @@
+question: Se um inteiro N é o produto de dois números primos p e q, como é calculada a ordem de N?
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  Para N igual ao produto de dois números primos p e q, a ordem de N é calculada como (p - 1) * (q - 1).
+reviewed: false

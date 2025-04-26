@@ -1,0 +1,7 @@
+---
+term: SCALABILITY
+
+---
+Odkazuje na schopnost Bitcoinu zvládnout nárůst objemu transakcí při zachování přijatelné úrovně výkonu. Bitcoin čelí přirozeným technickým omezením, jako je velikost bloku, časový interval mezi jednotlivými bloky a skutečnost, že transakce je považována za nezměnitelnou až po několika potvrzeních. Tato omezení brání bitcoinu efektivně zpracovávat neomezený počet transakcí. Když poptávka po prostoru v blocích zesílí, jsou uživatelé nuceni zvýšit poplatky, které nabízejí za zpracování svých transakcí. Škálovatelnost, tedy schopnost Bitcoinu zvládat nárůst objemu transakcí, lze zlepšit buď přímými úpravami protokolu, nebo externími řešeními, jako je Lightning Network. Otázka škálovatelnosti byla vždy v centru intenzivních debat uvnitř komunity. K prvnímu pokusu o zvětšení velikosti bloků došlo v říjnu 2010 [opravou navrženou Jeffem Garzikem](https://bitcointalk.org/index.php?topic=1347.0). Toto téma škálovatelnosti vedlo zejména k válce o velikost bloků v letech 2015 až 2017.
+
+> ► Termín "scalabilité" je anglicismus. Správný překlad anglického termínu "scalability" je "évolutivité" nebo "passage à l'échelle". V komunitě je však obecně přijato používat přímo termín "scalabilité".*

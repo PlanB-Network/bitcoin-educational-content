@@ -1,0 +1,13 @@
+question: Unsur apa yang mencegah pengamat eksternal membedakan antara transaksi Stonewall dan Stonewall x2?
+
+answer: Pola transaksi tersebut sama
+
+wrong_answers:
+  - Transaksi tersebut dienkripsi
+  - Jumlah yang terlibat dalam transaksi selalu identik
+  - Tanda tangan digital dari transaksi dihasilkan oleh algoritma yang sama
+
+explanation: |
+  Dari sudut pandang eksternal, pola transaksi persis sama. Tanpa informasi konteks tambahan, oleh karena itu, tidak mungkin untuk membedakan transaksi Stonewall dari transaksi Stonewall x2, karena mereka mengadopsi pola yang sama.
+
+reviewed: false

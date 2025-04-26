@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi tím, když se s bitcoinem zachází jako s digitálním aktivem, a tím, když se s ním v účetnictví zachází jako s měnou?
+answer: Jelikož se jedná o digitální aktivum, je nutné sledovat pořizovací cenu každé transakce a zisky/ztráty, zatímco kdyby se s ním zacházelo jako s měnou, bylo by přecenění jednodušší a méně časté.
+wrong_answers:
+  - Pokud se s ním zachází jako s digitálním aktivem, je zcela osvobozen od všech daní.
+  - Pokud se s nimi zachází jako s měnou, není třeba zaznamenávat žádné transakce.
+  - Zacházení s ním jako s měnou vyžaduje okamžitý přechod na nový účetní software.
+explanation: |
+  Zacházení s digitálními aktivy obvykle zahrnuje výpočet kapitálových zisků nebo ztrát z každé transakce, což zvyšuje složitost. Kdyby se o bitcoinech účtovalo jako o měně, bylo by to jednodušší - stačilo by pravidelně aktualizovat fiat hodnotu, jak se to dělá u jiných měn.
+reviewed: false

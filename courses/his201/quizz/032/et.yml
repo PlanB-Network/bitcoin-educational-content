@@ -1,0 +1,9 @@
+question: Mis oli noore soomlase nimi, kes aitas Satoshi'l tema projekti kommunikatsiooniga 2009. aastal, eelkõige haldades Bitcoin'i veebilehte ja foorumit?
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Ta võttis Satoshi'ga ühendust 2009. aasta aprillis. Satoshi andis talle kohe ülesandeks kirjutada KKK ja esitlus veebilehe jaoks. Martti Malmi oli Satoshi parem käsi üle aasta.
+reviewed: false

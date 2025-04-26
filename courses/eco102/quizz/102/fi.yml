@@ -1,0 +1,9 @@
+question: Mitä tehtäviä valtion tulisi Bastiatin mukaan hoitaa?
+answer: Sisäinen turvallisuus, ulkoinen turvallisuus ja oikeudenmukaisuus
+wrong_answers:
+  - Säätely, uudelleenjako ja oikeudenmukaisuus
+  - Turvallisuus, oikeudenmukaisuus ja tasa-arvo
+  - Koulutus, terveys ja oikeudenmukaisuus
+explanation: |
+  Bastiat kannattaa valtion rajattua roolia sisäisen ja ulkoisen turvallisuuden sekä oikeudenmukaisuuden tehtävissä, yksilöiden luonnollisten oikeuksien suojelemiseksi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Menurut Keynes, apa peran uang dalam ekonomi?
+answer: Sebagai instrumen kebijakan ekonomi
+wrong_answers:
+  - Hanya sebagai alat tukar
+  - Sebagai penghambat pertumbuhan
+  - Sebagai alat spekulasi
+explanation: |
+  Bagi Keynes, uang adalah tuas kebijakan ekonomi yang memungkinkan pemerintah untuk mengatur ekonomi dengan mempengaruhi investasi, pekerjaan, dan permintaan secara keseluruhan.
+reviewed: false

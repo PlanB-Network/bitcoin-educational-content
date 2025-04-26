@@ -1,0 +1,9 @@
+question: Mis on pangandussektori roll majanduslanguse esilekutsumisel Austria äritsükli teooria kohaselt?
+answer: Pangandussektor kutsub esile majanduslanguse, kui otsustab vähendada oma riski ja seeläbi vähendab krediidivoogu.
+wrong_answers:
+  - Pangandussektor kutsub esile majanduslanguse, kui otsustab suurendada oma riski ja seeläbi suurendab krediidivoogu.
+  - Pangandussektor kutsub esile majanduslanguse, kui otsustab hoida oma riski samal tasemel ja seeläbi hoiab krediidivoogu samal tasemel.
+  - Pangandussektoril ei ole rolli majanduslanguse esilekutsumisel Austria äritsükli teooria kohaselt.
+explanation: |
+  Austria äritsükli teooria kohaselt kutsub pangandussektor esile majanduslanguse, kui otsustab vähendada oma riski ja seeläbi vähendab krediidivoogu. See toob kaasa palju pankrotte, krediidikarmistamise, saadaoleva ostujõu vähenemise ja finantskollapsid.
+reviewed: false

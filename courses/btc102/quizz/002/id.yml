@@ -1,0 +1,9 @@
+question: Tindakan pencegahan apa yang harus dilakukan terhadap penipuan donasi dan lotere palsu?
+answer: Jangan pernah mengirim uang untuk menerima bitcoin
+wrong_answers:
+  - Selalu kirim dalam jumlah kecil untuk menguji penawaran
+  - Berinvestasi untuk mendapatkan keuntungan yang cepat dan mudah
+  - Berbagi informasi pribadi untuk mengamankan transaksi
+explanation: |
+  Permintaan pembayaran di muka adalah tanda umum penipuan dalam jenis penipuan ini.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Qual è l'obiettivo del routing delle transazioni sulla Lightning Network?
-answer: L'obiettivo del routing delle transazioni sulla Lightning Network è ottimizzare la velocità, la sicurezza e l'efficienza delle transazioni, preservando al contempo la privacy dell'utente.
-wrong_answers:
-  - Aumentare la dimensione della blockchain.
-  - Ridurre la velocità delle transazioni.
-  - Compromettere la privacy dell'utente.
-explanation: |
-  L'obiettivo del routing delle transazioni sulla Lightning Network è ottimizzare la velocità, la sicurezza e l'efficienza delle transazioni. Ciò viene raggiunto considerando vari fattori come le commissioni, il tempo di scadenza di HTLC, il numero di nodi intermedi e un fattore di casualità. Allo stesso tempo, il sistema è progettato per preservare la privacy dell'utente senza divulgare la distribuzione precisa della liquidità.
-reviewed: false

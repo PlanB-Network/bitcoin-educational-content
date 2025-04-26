@@ -1,0 +1,8 @@
+question: Qual é o principal objetivo de um esquema de criptografia autenticada?
+answer: Garantir a confidencialidade e autenticidade das comunicações
+wrong_answers:
+  - Gerar chaves de maneira segura
+  - Substituir MACs em trocas criptográficas
+  - Descriptografar automaticamente mensagens interceptadas
+explanation: |
+  Um esquema de criptografia autenticada combina criptografia e um código de autenticação (MAC) para garantir tanto a confidencialidade das mensagens quanto a sua autenticidade.

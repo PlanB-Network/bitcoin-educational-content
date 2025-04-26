@@ -1,0 +1,5 @@
+---
+term: ESCOLA AUSTRÍACA
+
+---
+Uma escola de pensamento económico que teoriza o mercado como um conjunto de interações individuais voluntárias, enfatiza a espontaneidade da ordem económica e critica as intervenções estatais. A Escola Austríaca defende o papel da propriedade privada, a liberdade contratual e o comércio livre, ao mesmo tempo que critica os efeitos perturbadores da criação monetária na economia. Os seus colaboradores, como Carl Menger, Ludwig von Mises e Friedrich Hayek, desenvolveram conceitos como a formação de preços, a função da moeda, a dinâmica do capital e a teoria subjectiva do valor. A Escola Austríaca critica o socialismo pela sua incapacidade de efetuar cálculos económicos eficientes e favorece uma abordagem liberal. Valoriza o mercado livre e vê o intervencionismo estatal como uma fonte de desequilíbrios económicos. Muitos entusiastas da Bitcoin aderem a estas ideias, acreditando que a Bitcoin representa uma ferramenta em harmonia com esta filosofia devido à sua natureza distribuída, à limitação da sua criação monetária e à sua capacidade de funcionar independentemente da intervenção do Estado.

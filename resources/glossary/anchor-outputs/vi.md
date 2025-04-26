@@ -1,0 +1,5 @@
+---
+term: ANCHOR OUTPUTS
+
+---
+A proposal aimed at improving the management of transaction fees within Lightning channels. With each state change in a Lightning channel, the stakeholders create and sign a new commitment transaction that reflects the new distribution of funds within the channel. The issue with this mechanism lies in determining the transaction fees at the time of its creation. Indeed, transaction fees on the Bitcoin network are subject to significant fluctuations, both upwards and downwards. If the fees set for the last commitment transaction are insufficient at the time of the unilateral closing of the channel, not only will the transaction take a considerable amount of time to confirm, but the temporal locking mechanisms (timelocks) could also allow for the theft of funds. Anchor outputs reserve a small portion of the funds in a commitment transaction to cover future fees. In the event of network congestion and rising fees, anchor outputs allow for the modification of transaction fees after the creation of the commitment transaction, thus ensuring a sufficiently rapid closure of the Lightning channel.

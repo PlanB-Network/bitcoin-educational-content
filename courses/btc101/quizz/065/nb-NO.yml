@@ -1,0 +1,11 @@
+question: Hvilke økonomiske prinsipper er Bitcoin i tråd med?
+answer: Prinsipper for østerriksk økonomi
+wrong_answers:
+  - Prinsipper for keynesiansk økonomi
+  - Prinsipper for marxistisk økonomi
+  - Prinsipper for nyklassisk økonomi
+explanation: |
+  Bitcoin er i tråd med prinsippene for østerriksk økonomi. Dens begrensede
+  mengde og mangel på en sentral enhet beskytter den mot de iboende risikoene for inflasjon
+  i tradisjonelle valutaer.
+reviewed: true

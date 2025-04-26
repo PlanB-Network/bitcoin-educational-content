@@ -1,0 +1,8 @@
+question: Mis on peamine erinevus filosoofilise moraali ja majandusliku moraali vahel Bastiati järgi?
+answer: Üks kõnetab südant, teine intellekti
+wrong_answers:
+  - Üks on individuaalne, teine kollektiivne
+  - Üks on iidne, teine moodne
+  - Üks on religioosne, teine ilmalik
+explanation: |
+  Filosoofiline moraal pöördub tundete ja isikliku vooruse poole, samas kui majanduslik moraal püüab ratsionaalselt harida, näidates tegevuste tagajärgi.

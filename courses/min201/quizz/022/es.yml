@@ -1,9 +1,11 @@
-question: ¿En qué se basarán los mineros para recibir compensación después de que se hayan creado los 21 millones de bitcoins?
-answer: Los mineros se basarán únicamente en las tarifas de transacción como compensación.
+question: ¿En qué confiarán los mineros para obtener compensación después de que se hayan creado los 21 millones de bitcoins?
+answer: Los mineros confiarán únicamente en las tarifas de transacción para obtener compensación.
 wrong_answers:
-  - Los mineros se basarán únicamente en las recompensas por bloque como compensación.
-  - Los mineros se basarán únicamente en las confirmaciones de transacción como compensación.
-  - Los mineros se basarán únicamente en las tarifas de red como compensación.
+  - Los mineros confiarán únicamente en las recompensas de bloque para obtener compensación.
+  - Los mineros confiarán únicamente en las confirmaciones de transacción para obtener compensación.
+  - Los mineros confiarán únicamente en las tarifas de red para obtener compensación.
 explanation: |
-  Para el año 2140, no se crearán nuevos bitcoins. En este punto, los mineros se basarán únicamente en las tarifas de transacción como compensación.
-reviewed: false
+  Para 2140, no se crearán nuevos bitcoins. En este punto,
+  los mineros confiarán únicamente en las tarifas de transacción para
+  obtener compensación.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Apa keuntungan menggunakan dompet kustodian untuk profil Starter?
+answer: Mengurangi tanggung jawab teknis
+wrong_answers:
+  - Peningkatan kontrol atas kunci pribadi
+  - Privasi yang ditingkatkan dengan otonomi penuh atas transaksi
+  - Penghapusan biaya transaksi
+explanation: |
+  Dompet kustodian mengelola kunci pribadi, meringankan beban teknis bagi pengguna.
+reviewed: false

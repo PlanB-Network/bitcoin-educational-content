@@ -1,0 +1,9 @@
+question: Lightning Invoice में, human-readable part में prefix "lnbc" का क्या मतलब है?
+answer: यह Bitcoin Blockchain पर एक लाइटनिंग ट्रांजैक्शन को दर्शाता है
+wrong_answers:
+  - कि Invoice सिर्फ Bitcoin और Testnet पर ही वैध है
+  - कि Invoice को bech32 में एनकोड किया गया है
+  - यह एक जीडब्ल्यू-7 ट्रांजैक्शन है
+explanation: |
+  उपसर्ग lnbc यह दर्शाता है कि Invoice, Bitcoin नेटवर्क पर एक लाइटनिंग लेन-देन के लिए है, न कि किसी अन्य नेटवर्क पर।
+reviewed: false

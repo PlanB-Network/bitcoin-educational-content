@@ -1,11 +1,11 @@
-question: Co by se stalo, pokud by uživatel rozhodl následovat jiná pravidla, která by zneplatnila
-  současná konsenzuální pravidla?
-answer: Uzel již nebude součástí Bitcoinové sítě
+question: Co by se stalo, pokud by uživatel uzlu rozhodl následovat odlišná pravidla, která by byla v rozporu s existujícími pravidly konsensu?
+answer: Uzel již nebude součástí Bitcoinové sítě.
 wrong_answers:
-  - Uzel se stane součástí jiné Bitcoinové sítě
-  - Uzel bude Bitcoinovou sítí penalizován
-  - Uzel bude Bitcoinovou sítí odměněn
-explanation: >-
-  Pokud se uživatel rozhodne následovat jiná pravidla, která zneplatní současná
-  konsenzuální pravidla, pak tento uzel již nebude součástí Bitcoinové sítě.
-reviewed: false
+  - Uzel se stane součástí jiné Bitcoinové sítě.
+  - Uzel bude Bitcoinovou sítí penalizován.
+  - Uzel bude Bitcoinovou sítí odměněn.
+explanation: |
+  Pokud by uživatel uzlu rozhodl následovat jiná pravidla,
+  která by invalidovala současná pravidla konsensu, pak by tento uzel
+  již nebyl součástí Bitcoinové sítě.
+reviewed: true

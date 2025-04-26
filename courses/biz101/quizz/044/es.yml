@@ -1,0 +1,9 @@
+question: ¿Cuál es una de las principales ventajas para los comerciantes que utilizan Lightning Network?
+answer: Comisiones de transacción reducidas
+wrong_answers:
+  - Pagos garantizados por bancos
+  - Aumento automático de las ventas
+  - Eliminación de impuestos comerciales
+explanation: |
+  Las comisiones por transacción en la red Lightning son muy bajas, lo que la convierte en una solución rentable para los comerciantes.
+reviewed: false

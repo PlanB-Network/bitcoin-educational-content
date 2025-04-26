@@ -1,0 +1,9 @@
+question: Quale funzione, progettata nell'ottobre 2010 dal minatore m0mchil, ha permesso ai nodi client di recuperare un blocco candidato e restituire la prova del lavoro se veniva trovata una soluzione?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+  Fu pubblicata il 1° ottobre. Satoshi incluse una versione modificata di questa funzione nel software principale il 23 novembre.
+reviewed: false

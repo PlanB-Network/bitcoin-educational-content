@@ -1,0 +1,9 @@
+question: Millist tüüpi ettevõtjatele piisab raamatupidamiseks tõenäoliselt lihtsast csv-failist?
+answer: Väikeettevõtted
+wrong_answers:
+  - Suured rahvusvahelised korporatsioonid
+  - Suuremad finantseerimisasutused
+  - Kõrgsagedusliku kauplemise platvormid
+explanation: |
+  Enamik väikeettevõtteid saab kasu csv-ekspordi lihtsusest ja piisavast detailsusest.
+reviewed: false

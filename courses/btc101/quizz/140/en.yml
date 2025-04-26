@@ -1,9 +1,9 @@
-question: What is the size of the Bitcoin blockchain?
-answer: About 500GB
+question: What is the current size of the Bitcoin blockchain?
+answer: About 500GB.
 wrong_answers:
-  - About 100GB
-  - About 1TB
-  - About 2TB
-explanation: >-
-  The Bitcoin blockchain is about 500GB in size.
-reviewed: false
+  - About 100GB.
+  - About 1TB.
+  - About 2TB.
+explanation: |
+  The Bitcoin blockchain is about 500GB in size as of 2023.
+reviewed: true

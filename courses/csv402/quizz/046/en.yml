@@ -1,0 +1,9 @@
+question: Which RGB standard allows you to create unique assets or "NFTs"?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  The RGB21 standard is designed to manage unique assets, enabling private metadata to be associated with NFTs.
+reviewed: false

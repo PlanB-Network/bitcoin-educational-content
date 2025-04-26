@@ -1,0 +1,11 @@
+question: Bagaimana protokol Bitcoin memberi hadiah kepada penambang yang menemukan hash yang valid untuk blok berikutnya?
+answer: Dengan hadiah yang ditentukan oleh aturan konsensus dan biaya transaksi dari semua transaksi yang termasuk dalam blok yang valid
+wrong_answers:
+  - Dengan jumlah Bitcoin yang tetap
+  - Dengan persentase dari total pasokan Bitcoin
+  - Dengan biaya transaksi dari semua transaksi yang termasuk dalam blok yang valid
+explanation: >-
+  Protokol Bitcoin memberi hadiah kepada penambang yang menemukan hash yang valid untuk
+  blok berikutnya dengan hadiah yang jumlahnya ditentukan oleh aturan konsensus, serta
+  biaya transaksi dari semua transaksi yang termasuk dalam blok yang valid.
+reviewed: false

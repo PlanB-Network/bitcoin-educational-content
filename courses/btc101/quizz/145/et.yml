@@ -1,0 +1,10 @@
+question: Milles seisnes 2017. aasta plokkide sõda?
+answer: Konflikt selle üle, kas suurendada ploki suurust, et tõsta tehingute mahtu
+wrong_answers:
+  - Konflikt selle üle, kas vähendada ploki suurust, et vähendada tehingute mahtu
+  - Konflikt selle üle, kas suurendada ploki preemiat, et motiveerida kaevureid
+  - Konflikt selle üle, kas vähendada ploki preemiat, et demotiveerida kaevureid
+explanation: >-
+  2017. aasta plokkide sõda oli konflikt selle üle, kas muuta Bitcoin'i,
+  suurendades ploki suurust, et tõsta tehingute mahtu.
+reviewed: false

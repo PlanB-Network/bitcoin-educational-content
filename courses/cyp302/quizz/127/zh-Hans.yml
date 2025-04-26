@@ -1,0 +1,8 @@
+question: Diffie-Hellman密钥交换的基础数学概念是什么？
+answer: 一个带有后门的单向函数
+wrong_answers:
+  - 一个逆指数函数
+  - 一个加密哈希算法
+  - 一个简化的模除法
+explanation: |
+  Diffie-Hellman依赖于一个单向函数，这个函数在一个方向上容易计算，但在没有一个被称为后门的秘密信息的情况下，实际上不可能反向计算。

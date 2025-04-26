@@ -1,9 +1,8 @@
-question: ¿Cuál es el papel de una frase de contraseña en una billetera de Bitcoin?
-answer: Mejora la seguridad de la billetera
+question: ¿Qué significa el prefijo `wpkh` en un descriptor?
+answer: Pago-a-Testigo-Hash-de-Clave-Pública
 wrong_answers:
-  - Disminuye la seguridad de la billetera
-  - No tiene efecto en la seguridad de la billetera
-  - Hace que la billetera sea más fácil de usar
+  - Pago-a-Clave-Pública
+  - Pago-a-Hash-de-Script
+  - Hash de Script de Testigo
 explanation: |
-  La frase de contraseña es una contraseña adicional que se puede integrar en una billetera de Bitcoin para aumentar su seguridad. Al agregar información arbitraria que, junto con la frase mnemotécnica, permite el cálculo de la semilla de la billetera, la frase de contraseña mejora su seguridad.
-reviewed: false
+  El prefijo `wpkh` indica un script SegWit v0 usando direcciones de Pago-a-Testigo-Hash-de-Clave-Pública.

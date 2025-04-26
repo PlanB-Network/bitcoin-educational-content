@@ -1,0 +1,13 @@
+question: Hvilket element hindrer en ekstern observatør i å skille mellom Stonewall og Stonewall x2 transaksjoner?
+
+answer: Mønsteret til transaksjonene er det samme
+
+wrong_answers:
+  - Transaksjonene er kryptert
+  - Beløpene som er involvert i transaksjonene er alltid identiske
+  - De digitale signaturene til transaksjonene er generert av samme algoritme
+
+explanation: |
+  Fra et eksternt synspunkt er transaksjonsmønsteret nøyaktig det samme. Uten ytterligere kontekstinformasjon er det derfor umulig å skille en Stonewall-transaksjon fra en Stonewall x2-transaksjon, ettersom de adopterer samme mønster.
+
+reviewed: false

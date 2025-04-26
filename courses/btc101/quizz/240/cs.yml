@@ -1,8 +1,13 @@
 question: Jaký je jeden z potenciálních přínosů Lightning Network pro tvůrce obsahu?
-answer: Byli by motivováni k tvorbě kvalitního obsahu, aby si udrželi pozornost uživatelů
+answer: Byli by motivováni vytvářet kvalitní obsah, aby si udrželi pozornost uživatelů.
 wrong_answers:
-  - Mohli by si účtovat více za svůj obsah
-  - Mohli by oslovit širší publikum
-  - Mohli by vytvářet obsah rychleji
-explanation: >-
-  Díky Lightning Network by tvůrci obsahu byli motivováni k tvorbě kvalitního obsahu, aby si udrželi pozornost uživatelů. Uživatelé by na oplátku platili pouze za obsah, který skutečně spotřebují, čímž by se eliminovaly předplacené poplatky za předplatné.
+  - Mohli by si účtovat více za svůj obsah.
+  - Mohli by oslovit širší publikum.
+  - Mohli by vytvářet obsah rychleji, aby si udrželi pozornost uživatelů.
+explanation: |
+  S Lightning Network by tvůrci obsahu byli motivováni
+  vytvářet kvalitní obsah, aby si udrželi pozornost uživatelů.
+  Uživatelé by na oplátku platili pouze za obsah, který
+  spotřebují, čímž by se eliminovaly předplatné poplatky
+  zaplacené předem.
+reviewed: true

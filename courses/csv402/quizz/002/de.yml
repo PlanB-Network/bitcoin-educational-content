@@ -1,0 +1,9 @@
+question: Was ist der Kompromiss zwischen kundenseitiger Validierung und Verfügbarkeit im CAP-Trilemma?
+answer: Jeder Teilnehmer muss die relevanten Daten lokal aufbewahren
+wrong_answers:
+  - Die Daten sind öffentlich und werden automatisch weltweit repliziert
+  - Konsistenz wird für Verfügbarkeit geopfert
+  - Zustandsübergänge werden immer auf Lightning veröffentlicht
+explanation: |
+  Bei der clientseitigen Validierung ist die globale Verfügbarkeit nicht garantiert, da die Teilnehmer ihre Daten selbst verwalten müssen.
+reviewed: false

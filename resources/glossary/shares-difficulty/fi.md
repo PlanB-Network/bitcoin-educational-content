@@ -1,0 +1,5 @@
+---
+term: OSAKKEET VAIKEUS
+
+---
+Bitcoinia korkeampi (ja siten vähemmän vaikea) tavoitevaikeus, jonka louhintapooli määrittelee kelpuuttaakseen osakkeen hashin ja arvioidakseen kunkin yksittäisen louhijan panoksen pooliin. Jotta varmistuskuormaa voitaisiin hallita tehokkaasti ja varmistaa, että jokainen louhija laskentatehostaan riippumatta toimittaa osakkeita säännöllisesti, poolit säätävät osakkeiden vaikeusastetta. Kullekin louhijalle määritetty vaikeusaste määrää osakkeiden määrän: jos esimerkiksi louhijalle on määritetty vaikeusaste 10 ja hän toimittaa 5 kelvollista todistusta tällä vaikeusasteella, hän saa 50 osaketta. Tehokkaampi louhija, jonka vaikeusaste on 100 ja joka toimittaa 7 kelvollista todistusta, saa 700 osaketta. Tämän järjestelmän avulla voidaan määrittää tarkasti kunkin louhijan hashrate ja jakaa palkkiot valitun korvauslaskentamenetelmän (PPS, PPLNS, TIDES...) mukaan.

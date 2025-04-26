@@ -1,0 +1,9 @@
+question: Šta čini RC4 ranjivim danas uprkos njegovoj nekadašnjoj popularnosti?
+answer: Dobro dokumentovane slabosti u generisanju ključnog toka
+wrong_answers:
+  - Ključ prekratak da osigura bezbednost
+  - Njegova nesposobnost da radi sa dugim tekstovima
+  - Zahtev za korišćenjem javnog ključa pored privatnog ključa
+explanation: |
+  RC4 ima značajne slabosti u generisanju ključa toka, što izlaže enkripciju napadima, zbog čega se postepeno napušta u modernim sigurnosnim protokolima.
+reviewed: false

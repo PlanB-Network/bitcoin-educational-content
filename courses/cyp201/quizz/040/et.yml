@@ -1,0 +1,8 @@
+question: Miks on riskantne käsitsi genereerida entroopiat HD rahakotile?
+answer: See võib kaasa tuua inimlikud nõrkused või ennustatavad kallutatused
+wrong_answers:
+  - See toob kaasa kehtetud avalikud võtmed
+  - See takistab privaatvõtmete tuletamist
+  - See piirab genereeritud mnemooniliste fraaside suurust
+explanation: |
+  Käsitsi entroopia genereerimine võib sisse tuua kallutatusi või vigu, muutes võtmed rünnakutele haavatavamaks.

@@ -1,0 +1,9 @@
+question: Mis on räsifunktsiooni peamine ülesanne?
+answer: See muudab suvalise pikkusega informatsiooni fikseeritud suurusega sõrmejäljeks
+wrong_answers:
+  - See krüpteerib sõnumeid, et muuta need loetamatuks
+  - Seda kasutatakse ainult Bitcoini tarkvara terviklikkuse kontrollimiseks
+  - See genereerib privaatvõtmeid Bitcoini rahakottide jaoks
+explanation: |
+  Räsifunktsioon teisendab mis tahes suurusega andmed fikseeritud suurusega räsiks, mis on kriitilise tähtsusega paljudes Bitcoini rakendustes.
+reviewed: false

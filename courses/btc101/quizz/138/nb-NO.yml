@@ -1,0 +1,9 @@
+question: Hva er den primære funksjonen til noder i Bitcoin-nettverket?
+answer: Å opprettholde en kopi av Bitcoin-blockchainen, validere transaksjoner, overføre informasjon til andre noder, og håndheve reglene i Bitcoin-protokollen.
+wrong_answers:
+  - Kun validere transaksjoner
+  - Kun opprettholde en kopi av Bitcoin-blockchainen
+  - Kun overføre informasjon til andre noder
+explanation: >-
+  Noder i Bitcoin-nettverket utfører flere avgjørende funksjoner, inkludert å opprettholde en kopi av Bitcoin-blockchainen, validere transaksjoner, overføre informasjon til andre noder, og håndheve reglene i Bitcoin-protokollen.
+reviewed: false

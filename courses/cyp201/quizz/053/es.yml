@@ -1,9 +1,9 @@
-question: ¿Cuál es la longitud de las claves privadas en una billetera de Bitcoin?
-answer: 256 bits
+question: ¿Qué sucede si pierdes la frase de paso asociada con tu monedero HD?
+answer: Pierdes el acceso a los bitcoins vinculados a ese monedero
 wrong_answers:
-  - 128 bits
-  - 512 bits
-  - 1024 bits
+  - Todavía puedes acceder al monedero solo con la frase mnemotécnica
+  - Puedes restablecer la frase de paso contactando al soporte de Bitcoin
+  - Solo pierdes las transacciones no confirmadas
 explanation: |
-  Las claves privadas en una billetera de Bitcoin, que son esenciales para la propiedad de criptomonedas, tienen una longitud fija de 256 bits.
+  La frase de paso es un componente esencial en la derivación de claves. Sin ella, es imposible recrear las claves y por lo tanto acceder a los bitcoins.
 reviewed: false

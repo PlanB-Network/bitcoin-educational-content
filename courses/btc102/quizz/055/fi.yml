@@ -1,11 +1,9 @@
-question: Mikä on Lightning Network?
-answer: Se on Bitcoinin toinen kerros.
+question: Mitä tietovälinettä suositellaan Mnemonic-lauseen varmuuskopioimiseksi?
+answer: Metallinen varmuuskopio sinetöidyssä läpinäkymättömässä kirjekuoressa
 wrong_answers:
-  - Se on kryptovaluuttapörssi.
-  - Se on tyyppi Bitcoin-lompakosta.
-  - Se on Bitcoin-louhintapooli.
+  - Salattu USB-aseman tallennus
+  - Paperinen varmuuskopio läpinäkyvällä suojakotelolla
+  - Varmuuskopiointi suojatussa pilvipalvelussa
 explanation: |
-  Lightning Network on toisen kerroksen teknologia, jota sovelletaan bitcoiniin
-  ja joka käyttää mikromaksukanavia skaalatakseen sen lohkoketjun kykyä suorittaa
-  transaktioita.
+  Katastrofinkestävä metallinen varmuuskopio tarjoaa pitkäaikaisen suojan vaurioita ja luvatonta käyttöä vastaan. Sinetöidyn läpinäkymättömän kirjekuoren avulla voit tarkistaa, onko kukaan käyttänyt Mnemonic-lausetta.
 reviewed: false

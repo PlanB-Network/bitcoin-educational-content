@@ -1,0 +1,8 @@
+question: Hva er den mest utfordrende egenskapen å oppnå med en digital valuta som bitcoin?
+answer: Fraværet av dobbeltutgifter
+wrong_answers:
+  - Integritet
+  - Autentisitet
+  - Sannferdighet
+explanation: |
+  For digitale valutaer er det mer komplekst å sikre fraværet av dobbeltutgifter, siden enhver digital god er i hovedsak informasjon. I motsetning til fysiske varer, deler ikke informasjon seg under utvekslinger, men sprer seg ved å multiplisere.

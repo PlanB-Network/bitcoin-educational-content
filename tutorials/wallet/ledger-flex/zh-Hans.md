@@ -163,6 +163,11 @@ Ledger将使用其随机数生成器创建您的助记词短语。确保在此�
 密码短语是增强您的比特币安全性的非常强大的工具。然而，在实施它之前了解它的工作原理非常重要，以避免失去对您钱包的访问。我将在另一个专门的教程中解释如何使用密码短语。
 
 ![LEDGER FLEX](assets/notext/29.webp)
+
+助记词密码是强化比特币安全性的一种非常强大的工具。不过，在启用之前务必要充分了解其工作原理，以避免失去对钱包的访问权限。因此我在另一篇专门的教程中做了详细讲解：
+
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 最后，最后一个设置页面允许您重置您的 Ledger。只有在您确定它不包含任何保护比特币的密钥时，才进行这个重置，因为您可能会永久失去访问您的资金的权限。
 ![LEDGER FLEX](assets/notext/30.webp)
 
@@ -263,7 +268,7 @@ Ledger将使用其随机数生成器创建您的助记词短语。确保在此�
 
 有关标签的更多信息，我还建议您查看这个教程：
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 然后，您可以使用这个地址来接收比特币。
 

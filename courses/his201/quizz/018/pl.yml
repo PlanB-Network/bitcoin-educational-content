@@ -1,0 +1,9 @@
+question: Co było wyjątkowego w RPOW w porównaniu z innymi koncepcjami walut cyfrowych, takimi jak eCash, b-money i bit gold?
+answer: Został on oparty na przezroczystym serwerze
+wrong_answers:
+  - Używał Proof of Work
+  - Jego jednostka rozliczeniowa nie była niczym poparta
+  - Użytkownicy posiadali cyfrowe banknoty o określonych nominałach, a nie konta
+explanation: |
+  Wykorzystywał Proof of Work jak b-money i bit gold. Nie było wsparcia, jak w przypadku bit gold. Podobnie jak eCash (i jak później Bitcoin), RPOW pozwalał na posiadanie indywidualnych banknotów cyfrowych, a nie konta, i pod tym względem był stosunkowo poufny.
+reviewed: false

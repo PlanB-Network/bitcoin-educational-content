@@ -1,9 +1,0 @@
-question: Quelles informations le destinataire peut-il fournir à l'expéditeur pour faciliter la recherche de route dans le Lightning Network?
-answer: Le montant, son adresse, le hash de la préimage et des indications sur ses canaux.
-wrong_answers:
-  - L'adresse de l'expéditeur, le montant de la transaction et la clé privée du destinataire.
-  - L'adresse du destinataire, le montant de la transaction et la clé privée de l'expéditeur.
-  - Le montant de la transaction, l'adresse du destinataire et le hash de la préimage.
-explanation: |
-  Pour faciliter la recherche de route dans le Lightning Network, le destinataire peut fournir à l'expéditeur plusieurs informations. Celles-ci comprennent le montant de la transaction, l'adresse du destinataire, le hash de la préimage (qui est utilisé pour créer le HTLC) et des indications sur les canaux du destinataire (qui peuvent aider à identifier les canaux avec une liquidité suffisante).
-reviewed: false

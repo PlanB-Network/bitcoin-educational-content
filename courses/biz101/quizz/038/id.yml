@@ -1,0 +1,9 @@
+question: Mengapa pencatatan yang cermat sangat penting ketika berurusan dengan Bitcoin dalam akuntansi perusahaan?
+answer: Karena setiap transaksi Bitcoin dapat menciptakan peristiwa kena pajak, dan catatan yang akurat diperlukan untuk menghitung keuntungan, kerugian, dan kewajiban pajak.
+wrong_answers:
+  - Karena blockchain secara otomatis mengajukan pajak atas nama perusahaan.
+  - Karena tidak ada standar akuntansi yang berlaku untuk transaksi Bitcoin sama sekali.
+  - Karena tidak mungkin untuk melacak transaksi Bitcoin setelah dicatat.
+explanation: |
+  Setiap pembelian, penjualan, atau pembayaran yang dilakukan dengan Bitcoin dapat memiliki implikasi pajak. Menyimpan catatan terperinci mengenai dasar biaya, harga jual, dan waktu untuk memastikan pelaporan pajak yang benar dan patuh.
+reviewed: false

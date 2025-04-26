@@ -1,0 +1,9 @@
+question: Mida tähendab Ühise Sisendi Omandi Heuristika (CIOH)?
+answer: Kui tehing hõlmab mitut sisendit, on need tõenäoliselt kõik ühelt ja samalt isikult.
+wrong_answers:
+  - Kui tehing hõlmab mitut sisendit, on need tõenäoliselt erinevatelt isikutelt.
+  - Kui tehing hõlmab mitut väljundit, on need tõenäoliselt kõik minemas ühele isikule.
+  - Kui tehing hõlmab mitut väljundit, on need tõenäoliselt kõik minemas erinevatele isikutele.
+explanation: |
+  CIOH on heuristika, mis viitab sellele, et kui tehing hõlmab mitut sisendit, siis tõenäoliselt pärinevad need sisendid kõik ühelt isikult. Seega on nende omand ühine.
+reviewed: false

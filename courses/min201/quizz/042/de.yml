@@ -1,9 +1,11 @@
-question: Was ist das potenzielle Auswirkungen eines Verbots des Bergbaus in einer Region?
-answer: Es kann zu einem erheblichen Rückgang der Hashrate und des Preises von Bitcoin führen.
+question: Welche potenziellen Auswirkungen hat ein Verbot des Minings in einer Region?
+answer: Es kann zu einem signifikanten Rückgang der Hashrate und des Preises von Bitcoin führen.
 wrong_answers:
   - Es kann zu einem Anstieg des Preises von Bitcoin führen.
   - Es kann zu einem Anstieg der Hashrate des Netzwerks führen.
   - Es kann zu einem Anstieg der Anzahl aktiver Knoten im Netzwerk führen.
 explanation: |
-  Ein Verbot des Bergbaus in einer Region, wie es in China geschehen ist, kann zu einem erheblichen Rückgang der Hashrate und des Preises von Bitcoin führen. Diese können sich jedoch schnell erholen.
-reviewed: false
+  Ein Verbot des Minings in einer Region, wie es in China geschehen ist,
+  kann zu einem signifikanten Rückgang der Hashrate und des Preises von
+  Bitcoin führen. Diese können sich jedoch schnell erholen.
+reviewed: true

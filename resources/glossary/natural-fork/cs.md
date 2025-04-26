@@ -1,0 +1,5 @@
+---
+term: PŘÍRODNÍ VIDLICE
+
+---
+Dočasné oddělení blockchainu v důsledku téměř současného vysílání několika bloků různými těžaři ve stejné výšce. Tato situace nastává, když se dva bloky označené jako $A$ a $B$ objeví téměř současně, což vede k dočasnému rozdělení sítě. Protože každý uzel považuje za platný první blok, který obdržel, ale ne každý obdržel stejný blok jako první, část uzlů sleduje řetězec obsahující blok $A$, zatímco druhá část sleduje ten s blokem $B$. Toto rozvětvení je vyřešeno, když jeden ze dvou konkurenčních řetězců překoná druhý z hlediska nahromaděné práce. V tomto okamžiku se všechny uzly v síti automaticky dohodnou na delším řetězci (s větším množstvím nahromaděné práce), což je proces známý jako reorganizace nebo resynchronizace. Tyto přirozené vidlice jsou vlastní distribuovanému fungování Bitcoinu. Jsou naprosto normální a vyřeší se spontánně po několika blocích (obvykle po jednom). Pokud se však vyskytují příliš často, mohou být tyto vidlice přesto škodlivé, protože vedou k plýtvání výpočetním výkonem na větvi, která se nakonec stane zastaralou.

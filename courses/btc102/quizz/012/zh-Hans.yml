@@ -1,0 +1,9 @@
+question: 在 Bitcoin 世界中，自我监护的概念意味着什么？
+answer: 自己保存私人密钥
+wrong_answers:
+  - 将钥匙托付给专门的 Exchange 平台
+  - 把钥匙交给投资银行
+  - 自己保存公钥
+explanation: |
+  自我保管确保用户通过自己的私钥对比特币进行完全控制。
+reviewed: false

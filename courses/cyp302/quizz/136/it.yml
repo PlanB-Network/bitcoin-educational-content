@@ -1,0 +1,9 @@
+question: Come fa un servizio online a verificare una password senza memorizzarla direttamente?
+answer: Confrontando l'hash della password inserita con quello nel database
+wrong_answers:
+  - Decifrando la password memorizzata per verificarla
+  - Utilizzando una chiave pubblica per verificare l'identità
+  - Confrontando direttamente la password con quella degli altri utenti
+explanation: |
+  Il servizio genera un hash della password inserita e lo confronta con quello memorizzato, senza mai memorizzare direttamente la password, garantendo così una maggiore sicurezza.
+reviewed: false

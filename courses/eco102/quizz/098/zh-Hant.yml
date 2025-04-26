@@ -1,0 +1,9 @@
+question: Bastiat 認為法律的目的應該是什麼？
+answer: 杜絕一切掠奪。
+wrong_answers:
+  - 重新平衡權力關係。
+  - 建立 generate 社會連結。
+  - 透過再分配權利促進平等。
+explanation: |
+  對 Bastiat 而言，法律只需透過防止任何形式的掠奪來保護自然權利，從而確保所有人的公平正義。
+reviewed: false

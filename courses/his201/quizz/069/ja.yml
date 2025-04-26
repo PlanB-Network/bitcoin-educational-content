@@ -1,0 +1,9 @@
+question: Bitcoinの開発者たちは、より非公式な技術的な議論を行うためにどこで会いますか？
+answer: IRCチャンネル \#bitcoin-dev で
+wrong_answers:
+  - フォーラムの特別なセクションで
+  - bitcoin-development メーリングリストで
+  - subreddit r/Bitcoin で
+explanation: |
+  これは2009年8月にMartti Malmiによって[作成されました](https: //mmalmi.github.io/satoshi/#email-27)。2010年7月のslashdottingの後、いくらかの人気を得ました。
+  レビュー済み: false

@@ -1,0 +1,8 @@
+question: Hvorfor er shift-kryptering sårbar for brute force-angrep?
+answer: Fordi den bare har 26 mulige nøkler
+wrong_answers:
+  - Fordi den bruker en offentlig nøkkel
+  - Fordi den er basert på symmetrisk kryptering
+  - Fordi den bruker tilfeldige tall
+explanation: |
+  Shift-kryptering er lett utsatt for brute force-angrep fordi den bare har 26 mulige nøkler, fra 0 til 25, på grunn av bruken av modulo 26 som selv avhenger av størrelsen på alfabetet. Du kan ikke bruke større gyldige nøkler, ettersom de i alle tilfeller ville være ekvivalente med en nøkkel mellom 0 og 25. Derfor er det tilstrekkelig å teste hver av dem for å finne meldingen.

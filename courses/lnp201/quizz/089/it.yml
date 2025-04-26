@@ -1,9 +1,0 @@
-question: Cosa deve fare un acquirente per gestire la liquidità sulla Lightning Network?
-answer: Canali aperti
-wrong_answers:
-  - Connettersi ad altri nodi
-  - Mantenere un equilibrio di liquidità su entrambi i lati
-  - Acquistare canali
-explanation: |
-  Per gli acquirenti sulla Lightning Network, gestire la liquidità comporta l'apertura di canali. Questo fornisce loro liquidità in uscita.
-reviewed: false

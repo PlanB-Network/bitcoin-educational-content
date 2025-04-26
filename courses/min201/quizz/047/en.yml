@@ -5,8 +5,9 @@ wrong_answers:
   - The companies may be scams and the investors may lose their money.
   - The companies may not be able to sell the mined bitcoins and the investors may lose their money.
 explanation: |
-  The main risk associated with investing in companies that sell mining
-  hardware and manage the machines in low-cost energy locations is that power supply
-  issues and machine failures can leave investors powerless, with expensive equipment
-  that they do not control.
-reviewed: false
+  The main risk associated with investing in companies that
+  sell mining hardware and manage the machines in low-cost
+  energy locations is that power supply issues and machine
+  failures can leave investors powerless, with expensive
+  equipment that they do not control.
+reviewed: true

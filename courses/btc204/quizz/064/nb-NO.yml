@@ -1,0 +1,11 @@
+question: Hvordan er etiketter knyttet til en Bitcoin-lommebok lagret?
+
+answer: Lokalt på lommebokprogramvaren.
+
+wrong_answers:
+  - I en sentralisert database kontrollert av utvikleren.
+  - På Bitcoin-blockchainen gjennom en OP_RETURN.
+  - Kun i RAM under programmets kjøring.
+
+explanation: |
+  Etiketter lagres lokalt av lommebokprogramvaren og overføres aldri over Bitcoin-nettverket. Etikettering er dermed et personlig forvaltningsverktøy.

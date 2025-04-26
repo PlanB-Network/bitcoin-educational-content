@@ -1,0 +1,9 @@
+question: Podle Constanta, ve kterých oblastech nemá politická moc žádný vliv?
+answer: Ve všech výše uvedených oblastech (náboženství, věda, průmysl).
+wrong_answers:
+  - Náboženství
+  - Věda
+  - Průmysl
+explanation: |
+  Constant věří, že politická moc by neměla zasahovat do oblastí jako jsou náboženství, věda a průmysl, aby se zachovala individuální svoboda a autonomie lidských činností, které spadají do soukromé sféry.
+reviewed: false

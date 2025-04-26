@@ -1,0 +1,24 @@
+id: 48579382-4540-47da-acc7-0e2a9f3e48da
+start_date: 2025-05-27 17:00:00
+end_date: 2025-05-30 01:00:00
+timezone: America/Los_Angeles
+address_city_country: Las Vegas, USA
+address_line_2:
+address_line_3:
+name: Bitcoin Las Vegas 2025
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Embrace the game theory
+language:
+  - en
+links:
+  website: https://b.tc/conference/2025
+  replay_url:
+  live_url:
+project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
+tags:
+  - future-outlook
+  - adoption
+  - case-studies

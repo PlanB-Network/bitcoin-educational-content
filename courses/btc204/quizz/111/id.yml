@@ -1,0 +1,11 @@
+question: Apa itu transaksi Stonewall x2?
+
+answer: Transaksi pembayaran dalam bentuk mini-coinjoin
+
+wrong_answers:
+  - Transaksi yang meniru mini-coinjoin tanpa menjadi salah satunya
+  - Transaksi pembayaran sederhana
+  - Transaksi yang melibatkan penerima dalam input
+
+explanation: |
+  Stonewall x2 adalah bentuk spesifik dari transaksi Bitcoin yang bertujuan untuk meningkatkan privasi pengguna selama melakukan pembayaran, tetapi kali ini dengan berkolaborasi dengan pihak ketiga yang tidak terlibat dalam pembayaran tersebut. Metode ini berfungsi seperti mini-coinjoin antara dua peserta, sambil pada saat yang sama melakukan pembayaran kepada orang ketiga.

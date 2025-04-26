@@ -1,0 +1,9 @@
+question: Mis on illusioon kommunikatsioonikanalite turvalisuse kohta tänapäeva maailmas?
+answer: Uskumine, et kanali füüsiline kaitsmine takistab pealtkuulamist
+wrong_answers:
+  - Arvamine, et traadita võrgud on ebaefektiivsed
+  - Uskumine, et krüptograafia pole kohalike suhtluste jaoks vajalik
+  - Arvamus, et ainult riiklikud agentuurid saavad andmeid pealt kuulata
+explanation: |
+  On illusioon arvata, et pelgalt kanali füüsilisest turvamisest piisab konfidentsiaalsuse tagamiseks, kuna paljud pealtkuulamispunktid jäävad kättesaadavaks, eriti traadita suhtluse puhul.
+reviewed: false

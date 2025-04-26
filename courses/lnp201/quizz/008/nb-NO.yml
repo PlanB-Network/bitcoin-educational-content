@@ -1,0 +1,8 @@
+question: Hvordan fungerer en 2/2 multisignaturadresse i Bitcoin?
+answer: Den krever to signaturer for å låse opp og bruke midlene.
+wrong_answers:
+  - Den tillater bruk av midlene med bare en av de to nøklene.
+  - Den godkjenner transaksjoner kun i spesifikke tilfeller av låsing.
+  - Den brukes kun for å sende midler til offentlige adresser.
+explanation: |
+  En 2/2 multisignaturadresse krever signaturer fra begge parter involvert for at midlene skal kunne brukes, noe som brukes for sikkerheten til Lightning-kanaler.

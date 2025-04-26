@@ -162,6 +162,11 @@ Salasanaa ei tule sekoittaa PIN-koodiin. Se toimii osana kryptografisten avainte
 Salasana on erittäin tehokas työkalu bitcoinsien turvallisuuden parantamiseen. On kuitenkin erittäin tärkeää ymmärtää, miten se toimii ennen sen käyttöönottoa, välttääksesi pääsyn menettämisen lompakkoosi. Selitän, miten salasanaa käytetään toisessa omistetussa opetusohjelmassa.
 
 ![LEDGER FLEX](assets/notext/29.webp)
+
+Passphrase on erittäin tehokas työkalu bitcoinien turvallisuuden parantamiseen. On kuitenkin erittäin tärkeää ymmärtää sen toiminta ennen käyttöönottoa, jotta et menetä lompakon käyttöoikeutta. Siksi selitän kaiken toisessa, omistetussa ohjeessa:
+
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 Lopuksi, viimeisellä asetussivulla voit nollata Ledgerisi. Jatka tämän nollauksen kanssa vain, jos olet varma, ettei se sisällä mitään bitcoinsien turvaamiseen käytettyjä avaimia, sillä saatat menettää pääsyn varoihisi pysyvästi.
 ![LEDGER FLEX](assets/notext/30.webp)
 
@@ -296,7 +301,7 @@ Voit lisätä "*Merkinnän*" kuvaamaan bitcoinien lähdettä, jotka turvataan t�
 
 Lisätietoja merkinnöistä, suosittelen myös tutustumaan tähän toiseen opastukseen:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Voit sitten käyttää tätä osoitetta bitcoinien vastaanottamiseen.
 

@@ -1,0 +1,8 @@
+question: Mekanisme apa yang mencegah serangan refleksi dalam komunikasi yang aman?
+answer: Menambahkan pengenal unik untuk setiap peserta
+wrong_answers:
+  - Meningkatkan panjang kunci
+  - Menggunakan beberapa kunci untuk setiap pesan
+  - Menambahkan kunci ekstra dalam setiap pesan
+explanation: |
+  Menambahkan pengenal unik untuk setiap peserta dalam pesan yang dienkripsi mencegah serangan refleksi, karena hal ini memungkinkan untuk membedakan asal usul pesan.

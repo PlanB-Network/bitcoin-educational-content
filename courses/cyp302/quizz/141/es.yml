@@ -1,0 +1,9 @@
+question: ¿Por qué factorizar un producto de dos números primos muy grandes se considera un problema difícil?
+answer: Porque requiere una cantidad prohibitiva de tiempo de cálculo incluso para supercomputadoras.
+wrong_answers:
+  - Porque requiere una clave pública para cada factor.
+  - Porque involucra solo operaciones básicas en el cálculo.
+  - Porque depende de la multiplicación y no de la división.
+explanation: |
+  Factorizar un número enorme, el producto de dos grandes números primos, demanda capacidades de cómputo que exceden la capacidad de las computadoras actuales, haciendo esta tarea prácticamente inviable.
+reviewed: false

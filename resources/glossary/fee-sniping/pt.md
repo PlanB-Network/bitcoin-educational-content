@@ -1,0 +1,13 @@
+---
+term: FEE SNIPING
+
+---
+Um cenário de ataque em que os mineiros procuram reescrever um bloco recentemente confirmado para reclamar as taxas de transação que contém, ao mesmo tempo que adicionam transacções de elevada taxa que entretanto chegaram ao mempool. O objetivo final deste ataque para o mineiro é aumentar a sua rentabilidade. O sniping de taxas pode tornar-se cada vez mais lucrativo à medida que a recompensa do bloco diminui e as taxas de transação representam uma parte maior das receitas dos mineiros. Também pode ser vantajoso quando as taxas contidas no bloco anterior são significativamente mais altas do que as do próximo melhor bloco candidato. Para simplificar, o mineiro é confrontado com esta escolha em termos de incentivos:
+
+
+- Explorar a mina de forma normal após o último bloco, com uma grande probabilidade de ganhar uma recompensa baixa;
+- Tentativa de extrair um bloco anterior (fee sniping), com uma baixa probabilidade de ganhar uma recompensa elevada.
+
+Este ataque representa um risco para o sistema Bitcoin, pois quanto mais mineiros o adoptam, mais outros mineiros, inicialmente honestos, são incentivados a fazer o mesmo. De facto, cada vez que um novo mineiro se junta aos que tentam o fee sniping, a probabilidade de um dos mineiros atacantes ter sucesso aumenta, e a probabilidade de um dos mineiros honestos estender a cadeia diminui em contrapartida. Se este ataque for levado a cabo de forma massiva e sustentada ao longo do tempo, as confirmações de bloco deixariam de ser um indicador fiável da imutabilidade de uma transação Bitcoin. Isto poderia potencialmente tornar o sistema inutilizável.
+
+Para contrariar este risco, a maioria dos softwares de carteira preenche automaticamente o campo `nLocktime` de forma a condicionar a validação da transação à inclusão na altura do bloco seguinte. Assim, torna-se impossível incluir a transação numa reescrita do bloco anterior. Se o uso generalizado do `nLocktime` for adotado pelos usuários de Bitcoin, ele reduz significativamente os incentivos para o "fee sniping". De facto, encoraja a progressão da blockchain em vez da sua reescrita, reduzindo os potenciais lucros da mesma. Para as transacções Taproot, o BIP326 propõe a utilização do campo `nSequence` de forma semelhante para obter o efeito equivalente ao do campo `nLocktime` para outros tipos de transacções. Este uso mataria dois coelhos com uma cajadada só, melhorando também a privacidade dos protocolos de segunda camada que usam o mesmo campo.

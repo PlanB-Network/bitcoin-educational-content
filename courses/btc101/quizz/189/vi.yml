@@ -1,9 +1,14 @@
-question: Quốc gia nào đã chính thức công nhận Bitcoin là phương tiện thanh toán hợp pháp kể từ năm 2021?
-answer: El Salvador
+question: Bitcoin giải quyết Vấn đề Tướng Byzantine như thế nào?
+answer: Thông qua việc sử dụng blockchain dựa trên Bằng chứng Công việc (Proof of Work) với độ khó thay đổi.
 wrong_answers:
-  - Pháp
-  - Hoa Kỳ
-  - Trung Quốc
+  - Thông qua việc sử dụng chữ ký số.
+  - Thông qua việc sử dụng sổ cái công cộng.
+  - Thông qua việc sử dụng thuật toán Bằng chứng Cổ phần (Proof of Stake).
 explanation: >-
-  El Salvador đã chính thức công nhận Bitcoin là phương tiện thanh toán hợp pháp kể từ năm 2021, góp phần vào sự phát triển của nền kinh tế Bitcoin trong khu vực.
-reviewed: false
+  Vấn đề Tướng Byzantine là một vấn đề cổ điển trong
+  tính toán phân tán, liên quan đến việc đạt được sự đồng thuận
+  trong một mạng lưới nơi một số nút có thể bị lỗi hoặc
+  có ý đồ xấu. Bitcoin giải quyết vấn đề này thông qua việc sử dụng một
+  blockchain dựa trên Bằng chứng Công việc, đảm bảo rằng tất cả
+  các nút đều đồng ý với trạng thái của lịch sử giao dịch.
+reviewed: true

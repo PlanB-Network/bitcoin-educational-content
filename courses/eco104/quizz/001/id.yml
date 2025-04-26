@@ -1,0 +1,11 @@
+question: Apa yang diperlukan untuk transaksi yang berhasil dalam sistem barter?
+answer: Kebetulan keinginan ganda
+wrong_answers:
+  - Satuan akun yang umum
+  - Otoritas perbankan sentral
+  - Persyaratan saldo minimum
+explanation: |
+  Dalam sistem barter, transaksi terjadi langsung antara dua pihak yang bertukar barang atau
+  jasa tanpa menggunakan uang. Transaksi yang berhasil memerlukan kebetulan keinginan ganda,
+  yang berarti kedua pihak harus memiliki sesuatu yang diinginkan oleh pihak lain untuk ditukar.
+reviewed: true

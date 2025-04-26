@@ -1,9 +1,9 @@
-question: Was ist der Hauptvorteil der SHA256-Hash-Funktion?
-answer: Ihre Robustheit, um den Eingang aus dem Hash zu finden, während die Überprüfung des Hashes für eine gegebene Eingabe eine mechanisch einfache Aktion ist.
+question: Welche elliptische Kurve wird im Bitcoin-Protokoll verwendet?
+answer: secp256k1
 wrong_answers:
-  - Ihre Fähigkeit, einen 512-Bit-Hash aus einer variablen Eingabe zu generieren.
-  - Ihre Verwendung von Padding-Bits, um die Größe der Eingabe zu erhöhen.
-  - Ihre Verwendung der XOR-, AND- und NOT-Operatoren zur Verarbeitung der Bits.
+  - secp256r1
+  - ed25519
+  - P-384
 explanation: |
-  Der Hauptvorteil der SHA256-Hash-Funktion besteht darin, dass sie robust ist, um den Eingang aus dem Hash zu finden, während die Überprüfung des Hashes für eine gegebene Eingabe eine mechanisch einfache Aktion ist. Dies macht sie zu einer bevorzugten Wahl für die Sicherung zahlreicher digitaler Systeme, insbesondere im Bitcoin-Protokoll.
+  Bitcoin verwendet die secp256k1-Kurve, definiert durch die Gleichung y² = x³ + 7, für seine kryptografischen Operationen.
 reviewed: false

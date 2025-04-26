@@ -1,0 +1,9 @@
+question: Mis on pangasüsteemi privaatsusmudel?
+answer: Ainult pank pääseb ligi tehingute detailidele.
+wrong_answers:
+  - Tehingud on avalikud, kuid kasutajate identiteet ei ole teada.
+  - Tehingud on anonüümsed ja peidetud kõigi eest, kaasa arvatud panga eest.
+  - Ainult valitsustel on ligipääs tehingute detailidele.
+explanation: |
+  Traditsioonilises süsteemis on iga pangakonto seotud identiteediga. Siiski, informatsiooni vool on katkestatud panga ja avaliku domeeni vahel.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Hva er det innebygde antivirusprogrammet i Windows?
+answer: Windows Defender
+wrong_answers:
+  - Kaspersky
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender er det innebygde antivirusprogrammet i Windows. Det er en trygg og
+  effektiv løsning for å beskytte systemet mot trusler.
+reviewed: false

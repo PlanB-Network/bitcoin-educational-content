@@ -1,0 +1,9 @@
+question: Dans un groupe cyclique, comment appelle-t-on un élément qui peut engendrer tous les autres éléments par exponentiation ?
+answer: Un générateur
+wrong_answers:
+  - Un multiplicateur
+  - Un copremier
+  - Un inverse
+explanation: |
+  Un générateur est un élément dans un groupe cyclique qui, par exponentiation, peut produire tous les autres éléments du groupe.
+reviewed: false

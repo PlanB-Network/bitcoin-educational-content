@@ -1,0 +1,9 @@
+question: В RLN какая команда устанавливает двоичный файл "rgb-lightning-node" после клонирования хранилища?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  Команда "cargo install --locked --debug --path ." компилирует и устанавливает двоичный файл "rgb-lightning-node".
+reviewed: false

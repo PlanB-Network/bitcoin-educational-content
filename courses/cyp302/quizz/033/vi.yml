@@ -1,0 +1,9 @@
+question: Chức năng chính của một hạt giống trong bối cảnh của chuỗi giả ngẫu nhiên là gì?
+answer: Để phục vụ như một điểm bắt đầu để tạo ra một chuỗi dài hơn
+wrong_answers:
+  - Để xác định chiều dài cố định của một chuỗi giả ngẫu nhiên
+  - Để xác minh tính toàn vẹn của một chuỗi giả ngẫu nhiên
+  - Để thêm phân phối đồng đều vào các giá trị của một chuỗi
+explanation: |
+  Hạt giống là một chuỗi ngắn được sử dụng như một điểm bắt đầu bởi một thuật toán mở rộng để tạo ra một chuỗi giả ngẫu nhiên dài hơn.
+reviewed: false

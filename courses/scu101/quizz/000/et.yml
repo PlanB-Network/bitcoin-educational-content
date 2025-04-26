@@ -1,0 +1,13 @@
+question: Mis on peamine erinevus privaatse sirvimise ja TOR võrgu kasutamise vahel?
+answer: Tor maskeerib kasutaja IP-aadressi, samas kui privaatne sirvimine seda ei tee.
+wrong_answers:
+  - Privaatne sirvimine ja TOR on sama asi.
+  - Privaatne sirvimine maskeerib kasutaja IP-aadressi, samas kui TOR ei tee seda.
+  - TOR jätab teie arvutisse kohalikud jäljed, samas kui privaatne sirvimine ei jäta.
+explanation: |
+  Privaatne sirvimine on funktsioon, mis takistab internetibrauseritel salvestamast
+  sirvimisajalugu, ajutisi internetifaile, vormiandmeid, küpsiseid ning kasutajanime ja
+  paroole. Siiski ei peida see sirvimist teie internetiteenuse pakkujalt.
+  Teisest küljest pakub TOR võrk anonüümsust, maskeerides kasutaja IP-aadressi
+  ja võimaldades juurdepääsu Darknetile.
+reviewed: false

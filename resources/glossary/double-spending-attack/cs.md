@@ -1,0 +1,9 @@
+---
+term: (ÚTOK)
+
+---
+Útok, při kterém se škodlivý uživatel pokouší použít stejný UTXO (*Unspent Transaction Output*) více než jednou, aby se obohatil na úkor stran zapojených do transakcí. V zásadě platí, že jakmile je transakce potvrzena v bloku a přidána do blockchainu, je použití těchto bitcoinů trvale zaznamenáno, což brání dalšímu utrácení stejných bitcoinů. Zabránění dvojímu utrácení je dokonce hlavním přínosem blockchainu.
+
+V rámci útoku s dvojí útratou útočník nejprve provede legitimní transakci u obchodníka a poté vytvoří druhou konkurenční transakci, při které utratí stejné mince, a to buď tak, že je pošle zpět sobě, aby získal zpět částku, nebo je použije k nákupu jiného zboží či služby u jiného obchodníka.
+
+Existují dva hlavní scénáře, které mohou tento útok umožnit. První, pro útočníka nejjednodušší, zahrnuje provedení podvodné transakce před zařazením legitimní transakce do bloku. Aby si útočník zajistil, že jeho podvodná transakce bude potvrzena jako první, spojí s ní výrazně vyšší transakční poplatky než s legitimní transakcí. Jedná se o druh podvodného RBF. Tento scénář je možný pouze v případě, že obchodník souhlasí s finalizací prodeje v režimu "zeroconf", tedy bez potvrzení platební transakce. Proto se důrazně doporučuje počkat na několik potvrzení, než se transakce považuje za nezměnitelnou. Druhým, mnohem složitějším scénářem je útok na 51 %. Pokud útočník kontroluje významnou část výpočetního výkonu sítě, může vytěžit konkurenční řetězec k řetězci obsahujícímu legitimní transakci, ale včetně své podvodné transakce. Jakmile obchodník prodej přijme a útočníkovi se podaří vytvořit delší řetězec (s větším množstvím nahromaděné práce) než legitimní řetězec, může pak vysílat svůj podvodný řetězec, který uzly sítě rozpoznají jako platný.

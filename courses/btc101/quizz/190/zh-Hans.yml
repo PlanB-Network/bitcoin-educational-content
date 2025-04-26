@@ -1,0 +1,9 @@
+question: 什么是AMF？
+answer: 法国金融市场管理局
+wrong_answers:
+  - 美国货币基金
+  - 矿业设施协会
+  - 自动化资金流转
+explanation: >-
+  AMF，或法国金融市场管理局，是一个法国机构，负责监管可以购买比特币的平台。
+reviewed: false

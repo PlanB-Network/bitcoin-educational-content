@@ -5,7 +5,7 @@ wrong_answers:
   - Mining centralization in Bitcoin can potentially lead to a decrease in the block reward and make the network vulnerable to stagnation.
   - Mining centralization in Bitcoin can potentially lead to a decrease in the transaction speed and make the network vulnerable to congestion.
 explanation: |
-  The chapter explains that mining centralization in Bitcoin can potentially
-  lead to transaction censorship and make the network vulnerable to attacks, including
-  the 51% attack.
-reviewed: false
+  The chapter explains that mining centralization in Bitcoin
+  can potentially lead to transaction censorship and make the
+  network vulnerable to attacks, including the 51% attack.
+reviewed: true

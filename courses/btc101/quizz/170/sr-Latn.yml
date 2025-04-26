@@ -1,0 +1,8 @@
+question: Koja je glavna prednost specijalizovanih SHA256 mašina, ili ASICS, u Bitcoin Mining?
+answer: Povećavaju Hash stopu po džulu.
+wrong_answers:
+  - Oni smanjuju potrošnju energije.
+  - Oni povećavaju brzinu transakcija.
+  - Oni povećavaju sigurnost mreže.
+explanation: >-
+reviewed: true

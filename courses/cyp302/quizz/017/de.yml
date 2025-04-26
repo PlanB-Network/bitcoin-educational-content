@@ -1,0 +1,13 @@
+question: Was ist der Unterschied zwischen einer diskreten Zufallsvariable und einer kontinuierlichen?
+
+answer: Eine diskrete Variable hat eine endliche Anzahl möglicher Ergebnisse, während eine kontinuierliche Variable unendlich viele Werte innerhalb eines Intervalls annehmen kann.
+
+wrong_answers:
+  - Eine diskrete Variable ändert ständig ihren Wert, während eine kontinuierliche Variable stabil bleibt.
+  - Eine diskrete Variable ist spezifisch für durchgeführte physische Experimente, eine kontinuierliche Variable ist abstrakt in ihrem Intervall.
+  - Diskrete Variablen existieren nicht in der modernen Kryptographie, nur kontinuierliche Variablen werden verwendet.
+
+explanation:
+  Diskrete Variablen haben eine endliche Menge von Ergebnissen, während kontinuierliche Variablen jeden Wert innerhalb eines Intervalls annehmen können, wie zum Beispiel die reellen Zahlen zwischen 0 und 1.
+
+reviewed: false

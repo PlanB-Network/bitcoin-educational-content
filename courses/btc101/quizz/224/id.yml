@@ -1,0 +1,10 @@
+question: Apa yang memungkinkan oleh Lightning Network?
+answer: Transaksi Bitcoin instan dengan biaya rendah.
+wrong_answers:
+  - Transaksi Bitcoin instan dengan biaya tinggi.
+  - Transaksi Bitcoin tertunda dengan biaya rendah.
+  - Transaksi Bitcoin tertunda dengan biaya tinggi.
+explanation: >-
+  Lightning Network memungkinkan transaksi Bitcoin instan dengan biaya rendah,
+  sehingga menyelesaikan masalah skalabilitas Bitcoin.
+reviewed: false

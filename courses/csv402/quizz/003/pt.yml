@@ -1,0 +1,9 @@
+question: Qual é a consequência de perder o esconderijo no protocolo RGB?
+answer: O histórico do contrato e os dados associados tornam-se irrecuperáveis
+wrong_answers:
+  - Os dados podem ser reconstruídos a partir da cadeia de blocos se tivermos a semente
+  - Uma cópia dos dados está disponível nos servidores da RGB na Suíça
+  - Os dados são automaticamente replicados para todos os participantes
+explanation: |
+  Na validação do lado do cliente, cada utilizador é responsável pelo seu esconderijo, que não é replicado noutro local, tornando a sua perda definitiva.
+reviewed: false

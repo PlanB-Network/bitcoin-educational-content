@@ -1,0 +1,8 @@
+question: Mis juhtub, kui kanal, milles on aktiivne HTLC, suletakse jõuga?
+answer: HTLC lisatakse kohustuslike tehingute väljundina.
+wrong_answers:
+  - HTLC tühistatakse automaatselt.
+  - Vahendid jaotatakse uuesti eelnevatele sõlmedele.
+  - Kanalit ei saa sulgeda enne, kui HTLC on aegunud.
+explanation: |
+  Jõuga sulgemise korral esindatakse ootel HTLC-sid kohustuslike tehingute väljunditena, tagades seeläbi nende täitmise või tagastamise määratletud tingimustel.

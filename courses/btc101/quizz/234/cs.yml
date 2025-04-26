@@ -1,12 +1,12 @@
-question: Jaká je jedna z možných aplikací Lightning Network v každodenním životě?
-answer: Okamžité fakturování v obchodě
+question: Jaké je jedno z potenciálních využití Lightning Network v každodenním životě?
+answer: Okamžité fakturování v obchodě.
 wrong_answers:
-  - Těžba nových Bitcoinů
-  - Vytváření nových kryptoměn
-  - Zvyšování hodnoty Bitcoinu
+  - Těžba nových Bitcoinů.
+  - Vytváření nových kryptoměn.
+  - Zvyšování hodnoty Bitcoinu.
 explanation: >-
   Lightning Network otevírá dveře široké škále potenciálních aplikací
   pro Bitcoin, které byly dříve nedosažitelné kvůli omezením nutným
-  k zajištění bezpečnosti a decentralizace Bitcoinu. Mezi tyto aplikace v
+  pro zajištění bezpečnosti a decentralizace Bitcoinu. Mezi tyto aplikace v
   každodenním životě můžeme zmínit okamžité fakturování v obchodě.
-reviewed: false
+reviewed: true

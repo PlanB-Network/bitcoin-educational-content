@@ -1,0 +1,13 @@
+question: Điều gì làm cho việc remix trong Whirlpool trở nên độc đáo so với các triển khai coinjoin khác?
+
+answer: Chúng hoàn toàn miễn phí.
+
+wrong_answers:
+  - Chỉ cần trả phí khai thác.
+  - Chỉ giới hạn một lần cho mỗi người dùng.
+  - Chỉ cần trả phí dịch vụ.
+
+explanation: |
+  Remix trong Whirlpool là 100% miễn phí: không yêu cầu phí dịch vụ hay phí khai thác thêm.
+
+reviewed: false

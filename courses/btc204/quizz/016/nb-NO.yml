@@ -1,0 +1,8 @@
+question: Blant svarene, hvilket representerer ett av de viktigste målene med kjedeanalyse?
+answer: Gruppere ulike aktiviteter på Bitcoin for å bestemme brukerens unikhet.
+wrong_answers:
+  - Optimalisere ytelsen til mining på nettverket.
+  - Administrere rettferdighet i protokollen for å håndheve loven i henhold til jurisdiksjoner.
+  - Øke konfidensialiteten til Bitcoin-transaksjoner.
+explanation: |
+  Ett av målene med kjedeanalyse er å gruppere ulike aktiviteter på Bitcoin for å kunne bestemme unikheten til brukeren som utførte dem. Deretter vil det være mulig å forsøke å koble denne samlingen av aktiviteter til en reell identitet.

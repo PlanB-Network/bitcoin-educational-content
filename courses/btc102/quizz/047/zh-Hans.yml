@@ -1,0 +1,9 @@
+question: 建议使用什么设备来确保长期积累资金的安全？
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - 闪电 Wallet
+  - Exchange 平台
+explanation: |
+  Hardware Wallet 可以离线存储私人密钥，长期为大量数据提供更高的安全性。
+reviewed: false

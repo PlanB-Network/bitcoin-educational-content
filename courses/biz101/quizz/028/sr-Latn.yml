@@ -1,0 +1,9 @@
+question: Zašto bi preduzeće moglo odlučiti da prihvati Bitcoin uplate od kupaca?
+answer: Da iskoristi rastuću bazu korisnika, potencijalno niže naknade za transakcije i drži vrednu imovinu u svojoj riznici.
+wrong_answers:
+  - Da se garantuje da će svi kupci platiti više od navedene cene.
+  - Da se osigura da se nikada ne primenjuju porezi ili regulatorni zahtevi.
+  - Da bi proces naplate bio sporiji i složeniji.
+explanation: |
+  Prihvatanje Bitcoin može privući novu demografsku grupu kupaca, smanjiti naknade za obradu plaćanja i izgraditi skladište vrednosti. Takođe može povećati globalni doseg, jer je Bitcoin bez granica i radi non-stop.
+reviewed: false

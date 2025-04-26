@@ -1,11 +1,9 @@
-question: Mitä HMAC tarkoittaa?
-answer: Hash-pohjainen viestin autentikointikoodi
+question: Mikä on yhteinen piste, jota kaikki osallistujat käyttävät julkisen avaimen laskemiseen Bitcoinissa?
+answer: Generaattoripiste G
 wrong_answers:
-  - Hierarkkinen pääautentikointikoodi
-  - Hashattu pääautentikointikoodi
-  - Hierarkkinen viestin autentikointikoodi
+  - SHA256-tiiviste
+  - Mnemoninen lauseke
+  - Pakattu julkinen avain
 explanation: |
-  HMAC tarkoittaa Hash-pohjaista viestin autentikointikoodia. Se on tyyppi
-  viestin autentikointikoodista (MAC), joka sisältää kryptografisen hajautusfunktion ja
-  salaisen kryptografisen avaimen.
+  Elliptisen käyrän secp256k1 generaattoripiste G: tä käytetään julkisten avainten laskemiseen yksityisistä avaimista.
 reviewed: false

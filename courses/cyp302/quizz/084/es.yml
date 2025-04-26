@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal limitación práctica del cifrado de un solo uso (one-time pad)?
+answer: La clave debe ser tan larga como el mensaje y nunca debe reutilizarse
+wrong_answers:
+  - La clave debe cambiarse todos los días
+  - La clave debe ser tres veces más larga que el mensaje
+  - La clave necesariamente debe almacenarse en un Minitel francés
+explanation: |
+  La clave en un cifrado de un solo uso debe ser tan larga como el mensaje y nunca debe reutilizarse, lo que complica significativamente su uso en contextos prácticos. Esto se debe a que si uno es capaz de transmitir datos tan largos como el mensaje de manera segura, tendría más sentido transmitir directamente el mensaje en lugar de la clave.
+reviewed: false

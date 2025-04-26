@@ -1,0 +1,9 @@
+question: ¿Qué constituye un Ancla en RGB?
+answer: ID de transacción, MPC, DBC y prueba de transacción adicional
+wrong_answers:
+  - Génesis, definición del sello y paquete de transición
+  - Esquema contractual, lógica empresarial y estado de propiedad
+  - Firma, transacción hash y compromiso de Pedersen
+explanation: |
+  Un Ancla contiene los datos necesarios para demostrar la inclusión de un compromiso único en una transacción Bitcoin.
+reviewed: false

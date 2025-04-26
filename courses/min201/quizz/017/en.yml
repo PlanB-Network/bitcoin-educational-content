@@ -5,8 +5,9 @@ wrong_answers:
   - If a country like the United States were to decide to regulate or ban Bitcoin mining, it could lead to an increase in the block reward.
   - If a country like the United States were to decide to regulate or ban Bitcoin mining, it could lead to an increase in the transaction speed.
 explanation: |
-  The chapter explains that if a country like the United States were to
-  decide to regulate or ban certain Bitcoin transactions, it could have a significant
-  impact on the network, especially if a large portion of the hashing power is centralized
-  in that country.
-reviewed: false
+  The chapter explains that if a country like the United
+  States were to decide to regulate or ban certain Bitcoin
+  transactions, it could have a significant impact on the
+  network, especially if a large portion of the hashing power
+  is centralized in that country.
+reviewed: true

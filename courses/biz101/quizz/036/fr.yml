@@ -1,0 +1,9 @@
+question: Comment le réseau Lightning contribue-t-il à façonner l'avenir du commerce en ligne et des services numériques ?
+answer: En permettant des microtransactions sans friction, instantanées et sans autorisation, ce qui ouvre la voie à de nouveaux modèles commerciaux et à de nouvelles sources de revenus.
+wrong_answers:
+  - En empêchant l'émergence de nouveaux modèles commerciaux en ligne.
+  - En obligeant les commerçants à utiliser les mêmes rails de paiement lents et coûteux qu'auparavant.
+  - En rendant les biens numériques impossibles à vendre en raison de frais élevés.
+explanation: |
+  La capacité de Lightning à envoyer de minuscules quantités de valeur instantanément et à faible coût encourage l'innovation dans des domaines tels que le contenu à la carte, les paiements en continu et les transactions de machine à machine, transformant potentiellement la manière dont les services en ligne sont monétisés.
+reviewed: false

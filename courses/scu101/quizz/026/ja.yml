@@ -6,3 +6,4 @@ wrong_answers:
   - Macだけがアンチウイルスが必要です。
 explanation: |
   LinuxとMacは、ユーザー権限の分離システムのおかげで、しばしばアンチウイルスは必要ありません。
+reviewed: true

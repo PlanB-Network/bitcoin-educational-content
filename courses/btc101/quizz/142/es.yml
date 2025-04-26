@@ -1,10 +1,10 @@
 question: ¿Qué es un nodo podado en el contexto de Bitcoin?
-answer: Un nodo que solo mantiene los últimos N bloques en memoria
+answer: Un nodo que solo mantiene los últimos N bloques en memoria.
 wrong_answers:
-  - Un nodo que solo valida transacciones
-  - Un nodo que solo transmite información a otros nodos
-  - Un nodo que solo aplica las reglas del protocolo de Bitcoin
+  - Un nodo que solo valida transacciones.
+  - Un nodo que solo transmite información a otros nodos.
+  - Un nodo que solo hace cumplir las reglas del protocolo de Bitcoin.
 explanation: >-
-  Un nodo podado en el contexto de Bitcoin es un nodo que solo mantiene los
-  últimos N bloques en memoria.
-reviewed: false
+  Un nodo podado en el contexto de Bitcoin es un nodo que solo mantiene
+  los últimos N bloques en memoria.
+reviewed: true

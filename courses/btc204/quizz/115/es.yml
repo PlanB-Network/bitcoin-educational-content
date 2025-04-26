@@ -1,0 +1,11 @@
+question: ¿Qué es un ricochet en el contexto de Bitcoin?
+
+answer: Una técnica que implica realizar múltiples transacciones a uno mismo
+
+wrong_answers:
+  - Una transacción colaborativa que involucra a múltiples participantes
+  - Un método de mezclar bitcoins para aumentar el anonimato potencial
+  - Un tipo de coinjoin específico para ciertas plataformas de intercambio
+
+explanation: |
+  Un ricochet es una técnica que involucra realizar varias transacciones ficticias a uno mismo (barrido).

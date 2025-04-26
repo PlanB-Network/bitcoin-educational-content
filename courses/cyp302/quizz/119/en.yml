@@ -1,0 +1,8 @@
+question: Why is AES encryption in ECB mode not recommended for secure use?
+answer: It results in deterministic encryption
+wrong_answers:
+  - It requires a key of more than 128 bits
+  - It is too slow for most modern applications
+  - It does not allow dividing the text into 128-bit blocks
+explanation: |
+  ECB mode is not recommended because it produces deterministic encryption, meaning that identical blocks of plaintext will yield identical blocks of ciphertext, which can be exploited to guess information about the plaintext.

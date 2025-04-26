@@ -1,0 +1,12 @@
+question: Apa keuntungan utama menggunakan dompet non-custodial untuk penyimpanan bitcoin?
+answer: Keamanan dan privasi yang meningkat
+wrong_answers:
+  - Akses mudah ke bitcoin
+  - Biaya transaksi yang lebih rendah
+  - Tidak perlu kata sandi
+explanation: |
+  Dompet non-custodial adalah tempat Anda menjadi satu-satunya wali dari dana Anda,
+  artinya Anda memiliki kontrol penuh atas kunci privat Anda. Oleh karena itu,
+  dompet non-custodial menawarkan tingkat keamanan dan privasi yang lebih tinggi
+  dibandingkan dengan dompet custodial karena Anda adalah satu-satunya yang bertanggung jawab atas keamanan dana Anda.
+reviewed: true

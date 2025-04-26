@@ -50,7 +50,7 @@ Ao abrir o aplicativo pela primeira vez, você tem a escolha entre:
 
 Dojo, desenvolvido pela equipe Samourai, é uma versão completa de nó Bitcoin que pode ser instalada de forma independente ou adicionada com um clique a soluções de nó-em-caixa como [Umbrel](https://umbrel.com/) e [RoninDojo](https://ronindojo.io/).
 
-[**-> Descubra como instalar o RoninDojo v2 em um Raspberry Pi.**](https://planb.network/pt/tutorials/node/ronin-dojo-v2)
+[**-> Descubra como instalar o RoninDojo v2 em um Raspberry Pi.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 Se você tem seu próprio Dojo, pode conectá-lo nesta etapa. Ao fazer isso, você se beneficiará do mais alto nível de privacidade ao verificar as informações de transação da rede Bitcoin.
 
@@ -149,3 +149,4 @@ Você tem a opção de inserir sua PSBT assinada de três maneiras diferentes:
 Uma vez que a transação assinada é inserida no quadro cinza, você pode clicar no botão verde `BROADCAST TRANSACTION` para transmiti-la na rede Bitcoin. O Sentinel fornecerá seu TXID.
 
 ![watch-only](assets/notext/25.webp)
+

@@ -1,9 +1,11 @@
 question: Was ist die Hauptherausforderung beim Bitcoin-Mining?
-answer: Die Bergbauindustrie ist äußerst wettbewerbsfähig und volatil, und unvorhergesehene Zwischenfälle können den Bergbaubetrieb stören.
+answer: Die Mining-Industrie ist extrem wettbewerbsintensiv und volatil, und unvorhergesehene Ereignisse können die Mining-Operationen stören.
 wrong_answers:
   - Die Hauptherausforderung besteht darin, eine zuverlässige Stromquelle zu finden.
-  - Die Hauptherausforderung besteht darin, einen sicheren Ort zur Aufbewahrung der geschürften Bitcoins zu finden.
-  - Die Hauptherausforderung besteht darin, einen Käufer für die geschürften Bitcoins zu finden.
+  - Die Hauptherausforderung besteht darin, einen sicheren Ort zur Aufbewahrung der geminten Bitcoins zu finden.
+  - Die Hauptherausforderung besteht darin, einen Käufer für die geminten Bitcoins zu finden.
 explanation: |
-  Die Hauptherausforderung beim Bitcoin-Mining besteht darin, dass die Bergbauindustrie äußerst wettbewerbsfähig und volatil ist und unvorhergesehene Zwischenfälle den Bergbaubetrieb stören können.
-reviewed: false
+  Die Hauptherausforderung beim Bitcoin-Mining besteht darin,
+  dass die Mining-Industrie extrem wettbewerbsintensiv und volatil ist,
+  und unvorhergesehene Ereignisse die Mining-Operationen stören können.
+reviewed: true

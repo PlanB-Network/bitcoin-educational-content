@@ -1,0 +1,9 @@
+question: What are the main components required to run an RGB-compatible Lightning node?
+answer: A bitcoind, an indexer and an RGB proxy server
+wrong_answers:
+  - A Lightning node, an indexer and an IPFS server
+  - An RGB mobile wallet, an RGB proxy server and a bitcoind
+  - Web client, indexer and RGB proxy server
+explanation: |
+  To run an RGB-enabled Lightning node, you need a bitcoind node to interact with the Bitcoin blockchain, an indexer to mine on-chain transactions, and an RGB proxy server to facilitate the exchange of consignments between peers.
+reviewed: false

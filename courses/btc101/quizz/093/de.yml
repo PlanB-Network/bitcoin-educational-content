@@ -1,9 +1,13 @@
-question: Was müssen Sie sichern, wenn Sie eine Brieftasche mit einem Passwort verwenden?
+question: Was müssen Sie sichern, wenn Sie eine Wallet mit einem Passwort verwenden?
 answer: Sie müssen sowohl die Liste der 12 oder 24 Wörter als auch Ihr Passwort sichern.
 wrong_answers:
   - Sie müssen nur die Liste der 12 oder 24 Wörter sichern.
   - Sie müssen nur Ihr Passwort sichern.
   - Sie müssen weder die Liste der 12 oder 24 Wörter noch Ihr Passwort sichern.
 explanation: |
-  Wenn Sie eine Brieftasche mit einem Passwort verwenden, müssen Sie sowohl die Liste der 12 oder 24 Wörter als auch Ihr Passwort sichern. Dies liegt daran, dass sowohl die Liste der Wörter als auch das Passwort erforderlich sind, um den Zugriff auf Ihre Gelder im Falle eines Verlusts Ihres Telefons oder Computers wiederherzustellen. Ohne eines von beiden sind die Gelder nicht zugänglich.
-reviewed: false
+  Wenn Sie eine Wallet mit einem Passwort verwenden, müssen Sie
+  sowohl die Liste der 12 oder 24 Wörter als auch Ihr Passwort sichern,
+  da sowohl die Liste der Wörter als auch das Passwort notwendig sind,
+  um im Falle des Verlusts Ihres Telefons oder Computers wieder Zugang zu Ihren Mitteln zu erhalten. Ohne das eine oder das andere
+  sind die Mittel nicht zugänglich.
+reviewed: true

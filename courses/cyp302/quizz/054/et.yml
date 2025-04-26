@@ -1,0 +1,9 @@
+question: Mis on peamine algebrailine struktuur, mida kasutatakse krüptograafias lõplikes väljades?
+answer: Redutseerimatud polünoomid
+wrong_answers:
+  - Ruutmaatriksid
+  - Juhuslikud vektorid
+  - Kuupjuured
+explanation: |
+  Krüptograafias kasutatakse lõplikes väljades järku 2^m sageli redutseerimatuid polünoome, et tagada välja korrektne määratlus ja kõikide operatsioonide võimalikkus.
+reviewed: false

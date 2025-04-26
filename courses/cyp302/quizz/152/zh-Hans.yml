@@ -1,0 +1,8 @@
+question: RSA密码系统中的私钥d有什么作用？
+answer: 它用于使用模数N解密消息
+wrong_answers:
+  - 它仅用于加密消息
+  - 它用于解锁比特币
+  - 它用于计算φ(N)
+explanation: |
+  私钥d用于通过完成与模数N的计算来解密加密消息。

@@ -1,9 +1,8 @@
-question: Hash trong ngữ cảnh của hàm băm mật mã là gì?
-answer: Một dấu vân tay số độc nhất và cố định được tạo ra bởi hàm băm.
+question: Điều gì xảy ra trong mỗi vòng nén của SHA256?
+answer: Các biến trạng thái được cập nhật từ các từ thông điệp và hằng số
 wrong_answers:
-  - Một loại thuật toán mã hóa.
-  - Một khóa được sử dụng để giải mã dữ liệu.
-  - Một phương pháp nén dữ liệu.
+  - Băm cuối cùng được tạo ra dần dần sau mỗi vòng
+  - Các bit của thông điệp được sắp xếp lại
+  - Giá trị ban đầu của các biến không thay đổi
 explanation: |
-  Trong ngữ cảnh của hàm băm mật mã, hash là một dấu vân tay số độc nhất và cố định được tạo ra bởi hàm băm. Nó đại diện cho dữ liệu đầu vào một cách độc nhất và không thể đảo ngược.
-reviewed: false
+  Mỗi vòng thay đổi các biến trạng thái sử dụng từ, hằng số, và các phép toán logic để lan truyền thông tin.

@@ -1,0 +1,9 @@
+question: ¿Qué elemento faltaba en el diseño de Bitcoin el 31 de octubre de 2008?
+answer: La cantidad finita de unidades
+wrong_answers:
+  - Prueba de trabajo
+  - Verificación de pago simplificada
+  - La cadena de bloques
+explanation: |
+  La política monetaria inicial correspondía a una emisión constante (X BTC/bloque) como indicaba la primera versión del documento técnico y los [intercambios](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) de Satoshi con Ray Dillinger.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Mikä näistä vaihtoehdoista ei ole fiat-valuuttojen etu?
-answer: Ne ovat alttiita rahalliselle inflaatiolle
+question: Mikä on fiat-rahan merkitys?
+answer: Fiat-raha on valuuttaa, jolla on arvoa, koska hallitus ylläpitää sitä ja ihmisillä on uskoa sen arvoon, sen sijaan, että se olisi tuettu fyysisellä hyödykkeellä, kuten kullalla.
 wrong_answers:
-  - Ne ovat helposti kuljetettavissa
-  - Ne ovat helposti jaettavissa
-  - Ne hyväksytään kaikissa maissa
+  - Fiat-raha on valuuttaa, joka on tuettu fyysisellä hyödykkeellä, kuten kullalla tai hopealla, mikä tarkoittaa, että sen arvo on suoraan sidoksissa kyseisen hyödykkeen arvoon.
+  - Fiat-raha on kryptovaluutan tyyppi, joka toimii hajautetussa verkossa, mahdollistaen vertaisverkkotransaktiot ilman keskusviranomaisen tarvetta.
+  - Fiat-raha on valuuttaa, jolla ei ole sisäistä arvoa eikä sitä voida käyttää transaktioissa, mikä tekee siitä käytännössä arvottoman taloudessa.
 explanation: |
-  Fiat-valuutat, kuten dollari ja euro, ovat erittäin likvidejä ja
-  helposti kuljetettavissa, koska ne ovat nykyään pääasiassa digitaalisia. Niiden arvo kuitenkin
-  heikkenee jatkuvasti rahallisen inflaation seurauksena.
-reviewed: false
+  Fiat-raha on määritelty lailliseksi maksuvälineeksi hallituksen päätöksellä, eikä sen arvo johda mistään fyysisestä hyödykkeestä.
+reviewed: true

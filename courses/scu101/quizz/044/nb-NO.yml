@@ -1,0 +1,13 @@
+question: Hvorfor er det viktig å gradvis erstatte dine gamle passord med de som er generert av en passordbehandler?
+answer: Passord generert av en passordbehandler er sterkere og lengre, noe som tilbyr mer sikkerhet.
+wrong_answers:
+  - Gamle passord blir automatisk slettet av passordbehandleren.
+  - Passordbehandlere kan bare lagre et begrenset antall passord.
+  - Passordbehandlere krever at alle passord blir generert av dem.
+explanation: |
+  Passord generert av en passordbehandler er sterkere og lengre, noe som tilbyr
+
+  mer sikkerhet. Ved gradvis å erstatte dine gamle passord med disse, kan du forbedre
+
+  sikkerheten til dine nettbaserte kontoer.
+reviewed: false

@@ -1,0 +1,17 @@
+question: Hva er effekten av å trykke mer penger på en valutas kjøpekraft?
+answer: En forverring i valutaens kjøpekraft
+wrong_answers:
+  - En økning i valutaens kjøpekraft
+  - Ingen effekt
+  - Mer penger = større kjøpekraft
+explanation: |
+  Når sentralbanker bestemmer seg for å trykke penger, kan de ikke bare skape mer verdi.
+  For at disse nytrykte pengene skal være verdt noe, må verdien deres komme fra
+  de som allerede holder valutaen.
+  Tenk på pengemengden som en pizza, og forestill deg at den er kuttet i fire biter.
+  Å doble pengemengden ville ikke være det samme som å doble mengden pizza.
+  I stedet ville det være det samme som å kutte de fire bitene i to for å lage
+  åtte biter. Vi har ikke fått mer pizza. Vi har bare flere biter,
+  hver mindre i størrelse. Derfor, når vi trykker mer penger, devaluerer vi pengene
+  som allerede eksisterer.
+reviewed: true

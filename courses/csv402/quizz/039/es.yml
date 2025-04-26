@@ -1,0 +1,9 @@
+question: ¿Qué comando exporta un contrato del alijo a un archivo externo?
+answer: rgb export '<IdContrato>' myContractPBN.rgb
+wrong_answers:
+  - rgb descargar '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - rgb issue '<ContractId>' myContractPBN.rgb
+explanation: |
+  El comando "exportar rgb" se utiliza para extraer un contrato del alijo y guardarlo como archivo para compartirlo fácilmente.
+reviewed: false

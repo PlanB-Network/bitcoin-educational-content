@@ -1,0 +1,8 @@
+question: Hva begrenser mengden av en indirekte betaling på Lightning Network?
+answer: Den minste tilgjengelige likviditeten i en kanal på den valgte stien
+wrong_answers:
+  - Antall mellomliggende noder involvert
+  - Den totale kapasiteten til Lightning Network
+  - Ruteravgiftene satt av hver node
+explanation: |
+  Maksimumsbeløpet som en indirekte betaling kan overføre, avhenger av den laveste tilgjengelige likviditeten i kanalene som brukes, ettersom hver kanal må justere midlene på hver side.

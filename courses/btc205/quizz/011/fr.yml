@@ -1,9 +1,0 @@
-question: Quel est un inconvénient de la solution RoboSat P2P ?
-answer: Le protocole est fragile avec un seul coordinateur.
-wrong_answers:
-  - Il nécessite un compte pour fonctionner.
-  - Il n'utilise pas le réseau Lightning.
-  - Il n'est pas open source.
-explanation: |
-  Le chapitre mentionne qu'un des inconvénients de RoboSat est que son protocole est fragile avec un seul coordinateur.
-reviewed: false

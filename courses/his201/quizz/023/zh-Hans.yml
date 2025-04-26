@@ -1,0 +1,8 @@
+question: 中本聪在2008年10月31日在哪里发布了比特币白皮书？
+answer: 密码学邮件列表
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation:
+  作为密码朋克邮件列表的继任者，这个电子邮件邮件列表自1996年以来由开发者Perry Metzger管理。

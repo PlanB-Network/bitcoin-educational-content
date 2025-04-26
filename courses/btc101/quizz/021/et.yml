@@ -1,0 +1,9 @@
+question: Mis on kulla peamine puudus rahana?
+answer: See ei ole kergesti jagatav ega transporditav pikamaa vahemaade taha
+wrong_answers:
+  - See ei säilita oma väärtust erinevates kohtades
+  - See kulub aja jooksul
+  - Seda on kerge toota
+explanation: |
+  Kulla peamine puudus rahana on see, et see ei ole kergesti jagatav ega transporditav pikamaa vahemaade taha. See muudab selle vähem praktiliseks globaliseerunud ja digitaalses maailmas.
+reviewed: true

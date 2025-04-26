@@ -1,0 +1,9 @@
+question: Mis on vangi dilemma tööjaotuse kontekstis?
+answer: See on olukord, kus vastastikune koostöö toob kaasa suboptimaalsed tulemused üksikisikutele, kuid maksimaalsed tulemused grupile.
+wrong_answers:
+  - See on olukord, kus üksikisikud keelduvad koostööst, viies maksimaalsete tulemusteni grupile.
+  - See on olukord, kus üksikisikud teevad koostööd, viies maksimaalsete tulemusteni endale, kuid suboptimaalsete tulemusteni grupile.
+  - See on olukord, kus üksikisikud keelduvad koostööst, viies suboptimaalsete tulemusteni nii endale kui ka grupile.
+explanation: |
+  Vangi dilemma on mänguteooria kontseptsioon, kus üksikisikutel on stiimul valida strateegiaid, mis maksimeerivad nende individuaalset kasu, sõltumata teiste poolt valitud strateegiatest, isegi kui koordineerimise/koostöö kaudu oleks võimalik saavutada soovitavam tasakaal.
+reviewed: false

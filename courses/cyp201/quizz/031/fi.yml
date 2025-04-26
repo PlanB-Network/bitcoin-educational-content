@@ -1,9 +1,8 @@
-question: Mikä on Bitcoinin yksityisavaimen mahdollisuuksien kokonaismäärä?
-answer: Melkein yhtä suuri kuin 1,158 x 10^77
+question: Mikä modifioija voidaan yhdistää perus Sighash-lippuihin?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Tarkalleen 2^256
-  - Välillä 1 ja n-1
-  - Suunnilleen sama määrä atomeja kuin havaittavissa olevassa universumissa
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  Bitcoinin yksityisavaimen mahdollisuuksien kokonaismäärä on melkein yhtä suuri kuin 1,158 x 10^77, mikä on suunnilleen sama määrä atomeja kuin mitä havaittavissa olevassa universumissa on. Tämä johtuu siitä, että yksityisavaimen on oltava välillä 1 ja n-1, missä n edustaa elliptisen käyrän järjestystä.
-reviewed: false
+  SIGHASH_ANYONECANPAY modifioi Sighash-lippuja siten, että ne kattavat vain yhden syötteen samalla kun loput jätetään muokattaviksi.

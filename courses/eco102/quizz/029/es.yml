@@ -1,0 +1,9 @@
+question: ¿Cuál ha sido el impacto de la apertura económica, según las ideas de Cobden, sobre la pobreza global en los últimos 20 años?
+answer: La pobreza se ha reducido a la mitad
+wrong_answers:
+  - La pobreza aumentó en un 10%
+  - La pobreza se mantuvo estable
+  - La pobreza se redujo en un 20%
+explanation: |
+  Cobden abogó por la apertura económica como un medio para reducir la pobreza, y los resultados modernos muestran una reducción significativa de esta, especialmente en países abiertos al comercio.
+reviewed: false

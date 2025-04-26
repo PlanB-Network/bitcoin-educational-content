@@ -1,0 +1,9 @@
+question: フランス語で公開された最初のビットコインに関する記事の著者は誰でしたか？
+answer: Lucien Grondin (grondilu)
+wrong_answers:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+explanation: |
+  それは2010年9月30日にLinuxFr.orgで公開された「ビットコインを知っていますか？」と題された[text](https: //linuxfr.org/news/connaissez-vous-les-bitcoins)でした。
+  レビュー済み: false

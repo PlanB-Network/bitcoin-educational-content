@@ -1,0 +1,9 @@
+question: Ni tofauti gani kuu kati ya P2PK na P2PKH?
+answer: P2PK hutumia moja kwa moja ufunguo mbichi wa umma, wakati P2PKH hutumia Hash ya ufunguo wa umma.
+wrong_answers:
+  - P2PK inaoana na SegWit, wakati P2PKH haiendani.
+  - P2PK hutumia sahihi ya Schnorr, huku P2PKH inatumia sahihi ya ECDSA.
+  - P2PK imekusudiwa kwa multisigs, wakati P2PKH ni hati rahisi.
+explanation: |
+  P2PK hufunga pesa kwa ufunguo mbichi wa umma, ilhali P2PKH hutumia Hash ya ufunguo wa umma.
+reviewed: false

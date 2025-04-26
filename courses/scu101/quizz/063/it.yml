@@ -1,9 +1,9 @@
-question: Quali sono alcuni degli aspetti della crittografia utilizzati nella sicurezza informatica?
+question: Quali sono alcuni degli aspetti della crittografia utilizzati nella cybersecurity?
 answer: SSL/TLS, crittografia simmetrica/asimmetrica
 wrong_answers:
   - RSA, DSA, ECC
   - AES, DES, 3DES
   - MD5, SHA-1, SHA-256
 explanation: |
-  Il capitolo elenca SSL/TLS e la crittografia simmetrica/asimmetrica come alcuni degli aspetti della crittografia utilizzati nella sicurezza informatica.
-reviewed: false
+  Il capitolo elenca SSL/TLS e la crittografia simmetrica/asimmetrica come alcuni degli aspetti della crittografia utilizzati nella cybersecurity.
+reviewed: vero

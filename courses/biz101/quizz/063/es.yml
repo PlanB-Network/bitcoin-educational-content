@@ -1,0 +1,9 @@
+question: ¿Qué escenario ilustra mejor el uso del perfil Esencial para los pagos con Bitcoin?
+answer: Un restaurante que acepta algunos pagos con Bitcoin al mes
+wrong_answers:
+  - Una multinacional que procesa miles de transacciones diarias
+  - Un autónomo que acepta el pago de sus facturas en bitcoins
+  - Una mesa de negociación de Bitcoin de alta frecuencia
+explanation: |
+  El perfil Essential se dirige a pequeñas y medianas empresas con pocas transacciones en Bitcoin, como un restaurante.
+reviewed: false

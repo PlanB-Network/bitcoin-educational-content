@@ -1,0 +1,9 @@
+question: Mis on kolm põhilist sammu MAC skeemis?
+answer: Võtme genereerimine, märgise genereerimine, kontrollimine
+wrong_answers:
+  - Krüpteerimine, dekrüpteerimine, edastamine
+  - Avaliku võtme genereerimine, privaatvõtme krüpteerimine, valideerimine
+  - Sõnumi räsšimine, märgise krüpteerimine, märgise levitamine
+explanation: |
+  MAC skeem koosneb kolmest peamisest sammust: salajase võtme genereerimine, sõnumile märgise tootmine ja saadud sõnumi ning selle märgise vastavuse kontrollimine.
+reviewed: false

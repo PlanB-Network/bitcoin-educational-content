@@ -1,0 +1,13 @@
+question: Coinjoin和托管混币器之间的主要区别是什么？
+
+answer: Coinjoin允许您完全控制您的资金。
+
+wrong_answers:
+  - Coinjoin要求暂时放弃资金的保管权。
+  - 混币器比coinjoins更安全。
+  - 混币器提供更好的混合质量。
+
+explanation: |
+  与coinjoins相比，混币器的主要缺点是它们要求用户在混合过程中放弃对资金的保管权，这使他们面临被盗的风险。
+
+reviewed: false

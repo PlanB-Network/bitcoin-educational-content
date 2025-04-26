@@ -1,10 +1,9 @@
-question: Onko salalause turvallisempi kuin yksinkertainen salasana?
-answer: "Kyllä"
+question: Mikä on pääasiallinen ero P2PK n ja P2PKH n välillä?
+answer: P2PK käyttää suoraan raakaa julkista avainta, kun taas P2PKH käyttää julkisen avaimen tiivistettä.
 wrong_answers:
-  - "Ei"
-  - Riippuu salasanan pituudesta
-  - Riippuu salasanan monimutkaisuudesta
+  - P2PK on SegWit-yhteensopiva, kun taas P2PKH ei ole.
+  - P2PK käyttää Schnorr-allekirjoitusta, kun taas P2PKH käyttää ECDSA-allekirjoitusta.
+  - P2PK on tarkoitettu multisigeille, kun taas P2PKH on yksinkertaisille skripteille.
 explanation: |
-  Salalause on turvallisempi kuin yksinkertainen salasana. Ihanteellinen salalause
-  on pitkä, monipuolinen ja satunnainen. Se voi parantaa lompakon tai hot-ohjelmiston turvallisuutta.
+  P2PK lukitsee varat käyttäen raakaa julkista avainta, kun taas P2PKH käyttää julkisen avaimen tiivistettä.
 reviewed: false

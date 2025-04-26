@@ -1,0 +1,9 @@
+question: Quelle est la critique autrichienne de la théorie marxiste du profit ?
+answer: Le profit est une récompense nécessaire pour les entrepreneurs qui prennent des risques et investissent.
+wrong_answers:
+  - Les Autrichiens affirment que le profit est une forme d'exploitation des travailleurs.
+  - Les Autrichiens critiquent la théorie de Marx car elle ne prend pas en compte le rôle du mérite.
+  - La théorie marxiste du profit sert les intérêts d'une classe.
+explanation: |
+  Pour les économistes autrichiens, le profit représente la compensation des entrepreneurs pour les risques assumés et les investissements effectués, en opposition à la vision marxiste qui y voit une exploitation des travailleurs.
+reviewed: false

@@ -1,9 +1,0 @@
-question: HodlHodlのP2Pソリューションの欠点は何ですか？
-answer: ユーザーのメールアドレスとデジタルアイデンティティがHodlHodlによって保存されます。
-wrong_answers:
-  - Bitcoinの購入と販売を促進しない。
-  - 操作するためにアカウントの作成が必要です。
-  - 広範な交換の可能性を提供しない。
-explanation: |
-  この章によると、HodlHodlの欠点の一つは、ユーザーのメールアドレスとデジタルアイデンティティがHodlHodlによって保存されることです。
-reviewed: false

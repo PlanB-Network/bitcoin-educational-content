@@ -1,0 +1,9 @@
+---
+term: RECURSIVO (CONVENIO)
+
+---
+Un pacto recursivo en Bitcoin es un tipo de contrato inteligente que impone condiciones no sólo a la transacción actual sino también a las transacciones futuras que gasten los resultados de esta transacción. Esto permite la creación de cadenas de transacciones donde cada una debe adherirse a ciertas reglas definidas por la primera en la cadena. La recursividad crea una secuencia de transacciones en la que cada una hereda las restricciones de su transacción matriz. Esto permitiría un control complejo y a largo plazo sobre cómo pueden gastarse los bitcoins, pero también introduciría riesgos en cuanto a la libertad de gasto y la fungibilidad.
+
+En resumen, un pacto no recursivo sólo se limitaría a la transacción inmediatamente posterior a la que estableció las reglas. Por el contrario, un pacto recursivo tiene la capacidad de imponer condiciones específicas a un bitcoin indefinidamente. Las transacciones pueden sucederse, pero el bitcoin en cuestión siempre conservará las condiciones iniciales que se le impusieron. Técnicamente, el establecimiento de un pacto no recursivo se produce cuando la `scriptPubKey` de un UTXO define restricciones sobre la `scriptPubKey` de las salidas de una transacción que gasta dicho UTXO. Por otro lado, el establecimiento de un pacto recursivo se produce cuando la `scriptPubKey` de un UTXO define restricciones sobre la `scriptPubKey` de las salidas de una transacción que gasta dicho UTXO, y sobre todas las `scriptPubKey` que seguirán al gasto de este UTXO.
+
+En informática, lo que se denomina "recursividad" es la capacidad de una función de llamarse a sí misma, creando una especie de bucle.

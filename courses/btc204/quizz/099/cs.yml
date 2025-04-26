@@ -1,0 +1,13 @@
+question: Co měří retrospektivní anonset?
+
+answer: Odolnost soukromí proti analýze z přítomnosti do minulosti.
+
+wrong_answers:
+  - Odolnost soukromí proti analýze z minulosti do budoucnosti.
+  - Odolnost soukromí proti analýze z přítomnosti do budoucnosti.
+  - Odolnost soukromí proti analýze z minulosti do přítomnosti.
+
+explanation: |
+  Retrospektivní anonset měří odolnost soukromí mince proti analýze z přítomnosti do minulosti (výstup na vstup).
+
+reviewed: false

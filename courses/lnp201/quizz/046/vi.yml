@@ -1,9 +1,11 @@
-question: Mục đích của khóa thu hồi trong Lightning Network là gì?
-answer: Để trừng phạt một người tham gia cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ.
+question: Trong một hóa đơn Lightning, tiền tố lnbc trong phần dễ đọc có ý nghĩa gì?
+
+answer: Nó chỉ ra một giao dịch Lightning trên blockchain Bitcoin
+
 wrong_answers:
-  - Để thưởng cho một người tham gia gian lận thành công.
-  - Để mở một kênh mới.
-  - Để xác thực một giao dịch.
-explanation: |
-  Khóa thu hồi là một cơ chế trong Lightning Network để ngăn chặn gian lận. Nếu một người tham gia cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ, người tham gia khác có thể sử dụng khóa thu hồi để trừng phạt kẻ gian lận và lấy tất cả SAT từ kênh.
-reviewed: false
+  - Rằng hóa đơn chỉ hợp lệ trên mạng thử nghiệm Bitcoin
+  - Rằng hóa đơn được mã hóa trong bech32
+  - Rằng đó là một giao dịch trên chuỗi
+
+explanation:
+  Tiền tố lnbc biểu thị rằng hóa đơn là cho một giao dịch Lightning trên mạng Bitcoin, và không phải trên mạng khác.

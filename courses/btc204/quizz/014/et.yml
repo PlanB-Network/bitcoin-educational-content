@@ -1,0 +1,9 @@
+question: Mis on Bitcoini süsteemi privaatsusmudel?
+answer: Tehingud on avalikud, kuid kasutajate identiteet ei ole teada.
+wrong_answers:
+  - Ainult Satoshi Nakamoto'l on juurdepääs tehingute detailidele.
+  - Tehingud on krüpteeritud ja võrgus nähtamatud.
+  - Ainult valitsustel on juurdepääs tehingute detailidele.
+explanation: |
+  Bitcoini puhul, kuna teabevoogu tehingute ja avaliku domeeni vahel ei saa katkestada, põhineb privaatsusmudel kasutaja identiteedi ja tehingute eraldamisel.
+reviewed: false

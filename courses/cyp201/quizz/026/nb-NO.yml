@@ -1,0 +1,9 @@
+question: Hva er utgangspunktet for å beregne en ECDSA-signatur?
+answer: Meldingshashen
+wrong_answers:
+  - Den offentlige nøkkelen
+  - En fast nonce
+  - En tilpasset elliptisk kurve
+explanation: |
+  En ECDSA-signatur starter med å beregne hashen av meldingen som skal signeres, ofte med SHA256.
+reviewed: false

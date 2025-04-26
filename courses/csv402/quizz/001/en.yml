@@ -1,0 +1,9 @@
+question: What is an essential feature of the single use seals used in RGB?
+answer: They can only be closed once
+wrong_answers:
+  - They can only be closed twice
+  - They guarantee the confidentiality of transactions
+  - They eliminate the need for consensus on blockchain
+explanation: |
+  Single use seals enable the creation of unique cryptographic commitments, preventing duplication or double spending.
+reviewed: false

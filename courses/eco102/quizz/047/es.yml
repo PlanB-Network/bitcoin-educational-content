@@ -1,0 +1,9 @@
+question: ¿Cómo establece Bastiat la conexión entre la acumulación de capital y las condiciones de vida de los trabajadores?
+answer: El aumento de la producción conduce a una disminución de los precios y un aumento de los salarios.
+wrong_answers:
+  - El capital permite financiar proyectos sociales y mejorar los servicios públicos.
+  - Los propios trabajadores se convierten en capitalistas y comparten las ganancias.
+  - El capital permite una reducción en la dependencia de los empleadores.
+explanation: |
+  Bastiat argumenta que la acumulación de capital incrementa la producción, lo que lleva a una disminución de los precios y un aumento de los salarios, mejorando así las condiciones de vida.
+reviewed: false

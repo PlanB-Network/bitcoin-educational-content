@@ -1,9 +1,9 @@
-question: Was sollten Sie nach dem Kauf von Bitcoin auf einer Handelsplattform tun?
-answer: Bitcoin auf Ihre Wallet abheben.
+question: Was sollten Sie tun, nachdem Sie Bitcoin auf einer Handelsplattform gekauft haben?
+answer: Ziehen Sie die Bitcoins ab und senden Sie sie an Ihre Wallet.
 wrong_answers:
-  - Lassen Sie es auf der Plattform.
-  - Verkaufen Sie es sofort.
-  - Übertragen Sie es auf eine andere Plattform.
+  - Lassen Sie die Bitcoins auf der Plattform.
+  - Verkaufen Sie die Bitcoins sofort.
+  - Übertragen Sie die Bitcoins auf eine andere Handelsplattform.
 explanation: |
-  Der Text empfiehlt, dass Sie nach dem Kauf von Bitcoin die Bitcoins sofort von den Handelsplattformen abheben, um das Risiko von Hacking und Sperrung der Mittel zu minimieren.
-reviewed: false
+  Der Kurstext rät, dass man nach dem Kauf von Bitcoin die UTXOs sofort von Handelsplattformen abziehen muss, um die Risiken von Hacking und der Blockierung von Geldern zu minimieren.
+reviewed: true

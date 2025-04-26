@@ -1,0 +1,9 @@
+question: Hvorfor anses volatilitet som et naturlig aspekt ved Bitcoin som et fremvoksende aktivum?
+answer: Bitcoin er fortsatt relativt ungt, tiltrekker seg spekulanter og reagerer på markedsnyheter, noe som fører til prissvingninger før det stabiliserer seg over lengre perioder.
+wrong_answers:
+  - Fordi den er sentralstyrt og prisene fastsettes av én myndighet.
+  - Fordi Bitcoin mangler brukere som holder det langsiktig.
+  - Fordi kjøpmennene må sette prisene uforutsigbart hver time.
+explanation: |
+  Som et aktivum under utvikling påvirkes Bitcoins pris av spekulasjon, følelser og varierende adopsjonsrater. Etter hvert som flere stabile, langsiktige eiere kommer til, kan volatiliteten avta, men den er fortsatt et kjennetegn ved vekst i en tidlig fase.
+reviewed: false

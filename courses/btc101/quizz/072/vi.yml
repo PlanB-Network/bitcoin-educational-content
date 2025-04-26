@@ -1,9 +1,9 @@
 question: Ba chức năng chính của ví Bitcoin là gì?
-answer: Nhận Bitcoin, Gửi Bitcoin, bảo mật chúng khỏi các nỗ lực hack và trộm cắp
+answer: Nhận Bitcoin, gửi Bitcoin, bảo mật chúng khỏi các nỗ lực hack và trộm cắp.
 wrong_answers:
-  - Lưu trữ Bitcoin, cho phép gửi Bitcoin, bảo mật chúng khỏi các nỗ lực hack và trộm cắp
-  - Cho phép nhận Bitcoin, lưu trữ Bitcoin, bảo mật chúng khỏi các nỗ lực hack và trộm cắp
-  - Cho phép nhận Bitcoin, cho phép gửi Bitcoin, bán Bitcoin
+  - Lưu trữ Bitcoin, gửi Bitcoin, bảo mật chúng khỏi các nỗ lực hack và trộm cắp.
+  - Cho phép nhận Bitcoin, lưu trữ Bitcoin, bảo mật chúng khỏi các nỗ lực hack và trộm cắp.
+  - Cho phép nhận Bitcoin, cho phép gửi Bitcoin, bán Bitcoin.
 explanation: |
   Ví Bitcoin được sử dụng để tương tác với mạng Bitcoin. Ba chức năng chính của nó là cho phép nhận Bitcoin, cho phép gửi Bitcoin và bảo mật chúng khỏi các nỗ lực hack và trộm cắp.
 reviewed: true

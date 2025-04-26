@@ -1,0 +1,9 @@
+question: Zašto bi manje često korišćeni tipovi pisma mogli biti lakše prepoznatljivi od široko korišćenih pisama?
+answer: Zato što je grupa transakcija sa istim tipom skripte manja.
+wrong_answers:
+  - Zato što zahtevaju više validacija od strane rudara.
+  - Zato što koriste slabije algoritme za šifrovanje.
+  - Zato što ih Bitcoin mrežni čvorovi češće odbacuju.
+explanation: |
+  Ako je ukupna grupa transakcija sa istim tipom skripte u kojoj se skrivamo mala, lakše smo prepoznatljivi nego u veoma velikoj grupi transakcija.
+reviewed: false

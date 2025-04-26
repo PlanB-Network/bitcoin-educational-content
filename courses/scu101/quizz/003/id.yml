@@ -1,0 +1,12 @@
+question: Apa keuntungan utama menggunakan perangkat lunak sumber terbuka?
+answer: Ini memungkinkan untuk verifikasi bahwa tidak ada akses tersembunyi untuk mencuri data pribadi Anda.
+wrong_answers:
+  - Selalu gratis.
+  - Selalu lebih aman daripada perangkat lunak sumber tertutup.
+  - Selalu lebih ramah pengguna daripada perangkat lunak sumber tertutup.
+explanation: |
+  Perangkat lunak sumber terbuka adalah perangkat lunak yang kodenya diketahui dan dapat diakses
+  oleh semua orang. Ini memungkinkan untuk verifikasi, di antara hal lain, bahwa tidak ada
+  akses tersembunyi untuk mencuri data pribadi Anda. Namun, tidak selalu gratis, lebih aman,
+  atau lebih ramah pengguna daripada perangkat lunak sumber tertutup.
+reviewed: false

@@ -1,9 +1,10 @@
 question: ¿Qué hace posible la Red Lightning?
-answer: Realizar transacciones entre personas que no tienen una conexión directa de canal.
+answer: Realizar transacciones entre individuos que no tienen una conexión directa de canal.
 wrong_answers:
-  - Realizar transacciones solo entre personas que tienen una conexión directa de canal.
-  - Realizar transacciones entre personas que tienen una conexión directa de canal y un tercero.
-  - Realizar transacciones entre personas que tienen una conexión directa de canal y múltiples terceros.
+  - Crear conexiones de canal directas solo con intercambios centralizados.
+  - Crear conexiones de canal que requieren múltiples confirmaciones para cualquier transacción.
+  - Establecer conexiones de canal directas que están limitadas solo a transacciones grandes.
 explanation: |
-  La Red Lightning hace posible realizar transacciones entre personas que no tienen una conexión directa de canal.
-reviewed: false
+  La Red Lightning hace posible realizar transacciones entre
+  individuos que no tienen una conexión directa de canal.
+reviewed: true

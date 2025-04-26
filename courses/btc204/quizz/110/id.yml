@@ -1,0 +1,11 @@
+question: Apa itu transaksi Stonewall?
+
+answer: Transaksi yang meniru mini-coinjoin tanpa benar-benar menjadi satu
+
+wrong_answers:
+  - Transaksi pembayaran dalam bentuk mini-coinjoin
+  - Transaksi kolaboratif yang melibatkan tiga peserta
+  - Transaksi yang melibatkan penerima dalam input
+
+explanation: |
+  Stonewall adalah bentuk spesifik dari transaksi Bitcoin yang bertujuan untuk meningkatkan privasi pengguna selama melakukan pengeluaran dengan meniru mini-coinjoin antara dua orang, tanpa benar-benar menjadi satu.

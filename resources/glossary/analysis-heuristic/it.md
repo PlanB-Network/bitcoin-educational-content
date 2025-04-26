@@ -1,0 +1,9 @@
+---
+term: EURISTICA DI ANALISI
+
+---
+Un'euristica di analisi per la catena Bitcoin è una famiglia di metodi empirici utilizzati per tracciare il flusso di bitcoin sulla blockchain in base alle caratteristiche osservate nelle transazioni. Un'euristica è un approccio pratico alla risoluzione di un problema, spesso attraverso metodi approssimativi, ma che rappresenta una soluzione sufficientemente buona per raggiungere un determinato obiettivo. Queste euristiche danno risultati abbastanza affidabili, ma mai con precisione assoluta. In altre parole, l'analisi a catena comporta sempre un certo grado di probabilità nelle conclusioni tratte. Ad esempio, si può stimare con più o meno certezza che due indirizzi appartengano alla stessa entità, ma la certezza totale è sempre fuori portata. L'intero obiettivo dell'analisi a catena risiede proprio nell'aggregazione di varie euristiche per ridurre al minimo il rischio di errore. Si tratta, in un certo senso, di un'accumulazione di prove che ci permette di avvicinarci alla realtà. In questo contesto, si distinguono euristiche interne ed esterne.
+
+Le euristiche interne si concentrano sulle caratteristiche specifiche di una singola transazione. Esse includono nella loro analisi elementi quali gli importi degli UTXO, gli script utilizzati, le versioni o i tempi di blocco. Ad esempio, l'euristica del pagamento rotondo consente di identificare l'output di una transazione come probabile pagamento se il suo importo è un numero rotondo. Queste euristiche spesso permettono di identificare il cambiamento (denaro restituito allo stesso utente) e quindi di continuare il tracciamento.
+
+Le euristiche esterne, invece, analizzano le somiglianze e le caratteristiche al di là della transazione stessa. Esse comprendono l'intero ambiente della transazione. Ad esempio, il riutilizzo di un indirizzo in più transazioni è un'euristica esterna. Anche il CIOH lo è.

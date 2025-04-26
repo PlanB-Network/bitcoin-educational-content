@@ -1,0 +1,5 @@
+---
+term: FEDIMINT
+
+---
+Maksete ja bitcoinide haldamise protokoll, mille eesmärk on suurendada privaatsust ja vähendada sõltuvust peamisest ahelast, ühendades fondide hoidmise. Fedimint loodi 2021. aastal Eric Sirioni poolt. See põhineb Chaumiani pangasüsteemil, mis ühe usaldusväärse osaleja ümber tsentraliseerimise asemel tugineb föderatsioonidele. Need föderatsioonid on usalduslike hoidjate rühmad, kes hoiavad ja haldavad ühiselt oma rühma kuuluvate kasutajate bitcoin'eid. Rühmasiseselt saavad kasutajad teha makseid piletitega, mis väljastatakse nende bitcoinide hoiuste eest. Fedimindi idee on rakendada seda kontseptsiooni kohalike kogukondade tasandil. Seega kujutab see endast bitcoinil põhineva hoiupanga omamoodi evolutsiooni, mis sisaldab David Chaumi eCash-süsteemi ja kasutab alusvara hoidmise ja väljaandmise eest vastutavate usaldusväärsete isikute föderatsiooni.

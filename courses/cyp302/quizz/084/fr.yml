@@ -1,0 +1,9 @@
+question: Quelle est la principale limitation pratique du one-time pad ?
+answer: La clé doit être aussi longue que le message et ne jamais être réutilisée
+wrong_answers:
+  - La clé doit être changée tous les jours
+  - La clé doit être trois fois plus longue que le message
+  - La clé doit obligatoirement être stockée sur un minitel français
+explanation: |
+  La clé dans un one-time pad doit être aussi longue que le message et ne jamais être réutilisée, ce qui complique considérablement son usage dans des contextes pratiques, puisque si l'on est capable de transmettre une donnée aussi longue que le message de manière sécurisée, autant transmettre directement le message et non pas la clé.
+reviewed: false

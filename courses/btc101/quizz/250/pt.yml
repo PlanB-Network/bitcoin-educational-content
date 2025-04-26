@@ -1,9 +1,9 @@
-question: Qual é uma das principais preocupações sobre o sistema bancário?
+question: Qual poderia ser uma preocupação principal em relação ao sistema bancário?
 answer: As regras do jogo bancário não são transparentes e compreensíveis para todos.
 wrong_answers:
   - O sistema bancário é fácil demais de entender.
-  - O sistema bancário é muito transparente.
-  - O sistema bancário é muito descentralizado.
-explanation: |
+  - O sistema bancário é transparente demais.
+  - O sistema bancário é descentralizado demais.
+explanation: >-
   O texto menciona que a questão de quem deve controlar o sistema bancário é crucial porque as regras do jogo bancário não são transparentes e compreensíveis para todos.
-reviewed: false
+reviewed: true

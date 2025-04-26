@@ -1,0 +1,8 @@
+question: Mikä funktio, jonka suunnitteli louhija m0mchil lokakuussa 2010, mahdollisti asiakassolmujen hakevan ehdokaslohkon ja palauttavan työn todisteen, jos ratkaisu löytyi?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+  Se julkaistiin 1. lokakuuta. Satoshi sisällytti muokatun version tästä funktiosta pääohjelmistoon 23. marraskuuta.

@@ -1,10 +1,9 @@
-question: What is the rhythm of the Bitcoin network?
-answer: 10 minutes per block
+question: What has been the online availability of Bitcoin since 2009?
+answer: 99.988%.
 wrong_answers:
-  - 10 seconds per block
-  - 10 minutes per transaction
-  - 10 seconds per transaction
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  The rhythm of the Bitcoin network is 10 minutes per block. This is like
-  the heartbeat of the Bitcoin monetary system.
+  The online availability of Bitcoin is 99.988% since 2009.
 reviewed: true

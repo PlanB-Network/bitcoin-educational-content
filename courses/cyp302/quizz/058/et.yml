@@ -1,0 +1,9 @@
+question: Miks kasutavad keemikud rühmateooriat?
+answer: Molekulide kuju klassifitseerimiseks
+wrong_answers:
+  - Keemiliste sidemete analüüsimiseks
+  - Molekulmassi arvutamiseks
+  - Keemiliste reaktsioonide ennustamiseks
+explanation: |
+  Rühmateooria võimaldab keemikutel klassifitseerida molekulide kujusid nende sümmeetriate põhjal, mis aitab mõista nende struktuurseid omadusi.
+reviewed: false

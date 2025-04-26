@@ -1,9 +1,9 @@
-question: Was passiert, wenn die Passphrase einer Bitcoin-Wallet geändert wird?
-answer: Die Bitcoin-Wallet wird komplett anders.
+question: Wofür steht die Notation /<0;1>/* in einem Deskriptor?
+answer: Für die externe und interne Kette mit sequenzieller Ableitung
 wrong_answers:
-  - Die Bitcoin-Wallet wird unzugänglich.
-  - Die Bitcoin-Wallet bleibt gleich.
-  - Die Bitcoin-Wallet verliert alle ihre Bitcoins.
+  - Für eine sortierte Multisignatur-Adresse
+  - Für eine Prüfsumme für Ableitungspfade
+  - Für einen gehärteten Ableitungspfad
 explanation: |
-  Wenn die Passphrase geändert wird, wird die Bitcoin-Wallet komplett anders, da die Passphrase eine Rolle bei der Konstruktion und Berechnung aller Schlüssel der Wallet spielt.
+  Die Notation /<0;1>/* zeigt an, dass der Deskriptor Adressen für die externe (0) und interne (1) Kette generieren kann, mit sequenzieller Ableitung dank des Platzhalters (*).
 reviewed: false

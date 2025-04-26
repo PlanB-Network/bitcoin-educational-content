@@ -1,0 +1,7 @@
+---
+term: PSEUDO-RANDOM
+
+---
+Toto přídavné jméno se používá k popisu posloupnosti čísel, která je sice výsledkem deterministického procesu, ale vykazuje vlastnosti blízké vlastnostem ideální skutečně náhodné posloupnosti. Pojem ideální náhodnosti předpokládá naprostou absenci předvídatelnosti a korelace mezi po sobě jdoucími prvky. Pseudonáhodné číslo je generováno deterministickým algoritmem, a proto je teoreticky zcela předvídatelné, pokud známe počáteční stav generátoru.
+
+Generátor pseudonáhodných čísel (PRNG) je algoritmus, který se používá k vytváření takových čísel. Obvykle vychází z počáteční hodnoty neboli "semínka" a poté použije řadu matematických transformací k vytvoření posloupnosti čísel. Vzhledem k této určitelnosti je pro kryptografickou bezpečnost důležité, aby počáteční semeno zůstalo utajeno. Pseudonáhodné posloupnosti se hojně využívají v různých oborech včetně kryptografie, protože vykazují zdánlivě náhodné chování, které postačuje pro mnoho aplikací. Hodnocení kvality PRNG je založeno na tom, do jaké míry se jeho výstup blíží skutečné náhodnosti z hlediska rozložení, korelací a dalších statistických vlastností. V kontextu Bitcoinu se pseudonáhodná čísla používají k výrobě soukromých klíčů nebo ke generování seedu pro deterministické a hierarchické peněženky.

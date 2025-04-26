@@ -1,0 +1,13 @@
+question: Mida tähendab Boltzmanni skoor Bitcoin'i tehingute kontekstis?
+
+answer: Tingimuslik tõenäosus, et sisend on seotud antud väljundiga.
+
+wrong_answers:
+  - Üle kantud bitcoinide kogusumma.
+  - Sisendite arv tehingus.
+  - Iga sisendi või väljundi seotud entroopia.
+
+explanation: |
+  Boltzmanni skoor näitab tingimuslikku tõenäosust, et kindel sisend on seotud antud väljundiga. Seega on see kvantitatiivne mõõdik tingimuslikule tõenäosusele, et tehingus sisendi ja väljundi vahel toimub seos, mis on kindlaks tehtud soodsate juhtumite arvu suhte põhjal võrreldes kõigi võimalike juhtumite arvuga, tõlgenduste hulgas.
+
+reviewed: false

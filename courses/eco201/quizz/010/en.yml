@@ -5,8 +5,9 @@ wrong_answers:
   - Fractional reserve banking is a banking practice where banks are not allowed to grant loans.
   - Fractional reserve banking is a banking practice where banks are required to hold exactly the same amount of reserves as they receive in deposits.
 explanation: |
-  Fractional reserve banking is a system in which banks hold only a fraction
-  of their depositors' funds in reserve, lending out the rest. This system allows
-  banks to create new money in the form of loans, which increases the overall money
-  supply in the economy.
-reviewed: false
+  Fractional reserve banking is a system in which banks hold
+  only a fraction of their depositors' funds in reserve,
+  lending out the rest. This system allows banks to create
+  new money in the form of loans, which increases the overall
+  money supply in the economy.
+reviewed: true

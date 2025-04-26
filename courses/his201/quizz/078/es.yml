@@ -1,0 +1,9 @@
+question: ¿A quién transfirió Satoshi Nakamoto el control del sitio web (que también incluye el foro y la wiki) al momento de su partida?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  No tenía tiempo para gestionarlo y rápidamente delegó la tarea. El sitio y el foro fueron asumidos por Theymos y Cøbra.
+reviewed: false

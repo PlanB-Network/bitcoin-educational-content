@@ -1,9 +1,0 @@
-question: ¿Qué representa el '1m' en 'lnbc1m' en una factura de la Red Lightning?
-answer: Representa la cantidad en milli Bitcoin (0.0001 BTC).
-wrong_answers:
-  - Representa la versión de la Red Lightning.
-  - Representa la tarifa de transacción.
-  - Representa la altura del bloque.
-explanation: |
-  En una factura de la Red Lightning, '1m' representa la cantidad en milli Bitcoin (0.0001 BTC). 'M' significa milli, que es un prefijo métrico que denota un factor de 10^-3. Por lo tanto, '1m' equivale a 0.0001 BTC o 100,000 satoshis.
-reviewed: false

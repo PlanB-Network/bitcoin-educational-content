@@ -1,9 +1,0 @@
-question: ¿Qué formato de representación se utiliza para obtener la dirección de la billetera HD en un estándar segwit?
-answer: El formato bech32
-wrong_answers:
-  - El formato base 58
-  - El formato SHA256
-  - El formato RIPMD160
-explanation: |
-  Después de calcular el checksum, se utiliza una representación en formato base 58 para un estándar heredado, mientras que se utiliza el formato bech32 para un estándar segwit, para obtener la dirección de la billetera HD.
-reviewed: false

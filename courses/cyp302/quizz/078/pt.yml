@@ -1,0 +1,8 @@
+question: O que significa um ataque de força bruta?
+answer: Tentar todas as chaves possíveis até encontrar a correta
+wrong_answers:
+  - Alterar o texto para torná-lo incompreensível
+  - Usar uma chave pública para descriptografar a mensagem
+  - Bater muito forte no computador para forçá-lo a revelar a chave secreta
+explanation: |
+  Um ataque de força bruta envolve testar sistematicamente todas as chaves possíveis para descriptografar uma mensagem criptografada.

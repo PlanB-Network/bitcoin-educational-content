@@ -1,0 +1,9 @@
+question: Mis oli inflatsioonimäär Ungaris juulis 1946?
+answer: 41,900,000,000,000,000%
+wrong_answers:
+  - 207%
+  - 50%
+  - 100%
+explanation: |
+  Kuu, mil Ungaris oli kõrgeim inflatsioon, oli juuli 1946, milles registreeriti rekordiline hinnainflatsioon 41,900,000,000,000,000%.
+reviewed: true

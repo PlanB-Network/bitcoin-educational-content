@@ -1,0 +1,9 @@
+question: Millisel väärarusaamal põhinevad klassikalised õpingud Bastiati järgi?
+answer: Seadusandja kõikvõimsuse idee
+wrong_answers:
+  - Platoni ideede teooria
+  - Lõpp-põhjuse idee
+  - Orgaanilise ühiskonna kontseptsioon
+explanation: |
+  Bastiat kritiseerib klassikalist haridust selle rõhuasetuse eest ideele, et seadusandja on kõikvõimas ja peab ühiskonda kujundama, vaade, mis on vastuolus tema individuaalse vabaduse põhimõtetega.
+reviewed: false

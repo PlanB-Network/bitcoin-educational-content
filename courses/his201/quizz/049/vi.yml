@@ -1,0 +1,9 @@
+question: Sự biến động về giá của Bitcoin trong tuần lễ sau khi nó được giới thiệu trên Slashdot là bao nhiêu?
+answer: Từ $0.008 đến $0.08
+wrong_answers:
+  - Từ $0.001 đến $0.008
+  - Từ $0.08 đến $0.50
+  - Từ $0.50 đến $1
+explanation: |
+  Sự biến động này tương ứng với một sự tăng gấp mười lần! Tốc độ hash cũng trải qua một sự tăng tương tự.
+reviewed: false

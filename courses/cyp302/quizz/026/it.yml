@@ -1,0 +1,9 @@
+question: Qual è l'equivalenza dell'operazione XOR con l'operazione di modulo?
+answer: XOR è equivalente a un'operazione di modulo 2 sui bit
+wrong_answers:
+  - XOR è equivalente a una sottrazione classica modulo 3
+  - XOR è equivalente a un'operazione di modulo 7 sui bit
+  - XOR è l'inverso dell'addizione
+explanation: |
+  L'operazione XOR può essere vista come un'addizione di bit con un modulo 2, rendendo i risultati identici.
+reviewed: false

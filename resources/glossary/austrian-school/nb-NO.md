@@ -1,0 +1,5 @@
+---
+term: ØSTERRIKSK SKOLE
+
+---
+En økonomisk skoleretning som teoretiserer markedet som en samling av frivillige individuelle interaksjoner, legger vekt på spontaniteten i den økonomiske ordenen og kritiserer statlige inngrep. Den østerrikske skolen tar til orde for privat eiendomsrett, kontraktsfrihet og frihandel, samtidig som den kritiserer pengeskapingens ødeleggende effekt på økonomien. Bidragsytere som Carl Menger, Ludwig von Mises og Friedrich Hayek har utviklet begreper som prisdannelse, pengenes funksjon, kapitaldynamikk og den subjektive verditeorien. Den østerrikske skolen kritiserer sosialismen for dens manglende evne til å utføre effektive økonomiske kalkyler og favoriserer en liberal tilnærming. Den østerrikske skolen verdsetter det frie markedet og ser på statlig intervensjonisme som en kilde til økonomisk ubalanse. Mange Bitcoin-entusiaster er tilhengere av disse ideene, og mener at Bitcoin representerer et verktøy som harmonerer med denne filosofien på grunn av sin distribuerte natur, begrensningen i pengeskapingen og evnen til å operere uavhengig av statlig inngripen.

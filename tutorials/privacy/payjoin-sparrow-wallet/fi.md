@@ -26,7 +26,7 @@ Cahoots-siirrot sisältävät osittain allekirjoitettujen siirtojen vaihtamisen 
 
 Etänä tehtynä tämä prosessi muuttuu liian monimutkaiseksi. Tämän ongelman ratkaisemiseksi Samourai on kehittänyt salatun viestintäprotokollan, joka perustuu Toriin, nimeltään "Soroban". Sorobanin avulla Payjoinin tarvittavat vaihdot automatisoidaan käyttäjäystävällisen käyttöliittymän taakse. Tämä on toinen menetelmä, jota tarkastelemme tässä artikkelissa.
 
-Nämä salatut vaihdot vaativat yhteyden ja autentikoinnin perustamisen Cahoots-osallistujien välille. Soroban-viestintä perustuu käyttäjien Paynymsiin. Jos et ole tuttu Paynymsien kanssa, suosittelen tutustumaan tähän artikkeliin saadaksesi lisätietoja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+Nämä salatut vaihdot vaativat yhteyden ja autentikoinnin perustamisen Cahoots-osallistujien välille. Soroban-viestintä perustuu käyttäjien Paynymsiin. Jos et ole tuttu Paynymsien kanssa, suosittelen tutustumaan tähän artikkeliin saadaksesi lisätietoja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 Yksinkertaisesti sanottuna Paynym on uniikki tunniste, joka on linkitetty lompakkoosi ja mahdollistaa erilaisia toimintoja, mukaan lukien salatun viestinnän. Paynym esitetään tunnisteen ja robotin kuvaa esittävän kuvituksen muodossa. Tässä on esimerkki omastani Testnetissä: ![Paynym Sparrow](assets/en/1.webp)
 **Yhteenvetona:**
 - *Payjoin* = Erityinen yhteistyöllisen siirron rakenne;
@@ -35,7 +35,7 @@ Yksinkertaisesti sanottuna Paynym on uniikki tunniste, joka on linkitetty lompak
 - *Soroban* = Tor-verkossa perustettu salattu viestintäprotokolla, joka mahdollistaa yhteistyön muiden käyttäjien kanssa Cahoots-siirron yhteydessä.
 - *Paynym* = Lompakon uniikki tunniste, joka mahdollistaa viestinnän toisen käyttäjän kanssa Sorobanissa, jotta voidaan suorittaa Cahoots-siirto.
 
-[**-> Lisätietoja Payjoin-siirroista ja niiden hyödyistä**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Lisätietoja Payjoin-siirroista ja niiden hyödyistä**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## Miten muodostetaan yhteys Paynymien välille?
 

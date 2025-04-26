@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de un Atomic Swap entre LN y BTC en la Red Lightning?
-answer: Para reequilibrar la liquidez
-wrong_answers:
-  - Para abrir canales
-  - Para conectarse a otros nodos
-  - Para comprar canales
-explanation: |
-  Un Atomic Swap entre LN y BTC en la Red Lightning se utiliza para reequilibrar la liquidez. Esto se hace enviando liquidez a través de un Loop a través de otro nodo, que luego envía el saldo en cadena de vuelta al nodo original.
-reviewed: false

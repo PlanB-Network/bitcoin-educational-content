@@ -1,0 +1,14 @@
+question: Hvordan fungerer en miningpool, og hvorfor er det nødvendig?
+answer: En miningpool er en gruppe gruvearbeidere som kombinerer sine databehandlingsressurser for å øke sjansene sine for å utvinne. Dette samarbeidet er nødvendig fordi en isolert liten miningmaskin konkurrerer mot industriens giganter, noe som reduserer dens sjanser for suksess til et ubetydelig nivå. Ved å slå seg sammen, kan gruvearbeidere kombinere sin databehandlingskraft, finne blokker oftere og deretter fordele belønningene proporsjonalt etter hver gruvearbeiders bidrag til poolen.
+wrong_answers:
+  - En miningpool er en gruppe gruvearbeidere som deler den samme miningmaskinen for å øke sjansene sine for å utvinne. Dette samarbeidet er nødvendig fordi en enkelt miningmaskin bare kan utvinne en begrenset mengde Bitcoin.
+  - En miningpool er en gruppe gruvearbeidere som deler den samme miningprogramvaren for å øke sjansene sine for å utvinne. Dette samarbeidet er nødvendig fordi forskjellige miningprogramvarer har forskjellig effektivitet.
+  - En miningpool er en gruppe gruvearbeidere som deler den samme mininglokasjonen for å øke sjansene sine for å utvinne. Dette samarbeidet er nødvendig fordi lokasjonen til miningoperasjonen kan påvirke effektiviteten av utvinningen.
+explanation: |
+  Kapittelet forklarer at en miningpool er en gruppe
+  gruvearbeidere som kombinerer sine databehandlingsressurser for å øke
+  sjansene sine for å utvinne. Dette samarbeidet er nødvendig
+  fordi en isolert liten miningmaskin konkurrerer
+  mot industriens giganter, noe som reduserer dens sjanser for suksess til
+  et ubetydelig nivå.
+reviewed: true

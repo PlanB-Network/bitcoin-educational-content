@@ -1,0 +1,9 @@
+question: Apa saja dua komponen utama dari status kontrak pintar di RGB?
+answer: Negara Global dan Negara Bagian yang Dimiliki
+wrong_answers:
+  - Komitmen dan Kejadian
+  - Definisi Segel dan Transisi Status
+  - Hak Valuta dan Hak Kontrak
+explanation: |
+  Status Global berisi data publik, sedangkan Status Milik dikaitkan dengan pemegang tertentu melalui UTXO.
+reviewed: false

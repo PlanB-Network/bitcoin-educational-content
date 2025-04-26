@@ -1,0 +1,9 @@
+question: How can parties ensure the correct order of messages in a secure session?
+answer: By using sequence numbers in each message
+wrong_answers:
+  - By exchanging keys for each message
+  - By adding delays between messages
+  - By encrypting messages with a different algorithm
+explanation: |
+  Sequence numbers ensure that messages are received in the correct order and prevent their reordering.
+reviewed: false

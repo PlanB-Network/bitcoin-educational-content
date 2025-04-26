@@ -1,0 +1,9 @@
+question: Mengapa Lightning Network dapat dibandingkan dengan "email untuk pembayaran"?
+answer: Karena memungkinkan pertukaran nilai yang mulus, global, dan tanpa izin semudah mengirim pesan.
+wrong_answers:
+  - Karena mengirimkan pembayaran melalui penyedia email tradisional.
+  - Karena ini hanya berfungsi jika dilampirkan ke pesan email biasa.
+  - Karena menyimpan saldo pengguna di badan email.
+explanation: |
+  Seperti halnya email yang merevolusi komunikasi dengan menghilangkan perantara dan memungkinkan siapa pun untuk mengirim pesan ke seluruh dunia, Lightning Network menyederhanakan dan mempercepat transaksi, membuat transfer nilai menjadi lebih mudah dan dapat diakses seperti halnya email.
+reviewed: false

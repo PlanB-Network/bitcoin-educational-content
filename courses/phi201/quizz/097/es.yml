@@ -1,0 +1,9 @@
+question: ¿Cuál es la crítica marxista de la religión?
+answer: Desvía a las personas de la lucha por su emancipación real.
+wrong_answers:
+  - Es el opio de los intelectuales.
+  - Es incompatible con los principios de libertad e igualdad.
+  - No proporciona ningún valor añadido en el trabajo.
+explanation: |
+  Marx ve la religión como una herramienta que desvía a los trabajadores de su lucha por la emancipación al consolarlos sobre sus condiciones materiales sin animarlos a cambiar las estructuras de explotación.
+reviewed: false

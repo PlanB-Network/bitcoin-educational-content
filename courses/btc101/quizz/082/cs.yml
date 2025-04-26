@@ -1,9 +1,9 @@
-question: Jaká technologie se používá v Bitcoin peněžence k zabezpečení prostředků určených k utrácení v Bitcoin peněžence?
-answer: Eliptická křivková kryptografie
+question: Jaká technologie se používá k bezpečnému utrácení prostředků pomocí Bitcoinové peněženky?
+answer: Eliptická křivková kryptografie.
 wrong_answers:
-  - Symetrická kryptografie
-  - Kvantová kryptografie
-  - RSA kryptografie
+  - Symetrická kryptografie.
+  - Kvantová kryptografie.
+  - RSA kryptografie.
 explanation: |
-  K utracení Bitcoinů je potřeba, aby vlastník použil eliptické křivky k vytvoření podpisu pro Bitcoinovou transakci.
+  K utracení Bitcoinů je potřeba, aby vlastník použil Eliptickou křivkovou digitální podpisovou algoritmu (ECDSA) k vytvoření podpisu pro propagaci Bitcoinové transakce.
 reviewed: true

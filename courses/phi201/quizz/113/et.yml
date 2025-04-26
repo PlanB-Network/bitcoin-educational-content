@@ -1,0 +1,9 @@
+question: Mis on Hayeki peamine kriitika Keynesi rahapoliitika suhtes?
+answer: See loob majandusmullid ja langused
+wrong_answers:
+  - See soosib pikaajalist investeeringut
+  - See vähendab sotsiaalseid ebavõrdsusi
+  - See suurendab kodumaist nõudlust kontrollimatult
+explanation: |
+  Hayek kritiseeris Keynesi rahapoliitikat, väites, et see julgustab kunstlikke üleinvesteerimise tsükleid, viies majandusmullideni ja paratamatult langusteni, kui need mullid lõhkevad.
+reviewed: false

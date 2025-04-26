@@ -4,6 +4,7 @@ wrong_answers:
   - Fyysinen kassakaappi.
   - Pankkitili.
   - Luottokortti.
-explanation: >-
-  Tekstissä mainitaan, että ennen Bitcoinin ostamista sinulla tulisi olla turvallinen lompakko. Tässä säilytät Bitcoinisi.
-reviewed: false
+explanation: |
+  Kurssitekstissä mainitaan, että ennen Bitcoinin ostamista,
+  sinulla tulisi olla turvallinen lompakko, jossa säilytät avaimiasi.
+reviewed: true

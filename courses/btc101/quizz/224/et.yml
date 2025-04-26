@@ -1,0 +1,9 @@
+question: Mida võimaldab Lightning Network?
+answer: Kohesed, madala kuluga Bitcoin'i tehingud.
+wrong_answers:
+  - Kohesed, kõrge kuluga Bitcoin'i tehingud.
+  - Viivitatud, madala kuluga Bitcoin'i tehingud.
+  - Viivitatud, kõrge kuluga Bitcoin'i tehingud.
+explanation: >-
+  Lightning Network võimaldab koheseid, madala kuluga Bitcoin'i tehinguid,
+  lahendades seeläbi Bitcoin'i skaleeritavuse probleemi.

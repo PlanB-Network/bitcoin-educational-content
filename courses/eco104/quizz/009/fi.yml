@@ -1,11 +1,11 @@
-question: Mikä on merkitys lainaukselle "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks" ensimmäisessä Bitcoin-lohkossa?
+question: Mikä on merkitys lainaukselle The Times 03/Jan/2009 Chancellor on brink of second bailout for banks ensimmäisessä Bitcoin-lohkossa?
 answer: Se korostaa rahoitusjärjestelmämme kykyä sosialisoida tappiot
 wrong_answers:
   - Se merkitsee Satoshi Nakamoton arvostusta The Times -sanomalehteä kohtaan
   - Se tarjoaa loistavan esimerkin siitä, miten pelastuspaketit ovat hyödyttäneet yhteiskuntaamme
   - Se näyttää meille Bitcoinin kyvyn tallentaa viestejä lohkoketjuun
 explanation: |
-  Tämä on viittaus Times-lehden [artikkeliin](https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h), joka heijastaa Satoshi Nakamoton 
+  Tämä on viittaus Times-lehden [artikkeliin](https: //www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h), joka heijastaa Satoshi Nakamoton 
   huolia siitä, että pankit harjoittivat riskialtista toimintaa, 
   vähin seurauksin itselleen, ja että tappiot jaettaisiin valuutan haltijoiden kesken.
 reviewed: false

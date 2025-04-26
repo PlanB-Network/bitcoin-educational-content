@@ -1,9 +1,9 @@
-question: Was ist die Hauptherausforderung bei der Generierung von Zufallszahlen auf Computern für Bitcoin-Transaktionen?
-answer: Die erzielten Ergebnisse sind nicht wirklich zufällig.
+question: Wie groß ist der von PBKDF2 generierte Seed?
+answer: 512 Bits
 wrong_answers:
-  - Der Prozess ist zu komplex für die meisten Benutzer.
-  - Es erfordert viel Rechenleistung.
-  - Es ist nicht mit allen Arten von Computern kompatibel.
+  - 128 Bits
+  - 256 Bits
+  - Variabel, abhängig von der Länge der mnemonischen Phrase
 explanation: |
-  Computer folgen festgelegten Algorithmen, was es schwierig macht, wirklich zufällige Zahlen zu generieren. Dies ist eine bedeutende Herausforderung in der Kryptographie, wo Zufälligkeit für die Sicherheit von privaten Schlüsseln und Bitcoin-Transaktionen entscheidend ist.
+  Unabhängig von der Länge der mnemonischen Phrase generiert PBKDF2 immer einen 512-Bit-Seed.
 reviewed: false

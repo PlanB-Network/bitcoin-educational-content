@@ -1,9 +1,12 @@
 question: Qual è la funzione principale di una VPN in un contesto professionale?
-answer: Consente ai dipendenti di accedere in modo sicuro alla rete interna dell'azienda in remoto.
+answer: Permette ai dipendenti di accedere in modo sicuro alla rete interna dell'azienda da remoto.
 wrong_answers:
-  - Consente ai dipendenti di aggirare le restrizioni geografiche.
-  - Consente ai dipendenti di bloccare gli annunci pubblicitari online.
-  - Consente ai dipendenti di utilizzare in modo sicuro le reti Wi-Fi pubbliche.
+  - Permette ai dipendenti di aggirare in sicurezza le restrizioni geografiche.
+  - Permette ai dipendenti di bloccare completamente la pubblicità online.
+  - Permette ai dipendenti di utilizzare in sicurezza le reti Wi-Fi pubbliche.
 explanation: |
-  In un contesto professionale, le VPN vengono principalmente utilizzate per fornire un accesso remoto sicuro alla rete interna dell'azienda. Ciò viene realizzato crittografando i dati scambiati tra il dipendente e la rete dell'azienda, rendendo difficile l'intercettazione da parte di terze parti.
-reviewed: false
+  In un contesto professionale, le VPN sono utilizzate principalmente per
+  fornire un accesso remoto sicuro alla rete interna dell'azienda. Ciò è ottenuto
+  criptando i dati scambiati tra il dipendente e la rete dell'azienda, rendendo
+  difficile per le terze parti intercettare.
+reviewed: true

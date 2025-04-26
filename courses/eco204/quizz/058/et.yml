@@ -1,0 +1,9 @@
+question: Mis oli Antwerpeni börsil 16. sajandil kasutusele võetud vekslite ainulaadne omadus?
+answer: Neil oli märgitud nimed ja tähtajad
+wrong_answers:
+  - Need olid valmistatud kullast
+  - Need andis välja Amsterdami Pank
+  - Neid sai vahetada florinideks
+explanation: |
+  Antwerpeni börs tutvustas veksleid, millel oli märgitud nimed ja tähtajad. See tegi nende vahetamise enne tähtaega keeruliseks. Siiski tutvustas börs nende vekslite diskonteerimise praktikat enne nende tähtaega, muutes need likviidsemaks ja tutvustades raha ajaväärtuse kontseptsiooni.
+reviewed: false

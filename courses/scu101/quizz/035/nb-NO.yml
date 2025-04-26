@@ -1,0 +1,8 @@
+question: Hva er formålet med phishing-forsøk?
+answer: Å utvinne sensitiv informasjon som dine påloggingsdetaljer og passord.
+wrong_answers:
+  - Å sende deg søppelpost.
+  - Å selge deg produkter eller tjenester.
+  - Å invitere deg til arrangementer eller webinarer.
+explanation: |
+  Phishing-forsøk har som mål å utvinne sensitiv informasjon som dine påloggingsdetaljer og passord. Hackere bruker ulike taktikker som bedragerske e-poster for å lure deg til å avsløre informasjonen din.

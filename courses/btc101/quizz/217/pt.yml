@@ -1,11 +1,12 @@
 question: Em quais campos o Bitcoin levanta questões?
-answer: Criptografia, teoria dos jogos, economia e política monetária, ciência da computação, filosofia, energia, leis e regulamentação
+answer: Criptografia, teoria dos jogos, economia e política monetária, ciência da computação, filosofia, energia, leis e regulamentação.
 wrong_answers:
   - Apenas ciência da computação e economia
-  - Apenas criptografia e teoria dos jogos
-  - Apenas filosofia e energia
-explanation: >-
-  O Bitcoin é um objeto multidisciplinar que levanta questões relacionadas a
-  diversos campos, incluindo criptografia, teoria dos jogos, economia e política monetária,
+  - Apenas criptografia e teoria dos jogos.
+  - Apenas filosofia e energia.
+explanation: |
+  O Bitcoin é um assunto multidisciplinar que levanta
+  questões relacionadas a vários campos, incluindo
+  criptografia, teoria dos jogos, economia e política monetária,
   ciência da computação, filosofia, energia, leis e regulamentação.
-reviewed: false
+reviewed: true

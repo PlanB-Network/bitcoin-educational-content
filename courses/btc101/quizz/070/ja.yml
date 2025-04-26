@@ -1,9 +1,9 @@
 question: 第4回半減期後のBTC報酬はいくらですか？
-answer: 3.125 BTC
+answer: 3.125 BTC。
 wrong_answers:
-  - 1.5625 BTC
-  - 6.25 BTC
-  - 12.5 BTC
-explanation: >-
-  第4回半減期はブロック高さ840,000で発生し、その後のマイニングでのBTC報酬は3.125 BTCになります。
-確認済み: true
+  - 1.5625 BTC。
+  - 6.25 BTC。
+  - 12.5 BTC。
+explanation: |
+  第4回半減期は、ブロック高さ840,000で発生し、その後のマイニングでのBTC報酬は3.125 BTCになります。
+reviewed: true

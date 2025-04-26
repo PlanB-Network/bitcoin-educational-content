@@ -1,0 +1,13 @@
+question: Hva representerer Boltzmann-scoren i konteksten av Bitcoin-transaksjoner?
+
+answer: Den betingede sannsynligheten for at en inngang er koblet til en gitt utgang.
+
+wrong_answers:
+  - Det totale antallet bitcoins som er overført.
+  - Antall innganger i en transaksjon.
+  - Entropien relatert til hver inngang eller utgang.
+
+explanation: |
+  Boltzmann-scoren indikerer den betingede sannsynligheten for at en spesifikk inngang er koblet til en gitt utgang. Det er dermed et kvantitativt mål på den betingede sannsynligheten for at en assosiasjon mellom en inngang og en utgang i en transaksjon forekommer, basert på forholdet mellom antall gunstige forekomster av denne hendelsen sammenlignet med det totale antallet mulige forekomster, i et sett med tolkninger.
+
+reviewed: false

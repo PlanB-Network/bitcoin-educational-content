@@ -1,0 +1,9 @@
+question: Jika terjadi pembayaran dalam saluran RGB, apa yang terjadi pada output RGB dalam transaksi komitmen?
+answer: Mereka diperbarui untuk mencerminkan redistribusi aset di antara para peserta
+wrong_answers:
+  - Mereka tetap tidak berubah untuk mempertahankan sejarah awal sampai saluran ditutup
+  - Mereka dihapus dan digantikan oleh multi-sig yang baru
+  - Mereka dikonversi menjadi UTXO Bitcoin klasik
+explanation: |
+  Ketika pembayaran dilakukan, transisi status RGB menyesuaikan output RGB untuk mendistribusikan kembali aset sesuai dengan keseimbangan saluran yang baru.
+reviewed: false

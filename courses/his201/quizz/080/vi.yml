@@ -1,0 +1,9 @@
+question: Diễn đàn Bitcoin đã được chuyển đến tên miền nào vào ngày 1 tháng 8 năm 2011?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Sau khi được chuyển đến forum.bitcoin.org vào ngày 17 tháng 5, nó đã chuyển sang URL bitcointalk.org bắt đầu từ ngày 1 tháng 8. Trải qua nhiều năm, nó sẽ được biết đến với tên là BitcoinTalk.
+reviewed: false

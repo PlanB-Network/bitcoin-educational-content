@@ -1,0 +1,9 @@
+question: ¿Cuál es la tesis principal de Tomás de Aquino respecto a la relación entre la razón y la fe?
+answer: La razón y la fe son complementarias y pueden apoyarse mutuamente.
+wrong_answers:
+  - La razón y la fe son dos fuentes de conocimiento independientes y contradictorias.
+  - Todas las demás respuestas son correctas.
+  - La fe es superior a la razón y puede prescindir de sus argumentos.
+explanation: |
+  Tomás de Aquino argumenta que la razón y la fe son complementarias: la razón puede ayudar a entender y explicar las verdades de la fe, mientras que la fe guía a la razón hacia verdades que de otro modo serían inaccesibles para ella.
+reviewed: false

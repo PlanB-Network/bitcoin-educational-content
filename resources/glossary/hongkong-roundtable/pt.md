@@ -1,0 +1,7 @@
+---
+term: MESA REDONDA DE HONG-KONG
+
+---
+Um evento histórico da Blocksize War que teve lugar a 20 de fevereiro de 2016, em Hong Kong. Foi uma reunião importante entre os programadores e os mineiros do Bitcoin Core para discutir a escalabilidade do sistema e a estratégia para o escalar. As tensões eram altas antes da reunião, particularmente devido à ascensão do Bitcoin Classic, uma proposta de hard fork apoiada por Gavin Andressen com o objetivo de aumentar o tamanho do bloco para 2 MB. Figuras influentes do ecossistema participaram nos debates, incluindo Jihan Wu e Micree Zhan, os co-fundadores da Bitmain, Adam Back, o presidente da Blockstream, e Luke Dashjr, Matt Corallo e Peter Todd.
+
+Os mineiros, frustrados com a falta de progressos, ameaçaram apoiar a Bitcoin Classic se não fosse implementado um hard fork de 2 MB. Os desenvolvedores defenderam o SegWit como uma solução viável. Após horas de negociações tensas, chegou-se a um acordo, afirmando que os desenvolvedores do Bitcoin Core trabalhariam em um hard fork após a implementação do SegWit. Este acordo era suposto aliviar as tensões, mas acabou por criar mais desconfiança e confusão. Cada lado interpretou o acordo de forma diferente, exacerbando as divisões dentro da comunidade. Embora este acordo tenha abrandado temporariamente o ímpeto da Bitcoin Classic, foi visto por muitos como uma solução insatisfatória e desajeitada.

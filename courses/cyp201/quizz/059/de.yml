@@ -1,9 +1,9 @@
-question: Was ist der Zweck der SHA-256-Hashfunktion bei der Erzeugung einer guten Zufallszahl?
-answer: Sie reduziert ein sehr großes anfängliches Informationsstück auf 256 Bits.
+question: Was ist die Rolle des Seeds in einem Bitcoin HD Wallet?
+answer: Dient als Ausgangspunkt für die Ableitung aller Schlüssel
 wrong_answers:
-  - Sie erhöht die Größe der anfänglichen Information.
-  - Sie verschlüsselt die anfängliche Information.
-  - Sie überprüft die Authentizität der anfänglichen Information.
+  - Speichert die Transaktionen des Wallets
+  - Generiert direkt den Master-Public-Key
+  - Gewährleistet die Vertraulichkeit der Transaktion
 explanation: |
-  Die SHA-256-Hashfunktion wird verwendet, um ein sehr großes anfängliches Informationsstück auf 256 Bits zu reduzieren. Dieser Prozess hilft bei der Erzeugung einer guten Zufallszahl, was für die Sicherheit von privaten Schlüsseln und Bitcoin-Transaktionen entscheidend ist.
+  Der Seed ist eine 512-Bit-Sequenz, die aus der mnemonischen Phrase und dem Passwort abgeleitet wird. Er bildet die Grundlage aller Schlüssel im Wallet.
 reviewed: false

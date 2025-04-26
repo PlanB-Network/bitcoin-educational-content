@@ -1,9 +1,9 @@
-question: Perché si consiglia di limitare il numero di estensioni installate sul tuo browser?
+question: Perché si raccomanda di limitare il numero di estensioni installate sul proprio browser?
 answer: Per evitare potenziali problemi di sicurezza e prestazioni.
 wrong_answers:
-  - Per risparmiare spazio di archiviazione sul tuo dispositivo.
-  - Per evitare che il browser si blocchi.
+  - Per risparmiare spazio di archiviazione sul proprio dispositivo.
+  - Per prevenire il blocco del browser.
   - Per evitare di essere tracciati da siti di terze parti.
 explanation: |
-  Sebbene le estensioni del browser possano fornire funzionalità utili, possono anche rappresentare rischi per la sicurezza in quanto possono accedere ai tuoi dati e alle tue attività di navigazione. Inoltre, avere troppe estensioni può rallentare il tuo browser e influire sulle sue prestazioni.
-reviewed: false
+  Sebbene le estensioni del browser possano fornire funzionalità utili, possono anche rappresentare rischi per la sicurezza poiché possono accedere ai tuoi dati e all'attività di navigazione. Inoltre, avere troppe estensioni può rallentare il tuo browser e influire sulle sue prestazioni.
+reviewed: true

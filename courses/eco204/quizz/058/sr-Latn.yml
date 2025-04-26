@@ -1,0 +1,11 @@
+question: Koja je bila jedinstvena karakteristika zadužnica uvedenih na Antverpskoj berzi Exchange u 16. veku?
+answer: Nosili su imena i datume dospeća
+wrong_answers:
+  - Bili su napravljeni od zlata
+  - Izdala ih je Banka Amsterdama
+  - Bili su konvertibilni u florine
+explanation: |
+  Antwerp Stock Exchange je uveo zadužnice koje su nosile imena
+  i datume dospeća. To ih je činilo teškim za Exchange pre datuma dospeća. Međutim,
+  Exchange je uveo praksu diskontovanja ovih zadužnica pre njihovog datuma dospeća, čineći ih više Liquid i uvodeći koncept vremenske vrednosti novca.
+reviewed: false

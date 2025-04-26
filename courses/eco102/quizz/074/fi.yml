@@ -1,0 +1,9 @@
+question: Miksi Friedrich Hayekin mukaan keskitetty suunnittelu on tehotonta?
+answer: Se ei pysty käsittelemään taloudellisten päätösten monimutkaisuutta
+wrong_answers:
+  - Se vähentää tuotettujen tavaroiden määrää
+  - Se lisää tuotantokustannuksia
+  - Se edistää kansainvälistä kauppaa
+explanation: |
+  Hayek selittää, että keskitetty suunnittelu epäonnistuu taloudellisten päätösten monimutkaisuuden vuoksi, jonka vain vapaa markkinatalous pystyy koordinoimaan tehokkaasti.
+reviewed: false

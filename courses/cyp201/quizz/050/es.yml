@@ -1,10 +1,9 @@
-question: ¿Cuál es el papel de BIP39 en el ecosistema de Bitcoin?
-answer: Introdujo la frase mnemotécnica de 24 palabras para transformar secuencias complejas de dígitos en palabras comunes.
+question: ¿Cuál es una buena práctica para asegurar una frase de paso?
+answer: Guardarla en un medio físico separado de la frase mnemotécnica
 wrong_answers:
-  - Introdujo el concepto de claves derivadas de manera determinista y jerárquica.
-  - Propuso agregar una frase de contraseña adicional para reforzar la seguridad de las claves individuales.
-  - Estandarizó la estructura y jerarquía de las billeteras HD.
+  - Memorizarla solo de memoria sin anotarla
+  - Guardarla en el mismo medio físico que la frase mnemotécnica
+  - Registrarla en un medio digital como Google Drive
 explanation: |
-  BIP39 introdujo una innovación importante; la frase mnemotécnica de 24 palabras.
-  Este sistema permitió transformar una secuencia compleja y difícil de recordar de dígitos en una serie de palabras comunes, mucho más fáciles de memorizar y almacenar.
+  La frase de paso debe guardarse físicamente y separada de la frase mnemotécnica para prevenir el robo simultáneo de ambas.
 reviewed: false

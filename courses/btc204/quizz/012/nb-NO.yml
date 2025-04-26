@@ -1,0 +1,9 @@
+question: Hvordan forhindres dobbeltutgifter på Bitcoin?
+answer: Gjennom offentlig kringkasting av alle systemtransaksjoner.
+wrong_answers:
+  - Ved å verifisere identiteten til brukere før hver transaksjon.
+  - Ved periodisk gjennomgang av transaksjoner av revisorer.
+  - Ved å begrense antall transaksjoner per bruker.
+explanation: |
+  For å bekrefte fraværet av en transaksjon, og dermed unngå dobbeltutgifter, er det nødvendig for hver bruker å være oppmerksom på alle tidligere transaksjoner.
+reviewed: false

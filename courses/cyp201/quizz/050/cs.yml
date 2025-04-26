@@ -1,11 +1,8 @@
-question: Jaká je role BIP39 v ekosystému Bitcoinu?
-answer: Zavedla 24-slovní mnemonickou frázi pro převod složitých sekvencí číslic na obyčejná slova.
+question: Jaká je dobrá praxe pro zabezpečení heslové fráze?
+answer: Uložte ji na samostatném fyzickém médiu než je mnemonická fráze
 wrong_answers:
-  - Zavedla koncept deterministicky a hierarchicky odvozených klíčů.
-  - Navrhla přidání dodatečné heslové fráze pro posílení bezpečnosti jednotlivých klíčů.
-  - Standardizovala strukturu a hierarchii HD peněženek.
+  - Zapamatovat si ji pouze nazpaměť bez zaznamenání
+  - Uložit ji na stejném fyzickém médiu jako mnemonická fráze
+  - Zaznamenat ji na digitálním médiu jako je Google Drive
 explanation: |
-  BIP39 představila zásadní inovaci; 24-slovní mnemonickou frázi.
-  Tento systém umožnil převést složitou, těžko zapamatovatelnou sekvenci číslic
-  na sérii obyčejných slov, která je mnohem snazší si zapamatovat a uložit.
-reviewed: false
+  Heslová fráze musí být fyzicky uložena odděleně od mnemonické fráze, aby se zabránilo současné krádeži obou.

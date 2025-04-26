@@ -1,9 +1,9 @@
-question: ¿Por qué es más arriesgado un cierre forzado en términos de tarifas y posible validación por parte de los mineros?
-answer: Porque las tarifas se decidieron cuando la transacción se creó en el pasado y la red ha cambiado desde entonces.
+question: ¿Qué criterio puede ayudar a un nodo a elegir una ruta de pago eficiente?
+answer: La probabilidad de éxito basada en la capacidad total de los canales
 wrong_answers:
-  - Porque las tarifas siempre son más altas en un cierre forzado.
-  - Porque es menos probable que los mineros validen un cierre forzado.
-  - Porque las tarifas son impredecibles en un cierre forzado.
+  - La distancia geográfica entre los nodos
+  - La presencia de nodos con un nivel bajo de comisión
+  - El número de pagos realizados por el nodo objetivo
 explanation: |
-  En un cierre forzado, las tarifas se decidieron cuando la transacción se creó en el pasado. La red ha cambiado desde entonces, por lo que el protocolo establece las tarifas 5 veces más altas que las actuales cuando se creó la transacción. Esto hace que el cierre forzado sea más arriesgado en términos de tarifas y posible validación por parte de los mineros.
+  La capacidad total de los canales puede indicar una mayor probabilidad de éxito, ya que sugiere una mayor disponibilidad de liquidez para las transacciones.
 reviewed: false

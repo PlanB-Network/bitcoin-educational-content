@@ -1,10 +1,12 @@
-question: Những nguyên tắc kinh tế nào mà Bitcoin tuân theo?
-answer: Nguyên tắc của kinh tế học Áo
+question: Nguyên tắc kinh tế nào mà Bitcoin tuân theo?
+answer: Nguyên tắc của kinh tế học Áo.
 wrong_answers:
-  - Nguyên tắc của kinh tế học Keynes
-  - Nguyên tắc của kinh tế học Marx
-  - Nguyên tắc của kinh tế học Tân cổ điển
+  - Nguyên tắc của kinh tế học Keynes.
+  - Nguyên tắc của kinh tế học Marx.
+  - Nguyên tắc của kinh tế học Tân cổ điển.
 explanation: |
-  Bitcoin tuân theo nguyên tắc của kinh tế học Áo. Số lượng bị giới hạn và không có thực thể trung ương bảo vệ nó khỏi những rủi ro về lạm phát
-  tự nhiên trong các loại tiền tệ truyền thống.
-reviewed: false
+  Bitcoin tuân theo nguyên tắc của kinh tế học Áo.
+  Số lượng bị giới hạn và thiếu vắng một thực thể trung ương bảo vệ nó
+  khỏi những rủi ro về lạm phát mà thường thấy trong
+  các đồng tiền truyền thống.
+reviewed: true

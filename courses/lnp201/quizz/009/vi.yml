@@ -1,9 +1,8 @@
-question: Vai trò của khóa riêng trong một giao dịch Bitcoin là gì?
-answer: Nó được sử dụng để ký giao dịch và mở khóa Bitcoin từ địa chỉ.
+question: Trong một giao dịch Bitcoin, script khóa thực hiện chức năng gì?
+answer: Nó đặt ra các điều kiện cụ thể để chi tiêu các quỹ liên quan
 wrong_answers:
-  - Nó được sử dụng để tạo ra khóa công khai.
-  - Nó được sử dụng để tạo địa chỉ Bitcoin.
-  - Nó được sử dụng để mã hóa dữ liệu giao dịch.
+  - Nó tự động gửi quỹ đến nhiều địa chỉ
+  - Nó xác định giá trị của UTXO sẽ được tạo ra
+  - Nó tạm thời khóa quỹ để ngăn chặn việc chi tiêu quá mức
 explanation: |
-  Trong một giao dịch Bitcoin, người gửi sử dụng khóa riêng của họ để ký giao dịch, điều này hiệu quả mở khóa Bitcoin từ địa chỉ nơi chúng được lưu trữ. Đây là một phần quan trọng của quá trình giao dịch, vì nó đảm bảo rằng chỉ có chủ sở hữu của Bitcoin mới có thể tiêu chúng.
-reviewed: false
+  Script khóa đặt ra các điều kiện, như việc ký bằng khóa riêng, để mở khóa và sử dụng quỹ trong một giao dịch.

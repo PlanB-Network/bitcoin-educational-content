@@ -1,0 +1,10 @@
+question: Mis oli Zimbabwe dollari esialgne vahetuskurss, kui see 1980. aastal käibele lasti?
+answer: Kaks Zimbabwe dollarit olid umbes 1.60 USA dollari väärtuses
+wrong_answers:
+  - Üks Zimbabwe dollar oli umbes 1 USA dollari väärtuses
+  - Üks Zimbabwe dollar oli umbes 2 USA dollari väärtuses
+  - Kaks Zimbabwe dollarit olid umbes 2 USA dollari väärtuses
+explanation: |
+  Zimbabwe saavutas iseseisvuse 1980. aastal ja võttis kasutusele Zimbabwe dollari.
+  Alguses olid kaks Zimbabwe dollarit umbes 1.60 USA dollari väärtuses.
+reviewed: false

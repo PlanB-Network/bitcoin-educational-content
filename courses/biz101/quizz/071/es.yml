@@ -1,0 +1,9 @@
+question: ¿Qué papel desempeña un PSL en los pagos Bitcoin empresariales?
+answer: Gestionar transacciones de gran volumen en Lightning
+wrong_answers:
+  - Almacenar claves privadas del monedero Lightning
+  - Imprimir facturas Lightning
+  - Procesar las devoluciones manualmente en Lightning
+explanation: |
+  Los PSL gestionan operaciones complejas y de gran volumen en Lightning.
+reviewed: false

@@ -1,12 +1,12 @@
-question: Was ist das Hauptwerkzeug, das Minenarbeiter im Bitcoin-Netzwerk heute verwenden?
+question: Was ist das Hauptwerkzeug, das von Minern im Bitcoin-Netzwerk heute verwendet wird?
 answer: ASICs
 wrong_answers:
   - CPUs
   - GPUs
   - FPGAs
 explanation: |
-  Heutzutage verwenden Minenarbeiter ausschließlich ASICs, die speziell für diese Operation entwickelt wurden,
-  optimiert
-  um die maximale Anzahl von Kombinationen mit dem geringstmöglichen Energieverbrauch
+  Heutzutage verwenden Miner ausschließlich für diese
+  Operation dedizierte ASICs, die optimiert sind, um die maximale Anzahl
+  von Kombinationen mit dem geringstmöglichen Energieverbrauch
   und so schnell wie möglich zu testen.
-reviewed: false
+reviewed: true

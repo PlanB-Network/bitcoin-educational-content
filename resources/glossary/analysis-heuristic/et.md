@@ -1,0 +1,9 @@
+---
+term: ANALÜÜSIHEURISTIKA
+
+---
+Bitcoini ahela analüüsiheuristika on empiiriliste meetodite perekond, mida kasutatakse bitcoinide liikumise jälgimiseks plokiahelas tehingutes täheldatud omaduste põhjal. Heuristika on praktiline lähenemine probleemi lahendamisele, sageli ligikaudsete meetodite abil, kuid kujutab endast piisavalt head lahendust antud eesmärgi saavutamiseks. Need heuristikud annavad küllaltki usaldusväärseid tulemusi, kuid mitte kunagi absoluutse täpsusega. Teisisõnu, ahelanalüüs hõlmab alati teatud tõenäosust tehtud järeldustes. Näiteks võib enam-vähem kindlalt hinnata, et kaks aadressi kuuluvad samale üksusele, kuid täielik kindlus on alati kättesaamatu. Kogu ahelanalüüsi eesmärk seisneb just erinevate heuristikate koondamises, et vähendada vigade riski. Tegemist on teatud mõttes tõendite kogumisega, mis võimaldab meil tegelikkusele lähemale jõuda. Selles kontekstis eristatakse sisemist ja välist heuristikat.
+
+Sisemine heuristika keskendub konkreetsele tehingule iseloomulikele omadustele. Need hõlmavad oma analüüsis selliseid elemente nagu UTXOde kogused, kasutatud skriptid, versioonid või lukuaeg. Näiteks võimaldab ümmarguse makse heuristika tuvastada, et tehingu väljund on tõenäoliselt makse, kui selle summa on ümmargune arv. Need heuristikud võimaldavad sageli tuvastada muutusi (samale kasutajale tagastatud raha) ja seega jätkata jälgimist.
+
+Välised heuristikud seevastu analüüsivad sarnasusi ja omadusi väljaspool tehingut. Need hõlmavad kogu tehingukeskkonda. Näiteks aadressi korduvkasutamine mitme tehingu puhul on väline heuristika. CIOH on samuti üks neist.

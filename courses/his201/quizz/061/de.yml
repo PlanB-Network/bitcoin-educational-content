@@ -1,0 +1,9 @@
+question: Welche Funktion, die im Oktober 2010 vom Miner m0mchil entworfen wurde, ermöglichte es Client-Nodes, einen Kandidatenblock abzurufen und den Proof of Work zurückzugeben, wenn eine Lösung gefunden wurde?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+  Sie wurde am 1. Oktober veröffentlicht. Satoshi fügte eine modifizierte Version dieser Funktion am 23. November in die Hauptsoftware ein.
+reviewed: false

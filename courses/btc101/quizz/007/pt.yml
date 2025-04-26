@@ -1,11 +1,12 @@
-question: Qual é o foco principal deste curso de Bitcoin?
+question: Qual é o foco principal deste curso sobre Bitcoin?
 answer: Os aspectos monetários do Bitcoin.
 wrong_answers:
   - Os aspectos de codificação do Bitcoin.
   - O impacto ecológico do Bitcoin.
   - Os aspectos regulatórios do Bitcoin.
 explanation: |
-  Este curso de Bitcoin se concentra nos aspectos monetários do Bitcoin, incluindo
-  como comprar e vender bitcoins, armazená-los com segurança em carteiras digitais e usá-los
-  para transações.
-reviewed: false
+  Este curso sobre Bitcoin foca nos aspectos monetários do
+  Bitcoin, incluindo como comprar e vender bitcoins, armazená-los
+  de forma segura em carteiras digitais e usá-los para
+  transações.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Comment la taille de la somme de contrôle est-elle déterminée lors de la génération d'une phrase mnémonique pour un portefeuille Bitcoin ?
-answer: En divisant la taille de l'entropie par 32.
+question: Quelle est l'utilité de l'index dans la dérivation des clés enfants ?
+answer: Distinguer les paires de clés sœurs
 wrong_answers:
-  - En multipliant la taille de l'entropie par 32.
-  - En ajoutant 32 à la taille de l'entropie.
-  - En soustrayant 32 de la taille de l'entropie.
+  - Identifier la nature de la clé (publique ou privée)
+  - Spécifier le niveau de sécurité de la clé
+  - Ajouter une couche de sécurité supplémentaire
 explanation: |
-  La taille de la somme de contrôle est déterminée en divisant la taille de l'entropie par 32. Par exemple, une entropie de 256 bits génère une somme de contrôle de 8 bits.
+  L'index permet de différencier les clés enfants dérivées de la même paire parent.
 reviewed: false

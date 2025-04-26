@@ -1,9 +1,14 @@
-question: Mikä on käsite "skin in the game" videopelialan kontekstissa?
-answer: Taloudellisen panoksen omaaminen pelin tulokseen
+question: Mikä on käsite skin in the game videopelialan kontekstissa?
+answer: Taloudellisen panoksen omaaminen pelin lopputulokseen.
 wrong_answers:
-  - Sijoittaminen pelin kehitykseen
-  - Oikean rahan käyttäminen pelin sisäisiin esineisiin
-  - Pelinahkojen myyminen oikeasta rahasta
-explanation: >-
-  Käsite "skin in the game" on idea, joka on viime aikoina saavuttanut suosiota videopelialalla. Se käytännössä tarkoittaa taloudellisen panoksen omaamista pelin tulokseen.
-reviewed: false
+  - Hahmojen mukauttaminen ainutlaatuisilla skineillä, jotka parantavat pelikokemusta.
+  - Pelin sisäisten esineiden ostaminen oikealla rahalla.
+  - Peliskinien myyminen oikeasta rahasta.
+explanation: |
+  Käsite skin in the game on idea, joka on
+  viime aikoina saavuttanut suosiota videopelialalla. Se
+  viittaa pohjimmiltaan ajatukseen, että kehittäjillä ja
+  sidosryhmillä on henkilökohtainen sijoitus tai panos pelin
+  menestyksessä, mikä yhdistää heidän intressinsä
+  laadukkaan tuotteen toimittamiseen.
+reviewed: true

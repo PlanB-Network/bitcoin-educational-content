@@ -1,11 +1,9 @@
-question: Jaké je riziko používání úschovné peněženky?
-answer: Důvěryhodná třetí strana může kdykoliv omezit váš přístup k vašim prostředkům
+question: Co znamená termín hodl?
+answer: Hodl je slangový termín v komunitě kryptoměn, který znamená držet své investice místo jejich prodeje, zejména během tržní volatility.
 wrong_answers:
-  - Důvěryhodná třetí strana může kdykoliv zvýšit hodnotu vašich bitcoinů
-  - Důvěryhodná třetí strana může kdykoliv snížit hodnotu vašich bitcoinů
-  - Důvěryhodná třetí strana může kdykoliv darovat vaše bitcoiny
+  - Hodl odkazuje na typ kryptoměny, který se používá pouze pro obchodování.
+  - Hodl je termín, který znamená prodat všechny vaše kryptoměny za vysokou cenu.
+  - Hodl je strategie pro denní obchodování, která zahrnuje časté kupování a prodávání.
 explanation: |
-  Když používáte úschovnou peněženku, nejste jediným držitelem vašich bitcoinů.
-  To znamená, že důvěryhodná třetí strana může kdykoliv omezit váš přístup k vašim prostředkům,
-  což vám dává stejnou úroveň finanční suverenity jako tradiční bankovní systém.
+  Termín hodl pochází z chybně napsaného online příspěvku v roce 2013 na fóru o Bitcoinu. Časem se hodl vyvinul, aby reprezentoval širší investiční strategii. Podporuje investory, aby si své kryptoměny drželi na dlouhodobě, bez ohledu na tržní fluktuace.
 reviewed: true

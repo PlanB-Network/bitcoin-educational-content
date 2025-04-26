@@ -1,0 +1,9 @@
+question: Hvilket medium anbefales for sikker sikkerhetskopiering av Mnemonic-frasen din?
+answer: Metallsikkerhetskopi med forseglet, ugjennomsiktig konvolutt
+wrong_answers:
+  - Kryptert lagring på USB-stasjon
+  - Papirbackup med gjennomsiktig hylse
+  - Sikkerhetskopiering i en sikker sky
+explanation: |
+  En katastrofebestandig metallsikkerhetskopi gir langvarig beskyttelse mot skader og uautorisert tilgang. Den forseglede, ugjennomsiktige konvolutten gjør at du kan kontrollere om noen har fått tilgang til Mnemonic-frasen.
+reviewed: false

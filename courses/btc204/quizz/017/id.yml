@@ -1,0 +1,8 @@
+question: Apa istilah untuk informasi yang menghubungkan sekelompok aktivitas on-chain dengan bentuk identitas nyata?
+answer: Sebuah titik masuk.
+wrong_answers:
+  - Kunci penghubung.
+  - Tautan sidik jari.
+  - Penanda analisis.
+explanation: |
+  Perilaku dan informasi yang dapat menghubungkan identitas nyata dengan aktivitas on-chain disebut titik masuk.

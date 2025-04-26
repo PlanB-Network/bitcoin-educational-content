@@ -1,0 +1,13 @@
+question: Hva er formålet med etiketter i stille betalinger?
+
+answer: Å bruke flere forskjellige statiske adresser uten å urimelig øke arbeidsmengden for skanning.
+
+wrong_answers:
+  - Å kryptere stille betalingstransaksjoner for å skjule den virkelige mottakeren av transaksjonen.
+  - Å bruke flere forskjellige statiske adresser som ikke kan kobles sammen av en ekstern observatør.
+  - Å plassere en synlig etikett på blokkjeden for å identifisere stille betalinger på måten av en betalingsreferanse.
+
+explanation: |
+  Etiketter brukes til å generere flere statiske adresser fra hovedstatisk adresse, noe som letter organiseringen av lommeboken. Imidlertid kunne en ekstern observatør enkelt etablere en kobling mellom disse merkede statiske adressene, siden skanningsnøkkelen er den samme for alle.
+
+reviewed: false

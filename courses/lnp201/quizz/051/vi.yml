@@ -1,12 +1,9 @@
-question: Onion routing trong bối cảnh của Lightning Network là gì?
-answer: Một phương pháp mà các trung gian không biết ai là người nhận cuối cùng, cũng như không biết ai là người gửi thanh toán.
+question: Kỹ thuật mở hình tam giác cho phép các nút tham gia đạt được điều gì?
+answer: Lượng thanh khoản đến và đi trong mỗi kênh
 wrong_answers:
-  - Một phương pháp mà các trung gian biết cả người gửi và người nhận.
-  - Một phương pháp mà chỉ người gửi biết lộ trình và giá cả.
-  - Một phương pháp mà người nhận cuối cùng quyết định lộ trình trước khi gửi thanh toán.
+  - Phí định tuyến giảm
+  - Số lượng giao dịch không giới hạn mà không cần xác nhận
+  - Một liên kết trực tiếp với mọi nút mạng khác
 explanation: |
-  Onion routing trong Lightning Network là một phương pháp mà các trung gian
-  không biết ai là người nhận cuối cùng, cũng như không biết ai là người gửi thanh toán. Nút
-  phải giữ một kế hoạch của mạng để tìm lộ trình của mình, nhưng không có trung gian nào
-  có bất kỳ thông tin nào.
+  Kỹ thuật mở hình tam giác cho phép mỗi nút đạt được lượng thanh khoản cân bằng, cả đến và đi, bằng cách tạo một vòng lặp của các kênh giữa nhiều người tham gia.
 reviewed: false

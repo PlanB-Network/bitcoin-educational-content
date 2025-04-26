@@ -1,0 +1,13 @@
+question: Hva er hovedmålet med en coinjoin-transaksjon?
+
+answer: Å bryte historikken til en mynt.
+
+wrong_answers:
+  - Å redusere transaksjonsgebyrer.
+  - Å gjøre bitcoins uoppdagelige.
+  - Å øke bekreftelseshastigheten.
+
+explanation: |
+  Målet med en coinjoin-transaksjon er å bryte historikken til en mynt. Denne teknikken gir ikke permanent anonymitet, og den blokkerer heller ikke sporing av bitcoins definitivt, i motsetning til hva man kanskje skulle tro. Coinjoin har som mål kun å bryte historikken på det punktet hvor coinjoin-transaksjonen blir gjort.
+
+reviewed: false

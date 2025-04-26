@@ -1,0 +1,9 @@
+question: Qual conclusão Bastiat tira do impacto da destruição na economia?
+answer: É prejudicial para a economia
+wrong_answers:
+  - É benéfico para a economia
+  - É neutro para a economia
+  - Depende da situação econômica
+explanation: |
+  Bastiat demonstra que a destruição é um ônus econômico porque desvia recursos preciosos e não cria valor agregado.
+reviewed: false

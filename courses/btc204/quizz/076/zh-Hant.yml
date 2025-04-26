@@ -1,0 +1,10 @@
+question: 什麼是 CoinJoin 交易？
+answer: 多位使用者合併其 UTXO 的協同交易。
+wrong_answers:
+  - 只有兩個使用者之間的協同交易。
+  - 單一使用者向多個地址傳送資金的交易。
+  - 中央行為者混合客戶的比特幣的交易。
+explanation: |
+  CoinJoin 交易是多位使用者混合其硬幣的協同交易。
+  
+reviewed: false

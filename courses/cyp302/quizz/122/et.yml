@@ -1,0 +1,9 @@
+question: Mis on võtmehalduse probleem?
+answer: Väljakutse võtmete turvaliseks edastamiseks ilma füüsilise vahetuseta
+wrong_answers:
+  - Kliendi kohta mitme võtmepaari genereerimise vajadus
+  - Võtmete füüsilise hoiustamise turvamise raskus
+  - Kohustus vahetada võtmeid iga suhtluse korral
+explanation: |
+  Võtmehalduse probleem puudutab väljakutset võtmete turvaliseks edastamiseks, mis on muutunud digitaalses suhtluses, kus füüsiline vahetus on ebapraktiline, hädavajalikuks.
+reviewed: false

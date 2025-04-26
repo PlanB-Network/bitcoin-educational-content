@@ -1,9 +1,12 @@
 question: Proč není SMS považována za nejlepší možnost pro 2FA?
-answer: Poskytuje pouze důkaz o vlastnictví telefonního čísla.
+answer: Tato metoda je zranitelná vůči různým útokům, jako je podvod se zaměnou SIM.
 wrong_answers:
-  - Je to příliš drahé
-  - Je to příliš pomalé
-  - Je to příliš složité na nastavení
+  - Je příliš pomalá a drahá, efektivnější bude telefonní hovor.
+  - Poskytuje pouze důkaz o vlastnictví telefonního čísla.
+  - Je příliš složité ji technicky nastavit.
 explanation: |
-  SMS není považována za nejlepší možnost pro 2FA, protože poskytuje pouze důkaz o vlastnictví telefonního čísla, nikoli důkaz totožnosti.
-reviewed: false
+  SMS není považována za nejlepší možnost pro 2FA, protože je
+  metoda 2FA zranitelná vůči různým útokům, jako je podvod se zaměnou SIM.
+  Jakmile jsou tyto zranitelnosti úspěšně zneužity, úplně zničí jakoukoliv ochranu poskytovanou
+  dodatečnou vrstvou autentizace 2FA.
+reviewed: true

@@ -1,9 +1,10 @@
-question: Was ist einer der Aspekte der Cybersicherheit, der regelmäßige Überwachung erfordert?
-answer: Die ständige Weiterentwicklung von Bedrohungen
+question: Was ist einer der Aspekte der Cybersicherheit, der regelmäßiges Monitoring erfordert?
+answer: Die ständige Entwicklung von Bedrohungen
 wrong_answers:
-  - Die Börse
+  - Der Aktienmarkt
   - Das Wetter
   - Die Nachrichten
 explanation: |
-  Das Kapitel erwähnt, dass die ständige Weiterentwicklung von Bedrohungen in der Cybersicherheit regelmäßige Überwachung erfordert.
-reviewed: false
+  Das Kapitel erwähnt, dass die ständige Entwicklung von Bedrohungen
+  in der Cybersicherheit regelmäßiges Monitoring erfordert.
+reviewed: true

@@ -1,11 +1,13 @@
-question: Lợi thế chính của ASIC trong bối cảnh đào Bitcoin là gì?
+question: Lợi ích chính của ASICs trong bối cảnh đào Bitcoin là gì?
 answer: Chúng có thể thực hiện một loại tính toán cụ thể rất hiệu quả
 wrong_answers:
   - Chúng có thể thực hiện nhiều loại tính toán khác nhau
   - Chúng tiêu thụ ít điện năng hơn CPU
   - Chúng rẻ hơn CPU
 explanation: |
-  ASIC là các chip, có thể so sánh với chip CPU, tuy nhiên, chúng được phát triển
-  để thực hiện chỉ một loại tính toán cụ thể một cách hiệu quả nhất có thể.
-  Trong trường hợp của ASIC Bitcoin, chúng được thiết kế cho việc tính toán thuật toán SHA256.
-reviewed: false
+  ASICs là các chip, có thể so sánh với chip CPU, tuy nhiên,
+  chúng được phát triển để thực hiện chỉ một loại
+  tính toán cụ thể một cách hiệu quả nhất có thể. Trong trường hợp
+  của ASICs Bitcoin, chúng được thiết kế cho việc tính toán
+  thuật toán SHA256.
+reviewed: true

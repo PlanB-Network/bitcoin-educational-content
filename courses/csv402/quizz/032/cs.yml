@@ -1,0 +1,9 @@
+question: Co má Alice (odesílatel) udělat po obdržení Bobovy faktury?
+answer: Sestavte PSBT s jeho UTXO a vygenerujte terminál pro předávání zásilek
+wrong_answers:
+  - Podepsat transakci Bitcoin, která utratí UTXO obsahující jednorázovou pečeť
+  - Importovat zásilku do vlastní peněženky a zjistit podrobnosti o smlouvě
+  - Vystavení nové faktury pro vydání majetku
+explanation: |
+  Alice musí vytvořit PSBT, aby utratila UTXO spojené s aktivem, a poté vygenerovat terminální zásilku, která zahrnuje nový přechod na Boba.
+reviewed: false

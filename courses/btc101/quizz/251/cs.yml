@@ -1,10 +1,10 @@
-question: Jaký je jeden z hlavních problémů s cenzurou?
+question: Jaký je jeden z hlavních problémů spojených s cenzurou?
 answer: Může zničit svobodu projevu a právo na shromažďování.
 wrong_answers:
-  - Může vést ke zvýšení svobody projevu.
-  - Může vést ke zvýšení práva na shromažďování.
+  - Může vést k prosazování svobody projevu.
+  - Může vést k větší podpoře práva na shromažďování.
   - Může vést k poklesu inovací.
 explanation: >-
   Text uvádí, že tolerování cenzury může zničit svobodu projevu
   a právo na shromažďování.
-reviewed: false
+reviewed: true

@@ -1,9 +1,14 @@
 question: Mối quan tâm về tương lai liên quan đến việc sử dụng không gian khối Bitcoin là gì?
-answer: Mối quan tâm về tương lai là với sự phát triển dự kiến của Mạng Lưới Lightning và sự tăng lên tương ứng trong việc mở và đóng kênh, không gian trong các khối Bitcoin sẽ trở nên ngày càng có giá trị.
+answer: Mối quan tâm về tương lai là với sự phát triển dự kiến của Mạng Lưới Lightning và sự tăng lên tương ứng trong việc mở và đóng kênh, không gian trong các khối Bitcoin sẽ trở nên ngày càng quý giá.
 wrong_answers:
   - Mối quan tâm về tương lai là kích thước của các khối Bitcoin sẽ trở nên quá lớn để quản lý.
   - Mối quan tâm về tương lai là số lượng các khối Bitcoin sẽ vượt quá khả năng của mạng lưới.
-  - Mối quan tâm về tương lai là độ phức tạp của các khối Bitcoin sẽ tăng lên, làm cho chúng khó xử lý hơn.
+  - Mối quan tâm về tương lai là độ phức tạp của các khối Bitcoin sẽ tăng lên, khiến chúng khó xử lý hơn.
 explanation: |
-  Với sự phát triển dự kiến của Mạng Lưới Lightning và sự tăng lên tương ứng trong việc mở và đóng kênh, không gian trong các khối Bitcoin sẽ trở nên ngày càng có giá trị. Điều này đã dẫn đến các cuộc thảo luận về việc sử dụng hợp lệ của không gian khối, với những lo ngại về "spam" trên blockchain từ các giao dịch được coi là không thiết yếu.
-reviewed: false
+  Với sự phát triển dự kiến của Mạng Lưới Lightning và
+  sự tăng lên tương ứng trong việc mở và đóng kênh, không
+  gian trong các khối Bitcoin sẽ trở nên ngày càng quý giá.
+  Điều này đã dẫn đến các cuộc thảo luận về việc sử dụng hợp lệ
+  của không gian khối, với những lo ngại về spam trên blockchain
+  từ các giao dịch được coi là không thiết yếu.
+reviewed: true

@@ -1,12 +1,14 @@
-question: Jaký je možný negativní dopad těžby pro síť?
+question: Jaký je potenciální nedostatek těžby pro síť?
 answer: Bez dostatečné finanční motivace může být pro těžaře obtížné pokračovat v podpoře sítě.
 wrong_answers:
   - Může dojít k poklesu ceny Bitcoinu
   - Může dojít k nárůstu hashrate sítě
   - Může dojít k poklesu počtu aktivních uzlů v síti
 explanation: |
-  Těžba pro síť je ušlechtilá iniciativa, která přispívá k
-  bezpečnosti a decentralizaci sítě Bitcoin. Avšak bez dostatečné
-  finanční motivace může být pro těžaře obtížné pokračovat v podpoře sítě,
-  zejména pokud provozují za ztrátu.
-reviewed: false
+  Těžba pro síť je ušlechtilá iniciativa, která
+  přispívá k bezpečnosti a decentralizaci
+  Bitcoinové sítě. Avšak bez dostatečné finanční
+  motivace může být pro těžaře obtížné pokračovat
+  v podpoře sítě, zejména pokud provozují svou činnost
+  se ztrátou.
+reviewed: true

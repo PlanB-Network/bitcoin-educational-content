@@ -1,13 +1,13 @@
 ---
 name: Kraken
 
-description: Krakenの使用方法
+description: Krakenの使い方
 ---
 
 ![cover](assets/cover.webp)
 
-kraken (https://www.kraken.com/) はビットコインの購入・販売プラットフォームで、KYCおよびLNに対応しています。
+kraken (https://www.kraken.com/) はビットコインの購入・販売プラットフォームです。KYCおよびLNに対応しています。
 
 ![video](https://www.youtube.com/watch?v=ZCGXl5A2Hbc)
 
-まだ執筆ガイドはありませんが、提案していただけると嬉しいです :D
+まだ執筆ガイドはありません。ぜひ提案していただけると嬉しいです :D

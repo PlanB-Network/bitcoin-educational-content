@@ -1,0 +1,8 @@
+question: Hva inneholdt den jernboksen som ble overlevert til Robert Morriss?
+answer: Tre krypterte tekster og et notat
+wrong_answers:
+  - Et kart og ledetråder
+  - En unik krypteringsnøkkel
+  - En enkel liste over navn
+explanation: |
+  Boksen inneholdt tre krypterte tekster og et notat som forklarte oppdagelsen av en skatt og ga instruksjoner om hvordan man kunne hente innholdet.

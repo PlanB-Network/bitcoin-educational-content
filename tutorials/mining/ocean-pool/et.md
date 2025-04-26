@@ -1,6 +1,5 @@
 ---
-name: Ookeani Kaevandamine
-
+name: Ocean Mining
 description: Sissejuhatus Ookeani Kaevandamisse
 ---
 

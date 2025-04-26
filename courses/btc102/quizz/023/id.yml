@@ -1,0 +1,9 @@
+question: Apa keunggulan utama Bitcoin dalam menghadapi krisis moneter?
+answer: Melindungi tabungan dari inflasi
+wrong_answers:
+  - Meningkatkan suku bunga
+  - Menjamin imbal hasil yang tetap
+  - Menyediakan asuransi perbankan
+explanation: |
+  Bitcoin menawarkan perlindungan terhadap devaluasi mata uang berkat kebijakan penerbitannya yang dapat diprediksi.
+reviewed: false

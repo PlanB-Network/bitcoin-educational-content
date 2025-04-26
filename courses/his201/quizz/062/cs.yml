@@ -1,0 +1,9 @@
+question: Co zahrnuje odhad hash rate člena kooperativy prostřednictvím částečného důkazu práce?
+answer: Získání důkazů práce nižšího stupně než je obtížnost sítě, které vyprodukoval hasher
+wrong_answers:
+  - Získání otisku razítka včetně prvního bajtu každého hash bloku vyprodukovaného hasherem
+  - Získání elektrického účtu hashera každý měsíc
+  - Získání důkazů práce vyprodukovaných na síti nižší obtížnosti, jako je BitDNS
+explanation: |
+  Tuto jednoduchou metodu navrhli ribuck, Nils Schneider a Gavin Andresen [na fóru](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) 14. října 2010. ()
+reviewed: false

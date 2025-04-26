@@ -1,0 +1,9 @@
+question: Hva ville skje hvis en bruker bestemmer seg for å følge andre regler som ugyldiggjør de nåværende konsensusreglene?
+answer: Noden vil ikke lenger være en del av Bitcoin-nettverket
+wrong_answers:
+  - Noden vil bli en del av et annet Bitcoin-nettverk
+  - Noden vil bli straffet av Bitcoin-nettverket
+  - Noden vil bli belønnet av Bitcoin-nettverket
+explanation: >-
+  Hvis en bruker bestemmer seg for å følge andre regler som ugyldiggjør de nåværende konsensusreglene, vil denne noden ikke lenger være en del av Bitcoin-nettverket.
+reviewed: false

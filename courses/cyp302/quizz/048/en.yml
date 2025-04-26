@@ -1,0 +1,9 @@
+question: In a cyclic group, what is the term for an element that can generate all other elements through exponentiation?
+answer: A generator
+wrong_answers:
+  - A multiplier
+  - A coprime
+  - An inverse
+explanation: |
+  A generator is an element in a cyclic group that, through exponentiation, can produce all other elements of the group.
+reviewed: false

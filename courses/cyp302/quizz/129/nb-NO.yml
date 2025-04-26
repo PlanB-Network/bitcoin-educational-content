@@ -1,0 +1,9 @@
+question: Hvilken annen britisk oppdagelse av forskere ved GCHQ kom før den til Diffie og Hellman, men forble hemmelig?
+answer: Konseptene for asymmetrisk kryptografi og nøkkelutveksling
+wrong_answers:
+  - En symmetrisk krypteringsprotokoll avansert uten behov for en nøkkel
+  - En ny metode for asymmetrisk kryptografisk hashing
+  - En metode for å skape elektroniske penger
+explanation: |
+  Britiske kryptografer, som jobbet for GCHQ, utviklet uavhengig ideer lik de til Diffie og Hellman, men disse fremskrittene forble konfidensielle inntil de ble offentliggjort i 1997.
+reviewed: false

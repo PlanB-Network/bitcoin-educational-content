@@ -1,0 +1,9 @@
+question: Mis on juhusliku muutuja definitsioon krüptograafia kontekstis?
+answer: Muutuja, mis võib võtta mitmeid võimalikke väärtusi positiivse tõenäosusega
+wrong_answers:
+  - Muutuja, mis muudab väärtust igal hetkel
+  - Muutuja, mille väärtused on fikseeritud ja ette määratud
+  - Muutuja, mis on alati määratletud konkreetse füüsilise eksperimendi kontekstis
+explanation: |
+  Juhuslik muutuja võib võtta kahte või enamat väärtust, igaüks positiivse tõenäosusega, ja seda defineeritakse sageli abstraktselt krüptograafia kontekstis.
+reviewed: false

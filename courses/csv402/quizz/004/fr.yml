@@ -1,0 +1,9 @@
+question: Comment RGB améliore-t-il la scalabilité par rapport à la blockchain traditionnelle ?
+answer: En limitant le stockage et la validation aux seules transitions d'état pertinentes
+wrong_answers:
+  - En augmentant de manière virtuelle la taille des blocs Bitcoin
+  - En reliant directement chaque contrat à tous les UTXOs
+  - En centralisant les données des contrats sur quelques serveurs centraux
+explanation: |
+  RGB réduit les exigences de stockage et de validation en ne conservant que les données pertinentes pour chaque participant.
+reviewed: false

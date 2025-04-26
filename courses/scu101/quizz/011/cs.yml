@@ -1,11 +1,12 @@
 question: Jaký je účel protokolu HTTPS?
 answer: Šifruje data na webových stránkách, aby zajistil bezpečnou výměnu mezi uživatelem a webovou stránkou.
 wrong_answers:
-  - Umožňuje uživatelům obejít geografická omezení.
-  - Umožňuje uživatelům blokovat online reklamy.
-  - Umožňuje uživatelům přistupovat k internetu bez použití dat.
+  - Umožňuje uživatelům obejít geografická omezení, pokud jde o platbu debetní nebo kreditní kartou.
+  - Umožňuje uživatelům částečně blokovat online reklamu.
+  - Umožňuje uživatelům přistupovat k internetu bez použití soukromých přihlašovacích údajů.
 explanation: |
-  Protokol HTTPS se používá k šifrování dat na webových stránkách, čímž zajišťuje, že
-  data vyměňovaná mezi uživatelem a webovou stránkou jsou bezpečná. To pomáhá chránit
-  před zachycením dat třetími stranami.
-reviewed: false
+  Protokol HTTPS se používá k šifrování dat na webových stránkách,
+  čímž zajišťuje, že data vyměňovaná mezi uživatelem a
+  webovou stránkou jsou bezpečná. To pomáhá chránit před
+  zachycením dat třetími stranami.
+reviewed: true

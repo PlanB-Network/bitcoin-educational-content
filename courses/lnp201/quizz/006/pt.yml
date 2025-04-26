@@ -1,9 +1,8 @@
-question: Os canais de pagamento do Lightning são bidirecionais?
-answer: Sim
+question: O que é um UTXO no contexto do Bitcoin?
+answer: Um pedaço de bitcoins não gastos associado a um script
 wrong_answers:
-  - Não
-  - Apenas em alguns casos
-  - Depende da rede Bitcoin
+  - Uma transação totalmente confirmada na blockchain
+  - Uma chave pública que gera endereços Bitcoin
+  - Uma quantidade de bitcoin dividida em várias partes
 explanation: |
-  Os canais de pagamento são bidirecionais, o que significa que eles têm dois "lados". Por exemplo, se Alice e Bob abrirem um canal de pagamento, Alice pode enviar Bitcoin para Bob e Bob pode enviar Bitcoin para Alice.
-reviewed: false
+  Um UTXO, ou Unspent Transaction Output (Saída de Transação Não Gasta), é uma saída de transação não gasta, representando uma certa quantidade de bitcoins que o detentor pode usar.

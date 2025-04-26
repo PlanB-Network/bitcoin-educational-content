@@ -1,0 +1,8 @@
+question: Mis on digitaalse valuuta, nagu bitcoin, puhul kõige raskem saavutatav omadus?
+answer: Topeltkulutamise puudumine
+wrong_answers:
+  - Terviklikkus
+  - Autentsus
+  - Tõepärasus
+explanation: |
+  Digitaalsete valuutade puhul on topeltkulutamise puudumise tagamine keerukam, kuna iga digitaalne hüve on sisuliselt informatsioon. Erinevalt füüsilistest kaupadest ei jagune informatsioon vahetuste käigus, vaid paljuneb.

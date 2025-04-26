@@ -1,0 +1,9 @@
+question: Jak se obvykle liší transakce kreditní kartou od obyčejné hotovostní transakce?
+answer: Zahrnuje více zprostředkovatelů
+wrong_answers:
+  - Probíhá okamžitě, bez účasti zprostředkovatele
+  - Vyžaduje pouze fyzickou výměnu měny
+  - Ukládá oběma stranám vyrábět totožné zboží
+explanation: |
+  Na rozdíl od hotovosti, která je vyměněna okamžitě, procházejí transakce kreditní kartou řadou kroků zahrnujících banky, karetní sítě a zúčtovací procesy, což vede ke zpoždění a dodatečným nákladům.
+reviewed: false

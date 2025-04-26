@@ -1,0 +1,9 @@
+question: Kolika je trenutna veličina Bitcoin Blockchain?
+answer: Oko 500GB.
+wrong_answers:
+  - Oko 100GB.
+  - Oko 1TB.
+  - Oko 2TB.
+explanation: |
+  Bitcoin Blockchain je veličine oko 500GB zaključno sa 2023. godinom.
+reviewed: true

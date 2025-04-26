@@ -1,11 +1,12 @@
-question: Mitkä ovat suositeltuja käytäntöjä optimaalisen turvallisuuden saavuttamiseksi vahvan tunnistautumisen avulla?
-answer: Käytä turvallista sähköpostiosoitetta, turvallista salasananhallintasovellusta ja ota käyttöön kaksivaiheinen tunnistautuminen (2FA) käyttäen YubiKeyta.
+question: Mitkä ovat suositellut käytännöt optimaalisen turvallisuuden saavuttamiseksi vahvan tunnistautumisen avulla?
+answer: Käytä turvallista sähköpostiosoitetta, turvallista salasanojen hallintajärjestelmää ja ota käyttöön kaksivaiheinen tunnistautuminen (2FA) käyttäen YubiKeyta.
 wrong_answers:
   - Käytä yhteistä salasanaa kaikille tileille ja vältä kaksivaiheista tunnistautumista
-  - Käytä yksinkertaista salasanaa ja luota biometriseen dataan kaksivaiheisessa tunnistautumisessa
-  - Käytä turvallista sähköpostiosoitetta, mutta vältä salasananhallintasovellusten ja kaksivaiheisen tunnistautumisen käyttöä
+  - Käytä yksinkertaista salasanaa ja nojaa biometriseen dataan kaksivaiheisessa tunnistautumisessa
+  - Käytä turvallista sähköpostiosoitetta, mutta vältä salasanojen hallintajärjestelmiä ja kaksivaiheista tunnistautumista
 explanation: |
-  Optimaalisen turvallisuuden saavuttamiseksi suositellaan turvallisen sähköpostiosoitteen,
-  turvallisen salasananhallintasovelluksen käyttöä sekä kaksivaiheisen tunnistautumisen (2FA) käyttöönottoa YubiKeyn avulla. On myös suositeltavaa
-  hankkia kaksi YubiKeyta varautuakseen mahdolliseen katoamiseen tai varkauteen.
-reviewed: false
+  Optimaalisen turvallisuuden saavuttamiseksi suositellaan turvallisen
+  sähköpostiosoitteen, turvallisen salasanojen hallintajärjestelmän käyttöä ja kaksivaiheisen tunnistautumisen
+  ottamista käyttöön YubiKeyn avulla. On myös suositeltavaa hankkia kaksi
+  YubiKeyta varautuakseen katoamiseen tai varkauteen.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mitkä ovat RGB-sopimuksen tärkeimmät toiminnot?
+answer: Tilan siirtyminen, synty ja tilan laajentaminen
+wrong_answers:
+  - Sinetin määrittely, sitoutuminen ja validointi
+  - Ankkurin luominen, DAG-päivitys ja tapahtuman allekirjoittaminen
+  - Genesis-lohko, UTXO-jako ja komentosarjan validointi
+explanation: |
+  Nämä operaatiot muuttavat tai täydentävät sopimuksen tilaa sen skeeman mukaisesti.
+reviewed: false

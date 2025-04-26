@@ -1,0 +1,9 @@
+question: RGB 中的 Consignment 包含什麼？
+answer: 驗證轉換所需的客戶端資料
+wrong_answers:
+  - Bitcoin Blockchain 的完整副本
+  - Bitcoin 的公開承諾清單
+  - State Transition 參與者的公開金鑰
+explanation: |
+  Consignment 包含 RGB 資訊，可讓接收器根據 Contract 規則驗證 State Transition。
+reviewed: false

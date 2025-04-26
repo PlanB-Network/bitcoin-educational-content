@@ -1,0 +1,9 @@
+question: Mikä nimi on annettu konsensusongelmalle hajautetussa verkossa?
+answer: Bysanttilaisten kenraalien ongelma
+wrong_answers:
+  - Roomalaisten sentuurioitten ongelma
+  - Albanialaisten everstien ongelma
+  - Japanilaisten taishojen ongelma
+explanation: |
+  Tämän ongelman nimi (joka muodollistettiin Lamportin, Shostakin ja Peasen toimesta vuonna 1982) valittiin välttämään lukijan loukkaamista, sillä kukaan ei ole koskaan tunnistanut itseään bysanttilaiseksi.
+reviewed: false

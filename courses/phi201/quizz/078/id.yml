@@ -1,0 +1,8 @@
+question: Apa kontribusi terkenal Adam Smith dalam ekonomi?
+answer: Dia mengembangkan teori tangan tak terlihat.
+wrong_answers:
+  - Dia mengembangkan teori jari terlihat.
+  - Dia mengembangkan teori jari tak terlihat.
+  - Dia mengembangkan teori tangan terlihat.
+explanation: |
+  Adam Smith dikenal karena teorinya tentang tangan tak terlihat, yang menyatakan bahwa tindakan individu yang dimotivasi oleh kepentingan pribadi secara tidak sengaja berkontribusi pada kesejahteraan ekonomi masyarakat secara keseluruhan.

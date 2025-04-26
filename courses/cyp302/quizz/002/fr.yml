@@ -1,0 +1,9 @@
+question: Quelle est la spécificité des trois textes chiffrés contenus dans la boîte ?
+answer: Ils contiennent des nombres séparés par des virgules
+wrong_answers:
+  - Ils sont tous écrits en lettres ordinaires
+  - Ils utilisent des symboles inconnus
+  - Ils sont écrits dans plusieurs langues
+explanation: |
+  Les trois textes chiffrés sont constitués de séries de nombres séparés par des virgules, nécessitant une clé pour être déchiffrés.
+reviewed: false

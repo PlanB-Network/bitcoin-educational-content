@@ -1,0 +1,9 @@
+question: Hvordan beskrev Barack Obama Bitcoin?
+answer: En sveitsisk bank i lommen
+wrong_answers:
+  - Digitalt gull
+  - Et svært spekulativt aktivum
+  - En desentralisert valuta
+explanation: |
+  Barack Obama omtalte en gang Bitcoin som "en sveitsisk bank i lommen" Bitcoin gir faktisk de samme mulighetene til alle, uavhengig av status, og åpner for Confidential Transactions.
+reviewed: false

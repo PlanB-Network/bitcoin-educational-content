@@ -1,0 +1,9 @@
+question: Jaký trend byl zaznamenán mezi účastníky provozujícími uzly v síti Lightning Network?
+answer: Profesionální provozovatelé uzlů stále více zajišťují likviditu, zatímco jednotliví uživatelé se zaměřují na "okrajové" uzly, čímž se mění složení sítě.
+wrong_answers:
+  - Individuální hobbyisté zcela nahradili všechny profesionální provozovatele.
+  - Velké banky nyní všechny uzly Lightning provozují centrálně.
+  - Síť uzavřela osobní uzly, aby umožnila přístup pouze velkým společnostem.
+explanation: |
+  Dochází k posunu směrem k větší likviditě a stabilitě poskytované profesionálními subjekty, zatímco běžní uživatelé se spoléhají na zjednodušená nebo hostovaná řešení, čímž se síť stává robustnější a dostupnější.
+reviewed: false

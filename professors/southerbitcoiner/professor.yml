@@ -1,15 +1,16 @@
+id: 6f05b7e4-b6e3-4ed7-8ce3-fd21ba496ed0
 name: Southerbitcoiner
 
-contributor_id: six-phone
 
 links:
   website: https://www.southernbitcoiner.com/
   twitter: https://twitter.com/ColeTU
 
-tags:
-  - bitcoin
-
 company: southerbitcoiner
 
 tips:
   lightning_address: southernbitcoiner@getalby.com
+tags:
+  - guides
+  - self-sovereignty
+  - user-friendly

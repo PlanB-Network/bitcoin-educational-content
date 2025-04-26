@@ -1,0 +1,9 @@
+question: Kakvo je kombinovano dejstvo vremenskog zaključavanja i ključa za opoziv na Commitment transakcije?
+answer: Oni odvraćaju učesnike od varanja nudeći trenutnu kaznu
+wrong_answers:
+  - Smanjuju kapacitet kanala u slučaju varanja
+  - Automatski zaključavaju sredstva krive strane
+  - Oni forsiraju otvaranje novog kanala ako je transakcija netačna.
+explanation: |
+  Tajmer i ključ za opoziv odvraćaju učesnike od varanja osiguravajući da svaki pokušaj varanja rezultira trenutnim gubitkom sredstava za krivca.
+reviewed: false

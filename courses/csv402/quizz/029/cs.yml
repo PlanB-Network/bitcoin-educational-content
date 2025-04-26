@@ -1,0 +1,9 @@
+question: Jaká je hlavní role schématu ve smlouvě RGB?
+answer: Popište obchodní logiku a datovou strukturu smlouvy
+wrong_answers:
+  - Definice rozhraní pro peněženky RGB
+  - Správa kompilace skriptů v blockchainu
+  - Kryptografické ověřování v řetězci
+explanation: |
+  Schéma definuje deklarativní strukturu, datové typy a validační pravidla smlouvy, což vám umožní spravovat obchodní logiku na straně zákazníka.
+reviewed: false

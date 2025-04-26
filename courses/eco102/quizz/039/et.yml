@@ -1,0 +1,8 @@
+question: Mis on juristide põhimõte Bastiati järgi?
+answer: See on seaduse ülimuslikkuse põhimõte vara suhtes
+wrong_answers:
+  - See on vara ülimuslikkuse põhimõte seaduse suhtes
+  - See on võrdsuse põhimõte seaduse ees
+  - See on õigus varale ilma riigi sekkumiseta
+explanation: |
+  Bastiati jaoks asetab juristide põhimõte, vastandina majandusteadlaste omale, seaduse vara ees, positsiooni, mida ta kritiseerib selle potentsiaali eest luua ebaõiglust.

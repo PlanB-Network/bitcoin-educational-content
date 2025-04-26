@@ -1,0 +1,9 @@
+question: Missä vaiheessa AES-salausta käytetään Galois-kenttiä?
+answer: Tavun korvaamisessa ja MixColumns-toiminnossa
+wrong_answers:
+  - Yksityisen avaimen luomisessa
+  - Tekstin jakamisessa 128-bittisiin lohkoihin
+  - Jokaisessa XOR-operaation vaiheessa
+explanation: |
+  Galois-kenttiä käytetään tavun korvaamisessa laskemaan kertolaskun käänteisarvo ja MixColumns-toiminnossa suorittamaan kertolaskuja modulo reduusoimattoman polynomin mukaan.
+reviewed: false

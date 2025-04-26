@@ -1,0 +1,9 @@
+question: Apa salah satu masalah utama dengan sensor?
+answer: Ini dapat menghancurkan kebebasan berekspresi dan hak untuk berkumpul.
+wrong_answers:
+  - Ini dapat menyebabkan peningkatan kebebasan berekspresi.
+  - Ini dapat menyebabkan peningkatan hak untuk berkumpul.
+  - Ini dapat menyebabkan penurunan inovasi.
+explanation: >-
+  Teks menyebutkan bahwa mentolerir sensor dapat menghancurkan kebebasan berekspresi
+  dan hak untuk berkumpul.

@@ -1,0 +1,9 @@
+question: Millist rolli mängivad sertifitseerimisasutused avaliku võtme levitamise protsessis?
+answer: Nad väljastavad sertifikaate, mis tagavad avalike võtmete autentsuse
+wrong_answers:
+  - Nad genereerivad kasutajatele privaatvõtmeid
+  - Nad talletavad kõigi kasutajate avalikke võtmeid
+  - Nad tagavad sõnumite krüpteerimise kasutajate vahel
+explanation: |
+  Sertifitseerimisasutused väljastavad sertifikaate, mis seovad avaliku võtme selle omanikuga, võimaldades kasutajatel kontrollida kasutatavate avalike võtmete autentsust.
+reviewed: false

@@ -5,8 +5,7 @@ wrong_answers:
   - POP3, IMAP, SSH
   - DHCP, DNS, ARP
 explanation: |
-  The chapter mentions TCP/IP, VPN, and firewall as some of the aspects
-
-
-  of network knowledge needed in cybersecurity.'''
-reviewed: false
+  The chapter mentions TCP/IP, VPN, and firewall as some of
+  the aspects of network knowledge needed in
+  cybersecurity.
+reviewed: true

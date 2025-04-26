@@ -1,9 +1,9 @@
-question: Was ist der Zweck von HMAC im Bitcoin-Protokoll?
-answer: Es wird verwendet, um Längenerweiterungsangriffe zu verhindern, wenn hierarchisch deterministische (HD) Wallets abgeleitet werden.
+question: Warum wurde die elliptische Kurve secp256r1 nicht in Bitcoin verwendet?
+answer: Möglicherweise, um eine Hintertür zu vermeiden
 wrong_answers:
-  - Es wird verwendet, um eine mnemonische Phrase in einen Seed umzuwandeln.
-  - Es wird verwendet, um eine Ausgabe fester Größe zu generieren.
-  - Es wird verwendet, um eine zusätzliche Quelle von Entropie bei der Schlüsselableitung hinzuzufügen.
+  - Weil sie zu langsam ist
+  - Weil sie nicht standardisiert ist
+  - Weil sie spezialisierte Hardware benötigt
 explanation: |
-  HMAC wird hauptsächlich verwendet, um Längenerweiterungsangriffe zu verhindern, wenn hierarchisch deterministische (HD) Wallets abgeleitet werden. Es nimmt eine Nachricht und einen Schlüssel als Eingabe und generiert eine Ausgabe fester Größe.
+  Satoshi Nakamoto bevorzugte wahrscheinlich die secp256k1-Kurve, da die Parameter von secp256r1 eine versteckte Schwachstelle enthalten könnten.
 reviewed: false

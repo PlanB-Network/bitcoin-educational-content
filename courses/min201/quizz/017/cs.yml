@@ -1,9 +1,9 @@
 question: Jaký je potenciální dopad regulace na těžbu Bitcoinu?
-answer: Pokud by země jako Spojené státy americké rozhodly regulovat nebo zakázat určité transakce s Bitcoinem, mohlo by to mít významný dopad na síť, zejména pokud je velká část výpočetního výkonu centralizována v této zemi.
+answer: Pokud by se země jako Spojené státy americké rozhodly regulovat nebo zakázat určité transakce s Bitcoinem, mohlo by to mít významný dopad na síť, zejména pokud je velká část výpočetního výkonu centralizována v této zemi.
 wrong_answers:
-  - Pokud by země jako Spojené státy americké rozhodly regulovat nebo zakázat těžbu Bitcoinu, mohlo by to vést ke zvýšení hodnoty Bitcoinu.
-  - Pokud by země jako Spojené státy americké rozhodly regulovat nebo zakázat těžbu Bitcoinu, mohlo by to vést ke zvýšení odměny za blok.
-  - Pokud by země jako Spojené státy americké rozhodly regulovat nebo zakázat těžbu Bitcoinu, mohlo by to vést ke zvýšení rychlosti transakcí.
+  - Pokud by se země jako Spojené státy americké rozhodly regulovat nebo zakázat těžbu Bitcoinu, mohlo by to vést ke zvýšení hodnoty Bitcoinu.
+  - Pokud by se země jako Spojené státy americké rozhodly regulovat nebo zakázat těžbu Bitcoinu, mohlo by to vést ke zvýšení odměny za blok.
+  - Pokud by se země jako Spojené státy americké rozhodly regulovat nebo zakázat těžbu Bitcoinu, mohlo by to vést ke zvýšení rychlosti transakcí.
 explanation: |
-  Kapitola vysvětluje, že pokud by země jako Spojené státy americké rozhodly regulovat nebo zakázat určité transakce s Bitcoinem, mohlo by to mít významný dopad na síť, zejména pokud je velká část výpočetního výkonu centralizována v této zemi.
-reviewed: false
+  Kapitola vysvětluje, že pokud by se země jako Spojené státy americké rozhodly regulovat nebo zakázat určité transakce s Bitcoinem, mohlo by to mít významný dopad na síť, zejména pokud je velká část výpočetního výkonu centralizována v této zemi.
+reviewed: true

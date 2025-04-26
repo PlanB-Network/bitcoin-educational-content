@@ -1,0 +1,9 @@
+question: Jaký závěr vyvozuje Bastiat z dopadu destrukce na ekonomiku?
+answer: Je to škodlivé pro ekonomiku
+wrong_answers:
+  - Je to prospěšné pro ekonomiku
+  - Je to neutrální vůči ekonomice
+  - Záleží na ekonomické situaci
+explanation: |
+  Bastiat demonstruje, že destrukce je ekonomické břemeno, protože odvádí cenné zdroje a nevytváří žádnou přidanou hodnotu.
+reviewed: false

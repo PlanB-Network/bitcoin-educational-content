@@ -1,9 +1,9 @@
-question: Warum ist eine erzwungene Schließung in Bezug auf Gebühren und mögliche Validierung durch Miner riskanter?
-answer: Weil die Gebühren bereits festgelegt wurden, als die Transaktion in der Vergangenheit erstellt wurde und sich das Netzwerk seitdem verändert hat.
+question: Welches Kriterium kann einem Knoten helfen, eine effiziente Zahlungsroute zu wählen?
+answer: Die Erfolgswahrscheinlichkeit basierend auf der Gesamtkapazität der Kanäle
 wrong_answers:
-  - Weil die Gebühren bei einer erzwungenen Schließung immer höher sind.
-  - Weil Miner weniger wahrscheinlich eine erzwungene Schließung validieren.
-  - Weil die Gebühren bei einer erzwungenen Schließung unvorhersehbar sind.
+  - Die geografische Entfernung zwischen den Knoten
+  - Die Anwesenheit von Knoten mit einem niedrigen Gebührenniveau
+  - Die Anzahl der Zahlungen, die vom Zielknoten gemacht wurden
 explanation: |
-  Bei einer erzwungenen Schließung wurden die Gebühren festgelegt, als die Transaktion in der Vergangenheit erstellt wurde. Das Netzwerk hat sich seitdem verändert, daher setzt das Protokoll die Gebühren auf das Fünffache der zum Zeitpunkt der Erstellung der Transaktion aktuellen Gebühren. Dies macht eine erzwungene Schließung in Bezug auf Gebühren und mögliche Validierung durch Miner riskanter.
+  Die Gesamtkapazität der Kanäle kann auf eine höhere Erfolgswahrscheinlichkeit hinweisen, da sie eine größere Verfügbarkeit von Liquidität für Transaktionen suggeriert.
 reviewed: false

@@ -1,0 +1,13 @@
+question: Perché è spesso complesso utilizzare payjoin per un pagamento?
+
+answer: Richiede la cooperazione attiva del destinatario nella costruzione
+
+wrong_answers:
+  - Richiede importi fissi per ogni transazione
+  - Obbliga entrambe le parti a utilizzare lo stesso tipo di software
+  - Richiede al pagatore di avere almeno 2 UTXO superiori al valore del pagamento
+
+explanation: |
+  La difficoltà nell'utilizzo di payjoin risiede nella sua dipendenza dalla partecipazione del commerciante. Come cliente, utilizzare un payjoin è impossibile se il commerciante non lo supporta.
+
+reviewed: false

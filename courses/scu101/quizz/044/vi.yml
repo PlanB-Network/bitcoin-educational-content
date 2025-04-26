@@ -1,13 +1,12 @@
-question: Tại sao việc dần dần thay thế mật khẩu cũ bằng những mật khẩu được tạo bởi trình quản lý mật khẩu lại quan trọng?
-answer: Mật khẩu được tạo bởi trình quản lý mật khẩu mạnh mẽ và dài hơn, mang lại nhiều an ninh hơn.
+question: Tại sao việc dần dần thay thế mật khẩu cũ bằng những mật khẩu được tạo ra bởi trình quản lý mật khẩu lại quan trọng?
+answer: Mật khẩu được tạo ra bởi trình quản lý mật khẩu mạnh mẽ và dài hơn, mang lại nhiều an ninh hơn.
 wrong_answers:
-  - Mật khẩu cũ sẽ được trình quản lý mật khẩu tự động xóa bỏ.
+  - Mật khẩu cũ được trình quản lý mật khẩu tự động xóa bỏ.
   - Trình quản lý mật khẩu chỉ có thể lưu trữ một số lượng hạn chế mật khẩu.
   - Trình quản lý mật khẩu yêu cầu tất cả mật khẩu phải được chúng tạo ra.
 explanation: |
-  Mật khẩu được tạo bởi trình quản lý mật khẩu mạnh mẽ và dài hơn, mang lại
-
-  nhiều an ninh hơn. Bằng cách dần dần thay thế mật khẩu cũ của bạn bằng những cái này, bạn có thể nâng cao
-
+  Mật khẩu được tạo ra bởi trình quản lý mật khẩu mạnh mẽ và
+  dài hơn, mang lại nhiều an ninh hơn. Bằng cách dần dần thay thế
+  mật khẩu cũ của bạn bằng những mật khẩu này, bạn có thể tăng cường
   an ninh cho các tài khoản trực tuyến của mình.
-reviewed: false
+reviewed: true

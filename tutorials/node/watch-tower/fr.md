@@ -1,5 +1,5 @@
 ---
-name: Tour de guet
+name: Watch Tower
 description: Comprendre et utiliser une tour de guet
 ---
 

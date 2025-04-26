@@ -1,0 +1,11 @@
+question: Hva er maksimal entropi for en transaksjon?
+
+answer: Den høyeste entropien som en transaksjonsstruktur kan oppnå.
+
+wrong_answers:
+  - Den laveste entropien som en transaksjonsstruktur kan oppnå.
+  - Den faktiske entropien til en transaksjon.
+  - Effektiviteten til en transaksjon.
+
+explanation: |
+  Maksimal entropi refererer til den høyeste entropien som en spesifikk transaksjonsstruktur teoretisk kan oppnå.

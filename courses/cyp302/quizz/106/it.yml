@@ -1,0 +1,9 @@
+question: Quale meccanismo impedisce gli attacchi di riflessione nelle comunicazioni sicure?
+answer: Aggiungere un identificatore unico per ogni partecipante
+wrong_answers:
+  - Aumentare la lunghezza della chiave
+  - Utilizzare più chiavi per ogni messaggio
+  - Aggiungere una chiave extra in ogni messaggio
+explanation: |
+  Aggiungere un identificatore unico per ogni partecipante nel messaggio criptato impedisce gli attacchi di riflessione, poiché permette di distinguere l'origine dei messaggi.
+reviewed: false

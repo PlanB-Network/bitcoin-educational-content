@@ -1,0 +1,8 @@
+question: For Bastiat, er retten til eiendom skapt av lovgivning eller går den forut for den?
+answer: går forut for lovgivning
+wrong_answers:
+  - skapt av lovgivning
+  - skapt av den sosiale kontrakten
+  - avhengig av den generelle viljen
+explanation: |
+  Bastiat anser retten til eiendom som en naturlig rettighet som går forut for loven, som kun skal sikre dens forsvar.

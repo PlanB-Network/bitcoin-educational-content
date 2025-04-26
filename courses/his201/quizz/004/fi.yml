@@ -1,0 +1,9 @@
+question: Minä vuonna David Chaumin eCash-konsepti toteutettiin?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Se toteutettiin ensimmäisen kerran kypherpunkkien toimesta helmikuussa, ennen kuin DigiCash kokeili sitä CyberBucks-nimisten digitaalisten valuuttojen liikkeellelaskulla lokakuussa.
+reviewed: false

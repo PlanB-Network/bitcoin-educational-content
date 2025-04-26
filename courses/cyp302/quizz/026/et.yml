@@ -1,0 +1,8 @@
+question: Mis on XOR-i ekvivalents modulo operatsiooniga?
+answer: XOR on ekvivalentne modulo 2 operatsiooniga bittidel
+wrong_answers:
+  - XOR on ekvivalentne klassikalise lahutamisega modulo 3
+  - XOR on ekvivalentne modulo 7 operatsiooniga bittidel
+  - XOR on liitmise vastand
+explanation: |
+  XOR operatsiooni võib vaadelda kui bittide liitmist modulo 2-ga, muutes tulemused identselt.

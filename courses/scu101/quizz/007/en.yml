@@ -5,8 +5,10 @@ wrong_answers:
   - A feature that allows you to browse the internet anonymously.
   - A feature that protects your device from viruses and other malicious software.
 explanation: |
-  Private browsing is a feature that prevents internet browsers from storing
-  browsing history, temporary internet files, form data, cookies, and user names and
-  passwords. However, it does not hide your online activity from your internet service
-  provider or allow you to browse the internet anonymously.
-reviewed: false
+  Private browsing is a feature that prevents internet
+  browsers from storing browsing history, temporary internet
+  files, form data, cookies, and user names and passwords.
+  However, it does not hide your online activity from your
+  internet service provider or allow you to browse the
+  internet anonymously.
+reviewed: true

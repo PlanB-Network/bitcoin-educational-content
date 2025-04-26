@@ -1,0 +1,9 @@
+question: Was ist ein Vorteil von Lightning Network-Zahlungen für Händler am Point of Sale?
+answer: Blitzzahlungen werden fast sofort abgewickelt und erfordern nicht mehrere Zwischenhändler, was Gebühren und Abwicklungsverzögerungen reduziert.
+wrong_answers:
+  - Bei Blitzzahlungen dauert es Wochen, bis sie bestätigt werden, und es ist viel Papierkram erforderlich.
+  - Blitzzahlungen erfolgen nur, wenn sie von einer Zentralbankbehörde genehmigt wurden.
+  - Blitzzahlungen können vom Käufer nach dem Verkauf nach Belieben rückgängig gemacht werden.
+explanation: |
+  Das Lightning Network macht Transaktionen schneller und billiger, indem es eine Abwicklung außerhalb der Kette ermöglicht. Händler können Gelder fast sofort erhalten, mit minimalen Gebühren und ohne auf traditionelle Zahlungsmittler angewiesen zu sein.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Apa fitur kunci dari Bitcoin yang membedakannya dari mata uang fiat?
+answer: Kebijakan moneternya ditegakkan oleh konsensus umum.
+wrong_answers:
+  - Dapat dicetak dalam jumlah tak terbatas oleh bank sentral.
+  - Didukung oleh komoditas fisik seperti emas atau perak.
+  - Diatur oleh bank sentral.
+explanation: |
+  Bitcoin, melalui sifat desentralisasinya dan kriptografi, tidak dapat, di antara lainnya,
+  dipalsukan dan dibatasi hingga 21 juta unit. Ini adalah fitur kunci yang membedakannya
+  dari mata uang fiat, di mana kebijakan moneternya dapat diubah oleh bank sentral.
+reviewed: true

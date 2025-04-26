@@ -1,10 +1,8 @@
-question: A capacidade de um canal de pagamento Lightning é fixa?
-answer: Sim
+question: Por que os UTXOs são frequentemente comparados a cédulas bancárias?
+answer: Eles devem ser gastos integralmente
 wrong_answers:
-  - Não
-  - Apenas em alguns casos
-  - Depende da rede Bitcoin
+  - Eles podem ser usados várias vezes até se esgotarem
+  - Eles só são utilizáveis em certas transações específicas
+  - Eles representam pequenas quantias fixas de bitcoins
 explanation: |
-  Quando um canal é aberto, ele recebe uma capacidade fixa, que é definida
-  previamente pelos usuários.
-reviewed: false
+  Assim como uma cédula bancária, um UTXO deve ser gasto integralmente em uma transação, e qualquer excesso é retornado ao remetente como troco.

@@ -1,0 +1,13 @@
+question: Milline Chaumian CoinJoin protsessi samm hõlmab identiteedi muutmist Tor'is, et tagada anonüümsus?
+
+answer: Väljundite registreerimine.
+
+wrong_answers:
+  - Sisendite registreerimine.
+  - Tehingu allkirjastamine.
+  - Tehingu edastamine.
+
+explanation: |
+  Selleks, et takistada koordinaatoril konkreetse väljundi sidumist sisendiga, muudavad kasutajad enne oma selgetekstiliste vastuvõtu aadresside saatmist koordinaatorile oma Tor'i identiteeti.
+
+reviewed: false

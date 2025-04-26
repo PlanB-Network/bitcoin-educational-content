@@ -1,9 +1,9 @@
-question: Ý nghĩa của chi phí năng lượng trong việc đào Bitcoin là gì?
+question: Ý nghĩa của việc tiêu thụ năng lượng trong khai thác Bitcoin là gì?
 answer: Việc tiêu thụ năng lượng là cần thiết để tạo ra thông tin, nhưng việc xác minh thông tin có chi phí không đáng kể. Sự không đối xứng này đảm bảo an ninh cho mạng lưới.
 wrong_answers:
-  - Chi phí năng lượng là cần thiết để cung cấp năng lượng cho các máy ASIC được sử dụng trong việc đào.
-  - Chi phí năng lượng là cần thiết để duy trì mạng lưới Bitcoin.
-  - Chi phí năng lượng là cần thiết để tạo ra bitcoin mới.
+  - Chi phí năng lượng cần thiết để cung cấp năng lượng cho các máy ASIC được sử dụng trong khai thác, và việc xác minh thông tin có chi phí cao.
+  - Việc tiêu thụ năng lượng cần thiết để duy trì mạng lưới Bitcoin, và việc xác minh thông tin có chi phí biến đổi.
+  - Chi phí năng lượng không cần thiết để tạo ra bitcoin mới.
 explanation: >-
-  Chi phí năng lượng trong việc đào Bitcoin là một khía cạnh quan trọng của an ninh mạng. Chi phí năng lượng cao trong việc đào khiến việc can thiệp mạng bởi các tác nhân xấu trở nên cực kỳ đắt đỏ, trong khi chi phí thấp trong việc xác minh giao dịch đảm bảo rằng bất kỳ ai cũng có thể tham gia vào mạng lưới.
+  Chi phí năng lượng trong khai thác Bitcoin là một khía cạnh quan trọng của an ninh mạng. Chi phí năng lượng cao trong khai thác làm cho việc thao túng blockchain trở nên cực kỳ đắt đỏ đối với một kẻ xấu, trong khi chi phí thấp của việc xác minh giao dịch đảm bảo rằng bất kỳ ai cũng có thể tham gia vào mạng lưới.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è il problema di sicurezza che si verifica se lo stesso messaggio viene criptato più volte nel sistema crittografico RSA semplificato?
+answer: Il messaggio produrrà sempre la stessa criptazione
+wrong_answers:
+  - Il messaggio sarà vulnerabile ad attacchi di forza bruta
+  - Il messaggio verrà invertito
+  - Il messaggio diventerà impossibile da decifrare
+explanation: |
+  In un RSA semplificato, criptare un messaggio più volte produrrà sempre lo stesso risultato, rendendo la criptazione vulnerabile agli attacchi.
+reviewed: false

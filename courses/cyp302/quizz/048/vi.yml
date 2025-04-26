@@ -1,0 +1,9 @@
+question: Trong một nhóm tuần hoàn, thuật ngữ nào được dùng để chỉ một phần tử có thể tạo ra tất cả các phần tử khác thông qua phép lũy thừa?
+answer: Một sinh tử
+wrong_answers:
+  - Một nhân tử
+  - Một số nguyên tố cùng nhau
+  - Một nghịch đảo
+explanation: |
+  Một sinh tử là một phần tử trong nhóm tuần hoàn mà, thông qua phép lũy thừa, có thể tạo ra tất cả các phần tử khác của nhóm.
+reviewed: false

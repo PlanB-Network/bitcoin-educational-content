@@ -1,9 +1,0 @@
-question: Cos'è un indirizzo di ricezione Bitcoin?
-answer: È un hash di una chiave pubblica, con un formato specifico.
-wrong_answers:
-  - Un identificatore unico per un utente Bitcoin.
-  - La chiave pubblica di un utente Bitcoin.
-  - Uno script che blocca i bitcoin a una chiave pubblica.
-explanation: |
-  Un indirizzo di ricezione Bitcoin è un hash di una chiave pubblica, con un formato specifico. Viene utilizzato per ricevere fondi su una moneta ed è generato da coppie di chiavi private e pubbliche.
-reviewed: false

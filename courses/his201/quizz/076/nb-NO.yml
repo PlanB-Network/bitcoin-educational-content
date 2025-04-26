@@ -1,0 +1,8 @@
+question: Hvem innførte Bitcoin Improvement Proposals-systemet, en prosess rettet mot å koordinere forbedringen av Bitcoin, i september 2011?
+answer: Amir Taaki
+wrong_answers:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+explanation: |
+  Dette systemet var modellert etter Python Enhancement Proposals (PEP) spesifikt for programmeringsspråket Python.

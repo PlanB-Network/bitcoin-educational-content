@@ -1,0 +1,9 @@
+question: 整数Nが2つの素数pとqの積である場合、Nの位数はどのように計算されますか？
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  Nが2つの素数pとqの積である場合、Nの位数は(p - 1) * (q - 1)として計算されます。
+  レビュー済み: false

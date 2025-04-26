@@ -1,0 +1,9 @@
+question: Millist teenust, mis aktsepteeris Bitcoini, haldas Teppy, isik, kes tutvustas Bitcoini Slashdot'is 11. juulil 2010?
+answer: MMORPG A Tale in the Desert
+wrong_answers:
+  - VPN Mullvad
+  - VoIP teenus Link2VoIP
+  - Veebimajutusteenus Vekja.net
+explanation: |
+  See [algas](https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159) Bitcoini aktsepteerimist 19. mail.
+reviewed: false

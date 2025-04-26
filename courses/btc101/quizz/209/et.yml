@@ -1,0 +1,11 @@
+question: Millega on Bitcoin'i omaksvõtu kõver sarnane?
+answer: S-kõver
+wrong_answers:
+  - U-kõver
+  - V-kõver
+  - W-kõver
+explanation: >-
+  Bitcoin'i omaksvõtt, nagu iga uue tehnoloogia puhul, järgib S-kõverat.
+  See on uute tehnoloogiate omaksvõtu tavaline muster, kus omaksvõtt algab
+  aeglaselt, seejärel kiireneb enne kui aeglustub, kui küllastumispunkt on saavutatud.
+reviewed: false

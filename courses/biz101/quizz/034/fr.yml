@@ -1,0 +1,9 @@
+question: Quelle est la tendance observée parmi les participants qui exploitent des nœuds sur le réseau Lightning ?
+answer: Les opérateurs professionnels de nœuds fournissent de plus en plus de liquidités, tandis que les utilisateurs individuels se concentrent sur les nœuds "périphériques", ce qui modifie la composition du réseau.
+wrong_answers:
+  - Les amateurs individuels ont entièrement remplacé les opérateurs professionnels.
+  - Les grandes banques gèrent désormais de manière centralisée tous les nœuds Lightning.
+  - Le réseau a fermé les nœuds personnels pour n'autoriser que les grandes entreprises.
+explanation: |
+  On observe une évolution vers plus de liquidité et de stabilité fournies par des entités professionnelles, tandis que les utilisateurs quotidiens s'appuient sur des solutions simplifiées ou hébergées, ce qui rend le réseau plus robuste et plus accessible.
+reviewed: false

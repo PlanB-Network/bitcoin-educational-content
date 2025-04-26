@@ -1,0 +1,9 @@
+question: O que é um gerenciador de senhas?
+answer: Uma ferramenta que armazena, gera e gerencia senhas.
+wrong_answers:
+  - Um software antivírus contra ataques de hackers.
+  - Um serviço de e-mail seguro.
+  - Uma ferramenta de backup de dados de identidade pessoal.
+explanation: |
+  O gerenciador de senhas centraliza o armazenamento e a criação de senhas.
+reviewed: false

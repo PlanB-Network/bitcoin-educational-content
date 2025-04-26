@@ -1,9 +1,9 @@
-question: ¿Es una frase de contraseña más segura que una contraseña simple?
-answer: Sí
+question: ¿Cuál es la principal diferencia entre P2PK y P2PKH?
+answer: P2PK utiliza directamente la clave pública cruda, mientras que P2PKH usa el hash de la clave pública.
 wrong_answers:
-  - "No"
-  - Depende de la longitud de la contraseña
-  - Depende de la complejidad de la contraseña
+  - P2PK es compatible con SegWit, mientras que P2PKH no lo es.
+  - P2PK utiliza una firma Schnorr, mientras que P2PKH utiliza una firma ECDSA.
+  - P2PK está destinado para multisigs, mientras que P2PKH es para scripts simples.
 explanation: |
-  Una frase de contraseña es más segura que una contraseña simple. La frase de contraseña ideal es larga, variada y aleatoria. Puede mejorar la seguridad de una billetera o software en caliente.
+  P2PK bloquea los fondos con una clave pública cruda, mientras que P2PKH utiliza un hash de la clave pública.
 reviewed: false

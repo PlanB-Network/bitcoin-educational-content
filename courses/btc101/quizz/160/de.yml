@@ -1,9 +1,12 @@
 question: Was passiert bei einem 51%-Angriff auf das Bitcoin-Netzwerk?
-answer: Ein Akteur besitzt mehr als die Hälfte der Hashrate und kann versuchen, die Blockchain zu ändern.
+answer: Ein Akteur besitzt mehr als die Hälfte der Hashrate und kann versuchen, die Blockchain zu modifizieren.
 wrong_answers:
   - Ein Akteur erlangt die Kontrolle über mehr als die Hälfte der im Umlauf befindlichen Bitcoins.
   - Ein Akteur erlangt die Kontrolle über mehr als die Hälfte der Knoten im Bitcoin-Netzwerk.
   - Ein Akteur erlangt die Kontrolle über mehr als die Hälfte der Mining-Pools im Bitcoin-Netzwerk.
 explanation: |
-  Bei einem 51%-Angriff könnte ein Akteur mit mehr als der Hälfte der Hashrate des Netzwerks potenziell die Blockchain manipulieren, indem er eine alternative Kette von Blöcken erstellt. Ein solcher Angriff wäre jedoch äußerst kostspielig und unwahrscheinlich profitabel, wodurch er ein unwahrscheinliches Szenario darstellt.
-reviewed: false
+  Bei einem 51%-Angriff könnte ein Akteur mit mehr als der Hälfte der
+  Netzwerk-Hashrate potenziell die Blockchain manipulieren, indem er eine alternative Kette von Blöcken erstellt.
+  Ein solcher Angriff wäre jedoch extrem kostspielig und
+  unwahrscheinlich profitabel, was es zu einem unwahrscheinlichen Szenario macht.
+reviewed: true

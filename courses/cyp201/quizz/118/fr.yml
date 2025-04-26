@@ -1,9 +1,0 @@
-question: Est-il possible de passer d'une adresse Bitcoin à la clé publique, ou de la clé publique à la clé privée ?
-answer: Non
-wrong_answers:
-  - Oui
-  - Seulement de la clé publique à la clé privée
-  - Seulement de l'adresse à la clé publique
-explanation: |
-  Dans Bitcoin, il n'est pas possible de passer d'une adresse à la clé publique, ni de la clé publique à la clé privée. C'est un aspect clé de la sécurité cryptographique de Bitcoin.
-reviewed: false

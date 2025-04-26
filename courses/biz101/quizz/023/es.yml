@@ -1,0 +1,9 @@
+question: ¿Cuál de los siguientes NO es uno de los tres métodos principales mencionados para adquirir Bitcoin?
+answer: Recibir Bitcoin como subvención gubernamental para el desarrollo empresarial.
+wrong_answers:
+  - Obtención de Bitcoin a cambio de bienes o servicios.
+  - Minado de Bitcoin mediante hardware especializado y uso de energía.
+  - Compra de Bitcoin a una plataforma o broker.
+explanation: |
+  El capítulo menciona tres formas principales de adquirir Bitcoin: aceptarlo como pago, minarlo o comprarlo. Recibir Bitcoin como una subvención del gobierno no es un método de adquisición estándar reconocido.
+reviewed: false

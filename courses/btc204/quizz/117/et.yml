@@ -1,0 +1,11 @@
+question: Mitu järjestikust tehingut teeb klassikaline rikošett tavaliselt?
+
+answer: 5
+
+wrong_answers:
+  - 2
+  - 8
+  - 14
+
+explanation: |
+  Rikošeti meetod hõlmab tavaliselt nelja tehingu tegemist iseendale ja viimase tehingu sooritamist vahendite saatmiseks lõplikule saajale.

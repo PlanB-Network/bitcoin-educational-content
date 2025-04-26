@@ -1,9 +1,9 @@
-question: Was ist einer der Gründe, warum die Verwendung von Bitcoin auf Darknet-Marktplätze wie Silk Road ausgeweitet wurde?
+question: Welche der folgenden Eigenschaften trug zur Ausweitung der Nutzung von Bitcoin in Dark-Web-Marktplätzen wie Silk Road bei?
 answer: Seine unkontrollierbare und pseudonyme Natur.
 wrong_answers:
-  - Seine zentrale Kontrolle.
-  - Seine Rückverfolgbarkeit.
+  - Seine zentralisierte Kontrolle.
+  - Seine Nachverfolgbarkeit und kontrollierbare Natur.
   - Sein Mangel an Pseudonymität.
-explanation: |
-  Die Verwendung von Bitcoin hat sich auf Darknet-Marktplätze wie Silk Road ausgeweitet, aufgrund seiner unkontrollierbaren und pseudonymen Natur.
-reviewed: false
+explanation: >-
+  Die Nutzung von Bitcoin in Dark-Web-Marktplätzen wie Silk Road nahm aufgrund seiner unkontrollierbaren und pseudonymen Natur zu.
+reviewed: true

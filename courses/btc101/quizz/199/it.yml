@@ -1,9 +1,13 @@
-question: Cos'è il Dollar Cost Average?
+question: Cos'è il Piano di Accumulo Costante (PAC o Dollar Cost Average)?
 answer: Acquistare piccole quantità di Bitcoin a intervalli regolari.
 wrong_answers:
   - Acquistare una grande quantità di Bitcoin in una sola volta.
   - Acquistare Bitcoin solo quando il prezzo scende.
   - Acquistare Bitcoin solo quando il prezzo sale.
 explanation: |
-  Il testo spiega che il Dollar Cost Average consiste nell'acquistare piccole quantità di Bitcoin a intervalli regolari. Questo metodo permette di livellare il prezzo nel tempo e garantisce una crescita continua della quantità di Bitcoin posseduta.
-reviewed: false
+  Il testo del corso spiega che la tecnica del Piano di Accumulo Costante
+  implica l'acquisto di piccole quantità di Bitcoin a
+  intervalli regolari. Questo metodo mitiga le fluttuazioni di prezzo
+  nel tempo e garantisce una crescita continua nella
+  quantità di Bitcoin posseduti.
+reviewed: true

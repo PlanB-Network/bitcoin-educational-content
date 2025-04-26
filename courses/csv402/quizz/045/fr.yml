@@ -1,0 +1,9 @@
+question: Quel standard RGB est utilisé pour définir des jetons fongibles ?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 est le standard utilisé pour la création et la gestion de jetons fongibles sur le protocole RGB.
+reviewed: false

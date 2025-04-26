@@ -1,7 +1,0 @@
-description: |
-  Electrum es una billetera de Bitcoin versátil que prioriza la seguridad y flexibilidad del usuario. 
-  
-  Admite múltiples plataformas, incluyendo móvil, escritorio e interfaces de línea de comando. Sus claves privadas están encriptadas y se mantienen en su dispositivo, asegurando que nunca se expongan. Además, Electrum utiliza una frase secreta para permitir la recuperación de fondos y proporciona acceso rápido a la cadena de bloques de Bitcoin a través de su red de servidores. Admite almacenamiento en frío "offline" para mantener seguras sus claves privadas y ofrece capacidades de multisig para dividir los permisos de gasto de monedas. Electrum también verifica todas las transacciones en su historial utilizando la Verificación Simplificada de Pagos (SPV) y permite integraciones de complementos de terceros, como servicios de multisig y billeteras de hardware.
-contributors:
-  - rabbit-hole
-  - another-satoshi

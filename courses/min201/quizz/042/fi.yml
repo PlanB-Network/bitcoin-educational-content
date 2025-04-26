@@ -3,9 +3,9 @@ answer: Se voi johtaa merkittävään laskuun Bitcoinin hashratessa ja hinnassa
 wrong_answers:
   - Se voi johtaa Bitcoinin hinnan nousuun
   - Se voi johtaa verkon hashraten nousuun
-  - Se voi johtaa aktiivisten solmujen määrän lisääntymiseen verkossa
+  - Se voi johtaa aktiivisten solmujen määrän kasvuun verkossa
 explanation: |
-  Kaivostoiminnan kieltäminen alueella, kuten tapahtui Kiinassa, voi johtaa
-  merkittävään laskuun Bitcoinin hashratessa ja hinnassa. Nämä voivat kuitenkin nopeasti
-  palautua.
-reviewed: false
+  Kaivostoiminnan kieltäminen alueella, kuten Kiinassa tapahtui,
+  voi johtaa merkittävään laskuun Bitcoinin hashratessa ja hinnassa.
+  Nämä voivat kuitenkin nopeasti palautua.
+reviewed: true

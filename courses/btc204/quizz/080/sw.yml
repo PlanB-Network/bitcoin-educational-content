@@ -1,0 +1,10 @@
+question: Je, jukumu la mratibu wa CoinJoin ni lipi?
+answer: Unganisha washiriki na uunde muamala.
+wrong_answers:
+  - Simba data ya mshiriki kwa usiri wa muamala.
+  - Weka rekodi ya sarafu zilizotangulia kwa ukaguzi wa usalama.
+  - Pokea bitcoins kutoka kwa washiriki ili kuzichanganya.
+explanation: |
+  Jukumu la waratibu ni kuunganisha watumiaji tofauti na kuunda na kisha kutangaza shughuli shirikishi.
+  
+reviewed: false

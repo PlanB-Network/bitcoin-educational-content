@@ -5,8 +5,10 @@ wrong_answers:
   - Nevyžadují žádné další ověřovací faktory.
   - Mohou být použity na všech webových stránkách bez jakýchkoli aktualizací.
 explanation: |
-  Passkeys nabízejí šifrované náhodné klíče, kombinované s lokálním faktorem (biometrie
-  nebo PIN), které jsou hostovány poskytovatelem, ale zůstávají mimo jejich dosah. Tento přístup
-  eliminuje potřebu hesel, čímž poskytuje vysokou úroveň bezpečnosti bez
-  omezení spojených s tradičními hesly.
-reviewed: false
+  Passkeys nabízejí šifrované náhodné klíče, kombinované s lokálním
+  faktorem (biometrie nebo PIN), které jsou hostovány poskytovatelem,
+  ale zůstávají mimo jejich dosah. Tento přístup eliminuje
+  potřebu hesel, čímž poskytuje vysokou úroveň bezpečnosti
+  bez omezení spojených s tradičními
+  hesly.
+reviewed: true

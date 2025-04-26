@@ -1,9 +1,0 @@
-question: Lightning Networkで取引手数料を支払うのは誰ですか？
-answer: 支払いを送る側。
-wrong_answers:
-  - 支払いを受ける側。
-  - 仲介者。
-  - ネットワーク自体。
-explanation: |
-  Lightning Networkでは、支払いを送る側が取引手数料を支払います。これらの手数料は、取引をルーティングするために使用されるノードによって請求されます。
-reviewed: false

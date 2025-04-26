@@ -1,0 +1,9 @@
+question: Quando ha avuto luogo il primo scambio tra bitcoin e dollaro?
+answer: 12 ottobre 2009
+wrong_answers:
+  - 8 maggio 2009
+  - 30 dicembre 2009
+  - 11 marzo 2010
+explanation: |
+  Martti ha trasferito 5.050 bitcoin a NLS, che poi ha trasferito $5.02 al suo conto PayPal. Questo corrispondeva a un prezzo unitario di circa $0.001.
+reviewed: false

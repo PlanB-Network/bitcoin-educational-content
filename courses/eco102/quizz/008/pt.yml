@@ -1,0 +1,9 @@
+question: Onde Frédéric Bastiat se sentava na Assembleia Nacional?
+answer: No centro-esquerda com Alexis de Tocqueville
+wrong_answers:
+  - À esquerda com os socialistas
+  - À direita com os monarquistas
+  - No centro-direita com os liberais conservadores
+explanation: |
+  Bastiat se sentava no centro-esquerda com Tocqueville, onde defendia as liberdades individuais.
+reviewed: false

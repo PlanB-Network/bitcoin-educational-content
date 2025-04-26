@@ -1,0 +1,9 @@
+question: Hvilken RGB-kontraktsoperasjon skaper en ny tilstand uten å lukke en forsegling?
+answer: State Extension
+wrong_answers:
+  - Overgang mellom tilstander
+  - Genesis
+  - Valensaktivering
+explanation: |
+  Med State Extension kan du opprette en ny stat eller nye rettigheter (Valencies), uten at forseglingen umiddelbart blir lukket.
+reviewed: false

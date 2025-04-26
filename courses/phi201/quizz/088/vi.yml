@@ -1,0 +1,9 @@
+question: Mối quan hệ giữa tự do chính trị và tự do kinh tế theo Constant là gì?
+answer: Hai tự do này là tương hỗ.
+wrong_answers:
+  - Tự do chính trị là điều kiện tiên quyết cần thiết cho tự do kinh tế.
+  - Tự do kinh tế là điều kiện tiên quyết cần thiết cho tự do chính trị.
+  - Hai tự do này không tương thích với nhau.
+explanation: |
+  Đối với Benjamin Constant, tự do chính trị và tự do kinh tế có mối liên kết chặt chẽ, vì quyền tự chủ cá nhân phụ thuộc vào khả năng tham gia vào công việc công cộng cũng như tự do thực hiện các hoạt động kinh tế mà không bị cản trở.
+reviewed: false

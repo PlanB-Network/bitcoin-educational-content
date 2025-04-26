@@ -1,12 +1,13 @@
 question: What is the recommended use of a multisig wallet?
-answer: For large amounts for corporate use
+answer: Storing large amounts for corporate use.
 wrong_answers:
-  - For small amounts for personal use
-  - For medium amounts for non-profit use
-  - For daily expenses for individual use
+  - Storing small amounts for personal use.
+  - Storing medium amounts for non-profit use.
+  - Storing daily expenses for individual use.
 explanation: |
-  A multisig wallet is recommended for large amounts and corporate use
-  because it requires multiple signatures to perform a transaction. This adds an extra
-  layer of security, as it means that a single person cannot perform a transaction
-  without the approval of others.
+  A multisig wallet is recommended for storing large amounts
+  and for corporate usage because it requires multiple
+  signatures to perform a transaction. This process adds an
+  extra layer of security, because a single person cannot
+  conduct a transaction without the approval of others.
 reviewed: true

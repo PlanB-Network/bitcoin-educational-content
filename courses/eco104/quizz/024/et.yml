@@ -1,0 +1,11 @@
+question: Mis on poolitamine Bitcoin'i kontekstis?
+answer: Funktsioon Bitcoin'i koodis, mis vähendab kaevandamise tasu iga nelja aasta tagant poole võrra
+wrong_answers:
+  - Protsess, mis suurendab Bitcoin'i globaalset omaksvõttu
+  - Meehanism, mis hoiab ära Bitcoin'i väärtuse kokkuvarisemise
+  - Termin, mida kasutatakse sündmuse kirjeldamiseks, kui Bitcoin'i hind taevasse tõuseb
+explanation: |
+  Poolitamine on funktsioon Bitcoin'i koodis, mis vähendab kaevandamise 
+  tasu umbes iga nelja aasta tagant poole võrra. See sündmus mõjutab 
+  kaevurite tulusid ja avaldab ülespoole survet Bitcoin'i hinnale.
+reviewed: true

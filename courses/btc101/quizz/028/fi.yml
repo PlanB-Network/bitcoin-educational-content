@@ -1,10 +1,12 @@
-question: Mikä on valuutan kehityskaari?
+question: Mikä on nykypäivän valuutan kehityspolku?
 answer: Raakakivi -> Kolikko -> Seteli -> Pankkikortti -> Lohkoketju -> Salamaverkko
 wrong_answers:
   - Raakakivi -> Kolikko -> Seteli -> Lohkoketju -> Salamaverkko
   - Raakakivi -> Kolikko -> Seteli -> Pankkikortti -> Salamaverkko
-  - Raakakivi -> Kolikko -> Seteli -> Pankkikortti -> Lohkoketju
+  - Raakakivi -> Kolikko -> Pankkikortti -> Seteli -> Lohkoketju -> Salamaverkko
 explanation: |
-  Valuutta, kuten mikä tahansa teknologia, on kehittynyt raakakivestä
-  metalliseen kolikkoon, siitä seteliin, pankkikorttiin ja lopulta vertaisverkkoihin Bitcoinin lohkoketjun ja Salamaverkon myötä.
-reviewed: false
+  Valuutta on teknologia, joka on kehittynyt ajan myötä,
+  alkaen raakakivien edustamasta arvosta, muuttuen metallisiksi kolikoiksi,
+  sitten seteleiksi, pankkikorteiksi ja lopulta vertaisverkkoihin
+  Bitcoin-lohkoketjun ja Salamaverkon käytön myötä.
+reviewed: true

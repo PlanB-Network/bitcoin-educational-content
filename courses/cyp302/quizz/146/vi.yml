@@ -1,0 +1,9 @@
+question: Điều kiện để một số nguyên a có nghịch đảo modulo N là gì?
+answer: a và N phải là hai số nguyên tố cùng nhau
+wrong_answers:
+  - N phải là số chẵn
+  - a phải là số lẻ
+  - a phải là số nguyên tố
+explanation: |
+  Một số nguyên a có nghịch đảo modulo N khi và chỉ khi chúng là hai số nguyên tố cùng nhau, nghĩa là ước chung lớn nhất của chúng là 1.
+reviewed: false

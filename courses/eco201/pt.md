@@ -16,28 +16,39 @@ Essa escola de pensamento já tem vários séculos de história e conta com uma 
 
 +++
 
-# Introdução à ECON
+# Introdução
+
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Introdução
+## Visão Geral do Curso
+
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Olá a todos e bem-vindos ao Econ 201: Introdução à Economia Austríaca.
+Bem-vindo ao curso ECO201!
 
-Neste curso oferecido por Théo Mogenet, você descobrirá essa vertente da economia que difere bastante da doutrina keynesiana. Até agora, você pode ter aprendido que a produção e a gestão do dinheiro eram responsabilidade dos bancos centrais, com a ideia de que a impressão e o gasto monetário promovem o crescimento. No entanto, existe outra escola de pensamento econômico: a economia austríaca. Com mais de 200 anos de pesquisa e desenvolvimento, reflexões filosóficas e escritos de autores renomados, essa abordagem enfatiza uma visão mais sóbria do crescimento e da racionalidade humana em nossa economia.
+Neste curso, apresentado por Théo Mogenet, você descobrirá uma escola de pensamento econômico que se diferencia fundamentalmente da doutrina keynesiana predominante. Até agora, você pode ter aprendido que a gestão da moeda e a política econômica são principalmente responsabilidades dos bancos centrais, com a ideia de que a impressão de dinheiro e os gastos públicos estimulam o crescimento econômico. No entanto, existe uma abordagem alternativa mais coerente: **A Escola Austríaca de Economia**.
 
-Na realidade, a economia é um campo extremamente social e complexo, composto por uma infinidade de pequenos atores interconectados que, juntos, contribuem para formar um todo coerente. Em vez de abordar essa disciplina por meio de equações matemáticas, devemos entendê-la a partir da perspectiva da lógica humana e da sociologia. Neste curso, exploraremos os conceitos fundamentais da economia austríaca. Seu instrutor, Théo Mogenet, é um professor apaixonado e competente de economia austríaca.
+Com mais de dois séculos de pesquisa, reflexões filosóficas e escritos de autores renomados como Carl Menger, Ludwig von Mises e Friedrich Hayek, esta escola de pensamento adota uma perspectiva diferente, favorecendo uma visão descentralizada da economia, baseada no indivíduo e na racionalidade humana.
 
-Para começar, oferecemos a você um vídeo bônus que explicará como funciona nosso sistema financeiro atual. Você descobrirá como os bancos comerciais e os bancos centrais interagem e impulsionam a economia. Abordaremos os principais atores do nosso mundo financeiro e como essa centralização de poder entre certas instituições econômicas pode levar a abusos e crises financeiras.
+A economia é, na realidade, um campo profundamente social e complexo, composto por diversos atores independentes que interagem livremente para formar um todo coerente. Para entender esse sistema dinâmico, a Escola Austríaca privilegia a análise qualitativa, baseada na lógica humana, na sociologia e no estudo dos processos de mercado, ao invés de equações matemáticas rígidas.
 
-Na segunda parte deste curso, examinaremos a diferença entre o Keynesianismo e a economia austríaca, explorando suas respectivas escolas de pensamento, métodos de reflexão e ferramentas que utilizam para estabelecer a verdade econômica. Também estudaremos a formação das crises econômicas. Elas são causadas pela incompetência humana, manipulação de mercado ou euforia coletiva das pessoas? Exploraremos como nossos ciclos de crescimento, declínio, recessão e idade de ouro são criados pelas emoções humanas.
+Neste curso, você explorará os princípios fundamentais dessa escola de pensamento. Théo Mogenet, seu instrutor, é um entusiasta dessa abordagem econômica e o guiará pedagogicamente pelos conceitos-chave da Escola Austríaca, mostrando como essas ideias se aplicam particularmente bem ao mundo do Bitcoin.
 
-Este curso será uma combinação de economia e filosofia, com uma discussão aberta entre Théo e eu. Se você tiver alguma dúvida durante este curso, não hesite em fazê-la em nosso Discord, cujo link você encontrará na descrição.
+**Seção 1: Introdução à ECON**  
+Começaremos com uma introdução geral à Escola Austríaca de Economia, explorando suas origens históricas e os fundamentos de seu pensamento. Esta seção também aborda conceitos essenciais como dinheiro, crédito, bancos e bancos centrais. Você entenderá por que essas instituições desempenham um papel central no pensamento austríaco, especialmente em sua crítica às intervenções monetárias.
 
-Agradeço calorosamente a Théo por produzir este curso e espero que ele seja um excelente professor para você. Nos divertimos muito criando este conteúdo. Este curso é acessível a todos e será, eu acredito, essencial para acompanhar nossos futuros cursos mais aprofundados sobre economia. Este curso estabelecerá as bases necessárias para explorar certas teorias econômicas com mais detalhes, que abordaremos apenas brevemente aqui.
-Se você está pronto para embarcar nessa aventura, convido você a clicar no seguinte vídeo e começar com o vídeo bônus sobre nosso sistema financeiro atual. Agora, dou a palavra ao Théo. Agradeço a ele por colaborar com o Descoupes Bitcoin na realização deste vídeo. Até breve. Adeus!
+**Seção 2: Fundamentos Teóricos**  
+Esta seção aprofundará os conceitos fundamentais da Escola Austríaca, como a teoria subjetiva do valor, que explica por que o valor de um bem não é objetivo, mas depende da utilidade percebida por cada indivíduo. Você também descobrirá como o dinheiro surge naturalmente como um fenômeno social, além dos conceitos de preferência temporal, juros e capital que estão no centro da teoria de livre mercado austríaca.
+
+**Seção 3: Perspectivas Econômicas Austríacas**  
+Aqui, exploraremos as aplicações práticas da teoria austríaca. Você aprenderá em detalhes sobre a Teoria Austríaca do Ciclo Econômico, que explica como as manipulações monetárias criam booms artificiais seguidos de recessões. Também veremos por que o cálculo econômico é impossível em um sistema socialista e como a metodologia austríaca, baseada na praxeologia (o estudo da ação humana), constitui uma abordagem única e coerente para compreender os fenômenos econômicos.
+
+Este curso é uma fusão entre economia e filosofia, conduzido por uma discussão aberta entre Théo e eu (Rogzy). Gostaria de agradecer calorosamente a Théo Mogenet pela criação deste curso. Tivemos muito prazer em desenvolver este conteúdo, que foi projetado para ser acessível a todos. Este curso constitui uma introdução essencial e lançará as bases para nossos futuros módulos mais avançados sobre economia.
+
+E se a chave para entender a economia atual estiver em uma teoria de vários séculos? Vamos descobrir juntos!
 
 ## Dinheiro, Crédito, Bancos e Bancos Centrais
+
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 > "O problema fundamental com a moeda convencional é toda a confiança necessária para fazê-la funcionar. O banco central deve ser confiável para não desvalorizar a moeda, mas a história das moedas fiduciárias está cheia de violações dessa confiança. Os bancos devem ser confiáveis para guardar nosso dinheiro e transferi-lo eletronicamente, mas eles emprestam em ondas de bolhas de crédito com apenas uma fração em reserva. Temos que confiar neles com nossa privacidade, confiar neles para não deixar ladrões de identidade esvaziarem nossas contas."
@@ -54,7 +65,7 @@ Quando uma instituição financeira possui uma licença bancária, isso signific
 
 Ao comprar a casa, você instrui seu banqueiro a transferir dinheiro para a conta do vendedor. Se a conta do vendedor estiver em um banco diferente, seu banqueiro notifica o banqueiro correspondente na outra instituição para garantir que a conta do vendedor seja creditada adequadamente, enquanto debita sua conta pelo valor correspondente.
 
-![imagem](assets/Image/1.webp)
+![imagem](assets/en/01.webp)
 
 Figura 1: Criação de Dinheiro como Entradas Contábeis
 
@@ -72,7 +83,7 @@ Esse dilema deu origem aos bancos centrais modernos. No século XIX, na Inglater
 
 Além de manter a estabilidade financeira, os bancos centrais são responsáveis por definir as taxas de juros-chave. Essas taxas determinam o custo pelo qual os bancos licenciados podem tomar empréstimos do banco central, essencialmente definindo o custo da liquidez para as instituições financeiras que desempenham um papel crucial no empréstimo em nossas economias. Portanto, essas taxas servem como referência para todo o sistema financeiro. Como indivíduo, as taxas de juros que você paga em sua hipoteca podem ser divididas em taxa de política e margem do banco.
 
-![image](assets/Image/2.webp)
+![image](assets/en/02.webp)
 
 Figure2: Lehman Borthers’ Bankruptcy (15/09/2008)
 
@@ -80,7 +91,7 @@ Durante a grande crise financeira de 2008, o Lehman Brothers, um grande banco de
 
 Embora essas medidas tenham evitado uma onda em cascata de falências, elas pouco fizeram para aliviar a subsequente desaceleração econômica. Milhões perderam seus empregos e casas, os gastos do consumidor despencaram, as empresas faliram e os bancos incorreram em perdas substanciais. Apesar das taxas de juros historicamente baixas, poucos estavam dispostos a tomar empréstimos, resultando em um ciclo vicioso em que a diminuição inicial nos gastos e investimentos se reforçava. Consequentemente, os banqueiros centrais tomaram medidas adicionais implementando programas de Flexibilização Quantitativa (QE). Esses programas envolviam os bancos centrais comprando títulos do governo e títulos lastreados em hipotecas de bancos comerciais com reservas do banco central.
 
-![image](assets/Image/3.webp)
+![image](assets/en/03.webp)
 
 Figure3 : Interest Rates Across Major Economies / Source: ECB
 
@@ -90,7 +101,7 @@ Ao contrário das expectativas de muitos, os programas de QE não reviveram sign
 
 No entanto, um princípio econômico essencial pode ser extraído desse episódio: quando novo dinheiro é criado, ele beneficia inicialmente aqueles mais próximos à fonte do dinheiro, em detrimento daqueles mais distantes. Essa percepção econômica remonta ao século XVIII, quando Richard Cantillon a descreveu em seu "Ensaio sobre a Natureza do Comércio em Geral". Agora é conhecido coloquialmente como "Efeito Cantillon".
 
-![image](assets/Image/4.webp)
+![image](assets/en/04.webp)
 
 Figura 4: Efeito Cantillon em poucas palavras / Fonte: River Financial
 
@@ -98,7 +109,7 @@ Neste caso, banqueiros, executivos bancários, proprietários de ações e títu
 
 Em essência, o sistema está distorcido. Os bancos são intrinsecamente instáveis, mas sua falência pode colocar em risco toda a economia. Esse risco moral incentiva os executivos bancários a assumir riscos excessivos para maximizar a receita de seus bancos, sabendo que o banco central acabará por resgatá-los, transferindo o custo para os contribuintes. Em tais cenários, os banqueiros centrais criam condições para uma transferência maciça de poder de compra de trabalhadores e poupadores para proprietários de ativos e aqueles conectados ao sistema financeiro, desconectando assim o processo de criação de riqueza da acumulação de riqueza.
 
-![image](assets/Image/5.webp)
+![image](assets/en/05.webp)
 
 Figura 5: Distribuição de riqueza na China + Europa + EUA / Fonte: OECD
 
@@ -108,7 +119,7 @@ Durante períodos prolongados de Políticas de Taxa de Juros Zero (ZIRP), os ban
 
 Outra consequência não intencional da ZIRP é que ela incentiva os governos a se envolverem em gastos extensivos. Como os governos não enfrentam custos de empréstimos e podem contar com os bancos centrais para comprar seus títulos por meio de programas de QE, eles têm um incentivo natural para gastar o máximo possível, especialmente em contextos democráticos onde os gastos podem garantir votos. Essa tendência muitas vezes ignora as consequências de longo prazo dessa prodigalidade fiscal, levando a um aumento significativo nos níveis de dívida pública nas economias desenvolvidas desde a Crise Financeira Global (GFC).
 
-![image](assets/Image/6.webp)
+![image](assets/en/06.webp)
 
 Figura 6: Dívida Pública e Privada como % do PIB (Mundo, ponderado pelo PIB por país) / Fonte: FMI
 
@@ -125,9 +136,11 @@ Para alcançar esse objetivo, explicaremos os princípios fundamentais da "Econo
 No próximo capítulo, aprofundaremos a pedra fundamental de qualquer escola de pensamento econômico: a teoria do valor. Os capítulos subsequentes explorarão o dinheiro como uma instituição social, a teoria do capital e do ciclo de negócios, o desafio do cálculo econômico e uma breve visão geral da história e metodologia da Escola Austríaca de Economia.
 
 # Fundamentos Teóricos
+
 <partId>86012c1b-cdf2-586f-8fe7-263f8287e950</partId>
 
 ## A Teoria Subjetiva do Valor
+
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 > "O valor só existe dentro da consciência humana"
@@ -142,7 +155,7 @@ Essas questões têm ocupado economistas e filósofos por muitos séculos e rece
 
 Depois que a teoria do valor da terra dos fisiocratas, que postulava que todo valor vem da terra, foi refutada pela teoria do valor do trabalho dos economistas clássicos, que postulava que o valor de um bem decorre da quantidade de trabalho envolvida em sua produção, foi a vez da teoria marginal do valor suplantar esta última. Na década de 1870, seguindo Marx, o último dos economistas clássicos, três novas escolas de pensamento econômico surgiram quase simultaneamente em torno de uma teoria marginal do valor: a escola de Lausanne com Léon Walras, a escola moderna ou neoclássica com William Stanley Jevons e a escola austríaca com Carl Menger. Essa revolução na teoria do valor constituiu uma renovação significativa do pensamento econômico.
 
-![imagem](assets/Image/7.webp)
+![imagem](assets/en/07.webp)
 
 Da esquerda para a direita: William Stanley Jevons, Carl Menger, Léon Walras
 
@@ -152,7 +165,7 @@ A teoria marginal do valor sustenta que o valor econômico corresponde ao que um
 
 ### Valor Subjetivo
 
-![imagem](assets/Image/15.webp)
+![imagem](assets/en/08.webp)
 O economista austríaco refuta a concepção dos sucessores de Adam Smith e abandona a ideia de que o valor de um bem vem da quantidade de trabalho utilizada em sua produção, em favor da noção de que seu valor é determinado pelo indivíduo, que, em cada contexto, realiza um ato mental de valoração em relação a uma quantidade específica de um bem ou serviço. Esse salto intelectual feito por Menger desafia a objetividade do valor: para ele, o valor não é uma propriedade objetiva dos bens; é apenas o resultado da relação que o indivíduo tem com aquela coisa: "o valor não existe fora da consciência humana".
 Em outras palavras, Menger nos convida a considerar que o valor existe apenas como um fenômeno psicológico subjetivo dentro do indivíduo, que o valor não é uma propriedade inerente dos bens, mas sim decorre da opinião do indivíduo sobre a utilidade que pode obter desses bens.
 
@@ -174,7 +187,7 @@ Essa concepção subjetiva de valor, entendida como uma relação psicológica q
 
 ### A Divisão do Trabalho
 
-![image](assets/Image/16.webp)
+![image](assets/en/09.webp)
 
 Visita a uma Fábrica de Pregos, Léonard Defrance (século XVIII)
 Cada pessoa é única e possui uma situação pessoal particular. Portanto, cada um possui uma habilidade superior para realizar certas tarefas em relação aos seus pares (vantagem absoluta) ou uma habilidade superior para realizar certas tarefas em relação aos outros (vantagem comparativa). Não pode ser de outra forma; negar esse fato elementar seria afirmar que todos os seres humanos são iguais em todos os aspectos.
@@ -207,6 +220,7 @@ Baseando-se nos insights do valor ordinal subjetivo, Menger explicou o surgiment
 Os próximos capítulos serão dedicados ao surgimento do dinheiro como um fenômeno social, à teoria do capital e dos juros, que servirá de base para a Teoria do Ciclo de Negócios, e por último, ao papel dos preços para o cálculo econômico.
 
 ## O Surgimento do Dinheiro como um Fenômeno Social
+
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
 Embora os indivíduos tenham um interesse comum na especialização e na maximização da divisão do trabalho, ainda existem problemas de coordenação que limitam essa expansão.
@@ -225,17 +239,17 @@ Originalmente, o dilema do prisioneiro foi formulado da seguinte forma: Dois sus
 
 Esses resultados podem ser representados em uma matriz (os resultados numéricos indicam o número de anos de prisão):
 
-| Alice / Bob       | Acusar      | Permanecer em Silêncio |
-| ----------------- | ----------- | --------------------- |
-| **Acusar**        | 2, 2        | 0, 3                  |
-| **Permanecer em Silêncio** | 3, 0        | 1, 1                  |
+| Alice / Bob                | Acusar | Permanecer em Silêncio |
+| -------------------------- | ------ | ---------------------- |
+| **Acusar**                 | 2, 2   | 0, 3                   |
+| **Permanecer em Silêncio** | 3, 0   | 1, 1                   |
 
 Neste jogo, não há oportunidade para coordenação (a comunicação é impossível) para alcançar o melhor resultado para ambas as partes. Consequentemente, Alice e Bob têm um incentivo individual para acusar um ao outro, mesmo que isso não leve ao resultado ótimo para o grupo. A estratégia ótima para ambos é permanecer em silêncio, cada um recebendo uma sentença de 1 ano.
 Este jogo ilustra um problema frequentemente encontrado na vida real: na ausência de mecanismos de coordenação, os indivíduos tendem a escolher estratégias que maximizam seu ganho individual, independentemente das estratégias escolhidas pelos outros (roubo, trapaça, traição, violência, etc.), mesmo quando um equilíbrio mais desejável por meio de coordenação/colaboração é possível.
 
 ### Dinheiro para Resolver Problemas de Coordenação
 
-![image](assets/Image/17.webp)
+![image](assets/en/10.webp)
 
 Esse problema tem menos impacto em comunidades pequenas (por exemplo, família, círculos de amigos) porque, nesses casos, todos se conhecem diretamente, tornando possível lembrar as contribuições de cada um. Supondo que deixar a comunidade (deserção) incorra em um custo, um sistema de reputação baseado na memória dos agentes individuais geralmente é suficiente para evitar as armadilhas apresentadas pelo dilema do prisioneiro.
 
@@ -245,7 +259,7 @@ Primeiro, os seres humanos são limitados por suas capacidades cognitivas. É im
 
 Segundo, a medição socialmente aceita do valor das contribuições em troca (comensurabilidade) é um problema não trivial. Por exemplo, se um indivíduo fornece carne de caça e solicita materiais para abrigo em troca, como o valor da carne oferecida pode ser avaliado em termos equivalentes aos materiais solicitados? O mesmo vale para a qualidade - a carne de veado vale mais ou menos do que a madeira?
 
-Mesmo que fosse possível estabelecer uma taxa de câmbio satisfatória para cada par de bens, manter essas informações rapidamente se torna impraticável. Em um sistema de troca direta envolvendo N bens, há N(N-1)/2 taxas de câmbio para lembrar. Para uma economia de 50 bens, isso significa lembrar de 50*49/2, ou 1225 taxas de câmbio, em comparação com apenas 50 em trocas indiretas. Para uma economia de 100 bens, esse número aumenta para 4950. Essa relação quadrática impõe um limite adicional à escalabilidade da troca direta (troca por troca).
+Mesmo que fosse possível estabelecer uma taxa de câmbio satisfatória para cada par de bens, manter essas informações rapidamente se torna impraticável. Em um sistema de troca direta envolvendo N bens, há N(N-1)/2 taxas de câmbio para lembrar. Para uma economia de 50 bens, isso significa lembrar de 50\*49/2, ou 1225 taxas de câmbio, em comparação com apenas 50 em trocas indiretas. Para uma economia de 100 bens, esse número aumenta para 4950. Essa relação quadrática impõe um limite adicional à escalabilidade da troca direta (troca por troca).
 
 Além disso, como essas trocas não ocorrem instantaneamente, mas são espaçadas ao longo do tempo, avaliar as contribuições ao longo do tempo complica ainda mais a avaliação relativa das contribuições. Além de avaliar a taxa de câmbio entre dois bens presentes, torna-se necessário avaliar o valor de uma contribuição passada em relação a um equivalente futuro.
 
@@ -255,7 +269,7 @@ Nos tempos pré-civilização, essas tecnologias não existiam. Assim, nossos an
 
 ### Dupla Coincidência de Desejos e Venda
 
-![image](assets/Image/18.webp)
+![image](assets/en/11.webp)
 
 O dinheiro pode ser visto como a solução descoberta por nossos ancestrais para resolver o que os economistas chamam de problema da "dupla coincidência de desejos". Esse problema tem três dimensões: espacial, temporal e interpessoal.
 Em uma troca direta (escambo) entre Alice e Bob, ambos precisam possuir algo que o outro deseje ao mesmo tempo e lugar. Ao usar a troca indireta, ou seja, através do dinheiro, Alice pode comprar de Bob, e Bob pode usar essa unidade monetária em outro lugar, em outro momento e com outra pessoa (desde que a outra pessoa aceite essa forma de dinheiro).
@@ -286,6 +300,7 @@ Nesse sentido, o dinheiro, ao permitir o armazenamento de valor no presente e su
 No próximo capítulo, aprofundaremos o conceito de preferência temporal e explicaremos a perspectiva austríaca sobre juros e capital, que servirá de base para o próximo capítulo sobre a Teoria do Ciclo Econômico.
 
 ## Preferência Temporal, Juros e Capital
+
 <chapterId>37732a5c-4f66-5e2d-bc2c-cc8d29693af7</chapterId>
 
 ### Preferência Temporal
@@ -298,14 +313,14 @@ Essa avaliação subjetiva do valor dos bens futuros em comparação com os bens
 
 Esse conceito de valoração relativa de bens futuros em relação a bens presentes está na raiz do fenômeno dos juros. De fato, em uma economia com mercados de capital não manipulados, as taxas de juros de referência (consideradas livres de risco de inadimplência) são determinadas na interseção entre oferta e demanda de capital. Portanto, essas taxas representam o estado das preferências temporais para toda a economia: um aumento na taxa de juros resulta de um aumento relativo na demanda por capital em comparação com a oferta, indicando preferências temporais mais altas. Por outro lado, uma diminuição nas taxas de juros ocorre devido a um aumento na poupança, ou seja, um aumento na oferta de capital, indicando uma redução nas preferências temporais.
 
-![image](assets/Image/9.webp)
+![image](assets/en/12.webp)
 
 Em uma economia em que as taxas de juros não são manipuladas pelo banco central, tendemos a observar uma curva de rendimento ascendente: quanto maior a maturidade da dívida, maior a taxa de juros. A situação oposta não pode ocorrer, pois implicaria que o futuro é mais certo do que o presente, o que é uma impossibilidade lógica.
 O conceito de preferência temporal e como expressamos nossa própria preferência temporal por meio do consumo e poupança é fundamental para os processos de alocação de capital e produção. Vamos nos voltar para o aluno de Menger, Eugen von Böhm-Bawerk, e sua teoria do capital para entender exatamente como a preferência temporal afeta a organização da produção.
 
 ### Teoria do Capital
 
-![image](assets/Image/19.webp)
+![image](assets/en/13.webp)
 
 No início deste curso, vimos que, para Carl Menger, os bens só são considerados bens econômicos (valorizados) porque servem como meios para fins escolhidos e valorizados pelos indivíduos. De acordo com essa visão, toda análise econômica gira em torno do consumo, pois é, em última instância, o objetivo motivador por trás de toda atividade econômica. Portanto, para Menger, o ponto de partida da análise econômica são os bens de consumo, ou bens finais, pois representam o propósito final da atividade econômica. Todos os outros bens na economia, que podemos chamar de "bens intermediários", só têm valor porque permitem que os indivíduos obtenham esses bens de consumo: são bens usados na produção de outros bens.
 
@@ -321,13 +336,13 @@ Devido à natureza sequencial da ação humana, essas escolhas intertemporais se
 
 Para ilustrar esse ponto, vamos revisitar o exemplo dado por Böhm-Bawerk, em sua obra "Capital and Interest":
 
-![image](assets/Image/10.webp)
+![image](assets/en/14.webp)
 
 Eugen von Böhm-Bawerk (1851-1914)
 
 ### Robinson Crusoe e Desvio de Produção/Indireto:
 
-![image](assets/Image/20.webp)
+![image](assets/en/15.webp)
 
 Robinson Crusoe Descarregando Suprimentos do Naufrágio, John Alexander Gilfillan (1793-1864)
 
@@ -350,14 +365,16 @@ Este é um conceito tentador, embora simples: qualquer extensão da estrutura de
 Agora, como mencionado no primeiro capítulo, as taxas de juros têm sido manipuladas por décadas pelos bancos centrais, ao mesmo tempo em que os bancos comerciais concedem crédito sem reservas prévias, o que significa que as taxas de juros não representam nossa preferência temporal e dão uma ilusão de economias abundantes.
 Isso é perfeitamente ilustrado pelo gráfico abaixo: as taxas de longo prazo são mais baixas do que as taxas de curto prazo. Primeiro, isso não faz absolutamente nenhum sentido, porque implicaria que o futuro é mais certo do que o presente. Segundo, isso justifica uma investigação sobre as consequências para a alocação de capital: se todos são incentivados a agir como se as economias fossem abundantes, enquanto os poupadores não são recompensados por poupar, quais consequências isso poderia ter para a economia?
 
-![imagem](assets/Image/11.webp)
+![imagem](assets/en/16.webp)
 
 Isso é o que descobriremos no próximo capítulo dedicado à Teoria Austríaca do Ciclo Econômico!
 
 # Perspectivas Econômicas Austríacas
+
 <partId>ad0fce42-2556-56b8-a093-5b4fcacc7cf3</partId>
 
 ## A Teoria Austríaca do Ciclo Econômico
+
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
 > "Quanto mais tempo durar o boom do crédito bancário inflacionário, maior será o escopo de investimentos malfeitos em bens de capital e maior será a necessidade de liquidação desses investimentos insustentáveis. Quando a expansão do crédito para, se reverte ou até mesmo desacelera significativamente, os investimentos malfeitos são revelados"
@@ -378,7 +395,7 @@ Para descrever esse fenômeno de descoordenação temporal e suas consequências
 
 Para facilitar nossa explicação, voltaremos à classificação de bens de Menger e representaremos a estrutura produtiva em um diagrama composto por um número arbitrário de estágios:
 
-![image](assets/Image/12.webp)
+![image](assets/en/17.webp)
 
 No diagrama acima, os recursos iniciais passam por vários estágios de produção, sofrendo transformações que os aproximam do estado de bens de consumo final (por meio da interação com os fatores originais de produção: tempo, terra, trabalho). A altura do lado direito do triângulo representa esquematicamente o PIB, pois denota a soma de todos os bens de consumo vendidos em um período. A diferença entre cada barra corresponde ao valor adicionado (em termos monetários) gerado por cada estágio do processo. Essa diferença também pode ser vista como a renda associada a cada estágio (receitas - custos).
 
@@ -386,7 +403,7 @@ Se, no nível agregado, os agentes econômicos aumentarem suas economias, a quan
 
 Obteremos então uma estrutura de produção estendida, uma mudança que pode ser representada qualitativamente pelo seguinte diagrama:
 
-![image](assets/Image/13.webp)
+![image](assets/en/18.webp)
 
 Aqui, o valor monetário dos bens de consumo demandados diminuiu, liberando recursos para a criação de um estágio adicional de produção. Nesse cenário em que a diminuição das taxas de juros é consequência da diminuição do consumo, ou seja, do aumento das economias, a área do triângulo, que representa a quantidade de dinheiro em circulação, permanece inalterada. A transformação da estrutura de produção (alongamento) simplesmente resulta em uma transferência de poder de compra de uma parte da estrutura para outra.
 
@@ -401,7 +418,7 @@ Agora, se considerarmos uma diminuição nas taxas de juros resultante de uma ex
 Com taxas de juros mais baixas, os empreendedores podem obter mais recursos e, assim, criar estágios de produção de ordem superior. Nesse caso, essa extensão da estrutura de produção não resultará em diminuição do consumo, pois não houve adiamento do consumo presente pelos consumidores. Em outras palavras, o PIB cresce. Consequentemente, nosso triângulo se alongará mantendo uma altura semelhante, o que significa que sua área aumentará.
 Observe que essa é uma consequência completamente lógica da expansão do crédito. Na medida em que os bancos produzem meios fiduciários concedendo empréstimos, é natural esperar que o poder de compra geral aumente.
 
-![image](assets/Image/14.webp)
+![image](assets/en/19.webp)
 
 À medida que o crédito entra na economia por meio de empréstimos a empreendedores, devemos observar um aumento nos lucros nos setores de produção distantes do consumo e uma diminuição nos lucros relativos nos setores mais próximos do consumo. Essa maior lucratividade, então, apoia uma realocação de capital para esses novos estágios mais intensivos em capital (construção naval, automotiva, construção, tecnologias avançadas, etc.) e uma diminuição nos investimentos nos setores mais próximos do consumo.
 
@@ -417,7 +434,7 @@ Esse ajuste pode ser visto como um período durante o qual o subconsumo e o subi
 
 Infelizmente, esse mecanismo depressivo é frequentemente interrompido pelo poder político e pelos bancos centrais que buscam "impulsionar" a economia por meio de gastos deficitários e política monetária expansionista.
 
-![image](assets/Image/21.webp)
+![image](assets/en/20.webp)
 
 Tanto para monetaristas quanto para keynesianos, a causa da depressão é a demanda agregada insuficiente, então nenhum deles presta atenção à evolução dos preços relativos, que, como vimos, é o cerne do problema. Assim, eles acreditam que fornecer um incentivo para a expansão do crédito (reduzindo as taxas de juros) e usar a capacidade de déficit do Estado para impulsionar a demanda irá iniciar uma recuperação. No curto prazo, tais medidas podem parecer produzir os efeitos desejados: o déficit apoia os gastos, enquanto a redução das taxas de juros leva a preços de ativos mais altos, o que, por sua vez, incentiva os detentores de ativos a aumentarem seus gastos. No entanto, esse impulso eventualmente diminui, enquanto o problema estrutural permanece, ou até piora, à medida que a má alocação de capital continua graças às taxas de juros artificialmente baixas.
 
@@ -432,6 +449,7 @@ Mais do que qualquer outra escola de economia, a Escola Austríaca insiste na im
 Este será o assunto do próximo e último capítulo deste curso.
 
 ## A Impossibilidade do Cálculo Econômico sob o Socialismo
+
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
 > "Onde não há preços de mercado para os fatores de produção porque eles não são comprados nem vendidos, é impossível recorrer ao cálculo no planejamento de ações futuras e na determinação do resultado de ações passadas. Uma gestão socialista da produção simplesmente não saberia se o que planeja e executa é o meio mais apropriado para atingir os fins desejados. Ela operará no escuro, por assim dizer. Ela desperdiçará os escassos fatores de produção, tanto materiais quanto humanos (trabalho). O caos e a pobreza para todos inevitavelmente resultarão"
@@ -444,6 +462,7 @@ Apesar dos repetidos fracassos dos regimes marxistas ao longo do último século
 
 1. Ideias comparáveis ainda são defendidas por progressistas e outros intervencionistas.
 2. Fixação de preços, seja nos mercados de capitais por meio das ações dos banqueiros centrais ou em outros mercados por meio de empresas estatais, decretos e intervenção de comitês regulatórios, continua sendo prevalente.
+
 ### O Debate sobre Cálculo Econômico
 
 Esse debate foi inicialmente iniciado por um dos artigos econômicos mais influentes do século XX, "Cálculo Econômico em uma Comunidade Socialista", escrito por Ludwig von Mises e publicado em 1920. Naquela época, o socialismo estava em ascensão, com os bolcheviques assumindo o poder na Rússia, socialistas assumindo cargos na República de Weimar (Alemanha) e partidos socialistas e comunistas ganhando destaque em toda a Europa.
@@ -454,7 +473,7 @@ Com seu artigo, Mises introduziu uma nova dimensão ao debate. Deixando de lado 
 
 ### Explicando a Impossibilidade do Cálculo Econômico
 
-![image](assets/Image/24.webp)
+![image](assets/en/21.webp)
 
 A maioria dos equívocos sobre os argumentos de Mises surgem de uma compreensão equivocada dos papéis desempenhados pelas classes gerenciais e empreendedoras em uma economia capitalista. Mises nunca descartou a capacidade dos gerentes de elaborar planos de produção eficientes dentro de suas próprias operações. Em vez disso, ele enfatizou a importância dos empreendedores e acionistas, que, como proprietários dos meios de produção, alocam capital em diferentes setores, formando assim preços que servem como insumos nos cálculos econômicos dos gerentes.
 
@@ -470,7 +489,7 @@ Esse processo é crucial porque valida ou invalida a eficiência de várias ativ
 
 Sob essa perspectiva, uma economia planejada centralmente inevitavelmente experimentará má alocação de capital. No curto a médio prazo, tais alocações inadequadas podem passar despercebidas porque não há preços de mercado ou falências para revelá-las. No entanto, devido à ausência de feedback (preços) e mecanismos de realocação (falências), os erros se acumularão até que o desperdício se torne aparente por meio de uma queda significativa nas condições de vida.
 
-![image](assets/Image/22.webp)
+![image](assets/en/22.webp)
 
 ### A Perspectiva Austríaca e as Falhas de Outras Escolas de Economia
 
@@ -480,7 +499,7 @@ Apesar dessa impressionante previsão e de numerosas demonstrações empíricas 
 
 ### A Teoria Austríaca do Ciclo Econômico como um Caso Específico da Impossibilidade do Cálculo Econômico sob o Socialismo
 
-![image](assets/Image/23.webp)
+![image](assets/en/23.webp)
 
 Em um capítulo anterior, elucidamos a dinâmica do superinvestimento e da má alocação de capital resultantes da manipulação das taxas de juros pelos bancos centrais. Essencialmente, o que explicamos pode ser visto como um caso específico da impossibilidade do cálculo econômico sob o socialismo, aplicado ao campo dos mercados monetários. Quando os preços são fixados fora de seus valores de mercado, os empreendedores e alocadores de capital são incentivados a realizar investimentos que não podem ser sustentados a longo prazo devido à falta de poupança. Ao interferir no sistema de preços, os planejadores centrais (neste caso, os banqueiros centrais) criam uma descoordenação entre os agentes econômicos. Neste caso, a descoordenação intertemporal implica em superinvestimento em bens de investimento de ordem superior e subinvestimento em bens de investimento de ordem inferior, o que representa uma manifestação específica de má alocação de capital entre as indústrias.
 
@@ -490,7 +509,7 @@ Hoje, o debate sobre o cálculo econômico ressurge principalmente em discussõe
 
 Para uma aplicação concreta do problema do cálculo econômico a uma situação contemporânea, você pode consultar este artigo que aborda o problema da alocação de recursos na China moderna.
 
->   The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web 
+> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Conclusão
 
@@ -499,6 +518,7 @@ Economistas mainstream e planejadores centrais frequentemente não gostam dos ec
 A tradição austríaca incorpora uma abordagem humilde para a ação humana, tirando implicações profundas dos conceitos de valor subjetivo, incerteza, livre arbítrio e complexidade. Ela explica como a ordem de mercado, apesar de não ser um produto do design humano, se estabelece como a instituição central para nosso desenvolvimento e prosperidade. Se houver uma lição fundamental deste curso, é que o capitalismo se tornou o sistema econômico dominante por causa de sua capacidade de se adaptar às mudanças em um mundo dinâmico e incerto, povoado por indivíduos livres.
 
 ## A Metodologia Austríaca
+
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
 A escola austríaca de economia se distingue das outras escolas por sua metodologia axiomático-dedutiva, que difere da abordagem positivista frequentemente usada nas ciências sociais. A abordagem positivista é baseada em leis estabelecidas a partir de dados empíricos, adotando um método semelhante ao das ciências físicas. Ela formula hipóteses a partir de observações, que são então confirmadas ou refutadas por experimentos temporários. O método científico consiste em reter a hipótese que melhor explica os dados e continuar a explorá-la até que uma hipótese mais precisa seja encontrada.
@@ -519,54 +539,21 @@ Um exemplo de diferença metodológica é a posição dos defensores da Teoria M
 
 A metodologia é um aspecto essencial na economia e nas ciências sociais em geral. Ela influencia como as perguntas são feitas, as hipóteses são formuladas e os dados são interpretados. Compreender as diferenças metodológicas entre as escolas de pensamento econômico pode nos ajudar a apreciar perspectivas diversas e desenvolver nossas próprias opiniões sobre os tópicos discutidos nos episódios anteriores.
 
-# Conclusão
+# Seção final
+
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
+## Avaliações & Notas
 
-
-## Dê-nos seu feedback sobre este curso
 <chapterId>29d4323c-e34e-5834-bf03-2f3ed10d751b</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Exame Final
+
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Conclusão
 
-## Estudos adicionais
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Parabéns por concluir este curso ECON 201! Espero sinceramente que você tenha gostado e aberto portas para si mesmo. Sua descoberta do Bitcoin está apenas começando, e convido você a explorar todos os outros cursos disponíveis na universidade.
-
-### Leituras adicionais
-
-Para aprofundar sua compreensão dos fenômenos econômicos e sociais, especialmente em relação à economia austríaca, aqui estão algumas recomendações de livros:
-
-- "The Austrian School" de Ressus Huerta de Soto: Este livro acessível fornece uma introdução abrangente à evolução do pensamento econômico austríaco, abrangendo conceitos e teorias-chave.
-- "Human Action" de Ludwig von Mises: Considerada a obra-prima da escola austríaca, esta obra explora em profundidade os fundamentos teóricos da ação humana e da economia.
-- "The Use of Knowledge in Society" de Friedrich Hayek: Este texto curto examina como o conhecimento disperso na sociedade é usado para orientar decisões econômicas, destacando a importância dos preços e da concorrência.
-- Discurso de aceitação do Prêmio Nobel de Joseph Schumpeter em 1974: Este discurso fornece uma visão geral da visão de Schumpeter sobre empreendedorismo, inovação e capitalismo.
-- "Capitalism, Socialism and Democracy" ou "The Theory of Economic Development" de Joseph Schumpeter: Estes livros icônicos de Schumpeter exploram a dinâmica do capitalismo, inovação e ciclos econômicos.
-
-Além dessas leituras, você também pode encontrar informações sobre economia austríaca explorando recursos online. O Instituto Mises, sediado no sudeste dos Estados Unidos, oferece artigos e vídeos de economistas renomados. A Savedin Amoos Academy oferece seminários interativos com convidados ilustres, embora essa opção seja paga. Na França, pessoas como Yorick de Montbin, Fergan Aziri e Richard Hamelin frequentemente compartilham análises e discussões sobre economia austríaca em diferentes canais do YouTube. Por fim, o Bitcoin Institute também pode ser uma fonte de informações sobre os aspectos econômicos relacionados ao Bitcoin.
-
-Ao ler essas obras e explorar esses recursos online, você pode desenvolver uma compreensão mais profunda dos princípios e ideias-chave da escola austríaca de economia.
-
-### Apoie-nos
-
-Este curso, assim como todo o conteúdo desta universidade, foi oferecido gratuitamente pela nossa comunidade. Para nos apoiar, você pode compartilhá-lo com outras pessoas, tornar-se membro da universidade e até contribuir para o seu desenvolvimento por meio do GitHub. Em nome de toda a equipe, obrigado!
-
-### Avalie o curso (em breve)
-Em breve, um sistema de classificação para o curso será integrado a esta nova plataforma de E-learning! Enquanto isso, muito obrigado por fazer o curso e, se você gostou, considere compartilhá-lo com outras pessoas. (em breve)
-Se você quiser continuar a se aprofundar no assunto da economia austríaca, sugiro várias entrevistas com Théo Mogenet:
-
-- [Como se preparar para a próxima crise econômica?](https://youtu.be/GJT8t1TEd7Q)
-- [Como a destruição do euro pode ser articulada?](https://youtu.be/eK3ONo11HN8)
-- [Hiper-bitcoinização: podemos adotar um padrão BTC?](https://youtu.be/nkN2twZ-lJY)
-  Se você ainda quiser mais, pode assistir a essas discussões sobre a situação macroeconômica e outros tópicos diversos:
-- [Como destruir o Bitcoin?](https://youtu.be/gHKvj4eeiDg)
-- [O Bitcoin é de direita, esquerda ou anarquista?](https://youtu.be/4fXGxzLtIIw)
-- [Para salvar o planeta, deixe o dólar e o euro](https://youtu.be/iHagDlH4bf8)
-- [Por que um aumento nas taxas de juros é impossível?](https://youtu.be/iHagDlH4bf8)
-
-Caso contrário, continue seu aprendizado com outros treinamentos e tutoriais da universidade!
+<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

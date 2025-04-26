@@ -1,0 +1,8 @@
+question: 用于计算与整数N互质的整数数量的函数是哪一个？
+answer: 欧拉Phi函数
+wrong_answers:
+  - 对数函数
+  - 欧拉Gamma函数
+  - 高斯函数
+explanation:
+  欧拉Phi函数（或称欧拉函数）用于计算与整数N互质的整数数量，特别是对于非质数整数。

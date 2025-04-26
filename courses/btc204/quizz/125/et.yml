@@ -1,0 +1,13 @@
+question: Mis on peamine eesmärk coinswap'i puhul?
+
+answer: Salajane bitcoini omandiõiguse üleandmine
+
+wrong_answers:
+  - Tehingute kiiruse suurendamine
+  - Bitcoinide segamine
+  - Salajane altcoini vahetamine bitcoini vastu
+
+explanation: |
+  Coinswap kasutab nutilepinguid, et võimaldada bitcoini omandiõiguse ülekandmist kahe kasutaja vahel ilma usalduseta ja ilma, et see ülekanne oleks blockchainis otseselt nähtav.
+
+reviewed: false

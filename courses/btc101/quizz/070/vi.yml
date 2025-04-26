@@ -1,9 +1,9 @@
 question: Phần thưởng BTC sau lần halving thứ tư là bao nhiêu?
-answer: 3.125 BTC
+answer: 3.125 BTC.
 wrong_answers:
-  - 1.5625 BTC
-  - 6.25 BTC
-  - 12.5 BTC
-explanation: >-
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
   Sau lần halving thứ tư, diễn ra ở độ cao khối 840,000, phần thưởng BTC cho việc đào là 3.125 BTC.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: What is the main difference between the American Revolution and the French Revolution?
+answer: The American Revolution led to the formation of a decentralized rule of law state, while the French Revolution led to a period of Terror and dictatorship.
+wrong_answers:
+  - The American Revolution was inspired by Enlightenment ideas, while the French Revolution was inspired by religious ideas.
+  - The American Revolution was led by colonists, while the French Revolution was led by nobles.
+  - The American Revolution was long, while the French Revolution was short.
+explanation: |
+  The American Revolution resulted in a decentralized and stable system based on the rule of law, whereas the French Revolution quickly descended into Terror and dictatorship due to internal divisions and a centralization of power.
+reviewed: false

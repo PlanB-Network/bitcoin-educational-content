@@ -1,13 +1,9 @@
-question: What are the benefits of Lightning payment channels?
-answer: They allow users to send and receive Bitcoin without having to pay high transaction fees or wait for long confirmation periods on the Bitcoin network
+question: What is the primary role of a private key in the Bitcoin system?
+answer: Sign transactions to satisfy a script
 wrong_answers:
-  - They allow users to mine Bitcoin more efficiently
-  - They allow users to store Bitcoin more securely
-  - They allow users to exchange Bitcoin for other cryptocurrencies
+  - Serve as an identifier to receive bitcoins
+  - Store funds securely on the blockchain
+  - Create locking scripts to protect bitcoins
 explanation: |
-  Lightning payment channels are an efficient way to perform fast and
-  inexpensive
-  Bitcoin transactions. They allow users to send and receive Bitcoin without having
-  to pay high transaction fees or wait for long confirmation periods on the Bitcoin
-  network.
+  The private key is used to sign transactions to satisfy a script and unlock the bitcoins.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Koji je glavni cilj BIP47?
+answer: Da biste imali jedinstveni identifikator za primanje BTC-a bez ponovnog korišćenja adresa.
+wrong_answers:
+  - Povećajte veličinu blokova za brže transakcije.
+  - Dozvoli transakcije bez naknada na Bitcoin mreži.
+  - Napravite transakcije potpuno anonimnim na Bitcoin.
+explanation: |
+  Cilj BIP47 je da obezbedi jedinstveni identifikator koji omogućava primanje bitkoina više puta i od više osoba, ali bez ponovnog korišćenja adresa, jer je ovo veoma loša praksa za privatnost korisnika.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Mikä on peruutusavaimen tarkoitus Lightning-verkossa?
-answer: Rangaista osallistujaa, joka yrittää huijata julkaisemalla vanhan sitoumustapahtuman.
+question: Mitä etuliite lnbc tarkoittaa Lightning-laskun ihmislukukelpoisessa osassa?
+answer: Se osoittaa Lightning-siirron Bitcoin-lohkoketjussa
 wrong_answers:
-  - Palkita osallistujaa, joka onnistuu huijaamaan.
-  - Avata uusi kanava.
-  - Vahvistaa tapahtuma.
+  - Että lasku on voimassa vain Bitcoinin testiverkossa
+  - Että lasku on koodattu bech32-muodossa
+  - Että kyseessä on ketjussa tapahtuva siirto
 explanation: |
-  Peruutusavain on mekanismi Lightning-verkossa estämään huijausta. Jos osallistuja yrittää huijata julkaisemalla vanhan sitoumustapahtuman,
-  toinen osallistuja voi käyttää peruutusavainta rangaistakseen huijaria ja ottaakseen
-  kaikki SATit kanavalta.
+  Etuliite lnbc merkitsee, että lasku on Lightning-siirtoa varten Bitcoin-verkossa, eikä missään muussa verkossa.
 reviewed: false

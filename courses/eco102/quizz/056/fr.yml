@@ -1,0 +1,9 @@
+question: Quelle demande les fabricants de chandelles font-ils aux députés ?
+answer: D'interdire l'utilisation du soleil comme source de lumière
+wrong_answers:
+  - D'augmenter les taxes sur les bougies
+  - De fermer les usines de bougies étrangères
+  - De subventionner la production de bougies
+explanation: |
+  Dans cette satire, les fabricants de chandelles demandent d'interdire l'utilisation de la lumière du soleil pour mettre en évidence l'absurdité de certaines politiques protectionnistes.
+reviewed: false

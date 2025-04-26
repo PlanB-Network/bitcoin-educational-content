@@ -1,0 +1,9 @@
+question: A quale nome di dominio è stato trasferito il forum di Bitcoin il 1° agosto 2011?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Dopo essere stato trasferito su forum.bitcoin.org il 17 maggio, è passato all'URL bitcointalk.org a partire dal 1° agosto. Negli anni, sarebbe diventato noto come BitcoinTalk.
+reviewed: false

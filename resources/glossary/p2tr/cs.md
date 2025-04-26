@@ -1,0 +1,9 @@
+---
+term: P2TR
+
+---
+P2TR je zkratka pro *Pay to Taproot*, což je standardní model skriptu, který se používá pro stanovení podmínek výdajů na výstupu UTXO (Unspent Transaction Output). Byl zaveden se zavedením funkce Taproot v listopadu 2021. P2TR využívá Schnorrův protokol pro agregaci kryptografických klíčů a také Merklovy stromy pro alternativní skripty, známé jako MAST (*Merkelizovaný alternativní strom skriptů*). Na rozdíl od tradičních transakcí, kde jsou podmínky utrácení veřejně odhaleny (někdy v době příjmu, jindy v době utrácení), P2TR umožňuje skrýt složité skripty za jediný zdánlivý veřejný klíč.
+
+Technicky vzato skript P2TR uzamyká bitcoiny na jedinečném Schnorrově veřejném klíči označovaném jako $K$. Tento klíč $K$ je však ve skutečnosti agregátem veřejného klíče $P$ a veřejného klíče $M$, přičemž druhý jmenovaný je vypočítán z Merkleho kořene seznamu `scriptPubKey`. Bitcoiny uzamčené skriptem P2TR lze utratit dvěma různými způsoby: buď zveřejněním podpisu pro veřejný klíč $P$, nebo splněním jednoho ze skriptů obsažených v Merkleho stromu. První možnost se nazývá "*cesta klíče*" a druhá "*cesta skriptu*".
+
+P2TR tak umožňuje uživatelům posílat bitcoiny buď na veřejný klíč, nebo na více skriptů podle vlastního výběru. Další výhodou tohoto skriptu je, že ačkoli existuje více způsobů, jak utratit výstup P2TR, v okamžiku utrácení je třeba odhalit pouze ten, který je použit, což umožňuje, aby nepoužité alternativy zůstaly soukromé. P2TR je výstup SegWit verze 1, což znamená, že podpisy pro vstupy P2TR jsou uloženy ve svědkovi transakce, a nikoli ve `scriptSig`. Adresy P2TR používají kódování `Bech32m` a začínají na `bc1p`.

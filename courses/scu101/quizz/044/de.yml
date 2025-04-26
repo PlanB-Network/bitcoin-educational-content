@@ -1,9 +1,12 @@
-question: Warum ist es wichtig, Ihre alten Passwörter nach und nach durch solche zu ersetzen, die von einem Passwort-Manager generiert werden?
-answer: Passwörter, die von einem Passwort-Manager generiert werden, sind stärker und länger und bieten somit mehr Sicherheit.
+question: Warum ist es wichtig, Ihre alten Passwörter schrittweise durch solche zu ersetzen, die von einem Passwort-Manager generiert wurden?
+answer: Von einem Passwort-Manager generierte Passwörter sind stärker und länger, was mehr Sicherheit bietet.
 wrong_answers:
-  - Der Passwort-Manager löscht automatisch alte Passwörter.
+  - Alte Passwörter werden automatisch vom Passwort-Manager gelöscht.
   - Passwort-Manager können nur eine begrenzte Anzahl von Passwörtern speichern.
   - Passwort-Manager erfordern, dass alle Passwörter von ihnen generiert werden.
 explanation: |
-  Passwörter, die von einem Passwort-Manager generiert werden, sind stärker und länger und bieten somit mehr Sicherheit. Indem Sie nach und nach Ihre alten Passwörter durch diese ersetzen, können Sie die Sicherheit Ihrer Online-Konten verbessern.
-reviewed: false
+  Von einem Passwort-Manager generierte Passwörter sind stärker und
+  länger, was mehr Sicherheit bietet. Indem Sie Ihre alten Passwörter
+  schrittweise durch diese ersetzen, können Sie die Sicherheit Ihrer
+  Online-Konten erhöhen.
+reviewed: true

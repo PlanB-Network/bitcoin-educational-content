@@ -1,11 +1,9 @@
-question: Mikä on siemen HD-lompakon kontekstissa?
-answer: 512-bittinen alfanumeerinen sekvenssi, joka toimii perustana lompakon avainten johdannaiselle.
+question: Mikä vaihe edeltää HASH160 n soveltamista SegWit v0 -osoitteen luomisessa?
+answer: Julkisen avaimen tiivistäminen
 wrong_answers:
-  - Salasana, jota käytetään lompakon suojaamiseen.
-  - Ainutlaatuinen tunniste lompakolle.
-  - Koodi, jota käytetään muistisanojen luomiseen.
+  - Tarkistussumman lisääminen
+  - Muuntaminen bech32-muotoon
+  - Koodaus base58check-muodossa
 explanation: |
-  Siemen on 512-bittinen alfanumeerinen sekvenssi, joka toimii perustana
-  lompakon avainten johdannaiselle. Se saadaan käyttämällä pbkdf2-funktiota yhdessä
-  muistisanalauseen ja salasanan kanssa.
+  Julkinen avain on tiivistettävä koon pienentämiseksi ennen sen läpikäymistä HASH160-hajautusfunktion kautta.
 reviewed: false

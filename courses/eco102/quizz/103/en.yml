@@ -1,0 +1,9 @@
+question: Which twentieth-century school of thought does Bastiat prefigure?
+answer: Public choice theory
+wrong_answers:
+  - Endogenous growth theory
+  - Disequilibrium theory
+  - The neoclassical school of economics
+explanation: |
+  Bastiat anticipated the ideas of Public Choice, demonstrating how interest groups influence the state to obtain privileges at the expense of others.
+reviewed: false

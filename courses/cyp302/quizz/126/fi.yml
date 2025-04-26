@@ -1,0 +1,9 @@
+question: Mitä Diffie-Hellman avainvaihtoprotokolla mahdollistaa?
+answer: Se mahdollistaa kahden osapuolen luoda yhteisen salaisen avaimen jakamalla julkista tietoa.
+wrong_answers:
+  - Se mahdollistaa henkilökohtaisen salaisen avaimen vaihdon kullekin istunnolle.
+  - Se mahdollistaa julkisen avaimen käytön salaukseen ja yksityisen avaimen salauksen purkuun.
+  - Se mahdollistaa elektronisen valuutan vaihdon.
+explanation: |
+  Diffie-Hellman protokolla mahdollistaa kahden osapuolen julkisesti jakaa tietoa varmistaen, että vain he voivat luoda yhteisen avaimen tulevaisuuden vaihtojensa turvaamiseksi.
+reviewed: false

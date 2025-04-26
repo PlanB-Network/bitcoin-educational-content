@@ -1,9 +1,9 @@
-question: Quali sono le pratiche consigliate per una sicurezza ottimale con un'autenticazione forte?
-answer: Utilizzare un indirizzo email sicuro, un gestore di password sicuro e adottare l'autenticazione a due fattori (2FA) utilizzando YubiKeys.
+question: Quali sono le pratiche consigliate per una sicurezza ottimale con autenticazione forte?
+answer: Utilizzare un indirizzo email sicuro, un gestore di password sicuro e adottare il 2FA utilizzando YubiKeys.
 wrong_answers:
-  - Utilizzare una password comune per tutti gli account e evitare il 2FA.
-  - Utilizzare una password semplice e fare affidamento sui dati biometrici per il 2FA.
-  - Utilizzare un indirizzo email sicuro, ma evitare i gestori di password e il 2FA.
+  - Utilizzare una password comune per tutti gli account ed evitare il 2FA
+  - Utilizzare una password semplice e fare affidamento sui dati biometrici per il 2FA
+  - Utilizzare un indirizzo email sicuro, ma evitare gestori di password e il 2FA
 explanation: |
-  Per una sicurezza ottimale, si consiglia di utilizzare un indirizzo email sicuro, un gestore di password sicuro e adottare il 2FA utilizzando YubiKeys. È anche consigliabile acquistare due YubiKeys per prevenire la perdita o il furto.
-reviewed: false
+  Per una sicurezza ottimale, si raccomanda di utilizzare un indirizzo email sicuro, un gestore di password sicuro e adottare il 2FA utilizzando YubiKeys. È consigliabile anche acquistare due YubiKeys per anticipare perdite o furti.
+reviewed: vero

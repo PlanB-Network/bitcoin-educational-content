@@ -1,9 +1,0 @@
-question: Quais são os dois tipos de pares de chaves filhas em uma carteira HD?
-answer: Pares endurecidos e pares normais.
-wrong_answers:
-  - Pares públicos e pares privados.
-  - Pares mestres e pares escravos.
-  - Pares pais e pares filhos.
-explanation: |
-  Em uma carteira HD, existem dois tipos de pares de chaves filhas; pares endurecidos e pares normais. Esses pares diferem em seu processo de derivação e em seus intervalos de índice.
-reviewed: false

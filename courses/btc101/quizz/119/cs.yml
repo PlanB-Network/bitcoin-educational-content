@@ -1,10 +1,9 @@
 question: Co je BitcoinTalk?
-answer: Místo diskuse pro uživatele Bitcoinu
+answer: Místo diskuse pro uživatele Bitcoinu.
 wrong_answers:
-  - Software pro těžbu Bitcoinu
-  - Bitcoinová peněženka
-  - Bitcoinová konference
+  - Software pro těžbu Bitcoinu.
+  - Bitcoinová peněženka.
+  - Bitcoinová konference.
 explanation: |
-  Fórum BitcoinTalk je místem diskuse pro uživatele Bitcoinu. Bylo
-  vytvořeno Satoshi Nakamotem 22. listopadu 2009.
+  Fórum BitcoinTalk je místem diskuse pro uživatele Bitcoinu. Bylo vytvořeno Satoshi Nakamotem 22. listopadu 2009.
 reviewed: true

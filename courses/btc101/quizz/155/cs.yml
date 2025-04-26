@@ -1,9 +1,9 @@
-question: Jak jsou těžaři odměňováni za svou práci?
-answer: Těžaři jsou odměňováni prostřednictvím odměny zahrnuté v bloku a prostřednictvím transakčních poplatků.
+question: Co je coinbase transakce?
+answer: První transakce bloku, která zahrnuje odměnu pro těžaře.
 wrong_answers:
-  - Těžaři jsou placeni Bitcoinovou sítí.
-  - Těžaři dostávají pevný plat za svou práci.
-  - Těžaři jsou odměňováni novými bitcoiny.
+  - Transakce provedená na burze Coinbase.
+  - Druhá transakce bloku, která zahrnuje nejvyšší poplatky.
+  - Transakce provedená těžařem po obdržení odměny.
 explanation: >-
-  Když těžař úspěšně vytěží blok, obdrží odměnu ve formě nových bitcoinů. Tato odměna je zahrnuta v bloku, který vytěžili. Kromě toho těžaři také dostávají transakční poplatky z transakcí zahrnutých v bloku.
-reviewed: false
+  Coinbase transakce je vždy první transakce bloku. Zahrnuje odměnu pro těžaře za vykonání práce validátora.
+reviewed: true

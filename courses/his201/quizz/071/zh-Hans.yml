@@ -1,0 +1,8 @@
+question: 2010年12月，是什么导致了中本聪突然离开？
+answer: 一篇将比特币和维基解密联系起来的文章的发布
+wrong_answers:
+  - 维基解密接受比特币
+  - Gavin Andresen接管了代码
+  - 比特币单价的上涨
+explanation: |
+  这篇题为“维基解密丑闻是否会导致新的虚拟货币出现？”的[文章](https: //www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html)发表在PC World上，这是美国最大的计算机相关网站之一。

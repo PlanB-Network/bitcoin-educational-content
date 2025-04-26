@@ -1,9 +1,9 @@
 question: Jak by mohla být Lightning Network potenciálně využita pro pronájem zboží?
-answer: Uživatelé by mohli být účtováni za minutu, nebo dokonce za sekundu, za dobu, po kterou zboží používají
+answer: Uživatelé by mohli být účtováni za minutu, nebo dokonce za sekundu, za dobu, po kterou zboží využívají.
 wrong_answers:
-  - Uživatelé by mohli být účtováni paušální sazbou za pronájem zboží
-  - Uživatelé by mohli být účtováni na základě hodnoty zboží
-  - Uživatelé by mohli být účtováni na základě stavu zboží
+  - Uživatelé by mohli být účtováni vysokým poplatkem za pronájem zboží.
+  - Uživatelé by mohli být účtováni na základě hodnoty zboží.
+  - Uživatelé by mohli být účtováni na základě stavu zboží.
 explanation: >-
-  S Lightning Network je možné představit si využití tohoto systému pro pronájem zboží. Uživatelé by mohli být účtováni za minutu, nebo dokonce za sekundu, za dobu, po kterou zboží používají.
-reviewed: false
+  S Lightning Network je možné tento systém využít pro pronájem zboží. Uživatelé by mohli být účtováni za minutu, nebo dokonce za sekundu, za dobu, po kterou zboží využívají.
+reviewed: true

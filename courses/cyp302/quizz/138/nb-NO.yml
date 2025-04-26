@@ -1,0 +1,8 @@
+question: Hvilken egenskap må en hash-funksjon ha for å sikre sikkerhet under programvareverifisering?
+answer: Kollisjonsresistens
+wrong_answers:
+  - Omvendbarhet
+  - Operabilitet med asymmetriske nøkler
+  - Genererbarhet i sanntid
+explanation: |
+  Kollisjonsresistens sikrer at det er praktisk talt umulig å finne to forskjellige inndata som produserer samme hash, noe som er viktig for å verifisere at programvaren ikke har blitt manipulert.

@@ -1,9 +1,0 @@
-question: Quais são os criadores e tomadores no contexto dos livros de ordens?
-answer: Os criadores são os provedores de ordens e os tomadores são os que recebem as ordens.
-wrong_answers:
-  - Os criadores são os que recebem as ordens e os tomadores são os provedores de ordens.
-  - Os criadores são os que criam as ordens e os tomadores são os que recebem as ordens.
-  - Os criadores são os que recebem as ordens e os tomadores são os que criam as ordens.
-explanation: |
-  No contexto dos livros de ordens, os criadores são aqueles que fornecem as ordens e os tomadores são aqueles que recebem as ordens.
-reviewed: false

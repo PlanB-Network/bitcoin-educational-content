@@ -1,12 +1,12 @@
 question: Mikä on Lightning Networkin päätarkoitus?
-answer: Mahdollistaa mikrotransaktiot
+answer: Mahdollistaa mikrotransaktiot.
 wrong_answers:
-  - Lisätä Bitcoinin arvoa
-  - Korvata Bitcoin-protokolla
-  - Luoda uusi kryptovaluutta
+  - Lisätä Bitcoinin arvoa.
+  - Korvata Bitcoin-protokolla.
+  - Luoda uusi kryptovaluutta.
 explanation: >-
-  Lightning Network on toisen tason ratkaisu Bitcoin-protokollaan,
-  jonka tavoitteena on mahdollistaa mikrotransaktiot, eli erittäin pienen arvon
-  transaktiot, jotka muuten olisivat käytännössä mahdottomia korkeiden kulujen ja pitkien
+  Lightning Network on toisen kerroksen ratkaisu Bitcoin-protokollaan,
+  jonka tavoitteena on mahdollistaa mikrotransaktiot, jotka ovat erittäin pienen arvon
+  transaktioita, jotka muuten olisivat käytännössä mahdottomia korkeiden kulujen ja pitkien
   vahvistusaikojen vuoksi Bitcoin-lohkoketjussa.
-reviewed: false
+reviewed: true

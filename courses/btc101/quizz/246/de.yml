@@ -1,10 +1,11 @@
 question: Was ist die Verbindung zwischen Bitcoin und der Zukunft von Technologie und Gesellschaft?
-answer: Bitcoin ist eine technologische Revolution für neue Formen der großangelegten Organisation, die den Austausch von Werten ohne jegliche vertrauenswürdige dritte Partei ermöglicht.
+answer: Bitcoin ist eine technologische Revolution, die den Austausch von Werten ohne jegliche vertrauenswürdige dritte Partei ermöglicht.
 wrong_answers:
-  - Bitcoin ist eine Form von KI-Technologie.
-  - Bitcoin ist ein Werkzeug zur Kontrolle der Weltbevölkerung.
+  - Bitcoin ist eine Form von KI-Technologie, die es Menschen ermöglicht, Informationen über einen zentralen Server auszutauschen.
+  - Bitcoin ist ein Werkzeug zur Kontrolle der Weltbevölkerung, das die Beseitigung von Armut ermöglicht.
   - Bitcoin ist eine Methode für Regierungen, um die finanziellen Transaktionen ihrer Bürger zu verfolgen.
-explanation: >-
-  Der Text erklärt, dass Bitcoin, ähnlich wie das Internet für Kommunikationsweisen,
-  eine technologische Revolution für neue Formen der großangelegten Organisation darstellt, die uns die Möglichkeit bietet, Werte ohne jegliche vertrauenswürdige dritte Partei auszutauschen.
-überprüft: false
+explanation: |
+  Der Text erklärt, dass Bitcoin, ähnlich wie das Internet für Kommunikationsmittel, eine technologische Revolution ist, die
+  die Chance für neue Arten der großangelegten
+  Organisation schafft und uns die Möglichkeit bietet, Werte ohne jegliche vertrauenswürdige dritte Partei auszutauschen.
+reviewed: true

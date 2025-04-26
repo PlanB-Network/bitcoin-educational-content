@@ -1,0 +1,9 @@
+question: What should Alice (sender) do after receiving Bob's invoice?
+answer: Build a PSBT with its UTXO and generate the transfer consignment terminal
+wrong_answers:
+  - Sign the Bitcoin transaction that spends its UTXO containing the single-use seal
+  - Import the consignment into your own wallet for contract details
+  - Issue a new invoice for an asset issue
+explanation: |
+  Alice must create a PSBT to spend the UTXO associated with the asset, then generate a terminal consignment that includes the new transition to Bob.
+reviewed: false

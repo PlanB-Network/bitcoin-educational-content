@@ -1,0 +1,9 @@
+question: Hvilken prosentandel av Bitcoins totale transaksjonsvolum har blitt brukt til ulovlig aktivitet?
+answer: Mindre enn 1%
+wrong_answers:
+  - 2-4%
+  - Mer enn 5%
+  - Det er ukjent
+explanation: |
+  Ifølge en rapport fra Chainalysis i 2020, står ulovlig aktivitet bare for omtrent 0.34% av alle Bitcoin-transaksjoner.
+reviewed: true

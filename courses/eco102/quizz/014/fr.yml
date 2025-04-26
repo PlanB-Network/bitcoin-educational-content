@@ -1,0 +1,9 @@
+question: Comment s'exprime la loi de Say selon Jean-Baptiste Say et Bastiat ?
+answer: Les produits et les services s'échangent contre des produits et des services
+wrong_answers:
+  - L'offre crée sa propre demande
+  - Plus les biens sont produits, plus ils sont consommés
+  - La demande détermine l'offre
+explanation: |
+  La loi de Say exprime que la production de biens permet les échanges mutuels, valorisant ainsi l'économie de marché.
+reviewed: false

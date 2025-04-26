@@ -1,9 +1,9 @@
-question: Một trong những lý do bạn nên tổng hợp các UTXO trong ví của mình từ thời gian này sang thời gian khác là gì?
-answer: Để tránh những phí không cần thiết trong quá trình giao dịch.
+question: Một trong những lý do bạn nên gộp các UTXO trong ví của mình từ thời gian này sang thời gian khác là gì?
+answer: Để tránh phí không cần thiết trong các giao dịch.
 wrong_answers:
-  - Để tăng giá trị của Bitcoin của bạn.
-  - Để ngăn chặn Bitcoin của bạn bị đánh cắp.
-  - Để đảm bảo Bitcoin của bạn luôn sẵn có.
+  - Để tăng giá trị của bitcoin của bạn.
+  - Để ngăn chặn bitcoin của bạn bị đánh cắp.
+  - Để đảm bảo bitcoin của bạn luôn sẵn có.
 explanation: >-
-  Văn bản đề cập rằng việc tổng hợp các UTXO trong ví của bạn từ thời gian này sang thời gian khác là cần thiết để quản lý hiệu quả bitcoin của bạn và tránh những phí không cần thiết trong quá trình giao dịch.
-reviewed: false
+  Văn bản đề cập rằng việc gộp các UTXO trong ví của bạn từ thời gian này sang thời gian khác là cần thiết để quản lý bitcoin của bạn một cách hiệu quả và tránh phí không cần thiết trong các giao dịch.
+reviewed: true

@@ -1,9 +1,12 @@
-question: Qual é o papel dos mineradores em relação às usinas de energia que ainda não estão conectadas à rede?
-answer: Eles atuam como compradores de último recurso.
+question: O que os mineradores podem fazer por aquelas usinas de energia que ainda não estão conectadas à rede?
+answer: Eles podem agir como compradores de último recurso.
 wrong_answers:
-  - Eles fornecem eletricidade para as usinas de energia.
-  - Eles conectam as usinas de energia à rede.
-  - Eles regulam o preço da eletricidade.
+  - Eles podem fornecer eletricidade para as usinas de energia.
+  - Eles podem conectar as usinas de energia à rede.
+  - Eles podem regular o preço da eletricidade.
 explanation: |
-  Os mineradores atuam como compradores de último recurso para usinas de energia que ainda não estão conectadas à rede. Isso permite que as usinas de energia garantam financiamento mesmo antes de serem conectadas à rede elétrica.
-reviewed: false
+  Os mineradores podem agir como compradores de último recurso para usinas de energia que
+  ainda não estão conectadas à rede. Isso permite que as usinas de energia
+  garantam financiamento mesmo antes de serem conectadas à
+  rede elétrica.
+reviewed: true

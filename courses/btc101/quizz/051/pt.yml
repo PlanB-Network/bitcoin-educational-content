@@ -1,9 +1,10 @@
-question: Qual é o impacto de uma inflação de 2% no poder de compra ao longo de 5 anos?
+question: Qual é o impacto de 2% de inflação no poder de compra ao longo de 5 anos?
 answer: Você perde 10% do seu poder de compra.
 wrong_answers:
   - Você perde 2% do seu poder de compra.
   - Você perde 5% do seu poder de compra.
   - Você perde 20% do seu poder de compra.
 explanation: |
-  Com uma inflação de 2%, você perde 2% do seu poder de compra anualmente, o que equivale a 10% ao longo de 5 anos.
-reviewed: false
+  Com 2% de inflação, você perde 2% do seu poder de compra
+  anualmente, o que totaliza 10% ao longo de 5 anos.
+reviewed: true

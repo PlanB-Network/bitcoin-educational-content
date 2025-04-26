@@ -1,9 +1,0 @@
-question: Qual é o objetivo do fator de aleatoriedade no processo de roteamento da Lightning Network?
-answer: Para evitar o uso sempre das mesmas rotas.
-wrong_answers:
-  - Para aumentar a complexidade da rede.
-  - Para diminuir a velocidade das transações.
-  - Para comprometer a privacidade do usuário.
-explanation: |
-  O fator de aleatoriedade no processo de roteamento da Lightning Network é usado para evitar o uso sempre das mesmas rotas. Isso ajuda a distribuir a carga pela rede e aumentar as chances de encontrar uma rota bem-sucedida para uma transação.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on ühtlase muutuja tunnus?
+answer: Kõik võimalikud väärtused on võrdselt tõenäolised
+wrong_answers:
+  - Väärtused järgivad asümmeetrilist jaotust
+  - Iga väärtuse tõenäosus sõltub eksperimendist
+  - Võrdsed tõenäosused on ainult kahe väärtuse puhul
+explanation: |
+  Ühtlane muutuja on juhuslik muutuja, kus kõik võimalikud väärtused on võrdselt tõenäolised.
+reviewed: false

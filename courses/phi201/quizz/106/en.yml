@@ -1,0 +1,9 @@
+question: According to Hayek, what differentiates liberalism from socialism?
+answer: The means used to achieve these ends.
+wrong_answers:
+  - The pursued ends.
+  - The role of intellectuals.
+  - All of the above.
+explanation: |
+  For Hayek, the fundamental difference between liberalism and socialism lies in the means: liberalism promotes individual freedom and the free market, while socialism involves state interventions and planning.
+reviewed: false

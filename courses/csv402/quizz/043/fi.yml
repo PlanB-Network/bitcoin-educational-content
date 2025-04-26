@@ -1,0 +1,9 @@
+question: Mitä "RGB-tilan siirtymä" tarkoittaa salamaverkon yhteydessä?
+answer: Päivitetty RGB-varojen allokaatio sisällytetty sitoumustapahtumiin
+wrong_answers:
+  - Multisig 2/2 onchainin uusi tila
+  - Päivitetty RGB-varojen allokaatio sisällytetty rahoitustoimiin
+  - Ketjussa tapahtuva validointikäsikirjoitus korvataan HTLC:llä
+explanation: |
+  RGB-tilan siirtymä päivittää RGB-varojen jakautumisen kanavassa käyttämällä sitoumustapahtumia.
+reviewed: false

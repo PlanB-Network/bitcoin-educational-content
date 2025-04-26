@@ -1,0 +1,9 @@
+question: Kakav je uticaj bilansa stanja banaka i centralnih banaka na inflaciju?
+answer: Ako novostvoreni novac ostane na bilansima privatnih banaka bez da se pozajmljuje ekonomskim akterima, neće direktno uticati na realnu ekonomiju i, stoga, neće rezultirati inflacijom.
+wrong_answers:
+  - Ako novostvoreni novac ostane na bilansima privatnih banaka, uvek će rezultirati inflacijom.
+  - Bilansi banaka i centralnih banaka nemaju uticaj na inflaciju.
+  - Ako se novo kreirani novac pozajmi ekonomskim akterima, to neće rezultirati inflacijom.
+explanation: |
+  Poglavlje objašnjava da je odnos između štampanja novca i inflacije modulisan načinom na koji se novo kreirani novac uvodi u ekonomiju. Ako ovaj novac ostane na bilansima privatnih banaka bez da se pozajmljuje ekonomskim akterima, neće direktno uticati na realnu ekonomiju i, stoga, neće rezultirati inflacijom.
+reviewed: false

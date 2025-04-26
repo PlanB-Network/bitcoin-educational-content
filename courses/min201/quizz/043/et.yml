@@ -1,0 +1,14 @@
+question: Mida tähendab vanasõna Not your hashrate, not your reward Bitcoin'i kaevandamise kontekstis?
+answer: Kui sa ei kontrolli hashrate'i, siis sa ei kontrolli ka kaevandamisest saadavaid tasusid.
+wrong_answers:
+  - Kui sul ei ole kõrget hashrate'i, siis sa ei saa ühtegi tasu.
+  - Kui sa ei oma Bitcoin'i, siis sa ei saa ühtegi tasu.
+  - Kui sul ei ole kaevandamismasinat, siis sa ei saa ühtegi tasu.
+explanation: |
+  Vanasõna Not your hashrate, not your reward on sarnane
+  krüptorahade maailmas tuntud vanasõnaga,
+  Not your keys, not your Bitcoins. See tähendab, et kui sa
+  ei kontrolli hashrate'i, siis sa ei kontrolli ka kaevandamisest
+  saadavaid tasusid. See on seetõttu, et kaevandamisest saadavad
+  tasud on otseselt proportsionaalsed hashrate'iga.
+reviewed: true

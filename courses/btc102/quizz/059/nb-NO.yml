@@ -1,0 +1,9 @@
+question: Hva er hovedmålet til den paranoide bitcoineren?
+answer: For å beskytte personvernet deres
+wrong_answers:
+  - For å samle satoshier raskt
+  - For å maksimere handelsfortjenesten
+  - For å holde bitcoinsene sine langsiktig
+explanation: |
+  Den paranoide bitcoineren ønsker først og fremst å unngå at transaksjonene og identiteten deres kan spores.
+reviewed: false

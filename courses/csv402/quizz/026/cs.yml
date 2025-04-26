@@ -1,0 +1,9 @@
+question: Jaký je účel implementace rozhraní v architektuře RGB?
+answer: Mapování polí schématu na názvy definované v rozhraní
+wrong_answers:
+  - Kompilace skriptů AluVM pro ověření platnosti
+  - Definování globálních stavů a vlastněných stavů smlouvy
+  - Ukládání kryptografických důkazů na straně klienta
+explanation: |
+  Implementace rozhraní vytváří spojení mezi obchodní logikou schématu a prezentací čitelnou rozhraním.
+reviewed: false

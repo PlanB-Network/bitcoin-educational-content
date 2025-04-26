@@ -1,0 +1,5 @@
+---
+term: ECASH (DAVID CHAUM)
+
+---
+Protokol yang diusulkan oleh David Chaum pada tahun 1982, yang merupakan salah satu sistem mata uang digital pertama yang dirancang untuk menjaga anonimitas pengguna. Hal ini didasarkan pada prinsip-prinsip kriptografi kunci publik untuk menciptakan mata uang digital yang dapat ditukar dengan aman dan anonim. eCash beroperasi dengan membuat token digital yang ditandatangani oleh bank. Dengan demikian, ini merupakan evolusi dari bank deposito, tanpa terdesentralisasi. Selama transaksi, token-token ini ditransfer antar pihak tanpa mengungkapkan identitas pengguna, sehingga menjaga privasi mereka. eCash dianggap sebagai pendahulu mata uang digital. Hal ini sering muncul dalam diskusi tentang Bitcoin, dengan beberapa orang ingin menggunakan sistem yang mirip dengan eCash sebagai lapisan di atasnya. Saat ini, trennya lebih mengarah pada apa yang disebut sistem "federasi Chaumian" seperti Fedimint.

@@ -1,0 +1,11 @@
+question: Qual é o modelo específico de correspondência de usuários utilizado pelo JoinMarket?
+
+answer: Mercado P2P entre criadores e tomadores.
+
+wrong_answers:
+  - Servidor que atribui participantes aleatoriamente.
+  - Trocas baseadas em leilões holandeses.
+  - Serviço de mediação que seleciona participantes manualmente.
+
+explanation: |
+  O JoinMarket opera em um mercado de troca P2P onde alguns usuários, os criadores, oferecem seus bitcoins para mistura, enquanto outros, os tomadores, usam esses fundos para realizar coinjoins em troca de uma taxa.

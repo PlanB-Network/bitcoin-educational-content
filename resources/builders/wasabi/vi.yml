@@ -1,6 +1,0 @@
-description: |
-  Ví Wasabi được thiết kế cho những người coi trọng sự riêng tư, trong một thế giới mà việc giám sát và lạm dụng thông tin đang trở nên phổ biến.
-
-  Là một phần mềm không biết gì trước (zero-knowledge), nó đảm bảo rằng các giao dịch bitcoin của người dùng là chuyện riêng tư của họ. Ví Wasabi là mã nguồn mở, cho phép bất kỳ ai cũng có thể xác minh hoặc đóng góp vào mã nguồn. Thiết kế của nó không dựa vào sự tin tưởng, đảm bảo rằng cả công chúng lẫn các nhà phát triển không thể xâm phạm quyền riêng tư của bạn. Ví này là non-custodial, cho phép bạn duy trì quyền kiểm soát đối với các khóa riêng tư và đạt được chủ quyền tài chính thực sự. Mặc dù có các tính năng tiên tiến, Wasabi được thiết kế để thân thiện với người dùng và tự động xử lý vấn đề riêng tư. Nó sử dụng WabiSabi, một lược đồ chứng thực ẩn danh, để làm cho việc coinjoin trở nên dễ dàng và hiệu quả hơn. Hơn nữa, nó có giá cả phải chăng, chỉ tính phí khiêm tốn cho việc coinjoin các đồng tiền trên 0.01 BTC, trong khi các input 0.01 BTC hoặc thấp hơn và việc remix là miễn phí phí điều phối.
-contributors:
-  - rabbit-hole

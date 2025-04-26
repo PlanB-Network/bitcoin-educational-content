@@ -5,5 +5,8 @@ wrong_answers:
   - Baseada em informações pessoais como datas de nascimento e nomes.
   - A mesma senha para todas as contas.
 explanation: |
-  Uma boa senha é longa (pelo menos 12 caracteres), complexa (uma mistura de letras maiúsculas e minúsculas, números e símbolos), única (não reutilizada para diferentes contas) e não baseada em informações pessoais.
-reviewed: false
+  Uma boa senha é longa (pelo menos 12 caracteres), complexa
+  (uma mistura de letras maiúsculas e minúsculas, números e
+  símbolos), única (não reutilizada para diferentes contas) e
+  não baseada em informações pessoais.
+reviewed: true

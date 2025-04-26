@@ -1,0 +1,9 @@
+question: Los raíles de pago construidos sobre sistemas monetarios tradicionales son ?
+answer: Pagado esencialmente por los comerciantes a través de las comisiones de los procesadores de pagos
+wrong_answers:
+  - Esencialmente gratis porque el cliente paga el precio que muestra el comerciante
+  - Pagado por el cliente además del precio de venta del comerciante
+  - Pagado por las empresas de tarjetas que revenden los datos de los clientes
+explanation: |
+  Nada es gratis. Las vías de pago incorporadas en los sistemas monetarios tradicionales son gestionadas por diversos proveedores, como empresas de tarjetas y bancos adquirentes, que cobran una comisión fija y/o un porcentaje por cada transacción
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund dafür, dass die anderen Beale-Chiffren unentschlüsselt bleiben?
+answer: Der Schlüssel zu diesen Chiffren ist immer noch unbekannt
+wrong_answers:
+  - Die verschlüsselten Texte sind zu alt
+  - Die Box ging verloren, bevor sie entschlüsselt werden konnte
+  - Forschern fehlen zuverlässige historische Dokumente
+explanation: |
+  Die anderen Beale-Chiffren konnten nie entschlüsselt werden, weil der notwendige Schlüssel, um sie zu lesen, trotz zahlreicher Versuche unbekannt bleibt.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er hovedformålet med smartkontrakter i RGB-miljøet?
+answer: Implementere automatiserte Bitcoin-avtaler uten et sentralisert register
+wrong_answers:
+  - Tilrettelegging for opprettelse av sentraliserte Bitcoin-registre
+  - Tilby et offentlig grensesnitt for alle Bitcoin-transaksjoner
+  - Forenkling av utførelsen av ERC-20-tokens på Bitcoin
+explanation: |
+  RGB-smartkontrakter gjør det mulig å automatisere avtaler uten bruk av sentraliserte registre, og de baserer seg på Bitcoin som kryptografisk ankerfeste.
+reviewed: false

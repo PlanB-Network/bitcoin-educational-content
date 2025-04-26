@@ -1,0 +1,9 @@
+question: Mikä on keisari Diocletianuksen toteuttaman hintakontrollipolitiikan päätulos?
+answer: Se johti tavarapulaan ja mustan markkinan kasvuun.
+wrong_answers:
+  - Se auttoi vakauttamaan hintoja ja hillitsemään inflaatiota.
+  - Se vahvisti keisarin valtaa ja kasvatti hänen suosiotaan kansan keskuudessa.
+  - Se edesauttoi sotilasresurssien lisääntymistä.
+explanation: |
+  Diocletianuksen hintakontrollipolitiikka loi taloudellisia vääristymiä, aiheuttaen pulaan ja kannustaen mustan markkinan kehittymistä, sillä asetetut hinnat eivät heijastaneet tarjonnan ja kysynnän todellisuutta.
+reviewed: false

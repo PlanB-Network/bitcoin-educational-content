@@ -1,0 +1,9 @@
+question: ¿Qué es la validación del lado del cliente en el protocolo RGB?
+answer: Verificación local de los datos contractuales y las transiciones
+wrong_answers:
+  - Ejecución de contratos inteligentes directamente en la blockchain de Bitcoin
+  - Uso exclusivo de nodos centralizados para validar las transacciones
+  - Restablecimiento automático del historial de contratos en caso de discrepancias
+explanation: |
+  La validación por parte del cliente permite a cada participante verificar de forma independiente que los datos recibidos cumplen las normas definidas en el contrato RGB.
+reviewed: false

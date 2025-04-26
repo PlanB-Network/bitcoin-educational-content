@@ -1,0 +1,5 @@
+---
+term: FPPS (FULL PAY PER SHARE)
+
+---
+Kaivospoolien kaivostyöntekijöiden korvausten laskentamenetelmä. Se on PPS-menetelmän (*Pay Per Share*) kehitys. Siinä louhijoille maksetaan korvausta jokaisesta lähettämästään kelvollisesta osakkeesta, mutta se sisältää myös osan lohkopalkkioista. Korvaus lasketaan aiempien transaktioiden keskiarvon ja poolin hashraten perusteella. Louhijat saavat siis palkkion lähetetyistä osakkeista riippumatta siitä, löytyykö lohko vai ei, mutta tämä menetelmä korvaa myös odotetun arvon. Se tarjoaa louhijoille vakaan ja ennustettavan korvauksen, sillä se poistaa lohkon löytymisen todennäköisyyteen liittyvän vaihtelun, mutta altistaa louhijat markkinapalkkioiden vaihteluille. Se on kuitenkin riskialttiimpi poolin ylläpitäjille, sillä niiden on maksettava louhijoille myös silloin, kun lohkoa ei löydy, ja otettava näin ollen varianssiriski.

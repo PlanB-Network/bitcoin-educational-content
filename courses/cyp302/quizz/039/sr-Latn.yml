@@ -1,0 +1,9 @@
+question: Zašto je teorija brojeva posebno važna u kriptografiji javnog ključa?
+answer: Pruža neophodne matematičke osnove za operacije šifrovanja i dešifrovanja.
+wrong_answers:
+  - Pruža neophodne matematičke osnove za operacije heširanja.
+  - Neophodno je za kreiranje neuronskih mreža.
+  - Omogućava izračunavanje operacija samo u binarnom formatu.
+explanation: |
+  Teorija brojeva je ključna u kriptografiji javnog ključa jer pomaže u strukturiranju algoritama zasnovanih na svojstvima celih brojeva, olakšavajući operacije šifrovanja i dešifrovanja.
+reviewed: false

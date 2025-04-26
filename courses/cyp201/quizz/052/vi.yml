@@ -1,8 +1,9 @@
-question: Vai trò của BIP38 trong hệ thống Bitcoin là gì?
-answer: Nó đề xuất thêm một cụm mật khẩu bổ sung để tăng cường bảo mật cho các khóa cá nhân.
+question: Mục đích của việc sử dụng một ví giả với mật khẩu là gì?
+answer: Để mô phỏng một ví chứa một lượng nhỏ trong trường hợp bị ép buộc về thể chất
 wrong_answers:
-  - Nó giới thiệu cụm từ ghi nhớ 24 từ.
-  - Nó đã làm thay đổi cách tạo và lưu trữ khóa.
-  - Nó chuẩn hóa cấu trúc và hệ thống phân cấp của ví HD.
+  - Thêm một bản sao lưu tự động của các giao dịch
+  - Tạo ra một cụm từ ghi nhớ bổ sung
+  - Bảo vệ UTXOs khỏi việc chi tiêu kép
 explanation: |
-  BIP38 đề xuất thêm một cụm mật khẩu bổ sung để tăng cường bảo mật cho các khóa cá nhân. Đây là một trong nhiều cải tiến được thực hiện nhằm nâng cao bảo mật và chức năng của ví HD.
+  Một ví giả được sử dụng để làm lạc hướng sự chú ý của kẻ tấn công bằng cách cung cấp quyền truy cập vào một ví chứa một lượng nhỏ bitcoin.
+reviewed: false

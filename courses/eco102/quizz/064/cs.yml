@@ -1,0 +1,9 @@
+question: Proč Bastiat kritizuje koncept progresivního redistribučního danění?
+answer: Protože to umožňuje legalizované drancování většinou na úkor menšiny
+wrong_answers:
+  - Protože je neefektivní v generování daňových příjmů
+  - Protože prospívá pouze pracujícím třídám
+  - Protože primárně prospívá soukromým společnostem
+explanation: |
+  Bastiat věří, že progresivní redistribuční daň umožňuje většině využívat menšinu, čímž se daň stává nástrojem legalizovaného drancování.
+reviewed: false

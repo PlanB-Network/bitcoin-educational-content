@@ -1,0 +1,9 @@
+question: Ako posmatramo transakciju sa 6 UTXO-a kao ulazima i samo jednim UTXO kao izlazom, koja verovatna interpretacija se može izvući?
+answer: Svi UTXO-i u ulazima pripadali su istom korisniku, i ovaj korisnik još uvek poseduje UTXO u izlazu.
+wrong_answers:
+  - UTXO-i u ulazima potiču od različitih korisnika koji sarađuju za jednu transakciju.
+  - Svi UTXO-i u ulazima pripadali su istom korisniku, a onaj u izlazu sada pripada drugom korisniku.
+  - UTXO-i u ulazima su došli od 2 različita korisnika, a onaj u izlazu i dalje pripada ovim korisnicima.
+explanation: |
+  Verovatno smo u prisustvu konsolidacije. Stoga, postoji zajednički Ownership ulaza i izlaza.
+reviewed: false

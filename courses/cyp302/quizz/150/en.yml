@@ -1,0 +1,9 @@
+question: In the context of the RSA cryptosystem, what does the product of two prime numbers p and q correspond to?
+answer: It constitutes the integer N used as the modulus for operations
+wrong_answers:
+  - It constitutes the public key
+  - It serves as the decryption key
+  - It is used only to generate the exponent e
+explanation: |
+  In RSA, the integer N is the product of two large prime numbers p and q, and it is used as the modulus for encryption and decryption operations.
+reviewed: false

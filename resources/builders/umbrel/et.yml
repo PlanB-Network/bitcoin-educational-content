@@ -1,6 +1,0 @@
-description: |
-  Umbrel on avatud lähtekoodiga operatsioonisüsteem, mis võimaldab kasutajatel oma kodus isiklikku serverit käitada, pakkudes pilvesalvestuse mugavust koos kohaliku andmesalvestuse privaatsuse ja kontrolliga.
-  
-  Kasutajad saavad ise majutada erinevaid rakendusi, sealhulgas Nextcloud privaatseks pilvesalvestuseks, PhotoPrism fotode ja videote salvestamiseks ning isiklikud Bitcoin ja Lightning sõlmed bitcoin tehingute jaoks. Umbrel sisaldab ka oma rakenduste poodi täiendavate ise majutatavate rakenduste jaoks, reklaamide blokeerimise võimekust ning koduautomaatika integratsioone.
-contributors:
-  - rabbit-hole

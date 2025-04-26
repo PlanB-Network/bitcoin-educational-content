@@ -1,0 +1,9 @@
+question: Jak se jmenoval distribuovaný kreditní protokol, který navrhl Ryan Fugger v roce 2004 a o kterém Satoshi Nakamoto několikrát psal ve svých textech?
+answer: Ripple
+wrong_answers:
+  - Waves
+  - Tsunami
+  - Swell
+explanation: |
+  V roce 2009 Satoshi [napsal](https: //diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html), že Ripple \[byl\] jedinečný tím, že rozšiřoval důvěru místo jejího koncentrování.
+reviewed: false

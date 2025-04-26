@@ -1,11 +1,9 @@
-question: ¿Qué es un cierre forzado?
-answer: Un par quiere cerrar el canal, pero el otro par no responde, así que el primer par publica la transacción de compromiso más reciente.
+question: ¿Cómo permite la tecnología Keysend realizar una transferencia de fondos sin una factura?
+answer: El emisor genera un secreto en los HTLCs para desbloquear los fondos
 wrong_answers:
-  - Ambos pares acuerdan cerrar el canal y crear una transacción de cierre.
-  - Un par intenta hacer trampa publicando una transacción de compromiso antigua.
-  - Ambos pares luchan por los SAT restantes en el canal.
+  - El destinatario genera un hash para validar la transferencia
+  - El pago se valida a través de un canal directo entre emisor y destinatario
+  - Los fondos se acreditan directamente sin seguridad adicional
 explanation: |
-  Un cierre forzado ocurre cuando un par quiere cerrar el canal, pero
-  el otro par no responde porque está desconectado. Entonces, el primer par publica
-  la transacción de compromiso más reciente.
+  Keysend permite al emisor generar un secreto incrustado en los HTLCs, lo que permite al destinatario desbloquear los fondos sin haber emitido una factura.
 reviewed: false

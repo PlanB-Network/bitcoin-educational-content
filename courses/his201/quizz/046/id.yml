@@ -1,0 +1,9 @@
+question: Versi perangkat lunak berapa yang ditampilkan di Slashdot pada Juli 2010?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  Rilis versi ini, yang lama dipersiapkan oleh Satoshi dan Martti, menandai upaya baru dalam komunikasi.
+reviewed: false

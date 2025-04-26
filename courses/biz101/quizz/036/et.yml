@@ -1,0 +1,9 @@
+question: Kuidas aitab Lightning Network kujundada veebikaubanduse ja digitaalsete teenuste tulevikku?
+answer: Võimaldades hõõrdumatuid, koheseid ja loata mikrotehinguid, avades uusi ärimudeleid ja tuluvooge.
+wrong_answers:
+  - Takistades uute ärimudelite tekkimist internetis.
+  - Nõudes kaupmeestelt samade aeglaste ja kulukate makserööbaste kasutamist nagu varem.
+  - Tehes digitaalsete kaupade müümise võimatuks kõrgete tasude tõttu.
+explanation: |
+  Lightning'i võime saata väikseid väärtussummasid koheselt ja odavalt soodustab innovatsiooni sellistes valdkondades nagu tasuline sisu, voogedastuse maksed ja masinate vahelised tehingud, mis võib muuta internetiteenuste rahaks muutmise viisi.
+reviewed: false

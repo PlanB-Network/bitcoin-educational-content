@@ -1,9 +1,9 @@
 question: Jaká je doporučená praxe pro správu hlavního hesla správce hesel?
-answer: Zapište jej na papír a uchovávejte na skrytém a bezpečném místě.
+answer: Zapište si ho na papír a uchovávejte na skrytém a bezpečném místě.
 wrong_answers:
-  - Uložte jej ve svém emailu.
+  - Uložte ho ve svém emailu.
   - Použijte stejné heslo pro všechny účty.
-  - Zapamatujte si jej.
+  - Zapamatujte si ho.
 explanation: |
-  Doporučuje se zapsat hlavní heslo správce hesel na papír, ale mělo by být uchováváno na skrytém a bezpečném místě. Důvodem je, že pokud je pevný disk šifrován a počítač je zamčen, heslo nebude přístupné, ani v případě vloupání.
-reviewed: false
+  Doporučuje se zapsat hlavní heslo správce hesel na papír, ale mělo by být uchováváno na skrytém a bezpečném místě. Důvodem je, že pokud je pevný disk zašifrován a počítač je zamčený, heslo nebude přístupné, ani v případě vloupání.
+reviewed: true

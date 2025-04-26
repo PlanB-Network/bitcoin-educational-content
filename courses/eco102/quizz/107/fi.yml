@@ -1,0 +1,9 @@
+question: Mikä Yhdysvaltain presidentti levitti nuoruudessaan Bastiat'n ideoita yritysseminaareissa?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - George Bush
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan levitti ennen presidentiksi tuloaan Bastiat'n ja muiden taloustieteilijöiden liberaaleja ideoita General Electricin seminaareissa.
+reviewed: false

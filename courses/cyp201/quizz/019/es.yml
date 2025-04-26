@@ -1,9 +1,9 @@
-question: ¿Cuál es el papel de PBKDF2 en el protocolo Bitcoin?
-answer: Se utiliza para convertir una frase mnemotécnica en una semilla.
+question: ¿Qué operación matemática es la base de la seguridad de la criptografía de curva elíptica?
+answer: Problema del logaritmo discreto
 wrong_answers:
-  - Se utiliza para contrarrestar ataques de extensión de longitud al derivar billeteras determinísticas jerárquicamente (HD).
-  - Se utiliza para generar una salida de tamaño fijo.
-  - Se utiliza para agregar una fuente adicional de entropía en la derivación de claves.
+  - Factorización de números primos
+  - Cálculo de residuos cuadráticos
+  - Problema del cubo discreto
 explanation: |
-  PBKDF2 se utiliza para convertir una frase mnemotécnica en una semilla. Este algoritmo realiza 2048 rondas utilizando HMAC SHA512.
+  La seguridad de la criptografía de curva elíptica se basa en la dificultad de resolver el problema del logaritmo discreto en estas curvas.
 reviewed: false

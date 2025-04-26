@@ -1,0 +1,9 @@
+question: Proč lze Lightning Network přirovnat k "e-mailu pro platby"?
+answer: Umožňuje totiž bezproblémovou, globální a neoprávněnou výměnu hodnot stejně snadno jako odeslání zprávy.
+wrong_answers:
+  - Protože odesílá platby prostřednictvím tradičních poskytovatelů e-mailu.
+  - Funguje totiž pouze v případě, že je připojen k běžným e-mailovým zprávám.
+  - Protože ukládá zůstatky uživatelů v těle e-mailu.
+explanation: |
+  Stejně jako e-mail způsobil revoluci v komunikaci tím, že odstranil zprostředkovatele a umožnil komukoli posílat zprávy po celém světě, Lightning Network zjednodušuje a zrychluje transakce a činí přenos hodnot stejně bezproblémovým a dostupným jako e-mail.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Qual è l'importo massimo di acquisto giornaliero per KYC light in Svizzera?
-answer: 1000 euro
-wrong_answers:
-  - 500 euro
-  - 1500 euro
-  - 2000 euro
-explanation: |
-  KYC light in Svizzera consente l'acquisto e la vendita di bitcoin senza fornire l'identificazione, purché l'importo di acquisto non superi i 1000 euro al giorno.
-reviewed: false

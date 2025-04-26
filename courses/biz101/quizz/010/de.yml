@@ -1,0 +1,9 @@
+question: Wie hilft das Lightning Network, die Gebühren für Bitcoin-Transaktionen zu senken?
+answer: Durch die Durchführung der meisten Transaktionen außerhalb der Blockchain und die Veröffentlichung nur der Kanalabrechnungstransaktionen auf der Hauptblockchain.
+wrong_answers:
+  - Durch die Abschaffung jeglicher kryptographischer Überprüfung von Zahlungen.
+  - Durch die Zentralisierung der Kontrolle in einem großen Zahlungszentrum.
+  - Indem sie von den Händlern verlangen, alle Netzkosten im Voraus zu bezahlen.
+explanation: |
+  Da Lightning-Transaktionen außerhalb der Bitcoin-Kette stattfinden, werden nur die endgültigen Kanalzustände auf der Bitcoin-Blockchain abgerechnet. Dies verringert die Überlastung und senkt somit die Gebühren, da viele On-Chain-Transaktionen vermieden werden.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Která z následujících možností nejlépe popisuje způsob, jakým transakce v bitcoinech dosahují konečnosti?
+answer: Jakmile jsou transakce zaznamenány v blockchainu, jsou neměnné a nelze je změnit.
+wrong_answers:
+  - V případě sporu mohou banky transakce stornovat.
+  - Uživatelé musí pro dokončení transakce získat souhlas od více vládních subjektů.
+  - Každý účastník může libovolně upravovat minulé transakce, pokud má speciální kód.
+explanation: |
+  Bitcoin s blockchain je účetní kniha odolná proti manipulaci. Jakmile je transakce potvrzena a zařazena do bloku, stává se součástí trvalého záznamu, čímž je zajištěna její konečnost.
+reviewed: false

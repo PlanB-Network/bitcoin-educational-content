@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan pengarahan bawang (onion routing) di Jaringan Lightning?
+answer: Ini berarti setiap node perantara hanya mengetahui tetangga terdekatnya di jalur tersebut.
+wrong_answers:
+  - Untuk mentransmisikan dana secara langsung dari node ke node dengan mengetahui penerima akhir
+  - Untuk menghitung biaya untuk setiap node perantara secara independen
+  - Untuk mengirim dana ke semua node di jalur secara bersamaan
+explanation: |
+  Pengarahan bawang berarti setiap node perantara hanya mengetahui node sebelumnya dan node selanjutnya, sehingga menjaga kerahasiaan penerima akhir.
+reviewed: false

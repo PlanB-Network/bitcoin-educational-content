@@ -1,0 +1,11 @@
+question: Hvilket av følgende er nødvendig for en vellykket transaksjon i et byttesystem?
+answer: En dobbel tilfeldighet av ønsker
+wrong_answers:
+  - En felles enhet for konto
+  - En sentralbankmyndighet
+  - Et minimumskrav til saldo
+explanation: |
+  I et byttesystem foregår transaksjoner direkte mellom to parter som utveksler varer eller 
+  tjenester uten bruk av penger. En vellykket transaksjon krever en dobbel tilfeldighet av 
+  ønsker, noe som betyr at begge parter må ha noe den andre ønsker å bytte.
+reviewed: true

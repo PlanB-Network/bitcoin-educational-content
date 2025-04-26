@@ -1,0 +1,9 @@
+question: Koja je uloga Bitcoin rudara u svetu energije?
+answer: Bitcoin rudari stalno traže izvore jeftine električne energije, često one koji su neiskorišćeni ili neiskorišteni. Oni mogu delovati kao fleksibilan izvor potražnje, spremni da troše ovu "siroti" električnu energiju, čime pomažu u nadoknadi troškova infrastrukture.
+wrong_answers:
+  - Bitcoin rudari stalno traže izvore obnovljive energije kako bi smanjili svoj karbonski otisak.
+  - Bitcoin rudari stalno traže izvore nuklearne energije za napajanje svojih Mining operacija, jer je to jedini čist i obnovljiv način za proizvodnju energije.
+  - Rudari Bitcoin stalno traže izvore solarne energije za napajanje svojih operacija Mining.
+explanation: |
+  Poglavlje objašnjava da Bitcoin rudari konstantno traže izvore jeftine električne energije, često one koji su protraćeni ili neiskorišćeni. Oni mogu delovati kao fleksibilan izvor potražnje, spremni da konzumiraju ovu napuštenu električnu energiju, čime pomažu u nadoknadi troškova infrastrukture.
+reviewed: true

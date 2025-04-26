@@ -1,9 +1,14 @@
 question: Pourquoi les bitcoins vierges sont-ils particulièrement recherchés par les grands acteurs institutionnels ?
-answer: Ils peuvent garantir la légitimité de leurs actifs numériques aux autorités réglementaires.
+answer: Ils peuvent garantir la légitimité de leurs actifs numériques auprès des autorités réglementaires.
 wrong_answers:
   - Ils peuvent les vendre à un prix plus élevé.
   - Ils peuvent les utiliser pour des activités illégales.
-  - Ils peuvent éviter de payer des impôts sur eux.
+  - Ils peuvent éviter de payer des impôts dessus.
 explanation: |
-  Les bitcoins vierges sont particulièrement recherchés par les grands acteurs institutionnels car ils peuvent garantir la légitimité de leurs actifs numériques aux autorités réglementaires. Ces bitcoins n'ont jamais été "contaminés", offrant ainsi une certaine garantie contre le rejet par les régulateurs ou les principales plateformes d'échange.
-reviewed: false
+  Les bitcoins vierges sont particulièrement recherchés par les grands
+  acteurs institutionnels car ils peuvent garantir la
+  légitimité de leurs actifs numériques auprès des
+  autorités réglementaires. Ces bitcoins n'ont jamais été entachés,
+  offrant une certaine garantie contre le rejet par les régulateurs ou
+  les principales plateformes d'échange.
+reviewed: true

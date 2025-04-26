@@ -1,11 +1,12 @@
 question: ¿Cuál es el propósito del protocolo HTTPS?
-answer: El protocolo HTTPS se utiliza para cifrar los datos en los sitios web, asegurando que los datos intercambiados entre el usuario y el sitio web sean seguros. Esto ayuda a proteger contra terceros que intercepten los datos.
+answer: Encripta los datos en los sitios web para asegurar un intercambio seguro entre el usuario y el sitio web.
 wrong_answers:
-  - Permite a los usuarios evitar restricciones geográficas.
-  - Permite a los usuarios bloquear anuncios en línea.
-  - Permite a los usuarios acceder a Internet sin utilizar datos.
+  - Permite a los usuarios eludir restricciones geográficas cuando se trata de pagar con tarjeta de débito o crédito.
+  - Permite a los usuarios bloquear parcialmente la publicidad en línea.
+  - Permite a los usuarios acceder a internet sin utilizar credenciales privadas.
 explanation: |
-  El protocolo HTTPS se utiliza para cifrar datos en sitios web, garantizando que
-  los datos intercambiados entre el usuario y el sitio web son seguros. Esto ayuda a proteger
-  de que terceros intercepten los datos.  
-reviewed: false
+  El protocolo HTTPS se utiliza para encriptar datos en los sitios web,
+  asegurando que los datos intercambiados entre el usuario y el
+  sitio web sean seguros. Esto ayuda a proteger contra la interceptación
+  de los datos por parte de terceros.
+reviewed: true

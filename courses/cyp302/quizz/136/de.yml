@@ -1,0 +1,13 @@
+question: Wie überprüft ein Online-Dienst ein Passwort, ohne es direkt zu speichern?
+
+answer: Indem der Hash des eingegebenen Passworts mit dem in der Datenbank verglichen wird
+
+wrong_answers:
+  - Indem das gespeicherte Passwort entschlüsselt wird, um es zu überprüfen
+  - Indem ein öffentlicher Schlüssel zur Überprüfung der Identität verwendet wird
+  - Indem das Passwort direkt mit dem anderer Benutzer verglichen wird
+
+explanation: |
+  Der Dienst generiert einen Hash des eingegebenen Passworts und vergleicht diesen mit dem gespeicherten, ohne jemals das Passwort direkt zu speichern, was eine erhöhte Sicherheit gewährleistet.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on Lord Actonin keskeinen teesi historiasta?
+answer: Vapauden ja vallan välinen konflikti on edistyksen ja yhteiskuntien kehityksen ajava voima.
+wrong_answers:
+  - Edistyminen on lineaarista ja väistämätöntä, johtaen vapauteen ja tasa-arvoon perustuvaan yhteiskuntaan.
+  - Historia on toistojen sykli, jossa vapauden kaudet seuraavat tyrannian kausia.
+  - Taloudelliset tekijät ovat historian kulun pääasiallisia määrittäjiä.
+explanation: |
+  Lord Acton väittää, että historiaa leimaa ensisijaisesti vapauden ja vallan välinen konflikti, pitäen tätä kamppailua olennaisena edistykselle ja yhteiskuntien kehittymiselle kohti suurempaa yksilön vapautta.
+reviewed: false

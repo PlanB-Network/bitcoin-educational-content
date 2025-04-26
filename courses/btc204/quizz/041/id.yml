@@ -1,0 +1,8 @@
+question: Apa kelemahan utama dari Mesin Teller Otomatis (ATM)?
+answer: Sering kali biaya yang sangat tinggi.
+wrong_answers:
+  - Membutuhkan koneksi internet yang cepat.
+  - Kurangnya dukungan untuk mata uang lokal.
+  - Keamanan transaksi tidak dijamin.
+explanation: |
+  Membeli bitcoin melalui ATM merupakan solusi menarik untuk privasi pengguna, namun kelemahan utamanya adalah mereka seringkali membebankan biaya yang sangat tinggi.

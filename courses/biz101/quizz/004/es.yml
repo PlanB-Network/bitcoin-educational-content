@@ -1,0 +1,9 @@
+question: ¿Qué caracteriza la complejidad del actual proceso de pago con tarjeta en un punto de venta minorista?
+answer: Implica múltiples intermediarios, varios pasos y puede tardar días en liquidar completamente los fondos.
+wrong_answers:
+  - Sólo requiere un paso instantáneo y los fondos se liquidan de inmediato.
+  - Se basa exclusivamente en efectivo físico y sin intermediarios.
+  - Garantiza que, una vez pasada la tarjeta, el comerciante disponga de los fondos de forma instantánea e irreversible.
+explanation: |
+  Los pagos con tarjeta suelen implicar una cadena de intermediarios (adquirentes, emisores, redes de tarjetas), requieren pasos de autorización y liquidación, y pueden tardar entre 48 horas y varios días antes de que el comerciante reciba los fondos netos.
+reviewed: false

@@ -1,10 +1,13 @@
 question: Miksi on turvallisempaa käyttää eurooppalaisia Wi-Fi-yhteyspisteen tarjoajia, kuten SNCF?
-answer: He eivät myy käyttäjien yhteystietoja GDPR-säädösten vuoksi.
+answer: He eivät yleensä saa myydä käyttäjien yhteystietoja eteenpäin GDPR-säädösten vuoksi.
 wrong_answers:
-  - He tarjoavat nopeamman internet-yhteyden.
-  - He mahdollistavat käyttäjien kiertää maantieteellisiä rajoituksia.
-  - He estävät verkossa olevia mainoksia.
+  - Ne tarjoavat nopeamman internet-yhteyden verrattuna amerikkalaisiin tarjoajiin.
+  - Ne usein sallivat käyttäjien kiertää maantieteellisiä rajoituksia.
+  - Ne estävät verkossa olevat mainokset, jos sinut on tunnistettu eurooppalaiseksi kansalaiseksi.
 explanation: |
-  Euroopan unionissa tietosuojaa säätelee Yleinen tietosuoja-asetus (GDPR). Siksi eurooppalaiset Wi-Fi-yhteyspisteen tarjoajat,
-  kuten SNCF, eivät myy käyttäjien yhteystietoja, mikä tekee niiden käytöstä turvallisempaa.
-reviewed: false
+  Euroopan unionissa tietosuojaa säännellään
+  Yleisellä tietosuoja-asetuksella (GDPR). Siksi
+  eurooppalaiset Wi-Fi-yhteyspisteen tarjoajat, kuten SNCF, eivät
+  myy käyttäjien yhteystietoja eteenpäin, mikä tekee niiden käytöstä turvallisempaa
+  henkilökohtaisen yksityisyyden näkökulmasta.
+reviewed: true

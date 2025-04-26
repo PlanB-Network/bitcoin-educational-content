@@ -1,11 +1,9 @@
-question: What is the role of BIP39 in the Bitcoin ecosystem?
-answer: It introduced the 24-word mnemonic phrase to transform complex sequences of digits into ordinary words.
+question: What is a good practice for securing a passphrase?
+answer: Save it on a separate physical medium from the mnemonic phrase
 wrong_answers:
-  - It introduced the concept of deterministically and hierarchically derived keys.
-  - It proposed adding an additional passphrase to reinforce the security of individual keys.
-  - It standardized the structure and hierarchy of HD wallets.
+  - Memorize it only by heart without noting it down
+  - Save it on the same physical medium as the mnemonic phrase
+  - Record it on a digital medium like Google Drive
 explanation: |
-  BIP39 introduced a landmark innovation; the 24-word mnemonic phrase.
-  This system made it possible to transform a complex, hard-to-remember sequence of
-  digits into a series of ordinary words, much easier to memorize and store.
+  The passphrase must be saved physically and separate from the mnemonic phrase to prevent simultaneous theft of both.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Miner 的典型成本是多少？
+answer: 電力消耗和硬體購買。
+wrong_answers:
+  - 僅購買硬體。
+  - 交易費用。
+  - 電力消耗和交易費用。
+explanation: >-
+reviewed: false

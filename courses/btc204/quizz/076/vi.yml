@@ -1,0 +1,13 @@
+question: Giao dịch coinjoin là gì?
+
+answer: Một giao dịch hợp tác nơi nhiều người dùng kết hợp các UTXO của họ.
+
+wrong_answers:
+  - Một giao dịch hợp tác chỉ giữa hai người dùng.
+  - Một giao dịch nơi một người dùng gửi tiền đến nhiều địa chỉ.
+  - Một giao dịch nơi một nhân vật trung tâm trộn bitcoin của khách hàng của họ.
+
+explanation: |
+  Giao dịch coinjoin là một giao dịch hợp tác trong đó nhiều người dùng trộn các đồng tiền của họ.
+
+reviewed: false

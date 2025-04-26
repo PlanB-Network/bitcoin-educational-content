@@ -6,7 +6,7 @@ Coinjoin is a technique used to break the traceability of bitcoins. It relies on
 
 The general operation of coinjoin is as follows: different users wishing to mix deposit an amount as input of a transaction. These inputs will come out as different outputs of the same amount. At the end of the transaction, it is impossible to determine which output belongs to which user. There is technically no link between the inputs and outputs of the coinjoin transaction. The link between each user and each UTXO is broken, in the same way that the history of each coin is.
 
-![](../../dictionnaire/assets/4.png)
+![](../../dictionnaire/assets/4.webp)
 
 To allow for coinjoin without any user losing control over their funds at any time, the transaction is first constructed by a coordinator and then transmitted to each user. Each one then signs the transaction on their side after verifying that it suits them, and then all the signatures are added to the transaction. If a user or the coordinator attempts to steal the funds of others by modifying the outputs of the coinjoin transaction, then the signatures will be invalid and the transaction will be rejected by the nodes. When the recording of the participants' output is done using Chaum's blind signatures to avoid the link with the input, this is referred to as "Chaumian coinjoin".
 

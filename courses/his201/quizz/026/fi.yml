@@ -1,0 +1,9 @@
+question: Mikä elementti puuttui Bitcoinin suunnittelusta 31. lokakuuta 2008?
+answer: Rajallinen määrä yksiköitä
+wrong_answers:
+  - Proof of work
+  - Yksinkertaistettu maksuvahvistus
+  - Lohkoketju
+explanation: |
+  Alkuperäinen rahapolitiikka vastasi jatkuvaa liikkeeseenlaskua (X BTC/lohko), kuten ensimmäisessä white paperissa ja Satoshin [vaihdoissa](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) Ray Dillingerin kanssa mainittiin.
+reviewed: false

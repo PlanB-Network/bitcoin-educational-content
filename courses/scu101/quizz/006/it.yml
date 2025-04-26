@@ -5,5 +5,8 @@ wrong_answers:
   - Programmi che tracciano la tua attività online.
   - Virus che possono danneggiare il tuo dispositivo.
 explanation: |
-  Nel contesto della navigazione online, i cookie sono file creati dai siti web per memorizzare informazioni sul tuo dispositivo. Vengono utilizzati per ricordare le tue preferenze, le informazioni di accesso e altri dati al fine di migliorare la tua esperienza di navigazione.
-reviewed: false
+  Nel contesto della navigazione online, i cookie sono file
+  creati dai siti web per memorizzare informazioni sul tuo dispositivo.
+  Sono utilizzati per ricordare le tue preferenze, le informazioni di accesso
+  e altri dati per migliorare la tua esperienza di navigazione.
+reviewed: true

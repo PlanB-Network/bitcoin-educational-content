@@ -3,7 +3,7 @@ answer: Bởi vì đó là một loại tiền tệ thực sự được sử d�
 wrong_answers:
   - Bởi vì nó thực sự không được sử dụng ở bất cứ đâu.
   - Bởi vì nó được kiểm soát bởi một cơ quan trung ương.
-  - Bởi vì nó dễ dàng bị làm giả.
+  - Bởi vì nó dễ bị làm giả.
 explanation: >-
   Bitcoin không phải là bong bóng sẽ biến mất mà là một loại tiền tệ thực sự được sử dụng khắp nơi trên thế giới.
-reviewed: false
+reviewed: true

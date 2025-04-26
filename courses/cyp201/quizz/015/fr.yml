@@ -1,9 +1,9 @@
-question: Quelle est la taille de sortie de la fonction de hachage SHA256 ?
-answer: 256 bits
+question: Quel type de clé est utilisée pour verrouiller les UTXOs sur Bitcoin ?
+answer: Clé publique
 wrong_answers:
-  - 512 bits
-  - 128 bits
-  - 1024 bits
+  - Clé privée
+  - Hachage de graine
+  - Phrase mnémonique
 explanation: |
-  La fonction de hachage SHA256 génère un hachage de 256 bits à partir d'une entrée de taille variable. C'est pourquoi elle est appelée SHA256.
+  Les UTXOs sont verrouillés avec une clé publique ou son hachage, et déverrouillés avec la clé privée correspondante.
 reviewed: false

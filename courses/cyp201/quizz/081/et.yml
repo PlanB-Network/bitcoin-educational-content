@@ -1,0 +1,8 @@
+question: Mis on P2WPKH skriptide peamine uudsus võrreldes P2PKH-ga?
+answer: Allkirjad on viidud tunnistaja väljale.
+wrong_answers:
+  - Aadressid on kodeeritud base58check formaadis.
+  - scriptPubKey sisaldab privaatvõtme räsi.
+  - P2WPKH ei ühildu SegWit'iga.
+explanation: |
+  P2WPKH, mis tutvustati koos SegWit'iga, viib allkirjad eraldi sektsiooni nimega Witness, et vältida tehingute muudetavust.

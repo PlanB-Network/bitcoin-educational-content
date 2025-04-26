@@ -1,11 +1,9 @@
-question: Điều gì xảy ra với giao dịch rút tiền sau một chuyển khoản qua Lightning Network?
-answer: Nó được cập nhật để phản ánh số dư mới của kênh.
+question: Tác động kết hợp của khóa thời gian và khóa thu hồi đối với giao dịch cam kết là gì?
+answer: Chúng ngăn chặn người tham gia gian lận bằng cách áp dụng hình phạt ngay lập tức
 wrong_answers:
-  - Giao dịch được thực hiện và số tiền được chuyển.
-  - Nó được loại bỏ và một giao dịch mới được tạo ra.
-  - Nó vẫn giữ nguyên như cũ.
+  - Chúng giảm khả năng của kênh trong trường hợp gian lận
+  - Chúng tự động khóa số tiền của bên có lỗi
+  - Chúng buộc phải mở một kênh mới nếu giao dịch không chính xác
 explanation: |
-  Sau một chuyển khoản qua Lightning Network, giao dịch rút tiền được cập nhật
-  để phản ánh số dư mới của kênh. Giao dịch này không được thực hiện trừ khi
-  kênh được đóng lại.
+  Khóa thời gian và khóa thu hồi ngăn chặn người tham gia gian lận bằng cách đảm bảo rằng bất kỳ nỗ lực gian lận nào cũng dẫn đến việc mất tiền ngay lập tức cho bên có lỗi.
 reviewed: false

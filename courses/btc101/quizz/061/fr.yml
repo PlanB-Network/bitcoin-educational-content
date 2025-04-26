@@ -1,9 +1,11 @@
-question: Quel est l'événement appelé lorsque la récompense pour le minage est réduite de moitié ?
+question: Quel est le nom de l'événement lors duquel la récompense pour le minage est divisée par deux ?
 answer: Halving
 wrong_answers:
-  - Doublage
-  - Quartage
-  - Triplage
+  - Doubling
+  - Quartering
+  - Tripling
 explanation: |
-  L'événement lorsque la récompense pour le minage est réduite de moitié s'appelle le halving. Cet événement donne à la courbe d'émission monétaire une forme en escalier.
-reviewed: false
+  L'événement lors duquel la récompense pour le minage est divisée par deux est appelé
+  halving. Cet événement donne à la courbe d'émission monétaire une
+  forme d'escalier.
+reviewed: true

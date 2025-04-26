@@ -1,0 +1,9 @@
+question: Apa insentif ekonomi untuk menggunakan penambang Bitcoin dibandingkan dengan pemanas listrik biasa?
+answer: Penambang tidak hanya menyediakan panas tetapi juga hadiah Bitcoin.
+wrong_answers:
+  - Penambang menggunakan listrik lebih sedikit daripada pemanas listrik biasa.
+  - Penambang menghasilkan panas lebih banyak daripada pemanas listrik biasa.
+  - Penambang lebih murah daripada pemanas listrik biasa.
+explanation: |
+  Perbedaan antara menggunakan penambang dan pemanas listrik biasa terletak pada fakta bahwa penambang tidak hanya menyediakan panas tetapi juga hadiah Bitcoin. Hadiah tambahan ini dapat membantu meredakan kekhawatiran tentang konsumsi energi tinggi dari penambang.
+reviewed: true

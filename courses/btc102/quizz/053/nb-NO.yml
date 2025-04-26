@@ -1,0 +1,9 @@
+question: Hvilken tjeneste viser forhandlere som godtar Bitcoin over hele verden?
+answer: BTC-kart
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Sveitsisk Bitcoin-lønn
+explanation: |
+  BTC Map er en dedikert plattform som lokaliserer selgere som aksepterer Bitcoin rundt om i verden.
+reviewed: false

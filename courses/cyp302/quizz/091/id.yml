@@ -1,0 +1,9 @@
+question: Apa perbedaan utama antara primitive stream cipher dan block cipher stream cipher?
+answer: Primitive stream cipher tidak dibangun dari block cipher.
+wrong_answers:
+  - Primitive stream cipher memerlukan padding pada pesan.
+  - Block cipher stream cipher menggunakan blok dengan ukuran yang bervariasi.
+  - Block cipher stream cipher tidak dapat digunakan untuk data besar.
+explanation: |
+  Primitive stream cipher, seperti Salsa20, dirancang secara independen dari block cipher, sementara block cipher stream cipher menggunakan block cipher sebagai dasarnya, dimodifikasi untuk menghasilkan aliran enkripsi.
+  direview: false

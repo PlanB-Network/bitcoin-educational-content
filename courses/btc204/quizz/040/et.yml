@@ -1,0 +1,9 @@
+question: Miks on bitcoine, mis on ostetud P2P vahetustest, tihti kallimad kui need, mis on ostetud reguleeritud platvormidelt?
+answer: Lisariskid, tehingutasud ja privaatsuse eest makstav preemia.
+wrong_answers:
+  - Turu volatiilsus, topeltkulutamise riskid ja õiguslik vastavus.
+  - Registreerimistasud, piiratud valikud ja pikem valideerimisaeg.
+  - Registreerimistasud, ranged regulatsioonid ja madal turvalisus.
+explanation: |
+  Bitcoine, mis on müüdud P2P platvormidel, on üldiselt kallimad kui need, mis pärinevad reguleeritud platvormidelt. See hinnavahe tuleneb mitmest tegurist: müüja võtab enda peale rohkem riske, samuti peab ta katma lisakulud, ja vahetus pakub ostjale kõrgemat privaatsuse taset.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je hlavní funkce semínka v kontextu pseudonáhodných řetězců?
+answer: Sloužit jako výchozí bod pro generování delšího řetězce
+wrong_answers:
+  - Určit pevnou délku pseudonáhodného řetězce
+  - Ověřit integritu pseudonáhodného řetězce
+  - Přidat uniformní rozdělení hodnot řetězce
+explanation: |
+  Semínko je kratší řetězec používaný jako výchozí bod algoritmem rozšíření pro generování delšího pseudonáhodného řetězce.
+reviewed: false

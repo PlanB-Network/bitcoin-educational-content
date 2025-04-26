@@ -1,9 +1,9 @@
-question: Mikä on ero sulkeutumistransaktion ja sitoutumistransaktion välillä yhteistyöllisessä sulkemisessa?
-answer: Sulkeutumistransaktiolla ei ole aikalukkoa eikä kumoamisavainta.
+question: Miksi lähettävän solmun on vaikea arvioida kanavan tarkan likviditeetin?
+answer: Koska vain kaksi osallistujaa tietää varojen tarkan jakautumisen
 wrong_answers:
-  - Sulkeutumistransaktiolla on aikalukko ja kumoamisavain.
-  - Sulkeutumistransaktio on hitaampi kuin sitoutumistransaktio.
-  - Sulkeutumistransaktio on kalliimpi kuin sitoutumistransaktio.
+  - Koska kanavien kokonaiskapasiteetti muuttuu jatkuvasti
+  - Koska välisolmujen maksut eivät ole julkisia
+  - Koska kanavat sulkeutuvat automaattisesti jokaisen siirron jälkeen
 explanation: |
-  Yhteistyöllisessä sulkemisessa kaksi osapuolta sopivat kanavan lopullisesta tilasta ja luovat sulkeutumistransaktion. Tämä transaktio eroaa sitoutumistransaktioista, koska sillä ei ole aikalukkoa eikä kumoamisavainta.
+  Tarkan varojen jakautumisen kanavassa näkevät vain kaksi osallistuvaa solmua, mikä estää muita solmuja arvioimasta saatavilla olevaa likviditeettiä reititystä varten.
 reviewed: false

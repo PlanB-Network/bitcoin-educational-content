@@ -1,0 +1,9 @@
+question: Mikä on italialainen kauppakaupunki, jonka Henri Pirenne pitää nousevan kapitalismin kehtona?
+answer: Venetsia.
+wrong_answers:
+  - Genova.
+  - Firenze.
+  - Kaikki yllä mainitut.
+explanation: |
+  Henri Pirenne pitää Venetsiaa kapitalismin kehtona sen keskeisen roolin vuoksi merikaupassa ja sen varhaisessa kehityksessä edistyneissä kaupallisissa käytännöissä, kuten yhtiökumppanuuksissa ja luotossa.
+reviewed: false

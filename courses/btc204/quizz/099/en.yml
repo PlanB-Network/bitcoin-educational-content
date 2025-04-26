@@ -1,0 +1,13 @@
+question: What does retrospective anonset measure?
+
+answer: The resistance of privacy against a present-to-past analysis.
+
+wrong_answers:
+  - The resistance of privacy against a past-to-future analysis.
+  - The resistance of privacy against a present-to-future analysis.
+  - The resistance of privacy against a past-to-present analysis.
+
+explanation: |
+  The retrospective anonset measures the resistance of a coin's privacy against a present-to-past analysis (output to input).
+
+reviewed: false

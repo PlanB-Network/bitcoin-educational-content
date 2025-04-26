@@ -1,0 +1,9 @@
+question: Quel type de groupe utilise principalement la cryptographie ?
+answer: Les groupes définis sur les entiers ou des éléments décrits par des entiers
+wrong_answers:
+  - Les groupes de nombres complexes ou des éléments décrits par des nombres complexes
+  - Les groupes de transformations géométriques ou des éléments décrits par des transformations géométriques
+  - Les groupes de nombres rationnels ou des éléments décrits par des nombres rationnels
+explanation: |
+  La cryptographie utilise les groupes basés sur les entiers, ou des éléments décrits par des entiers comme les points d'une courbe elliptique, pour les opérations de chiffrement et de signature.
+reviewed: false

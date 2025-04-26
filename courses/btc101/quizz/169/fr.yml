@@ -1,9 +1,12 @@
-question: Comment le protocole Bitcoin récompense-t-il le mineur qui trouve un hachage valide pour le prochain bloc ?
-answer: Avec une récompense définie par les règles de consensus et les frais de transaction de toutes les transactions incluses dans le bloc valide.
+question: Comment le protocole Bitcoin récompense-t-il le mineur qui trouve un hash valide pour le bloc suivant ?
+answer: Avec une récompense définie par les règles de consensus, et avec les frais de toutes les transactions incluses dans le bloc valide.
 wrong_answers:
-  - Avec une quantité fixe de Bitcoin
-  - Avec un pourcentage de l'offre totale de Bitcoin
-  - Avec les frais de transaction de toutes les transactions incluses dans le bloc valide
+  - Avec une quantité fixe de bitcoins non définie par les règles de consensus.
+  - Avec un pourcentage du total de l'offre de Bitcoin et les frais de toutes les transactions incluses dans les blocs précédents.
+  - Avec les frais de toutes les transactions incluses dans le bloc valide.
 explanation: |
-  Le protocole Bitcoin récompense le mineur qui trouve un hachage valide pour le prochain bloc avec une récompense dont le montant est défini par les règles de consensus, ainsi que les frais de transaction de toutes les transactions incluses dans le bloc valide.
-reviewed: false
+  Le protocole Bitcoin récompense le mineur qui trouve un hash
+  valide pour le bloc suivant avec une récompense dont le montant est
+  défini par les règles de consensus, en plus des frais de
+  toutes les transactions incluses dans le bloc valide.
+reviewed: true

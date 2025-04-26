@@ -1,9 +1,9 @@
-question: Come viene determinata la dimensione del checksum nella generazione di una frase mnemonica per un portafoglio Bitcoin?
-answer: Dividendo la dimensione dell'entropia per 32.
+question: Qual è lo scopo dell'indice nella derivazione delle chiavi figlie?
+answer: Distinguere le coppie di chiavi fratello
 wrong_answers:
-  - Moltiplicando la dimensione dell'entropia per 32.
-  - Aggiungendo 32 alla dimensione dell'entropia.
-  - Sottraendo 32 dalla dimensione dell'entropia.
+  - Identificare la natura della chiave (pubblica o privata)
+  - Specificare il livello di sicurezza della chiave
+  - Aggiungere un ulteriore livello di sicurezza
 explanation: |
-  La dimensione del checksum viene determinata dividendo la dimensione dell'entropia per 32. Ad esempio, un'entropia di 256 bit genera un checksum di 8 bit.
-reviewed: false
+  L'indice consente di differenziare le chiavi figlie derivate dalla stessa coppia genitore.
+recensito: false

@@ -1,0 +1,13 @@
+question: Minkä heuristisen analyysin avulla payjoin-siirto toimii harhautuksena analyysille?
+
+answer: CIOH
+
+wrong_answers:
+  - Osoitteen uudelleenkäyttö
+  - Lompakon sormenjäljitys
+  - Version uudelleenkäyttö
+
+explanation: |
+  Kun analyytikko tutkii payjoin-siirtoa, hän uskoo kaikkien syötteiden tulevan samalta henkilöltä CIOH: n vuoksi. Tämä käsitys on kuitenkin väärä, sillä maksun vastaanottaja myös osallistuu syötteisiin yhdessä varsinaisen maksajan kanssa. Näin ollen ketjuanalyysi ohjautuu tulkintaan, joka osoittautuu vääräksi.
+
+reviewed: false

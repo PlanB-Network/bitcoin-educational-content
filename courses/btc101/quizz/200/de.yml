@@ -1,9 +1,12 @@
-question: Was ist ein spontaner Kauf?
-answer: Bitcoin sofort kaufen, um Exposition zu gewinnen.
+question: Was ist ein Spontankauf?
+answer: Sofortiges Kaufen von Bitcoin, um eine Exposition zu erlangen.
 wrong_answers:
   - Bitcoin in regelmäßigen Abständen kaufen.
   - Bitcoin nur kaufen, wenn der Preis fällt.
   - Bitcoin nur kaufen, wenn der Preis steigt.
 explanation: |
-  Der Text erklärt, dass ein spontaner Kauf verwendet wird, um sofort Exposition gegenüber Bitcoin zu gewinnen. Dies könnte während eines Crashs geschehen oder um von einem Bonus zu profitieren.
-reviewed: false
+  Der Kursinhalt erklärt, dass ein Spontankauf dazu dient,
+  sofort eine Exposition gegenüber Bitcoin zu erlangen. Zum Beispiel
+  könnte dies bedeuten, während eines Crashs zu kaufen oder einen
+  Bonus zu nutzen.
+reviewed: true

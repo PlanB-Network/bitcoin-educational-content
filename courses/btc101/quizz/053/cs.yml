@@ -1,9 +1,11 @@
-question: V kterém případě byla pozorována ekvivalentní denní míra inflace 100%?
-answer: Ve Zimbabwe, 2007
+question: Existuje historický případ, kdy denní míra inflace dosáhla ekvivalentu 100 %; kde a kdy se to stalo?
+answer: Ve Zimbabwe, 2007.
 wrong_answers:
-  - V Maďarsku, 1945
-  - V Číně, 1940
-  - To je nerealistický případ, který nemůže nastat
+  - V Maďarsku, 1945.
+  - V Číně, 1940.
+  - Jedná se ve skutečnosti o nerealistický případ, který se nemůže stát.
 explanation: |
-  100% inflace za den je realistický scénář, který se stal ve Zimbabwe v roce 2007, kdy hodnota peněz se přibližně každých 24 hodin zdvojnásobila.
-reviewed: false
+  Denní míra inflace 100 % je realistický scénář, který
+  se odehrál ve Zimbabwe v roce 2007, kde hodnota peněz se přibližně
+  zdvojnásobila každých 24 hodin.
+reviewed: true

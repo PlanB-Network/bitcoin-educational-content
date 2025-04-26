@@ -1,0 +1,8 @@
+question: Miks väidavad austerlased, et sotsialismi on võimatu saavutada?
+answer: Nad väidavad, et sotsialism on majanduslikult ebaefektiivne, kuid moraalselt õigustatud.
+wrong_answers:
+  - Sotsialism on vastuolus loodusega.
+  - Sotsialism on majanduslikult efektiivne, kuid ebamoraalne.
+  - Austerlased kritiseerivad sotsialismi, kuna see ei võimalda innovatsiooni ja rikkuse loomist.
+explanation: |
+  Austria koolkonna majandusteadlased peavad sotsialismi majanduslikult ebaefektiivseks vaba hinnamehhanismi puudumise tõttu, mis on vajalik majanduse efektiivseks koordineerimiseks, kuigi nad mõnikord tunnistavad selle moraalseid kavatsusi.

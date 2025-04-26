@@ -1,0 +1,9 @@
+question: 挖矿为比特币确立了什么？
+answer: 一个底价
+wrong_answers:
+  - 一个最高价
+  - 一个固定价格
+  - 一个可变价格
+explanation:
+  挖矿为比特币确立了一个底价，低于此价格，矿工将会亏损出售。挖矿的成本显著影响比特币的价格。
+reviewed: true

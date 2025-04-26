@@ -1,0 +1,11 @@
+question: Какие два основных варианта смарт-контрактов используются в coinswaps?
+
+answer: HTLC и PTLC
+
+wrong_answers:
+  - Мультиподпись и Одиночная подпись
+  - Смарт-контракты и DApps
+  - SegWit и Taproot
+
+explanation: |
+  Для выполнения coinswap можно использовать HTLC (Hash Time-Locked Contracts) или PTLC (Point Time-Locked Contracts).

@@ -1,11 +1,9 @@
-question: What is the role of BIP38 in the Bitcoin ecosystem?
-answer: It proposed adding an additional passphrase to reinforce the security of individual keys.
+question: What is the purpose of using a decoy wallet with a passphrase?
+answer: To simulate a wallet with a small amount in case of physical coercion
 wrong_answers:
-  - It introduced the 24-word mnemonic phrase.
-  - It revolutionized the way keys are generated and stored.
-  - It standardized the structure and hierarchy of HD wallets.
+  - Add an automatic backup of transactions
+  - Generate an additional mnemonic phrase
+  - Protect UTXOs from a double spend
 explanation: |
-  BIP38 proposed adding an additional passphrase to reinforce the security
-  of individual keys. This is one of the many improvements made to enhance the security
-  and functionality of HD wallets.
+  A decoy wallet is used to divert an attacker's attention by providing access to a wallet containing a small amount of bitcoins.
 reviewed: false

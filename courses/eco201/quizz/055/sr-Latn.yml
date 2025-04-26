@@ -1,0 +1,10 @@
+question: Koja je uloga aksioma u austrijskom ekonomskom razmišljanju?
+answer: Aksiomi su fundamentalni Elements iz kojih se mogu izvoditi logički zaključci.
+wrong_answers:
+  - Aksiomi su irelevantni u austrijskom ekonomskom razmišljanju.
+  - Aksiomi se koriste za uspostavljanje odnosa između varijabli na osnovu empirijskih podataka.
+  - Aksiomi se koriste za potvrđivanje ili odbacivanje hipoteza kroz privremene eksperimente.
+explanation: |
+  U austrijskom ekonomskom razmišljanju, aksiomi igraju ključnu ulogu. Oni su
+  fundamentalni Elements iz kojih se mogu izvoditi logički zaključci.
+reviewed: true

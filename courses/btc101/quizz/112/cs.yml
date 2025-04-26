@@ -1,12 +1,15 @@
-question: Proč kupovat bitcoiny bez KYC?
-answer: Aby bylo zajištěno vaše soukromí
+question: Proč byste měli kupovat bitcoiny bez KYC?
+answer: Aby bylo zajištěno vaše soukromí.
 wrong_answers:
-  - Aby byla zajištěna registrace všech uživatelů Bitcoinu
-  - Koupit za nízkou cenu
-  - Prodat za nízkou cenu
-explanation: >-
-  Koupě bitcoinů bez KYC znamená získání bitcoinů bez nutnosti projít standardními 
-  procedurami ověření Know Your Customer, které mnoho burz a platforem vyžaduje.
-  Jedním z hlavních důvodů, proč by se jednotlivci mohli rozhodnout pro tuto cestu, je udržení jejich soukromí,
-  čímž zajistí, že jejich osobní údaje a finanční aktivity zůstanou nezveřejněné.
+  - Aby byla zajištěna registrace všech uživatelů Bitcoinu.
+  - Aby byly koupeny za nízkou cenu.
+  - Aby byly prodány za nízkou cenu.
+explanation: |
+  Koupě bitcoinů bez KYC znamená získání bitcoinů bez
+  procházení standardními procedurami ověřování Know Your Customer
+  (Poznej svého zákazníka), které mnoho burz a platforem
+  vyžaduje. Jedním z hlavních důvodů, proč by se jednotlivci mohli rozhodnout pro tuto
+  cestu, je udržení jejich soukromí, čímž zajišťují, že jejich
+  osobní údaje a finanční aktivity zůstanou
+  nezveřejněné.
 reviewed: true

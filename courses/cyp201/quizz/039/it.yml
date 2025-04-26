@@ -1,9 +1,9 @@
-question: Su cosa si basa la sicurezza delle chiavi pubbliche e private?
-answer: Il problema del logaritmo discreto
+question: Qual è il ruolo principale di un portafoglio Bitcoin?
+answer: Gestire e proteggere le chiavi private
 wrong_answers:
-  - Il problema della fattorizzazione dei numeri primi
-  - Il problema dello zaino
-  - Il problema del commesso viaggiatore
+  - Conservare i bitcoin dell'utente
+  - Garantire automaticamente la riservatezza delle transazioni
+  - Generare bitcoin per ogni utente
 explanation: |
-  La sicurezza delle chiavi pubbliche e private si basa sul problema del logaritmo discreto, una complessa questione matematica.
+  Un portafoglio Bitcoin non conserva direttamente i bitcoin ma gestisce le chiavi private necessarie per sbloccare gli UTXO che rappresentano i bitcoin.
 reviewed: false

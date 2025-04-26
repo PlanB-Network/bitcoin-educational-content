@@ -1,0 +1,8 @@
+question: Hva tillater en HD-lommebok deg å gjøre sammenlignet med en JBOK-lommebok?
+answer: Generere alle private nøkler fra en enkelt seed
+wrong_answers:
+  - Øke sikkerheten til digitale signaturer
+  - Gjenbruke samme adresse for flere transaksjoner
+  - Fullstendig unngå bruk av offentlige nøkler
+explanation: |
+  HD-lommebøker genererer alle private nøkler fra en unik seed, noe som forenkler sikkerhetskopiering og indirekte forbedrer personvernet.

@@ -5,8 +5,5 @@ wrong_answers:
   - Jos maa, kuten Yhdysvallat, päättäisi säännellä tai kieltää Bitcoin-louhinnan, se voisi johtaa lohkopalkkion kasvuun.
   - Jos maa, kuten Yhdysvallat, päättäisi säännellä tai kieltää Bitcoin-louhinnan, se voisi johtaa siirtonopeuden kasvuun.
 explanation: |
-  Luku selittää, että jos maa, kuten Yhdysvallat, päättäisi
-  säännellä tai kieltää tiettyjä Bitcoin-siirtoja, sillä voisi olla merkittävä
-  vaikutus verkkoon, erityisesti jos suuri osa laskentatehosta on keskittynyt
-  kyseiseen maahan.
-reviewed: false
+  Luku selittää, että jos maa, kuten Yhdysvallat, päättäisi säännellä tai kieltää tiettyjä Bitcoin-siirtoja, sillä voisi olla merkittävä vaikutus verkkoon, erityisesti jos suuri osa laskentatehosta on keskittynyt kyseiseen maahan.
+reviewed: true

@@ -1,0 +1,5 @@
+---
+term: ACÇÕES DIFICULDADE
+
+---
+Uma dificuldade alvo superior à da Bitcoin (portanto, menos difícil), definida por um grupo de mineração para qualificar um hash de uma ação e avaliar a contribuição de cada mineiro individual dentro do grupo. Para gerir eficazmente a carga de verificação e garantir que todos os mineiros, independentemente do seu poder computacional, submetem acções regularmente, os pools ajustam a dificuldade das acções. A dificuldade atribuída a cada mineiro determina o número de acções que ele acumula: por exemplo, se um mineiro tiver uma dificuldade atribuída de 10 e submeter 5 provas de trabalho válidas nessa dificuldade, ele obtém 50 acções. Um mineiro mais poderoso, com uma dificuldade de 100, que apresente 7 provas de trabalho válidas, receberá 700 acções. Este sistema permite quantificar com precisão o hashrate de cada mineiro e distribuir as recompensas de acordo com o método de cálculo escolhido para a compensação (PPS, PPLNS, TIDES...).

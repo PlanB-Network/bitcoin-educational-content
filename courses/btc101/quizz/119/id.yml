@@ -1,0 +1,10 @@
+question: Apa itu BitcoinTalk?
+answer: Sebuah tempat diskusi untuk pengguna Bitcoin
+wrong_answers:
+  - Sebuah perangkat lunak penambangan Bitcoin
+  - Sebuah dompet Bitcoin
+  - Sebuah Konferensi Bitcoin
+explanation: |
+  Forum BitcoinTalk adalah tempat diskusi untuk pengguna Bitcoin. Ini
+  dibuat oleh Satoshi Nakamoto pada tanggal 22 November 2009.
+reviewed: true

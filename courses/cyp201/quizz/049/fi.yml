@@ -1,11 +1,9 @@
-question: Mikä on Bitcoin-parannusehdotusten (BIPs) tarkoitus?
-answer: Ne ovat päivitysehdotuksia, jotka parantavat HD-lompakoiden toiminnallisuutta ja turvallisuutta.
+question: Mikä on mnemonisen lauseen tarkoitus Bitcoin HD-lompakossa?
+answer: Johtaa deterministisesti kaikki avaimet
 wrong_answers:
-  - Ne ovat ehdotuksia Bitcoinin arvon nostamiseksi.
-  - Ne ovat ehdotuksia Bitcoinin louhintaprosessin muuttamiseksi.
-  - Ne ovat ehdotuksia Bitcoinin käytön säätelyksi.
+  - Allekirjoittaa suoraan siirtoja
+  - Salata Bitcoin-osoitteet
+  - Luoda tiiviste UTXO: ille
 explanation: |
-  Bitcoin-parannusehdotukset (BIPs) ovat protokollia, jotka pyrkivät parantamaan
-  HD-lompakoiden toiminnallisuutta ja turvallisuutta. Esimerkiksi BIP32 esitteli
-  käsitteen deterministisesti ja hierarkkisesti johdetuista avaimista.
+  Mnemoninen lause mahdollistaa kaikkien yksityisten ja julkisten avainten johtamisen lompakossa, mikä helpottaa varmuuskopiointia ja palautusta.
 reviewed: false

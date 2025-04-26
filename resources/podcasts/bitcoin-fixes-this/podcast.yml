@@ -1,12 +1,14 @@
+id: 0c30e091-fda6-4994-b2cd-714790d9bbc6
 name: Bitcoin Fixes This
 host: Jimmy Song
 language: en
 links:
   podcast: https://open.spotify.com/show/6jEPeE4yhsoZJrDRcs9dLN
 description: |
- We explore the impact that Bitcoin will have in all aspects of society. 
+  We explore the impact that Bitcoin will have in all aspects of society. 
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - adoption
+  - future-outlook
+  - case-studies

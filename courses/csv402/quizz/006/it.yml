@@ -1,0 +1,9 @@
+question: In RGB, dov'è l'impegno quando un sigillo monouso viene chiuso?
+answer: Nell'output della transazione si spende l'outpoint
+wrong_answers:
+  - Nell'ingresso della transazione che spende il punto di uscita
+  - Nello scriptSig della transazione che spende l'outpoint
+  - Nel Testimone della transazione che spende il punto di uscita
+explanation: |
+  L'impegno viene inserito nell'output della transazione che spende l'outpoint che definisce il sigillo monouso.
+reviewed: false

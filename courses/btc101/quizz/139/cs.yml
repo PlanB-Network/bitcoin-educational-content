@@ -1,9 +1,9 @@
-question: Kolik je přibližně uzlů distribuovaných po celém světě k září 2023?
-answer: 45 000 uzlů
+question: Jaký je přibližný počet uzlů distribuovaných po celém světě k září 2023?
+answer: 45 000 uzlů.
 wrong_answers:
-  - 10 000 uzlů
-  - 100 000 uzlů
-  - 500 000 uzlů
+  - 10 000 uzlů.
+  - 100 000 uzlů.
+  - 500 000 uzlů.
 explanation: >-
   K září 2023 je po celém světě distribuováno přibližně 45 000 uzlů.
-reviewed: false
+reviewed: true

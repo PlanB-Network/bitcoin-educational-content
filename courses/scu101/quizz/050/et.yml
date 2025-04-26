@@ -1,0 +1,10 @@
+question: Mis on ühekordsete paroolide (HOTP ja TOTP) eelis SMS-i ees kahefaktorilise autentimise (2FA) puhul?
+answer: Nad nõuavad krüptograafilist arvutust ja salvestatakse kohalikult, mitte mälus.
+wrong_answers:
+  - Nad on kiiremad
+  - Nad on odavamad
+  - Neid on lihtsam meeles pidada
+explanation: |
+  Ühekordsed paroolid (HOTP ja TOTP) on turvalisemad kui SMS, kuna nad nõuavad
+  krüptograafilist arvutust ja salvestatakse kohalikult, mitte mälus.
+reviewed: false

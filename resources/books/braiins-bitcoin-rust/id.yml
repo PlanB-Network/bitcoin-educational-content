@@ -1,0 +1,10 @@
+title: "Membangun bitcoin di dalam Karat"
+publication_year: 2024
+cover: cover_en.webp
+original: true
+description: |
+  "Membangun bitcoin dalam Karat" oleh Lukáš Hozda adalah panduan yang dapat diakses oleh mereka
+  tertarik dengan bahasa pemrograman Rust dan teknologi bitcoin.
+  Dirancang untuk mahasiswa dan profesional TI, buku ini membawa pembaca melalui
+  proses memahami konsep inti bitcoin sekaligus mengajarkannya
+  mereka untuk membangun proyek-proyek di Rust.

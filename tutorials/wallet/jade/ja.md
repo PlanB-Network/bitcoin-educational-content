@@ -1,5 +1,5 @@
 ---
-name: JADE
+name: Jade
 
 description: JADEデバイスのセットアップ方法
 ---

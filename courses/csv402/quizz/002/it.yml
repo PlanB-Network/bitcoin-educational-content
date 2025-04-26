@@ -1,0 +1,9 @@
+question: Nel trilemma CAP, qual è il compromesso tra la validazione lato cliente e la disponibilità?
+answer: Ogni partecipante deve conservare i dati rilevanti a livello locale
+wrong_answers:
+  - I dati sono pubblici e replicati automaticamente a livello globale
+  - Consistenza sacrificata per la disponibilità
+  - Le transizioni di stato sono sempre pubblicate su Lightning
+explanation: |
+  Nella convalida lato client, la disponibilità globale non è garantita, poiché i partecipanti devono gestire i propri dati.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Mitä tapahtuu, kun luodaan uusi sitoumustapahtuma?
-answer: Päätetään uusi salaisuus ja luodaan uusi kumoamisavain, ja edellinen sitoumustapahtuma on tuhottava antamalla kumoamissalaisuus.
+question: Mikä on reitityspalkkioiden rooli Lightning Networkissa?
+answer: Kannustaa välisolmuja tarjoamaan likviditeettinsä maksujen siirtoa varten
 wrong_answers:
-  - Edellinen sitoumustapahtuma säilytetään varmuuskopiona.
-  - Luodaan uusi aikalukko ja edellinen sitoumustapahtuma päivitetään.
-  - Edellinen sitoumustapahtuma päivitetään uudella salaisuudella ja kumoamisavaimella.
+  - Rajoittaa verkossa olevien transaktioiden määrää
+  - Varmistaa, että jokaisella kanavalla on riittävästi varoja
+  - Laskea automaattisesti lyhimmän reitin
 explanation: |
-  Kun luodaan uusi sitoumustapahtuma, päätetään uusi salaisuus ja uusi kumoamisavain. Edellinen sitoumustapahtuma on tuhottava antamalla kumoamissalaisuus estääkseen kenenkään osapuolen huijaamisen julkaisemalla vanhan tilan.
+  Reitityspalkkioita käytetään korvaamaan välisolmuja, jotka välittävät maksuja tarjoamalla likviditeettinsä mahdollistaakseen varojen siirron verkossa.
 reviewed: false

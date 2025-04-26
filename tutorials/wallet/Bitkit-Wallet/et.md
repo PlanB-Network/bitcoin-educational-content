@@ -1,6 +1,5 @@
 ---
-name: Bitkit Rahakott
-
+name: Bitkit Wallet
 description: Seadista oma isehalduslik on-chain ja Lightning Rahakott
 ---
 

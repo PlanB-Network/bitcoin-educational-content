@@ -1,0 +1,9 @@
+question: Ni msanidi yupi wa Marekani aliona kizuizi cha kushangaza wakati wa tukio la kuongezeka kwa thamani mnamo Agosti 15, 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Kizuizi hiki, kikitumia dosari, kiliunda zaidi ya bitcoins bilioni 184.
+reviewed: false

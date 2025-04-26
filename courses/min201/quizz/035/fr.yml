@@ -1,11 +1,11 @@
-question: Que mesure le hashrate dans le réseau Bitcoin?
+question: Que mesure le hashrate dans le réseau Bitcoin ?
 answer: Les calculs par seconde
 wrong_answers:
   - Le nombre de transactions par seconde
   - Le nombre de nœuds actifs
   - La quantité d'électricité consommée par le réseau
 explanation: |
-  Le hashrate dans le réseau Bitcoin mesure le nombre de calculs
-  qui peuvent être effectués par seconde. C'est un indicateur clé de la santé et de la sécurité
-  du réseau.
-reviewed: false
+  Le hashrate dans le réseau Bitcoin mesure le nombre de
+  calculs qui peuvent être effectués par seconde. C'est un indicateur
+  clé de la santé et de la sécurité du réseau.
+reviewed: true

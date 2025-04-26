@@ -1,0 +1,9 @@
+question: Miks on edastaval sõlmel raske hinnata kanali täpset likviidsust?
+answer: Kuna ainult kaks osalejat teavad täpset vahendite jaotust
+wrong_answers:
+  - Kuna kanalite koguvõimsus muutub pidevalt
+  - Kuna vahendavate sõlmede tasusid ei avaldata
+  - Kuna kanalid sulguvad automaatselt pärast iga tehingut
+explanation: |
+  Täpne vahendite jaotus kanalis on nähtav ainult kahele osalevale sõlmele, takistades teistel sõlmedel hinnata saadaolevat likviidsust marsruutimiseks.
+reviewed: false

@@ -8,4 +8,4 @@ Indeed, transactions with many inputs are heavier and, consequently, more expens
 
 However, it is important to note that consolidation transactions are recognizable during a chain analysis. Such a transaction indicates a Common Input Ownership Heuristic (CIOH), meaning that the inputs of the consolidation transaction are owned by a single entity. This can have implications in terms of privacy for the user.
 
-![](../../dictionnaire/assets/7.png)
+![](../../dictionnaire/assets/7.webp)

@@ -1,0 +1,12 @@
+question: Dlaczego ważne jest stopniowe zastępowanie starych haseł tymi wygenerowanymi przez menedżera haseł?
+answer: Hasła generowane przez menedżera haseł są silniejsze i dłuższe, zapewniając większe bezpieczeństwo.
+wrong_answers:
+  - Stare hasła są automatycznie usuwane przez menedżera haseł.
+  - Menedżery haseł mogą przechowywać tylko ograniczoną liczbę haseł.
+  - Menedżery haseł wymagają, aby wszystkie hasła były przez nie generowane.
+explanation: |
+  Hasła generowane przez menedżera haseł są silniejsze i
+  dłuższe, zapewniając większe bezpieczeństwo. Poprzez stopniowe zastępowanie
+  starymi hasłami, można zwiększyć bezpieczeństwo
+  swoich kont online.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mis on kolm meetodit kanali sulgemiseks Lightning Network'is?
+answer: Kooperatiivne sulgemine, sunnitud sulgemine, sulgemine pettusega
+wrong_answers:
+  - Kiire sulgemine, aeglane sulgemine, sulgemine kahe allkirjaga
+  - Turvaline sulgemine, automatiseeritud sulgemine, sulgemine fondide kaotusega
+  - Otsene sulgemine, kaudne sulgemine, sulgemine nõudega
+explanation: |
+  On kolm meetodit: kooperatiivne sulgemine, kus pooled on nõus; sunnitud sulgemine, kui ühelt poolelt ei saada vastust; ja sulgemine pettusega, kus üks pooltest üritab avaldada vana tehingu.
+reviewed: false

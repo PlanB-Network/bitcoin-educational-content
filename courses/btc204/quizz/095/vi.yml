@@ -1,0 +1,13 @@
+question: Anonset tiềm năng chỉ ra điều gì?
+
+answer: Kích thước của nhóm các UTXO không thể phân biệt tại đầu ra của các chu kỳ.
+
+wrong_answers:
+  - Kích thước của nhóm các UTXO không thể phân biệt tại đầu vào của các chu kỳ.
+  - Kích thước của nhóm các UTXO không thể phân biệt trong một nhóm.
+  - Số lượng giao dịch cần thiết để đạt được sự ẩn danh.
+
+explanation: |
+  Anonset tiềm năng chỉ ra kích thước của nhóm mà UTXO đang nghiên cứu ẩn mình tại đầu ra của một chu kỳ, biết UTXO tại đầu vào, tức là số lượng đồng tiền không thể phân biệt có mặt trong nhóm này.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on krüptorahade valdkonnas plokiahela trilemma?
+answer: Kompromiss skaleeritavuse, turvalisuse ja detsentraliseerituse vahel krüptorahades
+wrong_answers:
+  - Bitcoinile iseloomulik omadus, mis eelistab detsentraliseeritust ja turvalisust skaleeritavusele
+  - Raskused krüptorahade trajektoori ja väärtuste määramisel
+  - Bitcoini tehnoloogia piirangud võrreldes teiste krüptorahadega
+explanation: |
+  Plokiahela trilemma kontseptsioon on idee, et krüptorahad peavad eelistama kahte kolmest olulisest omadusest; skaleeritavus, turvalisus ja detsentraliseeritus. Bitcoin eelistab detsentraliseeritust ja turvalisust, mis mõjutab selle skaleeritavust, kuid saavutab selle siiski alternatiivsete vahendite kaudu.
+reviewed: true

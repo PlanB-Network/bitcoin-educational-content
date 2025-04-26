@@ -1,13 +1,9 @@
-question: What is the role of the elliptic curve in generating public and private
-  keys?
-answer: It is used to generate secure public and private keys.
+question: What is the main risk of using a poorly designed PRNG to generate entropy?
+answer: Private keys could be guessed by an attacker
 wrong_answers:
-  - It is used to encrypt the keys.
-  - It is used to store the keys.
-  - It is used to transmit the keys.
+  - The mnemonic phrase could contain incorrect words
+  - Digital signatures would become invalid
+  - Bitcoin addresses would be incompatible with the network
 explanation: |
-  The elliptic curve is a mathematical construct used in the generation
-  of secure public and private keys. A random number, often called a nonce, is chosen
-  as the private key and used in the equation of the elliptic curve to generate the
-  corresponding public key.
+  A poorly designed PRNG can produce predictable sequences, making the keys more vulnerable to attacks.
 reviewed: false

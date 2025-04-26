@@ -1,0 +1,9 @@
+question: 混合动力汽车可以采取哪些收购战略？
+answer: 美元平均成本法
+wrong_answers:
+  - 算法交易
+  - 套利
+  - 黑客攻击
+explanation: |
+  美元成本平均法允许定期 Bitcoin 购买，以平滑一段时间内的平均购买价格。狩猎者可以将这种方法与偶尔的一次性购买结合起来。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er en anbefalt praksis når det gjelder forvaring ved anskaffelse av Bitcoin?
+answer: Vurder løsninger for selvforvaring etter de første innkjøpene, slik at virksomheten virkelig har kontroll over eiendelene sine.
+wrong_answers:
+  - Ta aldri ut Bitcoin fra børsen under noen omstendigheter.
+  - Stol alltid på én enkelt depotmottaker uten å gjennomgå sikkerhetstiltakene.
+  - Lagre alle Bitcoin på et offentlig nettsted med et enkelt passord
+explanation: |
+  Etter å ha kjøpt Bitcoin, flytter du dem til en lommebok med egen oppbevaring, slik at virksomheten har direkte kontroll over midlene sine. Selv om tredjepartsdepoter kan være praktiske, er selvforvaring i tråd med Bitcoins prinsipp om finansiell suverenitet.
+reviewed: false

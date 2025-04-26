@@ -1,12 +1,9 @@
-question: É possível trapacear publicando um estado antigo em uma transação de compromisso?
-answer: Sim
+question: O que acontece se um pagamento por meio de HTLC não for concluído dentro do tempo alocado?
+answer: O pagamento é cancelado e os fundos retornam ao remetente.
 wrong_answers:
-  - Não
-  - Apenas se eles tiverem a chave de revogação.
-  - Apenas se eles criaram a transação com o Timelock.
+  - O pagamento é retido pelo último nó intermediário
+  - Os fundos são distribuídos a todos os nós no caminho
+  - Os fundos são permanentemente bloqueados
 explanation: |
-  É possível trapacear publicando um estado antigo em uma transação de compromisso
-  porque ambos os participantes têm a pré-assinatura da transação não publicada.
-  No entanto, medidas como o Timelock e a chave de revogação estão em vigor para evitar
-  isso.
+  Se um HTLC expirar sem que o segredo seja revelado, o pagamento é cancelado e os fundos retornam ao remetente, impedindo assim que qualquer nó intermediário fique com os fundos.
 reviewed: false

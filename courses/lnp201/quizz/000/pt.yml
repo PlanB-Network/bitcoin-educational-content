@@ -1,9 +1,9 @@
-question: Qual é a quantidade máxima de Bitcoin que pode ser transmitida em um canal de pagamento Lightning em um determinado momento?
-answer: A capacidade fixa definida antecipadamente pelos usuários
+question: Qual é o principal objetivo da Lightning Network?
+answer: Melhorar a escalabilidade do Bitcoin para permitir pagamentos rápidos e de baixo custo
 wrong_answers:
-  - A quantidade total de Bitcoin possuída pelos dois usuários
-  - A quantidade total de Bitcoin em toda a Rede Lightning
-  - A quantidade total de Bitcoin que foi transacionada no canal até o momento
+  - Eliminar taxas de transação na blockchain do Bitcoin
+  - Criar uma alternativa ao Bitcoin para pagamentos de alto valor
+  - Simplificar trocas entre diferentes criptomoedas
 explanation: |
-  Quando um canal de pagamento Lightning é aberto, ele recebe uma capacidade fixa, que é definida antecipadamente pelos usuários. Essa capacidade representa a quantidade máxima de Bitcoin que pode ser transmitida no canal em um determinado momento.
+  A Lightning Network visa aprimorar a escalabilidade do Bitcoin, possibilitando transações rápidas e baratas por meio de canais de pagamento fora da cadeia.
 reviewed: false

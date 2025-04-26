@@ -1,0 +1,9 @@
+question: Câu trả lời nào đại diện cho một trong hai nhánh chính của mật mã học?
+answer: Mật mã đối xứng
+wrong_answers:
+  - Mật mã học
+  - Mã hóa đồng dạng
+  - Phân tích mật mã
+explanation: |
+  Mật mã đối xứng là một nhánh lớn của mật mã học, bao gồm các phương pháp mã hóa mà chỉ sử dụng một khóa để mã hóa và giải mã tin nhắn.
+reviewed: false

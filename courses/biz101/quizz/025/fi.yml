@@ -1,0 +1,9 @@
+question: Miksi yrityksille suositellaan aloitettavaksi pienellä Bitcoinin alkuostolla?
+answer: Sen avulla he voivat saada käytännön kokemusta ja ymmärrystä ennen suurempien summien sitomista.
+wrong_answers:
+  - Se estää laillisesti yritystä joutumasta verovelvolliseksi.
+  - Se takaa yritykselle välittömästi maksimaalisen tuoton.
+  - Se tekee yrityksestä immuunin kaikille kryptovaluuttahuijauksille.
+explanation: |
+  Pieni alkuinvestointi auttaa yrityksiä oppimaan Bitcoinin ostamisen, säilyttämisen ja hallinnan käytännön näkökohdat ilman merkittävää riskiä.
+reviewed: false

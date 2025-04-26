@@ -1,9 +1,0 @@
-question: ¿Cuál es la diferencia entre los rangos de índice de las claves secundarias normales y las claves secundarias endurecidas?
-answer: Las claves secundarias normales tienen un rango de índice que va desde 0 hasta 2 elevado a la potencia de 31 menos 1, mientras que las claves secundarias endurecidas tienen un rango de índice que va desde 2 elevado a la potencia de 31 hasta 2 elevado a la potencia de 32 menos 1.
-wrong_answers:
-  - Las claves secundarias normales tienen un rango de índice que va desde 0 hasta 2 elevado a la potencia de 32 menos 1, mientras que las claves secundarias endurecidas tienen un rango de índice que va desde 2 elevado a la potencia de 31 hasta 2 elevado a la potencia de 31 menos 1.
-  - Tanto las claves secundarias normales como las claves secundarias endurecidas tienen el mismo rango de índice.
-  - No hay diferencia en los rangos de índice de las claves secundarias normales y las claves secundarias endurecidas.
-explanation: |
-  El rango de índice de las claves secundarias normales va desde 0 hasta 2 elevado a la potencia de 31 menos 1, mientras que el rango de índice de las claves secundarias endurecidas va desde 2 elevado a la potencia de 31 hasta 2 elevado a la potencia de 32 menos 1.
-reviewed: false

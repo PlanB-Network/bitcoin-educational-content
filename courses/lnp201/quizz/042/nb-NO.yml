@@ -1,0 +1,8 @@
+question: Hvilket kriterium kan hjelpe en node med å velge en effektiv betalingsrute?
+answer: Sannsynligheten for suksess basert på den totale kapasiteten til kanalene
+wrong_answers:
+  - Den geografiske avstanden mellom nodene
+  - Tilstedeværelsen av noder med et lavt gebyrnivå
+  - Antall betalinger gjort av målnoden
+explanation: |
+  Den totale kapasiteten til kanalene kan indikere en høyere sannsynlighet for suksess, ettersom det antyder en større tilgjengelighet av likviditet for transaksjoner.

@@ -1,0 +1,9 @@
+question: Miks on nappus hea valuuta oluline omadus?
+answer: See säilitab väärtuse
+wrong_answers:
+  - See tagab, et valuutana saab kasutada ainult füüsilist vara
+  - See tagab, et valuuta on igale inimesele laialdaselt kättesaadav
+  - See tagab, et valuuta peab alati olema tagatud sellise kaubaga nagu kuld
+explanation: |
+  Nappus takistab raha liigset loomist, säilitades seeläbi selle väärtuse ja ostujõu aja jooksul.
+reviewed: false

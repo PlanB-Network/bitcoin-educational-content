@@ -1,9 +1,0 @@
-question: Was ist der Zweck von Depth 5 in der HD Wallet-Struktur?
-answer: Es wird verwendet, um Empfangsadressen in einer Standard-Wallet zu generieren.
-wrong_answers:
-  - Es wird verwendet, um abgeleitete Kinderschlüssel für einen bestimmten Zweck zu erzeugen.
-  - Es ermöglicht die Unterscheidung von Konten für verschiedene Kryptowährungen oder Netzwerke.
-  - Es entspricht den externen und internen Ketten.
-explanation: |
-  In der HD Wallet-Struktur wird Depth 5 verwendet, um Empfangsadressen in einer Standard-Wallet zu generieren.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Según la economía austriaca, ¿por qué se considera que los beneficios son un indicador clave de la salud de una empresa?
+answer: Porque los beneficios demuestran que la empresa satisface las necesidades de los consumidores de forma eficiente y sostenible.
+wrong_answers:
+  - Porque los beneficios garantizan que la plantilla de la empresa sea la mayor de su sector.
+  - Porque los beneficios son sólo una señal de que la empresa recibió subvenciones del gobierno.
+  - Porque los beneficios reflejan acontecimientos aleatorios del mercado no relacionados con las demandas de los consumidores.
+explanation: |
+  En la economía austriaca, los beneficios indican que una empresa produce bienes o servicios valorados por los consumidores a un precio superior al coste de producción. Este resultado sugiere un uso eficiente de los recursos y una adecuación a las necesidades del mercado.
+reviewed: false

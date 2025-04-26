@@ -1,0 +1,9 @@
+question: What is one defining characteristic of Bitcoin as a currency network?
+answer: It is like cash and requires no central authority or intermediary for transactions.
+wrong_answers:
+  - It can only function when authorized by a government agency.
+  - It issues new units of currency at any user’s request.
+  - It needs banks to verify and settle every transaction.
+explanation: |
+  Bitcoin operates as a decentralized network, allowing anyone to participate without permission. Transactions are validated by nodes and miners, not by a central authority.
+reviewed: false

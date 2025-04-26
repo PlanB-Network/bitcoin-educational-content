@@ -1,0 +1,9 @@
+question: Mida EI soovitata oma bitcoinidele juurdepääsu edasiandmisel?
+answer: Mnemonic fraasi andmine ühele inimesele
+wrong_answers:
+  - Teabe jagamine mitme inimese vahel
+  - Suletud läbipaistmatute ümbrike kasutamine
+  - Seletuskirja kirjutamine
+explanation: |
+  Mnemonic fraasi usaldamine ühele inimesele ilma täiendava turvata suurendab oluliselt varguse ohtu teie eluajal.
+reviewed: false

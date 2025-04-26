@@ -1,9 +1,9 @@
-question: Jaký je jeden z důvodů, proč byste měli čas od času konsolidovat vaše UTXO ve vašich peněženkách?
+question: Jaký je jeden z důvodů, proč byste měli čas od času konsolidovat své UTXO ve svých peněženkách?
 answer: Aby se předešlo zbytečným poplatkům během transakcí.
 wrong_answers:
-  - Aby se zvýšila hodnota vašeho Bitcoinu.
-  - Aby se zabránilo krádeži vašeho Bitcoinu.
-  - Aby byl váš Bitcoin vždy dostupný.
+  - Aby se zvýšila hodnota vašich bitcoinů.
+  - Aby se zabránilo krádeži vašich bitcoinů.
+  - Aby byly vaše bitcoiny vždy dostupné.
 explanation: >-
   Text uvádí, že konsolidace vašich UTXO ve vašich peněženkách čas od času je zásadní pro efektivní správu vašich bitcoinů a vyhnutí se zbytečným poplatkům během transakcí.
-reviewed: false
+reviewed: true

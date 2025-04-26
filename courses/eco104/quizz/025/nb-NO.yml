@@ -1,0 +1,13 @@
+question: Hvorfor er argumentet om at bitcoin er verdiløs fordi den ikke er støttet av noe feilaktig?
+answer: Verdi er subjektiv og basert på folks tro og erfaringer.
+wrong_answers:
+  - Bitcoin er støttet av gull, som gir den en iboende verdi.
+  - Bitcoins verdi er bestemt av dens sjeldenhet og sikkerhetsfunksjoner.
+  - Bitcoins verdi er basert på aksept fra regjeringer og banker.
+explanation: |
+  Verdi er subjektiv og ligger i betrakterens øyne. Bitcoin er verdifull
+  fordi folk tror den er det, akkurat som kunst kan være verdifull til tross for
+  å være laget av lerret og maling. Argumentet om at valuta må være støttet av
+  noe av verdi er unøyaktig, ettersom verdien av fiatvalutaer som den amerikanske
+  dollaren er basert på tillit og tro også.
+reviewed: true

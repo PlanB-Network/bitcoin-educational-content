@@ -1,9 +1,12 @@
-question: Welche dieser Optionen ist falsch, wenn Sie das Gerät verlieren, auf dem Sie Ihre Bitcoin-Wallet haben?
+question: Welche dieser Optionen ist falsch bezüglich des Verlusts des Geräts, auf dem Sie Ihre Bitcoin-Wallet haben?
 answer: Sie können Ihre Wallet wiederherstellen und Ihre Bitcoins ausgeben, indem Sie Ihr Passwort zurücksetzen.
 wrong_answers:
   - Sie verlieren alle Ihre Bitcoins, wenn Sie die mnemonische Phrase nicht haben.
-  - Sie können mit Ihren öffentlichen Schlüsseln überprüfen, ob Ihre Bitcoins noch nicht bewegt wurden.
-  - Sie können Ihre Wallet mit der mnemonischen Phrase wiederherstellen und Ihre Bitcoins ausgeben.
+  - Sie können mit Ihren öffentlichen Schlüsseln überprüfen, dass Ihre Bitcoins nicht ausgegeben wurden.
+  - Sie können Ihre Wallet wiederherstellen und Ihre Bitcoins mit der mnemonischen Phrase ausgeben.
 explanation: |
-  Das Verlieren des Geräts, auf dem Sie Ihre Wallet haben, bedeutet nicht zwangsläufig den Verlust Ihrer Bitcoins. Was es Ihnen ermöglicht, Ihre Wallet wiederherzustellen und Ihre Bitcoins auszugeben, ist die mnemonische Phrase.
-reviewed: false
+  Der Verlust des Geräts, auf dem Sie Ihre Wallet haben, bedeutet nicht
+  notwendigerweise den Verlust Ihrer Bitcoins. Was es Ihnen ermöglicht,
+  Ihre Wallet wiederherzustellen und Ihre Bitcoins auszugeben, ist die
+  mnemonische Phrase.
+reviewed: true

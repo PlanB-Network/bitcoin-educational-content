@@ -1,10 +1,10 @@
-question: Jaký je jeden z faktorů, který může způsobit kolísání ceny Bitcoinu?
-answer: Tržní variace a fáze býčího a medvědího trhu.
+question: Jaké jsou typické náklady pro těžaře?
+answer: Spotřeba elektřiny a nákup hardware.
 wrong_answers:
-  - Počet lidí používajících internet.
-  - Počasí.
-  - Cena zlata.
+  - Pouze nákup hardware.
+  - Transakční poplatky.
+  - Spotřeba elektřiny a transakční poplatky.
 explanation: >-
-  Cena Bitcoinu je často charakterizována významnou volatilitou,
-  která může být ovlivněna tržními variacemi a fázemi býčího a medvědího trhu.
+  Těžba Bitcoinu vyžaduje značný výpočetní výkon, což zase spotřebovává elektřinu.
+  Kromě toho musí těžaři investovat do specializovaného hardware, aby mohli efektivně těžit.
 reviewed: false

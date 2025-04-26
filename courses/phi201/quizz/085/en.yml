@@ -1,0 +1,9 @@
+question: What is the limit of state sovereignty according to John Stuart Mill?
+answer: The state can only intervene when an individual's actions harm others.
+wrong_answers:
+  - The state is sovereign under all circumstances and cannot be limited by any individual or group of individuals.
+  - State sovereignty is limited by economic means.
+  - State sovereignty is limited by the laws of nature.
+explanation: |
+  John Stuart Mill argues that state intervention is legitimate only when an individual's actions cause harm to others, in order to protect personal freedom in areas that do not harm others.
+reviewed: false

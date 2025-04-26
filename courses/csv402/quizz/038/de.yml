@@ -1,0 +1,9 @@
+question: Welches Feld in der YAML-Datei, die zur Ausgabe eines Assets verwendet wird, definiert die Gesamtzahl der ausgegebenen Token?
+answer: issuedSupply
+wrong_answers:
+  - assetOwner
+  - spec
+  - betrag
+explanation: |
+  Das Feld "issuedSupply" in der YAML-Datei definiert die Gesamtmenge der für den Vertrag ausgegebenen Token.
+reviewed: false

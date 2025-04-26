@@ -1,0 +1,13 @@
+question: Apa yang diukur oleh anonimitas ke depan?
+
+answer: Ketahanan privasi terhadap analisis dari masa lalu ke masa kini.
+
+wrong_answers:
+  - Ketahanan privasi terhadap analisis dari masa kini ke masa lalu.
+  - Ketahanan privasi terhadap analisis dari masa depan ke masa kini.
+  - Ketahanan privasi terhadap analisis dari masa depan ke masa lalu.
+
+explanation: |
+  Anonimitas ke depan mengukur ketahanan privasi sebuah koin terhadap analisis dari masa lalu ke masa kini (input ke output).
+
+reviewed: false

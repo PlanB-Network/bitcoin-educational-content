@@ -1,9 +1,12 @@
-question: Quel est l'objectif de la mise en place de la double authentification (2FA) ?
-answer: Protéger vos comptes en ligne contre les accès non autorisés.
+question: Quel est le but de la mise en œuvre de la 2FA ?
+answer: Protéger vos comptes en ligne contre l'accès non autorisé.
 wrong_answers:
-  - Rendre plus difficile l'accès à votre propre compte
+  - Rendre plus difficile pour vous l'accès à votre propre compte
   - Suivre vos activités en ligne
   - Augmenter la vitesse de votre connexion internet
 explanation: |
-  La double authentification (2FA) ajoute une couche de sécurité supplémentaire à vos comptes en ligne. Même si un pirate informatique obtient votre mot de passe, il ne pourra pas accéder à votre compte sans le deuxième facteur de vérification.
-reviewed: false
+  La 2FA ajoute une couche supplémentaire de sécurité à vos
+  comptes en ligne. Même si un pirate obtient votre mot de passe, il ne
+  pourra pas accéder à votre compte sans le deuxième facteur de
+  vérification.
+reviewed: true

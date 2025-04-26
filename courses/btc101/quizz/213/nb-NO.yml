@@ -1,0 +1,11 @@
+question: Hva er det primære målet med Bitcoin-revolusjonen ifølge teksten?
+answer: Å skape en verden hvor menneskelig suverenitet er en rettighet, personvern er respektert som standard, og penger ikke manipuleres
+wrong_answers:
+  - Å skape en verden hvor Bitcoin er den eneste valutaen
+  - Å skape en verden hvor regjeringer ikke har noen kontroll
+  - Å skape en verden hvor fysisk penger er foreldet
+explanation: >-
+  Teksten antyder at det primære målet med Bitcoin-revolusjonen er å
+  skape en verden hvor menneskelig suverenitet er en rettighet, personvern er respektert som standard,
+  og penger ikke manipuleres.
+reviewed: false

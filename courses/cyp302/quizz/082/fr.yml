@@ -1,0 +1,9 @@
+question: Pourquoi le one-time pad est-il considéré comme un chiffrement sécurisé ?
+answer: Parce que chaque bit de la clé est aléatoire et aucune partie n'est réutilisée
+wrong_answers:
+  - Parce qu'il utilise une clé publique et une clé privée aléatoires
+  - Parce qu'il dépend de nombres premiers
+  - Parce qu'il chiffre uniquement de petits messages
+explanation: |
+  Le one-time pad est sécurisé car chaque bit de la clé est aléatoire et n'est jamais réutilisé, ce qui garantie qu'il ne laisse aucune trace exploitable par un attaquant.
+reviewed: false

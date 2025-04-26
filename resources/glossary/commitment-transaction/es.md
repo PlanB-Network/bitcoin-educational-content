@@ -1,0 +1,5 @@
+---
+term: OPERACIÓN DE COMPROMISO
+
+---
+En el contexto de un canal bidireccional dentro de Lightning, la transacción de compromiso es una transacción que ambas partes crean y firman, sin publicarla en la cadena principal. Representa el estado actual de la distribución de fondos entre las partes de un canal, y cada pago de Lightning da lugar a una nueva transacción de compromiso. Estas transacciones son válidas, pero sólo se emiten cuando el canal se cierra unilateralmente. Contienen salidas para cada parte, reflejando la distribución de fondos según los pagos Lightning realizados desde la apertura del canal. Se asocian mecanismos de penalización para disuadir a las partes de emitir estados obsoletos del canal, es decir, transacciones de compromiso antiguas que reflejan una distribución incorrecta de los fondos.

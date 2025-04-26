@@ -1,11 +1,9 @@
-question: ¿Cuáles son las dos ideologías opuestas en el mundo de Bitcoin?
-answer: Incluir a los no bancarizados en el sistema bancario y sacar a los bancarizados del sistema.
+question: ¿Quiénes son los inventores de la Lightning Network?
+answer: Thaddeus Dryja y Joseph Poon
 wrong_answers:
-  - Hacer que todos sean ricos y hacer que todos sean pobres.
-  - Centralizar el poder y descentralizar el poder.
-  - Promover la privacidad y promover la transparencia.
+  - Andreas Antonopoulos y Adam Back
+  - Pieter Wuille y Gregory Maxwell
+  - Satoshi Nakamoto y Hal Finney
 explanation: |
-  El capítulo menciona dos ideologías opuestas en el mundo de Bitcoin.
-  Una es incluir a miles de millones de personas que no están en el sistema bancario en él.
-  La otra es sacar a miles de millones de personas que están en el sistema bancario de él.
+  Thaddeus Dryja y Joseph Poon inventaron el Lightning Network en 2016 para mejorar la escalabilidad del Bitcoin.
 reviewed: false

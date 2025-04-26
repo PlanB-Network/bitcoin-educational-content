@@ -1,0 +1,9 @@
+question: Sự tương đương của XOR với phép toán modulo là gì?
+answer: XOR tương đương với phép toán modulo 2 trên các bit
+wrong_answers:
+  - XOR tương đương với phép trừ cổ điển modulo 3
+  - XOR tương đương với phép toán modulo 7 trên các bit
+  - XOR là phép đảo ngược của phép cộng
+explanation: |
+  Phép toán XOR có thể được xem như là phép cộng các bit với modulo 2, làm cho kết quả trở nên giống nhau.
+reviewed: false

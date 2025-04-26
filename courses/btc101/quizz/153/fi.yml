@@ -1,13 +1,13 @@
 question: Mikä on vaikeustason säätelyn tarkoitus Bitcoin-louhinnassa?
 answer: Se tasapainottaa globaalia louhintapeliä osallistujien määrän perusteella.
 wrong_answers:
-  - Se lisää louhinnasta saatavaa palkkiota.
-  - Se vähentää liikkeellä olevien bitcoinien määrää.
+  - Se lisää palkkiota louhinnasta.
+  - Se vähentää liikkeessä olevien bitcoinien määrää.
   - Se lisää Bitcoin-verkon turvallisuutta.
 explanation: >-
-  Vaikeustason säätelyn tarkoitus Bitcoin-louhinnassa on varmistaa, että
-  lohkon louhimiseen kuluva aika pysyy suunnilleen vakiona riippumatta
+  Vaikeustason säätely Bitcoin-louhinnassa on suunniteltu varmistamaan, että
+  lohkon louhimiseen kuluva aika pysyy suunnilleen vakiona, riippumatta
   verkon kokonaislaskentatehosta. Se säätää matemaattisen
   ongelman vaikeustasoa, jonka louhijoiden on ratkaistava, perustuen louhijoiden määrään
   verkossa.
-reviewed: false
+reviewed: true

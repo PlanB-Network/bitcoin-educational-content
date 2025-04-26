@@ -1,9 +1,0 @@
-question: HTLCとは何ですか？
-answer: 秘密の鍵でのみ解除できる支払い契約です。
-wrong_answers:
-  - 一種の暗号通貨です。
-  - データを暗号化する方法です。
-  - ブロックチェーンの一種です。
-explanation: |
-  HTLC、またはHash Time-Locked Contractは、秘密の鍵でのみ解除できる支払い契約の一種です。これは、安全かつ検証可能な支払いを保証するために、Lightning Networkで使用されます。
-reviewed: false

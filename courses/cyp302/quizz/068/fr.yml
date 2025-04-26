@@ -1,0 +1,9 @@
+question: Quel est le rôle de la clé dans les processus de chiffrement et de déchiffrement symétriques ?
+answer: Elle est utilisée pour chiffrer et déchiffrer le message
+wrong_answers:
+  - Elle est seulement utilisée pour déchiffrer le message
+  - Elle est utilisée pour créer un code de vérification de l'intégrité du message
+  - Elle est partagée publiquement pour générer d'autres clés
+explanation: |
+  Dans les schémas de chiffrement symétriques, la même clé privée est utilisée à la fois pour chiffrer le message à l'envoi et pour le déchiffrer à la réception.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Qual operação é tipicamente usada para combinar o fluxo de chaves e a mensagem em uma cifra de fluxo?
+answer: XOR
+wrong_answers:
+  - Multiplicação
+  - Deslocamento modular
+  - Substituição de cada letra
+explanation: |
+  Em uma cifra de fluxo, a operação XOR é geralmente usada para combinar o fluxo de chaves com a mensagem porque é simples e reversível.

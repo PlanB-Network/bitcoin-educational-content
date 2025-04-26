@@ -1,12 +1,12 @@
 question: Mikä on modernin rahateorian (MMT) näkökulma rahan luomiseen ja inflaatioon?
-answer: MMT:n mukaan raha syntyy ensisijaisesti valtiolta, joka voi painaa merkittäviä määriä rahaa rahoittaakseen tarpeitaan aiheuttamatta inflaatiota, kunhan näiden varojen kohdennetut sektorit eivät ole kyllästettyjä.
+answer: MMT; n mukaan raha syntyy ensisijaisesti valtiolta, joka voi painaa merkittäviä määriä rahaa rahoittaakseen tarpeitaan aiheuttamatta inflaatiota, kunhan näiden varojen kohdennetut sektorit eivät ole kyllästettyjä.
 wrong_answers:
-  - MMT:n mukaan raha syntyy ensisijaisesti yksityiseltä sektorilta ja lisärahan painaminen johtaa aina inflaatioon.
-  - MMT:n mukaan raha syntyy ensisijaisesti valtiolta, mutta lisärahan painaminen johtaa aina inflaatioon.
-  - MMT:n mukaan raha syntyy ensisijaisesti yksityiseltä sektorilta ja lisärahan painaminen ei koskaan johda inflaatioon.
+  - MMT: n mukaan raha syntyy ensisijaisesti yksityiseltä sektorilta ja lisärahan painaminen johtaa aina inflaatioon.
+  - MMT: n mukaan raha syntyy ensisijaisesti valtiolta, mutta lisärahan painaminen johtaa aina inflaatioon.
+  - MMT: n mukaan raha syntyy ensisijaisesti yksityiseltä sektorilta ja lisärahan painaminen ei koskaan johda inflaatioon.
 explanation: |
   Luku selittää, että moderni rahateoria (MMT) tarjoaa erilaisen
-  näkökulman rahan luomiseen ja inflaatioon. MMT:n mukaan raha syntyy
+  näkökulman rahan luomiseen ja inflaatioon. MMT: n mukaan raha syntyy
   ensisijaisesti valtiolta, joka voi painaa merkittäviä määriä rahaa rahoittaakseen
   tarpeitaan aiheuttamatta inflaatiota, kunhan näiden varojen kohdennetut sektorit eivät ole kyllästettyjä.
 reviewed: false

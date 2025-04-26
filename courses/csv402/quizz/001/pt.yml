@@ -1,0 +1,9 @@
+question: Qual é uma caraterística essencial dos selos de utilização única utilizados na RGB?
+answer: Só podem ser fechados uma vez
+wrong_answers:
+  - Só podem ser fechadas duas vezes
+  - Garantem a confidencialidade das transacções
+  - Eliminam a necessidade de consenso na cadeia de blocos
+explanation: |
+  Os selos de utilização única permitem a criação de compromissos criptográficos únicos, impedindo a duplicação ou o gasto duplo.
+reviewed: false

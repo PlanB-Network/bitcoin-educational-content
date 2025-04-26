@@ -1,0 +1,11 @@
+question: Mis on kulla peamine eelis teiste valuutavormide ees?
+answer: Selle loomulik haruldus muudab selle väärtuslikuks, samas kui selle keemilised omadused võimaldavad sellel aja jooksul mitte erodeeruda
+wrong_answers:
+  - See on kergesti jagatav ja transporditav
+  - See on rahalise inflatsiooni suhtes
+  - See on laialdaselt aktsepteeritud kaubanduses
+explanation: |
+  Kulla peamine eelis teiste valuutavormide ees on selle loomulik
+  haruldus, mis muudab selle väärtuslikuks, ja selle keemilised omadused, mis võimaldavad sellel
+  aja jooksul mitte erodeeruda.
+reviewed: true

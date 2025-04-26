@@ -1,0 +1,9 @@
+question: Hvilket stort problem forsøkte kryptografene Diffie, Hellman og Merkle å løse på 1970-tallet?
+answer: Problemene med nøkkeldistribusjon og -forvaltning
+wrong_answers:
+  - Utviklingen av post-kvantum kryptografi
+  - Sikring av militær kommunikasjon
+  - Forbedring av symmetriske krypteringsteknikker
+explanation: |
+  Diffie, Hellman og Merkle var motivert av de praktiske vanskelighetene med nøkkeldistribusjon og -forvaltning for å sikre kommunikasjon, avgjørende utfordringer i en verden som gikk over til digital kommunikasjon.
+reviewed: false

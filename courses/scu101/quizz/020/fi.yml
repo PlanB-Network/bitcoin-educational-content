@@ -5,6 +5,7 @@ wrong_answers:
   - Norton
   - McAfee
 explanation: |
-  Windows Defender on Windowsin sisäänrakennettu virustorjunta. Se on turvallinen ja
-  tehokas ratkaisu järjestelmän suojaamiseksi uhkilta.
-reviewed: false
+  Windows Defender on Windowsin sisäänrakennettu virustorjunta. Se
+  on turvallinen ja tehokas ratkaisu järjestelmän suojaamiseksi
+  uhkilta.
+reviewed: true

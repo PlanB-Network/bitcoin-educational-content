@@ -1,0 +1,13 @@
+question: Hva måler fremover anonymitet?
+
+answer: Motstanden av personvern mot en analyse fra fortid til nåtid.
+
+wrong_answers:
+  - Motstanden av personvern mot en analyse fra nåtid til fortid.
+  - Motstanden av personvern mot en analyse fra fremtid til nåtid.
+  - Motstanden av personvern mot en analyse fra fremtid til fortid.
+
+explanation: |
+  Fremover anonymitet måler motstanden av en mynts personvern mot en analyse fra fortid til nåtid (inndata til utdata).
+
+reviewed: false

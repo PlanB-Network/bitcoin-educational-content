@@ -1,0 +1,9 @@
+question: Koja je specifičnost tri šifrovana teksta sadržana u kutiji?
+answer: Sadrže brojeve odvojene zarezima.
+wrong_answers:
+  - Oni su svi napisani običnim slovima
+  - Oni koriste nepoznate simbole
+  - Oni su napisani na više jezika
+explanation: |
+  Tri šifrovana teksta sastoje se od niza brojeva odvojenih zarezima, koji zahtevaju ključ za dešifrovanje.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hva er én løsning for store strukturer eller lidenskapelige bitcoinere for å akseptere Bitcoin?
+answer: BTCpay Server
+wrong_answers:
+  - Bitcoin Wallet
+  - Bitcoin Exchange
+  - Bitcoin Mining
+explanation: >-
+  BTCpay Server er en løsning for store strukturer eller lidenskapelige bitcoinere
+  for å akseptere Bitcoin. Andre løsninger inkluderer OpenNode for enkle nettbaserte virksomheter
+  og Swiss Bitcoin Pay for amatørhandlere.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Mis on ajalise eelistuse ja intressimäärade vaheline seos majanduses, kus kapitaliturgusid ei ole manipuleeritud?
+answer: Intressimäärade tõus tuleneb kapitali nõudluse suhtelisest suurenemisest võrreldes pakkumisega, mis näitab kõrgemat ajalist eelistust. Vastupidi, intressimäärade langus toimub tänu säästude suurenemisele, mis on kapitali pakkumise suurenemine, näidates ajalise eelistuse vähenemist.
+wrong_answers:
+  - Intressimäärade tõus näitab ajalise eelistuse vähenemist, samas kui intressimäärade langus näitab ajalise eelistuse suurenemist.
+  - Ajaline eelistus ja intressimäärad on pöördvõrdelises suhtes.
+  - Ajalisel eelistusel ja intressimääradel ei ole otseselt seost.
+explanation: |
+  Majanduses, kus kapitaliturge ei ole manipuleeritud, määratakse viiteintressimäärad kapitali pakkumise ja nõudluse ristumiskohas. Seetõttu
+  esindavad need määrad kogu majanduse ajalise eelistuse seisundit. Intressimäära tõus tuleneb kapitali nõudluse suhtelisest suurenemisest võrreldes
+  pakkumisega, mis näitab kõrgemat ajalist eelistust. Vastupidi, intressimäärade langus toimub tänu säästude suurenemisele, mis on kapitali pakkumise suurenemine, näidates ajalise eelistuse vähenemist.
+reviewed: false

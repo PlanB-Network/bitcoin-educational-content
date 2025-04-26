@@ -1,0 +1,9 @@
+question: Hva er den viktigste forskjellen mellom ShR- og RotR-operasjoner?
+answer: ShR forskyver biter ved å legge til nuller, RotR setter inn de forskyvede bitene på nytt
+wrong_answers:
+  - ShR fjerner de forskyvede bitene, RotR multipliserer deres verdi
+  - ShR forskyver til venstre, RotR forskyver til høyre
+  - ShR er en logisk operasjon, RotR er aritmetisk
+explanation: |
+  ShR forskyver biter til høyre ved å legge til nuller, mens RotR utfører en sirkulær rotasjon av bitene.
+reviewed: false

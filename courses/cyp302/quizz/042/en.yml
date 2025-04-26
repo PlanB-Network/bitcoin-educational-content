@@ -1,0 +1,9 @@
+question: What is a group called that satisfies the commutativity condition?
+answer: An abelian group
+wrong_answers:
+  - A closed group
+  - An associative group
+  - An inverse group
+explanation: |
+  An abelian, or commutative, group is a group in which the order of elements in the binary operation does not affect the outcome. This means that for any a and b, a ∘ b = b ∘ a.
+reviewed: false

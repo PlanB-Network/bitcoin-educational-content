@@ -1,0 +1,10 @@
+question: Hva er formålet med HTTPS-protokollen?
+answer: Den krypterer data på nettsteder for å sikre trygg utveksling mellom brukeren og nettstedet.
+wrong_answers:
+  - Den lar brukere omgå geografiske restriksjoner.
+  - Den lar brukere blokkere nettannonser.
+  - Den lar brukere få tilgang til internett uten å bruke data.
+explanation: |
+  HTTPS-protokollen brukes til å kryptere data på nettsteder, noe som sikrer at
+  dataene som utveksles mellom brukeren og nettstedet er sikre. Dette hjelper med å beskytte
+  mot at tredjeparter avlytter dataene.

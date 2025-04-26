@@ -5,6 +5,7 @@ wrong_answers:
   - An ninh mạng không cần thiết cho các tài khoản cá nhân
   - An ninh mạng chỉ dành cho những người am hiểu công nghệ
 explanation: |
-  An ninh mạng là một mục tiêu di động bởi vì các mối đe dọa và biện pháp bảo mật
-  đang liên tục phát triển. Điều quan trọng là phải tiếp tục học hỏi và thích nghi với các phương pháp của bạn.
-reviewed: false
+  An ninh mạng là một mục tiêu di động bởi vì các mối đe dọa và
+  các biện pháp bảo mật đang liên tục phát triển. Điều quan trọng
+  là phải tiếp tục học hỏi và thích nghi với các thực hành của bạn.
+reviewed: true

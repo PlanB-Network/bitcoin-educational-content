@@ -1,8 +1,9 @@
-question: Mục đích của Timelock trong một giao dịch cam kết là gì?
-answer: Nó khóa các khoản tiền cho đến một khối nhất định.
+question: Thông tin nào là bắt buộc mà nút gửi cần biết để thực hiện một khoản thanh toán qua lớp vỏ hành?
+answer: Topology mạng và toàn bộ lộ trình đến người nhận
 wrong_answers:
-  - Nó khóa giao dịch cho đến một khối nhất định.
-  - Nó khóa kênh cho đến một khối nhất định.
-  - Nó khóa khóa hủy bỏ cho đến một khối nhất định.
+  - Chỉ cần biết nút trung gian tiếp theo
+  - Sức chứa của từng kênh
+  - Chữ ký mật mã của mỗi nút trên đường đi
 explanation: |
-  Timelock trong một giao dịch cam kết khóa các khoản tiền cho đến một khối nhất định. Điều này ngăn chặn bên tạo ra giao dịch khôi phục ngay lập tức số tiền của họ.
+  Nút gửi cần biết topology mạng để tính toán lộ trình đến người nhận, cho phép nó chọn lộ trình tốt nhất.
+reviewed: false

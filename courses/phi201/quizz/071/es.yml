@@ -1,0 +1,9 @@
+question: ¿Cuál es el lema de los Fisiócratas?
+answer: Laissez-faire, laissez passer.
+wrong_answers:
+  - El Estado es a la vez banquero, comerciante y proveedor.
+  - Francia solo puede enriquecerse a través de la ruina de Inglaterra y Holanda.
+  - La economía política, como resumida por Dupont de Nemours, es la ciencia del derecho natural aplicada a las sociedades civilizadas.
+explanation: |
+  El lema Laissez-faire, laissez passer de los Fisiócratas expresa su creencia de que la economía prospera cuando está libre de intervenciones estatales, permitiendo que las fuerzas naturales del mercado se equilibren libremente.
+reviewed: false

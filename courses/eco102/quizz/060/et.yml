@@ -1,0 +1,8 @@
+question: Mis on Bastiati sõnul peamine probleem riiklikus kulutamises?
+answer: See on tihti raisatud
+wrong_answers:
+  - See loob liiga palju töökohti
+  - See on ebaõiglane kõige rikkamate suhtes
+  - See on vajalik ühiskonna toimimiseks
+explanation: |
+  Bastiat näeb riiklikku kulutamist raiskamise allikana, kuna üksikisikutelt konfiskeeritud vahendid kasutatakse tihti riigi poolt valesti.

@@ -1,0 +1,9 @@
+question: Por que a criptografia por deslocamento é considerada criptografia simétrica?
+answer: Porque a mesma chave é usada tanto para criptografar quanto para descriptografar
+wrong_answers:
+  - Porque utiliza duas chaves, pública e privada
+  - Porque descriptografa sem usar uma chave
+  - Porque a chave varia a cada criptografia
+explanation: |
+  A criptografia por deslocamento é considerada criptografia simétrica porque utiliza a mesma chave para criptografar e descriptografar uma mensagem, garantindo assim a confidencialidade entre as partes que compartilham esta chave.
+reviewed: false

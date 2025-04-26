@@ -1,0 +1,11 @@
+question: Kes on krüptopunkid?
+answer: Inimeste rühm, kes hakkas sügavalt küsima privaatsuse ja vabaduse rolli kohta digiajastul.
+wrong_answers:
+  - Inimeste rühm, kes varastab informatsiooni valitsustelt.
+  - Inimeste rühm, kes leiutas Bitcoini.
+  - Inimeste rühm, kes vastustab tehnoloogia kasutamisele.
+explanation: |
+  Krüptopunkid on isikute rühm, kes uskusid, et krüptograafia
+  võiks olla vahend individuaalsete õiguste kaitsmiseks valitsuste
+  ja suurte korporatsioonide sekkumise vastu.
+reviewed: true

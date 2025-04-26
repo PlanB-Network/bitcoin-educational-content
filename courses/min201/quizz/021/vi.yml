@@ -1,9 +1,9 @@
-question: Động lực kinh tế để sử dụng máy đào Bitcoin thay vì một bộ sưởi điện đơn giản là gì?
+question: Động cơ kinh tế để sử dụng máy đào Bitcoin thay vì một bộ sưởi điện đơn giản là gì?
 answer: Máy đào không chỉ cung cấp nhiệt mà còn mang lại phần thưởng Bitcoin.
 wrong_answers:
   - Máy đào sử dụng ít điện hơn so với bộ sưởi điện đơn giản.
   - Máy đào tạo ra nhiều nhiệt hơn so với bộ sưởi điện đơn giản.
   - Máy đào rẻ hơn so với bộ sưởi điện đơn giản.
 explanation: |
-  Sự khác biệt giữa việc sử dụng máy đào và bộ sưởi điện đơn giản nằm ở chỗ máy đào không chỉ cung cấp nhiệt mà còn mang lại phần thưởng Bitcoin. Phần thưởng bổ sung này có thể giúp giảm bớt lo ngại về việc tiêu thụ năng lượng cao của các máy đào.
-reviewed: false
+  Sự khác biệt giữa việc sử dụng máy đào và bộ sưởi điện đơn giản nằm ở chỗ máy đào không chỉ cung cấp nhiệt mà còn mang lại phần thưởng Bitcoin. Phần thưởng bổ sung này có thể giúp giảm bớt mối lo ngại về việc tiêu thụ năng lượng cao của các máy đào.
+reviewed: true

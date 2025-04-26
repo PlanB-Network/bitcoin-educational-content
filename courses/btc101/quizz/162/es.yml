@@ -1,9 +1,12 @@
 question: ¿Cuál es el papel de los mineros en el protocolo de Bitcoin?
-answer: Ellos aseguran la red actual e histórica.
+answer: Aseguran la red actual y la histórica.
 wrong_answers:
-  - Regulan el precio de Bitcoin
-  - Controlan el suministro de Bitcoin
-  - Gestionan las transacciones entre usuarios
+  - Regulan el precio de Bitcoin.
+  - Controlan el suministro de Bitcoin.
+  - Gestionan las transacciones entre usuarios.
 explanation: |
-  Los mineros en el protocolo de Bitcoin aseguran tanto la red actual como la histórica. No regulan el precio de Bitcoin, controlan su suministro ni gestionan las transacciones entre usuarios.
-reviewed: false
+  Los mineros en el protocolo de Bitcoin aseguran tanto la red
+  actual como la histórica. No regulan el precio de
+  Bitcoin, no controlan su suministro, ni gestionan las transacciones
+  entre usuarios.
+reviewed: true

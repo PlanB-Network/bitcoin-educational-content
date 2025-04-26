@@ -1,8 +1,0 @@
-question: Lightning Network内でのLNとBTC間のアトミックスワップの目的は何ですか？
-answer: 流動性の再調整
-wrong_answers:
-  - チャネルを開く
-  - 他のノードに接続する
-  - チャネルを購入する
-explanation: |
-  Lightning Network内でのLNとBTC間のアトミックスワップは、流動性の再調整に使用されます。これは、別のノードを介してLoopに流動性を送り、その後、オンチェーンの残高を元のノードに戻すことによって行われます。

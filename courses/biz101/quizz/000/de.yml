@@ -1,0 +1,9 @@
+question: Zahlungssysteme, die auf den traditionellen Währungssystemen aufbauen, sind ?
+answer: Im Wesentlichen von den Händlern über die Gebühren der Zahlungsdienstleister bezahlt
+wrong_answers:
+  - Im Wesentlichen kostenlos, da der Kunde den vom Händler angezeigten Preis bezahlt
+  - Vom Kunden zusätzlich zum Angebotspreis des Händlers zu zahlen
+  - Bezahlt von den Kartenunternehmen, die die Daten der Kunden weiterverkaufen
+explanation: |
+  Nichts ist kostenlos. Die in den traditionellen Währungssystemen eingebauten Zahlungsschienen werden von verschiedenen Anbietern wie Kartengesellschaften und akquirierenden Banken betrieben, die für jede Transaktion eine feste Gebühr und/oder eine prozentuale Gebühr erheben
+reviewed: false

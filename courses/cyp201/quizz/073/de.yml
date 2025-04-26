@@ -1,9 +1,9 @@
-question: Was ist eine zusätzliche Option, um die Sicherheit einer Bitcoin-Wallet zu verbessern?
-answer: Hinzufügen einer Passphrase.
+question: Welcher Index repräsentiert die externe Kette eines Kontos in einem Ableitungspfad?
+answer: /0/
 wrong_answers:
-  - Hinzufügen einer zweiten mnemonischen Phrase.
-  - Hinzufügen einer digitalen Signatur.
-  - Hinzufügen einer Transaktionshistorie.
+  - /1/
+  - /0'/
+  - /2/
 explanation: |
-  Das Hinzufügen einer Passphrase ist eine zusätzliche Option, um die Sicherheit der Bitcoin-Wallet zu verbessern.
+  Die externe Kette wird durch den Index /0/ in der Tiefe 4 des Ableitungspfades identifiziert.
 reviewed: false

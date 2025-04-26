@@ -1,0 +1,9 @@
+question: Quem estabeleceu o primeiro serviço de troca entre bitcoin e o dólar em outubro de 2009?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  Este serviço era rudimentar: as trocas eram negociadas via e-mail, e os pagamentos eram feitos através do PayPal. A taxa de câmbio era baseada nos custos de mineração do próprio NewLibertyStandard.
+reviewed: false

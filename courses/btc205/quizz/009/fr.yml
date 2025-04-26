@@ -1,9 +1,0 @@
-question: Quelle est une caractéristique commune à toutes les solutions P2P discutées dans le chapitre ?
-answer: Elles facilitent toutes l'achat et la vente de Bitcoin.
-wrong_answers:
-  - Elles utilisent toutes le Lightning Network.
-  - Elles nécessitent toutes un compte pour fonctionner.
-  - Elles ont toutes un système DAO.
-explanation: |
-  Le chapitre discute de différentes solutions P2P pour l'achat de Bitcoin, mais elles ne partagent pas toutes les mêmes caractéristiques. La caractéristique commune à toutes est qu'elles facilitent l'achat et la vente de Bitcoin.
-reviewed: false

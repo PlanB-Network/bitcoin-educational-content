@@ -1,0 +1,9 @@
+question: Was ist der Unterschied zwischen der Verwendung des Salsa20-Algorithmus mit einem 128-Bit-Schlüssel und einem 256-Bit-Schlüssel?
+answer: Die Schlüssellänge beeinflusst die Anzahl der Durchläufe im Algorithmus.
+wrong_answers:
+  - Die Schlüssellänge ändert die Art der Verschlüsselung.
+  - Ein 128-Bit-Schlüssel wird für die Stream-Verschlüsselung und ein 256-Bit-Schlüssel für die Blockverschlüsselung verwendet.
+  - Die Schlüssellänge hat keinen Einfluss auf Salsa20.
+explanation: |
+  Im symmetrischen Verschlüsselungsschema Salsa20 beeinflusst die Schlüssellänge (128 oder 256 Bit) die Anzahl der Durchläufe im Algorithmus, ohne den Kern des Algorithmus selbst zu verändern.
+reviewed: false

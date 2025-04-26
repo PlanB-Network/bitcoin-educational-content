@@ -1,11 +1,9 @@
-question: What is the purpose of multi-signature addresses in the Lightning Network?
-answer: They require two parties to agree to unlock the funds.
+question: When is a Lightning channel officially open?
+answer: When the deposit transaction is confirmed on the Bitcoin blockchain
 wrong_answers:
-  - They allow for faster transaction times.
-  - They provide additional security against hacking.
-  - They enable the use of multiple cryptocurrencies.
+  - As soon as the public keys are exchanged between participants
+  - When the withdrawal transaction is signed by both parties
+  - As soon as the 2/2 multisignature address is created
 explanation: |
-  Multi-signature addresses in the Lightning Network require two parties
-  to agree to unlock the funds. This is a security measure that ensures that the funds
-  can only be moved with the consent of both parties.
+  The channel is considered open once the deposit transaction has been included in a Bitcoin block and has reached a certain number of confirmations.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Mengapa sebuah string pseudorandom dikatakan tidak dapat dibedakan dari string acak sejati?
+answer: Karena hampir mustahil untuk menentukan asalnya tanpa informasi tambahan
+wrong_answers:
+  - Karena mengandung segmen deterministik yang identik dengan string acak sejati
+  - Karena menggunakan angka floating dalam konstruksinya
+  - Karena dihasilkan hanya dari peristiwa alam
+explanation: |
+  Sebuah string pseudorandom dirancang untuk sangat mirip dengan string acak sejati, membuat perbedaan menjadi mustahil tanpa akses ke seed atau algoritma yang digunakan.

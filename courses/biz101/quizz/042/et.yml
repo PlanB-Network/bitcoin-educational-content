@@ -1,0 +1,9 @@
+question: Mis on enamikus jurisdiktsioonides Bitcoiniga tegelemisel maksustatav sündmus?
+answer: Bitcoini müümine, kauplemine või kasutamine maksmiseks põhjustab sageli maksustatava sündmuse.
+wrong_answers:
+  - Lihtsalt hoida Bitcoini määramata ajaks ilma tehingute tegemiseta.
+  - Bitcoini rahakoti või võtmete varundamine.
+  - Bitcoini hinna vaatamine internetis.
+explanation: |
+  Tavaliselt leiab maksustatav sündmus aset siis, kui ettevõte võõrandab või kasutab oma Bitcoini, mitte ainult hoiab seda. Iga Bitcoini müük või vahetamine kaupade, teenuste või fiatvaluuta vastu võib tekitada maksustatavat kasumit või kahjumit.
+reviewed: false

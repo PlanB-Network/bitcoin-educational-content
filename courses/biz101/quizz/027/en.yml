@@ -1,0 +1,9 @@
+question: What is one suggested practice regarding custody when acquiring Bitcoin?
+answer: Consider self-custody solutions after initial purchases, so the business truly controls its assets.
+wrong_answers:
+  - Never withdraw Bitcoin from the exchange under any circumstances.
+  - Always trust a single custodian without reviewing security measures.
+  - Store all Bitcoin on a public website with a simple password
+explanation: |
+  After buying Bitcoin, moving it to a self-custody wallet ensures the business has direct control over its funds. While third-party custodians can be convenient, self-custody aligns with Bitcoin’s principle of financial sovereignty.
+reviewed: false

@@ -46,7 +46,7 @@ See näitab tagasiulatuva skoori `34,593` ja tulevikku suunatud skoori `45,202`.
 - Kui analüütik teab minu münti tsüklite alguses ja üritab kindlaks teha selle vastavust lõpus, seisab ta silmitsi `45,202` võimaliku UTXO-ga, igaüks sama tõenäosusega olla minu oma.
 Seetõttu pean Whirlpooli kasutamist eriti asjakohaseks strateegias `Hodl -> Mix -> Spend -> Replace`. Minu arvates on kõige loogilisem lähenemine hoida enamus oma säästudest bitcoinides külmas rahakotis, samal ajal pidevalt säilitades teatud arvu münte coinjoinis Samourai's, et katta igapäevaseid kulusid. Kui coinjoins'ist pärit bitcoine on kulutatud, asendatakse need uutega, et naasta määratletud segatud müntide lävele. See meetod võimaldab meil vabaneda murest meie UTXO-de anonüümsuskomplektide pärast, muutes samal ajal coinjoins'i efektiivseks muutmiseks vajaliku aja palju vähem piiravaks.
 
-Loodan, et see vastus on valgustanud Whirlpooli mudelit. Kui soovite rohkem teada saada, kuidas coinjoins töötab Bitcoinis, soovitan lugeda [minu põhjalikku artiklit sellel teemal](https://planb.network/tutorials/privacy/coinjoin-dojo).
+Loodan, et see vastus on valgustanud Whirlpooli mudelit. Kui soovite rohkem teada saada, kuidas coinjoins töötab Bitcoinis, soovitan lugeda [minu põhjalikku artiklit sellel teemal](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
 
 **Välised ressursid:**
 - Samourai Wallet Whirlpool

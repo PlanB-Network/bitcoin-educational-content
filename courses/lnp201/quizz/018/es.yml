@@ -1,9 +1,8 @@
-question: ¿Qué hace Alice después de recibir la dirección pública de Bob?
-answer: Ella crea una dirección multi-sig 2/2.
+question: ¿Cómo se crea un nuevo estado del canal después de cada transferencia?
+answer: Creando una nueva transacción de compromiso con la distribución actualizada
 wrong_answers:
-  - Ella envía dinero a la dirección pública de Bob.
-  - Publica una transacción en la red de Bitcoin.
-  - Le pide a Bob su firma.
+  - Publicando una transacción en la cadena después de cada transferencia
+  - Aumentando la capacidad total del canal
+  - Cerrando y reabriendo el canal después de cada transacción
 explanation: |
-  Después de recibir la dirección pública de Bob, Alice la utiliza junto con su propia dirección pública para crear una dirección multi-sig 2/2. Esta es la dirección a la cual enviará dinero para abrir el canal.
-reviewed: false
+  Cada transacción dentro del canal actualiza el estado del canal con una nueva transacción de compromiso, reflejando la distribución actual de fondos entre los dos participantes.

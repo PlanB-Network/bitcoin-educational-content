@@ -1,9 +1,11 @@
-question: À quelle fréquence la récompense pour le minage est-elle réduite de moitié ?
-answer: Tous les 210 000 blocs
+question: À quelle fréquence la récompense pour le minage est-elle divisée par deux ?
+answer: Tous les 210 000 blocs.
 wrong_answers:
-  - Tous les 120 000 blocs
-  - Tous les 540 000 blocs
-  - Tous les 2 100 000 blocs
+  - Tous les 120 000 blocs.
+  - Tous les 540 000 blocs.
+  - Tous les 2 100 000 blocs.
 explanation: |
-  La récompense pour le minage est programmée pour être réduite de moitié tous les 210 000 blocs, ce qui correspond approximativement à tous les quatre ans, un événement connu sous le nom de "halving".
-reviewed: false
+  La récompense pour le minage est programmée pour être divisée par deux tous les 210 000
+  blocs, ce qui correspond à peu près à tous les quatre ans: un événement
+  connu sous le nom de halving.
+reviewed: true

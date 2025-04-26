@@ -65,7 +65,7 @@ Remember my introduction. I explained why Bitcoin's privacy model originally rel
 However, the practical reality is much more complex. There are a multitude of behaviors that risk linking a real identity to an on-chain activity. In analysis, this is called an entry point, and there are many of them. The most common, of course, is KYC (Know Your Customer). If you withdraw your bitcoins from a regulated platform to one of your personal receiving addresses, then some people are able to link your identity to this address. More broadly, an entry point can be any form of interaction between your real life and a Bitcoin transaction. For example, if you publish a receiving address on your social networks, this can be an entry point for analysis. If you make a payment in bitcoins to your baker, they can associate your face (which is part of your identity) with a Bitcoin address.
 These entry points are almost inevitable when using Bitcoin. Although one might seek to limit their scope, they will remain present. That's why it's crucial to combine methods aimed at preserving your privacy. While maintaining an acceptable separation between your real identity and your transactions is a commendable approach, it remains insufficient. Indeed, if all your on-chain activities can be grouped together, then even the smallest entry point could compromise the single layer of privacy you had established.
 
-Therefore, it's also necessary to deal with chain analysis in our use of Bitcoin. By doing so, we can minimize the aggregation of our activities and limit the impact of an entry point on our privacy. Precisely, to better counteract chain analysis, what better approach than to familiarize oneself with the methods used in chain analysis? If you want to know how to improve your privacy on Bitcoin, you must understand these methods. This will allow you to better grasp techniques like [Coinjoin](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet) or [Payjoin](https://planb.network/en/tutorials/privacy/payjoin), and to reduce the mistakes you might make.
+Therefore, it's also necessary to deal with chain analysis in our use of Bitcoin. By doing so, we can minimize the aggregation of our activities and limit the impact of an entry point on our privacy. Precisely, to better counteract chain analysis, what better approach than to familiarize oneself with the methods used in chain analysis? If you want to know how to improve your privacy on Bitcoin, you must understand these methods. This will allow you to better grasp techniques like [Coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) or [Payjoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), and to reduce the mistakes you might make.
 
 In this, we can draw an analogy with cryptography and cryptanalysis. A good cryptographer is first and foremost a good cryptanalyst. To imagine a new encryption algorithm, one must know what attacks it will face, and also study why previous algorithms were broken. The same principle applies to privacy on Bitcoin. Understanding the methods of chain analysis is the key to protecting against it. That's why I'm offering you this article.
 
@@ -284,7 +284,7 @@ De facto, this claim-right to privacy on Bitcoin does not exist. It is therefore
 First of all, before considering more radical methods, it is advisable to limit our exposure to the heuristics used for chain analysis as much as possible. As mentioned earlier, the two most powerful heuristics are address reuse and the COINJOIN.
 
 The basic principle for ensuring your privacy on Bitcoin lies in using a new, clean address for each incoming transaction to your wallet. Address reuse is truly the main threat to confidentiality on Bitcoin.
-For an individual user, generating a new address for each incoming payment is very simple. Modern wallets do this automatically as soon as you click on "Receive". So, if you place even the slightest importance on the privacy of your transactions, using fresh addresses represents the bare minimum. If you ever need a static point of contact on the internet, instead of putting a receiving address, you can use solutions [like PayNym that implement BIP47](https://planb.network/en/tutorials/privacy/paynym-bip47).
+For an individual user, generating a new address for each incoming payment is very simple. Modern wallets do this automatically as soon as you click on "Receive". So, if you place even the slightest importance on the privacy of your transactions, using fresh addresses represents the bare minimum. If you ever need a static point of contact on the internet, instead of putting a receiving address, you can use solutions [like PayNym that implement BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 Next, if you want to act against chain analysis, avoid merging UTXOs at the input of a transaction. At a minimum, if you really need to merge, prefer UTXOs that have the same source. This recommendation implies having good management of your UTXOs. When buying your bitcoins, prefer transfers involving large amounts to maximize the number of payments you can make without having to merge. I also advise you to label your UTXOs in your software to identify their origin and avoid merging from distinct sources.
 
 More broadly, for all other heuristics, you need to know them to try not to fall into them:
@@ -299,16 +299,16 @@ More broadly, for all other heuristics, you need to know them to try not to fall
 You can also turn to methods that make your use of Bitcoin ambiguous in order to prevent or deceive chain analysis.
 
 The most popular technique is surely Coinjoin, a collaborative transaction structure that mobilizes several UTXOs of the same amounts. The goal here is to break deterministic links, thus preventing analyses from the present to the past and from the past to the present. Coinjoin allows for plausible deniability by hiding your coins within a large group of indistinguishable coins. If you want to learn more about Coinjoin, both technically and practically, I suggest you read these other articles and tutorials:
-- [COINJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet);
-- [COINJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet);
-- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/en/tutorials/privacy/wst-anonsets).
+- [COINJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [COINJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 ![analysis](assets/en/13.webp)
 
 CoinJoin is an excellent tool for creating plausible deniability for coins, but it is not optimized for all user privacy needs. Specifically, CoinJoin was not designed to become a payment tool. It is very rigid about the amounts exchanged in order to perfect the production of plausible deniability. Since one cannot freely choose the amount of transaction outputs, CoinJoin cannot be used to make payments in bitcoins.
 
 For instance, imagine I want to pay for my baguette in bitcoins while optimizing my privacy. Given the impossibility of selecting the amount of the resulting UTXO from the CoinJoin, I would find myself unable to adjust the amount of my expenditure to the price set by the baker. Therefore, CoinJoin proves inadequate for payment transactions.
 
-Other tools have been conceived to meet privacy needs in more specific use cases. For example, we have [PayJoin](https://planb.network/en/tutorials/privacy/payjoin), a kind of mini-CoinJoin, involving only two participants and based on a structure that allows for payment.
+Other tools have been conceived to meet privacy needs in more specific use cases. For example, we have [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), a kind of mini-CoinJoin, involving only two participants and based on a structure that allows for payment.
 
 The uniqueness of PayJoin lies in its ability to produce a transaction that looks ordinary, while it is actually a mini-CoinJoin between two users. In this structure, the recipient of the transaction participates among the inputs alongside the actual sender. Thus, the recipient inserts a payment to themselves within the transaction that facilitates the actual payment.
 
@@ -323,15 +323,15 @@ The second goal of PayJoin is to deceive the analyst about the actual amount of 
 
 Indeed, if we revisit our example of using PayJoin to buy a baguette, an external observer might think that we are dealing with a payment of 4,000 sats or 21,000 sats. In reality, the payment for the baguette is 6,000 sats: 21,000 - 15,000 = 6,000. The real value of the payment is therefore hidden within a fake payment that acts as a decoy for chain analysis.
 
-Beyond PayJoin and CoinJoin, there are many other Bitcoin transaction structures that either block chain analysis or deceive it. Among these, I could mention the [Stonewall](https://planb.network/en/tutorials/privacy/stonewall) and [StonewallX2](https://planb.network/en/tutorials/privacy/stonewall-x2) transactions, which allow either to make a flexible mini Coinjoin or to imitate a flexible mini Coinjoin. There are also [Ricochet](https://planb.network/en/tutorials/privacy/ricochet) transactions that simulate a change of ownership of bitcoins by making a multitude of fake transfers to oneself.
+Beyond PayJoin and CoinJoin, there are many other Bitcoin transaction structures that either block chain analysis or deceive it. Among these, I could mention the [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) and [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) transactions, which allow either to make a flexible mini Coinjoin or to imitate a flexible mini Coinjoin. There are also [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) transactions that simulate a change of ownership of bitcoins by making a multitude of fake transfers to oneself.
 
 All these tools are available on Samourai Wallet on mobile, and Sparrow Wallet on PC. If you want to learn more about these specific transaction structures, I advise you to discover my tutorials:
-- [PAYJOIN](https://planb.network/en/tutorials/privacy/payjoin);
-- [PAYJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/payjoin-samourai-wallet);
-- [PAYJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/payjoin-sparrow-wallet);
-- [STONEWALL](https://planb.network/en/tutorials/privacy/stonewall);
-- [STONEWALL X2](https://planb.network/en/tutorials/privacy/stonewall-x2);
-- [RICOCHET](https://planb.network/en/tutorials/privacy/ricochet).
+- [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
+- [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 ## Conclusion
 Chain analysis is a practice that involves trying to trace the flow of bitcoins on-chain. To do this, analysts look for patterns and characteristics in order to draw more or less plausible hypotheses and interpretations.
@@ -350,3 +350,9 @@ As a Bitcoin user, it is essential to master the fundamental principles of chain
 **P2WPKH:** Acronym for Pay to Witness Public Key Hash. It is a standard script model used to establish spending conditions on a UTXO. P2WPKH was introduced with the implementation of SegWit in August 2017. This script is similar to P2PKH (Pay to Public Key Hash), in that it also locks bitcoins based on the hash of a public key, that is, a receiving address. The difference lies in how signatures and scripts are included in the transaction. In the case of P2WPKH, the signature script information (ScriptSig) is moved from the traditional transaction structure to a separate section called Witness. This move is a feature of the SegWit (Segregated Witness) update. This technique has the advantage of reducing the size of transaction data in the main body, while retaining the necessary script information for validation in a separate section. Consequently, P2WPKH transactions are generally less expensive in terms of fees compared to Legacy transactions. P2WPKH addresses are written using Bech32 encoding, which contributes to a more concise and less error-prone writing thanks to the BCH checksum. These addresses always start with bc1q, making them easily distinguishable from Legacy receiving addresses. P2WPKH is a version 0 SegWit output.
 
 **UTXO:** Acronym for Unspent Transaction Output. A UTXO is a transaction output that has not yet been spent or used as an input for a new transaction. UTXOs represent the fraction of bitcoins that a user owns and that are currently available to be spent. Each UTXO is associated with a specific output script, which defines the necessary conditions to spend the bitcoins. Transactions in Bitcoin consume these UTXOs as inputs and create new UTXOs as outputs. The UTXO model is fundamental to Bitcoin, as it allows for easy verification that transactions are not trying to spend bitcoins that do not exist or have already been spent. Essentially, a UTXO is a piece of Bitcoin.
+
+
+
+
+
+

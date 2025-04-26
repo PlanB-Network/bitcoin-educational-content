@@ -1,10 +1,10 @@
-question: O que o texto sugere sobre o futuro do Bitcoin?
-answer: Ele não vai desaparecer
+question: O que este curso sugere sobre o futuro do Bitcoin?
+answer: Não vai desaparecer.
 wrong_answers:
-  - Será substituído por uma tecnologia melhor
-  - Será proibido em todo o mundo
-  - Perderá seu valor
+  - Será substituído por uma tecnologia melhor.
+  - Será proibido mundialmente.
+  - Perderá seu valor.
 explanation: |
-  O texto sugere que o Bitcoin não vai desaparecer. Pelo contrário,
-  a revolução apenas começou.
-reviewed: false
+  O texto do curso sugere que o Bitcoin não vai
+  desaparecer. Pelo contrário, a revolução está apenas começando.
+reviewed: true

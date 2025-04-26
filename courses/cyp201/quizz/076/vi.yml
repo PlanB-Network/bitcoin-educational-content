@@ -1,11 +1,9 @@
-question: Điều gì xảy ra nếu cụm mật khẩu của một ví Bitcoin được thay đổi?
-answer: Ví Bitcoin trở nên hoàn toàn khác biệt
+question: Ký hiệu /<0;1>/* trong một mô tả tương ứng với gì?
+answer: Đến chuỗi bên ngoài và chuỗi bên trong với sự phát sinh tuần tự
 wrong_answers:
-  - Ví Bitcoin trở nên không thể truy cập
-  - Ví Bitcoin vẫn giữ nguyên như cũ
-  - Ví Bitcoin mất hết bitcoin
+  - Đến một địa chỉ đa chữ ký được sắp xếp
+  - Đến một checksum cho các đường dẫn phát sinh
+  - Đến một đường dẫn phát sinh cứng
 explanation: |
-  Nếu cụm mật khẩu được thay đổi, ví Bitcoin trở nên hoàn toàn khác biệt
-  vì cụm mật khẩu đóng vai trò trong việc xây dựng và tính toán tất cả các
-  khóa của ví.
+  Ký hiệu /<0;1>/* chỉ ra rằng mô tả có thể tạo ra địa chỉ cho chuỗi bên ngoài (0) và chuỗi bên trong (1), với sự phát sinh tuần tự nhờ vào ký tự đại diện (*).
 reviewed: false

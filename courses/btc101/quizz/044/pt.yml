@@ -1,9 +1,12 @@
-question: Qual é o resultado potencial de uma desvalorização ou perda de confiança muito rápida em uma moeda fiduciária?
-answer: Isso pode levar à hiperinflação.
+question: Qual é o resultado potencial de uma desvalorização súbita ou perda de confiança em uma moeda fiduciária?
+answer: Hiperinflação.
 wrong_answers:
-  - Isso pode levar à deflação.
-  - Isso pode levar a uma economia estável.
-  - Isso pode levar a um aumento no valor da moeda.
+  - Deflação.
+  - Uma economia estável.
+  - Um aumento no valor da moeda.
 explanation: |
-  Uma desvalorização ou perda de confiança muito rápida em uma moeda fiduciária pode levar à hiperinflação. Essa é uma situação em que os preços de bens e serviços aumentam a uma taxa extremamente alta, muitas vezes levando à instabilidade econômica.
-reviewed: false
+  Uma desvalorização súbita ou perda de confiança em uma moeda
+  fiduciária pode levar à hiperinflação. Esta é uma situação
+  onde os preços de bens e serviços aumentam a uma taxa
+  extremamente alta, muitas vezes levando à instabilidade econômica.
+reviewed: true

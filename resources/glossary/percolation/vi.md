@@ -1,0 +1,5 @@
+---
+term: PERCOLATION
+
+---
+Refers to a model that helps understand the spread of information (transactions and blocks) across the Bitcoin node network. Percolation theory is originally a mathematical and physical model that studies the movement and filtration of fluids through porous materials. It analyzes how, beyond a certain threshold, a connected network allows the fluid to flow continuously through the material. This can be applied to computer networks to see how information spreads by considering the nodes as sites that can be either active or inactive. In Bitcoin, nodes thus play the role of pores in percolation theory. Each active node receives and transmits information to other nodes, which will either continue the transmission or block it. The spread of certain types of transactions can be analyzed in terms of percolation thresholds, where a certain percentage of active nodes is necessary to reach a miner who will include it in a block. This theory provides a framework to assess how changes in the network, such as the modification of standardization rules by some nodes, affect the cascading mechanism of transaction propagation to reach a miner.

@@ -1,9 +1,10 @@
-question: Wie kann man Bitcoins ohne KYC erwerben?
+question: Was ist eine der Möglichkeiten, Bitcoins ohne KYC zu erwerben?
 answer: Bitcoin-Automaten.
 wrong_answers:
   - Broker-Plattformen.
   - DCA-Plattformen.
   - Banküberweisungen.
 explanation: |
-  Der Text erwähnt, dass es mehrere Möglichkeiten gibt, Bitcoins ohne KYC zu erwerben, eine davon sind Bitcoin-Automaten.
-reviewed: false
+  Im Kursmaterial wird erwähnt, dass es mehrere Möglichkeiten gibt,
+  Bitcoins ohne KYC zu erwerben, eine davon sind Bitcoin-Automaten.
+reviewed: true

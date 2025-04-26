@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de la Profundidad 2 en la estructura de la Cartera HD?
-answer: Permite diferenciar cuentas para diferentes criptomonedas o redes.
-wrong_answers:
-  - Se utiliza para derivar claves secundarias para un propósito específico.
-  - Se utiliza para recibir direcciones en una cartera estándar.
-  - Corresponde a las cadenas externas e internas.
-explanation: |
-  En la estructura de la Cartera HD, la Profundidad 2 permite diferenciar cuentas para diferentes criptomonedas o redes. Esto permite organizar la cartera basada en diferentes fuentes de fondos.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er "skjult inflasjon" i et gjeldsbasert pengesystem?
+answer: Det er økningen i pengemengden (ca. 7 % per år) som reduserer din andel av den samlede verdien hvis du ikke investerer eller øker formuen tilsvarende.
+wrong_answers:
+  - Det er en offisiell økonomisk betegnelse for fast rente.
+  - Det dreier seg om inflasjonstall som ikke publiseres av sentralbankene.
+  - Det betyr at prisene aldri stiger, selv når pengemengden øker.
+explanation: |
+  Skjult inflasjon oppstår når pengemengden utvides, noe som reduserer kjøpekraften til sparepengene. Hvis en bedrift ikke investerer proaktivt eller beskytter formuen sin, risikerer den å miste verdi på grunn av denne stille formen for pengeutvanning.
+reviewed: false

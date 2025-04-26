@@ -5,7 +5,8 @@ wrong_answers:
   - Ohjelmistoon ei tule uusia ominaisuuksia.
   - Ohjelmisto kuluttaa enemmän järjestelmän resursseja.
 explanation: |
-  Krakattu ohjelmisto, jota ei voi päivittää, edustaa kaksinkertaista potentiaalista
-  uhkaa. Se voi tuoda viruksen sen laittoman latauksen aikana epäilyttävältä verkkosivustolta
-  ja se voi olla turvaton uusia hyökkäysmuotoja vastaan.
-reviewed: false
+  Krakattu ohjelmisto, jota ei voi päivittää, edustaa kaksinkertaista
+  potentiaalista uhkaa. Se voi tuoda viruksen sen laittoman
+  latauksen aikana epäilyttävältä verkkosivustolta ja se voi olla turvaton
+  uusia hyökkäysmuotoja vastaan.
+reviewed: true

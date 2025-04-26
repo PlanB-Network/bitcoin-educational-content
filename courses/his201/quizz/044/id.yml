@@ -1,0 +1,9 @@
+question: Siapa yang memiliki ide untuk mendirikan jaringan uji coba untuk menghindari kerusakan pada jaringan Bitcoin utama?
+answer: Gavin Andresen
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - Laszlo Hanyecz
+explanation: |
+  Dia [menyebutkan](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104) ide ini di forum pada tanggal 9 Juni, dan Satoshi menyetujuinya. Dia [membuat](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018) testnet pada tanggal 15 Juli.
+reviewed: false

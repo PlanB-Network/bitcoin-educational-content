@@ -1,0 +1,11 @@
+question: Mis on raha kolm peamist funktsiooni?
+answer: Väärtuse säilitaja, Vahetusvahend, Arvestusühik
+wrong_answers:
+  - Väärtuse säilitaja, Vahetusvahend, Tootmisvahend
+  - Väärtuse säilitaja, Tootmisvahend, Arvestusühik
+  - Vahetusvahend, Tootmisvahend, Arvestusühik
+explanation: |
+  Aristotelese sõnul täidab raha kolme funktsiooni: see on väärtuse säilitaja,
+  vahetusvahend ja arvestusühik. Kuigi tänapäeval on laialdaselt tunnustatud,
+  et vahetusvahendi funktsioon eelneb kahele teisele funktsioonile.
+reviewed: true

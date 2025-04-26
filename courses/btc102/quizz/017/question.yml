@@ -1,64 +1,18 @@
-id: 97751a98-31d1-4418-b517-c41aa1e0f249
-chapterId: 33134b3f-92c1-5185-afb6-88599e47e801
+id: c906b55c-d26d-41ca-acac-6570c4444806
+chapterId: ae122ad9-9b4d-5229-9038-e1b99d5cfc83
 difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Investment
-  - Private Key
+  - good-practice
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2660
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2580
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1290
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2620
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2660
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-03-21
     urgency: 1
-    contributors_id:
-    reward: 2580
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2620
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2740
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2580
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2740
+    contributor_names:
+      - LoicPandul
+    reward: 0

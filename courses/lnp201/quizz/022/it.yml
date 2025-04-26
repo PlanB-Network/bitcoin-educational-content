@@ -1,9 +1,9 @@
-question: Cosa fa Alice con l'UTXO di 0,0007 BTC quando apre un canale con Bob?
-answer: Lo invia a uno dei suoi indirizzi di cambio.
+question: Cosa consente di fare la chiave di revoca in caso di imbroglio?
+answer: Recuperare tutti i fondi punendo il truffatore
 wrong_answers:
-  - Lo invia all'indirizzo pubblico di Bob.
-  - Lo invia all'indirizzo multi-sig 2/2.
-  - Lo tiene nel suo stesso indirizzo.
+  - Annullare la transazione di impegno
+  - Raddoppiare la capacità del canale
+  - Prevenire ulteriori transazioni nel canale
 explanation: |
-  Quando Alice apre un canale con Bob, crea una transazione con 2 UTXO come output. Un UTXO di 0,0013 BTC va all'indirizzo multi-sig 2/2, mentre l'altro UTXO di 0,0007 BTC va a uno dei suoi indirizzi di cambio.
+  La chiave di revoca consente alla parte lesa di recuperare tutti i fondi in caso di tentativo di truffa da parte dell'altra parte.
 reviewed: false

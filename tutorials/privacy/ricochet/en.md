@@ -12,9 +12,10 @@ _This tutorial is provided for educational and informational purposes only. We d
 
 ---
 
-> *"A premium tool that adds extra hops of history to your transaction. Stump the blacklists and help guard against unjust 3rd party account closures."*
+> A premium tool that adds extra hops of history to your transaction. Stump the blacklists and help guard against unjust 3rd party account closures.
 
 ## What is Ricochet?
+
 Ricochet is a technique that involves conducting multiple fictitious transactions to oneself in order to simulate a transfer of bitcoin ownership. This tool is different from other Samourai transactions as it does not provide prospective anonymity, but rather a form of retrospective anonymity. Ricochet helps blur the specificities that could compromise the fungibility of a Bitcoin coin.
 
 For example, if you perform a coinjoin, your coin output from the mix will be identified as such. Chain analysis tools are able to detect patterns of coinjoin transactions and label the coins that come out of them. Indeed, coinjoin aims to break the historical links of a coin, but its passage through coinjoins remains detectable. To make an analogy, this phenomenon is similar to encrypting a text: even though we cannot access the original plaintext, it is easily identifiable that encryption has been applied.
@@ -22,7 +23,9 @@ For example, if you perform a coinjoin, your coin output from the mix will be id
 Precisely, this label of "coinjoin output coin" can affect the fungibility of a UTXO. Regulated entities, such as exchange platforms, may refuse to accept a UTXO that has undergone a coinjoin, or even require explanations from its owner, with the risk of having their account blocked or funds frozen. In some cases, the platform may even report your behavior to state authorities.
 
 This is where the Ricochet method comes into play. To blur the footprint left by a coinjoin, Ricochet executes four successive transactions where the user transfers their funds to themselves on different addresses. After this sequence of transactions, the Ricochet tool finally routes the bitcoins to their final destination, such as an exchange platform. The objective is to create distance between the original coinjoin transaction and the final spending act. In this way, chain analysis tools will think that there has likely been a transfer of ownership after the coinjoin, and therefore it is unnecessary to take action against the sender.
+
 ![ricochet diagram](assets/en/1.webp)
+
 In the face of the Ricochet method, one could imagine that chain analysis software would deepen their examination beyond four bounces. However, these platforms face a dilemma in optimizing the detection threshold. They must establish a limit on the number of hops after which they admit that a property change has likely occurred and that the link with a previous coinjoin should be ignored. However, determining this threshold is risky: each extension of the observed number of hops exponentially increases the volume of false positives, i.e., individuals erroneously marked as participants in a coinjoin, when the operation was actually performed by someone else. This scenario poses a major risk for these companies, as false positives lead to dissatisfaction, which can drive affected customers towards the competition. In the long term, a threshold that is too ambitious leads a platform to lose more customers than its competitors, which could threaten its viability. It is therefore complicated for these platforms to increase the number of observed bounces, and 4 is often a sufficient number to counter their analyses.
 
 Thus, **the most common use case for Ricochet arises when it is necessary to conceal a previous participation in a coinjoin on a UTXO that belongs to you**. Ideally, it is best to avoid transferring bitcoins that have undergone a coinjoin to regulated entities. However, in the event that there is no other option, especially in the urgency to liquidate bitcoins into fiat currency, Ricochet offers an effective solution.

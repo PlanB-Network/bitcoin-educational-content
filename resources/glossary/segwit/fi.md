@@ -1,0 +1,7 @@
+---
+term: SEGWIT
+
+---
+SegWit, joka on lyhenne sanoista "Segregated Witness" (erotettu todistaja), on elokuussa 2017 käyttöönotettu päivitys Bitcoin-protokollaan. Sen tarkoituksena on ratkaista useita teknisiä ongelmia, kuten verkon transaktiokapasiteettiongelma, transaktioiden muokattavuusongelma ja helpottaa tulevia protokollan muutoksia.
+
+Tämä pehmeä haarautuminen muuttaa transaktiorakennetta siirtämällä allekirjoitustiedot erilliseen hakemistoon. SegWitissä allekirjoitukset poistetaan päälohkosta ja lisätään lohkon lopussa olevaan erilliseen tietorakenteeseen, jota kutsutaan todistajiksi. Tämä erottelu mahdollistaa kunkin lohkon kapasiteetin kasvattamisen muuttamatta itse lohkon maksimikokoa, joka Bitcoinissa on 1 MB. Tämä muutos ratkaisee myös transaktioiden muokattavuusongelman. Ennen SegWitiä allekirjoituksia voitiin muuttaa ennen transaktion vahvistamista, mikä muutti transaktion tunnusta. Tämä vaikeutti monimutkaisten transaktioiden rakentamista, koska vahvistamattoman transaktion tunniste saattoi muuttua. Allekirjoitukset erottamalla SegWit tekee transaktioista muokattavia, sillä kaikki allekirjoitusten muutokset vaikuttavat nyt vain todistajan tunnisteeseen (WTXID), eivät transaktion tunnisteeseen (TXID). Ratkaisemalla muokattavuusongelman SegWit on tasoittanut tietä Bitcoin-järjestelmän jatkokehitykselle, erityisesti Lightning Networkille, joka mahdollistaa nopeat ja edulliset transaktiot.

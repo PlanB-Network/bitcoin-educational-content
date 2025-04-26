@@ -1,0 +1,9 @@
+question: Mitä tekniikkaa voidaan käyttää kätkön eri versioiden yhdistämiseen, jos kätköjen välillä on eroja?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Kertakäyttöinen tiiviste
+  - Lokipohjainen replikointi
+explanation: |
+  CRDT:t varmistavat tietojen yhdenmukaisuuden mahdollistamalla kätkön useiden versioiden yhdistämisen ilman asiakaspuolen ristiriitoja.
+reviewed: false

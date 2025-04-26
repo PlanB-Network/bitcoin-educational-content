@@ -1,0 +1,9 @@
+question: Koje su glavne karakteristike menadžera lozinki?
+answer: Čuvajte, generate, i organizujte lozinke.
+wrong_answers:
+  - Analiziraj i ukloni viruse.
+  - Bekapujte i organizujte lična dokumenta.
+  - Optimizujte brzinu veze.
+explanation: |
+  Osnovne funkcije uključuju čuvanje, generisanje i organizovanje lozinki.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: BACKWARD COMPATIBILITY
+
+---
+Refers to the ability of a protocol rules update to maintain compatibility with previous versions. This means that the changes are designed in such a way that older nodes (nodes running versions prior to the rule change) can still interact with the network and follow the chain with the most work accumulated. Therefore, it is essential that the older nodes neither reject the new blocks nor the new transactions. Backward compatibility significantly reduces the likelihood that an update will fragment the network, thus avoiding the division of nodes into sub-groups on different chains. To ensure compatibility with previous versions of the protocol, an update must make the existing rules stricter or introduce new ones. This principle defines a "soft fork". Conversely, if an update relaxes the existing rules or eliminates some, then it will not be backward compatible. This would be a "hard fork".

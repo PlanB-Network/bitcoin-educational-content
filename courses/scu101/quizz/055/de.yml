@@ -1,9 +1,12 @@
-question: Was ist ein guter Ausgangspunkt für eine Karriere in der Cybersicherheit?
+question: Was ist ein guter Ausgangspunkt für eine Karriere in der Cybersicherheit aus akademischer Sicht?
 answer: Eine solide Ausbildung in Informatik, Informationssystemen oder einem verwandten Bereich
 wrong_answers:
   - Ein Abschluss in Kunst und Geisteswissenschaften
-  - Ein Abschluss in Betriebswirtschaftslehre
-  - Ein Abschluss in Sportwissenschaften
+  - Ein Abschluss in Betriebswirtschaft
+  - Ein Abschluss in Sporterziehung
 explanation: |
-  Das Kapitel erwähnt, dass eine solide Ausbildung in Informatik, Informationssystemen oder einem verwandten Bereich oft der ideale Ausgangspunkt für eine Karriere in der Cybersicherheit ist.
-reviewed: false
+  Das Kapitel erwähnt, dass eine solide Ausbildung in Informatik,
+  Informationssystemen oder einem verwandten Bereich oft
+  der ideale Ausgangspunkt für eine Karriere in der
+  Cybersicherheit aus akademischer Sicht ist.
+reviewed: true

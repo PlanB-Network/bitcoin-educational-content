@@ -1,0 +1,9 @@
+question: Warum verwenden Chemiker die Gruppentheorie?
+answer: Um die Formen von Molekülen zu klassifizieren
+wrong_answers:
+  - Um chemische Bindungen zu analysieren
+  - Um die Molekülmasse zu berechnen
+  - Um chemische Reaktionen vorherzusagen
+explanation: |
+  Die Gruppentheorie ermöglicht es Chemikern, die Formen von Molekülen basierend auf ihren Symmetrien zu klassifizieren, was beim Verständnis ihrer strukturellen Eigenschaften hilft.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jakou ekonomickou iluzi kritizoval Bastiat, která se znovu objevila ve 20. století?
+answer: Že stát může vytvářet pracovní místa
+wrong_answers:
+  - Že trh potřebuje stát
+  - Že trh se dokáže regulovat sám
+  - Že firmy mohou vytvářet bohatství bez regulace
+explanation: |
+  Bastiat kritizoval myšlenku, že stát může vytvářet pracovní místa bez poškození jiných pracovních míst kvůli dopadu daní potřebných k financování těchto tvorb.
+  kontrolováno: false

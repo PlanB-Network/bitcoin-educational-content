@@ -1,0 +1,9 @@
+question: Quel rôle des outils comme Zaprite et Musqet jouent-ils dans une solution de paiement professionnelle ?
+answer: Ils améliorent l'expérience de paiement
+wrong_answers:
+  - Ils gèrent la conversion multi-devises et le décaissement de fiats
+  - Ils se concentrent sur le cryptage des données de transaction et la gestion des clés privées
+  - Ils servent de systèmes POS de base
+explanation: |
+  Zaprite et Musqet permettent de personnaliser le processus de paiement et d'affiner les rapports, en complément de l'infrastructure de paiement de base.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è l'equivalente della programmazione orientata agli oggetti (OOP) del componente Schema nel contesto RGB?
+answer: Definizione della classe
+wrong_answers:
+  - Il costruttore della classe
+  - Implementazione di un'interfaccia
+  - Prototipazione del metodo
+explanation: |
+  Lo schema corrisponde alla definizione di una classe in OOP, che descrive le proprietà, i metodi e le regole della logica aziendale.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Điểm yếu của giải pháp RoboSat P2P là gì?
-answer: Giao thức dễ bị tổn thương với một điều phối viên duy nhất.
-wrong_answers:
-  - Nó yêu cầu một tài khoản để hoạt động.
-  - Nó không sử dụng Lightning Network.
-  - Nó không phải là mã nguồn mở.
-explanation: |
-  Chương này đề cập rằng một trong những điểm yếu của RoboSat là
-  giao thức của nó dễ bị tổn thương với một điều phối viên duy nhất.

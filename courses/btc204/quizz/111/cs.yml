@@ -1,0 +1,11 @@
+question: Co je transakce Stonewall x2?
+
+answer: Platební transakce ve formě mini-coinjoin
+
+wrong_answers:
+  - Transakce, která napodobuje mini-coinjoin, aniž by jím byla
+  - Jednoduchá platební transakce
+  - Transakce, která zahrnuje příjemce mezi vstupy
+
+explanation: |
+  Stonewall x2 je specifická forma Bitcoinové transakce zaměřená na zvýšení soukromí uživatele při platbě, tentokrát však ve spolupráci s třetí stranou, která se na platbě nepodílí. Tato metoda funguje jako mini-coinjoin mezi dvěma účastníky, zároveň však umožňuje platbu třetí osobě.

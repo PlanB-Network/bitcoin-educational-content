@@ -1,0 +1,9 @@
+question: Jaký je hlavní účel Lightning Network postavené nad Bitcoinem?
+answer: Umožnit rychlejší, téměř okamžité platby s minimální interakcí v řetězci.
+wrong_answers:
+  - Zcela nahradit blockchain Bitcoinu a ukládat všechny transakce lokálně.
+  - Poskytnout síť s oprávněním řízenou jediným subjektem.
+  - Zpomalení transakcí, aby bylo zajištěno, že zůstanou plně sledovatelné vládami.
+explanation: |
+  Lightning Network je protokol "druhé vrstvy", který umožňuje účastníkům vytvářet platební kanály, provádět transakce mimo řetězec a konečný čistý zůstatek vypořádat pouze v blockchainu bitcoinu. Tato konstrukce dosahuje vyšších rychlostí a nižších nákladů.
+reviewed: false

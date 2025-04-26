@@ -1,10 +1,10 @@
 question: Jaký je důsledek hyperinflace?
-answer: Drastický pokles hodnoty měny
+answer: Drastický pokles hodnoty měny.
 wrong_answers:
-  - Mírný pokles hodnoty měny
-  - Drastický nárůst hodnoty měny
-  - Mírný nárůst hodnoty měny
+  - Malý pokles hodnoty měny.
+  - Drastický nárůst hodnoty měny.
+  - Malý nárůst hodnoty měny.
 explanation: |
-  Kvůli hyperinflaci jednotlivci velmi rychle ztrácejí důvěru v měnu,
-  což vede k drastickému poklesu hodnoty měny v krátkém časovém období.
-reviewed: false
+  Kvůli hyperinflaci lidé rychle ztrácejí důvěru v měnu, což vede k
+  drastickému poklesu její hodnoty v krátkém časovém období.
+reviewed: true

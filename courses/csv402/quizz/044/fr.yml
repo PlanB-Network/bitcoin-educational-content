@@ -1,0 +1,9 @@
+question: Comment la sécurité d'une transition RGB dans un canal Lightning est-elle assurée en cas de diffusion d'un état obsolète ?
+answer: Par la mécanique punitive du canal Lightning
+wrong_answers:
+  - En annulant automatiquement toutes les transactions précédentes
+  - Par la mécanique punitive du protocole RGB
+  - Par l'intervention de l'émetteur de l'actif RGB via sa signature associée à la Genesis
+explanation: |
+  Le mécanisme punitive classique du Lightning Network assure que la diffusion d'un état ancien peut être sanctionnée par la récupération de l'ensemble des fonds mis en jeu, notamment les actifs RGB.
+reviewed: false

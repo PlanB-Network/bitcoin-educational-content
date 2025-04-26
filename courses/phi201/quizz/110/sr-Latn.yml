@@ -1,0 +1,9 @@
+question: Koji je glavni ekonomski alat koji preporučuje Keynes za stimulisanje ekonomije?
+answer: Povećanja javne potrošnje
+wrong_answers:
+  - Smanjenje poreza
+  - Liberalizacija tržišta
+  - Povećanje izvoza
+explanation: |
+  Keynes je zagovarao povećanje javne potrošnje kako bi se stimulisala ukupna tražnja, posebno tokom perioda recesije, u cilju smanjenja nezaposlenosti i pokretanja ekonomskog rasta.
+reviewed: false

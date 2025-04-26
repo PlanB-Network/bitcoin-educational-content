@@ -1,8 +1,0 @@
-question: Bobによって生成された秘密のSの目的は何ですか？
-answer: AliceとSusieによって設定されたHTLCを解除するために使用されます。
-wrong_answers:
-  - ハッシュrを計算するために使用されます。
-  - 新しいHTLCを作成するために使用されます。
-  - チャネルを閉じるために使用されます。
-explanation: |
-  Bobは秘密のSを生成し、ハッシュrを計算します。この秘密は、AliceとSusieによって設定されたHTLCを解除するために使用されます。

@@ -1,0 +1,9 @@
+question: Ni jibu gani linawakilisha mojawapo ya matawi mawili makuu ya kriptografia?
+answer: Siri linganifu
+wrong_answers:
+  - Kriptolojia
+  - Usimbaji fiche wa jinsia moja
+  - Uchambuzi wa siri
+explanation: |
+  Usimbaji fiche linganifu ni tawi kuu la usimbaji fiche, linalohusisha mifumo ya usimbaji ambapo ufunguo mmoja hutumiwa kusimba na kusimbua ujumbe.
+reviewed: false

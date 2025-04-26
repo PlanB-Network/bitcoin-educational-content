@@ -1,0 +1,9 @@
+question: Por que é difícil construir uma criptografia em modo de bloco a partir de um cifrador de fluxo?
+answer: Porque os cifradores de fluxo processam dados continuamente
+wrong_answers:
+  - Porque os cifradores de fluxo não usam chaves privadas
+  - Porque os modos de bloco requerem chaves mais longas
+  - Porque os cifradores de fluxo são sempre mais lentos
+explanation: |
+  Os cifradores de fluxo são projetados para criptografar dados de maneira contínua (bit a bit ou byte a byte), o que complica seu uso em modo de bloco que requer processamento em blocos de tamanho fixo.
+reviewed: false

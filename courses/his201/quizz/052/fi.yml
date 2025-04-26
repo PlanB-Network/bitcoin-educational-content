@@ -1,0 +1,9 @@
+question: Mikä oli suurin lohkokoko, jonka Satoshi lisäsi Bitcoin-protokollaan syyskuussa 2010?
+answer: 1 MB
+wrong_answers:
+  - 2 MB
+  - 4 MB
+  - 8 MB
+explanation: |
+  MAX_BLOCK_SIZE-parametri lisättiin heinäkuussa, ja raja alettiin soveltaa kaikissa verkon solmuissa alkaen 12. syyskuuta.
+reviewed: false

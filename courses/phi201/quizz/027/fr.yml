@@ -1,0 +1,9 @@
+question: Quelle est la différence entre phusis et nomos ?
+answer: Phusis est la loi de la nature, nomos est la loi humaine.
+wrong_answers:
+  - Phusis est la loi des dieux, nomos est la loi des hommes.
+  - Phusis est la loi des faibles, nomos est la loi des forts.
+  - Phusis est la loi de l'antiquité, nomos est la loi des temps modernes.
+explanation: |
+  En philosophie grecque, phusis désigne les lois naturelles ou inhérentes à la nature, indépendantes des actions humaines, tandis que nomos se réfère aux lois humaines, créées par les sociétés pour réguler la vie en communauté.
+reviewed: false

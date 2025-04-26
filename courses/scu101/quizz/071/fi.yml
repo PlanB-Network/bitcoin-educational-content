@@ -5,5 +5,5 @@ wrong_answers:
   - Käytä samaa salasanaa kaikille tileille.
   - Opettele se ulkoa.
 explanation: |
-  On suositeltavaa kirjoittaa salasananhallintaohjelman pääsalasana paperille, mutta se tulisi säilyttää piilotettuna ja turvallisessa paikassa. Tämä johtuu siitä, että jos kiintolevy on salattu ja tietokone lukittu, salasana ei ole saavutettavissa, edes murron yhteydessä.
-reviewed: false
+  On suositeltavaa kirjoittaa salasananhallintaohjelman pääsalasana paperille, mutta se tulisi säilyttää piilotettuna ja turvallisessa paikassa. Tämä johtuu siitä, että jos kiintolevy on salattu ja tietokone lukittu, salasana ei ole saatavilla, edes murron yhteydessä.
+reviewed: true

@@ -1,12 +1,14 @@
 question: Jak funguje těžební pool a proč je nutný?
-answer: Těžební pool je skupina těžařů, kteří kombinují své výpočetní zdroje, aby zvýšili své šance na těžbu. Tato spolupráce je nutná, protože izolovaný malý těžební stroj konkuruje průmyslovým gigantům, čímž se jeho šance na úspěch snižují na zanedbatelnou úroveň. Sdružením mohou těžaři kombinovat svůj výpočetní výkon, častěji nalézat bloky a poté rozdělovat odměny proporcionálně podle příspěvku každého těžaře do poolu.
+answer: Těžební pool je skupina těžařů, kteří kombinují své výpočetní zdroje, aby zvýšili své šance na těžbu. Tato spolupráce je nezbytná, protože izolovaný malý těžební stroj soutěží s průmyslovými giganty, což snižuje jeho šance na úspěch na zanedbatelnou úroveň. Sdružením dohromady mohou těžaři kombinovat svůj výpočetní výkon, nalézat bloky častěji a poté rozdělovat odměny proporcionálně podle příspěvku každého těžaře do poolu.
 wrong_answers:
-  - Těžební pool je skupina těžařů, kteří sdílejí stejný těžební stroj, aby zvýšili své šance na těžbu. Tato spolupráce je nutná, protože jediný těžební stroj může těžit jen omezené množství Bitcoinu.
-  - Těžební pool je skupina těžařů, kteří sdílejí stejný těžební software, aby zvýšili své šance na těžbu. Tato spolupráce je nutná, protože různé těžební softwary mají různou efektivitu.
-  - Těžební pool je skupina těžařů, kteří sdílejí stejnou těžební lokalitu, aby zvýšili své šance na těžbu. Tato spolupráce je nutná, protože umístění těžební operace může ovlivnit efektivitu těžby.
+  - Těžební pool je skupina těžařů, kteří sdílejí stejný těžební stroj, aby zvýšili své šance na těžbu. Tato spolupráce je nezbytná, protože jediný těžební stroj může těžit jen omezené množství Bitcoinu.
+  - Těžební pool je skupina těžařů, kteří sdílejí stejný těžební software, aby zvýšili své šance na těžbu. Tato spolupráce je nezbytná, protože různé těžební softwary mají různou efektivitu.
+  - Těžební pool je skupina těžařů, kteří sdílejí stejné místo těžby, aby zvýšili své šance na těžbu. Tato spolupráce je nezbytná, protože umístění těžební operace může ovlivnit efektivitu těžby.
 explanation: |
-  Kapitola vysvětluje, že těžební pool je skupina těžařů, kteří kombinují
-  své výpočetní zdroje, aby zvýšili své šance na těžbu. Tato spolupráce
-  je nutná, protože izolovaný malý těžební stroj konkuruje průmyslovým
-  gigantům, čímž se jeho šance na úspěch snižují na zanedbatelnou úroveň.
-reviewed: false
+  Kapitola vysvětluje, že těžební pool je skupina
+  těžařů, kteří kombinují své výpočetní zdroje, aby zvýšili
+  své šance na těžbu. Tato spolupráce je nezbytná,
+  protože izolovaný malý těžební stroj soutěží s průmyslovými
+  giganty, což snižuje jeho šance na úspěch na
+  zanedbatelnou úroveň.
+reviewed: true

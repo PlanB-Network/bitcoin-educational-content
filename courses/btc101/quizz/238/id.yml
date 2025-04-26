@@ -1,0 +1,11 @@
+question: Apa konsep money streaming dalam konteks Lightning Network?
+answer: Melakukan mikro-transaksi setiap menit
+wrong_answers:
+  - Menayangkan konten video untuk Bitcoin
+  - Menayangkan konten audio untuk Bitcoin
+  - Menayangkan transaksi Bitcoin secara real-time
+explanation: >-
+  Dengan Lightning Network, kita dapat melakukan mikro-transaksi setiap menit,
+  yang membuka peluang untuk bereksperimen dengan model ekonomi di mana konsumen membayar untuk
+  konten berdasarkan apa yang mereka konsumsi.
+reviewed: false

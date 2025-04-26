@@ -1,0 +1,9 @@
+question: Siapa yang pertama kali menerapkan penambangan dengan unit pemrosesan grafis (GPU) pada tahun 2010?
+answer: Laszlo Hanyecz
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - Nils Schneider
+explanation: |
+  Pada April 2010, dia menggunakan lingkungan OpenCL untuk melibatkan GPU dalam penambangan bitcoin. Pada 10 Mei, dia [mempublikasikan](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100) eksekutabelnya di forum.
+reviewed: false

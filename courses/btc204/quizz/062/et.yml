@@ -1,0 +1,13 @@
+question: Nende valikute hulgast, milline ei ole automaatse osade valiku meetod?
+
+answer: Vaiksed Maksed
+
+wrong_answers:
+  - Haru-ja-Piira
+  - FIFO
+  - Seljakoti Lahendaja
+
+explanation: |
+  Erinevalt teistest kolmest valikust, Vaiksed Maksed ei ole osade valimise meetod, vaid protokoll staatiliste aadresside kasutamiseks.
+
+reviewed: false

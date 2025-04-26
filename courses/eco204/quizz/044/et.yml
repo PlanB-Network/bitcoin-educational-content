@@ -1,0 +1,13 @@
+question: Mis oli aastane inflatsioonimäär Boliivias 1985. aastal?
+answer: 11,749%
+wrong_answers:
+  - 12,800%
+  - 10,000%
+  - 15,000%
+explanation: |
+  1985. aastal jõudis Boliivia aastane inflatsioonimäär 11,749%-ni, näidates
+
+  et peaaegu igal kuul oli inflatsioon lähedal või ületas hüperinflatsiooni läve
+
+  50%.
+reviewed: false

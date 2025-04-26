@@ -1,10 +1,9 @@
-question: Je heslová fráze bezpečnější než jednoduché heslo?
-answer: "Ano"
+question: Jaký je hlavní rozdíl mezi P2PK a P2PKH?
+answer: P2PK přímo používá surový veřejný klíč, zatímco P2PKH používá hash veřejného klíče.
 wrong_answers:
-  - "Ne"
-  - Záleží na délce hesla
-  - Záleží na složitosti hesla
+  - P2PK je kompatibilní se SegWit, zatímco P2PKH není.
+  - P2PK používá Schnorrův podpis, zatímco P2PKH používá podpis ECDSA.
+  - P2PK je určen pro multisigy, zatímco P2PKH je pro jednoduché skripty.
 explanation: |
-  Heslová fráze je bezpečnější než jednoduché heslo. Ideální heslová fráze
-  je dlouhá, různorodá a náhodná. Může zvýšit bezpečnost peněženky nebo hot software.
+  P2PK uzamkne prostředky pomocí surového veřejného klíče, zatímco P2PKH používá hash veřejného klíče.
 reviewed: false

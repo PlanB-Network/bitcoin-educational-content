@@ -1,0 +1,9 @@
+question: ¿Qué dos tipos de cartera se tienen en cuenta en el perfil Starter?
+answer: Carteras Rayo con y sin custodia
+wrong_answers:
+  - Monederos Bitcoin de almacenamiento en frío y en caliente
+  - Monederos Bitcoin multisig y de papel
+  - Hardware y cerebro Monederos Lightning
+explanation: |
+  El perfil Starter utiliza carteras Lightning custodiadas o no custodiadas.
+reviewed: false

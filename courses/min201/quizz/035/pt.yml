@@ -1,9 +1,11 @@
-question: O que a taxa de hash mede na rede Bitcoin?
-answer: As operações de cálculo por segundo
+question: O que o hashrate mede na rede Bitcoin?
+answer: Os cálculos por segundo
 wrong_answers:
   - O número de transações por segundo
   - O número de nós ativos
   - A quantidade de eletricidade consumida pela rede
 explanation: |
-  A taxa de hash na rede Bitcoin mede o número de cálculos que podem ser realizados por segundo. É um indicador chave da saúde e segurança da rede.
-reviewed: false
+  O hashrate na rede Bitcoin mede o número de
+  cálculos que podem ser realizados por segundo. É um indicador chave
+  da saúde e segurança da rede.
+reviewed: true

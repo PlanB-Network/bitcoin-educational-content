@@ -1,0 +1,9 @@
+question: Hva var den maksimale blokkstørrelsen som Satoshi la til i Bitcoin-protokollen i september 2010?
+answer: 1 MB
+wrong_answers:
+  - 2 MB
+  - 4 MB
+  - 8 MB
+explanation: |
+  MAX_BLOCK_SIZE-parameteren ble lagt til i juli, deretter ble grensen håndhevet på alle nettverksnoder fra og med 12. september.
+reviewed: false

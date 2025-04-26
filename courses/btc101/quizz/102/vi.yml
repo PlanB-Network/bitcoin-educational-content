@@ -1,11 +1,9 @@
-question: Phương pháp nào để bảo vệ bitcoin của bạn trong dài hạn?
-answer: Khắc cụm từ ghi nhớ của bạn lên một vật liệu chống chịu như thép
+question: Phương pháp nào để bảo mật bitcoin của bạn trong dài hạn?
+answer: Khắc cụm từ ghi nhớ của bạn trên một vật liệu chống chịu như thép.
 wrong_answers:
-  - Lưu trữ chúng trong ví điện tử
-  - Giữ chúng trên nền tảng giao dịch
-  - Chia sẻ cụm từ ghi nhớ của bạn với một người bạn đáng tin cậy
+  - Lưu trữ chúng trong một ví nóng.
+  - Giữ chúng trên một nền tảng giao dịch.
+  - Chia sẻ cụm từ ghi nhớ của bạn với một đồng nghiệp.
 explanation: |
-  Khắc cụm từ ghi nhớ của bạn lên một vật liệu chống chịu như thép tạo ra
-  một bản sao lưu vật lý của các khóa của bạn chống lại hư hại do nước và lửa,
-  do đó bảo vệ bitcoin của bạn trong dài hạn.
-reviewed: false
+  Khắc cụm từ ghi nhớ của bạn trên một vật liệu chống chịu như thép tạo ra một bản sao lưu vật lý của các khóa của bạn mà chống lại được cả hư hại do nước và lửa, do đó bảo mật bitcoin của bạn trong dài hạn.
+reviewed: true

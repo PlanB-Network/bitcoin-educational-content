@@ -1,0 +1,8 @@
+question: 在他的著作中，中本聪明确提到了哪一种私人货币系统？
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - The Liberty Dollar
+  - e-Bullion
+explanation:
+  这个系统在比特币问世的时候确实还在活跃，不像e-gold和The Liberty Dollar。中本聪还[提到](https: //bitcointalk.org/index.php?topic=87.msg807#msg807)了Pecunix，这是一个在2002年创建的数字黄金货币。

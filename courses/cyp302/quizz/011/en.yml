@@ -1,0 +1,9 @@
+question: What facilitates the interception of local communications by poorly equipped attackers?
+answer: The use of radio waves for wireless connections
+wrong_answers:
+  - Routing all data through satellites
+  - Using only coaxial cables for data transmission
+  - Sending data via optical fibers only
+explanation: |
+  Wireless connections, which transmit data via radio waves, make interception easier for attackers, as they do not require physical access to the network.
+reviewed: false

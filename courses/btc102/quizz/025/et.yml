@@ -1,0 +1,9 @@
+question: Milline omadus eristab Bitcoin peamiselt altcoinidest?
+answer: Detsentraliseerimine
+wrong_answers:
+  - Likviidsus
+  - Maine
+  - Privaatsus
+explanation: |
+  Bitcoin on tuntud oma detsentraliseerituse poolest, erinevalt enamikust altcoinidest, mis on enam-vähem tsentraliseeritud.
+reviewed: false

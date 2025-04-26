@@ -1,0 +1,9 @@
+question: Kako bi preduzeće trebalo da izabere Bitcoin rešenje za plaćanje koje odgovara njegovim potrebama?
+answer: Razmatranjem faktora kao što su učestalost transakcija, prosečna veličina plaćanja, i da li je online ili lično, a zatim odabirom rešenja prilagođenog toj kategoriji.
+wrong_answers:
+  - Birajući uvek najjednostavnije rešenje, bez obzira na obim transakcija ili složenost.
+  - Korišćenjem samo najvećeg i najskupljeg rešenja dostupnog, bez obzira na veličinu poslovanja.
+  - Oslanjajući se isključivo na nagađanja bez razmatranja specifičnih zahteva poslovanja.
+explanation: |
+  Različiti poslovi imaju različite potrebe. Evaluacija faktora kao što su obim transakcija, metode plaćanja (online vs. fizičke) i skalabilnost pomaže kompaniji da izabere pravo Bitcoin rešenje za plaćanje.
+reviewed: false

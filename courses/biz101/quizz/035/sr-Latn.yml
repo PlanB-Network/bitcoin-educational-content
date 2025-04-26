@@ -1,0 +1,9 @@
+question: Kako se poboljšana efikasnost i brzina Lightning Network upoređuju sa tradicionalnim metodama plaćanja?
+answer: Značajno je brži, često obavlja transakcije za manje od sekunde, sa nižim naknadama i bez oslanjanja na više posrednika.
+wrong_answers:
+  - Podudara se sa tradicionalnim bankarskim vremenima, često traje 2-5 dana da se završi.
+  - Sporije je od tradicionalnih kartičnih plaćanja i ima veće naknade.
+  - To zahteva više entiteta za odobravanje, baš kao i trenutni bankovni transferi.
+explanation: |
+  Omogućavanjem off-chain transakcija i finalizacijom plaćanja gotovo trenutno, Lightning nudi prednost u brzini i efikasnosti u odnosu na tradicionalne metode koje se oslanjaju na nekoliko posrednika.
+reviewed: false

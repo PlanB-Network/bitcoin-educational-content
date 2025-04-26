@@ -1,0 +1,13 @@
+question: Apa perbedaan antara penggunaan kembali alamat eksternal dan internal dalam sebuah transaksi?
+
+answer: Penggunaan kembali eksternal diamati lintas beberapa transaksi, sementara penggunaan kembali internal diamati dalam transaksi yang sama.
+
+wrong_answers:
+  - Penggunaan kembali eksternal menyangkut alamat publik, sementara penggunaan kembali internal menyangkut alamat privat yang digunakan dalam skrip transaksi.
+  - Penggunaan kembali internal diamati lintas beberapa transaksi, sementara penggunaan kembali eksternal diamati dalam transaksi yang sama.
+  - Penggunaan kembali internal menyangkut alamat publik, sementara penggunaan kembali eksternal menyangkut alamat privat yang digunakan dalam skrip transaksi.
+
+explanation: |
+  Penggunaan kembali alamat eksternal diamati ketika sebuah alamat digunakan kembali lintas beberapa transaksi yang berbeda, sedangkan penggunaan kembali internal menyangkut sebuah alamat yang digunakan baik dalam input maupun output dari transaksi yang sama.
+
+reviewed: false

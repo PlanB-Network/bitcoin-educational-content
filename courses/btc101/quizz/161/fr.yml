@@ -1,10 +1,9 @@
-question: Quelle est la principale préoccupation concernant le coût environnemental du minage de Bitcoin?
-answer: La consommation d'énergie
+question: Quelle est la principale préoccupation concernant le coût environnemental du minage de Bitcoin ?
+answer: La consommation d'énergie.
 wrong_answers:
-  - La production de ASICs
-  - Le recyclage des ASICs
-  - Le coût de l'électricité
-explanation: |
-  La principale préoccupation environnementale du minage de Bitcoin est la consommation d'énergie.
-  Bien que les ASICs soient principalement composés d'aluminium et puissent être recyclés ou réutilisés, l'énergie nécessaire pour alimenter ces machines est significative.
-reviewed: false
+  - La production des ASICs.
+  - Le recyclage des ASICs.
+  - Le coût de l'électricité.
+explanation: >-
+  La principale préoccupation environnementale du minage de Bitcoin est la consommation d'énergie. Bien que les ASICs soient principalement fabriqués en aluminium et puissent être recyclés ou réutilisés, l'énergie nécessaire pour alimenter ces machines est significative.
+reviewed: true

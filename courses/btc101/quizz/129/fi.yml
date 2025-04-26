@@ -6,4 +6,4 @@ wrong_answers:
   - Yksityinen ja muuttumaton kaikkien Bitcoin-siirtojen kirjanpito.
 explanation: >-
   Bitcoin-lohkoketju on julkinen ja muuttumaton kaikkien Bitcoin-siirtojen kirjanpito. Se on yhteinen kirjanpito kaikille Bitcoin-käyttäjille.
-reviewed: false
+reviewed: true

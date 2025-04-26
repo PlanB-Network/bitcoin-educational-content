@@ -1,0 +1,13 @@
+question: Jaký je hlavní cíl coinswapu?
+
+answer: Tajně převést vlastnictví bitcoinů
+
+wrong_answers:
+  - Zvýšit rychlost transakcí
+  - Míchat bitcoiny
+  - Tajně vyměnit altcoin za bitcoin
+
+explanation: |
+  Coinswap využívá chytré kontrakty k umožnění převodu vlastnictví bitcoinů mezi dvěma uživateli, bez nutnosti důvěry a bez toho, aby byl tento převod explicitně viditelný na blockchainu.
+
+reviewed: false

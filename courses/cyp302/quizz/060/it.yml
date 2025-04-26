@@ -1,0 +1,9 @@
+question: Quale risposta rappresenta uno dei due principali rami della crittografia?
+answer: Crittografia simmetrica
+wrong_answers:
+  - Criptologia
+  - Crittografia omomorfica
+  - Crittoanalisi
+explanation: |
+  La crittografia simmetrica è un ramo principale della crittografia, che coinvolge schemi di cifratura in cui una singola chiave viene utilizzata per cifrare e decifrare i messaggi.
+reviewed: false

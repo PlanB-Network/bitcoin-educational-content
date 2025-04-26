@@ -1,9 +1,0 @@
-question: Was ist ein Nachteil der RoboSat P2P-Lösung?
-answer: Das Protokoll ist mit einem einzigen Koordinator anfällig.
-wrong_answers:
-  - Es erfordert ein Konto, um zu funktionieren.
-  - Es verwendet nicht das Lightning Network.
-  - Es ist nicht Open Source.
-explanation: |
-  Im Kapitel wird erwähnt, dass einer der Nachteile von RoboSat darin besteht, dass sein Protokoll mit einem einzigen Koordinator anfällig ist.
-reviewed: false

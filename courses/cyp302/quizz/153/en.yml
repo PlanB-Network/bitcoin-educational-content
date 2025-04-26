@@ -1,0 +1,9 @@
+question: What security issue arises if the same message is encrypted multiple times in the simplified RSA cryptosystem?
+answer: The message will always produce the same encryption
+wrong_answers:
+  - The message will be vulnerable to brute force attacks
+  - The message will be reversed
+  - The message will become impossible to decrypt
+explanation: |
+  In a simplified RSA, encrypting a message multiple times will always produce the same result, making the encryption vulnerable to attacks.
+reviewed: false

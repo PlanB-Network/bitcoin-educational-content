@@ -1,0 +1,13 @@
+question: Hai biến thể chính của hợp đồng thông minh được sử dụng trong coinswaps là gì?
+
+answer: HTLC và PTLC
+
+wrong_answers:
+  - Đa chữ ký và Đơn chữ ký
+  - Hợp đồng thông minh và DApps
+  - SegWit và Taproot
+
+explanation: |
+  Để thực hiện một coinswap, người ta có thể sử dụng HTLCs (Hợp đồng Khóa Thời Gian Bằng Hash) hoặc PTLCs (Hợp đồng Khóa Thời Gian Bằng Điểm).
+
+reviewed: false

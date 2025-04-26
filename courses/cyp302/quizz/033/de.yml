@@ -1,0 +1,9 @@
+question: Was ist die Hauptfunktion eines Seeds im Kontext von Pseudorandom-Ketten?
+answer: Als Ausgangspunkt für die Erzeugung einer längeren Kette zu dienen
+wrong_answers:
+  - Die feste Länge einer Pseudorandom-Kette zu definieren
+  - Die Integrität einer Pseudorandom-Kette zu überprüfen
+  - Eine gleichmäßige Verteilung zu den Werten einer Kette hinzuzufügen
+explanation: |
+  Der Seed ist eine kürzere Zeichenfolge, die als Ausgangspunkt von einem Expansionsalgorithmus verwendet wird, um eine längere Pseudorandom-Kette zu generieren.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quali sono i tre passaggi fondamentali in uno schema MAC?
+answer: Generazione della chiave, generazione del tag, verifica
+wrong_answers:
+  - Cifratura, decifratura, trasmissione
+  - Generazione della chiave pubblica, cifratura della chiave privata, validazione
+  - Hashing del messaggio, cifratura del tag, distribuzione del tag
+explanation: |
+  Uno schema MAC consiste in tre passaggi principali: generare una chiave segreta, produrre un tag per il messaggio e verificare che il messaggio ricevuto e il suo tag corrispondano.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Berapa banyak episode hiperinflasi yang didokumentasikan dalam tabel Hanke-Krus?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Tabel Hanke-Krus mendokumentasikan 56 episode hiperinflasi. Namun,
+  tabel tersebut tidak mencakup semua episode, seperti yang terjadi di Venezuela pada tahun 2016, yang meningkatkan
+  total menjadi 57.
+reviewed: false

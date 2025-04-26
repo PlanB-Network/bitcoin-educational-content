@@ -1,0 +1,9 @@
+question: Какой метод используется для защиты прослеживаемости транзакций On-Chain?
+answer: Использование методов CoinJoin и PayJoin
+wrong_answers:
+  - Повторное использование одного и того же приемника Address
+  - Частая консолидация UTXO
+  - Депонирование в хранилище Wallet
+explanation: |
+  Coinjoins и payjoins помогают повысить конфиденциальность активности On-Chain.
+reviewed: false

@@ -1,10 +1,9 @@
-question: ¿Cuál es el propósito de la clave de revocación en una transacción de compromiso?
-answer: Permite a la otra parte mover los fondos sin esperar al final del bloqueo temporal si alguien intenta hacer trampa.
+question: ¿Qué limita la cantidad de un pago indirecto en la Lightning Network?
+answer: La menor liquidez disponible en un canal del camino elegido
 wrong_answers:
-  - Permite a la otra parte recuperar inmediatamente su dinero.
-  - Permite a la otra parte crear una nueva transacción de compromiso.
-  - Permite a la otra parte extender el bloqueo temporal.
+  - El número de nodos intermediarios involucrados
+  - La capacidad total de la Lightning Network
+  - Las tarifas de enrutamiento establecidas por cada nodo
 explanation: |
-  La clave de revocación es una medida de seguridad en una transacción de compromiso.
-  Si una de las partes intenta hacer trampa publicando un estado antiguo, la otra parte puede usar la clave de revocación para mover los fondos sin esperar al final del bloqueo temporal, castigando efectivamente al tramposo.
+  La cantidad máxima que un pago indirecto puede transferir depende de la menor liquidez disponible en los canales utilizados, ya que cada canal debe ajustar los fondos en cada lado.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Pourquoi un schéma de chiffrement authentifié seul est-il insuffisant dans une session de communication ?
+answer: Il ne garantit pas que le message a été envoyé par l'expéditeur au moment de la session
+wrong_answers:
+  - Il utilise des clés trop courtes
+  - Il ne chiffre pas les messages envoyé au moment de la session
+  - Il ne permet pas l'authentification de l'expéditeur au moment de la session
+explanation: |
+  Un schéma d'encryption authentifié ne protège pas contre des attaques telles que la relecture, la réorganisation et la réflexion sans l'ajout d'indicateurs comme les identifiants et numéros de séquence.
+reviewed: false

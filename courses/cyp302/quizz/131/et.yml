@@ -1,0 +1,9 @@
+question: Miks kasutatakse asümmeetrilist krüptograafiat suurte andmevahetuste puhul vähem kui sümmeetrilist krüptograafiat?
+answer: See on vähem efektiivne võrdväärse turvalisuse taseme juures
+wrong_answers:
+  - See ei taga sõnumite autentsust
+  - See nõuab iga vahetuse jaoks mitut avalikku võtit
+  - See ei ühildu kaasaegsete kommunikatsiooniprotokollidega
+explanation: |
+  Asümmeetriline krüptograafia, kuigi võimas autentimiseks ja esialgseks krüpteerimiseks, nõuab rohkem ressursse, muutes selle kasutamise suurte andmeülekannete puhul ebaefektiivseks.
+reviewed: false

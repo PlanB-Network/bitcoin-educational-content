@@ -1,64 +1,18 @@
-id: 8e8b0808-eba3-444c-97f0-35f7746385a4
-chapterId: 33134b3f-92c1-5185-afb6-88599e47e801
+id: b7bf1266-e7dc-482c-97f2-d77b21e2aa22
+chapterId: ae122ad9-9b4d-5229-9038-e1b99d5cfc83
 difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Exchange Platform
-  - Risk
+  - good-practice
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2752
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2626
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1313
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2689
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2752
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-03-21
     urgency: 1
-    contributors_id:
-    reward: 2626
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2689
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2878
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2626
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2878
+    contributor_names:
+      - LoicPandul
+    reward: 0

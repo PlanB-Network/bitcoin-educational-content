@@ -1,0 +1,13 @@
+question: Mitä Boltzmannin pistemäärä edustaa Bitcoin-siirtojen kontekstissa?
+
+answer: Ehdollinen todennäköisyys, että tietty syöte on yhdistetty annettuun tulosteeseen.
+
+wrong_answers:
+  - Siirrettyjen bitcoinien kokonaismäärä.
+  - Syötteiden määrä siirrossa.
+  - Kuhunkin syötteeseen tai tulosteeseen liittyvä entropia.
+
+explanation: |
+  Boltzmannin pistemäärä ilmaisee ehdollisen todennäköisyyden, että tietty syöte on yhdistetty annettuun tulosteeseen. Se on siis kvantitatiivinen mittari ehdolliselle todennäköisyydelle, että siirrossa syötteen ja tulosteen välillä tapahtuu yhdistäminen, perustuen suotuisten tapahtumien määrän suhteeseen verrattuna kaikkien mahdollisten tapahtumien kokonaismäärään, tulkintojen joukossa.
+
+reviewed: false

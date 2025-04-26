@@ -1,0 +1,9 @@
+question: Mengapa dianjurkan untuk menulis surat warisan dengan tinta di atas kertas?
+answer: Untuk menghindari risiko yang terkait dengan dokumen digital yang disusupi
+wrong_answers:
+  - Untuk mengurangi biaya pencetakan
+  - Untuk mendapatkan tanda tangan yang diakui secara hukum
+  - Untuk meningkatkan nilai hukum dokumen
+explanation: |
+  Surat yang ditulis tangan tidak terlalu rentan terhadap serangan siber dan memastikan kerahasiaan instruksi.
+reviewed: false

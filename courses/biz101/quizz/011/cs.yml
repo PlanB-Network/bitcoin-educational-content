@@ -1,0 +1,9 @@
+question: Jakou výhodu nabízí Lightning obchodníkům, pokud jde o konečnost platby?
+answer: Platby v systému Lightning se dokončují téměř okamžitě, což snižuje riziko storna nebo podvodu.
+wrong_answers:
+  - Než bude možné prostředky utratit, je třeba počkat 24 hodin.
+  - Umožňuje zákazníkům kdykoli požadovat zpět svou platbu.
+  - Díky tomu jsou transakce plně vratné až po dobu 90 dnů.
+explanation: |
+  Jakmile je platba přesměrována a vypořádána prostřednictvím sítě Lightning, je definitivní. Tím se eliminují scénáře zpětných plateb, které se vyskytují u tradičních platebních systémů.
+reviewed: false

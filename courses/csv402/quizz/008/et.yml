@@ -1,0 +1,9 @@
+question: Mis on deterministlike Bitcoini kohustuste peamine eesmärk?
+answer: Tagada, et tehingusse sisestatakse üks kulukohustus
+wrong_answers:
+  - Bitcoini tehingute struktuuri lihtsustamine
+  - Vähendada RGB tehingukulusid
+  - RGB multisignatuuride genereerimise optimeerimine
+explanation: |
+  Bitcoini deterministlikud kohustused tagavad, et tehingusse sisestatakse üks kohustus, et vältida varjatud konkureerivaid kohustusi.
+reviewed: false

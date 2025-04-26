@@ -1,11 +1,9 @@
-question: What are the characteristics of an effective passphrase for a Bitcoin wallet?
-answer: Long (20 to 40 characters) and diversified (using uppercase letters, lowercase letters, numbers, and symbols)
+question: Why are descriptors particularly useful for multisignature wallets?
+answer: They include the xpub of each factor and describe the multisignature structure
 wrong_answers:
-  - Short and simple
-  - Long and simple
-  - Short and diversified
+  - They eliminate the need for a mnemonic phrase
+  - They simplify the generation of hardened keys
+  - They make multisignatures compatible with all scripts
 explanation: |
-  An effective passphrase should be long (20 to 40 characters) and diversified
-  (using uppercase letters, lowercase letters, numbers, and symbols). It should not
-  be directly related to the user or their environment.
+  Descriptors include the extended public keys of all participants, which facilitates the restoration and management of multisignature configurations.
 reviewed: false

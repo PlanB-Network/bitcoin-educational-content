@@ -1,0 +1,13 @@
+question: Mikä on ricochet-tekniikan päätavoite?
+
+answer: Häivyttää kolikon menneisyyden jälkiä
+
+wrong_answers:
+  - Lisätä tulevien transaktioiden mahdollista anonyymijoukkoa
+  - Lisätä transaktion entropiaa
+  - Maksaa tulevaisuudessa vähemmän siirtomaksuja
+
+explanation: |
+  Ricochetin tavoitteena on simuloida Bitcoin-kolikon omistajuuden muutosta, jotta sen vaihdettavuus palautuisi hämärtämällä sen menneisyyden merkkejä.
+
+reviewed: false

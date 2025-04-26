@@ -1,9 +1,9 @@
 question: Mục đích của việc xác thực Lightning là gì?
 answer: Nó tạo ra một định danh khác nhau cho mỗi dịch vụ, mà không cần phải cung cấp địa chỉ email hay thông tin cá nhân.
 wrong_answers:
-  - Nó tăng tốc quá trình xác thực.
+  - Cho phép bất kỳ ai, kể cả những người không có ví Lightning, có thể xác thực mà không cần địa chỉ email, nếu họ hiển thị một ID hợp lệ.
   - Nó cho phép bạn sử dụng cùng một mật khẩu cho tất cả các dịch vụ.
   - Nó gửi nhắc nhở thay đổi mật khẩu hàng tháng.
 explanation: |
   Xác thực Lightning tạo ra một định danh khác nhau cho mỗi dịch vụ, mà không cần phải cung cấp địa chỉ email hay thông tin cá nhân. Điều này có thể tăng cường quyền riêng tư và an ninh bằng cách giảm lượng thông tin cá nhân được chia sẻ với mỗi dịch vụ.
-reviewed: false
+reviewed: true

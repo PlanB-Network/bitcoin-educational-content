@@ -137,7 +137,7 @@ Sparrow Wallet为您的钱包生成一个地址。通常，对于其他硬件钱
 
 有关标签的更多信息，我还推荐查看这个其他教程：
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 然后您可以使用这个地址来接收比特币。
 

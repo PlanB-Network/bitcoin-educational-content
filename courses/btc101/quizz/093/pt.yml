@@ -1,9 +1,14 @@
-question: O que você precisa fazer backup ao usar uma carteira com uma frase secreta?
-answer: Você precisa fazer backup tanto da lista de 12 ou 24 palavras quanto da sua frase secreta.
+question: O que você precisa fazer backup ao usar uma carteira com uma frase-senha?
+answer: Você precisa fazer backup tanto da lista de 12 ou 24 palavras quanto da sua frase-senha.
 wrong_answers:
   - Você precisa fazer backup apenas da lista de 12 ou 24 palavras.
-  - Você precisa fazer backup apenas da sua frase secreta.
-  - Você não precisa fazer backup nem da lista de 12 ou 24 palavras nem da sua frase secreta.
+  - Você precisa fazer backup apenas da sua frase-senha.
+  - Você não precisa fazer backup nem da lista de 12 ou 24 palavras nem da sua frase-senha.
 explanation: |
-  Quando você usa uma carteira com uma frase secreta, é necessário fazer backup tanto da lista de 12 ou 24 palavras quanto da sua frase secreta. Isso ocorre porque tanto a lista de palavras quanto a frase secreta são necessárias para recuperar o acesso aos seus fundos em caso de perda do seu telefone ou computador. Sem um ou outro, os fundos não podem ser acessados.
-reviewed: false
+  Quando você usa uma carteira com uma frase-senha, você precisa fazer backup
+  tanto da lista de 12 ou 24 palavras quanto da sua frase-senha,
+  porque a lista de palavras e a frase-senha são ambas
+  necessárias para recuperar o acesso aos seus fundos em caso de
+  perda do seu telefone ou computador. Sem uma ou outra,
+  os fundos não são acessíveis.
+reviewed: true

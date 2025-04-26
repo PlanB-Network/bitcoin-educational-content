@@ -5,8 +5,6 @@ wrong_answers:
   - Excel, PowerPoint, Word
   - AutoCAD, SolidWorks, Revit
 explanation: |
-  The chapter lists Wireshark, Metasploit, and Nmap as some of the tools
-
-
-  used in cybersecurity.'''
-reviewed: false
+  The chapter lists Wireshark, Metasploit, and Nmap as some
+  of the tools used in cybersecurity.
+reviewed: true

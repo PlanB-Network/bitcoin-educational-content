@@ -1,0 +1,11 @@
+question: Hva er formålet med transaksjonsgebyrer i Bitcoin-transaksjoner?
+answer: De er en insentiv for gruvearbeidere til å inkludere transaksjonen i neste blokk.
+wrong_answers:
+  - De er en skatt pålagt av regjeringen.
+  - Det er et gebyr belastet av Bitcoin-nettverket for å bruke dets tjenester.
+  - Det er et gebyr belastet av lommebokleverandøren.
+explanation: |
+  Transaksjonsgebyrer i Bitcoin-transaksjoner fungerer som en insentiv for gruvearbeidere
+  til å inkludere transaksjonen i neste blokk. Gebyrene skaper et fritt marked for
+  inkludering av transaksjoner i blokker.
+reviewed: true

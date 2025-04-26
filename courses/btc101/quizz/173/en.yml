@@ -1,11 +1,11 @@
 question: What is one of the reasons Bitcoin is attractive to certain groups?
 answer: Its ability to offer solutions such as trustless electronic cash, resistance to censorship, or transparent and immutable monetary policy.
 wrong_answers:
-  - It is easy to counterfeit.
-  - It is controlled by a central authority.
-  - It is not pseudonymous.
+  - It is easy to counterfeit, and can create solutions to receive more money with a simple click.
+  - It is controlled by a central authority that freely distributes capital to the users.
+  - It is not pseudonymous, so every user is well known and trusted.
 explanation: >-
   Bitcoin's decentralized nature, pseudonymity, and resistance to censorship
   make it attractive to groups such as technophiles, cypherpunks, libertarians, and
   gold enthusiasts.
-reviewed: false
+reviewed: true

@@ -5,6 +5,7 @@ wrong_answers:
   - AES, DES, 3DES
   - MD5, SHA-1, SHA-256
 explanation: |
-  Kapitola uvádí SSL/TLS a symetrické/asymetrické šifrování jako některé
-  z aspektů kryptografie používané v kybernetické bezpečnosti.
-reviewed: false
+  Kapitola uvádí SSL/TLS a symetrické/asymetrické
+  šifrování jako některé z aspektů kryptografie používané v
+  kybernetické bezpečnosti.
+reviewed: true

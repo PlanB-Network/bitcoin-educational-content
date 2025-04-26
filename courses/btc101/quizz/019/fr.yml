@@ -1,9 +1,12 @@
-question: Quelles sont les trois fonctions canoniques de l'argent ?
-answer: Réserve de valeur, Moyen d'échange, Unité de compte
+question: Quelles sont les trois fonctions canoniques de la monnaie ?
+answer: Réserve de valeur, Moyen d'échange, Unité de compte.
 wrong_answers:
-  - Réserve de valeur, Moyen d'échange, Moyen de production
-  - Réserve de valeur, Moyen de production, Unité de compte
-  - Moyen d'échange, Moyen de production, Unité de compte
+  - Réserve de valeur, Moyen d'échange, Moyen de production.
+  - Réserve de valeur, Moyen de production, Unité de compte.
+  - Moyen d'échange, Moyen de production, Unité de compte.
 explanation: |
-  l'argent est une réserve de valeur, un moyen d'échange et une unité de compte. Même si de nos jours, il est largement admis que le moyen d'échange précède les deux autres fonctions.
-reviewed: false
+  Selon Aristote, la monnaie remplit trois fonctions: elle est
+  une réserve de valeur, un moyen d'échange, et une unité de
+  compte. De nos jours, la fonction de moyen d'échange est
+  largement reconnue comme la principale, avant les deux autres.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wie wirkt sich die verbesserte Effizienz und Geschwindigkeit des Lightning Network im Vergleich zu herkömmlichen Zahlungsmethoden aus?
+answer: Es ist wesentlich schneller, da Transaktionen oft in weniger als einer Sekunde abgewickelt werden, mit niedrigeren Gebühren und ohne die Abhängigkeit von mehreren Vermittlern.
+wrong_answers:
+  - Sie entspricht den traditionellen Bankzeiten, die oft 2-5 Tage für die Abwicklung benötigen.
+  - Sie ist langsamer als herkömmliche Kartenzahlungen und hat höhere Gebühren.
+  - Wie bei den derzeitigen Banküberweisungen sind mehrere Genehmigungsstellen erforderlich.
+explanation: |
+  Durch die Möglichkeit, Transaktionen außerhalb der Kette durchzuführen und Zahlungen nahezu sofort abzuschließen, bietet Lightning einen Geschwindigkeits- und Effizienzvorteil gegenüber herkömmlichen Methoden, die auf mehrere Vermittler angewiesen sind.
+reviewed: false

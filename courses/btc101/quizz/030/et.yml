@@ -1,0 +1,11 @@
+question: Mis on fiat-valuutade peamine eelis?
+answer: Neid on lihtne jagada
+wrong_answers:
+  - Neid kontrollib keskne osapool
+  - Neid ei ole lihtne transportida
+  - Need on efektiivsed väärtuse säilitamiseks ajas
+explanation: |
+  Fiat-valuutad, nagu dollar ja euro, on väga likviidsed ja
+  lihtsasti transporditavad, kuna need on nüüd peamiselt digitaalsed. Siiski, nende väärtust
+  kahandab pidevalt rahaline inflatsioon.
+reviewed: true

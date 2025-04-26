@@ -1,0 +1,10 @@
+question: Hva er formålet med en Bitcoin-lommebok?
+answer: Å lagre privat nøkkel for å utføre transaksjoner med bitcoins
+wrong_answers:
+  - Å bruke enhetens ressurser til å utvinne bitcoins
+  - Å kjøpe bitcoins med offentlig nøkkel
+  - Å lagre bitcoins på en enhet
+explanation: |
+  Bitcoin-lommebøker er programvare som lar deg lagre de private nøklene som
+  gjør det mulig for deg å utføre transaksjoner med dine bitcoins.
+reviewed: true

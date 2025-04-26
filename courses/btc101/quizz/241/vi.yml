@@ -1,9 +1,9 @@
-question: Một trong những hậu quả tiềm năng của Lightning Network đối với người dùng là gì?
-answer: Họ chỉ phải trả tiền cho nội dung mà họ tiêu thụ
+question: DCA platform là gì?
+answer: Một dịch vụ cho phép người dùng đầu tư một lượng tiền cố định vào một tài sản tại các khoảng thời gian đều đặn.
 wrong_answers:
-  - Họ sẽ phải trả nhiều hơn cho nội dung
-  - Họ sẽ phải trả phí đăng ký hàng tháng
-  - Họ sẽ phải trả tiền cho nội dung trước
-explanation: >-
-  Với Lightning Network, người dùng chỉ phải trả tiền cho nội dung mà họ tiêu thụ, do đó loại bỏ phí đăng ký trả trước.
-reviewed: false
+  - Một loại sàn giao dịch tiền mã hóa chỉ cho phép giao dịch Bitcoin.
+  - Một dịch vụ tài chính cung cấp vay vốn cho nhà đầu tư để giao dịch ký quỹ.
+  - Một công cụ phần mềm theo dõi giá cổ phiếu theo thời gian thực mà không có tính năng đầu tư.
+explanation: |
+  DCA platform ám chỉ một nền tảng hỗ trợ Dollar-Cost Averaging (DCA), một chiến lược đầu tư nơi một cá nhân đầu tư một lượng tiền cố định vào một tài sản cụ thể tại các khoảng thời gian đều đặn, bất kể giá của tài sản đó.
+reviewed: true

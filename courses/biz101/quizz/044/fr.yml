@@ -1,0 +1,9 @@
+question: Quel est l'un des principaux avantages pour les commerçants qui utilisent le réseau Lightning ?
+answer: Réduction des frais de transaction
+wrong_answers:
+  - Paiements garantis par les banques
+  - Augmentation automatique des ventes
+  - Élimination des taxes commerciales
+explanation: |
+  Les frais de transaction sur le Lightning Network sont très faibles, ce qui en fait une solution rentable pour les commerçants.
+reviewed: false

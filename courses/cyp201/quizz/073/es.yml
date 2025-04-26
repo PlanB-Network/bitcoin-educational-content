@@ -1,9 +1,9 @@
-question: ¿Cuál es una opción adicional para mejorar la seguridad de una billetera de Bitcoin?
-answer: Agregar una frase de contraseña.
+question: ¿Qué índice representa la cadena externa de una cuenta en una ruta de derivación?
+answer: /0/
 wrong_answers:
-  - Agregar una segunda frase mnemotécnica.
-  - Agregar una firma digital.
-  - Agregar un historial de transacciones.
+  - /1/
+  - /0'/
+  - /2/
 explanation: |
-  Agregar una frase de contraseña es una opción adicional para mejorar la seguridad de la billetera de Bitcoin.
+  La cadena externa se identifica por el índice /0/ en la profundidad 4 de la ruta de derivación.
 reviewed: false

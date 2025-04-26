@@ -1,0 +1,9 @@
+question: Millist räsifunktsiooni kasutab HMAC Bitcoini kontekstis?
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+explanation: |
+  HMAC kasutab turvalise 512-bitise räsi tootmiseks SHA512. 
+reviewed: false

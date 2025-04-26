@@ -1,0 +1,8 @@
+question: Hva er navnet gitt til konsensusproblemet innenfor et distribuert nettverk?
+answer: Det bysantinske generalproblemet
+wrong_answers:
+  - Det romerske centurionproblemet
+  - Det albanske oberstproblemet
+  - Det japanske taishoproblemet
+explanation: |
+  Navnet på dette problemet (formalisert av Lamport, Shostak og Pease i 1982) ble valgt for å unngå å fornærme leseren, ettersom ingen noensinne har identifisert seg selv som bysantinsk.

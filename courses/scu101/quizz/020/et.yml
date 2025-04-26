@@ -1,0 +1,10 @@
+question: Mis on Windowsi sisseehitatud viirusetõrje?
+answer: Windows Defender
+wrong_answers:
+  - Kaspersky
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender on Windowsi sisseehitatud viirusetõrje. See on turvaline ja
+  tõhus lahendus süsteemi kaitsmiseks ohtude eest.
+reviewed: false

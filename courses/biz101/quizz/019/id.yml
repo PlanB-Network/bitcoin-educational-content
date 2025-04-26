@@ -1,0 +1,9 @@
+question: Mengapa volatilitas dianggap sebagai aspek alamiah Bitcoin sebagai aset baru?
+answer: Karena Bitcoin masih relatif muda, menarik para spekulan dan merespons berita pasar, menyebabkan perubahan harga sebelum stabil dalam jangka waktu yang lebih lama.
+wrong_answers:
+  - Karena dikontrol secara terpusat dan harga ditetapkan oleh satu otoritas.
+  - Karena Bitcoin tidak memiliki pengguna yang memegangnya dalam jangka panjang.
+  - Karena pedagang harus menetapkan harga yang tidak dapat diprediksi setiap jamnya.
+explanation: |
+  Sebagai aset yang sedang berkembang, harga Bitcoin dipengaruhi oleh spekulasi, sentimen, dan tingkat adopsi yang berbeda-beda. Seiring berjalannya waktu, seiring dengan bertambahnya pemegang jangka panjang yang lebih stabil, volatilitas dapat berkurang, tetapi tetap menjadi ciri khas pertumbuhan tahap awal.
+reviewed: false

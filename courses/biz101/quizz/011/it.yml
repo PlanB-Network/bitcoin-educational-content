@@ -1,0 +1,9 @@
+question: Quali vantaggi offre Lightning agli esercenti per quanto riguarda la finalizzazione del pagamento?
+answer: I pagamenti su Lightning si concludono quasi istantaneamente, riducendo il rischio di storni o frodi.
+wrong_answers:
+  - Richiede 24 ore di attesa prima che i fondi siano spendibili.
+  - Permette ai clienti di reclamare il pagamento in qualsiasi momento.
+  - Rende le transazioni completamente reversibili per un massimo di 90 giorni.
+explanation: |
+  Con Lightning, una volta che il pagamento viene instradato e regolato attraverso la rete, è definitivo. Questo elimina gli scenari di chargeback che si verificano con i sistemi di pagamento tradizionali.
+reviewed: false

@@ -36,12 +36,15 @@ Tento kurz byl sponzorován společností TETHER
 +++
 
 # Úvod
+
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Úvod
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+## Přehled kurzu
 
-### Žijeme ve světě, kde:
+<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Vítejte v kurzu ECO104!
+
+**Žijeme ve světě, kde:**
 
 ● Pouhých [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) lidí žije ve společnostech považovaných za "demokraticky svobodné". Přesto i v této privilegované části jsou porušování lidských práv stále běžnější - od zmrazení bankovních účtů po cenzuru. Zbylých 80% se potýká s postupujícím autoritářstvím. Před dvěma desetiletími si téměř polovina světové populace užívala základní svobody.
 
@@ -60,7 +63,7 @@ To řečeno, tento kurz není určen pouze pro ty, kteří čelí nekontrolovan�
 
 S tímto na mysli je naším posláním přivést vás na přední linii změn v naší současné finanční krajině, vyzvat stávající normy a nabídnout alternativní řešení. Prostřednictvím zkoumání historie peněz, odhalování Bitcoinu a prozkoumávání Tetheru a světa stablecoinů, máme za cíl inspirovat jednotlivce, aby přepracovali svou finanční budoucnost.
 
-### Co očekávat:
+**Co očekávat:**
 
 **Modul 1: Cena pokroku - Podrobnější pohled na náš finanční systém**
 Začneme naším průzkumem tím, že se podíváme za oponu našeho současného finančního systému, kde finanční cenzura, nerovnost bohatství a inflace sužují náš každodenní život. Prostřednictvím stručné historie peněz se podíváme, jak jsme se dostali tam, kde jsme, a osvětlíme některé z hlavních bodů bolesti, které všichni zažíváme.
@@ -79,9 +82,11 @@ Na konci tohoto kurzu nebudete mít pouze získané silné znalosti a neocenitel
 Těšíme se, že se k nám připojíte na této cestě do hlubin našeho peněžního systému.
 
 # Cena pokroku - Podrobnější pohled na náš finanční systém
+
 <partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
 
 ## Úvod do peněz
+
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 Peníze jsou fascinující a nezbytnou součástí našeho každodenního života. Denně je používáme k nákupu potravin, placení účtů a provádění nesčetných transakcí. Ale co vlastně peníze jsou? Ve své podstatě jsou peníze prostředkem směny, nástrojem, který nám umožňuje obchodovat zboží a služby mezi sebou. Je to abstraktní koncept, na který jsme všichni zvyklí, přesto je základním kamenem našeho ekonomického systému.
 Ale ne všechny peníze jsou stejně hodnotné. Některé formy peněz jsou lepší než jiné, v závislosti na jejich schopnosti sloužit jako uchovatel hodnoty, prostředek směny a jednotka účtu. Zlato, například, je vysoce ceněno tisíce let kvůli své trvanlivosti a vzácnosti. Na druhou stranu, papírové peníze jsou cenné pouze na základě důvěry, kterou vkládáme do institucí, které je vydávají.
@@ -159,6 +164,7 @@ V nadcházejících modulech prozkoumáme dvě populární formy peněz: Bitcoin
 Od barteru přes vynález mincí a papírových peněz prošly peníze řadou transformací, aby se přizpůsobily neustále se měnícím potřebám společnosti. Jak se přesouváme do další kapitoly, pojďme změnit kurz a zaměřit naši pozornost na vývoj peněz.
 
 ## Zkoumání, jak jsme se sem dostali
+
 <chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
 
 Od dob výměny zboží až po moderní éru digitálních měn prošly peníze fascinujícím vývojem. Naši předkové používali jako prostředek výměny mušle, korálky a dokonce i dobytek. Dnes máme virtuální peněženky a bezkontaktní platby. Je to pozoruhodná cesta, která zahrnovala nesčetné iterace, kompromisy a adaptace, aby vyhověla neustále se měnícím potřebám společnosti.
@@ -209,6 +215,7 @@ Nicméně, jak cestování stalo snazším, svět se začal otevírat a lidé si
 
 Celkově komoditní peníze hrály zásadní roli ve vývoji obchodu a obchodování, protože poskytovaly standardizovaný prostředek směny, který byl široce přijímán. Avšak jak se společnosti stávaly pokročilejšími, začaly se objevovat jiné formy peněz, které byly pohodlnější a dělitelnější.
 Aby vyřešili tyto problémy, lidé začali hledat komodity, které měly celosvětově uznávanou vzácnost, což vedlo k použití drahých kovů jako prostředku směny.
+
 ### Mincovní peníze
 
 I když šlo stále technicky o komoditní peníze, lidé ve svém hledání lepších peněz narazili na neočekávaného hrdinu: drahé kovy. Tyto kovy nebyly jen krásné a žádané pro své použití ve šperkařství, ale také splňovaly mnoho kritérií pro vynikající peněžní aktivum. Jejich celosvětová vzácnost v přírodě a významná investice vyžadovaná k jejich těžbě, rafinaci a skladování jim dávaly prémii nad ostatními předchozími formami peněz.
@@ -236,6 +243,7 @@ Za druhé, papírová měna krytá kovy nebyla imunní vůči padělání. I př
 Ačkoli měla papírová měna krytá kovy svůj díl problémů, její zvýšená zaměnitelnost, dělitelnost a přenosnost připravila cestu pro pohodlí fiat měn, které dnes používáme, kde praktičnost často převyšuje vzácnost.
 
 ### Fiat měna
+
 Fiat měny tvoří základ našeho peněžního systému již desítky let. Termín "fiat" je latinsky a znamená "ať se stane" a odkazuje na autoritu státu vyhlásit měnu za zákonné platidlo. Na rozdíl od měn, které byly kdysi kryty zlatem nebo jinými cennostmi, hodnota fiat měny pochází z vládního slibu, že ji někdo přijme výměnou za zboží a služby.
 Fiat měny se objevily, když se země potýkaly s frustrací z papírových peněz krytých kovy – vlády by musely získat více zlata, aby mohly tisknout více papírových peněz. To byla překážka, takže kdykoli země potřebovala kapitál, dočasně opustila tento standard a rozšířila svou peněžní zásobu. Tato nová měna nebyla kryta ničím jiným než vírou ve vládu, vzhledem k tomu, že to bylo zákonné platidlo. Nejen to, tato nová měna snižovala hodnotu zbývajících peněz v oběhu tím, že zvyšovala množství peněz, a s více dolary pronásledujícími stejné množství zboží, ceny stoupaly.
 
@@ -280,6 +288,7 @@ To řečeno, ačkoliv digitální měny představují novou hranici ve vývoji p
 Po prozkoumání různých forem peněz v průběhu historie, se nabízí zásadní question:
 
 ### Směřujeme správným směrem?
+
 Na této cestě jsme prozkoumali fascinující vývoj peněz, sledovali jsme jejich evoluci od barteru po současnou digitální éru. Viděli jsme různé měny vznikat a zanikat, od mušlí a korálků po drahé kovy a fiat peníze.
 Nicméně, jak jsme viděli, cesta vývoje peněz nebyla bez výzev. Vzestup zastřihávání mincí a manipulace s měnou, pohyb směrem k centralizaci a odchod od obecně přijímaného platidla jsou jen některé příklady překážek, které jsme na této cestě čelili.
 
@@ -292,6 +301,7 @@ To jsou složité otázky, které vyžadují pečlivé zvážení a reflexi. Nic
 Jak pokračujeme v našem průzkumu světa peněz, je důležité uznat významné změny, které nastaly od vzestupu fiat měn. Ačkoli tyto měny přinesly určitou úroveň pohodlí a stability, představily také nové výzvy, jako je inflace, rostoucí úrovně dluhu a nerovnost bohatství. V další části se budeme hlouběji zabývat těmito problémy a v následujících modulech prozkoumáme možná řešení těchto složitých problémů.
 
 ## Pohled na to, kde jsme a co můžeme očekávat do budoucna
+
 <chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
 
 Jak jsme diskutovali v předchozí kapitole, historicky byly peníze často kryty komoditou jako zlato. Výhody toho nelze přeceňovat. Nejenže to znamenalo, že hodnota takových peněz byla přímo vázána na hodnotu komodity, ale také to znamenalo, že vydavatel měny, typicky vláda, byl omezen v tom, kolik peněz mohl tisknout, protože by musel získat více zlata.
@@ -360,7 +370,7 @@ Když sečteme federální, podnikový a domácností dluh, výsledná částka 
 
 Předpokládejme konzervativně, že průměrný úrok z tohoto dluhu je 3 %.
 
-3 % * 241 % = 7,23 %
+3 % \* 241 % = 7,23 %
 Rozsah dluhového břemene USA je takový, že i jen obsluha úrokových plateb dluhu by vyžadovala roční míru růstu 7,23% - míru výrazně vyšší než průměrná míra růstu HDP [3,13%](https://tradingeconomics.com/united-states/gdp-growth-annual) za posledních 70 let.
 7,23% - 3,13% = 4,1%
 
@@ -386,16 +396,16 @@ S neustálým bombardováním sociálními médii a zpravodajstvím jste pravdě
 
 1. Inflace snižuje kupní sílu naší měny. S oslabující měnou již lidé nejsou motivováni šetřit. To nutí jednotlivce s bohatstvím směřovat jejich zdroje k finančním aktivům, zatímco jednotlivce bez bohatství k spotřebě. Jelikož spotřeba směřuje peníze k korporacím vlastněným bohatými a chytré peníze směřují své peníze k aktivům, vidíme vedlejší efekt rostoucích cen aktiv kvůli zvýšené poptávce. To vše, zatímco inflace ničí kupní sílu měny.
 2. Kvůli našemu nadměrnému dluhovému zatížení mají vlády podnět k potlačování úrokových sazeb. Tím se stává půjčování si peněz lákavějším, zejména pro ty, kteří mají majetek. Když je cena kapitálu tak levná, lidé si půjčují nad rámec svých možností, čímž směřují více kapitálu do aktiv a zvyšují jejich ceny. To je skvělé pro držitele aktiv; nicméně, ceny se stávají stále nedostupnějšími pro ty, kteří se snaží vstoupit na nemovitostní trh nebo se pokusit o vstup na finanční trhy. Jednoduché pravidlo říká, že s poklesem úrokových sazeb rostou ceny aktiv, protože kapitál je volněji dostupný.
-**Jak tato inflace zvyšuje nerovnost v bohatství?** Vzhledem k tomu, že vyšší třída drží aktiva a nižší třída má tendenci držet měnu, dochází k čím dál větší nerovnosti v bohatství, protože kupní síla měny klesá a cena aktiv stále roste, stávají se čím dál nedostupnějšími. To lze vidět na "Obrázku X" níže. Všimnete si významného rozdílu v zhodnocení aktiv ve srovnání s mzdami.
+   **Jak tato inflace zvyšuje nerovnost v bohatství?** Vzhledem k tomu, že vyšší třída drží aktiva a nižší třída má tendenci držet měnu, dochází k čím dál větší nerovnosti v bohatství, protože kupní síla měny klesá a cena aktiv stále roste, stávají se čím dál nedostupnějšími. To lze vidět na "Obrázku X" níže. Všimnete si významného rozdílu v zhodnocení aktiv ve srovnání s mzdami.
 
 **Výkonnost podle třídy aktiv**
 
-| Třída aktiv         | Celkový růst (leden 2010 - leden 2021) | Roční růst (leden 2010 - leden 2021) |
-| ------------------- | -------------------------------------- | ------------------------------------ |
-| Akciový trh         | 236,84%                               | 11,67%                               |
-| Nemovitosti         | 66,38%                                | 4,74%                                |
-| Zlato               | 73,10%                                | 5,11%                                |
-| Průměrná hodinová mzda | 33,37%                             | 2,65%                                |
+| Třída aktiv            | Celkový růst (leden 2010 - leden 2021) | Roční růst (leden 2010 - leden 2021) |
+| ---------------------- | -------------------------------------- | ------------------------------------ |
+| Akciový trh            | 236,84%                                | 11,67%                               |
+| Nemovitosti            | 66,38%                                 | 4,74%                                |
+| Zlato                  | 73,10%                                 | 5,11%                                |
+| Průměrná hodinová mzda | 33,37%                                 | 2,65%                                |
 
 Obrázek: Výkonnost podle třídy aktiv ([Akciový trh](https://finance.yahoo.com/quote/%5EGSPC/history/), [Nemovitosti](https://dqydj.com/historical-home-prices/), [Zlato](https://goldprice.org/), [Mzdy](https://tradingeconomics.com/united-states/wages.))
 
@@ -426,6 +436,7 @@ Naštěstí máme k dispozici možnosti. S nástupem Bitcoinu nyní máme možno
 Jak se budeme posouvat vpřed, vyzýváme vás, abyste přistupovali k této nové technologii s otevřenou myslí a kritickým okem, zkoumali, jak může nabídnout alternativu k našim současným finančním systémům. Tím máme potenciál řešit problémy rostoucí nerovnosti a sociálního neklidu, zatímco budujeme udržitelnější a spravedlivější ekonomickou budoucnost.
 
 ## Zkouška
+
 <chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
 
 Nyní, když jste prošli modulem "Cena pokroku", budete muset otestovat své nově získané znalosti, abyste se ujistili, že jste pochopili poslední sekce. Začneme několika otevřenými otázkami a poté malým kvízem.
@@ -437,9 +448,11 @@ Nyní, když jste prošli modulem "Cena pokroku", budete muset otestovat své no
 5. Vzhledem k informacím o dluhu a inflaci, jaký máte názor na udržitelnost současného měnového systému? Myslíte si, že náš současný systém je v dlouhodobém horizontu prospěšný nebo škodlivý?
 
 # Finanční osvobození - Úvod do Bitcoinu
+
 <partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
 
 ## Průkopníci, inovátoři a základy Bitcoinu
+
 <chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
 
 Vítejte v modulu dva, kde prozkoumáme fascinující svět Bitcoinu. Na základě našeho porozumění historii peněz tento modul pokryje následující témata:
@@ -448,7 +461,7 @@ Vítejte v modulu dva, kde prozkoumáme fascinující svět Bitcoinu. Na základ
 - Výhody Bitcoinu jako digitální měny
 - Rozdíl mezi bitcoinem jako aktivem a Bitcoinem jako sítí
 - Jak interagovat s Bitcoinem a jeho různými vrstvami
-Na konci tohoto modulu budete mít pevné porozumění původu, vlastnostem a potenciálním využitím Bitcoinu. Než se ale ponoříme do složitostí Bitcoinu, pojďme nejprve prozkoumat historii digitálních měn, které připravily cestu pro tuto technologii, jež mění náš pohled na peníze.
+  Na konci tohoto modulu budete mít pevné porozumění původu, vlastnostem a potenciálním využitím Bitcoinu. Než se ale ponoříme do složitostí Bitcoinu, pojďme nejprve prozkoumat historii digitálních měn, které připravily cestu pro tuto technologii, jež mění náš pohled na peníze.
 
 ### Co je to vlastně Bitcoin
 
@@ -541,6 +554,7 @@ Tyto body dohromady znamenají, že Bitcoin nabízí každému finanční soukro
 Na závěr, bez ohledu na to, kdo je Satoshi Nakamoto, je nesporné, že vynález Bitcoinu odstartoval nový způsob myšlení o převodu hodnoty.
 
 ## Jak funguje Bitcoin? Vnitřní fungování této magické internetové peněžní
+
 <chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
 
 Bitcoin je často označován jako magické internetové peníze... a z dobrého důvodu. Pomyslete na to – s Bitcoinem můžete poslat hodnotu komukoli, kdekoli na světě, bez potřeby prostředníka, jako je banka nebo vláda. Je to, jako byste měli kontrolu nad vlastní osobní bankou, schopnost převádět prostředky přes hranice jen několika kliknutími.
@@ -558,7 +572,7 @@ Ve srovnání s tradičními bankovními systémy, ačkoliv Bitcoin funguje funk
 1. ověřovat a zpracovávat transakce,
 2. monitorovat transakce, aby nedošlo k podvodům nebo špatnému chování,
 3. zajistit, že je vše aktuální, funguje hladce a bezpečně.
-Zatímco banky tyto role plní interně, což jim dává úplnou kontrolu nad procesem, Bitcoin vyžaduje spolupráci komunity k plnění těchto úkolů. Jinými slovy, aby Bitcoin mohl replikovat tyto procesy v decentralizovaném systému, musí každý z těchto úkolů outsourcovat, aby zajistil, že žádný jednotlivec nebo centralizovaná entita nemá nad systémem nepřiměřenou kontrolu.
+   Zatímco banky tyto role plní interně, což jim dává úplnou kontrolu nad procesem, Bitcoin vyžaduje spolupráci komunity k plnění těchto úkolů. Jinými slovy, aby Bitcoin mohl replikovat tyto procesy v decentralizovaném systému, musí každý z těchto úkolů outsourcovat, aby zajistil, že žádný jednotlivec nebo centralizovaná entita nemá nad systémem nepřiměřenou kontrolu.
 
 Pro dosažení tohoto revolučního úspěchu rozdělil Bitcoin tyto úkoly do tří klíčových rolí: uzly (nodes), těžaři (miners) a vývojáři (developers). Kde uzly ověřují transakce a stanovují a vynucují pravidla, těžaři řadí a potvrzují transakce a vývojáři udržují síť aktuální a navrhují vylepšení. Distribucí těchto úkolů mezi tyto klíčové hráče vytvořil Bitcoin systém, který je bezpečný, transparentní a zodpovědný všem uživatelům.
 
@@ -578,6 +592,7 @@ Je také důležité poznamenat, že uzlem je jednoduše kus softwaru, který m�
 
 Těžaři Bitcoinu, na druhé straně, hrají klíčovou roli v záznamu dat, protože jsou zodpovědní za řazení a potvrzování transakcí. K tomu používají specializované počítače k provádění funkce nazývané hashing. Aniž bychom se ponořili do technických detailů hashingu, představte si to jako těžaře soutěžící mezi sebou o přidání nových transakcí do blockchainu, veřejné účetní knihy transakcí. Jako odměnu za svou práci jsou těžaři odměněni nově vytvořenými bitcoiny a transakčními poplatky za zpracované transakce. Proces těžby je navržen tak, aby byl obtížný, konkurenční a náhodný, s omezeným počtem nově vydávaných bitcoinů každý rok, což zajišťuje, že nabídka bitcoinů je omezená a jejich hodnota je udržována. Bez těžařů by transakce nebyly zpracovány.
 Vzhledem k tomu, že těžaři musí soutěžit mezi sebou o zpracování transakcí a jsou za to odměňováni, tato soutěž minimalizuje šanci, že jakýkoliv jednotlivý těžař nebo entita může ovládnout síť, a motivuje těžaře jednat poctivě a dodržovat pravidla. Pokud se těžař pokusí podvádět nebo porušit pravidla, riskuje ztrátu své odměny, takže existuje silný podnět hrát podle pravidel.
+
 #### Vývojáři
 
 Vývojáři jsou vysoce kvalifikovaní a respektovaní členové komunity Bitcoinu, kteří spolupracují, aby zajistili, že síť zůstane bezpečná, spolehlivá a aktuální. Hrají klíčovou roli v ekosystému Bitcoinu tím, že udržují a vylepšují software, který síť pohání. Jsou zodpovědní za navrhování a implementaci změn v základním kódu Bitcoinu, opravu chyb a zlepšování výkonu a bezpečnosti.
@@ -603,6 +618,7 @@ V tomto okamžiku transakce vstupuje do takzvaného mempoolu, což je v podstat�
 Těžaři nyní vezmou tyto čekající transakce, seskupí je do nového bloku a soutěží mezi sebou o provedení určitého úkolu stanoveného softwarem, na kterém je Bitcoin založen. Vítěz poté připojí svůj blok a obsažené transakce k blockchainu, čímž tyto transakce finalizuje. Vítěz je také odměněn nově vydanými bitcoiny a poplatky spojenými s zpracovanými transakcemi, což je motivuje k pokračování ve zpracování transakcí.
 
 #### Validace transakce
+
 Jakmile je transakce potvrzena, Bob by nyní měl být schopen vidět 0.00100000 bitcoinu ve své peněžence. Ale tím to nekončí. Uzly poté ověří, že těžař svou práci vykonal správně a že transakce zahrnuté v tomto novém bloku splňují pravidla, na kterých se uzly dohodly. Pokud blok nesplňuje tyto požadavky, bude nový blok odmítnut a těžař přijde o svou odměnu za těžbu.
 _**Zajímavost:** I po potvrzení Bitcoinové transakce existuje možnost jejího zvrácení, pokud uzly bloky odmítnou. Avšak s každým novým blokem přidaným do blockchainu po transakci se pravděpodobnost zvrácení exponenciálně snižuje. Aby se zvýšila bezpečnost, burzy a peněženky často zadržují vaše bitcoiny, dokud nebudou připojeny několik dalších bloků - obvykle tři až šest. To chrání prostředky a zaručuje klid při transakci._
 
@@ -618,6 +634,7 @@ Jak bylo vysvětleno v této sekci, i když se Bitcoin může jevit jako složit
 Každá z těchto rolí je nezbytná pro funkčnost a úspěch Bitcoinu jako digitální měny. Svěřením těchto klíčových úkolů klíčovým hráčům může Bitcoin fungovat jako bezpečný, transparentní a odpovědný prostředek směny pro všechny uživatele, což jej činí významným úspěchem v historii měny.
 
 ## Co dělá Bitcoin odlišným od fiat měn?
+
 <chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
 
 V předchozí sekci jsme se zabývali jedinečnou funkcionalitou Bitcoinu, která jej odlišuje od tradičních měn a jak Bitcoin dosahuje prestižního označení decentralizovanosti. Nyní se zaměřme na to, jak se Bitcoin liší od fiat měn z hlediska charakteristik, které činí měnu skvělou. Pouze zkoumáním těchto klíčových charakteristik můžeme lépe pochopit, proč je Bitcoin jedinečný a stojí vlastní kategorii, pokud jde o peníze.
@@ -716,6 +733,7 @@ Unikátní charakteristiky Bitcoinu jako prostředku uchování hodnoty, prostř
 Kromě toho tyto kombinované atributy nejenže umisťují Bitcoin jako mocný nástroj pro ukládání a budování bohatství na dlouhodobé bázi (bitcoin jako aktivum), ale také nabízejí mnoho výhod pro ty, kteří chtějí používat Bitcoin jako transakční prostředek (síť Bitcoin). Toto ostře kontrastuje s fiat měnami, které vyžadují důvěru a zprostředkovatele v obou scénářích. To činí Bitcoin atraktivní měnou pro jednotlivce i podniky, ať už je používán pro spoření nebo transakce.
 
 ## Interakce s Bitcoinem
+
 <chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
 
 Bitcoin způsobil bouři v monetárním systému, zaujal pozornost rozvojových zemí, technicky zdatných jedinců a investorů stejně. Avšak s jeho rychlým růstem se mnozí ptají, jak může tento digitální aktivum konkurovat tradičním platebním metodám jako Visa a Mastercard. Kromě toho mají jednotlivci zájem o to, jak se mohou osobně zapojit do Bitcoinu.
@@ -803,6 +821,7 @@ Než tento modul uzavřeme, rád bych vám nechal jednu poslední myšlenku...
 ### Hlouběji do problematiky
 
 Pokud máte zájem dále prozkoumat svět Bitcoinu, je k dispozici mnoho možností. Například:
+
 1. **Uzly:** Spuštění uzlu je vynikající vstupní bod pro ty, kteří mají zájem o Bitcoin nad rámec základních transakcí. Umožňuje vám nejen přispívat do sítě Bitcoin ověřováním blockchainu a ovlivňováním nových aktualizací nebo změn, ale také minimalizuje důvěru a nabízí lepší soukromí tím, že vám umožňuje ověřovat vaše vlastní transakce a zůstatky. Spuštěním uzlu se stáváte součástí decentralizované sítě a pomáháte zajistit její bezpečnost a integritu.
 2. **Těžba:** Těžba je další způsob, jak přispět do sítě Bitcoin a potenciálně vydělat bitcoiny. I když vyžaduje trochu více zdrojů než provoz uzlu a není již tak zisková, jak bývala, těžba je odměňující činnost pro ty, kteří mají zájem o technické aspekty sítě.
 3. **Vývoj:** Pokud máte zkušenosti s vývojem softwaru a máte zájem přispět do vývoje Bitcoinu, skvělým výchozím bodem je [GitHub](https://github.com/bitcoin/bitcoin) repozitář Bitcoinu.
@@ -816,6 +835,7 @@ I když často slyšíme, že Bitcoin nikdy nemůže konkurovat Visa nebo Master
 Největší výhodou Bitcoinu je, že nám umožňuje mít vlastní správu digitálního aktiva, což předtím nebylo možné. Pokud se po přečtení této sekce cítíte přeplněni, nebojte se. Převzít kontrolu nad vlastními bitcoiny je silným krokem k finanční svobodě, ale přináší to také nové zodpovědnosti. Avšak s trochou výzkumu a náležité péče se tyto nové zodpovědnosti brzy stanou vaší druhou povahou a budete se cítit pohodlně při plnění úkolu bezpečně zabezpečit vaše bitcoiny.
 
 ## Zkouška
+
 <chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
 
 Nyní, když jste prošli modulem "An Examination of How We Got Here", budete muset otestovat své nově získané znalosti, abyste se ujistili, že jste pochopili poslední sekce. Začneme několika otevřenými otázkami a poté malým kvízem.
@@ -828,8 +848,11 @@ Nyní, když jste prošli modulem "An Examination of How We Got Here", budete mu
 6. Představte si scénář, kdy potřebujete poslat peníze členu rodiny v jiné zemi. Jak by vám mohla příroda Bitcoinu z peer-to-peer a nízké poplatky prospět v této situaci?
 
 # Stabilita uprostřed chaosu - Úvod do Tetheru a světa stablecoinů
+
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+
 ## Úvod do Tetheru a světa stablecoinů
+
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 
 Jak bylo dříve diskutováno, peníze byly po tisíce let zásadní součástí lidstva. Pomohly nám kupovat zboží a služby, umožnily nám obchodovat mezi sebou a pomohly nám uchovávat bohatství.
@@ -861,6 +884,7 @@ Potřebujeme měnu vázanou na něco relativně hodnotného, digitálně vrozeno
 A tady přichází na scénu Tether.
 
 #### Kdo je Tether?
+
 V neustále se vyvíjející krajině fiat měn se Tether objevil jako klíčový hráč, hnán vizí řešit finanční potřeby moderního světa. Zatímco tradiční měny neustále bojují s udržením kroku s požadavky naší rychle se měnící globální ekonomiky a krátkodobá volatilita Bitcoinu činí uchovávání hodnoty výzvou pro ty, kteří nemají kapacitu spořit, zakladatelé Tetheru rozpoznali příležitost spojit tyto světy.
 Tether je "převratným prvkem v konvenčním finančním systému a průkopníkem v digitálním využití tradičních měn." Jejich hlavním účelem je podpořit přijetí Bitcoinu spojením tradičního finančního světa s digitálním světem Bitcoinu. Toho dosahují nabízením různých digitálních tokenů, často nazývaných „stablecoiny“, které si udržují hodnotu díky svému zajištění—bez hry slov—fyzickými světovými aktivy. Tether také investuje do těžby Bitcoinu, vzdělávání o Bitcoinu, platební infrastruktury Bitcoinu a pokročilého výzkumu a vývoje Bitcoinu.
 
@@ -878,6 +902,7 @@ Na rozdíl od Bitcoinu, jehož hodnota se může v krátkodobém horizontu divoc
 
 Pro dosažení této stability Tether zajišťuje, že každý digitální token je podložen kolaterálem (spolu s jeho reputací), a transakce mohou být usnadněny prostřednictvím různých systémů peer-to-peer, včetně blockchainů jiných kryptoměn. To zvyšuje transparentnost a eliminuje nutnost prostředníků, jako jsou banky. To nejenže poskytuje přístup k bankovním službám každému s připojením k internetu, ale také umožňuje rychlé transakce s nízkými náklady, které lze provést 24/7, 365 dní v roce, bez ohledu na tradiční bankovní hodiny nebo svátky.
 To sice, stablecoiny nabízené společností Tether, jako je USDt, se také liší od tradičních fiat měn. Ačkoli si udržují pevný kurz vůči hodnotě aktiv jako USD, nejedná se o měny vydávané vládou a nejsou vázány na žádný stát. Tato charakteristika jim poskytuje jedinečnou výhodu, zejména v zemích, které se potýkají s inflací, kde může být přístup k stabilnějším měnám jako USD obtížný. Na rozdíl od fyzických peněz získání USDt nebo jiných stablecoinů prostřednictvím online burzy vyžaduje pouze připojení k internetu, což zajišťuje dostupnost bez ohledu na geografickou polohu. Klíčový rozdíl mezi fiat měnami a různými stablecoiny společnosti Tether tedy spočívá v jurisdikční lhostejnosti: fungují bezproblémově přes hranice, což umožňuje globální přístup k stabilní digitální měně. Navíc stablecoiny nabízejí výhody, jako jsou snížené transakční poplatky, rychlejší mezinárodní transakce a zvýšená finanční inkluzivita, což je činí atraktivní alternativou k tradičním fiat měnám.
+
 #### Kolik existuje různých typů stablecoinů?
 
 Po vzniku Tetheru mnoho dalších společností a iniciativ spustilo podobné produkty Stablecoin. Tyto četné pokusy lze obecně kategorizovat do tří hlavních typů: fiat-backed, commodity-backed a algoritmické stablecoiny.
@@ -891,6 +916,7 @@ Závěrem, jak naše společnost pokračuje ve vývoji a technologie pokračují
 _**Poznámka:** Nebojte se, pokud některé z těchto termínů nejsou úplně jasné. V průběhu tohoto modulu prozkoumáme každé z témat podrobněji._
 
 ## Historie Stablecoinů
+
 <chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
 
 Stablecoiny se staly populárním tématem ve světě kryptoměn, nabízejí méně volatilní alternativu v krátkodobém horizontu kryptoměnám jako Bitcoin. Jak je podrobně popsáno v úvodu tohoto modulu, stablecoiny jsou digitální aktiva, která jsou vázána na stabilní aktivum jako fiat měna nebo drahé kovy, navržená tak, aby si udržovala stabilní hodnotu. Pojďme se tedy podívat na historii stablecoinů a podrobněji se zaměřit na některé z prvních stablecoinů, včetně Tetherova USDt, nejznámějšího a nejširše používaného stablecoinu.
@@ -915,6 +941,7 @@ Navíc, jak trh se stablecoiny rostl, Tether rozšířil svůj dosah, aby držel
 Závěrem, stablecoiny ušly dlouhou cestu od svého vzniku. Od raných dnů bitUSD a NuBits po hlavní popularitu produktů Tetheru a vznik dalších stablecoinů se trh se stablecoiny rychle vyvíjel. Ačkoliv kontroverze kolem Tetheru vyvolaly obavy týkající se transparentnosti a odpovědnosti vydavatelů stablecoinů, trh se stablecoiny nadále roste a nabízí globální a flexibilní most k Bitcoinu. Tato výhoda však přichází za cenu zvýšené centralizace a závislosti na důvěře.
 
 ## Charakteristiky Stablecoinů
+
 <chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
 
 Jak by mělo být nyní zřejmé, stablecoin je typ digitálního tokenu navržený tak, aby udržoval stabilní hodnotu na základě podkladového aktiva, na které je vázán. Tato aktiva mohou zahrnovat fiat měnu, drahé kovy, komodity nebo kombinaci těchto (např. koš fiat měn).
@@ -926,7 +953,9 @@ V podstatě stablecoin působí jako most mezi tradičními aktivy a Bitcoinem, 
 Pokud jde o to, jak udržují tuto cenovou stabilitu, podívejme se…
 
 Většina stablecoinů často volí fiat měnu jako svůj základ, přičemž americký dolar je jednou z populárnějších fiat měn, na které se vážou. Z tohoto důvodu se nejprve podíváme na stablecoiny vázané na fiat měny. Existují však i další typy stablecoinů, jako jsou stablecoiny vázané na komodity a algoritmické, které také prozkoumáme.
+
 ### Fiat-Backed
+
 Stablecoiny jsou navrženy tak, aby udržovaly stabilní hodnotu ve vztahu k přiřazenému aktivu. Pokud jde o stablecoiny kryté fiat měnou, jako je USDt, nejjednodušší způsob, jak token udržet jeho hodnotu, je, aby vydavatel tokenu držel měnu, ke které je token přiřazen, v poměru 1:1.
 
 Zní to trochu matoucí? Nebojte se. Zde je příklad:
@@ -976,6 +1005,7 @@ Nicméně, stejně jako stablecoiny kryté fiat měnami, i komoditně kryté sta
 Nyní se podívejme na třetí formu stablecoinu...
 
 ### Algoritmické
+
 Algoritmický stablecoin je poslední typ stablecoinu, o kterém budeme diskutovat a, stejně jako ostatní, je navržen tak, aby udržoval stabilní hodnotu.
 Na rozdíl od jiných stablecoinů, které jsou kryté fyzickými aktivy, algoritmické stablecoiny využívají matematické vzorce nebo algoritmy—často ve spojení s nějakými aktivy—k regulaci jejich nabídky ve vztahu k poptávce za účelem udržení cenové stability.
 
@@ -998,6 +1028,7 @@ Závěrem, stablecoiny nabízejí most mezi tradičním světem a Bitcoinem, umo
 I když jsou stablecoiny často považovány za bezpečné díky jejich „stabilní“ povaze, je důležité si pamatovat, že nejsou zcela bez rizika. Jelikož stablecoiny spoléhají na centralizované vydavatele, tj. Tether, a finanční instituce, existuje potenciál ztráty. Aby se tyto rizika minimalizovala, je klíčové důkladně prozkoumat různé stablecoiny před investováním. Tímto způsobem můžete učinit informovaná rozhodnutí a minimalizovat potenciál neočekávaných ztrát.
 
 ## Výhody nabídky stablecoinů od Tetheru
+
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 Seznamte se s Adannou, mladou ženou žijící ve venkovské africké vesnici, kde je jedinou dostupnou měnou CFA frank, který za posledních 70 let ztratil ohromujících [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) své kupní síly, což činí spoření nemožným.
 Adanna vždycky toužila mít kontrolu nad svými penězi, ale až dosud to zůstávalo nedosažitelným snem. Měna, kterou používá, je pod kontrolou jednotlivců, kteří prokázali, že nemají zájem o nejlepší prospěch svého lidu, a její venkovská poloha omezuje její přístup k bankovním službám. Adanna tak nemá jinou možnost, než spoléhat na fyzické peníze, což ji vystavuje riziku krádeže a ztráty, kromě znehodnocování kupní síly.
@@ -1111,6 +1142,7 @@ A pokud to nestačilo, tyto stablecoiny nejenže zvyšují použitelnost tradič
 Celkově mají stablecoiny, jako jsou USDt a XAUt, potenciál transformovat životy miliard lidí tím, že jim nabídnou přístup k inkluzivním a velmi potřebným finančním službám.
 
 ## Zkouška
+
 <chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
 
 Nyní, když jste prošli modulem "Stabilita uprostřed chaosu", budete muset otestovat své nově získané znalosti, abyste se ujistili, že jste pochopili poslední sekce. Začneme několika otevřenými otázkami a poté malým kvízem.
@@ -1122,9 +1154,11 @@ Nyní, když jste prošli modulem "Stabilita uprostřed chaosu", budete muset ot
 5. Jaká opatření by podle vás měli vydavatelé stablecoinů přijmout, aby zajistili stabilitu a důvěryhodnost svých stablecoinů? Jak důležité je, aby vydavatelé stablecoinů byli transparentní ohledně svých rezervních praktik a poskytovali pravidelné zprávy?
 
 # Překonání pochyb - Vyvracení běžných omylů a případové studie z reálného světa
+
 <partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
 
 ## Omyly
+
 <chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
 
 Bitcoin byl od svého vzniku v roce 2009 obklopen odmítáním, kritikou a omyly. Přestože jeho popularita a přijetí rostou, mnoho lidí ho stále považuje za bublinu, která má prasknout. Podobně na sebe stablecoiny strhly pozornost a skepticismus. Myšlenka měny kryté stabilním aktivem zní slibně, ale mnoho lidí nerozumí, jak stablecoiny fungují a jaký mohou mít dopad na finanční systém.
@@ -1321,6 +1355,7 @@ A nakonec…
 
 Chceme začít tím, že řekneme: **Vše spotřebovává energii**, ať si to uvědomujeme, nebo ne. I jednoduchá činnost, jako je běhání se psem, vyžaduje, abyste sebe a svého chlupatého kamaráda něčím nakrmili. Vy i váš pes jste spotřebitelé energie.
 Nyní není naším záměrem kritizovat ostatní odvětví za jejich spotřebu energie, protože, jak bylo diskutováno výše, používání energie signalizuje hodnotu, kterou lidé nacházejí ve službách nebo produktech, které jsou poskytovány. Je však zásadní dát spotřebu energie Bitcoinu do perspektivy. Zvažte následující [srovnání](https://bitcoinmagazine.com/business/bitcoin-energy-use-compare-industry):
+
 - Pračky spotřebují o [18%](https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) více energie než Bitcoin.
 - Těžba zlata a výroba šperků spotřebuje desetkrát více energie než Bitcoin.
 - Námořní doprava spotřebuje více než 51krát více energie než Bitcoin.
@@ -1416,6 +1451,7 @@ Objektivním posouzením jakéhokoli narazíte na odpor, můžete lépe navigova
 Nakonec, budoucnost decentralizovaných financí spočívá v těch, kteří jsou ochotni vydat se za hranice konvencí, zpochybňovat předem dané představy a objektivně hodnotit informace. Snažte se o informovaná rozhodnutí ohledně Bitcoinu a stablecoinů na základě přesných znalostí a vyváženého pochopení jejich schopností a omezení.
 
 ## Roya Mahboob
+
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 V dnešním globalizovaném světě je přístup k finančním službám klíčovým prvkem ekonomické účasti a nezávislosti. Přesto je stále příliš mnoho jedinců vyloučeno z tradičního bankovního systému, přičemž ženy často nesou největší břemeno této vyloučenosti. Překvapivě, ačkoliv je zbytečně [jedna čtvrtina](https://www.worldbank.org/en/publication/globalfindex) světové populace bez bankovního účtu, v zemích jako Saúdská Arábie [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) žen nemá přístup k základním bankovním službám, což jim brání plně se podílet na ekonomice a společnosti své země.
@@ -1426,7 +1462,7 @@ Zde jsou jen některé příklady podmínek, kterým ženy po celém světě st�
 2. Závislost na mužských příbuzných: V mnoha patriarchálních společnostech jsou ženy závislé na mužských příbuzných pro finanční podporu. To znamená, že nemohou samy činit finanční rozhodnutí a často jsou na milost a nemilost svým mužským příbuzným. Například v Afghánistánu ženy často musí spoléhat na mužské členy rodiny pro finanční pomoc a nemusí mít přístup k finančním službám bez povolení mužského opatrovníka.
 3. Omezení v zaměstnání: V některých zemích ženám není dovoleno pracovat mimo domov, což jim ztěžuje dosažení finanční nezávislosti. Například v Sýrii, Iráku, Afghánistánu, Alžírsku, Palestině, Jordánsku a Íránu tvoří ženy pouze mezi [15 - 18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) pracovní síly.
 4. Nedostatek práv k vlastnictví: Na celém světě je stále [75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets) zemí, kde ženy nemají práva k vlastnictví, což znamená, že jsou omezeny ve své schopnosti vlastnit půdu nebo jiný majetek. To pro ně ztěžuje zahájení podnikání nebo přístup k úvěrům, jelikož nemají žádnou zástavu, kterou by mohly nabídnout. Například v některých částech Indie ženám není dovoleno vlastnit majetek a bez svolení mužského příbuzného nemohou získat úvěr.
-To jsou jen některé příklady překážek, kterým ženy v mnoha současných společnostech stále čelí, pokud jde o přístup k finančním službám a dosažení finanční nezávislosti.
+   To jsou jen některé příklady překážek, kterým ženy v mnoha současných společnostech stále čelí, pokud jde o přístup k finančním službám a dosažení finanční nezávislosti.
 
 Tento nedostatek přístupu k základním službám ztěžuje těmto ženám dosažení ekonomické nezávislosti a ovládnutí jejich finančního života. Existuje však naděje na obzoru. Od nástupu Bitcoinu mají tyto ženy nyní řešení tohoto problému. Prostřednictvím jednoduchého internetového připojení nyní mají přístup k bezdůvěrnému, bez povolení a decentralizovanému prostředku směny, který tradiční bankovní průmysl nedokázal poskytnout. Bitcoin posiluje ženy, které byly tradičním finančním systémem opomenuty.
 
@@ -1460,6 +1496,7 @@ Dále, s pomocí Mahboob a Bitcoinu, tyto ženy v Afghánistánu nyní mohou nav
 Celkově Bitcoin byl silným nástrojem pro finanční posílení žen.
 
 ## Mercedes
+
 <chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
 Narozená v Mexiku v roce 1949 v chudých poměrech zažívala Mercedes od útlého věku ostré nerovnosti, které sužovaly její společnost. Během svého dětství čelila mnoha výzvám, včetně vládního potlačování studentských hnutí a specifických problémů, které zažívaly ženy žijící v chudobě. Navíc obrovská propast mezi bohatými a chudými, spolu s omezeným přístupem ke kvalitnímu vzdělání, uvěznila její rodinu a nespočet dalších v chudobě. Frustrace z těchto nespravedlností vedla Mercedes k přitáhnutí k marxismu (komunismu), kde propagovala sociální změny a ekonomickou reformu.
 
@@ -1480,6 +1517,7 @@ Plná naděje a vzrušení, Mercedes vidí potenciál Bitcoinu změnit svět k l
 Život Mercedes byl neuvěřitelnou cestou a dopad Bitcoinu na její život je opravdu pozoruhodný. Její příběh slouží jako maják naděje pro Bitcoin, aby přinesl smysluplnou změnu a zmocnil jednotlivce ze všech sfér života. Jako zastánce finanční rovnosti využívá své rozsáhlé znalosti a cestovní zkušenosti k vzdělávání a povzbuzování těch, kteří jsou marginalizováni tradičními finančními systémy. Její pokračující úsilí ukazuje, jak vášeň a odhodlání jedné osoby mohou inspirovat pozitivní změnu ve společenstvích po celém světě.
 
 ## Příběhy Stablecoinů
+
 <chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
 Jak se blížíme ke konci tohoto kurzu, rádi bychom představili sbírku inspirativních příběhů o stablecoinech. Tyto svědectví ukazují skutečné zkušenosti jednotlivců, majitelů podniků a společností, kteří využili sílu stablecoinů k zlepšení svých životů.
 
@@ -1564,6 +1602,7 @@ V oblasti lidských zdrojů máme spoustu lidí, kterým platíme v různých ze
 Doufáme, že jste našli tyto příběhy inspirující. To řečeno, mělo by být jasné, že stablecoiny, jako je USDt, hrají klíčovou roli v umožnění jednotlivcům přístupu k rychlým a efektivním mezinárodním převodům, fakturaci a platbám v USD, mzdách denominovaných v USD a, což je nejdůležitější, relativně stabilní uchování hodnoty ve srovnání s nesčetnými volatilními měnami. Bez stablecoinů by mnoho těchto jednotlivců čelilo významným bariérám při vstupu na globální trh, spojení s mezinárodními rodinnými příslušníky nebo dosažení jinak nedostupných zákazníků. Stablecoiny nepochybně zlepšily jejich finanční propojenost a poskytly cenný nástroj pro navigaci složitostmi naší globální ekonomiky.
 
 ## Zkouška
+
 <chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
 
 Nyní, když jste prošli modulem "Překonávání pochyb", budete muset otestovat své nově získané znalosti, abyste se ujistili, že jste pochopili poslední sekce. Začneme několika otevřenými otázkami a poté malým kvízem.
@@ -1574,21 +1613,8 @@ Nyní, když jste prošli modulem "Překonávání pochyb", budete muset otestov
 4. Vzhledem k schopnosti Bitcoinu nabídnout energetickým producentům možnost přímo monetizovat energii, myslíte si, že to má významné výhody pro energetické producenty a celkový energetický trh?
 5. Při zamyšlení nad srovnáním spotřeby energie Bitcoinu s jinými průmyslovými odvětvími, je spravedlivé vyčleňovat Bitcoin kvůli jeho spotřebě energie? Proč ano nebo proč ne?
 
-# Závěrečné poznámky
-<partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
-
-
-
-## Dejte nám zpětnou vazbu k tomuto kurzu
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Závěrečná zkouška
-<chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
-<isCourseExam>true</isCourseExam>
-
-
 ## Závěrečné poznámky
+
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
 Gratulujeme, že jste došli až na konec kurzu! Ušli jste dlouhou cestu. Během této cesty jsme se zabývali širokou škálou témat, včetně:
@@ -1611,3 +1637,17 @@ Jak tento kurz končíme, doufáme, že zde získané znalosti uplatníte ve va�
 Ať vás toto nově nabyté porozumění posiluje v navigaci v se měnícím světě financí s důvěrou a účelem. Hodně štěstí na vaší cestě růstu a objevování!
 
 Budoucnost je světlá!
+
+# Sekce finále
+
+<partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
+
+## Recenze & Hodnocení
+
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Závěr
+
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

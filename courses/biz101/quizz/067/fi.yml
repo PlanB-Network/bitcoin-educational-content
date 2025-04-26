@@ -1,0 +1,9 @@
+question: Mikä rooli Zapriten ja Musqetin kaltaisilla työkaluilla on Professional-maksuratkaisussa?
+answer: Ne parantavat kassakokemusta
+wrong_answers:
+  - Ne hoitavat monen valuutan muuntamisen ja fiat-korvausten maksamisen..
+  - Ne keskittyvät transaktiotietojen salaamiseen ja yksityisten avainten hallintaan
+  - Ne toimivat perus POS-järjestelminä
+explanation: |
+  Zaprite ja Musqet lisäävät kassaprosessin räätälöintiä ja raportoinnin hienosäätöä, jotka täydentävät keskeistä maksuinfrastruktuuria.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on ühine Tartuffe'i ja ekslike majandusideede vahel Bastiati järgi?
+answer: Kõik vastused on õiged
+wrong_answers:
+  - Mõlemad kasutavad teiste manipuleerimiseks silmakirjalikkust
+  - Nad väidavad, et tegutsevad kõigi hüvanguks, otsides tegelikult ainult oma huve
+  - Nad ära kasutavad inimliku mõistuse nõrkust
+explanation: |
+  Bastiat tõmbab paralleeli Tartuffe'i ja ekslike majandusideede vahel, rõhutades, et nad manipuleerivad silmakirjalikkuse kaudu ja kasutavad ära inimlikke nõrkusi, et teenida isiklikke huve.
+reviewed: false

@@ -5,7 +5,9 @@ wrong_answers:
   - The principle of Attakai refers to the use of advanced cooling systems in Bitcoin mining.
   - The principle of Attakai refers to the use of low-energy consumption hardware in Bitcoin mining.
 explanation: |
-  The principle of Attakai refers to the idea of decentralizing mining
-  through the productive use of generated heat. This concept suggests that energy-intensive
-  establishments could benefit from the heat produced by miners to warm their facilities.
-reviewed: false
+  The principle of Attakai refers to the idea of
+  decentralizing mining through the productive use of
+  generated heat. This concept suggests that energy-intensive
+  establishments could benefit from the heat produced by
+  miners to warm their facilities.
+reviewed: true

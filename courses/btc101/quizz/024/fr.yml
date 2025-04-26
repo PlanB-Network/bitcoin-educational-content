@@ -5,5 +5,9 @@ wrong_answers:
   - Leur valeur est constamment appréciée par l'inflation monétaire.
   - Elles ne sont pas divisibles.
 explanation: |
-  Le principal inconvénient des monnaies fiduciaires, telles que le dollar et l'euro, est que leur valeur est constamment érodée par l'inflation monétaire. Cela est dû aux entités qui les contrôlent (roi, banque centrale, empereur, dictateur) qui les dévaluent constamment.
-reviewed: false
+  Le principal inconvénient des monnaies fiduciaires, telles que
+  le dollar et l'euro, est que leur valeur est constamment
+  érodée par l'inflation monétaire. Cela est dû à la
+  dévaluation causée par les entités qui les contrôlent (roi,
+  banque centrale, empereur, dictateur).
+reviewed: true

@@ -1,0 +1,11 @@
+question: Hva er strategien som brukes av sentrale enheter for å devaluere en fiat-valuta?
+answer: De øker den opprinnelige penge massen med noen prosent hvert år.
+wrong_answers:
+  - De reduserer den opprinnelige penge massen med noen prosent hvert år.
+  - De holder penge massen konstant sammenlignet med den opprinnelige massen.
+  - De varierer tilfeldig penge massen sammenlignet med den opprinnelige massen.
+explanation: |
+  Sentrale enheter devaluerer ofte en ny valuta ved å øke dens penge masse sammenlignet med
+  den opprinnelige med noen prosent hvert år. Denne stille devalueringen blir ofte rettferdiggjort
+  som å være i folkets interesse.
+reviewed: true

@@ -1,11 +1,11 @@
 question: What is the main concern regarding the environmental cost of Bitcoin mining?
-answer: The energy consumption
+answer: The energy consumption.
 wrong_answers:
-  - The production of ASICs
-  - The recycling of ASICs
-  - The cost of electricity
+  - The production of ASICs.
+  - The recycling of ASICs.
+  - The cost of electricity.
 explanation: >-
   The main environmental concern of Bitcoin mining is the energy consumption.
   While ASICs are mostly made of aluminum and can be recycled or reused, the energy
   required to power these machines is significant.
-reviewed: false
+reviewed: true

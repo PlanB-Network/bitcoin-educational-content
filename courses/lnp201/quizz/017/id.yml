@@ -1,0 +1,8 @@
+question: Apa yang terjadi jika Bob mengirimkan faktur kepada Alice untuk 30.000 satoshi?
+answer: Alice membuat transaksi komitmen untuk mentransfer 30.000 satoshi kepada Bob di dalam saluran.
+wrong_answers:
+  - Alice harus membuka saluran baru untuk melakukan transfer ini.
+  - Bob secara otomatis menerima 30.000 satoshi di dompetnya.
+  - Faktur dibayar melalui transaksi on-chain di Bitcoin.
+explanation: |
+  Ketika Bob mengirimkan faktur kepada Alice, dia membuat dan menandatangani transaksi komitmen baru untuk menyesuaikan distribusi dana, dengan demikian mentransfer 30.000 satoshi di dalam saluran.

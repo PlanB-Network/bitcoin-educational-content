@@ -1,0 +1,8 @@
+question: Mengapa disarankan untuk tidak memposting alamat penerima di media sosial?
+answer: Karena alamat tersebut dapat digunakan untuk menghubungkan aktivitas onchain dengan identitas nyata.
+wrong_answers:
+  - Karena alamat tersebut dapat dengan mudah diretas oleh peretas jahat.
+  - Karena alamat tersebut dapat menarik tawaran penipuan dan memaparkan Anda pada kampanye phishing.
+  - Karena alamat tersebut dapat memungkinkan penerapan heuristik kepemilikan input umum.
+explanation: |
+  Berbagi alamat penerima Bitcoin di internet dapat digunakan sebagai titik masuk untuk analisis rantai dengan menghubungkan identitas (nyata atau samaran) dengan aktivitas onchain.

@@ -3,7 +3,7 @@ from math import floor
 from ruamel.yaml import YAML
 from datetime import date
 
-BASE_FEE = 2500
+BASE_FEE = .1
 yaml = YAML()
 yaml.preserve_quotes = True
 yaml.indent(mapping=2, sequence=4, offset=2)
@@ -55,8 +55,9 @@ def load_difficulty_dict():
 
 
 def compute_reward(words, difficulty_factor, language_factor, urgency, base_fee, proofread_iteration):
-    reward = (urgency * (words * difficulty_factor * language_factor) + base_fee) * 2**(-proofread_iteration)
-    reward = floor(reward) 
+    euros_per_word = 0.0006
+    reward = (urgency * (euros_per_word * words * difficulty_factor * language_factor) + base_fee) * 2**(-proofread_iteration)
+    reward = round(reward, 2)
     return reward
 
 
@@ -171,18 +172,18 @@ def check_language_existence(data, language):
     return exist
 
 def get_proofreading_state(data, language):
-    contributors_id = get_proofreading_property(data, language, 'contributors_id')
-    if contributors_id == None:
+    contributor_names = get_proofreading_property(data, language, 'contributor_names')
+    if contributor_names == None:
         return 0
     else:
-        return  len(contributors_id)
+        return  len(contributor_names)
   
-def add_proofreading_contributor(data, language, contributor_id):
+def add_proofreading_contributor(data, language, contributor_names):
     for entry in data['proofreading']:
         if entry['language'] == language:
-            if entry['contributors_id'] is None:
-                entry['contributors_id'] = []
+            if entry['contributor_names'] is None:
+                entry['contributor_names'] = []
 
-            entry['contributors_id'].append(contributor_id)
+            entry['contributor_names'].append(contributor_names)
             break
     

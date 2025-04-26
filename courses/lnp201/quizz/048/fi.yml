@@ -1,11 +1,8 @@
-question: Mikä on pakotettu sulkeminen?
-answer: Toinen osapuoli haluaa sulkea kanavan, mutta toinen osapuoli ei vastaa, joten ensimmäinen osapuoli julkaisee viimeisimmän sitoumusmaksutapahtuman.
+question: Miten Keysend-teknologia mahdollistaa varojen siirron ilman laskua?
+answer: Lähettäjä luo salaisuuden HTLC; issä varojen vapauttamiseksi
 wrong_answers:
-  - Molemmat osapuolet suostuvat sulkemaan kanavan ja luovat sulkemistapahtuman.
-  - Toinen osapuoli yrittää huijata julkaisemalla vanhan sitoumusmaksutapahtuman.
-  - Molemmat osapuolet taistelevat kanavan jäljellä olevista SAT:sta.
+  - Vastaanottaja luo tiivisteen siirron vahvistamiseksi
+  - Maksu vahvistetaan suoran kanavan kautta lähettäjän ja vastaanottajan välillä
+  - Varat hyvitetään suoraan ilman lisäturvatoimia
 explanation: |
-  Pakotettu sulkeminen tapahtuu, kun yksi osapuoli haluaa sulkea kanavan, mutta
-  toinen osapuoli ei vastaa, koska he ovat offline-tilassa. Ensimmäinen osapuoli julkaisee
-  silloin viimeisimmän sitoumusmaksutapahtuman.
-reviewed: false
+  Keysend mahdollistaa lähettäjän luoda salaisuuden, joka on sisällytetty HTLC: iin, mahdollistaen vastaanottajan vapauttaa varat ilman, että laskua on annettu.

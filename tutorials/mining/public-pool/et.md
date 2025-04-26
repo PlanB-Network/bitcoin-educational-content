@@ -1,5 +1,5 @@
 ---
-name: Avalik Bassein
+name: Public Pool
 description: Sissejuhatus Avalikku Basseini
 ---
 

@@ -1,9 +1,8 @@
-question: Bitcoinの秘密鍵のサイズは何ですか？
-answer: 256ビット数
+question: Bitcoin取引で最も一般的に使用されるsighashフラグは何ですか？
+answer: SIGHASH_ALL
 wrong_answers:
-  - 512ビット数
-  - 128ビット数
-  - 1024ビット数
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
 explanation: |
-  Bitcoinシステムでは、秘密鍵はランダムまたは擬似ランダムな256ビット数です。
-reviewed: false
+  SIGHASH_ALLはデフォルトのsighashフラグで、取引のすべての入力と出力をカバーし、いかなる変更も防ぎます。

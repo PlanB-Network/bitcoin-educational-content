@@ -114,14 +114,54 @@ def ask_yes_no_question(question):
         else:
             print("Please enter 'y' for yes or 'n' for no.")
 
+
 def update_proofreading(root_dir, specific_files):
     print('Automatic Update for Proofreading section in progress...')
     
     full_update_question = "Do you want to check all the rewards? (NB. long process)"
     full_reward_update = ask_yes_no_question(full_update_question)
 
+    # Internal helper: fix formatting issues in existing YAML to ensure 'proofreading' section is properly ordered
+    def fix_proofreading_formatting(file_path):
+        try:
+            data = get_yml_content(file_path)
+            # Only rewrite if a proofreading section exists to normalize formatting
+            if 'proofreading' in data:
+                update_yml_data(file_path, data)
+        except Exception as e:
+            # log and continue
+            print(f"Warning: could not normalize formatting for {file_path}: {e}")
+    # Internal helper: remove blank lines inside the proofreading list
+    def cleanup_blank_lines_in_proofreading(file_path):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+            new_lines = []
+            in_block = False
+            for line in lines:
+                if not in_block:
+                    new_lines.append(line)
+                    # detect start of proofreading block at top-level
+                    if line.startswith('proofreading:'):
+                        in_block = True
+                else:
+                    # inside proofreading block: skip blank lines
+                    if line.strip() == '':
+                        continue
+                    # detect end of block: no indent
+                    if not line.startswith((' ', '\t')):
+                        in_block = False
+                        new_lines.append(line)
+                    else:
+                        new_lines.append(line)
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.writelines(new_lines)
+        except Exception as e:
+            print(f"Warning: could not clean blank lines in proofreading of {file_path}: {e}")
+
     # Gather all directories and files to process
     all_dirs = []
+    failed_files = []  # List to store files that failed to update
     for dirpath, dirnames, filenames in os.walk(root_dir):
         dirnames[:] = [d for d in dirnames if d != 'docs']
         if any(f in filenames for f in specific_files):
@@ -132,67 +172,95 @@ def update_proofreading(root_dir, specific_files):
     all_dirs = sorted(all_dirs)
     for dirpath, translated_content in all_dirs:
         yml_filepath = get_existing_file_path(dirpath, specific_files)
+        # normalize existing formatting before processing
+        fix_proofreading_formatting(yml_filepath)
         
         try:
             data = get_yml_content(yml_filepath)
-            
-            # Check if 'proofreading' key exists in the data
+            # If no proofreading section, initialize it at top-level (will be dumped in place)
             if 'proofreading' not in data:
-                print(f"\nError: 'proofreading' key not found in file: {yml_filepath}")
-                print("Exiting the script.")
-                return  # Exit the function, which will end the script
-          
+                original_language = data.get('original_language')
+                if original_language:
+                    # seed initial proofreading entry
+                    current_date = datetime.now().date()
+                    data['proofreading'] = [{
+                        'language': original_language,
+                        'last_contribution_date': current_date,
+                        'urgency': 1,
+                        'contributor_names': ['Asi0Flammeus'],
+                        'reward': 0
+                    }]
+                    # write updated YAML
+                    update_yml_data(yml_filepath, data)
+                else:
+                    failed_files.append((yml_filepath, "Could not determine original language"))
+                    progress_bar.update(1)
+                    continue
+
             existing_languages = get_language_list_for_content(dirpath)
             existing_languages = sorted(existing_languages)
-            # print(existing_languages, dirpath)
 
             for language in existing_languages:
-                reward_already_update = False
-                language_file_yml = f'{language}.yml'
-                language_file_md = f'{language}.md'
+                try:
+                    reward_already_update = False
+                    language_file_yml = f'{language}.yml'
+                    language_file_md = f'{language}.md'
 
-                language_file_path_yml = os.path.join(dirpath, language_file_yml)
-                language_file_path_md = os.path.join(dirpath, language_file_md)
+                    language_file_path_yml = os.path.join(dirpath, language_file_yml)
+                    language_file_path_md = os.path.join(dirpath, language_file_md)
 
-                if os.path.isfile(language_file_path_yml) or os.path.isfile(language_file_path_md):
-                    
-                    # print(dirpath, language, check_language_existence(data, language))
-                    if not check_language_existence(data, language):
-                        # print("mising proofreading section")
-                        proofreading_section = (
-                            f"\n  - language: {language}\n"
-                            f"    last_contribution_date:\n"
-                            f"    urgency: 1\n"
-                            f"    contributors_id:\n"
-                            f"    reward:\n"
-                        )
-
-                        with open(yml_filepath, 'a', encoding='utf-8') as file:
-                            file.write(proofreading_section)
-
-                        evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
-                        update_proofreading_reward(yml_filepath, language, evaluated_reward)
-                        reward_already_update = True
-
-                    if full_reward_update == 'y' and not reward_already_update:
-                        current_reward = get_proofreading_property(data, language, 'reward')
-                        if current_reward == None:
-                            current_reward = 0
-                        evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
-                        print(dirpath, language, current_reward, evaluated_reward)
-                        if current_reward != evaluated_reward:
+                    if os.path.isfile(language_file_path_yml) or os.path.isfile(language_file_path_md):
+                        # new translation exists but no proofreading entry: append in-memory and dump
+                        if not check_language_existence(data, language):
+                            # prepare new proofreading entry
+                            entry = {
+                                'language': language,
+                                'last_contribution_date': None,
+                                'urgency': 1,
+                                'contributor_names': None,
+                                'reward': None
+                            }
+                            data['proofreading'].append(entry)
+                            # write updated YAML with new entry
+                            update_yml_data(yml_filepath, data)
+                            # evaluate and update reward
+                            evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
                             update_proofreading_reward(yml_filepath, language, evaluated_reward)
+                            # reload data for subsequent operations
+                            data = get_yml_content(yml_filepath)
+                            reward_already_update = True
+
+                        if full_reward_update == 'y' and not reward_already_update:
+                            current_reward = get_proofreading_property(data, language, 'reward')
+                            if current_reward == None:
+                                current_reward = 0
+                            evaluated_reward = evaluate_proofreading_reward(yml_filepath, language)
+                            if current_reward != evaluated_reward:
+                                update_proofreading_reward(yml_filepath, language, evaluated_reward)
+
+                except Exception as e:
+                    failed_files.append((yml_filepath, f"Error processing language {language}: {str(e)}"))
 
         except Exception as e:
-            print(f"\nError processing file: {yml_filepath}")
-            print(f"Error message: {str(e)}")
-            print("Exiting the script.")
-            return  # Exit the function, which will end the script
+            failed_files.append((yml_filepath, str(e)))
 
+        # Remove any blank lines inside the proofreading list
+        cleanup_blank_lines_in_proofreading(yml_filepath)
         progress_bar.update(1)
 
     progress_bar.close()
     print('Automatic update done!')
+    
+    # Report failed files
+    if failed_files:
+        print("\nThe following files had errors during processing:")
+        for file_path, error in failed_files:
+            print(f"\nFile: {file_path}")
+            print(f"Error: {error}")
+    else:
+        print("\nAll files were processed successfully!")
+
+
 
 def add_new_supported_language(code_language, language_difficulty):
     try:

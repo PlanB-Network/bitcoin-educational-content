@@ -1,0 +1,13 @@
+question: Come viene calcolata l'efficienza di una transazione Bitcoin in termini di privacy?
+
+answer: Confrontando l'entropia effettiva della transazione con l'entropia massima possibile.
+
+wrong_answers:
+  - Moltiplicando il numero di input per il numero di output.
+  - Moltiplicando l'entropia effettiva della transazione per il numero di input e output.
+  - Confrontando il numero di input con il numero di output.
+
+explanation: |
+  L'efficienza della transazione viene calcolata sottraendo l'entropia massima dall'entropia effettiva della transazione analizzata.
+
+reviewed: false

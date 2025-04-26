@@ -1,9 +1,11 @@
-question: Pourquoi le coût abordable et l'accessibilité d'un nœud Bitcoin sont-ils importants?
-answer: Cela facilite la décentralisation du réseau.
+question: Pourquoi est-il important qu'un nœud Bitcoin reste abordable et accessible à tous les utilisateurs possibles ?
+answer: Parce que cela facilite la décentralisation du réseau.
 wrong_answers:
-  - Cela augmente la capacité de transaction du réseau.
-  - Cela diminue la capacité de transaction du réseau.
-  - Cela augmente la récompense en bloc pour les mineurs.
+  - Parce que cela augmente la capacité de transaction du réseau.
+  - Parce que cela diminue la capacité de transaction du réseau.
+  - Parce que cela augmente la récompense de bloc pour les mineurs.
 explanation: |
-  Le coût abordable et l'accessibilité d'un nœud Bitcoin sont importants car ils facilitent la décentralisation du réseau.
-reviewed: false
+  Le coût abordable et l'accessibilité d'un nœud Bitcoin sont
+  importants car ils facilitent la décentralisation du
+  réseau.
+reviewed: true

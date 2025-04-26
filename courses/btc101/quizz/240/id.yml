@@ -1,0 +1,11 @@
+question: Apa salah satu manfaat potensial dari Lightning Network bagi para pembuat konten?
+answer: Mereka akan diberi insentif untuk menghasilkan konten berkualitas guna mempertahankan perhatian pengguna
+wrong_answers:
+  - Mereka akan dapat membebankan biaya lebih tinggi untuk konten mereka
+  - Mereka akan dapat menjangkau audiens yang lebih luas
+  - Mereka akan dapat menghasilkan konten lebih cepat
+explanation: >-
+  Dengan Lightning Network, para pembuat konten akan diberi insentif untuk
+  menghasilkan konten berkualitas guna mempertahankan perhatian pengguna. Pengguna, pada gilirannya, hanya akan membayar
+  untuk konten yang mereka konsumsi, sehingga mengeliminasi biaya langganan di muka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co je asynchronní proudové šifrování?
+answer: Šifrování, jehož klíčový proud závisí jak na klíči, tak na prvcích dříve zašifrovaného textu
+wrong_answers:
+  - Šifrování, které generuje s každým použitím náhodný klíčový proud
+  - Šifrování, kde musí být klíč změněn pro každou zprávu
+  - Šifrování, jehož klíčový proud závisí pouze na počátečním klíči
+explanation: |
+  Asynchronní proudové šifrování je typ šifrování, kde klíčový proud je ovlivněn klíčem a prvky zašifrovaného textu.
+reviewed: false

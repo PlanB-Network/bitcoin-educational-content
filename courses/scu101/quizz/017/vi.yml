@@ -5,7 +5,8 @@ wrong_answers:
   - Kiểm tra tốc độ của trang web.
   - Kiểm tra bảng màu của trang web.
 explanation: |
-  Kiểm tra URL và biểu tượng ổ khóa nhỏ trong thanh địa chỉ là một cách
-  để xác nhận bạn đang truy cập vào trang web mà bạn muốn. Biểu tượng ổ khóa chỉ ra rằng
-  trang web đang sử dụng giao thức HTTPS, giúp mã hóa dữ liệu để trao đổi an toàn.
-reviewed: false
+  Kiểm tra URL và biểu tượng ổ khóa nhỏ trong thanh địa chỉ
+  là một cách để xác nhận bạn đang truy cập vào trang web mà bạn muốn.
+  Biểu tượng ổ khóa chỉ ra rằng trang web đang sử dụng
+  giao thức HTTPS, giúp mã hóa dữ liệu để trao đổi an toàn.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Millist mõju avaldab ekspansiivne rahapoliitika fiat-valuutale?
+answer: Nad lahjendavad säästude väärtust
+wrong_answers:
+  - Nad suurendavad ostujõudu
+  - Nad stabiliseerivad intressimäärad
+  - Nad tagavad majanduskasvu
+explanation: |
+  Massiivne rahaprintimine toob kaasa ostujõu vähenemise, mis järk-järgult vähendab säästja ostujõudu.
+reviewed: false

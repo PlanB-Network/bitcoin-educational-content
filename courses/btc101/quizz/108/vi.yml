@@ -1,9 +1,11 @@
 question: Mục đích của ví Bitcoin là gì?
-answer: Để lưu trữ khóa riêng nhằm thực hiện giao dịch bitcoin
+answer: Để lưu trữ khóa riêng nhằm thực hiện giao dịch bitcoin.
 wrong_answers:
-  - Sử dụng tài nguyên thiết bị để đào bitcoin
-  - Mua bitcoin bằng khóa công khai
-  - Lưu trữ bitcoin trên thiết bị
+  - Sử dụng tài nguyên thiết bị để đào bitcoin.
+  - Mua bitcoin thông qua khóa công khai.
+  - Lưu trữ bitcoin trên thiết bị.
 explanation: |
-  Ví Bitcoin là phần mềm cho phép bạn lưu trữ các khóa riêng, giúp bạn có thể thực hiện giao dịch bitcoin của mình.
-reviewed: false
+  Ví Bitcoin là một loại phần mềm được sử dụng để
+  lưu trữ các khóa riêng cho phép bạn thực hiện giao dịch
+  bitcoin của mình.
+reviewed: true

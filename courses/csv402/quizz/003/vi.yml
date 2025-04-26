@@ -1,0 +1,9 @@
+question: What is the consequence of losing the stash in the RGB protocol?
+answer: Contract history and associated data become irretrievable
+wrong_answers:
+  - Data can be reconstructed from the blockchain if you have the seed
+  - A copy of the data is available on RGB's servers in Switzerland
+  - Data is automatically replicated for all participants
+explanation: |
+  In client-side validation, each user is responsible for his or her stash, which is not replicated elsewhere, making its loss definitive.
+reviewed: false

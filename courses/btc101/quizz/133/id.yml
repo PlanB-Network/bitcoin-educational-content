@@ -1,0 +1,9 @@
+question: Apa proses yang dilakukan oleh penambang untuk memvalidasi transaksi dan memasukkannya ke dalam sebuah blok?
+answer: Proof of work
+wrong_answers:
+  - Proof of stake
+  - Proof of authority
+  - Proof of burn
+explanation: >-
+  Penambang memvalidasi transaksi dan memasukkannya ke dalam sebuah blok melalui proses yang disebut proof of work. Ini melibatkan penyelesaian sebuah teka-teki kriptografi.
+  direview: false

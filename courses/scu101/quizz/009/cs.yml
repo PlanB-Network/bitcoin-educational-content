@@ -1,12 +1,13 @@
-question: Jaká je primární funkce VPN v profesionálním kontextu?
+question: Jaká je hlavní funkce VPN v profesionálním kontextu?
 answer: Umožňuje zaměstnancům bezpečně přistupovat k interní síti společnosti na dálku.
 wrong_answers:
-  - Umožňuje zaměstnancům obcházet geografická omezení.
-  - Umožňuje zaměstnancům blokovat online reklamy.
-  - Umožňuje zaměstnancům bezpečně používat veřejné Wi-Fi.
+  - Umožňuje zaměstnancům bezpečně obejít geografická omezení.
+  - Umožňuje zaměstnancům úplně blokovat online reklamu.
+  - Umožňuje zaměstnancům bezpečně využívat veřejné Wi-Fi sítě.
 explanation: |
-  V profesionálním kontextu jsou VPN primárně používány k zajištění bezpečného
-  vzdáleného přístupu k interní síti společnosti. Toho je dosaženo šifrováním
-  dat vyměňovaných mezi zaměstnancem a sítí společnosti, což ztěžuje
-  možnost jejich zachycení třetími stranami.
-reviewed: false
+  V profesionálním kontextu jsou VPN primárně využívány k
+  zajištění bezpečného vzdáleného přístupu k interní síti
+  společnosti. Toho je dosaženo šifrováním dat vyměňovaných
+  mezi zaměstnancem a sítí společnosti, což ztěžuje
+  možnost třetích stran data zachytit.
+reviewed: true

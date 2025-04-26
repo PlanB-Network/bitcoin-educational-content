@@ -1,11 +1,9 @@
-question: Lượng Bitcoin tối đa có thể được chuyển trong một kênh thanh toán Lightning vào bất kỳ thời điểm nào là bao nhiêu?
-answer: Dung lượng cố định được xác định trước bởi người dùng
+question: Mục tiêu chính của Lightning Network là gì?
+answer: Cải thiện khả năng mở rộng của Bitcoin để kích hoạt các giao dịch nhanh chóng và chi phí thấp
 wrong_answers:
-  - Tổng số Bitcoin mà hai người dùng sở hữu
-  - Tổng số Bitcoin trong toàn bộ Mạng Lưới Lightning
-  - Tổng số Bitcoin đã được giao dịch trong kênh đến thời điểm hiện tại
+  - Loại bỏ hoàn toàn phí giao dịch trên blockchain của Bitcoin
+  - Tạo ra một lựa chọn thay thế cho Bitcoin đối với các giao dịch giá trị cao
+  - Đơn giản hóa việc trao đổi giữa các loại tiền mã hóa khác nhau
 explanation: |
-  Khi một kênh thanh toán Lightning được mở, nó được cấp một dung lượng cố định,
-  được xác định trước bởi người dùng. Dung lượng này đại diện cho lượng Bitcoin tối đa
-  có thể được chuyển trong kênh vào bất kỳ thời điểm nào.
+  Lightning Network nhằm mục đích tăng cường khả năng mở rộng của Bitcoin bằng cách kích hoạt các giao dịch nhanh chóng và ít tốn kém thông qua các kênh thanh toán ngoại tuyến.
 reviewed: false

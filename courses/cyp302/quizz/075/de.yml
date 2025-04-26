@@ -1,0 +1,9 @@
+question: Wie erleichtert das Kerckhoffsche Prinzip die Sicherheit offener Systeme wie Linux?
+answer: Es ermöglicht die öffentliche Überprüfung potenzieller Schwachstellen.
+wrong_answers:
+  - Es macht Verschlüsselungsalgorithmen unsichtbar
+  - Es begrenzt die Anzahl potenzieller Nutzer
+  - Es gewährleistet die Verwendung einzigartiger Schlüssel
+explanation: |
+  Das Kerckhoffsche Prinzip ermöglicht die öffentliche Überprüfung von Sicherheitsmängeln, wie bei Open-Source-Systemen, was die Systeme durch Transparenz zuverlässiger macht. Die Sicherheit wird allein durch den Schlüssel gewährleistet, nicht durch den Verschlüsselungsprozess selbst.
+reviewed: false

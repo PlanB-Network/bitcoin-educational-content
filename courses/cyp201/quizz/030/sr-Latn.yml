@@ -1,0 +1,9 @@
+question: Koja je svrha SIGHASH_SINGLE?
+answer: Da pokrije jedan ulaz i njegov odgovarajući izlaz
+wrong_answers:
+  - Da pokrije sve ulaze i izlaze
+  - Da pokrije samo ulaze
+  - Da pokrije sve izlaze osim jednog
+explanation: |
+  SIGHASH_SINGLE pokriva jedan ulaz i jedan izlaz koji odgovara indeksu potpisanog ulaza, ostavljajući ostalo promenljivim.
+reviewed: false

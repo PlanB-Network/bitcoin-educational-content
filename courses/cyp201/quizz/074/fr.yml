@@ -1,9 +1,9 @@
-question: Pourquoi est-il essentiel de sauvegarder la phrase de récupération de 24 mots d'un portefeuille Bitcoin ?
-answer: Pour éviter toute perte de fonds.
+question: Que désigne l'index /84'/ en profondeur 1 d'un chemin de dérivation ?
+answer: Le standard P2WPKH (SegWit v0)
 wrong_answers:
-  - Pour vérifier l'exactitude de la phrase de récupération.
-  - Pour générer l'entropie du portefeuille.
-  - Pour chiffrer la phrase de récupération pour une sécurité accrue.
+  - Le standard P2TR (SegWit v1)
+  - Une devise Bitcoin testnet
+  - Une devise Bitcoin mainnet
 explanation: |
-  Sauvegarder la phrase de récupération de 24 mots est essentiel pour éviter toute perte de fonds.
+  L'index /84'/ est défini dans le BIP84 pour indiquer l'utilisation du standard SegWit v0 avec des adresses P2WPKH en profondeur 1 (celle de l'objectif de dérivation).
 reviewed: false

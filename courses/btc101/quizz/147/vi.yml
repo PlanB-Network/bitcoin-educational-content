@@ -1,9 +1,9 @@
-question: Hậu quả sẽ ra sao nếu các khối nặng hơn 100 lần?
-answer: Việc chạy một nút Bitcoin sẽ không còn tiếp cận được với người dùng bình thường, làm suy yếu tính phi tập trung của giao thức và tính bất biến của giao dịch và quy tắc đồng thuận.
+question: Hậu quả đối với người dùng Bitcoin sẽ như thế nào nếu các khối nặng hơn 100 lần?
+answer: Việc vận hành một nút Bitcoin sẽ không còn tiếp cận được với người dùng bình thường, làm suy yếu tính phi tập trung của giao thức và tính bất biến của cả giao dịch lẫn quy tắc đồng thuận.
 wrong_answers:
-  - Việc chạy một nút Bitcoin sẽ trở nên dễ dàng hơn đối với người dùng bình thường, tăng cường tính phi tập trung của giao thức và tính bất biến của giao dịch và quy tắc đồng thuận.
+  - Việc vận hành một nút Bitcoin sẽ trở nên dễ dàng hơn đối với người dùng bình thường, tăng cường tính phi tập trung của giao thức và tính bất biến của cả giao dịch lẫn quy tắc đồng thuận.
   - Khả năng xử lý giao dịch của mạng sẽ giảm.
   - Phần thưởng cho các thợ mỏ sẽ tăng lên.
 explanation: |
-  Nếu các khối nặng hơn 100 lần, việc chạy một nút Bitcoin sẽ đòi hỏi một ổ cứng 50TB, băng thông trên 500GB/tháng, và phần cứng có khả năng xác thực hàng trăm nghìn giao dịch trong ít hơn 10 phút. Điều này sẽ làm cho việc chạy một nút Bitcoin trở nên không thể tiếp cận được với người dùng bình thường, làm suy yếu tính phi tập trung của giao thức và tính bất biến của giao dịch và quy tắc đồng thuận.
-reviewed: false
+  Nếu các khối nặng hơn 100 lần, việc vận hành một nút Bitcoin sẽ yêu cầu một ổ cứng 50TB, băng thông trên 500GB/tháng, và phần cứng có khả năng xác thực hàng trăm nghìn giao dịch trong ít hơn 10 phút. Điều này sẽ làm cho việc vận hành một nút Bitcoin trở nên không thể tiếp cận được với người dùng bình thường, làm suy yếu tính phi tập trung của giao thức và tính bất biến của giao dịch và quy tắc đồng thuận.
+reviewed: true

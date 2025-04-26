@@ -1,0 +1,9 @@
+question: What mathematical concept underlies the Diffie-Hellman key exchange?
+answer: A one-way function with a backdoor
+wrong_answers:
+  - An inverse exponential function
+  - A cryptographic hash algorithm
+  - A simplified modular division
+explanation: |
+  Diffie-Hellman relies on a one-way function that is easy to compute in one direction but practically impossible to reverse without a secret piece of information, called a backdoor.
+reviewed: false

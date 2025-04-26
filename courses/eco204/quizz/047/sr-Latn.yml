@@ -1,0 +1,10 @@
+question: Koliko je iznosila stopa Exchange digitalnog bolivara u Venecueli 2021. godine?
+answer: Jedan milion prema jedan.
+wrong_answers:
+  - Hiljadu prema jedan.
+  - Deset hiljada prema jedan.
+  - Sto hiljada prema jedan.
+explanation: |
+  Godine 2021, digitalni bolivar u Venecueli zamenjen je novom
+  redenominacijom od milion prema jedan.
+reviewed: false

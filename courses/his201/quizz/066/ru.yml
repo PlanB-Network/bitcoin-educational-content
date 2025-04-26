@@ -1,0 +1,9 @@
+question: Как назывался блог, ведомый Джоном Матонисом, который освещал цифровые валюты (включая Биткойн с марта 2010 года)?
+answer: The Monetary Future
+wrong_answers:
+  - Классические Экономические Исследования
+  - Возвращение к Наличности
+  - Институт Накамото
+explanation: |
+  Он опубликовал свою [первую статью о Биткойне](https: //themonetaryfuture.blogspot.com/2010/03/bitcoin-peer-to-peer-electronic-cash.html) 13 марта 2010 года после обмена письмами с Сатоши.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Mengapa sangat penting untuk secara rutin memperbarui sistem operasi dan aplikasi?
+answer: Untuk melindungi dari ancaman dan kerentanan baru.
+wrong_answers:
+  - Untuk membuat mesin menjadi usang.
+  - Untuk memperlambat mesin.
+  - Untuk mengubah antarmuka pengguna.
+explanation: |
+  Pembaruan rutin sangat penting untuk melindungi sistem dari ancaman dan kerentanan baru. Tujuannya bukan untuk membuat mesin menjadi usang atau lebih lambat.

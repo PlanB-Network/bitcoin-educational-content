@@ -1,0 +1,9 @@
+question: Come fa RGB a garantire la riservatezza nella gestione degli asset digitali?
+answer: Registrando solo gli impegni crittografici sulla blockchain
+wrong_answers:
+  - Crittografando tutte le transazioni end-to-end sulla blockchain
+  - Nascondendo l'identità degli utenti attraverso mixer decentralizzati
+  - Utilizzando solo indirizzi Bitcoin temporanei per ogni trasferimento
+explanation: |
+  Memorizzando solo prove crittografiche sulla catena, RGB mantiene riservate le informazioni sensibili sui contratti e sui trasferimenti.
+reviewed: false

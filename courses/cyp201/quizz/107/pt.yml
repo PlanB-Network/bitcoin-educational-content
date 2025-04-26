@@ -1,9 +1,0 @@
-question: Qual é o comprimento da semente em uma carteira HD?
-answer: A semente tem um comprimento de 128 a 256 bits.
-wrong_answers:
-  - A semente tem um comprimento de 64 a 128 bits.
-  - A semente tem um comprimento de 256 a 512 bits.
-  - A semente tem um comprimento de 32 a 64 bits.
-explanation: |
-  A semente em uma carteira HD tem um comprimento de 128 a 256 bits. Ela é gerada aleatoriamente ou a partir de uma frase secreta.
-reviewed: false

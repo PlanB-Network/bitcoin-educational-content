@@ -1,9 +1,13 @@
-question: Co je Deklarace nezávislosti kyberprostoru?
-answer: Text tvrdící, že kyberprostor je odlišná sféra od fyzického světa a neměla by podléhat stejným zákonům.
+question: Co je Prohlášení o nezávislosti kyberprostoru?
+answer: Text tvrdící, že kyberprostor je odlišná sféra od fyzického světa a neměl by podléhat stejným zákonům.
 wrong_answers:
-  - Deklarace nezávislosti Bitcoinu na tradiční finanční systémy.
-  - Text tvrdící, že internet by měl být svobodný od vládní regulace.
-  - Deklarace nezávislosti pirátského hnutí na jakékoliv regulaci.
+  - Prohlášení uvádějící nezávislost Bitcoinu na tradičních finančních systémech.
+  - Text tvrdící, že kyberprostor by měl být kontrolován vládní regulací.
+  - Prohlášení, které zastává nezávislost pirátského hnutí na jakékoliv regulaci.
 explanation: |
-  Deklarace nezávislosti kyberprostoru byla napsána Johnem Perrym Barlowem v roce 1996 a tvrdí, že kyberprostor je odlišná sféra od fyzického světa, ve kterém průmyslové vlády nemohou uplatňovat svou autoritu.
+  Prohlášení o nezávislosti kyberprostoru bylo
+  napsáno Johnem Perrym Barlowem v roce 1996. Tento dokument tvrdí,
+  že kyberprostor je odlišná sféra od fyzického
+  světa, takže průmyslové vlády nemohou tam uplatňovat svou
+  autoritu.
 reviewed: true

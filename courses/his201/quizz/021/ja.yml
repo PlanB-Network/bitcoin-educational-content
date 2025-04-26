@@ -1,0 +1,9 @@
+question: 中本聡がビットコインの開発を開始したのは何年ですか？
+answer: 2007
+wrong_answers:
+  - 2008
+  - 2009
+  - 2010
+explanation: |
+  彼は自身の著作で何度もそれに言及しています。(https: //bitcointalk.org/index.php?topic=13.msg46#msg46)
+reviewed: false

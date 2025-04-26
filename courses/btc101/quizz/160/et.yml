@@ -1,0 +1,12 @@
+question: Mis juhtub 51% rünnaku korral Bitcoin'i võrgus?
+answer: Agent omab rohkem kui poolt võrgu hashrate'ist ja võib proovida muuta blockchaini.
+wrong_answers:
+  - Agent saavutab kontrolli rohkem kui poole ringluses olevate bitcoinide üle.
+  - Agent saavutab kontrolli rohkem kui poole Bitcoin'i võrgu sõlmedest.
+  - Agent saavutab kontrolli rohkem kui poole Bitcoin'i võrgu kaevandusbasseinidest.
+explanation: >-
+  51% rünnaku korral võib agent, kellel on rohkem kui pool võrgu hashrate'ist,
+  potentsiaalselt manipuleerida blockchaini, luues alternatiivse ahela plokke.
+  Siiski oleks selline rünnak äärmiselt kulukas ja tõenäoliselt mitte kasumlik,
+  muutes selle ebatõenäoliseks stsenaariumiks.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Tính sẵn có trực tuyến của Bitcoin là bao nhiêu?
-answer: 99.988%
+question: Kể từ khi được tạo ra, mạng lưới Bitcoin đã hoạt động ổn định bao nhiêu phần trăm thời gian?
+answer: 99.988%.
 wrong_answers:
-  - 100%
-  - 90.009%
-  - 80.17%
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
   Tính sẵn có trực tuyến của Bitcoin là 99.988% kể từ năm 2009.
-reviewed: false
+reviewed: true

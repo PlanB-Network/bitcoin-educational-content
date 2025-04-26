@@ -1,0 +1,9 @@
+question: Mitä seuraa kätkön menettämisestä RGB-protokollassa?
+answer: Sopimushistoriaa ja siihen liittyviä tietoja ei voida enää palauttaa
+wrong_answers:
+  - Tiedot voidaan rekonstruoida lohkoketjusta, jos sinulla on siemen
+  - Kopio tiedoista on saatavilla RGB:n palvelimilla Sveitsissä
+  - Tiedot kopioidaan automaattisesti kaikkien osallistujien osalta
+explanation: |
+  Asiakaspuolen validoinnissa kukin käyttäjä on vastuussa omasta kätköstään, jota ei kopioida muualle, joten sen menettäminen on lopullista.
+reviewed: false

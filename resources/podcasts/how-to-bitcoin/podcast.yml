@@ -1,3 +1,4 @@
+id: 2767f09a-11e8-4fdb-abdf-29f2445c7d72
 name: How To ₿itcoin
 host: StackingHats and BitcoinBrendo
 language: fr
@@ -7,8 +8,9 @@ links:
   website: https://bitcoin-first.com/
 description: |
   Bienvenue sur la version Podcast des vidéos du média HowToBitcoin.
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - guides
+  - user-friendly
+  - easy-explain

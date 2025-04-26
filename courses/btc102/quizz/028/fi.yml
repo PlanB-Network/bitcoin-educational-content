@@ -1,11 +1,9 @@
-question: Mitä tarkoittaa, että Bitcoin on avoimen lähdekoodin?
-answer: Kuka tahansa voi tutkia, miten Bitcoin toimii, se on läpinäkyvä ja siksi tarkastettavissa
+question: Mitä alustoja suositellaan KYC:n välttämiseksi bitcoineja ostettaessa?
+answer: Vertaisverkkoalustat Exchange
 wrong_answers:
-  - Kuka tahansa voi luoda oman versionsa Bitcoinista
-  - Bitcoinin käyttö on ilmaista
-  - Bitcoinin koodi on julkisesti saatavilla muokattavaksi
+  - Yleiskäyttöiset Exchange-alustat
+  - Vain Bitcoin Exchange-alustat
+  - Kaupankäyntiin keskittyvät Exchange-alustat
 explanation: |
-  Avoimen lähdekoodin oleminen tarkoittaa sitä, että Bitcoinin koodi on julkisesti saatavilla
-  kenen tahansa tarkasteltavaksi. Tämä tekee siitä läpinäkyvän ja tarkastettavan, varmistaen, että protokolla
-  on kaikille sama.
+  P2P-alustojen avulla käyttäjät voivat ostaa bitcoineja suoraan toisiltaan ilman KYC-vaatimuksia.
 reviewed: false

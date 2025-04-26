@@ -1,9 +1,13 @@
-question: Quel est le principal avantage de l'or en tant que monnaie?
-answer: Il est incroyablement durable
+question: Quel est le principal avantage de l'or en tant que monnaie ?
+answer: Il est incroyablement durable.
 wrong_answers:
-  - Il est facilement divisible ou transportable sur de longues distances
-  - Il est facilement vérifiable
-  - Il n'est pas régulé par le gouvernement
+  - Il est facilement divisible ou transportable sur de longues distances.
+  - Il est facilement vérifiable.
+  - Il n'est pas régulé par le gouvernement.
 explanation: |
-  Bien qu'il ne soit pas facilement divisible ou transportable sur de longues distances, ce qui en faisait un bon moyen de stockage de valeur, il n'est pas une monnaie courante de nos jours.
-reviewed: false
+  Bien qu'il ne soit pas facilement divisible ou transportable sur
+  de longues distances, l'or est un matériau très durable, ce
+  qui en fait une bonne réserve de valeur. Les pièces d'or étaient utilisées comme
+  monnaie dans le passé, mais elles ne serviraient pas le même
+  objectif à l'ère numérique actuelle.
+reviewed: true

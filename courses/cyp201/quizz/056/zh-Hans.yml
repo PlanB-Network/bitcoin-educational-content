@@ -1,0 +1,8 @@
+question: 用于从种子派生主私钥的常数是什么？
+answer: Bitcoin Seed
+wrong_answers:
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
+explanation: |
+  Bitcoin Seed常数被用作HMAC-SHA512函数中的一个键，以派生主私钥和主链代码。

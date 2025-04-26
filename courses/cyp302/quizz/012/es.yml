@@ -1,0 +1,9 @@
+question: ¿Cuál es la ilusión respecto a la seguridad de los canales de comunicación en el mundo moderno?
+answer: Creer que proteger físicamente el canal evita la interceptación
+wrong_answers:
+  - Pensar que las redes inalámbricas son ineficaces
+  - Creer que la criptografía no es necesaria para comunicaciones locales
+  - Considerar que solo las agencias nacionales pueden interceptar datos
+explanation: |
+  Es una ilusión pensar que simplemente asegurar el canal físicamente es suficiente para garantizar la confidencialidad, ya que muchos puntos de interceptación siguen siendo accesibles, especialmente para las comunicaciones inalámbricas.
+reviewed: false

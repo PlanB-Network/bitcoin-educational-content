@@ -5,8 +5,10 @@ wrong_answers:
   - It can lead to an increase in the hashrate of the network
   - It can lead to a decrease in the number of active nodes in the network
 explanation: |
-  Mining for the network is a noble initiative that contributes to the
-  security and decentralization of the Bitcoin network. However, without sufficient
-  financial incentive, it can be difficult for miners to continue supporting the network,
-  especially if they operate at a loss.
-reviewed: false
+  Mining for the network is a noble initiative that
+  contributes to the security and decentralization of the
+  Bitcoin network. However, without sufficient financial
+  incentive, it can be difficult for miners to continue
+  supporting the network, especially if they operate at a
+  loss.
+reviewed: true

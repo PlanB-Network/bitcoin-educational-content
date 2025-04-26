@@ -1,0 +1,13 @@
+question: Jaký termín popisuje ochranu, kterou nabízí coinjoin proti analýze minulých transakcí mince?
+
+answer: Retrospektivní anonset.
+
+wrong_answers:
+  - Perspektivní anonset.
+  - Odolnost vůči trasování.
+  - Časové soukromí.
+
+explanation: |
+  Ochrana proti analýze od současnosti do minulosti se nazývá retrospektivní anonset.
+
+reviewed: false

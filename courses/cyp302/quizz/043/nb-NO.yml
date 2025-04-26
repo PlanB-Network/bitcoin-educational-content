@@ -1,0 +1,8 @@
+question: Hvilken type gruppe bruker primært kryptografi?
+answer: Grupper definert på heltall eller elementer beskrevet av heltall
+wrong_answers:
+  - Grupper av komplekse tall eller elementer beskrevet av komplekse tall
+  - Grupper av geometriske transformasjoner eller elementer beskrevet av geometriske transformasjoner
+  - Grupper av rasjonale tall eller elementer beskrevet av rasjonale tall
+explanation: |
+  Kryptografi bruker grupper basert på heltall, eller elementer beskrevet av heltall som punktene på en elliptisk kurve, for kryptering og signering operasjoner.

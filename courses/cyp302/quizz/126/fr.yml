@@ -1,0 +1,9 @@
+question: Qu'est-ce que permet de faire le protocole d'échange de clés Diffie-Hellman ?
+answer: Il permet à deux parties de créer une clé secrète commune en partageant des informations publiques
+wrong_answers:
+  - Il permet un échange de clés secrètes en personne pour chaque session
+  - Il permet d'utiliser une clé publique pour le chiffrement et une clé privée pour le déchiffrement
+  - Il permet d'échanger de la monnaie électronique
+explanation: |
+  Le protocole Diffie-Hellman permet à deux parties de partager publiquement des informations tout en garantissant qu'elles seules peuvent générer une clé commune pour sécuriser leurs futurs échanges.
+reviewed: false

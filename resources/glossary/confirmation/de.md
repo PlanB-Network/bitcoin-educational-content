@@ -1,0 +1,5 @@
+---
+term: BESTÄTIGUNG
+
+---
+Bezieht sich auf die Anzahl der Blöcke, für die eine Transaktion von ihrer Sicherheit profitiert. Wenn eine Transaktion an das Bitcoin-Netzwerk gesendet wird, bleibt sie zunächst in den Mempools der Knotenpunkte ausstehend. Dann wird sie von einem Miner in einen gültigen Block aufgenommen. In diesem Stadium ist die Transaktion gerade erst der Blockchain hinzugefügt worden und profitiert daher von ihrer ersten Bestätigung. Wenn ein neuer Block über dem Block gefunden wird, der die betreffende Transaktion enthält, erhält dieser eine zweite Bestätigung usw. Jeder neue Block, der über den Block mit der Transaktion geschürft wird, stellt eine neue Bestätigung dar. Indem wir die Anzahl der Bestätigungen für eine Transaktion zählen, können wir das Risiko abschätzen, dass sie aufgrund einer Umstrukturierung annulliert wird. Anhand der Anzahl der Bestätigungen lässt sich der Grad der Unveränderlichkeit einer Transaktion in der Blockchain beurteilen.

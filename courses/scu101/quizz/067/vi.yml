@@ -1,13 +1,10 @@
 question: Vấn đề chính liên quan đến Single Sign-On (SSO) do các gã khổng lồ internet cung cấp là gì?
-
 answer: Nó gây ra các vấn đề về khả năng sẵn có và nguy cơ kiểm duyệt.
-
 wrong_answers:
   - Nó khó sử dụng.
   - Nó yêu cầu nhiều không gian lưu trữ.
   - Nó không tương thích với tất cả các trang web.
-
 explanation: |
-  Single Sign-On (SSO) do các gã khổng lồ internet cung cấp gây ra các vấn đề về khả năng sẵn có và nguy cơ kiểm duyệt. Điều này là bởi vì nếu nhà cung cấp SSO gặp sự cố hoặc quyết định chặn một người dùng, người dùng có thể mất quyền truy cập vào tất cả các dịch vụ sử dụng SSO đó để xác thực.
-
-reviewed: false
+  Single Sign-On (SSO) do các gã khổng lồ internet cung cấp gây ra các vấn đề về khả năng sẵn có và nguy cơ kiểm duyệt.
+  Điều này là bởi vì nếu nhà cung cấp SSO gặp sự cố về hệ thống hoặc quyết định chặn một người dùng, người dùng có thể mất quyền truy cập vào tất cả các dịch vụ sử dụng SSO đó để xác thực.
+reviewed: true

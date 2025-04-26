@@ -1,9 +1,0 @@
-question: Quais tipos de pares de chaves filhas podem ser derivados da chave privada estendida?
-answer: A chave privada estendida permite a derivação de todas as chaves filhas, tanto públicas quanto privadas, em modo normal ou endurecido.
-wrong_answers:
-  - A chave privada estendida permite apenas a derivação de chaves filhas normais.
-  - A chave privada estendida permite apenas a derivação de chaves filhas endurecidas.
-  - A chave privada estendida não permite a derivação de nenhuma chave filha.
-explanation: |
-  A chave privada estendida permite a derivação de todas as chaves filhas, tanto públicas quanto privadas, seja em modo normal ou endurecido. Isso é diferente da chave pública estendida, que permite apenas a derivação de chaves filhas públicas normais.
-reviewed: false

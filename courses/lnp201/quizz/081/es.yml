@@ -1,9 +1,0 @@
-question: ¿Qué es la Red Lightning?
-answer: Una solución de capa 2 para Bitcoin que permite transacciones rápidas y de bajo costo.
-wrong_answers:
-  - Un tipo de billetera digital para almacenar Bitcoin.
-  - Un método para minar Bitcoin.
-  - Un registro de todas las transacciones en la red de Bitcoin.
-explanation: |
-  La Red Lightning es una solución de capa 2 para Bitcoin que permite transacciones rápidas y de bajo costo. Opera sobre la cadena de bloques de Bitcoin y permite transacciones fuera de la cadena, que son más rápidas y más baratas que las transacciones en la cadena.
-reviewed: false

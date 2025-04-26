@@ -5,5 +5,5 @@ wrong_answers:
   - Erityinen tyyppi Bitcoin-lompakkoa.
   - Salausalgoritmi Bitcoinille.
 explanation: |
-  UTXO on käyttämätön siirtotapahtuman tuotos, joten se on käytännössä "pala bitcoinia".
+  UTXO on käyttämätön siirtotapahtuman tuotos, joten se on käytännössä pala bitcoinia.
 reviewed: false

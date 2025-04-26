@@ -1,9 +1,9 @@
-question: Jak se někdy hrubě říká sbírce soukromých klíčů v Bitcoinové peněžence?
-answer: Just a Bunch Of Keys (JBOC)
+question: Na kolik částí je rozdělen výstup funkce HMAC-SHA512 aplikované na seed?
+answer: Na dvě části po 256 bitech
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - Jedna jediná část o 512 bitech
+  - Tři části po 170 bitech
+  - Čtyři části po 128 bitech
 explanation: |
-  Sbírka soukromých kryptografických klíčů odvozených z jednoho hlavního klíče v Bitcoinové peněžence je někdy označována mírně hrubším názvem "Just a Bunch Of Keys" (JBOC).
+  Výstup HMAC-SHA512 je rozdělen na dvě části: hlavní soukromý klíč (256 bitů) a hlavní řetězový kód (256 bitů).
 reviewed: false

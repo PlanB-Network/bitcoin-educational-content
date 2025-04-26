@@ -1,0 +1,9 @@
+question: Který open-source software je přizpůsoben pro profesionální platební systém Bitcoin?
+answer: BTC Pay Server
+wrong_answers:
+  - Švýcarský Bitcoin Pay
+  - Otevřený uzel
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server je v kurzu zdůrazněn jako základní open-source řešení pro profesionální nastavení díky svým rozsáhlým možnostem integrace a ovládání.
+reviewed: false

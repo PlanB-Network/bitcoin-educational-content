@@ -1,11 +1,9 @@
-question: Jaké je maximální množství Bitcoinu, které lze v daném okamžiku přenést v platebním kanálu Lightning?
-answer: Pevná kapacita definovaná předem uživateli
+question: Jaký je hlavní cíl Lightning Network?
+answer: Zlepšit škálovatelnost Bitcoinu, aby umožnil rychlé a nízkonákladové platby
 wrong_answers:
-  - Celkové množství Bitcoinu vlastněné oběma uživateli
-  - Celkové množství Bitcoinu v celé síti Lightning
-  - Celkové množství Bitcoinu, které bylo dosud v kanálu převedeno
+  - Zrušit transakční poplatky na blockchainu Bitcoinu
+  - Vytvořit alternativu k Bitcoinu pro platby s vysokou hodnotou
+  - Zjednodušit výměny mezi různými kryptoměnami
 explanation: |
-  Když je platební kanál Lightning otevřen, je mu přidělena pevná kapacita,
-  která je definována předem uživateli. Tato kapacita představuje maximální množství
-  Bitcoinu, které lze v daném kanálu v daném okamžiku přenést.
+  Lightning Network si klade za cíl zlepšit škálovatelnost Bitcoinu tím, že umožní rychlé a levné transakce prostřednictvím platebních kanálů mimo hlavní blockchain.
 reviewed: false

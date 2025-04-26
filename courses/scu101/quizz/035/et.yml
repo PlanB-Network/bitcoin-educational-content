@@ -1,0 +1,9 @@
+question: Mis on õngitsemiskatsete eesmärk?
+answer: Välja meelitada tundlikku informatsiooni nagu teie kasutajatunnused ja paroolid.
+wrong_answers:
+  - Saata teile rämpsposti.
+  - Müüa teile tooteid või teenuseid.
+  - Kutsuda teid üritustele või veebiseminaridele.
+explanation: |
+  Õngitsemiskatsed on suunatud tundliku informatsiooni, nagu teie kasutajatunnused ja paroolid, väljameelitamisele. Häkkerid kasutavad erinevaid taktikaid, nagu petlikud e-kirjad, et teid petta oma informatsiooni avaldama.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: ZEROCONF
+
+---
+Práctica arriesgada de tratar una transacción de Bitcoin como definitiva, y proceder a la ejecución del acto asociado a cambio (como la venta de un bien o servicio), antes de que la transacción se incluya realmente en un bloque de la blockchain. Las transacciones no confirmadas, o zeroconf, son vulnerables a los ataques de doble gasto, ya que aún no se han registrado de forma irrevocable en el libro mayor. El zeroconf puede considerarse en contextos muy específicos, en los que la rapidez es una prioridad, como en el caso de pequeñas transacciones comerciales o en el caso de una transacción entre conocidos. En estas situaciones, el riesgo de doble gasto se considera a menudo aceptable en comparación con el beneficio de una transacción rápida. Sin embargo, en el caso de transacciones importantes, especialmente cuando el remitente es desconocido, es crucial esperar varias confirmaciones antes de considerar la transacción como inmutable. La norma generalmente aceptada es esperar 6 confirmaciones, lo que significa que deben minarse 5 bloques adicionales después del que incluye la transacción, para considerarla definitiva.

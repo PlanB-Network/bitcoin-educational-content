@@ -1,0 +1,9 @@
+question: Qual è lo scopo dell'implementazione dell'interfaccia nell'architettura RGB?
+answer: Mappare i campi dello schema con i nomi definiti nell'interfaccia
+wrong_answers:
+  - Compilazione degli script AluVM per la convalida
+  - Per definire gli stati globali e gli stati posseduti del contratto
+  - Per memorizzare le prove crittografiche lato client
+explanation: |
+  L'implementazione dell'interfaccia stabilisce il collegamento tra la logica aziendale dello schema e la presentazione leggibile dall'interfaccia.
+reviewed: false

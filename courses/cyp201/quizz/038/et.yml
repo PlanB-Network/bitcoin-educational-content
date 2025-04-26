@@ -1,0 +1,9 @@
+question: Miks ei soovitata Bitcoini aadressi uuesti kasutada?
+answer: See hõlbustab kolmandate osapoolte poolt tehingute jälgimist
+wrong_answers:
+  - See paljastab privaatvõtme tänu nonce'ile
+  - See muudab tehingud kallimaks
+  - See muudab digitaalsed allkirjad kehtetuks
+explanation: |
+  Aadressi uuesti kasutamine võimaldab vaatlejatel hõlpsasti erinevaid tehinguid sama kasutajaga seostada, ohustades nende privaatsust.
+reviewed: false

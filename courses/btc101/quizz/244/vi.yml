@@ -1,9 +1,9 @@
 question: Một cách để tự mình thử nghiệm Lightning Network là gì?
-answer: Bằng cách thử ứng dụng podcast Fountain
+answer: Bằng cách thử ứng dụng podcast có tên là Fountain.
 wrong_answers:
-  - Bằng cách đào Bitcoin
-  - Bằng cách mua Bitcoin
-  - Bằng cách tạo ra một loại tiền mã hóa mới
+  - Bằng cách đào Bitcoin bằng máy tính cá nhân.
+  - Bằng cách mua Bitcoin từ ngân hàng.
+  - Bằng cách tạo ra một loại tiền điện tử mới.
 explanation: >-
-  Một cách để tự mình thử nghiệm Lightning Network là bằng cách thử ứng dụng podcast Fountain, cho phép bạn được thưởng một vài sats cho việc nghe các podcast yêu thích của mình.
-reviewed: false
+  Một cách để tự mình thử nghiệm Lightning Network là bằng cách thử ứng dụng podcast Fountain, cho phép bạn được thưởng một số sats khi nghe các podcast yêu thích của mình.
+reviewed: true

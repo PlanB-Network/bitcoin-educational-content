@@ -1,0 +1,9 @@
+question: Jaký je princip právníků podle Bastiata?
+answer: Je to princip přednosti práva před vlastnictvím
+wrong_answers:
+  - Je to princip přednosti vlastnictví před právem
+  - Je to princip rovnosti před zákonem
+  - Je to právo na vlastnictví bez zásahu státu
+explanation: |
+  Pro Bastiata, princip právníků, v opozici k principu ekonomů, klade právo před vlastnictví, pozici, kterou kritizuje kvůli jejímu potenciálu zavádět nespravedlnosti.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Quel était le taux d'inflation au Zimbabwe en novembre 2008?
+question: Quel était le taux d'inflation au Zimbabwe en novembre 2008 ?
 answer: 79 600 000 000 %
 wrong_answers:
   - 796 %
   - 79 600 000 000 000 000 %
   - 100 %
 explanation: |
-  En novembre 2008, le taux d'inflation mensuel de la monnaie zimbabwéenne a atteint un pic de 79 600 000 000 %, ce qui a anéanti la valeur du dollar zimbabwéen.
-reviewed: false
+  En novembre 2008, le taux d'inflation mensuel de la monnaie du Zimbabwe a atteint un pic de 79 600 000 000 %, ce qui a réduit la valeur du dollar zimbabwéen à 0.
+reviewed: true

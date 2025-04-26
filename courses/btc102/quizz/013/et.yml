@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus kauplemise ja investeerimise vahel?
+answer: Kauplemine on lühiajaline ja spekulatiivne, investeerimine on pikaajaline ja strateegiline
+wrong_answers:
+  - Kauplemine hõlmab fikseeritud tasusid, investeerimine hõlmab muutuvaid tasusid
+  - Kauplemine põhineb fundamentaalanalüüsil, investeerimine makrotrendidel
+  - Kauplemine on vähem riskantne kui investeerimine
+explanation: |
+  Kauplemine nõuab pidevat jälgimist ja tehnilisi oskusi, samas kui investeerimine põhineb pikaajalisel visioonil.
+reviewed: false

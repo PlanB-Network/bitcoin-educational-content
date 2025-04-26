@@ -1,9 +1,13 @@
-question: K čemu byla první forma měny často připisována?
-answer: Základním zbožím jako obilí, dobytek a další komodity
+question: Jaké byly první formy měny?
+answer: Zboží jako obilí a dobytek.
 wrong_answers:
-  - Zlatu a stříbru
-  - Papírovým bankovkám
-  - Digitálním aktivům
+  - Zlato a stříbro.
+  - Papírové bankovky.
+  - Digitální aktiva.
 explanation: |
-  První forma měny byla často spojována se základním zbožím jako obilí, dobytek a další komodity. Toto zboží však mělo významné nevýhody, jako je například snadná zkáza, což ztěžovalo jeho použití jako dlouhodobého prostředku pro uchování hodnoty.
-reviewed: false
+  První formy měny byly často spojeny se základními
+  druhy zboží, jako jsou obilí, dobytek a další komodity.
+  Nicméně, toto zboží mělo významné nevýhody, jako je
+  snadná zkáza, což ztěžovalo jeho použití jako
+  prostředku pro dlouhodobé spoření.
+reviewed: true

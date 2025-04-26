@@ -1,0 +1,12 @@
+question: Hvorfor er det mye vanskeligere å kjøpe et hus i dag enn på 1980-tallet?
+answer: Undertrykte renter gjør gjeld mer tiltrekkende og inflasjon
+wrong_answers:
+  - Inflasjon og leiepriser
+  - Økende levekostnader og befolkningsvekst
+  - Mangel på eiendommer og undertrykte renter som gjør gjeld mer tiltrekkende
+explanation: |
+  Mens inflasjonen reduserer kjøpekraften til vår valuta, noe som gjør det
+  vanskeligere å spare, gjør undertrykte renter gjeldskonsum mer tiltrekkende.
+  Når kapitalkostnaden er så billig, låner folk utover sine midler, noe som
+  kanaliserer mer kapital inn i eiendeler og driver opp prisene.
+reviewed: true

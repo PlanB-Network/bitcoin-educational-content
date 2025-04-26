@@ -1,0 +1,8 @@
+question: Trong trường hợp nào chúng ta có thể nói rằng hai sự kiện là độc lập?
+answer: Xác suất của sự kiện này không ảnh hưởng đến xác suất của sự kiện kia
+wrong_answers:
+  - Hai sự kiện luôn xảy ra đồng thời
+  - Chúng là loại trừ lẫn nhau
+  - Xác suất kết hợp của chúng bằng với xác suất cao nhất của hai sự kiện
+explanation: |
+  Hai sự kiện được coi là độc lập nếu xác suất của một sự kiện không làm thay đổi xác suất của sự kiện kia, như việc rút thăm xổ số không ảnh hưởng đến thời tiết của ngày hôm sau.

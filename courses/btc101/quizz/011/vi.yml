@@ -1,9 +1,0 @@
-question: Mạng Lưới Lightning cải thiện khả năng mở rộng cho giao dịch Bitcoin như thế nào?
-answer: Nó sử dụng một mạng lưới ngang hàng của kênh thanh toán để tạo ra các giao dịch ngoại tuyến.
-wrong_answers:
-  - Nó sử dụng một bên trung gian đáng tin cậy để xử lý giao dịch một cách hiệu quả.
-  - Nó sử dụng một blockchain khác để tổng hợp các giao dịch trong các khối lớn.
-  - Nó sử dụng các người dùng đáng tin cậy để tạo ra một dự trữ liên bang của bitcoin.
-explanation: |
-  Mạng Lưới Lightning với việc sử dụng kênh thanh toán có thể định tuyến các giao dịch ngoại tuyến với chi phí thấp hơn và nhanh chóng hơn.
-reviewed: false

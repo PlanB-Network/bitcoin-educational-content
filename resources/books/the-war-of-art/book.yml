@@ -1,81 +1,87 @@
-author: "Steven Pressfield"
+id: d814b242-8680-4449-b390-ef500b11a431
+author: Steven Pressfield
 level: intermediate
-tags:
-  - motivation
-  - art
-  - creativity
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2936
+    contributor_names:
+    reward: 0.35
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2718
+    contributor_names:
+    reward: 0.29
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1359
+    reward: 0.15
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2827
+    contributor_names:
+    reward: 0.29
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2936
+    contributor_names:
+    reward: 0.35
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2718
+    contributor_names:
+    reward: 0.29
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2827
+    contributor_names:
+    reward: 0.29
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3154
+    contributor_names:
+    reward: 0.48
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2718
+    contributor_names:
+    reward: 0.29
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2936
+    contributor_names:
+    reward: 0.35
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3154
+    contributor_names:
+    reward: 0.48
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3045
+    contributor_names:
+    reward: 0.42
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3045
+    contributor_names:
+    reward: 0.42
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2936
+    contributor_names:
+    reward: 0.35
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.35
+tags:
+  - self-sovereignty
+  - good-practice
+  - personal-security
+contributor_names:
+  - Rogzy-DB

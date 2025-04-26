@@ -1,0 +1,9 @@
+question: Qual é a natureza do problema de fatoração que está por trás da segurança de criptossistemas assimétricos como o RSA?
+answer: Fatorar um número em dois fatores primos muito grandes
+wrong_answers:
+  - Decompor um número em fatores sucessivos de 2
+  - Reduzir um número aos seus menores divisores
+  - Multiplicar dois números primos grandes para obter um produto
+explanation: |
+  A segurança do RSA baseia-se na dificuldade de fatorar um número grande (o produto de dois números primos grandes) em seus dois fatores primos, uma tarefa quase impossível sem a chave privada.
+reviewed: false

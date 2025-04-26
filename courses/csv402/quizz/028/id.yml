@@ -1,0 +1,9 @@
+question: Dalam kontrak RGB, apa fungsi Antarmuka?
+answer: Membuat data kontrak mudah dibaca dan dimanipulasi
+wrong_answers:
+  - Menjalankan skrip validasi pada blockchain
+  - Menyimpan data Genesis di sisi pelanggan
+  - Tentukan sistem tipe yang ketat untuk laporan
+explanation: |
+  Tujuan dari Antarmuka adalah untuk menyajikan informasi kontrak dengan cara yang jelas bagi pengguna dan perangkat lunak, tanpa mempengaruhi logika bisnis.
+reviewed: false

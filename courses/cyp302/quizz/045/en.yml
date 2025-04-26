@@ -1,0 +1,9 @@
+question: In a finite group, which term refers to the number of elements in the group?
+answer: The order of the group
+wrong_answers:
+  - The capacity of the group
+  - The length of the group
+  - The degree of the group
+explanation: |
+  The order of a group is the total number of elements it contains.
+reviewed: false

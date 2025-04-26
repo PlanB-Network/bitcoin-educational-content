@@ -1,9 +1,9 @@
-question: Vấn đề về khả năng mở rộng của Bitcoin là gì?
+question: Vấn đề mở rộng quy mô của Bitcoin là gì?
 answer: Thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
 wrong_answers:
-  - Khó khăn trong việc khai thác Bitcoin mới.
-  - Sự biến động của giá Bitcoin.
-  - Sự thiếu vắng quy định đối với Bitcoin.
+  - Khó khăn trong việc khai thác Bitcoin mới với giá trị tăng theo thời gian.
+  - Sự biến động của giá Bitcoin sẽ tăng sau mỗi lần halving.
+  - Sự thiếu quy định cho Bitcoin sẽ khiến các giao dịch trở nên bất hợp pháp.
 explanation: >-
-  Vấn đề về khả năng mở rộng đề cập đến thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
-reviewed: false
+  Vấn đề mở rộng quy mô đề cập đến thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Apa itu string pseudorandom?
+answer: Sebuah string yang tampak berasal dari variabel seragam tetapi dihasilkan oleh algoritma ekspansi
+wrong_answers:
+  - Sebuah string yang dihasilkan dengan probabilitas identik untuk setiap karakter
+  - Sebuah string berpanjang tetap dari sebuah peristiwa acak alami
+  - Sebuah string acak yang dipilih hanya dari nilai biner 0 dan 1
+explanation: |
+  Sebuah string pseudorandom dihasilkan oleh algoritma ekspansi dari sebuah benih yang lebih kecil, dengan cara yang meniru pemilihan seragam di antara semua string dengan panjang yang sama.

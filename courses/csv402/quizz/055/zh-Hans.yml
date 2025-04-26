@@ -1,0 +1,9 @@
+question: RGB 生态系统中的 rgb-lightning-node 是什么？
+answer: 管理 RGB 兼容 Lightning 通道的守护进程
+wrong_answers:
+  - 管理 RGB 资产的移动钱包
+  - 交换 RGB 日志的代理服务器
+  - 比特币上的 RGB 资产挖矿工具
+explanation: |
+  rgb-lightning-node 是一个 Rust 守护进程，旨在通过在参与事务中添加 RGB 状态转换，将 RGB 资产集成到 Lightning 通道中。
+reviewed: false

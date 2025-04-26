@@ -1,9 +1,9 @@
-question: ¿Cuál es el principio en el que se basa la minería de Bitcoin?
-answer: La minería de Bitcoin funciona según el principio de lotería, donde las posibilidades de ganar un bloque (y por lo tanto la recompensa en Bitcoin) cada diez minutos son extremadamente bajas para un pequeño minero individual.
+question: ¿En qué principio se basa la minería de Bitcoin?
+answer: La minería de Bitcoin se basa en un principio de lotería, donde las posibilidades de ganar un bloque (y por lo tanto la recompensa en Bitcoin) cada diez minutos son extremadamente bajas para un minero individual pequeño.
 wrong_answers:
-  - La minería de Bitcoin funciona según el principio de "el primero en llegar, el primero en ser servido", donde el primer minero en resolver un problema matemático complejo obtiene la recompensa en Bitcoin.
-  - La minería de Bitcoin funciona según el principio de subasta, donde el minero que ofrece la oferta más alta obtiene la recompensa en Bitcoin.
-  - La minería de Bitcoin funciona según el principio de rotación, donde cada minero tiene su turno para minar un bloque y recibir la recompensa en Bitcoin.
+  - La minería de Bitcoin funciona bajo un principio de primero en llegar, primero en ser servido, donde el primer minero en resolver un problema matemático complejo obtiene la recompensa en Bitcoin.
+  - La minería de Bitcoin funciona bajo un principio de subasta, donde el minero que ofrece la mayor cantidad obtiene la recompensa en Bitcoin.
+  - La minería de Bitcoin funciona bajo un principio de rotación, donde a cada minero se le da un turno para minar un bloque y recibir la recompensa en Bitcoin.
 explanation: |
-  El capítulo explica que la minería de Bitcoin funciona según el principio de lotería, donde las posibilidades de ganar un bloque (y por lo tanto la recompensa en Bitcoin) cada diez minutos son extremadamente bajas para un pequeño minero individual.
-reviewed: false
+  El capítulo explica que la minería de Bitcoin funciona bajo un principio de lotería, donde las posibilidades de ganar un bloque (y por lo tanto la recompensa en Bitcoin) cada diez minutos son extremadamente bajas para un minero individual pequeño.
+reviewed: true

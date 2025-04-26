@@ -1,0 +1,10 @@
+question: Hva er fordelen med engangspassord (HOTP og TOTP) over SMS for 2FA?
+answer: De krever kryptografisk beregning og lagres lokalt i stedet for i minnet.
+wrong_answers:
+  - De er raskere
+  - De er billigere
+  - De er lettere å huske
+explanation: |
+  Engangspassord (HOTP og TOTP) er tryggere enn SMS fordi de krever
+  kryptografisk beregning og lagres lokalt i stedet for i minnet.
+reviewed: false

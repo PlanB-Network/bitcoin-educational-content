@@ -1,0 +1,9 @@
+question: Hvilken profil favoriserer anskaffelse uten kjennskap til kunden og bruk av svært sikre lommebøker?
+answer: Den paranoide
+wrong_answers:
+  - Hodleren
+  - Stableren
+  - Den aktive brukeren
+explanation: |
+  Den paranoide prioriterer personvern og sikkerhet, og bruker svært sikre anskaffelses- og lagringsmetoder.
+reviewed: false

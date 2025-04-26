@@ -1,0 +1,9 @@
+question: How are cryptographic commitments (via Taproot or OP_RETURN) used in RGB?
+answer: They anchor state transitions in the blockchain
+wrong_answers:
+  - They store contract data on the blockchain
+  - They replace client-side validation with on-chain smart contract execution
+  - They create nodes for transaction verification
+explanation: |
+  Commitments enable status updates to be securely linked to a UTXO, in order to prove the existence of a certain piece of information at a given time, without revealing the information itself.
+reviewed: false

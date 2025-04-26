@@ -1,0 +1,9 @@
+question: 2004年，Ryan Fugger设计的分布式信用协议叫什么名字，Satoshi Nakamoto在他的著作中多次提到？
+answer: Ripple
+wrong_answers:
+  - Waves
+  - Tsunami
+  - Swell
+explanation: |
+  2009年，Satoshi [写道](https: //diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html)，“Ripple \[是\]独一无二的，因为它传播信任而不是集中信任”。
+reviewed: false

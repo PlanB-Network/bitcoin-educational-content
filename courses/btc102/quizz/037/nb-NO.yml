@@ -1,0 +1,9 @@
+question: Hva bør absolutt unngås for å sikre sikkerheten til bitcoinsene dine?
+answer: Oppbevar bitcoinsene dine på en Exchange-plattform
+wrong_answers:
+  - Ved hjelp av en Hardware Wallet med åpen kildekode
+  - Bruk av en Hot Wallet for daglige transaksjoner
+  - Diversifisering av lagringsmetoder
+explanation: |
+  Prinsippet "Ikke dine nøkler, ikke dine bitcoins" understreker viktigheten av å ha dine egne private nøkler. På en Exchange-plattform utsettes bitcoinsene dine for unødvendig risiko.
+reviewed: false

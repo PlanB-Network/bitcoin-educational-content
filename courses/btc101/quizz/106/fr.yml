@@ -1,9 +1,9 @@
 question: Pourquoi est-il conseillé d'éviter de laisser vos Bitcoins sur des plateformes d'échange ?
-answer: Elles peuvent être sujettes à des attaques de pirates informatiques.
+answer: Ils peuvent être susceptibles aux attaques de hackers.
 wrong_answers:
-  - Les plateformes d'échange facturent des frais aléatoires.
-  - Les Bitcoins perdent de la valeur sur les plateformes d'échange.
-  - Les plateformes d'échange ne sont pas des institutions réglementées.
+  - Les plateformes d'échange imposent des frais aléatoires.
+  - Le Bitcoin perd de sa valeur sur les plateformes d'échange.
+  - Les plateformes d'échange ne sont pas des institutions régulées.
 explanation: |
-  Il est conseillé d'éviter de laisser vos Bitcoins sur des plateformes d'échange car elles peuvent être sujettes à des attaques de pirates informatiques.
-reviewed: false
+  Il est conseillé d'éviter de laisser vos Bitcoins sur des plateformes d'échange car ils peuvent être susceptibles aux attaques de hackers.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Come viene definita una stringa casuale in questo capitolo?
+answer: Come una stringa scelta uniformemente tra tutte le stringhe della stessa lunghezza
+wrong_answers:
+  - Come una stringa creata solo con bit 0 e 1
+  - Come una stringa ottenuta da una selezione manuale
+  - Come una stringa di lunghezza variabile risultante da un processo di crittografia
+explanation: |
+  Una stringa casuale è definita come proveniente da una selezione uniforme tra tutte le possibili stringhe della stessa lunghezza.
+reviewed: false

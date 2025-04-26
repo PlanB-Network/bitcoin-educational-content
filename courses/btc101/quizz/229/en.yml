@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   Transactions on the Lightning Network are secured through cryptography
   and indirectly through the energy consumed by miners on Bitcoin.
-reviewed: false
+reviewed: true

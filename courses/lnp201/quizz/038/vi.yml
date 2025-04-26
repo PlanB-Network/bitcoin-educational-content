@@ -1,10 +1,9 @@
-question: Ai tạo giao dịch với Timelock?
-answer: Người gửi tiền.
+question: Vai trò của timelock trong hoạt động của HTLCs là gì?
+answer: Nó cung cấp một khung thời gian để hoàn thành thanh toán trước khi hủy bỏ
 wrong_answers:
-  - Người nhận tiền.
-  - Cả hai bên tạo giao dịch với Timelock.
-  - Không có bên nào tạo giao dịch với Timelock.
+  - Nó tăng khả năng của kênh được sử dụng
+  - Nó thêm một lớp bảo mật cho giao dịch
+  - Nó áp dụng phí bổ sung cho mỗi nút trung gian
 explanation: |
-  Người gửi tiền là người tạo giao dịch với Timelock.
-  Điều này ngăn họ lấy lại tiền ngay lập tức.
+  Timelock áp đặt một khung thời gian để hoàn thành một HTLC, cho phép việc thu hồi vốn nếu giao dịch không thành công, bằng cách hủy bỏ thanh toán sau khoảng thời gian này.
 reviewed: false

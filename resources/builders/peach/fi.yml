@@ -1,6 +1,0 @@
-description: |
-  Peach on mobiilisovellus, joka toimii vertaisverkkona Bitcoinien ostamiseen ja myymiseen.
-
-  Sovellus mahdollistaa käyttäjien suorittaa transaktioita missä ja milloin tahansa, käyttäen heidän suosimaa maksutapaa. Sovellus valtuuttaa käyttäjät asettamaan omat hintansa transaktioille, heijastaen aitoa vertaisverkkomarkkinan luonnetta. Tärkeänä seikkana, Peach mahdollistaa KYC-vapaat (Know Your Customer) transaktiot, säilyttäen Bitcoinin perustavanlaatuiset yksityisyyden näkökohdat. Yrityksen eetos kumpuaa uskosta Bitcoiniin kaikkein kovimpana rahamuotona, joka on koskaan ollut olemassa, tehtävänään tehdä se kaikkien saavutettavaksi ilman kompromisseja.
-contributors:
-  - rabbit-hole

@@ -1,9 +1,0 @@
-question: Quali tipi di coppie di chiavi figlie possono essere derivate dalla chiave privata estesa?
-answer: La chiave privata estesa consente la derivazione di tutte le chiavi figlie, sia pubbliche che private, in modalità normale o indurita.
-wrong_answers:
-  - La chiave privata estesa consente solo la derivazione di chiavi figlie normali.
-  - La chiave privata estesa consente solo la derivazione di chiavi figlie indurite.
-  - La chiave privata estesa non consente la derivazione di alcuna chiave figlia.
-explanation: |
-  La chiave privata estesa consente la derivazione di tutte le chiavi figlie, sia pubbliche che private, sia in modalità normale che indurita. Questo è in contrasto con la chiave pubblica estesa, che consente solo la derivazione di chiavi pubbliche figlie normali.
-reviewed: false

@@ -1,9 +1,11 @@
 question: Mikä on suurin haaste Bitcoin-louhinnassa?
-answer: Louhintateollisuus on erittäin kilpailtu ja epävakaa, ja ennakoimattomat tapahtumat voivat häiritä louhintatoimintaa.
+answer: Louhintateollisuus on erittäin kilpailtu ja epävakaa, ja odottamattomat tapahtumat voivat häiritä louhintatoimintoja.
 wrong_answers:
   - Suurin haaste on luotettavan sähkön lähteen löytäminen.
-  - Suurin haaste on löytää turvallinen paikka louhittujen bitcoinien säilyttämiseen.
+  - Suurin haaste on turvallisen säilytyspaikan löytäminen louhituille bitcoineille.
   - Suurin haaste on löytää ostaja louhituille bitcoineille.
 explanation: |
-  Suurin haaste Bitcoin-louhinnassa on, että louhintateollisuus on erittäin kilpailtu ja epävakaa, ja ennakoimattomat tapahtumat voivat häiritä louhintatoimintaa.
-reviewed: false
+  Suurin haaste Bitcoin-louhinnassa on, että
+  louhintateollisuus on erittäin kilpailtu ja epävakaa,
+  ja odottamattomat tapahtumat voivat häiritä louhintatoimintoja.
+reviewed: true

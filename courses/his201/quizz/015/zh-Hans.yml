@@ -1,0 +1,8 @@
+question: Adam Back设计的Hashcash工作量证明算法最初的目标是什么？
+answer: 对抗垃圾邮件
+wrong_answers:
+  - 保证账户单位的价值
+  - 在点对点网络上达成共识
+  - 沸腾海洋
+explanation:
+  Hashcash要求每收到一封电子邮件就需要一个工作量证明，这应该可以限制垃圾邮件。

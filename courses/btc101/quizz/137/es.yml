@@ -1,9 +1,12 @@
 question: ¿Cómo transfieren los usuarios la propiedad de su dinero en la red de Bitcoin?
-answer: Mediante la firma digital de transacciones con sus claves privadas.
+answer: Firmando digitalmente las transacciones con sus claves privadas.
 wrong_answers:
   - Entregando físicamente sus Bitcoins.
   - Enviando un correo electrónico al destinatario.
   - Proporcionando su dirección de Bitcoin al destinatario.
 explanation: |
-  Los usuarios en la red de Bitcoin transfieren la propiedad de su dinero mediante la firma digital de transacciones con sus claves privadas. Esto verifica que son los propietarios de los Bitcoins que desean transferir.
-reviewed: false
+  Los usuarios en la red de Bitcoin transfieren la propiedad de su
+  dinero firmando digitalmente las transacciones con sus
+  claves privadas. Esto verifica que son los propietarios de los
+  bitcoins que desean transferir.
+reviewed: true

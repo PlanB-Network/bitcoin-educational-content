@@ -1,0 +1,11 @@
+question: Apa model pencocokan pengguna spesifik yang digunakan oleh JoinMarket?
+
+answer: Pasar P2P antara pembuat dan pengambil.
+
+wrong_answers:
+  - Server yang secara acak menugaskan peserta.
+  - Pertukaran berdasarkan lelang Belanda.
+  - Layanan mediasi yang secara manual memilih peserta.
+
+explanation: |
+  JoinMarket beroperasi pada pasar pertukaran P2P di mana beberapa pengguna, pembuat, menawarkan bitcoin mereka untuk dicampur, sementara yang lain, pengambil, menggunakan dana ini untuk melakukan coinjoins sebagai imbalan atas sebuah biaya.

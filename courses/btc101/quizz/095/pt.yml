@@ -1,11 +1,9 @@
-question: Qual é o risco de usar uma carteira custodial?
-answer: A terceira parte confiável pode restringir seu acesso aos seus fundos a qualquer momento.
+question: O que significa o termo hodl?
+answer: Hodl é um termo gíria na comunidade de criptomoedas que significa manter seus investimentos ao invés de vendê-los, especialmente durante a volatilidade do mercado.
 wrong_answers:
-  - A terceira parte confiável pode aumentar o valor dos seus bitcoins a qualquer momento.
-  - A terceira parte confiável pode diminuir o valor dos seus bitcoins a qualquer momento.
-  - A terceira parte confiável pode transferir seus bitcoins a qualquer momento.
+  - Hodl refere-se a um tipo de criptomoeda que é usado apenas para negociação.
+  - Hodl é um termo que significa vender todas as suas criptomoedas por um preço alto.
+  - Hodl é uma estratégia para day trading que envolve comprar e vender frequentemente.
 explanation: |
-  Quando você usa uma carteira custodial, você não é o único detentor dos seus bitcoins.
-  Isso significa que a terceira parte confiável pode restringir seu acesso aos seus fundos a
-  qualquer momento, dando a você o mesmo nível de soberania financeira que o sistema bancário tradicional.
-reviewed: false
+  O termo hodl originou-se de uma postagem online com erro de digitação em 2013 em um fórum de Bitcoin. Com o tempo, hodl evoluiu para representar uma estratégia de investimento mais ampla. Ele encoraja os investidores a manterem suas criptomoedas a longo prazo, independentemente das flutuações do mercado.
+reviewed: true

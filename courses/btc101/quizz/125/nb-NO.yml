@@ -1,0 +1,10 @@
+question: Hva er datoen for den siste kjente private utvekslingen av Satoshi Nakamoto via e-post?
+answer: 23. april 2011
+wrong_answers:
+  - 12. desember 2010
+  - 8. januar 2009
+  - 31. oktober 2008
+explanation: >-
+  Datoen for den siste kjente private utvekslingen av Satoshi Nakamoto via e-post
+  er 23. april 2011 til utvikleren Mike Hearn.
+reviewed: true

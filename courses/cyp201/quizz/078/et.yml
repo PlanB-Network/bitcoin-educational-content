@@ -1,0 +1,9 @@
+question: Mida tähendab eesliide `wpkh` kirjeldajas?
+answer: Maksa tunnistaja avaliku võtme räsi eest
+wrong_answers:
+  - Maksa avaliku võtme eest
+  - Maksa skripti räsi eest
+  - Tunnistaja skripti räsi
+explanation: |
+  Eesliide `wpkh` viitab SegWit v0 skriptile, kasutades Maksa-tunnistaja-avaliku-võtme-räsi aadresse.
+reviewed: false

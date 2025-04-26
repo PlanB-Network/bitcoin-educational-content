@@ -1,0 +1,9 @@
+question: Welches sind die zwei Wege, um das Urteilsvermögen der Bürger laut Bastiat zu erleuchten?
+answer: Philosophische Moral und ökonomische Moral
+wrong_answers:
+  - Das Gesetz und Bildung
+  - Religion und Wissenschaft
+  - Persönliche Erfahrung und Bücher
+explanation: |
+  Bastiat unterscheidet zwischen philosophischer Moral, die das Herz berührt, und ökonomischer Moral, die den Verstand erleuchtet, indem sie die Konsequenzen von Handlungen aufzeigt.
+reviewed: false

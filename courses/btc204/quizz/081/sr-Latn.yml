@@ -1,0 +1,9 @@
+question: Koja kriptografska metoda se koristi da spreči koordinatora da poveže ulaze i izlaze u CoinJoin?
+answer: Chaum slepi potpisi.
+wrong_answers:
+  - Schnorr potpisi.
+  - P2SH adrese.
+  - P2TR adrese.
+explanation: |
+  U takozvanim Chaumian coinjoin-ovima, korišćenje Tor-a i slepih potpisa Davida Chauma su kombinovani kako bi se osiguralo da koordinator ne može znati koji izlaz pripada kojem korisniku.
+reviewed: false

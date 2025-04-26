@@ -1,0 +1,9 @@
+question: Mikä on rajapinnan tehtävä RGB-sopimuksessa?
+answer: Sopimustiedot on helppo lukea ja käsitellä
+wrong_answers:
+  - Validointiskriptien suorittaminen lohkoketjussa
+  - Genesis-tietojen tallentaminen asiakkaan puolelle
+  - Tiukan tyyppijärjestelmän määrittäminen raportteja varten
+explanation: |
+  Käyttöliittymän tavoitteena on esittää sopimustiedot käyttäjille ja ohjelmistoille selkeällä tavalla vaikuttamatta liiketoimintalogiikkaan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é a principal função da cadeia de blocos no paradigma de validação do lado do cliente utilizado pela RGB?
+answer: Registar a hora e evitar a duplicação de despesas
+wrong_answers:
+  - Armazenar todas as transições de estado
+  - Replicação de dados de contratos inteligentes
+  - Garantir a disponibilidade global dos dados
+explanation: |
+  A cadeia de blocos Bitcoin é utilizada no RGB para registar os compromissos e evitar a duplicação de despesas, sem armazenar todas as transições de estado.
+reviewed: false

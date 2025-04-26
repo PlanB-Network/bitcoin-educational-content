@@ -1,9 +1,9 @@
-question: Qual è l'algoritmo che Bitcoin utilizza per collegare le chiavi private e pubbliche?
-answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
+question: Qual è la principale limitazione dei portafogli JBOK?
+answer: Richiedono un backup indipendente per ogni chiave privata
 wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
+  - Non consentono la generazione di nuovi indirizzi
+  - Sono incompatibili con le firme digitali
+  - Utilizzano chiavi pubbliche non compresse
 explanation: |
-  Bitcoin utilizza l'Elliptic Curve Digital Signature Algorithm (ECDSA) per collegare le chiavi private e pubbliche.
+  I portafogli JBOK costringono l'utente a eseguire il backup di ogni chiave privata individualmente, complicando la loro gestione.
 reviewed: false

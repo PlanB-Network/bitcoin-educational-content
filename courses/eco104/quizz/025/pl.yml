@@ -1,0 +1,13 @@
+question: Dlaczego argument, że Bitcoin jest bezwartościowy, ponieważ nie jest niczym poparty, jest wadliwy?
+answer: Wartość jest subiektywna i opiera się na ludzkich przekonaniach i doświadczeniach.
+wrong_answers:
+  - Bitcoin jest zabezpieczony złotem, co nadaje mu nieodłączną wartość.
+  - Wartość Bitcoin zależy od jego rzadkości i zabezpieczeń.
+  - Wartość Bitcoin opiera się na jego akceptacji przez rządy i banki.
+explanation: |
+  Wartość jest subiektywna i leży w oku patrzącego. Bitcoin jest wartościowy
+  ponieważ ludzie w to wierzą, tak jak sztuka może być wartościowa pomimo tego, że
+  mimo że jest wykonana z płótna i farby. Argument, że waluta musi być poparta
+  czymś wartościowym jest niedokładny, ponieważ wartość walut fiducjarnych, takich jak dolar amerykański, opiera się na zaufaniu i wierze
+  dolar amerykański również opiera się na zaufaniu i wierze.
+reviewed: true

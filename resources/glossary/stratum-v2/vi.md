@@ -1,0 +1,5 @@
+---
+term: STRATUM V2
+
+---
+Evolution of Stratum, the renowned overlay network protocol for Bitcoin designed for mining. This type of protocol is designed to optimize communication between individual miners and mining pool servers to increase their profitability. Developed by the Braiins pool (formerly "Slush Pool"), Stratum V2 introduces several improvements, including more efficient communication between miners and mining pools, thereby reducing the necessary bandwidth. It also reduces the infrastructure needs for pools. In terms of security, it adds cryptographic authentication to prevent various man-in-the-middle attacks, including eavesdropping and malicious redirection of the hashrate. An important aspect of Stratum V2 is that it includes sub-protocols allowing individual miners to choose their own sets of transactions to include in the blocks they work on. This feature gives more power to individual miners, unlike the original protocol where pools had total control over the block template. This method could thus strengthen the decentralization of the mining process by pools.

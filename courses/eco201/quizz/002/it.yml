@@ -1,9 +1,9 @@
 question: Chi è l'insegnante del corso?
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
-  - "Théo Boloré"
+  - Théo Boloré
   - Descoupes Bitcoin
   - Nessuna delle precedenti
 explanation: |
-  "Il capitolo menziona che l'insegnante del corso è Théo Mogenet, un professore appassionato e competente di economia austriaca."
+  Il capitolo menziona che l'insegnante del corso è Théo Mogenet, un professore appassionato e competente di economia austriaca.
 reviewed: false

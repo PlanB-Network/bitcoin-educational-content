@@ -1,0 +1,9 @@
+question: Hva er det primære målet med et autentisert krypteringsskjema?
+answer: Sikre konfidensialiteten og autentisiteten til kommunikasjon
+wrong_answers:
+  - Generere nøkler på en sikker måte
+  - Erstatte MAC-er i kryptografiske utvekslinger
+  - Automatisk dekryptere avlyttede meldinger
+explanation: |
+  Et autentisert krypteringsskjema kombinerer kryptering og en autentiseringskode (MAC) for å garantere både meldingers konfidensialitet og deres autentisitet.
+reviewed: false

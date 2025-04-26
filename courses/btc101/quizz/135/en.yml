@@ -1,11 +1,11 @@
-question: What is the significance of the difficulty adjustment in the Bitcoin network?
-answer: It ensures that a block is added approximately every ten minutes.
+question: What is the function of the difficulty adjustment in the Bitcoin network?
+answer: It ensures that a block is added to the blockchain approximately every ten minutes.
 wrong_answers:
   - It determines the price of Bitcoin.
-  - It regulates the number of Bitcoins that can be mined.
+  - It regulates the number of bitcoins that can be mined in the blockchain.
   - It determines the size of a block.
 explanation: >-
   The difficulty adjustment in the Bitcoin network ensures that a block
   is added approximately every ten minutes. This is part of the protocol rules of
   the Bitcoin network.
-reviewed: false
+reviewed: true

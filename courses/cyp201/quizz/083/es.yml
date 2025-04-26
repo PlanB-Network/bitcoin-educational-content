@@ -1,9 +1,9 @@
-question: ¿Se recomienda memorizar una frase de contraseña o frase mnemotécnica para una billetera de Bitcoin?
-answer: "No"
+question: ¿Qué tipo de dirección comienza con `1` y pertenece al estándar Legacy?
+answer: P2PKH
 wrong_answers:
-  - Sí
-  - Depende de la longitud de la frase de contraseña o frase mnemotécnica
-  - Depende de la complejidad de la frase de contraseña o frase mnemotécnica
+  - P2WPKH
+  - P2SH
+  - P2TR
 explanation: |
-  No se recomienda memorizar una frase de contraseña o frase mnemotécnica. Es crucial cuidar las copias de seguridad de la frase de contraseña para evitar perder el acceso a la billetera.
+  Las direcciones P2PKH, codificadas en base58check, provienen del estándar Legacy y comienzan con el dígito `1`.
 reviewed: false

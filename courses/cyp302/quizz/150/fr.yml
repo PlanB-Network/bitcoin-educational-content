@@ -1,0 +1,9 @@
+question: Dans le contexte du cryptosystème RSA, à quoi correspond le produit de deux nombres premiers p et q ?
+answer: Il constitue l'entier N utilisé comme module pour les opérations
+wrong_answers:
+  - Il constitue la clé publique
+  - Il sert de clé de déchiffrement
+  - Il est utilisé uniquement pour générer l'exposant e
+explanation: |
+  Dans RSA, l'entier N est le produit de deux grands nombres premiers p et q, et il est utilisé comme module pour les opérations de chiffrement et déchiffrement.
+reviewed: false

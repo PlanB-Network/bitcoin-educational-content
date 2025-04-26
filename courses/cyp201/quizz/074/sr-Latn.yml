@@ -1,0 +1,9 @@
+question: Šta označava indeks /84'/ na dubini 1 putanje derivacije?
+answer: Standard P2WPKH (SegWit v0)
+wrong_answers:
+  - Standard P2TR (SegWit v1)
+  - Bitcoin Testnet valuta
+  - A Bitcoin Mainnet valuta
+explanation: |
+  Indeks /84'/ je definisan u BIP84 da označi upotrebu SegWit v0 standarda sa P2WPKH adresama na dubini 1 (onoj cilja derivacije).
+reviewed: false

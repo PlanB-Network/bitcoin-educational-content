@@ -1,0 +1,5 @@
+---
+term: ESTAMPILLOS
+
+---
+Un protocolo que permite la integración de datos de imagen formateados directamente en la blockchain de Bitcoin a través de transacciones multifirma en bruto (P2MS). Stamps codifica el contenido binario de una imagen en base 64 y lo añade a las claves de una 1/3 P2MS. Una de las claves es real y se utiliza para gastar los fondos, mientras que las otras dos son claves falsas (se desconoce la clave privada asociada) que almacenan los datos. Al codificar los datos directamente como claves públicas en lugar de utilizar salidas `OP_RETURN`, las imágenes almacenadas con el protocolo Stamps suponen una carga de trabajo especialmente intensa para los nodos. En particular, este método crea múltiples UTXO, lo que aumenta el tamaño del conjunto de UTXO y plantea problemas para los nodos llenos.

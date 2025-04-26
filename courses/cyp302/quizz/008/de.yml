@@ -1,0 +1,9 @@
+question: Wie wird der Zweig der Kryptographie genannt, der ein Paar aus öffentlichem und privatem Schlüssel verwendet?
+answer: Asymmetrische Kryptographie
+wrong_answers:
+  - Symmetrische Kryptographie
+  - Mono-algorithmische Kryptographie
+  - Integrative Kryptographie
+explanation: |
+  Die asymmetrische Kryptographie basiert auf der Verwendung eines Schlüsselpaares, öffentlich und privat, was die Verschlüsselung ohne gemeinsamen geheimen Schlüssel ermöglicht.
+reviewed: false

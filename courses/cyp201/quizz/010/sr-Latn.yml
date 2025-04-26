@@ -1,0 +1,9 @@
+question: Koji algoritam derivacije se koristi za izračunavanje autentifikacionog koda na osnovu tajnog ključa?
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512 je algoritam koji kombinuje Hash funkciju i tajni ključ za izračunavanje autentifikacionog koda.
+reviewed: false

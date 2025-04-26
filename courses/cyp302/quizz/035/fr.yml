@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal de la théorie des nombres ?
+answer: Étudier les propriétés des entiers et des fonctions qui opèrent avec eux
+wrong_answers:
+  - Analyser les transformations géométriques
+  - Étudier la structure des figures géométriques aléatoires dans un groupe fini
+  - Développer des algorithmes de chiffrement symétriques
+explanation: |
+  La théorie des nombres se concentre sur les propriétés des entiers et les fonctions appliquées aux entiers, souvent pour des applications en cryptographie, en particulier dans le contexte de la cryptographie à clé publique.
+reviewed: false

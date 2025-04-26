@@ -1,0 +1,9 @@
+question: Qual è l'elemento chiave che assicura che Bob riceva una risorsa durante una transizione di stato in RGB?
+answer: Una nuova definizione di sigillo che punta all'UTXO di Bob
+wrong_answers:
+  - Una transazione di controllo senza riferimento a un UTXO
+  - Una dichiarazione pubblica di Alice
+  - Una doppia firma condivisa da Alice e Bob
+explanation: |
+  La Seal Definition collega crittograficamente il bene all'UTXO di Bob, assicurandone la proprietà.
+reviewed: false

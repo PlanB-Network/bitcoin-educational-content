@@ -1,0 +1,9 @@
+question: Koja je ranjivost ECDSA potpisa ispravljena od strane SegWit?
+answer: Malleability
+wrong_answers:
+  - Provera serije
+  - Nedostatak agregacije
+  - Prekomerna veličina potpisa
+explanation: |
+  SegWit je ispravio promenljivost ECDSA potpisa, omogućavajući upotrebe kao što je Lightning Network.
+reviewed: false

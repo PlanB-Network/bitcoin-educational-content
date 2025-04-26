@@ -1,0 +1,9 @@
+question: Kako Lightning Network pomaže u oblikovanju budućnosti online trgovine i digitalnih usluga?
+answer: Omogućavanjem trenja bez trenja, trenutnih i besplatnih mikrotransakcija, otvaraju se novi poslovni modeli i tokovi prihoda.
+wrong_answers:
+  - Sprečavanjem pojave bilo kakvih novih poslovnih modela na internetu.
+  - Tako što se od trgovaca zahteva da koriste iste spore, skupe platne mreže kao i ranije.
+  - Čineći digitalnu robu nemogućom za prodaju zbog visokih naknada.
+explanation: |
+  Sposobnost Lightning-a da trenutno i uz niske troškove šalje male iznose vrednosti podstiče inovacije u oblastima kao što su plaćanje po korišćenju sadržaja, striming plaćanja i transakcije između mašina, što potencijalno može transformisati način na koji se onlajn usluge monetizuju.
+reviewed: false

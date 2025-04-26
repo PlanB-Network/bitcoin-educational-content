@@ -1,0 +1,9 @@
+question: Was ist der Haupttyp der algebraischen Struktur, die in endlichen Körpern für Kryptographie verwendet wird?
+answer: Irreduzible Polynome
+wrong_answers:
+  - Quadratmatrizen
+  - Zufallsvektoren
+  - Kubikwurzeln
+explanation: |
+  In der Kryptographie verwenden endliche Körper der Ordnung 2^m oft irreduzible Polynome, um sicherzustellen, dass der Körper wohldefiniert ist und dass alle Operationen möglich sind.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hva står forkortelsen UTXO for på engelsk?
+answer: Ubrukt Transaksjonsutgang
+wrong_answers:
+  - Forent Transaksjonsutgang
+  - Brukertransaksjon Kun
+  - Verktøytoken Byttealternativ
+explanation: |
+  En UTXO er en utgang av en transaksjon som ennå ikke har blitt brukt.

@@ -1,9 +1,9 @@
-question: ¿Cuál es la importancia de la dirección multi-sig 2/2 en el proceso de apertura de un canal en la Lightning Network?
-answer: Es la dirección a la cual Alice envía dinero para abrir el canal.
+question: ¿Cuándo se publica una transacción de compromiso en la blockchain de Bitcoin?
+answer: Eventualmente cuando el canal se cierra
 wrong_answers:
-  - Es la dirección desde la cual Alice envía dinero para abrir el canal.
-  - Es la dirección a la cual Bob envía dinero para abrir el canal.
-  - Es la dirección desde la cual Bob envía dinero para abrir el canal.
+  - Inmediatamente después de cada transferencia en el canal
+  - Antes de cada nueva transacción de compromiso
+  - Cuando los fondos disponibles se agotan
 explanation: |
-  En el proceso de apertura de un canal, Alice crea una dirección multi-sig 2/2 utilizando las direcciones públicas de ella y Bob. Luego realiza una transacción de bitcoin para enviar dinero a esta dirección y abrir el canal.
+  Las transacciones de compromiso se construyen y firman para cada cambio en la asignación, pero solo se publican eventualmente en la blockchain en el evento de cierre del canal.
 reviewed: false

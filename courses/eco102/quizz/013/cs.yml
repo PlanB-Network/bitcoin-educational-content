@@ -1,0 +1,9 @@
+question: Jaká je podle Frédérica Bastiata základní hodnota?
+answer: Užitečnost
+wrong_answers:
+  - Práce
+  - Nedostatek
+  - Poptávka
+explanation: |
+  Bastiat přijímá Sayův názor, že užitečnost je základem hodnoty, na rozdíl od teorií založených na práci nebo nedostatku.
+reviewed: false

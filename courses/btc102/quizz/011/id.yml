@@ -1,0 +1,9 @@
+question: Mengapa penting untuk melindungi frasa Mnemonic Anda?
+answer: Karena kehilangannya mengakibatkan hilangnya bitcoin secara permanen
+wrong_answers:
+  - Karena Blockchain terlalu lama untuk meregenerasinya
+  - Karena kehilangannya dapat menyebabkan kebocoran data pribadi
+  - Karena platform Exchange membutuhkan banyak dokumen untuk meregenerasinya
+explanation: |
+  Frasa Mnemonic memungkinkan akses untuk dipulihkan. Jika hilang dan Wallet tidak lagi dapat diakses di perangkatnya, maka bitcoin akan hilang secara permanen.
+reviewed: false

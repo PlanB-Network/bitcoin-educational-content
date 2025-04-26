@@ -1,0 +1,9 @@
+question: Millist alternatiivset lahendust mainitakse ettevõtetele, kes eelistavad kõik-ühes veebipõhist jaemüügikeskkonda?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Avatud sõlme
+  - Šveitsi Bitcoin Pay
+explanation: |
+  Be-BOP on võimalus neile, kes soovivad integreeritud veebipoodi, mis hõlbustab Bitcoini makseid.
+reviewed: false

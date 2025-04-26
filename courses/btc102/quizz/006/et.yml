@@ -1,0 +1,9 @@
+question: Mis on paroolihalduri kasutamise peamine eelis?
+answer: See salvestab ja genereerib keerulisi paroole
+wrong_answers:
+  - See annab vihjeid paroolide meelespidamiseks
+  - Ta kasutab samu paroole erinevates veebikontodes uuesti
+  - See asendab vajaduse viirusetõrjetarkvara järele
+explanation: |
+  Paroolihaldur loob tugevad paroolid ja salvestab need turvaliselt, võimaldades hõlpsasti kätte saada, ilma et neid oleks vaja meelde jätta.
+reviewed: false

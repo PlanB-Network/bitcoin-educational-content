@@ -1,9 +1,9 @@
 question: Mục đích của các nỗ lực phishing là gì?
-answer: Để lấy cắp thông tin nhạy cảm như thông tin đăng nhập và mật khẩu của bạn.
+answer: Để trích xuất thông tin nhạy cảm như thông tin đăng nhập và mật khẩu của bạn.
 wrong_answers:
-  - Gửi cho bạn các email rác.
-  - Bán sản phẩm hoặc dịch vụ cho bạn.
-  - Mời bạn tham gia các sự kiện hoặc hội thảo trực tuyến.
+  - Để gửi cho bạn các email rác.
+  - Để bán cho bạn sản phẩm hoặc dịch vụ.
+  - Để mời bạn tham gia các sự kiện hoặc hội thảo trực tuyến.
 explanation: |
-  Các nỗ lực phishing nhằm mục đích lấy cắp thông tin nhạy cảm như thông tin đăng nhập và mật khẩu của bạn. Hacker sử dụng các chiến thuật khác nhau như email giả mạo để lừa bạn tiết lộ thông tin của mình.
-reviewed: false
+  Các nỗ lực phishing nhằm mục đích trích xuất thông tin nhạy cảm như thông tin đăng nhập và mật khẩu của bạn. Hacker sử dụng các chiến thuật khác nhau như email giả mạo để lừa bạn tiết lộ thông tin của mình.
+reviewed: true

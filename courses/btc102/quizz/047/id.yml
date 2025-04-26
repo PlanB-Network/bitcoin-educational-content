@@ -1,0 +1,9 @@
+question: Perangkat apa yang direkomendasikan untuk mengamankan akumulasi dana jangka panjang?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Petir Wallet
+  - Platform Exchange
+explanation: |
+  Hardware Wallet menyimpan kunci pribadi secara offline, memberikan keamanan yang lebih baik untuk jumlah yang signifikan dalam jangka panjang.
+reviewed: false

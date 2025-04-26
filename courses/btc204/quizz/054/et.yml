@@ -1,0 +1,13 @@
+question: Mis on krüptograafilise algoritmi nimi, mida kasutatakse Silent Payments'is ühise saladuse loomiseks vastuvõtja ja maksja vahel?
+
+answer: ECDH
+
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+
+explanation: |
+  ECDH (Elliptiliste kõverate Diffie-Hellman) algoritmi kasutatakse Silent Payments'is vastuvõtja skaneerimispaari võtmete ja saatja võtmepaari summa vahel ühise saladuse loomiseks, mis võimaldab unikaalse makseaadressi tuletamist.
+
+reviewed: false

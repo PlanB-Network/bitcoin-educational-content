@@ -1,9 +1,9 @@
 question: Jaký je jeden z hlavních přínosů Bitcoinu pro lidi bez bankovního účtu?
 answer: Bitcoin umožňuje rovnost v transakcích bez ohledu na váš sociální status nebo politickou pozici.
 wrong_answers:
-  - Bitcoin umožňuje nerovnost v transakcích.
-  - Bitcoin přináší výhody pouze lidem s bankovním účtem.
+  - Bitcoin umožňuje nerovnost v transakcích tím, že odměňuje nejbohatší uživatele.
+  - Bitcoin přináší výhody pouze lidem s bankovním účtem a levicovou politickou pozicí.
   - Bitcoin přináší výhody pouze lidem s vysokým sociálním statusem.
-explanation: >-
-  Text uvádí, že na světě je 2,4 miliardy lidí bez bankovního účtu a Bitcoin umožňuje rovnost v transakcích bez ohledu na váš sociální status nebo politickou pozici.
-reviewed: false
+explanation: |
+  Text uvádí, že na světě je 2,4 miliardy lidí bez bankovního účtu a Bitcoin umožňuje rovnost v transakcích bez ohledu na jejich sociální status nebo politickou pozici.
+reviewed: true

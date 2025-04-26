@@ -1,0 +1,9 @@
+question: Podle Keynese, jaký je hlavní problém zlatého standardu?
+answer: Omezuje schopnost vlády financovat její výdaje
+wrong_answers:
+  - Podporuje inflaci
+  - Brání mezinárodnímu obchodu
+  - Všechny ostatní odpovědi jsou správné.
+explanation: |
+  Keynes věřil, že zlatý standard omezuje schopnost vlády upravovat množství peněz v oběhu, což jim brání snadno financovat jejich výdaje, zejména během ekonomických krizí.
+reviewed: false

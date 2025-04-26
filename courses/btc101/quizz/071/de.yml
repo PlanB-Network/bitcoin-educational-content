@@ -5,6 +5,7 @@ wrong_answers:
   - 2028
   - 2048
 explanation: |
-  Das 7. Halving sollte im Jahr 2036 stattfinden, und die geschätzte Anzahl der im Umlauf befindlichen Bitcoins wird 20.835.937,5 BTC betragen, oder 99,22% des Gesamtangebots.
-  Bitcoins im Umlauf.
-reviewed: false
+  Das 7. Halving sollte im Jahr 2036 stattfinden, und die geschätzte
+  Anzahl von Bitcoin im Umlauf wird 20.835.937,5 betragen,
+  was ungefähr 99,22% der Gesamtversorgung entsprechen wird.
+reviewed: true

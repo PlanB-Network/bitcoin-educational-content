@@ -1,0 +1,9 @@
+question: Qual è la funzione principale della moneta?
+answer: Agire come intermediario che semplifica lo scambio di valore
+wrong_answers:
+  - Immagazzinare il valore intrinseco in forma fisica
+  - Sostituire completamente il baratto con lo scambio diretto di merci per merci
+  - Centralizzare tutte le transazioni economiche attraverso un'unica autorità
+explanation: |
+  La moneta semplifica il commercio in quanto funge da mezzo comune che riduce la complessa rete di tassi di cambio necessari in un sistema di baratto, facilitando così le transazioni.
+reviewed: false

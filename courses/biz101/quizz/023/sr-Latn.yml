@@ -1,0 +1,9 @@
+question: Koji od sledećih NIJE jedan od tri primarna metoda pomenuta za sticanje Bitcoin?
+answer: Primanje Bitcoin kao vladinog granta za razvoj poslovanja.
+wrong_answers:
+  - Dobijanje Bitcoin u Exchange za robu ili usluge.
+  - Mining Bitcoin kroz specijalizovani hardver i upotrebu energije.
+  - Kupovina Bitcoin sa platforme ili preko brokera.
+explanation: |
+  Poglavlje pominje tri glavna načina za sticanje Bitcoin; prihvatiti ga kao plaćanje, iskopavati ga ili kupiti. Primanje Bitcoin kao državne subvencije nije priznat standardni metod sticanja.
+reviewed: false

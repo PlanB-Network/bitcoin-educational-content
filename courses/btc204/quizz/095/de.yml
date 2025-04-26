@@ -1,0 +1,13 @@
+question: Was zeigt das voraussichtliche Anonset an?
+
+answer: Die Größe der Gruppe von nicht unterscheidbaren UTXOs am Ausgang von Zyklen.
+
+wrong_answers:
+  - Die Größe der Gruppe von nicht unterscheidbaren UTXOs am Eingang von Zyklen.
+  - Die Größe der Gruppe von nicht unterscheidbaren UTXOs in einem Pool.
+  - Die Anzahl der Transaktionen, die erforderlich sind, um Anonymität zu erreichen.
+
+explanation: |
+  Das voraussichtliche Anonset gibt die Größe der Gruppe an, unter der das untersuchte UTXO am Ausgang eines Zyklus verborgen ist, wenn man das UTXO am Eingang kennt, das heißt, die Anzahl der nicht unterscheidbaren Münzen, die innerhalb dieser Gruppe vorhanden sind.
+
+reviewed: false

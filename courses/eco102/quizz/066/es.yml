@@ -1,0 +1,9 @@
+question: ¿Cuáles son las dos maneras de iluminar el juicio de los ciudadanos según Bastiat?
+answer: Moralidad filosófica y moralidad económica
+wrong_answers:
+  - La ley y la educación
+  - Religión y ciencia
+  - Experiencia personal y libros
+explanation: |
+  Bastiat distingue entre la moralidad filosófica, que toca el corazón, y la moralidad económica, que ilumina el intelecto mostrando las consecuencias de las acciones.
+reviewed: false

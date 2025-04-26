@@ -1,0 +1,9 @@
+question: In the CAP trilemma, what is the trade-off between customer-side validation and availability?
+answer: Each participant must keep the relevant data locally
+wrong_answers:
+  - Data is public and automatically replicated globally
+  - Consistency sacrificed for availability
+  - State transitions are always published on Lightning
+explanation: |
+  In client-side validation, global availability is not guaranteed, as participants have to manage their own data.
+reviewed: false

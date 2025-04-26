@@ -1,4 +1,4 @@
-question: What is one of the main implications of Bitcoin for the banking system?
+question: What is one of the main consequences of Bitcoin on the banking system?
 answer: It allows for the emancipation from the banking system.
 wrong_answers:
   - It allows for the control of the banking system.
@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   The text mentions that Bitcoin allows for the emancipation from the banking
   system.
-reviewed: false
+reviewed: true

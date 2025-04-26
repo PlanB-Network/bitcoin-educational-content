@@ -1,10 +1,8 @@
-question: ¿Cuál es el principal riesgo asociado con generar una frase mnemotécnica propia utilizando dados para transacciones de Bitcoin?
-answer: Puede presentar ciertos riesgos.
+question: ¿Qué permite derivar una clave pública extendida?
+answer: Solo claves públicas de hijos normales
 wrong_answers:
-  - Puede llevar a la generación de números predecibles.
-  - Puede llevar a la generación de números duplicados.
-  - Puede llevar a la generación de números inválidos.
+  - Solo claves privadas de hijos normales
+  - Tanto claves públicas de hijos endurecidos como normales
+  - Tanto claves privadas de hijos endurecidos como normales
 explanation: |
-  Generar una frase mnemotécnica propia utilizando dados puede presentar ciertos riesgos.
-  Por lo tanto, se recomienda utilizar una frase de paso generada al azar para mitigar estos riesgos.
-reviewed: false
+  Una clave pública extendida solo permite la derivación de claves públicas de hijos normales, no de claves privadas ni de claves endurecidas.

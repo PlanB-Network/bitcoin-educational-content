@@ -1,11 +1,9 @@
 question: Milloin Bitcoinia käytettiin ensimmäistä kertaa fyysisten tavaroiden ostamiseen?
-answer: Kun Laszlo Hanyecz osti 2 pizzaa 10 000 BTC:llä
+answer: Kun Laszlo Hanyecz osti 2 pizzaa 10 000 BTC; llä.
 wrong_answers:
-  - Kun Hal Finney osti auton 100 000 BTC:llä
-  - Kun Satoshi Nakamoto osti talon 1 000 000 000 BTC:llä
-  - Mikään vaihtoehdoista
+  - Kun Hal Finney osti auton 100 000 BTC: llä.
+  - Kun Satoshi Nakamoto osti talon 1 000 000 000 BTC: llä.
+  - Mikään muista vaihtoehdoista.
 explanation: |
-  Ensimmäinen kerta, kun Bitcoinia käytettiin fyysisten tavaroiden ostamiseen, oli kun
-  Laszlo Hanyecz osti 2 pizzaa 10 000 BTC:llä, 22.5.2010, joka tunnetaan nyt
-  Pizzapäivänä
-reviewed: false
+  Ensimmäinen kerta, kun Bitcoinia käytettiin fyysisten tavaroiden ostamiseen, oli kun Laszlo Hanyecz osti 2 pizzaa 10 000 BTC: llä, 22.5.2010, joka tunnetaan nyt Pizza Päivänä.
+reviewed: true

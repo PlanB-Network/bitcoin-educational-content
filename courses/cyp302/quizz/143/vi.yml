@@ -1,0 +1,9 @@
+question: Thời gian ước lượng để phân tích một số nguyên 2048-bit bằng tất cả các nguồn lực tính toán hiện có là bao lâu?
+answer: Vượt xa tuổi của vũ trụ
+wrong_answers:
+  - Vài tháng với máy tính cổ điển
+  - Vài phút với siêu máy tính
+  - Vài thập kỷ cho một trang trại đào Bitcoin
+explanation: |
+  Độ phức tạp của việc phân tích các số 2048-bit là đến mức mà nó sẽ gần như không thể giải quyết được, ngay cả khi sử dụng tất cả các nguồn lực tính toán hiện có trong một khoảng thời gian vượt quá tuổi của vũ trụ.
+reviewed: false

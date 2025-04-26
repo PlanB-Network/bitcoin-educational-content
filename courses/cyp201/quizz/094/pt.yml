@@ -1,9 +1,0 @@
-question: Qual é o objetivo do código de cadeia em uma chave estendida?
-answer: Ele permite derivações específicas de chaves filhas.
-wrong_answers:
-  - É usado para gerar a chave mestra.
-  - É usado para criptografar a chave estendida.
-  - É usado para verificar a autenticidade da chave estendida.
-explanation: |
-  O código de cadeia, juntamente com a chave pai, é essencial para derivar chaves filhas. Ao concatenar a chave pai com o código de cadeia, uma chave privada ou pública estendida é obtida.
-reviewed: false

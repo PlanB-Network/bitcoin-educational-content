@@ -1,0 +1,9 @@
+question: ¿Cuál es el punto de vista de Bastiat sobre la demanda de los fabricantes de velas?
+answer: La rechaza porque va en contra del interés general
+wrong_answers:
+  - La apoya porque es importante proteger los empleos
+  - Es neutral en este asunto
+  - Cree que los fabricantes de velas tienen razón
+explanation: |
+  Bastiat critica la demanda de los fabricantes de velas, destacando que el proteccionismo sirve a intereses especiales a expensas del interés general.
+reviewed: false

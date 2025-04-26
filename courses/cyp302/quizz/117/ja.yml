@@ -1,0 +1,9 @@
+question: AES暗号化のどの段階でガロア体が使用されますか？
+answer: バイト置換とMixColumns操作で使用されます
+wrong_answers:
+  - 私有鍵の生成時
+  - テキストを128ビットブロックに分割する時
+  - XOR操作の各段階で
+explanation: |
+  ガロア体は、バイト置換で乗法逆数を計算するため、及びMixColumns操作で既約多項式によるモジュロ乗算を実行するために使用されます。
+reviewed: false

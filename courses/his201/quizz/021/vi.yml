@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto bắt đầu làm việc trên Bitcoin vào năm nào?
+answer: 2007
+wrong_answers:
+  - 2008
+  - 2009
+  - 2010
+explanation: |
+  Ông đã đề cập đến điều này nhiều lần trong các bài viết của mình. (https: //bitcointalk.org/index.php?topic=13.msg46#msg46)
+reviewed: false

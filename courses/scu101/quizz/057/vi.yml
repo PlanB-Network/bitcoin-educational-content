@@ -1,11 +1,9 @@
-question: Một trong những lợi ích của việc tham gia các hội nghị và hội thảo về an ninh mạng là gì?
-
+question: Một trong những lợi ích của việc tham gia hội nghị và hội thảo về an ninh mạng là gì?
 answer: Nó cho phép bạn xây dựng mối quan hệ với các chuyên gia trong ngành
-
 wrong_answers:
   - Đó là yêu cầu bắt buộc cho tất cả các công việc về an ninh mạng
   - Nó đảm bảo một công việc trong lĩnh vực an ninh mạng
   - Đó là cách duy nhất để tìm hiểu về an ninh mạng
-
-explanation:
-  Chương này đề cập rằng việc tham gia các hội nghị và hội thảo về an ninh mạng không chỉ giúp bạn học hỏi mà còn giúp bạn xây dựng mối quan hệ với các chuyên gia trong ngành.
+explanation: |
+  Chương này đề cập rằng việc tham gia hội nghị và hội thảo về an ninh mạng không chỉ giúp bạn học hỏi mà còn giúp bạn xây dựng mối quan hệ với các chuyên gia trong ngành.
+reviewed: true

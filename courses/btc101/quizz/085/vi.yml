@@ -1,11 +1,13 @@
 question: Ví nóng là gì?
-answer: Một ví Bitcoin trên điện thoại hoặc máy tính của bạn được kết nối với internet
+answer: Một ví Bitcoin trên điện thoại hoặc máy tính của bạn được kết nối với internet.
 wrong_answers:
-  - Một ví cảm thấy nóng khi chạm vào
-  - Một ví được nhiều người dùng Bitcoin ưa chuộng
-  - Một ví được khuyến nghị để lưu trữ một lượng lớn bitcoin
+  - Một ví cảm thấy nóng khi chạm vào.
+  - Một ví được nhiều người dùng Bitcoin ưa chuộng.
+  - Một ví được khuyên dùng để lưu trữ một lượng lớn bitcoin.
 explanation: |
-  Ví nóng là thuật ngữ được sử dụng để mô tả một ví Bitcoin được lưu trữ
-  trên một thiết bị có kết nối internet, như điện thoại hoặc máy tính. Điều này làm cho việc thực hiện giao dịch trở nên dễ dàng,
-  nhưng cũng có nghĩa là ví tiềm ẩn nguy cơ bị đe dọa trực tuyến.
+  Ví nóng là thuật ngữ được sử dụng để mô tả một ví Bitcoin
+  được lưu trữ trên một thiết bị có kết nối internet, như là
+  điện thoại hoặc máy tính. Như vậy, việc thực hiện
+  giao dịch trở nên dễ dàng, nhưng điều này cũng có nghĩa là ví
+  có khả năng dễ bị tổn thương trước các mối đe dọa trực tuyến.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Bastiat ana upinzani gani wa kuingilia serikali zaidi ya usalama na haki?
+answer: Inakuza upendeleo na kudhuru mashirika ya kiraia
+wrong_answers:
+  - Inaruhusu usambazaji bora wa rasilimali za kiuchumi
+  - Inaanzisha amani ya kijamii na kuzuia migogoro
+  - Inahakikisha mgawanyo sawa wa mali
+explanation: |
+  Bastiat anaamini kwamba uingiliaji kati wa serikali kupita kiasi huleta upendeleo na kudhuru jumuiya za kiraia kwa kuzuia mipango ya kibinafsi.
+reviewed: false

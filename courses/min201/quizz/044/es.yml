@@ -1,9 +1,13 @@
-question: ¿Qué son los "bitcoins vírgenes"?
-answer: Son bitcoins recién minados que nunca han sido gastados y no tienen ningún historial asociado a ellos.
+question: ¿Qué son los virgin bitcoins?
+answer: Bitcoins recién minados que nunca han sido gastados y no tienen historial asociado.
 wrong_answers:
   - Bitcoins que han sido utilizados en actividades ilegales.
-  - Bitcoins que se han perdido u olvidado.
-  - Bitcoins que se han almacenado en una billetera durante mucho tiempo.
+  - Bitcoins que han sido perdidos o olvidados.
+  - Bitcoins que han sido almacenados en una cartera durante mucho tiempo.
 explanation: |
-  Los bitcoins vírgenes son bitcoins recién minados que nunca han sido gastados y no tienen ningún historial asociado a ellos. Estos bitcoins a menudo se consideran más valiosos porque nunca han sido contaminados, lo que proporciona cierta garantía contra el rechazo por parte de reguladores o plataformas de intercambio importantes.
-reviewed: false
+  Los virgin bitcoins son bitcoins recién minados que nunca
+  han sido gastados y no tienen historial asociado. Estos
+  bitcoins a menudo se consideran más valiosos porque nunca
+  han sido contaminados, proporcionando cierta garantía contra
+  el rechazo por parte de reguladores o plataformas de intercambio importantes.
+reviewed: true

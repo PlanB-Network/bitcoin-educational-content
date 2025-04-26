@@ -1,0 +1,11 @@
+---
+term: (BIP39)
+
+---
+Valinnainen salasana, joka yhdistettynä palautuslausekkeeseen tarjoaa lisäturvan deterministisille ja hierarkkisille Bitcoin-lompakoille. HD-lompakot luodaan yleensä 12 tai 24 sanasta koostuvasta palautuslauseesta. Tämä palautuslause on erittäin tärkeä, sillä sen avulla voidaan palauttaa kaikki lompakon avaimet, jos lompakko katoaa. Se muodostaa kuitenkin yhden vikapisteen (SPOF). Jos se vaarantuu, bitcoinit ovat vaarassa. Tässä kohtaa tunnuslause tulee kuvaan mukaan. Se on käyttäjän valitsema valinnainen salasana, joka lisätään palautuslauseeseen lompakon turvallisuuden parantamiseksi. Tunnuslausetta ei pidä sekoittaa PIN-koodiin tai tavalliseen salasanaan, vaan sillä on merkitystä kryptografisten avainten johtamisessa.
+
+Se toimii yhdessä palautuslauseen kanssa ja muuttaa siementä, josta avaimet luodaan. Vaikka joku saisi palautuslausekkeen, hän ei pääse käsiksi varoihisi ilman tunnuslauseketta. Tunnuslauseen käyttö luo käytännössä uuden lompakon, jossa on erilliset avaimet. Tunnuslauseen (pienikin) muuttaminen luo toisen lompakon.
+
+Tunnuslause on mielivaltainen ja voi olla mikä tahansa käyttäjän valitsema merkkiyhdistelmä. Tunnuslauseen käytöstä on useita etuja. Ensinnäkin se vähentää riskejä, jotka liittyvät palautuslausekkeen vaarantumiseen, koska se edellyttää toista tekijää varojen käyttöön. Lisäksi sitä voidaan käyttää strategisesti luomaan pieniä määriä bitcoineja sisältäviä harhautuslompakoita, jos varoja varastetaan fyysisen pakkokeinon avulla. Lopuksi sen käyttö on mielenkiintoista, kun halutaan hallita HD-lompakon siemenen luomisen satunnaisuutta. Tunnuslauseen on oltava riittävän monimutkainen, jotta se kestää raa'an voiman hyökkäyksiä, ja sen on oltava luotettavasti tallennettavissa. Tunnuslauseen menettäminen voi johtaa siihen, että varoja ei voi käyttää, aivan kuten palautuslauseen menettäminenkin.
+
+> ► *Salasanaa kutsutaan joskus myös nimellä: "kahden tekijän siemenlause", "salasana", "siemenlaajennus", "laajennussana" tai jopa "13. tai 25. sana" On syytä huomata, että Bitcoinissa on kahdenlaisia salasanoja. Tunnetuin on edellä kuvattu, joka riippuu BIP-39:stä ja mahdollistaa koko HD-lompakon suojaamisen. BIP-38:ssa oli kuitenkin määritelty myös tapa turvata ainutlaatuinen yksityinen avain salasanalla. Tätä jälkimmäistä salasanaa ei nykyään käytetä juuri lainkaan.*

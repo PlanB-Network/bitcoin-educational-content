@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari Lightning Network yang dibangun di atas Bitcoin?
+answer: Untuk memungkinkan pembayaran yang lebih cepat dan nyaris instan dengan interaksi on-chain yang minimal.
+wrong_answers:
+  - Untuk menggantikan blockchain Bitcoin sepenuhnya dan menyimpan semua transaksi secara lokal.
+  - Untuk menyediakan jaringan berizin yang dikendalikan oleh satu entitas.
+  - Untuk memperlambat transaksi guna memastikan transaksi tersebut tetap dapat dilacak sepenuhnya oleh pemerintah.
+explanation: |
+  Lightning Network adalah protokol "lapisan kedua" yang memungkinkan para partisipan untuk membuat saluran pembayaran, bertransaksi di luar rantai, dan hanya menyelesaikan saldo bersih akhir pada blockchain Bitcoin. Desain ini menghasilkan kecepatan yang lebih cepat dan biaya yang lebih rendah.
+reviewed: false

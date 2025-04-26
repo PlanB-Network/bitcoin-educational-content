@@ -1,0 +1,9 @@
+question: Podle Laffera, co se stane s daňovými příjmy, když jsou daňové sazby příliš zvýšeny?
+answer: Sníží se
+wrong_answers:
+  - Zvýší se
+  - Zůstanou stabilní
+  - Budou se nepředvídatelně měnit
+explanation: |
+  Podle Lafferovy křivky přílišné zvýšení daňových sazeb vede ke snížení daňových příjmů, protože to odrazuje od práce, investic a výroby.
+reviewed: false

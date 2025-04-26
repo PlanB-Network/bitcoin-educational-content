@@ -1,0 +1,10 @@
+question: Hva er en av grunnene til at Bitcoin er attraktivt for visse grupper?
+answer: Dets evne til å tilby løsninger som tillitsløs elektronisk kontanter, motstandsdyktighet mot sensur, eller en transparent og uforanderlig pengepolitikk.
+wrong_answers:
+  - Det er lett å forfalske.
+  - Det er kontrollert av en sentral myndighet.
+  - Det er ikke pseudonymt.
+explanation: >-
+  Bitcoins desentraliserte natur, pseudonymitet og motstandsdyktighet mot sensur
+  gjør det attraktivt for grupper som teknofiler, cypherpunks, libertarianske, og
+  gullentusiaster.

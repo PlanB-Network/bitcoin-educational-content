@@ -1,0 +1,11 @@
+question: Hva er den viktigste egenskapen til Bitcoin som skiller den fra fiatvalutaer?
+answer: Dens pengepolitikk håndheves av en generell konsensus.
+wrong_answers:
+  - Den kan trykkes i ubegrensede mengder av sentralbanker.
+  - Den er støttet av en fysisk vare som gull eller sølv.
+  - Den er regulert av en sentralbank.
+explanation: |
+  Bitcoin, gjennom sin desentraliserte og kryptografiske natur, kan ikke blant annet
+  forfalskes og er begrenset til 21 millioner enheter. Dette er en nøkkelegenskap som skiller
+  den fra fiatvalutaer, hvis pengepolitikk kan endres av sentralbanker.
+reviewed: true

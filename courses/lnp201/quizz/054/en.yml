@@ -1,11 +1,9 @@
-question: What is the liquidity of a channel in the Lightning Network?
-answer: The amount of satoshis that can be transferred through the channel.
+question: What type of liquidity must a seller on the Lightning Network primarily manage to accept payments?
+answer: Incoming liquidity
 wrong_answers:
-  - The number of transactions that can be made through the channel.
-  - The speed at which transactions can be made through the channel.
-  - The cost of making a transaction through the channel.
+  - Outgoing liquidity
+  - A high total channel capacity
+  - A high on-chain balance
 explanation: |
-  In the Lightning Network, the liquidity of a channel refers to the amount
-  of satoshis that can be transferred through the channel. The liquidity of these
-  channels cannot be transferred to other liquidity channels.
+  To receive payments, a seller needs to have incoming liquidity, meaning that funds must be available on the opposite side of the channel for them to accept payments.
 reviewed: false

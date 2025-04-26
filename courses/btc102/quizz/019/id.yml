@@ -1,0 +1,9 @@
+question: Siapa yang menerbitkan Buku Putih Bitcoin?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim May
+  - Eric Hughes
+explanation: |
+  Buku Putih ini diterbitkan pada akhir tahun 2008 oleh Satoshi Nakamoto (nama samaran).
+reviewed: false

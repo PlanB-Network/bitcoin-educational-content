@@ -1,0 +1,10 @@
+question: Hva er den offisielle grensen for at et land skal anses som å være i hyperinflasjon?
+answer: 50% per måned
+wrong_answers:
+  - 10% per måned
+  - 25% per måned
+  - 75% per måned
+explanation: |
+  I 2007 nådde Zimbabwes inflasjonsrate grensen på 50% per måned,
+  noe som offisielt markerte landet som værende i hyperinflasjon.
+reviewed: false

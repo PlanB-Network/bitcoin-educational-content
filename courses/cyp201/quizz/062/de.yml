@@ -1,10 +1,9 @@
-question: Was ist das Hauptrisiko, das mit der Generierung einer eigenen mnemonischen Phrase unter Verwendung von Würfeln für Bitcoin-Transaktionen verbunden ist?
-answer: Es kann bestimmte Risiken mit sich bringen.
+question: Wozu ermöglicht ein erweiterter öffentlicher Schlüssel die Ableitung?
+answer: Nur normale Kind-öffentliche Schlüssel
 wrong_answers:
-  - Es kann zur Generierung vorhersehbarer Zahlen führen.
-  - Es kann zur Generierung von doppelten Zahlen führen.
-  - Es kann zur Generierung ungültiger Zahlen führen.
+  - Nur normale Kind-private Schlüssel
+  - Sowohl gehärtete als auch normale Kind-öffentliche Schlüssel
+  - Sowohl gehärtete als auch normale Kind-private Schlüssel
 explanation: |
-  Die Generierung einer eigenen mnemonischen Phrase unter Verwendung von Würfeln kann bestimmte Risiken mit sich bringen.
-  Es wird daher empfohlen, zur Minderung dieser Risiken eine zufällig generierte Passphrase zu verwenden.
+  Ein erweiterter öffentlicher Schlüssel ermöglicht nur die Ableitung von normalen Kind-öffentlichen Schlüsseln, nicht von privaten Schlüsseln oder gehärteten Schlüsseln.
 reviewed: false

@@ -1,0 +1,13 @@
+question: Mitä eteenpäin suuntautuva anonymiteetti mittaa?
+
+answer: Yksityisyyden vastustuskykyä menneisyydestä nykyhetkeen suuntautuvaa analyysiä vastaan.
+
+wrong_answers:
+  - Yksityisyyden vastustuskykyä nykyhetkestä menneisyyteen suuntautuvaa analyysiä vastaan.
+  - Yksityisyyden vastustuskykyä tulevaisuudesta nykyhetkeen suuntautuvaa analyysiä vastaan.
+  - Yksityisyyden vastustuskykyä tulevaisuudesta menneisyyteen suuntautuvaa analyysiä vastaan.
+
+explanation: |
+  Eteenpäin suuntautuva anonymiteetti mittaa kolikon yksityisyyden vastustuskykyä menneisyydestä nykyhetkeen suuntautuvaa analyysiä vastaan (syötteestä tulosteeseen).
+
+reviewed: false

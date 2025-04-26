@@ -64,6 +64,9 @@ Su Sparrow, clicca sulla scheda "*Indirizzi*".
 Quindi, annota su un pezzo di carta il primissimo indirizzo di ricezione del tuo portafoglio. Nel mio esempio, l'indirizzo è:
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 Dopo aver annotato le informazioni, vai al menu "*File*", quindi seleziona "*Elimina Portafoglio*". Ti ricordo ancora una volta che il tuo portafoglio Bitcoin deve essere vuoto prima di procedere con questa operazione.
 
 ![TEST DI RECUPERO](assets/notext/04.webp)

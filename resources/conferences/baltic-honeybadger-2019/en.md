@@ -1,21 +1,21 @@
 ---
-name: Honey Badger 2019
+name: Baltic Honeybadger 2019
 description: The most OG Bitcoin conference in the world
 ---
 
-# Main Stage 
+# Main Stage
 
 ## Day 1
 
-[live replay](https://www.youtube.com/live/2IpZWSWUIVE?si=ikwNSia6sVO08ZFg)
+[live replay](https://youtu.be/2IpZWSWUIVE)
 
 Full recording of day 1 of the 2019 Baltic Honeybadger Bitcoin conference.
 
 Starts at 1:09:50
 
-## Day 2 
+## Day 2
 
-[live replay](https://www.youtube.com/live/ns_I2LpeAbQ?si=TgWcMDAHSpYH3Sc0)
+[live replay](https://youtu.be/ns_I2LpeAbQ)
 
 Full recording of day 2 of the 2019 Baltic Honeybadger Bitcoin conference
 

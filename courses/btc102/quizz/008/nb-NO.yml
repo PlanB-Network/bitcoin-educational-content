@@ -1,0 +1,9 @@
+question: Hvorfor er det viktig å oppdatere systemet og programvaren regelmessig?
+answer: Å fikse kjente sikkerhetshull
+wrong_answers:
+  - For å øke PC-hastigheten og dermed reagere raskere på dataangrep
+  - Slik legger du til hackingfunksjoner
+  - For å optimalisere videospillkompatibiliteten med Bitcoin
+explanation: |
+  Oppdateringer retter ofte kjente sårbarheter som utnyttes av hackere.
+reviewed: false

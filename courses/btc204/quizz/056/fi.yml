@@ -3,7 +3,7 @@ question: Miten osoitteita käytetään UTXOjen lukitsemiseen?
 answer: Ne sisällytetään ScriptPubKeyhin
 
 wrong_answers:
-  - Ne sisällytetään ScriptSig:iin
+  - Ne sisällytetään ScriptSig: iin
   - Ne sisällytetään coinbaseen.
   - Niitä ei sisällytetä mihinkään.
 

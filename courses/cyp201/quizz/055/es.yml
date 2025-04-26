@@ -1,9 +1,9 @@
-question: ¿Cuál es el nombre vulgar a veces utilizado para referirse a la colección de claves privadas en una billetera de Bitcoin?
-answer: Just a Bunch Of Keys (JBOC)
+question: ¿En cuántas partes se divide la salida de la función HMAC-SHA512 aplicada a la semilla?
+answer: Dos partes de 256 bits
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - Una sola parte de 512 bits
+  - Tres partes de 170 bits
+  - Cuatro partes de 128 bits
 explanation: |
-  La colección de claves criptográficas privadas derivadas de una única clave maestra en una billetera de Bitcoin a veces se denomina con el nombre ligeramente vulgar de "Just a Bunch Of Keys" (JBOC).
+  La salida de HMAC-SHA512 se divide en dos partes: la clave privada maestra (256 bits) y el código de cadena maestro (256 bits).
 reviewed: false

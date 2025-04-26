@@ -1,0 +1,9 @@
+question: What difficult computational problem is associated with asymmetric systems like RSA?
+answer: Prime number factorization
+wrong_answers:
+  - Exponential multiplication of integers
+  - The creation of long random numbers
+  - Secure key exchange
+explanation: |
+  RSA is based on the difficulty of prime number factorization, a computationally difficult task that makes the cryptosystem secure against attacks.
+reviewed: false

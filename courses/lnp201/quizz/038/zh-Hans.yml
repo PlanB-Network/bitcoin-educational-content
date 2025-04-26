@@ -1,0 +1,8 @@
+question: HTLCs操作中的timelock扮演什么角色？
+answer: 它提供了一个在取消支付前完成支付的时间框架
+wrong_answers:
+  - 它增加了所使用通道的容量
+  - 它为交易增加了一个隐私层
+  - 它对每个中介节点施加额外费用
+explanation: |
+  Timelock为完成HTLC设置了一个时间框架，如果交易未成功，允许通过在此期间后取消支付来恢复资金。

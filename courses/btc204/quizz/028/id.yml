@@ -1,0 +1,9 @@
+question: Apa itu identifikasi kunci?
+answer: Kemampuan untuk mengaitkan aspek identitas pengguna dengan aktivitas onchain.
+wrong_answers:
+  - Proses pemberian kunci publik untuk setiap transaksi onchain baru.
+  - Kemampuan untuk melacak transaksi onchain melalui heuristik kepemilikan bersama dari input.
+  - Proses di mana kunci publik diturunkan dari kunci privat.
+explanation: |
+  Identifikasi kunci melibatkan kemungkinan menghubungkan aspek identitas pengguna dengan aktivitas onchain.
+reviewed: false

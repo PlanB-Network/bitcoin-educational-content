@@ -1,0 +1,8 @@
+question: Mis on poliitilise vabaduse ja majandusvabaduse vaheline seos Constanti järgi?
+answer: Need kaks vabadust on omavahel sõltuvad.
+wrong_answers:
+  - Poliitiline vabadus on majandusvabaduse jaoks hädavajalik eeldus.
+  - Majandusvabadus on poliitilise vabaduse jaoks hädavajalik eeldus.
+  - Need kaks vabadust on omavahel kokkusobimatud.
+explanation: |
+  Benjamin Constanti jaoks on poliitiline vabadus ja majandusvabadus tihedalt seotud, kuna individuaalne autonoomia sõltub nii võimalusest osaleda avalikes asjades kui ka vabadusest tegeleda majandustegevusega takistusteta.

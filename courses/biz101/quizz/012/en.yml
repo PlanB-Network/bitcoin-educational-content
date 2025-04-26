@@ -1,0 +1,9 @@
+question: Why can the Lightning Network be compared to “email for payments”?
+answer: Because it enables seamless, global, and permissionless value exchange as easily as sending a message.
+wrong_answers:
+  - Because it sends payments through traditional email providers.
+  - Because it only works when attached to regular email messages.
+  - Because it stores user balances in the body of an email.
+explanation: |
+  Just as email revolutionized communication by removing intermediaries and enabling anyone to send messages worldwide, the Lightning Network simplifies and speeds up transactions, making value transfer as frictionless and accessible as email.
+reviewed: false

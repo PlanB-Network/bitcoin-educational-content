@@ -1,0 +1,10 @@
+question: Mis on kuldreegel end petukirjade eest kaitsmiseks?
+answer: Kontrollige hoolikalt saatja täisnime ning e-kirja päritolu.
+wrong_answers:
+  - Vasta alati kahtlastele e-kirjadele.
+  - Ava kõik e-kirja manused, et kontrollida nende sisu.
+  - Jaga oma isiklikku infot ainult tuntud saatjatega.
+explanation: |
+  Kuldreegel end petukirjade eest kaitsmiseks on saatja täisnime ning e-kirja päritolu hoolikas kontrollimine. Kui kahtled, kustuta see!
+
+reviewed: false

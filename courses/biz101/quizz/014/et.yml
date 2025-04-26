@@ -1,0 +1,9 @@
+question: Miks on kapitali säilitamine ebakindla tuleviku tingimustes tervele ettevõttele hädavajalik?
+answer: Kapitalireservide säilitamine võimaldab ettevõttel kohaneda, investeerida kasvu ja tulla toime majanduslangusega.
+wrong_answers:
+  - Kapitali säilitamine tagab, et ükski konkurent ei saa kunagi turule siseneda.
+  - Kapitali säilitamine tagab püsiva puutumatuse kõigi regulatiivsete muudatuste suhtes.
+  - Kapitali säilitamine on oluline ainult siis, kui ettevõte ei kavatse kunagi kasvada.
+explanation: |
+  Tulevased tingimused on ettearvamatud. Kui ettevõte hoiab teatud kapitali reservis, saab ta kasutada uusi võimalusi, tulla toime ootamatute väljakutsetega ja investeerida pikaajalistesse algatustesse, ilma et ta sõltuks ainult välisrahastamisest.
+reviewed: false

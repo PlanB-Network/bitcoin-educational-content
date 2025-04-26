@@ -1,9 +1,10 @@
 question: Mikä mekanismi varmistaa, että uusi lohko lisätään lohkoketjuun joka kymmenes minuutti?
-answer: Vaikeustason säätö
+answer: Vaikeustason säätö.
 wrong_answers:
-  - Nopeuden säätö
-  - Ajan säätö
-  - Lohkon säätö
+  - Nopeuden säätö.
+  - Ajan säätö.
+  - Lohkon säätö.
 explanation: |
-  Mekanismi, joka varmistaa uuden lohkon lisäämisen lohkoketjuun joka kymmenes minuutti, on vaikeustason säätö. Tämä säätö tapahtuu joka 2016 lohkon jälkeen, eli noin kahden viikon välein.
-reviewed: false
+  Mekanismi, joka varmistaa uuden lohkon lisäämisen lohkoketjuun joka kymmenes minuutti, on vaikeustason säätö.
+  Tämä säätö tapahtuu joka 2016 lohkon jälkeen, eli noin kahden viikon välein.
+reviewed: true

@@ -1,0 +1,9 @@
+question: XOR操作の交換法則とは何ですか？
+answer: オペランドの順序は操作の結果に影響しません
+wrong_answers:
+  - XORは偶数でのみ機能します
+  - XORは同じ長さのオペランドを必要とします
+  - オペランド内のビットの位置は操作の結果に影響しません
+explanation: |
+  XORは交換可能であり、a XOR bはb XOR aと等しいことを意味します。
+reviewed: false

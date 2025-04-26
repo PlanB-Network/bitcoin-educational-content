@@ -1,0 +1,9 @@
+question: RGB 生态系统中的 RGBlib 是什么？
+answer: 用于创建管理 RGB 资产应用程序的程序库
+wrong_answers:
+  - 专用于 RGB 资产管理的安卓钱包
+  - RGB 协议的替代客户端
+  - 显示 RGB NFT 的网站
+explanation: |
+  RGBlib 为开发人员提供了一个简化的界面，使他们能够管理 RGB 资产的发射、传输和验证，而无需掌握所有技术细节。
+reviewed: false

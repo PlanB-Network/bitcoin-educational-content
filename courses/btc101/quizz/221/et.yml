@@ -1,0 +1,11 @@
+question: Mis on Lightning Network?
+answer: Maksevõrk, mis kasutab Bitcoin'i protokolli, et võimaldada välkkiireid tehinguid.
+wrong_answers:
+  - Uut tüüpi krüptoraha.
+  - Bitcoin'ist eraldiseisev plokiahela tehnoloogia.
+  - Meetod Bitcoin'i kaevandamiseks.
+explanation: >-
+  Lightning Network on maksevõrk, mis kasutab Bitcoin'i protokolli
+  kiirete tehingute võimaldamiseks. See ei ole eraldi krüptoraha ega meetod
+  Bitcoin'i kaevandamiseks.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hva er mønsteret for en forenklet betaling i Bitcoin?
+answer: 1 eller flere UTXOer i innganger og 2 UTXOer i utganger.
+wrong_answers:
+  - 1 UTXO i inngang og 1 UTXO i utgang
+  - Flere UTXOer i inngang og 1 UTXO i utgang
+  - 5 UTXOer i innganger og 5 UTXOer i utganger
+explanation: |
+  I en forenklet betaling bruker brukeren en eller flere UTXOer som innganger for å oppfylle i utganger en betalings-UTXO og en veksel-UTXO (altså 2 UTXOer).

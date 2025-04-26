@@ -1,0 +1,8 @@
+question: Theo Marx, hạn chế chính của quyền con người là gì?
+answer: Chúng chỉ bảo vệ một tự do hình thức và trừu tượng.
+wrong_answers:
+  - Đó là quyền tự nhiên.
+  - Đó là quyền tùy chọn.
+  - Chúng ngăn cản cuộc cách mạng.
+explanation:
+  Marx chỉ trích quyền con người bằng cách gọi chúng là hình thức vì chúng đảm bảo một tự do cá nhân trừu tượng, mà thực tế không biến đổi các điều kiện vật chất của sự bóc lột trong xã hội tư bản.

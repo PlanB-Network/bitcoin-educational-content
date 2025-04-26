@@ -1,9 +1,14 @@
-question: Como o Lightning Network poderia potencialmente mudar os modelos de pagamento?
-answer: Os usuários poderiam ser cobrados por minuto, ou até mesmo por segundo, pelo tempo que passam usando um serviço.
+question: Qual das seguintes não é uma característica chave das microtransações na Lightning Network?
+answer: Tempos de pagamento longos.
 wrong_answers:
-  - Os usuários poderiam ser cobrados uma taxa fixa pelo uso de um serviço.
-  - Os usuários poderiam ser cobrados com base na quantidade de dados que utilizam.
-  - Os usuários poderiam ser cobrados com base no número de transações que realizam.
+  - Taxas baixas.
+  - Pagamentos instantâneos.
+  - Escalabilidade.
 explanation: |
-  Com o Lightning Network, em vez de pagar uma assinatura mensal por um serviço, os usuários poderiam ser cobrados por minuto, ou até mesmo por segundo, pelo tempo que passam usando o serviço.
-reviewed: false
+  Com as microtransações na Lightning Network, os usuários podem
+  ter taxas de transação baixas, tornando econômico enviar
+  quantidades muito pequenas de Bitcoin. Eles também podem ter pagamentos
+  instantâneos, permitindo transações em tempo real. Por último, eles
+  podem obter escalabilidade, possibilitando o manejo de um grande
+  número de transações simultaneamente. Assim, a resposta errada é tempos de pagamento longos.
+reviewed: true

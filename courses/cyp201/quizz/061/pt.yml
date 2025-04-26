@@ -1,9 +1,8 @@
-question: Por que é recomendado usar carteiras de código aberto para transações de Bitcoin?
-answer: Elas permitem a verificação da geração de números aleatórios.
+question: Qual é o tamanho total de uma chave estendida com o checksum?
+answer: 82 bytes
 wrong_answers:
-  - Elas são mais baratas do que as carteiras de código fechado.
-  - Elas são mais rápidas do que as carteiras de código fechado.
-  - Elas são mais seguras do que as carteiras de código fechado.
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
 explanation: |
-  As carteiras de código aberto permitem que os usuários verifiquem a geração do número aleatório, que é uma etapa crucial para garantir a segurança das chaves privadas e das transações de Bitcoin.
-reviewed: false
+  Uma chave estendida tem 78 bytes sem o checksum e 82 bytes com o checksum incluído.

@@ -1,0 +1,11 @@
+question: Mis on lunavara?
+answer: Tüüpi pahavara, mis krüpteerib kasutaja andmed ja nõuab nende dekrüpteerimise eest lunaraha.
+wrong_answers:
+  - Tüüpi viirusetõrje tarkvara.
+  - Tüüpi tarkvara, mida kasutatakse andmete taastamiseks.
+  - Tüüpi tarkvara, mida kasutatakse andmete varundamiseks.
+explanation: |
+  Lunavara on tüüpi pahavara, mis krüpteerib kasutaja andmed ja
+  nõuab nende dekrüpteerimise eest lunaraha. See muutub üha tavalisemaks ja võib
+  olla ettevõttele või eraisikule väga tülikas.
+reviewed: false

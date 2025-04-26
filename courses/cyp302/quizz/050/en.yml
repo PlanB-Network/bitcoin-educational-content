@@ -1,0 +1,9 @@
+question: Why are extension fields with a base of 2 useful in cryptography?
+answer: They allow for the secure manipulation of binary strings.
+wrong_answers:
+  - They simplify calculations by reducing the number of operations.
+  - They prevent calculation errors by adding redundancy.
+  - They limit the range of possibilities by decreasing the number of elements.
+explanation: |
+  Extension fields with a base of 2 are convenient because their elements can be viewed as binary strings, making it easier to perform operations on digital data at the binary level in systems.
+reviewed: false

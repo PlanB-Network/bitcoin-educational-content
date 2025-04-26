@@ -1,0 +1,9 @@
+question: Was befand sich in der eisernen Box, die Robert Morriss übergeben wurde?
+answer: Drei verschlüsselte Texte und eine Notiz
+wrong_answers:
+  - Eine Karte und Hinweise
+  - Ein einzigartiger Verschlüsselungsschlüssel
+  - Eine einzelne Liste von Namen
+explanation: |
+  Die Box enthielt drei verschlüsselte Texte und eine Notiz, die die Entdeckung eines Schatzes erklärte und Anweisungen gab, wie man dessen Inhalt bergen kann.
+reviewed: false

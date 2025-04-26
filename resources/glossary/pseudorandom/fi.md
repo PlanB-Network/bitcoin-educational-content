@@ -1,0 +1,7 @@
+---
+term: PSEUDO-RANDOM
+
+---
+Tätä adjektiivia käytetään kuvaamaan numerosarjaa, joka on deterministisen prosessin tulos, mutta jonka ominaisuudet ovat lähellä ihanteellisen, aidosti satunnaisen sarjan ominaisuuksia. Ideaalisen satunnaisuuden käsite tarkoittaa, että peräkkäisten elementtien välillä ei ole minkäänlaista ennustettavuutta eikä korrelaatiota. Pseudosatunnaisluku luodaan deterministisellä algoritmilla, ja siksi se on teoriassa täysin ennustettavissa, jos tiedetään generaattorin alkutila.
+
+Pseudosattumanumerogeneraattori (PRNG) on algoritmi, jota käytetään tällaisten numeroiden tuottamiseen. Se lähtee yleensä liikkeelle alkuarvosta eli "siemenestä" ja soveltaa sitten matemaattisia muunnoksia lukujonon tuottamiseksi. Koska alkusiemen on näin määritettävissä, on salakirjoituksen turvallisuuden kannalta tärkeää, että se pysyy salassa. Pseudosattumanvaraisia sekvenssejä käytetään laajalti eri aloilla, myös kryptografiassa, koska ne käyttäytyvät näennäisen satunnaisesti, mikä riittää moniin sovelluksiin. PRNG:n laadun arviointi perustuu siihen, missä määrin sen tuotos lähestyy todellista satunnaisuutta jakauman, korrelaatioiden ja muiden tilastollisten ominaisuuksien osalta. Bitcoinin yhteydessä pseudosattumanumeroita käytetään yksityisten avainten tuottamiseen tai siemenen tuottamiseen deterministisiä ja hierarkkisia lompakoita varten.

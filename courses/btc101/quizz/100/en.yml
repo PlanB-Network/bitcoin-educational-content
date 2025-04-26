@@ -1,10 +1,12 @@
 question: What does the absence of a mnemonic phrase in a wallet indicate?
-answer: The wallet is not secure for storing long term 
+answer: It indicates that the wallet is not secure for long-term storage of Bitcoin.
 wrong_answers:
-  - The wallet is secure for storing long term
-  - The wallet is not secure for storing short term
-  - The wallet is not secure for spending
+  - It indicates that the wallet is fully secure and does not require any backup.
+  - It means that the wallet can hold many different bonds.
+  - It suggests that the wallet is automatically backed up by your device.
 explanation: |
-  The absence of a list of 12 or 24 words, that is the mnemonic phrase, in a wallet should alert you that the
-  wallet is not secure as it does not follow standard bakcup procedure.
+  The absence of a list of 12 or 24 words, that is the
+  mnemonic phrase, in a wallet should alert you that the
+  wallet is not secure as it does not follow standard backup
+  procedures.
 reviewed: true

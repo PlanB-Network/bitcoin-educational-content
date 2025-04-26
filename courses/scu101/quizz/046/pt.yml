@@ -5,5 +5,5 @@ wrong_answers:
   - Não oferece tantos recursos quanto serviços de terceiros.
   - Não é tão seguro quanto serviços de terceiros.
 explanation: |
-  Um gerenciador de senhas auto-hospedado requer mais conhecimento técnico para usar, pois você precisa configurar e gerenciar seu próprio servidor. No entanto, ele pode oferecer mais controle e segurança.
-reviewed: false
+  Um gerenciador de senhas auto-hospedado requer mais conhecimento técnico para usar, pois você precisa configurar e gerenciar seu próprio servidor. No entanto, pode oferecer mais controle e segurança.
+reviewed: true

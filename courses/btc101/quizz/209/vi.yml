@@ -1,11 +1,11 @@
-question: Đường cong nhận biết của Bitcoin tương tự như thế nào?
-answer: Một đường cong S
+question: Đường cong áp dụng của Bitcoin tương tự như thế nào?
+answer: Một đường cong S.
 wrong_answers:
-  - Một đường cong U
-  - Một đường cong V
-  - Một đường cong W
+  - Một đường cong U.
+  - Một đường cong V.
+  - Một đường cong W.
 explanation: >-
-  Việc nhận biết Bitcoin, giống như bất kỳ công nghệ mới nào, tuân theo một đường cong S.
-  Đây là một mô hình phổ biến cho việc nhận biết các công nghệ mới, nơi việc nhận biết bắt đầu
+  Việc áp dụng Bitcoin, giống như bất kỳ công nghệ mới nào, tuân theo một đường cong S.
+  Đây là một mô hình phổ biến cho việc áp dụng các công nghệ mới, nơi việc áp dụng bắt đầu
   chậm rãi, sau đó tăng tốc trước khi chậm lại khi đạt đến bão hòa.
-reviewed: false
+reviewed: true

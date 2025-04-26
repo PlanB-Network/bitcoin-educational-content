@@ -1,5 +1,5 @@
 ---
-name: Samouraï
+name: Samourai
 
 description: 通过Samourai找回您的隐私
 ---

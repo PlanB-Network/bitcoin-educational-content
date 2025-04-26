@@ -1,0 +1,9 @@
+question: Podle Jacquese Le Goffa, kdy byl poprvé teoretizován pojem legitimní zájem?
+answer: Ve 13. století.
+wrong_answers:
+  - Ve 11. století.
+  - Ve 12. století.
+  - Ve 14. století.
+explanation: |
+  Jacques Le Goff umisťuje první teoretizaci pojmu legitimní zájem do 13. století, kde tento nápad vznikl v kontextu teologické a ekonomické reflexe používání peněz a obchodních praktik.
+reviewed: false

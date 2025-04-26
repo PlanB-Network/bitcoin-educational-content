@@ -1,0 +1,9 @@
+question: Điều gì được chứa trong chiếc hộp sắt được trao cho Robert Morriss?
+answer: Ba văn bản được mã hóa và một ghi chú
+wrong_answers:
+  - Một bản đồ và các manh mối
+  - Một chìa khóa mã hóa độc đáo
+  - Một danh sách tên duy nhất
+explanation: |
+  Chiếc hộp chứa ba văn bản được mã hóa và một ghi chú giải thích về việc phát hiện ra một kho báu và cung cấp hướng dẫn về cách lấy nội dung của nó.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Qual è lo scopo della chiave di revoca nella Lightning Network?
-answer: Punire un partecipante che cerca di imbrogliare pubblicando una vecchia transazione di impegno.
+question: Nel contesto di una fattura Lightning, cosa indica il prefisso lnbc nella parte leggibile dall'uomo?
+answer: Indica una transazione Lightning sulla blockchain di Bitcoin
 wrong_answers:
-  - Ricompensare un partecipante che riesce a imbrogliare con successo.
-  - Aprire un nuovo canale.
-  - Convalidare una transazione.
+  - Che la fattura è valida solo sulla testnet di Bitcoin
+  - Che la fattura è codificata in bech32
+  - Che si tratta di una transazione on-chain
 explanation: |
-  La chiave di revoca è un meccanismo nella Lightning Network per prevenire l'imbroglio. Se un partecipante cerca di imbrogliare pubblicando una vecchia transazione di impegno, l'altro partecipante può utilizzare la chiave di revoca per punire l'imbrogliatore e prendere tutti i SAT dal canale.
+  Il prefisso lnbc significa che la fattura è destinata a una transazione Lightning sulla rete Bitcoin, e non su un'altra rete.
 reviewed: false

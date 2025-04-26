@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi náhodným řetězcem a pseudonáhodným řetězcem?
+answer: Náhodný řetězec pochází z čistě náhodného procesu, zatímco pseudonáhodný řetězec je generován algoritmem z počátečního seedu.
+wrong_answers:
+  - Pseudonáhodný řetězec používá pouze 1 bity.
+  - Náhodný řetězec je vždy delší než pseudonáhodný řetězec, protože na něj působí přirozená akce.
+  - Pseudonáhodný řetězec je definován striktně binárním modelem, zatímco náhodný řetězec je definován striktně hexadecimálním modelem.
+explanation: |
+  Náhodný řetězec pochází z přímého náhodného procesu, zatímco pseudonáhodný řetězec je vytvořen pomocí expanzního algoritmu a počátečního seedu.
+reviewed: false

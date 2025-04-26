@@ -1,0 +1,9 @@
+question: 建议使用什么存储解决方案？
+answer: A Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - 托管服务
+  - Wallet 号文件
+explanation: |
+  长期持有比特币的人应该使用 Hardware Wallet 来最大限度地提高安全性。
+reviewed: false

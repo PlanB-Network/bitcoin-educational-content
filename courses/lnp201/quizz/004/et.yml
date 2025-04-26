@@ -1,0 +1,9 @@
+question: Mida võimaldab Lightning Network võrreldes traditsiooniliste tehingutega Bitcoin'i plokiahelas?
+answer: Kiired tehingud minimaalsete tasudega
+wrong_answers:
+  - Anonüümsed ja jälitamatud tehingud
+  - Suurtes kogustes tehingud ilma mahupiiranguteta
+  - Tehingud erinevate plokiahelate vahel
+explanation: |
+  Lightning Network võimaldab kiireid ja madala tasuga tehinguid läbi väljaspool plokiahelat toimuvate maksekanalite, mis erineb tavapärastest tehingutest plokiahelas.
+reviewed: false

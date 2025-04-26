@@ -1,0 +1,9 @@
+question: Por que a criptografia por deslocamento é vulnerável a ataques de força bruta?
+answer: Porque ela possui apenas 26 chaves possíveis
+wrong_answers:
+  - Porque utiliza uma chave pública
+  - Porque é baseada em criptografia simétrica
+  - Porque utiliza números aleatórios
+explanation: |
+  A criptografia por deslocamento é facilmente suscetível a ataques de força bruta porque possui apenas 26 chaves possíveis, de 0 a 25, devido ao uso do módulo 26 que, por sua vez, depende do tamanho do alfabeto. Não é possível usar chaves maiores válidas, pois elas seriam, de qualquer forma, equivalentes a uma chave entre 0 e 25. Portanto, é suficiente testar cada uma delas para encontrar a mensagem. 
+reviewed: false

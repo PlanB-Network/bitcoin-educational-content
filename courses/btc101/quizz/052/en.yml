@@ -1,10 +1,10 @@
 question: What is the impact of 20% inflation on purchasing power over 3 years?
-answer: You lose 50% of your purchasing power
+answer: You lose 50% of your purchasing power.
 wrong_answers:
-  - You lose 100% of your purchasing power
-  - You lose 60% of your purchasing power
-  - You lose 30% of your purchasing power
+  - You lose 100% of your purchasing power.
+  - You lose 60% of your purchasing power.
+  - You lose 30% of your purchasing power.
 explanation: |
-  With 20% inflation, you lose almost half of your purchasing power in
-  3 years.
+  With 20% inflation, you lose almost half of your purchasing
+  power in 3 years.
 reviewed: true

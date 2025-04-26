@@ -1,9 +1,10 @@
-question: Qual é uma das principais questões levantadas sobre o futuro das finanças?
+question: Qual é uma das principais questões levantadas a respeito do futuro das finanças?
 answer: Quem deve deter, autorizar e rastrear o dinheiro que usamos?
 wrong_answers:
-  - Como podemos eliminar completamente o dinheiro?
+  - Como podemos eliminar o dinheiro completamente?
   - Como podemos garantir que todos tenham a mesma quantidade de dinheiro?
   - Como podemos tornar o dinheiro obsoleto?
-explanation: |
-  O texto levanta várias questões sobre o futuro das finanças, uma das quais é quem deve deter, autorizar e rastrear o dinheiro que usamos.
-reviewed: false
+explanation: >-
+  O texto levanta várias questões sobre o futuro das finanças, uma das
+  quais é quem deve deter, autorizar e rastrear o dinheiro que usamos.
+reviewed: true

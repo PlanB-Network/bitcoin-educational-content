@@ -1,9 +1,9 @@
 question: Mikä on syöte transaktiossa?
-answer: Viittaus aiempaan käyttämättömään UTXO:oon.
+answer: Viittaus aiempaan käyttämättömään UTXO; oon.
 wrong_answers:
   - Vahvistussignaali louhijoilta.
   - Uusi lohko lisätty lohkoketjuun.
   - Varmistuskoodi transaktion turvaamiseksi.
 explanation: |
-  Jokainen transaktion syöte on viittaus UTXO:oon, tarkoittaen aiemman transaktion tulostetta.
+  Jokainen transaktion syöte on viittaus UTXO: oon, tarkoittaen aiemman transaktion tulostetta.
 reviewed: false

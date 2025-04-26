@@ -1,0 +1,9 @@
+question: Kuidas saab luua tervet raha?
+answer: Raha on loomulik sotsiaalne nähtus, mis peab tekkima turult ja vabatahtlikust konsensusest.
+wrong_answers:
+  - Valitsus kehtestab selle seaduste kaudu
+  - Inimesed kasutavad vägivalda ja sundi, et teisi sundida oma raha aktsepteerima
+  - Tervet raha ei saa luua
+explanation: >-
+  Terve raha on loomulik sotsiaalne nähtus, mis peab tekkima turult ja vabatahtlikust konsensusest. Ükski inimene või inimrühm ei saa luua raha.
+reviewed: true

@@ -1,9 +1,0 @@
-question: Qual è il limite per le transazioni senza identificazione presso gli sportelli bancomat in Francia?
-answer: 500 euro
-wrong_answers:
-  - 1000 euro
-  - 2000 euro
-  - 3000 euro
-explanation: |
-  Gli sportelli bancomat in Francia sono regolamentati e richiedono l'identificazione per le transazioni superiori a 500 euro.
-reviewed: false

@@ -1,8 +1,9 @@
-question: Jaký je účel Timelocku v transakci závazku?
-answer: Zamkne prostředky do určitého bloku.
+question: Jaké informace musí odesílající uzel znát, aby mohl provést platbu pomocí onion routing?
+answer: Topologii sítě a kompletní trasu k příjemci
 wrong_answers:
-  - Zamkne transakci do určitého bloku.
-  - Zamkne kanál do určitého bloku.
-  - Zamkne revokační klíč do určitého bloku.
+  - Pouze následující mezilehlý uzel
+  - Kapacitu každého kanálu
+  - Kryptografický podpis každého uzlu na cestě
 explanation: |
-  Timelock v transakci závazku zamkne prostředky do určitého bloku. To brání straně, která transakci vytvořila, v okamžitém získání jejich peněz zpět.
+  Odesílající uzel musí znát topologii sítě, aby mohl vypočítat trasu k příjemci, což mu umožní vybrat nejlepší cestu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Comment le réseau Lightning a-t-il évolué pour améliorer l'expérience des utilisateurs depuis sa création ?
+answer: Il a introduit des fonctionnalités telles que l'épissage, les factures statiques Bolt12 et une meilleure gestion des liquidités, ce qui rend les transactions plus fluides et plus fiables.
+wrong_answers:
+  - Il a supprimé tous les dispositifs de sécurité afin d'accélérer les transactions.
+  - Elle exige désormais l'approbation du gouvernement pour chaque paiement.
+  - Elle a cessé de travailler sur de nouvelles fonctionnalités, s'appuyant uniquement sur la conception d'origine.
+explanation: |
+  Au fil du temps, le Lightning Network a fait l'objet d'améliorations techniques qui réduisent les frictions pour les utilisateurs. De nouvelles fonctionnalités et de meilleurs outils de gestion des nœuds ont contribué à une expérience plus transparente et plus conviviale.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on faktoriseerimisprobleemi olemus, mis on aluseks asümmeetriliste krüptosüsteemide nagu RSA turvalisusele?
+answer: Arvu faktoriseerimine kaheks suureks algarvuks
+wrong_answers:
+  - Arvu lagundamine järjestikusteks kahe faktoriteks
+  - Arvu vähendamine selle väikseimate jagajateni
+  - Kahe suure algarvu korrutamine, et saada tulemuseks korrutis
+explanation: |
+  RSA turvalisus põhineb suure arvu (kahe suure algarvu korrutis) faktoriseerimise raskusel tema kaheks algarvuks, ülesandel, mis on peaaegu võimatu ilma privaatvõtmeta.
+reviewed: false

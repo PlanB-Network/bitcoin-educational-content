@@ -1,0 +1,9 @@
+question: ¿Cuál es el tamaño típico de los números primos utilizados en la factorización para criptosistemas modernos como RSA?
+answer: 1024 bits para cada factor
+wrong_answers:
+  - 1024 bits en total
+  - 256 bits para cada factor
+  - 256 bits en total
+explanation: |
+  En criptosistemas modernos como RSA, los números primos elegidos son típicamente de 1024 bits cada uno, haciendo la factorización extremadamente difícil y mejorando la seguridad.
+reviewed: false

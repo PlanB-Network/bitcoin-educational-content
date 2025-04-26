@@ -1,0 +1,9 @@
+question: Media apa yang direkomendasikan untuk mencadangkan frasa Mnemonic Anda dengan aman?
+answer: Cadangan logam dengan amplop buram yang disegel
+wrong_answers:
+  - Penyimpanan drive USB terenkripsi
+  - Cadangan kertas dengan selongsong transparan
+  - Mencadangkan di cloud yang aman
+explanation: |
+  Cadangan logam yang tahan bencana menawarkan perlindungan yang tahan lama terhadap kerusakan dan akses yang tidak sah. Amplop buram yang disegel memungkinkan Anda memverifikasi apakah ada orang yang mengakses frasa Mnemonic.
+reviewed: false

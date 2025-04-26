@@ -1,0 +1,9 @@
+question: Šta je ulaz u transakciji?
+answer: Referenca na prethodni neiskorišćeni UTXO.
+wrong_answers:
+  - Signal za potvrdu od rudara.
+  - Novi blok dodat u Blockchain.
+  - Verifikacioni kod za osiguranje transakcije.
+explanation: |
+  Svaki ulaz transakcije je referenca na UTXO, što znači izlaz prethodne transakcije.
+reviewed: false

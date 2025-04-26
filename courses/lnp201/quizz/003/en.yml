@@ -1,10 +1,9 @@
-question: What is a Lightning payment channel?
-answer: A kind of "private lane" between two users that allows for fast and repetitive Bitcoin transactions
+question: What is the main rule regarding the funds a participant can send in a payment channel?
+answer: They can only send the funds from their own side of the channel.
 wrong_answers:
-  - A type of Bitcoin wallet
-  - A method of mining Bitcoin
-  - A type of Bitcoin exchange
+  - They can send up to half of the total capacity of the channel.
+  - They can send any amount, as long as there is a prior agreement.
+  - They can borrow funds from the other participant's side if needed.
 explanation: |
-  A Lightning payment channel is a kind of "private lane" between two users
-  that allows for fast and repetitive Bitcoin transactions.
+  Each participant is limited by the amount of satoshis they hold in the channel for their transactions, ensuring that the funds are always covered.
 reviewed: false

@@ -1,10 +1,12 @@
-question: Který rok nastane sedmé snížení (halving)?
+question: Ve kterém roce dojde k sedmému halvingu?
 answer: 2036
 wrong_answers:
   - 2032
   - 2028
   - 2048
 explanation: |
-  Sedmé snížení by mělo nastat v roce 2036, a odhadovaný počet bitcoinů v oběhu bude 20,835,937.5 btc, což představuje 99.22% celkového množství.
-  bitcoinů v oběhu.
-reviewed: false
+  Sedmý halving by měl nastat v roce 2036 a odhadované
+  množství bitcoinů v oběhu bude 20,835,937.5,
+  což bude přibližně odpovídat 99.22% celkového
+  množství.
+reviewed: true

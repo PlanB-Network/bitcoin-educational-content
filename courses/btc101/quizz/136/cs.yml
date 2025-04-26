@@ -1,9 +1,9 @@
-question: Jak Bitcoinová síť zajistí, že jednání s úmyslem poškodit je příliš nákladné uvnitř Bitcoinového protokolu?
+question: Jak Bitcoinová síť zajišťuje, že je příliš nákladné jednat zákeřně v rámci Bitcoinového protokolu?
 answer: Prostřednictvím pravidel protokolu a ekonomických pobídek.
 wrong_answers:
   - Prostřednictvím přísné regulace a dohledu.
   - Použitím pokročilých bezpečnostních opatření.
-  - Hrozbou právních kroků.
+  - Přes hrozbu právních kroků.
 explanation: >-
-  Bitcoinová síť zajistí, že jednání s úmyslem poškodit je příliš nákladné uvnitř Bitcoinového protokolu prostřednictvím pravidel protokolu a ekonomických pobídek. To eliminuje potřebu důvěry v jakémkoli kroku převodu vlastnictví bitcoinu.
-reviewed: false
+  Bitcoinová síť zajišťuje, že je příliš nákladné jednat zákeřně v rámci Bitcoinového protokolu prostřednictvím pravidel protokolu a ekonomických pobídek. To eliminuje potřebu důvěry v jakémkoli kroku převodu vlastnictví bitcoinů.
+reviewed: true

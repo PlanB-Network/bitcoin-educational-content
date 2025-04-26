@@ -1,0 +1,9 @@
+question: Miten Bitcoin-maksujen hyväksyminen voi auttaa lisäämään yrityksen näkyvyyttä?
+answer: Luetteloimalla yritys BTCmap.orgin kaltaisilla alustoilla ja vetoamalla Bitcoin-yhteisön suusanalliseen tiedonvälitykseen.
+wrong_answers:
+  - Kieltämällä kaikki muut maksutavat ja pakottamalla kaikki asiakkaat käyttämään Bitcoinia.
+  - Takaamalla, että hallitus mainostaa yritystä ilmaiseksi.
+  - Vaatimalla asiakkaita rekisteröitymään useille verkkotileille ennen maksamista.
+explanation: |
+  Bitcoinin hyväksyminen on vielä suhteellisen harvinaista, mikä voi herättää kiinnostusta Bitcoin-yhteisössä. Myymälän listaaminen erikoistuneisiin hakemistoihin ja yhteisölähtöisen mainonnan hyödyntäminen voi auttaa sinua erottumaan ja houkuttelemaan uusia asiakkaita.
+reviewed: false

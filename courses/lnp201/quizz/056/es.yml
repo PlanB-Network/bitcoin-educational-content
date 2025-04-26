@@ -1,9 +1,0 @@
-question: ¿Quién paga las tarifas de transacción en la Lightning Network?
-answer: El remitente del pago.
-wrong_answers:
-  - El receptor del pago.
-  - Los intermediarios.
-  - La propia red.
-explanation: |
-  En la Lightning Network, el remitente del pago paga las tarifas de transacción. Estas tarifas son cobradas por los nodos que se utilizan para enrutar la transacción.
-reviewed: false

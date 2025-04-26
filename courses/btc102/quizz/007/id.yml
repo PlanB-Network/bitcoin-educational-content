@@ -1,0 +1,9 @@
+question: Apa arti aturan 3-2-1 dalam hal pencadangan data?
+answer: 3 salinan pada 2 media yang berbeda, dengan 1 disimpan di luar lokasi
+wrong_answers:
+  - 3 salinan di 2 media online dan 1 perangkat fisik
+  - 3 media dengan 2 salinan, salah satunya di luar lokasi
+  - 3 salinan, 2 di antaranya dienkripsi dan 1 disimpan di luar lokasi
+explanation: |
+  Aturan ini merekomendasikan untuk memiliki 3 salinan data pada 2 jenis media yang berbeda, dengan 1 salinan disimpan di luar lokasi untuk ketahanan yang lebih baik.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal objetivo de las implantaciones de pagos Bitcoin a nivel empresarial?
+answer: Integrar plenamente los pagos con Bitcoin en los procesos centrales de la organización
+wrong_answers:
+  - Experimentar con Bitcoin a pequeña escala
+  - Utilizar Bitcoin con fines comerciales
+  - Aceptar Bitcoin sin integrarlo en otros sistemas
+explanation: |
+  Las soluciones empresariales pretenden alinear los pagos con Bitcoin con los flujos de trabajo y los sistemas empresariales básicos.
+reviewed: false

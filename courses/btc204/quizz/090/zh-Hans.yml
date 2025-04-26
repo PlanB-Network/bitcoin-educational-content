@@ -1,0 +1,11 @@
+question: Whirlpool中的remixes与其他coinjoin实现相比有什么独特之处？
+
+answer: 它们完全免费。
+
+wrong_answers:
+  - 它们只需要支付挖矿费用。
+  - 它们每个用户限制一次。
+  - 它们只需要支付服务费用。
+
+explanation: |
+  Whirlpool的remixes是100%免费的：不需要额外的服务费或挖矿费。

@@ -1,11 +1,11 @@
 question: Jaká je hlavní výzva spojená s těžbou Bitcoinu?
 answer: Těžební průmysl je extrémně konkurenční a nestabilní, a nepředvídané události mohou narušit těžební operace.
 wrong_answers:
-  - Hlavní výzvou je najít spolehlivý zdroj elektřiny.
-  - Hlavní výzvou je najít bezpečné místo pro uložení vytěžených bitcoinů.
-  - Hlavní výzvou je najít kupce pro vytěžené bitcoiny.
+  - Hlavní výzva je najít spolehlivý zdroj elektřiny.
+  - Hlavní výzva je najít bezpečné místo pro uložení vytěžených bitcoinů.
+  - Hlavní výzva je najít kupce pro vytěžené bitcoiny.
 explanation: |
-  Hlavní výzva spojená s těžbou Bitcoinu spočívá v tom, že těžební
-  průmysl je extrémně konkurenční a nestabilní, a nepředvídané události mohou narušit
-  těžební operace.
-reviewed: false
+  Hlavní výzva spojená s těžbou Bitcoinu spočívá v tom,
+  že těžební průmysl je extrémně konkurenční a nestabilní,
+  a nepředvídané události mohou narušit těžební operace.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Mikä on pääasiallinen harhaluulo, jonka Bastiat tuomitsee teoksessa Mitä Nähdään ja Mitä Ei Nähdä?
+answer: Tuho stimuloi taloutta
+wrong_answers:
+  - Tuho on onnettomuus
+  - Vain lasinpuhaltajat hyötyvät rikkinäisistä ikkunoista
+  - Onnettomuuksia tulisi välttää
+explanation: |
+  Bastiat kritisoi harhaluuloa, jonka mukaan tuho olisi taloudellisesti hyödyllistä stimuloimalla taloutta, osoittaen sen sijaan, että se johtaa nettovarallisuuden menetykseen.

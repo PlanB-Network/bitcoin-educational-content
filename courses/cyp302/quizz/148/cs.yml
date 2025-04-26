@@ -1,0 +1,9 @@
+question: Která funkce se používá k výpočtu počtu nesoudělných celých čísel s celým číslem N?
+answer: Eulerova funkce Phi
+wrong_answers:
+  - Logaritmická funkce
+  - Eulerova funkce Gamma
+  - Gaussova funkce
+explanation: |
+  Eulerova funkce Phi (neboli totientní funkce) se používá k výpočtu počtu nesoudělných čísel s celým číslem N, zejména pro necelá čísla.
+reviewed: false

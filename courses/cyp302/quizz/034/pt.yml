@@ -1,0 +1,9 @@
+question: O que é uma string pseudorandom?
+answer: Uma string que parece vir de uma variável uniforme, mas é produzida por um algoritmo de expansão
+wrong_answers:
+  - Uma string gerada com uma probabilidade idêntica para cada caractere
+  - Uma string de comprimento fixo de um evento aleatório natural
+  - Uma string aleatória escolhida apenas dos valores binários 0 e 1
+explanation: |
+  Uma string pseudorandom é produzida por um algoritmo de expansão a partir de uma semente menor, de uma maneira que imita uma seleção uniforme entre todas as strings do mesmo comprimento.
+reviewed: false

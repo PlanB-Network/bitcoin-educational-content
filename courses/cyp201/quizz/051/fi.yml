@@ -1,12 +1,9 @@
-question: Mikä on BIP32:n merkitys Bitcoin-ekosysteemissä?
-answer: Se mullisti avainten luomisen ja tallentamisen tavan, tuoden käyttöön deterministisesti ja hierarkkisesti johdettujen avainten konseptin.
+question: Mikä on pääasiallinen ero salalauseen ja PIN-koodin välillä Bitcoin-lompakossa?
+answer: Salalause muuttaa avainjohdannan, ei PIN-koodi
 wrong_answers:
-  - Se toi käyttöön 24 sanan muistilauseen.
-  - Se ehdotti lisäsalasanan lisäämistä yksittäisten avainten turvallisuuden vahvistamiseksi.
-  - Se standardisoi HD-lompakoiden rakenteen ja hierarkian.
+  - PIN-koodi on linkitetty muistilauseeseen
+  - PIN-koodia käytetään transaktioiden salaamiseen, mutta salalausetta ei
+  - PIN-koodi luo Bitcoin-osoitteita
 explanation: |
-  BIP32, joka julkaistiin vuonna 2012, mullisti näiden avainten luomisen
-  ja tallentamisen tavan, tuoden käyttöön deterministisesti ja hierarkkisesti johdettujen
-  avainten konseptin. Tämä yksinkertaistaa suuresti näiden avainten tallentamisen prosessia,
-  samalla ylläpitäen niiden turvallisuustasoa.
+  Toisin kuin PIN-koodi, salalause on suoraan osallisena avainjohdannan prosessissa ja muuttaa lompakon avaimia.
 reviewed: false

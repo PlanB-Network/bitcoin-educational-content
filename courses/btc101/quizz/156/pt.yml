@@ -1,9 +1,11 @@
-question: Qual é o objetivo das piscinas de mineração?
-answer: As piscinas de mineração permitem que os mineradores combinem seus recursos de computação e recebam recompensas menores, mas mais regulares.
+question: Qual é o propósito das pools de mineração?
+answer: As pools de mineração permitem que os mineradores juntem seus recursos computacionais e recebam recompensas menores, mas mais regulares.
 wrong_answers:
-  - As piscinas de mineração são usadas para aumentar a taxa de hash da rede Bitcoin.
-  - As piscinas de mineração são usadas para diminuir a dificuldade da mineração.
-  - As piscinas de mineração são usadas para aumentar a recompensa pela mineração.
-explanation: |
-  As piscinas de mineração são grupos de mineradores que combinam seu poder computacional para aumentar suas chances de minerar um bloco. Ao combinar seus recursos, eles podem minerar blocos com mais frequência e receber recompensas menores, mas mais regulares.
-reviewed: false
+  - As pools de mineração são usadas para aumentar o HashRate da rede Bitcoin como um todo.
+  - As pools de mineração são usadas para diminuir a dificuldade da mineração.
+  - As pools de mineração são usadas para aumentar a recompensa pela mineração.
+explanation: >-
+  As pools de mineração são grupos de mineradores que combinam seu poder computacional
+  para aumentar suas chances de minerar um bloco. Ao juntarem seus recursos, eles podem
+  minerar blocos mais frequentemente e receber recompensas menores, mas mais regulares.
+reviewed: true

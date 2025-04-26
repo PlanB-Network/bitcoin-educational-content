@@ -1,12 +1,9 @@
-question: What is a multi-signature address in the context of the Lightning Network?
-answer: An address that requires two signatures to unlock the funds.
+question: Why does Alice create a withdrawal transaction before publishing the deposit transaction?
+answer: To retrieve her funds in case of a problem with Bob
 wrong_answers:
-  - An address that can be used by multiple users.
-  - An address that can hold multiple types of cryptocurrencies.
-  - An address that can be accessed from multiple devices.
+  - To increase the channel's capacity with each transaction
+  - To perform a Lightning transaction immediately after opening
+  - To allow Bob to spend the funds directly
 explanation: |
-  In the Lightning Network, multi-signature addresses are used. These
-  addresses
-  require two signatures, or two private keys, to unlock the funds. This means that
-  two parties must agree to unlock the money.
+  Alice creates a withdrawal transaction to retrieve her funds if a problem occurs with Bob, thus ensuring the security of her deposit.
 reviewed: false

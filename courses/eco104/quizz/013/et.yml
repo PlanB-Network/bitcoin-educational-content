@@ -1,0 +1,13 @@
+question: Kuidas Bitcoin aitab inimesi sõjast räsitud või ebastabiilsetes riikides?
+answer: See võimaldab väärtuse säilitamist detsentraliseeritud ja turvalisel viisil, mis on varguse suhtes vastupidavam
+wrong_answers:
+  - See võimaldab juurdepääsu traditsioonilistele pangateenustele
+  - See pakub füüsilist vara, mis võib väärtust suurendada
+  - See pakub kaitset deflatsiooni vastu
+explanation: |
+  Sõjast räsitud või ebastabiilsetes riikides võivad inimesed kohata raskusi 
+  traditsiooniliste pangateenuste kasutamisel või silmitsi seista varguse või 
+  füüsiliste varade konfiskeerimise riskiga. Bitcoin võimaldab inimestel säilitada väärtust 
+  detsentraliseeritud ja turvalisel viisil ilma vahendajate või füüsiliste varade vajaduseta, 
+  mis on haavatavad riskidele nagu inflatsioon, vargus või konfiskeerimine.
+reviewed: true

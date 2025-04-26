@@ -1,0 +1,12 @@
+question: Hvilken fordel tilbyr Bitcoins nettverk over tradisjonelle finanssystemer?
+answer: Desentralisering og sikkerhet
+wrong_answers:
+  - Økte inflasjonsrater
+  - Avhengighet av mellommenn
+  - Sentralisert kontroll over transaksjoner
+explanation: |
+  Bitcoins desentraliserte nettverk tilbyr en sikker og effektiv måte å 
+  gjennomføre transaksjoner på uten behov for mellommenn eller tredjeparter. Dette 
+  reduserer risikoen for sensur og uautoriserte endringer i transaksjoner,
+  samt øker personvernet.
+reviewed: true

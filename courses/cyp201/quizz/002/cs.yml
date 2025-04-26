@@ -1,16 +1,9 @@
-question: Jaké čtyři vlastnosti musí mít kryptografická hašovací funkce, aby byla považována za bezpečnou?
-answer: Nezvratnost, odolnost vůči falšování, odolnost vůči kolizím a odolnost vůči druhému obrazu.
+question: Která vlastnost hašovacích funkcí je demonstrována úplnou změnou haše, když se zpráva mírně změní?
+answer: Lavinový efekt
 wrong_answers:
-  - Rychlost, efektivita, odolnost vůči kolizím a nezvratnost.
-  - Odolnost vůči kolizím, odolnost vůči falšování, škálovatelnost a nezvratnost.
-  - Nezvratnost, odolnost vůči kolizím, odolnost vůči falšování a rychlost.
+  - Odolnost proti kolizím
+  - Odolnost proti druhému obrazu
+  - Délka
 explanation: |
-  Bezpečná kryptografická hašovací funkce musí mít čtyři klíčové vlastnosti;
-  nezvratnost
-  (což znamená, že je nemožné odvodit původní vstup z výstupu), odolnost
-  vůči falšování (což znamená, že je obtížné vytvořit jiný vstup, který produkuje
-  stejný výstup), odolnost vůči kolizím (což znamená, že je obtížné najít dva různé
-  vstupy, které produkují stejný výstup) a odolnost vůči druhému obrazu (což znamená,
-  že je obtížné najít jiný vstup, který produkuje stejný výstup jako daný
-  vstup).
-kontrolováno: false
+  Malá změna ve vstupu vede k radikální změně v haši, tomu se říká lavinový efekt.
+reviewed: false

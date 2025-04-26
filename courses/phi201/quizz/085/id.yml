@@ -1,0 +1,9 @@
+question: Apa batasan kedaulatan negara menurut John Stuart Mill?
+answer: Negara hanya dapat campur tangan ketika tindakan individu merugikan orang lain.
+wrong_answers:
+  - Negara berdaulat dalam semua keadaan dan tidak dapat dibatasi oleh individu atau kelompok individu mana pun.
+  - Kedaulatan negara dibatasi oleh sarana ekonomi.
+  - Kedaulatan negara dibatasi oleh hukum alam.
+explanation: |
+  John Stuart Mill berpendapat bahwa intervensi negara hanya sah ketika tindakan individu menyebabkan kerugian kepada orang lain, untuk melindungi kebebasan pribadi di area yang tidak merugikan orang lain.
+reviewed: false

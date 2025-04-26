@@ -1,0 +1,9 @@
+question: Kuidas sillutab RGB teed DEXi 2. kihile?
+answer: Võimaldades vahetada ahelaväliseid varasid Lightning-kanalite ja aatomivahetuste kaudu
+wrong_answers:
+  - Võimaldades tsentraliseeritud vahetuse kasutamist kõigi RGB tehingute jaoks
+  - Võimaldades varade vahetamist ahelas olevate arukate lepingute kaudu
+  - Võimaldades blokiahelatevahelist varade vahetust aatomi vahetuste kaudu
+explanation: |
+  Võimalus teostada aatomivahetusi ja -vahetusi Lightning-kanalite kaudu pakub võimalust luua detsentraliseeritud DEX-i, ilma ahelas toimuvate vahetuste puudusteta.
+reviewed: false

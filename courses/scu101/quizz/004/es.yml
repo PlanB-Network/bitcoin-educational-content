@@ -3,8 +3,12 @@ answer: Para evitar que sitios de terceros rastreen tu actividad en línea.
 wrong_answers:
   - Para ahorrar espacio de almacenamiento en tu dispositivo.
   - Para evitar que el sitio recuerde tu información de inicio de sesión.
-  - Para evitar que el sitio te muestre anuncios dirigidos.
+  - Para evitar que el sitio te muestre anuncios personalizados.
 explanation: |
-  Las cookies son archivos creados por los sitios web para almacenar información en tu dispositivo.
-  Si bien algunos sitios requieren estas cookies para funcionar correctamente, también pueden ser explotadas por sitios de terceros, especialmente con fines de seguimiento publicitario. Eliminar las cookies después de cada visita a un sitio puede ayudar a prevenir esto.
-reviewed: false
+  Las cookies son archivos creados por los sitios web para almacenar información
+  en tu dispositivo. Aunque algunos sitios requieren estas cookies para
+  funcionar correctamente, también pueden ser explotadas por
+  sitios de terceros, especialmente para fines de seguimiento publicitario.
+  Eliminar las cookies después de cada visita a un sitio puede
+  ayudar a prevenir esto.
+reviewed: true

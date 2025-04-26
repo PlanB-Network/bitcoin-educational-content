@@ -1,0 +1,5 @@
+---
+term: EHDOKASLOHKO
+
+---
+Ehdokaslohko on lohko, jota Bitcoin-järjestelmän louhintaprosessiin osallistuva louhija on parhaillaan luomassa. Ehdokaslohko on väliaikainen tietorakenne, joka sisältää vahvistusta odottavia transaktioita, mutta jolla ei vielä ole voimassa olevaa proof-of-workia, jotta se voitaisiin lisätä lohkoketjuun. Louhija valitsee lohkoehdokkaaseen sisällytettävät transaktiot eri tekijöiden, kuten niihin liittyvien transaktiomaksujen ja lohkokokorajoitusten perusteella. Kun transaktiot on valittu, louhija luo lohko-otsikon, joka sisältää version, transaktioiden digestin (Merkle-juureen), aikaleiman, edellisen lohkon hash-tiedon, vaikeustavoitteen ja nonce-tiedon. Tämän jälkeen louhija yrittää löytää lohko-otsikon hashin, joka täyttää nykyisen vaikeustavoitteen. Tätä varten louhija muuttaa otsikossa olevaa noncea. Louhija voi myös muuttaa muita lohkoehdokkaassaan olevia tietoja. Tämä on proof-of-work-mekanismi. Jos louhija onnistuu löytämään kelvollisen hashin, ehdokaslohkosta tulee kelvollinen lohko ja se lähetetään verkkoon lisättäväksi lohkoketjuun.

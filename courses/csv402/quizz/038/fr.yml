@@ -1,0 +1,9 @@
+question: Dans le fichier YAML utilisé pour émettre un actif, quel champ permet de définir le nombre total de tokens émis ?
+answer: issuedSupply
+wrong_answers:
+  - assetOwner
+  - spec
+  - amount
+explanation: |
+  Le champ "issuedSupply" dans le fichier YAML définit le montant total de tokens émis pour le contrat.
+reviewed: false

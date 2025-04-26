@@ -1,0 +1,9 @@
+question: Jakie środki ostrożności należy podjąć przed oszustwami związanymi z darowiznami i nieuczciwymi loteriami?
+answer: Nigdy nie wysyłaj pieniędzy, aby otrzymać bitcoiny
+wrong_answers:
+  - Zawsze wysyłaj niewielką kwotę, aby przetestować ofertę
+  - Inwestuj, aby uzyskać szybki i łatwy zysk
+  - Udostępnianie danych osobowych w celu zabezpieczenia transakcji
+explanation: |
+  Żądanie płatności z góry jest powszechną oznaką oszustwa tego typu.
+reviewed: false

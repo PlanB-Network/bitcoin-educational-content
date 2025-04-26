@@ -3,9 +3,7 @@ answer: Vede to k inflaci, která postupně zchuduje populaci.
 wrong_answers:
   - Vede to k deflaci, která postupně obohacuje populaci.
   - Vede to ke stabilní ekonomice bez inflace nebo deflace.
-  - Vede to k poklesu peněžní zásoby.
+  - Vede to ke snížení peněžní zásoby.
 explanation: |
-  Tisk peněz, neboli tvorba nových peněz centrálními bankami, vede
-  k inflaci. Důvodem je, že zvýšení peněžní zásoby snižuje kupní
-  sílu peněz, což vede k vyšším cenám a poklesu hodnoty úspor.
+  Tisk peněz, neboli tvorba nových peněz centrálními bankami, vede k inflaci. Důvodem je, že zvýšení peněžní zásoby snižuje kupní sílu peněz, což vede k vyšším cenám a snížení hodnoty úspor.
 reviewed: true

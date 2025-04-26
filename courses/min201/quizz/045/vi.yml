@@ -1,13 +1,9 @@
 question: Lợi ích chính của việc sở hữu thiết bị đào của riêng bạn là gì?
-answer: Đóng góp tích cực vào việc bảo mật mạng Bitcoin và thu được bitcoin mới toanh.
+answer: Thu được bitcoin mới.
 wrong_answers:
   - Tránh cần phải mua Bitcoin trực tiếp.
   - Kiếm lợi nhuận từ việc bán thiết bị sau này.
   - Không cần phải tin tưởng vào các thợ đào khác.
 explanation: |
-  Sở hữu thiết bị đào của riêng bạn mang lại nhiều lợi ích đáng kể. Ngoài
-  sự hài lòng cá nhân khi đóng góp tích cực vào việc bảo mật mạng Bitcoin
-  và chứng kiến ​​phần thưởng rơi vào ví của mình, có một khía cạnh hấp dẫn
-  của "bitcoin mới toanh". Đây là những bitcoin mới được đào mà chưa từng được chi tiêu
-  và không có lịch sử gắn liền với chúng.
-reviewed: false
+  Sở hữu thiết bị đào của riêng bạn mang lại nhiều lợi ích đáng kể. Ngoài sự hài lòng cá nhân khi đóng góp tích cực vào việc bảo mật mạng Bitcoin và chứng kiến ​​phần thưởng rơi vào ví của mình, có một khía cạnh hấp dẫn là bitcoin mới. Đây là những bitcoin mới được đào mà chưa bao giờ được chi tiêu và không có lịch sử gắn liền với chúng.
+reviewed: true

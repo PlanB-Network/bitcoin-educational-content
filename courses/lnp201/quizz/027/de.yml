@@ -1,10 +1,9 @@
-question: Wann wird die Auszahlungstransaktion bei einer Lightning Network-Übertragung ausgeführt?
-answer: Wenn der Kanal geschlossen wird.
+question: Warum ist eine erzwungene Schließung weniger wünschenswert?
+answer: Sie ist langsamer und die Gebühren können unangemessen sein
 wrong_answers:
-  - Wenn die Übertragung erfolgt.
-  - Wenn der Kanal geöffnet wird.
-  - Sie wird niemals ausgeführt.
+  - Es erfordert eine Autorisierung von Satoshi Nakamoto
+  - Es zwingt zur Neuerstellung eines Kanals später
+  - Es verhindert die Nutzung des Widerrufsschlüssels
 explanation: |
-  Die Auszahlungstransaktion, die den Zustand des Kanals darstellt,
-  wird nur ausgeführt, wenn der Kanal geschlossen wird.
+  Eine erzwungene Schließung ist weniger wünschenswert, weil sie eine Zeitverzögerung beinhaltet, die den Prozess verlangsamt, und die Gebühren können unangemessen sein, da sie zum Zeitpunkt der Erstellung des Kanals festgelegt wurden.
 reviewed: false

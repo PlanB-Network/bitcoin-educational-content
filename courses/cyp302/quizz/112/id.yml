@@ -1,0 +1,8 @@
+question: Mengapa RC4 diklasifikasikan sebagai cipher aliran sinkron?
+answer: Aliran kunci independen dari teks asli dan teks sandi
+wrong_answers:
+  - Aliran kunci bergantung pada nilai-nilai dari teks sandi sebelumnya
+  - Teks asli harus diintegrasikan ke dalam aliran kunci
+  - Menggunakan aliran kunci yang sepenuhnya berdasarkan teks asli
+explanation: |
+  RC4 adalah cipher aliran sinkron karena aliran kuncinya hanya bergantung pada kunci awal dan tidak pada teks asli atau teks sandi, memastikan kemandirian aliran ini dari pesan-pesan tersebut.

@@ -1,9 +1,9 @@
 question: Quel service acceptant le bitcoin était administré par Teppy, la personne qui a présenté Bitcoin sur Slashdot le 11 juillet 2010 ?
-answer: Le MMORPG "A Tale in the Desert"
+answer: Le MMORPG A Tale in the Desert
 wrong_answers:
   - Le VPN Mullvad
   - Le service de voix sur IP Link2VoIP
   - L'hébergeur web Vekja.net
 explanation: |
-  Celui-ci a [commencé](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) à accepter le bitcoin le 19 mai.
+  Celui-ci a [commencé](https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159) à accepter le bitcoin le 19 mai.
 reviewed: false

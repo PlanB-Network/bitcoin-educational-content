@@ -1,0 +1,9 @@
+question: Which function, designed in October 2010 by the miner m0mchil, allowed client nodes to retrieve a candidate block and return the proof of work if a solution was found?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+  It was published on October 1st. Satoshi included a modified version of this function in the main software on November 23rd.
+reviewed: false

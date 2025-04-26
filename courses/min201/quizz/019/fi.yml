@@ -5,5 +5,8 @@ wrong_answers:
   - Lightning Network vähentää Bitcoin-louhinnan energiankulutusta.
   - Lightning Network nopeuttaa Bitcoin-louhintaa.
 explanation: |
-  Lightning Network mahdollistaa nopeat ja edulliset siirrot Bitcoinin pääketjun ulkopuolella. Tällä on potentiaali vähentää merkittävästi siirtomaksuja, mikä voi vaikuttaa louhijoiden tuloihin.
-reviewed: false
+  Lightning Network mahdollistaa nopeat ja edulliset
+  siirrot Bitcoinin pääketjun ulkopuolella. Tällä on
+  potentiaali vähentää merkittävästi siirtomaksuja,
+  mikä voi vaikuttaa louhijoiden tuloihin.
+reviewed: true

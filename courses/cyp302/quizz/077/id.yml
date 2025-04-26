@@ -1,0 +1,9 @@
+question: Apa peran prinsip Kerckhoff dalam kriptografi?
+answer: Untuk memastikan bahwa keamanan bergantung pada kunci rahasia, bukan pada kerahasiaan skema
+wrong_answers:
+  - Untuk memastikan bahwa keamanan bergantung pada kerahasiaan skema, bukan pada kunci rahasia
+  - Untuk memerlukan kunci enkripsi yang sangat panjang
+  - Untuk menjamin bahwa setiap pesan memiliki kunci unik
+explanation: |
+  Menurut prinsip Kerckhoff, keamanan dari sistem kriptografi seharusnya hanya bergantung pada kunci rahasia, dan tidak pada kerahasiaan dari algoritma itu sendiri.
+reviewed: false

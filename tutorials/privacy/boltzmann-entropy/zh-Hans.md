@@ -17,7 +17,7 @@ Boltzmann 计算器是一个用于分析比特币交易的工具，通过测量�
 这个 Python 工具由 Samourai Wallet 和 OXT 的团队开发，但它可以用于任何比特币交易。
 
 ## 如何使用 Boltzmann 计算器？
-使用 Boltzmann 计算器有两种选择。第一种是直接在您的机器上安装 Python 工具。或者，您可以选择 KYCP.org（_了解您的币隐私_）网站，该网站提供了一个简化的使用平台。对于 [RoninDojo](https://planb.network/tutorials/node/ronin-dojo-v2) 用户，请注意，此工具已集成到您的节点中。
+使用 Boltzmann 计算器有两种选择。第一种是直接在您的机器上安装 Python 工具。或者，您可以选择 KYCP.org（_了解您的币隐私_）网站，该网站提供了一个简化的使用平台。对于 [RoninDojo](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8) 用户，请注意，此工具已集成到您的节点中。
 
 使用 KYCP 网站非常简单：只需在搜索栏中输入您希望分析的交易标识符（TXID），然后按 `ENTER`。
 ![KYCP](assets/1.webp)

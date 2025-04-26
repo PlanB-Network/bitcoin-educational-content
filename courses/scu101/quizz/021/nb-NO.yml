@@ -1,0 +1,10 @@
+question: Hva er den potensielle trusselen ved å bruke piratkopiert programvare som ikke kan oppdateres?
+answer: Ankomsten av et virus under den ulovlige nedlastingen og en usikker bruk mot nye angrepsformer.
+wrong_answers:
+  - Programvaren vil slutte å fungere etter en viss periode.
+  - Programvaren vil ikke ha noen nye funksjoner.
+  - Programvaren vil forbruke mer systemressurser.
+explanation: |
+  Piratkopiert programvare som ikke kan oppdateres representerer en dobbel potensiell
+  trussel. Den kan bringe med seg et virus under den ulovlige nedlastingen fra et mistenkelig nettsted
+  og den kan være usikker mot nye angrepsformer.

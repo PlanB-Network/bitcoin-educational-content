@@ -1,0 +1,8 @@
+question: Mis oli keskaegse Kiriku suhtumine intressiga laenudesse?
+answer: See keelas need.
+wrong_answers:
+  - See julgustas neid.
+  - See talus neid teatud juhtudel.
+  - Sellel polnud selles küsimuses mingit arvamust.
+explanation: |
+  Keskaegne Kirik keelas intressiga laenud, pidades seda praktikat usura patuks, kuna peeti ebaõiglaseks kasumit teenida laenult, nõudes rohkem kui algsummat.

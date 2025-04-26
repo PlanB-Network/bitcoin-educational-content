@@ -1,9 +1,12 @@
-question: ¿Cuáles son las tres funciones principales de una billetera de Bitcoin?
-answer: Recibir bitcoins, enviar bitcoins, asegurarlos contra hackeos y intentos de robo.
+question: ¿Cuáles son las tres funciones principales de un monedero de Bitcoin?
+answer: Recibir bitcoins, enviar bitcoins, protegerlos contra intentos de hackeo y robo.
 wrong_answers:
-  - Almacenar bitcoins, permitir enviar bitcoins, asegurarlos contra hackeos y intentos de robo.
-  - Permitir recibir bitcoins, almacenar bitcoins, asegurarlos contra hackeos y intentos de robo.
+  - Almacenar bitcoins, enviar bitcoins, protegerlos contra intentos de hackeo y robo.
+  - Permitir recibir bitcoins, almacenar bitcoins, protegerlos contra intentos de hackeo y robo.
   - Permitir recibir bitcoins, permitir enviar bitcoins, vender bitcoins.
 explanation: |
-  Una billetera de Bitcoin se utiliza para interactuar con la red de Bitcoin. Sus tres funciones principales son permitir recibir bitcoins, permitir enviar bitcoins y asegurarlos contra hackeos e intentos de robo.
-reviewed: false
+  Un monedero de Bitcoin se utiliza para interactuar con la
+  red de Bitcoin. Sus tres funciones principales son permitir recibir
+  bitcoins, permitir enviar bitcoins y protegerlos contra
+  intentos de hackeo y robo.
+reviewed: true

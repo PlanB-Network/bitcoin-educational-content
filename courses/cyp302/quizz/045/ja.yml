@@ -1,0 +1,9 @@
+question: 有限群において、群の要素の数を指す用語は何ですか？
+answer: 群の位数
+wrong_answers:
+  - 群の容量
+  - 群の長さ
+  - 群の度数
+explanation: |
+  群の位数とは、その群が含む要素の総数です。
+reviewed: false

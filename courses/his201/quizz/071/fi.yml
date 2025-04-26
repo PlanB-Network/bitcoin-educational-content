@@ -1,0 +1,9 @@
+question: Mikä aiheutti Satoshi Nakamoton äkillisen lähdön joulukuussa 2010?
+answer: Artikkelin julkaisu, joka yhdisti Bitcoinin ja WikiLeaksin
+wrong_answers:
+  - Bitcoinin hyväksyminen WikiLeaksin toimesta
+  - Gavin Andresenin ottaessa ohjelmakoodin hallintaan
+  - Bitcoinin yksikköhinnan nousu
+explanation: |
+  Otsikolla Voiko Wikileaks-skandaali johtaa uuteen virtuaalivaluuttaan?, tämä [artikkeli](https: //www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) julkaistiin PC Worldissä, yhdessä suurimmista amerikkalaisista tietotekniikkaan keskittyvistä verkkosivustoista.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Bagaimana efisiensi transaksi Bitcoin dihitung dalam hal privasi?
+
+answer: Dengan membandingkan entropi aktual dari transaksi dengan entropi maksimal yang mungkin.
+
+wrong_answers:
+  - Dengan mengalikan jumlah input dengan jumlah output.
+  - Dengan mengalikan entropi aktual dari transaksi dengan jumlah input dan output.
+  - Dengan membandingkan jumlah input dengan jumlah output.
+
+explanation: |
+  Efisiensi transaksi dihitung dengan mengurangkan entropi maksimal dari entropi aktual dari transaksi yang dianalisis.
+
+reviewed: false

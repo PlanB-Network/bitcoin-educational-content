@@ -1,0 +1,9 @@
+question: Quelles sont les trois étapes de base dans un schéma de MAC ?
+answer: Génération de clé, génération de tag, vérification
+wrong_answers:
+  - Chiffrement, déchiffrement, transmission
+  - Génération de clé publique, chiffrement de clé privée, validation
+  - Hachage du message, chiffrement de tag, distribution de tag
+explanation: |
+  Un schéma de MAC se compose de trois étapes principales: générer une clé secrète, produire un tag pour le message, et vérifier que le message reçu et son tag correspondent.
+reviewed: false

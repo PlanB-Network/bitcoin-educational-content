@@ -1,0 +1,11 @@
+question: Mis on Attakai põhimõte Bitcoin'i kaevandamise kontekstis?
+answer: Attakai põhimõte viitab Bitcoin'i kaevandamisest tekkiva soojuse produktiivsele kasutamisele.
+wrong_answers:
+  - Attakai põhimõte viitab taastuvate energiaallikate kasutamisele Bitcoin'i kaevandamisel.
+  - Attakai põhimõte viitab arenenud jahutussüsteemide kasutamisele Bitcoin'i kaevandamisel.
+  - Attakai põhimõte viitab madala energiatarbimisega riistvara kasutamisele Bitcoin'i kaevandamisel.
+explanation: |
+  Attakai põhimõte viitab ideele
+  kaevandamise detsentraliseerimisest läbi tekkiva soojuse produktiivse kasutamise. See kontseptsioon pakub välja, et energiamahukad
+  asutused võiksid kasu saada kaevurite poolt tekitatud soojusest, et soojendada oma rajatisi.
+reviewed: true

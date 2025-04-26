@@ -1,0 +1,8 @@
+question: 谁在2011年3月制作了第一个关于比特币的高质量视频？
+answer: Stefan Thomas
+wrong_answers:
+  - Mike Hearn
+  - Christian Decker
+  - Bruce Wagner
+explanation:
+  这个视频，简单地命名为“What is Bitcoin?”（什么是比特币？），是通过社区众筹制作的。

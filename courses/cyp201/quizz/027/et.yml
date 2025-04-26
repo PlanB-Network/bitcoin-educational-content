@@ -1,0 +1,8 @@
+question: Milline ECDSA allkirjade haavatavus parandati SegWiti poolt?
+answer: Muudetavus
+wrong_answers:
+  - Partii kontroll
+  - Agregatsiooni puudumine
+  - Allkirjade liigne suurus
+explanation: |
+  SegWit parandas ECDSA allkirjade muudetavuse, võimaldades kasutada näiteks Lightning Networki.

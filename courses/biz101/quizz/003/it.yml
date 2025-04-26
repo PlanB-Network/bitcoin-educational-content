@@ -1,0 +1,9 @@
+question: Qual è uno svantaggio dei moderni sistemi monetari centralizzati?
+answer: Spesso mancano di trasparenza e verificabilità nella gestione della massa monetaria.
+wrong_answers:
+  - Forniscono un valore stabile e immutabile per ogni unità monetaria.
+  - Eliminano tutti gli intermediari e accelerano le transazioni al millisecondo.
+  - Assicurano che l'emissione di moneta sia completamente decentralizzata e a prova di inflazione.
+explanation: |
+  I sistemi centralizzati possono emettere denaro a volontà, spesso senza una supervisione trasparente. Ciò può erodere la fiducia a causa dell'inflazione, dei complessi regolamenti interbancari e della potenziale cattiva gestione.
+reviewed: false

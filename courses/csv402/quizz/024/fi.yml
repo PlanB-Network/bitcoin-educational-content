@@ -1,0 +1,9 @@
+question: Minkä RGB:n mekanismin avulla useita siirtymiä voidaan ryhmitellä yhteen Bitcoin-tapahtumaan?
+answer: Siirtymä Nippu
+wrong_answers:
+  - Tiiviste Aggregaatio
+  - Monisitoumuspuu
+  - Valtion konsolidointi
+explanation: |
+  Siirtymäpaketti on joukko RGB-tilan siirtymiä (jotka kuuluvat samaan sopimukseen), jotka kaikki ovat mukana samassa Bitcoin-todistajatapahtumassa.
+reviewed: false

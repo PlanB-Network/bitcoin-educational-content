@@ -48,15 +48,13 @@ The user can manage their own channels with an easy-to-use interface and with en
 
 ## Backup/Restore an LND Node
 
-A powerful, easy-to-manage, and useful feature is restoring other dead LND nodes, with just the 24-word seed list and the channels.backup file.
-
-> [Here is a guide on how to restore dead Umbrel nodes in Blixt in case of SHTF.](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario)
+A powerful, easy-to-manage, and useful feature is restoring other dead LND nodes, with just the 24-word seed list and the channels.backup file. [Here is a guide on how to restore dead Umbrel nodes in Blixt in case of SHTF.](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario)
 
 The user also has the option to save the Blixt channel backup to Google Drive and/or local storage on their own mobile device (to later move it to a safe place, away from your phone).
 
 The restoration process is quite simple: insert the 24-word seed, add the backup file (previously copied to the mobile memory), and click restore. It will take some time to synchronize and scan all the blocks for your past transactions. The channels will be automatically closed and the funds returned to your on-chain wallet (see the top left drawer menu - on-chain).
 
-> If you previously had open channels with your old node behind Tor, you must first enable the Tor option (and restart the application) from the menu settings. This way, the closing procedure will not fail and/or the forced closing option will not be used.
+**Note** If you previously had open channels with your old node behind Tor, you must first enable the Tor option (and restart the application) from the menu settings. This way, the closing procedure will not fail and/or the forced closing option will not be used.
 
 Remember to backup your LN channels after opening and/or closing channels. It only takes a few seconds to be safe. Later, you can move the backup file to a safe place away from your mobile device.
 To test your seed in a restoration scenario, before adding funds, simply use the same 24-word seed (aezeed) in BlueWallet. If the generated BTC address is the same in Blixt, you are good to go. No need to use BlueWallet after that, you can simply delete the tested wallet for restoration.
@@ -81,7 +79,7 @@ If there are too many requests, the Blixt node can adjust the channel capacity d
 
 In the settings, the user can activate this option and have an automated service that opens channels with the best nodes and routes based on the available balance in the on-chain wallet of the Blixt application. This is a beneficial feature for new users who are not sure which node to open a channel with and/or how to open an LN channel. It's like an autopilot for LN.
 
-> Remember: this option is used only once, when you create your new Blixt wallet, and is enabled by default. So if the new user scans the on-chain QR code on the main screen and deposits their first sats to that address, Blixt will automatically open a channel with those sats, with the Blixt public node.
+**Remember:** this option is used only once, when you create your new Blixt wallet, and is enabled by default. So if the new user scans the on-chain QR code on the main screen and deposits their first sats to that address, Blixt will automatically open a channel with those sats, with the Blixt public node.
 
 ## Incoming Liquidity Services
 
@@ -94,8 +92,8 @@ Useful feature if you want to have a durable list of recipients with whom you tr
 ## LNURL and Lightning Address
 
 Full LNURL support. You can pay to LNURL, LN-auth, LN-chan request with LNURL.
-You can send to any LN address and also add it into your contacts list. 
-Also starting with vers. 0.6.9 is available to receive to your own LN Address *@blixtwallet.com* type, through [Blixt Lightning Box](https://github.com/hsjoberg/lightning-box) feature.
+You can send to any LN address and also add it into your contacts list.
+Also starting with vers. 0.6.9 is available to receive to your own LN Address _@blixtwallet.com_ type, through [Blixt Lightning Box](https://github.com/hsjoberg/lightning-box) feature.
 
 ## Keysend
 
@@ -130,7 +128,7 @@ This feature is a bit hidden, in the drawer menu in the top left. Since it is no
 - With the vers. 0.6.9 was introduced the "persistent mode" that allow user to run Blixt as an always online LN node, keeping the LND services alive and the LN wallet ready to receive/send anytime.
 - Simple Taproot Channels - allow opening Taproot channels for more privacy and advanced features
 - Zero-confirmation channels with Blixt Dunder LSP
-- Speedloader ("LN channel sync") - This means all channels  will be synced quickly on startup, for better pathfinding. While it's a bit annoying that you have to see the sync screen in the beginning, it will ensure that the wallet knows about all channels and the payments will be faster and more reliable.
+- Speedloader ("LN channel sync") - This means all channels will be synced quickly on startup, for better pathfinding. While it's a bit annoying that you have to see the sync screen in the beginning, it will ensure that the wallet knows about all channels and the payments will be faster and more reliable.
 - Translated in 25+ languages!
 
 ## "Easter Eggs"
@@ -140,7 +138,7 @@ Hint: try clicking twice on the Blixt logo in the drawer 🙂 I'll let you disco
 
 # Blixt Getting Started Step-by-Step Guide
 
-> As new LN user, if you start using Blixt LN Node, you will need first to know what is Lightning Network and how it works, at least at basic level. [Here we put together a simple list of resources about Lightning Network](https://blixtwallet.github.io/faq#what-is-ln). Please read them first.”
+**Tip:** as new LN user, if you start using Blixt LN Node, you will need first to know what is Lightning Network and how it works, at least at basic level. [Here we put together a simple list of resources about Lightning Network](https://blixtwallet.github.io/faq#what-is-ln). Please read them first.
 
 Running a full LN node on a mobile device is not an easy task and could take some space (min 600MB) and memory. We recommend to have a good mobile device, updated and using at least Android 11 as OS.
 
@@ -151,7 +149,6 @@ Once you open Blixt, the “Welcome” screen will give you some options:
 On top right corner, you will see 3 dots that activate a menu with:
 
 - “enable Tor” - user can start with Tor network, in special if wanted to restore an old LND node that was running with Tor only peers.
-
 - “Set Bitcoin node” - if user want to connect to its own node directly, to sync the blocks through Neutrino, can do it straight away from welcome screen. This option is also good in case that your internet connection or Tor, is not so stable to connect to default bitcoin node (node.blixtwallet.com).
 
 ## First Step - Create new wallet
@@ -184,7 +181,7 @@ E - Indicate your first BTC address, where you can deposit your first testing sa
 
 As you can see in the Onchain Transaction Log, the steps are very detailed indicating where the sats are going (deposit, open, close channel)
 
-> RECOMMENDATION: After testing several situations, we came to the conclusion that is much better efficient to open channels between 1 and 5 M sats. Smaller channels tend to be depleted quickly and paying a higher % of fees comparative with bigger channels.
+**Recommendation:** after testing several situations, we came to the conclusion that is much better efficient to open channels between 1 and 5 M sats. Smaller channels tend to be depleted quickly and paying a higher % of fees comparative with bigger channels.
 
 F - Indicate your main Lightning wallet balance. This is NOT your total Blixt wallet balance, it represent only the sats you have in Lightning Channels, available to send. As was indicated before, the Onchain wallet is separate. Keep in mind this aspect. The onchain wallet is separate for an important reason: it is used mainly for opening/closing LN channels.
 
@@ -201,6 +198,7 @@ Now, let’s open another channel with another node peer. Blixt community put to
 ### Procedure to open a normal unannounced (private) LN channel in your Blixt mobile node
 
 This is very simple, only take some few steps and a bit of patience:
+
 - Go to the [Blixt Community list](https://github.com/hsjoberg/blixt-wallet/issues/1033) of good peers
 - Select a node and click on its name title link, it will open its Amboss page
 - Click to display the QR code for the node URI address
@@ -228,20 +226,22 @@ Ok so now we have a LN channel with only OUTBOUND liquidity. That means we can o
 As you can see in this example, the channel open with the first deposit, do not have too much INBOUND liquidity (“Can receive”) but have a lot of OUTBOUND liquidity (“Can send”).
 
 So what options you have, if you want to receive more sats over LN?
+
 - Spend some sats from existing channel. Yes, LN is a payment network of Bitcoin, used mainly to spend your sats faster, cheaper, private and easy. LN is NOT a hodling way, for that you have the onchain wallet.
 - Swap some sats, back into your onchain wallet, using a submarine swap service. In this way you are not spending your sats, but giving it back to your own onchain wallet. Here you can see in details some methods, in the [Blixt Guides Page](https://blixtwallet.github.io/guides).
 - Open an INBOUND channel from any LSP provider. Here is a video demo about [how to use LNBig LSP for opening an inbound channel](https://blixtwallet.github.io/assets/images/blixt-lnbig.mp4). That means, you will pay a small fee for an EMPTY channel (on your side) and you will be able to receive more sats into that channel. If you are a merchant that receive more than spend, that is a good option. Also if you are buying sats over LN, using Robosats or any other LN exchange.
 - Open a Dunder channel, with Blixt node or any other Dunder LSP provider. A Dunder channel is a simple way to get some INBOUND liquidity, but in the same time you deposit some sats into that channel. Is also good because it will open the channel with an [UTXO](https://en.bitcoin.it/wiki/UTXO) that is not from your Blixt wallet. That add some privacy.
-Is also good because, if you do not have sats into an onchain wallet, to open a normal LN channel, but you have them into another LN wallet, you can just pay from that another wallet through LN the opening and the deposit (on your side) of that Dunder channel. [More details how Dunder works and how to run your own server here.](https://github.com/hsjoberg/dunder-lsp)
+  Is also good because, if you do not have sats into an onchain wallet, to open a normal LN channel, but you have them into another LN wallet, you can just pay from that another wallet through LN the opening and the deposit (on your side) of that Dunder channel. [More details how Dunder works and how to run your own server here.](https://github.com/hsjoberg/dunder-lsp)
 
 ![Demo Blixt 09](assets/blixt_t09.webp)
 
 Here are the steps how to activate opening a Dunder channel:
+
 - Go to Settings, in “Experiments” section activate the box for “Enable Dunder LSP”.
 - Once you did that, go back up to “Lightning Network” section and you will see that appeared the option “Set Dunder LSP Server”. There, by default is set “https://dunder.blixtwallet.com” but you can change it with any other Dunder LSP provider address. [Here is a Blixt community list](https://github.com/hsjoberg/blixt-wallet/issues/1033) with nodes that can provide Dudner LSP channels for your Blixt.
 - Now you can go to main screen and click on “Receive” button. Then follow this procedure explained [in this guide](https://blixtwallet.github.io/guides#guide-lsp).
 
-OK, so after the Dunder channel is confirmed (will take few minutes) you will end up with having 2 LN channels: one opened initially with autopilot (channel A) and one with more inbound liquidity, opened with Dunder (channel B).
+Ok, so after the Dunder channel is confirmed (will take few minutes) you will end up with having 2 LN channels: one opened initially with autopilot (channel A) and one with more inbound liquidity, opened with Dunder (channel B).
 
 ![Demo Blixt 10](assets/blixt_t10.webp)
 
@@ -251,11 +251,12 @@ Good, now you are good to go, to send and receive enough sats over LN !
 
 So now let’s discuss about how to restore a Blixt wallet or any other LND crashed node. This is a bit more technical, but please pay attention. Is not that hard.
 
-> REMINDER: In the past I wrote a dedicated guide with multiple options [how to restore a crashed LND node](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario), where I mentioned also the method of using Blixt as quick restore process, using the seed + channel.backup file from your dead LND node. I also wrote a guide how to restore your Blixt node or migrate your Blixt to another device, [here](https://blixtwallet.github.io/faq#blixt-restore).
+**Reminder:** in the past I wrote a dedicated guide with multiple options [how to restore a crashed LND node](https://darthcoin.substack.com/p/umbrel-btcln-node-shtf-scenario), where I mentioned also the method of using Blixt as quick restore process, using the seed + channel.backup file from your dead LND node. I also wrote a guide how to restore your Blixt node or migrate your Blixt to another device, [here](https://blixtwallet.github.io/faq#blixt-restore).
 
 ![Demo Blixt 11](assets/blixt_t11.webp)
 
 But let’s explain in simple steps this process. As you can see in the image above, there are 2 things you should do to restore your previous Blixt/LND node:
+
 - top box is where you have to fill with all 24 words from your seed (old / dead node)
 - bottom are two button options to insert / upload the channel.backup file, previously saved from your old Blixt/LND node. It can be from a local file (you upload it into your device previously) or can be from a Google drive / iCloud remote location. Blixt have this option to save your channels backup directly into a Google / iCloud drive. See more details in [Blixt Features Page](https://blixtwallet.github.io/features#blixt-options).
 
@@ -329,13 +330,14 @@ This is another example sending to another wallet app that support NameDesc:
 
 ### B - Backup LN Channels and seed words
 
-This is a very important feature !
+This is a very important feature!
 
 After opening or closing a LN channel you should do a backup. It can be done manually saving a small file on local device (download folder usually) or using a Google Drive or iCloud account.
 
 ![Demo Blixt 20](assets/blixt_t20.webp)
 
 Go to Blixt Settings - Wallet section. There you have the options to save all important data for your Blixt wallet:
+
 - “Show mnemonic” - will display the 24 words seed to write them down
 - “Remove mnemonic from device” - this is optional and use it only if you really want to remove the seed words from your device. This will NOT wipe your wallet, only the seed. But be aware ! There is not way to recover them if you did not write them down first.
 - “Export channel backup” - this option will save a small file on your local device, usually into “downloads” folder, from where you can take it and move it outside your device, for safe keeping.
@@ -343,6 +345,7 @@ Go to Blixt Settings - Wallet section. There you have the options to save all im
 - “Google drive channel backup” - will save the backup file into your personal Google drive. The file is encrypted and is stored in a separate repository than your usual google files. So there are no concerns that can be read by anybody. Anyways that file is totally useless without the seed words, so nobody can take your funds from that file only.
 
 I would recommend for this section the following:
+
 - use a password manager to store safely your seed and backup file. [KeePass](https://keepass.info/) or Bitwarden are very good for that and can be used on multiplatform and self hosted or offline.
 - DO THE BACKUP EVERY TIME you open or close a channel. That file is updated with the channels info. There’s no need to do it after each transaction you’ve done on LN. The channel backup is not storing that info, is storing only the status of the channel.
 
@@ -350,7 +353,7 @@ I would recommend for this section the following:
 
 ## Conclusion
 
-OK, there are many other amazing features that Blixt offers, I will let you discover them one by one and have fun.
+Ok, there are many other amazing features that Blixt offers, I will let you discover them one by one and have fun.
 
 This app is really underestimated, mainly because is not backed by any VCs funding, is community driven, build with love and passion for Bitcoin and Lightning Network.
 
@@ -364,4 +367,4 @@ HAPPY BITCOIN LIGHTNING!
 
 May The ₿ITCOIN Be With You!
 
-> DISCLAIMER: I am not paid or supported in any way by the developers of this app. I wrote this guide because I saw that the interest in this wallet app is increasing and new users still don’t understand how to start with it. Also to help Hampus (the main dev) with documentation about using this node wallet. I do not have any other interest in promoting this LN app, other than pushing forward the Bitcoin and LN adoption. This is the only way!
+**Disclaimer:** I am not paid or supported in any way by the developers of this app. I wrote this guide because I saw that the interest in this wallet app is increasing and new users still don’t understand how to start with it. Also to help Hampus (the main dev) with documentation about using this node wallet. I do not have any other interest in promoting this LN app, other than pushing forward the Bitcoin and LN adoption. This is the only way!

@@ -1,0 +1,5 @@
+---
+term: OP_CHECKMULTISIG (0XAE)
+
+---
+Kontrollerer flere signaturer mot flere offentlige nøkler. Den tar som inndata en serie med `N` offentlige nøkler og `M` signaturer, der `M` kan være mindre enn eller lik `N`. `OP_CHECKMULTISIG` verifiserer om minst `M` signaturer samsvarer med `M` av de `N` offentlige nøklene. Merk at på grunn av en historisk feil, fjernes et ekstra element fra bunken av `OP_CHECKMULTISIG`. Dette elementet kalles "*dummy-elementet*". For å unngå en feil i `scriptSig`, inkluderes derfor en `OP_0`, som er et ubrukelig element, for å tilfredsstille fjerningen og omgå feilen. Siden BIP147 (introdusert med SegWit i 2017) må det ubrukelige elementet som forbrukes på grunn av feilen, være `OP_0` for at skriptet skal være gyldig, ettersom det var en malleability-vektor. Denne opkoden ble fjernet i Tapscript.

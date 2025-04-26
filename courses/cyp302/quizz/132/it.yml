@@ -1,0 +1,9 @@
+question: In una transazione Bitcoin, quale tecnologia viene generalmente utilizzata per dimostrare la proprietà dei fondi sbloccando lo script?
+answer: Firme digitali
+wrong_answers:
+  - Certificati digitali
+  - Crittografia simmetrica
+  - Codici di Autenticazione dei Messaggi (MAC)
+explanation: |
+  Le firme digitali in Bitcoin dimostrano il possesso dei fondi firmando le transazioni con una chiave privata al fine di sbloccare lo script che protegge un UTXO.
+reviewed: false

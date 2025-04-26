@@ -1,0 +1,9 @@
+question: Mis on individualism Tocqueville'i järgi?
+answer: Individualism on enesepiisavuse tunne, mis viib kodanikud end teistest eraldama ja endasse tõmbuma.
+wrong_answers:
+  - Individualism on element, mis eksisteerib igal ajastul.
+  - Individualism on poliitiline doktriin, mis pooldab tagasipöördumist esivanemate eluviisi juurde.
+  - Individualism on termin, mis iseloomustab inimlikku isekust.
+explanation: |
+  Tocqueville'i jaoks on individualism kaasaegne kalduvus enesepiisavusele, mis ajendab kodanikke eirama kollektiivseid kohustusi, luues seeläbi isolatsiooni, mis nõrgestab sotsiaalset kangast.
+reviewed: false

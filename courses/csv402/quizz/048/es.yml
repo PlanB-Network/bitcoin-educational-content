@@ -1,0 +1,9 @@
+question: ¿Cuál es el concepto fundamental del protocolo RGB?
+answer: Validación del cliente mediante compromisos criptográficos en cadena
+wrong_answers:
+  - Validación en cadena mediante contratos inteligentes Turing-completos
+  - Uso exclusivo de transacciones Bitcoin sin cifrar
+  - Ejecución de contratos en una cadena de bloques dedicada a los contratos inteligentes
+explanation: |
+  RGB se basa en un modelo de validación del lado del cliente en el que los compromisos (a través de Taproot u OP_RETURN) se introducen en la cadena, mientras que la mayor parte de la lógica y los datos se mantienen fuera de la cadena.
+reviewed: false

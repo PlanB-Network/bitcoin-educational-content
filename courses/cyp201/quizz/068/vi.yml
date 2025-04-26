@@ -1,12 +1,8 @@
-question: Số lượng từ trong cụm từ khôi phục được xác định như thế nào trong quá trình tạo cụm từ ghi nhớ cho ví Bitcoin?
-
-answer: Nó phụ thuộc vào kích thước của entropy.
-
+question: Ràng buộc để suy ra khóa công khai con từ khóa công khai cha là gì?
+answer: Khóa con phải là bình thường
 wrong_answers:
-  - Nó phụ thuộc vào kích thước của checksum.
-  - Luôn luôn là 24 từ.
-  - Nó được tạo ngẫu nhiên.
-
-explanation:
-  Tùy thuộc vào kích thước của entropy, cụm từ khôi phục sẽ bao gồm
-  12 từ cho 128 bit, 15 từ cho 160 bit, và 24 từ cho 256 bit.
+  - Khóa con phải được cứng hóa
+  - Mã chuỗi phải giống hệt với khóa cha
+  - Quá trình phải bao gồm khóa riêng tư của cha
+explanation: |
+  Một khóa công khai con chỉ có thể được suy ra từ một khóa công khai cha nếu nó là bình thường, không phải cứng hóa.

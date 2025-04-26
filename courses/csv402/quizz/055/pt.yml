@@ -1,0 +1,9 @@
+question: O que é o rgb-lightning-node no ecossistema RGB?
+answer: Um daemon para gerir canais Lightning compatíveis com RGB
+wrong_answers:
+  - Uma carteira móvel para gerir os activos RGB
+  - Um servidor proxy para trocar registos RGB
+  - Uma ferramenta de extração para activos RGB em Bitcoin
+explanation: |
+  o rgb-lightning-node é um daemon Rust projetado para integrar ativos RGB em canais Lightning adicionando transições de estado RGB a transações de envolvimento.
+reviewed: false

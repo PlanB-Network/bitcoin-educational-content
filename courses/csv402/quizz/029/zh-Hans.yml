@@ -1,0 +1,9 @@
+question: 模式在 RGB 合同中的主要作用是什么？
+answer: 描述合同的业务逻辑和数据结构
+wrong_answers:
+  - 定义 RGB 钱包界面
+  - 管理区块链上脚本的编译
+  - 链上加密验证
+explanation: |
+  模式定义了合同的声明性结构、数据类型和验证规则，使您能够管理客户方的业务逻辑。
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hvordan brukes adresser for å låse UTXOs?
+
+answer: De er integrert i ScriptPubKey
+
+wrong_answers:
+  - De er integrert i ScriptSig
+  - De er integrert i coinbase.
+  - De er integrert ingen steder.
+
+explanation: |
+  Når en betaling utføres, skaper transaksjonen en ny UTXO som output fra UTXOene som ble brukt som inputs. På denne outputen plasseres et skript som definerer hvordan denne UTXOen kan brukes senere. Dette skriptet er kjent som ScriptPubKey. Mottaksadressen er integrert i dette skriptet.

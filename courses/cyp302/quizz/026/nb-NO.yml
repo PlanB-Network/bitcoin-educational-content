@@ -1,0 +1,9 @@
+question: Hva er ekvivalensen av XOR med modulo-operasjonen?
+answer: XOR er ekvivalent med en modulo 2-operasjon på biter
+wrong_answers:
+  - XOR er ekvivalent med en klassisk subtraksjon modulo 3
+  - XOR er ekvivalent med en modulo 7-operasjon på biter
+  - XOR er det motsatte av addisjon
+explanation: |
+  XOR-operasjonen kan ses på som en addisjon av biter med en modulo 2, noe som gjør resultatene identiske.
+reviewed: false

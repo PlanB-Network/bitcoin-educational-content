@@ -1,0 +1,5 @@
+---
+term: BITCOIN CLASSIC
+
+---
+Forslag til en protokollgaffel som ble lansert i januar 2016 etter at Bitcoin XT ble lagt ned. Målet var å øke blokkstørrelsesgrensen fra 1 MB til 2 MB med BIP109, en tilnærming som ble ansett som mer moderat sammenlignet med Bitcoin XT, som foreslo en mye større økning (8 MB + dobling hvert annet år). Dette initiativet ble ledet av utviklerne Gavin Andresen og Jeff Garzik, og hadde støtte fra store selskaper i økosystemet, som Coinbase. Bitcoin Classic dukket opp i en kontekst med intens eskalering av Blocksize War og ble klassifisert blant de store blokkeringene. Selv om Bitcoin Classic tiltrakk seg oppmerksomhet og støtte fra mange aktører i sektoren, var aktiveringsmekanismen, som krevde 75 % støtte fra utvinnere, kontroversiell og bidro til at den til slutt mislyktes.

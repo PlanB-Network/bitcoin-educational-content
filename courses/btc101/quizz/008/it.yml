@@ -1,9 +1,11 @@
 question: Cosa significa che Bitcoin è una valuta neutrale?
-answer: Non è controllato da alcuna entità o istituzione.
+answer: Non è controllato da nessuna entità o istituzione.
 wrong_answers:
-  - È controllato da una singola entità o istituzione.
-  - È regolamentato dal governo.
-  - È utilizzato solo per transazioni neutrali.
+  - È controllato da un'unica entità o istituzione.
+  - È regolato dal governo.
+  - È utilizzato solo per grandi transazioni.
 explanation: |
-  Bitcoin è una valuta neutrale, il che significa che non è controllato da alcuna entità o istituzione e ogni utente ha gli stessi diritti. Questo è un aspetto chiave della sua decentralizzazione.
-reviewed: false
+  Bitcoin è una valuta neutrale, il che significa che non è controllato
+  da nessuna entità o istituzione, quindi ogni utente ha gli stessi
+  diritti. Questo è un aspetto chiave della sua decentralizzazione.
+reviewed: true

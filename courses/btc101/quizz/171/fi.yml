@@ -1,11 +1,13 @@
-question: Miten Bitcoin-protokolla varmistaa sensuroimattomuutensa ja pysäyttämättömyytensä?
-answer: Jokainen protokollan osa on jaettu maantieteellisesti ympäri maailmaa
+question: Kuinka Bitcoin-protokolla varmistaa sensuurinestokykynsä ja joustavuutensa?
+answer: Protokollan jokainen osa on maantieteellisesti hajautettu ympäri maailmaa.
 wrong_answers:
-  - Se käyttää hajautettua solmujen verkostoa
-  - Se käyttää monimutkaista algoritmia transaktioiden vahvistamiseen
-  - Se käyttää korkean tason salausta
-explanation: >-
-  Bitcoin-protokolla varmistaa sensuroimattomuutensa ja pysäyttämättömyytensä, koska
-  jokainen protokollan osa on jaettu maantieteellisesti ympäri maailmaa. Esimerkiksi
-  maailmanlaajuisesti on noin 40 000 Bitcoin-solmua kaikilla mantereilla.
-reviewed: false
+  - Se käyttää paikallista solmujen verkostoa, joka on hajautettu Eurooppaan.
+  - Se käyttää monimutkaista algoritmia transaktioiden vahvistamiseen.
+  - Se käyttää korkean tason salausta.
+explanation: |
+  Bitcoin-protokolla varmistaa sensuurinestokykynsä ja
+  joustavuutensa, koska protokollan jokainen osa on
+  maantieteellisesti hajautettu ympäri maailmaa. Esimerkiksi,
+  maailmanlaajuisesti on noin 40 000 Bitcoin-solmua kaikilla
+  mantereilla.
+reviewed: true

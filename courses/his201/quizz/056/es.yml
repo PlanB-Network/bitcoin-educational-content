@@ -1,0 +1,9 @@
+question: ¿Cuáles eran los patrones de salida de script estándar reconocidos por el software en septiembre de 2010?
+answer: Recepción por una clave pública (P2PK) y recepción por una dirección (P2PKH)
+wrong_answers:
+  - Recepción por una dirección (P2PKH) y recepción por un script de firma multisignatura (P2MS)
+  - Recepción por una dirección (P2PKH) y recepción por un script (P2SH)
+  - Recepción por una clave pública (P2PK) y recepción por un script (P2SH)
+explanation: |
+  Estos fueron los dos tipos utilizados desde el inicio de Bitcoin. El tipo P2MS se hizo estándar en marzo de 2012. El tipo P2SH se agregó al protocolo en abril de 2012.
+reviewed: false

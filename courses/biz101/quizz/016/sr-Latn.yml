@@ -1,0 +1,9 @@
+question: Kako se veštački stvoren kapital iz novca zasnovanog na dugu razlikuje od kapitala u austrijskom stilu?
+answer: Kapital austrijskog stila potiče iz stvarne štednje i žrtvovanja, dok se kapital zasnovan na dugu stvara trenutno iz kredita i može iskriviti ekonomske signale.
+wrong_answers:
+  - Austrijski stil kapitala generiše se štampanjem više novca kad god je to potrebno.
+  - Kapital zasnovan na dugu nikada ne zahteva otplatu i ekvivalentan je stvarnoj štednji.
+  - Nema razlike; oba oblika kapitala su identična po prirodi i efektu.
+explanation: |
+  Austrijska prestonica proizlazi iz stvarne propuštene potrošnje i pažljivog ulaganja. Kapital zasnovan na dugu, lako stvoren putem zajmova, može dovesti preduzetnike u zabludu i rezultirati neefikasnim ulaganjima, jer ne odražava pravu štednju ili preferencije potrošača.
+reviewed: false

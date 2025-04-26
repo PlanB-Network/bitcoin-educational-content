@@ -1,0 +1,13 @@
+question: Trong các phương án dưới đây, phương án nào không được khuyến nghị khi quản lý sự thay đổi doxxic của bản thân?
+
+answer: Gộp các UTXO doxxic lại với nhau.
+
+wrong_answers:
+  - Pha trộn các UTXO doxxic trong một nhóm nhỏ hơn.
+  - Quyên góp các UTXO doxxic của bản thân.
+  - Đánh dấu các UTXO doxxic của bản thân là không thể chi tiêu.
+
+explanation: |
+  Việc gộp các UTXO doxxic lại với nhau không được khuyến nghị vì nó cho phép tạo ra một mối liên kết giữa các bản ghi khác nhau của người dùng trong Whirlpool.
+
+reviewed: false

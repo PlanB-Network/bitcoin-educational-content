@@ -1,0 +1,9 @@
+question: Quelle est la définition de la liberté donnée par Lord Acton ?
+answer: Le pouvoir d'agir selon sa propre conscience même contre l'opinion majoritaire
+wrong_answers:
+  - La capacité de faire ce que l'on veut
+  - L'absence de toute contrainte
+  - La protection contre les invasions extérieures
+explanation: |
+  Lord Acton définit la liberté comme le pouvoir d'agir selon sa propre conscience, soulignant l'importance de la capacité individuelle à prendre des décisions personnelles, même lorsque celles-ci vont à l'encontre de l'opinion majoritaire.
+reviewed: false

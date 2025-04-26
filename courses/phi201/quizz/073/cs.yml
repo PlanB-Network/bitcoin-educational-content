@@ -1,0 +1,9 @@
+question: Jaký je základní rozdíl mezi merkantilismem a volným obchodem podle fyziokratů?
+answer: Merkantilismus obohacuje jednu národnost na úkor ostatních, zatímco volný obchod obohacuje všechny národy.
+wrong_answers:
+  - Merkantilismus je hra s kladným součtem, zatímco volný obchod je hra se součtem nulovým.
+  - Merkantilismus podporuje konkurenci.
+  - Volný obchod podporuje výměnu.
+explanation: |
+  Pro fyziokraty je merkantilismus založen na myšlence, že národ se obohacuje na úkor ostatních, zatímco volný obchod umožňuje vzájemné výhody, obohacuje všechny národy prostřednictvím vzájemně výhodných výměn.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je glavna funkcija seed u kontekstu pseudonasumičnih lanaca?
+answer: Da služi kao početna tačka za generisanje dužeg lanca
+wrong_answers:
+  - Da se definiše fiksna dužina pseudonasumičnog lanca
+  - Da verifikujete integritet pseudonasumičnog lanca
+  - Da dodate uniformnu distribuciju vrednostima lanca
+explanation: |
+  seed je kraći niz koji koristi algoritam ekspanzije kao početnu tačku za generate, duži pseudonasumični lanac.
+reviewed: false

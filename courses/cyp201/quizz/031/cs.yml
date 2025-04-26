@@ -1,9 +1,8 @@
-question: Kolik je celkový počet možností pro soukromý klíč Bitcoinu?
-answer: Téměř rovno 1.158 x 10^77
+question: Jaký modifikátor lze kombinovat se základními příznaky sighash?
+answer: SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Přesně 2^256
-  - Mezi 1 a n-1
-  - Přibližně stejný počet atomů, které jsou přítomné ve viditelném vesmíru
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
 explanation: |
-  Celkový počet možností pro soukromý klíč Bitcoinu je téměř roven 1.158 x 10^77, což je přibližně stejný počet atomů, které jsou přítomné ve viditelném vesmíru. To je proto, že soukromý klíč musí být mezi 1 a n-1, kde n reprezentuje řád eliptické křivky.
-reviewed: false
+  SIGHASH_ANYONECANPAY modifikuje příznaky sighash tak, aby pokrývaly pouze jediný vstup, zatímco zbytek zůstává modifikovatelný.

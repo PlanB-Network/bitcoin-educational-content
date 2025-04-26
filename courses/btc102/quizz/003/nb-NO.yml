@@ -1,0 +1,9 @@
+question: Hva består Pump and Dump av i kryptovalutaområdet?
+answer: Manipulering av et aktivum gjennom en kampanje for å selge på toppen
+wrong_answers:
+  - Massivt kjøp av en eiendel for å støtte prisen uten å selge den
+  - Stabilisering av markedet på lang sikt gjennom motstridende handler
+  - Gjør gjentatte kjøp for å oppnå langsiktig eksponering mot eiendelen
+explanation: |
+  Denne svindelteknikken går ut på å blåse opp prisen kunstig for å selge på et kritisk tidspunkt og få verdien til å krasje.
+reviewed: false

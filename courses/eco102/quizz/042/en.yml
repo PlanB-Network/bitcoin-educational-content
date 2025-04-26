@@ -1,0 +1,9 @@
+question: What is the main effect of protectionism on consumers?
+answer: It increases the price of the products they buy
+wrong_answers:
+  - It allows them to buy higher quality products
+  - It offers them a wider choice of products
+  - It has no impact on their purchasing power
+explanation: |
+  Protectionism imposes taxes on imports, which makes products more expensive for consumers.
+reviewed: false

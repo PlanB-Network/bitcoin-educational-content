@@ -1,13 +1,13 @@
 question: Tại sao việc sử dụng mật khẩu được tạo ngẫu nhiên lại quan trọng?
-answer: Chúng cung cấp một mức độ bảo mật cao hơn và kháng cự tốt hơn với các cuộc tấn công bằng cách dùng lực br brute force.
+
+answer: Chúng kháng cự được với các cuộc tấn công bằng cách thử nghiệm mật khẩu (brute force attacks) tốt hơn so với mật khẩu có cùng độ dài nhưng chứa các từ có trong từ điển.
+
 wrong_answers:
-  - Chúng dễ nhớ hơn.
-  - Chúng ngắn hơn và đơn giản hơn.
-  - Chúng được yêu cầu bởi hầu hết các dịch vụ trực tuyến.
+  - Chúng dễ nhớ hơn nhưng gõ chậm hơn.
+  - Chúng luôn an toàn vì chúng vượt quá 20 ký tự ngẫu nhiên.
+  - Hầu hết các dịch vụ trực tuyến chỉ yêu cầu độ dài tối thiểu và bộ ký tự, đáp ứng các tiêu chí này có nghĩa là mật khẩu đủ mạnh.
+
 explanation:
-  Mật khẩu được tạo ngẫu nhiên cung cấp một mức độ bảo mật cao hơn vì
+  Mật khẩu được tạo ngẫu nhiên cung cấp một mức độ bảo mật cao hơn vì chúng kháng cự được với các cuộc tấn công bằng cách thử nghiệm mật khẩu, nơi mà người tấn công cố gắng đoán mật khẩu bằng cách thử tất cả các tổ hợp ký tự có thể.
 
-  chúng kháng cự tốt hơn với các cuộc tấn công bằng cách dùng lực br brute force, những cuộc tấn công này cố gắng đoán mật khẩu
-
-  bằng cách thử tất cả các tổ hợp ký tự có thể.'
-reviewed: false
+reviewed: true

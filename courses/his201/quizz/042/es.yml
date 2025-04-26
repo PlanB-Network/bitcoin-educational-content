@@ -1,0 +1,8 @@
+question: ¿De qué país es originario Gavin Andresen, quien creó el primer Bitcoin Faucet en junio de 2010 y asistió a Satoshi en el desarrollo del software?
+answer: Australia
+wrong_answers:
+  - Estados Unidos
+  - Francia
+  - Países Bajos
+explanation: |
+  Nació en Australia pero adquirió la ciudadanía estadounidense en 2004.

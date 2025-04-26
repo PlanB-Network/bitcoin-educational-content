@@ -1,0 +1,9 @@
+question: Mengapa disarankan untuk mengekspor CSV dari semua transaksi Bitcoin?
+answer: Sistem ini menyediakan catatan yang jelas dan terstruktur untuk setiap transaksi, sehingga memudahkan akuntan untuk mengintegrasikannya ke dalam laporan keuangan dan pengajuan pajak.
+wrong_answers:
+  - Karena tanda terima kertas adalah satu-satunya dokumen akuntansi yang dapat diterima secara hukum.
+  - Karena mengekspor data secara otomatis melengkapi SPT Anda tanpa perlu ditinjau lagi.
+  - Karena file CSV menghilangkan kebutuhan untuk melacak basis biaya.
+explanation: |
+  Memiliki catatan digital dalam format yang sama memungkinkan integrasi yang mulus ke dalam sistem akuntansi, membantu menjaga jejak audit, dan mendukung pelaporan pajak dan kepatuhan yang akurat.
+reviewed: false

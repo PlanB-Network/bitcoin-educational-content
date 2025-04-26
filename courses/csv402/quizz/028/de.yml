@@ -1,0 +1,9 @@
+question: Welche Funktion hat die Schnittstelle in einem RGB-Vertrag?
+answer: Vertragsdaten leicht lesbar und manipulierbar machen
+wrong_answers:
+  - Ausführung von Validierungsskripten in der Blockchain
+  - Speicherung von Genesis-Daten auf der Seite des Kunden
+  - Strenges Typensystem für Berichte definieren
+explanation: |
+  Ziel der Schnittstelle ist es, die Vertragsinformationen so darzustellen, dass sie für Benutzer und Software verständlich sind, ohne die Geschäftslogik zu beeinträchtigen.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Kes oli peamine isiksus PayPal'i loomise taga?
+answer: Peter Thiel
+wrong_answers:
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerberg
+explanation: |
+  PayPal'i toode töötati välja 1999. aastal Confinity Inc. poolt, mille kaasasutasid 1998. aasta detsembris San Franciscos Peter Thiel ja Max Levchin.

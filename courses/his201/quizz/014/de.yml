@@ -1,0 +1,9 @@
+question: Wer hat das Konzept des Proof of Work erfunden?
+answer: Cynthia Dwork und Moni Naor
+wrong_answers:
+  - Markus Jakobsson und Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  Sie beschrieben das Konzept im Jahr 1992. Markus Jakobsson und Ari Juels prägten den Begriff Proof of Work. Adam Back übernahm später das Konzept für Hashcash.
+reviewed: false

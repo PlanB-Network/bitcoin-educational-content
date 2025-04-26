@@ -1,0 +1,11 @@
+question: Apa hubungan Bitcoin dengan masa depan teknologi dan masyarakat?
+answer: Bitcoin adalah revolusi teknologi untuk mode organisasi skala besar yang baru, memungkinkan pertukaran nilai tanpa pihak ketiga yang dipercaya.
+wrong_answers:
+  - Bitcoin adalah bentuk teknologi AI.
+  - Bitcoin adalah alat untuk mengontrol populasi dunia.
+  - Bitcoin adalah metode bagi pemerintah untuk melacak transaksi keuangan warga negaranya.
+explanation: >-
+  Teks menjelaskan bahwa Bitcoin, seperti internet untuk mode komunikasi,
+  adalah revolusi teknologi untuk mode organisasi skala besar yang baru, membawa
+  kita kemungkinan untuk bertukar nilai tanpa pihak ketiga yang dipercaya.
+reviewed: false

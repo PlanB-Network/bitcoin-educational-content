@@ -1,9 +1,9 @@
-question: Qual è il vantaggio nell'utilizzare una passphrase in un portafoglio Bitcoin?
-answer: Può consentire l'applicazione di varie strategie di sicurezza
+question: Quale codifica viene utilizzata per rappresentare gli indirizzi SegWit v0?
+answer: bech32
 wrong_answers:
-  - Rende il portafoglio più user-friendly
-  - Aumenta la velocità delle transazioni
-  - Riduce le commissioni associate alle transazioni
+  - base58check
+  - bech32m
+  - base64
 explanation: |
-  La passphrase è uno strumento essenziale per migliorare la sicurezza dei portafogli Bitcoin. Può consentire l'applicazione di varie strategie di sicurezza. Ad esempio, può essere utilizzata per creare duplicati e facilitare il backup della frase mnemonica. Può inoltre migliorare la sicurezza del portafoglio mitigando i rischi associati alla generazione casuale della frase mnemonica.
+  Gli indirizzi SegWit v0, come quelli per P2WPKH e P2WSH, utilizzano la codifica bech32 introdotta con SegWit.
 reviewed: false

@@ -1,0 +1,11 @@
+question: Hvilken heuristisk analyse av kjeden brukes av payjoin-transaksjonen for å fungere som en avledning for analyse?
+
+answer: CIOH
+
+wrong_answers:
+  - Adressebruk på nytt
+  - Lommebokfingerprinting
+  - Versjonsbruk på nytt
+
+explanation: |
+  Når en analytiker undersøker en payjoin-transaksjon, blir de ledet til å tro at alle inndataene kommer fra samme person på grunn av CIOH. Imidlertid er denne oppfatningen feil, ettersom mottakeren av betalingen også bidrar til inndataene sammen med den faktiske betaleren. Derfor blir kjedeanalysen omdirigert mot en tolkning som viser seg å være falsk.

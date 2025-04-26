@@ -1,9 +1,0 @@
-question: Wie groß ist ein komprimierter öffentlicher Schlüssel?
-answer: 33 Bytes
-wrong_answers:
-  - 32 Bytes
-  - 82 Bytes
-  - 512 Bits
-explanation: |
-  Komprimierte öffentliche Schlüssel haben eine Größe von 33 Bytes. Sie behalten dieselben Informationen wie unkomprimierte Schlüssel bei, sind jedoch kleiner.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Apa peran surat warisan Bitcoin dalam rencana warisan?
+answer: Memandu ahli waris dalam mengakses dana
+wrong_answers:
+  - Untuk berfungsi sebagai Contract untuk mentransfer bitcoin ke ahli waris
+  - Untuk menentukan distribusi pajak atas aset
+  - Untuk mengoptimalkan biaya transfer antar dompet
+explanation: |
+  Surat warisan memberikan instruksi yang jelas dan tepat sehingga orang yang dicintai dapat memperoleh kembali bitcoin tersebut.
+reviewed: false

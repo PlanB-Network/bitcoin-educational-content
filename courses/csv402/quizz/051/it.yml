@@ -1,0 +1,9 @@
+question: Che cos'è una "definizione di sigillo" nel contesto dell'assegnazione RGB?
+answer: Il riferimento a un UTXO che stabilisce la proprietà di uno Stato posseduto
+wrong_answers:
+  - Il raggruppamento dei dati scambiati tra le parti, soggetto a convalida sul lato client
+  - Compilazione dei contratti in codice eseguibile fuori catena
+  - Il ramo DAG della storia della transizione di stato
+explanation: |
+  La "Seal Definition" collega un UTXO a una parte specifica dello stato del contratto, garantendo la corretta assegnazione di un diritto o di un bene.
+reviewed: false

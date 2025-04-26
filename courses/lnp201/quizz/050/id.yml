@@ -1,0 +1,8 @@
+question: Mengapa seorang penjual mungkin melakukan pembayaran fiktif dalam sebuah saluran?
+answer: Untuk memindahkan likuiditas ke sisi yang berlawanan
+wrong_answers:
+  - Untuk mengurangi biaya routing
+  - Untuk meningkatkan kapasitas total dari saluran mereka
+  - Untuk mengunci dana dalam jangka panjang
+explanation: |
+  Dengan melakukan pembayaran fiktif, seorang penjual memindahkan likuiditas dari sisi mereka ke sisi yang berlawanan dari saluran, dengan demikian membebaskan kapasitas masuk untuk menerima pembayaran.

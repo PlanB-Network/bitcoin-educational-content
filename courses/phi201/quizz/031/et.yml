@@ -1,0 +1,9 @@
+question: Mis on Rooma õiguse esimese kirjaliku koodeksi nimi?
+answer: Kaheteistkümne Tabeli Seadus
+wrong_answers:
+  - Hammurabi Koodeks
+  - Digesta
+  - Justinianuse eeskirjad
+explanation: |
+  Kaheteistkümne Tabeli Seadus on Rooma õiguse esimene kirjalik koodeks, mis loodi seaduste formaliseerimiseks ja õigusliku võrdsuse tagamiseks kodanike vahel, muutes seaduse kõigile kättesaadavaks.
+reviewed: false

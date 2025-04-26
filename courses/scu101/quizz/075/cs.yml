@@ -1,0 +1,9 @@
+question: Jaké vlastnosti má dobré heslo?
+answer: Dlouhé, složité a jedinečné.
+wrong_answers:
+  - Krátké, jednoduché a snadno zapamatovatelné.
+  - Založené na osobních údajích.
+  - Identické pro všechny účty.
+explanation: |
+  Dobré heslo by mělo být dostatečně dlouhé, složité a nemělo by být znovu použito.
+reviewed: false

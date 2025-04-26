@@ -1,9 +1,12 @@
-question: Qual é a principal vantagem do Bitcoin em relação a outras formas de moeda?
-answer: Ele oferece uma excelente reserva de valor devido à sua oferta estritamente limitada e neutralidade.
+question: Qual é a principal vantagem do Bitcoin sobre outras formas de moeda?
+answer: Oferece um excelente armazenamento de valor devido ao seu fornecimento estritamente limitado e neutralidade.
 wrong_answers:
-  - É indivisível e transportável
-  - Está sujeito à inflação monetária
-  - É amplamente aceito no comércio
+  - É indivisível e não-transportável.
+  - É um ótimo exemplo de moeda que sofre inflação monetária.
+  - É amplamente aceito no comércio por todos os comerciantes do mundo.
 explanation: |
-  A principal vantagem do Bitcoin em relação a outras formas de moeda é que ele oferece uma excelente reserva de valor devido à sua oferta estritamente limitada e à falta de uma parte confiável. Isso o torna uma boa escolha para economias de longo prazo.
-reviewed: false
+  A principal vantagem do Bitcoin sobre outras formas de moeda
+  é que ele oferece um excelente armazenamento de valor devido ao seu
+  fornecimento estritamente limitado e sua falta de parte confiável. Isso
+  o torna uma boa escolha para economias de longo prazo.
+reviewed: true

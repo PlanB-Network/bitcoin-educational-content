@@ -1,0 +1,9 @@
+question: Hva er hensikten med terminalforsendelse i RGB-overføringsprosessen?
+answer: Oppgi historikk for statlige overganger
+wrong_answers:
+  - Valider Genesis-kontrakten
+  - Slett gamle overganger
+  - Generer et nytt skjema for overføringen
+explanation: |
+  Terminalforsendelsen samler historikken til kontrakten for å bevise legitimiteten til eiendelen som er overført til dags dato.
+reviewed: false

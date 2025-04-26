@@ -1,0 +1,9 @@
+question: Milline andmekandja on soovitatav oma Mnemonic fraasi turvaliseks varundamiseks?
+answer: Metallist varukoopia koos pitseeritud läbipaistmatu ümbrikuga
+wrong_answers:
+  - Krüpteeritud USB-ketta salvestamine
+  - Läbipaistva ümbrisega paberkandjal varukoopia
+  - Varundamine turvalises pilves
+explanation: |
+  Katastroofikindel metallvaramu pakub pikaajalist kaitset kahjustuste ja volitamata juurdepääsu eest. Pitseeritud läbipaistmatu ümbrik võimaldab kontrollida, kas keegi on Mnemonic fraasile ligi pääsenud.
+reviewed: false

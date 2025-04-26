@@ -1,9 +1,0 @@
-question: Quel est le but du HTLC-out dans la transaction d'engagement d'Alice ?
-answer: Il représente le HTLC qu'Alice envoie au destinataire, Susie.
-wrong_answers:
-  - Il représente le HTLC qu'Alice reçoit de Bob.
-  - Il représente le HTLC qu'Alice envoie à Bob.
-  - Il représente le HTLC qu'Alice reçoit de Susie.
-explanation: |
-  Dans le scénario donné, Alice envoie un HTLC à Susie. Cela est représenté dans la transaction d'engagement d'Alice comme un HTLC-out.
-reviewed: false

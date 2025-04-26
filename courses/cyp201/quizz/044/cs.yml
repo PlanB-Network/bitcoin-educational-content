@@ -1,12 +1,9 @@
-question: Jaká je role generátorového bodu v eliptické křivce?
-answer: Používá se k výpočtu bodu na eliptické křivce.
+question: Co je entropie v kontextu kryptografie?
+answer: Míra nepředvídatelnosti spojená s náhodným procesem
 wrong_answers:
-  - Používá se k generování nonce.
-  - Používá se k šifrování klíčů.
-  - Používá se k ukládání klíčů.
+  - Metoda pro šifrování citlivých dat
+  - Algoritmus pro výpočet veřejných klíčů
+  - Technika komprese dat
 explanation: |
-  Generátorový bod je specifický bod na eliptické křivce, který se
-  používá při výpočtu dalších bodů na křivce. Používá se při generování
-  veřejných a soukromých klíčů, stejně jako při vytváření a ověřování digitálních
-  podpisů.
+  V kryptografii entropie kvantifikuje úroveň nejistoty nebo chaosu v náhodném zdroji, což je zásadní pro generování bezpečných klíčů.
 reviewed: false

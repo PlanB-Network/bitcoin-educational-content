@@ -1,11 +1,12 @@
 question: What is ransomware?
 answer: A type of malicious software that encrypts user data and demands a ransom to decrypt it.
 wrong_answers:
-  - A type of antivirus software.
-  - A type of software used for data recovery.
-  - A type of software used for data backup.
+  - A type of antivirus software that is capable of cleaning computer cache and cookies upon the payment of a one-time fee.
+  - A type of software used for data recovery, it is becoming quite common in Europe nowadays.
+  - A type of software used for data backup, usually it performs one backup every 7 days.
 explanation: |
-  Ransomware is a type of malicious software that encrypts user data and
-  demands a ransom to decrypt it. It is becoming increasingly common and can be very
-  troublesome for a company or an individual.
-reviewed: false
+  Ransomware is a type of malicious software that encrypts
+  user data and demands a ransom to decrypt it. It is
+  becoming increasingly common and can be very troublesome
+  for a company or an individual.
+reviewed: true

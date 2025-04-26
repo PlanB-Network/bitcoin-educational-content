@@ -1,11 +1,15 @@
-question: Miten Lightning Network voisi mahdollisesti muuttaa maksutapoja?
-answer: Käyttäjiä voitaisiin veloittaa minuutin, tai jopa sekunnin, perusteella ajasta, jonka he käyttävät palvelua
+question: Mikä seuraavista ei ole mikromaksujen keskeinen ominaisuus Lightning-verkossa?
+answer: Pitkät maksuajat.
 wrong_answers:
-  - Käyttäjiä voitaisiin veloittaa kiinteä maksu palvelun käytöstä
-  - Käyttäjiä voitaisiin veloittaa käytetyn datamäärän perusteella
-  - Käyttäjiä voitaisiin veloittaa tekemiensä transaktioiden määrän perusteella
-explanation: >-
-  Lightning Networkin avulla, sen sijaan että maksettaisiin kuukausittainen tilaus
-  palvelusta, käyttäjiä voitaisiin veloittaa minuutin, tai jopa sekunnin, perusteella ajasta,
-  jonka he käyttävät palvelua.
-reviewed: false
+  - Matalat maksut.
+  - Välittömät maksut.
+  - Skaalautuvuus.
+explanation: |
+  Lightning-verkon mikromaksujen avulla käyttäjät voivat
+  nauttia matalista siirtomaksuista, mikä tekee hyvin pienten
+  Bitcoin-määrien lähettämisestä taloudellisesti järkevää. He voivat
+  myös saada välittömiä maksuja, mahdollistaen reaaliaikaiset
+  transaktiot. Lopuksi he voivat saavuttaa skaalautuvuuden, mikä
+  mahdollistaa suuren määrän transaktioiden käsittelyn samanaikaisesti.
+  Näin ollen väärä vastaus on pitkät maksuajat.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Miten Bastiat määrittelee vastuun suhteessa yksilön vapauteen?
+answer: Vastuu on velvollisuus kantaa seuraukset omista teoistaan, olivatpa ne hyviä tai huonoja.
+wrong_answers:
+  - Vastuu on sitoutumista toimimaan aina muiden hyväksi.
+  - Vastuu sisältää tiettyjen päätösten delegoimisen pätevälle auktoriteetille.
+  - Vastuu on velvollisuus noudattaa yhteiskunnan asettamia sääntöjä.
+explanation: |
+  Bastiat näkee vastuun vapauden positiivisena aspektina, velvoittaen jokaisen yksilön täysin omaksumaan valintojensa ja tekojensa seuraukset.
+reviewed: false

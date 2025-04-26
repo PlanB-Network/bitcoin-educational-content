@@ -1,0 +1,9 @@
+question: What type of algebraic structure is the basis of abstract algebra?
+answer: Group
+wrong_answers:
+  - Field
+  - Ring
+  - Matrix
+explanation: |
+  The group is the fundamental algebraic structure on which abstract algebra is based, defined by a set of elements and a binary operation that respects certain properties.
+reviewed: false

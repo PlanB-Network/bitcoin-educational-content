@@ -1,0 +1,9 @@
+question: What is a pseudorandom string?
+answer: A string that appears to come from a uniform variable but is produced by an expansion algorithm
+wrong_answers:
+  - A string generated with an identical probability for each character
+  - A fixed-length string from a natural random event
+  - A random string chosen only from the binary values 0 and 1
+explanation: |
+  A pseudorandom string is produced by an expansion algorithm from a smaller seed, in a way that mimics a uniform selection among all strings of the same length.
+reviewed: false

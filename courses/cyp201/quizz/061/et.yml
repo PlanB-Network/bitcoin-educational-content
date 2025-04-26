@@ -1,0 +1,9 @@
+question: Mis on laiendatud võtme kogusuurus koos kontrollsummaga?
+answer: 82 baiti
+wrong_answers:
+  - 78 baiti
+  - 64 baiti
+  - 128 baiti
+explanation: |
+  Laiendatud võti on ilma kontrollsummat arvestamata 78 baiti ja koos kontrollsummaga 82 baiti.
+üle_vaadatud: false

@@ -1,10 +1,11 @@
-question: Làm thế nào bạn có thể tăng cường bảo mật mặc định cho ví Bitcoin của bạn?
-answer: Bằng cách thêm một cụm mật khẩu vào ví Bitcoin của bạn
+question: Làm thế nào bạn có thể tăng cường bảo mật mặc định cho ví Bitcoin của mình?
+answer: Bằng cách thêm một cụm mật khẩu vào ví Bitcoin của bạn.
 wrong_answers:
-  - Bằng cách thêm một khóa riêng thứ hai vào ví Bitcoin của bạn
-  - Bằng cách thêm một khóa công khai thứ hai vào ví Bitcoin của bạn
-  - Bằng cách thêm một cụm từ ghi nhớ thứ hai vào ví Bitcoin của bạn
+  - Bằng cách thêm một khóa riêng thứ hai vào ví Bitcoin của bạn.
+  - Bằng cách thêm một khóa công khai thứ hai vào ví Bitcoin của bạn.
+  - Bằng cách thêm một cụm từ ghi nhớ thứ hai vào ví Bitcoin của bạn.
 explanation: |
-  Nếu bạn không hài lòng với bảo mật mặc định của ví Bitcoin của bạn,
-  bạn luôn có thể tăng cường nó bằng cách thêm một cụm mật khẩu vào ví Bitcoin của bạn.
-reviewed: false
+  Nếu bạn không hài lòng với mức độ bảo mật mặc định của
+  ví Bitcoin của mình, bạn luôn có thể tăng cường nó bằng cách thêm một
+  cụm mật khẩu vào ví Bitcoin của bạn.
+reviewed: true

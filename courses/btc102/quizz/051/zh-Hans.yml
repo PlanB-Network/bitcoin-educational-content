@@ -1,0 +1,9 @@
+question: 哪种方法既能抵消花掉的比特币，又能保留储蓄？
+answer: 支出和替换
+wrong_answers:
+  - HODLing 和替换
+  - 消费和 HODLing
+  - 交易与支出
+explanation: |
+  花费和替换法包括花费比特币，然后回购相同数量的比特币以保持持有量。
+reviewed: false

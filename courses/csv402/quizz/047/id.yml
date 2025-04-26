@@ -1,0 +1,9 @@
+question: Teknologi apa yang dapat digunakan untuk menggabungkan versi simpanan yang berbeda jika terjadi perbedaan?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Segel sekali pakai
+  - Replikasi Berbasis Log
+explanation: |
+  CRDT memastikan konsistensi data dengan memungkinkan beberapa versi simpanan untuk digabungkan tanpa konflik dari sisi klien.
+reviewed: false

@@ -1,8 +1,10 @@
 question: O que é um nó podado no contexto do Bitcoin?
-answer: Um nó que mantém apenas os últimos N blocos na memória
+answer: Um nó que mantém apenas os últimos N blocos na memória.
 wrong_answers:
-  - Um nó que apenas valida transações
-  - Um nó que apenas transmite informações para outros nós
-  - Um nó que apenas impõe as regras do protocolo Bitcoin
+  - Um nó que apenas valida transações.
+  - Um nó que apenas transmite informações para outros nós.
+  - Um nó que apenas impõe as regras do protocolo Bitcoin.
 explanation: >-
-  Um nó podado no contexto do Bitcoin é um nó que mantém apenas os últimos N blocos na memória.
+  Um nó podado no contexto do Bitcoin é um nó que mantém apenas os
+  últimos N blocos na memória.
+reviewed: true

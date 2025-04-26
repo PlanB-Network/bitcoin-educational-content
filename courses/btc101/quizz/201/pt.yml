@@ -1,9 +1,12 @@
-question: Qual é o objetivo das regulamentações KYC?
-answer: Para combater o financiamento do terrorismo, a evasão fiscal e a lavagem de dinheiro.
+question: Qual é o propósito das regulamentações KYC?
+answer: Combater o financiamento ao terrorismo, evasão fiscal e lavagem de dinheiro.
 wrong_answers:
-  - Para aumentar o preço do Bitcoin.
-  - Para controlar o fornecimento de Bitcoin.
-  - Para impedir que as pessoas comprem Bitcoin.
+  - Aumentar o preço do Bitcoin e fazer com que o usuário pague mais impostos.
+  - Controlar a oferta de Bitcoin.
+  - Impedir que as pessoas comprem Bitcoin.
 explanation: |
-  O texto explica que as regulamentações Know Your Customer (KYC) exigem que os usuários forneçam identificação para combater o financiamento do terrorismo, a evasão fiscal e a lavagem de dinheiro.
-reviewed: false
+  O texto do curso explica que as regulamentações Conheça Seu Cliente (KYC)
+  exigem que os usuários forneçam identificação para
+  combater o financiamento ao terrorismo, evasão fiscal e lavagem
+  de dinheiro.
+reviewed: true

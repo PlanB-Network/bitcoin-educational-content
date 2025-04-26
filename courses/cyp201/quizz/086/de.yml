@@ -1,9 +1,9 @@
-question: Was ist das Ergebnis des HMAC SHA-512 Algorithmus?
-answer: Eine 512-Bit-Nummer, aufgeteilt in zwei Teile; die linken 256 Bits repräsentieren den Haupt-Privatschlüssel, während die rechten 256 Bits den Haupt-Kettencode repräsentieren.
+question: Wie wird die Prüfsumme für SegWit v0-Adressen berechnet, die in bech32 kodiert sind?
+answer: Mit BCH-Codes
 wrong_answers:
-  - Eine 256-Bit-Nummer, die den Haupt-Privatschlüssel repräsentiert.
-  - Eine 256-Bit-Nummer, die den Haupt-Kettencode repräsentiert.
-  - Eine 512-Bit-Nummer, die den Seed repräsentiert.
+  - Durch zweimaliges Anwenden von HASH256
+  - Durch Hinzufügen eines RIPEMD160-Hashs
+  - Durch direkte Kodierung in base64
 explanation: |
-  Das Ergebnis von HMAC SHA-512 ist eine 512-Bit-Nummer, aufgeteilt in zwei Teile; die linken 256 Bits repräsentieren den Haupt-Privatschlüssel, während die rechten 256 Bits den Haupt-Kettencode repräsentieren.
+  Bech32-Adressen verwenden BCH-Codes, um die Prüfsumme zu berechnen.
 reviewed: false

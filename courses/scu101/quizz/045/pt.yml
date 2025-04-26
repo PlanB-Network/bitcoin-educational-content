@@ -1,9 +1,11 @@
 question: Qual é a principal vantagem de usar um gerenciador de senhas?
-answer: Ele ajuda você a criar senhas fortes e lembrá-las, para que você não precise fazer isso.
+answer: Ele ajuda você a criar senhas fortes e a lembrá-las, para que você não tenha que fazer isso.
 wrong_answers:
-  - Ele faz login automaticamente em suas contas online.
+  - Ele faz login automático nas suas contas online.
   - Ele protege seu computador contra vírus.
-  - Ele armazena todas as suas senhas em um só lugar, facilitando a localização delas.
+  - Ele armazena todas as suas senhas em um único lugar, tornando-as mais fáceis de encontrar.
 explanation: |
-  Um gerenciador de senhas ajuda você a criar senhas fortes e lembrá-las, para que você não precise fazer isso. Ele armazena todas as suas senhas de forma segura e gera senhas fortes para você.
-reviewed: false
+  Um gerenciador de senhas ajuda você a criar senhas fortes e
+  a lembrá-las, para que você não tenha que fazer isso. Ele armazena todas as suas
+  senhas de uma maneira segura e gera senhas fortes para você.
+reviewed: true

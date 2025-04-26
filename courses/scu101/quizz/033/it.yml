@@ -1,9 +1,12 @@
-question: Qual è il potenziale svantaggio di creare un backup "cloud" utilizzando servizi come ProtonMail Drive, Sync o Google Drive?
-answer: I tuoi dati sono potenzialmente su internet e detenuti da un terzo fidato.
+question: Qual è lo svantaggio potenziale della creazione di un backup cloud utilizzando servizi come ProtonMail Drive, Sync o Google Drive?
+answer: I tuoi dati sono potenzialmente su internet e gestiti da una terza parte di fiducia.
 wrong_answers:
-  - Questi servizi non sono affidabili per il backup dei dati.
-  - Questi servizi spesso perdono i dati degli utenti.
-  - Questi servizi non forniscono spazio di archiviazione sufficiente.
+  - Questi servizi potenzialmente non sono affidabili per il backup dei dati.
+  - Questi servizi a volte perdono i dati degli utenti e può essere difficile trasferirli ad un altro fornitore cloud.
+  - Questi servizi di solito non forniscono spazio di archiviazione sufficiente e soffrono di bassa velocità di connessione.
 explanation: |
-  Sebbene i servizi di backup cloud offrano un modo conveniente per eseguire il backup dei tuoi dati, ciò significa anche che i tuoi dati sono potenzialmente su internet e detenuti da un terzo fidato. Ciò potrebbe esporre i tuoi dati a rischi aggiuntivi.
-reviewed: false
+  Sebbene i servizi di backup cloud offrano un modo conveniente per
+  fare il backup dei tuoi dati, significano anche che i tuoi dati sono
+  potenzialmente su internet e gestiti da una terza parte di fiducia. Questo potrebbe potenzialmente esporre i tuoi dati a
+  rischi aggiuntivi.
+reviewed: true

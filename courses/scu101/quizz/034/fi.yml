@@ -1,9 +1,11 @@
-question: Mitä sähköpostiliitteet ja kuvat voivat sisältää?
-answer: Haittaohjelmia
+question: Mitä haitallista sisältöä sähköpostin liitteet ja kuvat voivat sisältää?
+answer: Haittaohjelmat
 wrong_answers:
-  - Roskapostia
-  - Mainoksia
-  - Mainossisältöä
+  - Roskaposti
+  - Mainokset
+  - Promootiosisältö
 explanation: |
-  Sähköpostiliitteet ja kuvat voivat sisältää haittaohjelmia. Siksi sinun ei tulisi ladata tai avata liitteitä tuntemattomilta tai epäilyttäviltä lähettäjiltä.
-reviewed: false
+  Sähköpostin liitteet ja kuvat voivat sisältää haittaohjelmia.
+  Siksi sinun ei tulisi ladata tai avata liitteitä
+  tuntemattomilta tai epäilyttäviltä lähettäjiltä.
+reviewed: true

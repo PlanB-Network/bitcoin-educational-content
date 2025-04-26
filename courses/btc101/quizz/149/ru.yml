@@ -1,0 +1,8 @@
+question: Что такое Сеть Lightning?
+answer: Мгновенная платежная сеть Bitcoin, использующая блокчейн Bitcoin
+wrong_answers:
+  - Отдельная блокчейн-сеть, не связанная с блокчейном Bitcoin
+  - Сеть майнеров Bitcoin
+  - Сеть бирж Bitcoin
+explanation: Сеть Lightning - это мгновенная платежная сеть Bitcoin, которая использует блокчейн Bitcoin.
+reviewed: false

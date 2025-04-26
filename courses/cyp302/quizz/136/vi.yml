@@ -1,0 +1,9 @@
+question: Dịch vụ trực tuyến làm thế nào để xác minh mật khẩu mà không cần lưu trữ trực tiếp?
+answer: Bằng cách so sánh bản hash của mật khẩu đã nhập với bản hash trong cơ sở dữ liệu
+wrong_answers:
+  - Bằng cách giải mã mật khẩu đã lưu để xác minh
+  - Bằng cách sử dụng khóa công khai để xác minh danh tính
+  - Bằng cách so sánh trực tiếp mật khẩu với mật khẩu của người dùng khác
+explanation: |
+  Dịch vụ tạo ra một bản hash của mật khẩu đã nhập và so sánh nó với bản hash đã lưu, mà không bao giờ lưu trữ trực tiếp mật khẩu, như vậy đảm bảo tăng cường an ninh.
+reviewed: false

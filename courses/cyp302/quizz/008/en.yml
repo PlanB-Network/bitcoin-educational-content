@@ -1,0 +1,9 @@
+question: What is the branch of cryptography that uses a pair of public and private keys called?
+answer: Asymmetric cryptography
+wrong_answers:
+  - Symmetric cryptography
+  - Mono-algorithmic cryptography
+  - Integrative cryptography
+explanation: |
+  Asymmetric cryptography is based on the use of a pair of keys, public and private, allowing encryption without sharing a secret key.
+reviewed: false

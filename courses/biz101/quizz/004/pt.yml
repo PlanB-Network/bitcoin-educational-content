@@ -1,0 +1,9 @@
+question: O que caracteriza a complexidade do atual processo de pagamento com cartão num ponto de venda a retalho?
+answer: Envolve vários intermediários, várias etapas e pode levar dias até à liquidação total dos fundos.
+wrong_answers:
+  - Requer apenas um passo imediato e os fundos são liquidados imediatamente.
+  - Baseia-se exclusivamente em numerário físico e sem intermediários.
+  - Garante que, assim que o cartão é passado, o comerciante recebe os fundos de forma instantânea e irreversível.
+explanation: |
+  Os pagamentos com cartão envolvem frequentemente uma cadeia de intermediários (adquirentes, emissores, redes de cartões), requerem etapas de autorização e liquidação e podem demorar entre 48 horas e vários dias até que o comerciante receba os fundos líquidos.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilket element manglet i utformingen av Bitcoin den 31. oktober 2008?
+answer: Det endelige antallet enheter
+wrong_answers:
+  - Proof of work
+  - Forenklet betalingsverifisering
+  - Blokkjeden
+explanation: |
+  Den opprinnelige pengepolitikken tilsa en konstant utstedelse (X BTC/blokk) som angitt av den første versjonen av whitepaperet og Satoshis [utvekslinger](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) med Ray Dillinger.
+reviewed: false

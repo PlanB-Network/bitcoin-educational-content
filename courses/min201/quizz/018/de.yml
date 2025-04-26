@@ -1,9 +1,12 @@
-question: Was ist das Prinzip von Attakai im Zusammenhang mit dem Bitcoin-Mining?
-answer: Das Prinzip von Attakai bezieht sich auf die produktive Nutzung von durch das Bitcoin-Mining erzeugter Wärme.
+question: Was ist das Prinzip von Attakai im Kontext des Bitcoin-Minings?
+answer: Das Prinzip von Attakai bezieht sich auf die produktive Nutzung der Wärme, die beim Bitcoin-Mining entsteht.
 wrong_answers:
-  - Das Prinzip von Attakai bezieht sich auf die Verwendung erneuerbarer Energiequellen für das Bitcoin-Mining.
-  - Das Prinzip von Attakai bezieht sich auf den Einsatz fortschrittlicher Kühlsysteme beim Bitcoin-Mining.
-  - Das Prinzip von Attakai bezieht sich auf den Einsatz von energieeffizienter Hardware beim Bitcoin-Mining.
+  - Das Prinzip von Attakai bezieht sich auf die Nutzung erneuerbarer Energiequellen für das Bitcoin-Mining.
+  - Das Prinzip von Attakai bezieht sich auf die Nutzung fortschrittlicher Kühlsysteme im Bitcoin-Mining.
+  - Das Prinzip von Attakai bezieht sich auf die Nutzung von Hardware mit geringem Energieverbrauch im Bitcoin-Mining.
 explanation: |
-  Das Prinzip von Attakai bezieht sich auf die Idee der Dezentralisierung des Minings durch die produktive Nutzung der erzeugten Wärme. Dieses Konzept legt nahe, dass energieintensive Einrichtungen von der Wärme profitieren könnten, die von den Minern erzeugt wird, um ihre Räumlichkeiten zu beheizen.
-reviewed: false
+  Das Prinzip von Attakai bezieht sich auf die Idee,
+  das Mining durch die produktive Nutzung der
+  erzeugten Wärme zu dezentralisieren. Dieses Konzept legt nahe, dass energieintensive
+  Einrichtungen von der Wärme, die durch Miner erzeugt wird, profitieren könnten, um ihre Anlagen zu erwärmen.
+reviewed: true

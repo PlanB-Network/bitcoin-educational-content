@@ -1,0 +1,13 @@
+question: What is the role of a coinjoin coordinator?
+
+answer: Connect participants and construct the transaction.
+
+wrong_answers:
+  - Encrypt participant data for transaction confidentiality.
+  - Keep a record of previous coinjoins for security audits.
+  - Receive bitcoins from participants to mix them.
+
+explanation: |
+  The role of coordinators is to connect the different users and to construct and then broadcast the collaborative transaction.
+
+reviewed: false

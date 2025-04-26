@@ -1,0 +1,8 @@
+question: Apa dampak dari masalah distribusi dan manajemen kunci sebelum tahun 1970-an?
+answer: Mereka membatasi keamanan dan efisiensi komunikasi skala besar
+wrong_answers:
+  - Mereka mencegah transmisi pesan terenkripsi pada jaringan publik
+  - Mereka memerlukan kunci publik untuk setiap pesan
+  - Mereka mewajibkan penggunaan kriptografi homomorfik
+explanation: |
+  Sebelum tahun 1970-an, masalah dengan distribusi dan manajemen kunci membuatnya sulit untuk mengamankan komunikasi pada skala besar, sehingga menghambat pengembangan aplikasi modern seperti belanja online.

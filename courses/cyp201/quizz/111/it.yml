@@ -1,9 +1,0 @@
-question: Qual è lo scopo del Depth 2 nella struttura dell'HD Wallet?
-answer: Permette la differenziazione dei conti per diverse criptovalute o reti.
-wrong_answers:
-  - Viene utilizzato per derivare chiavi figlie per uno scopo specifico.
-  - Viene utilizzato per gli indirizzi di ricezione in un portafoglio standard.
-  - Corrisponde alle catene esterne e interne.
-explanation: |
-  Nella struttura dell'HD Wallet, il Depth 2 consente la differenziazione dei conti per diverse criptovalute o reti. Ciò consente di organizzare il portafoglio in base a diverse fonti di fondi.
-reviewed: false

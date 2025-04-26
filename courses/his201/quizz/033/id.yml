@@ -1,0 +1,9 @@
+question: Penambang mana dari tahun 2009 yang kehilangan semua bitcoinnya dengan membuang komputernya ke tempat pembuangan sampah pada tahun 2013?
+answer: James Howells
+wrong_answers:
+  - Dustin Trammell
+  - Martti Malmi
+  - NewLibertyStandard
+explanation: |
+  Insinyur asal Inggris ini telah menghasilkan 8,000 bitcoin dengan komputernya antara Februari dan April 2009. Kasusnya dipublikasikan oleh [Guardian](https: //www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvordan skiller en kredittkorttransaksjon seg vanligvis fra en enkel kontanttransaksjon?
+answer: Det involverer flere mellomledd
+wrong_answers:
+  - Det skjer umiddelbart, uten mellomledd
+  - Det krever kun fysisk veksling av valuta
+  - Den krever at begge parter produserer identiske varer
+explanation: |
+  I motsetning til kontanter, som utveksles umiddelbart, går kredittkorttransaksjoner gjennom en rekke trinn som involverer banker, kortnettverk og clearingprosesser, noe som fører til forsinkelser og ekstra kostnader.
+reviewed: false

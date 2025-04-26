@@ -1,0 +1,11 @@
+question: Hva er rollen til private nøkler i Bitcoin-transaksjoner?
+answer: De brukes til å signere og autorisere transaksjoner.
+wrong_answers:
+  - De brukes til å verifisere autentisiteten til transaksjoner.
+  - De brukes til å kryptere transaksjonsdataene.
+  - De deles offentlig for gjennomsiktighet.
+explanation: |
+  Private nøkler er en essensiell komponent i Bitcoin-transaksjoner.
+  De brukes til å signere og autorisere transaksjoner, noe som gir bevis
+  på eierskap og sikrer at kun eieren kan bruke sine bitcoin. 
+reviewed: true

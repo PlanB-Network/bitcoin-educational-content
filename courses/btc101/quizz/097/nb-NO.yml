@@ -1,0 +1,11 @@
+question: Hva skjer hvis din private nøkkel blir avslørt for en tredjepart?
+answer: De tilknyttede midlene er ikke lenger sikre
+wrong_answers:
+  - Tredjeparten kan kun se din transaksjonshistorikk
+  - Tredjeparten kan endre din private nøkkel
+  - Tredjeparten kan få tilgang til din personlige informasjon
+explanation: |
+  Hvis din private nøkkel blir avslørt for en tredjepart, er de tilknyttede midlene
+  ikke lenger sikre. Dette er fordi den private nøkkelen representerer tilgang til
+  dine midler.
+reviewed: true

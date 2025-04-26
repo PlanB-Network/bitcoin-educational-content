@@ -1,9 +1,10 @@
-question: Welche Auswirkungen hat eine Inflation von 2% auf die Kaufkraft über 5 Jahre?
+question: Welche Auswirkungen hat eine 2%ige Inflation auf die Kaufkraft über 5 Jahre?
 answer: Sie verlieren 10% Ihrer Kaufkraft.
 wrong_answers:
   - Sie verlieren 2% Ihrer Kaufkraft.
   - Sie verlieren 5% Ihrer Kaufkraft.
   - Sie verlieren 20% Ihrer Kaufkraft.
 explanation: |
-  Mit einer Inflation von 2% verlieren Sie jährlich 2% Ihrer Kaufkraft, was sich über 5 Jahre auf insgesamt 10% summiert.
-reviewed: false
+  Bei einer Inflation von 2% verlieren Sie jährlich 2% Ihrer Kaufkraft,
+  was über 5 Jahre hinweg 10% entspricht.
+reviewed: true

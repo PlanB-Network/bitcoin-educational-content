@@ -1,0 +1,9 @@
+question: Jak RGB zlepšuje škálovatelnost ve srovnání s tradičním blockchainem?
+answer: Omezením ukládání a ověřování pouze na relevantní stavové přechody
+wrong_answers:
+  - Praktickým zvětšením velikosti bloků Bitcoinu
+  - Propojení každé smlouvy přímo se všemi UTXO
+  - Soustředěním údajů o smlouvách na několika centrálních serverech
+explanation: |
+  RGB snižuje nároky na ukládání a ověřování tím, že uchovává pouze data relevantní pro každého účastníka.
+reviewed: false

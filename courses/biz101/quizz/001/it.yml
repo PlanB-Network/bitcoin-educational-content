@@ -1,0 +1,9 @@
+question: Perché la scarsità è considerata una proprietà importante di una buona moneta?
+answer: Perché l'offerta limitata protegge il suo valore dall'essere diluito dalla sovrapproduzione.
+wrong_answers:
+  - Perché garantisce che ognuno possa facilmente coniare la propria moneta.
+  - Perché rende più difficile il riconoscimento della valuta.
+  - Perché scoraggia l'uso della moneta nel commercio a distanza.
+explanation: |
+  Una moneta con scarsità controllata mantiene il suo potere d'acquisto nel tempo. Senza scarsità, un'emissione eccessiva potrebbe portare all'inflazione, erodendo il valore della moneta.
+reviewed: false

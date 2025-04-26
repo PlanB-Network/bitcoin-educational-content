@@ -1,0 +1,9 @@
+question: Mitmeks osaks jaguneb HMAC-SHA512 funktsiooni rakendamisel seemnele saadud väljund?
+answer: Kaheks osaks, igaüks 256 bitti
+wrong_answers:
+  - Üheks terviklikuks osaks, 512 bitti
+  - Kolmeks osaks, igaüks 170 bitti
+  - Neljaks osaks, igaüks 128 bitti
+explanation: |
+  HMAC-SHA512 väljund jaguneb kaheks osaks: peamine privaatvõti (256 bitti) ja peamine ahelakood (256 bitti).
+reviewed: false

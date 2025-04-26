@@ -1,0 +1,9 @@
+question: ¿Qué utiliza el perfil Essential para ayudar a los empleados a procesar los pagos en el TPV?
+answer: Creación de un menú con los precios de los artículos en la aplicación PoS
+wrong_answers:
+  - Un libro de contabilidad manual para registrar las ventas
+  - Un sistema de facturas en papel para cada transacción
+  - Un sistema automático de registro contable de las transacciones del TPV
+explanation: |
+  La aplicación PoS del perfil Essential permite a los empleados seleccionar artículos de un menú preestablecido, lo que agiliza el proceso de facturación.
+reviewed: false

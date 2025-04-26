@@ -1,0 +1,9 @@
+question: Jaký je hlavní argument Jacquese Rueffa ohledně měny?
+answer: Papírové peníze jsou nebezpečné a vedou k dirigismu
+wrong_answers:
+  - Papírové peníze jsou stabilní a předvídatelné
+  - Papírové peníze jsou nezbytné pro ekonomický rozvoj
+  - Papírové peníze musí být kryty fyzickými aktivy
+explanation: |
+  Jacques Rueff věřil, že papírové peníze, tím že usnadňují kontrolu ekonomiky autoritami, podporují dirigismus a představují rizika pro měnovou stabilitu.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 2FA中一个常见的第二步是什么？
+answer: 由应用程序（如Google Authenticator或Authy）生成的代码。
+wrong_answers:
+  - 给账户持有者打电话
+  - 给账户持有者发送电子邮件
+  - 发送信件到账户持有者的家庭地址
+explanation: |
+  2FA的第二步可以是通过短信发送的临时代码、由应用程序生成的代码，或是一个物理安全密钥。

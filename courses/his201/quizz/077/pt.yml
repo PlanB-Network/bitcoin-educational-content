@@ -1,0 +1,9 @@
+question: Em que data foi criada a lista de discussão sobre o desenvolvimento do bitcoin?
+answer: 12 de junho de 2011
+wrong_answers:
+  - 13 de janeiro de 2011
+  - 7 de março de 2011
+  - 19 de setembro de 2011
+explanation: |
+  Foi criada pelo desenvolvedor Jeff Garzik e permitiu discussões formais sobre mudanças a serem feitas no Bitcoin.
+reviewed: false

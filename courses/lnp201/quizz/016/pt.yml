@@ -1,9 +1,9 @@
-question: Qual é a importância do endereço multi-sig 2/2 no processo de abertura de um canal na Lightning Network?
-answer: É o endereço para o qual Alice envia dinheiro para abrir o canal.
+question: Quando uma transação de compromisso é publicada na blockchain do Bitcoin?
+answer: Eventualmente quando o canal é fechado
 wrong_answers:
-  - É o endereço do qual Alice envia dinheiro para abrir o canal.
-  - É o endereço para o qual Bob envia dinheiro para abrir o canal.
-  - É o endereço do qual Bob envia dinheiro para abrir o canal.
+  - Imediatamente após cada transferência no canal
+  - Antes de cada nova transação de compromisso
+  - Quando os fundos disponíveis estão esgotados
 explanation: |
-  No processo de abertura de um canal, Alice cria um endereço multi-sig 2/2 usando os endereços públicos dela e de Bob. Em seguida, ela faz uma transação de bitcoin para enviar dinheiro para esse endereço e abrir o canal.
+  As transações de compromisso são construídas e assinadas para cada mudança na alocação, mas elas são publicadas na blockchain apenas eventualmente, no evento de fechamento do canal.
 reviewed: false

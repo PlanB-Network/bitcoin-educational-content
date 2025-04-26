@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal argumento de Jacques Rueff respecto a la moneda?
+answer: El dinero de papel es peligroso y conduce al dirigismo
+wrong_answers:
+  - El dinero de papel es estable y predecible
+  - El dinero de papel es necesario para el desarrollo económico
+  - El dinero de papel debe estar respaldado por activos físicos
+explanation: |
+  Jacques Rueff creía que el dinero de papel, al facilitar el control de la economía por parte de las autoridades, favorecía el dirigismo y representaba riesgos para la estabilidad monetaria.
+reviewed: false

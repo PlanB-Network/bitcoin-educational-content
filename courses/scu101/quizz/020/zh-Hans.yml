@@ -1,0 +1,8 @@
+question: Windows中内置的杀毒软件是什么？
+answer: Windows Defender
+wrong_answers:
+  - 卡巴斯基
+  - 诺顿
+  - 麦咖啡
+explanation:
+  Windows Defender是Windows中的内置杀毒软件。它是一种安全有效的解决方案，用于保护系统免受威胁。

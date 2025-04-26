@@ -1,0 +1,9 @@
+question: Apa konsep mendasar di balik protokol RGB?
+answer: Validasi dari sisi pelanggan melalui komitmen kriptografi on-chain
+wrong_answers:
+  - Validasi on-chain dengan kontrak pintar yang lengkap dengan Turing
+  - Penggunaan eksklusif transaksi Bitcoin yang tidak terenkripsi
+  - Eksekusi kontrak pada blockchain yang didedikasikan untuk kontrak pintar
+explanation: |
+  RGB didasarkan pada model validasi sisi klien di mana komitmen (melalui Taproot atau OP_RETURN) dimasukkan secara on-chain, sementara sebagian besar logika dan data disimpan di luar rantai.
+reviewed: false

@@ -1,9 +1,9 @@
-question: ¿Cuál es la relación entre la clave privada maestra y las claves extendidas de la billetera?
-answer: La clave privada maestra es la primera clave privada derivada de la semilla y no tiene ninguna conexión con las claves extendidas de la billetera.
+question: ¿Cuál es la característica única de las direcciones SegWit v1 (P2TR) en comparación con las direcciones SegWit v0?
+answer: Utilizan directamente la clave pública cruda en la dirección.
 wrong_answers:
-  - La clave privada maestra se deriva de las claves extendidas de la billetera.
-  - La clave privada maestra es igual a las claves extendidas de la billetera.
-  - La clave privada maestra se utiliza para generar las claves extendidas de la billetera.
+  - Están codificadas en base58check.
+  - Requieren dos firmas para ser válidas.
+  - Utilizan el hash de la clave pública en la dirección.
 explanation: |
-  La clave privada maestra es la primera clave privada derivada de la semilla y no tiene ninguna conexión con las claves extendidas de la billetera.
+  Las direcciones SegWit v1 (P2TR) no utilizan un hash de la clave pública, sino directamente la clave pública Taproot.
 reviewed: false

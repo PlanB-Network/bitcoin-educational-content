@@ -1,0 +1,9 @@
+question: Kdy došlo k první výměně mezi bitcoinem a dolarem?
+answer: 12. října 2009
+wrong_answers:
+  - 8. května 2009
+  - 30. prosince 2009
+  - 11. března 2010
+explanation: |
+  Martti převedl 5 050 bitcoinů na NLS, který poté převedl 5,02 dolaru na svůj účet PayPal. To odpovídalo jednotkové ceně přibližně 0,001 dolaru.
+reviewed: false

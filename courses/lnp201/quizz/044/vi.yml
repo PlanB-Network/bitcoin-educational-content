@@ -1,9 +1,9 @@
-question: Loại đóng kênh nào nhanh nhất và ít tốn kém nhất?
-answer: Đóng kênh hợp tác.
+question: Khi một tuyến đường thanh toán thất bại do thiếu thanh khoản, nút gửi sẽ làm gì?
+answer: Nó sẽ thử một tuyến đường khác cho đến khi tìm được một tuyến đường hoạt động
 wrong_answers:
-  - Đóng kênh bắt buộc.
-  - Đóng kênh bởi kẻ gian lận.
-  - Không có sự khác biệt về tốc độ và chi phí giữa các loại đóng kênh.
+  - Nó tự động gửi yêu cầu hoàn tiền cho người nhận
+  - Nó đóng kênh và tạo một kênh trực tiếp mới
+  - Nó yêu cầu các nút trung gian tăng thanh khoản của họ
 explanation: |
-  Trong việc đóng kênh hợp tác, cả hai bên giao tiếp và đồng ý về trạng thái cuối cùng của kênh. Đây là lựa chọn nhanh nhất và ít tốn kém nhất.
+  Khi một tuyến đường thất bại, nút gửi sẽ thử các tuyến đường thay thế khác cho đến khi tìm được một đường đi hoạt động, hoặc tất cả các lựa chọn đều được thử qua.
 reviewed: false

@@ -1,11 +1,11 @@
---- 
+---
 name: Surfin' Bitcoin 2021
 description: L’édition 2021 de Surfin’ Bitcoin a accueilli plus de 700 personnes au Casino de Biarritz pendant 2 jours pour parler, échanger et débattre autour de Bitcoin (et du Lightning Network, le thème principal de la conférence). Face à la Grande Plage se sont réuni une bonne partie de l’écosystème du Bitcoin Français (et francophone), un public passionné de Bitcoin, mais aussi des personnes curieuses souhaitant découvrir ce qu’est Bitcoin loin des discours stéréotypés des médias grand public.
 ---
 
 # Main Stage
 
-## Lighting Network au El Salvador 
+## Lighting Network au El Salvador
 
 ![video](https://youtu.be/GDEvm6lqDJk?si=30javK1j2u5f74G9)
 
@@ -23,11 +23,11 @@ Speaker: Yorick de Mombynes
 
 Speaker: Sebastien Gouspillou
 
-## L'or plus "énergivore" que Bitcoin ?! 
+## L'or plus "énergivore" que Bitcoin ?!
 
 ![video](https://youtu.be/mduJupwcuyc?si=9mtGjhgIHinQ4pXR)
 
-Speaker: Pierre Noizat 
+Speaker: Pierre Noizat
 
 ## Nocoiner : voilà pourquoi il ne faut pas douter de bitcoin !
 
@@ -46,7 +46,7 @@ Speaker: Pascal Gauthier & Charles Guillemet
 
 ![video](https://youtu.be/XwYxItVivMU?si=1S4qRBQUzDL8d0AA)
 
-Speaker: [Faustine Fleuret & William O'rorke]
+Speaker: Faustine Fleuret & William O'rorke
 
 ## La finance de demain avec Lightning Network & Bitcoin
 
@@ -58,7 +58,7 @@ Speaker: Romain Rouphaël, Bastien Teinturier et Antoine Poinsot
 
 ![video](https://youtu.be/rVK0T_ZKqKg?si=2QVMXY7qqAR892E0)
 
-Speaker:  Mark Zeller (intégrateur chez AAVE),  Laurent Weisan (nodl.it) et Sosthene (développeur indépendant). 
+Speaker:  Mark Zeller (intégrateur chez AAVE),  Laurent Weisan (nodl.it) et Sosthene (développeur indépendant).
 
 ## Quand Bitcoin sauve les épargnants de la ruine
 
@@ -78,7 +78,7 @@ Speaker: Nicolas Chéron , Mathieu Jamar , Vincent Boy
 
 Speaker: Nicolas Chéron
 
-## Payer sans tiers de confiance ? Une réalité avec Bitcoin 
+## Payer sans tiers de confiance ? Une réalité avec Bitcoin
 
 ![video](https://youtu.be/zok1Ss3Uk8o?si=V3R2rMPPA2o9lUw_)
 
@@ -94,15 +94,15 @@ Speaker: Gilles Cadignan
 
 ![video](https://youtu.be/DouDH1wo9Tw?si=PxSM4uKFhP587TD2)
 
-Speaker: Ferghane Azihari 
+Speaker: Ferghane Azihari
 
-## Quelle crypto pourrait remplacer Bitcoin ? 
+## Quelle crypto pourrait remplacer Bitcoin ?
 
 ![video](https://youtu.be/YHNvJtoP9E0?si=7c5ZokNehoMj7_cQ)
 
 Speaker: Gilles Cadignan, Marc Zeller & Thibaud Maréchal
 
-## Bitcoin : les nouvelles fondations du XXI° siècle. Technologie, pouvoir, révolution 
+## Bitcoin : les nouvelles fondations du XXI° siècle. Technologie, pouvoir, révolution
 
 ![video](https://youtu.be/734oBm8drOg?si=GteEFrbUWW0wp9Rf)
 

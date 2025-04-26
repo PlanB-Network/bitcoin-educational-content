@@ -1,0 +1,13 @@
+question: Apa itu virgin bitcoins?
+answer: Bitcoin yang baru ditambang yang belum pernah digunakan dan tidak memiliki riwayat apapun.
+wrong_answers:
+  - Bitcoin yang telah digunakan dalam aktivitas ilegal.
+  - Bitcoin yang telah hilang atau terlupakan.
+  - Bitcoin yang telah disimpan dalam dompet untuk waktu yang lama.
+explanation: |
+  Virgin bitcoins adalah bitcoin yang baru ditambang yang belum
+  pernah digunakan dan tidak memiliki riwayat apapun. Bitcoin
+  ini sering dianggap lebih berharga karena mereka belum pernah
+  tercemar, memberikan beberapa jaminan terhadap penolakan oleh
+  regulator atau platform pertukaran besar.
+reviewed: true

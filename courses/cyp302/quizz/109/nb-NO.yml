@@ -1,0 +1,8 @@
+question: Hvilken type angrep kan et sekvensnummer forhindre i en sikker kommunikasjonssesjon?
+answer: Replay- og omorganiseringsangrep
+wrong_answers:
+  - Passive avlyttingsangrep
+  - Tjenestenektangrep
+  - Nøkkelspoofingangrep
+explanation: |
+  Et sekvensnummer i hver melding forhindrer replay- og omorganiseringsangrep, ettersom det tillater verifisering av rekkefølgen og unikheten til meldingene.

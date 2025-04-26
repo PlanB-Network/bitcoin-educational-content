@@ -1,9 +1,0 @@
-question: Qual è il compito più semplice per gestire la liquidità sulla Lightning Network?
-answer: Aprire canali per i compratori
-wrong_answers:
-  - Connettersi ad altri nodi per i commercianti
-  - Mantenere un equilibrio di liquidità su entrambi i lati per i nodi di routing
-  - Acquistare canali per i commercianti
-explanation: |
-  Per i compratori sulla Lightning Network, il compito più semplice per gestire la liquidità è l'apertura dei canali. Questo fornisce loro liquidità in uscita.
-reviewed: false

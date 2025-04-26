@@ -1,0 +1,9 @@
+question: What key size is considered secure against brute force attacks for modern encryption?
+answer: 128 bits
+wrong_answers:
+  - 16 bits
+  - 64 bits
+  - 100 bits
+explanation: |
+  With a key of at least 128 bits, modern encryption is currently considered secure against brute force attacks, as the number of attempts would be unrealistic.
+reviewed: false

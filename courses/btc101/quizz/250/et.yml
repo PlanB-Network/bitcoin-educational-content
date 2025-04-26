@@ -1,0 +1,11 @@
+question: Mis on üks peamisi muresid pangandussüsteemi pärast?
+answer: Pangandusmängu reeglid ei ole läbipaistvad ega arusaadavad kõigile.
+wrong_answers:
+  - Pangandussüsteem on liiga lihtne mõista.
+  - Pangandussüsteem on liiga läbipaistev.
+  - Pangandussüsteem on liiga detsentraliseeritud.
+explanation: >-
+  Tekstis mainitakse, et küsimus selle kohta, kes peaks pangandussüsteemi
+  kontrollima, on oluline, kuna pangandusmängu reeglid ei ole läbipaistvad ega
+  arusaadavad kõigile.
+reviewed: false

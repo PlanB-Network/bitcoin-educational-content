@@ -1,0 +1,8 @@
+question: 在Lightning Network的背景下，“资金流动”概念是什么？
+answer: 每分钟进行微交易
+wrong_answers:
+  - 为比特币流式传输视频内容
+  - 为比特币流式传输音频内容
+  - 实时流式传输比特币交易
+explanation: >-
+  通过Lightning Network，我们可以每分钟进行微交易，这为尝试基于消费者所消费内容付费的经济模型打开了大门。

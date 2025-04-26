@@ -1,0 +1,9 @@
+question: Apa inspirasi utama Satoshi Nakamoto selama desain awal Bitcoin?
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-money (Wei Dai)
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  Meskipun memiliki kesamaan yang besar, model dari b-money, bit gold, dan RPOW bukanlah inspirasi utama Satoshi, karena dia sederhananya tidak mengetahuinya sebelum Agustus 2008.
+reviewed: false

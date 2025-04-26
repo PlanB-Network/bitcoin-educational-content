@@ -1,10 +1,11 @@
-question: Mikä on yksi menetelmä turvata bitcoinsisi pitkällä aikavälillä?
-answer: Kaiverra mnemoninen lauseesi kestävään materiaaliin, kuten teräkseen
+question: Mikä on yksi menetelmä turvata bitcoinsi pitkällä aikavälillä?
+answer: Kaiverruttamalla muistisanesi kestävälle materiaalille, kuten teräkselle.
 wrong_answers:
-  - Säilytä ne digitaalisessa lompakossa
-  - Pidä ne vaihtoalustalla
-  - Jaa mnemoninen lauseesi luotettavan ystävän kanssa
+  - Säilyttämällä niitä kuumassa lompakossa.
+  - Pitämällä niitä vaihtoalustalla.
+  - Jakamalla muistisanesi työkaverin kanssa.
 explanation: |
-  Kaivertamalla mnemonisen lauseesi kestävään materiaaliin, kuten teräkseen, luot fyysisen varmuuskopion avaimistasi, joka on kestävä sekä vesivahinkoja että tulipaloa vastaan,
-  näin ollen turvaten bitcoinsisi pitkällä aikavälillä.
-reviewed: false
+  Muistisanesi kaiverruttaminen kestävälle materiaalille, kuten
+  teräkselle, luo fyysisen varmuuskopion avaimistasi, joka on
+  kestävä sekä vesivahinkoja että tulipaloa vastaan, näin ollen turvaten bitcoinsisi pitkällä aikavälillä.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Comment appelle-t-on un problème où il est facile de calculer un résultat dans un sens mais presque impossible de revenir en arrière ?
+answer: Une fonction à sens unique
+wrong_answers:
+  - Une fonction linéaire
+  - Une fonction exponentielle
+  - Une fonction réversible
+explanation: |
+  Les fonctions à sens unique permettent un calcul rapide dans une direction, mais rendent la résolution inversement impossible en pratique, d'où leur utilité en cryptographie.
+reviewed: false

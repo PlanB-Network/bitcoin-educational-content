@@ -1,9 +1,9 @@
-question: ビットコインの上限はいくつですか？
-answer: 2100万
+question: ほぼ即時の決済を可能にするセカンドLayerプロトコルは？
+answer: Lightning Network
 wrong_answers:
-  - 1億
-  - 10億
-  - 上限なし
+  - サイドチェーン
+  - RGB
+  - Bitcoin コア
 explanation: |
-  この章では、ビットコインの数は2100万を超えることはないと述べられています。
-  この上限はビットコインのプロトコルにサトシによって設定され、今日変更することはできません。
+  Lightning Networkは、Bitcoin Blockchainの外でoff-chainのオペレーションを通じて、高速かつ低コストの取引を可能にする。
+reviewed: false

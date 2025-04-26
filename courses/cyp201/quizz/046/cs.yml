@@ -1,9 +1,9 @@
-question: Jaký význam má bod v nekonečnu v algoritmu ECDSA?
-answer: Pokud je vypočítaný bod P bodem v nekonečnu, podpis je neplatný.
+question: Kolik bitů má kontrolní součet pro entropii 128 bitů?
+answer: 4 bity
 wrong_answers:
-  - Pokud je vypočítaný bod P bodem v nekonečnu, podpis je platný.
-  - Bod v nekonečnu se používá k výpočtu nonce.
-  - Bod v nekonečnu se používá k šifrování klíčů.
+  - 8 bitů
+  - 16 bitů
+  - 6 bitů
 explanation: |
-  V algoritmu ECDSA, pokud je vypočítaný bod P na eliptické křivce bodem v nekonečnu, je podpis považován za neplatný. To je jedna z kontrol prováděných při ověřování digitálního podpisu.
+  Délka kontrolního součtu se vypočítá pomocí vzorce CS = ENT / 32, což pro entropii 128 bitů dává 4 bity.
 reviewed: false

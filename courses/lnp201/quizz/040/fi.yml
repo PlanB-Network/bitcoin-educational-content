@@ -1,10 +1,8 @@
-question: Mitä tapahtuu, kun Alice yrittää huijata julkaisemalla vanhan sitoumustapahtuman?
-answer: Bob käyttää peruutusavainta rangaistakseen Alicea ja ottaakseen kaikki SAT:t kanavalta.
+question: Mikä on lähettävän solmun päärooli reitityksessä Lightning-verkossa?
+answer: Laskea koko reitti vastaanottajalle
 wrong_answers:
-  - Alicelle palkitaan hänen oveluudestaan.
-  - Alice ja Bob jakavat kanavalta tulleet SAT:t.
-  - Tapahtuma hylätään eikä mitään tapahdu.
+  - Säilyttää kaikkien verkon kanavien likviditeettitiedot
+  - Määrittää siirtomaksut jokaiselle välisolmulle
+  - Kommunikoida suoraan kaikkien välisolmujen kanssa
 explanation: |
-  Lightning-verkossa on mekanismi huijauksen estämiseksi. Jos Alice yrittää
-  huijata julkaisemalla vanhan sitoumustapahtuman, Bob voi käyttää peruutusavainta
-  rangaistakseen Alicea ja ottaakseen kaikki SAT:t kanavalta.
+  Lähettävä solmu vastaa koko reitin laskemisesta vastaanottajalle, sillä välisolmut tuntevat vain välittömän naapurinsa.

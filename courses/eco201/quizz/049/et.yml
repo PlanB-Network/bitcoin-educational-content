@@ -1,0 +1,9 @@
+question: Mis on hindade roll Austria majanduskoolkonnas?
+answer: Hinnad mängivad olulist rolli osalise teabega isikute ratsionaalses korraldamises.
+wrong_answers:
+  - Hinnad on Austria majanduskoolkonnas ebaolulised.
+  - Hinnad määrab valitsus Austria majanduskoolkonnas.
+  - Hinnad on fikseeritud ja ei muutu Austria majanduskoolkonnas.
+explanation: |
+  Austria majanduskoolkonnas mängivad hinnad olulist rolli osalise teabega isikute ratsionaalses korraldamises. Need aitavad tasakaalustada kapitali pakkumist ja nõudlust turul, edendades seeläbi majandust.
+reviewed: false

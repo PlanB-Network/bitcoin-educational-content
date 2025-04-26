@@ -1,11 +1,9 @@
-question: Jaký je hlavní rozdíl mezi Bitcoinem a alt-coiny z hlediska decentralizace?
-answer: Bitcoin je decentralizovaný, zatímco většina alt-coinů není
+question: Jaká psychologická vlastnost je pro hodlera zásadní?
+answer: Emoční odolnost
 wrong_answers:
-  - Bitcoin i alt-coiny jsou decentralizované
-  - Ani Bitcoin ani alt-coiny nejsou decentralizované
-  - Alt-coiny jsou decentralizované, zatímco Bitcoin není
+  - Emocionální impulzivita
+  - Emoční agresivita
+  - Emocionální spekulace
 explanation: |
-  Obsah kapitoly jasně uvádí, že Bitcoin je decentralizovaný, zatímco
-  většina alt-coinů není. To je klíčová vlastnost, která odlišuje Bitcoin od
-  ostatních kryptoměn.
+  Emoční odolnost umožňuje snášet výkyvy na trhu, aniž by člověk propadl panice.
 reviewed: false

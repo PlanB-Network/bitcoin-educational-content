@@ -1,0 +1,8 @@
+question: Em qual etapa da criptografia AES os Campos de Galois são utilizados?
+answer: Na substituição de byte e na operação MixColumns
+wrong_answers:
+  - Na geração da chave privada
+  - Ao dividir o texto em blocos de 128 bits
+  - Em todas as etapas da operação XOR
+explanation: |
+  Os Campos de Galois são utilizados na substituição de byte para calcular o inverso multiplicativo e na operação MixColumns para realizar multiplicações módulo um polinômio irredutível.

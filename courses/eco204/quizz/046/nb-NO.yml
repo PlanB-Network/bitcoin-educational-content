@@ -1,0 +1,11 @@
+question: Hva var den maksimale verdien av den første Cordobaen i Nicaragua?
+answer: 1 million.
+wrong_answers:
+  - 500,000
+  - 10 millioner
+  - 100 millioner
+explanation: |
+  I Nicaragua nådde den første Cordobaen en verdi på 1 million. Den andre
+
+  Cordobaen nådde 10 millioner.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Comment un service en ligne vérifie-t-il un mot de passe sans le stocker directement ?
+answer: En comparant le hachage du mot de passe entré avec celui en base de données
+wrong_answers:
+  - En déchiffrant le mot de passe stocké pour le vérifier
+  - En utilisant une clé publique pour vérifier l'identité
+  - En comparant le mot de passe directement avec celui d'autres utilisateurs
+explanation: |
+  Le service génère un hachage du mot de passe entré et le compare avec celui stocké, sans jamais stocker directement le mot de passe, ce qui garantie ainsi une sécurité accrue.
+reviewed: false

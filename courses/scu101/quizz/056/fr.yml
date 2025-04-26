@@ -1,9 +1,11 @@
-question: Pourquoi l'expérience pratique est-elle importante en cybersécurité?
-answer: Elle vous permet d'appliquer vos connaissances théoriques dans des situations réelles.
+question: Pourquoi l'expérience pratique est-elle importante en cybersécurité ?
+answer: Elle vous permet d'appliquer vos connaissances théoriques dans des situations réelles
 wrong_answers:
-  - C'est une exigence pour tous les emplois en cybersécurité.
-  - C'est plus important que les connaissances académiques.
-  - C'est la seule façon d'apprendre la cybersécurité.
+  - C'est une exigence pour tous les emplois en cybersécurité
+  - C'est plus important que les connaissances académiques
+  - C'est la seule façon d'apprendre la cybersécurité
 explanation: |
-  Le chapitre met l'accent sur l'importance de l'expérience pratique car elle vous permet d'appliquer vos connaissances théoriques dans des situations réelles.
-reviewed: false
+  Le chapitre souligne l'importance de l'expérience
+  pratique car elle permet d'appliquer vos connaissances
+  théoriques dans des situations réelles.
+reviewed: true

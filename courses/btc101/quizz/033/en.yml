@@ -1,9 +1,10 @@
-question: Why Bitcoin is a new form of money?
-answer: Because it is a digital money with no central entity
+question: Why is Bitcoin considered a new form of money?
+answer: Because it is a digital money with no central entity.
 wrong_answers:
-  - Because it is a digital currency backed by gold
-  - Because it is a currency that requires a blockchain 
-  - Because the Federal Reserve says so
-explanation: >-
-  Bitcoin can be viewe as a new form of money, as it emmerges from a peer-to-peer network with no central entity.
+  - Because it is a digital currency backed by gold.
+  - Because it is a currency that requires the bank blockchain.
+  - Because the Federal Reserve says so.
+explanation: |
+  Bitcoin can be viewed as a new form of money, as it emerges
+  from a peer-to-peer network with no central entity.
 reviewed: true

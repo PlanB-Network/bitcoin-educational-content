@@ -1,0 +1,9 @@
+question: 当挖掘比特币交易的奖励减半时，这个事件叫什么？
+answer: 减半
+wrong_answers:
+  - 加倍
+  - 四分之一
+  - 三倍
+explanation: |
+  每四年挖矿奖励的程序化减少，被称为“减半”事件。
+reviewed: true

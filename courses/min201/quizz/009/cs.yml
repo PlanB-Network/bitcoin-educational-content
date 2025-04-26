@@ -1,12 +1,12 @@
 question: Jaká je role softwaru při těžbě Bitcoinu a jak přispívá k efektivitě?
-answer: Software v těžbě Bitcoinu, jako například BrainsOS Plus, nahrazuje původní operační systém těžebního stroje, což umožňuje provádět stejné operace efektivněji. Může zvýšit efektivitu stroje o 25 %, což znamená, že při ekvivalentním množství elektrické energie může stroj vyprodukovat o 25 % více hashrate, čímž se zvyšují odměny přijímané těžařem.
+answer: Software v těžbě Bitcoinu, jako je BrainsOS Plus, nahrazuje původní operační systém těžebního stroje, což umožňuje provádět stejné operace efektivněji. Může zvýšit efektivitu stroje o 25 %, což znamená, že za stejné množství elektrické energie může stroj vyprodukovat o 25 % více hashrate, čímž se zvyšují odměny přijímané těžařem.
 wrong_answers:
-  - Software v těžbě Bitcoinu slouží k sledování množství vytěženého Bitcoinu a nepřispívá k efektivitě.
-  - Software v těžbě Bitcoinu slouží k připojení těžebního stroje k internetu a nepřispívá k efektivitě.
-  - Software v těžbě Bitcoinu slouží k ochlazení těžebního stroje a nepřispívá k efektivitě.
+  - Software v těžbě Bitcoinu se používá k sledování množství vytěženého Bitcoinu a nepřispívá k efektivitě.
+  - Software v těžbě Bitcoinu poskytuje pouze lepší internetové připojení pro těžební stroj, může zvýšit efektivitu takového stroje o 14 %, pokud se použije jeden z nejnovějších protokolů.
+  - Software v těžbě Bitcoinu se používá k ochlazení těžebního stroje a nepřispívá k efektivitě.
 explanation: |
-  Kapitola vysvětluje, že software jako BrainsOS Plus může nahradit
-  původní operační systém těžebního stroje, což umožňuje provádět stejné operace
-  efektivněji. Tato optimalizace softwaru je zásadním prvkem konkurenceschopnosti
-  v těžbě Bitcoinu.
-reviewed: false
+  Kapitola vysvětluje, že software jako BrainsOS Plus může
+  nahradit původní operační systém těžebního stroje,
+  což umožňuje provádět stejné operace efektivněji. Tato optimalizace softwaru je zásadním
+  prvkem konkurenceschopnosti v těžbě Bitcoinu.
+reviewed: true

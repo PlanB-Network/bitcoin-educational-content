@@ -1,9 +1,9 @@
-question: Miksi pakotettu sulkeminen on riskialttiimpi maksujen ja mahdollisen louhijoiden validoinnin kannalta?
-answer: Koska maksut päätettiin, kun transaktio luotiin menneisyydessä, ja verkko on muuttunut siitä lähtien.
+question: Mikä kriteeri voi auttaa solmua valitsemaan tehokkaan maksureitin?
+answer: Menestymisen todennäköisyys perustuen kanavien kokonaiskapasiteettiin
 wrong_answers:
-  - Koska maksut ovat aina korkeammat pakotetussa sulkemisessa.
-  - Koska louhijat ovat epätodennäköisemmin validointia pakotetussa sulkemisessa.
-  - Koska maksut ovat arvaamattomia pakotetussa sulkemisessa.
+  - Solmujen välinen maantieteellinen etäisyys
+  - Solmujen läsnäolo, joilla on matala maksutaso
+  - Kohdesolmun suorittamien maksujen määrä
 explanation: |
-  Pakotetussa sulkemisessa maksut päätettiin, kun transaktio luotiin menneisyydessä. Verkko on muuttunut siitä lähtien, joten protokolla olettaa oletusarvoisesti maksujen olevan 5 kertaa korkeammat kuin nykyiset, kun transaktio luotiin. Tämä tekee pakotetusta sulkemisesta riskialttiimman maksujen ja mahdollisen louhijoiden validoinnin kannalta.
+  Kanavien kokonaiskapasiteetti voi viitata suurempaan menestymisen todennäköisyyteen, sillä se vihjaa suuremmasta likviditeetin saatavuudesta transaktioille.
 reviewed: false

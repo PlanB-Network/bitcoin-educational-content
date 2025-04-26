@@ -1,0 +1,22 @@
+id: d444a59b-5bcc-4ea6-bfe5-c2ab413d2ba0
+year: 2022-09
+name: Watch Out 2022
+location: Madrid, Spain
+language:
+  - es
+links:
+  website: https://wobitcoin.org/
+  twitter: https://twitter.com/Wo_Bitcoin
+project_id: 326fd972-4807-4f01-974d-f8bfa9bfee6a
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-03-04
+    urgency: 0
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0.05
+tags:
+  - adoption
+  - future-outlook
+  - user-friendly

@@ -1,0 +1,9 @@
+question: Wie wird eine zufällige Zeichenkette in diesem Kapitel definiert?
+answer: Als eine Zeichenkette, die gleichmäßig aus allen Zeichenketten derselben Länge ausgewählt wurde
+wrong_answers:
+  - Als eine Zeichenkette, die nur mit den Bits 0 und 1 erstellt wurde
+  - Als eine Zeichenkette, die aus einer manuellen Auswahl erhalten wurde
+  - Als eine Zeichenkette variabler Länge, die aus einem Verschlüsselungsprozess resultiert
+explanation: |
+  Eine zufällige Zeichenkette wird als eine aus einer gleichmäßigen Auswahl unter allen möglichen Zeichenketten derselben Länge definiert.
+reviewed: false

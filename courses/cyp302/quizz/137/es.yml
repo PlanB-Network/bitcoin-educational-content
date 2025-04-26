@@ -1,0 +1,8 @@
+question: ¿Por qué las contraseñas suelen almacenarse como hashes en servidores seguros?
+answer: Para evitar que las contraseñas sean fácilmente recuperadas en caso de una filtración
+wrong_answers:
+  - Para aumentar el tamaño del almacenamiento de datos de usuario
+  - Para cifrar contraseñas en tiempo real de manera simétrica
+  - Para permitir a los usuarios iniciar sesión sin una contraseña
+explanation: |
+  Al almacenar hashes de contraseñas, incluso en el caso de una violación de datos, las contraseñas reales no pueden ser leídas directamente, aumentando así la seguridad.

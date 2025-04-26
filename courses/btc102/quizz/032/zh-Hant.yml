@@ -1,0 +1,9 @@
+question: 什麼 RGB 機制能確保抵制雙重花費？
+answer: Single-Use Seal
+wrong_answers:
+  - 多用途 Seal
+  - 雙重簽名
+  - 認股證明
+explanation: |
+  Single-Use Seal 利用 UTXO 只能花費一次的事實，確保 RGB 智慧型契約內的雙重花費不受影響。
+reviewed: false

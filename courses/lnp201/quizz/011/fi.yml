@@ -1,12 +1,8 @@
-question: Mikä on moniallekirjoitusosoite Lightning Networkin kontekstissa?
-answer: Osoite, joka vaatii kaksi allekirjoitusta varojen vapauttamiseen.
+question: Miksi Alice luo nostotapahtuman ennen talletustapahtuman julkaisemista?
+answer: Saadakseen varansa takaisin, jos Bobin kanssa ilmenee ongelma
 wrong_answers:
-  - Osoite, jota voi käyttää useampi käyttäjä.
-  - Osoite, joka voi pitää sisällään useita eri kryptovaluuttoja.
-  - Osoite, johon pääsee käsiksi useilta laitteilta.
+  - Lisätäkseen kanavan kapasiteettia jokaisella tapahtumalla
+  - Suorittaakseen Lightning-tapahtuman heti avaamisen jälkeen
+  - Salliakseen Bobin käyttää varoja suoraan
 explanation: |
-  Lightning Networkissa käytetään moniallekirjoitusosoitteita. Nämä
-  osoitteet
-  vaativat kaksi allekirjoitusta, eli kaksi yksityisavainta, varojen vapauttamiseen. Tämä tarkoittaa, että
-  kahden osapuolen on oltava yhtä mieltä rahojen vapauttamisesta.
-reviewed: false
+  Alice luo nostotapahtuman saadakseen varansa takaisin, jos Bobin kanssa ilmenee ongelma, näin varmistaen talletuksensa turvallisuuden.

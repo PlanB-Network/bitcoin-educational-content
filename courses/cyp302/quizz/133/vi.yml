@@ -1,0 +1,9 @@
+question: Chữ ký số trong bối cảnh của mật mã bất đối xứng là gì?
+answer: Một cơ chế để xác minh tính xác thực của một thông điệp sử dụng khóa riêng
+wrong_answers:
+  - Một quy trình để mã hóa thông điệp mạnh mẽ hơn
+  - Một khóa công khai bổ sung để xác thực một thông điệp đã được mã hóa
+  - Một bản sao số của chữ ký viết tay
+explanation: |
+  Chữ ký số là một kỹ thuật mật mã chứng minh rằng một thông điệp thực sự được tạo ra bởi chủ sở hữu của khóa riêng tương ứng, do đó đảm bảo tính xác thực của nó.
+reviewed: false

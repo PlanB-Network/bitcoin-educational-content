@@ -1,11 +1,11 @@
 question: Mikä on louhinnan keskittymisen mahdollinen riski Bitcoinissa?
-answer: Louhinnan keskittymisellä Bitcoinissa voi olla potentiaalisesti seurauksena transaktioiden sensurointi ja verkon haavoittuvuus hyökkäyksille, mukaan lukien 51% hyökkäys, jossa toimija tai ryhmä hallitsee yli 50% verkon laskentatehosta, mahdollistaen heidän hallita ja manipuloida verkkoa.
+answer: Louhinnan keskittymisellä Bitcoinissa voi olla potentiaalinen riski transaktioiden sensurointiin ja tehdä verkosta haavoittuvaisen hyökkäyksille, mukaan lukien 51% hyökkäys, jossa toimija tai ryhmä hallitsee yli 50% verkon laskentatehosta, mahdollistaen heidän kontrolloida ja manipuloida verkkoa.
 wrong_answers:
-  - Louhinnan keskittymisellä Bitcoinissa voi potentiaalisesti johtaa Bitcoinin arvon laskuun ja tehdä verkon haavoittuvaksi inflaatiolle.
-  - Louhinnan keskittymisellä Bitcoinissa voi potentiaalisesti johtaa lohkopalkkion vähenemiseen ja tehdä verkon haavoittuvaksi pysähtyneisyydelle.
-  - Louhinnan keskittymisellä Bitcoinissa voi potentiaalisesti johtaa transaktioiden nopeuden vähenemiseen ja tehdä verkon haavoittuvaksi ruuhkautumiselle.
+  - Louhinnan keskittymisellä Bitcoinissa voi olla potentiaalinen riski Bitcoinin arvon laskuun ja tehdä verkosta haavoittuvaisen inflaatiolle.
+  - Louhinnan keskittymisellä Bitcoinissa voi olla potentiaalinen riski lohkopalkkion laskuun ja tehdä verkosta haavoittuvaisen stagnaatiolle.
+  - Louhinnan keskittymisellä Bitcoinissa voi olla potentiaalinen riski transaktioiden nopeuden laskuun ja tehdä verkosta haavoittuvaisen ruuhkautumiselle.
 explanation: |
-  Luku selittää, että louhinnan keskittymisellä Bitcoinissa voi potentiaalisesti
-  johtaa transaktioiden sensurointiin ja tehdä verkon haavoittuvaksi hyökkäyksille, mukaan lukien
-  51% hyökkäys.
-reviewed: false
+  Luku selittää, että louhinnan keskittymisellä Bitcoinissa
+  voi olla potentiaalinen riski transaktioiden sensurointiin ja tehdä
+  verkosta haavoittuvaisen hyökkäyksille, mukaan lukien 51% hyökkäys.
+reviewed: true

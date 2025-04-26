@@ -1,0 +1,8 @@
+question: Miks ei soovitata postitada vastuvõtuaadresse sotsiaalmeediasse?
+answer: Kuna neid saab kasutada onchain tegevuste seostamiseks päris identiteediga.
+wrong_answers:
+  - Kuna neid saab kergesti häkkida pahatahtlike häkkerite poolt.
+  - Kuna need võivad meelitada ligi petlikke pakkumisi ja teid phishing kampaaniatele avada.
+  - Kuna need võivad võimaldada ühise sisendi omandi heuristika rakendamist.
+explanation: |
+  Bitcoin'i vastuvõtuaadresside jagamine internetis võib olla sisenemispunktiks ahela analüüsiks, seostades identiteedi (reaalse või pseudonüümse) onchain tegevusega.

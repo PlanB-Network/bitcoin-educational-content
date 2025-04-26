@@ -1,0 +1,9 @@
+question: Mis on "varjatud inflatsioon" võlapõhise rahasüsteemi kontekstis?
+answer: Rahapakkumise kasv (umbes 7% aastas) vähendab teie osa koguväärtusest, kui te ei investeeri või ei kasvata varasid vastavalt.
+wrong_answers:
+  - See on ametlik majanduslik termin fikseeritud intressimäärade kohta.
+  - See viitab inflatsiooninumbritele, mida keskpangad ei avalda.
+  - See tähendab, et hinnad ei tõuse kunagi, isegi kui rahapakkumine suureneb.
+explanation: |
+  Varjatud inflatsioon tekib siis, kui rahapakkumine suureneb, vähendades säästude ostujõudu. Kui ettevõte ei investeeri ennetavalt või ei kaitse oma vara, on oht, et ta kaotab väärtust selle rahapõhise lahjendamise vaikse vormi tõttu.
+reviewed: false

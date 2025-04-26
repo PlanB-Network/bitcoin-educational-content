@@ -1,9 +1,8 @@
-question: Mikä on ECDSA-funktion peruuttamattomuuden merkitys Bitcoin-lompakon turvallisuudessa?
-answer: Yksityistä avainta ei ole mahdollista saada julkisesta avaimesta
+question: Mikä sighash-lippu mahdollistaa joukkorahoituksen kattamalla yhden syötteen ja kaikki tulosteet?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Yksityisen avaimen saaminen julkisesta avaimesta on mahdollista
-  - Julkisen avaimen saaminen yksityisestä avaimesta on mahdollista
-  - Julkisen avaimen saaminen yksityisestä avaimesta ei ole mahdollista
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  ECDSA-funktio on peruuttamaton, mikä tarkoittaa, että yksityistä avainta ei ole mahdollista saada julkisesta avaimesta. Tämä peruuttamattomuus on Bitcoin-lompakon turvallisuuden kulmakivi.
-reviewed: false
+  SIGHASH_ALL yhdistettynä SIGHASH_ANYONECANPAY: n kanssa mahdollistaa syötteiden lisäämisen muuttamatta tulosteita.

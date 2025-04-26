@@ -1,0 +1,8 @@
+question: Mis on peamine erinevus fraasparooli ja PIN-koodi vahel Bitcoin'i rahakoti puhul?
+answer: Fraasparool muudab võtme tuletamist, mitte PIN-koodi
+wrong_answers:
+  - PIN-kood on seotud mnemoonilise fraasiga
+  - PIN-koodi kasutatakse tehingute krüpteerimiseks, aga mitte fraasparooli
+  - PIN-kood genereerib Bitcoin'i aadresse
+explanation: |
+  Erinevalt PIN-koodist on fraasparool otseselt seotud võtme tuletamise protsessiga ja muudab rahakoti võtmeid.

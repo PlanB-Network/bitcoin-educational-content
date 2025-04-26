@@ -1,0 +1,11 @@
+question: Hva er den potensielle ulempen med gruvedrift for profitt?
+answer: Det kan føre til sentralisering av hash-kraft og kan også ha en betydelig miljøpåvirkning
+wrong_answers:
+  - Det kan føre til en nedgang i prisen på Bitcoin
+  - Det kan føre til en nedgang i nettverkets hashrate
+  - Det kan føre til en nedgang i antallet aktive noder i nettverket
+explanation: |
+  Gruvedrift for profitt kan føre til sentralisering av hash-kraft hvis bare noen få store selskaper har råd til å investere i
+  avansert gruveutstyr. I tillegg kan energiforbruket fra gruvedrift for profitt ha en betydelig
+  miljøpåvirkning avhengig av energikilden.
+reviewed: true

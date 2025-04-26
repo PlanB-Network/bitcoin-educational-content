@@ -1,0 +1,11 @@
+question: Mis on peamine eelis payjoin tehingu puhul võrreldes klassikalise maksetehinguga?
+
+answer: See parandab privaatsust
+
+wrong_answers:
+  - See suurendab kinnitamise kiirust
+  - See vähendab tehingutasusid
+  - See eksitab saajat
+
+explanation: |
+  Payjoin tehing suurendab osapoolte privaatsust, eksitades ahela analüüsi.

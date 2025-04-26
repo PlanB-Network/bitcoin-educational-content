@@ -1,9 +1,12 @@
-question: Quais princípios econômicos o Bitcoin está alinhado?
-answer: Princípios da economia austríaca
+question: Quais princípios econômicos o Bitcoin segue?
+answer: Princípios da economia Austríaca.
 wrong_answers:
-  - Princípios da economia keynesiana
-  - Princípios da economia marxista
-  - Princípios da economia neoclássica
+  - Princípios da economia Keynesiana.
+  - Princípios da economia Marxista.
+  - Princípios da economia Neoclássica.
 explanation: |
-  O Bitcoin está alinhado com os princípios da economia austríaca. Sua quantidade limitada e a falta de uma entidade central o protegem dos riscos inerentes à inflação nas moedas tradicionais.
-reviewed: false
+  O Bitcoin segue os princípios da economia Austríaca.
+  Sua quantidade limitada e a falta de uma entidade central protegem-no
+  dos riscos inerentes de inflação que são vistos em
+  moedas tradicionais.
+reviewed: true

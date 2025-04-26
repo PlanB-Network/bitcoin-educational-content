@@ -1,0 +1,9 @@
+question: Ifølge Laffer, hva skjer med skatteinntektene når skattesatsene økes for mye?
+answer: De minker
+wrong_answers:
+  - De øker
+  - De forblir stabile
+  - De svinger uforutsigbart
+explanation: |
+  Ifølge Laffer-kurven fører en overdreven økning i skattesatsene til en nedgang i skatteinntektene fordi det motvirker arbeid, investering og produksjon.
+reviewed: false

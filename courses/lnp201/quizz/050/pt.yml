@@ -1,9 +1,8 @@
-question: Quais são os dois tipos de taxas na Lightning Network?
-answer: Uma taxa fixa independentemente do valor e uma taxa variável.
+question: Por que um vendedor poderia fazer um pagamento fictício em um canal?
+answer: Para mover liquidez para o lado oposto
 wrong_answers:
-  - Uma taxa de transação e uma taxa de roteamento.
-  - Uma taxa do remetente e uma taxa do destinatário.
-  - Uma taxa de rede e uma taxa de canal.
+  - Para diminuir as taxas de roteamento
+  - Para aumentar a capacidade total dos seus canais
+  - Para bloquear fundos a longo prazo
 explanation: |
-  Na Lightning Network, existem dois tipos de taxas; uma taxa fixa independentemente do valor (padrão é 1 SAT, mas pode ser modificada) e uma taxa variável (0,01% por padrão).
-reviewed: false
+  Ao fazer um pagamento fictício, um vendedor move liquidez do seu lado para o lado oposto do canal, liberando assim capacidade de entrada para receber pagamentos.

@@ -1,9 +1,9 @@
-question: Kolik SAT má Bob po druhém převodu v příkladu?
-answer: 40 000 SAT.
+question: Jak umožňuje Lightning Network posílání prostředků uzlu, který není přímo propojen?
+answer: Přesměrováním platby přes prostředníkové uzly
 wrong_answers:
-  - 30 000 SAT.
-  - 10 000 SAT.
-  - 0 SAT.
+  - Použitím on-chain transakcí mezi jednotlivými uzly
+  - Automatickým vytvořením dočasného kanálu
+  - Přímým posláním prostředků s adresami s více podpisy
 explanation: |
-  V příkladu, po druhém převodu, má Bob 40 000 SAT.
+  Lightning Network umožňuje přesměrování platby přes několik prostředníkových uzlů, aniž by vyžadoval přímý kanál mezi odesílatelem a příjemcem.
 reviewed: false

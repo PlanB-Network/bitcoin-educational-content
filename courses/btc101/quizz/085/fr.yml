@@ -1,9 +1,13 @@
-question: Qu'est-ce qu'un portefeuille en ligne ?
-answer: Un portefeuille Bitcoin sur votre téléphone ou votre ordinateur connecté à Internet.
+question: Qu'est-ce qu'un portefeuille chaud ?
+answer: Un portefeuille Bitcoin sur votre téléphone ou ordinateur connecté à internet.
 wrong_answers:
-  - Un portefeuille qui est chaud au toucher physiquement
-  - Un portefeuille populaire parmi les utilisateurs de Bitcoin
-  - Un portefeuille recommandé pour stocker de grandes quantités de bitcoins
+  - Un portefeuille qui est physiquement chaud au toucher.
+  - Un portefeuille qui est populaire parmi les utilisateurs de Bitcoin.
+  - Un portefeuille qui est recommandé pour stocker de grandes quantités de bitcoins.
 explanation: |
-  Un portefeuille en ligne est un terme utilisé pour décrire un portefeuille Bitcoin qui est stocké sur un appareil avec accès à Internet, comme un téléphone ou un ordinateur. Cela facilite les transactions, mais cela signifie également que le portefeuille est potentiellement vulnérable aux menaces en ligne.
-reviewed: false
+  Un portefeuille chaud est un terme utilisé pour décrire un portefeuille Bitcoin
+  qui est stocké sur un appareil ayant accès à internet, tel qu'un
+  téléphone ou un ordinateur. De cette manière, il est facile de réaliser
+  des transactions, mais cela signifie également que le portefeuille est
+  potentiellement vulnérable aux menaces en ligne.
+reviewed: true

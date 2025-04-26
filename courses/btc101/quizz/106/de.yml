@@ -1,9 +1,9 @@
-question: Warum ist es ratsam, Ihre Bitcoins nicht auf Börsenplattformen zu lassen?
+question: Warum ist es ratsam, Ihre Bitcoins nicht auf Handelsplattformen zu belassen?
 answer: Sie können anfällig für Hackerangriffe sein.
 wrong_answers:
-  - Börsenplattformen erheben zufällige Gebühren.
-  - Bitcoins verlieren an Wert auf Börsenplattformen.
-  - Börsenplattformen sind nicht regulierte Institutionen.
+  - Handelsplattformen erheben zufällige Gebühren.
+  - Bitcoin verliert auf Handelsplattformen an Wert.
+  - Handelsplattformen sind keine regulierten Institutionen.
 explanation: |
-  Es ist ratsam, Ihre Bitcoins nicht auf Börsenplattformen zu lassen, da sie anfällig für Hackerangriffe sein können.
-reviewed: false
+  Es ist ratsam, Ihre Bitcoins nicht auf Handelsplattformen zu belassen, da sie anfällig für Hackerangriffe sein können.
+reviewed: true

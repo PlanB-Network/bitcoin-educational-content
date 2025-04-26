@@ -1,0 +1,10 @@
+question: Hva er én fordel med å bruke en VPN for å surfe på internett hjemme?
+answer: Det forbedrer sikkerheten for utvekslet data på nettet.
+wrong_answers:
+  - Det øker internettets hastighet.
+  - Det gir tilgang til flere nettsider.
+  - Det sparer mobildata.
+explanation: |
+  Å bruke en VPN hjemme kan forbedre sikkerheten til dataene du utveksler
+  på nettet. Dette er fordi VPN-er krypterer data, noe som gjør det vanskeligere for tredjeparter
+  å avlytte.

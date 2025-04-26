@@ -1,12 +1,9 @@
-question: Mục đích của khóa thu hồi trong một giao dịch cam kết là gì?
-answer: Nó cho phép bên kia di chuyển quỹ mà không cần chờ đợi hết thời gian của Timelock nếu một bên cố gắng gian lận.
+question: Điều gì giới hạn số tiền của một khoản thanh toán gián tiếp trên Mạng Lưới Lightning?
+answer: Lượng thanh khoản nhỏ nhất có sẵn trong một kênh của lộ trình được chọn
 wrong_answers:
-  - Nó cho phép bên kia lập tức thu hồi tiền của họ.
-  - Nó cho phép bên kia tạo một giao dịch cam kết mới.
-  - Nó cho phép bên kia kéo dài thời gian của Timelock.
+  - Số lượng nút trung gian tham gia
+  - Tổng dung lượng của Mạng Lưới Lightning
+  - Phí định tuyến được thiết lập bởi mỗi nút
 explanation: |
-  Khóa thu hồi là một biện pháp an ninh trong một giao dịch cam kết.
-  Nếu một bên cố gắng gian lận bằng cách công bố một trạng thái cũ, bên kia có thể sử dụng
-  khóa thu hồi để di chuyển quỹ mà không cần chờ đợi hết thời gian của Timelock,
-  hiệu quả trong việc trừng phạt kẻ gian lận.
+  Số tiền tối đa mà một khoản thanh toán gián tiếp có thể chuyển phụ thuộc vào lượng thanh khoản thấp nhất có sẵn trong các kênh được sử dụng, vì mỗi kênh phải điều chỉnh số tiền ở mỗi bên.
 reviewed: false

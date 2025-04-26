@@ -1,11 +1,12 @@
-question: Thực hành nào được khuyến nghị khi cắm USB vào máy tính của bạn?
-answer: Không nên cắm USB không rõ nguồn gốc hoặc đáng ngờ.
+question: Thực hành được khuyến nghị khi cắm một USB vào máy tính của bạn là gì?
+answer: Không nên cắm các USB không rõ nguồn gốc hoặc đáng ngờ.
 wrong_answers:
   - Cắm bất kỳ USB nào mà không kiểm tra.
   - Luôn định dạng USB trước khi cắm.
   - Cắm USB vào và sau đó kiểm tra virus.
 explanation: |
-  Việc cắm USB không rõ nguồn gốc hoặc đáng ngờ có thể làm lộ hệ thống ra trước các
-  chương trình độc hại có thể tự động khởi chạy khi cắm vào. Việc kiểm tra USB sẽ
-  trở nên vô ích một khi nó đã được cắm vào.
-reviewed: false
+  Việc cắm các USB không rõ nguồn gốc hoặc đáng ngờ có thể phơi bày
+  hệ thống cho các chương trình độc hại có thể tự động khởi chạy
+  ngay khi được cắm vào. Việc kiểm tra USB sẽ trở nên vô ích một khi
+  nó đã được cắm vào.
+reviewed: true

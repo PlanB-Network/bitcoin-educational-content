@@ -1,0 +1,9 @@
+question: What advanced security features are typically implemented at the Enterprise level for bitcoins?
+answer: Multi-signature with timelocks
+wrong_answers:
+  - Password protection for a mobile Lightning wallet
+  - Single-sig with BIP39 passphrase protection
+  - Single-sig with 24 words seed phrase 
+explanation: |
+  High-security measures such as multi-signature configurations with timelocks are crucial for managing large sums.
+reviewed: false

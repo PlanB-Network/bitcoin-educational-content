@@ -1,0 +1,9 @@
+question: Hva er rollen til Bayes' teorem i sannsynlighet?
+answer: Den muliggjør beregning av betinget sannsynlighet ved å reversere hendelsene.
+wrong_answers:
+  - Den gir sannsynligheten for forekomsten av en enkelt hendelse.
+  - Den definerer den totale sannsynligheten for alle mulige hendelser.
+  - Den gjelder kun for kontinuerlige variabler.
+explanation: |
+  Bayes' teorem muliggjør beregningen av sannsynligheten for en hendelse A gitt B ved å reversere sannsynlighetene og er essensiell i sannsynlighetsteori.
+reviewed: false

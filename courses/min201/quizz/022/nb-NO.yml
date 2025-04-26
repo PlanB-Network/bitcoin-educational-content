@@ -1,0 +1,11 @@
+question: Hva vil gruvearbeidere stole på for kompensasjon etter at alle 21 millioner bitcoins er skapt?
+answer: Gruvearbeidere vil utelukkende stole på transaksjonsgebyrer for kompensasjon.
+wrong_answers:
+  - Gruvearbeidere vil utelukkende stole på blokkbelønninger for kompensasjon.
+  - Gruvearbeidere vil utelukkende stole på bekreftelser av transaksjoner for kompensasjon.
+  - Gruvearbeidere vil utelukkende stole på nettverksgebyrer for kompensasjon.
+explanation: |
+  Innen 2140 vil ingen nye bitcoins bli skapt. På dette tidspunktet,
+  vil gruvearbeidere utelukkende stole på transaksjonsgebyrer for
+  kompensasjon.
+reviewed: true

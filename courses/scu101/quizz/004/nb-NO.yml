@@ -1,0 +1,12 @@
+question: Hvorfor anbefales det å slette informasjonskapsler etter hvert besøk på en nettside?
+answer: For å forhindre at tredjepartssider sporer din nettaktivitet.
+wrong_answers:
+  - For å spare lagringsplass på enheten din.
+  - For å hindre at siden husker innloggingsinformasjonen din.
+  - For å forhindre at siden viser deg målrettede annonser.
+explanation: |
+  Informasjonskapsler er filer som nettsider oppretter for å lagre informasjon på enheten din.
+  Selv om noen sider krever disse informasjonskapslene for å fungere ordentlig, kan de også utnyttes
+  av tredjepartssider, spesielt for formål knyttet til annonseringssporing. Å slette informasjonskapsler
+  etter hvert besøk på en nettside kan bidra til å forhindre dette.
+reviewed: false

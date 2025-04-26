@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'une structure algébrique en algèbre abstraite ?
+answer: Un ensemble d'éléments avec une ou plusieurs opérations respectant certains axiomes
+wrong_answers:
+  - Un ensemble de nombres premiers organisés en rangées respectant certains axiomes
+  - Une série d'algorithmes pour résoudre des équations linéaires
+  - Un groupe de transformations géométriques aléatoires rangées en respectant certains axiomes
+explanation: |
+  Une structure algébrique est un ensemble d'éléments définis avec une ou plusieurs opérations, comme l'addition ou la multiplication, respectant certains axiomes, et elle est essentielle pour structurer des concepts en théorie des nombres.
+reviewed: false

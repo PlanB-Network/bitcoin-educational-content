@@ -1,0 +1,9 @@
+question: Miks on soovitatav kõigi Bitcoini tehingute CSV-eksport?
+answer: See annab selge ja struktureeritud ülevaate igast tehingust, mis lihtsustab raamatupidajate jaoks nende integreerimist finantsaruannetesse ja maksuaruannetesse.
+wrong_answers:
+  - Kuna paberkviitungid on ainsad õiguslikult vastuvõetavad raamatupidamisdokumendid.
+  - Sest andmete eksportimine täidab automaatselt teie maksudeklaratsiooni ilma ülevaatamiseta.
+  - Kuna CSV-failid kaotavad vajaduse jälgida kulubaasi.
+explanation: |
+  Ühtses formaadis digitaalne arvestus võimaldab sujuvat integreerimist raamatupidamissüsteemidega, aitab säilitada kontrolljälgi ning toetab täpset maksu- ja vastavusaruandlust.
+reviewed: false

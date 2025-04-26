@@ -1,13 +1,12 @@
 question: Jaké jsou charakteristiky dobrého hesla?
-answer: Dlouhé, složité, jedinečné a nezaložené na osobních informacích.
+answer: Dlouhé, složité, unikátní a nezaložené na osobních informacích.
 wrong_answers:
   - Krátké, jednoduché a snadno zapamatovatelné.
-  - Založené na osobních informacích jako jsou data narození a jména.
+  - Založené na osobních informacích jako jsou datumy narození a jména.
   - Stejné heslo pro všechny účty.
 explanation: |
-  Dobré heslo je dlouhé (alespoň 12 znaků), složité (směs
-
-  velkých a malých písmen, čísel a symbolů), jedinečné (nepoužité pro
-
-  různé účty) a nezaložené na osobních informacích.
-reviewed: false
+  Dobré heslo je dlouhé (alespoň 12 znaků), složité
+  (směs velkých a malých písmen, čísel a
+  symbolů), unikátní (nepoužité pro různé účty) a
+  nezaložené na osobních informacích.
+reviewed: true

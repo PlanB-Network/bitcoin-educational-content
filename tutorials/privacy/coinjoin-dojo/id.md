@@ -64,7 +64,7 @@ Whirlpool dirancang dengan mempertimbangkan dua persyaratan penting:
 Imperatif ini memandu pilihan para pengembang Samourai Wallet dalam desain Whirlpool, membawa mereka untuk membatasi jumlah peserta per siklus. Terlalu sedikit peserta akan mengompromikan efisiensi coinjoin, secara drastis mengurangi anonset yang dihasilkan setiap siklus, sementara terlalu banyak peserta akan menimbulkan masalah manajemen pada aplikasi mobile dan akan menghambat aliran siklus.
 **Pada akhirnya, tidak perlu memiliki jumlah peserta yang tinggi per coinjoin di Whirlpool karena anonset dicapai melalui akumulasi beberapa siklus coinjoin.**
 
-[-> Pelajari lebih lanjut tentang anonset Whirlpool.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Pelajari lebih lanjut tentang anonset Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### Pool dan biaya coinjoin
 Agar siklus berganda ini secara efektif meningkatkan anonset dari coin yang dicampur, sebuah kerangka kerja tertentu harus ditetapkan untuk membatasi jumlah UTXO yang digunakan. Whirlpool mendefinisikan berbagai pool.
@@ -165,14 +165,14 @@ Ada banyak opsi untuk menggunakan Whirlpool. Yang ingin saya perkenalkan di sini
 Melakukan coinjoin melalui Samourai Wallet menggunakan Dojo Anda sendiri, menurut saya, adalah strategi paling efektif untuk melakukan coinjoin di Bitcoin hingga saat ini. Pendekatan ini memerlukan beberapa investasi awal dalam hal pengaturan, tetapi sekali terpasang, ini menawarkan kemungkinan untuk mencampur dan mencampur ulang bitcoin Anda secara terus-menerus, 24 jam sehari, 7 hari seminggu, tanpa perlu menjaga aplikasi Samourai Anda aktif setiap saat. Memang, berkat operasi Whirlpool CLI pada node Bitcoin, Anda selalu siap untuk berpartisipasi dalam coinjoins. Aplikasi Samourai kemudian memberi Anda kesempatan untuk menghabiskan dana campuran Anda kapan saja, di mana saja, langsung dari smartphone Anda. Selain itu, metode ini memiliki keuntungan tidak pernah menghubungkan Anda ke server yang dikelola oleh tim Samourai, sehingga menjaga `xpub` Anda dari paparan eksternal.
 
 Teknik ini oleh karena itu ideal bagi mereka yang mencari privasi maksimum dan siklus coinjoin berkualitas tertinggi. Namun, ini memerlukan memiliki node Bitcoin di disposisi Anda dan, seperti yang akan kita lihat nanti, memerlukan beberapa pengaturan. Oleh karena itu, lebih cocok untuk pengguna menengah hingga lanjutan. Untuk pemula, saya sarankan untuk mengenal coinjoin melalui dua tutorial lain ini, yang menunjukkan cara melakukannya dari Sparrow Wallet atau Samourai Wallet (tanpa Dojo):
-- **[Tutorial coinjoin Sparrow Wallet](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet)**;
-- **[Tutorial coinjoin Samourai Wallet (tanpa Dojo)](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet)**.
+- **[Tutorial coinjoin Sparrow Wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- **[Tutorial coinjoin Samourai Wallet (tanpa Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 ### Memahami Pengaturan
 Untuk memulai, Anda akan membutuhkan Dojo! Dojo adalah implementasi node Bitcoin berdasarkan Bitcoin Core, dikembangkan oleh tim Samourai.
 
 Untuk menjalankan Dojo Anda sendiri, Anda memiliki opsi untuk menginstal node Dojo secara mandiri, atau memanfaatkan Dojo di atas solusi node Bitcoin "node-in-box" lainnya. Saat ini, opsi yang tersedia adalah:
-- [RoninDojo](https://ronindojo.io/), yang merupakan Dojo yang ditingkatkan dengan alat tambahan, termasuk asisten instalasi dan asisten administrasi. Saya merinci prosedur untuk pengaturan dan penggunaan RoninDojo dalam tutorial lain ini: [RONINDOJO V2](https://planb.network/en/tutorials/node/ronin-dojo-v2);
+- [RoninDojo](https://ronindojo.io/), yang merupakan Dojo yang ditingkatkan dengan alat tambahan, termasuk asisten instalasi dan asisten administrasi. Saya merinci prosedur untuk pengaturan dan penggunaan RoninDojo dalam tutorial lain ini: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) dengan aplikasi "Samourai Server";
 - [MyNode](https://mynodebtc.com/) dengan aplikasi "Dojo";
 - [Nodl](https://www.nodl.eu/) dengan aplikasi "Dojo";
@@ -253,7 +253,7 @@ Pada langkah selanjutnya, Anda akan mengakses halaman yang didedikasikan untuk m
 
 ![coinjoin](assets/notext/24.webp)
 
-*Untuk pengguna baru Samourai, kemudian akan diperlukan untuk membuat dompet dari awal. Jika Anda memerlukan bantuan, Anda dapat berkonsultasi dengan instruksi untuk menyiapkan dompet Samourai baru [dalam tutorial ini, khususnya di bagian "Creating a software wallet"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet).*
+*Untuk pengguna baru Samourai, kemudian akan diperlukan untuk membuat dompet dari awal. Jika Anda memerlukan bantuan, Anda dapat berkonsultasi dengan instruksi untuk menyiapkan dompet Samourai baru [dalam tutorial ini, khususnya di bagian "Creating a software wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef).*
 Jika Anda sedang melanjutkan pemulihan dompet Samourai yang sudah ada, pilih `Restore existing wallet`, kemudian pilih `I have a Samourai backup file`.
 ![coinjoin](assets/notext/25.webp)
 Biasanya, Anda seharusnya selalu memiliki file pemulihan Anda di clipboard. Kemudian klik pada `PASTE` untuk memasukkan file Anda ke lokasi yang ditentukan. Untuk mendekripsinya, akan diperlukan juga untuk memasukkan frasa sandi BIP39 dari dompet Anda di kolom yang sesuai, yang terletak tepat di bawahnya. Untuk menyelesaikan, klik pada `FINISH`.
@@ -359,4 +359,7 @@ UTXO Anda yang telah dicampur terlihat dari akun **Postmix** pada Whirlpool GUI.
 Akun Whirlpool mudah dikenali di Samourai Wallet dengan warna birunya. Ini memungkinkan Anda untuk menghabiskan UTXO Anda yang telah dicampur dari mana saja dan kapan saja, langsung dari smartphone Anda.
 
 ![coinjoin](assets/notext/53.webp)
-Untuk melacak coinjoin otomatis Anda, saya juga merekomendasikan untuk mengatur dompet hanya-pantau melalui aplikasi Sentinel. Tambahkan ZPUB dari akun **Postmix** Anda dan pantau progres siklus coinjoin Anda secara real-time. Jika Anda ingin memahami cara menggunakan Sentinel, saya merekomendasikan untuk berkonsultasi dengan tutorial lain ini di PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel).
+Untuk melacak coinjoin otomatis Anda, saya juga merekomendasikan untuk mengatur dompet hanya-pantau melalui aplikasi Sentinel. Tambahkan ZPUB dari akun **Postmix** Anda dan pantau progres siklus coinjoin Anda secara real-time. Jika Anda ingin memahami cara menggunakan Sentinel, saya merekomendasikan untuk berkonsultasi dengan tutorial lain ini di PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9).
+
+
+

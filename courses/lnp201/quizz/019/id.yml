@@ -1,0 +1,8 @@
+question: Apa yang dijamin oleh sistem transaksi komitmen kepada peserta saluran Lightning?
+answer: Bahwa masing-masing dapat memulihkan dana mereka dengan mempublikasikan transaksi yang terakhir ditandatangani
+wrong_answers:
+  - Bahwa transaksi terlihat di blockchain Bitcoin
+  - Bahwa kapasitas saluran meningkat dengan setiap transaksi
+  - Bahwa biaya dibagi antara dua peserta
+explanation: |
+  Transaksi komitmen yang ditandatangani memastikan bahwa setiap peserta dapat memulihkan dana mereka dengan mempublikasikan versi terbaru dalam kasus saluran ditutup.

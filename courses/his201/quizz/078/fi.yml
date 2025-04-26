@@ -1,0 +1,9 @@
+question: Kenelle Satoshi Nakamoto siirsi verkkosivuston (joka sisältää myös foorumin ja wikin) hallinnan lähtiessään?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  Hänellä ei ollut aikaa hallinnoida sitä ja delegoi tehtävän nopeasti. Sivuston ja foorumin ottivat haltuunsa Theymos ja Cøbra.
+reviewed: false

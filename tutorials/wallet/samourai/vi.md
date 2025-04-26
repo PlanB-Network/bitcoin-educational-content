@@ -1,5 +1,5 @@
 ---
-name: Samouraï
+name: Samourai
 
 description: Khôi phục quyền riêng tư của bạn với Samourai
 ---

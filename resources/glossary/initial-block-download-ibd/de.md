@@ -1,0 +1,7 @@
+---
+term: INITIALER BLOCK DOWNLOAD (IBD)
+
+---
+Bezieht sich auf den Prozess, durch den ein Knoten die Blockchain vom Genesis-Block herunterlädt und verifiziert und sich mit anderen Knoten im Bitcoin-Netzwerk synchronisiert. IBD muss durchgeführt werden, wenn ein neuer vollständiger Knoten gestartet wird. Zu Beginn dieser ersten Synchronisierung hat der Knoten keine Informationen über frühere Transaktionen. Er lädt daher jeden Block von anderen Knoten im Netzwerk herunter, prüft seine Gültigkeit und fügt ihn dann seiner lokalen Version der Blockchain hinzu. Es sei darauf hingewiesen, dass IBD aufgrund der wachsenden Größe der Blockchain und des UTXO-Sets langwierig und ressourcenintensiv sein kann. Die Ausführungsgeschwindigkeit hängt von den Rechenkapazitäten des Computers, der den Knoten hostet, seiner RAM-Kapazität, der Geschwindigkeit des Speichergeräts und der Bandbreite ab. Um Ihnen eine Vorstellung zu geben: Wenn Sie eine leistungsstarke Internetverbindung haben und der Knoten auf einem aktuellen MacBook mit viel Arbeitsspeicher gehostet wird, dauert die IBD nur ein paar Stunden. Wenn Sie dagegen einen Mikrocomputer wie einen Raspberry Pi verwenden, kann die IBD eine Woche oder länger dauern.
+
+> ► *Im Französischen ist es allgemein üblich, sich direkt auf eine IBD zu beziehen. Die manchmal verwendete Übersetzung lautet "synchronisation initiale" oder "téléchargement initial des blocs".*

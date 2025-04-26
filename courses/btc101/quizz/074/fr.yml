@@ -1,9 +1,11 @@
-question: Où les bitcoins sont-ils réellement stockés ?
-answer: Dans la blockchain Bitcoin
+question: Où sont stockés les bitcoins ?
+answer: Dans la blockchain Bitcoin.
 wrong_answers:
-  - Dans le portefeuille Bitcoin
-  - Sur l'appareil où le portefeuille est installé
-  - Dans la réserve fédérale
+  - Dans le portefeuille Bitcoin.
+  - Sur l'appareil où le portefeuille est installé.
+  - Dans le coffre de la Réserve Fédérale.
 explanation: |
-  Bien que vos clés privées soient stockées dans votre portefeuille, les bitcoins eux-mêmes sont en réalité stockés dans la blockchain Bitcoin, qui est le registre public distribué au sein du réseau pair-à-pair Bitcoin.
-reviewed: false
+  Bien que vos clés privées soient stockées dans votre portefeuille, les
+  bitcoins eux-mêmes sont en réalité stockés dans la blockchain Bitcoin, qui est le registre public distribué au sein
+  du réseau pair-à-pair Bitcoin.
+reviewed: true

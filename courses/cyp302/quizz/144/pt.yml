@@ -1,0 +1,9 @@
+question: Qual é o tamanho típico dos números primos usados na fatoração para criptossistemas modernos como o RSA?
+answer: 1024 bits para cada fator
+wrong_answers:
+  - 1024 bits no total
+  - 256 bits para cada fator
+  - 256 bits no total
+explanation: |
+  Em criptossistemas modernos como o RSA, os números primos escolhidos são tipicamente de 1024 bits cada, tornando a fatoração extremamente difícil e aumentando a segurança.
+reviewed: false

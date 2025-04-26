@@ -1,0 +1,9 @@
+question: Který americký vývojář zaznamenal podivný blok během incidentu přetečení hodnoty 15. srpna 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Tento blok, využívající chybu, vytvořil přes 184 miliard bitcoinů.
+reviewed: false

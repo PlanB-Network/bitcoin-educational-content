@@ -1,9 +1,9 @@
-question: Qual è lo scopo della transazione di prelievo in una rete Lightning?
-answer: Rappresenta lo stato del canale, garantendo chi possiede i fondi dopo ogni trasferimento.
+question: Perché Alice e Bob scambiano i loro segreti per le precedenti transazioni impegnative?
+answer: Per permettere a ciascuno di proteggersi nel caso in cui l'altro pubblichi una vecchia transazione
 wrong_answers:
-  - È la transazione che sposta i fondi da un lato all'altro.
-  - È la transazione che apre il canale.
-  - È la transazione che chiude il canale.
+  - Per aumentare la capacità del canale
+  - Per bloccare l'accesso ai fondi dell'altro
+  - Per dividere i fondi equamente
 explanation: |
-  La transazione di prelievo viene aggiornata dopo ogni trasferimento nella rete Lightning per riflettere lo stato attuale del canale. Garantisce chi possiede i fondi dopo ogni trasferimento, ma non viene eseguita a meno che il canale non venga chiuso.
+  Lo scambio di segreti per le transazioni precedenti permette a ciascun partecipante di punire l'altro in caso di tentativo di truffa pubblicando una vecchia transazione.
 reviewed: false

@@ -1,0 +1,10 @@
+question: Miks on soovitatav piirata oma brauserisse installitud laienduste arvu?
+answer: Vältimaks potentsiaalseid turva- ja jõudlusprobleeme.
+wrong_answers:
+  - Selleks, et säästa seadme salvestusruumi.
+  - Et vältida brauseri kokkujooksmist.
+  - Et vältida jälgimist kolmandate osapoolte saitide poolt.
+explanation: |
+  Kuigi brauseri laiendused võivad pakkuda kasulikke funktsionaalsusi, võivad need
+  samuti kujutada endast turvariske, kuna need võivad pääseda ligi teie andmetele ja sirvimistegevusele. Lisaks
+  võib liiga paljude laienduste omamine aeglustada teie brauserit ja mõjutada selle jõudlust.

@@ -1,0 +1,9 @@
+question: O que constitui uma âncora em RGB?
+answer: ID da transação, MPC, DBC e prova de transação adicional
+wrong_answers:
+  - Génese, definição do selo e pacote de transição
+  - Esquema do contrato, lógica comercial e estado próprio
+  - Assinatura, Hash de transação e Compromisso Pedersen
+explanation: |
+  Uma Anchor contém os dados necessários para provar a inclusão de um compromisso único numa transação Bitcoin.
+reviewed: false

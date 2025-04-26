@@ -1,9 +1,0 @@
-question: De quoi les commerçants ont-ils besoin pour gérer la liquidité sur le Lightning Network ?
-answer: Ils ont besoin de liquidité entrante provenant d'autres nœuds et acteurs.
-wrong_answers:
-  - Ils doivent ouvrir des canaux.
-  - Ils doivent maintenir un équilibre de liquidité des deux côtés.
-  - Ils doivent acheter des canaux.
-explanation: |
-  Pour les commerçants sur le Lightning Network, la gestion de la liquidité implique d'avoir besoin de liquidité entrante provenant d'autres nœuds et acteurs. Cela signifie qu'ils doivent avoir des personnes connectées à eux.
-reviewed: false

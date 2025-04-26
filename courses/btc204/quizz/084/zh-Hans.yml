@@ -1,0 +1,11 @@
+question: 在Zerolink协议中，“post-mix”钱包的作用是什么？
+
+answer: 用于存储混币后的UTXOs。
+
+wrong_answers:
+  - 用于存储混币前的UTXOs。
+  - 用于存储找零的UTXOs。
+  - 用于存储合并的UTXOs。
+
+explanation: |
+  “post-mix”钱包是专门为已混合的硬币保留的。

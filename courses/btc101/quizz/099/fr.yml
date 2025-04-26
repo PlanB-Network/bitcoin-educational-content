@@ -1,11 +1,12 @@
-question : Que devez-vous faire une fois les mots de votre phrase mnémonique écrits ?
-answer : Faites-en une deuxième copie et stockez-la dans un endroit séparé
-wrong_answers :
-  - Partagez-la avec un ami de confiance
-  - Envoyez-la par courriel à vous-même
-  - Stockez-la dans votre téléphone
-explanation : |
-  Une fois les mots de votre phrase mnémonique écrits, il est recommandé
-  de faire une deuxième copie et de la stocker dans un endroit séparé de la première. Cela fournit
-  une sauvegarde en cas de perte ou d'accident avec la première copie.
+question: Que devez-vous faire une fois les mots de votre phrase mnémonique écrits ?
+answer: Faites-en une seconde copie et stockez-la dans un endroit séparé.
+wrong_answers:
+  - Partagez-la avec un ami de confiance.
+  - Envoyez-la par courriel à vous-même.
+  - Stockez-la dans votre téléphone.
+explanation: |
+  Une fois les mots de votre phrase mnémonique écrits, il est
+  recommandé de faire une seconde copie et de la stocker dans un
+  endroit séparé de la première. Cela fournit une sauvegarde en
+  cas de perte ou d'accident avec la première copie.
 reviewed: true

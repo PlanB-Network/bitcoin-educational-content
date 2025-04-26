@@ -1,11 +1,13 @@
-question: Mikä on Bitcoinin avainominaisuus, joka erottaa sen fiat-valuutoista?
-answer: Sen rahapolitiikkaa ohjaa yleinen konsensus.
+question: Mikä on yksi Bitcoinin keskeisistä ominaisuuksista, joka erottaa sen fiat-valuutoista?
+answer: Sen rahapolitiikka perustuu yleiseen konsensukseen.
 wrong_answers:
   - Sitä voidaan painaa rajattomasti keskuspankkien toimesta.
-  - Se on tuettu fyysisellä hyödykkeellä, kuten kullalla tai hopealla.
+  - Se on tuettu fyysisellä hyödykkeellä kuten kulta tai hopea.
   - Sitä säätelee keskuspankki.
 explanation: |
-  Bitcoin, sen hajautetun ja kryptografisen luonteen ansiosta, ei muun muassa
-  voida väärentää ja sen määrä on rajattu 21 miljoonaan yksikköön. Tämä on avainominaisuus, joka erottaa
-  sen fiat-valuutoista, joiden rahapolitiikkaa keskuspankit voivat muuttaa.
-reviewed: false
+  Bitcoinin hajautetun ja kryptografisen luonteen vuoksi
+  sitä ei voi väärentää ja se on rajoitettu 21 miljoonaan
+  yksikköön. Tämä on keskeinen ominaisuus, joka erottaa sen
+  fiat-valuutoista, joiden rahapolitiikkaa voidaan
+  muuttaa keskuspankkien toimesta.
+reviewed: true

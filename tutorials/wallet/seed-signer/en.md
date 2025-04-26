@@ -6,11 +6,9 @@ description: Set up of your Seed signer
 
 ![cover](assets/cover.webp)
 
-## Materiel:
+## Material:
 
-1. Raspberry Pi Zéro (version 1.3)
-
-Raspberry Pi Zero
+**Raspberry Pi Zero (version 1.3)**
 
 For a completely air-gapped solution, make sure to use the version 1.3 with no WiFi or Bluetooth capability, but any Raspberry Pi 2/3/4 or Zero model will work.
 
@@ -19,26 +17,21 @@ GPIO Hammer
 
 If your soldering isn’t quite up to scratch, or you just don’t own a soldering iron yet, then you can use “GPIO Hammer” as an alternative to soldering.
 
-2. Chapeau LCD WaveShare 1,3 pouces avec écran 240 × 240 pixels
+**Hat LCD WaveShare 1,3 inches with screen 240 × 240 pixels**
 
-WaveShare LCD Hat
+WaveShare LCD Hat 1.3″ 240×240 pxl LCD
 
-Waveshare 1.3″ 240×240 pxl LCD
+**Note:** Choose the Waveshare screen carefully; make sure to purchase the model that has a resolution of 240×240 pixels.
 
-Note: Choose the Waveshare screen carefully; make sure to purchase the model that has a resolution of 240×240 pixels.
-more info
+**Camera module compatible with Pi Zero**
 
-3. Module de caméra compatible Pi Zero
+Raspberry Pi Camera Aokin/AuviPal 5MP 1080p with OV5647 Sensor Video Camera Module; other brands with the OV5647 sensor module should work as well, but may not be compatible with the Orange Pill enclosure.
 
-Raspberry Pi Camera
+**Note:** You will need to have a camera ribbon cable specifically compatible with Raspberry Pi Zero.
 
-Aokin / AuviPal 5MP 1080p with OV5647 Sensor Video Camera Module; other brands with the OV5647 sensor module should work as well, but may not be compatible with the Orange Pill enclosure.
+**MicroSD card with at least 4 GB of capacity**
 
-Note: You will need to have a camera ribbon cable specifically compatible with Raspberry Pi Zero.
-
-4. Carte MicroSD avec au moins 4 Go de capacité
-
-extensive ressources : https://seedsigner.com/explainers/
+extensive resources: https://seedsigner.com/explainers/
 
 ## Software:
 
@@ -46,17 +39,14 @@ Software Installation
 
 1. Download the latest “seedsigner_x_x_x.img.zip” file
    latest release
-
 2. Unzip the “seedsigner_x_x_x.img.zip” file
-
 3. Use the Balena Etcher or a similar tool to write the unzipped .img image file to a microsd card
    BALENA ETCHER
-
 4. Install the microsd card in SeedSigner.
    SeedSigner GPG Public Key
    seedsigner_pubkey.gpg
 
-## Tutoriel video
+## Tutorial video
 
 _guide taken from Southerbitcoiner, created by Cole_
 
@@ -94,10 +84,9 @@ SeedSigner is capable of generating seeds and signing off on bitcoin transaction
 
 Those are all the SeedSigner guides, for now! Let me know if you think I am missing anything. These are on my list for potential videos:
 
-> SeedSigner overall review. Is it a good choice for a signing device? Pros/cons?
-
-> How to use Bip-85 with SeedSigner
-> How to be uncle Jim with SeedSigner
+- SeedSigner overall review. Is it a good choice for a signing device? Pros/cons?
+- How to use Bip-85 with SeedSigner
+- How to be uncle Jim with SeedSigner
 
 Found these valuable? Consider sending a tip to help fund future videos:
 https://www.southernbitcoiner.com/donate/

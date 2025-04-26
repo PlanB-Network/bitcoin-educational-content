@@ -1,10 +1,9 @@
-question: Jaký je nejrychlejší a nejméně nákladný typ uzavření kanálu?
-answer: Kooperativní uzavření.
+question: Co dělá odesílající uzel, když selže platební trasa kvůli nedostatečné likviditě?
+answer: Zkusí jinou trasu, dokud nenajde funkční
 wrong_answers:
-  - Vynucené uzavření.
-  - Uzavření podvodníkem.
-  - Mezi typy uzavření není rozdíl v rychlosti a nákladech.
+  - Automaticky pošle žádost o vrácení peněz příjemci
+  - Uzavře kanál a vytvoří nový přímý kanál
+  - Požádá prostředníkovy uzly o zvýšení jejich likvidity
 explanation: |
-  Při kooperativním uzavření obě strany komunikují a dohodnou se na konečném
-  stavu kanálu. To je nejrychlejší a nejméně nákladná možnost.
+  Když trasa selže, odesílající uzel zkouší jiné alternativní trasy, dokud nenajde funkční cestu, nebo dokud nejsou vyčerpány všechny možnosti.
 reviewed: false

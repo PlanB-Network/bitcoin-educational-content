@@ -1,0 +1,9 @@
+question: Kuidas töötab Bitcoinis 2/2 multisignatuuri aadress?
+answer: Selle vabastamiseks ja vahendite kulutamiseks on vaja kahte allkirja.
+wrong_answers:
+  - See võimaldab vahendite kulutamist vaid ühe kahest võtmest.
+  - See lubab tehinguid ainult teatud lukustamisjuhtudel.
+  - Seda kasutatakse ainult vahendite saatmiseks avalikele aadressidele.
+explanation: |
+  2/2 multisignatuuri aadress nõuab mõlema osapoole allkirju, et vahendeid saaks kulutada, mida kasutatakse Lightning kanalite turvalisuse tagamiseks.
+reviewed: false

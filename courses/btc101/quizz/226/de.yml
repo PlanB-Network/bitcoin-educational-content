@@ -1,9 +1,10 @@
-question: Was ist die Funktion des Lightning-Netzwerks?
+question: Welche Art von Netzwerk wird durch das Lightning Network erstellt?
 answer: Ein Netzwerk von Zahlungskanälen.
 wrong_answers:
-  - Ein Netzwerk von Mining-Knoten.
-  - Ein Netzwerk von Blockchain-Knoten.
+  - Ein Netzwerk von Mining-Nodes.
+  - Ein Netzwerk von Blockchain-Nodes.
   - Ein Netzwerk von Kryptowährungsbörsen.
-explanation: |
-  Das Lightning-Netzwerk fungiert als Netzwerk von Zahlungskanälen und ermöglicht sofortige Transaktionen mit geringen Gebühren für den Sender.
-reviewed: false
+explanation: >-
+  Das Lightning Network fungiert als ein Netzwerk von Zahlungskanälen und ermöglicht
+  sofortige Transaktionen mit niedrigen Gebühren für den Sender.
+reviewed: true

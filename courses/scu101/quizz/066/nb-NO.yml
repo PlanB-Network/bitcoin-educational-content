@@ -1,0 +1,13 @@
+question: Hva er fordelene med å bruke Passkeys som et alternativ til tradisjonelle passord?
+answer: De tilbyr krypterte tilfeldige nøkler kombinert med en lokal faktor, som er vertet av en leverandør, men forblir utenfor deres rekkevidde.
+wrong_answers:
+  - De er lettere å huske enn tradisjonelle passord.
+  - De krever ikke noen ekstra autentiseringsfaktorer.
+  - De kan brukes på alle nettsteder uten noen oppdateringer.
+explanation: |
+  Passkeys tilbyr krypterte tilfeldige nøkler, kombinert med en lokal faktor
+  (biometri
+  eller PIN), som er vertet av en leverandør, men forblir utenfor deres rekkevidde. Denne tilnærmingen
+  eliminerer behovet for passord, og gir dermed et høyt sikkerhetsnivå uten
+  begrensningene som er forbundet med tradisjonelle passord.
+reviewed: false

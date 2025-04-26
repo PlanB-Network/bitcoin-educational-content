@@ -1,9 +1,12 @@
-question: Quelle est la pratique recommandée lors de l'insertion d'une clé USB dans votre ordinateur?
+question: Quelle est la pratique recommandée lors de l'insertion d'une clé USB dans votre ordinateur ?
 answer: Ne pas insérer de clés USB inconnues ou suspectes.
 wrong_answers:
   - Insérer n'importe quelle clé USB sans vérification.
   - Toujours formater la clé USB avant de l'insérer.
-  - Insérer la clé USB puis vérifier les virus.
+  - Insérer la clé USB puis vérifier la présence de virus.
 explanation: |
-  L'insertion de clés USB inconnues ou suspectes peut exposer le système à des programmes malveillants qui peuvent se lancer automatiquement lors de l'insertion. Vérifier la clé USB sera inutile une fois qu'elle aura été insérée.
-reviewed: false
+  Insérer des clés USB inconnues ou suspectes peut exposer le
+  système à des programmes malveillants qui peuvent se lancer
+  automatiquement lors de l'insertion. Vérifier la clé USB sera inutile une fois
+  qu'elle a été insérée.
+reviewed: true

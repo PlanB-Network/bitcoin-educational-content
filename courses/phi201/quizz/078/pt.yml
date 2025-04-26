@@ -1,0 +1,9 @@
+question: Qual é a contribuição mais conhecida de Adam Smith para a economia?
+answer: Ele desenvolveu a teoria da mão invisível.
+wrong_answers:
+  - Ele desenvolveu a teoria do dedo visível.
+  - Ele desenvolveu a teoria do dedo invisível.
+  - Ele desenvolveu a teoria da mão visível.
+explanation: |
+  Adam Smith é conhecido por sua teoria da mão invisível, que postula que ações individuais motivadas pelo auto-interesse contribuem involuntariamente para o bem-estar econômico da sociedade como um todo.
+reviewed: false

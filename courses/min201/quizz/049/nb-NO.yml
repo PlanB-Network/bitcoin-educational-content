@@ -1,0 +1,14 @@
+question: Hvorfor er jomfruelige bitcoins spesielt ettertraktet av store institusjonelle aktører?
+answer: De kan garantere legitimiteten til sine digitale eiendeler overfor tilsynsmyndigheter.
+wrong_answers:
+  - De kan selge dem til en høyere pris.
+  - De kan bruke dem til ulovlige aktiviteter.
+  - De kan unngå å betale skatt på dem.
+explanation: |
+  Jomfruelige bitcoins er spesielt ettertraktet av store
+  institusjonelle aktører fordi de kan garantere
+  legitimiteten til sine digitale eiendeler overfor
+  tilsynsmyndigheter. Disse bitcoinsene har aldri vært tatt i bruk,
+  noe som gir en viss garanti mot avvisning av regulatorer eller
+  store handelsplattformer.
+reviewed: true

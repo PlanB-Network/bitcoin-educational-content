@@ -1,0 +1,13 @@
+question: Quale metodo crittografico può essere utilizzato nei coinswap per garantire la sicurezza dello scambio senza la necessità di fiducia?
+
+answer: Firme Adattive
+
+wrong_answers:
+  - Crittografia simmetrica
+  - ECDH
+  - Crittografia asimmetrica
+
+explanation: |
+  Per eseguire un coinswap, si possono utilizzare gli HTLC o i PTLC. Questi due protocolli funzionano in modo simile utilizzando un sistema di time-lock che garantisce che lo scambio sia completato con successo o completamente annullato, proteggendo così l'integrità dei fondi di entrambe le parti. La principale differenza tra HTLC e PTLC è che gli HTLC utilizzano hash e preimmagini per assicurare la transazione, mentre i PTLC utilizzano le Firme Adattive.
+
+reviewed: false

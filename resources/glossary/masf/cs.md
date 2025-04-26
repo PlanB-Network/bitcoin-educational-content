@@ -1,0 +1,5 @@
+---
+term: MASF
+
+---
+Zkratka pro "*Miner-Activated Soft Fork*". Označuje měkký fork v Bitcoinu, když k jeho aktivaci dojde činností těžařů. MASF je rodina metod aktivace soft forku v Bitcoinu. V těchto přístupech těžaři signalizují svůj souhlas a připravenost k aktualizaci protokolu těžbou bloků, které podporují uzamčení soft forku. Pokud se významná většina těžařů vysloví pro soft fork, je aktualizace považována za přijatou a později je aktivována. Tento proces pomáhá zabránit rozdělení blockchainu a udržuje jednotu sítě. MASF je upřednostňován pro svůj mírnější přístup založený na konsensu, který snižuje riziko rozdělení blockchainu a zároveň zajišťuje, že většina výpočetního výkonu novou aktualizaci podporuje. Aktivační metody jako BIP34, BIP9, BIP8 (pokud `LOT=false` nebo pokud je dosaženo prahové hodnoty hlasování) nebo Speedy Trial jsou příklady MASF.

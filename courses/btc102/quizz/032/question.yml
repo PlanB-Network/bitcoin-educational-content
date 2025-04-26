@@ -1,64 +1,18 @@
-id: 759aac27-31dc-4c85-a7ef-9cf6b9867708
-chapterId: ae122ad9-9b4d-5229-9038-e1b99d5cfc83
-difficulty: easy
-duration: 15
-author: DecouvreBitcoin
+id: 8a8c1c01-6686-459d-9d6b-9804234c6eba
+chapterId: 03017765-53cf-5f14-9682-e99ca02d2241
+difficulty: hard
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Innovation
-  - Disruption
+  - good-practice
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2668
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2584
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1292
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2626
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2668
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-03-21
     urgency: 1
-    contributors_id:
-    reward: 2584
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2626
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2752
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2584
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2752
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -1,11 +1,13 @@
-question: Jaký je vztah mezi cenou Bitcoinu a jeho cenou?
-answer: Cena Bitcoinu je obecně úměrná jeho ceně
+question: Jaký je vztah mezi výrobními náklady na Bitcoin a jeho tržní cenou?
+answer: Náklady na Bitcoin mohou být obecně proporcionální k jeho ceně
 wrong_answers:
-  - Cena Bitcoinu je nepřímo úměrná jeho ceně
-  - Cena Bitcoinu není spojena s jeho cenou
-  - Cena Bitcoinu je vždy vyšší než jeho cena
+  - Náklady na Bitcoin jsou nepřímo proporcionální k jeho ceně
+  - Náklady na Bitcoin jsou fixní, v určitém poměru, k jeho ceně
+  - Náklady na Bitcoin jsou vždy vyšší než jeho cena
 explanation: |
-  Cena Bitcoinu, která souvisí s elektřinou potřebnou k provozu
-  těžebních strojů, je obecně úměrná jeho ceně. Tento vztah poskytuje
-  lepší pochopení kolísání cen a budoucích vyhlídek.
-reviewed: false
+  Náklady na Bitcoin, které souvisí s elektřinou
+  potřebnou k provozování těžebních strojů, mohou být obecně
+  proporcionální k jeho ceně. Tento vztah poskytuje
+  lepší pochopení kolísání cen a budoucích
+  vyhlídek.
+reviewed: true

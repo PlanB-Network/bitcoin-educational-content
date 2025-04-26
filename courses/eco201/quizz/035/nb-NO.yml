@@ -1,0 +1,14 @@
+question: Hva skjer når det er en nedgang i rentenivået på grunn av en økning i sparing ifølge den østerrikske teorien om konjunktursyklusen?
+answer: Mengden av endelige varer som konsumeres vil reduseres, rentenivået vil falle, entreprenører vil bruke denne tilstrømningen av kapital til å skape nye investeringsvarer og dermed forlenge produksjonsstrukturen.
+wrong_answers:
+  - Mengden av endelige varer som konsumeres vil øke, rentenivået vil stige, entreprenører vil bruke denne tilstrømningen av kapital til å skape nye investeringsvarer og dermed forkorte produksjonsstrukturen.
+  - Mengden av endelige varer som konsumeres vil reduseres, rentenivået vil stige, entreprenører vil bruke denne tilstrømningen av kapital til å skape nye investeringsvarer og dermed forkorte produksjonsstrukturen.
+  - Mengden av endelige varer som konsumeres vil øke, rentenivået vil falle, entreprenører vil bruke denne tilstrømningen av kapital til å skape nye investeringsvarer og dermed forkorte produksjonsstrukturen.
+explanation: |
+  Ifølge den østerrikske teorien om konjunktursyklusen, når det er
+  en nedgang i rentenivået på grunn av en økning i sparing, vil mengden av endelige
+  varer som konsumeres reduseres ettersom sparing innebærer å utsette en del av ens konsum
+  til et senere tidspunkt. Som et resultat vil rentenivået falle fordi tilbudet av kapital
+  øker. Dette gjør det mulig for entreprenører å bruke denne tilstrømningen av kapital til å skape
+  nye investeringsvarer og dermed forlenge produksjonsstrukturen.
+reviewed: false

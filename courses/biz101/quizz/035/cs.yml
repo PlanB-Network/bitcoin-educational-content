@@ -1,0 +1,9 @@
+question: Jaká je vyšší efektivita a rychlost Lightning Network ve srovnání s tradičními platebními metodami?
+answer: Je podstatně rychlejší, často vypořádá transakce za méně než sekundu, má nižší poplatky a není závislý na více zprostředkovatelích.
+wrong_answers:
+  - Odpovídá tradičním bankovním lhůtám a často trvá 2-5 dní, než se vyřídí.
+  - Je pomalejší než tradiční platby kartou a má vyšší poplatky.
+  - Vyžaduje více schvalujících subjektů, stejně jako běžné bankovní převody.
+explanation: |
+  Díky tomu, že Lightning umožňuje provádět transakce mimo řetězec a dokončit platby téměř okamžitě, nabízí výhodu rychlosti a efektivity oproti tradičním metodám, které se spoléhají na několik zprostředkovatelů.
+reviewed: false

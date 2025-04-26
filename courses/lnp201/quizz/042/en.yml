@@ -1,12 +1,9 @@
-question: Why is a forced closure more risky in terms of fees and possible validation by miners?
-answer: Because the fees were decided when the transaction was created in the past and the network has changed since then.
+question: What criterion can help a node choose an efficient payment route?
+answer: The probability of success based on the total capacity of the channels
 wrong_answers:
-  - Because the fees are always higher in a forced closure.
-  - Because miners are less likely to validate a forced closure.
-  - Because the fees are unpredictable in a forced closure.
+  - The geographical distance between the nodes
+  - The presence of nodes with a low fee level
+  - The number of payments made by the target node
 explanation: |
-  In a forced closure, the fees were decided when the transaction was created
-  in the past. The network has changed since then, so the protocol defaults to fees
-  5 times higher than the current ones when the transaction was created. This makes
-  forced closure more risky in terms of fees and possible validation by miners.
+  The total capacity of the channels can indicate a higher probability of success, as it suggests a greater availability of liquidity for transactions.
 reviewed: false

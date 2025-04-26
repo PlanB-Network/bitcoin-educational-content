@@ -1,0 +1,9 @@
+question: Hvilket begrep refererer til den programmerte fordelingen av Mining-tilskuddet?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Biseksjon
+  - Coinbase
+explanation: |
+  Halving refererer til Halving av Mining-tilskuddet for hver 210 000 blokker.
+reviewed: false

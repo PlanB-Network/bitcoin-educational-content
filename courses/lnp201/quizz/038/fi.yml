@@ -1,9 +1,9 @@
-question: Kuka luo tapahtuman Timelockin kanssa?
-answer: Henkilö, joka lähettää rahat.
+question: Mikä rooli aikakatkaisulla on HTLC-toiminnassa?
+answer: Se tarjoaa aikarajan maksun suorittamiselle ennen peruutusta
 wrong_answers:
-  - Henkilö, joka vastaanottaa rahat.
-  - Molemmat osapuolet luovat tapahtuman Timelockin kanssa.
-  - Kumpikaan osapuoli ei luo tapahtumaa Timelockin kanssa.
+  - Se lisää käytetyn kanavan kapasiteettia
+  - Se lisää yksityisyyden tasoa transaktioon
+  - Se lisää lisämaksuja jokaiselle välittäjäsolmulle
 explanation: |
-  Henkilö, joka lähettää rahat, luo tapahtuman Timelockin kanssa.
-  Tämä estää heitä välittömästi saamasta rahojaan takaisin.
+  Aikakatkaisu asettaa aikarajan HTLC: n suorittamiselle, mikä mahdollistaa varojen palautuksen, jos transaktio ei onnistu, peruuttamalla maksun tämän ajanjakson jälkeen.
+reviewed: false

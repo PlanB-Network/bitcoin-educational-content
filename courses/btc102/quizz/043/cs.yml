@@ -1,9 +1,9 @@
-question: Jaký je hlavní důvod, proč vlády a centrální banky zkoumají možnost vytvoření digitální verze své fiat měny?
-answer: Aby zajistily kontrolu a dodržely místní předpisy
+question: Co je hlavním cílem hodlerů?
+answer: Dlouhodobě držet své bitcoiny
 wrong_answers:
-  - Aby konkurovaly Bitcoinu
-  - Aby poskytovaly ochranu soukromí
-  - Aby zvýšily masový dohled
+  - Krátkodobé spekulace
+  - Provádění častých transakcí Bitcoin
+  - Maximalizovat soukromí svých transakcí Bitcoin
 explanation: |
-  Obsah kapitoly vysvětluje, že ačkoli tyto projekty tvrdí, že konkuruji Bitcoinu, zůstávají centralizované, aby zajistily kontrolu a dodržely místní předpisy.
+  Cílem hodlera je ponechat si své bitcoiny po mnoho let, aby mohl těžit z předpokládaného růstu tohoto aktiva.
 reviewed: false

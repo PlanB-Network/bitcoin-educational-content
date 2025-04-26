@@ -1,0 +1,9 @@
+question: What is the purpose of Interface Implementation in RGB architecture?
+answer: Map Schema fields to names defined in the Interface
+wrong_answers:
+  - Compile AluVM scripts for validation
+  - To define the global states and owned states of the contract
+  - To store client-side cryptographic proofs
+explanation: |
+  Interface Implementation establishes the link between the Schema's business logic and the presentation readable by the Interface.
+reviewed: false

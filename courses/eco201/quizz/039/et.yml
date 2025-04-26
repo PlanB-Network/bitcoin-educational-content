@@ -1,0 +1,12 @@
+question: Mis on depressiooni põhjus nii monetaristide kui ka Keynesi pooldajate sõnul?
+answer: Ebapiisav kogunõudlus
+wrong_answers:
+  - Ületootmine
+  - Kõrged intressimäärad
+  - Kõrge inflatsioon
+explanation: |
+  Nii monetaristide kui ka Keynesi pooldajate jaoks on depressiooni põhjuseks
+  ebapiisav kogunõudlus. Nad usuvad, et krediidi laienemisele stiimuli andmine
+  (intressimäärade langetamine) ja riigi defitsiitvõimekuse kasutamine nõudluse suurendamiseks
+  käivitab taastumise.
+reviewed: false

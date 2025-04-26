@@ -1,0 +1,12 @@
+question: Apa keuntungan yang ditawarkan jaringan Bitcoin dibandingkan dengan sistem keuangan tradisional?
+answer: Desentralisasi dan keamanan
+wrong_answers:
+  - Tingkat inflasi yang meningkat
+  - Ketergantungan pada perantara
+  - Kontrol terpusat atas transaksi
+explanation: |
+  Jaringan desentralisasi Bitcoin menyediakan cara yang aman dan efisien untuk
+  bertransaksi tanpa memerlukan perantara atau pihak ketiga. Ini
+  mengurangi risiko sensor dan perubahan tidak sah pada transaksi,
+  serta meningkatkan privasi.
+reviewed: true

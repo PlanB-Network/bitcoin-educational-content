@@ -1,9 +1,9 @@
 question: ¿Cuál es una de las razones por las que Bitcoin no es una burbuja que desaparecerá?
-answer: Porque es una moneda que se utiliza en todo el mundo.
+answer: Porque es una moneda que se utiliza realmente en todo el mundo.
 wrong_answers:
   - Porque en realidad no se utiliza en ningún lugar.
-  - Porque está controlado por una autoridad central.
+  - Porque está controlada por una autoridad central.
   - Porque es fácil de falsificar.
-explanation: |
-  Bitcoin no es una burbuja que desaparecerá, sino una moneda que se utiliza en todo el mundo.
-reviewed: false
+explanation: >-
+  Bitcoin no es una burbuja que desaparecerá sino una moneda que se utiliza realmente en todo el mundo.
+reviewed: true

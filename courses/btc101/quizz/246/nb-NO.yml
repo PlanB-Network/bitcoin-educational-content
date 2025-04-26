@@ -1,0 +1,11 @@
+question: Hva er Bitcoins forbindelse med fremtiden for teknologi og samfunn?
+answer: Bitcoin er en teknologisk revolusjon for nye former for storskalaorganisering, som tillater verdioverføring uten noen betrodd tredjepart.
+wrong_answers:
+  - Bitcoin er en form for AI-teknologi.
+  - Bitcoin er et verktøy for å kontrollere verdens befolkning.
+  - Bitcoin er en metode for regjeringer til å spore sine borgere sine finansielle transaksjoner.
+explanation: >-
+  Teksten forklarer at Bitcoin, lik internett for kommunikasjonsmåter,
+  er en teknologisk revolusjon for nye former for storskalaorganisering, som bringer
+  oss muligheten til å utveksle verdi uten noen betrodd tredjepart.
+reviewed: false

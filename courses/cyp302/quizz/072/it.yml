@@ -1,0 +1,9 @@
+question: Perché la cifratura a scorrimento è considerata una cifratura simmetrica?
+answer: Perché la stessa chiave viene utilizzata sia per la cifratura che per la decifratura
+wrong_answers:
+  - Perché utilizza due chiavi, pubblica e privata
+  - Perché decifra senza utilizzare una chiave
+  - Perché la chiave varia con ogni cifratura
+explanation: |
+  La cifratura a scorrimento è considerata una cifratura simmetrica perché utilizza la stessa chiave per cifrare e decifrare un messaggio, garantendo così la confidenzialità tra le parti che condividono questa chiave.
+reviewed: false

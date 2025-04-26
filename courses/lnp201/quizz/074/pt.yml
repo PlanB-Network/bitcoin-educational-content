@@ -1,9 +1,0 @@
-question: Qual é o objetivo do meta-protocolo LNURL em uma fatura da Lightning Network?
-answer: Ele permite fornecer um valor direto em satoshis em vez de fazer uma solicitação.
-wrong_answers:
-  - Ele criptografa os dados da fatura
-  - Ele verifica a identidade do destinatário
-  - Ele calcula a taxa de transação
-explanation: |
-  O meta-protocolo LNURL em uma fatura da Lightning Network permite fornecer um valor direto em satoshis em vez de fazer uma solicitação. Essa funcionalidade melhora a experiência do usuário ao tornar o processo de pagamento mais flexível.
-reviewed: false

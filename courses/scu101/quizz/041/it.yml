@@ -1,9 +1,12 @@
 question: Qual è il vantaggio nell'utilizzare un gestore di password auto-ospitato come Bitwarden o KeePass?
 answer: Puoi controllare dove vengono memorizzate le tue password, offrendo maggiore sicurezza e controllo.
 wrong_answers:
-  - Sono più facili da usare rispetto ai servizi di terze parti.
-  - Offrono più funzionalità rispetto ai servizi di terze parti.
-  - Sono più economici dei servizi di terze parti.
+  - Sono più facili e sempre più sicuri da usare rispetto ai servizi di terze parti.
+  - Di solito offrono più funzionalità rispetto ai servizi di terze parti, anche se sono più costosi.
+  - Sono più economici e veloci rispetto ai servizi di terze parti.
 explanation: |
-  I gestori di password auto-ospitati come Bitwarden o KeePass ti consentono di controllare dove vengono memorizzate le tue password, offrendo potenzialmente maggiore sicurezza e controllo. Tuttavia, potrebbero richiedere una maggiore conoscenza tecnica per essere utilizzati.
-reviewed: false
+  I gestori di password auto-ospitati come Bitwarden o KeePass
+  ti permettono di controllare dove vengono memorizzate le tue password,
+  offrendo potenzialmente maggiore sicurezza e controllo. Tuttavia,
+  potrebbero richiedere più conoscenze tecniche per essere utilizzati.
+reviewed: true

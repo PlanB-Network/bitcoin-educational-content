@@ -1,0 +1,8 @@
+question: Mis oli rauast kastis, mis anti üle Robert Morrissile?
+answer: Kolm krüpteeritud teksti ja märkus
+wrong_answers:
+  - Kaart ja vihjed
+  - Unikaalne krüpteerimisvõti
+  - Üksik nimekiri nimedest
+explanation: |
+  Kast sisaldas kolme krüpteeritud teksti ja märkust, mis selgitas aarde leidmist ja andis juhiseid, kuidas selle sisu kätte saada.

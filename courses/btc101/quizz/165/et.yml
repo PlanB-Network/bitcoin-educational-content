@@ -1,0 +1,9 @@
+question: Kuidas tagab Bitcoin'i protokoll, et kahe ploki vaheline keskmine aeg püsib konstantne?
+answer: Kehtiva räsi leidmise raskusastet kohandatakse iga 2016 ploki järel
+wrong_answers:
+  - Kaevurite arvu reguleeritakse
+  - Plokkide suurust kohandatakse
+  - Kehtiva räsi leidmise eest antava tasu suurust suurendatakse
+explanation: >-
+  Bitcoin'i protokoll tagab kahe ploki vahelise keskmise aja konstantsuse, kohandades kehtiva räsi leidmise raskusastet iga 2016 ploki järel. See toimub sõltumata kaevurite arvust ja nende arvutusvõimsusest.
+reviewed: false

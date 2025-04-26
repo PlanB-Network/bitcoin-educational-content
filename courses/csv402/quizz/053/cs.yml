@@ -1,0 +1,9 @@
+question: Jak RGB připravuje půdu pro vrstvu 2 DEX?
+answer: Umožněním výměny aktiv mimo řetězec prostřednictvím kanálů Lightning a atomických swapů
+wrong_answers:
+  - Umožněním používání centralizované výměny pro všechny transakce RGB
+  - Umožněním výměny aktiv prostřednictvím chytrých smluv na řetězci
+  - Umožněním výměny aktiv mezi blokovými řetězci prostřednictvím atomických swapů
+explanation: |
+  Možnost provádět atomické swapy a výměny prostřednictvím kanálů Lightning nabízí možnost vytvářet decentralizované burzy DEX bez nevýhod burz na řetězci.
+reviewed: false

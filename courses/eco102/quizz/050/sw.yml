@@ -1,0 +1,9 @@
+question: Je, ni uongo gani mkuu ulioshutumiwa na Bastiat katika Kinachoonekana na Kisichoonekana?
+answer: Uharibifu huchochea uchumi
+wrong_answers:
+  - Uharibifu ni bahati mbaya
+  - Glaziers pekee hufaidika na madirisha yaliyovunjika
+  - Ajali ziepukwe
+explanation: |
+  Bastiat anakosoa uwongo kwamba uharibifu ungekuwa na athari za kiuchumi kwa kuchochea uchumi, akionyesha badala yake kwamba unasababisha upotezaji wa mali.
+reviewed: false

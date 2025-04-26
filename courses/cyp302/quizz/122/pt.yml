@@ -1,0 +1,8 @@
+question: Qual é o problema da distribuição de chaves?
+answer: O desafio de transmitir chaves de forma segura sem troca física
+wrong_answers:
+  - A necessidade de gerar múltiplos pares de chaves por cliente
+  - A dificuldade de garantir a segurança do armazenamento físico das chaves
+  - A obrigação de mudar as chaves a cada comunicação
+explanation: |
+  O problema da distribuição de chaves refere-se ao desafio de transmitir chaves de maneira segura, uma necessidade que se tornou crucial nas comunicações digitais onde uma troca física é impraticável.

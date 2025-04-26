@@ -1,11 +1,12 @@
 question: What should you do once the words of your mnemonic phrase are written?
-answer: Make a second copy and store it in a separate location
+answer: Make a second copy and store it in a separate location.
 wrong_answers:
-  - Share it with a trusted friend
-  - Email it to yourself
-  - Store it in your phone
+  - Share it with a trusted friend.
+  - Email it to yourself.
+  - Store it in your phone.
 explanation: |
-  Once the words of your mnemonic phrase are written, it is recommended
-  to make a second copy and store it in a separate location from the first. This provides
-  a backup in case of loss or accident with the first copy.
+  Once the words of your mnemonic phrase are written, it is
+  recommended to make a second copy and store it in a
+  separate location from the first. This provides a backup in
+  case of loss or accident with the first copy.
 reviewed: true

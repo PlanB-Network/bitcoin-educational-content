@@ -1,0 +1,9 @@
+question: Mida mõõdab hashrate Bitcoin'i võrgus?
+answer: Arvutusi sekundis
+wrong_answers:
+  - Tehingute arvu sekundis
+  - Aktiivsete sõlmede arvu
+  - Võrgu poolt tarbitava elektri hulka
+explanation: |
+  Hashrate Bitcoin'i võrgus mõõdab arvu arvutusi, mida saab teha sekundis. See on võrgu tervise ja turvalisuse oluline näitaja.
+reviewed: true

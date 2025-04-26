@@ -1,0 +1,9 @@
+question: Jak se jmenovala softwarová implementace, kterou v březnu 2011 vydal Mike Hearn, a která implementovala Zjednodušené ověření plateb (SPV)?
+answer: BitCoinJ
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  [Zveřejnil](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438) ji pod otevřenou licencí (Apache 2.0), kterou připsal společnosti Google (jeho zaměstnavateli v té době). Tato implementace umožnila spuštění první lehké peněženky fungující na Androidu.
+reviewed: false

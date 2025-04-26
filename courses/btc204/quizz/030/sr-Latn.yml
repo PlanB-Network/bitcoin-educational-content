@@ -1,0 +1,9 @@
+question: Koji je cilj heuristike internih transakcija?
+answer: Da identifikujete Exchange.
+wrong_answers:
+  - Da identifikujete lažne transakcije u realnom vremenu.
+  - Da identifikujete obrasce transakcija.
+  - Da identifikujete klaster koji pripada istoj entitetu.
+explanation: |
+  Unutrašnje heuristike nam omogućavaju da identifikujemo Exchange s ciljem posmatranja korisnika u narednim transakcijama.
+reviewed: false

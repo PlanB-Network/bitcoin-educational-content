@@ -1,0 +1,9 @@
+question: Segundo Keynes, qual é o principal problema com o padrão ouro?
+answer: Limita a capacidade do governo de financiar seus gastos
+wrong_answers:
+  - Promove a inflação
+  - Dificulta o comércio internacional
+  - Todas as outras respostas estão corretas.
+explanation: |
+  Keynes acreditava que o padrão ouro restringia a capacidade do governo de ajustar a oferta de dinheiro, impedindo-os de financiar facilmente seus gastos, especialmente durante crises econômicas.
+reviewed: false

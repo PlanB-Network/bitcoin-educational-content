@@ -1,11 +1,13 @@
 question: Cụm từ ghi nhớ trong ví Bitcoin là gì?
-answer: Một danh sách gồm 12 hoặc 24 từ, là bản sao lưu của ví Bitcoin của bạn
+answer: Một danh sách gồm 12 hoặc 24 từ giúp bạn truy cập vào bitcoin của mình.
 wrong_answers:
-  - Một mật khẩu được chọn để truy cập vào ví Bitcoin
-  - Một mã để mã hóa các giao dịch Bitcoin
-  - Một cụm từ khôi phục bí mật có thể phá hủy ví Bitcoin
+  - Một mật khẩu được chọn để truy cập vào ví Bitcoin.
+  - Một mã để mã hóa các giao dịch Bitcoin.
+  - Một cụm từ khôi phục bí mật phá hủy ví Bitcoin trong trường hợp cần thiết.
 explanation: |
-  Kể từ năm 2017, khóa riêng có thể được mã hóa trong một danh sách đơn giản gồm 12 hoặc
-  24 từ, được gọi là cụm từ ghi nhớ. Cụm từ này là bản sao lưu của ví Bitcoin của bạn,
-  nó là thứ cho phép bạn tái tạo ví của mình với bất kỳ phần mềm/ứng dụng ví Bitcoin nào.
+  Kể từ năm 2017, khóa riêng có thể được mã hóa thành một danh sách đơn giản
+  gồm 12 hoặc 24 từ, được gọi là cụm từ ghi nhớ. Cụm từ này
+  là bản sao lưu của ví Bitcoin của bạn, vì vậy nó cho phép bạn
+  truy cập vào bitcoin của mình bằng cách sử dụng bất kỳ phần mềm/ứng dụng ví Bitcoin
+  nào.
 reviewed: true

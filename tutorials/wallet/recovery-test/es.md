@@ -63,6 +63,9 @@ En Sparrow, haz clic en la pestaña "*Direcciones*".
 Luego, anota en un pedazo de papel la primera dirección de recepción de tu wallet. En mi ejemplo, la dirección es:
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 Después de anotar la información, ve al menú "*Archivo*", luego selecciona "*Eliminar Wallet*". Te recuerdo una vez más que tu wallet de Bitcoin debe estar vacía antes de proceder con esta operación.
 
 ![RECOVERY TEST](assets/notext/04.webp)

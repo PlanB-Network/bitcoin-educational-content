@@ -1,0 +1,9 @@
+question: Какие из них являются сайдчейнами Bitcoin?
+answer: Liquid и корневище
+wrong_answers:
+  - Полигон и Арбитрум
+  - Юпитер и Фантом
+  - Bitcoin Cash и Bitcoin Satoshi Vision
+explanation: |
+  Liquid и RSK - это сайдчейны, которые имеют 2-стороннюю привязку с Bitcoin. Остальные варианты не являются сайдчейнами или не имеют 2-сторонней привязки с Bitcoin Blockchain.
+reviewed: false

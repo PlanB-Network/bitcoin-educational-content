@@ -1,0 +1,9 @@
+question: Ai là người đầu tiên thực hiện việc đào bằng cách sử dụng đơn vị xử lý đồ họa (GPU) vào năm 2010?
+answer: Laszlo Hanyecz
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - Nils Schneider
+explanation: |
+  Vào tháng 4 năm 2010, ông đã sử dụng môi trường OpenCL để tham gia vào việc đào bitcoin bằng GPU. Vào ngày 10 tháng 5, ông đã [đăng tải](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100) tệp thực thi của mình lên diễn đàn.
+reviewed: false

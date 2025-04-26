@@ -1,0 +1,23 @@
+id: 24ba74b6-992a-43db-81fb-f75092b3c244
+name: DvadesetJedan
+category: education
+
+links:
+  website: https://dvadesetjedan.com/
+  Github: https://github.com/Dvadeset-Jedan
+  youtube: https://www.youtube.com/channel/UCYXly5XM_SO07vLHh2yPlCw
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.09
+tags:
+  - software
+  - guides
+  - user-friendly
+contributor_names:
+  - PaoloFoti

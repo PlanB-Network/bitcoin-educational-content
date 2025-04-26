@@ -1,0 +1,9 @@
+question: Was war das Hauptziel der English League im Jahr 1838?
+answer: Gegen die Getreidegesetze
+wrong_answers:
+  - Gegen die Großgrundbesitzer
+  - Zur Förderung der landwirtschaftlichen Arbeiter
+  - Gegen ausländische Händler
+explanation: |
+  Die English League, inspiriert von Richard Cobden, zielte darauf ab, die protektionistischen Getreidegesetze abzuschaffen, um den Freihandel zu fördern und die Armut zu reduzieren.
+reviewed: false

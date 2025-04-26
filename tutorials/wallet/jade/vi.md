@@ -1,5 +1,5 @@
 ---
-name: JADE
+name: Jade
 
 description: Hướng dẫn thiết lập thiết bị JADE của bạn
 ---

@@ -8,7 +8,7 @@ Mật khẩu BIP39 là một mật khẩu tùy chọn, khi kết hợp với c�
 
 Trước khi bắt đầu hướng dẫn này, nếu bạn không quen với khái niệm về mật khẩu, cách hoạt động và những hậu quả của nó đối với ví Bitcoin của bạn, tôi rất khuyên bạn nên tham khảo bài viết lý thuyết khác này nơi tôi giải thích mọi thứ:
 
-https://planb.network/tutorials/wallet/passphrase
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Mật khẩu hoạt động như thế nào trên Ledger?
 
@@ -28,9 +28,11 @@ Trong hướng dẫn này, tôi sẽ sử dụng Ledger Flex làm ví dụ. Tuy 
 **Chú ý:** Nếu bạn đã nhận được bitcoin vào ví Ledger của mình trước khi kích hoạt cụm từ bí mật, bạn sẽ cần chuyển chúng qua một giao dịch Bitcoin. Cụm từ bí mật tạo ra một bộ khóa mới, từ đó tạo ra một ví hoàn toàn độc lập với ví ban đầu của bạn. Khi thêm cụm từ bí mật, bạn sẽ có một ví mới sẽ trống không. Tuy nhiên, điều này không xóa ví đầu tiên của bạn không có cụm từ bí mật. Bạn vẫn có thể truy cập nó, hoặc trực tiếp qua Ledger của mình mà không cần nhập cụm từ bí mật hoặc thông qua phần mềm khác sử dụng cụm từ 24 từ của bạn.
 Trước khi bắt đầu hướng dẫn này, hãy chắc chắn bạn đã khởi tạo Ledger của mình và tạo ra cụm từ ghi nhớ của bạn. Nếu điều này chưa được thực hiện và Ledger của bạn là mới, hãy theo dõi hướng dẫn cụ thể cho mẫu của bạn có sẵn trên PlanB Network. Một khi bước này hoàn thành, bạn có thể quay lại hướng dẫn này.
 
-https://planb.network/tutorials/wallet/ledger-flex
-https://planb.network/tutorials/wallet/ledger-nano-s-plus
-https://planb.network/tutorials/wallet/ledger
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Làm thế nào để thiết lập cụm từ bí mật tạm thời với Ledger?
 
@@ -156,4 +158,4 @@ Xin chúc mừng, ví Bitcoin của bạn giờ đây đã được bảo vệ b
 
 Tôi cũng khuyên bạn nên xem qua hướng dẫn hoàn chỉnh khác này về cách sử dụng Ledger Flex của bạn:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

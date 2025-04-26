@@ -1,9 +1,15 @@
-question: Warum den Kauf von nicht-KYC-Bitcoins?
-answer: Um Ihre Privatsphäre zu gewährleisten
+question: Warum sollten Sie Bitcoins ohne KYC kaufen?
+answer: Um Ihre Privatsphäre zu gewährleisten.
 wrong_answers:
-  - Um die Registrierung aller Bitcoin-Benutzer sicherzustellen
-  - Um zu einem niedrigen Preis zu kaufen
-  - Um zu einem niedrigen Preis zu verkaufen
+  - Um die Registrierung aller Bitcoin-Nutzer sicherzustellen.
+  - Um zu einem niedrigen Preis zu kaufen.
+  - Um zu einem niedrigen Preis zu verkaufen.
 explanation: |
-  Der Kauf von nicht-KYC-Bitcoins bedeutet, Bitcoins zu erwerben, ohne die standardmäßigen Verifizierungsverfahren für die Identifizierung des Kunden (Know Your Customer, KYC) zu durchlaufen, die viele Börsen und Plattformen erfordern. Ein Hauptgrund, warum Einzelpersonen sich für diesen Weg entscheiden könnten, ist die Wahrung ihrer Privatsphäre, um sicherzustellen, dass ihre persönlichen Daten und finanziellen Aktivitäten nicht offengelegt werden.
-reviewed: false
+  Bitcoins ohne KYC zu kaufen bedeutet, Bitcoins zu erwerben, ohne
+  die standardmäßigen Know Your Customer
+  Verifizierungsverfahren zu durchlaufen, die viele Börsen und Plattformen
+  verlangen. Ein Hauptgrund, warum Einzelpersonen diesen
+  Weg wählen könnten, ist, ihre Privatsphäre zu bewahren, indem sichergestellt wird, dass ihre
+  persönlichen Details und finanziellen Aktivitäten
+  nicht offengelegt werden.
+reviewed: true

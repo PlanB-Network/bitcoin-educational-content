@@ -1,0 +1,9 @@
+question: Hva er nøkkelelementet som sikrer at Bob mottar en ressurs under en tilstandsovergang i RGB?
+answer: En ny Seal-definisjon som peker mot Bobs UTXO
+wrong_answers:
+  - En kontrolltransaksjon uten referanse til en UTXO
+  - En offentlig uttalelse fra Alice
+  - En dobbel signatur som deles av Alice og Bob
+explanation: |
+  Seal Definition knytter eiendelen kryptografisk til Bobs UTXO, noe som sikrer at han eier den.
+reviewed: false

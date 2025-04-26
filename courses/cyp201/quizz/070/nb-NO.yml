@@ -1,0 +1,8 @@
+question: Hva representerer dybde 0 i hierarkiet av HD-lommebøker?
+answer: Hovednøkkelen og hovedkjedekoden
+wrong_answers:
+  - Den eksterne kjeden av adresser
+  - Standardkontoen
+  - Typen valuta
+explanation: |
+  Dybde 0 tilsvarer hovednøkkelen og hovedkjedekoden, som er utgangspunktet for alle derivasjoner i en HD-lommebok.

@@ -1,0 +1,9 @@
+question: Welches Problem ergibt sich, wenn Jim's Sporting Goods denselben Schlüsselsatz für alle Kunden verwendet?
+answer: Jeder Kunde könnte auf die Kommunikation anderer zugreifen
+wrong_answers:
+  - Der Schlüssel würde zu groß werden
+  - Die Kommunikation würde verlangsamt werden
+  - Kunden müssten bei jedem Kauf die Schlüssel wechseln
+explanation: |
+  Indem derselbe Schlüssel für alle verwendet wird, würde Jim's Sporting Goods die Vertraulichkeit und Integrität gefährden, da jeder Kunde potenziell auf die Daten anderer Kunden zugreifen könnte.
+reviewed: false

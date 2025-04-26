@@ -1,0 +1,5 @@
+---
+term: GUIONES SIN GUIÓN
+
+---
+Desarrollado originalmente por Andrew Poelstra, este concepto permite la ejecución de contratos inteligentes sin exponer explícitamente la lógica del contrato en la blockchain de Bitcoin. Como sugiere el nombre "scriptless scripts", la idea se basa en ejecutar scripts (o contratos) sin utilizar explícitamente scripts. Estos contratos utilizan las propiedades de las firmas Schnorr, que permiten el uso de *Firmas Adaptadoras*, especialmente para realizar *Intercambios Atómicos*. Las condiciones del contrato son aplicadas y ejecutadas fuera de la cadena por las partes implicadas, que son las únicas que conocen los términos. A diferencia de los contratos inteligentes tradicionales, los *Scriptless Scripts* minimizan su huella en la blockchain, reduciendo así el coste de operación. Estos contratos también son más discretos que los contratos inteligentes tradicionales, que dejan rastros en la blockchain. Así, se asemejan a transacciones ordinarias, lo que aumenta su conjunto de anonimato.

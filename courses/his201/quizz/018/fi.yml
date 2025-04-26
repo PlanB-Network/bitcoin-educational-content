@@ -1,0 +1,9 @@
+question: Mikä teki RPOW; sta ainutlaatuisen verrattuna muihin digitaalisen valuutan konsepteihin, kuten eCash, b-money ja bit gold?
+answer: Se perustui läpinäkyvään palvelimeen
+wrong_answers:
+  - Se käytti työn todistamista
+  - Sen yksikkö ei ollut minkään tukema
+  - Käyttäjät pitivät hallussaan tietyn arvoisia digitaalisia seteleitä tilien sijaan
+explanation: |
+  Se hyödynsi työn todistamista, kuten b-money ja bit gold. Siinä ei ollut tukea, kuten bit goldissa. Kuten eCash (ja myöhemmin Bitcoin), RPOW mahdollisti yksittäisten digitaalisten seteleiden pitämisen, tilin sijaan, ja oli tässä suhteessa suhteellisen luottamuksellinen.
+reviewed: false

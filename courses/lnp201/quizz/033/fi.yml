@@ -1,8 +1,9 @@
-question: Kuka voi käyttää peruutusavainta ennen Timelockin päättymistä?
-answer: Henkilö, joka vastaanottaa rahat.
+question: Mitä sipulireititys Lightning-verkossa tarkoittaa?
+answer: Se tarkoittaa, että jokainen välisolmu tuntee vain välittömät naapurinsa polulla.
 wrong_answers:
-  - Henkilö, joka luo siirron Timelockin kanssa.
-  - Molemmat osapuolet voivat käyttää peruutusavainta ennen Timelockin päättymistä.
-  - Kumpikaan osapuoli ei voi käyttää peruutusavainta ennen Timelockin päättymistä.
+  - Välittää varoja suoraan solmulta solmulle tietäen lopullisen vastaanottajan
+  - Laskea maksut jokaiselle välisolmulle itsenäisesti
+  - Lähettää varoja kaikille polun solmuille samanaikaisesti
 explanation: |
-  Henkilö, joka vastaanottaa rahat, voi käyttää peruutusavainta ennen Timelockin päättymistä, jos toisella puolella kanavaa Lightning Networkissa tapahtuu vilppiä.
+  Sipulireititys tarkoittaa, että jokainen välisolmu tuntee vain edellisen ja seuraavan solmun, säilyttäen näin lopullisen vastaanottajan luottamuksellisuuden.
+reviewed: false

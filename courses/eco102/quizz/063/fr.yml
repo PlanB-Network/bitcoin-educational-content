@@ -1,0 +1,9 @@
+question: Quelle est l'idée centrale de Margaret Thatcher par rapport à la courbe de Laffer ?
+answer: Il faut réduire les impôts pour stimuler l'économie
+wrong_answers:
+  - Il faut augmenter les impôts sur les riches
+  - Il faut maintenir des taux d'imposition élevés pour financer les services publics
+  - Il faut maintenir tous les impôts
+explanation: |
+  Margaret Thatcher, inspirée par la courbe de Laffer, prône une réduction des impôts afin de stimuler la croissance économique.
+reviewed: false

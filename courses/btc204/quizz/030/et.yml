@@ -1,0 +1,8 @@
+question: Mis on sisemiste tehingute heuristika eesmärk?
+answer: Vahetuse tuvastamine.
+wrong_answers:
+  - Reaalajas pettuste tehingute tuvastamine.
+  - Tehingumustrite tuvastamine.
+  - Sama üksusele kuuluva klastri tuvastamine.
+explanation: |
+  Sisemised heuristikad võimaldavad meil tuvastada vahetuse eesmärgiga jälgida kasutajat järgnevates tehingutes.

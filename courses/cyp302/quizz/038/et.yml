@@ -1,0 +1,9 @@
+question: Milline matemaatika haru pakub kaasaegseid vahendeid arvuteooria jaoks?
+answer: Abstraktne algebra
+wrong_answers:
+  - Geomeetria
+  - Statistika
+  - Kompleksanalüüs
+explanation: |
+  Abstraktne algebra, kui matemaatika aladistsipliin, pakub matemaatilisi struktuure, mis võimaldavad analüüsida ja mõista arvude omadusi, mida kasutatakse arvuteoorias.
+reviewed: false

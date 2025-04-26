@@ -1,0 +1,9 @@
+question: Selon Saint Augustin, quelles sont les deux cités qui cohabitent dans le monde ?
+answer: La cité céleste et la cité terrestre.
+wrong_answers:
+  - La cité des hommes et la cité des dieux.
+  - La cité des saints et la cité des pécheurs.
+  - La cité universitaire et la cité des anges.
+explanation: |
+  Saint Augustin décrit deux cités coexistant dans le monde: la cité céleste, orientée vers Dieu et la vie spirituelle, et la cité terrestre, centrée sur les préoccupations humaines et matérielles, chacune suivant des objectifs distincts.
+reviewed: false

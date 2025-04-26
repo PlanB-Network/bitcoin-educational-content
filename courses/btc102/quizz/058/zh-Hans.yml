@@ -1,0 +1,9 @@
+question: 建议偏执的用户使用哪种 Cold 存储解决方案？
+answer: 气隙式或 DIY Hardware Wallet
+wrong_answers:
+  - 移动式 Hot Wallet
+  - Exchange 平台上的托管服务
+  - 通用封闭源 Hardware Wallet
+explanation: |
+  偏执的用户倾向于使用开源解决方案进行离线存储，以最大限度地降低暴露风险。
+reviewed: false

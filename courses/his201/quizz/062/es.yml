@@ -1,0 +1,9 @@
+question: ¿En qué consiste estimar la tasa de hash de un miembro cooperativo a través de la prueba parcial de trabajo?
+answer: Recuperar pruebas de trabajo de menor grado que la dificultad de la red producidas por el hasher
+wrong_answers:
+  - Recuperar la huella de un sello que incluye el primer byte de cada hash de bloque producido por el hasher
+  - Recuperar la factura de electricidad del hasher cada mes
+  - Recuperar pruebas de trabajo producidas en una red de menor dificultad, como BitDNS
+explanation: |
+  Este método simple fue propuesto por ribuck, Nils Schneider y Gavin Andresen [en el foro](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) el 14 de octubre de 2010. ()
+reviewed: false

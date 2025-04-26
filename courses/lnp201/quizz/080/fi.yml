@@ -1,9 +1,0 @@
-question: Mikä on esikuvan hajautusarvon tarkoitus Lightning Network -laskussa?
-answer: Sitä käytetään maksun vapauttamiseen
-wrong_answers:
-  - Sitä käytetään laskutiedon salaamiseen
-  - Sitä käytetään vastaanottajan henkilöllisyyden varmistamiseen
-  - Sitä käytetään transaktiomaksun laskemiseen
-explanation: |
-  Esikuvan hajautusarvoa Lightning Network -laskussa käytetään maksun vapauttamiseen. Maksun vastaanottajan on annettava esikuva, joka vastaa hajautusarvoa, jotta varat voidaan vastaanottaa.
-reviewed: false

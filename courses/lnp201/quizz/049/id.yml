@@ -1,0 +1,8 @@
+question: Apa fungsi utama dari sebuah invoice Lightning?
+answer: Meminta pembayaran dari node pengirim
+wrong_answers:
+  - Mengirim dana tanpa transaksi on-chain
+  - Mengaktifkan HTLCs pada sebuah saluran
+  - Membuka saluran Lightning baru
+explanation: |
+  Sebuah invoice Lightning adalah permintaan pembayaran, yang ditransmisikan oleh node penerima ke node pengirim untuk memulai pembayaran di Jaringan Lightning.

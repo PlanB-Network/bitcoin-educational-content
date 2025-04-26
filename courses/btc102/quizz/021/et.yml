@@ -1,0 +1,9 @@
+question: Milline on Bitcoin peamine poliitiline mõju?
+answer: Riigi kontrolli vähendamine raha üle
+wrong_answers:
+  - Suurenev panganduse tsentraliseerimine
+  - Inflatsiooni edendamine
+  - Finantsmääruste tugevdamine
+explanation: |
+  Bitcoin on alternatiiv, mis nõrgestab riigiasutuste võimu raha üle seigniorage'i ja tehingutest tuleneva tsensuuri kaudu.
+reviewed: false

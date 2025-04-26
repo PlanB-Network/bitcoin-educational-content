@@ -1,0 +1,9 @@
+question: Mikä kenttä määrittää omaisuuserän liikkeeseenlaskuun käytettävässä YAML-tiedostossa liikkeeseen laskettujen polettien kokonaismäärän?
+answer: issuedSupply
+wrong_answers:
+  - assetOwner
+  - spec
+  - määrä
+explanation: |
+  YAML-tiedoston "issuedSupply"-kenttä määrittelee sopimukselle myönnettyjen kuponkien kokonaismäärän.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+
+---
+The `nSequence` field in a Bitcoin transaction entry is used to indicate how this entry is time-locked. Originally, it was intended to allow for the dynamic replacement of transactions in mempools to enable a payment system overlay similar to Lightning. However, its use has evolved with the introduction of relative timelock through BIP68. The `nSequence` field can now specify a relative delay before a transaction can be included in a block. This delay can be defined in terms of the number of blocks, or as a multiple of 512 seconds (i.e., real time). It's important to note that this new interpretation of the `nSequence` field is only valid if the `nVersion` field is greater than or equal to `2`. This interpretation of the `nSequence` field is at the level of Bitcoin's consensus rules. Moreover, at the level of standardization rules, this field is also used for signaling RBF (Replace-By-Fee). If a transaction includes an `nSequence` lower than `0xfffffffe`, then it can be replaced via RBF on nodes that follow this policy.

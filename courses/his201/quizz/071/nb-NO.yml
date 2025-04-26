@@ -1,0 +1,8 @@
+question: Hva forårsaket Satoshi Nakamotos brå avgang i desember 2010?
+answer: Publiseringen av en artikkel som knyttet Bitcoin og WikiLeaks
+wrong_answers:
+  - Aksepten av bitcoin av WikiLeaks
+  - Gavin Andresen tok kontroll over koden
+  - Økningen i enhetsprisen på bitcoin
+explanation: |
+  Med tittelen Could the Wikileaks Scandal Lead to New Virtual Currency?, ble denne [artikkelen](https: //www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) publisert på PC World, en av de største amerikanske nettstedene dedikert til databehandling.

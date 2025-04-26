@@ -1,0 +1,9 @@
+question: Mikä on heikkojen salasanojen pääasiallinen haavoittuvuus, kun ne on hajautettu?
+answer: Ne ovat alttiita sanakirjahyökkäyksille
+wrong_answers:
+  - Niitä ei voida varmentaa hajauttamalla
+  - Ne aina tuottavat törmäyksiä
+  - Ne vaativat pidemmän hajautuksen lisäturvallisuuden vuoksi
+explanation: |
+  Heikot salasanat voidaan helposti palauttaa niiden hajautusarvosta käyttämällä sanakirjahyökkäyksiä, mikä tekee niiden valinnasta tärkeää turvallisuuden varmistamiseksi.
+reviewed: false

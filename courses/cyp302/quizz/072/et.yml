@@ -1,0 +1,9 @@
+question: Miks peetakse nihkekrüpteeringut sümmeetriliseks krüpteeringuks?
+answer: Kuna sama võtit kasutatakse nii krüpteerimiseks kui dekrüpteerimiseks
+wrong_answers:
+  - Kuna see kasutab kahte võtit, avalikku ja privaatset
+  - Kuna see dekrüpteerib ilma võtit kasutamata
+  - Kuna võti muutub iga krüpteeringuga
+explanation: |
+  Nihkekrüpteeringut peetakse sümmeetriliseks krüpteeringuks, kuna see kasutab sõnumi krüpteerimiseks ja dekrüpteerimiseks sama võtit, tagades seeläbi konfidentsiaalsuse võtit jagavate osapoolte vahel.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Chi ha la chiave di revoca nella transazione di impegno di Alice?
-answer: Solo Alice.
+question: Qual è la condizione necessaria affinché il destinatario di un HTLC riceva i fondi?
+answer: Deve fornire un segreto (pre-immagine) per sbloccare il pagamento.
 wrong_answers:
-  - Solo Bob.
-  - Sia Alice che Bob.
-  - Né Alice né Bob.
+  - Deve accettare le commissioni di instradamento di ogni nodo intermediario.
+  - Deve firmare una nuova transazione di impegno.
+  - Deve attendere la scadenza del timelock prima di recuperare i fondi.
 explanation: |
-  Nella transazione di impegno di Alice, solo Alice ha la chiave di revoca.
-  Ciò le permette di spostare i fondi senza dover aspettare la fine del Timelock se Bob cerca di imbrogliare.
+  Per ricevere i fondi in un HTLC, il destinatario deve fornire un segreto specifico che consente di sbloccare il pagamento assicurato dall'hash.
 reviewed: false

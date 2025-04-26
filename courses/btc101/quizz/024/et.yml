@@ -1,0 +1,9 @@
+question: Mis on fiat-valuutade peamine puudus?
+answer: Nende väärtust kahandab pidevalt rahapoliitiline inflatsioon
+wrong_answers:
+  - Neid ei ole kerge transportida
+  - Nende väärtus kasvab pidevalt rahapoliitilise inflatsiooni tõttu
+  - Neid ei saa jagada
+explanation: |
+  Fiat-valuutade, nagu dollar ja euro, peamine puudus on see, et nende väärtust kahandab pidevalt rahapoliitiline inflatsioon. See on tingitud nende kontrollivatest üksustest (kuningas, keskpank, keiser, diktaator), kes neid pidevalt devalveerivad.
+reviewed: true

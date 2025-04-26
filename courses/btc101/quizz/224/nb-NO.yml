@@ -1,0 +1,9 @@
+question: Hva muliggjør Lightning Network?
+answer: Øyeblikkelige, kostnadsbesparende Bitcoin-transaksjoner.
+wrong_answers:
+  - Øyeblikkelige, høykostnads Bitcoin-transaksjoner.
+  - Forsinkede, kostnadsbesparende Bitcoin-transaksjoner.
+  - Forsinkede, høykostnads Bitcoin-transaksjoner.
+explanation: >-
+  Lightning Network muliggjør øyeblikkelige, kostnadsbesparende Bitcoin-transaksjoner,
+  og løser dermed skalerbarhetsproblemet til Bitcoin.

@@ -17,49 +17,34 @@ Aquí destacaremos las tendencias y patrones comunes en los episodios de hiperin
 +++
 
 # Introducción
+
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Introducción
+## Visión general del curso
+
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Este programa tiene como objetivo ofrecer una comprensión profunda de la aparición de las hiperinflaciones en un mundo dominado por la moneda Fiat y examinar sus considerables consecuencias. Los participantes explorarán en detalle los ciclos hiperinflacionarios, analizando las causas, los desencadenantes y los ejemplos históricos y contemporáneos. También se examinará el impacto tangible de las hiperinflaciones en la economía y la vida cotidiana, estudiando las repercusiones en el valor de la moneda, el poder adquisitivo y el ahorro individual y colectivo.
+¡Bienvenido al curso ECO204!
 
-Aquí destacaremos las tendencias y patrones comunes en los episodios de hiperinflación a lo largo de la historia, al tiempo que proporcionamos estrategias efectivas y concretas para protegerse durante períodos de hiperinflación. Los participantes tendrán la oportunidad de explorar diversas opciones de inversión y mecanismos de defensa financiera, adquiriendo herramientas prácticas y conocimientos esenciales para navegar con tranquilidad en un clima económico inestable.
+El objetivo de este curso es ayudarte a comprender las causas profundas, los mecanismos y las consecuencias de las hiperinflaciones en el contexto de un sistema monetario fiat. A través de ejemplos concretos y análisis históricos, aprenderás a reconocer los patrones recurrentes que preceden a los períodos de hiperinflación y a identificar las medidas que puedes tomar para protegerte.
 
-### Plan de estudios
+**Sección 2: ¿Qué es la inflación?**  
+Antes de adentrarnos en el tema principal, revisaremos los conceptos básicos: ¿qué es la inflación? Esta sección presentará sus orígenes monetarios, los diferentes tipos de inflación existentes y cómo se integran en una dinámica económica más amplia. Este es un paso esencial para comprender cómo la inflación ordinaria puede degenerar en hiperinflación.
 
-Sección 1 - Introducción
+**Sección 3: ¿Qué es la hiperinflación?**  
+En esta sección, estudiarás las definiciones precisas de hiperinflación y varios episodios históricos importantes, como la Alemania de Weimar y Zimbabue. Analizaremos sus puntos en común, sus diferencias y los paralelismos contemporáneos. También descubrirás casos menos conocidos, como las sucesivas redenominaciones en América Latina, así como las soluciones que algunos países han adoptado para salir de la crisis.
 
-- Introducción al curso por Rogzy & David
+**Sección 4: ¿Cómo hemos llegado hasta aquí?**  
+Esta parte tiene como objetivo comprender los mecanismos estructurales que hacen posibles las hiperinflaciones, especialmente a través del desarrollo de la "segunda capa" monetaria y el papel de los bancos centrales. Se proporcionarán recursos complementarios y sugerencias de lecturas enriquecedoras para profundizar en el tema.
 
-Sección 2 - ¿Qué es la inflación?
-
-- Un fenómeno monetario
-- Tipos de inflación
-- La deflación  
-
-Sección 3 - ¿QUÉ ES LA HIPERINFLACIÓN?
-
-- Definiciones De La Hiperinflación
-- Similitudes Entre Weimar Y Zimbabwe
-- Diferencias Entre Weimar Y Zimbabwe Y Paralelismos Contemporáneos
-- Las Redenominaciones En América Latina
-- Cómo Salir De La Hiperinflación
-- Conclusión
-- Presentación De La Colección De Billetes De Hiperinflación
-
-Sección 4 - ¿CÓMO LLEGAMOS AQUÍ?
-
-- La Aparición De La Segunda Capa De La Moneda Y Los Bancos Centrales
-- Libros Y Recursos
-
-Buenas suerte !
-
+¿Y si la historia monetaria se estuviera repitiendo ante nuestros ojos? ¡Descúbrelo en los capítulos que siguen!
 
 # ¿Qué es la inflación?
+
 <partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
 ## Un fenómeno monetario
+
 <chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
 ### Las definiciones de la inflación
@@ -193,6 +178,7 @@ Este análisis demuestra que la confianza en la moneda, y por extensión su valo
 En conclusión, este estudio sobre la devaluación monetaria abre la puerta a una comprensión profunda de los mecanismos de la inflación, que se explorarán en los siguientes videos. Discutiremos los diferentes tipos de inflación y el umbral en el que se convierten en una inflación alta o hiperinflación. Esta base sólida nos permitirá abordar las complejidades de la inflación en las próximas sesiones. Gracias por su atención y nos vemos en el próximo video para continuar esta exploración de las dinámicas monetarias.
 
 ## Los tipos de inflación
+
 <chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ### La inflación no es un fenómeno multifactorial
@@ -367,9 +353,11 @@ En nuestras futuras discusiones, profundizaremos en la hiperinflación, exploran
 Gracias por su atención, la próxima sesión estará completamente dedicada a definir y desmitificar la hiperinflación, teniendo en cuenta las diferentes perspectivas académicas y prácticas. Esperamos continuar esta exploración con ustedes en nuestra próxima reunión.
 
 # ¿Qué es la hiperinflación?
+
 <partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
 
 ## Definiciones de la hiperinflación
+
 <chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
 ### Definiciones de la hiperinflación
@@ -425,6 +413,7 @@ Definiciones comunes de hiperinflación, como la propuesta por Kagan que estable
 Es importante tener en cuenta que algunos períodos históricos de alta inflación no se incluyen en las tablas clásicas de hiperinflación, a menudo debido a criterios estrictos de clasificación. Por ejemplo, durante la Guerra de Independencia de Estados Unidos en noviembre de 1779 y durante la Guerra Civil estadounidense en marzo de 1864, las tasas de inflación mensual fueron del 47.4% y 40% respectivamente. Estas tasas, aunque altas, no superan el umbral del 50% establecido por Kagan, excluyendo así estos períodos de los casos clasificados como hiperinflación. Esta omisión ilustra las limitaciones de las definiciones rígidas y destaca la necesidad de un enfoque más matizado para comprender la hiperinflación en toda su complejidad.
 
 ## Similitudes entre Weimar y Zimbabwe
+
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
 ### Dos épocas, dos catástrofes
@@ -477,7 +466,7 @@ Cuando la moneda pierde rápidamente su valor, incluso las transacciones más si
 
 > Zimbabwe: "También se permitía a los encargados de las tiendas contratar a un trabajador ocasional para reemplazar al miembro del personal que contaba dinero todo el día. Por supuesto, contar el dinero en la tienda para la administración y el depósito en el banco era una cosa, pero todo el proceso tenía que repetirse en el banco al hacer el depósito".
 
-![video](https://www.youtube.com/watch?v=OMwkb5rpm_w&t=20s)
+:::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 Técnica de conteo de dinero de Uzbekistán
 
@@ -578,6 +567,7 @@ Zimbabwe: "Estos vales los usábamos ahora para pagar alquileres a los propietar
 Esto completa este video sobre las similitudes de las experiencias vividas durante los períodos de hiperinflación en Zimbabwe y la República de Weimar. En el próximo video, hablaremos sobre las diferencias y paralelismos contemporáneos. Gracias.
 
 ## Diferencias entre Weimar y Zimbabwe y paralelismos contemporáneos
+
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 Transcripción:
@@ -672,6 +662,7 @@ En la historia, se observan momentos en los que las personas buscan enriquecerse
 Hoy en día, frente a la disminución del poder adquisitivo, la inversión toma el relevo. Sin embargo, este enfoque conlleva sus propios riesgos. El ahorro siempre ha sido un remedio contra la incertidumbre. Tener reservas financieras para manejar situaciones imprevistas contribuye a la tranquilidad mental y fortalece la cohesión social. En conclusión, la protección de nuestro poder adquisitivo es esencial para mantener la estabilidad social e individual.
 
 ## Las redenominaciones en América Latina
+
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 Vamos a analizar juntos diferentes períodos de redenominación en países de América Latina.
@@ -779,6 +770,7 @@ Basándonos en el criterio del 50% de inflación mensual, varias etapas podrían
 En conclusión, la hiperinflación es solo un aspecto de los desafíos económicos. La alta inflación, por sí sola, también puede ser perjudicial. La próxima sección explorará posibles soluciones para salir de la hiperinflación.
 
 ## Cómo salir de la hiperinflación
+
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### Cómo poner fin a la inflación moderada y la alta inflación
@@ -815,8 +807,7 @@ Sin embargo, la dolarización no es una solución milagrosa. Aunque puede poner 
 En 2007, la tasa de inflación en Zimbabwe alcanzó el umbral del 50% mensual, lo que oficialmente marcó al país como hiperinflacionario. Después de la dolarización en 2009, la hiperinflación cesó, pero el país enfrentó otros desafíos económicos.
 Es preocupante notar que Zimbabwe ha intentado reintroducir su propia moneda y nuevamente han aparecido signos de alta inflación. Según algunas organizaciones internacionales, el país podría cumplir nuevamente con los criterios de hiperinflación, incluso si aún no ha alcanzado el umbral oficial del 50% mensual. Esto sirve como recordatorio de los peligros de la emisión excesiva de dinero y la financiación del déficit por parte del banco central.
 
-## Conclusión
-<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
+### Conclusión
 
 En mi libro "Todo sobre Bitcoin", dediqué un capítulo completo a la hiperinflación en Zimbabwe. Detallo los eventos destacados, proporcionando varios ejemplos que ilustran cómo el país finalmente puso fin a la hiperinflación.
 
@@ -826,19 +817,20 @@ Para aquellos que estén interesados en la experiencia alemana después de la Pr
 
 ![imagen](assets/chapitre-3.5/4.webp)
 
-En mi libro "Todo sobre Bitcoin", dediqué un capítulo completo a la hiperinflación en Zimbabwe. Detallo los eventos destacados, proporcionando varios ejemplos que ilustran cómo el país finalmente puso fin a la hiperinflación. Para aquellos que estén interesados en la experiencia alemana después de la Primera Guerra Mundial, recomiendo encarecidamente el cómic "El banquero del Reich". Narra cómo Alemania logró superar la hiperinflación, especialmente a través de la creación del Rentenmark.
-
 Lo más importante a tener en cuenta es que existen varias estrategias para salir de la hiperinflación. Se puede optar por la dolarización o introducir una nueva moneda. Estas soluciones solo funcionarán si la población confía en ellas. Es crucial imponer restricciones rigurosas. Un banco central verdaderamente independiente es esencial. No debe aumentar la oferta monetaria para cubrir los déficits gubernamentales. En caso de una inflación leve, limitar el crecimiento de la oferta monetaria debería ser suficiente. Sin embargo, cuando se enfrenta a una hiperinflación, es primordial tener una oferta monetaria adecuada para el tamaño de la economía en cuestión. Luego, es imperativo imponer restricciones estrictas al gobierno para estabilizar la situación.
 
 ## Presentación de la colección de billetes de hiperinflación
+
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 El enlace a la colección escaneada está disponible en el Bitcoin Educational Toolkit, accesible desde la sección de Recursos de la plataforma.
 
 # ¿Cómo llegamos aquí?
+
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
 ## La aparición de la segunda capa de la moneda y los bancos centrales
+
 <chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 La aparición de la segunda capa monetaria y los primeros bancos centrales es un tema fascinante. Este tema se aborda ampliamente en el libro "Layered Money" de Nick Battia. Lo recomiendo encarecidamente a aquellos que estén interesados en la evolución y sutilezas de nuestros sistemas monetarios. El objetivo de esta sección es comprender el origen de la creación monetaria y cómo esto pudo llevar a la hiperinflación.
@@ -889,18 +881,8 @@ Después del pánico bancario de 1796, se produjo un fenómeno en el que todo el
 
 Los bancos centrales han evolucionado para convertirse en prestamistas de último recurso, suspendiendo la convertibilidad de su moneda en oro. Aunque esta acción fue concebida inicialmente como una solución temporal, finalmente se convirtió en permanente, marcando así el surgimiento del concepto de prestamista de último recurso. Esta transformación ha dado forma a los bancos centrales tal como los conocemos hoy en día. Sin embargo, en economías más frágiles, esta capacidad de imprimir dinero a voluntad puede tener consecuencias no deseadas, como la hiperinflación, si se utiliza de manera irresponsable.
 
-
-
-## Danos tu opinión sobre este curso
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Examen Final
-<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
-<isCourseExam>true</isCourseExam>
-
-
 ## Libros y recursos
+
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 La hiperinflación es un tema fascinante que se ha estudiado a través de diversos eventos históricos. Si deseas profundizar en este tema, aquí tienes una lista de 10 recursos esenciales para leer y estudiar:
@@ -922,3 +904,22 @@ La hiperinflación es un tema fascinante que se ha estudiado a través de divers
 - "La caída del dinero: La hiperinflación en Alemania y la destrucción de la clase media" por Frederick Taylor. Una exploración narrativa del impacto social y económico de la hiperinflación en la sociedad alemana.
 
 - "Juntas monetarias para países en desarrollo: Un manual" por Steve Hanke y Kurt Schuler. Aunque se centra en las juntas de emisión, este libro ofrece una perspectiva sobre cómo evitar situaciones de hiperinflación.
+
+# Sección final
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Reseñas & Valoraciones
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Examen final
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusión
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

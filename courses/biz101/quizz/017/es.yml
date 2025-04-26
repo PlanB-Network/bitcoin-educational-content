@@ -1,0 +1,9 @@
+question: ¿Por qué una empresa podría plantearse mantener parte de su tesorería en Bitcoin?
+answer: Como activo potencialmente apreciable que puede almacenar valor y ofrecer liquidez sin depender de los intermediarios financieros tradicionales.
+wrong_answers:
+  - Para eliminar inmediatamente todo riesgo y garantizar rendimientos estables.
+  - Para cumplir la normativa gubernamental obligatoria que exige poseer Bitcoin.
+  - Para asegurarse de que nunca pueda volver a convertir sus activos en divisas tradicionales.
+explanation: |
+  La escasez de Bitcoin, su liquidez global y su independencia de los sistemas bancarios tradicionales pueden hacerlo atractivo como activo de tesorería. Aunque implica riesgo y volatilidad, las empresas pueden considerarlo un depósito de valor a largo plazo y una cobertura frente a la inflación.
+reviewed: false

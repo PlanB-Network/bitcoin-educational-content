@@ -1,0 +1,9 @@
+question: Mikä on RGB:n liittämisen päätavoite Lightning Networkiin?
+answer: Siirrä RGB-varoja ketjun ulkopuolisten kanavien kautta
+wrong_answers:
+  - RGB-sopimusten toteuttaminen suoraan Bitcoin-lohkoketjussa
+  - Korvaa perinteiset Lightning-tapahtumat RGB-älykkäillä sopimuksilla
+  - Kanavakapasiteetin lisääminen lisäämällä uusia UTXO:ita
+explanation: |
+  Lightning-verkkoon integroidun RGB:n ansiosta RGB-varoja voidaan siirtää sitoumustapahtumiin sisältyvien tilasiirtymien kautta, mutta ne pysyvät ketjun ulkopuolella.
+reviewed: false

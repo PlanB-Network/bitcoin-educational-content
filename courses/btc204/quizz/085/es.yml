@@ -1,0 +1,11 @@
+question: ¿Cuál es el modelo específico de emparejamiento de usuarios utilizado por JoinMarket?
+
+answer: Mercado P2P entre creadores y tomadores.
+
+wrong_answers:
+  - Servidor que asigna participantes aleatoriamente.
+  - Intercambios basados en subastas holandesas.
+  - Servicio de mediación que selecciona participantes manualmente.
+
+explanation: |
+  JoinMarket opera en un mercado de intercambio P2P donde algunos usuarios, los creadores, ofrecen sus bitcoins para mezclar, mientras que otros, los tomadores, utilizan estos fondos para realizar coinjoins a cambio de una tarifa.

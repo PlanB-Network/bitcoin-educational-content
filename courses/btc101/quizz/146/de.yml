@@ -1,9 +1,11 @@
-question: Warum ist die erschwingliche Kosten und Zugänglichkeit eines Bitcoin-Knotens wichtig?
-answer: Es erleichtert die Dezentralisierung des Netzwerks.
+question: Warum ist es wichtig, dass ein Bitcoin-Knoten erschwinglich und für alle möglichen Nutzer zugänglich bleibt?
+answer: Weil es die Dezentralisierung des Netzwerks fördert.
 wrong_answers:
-  - Es erhöht die Transaktionskapazität des Netzwerks.
-  - Es verringert die Transaktionskapazität des Netzwerks.
-  - Es erhöht die Blockbelohnung für Miner.
+  - Weil es die Transaktionskapazität des Netzwerks erhöht.
+  - Weil es die Transaktionskapazität des Netzwerks verringert.
+  - Weil es die Blockbelohnung für Miner erhöht.
 explanation: |
-  Die erschwingliche Kosten und Zugänglichkeit eines Bitcoin-Knotens sind wichtig, da sie die Dezentralisierung des Netzwerks ermöglichen.
-reviewed: false
+  Die erschwinglichen Kosten und die Zugänglichkeit eines Bitcoin-Knotens sind
+  wichtig, weil sie die Dezentralisierung des
+  Netzwerks fördern.
+reviewed: true

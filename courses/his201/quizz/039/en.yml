@@ -1,0 +1,9 @@
+question: Who was the first to implement mining with a graphics processing unit (GPU) in 2010?
+answer: Laszlo Hanyecz
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - Nils Schneider
+explanation: |
+  In April 2010, he used the OpenCL environment to involve the GPU in bitcoin mining. On May 10, he [published](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100) his executable on the forum.
+reviewed: false

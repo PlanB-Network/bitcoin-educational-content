@@ -1,0 +1,8 @@
+question: I et endelig felt, hva er rollen til et irreduktibelt polynom?
+answer: Definerer multiplikasjonsoperasjonene i feltet
+wrong_answers:
+  - Definerer det additive inverset av hvert element
+  - Sikrer lukketheten av feltet
+  - Bestemmer den multiplikative identiteten
+explanation: |
+  Irreduktible polynomer brukes til å strukturere multiplikasjon i endelige felt, og sikrer at hvert element forblir innenfor feltet.

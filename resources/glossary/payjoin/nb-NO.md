@@ -1,0 +1,11 @@
+---
+term: PAYJOIN
+
+---
+En spesifikk Bitcoin-transaksjonsstruktur som forbedrer brukerens personvern under et forbruk ved å samarbeide med betalingsmottakeren. Det unike med Payjoin ligger i evnen til å generere en transaksjon som ved første øyekast ser vanlig ut, men som faktisk er en mini coinjoin mellom to parter. Transaksjonsstrukturen innebærer at betalingsmottakeren inngår i input sammen med den faktiske avsenderen. Dermed inkluderer mottakeren en betaling til seg selv midt i transaksjonen som gjør at de kan få betalt. Hvis du for eksempel kjøper en baguette for 6 000 satser med en UTXO på 10 000 satser, og du velger en Payjoin, vil bakeren legge til en UTXO på 15 000 satser som tilhører dem som input, som de vil hente tilbake i sin helhet som output, i tillegg til dine 6 000 satser.
+
+Payjoin-transaksjonen oppfyller to mål. For det første tar den sikte på å villede en ekstern observatør ved å skape en lokkedue i kjedeanalysen på Common Input Ownership Heuristic (CIOH). Når en transaksjon i blokkjeden har flere innganger, antas det vanligvis at alle disse inngangene sannsynligvis tilhører samme enhet. Når en analytiker undersøker en Payjoin-transaksjon, får de dermed inntrykk av at alle inndataene kommer fra samme person. Denne oppfatningen er imidlertid feil, fordi betalingsmottakeren også bidrar til inndataene sammen med den faktiske betaleren. For det andre villeder Payjoin også en ekstern observatør med hensyn til det faktiske beløpet som ble betalt. Ved å undersøke strukturen i transaksjonen kan analytikeren tro at betalingen tilsvarer beløpet til en av utgangene. I virkeligheten tilsvarer betalingsbeløpet ingen av utbetalingene. Det er faktisk differansen mellom mottakerens UTXO i utdataene og mottakerens UTXO i inndataene. Payjoin-transaksjonen faller dermed inn under steganografi. Den gjør det mulig å skjule det faktiske transaksjonsbeløpet i en falsk transaksjon som fungerer som en lokkedue.
+
+![](../../dictionnaire/assets/14.webp)
+
+> ► *Payjoin kalles også noen ganger "P2EP (Pay-to-End-Point)", "Stowaway" eller "steganografisk transaksjon"

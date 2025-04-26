@@ -1,0 +1,9 @@
+question: 在課程所述的典型 Bitcoin 交易 csv 檔案中，哪項細節沒有明確記錄？
+answer: 使用的腳本類型
+wrong_answers:
+  - 交易日期
+  - 等值的法定貨幣價值
+  - Bitcoin 涉及的地址
+explanation: |
+  典型的 Bitcoin 交易 csv 檔案通常會提及日期、金額、法幣等值和 Bitcoin 位址，但不會提及使用的腳本類型。
+reviewed: false

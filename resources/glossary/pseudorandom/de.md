@@ -1,0 +1,7 @@
+---
+term: PSEUDO-RANDOM
+
+---
+Dieses Adjektiv wird verwendet, um eine Zahlenfolge zu beschreiben, die, obwohl sie das Ergebnis eines deterministischen Prozesses ist, Eigenschaften aufweist, die denen einer idealen echten Zufallsfolge nahe kommen. Das Konzept der idealen Zufälligkeit impliziert das völlige Fehlen von Vorhersagbarkeit und Korrelation zwischen aufeinanderfolgenden Elementen. Eine Pseudo-Zufallszahl wird durch einen deterministischen Algorithmus erzeugt und ist daher theoretisch vollständig vorhersehbar, wenn man den Ausgangszustand des Generators kennt.
+
+Ein Pseudo-Zufallszahlengenerator (PRNG) ist ein Algorithmus, der zur Erzeugung solcher Zahlen verwendet wird. Er geht im Allgemeinen von einem Anfangswert, dem "Seed", aus und wendet dann eine Reihe mathematischer Transformationen an, um die Zahlenfolge zu erzeugen. Aufgrund dieser Bestimmbarkeit ist es für die kryptografische Sicherheit wichtig, dass der Anfangswert geheim bleibt. Pseudozufallssequenzen sind in verschiedenen Bereichen weit verbreitet, darunter auch in der Kryptografie, da sie ein scheinbar zufälliges Verhalten aufweisen, das für viele Anwendungen ausreicht. Die Bewertung der Qualität eines PRNGs basiert auf dem Ausmaß, in dem seine Ausgabe in Bezug auf Verteilung, Korrelationen und andere statistische Eigenschaften echter Zufälligkeit nahekommt. Im Zusammenhang mit Bitcoin werden Pseudo-Zufallszahlen verwendet, um private Schlüssel zu erzeugen oder um einen Seed für deterministische und hierarchische Wallets zu generieren.

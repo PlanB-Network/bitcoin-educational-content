@@ -1,14 +1,9 @@
-question: ¿Cuáles serían las implicaciones si los bloques fueran 100 veces más pesados?
-answer: Operar un nodo de Bitcoin no sería accesible para la persona promedio, comprometiendo la descentralización del protocolo y la inmutabilidad de las transacciones y las reglas de consenso
+question: ¿Cuáles serían las implicaciones para los usuarios de Bitcoin si los bloques fueran 100 veces más pesados?
+answer: Operar un nodo de Bitcoin no sería accesible para la persona promedio, comprometiendo la descentralización del protocolo y la inmutabilidad tanto de las transacciones como de las reglas de consenso.
 wrong_answers:
-  - Operar un nodo de Bitcoin sería más accesible para la persona promedio, mejorando la descentralización del protocolo y la inmutabilidad de las transacciones y las reglas de consenso
-  - La capacidad de transacción de la red disminuiría
-  - La recompensa de bloque para los mineros aumentaría
+  - Operar un nodo de Bitcoin sería más accesible para la persona promedio, mejorando la descentralización del protocolo y la inmutabilidad tanto de las transacciones como de las reglas de consenso.
+  - La capacidad de transacción de la red disminuiría.
+  - La recompensa por bloque para los mineros aumentaría.
 explanation: |
-  Si los bloques fueran 100 veces más pesados, operar un nodo de Bitcoin requeriría
-  un disco duro de 50TB, un ancho de banda de más de 500GB/mes y hardware capaz de validar
-  cientos de miles de transacciones en menos de 10 minutos. Esto haría que operar
-  un nodo de Bitcoin fuera inaccesible para la persona promedio, comprometiendo la descentralización
-  del protocolo y la inmutabilidad de las transacciones y las reglas de consenso.
-reviewed: false
-
+  Si los bloques fueran 100 veces más pesados, operar un nodo de Bitcoin requeriría un disco duro de 50TB, un ancho de banda de más de 500GB/mes, y hardware capaz de validar cientos de miles de transacciones en menos de 10 minutos. Esto haría que operar un nodo de Bitcoin fuera inaccesible para la persona promedio, comprometiendo la descentralización del protocolo y la inmutabilidad de las transacciones y reglas de consenso.
+reviewed: true

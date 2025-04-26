@@ -1,9 +1,0 @@
-question: Was passiert bei einer erzwungenen Schließung des Kanals?
-answer: Alle laufenden HTLC-Transaktionen werden veröffentlicht, was sehr teuer und unübersichtlich werden kann.
-wrong_answers:
-  - Zahlungen werden unterbrochen und HTLCs werden aufgelöst, was in der Regel weniger kostenintensiv ist.
-  - Der Kanal wird sofort ohne weitere Schritte geschlossen.
-  - Alle laufenden HTLC-Transaktionen werden storniert.
-explanation: |
-  Bei einer erzwungenen Schließung werden alle laufenden HTLC-Transaktionen veröffentlicht. Dies kann aufgrund der Komplexität und Anzahl der beteiligten Transaktionen sehr teuer und unübersichtlich werden.
-reviewed: false

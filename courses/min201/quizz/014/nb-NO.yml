@@ -1,0 +1,11 @@
+question: Hva er den potensielle risikoen ved sentralisering av gruvedrift i Bitcoin?
+answer: Sentralisering av gruvedrift i Bitcoin kan potensielt føre til sensur av transaksjoner og gjøre nettverket sårbart for angrep, inkludert 51%-angrepet, hvor en aktør eller gruppe kontrollerer mer enn 50% av nettverkets hash-kraft, noe som tillater dem å kontrollere og manipulere nettverket.
+wrong_answers:
+  - Sentralisering av gruvedrift i Bitcoin kan potensielt føre til en nedgang i verdien av Bitcoin og gjøre nettverket sårbart for inflasjon.
+  - Sentralisering av gruvedrift i Bitcoin kan potensielt føre til en nedgang i blokkbelønningen og gjøre nettverket sårbart for stagnasjon.
+  - Sentralisering av gruvedrift i Bitcoin kan potensielt føre til en nedgang i transaksjonshastigheten og gjøre nettverket sårbart for trengsel.
+explanation: |
+  Kapittelet forklarer at sentralisering av gruvedrift i Bitcoin
+  kan potensielt føre til sensur av transaksjoner og gjøre
+  nettverket sårbart for angrep, inkludert 51%-angrepet.
+reviewed: true

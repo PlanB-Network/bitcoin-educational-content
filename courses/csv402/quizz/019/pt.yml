@@ -1,0 +1,9 @@
+question: Qual é o principal objetivo dos contratos inteligentes no ambiente RGB?
+answer: Implementar transacções automatizadas de Bitcoin sem um registo centralizado
+wrong_answers:
+  - Facilitar a criação de registos centralizados de Bitcoin
+  - Fornecer uma interface pública para todas as transacções Bitcoin
+  - Simplificar a execução de tokens ERC-20 na Bitcoin
+explanation: |
+  Os contratos inteligentes RGB permitem a automatização de acordos, evitando a utilização de registos centralizados, baseando-se na Bitcoin para as âncoras criptográficas.
+reviewed: false

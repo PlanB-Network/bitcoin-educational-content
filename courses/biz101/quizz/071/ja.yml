@@ -1,0 +1,9 @@
+question: エンタープライズのビットコイン決済において、LSPはどのような役割を果たすのか？
+answer: Lightningで大量のトランザクションを管理
+wrong_answers:
+  - ライトニング・ウォレットの秘密鍵を保管する
+  - ライトニング請求書の印刷
+  - Lightningで払い戻しを手動で処理
+explanation: |
+  LSPはライトニングの複雑で大量のオペレーションを処理する。
+reviewed: false

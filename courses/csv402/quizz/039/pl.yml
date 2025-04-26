@@ -1,0 +1,9 @@
+question: Które polecenie eksportuje Contract z Stash do pliku zewnętrznego?
+answer: RGB export '<ContractId>' myContractPBN.RGB
+wrong_answers:
+  - RGB download '<ContractId>' myContractPBN.RGB
+  - RGB dump '<ContractId>' myContractPBN.RGB
+  - RGB issue '<ContractId>' myContractPBN.RGB
+explanation: |
+  Polecenie "Eksport RGB" służy do wyodrębnienia Contract z Stash i zapisania go jako pliku w celu łatwego udostępniania.
+reviewed: false

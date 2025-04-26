@@ -1,9 +1,8 @@
-question: Quais são os dois elementos essenciais nos quais a base da HD Wallet depende?
-answer: A frase mnemônica e a frase de acesso.
+question: Qual prefixo é usado para indicar uma chave pública comprimida com uma coordenada y ímpar?
+answer: 0x03
 wrong_answers:
-  - A semente e a chave privada mestra.
-  - O código de cadeia mestra e a semente.
-  - A frase mnemônica e a chave privada mestra.
+  - 0x02
+  - 0x04
+  - 0x00
 explanation: |
-  A base da HD Wallet depende de dois elementos essenciais: a frase mnemônica e a frase de acesso (senha adicional opcional). Juntas, elas constituem a semente, uma sequência alfanumérica de 512 bits que serve como base para derivar as chaves da carteira.
-reviewed: false
+  O prefixo 0x03 indica uma chave pública comprimida com uma coordenada y ímpar.

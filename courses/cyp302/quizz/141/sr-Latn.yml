@@ -1,0 +1,9 @@
+question: Zašto se faktorisanje proizvoda dva veoma velika prosta broja smatra teškim problemom?
+answer: Zato što zahteva prohibitivnu količinu vremena za računanje čak i za superračunare.
+wrong_answers:
+  - Zato što zahteva javni ključ za svaki faktor.
+  - Jer uključuje samo osnovne operacije u računanju.
+  - Zato što zavisi od množenja, a ne deljenja.
+explanation: |
+  Faktorisanje ogromnog broja, proizvoda dva velika prosta broja, zahteva računarske moći koje premašuju kapacitet trenutnih računara, što ovaj zadatak čini praktično neizvodljivim.
+reviewed: false

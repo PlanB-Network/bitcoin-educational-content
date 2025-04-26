@@ -1,0 +1,9 @@
+question: ¿Qué metal ha sido históricamente considerado el estándar de referencia para la moneda?
+answer: Oro
+wrong_answers:
+  - Plata
+  - Cobre
+  - Bronce
+explanation: |
+  El oro ha sido históricamente considerado el estándar debido a su escasez, durabilidad y valor universalmente reconocido, lo que lo convierte en una base estable para los sistemas monetarios.
+reviewed: false

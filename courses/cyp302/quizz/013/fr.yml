@@ -1,0 +1,9 @@
+question: Qu'est-ce qui constitue la base physique de la majorité des communications dans le monde développé ?
+answer: Les réseaux de câbles à fibre optique
+wrong_answers:
+  - Les satellites pour chaque connexion
+  - Les câbles coaxiaux seulement
+  - Les fils de cuivre uniquement
+explanation: |
+  La majorité des communications modernes repose sur des réseaux de câbles à fibre optique, qui assurent les échanges de données à haute vitesse, bien que certains usages de satellites et câbles coaxiaux subsistent.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Phát hiện nào khác của người Anh do các nhà nghiên cứu tại GCHQ thực hiện trước phát hiện của Diffie và Hellman, nhưng vẫn giữ bí mật?
+answer: Các khái niệm về mật mã bất đối xứng và trao đổi khóa
+wrong_answers:
+  - Một giao thức mã hóa đối xứng tiên tiến không cần khóa
+  - Một phương pháp băm mật mã bất đối xứng mới
+  - Một phương pháp tạo ra tiền điện tử
+explanation: |
+  Các nhà mật mã học Anh, làm việc cho GCHQ, đã phát triển độc lập các ý tưởng tương tự như của Diffie và Hellman, nhưng những tiến bộ này vẫn được giữ bí mật cho đến khi chúng được tiết lộ vào năm 1997.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Mikä on sitoumustapahtuman rooli Lightning-verkossa?
-answer: Se päivittää kanavan saldon jokaisen siirron jälkeen.
+question: Mitkä ovat kolme menetelmää kanavan sulkemiseksi Lightning-verkossa?
+answer: Yhteistyöllinen sulkeminen, pakotettu sulkeminen, huijaamisella sulkeminen
 wrong_answers:
-  - Se avaa kanavan.
-  - Se sulkee kanavan.
-  - Se siirtää varat.
+  - Nopea sulkeminen, hidas sulkeminen, kaksinkertaisella allekirjoituksella sulkeminen
+  - Turvallinen sulkeminen, automatisoitu sulkeminen, varojen menetyksellä sulkeminen
+  - Suora sulkeminen, epäsuora sulkeminen, vaatimuksella sulkeminen
 explanation: |
-  Sitoumustapahtuma on uudempi tapahtuma, joka päivittää kanavan saldon jokaisen siirron jälkeen. Sitä ei suoriteta, ellei kanavaa suljeta.
+  On kolme menetelmää: yhteistyöllinen sulkeminen, jossa osapuolet ovat yhtä mieltä, pakotettu sulkeminen ilman toisen osapuolen vastausta, ja huijaamisella sulkeminen, jossa osapuoli yrittää julkaista vanhan siirron.
 reviewed: false

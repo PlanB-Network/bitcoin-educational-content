@@ -1,0 +1,8 @@
+question: Jaký matematický koncept je základem výměny klíčů Diffie-Hellman?
+answer: Jednosměrná funkce s zadními vrátky
+wrong_answers:
+  - Inverzní exponenciální funkce
+  - Kryptografický hash algoritmus
+  - Zjednodušené modulární dělení
+explanation: |
+  Diffie-Hellman se spoléhá na jednosměrnou funkci, která je snadno vypočitatelná v jednom směru, ale prakticky nemožná k obrácení bez tajného kousku informace, nazývaného zadní vrátka.

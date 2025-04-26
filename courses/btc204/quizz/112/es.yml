@@ -1,0 +1,11 @@
+question: ¿Cuál es el papel del colaborador en una transacción Stonewall x2?
+
+answer: Proporcionar bitcoins para añadir dudas
+
+wrong_answers:
+  - Actuar como el coordinador de la transacción
+  - Recibir el monto del pago
+  - Enviar el monto del pago
+
+explanation: |
+  El colaborador en una transacción Stonewall x2 proporciona bitcoins para añadir dudas al análisis de la transacción, mientras recupera completamente sus fondos al final (una acción neutral para ellos, menos las comisiones de minería).

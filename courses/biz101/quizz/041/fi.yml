@@ -1,0 +1,9 @@
+question: Miksi suositellaan CSV-vientiä kaikista Bitcoin-tapahtumista?
+answer: Se tarjoaa selkeän, jäsennellyn tallenteen jokaisesta tapahtumasta, jolloin kirjanpitäjien on helpompi sisällyttää ne talousraportteihin ja veroilmoituksiin.
+wrong_answers:
+  - Koska paperiset kuitit ovat ainoat laillisesti hyväksyttävät kirjanpitoasiakirjat.
+  - Koska tietojen vienti täydentää veroilmoituksen automaattisesti ilman tarkistusta.
+  - Koska CSV-tiedostot poistavat tarpeen seurata kustannusperustaa.
+explanation: |
+  Digitaalinen tallennus yhteisessä muodossa mahdollistaa saumattoman integroinnin kirjanpitojärjestelmiin, auttaa ylläpitämään kirjausketjuja ja tukee tarkkaa vero- ja vaatimustenmukaisuusraportointia.
+reviewed: false

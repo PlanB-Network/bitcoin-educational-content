@@ -1,10 +1,9 @@
-question: Co se stane s prostředky při převodu v Lightning Network?
-answer: Prostředky se nepohnou, ale konečný zůstatek je aktualizován.
+question: Která metoda uzavírání kanálu je nejekonomičtější a nejrychlejší?
+answer: Kooperativní uzavření
 wrong_answers:
-  - Prostředky jsou převedeny z jedné strany na druhou.
-  - Prostředky jsou uzamčeny, dokud není kanál uzavřen.
-  - Prostředky jsou odeslány do Bitcoinové sítě.
+  - Vynucené uzavření
+  - Uzavření s podvodem
+  - Žádná není ekonomičtější a rychlejší
 explanation: |
-  Při převodu v Lightning Network se prostředky nepohnou. Místo toho je konečný
-  zůstatek aktualizován prostřednictvím podepsané, ale nezveřejněné on-chain transakce.
+  Kooperativní uzavření je nejrychlejší a nejekonomičtější metoda, protože obě strany souhlasí s uzavřením kanálu a přizpůsobují poplatky podle tržních podmínek.
 reviewed: false

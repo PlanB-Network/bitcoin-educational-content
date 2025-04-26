@@ -1,9 +1,14 @@
-question: Was ist das potenzielle Auswirkungen von Regulierung auf das Bitcoin-Mining?
-answer: Wenn ein Land wie die Vereinigten Staaten beschließen würde, bestimmte Bitcoin-Transaktionen zu regulieren oder zu verbieten, könnte dies einen erheblichen Einfluss auf das Netzwerk haben, insbesondere wenn ein großer Teil der Hashing-Leistung in diesem Land zentralisiert ist.
+question: Welche potenziellen Auswirkungen könnte eine Regulierung auf das Bitcoin-Mining haben?
+answer: Wenn ein Land wie die Vereinigten Staaten beschließen würde, bestimmte Bitcoin-Transaktionen zu regulieren oder zu verbieten, könnte dies erhebliche Auswirkungen auf das Netzwerk haben, insbesondere wenn ein großer Teil der Hashing-Leistung in diesem Land zentralisiert ist.
 wrong_answers:
-  - Wenn ein Land wie die Vereinigten Staaten beschließen würde, das Bitcoin-Mining zu regulieren oder zu verbieten, könnte dies zu einem Anstieg des Bitcoin-Werts führen.
-  - Wenn ein Land wie die Vereinigten Staaten beschließen würde, das Bitcoin-Mining zu regulieren oder zu verbieten, könnte dies zu einer Erhöhung der Blockbelohnung führen.
+  - Wenn ein Land wie die Vereinigten Staaten beschließen würde, das Bitcoin-Mining zu regulieren oder zu verbieten, könnte dies zu einem Anstieg des Wertes von Bitcoin führen.
+  - Wenn ein Land wie die Vereinigten Staaten beschließen würde, das Bitcoin-Mining zu regulieren oder zu verbieten, könnte dies zu einem Anstieg der Blockbelohnung führen.
   - Wenn ein Land wie die Vereinigten Staaten beschließen würde, das Bitcoin-Mining zu regulieren oder zu verbieten, könnte dies zu einer Erhöhung der Transaktionsgeschwindigkeit führen.
 explanation: |
-  Das Kapitel erklärt, dass wenn ein Land wie die Vereinigten Staaten beschließen würde, bestimmte Bitcoin-Transaktionen zu regulieren oder zu verbieten, dies einen erheblichen Einfluss auf das Netzwerk haben könnte, insbesondere wenn ein großer Teil der Hashing-Leistung in diesem Land zentralisiert ist.
-reviewed: false
+  Das Kapitel erklärt, dass wenn ein Land wie die
+  Vereinigten Staaten beschließen würde, bestimmte Bitcoin-
+  Transaktionen zu regulieren oder zu verbieten, dies erhebliche
+  Auswirkungen auf das Netzwerk haben könnte, insbesondere wenn
+  ein großer Teil der Hashing-Leistung in diesem Land
+  zentralisiert ist.
+reviewed: true

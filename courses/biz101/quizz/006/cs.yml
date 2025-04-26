@@ -1,0 +1,9 @@
+question: Proč je limit 21 milionů na emisi bitcoinů významný?
+answer: Vytváří deflační aktivum, které chrání jeho hodnotu před libovolnou inflací.
+wrong_answers:
+  - Zajišťuje, že vlády mohou vytisknout tolik bitcoinů, kolik potřebují.
+  - Zabraňuje odesílání transakcí po dosažení limitu.
+  - Eliminuje veškerou volatilitu ceny bitcoinu.
+explanation: |
+  Bitcoin má maximální nabídku 21 milionů kusů a jeho nedostatek je pevně zakódován, čímž se zásadně liší od inflačních měn, u nichž lze nabídku libovolně zvyšovat.
+reviewed: false

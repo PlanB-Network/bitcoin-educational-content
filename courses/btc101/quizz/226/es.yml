@@ -1,9 +1,10 @@
-question: ¿Qué función cumple la Red Lightning?
+question: ¿Qué tipo de red crea la Lightning Network?
 answer: Una red de canales de pago.
 wrong_answers:
-  - Una red de nodos mineros.
+  - Una red de nodos de minería.
   - Una red de nodos de blockchain.
   - Una red de intercambios de criptomonedas.
-explanation: |
-  La Red Lightning actúa como una red de canales de pago, permitiendo transacciones instantáneas con bajos costos para el remitente.
-reviewed: false
+explanation: >-
+  La Lightning Network actúa como una red de canales de pago, permitiendo
+  transacciones instantáneas con bajas comisiones para el remitente.
+reviewed: true

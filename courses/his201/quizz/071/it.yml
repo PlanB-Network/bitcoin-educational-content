@@ -1,0 +1,9 @@
+question: Cosa ha causato l'improvvisa partenza di Satoshi Nakamoto nel dicembre 2010?
+answer: La pubblicazione di un articolo che collegava Bitcoin e WikiLeaks
+wrong_answers:
+  - L'accettazione di bitcoin da parte di WikiLeaks
+  - Il passaggio del controllo del codice a Gavin Andresen
+  - L'aumento del prezzo unitario di bitcoin
+explanation: |
+  Intitolato Could the Wikileaks Scandal Lead to New Virtual Currency?, questo [articolo](https: //www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) è stato pubblicato su PC World, uno dei più grandi siti web americani dedicati all'informatica.
+reviewed: false

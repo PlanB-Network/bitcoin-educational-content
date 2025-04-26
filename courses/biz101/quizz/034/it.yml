@@ -1,0 +1,9 @@
+question: Quale tendenza si nota tra i partecipanti che gestiscono i nodi della rete Lightning?
+answer: I gestori professionali dei nodi forniscono sempre più liquidità, mentre i singoli utenti si concentrano sui nodi "periferici", modificando la composizione della rete.
+wrong_answers:
+  - I singoli hobbisti hanno sostituito completamente tutti gli operatori professionali.
+  - Le grandi banche ora gestiscono centralmente tutti i nodi Lightning.
+  - La rete ha chiuso i nodi personali per consentire solo alle grandi aziende.
+explanation: |
+  Si va verso una maggiore liquidità e stabilità fornita da entità professionali, mentre gli utenti quotidiani si affidano a soluzioni semplificate o ospitate, rendendo la rete più robusta e accessibile.
+reviewed: false

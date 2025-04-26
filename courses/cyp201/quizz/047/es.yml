@@ -1,9 +1,9 @@
-question: ¿Cuál es el propósito del nonce en el contexto de las transacciones de Bitcoin?
-answer: Se utiliza en la creación de una firma digital.
+question: ¿Cuál es el tamaño en bits de un segmento binario utilizado para crear cada palabra mnemotécnica?
+answer: 11 bits
 wrong_answers:
-  - Se utiliza para encriptar los datos de la transacción.
-  - Se utiliza para almacenar los datos de la transacción.
-  - Se utiliza para transmitir los datos de la transacción.
+  - 8 bits
+  - 16 bits
+  - 10 bits
 explanation: |
-  En el contexto de las transacciones de Bitcoin, se utiliza un nonce en la creación de una firma digital. Específicamente, se utiliza en el cálculo de un número específico V y la firma digital compuesta por dos partes, S1 y S2.
+  Cada segmento de 11 bits corresponde a una palabra de la lista estandarizada de 2048 palabras en BIP39.
 reviewed: false

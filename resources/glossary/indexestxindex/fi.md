@@ -1,0 +1,5 @@
+---
+term: INDEKSIT/TXINDEX/
+
+---
+Bitcoin Coressa olevat tiedostot, jotka on tarkoitettu kaikkien lohkoketjussa olevien transaktioiden indeksointiin. Tämä indeksointi mahdollistaa transaktion yksityiskohtaisten tietojen nopean etsimisen sen tunnisteen (TXID) avulla ilman, että koko lohkoketjua tarvitsee käydä läpi. Näiden indeksointitiedostojen luominen on vaihtoehto, joka ei ole oletusarvoisesti käytössä Bitcoin Coressa. Jos tätä ominaisuutta ei ole otettu käyttöön, solmusi indeksoi vain tapahtumat, jotka liittyvät solmuun liitettyihin lompakkoihin. Jos haluat ottaa käyttöön kaikkien transaktioiden indeksoinnin, sinun on asetettava parametri `-txindex=1` tiedostoon `bitcoin.conf`. Tämä vaihtoehto on erityisen hyödyllinen sovelluksille ja palveluille, jotka etsivät usein Bitcoinin transaktiohistoriaa.

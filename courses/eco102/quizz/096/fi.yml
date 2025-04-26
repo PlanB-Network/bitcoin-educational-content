@@ -1,0 +1,8 @@
+question: Mikä on negatiivisen oikeudenmukaisuuden ominaisuus Bastiat'n mukaan?
+answer: Estää toisten oikeuksien anastamisen toisten toimesta.
+wrong_answers:
+  - Ei tee mitään ja antaa riitojen ratketa itsestään.
+  - Huono molempien osapuolten oikeuksille.
+  - Luo epätasapainon yksilön ja kollektiivin oikeuksien välille.
+explanation: |
+  Negatiivinen oikeudenmukaisuus, Bastiat'n mukaan, koostuu oikeuksien anastamisen estämisestä, rajoittuen näin suojelemaan luonnollisia oikeuksia ilman, että se asettaa positiivisia toimia yksilöille.

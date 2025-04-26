@@ -1,0 +1,9 @@
+question: Tầm quan trọng của các nhóm tuần hoàn trong mật mã học là gì?
+answer: Chúng cho phép tạo ra các hệ thống mật mã dựa trên bộ sinh
+wrong_answers:
+  - Chúng đơn giản hóa việc nhân các khóa mã hóa
+  - Chúng tăng cường an ninh của các kênh giao tiếp công cộng
+  - Chúng được sử dụng để băm trực tiếp các tin nhắn nhằm bảo toàn tính toàn vẹn của chúng
+explanation: |
+  Trong mật mã học, các nhóm tuần hoàn, có bộ sinh, là cần thiết để thiết lập cơ sở cho các khóa mã hóa, đặc biệt là trong các hệ thống khóa công khai.
+reviewed: false

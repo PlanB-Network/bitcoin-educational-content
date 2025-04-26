@@ -1,0 +1,9 @@
+question: Pourquoi un chiffrement authentifié est-il résistant aux attaques par chiffrement choisi ?
+answer: Car toute modification du texte chiffré par un attaquant rend le tag invalide
+wrong_answers:
+  - Parce qu'il utilise un seul algorithme de chiffrement
+  - Car toute modification du texte chiffré par un attaquant rend la clé invalide
+  - Parce qu'il chiffre uniquement le message sans tag
+explanation: |
+  Un schéma de chiffrement authentifié est conçu pour détecter les modifications du texte chiffré, ce qui rend le tag invalide en cas de tentative de manipulation et assure une résistance aux attaques par chiffrement choisi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è il vantaggio di utilizzare un portafoglio di custodia per il profilo Starter?
+answer: Riduzione delle responsabilità tecniche
+wrong_answers:
+  - Maggiore controllo sulle chiavi private
+  - Maggiore privacy con piena autonomia sulle transazioni
+  - Eliminazione delle commissioni di transazione
+explanation: |
+  I portafogli di custodia gestiscono le chiavi private, alleggerendo gli oneri tecnici degli utenti.
+reviewed: false

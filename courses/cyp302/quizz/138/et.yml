@@ -1,0 +1,9 @@
+question: Millist omadust peab räsifunktsioonil olema, et tagada turvalisus tarkvara kontrollimisel?
+answer: Kollisioonikindlus
+wrong_answers:
+  - Pööratavus
+  - Töötamine asümmeetriliste võtmetega
+  - Reaalajas genereeritavus
+explanation: |
+  Kollisioonikindlus tagab, et praktiliselt on võimatu leida kahte erinevat sisendit, mis toodavad sama räsi, mis on oluline tarkvara muutmata jätmise kontrollimiseks.
+reviewed: false

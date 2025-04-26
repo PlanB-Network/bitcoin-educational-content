@@ -1,0 +1,9 @@
+question: Milline struktuur tagab üleminekute ajalise järjepidevuse RGB-s?
+answer: DAG (suunatud atsükliline graaf)
+wrong_answers:
+  - Lihtne lineaarne ahel
+  - Dünaamiline vastastikune võrk
+  - UTXOde binaarne puu
+explanation: |
+  DAG võimaldab struktureerida olekute üleminekuid, võimaldades samal ajal paralleelset arengut ilma vastuoludeta.
+reviewed: false

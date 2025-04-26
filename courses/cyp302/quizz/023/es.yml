@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel de la operación módulo en la encriptación con cifrado César?
+answer: Asegura que las letras vuelvan al inicio del alfabeto al superar 26
+wrong_answers:
+  - Multiplica los valores de las letras por la clave
+  - Invierte las letras del alfabeto
+  - Elimina las letras después de la letra Z
+explanation: |
+  La operación módulo 26 permite que las letras vuelvan al inicio después de la Z para asegurar que cada letra encriptada permanezca dentro de las 26 letras del alfabeto.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Jaké jsou dvě charakteristiky, které dělají Bitcoin tím, čím je dnes?
-answer: Jeho otevřený zdrojový kód a jeho vzácnost
+question: Co si musí uživatelé uložit, aby své bitcoiny skutečně vlastnili?
+answer: Soukromé klíče
 wrong_answers:
-  - Jeho anonymita a jeho decentralizace
-  - Jeho vysoká hodnota a jeho volatilita
-  - Jeho snadné použití a jeho globální přijetí
+  - Příjem adres
+  - Hesla platformy Exchange
+  - Bloky Blockchain
 explanation: |
-  Dvě hlavní charakteristiky, které definují Bitcoin, jsou jeho otevřený zdrojový kód, který jej činí transparentním, auditovatelným a použitelným kýmkoli, a jeho vzácnost, což znamená, že na světě bude vždy pouze 21 milionů bitcoinů.
+  Bez držení soukromých klíčů své bitcoiny skutečně nevlastníte.
 reviewed: false

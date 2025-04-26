@@ -1,0 +1,9 @@
+question: Milline RGB-lepingu operatsioon loob uue oleku ilma pitserit sulgemata?
+answer: Riigi laiendamine
+wrong_answers:
+  - Riigi üleminek
+  - Genesis
+  - Valentsuse aktiveerimine
+explanation: |
+  Riigi laiendus võimaldab teil luua uue riigi või õigusi (Valencies), ilma et pitser oleks kohe suletud.
+reviewed: false

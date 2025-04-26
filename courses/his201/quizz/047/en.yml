@@ -1,0 +1,9 @@
+question: What aspect of Bitcoin did Satoshi wish to downplay in his communication in July 2010?
+answer: The anonymity of transactions
+wrong_answers:
+  - Monetary policy
+  - E-commerce
+  - Programmability
+explanation: |
+  Regarding the draft presentation for Slashdot, he stated he did not want to put the anonymous aspect in the foreground. He explained his reasons to Martti Malmi [in private](https: //mmalmi.github.io/satoshi/#email-197).
+reviewed: false

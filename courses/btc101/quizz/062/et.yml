@@ -1,0 +1,9 @@
+question: Mis mehhanism tagab, et uus plokk lisatakse plokiahelasse iga kümne minuti järel?
+answer: Raskusastme kohandamine
+wrong_answers:
+  - Kiiruse kohandamine
+  - Aja kohandamine
+  - Ploki kohandamine
+explanation: |
+  Mehhanism, mis tagab uue ploki lisamise plokiahelasse iga kümne minuti järel, on raskusastme kohandamine. See kohandamine toimub iga 2016 ploki järel, mis on umbes kahe nädala jooksul.
+reviewed: true

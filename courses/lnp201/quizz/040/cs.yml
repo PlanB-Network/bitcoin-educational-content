@@ -1,9 +1,9 @@
-question: Co se stane, když se Alice pokusí podvádět zveřejněním starého závazkového transakce?
-answer: Bob použije klíč pro zrušení, aby potrestal Alici a vzal si všechny SAT z kanálu.
+question: Jaká je hlavní role odesílajícího uzlu při směrování na Lightning Network?
+answer: Vypočítat kompletní trasu k příjemci
 wrong_answers:
-  - Alice je odměněna za svou chytrost.
-  - Alice a Bob si rozdělí SAT z kanálu.
-  - Transakce je zamítnuta a nic se nestane.
+  - Uchovávat informace o likviditě všech kanálů sítě
+  - Stanovit transakční poplatky pro každý zprostředkující uzel
+  - Komunikovat přímo se všemi zprostředkujícími uzly
 explanation: |
-  Lightning Network má mechanismus, který zabraňuje podvádění. Pokud se Alice pokusí podvádět zveřejněním starého závazkového transakce, Bob může použít klíč pro zrušení, aby potrestal Alici a vzal si všechny SAT z kanálu.
+  Odesílající uzel je zodpovědný za výpočet celé trasy k příjemci, protože zprostředkující uzly znají pouze svého bezprostředního souseda.
 reviewed: false

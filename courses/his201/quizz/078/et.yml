@@ -1,0 +1,9 @@
+question: Kellele andis Satoshi Nakamoto veebilehe (mis hõlmab ka foorumit ja vikit) kontrolli üle oma lahkumisel?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  Tal ei olnud aega seda hallata ja delegeeris ülesande kiiresti. Saidi ja foorumi võtsid üle Theymos ja Cøbra.
+reviewed: false

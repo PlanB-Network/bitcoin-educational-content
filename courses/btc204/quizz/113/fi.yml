@@ -1,0 +1,13 @@
+question: Mikä elementti estää ulkopuolista tarkkailijaa erottamasta Stonewall- ja Stonewall x2 -transaktioita toisistaan?
+
+answer: Transaktioiden kaava on sama
+
+wrong_answers:
+  - Transaktiot ovat salattuja
+  - Transaktioissa liikkuvat summat ovat aina identtiset
+  - Transaktioiden digitaaliset allekirjoitukset on generoitu samalla algoritmilla
+
+explanation: |
+  Ulkopuolisen näkökulmasta transaktioiden kaava on täsmälleen sama. Ilman lisäkontekstitietoa on siis mahdotonta erottaa Stonewall-transaktiota Stonewall x2 -transaktiosta, koska ne noudattavat samaa kaavaa.
+
+reviewed: false

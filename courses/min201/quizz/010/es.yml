@@ -1,9 +1,13 @@
-question: ¿Cómo pueden los mineros de Bitcoin ayudar a gestionar los excedentes de energía y estabilizar las redes eléctricas?
-answer: Los mineros de Bitcoin pueden absorber los excedentes de energía, actuando como un buffer flexible, ajustando la demanda en lugar de la oferta. En un mundo donde la producción de electricidad a partir de fuentes renovables (no controlables) está aumentando constantemente, los mineros pueden desempeñar un papel clave en garantizar el equilibrio de nuestras redes eléctricas, al tiempo que se benefician de la electricidad barata o excedente para alimentar sus operaciones mineras.
+question: ¿Cómo pueden los mineros de Bitcoin ayudar en la gestión de excedentes energéticos y en la estabilización de las redes eléctricas?
+answer: Los mineros de Bitcoin pueden absorber excedentes de energía, actuando como un amortiguador flexible, ajustando la demanda en lugar de la oferta. En un mundo donde la producción de electricidad a partir de fuentes renovables (no controlables) está en constante aumento, los mineros pueden jugar un papel clave en asegurar el equilibrio de nuestras redes eléctricas, mientras se benefician de electricidad barata o excedente para alimentar sus operaciones de minería.
 wrong_answers:
-  - Los mineros de Bitcoin pueden ayudar a gestionar los excedentes de energía almacenando la energía excedente en baterías.
-  - Los mineros de Bitcoin pueden ayudar a gestionar los excedentes de energía vendiendo la energía excedente de vuelta a la red.
-  - Los mineros de Bitcoin pueden ayudar a gestionar los excedentes de energía convirtiendo la energía excedente en calor.
+  - Los mineros de Bitcoin pueden ayudar en la gestión de excedentes energéticos almacenando la energía excedente en baterías.
+  - Los mineros de Bitcoin pueden ayudar en la gestión de excedentes energéticos vendiendo la energía excedente de vuelta a la red.
+  - Los mineros de Bitcoin pueden ayudar en la gestión de excedentes energéticos convirtiendo la energía excedente en calor.
 explanation: |
-  El capítulo explica que los mineros de Bitcoin pueden absorber los excedentes de energía, actuando como un buffer flexible, ajustando la demanda en lugar de la oferta. Esto puede ayudar a gestionar los excedentes de energía y estabilizar las redes eléctricas.
-reviewed: false
+  El capítulo explica que los mineros de Bitcoin pueden absorber
+  excedentes de energía, actuando como un amortiguador flexible,
+  ajustando la demanda en lugar de la oferta. Esto puede ayudar
+  en la gestión de excedentes energéticos y en la estabilización
+  de las redes eléctricas.
+reviewed: true

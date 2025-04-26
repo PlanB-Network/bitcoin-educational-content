@@ -1,0 +1,9 @@
+question: Quel est l'effet principal du protectionnisme sur les consommateurs ?
+answer: Il augmente le prix des produits qu'ils achètent
+wrong_answers:
+  - Il leur permet d'acheter des produits de meilleure qualité
+  - Il leur offre un plus grand choix de produits
+  - Il n'a aucun impact sur leur pouvoir d'achat
+explanation: |
+  Le protectionnisme impose des taxes sur les importations, ce qui rend les produits plus chers pour les consommateurs.
+reviewed: false

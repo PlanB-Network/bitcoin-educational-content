@@ -1,10 +1,10 @@
 question: Jaká je verze prvního vydaného softwaru Bitcoin?
-answer: Bitcoin-0.1.0
+answer: Bitcoin-0.1.0.
 wrong_answers:
-  - Bitcoin-0.0.1
-  - Bitcoin-1.0.0
-  - Bitcoin-0.1.1
+  - Bitcoin-0.0.1.
+  - Bitcoin-1.0.0.
+  - Bitcoin-0.1.1.
 explanation: >-
-  První vydaný software Bitcoin byl Bitcoin-0.1.0. Byl oznámen
+  Prvním vydaným softwarem Bitcoin byl Bitcoin-0.1.0. Byl oznámen
   Satoshi Nakamotem 8. ledna 2009.
 reviewed: true

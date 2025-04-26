@@ -1,0 +1,9 @@
+question: Wie viele Bitcoins hat Satoshi Nakamoto insgesamt (ungefähr) gemined?
+answer: 1.100.000
+wrong_answers:
+  - 11.000.000
+  - 110.000
+  - 11.000
+explanation: |
+   1.122.693 Bitcoins laut einer Studie von Whale Alert, die 2020 veröffentlicht wurde. Satoshi stellte seine Mining-Aktivitäten im Mai 2010 ein.
+reviewed: false

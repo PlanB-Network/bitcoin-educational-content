@@ -1,12 +1,9 @@
-question: What is the role of a private key in a Bitcoin transaction?
-answer: It is used to sign the transaction and unlock the bitcoins from the address.
+question: In a Bitcoin transaction, what does the locking script do?
+answer: It imposes specific conditions to spend the associated funds
 wrong_answers:
-  - It is used to generate the public key.
-  - It is used to create a Bitcoin address.
-  - It is used to encrypt the transaction data.
+  - It automatically sends the funds to multiple addresses
+  - It determines the value of the UTXO to be created
+  - It temporarily locks the funds to prevent excessive spending
 explanation: |
-  In a Bitcoin transaction, the sender uses their private key to sign the
-  transaction, which effectively unlocks the bitcoins from the address they are stored
-  in. This is a crucial part of the transaction process, as it ensures that only the
-  owner of the bitcoins can spend them.
+  The locking script imposes conditions, such as signing with a private key, to unlock and use the funds in a transaction.
 reviewed: false

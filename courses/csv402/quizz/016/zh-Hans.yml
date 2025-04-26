@@ -1,0 +1,9 @@
+question: RGB 智能合约状态的两个主要组成部分是什么？
+answer: 全球国家和国有国家
+wrong_answers:
+  - 承诺与创世纪
+  - 印章定义和状态转换
+  - 有效期和合同权利
+explanation: |
+  全球状态包含公共数据，而自有状态则通过 UTXO 与特定持有者相关联。
+reviewed: false

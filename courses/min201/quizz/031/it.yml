@@ -2,8 +2,12 @@ question: Qual è la missione fondamentale di Bitcoin?
 answer: Essere una rete di scambio di valore resistente alla censura.
 wrong_answers:
   - Sostituire le valute tradizionali.
-  - Rendere le transazioni anonime.
+  - Rendere anonime le transazioni.
   - Creare una nuova forma di investimento.
 explanation: |
-  La missione fondamentale di Bitcoin è essere una rete di scambio di valore resistente alla censura. La comunità di Bitcoin si impegna costantemente per rafforzare la distribuzione, la resistenza alla censura e l'anti-fragilità della rete.
-reviewed: false
+  La missione fondamentale di Bitcoin è essere
+  una rete di scambio di valore resistente alla censura. La comunità di Bitcoin
+  è costantemente impegnata a rafforzare
+  la distribuzione, la resistenza alla censura e l'antifragilità
+  della rete.
+reviewed: vero

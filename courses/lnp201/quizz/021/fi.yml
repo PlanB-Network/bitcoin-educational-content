@@ -1,8 +1,9 @@
-question: Kuka aloittaa prosessin kanavan avaamiseksi Lightning-verkossa?
-answer: Alice
+question: Kuinka aikalukko suojaa huijaamiselta sitoumusmaksuissa?
+answer: Se estää syyllisen osapuolen pääsyn varoihinsa välittömästi
 wrong_answers:
-  - Bob
-  - Sekä Alice että Bob
-  - Ei kumpikaan Alice eikä Bob
+  - Se palauttaa automaattisesti varat huijarille
+  - Se peruuttaa tapahtuman, jos huijausyritys tapahtuu
+  - Se estää peruutusavaimen käytön
 explanation: |
-  Prosessissa, jossa avataan kanava Lightning-verkossa, Alice on se, joka aloittaa prosessin. Hän ilmaisee aikomuksensa avata kanavan Bobille, joka vastauksena antaa julkisen osoitteensa.
+  Aikalukko asettaa viiveen, jonka aikana huijari ei voi saada varojaan takaisin, antaen näin toiselle osapuolelle mahdollisuuden reagoida.
+reviewed: false

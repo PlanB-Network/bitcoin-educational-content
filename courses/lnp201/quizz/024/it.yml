@@ -1,9 +1,9 @@
-question: Cosa succede alla transazione di prelievo dopo un trasferimento sulla Lightning Network?
-answer: Viene aggiornata per riflettere il nuovo saldo del canale.
+question: Qual è l'effetto combinato del timelock e della chiave di revoca sulle transazioni di impegno?
+answer: Scoraggiano i partecipanti dal barare offrendo una punizione immediata
 wrong_answers:
-  - Viene eseguita e i fondi vengono trasferiti.
-  - Viene scartata e viene creata una nuova transazione.
-  - Rimane la stessa.
+  - Riducono la capacità del canale in caso di baro
+  - Bloccano automaticamente i fondi della parte colpevole
+  - Costringono all'apertura di un nuovo canale se la transazione è errata
 explanation: |
-  Dopo un trasferimento sulla Lightning Network, la transazione di prelievo viene aggiornata per riflettere il nuovo saldo del canale. Questa transazione non viene eseguita a meno che il canale non venga chiuso.
+  Il timelock e la chiave di revoca scoraggiano i partecipanti dal barare assicurando che qualsiasi tentativo di barare risulti in una perdita immediata di fondi per la parte colpevole.
 reviewed: false

@@ -1,9 +1,0 @@
-question: Warum wird es nicht empfohlen, Variationen oder Ergänzungen zu Passwörtern zu verwenden?
-answer: Sie sind nicht sicher und können leicht erraten werden.
-wrong_answers:
-  - Sie sind zu lang und komplex.
-  - Sie sind schwer zu merken.
-  - Sie werden von den meisten Online-Diensten nicht erlaubt.
-explanation: |
-  Variationen oder Ergänzungen zu Passwörtern sind nicht sicher, da sie leicht erraten werden können. Es ist besser, vollständig zufällige Passwörter zu verwenden, die keine vorhersehbaren Muster aufweisen.
-reviewed: false

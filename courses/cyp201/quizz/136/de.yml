@@ -1,9 +1,0 @@
-question: Was ist das höchste Element in der HD-Wallet-Hierarchie?
-answer: Der Master-Private-Key und der Master-Chain-Code
-wrong_answers:
-  - Die Mnemonik-Phrase und das Passwort
-  - Die Kind-Schlüssel
-  - Der Seed der Wallet
-explanation: |
-  Der Master-Private-Key und der Master-Chain-Code werden aus dem Seed der Wallet abgeleitet und sind die höchsten Elemente in der HD-Wallet-Hierarchie. Sie werden verwendet, um Kind-Schlüssel abzuleiten.
-reviewed: false

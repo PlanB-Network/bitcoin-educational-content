@@ -1,0 +1,9 @@
+question: Mida paljastab teine Beale'i sõnum pärast dešifreerimist?
+answer: Maetud aarete (kuld, hõbe ja juveelid) nimekiri
+wrong_answers:
+  - Aarde täpne asukoht, kus see on maetud
+  - Beale'i naasmise kuupäev
+  - Beale'i ja tema kaaslaste allkirjad
+explanation: |
+  Pärast dešifreerimist kirjeldab teine sõnum aarde sisu, mis koosneb kullast, hõbedast ja juveelidest.
+reviewed: false

@@ -1,0 +1,7 @@
+---
+term: DISKREETTI LOGARITMI
+
+---
+Diskreetti logaritmi on matemaattinen ongelma, jota käytetään joissakin julkisen avaimen salausalgoritmeissa. Jos syklisessä ryhmässä, jonka järjestysluku on $q$ ja generaattori $g$, on yhtälö, joka on muotoa $g^x = h$, niin $x$:n arvoa kutsutaan $h$:n diskreetiksi logaritmiksi suhteessa peruslukuun $g$, modulo $q$. Yksinkertaistettuna kyse on eksponentin $x$ määrittämisestä, kun $g$, $h$ ja $q$ tunnetaan. Diskreetti logaritmi on siis eksponentiaalin käänteisluku äärellisessä syklisessä ryhmässä. Diskreetin logaritmin ongelman ratkaisemista pidetään kuitenkin algoritmisesti vaikeana, jos $q$:n arvot ovat suuria. Tätä ominaisuutta hyödynnetään monien salausprotokollien, kuten Diffie-Hellmanin avaintenvaihtoprotokollan, turvallisuuden varmistamiseksi.
+
+Diskreettiä logaritmia käytetään myös elliptisen käyrän salakirjoituksessa (ECC), kuten ECDSA:ssa (*Elliptic Curve Digital Signature Algorithm*). Elliptisten käyrien yhteydessä diskreetin logaritmin ongelma laajenee siten, että on löydettävä sellainen skalaari $k$, että $k \cdot G = K$, jossa $G$ ja $K$ ovat käyrän pisteitä ja $\cdot$ edustaa pisteen kertolaskuoperaatiota. Bitcoinin yhteydessä skriptit voivat käyttää joko ECDSA:ta tai Schnorr-protokollaa UTXO:iden lukitsemiseen. Molemmat perustuvat diskreetin logaritmin laskemisen mahdottomuuteen.

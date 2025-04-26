@@ -1,9 +1,12 @@
-question: Qual é a frase mnemônica em uma carteira de Bitcoin?
-answer: Uma lista de 12 ou 24 palavras que é um backup da sua carteira de Bitcoin.
+question: O que é a frase mnemônica em uma carteira Bitcoin?
+answer: Uma lista de 12 ou 24 palavras que permite acessar seus bitcoins.
 wrong_answers:
-  - Uma senha escolhida para acessar a carteira de Bitcoin
-  - Um código para criptografar as transações de Bitcoin
-  - Uma frase de recuperação secreta que destrói a carteira de Bitcoin
+  - Uma senha escolhida para acessar a carteira Bitcoin.
+  - Um código para criptografar transações Bitcoin.
+  - Uma frase secreta de recuperação que destrói a carteira Bitcoin em caso de necessidade.
 explanation: |
-  Desde 2017, a chave privada pode ser codificada em uma simples lista de 12 ou 24 palavras, chamada frase mnemônica. Essa frase é um backup da sua carteira de Bitcoin, é o que permite que você recrie sua carteira com qualquer software/aplicativo de carteira de Bitcoin.
-reviewed: false
+  Desde 2017, a chave privada pode ser codificada em uma lista simples
+  de 12 ou 24 palavras, chamada de frase mnemônica. Esta frase
+  é um backup da sua carteira Bitcoin, então ela permite que você
+  acesse seus bitcoins usando qualquer software/aplicativo de carteira Bitcoin.
+reviewed: true

@@ -1,9 +1,9 @@
-question: ¿Qué son los UTXOs en el contexto de Bitcoin?
-answer: Salidas de Transacciones No Gastadas
+question: ¿Cuál es el tamaño de una clave pública comprimida utilizando el protocolo Schnorr?
+answer: 32 bytes
 wrong_answers:
-  - Salidas de Transacciones No Rastreables
-  - Salidas de Transacciones No Verificadas
-  - Salidas de Transacciones No Confirmadas
+  - 33 bytes
+  - 64 bytes
+  - 128 bits
 explanation: |
-  Los UTXOs, o "Salidas de Transacciones No Gastadas," representan las salidas de transacciones no gastadas pertenecientes a un usuario. Para gastar estos bitcoins, uno debe demostrar la propiedad de la clave privada correspondiente a la clave pública vinculada a cada UTXO.
+  Una clave pública Schnorr se representa solo por la coordenada x del punto en la curva elíptica, lo que reduce su tamaño a 32 bytes.
 reviewed: false

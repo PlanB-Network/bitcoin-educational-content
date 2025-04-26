@@ -1,10 +1,10 @@
-question: Quel pays a déclaré le Bitcoin comme une monnaie légale ?
-answer: El Salvador
+question: Quel pays a déclaré le Bitcoin comme monnaie légale ?
+answer: El Salvador.
 wrong_answers:
-  - États-Unis
-  - Chine
-  - Inde
-explanation: |
-  El Salvador a franchi le pas audacieux d'adopter le Bitcoin dans son intégralité,
-  en le déclarant comme une monnaie légale.
-reviewed: false
+  - États-Unis.
+  - Chine.
+  - Inde.
+explanation: >-
+  El Salvador a pris la décision audacieuse d'adopter intégralement le Bitcoin,
+  en le déclarant monnaie légale.
+reviewed: true

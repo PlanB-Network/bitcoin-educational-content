@@ -1,11 +1,12 @@
 question: Mikä on yksi hyödyistä osallistua kyberturvallisuuskonferensseihin ja työpajoihin?
-answer: Se mahdollistaa verkostoitumisen alan ammattilaisten kanssa
+answer: Se mahdollistaa yhteyksien luomisen alan ammattilaisten kanssa
 wrong_answers:
   - Se on vaatimus kaikissa kyberturvallisuuden työpaikoissa
-  - Se takaa työpaikan kyberturvallisuuden parissa
+  - Se takaa työpaikan kyberturvallisuuden alalla
   - Se on ainoa tapa oppia kyberturvallisuudesta
 explanation: |
-  Luku mainitsee, että kyberturvallisuuskonferensseihin ja työpajoihin osallistuminen
-
-
-  mahdollistaa paitsi oppimisen myös verkostoitumisen alan ammattilaisten kanssa.
+  Luku mainitsee, että kyberturvallisuuskonferensseihin ja
+  työpajoihin osallistuminen ei ainoastaan mahdollista
+  oppimista, vaan myös auttaa luomaan yhteyksiä alan
+  ammattilaisten kanssa.
+reviewed: true

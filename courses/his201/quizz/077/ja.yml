@@ -1,0 +1,9 @@
+question: ビットコイン開発メーリングリストはいつ作成されましたか？
+answer: 2011年6月12日
+wrong_answers:
+  - 2011年1月13日
+  - 2011年3月7日
+  - 2011年9月19日
+explanation: |
+  このメーリングリストは開発者のJeff Garzikによって作成され、Bitcoinに対する変更についての正式な議論を可能にしました。
+reviewed: false

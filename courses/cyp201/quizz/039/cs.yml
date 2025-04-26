@@ -1,9 +1,9 @@
-question: Na čem je založena bezpečnost veřejných a soukromých klíčů?
-answer: Na problému diskrétního logaritmu
+question: Jaká je hlavní role Bitcoinové peněženky?
+answer: Spravovat a zabezpečit soukromé klíče
 wrong_answers:
-  - Na problému faktorizace prvočísel
-  - Na problému batohu
-  - Na problému obchodního cestujícího
+  - Ukládat bitcoiny uživatele
+  - Automaticky zajistit důvěrnost transakcí
+  - Generovat bitcoiny pro každého uživatele
 explanation: |
-  Bezpečnost veřejných a soukromých klíčů spočívá na problému diskrétního logaritmu, což je složitá matematická otázka.
+  Bitcoinová peněženka přímo neukládá bitcoiny, ale spravuje soukromé klíče nezbytné pro odemčení UTXO, které reprezentují bitcoiny.
 reviewed: false

@@ -1,9 +1,9 @@
 question: Was ist einer der Gründe, warum Bitcoin für bestimmte Gruppen attraktiv ist?
-answer: Seine Fähigkeit, Lösungen wie vertrauensloses elektronisches Bargeld, Widerstandsfähigkeit gegen Zensur oder eine transparente und unveränderliche Geldpolitik anzubieten.
+answer: Seine Fähigkeit, Lösungen wie vertrauensloses elektronisches Bargeld, Widerstand gegen Zensur oder eine transparente und unveränderliche Geldpolitik anzubieten.
 wrong_answers:
-  - Es ist leicht zu fälschen.
-  - Es wird von einer zentralen Autorität kontrolliert.
-  - Es ist nicht pseudonym.
-explanation: |
-  Die dezentrale Natur von Bitcoin, die Pseudonymität und der Widerstand gegen Zensur machen es attraktiv für Gruppen wie Technikbegeisterte, Cypherpunks, Libertäre und Gold-Enthusiasten.
-reviewed: false
+  - Es ist leicht zu fälschen und kann Lösungen schaffen, um mit einem einfachen Klick mehr Geld zu erhalten.
+  - Es wird von einer zentralen Autorität kontrolliert, die Kapital frei an die Nutzer verteilt.
+  - Es ist nicht pseudonym, sodass jeder Nutzer gut bekannt und vertrauenswürdig ist.
+explanation: >-
+  Die dezentrale Natur von Bitcoin, die Pseudonymität und der Widerstand gegen Zensur machen es für Gruppen wie Technikbegeisterte, Cypherpunks, Libertäre und Goldenthusiasten attraktiv.
+reviewed: true

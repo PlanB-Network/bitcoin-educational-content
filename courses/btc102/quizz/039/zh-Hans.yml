@@ -1,0 +1,9 @@
+question: 哪个用户配置文件经常通过美元平均成本法积累比特币？
+answer: 堆垛机
+wrong_answers:
+  - 锄地机
+  - 活跃用户
+  - 偏执狂
+explanation: |
+  堆垛机定期少量购买，以长期平均购买价格。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Solusi penyimpanan Cold apa yang direkomendasikan untuk pengguna yang paranoid?
+answer: Celah udara atau Hardware Wallet DIY atau DIY
+wrong_answers:
+  - Ponsel Hot Wallet
+  - Layanan kustodian pada platform Exchange
+  - Hardware Wallet sumber tertutup untuk keperluan umum
+explanation: |
+  Pengguna yang paranoid lebih menyukai penyimpanan offline dengan solusi sumber terbuka untuk meminimalkan risiko paparan.
+reviewed: false

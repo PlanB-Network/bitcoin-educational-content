@@ -1,0 +1,5 @@
+---
+term: AUSTRIAN SCHOOL
+
+---
+An economic school of thought that theorizes the market as a collection of voluntary individual interactions, emphasizes the spontaneity of the economic order, and criticizes state interventions. The Austrian School advocates for the role of private property, contractual freedom, and free trade, while criticizing the disruptive effects of monetary creation on the economy. Its contributors, such as Carl Menger, Ludwig von Mises, and Friedrich Hayek, have developed concepts such as price formation, the function of money, capital dynamics, and the subjective theory of value. The Austrian School criticizes socialism for its inability to perform efficient economic calculations and favors a liberal approach. It values the free market and sees state interventionism as a source of economic imbalances. Many Bitcoin enthusiasts adhere to these ideas, believing that Bitcoin represents a tool in harmony with this philosophy due to its distributed nature, the limitation of its monetary creation, and its ability to operate independently of state intervention.

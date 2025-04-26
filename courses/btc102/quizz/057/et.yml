@@ -1,0 +1,9 @@
+question: Millist omandamismeetodit paranoiline kasutaja väldib?
+answer: Tsentraliseeritud platvormid koos KYCiga
+wrong_answers:
+  - P2P matchi platvormid
+  - Bitcoin sularahaautomaadid
+  - Otsene sularaha ostmine kohtumistel
+explanation: |
+  Anonüümsuse säilitamiseks väldib paranoiline kasutaja platvorme, mis nõuavad identiteedi kontrollimist.
+reviewed: false

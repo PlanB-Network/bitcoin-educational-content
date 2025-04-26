@@ -1,0 +1,9 @@
+question: Hvilket verktøy lar deg overvåke Wallet uten å eksponere de private nøklene dine?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Lyn Wallet
+  - Vaktmester Wallet
+explanation: |
+  En Watch-only wallet bruker kun offentlige nøkler for å vise saldoer og transaksjoner, uten å risikere at private nøkler blir eksponert.
+reviewed: false

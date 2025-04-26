@@ -1,0 +1,8 @@
+question: Miten pakollinen solidaarisuus on vääränlaista solidaarisuutta?
+answer: Koska se johtaa antamiseen ei-vapaaehtoisella tavalla
+wrong_answers:
+  - Koska sitä ei aina päätetä demokraattisesti
+  - Koska se vaatii liikaa hallinnointia
+  - Koska sitä on vaikea soveltaa
+explanation: |
+  Pakotetun solidaarisuuden, Bastiat'n mukaan, ei voida todella pitää moraalisena, koska se määrää antamisen ilman vapaaehtoista suostumusta.

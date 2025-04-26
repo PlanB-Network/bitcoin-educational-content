@@ -1,0 +1,11 @@
+question: Blant de følgende svarene, hvilket er ikke en anbefalt praksis for å håndtere ens doxxiske endring?
+
+answer: Å slå sammen doxxiske UTXOer.
+
+wrong_answers:
+  - Å blande doxxiske UTXOer i en mindre pool.
+  - Å donere ens doxxiske UTXOer.
+  - Å merke ens doxxiske UTXOer som ikke-utgiftbare.
+
+explanation: |
+  Det frarådes å slå sammen doxxiske UTXOer fordi det tillater en forbindelse å bli laget mellom de forskjellige oppføringene til brukeren i Whirlpool.

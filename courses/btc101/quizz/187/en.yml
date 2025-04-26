@@ -1,11 +1,11 @@
 question: What is one advantage of accepting Bitcoin as a merchant?
-answer: Censorship resistance
+answer: Censorship resistance.
 wrong_answers:
-  - Increased transaction fees
-  - Protection against deflation
-  - Financial restriction
+  - Increased transaction fees.
+  - Protection against deflation.
+  - Financial restriction.
 explanation: >-
   Accepting Bitcoin as a merchant has several advantages, including censorship
   resistance, reduced transaction fees, increased efficiency, protection against inflation,
   as well as financial freedom and sovereignty.
-reviewed: false
+reviewed: true

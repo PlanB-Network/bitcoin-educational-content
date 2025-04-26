@@ -1,0 +1,9 @@
+question: Milline sügavus tuletusteel määrab valuuta tüübi?
+answer: Sügavus 2
+wrong_answers:
+  - Sügavus 1
+  - Sügavus 3
+  - Sügavus 4
+explanation: |
+  Sügavus 2 on kasutusel valuuta tuvastamiseks mitme valuutaga rahakottides, nagu Bitcoin (indeks 0') või Litecoin (indeks 2').
+reviewed: false

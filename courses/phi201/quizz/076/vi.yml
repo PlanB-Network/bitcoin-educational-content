@@ -1,0 +1,9 @@
+question: Sự khác biệt cơ bản giữa lý thuyết của Turgot và lý thuyết của Adam Smith về giá trị là gì?
+answer: Turgot tin rằng giá trị được quyết định bởi lao động, trong khi Smith tin rằng nó được quyết định bởi tính hữu ích.
+wrong_answers:
+  - Turgot tin rằng tự do thương mại là chính sách kinh tế tốt nhất trong khi Smith tin vào chủ nghĩa bảo hộ.
+  - Turgot tin rằng vai trò của nhà nước là để thị trường tự do trong khi Smith tin rằng chính phủ nên can thiệp vào nền kinh tế.
+  - Không có sự khác biệt cơ bản nào giữa lý thuyết của Turgot và Smith về giá trị.
+explanation: |
+  Turgot coi lao động là yếu tố quyết định chính của giá trị, trong khi Adam Smith đã đưa ra một khái niệm về giá trị được ảnh hưởng bởi tính hữu ích và nhu cầu, tiên đoán về kinh tế học chủ quan.
+reviewed: false

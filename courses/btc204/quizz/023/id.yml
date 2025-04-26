@@ -1,0 +1,9 @@
+question: Jika kita mengamati sebuah transaksi dengan 6 UTXO sebagai input dan hanya satu UTXO sebagai output, interpretasi apa yang dapat kita tarik?
+answer: Semua UTXO pada input dimiliki oleh pengguna yang sama, dan pengguna ini masih memiliki UTXO pada output.
+wrong_answers:
+  - UTXO pada input berasal dari pengguna yang berbeda yang berkolaborasi untuk satu transaksi.
+  - Semua UTXO pada input dimiliki oleh pengguna yang sama, dan yang di output sekarang dimiliki oleh pengguna lain.
+  - UTXO pada input berasal dari 2 pengguna yang berbeda, dan yang di output masih dimiliki oleh kedua pengguna tersebut.
+explanation: |
+  Kita kemungkinan berada dalam situasi konsolidasi. Oleh karena itu, ada kepemilikan bersama dari input dan output.
+reviewed: false

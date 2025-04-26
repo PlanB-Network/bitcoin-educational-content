@@ -1,9 +1,14 @@
-question: ¿Cómo funciona un grupo de minería y por qué es necesario?
-answer: Un grupo de minería es un conjunto de mineros que combinan sus recursos informáticos para aumentar sus posibilidades de minería. Esta cooperación es necesaria porque una máquina de minería pequeña y aislada compite contra gigantes de la industria, reduciendo sus posibilidades de éxito a un nivel insignificante. Al unir sus recursos informáticos, los mineros pueden encontrar bloques con más frecuencia y luego distribuir las recompensas proporcionalmente según la contribución de cada minero al grupo.
+question: ¿Cómo funciona un pool de minería y por qué es necesario?
+answer: Un pool de minería es un grupo de mineros que combinan sus recursos informáticos para aumentar sus posibilidades de minar. Esta cooperación es necesaria porque una pequeña máquina de minería aislada compite contra gigantes de la industria, reduciendo sus posibilidades de éxito a un nivel insignificante. Al unirse, los mineros pueden combinar su poder informático, encontrar bloques más frecuentemente y luego distribuir las recompensas proporcionalmente a la contribución de cada minero al pool.
 wrong_answers:
-  - Un grupo de minería es un conjunto de mineros que comparten la misma máquina de minería para aumentar sus posibilidades de minería. Esta cooperación es necesaria porque una sola máquina de minería solo puede extraer una cantidad limitada de Bitcoin.
-  - Un grupo de minería es un conjunto de mineros que comparten el mismo software de minería para aumentar sus posibilidades de minería. Esta cooperación es necesaria porque diferentes software de minería tienen diferentes eficiencias.
-  - Un grupo de minería es un conjunto de mineros que comparten la misma ubicación de minería para aumentar sus posibilidades de minería. Esta cooperación es necesaria porque la ubicación de la operación minera puede afectar la eficiencia de la minería.
+  - Un pool de minería es un grupo de mineros que comparten la misma máquina de minería para aumentar sus posibilidades de minar. Esta cooperación es necesaria porque una sola máquina de minería solo puede minar una cantidad limitada de Bitcoin.
+  - Un pool de minería es un grupo de mineros que comparten el mismo software de minería para aumentar sus posibilidades de minar. Esta cooperación es necesaria porque diferentes softwares de minería tienen diferentes eficiencias.
+  - Un pool de minería es un grupo de mineros que comparten la misma ubicación de minería para aumentar sus posibilidades de minar. Esta cooperación es necesaria porque la ubicación de la operación minera puede afectar la eficiencia de la minería.
 explanation: |
-  El capítulo explica que un grupo de minería es un conjunto de mineros que combinan sus recursos informáticos para aumentar sus posibilidades de minería. Esta cooperación es necesaria porque una máquina de minería pequeña y aislada compite contra gigantes de la industria, reduciendo sus posibilidades de éxito a un nivel insignificante.
-reviewed: false
+  El capítulo explica que un pool de minería es un grupo de
+  mineros que combinan sus recursos informáticos para aumentar
+  sus posibilidades de minar. Esta cooperación es necesaria
+  porque una pequeña máquina de minería aislada compite contra
+  gigantes de la industria, reduciendo sus posibilidades de éxito a
+  un nivel insignificante.
+reviewed: true

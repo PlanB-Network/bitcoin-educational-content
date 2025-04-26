@@ -1,0 +1,9 @@
+question: Yang mana yang merupakan sidechain Bitcoin?
+answer: Liquid dan Batang Bawah
+wrong_answers:
+  - Poligon dan Arbitrum
+  - Jupiter dan Fantom
+  - Bitcoin Tunai dan Bitcoin Satoshi Vision
+explanation: |
+  Liquid dan RSK adalah sidechain yang memiliki pasak 2 arah dengan Bitcoin. Opsi lainnya bukan merupakan sidechain, atau tidak memiliki 2WP dengan Bitcoin Blockchain.
+reviewed: false

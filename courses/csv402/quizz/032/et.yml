@@ -1,0 +1,9 @@
+question: Mida peaks Alice (saatja) tegema pärast Bobi arve saamist?
+answer: Luua PSBT koos oma UTXOga ja genereerida üleandmissaadetiste terminal
+wrong_answers:
+  - Allkirjastage Bitcoini tehing, mis kulutab oma UTXO, mis sisaldab ühekordset pitserit
+  - Importige saadetis oma rahakotti lepingu üksikasjade jaoks
+  - Väljastada uus arve vara väljastamise kohta
+explanation: |
+  Alice peab looma PSBT, et kulutada varaga seotud UTXO, seejärel genereerima terminalisaadetise, mis sisaldab uut üleminekut Bobile.
+reviewed: false

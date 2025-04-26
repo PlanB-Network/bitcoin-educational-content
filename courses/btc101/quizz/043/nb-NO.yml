@@ -1,0 +1,11 @@
+question: Hva er det historiske presedenset for bruk av fiat-valutaer?
+answer: Ledere som sentraliserer gull og introduserer en ny valuta tilsvarende i verdi til gull, som deretter gradvis blir devaluert.
+wrong_answers:
+  - Ledere som introduserer en ny valuta støttet av gull, som deretter gradvis øker i verdi.
+  - Ledere som introduserer en ny valuta uten iboende verdi, som deretter gradvis øker i verdi.
+  - Ledere som introduserer en ny valuta støttet av en kurv av varer, som deretter holdes stabil i verdi.
+explanation: |
+  Historisk sett har ledere sentralisert gull og introdusert en ny valuta
+  tilsvarende i verdi til gull. Denne nye valutaen blir deretter gradvis devaluert, ofte
+  under påskudd av å være i folkets interesse.
+reviewed: true

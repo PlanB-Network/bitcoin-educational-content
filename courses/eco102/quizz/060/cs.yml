@@ -1,0 +1,9 @@
+question: Jaký je hlavní problém s veřejnými výdaji podle Bastiata?
+answer: Často jsou plýtvány
+wrong_answers:
+  - Vytváří příliš mnoho pracovních míst
+  - Je to nespravedlivé vůči nejbohatším
+  - Je nezbytné pro fungování společnosti
+explanation: |
+  Bastiat považuje veřejné výdaje za zdroj plýtvání, protože prostředky odebrané jednotlivcům jsou často státem zneužívány.
+reviewed: false

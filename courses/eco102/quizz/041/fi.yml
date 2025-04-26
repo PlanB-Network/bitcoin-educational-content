@@ -1,0 +1,9 @@
+question: Mikä ongelma Bastiat tunnistaa työnsuojelu -argumentissa?
+answer: Kaikki nämä vastaukset ovat oikeita
+wrong_answers:
+  - Se on liian yksinkertaistettu eikä ota huomioon pitkän aikavälin seurauksia
+  - Se perustuu väärään käsitykseen taloudellisesta kilpailusta
+  - Sitä käytetään perustelemaan protektionistisia toimenpiteitä, jotka vahingoittavat kuluttajia
+explanation: |
+  Kaikki vastaukset ovat oikeita. Bastiat uskoo, että työnsuojeluargumentti on yksinkertaistettu, perustuu väärään näkemykseen kilpailusta, ja että se oikeuttaa protektionistisia toimenpiteitä kuluttajien vahingoksi.
+reviewed: false

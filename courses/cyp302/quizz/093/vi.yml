@@ -1,0 +1,9 @@
+question: Kích thước khối tiêu biểu cho mã hóa khối (block cipher) là bao nhiêu?
+answer: 64, 128, 192, hoặc 256 bit
+wrong_answers:
+  - 8, 16, 32, hoặc 64 bit
+  - 4, 8, 16, hoặc 32 bit
+  - 256, 512, 1024, hoặc 2048 bit
+explanation: |
+  Các thuật toán mã hóa khối xử lý dữ liệu theo các khối cố định, thường là 64, 128, 192, hoặc 256 bit, để đảm bảo an ninh và tính toàn vẹn tối ưu của việc mã hóa.
+reviewed: false

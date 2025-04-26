@@ -1,9 +1,0 @@
-question: ¿Qué solución P2P utiliza la Red Lightning para transacciones rápidas?
-answer: RoboSat
-wrong_answers:
-  - Bisq
-  - Peach
-  - HodlHodl
-explanation: |
-  El capítulo menciona que RoboSat utiliza la Red Lightning para habilitar transacciones rápidas.
-reviewed: false

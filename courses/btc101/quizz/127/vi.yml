@@ -1,11 +1,9 @@
 question: Mục đích của phí giao dịch trong các giao dịch Bitcoin là gì?
-answer: Chúng là một động lực để khuyến khích các thợ đào bao gồm giao dịch vào khối tiếp theo.
+answer: Chúng là một sự khích lệ cho các thợ đào để bao gồm giao dịch vào khối tiếp theo.
 wrong_answers:
-  - Đó là thuế do chính phủ áp đặt.
-  - Đó là phí mà mạng lưới Bitcoin tính cho việc sử dụng dịch vụ của họ.
-  - Đó là phí mà nhà cung cấp ví tính.
+  - Đó là một loại thuế do chính phủ áp đặt.
+  - Đó là một khoản phí do mạng lưới Bitcoin thu cho việc sử dụng dịch vụ của mình.
+  - Đó là một khoản phí do nhà cung cấp ví tính.
 explanation: |
-  Phí giao dịch trong các giao dịch Bitcoin đóng vai trò như một động lực cho các thợ đào
-  để bao gồm giao dịch vào khối tiếp theo. Phí tạo ra một thị trường tự do
-  cho việc bao gồm các giao dịch trong các khối.
-reviewed: false
+  Phí giao dịch trong các giao dịch Bitcoin đóng vai trò như một sự khích lệ cho các thợ đào để bao gồm giao dịch vào khối tiếp theo. Các khoản phí tạo ra một thị trường tự do cho việc bao gồm các giao dịch trong các khối.
+reviewed: true

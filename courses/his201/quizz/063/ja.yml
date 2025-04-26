@@ -1,0 +1,9 @@
+question: 2010年7月、ビットコインフォーラムで最初に設立された非英語のサブフォーラムはどの言語に捧げられたか？
+answer: ロシア語
+wrong_answers:
+  - フランス語
+  - ドイツ語
+  - イタリア語
+explanation: |
+  それは7月28日にMartti Malmiによって[設立されました](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241)。その後の数ヶ月で他の言語も追加されました。
+reviewed: false

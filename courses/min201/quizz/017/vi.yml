@@ -5,8 +5,5 @@ wrong_answers:
   - Nếu một quốc gia như Hoa Kỳ quyết định quản lý hoặc cấm việc đào Bitcoin, điều đó có thể dẫn đến việc tăng phần thưởng khối.
   - Nếu một quốc gia như Hoa Kỳ quyết định quản lý hoặc cấm việc đào Bitcoin, điều đó có thể dẫn đến việc tăng tốc độ giao dịch.
 explanation: |
-  Chương này giải thích rằng nếu một quốc gia như Hoa Kỳ quyết định
-  quản lý hoặc cấm một số giao dịch Bitcoin, điều đó có thể có tác động đáng kể
-  đến mạng lưới, đặc biệt là nếu một phần lớn sức mạnh băm tập trung
-  tại quốc gia đó.
-reviewed: false
+  Chương này giải thích rằng nếu một quốc gia như Hoa Kỳ quyết định quản lý hoặc cấm một số giao dịch Bitcoin, điều đó có thể có tác động đáng kể đến mạng lưới, đặc biệt là nếu một phần lớn sức mạnh băm tập trung tại quốc gia đó.
+reviewed: true

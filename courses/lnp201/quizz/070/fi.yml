@@ -1,9 +1,0 @@
-question: Mikä on tavoite reitittää transaktioita Lightning-verkossa?
-answer: Optimoida transaktioiden nopeus, turvallisuus ja tehokkuus samalla kun käyttäjän yksityisyys säilytetään.
-wrong_answers:
-  - Kasvattaa lohkoketjun kokoa.
-  - Hidastaa transaktioiden nopeutta.
-  - Vaarantaa käyttäjän yksityisyyden.
-explanation: |
-  Lightning-verkon transaktioiden reitityksen tavoitteena on optimoida transaktioiden nopeus, turvallisuus ja tehokkuus. Tämä saavutetaan ottamalla huomioon erilaiset tekijät, kuten maksut, HTLC:n vanhentumisaika, välisolmujen määrä ja satunnaisuustekijä. Samalla järjestelmä on suunniteltu säilyttämään käyttäjän yksityisyys siten, että se ei paljasta tarkkaa likviditeetin jakautumista.
-reviewed: false

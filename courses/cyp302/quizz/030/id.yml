@@ -1,0 +1,9 @@
+question: Apa perbedaan utama antara string acak dan string semuacak?
+answer: String acak berasal dari proses acak murni, sementara string semuacak dihasilkan oleh algoritma dari sebuah seed.
+wrong_answers:
+  - String semuacak hanya menggunakan bit 1.
+  - String acak selalu lebih panjang dari string semuacak karena ada aksi alami padanya.
+  - String semuacak didefinisikan oleh model biner yang ketat, sementara string acak didefinisikan oleh model heksadesimal yang ketat.
+explanation: |
+  String acak berasal dari proses acak langsung, sedangkan string semuacak diproduksi menggunakan algoritma ekspansi dan seed awal.
+reviewed: false

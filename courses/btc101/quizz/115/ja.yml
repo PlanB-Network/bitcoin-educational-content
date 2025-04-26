@@ -1,9 +1,9 @@
 question: Satoshi Nakamotoの後でBitcoinネットワークに参加した最初の人物は誰ですか？
-answer: Hal Finney
+answer: Hal Finney.
 wrong_answers:
-  - Laszlo Hanyecz
-  - Phil Champagne
-  - Rogzy
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Hal Finneyは、Satoshi Nakamoto自身の後でBitcoinネットワークに参加した最初の人物でした。彼はその機会を記念して「Running Bitcoin」とツイートしました。
-reviewed: true
+  Hal FinneyはSatoshi Nakamoto自身の後でBitcoinネットワークに参加した最初の人物でした。彼はその機会を記念してRunning Bitcoinとツイートしました。
+  レビュー済み: true

@@ -1,0 +1,5 @@
+---
+term: DUMMY ELEMENT
+
+---
+Viitab täiendavale ja mittevajalikule elemendile, mida opkoodid `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY` kasutavad tehingute allkirjade kontrollimisel. Ajaloolise off-by-one vea (unit shift error) tõttu eemaldavad need kaks opkoodi lisaks oma põhifunktsioonile veel ühe elemendi virnast. Vea vältimiseks on seetõttu kohustuslik lisada `scriptSig` algusse dummy-väärtus, et rahuldada eemaldamine ja vältida viga. Seda mittevajalikku väärtust nimetatakse "*dummy elemendiks*". BIP11, millega võeti kasutusele P2MS-standard, soovitas kasutada dummy-väärtusena `OP_0`. Kuid seda standardit ei jõustatud konsensusreeglite tasandil, mis tähendab, et sinna võis panna mis tahes väärtuse, ilma et tehing oleks kehtetu. Seega oli fiktiivne element tehingu muutlikkuse vektor. BIP147, mis võeti kasutusele koos SegWit soft forkiga, nõudis, et see dummy-element oleks rangelt tühi baidimassiiv (`OP_0`), kõrvaldades sellega selle elemendiga seotud moonutatavuse, muutes konsensusreeglite kohaselt iga mittevastava tehingu kehtetuks. Seda reeglit, mille nimi on `NULLDUMMY`, kohaldatakse nii SegWit- kui ka SegWit-eelsete tehingute suhtes.

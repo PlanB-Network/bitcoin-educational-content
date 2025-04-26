@@ -1,0 +1,8 @@
+question: Layanan intelijen federal AS mana yang mengundang Gavin Andresen pada April 2011 untuk mempresentasikan Bitcoin beberapa bulan kemudian?
+answer: CIA
+wrong_answers:
+  - FBI
+  - NSA
+  - DEA
+explanation: |
+  Lebih spesifik lagi, itu adalah In-Q-Tel, sebuah dana modal ventura Amerika yang dikelola oleh CIA, tetapi kunjungan memang terjadi di markas besar CIA.

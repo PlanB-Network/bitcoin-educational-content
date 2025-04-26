@@ -1,0 +1,9 @@
+question: Hvilken kommando eksporterer en kontrakt fra lageret til en ekstern fil?
+answer: rgb export '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - rgb nedlasting '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - rgb issue '<ContractId>' myContractPBN.rgb
+explanation: |
+  Kommandoen "rgb export" brukes til å trekke ut en kontrakt fra stash og lagre den som en fil for enkel deling.
+reviewed: false

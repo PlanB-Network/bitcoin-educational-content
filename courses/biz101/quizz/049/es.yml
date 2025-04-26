@@ -1,0 +1,9 @@
+question: ¿Qué ventaja clave tiene el papel moneda sobre las monedas en los sistemas de pago tradicionales?
+answer: Mayor portabilidad y eficacia
+wrong_answers:
+  - Aumento del valor intrínseco a través de los metales preciosos
+  - Verificación automática de cada transacción
+  - Eliminación completa de los riesgos de falsificación
+explanation: |
+  El papel moneda, al ser más ligero y fácil de transportar que las monedas, permitió un comercio a larga distancia más eficaz y redujo los problemas logísticos.
+reviewed: false

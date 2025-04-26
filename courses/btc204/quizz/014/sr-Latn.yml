@@ -1,0 +1,9 @@
+question: Koji je model privatnosti sistema Bitcoin?
+answer: Transakcije su javne, ali identitet korisnika nije poznat.
+wrong_answers:
+  - Samo Satoshi Nakamoto ima pristup detaljima transakcije.
+  - Transakcije su šifrovane i nevidljive na mreži.
+  - Samo vlade imaju pristup detaljima transakcija.
+explanation: |
+  U slučaju Bitcoin, pošto se tok informacija ne može prekinuti između transakcija i javnog domena, model privatnosti se oslanja na razdvajanje između identiteta korisnika i transakcija.
+reviewed: false

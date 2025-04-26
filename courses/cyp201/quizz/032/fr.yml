@@ -1,9 +1,9 @@
-question: Quelle est la signification de l'irréversibilité de la fonction ECDSA dans la sécurité des portefeuilles Bitcoin ?
-answer: Il est impossible de récupérer la clé privée à partir de la clé publique.
+question: Quel sighash flag permet de faire des financements participatifs en couvrant un seul input et tous les outputs ?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
 wrong_answers:
-  - Il est possible de récupérer la clé privée à partir de la clé publique.
-  - Il est possible de récupérer la clé publique à partir de la clé privée.
-  - Il est impossible de récupérer la clé publique à partir de la clé privée.
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
 explanation: |
-  La fonction ECDSA est irréversible, ce qui signifie qu'il est impossible de récupérer la clé privée à partir de la clé publique. Cette irréversibilité est la pierre angulaire de la sécurité des portefeuilles Bitcoin.
+  SIGHASH_ALL combiné avec SIGHASH_ANYONECANPAY permet d'ajouter des inputs sans modifier les outputs.
 reviewed: false

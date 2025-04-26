@@ -1,0 +1,13 @@
+question: Jaka jest główna zaleta korzystania z oprogramowania open-source?
+answer: Pozwala to zweryfikować, czy nie ma ukrytego dostępu do kradzieży danych osobowych.
+wrong_answers:
+  - Jest ona zawsze bezpłatna.
+  - Jest to zawsze bezpieczniejsze niż oprogramowanie o zamkniętym kodzie źródłowym.
+  - Jest ono zawsze bardziej przyjazne dla użytkownika niż oprogramowanie o zamkniętym kodzie źródłowym.
+explanation: |
+  Oprogramowanie open-source to oprogramowanie, którego kod jest znany i dostępny dla każdego
+  dostępny dla każdego. Pozwala to zweryfikować m.in
+  między innymi, że nie ma ukrytego dostępu do kradzieży danych
+  danych osobowych. Jednak nie zawsze jest ono darmowe, bezpieczniejsze lub
+  bardziej przyjazne dla użytkownika niż oprogramowanie o zamkniętym kodzie źródłowym.
+reviewed: true

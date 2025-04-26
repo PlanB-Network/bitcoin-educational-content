@@ -1,0 +1,10 @@
+question: Hva er rollen til aksiomer i østerriksk økonomisk resonnement?
+answer: Aksiomer er grunnleggende elementer som logiske slutninger kan utledes fra.
+wrong_answers:
+  - Aksiomer er irrelevant i østerriksk økonomisk resonnement.
+  - Aksiomer brukes til å etablere relasjoner mellom variabler basert på empiriske data.
+  - Aksiomer brukes til å bekrefte eller avkrefte hypoteser gjennom midlertidige eksperimenter.
+explanation: |
+  I østerriksk økonomisk resonnement spiller aksiomer en avgjørende rolle. De er
+  grunnleggende elementer som logiske slutninger kan utledes fra.
+reviewed: false

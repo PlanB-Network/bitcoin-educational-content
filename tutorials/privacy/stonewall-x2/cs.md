@@ -47,7 +47,7 @@ Logika by tedy měla být následující při použití nástroje Samourai pro v
 
 Pokud chcete najít spolupracovníka, který je ochoten vám pomoci v transakci Stonewall X2, můžete také navštívit tuto Telegramovou skupinu (neoficiální) udržovanou uživateli Samourai pro spojení odesílatelů a spolupracovníků: [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
-[**-> Dozvědět se více o transakcích Stonewall**](https://planb.network/tutorials/privacy/stonewall)
+[**-> Dozvědět se více o transakcích Stonewall**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Jaký je účel transakce Stonewall x2?
 

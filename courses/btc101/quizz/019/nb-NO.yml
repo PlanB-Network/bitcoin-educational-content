@@ -1,0 +1,11 @@
+question: Hva er de tre kanoniske funksjonene til penger?
+answer: Verdioppbevaring, Byttemiddel, Regningsenhet
+wrong_answers:
+  - Verdioppbevaring, Byttemiddel, Produksjonsmiddel
+  - Verdioppbevaring, Produksjonsmiddel, Regningsenhet
+  - Byttemiddel, Produksjonsmiddel, Regningsenhet
+explanation: |
+  Ifølge Aristoteles tjener penger tre funksjoner: de er en verdioppbevaring,
+  et byttemiddel, og en regningsenhet. Selv om det i dag er bredt akseptert at
+  byttemiddelet foregår de to andre funksjonene.
+reviewed: true

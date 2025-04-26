@@ -1,9 +1,15 @@
-question: ¿Cuál es la principal ventaja de ser dueño de tu propio equipo de minería?
-answer: Contribuir activamente a la seguridad de la red de Bitcoin y adquirir bitcoins vírgenes.
+question: ¿Cuál es la principal ventaja de poseer tu propio equipo de minería?
+answer: Adquirir bitcoins vírgenes.
 wrong_answers:
   - Evitar la necesidad de comprar Bitcoin directamente.
   - Obtener ganancias al vender el equipo más tarde.
   - Evitar la necesidad de confiar en otros mineros.
 explanation: |
-  Ser dueño de tu propio equipo de minería ofrece ventajas considerables. Además de la satisfacción personal de contribuir activamente a la seguridad de la red de Bitcoin y ver las recompensas caer en tu billetera, está el atractivo aspecto de los "bitcoins vírgenes". Estos son bitcoins recién minados que nunca han sido gastados y no tienen historial adjunto a ellos.
-reviewed: false
+  Poseer tu propio equipo de minería ofrece considerables
+  ventajas. Además de la satisfacción personal de
+  contribuir activamente a la seguridad de la red Bitcoin y ver
+  las recompensas caer en tu cartera, está el atractivo aspecto
+  de los bitcoins vírgenes. Estos son bitcoins recién minados
+  que nunca han sido gastados y no tienen ningún historial
+  asociado a ellos.
+reviewed: true

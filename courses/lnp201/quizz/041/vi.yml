@@ -1,11 +1,9 @@
-question: Sự khác biệt giữa giao dịch đóng và giao dịch cam kết trong một đóng cửa hợp tác là gì?
-answer: Giao dịch đóng không có Timelock và khóa thu hồi.
+question: Tại sao một nút truyền dữ liệu lại khó ước lượng chính xác lượng thanh khoản của một kênh?
+answer: Bởi vì chỉ có hai bên tham gia biết chính xác sự phân bổ của quỹ
 wrong_answers:
-  - Giao dịch đóng có Timelock và khóa thu hồi.
-  - Giao dịch đóng chậm hơn giao dịch cam kết.
-  - Giao dịch đóng tốn kém hơn giao dịch cam kết.
+  - Bởi vì tổng dung lượng của các kênh liên tục thay đổi
+  - Bởi vì phí của các nút trung gian không được công bố
+  - Bởi vì các kênh tự động đóng sau mỗi giao dịch
 explanation: |
-  Trong một đóng cửa hợp tác, hai bên đồng ý về trạng thái cuối cùng của
-  kênh và tạo ra một giao dịch đóng. Giao dịch này khác với giao dịch cam kết
-  vì nó không có Timelock và khóa thu hồi.
+  Sự phân bổ chính xác của quỹ trong một kênh chỉ có thể được nhìn thấy bởi hai nút tham gia, ngăn chặn các nút khác từ việc ước lượng lượng thanh khoản có sẵn cho việc định tuyến.
 reviewed: false

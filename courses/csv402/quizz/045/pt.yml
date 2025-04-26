@@ -1,0 +1,9 @@
+question: Que norma RGB é utilizada para definir fichas fungíveis?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  O RGB20 é a norma utilizada para criar e gerir tokens fungíveis através do protocolo RGB.
+reviewed: false

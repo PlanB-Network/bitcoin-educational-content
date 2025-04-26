@@ -1,0 +1,9 @@
+question: Je, mtindo wa pesa za kielektroniki wa eCash unategemea mchakato gani?
+answer: Saini za upofu
+wrong_answers:
+  - Saini za kikundi
+  - Saini za pete
+  - Saini za kizingiti
+explanation: |
+  eCash inategemea mchakato wa sahihi wa upofu, ambao huruhusu mtu aliyetia sahihi kusaini kitu bila kuona anachotia sahihi.
+reviewed: false

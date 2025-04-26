@@ -1,11 +1,9 @@
-question: Cosa è una chiusura forzata?
-answer: Un peer desidera chiudere il canale, ma l'altro peer non risponde, quindi il primo peer pubblica la transazione di impegno più recente.
+question: Come consente la tecnologia Keysend un trasferimento di fondi senza una fattura?
+answer: Il mittente genera un segreto negli HTLCs per sbloccare i fondi
 wrong_answers:
-  - Entrambi i peer concordano di chiudere il canale e creano una transazione di chiusura.
-  - Un peer cerca di imbrogliare pubblicando una vecchia transazione di impegno.
-  - Entrambi i peer lottano per i SAT rimanenti nel canale.
+  - Il destinatario genera un hash per convalidare il trasferimento
+  - Il pagamento è convalidato attraverso un canale diretto tra mittente e destinatario
+  - I fondi sono accreditati direttamente senza sicurezza aggiuntiva
 explanation: |
-  Una chiusura forzata avviene quando un peer desidera chiudere il canale, ma
-  l'altro peer non risponde perché è offline. Il primo peer pubblica quindi
-  la transazione di impegno più recente.
+  Keysend consente al mittente di generare un segreto incorporato negli HTLCs, permettendo al destinatario di sbloccare i fondi senza aver emesso una fattura.
 reviewed: false

@@ -1,10 +1,10 @@
-question: Node gọt tỉa trong ngữ cảnh của Bitcoin là gì?
-answer: Một node chỉ giữ lại N khối cuối cùng trong bộ nhớ
+question: Node cắt tỉa trong bối cảnh của Bitcoin là gì?
+answer: Một node chỉ giữ lại N khối cuối cùng trong bộ nhớ.
 wrong_answers:
-  - Một node chỉ xác nhận các giao dịch
-  - Một node chỉ truyền thông tin cho các node khác
-  - Một node chỉ thực thi các quy tắc của giao thức Bitcoin
+  - Một node chỉ xác nhận các giao dịch.
+  - Một node chỉ truyền thông tin cho các node khác.
+  - Một node chỉ thực thi các quy tắc của giao thức Bitcoin.
 explanation: >-
-  Một node gọt tỉa trong ngữ cảnh của Bitcoin là một node chỉ giữ lại
+  Một node cắt tỉa trong bối cảnh của Bitcoin là một node chỉ giữ lại
   N khối cuối cùng trong bộ nhớ.
-reviewed: false
+reviewed: true

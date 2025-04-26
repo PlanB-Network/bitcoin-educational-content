@@ -5,7 +5,7 @@ wrong_answers:
   - Indirect exchange facilitated by barter.
   - Direct exchange facilitated by money.
 explanation: |
-  Money allows for indirect exchange, where an individual can buy from
-  another, and the seller can use that monetary unit elsewhere, at another time, and
-  with someone else.
-reviewed: false
+  Money allows for indirect exchange, where an individual can
+  buy from another, and the seller can use that monetary unit
+  elsewhere, at another time, and with someone else.
+reviewed: true

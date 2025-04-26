@@ -1,0 +1,14 @@
+question: Bagaimana cara kerja kolam penambangan dan mengapa hal itu diperlukan?
+answer: Kolam penambangan adalah sekelompok penambang yang menggabungkan sumber daya komputasi mereka untuk meningkatkan peluang mereka dalam penambangan. Kerjasama ini diperlukan karena mesin penambangan kecil yang terisolasi bersaing dengan raksasa industri, mengurangi peluang keberhasilannya menjadi sangat kecil. Dengan bergabung bersama, penambang dapat menggabungkan kekuatan komputasi mereka, menemukan blok lebih sering, dan kemudian mendistribusikan hadiah secara proporsional kepada kontribusi setiap penambang ke dalam kolam.
+wrong_answers:
+  - Kolam penambangan adalah sekelompok penambang yang berbagi mesin penambangan yang sama untuk meningkatkan peluang mereka dalam penambangan. Kerjasama ini diperlukan karena satu mesin penambangan hanya dapat menambang jumlah Bitcoin yang terbatas.
+  - Kolam penambangan adalah sekelompok penambang yang berbagi perangkat lunak penambangan yang sama untuk meningkatkan peluang mereka dalam penambangan. Kerjasama ini diperlukan karena berbagai perangkat lunak penambangan memiliki efisiensi yang berbeda.
+  - Kolam penambangan adalah sekelompok penambang yang berbagi lokasi penambangan yang sama untuk meningkatkan peluang mereka dalam penambangan. Kerjasama ini diperlukan karena lokasi operasi penambangan dapat mempengaruhi efisiensi penambangan.
+explanation: |
+  Bab ini menjelaskan bahwa kolam penambangan adalah sekelompok
+  penambang yang menggabungkan sumber daya komputasi mereka untuk meningkatkan
+  peluang mereka dalam penambangan. Kerjasama ini diperlukan
+  karena mesin penambangan kecil yang terisolasi bersaing
+  dengan raksasa industri, mengurangi peluang keberhasilannya menjadi
+  sangat kecil.
+reviewed: true

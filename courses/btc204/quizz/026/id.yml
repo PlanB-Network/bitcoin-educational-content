@@ -1,0 +1,9 @@
+question: Di antara jawaban-jawaban ini, mana yang bukan salah satu dari 3 risiko utama bagi pengguna yang menjalani KYC?
+answer: Ketidakfungsian bitcoin yang dibeli
+wrong_answers:
+  - Paparan terhadap pengawasan negara
+  - Fasilitasi pelacakan onchain
+  - Risiko kebocoran data
+explanation: |
+  KYC melibatkan risiko kebocoran data karena informasi Anda disimpan, risiko paparan terhadap pengawasan negara karena informasi Anda dapat ditransmisikan atau disita, dan risiko pelacakan, karena KYC dapat berfungsi sebagai titik masuk. Namun, KYC tidak mengurangi fungibilitas bitcoin yang dibeli.
+reviewed: false

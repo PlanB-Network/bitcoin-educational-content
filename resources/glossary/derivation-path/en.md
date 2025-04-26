@@ -18,4 +18,4 @@ For example, if my receiving address has the derivation path `m / 86' / 0' / 0' 
 * `0` indicates that it is an external address;
 * `5` indicates that it is the sixth external address of this account.
 
-![](../../dictionnaire/assets/18.png)
+![](../../dictionnaire/assets/18.webp)

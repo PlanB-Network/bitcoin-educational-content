@@ -1,9 +1,12 @@
-question: ¿Por qué no puede todo el mundo usar la misma billetera de Bitcoin?
-answer: Porque diferentes individuos tienen diferentes casos de uso.
+question: ¿Qué impide que todos usen la misma cartera de Bitcoin?
+answer: Diferentes individuos necesitan diferentes casos de uso.
 wrong_answers:
-  - Porque es costoso usar una billetera de Bitcoin.
-  - Porque es ilegal usar una billetera de Bitcoin.
-  - Porque las personas nunca se pondrán de acuerdo en el nombre de dicha billetera.
+  - Es caro usar una cartera de Bitcoin.
+  - Es ilegal usar una cartera de Bitcoin.
+  - La gente nunca se pondrá de acuerdo sobre el nombre de tal cartera.
 explanation: |
-  Mientras que una persona puede priorizar la seguridad, otra puede valorar la facilidad de uso o características específicas. Por lo tanto, una única billetera de Bitcoin puede no satisfacer los requisitos de todos, lo que hace necesario que existan múltiples opciones de billetera.
-reviewed: false
+  Mientras que una persona podría priorizar la seguridad, otra podría
+  valorar la facilidad de uso o características específicas. Por lo tanto, una
+  sola cartera de Bitcoin podría no satisfacer los requisitos de todos,
+  haciendo necesario que existan múltiples opciones de carteras.
+reviewed: true

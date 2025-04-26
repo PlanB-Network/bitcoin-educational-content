@@ -1,0 +1,9 @@
+question: ¿Qué es una asignación en el protocolo RGB?
+answer: Una salida que modifica, actualiza o crea propiedades en el estado de un contrato
+wrong_answers:
+  - Un compromiso criptográfico único almacenado en una transacción Bitcoin
+  - Una transacción Bitcoin firmada parcialmente antes de la validación final
+  - Una actualización pública del Estado Global
+explanation: |
+  Una Asignación combina una Definición de Sello y un Estado Propio para representar una porción asignada del estado.
+reviewed: false

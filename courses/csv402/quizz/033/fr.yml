@@ -1,0 +1,9 @@
+question: Quel est l’objectif du terminal consignment dans le processus de transfert RGB ?
+answer: Fournir l’historique des State Transitions
+wrong_answers:
+  - Valider la Genesis du contrat
+  - Supprimer les anciennes Transitions
+  - Générer un nouveau Schema pour le transfert
+explanation: |
+  Le terminal consignment rassemble l’historique du contrat afin de prouver la légitimité de l'actif transféré jusqu’à présent.
+reviewed: false

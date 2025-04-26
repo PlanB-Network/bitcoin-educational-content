@@ -1,5 +1,5 @@
 ---
-name: ZEUS
+name: Zeus
 
 description: Configuração da carteira Zeus
 ---

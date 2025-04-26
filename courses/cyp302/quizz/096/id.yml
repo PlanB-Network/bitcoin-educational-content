@@ -1,0 +1,8 @@
+question: Apa tiga langkah dasar dalam skema MAC?
+answer: Pembuatan kunci, pembuatan tag, verifikasi
+wrong_answers:
+  - Enkripsi, dekripsi, transmisi
+  - Pembuatan kunci publik, enkripsi kunci privat, validasi
+  - Peng-hashing-an pesan, enkripsi tag, distribusi tag
+explanation: |
+  Skema MAC terdiri dari tiga langkah utama: menghasilkan sebuah kunci rahasia, memproduksi sebuah tag untuk pesan, dan memverifikasi bahwa pesan yang diterima dan tag-nya cocok.

@@ -1,0 +1,9 @@
+question: Quale operazione viene tipicamente utilizzata per combinare il keystream e il messaggio in un cifrario a flusso?
+answer: XOR
+wrong_answers:
+  - Moltiplicazione
+  - Spostamento modulare
+  - Sostituzione di ogni lettera
+explanation: |
+  In un cifrario a flusso, l'operazione XOR è generalmente utilizzata per combinare il keystream con il messaggio perché è semplice e reversibile.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Hva skjer i et 51% angrep på Bitcoin-nettverket?
+answer: En aktør besitter mer enn halvparten av hashraten og kan forsøke å modifisere blokkjeden.
+wrong_answers:
+  - En aktør får kontroll over mer enn halvparten av bitcoinene i omløp.
+  - En aktør får kontroll over mer enn halvparten av nodene i Bitcoin-nettverket.
+  - En aktør får kontroll over mer enn halvparten av gruvebassengene i Bitcoin-nettverket.
+explanation: >-
+  I et 51% angrep kan en aktør med mer enn halvparten av nettverkets hashrate
+  potensielt manipulere blokkjeden ved å skape en alternativ kjede av blokker.
+  Imidlertid ville et slikt angrep være ekstremt kostbart og usannsynlig å være lønnsomt,
+  noe som gjør det til et usannsynlig scenario.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Según Tocqueville, ¿cuál es la consecuencia de la igualación de condiciones?
+answer: Los individuos se vuelven más frágiles y aislados.
+wrong_answers:
+  - Los individuos se vuelven más autónomos e independientes.
+  - Los individuos se vuelven más ricos y prósperos.
+  - Hay menos violencia.
+explanation: |
+  Tocqueville observa que la igualación de condiciones puede llevar a los individuos a retraerse en sí mismos, haciéndolos más vulnerables y aislados, ya que pierden los lazos sociales y el apoyo colectivo previamente proporcionados por las jerarquías tradicionales.
+reviewed: false

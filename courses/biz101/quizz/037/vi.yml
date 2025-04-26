@@ -1,0 +1,9 @@
+question: What is one key advantage of the Bitcoin payments ecosystem in terms of switching between solutions?
+answer: It’s relatively easy to change providers or upgrade tools, because Bitcoin’s open, interoperable standards allow for seamless fund transfers.
+wrong_answers:
+  - Once a provider is chosen, the business can never switch to another solution.
+  - Bitcoin solutions are proprietary and locked to a single vendor.
+  - Changing providers requires government approval and a lengthy legal process.
+explanation: |
+  Since Bitcoin is built on open protocols, merchants are free to move their funds or adopt new solutions as they grow or their needs change. This flexibility ensures businesses can select the best tools without vendor lock-in.
+reviewed: false

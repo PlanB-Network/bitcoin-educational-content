@@ -1,0 +1,9 @@
+question: Šta promena predstavlja u transakciji?
+answer: Izlaz koji se vraća originalnom pošiljaocu transakcije.
+wrong_answers:
+  - Naknada koju uzima mreža Bitcoin.
+  - Izlaz prenet primaocu transakcije.
+  - Bonus dodeljen pošiljaocu za brze transakcije.
+explanation: |
+  Promena je izlaz koji predstavlja deo ulaza koji nije iskorišćen za ispunjenje plaćanja, i stoga se vraća originalnom pošiljaocu transakcije.
+reviewed: false

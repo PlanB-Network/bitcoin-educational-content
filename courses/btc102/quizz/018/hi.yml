@@ -1,0 +1,9 @@
+question: Bitcoin का Genesis ब्लॉक किस साल बनाया गया था?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  जीडब्ल्यू-3 ब्लॉक, जो जीडब्ल्यू-2 का पहला ब्लॉक है, जनवरी 2009 में माइन किया गया था।
+reviewed: false

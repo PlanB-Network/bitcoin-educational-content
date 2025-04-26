@@ -1,0 +1,9 @@
+question: Quel est le problème principal de la dépense publique selon Bastiat ?
+answer: Elle est souvent gaspillée
+wrong_answers:
+  - Elle crée trop d'emplois
+  - Elle est injuste pour les plus riches
+  - Elle est nécessaire pour le fonctionnement de la société
+explanation: |
+  Bastiat considère la dépense publique comme une source de gaspillage, car les fonds confisqués aux individus sont souvent mal utilisés par l'État.
+reviewed: false

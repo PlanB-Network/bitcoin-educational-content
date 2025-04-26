@@ -1,11 +1,13 @@
 question: What is the Declaration of the Independence of Cyberspace?
 answer: A text asserting that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws.
 wrong_answers:
-  - A declaration of the independence of Bitcoin from traditional financial systems.
-  - A text asserting that the internet should be free from government regulation.
-  - A declaration of the independence of the pirate movement from any regulation.
+  - A declaration stating the independence of Bitcoin from traditional financial systems.
+  - A text asserting that cyberspace should be controlled by government regulation.
+  - A declaration that vouches for the independence of the pirate movement from any regulation.
 explanation: |
-  The Declaration of the Independence of Cyberspace was written by John
-  Perry Barlow in 1996, asserting that and asserts that cyberspace is a distinct realm from the physical
-  sphere in which industrial governments can not enforced their authority.
+  The Declaration of the Independence of Cyberspace was
+  written by John Perry Barlow in 1996. This document asserts
+  that cyberspace is a distinct realm from the physical
+  sphere, so industrial governments cannot enforce their
+  authority there.
 reviewed: true

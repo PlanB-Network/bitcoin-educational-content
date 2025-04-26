@@ -1,0 +1,9 @@
+question: Bagaimana Lightning Network membantu mengurangi biaya transaksi Bitcoin?
+answer: Dengan melakukan sebagian besar transaksi di luar rantai dan hanya mempublikasikan transaksi penyelesaian saluran di blockchain utama.
+wrong_answers:
+  - Dengan menghapus semua verifikasi kriptografi dari pembayaran.
+  - Dengan memusatkan kontrol di satu pusat pembayaran yang besar.
+  - Dengan mengharuskan pedagang membayar semua biaya jaringan di muka.
+explanation: |
+  Karena transaksi Lightning terjadi secara off-chain, hanya status saluran akhir yang diselesaikan di blockchain Bitcoin. Hal ini mengurangi kemacetan dan dengan demikian menurunkan biaya dengan menghindari banyak transaksi on-chain.
+reviewed: false

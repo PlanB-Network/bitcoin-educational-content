@@ -1,0 +1,13 @@
+question: Hva er nytten av en smart kontrakt i en hemmelig eiendomsutveksling?
+
+answer: Å samtidig og systematisk avsløre informasjon som tillater begge parter å hente den andres midler.
+
+wrong_answers:
+  - Sikre konfidensialitet ved å kryptere eiendomsinformasjon slik at bare den legitime mottakeren kan dekryptere den.
+  - Automatisere overføringsprosessen for å minimere menneskelige interaksjoner og redusere feil.
+  - Lete tvisteløsning ved å holde bitcoins fra begge parter i tilfelle forsøk på juks.
+
+explanation: |
+  For å muliggjøre utvekslinger mellom parter som ikke stoler på hverandre, brukes smart kontraktsystemer. En smart kontrakt er et program som automatisk utfører når forhåndsdefinerte betingelser er oppfylt, som i vårt tilfelle sikrer at eiendomsutvekslingen utføres automatisk uten å kreve gjensidig tillit. Den smarte kontrakten tillater samtidig avsløring av to sensitive informasjonsstykker mellom deltakerne. Enten utføres den normalt, og hver part henter den andres midler, eller den mislykkes, og alle beholder sine opprinnelige midler.
+
+reviewed: false

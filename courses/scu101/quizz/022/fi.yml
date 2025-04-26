@@ -1,9 +1,12 @@
-question: Mikä on suositeltu käytäntö USB-tikun liittämisessä tietokoneeseesi?
+question: Mikä on suositeltu toimintatapa USB-tikun liittämisessä tietokoneeseesi?
 answer: Älä liitä tuntemattomia tai epäilyttäviä USB-tikkuja.
 wrong_answers:
   - Liitä mikä tahansa USB-tikku tarkistamatta.
   - Formatoi aina USB-tikku ennen liittämistä.
   - Liitä USB-tikku ja tarkista sitten virukset.
 explanation: |
-  Tuntemattomien tai epäilyttävien USB-tikkujen liittäminen voi altistaa järjestelmän haittaohjelmille, jotka voivat käynnistyä automaattisesti liittämisen yhteydessä. USB-tikun tarkistaminen on hyödytöntä, kun se on jo liitetty.
-reviewed: false
+  Tuntemattomien tai epäilyttävien USB-tikkujen liittäminen voi altistaa
+  järjestelmän haittaohjelmille, jotka voivat käynnistyä automaattisesti
+  liittämisen yhteydessä. USB-tikun tarkistaminen on hyödytöntä, kun se on
+  jo liitetty.
+reviewed: true

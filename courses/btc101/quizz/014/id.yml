@@ -1,0 +1,10 @@
+question: Apa itu proyek DigiCash?
+answer: Sebuah upaya untuk menciptakan uang elektronik anonim oleh David Chaum.
+wrong_answers:
+  - Sebuah proyek untuk menciptakan dompet digital untuk Bitcoin.
+  - Sebuah proyek untuk mendigitalkan semua uang fisik.
+  - Sebuah proyek untuk menciptakan mata uang kripto berbasis Bitcoin.
+explanation: |
+  David Chaum memperkenalkan konsep uang elektronik anonim dengan
+  proyeknya DigiCash pada tahun 1980-an.
+reviewed: true

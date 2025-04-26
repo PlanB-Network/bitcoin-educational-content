@@ -1,0 +1,9 @@
+question: Koje svojstvo mora imati Hash funkcija da bi se osigurala bezbednost tokom verifikacije softvera?
+answer: Otpornost na koliziju
+wrong_answers:
+  - Reverzibilnost
+  - Operabilnost sa asimetričnim ključevima
+  - Generabilnost u realnom vremenu
+explanation: |
+  Otpornost na kolizije osigurava da je praktično nemoguće pronaći dva različita ulaza koja proizvode isti Hash, što je važno za verifikaciju da softver nije bio izmenjen.
+reviewed: false

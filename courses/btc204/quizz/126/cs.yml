@@ -1,0 +1,13 @@
+question: Jaká kryptografická metoda může být použita při coinswapu k zajištění bezpečnosti výměny bez potřeby důvěry?
+
+answer: Adaptor Signatures
+
+wrong_answers:
+  - Symetrické šifrování
+  - ECDH
+  - Asymetrické šifrování
+
+explanation: |
+  Pro provedení coinswapu lze použít HTLC nebo PTLC. Tyto dva protokoly fungují podobným způsobem pomocí systému s časovým zámkem, který zajišťuje, že výměna je buď úspěšně dokončena, nebo plně zrušena, což chrání integritu finančních prostředků obou stran. Hlavní rozdíl mezi HTLC a PTLC je, že HTLC používá hashe a preimages k zabezpečení transakce, zatímco PTLC používá Adaptor Signatures.
+
+reviewed: false

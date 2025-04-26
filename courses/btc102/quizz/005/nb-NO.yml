@@ -1,0 +1,9 @@
+question: Hvorfor anbefales tofaktorautentisering?
+answer: Det gir en ekstra Layer av sikkerhet
+wrong_answers:
+  - Det forenkler tilgangen ved å redusere antall koder
+  - Den tillater pålogging uten passord
+  - Den erstatter bruken av en passordbehandler
+explanation: |
+  2FA krever en midlertidig kode i tillegg til passordet, noe som styrker beskyttelsen av en nettkonto betraktelig.
+reviewed: false

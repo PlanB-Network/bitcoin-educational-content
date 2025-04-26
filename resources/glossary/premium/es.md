@@ -1,0 +1,9 @@
+---
+term: PREMIUM
+
+---
+Cantidad adicional que se paga sobre el precio estándar o nominal de un activo. En el contexto de Bitcoin, puede observarse una prima al realizar compras, especialmente en plataformas de intercambio, que a veces pueden utilizar esta técnica para obtener sus márgenes en el servicio de intermediación.
+
+Esta noción de prima también puede encontrarse en las compras de BTC entre pares. En efecto, la compra de bitcoins no CSC conlleva a menudo una prima con respecto al precio estándar del mercado, que puede variar entre el 1% y a veces más del 10%. Varias razones explican esta diferencia de precio. En primer lugar, es una práctica común entre los vendedores P2P que se ha establecido con el tiempo. En segundo lugar, los vendedores tienen comisiones de transacción asociadas al envío de fondos al comprador. También existe un mayor riesgo de robo en las ventas P2P en comparación con las transacciones en plataformas reguladas, lo que justifica una compensación por el riesgo asumido. Por último, el recargo puede estar relacionado con la demanda y la calidad del intercambio en términos de confidencialidad. Como comprador, la ganancia en confidencialidad tiene un precio que se refleja en el recargo aplicado por el vendedor. Algunos bitcoiners también creen que el precio más alto del BTC comprado en P2P refleja su verdadero valor, y argumentan que los precios más bajos en las plataformas reguladas son el resultado de un compromiso en la confidencialidad de sus datos personales.
+
+> ► *Generalmente, incluso en francés, se utiliza el término inglés "premium". Su traducción podría ser "majoration".*

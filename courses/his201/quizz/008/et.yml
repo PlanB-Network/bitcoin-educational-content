@@ -1,0 +1,9 @@
+question: Mis oli e-gold?
+answer: Digitaalne valuuta, mida toetas samaväärne kogus kulda, mis oli hoiustatud seifis
+wrong_answers:
+  - Valuutaühik World of Warcrafti universumis
+  - Digitaalse valuuta kontseptsioon, mille emiteerimine põhines töötõendusel
+  - Online vahetussüsteem kullaehete jaoks
+explanation: |
+  Süsteemi kaasasutasid Douglas Jackson ja Barry Downey 1996. aastal ning see oli kättesaadav lihtsa veebibrauseri kaudu.
+reviewed: false

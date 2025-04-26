@@ -1,0 +1,9 @@
+question: Mis on esimene samm kahe osaleja vahelise Lightning kanali avamisel?
+answer: Sõnumite vahetamine, mis sisaldavad summasid ja avalikke võtmeid
+wrong_answers:
+  - Kohe hoiustamistehingu avaldamine plokiahelas
+  - 2/2 multisignatuuri aadressi loomine ilma eelneva vahetuseta
+  - Tagasivõtmistehingu allkirjastamine enne avalike võtmete vahetust
+explanation: |
+  Kanali avamine algab sõnumite vahetusega kahe poole vahel, kus nad jagavad summasid, mida nad soovivad panustada, ja oma avalikke võtmeid.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa model privasi dari sistem perbankan?
+answer: Hanya bank yang memiliki akses ke detail transaksi.
+wrong_answers:
+  - Transaksi bersifat publik, tetapi identitas pengguna tidak diketahui.
+  - Transaksi bersifat anonim dan tersembunyi dari semua orang, termasuk bank.
+  - Hanya pemerintah yang memiliki akses ke detail transaksi.
+explanation: |
+  Dalam sistem tradisional, setiap rekening bank dikaitkan dengan sebuah identitas. Namun, aliran informasi diputus antara bank dan domain publik.
+reviewed: false

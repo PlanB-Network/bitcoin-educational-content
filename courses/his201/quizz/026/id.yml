@@ -1,0 +1,8 @@
+question: Apa elemen yang hilang dari desain Bitcoin pada 31 Oktober 2008?
+answer: Jumlah unit yang terbatas
+wrong_answers:
+  - Bukti kerja
+  - Verifikasi pembayaran yang disederhanakan
+  - Blockchain
+explanation: |
+  Kebijakan moneter awal sesuai dengan penerbitan konstan (X BTC/blok) seperti yang ditunjukkan oleh versi pertama dari white paper dan [pertukaran](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) Satoshi dengan Ray Dillinger.

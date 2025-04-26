@@ -1,0 +1,13 @@
+question: Mida näitab entroopia Bitcoin'i ahela analüüsi kontekstis?
+
+answer: Analüütikute teadmiste puudumine tehingu täpsest konfiguratsioonist.
+
+wrong_answers:
+  - Kiirus, millega teave tehingu kohta võrgus levib.
+  - Krüptograafilise turvalisuse tase, mida kasutatakse tehingus digitaalallkirjade jaoks.
+  - Identsete UTXOde grupi suurus, milles münt on peidetud.
+
+explanation: |
+  Entroopiat kasutatakse mõõtmaks analüütikute teadmiste puudumist tehingu täpsest konfiguratsioonist. Teisisõnu, mida kõrgem on entroopia, seda raskemaks muutub analüütikutel tuvastada bitcoini vahendeid sisendite ja väljundite vahel.
+
+reviewed: false

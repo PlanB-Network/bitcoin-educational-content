@@ -1,9 +1,12 @@
-question: Qual è la pratica consigliata quando si inserisce una chiavetta USB nel computer?
+question: Qual è la pratica consigliata quando si inserisce una chiavetta USB nel proprio computer?
 answer: Non inserire chiavette USB sconosciute o sospette.
 wrong_answers:
-  - Inserire qualsiasi chiavetta USB senza controllare.
+  - Inserire qualsiasi chiavetta USB senza controllarla.
   - Formattare sempre la chiavetta USB prima di inserirla.
   - Inserire la chiavetta USB e poi controllare la presenza di virus.
 explanation: |
-  L'inserimento di chiavette USB sconosciute o sospette può esporre il sistema a programmi dannosi che possono avviarsi automaticamente una volta inseriti. Controllare la chiavetta USB sarà inutile una volta che è stata inserita.
-reviewed: false
+  Inserire chiavette USB sconosciute o sospette può esporre il
+  sistema a programmi malevoli che possono avviarsi automaticamente
+  all'inserimento. Controllare la chiavetta USB sarà inutile una volta
+  che è stata inserita.
+reviewed: true

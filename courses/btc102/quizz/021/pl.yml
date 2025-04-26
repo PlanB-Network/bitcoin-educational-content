@@ -1,0 +1,9 @@
+question: Jakie są główne implikacje polityczne Bitcoin?
+answer: Ograniczenie kontroli państwa nad pieniędzmi
+wrong_answers:
+  - Rosnąca centralizacja bankowości
+  - Promowanie inflacji
+  - Wzmocnienie regulacji finansowych
+explanation: |
+  Bitcoin jest alternatywą, która osłabia władzę instytucji państwowych nad pieniędzmi poprzez seigniorage i cenzurę transakcji.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Comment les engagements cryptographiques (via Taproot ou OP_RETURN) sont-ils utilisés dans RGB ?
+answer: Ils ancrent les transitions d'état dans la blockchain
+wrong_answers:
+  - Ils stockent les données des contrats sur la blockchain
+  - Ils remplacent la validation client-side par une exécution de smart contracts on-chain
+  - Ils permettent de créer des nœuds pour la vérification des transactions
+explanation: |
+  Les engagements permettent de lier de manière sécurisée les mises à jour d'état à un UTXO, afin de prouver l’existence d’une certaine information à un instant donné, sans dévoiler cette information elle-même.
+reviewed: false

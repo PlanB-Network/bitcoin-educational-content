@@ -1,0 +1,8 @@
+question: 2009年1月比特币创世区块中包含了哪家英国报纸的头条？
+answer: 泰晤士报
+wrong_answers:
+  - 卫报
+  - 独立报
+  - 电讯报
+explanation: |
+  精确的铭文是“The Times 03/Jan/2009 Chancellor on brink of second bailout for banks”（《泰晤士报》2009年1月3日 财政大臣处于第二次为银行救助的边缘）。

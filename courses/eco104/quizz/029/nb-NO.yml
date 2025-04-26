@@ -1,0 +1,12 @@
+question: Hva er en av motivasjonene bak at Bitcoin forbruker energi gjennom mining?
+answer: For å tilby en kraftig forsvarsmekanisme mot sentralisering
+wrong_answers:
+  - For å gjøre Bitcoin dyrere i bruk
+  - For å redusere verdien ved å øke energikostnadene
+  - For å avskrekke nye brukere fra å bli med i nettverket
+explanation: |
+  En av grunnene til at Bitcoin forbruker energi gjennom mining er for å 
+  tilby en kraftig forsvarsmekanisme mot sentralisering og 
+  urimelig manipulasjon. Det distribuerte nettverket av minere hjelper med å forhindre 
+  at sentraliserte enheter tar over nettverket eller manipulerer reglene til sin fordel.
+reviewed: true

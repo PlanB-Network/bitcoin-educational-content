@@ -5,8 +5,10 @@ wrong_answers:
   - To prevent the site from remembering your login information.
   - To prevent the site from showing you targeted ads.
 explanation: |
-  Cookies are files created by websites to store information on your device.
-  While some sites require these cookies to function properly, they can also be exploited
-  by third-party sites, especially for advertising tracking purposes. Deleting cookies
-  after each visit to a site can help prevent this.
-reviewed: false
+  Cookies are files created by websites to store information
+  on your device. While some sites require these cookies to
+  function properly, they can also be exploited by
+  third-party sites, especially for advertising tracking
+  purposes. Deleting cookies after each visit to a site can
+  help prevent this.
+reviewed: true

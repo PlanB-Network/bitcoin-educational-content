@@ -1,9 +1,9 @@
-question: Điều gì quyết định liệu một giao dịch có thể được thực hiện trong một kênh thanh toán Lightning không?
-answer: Người gửi tiền phải có đủ Bitcoin ở phía của họ trong kênh
+question: Trong một kênh thanh toán, sức chứa của kênh là gì?
+answer: Tổng số tiền mà hai bên tham gia có thể trao đổi
 wrong_answers:
-  - Tổng dung lượng của kênh phải đủ để chi trả cho giao dịch
-  - Người nhận tiền phải có đủ Bitcoin ở phía của họ trong kênh
-  - Giao dịch phải được mạng lưới Bitcoin chấp thuận
+  - Thời hạn mà kênh có thể giữ mở
+  - Số tiền tối đa một bên tham gia có thể gửi trong một giao dịch duy nhất
+  - Số lượng giao dịch mà một kênh có thể hỗ trợ mỗi ngày
 explanation: |
-  Để một giao dịch có thể được thực hiện trong một kênh thanh toán Lightning, người gửi tiền phải có đủ Bitcoin ở phía của họ trong kênh.
+  Sức chứa của kênh tương ứng với tổng số tiền của hai bên tham gia và được giữ cố định để xác định các giao dịch có thể thực hiện.
 reviewed: false

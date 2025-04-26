@@ -1,0 +1,9 @@
+question: Hva er de to hovedkomponentene i en smartkontraktstatus i RGB?
+answer: Den globale staten og eierstatene
+wrong_answers:
+  - Forpliktelse og tilblivelse
+  - Definisjon av segl og tilstandsovergang
+  - Valency og kontraktsrettigheter
+explanation: |
+  Global State inneholder offentlige data, mens Owned States er knyttet til spesifikke innehavere via UTXO-er.
+reviewed: false

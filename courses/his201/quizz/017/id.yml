@@ -1,0 +1,8 @@
+question: Di mana Nick Szabo pertama kali memperkenalkan konsep bit gold pada tahun 1998?
+answer: Daftar milis libtech-l
+wrong_answers:
+  - Daftar milis cypherpunks
+  - Daftar milis Kriptografi
+  - Daftar milis extropians
+explanation: |
+  Ini adalah daftar milis pribadinya, yang mencakup cypherpunks seperti Wei Dai dan Hal Finney, serta ekonom seperti Larry White dan George Selgin.

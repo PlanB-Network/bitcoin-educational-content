@@ -1,9 +1,12 @@
-question: Cosa si intende per acquisto spontaneo?
-answer: Acquistare immediatamente Bitcoin per ottenere esposizione.
+question: Cos'è un acquisto spontaneo?
+answer: Acquistare Bitcoin immediatamente per ottenere esposizione.
 wrong_answers:
   - Acquistare Bitcoin a intervalli regolari.
   - Acquistare Bitcoin solo quando il prezzo scende.
   - Acquistare Bitcoin solo quando il prezzo sale.
 explanation: |
-  Il testo spiega che un acquisto spontaneo viene utilizzato per ottenere immediatamente esposizione a Bitcoin. Questo potrebbe avvenire durante una caduta dei prezzi o approfittando di un bonus.
-reviewed: false
+  Il testo del corso spiega che un acquisto spontaneo è
+  utilizzato per ottenere immediatamente esposizione a Bitcoin. Ad esempio,
+  potrebbe significare comprare durante un crollo o approfittare
+  di un bonus.
+reviewed: vero

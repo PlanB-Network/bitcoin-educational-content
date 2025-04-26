@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto đã chuyển quyền kiểm soát trang web (bao gồm cả diễn đàn và wiki) cho ai khi ông rời đi?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  Ông ấy không có thời gian để quản lý và nhanh chóng giao nhiệm vụ này. Trang web và diễn đàn sau đó được Theymos và Cøbra tiếp quản.
+reviewed: false

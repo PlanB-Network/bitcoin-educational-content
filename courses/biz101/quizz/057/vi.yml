@@ -1,0 +1,9 @@
+question: Why is it important to track the fiat value at the moment of each Bitcoin transaction?
+answer: To ensure accurate bookkeeping and tax compliance
+wrong_answers:
+  - To automatically increase the wallet balance
+  - To enable real-time market trading directly from the wallet
+  - To reduce the transaction fees imposed by the network
+explanation: |
+  Tracking the fiat value helps businesses manage bookkeeping with fluctuating Bitcoin prices.
+reviewed: false

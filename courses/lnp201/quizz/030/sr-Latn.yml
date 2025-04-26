@@ -1,0 +1,9 @@
+question: Kako Lightning Network omogućava slanje sredstava čvoru koji nije direktno povezan?
+answer: Preusmeravanjem plaćanja kroz posredničke čvorove
+wrong_answers:
+  - Korišćenjem On-Chain transakcija između svakog čvora
+  - Automatskim uspostavljanjem privremenog kanala
+  - Slanjem sredstava direktno putem adresa sa višestrukim potpisom
+explanation: |
+  Lightning Network omogućava usmeravanje plaćanja kroz nekoliko posredničkih čvorova, bez potrebe za direktnim kanalom između pošiljaoca i primaoca.
+reviewed: false

@@ -1,0 +1,11 @@
+question: 与传统支付交易相比，payjoin交易的主要优势是什么？
+
+answer: 它提高了隐私性
+
+wrong_answers:
+  - 它提高了确认速度
+  - 它减少了交易费用
+  - 它误导了接收者
+
+explanation:
+  Payjoin交易通过误导链分析来增强参与者的隐私性。

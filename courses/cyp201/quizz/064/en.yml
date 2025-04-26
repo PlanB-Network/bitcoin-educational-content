@@ -1,11 +1,9 @@
-question: What is the main purpose of a Random Number Generator (RNG) in Bitcoin transactions?
-answer: To ensure the integrity of private keys.
+question: What is the main function of an extended key in an HD wallet?
+answer: To allow the derivation of child keys
 wrong_answers:
-  - To ensure the speed of transactions.
-  - To ensure the anonymity of transactions.
-  - To ensure the legality of transactions.
+  - Store the wallet's transactions
+  - Directly generate the UTXOs
+  - Encrypt the public keys
 explanation: |
-  RNG is used to generate random numbers, which are crucial for the integrity
-  of private keys in Bitcoin transactions. This helps to prevent any vulnerability
-  related to predictability.
+  An extended key combines a key (either private or public) with an associated chain code, i.e., the two elements necessary to derive child keys.
 reviewed: false

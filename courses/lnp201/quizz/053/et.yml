@@ -1,0 +1,9 @@
+question: Miks peab ruuter oma kanalites head likviidsuse jaotust hoidma?
+answer: Et maksimeerida suunatavate maksete arvu
+wrong_answers:
+  - Tehingu tasude vähendamiseks
+  - Uute kanalite avamise vältimiseks
+  - Bitcoin'i plokiahela kasutuse piiramiseks
+explanation: |
+  Ruuteri eesmärk on suunata võimalikult palju makseid, et koguda tasusid, mis nõuab hea likviidsuse jaotust mõlemal pool kanaleid, et tagada suunamisvõimekus.
+reviewed: false

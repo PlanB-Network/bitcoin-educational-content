@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari kriptografi asimetris dalam konteks komunikasi antara Alice dan Bob?
+answer: Untuk memungkinkan Bob mengirimkan pesan rahasia kepada Alice menggunakan kunci publiknya
+wrong_answers:
+  - Untuk memungkinkan Bob mengenkripsi dan mendekripsi pesan tanpa kunci publik
+  - Untuk mencegah Alice mendekripsi pesan-pesan Bob
+  - Untuk memungkinkan Alice mengenkripsi pesan untuk memverifikasi integritasnya
+explanation: |
+  Dalam kriptografi asimetris, kunci publik Alice memungkinkan Bob untuk mengirim pesan terenkripsi yang hanya bisa dia dekripsi, sehingga menjamin kerahasiaan pesan tersebut.
+reviewed: false

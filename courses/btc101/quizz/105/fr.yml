@@ -1,10 +1,11 @@
-question: Pourquoi la confidentialité est-elle importante dans le contexte de Bitcoin?
-answer: Pour minimiser les risques de traçage de vos fonds
+question: Pourquoi la confidentialité est-elle importante dans le contexte du Bitcoin ?
+answer: Pour minimiser le risque que vos fonds soient tracés.
 wrong_answers:
-  - Pour diminuer la valeur de vos bitcoins
-  - Pour empêcher le vol de vos bitcoins
-  - Pour payer des impôts sur vos bitcoins
+  - Pour diminuer la valeur de vos bitcoins.
+  - Pour empêcher vos bitcoins d'être volés.
+  - Pour payer des impôts sur vos bitcoins.
 explanation: |
-  La confidentialité est importante dans le contexte de Bitcoin pour minimiser les risques
-  le traçage de vos fonds, ce qui peut conduire à la surveillance.
-reviewed: false
+  La confidentialité est importante dans le contexte du Bitcoin pour minimiser
+  les risques que vos fonds soient tracés, ce qui peut faciliter
+  votre surveillance.
+reviewed: true

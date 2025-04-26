@@ -1,0 +1,10 @@
+question: Hva er naturen til Bitcoins adopsjon ifølge teksten?
+answer: Viral
+wrong_answers:
+  - Langsom og stabil
+  - Rask og ukontrollerbar
+  - Sporadisk og uforutsigbar
+explanation: >-
+  Teksten beskriver Bitcoins adopsjon som viral, noe som antyder at den sprer seg
+  raskt og bredt fra en person til en annen, mye som et virus.
+reviewed: false

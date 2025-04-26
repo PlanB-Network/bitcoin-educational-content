@@ -1,0 +1,11 @@
+question: Mis on Kagani kriteerium hüperinflatsiooni jaoks?
+answer: Inflatsioonimäär 50% kuus.
+wrong_answers:
+  - Inflatsioonimäär 50% aastas.
+  - Inflatsioonimäär 25% kuus.
+  - Inflatsioonimäär 25% aastas.
+explanation: |
+  Kagani kriteerium määratleb hüperinflatsiooni kui inflatsioonimäära 50%
+  kuus. See kriteerium võib mõnikord viia mitmetähenduslike tõlgendusteni, kus
+  aastatel on kõrge inflatsioonimäär, kuid ei vasta rangelt hüperinflatsiooni definitsioonile.
+reviewed: false

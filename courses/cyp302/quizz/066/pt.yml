@@ -1,0 +1,9 @@
+question: Qual é a função do algoritmo de geração de chaves em um esquema de criptografia simétrica?
+answer: Ele gera uma chave privada
+wrong_answers:
+  - Ele gera uma chave pública
+  - Ele faz o hash da mensagem
+  - Ele criptografa a mensagem
+explanation: |
+  Em um esquema de criptografia simétrica, o algoritmo de geração de chaves produz uma chave privada, que será então usada para criptografar e descriptografar mensagens.
+reviewed: false

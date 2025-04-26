@@ -1,0 +1,9 @@
+question: 什么是 RGB 分配中的 "密封定义"？
+answer: 提及确定拥有国所有权的 UTXO
+wrong_answers:
+  - 各方之间交换的数据分组，需经过客户端验证
+  - 在链外可执行代码中编译合同
+  - 状态转换历史的 DAG 分支
+explanation: |
+  印章定义 "将UTXO 与合同状态的特定部分联系起来，保证了权利或资产的正确分配。
+reviewed: false

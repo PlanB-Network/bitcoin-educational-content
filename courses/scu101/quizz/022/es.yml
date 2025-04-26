@@ -1,9 +1,12 @@
-question: ¿Cuál es la práctica recomendada al insertar una memoria USB en tu computadora?
-answer: No insertes memorias USB desconocidas o sospechosas.
+question: ¿Cuál es la práctica recomendada al insertar una llave USB en tu computadora?
+answer: No insertes llaves USB desconocidas o sospechosas.
 wrong_answers:
-  - Inserta cualquier memoria USB sin verificar.
-  - Siempre formatea la memoria USB antes de insertarla.
-  - Inserta la memoria USB y luego verifica si hay virus.
+  - Inserta cualquier llave USB sin verificar.
+  - Siempre formatea la llave USB antes de insertarla.
+  - Inserta la llave USB y luego verifica si tiene virus.
 explanation: |
-  Insertar memorias USB desconocidas o sospechosas puede exponer el sistema a programas maliciosos que se pueden ejecutar automáticamente al ser insertados. Verificar la memoria USB será inútil una vez que haya sido insertada.
-reviewed: false
+  Insertar llaves USB desconocidas o sospechosas puede exponer el
+  sistema a programas maliciosos que pueden lanzarse automáticamente
+  al ser insertados. Verificar la llave USB será inútil una vez
+  que haya sido insertada.
+reviewed: true

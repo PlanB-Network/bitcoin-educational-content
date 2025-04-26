@@ -1,0 +1,9 @@
+question: Vấn đề lớn nào mà các nhà mật mã học Diffie, Hellman và Merkle tìm cách giải quyết vào những năm 1970?
+answer: Vấn đề phân phối và quản lý khóa
+wrong_answers:
+  - Phát triển mật mã hậu lượng tử
+  - Bảo mật thông tin liên lạc quân sự
+  - Cải thiện kỹ thuật mã hóa đối xứng
+explanation: |
+  Diffie, Hellman và Merkle được thúc đẩy bởi những khó khăn thực tế trong việc phân phối và quản lý khóa để bảo mật thông tin liên lạc, những thách thức quan trọng trong một thế giới đang chuyển mình sang giao tiếp số hóa.
+reviewed: false

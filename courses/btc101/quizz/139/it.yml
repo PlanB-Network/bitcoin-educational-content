@@ -1,9 +1,9 @@
 question: Qual è il numero approssimativo di nodi distribuiti in tutto il mondo a settembre 2023?
-answer: 45.000 nodi
+answer: 45.000 nodi.
 wrong_answers:
-  - 10.000 nodi
-  - 100.000 nodi
-  - 500.000 nodi
-explanation: |
-  A settembre 2023, ci sono circa 45.000 nodi distribuiti in tutto il mondo.
-reviewed: false
+  - 10.000 nodi.
+  - 100.000 nodi.
+  - 500.000 nodi.
+explanation: >-
+  A settembre 2023, ci sono approssimativamente 45.000 nodi distribuiti in tutto il mondo.
+reviewed: vero

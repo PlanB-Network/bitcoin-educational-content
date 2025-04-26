@@ -1,0 +1,11 @@
+question: Mis on privaatvõtmete roll Bitcoin'i tehingutes?
+answer: Neid kasutatakse tehingute allkirjastamiseks ja autoriseerimiseks.
+wrong_answers:
+  - Neid kasutatakse tehingute autentsuse kontrollimiseks.
+  - Neid kasutatakse tehinguandmete krüpteerimiseks.
+  - Neid jagatakse avalikult läbipaistvuse huvides.
+explanation: |
+  Privaatvõtmed on Bitcoin'i tehingute oluline komponent.
+  Neid kasutatakse tehingute allkirjastamiseks ja autoriseerimiseks, pakkudes omandiõiguse tõestust
+  ja tagades, et ainult omanik saab oma bitcoine kulutada.
+reviewed: true

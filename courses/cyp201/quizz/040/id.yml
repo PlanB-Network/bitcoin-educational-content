@@ -1,0 +1,8 @@
+question: Mengapa menghasilkan entropi secara manual untuk dompet HD berisiko?
+answer: Ini dapat memperkenalkan kelemahan manusia atau bias yang dapat diprediksi
+wrong_answers:
+  - Ini menghasilkan kunci publik yang tidak valid
+  - Ini menghalangi derivasi kunci privat
+  - Ini membatasi ukuran frasa mnemonik yang dihasilkan
+explanation: |
+  Menghasilkan entropi secara manual dapat memperkenalkan bias atau kesalahan, membuat kunci lebih rentan terhadap serangan.

@@ -1,9 +1,13 @@
 question: Qual è il potenziale svantaggio del mining per la rete?
-answer: Senza un incentivo finanziario sufficiente, può essere difficile per i minatori continuare a sostenere la rete.
+answer: Senza un sufficiente incentivo finanziario, può essere difficile per i minatori continuare a supportare la rete
 wrong_answers:
-  - Può portare a una diminuzione del prezzo di Bitcoin
-  - Può portare a un aumento della potenza di calcolo della rete
+  - Può portare a una diminuzione del prezzo del Bitcoin
+  - Può portare a un aumento del hashrate della rete
   - Può portare a una diminuzione del numero di nodi attivi nella rete
 explanation: |
-  Il mining per la rete è un'iniziativa nobile che contribuisce alla sicurezza e alla decentralizzazione della rete Bitcoin. Tuttavia, senza un incentivo finanziario sufficiente, può essere difficile per i minatori continuare a sostenere la rete, specialmente se operano in perdita.
-reviewed: false
+  Il mining per la rete è un'iniziativa nobile che
+  contribuisce alla sicurezza e alla decentralizzazione della
+  rete Bitcoin. Tuttavia, senza un sufficiente incentivo
+  finanziario, può essere difficile per i minatori continuare
+  a supportare la rete, specialmente se operano in perdita.
+reviewed: true

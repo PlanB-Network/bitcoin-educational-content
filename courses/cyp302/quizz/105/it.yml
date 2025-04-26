@@ -1,0 +1,9 @@
+question: Come possono le parti garantire il corretto ordine dei messaggi in una sessione sicura?
+answer: Utilizzando numeri di sequenza in ogni messaggio
+wrong_answers:
+  - Scambiando chiavi per ogni messaggio
+  - Aggiungendo ritardi tra i messaggi
+  - Criptando i messaggi con un algoritmo diverso
+explanation: |
+  I numeri di sequenza assicurano che i messaggi siano ricevuti nell'ordine corretto e prevengono il loro riordinamento.
+reviewed: false

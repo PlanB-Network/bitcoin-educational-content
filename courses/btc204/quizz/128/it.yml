@@ -1,0 +1,13 @@
+question: Qual è l'utilità di uno smart contract in uno scambio di proprietà segreto?
+
+answer: Rivelare simultaneamente e sistematicamente informazioni permettendo ad entrambe le parti di recuperare i fondi dell'altra.
+
+wrong_answers:
+  - Garantire la riservatezza criptando le informazioni sulla proprietà in modo che solo il destinatario legittimo possa decifrarle.
+  - Automatizzare il processo di trasferimento per minimizzare le interazioni umane e ridurre gli errori.
+  - Facilitare la risoluzione delle dispute trattenendo i bitcoin di entrambe le parti in caso di tentativi di truffa.
+
+explanation: |
+  Per consentire scambi tra parti che non si fidano l'una dell'altra, vengono utilizzati i sistemi di smart contract. Uno smart contract è un programma che si esegue automaticamente quando sono soddisfatte delle condizioni predefinite, che, nel nostro caso, garantisce che lo scambio di proprietà avvenga automaticamente senza richiedere fiducia reciproca. Lo smart contract permette la rivelazione simultanea di due informazioni sensibili tra i partecipanti. O si esegue normalmente, e ciascuna parte recupera i fondi dell'altra, o fallisce, e tutti mantengono i propri fondi originali.
+
+reviewed: false

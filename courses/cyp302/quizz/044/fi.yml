@@ -1,0 +1,9 @@
+question: Miksi kokonaislukujen joukko lisäyksen kanssa muodostaa ryhmän, mutta ei kertolaskun kanssa?
+answer: Joukko ei täytä käänteisalkion ehtoa kertolaskun suhteen
+wrong_answers:
+  - Joukko ei ole suljettu kertolaskun suhteen
+  - Kertolasku ei ole assosiatiivinen kokonaislukujen joukossa
+  - Kertolaskulla ei ole neutraalia alkiota
+explanation: |
+  Kokonaislukujen joukko ei täytä käänteisalkion ehtoa kertolaskun suhteen, koska jokaiselle kokonaisluvulle ei ole olemassa käänteisalkiota, joka kertolaskettuna antaisi tulokseksi 1. Vain alkiot 1 ja -1 täyttävät tämän ehdon.
+reviewed: false

@@ -1,10 +1,10 @@
 question: Which country has declared Bitcoin as a legal tender?
-answer: El Salvador
+answer: El Salvador.
 wrong_answers:
-  - United States
-  - China
-  - India
+  - United States.
+  - China.
+  - India.
 explanation: >-
   El Salvador has taken the bold step of adopting Bitcoin in its entirety,
   declaring it as a legal tender.
-reviewed: false
+reviewed: true

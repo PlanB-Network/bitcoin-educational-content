@@ -1,9 +1,8 @@
-question: Qual é o objetivo da chave de revogação na Lightning Network?
-answer: Para punir um participante que tenta trapacear publicando uma transação de compromisso antiga.
+question: No contexto de uma fatura Lightning, o que significa o prefixo lnbc na parte legível por humanos?
+answer: Indica uma transação Lightning na blockchain do Bitcoin
 wrong_answers:
-  - Para recompensar um participante que trapaceia com sucesso.
-  - Para abrir um novo canal.
-  - Para validar uma transação.
+  - Que a fatura é válida apenas no testnet do Bitcoin
+  - Que a fatura é codificada em bech32
+  - Que se trata de uma transação on-chain
 explanation: |
-  A chave de revogação é um mecanismo na Lightning Network para evitar trapaças. Se um participante tentar trapacear publicando uma transação de compromisso antiga, o outro participante pode usar a chave de revogação para punir o trapaceiro e pegar todos os SAT do canal.
-reviewed: false
+  O prefixo lnbc indica que a fatura é para uma transação Lightning na rede Bitcoin, e não em outra rede.

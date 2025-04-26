@@ -1,0 +1,8 @@
+question: 比特币论坛在2011年8月1日迁移到了哪个域名？
+answer: bitcointalk.org
+wrong_answers:
+  - forum.bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  在5月17日首次迁移到forum.bitcoin.org之后，从8月1日开始，它的网址变更为bitcointalk.org。多年来，它被人们熟知为BitcoinTalk。

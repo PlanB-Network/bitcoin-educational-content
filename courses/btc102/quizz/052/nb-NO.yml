@@ -1,0 +1,9 @@
+question: Hvilke fordeler gir det å drive din egen Bitcoin-node?
+answer: Uavhengighet
+wrong_answers:
+  - Likviditet
+  - Sentralisering
+  - Hastighet
+explanation: |
+  Å drive din egen node sikrer uavhengighet fra tredjeparter og beskytter personvernet til transaksjonene dine.
+reviewed: false

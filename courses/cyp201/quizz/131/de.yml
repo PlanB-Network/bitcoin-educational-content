@@ -1,9 +1,0 @@
-question: Was ist der Zweck der Erweiterung des HRP in einer Bitcoin-Adresse?
-answer: Es ermöglicht die Isolierung der letzten fünf Bits jedes Zeichens und verstärkt somit die Prüfsumme.
-wrong_answers:
-  - Es erhöht die Größe der Adresse.
-  - Es verschlüsselt die Adresse aus Sicherheitsgründen.
-  - Es ermöglicht Fehlerkorrektur in der Adresse.
-explanation: |
-  Die Erweiterung des HRP beinhaltet die Codierung jedes Buchstabens in Basis 2, wobei die ersten drei Bits jedes Zeichens durch Einfügen eines Trennzeichens 0 genommen werden und dann die letzten fünf Bits jedes Zeichens verkettet werden. Dieser Prozess verstärkt die Prüfsumme.
-reviewed: false

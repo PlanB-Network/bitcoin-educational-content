@@ -1,12 +1,13 @@
 question: What is the primary function of a VPN in a professional context?
 answer: It allows employees to securely access the company's internal network remotely.
 wrong_answers:
-  - It allows employees to bypass geographical restrictions.
-  - It allows employees to block online advertisements.
-  - It allows employees to use public Wi-Fi securely.
+  - It allows employees to safely bypass geographical restrictions.
+  - It allows employees to completely block online advertising.
+  - It allows employees to use public Wi-Fi networks securely.
 explanation: |
-  In a professional context, VPNs are primarily used to provide secure
-  remote access to the company's internal network. This is achieved by encrypting
-  the data exchanged between the employee and the company's network, making it difficult
-  for third parties to intercept.
-reviewed: false
+  In a professional context, VPNs are primarily used to
+  provide secure remote access to the company's internal
+  network. This is achieved by encrypting the data exchanged
+  between the employee and the company's network, making it
+  difficult for third parties to intercept.
+reviewed: true

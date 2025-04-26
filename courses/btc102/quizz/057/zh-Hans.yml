@@ -1,0 +1,9 @@
+question: 偏执的用户会避免使用哪种获取方法？
+answer: 具有 KYC 功能的中央平台
+wrong_answers:
+  - P2P 对战平台
+  - Bitcoin 自动取款机
+  - 在聚会上直接购买现金
+explanation: |
+  为了保持匿名性，偏执的用户会避开需要身份验证的平台。
+reviewed: false

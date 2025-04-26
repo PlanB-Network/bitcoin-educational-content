@@ -1,9 +1,9 @@
-question: Quel est le but des adresses multi-signatures dans le Lightning Network ?
-answer: Elles nécessitent que deux parties s'accordent pour débloquer les fonds.
+question: Quand un canal Lightning est-il officiellement ouvert ?
+answer: Lorsque la transaction de dépôt est confirmée sur la blockchain Bitcoin
 wrong_answers:
-  - Elles permettent des temps de transaction plus rapides.
-  - Elles offrent une sécurité supplémentaire contre le piratage.
-  - Elles permettent l'utilisation de plusieurs cryptomonnaies.
+  - Dès l'échange des clés publiques entre les participants
+  - Lors de la signature de la transaction de retrait par les deux parties
+  - Dès que l'adresse multisignature 2/2 est créée
 explanation: |
-  Les adresses multi-signatures dans le Lightning Network nécessitent que deux parties s'accordent pour débloquer les fonds. Il s'agit d'une mesure de sécurité qui garantit que les fonds ne peuvent être déplacés qu'avec le consentement des deux parties.
+  Le canal est considéré comme ouvert une fois que la transaction de dépôt a été incluse dans un bloc Bitcoin et a atteint un certain nombre de confirmations.
 reviewed: false

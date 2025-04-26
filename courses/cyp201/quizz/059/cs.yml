@@ -1,9 +1,9 @@
-question: Jaký je účel hashovací funkce SHA-256 při generování dobrého náhodného čísla?
-answer: Redukuje velmi velký počáteční kus informací na 256 bitů.
+question: Jaká je role seedu v Bitcoin HD peněžence?
+answer: Sloužit jako výchozí bod pro odvození všech klíčů
 wrong_answers:
-  - Zvyšuje velikost počátečních informací.
-  - Šifruje počáteční informace.
-  - Ověřuje pravost počátečních informací.
+  - Uchovávat transakce peněženky
+  - Přímo generovat hlavní veřejný klíč
+  - Zajišťovat důvěrnost transakcí
 explanation: |
-  Hashovací funkce SHA-256 se používá k redukci velmi velkého počátečního kusu informací na 256 bitů. Tento proces pomáhá při generování dobrého náhodného čísla, což je klíčové pro zabezpečení soukromých klíčů a transakcí Bitcoinu.
+  Seed je 512bitová sekvence odvozená z mnemonické fráze a hesla. Tvoří základ všech klíčů v peněžence.
 reviewed: false

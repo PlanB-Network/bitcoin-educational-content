@@ -1,9 +1,9 @@
-question: Proč jsou hašovací funkce SHA0, SHA1 a MD5 považovány za zastaralé?
-answer: Ztratily odolnost proti kolizím.
+question: Jaký je hlavní rozdíl mezi SHA256 a RIPEMD160?
+answer: RIPEMD160 produkuje kratší hashe než SHA256
 wrong_answers:
-  - Jsou příliš pomalé na výpočet.
-  - Produkují příliš velké otisky.
-  - Nejsou nevratné.
+  - SHA256 je zastaralý na rozdíl od RIPEMD160
+  - RIPEMD160 se používá pouze v mechanismu Proof-of-Work
+  - SHA256 nikdy není kombinován s jinými hashovacími funkcemi
 explanation: |
-  Hašovací funkce SHA0, SHA1 a MD5 jsou považovány za zastaralé, protože ztratily odolnost proti kolizím. To znamená, že je relativně snadné najít dva různé vstupy, které produkují stejný výstup, což je vážná bezpečnostní chyba.
+  RIPEMD160 generuje 160-bitové hashe, zatímco SHA256 produkuje 256-bitové hashe.
 reviewed: false

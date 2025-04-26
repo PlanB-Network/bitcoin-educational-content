@@ -1,0 +1,9 @@
+question: Welche Struktur garantiert die zeitliche Konsistenz der Übergänge in RGB?
+answer: Ein DAG (gerichteter azyklischer Graph)
+wrong_answers:
+  - Eine einfache lineare Kette
+  - Ein dynamisches Peer-to-Peer-Netzwerk
+  - Ein binärer Baum für UTXOs
+explanation: |
+  Ein DAG ermöglicht es, Zustandsübergänge zu strukturieren und gleichzeitig parallele Entwicklungen ohne Inkonsistenzen zu ermöglichen.
+reviewed: false

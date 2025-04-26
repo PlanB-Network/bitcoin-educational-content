@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de las claves extendidas en una billetera HD?
-answer: Se utilizan para derivar claves hijas.
-wrong_answers:
-  - Se utilizan para generar la clave maestra.
-  - Se utilizan para encriptar la billetera.
-  - Se utilizan para verificar transacciones.
-explanation: |
-  Las claves extendidas se utilizan para derivar claves hijas y requieren tanto la clave padre como el código de cadena correspondiente.
-reviewed: false

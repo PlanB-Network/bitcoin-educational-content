@@ -1,4 +1,4 @@
-question: Mikä on termi "Burner-preneurs" merkitys hyperinflaation kontekstissa?
+question: Mikä on termi Burner-preneurs merkitys hyperinflaation kontekstissa?
 answer: Se viittaa yrittäjiin, jotka menestyvät lainaamalla arvonsa menettänyttä valuuttaa sijoittaakseen konkreettisiin hyödykkeisiin ja maksavat sitten velkansa takaisin vielä enemmän arvonsa menettäneellä valuutalla.
 wrong_answers:
   - Se viittaa henkilöihin, jotka polttavat arvonsa menettänyttä valuuttaa lämmitystarkoituksiin.
@@ -6,7 +6,7 @@ wrong_answers:
   - Se viittaa henkilöihin, jotka käyvät laitonta kauppaa ulkomaanvaluutoilla.
 explanation: |
   Hyperinflaation aikana valuutan arvo heikkenee nopeasti.
-  Tämä luo mahdollisuuksia yrittäjille, joita usein kutsutaan "Burner-preneurs" -nimellä, jotka
+  Tämä luo mahdollisuuksia yrittäjille, joita usein kutsutaan Burner-preneurs -nimellä, jotka
   lainaavat arvonsa menettänyttä valuuttaa sijoittaakseen konkreettisiin hyödykkeisiin, ja maksavat sitten
   velkansa takaisin vielä enemmän arvonsa menettäneellä valuutalla.
 reviewed: false

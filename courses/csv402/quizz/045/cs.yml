@@ -1,0 +1,9 @@
+question: Který standard RGB se používá k definování zaměnitelných tokenů?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 je standard používaný k vytváření a správě zastupitelných tokenů prostřednictvím protokolu RGB.
+reviewed: false

@@ -1,9 +1,8 @@
-question: Quali sono i due tipi di commissioni nella Lightning Network?
-answer: Una commissione fissa indipendentemente dall'importo e una commissione variabile.
+question: Perché un venditore potrebbe effettuare un pagamento fittizio in un canale?
+answer: Per spostare la liquidità sul lato opposto
 wrong_answers:
-  - Una commissione di transazione e una commissione di instradamento.
-  - Una commissione del mittente e una commissione del destinatario.
-  - Una commissione di rete e una commissione di canale.
+  - Per diminuire le commissioni di routing
+  - Per aumentare la capacità totale dei propri canali
+  - Per bloccare fondi a lungo termine
 explanation: |
-  Nella Lightning Network, ci sono due tipi di commissioni; una commissione fissa indipendentemente dall'importo (impostata di default a 1 SAT ma può essere modificata) e una commissione variabile (0,01% di default).
-reviewed: false
+  Effettuando un pagamento fittizio, un venditore sposta la liquidità dal proprio lato al lato opposto del canale, liberando così capacità in entrata per ricevere pagamenti.

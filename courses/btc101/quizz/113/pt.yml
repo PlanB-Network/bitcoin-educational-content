@@ -1,9 +1,12 @@
-question: Por que todos não podem usar a mesma Carteira de Bitcoin?
-answer: Porque diferentes indivíduos têm diferentes casos de uso.
+question: O que impede todos de usarem a mesma carteira Bitcoin?
+answer: Diferentes indivíduos precisam de diferentes casos de uso.
 wrong_answers:
-  - Porque é caro usar uma Carteira de Bitcoin
-  - Porque é ilegal usar uma Carteira de Bitcoin
-  - Porque as pessoas nunca concordarão com o nome de tal carteira
+  - É caro usar uma Carteira Bitcoin.
+  - É ilegal usar uma Carteira Bitcoin.
+  - As pessoas nunca concordarão com o nome de tal carteira.
 explanation: |
-  Enquanto uma pessoa pode priorizar a segurança, outra pode valorizar a facilidade de uso ou recursos específicos. Portanto, uma única Carteira de Bitcoin pode não atender aos requisitos de todos, tornando necessário que existam várias opções de carteira.
-reviewed: false
+  Enquanto uma pessoa pode priorizar a segurança, outra pode
+  valorizar a facilidade de uso ou recursos específicos. Portanto, uma
+  única Carteira Bitcoin pode não atender às necessidades de todos,
+  tornando necessário que existam múltiplas opções de carteiras.
+reviewed: true

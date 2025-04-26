@@ -1,0 +1,9 @@
+question: hodler 一词的由来是什么？
+answer: hold 的拼写错误
+wrong_answers:
+  - hold" 的首字母缩写
+  - Hot Wallet" 的缩写
+  - HODL 链 "的缩写
+explanation: |
+  "hodler "一词来自《Bitcoin Talk》上的一个错别字，"hold "被误写为 "HODL"，表示长期持有。
+reviewed: false

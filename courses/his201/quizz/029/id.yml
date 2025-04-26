@@ -1,0 +1,8 @@
+question: Kritik apa yang disampaikan oleh salah satu pendiri cypherpunks, John Gilmore, terhadap penemuan Satoshi Nakamoto pada Januari 2009?
+answer: Bitcoin mencemari planet ini
+wrong_answers:
+  - Bitcoin memfasilitasi penghindaran pajak
+  - Bitcoin rentan terhadap serangan Sybil
+  - Bitcoin bersifat deflasi
+explanation: |
+  Dia [mengkritik](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin karena mengkonsumsi listrik dan menghasilkan karbon dioksida (gas rumah kaca).

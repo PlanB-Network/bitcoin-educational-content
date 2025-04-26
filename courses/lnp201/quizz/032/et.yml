@@ -1,0 +1,9 @@
+question: Mis on marsruutimistasude roll Lightning Network'is?
+answer: Innustada vahendajate sõlmi pakkuma oma likviidsust maksete edastamiseks
+wrong_answers:
+  - Piirata võrgus toimuvate tehingute arvu
+  - Tagada, et igal kanalil oleks piisavalt vahendeid
+  - Automaatselt arvutada lühimat teed
+explanation: |
+  Marsruutimistasusid kasutatakse vahendavate sõlmede kompenseerimiseks, kes edastavad makseid, pakkudes oma likviidsust, et võimaldada vahendite ülekannet võrgus.
+reviewed: false

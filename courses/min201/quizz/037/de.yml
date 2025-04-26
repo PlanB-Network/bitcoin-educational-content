@@ -1,9 +1,9 @@
-question: Was sind die potenziellen Nachteile des profitablen Minings?
-answer: Es kann zur Zentralisierung der Hashing-Leistung führen und erhebliche Auswirkungen auf die Umwelt haben.
+question: Was ist der potenzielle Nachteil des Minings zum Zwecke des Profits?
+answer: Es kann zur Zentralisierung der Hashing-Leistung führen und könnte auch eine erhebliche Umweltauswirkung haben.
 wrong_answers:
-  - Es kann zu einem Rückgang des Bitcoin-Preises führen.
-  - Es kann zu einem Rückgang der Hashrate des Netzwerks führen.
-  - Es kann zu einem Rückgang der Anzahl aktiver Knoten im Netzwerk führen.
+  - Es kann zu einem Rückgang des Bitcoin-Preises führen
+  - Es kann zu einem Rückgang der Hashrate des Netzwerks führen
+  - Es kann zu einem Rückgang der Anzahl aktiver Knoten im Netzwerk führen
 explanation: |
-  Profitables Mining kann zur Zentralisierung der Hashing-Leistung führen, wenn nur wenige große Unternehmen in hochwertige Mining-Ausrüstung investieren können. Darüber hinaus kann der Energieverbrauch des profitablen Minings erhebliche Auswirkungen auf die Umwelt haben.
-reviewed: false
+  Mining zum Zwecke des Profits kann zur Zentralisierung der Hashing-Leistung führen, wenn nur wenige große Unternehmen es sich leisten können, in hochwertige Mining-Ausrüstung zu investieren. Zusätzlich könnte der Energieverbrauch des Minings zum Zwecke des Profits, abhängig von der Energiequelle, eine erhebliche Umweltauswirkung haben.
+reviewed: true

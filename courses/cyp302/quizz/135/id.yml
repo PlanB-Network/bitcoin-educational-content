@@ -1,0 +1,9 @@
+question: Apa kerentanan utama dari kata sandi yang lemah ketika mereka di-hash?
+answer: Mereka rentan terhadap serangan kamus
+wrong_answers:
+  - Mereka tidak dapat diverifikasi dengan hashing
+  - Mereka selalu menghasilkan tabrakan
+  - Mereka memerlukan hashing yang lebih panjang untuk keamanan yang lebih
+explanation: |
+  Kata sandi yang lemah dapat dengan mudah ditemukan dari hash mereka menggunakan serangan kamus, membuat pemilihan mereka penting untuk memastikan keamanan.
+reviewed: false

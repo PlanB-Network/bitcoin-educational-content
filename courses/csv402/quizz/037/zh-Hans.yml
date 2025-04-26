@@ -1,0 +1,9 @@
+question: 如何将 NonInflatableAsset.rgb 模式导入本地存储库？
+answer: rgb 导入 schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb 导入 schema/NonInflatableAssets.rgb
+  - rgb 克隆 schemata/NonInflatableAssets.rgb
+  - rgb 克隆 schema/NonInflatableAssets.rgb
+explanation: |
+  使用 "rgb import schemata/NonInflatableAssets.rgb "命令将编译好的模式导入本地存储库。
+reviewed: false

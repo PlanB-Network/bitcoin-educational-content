@@ -1,0 +1,11 @@
+question: Hva er hovedfokuset i dette Bitcoin-kurset?
+answer: De monetære aspektene ved Bitcoin.
+wrong_answers:
+  - Kodingsaspektene ved Bitcoin.
+  - Den økologiske påvirkningen av Bitcoin.
+  - De regulatoriske aspektene ved Bitcoin.
+explanation: |
+  Dette Bitcoin-kurset fokuserer på de monetære aspektene ved Bitcoin, inkludert
+  hvordan kjøpe og selge bitcoins, sikkert lagre dem i digitale lommebøker, og bruke dem
+  for transaksjoner.
+reviewed: true

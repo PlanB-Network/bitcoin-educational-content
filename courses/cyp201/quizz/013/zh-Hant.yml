@@ -1,0 +1,9 @@
+question: PBKDF2 在 Bitcoin 中的主要作用是什麼？
+answer: generate HD Wallet 的 seed
+wrong_answers:
+  - 驗證交易
+  - 加密私人密碼匙
+  - 建立 Bitcoin 位址
+explanation: |
+  PBKDF2 用於從 Mnemonic 詞組和可選的 passphrase 推導出 seed。
+reviewed: false

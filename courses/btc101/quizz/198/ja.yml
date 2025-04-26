@@ -1,9 +1,9 @@
 question: Bitcoinを購入する前に持っておくべきものの一つは何ですか？
-answer: 安全なウォレットです。
+answer: 安全なウォレット。
 wrong_answers:
   - 物理的な金庫。
   - 銀行口座。
   - クレジットカード。
-explanation: >-
-  このテキストでは、Bitcoinを購入する前に安全なウォレットを持っておくべきだと述べています。これはあなたがBitcoinを保管する場所になります。
-reviewed: false
+explanation: |
+  コースのテキストでは、Bitcoinを購入する前に、鍵を保存する安全なウォレットを持っておくべきだと述べています。
+reviewed: true

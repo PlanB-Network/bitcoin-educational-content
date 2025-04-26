@@ -1,0 +1,8 @@
+question: ¿Qué titular de un periódico británico se incluyó en el bloque génesis de Bitcoin en enero de 2009?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explanation: |
+  La inscripción exacta fue The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.

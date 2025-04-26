@@ -1,0 +1,9 @@
+question: ¿Qué es la encriptación de flujo asíncrono?
+answer: Una encriptación cuyo flujo de clave depende tanto de la clave como de elementos del texto previamente encriptado
+wrong_answers:
+  - Una encriptación que genera un flujo de clave aleatorio con cada uso
+  - Una encriptación donde la clave debe ser cambiada para cada mensaje
+  - Una encriptación cuyo flujo de clave depende solo de la clave inicial
+explanation: |
+  La encriptación de flujo asíncrono es un tipo de encriptación donde el flujo de clave es influenciado por la clave y elementos del texto encriptado.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hva reflekterer en forpliktelsestransaksjon i en Lightning-kanal?
+answer: Den nye fordelingen av midler mellom de to partene
+wrong_answers:
+  - Det totale antallet transaksjoner som er gjort
+  - Mengden av gebyrer som skal betales for transaksjonen
+  - Åpningen av en ny betalingskanal
+explanation: |
+  En forpliktelsestransaksjon representerer den nåværende fordelingen av midler i kanalen etter hver Lightning-transaksjon, men publiseres ikke på blokkjeden så lenge kanalen forblir åpen.

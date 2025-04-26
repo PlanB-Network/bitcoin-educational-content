@@ -1,0 +1,13 @@
+question: Jaki jest wpływ wzrostu Supply pieniądza na inflację i deflację w systemie stałego Supply pieniądza?
+answer: Wzrost pieniężnego Supply niweluje potencjalną deflację spowodowaną wzrostem produkcji.
+wrong_answers:
+  - Wzrost Supply pieniądza prowadzi do deflacji.
+  - Wzrost Supply nie ma wpływu na inflację lub deflację.
+  - Wzrost wartości pieniądza Supply prowadzi do spadku produkcji.
+explanation: |
+  W rozdziale tym wyjaśniono, że w systemie pieniądza Supply wzrost produkcji powinien teoretycznie prowadzić do deflacji, tj. spadku cen
+  produkcji powinien teoretycznie prowadzić do deflacji, tj. spadku cen,
+  ponieważ dostępnych byłoby więcej towarów i usług. Jednak w obecnym systemie pieniądza fiducjarnego
+  fiat, wzrost wartości pieniądza Supply niweluje potencjalną deflację
+  spowodowaną wzrostem produkcji.
+reviewed: false

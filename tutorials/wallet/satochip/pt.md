@@ -137,7 +137,7 @@ Você pode adicionar um "*Rótulo*" para descrever a fonte dos bitcoins que ser�
 
 Para mais informações sobre rotulagem, também recomendo conferir este outro tutorial:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Você pode então usar este endereço para receber bitcoins.
 

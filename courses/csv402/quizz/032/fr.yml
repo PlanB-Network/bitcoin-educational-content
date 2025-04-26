@@ -1,0 +1,9 @@
+question: Que doit faire Alice (émetteur) après avoir reçu l’invoice de Bob ?
+answer: Construire une PSBT avec son UTXO et générer le terminal consignment du transfert
+wrong_answers:
+  - Signer la transaction Bitcoin qui dépense son UTXO contenant le single-use seal
+  - Importer le consignment dans son propre wallet pour avoir les détails du contrat
+  - Émettre une nouvelle invoice pour l’émission d’un actifs
+explanation: |
+  Alice doit créer une PSBT pour dépenser l’UTXO associé à l’actif, puis générer un terminal consignment qui inclut la nouvelle transition vers Bob.
+reviewed: false

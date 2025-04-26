@@ -1,0 +1,8 @@
+question: Sự bổ sung nào vào mùa hè năm 2010 đã cho phép các soft fork trong Bitcoin sau này?
+answer: Các mã hoạt động OP_NOP
+wrong_answers:
+  - Hệ thống cảnh báo
+  - Giới hạn kích thước khối
+  - Định dạng giao dịch chuẩn
+explanation: |
+  Đây là các hướng dẫn không thực hiện gì (no-op) không làm mất hiệu lực của script nếu được thực thi. Chúng đã cho phép thêm OP_CHECKLOCKTIMEVERIFY và OP_CHECKSEQUENCEVERIFY vào giao thức vào năm 2015/2016.

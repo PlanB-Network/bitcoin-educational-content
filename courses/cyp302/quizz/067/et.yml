@@ -1,0 +1,9 @@
+question: Mis juhtub, kui ründaja pealtkuulab krüpteeritud sõnumit heas sümmeetrilises krüpteerimisskeemis?
+answer: Nad ei tohiks originaalsõnumi kohta midagi olulist teada saada
+wrong_answers:
+  - Nad saavad alati sõnumi ilma võtmeta dekrüpteerida
+  - Nad peaksid suutma selle avaliku võtmega dekrüpteerida
+  - Nad peaksid suutma sõnumi sisu ära arvata
+explanation: |
+  Hästi kavandatud sümmeetrilises krüpteerimisskeemis ei tohiks ründaja, kes pealtkuulab krüpteeritud sõnumit, suuta ilma dekrüpteerimisvõtmeta sõnumi sisu kohta asjakohast teavet järeldada.
+reviewed: false

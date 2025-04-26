@@ -1,0 +1,9 @@
+question: Kellele andis Satoshi tarkvaraarenduse vastutuse üle, kui ta lahkus?
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explanation: |
+  Gavin oli varem [öelnud](https: //bitcointalk.org/index.php?topic=2367.msg31651#msg31651), et ta hakkab Bitcoin projekti aktiivsemalt juhtima ja oli avanud GitHubi repositooriumi 2010. aasta detsembris.
+reviewed: false

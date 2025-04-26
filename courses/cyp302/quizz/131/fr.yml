@@ -1,0 +1,9 @@
+question: Pourquoi la cryptographie asymétrique est-elle moins utilisée que la cryptographie symétrique dans les échanges de données volumineuses ?
+answer: Elle est moins efficace pour un niveau de sécurité équivalent
+wrong_answers:
+  - Elle ne permet pas de garantir l'authenticité des messages
+  - Elle exige des clés publiques multiples pour chaque échange
+  - Elle n'est pas compatible avec les protocoles de communication modernes
+explanation: |
+  La cryptographie asymétrique, bien que puissante pour l'authentification et le chiffrement initial, demande plus de ressources, ce qui rend son utilisation inefficace pour des transferts de données conséquents.
+reviewed: false

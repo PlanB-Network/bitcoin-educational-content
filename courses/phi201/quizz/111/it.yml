@@ -1,0 +1,9 @@
+question: Secondo Keynes, qual è il ruolo del denaro nell'economia?
+answer: Uno strumento di politica economica
+wrong_answers:
+  - Un semplice mezzo di scambio
+  - Un freno alla crescita
+  - Uno strumento di speculazione
+explanation: |
+  Per Keynes, il denaro è una leva della politica economica che permette ai governi di regolare l'economia influenzando gli investimenti, l'occupazione e la domanda complessiva.
+reviewed: false

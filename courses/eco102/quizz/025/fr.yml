@@ -1,0 +1,9 @@
+question: Quel était l'objectif principal de la Ligue anglaise en 1838 ?
+answer: Contre les lois sur les blés
+wrong_answers:
+  - Contre les grands propriétaires terriens
+  - Pour la promotion des ouvriers agricoles
+  - Contre les commerçants étrangers
+explanation: |
+  La Ligue anglaise, inspirée par Richard Cobden, visait à abolir les lois protectionnistes sur les blés pour favoriser le libre-échange et diminuer la pauvreté.
+reviewed: false

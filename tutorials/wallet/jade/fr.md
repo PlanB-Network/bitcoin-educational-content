@@ -1,5 +1,5 @@
 ---
-name: JADE
+name: Jade
 
 description: Comment configurer votre appareil JADE
 ---

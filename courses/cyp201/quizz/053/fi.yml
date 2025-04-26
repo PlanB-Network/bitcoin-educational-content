@@ -1,9 +1,8 @@
-question: Mikä on Bitcoin-lompakon yksityisavainten pituus?
-answer: 256 bittiä
+question: Mitä tapahtuu, jos menetät salasanan, joka on yhdistetty HD-lompakkoosi?
+answer: Menetät pääsyn kyseiseen lompakkoon linkitettyihin bitcoineihin
 wrong_answers:
-  - 128 bittiä
-  - 512 bittiä
-  - 1024 bittiä
+  - Voit silti päästä käsiksi lompakkoon pelkän muistisäännön avulla
+  - Voit nollata salasanan ottamalla yhteyttä Bitcoin-tukeen
+  - Menetät vain vahvistamattomat siirrot
 explanation: |
-  Bitcoin-lompakon yksityisavaimet, jotka ovat olennaisen tärkeitä kryptovaluutan omistuksessa, ovat kiinteän pituisia, 256 bittiä.
-reviewed: false
+  Salasana on olennainen osa avainjohdannaisessa. Ilman sitä avaimia on mahdotonta uudelleenluoda, ja siksi bitcoineihin pääsy estyy.

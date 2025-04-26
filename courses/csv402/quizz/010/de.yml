@@ -1,0 +1,9 @@
+question: Was ist die Hauptaufgabe von AluVM im RGB-Protokoll?
+answer: Ausführen von Skripten und Vertragsoperationen in einer virtuellen Maschinenumgebung
+wrong_answers:
+  - Analysieren Sie Bitcoin-On-Chain-Transaktionen in einer virtuellen Maschinenumgebung
+  - Generierung öffentlicher Schlüssel für RGB-Benutzer in einer virtuellen Maschinenumgebung
+  - Optimierung der Validierung öffentlicher Blockchains in einer virtuellen Maschinenumgebung
+explanation: |
+  AluVM wurde für die Validierung von Smart Contracts und verteiltes Rechnen innerhalb des RGB-Frameworks entwickelt.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Näistä kolmesta protokollasta, mikä ei ole coinjoinin toteutus?
+
+answer: Chainalysis.
+
+wrong_answers:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+
+explanation: |
+  Chainalysis ei ole lainkaan coinjoinin toteutus, sillä se on lohkoketjuanalyysia tarjoava yritys.

@@ -1,9 +1,0 @@
-question: Kích thước của một khóa công khai đã được nén trong Bitcoin là bao nhiêu?
-answer: 264 bit
-wrong_answers:
-  - 520 bit
-  - 128 bit
-  - 256 bit
-explanation: |
-  Trong Bitcoin, một khóa công khai thô chiếm 520 bit. Tuy nhiên, nhờ vào tính đối xứng của đường cong elliptic được sử dụng, chúng ta có thể nén khóa công khai để giảm kích thước của nó từ 520 xuống còn 264 bit.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle est la source première de l'aliénation humaine selon Marx ?
+answer: L'aliénation économique qui découle de l'exploitation capitaliste.
+wrong_answers:
+  - L'aliénation politique qui empêche les citoyens de s'exprimer librement.
+  - L'aliénation religieuse qui masque la réalité des injustices sociales.
+  - L'aliénation de la culture américaine.
+explanation: |
+  Selon Marx, l'aliénation humaine prend racine dans l'aliénation économique, où le travailleur est dépossédé des fruits de son travail sous le capitalisme, ce qui génère une perte de contrôle et de sens dans son existence.
+reviewed: false

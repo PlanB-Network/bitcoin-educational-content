@@ -1,0 +1,12 @@
+question: Apa alasan utama volatilitas harga jangka pendek pada stablecoin?
+answer: Tingkat likuiditas rendah di bursa
+wrong_answers:
+  - Kurangnya cadangan untuk memenuhi permintaan penarikan
+  - Peretasan yang mengkompromikan stablecoin
+  - Pelepasan ikatan stablecoin dengan aset acuan
+explanation: |
+  Volatilitas harga jangka pendek pada stablecoin sering kali 
+  disebabkan oleh masalah likuiditas, di mana bursa-bursa kecil mungkin 
+  tidak memiliki kemampuan untuk memenuhi permintaan pelanggan, 
+  menyebabkan fluktuasi harga sementara.
+reviewed: true

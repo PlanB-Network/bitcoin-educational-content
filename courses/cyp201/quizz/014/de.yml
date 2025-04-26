@@ -1,10 +1,9 @@
-question: Wie viele Runden der Berechnung werden in der Kompressionsfunktion von SHA256 durchgeführt?
-answer: 64
+question: Wie viele Iterationen verwendet PBKDF2 in Bitcoin?
+answer: 2048
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  In der Kompressionsfunktion von SHA256 werden 64 Runden der Berechnung durchgeführt.
-  Ähnlich wie bei einem Radrennen verbessert jede Runde die Position der Funktion.
+  PBKDF2 wiederholt den HMAC-SHA512-Prozess 2048 Mal, um die Sicherheit zu erhöhen.
 reviewed: false

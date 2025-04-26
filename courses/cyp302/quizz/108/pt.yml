@@ -1,0 +1,8 @@
+question: Por que um esquema de criptografia autenticada por si só é insuficiente em uma sessão de comunicação?
+answer: Não garante que a mensagem foi enviada pelo remetente no momento da sessão.
+wrong_answers:
+  - Utiliza chaves que são muito curtas.
+  - Não criptografa mensagens enviadas no momento da sessão.
+  - Não permite a autenticação do remetente no momento da sessão.
+explanation: |
+  Um esquema de criptografia autenticada não protege contra ataques como replay, reordenação e reflexão sem a adição de indicadores como identificadores e números de sequência.

@@ -1,0 +1,9 @@
+question: Mis on hodleri peamine eesmärk?
+answer: Et hoida oma bitcoine pikemas perspektiivis
+wrong_answers:
+  - Spekuleerida lühiajaliselt
+  - Teha sagedasi Bitcoin tehinguid
+  - Maksimeerida oma Bitcoin tehingute privaatsust
+explanation: |
+  Hodleri eesmärk on hoida oma bitcoine mitu aastat, et saada kasu vara eeldatavast kasvust.
+reviewed: false

@@ -1,9 +1,8 @@
-question: O que Alice faz com o UTXO de 0.0007 BTC quando ela abre um canal com Bob?
-answer: Ela o envia para um de seus endereços de troco.
+question: O que a chave de revogação permite fazer em caso de trapaça?
+answer: Recuperar todos os fundos punindo o trapaceiro
 wrong_answers:
-  - Ela o envia para o endereço público de Bob.
-  - Ela o envia para o endereço multi-sig 2/2.
-  - Ela o mantém em seu próprio endereço.
+  - Cancelar a transação de compromisso
+  - Dobrar a capacidade do canal
+  - Prevenir quaisquer transações futuras no canal
 explanation: |
-  Quando Alice abre um canal com Bob, ela cria uma transação com 2 UTXOs como saída. Um UTXO de 0.0013 BTC vai para o endereço multi-sig 2/2, e o outro UTXO de 0.0007 BTC vai para um de seus endereços de troco.
-reviewed: false
+  A chave de revogação permite à parte lesada recuperar todos os fundos no evento de uma tentativa de trapaça pela outra parte.

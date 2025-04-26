@@ -1,0 +1,9 @@
+question: Šta se nalazilo u gvozdenoj kutiji predatoj Robertu Morrissu?
+answer: Tri šifrovana teksta i beleška
+wrong_answers:
+  - Mapa i tragovi
+  - Jedinstveni ključ za šifrovanje
+  - Jedinstvena lista imena
+explanation: |
+  Kutija je sadržala tri šifrovana teksta i belešku koja objašnjava otkriće blaga i pruža uputstva kako da se preuzme njegov sadržaj.
+reviewed: false

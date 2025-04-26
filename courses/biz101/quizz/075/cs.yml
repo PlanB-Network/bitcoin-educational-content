@@ -1,0 +1,9 @@
+question: Co je hlavním cílem implementace plateb Bitcoin na podnikové úrovni?
+answer: Plně integrovat platby bitcoiny do hlavních procesů organizace
+wrong_answers:
+  - Experimentování s Bitcoinem v malém měřítku
+  - Použití Bitcoinu pro marketingové účely
+  - Přijímání bitcoinů bez integrace do jiných systémů
+explanation: |
+  Cílem podnikových řešení je sladit platby bitcoiny s hlavními podnikovými pracovními postupy a systémy.
+reviewed: false

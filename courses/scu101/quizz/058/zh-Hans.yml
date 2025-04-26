@@ -1,0 +1,8 @@
+question: 在网络安全中使用了哪些工具？
+answer: Wireshark, Metasploit, Nmap
+wrong_answers:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+explanation:
+  本章列出了Wireshark, Metasploit, 和 Nmap 作为网络安全中使用的一些工具。

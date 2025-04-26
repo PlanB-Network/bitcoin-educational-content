@@ -1,0 +1,8 @@
+question: Miksi Rothbard uskoo, että kirjalliset perustuslait eivät riitä valtion vallan rajoittamiseen?
+answer: Kaikki edellä mainitut
+wrong_answers:
+  - Ne voidaan helposti muuttaa vallassa olevien toimesta
+  - Niitä voidaan tulkita
+  - Ne eivät voi estää virkamiesten ja toimihenkilöiden väärinkäytöksiä
+explanation: |
+  Rothbard uskoo, että kirjalliset perustuslait eivät ole riittäviä valtion vallan rajoittamiseen, koska ne ovat tulkinnanvaraisia, vallassa olevat voivat muuttaa niitä, ja ne eivät tehokkaasti suojaa virkamiesten väärinkäytöksiltä.

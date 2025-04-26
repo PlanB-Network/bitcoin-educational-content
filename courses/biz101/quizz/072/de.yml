@@ -1,0 +1,9 @@
+question: Wie aktualisieren Enterprise-Systeme das Inventar automatisch?
+answer: Durch Workflow-Auslöser
+wrong_answers:
+  - Manuelle Aktualisierungen
+  - Uploads am Ende des Tages
+  - Geplante Berichte
+explanation: |
+  Workflow-Auslöser aktualisieren die Systeme in Echtzeit.
+reviewed: false

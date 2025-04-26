@@ -1,0 +1,9 @@
+question: Mikä on yhteiskunnan liikkeelle paneva voima Tracyn mukaan?
+answer: Kaupankäynti
+wrong_answers:
+  - Perhe
+  - Politiikka
+  - Koulutus
+explanation: |
+  Destutt de Tracyn mukaan kaupankäynti on sivistävä ja rauhoittava voima, joka toimii yhteiskunnan liikkeelle panevana voimana.
+reviewed: false

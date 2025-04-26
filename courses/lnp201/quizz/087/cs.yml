@@ -1,8 +1,0 @@
-question: Jaký je cíl směrovacích uzlů z hlediska likvidity na Lightning Network?
-answer: Být vyvážený s likviditou na obou stranách
-wrong_answers:
-  - Otevřít kanály
-  - Připojit se k ostatním uzlům
-  - Koupit kanály
-explanation: |
-  Pro směrovací uzly na Lightning Network je cílem z hlediska likvidity být vyvážený s likviditou na obou stranách. Také si klade za cíl mít dobré spojení s mnoha uzly, aby byl co nejvíce využíván.

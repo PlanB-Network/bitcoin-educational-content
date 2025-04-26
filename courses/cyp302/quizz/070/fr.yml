@@ -1,0 +1,9 @@
+question: Quel type de chiffrement est le chiffrement par décalage ?
+answer: Un chiffrement par substitution monoalphabétique
+wrong_answers:
+  - Un chiffrement par permutation de mots
+  - Un chiffrement par substitution polyalphabétique
+  - Un chiffrement asymétrique
+explanation: |
+  Le chiffrement par décalage est un exemple de chiffrement par substitution monoalphabétique, où chaque lettre du message est décalée d'un nombre fixe de positions dans l'alphabet.
+reviewed: false

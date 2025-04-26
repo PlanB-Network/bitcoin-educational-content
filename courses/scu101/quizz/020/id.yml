@@ -1,0 +1,10 @@
+question: Apa antivirus bawaan di Windows?
+answer: Windows Defender
+wrong_answers:
+  - Kaspersky
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender adalah antivirus bawaan di Windows. Ini adalah solusi yang aman dan
+  efektif untuk melindungi sistem dari ancaman.
+reviewed: false

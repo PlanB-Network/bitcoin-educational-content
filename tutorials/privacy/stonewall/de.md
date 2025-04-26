@@ -39,7 +39,7 @@ Aus externer Perspektive wäre das Muster der Transaktion genau gleich geblieben
 
 Zusammengefasst teilen Stonewall- und Stonewall x2-Transaktionen eine identische Struktur. Der Unterschied zwischen den beiden liegt in ihrer kollaborativen Natur. Die Stonewall-Transaktion wird individuell entwickelt, ohne die Notwendigkeit zur Zusammenarbeit. Im Gegensatz dazu basiert die Stonewall x2-Transaktion auf der Kooperation zwischen zwei Personen für ihre Durchführung.
 
-[**-> Erfahren Sie mehr über Stonewall x2-Transaktionen**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> Erfahren Sie mehr über Stonewall x2-Transaktionen**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## Was ist der Zweck einer Stonewall-Transaktion?
 Die Stonewall-Struktur fügt der Transaktion eine erhebliche Menge an Entropie hinzu und verschleiert die Kettenanalyse. Aus externer Perspektive kann eine solche Transaktion als ein kleiner Coinjoin zwischen zwei Personen interpretiert werden. Aber in Wirklichkeit, genau wie die Stonewall x2-Transaktion, handelt es sich um eine Zahlung. Diese Methode erzeugt daher Unsicherheiten in der Kettenanalyse und kann sogar zu falschen Fährten führen.

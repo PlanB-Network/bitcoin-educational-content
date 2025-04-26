@@ -1,0 +1,9 @@
+question: Šta omogućava prošireni javni ključ da se izvede?
+answer: Samo normalni javni ključevi dece
+wrong_answers:
+  - Samo normalni privatni ključevi za decu
+  - I otvrdnuti i normalni javni ključevi deteta
+  - I očvrsli i normalni privatni ključevi za decu
+explanation: |
+  Prošireni javni ključ omogućava samo izvođenje normalnih podključeva javnih ključeva, ne privatnih ključeva ili ojačanih ključeva.
+reviewed: false

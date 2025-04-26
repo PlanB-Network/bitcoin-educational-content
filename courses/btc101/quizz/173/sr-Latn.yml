@@ -1,0 +1,8 @@
+question: Koji je jedan od razloga zašto je Bitcoin privlačan određenim grupama?
+answer: Njegova sposobnost da ponudi rešenja kao što su Trustless elektronski novac, otpornost na cenzuru ili transparentna i nepromenljiva monetarna politika.
+wrong_answers:
+  - Lako je falsifikovati, i može stvoriti rešenja za primanje više novca jednostavnim klikom.
+  - Njime upravlja centralna vlast koja slobodno distribuira kapital korisnicima.
+  - Nije pseudoniman, tako da je svaki korisnik dobro poznat i pouzdan.
+explanation: >-
+reviewed: true

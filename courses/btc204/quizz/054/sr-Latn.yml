@@ -1,0 +1,9 @@
+question: Koje je ime kriptografskog algoritma korišćenog u Silent Payments za uspostavljanje zajedničke tajne između primaoca i platioca?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+explanation: |
+  ECDH (Elliptic-Curve Diffie-Hellman) algoritam se koristi u Silent Payments između para ključeva skenera primaoca i zbira para ključeva pošiljaoca kako bi se uspostavila zajednička tajna koja će omogućiti izvođenje jedinstvene uplate Address.
+reviewed: false

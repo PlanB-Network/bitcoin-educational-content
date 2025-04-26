@@ -1,9 +1,8 @@
-question: O uso de uma frase de acesso em uma carteira de Bitcoin é obrigatório?
-answer: Não, o seu uso é opcional.
+question: Qual é a principal novidade dos scripts P2WPKH em comparação com os P2PKH?
+answer: As assinaturas são movidas para o campo Witness.
 wrong_answers:
-  - Sim, o seu uso é obrigatório
-  - Depende do tipo de carteira
-  - Depende da quantidade de bitcoins na carteira
+  - Os endereços são codificados em base58check.
+  - O scriptPubKey inclui o hash da chave privada.
+  - P2WPKH é incompatível com SegWit.
 explanation: |
-  A frase de acesso é uma senha adicional que pode ser integrada a uma carteira de Bitcoin para aumentar sua segurança. Seu uso é opcional e fica a critério do usuário.
-reviewed: false
+  P2WPKH, introduzido com SegWit, move as assinaturas para uma seção separada chamada Witness para prevenir a maleabilidade de transações.

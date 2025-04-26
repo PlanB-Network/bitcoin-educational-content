@@ -1,0 +1,9 @@
+question: Kuidas Bastiat seostab kapitali kogunemist töötajate elutingimustega?
+answer: Tootmise suurenemine viib hindade languseni ja palkade tõusuni.
+wrong_answers:
+  - Kapital võimaldab rahastada sotsiaalseid projekte ja parandada avalikke teenuseid.
+  - Töötajad ise muutuvad kapitalistideks ja jagavad kasumeid.
+  - Kapital võimaldab vähendada sõltuvust tööandjatest.
+explanation: |
+  Bastiat väidab, et kapitali kogunemine suurendab tootmist, mis viib hindade languseni ja palkade tõusuni, parandades seeläbi elutingimusi.
+reviewed: false

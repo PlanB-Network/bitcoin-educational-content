@@ -1,9 +1,0 @@
-question: Qual è lo scopo dell'hash della preimmagine in una fattura della Lightning Network?
-answer: Viene utilizzato per sbloccare il pagamento.
-wrong_answers:
-  - Viene utilizzato per crittografare i dati della fattura.
-  - Viene utilizzato per verificare l'identità del destinatario.
-  - Viene utilizzato per calcolare la commissione di transazione.
-explanation: |
-  L'hash della preimmagine in una fattura della Lightning Network viene utilizzato per sbloccare il pagamento. Il destinatario del pagamento deve fornire la preimmagine che corrisponde all'hash per ricevere i fondi.
-reviewed: false

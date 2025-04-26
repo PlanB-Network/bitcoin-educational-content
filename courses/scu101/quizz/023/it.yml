@@ -1,9 +1,10 @@
-question: Qual è l'importanza di utilizzare una password forte per la sicurezza del computer?
+question: Qual è l'importanza dell'utilizzo di una password complessa per la sicurezza informatica?
 answer: Per prevenire l'accesso non autorizzato al sistema.
 wrong_answers:
-  - Per far funzionare il sistema più velocemente.
+  - Per rendere il sistema più veloce.
   - Per aumentare la capacità di archiviazione.
   - Per migliorare l'interfaccia utente.
 explanation: |
-  Una password forte è fondamentale per la sicurezza del computer al fine di prevenire l'accesso non autorizzato al sistema.
-reviewed: false
+  Una password complessa è fondamentale per la sicurezza informatica al fine di
+  prevenire l'accesso non autorizzato al sistema.
+reviewed: true

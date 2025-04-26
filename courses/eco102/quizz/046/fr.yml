@@ -1,0 +1,9 @@
+question: Quel est l'argument principal de Bastiat contre l'idée d'une gratuité du crédit ?
+answer: Toutes les autres réponses
+wrong_answers:
+  - Elle favorise l'enrichissement des banques aux dépens des particuliers
+  - Elle encourage les comportements irresponsables et les prises de risque excessives
+  - Elle ne permet pas d'augmenter durablement le pouvoir d'achat
+explanation: |
+  Bastiat réfute la gratuité du crédit en soulignant qu'elle entraîne des comportements financiers irresponsables, des risques accrus et une incapacité à augmenter durablement le pouvoir d'achat.
+reviewed: false

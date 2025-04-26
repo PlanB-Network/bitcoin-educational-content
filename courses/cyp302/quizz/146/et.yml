@@ -1,0 +1,8 @@
+question: Mis on tingimus, et täisarvul a oleks pöördarv modulo N suhtes?
+answer: a ja N peavad olema võõrad
+wrong_answers:
+  - N peab olema paarisarv
+  - a peab olema paaritu
+  - a peab olema algarv
+explanation: |
+  Täisarvul a on pöördarv modulo N suhtes ainult siis, kui nad on võõrad, mis tähendab, et nende suurim ühistegur on 1.

@@ -1,0 +1,8 @@
+question: Glaubt Bastiat, dass das Recht auf Eigentum durch Gesetzgebung geschaffen wird oder geht es dieser voraus?
+answer: geht dieser voraus
+wrong_answers:
+  - durch Gesetzgebung geschaffen
+  - durch den Gesellschaftsvertrag geschaffen
+  - abhängig vom allgemeinen Willen
+explanation: |
+  Bastiat betrachtet das Recht auf Eigentum als ein natürliches Recht, das dem Gesetz vorausgeht, welches nur dessen Verteidigung sicherstellen sollte.

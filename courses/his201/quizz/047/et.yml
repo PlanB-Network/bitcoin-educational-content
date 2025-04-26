@@ -1,0 +1,9 @@
+question: Millist Bitcoini aspekti soovis Satoshi oma suhtluses juulis 2010 vähem rõhutada?
+answer: Tehingute anonüümsus
+wrong_answers:
+  - Rahapoliitika
+  - E-kaubandus
+  - Programmeeritavus
+explanation: |
+  Slashdoti esitluse kavandi kohta öeldes märkis ta, et ei soovinud anonüümsuse aspekti esiplaanile tõsta. Oma põhjuseid selgitas ta Martti Malmile [privaatselt](https: //mmalmi.github.io/satoshi/#email-197).
+reviewed: false

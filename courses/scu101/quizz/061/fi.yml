@@ -5,7 +5,6 @@ wrong_answers:
   - Swift, Kotlin, Ruby
   - PHP, Perl, Lua
 explanation: |
-  Luvussa luetellaan Python, C ja Java joitakin ohjelmointikieliä, joita
-
-
-  käytetään kyberturvallisuudessa.
+  Luvussa listataan Python, C ja Java esimerkkeinä
+  ohjelmointikielistä, joita käytetään kyberturvallisuudessa.
+reviewed: true

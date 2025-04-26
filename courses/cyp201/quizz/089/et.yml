@@ -1,0 +1,9 @@
+question: Milline samm eelneb HASH160 rakendamisele SegWit v0 aadressi genereerimisel?
+answer: Avaliku võtme tihendamine
+wrong_answers:
+  - Kontrollsumma lisamine
+  - Teisendamine bech32 formaati
+  - Kodeerimine base58check formaati
+explanation: |
+  Avalik võti tuleb enne HASH160 räsifunktsiooni läbimist tihendada, et vähendada selle suurust.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Pourquoi les Autrichiens affirment-ils que le socialisme est impossible à réaliser ?
+answer: Ils affirment que le socialisme est inefficace sur le plan économique mais juste moralement.
+wrong_answers:
+  - Le socialisme est contraire à la nature.
+  - Le socialisme est efficace sur le plan économique mais immoral.
+  - Les Autrichiens critiquent le socialisme car il ne permet pas d'innover et de créer de la richesse.
+explanation: |
+  Les économistes de l'école autrichienne considèrent le socialisme comme économiquement inefficace en raison de l'absence de mécanismes de prix libres, nécessaires pour coordonner efficacement l'économie, même s'ils reconnaissent parfois ses intentions morales.
+reviewed: false

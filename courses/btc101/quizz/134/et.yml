@@ -1,0 +1,11 @@
+question: Mis on kehtiv hash Bitcoin'i võrgus ploki kaevandamise kontekstis?
+answer: Unikaalne sõrmejälg, mis on seotud plokiga, koosnedes 256 tähemärgist.
+wrong_answers:
+  - Unikaalne kood, mida kasutatakse ploki ligipääsuks.
+  - Unikaalne parool, mis on nõutav ploki kaevandamiseks.
+  - Unikaalne identifikaator kaevandajale, kes ploki kaevandas.
+explanation: >-
+  Bitcoin'i võrgus ploki kaevandamise kontekstis on kehtiv hash
+  unikaalne sõrmejälg, mis on seotud plokiga, koosnedes 256 tähemärgist. Selle hash'i
+  kehtivus sõltub Bitcoin'i võrgu raskusastmest.
+reviewed: false

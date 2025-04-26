@@ -1,0 +1,8 @@
+question: Millist peamist probleemi näeb Bastiat maksude kasutamises ebavõrdsuse vähendamiseks?
+answer: Kõik need vastused on õiged
+wrong_answers:
+  - See loob sõltuvuse riigist
+  - See pärsib individuaalset algatusvõimet
+  - See võib viia meelevaldsuse ja konfiskeerimiseni
+explanation: |
+  Bastiat kritiseerib ümberjaotavat maksustamist, kuna see soodustab sõltuvust, pärsib algatusvõimet ja viib meelevaldsuseni, moodustades seadustatud röövimise.

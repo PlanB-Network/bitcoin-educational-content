@@ -1,9 +1,9 @@
-question: Quel est le risque de compliquer la sécurité et l'accessibilité de vos bitcoins ?
+question: Quel est le risque de compliquer excessivement la sécurité et l'accessibilité de vos bitcoins ?
 answer: Vous pouvez vous nuire si vous manipulez mal les portefeuilles de sauvegarde.
 wrong_answers:
   - Vous pouvez vous nuire si vous manipulez mal les portefeuilles physiques.
   - Vous pouvez vous nuire si vous manipulez mal les portefeuilles numériques.
-  - Vous pouvez vous nuire si vous manipulez mal les portefeuilles multisignatures.
+  - Vous pouvez vous nuire si vous manipulez mal les portefeuilles multisig.
 explanation: |
-  Compliquer la sécurité et l'accessibilité de vos bitcoins peut vous nuire si, par exemple, vous manipulez mal les sauvegardes de vos portefeuilles. Cela est dû au fait que des procédures de sauvegarde simples sont cruciales pour retrouver l'accès à vos fonds en cas de perte de votre téléphone ou de votre ordinateur.
-reviewed: false
+  Compliquer excessivement la sécurité et l'accessibilité de vos bitcoins peut vous nuire si, par exemple, vous manipulez mal les sauvegardes de vos portefeuilles. Cela est dû au fait que des procédures de sauvegarde simples sont cruciales pour récupérer l'accès à vos fonds en cas de perte de votre téléphone ou ordinateur.
+reviewed: true

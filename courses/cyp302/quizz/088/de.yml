@@ -1,0 +1,9 @@
+question: Welcher Blockverschlüsselungsalgorithmus wurde als AES-Standard angenommen?
+answer: Der Rijndael Cipher
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Der Rijndael Cipher wurde aufgrund seiner hohen Leistung und Sicherheit von NIST als symmetrischer Verschlüsselungsstandard (AES) angenommen.
+reviewed: false

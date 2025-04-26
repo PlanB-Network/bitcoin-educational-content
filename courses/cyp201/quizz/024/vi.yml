@@ -1,10 +1,8 @@
-question: Phương trình của đường cong secp256k1 được sử dụng trong Bitcoin là gì?
-answer: "y² = x³ + 7 modulo n"
+question: Kích thước của một khóa riêng thô được sử dụng trên Bitcoin là bao nhiêu?
+answer: 256 bit
 wrong_answers:
-  - "y² = x³ + ax + b"
-  - "y² = x³ + 7 modulo p"
-  - "y² = x³ + ax + b modulo n"
+  - 128 bit
+  - 512 bit
+  - 1024 bit
 explanation: |
-  "Đường cong secp256k1 được sử dụng trong Bitcoin được định nghĩa bởi các tham số a=0\
-  \ và b=7, và phương trình của nó là y² = x³ + 7 modulo n, nơi n đại diện cho\
-  \ số nguyên tố xác định thứ tự của đường cong."
+  Một khóa riêng trong Bitcoin là một số nguyên ngẫu nhiên 256-bit, đảm bảo một không gian khóa đủ lớn để bảo đảm an ninh.

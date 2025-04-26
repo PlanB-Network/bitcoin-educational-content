@@ -1,0 +1,9 @@
+question: Hva er naturen til faktoriseringsproblemet som ligger til grunn for sikkerheten til asymmetriske kryptosystemer som RSA?
+answer: Faktorisering av et tall til to veldig store primtall
+wrong_answers:
+  - Dekomponering av et tall til påfølgende faktorer av 2
+  - Redusere et tall til dets minste divisorer
+  - Multiplisere to store primtall for å oppnå et produkt
+explanation: |
+  Sikkerheten til RSA er basert på vanskeligheten med å faktorisere et stort tall (produktet av to store primtall) til dets to primtallfaktorer, en oppgave som er nesten umulig uten den private nøkkelen.
+reviewed: false

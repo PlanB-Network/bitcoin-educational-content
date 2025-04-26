@@ -1,0 +1,13 @@
+question: 礦工參與 Bitcoin Mining 流程的主要經濟誘因是什麼？
+answer: Mining 獎勵
+wrong_answers:
+  - 控制 Bitcoin 網路的能力
+  - 隨意創造新比特幣的能力
+  - 操縱 Bitcoin 價格的能力
+explanation: |
+  礦工參與的主要經濟誘因是
+  Bitcoin Mining 流程是 Mining 的獎勵。這
+  獎勵是鼓勵礦工的強大動力
+  儘管它的能源問題很嚴重，但仍願意參與 Mining 流程。
+  成本。
+reviewed: true

@@ -35,4 +35,21 @@ HDウォレットは通常、12または24の単語からなるニーモニッ�
 
 Ledgerデバイス（Stax、Flex、またはNano）にパスフレーズを設定する方法については、このチュートリアルを参照してください：
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
+COLDCARDで:
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
+Jade Plus で:
+
+https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
+Passport (batch-2) で:
+
+https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
+Trezorデバイス（Safe 3、Safe 5、またはModel One）で：
+
+https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+

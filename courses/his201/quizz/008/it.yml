@@ -1,0 +1,9 @@
+question: Cos'era e-gold?
+answer: Una valuta digitale supportata da un equivalente quantitativo di oro conservato in una cassaforte
+wrong_answers:
+  - Un'unità di valuta nell'universo di World of Warcraft
+  - Un concetto di valuta digitale la cui emissione era basata sulla prova di lavoro
+  - Un sistema di scambio online per gioielli in oro
+explanation: |
+  Il sistema fu co-fondato da Douglas Jackson e Barry Downey nel 1996 ed era accessibile con un semplice browser web.
+reviewed: false

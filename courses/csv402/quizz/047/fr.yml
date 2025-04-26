@@ -1,0 +1,9 @@
+question: Quelle technologie permet de fusionner différentes versions du stash en cas de divergence ?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Single-use seal
+  - Log-Based Replication
+explanation: |
+  Les CRDT assurent la cohérence des données en permettant de fusionner plusieurs versions du stash sans conflit côté client.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mục đích của thao tác dịch hàng trong AES là gì?
+answer: Tăng cường sự lan truyền bằng cách sắp xếp lại các byte trong bảng trạng thái
+wrong_answers:
+  - Đảm bảo mỗi khối có cùng chiều dài
+  - Áp dụng khóa bí mật cho mỗi hàng của bảng trạng thái
+  - Giới thiệu sự nhầm lẫn bổ sung bằng cách thay thế các byte
+explanation: |
+  Thao tác dịch hàng trong AES sắp xếp lại các byte trong bảng trạng thái để lan truyền thông tin, do đó tăng cường sự lan truyền.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Bei der Verschiebungscodierung, was ist das Ergebnis für das Wort DOG mit einem Schlüssel von 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Mit einer Verschiebung von 17 im Alphabet wird D zu U, O wird zu F und G wird zu X. Daher ist das verschlüsselte Wort UFX.

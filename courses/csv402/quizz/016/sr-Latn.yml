@@ -1,0 +1,9 @@
+question: Koje su dve glavne komponente pametnog Contract State u RGB?
+answer: Global State i Owned States
+wrong_answers:
+  - Commitment i Genesis
+  - Seal Definition i State Transition
+  - Valency i Contract Rights
+explanation: |
+  Global State sadrži javne podatke, dok su Owned States povezane sa specifičnim nosiocima putem UTXO-a.
+reviewed: false

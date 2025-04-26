@@ -1,9 +1,0 @@
-question: Mitä Bitcoin-käyttäjät antavat lähettäjälle, kun he haluavat vastaanottaa bitcoineja?
-answer: Vastaanotto-osoite
-wrong_answers:
-  - Julkinen avaimensa
-  - Yksityisen avaimensa
-  - Bitcoin-lompakkonsa salasanan
-explanation: |
-  Kun Bitcoin-käyttäjä haluaa vastaanottaa bitcoineja, he antavat lähettäjälle vastaanotto-osoitteen. Tämä osoite on heidän julkisen avaimensa tiiviste, jolla on tietty muoto.
-reviewed: false

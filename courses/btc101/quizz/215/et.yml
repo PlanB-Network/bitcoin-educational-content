@@ -1,0 +1,12 @@
+question: Mida tekst soovitab teha, et laiendada oma teadmisi Bitcoini kohta?
+answer: Viidata viimaste aastate jooksul loetletud ja kategoriseeritud ressursside kogumikule
+wrong_answers:
+  - Osaleda Bitcoin'i konverentsidel
+  - Investeerida Bitcoin'i
+  - Alustada Bitcoin'i kaevandamise operatsiooni
+explanation: >-
+  Tekst soovitab, et oma teadmiste laiendamiseks Bitcoini kohta võiksite
+  viidata ressursside kogumikule, mis on viimaste aastate jooksul loetletud ja kategoriseeritud,
+  kaasa arvatud podcast'id, veebilehed, artiklid, õpetused, raamatud ja muu
+  sisu.
+reviewed: false

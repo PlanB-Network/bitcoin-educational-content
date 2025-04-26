@@ -6,3 +6,4 @@ wrong_answers:
   - PHP, Perl, Lua
 explanation: |
   この章では、サイバーセキュリティで使用されるプログラミング言語としてPython、C、Javaを挙げています。
+reviewed: true

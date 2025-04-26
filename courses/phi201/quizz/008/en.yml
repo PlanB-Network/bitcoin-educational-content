@@ -1,0 +1,9 @@
+question: According to Bastiat, what is the worst form of plunder?
+answer: Taxes and monopolies
+wrong_answers:
+  - Theft committed by one individual against another
+  - War and conquests
+  - All forms of plunder are equally bad
+explanation: |
+  Bastiat considers taxes and monopolies to be the worst form of plunder because they are legitimized by the state, leading to a systematic appropriation of individuals' resources and freedoms, often under the guise of the public interest.
+reviewed: false

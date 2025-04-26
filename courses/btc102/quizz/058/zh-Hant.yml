@@ -1,0 +1,9 @@
+question: 建議偏執狂使用者使用哪種 Cold 儲存解決方案？
+answer: 空氣澆口或 DIY Hardware Wallet
+wrong_answers:
+  - 移動 Hot Wallet
+  - Exchange 平台上的保管服務
+  - 通用封閉式 Hardware Wallet
+explanation: |
+  偏執的使用者偏好使用開放原始碼解決方案進行離線儲存，以盡量降低暴露的風險。
+reviewed: false

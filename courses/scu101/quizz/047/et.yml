@@ -1,0 +1,11 @@
+question: Mis on 2FA rakendamise eesmärk?
+answer: Kaitsta sinu veebikontosid volitamata juurdepääsu eest.
+wrong_answers:
+  - Muuta sinu enda konto juurdepääsu raskemaks
+  - Jälgida sinu veebitegevusi
+  - Suurendada sinu internetiühenduse kiirust
+explanation: |
+  2FA lisab sinu veebikontodele täiendava turvakihi. Isegi kui
+  häkker saab kätte sinu parooli, ei ole tal võimalik ilma teise
+  verifitseerimisfaktorita sinu kontole juurde pääseda.
+reviewed: false

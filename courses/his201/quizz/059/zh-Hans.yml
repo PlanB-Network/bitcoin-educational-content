@@ -1,0 +1,8 @@
+question: 哪位论坛成员在2010年9月18日接受了Jeff Garzik的慷慨捐赠后，公开了他们的挖矿算法？
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  在此之前，他们一直通过对其软件的使用收取佣金来获利。他们[发布](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135)了它，并采用了免费许可证。

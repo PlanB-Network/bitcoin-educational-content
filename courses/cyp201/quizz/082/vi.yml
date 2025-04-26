@@ -1,10 +1,9 @@
-question: Một cụm mật khẩu có an toàn hơn một mật khẩu đơn giản không?
-answer: "Có"
+question: Sự khác biệt chính giữa P2PK và P2PKH là gì?
+answer: P2PK sử dụng trực tiếp khóa công khai thô, trong khi P2PKH sử dụng bản hash của khóa công khai.
 wrong_answers:
-  - "Không"
-  - Tùy thuộc vào độ dài của mật khẩu
-  - Tùy thuộc vào độ phức tạp của mật khẩu
+  - P2PK tương thích với SegWit, trong khi P2PKH thì không.
+  - P2PK sử dụng chữ ký Schnorr, trong khi P2PKH sử dụng chữ ký ECDSA.
+  - P2PK được dùng cho multisigs, trong khi P2PKH dùng cho các script đơn giản.
 explanation: |
-  Một cụm mật khẩu an toàn hơn một mật khẩu đơn giản. Cụm mật khẩu lý tưởng
-  là dài, đa dạng và ngẫu nhiên. Nó có thể tăng cường độ an toàn cho một ví hoặc phần mềm nóng.
+  P2PK khóa tiền bằng một khóa công khai thô, trong khi P2PKH sử dụng bản hash của khóa công khai.
 reviewed: false

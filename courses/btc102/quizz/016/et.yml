@@ -1,0 +1,9 @@
+question: Mitme kümnendikuni saab Bitcoin jagada?
+answer: Kaheksa
+wrong_answers:
+  - Kuus
+  - Kaksteist
+  - Seitse
+explanation: |
+  Bitcoin saab jagada kaheksanda kümnendkohani, kusjuures üks ühik on Satoshi või sat.
+reviewed: false

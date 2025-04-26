@@ -1,0 +1,9 @@
+question: Jenis serangan apa yang dapat dicegah oleh nomor urut dalam sesi komunikasi yang aman?
+answer: Serangan replay dan pengurutan ulang
+wrong_answers:
+  - Serangan penyadapan pasif
+  - Serangan penolakan layanan
+  - Serangan pemalsuan kunci
+explanation: |
+  Nomor urut dalam setiap pesan mencegah serangan replay dan pengurutan ulang, karena memungkinkan untuk verifikasi urutan dan keunikan pesan.
+reviewed: false

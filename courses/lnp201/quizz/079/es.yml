@@ -1,9 +1,0 @@
-question: ¿Qué representa el 'bc' en 'lnbc1m' en una factura de la Red Lightning?
-answer: Bitcoin mainnet
-wrong_answers:
-  - Bitcoin Cash
-  - Cadena de bloques
-  - Bitcoin Core
-explanation: |
-  En una factura de la Red Lightning, 'bc' representa Bitcoin mainnet. Esto indica que la solicitud de pago es para la red principal de Bitcoin, en contraposición a una testnet u otra red.
-reviewed: false

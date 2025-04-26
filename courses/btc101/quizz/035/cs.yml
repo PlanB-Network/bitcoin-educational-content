@@ -1,11 +1,9 @@
-question: Která z těchto možností není výhodou fiat měn?
-answer: Jsou předmětem měnové inflace
+question: Co znamená fiat peníze?
+answer: Fiat peníze jsou měna, která má hodnotu, protože ji udržuje vláda a lidé věří v její hodnotu, namísto toho, aby byla podložena fyzickým komoditním zbožím, jako je zlato.
 wrong_answers:
-  - Jsou snadno přenosné
-  - Jsou snadno dělitelné
-  - Jsou akceptovány všemi zeměmi
+  - Fiat peníze jsou měna, která je podložena fyzickým komoditním zbožím, jako je zlato nebo stříbro, což znamená, že její hodnota je přímo vázána na hodnotu tohoto zboží.
+  - Fiat peníze jsou typ kryptoměny, která funguje na decentralizované síti, umožňující peer-to-peer transakce bez potřeby centrální autority.
+  - Fiat peníze jsou měna, která nemá žádnou vnitřní hodnotu a nemůže být použita pro transakce, což ji v ekonomice činí v podstatě bezcennou.
 explanation: |
-  Fiat měny, jako je dolar a euro, jsou velmi likvidní a
-  snadno přenosné, protože jsou nyní většinou digitální. Nicméně, jejich hodnota je
-  neustále snižována měnovou inflací.
+  Fiat peníze jsou ustanoveny jako zákonné platidlo vládním dekretem a jejich hodnota není odvozena od žádného fyzického komoditního zboží.
 reviewed: true

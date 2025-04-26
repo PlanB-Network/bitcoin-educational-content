@@ -1,9 +1,11 @@
-question: Quelle est une façon de réduire la volatilité du Bitcoin?
-answer: Les couvertures financières (stablecoins)
+question: Quelle est une manière d'atténuer la volatilité du Bitcoin ?
+answer: Couvertures financières (stablecoins).
 wrong_answers:
-  - Investir tout son argent dans le Bitcoin.
+  - Investir tout votre argent dans le Bitcoin.
   - Ignorer les tendances du marché.
   - Acheter plus de Bitcoin lorsque le prix baisse.
-explanation: |
-  La volatilité du Bitcoin peut être réduite grâce à plusieurs solutions telles que les couvertures financières (stablecoins), une forte conviction à long terme (hodling), ou tout simplement ne pas investir la totalité de son argent dans le Bitcoin sans rien comprendre.
-reviewed: false
+explanation: >-
+  La volatilité du Bitcoin peut être atténuée par plusieurs solutions telles
+  que les couvertures financières (stablecoins), une forte croyance à long terme (hodling), ou simplement
+  ne pas mettre 100% de son argent dans le Bitcoin sans rien comprendre.
+reviewed: true

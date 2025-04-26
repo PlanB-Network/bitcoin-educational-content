@@ -1,0 +1,11 @@
+question: Vai trò của một điều phối viên coinjoin là gì?
+
+answer: Kết nối các thành viên và xây dựng giao dịch.
+
+wrong_answers:
+  - Mã hóa dữ liệu của người tham gia để bảo mật thông tin giao dịch.
+  - Lưu giữ hồ sơ của các coinjoin trước đó cho việc kiểm toán an ninh.
+  - Nhận bitcoin từ người tham gia để trộn chúng.
+
+explanation: |
+  Vai trò của các điều phối viên là kết nối các người dùng khác nhau và sau đó xây dựng và phát sóng giao dịch hợp tác.

@@ -1,0 +1,9 @@
+question: Který z následujících softwarů není řešením pro účtování bitcoinů?
+answer: Sparrow
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow není řešením pro účtování bitcoinů, zatímco ostatní ano (je to software pro bitcoinovou peněženku).
+reviewed: false

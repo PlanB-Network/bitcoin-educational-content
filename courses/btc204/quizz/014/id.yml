@@ -1,0 +1,9 @@
+question: Apa model privasi dari sistem Bitcoin?
+answer: Transaksi bersifat publik, tetapi identitas pengguna tidak diketahui.
+wrong_answers:
+  - Hanya Satoshi Nakamoto yang memiliki akses ke detail transaksi.
+  - Transaksi dienkripsi dan tidak terlihat di jaringan.
+  - Hanya pemerintah yang memiliki akses ke detail transaksi.
+explanation: |
+  Dalam kasus Bitcoin, karena aliran informasi tidak dapat diputus antara transaksi dan domain publik, model privasi bergantung pada pemisahan antara identitas pengguna dan transaksi.
+reviewed: false

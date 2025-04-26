@@ -1,0 +1,9 @@
+question: Mis tegi RPOW unikaalseks võrreldes teiste digitaalse valuuta kontseptsioonidega nagu eCash, b-money ja bit gold?
+answer: See põhines läbipaistval serveril
+wrong_answers:
+  - See kasutas töötõendit
+  - Selle arvestusühikut ei taganud miski
+  - Kasutajad hoidsid spetsiifiliste nimiväärtustega digitaalseid märkmeid, mitte kontosid
+explanation: |
+  See kasutas töötõendit nagu b-money ja bit gold. Sellel puudus tagatis nagu bit goldil. Nagu eCash (ja hiljem Bitcoin), võimaldas RPOW hoida individuaalseid digitaalseid märkmeid, mitte kontot, ja oli selles mõttes suhteliselt konfidentsiaalne.
+reviewed: false

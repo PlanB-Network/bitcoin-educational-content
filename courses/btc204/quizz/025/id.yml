@@ -1,0 +1,9 @@
+question: Apa itu KYC?
+answer: Sebuah prosedur untuk memverifikasi dan mencatat identitas klien.
+wrong_answers:
+  - Sebuah sistem kriptografi untuk mengamankan transaksi keuangan.
+  - Metode validasi untuk transaksi keuangan.
+  - Teknik pemasaran untuk menganalisis perilaku pelanggan.
+explanation: |
+  KYC adalah singkatan dari Know Your Customer (Kenali Pelanggan Anda). Ini memang prosedur regulasi untuk memverifikasi identitas klien.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on spetsialiseeritud SHA256 masinate ehk ASICute peamine eelis Bitcoin'i kaevandamisel?
+answer: Nad suurendavad hashimiskiirust joule'i kohta
+wrong_answers:
+  - Nad vähendavad energiatarbimist
+  - Nad suurendavad tehingute kiirust
+  - Nad suurendavad võrgu turvalisust
+explanation: >-
+  Spetsialiseeritud SHA256 masinad ehk ASICud suurendavad hashimiskiirust joule'i kohta Bitcoin'i kaevandamisel. See tähendab katsete arvu sekundi ja tarbitud energia kohta.
+reviewed: false

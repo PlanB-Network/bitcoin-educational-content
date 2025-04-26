@@ -1,0 +1,9 @@
+question: Welche Rolle spielt das Versteck?
+answer: Alle clientseitigen Daten lokal speichern
+wrong_answers:
+  - Automatisches Veröffentlichen von Transaktionen auf der Blockchain
+  - Zusammenstellung und Speicherung aller erstellten Rechnungen
+  - Verwaltung privater Bitcoin-Schlüssel
+explanation: |
+  Der Stash ist die Menge der clientseitigen Daten, die ein Benutzer lokal für einen oder mehrere RGB-Verträge speichert, um eine clientseitige Validierung durchzuführen.
+reviewed: false

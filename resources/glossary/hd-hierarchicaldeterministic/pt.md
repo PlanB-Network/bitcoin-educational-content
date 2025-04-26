@@ -1,0 +1,5 @@
+---
+term: HD (HIERÁRQUICO-DETERMINÍSTICO)
+
+---
+Refere-se a uma carteira Bitcoin que utiliza uma informação única (a semente) para gerar uma multiplicidade de pares de chaves públicas e privadas de forma sequencial e reproduzível. Este método de gestão de chaves é definido pelo padrão BIP32. A principal vantagem das carteiras HD é que permitem aos utilizadores dispor de uma multiplicidade de pares de chaves diferentes, nomeadamente para evitar a reutilização de endereços, podendo regenerá-los a todos a partir de uma única informação. Esta estrutura é descrita como hierárquica porque permite a criação de uma organização em forma de árvore de várias chaves e endereços a partir de uma única semente. E é determinística no sentido em que cada semente gera sempre a mesma sequência de chaves em qualquer carteira que esteja em conformidade com este sistema.

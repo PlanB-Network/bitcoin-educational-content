@@ -1,9 +1,9 @@
-question: Wer initiiert den Prozess des Öffnens eines Kanals im Lightning-Netzwerk?
-answer: Alice
+question: Wie schützt das Zeitfenster (timelock) vor Betrug bei Commitment-Transaktionen?
+answer: Es verhindert, dass die betreffende Partei sofort ihre Gelder abruft.
 wrong_answers:
-  - Bob
-  - Sowohl Alice als auch Bob
-  - Weder Alice noch Bob
+  - Es erstattet die Gelder automatisch an den Betrüger zurück.
+  - Es storniert die Transaktion im Falle eines Betrugsversuchs.
+  - Es blockiert die Verwendung des Widerrufsschlüssels.
 explanation: |
-  Im Prozess des Öffnens eines Kanals im Lightning-Netzwerk ist Alice diejenige, die den Prozess initiiert. Sie teilt Bob ihre Absicht mit, einen Kanal zu öffnen, und Bob antwortet mit seiner öffentlichen Adresse.
+  Das Zeitfenster (timelock) legt eine Verzögerung fest, während der der Betrüger seine Gelder nicht abrufen kann, und gibt somit der anderen Partei die Möglichkeit zu reagieren.
 reviewed: false

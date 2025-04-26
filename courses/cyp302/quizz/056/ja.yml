@@ -1,0 +1,9 @@
+question: 抽象代数の基礎となる代数構造は何ですか？
+answer: 群
+wrong_answers:
+  - 体
+  - 環
+  - 行列
+explanation: |
+  群は抽象代数の基礎となる基本的な代数構造で、特定の性質を満たす二項演算と一連の要素によって定義されます。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Como uma chave pode ser definida na criptografia por deslocamento?
+answer: Um número de 0 a 25
+wrong_answers:
+  - Uma palavra aleatória
+  - Qualquer número aleatório sem restrição
+  - Um número de 1 a 26
+explanation: |
+  Na criptografia por deslocamento, a chave é um número entre 0 e 25, que corresponde ao número de posições de deslocamento aplicadas a cada letra da mensagem em um alfabeto de 26 letras.

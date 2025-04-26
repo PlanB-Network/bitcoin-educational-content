@@ -5,7 +5,9 @@ wrong_answers:
   - The ability to create new bitcoins at will
   - The ability to manipulate the price of Bitcoin
 explanation: |
-  The main financial incentive for miners to participate in the Bitcoin
-  mining process is the mining reward. This reward serves as a powerful incentive
-  to encourage miners to participate in the mining process despite its energy cost.
-reviewed: false
+  The main financial incentive for miners to participate in
+  the Bitcoin mining process is the mining reward. This
+  reward serves as a powerful incentive to encourage miners
+  to participate in the mining process despite its energy
+  cost.
+reviewed: true

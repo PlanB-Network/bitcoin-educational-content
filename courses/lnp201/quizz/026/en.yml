@@ -1,10 +1,9 @@
-question: What happens to the funds in a Lightning Network transfer?
-answer: The funds never move, but the final balance is updated.
+question: Which channel closing method is the most economical and fast?
+answer: Cooperative closure
 wrong_answers:
-  - The funds are transferred from one side to the other.
-  - The funds are locked until the channel is closed.
-  - The funds are sent to the Bitcoin network.
+  - Forced closure
+  - Closure with cheating
+  - None are more economical and fast
 explanation: |
-  In a Lightning Network transfer, the funds never move. Instead, the final
-  balance is updated via a signed but not published on-chain transaction.
+  Cooperative closure is the fastest and most economical method because both parties agree to close the channel, adjusting the fees according to market conditions.
 reviewed: false

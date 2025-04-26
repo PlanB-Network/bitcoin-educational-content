@@ -1,0 +1,5 @@
+---
+term: NORMAALNE TULETAMINE
+
+---
+Lapseliste võtmete genereerimise protsess HD rahakottides. Tavaline tuletamine kasutab vanemate avalikku võtit funktsioonile `HMAC-SHA512` sisendina, võimaldades vanemate avalike võtmete ja vanemate ahelakoodi põhjal laste avalike võtmete genereerimist. Protsess hõlmab vanema avaliku võtme ja indeksi, mis on väiksem kui $2^{31}$, ühendamist, millele järgneb `HMAC-SHA512` rakendamine koos vanema ahelakoodiga. Tulemus jagatakse kaheks osaks: esimesed 256 bitti liidetakse vanemliku privaatvõtme juurde, et saada lapse privaatvõti, ülejäänud 256 bitti moodustavad lapse ahelakoodi. See meetod tagab, et laiendatud avalikku võtit saab kasutada lapse avalike võtmete tuletamiseks. Standardse tuletamise puhul kasutatakse tavalist tuletamist kõigil tuletamise tasanditel alates kontosügavusest. Dereerimisviiside märkimises tähistatakse tavalist tuletamist siis, kui on olemas ainult indeks ilma apsakata "`'`".

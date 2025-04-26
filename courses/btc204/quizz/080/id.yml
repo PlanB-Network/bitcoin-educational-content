@@ -1,0 +1,13 @@
+question: Apa peran dari koordinator coinjoin?
+
+answer: Menghubungkan peserta dan menyusun transaksi.
+
+wrong_answers:
+  - Mengenkripsi data peserta untuk kerahasiaan transaksi.
+  - Menyimpan catatan coinjoin sebelumnya untuk audit keamanan.
+  - Menerima bitcoin dari peserta untuk mencampurnya.
+
+explanation: |
+  Peran dari koordinator adalah untuk menghubungkan berbagai pengguna dan untuk menyusun serta kemudian menyiarkan transaksi kolaboratif.
+
+reviewed: false

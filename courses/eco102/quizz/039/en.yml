@@ -1,0 +1,9 @@
+question: What is the principle of jurists according to Bastiat?
+answer: It is the principle of the precedence of law over property
+wrong_answers:
+  - It is the principle of the precedence of property over the law
+  - It is the principle of equality before the law
+  - It is the right to property without state intervention
+explanation: |
+  For Bastiat, the principle of jurists, in opposition to that of economists, places the law as preceding property, a position he criticizes for its potential to establish injustices.
+reviewed: false

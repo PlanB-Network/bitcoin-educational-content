@@ -1,0 +1,11 @@
+question: Apa itu HashRate?
+answer: Jumlah total upaya untuk menemukan angka yang benar dalam Proof of Work.
+wrong_answers:
+  - Kecepatan di mana penambang dapat menyelesaikan Proof of Work.
+  - Jumlah total penambang dalam jaringan Bitcoin.
+  - Jumlah total bitcoin yang ditambang.
+explanation: >-
+  HashRate merujuk pada jumlah total upaya yang dilakukan penambang
+  per detik untuk menyelesaikan Proof of Work. Ini adalah ukuran dari kekuatan komputasi
+  jaringan Bitcoin.
+reviewed: false

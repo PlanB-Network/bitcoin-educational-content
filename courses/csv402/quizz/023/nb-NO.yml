@@ -1,0 +1,9 @@
+question: Hvordan forhindrer RGB dobbeltbruk under en tilstandsovergang?
+answer: Stenge en eksisterende forsegling og opprette en ny
+wrong_answers:
+  - Ved å verifisere alle transaksjoner på blokkjeden
+  - Ved å innføre multisignaturer på alle operasjoner
+  - Validering av globale tilstandsdata
+explanation: |
+  Å lukke en forsegling med en brukt UTXO beviser at en overgang er unik og ugjenkallelig.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Apa akibat dari berbagai kali redenominasi terhadap populasi?
+answer: Kehilangan tabungan dan masalah pangan.
+wrong_answers:
+  - Peningkatan kekayaan dan kelimpahan pangan.
+  - Peningkatan tabungan dan kelangkaan pangan.
+  - Penurunan kekayaan dan kelimpahan pangan.
+explanation: |
+  Melakukan redenominasi berkali-kali, menghapus nol, atau mengubah nama
+  mata uang memiliki dampak langsung terhadap populasi, mulai dari kehilangan
+  bantuan hingga masalah pangan.

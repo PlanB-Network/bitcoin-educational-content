@@ -1,0 +1,13 @@
+question: Mis on peamine risk, mis on seotud investeerimisega ettevõtetesse, mis müüvad kaevandamise riistvara ja haldavad masinaid madala energiakuluga kohtades?
+answer: Elektrivarustuse probleemid ja masinate rikked võivad jätta investorid jõuetuks, olles seotud kalli varustusega, mida nad ei kontrolli.
+wrong_answers:
+  - Ettevõtted võivad pankrotti minna ja investorid võivad oma raha kaotada.
+  - Ettevõtted võivad olla pettused ja investorid võivad oma raha kaotada.
+  - Ettevõtted ei pruugi suuta müüdud bitcoine müüa ja investorid võivad oma raha kaotada.
+explanation: |
+  Peamine risk, mis on seotud investeerimisega ettevõtetesse, mis
+  müüvad kaevandamise riistvara ja haldavad masinaid madala
+  energiakuluga kohtades, on see, et elektrivarustuse probleemid ja
+  masinate rikked võivad jätta investorid jõuetuks, olles seotud
+  kalli varustusega, mida nad ei kontrolli.
+reviewed: true

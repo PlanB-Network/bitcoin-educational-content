@@ -1,0 +1,9 @@
+question: Wie lautet der Titel von Adam Smiths Buch?
+answer: Eine Untersuchung über die Natur und die Ursachen des Reichtums der Nationen.
+wrong_answers:
+  - Eine Untersuchung über die Natur und den Geist des Reichtums der Nationen.
+  - Eine Untersuchung über die Natur und die Ursprünge des Reichtums der Nationen.
+  - Eine Untersuchung über die Ursache und die Ursprünge des Reichtums der Nationen.
+explanation: |
+  Der vollständige Titel von Adam Smiths Buch, Eine Untersuchung über die Natur und die Ursachen des Reichtums der Nationen, hebt seine Analyse der Faktoren hervor, die zur wirtschaftlichen Prosperität beitragen, und erforscht die Mechanismen der Produktion und Verteilung von Reichtum.
+reviewed: false

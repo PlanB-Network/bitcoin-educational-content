@@ -1,0 +1,9 @@
+question: Mikä oli ensimmäisen huoltajan sovelluksen nimi, joka mahdollisti Bitcoinin yksinkertaisen käytön mobiililaitteella huhtikuussa 2010?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy Shark
+explanation: |
+  Sitä [mainostettiin](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) foorumilla 30. huhtikuuta 2010 henkilön nimeltä komoto toimesta.
+reviewed: false

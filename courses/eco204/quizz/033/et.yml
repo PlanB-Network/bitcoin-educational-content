@@ -1,0 +1,12 @@
+question: Milline oli võlgade ümberhindamise mõju Weimaris?
+answer: Aktsionärid said 2,5 protsenti oma algsest investeeringust tingimusel, et kõik reparatsioonid olid makstud.
+wrong_answers:
+  - See viis valuuta edasise devalveerimiseni.
+  - See põhjustas töötuse tõusu.
+  - See viis välisinvesteeringute vähenemiseni.
+explanation: |
+  Weimaris hinnati mõned võlad ümber, et kompenseerida inflatsiooni mõju.
+  Otsus riigile kuuluvate laenude ümberhindamiseks muutus seaduseks 1925. aastal, mille tulemusena said aktsionärid
+  2,5 protsenti oma algsest investeeringust tingimusel, et kõik reparatsioonid
+  olid makstud.
+reviewed: false

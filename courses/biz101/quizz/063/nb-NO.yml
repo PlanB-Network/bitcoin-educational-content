@@ -1,0 +1,9 @@
+question: Hvilket scenario illustrerer best bruken av Essential-profilen for Bitcoin-betalinger?
+answer: En restaurant som tar imot noen få Bitcoin-betalinger i måneden
+wrong_answers:
+  - Et multinasjonalt selskap som behandler tusenvis av transaksjoner daglig
+  - En selvstendig frilanser som aksepterer betaling for fakturaene sine i bitcoins
+  - Et høyfrekvent Bitcoin-handelsbord
+explanation: |
+  Essential-profilen er rettet mot små og mellomstore bedrifter med få Bitcoin-transaksjoner, som for eksempel en restaurant.
+reviewed: false

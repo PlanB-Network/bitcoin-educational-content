@@ -1,9 +1,0 @@
-question: Qual é o elemento mais alto na hierarquia da carteira HD?
-answer: A chave privada mestra e o código da cadeia mestra
-wrong_answers:
-  - A frase mnemônica e a senha
-  - As chaves filhas
-  - A semente da carteira
-explanation: |
-  A chave privada mestra e o código da cadeia mestra são derivados da semente da carteira e são os elementos mais altos na hierarquia da carteira HD. Eles são usados para derivar chaves filhas.
-reviewed: false

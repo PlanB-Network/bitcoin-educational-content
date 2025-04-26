@@ -1,9 +1,10 @@
-question: Wann ist Satoshi Nakamoto verschwunden?
+question: Wann verschwand Satoshi Nakamoto?
 answer: Im Jahr 2010
 wrong_answers:
   - Im Jahr 2008
   - Im Jahr 2009
   - Im Jahr 2023
 explanation: |
-  Satoshi Nakamoto verschwand im Jahr 2010 und überließ seine Schöpfung der Gemeinschaft.
-reviewed: false
+  Satoshi Nakamoto verschwand im Jahr 2010 und überließ seine Schöpfung
+  der Gemeinschaft.
+reviewed: true

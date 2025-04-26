@@ -1,0 +1,11 @@
+question: Hva er rollen til samarbeidspartneren i en Stonewall x2-transaksjon?
+
+answer: Levere bitcoins for å tilføre tvil
+
+wrong_answers:
+  - Fungere som transaksjonskoordinator
+  - Motta betalingsbeløpet
+  - Sende betalingsbeløpet
+
+explanation: |
+  Samarbeidspartneren i en Stonewall x2-transaksjon leverer bitcoins for å tilføre tvil til transaksjonsanalysen, samtidig som de fullstendig får tilbake pengene sine på slutten (en nøytral handling for dem, minus gruvegebyrene).

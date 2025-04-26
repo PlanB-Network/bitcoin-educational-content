@@ -1,0 +1,11 @@
+question: Apa yang akan diandalkan oleh para penambang untuk kompensasi setelah semua 21 juta bitcoin telah diciptakan?
+answer: Penambang akan sepenuhnya mengandalkan biaya transaksi untuk kompensasi.
+wrong_answers:
+  - Penambang akan sepenuhnya mengandalkan hadiah blok untuk kompensasi.
+  - Penambang akan sepenuhnya mengandalkan konfirmasi transaksi untuk kompensasi.
+  - Penambang akan sepenuhnya mengandalkan biaya jaringan untuk kompensasi.
+explanation: |
+  Pada tahun 2140, tidak akan ada bitcoin baru yang diciptakan. Pada titik ini,
+  penambang akan sepenuhnya mengandalkan biaya transaksi untuk
+  kompensasi.
+reviewed: true

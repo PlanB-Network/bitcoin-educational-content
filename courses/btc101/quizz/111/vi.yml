@@ -1,9 +1,13 @@
-question: KYC là viết tắt của từ gì?
-answer: Biết Khách Hàng của Bạn
+question: KYC viết tắt của cụm từ nào?
+answer: Biết Khách Hàng của Bạn.
 wrong_answers:
-  - Giữ Tiền của Bạn
-  - Gõ Mã của Bạn
-  - Lịch Sự Tuân Thủ
+  - Giữ Tiền của Bạn.
+  - Gõ Mã của Bạn.
+  - Lịch Sự Tuân Thủ.
 explanation: |
-  KYC hay Biết Khách Hàng của Bạn ám chỉ quá trình doanh nghiệp thực hiện để xác minh danh tính của khách hàng của họ. Điều này thường được thực hiện để đảm bảo tuân thủ các quy định và ngăn chặn các hoạt động bất hợp pháp như rửa tiền hay gian lận.
-reviewed: false
+  KYC hay Biết Khách Hàng của Bạn ám chỉ quy trình mà
+  các doanh nghiệp áp dụng để xác minh danh tính của khách hàng của họ.
+  Điều này thường được thực hiện để đảm bảo tuân thủ
+  các quy định và ngăn chặn các hoạt động bất hợp pháp như rửa tiền
+  hoặc gian lận.
+reviewed: true

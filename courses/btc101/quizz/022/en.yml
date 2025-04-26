@@ -1,12 +1,13 @@
 question: Why did gold become the standard medium of exchange?
-answer: Due to its rarity, durability, and divisibility
+answer: Due to its rarity, durability, and divisibility.
 wrong_answers:
-  - Due to its abundance, durability, and indivisibility
-  - Due to its rarity, perishability, and divisibility
-  - Due to its abundance, perishability, and indivisibility
+  - Due to its abundance, durability, and indivisibility.
+  - Due to its rarity, perishability, and divisibility.
+  - Due to its abundance, perishability, and indivisibility.
 explanation: |
-  Gold became the standard medium of exchange due to its rarity, durability,
-  and divisibility. Its rarity prevents from devaluation from production, its durability ensured it did not
-  erode over time, and its divisibility allowed it to be used in transactions of varying
-  sizes.
+  Gold became the standard medium of exchange due to its
+  rarity, durability, and divisibility: its rarity prevented
+  the devaluation caused by production; its durability
+  ensured it would not erode over time, and its divisibility
+  allowed the usage in transactions of different sizes.
 reviewed: true

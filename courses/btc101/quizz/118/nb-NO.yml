@@ -1,0 +1,9 @@
+question: Hva er meldingen som er inneholdt i den første blokken av Bitcoin-blockchainen?
+answer: 03/jan/2009 Finansministeren på randen av andre redningspakke for banker.
+wrong_answers:
+  - Vi kan vinne et stort slag i våpenkappløpet og sikre et nytt territorium av frihet i flere år.
+  - Regjeringer er flinke til å kutte hodene av sentralt kontrollerte nettverk som Napster, men rene P2P-nettverk som Gnutella og Tor ser ut til å holde stand.
+  - Ingen av de ovennevnte
+explanation: |
+  Den første blokken av Bitcoin-blockchainen, også kjent som genesis-blokken, inneholder meldingen 03/jan/2009 Finansministeren på randen av andre redningspakke for banker, som er tittelen på The Times den dagen for å tidsstemple genesis-blokken.
+reviewed: true

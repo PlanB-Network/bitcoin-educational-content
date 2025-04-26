@@ -1,0 +1,9 @@
+question: Jaká je marxistická kritika náboženství?
+answer: Odvádí lidi od boje za jejich skutečné osvobození.
+wrong_answers:
+  - Je to opium intelektuálů.
+  - Je neslučitelné se zásadami svobody a rovnosti.
+  - Neposkytuje žádnou přidanou hodnotu v práci.
+explanation: |
+  Marx považuje náboženství za nástroj, který odvádí pracující od jejich boje za osvobození tím, že je utěšuje ohledně jejich materiálních podmínek, aniž by je povzbuzoval k změně struktur vykořisťování.
+reviewed: false

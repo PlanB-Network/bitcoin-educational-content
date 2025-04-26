@@ -4,6 +4,6 @@ wrong_answers:
   - Můžete zvýšit cenu Bitcoinu.
   - Můžete ovládat nabídku Bitcoinu.
   - Můžete zabránit ostatním v nákupu Bitcoinu.
-explanation: >-
-  Text uvádí, že nedodržování předpisů vaší země při nákupu Bitcoinu může vést k tomu, že se vystavíte riziku.
-reviewed: false
+explanation: |
+  Text kurzu uvádí, že nedodržování předpisů vaší země při nákupu Bitcoinu vás může vystavit riziku.
+reviewed: true

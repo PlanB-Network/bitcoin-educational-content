@@ -1,64 +1,18 @@
-id: 35ec0358-ead4-4c7e-9d2f-12cc0fa2b234
-chapterId: bfc96999-0ee1-5c41-8297-1b629f50cffc
-difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+id: 0ec0d2e3-51be-4262-9366-5005fa8e7980
+chapterId: 8af2948b-2ab5-54c4-862c-3414b8a285a2
+difficulty: easy
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Cryptocurrency
-  - Ponzi schemes
+  - good-practice
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2654
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2577
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1288
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2615
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2654
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-03-21
     urgency: 1
-    contributors_id:
-    reward: 2577
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2615
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2731
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2577
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2731
+    contributor_names:
+      - LoicPandul
+    reward: 0

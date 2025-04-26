@@ -1,0 +1,8 @@
+question: ¿Cómo se permitió la irresponsabilidad bancaria?
+answer: Por las garantías de que las pérdidas serían mutualizadas en caso de quiebra debido a la toma de riesgos imprudentes
+wrong_answers:
+  - Por la falta de regulaciones contra la toma de riesgos imprudentes
+  - Por la desregulación de los 90
+  - Por el sistema capitalista
+explanation: |
+  Bastiat explica que la promesa de mutualización de pérdidas alienta a los bancos a asumir riesgos excesivos, ya que tienen la seguridad de ser salvados en caso de fracaso, lo que promueve la irresponsabilidad.

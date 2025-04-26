@@ -1,0 +1,8 @@
+question: I hvilket stadium av AES-kryptering brukes Galois Fields?
+answer: I byte-substitusjon og MixColumns-operasjonen
+wrong_answers:
+  - I genereringen av den private nøkkelen
+  - Når teksten deles inn i 128-bits blokker
+  - I hvert stadium av XOR-operasjonen
+explanation: |
+  Galois Fields brukes i byte-substitusjon for å beregne den multiplikative inversen og i MixColumns-operasjonen for å utføre multiplikasjoner modulo et irreduktibelt polynom.

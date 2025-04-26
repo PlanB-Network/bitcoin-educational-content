@@ -1,0 +1,9 @@
+question: Proč je šifrování posunem zranitelné vůči útokům hrubou silou?
+answer: Protože má pouze 26 možných klíčů
+wrong_answers:
+  - Protože používá veřejný klíč
+  - Protože je založeno na symetrickém šifrování
+  - Protože používá náhodná čísla
+explanation: |
+  Šifrování posunem je snadno zranitelné vůči útokům hrubou silou, protože má pouze 26 možných klíčů, od 0 do 25, díky použití modulu 26, který sám závisí na velikosti abecedy. Nelze použít větší platné klíče, protože by v každém případě byly ekvivalentní s klíčem mezi 0 a 25. Proto je dostatečné otestovat každý z nich, aby bylo možné zprávu najít.
+reviewed: false

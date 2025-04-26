@@ -1,0 +1,11 @@
+question: O que é uma transação Stonewall x2?
+
+answer: Uma transação de pagamento na forma de um mini-coinjoin
+
+wrong_answers:
+  - Uma transação que imita um mini-coinjoin sem ser um
+  - Uma transação de pagamento simples
+  - Uma transação que envolve o destinatário nos inputs
+
+explanation: |
+  Stonewall x2 é uma forma específica de transação Bitcoin destinada a aumentar a privacidade do usuário durante um gasto, mas desta vez colaborando com uma terceira parte não envolvida no gasto. Este método funciona como um mini-coinjoin entre dois participantes, ao mesmo tempo que realiza um pagamento a uma terceira pessoa.

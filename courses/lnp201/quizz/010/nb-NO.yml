@@ -1,0 +1,9 @@
+question: Hva er det første steget i å åpne en Lightning-kanal mellom to deltakere?
+answer: Utveksle meldinger som inneholder beløpene og offentlige nøkler
+wrong_answers:
+  - Umiddelbart publisere en innskuddstransaksjon på blokkjeden
+  - Opprette en 2/2 multisignaturadresse uten forutgående utveksling
+  - Signere uttakstransaksjonen før utveksling av offentlige nøkler
+explanation: |
+  Åpningen av en kanal begynner med en utveksling av meldinger mellom de to partene, hvor de deler beløpene de ønsker å forplikte seg til og deres offentlige nøkler.
+reviewed: false

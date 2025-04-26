@@ -1,0 +1,8 @@
+question: Locke和Rousseau关于主权的理论主要区别是什么？
+answer: Locke认为主权受到自然权利的限制，而Rousseau认为它是无限的。
+wrong_answers:
+  - Locke认为主权属于君主，而Rousseau认为它属于人民。
+  - Locke认为最佳的政府形式是民主制，而Rousseau认为最佳的政府形式是共和制。
+  - 所有其他答案都是正确的。
+explanation: |
+  Locke认为，国家的主权受到个人自然权利的约束，而Rousseau则认为，代表集体意志的一般主权可以无限制地行使。

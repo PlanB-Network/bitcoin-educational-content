@@ -1,0 +1,9 @@
+question: Loại tấn công nào có thể được ngăn chặn bằng số thứ tự trong một phiên giao tiếp an toàn?
+answer: Tấn công phát lại và tấn công thay đổi thứ tự
+wrong_answers:
+  - Tấn công nghe trộm thụ động
+  - Tấn công từ chối dịch vụ
+  - Tấn công giả mạo khóa
+explanation: |
+  Một số thứ tự trong mỗi tin nhắn ngăn chặn tấn công phát lại và tấn công thay đổi thứ tự, vì nó cho phép xác minh thứ tự và tính duy nhất của các tin nhắn.
+reviewed: false

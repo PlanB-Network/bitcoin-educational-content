@@ -1,0 +1,9 @@
+question: Welchen Zweck erfüllt die Terminalsendung im Rahmen des RGB-Übertragungsprozesses?
+answer: Geschichte der staatlichen Übergänge bereitstellen
+wrong_answers:
+  - Genesis-Vertrag validieren
+  - Alte Übergänge löschen
+  - Generieren Sie ein neues Schema für die Übertragung
+explanation: |
+  Die Terminalsendung sammelt die Historie des Vertrages, um die Rechtmäßigkeit des übertragenen Vermögenswertes bis zum heutigen Tag zu beweisen.
+reviewed: false

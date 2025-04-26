@@ -1,9 +1,0 @@
-question: Qual è la differenza tra gli intervalli di indice delle chiavi figlie normali e delle chiavi figlie protette?
-answer: Le chiavi figlie normali hanno un intervallo di indice compreso tra 0 e 2 alla potenza di 31 meno 1, mentre le chiavi figlie protette hanno un intervallo di indice compreso tra 2 alla potenza di 31 e 2 alla potenza di 32 meno 1.
-wrong_answers:
-  - Le chiavi figlie normali hanno un intervallo di indice compreso tra 0 e 2 alla potenza di 32 meno 1, mentre le chiavi figlie protette hanno un intervallo di indice compreso tra 2 alla potenza di 31 e 2 alla potenza di 31 meno 1.
-  - Sia le chiavi figlie normali che le chiavi figlie protette hanno lo stesso intervallo di indice.
-  - Non c'è differenza negli intervalli di indice delle chiavi figlie normali e delle chiavi figlie protette.
-explanation: |
-  L'intervallo di indice delle chiavi figlie normali va da 0 a 2 alla potenza di 31 meno 1, mentre l'intervallo di indice delle chiavi figlie protette va da 2 alla potenza di 31 a 2 alla potenza di 32 meno 1.
-reviewed: false

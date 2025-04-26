@@ -1,0 +1,13 @@
+question: Hva er formålet med justeringsmekanismen for vanskelighetsgrad i Bitcoin-nettverket?
+answer: Å sikre at blokker blir utvunnet i gjennomsnitt hvert 10. minutt
+wrong_answers:
+  - Å øke vanskelighetsgraden for utvinning over tid
+  - Å redusere vanskelighetsgraden for utvinning over tid
+  - Å sikre at den samme gruvearbeideren ikke utvinner påfølgende blokker
+explanation: |
+  Justeringsmekanismen for vanskelighetsgrad er en avgjørende mekanisme i
+  driften av Bitcoin-nettverket, som sikrer at blokker blir
+  utvunnet i gjennomsnitt hvert 10. minutt. Denne justeringsmekanismen
+  sikrer at tiden det tar å utvinne nye blokker forblir konstant over tid,
+  uavhengig av antall gruvearbeidere eller den samlede databehandlingskraften i nettverket.
+reviewed: true

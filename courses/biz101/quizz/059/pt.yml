@@ -1,0 +1,9 @@
+question: Que dois tipos de carteira são considerados no perfil Starter?
+answer: Carteiras Lightning com e sem custódia
+wrong_answers:
+  - Carteiras Bitcoin de armazenamento quente e frio
+  - Multisig e carteiras Bitcoin de papel
+  - Carteiras Lightning de hardware e cérebro
+explanation: |
+  O perfil Starter utiliza carteiras Lightning com ou sem custódia.
+reviewed: false

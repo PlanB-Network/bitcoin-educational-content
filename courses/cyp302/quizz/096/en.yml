@@ -1,0 +1,9 @@
+question: What are the three basic steps in a MAC scheme?
+answer: Key generation, tag generation, verification
+wrong_answers:
+  - Encryption, decryption, transmission
+  - Public key generation, private key encryption, validation
+  - Message hashing, tag encryption, tag distribution
+explanation: |
+  A MAC scheme consists of three main steps: generating a secret key, producing a tag for the message, and verifying that the received message and its tag match.
+reviewed: false

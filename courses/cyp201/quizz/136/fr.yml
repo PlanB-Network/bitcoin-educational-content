@@ -1,9 +1,0 @@
-question: Quel est l'élément le plus élevé dans la hiérarchie du portefeuille HD ?
-answer: La clé privée principale et le code de chaîne principal
-wrong_answers:
-  - La phrase mnémonique et le mot de passe
-  - Les clés enfant
-  - La graine du portefeuille
-explanation: |
-  La clé privée principale et le code de chaîne principal sont dérivés de la graine du portefeuille et sont les éléments les plus élevés dans la hiérarchie du portefeuille HD. Ils sont utilisés pour dériver les clés enfant.
-reviewed: false

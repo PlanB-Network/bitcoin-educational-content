@@ -1,0 +1,9 @@
+question: Milline Schnorri omadus võimaldab ühendada mitu avalikku võtit üheks?
+answer: Võtmete Agregatsioon
+wrong_answers:
+  - Partii Kontroll
+  - Muudetavus
+  - Allkirja Kompaktimine
+explanation: |
+  Schnorr võimaldab mitme avaliku võtme agregatsiooni üheks võtmeks.
+reviewed: false

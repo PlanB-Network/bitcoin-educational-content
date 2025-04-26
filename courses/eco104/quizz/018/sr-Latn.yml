@@ -1,0 +1,12 @@
+question: Koje je značajno ograničenje sa kojim su se suočavali pojedinci tokom krize bankrota grčke vlade 2015. godine?
+answer: Nametnuta reforma bankarstva od strane vlade.
+wrong_answers:
+  - Ograničen pristup digitalnim bankarskim uslugama
+  - Nestabilnost digitalnih valuta kao što je Bitcoin
+  - Nedostatak fizičke valute (gotovine)
+explanation: |
+  Tokom krize bankrota grčke vlade 2015. godine, banke su bile zatvorene, 
+  podizanje novca sa bankomata bilo je ograničeno, a značajan deo pojedinačnih 
+  bankovnih depozita povukla je vlada kako bi finansirala fiskalnu neodgovornost.
+  Ovaj događaj je istakao rizike povezane sa držanjem novca unutar tradicionalnog bankarskog sistema.
+reviewed: true

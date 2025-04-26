@@ -1,0 +1,5 @@
+---
+term: NORMAL AVLEDNING
+
+---
+Prosessen med å generere underordnede nøkler i HD-lommebøker. Normal avledning bruker den overordnede offentlige nøkkelen som input for `HMAC-SHA512`-funksjonen, noe som muliggjør generering av underordnede offentlige nøkler fra den overordnede offentlige nøkkelen og den overordnede kjedekoden. Prosessen innebærer å sammenkoble den overordnede offentlige nøkkelen og en indeks som er mindre enn $2^{31}$, etterfulgt av anvendelsen av `HMAC-SHA512` med den overordnede kjedekoden. Resultatet deles i to deler: De første 256 bitene legges til den overordnede private nøkkelen for å få den underordnede private nøkkelen, mens de resterende 256 bitene danner den underordnede kjedekoden. Denne metoden sikrer at den utvidede offentlige nøkkelen kan brukes til å utlede offentlige nøkler for barn. Ved standard avledning brukes normal avledning på alle avledningsnivåer fra kontodybden. I notasjonen for avledningsstier identifiseres en normal avledning når det bare er indeksen uten apostrof `'`.

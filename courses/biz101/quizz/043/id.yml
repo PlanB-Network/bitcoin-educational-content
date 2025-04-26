@@ -1,0 +1,9 @@
+question: Apa yang dapat Anda lakukan tanpa perantara Bitcoin?
+answer: Nilai tukar di Internet
+wrong_answers:
+  - Membuat aplikasi terpusat
+  - Mendapatkan pinjaman bank
+  - Menyimpan data pribadi
+explanation: |
+  Bitcoin memungkinkan pertukaran nilai di Internet tanpa perantara melalui protokol peer-to-peer.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Pourquoi la rareté est-elle considérée comme une propriété importante d'une bonne monnaie ?
+answer: Parce que l'offre limitée permet d'éviter que sa valeur ne soit diluée par la surproduction.
+wrong_answers:
+  - Parce qu'elle permet à chacun de frapper facilement sa propre monnaie.
+  - Parce qu'elle rend plus difficile la reconnaissance de la monnaie.
+  - Parce qu'elle décourage l'utilisation de la monnaie dans les échanges à longue distance.
+explanation: |
+  Une monnaie dont la rareté est contrôlée maintient son pouvoir d'achat au fil du temps. En l'absence de rareté, une émission excessive pourrait conduire à l'inflation et à l'érosion de la valeur de la monnaie.
+reviewed: false

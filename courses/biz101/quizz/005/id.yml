@@ -1,0 +1,9 @@
+question: Apa satu karakteristik yang menentukan Bitcoin sebagai jaringan mata uang?
+answer: Ini seperti uang tunai dan tidak memerlukan otoritas pusat atau perantara untuk bertransaksi.
+wrong_answers:
+  - Alat ini hanya dapat berfungsi jika disahkan oleh lembaga pemerintah.
+  - Ini mengeluarkan unit mata uang baru sesuai permintaan pengguna.
+  - Bank perlu memverifikasi dan menyelesaikan setiap transaksi.
+explanation: |
+  Bitcoin beroperasi sebagai sebuah jaringan yang terdesentralisasi, yang memungkinkan siapa saja untuk berpartisipasi tanpa izin. Transaksi divalidasi oleh node dan penambang, bukan oleh otoritas pusat.
+reviewed: false

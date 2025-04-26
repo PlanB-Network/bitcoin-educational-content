@@ -1,0 +1,9 @@
+question: What role do tools like Zaprite and Musqet play in a Professional payment solution?
+answer: They refine the checkout experience
+wrong_answers:
+  - They handle multi-currency conversion and fiat disbursement
+  - They focus on encrypting transaction data and managing private keys
+  - They serve as basic POS systems
+explanation: |
+  Zaprite and Musqet add customization and reporting refinements to the checkout process, complementing the core payment infrastructure.
+reviewed: false

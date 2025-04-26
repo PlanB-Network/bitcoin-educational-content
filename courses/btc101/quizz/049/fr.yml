@@ -1,9 +1,9 @@
-question: Quelle est la première phase de l'hyperinflation ?
-answer: Perte de confiance
+question: Quelle est la première phase du phénomène d'hyperinflation ?
+answer: Perte de confiance.
 wrong_answers:
-  - Effondrement de la monnaie et augmentation des prix
-  - Le cercle vicieux de l'impression monétaire
-  - Une nouvelle monnaie émerge
+  - Effondrement de la monnaie et augmentation des prix.
+  - Le cercle vicieux de l'impression monétaire.
+  - Émergence d'une nouvelle monnaie.
 explanation: |
   La première phase de l'hyperinflation est la perte de confiance dans une monnaie.
-reviewed: false
+reviewed: true

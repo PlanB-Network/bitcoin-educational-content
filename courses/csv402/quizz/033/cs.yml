@@ -1,0 +1,9 @@
+question: K čemu slouží terminální zásilka v procesu převodu RGB?
+answer: Poskytnout historii státních přechodů
+wrong_answers:
+  - Ověření platnosti smlouvy Genesis
+  - Odstranění starých přechodů
+  - Vytvoření nového schématu pro přenos
+explanation: |
+  V terminální zásilce je shromážděna historie smlouvy, která má prokázat oprávněnost dosavadního převodu majetku.
+reviewed: false

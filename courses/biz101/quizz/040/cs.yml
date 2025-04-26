@@ -1,0 +1,9 @@
+question: Proč by se podnik mohl rozhodnout držet bitcoin jako dlouhodobou investici ve své rozvaze?
+answer: Protože může sloužit jako uchovatel hodnoty, která se může v průběhu času zhodnocovat a poskytovat zajištění proti inflaci.
+wrong_answers:
+  - Protože zajišťuje okamžité zrušení všech daní souvisejících s měnou.
+  - Protože to vyžadují mezinárodní účetní standardy.
+  - Protože Bitcoin ze své podstaty poskytuje zaručené zisky bez rizika.
+explanation: |
+  Některé společnosti považují Bitcoin za strategické dlouhodobé aktivum, které může zachovat nebo zvýšit svou hodnotu, chránit před znehodnocením tradičních měn a diverzifikovat jejich pokladnu.
+reviewed: false

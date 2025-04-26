@@ -1,80 +1,87 @@
-author: "Ludwig von Mise"
+id: 94362cbf-337a-467a-9766-d8099b9905c7
+author: Ludwig von Mise
 level: advanced
-tags:
-  - economy
-  - finance
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3346
+    contributor_names:
+    reward: 0.6
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2923
+    contributor_names:
+    reward: 0.47
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1461
+    reward: 0.24
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3134
+    contributor_names:
+    reward: 0.47
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3346
+    contributor_names:
+    reward: 0.6
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2923
+    contributor_names:
+    reward: 0.47
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3134
+    contributor_names:
+    reward: 0.47
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3769
+    contributor_names:
+    reward: 0.85
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2923
+    contributor_names:
+    reward: 0.47
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3346
+    contributor_names:
+    reward: 0.6
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3769
+    contributor_names:
+    reward: 0.85
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3557
+    contributor_names:
+    reward: 0.72
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3557
+    contributor_names:
+    reward: 0.72
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3346
+    contributor_names:
+    reward: 0.6
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.6
+tags:
+  - finance
+  - deep-dive
+  - historical
+contributor_names:
+  - Rogzy-DB

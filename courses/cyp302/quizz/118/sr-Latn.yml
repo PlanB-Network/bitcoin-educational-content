@@ -1,0 +1,9 @@
+question: Koju ulogu ima operacija zamene bajtova (S-Box) u AES enkripciji?
+answer: To uvodi zabunu zamenom svakog bajta drugim.
+wrong_answers:
+  - Osigurava integritet proverom bajtova poruke
+  - Meša kolone kako bi povećao difuziju
+  - Deli običan tekst na blokove od 128 bita
+explanation: |
+  Operacija zamene bajtova (S-Box) u AES-u uvodi konfuziju zamenom svakog bajta različitom vrednošću prema tabeli, čineći šifrovani tekst težim za analizu.
+reviewed: false

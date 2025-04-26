@@ -1,0 +1,13 @@
+question: Was ist der Unterschied zwischen phusis und nomos?
+
+answer: Phusis ist das Naturgesetz, nomos ist das menschliche Gesetz.
+
+wrong_answers:
+  - Phusis ist das Gesetz der Götter, nomos ist das Gesetz der Menschen.
+  - Phusis ist das Gesetz der Schwachen, nomos ist das Gesetz der Starken.
+  - Phusis ist das Gesetz der Antike, nomos ist das Gesetz der Moderne.
+
+explanation: |
+  In der griechischen Philosophie bezieht sich phusis auf natürliche Gesetze oder solche, die der Natur inhärent sind, unabhängig von menschlichen Handlungen, während nomos auf menschliche Gesetze verweist, die von Gesellschaften geschaffen wurden, um das Leben in der Gemeinschaft zu regulieren.
+
+reviewed: false

@@ -1,9 +1,9 @@
 question: ¿Cuál es el riesgo de complicar demasiado la seguridad y accesibilidad de tus bitcoins?
-answer: Puedes perjudicarte si manejas incorrectamente las billeteras de respaldo.
+answer: Puedes perjudicarte si manejas incorrectamente las carteras de respaldo.
 wrong_answers:
-  - Puedes perjudicarte si manejas incorrectamente las billeteras físicas.
-  - Puedes perjudicarte si manejas incorrectamente las billeteras digitales.
-  - Puedes perjudicarte si manejas incorrectamente las billeteras multisig.
+  - Puedes perjudicarte si manejas incorrectamente las carteras físicas.
+  - Puedes perjudicarte si manejas incorrectamente las carteras digitales.
+  - Puedes perjudicarte si manejas incorrectamente las carteras multisig.
 explanation: |
-  Complicar demasiado la seguridad y accesibilidad de tus bitcoins puede perjudicarte si, por ejemplo, manejas incorrectamente las copias de respaldo de tus billeteras. Esto se debe a que los procedimientos simples de respaldo son cruciales para recuperar el acceso a tus fondos en caso de pérdida de tu teléfono o computadora.
-reviewed: false
+  Complicar demasiado la seguridad y accesibilidad de tus bitcoins puede perjudicarte si, por ejemplo, manejas incorrectamente los respaldos de tus carteras. Esto se debe a que los procedimientos simples de respaldo son cruciales para recuperar el acceso a tus fondos en caso de pérdida de tu teléfono o computadora.
+reviewed: true

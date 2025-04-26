@@ -1,9 +1,0 @@
-question: Quelle est la tâche la plus simple pour gérer la liquidité sur le Lightning Network ?
-answer: Ouvrir des canaux pour les acheteurs
-wrong_answers:
-  - Se connecter à d'autres nœuds pour les commerçants
-  - Maintenir un équilibre de liquidité des deux côtés pour les nœuds de routage
-  - Acheter des canaux pour les commerçants
-explanation: |
-  Pour les acheteurs sur le Lightning Network, la tâche la plus simple pour gérer la liquidité est d'ouvrir des canaux. Cela leur permet d'avoir de la liquidité sortante.
-reviewed: false

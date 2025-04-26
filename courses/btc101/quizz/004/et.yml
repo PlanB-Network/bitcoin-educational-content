@@ -1,0 +1,11 @@
+question: Mis on Bitcoini kaks peamist aspekti?
+answer: Bitcoin on nii arvutiprotokoll kui ka rahaline ühik.
+wrong_answers:
+  - Bitcoin on nii füüsiline valuuta kui ka digitaalne rahakott.
+  - Bitcoin on nii aktsia kui ka võlakirja tüüp.
+  - Bitcoin on nii tsentraliseeritud kui ka detsentraliseeritud valuuta.
+explanation: |
+  Bitcoinil on kaks peamist aspekti, see on arvutiprotokoll, mis kasutab tehnoloogiaid
+  nagu krüptograafia ja plokiahel, ning see on rahaline ühik, mida kasutatakse
+  tehinguteks.
+reviewed: true

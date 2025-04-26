@@ -1,0 +1,9 @@
+question: Hva er prosessen der gruvearbeidere validerer transaksjoner og inkluderer dem i en blokk?
+answer: Proof of work
+wrong_answers:
+  - Proof of stake
+  - Proof of authority
+  - Proof of burn
+explanation: >-
+  Gruvearbeidere validerer transaksjoner og inkluderer dem i en blokk gjennom en prosess kalt proof of work. Dette innebærer å løse et kryptografisk puslespill.
+reviewed: false

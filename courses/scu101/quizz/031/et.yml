@@ -1,0 +1,10 @@
+question: Mida peaksite tegema, kui avastate oma arvutis viiruse?
+answer: Ühendage see internetist lahti, tehke täielik viirusetõrje skaneering ja kustutage nakatunud failid.
+wrong_answers:
+  - Jätkake arvuti tavapärast kasutamist.
+  - Lülitage arvuti välja ja jätke see mõneks tunniks välja lülitatuks.
+  - Kustutage kõik arvutis olevad failid.
+explanation: |
+  Kui avastate oma arvutis viiruse, peaksite selle internetist lahti ühendama, et vältida viiruse levikut või suhtlust häkkeriga.
+  Seejärel tehke täielik viirusetõrje skaneering ja kustutage nakatunud failid.
+reviewed: false

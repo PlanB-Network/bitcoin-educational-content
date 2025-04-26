@@ -1,0 +1,9 @@
+question: Hva er forskjellen mellom en komprimert og en ukomprimert offentlig nøkkel?
+answer: Den komprimerte offentlige nøkkelen bruker kun x-koordinaten og pariteten til y
+wrong_answers:
+  - Den komprimerte offentlige nøkkelen er mer sikker
+  - Den komprimerte offentlige nøkkelen bruker kun y-koordinaten og pariteten til x
+  - Den komprimerte offentlige nøkkelen krever en større privat nøkkel
+explanation: |
+  En komprimert offentlig nøkkel beholder kun x-koordinaten og en bit for pariteten til y, noe som reduserer størrelsen til 33 byte.
+reviewed: false

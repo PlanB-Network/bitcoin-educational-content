@@ -1,0 +1,9 @@
+question: Millist suhtumist peaksid kasutajad omama oma suhtluse privaatsusesse tänapäevases keskkonnas?
+answer: Eeldage, et keegi kuulab alati pealt
+wrong_answers:
+  - Lootke ainult Wi-Fi'le
+  - Uskuge, et mobiilandmed on täielikult turvalised
+  - Kasutage ainult juhtmega ühendusi
+explanation: |
+  Maailmas, kus paljud suhtluskanalid on pealtkuulamisele vastuvõtlikud, on tark eeldada, et kolmas osapool võib kuulata, muutes krüptograafia hädavajalikuks.
+reviewed: false

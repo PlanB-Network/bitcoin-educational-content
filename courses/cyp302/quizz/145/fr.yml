@@ -1,0 +1,9 @@
+question: Quelles sont les implications du théorème d'Euler dans le contexte de la cryptographie asymétrique ?
+answer: Il permet de simplifier le calcul des puissances
+wrong_answers:
+  - Il permet de chiffrer des messages directement
+  - Il est utilisé pour trouver des nombres premiers
+  - Il est utilisé pour vérifier la parité d'un nombre
+explanation: |
+  En cryptographie asymétrique, le théorème d'Euler simplifie le calcul de puissances dans les schémas comme RSA, car il fournit une méthode pour manipuler les exponentiations modulaires.
+reviewed: false

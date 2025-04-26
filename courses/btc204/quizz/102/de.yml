@@ -1,0 +1,13 @@
+question: Was repräsentiert der Boltzmann-Score im Kontext von Bitcoin-Transaktionen?
+
+answer: Die bedingte Wahrscheinlichkeit, dass ein Eingang mit einem gegebenen Ausgang verknüpft ist.
+
+wrong_answers:
+  - Die Gesamtmenge der übertragenen Bitcoins.
+  - Die Anzahl der Eingänge in einer Transaktion.
+  - Die Entropie, die mit jedem Eingang oder Ausgang verbunden ist.
+
+explanation: |
+  Der Boltzmann-Score gibt die bedingte Wahrscheinlichkeit an, dass ein spezifischer Eingang mit einem gegebenen Ausgang verknüpft ist. Es ist somit ein quantitatives Maß für die bedingte Wahrscheinlichkeit, dass eine Verknüpfung zwischen einem Eingang und einem Ausgang in einer Transaktion auftritt, basierend auf dem Verhältnis der Anzahl der günstigen Vorkommnisse dieses Ereignisses im Vergleich zur Gesamtzahl möglicher Vorkommnisse, in einem Satz von Interpretationen.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: LockeとRousseauの主権に関する理論の主な違いは何ですか？
+answer: Lockeは主権が自然権によって制限されると考えていたのに対し、Rousseauはそれが無制限であると考えていました。
+wrong_answers:
+  - Lockeは主権が君主に属すると考え、Rousseauはそれが人民に属すると考えました。
+  - Lockeは最良の政府形態は民主主義であると考え、Rousseauは共和制が最良であると考えました。
+  - 他の回答はすべて正しい。
+explanation: |
+  Lockeは、国家の主権は個人の自然権によって制約されると主張しましたが、Rousseauは一般的な主権が集団意志の名の下で無制限に行使されうると感じました。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Why is careful record-keeping essential when dealing with Bitcoin in a company’s accounting?
+answer: Because every Bitcoin transaction may create a taxable event, and accurate records are needed to calculate gains, losses, and tax liabilities.
+wrong_answers:
+  - Because the blockchain automatically files taxes on behalf of the company.
+  - Because no accounting standards apply to Bitcoin transactions at all.
+  - Because it’s impossible to trace Bitcoin transactions once recorded.
+explanation: |
+  Each purchase, sale, or payment made in Bitcoin could have tax implications. Keeping detailed records of cost basis, sale price, and timing ensures correct and compliant tax reporting.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Kulingana na Bastiat, mtu anaweza kupata wapi aina ya mshikamano wa kweli na uliopangwa?
+answer: katika vyama vya kusaidiana
+wrong_answers:
+  - katika hali ya ustawi
+  - katika sera za ugawaji upya
+  - katika hatua za Bismarck
+explanation: |
+  Bastiat inatetea jumuiya za kusaidiana kama mfano wa mshikamano wa kweli kwa sababu zinatokana na usaidizi wa hiari.

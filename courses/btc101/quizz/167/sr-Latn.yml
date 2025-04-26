@@ -1,0 +1,9 @@
+question: Koji je glavni problem trenutnog finansijskog sistema u odnosu na životnu sredinu?
+answer: Podstiče prekomernu potrošnju i zaduživanje.
+wrong_answers:
+  - Promoviše upotrebu fosilnih goriva.
+  - Ne ulaže u obnovljivu energiju.
+  - Ne reguliše proizvodnju robe.
+explanation: |
+  Trenutni finansijski sistem je kritikovan zbog podsticanja prekomerne potrošnje i duga, što predstavlja ozbiljne ekološke probleme. Ovo je posledica lakog pristupa kreditu, monetarnog izdavanja od strane banaka i korišćenja bankarstva sa delimičnom rezervom.
+reviewed: true

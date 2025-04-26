@@ -1,0 +1,8 @@
+question: Mis on lahendus otsevahetuse probleemile tööjaotuses?
+answer: Kaudne vahetus, mida hõlbustab raha.
+wrong_answers:
+  - Otsevahetus, mida hõlbustab vahetuskaup.
+  - Kaudne vahetus, mida hõlbustab vahetuskaup.
+  - Otsevahetus, mida hõlbustab raha.
+explanation: |
+  Raha võimaldab kaudset vahetust, kus üksikisik saab osta teiselt ja müüja saab seda rahalist ühikut kasutada mujal, teisel ajal ja kellegi teisega.

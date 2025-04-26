@@ -1,9 +1,9 @@
-question: Mikä on "yhdistäminen" transaktiossa?
-answer: Se on toiminto, jossa käytetään useita UTXO:ita syötteinä.
+question: Mikä on yhdistäminen transaktiossa?
+answer: Se on toiminto, jossa käytetään useita UTXO; ita syötteinä.
 wrong_answers:
-  - Se on toiminto, jossa luodaan useita UTXO:ita tulosteina.
+  - Se on toiminto, jossa luodaan useita UTXO: ita tulosteina.
   - Se on toiminto, jossa yhdistetään useita osoitteita yhdeksi.
   - Se on toiminto, jossa yhdistetään useita lohkoja lohkoketjussa.
 explanation: |
-  Kun käyttäjällä ei ole yhtään UTXO:a, joka olisi suurempi tai yhtä suuri kuin summa, jonka hän haluaa lähettää, hänen on käytettävä useita UTXO:itaan tyydyttääkseen tulosteet. Tätä käytäntöä kutsutaan "yhdistämiseksi".
+  Kun käyttäjällä ei ole yhtään UTXO: a, joka olisi suurempi tai yhtä suuri kuin summa, jonka hän haluaa lähettää, hänen on käytettävä useita UTXO; itaan tyydyttääkseen tulosteet. Tätä käytäntöä kutsutaan yhdistämiseksi.
 reviewed: false

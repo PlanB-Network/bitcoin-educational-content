@@ -1,9 +1,9 @@
 question: Kdy byl Bitcoin poprvé představen světu?
-answer: 31. října 2008
+answer: 31. října 2008.
 wrong_answers:
-  - 3. ledna 2009
-  - 22. listopadu 2009
-  - 12. prosince 2010
+  - 3. ledna 2009.
+  - 22. listopadu 2009.
+  - 12. prosince 2010.
 explanation: |
-  Bitcoin byl poprvé představen světu 31. října 2008, kdy Satoshi Nakamoto poslal email na mailing list cypherpunků, který obsahoval Bitcoinový White Paper.
+  Bitcoin byl poprvé představen světu 31. října 2008, kdy Satoshi Nakamoto poslal email na cypherpunk mailing list obsahující Bitcoinový White Paper.
 reviewed: true

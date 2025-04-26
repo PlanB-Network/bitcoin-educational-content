@@ -1,0 +1,11 @@
+question: Apa konsep matematika yang mengandalkan rasionalitas manusia dan digunakan dalam Bitcoin?
+answer: Teori permainan
+wrong_answers:
+  - Teori probabilitas
+  - Teori bilangan
+  - Teori himpunan
+explanation: |
+  Teori permainan adalah konsep matematika yang mengandalkan rasionalitas manusia.
+  Dalam Bitcoin, para pengguna yang menerapkan perubahan protokol, membuat setiap modifikasi
+  pada protokol Bitcoin menjadi sangat kompleks. 
+reviewed: true

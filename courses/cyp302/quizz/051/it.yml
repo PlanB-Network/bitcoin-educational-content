@@ -1,0 +1,9 @@
+question: Cosa significa il termine champ premier o corps premier?
+answer: Un campo con un numero primo di elementi
+wrong_answers:
+  - Un campo che contiene solo numeri primi
+  - Un campo definito unicamente dall'addizione di numeri primi
+  - Un campo che utilizza vettori casuali
+explanation: |
+  Un campo primo contiene un numero di elementi uguale a un numero primo, rendendolo un campo fondamentale per le operazioni crittografiche.
+reviewed: false

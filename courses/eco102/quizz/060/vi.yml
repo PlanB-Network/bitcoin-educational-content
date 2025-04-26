@@ -1,0 +1,9 @@
+question: Vấn đề chính với chi tiêu công cộng theo Bastiat là gì?
+answer: Thường xuyên bị lãng phí
+wrong_answers:
+  - Tạo ra quá nhiều việc làm
+  - Nó không công bằng với những người giàu có nhất
+  - Nó là cần thiết cho xã hội để hoạt động
+explanation: |
+  Bastiat coi chi tiêu công cộng là nguồn gốc của sự lãng phí bởi vì các khoản tiền bị thu giữ từ cá nhân thường xuyên bị nhà nước sử dụng sai mục đích.
+reviewed: false

@@ -1,9 +1,8 @@
-question: Qué sucede durante una transacción
-answer: El secreto de la transacción
+question: ¿Qué sucede si un canal con un HTLC activo se cierra forzosamente?
+answer: El HTLC se incluye en las transacciones de compromiso como un resultado.
 wrong_answers:
-  - El secreto de la transacción
-  - Se decide un nuevo secreto y se crea una nueva clave de revocación.
-  - La transacción de compromiso anterior se actualiza con el nuevo secreto y la clave de revocación.
+  - El HTLC se cancela automáticamente.
+  - Los fondos se redistribuyen a los nodos anteriores.
+  - El canal no puede cerrarse hasta que el HTLC haya expirado.
 explanation: |
-  Durante la transacción
-reviewed: false
+  Durante un cierre forzoso, los HTLC pendientes se representan como resultados en las transacciones de compromiso, asegurando así su ejecución o devolución según las condiciones definidas.

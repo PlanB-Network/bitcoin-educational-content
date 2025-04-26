@@ -1,12 +1,13 @@
 question: Was ist die Hauptfunktion eines VPN im beruflichen Kontext?
 answer: Es ermöglicht Mitarbeitern, sicher auf das interne Netzwerk des Unternehmens zuzugreifen.
 wrong_answers:
-  - Es ermöglicht Mitarbeitern, geografische Beschränkungen zu umgehen.
-  - Es ermöglicht Mitarbeitern, Online-Werbung zu blockieren.
-  - Es ermöglicht Mitarbeitern, öffentliches WLAN sicher zu nutzen.
+  - Es ermöglicht Mitarbeitern, geografische Beschränkungen sicher zu umgehen.
+  - Es ermöglicht Mitarbeitern, Online-Werbung vollständig zu blockieren.
+  - Es ermöglicht Mitarbeitern, öffentliche WLAN-Netze sicher zu nutzen.
 explanation: |
-  Im beruflichen Kontext werden VPNs hauptsächlich verwendet, um einen sicheren
-  Remote-Zugriff auf das interne Netzwerk des Unternehmens bereitzustellen. Dies wird durch Verschlüsselung
-  der zwischen dem Mitarbeiter und dem Netzwerk des Unternehmens ausgetauschten Daten erreicht, was es
-  für Dritte schwierig macht, diese abzufangen.
-reviewed: false
+  Im beruflichen Kontext werden VPNs hauptsächlich verwendet, um
+  sicheren Fernzugriff auf das interne Netzwerk des Unternehmens
+  zu gewähren. Dies wird erreicht, indem die zwischen dem Mitarbeiter
+  und dem Netzwerk des Unternehmens ausgetauschten Daten verschlüsselt
+  werden, was es Dritten erschwert, diese abzufangen.
+reviewed: true

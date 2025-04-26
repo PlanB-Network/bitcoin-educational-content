@@ -1,0 +1,8 @@
+question: Trong một trường hữu hạn, vai trò của một đa thức bất khả quy là gì?
+answer: Xác định các phép nhân trong trường
+wrong_answers:
+  - Xác định phần tử nghịch đảo cộng của mỗi phần tử
+  - Đảm bảo sự đóng của trường
+  - Xác định đơn vị nhân
+explanation: |
+  Đa thức bất khả quy được sử dụng để cấu trúc phép nhân trong các trường hữu hạn, đảm bảo rằng mỗi phần tử vẫn nằm trong trường.

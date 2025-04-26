@@ -1,0 +1,9 @@
+question: What is the main practical limitation of the one-time pad?
+answer: The key must be as long as the message and never be reused
+wrong_answers:
+  - The key must be changed every day
+  - The key must be three times longer than the message
+  - The key must necessarily be stored on a French Minitel
+explanation: |
+  The key in a one-time pad must be as long as the message and never be reused, which significantly complicates its use in practical contexts. This is because if one is able to transmit data as long as the message in a secure manner, it would make more sense to directly transmit the message rather than the key.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miten asennan rgb-työkalun Cargon kautta?
+answer: cargo install rgb-sopimukset --all-features
+wrong_answers:
+  - cargo install rgb --features all
+  - cargo install rgb-bitcoin --all
+  - cargo build rgb-lightning --release
+explanation: |
+  Asennus suoritetaan komennolla "cargo install rgb-contracts --all-features", ja sen nimi on "rgb-contracts", joka asentaa rgb-työkalun.
+reviewed: false

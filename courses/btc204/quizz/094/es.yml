@@ -1,0 +1,11 @@
+question: Entre las siguientes respuestas, ¿cuál no es una práctica recomendada para gestionar el cambio doxxic de uno?
+
+answer: Fusionar UTXOs doxxic juntos.
+
+wrong_answers:
+  - Mezclar UTXOs doxxic en un grupo más pequeño.
+  - Donar los UTXOs doxxic de uno.
+  - Marcar los UTXOs doxxic de uno como no gastables.
+
+explanation: |
+  Se desaconseja fusionar UTXOs doxxic juntos porque permite que se establezca una conexión entre las diferentes entradas del usuario en Whirlpool.

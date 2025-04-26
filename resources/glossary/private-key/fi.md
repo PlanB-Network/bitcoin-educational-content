@@ -1,0 +1,9 @@
+---
+term: PRIVATE KEY
+
+---
+Yksityinen avain on epäsymmetrisen salauksen peruselementti. Se on luku (Bitcoinin yhteydessä 256 bittiä), joka edustaa kryptografista salaisuutta. Tätä avainta käytetään transaktioiden digitaaliseen allekirjoittamiseen ja Bitcoinin julkisen avaimen (ja sitä kautta vastaanottavan osoitteen) omistajuuden todistamiseen täyttämällä `scriptPubKey`. Näin ollen yksityiset avaimet mahdollistavat bitcoinien käyttämisen avaamalla vastaavaan julkiseen avaimeen liittyvät UTXO:t. Yksityiset avaimet on pidettävä ehdottoman luottamuksellisina, koska niiden paljastuminen voisi mahdollistaa sen, että pahantahtoiset kolmannet osapuolet voisivat ottaa haltuunsa niihin liittyvät varat.
+
+Bitcoin-järjestelmässä yksityinen avain on yhdistetty julkiseen avaimeen digitaalisen allekirjoitusalgoritmin avulla, jossa käytetään elliptisiä käyriä (ECDSA tai Schnorr). Julkinen avain johdetaan yksityisestä avaimesta, mutta päinvastainen on käytännössä mahdotonta, koska taustalla olevan matemaattisen ongelman (diskreetin logaritmin ongelma) ratkaiseminen on laskennallisesti vaikeaa. Julkista avainta käytetään yleensä Bitcoin-osoitteen luomiseen, jota käytetään bitcoinien lukitsemiseen skriptin avulla. Kryptografiassa yksityiset avaimet ovat usein satunnaisia tai pseudosattumanvaraisia lukuja. Bitcoinin determinististen ja hierarkkisten lompakoiden erityisessä yhteydessä yksityiset avaimet johdetaan deterministisesti siemenestä. Yksityiset avaimet sekoitetaan usein siemeneen tai palautuslausekkeeseen (mnemonic). Nämä elementit ovat kuitenkin erillisiä.
+
+> ► *Englanniksi yksityinen avain on nimeltään "private key" Tästä termistä käytetään joskus lyhennettä "privkey" tai "PV. "*

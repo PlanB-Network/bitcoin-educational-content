@@ -1,0 +1,9 @@
+question: Mikä on algebraallinen rakenne abstraktissa algebrassa?
+answer: Joukko elementtejä, jossa on yksi tai useampi toimitus, jotka noudattavat tiettyjä aksioomeja
+wrong_answers:
+  - Joukko alkulukuja, jotka on järjestetty riveihin noudattaen tiettyjä aksioomeja
+  - Sarja algoritmeja lineaaristen yhtälöiden ratkaisemiseksi
+  - Satunnaisista geometrisista muunnoksista koostuva ryhmä, järjestetty noudattaen tiettyjä aksioomeja
+explanation: |
+  Algebraallinen rakenne on määriteltyjen elementtien joukko, jossa on yksi tai useampi toimitus, kuten yhteen- tai kertolasku, jotka noudattavat tiettyjä aksioomeja, ja se on olennainen käsitteiden rakenteellistamisessa lukuteoriassa.
+reviewed: false

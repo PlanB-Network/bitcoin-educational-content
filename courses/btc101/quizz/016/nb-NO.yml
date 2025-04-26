@@ -1,0 +1,10 @@
+question: Hva er Wei Dai's b-money?
+answer: En idé om en anonym digital valuta hvor svindeldeteksjon ble utført av et fellesskap av evaluatorer i stedet for en sentral autoritet.
+wrong_answers:
+  - En digital valuta som var mye brukt før Bitcoin.
+  - En form for digitalt penger som ble skapt av CIA.
+  - En digital valuta som ble skapt av Wei Dai som en konkurrent til Bitcoin.
+explanation: |
+  Wei Dai's b-money var en idé om en anonym digital valuta uten en sentral enhet,
+  som sterkt inspirerte Bitcoin ettersom den er sitert i Bitcoin-hvitboken.
+reviewed: true

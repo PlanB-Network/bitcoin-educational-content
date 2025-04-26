@@ -1,0 +1,8 @@
+question: 用于锁定比特币上的UTXOs的密钥是什么类型？
+answer: 公钥
+wrong_answers:
+  - 私钥
+  - 种子哈希
+  - 助记词
+explanation: |
+  UTXOs是通过公钥或其哈希锁定的，并且通过相应的私钥解锁。

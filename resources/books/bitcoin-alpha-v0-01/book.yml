@@ -1,80 +1,87 @@
+id: a54ce860-0e5e-49ce-999c-fab6d4062935
 author: Pirate Hash
 level: advanced
-tags:
-  - bitcoin
-  - technology;
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2584
+    contributor_names:
+    reward: 0.14
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2542
+    contributor_names:
+    reward: 0.13
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1271
+    reward: 0.06
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2563
+    contributor_names:
+    reward: 0.13
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2584
+    contributor_names:
+    reward: 0.14
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2542
+    contributor_names:
+    reward: 0.13
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2563
+    contributor_names:
+    reward: 0.13
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2626
+    contributor_names:
+    reward: 0.16
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2542
+    contributor_names:
+    reward: 0.13
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2584
+    contributor_names:
+    reward: 0.14
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2626
+    contributor_names:
+    reward: 0.16
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2605
+    contributor_names:
+    reward: 0.15
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2605
+    contributor_names:
+    reward: 0.15
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2584
+    contributor_names:
+    reward: 0.14
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+tags:
+  - future-outlook
+  - high-level
+  - easy-explain
+contributor_names:
+  - Rogzy-DB

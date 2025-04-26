@@ -1,9 +1,9 @@
 question: ¿Cuál es una posible implicación del avance de las tecnologías de IA?
-answer: Más del 80% de los empleos desaparecerán debido a la IA y la automatización.
+answer: Las tecnologías de IA provocarán la desaparición de más del 80% de los trabajos actuales.
 wrong_answers:
-  - Las tecnologías de IA harán que los humanos sean obsoletos.
-  - Las tecnologías de IA llevarán a una disminución en la inteligencia humana.
+  - Las tecnologías de IA destruirán todos los ordenadores.
+  - Las tecnologías de IA conducirán a una disminución de la inteligencia humana.
   - Las tecnologías de IA causarán un colapso económico global.
-explanation: |
-  El texto menciona que una posible implicación del avance de las tecnologías de IA es que más del 80% de los empleos desaparecerán debido a la IA y la automatización.
-reviewed: false
+explanation: >-
+  El texto menciona que una posible implicación del avance de las tecnologías de IA es que más del 80% de los trabajos desaparecerán debido a la IA y la automatización.
+reviewed: true

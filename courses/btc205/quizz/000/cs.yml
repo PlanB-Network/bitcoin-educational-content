@@ -1,9 +1,0 @@
-question: Jaký je hlavní cíl KYC?
-answer: Boj proti praní peněz, financování terorismu a daňovým únikům.
-wrong_answers:
-  - Zvýšit náklady na dodržování předpisů pro podniky
-  - Centralizovat citlivé databáze obsahující osobní informace uživatelů
-  - Odradit francouzské podniky a poškodit jejich konkurenceschopnost
-explanation: |
-  KYC, neboli "Know Your Customer" (Poznej svého zákazníka), je regulační standard, který má za cíl bojovat proti praní peněz, financování terorismu a daňovým únikům prostřednictvím požadavku na sběr soukromých informací o zákaznících.
-reviewed: false

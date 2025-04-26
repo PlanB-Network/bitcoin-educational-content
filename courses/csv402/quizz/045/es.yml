@@ -1,0 +1,9 @@
+question: ¿Qué norma RGB se utiliza para definir las fichas fungibles?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 es el estándar utilizado para crear y gestionar fichas fungibles a través del protocolo RGB.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on yksi Bitcoinin ominaispiirre valuuttaverkostona?
+answer: Se on kuin käteinen raha, eikä se vaadi keskusviranomaista tai välittäjää liiketoimia varten.
+wrong_answers:
+  - Se voi toimia vain silloin, kun valtion virasto on antanut siihen luvan.
+  - Se laskee liikkeeseen uusia rahayksiköitä käyttäjän pyynnöstä.
+  - Pankkien on tarkistettava ja selvitettävä jokainen maksutapahtuma.
+explanation: |
+  Bitcoin toimii hajautettuna verkkona, johon kuka tahansa voi osallistua ilman lupaa. Solmut ja louhijat, ei keskusviranomainen, validoivat transaktiot.
+reviewed: false

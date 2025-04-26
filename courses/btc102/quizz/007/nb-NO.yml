@@ -1,0 +1,9 @@
+question: Hva betyr 3-2-1-regelen når det gjelder sikkerhetskopiering av data?
+answer: 3 kopier på 2 forskjellige medier, hvorav 1 lagres eksternt
+wrong_answers:
+  - 3 eksemplarer på 2 nettmedier og 1 fysisk enhet
+  - 3 medier med 2 kopier, hvorav den ene er ekstern
+  - 3 kopier, hvorav 2 er krypterte og 1 er lagret eksternt
+explanation: |
+  Denne regelen anbefaler at man har tre kopier av data på to forskjellige typer medier, hvorav én kopi lagres eksternt for å øke robustheten.
+reviewed: false

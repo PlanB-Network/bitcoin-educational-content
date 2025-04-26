@@ -1,0 +1,9 @@
+question: Hva gjør trekantåpningsteknikken det mulig for deltakende noder å oppnå?
+answer: Innkommende og utgående likviditet i hver kanal
+wrong_answers:
+  - Reduserte rutegebyrer
+  - Et ubegrenset antall transaksjoner uten bekreftelse
+  - En direkte kobling med hver annen nettverksnode
+explanation: |
+  Trekantåpningsteknikken gjør det mulig for hver node å oppnå balansert likviditet, både innkommende og utgående, ved å danne en løkke av kanaler blant flere deltakere.
+reviewed: false

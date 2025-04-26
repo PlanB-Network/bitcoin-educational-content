@@ -1,0 +1,9 @@
+question: What does a Message Authentication Code (MAC) ensure in a cryptographic scheme?
+answer: The integrity and authenticity of the message
+wrong_answers:
+  - The confidentiality of the message
+  - The compression of the message
+  - The conversion of the message into binary
+explanation: |
+  A Message Authentication Code (MAC) is used to ensure that the message has not been altered and that it indeed comes from the presumed sender.
+reviewed: false

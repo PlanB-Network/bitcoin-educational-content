@@ -1,0 +1,8 @@
+question: Miks peetakse ühekordset märkmikku turvaliseks krüpteerimismeetodiks?
+answer: Kuna iga võtme bitt on juhuslik ja ühtegi osa ei kasutata uuesti
+wrong_answers:
+  - Kuna see kasutab juhuslikku avalikku ja privaatvõtit
+  - Kuna see toetub algarvudele
+  - Kuna see krüpteerib ainult väikeseid sõnumeid
+explanation: |
+  Ühekordne märkmik on turvaline, kuna iga võtme bitt on juhuslik ja seda ei kasutata kunagi uuesti, tagades, et see ei jäta ründajale ära kasutatavaid jälgi.

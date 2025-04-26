@@ -1,0 +1,8 @@
+question: Đối với Bastiat, quyền sở hữu được tạo ra bởi luật pháp hay tồn tại trước nó?
+answer: tồn tại trước luật pháp
+wrong_answers:
+  - được tạo ra bởi luật pháp
+  - được tạo ra bởi hợp đồng xã hội
+  - phụ thuộc vào ý chí chung
+explanation: |
+  Bastiat coi quyền sở hữu là một quyền tự nhiên tồn tại trước luật pháp, luật pháp chỉ nên đảm bảo việc bảo vệ quyền đó.

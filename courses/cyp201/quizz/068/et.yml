@@ -1,0 +1,9 @@
+question: Mis on piirang lapse avaliku võtme tuletamiseks vanema avalikust võtmest?
+answer: Lapse võti peab olema tavaline
+wrong_answers:
+  - Lapse võti peab olema kõvastunud
+  - Ahelakood peab olema identne vanema võtme omaga
+  - Protsess peab hõlmama vanema privaatvõtit
+explanation: |
+  Lapse avalik võti saab tuletada vanema avalikust võtmest ainult siis, kui see on tavaline, mitte kõvastunud.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Por que o conjunto dos inteiros com adição é um grupo, enquanto não é com multiplicação?
+answer: O conjunto não satisfaz a condição de inversão sob multiplicação
+wrong_answers:
+  - O conjunto não é fechado sob multiplicação
+  - A multiplicação não é associativa sobre os inteiros
+  - Não existe elemento neutro para a multiplicação
+explanation: |
+  O conjunto dos inteiros não satisfaz a condição de inversão sob multiplicação porque não existe um inverso para cada inteiro que multiplicado daria 1. Apenas os elementos 1 e -1 atendem a essa condição.
+reviewed: false

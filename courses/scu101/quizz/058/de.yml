@@ -1,9 +1,10 @@
-question: Welche Tools werden in der Cybersicherheit verwendet?
+question: Welche Werkzeuge werden in der Cybersicherheit verwendet?
 answer: Wireshark, Metasploit, Nmap
 wrong_answers:
   - Photoshop, Illustrator, InDesign
   - Excel, PowerPoint, Word
   - AutoCAD, SolidWorks, Revit
 explanation: |
-  Im Kapitel werden Wireshark, Metasploit und Nmap als einige der Tools aufgelistet, die in der Cybersicherheit verwendet werden.
-reviewed: false
+  Das Kapitel listet Wireshark, Metasploit und Nmap als einige
+  der Werkzeuge auf, die in der Cybersicherheit verwendet werden.
+reviewed: true

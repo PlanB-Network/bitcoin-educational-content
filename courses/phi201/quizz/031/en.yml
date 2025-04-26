@@ -1,0 +1,9 @@
+question: What is the name of the first written codification of Roman law?
+answer: The Law of the Twelve Tables
+wrong_answers:
+  - The Code of Hammurabi
+  - The Digest
+  - The Edicts of Justinian
+explanation: |
+  The Law of the Twelve Tables is the first written codification of Roman law, created to formalize the laws and ensure legal equality among citizens by making the law accessible to all.
+reviewed: false

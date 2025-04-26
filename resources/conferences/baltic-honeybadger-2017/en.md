@@ -1,17 +1,17 @@
 ---
-name: Honey Badger 2017
+name: Baltic Honeybadger 2017
 description: The most OG Bitcoin conference in the world
 ---
 
-# Main Stage 
+# Main Stage
 
 ## Day 1
 
-[live replay](https://www.youtube.com/live/DHc81OL_hk4?si=PLHOfILk8Q5pMiPp)
+![video](https://www.youtube.com/live/DHc81OL_hk4?si=PLHOfILk8Q5pMiPp)
 
 Full recording of day 1 of the Baltic Honeybadger 2017 Bitcoin Conference
 
-Timestamps: 
+Timestamps:
 
 - 00:22:32 Welcome
 - 00:23:40 Max Keidun - Organiser
@@ -27,8 +27,8 @@ Timestamps:
 - 08:08:00 Pierre Roberge - CEO at Adc4dia.com, cyber-security expert
 - 08:42:08 Panel Discussion
 
-## Day 2 
+## Day 2
 
-[live replay](https://www.youtube.com/live/BLqm2FNOmbU?si=h31tK8Ejhct_AUay)
+![video](https://www.youtube.com/live/BLqm2FNOmbU?si=h31tK8Ejhct_AUay)
 
 Full recording of day 2 of the 2017 Baltic Honeybadger Bitcoin Conference

@@ -1,9 +1,11 @@
 question: ¿Cómo puedes fortalecer la seguridad predeterminada de tu billetera de Bitcoin?
-answer: Agregando una frase de contraseña a tu billetera de Bitcoin.
+answer: Añadiendo una frase de paso a tu billetera de Bitcoin.
 wrong_answers:
-  - Agregando una segunda clave privada a tu billetera de Bitcoin.
-  - Agregando una segunda clave pública a tu billetera de Bitcoin.
-  - Agregando una segunda frase mnemotécnica a tu billetera de Bitcoin.
+  - Añadiendo una segunda clave privada a tu billetera de Bitcoin.
+  - Añadiendo una segunda clave pública a tu billetera de Bitcoin.
+  - Añadiendo una segunda frase mnemotécnica a tu billetera de Bitcoin.
 explanation: |
-  Si no estás satisfecho con la seguridad predeterminada de tu billetera de Bitcoin, siempre puedes fortalecerla agregando una frase de contraseña a tu billetera de Bitcoin.
-reviewed: false
+  Si no estás satisfecho con la seguridad predeterminada de tu
+  billetera de Bitcoin, siempre puedes fortalecerla añadiendo una
+  frase de paso a tu billetera de Bitcoin.
+reviewed: true

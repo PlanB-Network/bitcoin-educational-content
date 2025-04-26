@@ -1,0 +1,13 @@
+question: Proč je často složité použít payjoin pro platbu?
+
+answer: Vyžaduje aktivní spolupráci příjemce při konstrukci
+
+wrong_answers:
+  - Vyžaduje pevné částky pro každou transakci
+  - Nutí obě strany používat stejný typ softwaru
+  - Vyžaduje, aby platící měl alespoň 2 UTXO větší než hodnota platby
+
+explanation: |
+  Obtížnost použití payjoin spočívá v jeho závislosti na účasti obchodníka. Jako zákazník je použití payjoinu nemožné, pokud ho obchodník nepodporuje.
+
+reviewed: false

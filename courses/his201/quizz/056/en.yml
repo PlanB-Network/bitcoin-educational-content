@@ -1,0 +1,9 @@
+question: What were the standard script output patterns recognized by the software in September 2010?
+answer: Receipt by a public key (P2PK) and receipt by an address (P2PKH)
+wrong_answers:
+  - Receipt by an address (P2PKH) and receipt by a multisignature signature script (P2MS)
+  - Receipt by an address (P2PKH) and receipt by a script (P2SH)
+  - Receipt by a public key (P2PK) and receipt by a script (P2SH)
+explanation: |
+  These were the two types used since the beginning of Bitcoin. The P2MS type was made standard in March 2012. The P2SH type was added to the protocol in April 2012.
+reviewed: false

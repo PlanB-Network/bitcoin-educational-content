@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari teori bilangan?
+answer: Untuk mempelajari sifat-sifat bilangan bulat dan fungsi-fungsi yang beroperasi dengan mereka
+wrong_answers:
+  - Menganalisis transformasi geometri
+  - Mempelajari struktur dari figur geometri acak dalam sebuah grup terbatas
+  - Mengembangkan algoritma enkripsi simetris
+explanation: |
+  Teori bilangan berfokus pada sifat-sifat bilangan bulat dan fungsi-fungsi yang diterapkan pada bilangan bulat, seringkali untuk aplikasi dalam kriptografi, khususnya dalam konteks kriptografi kunci publik.
+reviewed: false

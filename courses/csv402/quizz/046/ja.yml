@@ -1,0 +1,9 @@
+question: 独自のアセット（NFT）を作成できるRGB規格は？
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  RGB21規格はユニークな資産を管理するために設計されており、プライベートメタデータをNFTに関連付けることができる。
+reviewed: false

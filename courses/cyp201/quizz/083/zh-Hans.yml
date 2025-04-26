@@ -1,0 +1,8 @@
+question: 哪种类型的地址以`1`开头，并属于传统标准？
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  P2PKH地址采用base58check编码，来源于传统标准，并以数字`1`开头。

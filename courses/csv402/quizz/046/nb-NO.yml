@@ -1,0 +1,9 @@
+question: Hvilken RGB-standard gjør det mulig å lage unike ressurser eller "NFT-er"?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  RGB21-standarden er utviklet for å håndtere unike ressurser, slik at private metadata kan knyttes til NFT-er.
+reviewed: false

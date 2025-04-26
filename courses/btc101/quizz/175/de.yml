@@ -1,9 +1,11 @@
-question: Wie kann die Volatilität von Bitcoin gemildert werden?
-answer: Finanzielle Absicherungen (Stablecoins)
+question: Wie kann man die Volatilität von Bitcoin abschwächen?
+answer: Finanzielle Absicherungen (Stablecoins).
 wrong_answers:
-  - Investieren Sie Ihr gesamtes Geld in Bitcoin.
-  - Ignorieren Sie Markttrends.
-  - Kaufen Sie mehr Bitcoin, wenn der Preis fällt.
-explanation: |
-  Die Volatilität von Bitcoin kann durch verschiedene Lösungen gemildert werden, wie zum Beispiel finanzielle Absicherungen (Stablecoins), einen starken langfristigen Glauben (Hodling) oder einfach indem man nicht 100% seines Geldes in Bitcoin investiert, ohne etwas darüber zu verstehen.
-reviewed: false
+  - All sein Geld in Bitcoin investieren.
+  - Markttrends ignorieren.
+  - Mehr Bitcoin kaufen, wenn der Preis fällt.
+explanation: >-
+  Die Volatilität von Bitcoin kann durch mehrere Lösungen gemildert werden,
+  wie finanzielle Absicherungen (Stablecoins), ein starkes langfristiges Vertrauen (Hodling) oder einfach
+  nicht 100% seines Geldes in Bitcoin zu stecken, ohne irgendetwas zu verstehen.
+reviewed: true

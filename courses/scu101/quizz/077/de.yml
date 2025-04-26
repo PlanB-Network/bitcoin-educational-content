@@ -1,0 +1,9 @@
+question: Warum ist es wichtig, seine E-Mail-Adresse zu sichern?
+answer: Weil es Ihnen ermöglicht, Ihre Passwörter zurückzusetzen.
+wrong_answers:
+- Weil sie zum Empfang von Newsletters dient.
+- Weil sie alle Ihre Passwörter enthält
+- Weil sie Ihre Bankdaten enthält
+explanation: Die E-Mail-Adresse ist der zentrale Zugangspunkt, um Passwörter abzurufen
+  und mehrere Konten zu kompromittieren, falls eine Sicherheitslücke vorliegt.
+reviewed: false

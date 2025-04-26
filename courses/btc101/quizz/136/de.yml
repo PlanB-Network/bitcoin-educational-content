@@ -1,9 +1,12 @@
-question: Wie stellt das Bitcoin-Netzwerk sicher, dass es zu teuer ist, bösartig zu handeln, innerhalb des Bitcoin-Protokolls?
+question: Wie stellt das Bitcoin-Netzwerk sicher, dass es zu kostspielig ist, innerhalb des Bitcoin-Protokolls bösartig zu handeln?
+
 answer: Durch Protokollregeln und wirtschaftliche Anreize.
+
 wrong_answers:
   - Durch strenge Regulierung und Überwachung.
   - Durch den Einsatz fortschrittlicher Sicherheitsmaßnahmen.
-  - Durch die Drohung rechtlicher Schritte.
-explanation: |
-  Das Bitcoin-Netzwerk stellt sicher, dass es zu teuer ist, bösartig zu handeln, innerhalb des Bitcoin-Protokolls durch Protokollregeln und wirtschaftliche Anreize. Dadurch entfällt die Notwendigkeit von Vertrauen bei jedem Schritt des Bitcoin-Eigentumsübertrags.
-reviewed: false
+  - Durch die Drohung mit rechtlichen Schritten.
+
+explanation: Das Bitcoin-Netzwerk stellt sicher, dass es zu kostspielig ist, innerhalb des Bitcoin-Protokolls bösartig zu handeln, durch Protokollregeln und wirtschaftliche Anreize. Dies eliminiert die Notwendigkeit von Vertrauen in jedem Schritt der Übertragung von Bitcoin-Besitz.
+
+reviewed: true

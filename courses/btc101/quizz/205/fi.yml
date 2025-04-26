@@ -1,9 +1,9 @@
-question: Mikä on yksi syy siihen, miksi sinun tulisi ajoittain yhdistää UTXO:si lompakoissasi?
-answer: Välttääksesi tarpeettomia maksuja transaktioiden aikana.
+question: Mikä on yksi syy siihen, miksi sinun tulisi ajoittain yhdistää UTXO; si lompakoissasi?
+answer: Välttääksesi tarpeettomia maksuja tapahtumien aikana.
 wrong_answers:
-  - Lisätäksesi Bitcoiniesi arvoa.
-  - Estääksesi Bitcoiniesi varastamisen.
-  - Varmistaaksesi, että Bitcoinisi ovat aina saatavilla.
+  - Lisätäksesi bitcoiniesi arvoa.
+  - Estääksesi bitcoiniesi varastamisen.
+  - Varmistaaksesi, että bitcoinisi ovat aina saatavilla.
 explanation: >-
-  Tekstissä mainitaan, että UTXO:idesi yhdistäminen lompakoissasi ajoittain on olennaista bitcoiniesi tehokkaan hallinnan kannalta ja tarpeettomien maksujen välttämiseksi transaktioiden aikana.
-reviewed: false
+  Tekstissä mainitaan, että UTXO: idesi yhdistäminen lompakoissasi ajoittain on olennaista bitcoiniesi tehokkaan hallinnan kannalta ja tarpeettomien maksujen välttämiseksi tapahtumien aikana.
+reviewed: true

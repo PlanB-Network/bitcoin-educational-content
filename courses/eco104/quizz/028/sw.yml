@@ -1,0 +1,11 @@
+question: Je, kuna mtu yeyote anaweza kunakili msimbo wa Bitcoin?
+answer: ndio lakini huwezi kunakili thamani ya mtandao wa Bitcoin
+wrong_answers:
+  - ndio na ungenakili thamani ya mtandao wa Bitcoin pia
+  - hapana na unaweza kunakili thamani ya mtandao wa Bitcoin
+  - hapana, kwa sababu nambari ya Bitcoin ni chanzo kilichofungwa
+explanation: |
+  Ingawa nambari ya Bitcoin ni chanzo wazi na inaweza kunakiliwa,
+  thamani ya Bitcoin haitokani na msimbo wake. Imechukuliwa kutoka
+  mtandao wake wa watumiaji na imani na kupitishwa ambayo imejijengea kwa muda.
+reviewed: true

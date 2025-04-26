@@ -1,0 +1,9 @@
+question: Welche Methode wird in RGB verwendet, um eine Einwegplombe zu definieren?
+answer: Ein spezifischer Outpoint
+wrong_answers:
+  - Ein bestimmter öffentlicher Schlüssel
+  - Eine bestimmte Bitcoin-Adresse
+  - Eine Kombination aus mehreren UTXOs
+explanation: |
+  RGB definiert eine Einwegplombe als einen bestimmten Ausgangspunkt, der dann durch die Ausgaben dieses Ausgangspunktes (TXID + Ausgangsnummer) geschlossen werden kann.
+reviewed: false

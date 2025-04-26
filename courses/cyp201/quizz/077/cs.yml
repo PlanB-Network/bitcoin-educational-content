@@ -1,11 +1,9 @@
-question: Jaké jsou charakteristiky účinného hesla pro Bitcoin peněženku?
-answer: Dlouhé (20 až 40 znaků) a rozmanité (používající velká písmena, malá písmena, čísla a symboly)
+question: Proč jsou deskriptory obzvláště užitečné pro multisignature peněženky?
+answer: Zahrnují xpub každého faktoru a popisují strukturu multisignatury
 wrong_answers:
-  - Krátké a jednoduché
-  - Dlouhé a jednoduché
-  - Krátké a rozmanité
+  - Eliminují potřebu mnemonické fráze
+  - Zjednodušují generování hardened klíčů
+  - Dělají multisignatury kompatibilními se všemi skripty
 explanation: |
-  Účinné heslo by mělo být dlouhé (20 až 40 znaků) a rozmanité
-  (používající velká písmena, malá písmena, čísla a symboly). Nemělo by
-  být přímo spojeno s uživatelem nebo jeho prostředím.
+  Deskriptory zahrnují rozšířené veřejné klíče všech účastníků, což usnadňuje obnovu a správu konfigurací multisignatury.
 reviewed: false

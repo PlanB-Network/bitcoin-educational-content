@@ -1,0 +1,10 @@
+question: Mis on hüperinflatsiooni tagajärg?
+answer: Valuuta väärtuse drastiline langus
+wrong_answers:
+  - Valuuta väärtuse märkamatu langus
+  - Valuuta väärtuse drastiline tõus
+  - Valuuta väärtuse märkamatu tõus
+explanation: |
+  Hüperinflatsiooni tõttu kaotavad inimesed kiiresti täielikult usalduse valuuta vastu, 
+  mis viib valuuta väärtuse drastilise languseni lühikese aja jooksul.
+reviewed: true

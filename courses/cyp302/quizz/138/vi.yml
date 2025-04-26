@@ -1,0 +1,8 @@
+question: Tính chất nào mà một hàm băm phải có để đảm bảo an ninh trong quá trình xác minh phần mềm?
+answer: Kháng va chạm
+wrong_answers:
+  - Tính đảo ngược
+  - Khả năng hoạt động với khóa bất đối xứng
+  - Khả năng tạo ra thời gian thực
+explanation: |
+  Tính kháng va chạm đảm bảo rằng thực tế là không thể tìm thấy hai đầu vào khác nhau tạo ra cùng một giá trị băm, điều này quan trọng để xác minh rằng phần mềm không bị can thiệp.

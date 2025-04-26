@@ -1,0 +1,9 @@
+question: Jak mohou strany zajistit správné pořadí zpráv v bezpečné relaci?
+answer: Použitím sekvenčních čísel v každé zprávě
+wrong_answers:
+  - Výměnou klíčů pro každou zprávu
+  - Přidáním zpoždění mezi zprávy
+  - Šifrováním zpráv různým algoritmem
+explanation: |
+  Sekvenční čísla zajistí, že zprávy jsou přijímány ve správném pořadí a zabraňují jejich přeuspořádání.
+reviewed: false

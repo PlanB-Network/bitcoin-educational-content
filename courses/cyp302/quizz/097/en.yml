@@ -1,0 +1,9 @@
+question: Why is confidentiality alone not enough to ensure secure communication?
+answer: Because an attacker can still intercept and modify the message without understanding its content.
+wrong_answers:
+  - Because confidentiality is too difficult to obtain.
+  - Because private keys can be easily guessed.
+  - Because messages cannot be authenticated without a digital signature.
+explanation: |
+  Confidentiality protects the content of messages, but without a MAC, an attacker could still intercept and modify a message without understanding it, thus compromising the integrity of the communication.
+reviewed: false

@@ -3,7 +3,9 @@ answer: Minimální cenu
 wrong_answers:
   - Maximální cenu
   - Pevnou cenu
-  - Proměnlivou cenu
+  - Variabilní cenu
 explanation: |
-  Těžba stanovuje minimální cenu pro Bitcoin, pod kterou by těžaři prodávali se ztrátou. Náklady na těžbu významně ovlivňují cenu Bitcoinu.
-reviewed: false
+  Těžba stanovuje minimální cenu pro Bitcoin, pod kterou
+  by těžaři prodávali se ztrátou. Náklady na těžbu
+  významně ovlivňují cenu Bitcoinu.
+reviewed: true

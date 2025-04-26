@@ -1,9 +1,11 @@
 question: O que é o HashRate?
-answer: A quantidade total de tentativas de encontrar o número correto na Prova de Trabalho.
+answer: O número de cálculos de hash que um dispositivo de mineração pode realizar por segundo para resolver o Proof of Work (Prova de Trabalho).
 wrong_answers:
-  - A velocidade com que um minerador pode resolver a Prova de Trabalho.
+  - A velocidade com que um dispositivo de mineração pode resolver o Proof of Work.
   - O número total de mineradores na rede Bitcoin.
-  - A quantidade total de bitcoins minerados.
-explanation: |
-  O HashRate refere-se ao número total de tentativas que os mineradores fazem por segundo para resolver a Prova de Trabalho. É uma medida do poder computacional da rede Bitcoin.
-reviewed: false
+  - A quantidade total de bitcoins minerados ao realizar um certo número de tentativas por segundo para resolver o Proof of Work.
+explanation: >-
+  O HashRate refere-se ao número total de tentativas que os mineradores fazem
+  por segundo para resolver o Proof of Work. É uma medida da potência computacional
+  da rede Bitcoin.
+reviewed: true

@@ -1,9 +1,0 @@
-question: Was ist der Zweck des LNURL-Meta-Protokolls in einer Lightning Network Rechnung?
-answer: Es ermöglicht die direkte Angabe eines Satoshi-Betrags anstelle einer Anfrage.
-wrong_answers:
-  - Es verschlüsselt die Rechnungsdaten.
-  - Es überprüft die Identität des Empfängers.
-  - Es berechnet die Transaktionsgebühr.
-explanation: |
-  Das LNURL-Meta-Protokoll in einer Lightning Network Rechnung ermöglicht die direkte Angabe eines Satoshi-Betrags anstelle einer Anfrage. Diese Funktion verbessert die Benutzererfahrung, indem der Zahlungsprozess flexibler gestaltet wird.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Comment définit-on une chaîne random dans ce chapitre ?
+answer: Comme une chaîne choisie uniformément parmi toutes les chaînes de même longueur
+wrong_answers:
+  - Comme une chaîne créée uniquement avec des bits 0 et 1
+  - Comme une chaîne obtenue à partir d'une sélection manuelle
+  - Comme une chaîne de longueur variable issue d'un processus de chiffrement
+explanation: |
+  Une chaîne random est définie comme étant issue d'une sélection uniforme parmi toutes les chaînes possibles de même longueur.
+reviewed: false

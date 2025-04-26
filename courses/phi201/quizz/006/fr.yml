@@ -1,0 +1,9 @@
+question: Quelle est la source de l'oppression selon Bastiat ?
+answer: La soif du pouvoir
+wrong_answers:
+  - La nature humaine intrinsèquement mauvaise
+  - L'absence de pouvoir
+  - Les inégalités économiques
+explanation: |
+  Bastiat identifie la soif du pouvoir comme la source fondamentale de l'oppression, arguant que ceux qui détiennent le pouvoir cherchent souvent à l'étendre et à contrôler les autres, ce qui entraîne des abus et des violations des droits individuels.
+reviewed: false

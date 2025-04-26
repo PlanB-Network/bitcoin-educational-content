@@ -2,11 +2,12 @@ question: Miksi on suositeltavaa poistaa evästeet jokaisen sivustokäynnin jäl
 answer: Estääkseen kolmansien osapuolien sivustoja seuraamasta online-toimintaasi.
 wrong_answers:
   - Säästääksesi tallennustilaa laitteellasi.
-  - Estääkseen sivustoa muistamasta kirjautumistietojasi.
-  - Estääkseen sivustoa näyttämästä sinulle kohdennettuja mainoksia.
+  - Estääksesi sivustoa muistamasta kirjautumistietojasi.
+  - Estääksesi sivustoa näyttämästä sinulle kohdennettuja mainoksia.
 explanation: |
-  Evästeet ovat tiedostoja, joita verkkosivustot luovat tallentaakseen tietoa laitteellesi.
-  Vaikka jotkin sivustot vaativat näitä evästeitä toimiakseen kunnolla, niitä voidaan myös hyväksikäyttää
-  kolmansien osapuolien sivustojen toimesta, erityisesti mainonnan seurantatarkoituksiin. Evästeiden poistaminen
-  jokaisen sivustokäynnin jälkeen voi auttaa estämään tämän.
-reviewed: false
+  Evästeet ovat tiedostoja, joita verkkosivustot luovat tallentaakseen tietoa
+  laitteellesi. Vaikka jotkin sivustot vaativat näitä evästeitä toimiakseen kunnolla,
+  ne voidaan myös hyödyntää kolmansien osapuolien sivustojen toimesta, erityisesti
+  mainonnan seurantatarkoituksiin. Evästeiden poistaminen jokaisen sivustokäynnin jälkeen voi
+  auttaa estämään tämän.
+reviewed: true

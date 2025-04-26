@@ -1,0 +1,8 @@
+question: 1970年代，密码学家Diffie、Hellman和Merkle试图解决什么主要问题？
+answer: 密钥分发和管理的问题
+wrong_answers:
+  - 发展后量子密码学
+  - 保护军事通信
+  - 改进对称加密技术
+explanation: |
+  Diffie、Hellman和Merkle受到密钥分发和管理在保护通信中的实际困难的启发，这是向数字通信转型的世界中的关键挑战。

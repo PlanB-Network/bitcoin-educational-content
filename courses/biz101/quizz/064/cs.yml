@@ -1,0 +1,9 @@
+question: Která funkce činí švýcarské řešení Bitcoin Pay obzvláště vhodným pro malé podniky v profilu Essential?
+answer: Uživatelsky přívětivá aplikace PoS
+wrong_answers:
+  - Pokročilé funkce obchodování ve více měnách
+  - Správa peněženky s více podpisy
+  - Úplná integrace blockchainové analytiky
+explanation: |
+  Swiss Bitcoin Pay je navržen s jednoduchým rozhraním PoS, které zjednodušuje každodenní operace.
+reviewed: false

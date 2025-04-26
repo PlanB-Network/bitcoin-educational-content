@@ -1,0 +1,9 @@
+question: Minä vuonna Yhdysvaltain viranomaiset sulkivat Liberty Reserve -järjestelmän?
+answer: 2013
+wrong_answers:
+  - 2007
+  - 2009
+  - 2011
+explanation: |
+  24. toukokuuta 2013 sen perustaja, Arthur Budovsky, ja hänen pääkumppaninsa syytettiin ja pidätettiin, ja pääsivusto takavarikoitiin Yhdysvaltain oikeusministeriön toimesta.
+reviewed: false

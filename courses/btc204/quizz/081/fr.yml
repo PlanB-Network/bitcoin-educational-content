@@ -8,6 +8,6 @@ wrong_answers:
   - Les adresses P2TR.
 
 explanation: |
-  Dans les coinjoins dits "chaumiens", on combine l'utilisation de Tor et des signatures aveugles de David Chaum pour garantir que le coordinateur ne puisse pas savoir quel output appartient à quel utilisateur.
+  Dans les coinjoins dits chaumiens, on combine l'utilisation de Tor et des signatures aveugles de David Chaum pour garantir que le coordinateur ne puisse pas savoir quel output appartient à quel utilisateur.
 
 reviewed: false

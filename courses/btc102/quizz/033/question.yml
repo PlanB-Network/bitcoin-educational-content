@@ -1,63 +1,18 @@
-id: 465d10a5-09aa-4cf7-a35a-34fb5aec639e
-chapterId: d4327ac4-9ff8-5192-b542-cb78c0bd0aa7
+id: 89bd3f1b-79be-4393-a557-16cd59ea30aa
+chapterId: 03017765-53cf-5f14-9682-e99ca02d2241
 difficulty: hard
-duration: 45
-author: DecouvreBitcoin
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Ideologies
+  - good-practice
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2702
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2601
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1300
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2651
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2702
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-03-21
     urgency: 1
-    contributors_id:
-    reward: 2601
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2651
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2803
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2601
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2803
+    contributor_names:
+      - LoicPandul
+    reward: 0

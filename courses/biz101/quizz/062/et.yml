@@ -1,0 +1,9 @@
+question: Milline alternatiivne lahendus Swiss Bitcoin Pay'ile, et aktsepteerida Bitcoini makseid Essential-profiili jaoks, on 100% eestkostetav?
+answer: Avatud sõlme
+wrong_answers:
+  - BTCPay server
+  - Bitcoinize PoS
+  - Phoenix rahakott
+explanation: |
+  Open Node'i iseloomustatakse kui täielikult hoiustatud lahendust, mis erineb Swiss Bitcoin Pay'i hübriidsest olemusest.
+reviewed: false

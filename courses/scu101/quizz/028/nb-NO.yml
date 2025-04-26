@@ -1,0 +1,8 @@
+question: Hva er det første angrepsvektoren for hackere?
+answer: E-poster
+wrong_answers:
+  - Sosiale medier
+  - Nettbutikker
+  - Banknettsteder
+explanation: |
+  E-poster er den første angrepsvektoren for hackere. De bruker phishingforsøk for å utvinne sensitiv informasjon som dine påloggingsdetaljer og passord.

@@ -1,0 +1,10 @@
+question: Apa teknologi yang digunakan dalam Dompet Bitcoin untuk mengamankan dana pengeluaran di Dompet Bitcoin?
+answer: Kriptografi kurva eliptik
+wrong_answers:
+  - Kriptografi simetris
+  - Kriptografi kuantum
+  - Kriptografi RSA
+explanation: |
+  Menghabiskan Bitcoin memerlukan pemilik untuk menggunakan Kurva Eliptik untuk membuat tanda tangan
+  untuk transaksi Bitcoin.
+reviewed: benar

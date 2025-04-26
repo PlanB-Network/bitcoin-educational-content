@@ -1,0 +1,9 @@
+question: Como é que a Lightning Network ajuda a reduzir as taxas das transacções Bitcoin?
+answer: Conduzindo a maioria das transacções fora da cadeia e publicando apenas as transacções de liquidação do canal na cadeia de blocos principal.
+wrong_answers:
+  - Eliminando toda a verificação criptográfica dos pagamentos.
+  - Ao centralizar o controlo num grande centro de pagamentos.
+  - Exigindo que os comerciantes paguem antecipadamente todos os custos de rede.
+explanation: |
+  Uma vez que as transacções Lightning acontecem fora da cadeia, apenas os estados finais do canal são liquidados na blockchain da Bitcoin. Isso reduz o congestionamento e, portanto, diminui as taxas, evitando fazer muitas transações na cadeia.
+reviewed: false

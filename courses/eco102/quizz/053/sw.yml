@@ -1,0 +1,9 @@
+question: Je, ni dhana gani ya kiuchumi ambayo Bastiat anaangazia katika uchanganuzi wake wa gharama ya uharibifu?
+answer: Gharama ya fursa
+wrong_answers:
+  - Gharama ya chini
+  - Uzalishaji mdogo
+  - Gharama ya uzalishaji
+explanation: |
+  Bastiat anasisitiza umuhimu wa gharama ya fursa, akionyesha kwamba rasilimali zilizotumiwa kurekebisha uharibifu zingeweza kutumika kutengeneza utajiri mahali pengine.
+reviewed: false

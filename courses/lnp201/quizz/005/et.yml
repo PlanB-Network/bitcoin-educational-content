@@ -1,0 +1,9 @@
+question: Mis on privaatvõtme peamine roll Bitcoin süsteemis?
+answer: Tehingute allkirjastamine skripti rahuldamiseks
+wrong_answers:
+  - Töötada identifikaatorina bitcoinide vastuvõtmiseks
+  - Fondide turvaline hoidmine plokiahelas
+  - Lukustusskriptide loomine bitcoinide kaitsmiseks
+explanation: |
+  Privaatvõtit kasutatakse tehingute allkirjastamiseks, et rahuldada skripti ja avada bitcoinid.
+reviewed: false

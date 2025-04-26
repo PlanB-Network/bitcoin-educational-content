@@ -1,11 +1,13 @@
-question: Why can't gold keep up in a globalized and digital world?
-answer: It needs a central entity to make it divisible and easily exchangeable
+question: Why can't gold perform well in a globalized and digital world?
+answer: Because it needs a central entity to make it divisible and easily exchangeable.
 wrong_answers:
-  - It is not valuable enough
-  - It is not rare enough
-  - It erodes over time
+  - Because it is not valuable enough.
+  - Because it is not rare enough.
+  - Because it erodes over time.
 explanation: |
-  Gold cannot keep up in a globalized and digital world because it needs
-  a central entity to make it divisible and easily exchangeable. This makes it less
-  practical for use in a world where transactions are increasingly digital and decentralized.
+  Gold cannot keep up in a globalized and digital world
+  because it needs a central entity to make it divisible and
+  easily exchangeable. This makes it less practical to use in
+  a world where transactions are increasingly digital and
+  decentralized.
 reviewed: true

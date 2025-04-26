@@ -5,9 +5,5 @@ wrong_answers:
   - すべての広告をブロックします。
   - アクセスがブロックされたウェブサイトへのアクセスを可能にします。
 explanation: |
-  DOH (DNS over HTTPS) と DOT (DNS over TLS) はDNS接続を暗号化し、
-  より高いプライバシーとセキュリティを提供します。これらのプロトコルは、
-  強化されたセキュリティのために企業で広く使用されており、Windows、Android、
-  iPhoneにネイティブでサポートされています。「中間者攻撃」を回避することで、
-  プライバシーとセキュリティを向上させます。
-reviewed: false
+  DOH (DNS over HTTPS) と DOT (DNS over TLS) はDNS接続を暗号化し、より高いプライバシーとセキュリティを提供します。これらのプロトコルは、強化されたセキュリティのために企業で広く使用されており、Windows、Android、iPhoneにネイティブでサポートされています。プライバシーとセキュリティを向上させるために、「中間者攻撃」を回避します。
+reviewed: true

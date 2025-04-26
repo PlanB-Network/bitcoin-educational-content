@@ -1,0 +1,11 @@
+question: Apa arti dari penyesuaian kesulitan dalam jaringan Bitcoin?
+answer: Ini memastikan bahwa sebuah blok ditambahkan kira-kira setiap sepuluh menit.
+wrong_answers:
+  - Ini menentukan harga Bitcoin.
+  - Ini mengatur jumlah Bitcoin yang dapat ditambang.
+  - Ini menentukan ukuran sebuah blok.
+explanation: >-
+  Penyesuaian kesulitan dalam jaringan Bitcoin memastikan bahwa sebuah blok
+  ditambahkan kira-kira setiap sepuluh menit. Ini adalah bagian dari aturan protokol
+  jaringan Bitcoin.
+reviewed: false

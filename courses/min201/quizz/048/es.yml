@@ -1,9 +1,12 @@
 question: ¿Cuál es una forma única de involucrarse en el ecosistema de Bitcoin a través de la minería?
-answer: Minar Bitcoin en invierno puede ser una forma inteligente de calentar tu hogar mientras generas ingresos en Bitcoin.
+answer: Minar Bitcoin en invierno puede ser una manera ingeniosa de calentar tu hogar mientras generas ingresos en Bitcoin.
 wrong_answers:
-  - Minar Bitcoin puede ser una forma de obtener electricidad gratuita.
-  - Minar Bitcoin puede ser una forma de obtener internet gratuito.
-  - Minar Bitcoin puede ser una forma de obtener hardware gratuito.
+  - Minar Bitcoin puede ser una forma de obtener electricidad gratis.
+  - Minar Bitcoin puede ser una forma de obtener internet gratis.
+  - Minar Bitcoin puede ser una forma de obtener hardware gratis.
 explanation: |
-  Una forma única de involucrarse en el ecosistema de Bitcoin a través de la minería es minar Bitcoin en invierno. Esto puede ser una forma inteligente de calentar tu hogar mientras generas ingresos en Bitcoin.
-reviewed: false
+  Una forma única de involucrarse en el ecosistema de Bitcoin
+  a través de la minería es minando Bitcoin en invierno. Esto puede
+  ser una manera ingeniosa de calentar tu hogar mientras generas ingresos
+  en Bitcoin.
+reviewed: true

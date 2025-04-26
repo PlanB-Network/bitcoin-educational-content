@@ -1,0 +1,12 @@
+question: Hva er den største fordelen med å bruke åpen kildekode-programvare?
+answer: Den tillater verifisering av at det ikke finnes skjult tilgang for å stjele dine personlige data.
+wrong_answers:
+  - Den er alltid gratis.
+  - Den er alltid tryggere enn programvare med lukket kildekode.
+  - Den er alltid mer brukervennlig enn programvare med lukket kildekode.
+explanation: |
+  Åpen kildekode-programvare er programvare hvis kode er kjent og tilgjengelig
+  for alle. Dette tillater blant annet verifisering av at det ikke finnes
+  skjult tilgang for å stjele dine personlige data. Det er imidlertid ikke alltid gratis, tryggere,
+  eller mer brukervennlig enn programvare med lukket kildekode.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Что такое OpenNode?
+answer: Простое онлайн-решение для бизнеса по приему Bitcoin
+wrong_answers:
+  - Тип Bitcoin
+  - Программное обеспечение для майнинга Bitcoin
+  - Платформа обмена Bitcoin
+explanation: >-
+  OpenNode - это простое онлайн-решение для бизнеса по приему Bitcoin.
+  Другие решения включают Swiss Bitcoin Pay для начинающих торговцев и BTCpay Server
+  для крупных структур или увлеченных биткойнеров.
+reviewed: false

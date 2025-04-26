@@ -1,0 +1,8 @@
+question: Hva muliggjør avlytting av lokale kommunikasjoner av dårlig utstyrte angripere?
+answer: Bruken av radiobølger for trådløse tilkoblinger
+wrong_answers:
+  - Å rute all data gjennom satellitter
+  - Å bruke kun koaksialkabler for datatransmisjon
+  - Å sende data kun via optiske fibre
+explanation: |
+  Trådløse tilkoblinger, som overfører data via radiobølger, gjør det enklere for angripere å avlytte, ettersom de ikke krever fysisk tilgang til nettverket.

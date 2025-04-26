@@ -1,0 +1,8 @@
+question: Каково было определение собственности на латыни согласно римлянам?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  В римском праве jus utendi et abutendi определяет собственность как право пользоваться и распоряжаться, подчеркивая использование без углубления в его причины.

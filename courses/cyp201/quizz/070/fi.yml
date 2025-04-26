@@ -1,9 +1,9 @@
-question: Mikä on entropian tarkoitus luotaessa mnemonista fraasia Bitcoin-lompakolle?
-answer: Se on HD-lompakon turvallisuuden peruskivi.
+question: Mitä syvyys 0 edustaa HD-lompakoiden hierarkiassa?
+answer: Pääavain ja pääketjukoodi
 wrong_answers:
-  - Se määrittää sanojen määrän palautusfraasissa.
-  - Se salaa palautusfraasin lisäturvallisuuden vuoksi.
-  - Se varmistaa palautusfraasin tarkkuuden.
+  - Ulkoinen osoiteketju
+  - Oletustili
+  - Valuutan tyyppi
 explanation: |
-  Entropia on HD-lompakon turvallisuuden peruskivi. On ratkaisevan tärkeää, että tämä entropia on satunnaista tai pseudosatunnaista lompakon turvallisuuden takaamiseksi.
+  Syvyys 0 vastaa pääavainta ja pääketjukoodia, jotka ovat lähtökohtia kaikille johdannaisille HD-lompakossa.
 reviewed: false

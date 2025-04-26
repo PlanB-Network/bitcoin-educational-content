@@ -1,0 +1,9 @@
+question: Kui suur on ringluses olevate bitcoinide ligikaudne maksimaalne Supply?
+answer: 21 miljonit
+wrong_answers:
+  - 10 miljonit
+  - 47 miljonit
+  - 150 miljonit
+explanation: |
+  Bitcoin on programmeeritud nii, et Supply on piiratud umbes 21 miljoni bitcoiniga.
+reviewed: false

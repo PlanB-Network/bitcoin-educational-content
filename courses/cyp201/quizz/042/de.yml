@@ -1,9 +1,9 @@
-question: Was ist der Zweck einer digitalen Signatur im Zusammenhang mit Bitcoin-Transaktionen?
-answer: Um zu beweisen, dass Sie der Inhaber eines privaten Schlüssels sind, ohne ihn preiszugeben.
+question: Was ist der Hauptunterschied zwischen einem PRNG und einem TRNG?
+answer: Der PRNG ist deterministisch, während der TRNG echte Zufallszahlen erzeugt.
 wrong_answers:
-  - Um die Transaktionsdaten zu verschlüsseln.
-  - Um die Transaktionsdaten zu speichern.
-  - Um die Transaktionsdaten zu übertragen.
+  - Der PRNG ist schneller als der TRNG bei großen Zahlen.
+  - Der PRNG wird nur für Verschlüsselung verwendet, nicht der TRNG.
+  - Der PRNG verwendet private Schlüssel, der TRNG verwendet öffentliche Schlüssel.
 explanation: |
-  Im Zusammenhang mit Bitcoin-Transaktionen wird eine digitale Signatur verwendet, um zu beweisen, dass Sie der Inhaber eines privaten Schlüssels sind, ohne ihn preiszugeben. Dies wird mithilfe des ECDSA-Algorithmus erreicht.
+  PRNGs sind deterministisch, was bedeutet, dass sie Sequenzen aus einem Anfangszustand reproduzieren können, im Gegensatz zu TRNGs.
 reviewed: false

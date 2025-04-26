@@ -1,0 +1,9 @@
+question: Wie wird eine Gruppe genannt, die die Kommutativitätsbedingung erfüllt?
+answer: Eine abelsche Gruppe
+wrong_answers:
+  - Eine geschlossene Gruppe
+  - Eine assoziative Gruppe
+  - Eine inverse Gruppe
+explanation: |
+  Eine abelsche oder kommutative Gruppe ist eine Gruppe, in der die Reihenfolge der Elemente bei der binären Operation das Ergebnis nicht beeinflusst. Das bedeutet, dass für beliebige a und b gilt: a ∘ b = b ∘ a.
+reviewed: false

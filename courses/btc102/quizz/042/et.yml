@@ -1,0 +1,9 @@
+question: Milline psühholoogiline omadus on hodleri jaoks hädavajalik?
+answer: Emotsionaalne vastupidavus
+wrong_answers:
+  - Emotsionaalne impulsiivsus
+  - Emotsionaalne agressiivsus
+  - Emotsionaalne spekulatsioon
+explanation: |
+  Emotsionaalne vastupidavus võimaldab taluda turukõikumisi ilma paanikasse laskumata.
+reviewed: false

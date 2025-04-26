@@ -1,0 +1,9 @@
+question: Mis on üks ainulaadne viis osaleda Bitcoin'i ökosüsteemis läbi kaevandamise?
+answer: Bitcoin'i kaevandamine talvel võib olla nutikas viis oma kodu soojendamiseks, samal ajal teenides tulu Bitcoin'ides.
+wrong_answers:
+  - Bitcoin'i kaevandamine võib olla viis tasuta elektri saamiseks.
+  - Bitcoin'i kaevandamine võib olla viis tasuta interneti saamiseks.
+  - Bitcoin'i kaevandamine võib olla viis tasuta riistvara saamiseks.
+explanation: |
+  Üks ainulaadne viis osaleda Bitcoin'i ökosüsteemis läbi kaevandamise on kaevandada Bitcoin'i talvel. See võib olla nutikas viis oma kodu soojendamiseks, samal ajal teenides tulu Bitcoin'ides.
+reviewed: true

@@ -1,10 +1,9 @@
-question: Quel est le principal risque associé à la génération de sa propre phrase mnémonique en utilisant des dés pour les transactions Bitcoin ?
-answer: Cela peut présenter certains risques.
+question: Que permet de dériver une clé publique étendue ?
+answer: Les clés publiques enfants uniquement normales
 wrong_answers:
-  - Cela peut conduire à la génération de nombres prévisibles.
-  - Cela peut conduire à la génération de nombres en double.
-  - Cela peut conduire à la génération de nombres invalides.
+  - Les clés privées enfants uniquement normales
+  - Les clés publiques enfants endurcies et normales
+  - Les clés privées enfants endurcies et normales
 explanation: |
-  La génération de sa propre phrase mnémonique en utilisant des dés peut présenter certains risques.
-  Il est donc recommandé d'utiliser une phrase secrète générée de manière aléatoire pour atténuer ces risques.
+  Une clé publique étendue permet uniquement de dériver des clés publiques enfants normales, pas de clés privées ni de clés endurcies.
 reviewed: false

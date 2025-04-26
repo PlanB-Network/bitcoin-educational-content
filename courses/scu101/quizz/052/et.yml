@@ -1,0 +1,9 @@
+question: Miks peetakse riistvaralisi tokeneid, nagu USB võtmed või nutikaardid, optimaalseks turvalisuseks 2FA puhul?
+answer: Nad genereerivad iga saidi jaoks unikaalse privaatvõtme ja kontrollivad URL-i enne ühenduse lubamist.
+wrong_answers:
+  - Need on füüsiliselt raskemini varastatavad
+  - Need on kallimad, seega peavad need paremad olema
+  - Need on uuem tehnoloogia, seega peavad need paremad olema
+explanation: |
+  Riistvaralised tokenid pakuvad optimaalset turvalisust, kuna nad genereerivad iga saidi jaoks unikaalse privaatvõtme ja kontrollivad URL-i enne ühenduse lubamist. See muudab häkkeril volitamata juurdepääsu saamise palju raskemaks.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Mục đích của giao dịch rút tiền trong quá trình mở kênh trong Lightning Network là gì?
-
-answer: Nó cho phép Alice thu hồi lại tiền của mình nếu có điều gì đó không đúng.
-
+question: Bước cuối cùng để mở một kênh trên Lightning Network là gì?
+answer: Công bố giao dịch tiền gửi trên blockchain Bitcoin
 wrong_answers:
-  - Nó cho phép Bob yêu cầu phần tiền của mình.
-  - Nó được sử dụng để hoàn tất quá trình mở kênh.
-  - Nó được sử dụng để chuyển tiền từ Alice sang Bob.
-
-explanation:
-  Giao dịch rút tiền được Alice tạo ra trước khi công bố việc gửi tiền vào địa chỉ multi-sig. Giao dịch này cho phép Alice chi tiêu tiền từ địa chỉ multi-sig sang một địa chỉ của cô ấy. Điều này được thực hiện để đảm bảo rằng cô ấy có thể thu hồi lại tiền của mình nếu có điều gì đó không đúng.
+  - Ký một giao dịch rút tiền để lấy lại quỹ
+  - Gửi một tin nhắn xác nhận việc mở kênh cho bên kia
+  - Xác minh số dư quỹ của mỗi bên tham gia
+explanation: |
+  Bước cuối cùng để mở một kênh là công bố giao dịch tiền gửi trên blockchain, điều này chính thức mở kênh.
+reviewed: false

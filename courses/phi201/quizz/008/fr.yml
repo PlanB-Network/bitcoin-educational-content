@@ -1,0 +1,9 @@
+question: D'après Bastiat, quelle est la pire forme de spoliation ?
+answer: Les impôts et les monopoles
+wrong_answers:
+  - Le vol commis par un individu contre un autre
+  - La guerre et les conquêtes
+  - Toutes les formes de spoliation sont également mauvaises
+explanation: |
+  Bastiat considère que les impôts et les monopoles constituent la pire forme de spoliation car ils sont légitimés par l'État, entraînant une appropriation systématique des ressources et des libertés des individus, souvent sous couvert de l'intérêt public.
+reviewed: false

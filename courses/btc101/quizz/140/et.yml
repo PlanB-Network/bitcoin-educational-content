@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i plokiahela suurus?
+answer: Umbes 500GB
+wrong_answers:
+  - Umbes 100GB
+  - Umbes 1TB
+  - Umbes 2TB
+explanation: >-
+  Bitcoin'i plokiahela suurus on umbes 500GB.
+reviewed: false

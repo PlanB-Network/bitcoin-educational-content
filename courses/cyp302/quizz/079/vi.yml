@@ -1,0 +1,9 @@
+question: Tại sao mã hóa dịch chuyển dễ bị tấn công bằng phương pháp brute force?
+answer: Bởi vì nó chỉ có 26 khóa có thể có
+wrong_answers:
+  - Bởi vì nó sử dụng khóa công khai
+  - Bởi vì nó dựa trên mã hóa đối xứng
+  - Bởi vì nó sử dụng số ngẫu nhiên
+explanation: |
+  Mã hóa dịch chuyển dễ bị tấn công bằng phương pháp brute force bởi vì nó chỉ có 26 khóa có thể có, từ 0 đến 25, do sử dụng modulo 26 phụ thuộc vào kích thước của bảng chữ cái. Bạn không thể sử dụng khóa lớn hợp lệ, vì chúng trong mọi trường hợp đều tương đương với một khóa nằm giữa 0 và 25. Do đó, chỉ cần kiểm tra từng khóa để tìm ra thông điệp.
+reviewed: false

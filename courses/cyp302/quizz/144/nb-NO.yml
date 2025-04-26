@@ -1,0 +1,9 @@
+question: Hva er den typiske størrelsen på primtall som brukes i faktorisering for moderne kryptosystemer som RSA?
+answer: 1024 bits for hver faktor
+wrong_answers:
+  - 1024 bits totalt
+  - 256 bits for hver faktor
+  - 256 bits totalt
+explanation: |
+  I moderne kryptosystemer som RSA, er de valgte primtallene typisk 1024 bits hver, noe som gjør faktorisering ekstremt vanskelig og forbedrer sikkerheten.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Hva er rollen til gruvearbeidere i Bitcoin-nettverket?
+answer: Gruvearbeidere er essensielle for å skape nye bitcoins og sikre Bitcoin-nettverket.
+wrong_answers:
+  - Gruvearbeidere er ansvarlige for å regulere prisen på Bitcoin.
+  - Gruvearbeidere er ansvarlige for å opprette Bitcoin-lommebøker.
+  - Gruvearbeidere er ansvarlige for å kontrollere Bitcoin-protokollen.
+explanation: >-
+  Gruvearbeidere spiller en avgjørende rolle i Bitcoin-nettverket ettersom de er ansvarlige
+  for å skape nye bitcoins og sikre Bitcoin-nettverket ved å forbruke elektrisitet for hashing av en blokk med transaksjoner.
+reviewed: true

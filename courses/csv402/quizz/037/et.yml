@@ -1,0 +1,9 @@
+question: Kuidas importida skeemi "NonInflatableAsset.rgb" kohalikku varamusse?
+answer: rgb import schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb import schema/NonInflatableAssets.rgb
+  - rgb kloonida skeemid/NonInflatableAssets.rgb
+  - rgb kloonida skeemi/NonInflatableAssets.rgb
+explanation: |
+  Koostatud skeem imporditakse kohalikku varamusse käsuga "rgb import schemata/NonInflatableAssets.rgb".
+reviewed: false

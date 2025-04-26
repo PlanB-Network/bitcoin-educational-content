@@ -1,0 +1,8 @@
+question: Hvilken mekanisme brukes av online peer-to-peer (P2P) matchmaking-plattformer for å redusere risikoen for tyveri?
+answer: En escrow-mekanisme.
+wrong_answers:
+  - En sikker matchende algoritme.
+  - En e-postbekreftelsesmekanisme.
+  - En identitetsbekreftelsesmekanisme.
+explanation: |
+  Disse plattformene bruker typisk en beskyttelsesmekanisme der bitcoins holdes inntil selgeren bekrefter betalingen i fiatvaluta. Denne mekanismen for å holde av en tredjepart representerer det som er kjent som en escrow.

@@ -1,0 +1,9 @@
+question: Šta je Stonewall transakcija?
+answer: Transakcija koja oponaša mini-CoinJoin bez da to zapravo bude jedna
+wrong_answers:
+  - Transakcija plaćanja u obliku mini-CoinJoin
+  - Kolaborativna transakcija koja uključuje tri učesnika
+  - Transakcija koja uključuje primaoca u ulazima
+explanation: |
+  Stonewall je specifičan oblik Bitcoin transakcije usmeren na povećanje privatnosti korisnika tokom trošenja, imitirajući mini-CoinJoin između dve osobe, bez stvarnog postojanja takve transakcije.
+reviewed: false

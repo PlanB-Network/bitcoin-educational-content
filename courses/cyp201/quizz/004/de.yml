@@ -1,9 +1,9 @@
-question: Welche Rolle spielen kryptografische Hash-Funktionen bei der Überprüfung der Integrität von heruntergeladener Software?
-answer: Sie fungieren als digitale Wächter und überprüfen die Integrität von heruntergeladener Software.
+question: Welche Kombination von Hash-Funktionen wird verwendet, um kürzere Fingerabdrücke in Bitcoin zu erzeugen?
+answer: HASH160
 wrong_answers:
-  - Sie verschlüsseln die Software, um sie vor Hackern zu schützen.
-  - Sie komprimieren die Software, um die Download-Zeit zu verkürzen.
-  - Sie generieren einen eindeutigen Schlüssel für jeden Download.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  Kryptografische Hash-Funktionen spielen eine entscheidende Rolle bei der Überprüfung der Integrität von heruntergeladener Software. Durch den Vergleich des Hash-Werts der heruntergeladenen Datei mit dem erwarteten Hash-Wert kann man überprüfen, ob die Datei nicht manipuliert wurde.
+  HASH160 kombiniert SHA256 und RIPEMD160, um 160-Bit-Fingerabdrücke zu erzeugen, insbesondere für Bitcoin-Adressen.
 reviewed: false

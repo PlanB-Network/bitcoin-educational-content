@@ -1,0 +1,5 @@
+---
+term: ZPEVNĚNÁ DERIVACE
+
+---
+Proces generování podřízených klíčů v peněženkách HD. Tvrdé odvozování používá rodičovský soukromý klíč jako vstup pro funkci `HMAC-SHA512`, což znemožňuje generování dětských veřejných klíčů z rodičovského veřejného klíče a rodičovského řetězového kódu. Proces zahrnuje zřetězení rodičovského soukromého klíče a indexu většího nebo rovného $2^{31}$, po kterém následuje použití funkce `HMAC-SHA512` s rodičovským řetězovým kódem. Výsledek se rozdělí na dvě části: prvních 256 bitů se přidá k rodičovskému soukromému klíči, čímž se získá podřízený soukromý klíč, zatímco zbývajících 256 bitů tvoří podřízený řetězový kód. Tato metoda zajišťuje, že i když je rozšířený veřejný klíč kompromitován, nemůže být použit k odvození podřízených veřejných klíčů. Při standardním odvozování se na všech úrovních odvozování až do hloubky účtu používá odvozování s tvrdými prvky. V zápisech odvozovacích cest je tvrzené odvození označeno apostrofem `'` nebo vzácněji písmenem `h`.

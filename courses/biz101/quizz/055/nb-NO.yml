@@ -1,0 +1,9 @@
+question: Hva er hovedmålet med de spesialiserte Bitcoin-regnskapsverktøyene?
+answer: Forenkle automatisk innsamling og behandling av Bitcoin-relaterte data
+wrong_answers:
+  - For å forbedre sikkerheten til Bitcoins private nøkler
+  - Å legge til rette for direkte handel med Bitcoin på desentraliserte børser for bedrifter
+  - Slik setter du opp et PoS-system for å ta imot Bitcoin-betalinger
+explanation: |
+  Disse verktøyene er utviklet for å automatisere datainnsamling, formatkonvertering, skatteberegning og transaksjonskategorisering.
+reviewed: false

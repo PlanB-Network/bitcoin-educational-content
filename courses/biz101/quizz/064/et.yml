@@ -1,0 +1,9 @@
+question: Milline funktsioon muudab Šveitsi Bitcoin Pay lahenduse eriti sobivaks Essential-profiili väikeettevõtetele?
+answer: Kasutajasõbralik PoS rakendus
+wrong_answers:
+  - Täiustatud mitme valuuta kauplemisfunktsioonid
+  - Mitme allkirjaga rahakoti haldamine
+  - Täielik plokiahela analüütika integratsioon
+explanation: |
+  Swiss Bitcoin Pay on loodud lihtsa PoS-liidesega, mis lihtsustab igapäevaseid toiminguid.
+reviewed: false

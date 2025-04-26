@@ -1,0 +1,12 @@
+question: Hva er fangens dilemma i konteksten av arbeidsdeling?
+answer: Det er en situasjon hvor gjensidig samarbeid resulterer i suboptimale gevinster for individer, men maksimale gevinster for gruppen.
+wrong_answers:
+  - Det er en situasjon hvor individer nekter å samarbeide, noe som fører til maksimale gevinster for gruppen.
+  - Det er en situasjon hvor individer samarbeider, noe som fører til maksimale gevinster for dem selv, men suboptimale gevinster for gruppen.
+  - Det er en situasjon hvor individer nekter å samarbeide, noe som fører til suboptimale gevinster for dem selv og gruppen.
+explanation: |
+  Fangens dilemma er et konsept i spillteori hvor individer
+  har en insentiv til å velge strategier som maksimerer deres individuelle gevinst, uavhengig
+  av strategiene valgt av andre, selv når en mer ønskelig likevekt gjennom
+  koordinering/samarbeid er mulig.
+reviewed: false

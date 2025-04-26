@@ -1,0 +1,14 @@
+question: Na czym polega problem bizantyjskich generałów?
+answer: Jest to problem koordynacji informacji w systemie, w którym nie można ufać różnym podmiotom.
+wrong_answers:
+  - Jest to problem weryfikacji transakcji w zdecentralizowanej sieci.
+  - Jest to problem zapobiegania podwójnym wydatkom w walucie cyfrowej.
+  - Jest to problem utrzymania konsensusu w scentralizowanej sieci.
+explanation: |
+  Bizantyjski problem generałów to klasyczny problem w informatyce
+  w obliczeniach rozproszonych, który polega na osiągnięciu konsensusu
+  w sieci, w której niektóre węzły mogą być wadliwe lub
+  złośliwe. Bitcoin rozwiązuje ten problem poprzez użycie Blockchain opartego na Proof of Work
+  Blockchain opartego na Proof of Work, który zapewnia, że wszystkie węzły
+  węzły zgadzają się co do stanu historii transakcji.
+reviewed: true

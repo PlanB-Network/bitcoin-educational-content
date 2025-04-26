@@ -1,0 +1,9 @@
+question: What is the primary function of currency?
+answer: To act as an intermediary that simplifies the exchange of value
+wrong_answers:
+  - To store intrinsic value in physical form
+  - To replace barter completely with direct goods-for-goods exchange
+  - To centralize all economic transactions through a single authority
+explanation: |
+  Currency simplifies trade by serving as a common medium that reduces the complex web of exchange rates needed in a barter system, thereby facilitating easier transactions.
+reviewed: false

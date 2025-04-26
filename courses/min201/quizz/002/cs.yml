@@ -1,14 +1,15 @@
 question: Jaký je hlavní rozdíl mezi CPU a ASIC v kontextu těžby Bitcoinu?
-answer: CPU může provádět mnoho různých typů výpočtů, aniž by bylo zvláště optimalizováno pro jeden konkrétní typ výpočtu, zatímco ASIC může provádět pouze jeden typ výpočtu, ale velmi efektivně.
+answer: CPU může provádět mnoho různých typů výpočtů bez toho, aby bylo zvláště optimalizováno pro jeden konkrétní typ výpočtu, zatímco ASIC může provádět pouze jeden typ výpočtu, ale velmi efektivně.
 wrong_answers:
   - CPU je energeticky účinnější než ASIC
   - ASIC je univerzálnější než CPU
   - CPU může provádět pouze jeden typ výpočtu, zatímco ASIC může provádět mnoho různých typů výpočtů
 explanation: |
-  ASIC jsou čipy, srovnatelné s čipem CPU, nicméně jsou vyvinuty
-  k provádění pouze jednoho konkrétního typu výpočtu co nejefektivnějším způsobem.
-  Jinými slovy, CPU je schopno provádět mnoho různých typů
-  výpočtů, aniž by bylo zvláště optimalizováno pro jeden typ výpočtu nebo
-  jiný, zatímco ASIC bude schopno provádět pouze jeden typ výpočtu, ale
-  velmi efektivně.
-reviewed: false
+  ASIC jsou čipy, srovnatelné s čipem CPU, avšak
+  jsou vyvinuty k provádění pouze jednoho konkrétního typu
+  výpočtu nejefektivnějším způsobem. Jinými slovy, CPU je schopné provádět mnoho
+  různých typů výpočtů bez toho, aby bylo zvláště
+  optimalizováno pro jeden typ výpočtu nebo jiný, zatímco
+  ASIC bude schopné provádět pouze jeden typ
+  výpočtu, ale velmi efektivně.
+reviewed: true

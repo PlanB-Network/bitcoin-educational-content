@@ -1,9 +1,9 @@
 question: このコースの講師は誰ですか？
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
-  - "Théo Boloré"
+  - Théo Boloré
   - Descoupes Bitcoin
   - 上記のいずれでもない
 explanation: |
-  "この章では、コースの講師がオーストリア経済学の情熱的で有能な教授であるThéo Mogenetであることが述べられています。"
+  この章では、コースの講師がオーストリア経済学の情熱的で有能な教授であるThéo Mogenetであることが述べられています。
 reviewed: false

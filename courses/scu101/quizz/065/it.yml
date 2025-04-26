@@ -1,9 +1,0 @@
-question: Qual è la pratica consigliata per conservare le One-Time Password (OTP)?
-answer: Conservali sul tuo dispositivo mobile.
-wrong_answers:
-  - Scrivili su carta.
-  - Conservali nella tua email.
-  - Memorizzali.
-explanation: |
-  Per una sicurezza ottimale, è consigliabile conservare le One-Time Password (OTP) sul tuo dispositivo mobile. Questo perché i dispositivi mobili sono generalmente più sicuri e meno suscettibili di essere compromessi rispetto ad altri metodi di archiviazione.
-reviewed: false

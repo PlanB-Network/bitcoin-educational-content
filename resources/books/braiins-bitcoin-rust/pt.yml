@@ -1,0 +1,10 @@
+title: "Construir bitcoin em Rust"
+publication_year: 2024
+cover: cover_en.webp
+original: true
+description: |
+  "Building bitcoin in Rust" de Lukáš Hozda é um guia acessível para quem
+  interessado tanto na linguagem de programação Rust como na tecnologia bitcoin.
+  Concebido para estudantes e profissionais de TI, este livro conduz os leitores através da
+  processo de compreensão dos conceitos fundamentais da bitcoin, ensinando simultaneamente
+  para construir projectos em Rust.

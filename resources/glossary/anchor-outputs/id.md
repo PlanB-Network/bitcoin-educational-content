@@ -1,0 +1,5 @@
+---
+term: KELUARAN JANGKAR
+
+---
+Sebuah proposal yang bertujuan untuk meningkatkan pengelolaan biaya transaksi dalam saluran Lightning. Dengan setiap perubahan status dalam saluran Lightning, para pemangku kepentingan membuat dan menandatangani transaksi komitmen baru yang mencerminkan distribusi dana baru dalam saluran tersebut. Masalah dengan mekanisme ini terletak pada penentuan biaya transaksi pada saat pembuatannya. Memang, biaya transaksi pada jaringan Bitcoin dapat mengalami fluktuasi yang signifikan, baik naik maupun turun. Jika biaya yang ditetapkan untuk transaksi komitmen terakhir tidak mencukupi pada saat penutupan saluran secara sepihak, tidak hanya transaksi tersebut akan membutuhkan waktu yang cukup lama untuk dikonfirmasi, tetapi mekanisme penguncian sementara (timelock) juga dapat memungkinkan terjadinya pencurian dana. Output jangkar mencadangkan sebagian kecil dana dalam transaksi komitmen untuk menutupi biaya di masa depan. Jika terjadi kemacetan jaringan dan kenaikan biaya, anchor output memungkinkan modifikasi biaya transaksi setelah pembuatan transaksi komitmen, sehingga memastikan penutupan yang cukup cepat dari Lightning channel.

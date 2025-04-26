@@ -1,9 +1,8 @@
-question: Jaká je výhoda používání heslové fráze v Bitcoin peněžence?
-answer: Umožňuje aplikaci různých bezpečnostních strategií
+question: Jaké kódování se používá pro reprezentaci adres SegWit v0?
+answer: bech32
 wrong_answers:
-  - Dělá peněženku více uživatelsky přívětivou
-  - Zvyšuje rychlost transakcí
-  - Sníží poplatky spojené s transakcemi
+  - base58check
+  - bech32m
+  - base64
 explanation: |
-  Heslová fráze je zásadním nástrojem pro zvýšení bezpečnosti Bitcoin peněženek. Umožňuje aplikaci různých bezpečnostních strategií. Například může být použita pro vytvoření duplikátů a usnadnění zálohování mnemonické fráze. Také může zlepšit bezpečnost peněženky tím, že zmírní rizika spojená s náhodným generováním mnemonické fráze.
-reviewed: false
+  Adresy SegWit v0, jako jsou ty pro P2WPKH a P2WSH, používají kódování bech32, které bylo zavedeno s SegWit.

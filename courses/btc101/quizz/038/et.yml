@@ -1,0 +1,11 @@
+question: Mis on maksimaalne arv Bitcoin'i ühikuid, mis kunagi eksisteerida võivad?
+answer: 21 miljonit
+wrong_answers:
+  - 3 triljonit
+  - 100 miljonit
+  - Piirangut ei ole
+explanation: |
+  Bitcoin'i kogupakkumine on piiratud 21 miljoni ühikuga. See on
+  Bitcoin'i võtmeomadus, mis eristab seda fidutsiaarsetest valuutadest, mida
+  keskpangad võivad trükkida piiramatutes kogustes.
+reviewed: true

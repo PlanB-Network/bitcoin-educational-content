@@ -1,0 +1,10 @@
+question: Mis on avaliku võtme roll Bitcoin'i rahakotis?
+answer: Seda kasutatakse Bitcoin'i aadresside genereerimiseks ja seeläbi raha vastuvõtmiseks
+wrong_answers:
+  - Seda kasutatakse Bitcoin'i tehingute krüpteerimiseks
+  - Seda kasutatakse Bitcoin'i rahakoti ligipääsuks
+  - Seda kasutatakse Bitcoin'i rahakoti varundamiseks
+explanation: |
+  Avalik võti tuletatakse privaatvõtmest ja seda kasutatakse Bitcoin'i aadresside genereerimiseks,
+  et raha vastu võtta.
+reviewed: true

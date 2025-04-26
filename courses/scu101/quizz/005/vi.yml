@@ -1,10 +1,11 @@
-question: Tại sao lại khuyến nghị tránh sử dụng trình duyệt Google Chrome?
+question: Tại sao lại khuyến nghị không nên sử dụng trình duyệt Google Chrome?
 answer: Do các bộ theo dõi của nó.
 wrong_answers:
   - Bởi vì nó không an toàn.
   - Bởi vì nó không thân thiện với người dùng.
   - Bởi vì nó không hỗ trợ các tiện ích mở rộng.
 explanation: |
-  Trình duyệt Google Chrome được biết đến với các bộ theo dõi, có thể thu thập dữ liệu
-  về hoạt động trực tuyến của bạn. Điều này có thể là mối quan tâm về quyền riêng tư đối với một số người dùng.
-reviewed: false
+  Trình duyệt Google Chrome được biết đến với các bộ theo dõi, có thể
+  thu thập dữ liệu về hoạt động trực tuyến của bạn. Điều này có thể là một
+  mối quan ngại về quyền riêng tư đối với một số người dùng.
+reviewed: true

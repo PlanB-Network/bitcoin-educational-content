@@ -1,0 +1,11 @@
+question: Hva er én grunn til at det er viktig å gjennomføre grundig forskning før man stoler på en stablecoin?
+answer: Noen stablecoins mangler transparens og grundighet
+wrong_answers:
+  - Stablecoins har ingen risiko forbundet med seg
+  - Stablecoins er alltid fullt støttet av reserver
+  - Noen stablecoins er regulert av regjeringen
+explanation: |
+  Ikke alle stablecoins tilbyr samme nivå av transparens.
+  Derfor er det viktig å gjennomføre grundig forskning
+  før man betror betydelig formue til en spesifikk stablecoin.
+reviewed: true

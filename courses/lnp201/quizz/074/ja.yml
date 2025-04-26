@@ -1,9 +1,0 @@
-question: Lightning Networkの請求書におけるLNURLメタプロトコルの目的は何ですか？
-answer: リクエストを行う代わりに、直接のサトシ額を提供することができます
-wrong_answers:
-  - 請求書データを暗号化します
-  - 受取人の身元を確認します
-  - 取引手数料を計算します
-explanation: |
-  Lightning Networkの請求書におけるLNURLメタプロトコルは、リクエストを行う代わりに直接のサトシ額を提供することができます。この機能は、支払いプロセスをより柔軟にすることでユーザー体験を向上させます。
-reviewed: false

@@ -1,9 +1,14 @@
-question: Comment fonctionne une piscine minière et pourquoi est-elle nécessaire ?
-answer: Une piscine minière est un groupe de mineurs qui combinent leurs ressources informatiques pour augmenter leurs chances de miner. Cette coopération est nécessaire car une petite machine minière isolée est en concurrence avec des géants de l'industrie, réduisant ainsi ses chances de succès à un niveau négligeable. En regroupant leurs ressources, les mineurs peuvent combiner leur puissance de calcul, trouver des blocs plus fréquemment, puis distribuer les récompenses proportionnellement à la contribution de chaque mineur à la piscine.
+question: Comment fonctionne un pool de minage et pourquoi est-il nécessaire ?
+answer: Un pool de minage est un groupe de mineurs qui combinent leurs ressources informatiques pour augmenter leurs chances de minage. Cette coopération est nécessaire car une petite machine de minage isolée est en compétition avec des géants de l'industrie, réduisant ses chances de succès à un niveau négligeable. En se regroupant, les mineurs peuvent combiner leur puissance de calcul, trouver des blocs plus fréquemment, et ensuite distribuer les récompenses proportionnellement à la contribution de chaque mineur au pool.
 wrong_answers:
-  - Une piscine minière est un groupe de mineurs qui partagent la même machine minière pour augmenter leurs chances de miner. Cette coopération est nécessaire car une seule machine minière ne peut miner qu'une quantité limitée de Bitcoin.
-  - Une piscine minière est un groupe de mineurs qui partagent le même logiciel de minage pour augmenter leurs chances de miner. Cette coopération est nécessaire car différents logiciels de minage ont des efficacités différentes.
-  - Une piscine minière est un groupe de mineurs qui partagent le même emplacement de minage pour augmenter leurs chances de miner. Cette coopération est nécessaire car l'emplacement de l'opération minière peut affecter l'efficacité du minage.
+  - Un pool de minage est un groupe de mineurs qui partagent la même machine de minage pour augmenter leurs chances de minage. Cette coopération est nécessaire car une seule machine de minage ne peut miner qu'une quantité limitée de Bitcoin.
+  - Un pool de minage est un groupe de mineurs qui partagent le même logiciel de minage pour augmenter leurs chances de minage. Cette coopération est nécessaire car différents logiciels de minage ont des efficacités différentes.
+  - Un pool de minage est un groupe de mineurs qui partagent le même lieu de minage pour augmenter leurs chances de minage. Cette coopération est nécessaire car l'emplacement de l'opération de minage peut affecter l'efficacité du minage.
 explanation: |
-  Le chapitre explique qu'une piscine minière est un groupe de mineurs qui combinent leurs ressources informatiques pour augmenter leurs chances de miner. Cette coopération est nécessaire car une petite machine minière isolée est en concurrence avec des géants de l'industrie, réduisant ainsi ses chances de succès à un niveau négligeable.
-reviewed: false
+  Le chapitre explique qu'un pool de minage est un groupe de
+  mineurs qui combinent leurs ressources informatiques pour augmenter
+  leurs chances de minage. Cette coopération est nécessaire
+  car une petite machine de minage isolée est en compétition
+  avec des géants de l'industrie, réduisant ses chances de succès à
+  un niveau négligeable.
+reviewed: true

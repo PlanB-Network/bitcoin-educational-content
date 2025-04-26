@@ -1,0 +1,9 @@
+question: Mikä on avaimen rooli symmetrisessä salaus- ja purkuprosessissa?
+answer: Sitä käytetään viestin salaamiseen ja purkamiseen
+wrong_answers:
+  - Sitä käytetään vain viestin purkamiseen
+  - Sitä käytetään viestin eheyden varmistuskoodin luomiseen
+  - Se jaetaan julkisesti muiden avainten generoimiseksi
+explanation: |
+  Symmetrisissä salausjärjestelmissä samaa yksityistä avainta käytetään sekä viestin salaamiseen lähetyksen yhteydessä että sen purkamiseen vastaanoton yhteydessä.
+reviewed: false

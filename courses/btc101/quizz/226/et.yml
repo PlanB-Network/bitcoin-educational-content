@@ -1,0 +1,9 @@
+question: Milleks toimib Lightning Network?
+answer: Maksekanalite võrgustikuna.
+wrong_answers:
+  - Kaevandamissõlmede võrgustikuna.
+  - Plokiahela sõlmede võrgustikuna.
+  - Krüptovaluuta vahetuste võrgustikuna.
+explanation: >-
+  Lightning Network toimib maksekanalite võrgustikuna, võimaldades saatjal teostada koheseid tehinguid madalate tasudega.
+reviewed: false

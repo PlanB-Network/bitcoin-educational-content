@@ -1,9 +1,0 @@
-question: Welche P2P-Lösung verwendet das Lightning Network für schnelle Transaktionen?
-answer: RoboSat
-wrong_answers:
-  - Bisq
-  - Peach
-  - HodlHodl
-explanation: |
-  Im Kapitel wird erwähnt, dass RoboSat das Lightning Network verwendet, um schnelle Transaktionen zu ermöglichen.
-reviewed: false

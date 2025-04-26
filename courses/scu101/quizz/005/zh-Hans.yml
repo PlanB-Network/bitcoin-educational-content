@@ -1,0 +1,8 @@
+question: 为什么建议避免使用Google Chrome浏览器？
+answer: 由于其跟踪器。
+wrong_answers:
+  - 因为它不安全。
+  - 因为它不用户友好。
+  - 因为它不支持扩展。
+explanation: |
+  Google Chrome浏览器以其跟踪器而闻名，这些跟踪器可以收集有关您在线活动的数据。对于一些用户来说，这可能是一个隐私问题。

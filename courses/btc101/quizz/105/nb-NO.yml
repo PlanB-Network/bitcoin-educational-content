@@ -1,0 +1,10 @@
+question: Hvorfor er personvern viktig i sammenheng med Bitcoin?
+answer: For å minimere risikoen for sporing av dine midler
+wrong_answers:
+  - For å redusere verdien av dine bitcoins
+  - For å forhindre at dine bitcoins blir stjålet
+  - For å betale skatt på dine bitcoins
+explanation: |
+  Personvern er viktig i sammenheng med Bitcoin for å minimere risikoen
+  for sporing av dine midler, noe som kan føre til overvåking.
+reviewed: true

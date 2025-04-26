@@ -1,0 +1,9 @@
+question: Jaki krok poprzedza zastosowanie HASH160 w generowaniu SegWit v0 Address?
+answer: Kompresja klucza publicznego
+wrong_answers:
+  - Dodawanie sumy kontrolnej
+  - Konwersja do formatu bech32
+  - Kodowanie w base58check
+explanation: |
+  Klucz publiczny musi zostać skompresowany, aby zmniejszyć jego rozmiar przed przejściem przez funkcję HASH160 Hash.
+reviewed: false

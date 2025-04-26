@@ -1,9 +1,12 @@
-question: ¿Cuál es la amenaza potencial de usar software pirateado que no se puede actualizar?
+question: ¿Cuál es la amenaza potencial de usar software pirata que no puede actualizarse?
 answer: La llegada de un virus durante su descarga ilegal y un uso inseguro contra nuevas formas de ataque.
 wrong_answers:
   - El software dejará de funcionar después de un cierto período.
-  - El software no tendrá nuevas características.
+  - El software no tendrá ninguna característica nueva.
   - El software consumirá más recursos del sistema.
 explanation: |
-  El software pirateado que no se puede actualizar representa una doble amenaza potencial. Puede traer un virus durante su descarga ilegal desde un sitio web sospechoso y puede ser inseguro contra nuevas formas de ataque.
-reviewed: false
+  El software pirata que no puede actualizarse representa una doble
+  amenaza potencial. Puede traer un virus durante su descarga ilegal
+  desde un sitio web sospechoso y puede ser inseguro
+  contra nuevas formas de ataque.
+reviewed: true

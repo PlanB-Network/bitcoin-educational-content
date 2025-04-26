@@ -1,0 +1,9 @@
+question: Was ist eine empfohlene Praxis in Bezug auf die Verwahrung beim Erwerb von Bitcoin?
+answer: Ziehen Sie nach den ersten Käufen Lösungen zur Selbstverwahrung in Betracht, damit das Unternehmen wirklich die Kontrolle über seine Vermögenswerte hat.
+wrong_answers:
+  - Heben Sie unter keinen Umständen Bitcoin von der Börse ab.
+  - Vertrauen Sie immer einem einzigen Verwahrer, ohne die Sicherheitsmaßnahmen zu überprüfen.
+  - Speichern Sie alle Bitcoin auf einer öffentlichen Website mit einem einfachen Passwort
+explanation: |
+  Nach dem Kauf von Bitcoin stellt die Übertragung auf eine selbstverwahrte Wallet sicher, dass das Unternehmen die direkte Kontrolle über seine Gelder hat. Während Drittverwahrer bequem sein können, entspricht die Selbstverwahrung dem Bitcoin-Prinzip der finanziellen Souveränität.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle réponse représente l'une des deux branches principales de la cryptographie ?
+answer: La cryptographie symétrique
+wrong_answers:
+  - La cryptologie
+  - Le chiffrement homomorphe
+  - La cryptanalyse
+explanation: |
+  La cryptographie symétrique est une branche principale de la cryptographie, qui implique des schémas de chiffrement où une seule clé est utilisée pour chiffrer et déchiffrer les messages.
+reviewed: false

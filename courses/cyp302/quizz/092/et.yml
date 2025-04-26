@@ -1,0 +1,9 @@
+question: Kuidas saab plokkšifri muuta voošifriks?
+answer: Kasutades režiime nagu OFB, mis genereerivad plokkšifrist võtmestriimi
+wrong_answers:
+  - Jagades selgeteksti baitideks ja krüpteerides neid ükshaaval
+  - Rakendades sõnumitele enne krüpteerimist polsterdust
+  - Suurendades iga krüpteeritud ploki jaoks võtme pikkust
+explanation: |
+  Režiimid nagu OFB võimaldavad plokkšifril toimida voošifrina, genereerides võtmestriimi, mida seejärel kasutatakse iga selgeteksti osa jaoks.
+reviewed: false

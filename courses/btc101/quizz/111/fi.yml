@@ -1,9 +1,13 @@
 question: Mitä KYC tarkoittaa?
-answer: Tunne Asiakkaasi
+answer: Tunne Asiakkaasi.
 wrong_answers:
-  - Säilytä Käteisesi
-  - Kirjoita Koodisi
-  - Kohteliaasti Noudata Vaatimuksia
+  - Säilytä Käteisesi.
+  - Kirjoita Koodisi.
+  - Ystävällisesti Noudata Sääntöjä.
 explanation: |
-  KYC eli Tunne Asiakkaasi viittaa prosessiin, jonka yritykset suorittavat varmistaakseen asiakkaidensa henkilöllisyyden. Tämä tehdään tyypillisesti varmistaakseen sääntöjen noudattamisen ja estääkseen laittomia toimintoja kuten rahanpesun tai petokset.
-reviewed: false
+  KYC eli Tunne Asiakkaasi viittaa menettelyyn, jonka
+  yritykset ottavat käyttöön varmistaakseen asiakkaidensa
+  henkilöllisyyden. Tämä tehdään tyypillisesti varmistaakseen
+  säännösten noudattamisen ja estääkseen laittomia toimia kuten
+  rahanpesun tai petoksen.
+reviewed: true

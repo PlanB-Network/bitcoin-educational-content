@@ -1,0 +1,8 @@
+question: Mida tagab sõnumi autentimiskood (MAC) krüptograafilises skeemis?
+answer: Sõnumi terviklikkuse ja autentsuse
+wrong_answers:
+  - Sõnumi konfidentsiaalsuse
+  - Sõnumi kompressiooni
+  - Sõnumi teisendamise binaarkoodiks
+explanation: |
+  Sõnumi autentimiskoodi (MAC) kasutatakse selleks, et tagada sõnumi muutmata jäämine ja kinnitada, et see tõepoolest pärineb eeldatavalt saatjalt.

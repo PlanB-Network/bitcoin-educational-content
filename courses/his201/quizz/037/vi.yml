@@ -1,0 +1,9 @@
+question: Dịch vụ trao đổi nào được tạo ra vào tháng 3 năm 2010 là phổ biến nhất trước khi Mt. Gox xuất hiện vào tháng 7?
+answer: Bitcoin Market
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Đây là một thị trường giao dịch ngang hàng sử dụng PayPal được khởi xướng vào ngày 16 tháng 3 năm 2010 bởi một cá nhân được biết đến với tên dwdollar và là nền tảng chính trước khi Mt. Gox xuất hiện.
+reviewed: false

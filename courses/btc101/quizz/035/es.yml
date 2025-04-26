@@ -1,11 +1,9 @@
-question: ¿Cuál de estas opciones no es una ventaja de las monedas fiduciarias?
-answer: Están sujetas a la inflación monetaria
+question: ¿Cuál es el significado de dinero fiat?
+answer: El dinero fiat es una moneda que tiene valor porque un gobierno lo mantiene y la gente confía en su valor, en lugar de estar respaldado por una mercancía física como el oro.
 wrong_answers:
-  - Son fácilmente transportables
-  - Son fácilmente divisibles
-  - Son aceptadas por todos los países
+  - El dinero fiat es una moneda que está respaldada por una mercancía física, como el oro o la plata, lo que significa que su valor está directamente vinculado al valor de esa mercancía.
+  - El dinero fiat es un tipo de criptomoneda que opera en una red descentralizada, permitiendo transacciones de igual a igual sin la necesidad de una autoridad central.
+  - El dinero fiat es una moneda que no tiene valor intrínseco y no puede ser utilizada para transacciones, haciéndola esencialmente sin valor en la economía.
 explanation: |
-  Las monedas fiduciarias, como el dólar y el euro, son muy líquidas y
-  fácilmente transportables porque ahora son mayoritariamente digitales. Sin embargo, su valor se
-  erosiona constantemente debido a la inflación monetaria.
-reviewed: false
+  El dinero fiat se establece como moneda de curso legal por decreto gubernamental, y su valor no se deriva de ninguna mercancía física.
+reviewed: true

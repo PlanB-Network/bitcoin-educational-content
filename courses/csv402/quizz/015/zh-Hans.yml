@@ -1,0 +1,9 @@
+question: RGB 适用于数字世界的历史概念是什么？
+answer: 不记名票据
+wrong_answers:
+  - 中央数据库
+  - 无需验证的点对点网络
+  - 向所有人开放的登记册
+explanation: |
+  RGB 将无记名票据的概念移植到数字领域。
+reviewed: false

@@ -63,6 +63,9 @@ Trên Sparrow, nhấp vào tab "*Địa chỉ*".
 Sau đó, ghi chú trên một tờ giấy địa chỉ nhận đầu tiên của ví bạn. Trong ví dụ của tôi, địa chỉ là:
 
 ```txt
+tb1qxv56mma5x5r7uhdkn0ldvcx6m0gj6f3kre0gwd
+```
+
 Sau khi ghi chú thông tin, đi đến menu "*File*", sau đó chọn "*Xóa Ví*". Tôi nhắc bạn một lần nữa rằng ví Bitcoin của bạn phải trống trước khi tiến hành thao tác này.
 
 ![KIỂM TRA KHÔI PHỤC](assets/notext/04.webp)

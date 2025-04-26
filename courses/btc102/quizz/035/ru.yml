@@ -1,0 +1,9 @@
+question: Какое решение для хранения рекомендуется для hodler?
+answer: A Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - Служба опеки и попечительства
+  - Бумага Wallet
+explanation: |
+  Ходлеру, который хранит биткоины в течение длительного времени, следует использовать Hardware Wallet для обеспечения максимальной безопасности.
+reviewed: false

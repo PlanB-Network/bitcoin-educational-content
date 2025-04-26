@@ -1,0 +1,9 @@
+question: Bitcoin 与另类币的主要区别是什么？
+answer: 非集中化
+wrong_answers:
+  - 流动性
+  - 声誉
+  - 隐私权
+explanation: |
+  Bitcoin 以其去中心化而闻名，不像大多数替代币或多或少都是中心化的。
+reviewed: false

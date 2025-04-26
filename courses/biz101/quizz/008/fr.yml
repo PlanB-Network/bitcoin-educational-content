@@ -1,0 +1,9 @@
+question: Quelle affirmation décrit le mieux le rôle de Bitcoin en tant que réseau et atout pour les entreprises ?
+answer: Il peut servir à la fois de réserve de valeur et de moyen d'échange dans un système mondial décentralisé.
+wrong_answers:
+  - Il ne peut fonctionner que comme un système local de cartes-cadeaux.
+  - Il s'agit uniquement d'un outil de spéculation sans utilité réelle.
+  - Pour fonctionner, il doit être lié aux politiques monétaires d'un seul pays.
+explanation: |
+  La conception globale du bitcoin, propre à l'internet, lui permet de servir non seulement de réserve de valeur mais aussi de moyen d'échange, en offrant aux entreprises un règlement rapide, sans autorisation et définitif des transactions dans le monde entier.
+reviewed: false

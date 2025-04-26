@@ -1,0 +1,8 @@
+question: Mikä on Bastiat'n mukaan todellisen solidaarisuuden pääominaisuus?
+answer: Se on vapaaehtoista eikä lainsäädännön pakottamaa
+wrong_answers:
+  - Sitä rahoitetaan veroilla
+  - Se on määrätty täyttämään yhteisöllisiä tarpeita
+  - Sitä säätelee valtio väärinkäytösten estämiseksi
+explanation: |
+  Bastiat'n mukaan todellinen solidaarisuus voi syntyä vain vapaaehtoisesta sitoutumisesta, vapaana mistään laillisesta velvoitteesta.

@@ -1,0 +1,9 @@
+question: Který aspekt Bitcoinu chtěl Satoshi ve své komunikaci v červenci 2010 zlehčit?
+answer: Anonymitu transakcí
+wrong_answers:
+  - Měnová politika
+  - E-commerce
+  - Programovatelnost
+explanation: |
+  V návrhu prezentace pro Slashdot uvedl, že nechce klást důraz na aspekt 'anonymity'. Své důvody vysvětlil Martti Malmimu [v soukromí](https: //mmalmi.github.io/satoshi/#email-197).
+reviewed: false

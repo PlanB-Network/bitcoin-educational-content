@@ -1,0 +1,9 @@
+question: Jaké bylo křestní jméno telekomunikačního inženýra z Temple City, kterého novinář Newsweek omylem identifikoval jako Satoshi Nakamoto v březnu 2014?
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation: |
+  Jeho celé jméno bylo Dorian Prentice Satoshi Nakamoto. Byl japonského původu. Viz [článek v Newsweeku](https: //www.newsweek.com/2014/03/14/face-behind-bitcoin-247957.html).
+reviewed: false

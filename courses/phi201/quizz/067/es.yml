@@ -1,0 +1,9 @@
+question: ¿Cuál es la idea central del pasaje de Voltaire sobre la Bolsa de Londres?
+answer: Los empresarios de todas las religiones dejan de lado sus diferencias para centrarse en el beneficio mutuo.
+wrong_answers:
+  - Las diferentes religiones del mundo se reúnen en la Bolsa para practicar su fe en paz.
+  - La Bolsa de Londres es un lugar de especulación y corrupción donde se desatienden los valores morales.
+  - La religión no tiene lugar en el mundo empresarial dominado por un espíritu de competencia e individualismo.
+explanation: |
+  Voltaire destaca que, en la Bolsa de Londres, los empresarios trascienden sus diferencias religiosas para colaborar hacia un objetivo económico común, ilustrando la primacía del interés material sobre las divisiones religiosas.
+reviewed: false

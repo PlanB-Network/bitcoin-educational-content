@@ -1,12 +1,9 @@
 question: Co je iniciativa Attakai v kontextu těžby Bitcoinu?
-answer: Iniciativa, která si klade za cíl zpřístupnit těžbu širšímu okruhu lidí a zároveň ji učinit méně škodlivou, přičemž přispívá k síti
+answer: Iniciativa, která si klade za cíl zpřístupnit těžbu a zároveň ji udělat méně škodlivou, přičemž přispívá do sítě
 wrong_answers:
   - Iniciativa, která si klade za cíl zvýšit cenu Bitcoinu
   - Iniciativa, která si klade za cíl snížit hashrate sítě
   - Iniciativa, která si klade za cíl centralizovat výpočetní výkon
 explanation: |
-  Iniciativa Attakai si klade za cíl učinit těžbu Bitcoinu dostupnější a
-  méně škodlivou. Podporuje lidi, aby těžili doma s dostupnějším hardwarem
-  a řešeními pro snížení hlukového znečištění. Iniciativa také zdůrazňuje význam
-  přispívání k bezpečnosti a decentralizaci sítě Bitcoin.
-reviewed: false
+  Iniciativa Attakai si klade za cíl udělat těžbu Bitcoinu dostupnější a méně škodlivou. Podporuje lidi, aby těžili doma s dostupnějším hardwarem a řešeními pro snížení hlukového znečištění. Iniciativa také zdůrazňuje význam přispívání k bezpečnosti a decentralizaci sítě Bitcoin.
+reviewed: true

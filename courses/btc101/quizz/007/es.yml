@@ -5,7 +5,8 @@ wrong_answers:
   - El impacto ecológico de Bitcoin.
   - Los aspectos regulatorios de Bitcoin.
 explanation: |
-  Este curso de Bitcoin se enfoca en los aspectos monetarios de Bitcoin, incluyendo
-  cómo comprar y vender bitcoins, almacenarlos de forma segura en billeteras digitales y usarlos
-  para transacciones.
-reviewed: false
+  Este curso de Bitcoin se centra en los aspectos monetarios de
+  Bitcoin, incluyendo cómo comprar y vender bitcoins, almacenarlos de manera segura
+  en carteras digitales y usarlos para
+  transacciones.
+reviewed: true

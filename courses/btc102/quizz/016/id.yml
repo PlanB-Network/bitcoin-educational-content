@@ -1,0 +1,9 @@
+question: Sampai berapa angka desimal yang dapat dibagi dengan Bitcoin?
+answer: Delapan
+wrong_answers:
+  - Enam
+  - Dua belas
+  - Tujuh
+explanation: |
+  Sebuah Bitcoin dapat dibagi hingga tempat desimal kedelapan, dengan satu unit yang disebut Satoshi atau sat.
+reviewed: false

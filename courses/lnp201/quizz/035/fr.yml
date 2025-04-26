@@ -1,9 +1,9 @@
-question: Que se passe-t-il si Alice essaie de tricher en publiant un ancien état ?
-answer: Bob peut utiliser la clé de révocation pour déplacer les fonds sans attendre la fin du délai, punissant ainsi efficacement Alice.
+question: Quel est l'objectif principal des HTLC dans le Lightning Network ?
+answer: Permettre le transfert sécurisé de paiements via des nœuds intermédiaires sans nécessiter leur confiance
 wrong_answers:
-  - Alice peut utiliser la clé de révocation pour déplacer les fonds sans attendre la fin du délai.
-  - Bob peut prolonger le délai pour empêcher Alice de récupérer son argent.
-  - Alice peut récupérer immédiatement son argent.
+  - Réduire les frais de transaction pour chaque paiement à travers les nœuds intermédiaires
+  - Augmenter la capacité de chaque canal de paiement
+  - Établir des connexions directes entre tous les nœuds du réseau avec leur confiance
 explanation: |
-  Si Alice essaie de tricher en publiant un ancien état, Bob peut utiliser la clé de révocation pour déplacer les fonds sans attendre la fin du délai. Cela punit efficacement Alice pour avoir essayé de tricher.
+  Les HTLC (Hashed Time-Locked Contracts) permettent de garantir que chaque nœud intermédiaire transmettra le paiement sans garder les fonds, car il ne peut les débloquer qu'en complétant la transaction jusqu'au destinataire final.
 reviewed: false

@@ -1,0 +1,5 @@
+---
+term: BIT GOLD
+
+---
+Bit-kuld on Nick Szabo poolt 1998. aastal välja töötatud ja 2005. aastal avalikult kirjeldatud detsentraliseeritud digitaalne rahasüsteem. Bit gold oli mõeldud virtuaalse ressursi, mida nimetatakse bit-kullaks, genereerimiseks ja vahetamiseks. See süsteem ei põhinenud ühelgi füüsilisel kaubal, vaid selle eesmärk oli luua võltsimatu nappuse vorm. Bit-kulla protokoll tugines valuuta loomisele töö tõestamise teel, kus bit-kulla tükid loodi arvutite arvutusvõimsuse abil, moodustades seega töö tõestamise ahela. Iga töötõend märgiti ajamärgiga ja lisati seejärel omandiregistrisse. Bitikulla omandiõiguse kontrollimine ja ülekandmine toimus avaliku registri kaudu, kus kasutajad tuvastati avalike võtmete abil. Bit-kuld jäi kontseptuaalsesse staadiumisse ja seda ei rakendatud kunagi. See süsteem on Bitcoini üks eelkäijaid koos b-money ja RPoWga, kuid Satoshi ei paistnud olevat selle olemasolust enne Bitcoini loomist teadlik. Seda mainiti hiljem Bitcoini veebisaidil ja foorumis.

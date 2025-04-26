@@ -1,0 +1,9 @@
+question: Mikä oli Satoshi Nakamoton ilmoittama syntymäpäivä P2P Foundation -foorumilla?
+answer: 5. huhtikuuta 1975
+wrong_answers:
+  - 3. huhtikuuta 1973
+  - 5. huhtikuuta 1973
+  - 3. huhtikuuta 1975
+explanation: |
+  Tämä yhdistetty päivämäärä viittaa kieltoon, joka esti Yhdysvaltain kansalaisia omistamasta kultaa vuosien 1933 ja 1975 välillä: 5. huhtikuuta on päivä, jolloin tämä kielto otettiin käyttöön vuonna 1933 (Executive Order 6102) ja vuosi 1975 on, kun se kumottiin (Public Law 93-373).
+reviewed: false

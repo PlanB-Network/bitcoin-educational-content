@@ -1,0 +1,9 @@
+question: Quelle est la taille typique des blocs pour un chiffrement de type block cipher ?
+answer: 64, 128, 192 ou 256 bits
+wrong_answers:
+  - 8, 16, 32, ou 64 bits
+  - 4, 8, 16 ou 32 bits
+  - 256, 512, 1024 ou 2048 bits
+explanation: |
+  Les block ciphers traitent des données en blocs de tailles fixes, généralement 64, 128, 192 ou 256 bits, pour garantir une sécurité et une intégrité optimales du chiffrement.
+reviewed: false

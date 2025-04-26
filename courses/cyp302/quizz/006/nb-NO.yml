@@ -1,0 +1,9 @@
+question: Hvilket konsept er ikke utelukkende relatert til symmetriske eller asymmetriske kryptografiske skjemaer?
+answer: Hashfunksjoner
+wrong_answers:
+  - Offentlige og private nøkkelpar
+  - Asymmetrisk kryptografi
+  - Symmetrisk kryptografi
+explanation: |
+  Hashfunksjoner er en nøkkelkomponent i moderne kryptografi, men de er ikke spesifikt assosiert med enten symmetriske eller asymmetriske skjemaer, i motsetning til offentlige og private nøkler.
+reviewed: false

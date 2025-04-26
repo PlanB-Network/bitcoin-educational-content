@@ -1,0 +1,9 @@
+question: ¿Qué papel desempeñan herramientas como Zaprite y Musqet en una solución de pago profesional?
+answer: Perfeccionan la experiencia de pago
+wrong_answers:
+  - Gestionan la conversión multidivisa y el desembolso en fiat
+  - Se centran en cifrar los datos de las transacciones y gestionar las claves privadas
+  - Sirven como sistemas básicos de punto de venta
+explanation: |
+  Zaprite y Musqet añaden mejoras de personalización e información al proceso de pago, complementando la infraestructura de pago principal.
+reviewed: false

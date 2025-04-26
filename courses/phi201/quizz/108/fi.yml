@@ -1,0 +1,9 @@
+question: Mikä on Hayekin mukaan yhteys sosialismin ja natsismin välillä?
+answer: Kaikki muut vastaukset (ne jakavat individualismin hylkäämisen, asettavat ryhmän hyvinvoinnin etusijalle, käyttävät pakkoa).
+wrong_answers:
+  - Kaksi ideologiaa ovat yhteensopimattomia.
+  - Sosialismi ja natsismi ovat vastakkaisia talouskysymyksissä.
+  - Sosialismilla ja natsismilla ei ole yhteyttä.
+explanation: |
+  Hayek väitti, että sosialismi ja natsismi jakavat yhteisiä piirteitä, kuten individualismin hylkäämisen kollektiivin hyväksi ja pakon käytön, mikä tekee niistä samankaltaisia autoritaarisissa vaikutuksissaan.
+reviewed: false

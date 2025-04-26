@@ -1,0 +1,9 @@
+question: Hva lar nettstedet Have I Been Pwned deg gjøre?
+answer: Sjekke om en e-postadresse har blitt kompromittert.
+wrong_answers:
+  - Generere nye sterke og tilfeldige passord.
+  - Opprette en sikker e-postkonto.
+  - Synkronisere e-postkontoer for enklere bruk.
+explanation: |
+  Dette nettstedet hjelper med å oppdage datalekkasjer og verifisere sikkerheten til en e-postadresse.
+reviewed: false

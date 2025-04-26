@@ -1,9 +1,9 @@
-question: Quelle est la signification de l'adresse multi-sig 2/2 dans le processus d'ouverture d'un canal dans le Lightning Network ?
-answer: C'est l'adresse vers laquelle Alice envoie de l'argent pour ouvrir le canal.
+question: Quand une transaction d'engagement est-elle publiée sur la blockchain Bitcoin ?
+answer: Éventuellement lors de la fermeture du canal
 wrong_answers:
-  - C'est l'adresse à partir de laquelle Alice envoie de l'argent pour ouvrir le canal.
-  - C'est l'adresse vers laquelle Bob envoie de l'argent pour ouvrir le canal.
-  - C'est l'adresse à partir de laquelle Bob envoie de l'argent pour ouvrir le canal.
+  - Immédiatement après chaque transfert dans le canal
+  - Avant chaque nouvelle transaction d'engagement
+  - Quand les fonds disponibles sont épuisés
 explanation: |
-  Dans le processus d'ouverture d'un canal, Alice crée une adresse multi-sig 2/2 en utilisant ses adresses publiques et celles de Bob. Elle effectue ensuite une transaction bitcoin pour envoyer de l'argent à cette adresse afin d'ouvrir le canal.
+  Les transactions d'engagement sont construites et signées pour chaque changement de répartition, mais elles ne sont éventuellement publiées sur la blockchain qu'en cas de fermeture du canal.
 reviewed: false

@@ -1,11 +1,9 @@
-question: Quelle fonction de hachage est un élément clé du protocole Bitcoin?
-answer: SHA-256
+question: Quelle est la principale différence entre lesopérations ShR et RotR ?
+answer: ShR décale les bits en ajoutant des zéros, RotR réinsère les bits décalés
 wrong_answers:
-  - MD5
-  - SHA1
-  - SHA0
+  - ShR supprime les bits décalés, RotR multiplie leur valeur
+  - ShR décale vers la gauche, RotR décale vers la droite
+  - ShR est une opération logique, RotR est arithmétique
 explanation: |
-  SHA-256 est un élément clé du protocole Bitcoin. Il est utilisé pour créer
-  une empreinte unique et irréversible des données de transaction, ce qui est crucial pour
-  la sécurité et l'intégrité du réseau Bitcoin.
+  ShR décale les bits à droite en ajoutant des zéros, tandis que RotR effectue une rotation circulaire des bits.
 reviewed: false

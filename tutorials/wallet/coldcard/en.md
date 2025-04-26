@@ -6,7 +6,7 @@ description: Creating, backing up, and using a Bitcoin private key with a Coldca
 
 ![cover](assets/cover.webp)
 
-Creating, backing up, and using a Bitcoin private key with a Coldcard device and Bitcoin Core
+_Creating, backing up, and using a Bitcoin private key with a Coldcard device and Bitcoin Core_
 
 ## Complete guide to generating a private key using a Coldcard and using it through the interface of your Bitcoin Core node!
 
@@ -18,20 +18,21 @@ Today, there are multiple tools available to facilitate the random generation of
 
 In this article, we will learn how to generate a private key using a Coldcard Mk4, one of the most widely used and secure devices in the world of Bitcoin, using the dice roll method to ensure maximum entropy, and how to use it with Bitcoin Core in an air-gapped manner!
 
-> 🧰| Get the following tools to follow the guide:
->
-> - Coldcard device (Mk3 or Mk4)
-> - MicroSD card (4GB is sufficient)
-> - Power-only magnetic USB cable (mini-usb for Mk3, usb-c for Mk4)
-> - One or more quality dice
+**Note:🧰** Get the following tools to use the guide:
+
+- Coldcard device (Mk3 or Mk4)
+- MicroSD card (4GB is sufficient)
+- Power-only magnetic USB cable (mini-usb for Mk3, usb-c for Mk4)
+- One or more quality dice
 
 ## Generating a new mnemonic phrase with a Coldcard
 
 We will start the process of creating a private key from scratch, assuming a freshly unpacked Coldcard on which a PIN has already been set up (follow the steps on the Coldcard during device initialization).
 
-> 🚨 | To reset the private key of an already configured Coldcard, follow these steps:
-> Advanced/Tools > Danger Zone > Seed Functions > Destroy Seed> ✓
-> _Attention_: your Coldcard will forget the private key following these steps. Make sure you have properly backed up your mnemonic phrase if you want to be able to recover it later.
+**Note🚨:** To reset the private key of an already configured Coldcard, follow these steps:
+_Advanced/Tools > Danger Zone > Seed Functions > Destroy Seed > ✓_
+
+**Attention:** your Coldcard will forget the private key following these steps. Make sure you have properly backed up your mnemonic phrase if you want to be able to recover it later.
 
 ## Steps to follow:
 
@@ -47,11 +48,11 @@ Next, choose whether or not to activate the NFC (Mk4) and USB functions by follo
 
 Before proceeding, it is recommended to note the Master Key Fingerprint (XFP) associated with the private key. This data allows for quick validation if you are in the correct wallet in the case of recovery, for example. Go to Advanced/Tools > View Identity > Master Key Fingerprint (XFP) and write down the series of eight alphanumeric characters obtained. The XFP can be noted in the same place as the mnemonic phrase, it is not sensitive data.
 
-> 💡 It is recommended to test your mnemonic phrase backup in a different software. To do this securely, consult our article Verify the backup of a Bitcoin wallet with Tails in less than 5 minutes.
+**Note:💡** it is recommended to test your mnemonic phrase backup in a different software. To do this securely, consult our article Verify the backup of a Bitcoin wallet with Tails in less than 5 minutes.
 
 ## Security Bonus: the "Secret Phrase" (optional)
 
-'A passphrase (secret phrase) is a great element to add to a wallet configuration in order to add a layer of security to protect your bitcoins. The passphrase acts as a sort of 25th word to the mnemonic phrase. Once added, a completely new wallet is created along with a private key and its associated mnemonic phrase. It is not necessary to write down the new mnemonic phrase, as this wallet can be accessed by combining the initial mnemonic phrase with the chosen passphrase.
+A passphrase (secret phrase) is a great element to add to a wallet configuration in order to add a layer of security to protect your bitcoins. The passphrase acts as a sort of 25th word to the mnemonic phrase. Once added, a completely new wallet is created along with a private key and its associated mnemonic phrase. It is not necessary to write down the new mnemonic phrase, as this wallet can be accessed by combining the initial mnemonic phrase with the chosen passphrase.
 
 The goal is to note the passphrase separately from the mnemonic phrase because an attacker who has access to both items will have access to the funds. On the other hand, an attacker who only has access to one of these items will have no access to the funds, and it is this specific advantage that optimizes the level of security of the wallet configuration.
 
@@ -61,11 +62,11 @@ The goal is to note the passphrase separately from the mnemonic phrase because a
 
 Passphrase > Add Words (recommended) > Apply. The device will display the XFP of the newly generated wallet with the passphrase, which should be noted down with the passphrase for the same reasons mentioned earlier.
 
-> 💡 Additional resources related to the passphrase:
+**Tip💡** Here there are additional resources related to the passphrase:
 
-    https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af
-    https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/
-    https://armantheparman.com/passphrase/
+- [Here](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) there is the first one by _Trezor_;
+- [Here](https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/) you can find the second one by _Coinkite_;
+- And [here](https://armantheparman.com/passphrase/) you will find the last one by _armantheparman_.
 
 ## Exporting the wallet to Bitcoin Core
 
@@ -73,9 +74,8 @@ The wallet is now ready to be exported to software in order to interact with the
 
 Refer to our installation and configuration guides for Bitcoin Core:
 
-> Running your own node with Bitcoin Core - https://agora256.com/faire-tourner-son-propre-noeud-avec-bitcoin-core/
->
-> Configuring Tor for a Bitcoin Core node - https://agora256.com/configuration-tor-bitcoin-core/
+- **Running your own node with Bitcoin Core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-bitcoin-core/
+- **Configuring Tor for a Bitcoin Core node:** https://agora256.com/configuration-tor-bitcoin-core/
 
 First, insert a micro SD card into the Coldcard, then export the wallet for Bitcoin Core by following these steps: Advanced/Tools > Export Wallet > Bitcoin Core. Two files will be written to the micro SD card: bitcoin-core.sig & bitcoin-core.txt. Insert the micro SD card into the computer where Bitcoin Core is installed, and open the .txt file. You will see the line "For wallet with master key fingerprint." Verify that the eight-character XFP matches the one you noted when creating your private key.'
 Before following the instructions in the file, let's start by preparing the wallet in the Bitcoin Core interface by following these steps: go to the File tab > Create a wallet. Choose a name for your wallet (interchangeable term with "porte-monnaie" in Core) and check the options Disable private keys, Create an empty wallet, and Wallet descriptors as shown in the image below. Then, press the Create button.
@@ -90,7 +90,7 @@ Now, in the .txt file generated by the Coldcard earlier, copy the line starting 
 
 If the response contains "message": "Ranged descriptors should not have a label", erase the entry "label": "Coldcard xxxx0000" in the copied line from the .txt file, then paste the complete line back into the Bitcoin Core console.
 
-Help: [https://github.com/Coldcard/firmware/blob/master/docs/bitcoin-core-usage.md](https://github.com/Coldcard/firmware/blob/master/docs/bitcoin-core-usage.md)
+If needed, you can find some help [here](https://github.com/Coldcard/firmware/blob/master/docs/bitcoin-core-usage.md) on Coldcard Github.
 
 ## Validation of wallet import in Bitcoin Core
 
@@ -107,9 +107,9 @@ Essentially, we use the Bitcoin Core interface to construct a transaction, which
 
 Before proceeding, make sure the following options are enabled in Settings > Wallet:
 
-> - Enable coin control features
-> - Spend unconfirmed coins (Optional)
-> - Enable TBPS checks
+- Enable coin control features
+- Spend unconfirmed coins (Optional)
+- Enable TBPS checks
 
 ![option ](assets/guide-agora/5.webp)
 

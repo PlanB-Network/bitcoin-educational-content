@@ -4,7 +4,7 @@ name: Muun
 description: Muunウォレットの設定
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 Muun (https://muun.com/) はビットコインとライトニングネットワーク用の自己管理型ウォレットです。
 

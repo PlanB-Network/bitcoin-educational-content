@@ -1,0 +1,9 @@
+question: Quel type d'attaque un numéro de séquence peut-il empêcher dans une session de communication sécurisée ?
+answer: Les attaques par rejeu et par réorganisation
+wrong_answers:
+  - Les attaques par interception passive
+  - Les attaques de déni de service
+  - Les attaques par falsification de clé
+explanation: |
+  Un numéro de séquence dans chaque message empêche les attaques par rejeu et réorganisation, car il permet de vérifier l'ordre et l'unicité des messages.
+reviewed: false

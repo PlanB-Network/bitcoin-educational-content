@@ -1,9 +1,0 @@
-question: Qual è lo scopo della Profondità 3 nella struttura dell'HD Wallet?
-answer: Viene utilizzata per organizzare il portafoglio in diversi account
-wrong_answers:
-  - Viene utilizzata per derivare chiavi figlie per uno scopo specifico
-  - Consente la differenziazione degli account per diverse criptovalute o reti
-  - Corrisponde alle catene esterne e interne
-explanation: |
-  Nella struttura dell'HD Wallet, la Profondità 3 viene utilizzata per organizzare il portafoglio in diversi account, fornendo una struttura più chiara e organizzata.
-reviewed: false

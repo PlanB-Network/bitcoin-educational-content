@@ -1,0 +1,5 @@
+---
+term: SHA256
+
+---
+Lyhenne sanoista "*Secure Hash Algorithm 256 bits*". Se on kryptografinen hash-funktio, joka tuottaa 256-bittisen digestin. Sen on suunnitellut *National Security Agency* (NSA) 2000-luvun alussa, ja siitä on tullut liittovaltion standardi arkaluonteisten tietojen käsittelyssä. Bitcoin-protokollassa `SHA256`-funktio on kaikkialla läsnä. Sitä käytetään lohkojen otsikoiden hash-toimintoon osana työn todistamista. `SHA256`:ta käytetään myös prosessissa, jossa vastaanottava osoite johdetaan julkisesta avaimesta. Lisäksi sitä käytetään transaktioiden ja todistajien yhdistämiseen Merkle-puiden sisällä lohkoissa. `SHA256` löytyy myös avainten sormenjälkien laskennassa, tiettyjen tarkistussummien laskennassa ja monissa muissa Bitcoiniin liittyvissä prosesseissa. Kun sitä käytetään kahdesti peräkkäin, siitä käytetään nimitystä `HASH256`. Tätä kaksoissovellusta käytetään pääasiassa Bitcoinissa. Kun `SHA256` käytetään yhdessä `RIPEMD160`-toiminnon kanssa, siitä käytetään nimitystä `HASH160`. Tätä kaksinkertaista hashing-toimintoa käytetään avainten sormenjälkien ja julkisten avainten hashing-toimintoon. `SHA256`-funktio on osa SHA 2 -perhettä.

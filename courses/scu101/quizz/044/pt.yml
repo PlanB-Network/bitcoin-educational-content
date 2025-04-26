@@ -1,9 +1,12 @@
 question: Por que é importante substituir gradualmente suas senhas antigas por aquelas geradas por um gerenciador de senhas?
-answer: As senhas geradas por um gerenciador de senhas são mais fortes e longas, oferecendo mais segurança.
+answer: Senhas geradas por um gerenciador de senhas são mais fortes e mais longas, oferecendo mais segurança.
 wrong_answers:
-  - As senhas antigas são automaticamente excluídas pelo gerenciador de senhas.
-  - Os gerenciadores de senhas só podem armazenar um número limitado de senhas.
-  - Os gerenciadores de senhas exigem que todas as senhas sejam geradas por eles.
+  - Senhas antigas são automaticamente deletadas pelo gerenciador de senhas.
+  - Gerenciadores de senhas só podem armazenar um número limitado de senhas.
+  - Gerenciadores de senhas exigem que todas as senhas sejam geradas por eles.
 explanation: |
-  As senhas geradas por um gerenciador de senhas são mais fortes e longas, oferecendo mais segurança. Ao substituir gradualmente suas senhas antigas por essas, você pode aumentar a segurança de suas contas online.
-reviewed: false
+  Senhas geradas por um gerenciador de senhas são mais fortes e
+  mais longas, oferecendo mais segurança. Ao substituir gradualmente suas
+  senhas antigas por estas, você pode aumentar a segurança de
+  suas contas online.
+reviewed: true

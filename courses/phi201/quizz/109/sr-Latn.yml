@@ -1,0 +1,9 @@
+question: Koje je rešenje koje je Hayek predložio da se izbegne ropstvo?
+answer: Branite privatnu svojinu i spontani poredak tržišta kao bedeme protiv tiranije.
+wrong_answers:
+  - Zalaže se za povećanje poreza kako bi se pomoglo siromašnima.
+  - Poziva na povratak ekonomskom sistemu tipa feudalizma.
+  - Edukacija javnosti o pravilima na putu.
+explanation: |
+  Hayek veruje da se individualna sloboda očuva zaštitom privatne svojine i omogućavanjem tržištu da se samoreguliše, čime se sprečavaju autoritarni pomaci i centralizacija moći.
+reviewed: false

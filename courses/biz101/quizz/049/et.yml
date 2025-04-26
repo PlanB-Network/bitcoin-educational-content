@@ -1,0 +1,9 @@
+question: Milline on paberraha peamine eelis traditsioonilistes maksesüsteemides kasutatavate müntide ees?
+answer: Suurem kaasaskantavus ja tõhusus
+wrong_answers:
+  - Suurendatud sisemine väärtus väärismetallide kaudu
+  - Iga tehingu automaatne kontrollimine
+  - Võltsimisohu täielik kõrvaldamine
+explanation: |
+  Kuna paberraha oli kerge ja seda oli lihtsam transportida kui münte, võimaldas see tõhusamat kaugkaubandust ja vähendas logistilisi probleeme.
+reviewed: false

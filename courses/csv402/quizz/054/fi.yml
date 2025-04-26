@@ -1,0 +1,9 @@
+question: Mikä on RGBlib RGB-ekosysteemissä?
+answer: Kirjasto RGB-varantojen hallintaan tarkoitettujen sovellusten luomiseen
+wrong_answers:
+  - Android-lompakko, joka on omistettu RGB-varojen hallintaan
+  - Vaihtoehtoinen asiakas RGB-protokollalle
+  - Verkkosivusto RGB NFT:iden näyttämiseen
+explanation: |
+  RGBlib tarjoaa kehittäjille yksinkertaistetun käyttöliittymän, jonka avulla he voivat hallita RGB-varantojen päästöjä, siirtoa ja validointia ilman, että heidän tarvitsee hallita kaikkia teknisiä yksityiskohtia.
+reviewed: false

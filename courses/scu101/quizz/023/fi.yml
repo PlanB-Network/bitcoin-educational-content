@@ -5,5 +5,6 @@ wrong_answers:
   - Lisätäkseen tallennuskapasiteettia.
   - Parantaakseen käyttöliittymää.
 explanation: |
-  Vahva salasana on ratkaisevan tärkeä tietokoneen turvallisuuden kannalta, jotta voidaan estää luvaton pääsy järjestelmään.
-reviewed: false
+  Vahva salasana on ratkaisevan tärkeä tietokoneen turvallisuudelle
+  estääkseen luvattoman pääsyn järjestelmään.
+reviewed: true

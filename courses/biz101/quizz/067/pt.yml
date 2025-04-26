@@ -1,0 +1,9 @@
+question: Que papel desempenham ferramentas como a Zaprite e a Musqet numa solução de pagamento profissional?
+answer: Aperfeiçoam a experiência de checkout
+wrong_answers:
+  - Tratam da conversão de várias divisas e do desembolso de moeda fiduciária
+  - Centram-se na encriptação de dados de transacções e na gestão de chaves privadas
+  - Funcionam como sistemas POS básicos
+explanation: |
+  A Zaprite e a Musqet adicionam refinamentos de personalização e de relatórios ao processo de checkout, complementando a infraestrutura de pagamento principal.
+reviewed: false

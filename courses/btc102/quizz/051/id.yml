@@ -1,0 +1,9 @@
+question: Metode mana yang memungkinkan Anda mengimbangi bitcoin yang dibelanjakan sambil menjaga tabungan Anda?
+answer: Membelanjakan dan Mengganti
+wrong_answers:
+  - HODLING dan Ganti
+  - Pengeluaran dan HODLing
+  - Perdagangan dan Pembelanjaan
+explanation: |
+  Metode Spend and Replace melibatkan pembelanjaan bitcoin dan kemudian membeli kembali jumlah yang sama untuk mempertahankan kepemilikan Anda.
+reviewed: false

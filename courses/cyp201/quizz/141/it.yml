@@ -1,9 +1,0 @@
-question: Cosa è una chiave estesa in un portafoglio HD?
-answer: È ottenuta concatenando una chiave genitore con il suo codice di catena.
-wrong_answers:
-  - È l'elemento più alto nella gerarchia del portafoglio HD.
-  - Viene utilizzata per generare il seed del portafoglio.
-  - Viene utilizzata per calcolare il checksum.
-explanation: |
-  La derivazione di una chiave figlia dipende da diversi fattori, tra cui la chiave genitore e il corrispondente codice di catena. Una chiave estesa viene ottenuta concatenando una chiave genitore con il suo codice di catena.
-reviewed: false

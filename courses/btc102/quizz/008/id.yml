@@ -1,0 +1,9 @@
+question: Mengapa penting untuk memperbarui sistem dan perangkat lunak Anda secara teratur?
+answer: Untuk memperbaiki kerentanan keamanan yang diketahui
+wrong_answers:
+  - Untuk meningkatkan kecepatan PC dan dengan demikian merespons lebih cepat terhadap serangan siber
+  - Untuk menambahkan fitur peretasan
+  - Untuk mengoptimalkan kompatibilitas video game dengan Bitcoin
+explanation: |
+  Pembaruan sering kali memperbaiki kerentanan yang diketahui yang dieksploitasi oleh peretas.
+reviewed: false

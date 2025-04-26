@@ -1,9 +1,0 @@
-question: Jaká funkce se používá k vygenerování seedu z mnemonické fráze a hesla v HD peněžence?
-answer: Funkce pbkdf2
-wrong_answers:
-  - Funkce hmacha512
-  - Funkce SHA256
-  - Funkce RIPMD160
-explanation: |
-  Funkce pbkdf2 se používá k vygenerování seedu z mnemonické fráze a hesla, s použitím hmacha512 a 2048 iterací. Tento seed je poté použit k odvození hlavního klíče a hlavního řetězového kódu.
-reviewed: false

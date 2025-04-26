@@ -1,9 +1,8 @@
-question: ¿Es obligatorio el uso de una frase de contraseña en una billetera de Bitcoin?
-answer: No, su uso es opcional.
+question: ¿Cuál es la principal novedad de los scripts P2WPKH en comparación con los P2PKH?
+answer: Las firmas se trasladan al campo Witness.
 wrong_answers:
-  - Sí, su uso es obligatorio.
-  - Depende del tipo de billetera.
-  - Depende de la cantidad de bitcoins en la billetera.
+  - Las direcciones están codificadas en base58check.
+  - El scriptPubKey incluye el hash de la clave privada.
+  - P2WPKH es incompatible con SegWit.
 explanation: |
-  La frase de contraseña es una contraseña adicional que se puede integrar en una billetera de Bitcoin para aumentar su seguridad. Su uso es opcional y está a discreción del usuario.
-reviewed: false
+  P2WPKH, introducido con SegWit, traslada las firmas a una sección separada llamada Witness para prevenir la maleabilidad de las transacciones.

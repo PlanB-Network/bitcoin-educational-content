@@ -1,0 +1,9 @@
+question: Loại mã hóa nào là mã hóa dịch chuyển?
+answer: Một loại mã hóa thay thế đơn bảng chữ cái
+wrong_answers:
+  - Một loại mã hóa hoán vị từ
+  - Một loại mã hóa thay thế đa bảng chữ cái
+  - Một loại mã hóa không đối xứng
+explanation: |
+  Mã hóa dịch chuyển là một ví dụ của mã hóa thay thế đơn bảng chữ cái, nơi mỗi chữ cái trong thông điệp được dịch chuyển một số vị trí cố định trong bảng chữ cái.
+reviewed: false

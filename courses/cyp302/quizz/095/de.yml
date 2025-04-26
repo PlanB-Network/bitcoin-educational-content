@@ -1,0 +1,9 @@
+question: Wie ermöglicht ein MAC Alice zu überprüfen, ob eine Nachricht tatsächlich von Bob stammt?
+answer: Indem sie überprüft, ob das generierte Tag mit dem von Bob gesendeten übereinstimmt
+wrong_answers:
+  - Indem die Nachricht entschlüsselt wird, um zu sehen, ob sie lesbar ist
+  - Indem die Größe der Nachricht mit der des Tags verglichen wird
+  - Indem die IP-Adresse des Absenders überprüft wird
+explanation: |
+  Alice verwendet den gemeinsamen geheimen Schlüssel, um aus der empfangenen Nachricht ein Tag zu generieren. Wenn dieses Tag mit dem von Bob gesendeten übereinstimmt, weiß sie, dass die Nachricht authentisch und unverändert ist.
+reviewed: false

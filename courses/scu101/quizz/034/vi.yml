@@ -1,8 +1,11 @@
-question: Các tệp đính kèm và hình ảnh trong email có thể chứa gì?
+question: Các tệp đính kèm và hình ảnh trong email có thể chứa nội dung độc hại gì?
 answer: Malware
 wrong_answers:
   - Spam
   - Quảng cáo
-  - Nội dung quảng cáo
+  - Nội dung quảng bá
 explanation: |
-  Các tệp đính kèm và hình ảnh trong email có thể chứa malware. Do đó, bạn không nên tải xuống hoặc mở các tệp đính kèm từ người gửi không rõ hoặc đáng ngờ.
+  Các tệp đính kèm và hình ảnh trong email có thể chứa malware.
+  Do đó, bạn không nên tải xuống hoặc mở các tệp đính kèm từ
+  người gửi không rõ hoặc đáng ngờ.
+reviewed: true

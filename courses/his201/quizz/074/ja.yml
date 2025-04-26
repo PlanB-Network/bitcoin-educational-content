@@ -1,0 +1,9 @@
+question: 2014年3月にNewsweekのジャーナリストによって誤ってSatoshi Nakamotoと特定された、Temple City出身の通信技術者のファーストネームは何でしたか？
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation: |
+  彼のフルネームはDorian Prentice Satoshi Nakamotoでした。彼は日本系の出身です。[Newsweekの記事](https: //www.newsweek.com/2014/03/14/face-behind-bitcoin-247957.html)を参照してください。
+reviewed: false

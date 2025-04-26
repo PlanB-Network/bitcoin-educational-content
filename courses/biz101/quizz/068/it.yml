@@ -1,0 +1,9 @@
+question: Come si può implementare BTC Pay Server in un ambiente professionale?
+answer: On-premises o tramite cloud hosting
+wrong_answers:
+  - Esclusivamente su dispositivi hardware dedicati
+  - Attraverso un servizio di terze parti completamente esternalizzato
+  - Come applicazione mobile
+explanation: |
+  La flessibilità della distribuzione di BTC Pay Server on-premises o nel cloud consente alle aziende di scegliere la configurazione più adatta alle proprie esigenze operative.
+reviewed: false

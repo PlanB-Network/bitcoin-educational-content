@@ -1,0 +1,9 @@
+question: Kuidas valitakse eksponent e RSA krüptosüsteemis?
+answer: See peab olema täisarv, mis on suurem kui 2 ja teineteisega võõras φ(N)-ga
+wrong_answers:
+  - See peab olema algarv, mis on väiksem kui N
+  - See valitakse juhuslikult ilma piiranguteta
+  - See peab olema võrdne φ(N)-ga
+explanation: |
+  RSA-s valitakse eksponent e nii, et see on suurem kui 2 ja teineteisega võõras φ(N)-ga, mis tagab toimingute turvalisuse.
+reviewed: false

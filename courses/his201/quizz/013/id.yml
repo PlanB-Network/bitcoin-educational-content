@@ -1,0 +1,9 @@
+question: Peneliti mana yang dikutip oleh Satoshi Nakamoto dalam makalah putih Bitcoin atas pekerjaan mereka tentang penandaan waktu bersertifikat?
+answer: Stuart Haber dan Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak, dan Marshall Pease
+  - Cynthia Dwork dan Moni Naor
+  - Ronald Rivest dan Adi Shamir
+explanation: |
+  Tiga makalah oleh Haber dan Stornetta dari tahun 90-an dikutip dalam makalah putih. Mereka dikenal karena menciptakan [blockchain bertanda waktu pertama](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), yang dipublikasikan di New York Times mulai tahun 1992.
+reviewed: false

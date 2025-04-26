@@ -1,9 +1,9 @@
-question: Qual è il significato del numero di conferme in una transazione Bitcoin?
+question: Perché il numero di conferme in una transazione Bitcoin è importante?
 answer: Più conferme ha una transazione, più diventa immutabile.
 wrong_answers:
   - Più conferme ha una transazione, più diventa preziosa.
   - Più conferme ha una transazione, più velocemente viene elaborata.
-  - Più conferme ha una transazione, meno sicura diventa.
-explanation: |
-  Il numero di conferme in una transazione Bitcoin indica quanti blocchi sono stati estratti sopra il blocco contenente la transazione. Più conferme ha una transazione, più diventa immutabile.
-reviewed: false
+  - Più conferme ha una transazione, meno è sicura.
+explanation: >-
+  Il numero di conferme in una transazione Bitcoin indica quanti blocchi sono stati minati sopra il blocco che contiene la transazione. Più conferme ha una transazione, più diventa immutabile.
+reviewed: true

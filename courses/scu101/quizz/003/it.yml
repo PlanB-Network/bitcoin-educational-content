@@ -1,9 +1,12 @@
 question: Qual è il principale vantaggio nell'utilizzare software open-source?
-answer: Consente di verificare che non ci sia alcun accesso nascosto per rubare i tuoi dati personali.
+answer: Permette di verificare che non ci sia accesso nascosto per rubare i tuoi dati personali.
 wrong_answers:
   - È sempre gratuito.
-  - È sempre più sicuro rispetto al software closed-source.
-  - È sempre più user-friendly rispetto al software closed-source.
+  - È sempre più sicuro del software proprietario.
+  - È sempre più facile da usare del software proprietario.
 explanation: |
-  Il software open-source è un software il cui codice è conosciuto e accessibile a tutti. Ciò consente, tra le altre cose, di verificare che non ci sia alcun accesso nascosto per rubare i tuoi dati personali. Tuttavia, non è sempre gratuito, più sicuro o più user-friendly rispetto al software closed-source.
-reviewed: false
+  Il software open-source è un software il cui codice è noto e
+  accessibile a tutti. Questo permette, tra le altre cose, di verificare
+  che non ci siano accessi nascosti per rubare i tuoi dati personali. Tuttavia,
+  non è sempre gratuito, più sicuro o più facile da usare rispetto al software proprietario.
+reviewed: true

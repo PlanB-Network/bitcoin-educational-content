@@ -1,0 +1,9 @@
+question: Mikä on yksi syy siihen, että institutionaaliset sijoittajat ja suuret yritykset ovat kiinnostuneet Bitcoinista?
+answer: Bitcoinin hyväksyminen suurten rahoitusalan toimijoiden, kuten BlackRockin, toimesta ja Spot Bitcoin ETF:ien menestys on legitimoinut Bitcoinin arvon säilyttäjänä.
+wrong_answers:
+  - Bitcoinin hinnan määräävät ja takaavat valtion virastot.
+  - Keskuspankit ovat täysin vakuuttaneet Bitcoin-tapahtumat.
+  - Se ei vaadi digitaalisten varojen tai rahoitusalan säännösten ymmärtämistä.
+explanation: |
+  Kun suuret instituutiot tunnustavat Bitcoinin päteväksi sijoituskohteeksi, se viestii markkinoille, että se on kypsynyt spekulaatiota pidemmälle. Spot Bitcoin ETF:ien kaltaiset tuotteet helpottavat yritysten altistumista, mikä edistää edelleen valtavirran hyväksyntää.
+reviewed: false

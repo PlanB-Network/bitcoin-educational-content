@@ -1,0 +1,9 @@
+question: Quelles sont les classes en conflit selon Comte et Dunoyer ?
+answer: Ceux qui paient l'impôt et ceux qui en vivent
+wrong_answers:
+  - Les travailleurs et les patrons
+  - Les bourgeois et les prolétaires
+  - Les commerçants et les artisans
+explanation: |
+  Comte et Dunoyer voient le conflit de classe entre les producteurs, qui financent par l'impôt, et les non-producteurs, qui en bénéficient.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welcher Ansatz wird beim Kauf von Bitcoin empfohlen, um mit der Preisvolatilität umzugehen?
+answer: Sammeln Sie schrittweise und in regelmäßigen Abständen Bitcoin und behalten Sie eine langfristige Perspektive bei.
+wrong_answers:
+  - Versuchen Sie, kurzfristige Marktspitzen vorherzusehen und sofort zu verkaufen.
+  - Nehmen Sie das gesamte Vermögen des Unternehmens auf einmal in die Hand.
+  - Kaufen Sie Bitcoin nur an Tagen, an denen der Preis stark gestiegen ist.
+explanation: |
+  Regelmäßige Käufe im Laufe der Zeit (Dollar-Cost-Averaging) tragen zur Glättung der Volatilität bei. Ein längerfristiger Zeithorizont (z. B. 4 Jahre) verringert die Auswirkungen kurzfristiger Kursschwankungen.
+reviewed: false

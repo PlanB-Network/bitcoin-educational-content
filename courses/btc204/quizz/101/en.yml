@@ -1,0 +1,13 @@
+question: How is entropy calculated in the context of chain analysis on Bitcoin?
+
+answer: By taking the binary logarithm of the number of interpretations.
+
+wrong_answers:
+  - By multiplying the number of inputs by the number of outputs.
+  - By adding the number of inputs and outputs.
+  - By taking the binary logarithm of the number of inputs and outputs.
+
+explanation: |
+  Entropy is defined as the binary logarithm of the number of possible combinations.
+
+reviewed: false

@@ -1,0 +1,11 @@
+question: Apa keuntungan utama dari transaksi payjoin dibandingkan dengan transaksi pembayaran klasik?
+
+answer: Meningkatkan privasi
+
+wrong_answers:
+  - Meningkatkan kecepatan konfirmasi
+  - Mengurangi biaya transaksi
+  - Menyesatkan penerima
+
+explanation: |
+  Transaksi payjoin meningkatkan privasi para pemangku kepentingan dengan menyesatkan analisis rantai.

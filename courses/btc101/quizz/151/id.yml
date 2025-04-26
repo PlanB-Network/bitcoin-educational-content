@@ -1,0 +1,10 @@
+question: Apa itu Bukti Kerja (POW)?
+answer: Ini adalah konsensus keamanan dari protokol Bitcoin.
+wrong_answers:
+  - Ini adalah proses menciptakan bitcoin baru.
+  - Ini adalah metode memverifikasi transaksi Bitcoin.
+  - Ini adalah algoritma yang digunakan untuk menambang bitcoin.
+explanation: >-
+  Bukti Kerja adalah algoritma konsensus yang digunakan dalam jaringan Bitcoin
+  untuk memvalidasi transaksi dan menciptakan blok baru. Ini mengharuskan penambang untuk menyelesaikan masalah matematika yang kompleks, memastikan keamanan dan integritas jaringan.
+reviewed: false

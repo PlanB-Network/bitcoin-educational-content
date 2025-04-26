@@ -1,0 +1,9 @@
+question: Come viene scelto l'esponente e nel crittosistema RSA?
+answer: Deve essere un intero maggiore di 2, coprimo con φ(N)
+wrong_answers:
+  - Deve essere un numero primo minore di N
+  - Viene scelto casualmente senza restrizioni
+  - Deve essere uguale a φ(N)
+explanation: |
+  Nel RSA, l'esponente e viene scelto in modo tale che sia maggiore di 2 e coprimo con φ(N), il che garantisce la sicurezza delle operazioni.
+reviewed: false

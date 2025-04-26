@@ -1,0 +1,9 @@
+question: Какая система обеспечивает быстрые и недорогие транзакции на Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - Сеть Ripple
+  - RGB
+explanation: |
+  Lightning Network - это второе решение Layer, которое обеспечивает быстрый расчет и снижает стоимость транзакций BTC.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hvorfor er autentisert kryptering motstandsdyktig mot angrep med valgt kryptotekst?
+answer: Fordi enhver modifikasjon av kryptoteksten av en angriper gjør taggen ugyldig
+wrong_answers:
+  - Fordi den bruker en enkelt krypteringsalgoritme
+  - Fordi enhver modifikasjon av kryptoteksten av en angriper gjør nøkkelen ugyldig
+  - Fordi den kun krypterer meldingen uten en tagg
+explanation: |
+  Et autentisert krypteringssystem er designet for å oppdage modifikasjoner av kryptoteksten, som gjør taggen ugyldig i tilfelle tukling og sikrer motstand mot angrep med valgt kryptotekst.

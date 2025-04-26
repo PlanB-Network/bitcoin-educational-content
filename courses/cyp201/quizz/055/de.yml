@@ -1,9 +1,9 @@
-question: Wie lautet der grobe Name, der manchmal verwendet wird, um die Sammlung von privaten Schlüsseln in einer Bitcoin-Wallet zu bezeichnen?
-answer: Just a Bunch Of Keys (JBOC)
+question: In wie viele Teile wird die Ausgabe der HMAC-SHA512-Funktion, die auf den Seed angewendet wird, unterteilt?
+answer: Zwei Teile zu je 256 Bits
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - Ein einzelner Teil von 512 Bits
+  - Drei Teile zu je 170 Bits
+  - Vier Teile zu je 128 Bits
 explanation: |
-  Die Sammlung von privaten kryptografischen Schlüsseln, die aus einem einzigen Master-Schlüssel in einer Bitcoin-Wallet abgeleitet werden, wird manchmal mit dem etwas derberen Namen "Just a Bunch Of Keys" (JBOC) bezeichnet.
+  Die Ausgabe von HMAC-SHA512 wird in zwei Teile unterteilt: den Master-Privatschlüssel (256 Bits) und den Master-Chain-Code (256 Bits).
 reviewed: false

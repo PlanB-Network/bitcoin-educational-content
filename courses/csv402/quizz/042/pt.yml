@@ -1,0 +1,9 @@
+question: Em caso de pagamento no canal RGB, o que acontece com as saídas RGB nas operações de autorização?
+answer: São actualizados para refletir a redistribuição de activos entre os participantes
+wrong_answers:
+  - Permanecem inalterados para preservar o histórico inicial até o canal ser fechado
+  - São removidos e substituídos por novos sistemas multi-sig
+  - São convertidos em Bitcoin UTXOs clássicos
+explanation: |
+  Quando é efectuado um pagamento, a transição de estado RGB ajusta as saídas RGB para redistribuir os activos de acordo com o novo equilíbrio de canais.
+reviewed: false

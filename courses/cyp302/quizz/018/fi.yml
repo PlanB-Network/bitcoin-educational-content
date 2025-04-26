@@ -1,0 +1,9 @@
+question: Missä tapauksessa voimme sanoa, että kaksi tapahtumaa ovat riippumattomia?
+answer: Toinen ei vaikuta toisen todennäköisyyteen
+wrong_answers:
+  - Kaksi tapahtumaa tapahtuvat aina samanaikaisesti
+  - Ne ovat toisiaan poissulkevia
+  - Niiden yhdistetty todennäköisyys on yhtä suuri kuin kahdesta suurin todennäköisyys
+explanation: |
+  Kaksi tapahtumaa ovat riippumattomia, jos toisen tapahtuman todennäköisyys ei muuta toisen tapahtuman todennäköisyyttä, kuten lottoarvonnan ei vaikuta seuraavan päivän säätilaan.
+reviewed: false

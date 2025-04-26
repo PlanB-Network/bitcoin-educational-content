@@ -1,0 +1,11 @@
+question: 哪种脚本专门用于静默支付？
+
+answer: P2TR
+
+wrong_answers:
+  - P2WPKH
+  - P2SP
+  - P2WSH
+
+explanation: |
+  为了促进该协议的实施并提高其用户的匿名性，静默支付专门依赖于P2TR（支付到Taproot）脚本。

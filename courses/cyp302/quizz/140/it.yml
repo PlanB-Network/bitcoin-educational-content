@@ -1,0 +1,9 @@
+question: Qual è la natura del problema di fattorizzazione che sta alla base della sicurezza dei crittosistemi asimmetrici come RSA?
+answer: Fattorizzare un numero in due fattori primi molto grandi
+wrong_answers:
+  - Decomporre un numero in fattori successivi di 2
+  - Ridurre un numero ai suoi divisori più piccoli
+  - Moltiplicare due grandi numeri primi per ottenere un prodotto
+explanation: |
+  La sicurezza di RSA si basa sulla difficoltà di fattorizzare un grande numero (il prodotto di due grandi numeri primi) nei suoi due fattori primi, un compito che è quasi impossibile senza la chiave privata.
+reviewed: false

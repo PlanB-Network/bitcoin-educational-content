@@ -1,0 +1,8 @@
+question: Ai đã thiết lập dịch vụ trao đổi đầu tiên giữa bitcoin và đô la vào tháng 10 năm 2009?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  Dịch vụ này còn sơ khai: các giao dịch được thương lượng qua email, và thanh toán được thực hiện qua PayPal. Tỷ giá hối đoái dựa trên chi phí khai thác của chính NewLibertyStandard.

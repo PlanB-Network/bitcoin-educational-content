@@ -1,12 +1,12 @@
-question: ¿Cuál es el objetivo principal de la Red Lightning?
-answer: Facilitar microtransacciones
+question: ¿Cuál es el propósito principal de la Red Lightning?
+answer: Facilitar las microtransacciones.
 wrong_answers:
-  - Aumentar el valor de Bitcoin
-  - Reemplazar el protocolo de Bitcoin
-  - Crear una nueva criptomoneda
-explanation: |
+  - Aumentar el valor de Bitcoin.
+  - Reemplazar el protocolo de Bitcoin.
+  - Crear una nueva criptomoneda.
+explanation: >-
   La Red Lightning es una solución de segunda capa para el protocolo de Bitcoin
-  que tiene como objetivo facilitar microtransacciones, que son transacciones de muy bajo valor
-  que de otra manera serían impracticables debido a las altas tarifas y los largos tiempos de confirmación
-  en la cadena de bloques de Bitcoin.
-reviewed: false
+  que tiene como objetivo facilitar las microtransacciones, las cuales son transacciones de muy bajo valor
+  que de otro modo serían impracticables debido a las altas comisiones y los largos tiempos de confirmación
+  en la blockchain de Bitcoin.
+reviewed: true

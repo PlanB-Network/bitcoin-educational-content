@@ -1,9 +1,0 @@
-question: Was ist das Lightning Network?
-answer: Ein System, das HTLCs verwendet, um sichere und überprüfbare Zahlungen in Bitcoin-Transaktionen zu gewährleisten.
-wrong_answers:
-  - Eine Art von Kryptowährung.
-  - Eine Methode zur Verschlüsselung von Daten.
-  - Eine Art von Blockchain.
-explanation: |
-  Das Lightning Network ist ein System, das Hash Time-Locked Contracts (HTLCs) verwendet, um sichere und überprüfbare Zahlungen in Bitcoin-Transaktionen zu gewährleisten.
-reviewed: false

@@ -1,0 +1,9 @@
+question: 2010年8月15日の値のオーバーフロー事故の際に、「奇妙なブロック」を発見したアメリカの開発者は誰ですか？
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  このブロックは、欠陥を悪用して、1840億ビットコイン以上を生成しました。
+reviewed: false

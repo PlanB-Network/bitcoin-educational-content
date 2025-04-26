@@ -1,0 +1,12 @@
+question: Miks tööjaotuse koordineerimise probleem taas esile kerkib suuremates kogukondades?
+answer: Kuna inimesed on piiratud oma kognitiivsete võimetega ja sotsiaalselt aktsepteeritud panuste väärtuse mõõtmine vahetuses on mitte-triviaalne probleem.
+wrong_answers:
+  - Kuna inimesed ei ole huvitatud suuremate gruppidega töötamisest ja eelistavad väiksemaid kogukondi.
+  - Kuna suurematel kogukondadel on rohkem ressursse, mis viib tööjaotuse vajaduse vähenemiseni.
+  - Kuna suuremates kogukondades on rohkem konflikte, mis teeb koordineerimise keeruliseks.
+explanation: |
+  Suuremates kogukondades on inimesel võimatu säilitada ja
+  meenutada stabiilseid sotsiaalseid suhteid rohkem kui 150 isikuga, muutes mainesüsteemi
+  ebapiisavaks, et ületada vangi dilemma suuremas mastaabis. Samuti on panuste väärtuse
+  hindamine vahetuses keeruline probleem suuremates kogukondades.
+reviewed: false

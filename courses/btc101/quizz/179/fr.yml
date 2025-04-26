@@ -1,10 +1,10 @@
-question: Quelle est l'une des raisons pour lesquelles Bitcoin connaît autant de bulles spéculatives ?
-answer: Parce que Bitcoin est une monnaie qui est réellement utilisée partout dans le monde.
+question: Quelle est l'une des raisons pour lesquelles le Bitcoin connaît tant de bulles spéculatives ?
+answer: Parce que le Bitcoin est une monnaie qui est utilisée partout dans le monde.
 wrong_answers:
-  - Parce que Bitcoin n'est en réalité utilisé nulle part.
-  - Parce que Bitcoin est une bulle qui va disparaître.
-  - Parce que Bitcoin n'est pas soumis aux cycles économiques.
-explanation: |
-  Bitcoin connaît de nombreuses bulles spéculatives parce que c'est une monnaie
+  - Parce que le Bitcoin n'est réellement utilisé nulle part.
+  - Parce que le Bitcoin est une bulle qui va disparaître.
+  - Parce que le Bitcoin n'est pas soumis aux cycles économiques.
+explanation: >-
+  Le Bitcoin connaît de nombreuses bulles spéculatives parce que c'est une monnaie
   qui est réellement utilisée partout dans le monde.
-reviewed: false
+reviewed: true

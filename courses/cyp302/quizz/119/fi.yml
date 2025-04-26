@@ -1,0 +1,8 @@
+question: Miksi AES-salausta ECB-tilassa ei suositella turvalliseen käyttöön?
+answer: Se johtaa deterministiseen salaukseen
+wrong_answers:
+  - Se vaatii yli 128-bittisen avaimen
+  - Se on liian hidas useimpiin nykyaikaisiin sovelluksiin
+  - Se ei salli tekstin jakamista 128-bittisiin lohkoihin
+explanation: |
+  ECB-tilaa ei suositella, koska se tuottaa determinististä salausta, mikä tarkoittaa, että identtiset tekstin lohkot tuottavat identtiset salatun tekstin lohkot, joita voidaan hyödyntää arvaamaan tietoja alkuperäisestä tekstistä.

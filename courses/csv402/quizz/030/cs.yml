@@ -1,0 +1,9 @@
+question: Jaké složky obsahuje zásilka RGB, kterou Bob (příjemce) obdrží na zakázku?
+answer: Geneze, schéma, rozhraní a implementace rozhraní
+wrong_answers:
+  - Geneze, schéma, přechod a rozšíření
+  - Schéma, rozhraní, podpis a PSBT
+  - Genesis, rozhraní, PSBT a historie
+explanation: |
+  Zásilka smlouvy RGB obsahuje Genesis, Schema, Interface a Interface Implementation, které poskytují všechny údaje potřebné k ověření smlouvy.
+reviewed: false

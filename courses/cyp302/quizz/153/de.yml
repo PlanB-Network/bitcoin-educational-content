@@ -1,0 +1,9 @@
+question: Welches Sicherheitsproblem entsteht, wenn dieselbe Nachricht im vereinfachten RSA-Kryptosystem mehrmals verschlüsselt wird?
+answer: Die Nachricht wird immer die gleiche Verschlüsselung erzeugen
+wrong_answers:
+  - Die Nachricht wird anfällig für Brute-Force-Angriffe
+  - Die Nachricht wird umgekehrt
+  - Die Nachricht wird unmöglich zu entschlüsseln sein
+explanation: |
+  In einem vereinfachten RSA führt das mehrmalige Verschlüsseln einer Nachricht immer zum gleichen Ergebnis, was die Verschlüsselung anfällig für Angriffe macht.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Em um grupo, qual é o elemento único chamado que, quando aplicado a outro elemento, não o altera?
+answer: O elemento neutro
+wrong_answers:
+  - O elemento inverso
+  - O elemento comutativo
+  - O elemento associativo
+explanation: |
+  O elemento neutro de um grupo é o elemento único que, quando aplicado a outro elemento, deixa-o inalterado. Por exemplo, no grupo dos inteiros sob adição, o elemento neutro é 0.
+reviewed: false

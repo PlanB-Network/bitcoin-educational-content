@@ -1,9 +1,9 @@
-question: Qual è il principale rischio di lasciare i tuoi bitcoin su una piattaforma di scambio?
-answer: La piattaforma può essere hackerata, sequestrata, fallire o semplicemente scomparire con i tuoi soldi.
+question: Quale strumento vi permette di monitorare il vostro Wallet senza esporre le vostre chiavi private?
+answer: Watch-only wallet
 wrong_answers:
-  - Il prezzo del Bitcoin può improvvisamente scendere.
-  - La piattaforma può aumentare le sue commissioni.
-  - La piattaforma può limitare il numero di bitcoin che puoi comprare o vendere.
+  - Hot Wallet
+  - Fulmine Wallet
+  - Custodia Wallet
 explanation: |
-  Il contenuto del capitolo avverte che le piattaforme di scambio presentano rischi significativi e dovrebbero essere evitate il più possibile. Possono essere hackerate, sequestrate, fallire o semplicemente scomparire con i tuoi soldi.
+  Un Watch-only wallet utilizza solo le chiavi pubbliche per visualizzare saldi e transazioni, senza rischiare di esporre le chiavi private.
 reviewed: false

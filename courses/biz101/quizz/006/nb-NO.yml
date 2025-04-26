@@ -1,0 +1,9 @@
+question: Hvorfor er taket på 21 millioner Bitcoin-utstedelser viktig?
+answer: Det skaper en deflatorisk eiendel som beskytter verdien mot vilkårlig inflasjon.
+wrong_answers:
+  - Det sikrer at myndighetene kan trykke så mange bitcoins som de trenger.
+  - Det forhindrer at noen sender transaksjoner etter at taket er nådd.
+  - Det eliminerer all volatilitet i Bitcoins pris.
+explanation: |
+  Ved å ha et maksimalt tilbud på 21 millioner er Bitcoins knapphet hardkodet, noe som gjør den fundamentalt forskjellig fra inflasjonsvalutaer der tilbudet kan økes etter eget ønske.
+reviewed: false

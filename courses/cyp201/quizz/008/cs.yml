@@ -1,9 +1,9 @@
-question: Co se stane, pokud je kryptografické hašovací funkci zadán i mírně odlišný vstup?
-answer: Výrazně se změní konečný hash.
+question: Proč SHA256 aplikuje předzpracování na vstupní zprávu?
+answer: Aby zajistila délku násobnou 512 bitů
 wrong_answers:
-  - Produkuje stejný hash.
-  - Způsobí selhání hašovací funkce.
-  - Zpomalí výpočet hash.
+  - Ověřit integritu zprávy
+  - Zašifrovat data před hashováním
+  - Zvýšit velikost generovaných hashů
 explanation: |
-  Kryptografické hašovací funkce jsou navrženy tak, že i mírná odchylka ve vstupu výrazně změní konečný hash. Tato vlastnost je klíčová pro bezpečnost hašovací funkce, protože činí extrémně obtížným najít jiný vstup, který by produkoval stejný hash.
+  Předzpracování upravuje délku zprávy přidáním bitů pro zarovnání a binární reprezentací její délky.
 reviewed: false

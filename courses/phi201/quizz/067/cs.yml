@@ -1,0 +1,9 @@
+question: Jaká je hlavní myšlenka Voltairova textu o Londýnské burze?
+answer: Obchodníci všech náboženství odkládají své rozdíly stranou, aby se soustředili na vzájemný zisk.
+wrong_answers:
+  - Různá náboženství světa se scházejí na burze, aby zde v míru praktikovala svou víru.
+  - Londýnská burza je místem spekulací a korupce, kde jsou morální hodnoty opomíjeny.
+  - Náboženství nemá místo ve světě podnikání, který je ovládán duchem soutěžení a individualismu.
+explanation: |
+  Voltaire zdůrazňuje, že na Londýnské burze obchodníci překonávají své náboženské rozdíly, aby spolupracovali směrem k společnému ekonomickému cíli, což ilustruje přednost materiálního zájmu před náboženskými rozděleními.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Pernyataan mana yang paling tepat untuk menggambarkan peran Bitcoin sebagai jaringan dan aset untuk bisnis?
+answer: Ini dapat bertindak sebagai penyimpan nilai dan media pertukaran dalam sistem global yang terdesentralisasi.
+wrong_answers:
+  - Ini hanya dapat berfungsi sebagai sistem kartu hadiah lokal.
+  - Ini semata-mata alat perdagangan spekulatif tanpa utilitas nyata.
+  - Ini harus dikaitkan dengan kebijakan moneter satu negara untuk beroperasi.
+explanation: |
+  Desain global Bitcoin yang asli internet memungkinkan Bitcoin untuk tidak hanya berfungsi sebagai penyimpan nilai tetapi juga sebagai alat tukar, menyediakan bisnis dengan penyelesaian transaksi yang cepat, tanpa izin, dan penyelesaian akhir di seluruh dunia.
+reviewed: false

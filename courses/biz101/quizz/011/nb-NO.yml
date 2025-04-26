@@ -1,0 +1,9 @@
+question: Hvilke fordeler gir Lightning selgere når det gjelder endelig betaling?
+answer: Betalinger på Lightning fullføres nesten umiddelbart, noe som reduserer risikoen for tilbakeføringer eller svindel.
+wrong_answers:
+  - Det krever 24 timers ventetid før pengene kan brukes.
+  - Det gjør det mulig for kundene å kreve tilbake betalingen når som helst.
+  - Det gjør transaksjoner fullt reversible i opptil 90 dager.
+explanation: |
+  Med Lightning er en betaling endelig når den er rutet og avgjort gjennom nettverket. Dette eliminerer tilbakeføringsscenariene man ser med tradisjonelle betalingssystemer.
+reviewed: false

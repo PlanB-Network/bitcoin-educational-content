@@ -1,0 +1,11 @@
+question: Hvorfor anses maskinvaretokens, som USB-nøkler eller smartkort, for å tilby optimal sikkerhet for 2FA?
+answer: De genererer en unik privat nøkkel for hver nettside og verifiserer URL-en før de tillater tilkoblingen.
+wrong_answers:
+  - De er fysisk vanskeligere å stjele
+  - De er dyrere, så de må være bedre
+  - De er nyere teknologi, så de må være bedre
+explanation: |
+  Maskinvaretokens tilbyr optimal sikkerhet fordi de genererer en unik
+  privat nøkkel for hver nettside og verifiserer URL-en før de tillater tilkoblingen. Dette
+  gjør det mye vanskeligere for en hacker å få uautorisert tilgang.
+reviewed: false

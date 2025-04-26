@@ -1,0 +1,8 @@
+question: 计算Taproot公钥Q需要进行什么操作？
+answer: 将调整值tG加到公钥P上
+wrong_answers:
+  - 将私钥p乘以调整值
+  - 用SHA256散列公钥P
+  - 将调整值t和公钥P连接起来
+explanation: |
+  通过将调整值t与生成器G的标量乘积加到公钥P上，得到Taproot公钥Q。

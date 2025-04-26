@@ -1,11 +1,12 @@
 question: What economic principles does Bitcoin align with?
-answer: Principles of Austrian economics
+answer: Principles of Austrian economics.
 wrong_answers:
-  - Principles of Keynesian economics
-  - Principles of Marxist economics
-  - Principles of Neoclassical economics
+  - Principles of Keynesian economics.
+  - Principles of Marxist economics.
+  - Principles of Neoclassical economics.
 explanation: |
-  Bitcoin aligns with the principles of Austrian economics. Its capped
-  quantity an lack of central entity protect it from the inherent risks of inflation
-  in traditional currencies.
+  Bitcoin aligns with the principles of Austrian economics.
+  Its capped quantity and lack of central entity protect it
+  from the inherent risks of inflation that are seen in
+  traditional currencies.
 reviewed: true

@@ -1,3 +1,4 @@
+id: 51be213c-8ce7-4bdf-b4ab-e17f107cfcf5
 name: 2-Bit Idiots
 host: StackingHats and BitcoinBrendo
 language: en
@@ -8,8 +9,9 @@ links:
 description: |
   The journey from Normie to Bitcoiner.
   Normal people tell the story of how they found the greatest money ever invented. Contact www.twitter.com/2BitIdiots if you'd like to come on as a guest.
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - adoption
+  - user-friendly
+  - case-studies

@@ -1,0 +1,11 @@
+---
+term: BLOCKSIZE WAR
+
+---
+Viitab intensiivse arutelu ja konflikti perioodile Bitcoini kogukonnas aastatel 2015-2017. See konflikt keskendus sellele, kas plokisuurust, mida Satoshi Nakamoto oli alates 2010. aastast piiranud 1 megabaidiga, tuleks suurendada, et Bitcoin saaks töödelda rohkem tehinguid ploki kohta, parandades seeläbi skaleeritavust.
+
+Blokisuuruse suurendamise pooldajad (tuntud kui "*suurblokeerijad*"), keda juhtisid sellised varajased arendajad nagu Jeff Garzik, Gavin Andresen ja Mike Hearn, ökosüsteemi mõjukad tegelased nagu Roger Ver, samuti suur osa suurtest kaevandusettevõtetest, väitsid, et see suurendamine oli vajalik tehingutasude vähendamiseks ja Bitcoini skaleeritavuse suurendamiseks. Nad uskusid, et seda muudatust saab teha ilma süsteemi turvalisust kahjustamata. Teisalt väitsid plokimahu suurendamise vastased (nn *väikeblokeerijad*), peamiselt Bitcoin Core'i arendajad (Pieter Wuille, Peter Todd, Gregory Maxwell, Wladimir van der Laan, Luke Dashjr...) ja osa tehnilisest kogukonnast, et see muudatus tsentraliseeriks süsteemi sõlmede suurenenud töökoormuse tõttu. Nad tõid esile teise tasandi skaleeritavuse lahendusi, nagu Lightning Network, mis toetaks suurt tehingute mahtu, ilma et oleks vaja muuta põhiprotokolli.
+
+Arutelu Bitcoini skaleeritavuse üle on kestnud vähemalt alates 2010. aastast, kusjuures esimene katse suurendada plokisuurust tehti sama aasta oktoobris [Jeff Garziku pakutud paranduse kaudu](https://bitcointalk.org/index.php?topic=1347.0). Kõige ägedamad olid aga konfliktid Blocksize War'i ajal aastatel 2015-2017, mil tehti mitmeid hargimiskatseid (Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited, SegWit, SegWit2X ja Bitcoin Cash), propaganda- ja mõjutamisstrateegiaid ning isiklikke rünnakuid. Hard forki SegWit2X loobumist 8. novembril 2017 pärast kogukonna massilist vastuseisu ("NO2X") peetakse sageli sündmuseks, mis tähistab Blocksize War'i lõppu, samas kui casus belliks peetakse mõnikord Bitcoin XT kliendi versiooni 0.11A uuendust, millega rakendati 15. augustil 2015 BIP101. Samuti võib väita, et Blocksize War lõppes 24. augustil 2017, mil pärast "UASF-i" kasuks toimunud kampaaniat aktiveeriti soft fork SegWit.
+
+Inglise keeles räägime "Blocksize'i sõjast" üldiselt kui pärisnimest. Mõni võib seda terminit aeg-ajalt tõlkida kui "plokksõda" või "plokksuuruse sõda"

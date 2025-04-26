@@ -1,0 +1,11 @@
+question: Mis on üks viis kinnitamaks, et olete soovitud veebilehel?
+answer: Kontrollige URL-e ja väikest tabalukku aadressiribal.
+wrong_answers:
+  - Kontrollige lehel olevate reklaamide hulka.
+  - Kontrollige lehe kiirust.
+  - Kontrollige lehe värvikava.
+explanation: |
+  URL-ide ja aadressiriba väikese tabaluku kontrollimine on üks viis
+  kinnitamaks, et olete soovitud veebilehel. Tabalukk näitab, et
+  leht kasutab HTTPS protokolli, mis krüpteerib andmeid turvaliseks vahetuseks.
+reviewed: false

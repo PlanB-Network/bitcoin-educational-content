@@ -1,12 +1,9 @@
-question: Qual é o princípio das gavetas no contexto das funções de hash criptográficas?
-answer: Ele explica por que, apesar de nossos melhores esforços, a prevenção de colisões é impossível devido à limitação do tamanho de saída.
+question: Qual é a principal função de uma função hash?
+answer: Ela converte informações de tamanho arbitrário em uma impressão digital de tamanho fixo
 wrong_answers:
-  - Ele explica o mecanismo de armazenamento das funções de hash.
-  - Ele descreve o processo de criação de um hash.
-  - É um princípio que explica a irreversibilidade das funções de hash.
+  - Ela criptografa mensagens para torná-las ilegíveis
+  - É usada apenas para verificar a integridade do software Bitcoin
+  - Ela gera chaves privadas para carteiras Bitcoin
 explanation: |
-  O princípio das gavetas no contexto das funções de hash criptográficas
-  explica que, devido à limitação do tamanho de saída, a prevenção de colisões é impossível.
-  Isso ocorre porque há mais possíveis entradas do que saídas, então algumas entradas devem
-  inevitavelmente compartilhar a mesma saída.
+  Uma função hash transforma dados de qualquer tamanho em um hash de tamanho fixo, crucial para muitas aplicações no Bitcoin.
 reviewed: false

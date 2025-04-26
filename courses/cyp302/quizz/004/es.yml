@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal razón por la que los otros cifrados Beale permanecen sin descifrar?
+answer: La clave de estos cifrados sigue siendo desconocida
+wrong_answers:
+  - Los textos cifrados son demasiado antiguos
+  - La caja se perdió antes de que pudiera ser descifrada
+  - A los investigadores les faltan documentos históricos fiables
+explanation: |
+  Los otros cifrados Beale nunca han sido descifrados porque la clave necesaria para leerlos sigue siendo desconocida, a pesar de numerosos intentos.

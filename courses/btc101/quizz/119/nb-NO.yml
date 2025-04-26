@@ -1,0 +1,10 @@
+question: Hva er BitcoinTalk?
+answer: Et diskusjonsforum for Bitcoin-brukere
+wrong_answers:
+  - En Bitcoin-mining programvare
+  - En Bitcoin-lommebok
+  - En Bitcoin-konferanse
+explanation: |
+  BitcoinTalk-forumet er et diskusjonsforum for Bitcoin-brukere. Det
+  ble opprettet av Satoshi Nakamoto den 22. november 2009.
+reviewed: true

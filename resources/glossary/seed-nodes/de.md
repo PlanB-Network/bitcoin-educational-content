@@ -1,0 +1,7 @@
+---
+term: SEED NODES
+
+---
+Statische Liste der öffentlichen Bitcoin-Knoten, die direkt in den Quellcode von Bitcoin Core (`bitcoin/src/chainparamsseeds.h`) integriert ist. Diese Liste dient als Verbindungspunkt für neue Bitcoin-Knoten, die dem Netzwerk beitreten, wird aber nur verwendet, wenn die DNS-Seeds nicht innerhalb von 60 Sekunden nach ihrer Anfrage eine Antwort liefern. In diesem Fall verbindet sich der neue Bitcoin-Knoten mit diesen Seed-Knoten, um eine erste Verbindung zum Netzwerk herzustellen und IP-Adressen anderer Knoten anzufordern. Das ultimative Ziel ist es, die notwendigen Informationen zu erhalten, um den Initial Block Download (IBD) durchzuführen und sich mit der Kette zu synchronisieren, die die meiste Arbeit angesammelt hat. Die Liste der Seed Nodes umfasst fast 1000 Knoten, die gemäß dem vom BIP155 festgelegten Standard identifiziert wurden. Somit stellen Seed Nodes die dritte Methode der Verbindung mit dem Netzwerk für einen Bitcoin-Knoten dar, nach der möglichen Verwendung der Datei "peers.dat", die vom Knoten selbst erstellt wird, und der Anforderung von DNS-Seeds.
+
+> ► *Bitte beachten Sie, dass Seed-Knoten nicht mit "DNS-Seeds" zu verwechseln sind, die die zweite Methode zur Herstellung von Verbindungen sind

@@ -1,9 +1,0 @@
-question: Que fournissent les utilisateurs de Bitcoin à l'expéditeur lorsqu'ils veulent recevoir des bitcoins?
-answer: Une adresse de réception
-wrong_answers:
-  - Leur clé publique
-  - Leur clé privée
-  - Leur mot de passe de portefeuille Bitcoin
-explanation: |
-  Lorsqu'un utilisateur de Bitcoin souhaite recevoir des bitcoins, il fournit une adresse de réception à l'expéditeur. Cette adresse est un hachage de leur clé publique, avec un format spécifique.
-reviewed: false

@@ -1,0 +1,13 @@
+question: Jaká je hlavní nevýhoda používání Toru pro Bitcoinový uzel?
+
+answer: Snížení rychlosti komunikace
+
+wrong_answers:
+  - Zvýšení transakčních poplatků
+  - Riziko cenzury transakcí
+  - Riziko útoku Eclipse na uzel
+
+explanation: |
+  Komunikace přes Tor je pomalejší. Toto zpoždění je zvláště problematické během počátečního spuštění uzlu, protože IBD (Initial Block Download) vyžaduje mnoho komunikace.
+
+reviewed: false

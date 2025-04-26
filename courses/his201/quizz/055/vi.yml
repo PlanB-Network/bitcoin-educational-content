@@ -1,0 +1,9 @@
+question: Sau sự cố tràn giá trị, Satoshi đã thêm vào phần mềm cơ chế nào để hạn chế ảnh hưởng của các lỗ hổng tiềm ẩn đối với hệ thống?
+answer: Hệ thống cảnh báo
+wrong_answers:
+  - Tính chuẩn mực của giao dịch
+  - Giới hạn kích thước khối
+  - Các mã OP_NOP
+explanation: |
+  Hệ thống cảnh báo hiệu quả này cho phép ông, với việc sử dụng một khóa riêng, cảnh báo các nút mạng trong trường hợp có vấn đề kỹ thuật và tạm dừng một số lệnh API.
+reviewed: false

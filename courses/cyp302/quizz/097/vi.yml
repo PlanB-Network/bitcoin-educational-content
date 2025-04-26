@@ -1,0 +1,11 @@
+question: Tại sao chỉ có bảo mật thông tin không đủ để đảm bảo giao tiếp an toàn?
+
+answer: Bởi vì kẻ tấn công vẫn có thể chặn và thay đổi thông điệp mà không cần hiểu nội dung của nó.
+
+wrong_answers:
+  - Bởi vì việc bảo mật thông tin quá khó để đạt được.
+  - Bởi vì khóa riêng có thể dễ dàng bị đoán.
+  - Bởi vì thông điệp không thể được xác thực mà không có chữ ký số.
+
+explanation:
+  Bảo mật thông tin bảo vệ nội dung của các thông điệp, nhưng nếu không có MAC, kẻ tấn công vẫn có thể chặn và thay đổi một thông điệp mà không cần hiểu nó, do đó làm mất tính toàn vẹn của giao tiếp.

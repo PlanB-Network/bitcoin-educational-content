@@ -1,0 +1,9 @@
+question: Co dělá RC4 zranitelným dnes navzdory jeho minulé popularitě?
+answer: Dobře zdokumentované slabiny ve generování klíčového proudu
+wrong_answers:
+  - Klíč příliš krátký pro zajištění bezpečnosti
+  - Jeho neschopnost pracovat s dlouhými texty
+  - Požadavek na použití veřejného klíče vedle soukromého klíče
+explanation: |
+  RC4 má významné slabiny ve generování klíčového proudu, které vystavují šifrování útokům, a proto je postupně opouštěn v moderních bezpečnostních protokolech.
+reviewed: false

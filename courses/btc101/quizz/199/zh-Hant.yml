@@ -1,0 +1,13 @@
+question: 什麼是美元平均成本？
+answer: 定期購買少量的 Bitcoin。
+wrong_answers:
+  - 一次購買大量 Bitcoin。
+  - 降價時才購買 Bitcoin。
+  - 只有在價格上升時才購買 Bitcoin。
+explanation: |
+  課程內容說明美元平均成本法（Dollar Cost Average
+  技術是指定期購買少量的 Bitcoin
+  定期購買少量 Bitcoin。這種方法可以平抑價格
+  價格波動，並確保擁有的 Bitcoin 數量持續增長。
+  擁有的 Bitcoin 數量。
+reviewed: true

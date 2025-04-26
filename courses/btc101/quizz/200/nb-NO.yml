@@ -1,0 +1,11 @@
+question: Hva er et impulsivt kjøp?
+answer: Å kjøpe Bitcoin umiddelbart for å få eksponering.
+wrong_answers:
+  - Å kjøpe Bitcoin med jevne mellomrom.
+  - Å kjøpe Bitcoin bare når prisen faller.
+  - Å kjøpe Bitcoin bare når prisen stiger.
+explanation: >-
+  Teksten forklarer at et impulsivt kjøp brukes for å umiddelbart
+  få eksponering mot Bitcoin. Dette kan være å kjøpe under et krakk eller å ta
+  fordel av en bonus.
+reviewed: false

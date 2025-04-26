@@ -1,0 +1,8 @@
+question: Qual era o nome da empresa de David Chaum através da qual ele implementou seu conceito de moeda digital?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  Fundada em 1990, a DigiCash B.V. estava sediada em Amsterdã, Países Baixos, e detinha as patentes para a invenção de David Chaum, o eCash.

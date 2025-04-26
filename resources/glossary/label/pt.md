@@ -1,0 +1,5 @@
+---
+term: RÓTULO
+
+---
+Rótulo ou anotação atribuída a um UTXO em uma carteira Bitcoin para lembrar sua origem. Por exemplo, se eu possuir um UTXO proveniente de uma compra P2P no Bisq com Charles, eu poderia atribuir-lhe o rótulo `Non-KYC Bisq Charles`. Esta é uma boa prática que ajuda a lembrar a origem ou o destino pretendido desse UTXO, o que facilita a gestão de fundos e a otimização da privacidade. A etiquetagem torna-se ainda mais importante quando utilizada com o controlo de moedas. De facto, ao permitir que os utilizadores diferenciem e seleccionem com precisão os UTXOs para as suas transacções, esta prática ajuda a evitar a fusão de UTXOs de diferentes fontes. Isto limita os riscos associados à Heurística de Propriedade de Entrada Comum (CIOH), que pode revelar a propriedade comum das entradas de uma transação.

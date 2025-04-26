@@ -1,0 +1,9 @@
+question: Hvilken type symmetrisk kryptering brukes primært for kontinuerlig kommunikasjon, som lyd- eller videostreams?
+answer: Strømkryptering
+wrong_answers:
+  - Blokkkryptering
+  - Verifikasjonskode
+  - Meldingshashing
+explanation: |
+  Strømkryptering er spesielt egnet for kontinuerlig kommunikasjon fordi den krypterer data kontinuerlig, i motsetning til blokkkryptering, som deler dem inn i blokker.
+reviewed: false

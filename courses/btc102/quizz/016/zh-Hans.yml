@@ -1,0 +1,9 @@
+question: Bitcoin 最多可以除到小数点后多少位？
+answer: 八
+wrong_answers:
+  - 六
+  - 十二
+  - 七
+explanation: |
+  Bitcoin 可以精确到小数点后第八位，一个单位称为 Satoshi 或 sat。
+reviewed: false

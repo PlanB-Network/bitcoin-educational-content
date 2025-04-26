@@ -1,0 +1,9 @@
+question: Como o expoente e é escolhido no criptossistema RSA?
+answer: Deve ser um inteiro maior que 2, coprimo com φ(N)
+wrong_answers:
+  - Deve ser um número primo menor que N
+  - É escolhido aleatoriamente sem restrição
+  - Deve ser igual a φ(N)
+explanation: |
+  No RSA, o expoente e é escolhido de forma que seja maior que 2 e coprimo com φ(N), o que garante a segurança das operações.
+reviewed: false

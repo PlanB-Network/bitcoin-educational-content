@@ -1,5 +1,5 @@
 ---
-name: JADE
+name: Jade
 
 description: Anleitung zur Einrichtung Ihres JADE-Geräts
 ---

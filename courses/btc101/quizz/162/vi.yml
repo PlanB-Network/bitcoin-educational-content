@@ -1,9 +1,9 @@
-question: Vai trò của các thợ đào trong giao thức Bitcoin là gì?
-answer: Họ bảo vệ mạng lưới hiện tại và lịch sử
+question: Vai trò của các thợ mỏ trong giao thức Bitcoin là gì?
+answer: Họ bảo vệ mạng lưới hiện tại và lịch sử.
 wrong_answers:
-  - Họ điều chỉnh giá của Bitcoin
-  - Họ kiểm soát nguồn cung của Bitcoin
-  - Họ quản lý giao dịch giữa người dùng
-explanation: >-
-  Các thợ đào trong giao thức Bitcoin bảo vệ cả mạng lưới hiện tại và lịch sử. Họ không điều chỉnh giá của Bitcoin, kiểm soát nguồn cung của nó, hoặc quản lý giao dịch giữa người dùng.
-reviewed: false
+  - Họ điều chỉnh giá của Bitcoin.
+  - Họ kiểm soát nguồn cung của Bitcoin.
+  - Họ quản lý giao dịch giữa người dùng.
+explanation: |
+  Các thợ mỏ trong giao thức Bitcoin bảo vệ cả mạng lưới hiện tại và lịch sử. Họ không điều chỉnh giá của Bitcoin, kiểm soát nguồn cung của nó, cũng không quản lý giao dịch giữa người dùng.
+reviewed: true

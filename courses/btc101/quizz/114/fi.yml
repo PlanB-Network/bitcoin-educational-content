@@ -1,9 +1,11 @@
 question: Milloin Bitcoin esiteltiin maailmalle ensimmäistä kertaa?
-answer: 31. lokakuuta 2008
+answer: 31. lokakuuta 2008.
 wrong_answers:
-  - 3. tammikuuta 2009
-  - 22. marraskuuta 2009
-  - 12. joulukuuta 2010
+  - 3. tammikuuta 2009.
+  - 22. marraskuuta 2009.
+  - 12. joulukuuta 2010.
 explanation: |
-  Bitcoin esiteltiin maailmalle ensimmäistä kertaa 31. lokakuuta 2008, kun Satoshi Nakamoto lähetti sähköpostin cypherpunk-postituslistalle sisältäen Bitcoinin White Paperin.
-reviewed: false
+  Bitcoin esiteltiin maailmalle ensimmäistä kertaa 31. lokakuuta
+  2008, kun Satoshi Nakamoto lähetti sähköpostin cypherpunk
+  postituslistalle sisältäen Bitcoinin White Paperin.
+reviewed: true

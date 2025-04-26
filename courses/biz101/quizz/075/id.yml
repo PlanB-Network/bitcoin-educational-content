@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari implementasi pembayaran Bitcoin tingkat perusahaan?
+answer: Untuk mengintegrasikan pembayaran Bitcoin sepenuhnya ke dalam proses inti organisasi
+wrong_answers:
+  - Untuk bereksperimen dengan Bitcoin dalam skala kecil
+  - Menggunakan Bitcoin untuk tujuan pemasaran
+  - Untuk menerima Bitcoin tanpa integrasi ke sistem lain
+explanation: |
+  Solusi perusahaan bertujuan untuk menyelaraskan pembayaran Bitcoin dengan alur kerja dan sistem bisnis inti.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the key element that ensures Bob receives an asset during a State Transition in RGB?
+answer: A new Seal Definition pointing to Bob's UTXO
+wrong_answers:
+  - A control transaction without reference to a UTXO
+  - A public statement from Alice
+  - A double signature shared by Alice and Bob
+explanation: |
+  The Seal Definition cryptographically links the asset to Bob's UTXO, ensuring that he owns it.
+reviewed: false

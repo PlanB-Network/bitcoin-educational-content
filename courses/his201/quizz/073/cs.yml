@@ -1,0 +1,9 @@
+question: Která federální zpravodajská služba USA pozvala v dubnu 2011 Gavina Andresena, aby o několik měsíců později prezentoval Bitcoin?
+answer: CIA
+wrong_answers:
+  - FBI
+  - NSA
+  - DEA
+explanation: |
+  Konkrétněji šlo o In-Q-Tel, americký venture kapitálový fond spravovaný CIA, ale návštěva skutečně proběhla v sídle CIA.
+reviewed: false

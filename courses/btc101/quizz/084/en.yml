@@ -1,11 +1,11 @@
-question: What should be the main concern when you own bitcoins?
-answer: The security of your funds
+question: What should be the main concern when you own bitcoin?
+answer: The security of your funds.
 wrong_answers:
-  - The value in dollar terms of your bitcoins
-  - The legality of owning bitcoins
-  - The permision to spend your bitcoins
+  - The value of Bitcoin in dollar terms.
+  - The legality of owning bitcoins.
+  - The permission to spend your funds.
 explanation: |
-  When you own bitcoins, the primary concern is the security of your funds.
-  This is because bitcoins, like any other form of currency, can be stolen or lost
-  if not properly secured.
+  When you own bitcoins, the primary concern is the security
+  of your funds. This is because Bitcoin, like any other form
+  of currency, can be stolen or lost if not properly secured.
 reviewed: true

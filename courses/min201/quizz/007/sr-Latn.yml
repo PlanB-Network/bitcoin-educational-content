@@ -1,0 +1,13 @@
+question: Šta se dešava sa Mining nagradom u Bitcoin mreži otprilike svake četiri godine?
+answer: Prolazi kroz Halving
+wrong_answers:
+  - Udvostručuje se
+  - To se utrostručuje
+  - Ostaje isto
+explanation: |
+  Mining nagrada u Bitcoin mreži prolazi kroz
+  Halving svakih 210.000 blokova, otprilike svake četiri
+  godine. Ova naknada služi kao snažan podsticaj za
+  podsticanje rudara da učestvuju u Mining procesu
+  uprkos njegovim energetskim troškovima.
+reviewed: true

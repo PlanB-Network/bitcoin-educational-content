@@ -1,0 +1,13 @@
+question: What is the main disadvantage of using Tor for a Bitcoin node?
+
+answer: Reduction in communication speed
+
+wrong_answers:
+  - Increase in transaction fees
+  - Risk of transaction censorship
+  - Risk of Eclipse attack on the node
+
+explanation: |
+  Communications over Tor are slower. This latency is particularly troublesome during the initial launch of a node, as the IBD (Initial Block Download) requires a lot of communications.
+
+reviewed: false

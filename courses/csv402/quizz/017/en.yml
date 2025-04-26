@@ -1,0 +1,9 @@
+question: What structure guarantees the temporal consistency of transitions in RGB?
+answer: A DAG (Directed Acyclic Graph)
+wrong_answers:
+  - A simple linear chain
+  - A dynamic peer-to-peer network
+  - A binary tree for UTXOs
+explanation: |
+  A DAG enables state transitions to be structured, while allowing parallel evolutions without inconsistencies.
+reviewed: false

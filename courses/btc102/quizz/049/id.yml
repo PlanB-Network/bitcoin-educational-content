@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari penumpukan?
+answer: Secara bertahap mengumpulkan satoshi
+wrong_answers:
+  - Spekulasi jangka pendek
+  - Membeli satoshi dalam jumlah besar sekaligus
+  - Menggunakan Bitcoin untuk pembayaran harian
+explanation: |
+  Stacker menginvestasikan sejumlah kecil uang secara berkala untuk meratakan harga pembelian dari waktu ke waktu.
+reviewed: false

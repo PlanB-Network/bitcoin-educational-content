@@ -1,9 +1,9 @@
-question: Tác động của lạm phát 2% đối với sức mua trong 5 năm là gì?
+question: Tác động của lạm phát 2% đến sức mua trong 5 năm là gì?
 answer: Bạn mất 10% sức mua của mình.
 wrong_answers:
   - Bạn mất 2% sức mua của mình.
   - Bạn mất 5% sức mua của mình.
   - Bạn mất 20% sức mua của mình.
 explanation: |
-  Với lạm phát 2%, bạn mất 2% sức mua hàng năm, tích lũy thành 10% sau 5 năm.
-reviewed: false
+  Với lạm phát 2%, bạn mất 2% sức mua hàng năm, tổng cộng là 10% sau 5 năm.
+reviewed: true

@@ -1,0 +1,5 @@
+---
+term: MOEDA PARTILHADA
+
+---
+Serviço de mistura de Bitcoin lançado em 2013 pela Blockchain.info, mas que atualmente já não está em funcionamento. Este serviço oferecia aos utilizadores uma forma de aumentar a sua privacidade na Bitcoin, combinando as suas transacções com as de outras pessoas, utilizando uma técnica de mistura semelhante à dos coinjoins. A SharedCoin proporcionava uma forma de privacidade sem a necessidade de confiar no coordenador, uma vez que as moedas dos utilizadores permaneciam sob o seu controlo durante todo o processo. Ao contrário dos serviços de mistura centralizados da altura, as bitcoins não podiam ser roubadas pelo intermediário. Posteriormente, a SharedCoin enfrentou problemas que levaram à desanonimização de algumas das suas misturas no início do verão de 2014.

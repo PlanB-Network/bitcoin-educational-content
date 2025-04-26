@@ -9,7 +9,7 @@ _Sledujeme vývoj této kauzy stejně jako vývoj s ním spojených nástrojů. 
 
 _Tento návod je poskytován pouze pro vzdělávací a informační účely. Nepodporujeme ani nevyzýváme k používání těchto nástrojů pro kriminální účely. Je zodpovědností každého uživatele dodržovat zákony ve své jurisdikci._
 
-_Tento návod je věnován instalaci RoninDojo v1. Pro využití nejnovějších vylepšení a funkcí vřele doporučuji konzultovat náš návod věnovaný přímé instalaci RoninDojo v2 na vašem Raspberry Pi:_ [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
+_Tento návod je věnován instalaci RoninDojo v1. Pro využití nejnovějších vylepšení a funkcí vřele doporučuji konzultovat náš návod věnovaný přímé instalaci RoninDojo v2 na vašem Raspberry Pi:_ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

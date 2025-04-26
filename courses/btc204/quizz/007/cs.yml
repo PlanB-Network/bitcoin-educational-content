@@ -1,9 +1,9 @@
-question: Co je "merge" v transakci?
+question: Co je merge v transakci?
 answer: Je to akce spojení několika UTXO jako vstupů.
 wrong_answers:
   - Je to akce vytváření několika UTXO jako výstupů.
   - Je to akt spojení několika adres do jedné.
   - Je to akt spojení několika bloků v blockchainu.
 explanation: |
-  Když uživatel nemá žádné UTXO větší nebo rovné částce, kterou si přeje poslat, musí použít několik svých UTXO, aby pokryl výstupy. Tato praxe se nazývá "merging".
+  Když uživatel nemá žádné UTXO větší nebo rovné částce, kterou si přeje poslat, musí použít několik svých UTXO, aby pokryl výstupy. Tato praxe se nazývá merging.
 reviewed: false

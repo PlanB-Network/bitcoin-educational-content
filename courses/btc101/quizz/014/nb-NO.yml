@@ -1,0 +1,10 @@
+question: Hva var DigiCash-prosjektet?
+answer: Et forsøk på å skape anonym elektronisk penger av David Chaum.
+wrong_answers:
+  - Et prosjekt for å skape en digital lommebok for Bitcoin.
+  - Et prosjekt for å digitalisere all fysisk kontanter.
+  - Et prosjekt for å skape en kryptovaluta basert på Bitcoin.
+explanation: |
+  David Chaum introduserte konseptet med anonym elektronisk penger med
+  sitt prosjekt DigiCash på 1980-tallet.
+reviewed: true

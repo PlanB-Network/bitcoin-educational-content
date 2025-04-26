@@ -1,9 +1,0 @@
-question: Qu'est-ce qu'une adresse de réception Bitcoin ?
-answer: Il s'agit d'un hachage d'une clé publique, avec un format spécifique.
-wrong_answers:
-  - Un identifiant unique pour un utilisateur Bitcoin.
-  - La clé publique d'un utilisateur Bitcoin.
-  - Un script qui verrouille les bitcoins à une clé publique.
-explanation: |
-  Une adresse de réception Bitcoin est un hachage d'une clé publique, avec un format spécifique. Elle est utilisée pour recevoir des fonds sur une pièce et est générée à partir de paires de clés privées et publiques.
-reviewed: false

@@ -1,0 +1,8 @@
+question: 2010年12月にサトシ・ナカモトが突然姿を消した原因は何ですか？
+answer: BitcoinとWikiLeaksを結びつける記事の公開
+wrong_answers:
+  - WikiLeaksによるビットコインの受け入れ
+  - ギャビン・アンドレセンがコードの管理を引き継いだこと
+  - ビットコインの単価の上昇
+explanation: |
+  「ウィキリークスのスキャンダルが新しい仮想通貨を生み出すか？」と題されたこの[記事](https: //www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html)は、コンピューティングに特化したアメリカ最大級のウェブサイトの一つ、PC Worldに掲載されました。

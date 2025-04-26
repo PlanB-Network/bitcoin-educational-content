@@ -1,0 +1,9 @@
+question: How does a non-custodial wallet differ in functionality for Starter users?
+answer: It gives the business owner full control of the private keys
+wrong_answers:
+  - It can automatically converts bitcoins to fiat currency
+  - It requires no backup procedures or security measures
+  - It manages all transactions through a third-party service
+explanation: |
+  Non-custodial wallets place the control of private keys and transactions entirely in the hands of the user.
+reviewed: false

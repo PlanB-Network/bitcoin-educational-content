@@ -1,0 +1,9 @@
+question: Apa peran utama AluVM dalam protokol RGB?
+answer: Menjalankan skrip dan operasi kontrak dalam lingkungan mesin virtual
+wrong_answers:
+  - Menganalisis transaksi on-chain Bitcoin dalam lingkungan mesin virtual
+  - Menghasilkan kunci publik untuk pengguna RGB di lingkungan mesin virtual
+  - Mengoptimalkan validasi blockchain publik dalam lingkungan mesin virtual
+explanation: |
+  AluVM dirancang untuk validasi kontrak pintar dan komputasi terdistribusi dalam kerangka kerja RGB.
+reviewed: false

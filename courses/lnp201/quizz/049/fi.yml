@@ -1,11 +1,9 @@
-question: Mikä on Lightning Network -solmujen rooli transaktiossa?
-answer: Ne veloittavat maksun suostuessaan toimimaan transaktion reitityksessä.
+question: Mikä on Lightning-laskun ensisijainen toiminto?
+answer: Pyytää maksua lähettävältä solmulta
 wrong_answers:
-  - Ne mahdollistavat transaktion ilman mitään maksuja.
-  - Ne aloittavat transaktion.
-  - Ne ovat transaktion lopullisia vastaanottajia.
+  - Lähetä varoja ilman on-chain siirtoa
+  - Aktivoi HTLC: t kanavalla
+  - Avaa uuden Lightning-kanavan
 explanation: |
-  Lightning Networkissa solmut veloittavat maksun suostuessaan toimimaan
-  transaktion reitityksessä. Tämä maksu vaihtelee riippuen siitä, missä likviditeetti
-  sijaitsee.
+  Lightning-lasku on maksupyyntö, jonka vastaanottava solmu lähettää lähettävälle solmulle aloittaakseen maksun Lightning-verkossa.
 reviewed: false

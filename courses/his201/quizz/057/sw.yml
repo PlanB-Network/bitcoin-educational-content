@@ -1,0 +1,9 @@
+question: Je, ni Miner gani ya Ujerumani iliyoshikilia 20% ya kiwango cha Hash cha mtandao wa Bitcoin kwa miezi kadhaa mwaka wa 2010?
+answer: SanaaForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  Alianzisha shamba la Mining lililojumuisha kadi za michoro (zinazoitwa ArtFarm) wakati wa kiangazi cha 2010, na hivyo kupata uongozi mkubwa juu ya washindani wake kwa msimu wa joto.
+reviewed: false

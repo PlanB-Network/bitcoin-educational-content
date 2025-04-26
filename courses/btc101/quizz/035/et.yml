@@ -1,0 +1,11 @@
+question: Milline neist variantidest ei ole fiat-valuutade eelis?
+answer: Nad on rahalise inflatsiooni suhtes haavatavad
+wrong_answers:
+  - Neid on kerge transportida
+  - Neid on kerge jagada
+  - Kõik riigid aktsepteerivad neid
+explanation: |
+  Fiat-valuutad, nagu dollar ja euro, on väga likviidsed ja
+  kergesti transporditavad, kuna need on nüüd peamiselt digitaalsed. Siiski nende väärtust
+  kahandab pidevalt rahaline inflatsioon.
+reviewed: true

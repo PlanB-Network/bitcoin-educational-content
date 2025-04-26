@@ -1,0 +1,9 @@
+question: Koje dve vrste Wallet se smatraju u Starter profilu?
+answer: Skrbnički i neskrbnički Lightning novčanici
+wrong_answers:
+  - Hot i Cold skladištenje Bitcoin novčanici
+  - Multisig i papirne Bitcoin novčanike
+  - Hardverski i brain Lightning novčanici
+explanation: |
+  Starter profil koristi ili skrbničke ili neskrbničke Lightning novčanike.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Mikä vaihe ei sisälly modernin kryptografisen järjestelmän turvallisuustodistukseen?
+answer: Käyttöliittymän pystyttäminen
+wrong_answers:
+  - Turvallisuusmääritelmien esittäminen
+  - Matemaattiset kompleksisuusoletukset
+  - Turvallisuuden matemaattinen osoittaminen
+explanation: |
+  Modernin kryptografian turvallisuustodistus keskittyy tavoitteisiin ja matemaattisiin oletuksiin, jättäen huomiotta käyttöliittymän kaltaiset seikat, jotka eivät ole relevantteja kryptografisen turvallisuuden kannalta.

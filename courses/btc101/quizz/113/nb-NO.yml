@@ -1,0 +1,12 @@
+question: Hvorfor kan ikke alle bruke den samme Bitcoin-lommeboken?
+answer: Fordi ulike individer betyr ulike bruksområder.
+wrong_answers:
+  - Fordi det er dyrt å bruke en Bitcoin-lommebok
+  - Fordi det er ulovlig å bruke en Bitcoin-lommebok
+  - Fordi folk aldri vil bli enige om navnet på en slik lommebok
+explanation: |
+  Mens én person kanskje prioriterer sikkerhet, kan en annen verdsette 
+  brukervennlighet eller spesifikke funksjoner. Derfor kan ikke én enkelt 
+  Bitcoin-lommebok dekke alles behov, noe som gjør det nødvendig 
+  med flere lommebokalternativer.
+reviewed: true

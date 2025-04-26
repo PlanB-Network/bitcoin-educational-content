@@ -1,0 +1,9 @@
+question: Welches Forenmitglied hat seinen Mining-Algorithmus öffentlich gemacht, nachdem es am 18. September 2010 eine großzügige Spende von Jeff Garzik erhalten hatte?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Bis dahin hatten sie von einer Provision für die Nutzung ihrer Software profitiert. Sie [veröffentlichten](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135) es unter einer freien Lizenz.
+reviewed: false

@@ -1,9 +1,12 @@
-question: Qual é a entidade responsável por emitir moeda fiduciária?
-answer: Banco Central
+question: Quais são as entidades responsáveis pela emissão de moedas fiduciárias?
+answer: Bancos centrais.
 wrong_answers:
-  - Banco Comercial
-  - Governo
-  - Instituições Privadas
+  - Bancos comerciais.
+  - Governos.
+  - Instituições privadas.
 explanation: |
-  Os bancos centrais são as entidades responsáveis por emitir moeda fiduciária. Eles decidem a política monetária e determinam quanto dinheiro deve ser colocado em circulação ou impresso.
-reviewed: false
+  Os bancos centrais são as entidades responsáveis pela emissão de
+  uma moeda fiduciária. Eles decidem a política monetária e
+  determinam quanto dinheiro deve ser colocado em circulação ou
+  impresso.
+reviewed: true

@@ -1,9 +1,10 @@
-question: Proč je Bitcoin novou formou peněz?
-answer: Protože je to digitální peníze bez centrální entity
+question: Proč je Bitcoin považován za novou formu peněz?
+answer: Protože je to digitální peníze bez centrální entity.
 wrong_answers:
-  - Protože je to digitální měna krytá zlatem
-  - Protože je to měna, která vyžaduje blockchain
-  - Protože to říká Federální rezervní systém
-explanation: >-
-  Bitcoin lze považovat za novou formu peněz, jelikož vzniká z peer-to-peer sítě bez centrální entity.
+  - Protože je to digitální měna krytá zlatem.
+  - Protože je to měna, která vyžaduje bankovní blockchain.
+  - Protože to říká Federální rezervní systém.
+explanation: |
+  Bitcoin lze považovat za novou formu peněz, jelikož vzniká
+  z peer-to-peer sítě bez centrální entity.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Quel est le but de la transaction de retrait dans le processus d'ouverture d'un canal dans le Lightning Network?
-answer: Elle permet à Alice de récupérer ses fonds en cas de problème.
+question: Quelle est la dernière étape pour ouvrir un canal sur le Lightning Network ?
+answer: Publier la transaction de dépôt sur la blockchain Bitcoin
 wrong_answers:
-  - Elle permet à Bob de réclamer sa part des fonds.
-  - Elle est utilisée pour finaliser le processus d'ouverture du canal.
-  - Elle est utilisée pour transférer des fonds d'Alice à Bob.
+  - Signer une transaction de retrait pour récupérer les fonds
+  - Envoyer un message de confirmation de l'ouverture à l'autre partie
+  - Vérifier l'équilibre des fonds de chaque participant
 explanation: |
-  La transaction de retrait est créée par Alice avant de publier le dépôt de fonds dans le multi-sig. Cette transaction permet à Alice de dépenser les fonds de l'adresse multi-sig vers une adresse qui lui appartient. Cela est fait pour s'assurer qu'elle puisse récupérer ses fonds en cas de problème.
+  La dernière étape pour ouvrir un canal consiste à publier la transaction de dépôt sur la blockchain, ce qui officialise l'ouverture du canal.
 reviewed: false

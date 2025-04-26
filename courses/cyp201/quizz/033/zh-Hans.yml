@@ -1,0 +1,8 @@
+question: SIGHASH_NONE签名哈希标志允许做什么？
+answer: 签名后修改输出
+wrong_answers:
+  - 签名后修改输入
+  - 覆盖所有输入和输出
+  - 仅限制修改一个输出
+explanation: |
+  SIGHASH_NONE仅覆盖输入，允许在签名后修改输出。

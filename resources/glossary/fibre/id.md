@@ -1,0 +1,7 @@
+---
+term: SERAT
+
+---
+Singkatan dari "*Fast Internet Bitcoin Relay Engine*". Ini adalah protokol yang dirancang oleh Matt Corallo pada tahun 2016 untuk mempercepat distribusi blok Bitcoin di seluruh dunia. Tujuannya adalah untuk mengurangi penundaan propagasi sedekat mungkin dengan batas fisik. FIBRE bertujuan untuk memastikan distribusi peluang penambangan yang lebih adil, dengan memastikan bahwa proporsi blok yang ditambang oleh peserta secara akurat mencerminkan kontribusinya dalam hal daya komputasi, terlepas dari posisinya dalam jaringan.
+
+Memang, latensi dalam transmisi blok dapat menguntungkan grup-grup penambangan yang besar dan terhubung dengan baik, yang sering kali terletak berdekatan satu sama lain, sehingga merugikan grup-grup yang lebih kecil. Fenomena ini dapat, seiring berjalannya waktu, meningkatkan sentralisasi penambangan dan mengurangi keamanan sistem secara keseluruhan. Untuk mengatasi masalah ini, FIBRE memperkenalkan kode koreksi kesalahan dan transmisi data tambahan untuk mengimbangi kehilangan paket, serta penggunaan blok ringkas yang mirip dengan yang dijelaskan dalam BIP152, semuanya beroperasi melalui UDP untuk melewati batasan TCP tertentu. Meskipun demikian, FIBRE ditinggalkan pada tahun 2020, terutama karena ketergantungannya pada satu pengelola dan fakta bahwa adopsi BIP152 membuat sistem semacam itu menjadi kurang penting.

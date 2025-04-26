@@ -1,9 +1,12 @@
 question: Jaký je maximální počet jednotek Bitcoinu, které mohou kdy existovat?
-answer: 21 milionů
+answer: 21 milionů.
 wrong_answers:
-  - 3 biliony
-  - 100 milionů
-  - Neexistuje žádný limit
+  - 3 biliony.
+  - 100 milionů.
+  - Neexistuje žádný limit.
 explanation: |
-  Celková nabídka Bitcoinu je omezena na 21 milionů jednotek. To je klíčová vlastnost Bitcoinu, která ho odlišuje od fiduciárních měn, jež mohou být centrálními bankami tištěny v neomezeném množství.
+  Celková nabídka Bitcoinu je omezena na 21 milionů jednotek.
+  To je klíčová vlastnost Bitcoinu, která ho odlišuje
+  od fiduciárních měn, které mohou být centrálními bankami
+  tisknuty v neomezeném množství.
 reviewed: true

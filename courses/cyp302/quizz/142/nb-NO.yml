@@ -1,0 +1,9 @@
+question: Hva er navnet på et problem hvor det er enkelt å beregne et resultat i én retning, men nesten umulig å reversere?
+answer: En enveisfunksjon
+wrong_answers:
+  - En lineær funksjon
+  - En eksponentiell funksjon
+  - En reversibel funksjon
+explanation: |
+  Enveisfunksjoner tillater rask beregning i én retning, men gjør det praktisk talt umulig å løse inversen, derav deres nytte i kryptografi.
+reviewed: false

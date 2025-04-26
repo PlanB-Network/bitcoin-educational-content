@@ -1,9 +1,9 @@
-question: Quel est le principal avantage de posséder votre propre équipement minier?
-answer: Contribuer activement à la sécurité du réseau Bitcoin et acquérir des bitcoins vierges.
+question: Quel est le principal avantage de posséder son propre équipement de minage ?
+answer: Acquérir des bitcoins vierges.
 wrong_answers:
-  - Éviter le besoin d'acheter directement des bitcoins.
+  - Éviter le besoin d'acheter directement des Bitcoin.
   - Faire un profit en vendant l'équipement plus tard.
-  - Éviter de devoir faire confiance à d'autres mineurs.
+  - Éviter le besoin de faire confiance à d'autres mineurs.
 explanation: |
-  Posséder votre propre équipement minier offre des avantages considérables. En plus de la satisfaction personnelle de contribuer activement à la sécurité du réseau Bitcoin et de voir les récompenses tomber dans votre portefeuille, il y a l'aspect attrayant des "bitcoins vierges". Ce sont des bitcoins fraîchement minés qui n'ont jamais été dépensés et qui n'ont aucune histoire attachée à eux.
-reviewed: false
+  Posséder son propre équipement de minage offre des avantages considérables. En plus de la satisfaction personnelle de contribuer activement à la sécurité du réseau Bitcoin et de voir les récompenses tomber dans votre portefeuille, il y a l'aspect attrayant des bitcoins vierges. Ce sont des bitcoins fraîchement minés qui n'ont jamais été dépensés et qui n'ont aucune historique attachée à eux.
+reviewed: true

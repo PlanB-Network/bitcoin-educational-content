@@ -1,9 +1,0 @@
-question: Was ist das Ziel von Routing-Knoten in Bezug auf die Liquidität im Lightning-Netzwerk?
-answer: Ein ausgeglichenes Verhältnis der Liquidität auf beiden Seiten anstreben
-wrong_answers:
-  - Kanäle öffnen
-  - Mit anderen Knoten verbinden
-  - Kanäle kaufen
-explanation: |
-  Für Routing-Knoten im Lightning-Netzwerk besteht das Ziel in Bezug auf die Liquidität darin, ein ausgeglichenes Verhältnis der Liquidität auf beiden Seiten zu haben. Sie streben auch eine gute Verbindung zu vielen Knoten an, um so oft wie möglich genutzt zu werden.
-reviewed: false

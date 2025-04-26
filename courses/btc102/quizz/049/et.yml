@@ -1,0 +1,9 @@
+question: Mis on virnastamise peamine eesmärk?
+answer: Järk-järgult kogunevad satoshid
+wrong_answers:
+  - Lühiajaline spekulatsioon
+  - Ostes korraga suure hulga satoshisid
+  - Bitcoin kasutamine igapäevaste maksete tegemiseks
+explanation: |
+  Stacker investeerib regulaarselt väikseid summasid, et ostuhind aja jooksul keskmiselt tasa teha.
+reviewed: false

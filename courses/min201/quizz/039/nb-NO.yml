@@ -1,0 +1,13 @@
+question: Hva er den potensielle ulempen med gruvedrift for nettverket?
+answer: Uten tilstrekkelig økonomisk insentiv kan det være vanskelig for gruvearbeidere å fortsette å støtte nettverket
+wrong_answers:
+  - Det kan føre til en nedgang i prisen på Bitcoin
+  - Det kan føre til en økning i nettverkets hashrate
+  - Det kan føre til en nedgang i antall aktive noder i nettverket
+explanation: |
+  Gruvedrift for nettverket er et edelt initiativ som
+  bidrar til sikkerheten og desentraliseringen av
+  Bitcoin-nettverket. Imidlertid, uten tilstrekkelig økonomisk
+  insentiv, kan det være vanskelig for gruvearbeidere å fortsette
+  å støtte nettverket, spesielt hvis de opererer med tap.
+reviewed: true

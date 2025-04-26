@@ -1,0 +1,9 @@
+question: What makes up an Anchor in RGB?
+answer: Transaction ID, MPC, DBC, and Extra Transaction Proof
+wrong_answers:
+  - Genesis, Seal Definition, and Transition Bundle
+  - Contract Schema, Business Logic, and Owned State
+  - Signature, Transaction Hash, and Pedersen Commitment
+explanation: |
+  An Anchor contains the data needed to prove the inclusion of a unique commitment in a Bitcoin transaction.
+reviewed: false

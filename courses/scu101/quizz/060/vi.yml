@@ -1,14 +1,10 @@
-question: Đâu là một trong những khía cạnh của an ninh mạng đòi hỏi sự theo dõi thường xuyên?
-
+question: Đâu là một trong những khía cạnh của an ninh mạng đòi hỏi sự giám sát thường xuyên?
 answer: Sự phát triển liên tục của các mối đe dọa
-
 wrong_answers:
   - Thị trường chứng khoán
   - Thời tiết
   - Tin tức
-
 explanation: |
-  Chương này đề cập rằng sự phát triển liên tục của các mối đe dọa trong an ninh mạng
-
-
-  đòi hỏi sự theo dõi thường xuyên.
+  Chương này đề cập rằng sự phát triển liên tục của các mối đe dọa
+  trong an ninh mạng đòi hỏi sự giám sát thường xuyên.
+reviewed: true

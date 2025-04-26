@@ -1,0 +1,9 @@
+question: Why is asymmetric cryptography less used than symmetric cryptography in large data exchanges?
+answer: It is less efficient for an equivalent level of security
+wrong_answers:
+  - It does not ensure the authenticity of messages
+  - It requires multiple public keys for each exchange
+  - It is not compatible with modern communication protocols
+explanation: |
+  Asymmetric cryptography, while powerful for authentication and initial encryption, requires more resources, making its use inefficient for substantial data transfers.
+reviewed: false

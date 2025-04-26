@@ -1,0 +1,9 @@
+question: Mengapa autentikasi dua faktor direkomendasikan?
+answer: Ini menambahkan keamanan ekstra Layer
+wrong_answers:
+  - Ini menyederhanakan akses dengan mengurangi jumlah kode
+  - Ini memungkinkan login tanpa kata sandi
+  - Ini menggantikan penggunaan pengelola kata sandi
+explanation: |
+  2FA memerlukan kode sementara selain kata sandi, yang sangat memperkuat perlindungan akun online.
+reviewed: false

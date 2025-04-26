@@ -1,0 +1,9 @@
+question: Mis on esimene registreeritud Bitcoin'i tehing?
+answer: Tehing 10 BTC vahel Satoshi ja Hal Finney vahel
+wrong_answers:
+  - Tehing 10,000 BTC eest 2 pitsa
+  - Tehing 1 BTC vahel Satoshi ja Hal Finney vahel
+  - Tehing 10,000 BTC vahel Laszlo Hanyecz ja Hal Finney vahel
+explanation: |
+  Esimene registreeritud Bitcoin'i tehing oli 10 BTC tehing Satoshi Nakamoto ja Hal Finney vahel.
+reviewed: true

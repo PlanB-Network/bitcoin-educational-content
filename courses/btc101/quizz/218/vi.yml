@@ -1,8 +1,11 @@
-question: Bản chất của việc áp dụng Bitcoin theo văn bản là gì?
-answer: Lan truyền nhanh chóng
+question: Bản chất của việc áp dụng Bitcoin được mô tả trong khóa học này là gì?
+answer: Lan truyền nhanh chóng.
 wrong_answers:
-  - Chậm và ổn định
-  - Nhanh chóng và không kiểm soát được
-  - Rời rạc và không dự đoán được
-explanation: >-
-  Văn bản mô tả việc áp dụng Bitcoin như là sự lan truyền nhanh chóng, cho thấy rằng nó lan rộng nhanh chóng và rộng khắp từ người này sang người khác, giống như một virus.
+  - Chậm và ổn định.
+  - Nhanh chóng và không kiểm soát được.
+  - Thất thường và không dự đoán được.
+explanation: |
+  Văn bản của khóa học mô tả việc áp dụng Bitcoin như là lan truyền nhanh chóng,
+  cho thấy rằng nó lan rộng nhanh chóng và rộng khắp từ người này sang người khác,
+  giống như một loại virus, nhưng là loại tốt.
+reviewed: true

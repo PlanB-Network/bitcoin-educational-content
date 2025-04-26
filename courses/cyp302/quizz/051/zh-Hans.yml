@@ -1,0 +1,8 @@
+question: 术语“champ premier”或“corps premier”是什么意思？
+answer: 一个包含质数个元素的域
+wrong_answers:
+  - 一个只包含质数的域
+  - 一个仅通过质数加法定义的域
+  - 一个使用随机向量的域
+explanation: |
+  一个质数域包含等于一个质数的元素数量，使其成为加密操作的基本域。

@@ -1,9 +1,0 @@
-question: Quel est le rôle du hachage de l'image d'origine dans le processus de routage du Lightning Network ?
-answer: Il est utilisé par le destinataire pour récupérer le montant de la transaction verrouillé dans le HTLC.
-wrong_answers:
-  - Il est utilisé pour chiffrer les données de la transaction.
-  - Il est utilisé pour calculer les frais de transaction.
-  - Il est utilisé pour vérifier l'adresse du destinataire.
-explanation: |
-  Dans le Lightning Network, le hachage de l'image d'origine est utilisé par le destinataire pour récupérer le montant de la transaction verrouillé dans le HTLC. L'expéditeur fournit le hachage de l'image d'origine au destinataire, qui peut ensuite l'utiliser pour déverrouiller les fonds.
-reviewed: false

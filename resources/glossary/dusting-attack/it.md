@@ -1,0 +1,7 @@
+---
+term: ATTACCO DI POLVERE
+
+---
+Un attacco Dusting prevede l'invio di piccole quantità di bitcoin a un gran numero di indirizzi di ricezione. L'obiettivo dell'aggressore è costringere i destinatari a consolidare queste somme con altri UTXO. L'aggressore segue poi i movimenti futuri di queste piccole quantità di bitcoin, con l'obiettivo di formare dei cluster di indirizzi, ossia di determinare se più indirizzi appartengono alla stessa entità. Correlando le informazioni raccolte durante un attacco di dusting con altri dati e con l'euristica utilizzata nell'analisi della catena, l'aggressore può identificare determinate entità e gli indirizzi ad esse associati. Questo metodo rappresenta una minaccia solo per la privacy degli utenti, ma non influisce sulla sicurezza dei loro fondi.
+
+> *Alcuni bitcoiners suggeriscono di non utilizzare più il termine "attacco dusting" perché potrebbe essere fuorviante. Infatti, il termine "polvere" descrive qualcosa di molto specifico in Bitcoin Core. Se l'attacco di dusting utilizzasse effettivamente la polvere come descritta nel Core, l'attacco sarebbe inefficace. Pertanto, alcuni suggeriscono di utilizzare il termine "riutilizzo forzato degli indirizzi" per descrivere più accuratamente questo attacco.*

@@ -1,0 +1,9 @@
+question: Kuidas paigaldada rgb tööriist Cargo kaudu?
+answer: cargo install rgb-contracts --all-features
+wrong_answers:
+  - cargo install rgb --features all
+  - cargo install rgb-bitcoin --all
+  - cargo build rgb-lightning --release
+explanation: |
+  Paigaldamine toimub käsuga "cargo install rgb-contracts --all-features", kusjuures kasti nimi on "rgb-contracts", mis paigaldab rgb-vahendi.
+reviewed: false

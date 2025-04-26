@@ -1,0 +1,9 @@
+question: Sự khác biệt giữa việc sử dụng thuật toán Salsa20 với khóa 128-bit và khóa 256-bit là gì?
+answer: Độ dài khóa ảnh hưởng đến số vòng lặp trong thuật toán.
+wrong_answers:
+  - Độ dài khóa thay đổi loại mã hóa.
+  - Khóa 128-bit được sử dụng cho mã hóa luồng và khóa 256-bit cho mã hóa khối.
+  - Độ dài khóa không ảnh hưởng trong Salsa20.
+explanation: |
+  Trong cơ chế mã hóa đối xứng Salsa20, độ dài khóa (128 hoặc 256 bit) ảnh hưởng đến số vòng lặp trong thuật toán, mà không thay đổi bản chất cốt lõi của chính thuật toán.
+reviewed: false

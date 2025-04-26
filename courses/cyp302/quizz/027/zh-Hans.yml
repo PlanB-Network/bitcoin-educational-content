@@ -1,0 +1,8 @@
+question: XOR操作的交换律是什么？
+answer: 操作数的顺序不影响操作的结果
+wrong_answers:
+  - XOR仅适用于偶数
+  - XOR要求操作数长度相同
+  - 操作数中位的位置不影响操作的结果
+explanation: |
+  XOR是可交换的，这意味着a XOR b等于b XOR a。

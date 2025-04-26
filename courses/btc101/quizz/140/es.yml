@@ -1,9 +1,9 @@
-question: ¿Cuál es el tamaño de la cadena de bloques de Bitcoin?
-answer: Aproximadamente 500GB
+question: ¿Cuál es el tamaño actual de la blockchain de Bitcoin?
+answer: Aproximadamente 500GB.
 wrong_answers:
-  - Aproximadamente 100GB
-  - Aproximadamente 1TB
-  - Aproximadamente 2TB
+  - Aproximadamente 100GB.
+  - Aproximadamente 1TB.
+  - Aproximadamente 2TB.
 explanation: |
-  La cadena de bloques de Bitcoin tiene un tamaño de aproximadamente 500GB.
-reviewed: false
+  La blockchain de Bitcoin tiene un tamaño de aproximadamente 500GB a partir de 2023.
+reviewed: true

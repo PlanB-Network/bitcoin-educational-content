@@ -1,0 +1,9 @@
+question: Ifølge Hayek, hva er forbindelsen mellom sosialisme og nazisme?
+answer: Alle de andre svarene (de deler en avvisning av individualisme, prioriterer velferden til gruppen, bruker tvang).
+wrong_answers:
+  - De to ideologiene er uforenlige.
+  - Sosialisme og nazisme er motstridende på økonomiske spørsmål.
+  - Sosialisme og nazisme har ingen forbindelse.
+explanation: |
+  Hayek argumenterte for at sosialisme og nazisme deler felles trekk, som avvisning av individualisme til fordel for kollektivet og bruk av tvang, noe som gjør dem lik i deres autoritære effekter.
+reviewed: false

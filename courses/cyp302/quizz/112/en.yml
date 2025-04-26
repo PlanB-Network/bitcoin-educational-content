@@ -1,0 +1,9 @@
+question: Why is RC4 classified as a synchronous stream cipher?
+answer: The key stream is independent of the plaintext and the ciphertext
+wrong_answers:
+  - The key stream depends on the values of previous ciphertext
+  - The plaintext must be integrated into the key stream
+  - It uses a key stream based solely on the plaintext
+explanation: |
+  RC4 is a synchronous stream cipher because its key stream depends only on the initial key and not on the plaintext or the ciphertext, ensuring the independence of this stream from the messages.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Como um MAC ajuda a prevenir a adulteração de mensagens por um atacante?
+answer: Permitindo verificar que a mensagem recebida não foi alterada
+wrong_answers:
+  - Prevenindo ataques do tipo força bruta
+  - Ocultando o conteúdo da mensagem
+  - Bloqueando automaticamente mensagens suspeitas
+explanation: |
+  Um MAC permite ao destinatário verificar que uma mensagem não foi modificada por meio de uma etiqueta gerada com uma chave secreta compartilhada, o que limita as possibilidades de manipulação.

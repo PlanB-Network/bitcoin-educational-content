@@ -1,9 +1,12 @@
-question: Quel est l'objectif de créer un plan de succession pour vos bitcoins?
-answer: Pour garantir que vos bitcoins seront correctement gérés après votre décès
+question: Quel est le but de créer un plan de succession pour vos bitcoins ?
+answer: Pour garantir que vos bitcoins seront correctement gérés après votre décès.
 wrong_answers:
-  - Pour éviter les taxes sur vos bitcoins
-  - Pour augmenter la valeur de vos bitcoins
-  - Pour empêcher que vos bitcoins ne soient volés
+  - Pour éviter les impôts sur vos bitcoins.
+  - Pour diminuer la valeur de vos bitcoins.
+  - Pour empêcher vos bitcoins d'être volés.
 explanation: |
-  Un plan de succession garantit que vos bitcoins seront correctement gérés après votre décès. Il peut inclure une lettre manuscrite détaillant vos actifs, leurs méthodes d'accès et les coordonnées des personnes de confiance à contacter.
-reviewed: false
+  Un plan de succession garantit que vos bitcoins seront
+  correctement gérés après votre décès. Il peut inclure une
+  lettre manuscrite détaillant vos actifs, leurs méthodes d'accès,
+  et les coordonnées de personnes de confiance à contacter.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Mis on Vaikivate Maksete puuduseks võrreldes BIP47-ga?
+
+answer: Saaja peab skaneerima peaaegu terve plokiahela.
+
+wrong_answers:
+  - Need genereerivad saatjale kõrgemad tehingutasud.
+  - Need piiravad võimalike tehingute arvu.
+  - Need on vähem anonüümsed.
+
+explanation: |
+  Teatamistehingu ärajätmise eest peab saaja skaneerima kõik Bitcoin'i tehingud, mis vastavad standardile, üritades leida neile adresseeritud makseid.
+
+reviewed: false

@@ -1,9 +1,0 @@
-question: Mikä on HodlHodl P2P-ratkaisun ainutlaatuinen ominaisuus?
-answer: Se tarjoaa suosittelujärjestelmän.
-wrong_answers:
-  - Se toimii TOR:n alaisuudessa.
-  - Se käyttää multisignia riidanratkaisussa.
-  - Sen käyttö vaatii tilin luomisen.
-explanation: |
-  Luvussa mainitaan, että HodlHodl tarjoaa suosittelujärjestelmän, mikä on
-  ainutlaatuinen ominaisuus verrattuna keskustelun kohteena oleviin muihin P2P-ratkaisuihin.

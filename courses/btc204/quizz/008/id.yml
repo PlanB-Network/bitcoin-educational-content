@@ -1,0 +1,9 @@
+question: Jika sebuah transaksi memiliki 2 UTXO sebesar 5.000 sats sebagai input dan 3 UTXO sebesar 3.000 sats sebagai output, berapa biaya transaksi tersebut?
+answer: 1.000 sats
+wrong_answers:
+  - 1.500 sats
+  - 2.500 sats
+  - 3.000 sats
+explanation: |
+  Biaya dari sebuah transaksi merupakan perbedaan antara total input dan total output. Ini adalah apa yang tersisa setelah menggunakan semua input dan menciptakan semua output. Oleh karena itu, perhitungannya adalah; biaya = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

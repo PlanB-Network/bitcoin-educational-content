@@ -1,0 +1,13 @@
+question: Jaký je užitek chytrého kontraktu při výměně tajných vlastnictví?
+
+answer: Současně a systematicky odhalit informace, které oběma stranám umožní získat prostředky té druhé.
+
+wrong_answers:
+  - Zajistit důvěrnost šifrováním informací o majetku tak, aby je mohl dešifrovat pouze legitimní příjemce.
+  - Automatizovat proces převodu za účelem minimalizace lidských interakcí a snížení chyb.
+  - Ulehčit řešení sporů tím, že se v případě pokusů o podvod drží bitcoiny obou stran.
+
+explanation: |
+  Aby bylo umožněno výměny mezi stranami, které si navzájem nedůvěřují, používají se systémy chytrých kontraktů. Chytrý kontrakt je program, který se automaticky spustí, když jsou splněny předem definované podmínky, což v našem případě zajišťuje, že výměna majetku proběhne automaticky bez nutnosti vzájemné důvěry. Chytrý kontrakt umožňuje současné odhalení dvou citlivých informací mezi účastníky. Buď proběhne normálně a každá strana získá prostředky té druhé, nebo selže a všichni si ponechají své původní prostředky.
+
+reviewed: false

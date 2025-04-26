@@ -1,9 +1,11 @@
-question: Quem foi a primeira pessoa a se juntar à rede Bitcoin depois de Satoshi Nakamoto?
-answer: Hal Finney
+question: Quem foi a primeira pessoa a se juntar à rede Bitcoin após Satoshi Nakamoto?
+answer: Hal Finney.
 wrong_answers:
-  - Laszlo Hanyecz
-  - Phil Champagne
-  - Rogzy
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Hal Finney foi a primeira pessoa a se juntar à rede Bitcoin depois do próprio Satoshi Nakamoto. Ele até mesmo twittou "Running Bitcoin" para marcar a ocasião.
-reviewed: false
+  Hal Finney foi a primeira pessoa a se juntar à rede Bitcoin
+  após o próprio Satoshi Nakamoto. Ele até tweetou Running
+  Bitcoin para marcar a ocasião.
+reviewed: true

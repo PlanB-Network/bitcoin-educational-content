@@ -1,10 +1,9 @@
-question: Qual è lo scopo della chiave di revoca in una transazione di impegno?
-answer: Permette all'altra parte di spostare i fondi senza dover aspettare la fine del Timelock se uno cerca di imbrogliare.
+question: Qual è il limite dell'importo di un pagamento indiretto sulla Lightning Network?
+answer: La minima liquidità disponibile in un canale del percorso scelto
 wrong_answers:
-  - Permette all'altra parte di recuperare immediatamente i propri soldi.
-  - Permette all'altra parte di creare una nuova transazione di impegno.
-  - Permette all'altra parte di estendere il Timelock.
+  - Il numero di nodi intermediari coinvolti
+  - La capacità totale della Lightning Network
+  - Le commissioni di instradamento impostate da ciascun nodo
 explanation: |
-  La chiave di revoca è una misura di sicurezza in una transazione di impegno.
-  Se una parte cerca di imbrogliare pubblicando uno stato precedente, l'altra parte può utilizzare la chiave di revoca per spostare i fondi senza dover aspettare la fine del Timelock, punendo efficacemente l'imbrogliatore.
+  L'importo massimo che un pagamento indiretto può trasferire dipende dalla liquidità più bassa disponibile nei canali utilizzati, poiché ogni canale deve adeguare i fondi su ciascun lato.
 reviewed: false

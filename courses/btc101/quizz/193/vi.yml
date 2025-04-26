@@ -1,9 +1,9 @@
 question: Một trong những sáng kiến góp phần làm cho nền kinh tế Bitcoin trở nên dễ tiếp cận và thuận tiện hơn cho mọi người là gì?
-answer: BTCMap
+answer: BTCMap.
 wrong_answers:
-  - Sàn giao dịch Bitcoin
-  - Đào Bitcoin
-  - Xổ số Bitcoin
+  - Sàn Giao Dịch Bitcoin.
+  - Đào Bitcoin.
+  - Xổ Số Bitcoin.
 explanation: >-
   BTCMap là một trong những sáng kiến góp phần làm cho nền kinh tế Bitcoin trở nên dễ tiếp cận và thuận tiện hơn cho mọi người. Đây là một dự án mã nguồn mở và cộng tác, liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin cũng như các cộng đồng Bitcoin khác nhau trên thế giới.
-reviewed: false
+reviewed: true

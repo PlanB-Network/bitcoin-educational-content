@@ -1,0 +1,9 @@
+question: RGBの状態遷移中にボブが確実にアセットを受け取るための重要な要素は何ですか？
+answer: ボブのUTXOを指す新しいシールの定義
+wrong_answers:
+  - UTXOを参照しない制御トランザクション
+  - アリスからの公式声明
+  - アリスとボブが共有する二重署名
+explanation: |
+  Seal Definitionは、アセットをボブのUTXOに暗号的にリンクし、ボブの所有であることを保証する。
+reviewed: false

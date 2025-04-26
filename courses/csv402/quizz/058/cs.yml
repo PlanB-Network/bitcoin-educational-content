@@ -1,0 +1,9 @@
+question: Co dokáže příkaz "curl -X POST /issueassetnia" na RLN?
+answer: Vytvoření nového zastupitelného neinflačního aktiva RGB
+wrong_answers:
+  - Vytvoření nového aktiva RGB, které není plovoucí
+  - Vytvoření nového zastupitelného inflačního aktiva RGB
+  - Vytvoření nového polofunkčního prostředku RGB
+explanation: |
+  Příkaz "/issueassetnia" slouží k vydání nového tokenu RGB NIA ("Non Inflatable Asset").
+reviewed: false

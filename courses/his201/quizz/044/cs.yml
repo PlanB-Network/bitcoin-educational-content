@@ -1,0 +1,9 @@
+question: Kdo měl nápad zřídit testovací síť, aby se zabránilo poškození hlavní sítě Bitcoinu?
+answer: Gavin Andresen
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - Laszlo Hanyecz
+explanation: |
+  Tuto myšlenku [zmínil](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104) na fóru 9. června a Satoshi ji schválil. Testovací síť [vytvořil](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018) 15. července.
+reviewed: false

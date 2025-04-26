@@ -1,0 +1,9 @@
+question: Qual era a atitude da Igreja medieval em relação aos empréstimos com juros?
+answer: Ela os proibia.
+wrong_answers:
+  - Ela os incentivava.
+  - Ela os tolerava em certos casos.
+  - Ela não tinha opinião sobre o assunto.
+explanation: |
+  A Igreja medieval proibia os empréstimos com juros, considerando essa prática um pecado de usura, pois julgava imoral lucrar com um empréstimo exigindo mais do que o montante inicial.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Kdy je vykonána transakce výběru při převodu v Lightning Network?
-answer: Když je kanál uzavřen.
+question: Proč je nucené uzavření méně žádoucí?
+answer: Je pomalejší a poplatky mohou být nevhodné
 wrong_answers:
-  - Když je převod proveden.
-  - Když je kanál otevřen.
-  - Nikdy není provedena.
+  - Vyžaduje autorizaci od Satoshi Nakamoto
+  - Nutí k pozdějšímu znovuvytvoření kanálu
+  - Brání využití klíče pro zrušení
 explanation: |
-  Transakce výběru, která reprezentuje stav kanálu,
-  není provedena, dokud není kanál uzavřen.
+  Nucené uzavření je méně žádoucí, protože zahrnuje časový zámek, který proces zpomaluje, a poplatky mohou být nevhodné, jelikož byly nastaveny v době vytvoření kanálu.
 reviewed: false

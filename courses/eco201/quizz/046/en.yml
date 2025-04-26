@@ -1,13 +1,12 @@
-question: How does the Austrian Business Cycle Theory relate to the impossibility of economic calculation under socialism?
+question: How does the Austrian Theory of the Business Cycle relate to the impossibility of economic calculation under socialism?
 answer: It can be viewed as a specific case of the impossibility of economic calculation under socialism, applied to the realm of money markets.
 wrong_answers:
   - It is a critique of the impossibility of economic calculation under socialism.
   - It is a solution to the impossibility of economic calculation under socialism.
   - It is unrelated to the impossibility of economic calculation under socialism.
 explanation: |
-  The Austrian Business Cycle Theory, which explains the dynamics of
-  overinvestment
-  and capital misallocation resulting from interest rate manipulation by central banks,
-  can be viewed as a specific case of the impossibility of economic calculation under
-  socialism, applied to the realm of money markets.
-reviewed: false
+  The Austrian Theory of the Business Cycle explains the dynamics of
+  overinvestment and capital misallocation resulting from interest rate manipulation 
+  by central banks and therefore it can be viewed as a specific case of the impossibility of 
+  economic calculation under socialism, applied to the realm of money markets.
+reviewed: true

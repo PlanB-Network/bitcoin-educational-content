@@ -1,9 +1,0 @@
-question: Mikä on salasanan tarkoitus HD-lompakossa?
-answer: Se toimii kryptografisena suolana, joka lisää ylimääräisen suojakerroksen lompakkoon.
-wrong_answers:
-  - Sitä käytetään lompakon siemenen luomiseen.
-  - Sitä käytetään johdettujen avainten luomiseen.
-  - Sitä käytetään tarkistussumman laskemiseen.
-explanation: |
-  Salasana HD-lompakossa toimii kryptografisena suolana, joka lisää ylimääräisen suojakerroksen lompakkoon. Sitä käytetään yhdessä muistilauseen kanssa lompakon siemenen luomiseen.
-reviewed: false

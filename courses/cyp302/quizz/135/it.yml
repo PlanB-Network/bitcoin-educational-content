@@ -1,0 +1,9 @@
+question: Qual è la principale vulnerabilità delle password deboli quando vengono hashate?
+answer: Sono vulnerabili agli attacchi di dizionario
+wrong_answers:
+  - Non possono essere verificate tramite hashing
+  - Generano sempre collisioni
+  - Richiedono un hashing più lungo per maggiore sicurezza
+explanation: |
+  Le password deboli possono essere facilmente recuperate dal loro hash utilizzando attacchi di dizionario, rendendo la loro selezione importante per garantire la sicurezza.
+reviewed: false

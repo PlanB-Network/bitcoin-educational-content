@@ -1,0 +1,9 @@
+question: Jaký mechanismus brání útokům odrazu v bezpečné komunikaci?
+answer: Přidání unikátního identifikátoru pro každého účastníka
+wrong_answers:
+  - Zvýšení délky klíče
+  - Použití více klíčů pro každou zprávu
+  - Přidání extra klíče do každé zprávy
+explanation: |
+  Přidání unikátního identifikátoru pro každého účastníka v šifrované zprávě brání útokům odrazu, jelikož umožňuje rozlišit původ zpráv.
+reviewed: false

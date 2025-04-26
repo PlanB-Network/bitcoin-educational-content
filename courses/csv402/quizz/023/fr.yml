@@ -1,0 +1,9 @@
+question: Comment RGB empêche-t-il la double-dépense lors d’une State Transition ?
+answer: En fermant un sceau existant et en créant un nouveau sceau
+wrong_answers:
+  - En vérifiant toutes les transactions sur la blockchain
+  - En imposant des signatures multi-sig dans chaque opération
+  - En validant les données du Global State
+explanation: |
+  La fermeture d’un sceau via un UTXO dépensé prouve qu’une transition est unique et irrévocable.
+reviewed: false

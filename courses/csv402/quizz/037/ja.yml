@@ -1,0 +1,9 @@
+question: NonInflatableAsset.rgb スキーマをローカルの隠し場所にインポートするには？
+answer: rgbインポート schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb インポート schema/NonInflatableAssets.rgb
+  - rgbクローン schemata/NonInflatableAssets.rgb
+  - rgbクローンスキーマ/NonInflatableAssets.rgb
+explanation: |
+  コンパイルされたスキーマは、"rgb import schemata/NonInflatableAssets.rgb "コマンドを使ってローカルの隠し場所にインポートされる。
+reviewed: false

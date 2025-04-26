@@ -1,9 +1,0 @@
-question: ¿Cuál es el papel de la AMF en Francia?
-answer: Regula los mercados financieros.
-wrong_answers:
-  - Regula el sistema educativo.
-  - Regula el sistema de salud.
-  - Regula el sistema de transporte.
-explanation: |
-  "La AMF (Autorité des marchés financiers) es el organismo regulador del mercado francés."
-reviewed: false

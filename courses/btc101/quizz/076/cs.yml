@@ -1,10 +1,10 @@
 question: Jaká je role veřejného klíče v Bitcoinové peněžence?
-answer: Používá se k generování Bitcoinových adres a tím k přijímání peněz
+answer: Používá se k generování Bitcoinových adres a tím k přijímání peněz.
 wrong_answers:
-  - Používá se k šifrování Bitcoinových transakcí
-  - Používá se pro přístup k Bitcoinové peněžence
-  - Používá se k zálohování Bitcoinové peněženky
+  - Používá se k šifrování Bitcoinových transakcí.
+  - Používá se k přístupu k Bitcoinové peněžence.
+  - Používá se k zálohování Bitcoinové peněženky.
 explanation: |
-  Veřejný klíč je odvozen z privátního klíče a používá se k generování Bitcoinových adres
-  za účelem přijímání peněz.
+  Veřejný klíč je odvozen z privátního klíče a používá se
+  k generování Bitcoinových adres za účelem přijímání peněz.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Jika kita mengamati dalam transaksi pembayaran sederhana bahwa sebuah output memiliki jumlah yang bulat, interpretasi apa yang kemungkinan bisa kita tarik dari situ?
+answer: Output yang bulat tersebut tidak lagi dalam kepemilikan pengguna input.
+wrong_answers:
+  - Output yang bulat dimaksudkan untuk biaya transaksi.
+  - Output yang bulat masih milik pengguna input.
+  - Output yang bulat adalah alamat cadangan.
+explanation: |
+  Ketika dihadapkan pada pola pembayaran sederhana (1 input dan 2 output), jika salah satu output menghabiskan jumlah yang bulat, maka itu mewakili pembayaran. Ini berarti meninggalkan kepemilikan pengguna input.

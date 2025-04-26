@@ -1,9 +1,13 @@
-question: ¿Cuál es la característica clave de Bitcoin que lo diferencia de las monedas fiduciarias?
-answer: Su política monetaria es aplicada mediante un consenso general.
+question: ¿Cuál es una característica clave de Bitcoin que lo diferencia de las monedas fiduciarias?
+answer: Su política monetaria es impuesta por un consenso general.
 wrong_answers:
   - Puede ser impreso en cantidades ilimitadas por los bancos centrales.
   - Está respaldado por una mercancía física como el oro o la plata.
   - Está regulado por un banco central.
 explanation: |
-  Bitcoin, a través de su naturaleza descentralizada y criptográfica, no puede ser falsificado, entre otras cosas, y está limitado a 21 millones de unidades. Esta es una característica clave que lo diferencia de las monedas fiduciarias, cuya política monetaria puede ser modificada por los bancos centrales.
-reviewed: false
+  Debido a su naturaleza descentralizada y criptográfica,
+  Bitcoin no puede ser falsificado y está limitado a 21 millones
+  de unidades. Esta es una característica clave que lo diferencia de
+  las monedas fiduciarias, las cuales siguen una política monetaria que puede ser
+  modificada por los bancos centrales.
+reviewed: true

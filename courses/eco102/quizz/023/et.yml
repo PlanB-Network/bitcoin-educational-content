@@ -1,0 +1,8 @@
+question: Millised on vastuolus olevad klassid Comte'i ja Dunoyer' järgi?
+answer: Need, kes maksavad makse ja need, kes elavad nende arvelt
+wrong_answers:
+  - Töölised ja tööandjad
+  - Bürgerschaft ja proletariaat
+  - Kaupmehed ja käsitöölised
+explanation: |
+  Comte ja Dunoyer näevad klassikonflikti tootjate, kes finantseerivad läbi maksude, ja mittetootjate, kes saavad nendest kasu, vahel.

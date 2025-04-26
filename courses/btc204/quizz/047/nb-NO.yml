@@ -1,0 +1,13 @@
+question: Hva er rollen til varslingstransaksjonen i BIP47?
+
+answer: Å overføre betalingskoden til mottakeren og signalisere at betalinger er på vei.
+
+wrong_answers:
+  - Validere Bitcoin-mottaksadressen for fremtidige transaksjoner via betalingskoder.
+  - Bekrefte mottak av bitcoins av mottakeren med BIP47.
+  - Sende avsenderens ephemeral private nøkler til mottakeren slik at de kan bruke bitcoins.
+
+explanation: |
+  Varslingstransaksjonen muliggjør overføringen av betalingskoden fra avsenderen til mottakeren, slik at sistnevnte kan kjenne den igjen og finne den senere kun fra deres seed i tilfelle lommebokgjenoppretting. Som navnet antyder, spiller den også en varslerrolle.
+
+reviewed: false

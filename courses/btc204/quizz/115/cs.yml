@@ -1,0 +1,13 @@
+question: Co je ricochet v kontextu Bitcoinu?
+
+answer: Technika zahrnující provádění více transakcí na vlastní adresu
+
+wrong_answers:
+  - Společná transakce zahrnující více účastníků
+  - Metoda míchání bitcoinů za účelem zvýšení potenciální anonymity
+  - Specifický typ coinjoin pro určité obchodní platformy
+
+explanation: |
+  Ricochet je technika, která zahrnuje provádění několika fiktivních transakcí na vlastní adresu (sweeping).
+
+reviewed: false

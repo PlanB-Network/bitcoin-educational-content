@@ -1,0 +1,11 @@
+question: Dalam skenario apa stablecoin dapat diperdagangkan di atas harga patokannya?
+answer: Ketika permintaan terhadap stablecoin melebihi kapasitas bursa
+wrong_answers:
+  - Ketika penerbit stablecoin membekukan dana
+  - Ketika stablecoin sepenuhnya didukung oleh cadangan tunai
+  - Ketika ada tekanan jual yang kuat dari pengguna
+explanation: |
+  Stablecoin dapat diperdagangkan di atas harga patokannya ketika 
+  permintaan terhadap stablecoin melebihi kapasitas bursa untuk 
+  memenuhi permintaan pelanggan, biasanya di bursa yang lebih kecil.
+reviewed: true

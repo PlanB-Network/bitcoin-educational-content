@@ -1,0 +1,8 @@
+question: Millist likviidsust peab müüja Lightning Network'is peamiselt haldama, et aktsepteerida makseid?
+answer: Sissetulev likviidsus
+wrong_answers:
+  - Väljaminev likviidsus
+  - Suur kogukanali maht
+  - Suur on-chain saldo
+explanation: |
+  Maksete vastuvõtmiseks peab müüjal olema sissetulev likviidsus, mis tähendab, et vastasküljel kanalis peavad olema vahendid saadaval, et nad saaksid makseid aktsepteerida.

@@ -1,0 +1,9 @@
+question: Co obsahuje zásilka v systému RGB?
+answer: Údaje na straně zákazníka potřebné k ověření přechodu
+wrong_answers:
+  - Kompletní kopie blockchainu Bitcoinu
+  - Seznam veřejných závazků společnosti Bitcoin
+  - Veřejné klíče účastníků přechodu stavu
+explanation: |
+  Zásilka obsahuje informace RGB, které příjemci umožňují ověřit přechod stavu podle pravidel smlouvy.
+reviewed: false

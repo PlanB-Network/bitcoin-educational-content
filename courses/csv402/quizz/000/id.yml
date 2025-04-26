@@ -1,0 +1,9 @@
+question: Apa fungsi utama blockchain dalam paradigma validasi sisi klien yang digunakan oleh RGB?
+answer: Memberikan cap waktu dan mencegah pengeluaran ganda
+wrong_answers:
+  - Menyimpan semua transisi status
+  - Mereplikasi data kontrak pintar
+  - Menjamin ketersediaan data global
+explanation: |
+  Blockchain Bitcoin digunakan dalam RGB untuk menandai waktu komitmen dan mencegah pengeluaran ganda, tanpa menyimpan semua transisi status.
+reviewed: false

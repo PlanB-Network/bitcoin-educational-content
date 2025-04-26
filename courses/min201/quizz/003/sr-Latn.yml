@@ -1,0 +1,13 @@
+question: Koji je glavni finansijski podsticaj za rudare da učestvuju u procesu Bitcoin Mining?
+answer: Mining nagrada
+wrong_answers:
+  - Sposobnost upravljanja mrežom Bitcoin
+  - Sposobnost stvaranja novih bitkoina po volji
+  - Sposobnost manipulacije cenom Bitcoin
+explanation: |
+  Glavni finansijski podsticaj za rudare da učestvuju u
+  Bitcoin Mining procesu je Mining nagrada. Ova
+  nagrada služi kao snažan podsticaj da ohrabri rudare
+  da učestvuju u Mining procesu uprkos njegovoj energetskoj
+  ceni.
+reviewed: true

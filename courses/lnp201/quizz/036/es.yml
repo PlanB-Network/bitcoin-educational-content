@@ -1,10 +1,9 @@
-question: ¿Quién tiene la clave de revocación en la transacción de compromiso de Alice?
-answer: Solo Alice.
+question: ¿Qué condición debe cumplirse para que el receptor de un HTLC reciba los fondos?
+answer: Deben proporcionar un secreto (preimagen) para desbloquear el pago.
 wrong_answers:
-  - Solo Bob.
-  - Tanto Alice como Bob.
-  - Ni Alice ni Bob.
+  - Deben aceptar las tarifas de enrutamiento de cada nodo intermediario.
+  - Deben firmar una nueva transacción de compromiso.
+  - Deben esperar a que el bloqueo temporal expire antes de recuperar los fondos.
 explanation: |
-  En la transacción de compromiso de Alice, solo Alice tiene la clave de revocación.
-  Esto le permite mover los fondos sin tener que esperar al final del bloqueo temporal si Bob intenta hacer trampa.
+  Para recibir los fondos en un HTLC, el receptor debe proporcionar un secreto específico que permite desbloquear el pago asegurado por el hash.
 reviewed: false

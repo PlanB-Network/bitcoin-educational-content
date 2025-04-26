@@ -1,0 +1,9 @@
+question: What philosophy inspired Cobden's economic vision?
+answer: Bentham's utilitarianism
+wrong_answers:
+  - Smith's liberalism
+  - Fourier's socialism
+  - Rousseau's egalitarianism
+explanation: |
+  Cobden was influenced by Bentham's utilitarianism, which valued well-being for the greatest number through free trade.
+reviewed: false

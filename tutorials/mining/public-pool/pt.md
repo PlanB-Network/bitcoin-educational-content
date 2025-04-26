@@ -1,5 +1,5 @@
 ---
-name: Piscina Pública
+name: Public Pool
 description: Introdução à Piscina Pública
 ---
 

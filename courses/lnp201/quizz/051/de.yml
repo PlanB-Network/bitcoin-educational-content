@@ -1,9 +1,9 @@
-question: Was ist Onion-Routing im Kontext des Lightning-Netzwerks?
-answer: Eine Methode, bei der die Zwischenhändler nicht wissen, wer der endgültige Empfänger ist und wer die Zahlung sendet.
+question: Was ermöglicht die Dreiecksöffnungstechnik den teilnehmenden Knotenpunkten zu erreichen?
+answer: Eingehende und ausgehende Liquidität in jedem Kanal
 wrong_answers:
-  - Eine Methode, bei der die Zwischenhändler sowohl den Absender als auch den Empfänger kennen.
-  - Eine Methode, bei der nur der Absender die Route und den Preis kennt.
-  - Eine Methode, bei der der endgültige Empfänger die Route vor dem Senden der Zahlung festlegt.
+  - Reduzierte Routing-Gebühren
+  - Eine unbegrenzte Anzahl von Transaktionen ohne Bestätigung
+  - Eine direkte Verbindung mit jedem anderen Netzwerkknoten
 explanation: |
-  Onion-Routing im Lightning-Netzwerk ist eine Methode, bei der die Zwischenhändler nicht wissen, wer der endgültige Empfänger ist und wer die Zahlung sendet. Der Knoten muss einen Plan des Netzwerks führen, um seine Route zu finden, aber keiner der Zwischenhändler hat Informationen darüber.
+  Die Dreiecksöffnungstechnik ermöglicht es jedem Knotenpunkt, ausgeglichene Liquidität, sowohl eingehend als auch ausgehend, zu erreichen, indem ein Kreislauf von Kanälen unter mehreren Teilnehmern gebildet wird.
 reviewed: false

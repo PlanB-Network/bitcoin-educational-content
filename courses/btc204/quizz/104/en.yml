@@ -1,0 +1,13 @@
+question: What is the maximum entropy of a transaction?
+
+answer: The highest entropy that a transaction structure can achieve.
+
+wrong_answers:
+  - The lowest entropy that a transaction structure can achieve.
+  - The actual entropy of a transaction.
+  - The efficiency of a transaction.
+
+explanation: |
+  Maximum entropy refers to the highest entropy that a specific transaction structure can theoretically achieve.
+
+reviewed: false

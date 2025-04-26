@@ -1,0 +1,9 @@
+question: Qual é a principal falácia denunciada por Bastiat em O que se vê e o que não se vê?
+answer: A destruição estimula a economia
+wrong_answers:
+  - A destruição é uma desgraça
+  - Apenas os vidraceiros se beneficiam de janelas quebradas
+  - Acidentes devem ser evitados
+explanation: |
+  Bastiat critica a falácia de que a destruição teria efeitos econômicos benéficos ao estimular a economia, mostrando, em vez disso, que resulta em uma perda líquida de riqueza.
+reviewed: false

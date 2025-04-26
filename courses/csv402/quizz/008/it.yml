@@ -1,0 +1,9 @@
+question: Qual è lo scopo principale degli impegni deterministici di Bitcoin?
+answer: Garantire l'inserimento di un singolo impegno in una transazione
+wrong_answers:
+  - Semplificare la struttura delle transazioni Bitcoin
+  - Riduzione dei costi di transazione RGB
+  - Ottimizzazione della generazione di firme multiple RGB
+explanation: |
+  Gli impegni deterministici di Bitcoin garantiscono l'inserimento di un unico impegno in una transazione, per evitare impegni concorrenti nascosti.
+reviewed: false

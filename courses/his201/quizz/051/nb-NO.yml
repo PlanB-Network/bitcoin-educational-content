@@ -1,0 +1,9 @@
+question: Hvilken sårbarhet rapportert av ArtForz den 28. juli 2010, tillot bruk av bitcoins fra hvilken som helst adresse ved å bruke et spesifikt skript?
+answer: 1 RETURN-feilen
+wrong_answers:
+  - Verdiflomfeilen
+  - OP_NOP-feilen
+  - LSHIFT-feilen
+explanation: |
+  Feilen ble ikke utnyttet. Satoshi inkluderte raskt en løsning i programvaren og anbefalte alle brukere å oppgradere.
+reviewed: false

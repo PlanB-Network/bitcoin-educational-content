@@ -1,0 +1,12 @@
+question: Koji je matematički koncept zasnovan na ljudskoj racionalnosti i koristi se u Bitcoin?
+answer: Teorija igara.
+wrong_answers:
+  - Teorija verovatnoće.
+  - Teorija brojeva.
+  - Teorija skupova.
+explanation: |
+  Teorija igara je matematički koncept koji se zasniva na
+  ljudskoj racionalnosti. U Bitcoin, promene protokola se
+  sprovode od strane korisnika, što čini bilo kakvu modifikaciju Bitcoin
+  protokola veoma složenom.
+reviewed: true

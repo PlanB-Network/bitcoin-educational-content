@@ -1,64 +1,88 @@
-id: bd1956c2-3990-42ac-80b9-9cb2c186c2ef
-chapterId: 63093760-2010-5691-8d0e-9a04732ae557
-difficulty: easy
-duration: 15
-author: DecouvreBitcoin
-tags:
-  - Bitcoin
-  - HD Wallet
-  - Seed
-
-# Proofreading metadata
-original_language: en
+id: 12d87bd8-a757-437b-8e8e-994338fb6be0
+chapterId: 3ebdc750-4135-4881-b07e-08965941b93e
+difficulty: hard
+duration: 30
+author: pretty-private
+original_language: fr
 proofreading:
+  - language: fr
+    last_contribution_date: 2024-11-16
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0.08
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2674
+    contributor_names:
+    reward: 0.17
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2587
+    contributor_names:
+    reward: 0.16
   - language: en
-    last_contribution_date: 2024-09-01
+    last_contribution_date:
     urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1293
+    contributor_names:
+    reward: 0.16
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2630
+    contributor_names:
+    reward: 0.16
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2674
-  - language: fr
+    contributor_names:
+    reward: 0.17
+  - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2587
+    contributor_names:
+    reward: 0.19
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2630
+    contributor_names:
+    reward: 0.16
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2761
+    contributor_names:
+    reward: 0.21
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2587
+    contributor_names:
+    reward: 0.16
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2761
+    contributor_names:
+    reward: 0.21
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.19
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17

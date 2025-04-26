@@ -1,11 +1,9 @@
-question: Miksi suositellaan avoimen lähdekoodin lompakoiden käyttöä Bitcoin-siirtoihin?
-answer: Ne mahdollistavat satunnaislukujen tuottamisen tarkistamisen.
+question: Mikä on laajennetun avaimen kokonaiskoko tarkistussumman kanssa?
+answer: 82 tavua
 wrong_answers:
-  - Ne ovat halvempia kuin suljetun lähdekoodin lompakot.
-  - Ne ovat nopeampia kuin suljetun lähdekoodin lompakot.
-  - Ne ovat turvallisempia kuin suljetun lähdekoodin lompakot.
+  - 78 tavua
+  - 64 tavua
+  - 128 tavua
 explanation: |
-  Avoimen lähdekoodin lompakot mahdollistavat käyttäjien tarkistaa satunnaislukujen
-  tuottamisen, mikä on ratkaisevan tärkeää yksityisavainten ja Bitcoin-siirtojen
-  turvallisuuden varmistamisessa.
+  Laajennettu avain on 78 tavua ilman tarkistussummaa ja 82 tavua tarkistussumman kanssa mukana.
 reviewed: false

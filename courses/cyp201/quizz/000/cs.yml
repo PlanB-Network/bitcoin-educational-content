@@ -1,12 +1,9 @@
-question: Jaký je princip šuplíků v kontextu kryptografických hašovacích funkcí?
-answer: Vysvětluje, proč navzdory našim nejlepším snahám je vyhnutí se kolizím nemožné kvůli omezení velikosti výstupu.
+question: Jaká je hlavní funkce hašovací funkce?
+answer: Převádí informace libovolné délky na otisk pevné velikosti
 wrong_answers:
-  - Vysvětluje mechanismus ukládání hašovacích funkcí.
-  - Popisuje proces vytváření haše.
-  - Jedná se o princip, který vysvětluje nevratnost hašovacích funkcí.
+  - Šifruje zprávy, aby byly nečitelné
+  - Používá se pouze pro ověření integrity softwaru Bitcoinu
+  - Generuje soukromé klíče pro Bitcoinové peněženky
 explanation: |
-  Princip šuplíků v kontextu kryptografických hašovacích funkcí
-  vysvětluje, že kvůli omezení velikosti výstupu je vyhnutí se kolizím nemožné.
-  To je proto, že existuje více možných vstupů než výstupů, takže některé vstupy musí
-  nevyhnutelně sdílet stejný výstup.
+  Hašovací funkce transformuje data jakékoli velikosti na haš pevné velikosti, což je klíčové pro mnoho aplikací v Bitcoinu.
 reviewed: false

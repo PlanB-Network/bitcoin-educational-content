@@ -5,7 +5,8 @@ wrong_answers:
   - Myydä sinulle tuotteita tai palveluita.
   - Kutsua sinut tapahtumiin tai webinaareihin.
 explanation: |
-  Tietojenkalasteluyritykset pyrkivät saamaan haltuunsa arkaluonteisia tietoja,
-  kuten käyttäjätunnuksesi ja salasanasi. Hakkerit käyttävät erilaisia taktiikoita, kuten petollisia
-  sähköposteja huijatakseen sinua paljastamaan tietojasi.
-reviewed: false
+  Tietojenkalasteluyritysten tavoitteena on saada haltuunsa arkaluonteisia
+  tietoja, kuten käyttäjätunnuksesi ja salasanasi. Hakkerit
+  käyttävät erilaisia keinoja, kuten huijausviestejä, huijatakseen sinua
+  paljastamaan tietojasi.
+reviewed: true

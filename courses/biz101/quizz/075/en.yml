@@ -1,0 +1,9 @@
+question: What is the main objective of Enterprise-level Bitcoin payment implementations?
+answer: To fully integrate Bitcoin payments into the organization's core processes
+wrong_answers:
+  - To experiment with Bitcoin on a small scale
+  - To use Bitcoin for marketing purposes
+  - To accept Bitcoin without integration into other systems
+explanation: |
+  Enterprise solutions aim to align Bitcoin payments with core business workflows and systems.
+reviewed: false

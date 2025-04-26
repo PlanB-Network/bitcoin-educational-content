@@ -1,9 +1,10 @@
-question: Quelle est l'une des raisons pour lesquelles Bitcoin n'est pas une bulle qui va disparaître ?
+question: Quelle est l'une des raisons pour lesquelles le Bitcoin n'est pas une bulle qui va disparaître ?
 answer: Parce que c'est une monnaie qui est réellement utilisée partout dans le monde.
 wrong_answers:
-  - Parce qu'elle n'est pas réellement utilisée nulle part.
+  - Parce qu'elle n'est réellement utilisée nulle part.
   - Parce qu'elle est contrôlée par une autorité centrale.
   - Parce qu'elle est facile à contrefaire.
-explanation: |
-  Bitcoin n'est pas une bulle qui va disparaître mais une monnaie qui est réellement utilisée partout dans le monde.
-reviewed: false
+explanation: >-
+  Le Bitcoin n'est pas une bulle qui va disparaître mais une monnaie qui est réellement
+  utilisée partout dans le monde.
+reviewed: true

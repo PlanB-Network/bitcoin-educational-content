@@ -1,0 +1,13 @@
+question: Mis on Silent Payments'i peamine eelis võrreldes BIP47-ga?
+
+answer: Nad ei nõua teavitustehingut.
+
+wrong_answers:
+  - Nad pakuvad täielikku tehingute privaatsust.
+  - Nad võimaldavad saajalt tagasimakset.
+  - Nad tagavad ühilduvuse kõigi rahakottidega.
+
+explanation: |
+  Silent Payments toimivad ilma teavitustehinguta, mis säästab tehingutasudelt ja hoiab ära plokiahela ülekoormuse.
+
+reviewed: false

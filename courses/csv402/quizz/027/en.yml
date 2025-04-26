@@ -1,0 +1,9 @@
+question: What is the object-oriented programming (OOP) equivalent of the Schema component in the RGB context?
+answer: Class definition
+wrong_answers:
+  - The class constructor
+  - Implementing an interface
+  - Method prototyping
+explanation: |
+  The Schema corresponds to the definition of a class in OOP, which describes the properties, methods and rules of the business logic.
+reviewed: false

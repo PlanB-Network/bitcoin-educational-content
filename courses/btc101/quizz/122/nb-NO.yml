@@ -1,0 +1,10 @@
+question: Hva er rytmen til Bitcoin-nettverket?
+answer: 10 minutter per blokk
+wrong_answers:
+  - 10 sekunder per blokk
+  - 10 minutter per transaksjon
+  - 10 sekunder per transaksjon
+explanation: |
+  Rytmen til Bitcoin-nettverket er 10 minutter per blokk. Dette er som
+  hjerteslaget til det monetære systemet til Bitcoin.
+reviewed: true

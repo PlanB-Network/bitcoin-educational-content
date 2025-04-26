@@ -1,0 +1,9 @@
+question: 混合型倉儲商可以採取何種收購策略？
+answer: 美元成本平均法
+wrong_answers:
+  - 演算法交易
+  - 套利
+  - 駭客入侵
+explanation: |
+  Dollar-Cost Averaging（美元成本平均法）允許定期 Bitcoin 購買，以平滑隨時間推移的平均購買價格。購買者可將此方法與偶爾一次性購買結合起來。
+reviewed: false

@@ -1,86 +1,90 @@
 id: 1ef03e25-9b42-49bd-a47d-249e1a13cfc6
-builder: Kraken
-
-tags:
-  - lightning-network
-  - Full KYC
-  - multi-coin
 
 category: centralized
 
 level: intermediate
 
 # Proofreading metadata
+project_id: a619c7ac-9adb-481e-93e2-62a11c8fe2e0
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2644
+    contributor_names:
+    reward: 0.19
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2572
+    contributor_names:
+    reward: 0.16
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1286
+    reward: 0.08
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2608
+    contributor_names:
+    reward: 0.16
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2644
+    contributor_names:
+    reward: 0.19
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2572
+    contributor_names:
+    reward: 0.16
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2608
+    contributor_names:
+    reward: 0.16
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2716
+    contributor_names:
+    reward: 0.23
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2572
+    contributor_names:
+    reward: 0.16
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2644
+    contributor_names:
+    reward: 0.19
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2716
+    contributor_names:
+    reward: 0.23
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2644
+    contributor_names:
+    reward: 0.19
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2680
+    contributor_names:
+    reward: 0.21
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2680
+    contributor_names:
+    reward: 0.21
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.19
+tags:
+  - wallets
+  - guides
+  - user-friendly

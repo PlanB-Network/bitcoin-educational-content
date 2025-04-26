@@ -1,0 +1,9 @@
+question: Hva er avveiningen mellom validering på kundesiden og tilgjengelighet i CAP-trilemmaet?
+answer: Hver deltaker må oppbevare relevante data lokalt
+wrong_answers:
+  - Dataene er offentlige og replikeres automatisk globalt
+  - Konsistens ofres for tilgjengelighet
+  - Tilstandsoverganger publiseres alltid på Lightning
+explanation: |
+  Ved validering på klientsiden er ikke global tilgjengelighet garantert, ettersom deltakerne må administrere sine egne data.
+reviewed: false

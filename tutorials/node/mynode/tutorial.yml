@@ -1,90 +1,93 @@
 id: a481fef3-2fd3-4df3-91c0-112cffa094eb
-builder: My Node
 
-credits:
-  professor: rebuild-kiss
-  link: https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
-
-tags:
-  - node
-  - privacy
-  - infrastructure
+professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
+credit_link: https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/
 
 category: bitcoin
 
 level: advanced
 
 # Proofreading metadata
+project_id: 46c1b9f6-240e-4acb-8e89-0e34880e5187
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11350
+    contributor_names:
+    reward: 5.41
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 6925
+    contributor_names:
+    reward: 4.09
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 3462
+    reward: 2.04
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 9137
+    contributor_names:
+    reward: 4.09
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11350
+    contributor_names:
+    reward: 5.41
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 6925
+    contributor_names:
+    reward: 4.09
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 9137
+    contributor_names:
+    reward: 4.09
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 15775
+    contributor_names:
+    reward: 8.07
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 6925
+    contributor_names:
+    reward: 4.09
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11350
+    contributor_names:
+    reward: 5.41
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 15775
+    contributor_names:
+    reward: 8.07
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 13562
+    contributor_names:
+    reward: 6.74
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 13562
+    contributor_names:
+    reward: 6.74
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11350
+    contributor_names:
+    reward: 5.41
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.41
+tags:
+  - node
+  - guides
+  - DIY

@@ -1,9 +1,9 @@
-question: Chi può utilizzare la chiave di revoca prima della fine del Timelock?
-answer: La persona che riceve i soldi.
+question: Cosa comporta il routing a cipolla nella Lightning Network?
+answer: Significa che ogni nodo intermedio conosce solo i suoi vicini immediati sul percorso.
 wrong_answers:
-  - La persona che crea la transazione con il Timelock.
-  - Entrambe le parti possono utilizzare la chiave di revoca prima della fine del Timelock.
-  - Nessuna delle due parti può utilizzare la chiave di revoca prima della fine del Timelock.
+  - Trasmettere direttamente fondi da nodo a nodo conoscendo il destinatario finale
+  - Calcolare le commissioni per ogni nodo intermedio indipendentemente
+  - Inviare fondi a tutti i nodi sul percorso simultaneamente
 explanation: |
-  La persona che riceve i soldi può utilizzare la chiave di revoca prima della fine del Timelock in caso di frode da una delle parti dell'intermediario su Lightning Network.
+  Il routing a cipolla significa che ogni nodo intermedio conosce solo il nodo precedente e il successivo, preservando così la confidenzialità del destinatario finale.
 reviewed: false

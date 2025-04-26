@@ -5,9 +5,8 @@ wrong_answers:
   - It protects your computer from viruses.
   - It stores all your passwords in one place, making them easier to find.
 explanation: |
-  A password manager helps you create strong passwords and remember them,
-
-  so you don''t have to. It stores all your passwords in a secure way and generates
-
-  strong passwords for you.'
-reviewed: false
+  A password manager helps you create strong passwords and
+  remember them, so you don't have to. It stores all your
+  passwords in a secure way and generates strong passwords
+  for you.
+reviewed: true

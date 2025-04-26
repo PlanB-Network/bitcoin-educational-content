@@ -1,0 +1,5 @@
+---
+term: CONFIRMACIÓN
+
+---
+Se refiere al número de bloques durante los cuales una transacción se beneficia de su seguridad. Cuando una transacción se transmite a la red Bitcoin, primero queda pendiente en los mempools de los nodos. A continuación, un minero la incluye en un bloque válido. En esta etapa, la transacción acaba de ser añadida al blockchain, por lo que se beneficia de su primera confirmación. Cuando se encuentra un nuevo bloque encima del bloque que contiene la transacción en cuestión, recibirá una segunda confirmación, y así sucesivamente. Cada nuevo bloque minado sobre el bloque que contiene la transacción constituye una nueva confirmación. Contando el número de confirmaciones de una transacción, podemos estimar el riesgo de que se cancele eventualmente debido a una reorganización. El número de confirmaciones nos permite juzgar el nivel de inmutabilidad de una transacción en la blockchain.

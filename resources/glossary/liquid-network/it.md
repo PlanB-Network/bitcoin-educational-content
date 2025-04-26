@@ -1,0 +1,5 @@
+---
+term: RETE LIQUIDA
+
+---
+Una sidechain di Bitcoin sviluppata da Blockstream per fornire transazioni veloci e riservate. A differenza della blockchain principale di Bitcoin, Liquid utilizza un meccanismo di consenso basato su una federazione (un gruppo selezionato di operatori di nodi, solitamente aziende legate a Bitcoin), sostituendo così il meccanismo di consenso di Nakamoto. Questo approccio accelera notevolmente le transazioni e riduce i costi, offrendo al contempo funzionalità più avanzate. Liquid consente anche l'emissione di beni digitali, compresi i token che rappresentano altre criptovalute. I bitcoin su Liquid, noti come L-BTC, sono legati a BTC attraverso un sistema di peg bidirezionale basato su una parte della federazione. I partecipanti a questa federazione sono chiamati "funzionari" e possono servire sia come "guardiani" che come "firmatari di blocchi"

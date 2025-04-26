@@ -1,0 +1,9 @@
+question: Was ist die Grundlage des Wertes nach Frédéric Bastiat?
+answer: Nutzen
+wrong_answers:
+  - Arbeit
+  - Knappheit
+  - Nachfrage
+explanation: |
+  Bastiat übernimmt Says Idee, dass der Nutzen die Grundlage des Wertes ist, im Gegensatz zu Theorien, die auf Arbeit oder Knappheit basieren.
+reviewed: false

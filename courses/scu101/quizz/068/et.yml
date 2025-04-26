@@ -1,0 +1,9 @@
+question: Mis on üks levinumaid turvanõrkuste põhjuseid?
+answer: Inimlik hooletus.
+wrong_answers:
+  - Elektrikatkestused.
+  - Aeglane internetiühendus.
+  - Vananenud riistvara.
+explanation: |
+  Turvanõrkused on tihti inimliku hooletuse tagajärg, nagu näiteks vaikimisi paroolide kasutamine või paroolide kirjapanek ebaturvalistesse kohtadesse. Keerukad rünnakud ei ole alati vajalikud arvuti turvalisuse ohustamiseks.
+reviewed: false

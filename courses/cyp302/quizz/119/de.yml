@@ -1,0 +1,8 @@
+question: Warum wird die AES-Verschlüsselung im ECB-Modus nicht für die sichere Verwendung empfohlen?
+answer: Sie führt zu deterministischer Verschlüsselung
+wrong_answers:
+  - Sie erfordert einen Schlüssel von mehr als 128 Bits
+  - Sie ist zu langsam für die meisten modernen Anwendungen
+  - Sie erlaubt es nicht, den Text in 128-Bit-Blöcke zu unterteilen
+explanation: |
+  Der ECB-Modus wird nicht empfohlen, weil er zu deterministischer Verschlüsselung führt, was bedeutet, dass identische Blöcke von Klartext identische Blöcke von Chiffretext ergeben, was ausgenutzt werden kann, um Informationen über den Klartext zu erraten.

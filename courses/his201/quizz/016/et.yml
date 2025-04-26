@@ -1,0 +1,9 @@
+question: Millist elektroonilise raha kontseptsiooni mainis Satoshi Nakamoto otseselt Bitcoin'i valge raamatu (white paper) tekstis?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  See oli esimene viide. Satoshi lisas selle augustis 2008 pärast oma vahetusi Wei Daiga.
+reviewed: false

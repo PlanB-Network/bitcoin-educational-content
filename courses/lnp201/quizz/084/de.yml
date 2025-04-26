@@ -1,9 +1,0 @@
-question: Was ist der Zweck eines Atomic Swaps zwischen LN und BTC im Lightning-Netzwerk?
-answer: Zur Neugewichtung der Liquidität
-wrong_answers:
-  - Zum Öffnen von Kanälen
-  - Zur Verbindung mit anderen Knoten
-  - Zum Kauf von Kanälen
-explanation: |
-  Ein Atomic Swap zwischen LN und BTC im Lightning-Netzwerk wird verwendet, um die Liquidität neu zu gewichten. Dies geschieht, indem Liquidität über einen anderen Knoten an eine Schleife gesendet wird, die dann das On-Chain-Guthaben an den ursprünglichen Knoten zurücksendet.
-reviewed: false

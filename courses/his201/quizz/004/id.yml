@@ -1,0 +1,9 @@
+question: Pada tahun berapa konsep eCash dari David Chaum diimplementasikan?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Konsep ini pertama kali diimplementasikan oleh cypherpunks pada bulan Februari, sebelum diuji coba oleh DigiCash melalui penerbitan CyberBucks pada bulan Oktober.
+reviewed: false

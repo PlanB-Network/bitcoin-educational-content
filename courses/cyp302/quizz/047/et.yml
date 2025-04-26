@@ -1,0 +1,9 @@
+question: Euleri teoreemi kohaselt, mis on kahe teineteisega algarvulistes suhetes oleva täisarvu a ja N korral tulemus avaldisele a^ϕ(N) mod N?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  Euleri teoreem väidab, et kahe teineteisega algarvulistes suhetes oleva täisarvu a ja N korral on avaldise a^ϕ(N) mod N tulemuseks alati 1 mod N, mis on omadus, mida kasutatakse krüptograafias.
+reviewed: false

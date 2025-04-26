@@ -1,0 +1,9 @@
+question: Quel est le principal défaut de la méthode ECB avec un block cipher ?
+answer: Elle est déterministe et peut révéler des motifs dans les données
+wrong_answers:
+  - Elle nécessite des clés de longueur variable
+  - Elle ne fonctionne pas avec des messages de plus de 128 bits
+  - Elle ne fonctionne pas avec des messages de plus de 256 bits
+explanation: |
+  La méthode ECB (Electronic Code Book) est déterministe: des blocs de données identiques sont chiffrés de la même manière, ce qui permet de détecter des motifs dans le texte chiffré.
+reviewed: false

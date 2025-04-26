@@ -1,0 +1,9 @@
+question: What advanced features are typically demanded by Professional profile businesses?
+answer: Advanced reporting dashboards and multiple administrative roles
+wrong_answers:
+  - Basic transaction recording and standard receipts
+  - Simple wallet integration and QR code generation
+  - Automatic conversion to fiat without any reporting options
+explanation: |
+  Professional businesses require customizable invoices, sophisticated reporting, and role management to suit their complex workflows.
+reviewed: false

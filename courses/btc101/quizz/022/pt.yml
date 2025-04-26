@@ -1,9 +1,13 @@
-question: Por que o ouro se tornou o padrão de troca?
+question: Por que o ouro se tornou o padrão de meio de troca?
 answer: Devido à sua raridade, durabilidade e divisibilidade.
 wrong_answers:
   - Devido à sua abundância, durabilidade e indivisibilidade.
   - Devido à sua raridade, perecibilidade e divisibilidade.
   - Devido à sua abundância, perecibilidade e indivisibilidade.
 explanation: |
-  O ouro se tornou o padrão de troca devido à sua raridade, durabilidade e divisibilidade. Sua raridade impede a desvalorização pela produção, sua durabilidade garantiu que não se desgastasse ao longo do tempo e sua divisibilidade permitiu que fosse usado em transações de tamanhos variados.
-reviewed: false
+  O ouro se tornou o padrão de meio de troca devido à sua
+  raridade, durabilidade e divisibilidade: sua raridade impedia
+  a desvalorização causada pela produção; sua durabilidade
+  garantia que não se erodiria com o tempo, e sua divisibilidade
+  permitia o uso em transações de diferentes tamanhos.
+reviewed: true

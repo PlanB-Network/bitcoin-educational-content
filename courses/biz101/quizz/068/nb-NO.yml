@@ -1,0 +1,9 @@
+question: Hvordan kan BTC Pay Server distribueres i et profesjonelt miljø?
+answer: Lokalt eller via skyhosting
+wrong_answers:
+  - Utelukkende på dedikerte maskinvareapparater
+  - Gjennom en fullstendig outsourcet tredjepartstjeneste
+  - Som mobilapplikasjon
+explanation: |
+  Fleksibiliteten ved å distribuere BTC Pay Server lokalt eller i skyen gjør det mulig for bedrifter å velge det oppsettet som passer best til deres driftsbehov.
+reviewed: false

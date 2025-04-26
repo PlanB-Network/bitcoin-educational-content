@@ -1,0 +1,10 @@
+question: Apa artinya Bitcoin sebagai mata uang yang netral?
+answer: Tidak dikontrol oleh entitas atau institusi mana pun.
+wrong_answers:
+  - Dikontrol oleh satu entitas atau institusi.
+  - Diatur oleh pemerintah.
+  - Hanya digunakan untuk transaksi yang netral.
+explanation: |
+  Bitcoin adalah mata uang yang netral, yang berarti tidak dikontrol oleh entitas
+  atau institusi mana pun dan setiap pengguna memiliki hak yang sama. Ini adalah aspek kunci dari desentralisasinya.
+reviewed: true

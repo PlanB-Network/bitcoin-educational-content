@@ -50,7 +50,7 @@ Khi mở ra, bạn nên tìm thấy các mục sau trong hộp:
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Đối với hai chương trình phần mềm này, tôi khuyên bạn nên kiểm tra cả tính xác thực (với GnuPG) và tính toàn vẹn (qua hash) trước khi cài đặt chúng vào máy của bạn. Nếu bạn không chắc cách làm thế nào, bạn có thể theo dõi hướng dẫn khác này:
-https://planb.network/tutorials/others/integrity-authenticity
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Làm thế nào để Khởi tạo một Ledger Nano?
 
@@ -122,7 +122,7 @@ Cụm từ bí mật không nên bị nhầm lẫn với mã PIN. Nó đóng vai
 
 Cụm từ bí mật là một công cụ rất mạnh mẽ để tăng cường bảo mật cho bitcoin của bạn. Tuy nhiên, rất quan trọng là phải hiểu cách nó hoạt động trước khi triển khai nó, để tránh mất quyền truy cập vào ví của bạn. Đó là lý do tôi khuyên bạn nên tham khảo hướng dẫn khác này nếu bạn muốn thiết lập cụm từ bí mật trên Ledger của mình:
 
-https://planb.network/tutorials/wallet/passphrase-ledger
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Menu "*Khóa PIN*" cho phép bạn cấu hình và kích hoạt khóa tự động Ledger của bạn sau một khoảng thời gian không hoạt động nhất định.
 
@@ -213,7 +213,7 @@ Và đó là, ví của bạn bây giờ đã được tạo!
 Trước khi nhận bitcoin đầu tiên vào ví của bạn, **tôi khuyên bạn nên thực hiện một bài kiểm tra khôi phục dạng khô**. Ghi lại một thông tin tham khảo, như xpub của bạn, sau đó đặt lại Ledger Nano của bạn trong khi ví vẫn trống. Sau đó, hãy thử khôi phục ví của bạn trên Ledger bằng cách sử dụng bản sao giấy của bạn. Kiểm tra xem xpub được tạo sau khi khôi phục có trùng khớp với cái bạn đã ghi chú ban đầu không. Nếu có, bạn có thể yên tâm rằng bản sao giấy của bạn là đáng tin cậy.
 Để tìm hiểu thêm về cách thực hiện bài kiểm tra khôi phục, tôi khuyên bạn nên tham khảo hướng dẫn khác này:
 
-https://planb.network/tutorials/wallet/recovery-test
+https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Làm thế nào để nhận bitcoins với Ledger Nano?
 
@@ -243,7 +243,7 @@ Bạn có thể thêm một "*Nhãn*" để mô tả nguồn gốc của bitcoin
 
 Để biết thêm thông tin về việc gắn nhãn, tôi cũng khuyên bạn nên xem hướng dẫn khác này:
 
-https://planb.network/tutorials/privacy/utxo-labelling
+https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Sau đó, bạn có thể sử dụng địa chỉ này để nhận bitcoins.
 
@@ -309,4 +309,5 @@ Nếu bạn thấy hướng dẫn này hữu ích, tôi sẽ rất biết ơn n�
 
 Tôi cũng khuyên bạn nên xem hướng dẫn đầy đủ này về Ledger Flex:
 
-https://planb.network/tutorials/wallet/ledger-flex
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

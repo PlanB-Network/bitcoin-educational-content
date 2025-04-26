@@ -1,9 +1,9 @@
-question: Quelle est l'une des principales questions soulevées concernant l'avenir des finances ?
+question: Quelle est l'une des principales questions soulevées concernant l'avenir de la finance ?
 answer: Qui devrait détenir, autoriser et tracer l'argent que nous utilisons ?
 wrong_answers:
   - Comment pouvons-nous éliminer complètement l'argent ?
-  - Comment pouvons-nous nous assurer que tout le monde a la même quantité d'argent ?
+  - Comment pouvons-nous garantir que tout le monde ait la même quantité d'argent ?
   - Comment pouvons-nous rendre l'argent obsolète ?
-explanation: |
-  Le texte soulève plusieurs questions sur l'avenir des finances, dont l'une est de savoir qui devrait détenir, autoriser et tracer l'argent que nous utilisons.
-reviewed: false
+explanation: >-
+  Le texte soulève plusieurs questions sur l'avenir de la finance, dont l'une est qui devrait détenir, autoriser et tracer l'argent que nous utilisons.
+reviewed: true

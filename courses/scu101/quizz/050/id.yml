@@ -1,0 +1,10 @@
+question: Apa keuntungan dari kata sandi sekali pakai (HOTP dan TOTP) dibandingkan dengan SMS untuk 2FA?
+answer: Mereka memerlukan perhitungan kriptografis dan disimpan secara lokal daripada dalam memori.
+wrong_answers:
+  - Mereka lebih cepat
+  - Mereka lebih murah
+  - Mereka lebih mudah diingat
+explanation: |
+  Kata sandi sekali pakai (HOTP dan TOTP) lebih aman daripada SMS karena mereka memerlukan
+  perhitungan kriptografis dan disimpan secara lokal daripada dalam memori.
+reviewed: false

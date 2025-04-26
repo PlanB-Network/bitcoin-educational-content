@@ -1,9 +1,13 @@
 question: Quel est le débat au sein de la communauté Bitcoin concernant le minage ?
-answer: Le débat au sein de la communauté Bitcoin concernant le minage tourne autour de l'équilibre entre la recherche du profit et la contribution à la sécurité et à la distribution du réseau Bitcoin.
+answer: L'équilibre entre la recherche de profit et la contribution à la sécurité et à la distribution du réseau Bitcoin
 wrong_answers:
-  - L'équilibre entre l'augmentation du hashrate et la diminution du nombre de nœuds actifs.
-  - L'équilibre entre l'augmentation du prix et la diminution des coûts.
-  - L'équilibre entre l'augmentation du nombre de transactions et la diminution de la consommation d'énergie.
+  - L'équilibre entre augmenter le taux de hachage et diminuer le nombre de nœuds actifs
+  - L'équilibre entre augmenter le prix et diminuer le coût
+  - L'équilibre entre augmenter le nombre de transactions et diminuer la consommation d'énergie
 explanation: |
-  Il y a de solides arguments des deux côtés du débat.
-reviewed: false
+  Le débat au sein de la communauté Bitcoin concernant le minage
+  tourne autour de l'équilibre entre la recherche de profit et
+  la contribution à la sécurité et à la distribution du
+  réseau Bitcoin. Il existe des arguments solides des deux côtés
+  du débat.
+reviewed: true

@@ -1,14 +1,9 @@
-question: Quais seriam as implicações se os blocos fossem 100 vezes mais pesados?
-answer: Executar um nó Bitcoin não seria acessível para a pessoa média, comprometendo a descentralização do protocolo e a imutabilidade das transações e regras de consenso
+question: Quais seriam as implicações para os usuários do Bitcoin se os blocos fossem 100 vezes mais pesados?
+answer: Executar um nó de Bitcoin não seria acessível para a pessoa média, comprometendo a descentralização do protocolo e a imutabilidade tanto das transações quanto das regras de consenso.
 wrong_answers:
-  - Executar um nó Bitcoin seria mais acessível para a pessoa média, aprimorando a descentralização do protocolo e a imutabilidade das transações e regras de consenso
-  - A capacidade de transação da rede diminuiria
-  - A recompensa de bloco para os mineradores aumentaria
+  - Executar um nó de Bitcoin seria mais acessível para a pessoa média, aumentando a descentralização do protocolo e a imutabilidade tanto das transações quanto das regras de consenso.
+  - A capacidade de transação da rede diminuiria.
+  - A recompensa por bloco para os mineradores aumentaria.
 explanation: |
-  Se os blocos fossem 100 vezes mais pesados, executar um nó Bitcoin exigiria
-  um disco rígido de 50TB, uma largura de banda de mais de 500GB/mês e hardware capaz de validar
-  centenas de milhares de transações em menos de 10 minutos. Isso tornaria a execução
-  de um nó Bitcoin inacessível para a pessoa média, comprometendo a descentralização
-  do protocolo e a imutabilidade das transações e regras de consenso.
-reviewed: false
-
+  Se os blocos fossem 100 vezes mais pesados, executar um nó de Bitcoin exigiria um disco rígido de 50TB, uma largura de banda de mais de 500GB/mês e hardware capaz de validar centenas de milhares de transações em menos de 10 minutos. Isso tornaria a execução de um nó de Bitcoin inacessível para a pessoa média, comprometendo a descentralização do protocolo e a imutabilidade das transações e regras de consenso.
+reviewed: true

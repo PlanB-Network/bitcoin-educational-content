@@ -1,9 +1,11 @@
-question: ¿Cuál fue la primera vez que se utilizó Bitcoin para comprar bienes físicos?
+question: ¿Cuándo se utilizó Bitcoin por primera vez para comprar bienes físicos?
 answer: Cuando Laszlo Hanyecz compró 2 pizzas por 10,000 BTC.
 wrong_answers:
   - Cuando Hal Finney compró un coche por 100,000 BTC.
   - Cuando Satoshi Nakamoto compró una casa por 1,000,000,000 BTC.
-  - Ninguna de las opciones.
+  - Ninguna de las otras opciones.
 explanation: |
-  La primera vez que se utilizó Bitcoin para comprar bienes físicos fue cuando Laszlo Hanyecz compró 2 pizzas por 10,000 BTC, el 22/05/2010, lo que ahora se conoce como el Día de la Pizza.
-reviewed: false
+  La primera vez que se utilizó Bitcoin para comprar bienes
+  físicos fue cuando Laszlo Hanyecz compró 2 pizzas por 10,000
+  BTC, el 22/05/2010, fecha que ahora se conoce como el Día de la Pizza.
+reviewed: true

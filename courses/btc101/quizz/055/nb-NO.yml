@@ -1,0 +1,10 @@
+question: Hva var inflasjonsraten i Tyskland i oktober 1923?
+answer: 29,50%.
+wrong_answers:
+  - 200,9%.
+  - 50,51%.
+  - 25,98%.
+explanation: |
+  Måneden med den høyeste inflasjonen i Tyskland var oktober 1923, som nådde
+  29,50%.
+reviewed: true

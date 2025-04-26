@@ -1,0 +1,9 @@
+question: Jaka jest rola pisma spadkowego Bitcoin w planie spadkowym?
+answer: Aby pomóc spadkobiercom w uzyskaniu dostępu do funduszy
+wrong_answers:
+  - Służyć jako Contract do przekazywania bitcoinów spadkobiercom
+  - Określenie podziału podatkowego aktywów
+  - Aby zoptymalizować opłaty za transfer między portfelami
+explanation: |
+  List spadkowy zawiera jasne i precyzyjne instrukcje, dzięki którym bliscy mogą odzyskać bitcoiny.
+reviewed: false

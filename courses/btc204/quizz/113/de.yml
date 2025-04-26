@@ -1,0 +1,13 @@
+question: Welches Element verhindert, dass ein externer Beobachter zwischen Stonewall- und Stonewall x2-Transaktionen unterscheiden kann?
+
+answer: Das Muster der Transaktionen ist dasselbe
+
+wrong_answers:
+  - Die Transaktionen sind verschlüsselt
+  - Die Beträge, die in den Transaktionen involviert sind, sind immer identisch
+  - Die digitalen Signaturen der Transaktionen werden durch denselben Algorithmus generiert
+
+explanation: |
+  Aus einer externen Perspektive ist das Transaktionsmuster genau dasselbe. Ohne zusätzliche Kontextinformationen ist es daher unmöglich, eine Stonewall-Transaktion von einer Stonewall x2-Transaktion zu unterscheiden, da sie dasselbe Muster annehmen.
+
+reviewed: false

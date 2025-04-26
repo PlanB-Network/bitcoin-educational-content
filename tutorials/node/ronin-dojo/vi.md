@@ -9,7 +9,7 @@ _Chúng tôi đang chú ý theo dõi sự phát triển của vụ việc này c
 
 _Hướng dẫn này được cung cấp chỉ với mục đích giáo dục và thông tin. Chúng tôi không ủng hộ hoặc khuyến khích sử dụng những công cụ này cho mục đích phạm tội. Mỗi người dùng có trách nhiệm tuân thủ luật pháp tại quốc gia của họ._
 
-_Hướng dẫn này dành riêng cho việc cài đặt RoninDojo v1. Để tận dụng những cải tiến và tính năng mới nhất, tôi rất khuyến khích bạn tham khảo hướng dẫn của chúng tôi dành riêng cho việc cài đặt trực tiếp RoninDojo v2 trên Raspberry Pi của bạn:_ [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
+_Hướng dẫn này dành riêng cho việc cài đặt RoninDojo v1. Để tận dụng những cải tiến và tính năng mới nhất, tôi rất khuyến khích bạn tham khảo hướng dẫn của chúng tôi dành riêng cho việc cài đặt trực tiếp RoninDojo v2 trên Raspberry Pi của bạn:_ https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

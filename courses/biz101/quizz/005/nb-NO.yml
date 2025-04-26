@@ -1,0 +1,9 @@
+question: Hva er det som kjennetegner Bitcoin som et valutanettverk?
+answer: Det er som kontanter og krever ingen sentral myndighet eller mellommann for transaksjoner.
+wrong_answers:
+  - Den kan bare fungere når den er autorisert av en offentlig myndighet.
+  - Den utsteder nye valutaenheter på forespørsel fra alle brukere.
+  - Bankene må verifisere og gjøre opp hver eneste transaksjon.
+explanation: |
+  Bitcoin fungerer som et desentralisert nettverk, slik at alle kan delta uten tillatelse. Transaksjoner valideres av noder og utvinnere, ikke av en sentral myndighet.
+reviewed: false

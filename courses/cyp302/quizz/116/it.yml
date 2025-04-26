@@ -1,0 +1,9 @@
+question: Qual è lo scopo dell'operazione shift rows in AES?
+answer: Aumentare la diffusione riorganizzando i byte nella tabella di stato
+wrong_answers:
+  - Assicurare che ogni blocco abbia la stessa lunghezza
+  - Applicare una chiave segreta a ogni riga della tabella di stato
+  - Introdurre ulteriore confusione sostituendo i byte
+explanation: |
+  L'operazione shift rows in AES riorganizza i byte nella tabella di stato per distribuire le informazioni, aumentando così la diffusione.
+reviewed: false

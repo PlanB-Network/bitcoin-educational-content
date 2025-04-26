@@ -1,0 +1,9 @@
+question: Hvilken funksjon brukes for å utlede seeden fra den mnemoniske frasen?
+answer: PBKDF2 med HMAC-SHA512
+wrong_answers:
+  - SHA256 alene
+  - Dobbel SHA256
+  - AES-256
+explanation: |
+  Seedet genereres ved bruk av PBKDF2-funksjonen med HMAC-SHA512 og 2048 iterasjoner, fra den mnemoniske frasen og passfrasen.
+reviewed: false

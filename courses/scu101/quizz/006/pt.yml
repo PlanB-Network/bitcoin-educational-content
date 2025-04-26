@@ -1,9 +1,12 @@
 question: O que são cookies no contexto da navegação online?
-answer: Arquivos criados por websites para armazenar informações em seu dispositivo.
+answer: Arquivos criados por sites para armazenar informações no seu dispositivo.
 wrong_answers:
-  - Pequenos pedaços de dados enviados de um website e armazenados no computador do usuário pelo navegador web do usuário.
+  - Pequenos pedaços de dados enviados por um site e armazenados no computador do usuário pelo navegador da web do usuário.
   - Programas que rastreiam sua atividade online.
-  - Vírus que podem prejudicar seu dispositivo.
+  - Vírus que podem danificar seu dispositivo.
 explanation: |
-  No contexto da navegação online, os cookies são arquivos criados por websites para armazenar informações em seu dispositivo. Eles são usados para lembrar suas preferências, informações de login e outros dados para melhorar sua experiência de navegação.
-reviewed: false
+  No contexto da navegação online, cookies são arquivos
+  criados por sites para armazenar informações no seu dispositivo.
+  Eles são usados para lembrar suas preferências, informações de login
+  e outros dados para melhorar sua experiência de navegação.
+reviewed: true

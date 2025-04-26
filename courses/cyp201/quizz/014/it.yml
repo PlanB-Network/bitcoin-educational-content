@@ -1,10 +1,9 @@
-question: Quante iterazioni di calcolo vengono eseguite nella funzione di compressione di SHA256?
-answer: 64
+question: Qual è il numero di iterazioni utilizzato da PBKDF2 in Bitcoin?
+answer: 2048
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  Nella funzione di compressione di SHA256 vengono eseguite 64 iterazioni di calcolo.
-  Come in una gara ciclistica, ogni giro migliora la posizione della funzione.
+  PBKDF2 ripete il processo HMAC-SHA512 2048 volte per migliorare la sicurezza.
 reviewed: false

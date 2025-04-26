@@ -1,0 +1,22 @@
+id: 23cd5e48-6719-4725-968e-03be6fcd932a
+year: 2024-04
+name: Swiss Bitcoin Conference 2024
+location: Lake Constance, Switzerland
+language:
+  - de
+  - en
+links:
+  twitter: https://x.com/swissbitcoincon
+  website: https://swiss-bitcoin-conference.com/
+project_id: ca456531-4f6b-456e-bed9-0fa48b6db65c
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: "2024-12-16"
+    urgency: 0
+    contributor_names:
+      - jramos0
+    reward: 0.05
+tags:
+  - adoption
+  - finance

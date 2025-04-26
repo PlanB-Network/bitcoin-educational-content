@@ -1,0 +1,9 @@
+question: Dalam transaksi pembayaran sederhana di mana terdapat input sebesar 500.000 sats yang dibagi menjadi satu output sebesar 47.500 sats dan lainnya sebesar 451.000 sats, UTXO mana yang kemungkinan adalah kembalian?
+answer: Yang 451.000 sats.
+wrong_answers:
+  - Yang 500.000 sats.
+  - Yang 47.500 sats.
+  - Tidak ada dari mereka.
+explanation: |
+  Ketika ada perbedaan yang cukup besar antara dua output dalam sebuah transaksi pada model pembayaran sederhana, dapat diperkirakan bahwa output yang lebih besar kemungkinan adalah kembalian.
+reviewed: false

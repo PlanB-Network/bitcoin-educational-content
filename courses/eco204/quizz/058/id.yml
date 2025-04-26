@@ -1,0 +1,9 @@
+question: Apa fitur unik dari surat promes yang diperkenalkan di Bursa Saham Antwerp pada abad ke-16?
+answer: Mereka mencantumkan nama dan tanggal jatuh tempo
+wrong_answers:
+  - Mereka terbuat dari emas
+  - Mereka diterbitkan oleh Bank of Amsterdam
+  - Mereka dapat ditukar dengan florin
+explanation: |
+  Bursa Saham Antwerp memperkenalkan surat promes yang mencantumkan nama dan tanggal jatuh tempo. Hal ini membuatnya sulit untuk ditukarkan sebelum tanggal jatuh tempo. Namun, bursa tersebut memperkenalkan praktik mendiskontokan surat promes ini sebelum tanggal jatuh tempo mereka, membuatnya lebih likuid dan memperkenalkan konsep nilai waktu uang.
+reviewed: false

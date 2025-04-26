@@ -1,0 +1,9 @@
+question: O que o protocolo de troca de chaves Diffie-Hellman permite?
+answer: Permite que duas partes criem uma chave secreta comum compartilhando informações públicas.
+wrong_answers:
+  - Permite uma troca de chave secreta presencial para cada sessão.
+  - Permite o uso de uma chave pública para criptografia e uma chave privada para descriptografia.
+  - Permite a troca de moeda eletrônica.
+explanation: |
+  O protocolo Diffie-Hellman possibilita que duas partes compartilhem informações publicamente, garantindo que apenas elas possam gerar uma chave comum para proteger suas futuras trocas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Como é que os compromissos criptográficos (via Taproot ou OP_RETURN) são utilizados no RGB?
+answer: Ancoram as transições de estado na cadeia de blocos
+wrong_answers:
+  - Armazenam os dados do contrato na cadeia de blocos
+  - Substituem a validação do lado do cliente pela execução de contratos inteligentes na cadeia
+  - Criam nós para verificação das transacções
+explanation: |
+  Os compromissos permitem que as actualizações de estado sejam ligadas de forma segura a um UTXO, de modo a provar a existência de uma determinada informação num dado momento, sem revelar a própria informação.
+reviewed: false

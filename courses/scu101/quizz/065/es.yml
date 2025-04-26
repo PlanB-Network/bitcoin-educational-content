@@ -1,9 +1,0 @@
-question: ¿Cuál es la práctica recomendada para almacenar Contraseñas de Un Solo Uso (OTPs)?
-answer: Mantén las OTPs en tu dispositivo móvil.
-wrong_answers:
-  - Escríbelas en papel.
-  - Almácenalas en tu correo electrónico.
-  - Memorízalas.
-explanation: |
-  Para una seguridad óptima, se recomienda mantener las Contraseñas de Un Solo Uso (OTPs) en tu dispositivo móvil. Esto se debe a que los dispositivos móviles suelen ser más seguros y menos propensos a ser comprometidos que otros métodos de almacenamiento.
-reviewed: false

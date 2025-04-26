@@ -1,9 +1,8 @@
-question: Qual é o papel de uma frase de acesso em uma carteira de Bitcoin?
-answer: Ela aumenta a segurança da carteira.
+question: O que significa o prefixo `wpkh` em um descritor?
+answer: Pagamento para Witness-PubKey-Hash
 wrong_answers:
-  - Ela diminui a segurança da carteira.
-  - Ela não tem efeito na segurança da carteira.
-  - Ela torna a carteira mais amigável ao usuário.
+  - Pagamento para PubKey
+  - Pagamento para Script-Hash
+  - Hash de Script de Testemunha
 explanation: |
-  A frase de acesso é uma senha adicional que pode ser integrada a uma carteira de Bitcoin para aumentar sua segurança. Ao adicionar informações arbitrárias que, juntamente com a frase mnemônica, permitem o cálculo da semente da carteira, a frase de acesso melhora sua segurança.
-reviewed: false
+  O prefixo `wpkh` indica um script SegWit v0 usando endereços de Pagamento para Witness-Public-Key-Hash.

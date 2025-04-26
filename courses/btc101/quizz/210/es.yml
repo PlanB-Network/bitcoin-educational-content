@@ -1,10 +1,10 @@
 question: ¿Qué país ha declarado a Bitcoin como moneda de curso legal?
-answer: El Salvador
+answer: El Salvador.
 wrong_answers:
-  - Estados Unidos
-  - China
-  - India
-explanation: |
-  El Salvador ha dado el paso audaz de adoptar Bitcoin en su totalidad,
+  - Estados Unidos.
+  - China.
+  - India.
+explanation: >-
+  El Salvador ha dado un paso audaz al adoptar completamente a Bitcoin,
   declarándolo como moneda de curso legal.
-reviewed: false
+reviewed: true

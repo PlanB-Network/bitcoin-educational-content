@@ -1,0 +1,11 @@
+question: Mis on peatükis mainitud Bitcoini kursuse peamine eesmärk?
+answer: Kursuse peamine eesmärk on harida uusi Bitcoini huvilisi tugevate majanduspõhimõtete alal.
+wrong_answers:
+  - Kursuse peamine eesmärk on õpetada uusi Bitcoini huvilisi, kuidas Bitcoini kaevandada.
+  - Kursuse peamine eesmärk on õpetada uusi Bitcoini huvilisi, kuidas Bitcoini investeerida.
+  - Kursuse peamine eesmärk on õpetada uusi Bitcoini huvilisi, kuidas luua oma krüptorahasid.
+explanation: |
+  Kursus on suunatud uute Bitcoini huviliste harimisele majanduse põhiprintsiipide, eriti Austria majanduskoolkonna põhimõtete osas.
+  See teadmine on kriitilise tähtsusega Bitcoini väärtuse ja potentsiaali mõistmisel
+  traditsioonilistele rahandussüsteemidele alternatiivina.
+reviewed: false

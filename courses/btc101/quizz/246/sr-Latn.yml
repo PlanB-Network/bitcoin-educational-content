@@ -1,0 +1,9 @@
+question: Kakva je veza Bitcoin sa budućnošću tehnologije i društva?
+answer: Bitcoin je tehnološka revolucija koja omogućava Exchange vrednost bez ikakve pouzdane treće strane.
+wrong_answers:
+  - Bitcoin je oblik AI tehnologije koji omogućava ljudima da Exchange informacije putem centralnog servera.
+  - Bitcoin je alat za kontrolu svetske populacije, omogućavajući eliminaciju siromaštva.
+  - Bitcoin je metoda kojom vlade prate finansijske transakcije svojih građana.
+explanation: |
+  Tekst objašnjava da je Bitcoin, poput interneta za sredstva komunikacije, tehnološka revolucija koja stvara šansu za nove načine organizacije velikih razmera, donoseći nam mogućnost razmene vrednosti bez ikakve pouzdane treće strane.
+reviewed: true

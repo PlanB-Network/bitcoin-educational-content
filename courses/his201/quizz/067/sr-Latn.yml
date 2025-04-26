@@ -1,0 +1,9 @@
+question: Koja organizacija je počela prihvatati Bitcoin u novembru 2010. nakon lobiranja zajednice?
+answer: Fondacija Elektronska Granica
+wrong_answers:
+  - WikiLeaks
+  - Crveni krst
+  - Amnesty International
+explanation: |
+  Ova organizacija, koju su 1900. godine zajedno osnovali Mitch Kapor, John Gilmore i John Perry Barlow, imala je za cilj zaštitu sloboda interneta. Počela je prihvatati Bitcoin 9. novembra.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on absoluutse eelise kontseptsioon tööjaotuse kontekstis?
+answer: Üksikisikul on teatud ülesannete sooritamisel paremad võimed kui tema eakaaslastel.
+wrong_answers:
+  - Üksikisikul on kõikide ülesannete sooritamisel paremad võimed kui tema eakaaslastel.
+  - Üksikisikul on teatud ülesannete sooritamisel võrdsed võimed nagu tema eakaaslastel.
+  - Üksikisikul on teatud ülesannete sooritamisel kehvemad võimed kui tema eakaaslastel.
+explanation: |
+  Tööjaotuse kontekstis viitab absoluutne eelis olukorrale, kus üksikisikul on teatud ülesannete sooritamisel paremad võimed kui tema eakaaslastel. Sellisel juhul on sellel isikul huvi spetsialiseeruda selle kauba tootmisele ja seejärel vahetada saadud ülejääk soovitud kaupade vastu.
+reviewed: false

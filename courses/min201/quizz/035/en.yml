@@ -5,7 +5,7 @@ wrong_answers:
   - The number of active nodes
   - The amount of electricity consumed by the network
 explanation: |
-  The hashrate in the Bitcoin network measures the number of calculations
-  that can be performed per second. It is a key indicator of the health and security
-  of the network.
-reviewed: false
+  The hashrate in the Bitcoin network measures the number of
+  calculations that can be performed per second. It is a key
+  indicator of the health and security of the network.
+reviewed: true

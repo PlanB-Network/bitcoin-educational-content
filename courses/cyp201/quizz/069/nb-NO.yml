@@ -1,0 +1,9 @@
+question: Hva er hovedrollen til kjedekoden i utledningen av barnenøkler?
+answer: Introdusere en ekstra kilde til entropi
+wrong_answers:
+  - Identifisere den hierarkiske dybden
+  - Lagre indeksene til barnenøklene
+  - Sikre kompatibilitet med Bitcoin-protokollen
+explanation: |
+  Kjedekoden brukes til å introdusere en ekstra og unik kilde til entropi for hver utledede nøkkel.
+reviewed: false

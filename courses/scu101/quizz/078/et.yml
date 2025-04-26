@@ -1,0 +1,9 @@
+question: Milline kriteerium on uue e-posti konto loomisel oluline?
+answer: Kasutada ainulaadset ja tugevat parooli.
+wrong_answers:
+  - Taaskasutada teiste kontode paroole.
+  - Valida lihtne parool, et seda oleks lihtsam meeles pidada.
+  - Valida parool, mis sisaldab lemmiklooma nime.
+explanation: |
+  Ainulaadne ja tugev parool on hädavajalik, et takistada häkkeritel e-posti kontole juurde pääsemist.
+reviewed: false

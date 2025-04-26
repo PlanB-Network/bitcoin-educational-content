@@ -1,0 +1,8 @@
+question: 2010年に数ヶ月間、ビットコインネットワークのハッシュレートの20%を保持していたドイツの鉱夫は誰ですか？
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  彼は2010年の夏にグラフィックカードで構成されるマイニングファーム（ArtFarmと呼ばれる）を設立し、秋には競合他社よりも大きなリードを得ました。

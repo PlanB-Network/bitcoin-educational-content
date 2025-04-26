@@ -1,0 +1,9 @@
+question: Kwa nini kubadilishana funguo ana kwa ana haiwezekani kwa mawasiliano salama mtandaoni?
+answer: Inasababisha gharama kubwa za shirika wakati haina ufanisi
+wrong_answers:
+  - Hufanya mawasiliano yaliyosimbwa kutotumika
+  - Inahitaji matumizi ya funguo nyingi kwa kila mteja
+  - Inazuia utumiaji tena wa vitufe kwa shughuli zinazorudiwa
+explanation: |
+  Kubadilishana funguo kwa mtu ni gharama kubwa na haifai, hasa kwa kiwango kikubwa, kwani hupunguza kasi ya shughuli na huweka gharama kubwa za vifaa kwa kila mteja mpya.
+reviewed: false

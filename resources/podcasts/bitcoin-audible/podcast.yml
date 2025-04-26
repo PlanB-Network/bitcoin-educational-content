@@ -1,3 +1,4 @@
+id: 1426c85c-b618-437c-bf4b-a5551f540326
 name: Bitcoin audible
 host: Guy Swann
 language: en
@@ -7,8 +8,9 @@ links:
   website: https://bitcoinaudible.com
 description: |
   The Best in Bitcoin made Audible. Guy Swann makes the knowledge of Bitcoin, the world's most secure, independent money, accessible to everyone. Exploring Bitcoin from an investment perspective, economic analysis, its philosophical foundations, & technological primitives. Reading and distilling thousands of hours of others' works on Bitcoin, Guy explains everything you need to know.
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - investment
+  - finance
+  - high-level

@@ -1,9 +1,9 @@
-question: What is a "merge" in a transaction?
+question: What is a merge in a transaction?
 answer: It's the action of consuming multiple UTXOs as inputs.
 wrong_answers:
   - It's the action of creating multiple UTXOs as outputs.
   - It's the act of combining multiple addresses into one.
   - It's the act of combining multiple blocks in the blockchain.
 explanation: |
-  When the user does not have any UTXO greater than or equal to the amount they wish to send, they must use several of their UTXOs to satisfy the outputs. This practice is called "merging".
+  When the user does not have any UTXO greater than or equal to the amount they wish to send, they must use several of their UTXOs to satisfy the outputs. This practice is called merging.
 reviewed: false

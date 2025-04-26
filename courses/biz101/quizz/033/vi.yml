@@ -1,0 +1,9 @@
+question: How has the Lightning Network evolved to improve the user experience since its inception?
+answer: It has introduced features like splicing, static Bolt12 invoices, and better liquidity management, making transactions smoother and more reliable.
+wrong_answers:
+  - It has removed all security features to speed up transactions.
+  - It now requires government approval for each payment.
+  - It has stopped working on new features, relying on the original design only.
+explanation: |
+  Over time, the Lightning Network has seen technical enhancements that reduce friction for users. New features and better node management tools have contributed to a more seamless and user-friendly experience.
+reviewed: false

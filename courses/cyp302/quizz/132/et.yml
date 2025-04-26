@@ -1,0 +1,9 @@
+question: Millist tehnoloogiat kasutatakse üldiselt Bitcoin'i tehingus vahendite omandiõiguse tõestamiseks, skripti avamiseks?
+answer: Digitaalsed allkirjad
+wrong_answers:
+  - Digitaalsed sertifikaadid
+  - Sümmeetriline krüpteerimine
+  - Sõnumi autentimiskoodid (MAC)
+explanation: |
+  Digitaalsed allkirjad tõestavad Bitcoin'is vahendite valdamist, allkirjastades tehinguid privaatvõtmega, et avada skript, mis turvab UTXO-d.
+reviewed: false

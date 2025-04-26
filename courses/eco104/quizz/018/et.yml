@@ -1,0 +1,12 @@
+question: Milline oli oluline piirang, millega inimesed silmitsi seisisid Kreeka valitsuse 2015. aasta pankrotikriisi ajal?
+answer: Valitsuse peale surutud pangandusreform.
+wrong_answers:
+  - Piiratud juurdepääs digitaalsetele pangateenustele
+  - Digitaalsete valuutade, nagu Bitcoin, volatiilsus
+  - Füüsilise raha (sularaha) puudus
+explanation: |
+  Kreeka valitsuse 2015. aasta pankrotikriisi ajal suleti pangad,
+  sularaha väljavõtmisele pangaautomaatidest kehtestati piirangud ja oluline osa inimeste
+  pangahoiustest võeti valitsuse poolt kasutusele, et rahastada fiskaalset vastutustundetust.
+  See sündmus tõi esile riskid, mis kaasnevad raha hoidmisega traditsioonilises pangandussüsteemis.
+reviewed: true

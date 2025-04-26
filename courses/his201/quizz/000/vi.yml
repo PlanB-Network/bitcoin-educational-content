@@ -1,0 +1,9 @@
+question: Asymmetric cryptography được phát hiện chính thức vào năm nào?
+answer: 1976
+wrong_answers:
+  - 1676
+  - 1776
+  - 1876
+explanation: |
+  Nó được giới thiệu bởi Whitfield Diffie và Martin Hellman, hai nhà mật mã học từ Đại học Stanford, trong một bài báo được công bố vào tháng 11 năm 1976.
+reviewed: false

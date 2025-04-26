@@ -1,9 +1,9 @@
-question: ¿Cuál es la principal ventaja del oro sobre otras formas de moneda?
-answer: Su rareza natural lo hace valioso, mientras que sus propiedades químicas permiten que no se erosione con el tiempo.
+question: ¿Por qué el oro no es un material portátil?
+answer: Porque es denso y pesado, lo que lo hace incómodo de llevar en grandes cantidades.
 wrong_answers:
-  - Es fácilmente divisible y transportable.
-  - Está sujeto a la inflación monetaria.
-  - Es ampliamente aceptado en el comercio.
+  - Porque es demasiado valioso para ser movido.
+  - Porque no se puede moldear fácilmente en formas más pequeñas.
+  - Porque es un líquido a temperatura ambiente.
 explanation: |
-  La principal ventaja del oro sobre otras formas de moneda es su rareza natural, lo que lo hace valioso, y sus propiedades químicas, que permiten que no se erosione con el tiempo.
-reviewed: false
+  El oro es denso y pesado, lo que significa que llevar grandes cantidades de él puede ser físicamente desafiante. Este peso lo hace menos conveniente para el transporte en comparación con materiales más ligeros.
+reviewed: true

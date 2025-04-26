@@ -1,0 +1,9 @@
+question: Millised on peamised riistvaranõuded, et Starter-profiil saaks Bitcoini makseid vastu võtta?
+answer: Nutitelefon
+wrong_answers:
+  - Bitcoin kaevandaja ASIC
+  - Riistvara rahakott
+  - Isehostitav server
+explanation: |
+  Starter-profiili jaoks on vaja ainult Lightning-portfelliga nutitelefoni või tahvelarvutit, mis teeb sellest kerge lahenduse.
+reviewed: false

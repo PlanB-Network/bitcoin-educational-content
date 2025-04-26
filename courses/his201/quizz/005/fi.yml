@@ -1,0 +1,9 @@
+question: Mikä taloustieteilijä totesi vuonna 1999, että ainoa puuttuva asia, mutta joka pian kehitetään, on luotettava sähköinen raha?
+answer: Milton Friedman
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+explanation: |
+  Hän oli taloustieteen Nobelin palkinnon voittaja ja Chicagon koulukunnan perustaja. Hän teki tämän ennustuksen National Taxpayers Union Foundationin mikrofonin ääressä. [micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: false

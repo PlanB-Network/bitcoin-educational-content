@@ -1,0 +1,8 @@
+question: Milline modifikaatorit saab kombineerida põhiliste sighash lippudega?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY modifitseerib sighash lippe nii, et need katab ainult ühte sisendit, jättes ülejäänud muudetavaks.

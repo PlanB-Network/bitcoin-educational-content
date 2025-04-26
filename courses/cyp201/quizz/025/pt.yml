@@ -1,9 +1,9 @@
-question: Qual é a ordem da curva (n) para a curva secp256k1 em decimal?
-answer: 2^256 - 432420386565659656852420866394968145599
+question: Qual propriedade de Schnorr permite combinar múltiplas chaves públicas em uma só?
+answer: Agregação de Chaves
 wrong_answers:
-  - 2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 -1
-  - 2^256 - 432420386565659656852420866394968145598
-  - 2^256 - 432420386565659656852420866394968145600
+  - Verificação em Lote
+  - Maleabilidade
+  - Compactação de Assinatura
 explanation: |
-  A ordem da curva (n) para a curva secp256k1 é o número de pontos na curva, incluindo o ponto no infinito. Para secp256k1, n é igual a 2^256 - 432420386565659656852420866394968145599 em decimal.
+  Schnorr permite a agregação de múltiplas chaves públicas em uma única chave.
 reviewed: false

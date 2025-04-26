@@ -1,0 +1,11 @@
+question: Apa hasil potensial dari devaluasi yang terlalu cepat atau hilangnya kepercayaan pada mata uang fidusia?
+answer: Ini dapat menyebabkan hiperinflasi.
+wrong_answers:
+  - Ini dapat menyebabkan deflasi.
+  - Ini dapat menyebabkan ekonomi yang stabil.
+  - Ini dapat menyebabkan peningkatan nilai mata uang.
+explanation: |
+  Devaluasi yang terlalu cepat atau hilangnya kepercayaan pada mata uang fidusia
+  dapat menyebabkan hiperinflasi. Ini adalah situasi di mana harga barang dan jasa
+  meningkat dengan tingkat yang sangat tinggi, sering kali menyebabkan ketidakstabilan ekonomi.
+reviewed: true

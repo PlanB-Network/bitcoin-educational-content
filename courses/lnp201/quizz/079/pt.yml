@@ -1,9 +1,0 @@
-question: O que significa 'bc' em 'lnbc1m' em uma fatura da Lightning Network?
-answer: Bitcoin mainnet
-wrong_answers:
-  - Bitcoin Cash
-  - Block chain
-  - Bitcoin Core
-explanation: |
-  Em uma fatura da Lightning Network, 'bc' representa Bitcoin mainnet. Isso indica que o pedido de pagamento é para o Bitcoin mainnet, em oposição a um testnet ou outra rede.
-reviewed: false

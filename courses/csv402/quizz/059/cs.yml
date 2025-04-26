@@ -1,0 +1,9 @@
+question: Jaká je funkce proxy serveru RGB v prostředí RGB Lightning Node?
+answer: Usnadnění výměny zásilek RGB
+wrong_answers:
+  - Poskytování veřejných klíčů uzlům pro otevírání kanálů
+  - Uchovávání historie přechodů mezi stavy RGB
+  - Vyhnout se duplicitním zaškrtávacím symbolům pro tokeny RGB
+explanation: |
+  Proxy server RGB zjednodušuje komunikaci zásilek RGB mezi účastníky Lightningu tím, že funguje jako prostředník, což umožňuje hladší uživatelskou zkušenost, která se blíží té, kterou v současnosti zažíváte s Bitcoinem a Lightningem.
+reviewed: false

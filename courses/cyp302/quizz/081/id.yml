@@ -1,0 +1,9 @@
+question: Operasi apa yang biasanya digunakan untuk menggabungkan keystream dan pesan dalam sebuah stream cipher?
+answer: XOR
+wrong_answers:
+  - Perkalian
+  - Pergeseran modular
+  - Substitusi setiap huruf
+explanation: |
+  Dalam sebuah stream cipher, operasi XOR umumnya digunakan untuk menggabungkan keystream dengan pesan karena operasi ini sederhana dan dapat dibalik.
+reviewed: false

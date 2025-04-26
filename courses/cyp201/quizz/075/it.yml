@@ -1,9 +1,9 @@
-question: Quale funzione viene utilizzata per generare il seed dalla passphrase in un portafoglio Bitcoin?
-answer: pbkdf2
+question: Quale percorso di derivazione viene utilizzato per un account SegWit v0 in un descrittore standard?
+answer: 84h/0h/0h
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  La funzione pbkdf2 viene utilizzata per generare il seed dalla passphrase in un portafoglio Bitcoin. Questo seed consente la derivazione di tutte le coppie di chiavi figlie del portafoglio.
-reviewed: false
+  Il percorso 84h/0h/0h è definito nel BIP84 per un account che deriva indirizzi SegWit v0 con P2WPKH.
+recensito: false

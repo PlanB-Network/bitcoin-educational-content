@@ -1,0 +1,9 @@
+question: Jaká zranitelnost, kterou nahlásil ArtForz 28. července 2010, umožňovala utrácet bitcoiny z libovolné adresy pomocí specifického skriptu?
+answer: Chyba 1 RETURN
+wrong_answers:
+  - Chyba přetečení hodnoty
+  - Chyba OP_NOP
+  - Chyba LSHIFT
+explanation: |
+  Chyba nebyla zneužita. Satoshi rychle zahrnul opravu do softwaru a doporučil všem uživatelům provést aktualizaci.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Hva er versjonen av den første utgitte Bitcoin-programvaren?
+answer: Bitcoin-0.1.0
+wrong_answers:
+  - Bitcoin-0.0.1
+  - Bitcoin-1.0.0
+  - Bitcoin-0.1.1
+explanation: >-
+  Den første utgitte Bitcoin-programvaren var Bitcoin-0.1.0. Den ble annonsert
+  av Satoshi Nakamoto den 8. januar 2009.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Hvorfor er tallteori spesielt viktig i offentlig nøkkelkryptografi?
+answer: Den gir de nødvendige matematiske grunnlagene for kryptering og dekryptering.
+wrong_answers:
+  - Den gir de nødvendige matematiske grunnlagene for hashing-operasjoner.
+  - Den er nødvendig for opprettelsen av nevrale nettverk.
+  - Den tillater kun beregning av operasjoner i binært.
+explanation: |
+  Tallteori er avgjørende i offentlig nøkkelkryptografi fordi den hjelper med å strukturere algoritmer basert på egenskapene til heltall, noe som letter operasjoner for kryptering og dekryptering.

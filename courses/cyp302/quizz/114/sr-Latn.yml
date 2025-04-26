@@ -1,0 +1,9 @@
+question: Šta razlikuje standardnu dužinu RC4 ključa toka od pojednostavljene verzije predstavljene u primeru?
+answer: Dužina S niza u standardnom RC4 je 256 bajtova
+wrong_answers:
+  - S niz je ograničen na 128 bajtova
+  - Ključ koji se koristi mora biti duži od 8 bajtova
+  - Ne postoji fiksna dužina za S u standardnom RC4
+explanation: |
+  U standardnom RC4, niz S sadrži 256 bajtova, što značajno povećava složenost proračuna i poboljšava sigurnost u poređenju sa pojednostavljenom verzijom sa samo 8 bajtova.
+reviewed: false

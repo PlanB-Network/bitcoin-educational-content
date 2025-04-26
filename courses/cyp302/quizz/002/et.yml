@@ -1,0 +1,9 @@
+question: Mis on kolme kastis sisalduva krüpteeritud teksti eripära?
+answer: Need sisaldavad komadega eraldatud numbreid
+wrong_answers:
+  - Need on kõik kirjutatud tavalistes tähtedes
+  - Need kasutavad tundmatuid sümboleid
+  - Need on kirjutatud mitmes keeles
+explanation: |
+  Kolm krüpteeritud teksti koosnevad komadega eraldatud numbrite jadadest, mille dekrüpteerimiseks on vajalik võti.
+reviewed: false

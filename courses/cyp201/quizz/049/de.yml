@@ -1,9 +1,9 @@
-question: Was ist der Zweck von Bitcoin Improvement Proposals (BIPs)?
-answer: Es handelt sich um Upgrade-Vorschläge, die die Funktionalität und Sicherheit von HD-Wallets verbessern.
+question: Was ist der Zweck der mnemonischen Phrase in einem Bitcoin HD-Wallet?
+answer: Um alle Schlüssel deterministisch abzuleiten
 wrong_answers:
-  - Es handelt sich um Vorschläge, um den Wert von Bitcoin zu erhöhen.
-  - Es handelt sich um Vorschläge, um den Bitcoin-Mining-Prozess zu ändern.
-  - Es handelt sich um Vorschläge, um die Verwendung von Bitcoin zu regulieren.
+  - Um Transaktionen direkt zu signieren
+  - Um Bitcoin-Adressen zu verschlüsseln
+  - Um einen Hash für die UTXOs zu generieren
 explanation: |
-  Bitcoin Improvement Proposals (BIPs) sind Protokolle, die darauf abzielen, die Funktionalität und Sicherheit von HD-Wallets zu verbessern. Zum Beispiel führte BIP32 das Konzept der deterministisch und hierarchisch abgeleiteten Schlüssel ein.
+  Die mnemonische Phrase ermöglicht die Ableitung aller privaten und öffentlichen Schlüssel in einem Wallet, was die Sicherung und Wiederherstellung erleichtert.
 reviewed: false

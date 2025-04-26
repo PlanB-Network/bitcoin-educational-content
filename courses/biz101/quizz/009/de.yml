@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck des Lightning Network, das auf Bitcoin aufbaut?
+answer: Schnellere, nahezu sofortige Zahlungen mit minimaler Interaktion in der Kette.
+wrong_answers:
+  - Die Blockchain von Bitcoin vollständig zu ersetzen und alle Transaktionen lokal zu speichern.
+  - Bereitstellung eines Netzes mit Berechtigungen, das von einer einzigen Stelle kontrolliert wird.
+  - Verlangsamung der Transaktionen, um sicherzustellen, dass sie von den Regierungen vollständig zurückverfolgt werden können.
+explanation: |
+  Das Lightning Network ist ein "Second-Layer"-Protokoll, das es den Teilnehmern ermöglicht, Zahlungskanäle zu erstellen, Transaktionen außerhalb der Bitcoin-Blockchain durchzuführen und nur den endgültigen Nettosaldo auf der Bitcoin-Blockchain abzurechnen. Dieses Design ermöglicht höhere Geschwindigkeiten und niedrigere Kosten.
+reviewed: false

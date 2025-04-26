@@ -1,9 +1,9 @@
-question: Perché è essenziale fare il backup della frase di recupero di 24 parole di un portafoglio Bitcoin?
-answer: Per evitare qualsiasi perdita di fondi.
+question: Cosa indica l'indice /84'/ al livello 1 di un percorso di derivazione?
+answer: Lo standard P2WPKH (SegWit v0)
 wrong_answers:
-  - Per verificare l'accuratezza della frase di recupero.
-  - Per generare l'entropia per il portafoglio.
-  - Per crittografare la frase di recupero per una maggiore sicurezza.
+  - Lo standard P2TR (SegWit v1)
+  - Una valuta di testnet Bitcoin
+  - Una valuta di mainnet Bitcoin
 explanation: |
-  Fare il backup della frase di recupero di 24 parole è essenziale per evitare qualsiasi perdita di fondi.
-reviewed: false
+  L'indice /84'/ è definito nel BIP84 per indicare l'uso dello standard SegWit v0 con indirizzi P2WPKH al livello 1 (quello del target di derivazione).
+recensito: false

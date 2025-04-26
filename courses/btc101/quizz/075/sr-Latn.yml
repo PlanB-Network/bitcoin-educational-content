@@ -1,0 +1,13 @@
+question: Šta je Mnemonic fraza u Bitcoin Wallet?
+answer: Lista od 12 ili 24 reči koja vam omogućava pristup vašim bitcoinima.
+wrong_answers:
+  - Izabrana lozinka za pristup Bitcoin Wallet.
+  - Kod za šifrovanje Bitcoin transakcija.
+  - Tajna fraza za oporavak koja uništava Bitcoin Wallet u slučaju potrebe.
+explanation: |
+  Od 2017. godine, privatni ključ može biti kodiran u jednostavnu listu
+  od 12 ili 24 reči, nazvanu Mnemonic fraza. Ova fraza
+  je rezervna kopija vašeg Bitcoin Wallet, tako da vam omogućava
+  pristup vašim bitcoinima korišćenjem bilo kog Bitcoin Wallet
+  softvera/aplikacije.
+reviewed: true

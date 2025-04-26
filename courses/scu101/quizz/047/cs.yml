@@ -5,7 +5,8 @@ wrong_answers:
   - Sledovat vaše online aktivity
   - Zvýšit rychlost vašeho internetového připojení
 explanation: |
-  2FA přidává další vrstvu zabezpečení k vašim online účtům. I když
-  hacker získá vaše heslo, nebude schopen přistoupit k vašemu účtu bez
-  druhého ověřovacího faktoru.
-reviewed: false
+  2FA přidává další vrstvu zabezpečení k vašim online
+  účtům. I když hacker získá vaše heslo, nebude
+  schopen získat přístup k vašemu účtu bez druhého
+  ověřovacího faktoru.
+reviewed: true

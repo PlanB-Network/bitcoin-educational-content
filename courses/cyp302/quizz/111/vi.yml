@@ -1,0 +1,9 @@
+question: Mã hóa luồng bất đồng bộ là gì?
+answer: Một loại mã hóa mà luồng khóa phụ thuộc vào cả khóa và các yếu tố của văn bản đã được mã hóa trước đó
+wrong_answers:
+  - Một loại mã hóa tạo ra một luồng khóa ngẫu nhiên với mỗi lần sử dụng
+  - Một loại mã hóa mà khóa phải được thay đổi cho mỗi tin nhắn
+  - Một loại mã hóa mà luồng khóa chỉ phụ thuộc vào khóa ban đầu
+explanation: |
+  Mã hóa luồng bất đồng bộ là một loại mã hóa mà luồng khóa được ảnh hưởng bởi khóa và các yếu tố của văn bản đã mã hóa.
+reviewed: false

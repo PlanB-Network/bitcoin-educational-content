@@ -1,0 +1,9 @@
+question: 2004年にRyan Fuggerによって設計され、Satoshi Nakamotoの著作で何度も言及された分散型クレジットプロトコルの名前は何ですか？
+answer: Ripple
+wrong_answers:
+  - Waves
+  - Tsunami
+  - Swell
+explanation: |
+  2009年、Satoshiは「Rippleは信頼を集中させるのではなく、広げるという点でユニークだ」と[記述しました](https: //diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html)。
+reviewed: false

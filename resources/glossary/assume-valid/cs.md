@@ -1,0 +1,7 @@
+---
+term: PŘEDPOKLÁDEJME, ŽE JE PLATNÝ
+
+---
+Konfigurační parametr ve většinovém klientovi Bitcoin Core, který umožňuje uzlu, který byl právě inicializován (ale ještě neprovedl IBD), přeskočit ověřování podpisů pro všechny transakce zahrnuté v blocích před určitým daným blokem. Tento slavný blok je definován otiskem své hlavičky, tedy svým hashem. Vybraný blok se obnovuje s každou novou verzí jádra Bitcoinu. Pokud má tedy uzel při své inicializaci aktivovaný tento parametr, zkontroluje řetězec hlavičky bloku a najde větev s největším počtem nashromážděných prací. Pokud uzel zjistí hash poskytnutý jádrem ve zvolené větvi, vynechá ověření podpisů předchozích bloků. V opačném případě uzel přistoupí k tradiční synchronizaci (IBD), aby vše ověřil sám.
+
+Cílem Assume Valid je urychlit proces počáteční synchronizace uzlu, aniž by byla ohrožena bezpečnost, za předpokladu, že většina sítě již tyto transakce v minulosti ověřila. Jediným skutečným kompromisem pro uzel je, že v případě předchozí krádeže bitcoinů nebude o této skutečnosti informován. Stále však může zajistit přesnost množství vydaných bitcoinů. Uzly pokračují v ověřování podpisů transakcí následujících po bloku Assume Valid. Tento přístup vychází z předpokladu, že pokud byla transakce dostatečně dlouho přijímána sítí bez sporů, je nepravděpodobné, že by byla podvodná.

@@ -1,9 +1,12 @@
-question: Qual è lo scopo di implementare la 2FA?
+question: Qual è lo scopo dell'implementazione del 2FA?
 answer: Proteggere i tuoi account online dall'accesso non autorizzato.
 wrong_answers:
   - Rendere più difficile per te accedere al tuo stesso account
   - Tracciare le tue attività online
   - Aumentare la velocità della tua connessione internet
 explanation: |
-  La 2FA aggiunge un ulteriore livello di sicurezza ai tuoi account online. Anche se un hacker ottiene la tua password, non sarà in grado di accedere al tuo account senza il secondo fattore di verifica.
-reviewed: false
+  Il 2FA aggiunge un ulteriore livello di sicurezza ai tuoi
+  account online. Anche se un hacker ottiene la tua password, non sarà
+  in grado di accedere al tuo account senza il secondo fattore
+  di verifica.
+reviewed: vero

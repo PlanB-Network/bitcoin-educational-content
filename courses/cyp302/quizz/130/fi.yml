@@ -1,0 +1,9 @@
+question: Mikä rooli varmenteiden myöntäjillä on julkisen avaimen jakeluprosessissa?
+answer: Ne myöntävät varmenteita, jotka takaavat julkisten avainten aitouden
+wrong_answers:
+  - Ne generoivat yksityisiä avaimia käyttäjille
+  - Ne säilyttävät julkisia avaimia kaikille käyttäjille
+  - Ne varmistavat viestien salauksen käyttäjien välillä
+explanation: |
+  Varmenteiden myöntäjät myöntävät varmenteita, jotka liittävät julkisen avaimen sen omistajaan, mahdollistaen käyttäjien varmentaa käyttämiensä julkisten avainten aitouden.
+reviewed: false

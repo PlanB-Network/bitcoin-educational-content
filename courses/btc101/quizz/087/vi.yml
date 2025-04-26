@@ -1,9 +1,9 @@
 question: Ví multisig là gì?
-answer: Một tập hợp các ví yêu cầu nhiều chữ ký để thực hiện một giao dịch
+answer: Một tập hợp các ví yêu cầu nhiều chữ ký để thực hiện một giao dịch.
 wrong_answers:
-  - Ví yêu cầu một chữ ký duy nhất để thực hiện giao dịch
-  - Ví không yêu cầu chữ ký nào để thực hiện giao dịch
-  - Ví yêu cầu một chữ ký vật lý để thực hiện giao dịch
+  - Ví yêu cầu một chữ ký duy nhất để thực hiện giao dịch.
+  - Ví không yêu cầu chữ ký nào để thực hiện giao dịch.
+  - Ví yêu cầu một chữ ký vật lý để thực hiện giao dịch.
 explanation: |
-  Ví multisig là một loại ví Bitcoin yêu cầu nhiều chữ ký để thực hiện một giao dịch. Điều này tăng thêm một lớp bảo mật, vì nó có nghĩa là một người không thể thực hiện giao dịch mà không có sự chấp thuận của người khác.
+  Ví multisig là một loại ví Bitcoin yêu cầu nhiều chữ ký để thực hiện một giao dịch. Điều này tăng thêm một lớp bảo mật, vì nó có nghĩa là một người đơn lẻ không thể thực hiện giao dịch mà không có sự chấp thuận của người khác.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mikä erottaa modernin kryptografian yksinkertaisesta salausjärjestelmästä?
+answer: Viestin eheyden ja aitouden varmistaminen
+wrong_answers:
+  - Yksittäisen salaisen avaimen käyttö
+  - Avaimen hajauttaminen
+  - Viestien anonymisointi
+explanation: |
+  Moderni kryptografia sisältää järjestelmiä, jotka menevät luottamuksellisuuden yli varmistaakseen eheyden ja aitouden, sekä kiistämättömyyden, toisin kuin yksinkertaiset salausjärjestelmät.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Milline autor on peamiselt vastutav Frédéric Bastiati majandushariduse eest?
+answer: Say
+wrong_answers:
+  - Turgot
+  - Condillac
+  - Quesnay
+explanation: |
+  Frédéric Bastiat peab Jean-Baptiste Say'd suureks mõjutajaks, eriti tema väärtuse ja vabakaubanduse ideede osas.
+reviewed: false

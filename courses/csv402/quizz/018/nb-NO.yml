@@ -1,0 +1,9 @@
+question: Hvilke operasjoner definerer utviklingen av en smartkontrakt i RGB?
+answer: Tilstandsovergang, tilblivelse og tilstandsutvidelse
+wrong_answers:
+  - Opprettelse av segl, overholdelse av kontrakt og endelig validering
+  - UTXO-overføring, generering av bevis og Hash-forpliktelse
+  - Overgangsbunter, engangsforseglinger og oppretting av valens
+explanation: |
+  Disse operasjonene oppretter eller endrer kontraktens tilstand, samtidig som de garanterer dens gyldighet via Bitcoin-ankre.
+reviewed: false

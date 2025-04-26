@@ -1,0 +1,9 @@
+question: Apa peran utama Schema dalam kontrak RGB?
+answer: Jelaskan logika bisnis dan struktur data kontrak
+wrong_answers:
+  - Menentukan antarmuka untuk dompet RGB
+  - Mengelola kompilasi skrip pada blockchain
+  - Validasi kriptografi on-chain
+explanation: |
+  Skema mendefinisikan struktur deklaratif, tipe data, dan aturan validasi kontrak, sehingga Anda dapat mengelola logika bisnis di sisi pelanggan.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 如果Alice通过一个初始有100,000 satoshis的支付通道发送40,000 satoshis给Bob，交易后她还剩下多少资金？
+answer: 60,000 satoshis
+wrong_answers:
+  - 30,000 satoshis
+  - 40,000 satoshis
+  - 140,000 satoshis
+explanation:
+  发送40,000 satoshis后，Alice在通道中的余额是60,000 satoshis。

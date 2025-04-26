@@ -1,0 +1,9 @@
+question: Mục tiêu chính của một hệ thống mã hóa có xác thực là gì?
+answer: Đảm bảo tính bảo mật và xác thực của thông tin liên lạc
+wrong_answers:
+  - Tạo khóa một cách an toàn
+  - Thay thế MAC trong các giao dịch mật mã
+  - Tự động giải mã các tin nhắn bị chặn
+explanation: |
+  Một hệ thống mã hóa có xác thực kết hợp mã hóa và một mã xác thực (MAC) để đảm bảo cả tính bảo mật của tin nhắn và tính xác thực của chúng.
+reviewed: false

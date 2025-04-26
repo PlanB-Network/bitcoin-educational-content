@@ -1,0 +1,9 @@
+question: Lafferi sõnul, mis juhtub maksutuludega, kui maksude määrasid liigselt tõstetakse?
+answer: Need vähenevad
+wrong_answers:
+  - Need suurenevad
+  - Need jäävad stabiilseks
+  - Need kõiguvad ettearvamatult
+explanation: |
+  Lafferi kõvera kohaselt toob maksude määrade liigne tõstmine kaasa maksutulude vähenemise, kuna see heidutab töötamist, investeeringuid ja tootmist.
+reviewed: false

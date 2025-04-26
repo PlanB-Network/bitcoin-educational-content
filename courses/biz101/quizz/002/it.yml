@@ -1,0 +1,9 @@
+question: In che modo il passaggio dalle monete alla cartamoneta ha migliorato la rete monetaria?
+answer: Ha reso il denaro più trasportabile e scalabile, facilitando il commercio a distanza e sistemi finanziari complessi.
+wrong_answers:
+  - Non c'è più bisogno di un'attività sottostante o di un trust.
+  - Ha bloccato immediatamente l'inflazione e stabilizzato l'economia.
+  - Ha permesso ai governi di evitare di gestire completamente l'offerta di moneta.
+explanation: |
+  La cartamoneta era più leggera e più facile da produrre e da trasportare rispetto alle monete in metallo prezioso. La portabilità e la standardizzazione semplificarono le transazioni e permisero alle economie di crescere al di là delle regioni locali.
+reviewed: false

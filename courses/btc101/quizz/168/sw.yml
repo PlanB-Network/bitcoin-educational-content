@@ -1,0 +1,8 @@
+question: Je, Bitcoin inawezaje kusaidia katika mpito wa ikolojia?
+answer: Inakuza matumizi ya nishati ya Green.
+wrong_answers:
+  - Inapunguza uzalishaji wa bidhaa.
+  - Inadhibiti matumizi ya rasilimali.
+  - Inapunguza utoaji wa gesi chafu pekee.
+explanation: >-
+reviewed: true

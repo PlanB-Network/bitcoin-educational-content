@@ -1,0 +1,11 @@
+question: Hva er én måte å bekrefte at du er på nettstedet du har til hensikt å besøke?
+answer: Sjekk URL-ene og det lille hengelåssymbolet i adresselinjen.
+wrong_answers:
+  - Sjekk antall annonser på nettstedet.
+  - Sjekk hastigheten på nettstedet.
+  - Sjekk fargeskjemaet på nettstedet.
+explanation: |
+  Å sjekke URL-ene og det lille hengelåssymbolet i adresselinjen er én måte
+  å bekrefte at du er på nettstedet du har til hensikt å besøke. Hengelåssymbolet indikerer at
+  nettstedet bruker HTTPS-protokollen, som krypterer data for sikker utveksling.
+reviewed: false

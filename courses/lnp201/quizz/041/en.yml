@@ -1,12 +1,9 @@
-question: What is the difference between a closing transaction and a commitment transaction
-  in a cooperative closure?
-answer: A closing transaction has no Timelock and revocation key.
+question: Why is it difficult for a transmitting node to estimate the exact liquidity of a channel?
+answer: Because only the two participants know the precise distribution of funds
 wrong_answers:
-  - A closing transaction has a Timelock and revocation key.
-  - A closing transaction is slower than a commitment transaction.
-  - A closing transaction is more expensive than a commitment transaction.
+  - Because the total capacity of the channels is constantly changing
+  - Because the fees of intermediary nodes are not published
+  - Because channels automatically close after each transaction
 explanation: |
-  In a cooperative closure, the two peers agree on a final state of the
-  channel and create a closing transaction. This transaction is different from commitment
-  transactions because it has no Timelock and revocation key.
+  The precise distribution of funds in a channel is only visible to the two participating nodes, preventing other nodes from estimating the available liquidity for routing.
 reviewed: false

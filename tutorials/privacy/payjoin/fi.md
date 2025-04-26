@@ -41,8 +41,8 @@ Tätä tapahtumaa lohkoketjussa nähdessään ulkopuolinen tarkkailija, joka nou
 ![Väärä tulkinta Payjoin-tapahtumasta ulkopuolelta](assets/en/3.webp)
 Tämä tulkinta on ilmeisen väärä, koska, kuten jo tiedät, kaksi syöttö-UTXO:a eivät kuulu samalle henkilölle. Lisäksi maksun todellinen arvo ei ole `19,000 sats`, vaan pikemminkin `4,000 sats`. Ulkopuolisen tarkkailijan analyysi ohjataan siis virheelliseen johtopäätökseen, varmistaen sidosryhmien luottamuksellisuuden säilymisen.![payjoin-tapahtuman kaavio](assets/en/1.webp)
 Jos haluat analysoida todellisen Payjoin-tapahtuman, tässä on yksi, jonka suoritin testnetissä: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
-[**-> Tutustu oppaaseemme, kuinka tehdä Payjoin Samourai Walletilla**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)  
-[**-> Tutustu oppaaseemme, kuinka tehdä Payjoin Sparrow Walletilla**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+[**-> Tutustu oppaaseemme, kuinka tehdä Payjoin Samourai Walletilla**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
+[**-> Tutustu oppaaseemme, kuinka tehdä Payjoin Sparrow Walletilla**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 **Ulkopuoliset resurssit:**
 - https://docs.samourai.io/en/spend-tools#stowaway;

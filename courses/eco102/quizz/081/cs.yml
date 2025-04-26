@@ -1,0 +1,9 @@
+question: Podle Bastiata je odpovědnost principem... ?
+answer: zdokonalitelnosti
+wrong_answers:
+  - dokonalosti
+  - stálosti
+  - dokonalého úspěchu
+explanation: |
+  Bastiat považuje odpovědnost za princip zdokonalitelnosti, což znamená, že je zdrojem zlepšení a osobního pokroku prostřednictvím lekcí získaných zkušenostmi.
+reviewed: false

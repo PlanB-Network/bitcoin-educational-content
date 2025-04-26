@@ -1,9 +1,8 @@
-question: Qual é o papel da entropia na carteira HD do Bitcoin?
-answer: É a base de qualquer carteira HD e essencial para sua segurança.
+question: Qual função é usada para derivar a semente a partir da frase mnemônica?
+answer: PBKDF2 com HMAC-SHA512
 wrong_answers:
-  - Ajuda na verificação das transações.
-  - Aumenta a velocidade das transações.
-  - Reduz o tamanho do blockchain.
+  - SHA256 sozinho
+  - Duplo SHA256
+  - AES-256
 explanation: |
-  A entropia, ou aleatoriedade, é a base de qualquer carteira HD. É essencial para a segurança da carteira, pois garante a imprevisibilidade das chaves privadas geradas.
-reviewed: false
+  A semente é gerada usando a função PBKDF2 com HMAC-SHA512 e 2048 iterações, a partir da frase mnemônica e da senha.

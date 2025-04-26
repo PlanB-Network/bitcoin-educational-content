@@ -1,0 +1,13 @@
+question: Mengapa disarankan untuk tidak menggabungkan beberapa UTXO setelah siklus coinjoin?
+
+answer: Hal ini dapat mengompromikan privasi karena CIOH.
+
+wrong_answers:
+  - Ini menurunkan kecepatan transaksi.
+  - Ini mengungkapkan aktivitas mencurigakan kepada koordinator.
+  - Hal ini dapat mengompromikan privasi karena heuristik pembayaran putaran.
+
+explanation: |
+  Penting untuk menghindari menggabungkan UTXO yang telah dicampur dengan UTXO yang belum dicampur dalam transaksi yang sama, tetapi juga menggabungkan UTXO di antara mereka sendiri, untuk menghindari Common-Input-Ownership-Heuristic (CIOH).
+
+reviewed: false

@@ -1,0 +1,11 @@
+question: Apa pendekatan utama ekonomi Austria dalam memahami ekonomi?
+answer: Ekonomi Austria memahami ekonomi dari perspektif logika manusia dan sosiologi.
+wrong_answers:
+  - Ekonomi Austria memahami ekonomi melalui persamaan matematika.
+  - Ekonomi Austria memahami ekonomi dari perspektif pencetakan dan pengeluaran uang.
+  - Ekonomi Austria memahami ekonomi dari perspektif bank sentral.
+explanation: |
+  Bab ini menjelaskan bahwa ekonomi Austria memahami ekonomi dari
+  perspektif logika manusia dan sosiologi, bukan melalui pendekatan disiplin ini
+  melalui persamaan matematika.
+reviewed: false

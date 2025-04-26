@@ -1,0 +1,9 @@
+question: ¿Cuál es el efecto del gasto público para Bastiat cuando se financia mediante deuda o impuestos?
+answer: Desvía recursos del sector privado
+wrong_answers:
+  - Estimula la demanda sin efectos secundarios
+  - Aumenta el poder adquisitivo de los consumidores
+  - Es esencial para mantener a flote la economía
+explanation: |
+  Bastiat argumenta que el gasto público, financiado a través de impuestos o deuda, desvía fondos del sector privado, limitando así la creación de riqueza en otras partes de la economía.
+reviewed: false

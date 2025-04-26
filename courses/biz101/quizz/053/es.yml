@@ -1,0 +1,9 @@
+question: ¿Qué detalles clave del pago deben documentarse para cada transacción de Bitcoin?
+answer: La fecha, el importe, el valor fiduciario equivalente y las direcciones asociadas
+wrong_answers:
+  - El identificador de la transacción, la tarifa de la red y la dirección del comerciante
+  - La fecha, el tipo de cambio, el tipo de monedero y la ubicación geográfica
+  - El número de bloque Bitcoin, la marca de tiempo y el script utilizado
+explanation: |
+  Documentar estos detalles garantiza la claridad y ayuda a los contables a diferenciar los flujos entrantes y salientes.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Quel est le rôle de l'opérateur AND dans la fonction de compression de SHA256?
-answer: Pour retourner 1 uniquement si les deux opérandes sont égaux à 1
+question: Quel est le rôle principal de PBKDF2 dans Bitcoin ?
+answer: Générer la graine d'un portefeuille HD
 wrong_answers:
-  - Pour traiter les bits un par un selon leur rang
-  - Pour retourner la valeur opposée d'un opérande
-  - Pour décaler les bits vers la droite d'un nombre choisi
+  - Authentifier les transactions
+  - Chiffrer les clés privées
+  - Créer des adresses Bitcoin
 explanation: |
-  Dans la fonction de compression de SHA256, l'opérateur AND est utilisé pour retourner 1 uniquement si les deux opérandes sont égaux à 1. Cela est fait en utilisant une table de vérité.
+  PBKDF2 est utilisé pour dériver une graine à partir d'une phrase mnémonique et d'une passphrase optionnelle.
 reviewed: false

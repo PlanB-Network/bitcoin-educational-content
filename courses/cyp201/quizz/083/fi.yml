@@ -1,10 +1,8 @@
-question:
-  Onko suositeltavaa muistaa ulkoa Bitcoin-lompakon salasana tai muistisääntö?
-answer: Tämä on väärin
+question: Minkä tyyppinen osoite alkaa numerolla `1` ja kuuluu Legacy-standardiin?
+answer: P2PKH
 wrong_answers:
-  - Tämä on totta
-  - Se riippuu salasanan tai muistisäännön pituudesta
-  - Se riippuu salasanan tai muistisäännön monimutkaisuudesta
+  - P2WPKH
+  - P2SH
+  - P2TR
 explanation: |
-  Salasanan tai muistisäännön ulkoa muistamista ei suositella. On tärkeää huolehtia salasanan varmuuskopioinnista, jotta lompakkoon pääsyä ei menetetä.
-reviewed: false
+  P2PKH-osoitteet, jotka on koodattu base58check-muodossa, ovat peräisin Legacy-standardista ja alkavat numerolla `1`.

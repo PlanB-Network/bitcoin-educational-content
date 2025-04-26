@@ -1,0 +1,9 @@
+question: Qual tipo de estrutura algébrica é a base da álgebra abstrata?
+answer: Grupo
+wrong_answers:
+  - Campo
+  - Anel
+  - Matriz
+explanation: |
+  O grupo é a estrutura algébrica fundamental sobre a qual a álgebra abstrata é baseada, definida por um conjunto de elementos e uma operação binária que respeita certas propriedades.
+reviewed: false

@@ -1,10 +1,9 @@
 question: Tác động của lạm phát 20% đến sức mua trong 3 năm là gì?
-answer: Bạn mất 50% sức mua của mình
+answer: Bạn mất 50% sức mua của mình.
 wrong_answers:
-  - Bạn mất 100% sức mua của mình
-  - Bạn mất 60% sức mua của mình
-  - Bạn mất 30% sức mua của mình
+  - Bạn mất 100% sức mua của mình.
+  - Bạn mất 60% sức mua của mình.
+  - Bạn mất 30% sức mua của mình.
 explanation: |
-  Với lạm phát 20%, bạn mất gần một nửa sức mua của mình trong
-  3 năm.
-reviewed: false
+  Với lạm phát 20%, bạn mất gần một nửa sức mua của mình trong 3 năm.
+reviewed: true

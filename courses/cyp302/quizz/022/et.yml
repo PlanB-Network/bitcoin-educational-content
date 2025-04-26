@@ -1,0 +1,9 @@
+question: Nihekrüpteeringus, mis on sõna DOG tulemus võtmega 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  17 tähe võrra nihutamisel tähestikus muutub D täht U-ks, O täht F-ks ja G täht X-ks. Seega on krüpteeritud sõna UFX.
+reviewed: false

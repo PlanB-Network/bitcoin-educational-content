@@ -1,11 +1,12 @@
 question: What did Milton Friedman predict in 1999?
-answer: The development of a reliable e-cash
+answer: The development of a reliable e-cash.
 wrong_answers:
-  - The fall of physical money
-  - The rise of Bitcoin
-  - The end of government control over money
-explanation: >-
-  Milton Friedman, a renowned economist, predicted in 1999 that a reliable
-  e-cash would soon be developed, a method whereby on the Internet you can transfer
-  funds from A to B without A knowing B or B knowing A.
-reviewed: false
+  - The demise of physical money.
+  - The rise of Bitcoin.
+  - The end of government control over money.
+explanation: |
+  Milton Friedman, a renowned economist, predicted in 1999
+  that a reliable e-cash would soon be developed, a method
+  whereby on the Internet you can transfer funds from A to B,
+  without A knowing B or vice-versa.
+reviewed: true

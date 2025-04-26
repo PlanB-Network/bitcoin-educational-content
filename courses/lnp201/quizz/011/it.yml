@@ -1,9 +1,9 @@
-question: Cosa è un indirizzo multi-firma nel contesto della Lightning Network?
-answer: Un indirizzo che richiede due firme per sbloccare i fondi.
+question: Perché Alice crea una transazione di prelievo prima di pubblicare la transazione di deposito?
+answer: Per recuperare i suoi fondi in caso di problemi con Bob
 wrong_answers:
-  - Un indirizzo che può essere utilizzato da più utenti.
-  - Un indirizzo che può contenere diversi tipi di criptovalute.
-  - Un indirizzo che può essere accessibile da più dispositivi.
+  - Per aumentare la capacità del canale con ogni transazione
+  - Per eseguire una transazione Lightning immediatamente dopo l'apertura
+  - Per permettere a Bob di spendere direttamente i fondi
 explanation: |
-  Nella Lightning Network, vengono utilizzati gli indirizzi multi-firma. Questi indirizzi richiedono due firme, o due chiavi private, per sbloccare i fondi. Ciò significa che due parti devono essere d'accordo per sbloccare i soldi.
+  Alice crea una transazione di prelievo per recuperare i suoi fondi se si verifica un problema con Bob, garantendo così la sicurezza del suo deposito.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilke komponenter inngår i en RGB-forsendelse som Bob (mottaker) mottar for en kontrakt?
+answer: Genesis, skjema, grensesnitt og implementering av grensesnitt
+wrong_answers:
+  - Genesis, skjema, overgang og utvidelse
+  - Skjema, grensesnitt, signatur og PSBT
+  - Genesis, grensesnitt, PSBT og historie
+explanation: |
+  Sendingen av en RGB-kontrakt inkluderer Genesis, Schema, Interface og Interface Implementation, som inneholder alle dataene som trengs for å validere kontrakten.
+reviewed: false

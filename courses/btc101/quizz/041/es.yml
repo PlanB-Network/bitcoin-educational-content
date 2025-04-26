@@ -3,7 +3,7 @@ answer: Conduce a la inflación, empobreciendo gradualmente a la población.
 wrong_answers:
   - Conduce a la deflación, enriqueciendo gradualmente a la población.
   - Conduce a una economía estable sin inflación ni deflación.
-  - Conduce a una disminución en la oferta monetaria.
+  - Conduce a una disminución en la oferta de dinero.
 explanation: |
-  La impresión monetaria, o la creación de dinero nuevo por parte de los bancos centrales, conduce a la inflación. Esto se debe a que el aumento en la oferta monetaria reduce el poder adquisitivo del dinero, lo que lleva a precios más altos y una disminución en el valor de los ahorros.
-reviewed: false
+  La impresión monetaria, o la creación de nuevo dinero por parte de los bancos centrales, conduce a la inflación. Esto se debe a que el aumento en la oferta de dinero reduce el poder adquisitivo del dinero, llevando a precios más altos y una disminución en el valor de los ahorros.
+reviewed: true

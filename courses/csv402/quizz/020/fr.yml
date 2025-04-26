@@ -1,0 +1,9 @@
+question: Quel est l’élément clé qui garantit que Bob reçoit un actif lors d’une State Transition dans RGB ?
+answer: Une nouvelle Seal Definition pointant vers un UTXO de Bob
+wrong_answers:
+  - Une transaction témoin sans référence à un UTXO
+  - Une déclaration publique d’Alice
+  - Une double signature partagée entre Alice et Bob
+explanation: |
+  La Seal Definition lie cryptographiquement l’actif à l'UTXO de Bob, ce qui assure qu’il en est le propriétaire.
+reviewed: false

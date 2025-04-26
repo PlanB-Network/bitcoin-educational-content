@@ -1,0 +1,8 @@
+question: Hva er den største risikoen med forpliktelsestransaksjoner på Lightning Network?
+answer: Publisering av en gammel transaksjon for å kreve tilbake flere midler
+wrong_answers:
+  - Å glemme å signere forpliktelsestransaksjonen
+  - Ved et uhell sende midler til en annen kanal
+  - Blokkere transaksjonen med en upassende tidsbegrensning
+explanation: |
+  Den største risikoen er at en part kan forsøke å jukse ved å publisere en gammel forpliktelsestransaksjon, noe som kan tillate dem å kreve tilbake midler de ikke lenger har.

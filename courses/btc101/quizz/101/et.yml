@@ -1,0 +1,9 @@
+question: Mis on standardne meetod privaatvõtme varundamiseks Bitcoin'i rahakotis?
+answer: Oma mnemoonilise fraasi sisestamine ükskõik millisesse rahakotitarkvarasse
+wrong_answers:
+  - Oma mnemoonilise fraasi salvestamine digitaalsesse faili
+  - Oma mnemoonilise fraasi kirjutamine tahvlile
+  - Oma mnemoonilise fraasi jagamine usaldusväärse sõbraga
+explanation: |
+  Standardne meetod privaatvõtme varundamiseks Bitcoin'i rahakotis on oma mnemoonilise fraasi sisestamine ükskõik millisesse rahakotitarkvarasse. See võimaldab sul oma rahakotti taastada.
+reviewed: true

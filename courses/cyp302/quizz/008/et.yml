@@ -1,0 +1,9 @@
+question: Mis haru krüptograafiast kasutab avaliku ja privaatse võtme paari?
+answer: Asümmeetriline krüptograafia
+wrong_answers:
+  - Sümmeetriline krüptograafia
+  - Mono-algoritmilne krüptograafia
+  - Integreeriv krüptograafia
+explanation: |
+  Asümmeetriline krüptograafia põhineb avaliku ja privaatse võtme paari kasutamisel, võimaldades krüpteerimist ilma saladusliku võtme jagamiseta.
+reviewed: false

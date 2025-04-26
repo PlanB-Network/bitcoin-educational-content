@@ -1,0 +1,11 @@
+question: Mengapa token perangkat keras, seperti kunci USB atau kartu pintar, dianggap menawarkan keamanan optimal untuk 2FA?
+answer: Mereka menghasilkan kunci privat unik untuk setiap situs dan memverifikasi URL sebelum mengizinkan koneksi.
+wrong_answers:
+  - Mereka secara fisik lebih sulit dicuri
+  - Mereka lebih mahal, jadi mereka harus lebih baik
+  - Mereka teknologi yang lebih baru, jadi mereka harus lebih baik
+explanation: |
+  Token perangkat keras menawarkan keamanan optimal karena mereka menghasilkan
+  kunci privat unik untuk setiap situs dan memverifikasi URL sebelum mengizinkan koneksi. Ini
+  membuatnya jauh lebih sulit bagi peretas untuk mendapatkan akses tidak sah.
+reviewed: false

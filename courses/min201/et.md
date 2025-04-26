@@ -24,41 +24,31 @@ Kui vajate oma seadistusega abi, on õpilastele loodud Telegrami grupp ja kõik 
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Tere tulemast!
+## Kursuse ülevaade
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tere tulemast MINING 201: kaevandamisele sissejuhatusesse. Ajelex, Jim & Rogzy on põnevil, et saata teid teie esimestel konkreetsetel sammudel selles uues tööstuses. Loodame, et naudite kursust ja liitute kodukaevandamise seiklusega!
+Tere tulemast kursusele MIN201: Sissejuhatus kaevandamisse. Ajelex, Jim & Rogzy on rõõmsad, et saavad teid juhendada teie esimestel sammudel selles valdkonnas. Loodame, et naudite kursust ja asute home mining seiklusele!
 
-### Kursuse Ülevaade
+See koolitus viib teid Bitcoini kaevandamise tööstuse südamesse, pakkudes teoreetilisi ja praktilisi teadmisi. Olenemata sellest, kas olete algaja või juba teema kohta teadlik, aitab see kursus teil mõista kaevandamise majanduslikke ja tehnilisi aspekte ning viia ellu praktiline projekt ASIC-seadme taaskasutamiseks kodukütteks.
 
-Sellel kursusel keskendub esimene osa kaevandamise teooriale koos Ajelexiga. Meil on põhjalikud arutelud erinevatel kaevandamisega seotud teemadel, mis aitavad meil paremini mõista seda tööstust ja sellega seotud majanduslikke ja geopoliitilisi küsimusi.
+**Osa 2: Kõik kaevandamisest**  
+Selles osas pakume teile põhjalikku arusaamist Bitcoini kaevandamisest. Käsitleme kaevandamise tehnilist toimimist, selle rolli Bitcoini protokollis ja majanduslikke ja geopoliitilisi mõjusid. Samuti uurite keerulist suhet Bitcoini hinna ja hashrate vahel ning suveräänsuse ja regulatsiooniga seotud küsimusi selles valdkonnas.
 
-Teises osas asume põnevale praktilisele juhtumile, õppides, kuidas muuta kasutatud S9 kaevur koduseks küttesüsteemiks. Kirjalike juhendite ja videote kaudu selgitatakse kõiki vajalikke samme, tagades teie edu selles uuenduslikus projektis.
+**Osa 3: Home-mining ja soojuse taaskasutamine**  
+Seejärel süveneme praktilisse rakendusse Attakai kontseptsiooni kaudu, mille eesmärk on demokratiseerida home-mining, muutes kasutatud S9 kaevandajad kodukütte seadmeteks. Õpid, kuidas osta ja muuta kasutatud ASIC-seadet, valmistades samal ajal ette vajaliku varustuse riistvara modifikatsioonide jaoks.
 
-See õppereis näitab teile, et kaevandamistööstus on keerulisem, kui paistab, pakkudes tasakaalustatud vaadet sellega seotud ökoloogilisele debatile. Pidev abi on saadaval õpilastele mõeldud Telegrami grupi kaudu ja kõik vajalikud komponendid on kergesti kättesaadavad meie e-kaubanduse platvormil.
+**Osa 4: Attakai - Antminer S9 tarkvara muutmine**  
+Siin õpid, kuidas oma Antminer S9 koduseks kasutamiseks konfigureerida. Juhendame teid läbi Wi-Fi/Ethernet bridge'i seadistamise, seadme lähtestamise, BraiinsOS+ installimise ja selle optimaalseks kaevandamiseks seadistamise.
 
-### Õppekava:
+**Osa 5: Attakai - Ventilaatorite muutmine**  
+Selleks, et optimeerida oma Antminer S9 kasutamist lisakütteseadmena, õpetab see osa teid, kuidas vahetada toiteventilaatorid ja peamised ventilaatorid. Need muudatused on hädavajalikud müra vähendamiseks ja seadme termilise tõhususe parandamiseks.
 
-Teoreetiline osa:
+**Osa 6: Attakai - Seadistamine**  
+Lõpuks õpid, kuidas liituda kaevandamis-pooliga ja optimeerida oma Antminer S9 jõudlust. Avastad, kuidas saavutada optimaalne energiakasutuse tõhusus ja tõhusalt oma esimesi satoshisid kaevandada.
 
-- Kaevandamise selgitus.
-- Kaevandamistööstus.
-- Kaevandamistööstuse nüansid.
-- Kaevandamine Bitcoin protokollis.
-- Bitcoini hind ja hashrate, korrelatsioon? Suveräänsus ja regulatsioon
-- Intervjuu kaevandamistööstuse professionaaliga
+Kas olete valmis avastama Bitcoini kaevandamise maailma ja läbima praktilise Attakai väljakutse? Alustame!
 
-Praktiline osa: Attakai
-
-- Attakai tutvustus.
-- Ostujuhend.
-- Antminer S9 tarkvara muutmine.
-- Ventilaatorite vahetamine müra vähendamiseks.
-- Basseini konfiguratsioon.
-- Antminer S9 konfigureerimine Braiins OS+ abil.
-
-Valmis sukelduma sellesse põnevasse seiklusse? Sukeldugem koos kodukaevandamise huvitavasse maailma!
 
 # Kõik, mida pead teadma kaevandamisest
 
@@ -72,7 +62,7 @@ Valmis sukelduma sellesse põnevasse seiklusse? Sukeldugem koos kodukaevandamise
 
 Kaevandamise kontseptsiooni lihtsustatud selgitamiseks võib kasutada asjakohast analoogiat: mõistatus. Nagu mõistatus, on ka kaevandamine keeruline ülesanne, kuid kord lahendatuna on seda lihtne kontrollida. Bitcoin'i kaevandamise kontekstis püüavad kaevurid kiiresti lahendada digitaalset mõistatust. Esimene mõistatuse lahendaja esitab oma lahenduse kogu võrgule, mis saab seejärel hõlpsasti kontrollida selle kehtivust. Edukas kontrollimine võimaldab kaevuril valideerida uue ploki ja lisada selle Bitcoin'i ajaketti. Nende töö tunnustamiseks, mis hõlmab olulisi kulusid, premeeritakse kaevurit teatud arvu bitcoinidega. See preemia toimib finantsilise stiimulina kaevuritele jätkata tehingute valideerimist ja Bitcoin'i võrgu turvalisuse tagamist.
 
-![image](assets/overview/puzzle.webp)
+![image](assets/en/01.webp)
 
 Algselt Bitcoin'i võrgus oli antud preemia 50 bitcoini iga kümne minuti järel, paralleelselt ploki avastamisega iga kümne minuti järel keskmiselt kaevurite poolt. See preemia läbib poolitamise iga 210,000 ploki järel, umbes iga nelja aasta tagant. See tasustamine toimib võimsa stiimulina, et julgustada kaevureid osalema kaevandamisprotsessis hoolimata selle energiakulust. Ilma preemiata jäetaks energiamahukas kaevandamine hüljatuks, ohustades kogu Bitcoin'i võrgu turvalisust ja stabiilsust.
 Praegune kaevandamispreemia on kahekordne. Ühelt poolt hõlmab see uute bitcoinide loomist, mis on algselt 50 bitcoinist iga kümne minuti järel langenud täna (2023) 6,25 bitcoinini. Teiselt poolt hõlmab see tehingutasusid ehk kaevandamistasusid, tehingutest, mida kaevur otsustab oma plokki lisada. Kui tehakse bitcoin'i tehing, makstakse tehingutasusid. Need tasud toimivad omamoodi oksjonina, kus kasutajad näitavad, kui palju nad on nõus maksma, et nende tehing järgmisesse plokki lisataks. Oma preemia maksimeerimiseks valivad kaevurid, tegutsedes oma huvides, oma plokki lisamiseks kõige kasumlikumad tehingud, arvestades piiratud saadaolevat ruumi. Seega koosneb kaevandamispreemia nii uute bitcoinide genereerimisest kui ka tehingutasudest, tagades pideva stiimuli kaevuritele ja tagades Bitcoin'i võrgu pikaajalise turvalisuse ja stabiilsuse.
@@ -83,7 +73,8 @@ Kaevandamisprotsess hõlmab kehtiva räsi leidmist, mis on Bitcoin'i võrgule va
 
 Alguses domineeris CPU ajastu, kus kaevurid kasutasid Bitcoin'i kaevandamiseks oma isiklikke arvuteid. GPU-de (graafikakaartide) eeliste avastamine selle ülesande jaoks märkis pöördepunkti, suurendades oluliselt hashrate'i ja vähendades energiatarbimist. Edusammud ei peatunud seal, järgnes FPGA-de (field-programmable gate arrays) tutvustamine. FPGA-d teenisid platvormina ASIC-ute (application-specific integrated circuits) arendamiseks.
 
-![image](assets/overview/chip.webp)
+![image](assets/en/02.webp)
+
 ASIC-id on kiibid, võrreldavad CPU kiibiga, kuid need on välja töötatud ainult ühe kindla tüüpi arvutuse sooritamiseks võimalikult efektiivsel viisil. Teisisõnu, CPU suudab sooritada paljusid erinevaid tüüpi arvutusi ilma, et oleks eriti optimeeritud ühe või teise arvutuse jaoks, samas kui ASIC suudab sooritada ainult ühte tüüpi arvutust, kuid väga efektiivselt. Bitcoin'i ASIC-ide puhul on need disainitud SHA256 algoritmi arvutuste sooritamiseks. Tänapäeval kasutavad kaevurid eksklusiivselt just sellistele operatsioonidele pühendatud ASIC-e, mis on optimeeritud maksimaalse arvu kombinatsioonide testimiseks võimalikult väikese energiakuluga ja nii kiiresti kui võimalik. Need arvutid, mis ei suuda sooritada muid ülesandeid peale Bitcoin'i kaevandamise, on käegakatsutav tunnistus Bitcoin'i kaevandamistööstuse pidevast arengust ja üha suurenevast spetsialiseerumisest. See pidev areng peegeldab Bitcoin'i olemuslikku dünaamikat, kus raskusastme kohandamine tagab bloki tootmise iga kümne minuti järel hoolimata kaevandamisvõimsuse eksponentsiaalsest kasvust.
 
 Selle protsessi intensiivsuse illustreerimiseks kujutage ette tüüpilist kaevurit, kes suudab saavutada 14 TeraHashi sekundis, ehk 14 triljonit katset iga sekund leida õige hash. Bitcoin'i võrgu mastaabis jõuame nüüd ligikaudu 300 HexaHashi sekundis, mis rõhutab Bitcoin'i kaevandamises mobiliseeritud kollektiivset jõudu.
@@ -92,7 +83,7 @@ Selle protsessi intensiivsuse illustreerimiseks kujutage ette tüüpilist kaevur
 
 Raskusastme kohandamine on Bitcoin'i võrgu toimimiseks kriitilise tähtsusega mehhanism, tagades, et blokid kaevandatakse keskmiselt iga 10 minuti järel. See kestus on keskmine, kuna kaevandamisprotsess on tegelikult tõenäosusmäng, sarnane täringu veeretamisega lootuses saada number, mis on väiksem kui raskusastmega määratletud number. Iga 2016 bloki järel kohandab võrk kaevandamisraskust, lähtudes eelmiste blokkide kaevandamiseks vajalikust keskmisest ajast. Kui keskmine aeg on suurem kui 10 minutit, vähendatakse raskust, ja vastupidi, kui keskmine aeg on madalam, suurendatakse raskust. See kohandamismehhanism tagab, et uute blokkide kaevandamisaeg jääb aja jooksul konstantseks, sõltumata kaevurite arvust või võrgu üldisest arvutusvõimsusest. Seetõttu nimetatakse Bitcoin'i Blockchaini ka Ajaketiks.
 
-![image](assets/overview/chinaban.webp)
+![image](assets/en/03.webp)
 
 - Näide Hiinast:
   Hiina juhtum illustreerib täiuslikult seda raskusastme kohandamise mehhanismi. Rikkaliku ja odava energiaga Hiina oli peamine globaalne keskus Bitcoin'i kaevandamiseks. 2021. aastal keelas riik äkki Bitcoin'i kaevandamise oma territooriumil, põhjustades globaalse Bitcoin'i võrgu hashrate'is massiivse languse, umbes 50%. See kiire kaevandamisvõimsuse vähenemine oleks võinud Bitcoin'i võrku tõsiselt häirida, suurendades keskmist bloki kaevandamise aega. Siiski hakkas raskusastme kohandamise mehhanism tööle, vähendades kaevandamisraskust, et tagada bloki kaevandamise sageduse jäämine keskmiselt 10 minutiks. See juhtum demonstreerib Bitcoin'i raskusastme kohandamise mehhanismi tõhusust ja vastupidavust, mis tagab võrgu stabiilsuse ja ettearvatavuse isegi äkiliste ja oluliste muutuste korral globaalses kaevandamismaastikus.
@@ -101,7 +92,8 @@ Raskusastme kohandamine on Bitcoin'i võrgu toimimiseks kriitilise tähtsusega m
 
 Rääkides Bitcoin'i kaevandamismasinate arengust, on oluline märkida, et kontekst on rohkem suunatud traditsioonilisele ärimudelile. Kaevurid teenivad oma tulu bloki valideerimisest, ülesandest, millel on suhteliselt madal edukuse tõenäosus. Praegu kasutusel olev mudel, Antminer S9, kuigi vanem mudel, mis lasti välja umbes 2016. aastal, on endiselt ringluses teise ringi turul, kaubeldes umbes 100 kuni 200 euroga. Siiski varieerub kaevandusmasinate hind sõltuvalt Bitcoin'i väärtusest, ja uuem mudel, Antminer S19, on hetkel hinnanguliselt umbes 3000 eurot.
 Pideva tehnoloogilise arenguga kaevandamisvaldkonnas peavad professionaalid end strateegiliselt positsioneerima. Kaevandustööstus on pidevate uuenduste all, nagu näitab hiljutine S19 J versiooni ja oodatava S19 XP versiooni väljalase, mis pakuvad oluliselt suuremaid kaevandamisvõimekusi. Lisaks ei ole täiustused seotud ainult masinate toorjõudlusega. Näiteks uus S19 XP mudel kasutab vedelikjahutussüsteemi, tehniline muudatus, mis võimaldab olulist energiatõhususe paranemist. Kuigi innovatsioon on pidev, on tulevased efektiivsuse kasvud tõenäoliselt väiksemad võrreldes seni täheldatutega, kuna jõutakse teatud tehnoloogilise innovatsiooni lävepakuni.
-![image](assets/overview/chipevolution.webp)
+
+![image](assets/en/04.webp)
 
 Kokkuvõttes jätkab Bitcoin'i kaevandamise tööstus kohanemist ja arengut ning tööstuse osalejad peavad arvestama tulevikus väiksemate efektiivsuse kasvudega ning kohandama oma strateegiaid vastavalt. Tulevased tehnoloogilised edusammud, kuigi endiselt esinevad, on tõenäoliselt väiksemas mahus, peegeldades sektori kasvavat küpsust.
 
@@ -113,7 +105,7 @@ Kokkuvõttes jätkab Bitcoin'i kaevandamise tööstus kohanemist ja arengut ning
 
 Praegu on Bitcoin'i kaevandamine arenenud tõsiseks ja oluliseks tööstusharuks, paljude avalikult tuntud osalejatega ja üha suureneva arvu oluliste kaevuritega. See areng on muutnud kaevandamise väikestele osalejatele peaaegu kättesaamatuks uute kaevandusmasinate kõrge soetamiskulu tõttu. See tõstatab küsimuse hashrate'i jaotuse kohta erinevate turuosaliste vahel. Olukord on keeruline, kuna on oluline uurida nii hashrate'i jaotust erinevate ettevõtete kui ka erinevate kaevandusbasseinide vahel.
 
-![image](assets/overview/pool.webp)
+![image](assets/en/05.webp)
 
 Kaevandusbassein on kaevurite rühm, kes ühendavad oma arvutusressursid, et suurendada oma kaevandamise võimalusi. See koostöö on vajalik, kuna üksik väike kaevandusmasin konkureerib tööstuse hiiglastega, vähendades oma eduvõimalusi tühisele tasemele. Kaevandamine toimib loteriipõhimõttel ja üksiku väikese kaevuri võimalused võita plokk (ja seega Bitcoin'i auhind) iga kümne minuti järel on äärmiselt madalad. Koondades kokku, saavad kaevurid ühendada oma arvutusvõimsuse, leida plokke sagedamini ja seejärel jaotada auhinnad proportsionaalselt iga kaevuri panusega basseini.
 
@@ -144,7 +136,7 @@ Kaevandamise tsentraliseerimist käsitletakse kui suurt väljakutset. Suured teg
 
 Regulatsiooni Risk Rõhutatakse, et kui riik nagu Ameerika Ühendriigid otsustaks reguleerida või keelata teatud Bitcoin'i tehingud, võiks see avaldada olulist mõju võrgule, eriti kui suur osa hashrate'ist on tsentraliseeritud sellesse riiki.
 
-![image](assets/overview/foundry.webp)
+![image](assets/en/06.webp)
 
 Selle tsentraliseerimise vastu võitlemiseks arutatakse erinevaid strateegiaid:
 
@@ -162,7 +154,15 @@ Selle tsentraliseerimise vastu võitlemiseks arutatakse erinevaid strateegiaid:
 
 ### Attakai põhimõte
 
-Selle detsentraliseerimise piir?
+Praeguses kontekstis võib Bitcoinide kaevandamine S9 mudeliga tunduda keeruline, kuid sügavam analüüs avab ukse innovaatilistele alternatiividele. Attakai põhimõte põhineb mõttel kasutada kaevandamisüksusi erinevates hoonetes, näiteks koolides või haiglates. Peamine idee on paigutada mõned kaevandamismasinad erinevatesse kohtadesse, võimaldades sel viisil kasutada masinatest eralduvat soojust hoonete kütmiseks. Valides tõhusamad mudelid, näiteks S19, oleks võimalik kaevandamistegevust hajutada, parandades üldist tulemuslikkust ja samal ajal kasulikult panustades ühiskonda. Selle algatuse eesmärk on konkureerida suurte tsentraliseeritud kaevandamisrajatistega, kasutades kaevandamismasinate poolt toodetud soojust produktiivselt ja tõhusalt.
+
+Attakai algatus sündis kahest sõbrast, kes soovisid aktiivselt osaleda Bitcoin'i võrgus ja katsetasid kodukaevandamist. Nad seisid silmitsi suurte takistustega, näiteks kaevandamisvarustuse kõrge müratasemega, mis oli loodud tööstuslikuks, mitte koduseks kasutamiseks. Probleemi lahendamiseks viidi kaevandamismasinatesse sisse riistvaralisi muudatusi. Algne varustus asendati tõhusamate ja vaiksemate ventilaatoritega, mis muutis kodukaevandamise kättesaadavamaks ja vähem häirivaks. Lisaks lisati Wi-Fi adapter, mis kõrvaldas vajaduse Etherneti kaabliga ühenduse järele, lihtsustades kodukaevandamise protsessi veelgi. Talvel kasutati neid muudetud kaevandusmasinaid kütteallikana, muutes häiriva asjaolu kasulikuks.
+
+Pärast oma projekti tutvustamist Bitcoin'i kogukonnale ja huvi tekkimist otsustasid Attakai loojad avaldada üksikasjalikud juhised Découvre Bitcoin platvormil, et igaüks saaks kodukaevandamise kogemust korrata. Nüüd plaanivad nad seda kontseptsiooni laiendada kodust kaugemale. Eesmärk on näidata, kuidas muudetud kaevandamismasinat saab muuta vaikseks lisakütteallikaks, mida saab kasutada talvel, pakkudes sujuvat üleminekut teise koolitusosa juurde, mis keskendub nende muudatuste praktilisele rakendamisele koos selgitavate videodega. Küsimus on aga selles, kas seda algatust saab laiendada suuremasse mõõtkavasse, pakkudes realistlikku ja jätkusuutlikku alternatiivi praegustele tsentraliseeritud kaevandamisstruktuuridele.
+
+![image](assets/en/07.webp)
+
+### Selle detsentraliseerimise piir?
 
 Kuigi kaevandamise detsentraliseerimise idee, kasutades ära tekitatud soojust tootlikult, tundub paljutõotav, on sellel teatud piirangud ja küsimused püsivad. Energiat intensiivselt kasutavad asutused nagu saunad ja basseinid võiksid sellest kontseptsioonist kasu saada, kasutades kaevurite poolt tekitatud soojust oma rajatiste vee soojendamiseks. See praktika on juba mõningate Bitcoini kogukonna liikmete poolt kasutusele võetud, kes uurivad erinevaid meetodeid kaevandamisseadmete poolt tekitatud soojuse tõhusaks kasutamiseks. Näiteks teoreetiliselt võiks kolme või nelja S19 kaevuri abil, igaüks tarbides 3000 vatti ja tootes samaväärse koguse soojust, soojendada banketisaali.
 
@@ -184,7 +184,7 @@ Arvestades küsimust, mida peaks sisaldama Bitcoin plokk, on oluline kaaluda Bit
 
 Lightning Networki eeldatava kasvu ja sellest tuleneva kanali avamiste ja sulgemiste suurenemisega muutub ruum Bitcoin plokkides üha väärtuslikumaks. Bitcoini kogukond juba kaldub väärtustama selle ruumi säilitamist, tunnistades selle sisemist piirangut. See teadlikkus on viinud aruteludeni ploki ruumi legitiimse kasutamise üle, muredega "spämmi" pärast plokiahelas, mida peetakse mitteolulisteks tehinguteks.
 
-![image](assets/overview/block.webp)
+![image](assets/en/08.webp)
 
 Spekulatsioonid ümbritsevad ploki ruumi tulevast kasutust, kuid üldiselt aktsepteeritakse, et see on napp ressurss, mida tuleks targalt kasutada. Kuigi on soov seda täita, on oluline seda säilitada, et tagada Bitcoini võrgu pikaajaline elujõulisus, eeldades tulevast nõudluse suurenemist ploki ruumi järele. Nagu igas vabaturus, reguleerivad pakkumist ja nõudlust ploki ruumi kasutamist. Piiratud pakkumisega peavad sidusrühmad tegema teadlikke valikuid selle väärtusliku ruumi kasutamise kohta, et tagada Bitcoini võrgu pikaajaline efektiivsus ja turvalisus.
 
@@ -192,14 +192,14 @@ Spekulatsioonid ümbritsevad ploki ruumi tulevast kasutust, kuid üldiselt aktse
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Kes hoiab võimu? Bitcoin, energia ja tootjad](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Kaevurite roll Bitcoin'i võrgus on olnud intensiivse arutelu objektiks plokkide suuruse sõdade ajal. Kuigi nad on võrgu turvalisuse ja funktsionaalsuse jaoks hädavajalikud, ei oma kaevurid Bitcoin'i ökosüsteemis tingimata lõplikku võimu. Tasakaal kaevurite, sõlmede ja lõppkasutajate vahel tagab võrgu terviklikkuse ja jaotuse.
 
 ### Plokkide Suuruse Sõjad
 
 Plokkide suuruse sõdade ajal olid paljud kaevurid teatud arengute vastu võrgus, mis tõi esile pingeid ökosüsteemi erinevate osalejate vahel. Küsimus on selles, kuidas tasakaalustada võimu kaevurite, sõlmede ja kasutajate vahel, et tagada Bitcoin'i pikaajaline turvalisus.
 
-![image](assets/overview/blocksize-wars--BTC-vs-BCH-.webp)
+![image](assets/en/09.webp)
 
 Bitcoin'i turvalisuse dilemma põhineb delikaatsel tasakaalul. Kuigi kaevurid mängivad olulist rolli plokkide valideerimisel ja loomisel, säilitavad sõlmed terviklikkuse, kontrollides ja valideerides tehinguid ja plokke. Vale või petlik plokk lükatakse sõlmede poolt tagasi, tsenseerides seeläbi kaevurit ja säilitades võrgu turvalisuse. Võimu omavad ka Bitcoin'i võrgu sõlmed ja kasutajad. Sõlmedel on kontrolli ja valideerimise võim, samas kui kasutajatel on võim valida, millist plokiahelat kasutada. See võimu jaotus tagab Bitcoin'i võrgu jaotuse ja terviklikkuse.
 
@@ -210,13 +210,16 @@ Lõppkokkuvõttes jagatakse vastutus kõigi Bitcoin'i võrgu osalejate vahel. Ka
 ### Kaevurite Võim
 
 Satoshi Nakamoto elegantne mänguteooria lõi olukorra, kus iga Bitcoin'i võrgu osaleja on motiveeritud õigesti käituma, et kaitsta nii oma huve kui ka teiste osalejate huve. See loob tasakaalu, kus halba käitumist saab karistada, suurendades seeläbi kogu süsteemi turvalisust ja stabiilsust. Hoolimata sellest tasakaalust, jäävad riigid potentsiaalseks ohuks. Nagu Surfing Bitcoin 2022 esitlusel märgitud, võivad riigid püüda rünnata kaevandustööstust, paljastades Bitcoin'i võrgu keskendumise ja rünnaku riskidele. Hüpoteetilised stsenaariumid, nagu sõjaline rünnak kaevandusseadmete tootmisrajatistele, rõhutavad geograafilise ja tööstusliku mitmekesistamise tähtsust Bitcoin'i võrgu vastupidavuse jaoks.
-![image](assets/overview/miner.webp)
+
+![image](assets/en/10.webp)
 
 Kaevandusseadmete tootmise keskendumine Hiinasse kujutab endast teist riski. Keeldumine kaevandusmasinate eksportimisest või hashrate'i kogumine potentsiaalseks 51% rünnakuks Hiina poolt rõhutab vajadust mitmekesistada kaevandusseadmete tootmist. Nendele riskidele reageerides uurib Bitcoin'i kogukond aktiivselt lahendusi. Ettevõtted nagu Intel kaaluvad kaevandusseadmete tootmist Ameerika Ühendriikides, aidates tootmise jaotust suurendada. Teised algatused, nagu Block'i avatud lähtekoodiga Mining Development Kit (MDK), eesmärgivad vähendada kaevandusseadmete disaini ja tootmise monopoli, võimaldades hashrate'i laiemat jaotust. Nende arutelude keskmes on Bitcoin'i põhimissioon: olla tsensuurikindel väärtusevahetusvõrk. Bitcoin'i kogukond püüab pidevalt tugevdada jaotust, tsensuurikindlust ja võrgu vastupidavust, lükates tagasi ettepanekud, nagu üleminek proof of stake'ile, mis ei ühti nende põhimõtetega.
 
 ### Töötõend vs Panusetõend Füüsiline Seos
 
 Proof of Work (PoW) on oluline, kuna see esindab füüsilist sidet reaalse maailma ja Bitcoini vahel. Kuigi bitcoinid on käegakatsutamatud, nõuab nende tootmine käegakatsutavat energiat, luues otsese ühenduse füüsilise ja reaalse maailmaga. See ühendus tagab, et bitcoinide ja plokkide tootmine ning valideerimine omavad reaalset energiakulu, ankurdamaks Bitcoini võrgustikku füüsilisse reaalsusesse ja takistamaks selle täielikku domineerimist võimsate entiteetide poolt. PoW toimib kaitserajatisena tsentraliseerimise vastu, tagades, et võrgustikus osalemine ja tehingute valideerimine nõuavad investeeringut käegakatsutavatesse ressurssidesse. See hoiab ära võrgustiku monopoliseerimise entiteetide poolt, kes muidu võiksid kontrolli haarata ilma olulise sisenemisbarjäärita, tagades seeläbi võimu ja mõju õiglasema jaotuse Bitcoini võrgustikus.
+
+![image](assets/en/11.webp)
 
 ### Proof of Stake'i piirangud
 
@@ -230,13 +233,13 @@ Kokkuvõtteks, kaevurid tugevdavad Bitcoini võrgustikku tsensuuri vastu, kasuta
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Kuidas saada puutumata ja puhast bitcoini?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, hind ja kasumlikkus
 
 Praegune hashrate, hoolimata Bitcoini hinnast 30 000 dollari juures võrreldes selle varasema tipuga 69 000 dollarit, rõhutab käegakatsutavat sidet kaevandamise ja reaalse maailma vahel. Pullituru perioodid viivad suure nõudluseni Bitcoini kaevandamise järele ja suurendavad masinate tellimusi tootjatelt nagu Avalon ja Bitmain. Siiski tootmine ja kohaletoimetamine ei ole kohene, luues nõudluse suurenemise ja hilisema kättesaadavuse vahelise ebakõla. See võib viia sellele, et pulliturul tellitud masinad toimetatakse kohale karuturul, rõhutades märkimisväärset asümmeetriat madala hinna ja kõrge hashrate vahel.
 See olukord illustreerib ka Bitcoini vastupidavust, mida sageli hinnatakse selle hinna põhjal. Siiski, Bitcoini tervise sügavam analüüs nõuab selle hash rate'i uurimist, mis mõõdab sekundis tehtavate arvutuste hulka Bitcoin võrgus. Kuigi Bitcoini hind kõigub, on selle maksumus, mis on seotud kaevandamismasinate töötamiseks vajaliku elektrienergiaga, oluline turudünaamika mõistmiseks. Keskendudes maksumusele, mitte hinnale, saadakse Bitcoini stabiilsusest ja pikaajalisest elujõulisusest järjepidevam vaade. Üldiselt on Bitcoini maksumus proportsionaalne selle hinnaga, pakkudes paremat arusaama hinnakõikumistest ja tulevikuväljavaadetest.
-![image](assets/overview/pricevshashrate.webp)
+![image](assets/en/12.webp)
 
 ### Hash Rate ja Tasu
 
@@ -269,7 +272,7 @@ Siiski pakub kaevandamine unikaalseid võimalusi Bitcoini ökosüsteemis osalemi
 
 Hoolimata neist võimalustest, esitab kaevandamine olulisi väljakutseid. Krüptovaluutade maailmas tuntud vanasõna "Mitte sinu võtmed, mitte sinu bitcoiinid" leiab sarnase kõla kaevandamise maailmas: "Mitte sinu hashrate, mitte sinu tasu." Pettumuste ja ühenduseta masinate lood on tavalised, paljud osalejad lubavad erakordseid tulemusi, kuid ei suuda neid pakkuda. Elektrivarustuse probleemid ja masinate rikked võivad jätta investorid jõuetuks, kallite seadmetega, mida nad ei kontrolli. Selles kontekstis on ettevaatlikkus ja sügav mõistmine kaevandussektorist enne sellesse sukeldumist hädavajalik. Kuigi kasumivõimalused on olemas, on riskid märkimisväärsed ja informeeritud ning läbimõeldud lähenemine on selle keeruka ja sageli ettearvamatu valdkonna navigeerimiseks hädavajalik. Seetõttu on oluline teha põhjalikku uurimistööd ja hoolikalt kaaluda plusse ja miinuseid enne Bitcoini kaevandamisega tegelemist.
 
-![image](assets/overview/self.webp)
+![image](assets/en/13.webp)
 
 ### Neitsi Bitcoiinid
 
@@ -281,7 +284,7 @@ Sel kontekstis tundub tark valida autonoomne ja haritud lähenemine kaevandamise
 ### Kas kaevandamine on Euroopas keelatud?
 
 Potentsiaalse kaevandamiskeelu küsimusega Euroopas muutuvad regulatsioonidega seotud arutelud üha asjakohasemaks. Muutuv regulatiivne maastik võib tõepoolest oluliselt mõjutada Bitcoini kaevandamise tööstust. Kaevandamise keeld Euroopas on ettekujutatav stsenaarium, eriti arvestades pretsedente Hiinas. Kuigi kaevandamistegevus jätkub Hiinas hoolimata keelust, võib Euroopa järgida sarnast teed. Hashrate'i laiem jaotus erinevate piirkondade vahel võiks aidata tugevdada kaevanduskogukonda Euroopas, võimaldades neil tõhusalt vastu seista kaevandamise, selle keskkonnamõju ja elektrivõrgule avaldatava jalajälje kohta levivatele väärarusaamadele ja eksiarvamustele.
-![image](assets/overview/regulation.webp)
+![image](assets/en/14.webp)
 
 Kampaaniatega nagu Greenpeace'i oma ja mõnede uuringute sageli eksitavate andmetega silmitsi seistes jääb parimaks relvaks tõene teave. On hädavajalik teavitada üldsust ja otsustajaid kaevandamise tegelikkusest, selle keerukusest ja nüanssidest, mitte lasta neil tugineda stereotüüpidele ja ebatäpsele teabele. Mida rohkem inimesi on teadlikud ja teavad, mis kaevandamine tegelikult on, seda paremini saab tööstus end kaitsta potentsiaalselt piiravate regulatsioonide eest.
 
@@ -293,7 +296,7 @@ Järelduseks, hoolimata regulatiivsest riskist ja kaevandamiskeelu võimalusest 
 
 ### Tööstusliku kaevandamise telgitagused - Sebastien Gouspillou
 
-![Tööstuskaevandamise telgitagused - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Kodukaevandamine ja soojuse taaskasutus
 
@@ -317,10 +320,11 @@ On oluline mõista energia ja soojuse tootmise vahelist suhet elektrisüsteemis.
 Arvuti või laiemalt elektrooniline plaat ei tarbi arvutuste tegemiseks energiat, vaid vajab oma komponentide töötamiseks energiat. Energiatarbimine on tingitud komponentide elektrilisest takistusest, mis tekitab kadusid ja genereerib soojust, tuntud kui Joule'i efekt.
 
 Mõned ettevõtted on tulnud ideele ühendada arvutusvõimsuse vajadused küttevajadustega radiaator/serverite kaudu. Idee on jaotada ettevõtte serverid väikesteks üksusteks, mida saaks paigutada kodudesse või kontoritesse. Siiski seisab see idee silmitsi mitme probleemiga. Serverite vajadus ei ole seotud küttevajadusega ja ettevõtted ei saa oma serverite arvutusvõimekust paindlikult kasutada. Lisaks on piiranguid üksikisikute võimalikule ribalaiusele. Kõik need piirangud takistavad ettevõttel neid kalleid paigaldusi kasumlikuks muutmast või pakkumast stabiilset online serveri teenust ilma andmekeskusteta, mis võiksid üle võtta, kui kütet ei vajata.
-"Teie arvuti tekitatud soojus ei ole raisatud, kui peate oma kodu küttma. Kui kasutate elukohas elektrikütet, siis teie arvuti tekitatud soojus ei ole raisatud. Selle soojuse tekitamine teie arvutiga maksab sama palju. Kui teil on elektriküttest odavam küttesüsteem, siis raiskamine seisneb ainult kulude erinevuses. Kui on suvi ja kasutate konditsioneerimist, siis on see topelt raiskamine. Bitcoinide kaevandamine peaks toimuma seal, kus see on odavam. Võib-olla on see kohtades, kus kliima on külm ja kus kütmine on elektriline, kus kaevandamine muutub tasuta."
 
+> Teie arvuti tekitatud soojus ei ole raisatud, kui peate oma kodu küttma. Kui kasutate elukohas elektrikütet, siis teie arvuti tekitatud soojus ei ole raisatud. Selle soojuse tekitamine teie arvutiga maksab sama palju. Kui teil on elektriküttest odavam küttesüsteem, siis raiskamine seisneb ainult kulude erinevuses. Kui on suvi ja kasutate konditsioneerimist, siis on see topelt raiskamine. Bitcoinide kaevandamine peaks toimuma seal, kus see on odavam. Võib-olla on see kohtades, kus kliima on külm ja kus kütmine on elektriline, kus kaevandamine muutub tasuta.
 > Satoshi Nakamoto - 8. august 2010
-> Bitcoin ja selle töötõend (proof of work) paistavad silma, kuna need kohandavad automaatselt kaevandamise raskust vastavalt kogu võrgu poolt teostatud arvutustöö hulgale. Seda arvutustöö hulka nimetatakse hashrate'iks ja see väljendatakse hashides sekundis. Täna hinnatakse seda 380 eksahashiks sekundis, mis on 380 miljardit miljardit hashi sekundis. See hashrate esindab tööd ja seega ka kulutatud energiahulka. Mida kõrgem on hashrate, seda suurem on raskusaste ja vastupidi. Seega võib Bitcoin'i kaevurit aktiveerida või deaktiveerida igal ajal ilma, et see mõjutaks võrku, erinevalt radiaatoritest/serveritest, mis peavad jääma stabiilseks, et pakkuda oma teenust. Kaevur saab oma osaluse eest preemiat, olenemata selle suurusest.
+
+Bitcoin ja selle töötõend (proof of work) paistavad silma, kuna need kohandavad automaatselt kaevandamise raskust vastavalt kogu võrgu poolt teostatud arvutustöö hulgale. Seda arvutustöö hulka nimetatakse hashrate'iks ja see väljendatakse hashides sekundis. Täna hinnatakse seda 380 eksahashiks sekundis, mis on 380 miljardit miljardit hashi sekundis. See hashrate esindab tööd ja seega ka kulutatud energiahulka. Mida kõrgem on hashrate, seda suurem on raskusaste ja vastupidi. Seega võib Bitcoin'i kaevurit aktiveerida või deaktiveerida igal ajal ilma, et see mõjutaks võrku, erinevalt radiaatoritest/serveritest, mis peavad jääma stabiilseks, et pakkuda oma teenust. Kaevur saab oma osaluse eest preemiat, olenemata selle suurusest.
 
 Kokkuvõttes toodavad nii elektriradiaator kui ka Bitcoin'i kaevur 1 kW soojust 1 kW elektri tarbimise kohta. Siiski saab kaevur lisaks preemiaks bitcoine. Olenemata elektri hinnast, bitcoini hinnast või konkurentsist Bitcoin'i kaevandamise tegevuses võrgus, on majanduslikult kasulikum kütta kaevuriga kui elektriradiaatoriga.
 
@@ -330,9 +334,9 @@ Oluline on mõista, kuidas kaevandamine aitab kaasa Bitcoin'i detsentraliseerimi
 Mitmed olemasolevad tehnoloogiad on nutikalt ühendatud, et ellu viia Nakamoto konsensus. See konsensus majanduslikult premeerib ausaid osalejaid nende panuse eest Bitcoin'i võrgu toimimisse, samal ajal ebaausaid osalejaid heidutades. See on üks võtmetegureid, mis võimaldab võrgul jätkusuutlikult eksisteerida.
 Ausad tegutsejad, need, kes kaevandavad reeglite järgi, konkureerivad omavahel, et saada võimalikult suurt osa uute plokkide tootmise preemiast. See majanduslik stiimul viib loomulikult teatud vormi tsentraliseerumiseni, kuna ettevõtted otsustavad spetsialiseeruda sellele kasumlikule tegevusele, vähendades oma kulusid läbi mastaabisäästu. Need tööstuslikud tegutsejad omavad soodsat positsiooni masinate ostuks ja hoolduseks, samuti hulgihindade läbirääkimiseks elektri eest.
 
-> "Alguses jooksutaks enamik kasutajaid võrgusõlmi, kuid kui võrk kasvab teatud punktist kaugemale, jääks see üha enam spetsialistidele, kellel on spetsialiseeritud riistvaraga serverifarmid. Serverifarmil oleks vaja võrgus olla ainult üks sõlm ja ülejäänud LAN ühenduks selle sõlmega."
+> Alguses jooksutaks enamik kasutajaid võrgusõlmi, kuid kui võrk kasvab teatud punktist kaugemale, jääks see üha enam spetsialistidele, kellel on spetsialiseeritud riistvaraga serverifarmid. Serverifarmil oleks vaja võrgus olla ainult üks sõlm ja ülejäänud LAN ühenduks selle sõlmega.
 >
-> - Satoshi Nakamoto - 2. november 2008
+> Satoshi Nakamoto - 2. november 2008
 
 Teatud üksused hoiavad suurt protsenti kogu hashrate'st suurtes kaevandusfarmides. Me võime täheldada hiljutist külmalainet Ameerika Ühendriikides, kus märkimisväärne osa hashrate'st võeti maha, et suunata energiat majapidamistele, kellel oli erakordne vajadus elektri järele. Mitme päeva jooksul olid kaevurid majanduslikult motiveeritud oma farme sulgema, ja seda erakordset ilmaolukorda võib näha Bitcoin'i hashrate kõveras.
 
@@ -357,39 +361,39 @@ Antminer S9 on saadaval mitmes variandis (i, j), mis teevad esimese põlvkonna h
 
 ASIC-ide hind varieerub paljude tegurite tõttu, nagu bitcoini hind, võrgu raskusaste, masina efektiivsus ja elektri hind. Seetõttu on raske anda täpset hinnangut kasutatud masina ostmiseks. Veebruaris 2023 on Prantsusmaal oodatav hind üldiselt vahemikus 100 kuni 200 eurot, kuid need hinnad võivad kiiresti muutuda.
 
-![image](assets/guide-achat/1.webp)
+![image](assets/en/15.webp)
 
 Antminer S9 koosneb järgmistest osadest:
 
 - 3 hashboard'i, mis sisaldavad kiipe, mis toodavad hashrate'i.
 
-![image](assets/guide-achat/2.webp)
+![image](assets/en/16.webp)
 
 - Juhtpaneel, mis sisaldab SD-kaardi pesa, Etherneti porti ja ühendusi hashboard'ide ja ventilaatorite jaoks. See on teie ASIC-i aju.
 
-![image](assets/guide-achat/3.webp)
+![image](assets/en/17.webp)
 
 - 3 andmekaablit, mis ühendavad hashboard'id juhtpaneeliga.
 
-![image](assets/guide-achat/4.webp)
+![image](assets/en/18.webp)
 
 - Toiteallikas, mis töötab 220V peal ja mida saab ühendada nagu tavalist kodumasina.
 
-![image](assets/guide-achat/5.webp)
+![image](assets/en/19.webp)
 
 - 2 120mm ventilaatorit.
 
-![image](assets/guide-achat/6.webp)
+![image](assets/en/20.webp)
 
 - Isane C13 kaabel.
 
-![image](assets/guide-achat/7.webp)
+![image](assets/en/21.webp)
 
 Kasutatud masina ostes on oluline kontrollida, et kõik osad on kaasas ja töökorras. Vahetuse ajal peaksite paluma müüjal masina sisse lülitada, et kontrollida selle nõuetekohast toimimist. On oluline kontrollida, et seade lülitub korrektselt sisse, ja seejärel kontrollida internetiühendust, ühendades Etherneti kaabli ja pääsedes Bitmaini sisselogimisliidesesse veebibrauseri kaudu samas kohalikus võrgus. Seda IP-aadressi saate leida, ühendudes oma internetiruuteri liidesega ja otsides ühendatud seadmeid. Sellel aadressil peaks olema järgmine formaat: 192.168.x.x
 
-![image](assets/guide-achat/8.webp)
+![image](assets/en/22.webp)
 Samuti kontrollige, kas vaikimisi mandaadid toimivad (kasutajaname: root, parool: root). Kui vaikimisi mandaadid ei tööta, peate masina lähtestama.
-![image](assets/guide-achat/9.webp)
+![image](assets/en/23.webp)
 
 Ühenduse loomisel peaksite nägema iga hashboard'i olekut armatuurlaual. Kui kaevur on ühendatud basseiniga, peaksite nägema kõiki hashboard'e töötamas. On oluline märkida, et kaevurid teevad palju müra, mis on normaalne. Samuti veenduge, et ventilaatorid töötaksid korralikult.
 
@@ -412,24 +416,24 @@ Kui olete osav käsitööline ja soovite muuta kaevuri küttekehaks, on see õpe
 
 Antminer S9 originaalventilaatorid on liiga lärmakad, et kasutada teie Antminerit küttekehana. Lahendus on asendada need vaiksemate ventilaatoritega. Meie meeskond on testinud mitmeid Noctua brändi mudeleid ja on valinud parimaks kompromissiks Noctua NF-A14 iPPC-2000 PWM. Veenduge, et valite ventilaatorite 12V versiooni. See 140mm ventilaator suudab toota kuni 1200W kütet, säilitades teoreetilise mürataseme 31 dB. Nende 140mm ventilaatorite paigaldamiseks peate kasutama 140mm kuni 120mm adapterit, mida leiate DécouvreBitcoin poest. Lisame ka 140mm kaitsevõred.
 
-![image](assets/piece/1.webp)
-![image](assets/piece/2.webp)
-![image](assets/piece/3.webp)
+![image](assets/en/24.webp)
+![image](assets/en/25.webp)
+![image](assets/en/26.webp)
 Toiteallika ventilaator on samuti üsna lärmakas ja vajab väljavahetamist. Soovitame Noctua NF-A6x25 PWM-i. Pange tähele, et Noctua ventilaatorite ühendused ei ühti originaalsetega, seega on vajalik ühendusadapter. Piisab kahest. Veenduge taas, et valite ventilaatori 12V versiooni.
-![image](assets/piece/4.webp)
-![image](assets/piece/5.webp)
+![image](assets/en/27.webp)
+![image](assets/en/28.webp)
 
 2. Lisa WIFI/Ethernet sild
 
 Etherneti kaabli asemel võite oma Antmineriga ühenduda WIFI kaudu, lisades WIFI/Ethernet silla. Oleme valinud vonets vap11g-300, kuna see võimaldab hõlpsasti püüda WIFI signaali teie internetiboksist ja edastada selle teie Antminerile Etherneti kaudu, ilma alamvõrku loomata. Kui teil on elektrialaseid oskusi, võite selle otse Antmineri toiteallikaga ühendada, ilma et peaksite lisama USB laadija. Selleks on vajalik emane 5.5mmx2.1mm pistik.
 
-![image](assets/piece/6.webp)
-![image](assets/piece/7.webp)
+![image](assets/en/29.webp)
+![image](assets/en/30.webp)
 
 3. Valikuline: lisa nutikas pistik
    Kui soovite oma Antmineri sisse/välja lülitada oma nutitelefonist ja jälgida selle energiatarbimist, võite lisada nutika pistiku. Testisime ANTELA pistikut 16A versioonis, mis on ühilduv smartlife äpiga. See nutikas pistik võimaldab vaadata igapäevast ja kuist energiatarbimist ning ühendub otse teie internetiruuteriga WiFi kaudu.
 
-![image](assets/piece/8.webp)
+![image](assets/en/31.webp)
 
 Seadmete ja linkide loetelu
 
@@ -459,21 +463,21 @@ Lülitage sild sisse, ühendades selle USB kaudu.
 
 Ühendage oma arvuti VONETS\_**\*\*** WIFI võrguga parooliga 12345678.
 
-![image](assets/software/vonet1.webp)
+![image](assets/en/32.webp)
 
 Logige sisse kasutajanimega "admin" ja parooliga "admin".
 
-![image](assets/software/vonet2.webp)
+![image](assets/en/33.webp)
 
 Valige Wizard.
 
-![image](assets/software/vonet3.webp)
+![image](assets/en/34.webp)
 
 Valige WIFI võrk, millega soovite oma kaevuri ühendada, seejärel klõpsake Next.
 
 MÄRKUS: Voneti sild töötab ainult 2.4GHz sagedusel. Tänapäeval pakuvad ruuterid tavaliselt kahte WIFI võrku, ühte 2.4GHz ja teist 5GHz sagedusel.
 
-![image](assets/software/vonet4.webp)
+![image](assets/en/35.webp)
 
 Sisestage oma WIFI võrgu parool väljale "Source WIFI hotspot password". Kui te ei soovi oma Voneti silda kasutada WIFI võrgu laiendamiseks, märkige ruut "Disable Hotspot". Vastasel juhul jätke see märkimata.
 
@@ -492,7 +496,7 @@ Enne BraiinOS+ paigaldamist võib olla vajalik teie S9 lähtestamine tehase sead
 See meetod on rakendatav 2 kuni 10 minutit pärast kaevuri käivitamist.
 2 minutit pärast kaevuri sisselülitamist, palun vajutage "Reset" nuppu 5 sekundiks, seejärel vabastage see. Kaevur taastatakse tehase seadistustele 4 minuti jooksul ja taaskäivitub automaatselt (pole vaja välja lülitada).
 
-![image](assets/software/1.webp)
+![image](assets/en/36.webp)
 
 ## BraiinsOS+ paigaldamine Antminer S9-le
 
@@ -508,11 +512,11 @@ Siin näeme, kuidas lihtsalt paigaldada Braiins OS+ otse teie Antminer'i mälu k
 2. Laadige alla BOS tööriistakast Windowsi / Linuxi jaoks.
 3. Pakkige alla laaditud fail lahti ja avage bos-toolbox.bat fail. Valige keel ja mõne hetke pärast näete seda akent:
 
-![image](assets/software/5.webp)
+![image](assets/en/37.webp)
 
 4. BOS tööriistakast võimaldab teil hõlpsalt leida oma Antminer'i IP-aadressi ja paigaldada BraiinsOS+. Kui te juba teate oma masina IP-aadressi, võite sammu 8 juurde edasi minna. Vastasel juhul minge skaneerimise vahekaardile.
 
-![image](assets/software/6.webp)
+![image](assets/en/38.webp)
 
 5. Tavaliselt koduvõrkudes on IP-aadressi vahemik 192.168.1.1 kuni 192.168.1.255, seega sisestage IP-vahemiku väljale "192.168.1.0/24". Kui teie võrk on erinev, palun muutke neid aadresse vastavalt. Seejärel klõpsake "Start".
 
@@ -520,12 +524,15 @@ Siin näeme, kuidas lihtsalt paigaldada Braiins OS+ otse teie Antminer'i mälu k
 
 7. Siin peaksite nägema kõiki oma võrgu Antminereid ja IP-aadress on 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/en/39.webp)
 
 8. Klõpsake "Back" ja seejärel "Install" vahekaardil, sisestage varem leitud IP-aadress ja klõpsake "Start".
 
 > Kui paigaldamine ei õnnestu, võib olla vajalik teostada lähtestamine ja proovida uuesti (vt eelmine jaotis).
-> ![image](assets/software/8.webp) 9. Mõne hetke pärast taaskäivitub teie Antminer ja te saate ligi pääseda Braiins OS+ liidesele määratud IP-aadressil, siin 192.168.1.37, otse oma brauseri aadressiribal. Vaikimisi kasutajanimi on "root" ja vaikimisi parooli ei ole.
+
+![image](assets/en/40.webp)
+
+9. Mõne hetke pärast taaskäivitub teie Antminer ja te saate ligi pääseda Braiins OS+ liidesele määratud IP-aadressil, siin 192.168.1.37, otse oma brauseri aadressiribal. Vaikimisi kasutajanimi on "root" ja vaikimisi parooli ei ole.
 
 ## BraiinsOS+ seadistamine
 
@@ -544,7 +551,7 @@ Seejärel tervitab teid Braiins OS+ armatuurlaud.
 
 ### Armatuurlaud
 
-![image](assets/software/14.webp)
+![image](assets/en/41.webp)
 
 Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 
@@ -552,7 +559,7 @@ Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 - Paremal reaalne hashrate, keskmine kiibi temperatuur, hinnanguline efektiivsus W/THs ja energiakulu.
 - Allpool ventilaatori kiirus protsentides maksimaalsest kiirusest ja pöörete arv minutis.
 
-![image](assets/software/15.webp)
+![image](assets/en/42.webp)
 
 - Veel allpool leiate detailse vaate igast hashplaadist. Plaadi keskmine temperatuur ja selles sisalduvate kiipide temperatuur, samuti pinge ja sagedus.
 - Andmed aktiivsete kaevandusbasseinide kohta Pools sektsioonis.
@@ -561,15 +568,15 @@ Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 
 ### Seadistamine
 
-![image](assets/software/16.webp)
+![image](assets/en/43.webp)
 
 ### Süsteem
 
-![image](assets/software/17.webp)
+![image](assets/en/44.webp)
 
 ### Kiirtegevused
 
-![image](assets/software/18.webp)
+![image](assets/en/45.webp)
 
 # Attakai - Ventilaatori Modifikatsioon
 
@@ -581,7 +588,7 @@ Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 
 > HOIATUS: On hädavajalik, et enne seda oleks Braiins OS+ või mõni muu tarkvara, mis võib vähendada masina jõudlust, teie kaevurisse eelnevalt paigaldatud. See meede on kriitilise tähtsusega, kuna müra vähendamiseks paigaldame vähem võimsaid ventilaatoreid, mis suudavad vähem soojust hajutada.
 
-![image](assets/hardware/cover.webp)
+![image](assets/en/46.webp)
 
 ### Vajalikud materjalid
 
@@ -590,58 +597,58 @@ Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 
 > HOIATUS: Enne alustamist veenduge, et olete oma kaevuri lahti ühendanud, et vältida elektrilöögi ohtu.
 
-![image](assets/hardware/1.webp)
+![image](assets/en/47.webp)
 
 Esmalt eemaldage korpuse küljel olevad 6 kruvi, mis hoiavad seda suletuna. Kruvide eemaldamise järel avage ettevaatlikult korpus, et eemaldada komponente kattev plastikkaitse.
 
-![image](assets/hardware/2.webp)
-![image](assets/hardware/3.webp)
+![image](assets/en/48.webp)
+![image](assets/en/49.webp)
 
 Järgmisena on aeg eemaldada algne ventilaator, olles ettevaatlik, et mitte kahjustada teisi komponente. Selleks eemaldage kruvid, mis hoiavad seda paigas, ja õrnalt koorige ära valge liim, mis ümbritseb ühenduskohta. On oluline toimida ettevaatlikult, et vältida juhtmete või ühenduste kahjustamist.
-![image](assets/hardware/4.webp)
+![image](assets/en/50.webp)
 Kui algne ventilaator on eemaldatud, märkate, et uue Noctua ventilaatori ühendused ei ühti algse ventilaatori omadega. Tõepoolest, uuel ventilaatoril on 3 juhet, sealhulgas kollane juhe, mis võimaldab kiiruse kontrolli. Siiski ei kasutata seda juhet antud juhul. Uue ventilaatori ühendamiseks on seega soovitatav kasutada erilist adapterit. Siiski on oluline märkida, et seda adapterit võib mõnikord olla raske leida.
 
-![image](assets/hardware/5.webp)
+![image](assets/en/51.webp)
 
 Kui teil seda adapterit ei ole, võite siiski jätkata uue ventilaatori ühendamist elektriku suhkruga. Selleks peate lõikama vana ja uue ventilaatori kaablid.
 
-![image](assets/hardware/6.webp)
-![image](assets/hardware/7.webp)
+![image](assets/en/52.webp)
+![image](assets/en/53.webp)
 
 Uuel ventilaatoril kasutage nuga ja lõigake ettevaatlikult peamise ümbrise kontuurid 1cm kaugusel, ilma et lõikaksite allpool olevate kaablite ümbriseid.
 
-![image](assets/hardware/8.webp)
+![image](assets/en/54.webp)
 
 Seejärel, tõmmates peamist ümbrist allapoole, lõigake punase ja musta kaabli ümbrised samamoodi nagu varem. Ja lõigake kollane kaabel lõpuni.
 
-![image](assets/hardware/9.webp)
+![image](assets/en/55.webp)
 
 Vanal ventilaatoril on peamise ümbrise lõikamine ilma punase ja musta juhtme ümbriste kahjustamiseta keerulisem. Selleks kasutasime nõela, mille libistasime peamise ümbrise ja punase ning musta juhtme vahele.
 
-![image](assets/hardware/10.webp)
-![image](assets/hardware/11.webp)
+![image](assets/en/56.webp)
+![image](assets/en/57.webp)
 
 Kui punase ja musta juhtme ümbrised on paljastatud, lõigake ümbrised ettevaatlikult, et vältida elektrijuhtmete kahjustamist.
 
-![image](assets/hardware/12.webp)
+![image](assets/en/58.webp)
 
 Seejärel ühendage kaablid suhkruga, must juhe mustaga ja punane juhe punasega. Võite lisada ka elektrilinti.
 
-![image](assets/hardware/13.webp)
-![image](assets/hardware/14.webp)
+![image](assets/en/59.webp)
+![image](assets/en/60.webp)
 
 Kui ühendus on tehtud, on aeg paigaldada uus Noctua ventilaator koos resti ja vanade kruvidega. Karbis olevad uued kruvid kasutatakse hiljem. Veenduge, et see oleks õiges suunas. Märkate ventilaatori ühel küljel noolt, mis näitab õhuvoolu suunda. On oluline paigutada ventilaator nii, et see nool osutaks korpuse sisemuse poole. Seejärel ühendage ventilaator uuesti.
 
-![image](assets/hardware/15.webp)
-![image](assets/hardware/16.webp)
+![image](assets/en/61.webp)
+![image](assets/en/62.webp)
 
 > Valikuline: Kui olete elektris asjatundlik, võite 12V toiteväljundile otse lisada emane 5,5mm pistikühenduse, mis toidab otse Vonet Wi-Fi silda. Kui aga te pole oma elektrialastes oskustes kindel, on parem kasutada USB-ühendust koos nutitelefoni tüüpi laadijaga, et vältida lühise või elektrikahjustuse ohtu.
 
-![image](assets/hardware/17.webp)
+![image](assets/en/63.webp)
 
 Kui ühendused on tehtud, asetage plastkate üle korpuse plastiku, mitte sisse.
 
-![image](assets/hardware/18.webp)
+![image](assets/en/64.webp)
 
 Lõpuks asetage korpuse kaas tagasi ja keerake külgedel 6 kruvi, et kõik paigal hoida. Ja ongi kõik, teie toiteallika korpuses on nüüd uus ventilaator.
 
@@ -650,7 +657,8 @@ Lõpuks asetage korpuse kaas tagasi ja keerake külgedel 6 kruvi, et kõik paiga
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > HOIATUS: On hädavajalik, et enne jätkamist oleks teie kaevurisse juba paigaldatud Braiins OS+ või mõni muu tarkvara, mis on võimeline vähendama teie masina jõudlust. See meede on kriitiline, kuna müra vähendamiseks paigaldame vähem võimsaid ventilaatoreid, mis hajutavad vähem soojust.
-> ![image](assets/hardware/cover.webp)
+
+![image](assets/en/46.webp)
 
 ### Vajalikud Materjalid
 
@@ -662,36 +670,36 @@ Lõpuks asetage korpuse kaas tagasi ja keerake külgedel 6 kruvi, et kõik paiga
 
 1. Esiteks, ühendage ventilaatorid lahti ja keerake need lahti.
 
-![image](assets/hardware/19.webp)
+![image](assets/en/65.webp)
 
 2. Uute Noctua ventilaatorite ühendused ei ühti originaalidega, aga ärge muretsege! Võtke välja oma nuga ja lõigake ettevaatlikult väikesed plastikust sakid nii, et ühendused sobiksid teie kaevuriga täiuslikult.
 
-![image](assets/hardware/20.webp)
-![image](assets/hardware/21.webp) 3. On aeg paigaldada 3D osad!
+![image](assets/en/66.webp)
+![image](assets/en/67.webp) 3. On aeg paigaldada 3D osad!
 Kinnitage need kaevuri mõlemale küljele, kasutades ventilaatoritelt eemaldatud kruvisid. Keerake need sisse, kuni kruvi pea on 3D osaga tasa ja see on kindlalt paigas. Olge ettevaatlikud, et mitte liiga kõvasti kinni keerata, kuna võite osa deformeerida ja üks kruvidest võib puutuda kokku kondensaatoriga!
 
-![image](assets/hardware/22.webp)
+![image](assets/en/68.webp)
 
 4. Nüüd liigume ventilaatorite juurde.
 
 Kinnitage need 3D osade külge karbis olevate kruvidega. Pöörake tähelepanu õhuvoolu suunale, ventilaatorite külgedel olevad nooled näitavad järgitavat suunda. Liikuge Etherneti pordi küljest teisele poole. Vaadake allpool olevat fotot.
 
-![image](assets/hardware/23.webp)
-![image](assets/hardware/24.webp)
-![image](assets/hardware/25.webp)
+![image](assets/en/69.webp)
+![image](assets/en/70.webp)
+![image](assets/en/71.webp)
 
 5. Viimane samm: ühendage ventilaatorid ja kinnitage võred peale kruvidega, mida ei kasutatud toiteallika ventilaatori karbis. Teil on neid ainult 4, aga 2 võre kohta vastaskülgedes piisab. Vajadusel võite otsida sarnaseid kruvisid ka ehituspoest.
 
-![image](assets/hardware/26.webp)
-![image](assets/hardware/27.webp)
+![image](assets/en/72.webp)
+![image](assets/en/73.webp)
 
 Oodates, et saaksime pakkuda teie uuele soojendile stiilsemat korpust, võite korpuse ja toiteallika kinnitada elektriku kaablisidemetega.
 
-![image](assets/hardware/28.webp)
+![image](assets/en/74.webp)
 
 Ja viimaseks lihviks ühendage Vonet sild Etherneti pordiga ja selle toiteallikaga.
 
-![image](assets/hardware/29.webp)
+![image](assets/en/75.webp)
 
 Ja ongi valmis, palju õnne! Olete just asendanud oma kaevuri kogu mehaanilise osa. Nüüd peaks müra oluliselt vähem olema.
 
@@ -719,17 +727,17 @@ Meid huvitav preemiamudel on PPS, mis tähendab "maksa-aktsia-kohta". See tähen
 
 Braiins OS+ basseini seadistamiseks peate looma konto ühes teie valitud basseinis. Siin võtame näiteks Linecoini:
 
-![image](assets/software/19.webp)
+![image](assets/en/76.webp)
 
 Kui olete konto loonud, klõpsake nupul Ühenda Basseiniga
 
 Seejärel kopeerige Stratum aadress ja oma kasutajaname:
 
-![image](assets/software/20.webp)
+![image](assets/en/77.webp)
 
 Nüüd saate naasta Braiins OS+ liidesesse, et sisestada need andmed. Paroolivälja võite jätta tühjaks.
 
-![image](assets/software/21.webp)
+![image](assets/en/78.webp)
 
 ## Oma Antminer S9 jõudluse optimeerimine
 
@@ -750,22 +758,21 @@ See seab ülemise piiri masina hashimiskiirusele. Autotuning on protsess, kus al
 
 Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele suuremaid kasumimarginaale. Põhjus, miks masinaid ei jaotata sellise tarkvaraga, on see, et masinate varieeruvus on ebasoovitav, kuna kliendid soovivad täpselt teada, mida nad saavad, seega on tootjate jaoks halb mõte müüa toodet, millel ei ole ühelt masinalt teisele järjepidevat ja etteaimatavat jõudlust. Lisaks nõuab kiibi tasemel autotuning märkimisväärseid arendusressursse, kuna selle rakendamine on keeruline. Tootjad kulutavad juba palju ressursse oma püsivara arendamisele. On olemas tarkvaralahendusi, mis võimaldavad autotuningut, nagu näiteks Braiins OS+. Lisaks ASIC-i jõudluse parandamisele kuni 20%.
 
+# Lõpusektsioon
 
+<partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 
-## Andke meile tagasisidet selle kursuse kohta
+## Hinnangud & Reitingud
+
 <chapterId>6af13742-df68-5cf4-b7aa-93dc0c2eaae9</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Lõpueksam
-<chapterId>306a1230-050f-5739-b965-6692542ff6bc</chapterId>
+
+<chapterId>f51a7c88-3b7e-48df-b45f-22bb10fe619f</chapterId>
 <isCourseExam>true</isCourseExam>
 
+## Kokkuvõte
 
-## Antminer S9 juhtimine oma nutitelefonist
-
-<chapterId>6e7c234a-a445-5070-b087-531d16c42107</chapterId>
-
-### Otseteede loomine iOS-is
-
-![Antminer S9 juhtimine oma nutitelefoniga](https://www.youtube.com/watch?v=OsKmdB2iw88&t=60s)
-
+<chapterId>2941f29a-d6ce-4a3c-b61b-6e399f5395b1</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

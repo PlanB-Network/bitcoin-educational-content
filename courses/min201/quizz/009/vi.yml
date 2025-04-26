@@ -1,13 +1,17 @@
-question: Vai trò của phần mềm trong việc đào Bitcoin là gì và nó góp phần như thế nào vào hiệu quả?
+question: Vai trò của phần mềm trong việc đào Bitcoin là gì và nó đóng góp như thế nào vào hiệu quả?
 
-answer: Phần mềm trong việc đào Bitcoin, như BrainsOS Plus, thay thế hệ điều hành gốc của máy đào, cho phép thực hiện các thao tác một cách hiệu quả hơn. Nó có thể tăng hiệu suất của máy lên 25%, nghĩa là với lượng điện năng tương đương, máy có thể sản xuất thêm 25% hashrate, do đó tăng số phần thưởng mà người đào nhận được.
+answer: Phần mềm trong việc đào Bitcoin, như BrainsOS Plus, thay thế hệ điều hành gốc của máy đào, cho phép thực hiện các thao tác một cách hiệu quả hơn. Nó có thể tăng hiệu suất của máy lên 25%, nghĩa là với một lượng điện năng tương đương, máy có thể sản xuất thêm 25% hashrate, do đó tăng phần thưởng mà người đào nhận được.
 
 wrong_answers:
-  - Phần mềm trong việc đào Bitcoin được sử dụng để theo dõi lượng Bitcoin đã đào và không góp phần vào hiệu quả.
-  - Phần mềm trong việc đào Bitcoin được sử dụng để kết nối máy đào với internet và không góp phần vào hiệu quả.
-  - Phần mềm trong việc đào Bitcoin được sử dụng để làm mát máy đào và không góp phần vào hiệu quả.
+  - Phần mềm trong việc đào Bitcoin được sử dụng để theo dõi lượng Bitcoin đã đào và không đóng góp vào hiệu quả.
+  - Phần mềm trong việc đào Bitcoin chỉ cung cấp kết nối internet tốt hơn cho máy đào, nó có thể tăng hiệu suất của máy như vậy lên 14%, nếu một trong những giao thức mới nhất được sử dụng.
+  - Phần mềm trong việc đào Bitcoin được sử dụng để làm mát máy đào và không đóng góp vào hiệu quả.
 
-explanation: |
-  Chương này giải thích rằng phần mềm như BrainsOS Plus có thể thay thế hệ điều hành gốc của một máy đào, cho phép thực hiện các thao tác một cách hiệu quả hơn. Tối ưu hóa phần mềm là một yếu tố thiết yếu của sự cạnh tranh trong việc đào Bitcoin.
+explanation:
+  Chương này giải thích rằng phần mềm như BrainsOS Plus có thể
+  thay thế hệ điều hành gốc của một máy đào,
+  cho phép thực hiện các thao tác một cách hiệu quả hơn.
+  Tối ưu hóa phần mềm là một yếu tố thiết yếu của sự cạnh tranh
+  trong việc đào Bitcoin.
 
-reviewed: false
+reviewed: true

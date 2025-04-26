@@ -1,0 +1,9 @@
+question: ¿Quién inventó el concepto de prueba de trabajo?
+answer: Cynthia Dwork y Moni Naor
+wrong_answers:
+  - Markus Jakobsson y Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  Describieron el concepto en 1992. Markus Jakobsson y Ari Juels acuñaron el término prueba de trabajo. Adam Back adoptó más tarde el concepto para Hashcash.
+reviewed: false

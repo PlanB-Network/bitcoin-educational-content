@@ -1,0 +1,9 @@
+question: Quem desenhou o primeiro logo real do Bitcoin (um B maiúsculo dourado cruzado por duas barras verticais) em fevereiro de 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Ele usou a sugestão de NewLibertyStandard para usar o símbolo do baht tailandês (฿). O logo laranja foi criado mais tarde por alguém conhecido como bitboy.
+reviewed: false

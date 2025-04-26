@@ -1,0 +1,9 @@
+question: RLN上で、リポジトリをクローンした後、どのコマンドが "rgb-lightning-node "バイナリをインストールしますか？
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  cargo install --locked --debug --path ." コマンドは、"rgb-lightning-node" バイナリをコンパイルし、インストールする。
+reviewed: false

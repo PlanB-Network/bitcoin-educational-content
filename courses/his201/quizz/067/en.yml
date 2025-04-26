@@ -1,0 +1,9 @@
+question: Which organization began accepting bitcoin in November 2010 following lobbying by the community?
+answer: The Electronic Frontier Foundation
+wrong_answers:
+  - WikiLeaks
+  - The Red Cross
+  - Amnesty International
+explanation: |
+  This organization, co-founded in 1900 by Mitch Kapor, John Gilmore, and John Perry Barlow, aimed to protect internet freedoms. It began accepting bitcoin on November 9th.
+reviewed: false

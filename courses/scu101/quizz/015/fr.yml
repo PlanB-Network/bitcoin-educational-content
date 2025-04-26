@@ -1,9 +1,13 @@
 question: Pourquoi est-il important de privilégier la fiabilité et la technicité plutôt que la popularité lors du choix d'un VPN ?
 answer: Les fournisseurs de VPN qui collectent le moins d'informations personnelles sont généralement les plus sûrs.
 wrong_answers:
-  - Les fournisseurs de VPN populaires sont plus susceptibles d'être ciblés par des hackers.
+  - Les fournisseurs de VPN populaires sont plus susceptibles d'être ciblés par les hackers.
   - Les fournisseurs de VPN populaires sont plus susceptibles d'avoir des vitesses internet plus lentes.
   - Les fournisseurs de VPN populaires sont plus susceptibles d'avoir des restrictions géographiques.
 explanation: |
-  Lors du choix d'un VPN, il est important de privilégier la fiabilité et la technicité plutôt que la popularité. Cela s'explique par le fait que les fournisseurs de VPN qui collectent le moins d'informations personnelles sont généralement les plus sûrs, offrant une meilleure protection pour votre sécurité en ligne.
-reviewed: false
+  Lors du choix d'un VPN, il est important de privilégier
+  la fiabilité et la technicité plutôt que la popularité. Cela est
+  parce que les fournisseurs de VPN qui collectent le moins d'informations
+  personnelles sont généralement les plus sûrs, offrant ainsi une meilleure
+  protection pour votre sécurité en ligne.
+reviewed: true

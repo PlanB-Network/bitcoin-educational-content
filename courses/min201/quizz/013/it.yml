@@ -1,9 +1,13 @@
-question: Come influiscono la regolamentazione e le tariffe dell'elettricità sull'estrazione di Bitcoin?
-answer: La regolamentazione e le tariffe dell'elettricità hanno un'influenza significativa sull'estrazione di Bitcoin. Gli estrattori sono costantemente alla ricerca di elettricità a basso costo per massimizzare i loro profitti. Pertanto, l'alto costo dell'elettricità in alcune regioni non attira gli estrattori in queste zone. Gli estrattori tendono a gravitare verso regioni con tariffe elettriche basse, spesso in paesi emergenti o paesi con surplus energetici.
+question: Come influenzano la regolamentazione e le tariffe elettriche il mining di Bitcoin?
+answer: La regolamentazione e le tariffe elettriche hanno un'influenza significativa sul mining di Bitcoin. I minatori sono costantemente alla ricerca di elettricità a basso costo per massimizzare i loro profitti. Pertanto, l'alto costo dell'elettricità in certe regioni non attira i minatori in queste aree. I minatori tendono a orientarsi verso regioni con tariffe elettriche basse, spesso in paesi emergenti o paesi con surplus energetici.
 wrong_answers:
-  - La regolamentazione e le tariffe dell'elettricità influenzano l'estrazione di Bitcoin determinando il tipo di macchine di estrazione che possono essere utilizzate.
-  - La regolamentazione e le tariffe dell'elettricità influenzano l'estrazione di Bitcoin determinando il tipo di software di estrazione che può essere utilizzato.
-  - La regolamentazione e le tariffe dell'elettricità influenzano l'estrazione di Bitcoin determinando la dimensione del pool di estrazione che può essere formato.
+  - La regolamentazione e le tariffe elettriche influenzano il mining di Bitcoin determinando il tipo di macchine da mining che possono essere utilizzate.
+  - La regolamentazione e le tariffe elettriche influenzano il mining di Bitcoin determinando il tipo di software di mining che può essere utilizzato.
+  - La regolamentazione e le tariffe elettriche influenzano il mining di Bitcoin determinando la dimensione del pool di mining che può essere formato.
 explanation: |
-  Il capitolo spiega che la regolamentazione e le tariffe dell'elettricità hanno un'influenza significativa sull'estrazione di Bitcoin. Gli estrattori sono costantemente alla ricerca di elettricità a basso costo per massimizzare i loro profitti e quindi tendono a gravitare verso regioni con tariffe elettriche basse.
-reviewed: false
+  Il capitolo spiega che la regolamentazione e le tariffe
+  elettriche hanno un'influenza significativa sul mining di Bitcoin.
+  I minatori sono costantemente alla ricerca di elettricità a
+  basso costo per massimizzare i loro profitti e, quindi, tendono a
+  orientarsi verso regioni con tariffe elettriche basse.
+reviewed: true

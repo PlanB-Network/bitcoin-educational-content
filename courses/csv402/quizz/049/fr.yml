@@ -1,0 +1,9 @@
+question: Comment RGB assure-t-il une bonne confidentialité dans la gestion des actifs numériques ?
+answer: En n'inscrivant que des engagements cryptographiques sur la blockchain
+wrong_answers:
+  - En chiffrant toutes les transactions de bout en bout sur la blockchain
+  - En cachant l'identité des utilisateurs via des mixers décentralisés
+  - En utilisant uniquement des adresses Bitcoin temporaires pour chaque transfert
+explanation: |
+  En ne stockant que des preuves cryptographiques on-chain, RGB permet de garder confidentielles les informations sensibles relatives aux contrats et aux transferts.
+reviewed: false

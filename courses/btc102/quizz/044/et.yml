@@ -1,0 +1,9 @@
+question: Milline on mõiste hodler päritolu?
+answer: Hold on valesti kirjutatud
+wrong_answers:
+  - Akronüüm ootel
+  - Lühend Hot Wallet
+  - HODL ahela kokkutõmbumine
+explanation: |
+  Termin "hodler" pärineb Bitcoin Talki trükivigast, kus "hold" oli kirjutatud valesti "HODL", et väljendada pikaajalist valdust.
+reviewed: false

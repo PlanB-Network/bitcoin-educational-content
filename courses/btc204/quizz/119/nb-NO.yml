@@ -1,0 +1,11 @@
+question: Hva er hovedforskjellen mellom en forbedret ricochet og en klassisk ricochet?
+
+answer: Distribusjonen av transaksjoner over tid
+
+wrong_answers:
+  - Antall transaksjoner som brukes
+  - Typen adresse som brukes
+  - Antall utganger i transaksjonene
+
+explanation: |
+  Den forbedrede ricochet sikrer at hver transaksjon kringkastes på et distinkt tidspunkt og registreres i en annen blokk, mens den klassiske ricochet kringkaster alle transaksjoner innenfor et kort tidsrom.

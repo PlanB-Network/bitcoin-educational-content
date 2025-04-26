@@ -1,0 +1,9 @@
+question: Milline on RGB-lepingu puhul liidese funktsioon?
+answer: Teha lepinguandmed kergesti loetavaks ja manipuleeritavaks
+wrong_answers:
+  - Valideerimisskriptide käivitamine plokiahelas
+  - Genesis'i andmete säilitamine kliendi poolel
+  - Aruannete jaoks range tüübisüsteemi määratlemine
+explanation: |
+  Kasutajaliidese eesmärk on esitada lepinguga seotud teave nii, et see oleks kasutajatele ja tarkvarale arusaadav, ilma et see mõjutaks äriloogikat.
+reviewed: false

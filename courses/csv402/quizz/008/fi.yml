@@ -1,0 +1,9 @@
+question: Mikä on determinististen Bitcoin-sitoumusten päätarkoitus?
+answer: Varmistetaan, että tapahtumaan lisätään yksi ainoa sitoumus
+wrong_answers:
+  - Bitcoin-tapahtumien rakenteen yksinkertaistaminen
+  - Vähentää RGB-tapahtumakustannuksia
+  - RGB-monimerkkien luomisen optimointi
+explanation: |
+  Bitcoinin deterministiset sitoumukset takaavat, että transaktioon lisätään vain yksi sitoumus, jotta vältetään piilossa olevat kilpailevat sitoumukset.
+reviewed: false

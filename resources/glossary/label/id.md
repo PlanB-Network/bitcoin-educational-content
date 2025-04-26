@@ -1,0 +1,5 @@
+---
+term: LABEL
+
+---
+Label atau keterangan yang diberikan pada UTXO di dompet Bitcoin untuk mengingat asalnya. Sebagai contoh, jika saya memiliki UTXO yang berasal dari pembelian P2P di Bisq dengan Charles, saya dapat memberikan label `Non-KYC Bisq Charles`. Ini adalah praktik yang baik yang membantu untuk mengingat asal atau tujuan UTXO tersebut, yang memfasilitasi pengelolaan dana dan pengoptimalan privasi. Pelabelan menjadi lebih penting ketika digunakan dengan kontrol koin. Memang, dengan memungkinkan pengguna untuk membedakan dan memilih UTXO secara tepat untuk transaksi mereka, praktik ini membantu menghindari penggabungan UTXO dari sumber yang berbeda. Hal ini membatasi risiko yang terkait dengan Common Input Ownership Heuristic (CIOH), yang dapat mengungkap kepemilikan umum dari input suatu transaksi.

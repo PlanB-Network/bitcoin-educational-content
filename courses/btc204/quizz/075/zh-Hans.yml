@@ -1,0 +1,13 @@
+question: 一个coinjoin交易的主要目标是什么？
+
+answer: 打破一个硬币的历史记录。
+
+wrong_answers:
+  - 减少交易费用。
+  - 使比特币无法被检测。
+  - 增加确认速度。
+
+explanation: |
+  一个coinjoin交易的目标是打破一个硬币的历史记录。这种技术并不提供永久的匿名性，也不能彻底阻止比特币的追踪，与人们可能认为的相反。Coinjoin的目的仅仅是在进行coinjoin交易的点打破历史记录。
+
+reviewed: false

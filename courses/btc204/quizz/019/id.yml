@@ -1,0 +1,9 @@
+question: Apa saja heuristik analisis rantai yang disebutkan oleh Satoshi Nakamoto dalam Makalah Putih Bitcoin? (hanya satu jawaban yang mungkin)
+answer: CIOH dan penggunaan ulang alamat.
+wrong_answers:
+  - Pengelompokan berdasarkan tanda tangan dan korelasi waktu.
+  - Pembayaran dengan angka bulat dan output besar.
+  - Analisis volume dan kesamaan skrip.
+explanation: |
+  Dalam bagian 10 dari Makalah Putih Bitcoin, Satoshi Nakamoto memperingatkan pengguna tentang CIOH (Common Input Ownership Heuristic) dan penggunaan ulang pasangan kunci yang sama.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Mikä on suurin määrä Bitcoinia, joka voidaan siirtää Lightning-maksukanavassa milloin tahansa?
-answer: Käyttäjien etukäteen määrittelemä kiinteä kapasiteetti
+question: Mikä on Lightning Networkin päätavoite?
+answer: Parantaa Bitcoinin skaalautuvuutta mahdollistamalla nopeat ja edulliset maksut
 wrong_answers:
-  - Kaksi käyttäjää omistaman Bitcoinin kokonaismäärä
-  - Koko Lightning-verkon Bitcoinin kokonaismäärä
-  - Kanavassa tähän mennessä siirrettyjen Bitcoinien kokonaismäärä
+  - Poistaa transaktiomaksut Bitcoin-lohkoketjussa
+  - Luoda vaihtoehto Bitcoinille suurten arvojen maksuihin
+  - Yksinkertaistaa vaihtoja eri kryptovaluuttojen välillä
 explanation: |
-  Kun Lightning-maksukanava avataan, sille määritellään kiinteä kapasiteetti,
-  jonka käyttäjät ovat etukäteen määritelleet. Tämä kapasiteetti edustaa suurinta määrää
-  Bitcoinia, joka voidaan siirtää kanavassa milloin tahansa.
+  Lightning Network pyrkii parantamaan Bitcoinin skaalautuvuutta mahdollistamalla nopeat ja edulliset transaktiot off-chain maksukanavien kautta.
 reviewed: false

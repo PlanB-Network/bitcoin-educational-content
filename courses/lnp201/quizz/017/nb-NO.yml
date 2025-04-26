@@ -1,0 +1,8 @@
+question: Hva skjer hvis Bob sender en faktura til Alice for 30 000 satoshis?
+answer: Alice oppretter en forpliktelsestransaksjon for å overføre 30 000 satoshis til Bob i kanalen.
+wrong_answers:
+  - Alice må åpne en ny kanal for å gjøre denne overføringen.
+  - Bob mottar automatisk de 30 000 satoshis i sin lommebok.
+  - Fakturaen betales gjennom en on-chain transaksjon på Bitcoin.
+explanation: |
+  Når Bob sender en faktura til Alice, oppretter og signerer hun en ny forpliktelsestransaksjon for å justere fordelingen av midler, og overfører dermed 30 000 satoshis i kanalen.

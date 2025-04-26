@@ -1,0 +1,9 @@
+question: 面对货币危机，Bitcoin 的主要优势是什么？
+answer: 储蓄抵御通货膨胀
+wrong_answers:
+  - 提高利率
+  - 保证固定回报
+  - 提供银行保险
+explanation: |
+  Bitcoin 凭借其可预测的发行政策，为货币贬值提供保护。
+reviewed: false

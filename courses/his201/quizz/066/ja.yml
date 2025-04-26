@@ -1,0 +1,9 @@
+question: Jon Matonisが運営していた、デジタル通貨（2010年3月からビットコインを含む）について取り上げていたブログの名前は何でしたか？
+answer: The Monetary Future
+wrong_answers:
+  - Classic Economic Studies
+  - Return to Cash
+  - The Nakamoto Institute
+explanation: |
+  彼はサトシとのメール交換の後、2010年3月13日に[ビットコインに関する最初の記事](https: //themonetaryfuture.blogspot.com/2010/03/bitcoin-peer-to-peer-electronic-cash.html)を公開しました。
+reviewed: false

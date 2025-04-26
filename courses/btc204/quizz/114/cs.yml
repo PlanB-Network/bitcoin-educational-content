@@ -1,0 +1,13 @@
+question: Proč analytik nepoužije COINJOIN na transakci typu Stonewall?
+
+answer: Protože existují 2 výstupy se stejnými částkami
+
+wrong_answers:
+  - Protože existují pouze 2 vstupy
+  - Protože se s tímto vzorem nejsou obeznámeni
+  - Protože je více výstupů než vstupů
+
+explanation: |
+  Analýza transakce typu Stonewall z vnějšího pohledu nevede k použití COINJOIN, protože přítomnost dvou výstupů se stejnými částkami naznačuje vzor coinjoin. Z vnějšího pohledu tedy není COINJOIN v tomto konkrétním případě aplikovatelný.
+
+reviewed: false

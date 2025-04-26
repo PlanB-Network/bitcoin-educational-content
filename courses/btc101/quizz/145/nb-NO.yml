@@ -1,0 +1,10 @@
+question: Hva handlet blokk-krigen i 2017 om?
+answer: En konflikt om hvorvidt man skulle øke blokkstørrelsen for å øke transaksjonskapasiteten
+wrong_answers:
+  - En konflikt om hvorvidt man skulle redusere blokkstørrelsen for å redusere transaksjonskapasiteten
+  - En konflikt om hvorvidt man skulle øke blokkbelønningen for å motivere gruvearbeidere
+  - En konflikt om hvorvidt man skulle redusere blokkbelønningen for å demotivere gruvearbeidere
+explanation: >-
+  Blokk-krigen i 2017 var en konflikt om hvorvidt man skulle modifisere Bitcoin
+  ved å øke blokkstørrelsen for å øke transaksjonskapasiteten.
+reviewed: false

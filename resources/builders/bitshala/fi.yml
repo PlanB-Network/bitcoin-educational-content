@@ -1,8 +1,0 @@
-description: |
-  Bitshala on koulutusaloite (tai pathshala), jota johtavat intialaiset bitcoin-harrastajat tarjotakseen ohjausta ja resursseja uusille kehittäjille heidän aloittaessaan bitcoin-matkansa.
-  Vaikka monia Blockchain-kursseja on olemassa tarjoamassa pintapuolisia API-opetuksia EVM:stä kuten "älykkäät sopimukset", Bitcoin-kehityksen tekniset tietovaatimukset ovat paljon laajemmat ja vivahteikkaammat.
-  Bitcoin on monitieteinen aihealue, joka kattaa ohjelmistosuunnittelun, järjestelmäsuunnittelun, verkkoprotokollan suunnittelun, peliteorian, kryptografian, taloustieteen ja monimutkaisten järjestelmien, kuten markkinoiden, sosiaalisen dynamiikan. Näin ollen kattavan bitcoin-kurssin luominen on todennäköisesti mahdotonta kokonaisuudessaan, eikä mikään olemassa oleva akateeminen koulutus tai ohjelmointi-intensiivikurssit täytä tällaisia vaatimuksia. Uusien ihmisten, jotka yrittävät päästä Bitcoin-kehitykseen, täytyy siis kahlata läpi suuren joukon rinnakkaisia aihealueita, jotka eivät ole hyvin järjestettyjä ja ovat hajallaan internetissä.
-  Näin ollen Bitshala pyrkii tarjoamaan pohjan ideoiden tuottamiselle, tuottamiselle ja erilaisten sisältökategorioiden julkaisemiselle Open Source -muodossa tyydyttääkseen tulevan Bitcoin-kehittäjän moninaiset oppimistarpeet.
-
-contributors:
-  - rabbit-hole

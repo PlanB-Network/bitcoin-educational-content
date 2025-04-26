@@ -1,0 +1,9 @@
+question: 中本聪是什么时候消失的？
+answer: 在2010年
+wrong_answers:
+  - 在2008年
+  - 在2009年
+  - 在2023年
+explanation:
+  中本聪在2010年消失，将他的创作留给了社区。
+reviewed: true

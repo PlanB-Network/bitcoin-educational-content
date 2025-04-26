@@ -1,0 +1,9 @@
+question: Làm thế nào để biến một mã hóa khối thành mã hóa luồng?
+answer: Bằng cách sử dụng các chế độ như OFB để tạo ra một luồng khóa từ mã hóa khối
+wrong_answers:
+  - Bằng cách chia văn bản gốc thành các byte và mã hóa chúng từng cái một
+  - Bằng cách áp dụng padding cho các thông điệp trước khi mã hóa
+  - Bằng cách tăng độ dài khóa cho mỗi khối được mã hóa
+explanation: |
+  Các chế độ như OFB cho phép mã hóa khối hoạt động như mã hóa luồng bằng cách tạo ra một luồng khóa, sau đó được sử dụng cho mỗi phần của văn bản gốc.
+reviewed: false

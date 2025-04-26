@@ -1,0 +1,9 @@
+question: Quelle est la définition d'un entier copremier par rapport à un autre entier ?
+answer: Un entier qui a un plus grand diviseur commun de 1 avec cet autre entier
+wrong_answers:
+  - Un entier qui est divisible par l'autre entier sans reste
+  - Un entier qui est premier
+  - Un entier qui est plus grand que l'autre
+explanation: |
+  Un entier est copremier avec un autre s'ils ont pour plus grand diviseur commun 1, c'est-à-dire qu'ils ne partagent aucun autre facteur commun.
+reviewed: false

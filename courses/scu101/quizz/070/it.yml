@@ -1,9 +1,9 @@
 question: Qual è lo scopo dell'autenticazione Lightning?
 answer: Genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali.
 wrong_answers:
-  - Accelerare il processo di autenticazione.
-  - Permettere di utilizzare la stessa password per tutti i servizi.
-  - Inviare promemoria per cambiare le password ogni mese.
+  - Permette a chiunque, anche senza un portafoglio Lightning, di autenticarsi senza un indirizzo email, se viene mostrato un ID valido.
+  - Consente di utilizzare la stessa password per tutti i servizi.
+  - Invia promemoria per cambiare le password ogni mese.
 explanation: |
-  L'autenticazione Lightning genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. Ciò può migliorare la privacy e la sicurezza riducendo la quantità di informazioni personali condivise con ogni servizio.
-reviewed: false
+  L'autenticazione Lightning genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. Questo può migliorare la privacy e la sicurezza riducendo la quantità di informazioni personali che vengono condivise con ogni servizio.
+reviewed: vero

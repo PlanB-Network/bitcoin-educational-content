@@ -1,0 +1,9 @@
+question: Which metal has historically been considered the standard reference for currency?
+answer: Gold
+wrong_answers:
+  - Silver
+  - Copper
+  - Bronze
+explanation: |
+  Gold has historically served as the standard due to its scarcity, durability, and universally recognized value, making it a stable basis for monetary systems.
+reviewed: false

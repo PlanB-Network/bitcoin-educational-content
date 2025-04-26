@@ -1,9 +1,9 @@
-question: Kuinka monta SAT:ta Bobilla on jäljellä toisen siirron jälkeen esimerkissä?
-answer: 40 000 SAT.
+question: Kuinka Lightning-verkko mahdollistaa varojen lähettämisen solmulle, joka ei ole suoraan yhdistetty?
+answer: Reitittämällä maksun välisolmujen kautta
 wrong_answers:
-  - 30 000 SAT.
-  - 10 000 SAT.
-  - 0 SAT.
+  - Käyttämällä on-chain-siirtoja jokaisen solmun välillä
+  - Automatisoidusti perustamalla väliaikaisen kanavan
+  - Lähettämällä varat suoraan multisignatuuri-osoitteiden avulla
 explanation: |
-  Esimerkissä toisen siirron jälkeen Bobilla on jäljellä 40 000 SAT.
+  Lightning-verkko mahdollistaa maksun reitittämisen useiden välisolmujen kautta, ilman että lähettäjän ja vastaanottajan välillä tarvitsee olla suoraa kanavaa.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Was ist die Rolle eines privaten Schlüssels bei einer Bitcoin-Transaktion?
-answer: Er wird verwendet, um die Transaktion zu signieren und die Bitcoins von der Adresse freizugeben.
+question: Was macht das Locking-Script bei einer Bitcoin-Transaktion?
+answer: Es legt spezifische Bedingungen fest, um die zugehörigen Mittel auszugeben
 wrong_answers:
-  - Er wird verwendet, um den öffentlichen Schlüssel zu generieren.
-  - Er wird verwendet, um eine Bitcoin-Adresse zu erstellen.
-  - Er wird verwendet, um die Transaktionsdaten zu verschlüsseln.
+  - Es sendet automatisch die Mittel an mehrere Adressen
+  - Es bestimmt den Wert des zu erstellenden UTXO
+  - Es sperrt die Mittel temporär, um übermäßiges Ausgeben zu verhindern
 explanation: |
-  Bei einer Bitcoin-Transaktion verwendet der Absender seinen privaten Schlüssel, um die Transaktion zu signieren, was effektiv die Bitcoins von der Adresse freigibt, in der sie gespeichert sind. Dies ist ein entscheidender Teil des Transaktionsprozesses, da es sicherstellt, dass nur der Besitzer der Bitcoins sie ausgeben kann.
+  Das Locking-Script legt Bedingungen fest, wie zum Beispiel die Signierung mit einem privaten Schlüssel, um die Mittel in einer Transaktion freizugeben und zu verwenden.
 reviewed: false

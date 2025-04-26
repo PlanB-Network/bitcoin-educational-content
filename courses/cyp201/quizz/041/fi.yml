@@ -1,9 +1,8 @@
-question: Mikä on elliptisen käyrän rooli julkisten ja yksityisten avainten luomisessa?
-answer: Sitä käytetään turvallisten julkisten ja yksityisten avainten luomiseen.
+question: Mikä on suurin riski käyttää huonosti suunniteltua PRNG tä entropian tuottamiseen?
+answer: Hyökkääjä voisi arvata yksityiset avaimet
 wrong_answers:
-  - Sitä käytetään avainten salaamiseen.
-  - Sitä käytetään avainten tallentamiseen.
-  - Sitä käytetään avainten lähettämiseen.
+  - Mnemoninen lause voisi sisältää vääriä sanoja
+  - Digitaaliset allekirjoitukset muuttuisivat mitättömiksi
+  - Bitcoin-osoitteet eivät olisi yhteensopivia verkon kanssa
 explanation: |
-  Elliptinen käyrä on matemaattinen rakennelma, jota käytetään turvallisten julkisten ja yksityisten avainten luomisessa. Satunnainen numero, jota usein kutsutaan nonceksi, valitaan yksityiseksi avaimiksi ja sitä käytetään elliptisen käyrän yhtälössä vastaavan julkisen avaimen luomiseen.
-reviewed: false
+  Huonosti suunniteltu PRNG voi tuottaa ennustettavia sekvenssejä, mikä tekee avaimista haavoittuvampia hyökkäyksille.

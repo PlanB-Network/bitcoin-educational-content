@@ -1,0 +1,9 @@
+question: Mis on nõrkade paroolide peamine haavatavus, kui need on räsitud?
+answer: Nad on haavatavad sõnastikurünnakutele
+wrong_answers:
+  - Neid ei saa räsimise teel kontrollida
+  - Nad genereerivad alati kokkupõrkeid
+  - Nende turvalisemaks muutmiseks on vaja pikemat räsimist
+explanation: |
+  Nõrgad paroolid on lihtsasti taastatavad nende räsi abil kasutades sõnastikurünnakuid, muutes nende valiku turvalisuse tagamiseks oluliseks.
+reviewed: false

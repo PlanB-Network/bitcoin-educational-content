@@ -1,0 +1,13 @@
+question: Mục tiêu chính của một giao dịch coinjoin là gì?
+
+answer: Để phá vỡ lịch sử của một đồng tiền.
+
+wrong_answers:
+  - Để giảm phí giao dịch.
+  - Để làm cho bitcoin không thể phát hiện.
+  - Để tăng tốc độ xác nhận.
+
+explanation: |
+  Mục tiêu của một giao dịch coinjoin là để phá vỡ lịch sử của một đồng tiền. Kỹ thuật này không cung cấp sự ẩn danh vĩnh viễn cũng như không chặn việc theo dõi bitcoin một cách dứt khoát, trái với những gì một số người có thể nghĩ. Coinjoin chỉ nhằm mục đích phá vỡ lịch sử tại điểm mà giao dịch coinjoin được thực hiện.
+
+reviewed: false

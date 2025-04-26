@@ -1,9 +1,9 @@
-question: Cosa succede se la passphrase di un portafoglio Bitcoin viene cambiata?
-answer: Il portafoglio Bitcoin diventa completamente diverso
+question: A cosa corrisponde la notazione /<0;1>/* in un descrittore?
+answer: Alla catena esterna e interna con derivazione sequenziale
 wrong_answers:
-  - Il portafoglio Bitcoin diventa inaccessibile
-  - Il portafoglio Bitcoin rimane lo stesso
-  - Il portafoglio Bitcoin perde tutti i suoi bitcoin
+  - A un indirizzo multisignature ordinato
+  - A un checksum per i percorsi di derivazione
+  - A un percorso di derivazione rinforzato
 explanation: |
-  Se la passphrase viene cambiata, il portafoglio Bitcoin diventa completamente diverso perché la passphrase gioca un ruolo nella costruzione e nel calcolo di tutte le chiavi del portafoglio.
+  La notazione /<0;1>/* indica che il descrittore può generare indirizzi per la catena esterna (0) e interna (1), con derivazione sequenziale grazie al carattere jolly (*).
 reviewed: false

@@ -1,9 +1,9 @@
-question: Quelle est la liquidité d'un canal dans le Lightning Network?
-answer: La quantité de satoshis qui peut être transférée à travers le canal.
+question: Quel type de liquidité un vendeur sur le Lightning Network doit-il principalement gérer pour accepter des paiements ?
+answer: De la liquidité entrante
 wrong_answers:
-  - Le nombre de transactions qui peuvent être effectuées à travers le canal.
-  - La vitesse à laquelle les transactions peuvent être effectuées à travers le canal.
-  - Le coût d'une transaction effectuée à travers le canal.
+  - De la liquidité sortante
+  - Une capacité totale de canal élevée
+  - Un solde on-chain élevé
 explanation: |
-  Dans le Lightning Network, la liquidité d'un canal fait référence à la quantité de satoshis qui peut être transférée à travers le canal. La liquidité de ces canaux ne peut pas être transférée vers d'autres canaux de liquidité.
+  Pour recevoir des paiements, un vendeur doit disposer de liquidité entrante, c'est-à-dire que des fonds doivent être disponibles du côté opposé du canal pour qu'il puisse accepter des paiements.
 reviewed: false

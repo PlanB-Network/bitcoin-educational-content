@@ -1,0 +1,9 @@
+question: Mikä laukaisee useimmissa maissa verotettavan tapahtuman, kun on kyse Bitcoinista?
+answer: Bitcoinin myyminen, kauppaaminen tai käyttäminen maksuvälineenä aiheuttaa usein verotettavan tapahtuman.
+wrong_answers:
+  - Bitcoinin pitäminen hallussaan loputtomiin ilman tapahtumia.
+  - Bitcoin-lompakon tai -avainten varmuuskopiointi.
+  - Bitcoinin hinnan tarkastelu verkossa.
+explanation: |
+  Verotettava tapahtuma tapahtuu yleensä silloin, kun yritys luovuttaa tai käyttää Bitcoininsa, ei pelkästään pitämällä sitä hallussaan. Jokainen Bitcoinin myynti tai vaihto tavaroihin, palveluihin tai fiat-valuuttaan voi tuottaa veronalaista voittoa tai tappiota.
+reviewed: false

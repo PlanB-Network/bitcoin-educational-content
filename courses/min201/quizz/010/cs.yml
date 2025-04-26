@@ -1,11 +1,9 @@
 question: Jak mohou těžaři Bitcoinu pomoci v řízení přebytků energie a stabilizaci energetických sítí?
-answer: Těžaři Bitcoinu mohou absorbovat přebytky energie, působí jako flexibilní tlumič, upravují poptávku místo nabídky. Ve světě, kde neustále roste výroba elektřiny z obnovitelných (nekontrolovatelných) zdrojů, mohou těžaři hrát klíčovou roli v zajištění rovnováhy našich energetických sítí, zatímco těží z levné nebo přebytečné elektřiny pro své těžební operace.
+answer: Těžaři Bitcoinu mohou absorbovat přebytky energie, působí jako flexibilní tlumič, upravují poptávku namísto nabídky. Ve světě, kde neustále roste výroba elektřiny z obnovitelných (nekontrolovatelných) zdrojů, mohou těžaři hrát klíčovou roli v zajištění rovnováhy našich energetických sítí, zatímco těží z levné nebo přebytečné elektřiny pro své těžební operace.
 wrong_answers:
   - Těžaři Bitcoinu mohou pomoci v řízení přebytků energie tím, že uloží přebytečnou energii do baterií.
   - Těžaři Bitcoinu mohou pomoci v řízení přebytků energie tím, že prodají přebytečnou energii zpět do sítě.
   - Těžaři Bitcoinu mohou pomoci v řízení přebytků energie tím, že přebytečnou energii přemění na teplo.
 explanation: |
-  Kapitola vysvětluje, že těžaři Bitcoinu mohou absorbovat přebytky energie,
-  působí jako flexibilní tlumič, upravují poptávku místo nabídky. To může pomoci
-  v řízení přebytků energie a stabilizaci energetických sítí.
-reviewed: false
+  Kapitola vysvětluje, že těžaři Bitcoinu mohou absorbovat přebytky energie, působí jako flexibilní tlumič, upravují poptávku namísto nabídky. To může pomoci v řízení přebytků energie a stabilizaci energetických sítí.
+reviewed: true

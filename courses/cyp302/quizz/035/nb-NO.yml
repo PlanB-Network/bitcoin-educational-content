@@ -1,0 +1,8 @@
+question: Hva er det primære målet med tallteori?
+answer: Å studere egenskapene til heltall og funksjonene som opererer med dem
+wrong_answers:
+  - Analysere geometriske transformasjoner
+  - Studere strukturen til tilfeldige geometriske figurer i en endelig gruppe
+  - Utvikle symmetriske krypteringsalgoritmer
+explanation: |
+  Tallteori fokuserer på egenskapene til heltall og funksjonene som anvendes på heltall, ofte for anvendelser i kryptografi, spesielt i konteksten av offentlig nøkkelkryptografi.

@@ -26,7 +26,7 @@ Cahoots tehingud hõlmavad osaliselt allkirjastatud tehingute vahetamist kasutaj
 
 Kaugelt tehes muutub see protsess liiga keerukaks. Selle probleemi lahendamiseks on Samourai välja töötanud Toril põhineva krüpteeritud suhtlusprotokolli nimega "Soroban". Sorobaniga automatiseeritakse Payjoin'i jaoks vajalikud vahetused kasutajasõbraliku liidese taga. See on teine meetod, mida me selles artiklis uurime.
 
-Need krüpteeritud vahetused nõuavad Cahoots osalejate vahelise ühenduse ja autentimise loomist. Soroban suhtlused tuginevad kasutajate Paynymidele. Kui te ei ole Paynymidega tuttav, siis soovitan teil tutvuda selle artikliga lisateabe saamiseks: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
+Need krüpteeritud vahetused nõuavad Cahoots osalejate vahelise ühenduse ja autentimise loomist. Soroban suhtlused tuginevad kasutajate Paynymidele. Kui te ei ole Paynymidega tuttav, siis soovitan teil tutvuda selle artikliga lisateabe saamiseks: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 Lihtsalt öeldes on Paynym unikaalne identifikaator, mis on seotud teie rahakotiga ja võimaldab erinevaid funktsioone, sealhulgas krüpteeritud sõnumite saatmist. Paynym esitatakse identifikaatori ja illustratsioonina, mis kujutab robotit. Siin on näide minu omast Testnetis: ![Paynym Sparrow](assets/en/1.webp)
 **Kokkuvõttes:**
 - *Payjoin* = Koostööl põhineva tehingu spetsiifiline struktuur;
@@ -35,7 +35,7 @@ Lihtsalt öeldes on Paynym unikaalne identifikaator, mis on seotud teie rahakoti
 - *Soroban* = Krüpteeritud suhtlusprotokoll, mis on loodud Tori peal, võimaldades koostööd teiste kasutajatega Cahoots tehingu kontekstis.
 - *Paynym* = Rahakoti unikaalne identifikaator, mis võimaldab suhelda teise kasutajaga Sorobanis, et teostada Cahoots tehing.
 
-[**-> Uuri lähemalt Payjoin tehingute ja nende kasulikkuse kohta**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Uuri lähemalt Payjoin tehingute ja nende kasulikkuse kohta**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## Kuidas luua ühendust Paynymide vahel?
 
@@ -50,7 +50,7 @@ Teie poolel avage oma Sparrow Wallet ja pääsege samale `Show PayNym` menüüle
 ![Retrieve paynym](assets/notext/3.webp)
 Järgmisena sisestage oma koostööpartneri Paynymi identifikaator (kas nende hüüdnimi `+...` või nende maksekood `PM...`) `Find Contact` kasti, seejärel klõpsake `Add Contact` nupule.
 ![add contact](assets/notext/4.webp)
-Tarkvara pakub seejärel `Link Contact` nuppu. Meie õpetuse kontekstis ei ole selle nupu vajutamine vajalik. See samm on vajalik ainult juhul, kui plaanite teha makseid näidatud Paynymile [BIP47](https://planb.network/tutorials/privacy/paynym-bip47) kontekstis, mis ei ole seotud meie õpetusega.
+Tarkvara pakub seejärel `Link Contact` nuppu. Meie õpetuse kontekstis ei ole selle nupu vajutamine vajalik. See samm on vajalik ainult juhul, kui plaanite teha makseid näidatud Paynymile [BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093) kontekstis, mis ei ole seotud meie õpetusega.
 
 Kui saaja Paynymi jälgib teie Paynym, korrake seda toimingut vastupidises suunas, nii et teie saaja jälgib ka teid. Seejärel saate teostada Payjoini.
 

@@ -1,10 +1,8 @@
-question: ¿Cuál es el papel de los nodos de la Red Lightning en una transacción?
-answer: Cobran una tarifa por aceptar ser utilizados para enrutar la transacción.
+question: ¿Cuál es la función principal de una factura Lightning?
+answer: Solicitar un pago del nodo emisor
 wrong_answers:
-  - Facilitan la transacción sin ningún cargo.
-  - Inician la transacción.
-  - Son los destinatarios finales de la transacción.
+  - Enviar fondos sin una transacción en cadena
+  - Activar HTLCs en un canal
+  - Abrir un nuevo canal Lightning
 explanation: |
-  En la Red Lightning, los nodos cobran una tarifa por aceptar ser utilizados
-  para enrutar la transacción. Esta tarifa varía dependiendo de dónde se encuentre la liquidez.
-reviewed: false
+  Una factura Lightning es una solicitud de pago, transmitida por el nodo receptor al nodo emisor para iniciar un pago en la Red Lightning.

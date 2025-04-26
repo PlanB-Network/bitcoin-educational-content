@@ -1,0 +1,9 @@
+question: Bei einer Bitcoin-Transaktion, welche Technologie wird üblicherweise verwendet, um den Besitz von Mitteln durch das Entsperren des Skripts nachzuweisen?
+answer: Digitale Signaturen
+wrong_answers:
+  - Digitale Zertifikate
+  - Symmetrische Verschlüsselung
+  - Message Authentication Codes (MAC)
+explanation: |
+  Digitale Signaturen bei Bitcoin beweisen den Besitz von Mitteln, indem Transaktionen mit einem privaten Schlüssel signiert werden, um das Skript zu entsperren, das ein UTXO sichert.
+reviewed: false

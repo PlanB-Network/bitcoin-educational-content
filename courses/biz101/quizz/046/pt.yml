@@ -1,0 +1,9 @@
+question: Qual é a principal função da moeda?
+answer: Atuar como um intermediário que simplifica a troca de valor
+wrong_answers:
+  - Para armazenar o valor intrínseco em forma física
+  - Substituir completamente a troca direta de bens por bens
+  - Centralizar todas as transacções económicas através de uma autoridade única
+explanation: |
+  A moeda simplifica o comércio ao servir como um meio comum que reduz a complexa rede de taxas de câmbio necessária num sistema de troca direta, facilitando assim as transacções.
+reviewed: false

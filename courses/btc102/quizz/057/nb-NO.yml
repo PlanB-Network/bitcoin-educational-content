@@ -1,0 +1,9 @@
+question: Hvilken anskaffelsesmetode unngår den paranoide brukeren?
+answer: Sentraliserte plattformer med KYC
+wrong_answers:
+  - P2P matchmaking-plattformer
+  - Bitcoin minibanker
+  - Direkte kontantkjøp på meetups
+explanation: |
+  For å bevare anonymiteten unngår den paranoide brukeren plattformer som krever identitetsbekreftelse.
+reviewed: false

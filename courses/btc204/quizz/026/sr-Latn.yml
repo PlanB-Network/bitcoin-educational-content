@@ -1,0 +1,9 @@
+question: Koji od ovih odgovora nije jedan od 3 glavna rizika za korisnika koji prolazi kroz KYC?
+answer: Nenepromenljivost kupljenih bitkoina
+wrong_answers:
+  - Izloženost državnom nadzoru
+  - Olakšavanje praćenja na lancu
+  - Rizik od curenja podataka
+explanation: |
+  KYC uključuje rizik od curenja podataka jer se vaše informacije čuvaju, rizik od izloženosti državnom nadzoru jer se vaše informacije mogu preneti ili zapleniti, i rizik od praćenja, jer KYC može služiti kao ulazna tačka. Međutim, KYC ne smanjuje fungibilnost kupljenih bitkoina.
+reviewed: false

@@ -1,9 +1,13 @@
 question: Qu'est-ce que l'initiative Attakai dans le contexte du minage de Bitcoin ?
-answer: Une initiative qui vise à rendre le minage plus accessible et moins nocif tout en contribuant au réseau.
+answer: Une initiative qui vise à rendre le minage plus accessible et moins nocif tout en contribuant au réseau
 wrong_answers:
   - Une initiative qui vise à augmenter le prix du Bitcoin
-  - Une initiative qui vise à réduire le taux de hachage du réseau
+  - Une initiative qui vise à diminuer le taux de hachage du réseau
   - Une initiative qui vise à centraliser la puissance de hachage
 explanation: |
-  L'initiative Attakai vise à rendre le minage de Bitcoin plus accessible et moins nocif. Elle encourage les gens à miner chez eux avec du matériel plus abordable et des solutions pour réduire la pollution sonore. L'initiative met également l'accent sur l'importance de contribuer à la sécurité et à la décentralisation du réseau Bitcoin.
-reviewed: false
+  L'initiative Attakai vise à rendre le minage de Bitcoin plus
+  accessible et moins nocif. Elle encourage les gens à miner
+  chez eux avec du matériel plus abordable et des solutions pour
+  réduire la pollution sonore. L'initiative souligne également l'importance
+  de contribuer à la sécurité et à la décentralisation du réseau Bitcoin.
+reviewed: true

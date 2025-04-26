@@ -1,0 +1,9 @@
+question: Welche Art von Gruppe verwendet hauptsächlich Kryptographie?
+answer: Gruppen, die auf Ganzzahlen basieren oder durch Ganzzahlen beschriebene Elemente
+wrong_answers:
+  - Gruppen komplexer Zahlen oder durch komplexe Zahlen beschriebene Elemente
+  - Gruppen geometrischer Transformationen oder durch geometrische Transformationen beschriebene Elemente
+  - Gruppen rationaler Zahlen oder durch rationale Zahlen beschriebene Elemente
+explanation: |
+  Die Kryptographie verwendet Gruppen, die auf Ganzzahlen basieren, oder durch Ganzzahlen beschriebene Elemente wie die Punkte auf einer elliptischen Kurve, für Verschlüsselungs- und Signierungsoperationen.
+reviewed: false

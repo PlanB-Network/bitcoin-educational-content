@@ -1,0 +1,10 @@
+question: Hva kan e-postvedlegg og bilder inneholde?
+answer: Skadelig programvare
+wrong_answers:
+  - Søppelpost
+  - Annonser
+  - Reklameinnhold
+explanation: |
+  E-postvedlegg og bilder kan inneholde skadelig programvare. Derfor bør du
+  ikke laste ned eller åpne vedlegg fra ukjente eller mistenkelige avsendere.
+reviewed: false

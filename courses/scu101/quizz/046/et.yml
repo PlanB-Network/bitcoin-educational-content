@@ -1,0 +1,12 @@
+question: Mis on peamine puudus, kui kasutada isehostitud paroolihaldurit?
+answer: Selle kasutamine nõuab rohkem tehnilisi teadmisi.
+wrong_answers:
+  - See on kallim kui kolmandate osapoolte teenused.
+  - See ei paku nii palju funktsioone kui kolmandate osapoolte teenused.
+  - See ei ole nii turvaline kui kolmandate osapoolte teenused.
+explanation: |
+  Isehostitud paroolihalduri kasutamine nõuab rohkem tehnilisi teadmisi,
+
+  kuna peate ise seadistama ja haldama oma serverit. Siiski, see võib pakkuda rohkem kontrolli
+
+  ja turvalisust.

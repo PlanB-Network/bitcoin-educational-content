@@ -1,11 +1,9 @@
-question: How does Alice fund the channel she is opening with Bob?
-answer: She creates a transaction with 2 UTXOs as output.
+question: What does the commitment transaction system guarantee to participants of a Lightning channel?
+answer: That each can recover their funds by publishing the last signed transaction
 wrong_answers:
-  - She sends money directly to Bob's public address.
-  - She creates a transaction with 1 UTXO as output.
-  - She asks Bob to fund the channel.
+  - That transactions are visible on the Bitcoin blockchain
+  - That the channel's capacity increases with each transaction
+  - That fees are shared between the two participants
 explanation: |
-  To fund the channel she is opening with Bob, Alice creates a transaction
-  with 2 UTXOs as output; one to the 2/2 multi-sig address and one to one of her change
-  addresses.
+  The signed commitment transactions ensure that each participant can recover their funds by publishing the latest version in case the channel closes.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken rolle spiller arvebrevet Bitcoin i en arveplan?
+answer: Å veilede arvinger i å få tilgang til midlene
+wrong_answers:
+  - Å fungere som en Contract for overføring av bitcoins til arvinger
+  - For å bestemme den skattemessige fordelingen av eiendeler
+  - For å optimalisere overføringsgebyrene mellom lommebøker
+explanation: |
+  Arvebrevet gir klare og presise instruksjoner slik at de nærmeste kan få tilbake bitcoinsene.
+reviewed: false

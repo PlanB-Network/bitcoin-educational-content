@@ -1,0 +1,11 @@
+question: Mikä on pääasiallinen ero parannellun kimpoamisen ja klassisen kimpoamisen välillä?
+
+answer: Transaktioiden jakautuminen ajallisesti
+
+wrong_answers:
+  - Käytettyjen transaktioiden määrä
+  - Käytetyn osoitteen tyyppi
+  - Transaktioiden outputtien määrä
+
+explanation: |
+  Paranneltu kimpoaminen varmistaa, että jokainen transaktio lähetetään eri aikaan ja kirjataan eri lohkoon, kun taas klassinen kimpoaminen lähettää kaikki transaktiot lyhyen ajan sisällä.

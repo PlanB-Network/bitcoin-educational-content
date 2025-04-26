@@ -1,0 +1,9 @@
+question: Kui me vaatleme lihtsat maksetehingut, kus üks väljund on ümmargune summa, millise tõenäolise järelduse võime teha?
+answer: Ümmargune väljund ei ole enam sisendi kasutaja valduses.
+wrong_answers:
+  - Ümmargune väljund on mõeldud tehingutasudeks.
+  - Ümmargune väljund kuulub endiselt sisendi kasutajale.
+  - Ümmargune väljund on reserveeritud aadress.
+explanation: |
+  Kui meil on tegemist lihtsa maksemustriga (1 sisend ja 2 väljundit), kus üks väljunditest kasutab ümmargust summat, siis see esindab makset. Seega lahkub see sisendi kasutaja valdusest.
+reviewed: false

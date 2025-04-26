@@ -1,9 +1,0 @@
-question: ¿Cuál es el tamaño de una clave pública comprimida en Bitcoin?
-answer: 264 bits
-wrong_answers:
-  - 520 bits
-  - 128 bits
-  - 256 bits
-explanation: |
-  En Bitcoin, una clave pública sin comprimir ocupa 520 bits. Sin embargo, gracias a la simetría de la curva elíptica utilizada, podemos comprimir la clave pública para reducir su tamaño de 520 a 264 bits.
-reviewed: false

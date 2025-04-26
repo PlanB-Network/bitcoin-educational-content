@@ -1,0 +1,11 @@
+question: Hva er frekvensen for justering av vanskelighetsgraden?
+answer: Hver 2016 blokker
+wrong_answers:
+  - Hver 1048 blokker
+  - Hver 512 blokker
+  - Hver 4032 blokker
+explanation: |
+  Justeringen av vanskelighetsgraden er en mekanisme som finner sted hver
+  2016 blokker, eller omtrent hver to uker, for å sikre at, i gjennomsnitt, en ny blokk blir lagt
+  til blokkjeden hvert tiende minutt uavhengig av den globale hashraten
+reviewed: sant

@@ -1,10 +1,11 @@
-question: What is one of the main ways to obtain Bitcoins?
-answer: By accepting them for trade or by buying them through regulated or unregulated platforms.
+question: What is a practical way to obtain Bitcoins?
+answer: Buying them through regulated or unregulated platforms.
 wrong_answers:
-  - By mining them using a computer.
-  - By finding them in the physical world.
-  - By creating them using a special software.
-explanation: >-
-  The text mentions that users can obtain Bitcoins by accepting them for
-  their trade or by buying them through regulated or unregulated platforms.
-reviewed: false
+  - Mining them using a laptop.
+  - Finding them in the physical world.
+  - Creating them using a special software.
+explanation: |
+  The text mentions that users can obtain Bitcoins by
+  accepting them for trade or by buying them through
+  regulated or unregulated platforms.
+reviewed: true

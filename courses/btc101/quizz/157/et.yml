@@ -1,0 +1,13 @@
+question: Mis on Bütsantsi kindralite probleem ja kuidas Bitcoin seda lahendab?
+answer: See on probleem informatsiooni koordineerimisel süsteemis, kus erinevaid osapooli ei saa usaldada. Bitcoin lahendab selle läbi töötõendusel põhineva plokiahela kasutamise, millel on muutuv raskusaste.
+wrong_answers:
+  - See on probleem tehingute kontrollimisel detsentraliseeritud võrgus. Bitcoin lahendab selle digitaalsete allkirjade kasutamise kaudu.
+  - See on probleem topeltkulutamise vältimisel digitaalrahas. Bitcoin lahendab selle avaliku pearaamatu kasutamise kaudu.
+  - See on probleem konsensuse säilitamisel detsentraliseeritud võrgus. Bitcoin lahendab selle panustõendi algoritmi kasutamise kaudu.
+explanation: |
+  Bütsantsi kindralite probleem on klassikaline probleem hajutatud
+  arvutustehnikas,
+  mis hõlmab konsensuse saavutamist võrgus, kus mõned sõlmed võivad olla vigased
+  või pahatahtlikud. Bitcoin lahendab selle probleemi töötõendusel põhineva plokiahela
+  kasutamise kaudu, mis tagab, et kõik sõlmed nõustuvad tehingute ajaloo seisuga.
+reviewed: false

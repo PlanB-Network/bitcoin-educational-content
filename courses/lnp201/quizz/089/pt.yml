@@ -1,9 +1,0 @@
-question: O que um comprador precisa fazer para gerenciar a liquidez na Lightning Network?
-answer: Canais abertos
-wrong_answers:
-  - Conectar-se a outros nós
-  - Manter um equilíbrio de liquidez em ambos os lados
-  - Comprar canais
-explanation: |
-  Para compradores na Lightning Network, gerenciar a liquidez envolve a abertura de canais. Isso lhes proporciona liquidez de saída.
-reviewed: false

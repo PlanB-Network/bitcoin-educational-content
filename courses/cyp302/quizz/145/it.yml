@@ -1,0 +1,9 @@
+question: Quali sono le implicazioni del teorema di Eulero nel contesto della crittografia asimmetrica?
+answer: Semplifica il calcolo delle potenze
+wrong_answers:
+  - Permette la cifratura diretta dei messaggi
+  - È utilizzato per trovare numeri primi
+  - È utilizzato per verificare la parità di un numero
+explanation: |
+  Nella crittografia asimmetrica, il teorema di Eulero semplifica il calcolo delle potenze in schemi come RSA, poiché fornisce un metodo per manipolare le esponenziazioni modulari.
+reviewed: false

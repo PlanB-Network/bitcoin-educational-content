@@ -1,9 +1,9 @@
-question: ¿Qué sucede con los fondos en una transferencia de la Red Lightning?
-answer: Los fondos nunca se mueven, pero el saldo final se actualiza.
+question: ¿Cuál es el método de cierre de canal más económico y rápido?
+answer: Cierre cooperativo
 wrong_answers:
-  - Los fondos se transfieren de un lado a otro.
-  - Los fondos quedan bloqueados hasta que se cierre el canal.
-  - Los fondos se envían a la red de Bitcoin.
+  - Cierre forzado
+  - Cierre con engaño
+  - Ninguno es más económico y rápido
 explanation: |
-  En una transferencia de la Red Lightning, los fondos nunca se mueven. En su lugar, el saldo final se actualiza mediante una transacción firmada pero no publicada en la cadena de bloques.
+  El cierre cooperativo es el método más rápido y económico porque ambas partes acuerdan cerrar el canal, ajustando las tarifas según las condiciones del mercado.
 reviewed: false

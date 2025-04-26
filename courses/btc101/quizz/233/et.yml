@@ -1,0 +1,12 @@
+question: Mis on Lightning Network'i peamine eesmärk?
+answer: Võimaldada mikromakseid
+wrong_answers:
+  - Suurendada Bitcoini väärtust
+  - Asendada Bitcoini protokolli
+  - Luua uus krüptoraha
+explanation: >-
+  Lightning Network on teise kihi lahendus Bitcoini protokollile,
+  mille eesmärk on võimaldada mikromakseid, mis on väga väikese väärtusega tehingud,
+  mis muidu oleksid ebapraktilised kõrgete tasude ja pikkade kinnitusaegade tõttu
+  Bitcoini plokiahelas.
+reviewed: false

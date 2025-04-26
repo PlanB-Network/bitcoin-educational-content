@@ -1,0 +1,13 @@
+question: Mengapa membeli rumah saat ini jauh lebih sulit dibandingkan pada tahun 1980-an?
+answer: Suku bunga yang ditekan membuat utang lebih menarik dan inflasi
+wrong_answers:
+  - Inflasi dan tarif sewa
+  - Meningkatnya biaya hidup dan pertumbuhan populasi
+  - Kurangnya properti dan suku bunga yang ditekan membuat utang lebih menarik
+explanation: |
+  Sementara inflasi menurunkan daya beli mata uang kita, membuatnya 
+  lebih sulit untuk menabung, suku bunga yang ditekan membuat konsumsi utang 
+  lebih menarik. Ketika biaya modal sangat murah, orang meminjam melebihi 
+  kemampuan mereka, mengalirkan lebih banyak modal ke dalam aset, dan mendorong 
+  harga naik.
+reviewed: true

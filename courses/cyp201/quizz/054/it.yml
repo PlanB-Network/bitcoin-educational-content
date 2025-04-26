@@ -1,9 +1,9 @@
-question: Qual è lo scopo di BIP43 e BIP44 nell'ecosistema Bitcoin?
-answer: Hanno standardizzato la struttura e la gerarchia dei portafogli HD.
+question: Qual è il ruolo principale della passphrase in un portafoglio HD Bitcoin?
+answer: Modificare la derivazione della chiave per migliorare la sicurezza
 wrong_answers:
-  - Hanno introdotto la frase mnemonica di 24 parole.
-  - Hanno rivoluzionato il modo in cui le chiavi vengono generate e memorizzate.
-  - Hanno proposto l'aggiunta di una passphrase aggiuntiva per rafforzare la sicurezza delle singole chiavi.
+  - Decifrare le transazioni in sospeso
+  - Generare gli UTXO del portafoglio
+  - Proteggere l'accesso al portafoglio con il riconoscimento facciale
 explanation: |
-  BIP43 e BIP44 hanno standardizzato la struttura e la gerarchia dei portafogli HD, rendendoli più accessibili e facili da usare per il pubblico in generale.
-reviewed: false
+  La passphrase agisce come un secondo fattore di sicurezza, modificando il seme di derivazione della chiave per impedire l'accesso al portafoglio nel caso in cui la frase mnemonica sia compromessa.
+recensito: false

@@ -1,9 +1,9 @@
-question: Was ist der Zweck des Nonce im Zusammenhang mit Bitcoin-Transaktionen?
-answer: Es wird bei der Erstellung einer digitalen Signatur verwendet.
+question: Wie groß ist die Größe in Bits eines binären Segments, das verwendet wird, um jedes mnemonische Wort zu erstellen?
+answer: 11 Bits
 wrong_answers:
-  - Es wird verwendet, um die Transaktionsdaten zu verschlüsseln.
-  - Es wird verwendet, um die Transaktionsdaten zu speichern.
-  - Es wird verwendet, um die Transaktionsdaten zu übertragen.
+  - 8 Bits
+  - 16 Bits
+  - 10 Bits
 explanation: |
-  Im Zusammenhang mit Bitcoin-Transaktionen wird ein Nonce bei der Erstellung einer digitalen Signatur verwendet. Konkret wird es bei der Berechnung einer bestimmten Zahl V und der digitalen Signatur, die aus zwei Teilen, S1 und S2, besteht, verwendet.
+  Jedes 11-Bit-Segment entspricht einem Wort aus der standardisierten Liste von 2048 Wörtern in BIP39.
 reviewed: false

@@ -1,9 +1,0 @@
-question: Wer bezahlt die Transaktionsgebühren im Lightning Network?
-answer: Der Absender der Zahlung.
-wrong_answers:
-  - Der Empfänger der Zahlung.
-  - Die Zwischenhändler.
-  - Das Netzwerk selbst.
-explanation: |
-  Im Lightning Network bezahlt der Absender der Zahlung die Transaktionsgebühren. Diese Gebühren werden von den Knoten erhoben, die zur Weiterleitung der Transaktion verwendet werden.
-reviewed: false

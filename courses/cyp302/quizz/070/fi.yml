@@ -1,0 +1,8 @@
+question: Mikä tyyppinen salaus on siirrossalaus?
+answer: Monoalfabeettinen substituutiosalaus
+wrong_answers:
+  - Sanapermutaatio salaus
+  - Polyalfabeettinen substituutiosalaus
+  - Epäsymmetrinen salaus
+explanation: |
+  Siirrossalaus on esimerkki monoalfabeettisesta substituutiosalauksesta, jossa viestin jokainen kirjain siirretään kiinteän määrän paikkoja aakkosissa.

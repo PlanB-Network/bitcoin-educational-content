@@ -1,9 +1,9 @@
-question: Welche Vorteile bieten Lightning-Zahlungskanäle?
-answer: Sie ermöglichen es Benutzern, Bitcoin zu senden und zu empfangen, ohne hohe Transaktionsgebühren zu zahlen oder lange Bestätigungszeiten im Bitcoin-Netzwerk abzuwarten.
+question: Was ist die primäre Rolle eines privaten Schlüssels im Bitcoin-System?
+answer: Transaktionen signieren, um ein Skript zu erfüllen
 wrong_answers:
-  - Sie ermöglichen es Benutzern, Bitcoin effizienter abzubauen.
-  - Sie ermöglichen es Benutzern, Bitcoin sicherer zu speichern.
-  - Sie ermöglichen es Benutzern, Bitcoin gegen andere Kryptowährungen zu tauschen.
+  - Als Identifikator dienen, um Bitcoins zu empfangen
+  - Mittel sicher auf der Blockchain speichern
+  - Sperrskripte erstellen, um Bitcoins zu schützen
 explanation: |
-  Lightning-Zahlungskanäle sind eine effiziente Möglichkeit, schnelle und kostengünstige Bitcoin-Transaktionen durchzuführen. Sie ermöglichen es Benutzern, Bitcoin zu senden und zu empfangen, ohne hohe Transaktionsgebühren zu zahlen oder lange Bestätigungszeiten im Bitcoin-Netzwerk abzuwarten.
+  Der private Schlüssel wird verwendet, um Transaktionen zu signieren, um ein Skript zu erfüllen und die Bitcoins freizugeben.
 reviewed: false

@@ -1,0 +1,9 @@
+question: RGB 合同的主要操作是什么？
+answer: 状态转换、生成和状态扩展
+wrong_answers:
+  - 印章的定义、承诺和验证
+  - 锚点创建、DAG 更新和事务签名
+  - 创世区块、UTXO 分配和脚本验证
+explanation: |
+  这些操作根据合同的模式修改或完成合同的状态。
+reviewed: false

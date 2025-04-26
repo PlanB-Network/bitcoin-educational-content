@@ -1,9 +1,9 @@
-question: Quelle est la plus petite unité de Bitcoin?
-answer: Satoshi
+question: Quel est le point de départ pour calculer une signature ECDSA ?
+answer: Le hash du message
 wrong_answers:
-  - Bit
-  - Byte
-  - Coin
+  - La clé publique
+  - Un nonce fixe
+  - Une courbe elliptique personnalisée
 explanation: |
-  Dans le système Bitcoin, l'unité de compte est le bitcoin (notez le "b" en minuscule). Il est divisible jusqu'à huit décimales, la plus petite unité étant le satoshi.
+  Une signature ECDSA commence par le calcul du hash du message à signer, souvent avec SHA256.
 reviewed: false

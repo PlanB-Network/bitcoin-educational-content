@@ -1,10 +1,9 @@
-question: Mục đích của chữ ký số trong bối cảnh giao dịch Bitcoin là gì?
-answer: Để chứng minh bạn là người giữ khóa riêng mà không tiết lộ nó.
+question: Điểm khác biệt chính giữa PRNG và TRNG là gì?
+answer: PRNG là xác định, trong khi TRNG tạo ra các số ngẫu nhiên thực sự.
 wrong_answers:
-  - Để mã hóa dữ liệu giao dịch.
-  - Để lưu trữ dữ liệu giao dịch.
-  - Để truyền dữ liệu giao dịch.
+  - PRNG nhanh hơn TRNG đối với các số lớn.
+  - PRNG chỉ được sử dụng cho mã hóa, không phải TRNG.
+  - PRNG sử dụng khóa riêng, TRNG sử dụng khóa công khai.
 explanation: |
-  Trong bối cảnh giao dịch Bitcoin, chữ ký số được sử dụng để chứng minh bạn là người giữ khóa riêng mà không tiết lộ nó. Điều này được thực hiện
-  sử dụng thuật toán ECDSA.
+  PRNGs là xác định, nghĩa là chúng có thể tái tạo các chuỗi từ một trạng thái ban đầu, không giống như TRNGs.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è la differenza fondamentale tra mercantilismo e libero scambio secondo i fisiocratici?
+answer: Il mercantilismo arricchisce una nazione a spese delle altre, mentre il libero scambio arricchisce tutte le nazioni.
+wrong_answers:
+  - Il mercantilismo è un gioco a somma positiva, mentre il libero scambio è un gioco a somma zero.
+  - Il mercantilismo promuove la competizione.
+  - Il libero scambio promuove lo scambio.
+explanation: |
+  Per i fisiocratici, il mercantilismo si basa sull'idea che una nazione si arricchisca a spese delle altre, mentre il libero scambio permette benefici reciproci, arricchendo tutte le nazioni attraverso scambi reciprocamente vantaggiosi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa potensi kerugian dari penambangan untuk keuntungan?
+answer: Ini dapat menyebabkan sentralisasi kekuatan hashing dan juga dapat memiliki dampak lingkungan yang signifikan
+wrong_answers:
+  - Ini dapat menyebabkan penurunan harga Bitcoin
+  - Ini dapat menyebabkan penurunan hashrate jaringan
+  - Ini dapat menyebabkan penurunan jumlah node aktif dalam jaringan
+explanation: |
+  Penambangan untuk keuntungan dapat menyebabkan sentralisasi kekuatan hashing jika hanya beberapa perusahaan besar yang mampu berinvestasi dalam peralatan penambangan high-end. Selain itu, konsumsi energi dari penambangan untuk keuntungan dapat memiliki dampak lingkungan yang signifikan tergantung pada sumber energi.
+reviewed: true

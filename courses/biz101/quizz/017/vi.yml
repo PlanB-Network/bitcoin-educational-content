@@ -1,0 +1,9 @@
+question: Why might a company consider holding part of its treasury in Bitcoin?
+answer: As a potentially appreciating asset that can store value and offer liquidity without relying on traditional financial intermediaries.
+wrong_answers:
+  - To immediately eliminate all risk and guarantee stable returns.
+  - To comply with mandatory government regulations requiring Bitcoin holdings.
+  - To ensure it can never convert its assets back into traditional currencies.
+explanation: |
+  Bitcoin’s scarcity, global liquidity, and independence from traditional banking systems can make it attractive as a treasury asset. Although it involves risk and volatility, businesses may view it as a long-term store of value and a hedge against inflation.
+reviewed: false

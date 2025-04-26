@@ -1,0 +1,9 @@
+question: Hvordan brukes kryptografiske forpliktelser (via Taproot eller OP_RETURN) i RGB?
+answer: De forankrer tilstandsoverganger i blokkjeden
+wrong_answers:
+  - De lagrer kontraktsdata på blokkjeden
+  - De erstatter validering på klientsiden med utførelse av smartkontrakter i kjeden
+  - De oppretter noder for transaksjonsverifisering
+explanation: |
+  Med Commitments kan statusoppdateringer knyttes til en UTXO på en sikker måte, slik at man kan bevise at det finnes en viss informasjon på et gitt tidspunkt, uten å avsløre selve informasjonen.
+reviewed: false

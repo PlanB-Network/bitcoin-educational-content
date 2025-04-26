@@ -1,0 +1,9 @@
+question: Hvilken alternativ løsning nevnes for bedrifter som foretrekker et alt-i-ett-nettbutikkmiljø?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Åpen node
+  - Sveitsisk Bitcoin Pay
+explanation: |
+  Be-BOP er et alternativ for de som ønsker en integrert nettbutikk som legger til rette for Bitcoin-betalinger.
+reviewed: false

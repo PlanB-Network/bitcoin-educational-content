@@ -1,0 +1,13 @@
+question: Jaki jest główny cel kursu Bitcoin wspomnianego w rozdziale?
+answer: Głównym celem kursu jest edukacja nowych entuzjastów Bitcoin w zakresie zdrowych zasad ekonomicznych.
+wrong_answers:
+  - Głównym celem kursu jest nauczenie nowych entuzjastów Bitcoin, jak wydobywać Bitcoin.
+  - Głównym celem kursu jest nauczenie nowych entuzjastów Bitcoin, jak inwestować w Bitcoin.
+  - Głównym celem kursu jest nauczenie nowych entuzjastów Bitcoin, jak tworzyć własne kryptowaluty.
+explanation: |
+  Kurs ma na celu edukację nowych entuzjastów Bitcoin w zakresie
+  podstawowych zasad ekonomii, w szczególności tych
+  austriackiej szkoły ekonomii. Wiedza ta jest
+  kluczowa dla zrozumienia wartości i potencjału
+  Bitcoin jako alternatywy dla tradycyjnych systemów monetarnych.
+reviewed: true

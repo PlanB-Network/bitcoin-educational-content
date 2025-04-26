@@ -1,9 +1,9 @@
 question: Co je to zredukovaný uzel v kontextu Bitcoinu?
-answer: Uzel, který si v paměti uchovává pouze posledních N bloků
+answer: Uzel, který si v paměti uchovává pouze posledních N bloků.
 wrong_answers:
-  - Uzel, který ověřuje pouze transakce
-  - Uzel, který pouze přenáší informace ostatním uzlům
-  - Uzel, který pouze prosazuje pravidla protokolu Bitcoinu
+  - Uzel, který ověřuje pouze transakce.
+  - Uzel, který pouze přenáší informace ostatním uzlům.
+  - Uzel, který pouze vynucuje pravidla protokolu Bitcoinu.
 explanation: >-
   Zredukovaný uzel v kontextu Bitcoinu je uzel, který si v paměti uchovává pouze posledních N bloků.
-reviewed: false
+reviewed: true

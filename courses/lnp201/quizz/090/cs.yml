@@ -1,9 +1,0 @@
-question: Jakým způsobem je možné zvýšit kapacitu pro příjem na Lightning Network?
-answer: Prováděním plateb
-wrong_answers:
-  - Otevírání kanálů
-  - Připojení k dalším uzlům
-  - Udržování vyvážené likvidity na obou stranách
-explanation: |
-  Na Lightning Network je jedním ze způsobů, jak zvýšit kapacitu pro příjem, provádění plateb. Například, pokud zaplatíte 100 000 z jakéhokoli důvodu, nyní můžete přijmout 100 000.
-reviewed: false

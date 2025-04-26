@@ -1,9 +1,9 @@
-question: Welche Rolle spielt eine Passphrase in einer Bitcoin-Wallet?
-answer: Sie erhöht die Sicherheit der Wallet.
+question: Was bedeutet das Präfix `wpkh` in einem Deskriptor?
+answer: Pay-to-Witness-PubKey-Hash
 wrong_answers:
-  - Sie verringert die Sicherheit der Wallet.
-  - Sie hat keine Auswirkungen auf die Sicherheit der Wallet.
-  - Sie macht die Wallet benutzerfreundlicher.
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Witness Script Hash
 explanation: |
-  Die Passphrase ist ein zusätzliches Passwort, das in eine Bitcoin-Wallet integriert werden kann, um ihre Sicherheit zu erhöhen. Durch Hinzufügen beliebiger Informationen, die zusammen mit der mnemonischen Phrase die Berechnung des Wallet-Schlüssels ermöglichen, erhöht die Passphrase die Sicherheit.
+  Das Präfix `wpkh` deutet auf ein SegWit v0 Skript hin, das Pay-to-Witness-Public-Key-Hash Adressen verwendet.
 reviewed: false

@@ -1,0 +1,10 @@
+question: Hva er noen løsninger for datakryptering på forskjellige operativsystemer?
+answer: BitLocker for Windows, LUKS for Linux, og den innebygde opsjonen for Mac.
+wrong_answers:
+  - BitLocker for Linux, LUKS for Mac, og den innebygde opsjonen for Windows.
+  - BitLocker for Mac, LUKS for Windows, og den innebygde opsjonen for Linux.
+  - LUKS for alle operativsystemer.
+explanation: |
+  Forskjellige operativsystemer har forskjellige løsninger for datakryptering.
+  BitLocker er for Windows, LUKS er for Linux, og Mac har en innebygd opsjon for datakryptering.
+reviewed: false

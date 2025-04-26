@@ -1,0 +1,9 @@
+question: Proč je obtížné konstruovat šifrování blokového módu z proudové šifry?
+answer: Protože proudové šifry zpracovávají data kontinuálně
+wrong_answers:
+  - Protože proudové šifry nepoužívají soukromé klíče
+  - Protože blokové módy vyžadují delší klíče
+  - Protože proudové šifry jsou vždy pomalejší
+explanation: |
+  Proudové šifry jsou navrženy k kontinuálnímu šifrování dat (bit po bitu nebo byte po bytu), což komplikuje jejich použití v blokovém módu, který vyžaduje zpracování ve fixně velkých blocích.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the central idea of Margaret Thatcher regarding the Laffer curve?
+answer: Taxes should be reduced to stimulate the economy
+wrong_answers:
+  - Taxes on the wealthy should be increased
+  - High tax rates should be maintained to fund public services
+  - All taxes should be maintained
+explanation: |
+  Inspired by the Laffer curve, Margaret Thatcher advocated for a reduction in taxes to stimulate economic growth.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Why might a business choose to accept Bitcoin payments from customers?
+answer: To tap into a growing user base, potentially lower transaction fees, and hold a valuable asset in its treasury.
+wrong_answers:
+  - To guarantee that all customers will pay more than the listed price.
+  - To ensure that no taxes or regulatory requirements ever apply.
+  - To make the checkout process slower and more complicated.
+explanation: |
+  Accepting Bitcoin can attract a new demographic of buyers, reduce payment processing fees, and build a store of value. It can also increase global reach, as Bitcoin is borderless and operates around the clock.
+reviewed: false

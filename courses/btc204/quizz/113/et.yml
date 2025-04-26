@@ -1,0 +1,13 @@
+question: Milline element takistab välisel vaatlejal eristamast Stonewall ja Stonewall x2 tehinguid?
+
+answer: Tehingute muster on sama
+
+wrong_answers:
+  - Tehingud on krüpteeritud
+  - Tehingutes osalevate summade suurus on alati identne
+  - Tehingute digitaalsed allkirjad on genereeritud sama algoritmi abil
+
+explanation: |
+  Välisest vaatepunktist on tehingute muster täpselt sama. Ilma lisakontekstita on seetõttu võimatu eristada Stonewall tehingut Stonewall x2 tehingust, kuna nad kasutavad sama mustrit.
+
+reviewed: false

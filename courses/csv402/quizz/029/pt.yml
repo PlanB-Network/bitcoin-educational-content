@@ -1,0 +1,9 @@
+question: Qual é o principal papel do esquema num contrato RGB?
+answer: Descrever a lógica comercial e a estrutura de dados do contrato
+wrong_answers:
+  - Definição da interface para as carteiras RGB
+  - Gerir a compilação de scripts na cadeia de blocos
+  - Validação criptográfica em cadeia
+explanation: |
+  O esquema define a estrutura declarativa, os tipos de dados e as regras de validação do contrato, permitindo-lhe gerir a lógica comercial do lado do cliente.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Giao dịch Stonewall là gì?
+
+answer: Một giao dịch mô phỏng một mini-coinjoin mà không phải là một
+
+wrong_answers:
+  - Một giao dịch thanh toán dưới hình thức mini-coinjoin
+  - Một giao dịch hợp tác bao gồm ba người tham gia
+  - Một giao dịch bao gồm người nhận trong các input
+
+explanation: |
+  Stonewall là một dạng giao dịch Bitcoin cụ thể nhằm tăng cường quyền riêng tư của người dùng trong quá trình chi tiêu bằng cách mô phỏng một mini-coinjoin giữa hai người, mà thực tế không phải là một.
+
+reviewed: false

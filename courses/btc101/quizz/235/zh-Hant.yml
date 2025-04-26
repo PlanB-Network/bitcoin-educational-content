@@ -1,0 +1,10 @@
+question: Lightning Network 中使用的 Bitcoin 單位是什麼？
+answer: Sats.
+wrong_answers:
+  - 塊。
+  - 乙醚。
+  - Litecoin.
+explanation: |
+  Lightning Network 使用 Satoshis（也稱為 Sats），即 Bitcoin 的十進位。
+  十進位的 Bitcoin 來運作。
+reviewed: true

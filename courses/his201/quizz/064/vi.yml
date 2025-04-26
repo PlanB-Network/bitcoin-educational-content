@@ -1,0 +1,8 @@
+question: Ai là tác giả của bài viết đầu tiên giới thiệu về Bitcoin được xuất bản bằng tiếng Pháp?
+answer: Lucien Grondin (grondilu)
+wrong_answers:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+explanation: |
+  Đó là một [văn bản](https: //linuxfr.org/news/connaissez-vous-les-bitcoins) được xuất bản vào ngày 30 tháng 9 năm 2010, trên LinuxFr.org với tiêu đề Bạn đã biết về bitcoin chưa?.

@@ -1,9 +1,9 @@
-question: Qual é a relação entre a chave privada mestra e as chaves estendidas da carteira?
-answer: A chave privada mestra é a primeira chave privada derivada da semente e não tem conexão com as chaves estendidas da carteira.
+question: Qual é a característica única dos endereços SegWit v1 (P2TR) em comparação com os endereços SegWit v0?
+answer: Eles usam diretamente a chave pública bruta no endereço.
 wrong_answers:
-  - A chave privada mestra é derivada das chaves estendidas da carteira.
-  - A chave privada mestra é a mesma que as chaves estendidas da carteira.
-  - A chave privada mestra é usada para gerar as chaves estendidas da carteira.
+  - Eles são codificados em base58check.
+  - Eles requerem duas assinaturas para serem válidos.
+  - Eles usam o hash da chave pública no endereço.
 explanation: |
-  A chave privada mestra é a primeira chave privada derivada da semente e não tem conexão com as chaves estendidas da carteira.
+  Os endereços SegWit v1 (P2TR) não usam um hash da chave pública, mas diretamente a chave pública Taproot.
 reviewed: false

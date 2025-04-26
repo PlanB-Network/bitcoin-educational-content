@@ -1,10 +1,8 @@
-question: Qual è una delle ragioni per cui Bitcoin vive così tante bolle speculative?
-answer: Perché Bitcoin è una valuta effettivamente utilizzata ovunque nel mondo.
+question: Qual è uno dei motivi per cui Bitcoin sperimenta così tante bolle speculative?
+answer: Perché Bitcoin è una valuta che viene utilizzata ovunque nel mondo.
 wrong_answers:
   - Perché Bitcoin non viene effettivamente utilizzato da nessuna parte.
-  - Perché Bitcoin è una bolla destinata a scomparire.
+  - Perché Bitcoin è una bolla che scomparirà.
   - Perché Bitcoin non è soggetto ai cicli economici.
-explanation: |
-  Bitcoin vive molte bolle speculative perché è una valuta
-  effettivamente utilizzata ovunque nel mondo.
-reviewed: false
+explanation: Bitcoin sperimenta molte bolle speculative perché è una valuta che viene effettivamente utilizzata ovunque nel mondo.
+reviewed: vero

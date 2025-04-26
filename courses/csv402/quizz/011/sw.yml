@@ -1,0 +1,9 @@
+question: Ni nini kinachounda Anchor katika RGB?
+answer: transaction ID, MPC, DBC, na Uthibitisho wa Muamala wa Ziada
+wrong_answers:
+  - Genesis, Seal Definition, na Transition Bundle
+  - Contract Schema, Business Logic, na Owned State
+  - Sahihi, Muamala wa Hash, na Pedersen commitment
+explanation: |
+  Anchor ina data inayohitajika ili kuthibitisha kujumuishwa kwa Commitment ya kipekee katika shughuli ya Bitcoin.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hvilket av disse alternativene er ikke en fordel med fiat-valutaer?
+answer: De er underlagt monetær inflasjon
+wrong_answers:
+  - De er lett transportable
+  - De er lett delbare
+  - De aksepteres av alle land
+explanation: |
+  Fiat-valutaer, som dollar og euro, er svært likvide og
+  lett transportable fordi de nå for det meste er digitale. Deres verdi er
+  imidlertid konstant utsatt for monetær inflasjon.
+reviewed: true

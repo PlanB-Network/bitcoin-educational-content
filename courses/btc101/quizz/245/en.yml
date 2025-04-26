@@ -1,10 +1,10 @@
 question: What is one potential implication of the advancement of AI technologies?
-answer: Over 80% of jobs will disappear due to AI and automation.
+answer: AI technologies will lead to the disappearance of over 80% of today's jobs.
 wrong_answers:
-  - AI technologies will make humans obsolete.
+  - AI technologies will destroy all the computers.
   - AI technologies will lead to a decrease in human intelligence.
   - AI technologies will cause a global economic collapse.
 explanation: >-
   The text mentions that one potential implication of the advancement of
   AI technologies is that over 80% of jobs will disappear due to AI and automation.
-reviewed: false
+reviewed: true

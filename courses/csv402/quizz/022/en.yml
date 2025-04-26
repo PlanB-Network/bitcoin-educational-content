@@ -1,0 +1,9 @@
+question: Which RGB contract operation creates a new state without closing a seal?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Valency Activation
+explanation: |
+  The State Extension allows you to create a new state or rights (Valencies), without the seal being immediately closed.
+reviewed: false

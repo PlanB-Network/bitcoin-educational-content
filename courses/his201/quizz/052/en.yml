@@ -1,0 +1,9 @@
+question: What was the maximum block size added by Satoshi to the Bitcoin protocol in September 2010?
+answer: 1 MB
+wrong_answers:
+  - 2 MB
+  - 4 MB
+  - 8 MB
+explanation: |
+  The MAX_BLOCK_SIZE parameter was added in July, then the limit was enforced on all network nodes starting from September 12.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni sehemu gani kuu mbili za Contract State mahiri katika RGB?
+answer: Global State na Nchi Zinazomilikiwa
+wrong_answers:
+  - Commitment na Genesis
+  - Seal Definition na State Transition
+  - Valency na Contract Rights
+explanation: |
+  Global State ina data ya umma, wakati Nchi Zinazomilikiwa zinahusishwa na wamiliki maalum kupitia UTXO.
+reviewed: false

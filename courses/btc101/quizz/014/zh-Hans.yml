@@ -1,0 +1,9 @@
+question: DigiCash项目是什么？
+answer: David Chaum试图创建匿名电子货币的尝试。
+wrong_answers:
+  - 一个为比特币创建数字钱包的项目。
+  - 一个将所有实体现金数字化的项目。
+  - 一个基于比特币创建加密货币的项目。
+explanation: |
+  David Chaum在1980年代提出了匿名电子货币的概念，并通过他的DigiCash项目加以实践。
+reviewed: true

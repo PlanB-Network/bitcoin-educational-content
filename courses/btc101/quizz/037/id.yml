@@ -1,0 +1,9 @@
+question: Apa entitas yang bertanggung jawab atas penerbitan mata uang fidusia?
+answer: Bank Sentral
+wrong_answers:
+  - Bank Komersial
+  - Pemerintah
+  - Lembaga Swasta
+explanation: |
+  Bank sentral adalah entitas yang bertanggung jawab atas penerbitan mata uang fidusia. Mereka menentukan kebijakan moneter dan menentukan berapa banyak uang yang harus dikeluarkan atau dicetak.
+reviewed: true

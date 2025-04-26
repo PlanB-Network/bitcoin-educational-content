@@ -1,0 +1,9 @@
+question: Mitkä ovat alueet, joilla Constantin mukaan poliittisella vallalla ei ole vaikutusta?
+answer: Kaikki yllä mainitut alueet (uskonto, tiede, teollisuus).
+wrong_answers:
+  - Uskonto
+  - Tiede
+  - Teollisuus
+explanation: |
+  Constant uskoo, että poliittisen vallan ei tulisi puuttua sellaisiin alueisiin kuin uskonto, tiede ja teollisuus, jotta voidaan säilyttää yksilön vapaus ja ihmisen toimintojen autonomia, jotka kuuluvat yksityiseen sfääriin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Cosa caratterizza la complessità dell'attuale processo di pagamento con carta in un punto vendita?
+answer: Si tratta di una procedura che coinvolge più intermediari, diverse fasi e che può richiedere giorni per il regolamento completo dei fondi.
+wrong_answers:
+  - Richiede solo un passaggio immediato e i fondi vengono liquidati immediatamente.
+  - Si basa esclusivamente sul contante fisico e su nessun intermediario.
+  - Assicura che, una volta strisciata la carta, l'esercente disponga dei fondi in modo istantaneo e irreversibile.
+explanation: |
+  I pagamenti con carta spesso coinvolgono una catena di intermediari (acquirer, emittenti, reti di carte), richiedono fasi di autorizzazione e regolamento e possono richiedere da 48 ore a diversi giorni prima che l'esercente riceva i fondi netti.
+reviewed: false

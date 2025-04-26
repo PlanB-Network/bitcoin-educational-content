@@ -1,9 +1,9 @@
-question: Qual è il significato dell'indirizzo multi-sig 2/2 nel processo di apertura di un canale nella Lightning Network?
-answer: È l'indirizzo a cui Alice invia denaro per aprire il canale.
+question: Quando viene pubblicata una transazione di impegno sulla blockchain di Bitcoin?
+answer: Alla fine, quando il canale viene chiuso
 wrong_answers:
-  - È l'indirizzo da cui Alice invia denaro per aprire il canale.
-  - È l'indirizzo a cui Bob invia denaro per aprire il canale.
-  - È l'indirizzo da cui Bob invia denaro per aprire il canale.
+  - Immediatamente dopo ogni trasferimento nel canale
+  - Prima di ogni nuova transazione di impegno
+  - Quando i fondi disponibili sono esauriti
 explanation: |
-  Nel processo di apertura di un canale, Alice crea un indirizzo multi-sig 2/2 utilizzando i suoi e i pubblici indirizzi di Bob. Successivamente, effettua una transazione bitcoin per inviare denaro a questo indirizzo al fine di aprire il canale.
+  Le transazioni di impegno sono costruite e firmate per ogni cambiamento nella allocazione, ma sono pubblicate sulla blockchain solo alla fine, in caso di chiusura del canale.
 reviewed: false

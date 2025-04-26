@@ -1,0 +1,8 @@
+question: 如果Bob在通道关闭过程中发现Alice试图作弊，他能做什么？
+answer: 使用撤销密钥回收所有资金
+wrong_answers:
+  - 取消Alice的承诺交易
+  - 永久关闭通道，且无法重新开启
+  - 只索取一半可用资金
+explanation:
+  在作弊事件中，Bob可以使用撤销密钥从通道中回收所有资金，从而惩罚Alice的尝试行为。

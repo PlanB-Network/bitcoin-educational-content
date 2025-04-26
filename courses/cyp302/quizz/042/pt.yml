@@ -1,0 +1,9 @@
+question: Como é chamado um grupo que satisfaz a condição de comutatividade?
+answer: Um grupo abeliano
+wrong_answers:
+  - Um grupo fechado
+  - Um grupo associativo
+  - Um grupo inverso
+explanation: |
+  Um grupo abeliano, ou comutativo, é um grupo no qual a ordem dos elementos na operação binária não afeta o resultado. Isso significa que para quaisquer a e b, a ∘ b = b ∘ a.
+reviewed: false

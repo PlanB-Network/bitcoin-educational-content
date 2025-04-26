@@ -4,7 +4,7 @@ answer: Paikallisesti lompakko-ohjelmistossa.
 
 wrong_answers:
   - Keskusyksikön hallinnoimassa tietokannassa.
-  - Bitcoin-lohkoketjussa OP_RETURN:n kautta.
+  - Bitcoin-lohkoketjussa OP_RETURN: n kautta.
   - Vain RAM-muistissa ohjelmiston suorituksen aikana.
 
 explanation: |

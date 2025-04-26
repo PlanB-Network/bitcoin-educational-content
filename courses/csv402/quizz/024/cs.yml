@@ -1,0 +1,9 @@
+question: Jaký mechanismus v RGB umožňuje seskupit více přechodů v jedné transakci Bitcoin?
+answer: Přechodový balíček
+wrong_answers:
+  - Agregace těsnění
+  - Strom s více závazky
+  - Státní konsolidace
+explanation: |
+  Svazek přechodů je sada přechodů stavu RGB (patřících ke stejnému kontraktu), které jsou všechny zapojeny do stejné transakce svědka bitcoinu.
+reviewed: false

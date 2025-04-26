@@ -1,0 +1,9 @@
+question: Hvis det i en enkel betalingstransaksjon observeres at samme type skript brukes i inndata og kun på én av de 2 utdataene, hvilken utdata representerer sannsynligvis vekslingen?
+answer: Den med samme type skript som inndata.
+wrong_answers:
+  - Den med den mest nylige skripttypen.
+  - Den med en annen type skript enn inndata.
+  - Den med en ikke-standard skripttype.
+explanation: |
+  Hvis det forekommer gjenbruk av versjonering innenfor en transaksjon, er det rimelig å anta at brukeren fortsatt besitter den tilknyttede UTXO. Derfor er utdataen med samme skriptversjon som inndata sannsynligvis vekslingen.
+reviewed: false

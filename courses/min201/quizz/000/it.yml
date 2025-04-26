@@ -1,9 +1,13 @@
-question: Qual è la ricompensa attuale per il mining nella rete Bitcoin?
-answer: La creazione di nuovi bitcoin e le commissioni di transazione
+question: Qual è l'attuale ricompensa per il mining nella rete Bitcoin?
+answer: La creazione di nuovi bitcoin e le commissioni sulle transazioni
 wrong_answers:
-  - Solo la creazione di nuovi bitcoin
-  - Solo le commissioni di transazione
-  - La creazione di nuovi bitcoin, le commissioni di transazione e un bonus per il minatore più veloce
+  - La creazione di nuovi bitcoin soltanto
+  - Solo le commissioni sulle transazioni
+  - La creazione di nuovi bitcoin, le commissioni sulle transazioni e un bonus per il minatore più veloce
 explanation: |
-  La ricompensa attuale per il mining nella rete Bitcoin è duplice. Essa include la creazione di nuovi bitcoin, che è diminuita da 50 bitcoin ogni dieci minuti inizialmente a 6,25 bitcoin oggi (2023). Include anche le commissioni di transazione, o commissioni di mining, dalle transazioni che il minatore sceglie di includere nel suo blocco.
-reviewed: false
+  L'attuale ricompensa per il mining nella rete Bitcoin è
+  duplice. Include la creazione di nuovi bitcoin, che
+  è diminuita da 50 bitcoin ogni dieci minuti inizialmente
+  a 6.25 bitcoin oggi (2023). Include anche le commissioni sulle transazioni, o commissioni di mining, dalle transazioni che il minatore
+  sceglie di includere nel proprio blocco.
+reviewed: vero

@@ -1,0 +1,8 @@
+question: Apa batasan praktis utama dari one-time pad?
+answer: Kunci harus sepanjang pesan dan tidak boleh digunakan kembali
+wrong_answers:
+  - Kunci harus diganti setiap hari
+  - Kunci harus tiga kali lebih panjang dari pesan
+  - Kunci harus disimpan pada Minitel Prancis
+explanation: |
+  Kunci dalam one-time pad harus sepanjang pesan dan tidak boleh digunakan kembali, yang secara signifikan mempersulit penggunaannya dalam konteks praktis. Ini karena jika seseorang mampu mengirimkan data sepanjang pesan secara aman, akan lebih masuk akal untuk langsung mengirimkan pesan daripada kunci.

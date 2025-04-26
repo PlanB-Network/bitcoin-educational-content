@@ -1,0 +1,8 @@
+question: Apa implikasi dari teorema Euler dalam konteks kriptografi asimetris?
+answer: Ini menyederhanakan perhitungan pangkat
+wrong_answers:
+  - Ini memungkinkan enkripsi langsung pesan
+  - Ini digunakan untuk menemukan bilangan prima
+  - Ini digunakan untuk memverifikasi paritas suatu angka
+explanation: |
+  Dalam kriptografi asimetris, teorema Euler menyederhanakan perhitungan pangkat dalam skema seperti RSA, karena menyediakan metode untuk memanipulasi eksponensiasi modular.

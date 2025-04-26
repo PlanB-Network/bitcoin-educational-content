@@ -1,0 +1,9 @@
+question: Mis on keskne küsimus isehoidmise kohta, kui valida Bitcoin'i rahakotti?
+answer: Kas olete vahendite omanik või jätate oma raha kolmanda osapoole kontrolli alla?
+wrong_answers:
+  - Kas rahakott on turvatud paroolifraasiga?
+  - Kas rahakott võimaldab bitcoine vastu võtta ja saata?
+  - Kas ma saan oma rahakotti teisele isikule jagada?
+explanation: |
+  Bitcoin'i rahakotti valides on keskne question: Kas olete vahendite omanik või jätate oma raha kolmanda osapoole kontrolli alla? See on seetõttu, et privaatvõtme omanik on Bitcoinide omanik.
+reviewed: true

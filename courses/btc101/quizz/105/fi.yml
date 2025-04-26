@@ -1,9 +1,11 @@
-question: Miksi yksityisyys on tärkeää Bitcoinin yhteydessä?
-answer: Minimoidaksesi varojesi jäljittämisen riskit
+question: Miksi yksityisyys on tärkeää Bitcoinin kontekstissa?
+answer: Minimoidaksesi riskin, että varojasi voidaan jäljittää.
 wrong_answers:
-  - Vähentääksesi bitcoiniesi arvoa
-  - Estääksesi bitcoiniesi varastamisen
-  - Maksaa veroja bitcoineistasi
+  - Vähentääksesi bitcoiniesi arvoa.
+  - Estääksesi bitcoiniesi varastamisen.
+  - Maksaa veroja bitcoineistasi.
 explanation: |
-  Yksityisyys on tärkeää Bitcoinin yhteydessä, jotta voidaan minimoida varojesi jäljittämisen riskit, mikä voi johtaa valvontaan.
-reviewed: false
+  Yksityisyys on tärkeää Bitcoinin kontekstissa, jotta voidaan minimoida
+  riskit varojesi jäljittämisestä, mikä voi helpottaa
+  valvontaasi.
+reviewed: true

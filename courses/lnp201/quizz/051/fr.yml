@@ -1,9 +1,9 @@
-question: Qu'est-ce que le routage en oignon dans le contexte du Lightning Network ?
-answer: Une méthode où les intermédiaires ne savent pas qui est le destinataire final, ni qui envoie le paiement.
+question: Qu'est-ce que la technique d'ouverture en triangle permet aux nœuds participants d'obtenir ?
+answer: De la liquidité entrante et sortante dans chaque canal
 wrong_answers:
-  - Une méthode où les intermédiaires connaissent à la fois l'expéditeur et le destinataire.
-  - Une méthode où seul l'expéditeur connaît l'itinéraire et le prix.
-  - Une méthode où le destinataire final décide de l'itinéraire avant d'envoyer le paiement.
+  - Des frais de routage réduits
+  - Un nombre illimité de transactions sans confirmation
+  - Un lien direct avec chaque autre nœud du réseau
 explanation: |
-  Le routage en oignon dans le Lightning Network est une méthode où les intermédiaires ne savent pas qui est le destinataire final, ni qui envoie le paiement. Le nœud doit garder un plan du réseau pour trouver son itinéraire, mais aucun des intermédiaires n'a d'informations.
+  L'ouverture en triangle permet à chaque nœud d'obtenir une liquidité équilibrée, tant entrante que sortante, en formant une boucle de canaux entre plusieurs participants.
 reviewed: false

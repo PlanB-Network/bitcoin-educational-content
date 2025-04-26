@@ -1,9 +1,10 @@
-question: Qual è l'impatto del 2% di inflazione sul potere d'acquisto nel corso di 5 anni?
-answer: Perdi il 10% del tuo potere d'acquisto.
+question: Qual è l'impatto di un'inflazione del 2% sul potere d'acquisto in 5 anni?
+answer: Si perde il 10% del proprio potere d'acquisto.
 wrong_answers:
-  - Perdi il 2% del tuo potere d'acquisto.
-  - Perdi il 5% del tuo potere d'acquisto.
-  - Perdi il 20% del tuo potere d'acquisto.
+  - Si perde il 2% del proprio potere d'acquisto.
+  - Si perde il 5% del proprio potere d'acquisto.
+  - Si perde il 20% del proprio potere d'acquisto.
 explanation: |
-  Con un'inflazione del 2%, perdi il 2% del tuo potere d'acquisto annualmente, il che equivale al 10% nel corso di 5 anni.
-reviewed: false
+  Con un'inflazione del 2%, si perde il 2% del proprio potere d'acquisto
+  annualmente, il che equivale al 10% in 5 anni.
+reviewed: true

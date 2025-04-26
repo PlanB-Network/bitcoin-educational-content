@@ -1,11 +1,9 @@
-question: Jaký je účel doplňkových bitů v předzpracování SHA256?
-answer: Aby se velikost vstupu dostala na dokonalý násobek 512 bitů
+question: Jaká konstrukce je používána SHA256 pro zpracování zpráv libovolné délky?
+answer: Konstrukce Merkle-Damgård
 wrong_answers:
-  - Zvětšit velikost vstupu na 256 bitů
-  - Přidat složitost vstupu
-  - Snížit velikost vstupu na 512 bitů
+  - Euklidovská konstrukce
+  - Konstrukce Rivest-Shamir-Adleman
+  - Konstrukce Knuth-Morris-Pratt
 explanation: |
-  V předzpracovací fázi SHA256 jsou k vstupu přidány doplňkové bity,
-  aby se jeho velikost dostala na dokonalý násobek 512 bitů. To se dělá proto, aby
-  všechny složky dokonale zapadly do kryptografického receptu.
+  Konstrukce Merkle-Damgård umožňuje transformovat kompresní funkci na hašovací funkci pro zprávy proměnné délky.
 reviewed: false

@@ -3,9 +3,9 @@ answer: Se on Bitcoin-protokollan turvallisuuskonsensus.
 wrong_answers:
   - Se on prosessi uusien bitcoinien luomiseksi.
   - Se on menetelmä Bitcoin-siirtojen vahvistamiseksi.
-  - Se on algoritmi, jota käytetään bitcoinien louhintaan.
+  - Se on algoritmi, jota käytetään bitcoinien louhimiseen.
 explanation: >-
   Proof of Work on konsensusalgoritmi, jota käytetään Bitcoin-verkossa
   siirtojen vahvistamiseen ja uusien lohkojen luomiseen. Se vaatii louhijoilta monimutkaisten
-  matemaattisten ongelmien ratkaisemista, varmistaen verkoston turvallisuuden ja eheyden.
-reviewed: false
+  matemaattisten ongelmien ratkaisemista, varmistaen verkon turvallisuuden ja eheyden.
+reviewed: true

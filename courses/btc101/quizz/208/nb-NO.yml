@@ -1,0 +1,9 @@
+question: Hva er en av de potensielle konsekvensene av å ikke følge regelverket i ditt land når du kjøper Bitcoin?
+answer: Du kan utsette deg selv for risiko.
+wrong_answers:
+  - Du kan øke prisen på Bitcoin.
+  - Du kan kontrollere tilførselen av Bitcoin.
+  - Du kan hindre andre i å kjøpe Bitcoin.
+explanation: >-
+  Teksten nevner at det å ikke følge regelverket i ditt land
+  når du kjøper Bitcoin kan utsette deg selv for risiko.

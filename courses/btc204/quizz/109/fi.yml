@@ -1,0 +1,13 @@
+question: Miksi payjoinin käyttäminen maksamiseen on usein monimutkaista?
+
+answer: Se vaatii vastaanottajan aktiivista yhteistyötä rakenteen luomisessa
+
+wrong_answers:
+  - Se vaatii kiinteät summat jokaiselle transaktiolle
+  - Se pakottaa molemmat osapuolet käyttämään samaa ohjelmistotyyppiä
+  - Se vaatii maksajalta vähintään 2 UTXOa, jotka ovat suurempia kuin maksun arvo
+
+explanation: |
+  Payjoinin käytön vaikeus piilee sen riippuvuudessa kauppiaan osallistumisesta. Asiakkaana payjoinin käyttäminen on mahdotonta, jos kauppias ei tue sitä.
+
+reviewed: false

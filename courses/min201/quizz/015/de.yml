@@ -1,9 +1,9 @@
-question: Auf welchem Prinzip basiert das Bitcoin-Mining?
-answer: Das Bitcoin-Mining basiert auf einem Lotterieprinzip, bei dem die Chancen, alle zehn Minuten einen Block zu gewinnen (und somit die Bitcoin-Belohnung), für einen einzelnen kleinen Miner äußerst gering sind.
+question: Nach welchem Prinzip funktioniert das Bitcoin-Mining?
+answer: Das Bitcoin-Mining funktioniert nach einem Lotterieprinzip, bei dem die Gewinnchancen für einen Block (und damit die Bitcoin-Belohnung) alle zehn Minuten für einen einzelnen kleinen Miner extrem gering sind.
 wrong_answers:
-  - Das Bitcoin-Mining basiert auf einem First-Come-First-Serve-Prinzip, bei dem der erste Miner, der ein komplexes mathematisches Problem löst, die Bitcoin-Belohnung erhält.
-  - Das Bitcoin-Mining basiert auf einem Bietungsprinzip, bei dem der Miner, der das höchste Gebot abgibt, die Bitcoin-Belohnung erhält.
-  - Das Bitcoin-Mining basiert auf einem Rotationsprinzip, bei dem jeder Miner an der Reihe ist, einen Block zu minen und die Bitcoin-Belohnung zu erhalten.
+  - Bitcoin-Mining funktioniert nach einem Prinzip des Wer zuerst kommt, mahlt zuerst, bei dem der erste Miner, der ein komplexes mathematisches Problem löst, die Bitcoin-Belohnung erhält.
+  - Bitcoin-Mining funktioniert nach einem Bietprinzip, bei dem der Miner, der das höchste Gebot abgibt, die Bitcoin-Belohnung erhält.
+  - Bitcoin-Mining funktioniert nach einem Rotationsprinzip, bei dem jeder Miner reihum die Chance bekommt, einen Block zu minen und die Bitcoin-Belohnung zu erhalten.
 explanation: |
-  Das Kapitel erklärt, dass das Bitcoin-Mining auf einem Lotterieprinzip basiert, bei dem die Chancen, alle zehn Minuten einen Block zu gewinnen (und somit die Bitcoin-Belohnung), für einen einzelnen kleinen Miner äußerst gering sind.
-reviewed: false
+  Das Kapitel erklärt, dass das Bitcoin-Mining auf einem Lotterieprinzip basiert, bei dem die Gewinnchancen für einen Block (und damit die Bitcoin-Belohnung) alle zehn Minuten für einen einzelnen kleinen Miner extrem gering sind.
+reviewed: true

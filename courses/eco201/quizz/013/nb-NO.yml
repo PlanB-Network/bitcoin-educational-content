@@ -1,0 +1,13 @@
+question: Hva er hovedproblemet med fraksjonelle reserve-systemet?
+answer: Hovedproblemet med det fraksjonelle reserve-systemet er at betydelige uttak fra en bestemt bank potensielt kan føre til konkurs.
+wrong_answers:
+  - Hovedproblemet med det fraksjonelle reserve-systemet er at det hindrer banker i å låne ut penger.
+  - Hovedproblemet med det fraksjonelle reserve-systemet er at det krever at banker holder mer i reserver enn det de mottar i innskudd.
+  - Hovedproblemet med det fraksjonelle reserve-systemet er at det hindrer banker i å skape ny penger.
+explanation: |
+  I et fraksjonelt reserve-system holder banker kun en brøkdel av
+  innskyternes
+  midler i reserve, og låner ut resten. Hvis mange kunder samtidig haster med å
+  ta ut sine midler, kan banken ikke ha nok reserver til å møte disse kravene,
+  noe som potensielt kan føre til konkurs.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Perché la crittografia è cruciale in un ambiente di comunicazione aperto?
+answer: Protegge i dati, anche se il canale di comunicazione viene intercettato.
+wrong_answers:
+  - Rende le comunicazioni invisibili a tutte le reti.
+  - Impedisce attacchi alle reti locali.
+  - Sostituisce i cavi fisici con comunicazioni sicure.
+explanation: |
+  In un ambiente di comunicazione aperto, dove i canali possono essere monitorati, la crittografia garantisce la sicurezza proteggendo i dati scambiati, anche in presenza di potenziali attacchi.
+reviewed: false

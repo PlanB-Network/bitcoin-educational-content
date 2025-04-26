@@ -1,9 +1,0 @@
-question: Was ist der Zweck des Chain Codes in einem erweiterten Schlüssel?
-answer: Er ermöglicht spezifische Ableitungen von Kinderschlüsseln.
-wrong_answers:
-  - Er wird verwendet, um den Master-Schlüssel zu generieren.
-  - Er wird verwendet, um den erweiterten Schlüssel zu verschlüsseln.
-  - Er wird verwendet, um die Authentizität des erweiterten Schlüssels zu überprüfen.
-explanation: |
-  Der Chain Code ist zusammen mit dem Elternschlüssel wesentlich für die Ableitung von Kinderschlüsseln. Durch die Verkettung des Elternschlüssels mit dem Chain Code wird ein erweiterter privater oder öffentlicher Schlüssel erhalten.
-reviewed: false

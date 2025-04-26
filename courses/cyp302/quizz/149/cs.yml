@@ -1,0 +1,8 @@
+question: Jaká je definice celého čísla, které je nesoudělné vzhledem k jinému celému číslu?
+answer: Celé číslo, které má s tím druhým celým číslem největšího společného dělitele 1
+wrong_answers:
+  - Celé číslo, které je dělitelné druhým celým číslem beze zbytku
+  - Celé číslo, které je prvočíslo
+  - Celé číslo, které je větší než to druhé
+explanation: |
+  Celé číslo je nesoudělné s jiným, pokud jejich největší společný dělitel je 1, což znamená, že nemají žádný jiný společný dělitel.

@@ -1,0 +1,9 @@
+question: Comment un block cipher peut-il être transformé en stream cipher ?
+answer: En utilisant des modes comme OFB qui génèrent un flux de clés à partir du block cipher
+wrong_answers:
+  - En divisant le texte en clair en octets et en les chiffrant un par un
+  - En appliquant un padding aux messages avant le chiffrement
+  - En augmentant la longueur de la clé pour chaque bloc chiffré
+explanation: |
+  Les modes comme OFB permettent à un block cipher de se comporter comme un stream cipher en générant un flux de clés, utilisé ensuite pour chaque portion du texte en clair.
+reviewed: false

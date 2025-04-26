@@ -5,5 +5,5 @@ wrong_answers:
   - 79 600 000 000 000 000%
   - 100%
 explanation: |
-  Marraskuussa 2008 Zimbabwen valuutan kuukausittainen inflaatioaste kohosi 79 600 000 000%:iin, mikä murskasi Zimbabwen dollarin arvon täysin nollaan.
-reviewed: false
+  Marraskuussa 2008 Zimbabwen valuutan kuukausittainen inflaatioaste kohosi 79 600 000 000%; iin, mikä murskasi Zimbabwen dollarin arvon nollaan.
+reviewed: true

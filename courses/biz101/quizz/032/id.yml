@@ -1,0 +1,9 @@
+question: Apa manfaat memulai dari yang kecil saat pertama kali menerima pembayaran Bitcoin?
+answer: Hal ini memungkinkan bisnis untuk belajar dari beberapa transaksi awal dan secara bertahap beralih ke solusi yang lebih canggih jika permintaan pelanggan meningkat.
+wrong_answers:
+  - Hal ini memaksa bisnis untuk segera menggunakan solusi penyimpanan mandiri.
+  - Hal ini mencegah bisnis untuk meningkatkan atau mengganti penyedia di kemudian hari.
+  - Ini mengharuskan perusahaan untuk menerima Bitcoin dari setiap pelanggan sebelum memahami prosesnya.
+explanation: |
+  Memulai dengan pendekatan tingkat pemula yang sederhana memungkinkan bisnis untuk mendapatkan pengalaman praktis tanpa risiko yang signifikan. Jika minat terhadap pembayaran Bitcoin terbukti bermanfaat, perusahaan dapat meningkatkan infrastrukturnya dan mengintegrasikan alat yang lebih canggih.
+reviewed: false

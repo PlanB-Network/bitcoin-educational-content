@@ -1,9 +1,9 @@
-question: Qu'est-ce qu'une phrase mnémonique dans le contexte d'un portefeuille Bitcoin ?
-answer: C'est une sauvegarde du portefeuille.
+question: Que signifie une apostrophe (') ou le h dans un chemin de dérivation ?
+answer: Une dérivation endurcie
 wrong_answers:
-  - C'est un mot de passe pour le portefeuille.
-  - C'est l'historique des transactions du portefeuille.
-  - C'est une signature numérique du portefeuille.
+  - Une dérivation normale
+  - Une dérivation externe
+  - Une dérivation non standard
 explanation: |
-  Une phrase mnémonique est générée pour assurer la sauvegarde du portefeuille Bitcoin.
+  Une apostrophe indique que la dérivation est endurcie, nécessitant une clé privée parent pour générer la clé enfant.
 reviewed: false

@@ -1,0 +1,9 @@
+question: ¿En qué se diferencia el capital creado artificialmente a partir de dinero basado en deuda del capital al estilo austriaco?
+answer: El capital al estilo austriaco procede del ahorro real y el sacrificio, mientras que el capital basado en la deuda se crea instantáneamente a partir del crédito y puede distorsionar las señales económicas.
+wrong_answers:
+  - El capital al estilo austriaco se genera imprimiendo más dinero siempre que sea necesario.
+  - El capital basado en deuda nunca requiere reembolso y equivale a ahorro real.
+  - No hay diferencia; ambas formas de capital son idénticas en naturaleza y efecto.
+explanation: |
+  El capital austriaco surge del consumo real no realizado y de una inversión cuidadosa. El capital basado en la deuda, creado fácilmente mediante préstamos, puede inducir a error a los empresarios y dar lugar a inversiones ineficaces, ya que no refleja el verdadero ahorro ni las preferencias de los consumidores.
+reviewed: false

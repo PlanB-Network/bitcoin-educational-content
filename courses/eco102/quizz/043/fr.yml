@@ -1,0 +1,9 @@
+question: Quel est le point commun entre les protectionnistes et les socialistes selon Bastiat ?
+answer: Ils veulent tous deux favoriser l'exploitation d'une partie de la population
+wrong_answers:
+  - Ils défendent tous deux la liberté économique
+  - Ils souhaitent tous deux une plus grande égalité sociale
+  - Ils s'opposent tous deux à l'intervention de l'État dans l'économie
+explanation: |
+  Bastiat critique les deux idéologies pour leur propension à favoriser l'exploitation d'une classe par une autre, au détriment de l'intérêt général.
+reviewed: false

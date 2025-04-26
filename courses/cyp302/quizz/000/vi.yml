@@ -1,0 +1,8 @@
+question: Ai đã giao một chiếc hộp sắt cho người quản lý quán trọ Robert Morriss để giữ an toàn?
+answer: Thomas J. Beale
+wrong_answers:
+  - J.B. Ward
+  - Simon Singh
+  - Andrew Allen
+explanation: |
+  Chính Thomas J. Beale đã trao một chiếc hộp sắt chứa các tài liệu được mã hóa và một ghi chú cho Robert Morriss, đưa ra hướng dẫn cho ông trong trường hợp mình không quay trở lại.

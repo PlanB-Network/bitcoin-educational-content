@@ -1,0 +1,9 @@
+question: Šta meri retrospektivna anonset?
+answer: Otpornost privatnosti protiv analize sadašnjosti prema prošlosti.
+wrong_answers:
+  - Otpor privatnosti protiv analize prošlost-budućnost.
+  - Otpor privatnosti protiv analize sadašnjosti u budućnosti.
+  - Otpor privatnosti protiv analize prošlost-sadašnjost.
+explanation: |
+  Retrospektivni anonset meri otpornost privatnosti novčića protiv analize od sadašnjosti ka prošlosti (izlaz ka ulazu).
+reviewed: false

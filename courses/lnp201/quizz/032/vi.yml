@@ -1,9 +1,13 @@
-question: Điều gì xảy ra khi một giao dịch cam kết mới được tạo ra?
-answer: Một bí mật mới được quyết định và một chìa khóa thu hồi mới được tạo ra, và giao dịch cam kết trước đó phải được hủy bỏ bằng cách cung cấp bí mật thu hồi.
+question: Vai trò của phí định tuyến trong Mạng Lưới Lightning là gì?
+
+answer: Để khuyến khích các nút trung gian cung cấp tính thanh khoản của họ cho việc chuyển giao thanh toán
+
 wrong_answers:
-  - Giao dịch cam kết trước đó được giữ lại như một bản sao lưu.
-  - Một Timelock mới được tạo ra và giao dịch cam kết trước đó được cập nhật.
-  - Giao dịch cam kết trước đó được cập nhật với bí mật mới và chìa khóa thu hồi.
+  - Để hạn chế số lượng giao dịch trên mạng
+  - Để đảm bảo mỗi kênh có đủ quỹ
+  - Để tự động tính toán đường đi ngắn nhất
+
 explanation: |
-  Khi một giao dịch cam kết mới được tạo ra, một bí mật mới và một chìa khóa thu hồi mới được quyết định. Giao dịch cam kết trước đó phải được hủy bỏ bằng cách cung cấp bí mật thu hồi để ngăn chặn bất kỳ bên nào gian lận bằng cách công bố một trạng thái cũ.
+  Phí định tuyến được sử dụng để bù đắp cho các nút trung gian chuyển tiền bằng cách cung cấp tính thanh khoản của họ để kích hoạt việc chuyển tiền qua mạng.
+
 reviewed: false

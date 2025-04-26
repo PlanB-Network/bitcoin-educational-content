@@ -1,0 +1,9 @@
+question: Strategi akuisisi apa yang dapat diadopsi oleh hodler hybrid?
+answer: Rata-rata Biaya Dolar
+wrong_answers:
+  - Perdagangan algoritmik
+  - Arbitrase
+  - Peretasan
+explanation: |
+  Dollar-Cost Averaging memungkinkan pembelian Bitcoin secara reguler untuk memperhalus harga pembelian rata-rata dari waktu ke waktu. Pedagang dapat menggabungkan ini dengan pembelian sekaligus sesekali.
+reviewed: false

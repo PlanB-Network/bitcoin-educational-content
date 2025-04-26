@@ -1,9 +1,11 @@
-question: ¿Cuál es la principal desventaja del oro como forma de dinero?
-answer: No es fácilmente divisible o transportable a largas distancias.
+question: ¿Cuál es una de las desventajas del oro como forma de dinero?
+answer: No es fácilmente divisible.
 wrong_answers:
-  - No mantiene su valor a través del espacio.
+  - No mantiene su valor en diferentes lugares.
   - Se erosiona con el tiempo.
   - Es fácil de producir.
 explanation: |
-  La principal desventaja del oro como forma de dinero es que no es fácilmente divisible o transportable a largas distancias. Esto lo hace menos práctico en un mundo globalizado y digital.
-reviewed: false
+  Una de las principales desventajas del oro como forma de dinero es
+  que es difícil dividirlo en unidades pequeñas según se
+  necesite, lo que lo hace menos práctico para usar.
+reviewed: true

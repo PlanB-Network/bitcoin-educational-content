@@ -1,0 +1,9 @@
+question: What is the characteristic of a uniform variable?
+answer: All possible values have an equal probability of occurring
+wrong_answers:
+  - The values follow an asymmetric distribution
+  - The probability of each value depends on the experiment
+  - Only two values can occur with equal probabilities
+explanation: |
+  A uniform variable is a random variable where all possible values have an equal probability of occurring.
+reviewed: false

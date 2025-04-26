@@ -1,10 +1,9 @@
-question: Mitä tarkoittaa sanoa, että Bitcoin on kuin musta aukko?
-answer: Se ei katoa ja ajan myötä se imee kaiken tielleen osuvan.
+question: Missä palvelussa on luettelo Bitcoin:n hyväksyvistä kauppiaista maailmanlaajuisesti?
+answer: BTC-kartta
 wrong_answers:
-  - Se lopulta romahtaa oman painonsa alla.
-  - Se on uhka maailmanlaajuiselle rahoitusjärjestelmälle.
-  - Se on mysteeri, jota tiedemiehet yhä yrittävät ymmärtää.
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Sveitsin Bitcoin Palkka
 explanation: |
-  Lausunto, että Bitcoin on kuin musta aukko, viittaa sen kestävyyteen
-  ja sen potentiaaliin tulla hallitsevaksi rahoitusjärjestelmäksi, imien kaikki muut järjestelmät
-  tielleen osuvat.
+  BTC Map on erityinen alusta, joka etsii Bitcoin:n hyväksyvät kauppiaat ympäri maailmaa.
+reviewed: false

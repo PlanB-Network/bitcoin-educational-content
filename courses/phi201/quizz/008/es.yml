@@ -1,0 +1,9 @@
+question: Según Bastiat, ¿cuál es la peor forma de saqueo?
+answer: Los impuestos y los monopolios
+wrong_answers:
+  - El robo cometido por un individuo contra otro
+  - La guerra y las conquistas
+  - Todas las formas de saqueo son igualmente malas
+explanation: |
+  Bastiat considera que los impuestos y los monopolios son la peor forma de saqueo porque están legitimados por el estado, lo que lleva a una apropiación sistemática de los recursos y libertades de los individuos, a menudo bajo la apariencia del interés público.
+reviewed: false

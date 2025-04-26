@@ -1,12 +1,9 @@
-question: Can one cheat by publishing an old state in a commitment transaction?
-answer: "Yes"
+question: What happens if a payment through HTLC is not completed within the allotted time?
+answer: The payment is canceled and the funds return to the sender.
 wrong_answers:
-  - "No"
-  - Only if they have the revocation key.
-  - Only if they created the transaction with the Timelock.
+  - The payment is kept by the last intermediary node
+  - The funds are distributed to all nodes in the path
+  - The funds are permanently blocked
 explanation: |
-  One can cheat by publishing an old state in a commitment transaction
-  because both participants have the pre-signature of the unpublished transaction.
-  However, measures like the Timelock and the revocation key are in place to prevent
-  this.
+  If an HTLC expires without the secret being revealed, the payment is canceled and the funds return to the sender, thus preventing any intermediary node from keeping the funds.
 reviewed: false

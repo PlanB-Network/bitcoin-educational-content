@@ -1,8 +1,0 @@
-question: Thuật toán nào được sử dụng để tạo ra một khóa công khai?
-answer: ECDSA (Elliptic Curve Digital Signature Algorithm)
-wrong_answers:
-  - "RSA (Rivest–Shamir–Adleman)"
-  - SHA-256 (Secure Hash Algorithm 256)
-  - AES (Advanced Encryption Standard)
-explanation: |
-  Một khóa công khai được tạo ra sử dụng thuật toán ECDSA (Elliptic Curve Digital Signature Algorithm).

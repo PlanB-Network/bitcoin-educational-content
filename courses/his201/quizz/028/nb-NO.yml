@@ -1,0 +1,9 @@
+question: Hva var prisen i dollar ifølge Hal Finneys prediksjon i januar 2009?
+answer: 10,000,000
+wrong_answers:
+  - 1,000,000
+  - 100,000
+  - 10,000
+explanation: |
+  Han [skrev](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) at muligheten for å generere enheter i dag med noen få cent i databehandlingstid kunne være et veldig godt veddemål.
+reviewed: false

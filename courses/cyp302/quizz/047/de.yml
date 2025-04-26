@@ -1,0 +1,9 @@
+question: Was ist das Ergebnis der Exponentiation a^ϕ(N) mod N für zwei teilerfremde ganze Zahlen a und N gemäß dem Satz von Euler?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  Der Satz von Euler besagt, dass für zwei teilerfremde ganze Zahlen a und N die Exponentiation a^ϕ(N) mod N immer gleich 1 mod N ist, eine Eigenschaft, die in der Kryptographie verwendet wird.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在 RGB 传输过程中，终端托运的目的是什么？
+answer: 提供国家过渡历史
+wrong_answers:
+  - 验证创世纪合同
+  - 删除旧的过渡
+  - 为传输生成新模式
+explanation: |
+  终端委托收集合同的历史记录，以证明迄今为止转让资产的合法性。
+reviewed: false

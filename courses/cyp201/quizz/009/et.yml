@@ -1,0 +1,8 @@
+question: Millist konstruktsiooni kasutab SHA256 sõnumite töötlemiseks, mille pikkus on suvaline?
+answer: Merkle-Damgårdi konstruktsioon
+wrong_answers:
+  - Eukleidese konstruktsioon
+  - Rivest-Shamir-Adlemani konstruktsioon
+  - Knuth-Morris-Pratti konstruktsioon
+explanation: |
+  Merkle-Damgårdi konstruktsioon võimaldab muuta kokkusurumisfunktsiooni hash-funktsiooniks muutuva pikkusega sõnumite jaoks.

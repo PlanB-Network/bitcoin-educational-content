@@ -1,0 +1,11 @@
+question: ASIC在比特币挖矿中的主要优势是什么？
+answer: 它们可以非常高效地执行一种特定类型的计算
+wrong_answers:
+  - 它们可以执行多种不同类型的计算
+  - 它们比CPU消耗的电力更少
+  - 它们比CPU更便宜
+explanation:
+  ASIC是一种芯片，可以与CPU芯片相比，但是，它们
+  被开发用来以尽可能高效的方式执行仅一种特定类型的
+  计算。就比特币ASIC而言，它们是为计算SHA256算法而设计的。
+reviewed: true

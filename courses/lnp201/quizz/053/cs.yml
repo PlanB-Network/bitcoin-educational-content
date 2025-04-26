@@ -1,11 +1,8 @@
-question: Co je Lightning Network?
-answer: Síť platebních kanálů.
+question: Proč musí router udržovat dobrou likviditu distribuci ve svých kanálech?
+answer: Aby maximalizoval počet plateb, které může směrovat
 wrong_answers:
-  - Typ kryptoměny.
-  - Technologie blockchainu.
-  - Digitální peněženka pro Bitcoin.
+  - Aby snížil transakční poplatky
+  - Aby se vyhnul otevírání nových kanálů
+  - Aby omezil použití Bitcoin blockchainu
 explanation: |
-  Lightning Network je síť platebních kanálů. Tisíce
-  vrstevníků se svými vlastními likvidními kanály jsou propojeni mezi sebou, a tak se
-  používají k provádění transakcí mezi nepropojenými vrstevníky.
-reviewed: false
+  Cílem routeru je směrovat co nejvíce plateb, aby získal poplatky, což vyžaduje dobrou distribuci likvidity na obou stranách kanálů, aby byla zajištěna směrovací kapacita.

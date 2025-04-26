@@ -1,9 +1,0 @@
-question: Co se stane s likviditou kanálu, když je v Lightning Network provedena transakce?
-answer: Likvidita je přerozdělena podél trasy mezi oběma stranami.
-wrong_answers:
-  - Likvidita zůstává stejná.
-  - Likvidita je převedena do jiného kanálu.
-  - Likvidita se zvyšuje.
-explanation: |
-  V Lightning Network, když je provedena transakce, likvidita je přerozdělena podél trasy mezi oběma stranami.
-reviewed: false

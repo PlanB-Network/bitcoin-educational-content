@@ -1,9 +1,9 @@
 question: Một nhược điểm tiềm ẩn của tiền tệ số do ngân hàng trung ương phát hành (CBDCs) là gì?
-answer: Chúng có thể hạn chế tự do tài chính của cá nhân và tạo điều kiện cho việc lạm dụng quyền lực theo chủ nghĩa độc tài.
+answer: Chúng có thể hạn chế tự do tài chính của cá nhân và tạo điều kiện cho việc lạm dụng quyền lực chuyên chế.
 wrong_answers:
   - Chúng có thể dẫn đến sự giảm lượng tiền trong lưu thông.
   - Chúng có thể dẫn đến sự giảm giá trị của Bitcoin.
   - Chúng có thể dẫn đến sự giảm giá trị của vàng.
 explanation: |
-  Tiền tệ số do ngân hàng trung ương phát hành (CBDCs) có thể tiềm ẩn hạn chế tự do tài chính của cá nhân và tạo điều kiện cho việc lạm dụng quyền lực theo chủ nghĩa độc tài. Điều này là bởi vì chúng sẽ tạo ra một nền kinh tế được lập kế hoạch trung ương một cách chặt chẽ hơn, với ngân hàng trung ương có nhiều quyền kiểm soát hơn đối với lượng tiền trong lưu thông.
-reviewed: false
+  Tiền tệ số do ngân hàng trung ương phát hành (CBDCs) có thể tiềm ẩn hạn chế tự do tài chính của cá nhân và tạo điều kiện cho việc lạm dụng quyền lực chuyên chế. Điều này là bởi vì chúng sẽ cung cấp một nền kinh tế được lập kế hoạch trung ương một cách chặt chẽ hơn, với ngân hàng trung ương có nhiều quyền kiểm soát hơn đối với lượng tiền trong lưu thông.
+reviewed: true

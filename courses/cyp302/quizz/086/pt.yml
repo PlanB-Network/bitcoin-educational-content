@@ -1,0 +1,8 @@
+question: Qual é a principal falha do método ECB com um cifrador de bloco?
+answer: É determinístico e pode revelar padrões nos dados
+wrong_answers:
+  - Requer chaves de comprimento variável
+  - Não funciona com mensagens acima de 128 bits
+  - Não funciona com mensagens acima de 256 bits
+explanation: |
+  O método ECB (Electronic Code Book) é determinístico: blocos idênticos de dados são criptografados da mesma maneira, o que permite que padrões sejam detectados no texto criptografado.

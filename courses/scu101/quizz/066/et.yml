@@ -1,0 +1,13 @@
+question: Millised on Passkey'de kasutamise eelised traditsiooniliste paroolide alternatiivina?
+answer: Nad pakuvad krüpteeritud juhuslikke võtmeid koos kohaliku faktoriga, mida haldab teenusepakkuja, kuid mis jäävad nende käeulatusest välja.
+wrong_answers:
+  - Neid on lihtsam meeles pidada kui traditsioonilisi paroole.
+  - Need ei nõua ühtegi lisatuvastusfaktorit.
+  - Neid saab kasutada kõikidel veebilehtedel ilma igasuguste uuendusteta.
+explanation: |
+  Passkey'd pakuvad krüpteeritud juhuslikke võtmeid, mis on kombineeritud kohaliku faktoriga
+  (biomeetria
+  või PIN), mida haldab teenusepakkuja, kuid mis jäävad nende käeulatusest välja. See lähenemine
+  kaotab vajaduse paroolide järele, pakkudes seeläbi kõrgetasemelist turvalisust ilma
+  traditsiooniliste paroolidega seotud piiranguteta.
+reviewed: false

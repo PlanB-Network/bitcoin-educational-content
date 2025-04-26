@@ -1,11 +1,9 @@
-question: What is a hash in the context of cryptographic hash functions?
-answer: A unique and fixed-size digital fingerprint produced by a hash function.
+question: What happens during each compression round in SHA256?
+answer: The state variables are updated from the message words and constants
 wrong_answers:
-  - A type of encryption algorithm.
-  - A key used to decrypt data.
-  - A method of compressing data.
+  - The final hash is progressively generated after each round
+  - The message bits are rearranged
+  - The initial values of the variables remain unchanged
 explanation: |
-  In the context of cryptographic hash functions, a hash is a unique and
-  fixed-size digital fingerprint produced by the hash function. It represents the
-  input data in a way that is unique and irreversible.
+  Each round modifies the state variables using words, constants, and logical operations to spread the information.
 reviewed: false

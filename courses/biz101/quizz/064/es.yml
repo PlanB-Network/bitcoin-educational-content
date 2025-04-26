@@ -1,0 +1,9 @@
+question: ¿Qué característica hace que la solución Swiss Bitcoin Pay sea especialmente adecuada para las pequeñas empresas del perfil Essential?
+answer: Una aplicación de TPV fácil de usar
+wrong_answers:
+  - Funciones avanzadas de negociación multidivisa
+  - Una gestión de monederos multifirma
+  - Integración completa de análisis de cadenas de bloques
+explanation: |
+  Swiss Bitcoin Pay está diseñado con una interfaz PoS sencilla que simplifica las operaciones diarias.
+reviewed: false

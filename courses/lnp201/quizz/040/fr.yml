@@ -1,9 +1,9 @@
-question: Que se passe-t-il lorsque Alice essaie de tricher en publiant une ancienne transaction d'engagement ?
-answer: Bob utilise la clé de révocation pour punir Alice et prendre tous les SAT du canal.
+question: Quel est le rôle principal du nœud émetteur dans le routage sur le Lightning Network ?
+answer: Calculer la route complète jusqu'au destinataire
 wrong_answers:
-  - Alice est récompensée pour son ingéniosité.
-  - Alice et Bob se partagent les SAT du canal.
-  - La transaction est rejetée et rien ne se passe.
+  - Stocker les informations de liquidité de tous les canaux du réseau
+  - Déterminer les frais de transaction pour chaque nœud intermédiaire
+  - Communiquer directement avec tous les nœuds intermédiaires
 explanation: |
-  Le Lightning Network dispose d'un mécanisme pour empêcher la triche. Si Alice essaie de tricher en publiant une ancienne transaction d'engagement, Bob peut utiliser la clé de révocation pour punir Alice et prendre tous les SAT du canal.
+  Le nœud émetteur est responsable de calculer la route entière jusqu'au destinataire, car les nœuds intermédiaires ne connaissent que leur voisin immédiat.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on keskpankade peamine ülesanne Keynesi doktriini kohaselt?
+answer: Raha tootmine ja haldamine
+wrong_answers:
+  - Rahandusvõimu detsentraliseerimine
+  - Kasvu ja inimratsionaalsuse kaine visiooni edendamine
+  - Mitte ükski ülaltoodust
+explanation: |
+  Peatükk mainib, et Keynesi doktriini kohaselt on raha tootmine ja haldamine keskpankade vastutus.
+reviewed: false

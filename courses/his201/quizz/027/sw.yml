@@ -1,0 +1,9 @@
+question: Ni kichwa kipi cha gazeti la Uingereza kilijumuishwa kwenye kitalu cha Bitcoin Genesis mnamo Januari 2009?
+answer: Nyakati
+wrong_answers:
+  - Mlezi
+  - Kujitegemea
+  - Telegraph
+explanation: |
+  Maandishi kamili yalikuwa The Times 03/Jan/2009 Chansela akikaribia kupata dhamana ya pili kwa benki.
+reviewed: false

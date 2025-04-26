@@ -1,0 +1,9 @@
+question: Millist võtmepikkust peetakse kaasaegse krüpteerimise puhul turvaliseks jõuga murdmise rünnakute vastu?
+answer: 128 bitti
+wrong_answers:
+  - 16 bitti
+  - 64 bitti
+  - 100 bitti
+explanation: |
+  Vähemalt 128-bitise võtmega peetakse kaasaegset krüpteerimist praegu turvaliseks jõuga murdmise rünnakute vastu, kuna katsete arv oleks ebareaalne.
+reviewed: false

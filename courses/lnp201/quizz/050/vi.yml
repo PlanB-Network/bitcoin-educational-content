@@ -1,8 +1,9 @@
-question: Hai loại phí trong Mạng Lưới Lightning là gì?
-answer: Một phí cố định không phụ thuộc vào số lượng và một phí biến đổi.
+question: Tại sao một người bán có thể thực hiện một khoản thanh toán giả tạo trong một kênh?
+answer: Để chuyển thanh khoản sang phía đối diện
 wrong_answers:
-  - Phí giao dịch và phí định tuyến.
-  - Phí của người gửi và phí của người nhận.
-  - Phí mạng và phí kênh.
+  - Để giảm phí định tuyến
+  - Để tăng tổng dung lượng của các kênh của họ
+  - Để khóa vốn lâu dài
 explanation: |
-  Trong Mạng Lưới Lightning, có hai loại phí; một phí cố định không phụ thuộc vào số lượng (mặc định là 1 SAT nhưng có thể được chỉnh sửa) và một phí biến đổi (0.01% theo mặc định).
+  Bằng cách thực hiện một khoản thanh toán giả tạo, người bán chuyển thanh khoản từ phía của họ sang phía đối diện của kênh, do đó giải phóng khả năng tiếp nhận thanh toán đến.
+reviewed: false

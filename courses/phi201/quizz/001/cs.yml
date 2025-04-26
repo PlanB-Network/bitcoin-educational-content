@@ -1,0 +1,9 @@
+question: Jaký je rozdíl mezi historií a filosofií?
+answer: Všechny ostatní odpovědi
+wrong_answers:
+  - Historie popisuje minulost, zatímco filosofie ji hodnotí
+  - Historie je faktická, zatímco filosofie je normativní
+  - Historie se zaměřuje na události, zatímco filosofie se zaměřuje na koncepty
+explanation: |
+  Rozdíl mezi historií a filosofií spočívá v jejich přístupech: historie se soustředí na popis a analýzu minulých událostí, zatímco filosofie se snaží hodnotit, interpretovat a stanovovat normy na základě abstraktních konceptů.
+reviewed: false

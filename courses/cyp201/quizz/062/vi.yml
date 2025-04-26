@@ -1,10 +1,8 @@
-question: Rủi ro chính khi tự tạo cụm từ ghi nhớ của mình bằng cách sử dụng xúc xắc cho các giao dịch Bitcoin là gì?
-answer: Có thể xuất hiện một số rủi ro nhất định.
+question: Khóa công khai mở rộng cho phép suy ra những gì?
+answer: Chỉ các khóa công khai con bình thường
 wrong_answers:
-  - Có thể dẫn đến việc tạo ra các số dễ đoán.
-  - Có thể dẫn đến việc tạo ra các số trùng lặp.
-  - Có thể dẫn đến việc tạo ra các số không hợp lệ.
+  - Chỉ các khóa riêng tư con bình thường
+  - Cả khóa công khai con cứng và bình thường
+  - Cả khóa riêng tư con cứng và bình thường
 explanation: |
-  Việc tự tạo cụm từ ghi nhớ của mình bằng cách sử dụng xúc xắc có thể mang lại một số rủi ro nhất định.
-  Do đó, việc sử dụng một cụm từ mật khẩu được tạo ngẫu nhiên để giảm thiểu những rủi ro này được khuyến nghị.
-reviewed: false
+  Một khóa công khai mở rộng chỉ cho phép suy ra các khóa công khai con bình thường, không phải khóa riêng tư hoặc khóa cứng.

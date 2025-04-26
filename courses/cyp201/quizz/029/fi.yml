@@ -1,9 +1,9 @@
-question: Mikä on digitaalisten allekirjoitusten pääasiallinen tarkoitus Bitcoin-protokollassa?
-answer: Osoittaa tietyn julkisen avaimen yhteydessä olevan yksityisen avaimen hallussapito
+question: Mikä digitaalisen allekirjoituksen algoritmi otettiin käyttöön Bitcoinin lanseerauksessa?
+answer: ECDSA
 wrong_answers:
-  - Salaamaan siirtotiedot
-  - Uusien bitcoinien luomiseen
-  - Lähettäjän henkilöllisyyden varmentamiseen
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Bitcoin-protokollan ytimessä digitaalisia allekirjoituksia käytetään matemaattisina todisteina, jotka osoittavat tietyn julkisen avaimen yhteydessä olevan yksityisen avaimen hallussapidon.
+  Bitcoin käytti alun perin ECDSA: ta, allekirjoitusprotokollaa, joka perustuu elliptisiin käyriin, ennen kuin Schnorrin allekirjoitukset otettiin käyttöön vuonna 2021.
 reviewed: false

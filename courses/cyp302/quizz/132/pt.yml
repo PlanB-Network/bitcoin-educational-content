@@ -1,0 +1,8 @@
+question: Em uma transação de Bitcoin, qual tecnologia é geralmente usada para provar a propriedade dos fundos ao desbloquear o script?
+answer: Assinaturas digitais
+wrong_answers:
+  - Certificados digitais
+  - Criptografia simétrica
+  - Códigos de Autenticação de Mensagens (MAC)
+explanation: |
+  As assinaturas digitais no Bitcoin provam a posse de fundos ao assinar transações com uma chave privada para desbloquear o script que protege um UTXO.

@@ -1,9 +1,10 @@
-question: Mikä on Lightning Networkin tehtävä?
-answer: Maksukanavien verkosto.
+question: Minkä tyyppisen verkon Lightning Network luo?
+answer: Maksukanavien verkon.
 wrong_answers:
-  - Louhintasolmujen verkosto.
-  - Lohkoketjusolmujen verkosto.
-  - Kryptovaluuttapörssien verkosto.
+  - Louhintasolmujen verkon.
+  - Lohkoketjusolmujen verkon.
+  - Kryptovaluuttapörssien verkon.
 explanation: >-
-  Lightning Network toimii maksukanavien verkostona, mahdollistaen
-  välittömät transaktiot pienin kuluin lähettäjälle.
+  Lightning Network toimii maksukanavien verkkona, mahdollistaen välittömät
+  transaktiot pienin kuluin lähettäjälle.
+reviewed: true

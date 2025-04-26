@@ -1,9 +1,10 @@
-question: ¿Cuál es una de las principales preguntas planteadas sobre el futuro de las finanzas?
-answer: ¿Quién debería tener, autorizar y rastrear el dinero que usamos?
+question: ¿Cuál es una de las principales preguntas planteadas respecto al futuro de las finanzas?
+answer: ¿Quién debería poseer, autorizar y rastrear el dinero que usamos?
 wrong_answers:
-  - ¿Cómo podemos eliminar completamente el dinero?
-  - ¿Cómo podemos asegurarnos de que todos tengan la misma cantidad de dinero?
-  - ¿Cómo podemos hacer que el dinero sea obsoleto?
-explanation: |
-  El texto plantea varias preguntas sobre el futuro de las finanzas, una de las cuales es quién debería tener, autorizar y rastrear el dinero que usamos.
-reviewed: false
+  - ¿Cómo podemos eliminar el dinero por completo?
+  - ¿Cómo podemos asegurar que todos tengan la misma cantidad de dinero?
+  - ¿Cómo podemos hacer el dinero obsoleto?
+explanation: >-
+  El texto plantea varias preguntas sobre el futuro de las finanzas, una de
+  las cuales es quién debería poseer, autorizar y rastrear el dinero que usamos.
+reviewed: true

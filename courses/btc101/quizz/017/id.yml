@@ -1,0 +1,9 @@
+question: Apa yang disimbolkan oleh Bitcoin di luar teknologinya?
+answer: Sebuah revolusi terhadap sistem keuangan tradisional dan alternatif yang berbasis pada transparansi, desentralisasi, dan kedaulatan individu.
+wrong_answers:
+  - Bentuk baru mata uang digital yang lebih efisien daripada mata uang tradisional.
+  - Cara bagi individu untuk mendapatkan uang melalui penambangan.
+  - Alat bagi kriminal untuk melakukan transaksi ilegal.
+explanation: |
+  Di luar teknologinya, Bitcoin mensimbolkan sebuah revolusi terhadap sistem keuangan tradisional karena protokolnya menerapkan sistem moneter baru tanpa entitas pusat.
+reviewed: true

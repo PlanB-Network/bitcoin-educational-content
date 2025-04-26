@@ -1,0 +1,9 @@
+question: Welcher Trend ist bei den Teilnehmern zu beobachten, die Knoten im Lightning Network betreiben?
+answer: Professionelle Knotenbetreiber stellen zunehmend Liquidität zur Verfügung, während sich einzelne Nutzer auf "Randknoten" konzentrieren, wodurch sich die Zusammensetzung des Netzes ändert.
+wrong_answers:
+  - Einzelne Hobbyisten haben alle professionellen Betreiber vollständig ersetzt.
+  - Große Banken betreiben inzwischen alle Lightning-Knoten zentral.
+  - Das Netz hat private Knotenpunkte abgeschaltet und lässt nur noch große Unternehmen zu.
+explanation: |
+  Es gibt einen Trend hin zu mehr Liquidität und Stabilität, die von professionellen Einrichtungen bereitgestellt werden, während normale Nutzer auf vereinfachte oder gehostete Lösungen zurückgreifen, die das Netz robuster und zugänglicher machen.
+reviewed: false

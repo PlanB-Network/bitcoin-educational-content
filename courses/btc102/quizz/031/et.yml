@@ -1,0 +1,9 @@
+question: Millised neist on Bitcoin külgahelad?
+answer: Liquid ja Juurdekasvatus
+wrong_answers:
+  - Polygon ja Arbitrum
+  - Jupiter ja Fantom
+  - Bitcoin Sularaha ja Bitcoin Satoshi Visioon
+explanation: |
+  Liquid ja RSK on külgahelad, millel on Bitcoin-ga kahesuunaline peg. Teised valikud ei ole külgahelad või neil ei ole 2WP koos Bitcoin Blockchain-ga.
+reviewed: false

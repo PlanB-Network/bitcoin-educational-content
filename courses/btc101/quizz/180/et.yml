@@ -1,0 +1,9 @@
+question: Mis on üks teguritest, mis teeb Bitcoin'i reguleerimise finantsasutuste jaoks keeruliseks?
+answer: See toimib globaalsel tasandil, 24 tundi päevas, 7 päeva nädalas.
+wrong_answers:
+  - Seda kontrollib keskne autoriteet.
+  - Seda ei kasutata kusagil maailmas.
+  - Seda on lihtne võltsida.
+explanation: >-
+  Bitcoin'i protokoll on unikaalne, kuna see toimib globaalsel tasandil, 24 tundi päevas, 7 päeva nädalas, muutes reguleerimise finantsasutuste jaoks keeruliseks.
+reviewed: false

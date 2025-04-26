@@ -36,12 +36,15 @@ Tämän kurssin on sponsoroinut TETHER
 +++
 
 # Johdanto
+
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Johdanto
-<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+## Kurssin yleiskatsaus
 
-### Elämme maailmassa, jossa:
+<chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Tervetuloa ECO104-kurssille!
+
+**Elämme maailmassa, jossa:**
 
 ● Vain [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) ihmisistä asuu yhteiskunnissa, joita pidetään "demokraattisesti vapaana". Silti, jopa tässä etuoikeutetussa osassa, ihmisoikeusrikkomukset ovat yhä yleisempiä – pankkitilien jäädyttämisestä sensuuriin. Loput 80% kamppailevat autoritaarisen hallinnon tunkeutumisen kanssa. Vain kaksi vuosikymmentä sitten lähes puolet maailman väestöstä nautti perusvapauksista.
 
@@ -60,7 +63,7 @@ Sanottuamme tämän, kurssi ei ole tarkoitettu vain niille, jotka kohtaavat hill
 
 Tämän mielessä pitäen, tehtävämme on tuoda sinut nykyisen rahoitusmaiseman muutoksen eturintamaan, haastaa olemassa olevat normit ja tarjota vaihtoehtoisia ratkaisuja. Syventymällä rahan historiaan, demystifioimalla Bitcoinin ja tutkimalla Tetheriä sekä stablecoinien maailmaa, pyrimme inspiroimaan yksilöitä uudelleenkuvittelemaan taloudellisen tulevaisuutensa.
 
-### Mitä odottaa:
+**Mitä odottaa:**
 
 **Moduuli 1: Edistyksen hinta - Lähempi katsaus rahoitusjärjestelmäämme**
 Aloitamme tutkimuksen kurkistamalla nykyisen rahoitusjärjestelmämme kulissien taakse, missä taloudellinen sensuuri, varallisuuserot ja inflaatio vaivaavat päivittäistä elämäämme. Lyhyen rahan historian kautta tarkastelemme, miten olemme päätyneet tähän pisteeseen, tuoden valoa joillekin pääkivunaiheillemme, joita me kaikki koemme.
@@ -79,9 +82,11 @@ Kurssin päätteeksi et ole vain saanut voimakasta tietoa ja korvaamattomia työ
 Olemme innoissamme saadessamme sinut mukaan tälle matkalle rahoitusjärjestelmämme syvyyksiin.
 
 # Edistyksen hinta - Lähempi katsaus rahoitusjärjestelmäämme
+
 <partId>25ed8242-1b5a-5b53-b833-824b0dd80bcc</partId>
 
 ## Johdatus rahaan
+
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 
 Raha on kiehtova ja olennainen osa jokapäiväistä elämäämme. Käytämme sitä päivittäin ostamaan ruokaa, maksamaan laskuja ja suorittamaan lukemattomia transaktioita. Mutta mikä raha oikeastaan on? Perimmiltään raha on vain vaihdon väline, työkalu, joka mahdollistaa tavaroiden ja palveluiden vaihtamisen keskenämme. Se on abstrakti käsite, jonka otamme itsestäänselvyytenä, mutta se on perustavanlaatuinen talousjärjestelmällemme.
@@ -116,7 +121,7 @@ Katsotaanpa kutakin:
 1. **Arvon säilyttäjä:** Raha toimii keino säilyttää arvoa tulevaa käyttöä varten, mahdollistaen haltijalle ostovoiman säilyttämisen ajan myötä. Näin ollen se tarjoaa haltijalle mahdollisuuden säästää ja suunnitella tulevaisuutta. Kulta toimii erinomaisena esimerkkinä tällaisesta arvon säilyttäjästä, sillä vuosisatojen ajan sillä on voinut ostaa kunnollisen puvun vain yhdellä unssilla.
 2. **Vaihdon väline:** Jotta raha toimisi käytännöllisenä vaihdon välineenä tavaroiden ja palveluiden osalta, sen on oltava helposti vaihdettavissa. Vaikka teknisesti mikä tahansa omaisuus voidaan käyttää rahana, suuret ja liikkumattomat omaisuudet, kuten talot, eivät ole käytännöllisiä vaihdon välineenä.
 3. **Tilin Yksikkö:** Lopulta rahan tulisi toimia standardiyksikkönä tavaroiden ja palveluiden hintojen mittaamiselle. Tämä tarkoittaa, että tuotteet hinnoitellaan ja arvotetaan tämän rahan termein, mikä mahdollistaa eri tuotteiden ja palveluiden suhteellisen arvon helpon vertailun.
-Kun nämä kolme rahan olennaista toimintoa täyttyvät kokonaisuudessaan, tällaisella rahalla on kyky vastata kaupankäynnin tiukkoihin vaatimuksiin. Ilman näitä toimintoja raha on paljon vähemmän luotettava ja luottamuksen arvoinen, mikä johtaa epävarmuuteen ja turvattomuuteen kaupankäynnissä, mikä voi aiheuttaa vahinkoa sekä henkilökohtaisella että kansallisella tasolla.
+   Kun nämä kolme rahan olennaista toimintoa täyttyvät kokonaisuudessaan, tällaisella rahalla on kyky vastata kaupankäynnin tiukkoihin vaatimuksiin. Ilman näitä toimintoja raha on paljon vähemmän luotettava ja luottamuksen arvoinen, mikä johtaa epävarmuuteen ja turvattomuuteen kaupankäynnissä, mikä voi aiheuttaa vahinkoa sekä henkilökohtaisella että kansallisella tasolla.
 
 Tämän mielessä pitäen, kun käyttämämme raha tarjoaa meille luotettavan keinon säilyttää arvoa, tehokkaan menetelmän kaupankäynnin helpottamiseksi ja yhteisen arvon mittapuun, se mahdollistaa säästämisen ja varallisuuden kasvattamisen, kaupankäynnin luottavaisesti ja transaktioiden suorittamisen vaivattomasti. Nämä toiminnot yhdessä eivät ainoastaan auta meitä kaupankäynnin ja säästämisen kyvyssämme, vaan myös luovat perustan vakaalle ja tehokkaalle talousjärjestelmälle, edistäen suurempaa talouskasvua ja vaurautta yksilöille ja yhteiskunnille.
 
@@ -139,6 +144,7 @@ Jotta raha säilyttäisi ostovoimansa ajan myötä, sen on oltava:
 **Muuttumaton:** Jotta raha tarjoaisi muuttumattomuutta, sen tulisi olla muuttumaton tai muokkaamaton kerran tehdyn transaktion jälkeen. Tämä on tärkeä luotettavan arvon säilyttäjän ominaisuus, koska se varmistaa, että rahan arvo ei ole alttiina mielivaltaisille muutoksille tai manipulaatioille. Esimerkiksi, jos ostat jotain käteisellä, et voi myöhemmin muuttaa mieltäsi ja peruuttaa transaktiota. Samoin kryptovaluutoissa, kuten Bitcoinissa, kun transaktio on kirjattu lohkoketjuun, sitä ei voi muuttaa tai peruuttaa. Tämä muuttumattomuus tarjoaa turvallisuuden ja luotettavuuden tunteen sekä ostajille että myyjille rahoitustransaktioissa.
 
 #### Vaihdon Väline
+
 **Kannettava:** Kun puhumme rahan olevan "kannettava", tarkoitamme, että sitä on helppo kantaa mukana ja kuljettaa paikasta toiseen. Tämä on tärkeä vaihdon välineen ominaisuus, sillä se mahdollistaa rahan käyttämisen tavaroiden ja palveluiden ostamiseen ja myymiseen eri paikoissa. Esimerkiksi, jos haluaisit ostaa kahvin kahvilasta, voisit käyttää kannettavaa rahaasi (kuten käteistä tai luottokorttia) maksuun, riippumatta siitä, missä olet. Sen sijaan, jos joutuisit kantamaan mukanasi suuria, raskaita esineitä vaihdon välineenä, niiden käyttäminen transaktioissa olisi paljon vaikeampaa.
 
 **Jaettavissa:** Tämä on kriittinen hyvän vaihdon välineen ominaisuus, joka viittaa rahan kykyyn jakautua pienempiin yksiköihin helpottamaan erikokoisia transaktioita. Esimerkiksi pienten ostosten tekeminen olisi haastavaa, jos meillä olisi vain suuria rahayksiköitä. Jaettavuus mahdollistaa tarkkojen maksujen tekemisen, riippumatta transaktion koosta, mikä tekee rahasta hyödyllisemmän ja käytännöllisemmän jokapäiväisessä elämässä. Käytännössä, mitä jaettavampi valuutta on, sitä kätevämpää yksilöiden on käyttää sitä ja tehdä transaktioita.
@@ -160,6 +166,7 @@ Tulevissa moduuleissa tutkimme kahta suosittua rahan muotoa: Bitcoinia ja stable
 Vaihdannasta kolikoiden ja paperirahan keksimiseen raha on kokenut sarjan muutoksia sopeutuakseen yhteiskunnan jatkuvasti muuttuviin tarpeisiin. Siirtyessämme seuraavaan lukuun, muutetaan kurssia ja suunnataan huomiomme rahan kehitykseen.
 
 ## Tutkimus siitä, miten tähän on tultu
+
 <chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
 
 Vaihdantataloudesta digitaalisten valuuttojen nykyaikaan raha on kokenut kiehtovan evoluution. Esivanhempamme käyttivät vaihdon välineinä simpukoita, helmiä ja jopa karjaa. Nykyään meillä on virtuaaliset lompakot ja lähimaksut. Se on huomattava matka, joka on nähnyt lukemattomia iteraatioita, kompromisseja ja sopeutumisia vastaamaan yhteiskunnan jatkuvasti muuttuvia tarpeita.
@@ -210,6 +217,7 @@ Kuitenkin, kun matkustaminen helpottui ja maailma alkoi avautua, ihmiset tunnist
 
 Kaiken kaikkiaan hyödykeraha näytteli olennaista roolia kaupan ja kaupankäynnin kehityksessä, sillä se tarjosi standardoidun vaihdon välineen, joka oli laajalti hyväksytty. Kuitenkin, kun yhteiskunnat kehittyivät edelleen, alkoi esiintyä muita rahamuotoja, jotka olivat kätevämpiä ja jaettavissa.
 Ratkaisuna näihin ongelmiin ihmiset alkoivat etsiä hyödykkeitä, joilla oli maailmanlaajuisesti tunnustettu niukkuus, mikä johti arvometallien käyttöönottoon vaihdon välineenä.
+
 ### Lyöty raha
 
 Vaikka kyseessä oli teknisesti ottaen edelleen hyödykeraha, ihmisten jatkaessa paremman rahan etsintää, he törmäsivät odottamattomaan sankariin: arvometalleihin. Nämä metallit eivät olleet ainoastaan kauniita ja himoittuja korujen valmistuksessa, vaan ne täyttivät myös monia erinomaisen rahallisen omaisuuden kriteereitä. Niiden luonnollinen maailmanlaajuinen niukkuus ja merkittävä panostus, joka vaadittiin näiden metallien louhimiseen, jalostamiseen ja säilyttämiseen, antoivat niille etulyöntiaseman aiempiin rahan muotoihin verrattuna.
@@ -237,6 +245,7 @@ Toiseksi, metallilla tuettu paperiraha ei ollut immuuni väärentämiselle. Vaik
 Vaikka metallilla tuettu paperiraha kohtasi omat ongelmansa, sen parantunut vaihdettavuus, jaettavuus ja kannettavuus raivasi tietä nykyisten fiat-valuuttojen mukavuudelle, joissa käytännöllisyys usein voittaa niukkuuden.
 
 ### Fiat-valuutta
+
 Fiat-valuutat ovat olleet vuosikymmeniä rahajärjestelmämme perustana. Termi "fiat" on latinaa ja tarkoittaa "tulkoon tehtyä", viitaten valtion valtuuteen julistaa valuutta lailliseksi maksuvälineeksi. Toisin kuin valuutat, jotka aikoinaan perustuivat kultaan tai muihin arvoesineisiin, fiat-valuutan arvo perustuu hallituksen lupaukseen, että joku hyväksyy sen tavaroiden ja palveluiden vaihdossa.
 
 Fiat-valuutat syntyivät, kun maat kokivat turhautumista metalliin sidottujen paperirahojen kanssa – hallitusten olisi hankittava lisää kultaa voidakseen painaa lisää paperirahaa. Tämä oli este, joten aina kun maa tarvitsi pääomaa, se väliaikaisesti hylkäsi tämän kiinnityksen ja laajensi rahatarjontaansa. Tämä uusi valuutta ei ollut tuettu millään muulla kuin luottamuksella hallitukseen, koska se oli laillinen maksuväline. Eikä ainoastaan sitä, tämä uusi valuutta devalvoi kierrossa olevaa valuuttaa inflatoimalla rahan tarjontaa, ja kun enemmän dollareita tavoitteli samaa määrää tavaroita, hinnat nousivat.
@@ -283,6 +292,7 @@ Sanottuani, vaikka digitaaliset valuutat edustavat uutta rajaa rahan kehityksess
 Tutkittuamme eri rahan muotoja historian saatossa, tämä herättää oleellisen kysymyksen:
 
 ### Olemmeko menossa oikeaan suuntaan?
+
 Tällä matkalla olemme tutkineet rahan kiehtovaa evoluutiota, jäljittäen sen kehitystä vaihdantataloudesta nykyiseen digitaaliseen aikaamme. Olemme nähneet erilaisten valuuttojen nousun ja tuhon, simpukankuorista ja helmistä arvometalleihin ja fiat-rahaan.
 
 Kuitenkin, kuten olemme nähneet, rahan evoluution polku ei ole ollut ilman haasteitaan. Kolikoiden leikkaaminen ja valuutan manipulointi, siirtyminen keskitettyyn hallintaan ja pois yleisesti hyväksytystä vaihdon välineestä ovat vain muutamia esimerkkejä matkan varrella kohdatuista esteistä.
@@ -296,6 +306,7 @@ Nämä ovat monimutkaisia kysymyksiä, jotka vaativat huolellista harkintaa ja p
 Kun jatkamme rahan maailman tutkimista, on tärkeää tunnustaa fiat-valuuttojen noususta lähtien tapahtuneet merkittävät muutokset. Vaikka nämä valuutat ovat tuoneet mukanaan tietyn tason mukavuutta ja vakautta, ne ovat myös esittäneet uusia haasteita, kuten inflaation, velkatasojen nousun ja varallisuuserojen kasvun. Seuraavassa osiossa syvennymme näihin kysymyksiin, ja seuraavissa moduuleissa tutkimme mahdollisia ratkaisuja näihin hankaliin ongelmiin.
 
 ## Katsaus siihen, missä olemme ja mitä voimme odottaa tulevaisuudessa
+
 <chapterId>0c38e8fd-c973-57a5-a673-abec706f6054</chapterId>
 
 Kuten edellisessä luvussa keskustelimme, historiallisesti raha on usein ollut tuettu jollakin hyödykkeellä, kuten kullalla. Tämän edut ovat ylitsepääsemättömiä. Ei ainoastaan tämä yhteys tarkoittanut, että tällaisen rahan arvo oli suoraan sidoksissa hyödykkeen arvoon, mutta se myös tarkoitti, että valuutan liikkeeseenlaskija, tyypillisesti hallitus, oli rajoitettu siinä, kuinka paljon rahaa se voisi painaa, koska sen olisi hankittava lisää kultaa.
@@ -364,7 +375,7 @@ Kun laskemme yhteen liittovaltion, yritysten ja kotitalouksien velan, tuloksena 
 
 Oletetaan varovaisesti, että tämän velan keskikorko on 3 %.
 
-3 % * 241 % = 7,23 %
+3 % \* 241 % = 7,23 %
 Yhdysvaltojen velkataakan mittakaava on sellainen, että pelkästään velan korkojen maksaminen vaatisi 7,23%:n vuotuisen kasvuvauhdin - vauhdin, joka on huomattavasti korkeampi kuin viimeisen 70 vuoden aikana keskimääräinen BKT:n kasvuvauhti [3,13%](https://tradingeconomics.com/united-states/gdp-growth-annual). 7,23% - 3,13% = 4,1%
 
 Parhaassakin tapauksessa, jossa Yhdysvallat lopettaa alijäämäisen taloudenpidon ja onnistuu tasapainottamaan kirjansa, velka kasvaisi silti 4,1% vuodessa. Tämä johtuu siitä, että maan BKT:n kasvu ei täysin kata velan korkoja.
@@ -389,16 +400,16 @@ Jatkuvan sosiaalisen median ja uutisoinnin tulvan vuoksi olet todennäköisesti 
 
 1. Inflaatio heikentää valuuttamme ostovoimaa. Heikentyvän valuutan vuoksi ihmiset eivät enää ole motivoituneita säästämään. Tämä pakottaa varakkaat yksilöt suuntaamaan resurssinsa rahoitusomaisuuteen, kun taas varattomat yksilöt kulutukseen. Kulutuksen ohjatessa rahaa varakkaiden omistamiin yrityksiin ja älykäs raha ohjatessaan käteisensä omaisuuseriin, näemme nousevien omaisuuserien hintojen ketjureaktion lisääntyneen kysynnän vuoksi. Tämä kaikki tapahtuu samalla kun inflaatio tekee tuhojaan valuutan ostovoimalle.
 2. Liiallisen velkataakkamme vuoksi hallitukset ovat motivoituneita pitämään korkotasot matalina. Tämän seurauksena velan ottaminen muuttuu houkuttelevammaksi, erityisesti varakkaille. Kun pääoman kustannukset ovat näin halpoja, ihmiset lainaavat yli varojensa, kanavoiden enemmän pääomaa omaisuuseriin ja nostattaen hintoja. Tämä on loistavaa omaisuuden omistajille; kuitenkin hinnat muuttuvat yhä saavuttamattomammiksi niille, jotka yrittävät päästä kiinteistömarkkinoille tai kastaa varpaansa rahoitusmarkkinoihin. Yksinkertainen nyrkkisääntö on, että kun korkotasot laskevat, omaisuuserien hinnat nousevat, koska pääoma on vapaammin saatavilla.
-**Kuinka tämä inflaatio kärjistää varallisuuseroja?** Ottaen huomioon, että yläluokka omistaa omaisuuseriä ja alaluokka taipumuksestaan pitää kiinni valuutasta, seuraa yhä suurempia varallisuuseroja, kun valuutan ostovoima heikkenee ja omaisuuserien hinnat jatkuvasti nousevat, muuttuen yhä saavuttamattomammiksi. Tämä voidaan nähdä alla olevassa "Kuva X:ssä". Huomaat merkittävän eron omaisuuserien arvonnousussa verrattuna palkkoihin.
+   **Kuinka tämä inflaatio kärjistää varallisuuseroja?** Ottaen huomioon, että yläluokka omistaa omaisuuseriä ja alaluokka taipumuksestaan pitää kiinni valuutasta, seuraa yhä suurempia varallisuuseroja, kun valuutan ostovoima heikkenee ja omaisuuserien hinnat jatkuvasti nousevat, muuttuen yhä saavuttamattomammiksi. Tämä voidaan nähdä alla olevassa "Kuva X:ssä". Huomaat merkittävän eron omaisuuserien arvonnousussa verrattuna palkkoihin.
 
 **Suorituskyky Omaisuusluokittain**
 
-| Omaisuusluokka      | Kokonaiskasvu (Tammi 2010 - Tammi 2021) | Vuosittainen Kasvu (Tammi 2010 - Tammi 2021) |
-| ------------------- | -------------------------------------- | ------------------------------------------- |
-| Osakemarkkinat      | 236,84%                                | 11,67%                                      |
-| Kiinteistöt         | 66,38%                                 | 4,74%                                       |
-| Kulta               | 73,10%                                 | 5,11%                                       |
-| Keskimääräinen tuntipalkka | 33,37%                             | 2,65%                                       |
+| Omaisuusluokka             | Kokonaiskasvu (Tammi 2010 - Tammi 2021) | Vuosittainen Kasvu (Tammi 2010 - Tammi 2021) |
+| -------------------------- | --------------------------------------- | -------------------------------------------- |
+| Osakemarkkinat             | 236,84%                                 | 11,67%                                       |
+| Kiinteistöt                | 66,38%                                  | 4,74%                                        |
+| Kulta                      | 73,10%                                  | 5,11%                                        |
+| Keskimääräinen tuntipalkka | 33,37%                                  | 2,65%                                        |
 
 Kuva: Suorituskyky Omaisuusluokittain ([Osakkeet](https://finance.yahoo.com/quote/%5EGSPC/history/), [Kiinteistöt](https://dqydj.com/historical-home-prices/), [Kulta](https://goldprice.org/), [Palkat](https://tradingeconomics.com/united-states/wages.))
 
@@ -429,6 +440,7 @@ Onneksi meillä on käytettävissämme vaihtoehtoja. Bitcoinin esiinmarssin myö
 Edetessämme rohkaisemme teitä lähestymään tätä uutta teknologiaa avoimin mielin ja kriittisesti, tutkimaan miten se voi tarjota vaihtoehdon nykypäivän rahoitusjärjestelmillemme. Tekemällä näin meillä on mahdollisuus käsitellä nousevan eriarvoisuuden ja yhteiskunnallisen levottomuuden ongelmia samalla rakentaen kestävämpää ja oikeudenmukaisempaa taloudellista tulevaisuutta.
 
 ## Tentti
+
 <chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
 
 Nyt kun olet käynyt läpi moduulin "Edistyksen hinta", sinun tulee testata uutta tietämystäsi varmistaaksesi, että olet ymmärtänyt viimeiset osiot. Aloittakaamme usealla avoimella kysymyksellä ja sitten pienellä tietovisalla.
@@ -440,9 +452,11 @@ Nyt kun olet käynyt läpi moduulin "Edistyksen hinta", sinun tulee testata uutt
 5. Ottaen huomioon tiedot velasta ja inflaatiosta, mikä on mielipiteesi nykyisen rahajärjestelmän kestävyydestä? Luuletko, että nykyinen järjestelmämme on hyödyllinen vai haitallinen pitkällä aikavälillä?
 
 # Taloudellinen Vapautuminen - Johdatus Bitcoiniin
+
 <partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
 
 ## Edelläkävijät, Innovaattorit & Bitcoinin Perusteet
+
 <chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
 
 Tervetuloa Moduuliin Kaksi, jossa tutkimme Bitcoinin kiehtovaa maailmaa. Rakentaen ymmärryksemme rahan historiasta, tämä moduuli käsittelee seuraavia aiheita:
@@ -451,7 +465,7 @@ Tervetuloa Moduuliin Kaksi, jossa tutkimme Bitcoinin kiehtovaa maailmaa. Rakenta
 - Bitcoinin hyödyt digitaalisena valuuttana
 - Ero bitcoin-omaisuuden ja Bitcoin-verkon välillä
 - Kuinka vuorovaikuttaa Bitcoinin ja sen eri kerrosten kanssa
-Tämän moduulin päätteeksi sinulla on vankka ymmärrys Bitcoinin alkuperästä, ominaisuuksista ja mahdollisista käyttötarkoituksista. Mutta ennen kuin sukellamme Bitcoinin monimutkaisuuksiin, tutkitaan ensin digitaalisten valuuttojen historiaa, joka on raivannut tietä tälle teknologialle, joka muuttaa tapaamme ajatella rahaa.
+  Tämän moduulin päätteeksi sinulla on vankka ymmärrys Bitcoinin alkuperästä, ominaisuuksista ja mahdollisista käyttötarkoituksista. Mutta ennen kuin sukellamme Bitcoinin monimutkaisuuksiin, tutkitaan ensin digitaalisten valuuttojen historiaa, joka on raivannut tietä tälle teknologialle, joka muuttaa tapaamme ajatella rahaa.
 
 ### Mikä tämä Bitcoin oikein on
 
@@ -544,6 +558,7 @@ Nämä seikat yhdessä tarkoittavat, että Bitcoin tarjoaa kenelle tahansa talou
 Lopuksi, riippumatta siitä, kuka Satoshi Nakamoto on, on kiistatonta, että Bitcoinin keksiminen on herättänyt uuden tavan ajatella arvon siirtoa.
 
 ## Miten Bitcoin toimii? Tämän taianomaisen internet-rahan sisäinen toiminta
+
 <chapterId>b0f736fc-ed4d-5887-b22e-d958db9144d1</chapterId>
 
 Bitcoinia kutsutaan usein taianomaiseksi internet-raha... ja syystä. Ajattele – Bitcoinin avulla voit lähettää arvoa kenelle tahansa, missä päin maailmaa tahansa, ilman välikäsiä kuten pankkia tai hallitusta. Se on kuin oman henkilökohtaisen pankin hallinta, voima siirtää varoja rajat yli vain muutamalla hiiren klikkauksella.
@@ -561,7 +576,7 @@ Verrattuna perinteisiin pankkijärjestelmiin, vaikka Bitcoin toimii toiminnallis
 1. validoita ja käsiteltävä transaktioita,
 2. valvottava transaktioita varmistaakseen, ettei huijausta tai väärinkäytöstä tapahdu,
 3. varmistettava, että kaikki on ajan tasalla, toimii sujuvasti ja turvallisesti.
-Vaikka pankit suorittavat nämä tehtävät talon sisällä, mikä antaa niille täyden kontrollin prosessin yli, Bitcoin vaatii yhteisön yhteistyötä näiden roolien suorittamiseksi. Toisin sanoen, jotta Bitcoin voisi toistaa nämä prosessit hajautetussa järjestelmässä, sen on ulkoistettava kukin näistä tehtävistä varmistaakseen, että yksittäisellä henkilöllä tai keskitetyllä taholla ei ole suhteetonta kontrollia järjestelmän yli.
+   Vaikka pankit suorittavat nämä tehtävät talon sisällä, mikä antaa niille täyden kontrollin prosessin yli, Bitcoin vaatii yhteisön yhteistyötä näiden roolien suorittamiseksi. Toisin sanoen, jotta Bitcoin voisi toistaa nämä prosessit hajautetussa järjestelmässä, sen on ulkoistettava kukin näistä tehtävistä varmistaakseen, että yksittäisellä henkilöllä tai keskitetyllä taholla ei ole suhteetonta kontrollia järjestelmän yli.
 
 Tämän mullistavan saavutuksen toteuttamiseksi Bitcoin on jakautunut kolmeen keskeiseen rooliin: solmut, louhijat ja kehittäjät. Missä solmut vahvistavat transaktioita ja asettavat sekä valvovat sääntöjä, louhijat järjestävät ja vahvistavat transaktioita, ja kehittäjät pitävät verkon ajan tasalla ja ehdottavat päivityksiä. Jakamalla nämä tehtävät näiden keskeisten toimijoiden kesken, Bitcoin on luonut järjestelmän, joka on turvallinen, läpinäkyvä ja kaikkien käyttäjien vastuulla.
 
@@ -607,6 +622,7 @@ Tässä vaiheessa transaktio siirtyy niin kutsuttuun mempooliin, joka on käytä
 Louhijat ottavat nyt nämä odottavat transaktiot, niputtavat ne uudeksi lohkoksi ja kilpailevat keskenään suorittaakseen tietyn tehtävän, jonka Bitcoinin taustalla oleva ohjelmisto määrittelee. Kilpailun voittaja liittää sitten lohkonsa ja siihen sisältyvät transaktiot lohkoketjuun, viimeistellen nämä transaktiot. Voittaja saa myös palkkioksi uusia bitcoineja ja käsiteltyihin transaktioihin liittyvät maksut, kannustaen heitä jatkamaan transaktioiden käsittelyä.
 
 #### Transaktion Validointi
+
 Kun transaktio on vahvistettu, Bobin pitäisi nyt pystyä näkemään 0,00100000 bitcoinia lompakossaan. Mutta asia ei lopu tähän. Solmut varmistavat sitten, että louhija on suorittanut työnsä oikein ja että tässä uudessa lohkossa olevat transaktiot täyttävät solmujen kesken sovitut säännöt. Jos lohko ei tee näin, uusi lohko hylätään, ja louhija menettää louhintapalkkionsa.
 _**Hauska fakta:** Vaikka Bitcoin-transaktio on vahvistettu, lohkojen hylkäämisen mahdollisuus säilyy. Kuitenkin, jokaisen transaktion jälkeen lohkoketjuun lisätyn uuden lohkon myötä peruutuksen todennäköisyys vähenee eksponentiaalisesti. Turvallisuuden lisäämiseksi pörssit ja lompakot usein pitävät bitcoinisi holdauksessa, kunnes useita peräkkäisiä lohkoja on liitetty — yleensä kolmesta kuuteen. Tämä suojaa varoja ja takaa transaktioiden mielenrauhan._
 
@@ -622,6 +638,7 @@ Kuten tässä osiossa on selitetty, vaikka Bitcoin saattaa vaikuttaa monimutkais
 Jokainen näistä rooleista on olennainen Bitcoinin toiminnallisuudelle ja menestykselle digitaalisena valuuttana. Uskoessaan nämä kriittiset tehtävät avainpelaajille, Bitcoin voi toimia turvallisena, läpinäkyvänä ja vastuullisena vaihdon välineenä kaikille käyttäjille, mikä tekee siitä merkittävän saavutuksen valuutan historiassa.
 
 ## Mikä tekee Bitcoinista erilaisen kuin fiat?
+
 <chapterId>5ef55778-cbcf-5c7e-960d-a2fcdf1a4006</chapterId>
 
 Edellisessä osiossa syvennyimme Bitcoinin ainutlaatuiseen toiminnallisuuteen, joka erottaa sen perinteisistä valuutoista ja miten Bitcoin saavuttaa himoitun aseman hajautettuna. Nyt siirrämme fokuksen ja tutkimme, miten Bitcoin eroaa fiatista niiden ominaisuuksien suhteen, jotka tekevät valuutasta suuren. Vain tutkimalla näitä keskeisiä ominaisuuksia voimme ymmärtää syvemmin, miksi Bitcoin on ainutlaatuinen ja omassa maailmassaan, kun puhutaan rahasta.
@@ -720,6 +737,7 @@ Bitcoinin ainutlaatuiset ominaisuudet arvon säilyttäjänä, vaihdon välineen�
 Lisäksi nämä yhdistetyt attribuutit eivät ainoastaan asemoi Bitcoinia tehokkaaksi välineeksi varallisuuden säilyttämiseen ja kasvattamiseen pitkällä aikavälillä (bitcoin omaisuuseränä) vaan tarjoavat myös monia etuja niille, jotka haluavat käyttää Bitcoinia transaktionaalisena välineenä (Bitcoin verkostona). Tämä eroaa jyrkästi fiat-valuutoista, jotka vaativat luottamusta ja välittäjiä molemmissa skenaarioissa. Tämä tekee Bitcoinista houkuttelevan valuutan yksilöille ja yrityksille, riippumatta siitä, käytetäänkö sitä säästämiseen tai transaktioihin.
 
 ## Vuorovaikutus Bitcoinin kanssa
+
 <chapterId>050a95af-e9c2-5ec3-b9c8-55ec174d309c</chapterId>
 
 Bitcoin on ottanut rahajärjestelmän myrskyn lailla, herättäen kehittyvien maiden, teknologiasta innostuneiden yksilöiden ja sijoittajien huomion. Sen nopean kasvun myötä monet ihmettelevät, kuinka tämä digitaalinen omaisuuserä voi kilpailla perinteisten maksutapojen, kuten Visan ja Mastercardin kanssa. Lisäksi yksilöt ovat uteliaita siitä, kuinka he voivat henkilökohtaisesti olla vuorovaikutuksessa Bitcoinin kanssa.
@@ -778,6 +796,7 @@ Hallitsemattomat lompakot tarjoavat korkeamman turvallisuuden ja yksityisyyden t
 
 \*_Vaikka emme voi suositella tiettyä lompakkoa, suosittelemme voimakkaasti ottamaan hallinnan bitcoineistasi itsehallinnan tai yhteishallinnan kautta, mikä tarkoittaa sopivan lompakon valitsemista tarpeidesi ja mieltymystesi mukaan. On olennaista tehdä perusteellista tutkimusta ennen lompakon valintaa varmistaaksesi, että se vastaa turvallisuus- ja käytettävyysvaatimuksiasi._
 Vaikka säilytyspalveluita tarjoavat lompakot saattavat vaikuttaa käteviltä, niihin liittyy merkittäviä riskejä. Antamalla yksityisten avaintesi hallinnan kolmannelle osapuolelle, annat käytännössä heille valvonnan varoistasi. Jos säilyttäjä tulee maksukyvyttömäksi, joutuu hakkeroinnin kohteeksi tai lopettaa toimintansa, saatat menettää pääsyn bitcoineihisi. Ja tällaista on tapahtunut lukemattomia kertoja, korkean profiilin esimerkkeinä ovat Mt. Goxin ja QuadrigaCX:n hakkeroinnit, jotka johtivat asiakkaiden varojen menetyksiin, tai FTX, Voyager, BlockFi ja Celsius, jotka kokivat katastrofaalisia maksukyvyttömyyksiä, johtaen asiakkaiden varojen menetyksiin. Erityisesti säästöjen kohdalla on ratkaisevan tärkeää harjoittaa itsehallintaa ja ottaa vastuu bitcoiniesi turvaamisesta.
+
 #### Turvallisuusvinkkejä
 
 Kun olet päättänyt lompakosta, hauskuus ei ole vielä ohi. Nyt on aika minimoida tappion riski. Bitcoiniesi suojelemiseksi harkitse seuraavia toimenpiteitä lompakon valinnan jälkeen:
@@ -806,6 +825,7 @@ Ennen tämän moduulin päättämistä haluaisin jättää teille vielä yhden a
 ### Syvemmälle sukeltaminen
 
 Jos olet kiinnostunut tutkimaan Bitcoinin maailmaa syvemmin, monia vaihtoehtoja on saatavilla. Kuten:
+
 1. **Solmut:** Solmun pyörittäminen on erinomainen lähtökohta niille, jotka ovat uteliaita Bitcoinista perustransaktioiden ulkopuolella. Se mahdollistaa paitsi Bitcoin-verkon tukemisen lohkoketjun vahvistamisen ja uusien päivitysten tai muutosten vaikuttamisen kautta, myös vähentää luottamusta ja tarjoaa parannettua yksityisyyttä antamalla sinun vahvistaa omat transaktiosi ja saldosi. Solmua pyörittämällä tulet osaksi hajautettua verkkoa ja autat varmistamaan sen turvallisuuden ja eheyden.
 
 2. **Louhinta:** Louhinta on toinen tapa osallistua Bitcoin-verkkoon ja mahdollisesti ansaita bitcoineja. Vaikka se vaatii hieman enemmän resursseja kuin solmun pyörittäminen eikä ole yhtä tuottoisaa kuin ennen, louhinta on palkitsevaa toimintaa niille, jotka ovat kiinnostuneita verkon teknisistä aspekteista.
@@ -821,6 +841,7 @@ Vaikka usein kuulemme, että Bitcoin ei voi koskaan kilpailla Visan tai Masterca
 Bitcoinin suurin etu on, että se mahdollistaa itsehallinnan digitaalisesta omaisuudesta, mikä ei ollut mahdollista aiemmin. Jos tunnet olosi ylivoimaiseksi tämän osion läpikäynnin jälkeen, älä huoli. Oman bitcoinin hallinnan ottaminen on voimakas askel kohti taloudellista vapautta, mutta se tuo mukanaan myös uusia vastuita. Kuitenkin hieman tutkimustyötä ja huolellisuutta noudattaen nämä uudet vastuut muuttuvat nopeasti toiseksi luonnoksesi, ja tunnet olosi mukavaksi ryhtyessäsi turvaamaan bitcoinisi.
 
 ## Tentti
+
 <chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
 
 Nyt kun olet käynyt läpi moduulin "Tutkimus siitä, miten tähän päädyttiin", sinun on testattava uudelleen hankittua tietämystäsi varmistaaksesi, että olet ymmärtänyt viimeiset osiot. Aloittakaamme useilla avoimilla kysymyksillä ja sitten pienellä tietovisalla.
@@ -833,8 +854,11 @@ Nyt kun olet käynyt läpi moduulin "Tutkimus siitä, miten tähän päädyttiin
 6. Kuvittele tilanne, jossa sinun tarvitsee lähettää rahaa perheenjäsenelle toiseen maahan. Miten Bitcoinin vertaisverkkoluonne ja pienet siirtomaksut hyödyttäisivät sinua tässä tilanteessa?
 
 # Vakaus kaaoksen keskellä - Johdatus Tetheriin & stablecoinien maailmaan
+
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
+
 ## Johdanto Tetheriin ja stablecoinien maailmaan
+
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 
 Kuten aiemmin on käsitelty, raha on ollut olennainen osa ihmiskuntaa tuhansien vuosien ajan. Se on auttanut meitä ostamaan tavaroita ja palveluita, mahdollistanut kaupankäynnin keskenämme ja auttanut meitä säilyttämään varallisuutta.
@@ -866,6 +890,7 @@ Tarvitsemme valuutan, joka on sidottu suhteelliseen arvoon, digitaalisesti synty
 Ja tässä kohtaa Tether astuu kuvaan.
 
 #### Kuka on Tether?
+
 Fiat-valuuttojen jatkuvasti kehittyvässä maisemassa Tether on noussut keskeiseksi toimijaksi, jota ajaa visio nykymaailman rahoitustarpeiden ratkaisemisesta. Perinteisten valuuttojen jatkuva kamppailu pysyäkseen vauhdissa nopeasti muuttuvan globaalin talouden vaatimusten kanssa, sekä Bitcoinin lyhyen aikavälin volatiliteetin aiheuttama haaste säästämiskyvyttömille, Tetherin perustajat tunnistivat mahdollisuuden yhdistää nämä maailmat.
 
 Tether on "perinteisen rahoitusjärjestelmän häiritsijä ja digitaalisen perinteisten valuuttojen käytön uranuurtaja." Heidän ensisijainen tarkoituksensa on edistää Bitcoinin omaksumista yhdistämällä perinteinen rahoitusmaailma digitaaliseen Bitcoin-maailmaan. He saavuttavat tämän tarjoamalla erilaisia digitaalisia tokeneita, joita usein kutsutaan "stablecoineiksi", jotka säilyttävät arvonsa niiden fyysiseen maailmaan sidotun arvon—ei sanaleikki tarkoitettu—ansiosta. Tether investoi myös Bitcoinin louhintaan, Bitcoin-koulutukseen, Bitcoin-maksuinfrastruktuuriin sekä edistyneeseen Bitcoin-tutkimukseen ja -kehitykseen.
@@ -898,6 +923,7 @@ Yhteenvetona, kun yhteiskuntamme jatkaa kehittymistään ja teknologia etenee, n
 _**Sivuhuomautus:** Älä huolestu, jos jotkut näistä termeistä eivät aivan avaudu. Tulemme tutkimaan jokaista aihetta tarkemmin tämän moduulin aikana._
 
 ## Stablecoinien historia
+
 <chapterId>174e2cab-ef14-5e14-99c8-8457b6fc5fee</chapterId>
 
 Stablecoinit ovat tulleet suosituksi aiheeksi kryptovaluuttamaailmassa, tarjoten lyhyellä aikavälillä vähemmän volatiilin vaihtoehdon kryptovaluutoille, kuten Bitcoinille. Kuten tämän moduulin johdannossa yksityiskohtaisesti kerrottiin, stablecoinit ovat digitaalisia varoja, jotka on sidottu vakaisiin varoihin, kuten fiat-valuuttaan tai jalometalleihin, ja suunniteltu säilyttämään vakaa arvo. Tutkitaan siis stablecoinien historiaa ja katsotaan tarkemmin joitakin ensimmäisiä stablecoineja, mukaan lukien Tetherin USDt, tunnetuin ja laajimmin käytetty stablecoin.
@@ -921,6 +947,7 @@ Lisäksi, kun stablecoin-markkina on kasvanut, Tether on laajentanut toimintaans
 Yhteenvetona voidaan todeta, että stablecoinit ovat tulleet pitkän matkan perustamisestaan lähtien. BitUSD:n ja NuBitsin alkupäivistä Tether-tuotteiden valtavirtasuosioon ja muiden stablecoinien esiinmarssiin, stablecoin-markkina on kehittynyt nopeasti. Vaikka kiistat Tetherin ympärillä ovat herättäneet huolta stablecoinien liikkeeseenlaskijoiden läpinäkyvyydestä ja vastuullisuudesta, stablecoin-markkina jatkaa kasvuaan tarjoten globaalin ja joustavan sillan Bitcoinille. Tämä mukavuus tulee kuitenkin lisääntyneen keskittymisen ja luottamuksen varaan rakentuvan hinnan kustannuksella.
 
 ## Stablecoinien ominaisuudet
+
 <chapterId>21765df7-53fd-58af-9df6-7208027a0c3a</chapterId>
 
 Kuten nyt pitäisi olla ilmeistä, stablecoin on digitaalisen tokenin tyyppi, joka on suunniteltu ylläpitämään vakaata arvoa perustuen alustavaan sidottuun omaisuuteen. Nämä omaisuuserät voivat sisältää fiat-valuutan, jalometallit, hyödykkeet tai näiden yhdistelmän (esim. kori fiat-valuuttoja).
@@ -932,7 +959,9 @@ Käytännössä stablecoin toimii sillan roolissa perinteisten omaisuuserien ja 
 Katsotaanpa, miten ne ylläpitävät tätä hintavakautta...
 
 Useimmat stablecoinit valitsevat usein käyttää fiat-valuuttaa sidontakohteenaan, ja Yhdysvaltain dollari on yksi suosituimmista fiat-valuutoista, johon sidotaan. Tästä syystä syvennymme ensin fiat-tuettuihin stablecoineihin. Kuitenkin on olemassa useita erityyppisiä stablecoineja, kuten hyödykkeisiin sidottuja ja algoritmisiin, joita myös tarkastelemme.
+
 ### Fiat-tuettu
+
 Stablecoin-kolikot on suunniteltu säilyttämään vakaa arvo verrattuna sidottuun omaisuuteen. Fiat-tuettujen stablecoinien, kuten USDt, kohdalla yksinkertaisin tapa säilyttää kolikon arvo on, että kolikon liikkeeseenlaskija pitää kolikkoon sidotun valuutan 1:1 suhteessa.
 
 Kuulostaako hieman sekavalta? Älä huoli. Tässä on esimerkki:
@@ -983,6 +1012,7 @@ Kuitenkin, aivan kuten fiat-tuetut stablecoinit, myös hyödyke-tuetut stablecoi
 Katsotaanpa nyt kolmatta stablecoin-muotoa...
 
 ### Algoritmipohjainen
+
 Algoritmisen stablecoinin on viimeinen stablecoin-tyyppi, josta keskustelemme, ja kuten muutkin, se on suunniteltu ylläpitämään vakaata arvoa. Toisin kuin fyysisiin varoihin sidotut stablecoinit, algoritmiset stablecoinit käyttävät matemaattisia kaavoja tai algoritmeja—usein yhdessä jonkin varallisuuden kanssa—säädelläkseen tarjontaansa suhteessa kysyntään ylläpitääkseen hintavakautta.
 
 Niille, jotka eivät ole tuttuja termillä algoritmi, voit ajatella algoritmia yksinkertaisesti joukkona noudatettavia sääntöjä. Tämä saattaa kuulostaa hämmentävältä, joten katsotaanpa esimerkkiä yhdenlaisesta algoritmisen vakauden mekanismista, jota kutsutaan uudelleenarvostusmenetelmäksi.
@@ -1004,6 +1034,7 @@ Yhteenvetona voidaan sanoa, että stablecoinit tarjoavat sillan perinteisen maai
 Vaikka stablecoineja pidetään usein turvallisina niiden "vakaan" luonteen vuoksi, on tärkeää muistaa, että ne eivät ole täysin riskittömiä. Koska stablecoinit nojaavat keskitettyihin liikkeeseenlaskijoihin, esim. Tether, ja rahoituslaitoksiin, on olemassa mahdollisuus tappioille. Näiden riskien lieventämiseksi on ratkaisevan tärkeää tehdä perusteellista tutkimusta eri stablecoineista ennen sijoittamista. Näin voit tehdä tietoon perustuvia päätöksiä ja minimoida odottamattomien tappioiden mahdollisuuden.
 
 ## Tetherin Stablecoin-tarjonnan edut
+
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 Tapaa Adanna, nuori nainen, joka asuu maaseutukylässä Afrikassa, missä CFA-frangi, joka on menettänyt hämmästyttävät [99,5%](https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization) ostovoimastaan viimeisen 70 vuoden aikana, on ainoa saatavilla oleva valuutta — mikä tekee säästämisestä mahdottomuuden.
 Adannaa on aina kiehtonut ajatus hallita omaa rahaansa, mutta se on pysynyt mahdottomana unelmana viime aikoihin asti. Valuuttaa, jota hän käyttää, valvovat henkilöt, jotka ovat osoittaneet, etteivät he ole kansansa parhaan edun mukaisia, ja hänen maaseutusijaintinsa rajoittaa pääsyä pankkipalveluihin. Tämän seurauksena Adannalla ei ole muuta vaihtoehtoa kuin luottaa käteiseen rahaan, mikä jättää hänet alttiiksi varkauksille ja tappioille lisäksi ostovoiman heikkenemiselle.
@@ -1043,7 +1074,7 @@ Tässä on näyte siitä, kuinka paljon Western Union [veloittaa](https://www.we
 - **Kanada, USA, Meksiko:** 16,86 dollarin maksu + 1,20 dollarin valuuttakurssitappio (18,06% tappio)
 - **Iso-Britannia, Albania, Bosnia, Serbia, Slovenia:** 17,92 dollarin maksu + 3,10 dollarin valuuttakurssitappio (21,02% tappio)
 - **Oseania ja Kaakkois-Aasia:** 12,61 dollarin maksu + 8,60 dollarin valuuttakurssitappio (21,21% tappio)
-Tämä on hämmästyttävä summa rahaa, joka nyt on suurten Yhdysvaltalaisyritysten käsissä. Ja tässä kohtaa USDt tarjoaa ratkaisun korkeiden rahalähetysmaksujen ongelmaan.
+  Tämä on hämmästyttävä summa rahaa, joka nyt on suurten Yhdysvaltalaisyritysten käsissä. Ja tässä kohtaa USDt tarjoaa ratkaisun korkeiden rahalähetysmaksujen ongelmaan.
 
 Toisin kuin perinteiset rahansiirtopalvelut, USDt on digitaalinen valuutta, joka transaktioiden tarkoituksessa liikkuu lohkoketjun kautta. Koska se ei vaadi välittäjiä, kuten pankkeja tai rahansiirtopalveluita, maksut ovat huomattavasti alhaisemmat. Lisäksi, koska transaktiot suoritetaan julkisella lohkoketjulla, tämä takaa suuremman läpinäkyvyyden sekä yksityisyyden. Tämä tarkoittaa, että yksilöt voivat lähettää rahaa rakkailleen toisiin maihin lähes välittömästi, turvallisesti ja paljon alhaisemmin kustannuksin.
 Esimerkiksi USDt, joka toimii pääasiassa Ethereum- ja Tron-lohkoketjuissa, on viime vuoden aikana keskimäärin maksanut [1,02 dollaria](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) ja [0,000005 dollaria](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) siirtomaksuja, riippumatta lähetetyn summan suuruudesta—maksu pysyy samana, lähetettiinpä sitten 5 dollaria tai 10 000 dollaria. Ja tällä hetkellä kehittäjät työskentelevät [stablecoinien](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/) parissa, jotka rakennetaan Bitcoinin Lightning-verkkoon, ja näiden siirtomaksut olisivat noin [0,0003 dollaria](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
@@ -1117,6 +1148,7 @@ Ja jos tämä ei vielä riittänyt, nämä stablecoin-valuutat eivät ainoastaan
 Kaiken kaikkiaan stablecoin-valuutat, kuten USDt ja XAUt, voivat muuttaa miljardien ihmisten elämää tarjoamalla heille pääsyn inklusiivisiin ja kipeästi kaivattuihin rahoituspalveluihin.
 
 ## Tentti
+
 <chapterId>1294d874-6edb-5feb-b070-0ead1836bd0b</chapterId>
 
 Nyt kun olet käynyt läpi moduulin "Vakautta kaaoksen keskellä", sinun on testattava uusia tietojasi varmistaaksesi, että olet ymmärtänyt viimeiset osiot. Aloittakaamme useilla avoimilla kysymyksillä ja sitten pienellä tietovisalla.
@@ -1128,17 +1160,16 @@ Nyt kun olet käynyt läpi moduulin "Vakautta kaaoksen keskellä", sinun on test
 5. Mielestäsi, mitä toimenpiteitä stablecoinien liikkeeseenlaskijoiden tulisi toteuttaa varmistaakseen stablecoinien vakauden ja luotettavuuden? Kuinka tärkeää on, että stablecoinien liikkeeseenlaskijat ovat läpinäkyviä varantokäytäntöjensä suhteen ja tarjoavat säännöllisiä raportteja?
 
 # Epäilyjen voittaminen - Yleisten väärinkäsitysten kumoaminen & Todelliset käyttötapaukset
+
 <partId>246a7dc0-a203-5b2e-ae13-9c8f08e6bfad</partId>
 
 ## Väärinkäsitykset
+
 <chapterId>4da9319d-6306-500f-adbb-5fa31c673cd2</chapterId>
 
 Bitcoin on kohdannut vastustusta, kritiikkiä ja väärinkäsityksiä syntymästään lähtien vuonna 2009. Huolimatta sen suosion kasvusta ja omaksumisesta, monet pitävät sitä edelleen puhkeamista odottavana kuplana. Samalla tavalla stablecoin-valuutat ovat houkutelleet samankaltaista huomiota ja skeptisismiä. Valuutan idea, joka on tuettu vakaalla omaisuudella, kuulostaa lupaavalta, mutta monet ihmiset ymmärtävät väärin, miten stablecoinit toimivat ja niiden potentiaalisen vaikutuksen rahoitusjärjestelmään.
 
-Tässä osiossa tutkimme joitakin yleisimpiä väärinkäsityksiä Bitcoinista ja stablecoineista. Syvennymme näiden väärinkäsitysten taustalla olevaan totuuteen ja kumoamme ne, jotka ovat aiheuttaneet eniten sekaannusta ja skeptisismiä. Bitcoinin uskotaan olevan liian volatiili ollakseen käyttökelpoinen valuutta, sen energiankulutukseen liittyvistä huolista, tutkimme jokaisen kysymyksen, jotta voit muodostaa oman mielipiteesi. Tämän luvun lopussa sinulla on paljon laajempi ymmärrys näistä teknologioista ja siitä, onko näissä vastustuksissa perää.
-6. Bitcoinia käytetään pääasiassa laittomaan toimintaan
-7. Kuka tahansa voi kopioida Bitcoinin koodin, mikä tekee siitä arvottoman
-8. Bitcoin kuluttaa liikaa energiaa
+Tässä osiossa tutkimme joitakin yleisimpiä väärinkäsityksiä Bitcoinista ja stablecoineista. Syvennymme näiden väärinkäsitysten taustalla olevaan totuuteen ja kumoamme ne, jotka ovat aiheuttaneet eniten sekaannusta ja skeptisismiä. Bitcoinin uskotaan olevan liian volatiili ollakseen käyttökelpoinen valuutta, sen energiankulutukseen liittyvistä huolista, tutkimme jokaisen kysymyksen, jotta voit muodostaa oman mielipiteesi. Tämän luvun lopussa sinulla on paljon laajempi ymmärrys näistä teknologioista ja siitä, onko näissä vastustuksissa perää. 6. Bitcoinia käytetään pääasiassa laittomaan toimintaan 7. Kuka tahansa voi kopioida Bitcoinin koodin, mikä tekee siitä arvottoman 8. Bitcoin kuluttaa liikaa energiaa
 
 Sukelletaanpa sisään…
 
@@ -1319,6 +1350,7 @@ Ja lopuksi…
 
 Haluamme aloittaa sanomalla: **Kaikki kuluttaa energiaa**, olipa meidän tajuissaan tai ei. Jopa yksinkertainen teko, kuten koiran kanssa juokseminen, edellyttää sekä sinun että karvaisen kumppanisi energian tankkausta. Sekä sinä että koirasi olette energiankuluttajia.
 Nyt aikomuksemme ei ole kritisoida muita toimialoja niiden energiankulutuksesta, sillä kuten yllä keskusteltiin, energiankäyttö merkitsee sitä arvoa, jonka ihmiset löytävät tarjotuista palveluista tai tuotteista. On kuitenkin olennaista asettaa Bitcoinin energiankulutus perspektiiviin. Harkitse seuraavia [vertailuja](https://bitcoinmagazine.com/business/bitcoin-energy-use-compare-industry):
+
 - Pesukoneet kuluttavat [18%](https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) enemmän energiaa kuin Bitcoin.
 - Kullan kaivaminen ja korujen valmistus kuluttaa kymmenen kertaa enemmän energiaa kuin Bitcoin.
 - Merikuljetukset kuluttavat yli 51 kertaa enemmän energiaa kuin Bitcoin.
@@ -1414,6 +1446,7 @@ Objektiivisesti arvioimalla kohtaamiasi vastustuksia voit paremmin navigoida per
 Lopulta hajautetun rahoituksen tulevaisuus on niiden käsissä, jotka ovat valmiita menemään perinteisen ajattelun rajojen ulkopuolelle, haastamaan ennakkoluuloja ja arvioimaan tietoa objektiivisesti. Pyri tekemään tietoon perustuvia päätöksiä Bitcoinista ja stablecoineista perustuen tarkkaan tietoon ja tasapainoiseen ymmärrykseen niiden kyvyistä ja rajoituksista.
 
 ## Roya Mahboob
+
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 Nykyisessä globalisoituneessa maailmassa pääsy rahoituspalveluihin on kriittinen osa taloudellista osallistumista ja itsenäisyyttä. Huolimatta tästä, aivan liian moni ihminen on edelleen suljettu perinteisen pankkijärjestelmän ulkopuolelle, ja naiset kantavat usein tämän sulkeutumisen suurimman taakan. Järkyttävää kyllä, vaikka tarpeettomasti [neljännes](https://www.worldbank.org/en/publication/globalfindex) maailman väestöstä on edelleen ilman pankkipalveluita, maissa kuten Saudi-Arabiassa [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) naisista ei ole pääsyä peruspankkipalveluihin, mikä estää heitä osallistumasta täysipainoisesti maansa talouteen ja yhteiskuntaan.
@@ -1424,7 +1457,7 @@ Tässä on vain muutamia esimerkkejä olosuhteista, joita naiset ympäri maailma
 2. Riippuvuus miespuolisista sukulaisista: Monissa patriarkaalisissa yhteiskunnissa naiset ovat riippuvaisia miespuolisista sukulaisista taloudellisen tuen saamiseksi. Tämä tarkoittaa, että he eivät kykene tekemään taloudellisia päätöksiä itsenäisesti ja ovat usein miespuolisten sukulaisiensa armoilla. Esimerkiksi Afganistanissa naiset joutuvat usein turvautumaan miespuolisiin perheenjäseniin taloudellisen avun saamiseksi, eivätkä he ehkä pääse käsiksi rahoituspalveluihin ilman miespuolisen holhoojan lupaa.
 3. Rajoitukset työllistymisessä: Tietyissä maissa naisilta kielletään työskentely kodin ulkopuolella, mikä vaikeuttaa heidän taloudellisen itsenäisyytensä saavuttamista. Esimerkiksi Syyriassa, Irakissa, Afganistanissa, Algeriassa, Palestiinassa, Jordaniassa ja Iranissa naiset muodostavat vain [15 - 18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) työvoimasta.
 4. Omaisuusoikeuksien puute: Maailmanlaajuisesti on edelleen [75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets) maata, joissa naisilla ei ole omaisuusoikeuksia, mikä tarkoittaa, että heidän mahdollisuutensa omistaa maata tai muita varoja on rajallinen. Tämä vaikeuttaa heidän mahdollisuuksiaan perustaa yrityksiä tai saada luottoa, koska heillä ei ole tarjota mitään vakuuksia. Esimerkiksi joissakin Intian osissa naiset eivät saa omistaa omaisuutta, eivätkä he ehkä pysty saamaan luottoa ilman miespuolisen sukulaisen lupaa.
-Nämä ovat vain muutamia esimerkkejä esteistä, joita naiset monissa nyky-yhteiskunnissa edelleen kohtaavat päästäkseen käsiksi rahoituspalveluihin ja saavuttaakseen taloudellisen itsenäisyyden.
+   Nämä ovat vain muutamia esimerkkejä esteistä, joita naiset monissa nyky-yhteiskunnissa edelleen kohtaavat päästäkseen käsiksi rahoituspalveluihin ja saavuttaakseen taloudellisen itsenäisyyden.
 
 Tämän peruspalveluiden puutteen vuoksi näiden naisten on uskomattoman vaikeaa saavuttaa taloudellista itsenäisyyttä ja ottaa hallintaansa omat talousasiansa. Toivoa kuitenkin on horisontissa. Bitcoinin nousun myötä näillä naisilla on nyt ratkaisu tähän ongelmaan. Yksinkertaisen internet-yhteyden kautta heillä on nyt pääsy luottamukseen perustumattomaan, luvanvaraisuudesta vapaaseen ja hajautettuun vaihdon välineeseen, jonka perinteinen pankkitoiminta on jättänyt tarjoamatta. Bitcoin voimaannuttaa naisia, jotka ovat jääneet perinteisen rahoitusjärjestelmän ulkopuolelle.
 
@@ -1459,6 +1492,7 @@ Lisäksi Mahboobin ja Bitcoinin avulla nämä Afganistanin naiset voivat nyt yhd
 Kaiken kaikkiaan Bitcoin on ollut voimakas työkalu naisten taloudellisessa voimaannuttamisessa.
 
 ## Mercedes
+
 <chapterId>dfa10b75-19f6-578a-9d14-a0a541806076</chapterId>
 
 Syntyneenä Meksikossa vuonna 1949 köyhissä olosuhteissa, Mercedes koki yhteiskuntansa syvät eriarvoisuudet jo nuoresta iästä lähtien. Lapsuutensa aikana hän kohtasi lukuisia haasteita, mukaan lukien hallituksen opiskelijaliikkeiden sorto ja naisille köyhyydessä eläessä ominaiset erityiset vaikeudet. Lisäksi suuri kuilu rikkaiden ja köyhien välillä, yhdistettynä rajalliseen pääsyyn laadukkaaseen koulutukseen, jätti hänen perheensä ja lukemattomat muut köyhyyteen. Nämä epäoikeudenmukaisuudet turhauttivat Mercedesiä, joka kääntyi marxilaisuuden (kommunismin) puoleen ajamaan sosiaalista muutosta ja taloudellista uudistusta.
@@ -1480,6 +1514,7 @@ Toivoa ja innostusta täynnä Mercedes näkee Bitcoinin potentiaalin muuttaa maa
 Mercedesin elämä on ollut uskomaton matka, ja Bitcoinin vaikutus hänen elämäänsä on todella merkittävä. Hänen tarinansa toimii toivon majakkana siitä, että Bitcoin voi tuoda merkityksellistä muutosta ja voimaannuttaa ihmisiä kaikilta elämänaloilta. Taloudellisen tasa-arvon puolestapuhujana hän hyödyntää laajaa tietämystään ja matkakokemuksiaan kouluttaakseen ja kohottaakseen niitä, jotka ovat marginaalissa perinteisten rahoitusjärjestelmien vuoksi. Hänen jatkuvat ponnistelunsa ovat esimerkki siitä, miten yhden ihmisen intohimo ja päättäväisyys voivat inspiroida positiivista muutosta yhteisöissä ympäri maailmaa.
 
 ## Stablecoin Stories
+
 <chapterId>7b6d8d57-905d-5168-9be6-3df7c938de2a</chapterId>
 
 Kun lähestymme tämän kurssin loppua, haluaisimme esitellä kokoelman inspiroivia stablecoin-tarinoita. Nämä todistukset esittelevät todellisia kokemuksia yksilöiltä, yritysten omistajilta ja yrityksiltä, jotka ovat hyödyntäneet stablecoineja parantaakseen elämäänsä.
@@ -1565,6 +1600,7 @@ HR-alalla meillä on paljon ihmisiä maksettavana eri maissa. Emme yksinkertaise
 Toivomme, että olet löytänyt nämä tarinat inspiroiviksi. Sanottakoon, että on selvää, että stablecoin-kolikot, kuten USDt, ovat keskeisessä roolissa mahdollistamassa yksilöille pääsyn nopeisiin ja tehokkaisiin kansainvälisiin siirtoihin, USD-laskutukseen ja -maksuihin, USD:ssä nimettyihin palkkoihin ja mikä tärkeintä, suhteellisen vakaaseen arvon säilyttämiseen verrattuna lukuisiin volatiileihin valuuttoihin. Ilman stablecoineja monet näistä yksilöistä kohtaisivat merkittäviä esteitä päästessään globaaleille markkinoille, ollessaan yhteydessä kansainvälisiin perheenjäseniin tai tavoittaessaan muuten saavuttamattomissa olevia asiakkaita. Stablecoin-kolikot ovat kiistatta parantaneet heidän taloudellista yhteydenpitoaan ja tarjonneet arvokkaan työkalun navigoida globaalin talouden monimutkaisuuksien läpi.
 
 ## Tentti
+
 <chapterId>3b23b0ae-41a7-53b0-bc48-7343a64f28bc</chapterId>
 
 Nyt kun olet käynyt läpi moduulin "Epäilyjen voittaminen", sinun on testattava uudelleen hankittua tietämystäsi varmistaaksesi, että olet ymmärtänyt viimeiset osiot. Aloittakaamme useilla avoimilla kysymyksillä ja sitten pienellä tietovisalla.
@@ -1575,21 +1611,8 @@ Nyt kun olet käynyt läpi moduulin "Epäilyjen voittaminen", sinun on testattav
 4. Ottaen huomioon Bitcoinin kyvyn tarjota energiantuottajille mahdollisuuden muuntaa energia suoraan rahaksi, luuletko, että tästä on merkittäviä etuja energiantuottajille ja koko energiamarkkinoille?
 5. Pohdittaessa Bitcoinin energiankulutuksen vertailua muihin teollisuudenaloihin, onko oikeudenmukaista erottaa Bitcoin sen energiankäytön vuoksi? Miksi tai miksi ei?
 
-# Loppuhuomautukset
-<partId>204d7367-ae08-5348-98c8-8b74c6c1b261</partId>
-
-
-
-## Anna meille palautetta tästä kurssista
-<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Loppukoe
-<chapterId>cbdb0b33-0491-5013-b96c-9a84dd085ed0</chapterId>
-<isCourseExam>true</isCourseExam>
-
-
 ## Loppuhuomautukset
+
 <chapterId>2b27b4dd-10e1-56a7-978e-1e5085f9aaff</chapterId>
 
 Onnittelut kurssin loppuun saattamisesta! Olet tullut pitkän matkan. Tällä matkalla olemme syventyneet laajaan aiheiden kirjoon, mukaan lukien:
@@ -1612,3 +1635,17 @@ Kurssin päättyessä toivomme, että otat täällä hankitun tiedon ja sovellat
 Toivottavasti tämä uusi ymmärrys valtuuttaa sinut navigoimaan muuttuvassa rahoitusmaailmassa luottavaisesti ja tarkoituksenmukaisesti. Onnea kasvun ja löytöjen polullasi!
 
 Tulevaisuus on valoisa!
+
+# Lopullinen osio
+
+<partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
+
+## Arviot & Arvosanat
+
+<chapterId>86e358bb-88f4-5d20-af53-93f0f3524590</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Yhteenveto
+
+<chapterId>189d80ac-f10e-4a0d-9db8-400523cad978</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

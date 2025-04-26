@@ -47,7 +47,7 @@ Pertanto, la logica dovrebbe essere la seguente quando si utilizza uno strumento
 
 Se si desidera trovare un collaboratore disposto ad assistere in una transazione Stonewall X2, è possibile visitare anche questo gruppo Telegram (non ufficiale) mantenuto dagli utenti di Samourai per connettere mittenti e collaboratori: [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
-[**-> Scopri di più sulle transazioni Stonewall**](https://planb.network/tutorials/privacy/stonewall)
+[**-> Scopri di più sulle transazioni Stonewall**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Qual è lo scopo di una transazione Stonewall x2?
 

@@ -1,0 +1,9 @@
+question: Kuinka Bastiat osoittaa yhteyden pääoman kertymisen ja työntekijöiden elinolosuhteiden välillä?
+answer: Tuotannon lisääntyminen johtaa hintojen laskuun ja palkkojen nousuun.
+wrong_answers:
+  - Pääoma mahdollistaa sosiaaliprojektien rahoittamisen ja julkisten palveluiden parantamisen.
+  - Työntekijät itse muuttuvat kapitalisteiksi ja jakavat voitot.
+  - Pääoma mahdollistaa riippuvuuden vähentämisen työnantajista.
+explanation: |
+  Bastiat väittää, että pääoman kertyminen lisää tuotantoa, mikä johtaa hintojen laskuun ja palkkojen nousuun, parantaen siten elinolosuhteita.
+reviewed: false

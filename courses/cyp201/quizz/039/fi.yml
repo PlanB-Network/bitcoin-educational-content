@@ -1,10 +1,9 @@
-question: Mihin julkisten ja yksityisten avainten turvallisuus perustuu?
-answer: Diskreetin logaritmin ongelma
+question: Mikä on Bitcoin-lompakon pääasiallinen tehtävä?
+answer: Hallita ja turvata yksityisiä avaimia
 wrong_answers:
-  - Alkulukujen tekijöihinjakoon
-  - Reppuongelma
-  - Kauppamatkustajan ongelma
+  - Säilyttää käyttäjän bitcoinit
+  - Varmistaa automaattisesti tapahtumien luottamuksellisuuden
+  - Generoida bitcoineja jokaiselle käyttäjälle
 explanation: |
-  Julkisten ja yksityisten avainten turvallisuus perustuu diskreetin logaritmin
-  ongelmaan, monimutkaiseen matemaattiseen kysymykseen.
+  Bitcoin-lompakko ei suoraan säilytä bitcoineja, vaan hallinnoi yksityisiä avaimia, jotka ovat tarpeen UTXO: iden avaamiseksi, jotka edustavat bitcoineja.
 reviewed: false

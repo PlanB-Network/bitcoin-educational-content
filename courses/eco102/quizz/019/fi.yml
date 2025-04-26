@@ -1,0 +1,9 @@
+question: Mikä on Tracyn mukaan todellinen vaihtoehto sodille?
+answer: Tuotanto ja kauppa
+wrong_answers:
+  - Diplomatia
+  - Kulttuuri
+  - Poliittinen integraatio
+explanation: |
+  Destutt de Tracy uskoo, että rauhanomainen tuotanto ja kauppa ovat kestävä ratkaisu konfliktien välttämiseksi.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Mis on kaevandamishardware'i tootmise tsentraliseerimise potentsiaalne risk Hiinas?
+answer: Keeldumine kaevandamismasinate eksportimisest või hashrate'i kogumine potentsiaalseks 51% ründeks.
+wrong_answers:
+  - Hiina võiks monopoliseerida Bitcoin'i võrgustiku.
+  - Hiina võiks kontrollida Bitcoin'i hinda.
+  - Hiina võiks keelata Bitcoin'i kaevandamise.
+explanation: |
+  Kaevandamishardware'i tootmise tsentraliseerimine Hiinas
+  kujutab endast riski Bitcoin'i võrgustikule. Kui Hiina keeldub
+  kaevandamismasinate eksportimisest või kogub hashrate'i
+  potentsiaalseks 51% ründeks, võib see ohustada võrgustiku
+  turvalisust ja detsentraliseeritust.
+reviewed: true

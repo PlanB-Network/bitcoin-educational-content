@@ -1,0 +1,9 @@
+question: Miten ei-huoltajan lompakko eroaa toiminnallisuudeltaan Starter-käyttäjien kannalta?
+answer: Se antaa yrityksen omistajalle täyden määräysvallan yksityisiin avaimiin
+wrong_answers:
+  - Se voi muuntaa bitcoinit automaattisesti fiat-valuutaksi
+  - Se ei vaadi varmuuskopiointimenettelyjä tai turvatoimenpiteitä
+  - Se hallinnoi kaikkia liiketoimia kolmannen osapuolen palvelun kautta
+explanation: |
+  Ei-säilytettävät lompakot antavat yksityisten avainten ja transaktioiden hallinnan täysin käyttäjän käsiin.
+reviewed: false

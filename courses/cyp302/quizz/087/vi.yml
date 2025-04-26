@@ -1,0 +1,9 @@
+question: Phương pháp mã hóa khối nào sử dụng vector khởi tạo và tạo ra mã hóa xác suất?
+answer: CBC (Cipher Block Chaining)
+wrong_answers:
+  - ECB (Electronic Code Book)
+  - AES-128
+  - SHA-256
+explanation: |
+  Phương pháp CBC sử dụng vector khởi tạo và áp dụng phép XOR giữa mỗi khối bản rõ và khối đã mã hóa trước đó, làm cho việc mã hóa trở nên xác suất và an toàn hơn so với ECB.
+reviewed: false

@@ -1,9 +1,11 @@
-question: Comment renforcer la sécurité par défaut de votre portefeuille Bitcoin ?
+question: Comment pouvez-vous renforcer la sécurité par défaut de votre portefeuille Bitcoin ?
 answer: En ajoutant une phrase secrète à votre portefeuille Bitcoin.
 wrong_answers:
-  - En ajoutant une deuxième clé privée à votre portefeuille Bitcoin.
-  - En ajoutant une deuxième clé publique à votre portefeuille Bitcoin.
-  - En ajoutant une deuxième phrase mnémonique à votre portefeuille Bitcoin.
+  - En ajoutant une seconde clé privée à votre portefeuille Bitcoin.
+  - En ajoutant une seconde clé publique à votre portefeuille Bitcoin.
+  - En ajoutant une seconde phrase mnémonique à votre portefeuille Bitcoin.
 explanation: |
-  Si vous n'êtes pas satisfait de la sécurité par défaut de votre portefeuille Bitcoin, vous pouvez toujours la renforcer en ajoutant une phrase secrète à votre portefeuille Bitcoin.
-reviewed: false
+  Si vous n'êtes pas satisfait de la sécurité par défaut de votre
+  portefeuille Bitcoin, vous pouvez toujours la renforcer en ajoutant une
+  phrase secrète à votre portefeuille Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Apa itu stream cipher dalam kriptografi?
+answer: Enkripsi simetris yang menghasilkan aliran kunci dengan panjang yang sama dengan pesan
+wrong_answers:
+  - Enkripsi asimetris yang berbasis pada bilangan prima
+  - Enkripsi yang menggunakan beberapa kunci dekripsi yang berbeda
+  - Enkripsi yang membagi pesan menjadi blok data
+explanation: |
+  Stream cipher adalah enkripsi simetris di mana aliran kunci dengan panjang yang sama dengan pesan dikombinasikan dengan pesan tersebut untuk menghasilkan teks terenkripsi.
+reviewed: false

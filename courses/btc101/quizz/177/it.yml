@@ -1,9 +1,10 @@
 question: Qual è stato un evento significativo nel mondo delle criptovalute nel 2017?
-answer: Il lancio di migliaia di Initial Coin Offerings (ICOs).
+answer: Il lancio di migliaia di Initial Coin Offerings (ICO).
 wrong_answers:
   - Il divieto di Bitcoin.
   - La creazione di Bitcoin.
   - La scomparsa di tutte le criptovalute.
-explanation: |
-  L'anno 2017 è stato segnato da una significativa bolla speculativa nel mondo delle criptovalute, soprattutto con il lancio di migliaia di Initial Coin Offerings (ICOs).
-reviewed: false
+explanation: >-
+  L'anno 2017 è stato segnato da una significativa bolla speculativa nel
+  mondo delle criptovalute, in particolare con il lancio di migliaia di Initial Coin Offerings (ICO).
+reviewed: true

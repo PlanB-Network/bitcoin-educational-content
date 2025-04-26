@@ -1,0 +1,9 @@
+question: Hai số được gọi là nguyên tố cùng nhau có nghĩa là gì?
+answer: Ước chung lớn nhất của chúng bằng 1
+wrong_answers:
+  - Tổng của chúng là một số chẵn
+  - Cả hai đều là số chẵn
+  - Chúng không có ước chung nào ngoại trừ 1 và chính chúng
+explanation: |
+  Hai số được gọi là nguyên tố cùng nhau nếu ước chung lớn nhất của chúng là 1, nghĩa là chúng không chia sẻ bất kỳ ước số nguyên tố nào, đây là một tính chất quan trọng trong mật mã học.
+reviewed: false

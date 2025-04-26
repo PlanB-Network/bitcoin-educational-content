@@ -1,0 +1,9 @@
+question: Apa itu merge dalam sebuah transaksi?
+answer: Ini adalah tindakan menggunakan beberapa UTXO sebagai input.
+wrong_answers:
+  - Ini adalah tindakan menciptakan beberapa UTXO sebagai output.
+  - Ini adalah tindakan menggabungkan beberapa alamat menjadi satu.
+  - Ini adalah tindakan menggabungkan beberapa blok dalam blockchain.
+explanation: |
+  Ketika pengguna tidak memiliki UTXO yang lebih besar atau sama dengan jumlah yang ingin mereka kirim, mereka harus menggunakan beberapa UTXO mereka untuk memenuhi output. Praktik ini disebut merging.
+reviewed: false

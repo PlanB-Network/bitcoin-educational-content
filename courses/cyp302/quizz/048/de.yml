@@ -1,0 +1,9 @@
+question: In einer zyklischen Gruppe, wie wird ein Element genannt, das alle anderen Elemente durch Potenzierung erzeugen kann?
+answer: Ein Generator
+wrong_answers:
+  - Ein Multiplikator
+  - Ein teilerfremdes Element
+  - Ein Inverses
+explanation: |
+  Ein Generator ist ein Element in einer zyklischen Gruppe, das durch Potenzierung alle anderen Elemente der Gruppe erzeugen kann.
+reviewed: false

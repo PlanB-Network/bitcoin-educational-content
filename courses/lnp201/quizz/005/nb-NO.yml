@@ -1,0 +1,8 @@
+question: Hva er den primære rollen til en privat nøkkel i Bitcoin-systemet?
+answer: Signere transaksjoner for å tilfredsstille et skript
+wrong_answers:
+  - Fungere som en identifikator for å motta bitcoins
+  - Lagre midler sikkert på blokkjeden
+  - Opprette låseskript for å beskytte bitcoins
+explanation: |
+  Den private nøkkelen brukes til å signere transaksjoner for å tilfredsstille et skript og låse opp bitcoins.

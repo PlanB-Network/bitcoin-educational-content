@@ -8,6 +8,6 @@ wrong_answers:
   - Compte dépôt.
 
 explanation: |
-  Le change n'ayant pas pu intégrer la pool est isolé dans le compte “doxxic change", pour en assurer une séparation stricte avec les autres UTXOs du portefeuille.
+  Le change n'ayant pas pu intégrer la pool est isolé dans le compte “doxxic change, pour en assurer une séparation stricte avec les autres UTXOs du portefeuille.
 
 reviewed: false

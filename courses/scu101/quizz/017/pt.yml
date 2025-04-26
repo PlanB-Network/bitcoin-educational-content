@@ -1,11 +1,12 @@
 question: Qual é uma maneira de confirmar que você está no site que pretende visitar?
-answer: Verifique as URLs e o pequeno cadeado na barra de endereço.
+answer: Verifique os URLs e o pequeno cadeado na barra de endereços.
 wrong_answers:
   - Verifique o número de anúncios no site.
   - Verifique a velocidade do site.
   - Verifique o esquema de cores do site.
 explanation: |
-  Verificar as URLs e o pequeno cadeado na barra de endereço é uma maneira
-  de confirmar que você está no site que pretende visitar. O cadeado indica que
-  o site está usando o protocolo HTTPS, que criptografa dados para troca segura.
-reviewed: false
+  Verificar os URLs e o pequeno cadeado na barra de endereços
+  é uma maneira de confirmar que você está no site que pretende
+  visitar. O cadeado indica que o site está usando o protocolo
+  HTTPS, que criptografa os dados para uma troca segura.
+reviewed: true

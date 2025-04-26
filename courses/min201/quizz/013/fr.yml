@@ -1,9 +1,13 @@
-question: Comment la réglementation et les tarifs d'électricité influencent-ils le minage de Bitcoin ?
-answer: La réglementation et les tarifs d'électricité ont une influence significative sur le minage de Bitcoin. Les mineurs recherchent constamment une électricité à faible coût pour maximiser leurs profits. Par conséquent, le coût élevé de l'électricité dans certaines régions n'attire pas les mineurs vers ces régions. Les mineurs ont tendance à se tourner vers des régions avec des tarifs d'électricité bas, souvent dans des pays émergents ou des pays disposant d'un surplus d'énergie.
+question: Comment la régulation et les tarifs de l'électricité influencent-ils le minage de Bitcoin ?
+answer: La régulation et les tarifs de l'électricité ont une influence significative sur le minage de Bitcoin. Les mineurs sont constamment à la recherche d'électricité à faible coût pour maximiser leurs profits. Par conséquent, le coût élevé de l'électricité dans certaines régions n'attire pas les mineurs vers ces régions. Les mineurs ont tendance à se diriger vers des régions avec des tarifs d'électricité bas, souvent dans des pays émergents ou des pays disposant de surplus d'énergie.
 wrong_answers:
-  - La réglementation et les tarifs d'électricité influencent le minage de Bitcoin en déterminant le type de machines de minage qui peuvent être utilisées.
-  - La réglementation et les tarifs d'électricité influencent le minage de Bitcoin en déterminant le type de logiciel de minage qui peut être utilisé.
-  - La réglementation et les tarifs d'électricité influencent le minage de Bitcoin en déterminant la taille du pool de minage qui peut être formé.
+  - La régulation et les tarifs de l'électricité influencent le minage de Bitcoin en déterminant le type de machines de minage qui peuvent être utilisées.
+  - La régulation et les tarifs de l'électricité influencent le minage de Bitcoin en déterminant le type de logiciel de minage qui peut être utilisé.
+  - La régulation et les tarifs de l'électricité influencent le minage de Bitcoin en déterminant la taille du pool de minage qui peut être formé.
 explanation: |
-  Le chapitre explique que la réglementation et les tarifs d'électricité ont une influence significative sur le minage de Bitcoin. Les mineurs recherchent constamment une électricité à faible coût pour maximiser leurs profits et ont donc tendance à se tourner vers des régions avec des tarifs d'électricité bas.
-reviewed: false
+  Le chapitre explique que la régulation et les tarifs de l'électricité
+  ont une influence significative sur le minage de Bitcoin.
+  Les mineurs sont constamment à la recherche d'électricité à faible coût pour
+  maximiser leurs profits, et ont donc tendance à se diriger
+  vers des régions avec des tarifs d'électricité bas.
+reviewed: true

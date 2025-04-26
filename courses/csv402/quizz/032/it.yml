@@ -1,0 +1,9 @@
+question: Cosa deve fare Alice (mittente) dopo aver ricevuto la fattura di Bob?
+answer: Costruire un PSBT con il suo UTXO e generare il terminale di consegna di trasferimento
+wrong_answers:
+  - Firmare la transazione Bitcoin che spende il proprio UTXO contenente il sigillo monouso
+  - Importare la partita nel proprio portafoglio per i dettagli del contratto
+  - Emettere una nuova fattura per un'emissione di beni
+explanation: |
+  Alice deve creare un PSBT per spendere l'UTXO associato al bene, quindi generare una spedizione terminale che includa la nuova transizione a Bob.
+reviewed: false

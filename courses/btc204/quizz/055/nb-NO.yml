@@ -1,0 +1,13 @@
+question: Hva er en Bitcoin mottaksadresse?
+
+answer: En streng av tegn som brukes til å motta bitcoins.
+
+wrong_answers:
+  - En kode som brukes til å sende bitcoins.
+  - En algoritme for å utvinne bitcoins.
+  - En smartkontrakt.
+
+explanation: |
+  En mottaksadresse brukes til å motta bitcoins inn i en lommebok.
+
+reviewed: false

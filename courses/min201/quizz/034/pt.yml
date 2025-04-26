@@ -1,9 +1,12 @@
-question: Qual é o objetivo da comunidade Bitcoin em termos de gerenciamento de rede?
-answer: Fortalecer a distribuição, a resistência à censura e a anti-fragilidade da rede.
+question: Qual é o objetivo da comunidade Bitcoin em termos de gestão da rede?
+answer: Fortalecer a distribuição, resistência à censura e a anti-fragilidade da rede.
 wrong_answers:
   - Aumentar o preço do Bitcoin.
   - Tornar as transações mais rápidas.
   - Aumentar a dificuldade de mineração.
 explanation: |
-  A comunidade Bitcoin está constantemente se esforçando para fortalecer a distribuição, a resistência à censura e a anti-fragilidade da rede. Isso está de acordo com a missão fundamental do Bitcoin de ser uma rede de troca de valor resistente à censura.
-reviewed: false
+  A comunidade Bitcoin está constantemente se esforçando para fortalecer
+  a distribuição, resistência à censura e a anti-fragilidade
+  da rede. Isso está alinhado com a missão fundamental do Bitcoin
+  de ser uma rede de troca de valor resistente à censura.
+reviewed: true

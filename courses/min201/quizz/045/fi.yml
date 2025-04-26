@@ -1,12 +1,15 @@
 question: Mikä on pääasiallinen etu omistaa oma louhintalaitteisto?
-answer: Aktiivisesti osallistuminen Bitcoin-verkon turvallisuuden ylläpitämiseen ja neitseellisten bitcoinien hankkiminen.
+answer: Virgin bitcoinien hankkiminen.
 wrong_answers:
-  - Tarpeen välttäminen ostaa Bitcoineja suoraan.
-  - Voiton tekeminen myymällä laitteisto myöhemmin.
+  - Tarpeen välttäminen ostaa Bitcoinia suoraan.
+  - Voiton tekeminen laitteiston myöhemmällä myynnillä.
   - Tarpeen välttäminen luottaa muihin louhijoihin.
 explanation: |
-  Oman louhintalaitteiston omistamisella on huomattavia etuja. Sen lisäksi,
-  että henkilökohtainen tyytyväisyys aktiivisesta osallistumisesta Bitcoin-verkon turvallisuuden ylläpitämiseen ja palkkioiden näkemisestä omassa lompakossa, on houkutteleva näkökohta
-  "neitseelliset bitcoinit". Nämä ovat vasta louhittuja bitcoineja, joita ei ole koskaan käytetty
-  ja joihin ei liity mitään historiaa.
-reviewed: false
+  Oman louhintalaitteiston omistamisella on huomattavia
+  etuja. Henkilökohtaisen tyydytyksen lisäksi, joka tulee
+  aktiivisesta osallistumisesta Bitcoin-verkon turvallisuuteen
+  ja palkkioiden näkemisestä lompakossasi, on houkutteleva
+  näkökohta virgin bitcoinit. Nämä ovat tuoreesti louhittuja
+  bitcoineja, joita ei ole koskaan käytetty ja joihin ei liity
+  mitään historiaa.
+reviewed: true

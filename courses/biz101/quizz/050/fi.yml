@@ -1,0 +1,9 @@
+question: Miten luottokorttitapahtuma eroaa tyypillisesti pelkästä käteistapahtumasta?
+answer: Siihen osallistuu useita välittäjiä
+wrong_answers:
+  - Se tapahtuu välittömästi ilman välikäsiä
+  - Se edellyttää ainoastaan valuutan fyysistä vaihtoa
+  - Sen mukaan molempien osapuolten on tuotettava samanlaisia tavaroita
+explanation: |
+  Toisin kuin käteinen raha, joka vaihdetaan välittömästi, luottokorttitapahtumat käyvät läpi useita vaiheita, joihin osallistuvat pankit, korttiverkot ja selvitysprosessit, mikä aiheuttaa viiveitä ja lisäkustannuksia.
+reviewed: false

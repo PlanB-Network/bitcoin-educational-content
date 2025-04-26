@@ -1,0 +1,13 @@
+question: Je, itifaki ya Bitcoin inadumishaje wastani wa muda kati ya uundaji wa vitalu viwili?
+answer: Ugumu wa kupata Hash halali hurekebisha kila vitalu vya 2016.
+wrong_answers:
+  - Idadi ya wachimbaji inadhibitiwa kwa nambari maalum.
+  - Ukubwa wa vitalu hubadilishwa hadi megabytes 10.
+  - Zawadi ya kupata Hash halali inaongezwa.
+explanation: |
+  Itifaki ya Bitcoin inahakikisha kwamba muda wa wastani kati ya
+  vitalu viwili vinabaki mara kwa mara kwa kurekebisha ugumu wa
+  kutafuta Hash halali kila vitalu 2016. Tukio hili hutokea
+  bila kujali idadi ya wachimbaji na kompyuta zao
+  nguvu.
+reviewed: true

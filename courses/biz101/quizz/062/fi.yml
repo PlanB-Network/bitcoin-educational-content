@@ -1,0 +1,9 @@
+question: Mikä vaihtoehtoinen ratkaisu Swiss Bitcoin Paylle hyväksyä Bitcoin-maksut Essential-profiilille on 100-prosenttisesti säilytyspalvelu?
+answer: Avoin solmu
+wrong_answers:
+  - BTCPay-palvelin
+  - Bitcoinize PoS
+  - Phoenix lompakko
+explanation: |
+  Open Node on täysin säilytysratkaisu, joka eroaa Swiss Bitcoin Payn hybridiluonteesta.
+reviewed: false

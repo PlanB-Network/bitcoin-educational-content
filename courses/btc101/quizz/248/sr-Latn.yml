@@ -1,0 +1,9 @@
+question: Koja je jedna od glavnih karakteristika Bitcoin?
+answer: Može se razmeniti bilo gde u svetu bez ikakvog odobrenja bilo koje entitete.
+wrong_answers:
+  - Može ga koristiti samo odabrana grupa ljudi.
+  - Za korišćenje je potrebna autorizacija centralnog autoriteta.
+  - Može se koristiti samo u određenim zemljama.
+explanation: |
+  Tekst pominje da je Bitcoin pseudoniman i da se može razmenjivati bilo gde u svetu bez odobrenja bilo kog entiteta.
+reviewed: true

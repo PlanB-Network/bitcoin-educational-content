@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+
+---
+Bitcoin-tapahtumamerkinnän `nSequence`-kenttää käytetään osoittamaan, miten tämä merkintä on aikalukittu. Alun perin sen tarkoituksena oli mahdollistaa transaktioiden dynaaminen korvaaminen mempoolissa Lightningin kaltaisen maksujärjestelmän päällekkäisyyden mahdollistamiseksi. Sen käyttö on kuitenkin muuttunut, kun BIP68:ssa otettiin käyttöön suhteellinen aikalukitus. `nSequence`-kentässä voidaan nyt määrittää suhteellinen viive ennen kuin transaktio voidaan sisällyttää lohkoon. Viive voidaan määritellä lohkojen lukumääränä tai 512 sekunnin moninkertaisena arvona (eli reaaliaikana). On tärkeää huomata, että tämä `nSequence`-kentän uusi tulkinta on voimassa vain, jos `nVersion`-kenttä on suurempi tai yhtä suuri kuin `2`. Tämä `nSequence`-kentän tulkinta on Bitcoinin konsensussääntöjen tasolla. Lisäksi standardointisääntöjen tasolla tätä kenttää käytetään myös RBF:n (Replace-By-Fee) signalointiin. Jos transaktio sisältää `nSequence`:n, joka on pienempi kuin `0xfffffffffe`, se voidaan korvata RBF:n avulla solmuissa, jotka noudattavat tätä käytäntöä.

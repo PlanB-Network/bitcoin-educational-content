@@ -1,0 +1,9 @@
+question: Quelle conséquence résulte de la perte du stash dans le protocole RGB ?
+answer: L'historique du contrat et les données associées deviennent irrécupérables
+wrong_answers:
+  - Les données peuvent être reconstruites à partir de la blockchain si l'on a la seed
+  - Une copie des données est disponible sur les serveurs RGB en Suisse
+  - Les données sont répliquées automatiquement chez tous les participants
+explanation: |
+  En validation côté client, chaque utilisateur est responsable de son stash, qui n'est pas répliqué ailleurs, ce qui rend sa perte définitive.
+reviewed: false

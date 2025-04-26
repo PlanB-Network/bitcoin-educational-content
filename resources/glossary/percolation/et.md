@@ -1,0 +1,5 @@
+---
+term: PERKOLATSIOON
+
+---
+Viitab mudelile, mis aitab mõista teabe (tehingute ja plokkide) levikut Bitcoini sõlmede võrgus. Perkolatsiooniteooria on algselt matemaatiline ja füüsikaline mudel, mis uurib vedelike liikumist ja filtreerimist läbi poorse materjali. See analüüsib, kuidas üle teatava künnise võimaldab ühendatud võrk vedeliku pidevat voolamist läbi materjali. Seda saab rakendada arvutivõrkudele, et näha, kuidas teave levib, käsitledes sõlmpunkte kohtadena, mis võivad olla kas aktiivsed või mitteaktiivsed. Bitcoinis mängivad sõlmed seega perkolatsiooniteooria pooride rolli. Iga aktiivne sõlmpunkt võtab vastu ja edastab teavet teistele sõlmpunktidele, kes kas jätkavad edastamist või blokeerivad selle. Teatud tüüpi tehingute levikut saab analüüsida perkolatsioonikünniste abil, kus teatud protsent aktiivsetest sõlmedest on vajalik, et jõuda kaevandajani, kes lisab selle plokki. See teooria annab raamistiku, mille abil saab hinnata, kuidas muutused võrgus, näiteks standardimisreeglite muutmine mõne sõlme poolt, mõjutavad tehingu leviku kaskaadmehhanismi, et jõuda kaevandajani.

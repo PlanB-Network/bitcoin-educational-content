@@ -1,0 +1,9 @@
+question: Millised on peamised komponendid, mis on vajalikud RGB-kompatiblilise Lightning-sõlme käivitamiseks?
+answer: Bitcoind, indekseerija ja RGB proxy server
+wrong_answers:
+  - Lightning-sõlm, indekseerija ja IPFS-server
+  - RGB mobiilne rahakott, RGB proxy server ja bitcoind
+  - Veebiklient, indekseerija ja RGB proxy server
+explanation: |
+  RGB-võimelise Lightning-sõlme käivitamiseks on vaja bitcoind-sõlme, et suhelda Bitcoini plokiahelaga, indeksorit, et kaevandada ahelas toimuvaid tehinguid, ja RGB-proxy-serverit, et hõlbustada saadetiste vahetamist eakaaslaste vahel.
+reviewed: false

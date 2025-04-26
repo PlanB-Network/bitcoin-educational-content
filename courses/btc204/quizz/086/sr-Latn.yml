@@ -1,0 +1,9 @@
+question: Među ova 3 protokola, koji nije implementacija CoinJoin?
+answer: Chainalysis.
+wrong_answers:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+explanation: |
+  Chainalysis nije uopšte implementacija CoinJoin, jer je to kompanija za analizu Blockchain.
+reviewed: false

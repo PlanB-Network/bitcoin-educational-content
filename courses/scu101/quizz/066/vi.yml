@@ -8,6 +8,6 @@ wrong_answers:
   - Chúng có thể được sử dụng trên tất cả các trang web mà không cần bất kỳ cập nhật nào.
 
 explanation:
-  Passkeys cung cấp các khóa ngẫu nhiên được mã hóa, kết hợp với một yếu tố cục bộ (sinh trắc học hoặc PIN), được lưu trữ bởi một nhà cung cấp nhưng vẫn nằm ngoài tầm với của họ. Cách tiếp cận này loại bỏ nhu cầu sử dụng mật khẩu, do đó cung cấp một mức độ bảo mật cao mà không gặp phải các hạn chế liên quan đến mật khẩu truyền thống.
+  Passkeys cung cấp các khóa ngẫu nhiên được mã hóa, kết hợp với một yếu tố cục bộ (sinh trắc học hoặc PIN), được lưu trữ bởi một nhà cung cấp nhưng vẫn nằm ngoài tầm với của họ. Cách tiếp cận này loại bỏ nhu cầu về mật khẩu, do đó cung cấp một mức độ bảo mật cao mà không gặp phải các hạn chế liên quan đến mật khẩu truyền thống.
 
-reviewed: false
+reviewed: true

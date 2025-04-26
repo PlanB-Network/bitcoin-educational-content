@@ -1,0 +1,9 @@
+question: Dlaczego teoria liczb jest szczególnie ważna w kryptografii klucza publicznego?
+answer: Zapewnia niezbędne podstawy matematyczne dla operacji szyfrowania i deszyfrowania.
+wrong_answers:
+  - Zapewnia niezbędne podstawy matematyczne dla operacji haszowania.
+  - Jest on niezbędny do tworzenia sieci neuronowych.
+  - Umożliwia obliczanie operacji wyłącznie w systemie binarnym.
+explanation: |
+  Teoria liczb ma kluczowe znaczenie w kryptografii klucza publicznego, ponieważ pomaga w tworzeniu algorytmów opartych na właściwościach liczb całkowitych, ułatwiając operacje szyfrowania i deszyfrowania.
+reviewed: false

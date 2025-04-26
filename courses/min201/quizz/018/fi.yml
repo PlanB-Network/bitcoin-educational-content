@@ -5,7 +5,5 @@ wrong_answers:
   - Attakain periaate viittaa edistyneiden jäähdytysjärjestelmien käyttöön Bitcoin-louhinnassa.
   - Attakain periaate viittaa vähäisen energiankulutuksen laitteiston käyttöön Bitcoin-louhinnassa.
 explanation: |
-  Attakain periaate viittaa ajatukseen louhinnan hajauttamisesta
-  tuotetun lämmön hyödyllisen käytön kautta. Tämä käsite ehdottaa, että energiaintensiiviset
-  laitokset voisivat hyötyä louhijoiden tuottamasta lämmöstä lämmittääkseen tilojaan.
-reviewed: false
+  Attakain periaate viittaa ajatukseen louhinnan hajauttamisesta tuottamalla lämpöä hyödyllisesti käyttäen. Tämä konsepti ehdottaa, että energiatehokkaat laitokset voisivat hyötyä louhijoiden tuottamasta lämmöstä lämmittääkseen tilojaan.
+reviewed: true

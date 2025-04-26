@@ -1,0 +1,12 @@
+question: Hva er en hot wallet?
+answer: En Bitcoin-lommebok på telefonen eller datamaskinen din som er koblet til internett
+wrong_answers:
+  - En lommebok som er fysisk varm å ta på
+  - En lommebok som er populær blant Bitcoin-brukere
+  - En lommebok som anbefales for lagring av store mengder bitcoins
+explanation: |
+  En hot wallet er et uttrykk som brukes for å beskrive en Bitcoin-lommebok som er lagret
+  på en enhet med internett-tilgang, slik som en telefon eller datamaskin. Dette gjør det enkelt
+  å gjennomføre transaksjoner, men det betyr også at lommeboken potensielt er sårbar
+  for trusler på nettet.
+reviewed: true

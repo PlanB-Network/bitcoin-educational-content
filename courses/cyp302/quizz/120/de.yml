@@ -1,0 +1,9 @@
+question: Welche Auswirkungen hatten Verteilungs- und Schlüsselverwaltungsprobleme vor den 1970er Jahren?
+answer: Sie begrenzten die Sicherheit und Effizienz von großangelegten Kommunikationen.
+wrong_answers:
+  - Sie verhinderten die Übertragung von verschlüsselten Nachrichten in öffentlichen Netzwerken.
+  - Sie erforderten öffentliche Schlüssel für jede Nachricht.
+  - Sie schrieben die Verwendung von homomorpher Kryptografie vor.
+explanation: |
+  Vor den 1970er Jahren erschwerten Probleme bei der Schlüsselverteilung und -verwaltung die Absicherung von Kommunikation im großen Maßstab, was die Entwicklung moderner Anwendungen wie Online-Shopping behinderte.
+reviewed: false

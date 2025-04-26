@@ -1,0 +1,13 @@
+question: ¿Qué análisis heurístico de la cadena es utilizado por la transacción payjoin para actuar como un engaño para el análisis?
+
+answer: El CIOH
+
+wrong_answers:
+  - Reutilización de direcciones
+  - Huellas de monedero
+  - Reutilización de versiones
+
+explanation: |
+  Cuando un analista examina una transacción payjoin, es llevado a creer que todas las entradas provienen de la misma persona debido al CIOH. Sin embargo, esta percepción es incorrecta, ya que el receptor del pago también contribuye a las entradas junto al pagador real. Por lo tanto, el análisis de la cadena se desvía hacia una interpretación que resulta ser falsa.
+
+reviewed: false

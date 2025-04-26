@@ -1,0 +1,9 @@
+question: Miten Lightning Network auttaa muokkaamaan verkkokaupan ja digitaalisten palvelujen tulevaisuutta?
+answer: Mahdollistamalla kitkattomat, välittömät ja luvattomat mikrotransaktiot ja avaamalla uusia liiketoimintamalleja ja tulovirtoja.
+wrong_answers:
+  - Estämällä uusien liiketoimintamallien syntymisen verkkoon.
+  - Vaatimalla kauppiaita käyttämään samoja hitaita ja kalliita maksukiskoja kuin ennenkin.
+  - Tekemällä digitaalisten tuotteiden myyminen mahdottomaksi korkeiden maksujen vuoksi.
+explanation: |
+  Lightningin kyky lähettää pieniä määriä arvoa välittömästi ja edullisesti kannustaa innovaatioita esimerkiksi maksullisen sisällön, suoratoistomaksujen ja koneiden välisten maksutapahtumien kaltaisilla aloilla, mikä saattaa muuttaa verkkopalvelujen rahanmuodostusta.
+reviewed: false

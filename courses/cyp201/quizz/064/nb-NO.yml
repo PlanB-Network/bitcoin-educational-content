@@ -1,0 +1,8 @@
+question: Hva er hovedfunksjonen til en utvidet nøkkel i en HD-lommebok?
+answer: Å tillate derivasjon av barnenøkler
+wrong_answers:
+  - Lagre lommebokens transaksjoner
+  - Direkte generere UTXOene
+  - Kryptere de offentlige nøklene
+explanation: |
+  En utvidet nøkkel kombinerer en nøkkel (enten privat eller offentlig) med en tilknyttet kjedekode, dvs. de to elementene som er nødvendige for å derivere barnenøkler.

@@ -1,11 +1,12 @@
 question: Qu'est-ce qu'un portefeuille froid ?
-answer: Un portefeuille physique où vos clés sont stockées sur un appareil qui n'est pas connecté à Internet
+answer: Un portefeuille dans un dispositif physique qui stocke vos clés et qui n'est pas connecté à Internet.
 wrong_answers:
-  - Un portefeuille qui est physiquement froid au toucher
-  - Un portefeuille qui est impopulaire parmi les utilisateurs de Bitcoin
-  - Un portefeuille qui est recommandé pour stocker de petites quantités de bitcoins
+  - Un portefeuille qui est physiquement froid au toucher.
+  - Un portefeuille qui est impopulaire parmi les utilisateurs de Bitcoin.
+  - Un portefeuille qui est recommandé pour stocker de petites quantités de bitcoins.
 explanation: |
-  Un portefeuille froid est un terme utilisé pour décrire un portefeuille Bitcoin qui est stocké
-  sur un appareil qui n'est pas connecté à Internet. Cela le rend moins vulnérable
-  aux menaces en ligne, mais cela signifie également que le portefeuille est moins accessible pour les transactions quotidiennes.
+  Un portefeuille froid est un terme utilisé pour décrire un portefeuille Bitcoin
+  qui est stocké sur un dispositif qui n'est pas connecté à Internet. Cela le rend
+  moins vulnérable aux menaces en ligne, mais cela signifie également que le portefeuille
+  est moins accessible pour les transactions quotidiennes.
 reviewed: true

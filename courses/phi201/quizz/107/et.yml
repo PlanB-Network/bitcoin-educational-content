@@ -1,0 +1,9 @@
+question: Mis on Hayeki kriitika sotsialismi suhtes?
+answer: Ta kritiseerib sotsialismi eesmärkide saavutamiseks kasutatavaid vahendeid, nagu keskplaneerimine ja eraomandi kaotamine.
+wrong_answers:
+  - Ta lükkab tagasi sotsialismi eesmärgid nagu õiglus ja võrdsus.
+  - Ta arvab, et sotsialism on liiga vana doktriin.
+  - Mitte ükski ülaltoodust.
+explanation: |
+  Hayek kritiseerib sotsialismi mitte selle eesmärkide, vaid meetodite pärast, nagu keskplaneerimine ja eraomandi kaotamine, mida ta peab ohtlikuks individuaalsele vabadusele ja majanduslikule tõhususele.
+reviewed: false

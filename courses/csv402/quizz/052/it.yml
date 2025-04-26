@@ -1,0 +1,9 @@
+question: Che cos'è la convalida lato client nel protocollo RGB?
+answer: Verifica locale dei dati contrattuali e delle transizioni
+wrong_answers:
+  - Esecuzione di contratti intelligenti direttamente sulla blockchain Bitcoin
+  - Uso esclusivo di nodi centralizzati per convalidare le transazioni
+  - Azzeramento automatico dello storico dei contratti in caso di discrepanze
+explanation: |
+  La convalida lato client consente a ciascun partecipante di verificare in modo indipendente che i dati ricevuti siano conformi alle regole definite dal contratto RGB.
+reviewed: false

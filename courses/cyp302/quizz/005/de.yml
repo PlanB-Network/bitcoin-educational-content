@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel der klassischen Kryptographie, das auch in der modernen Kryptographie noch vorhanden ist?
+answer: Die Vertraulichkeit von Nachrichten
+wrong_answers:
+  - Die Vereinfachung von Nachrichten
+  - Die Wiederholung von Nachrichten
+  - Die Automatisierung des Nachrichtenversands
+explanation: |
+  Die klassische Kryptographie konzentrierte sich in erster Linie auf die Vertraulichkeit, und dieses Ziel bleibt auch in der modernen Kryptographie wesentlich, obwohl andere Themen, wie Integrität und Authentizität, hinzugefügt wurden.
+reviewed: false

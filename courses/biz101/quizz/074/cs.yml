@@ -1,0 +1,9 @@
+question: Jaké pokročilé bezpečnostní funkce jsou obvykle implementovány na podnikové úrovni pro bitcoiny?
+answer: Multi-signature s časovými zámky
+wrong_answers:
+  - Ochrana heslem pro mobilní peněženku Lightning
+  - Single-sig s ochranou přístupovou frází BIP39
+  - Single-sig s 24 slovy seed phrase
+explanation: |
+  Pro správu velkých částek jsou zásadní vysoce bezpečná opatření, jako jsou konfigurace s více podpisy a časovými zámky.
+reviewed: false

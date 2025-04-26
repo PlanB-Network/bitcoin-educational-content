@@ -1,0 +1,9 @@
+question: Jakou výhodu mají platby v síti Lightning Network pro obchodníky v místě prodeje?
+answer: Bleskové platby se vypořádávají téměř okamžitě a nevyžadují více zprostředkovatelů, což snižuje poplatky a zpoždění při vypořádání.
+wrong_answers:
+  - Potvrzení bleskových plateb trvá několik týdnů a vyžaduje náročné papírování.
+  - K bleskovým platbám dochází pouze tehdy, pokud je schválí orgán centrální banky.
+  - Bleskové platby může kupující po prodeji libovolně stornovat.
+explanation: |
+  Lightning Network zrychluje a zlevňuje transakce tím, že umožňuje vypořádání mimo řetězec. Obchodníci mohou přijímat finanční prostředky téměř okamžitě, s minimálními poplatky a bez závislosti na tradičních zprostředkovatelích plateb.
+reviewed: false

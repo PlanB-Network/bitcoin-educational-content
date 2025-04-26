@@ -1,64 +1,18 @@
-id: ef2105d6-3f33-4ff5-bcdd-bd6a4d9f0b72
-chapterId: 33134b3f-92c1-5185-afb6-88599e47e801
-difficulty: easy
-duration: 15
-author: DecouvreBitcoin
+id: dcfba65c-2c5b-4cd5-bf56-832cf7484e60
+chapterId: d4327ac4-9ff8-5192-b542-cb78c0bd0aa7
+difficulty: intermediate
+duration: 30
+author: pretty-private
 tags:
-  - Bitcoin
-  - Investment
-  - FOMO
+  - good-practice
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2690
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2595
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1297
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2642
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2690
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-03-21
     urgency: 1
-    contributors_id:
-    reward: 2595
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2642
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2785
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2595
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2785
+    contributor_names:
+      - LoicPandul
+    reward: 0

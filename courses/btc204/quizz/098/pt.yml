@@ -1,0 +1,11 @@
+question: O que a anonimidade futura mede?
+
+answer: A resistência da privacidade contra uma análise de passado para presente.
+
+wrong_answers:
+  - A resistência da privacidade contra uma análise de presente para passado.
+  - A resistência da privacidade contra uma análise de futuro para presente.
+  - A resistência da privacidade contra uma análise de futuro para passado.
+
+explanation: |
+  A anonimidade futura mede a resistência da privacidade de uma moeda contra uma análise de passado para presente (entrada para saída).

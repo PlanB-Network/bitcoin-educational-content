@@ -1,0 +1,9 @@
+question: Miksi pääoman säilyttäminen on tärkeää terveelle yritykselle epävarmassa tulevaisuudessa?
+answer: Pääomareservien ylläpitäminen antaa yritykselle mahdollisuuden sopeutua, investoida kasvuun ja selviytyä talouden laskusuhdanteista.
+wrong_answers:
+  - Pääoman säilyttäminen takaa sen, että yksikään kilpailija ei voi koskaan tulla markkinoille.
+  - Pääoman säilyttäminen takaa pysyvän koskemattomuuden kaikkia sääntelyn muutoksia vastaan.
+  - Pääoman säilyttäminen on tärkeää vain, jos yritys ei aio koskaan kasvaa.
+explanation: |
+  Tulevaisuuden olosuhteet ovat arvaamattomat. Pitämällä jonkin verran pääomaa varalla yritys voi tarttua uusiin mahdollisuuksiin, selviytyä odottamattomista haasteista ja investoida pitkän aikavälin aloitteisiin ilman, että se on riippuvainen pelkästään ulkoisesta rahoituksesta.
+reviewed: false

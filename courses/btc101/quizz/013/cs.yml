@@ -1,10 +1,10 @@
 question: Co je Cypherpunk Manifesto?
-answer: Text napsaný Ericem Hughesem, který prohlašuje, že soukromí je základním právem.
+answer: Text napsaný Ericem Hughesem, který tvrdí, že soukromí je základní právo.
 wrong_answers:
   - Kniha napsaná Julianem Assangem o budoucnosti technologií.
   - Dokument, který shrnuje principy Bitcoinu.
   - Manifest napsaný Davidem Chaumem o důležitosti digitální měny.
 explanation: |
-  Cypherpunk Manifesto byl napsán Ericem Hughesem v roce 1993 a prohlašuje,
-  že soukromí je základním právem.
+  Cypherpunk Manifesto byl napsán Ericem Hughesem v roce 1993
+  a tvrdí, že soukromí je základní právo.
 reviewed: true

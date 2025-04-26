@@ -6,4 +6,4 @@ wrong_answers:
   - ビットコインを採掘するために使用されるアルゴリズムです。
 explanation: >-
   Proof of Workは、取引を検証し新しいブロックを作成するためにBitcoinネットワークで使用される合意アルゴリズムです。マイナーが複雑な数学的問題を解決することを要求し、ネットワークのセキュリティと完全性を保証します。
-reviewed: false
+reviewed: true

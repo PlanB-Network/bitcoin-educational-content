@@ -1,9 +1,9 @@
-question: Qual è la conseguenza della stampa di denaro?
+question: Qual è la conseguenza della stampa di moneta?
 answer: Porta all'inflazione, impoverendo gradualmente la popolazione.
 wrong_answers:
   - Porta alla deflazione, arricchendo gradualmente la popolazione.
   - Porta a un'economia stabile senza inflazione o deflazione.
   - Porta a una diminuzione dell'offerta di denaro.
 explanation: |
-  La stampa di denaro, o la creazione di nuovo denaro da parte delle banche centrali, porta all'inflazione. Questo perché l'aumento dell'offerta di denaro riduce il potere d'acquisto del denaro, portando a prezzi più alti e a una diminuzione del valore dei risparmi.
-reviewed: false
+  La stampa di moneta, o la creazione di nuova moneta da parte delle banche centrali, porta all'inflazione. Questo perché l'aumento dell'offerta di denaro riduce il potere d'acquisto della moneta, portando a prezzi più alti e a una diminuzione del valore dei risparmi.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Cụm từ gợi nhớ (mnemonic phrase) trong bối cảnh của ví Bitcoin là gì?
-answer: Đó là bản sao lưu của ví.
+question: Dấu nháy đơn (') hoặc chữ h trong một đường dẫn phái sinh có ý nghĩa gì?
+answer: Một phái sinh cứng
 wrong_answers:
-  - Đó là mật khẩu của ví.
-  - Đó là lịch sử giao dịch của ví.
-  - Đó là chữ ký số của ví.
+  - Một phái sinh bình thường
+  - Một phái sinh bên ngoài
+  - Một phái sinh không chuẩn
 explanation: |
-  Cụm từ gợi nhớ được tạo ra để đảm bảo việc sao lưu ví Bitcoin.
+  Dấu nháy đơn chỉ ra rằng phái sinh đó là cứng, yêu cầu khóa riêng của cha mẹ để tạo ra khóa con.
 reviewed: false

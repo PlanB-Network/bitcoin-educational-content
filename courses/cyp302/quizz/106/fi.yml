@@ -1,0 +1,9 @@
+question: Mikä mekanismi estää peilaushyökkäykset turvallisessa viestinnässä?
+answer: Ainutlaatuisen tunnisteen lisääminen kullekin osallistujalle
+wrong_answers:
+  - Avaimen pituuden kasvattaminen
+  - Useiden avainten käyttäminen kullekin viestille
+  - Lisäavaimen lisääminen jokaiseen viestiin
+explanation: |
+  Ainutlaatuisen tunnisteen lisääminen kullekin osallistujalle salatussa viestissä estää peilaushyökkäykset, sillä se mahdollistaa viestien alkuperän erottamisen.
+reviewed: false

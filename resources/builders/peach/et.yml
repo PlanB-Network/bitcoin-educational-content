@@ -1,6 +1,0 @@
-description: |
-  Peach on mobiilirakendus, mis toimib eakaaslastevahelise platvormina Bitcoin'i ostuks ja müügiks.
-  
-  See võimaldab kasutajatel teha tehinguid igal ajal ja igas kohas, kasutades nende eelistatud makseviisi. Rakendus annab kasutajatele võimaluse määrata oma hinnad tehingutele, peegeldades eakaaslastevahelise turu tõelist olemust. Oluliselt võimaldab Peach teha KYC-vabu (Know Your Customer ehk Tunne Oma Klienti) tehinguid, säilitades Bitcoin'i põhilised privaatsusaspektid. Ettevõtte eetos põhineb uskumusel Bitcoin'is kui kõige kindlamas raha vormis, mis kunagi eksisteerinud on, missiooniga muuta see kõigile kompromissitult kättesaadavaks.
-contributors:
-  - rabbit-hole

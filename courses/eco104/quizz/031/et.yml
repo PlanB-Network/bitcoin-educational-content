@@ -1,0 +1,9 @@
+question: Mis on peamine põhjus lühiajaliseks hinnakõikumiseks stabiilmüntides?
+answer: Madal likviidsustase börsidel
+wrong_answers:
+  - Puudulikud reservid väljavõtmisnõudluste rahuldamiseks
+  - Häkkimised, mis ohustavad stabiilmünti
+  - Stabiilmüntide depeggeerimine
+explanation: |
+  Lühiajaline hinnakõikumine stabiilmüntides on tihti tingitud likviidsusprobleemidest, kus väiksematel börsidel võib puududa võimekus rahuldada klientide nõudmisi, põhjustades ajutisi hinnakõikumisi.
+reviewed: true

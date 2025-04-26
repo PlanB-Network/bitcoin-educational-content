@@ -1,0 +1,9 @@
+question: Was ist laut Hayek die Verbindung zwischen Sozialismus und Nationalsozialismus?
+answer: Alle anderen Antworten (sie teilen die Ablehnung des Individualismus, priorisieren das Wohl der Gruppe, verwenden Zwang).
+wrong_answers:
+  - Die beiden Ideologien sind unvereinbar.
+  - Sozialismus und Nationalsozialismus stehen in wirtschaftlichen Fragen entgegen.
+  - Sozialismus und Nationalsozialismus haben keine Verbindung.
+explanation: |
+  Hayek argumentierte, dass Sozialismus und Nationalsozialismus gemeinsame Merkmale teilen, wie die Ablehnung des Individualismus zugunsten des Kollektivs und die Verwendung von Zwang, was sie in ihren autoritären Auswirkungen ähnlich macht.
+reviewed: false

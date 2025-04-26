@@ -1,0 +1,13 @@
+question: Co představuje Boltzmannovo skóre v kontextu Bitcoinových transakcí?
+
+answer: Podmíněná pravděpodobnost, že vstup je spojen s daným výstupem.
+
+wrong_answers:
+  - Celkové množství přenesených bitcoinů.
+  - Počet vstupů v transakci.
+  - Entropie související s každým vstupem nebo výstupem.
+
+explanation: |
+  Boltzmannovo skóre udává podmíněnou pravděpodobnost, že konkrétní vstup je spojen s daným výstupem. Jedná se tedy o kvantitativní míru podmíněné pravděpodobnosti, že mezi vstupem a výstupem v transakci dojde k asociaci, založenou na poměru počtu příznivých výskytů této události ve srovnání s celkovým počtem možných výskytů, v sadě interpretací.
+
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: BITCOIN XT
+
+---
+Bitcoin XT on tunnettu kehittäjä Mike Hearnin vuonna 2015 lanseeraama ja Gavin Andresenin (entinen Bitcoinin pääylläpitäjä Satoshin lähdön jälkeen) tukema Bitcoinin haarautuma. Alun perin Bitcoin XT oli Bitcoin-protokollan toteutus, joka oli yhteensopiva Bitcoin Coren kanssa. Elokuussa 2015 Bitcoin XT:n versiossa 0.11A hyväksyttiin kuitenkin BIP101: ehdotettu hard fork, jolla lohkokokorajoitus nostetaan 1 MB:stä 8 MB:iin, ja lohkokoko on tarkoitus kaksinkertaistaa kahden vuoden välein, kunnes se on hieman yli 8 GB lohkoa kohti vuonna 2036. Tämä ehdotus oli yksi vuosina 2015-2017 käydyn Blocksize Warin tärkeimmistä syistä. Sitä tuki merkittävä osa louhijoista ja vaikutusvaltaiset yritykset, kuten BitPay, Blockchain.info ja Circle. Lopulta Bitcoin XT ei onnistunut saamaan tarpeeksi tukea yhteisöltä, ja Mike Hearn ilmoitti lopulta lähtevänsä yhteisöstä ja myyvänsä bitcoininsa. Hän ilmaisi pettymyksensä blogikirjoituksessa, jossa hän totesi erityisesti, että Bitcoin oli epäonnistunut.

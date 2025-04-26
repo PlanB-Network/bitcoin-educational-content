@@ -5,9 +5,10 @@ wrong_answers:
   - Because it can help convince regulators to change their minds.
   - Because it can help miners to understand the regulations better.
 explanation: |
-  Education and information are considered the most powerful weapon against
-  potential restrictive regulations on Bitcoin mining because a clear and precise
-  understanding of mining, how it works, and its impact can help demystify the industry
-  and combat misinformation. This can offer better resistance to potentially harmful
-  regulations.
-reviewed: false
+  Education and information are considered the most powerful
+  weapon against potential restrictive regulations on Bitcoin
+  mining because a clear and precise understanding of mining,
+  how it works, and its impact can help demystify the
+  industry and combat misinformation. This can offer better
+  resistance to potentially harmful regulations.
+reviewed: true

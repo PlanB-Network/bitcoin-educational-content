@@ -1,10 +1,12 @@
-question: Welches Risiko besteht beim Teilen des öffentlichen Schlüssels einer Bitcoin-Wallet?
-answer: Risiken für die Privatsphäre
+question: Was ist das Risiko beim Teilen des öffentlichen Schlüssels eines Bitcoin-Wallets?
+answer: Verlust der Privatsphäre.
 wrong_answers:
-  - Risiken für die Zerstörung der Bitcoin-Wallet
-  - Risiken des Verlusts der Bitcoins
-  - Risiken des Hackens der Bitcoin-Wallet
+  - Zerstörung des Bitcoin-Wallets.
+  - Verlust der Bitcoins.
+  - Hacking des Bitcoin-Wallets.
 explanation: |
-  Das Teilen des öffentlichen Schlüssels birgt Risiken für die Privatsphäre, jedoch nicht für die Sicherheit.
-  Dies liegt daran, dass der öffentliche Schlüssel verwendet wird, um Bitcoin-Adressen zu generieren und somit Geld zu empfangen, aber er repräsentiert nicht den Besitz der Bitcoins.
-reviewed: false
+  Das Teilen des öffentlichen Schlüssels birgt Risiken für die Privatsphäre, aber nicht
+  für die Sicherheit. Dies liegt daran, dass der öffentliche Schlüssel verwendet wird, um
+  Bitcoin-Adressen zu generieren und somit Geld zu empfangen, aber er stellt nicht den
+  Besitz der Bitcoins dar.
+reviewed: true

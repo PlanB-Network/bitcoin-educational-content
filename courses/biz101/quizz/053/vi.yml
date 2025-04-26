@@ -1,0 +1,9 @@
+question: What key payment details must be documented for each Bitcoin transaction?
+answer: The date, amount, equivalent fiat value, and associated addresses
+wrong_answers:
+  - The transaction ID, network fee, and merchant's address
+  - The date, exchange rate, wallet type, and geographical location
+  - The Bitcoin block number, timestamp, and script used
+explanation: |
+  Documenting these details ensures clarity and assists accountants in differentiating incoming and outgoing flows.
+reviewed: false

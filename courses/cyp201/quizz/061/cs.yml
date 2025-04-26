@@ -1,10 +1,9 @@
-question: Proč se doporučuje používat open-source peněženky pro transakce s Bitcoinem?
-answer: Umožňují ověření generování náhodných čísel.
+question: Jaká je celková velikost rozšířeného klíče s kontrolním součtem?
+answer: 82 bajtů
 wrong_answers:
-  - Jsou levnější než peněženky s uzavřeným zdrojovým kódem.
-  - Jsou rychlejší než peněženky s uzavřeným zdrojovým kódem.
-  - Jsou bezpečnější než peněženky s uzavřeným zdrojovým kódem.
+  - 78 bajtů
+  - 64 bajtů
+  - 128 bajtů
 explanation: |
-  Open-source peněženky umožňují uživatelům ověřit generování náhodného
-  čísla, což je klíčový krok pro zajištění bezpečnosti soukromých klíčů a transakcí s Bitcoinem.
+  Rozšířený klíč je bez kontrolního součtu 78 bajtů a s kontrolním součtem 82 bajtů.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Hva bør Alice (avsender) gjøre etter å ha mottatt Bobs faktura?
+answer: Bygg en PSBT med tilhørende UTXO og generer terminalen for overføringssending
+wrong_answers:
+  - Signer Bitcoin-transaksjonen som bruker UTXO-en som inneholder engangsforseglingen
+  - Importer forsendelsen til din egen lommebok for kontraktsdetaljer
+  - Utstede en ny faktura for en eiendel
+explanation: |
+  Alice må opprette en PSBT for å bruke UTXO knyttet til eiendelen, og deretter generere en terminalforsendelse som inkluderer den nye overgangen til Bob.
+reviewed: false

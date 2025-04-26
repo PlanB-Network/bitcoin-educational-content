@@ -1,11 +1,9 @@
-question: What is the equation that defines an elliptic curve?
-answer: "y\xB2 = x\xB3 + ax + b"
+question: What is the purpose of SIGHASH_SINGLE?
+answer: To cover one input and its corresponding output
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
+  - To cover all inputs and outputs
+  - To cover inputs only
+  - To cover all outputs except one
 explanation: |
-  "An elliptic curve is defined by the equation y\xB2 = x\xB3 + ax + b.\
-  \ Every point on this curve has a distinctive symmetry that is key to its usefulness\
-  \ in cryptography."
+  SIGHASH_SINGLE covers a single input and a single output corresponding to the index of the signed input, leaving the rest modifiable.
 reviewed: false

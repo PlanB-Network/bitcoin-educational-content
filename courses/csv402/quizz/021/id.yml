@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan Konsinyasi dalam RGB?
+answer: Data dari sisi pelanggan yang diperlukan untuk memvalidasi transisi
+wrong_answers:
+  - Salinan lengkap blockchain Bitcoin
+  - Daftar komitmen publik Bitcoin
+  - Kunci publik dari peserta transisi negara
+explanation: |
+  Konsinyasi mencakup informasi RGB yang memungkinkan penerima untuk memvalidasi transisi status sesuai dengan aturan kontrak.
+reviewed: false

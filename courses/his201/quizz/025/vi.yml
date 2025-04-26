@@ -1,0 +1,9 @@
+question: Mạng nguyên mẫu Bitcoin được phát hành thực sự vào ngày nào trong năm 2009?
+answer: Ngày 9 tháng 1, 2009, lúc 02; 54; 25 UTC
+wrong_answers:
+  - Ngày 3 tháng 1, 2009, lúc 18: 15; 05 UTC
+  - Ngày 8 tháng 1, 2009, lúc 19: 27; 40 UTC
+  - Ngày 12 tháng 1, 2009, lúc 03: 30; 25 UTC
+explanation: |
+  Đây là dấu thời gian của khối 1 trên blockchain, được khai thác bởi Satoshi Nakamoto sau khi đã công bố mã nguồn trên danh sách thư từ vài giờ trước đó. Khối genesis (0) được tạo ra giữa ngày 3 và 8 tháng 1, nhưng thực tế không có mạng lưới nào được hình thành vào thời điểm đó.
+reviewed: false

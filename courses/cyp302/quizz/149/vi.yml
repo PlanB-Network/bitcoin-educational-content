@@ -1,0 +1,11 @@
+question: Định nghĩa của một số nguyên tố cùng nhau với một số nguyên khác là gì?
+
+answer: Một số nguyên có ước số chung lớn nhất là 1 với số nguyên kia
+
+wrong_answers:
+  - Một số nguyên chia hết cho số nguyên kia mà không có số dư
+  - Một số nguyên là số nguyên tố
+  - Một số nguyên lớn hơn số nguyên kia
+
+explanation:
+  Một số nguyên được gọi là tố cùng nhau với số nguyên khác nếu ước số chung lớn nhất của chúng là 1, nghĩa là chúng không chia sẻ bất kỳ ước số chung nào khác.

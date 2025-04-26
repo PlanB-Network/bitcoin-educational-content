@@ -1,9 +1,9 @@
-question: Was passiert mit allen Bitcoins in einer Bitcoin-Transaktion?
-answer: Sie müssen alle bewegt werden.
+question: Was ist der erste Schritt beim Öffnen eines Lightning-Kanals zwischen zwei Teilnehmern?
+answer: Austausch von Nachrichten, die die Beträge und öffentlichen Schlüssel enthalten
 wrong_answers:
-  - Sie werden alle in Fiat-Währung umgewandelt.
-  - Sie werden alle in einer neuen Adresse gespeichert.
-  - Sie werden alle gleichmäßig unter den Teilnehmern aufgeteilt.
+  - Sofort eine Einzahlungstransaktion auf der Blockchain veröffentlichen
+  - Eine 2/2-Multisignatur-Adresse ohne vorherigen Austausch erstellen
+  - Die Auszahlungstransaktion signieren, bevor der Austausch der öffentlichen Schlüssel erfolgt
 explanation: |
-  In einer Bitcoin-Transaktion müssen alle Bitcoins bewegt werden. Dies wird als UTXO (Unspent Transaction Output) bezeichnet, bei dem die Bitcoin-Beträge vorübergehend den Besitzer verlassen, um anschließend zurückzukehren.
+  Das Öffnen eines Kanals beginnt mit einem Austausch von Nachrichten zwischen den beiden Parteien, in denen sie die Beträge, die sie einbringen möchten, und ihre öffentlichen Schlüssel teilen.
 reviewed: false

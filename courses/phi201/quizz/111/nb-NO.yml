@@ -1,0 +1,9 @@
+question: Hva er ifølge Keynes rollen til penger i økonomien?
+answer: Et instrument for økonomisk politikk
+wrong_answers:
+  - Kun et middel for utveksling
+  - En brems på vekst
+  - Et verktøy for spekulasjon
+explanation: |
+  For Keynes er penger et virkemiddel for økonomisk politikk som lar regjeringer regulere økonomien ved å påvirke investeringer, sysselsetting og generell etterspørsel.
+reviewed: false

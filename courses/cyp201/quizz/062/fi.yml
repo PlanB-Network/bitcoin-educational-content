@@ -1,11 +1,8 @@
-question: Mikä on pääasiallinen riski, joka liittyy oman muistisanoituksen luomiseen noppaa käyttäen Bitcoin-siirtoihin?
-answer: Se voi sisältää tiettyjä riskejä.
+question: Mitä laajennettu julkinen avain mahdollistaa johdettavaksi?
+answer: Vain tavalliset lapsijulkiset avaimet
 wrong_answers:
-  - Se voi johtaa ennustettavien numeroiden tuottamiseen.
-  - Se voi johtaa duplikaattinumeroiden tuottamiseen.
-  - Se voi johtaa kelvottomien numeroiden tuottamiseen.
+  - Vain tavalliset lapsiprivaattiavaimet
+  - Sekä kovetetut että tavalliset lapsijulkiset avaimet
+  - Sekä kovetetut että tavalliset lapsiprivaattiavaimet
 explanation: |
-  Oman muistisanoituksen luominen noppaa käyttäen voi sisältää tiettyjä riskejä.
-  Siksi suositellaan satunnaisesti generoidun salasanan käyttöä näiden riskien
-  minimoimiseksi.
-reviewed: false
+  Laajennettu julkinen avain mahdollistaa vain tavallisten lapsijulkisten avainten johdattamisen, ei privaattiavaimia tai kovetettuja avaimia.

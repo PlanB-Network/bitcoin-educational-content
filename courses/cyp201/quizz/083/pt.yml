@@ -1,9 +1,8 @@
-question: É recomendado memorizar uma frase de senha ou frase mnemônica para uma carteira de Bitcoin?
-answer: Não
+question: Que tipo de endereço começa com `1` e pertence ao padrão Legacy?
+answer: P2PKH
 wrong_answers:
-  - Sim
-  - Depende do comprimento da frase de senha ou frase mnemônica
-  - Depende da complexidade da frase de senha ou frase mnemônica
+  - P2WPKH
+  - P2SH
+  - P2TR
 explanation: |
-  Não é recomendado memorizar uma frase de senha ou frase mnemônica. É crucial cuidar dos backups da frase de senha para evitar perder o acesso à carteira.
-reviewed: false
+  Endereços P2PKH, codificados em base58check, vêm do padrão Legacy e começam com o dígito `1`.

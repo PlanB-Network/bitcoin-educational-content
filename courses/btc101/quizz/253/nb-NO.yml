@@ -1,0 +1,9 @@
+question: Hva er en av de viktigste egenskapene til Bitcoin-protokollen?
+answer: Den er nøytral overfor alle sine brukere.
+wrong_answers:
+  - Den favoriserer visse brukere fremfor andre.
+  - Den er partisk mot visse brukere.
+  - Den gagner kun en utvalgt gruppe brukere.
+explanation: >-
+  Teksten nevner at Bitcoin-protokollen er nøytral overfor alle sine
+  brukere.

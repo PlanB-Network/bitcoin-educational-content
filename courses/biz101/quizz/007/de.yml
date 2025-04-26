@@ -1,0 +1,9 @@
+question: Welche der folgenden Aussagen beschreibt am besten, wie Bitcoin-Transaktionen endgültig werden?
+answer: Einmal in der Blockchain aufgezeichnet, sind die Transaktionen unveränderlich und können nicht mehr geändert werden.
+wrong_answers:
+  - Transaktionen können von den Banken im Streitfall rückgängig gemacht werden.
+  - Die Benutzer müssen die Genehmigung mehrerer Behörden einholen, um eine Transaktion abschließen zu können.
+  - Jeder Teilnehmer kann vergangene Transaktionen nach Belieben bearbeiten, wenn er einen speziellen Code besitzt.
+explanation: |
+  Die Bitcoin-Blockchain ist ein fälschungssicheres Hauptbuch. Sobald eine Transaktion bestätigt und in einen Block aufgenommen wurde, wird sie Teil der permanenten Aufzeichnung, was die Endgültigkeit sicherstellt.
+reviewed: false

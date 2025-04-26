@@ -1,0 +1,9 @@
+question: Kuidas võiks Lightning Network'i kasutada kaupade rentimiseks?
+answer: Kasutajatelt võiks võtta tasu minuti või isegi sekundi kaupa, sõltuvalt ajast, mille jooksul nad kaupu kasutavad.
+wrong_answers:
+  - Kasutajatelt võiks võtta kindla tasu kaupade rentimise eest.
+  - Kasutajatelt võiks võtta tasu sõltuvalt kaupade väärtusest.
+  - Kasutajatelt võiks võtta tasu sõltuvalt kaupade seisukorrast.
+explanation: >-
+  Lightning Network'i abil on mõeldav kasutada seda süsteemi kaupade rentimiseks. Kasutajatelt võiks võtta tasu minuti või isegi sekundi kaupa, sõltuvalt ajast, mille jooksul nad kaupu kasutavad.
+reviewed: false

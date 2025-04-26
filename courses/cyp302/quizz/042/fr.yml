@@ -1,0 +1,9 @@
+question: Comment appelle-t-on un groupe qui respecte la condition de commutativité ?
+answer: Un groupe abélien
+wrong_answers:
+  - Un groupe fermé
+  - Un groupe associatif
+  - Un groupe inversé
+explanation: |
+  Un groupe abélien, ou commutatif, est un groupe dans lequel l'ordre des éléments dans l'opération binaire n'affecte pas le résultat. Cela signifie que pour tout a et b, a ∘ b = b ∘ a.
+reviewed: false

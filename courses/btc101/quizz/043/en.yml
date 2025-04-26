@@ -1,11 +1,12 @@
-question: What is the historical precedent for the use of fiat currencies?
-answer: Leaders centralizing gold and introducing a new currency equivalent in value to gold, which is then gradually devalued.
+question: What is the historical path followed by institutions in the introduction of fiat currencies?
+answer: Leaders centralize gold and introduce a new currency equivalent to gold in value, which is then gradually devalued.
 wrong_answers:
-  - Leaders introducing a new currency backed by gold, which is then gradually increased in value.
-  - Leaders introducing a new currency with no intrinsic value, which is then gradually increased in value.
-  - Leaders introducing a new currency backed by a basket of commodities, which is then kept stable in value.
+  - Leaders introduce a new currency backed by gold, which is then gradually increased in value.
+  - Leaders introduce a new currency with no intrinsic value, which is then gradually increased in value.
+  - Leaders introduce a new currency backed by a basket of commodities, which is then kept stable in value.
 explanation: |
-  Historically, leaders have centralized gold and introduced a new currency
-  equivalent in value to gold. This new currency is then gradually devalued, often
-  under the guise of being in the interest of the people.
+  Historically, leaders have centralized gold and introduced
+  a new currency equivalent in value to gold. This new
+  currency is then gradually devalued, often under the guise
+  of being in the interest of the people.
 reviewed: true

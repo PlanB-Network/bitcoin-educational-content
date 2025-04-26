@@ -1,10 +1,11 @@
 question: Co je Blockmit v kontextu bezpečnosti Bitcoinu?
-answer: Nízkonákladové řešení pro vyrytí vaší mnemonické fráze do oceli
+answer: Nízkonákladové řešení pro vyrytí vaší mnemonické fráze na kus oceli.
 wrong_answers:
-  - Typ Bitcoin peněženky pro podepisování více transakcí najednou
-  - Nízkonákladové řešení pro těžbu bitcoinů doma
-  - Typ Bitcoin peněženky, která vyžaduje více podpisů pro utracení bitcoinů
+  - Typ Bitcoin peněženky pro podepisování více transakcí najednou.
+  - Nízkonákladové řešení pro těžbu bitcoinů doma.
+  - Typ Bitcoin peněženky, který vyžaduje více podpisů pro utrácení UTXO.
 explanation: |
-  Blockmit je nízkonákladové řešení pro vyrytí vaší mnemonické fráze
-  do odolného materiálu, jako je ocel, čímž zabezpečí vaše bitcoiny na dlouhodobě.
+  Blockmit je nízkonákladové řešení pro vyrytí vaší
+  mnemonické fráze na odolný materiál jako je ocel, čímž
+  zajišťuje vaše bitcoiny na dlouhodobé období.
 reviewed: true

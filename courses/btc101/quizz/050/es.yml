@@ -1,9 +1,10 @@
-question: ¿Cuál es la fase final de la hiperinflación?
-answer: Surge una nueva moneda
+question: ¿Cuál es la fase final del fenómeno de la hiperinflación?
+answer: Surge una nueva moneda.
 wrong_answers:
-  - Pérdida de confianza
-  - Colapso de la moneda y aumento de precios
-  - El círculo vicioso de la impresión de dinero
+  - Pérdida de confianza.
+  - Colapso de la moneda y aumento de precios.
+  - El círculo vicioso de la impresión de dinero.
 explanation: |
-  La fase final de la hiperinflación es cuando se introduce una nueva moneda para reemplazar la antigua.
-reviewed: false
+  La fase final de la hiperinflación ocurre cuando se introduce una nueva
+  moneda para reemplazar a la antigua.
+reviewed: true

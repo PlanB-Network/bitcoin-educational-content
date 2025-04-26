@@ -4,6 +4,8 @@ wrong_answers:
   - Mohly by se stát populárnějšími.
   - Mohly by se stát bezpečnějšími.
   - Mohly by se stát decentralizovanějšími.
-explanation: >-
-  Tradiční služby pro převod peněz, jako jsou Western Union, centrální banky, Visa a Mastercard, by mohly zaniknout, pokud by nepřijaly technologii Lightning Network.
-reviewed: false
+explanation: |
+  Tradiční služby pro převod peněz jako Western Union,
+  centrální banky, Visa a Mastercard by mohly zaniknout, pokud
+  nepřijmou technologii Lightning Network.
+reviewed: true

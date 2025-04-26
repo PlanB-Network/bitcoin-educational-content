@@ -1,0 +1,9 @@
+question: Kakva je veza između inflacije i deflacije u ekonomiji?
+answer: Inflacija i deflacija su poput spojenih sudova u ekonomiji. Povećanje proizvodnje može dovesti do deflacije, ali ako se istovremeno poveća količina novca Supply, deflacijski efekat se poništava, što rezultira inflacijom.
+wrong_answers:
+  - Inflacija i deflacija su nezavisne jedna od druge u ekonomiji.
+  - Inflacija uvek dovodi do deflacije u ekonomiji.
+  - Deflacija uvek dovodi do inflacije u ekonomiji.
+explanation: |
+  Poglavlje objašnjava da su inflacija i deflacija poput spojenih sudova u ekonomiji. Povećanje proizvodnje može dovesti do deflacije, ali ako se istovremeno poveća novac Supply, deflacijski efekat se poništava, što rezultira inflacijom.
+reviewed: false

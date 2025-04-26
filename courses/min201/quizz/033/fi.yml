@@ -2,12 +2,10 @@ question: Mikä on potentiaalinen riski käyttäjien, solmujen tai louhijoiden m
 answer: Se voisi heikentää verkkoa, lisäten keskittymisen riskiä ja haavoittuvuutta hyökkäyksille.
 wrong_answers:
   - Se voisi nostaa Bitcoinin hintaa.
-  - Se voisi vähentää transaktionopeutta.
-  - Se voisi lisätä louhintavaikeutta.
+  - Se voisi vähentää siirtonopeutta sekä louhintavaikeutta.
+  - Se voisi lisätä louhintavaikeutta ja haavoittuvuutta hyökkäyksille, samalla vähentäen keskittymisen riskiä.
 explanation: |
-  Käyttäjien, solmujen tai louhijoiden määrän väheneminen voisi heikentää
-
-  Bitcoin-verkkoa. Tämä voisi lisätä keskittymisen riskiä ja tehdä verkosta
-
+  Käyttäjien, solmujen tai louhijoiden määrän väheneminen voisi
+  heikentää Bitcoin-verkkoa. Tämä voisi lisätä keskittymisen riskiä ja tehdä verkosta
   haavoittuvamman hyökkäyksille.
-reviewed: false
+reviewed: true

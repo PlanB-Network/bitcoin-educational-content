@@ -1,9 +1,9 @@
-question: Cosa succede quando viene creata una nuova transazione di impegno?
-answer: Viene deciso un nuovo segreto e viene creato una nuova chiave di revoca, e la precedente transazione di impegno deve essere distrutta fornendo il segreto di revoca.
+question: Qual è il ruolo delle commissioni di instradamento nella Lightning Network?
+answer: Per incentivare i nodi intermedi a fornire la loro liquidità per il trasferimento dei pagamenti
 wrong_answers:
-  - La precedente transazione di impegno viene conservata come backup.
-  - Viene creata una nuova Timelock e la precedente transazione di impegno viene aggiornata.
-  - La precedente transazione di impegno viene aggiornata con il nuovo segreto e la chiave di revoca.
+  - Per limitare il numero di transazioni sulla rete
+  - Per garantire che ogni canale abbia fondi sufficienti
+  - Per calcolare automaticamente il percorso più breve
 explanation: |
-  Quando viene creata una nuova transazione di impegno, viene deciso un nuovo segreto e una nuova chiave di revoca. La precedente transazione di impegno deve essere distrutta fornendo il segreto di revoca per evitare che una delle parti possa imbrogliare pubblicando uno stato precedente.
+  Le commissioni di instradamento sono utilizzate per compensare i nodi intermedi che inoltrano i pagamenti offrendo la loro liquidità per consentire il trasferimento di fondi attraverso la rete.
 reviewed: false

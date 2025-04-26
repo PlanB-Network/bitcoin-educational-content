@@ -5,5 +5,7 @@ wrong_answers:
   - Um preço fixo
   - Um preço variável
 explanation: |
-  A mineração estabelece um preço mínimo para o Bitcoin, abaixo do qual os mineradores venderiam com prejuízo. O custo da mineração influencia significativamente o preço do Bitcoin.
-reviewed: false
+  A mineração estabelece um preço mínimo para o Bitcoin, abaixo do qual
+  os mineradores venderiam com prejuízo. O custo da mineração
+  influencia significativamente o preço do Bitcoin.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Hva er et vanlig andre steg i 2FA?
+answer: En kode generert av en applikasjon som Google Authenticator eller Authy.
+wrong_answers:
+  - En telefonsamtale til kontoinnehaveren
+  - En e-post til kontoinnehaveren
+  - Et brev sendt til kontoinnehaverens hjemmeadresse
+explanation: |
+  Det andre steget i 2FA kan være en midlertidig kode sendt via SMS, en kode
+  generert
+  av en applikasjon, eller en fysisk sikkerhetsnøkkel.
+reviewed: false

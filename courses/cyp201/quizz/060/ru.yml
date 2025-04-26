@@ -1,0 +1,9 @@
+question: С каким типом ключа ассоциирован префикс zpub?
+answer: Расширенный публичный ключ для SegWit V0 на Mainnet
+wrong_answers:
+  - Расширенный приватный ключ для SegWit V1 на Mainnet
+  - Расширенный публичный ключ для Legacy на Testnet
+  - Расширенный публичный ключ для SegWit V2 на Testnet
+explanation:
+  Префикс zpub обозначает расширенный публичный ключ для скриптов SegWit V0 на Mainnet.
+reviewed: false

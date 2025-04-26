@@ -1,0 +1,10 @@
+question: Apa tujuan dari dompet Bitcoin?
+answer: Untuk menyimpan kunci privat agar dapat melakukan transaksi bitcoin
+wrong_answers:
+  - Untuk menggunakan sumber daya perangkat untuk menambang bitcoin
+  - Untuk membeli bitcoin dengan kunci publik
+  - Untuk menyimpan bitcoin di sebuah perangkat
+explanation: |
+  Dompet Bitcoin adalah perangkat lunak yang memungkinkan Anda untuk menyimpan kunci privat yang
+  memungkinkan Anda untuk melakukan transaksi bitcoin Anda.
+reviewed: true

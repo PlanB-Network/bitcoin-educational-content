@@ -1,0 +1,9 @@
+question: サトシ・ナカモトがビットコインの初期設計時に最も影響を受けたインスピレーションは何でしたか？
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-money (Wei Dai)
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  b-money、bit gold、RPOWのモデルは非常に類似しているにもかかわらず、サトシが2008年8月以前にそれらを知らなかったため、これらは彼の主なインスピレーションではありませんでした。
+reviewed: false

@@ -1,9 +1,12 @@
-question: Qual è il potenziale rischio di una diminuzione del numero di utenti, nodi o miner nella rete Bitcoin?
-answer: Potrebbe indebolire la rete, aumentando il rischio di centralizzazione e la vulnerabilità agli attacchi.
+question: Qual è il potenziale rischio di una diminuzione del numero di utenti, nodi o minatori nella rete Bitcoin?
+answer: Potrebbe indebolire la rete, aumentando il rischio di centralizzazione e vulnerabilità agli attacchi.
 wrong_answers:
   - Potrebbe aumentare il prezzo del Bitcoin.
-  - Potrebbe diminuire la velocità delle transazioni.
-  - Potrebbe aumentare la difficoltà di mining.
+  - Potrebbe diminuire la velocità di transazione così come la difficoltà di mining.
+  - Potrebbe aumentare la difficoltà di mining e la vulnerabilità agli attacchi, mentre diminuisce il rischio di centralizzazione.
 explanation: |
-  Una diminuzione del numero di utenti, nodi o miner potrebbe indebolire la rete Bitcoin. Ciò potrebbe aumentare il rischio di centralizzazione e rendere la rete più vulnerabile agli attacchi.
-reviewed: false
+  Una diminuzione del numero di utenti, nodi o minatori potrebbe
+  indebolire la rete Bitcoin. Questo potrebbe aumentare il rischio di
+  centralizzazione e rendere la rete più vulnerabile agli
+  attacchi.
+reviewed: true

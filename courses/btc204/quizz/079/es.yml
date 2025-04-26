@@ -1,0 +1,13 @@
+question: ¿Qué término describe la protección que ofrece un coinjoin contra el análisis de las futuras transacciones de una moneda?
+
+answer: Conjunto anónimo prospectivo.
+
+wrong_answers:
+  - Conjunto anónimo retrospectivo.
+  - Resistencia a la trazabilidad.
+  - Privacidad temporal.
+
+explanation: |
+  La protección contra el análisis del pasado al presente es lo que se llama el conjunto anónimo prospectivo.
+
+reviewed: false

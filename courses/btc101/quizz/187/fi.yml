@@ -1,11 +1,11 @@
 question: Mikä on yksi etu hyväksyä Bitcoin kauppiaana?
-answer: Sensuurin vastustuskyky
+answer: Sensuurin vastustuskyky.
 wrong_answers:
-  - Kasvaneet transaktiomaksut
-  - Suoja deflaatiota vastaan
-  - Rahoituksellinen rajoitus
+  - Lisääntyneet transaktiomaksut.
+  - Suoja deflaatiota vastaan.
+  - Rahoituksellinen rajoitus.
 explanation: >-
   Bitcoinin hyväksymisellä kauppiaana on useita etuja, mukaan lukien sensuurin vastustuskyky,
-  alhaisemmat transaktiomaksut, lisääntynyt tehokkuus, suoja inflaatiota vastaan,
+  pienemmät transaktiomaksut, lisääntynyt tehokkuus, suoja inflaatiota vastaan,
   sekä taloudellinen vapaus ja suvereniteetti.
-reviewed: false
+reviewed: true

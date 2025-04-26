@@ -1,9 +1,12 @@
-question: Qu'est-ce que le ransomware?
-answer: Un type de logiciel malveillant qui chiffre les données de l'utilisateur et demande une rançon pour les déchiffrer.
+question: Qu'est-ce que le ransomware ?
+answer: Un type de logiciel malveillant qui chiffre les données des utilisateurs et exige une rançon pour les déchiffrer.
 wrong_answers:
-  - Un type de logiciel antivirus.
-  - Un type de logiciel utilisé pour la récupération de données.
-  - Un type de logiciel utilisé pour la sauvegarde de données.
+  - Un type de logiciel antivirus capable de nettoyer le cache et les cookies de l'ordinateur moyennant le paiement d'une somme unique.
+  - Un type de logiciel utilisé pour la récupération de données, il devient assez courant en Europe de nos jours.
+  - Un type de logiciel utilisé pour la sauvegarde de données, généralement il effectue une sauvegarde tous les 7 jours.
 explanation: |
-  Le ransomware est un type de logiciel malveillant qui chiffre les données de l'utilisateur et demande une rançon pour les déchiffrer. Il devient de plus en plus courant et peut être très problématique pour une entreprise ou un individu.
-reviewed: false
+  Le ransomware est un type de logiciel malveillant qui chiffre
+  les données des utilisateurs et exige une rançon pour les déchiffrer. Il est
+  de plus en plus courant et peut poser de sérieux problèmes
+  pour une entreprise ou un individu.
+reviewed: true

@@ -1,9 +1,0 @@
-question: O que os usuários de Bitcoin fornecem ao remetente quando desejam receber bitcoins?
-answer: Um endereço de recebimento
-wrong_answers:
-  - Sua chave pública
-  - Sua chave privada
-  - A senha de sua carteira de Bitcoin
-explanation: |
-  Quando um usuário de Bitcoin deseja receber bitcoins, ele fornece um endereço de recebimento ao remetente. Este endereço é um hash de sua chave pública, com um formato específico.
-reviewed: false

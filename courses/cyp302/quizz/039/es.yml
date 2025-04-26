@@ -1,0 +1,9 @@
+question: ¿Por qué la teoría de números es particularmente importante en la criptografía de clave pública?
+answer: Proporciona las bases matemáticas necesarias para las operaciones de cifrado y descifrado.
+wrong_answers:
+  - Proporciona las bases matemáticas necesarias para las operaciones de hashing.
+  - Es necesario para la creación de redes neuronales.
+  - Permite el cálculo de operaciones solo en binario.
+explanation: |
+  La teoría de números es crucial en la criptografía de clave pública porque ayuda a estructurar algoritmos basados en las propiedades de los números enteros, facilitando las operaciones de cifrado y descifrado.
+reviewed: false

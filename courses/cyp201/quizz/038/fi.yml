@@ -1,9 +1,8 @@
-question: Mikä on teoreettinen mahdollisuuksien kokonaismäärä yksityiselle avaimelle?
-answer: 2^256
+question: Miksi Bitcoin-osoitteen uudelleenkäyttöä ei suositella?
+answer: Se helpottaa kolmansien osapuolien tekemää transaktioiden seurantaa
 wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
+  - Se paljastaa yksityisen avaimen noncen takia
+  - Se tekee transaktioista kalliimpia
+  - Se mitätöi digitaaliset allekirjoitukset
 explanation: |
-  Yksityisen avaimen teoreettinen mahdollisuuksien kokonaismäärä on 2^256, mutta todellisuudessa se on hieman vähemmän kuin tuo.
-reviewed: false
+  Osoitteen uudelleenkäyttö mahdollistaa tarkkailijoiden helposti yhdistää eri transaktiot samaan käyttäjään, vaarantaen heidän yksityisyytensä.

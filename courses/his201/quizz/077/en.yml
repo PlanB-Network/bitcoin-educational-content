@@ -1,0 +1,9 @@
+question: On what date was the bitcoin-development mailing list created?
+answer: June 12, 2011
+wrong_answers:
+  - January 13, 2011
+  - March 7, 2011
+  - September 19, 2011
+explanation: |
+  It was created by developer Jeff Garzik, and it allowed for formal discussions about changes to be made to Bitcoin.
+reviewed: false

@@ -3,6 +3,8 @@ answer: Lokianalyysi, incident response
 wrong_answers:
   - Graafinen suunnittelu, videon editointi
   - Myynti, markkinointi
-  - Kokkaus, leivonta
+  - Kokkaus, leipominen
 explanation: |
-  Luvussa mainitaan lokianalyysi ja incident response joitakin taitoja, joita tarvitaan kyberturvallisuudessa.
+  Luvussa mainitaan lokianalyysi ja incident response
+  joitakin kyberturvallisuudessa tarvittavia taitoja.
+reviewed: true

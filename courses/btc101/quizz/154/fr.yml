@@ -1,9 +1,12 @@
-question: Quel est le rôle des ASIC dans le minage de Bitcoin ?
-answer: Les ASIC sont des machines conçues uniquement pour appliquer l'algorithme SHA256 dans le processus de minage.
+question: Quel est le rôle des ASICs dans le minage de Bitcoin ?
+answer: Les ASICs sont des machines conçues uniquement pour appliquer l'algorithme SHA256 dans le processus de minage.
 wrong_answers:
-  - Les ASIC sont utilisés pour vérifier les transactions Bitcoin.
-  - Les ASIC sont utilisés pour créer de nouveaux bitcoins.
-  - Les ASIC sont utilisés pour sécuriser le réseau Bitcoin.
+  - Les ASICs sont utilisés pour vérifier les transactions Bitcoin en appliquant l'algorithme SHA256 dans le processus de vérification.
+  - Les ASICs sont utilisés pour créer arbitrairement de nouveaux bitcoins.
+  - Les ASICs sont utilisés pour sécuriser le réseau Bitcoin.
 explanation: |
-  Les ASIC (Circuits Intégrés Spécifiques à une Application) sont des matériels spécialisés conçus spécifiquement pour le minage de Bitcoin. Ils sont optimisés pour effectuer la fonction de hachage SHA256, qui est le problème mathématique que les mineurs doivent résoudre dans la Preuve de Travail.
-reviewed: false
+  Les ASICs (Circuits Intégrés Spécifiques à une Application) sont
+  du matériel spécialisé conçu spécifiquement pour le minage de Bitcoin.
+  Ils sont optimisés pour effectuer la fonction de hachage SHA256, qui est le problème mathématique que les mineurs
+  doivent résoudre dans le processus de Preuve de Travail (Proof of Work).
+reviewed: true

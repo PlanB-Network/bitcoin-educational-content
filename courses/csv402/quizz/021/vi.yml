@@ -1,0 +1,9 @@
+question: What does a Consignment in RGB contain?
+answer: The customer-side data needed to validate a transition
+wrong_answers:
+  - A complete copy of the Bitcoin blockchain
+  - A list of Bitcoin's public commitments
+  - Public keys of state transition participants
+explanation: |
+  The Consignment includes the RGB information enabling the receiver to validate the state transition according to the contract rules.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qui a proposé l'idée d'une concurrence entre les monnaies privées ?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek a proposé l'idée de la concurrence entre monnaies privées pour réduire l'influence des gouvernements sur la monnaie et encourager une stabilité monétaire fondée sur le marché plutôt que sur les politiques centralisées.
+reviewed: false

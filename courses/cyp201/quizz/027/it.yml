@@ -1,9 +1,9 @@
-question: Cosa memorizza un portafoglio Bitcoin?
-answer: Le chiavi private necessarie per dimostrare la proprietà dei bitcoin
+question: Quale vulnerabilità della firma ECDSA è stata corretta da SegWit?
+answer: Malleabilità
 wrong_answers:
-  - I bitcoin stessi
-  - Le chiavi pubbliche necessarie per dimostrare la proprietà dei bitcoin
-  - La cronologia delle transazioni dei bitcoin
+  - Verifica batch
+  - Mancanza di aggregazione
+  - Dimensione eccessiva delle firme
 explanation: |
-  In realtà, un portafoglio Bitcoin memorizza le chiavi private necessarie per dimostrare la proprietà dei bitcoin. I bitcoin stessi sono registrati sulla blockchain, un database decentralizzato che archivia tutte le transazioni.
+  SegWit ha corretto la malleabilità delle firme ECDSA, consentendo utilizzi come la Lightning Network.
 reviewed: false

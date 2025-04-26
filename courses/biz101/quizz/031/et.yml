@@ -1,0 +1,9 @@
+question: Kuidas peaks ettevõte valima oma vajadustele vastava Bitcoini makselahenduse?
+answer: Võttes arvesse selliseid tegureid nagu tehingu sagedus, keskmine maksesumma ja see, kas tegemist on online või isiklikult, ning valides seejärel sellele kategooriale kohandatud lahenduse.
+wrong_answers:
+  - Valides alati kõige lihtsama lahenduse, olenemata tehingu mahust või keerukusest.
+  - Kasutades ainult suurimat ja kõige kallimat olemasolevat lahendust, olenemata ettevõtte suurusest.
+  - Tuginedes üksnes oletustele, arvestamata ettevõtte erinõudeid.
+explanation: |
+  Erinevatel ettevõtetel on erinevad vajadused. Selliste tegurite hindamine nagu tehingumaht, makseviisid (online vs. füüsiline) ja skaleeritavus aitab ettevõttel valida õige Bitcoin-makselahenduse.
+reviewed: false

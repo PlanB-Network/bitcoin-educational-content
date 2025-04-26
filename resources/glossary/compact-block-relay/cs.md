@@ -1,0 +1,5 @@
+---
+term: KOMPAKTNÍ BLOKOVÉ RELÉ
+
+---
+Protokol představený v jádře Bitcoinu v roce 2016 prostřednictvím BIP152, který navrhuje metodu úspory šířky pásma pro síťové uzly. Compact Block Relay umožňuje předávat informace o blocích kompaktním způsobem, přičemž vychází z předpokladu, že uzly již mají většinu transakcí posledního bloku ve svém mempoolu. Namísto předávání každé transakce v plném rozsahu, které by vedlo k duplicitě, Compact Block Relay navrhuje zasílání pouze krátkých identifikátorů transakcí, které jsou již peerům známy, doplněných o několik vybraných transakcí (zejména transakce coinbase a transakce, které uzel pravděpodobně nezná). Uzel si pak může od svých vrstevníků vyžádat všechny chybějící transakce. Compact Block Relay tak snižuje množství dat vyměňovaných během šíření bloků, což zase snižuje nárazy šířky pásma a zlepšuje celkovou efektivitu sítě.

@@ -1,9 +1,9 @@
-question: Bob kết thúc với bao nhiêu SAT sau lần chuyển tiền thứ hai trong ví dụ?
-answer: 40,000 SAT.
+question: Mạng Lưới Lightning cho phép gửi tiền đến một nút không kết nối trực tiếp như thế nào?
+answer: Bằng cách điều hướng thanh toán qua các nút trung gian
 wrong_answers:
-  - 30,000 SAT.
-  - 10,000 SAT.
-  - 0 SAT.
+  - Bằng cách sử dụng giao dịch trên chuỗi giữa các nút
+  - Bằng cách tự động thiết lập một kênh tạm thời
+  - Bằng cách gửi trực tiếp tiền qua các địa chỉ đa chữ ký
 explanation: |
-  Trong ví dụ, sau lần chuyển tiền thứ hai, Bob kết thúc với 40,000 SAT.
+  Mạng Lưới Lightning cho phép điều hướng một khoản thanh toán qua nhiều nút trung gian, mà không yêu cầu một kênh trực tiếp giữa người gửi và người nhận.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Miks on SHA256-s tagatud pöördumatus?
+answer: Kasutatavad toimingud eemaldavad informatsiooni ja on ühesuunalised
+wrong_answers:
+  - Sõnumid krüpteeritakse enne räsistamist
+  - Bitid paigutatakse juhuslikult ümber
+  - Iga räsi salvestatakse andmebaasi
+explanation: |
+  Toimingud nagu ShR ja XOR muudavad algseisundisse naasmise võimatuks, tagades pöördumatuse.
+reviewed: false

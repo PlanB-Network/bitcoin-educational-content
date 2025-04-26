@@ -1,0 +1,9 @@
+question: Kako onlajn servis verifikuje lozinku bez njenog direktnog čuvanja?
+answer: Upoređivanjem Hash unete lozinke sa onom u bazi podataka
+wrong_answers:
+  - Dešifrovanjem sačuvane lozinke radi njene verifikacije
+  - Korišćenjem javnog ključa za verifikaciju identiteta
+  - Poređenjem lozinke direktno sa lozinkama drugih korisnika
+explanation: |
+  Usluga generiše Hash unete lozinke i upoređuje ga sa sačuvanim, bez ikakvog direktnog čuvanja lozinke, čime se obezbeđuje povećana sigurnost.
+reviewed: false

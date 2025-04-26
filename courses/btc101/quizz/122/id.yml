@@ -1,0 +1,10 @@
+question: Apa ritme jaringan Bitcoin?
+answer: 10 menit per blok
+wrong_answers:
+  - 10 detik per blok
+  - 10 menit per transaksi
+  - 10 detik per transaksi
+explanation: |
+  Ritme jaringan Bitcoin adalah 10 menit per blok. Ini seperti
+  detak jantung dari sistem moneter Bitcoin.
+reviewed: true

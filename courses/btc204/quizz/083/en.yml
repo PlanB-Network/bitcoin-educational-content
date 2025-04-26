@@ -1,0 +1,13 @@
+question: Why can't the coordinator modify the coinjoin transaction after collecting signatures from all participants?
+
+answer: Modifying it would invalidate the transaction.
+
+wrong_answers:
+  - They do not have access to the participants' receiving addresses.
+  - The signatures are encrypted.
+  - The transaction has already been broadcast on the Bitcoin network.
+
+explanation: |
+  Once the participants have signed the overall transaction, after ensuring everything is correct, the coordinator can no longer modify this transaction, including the outputs, without invalidating it, because the signature covers the entire transaction.
+
+reviewed: false

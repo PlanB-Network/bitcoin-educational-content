@@ -5,6 +5,8 @@ wrong_answers:
   - Sammuta tietokone ja jätä se pois päältä muutamaksi tunniksi.
   - Poista kaikki tiedostot tietokoneelta.
 explanation: |
-  Jos havaitset viruksen tietokoneellasi, sinun tulisi katkaista yhteys internetiin estääksesi viruksen leviämisen tai kommunikoinnin hakkerin kanssa.
-  Sen jälkeen suorita täysi virustarkistus ja poista tartunnan saaneet tiedostot.
-reviewed: false
+  Jos havaitset viruksen tietokoneellasi, sinun tulisi
+  katkaista yhteys internetiin estääksesi viruksen leviämisen
+  tai kommunikoinnin hakkerin kanssa. Sen jälkeen suorita
+  täysi virustarkistus ja poista tartunnan saaneet tiedostot.
+reviewed: true

@@ -1,0 +1,9 @@
+question: What is the relationship between natural law and human law according to Saint Thomas Aquinas?
+answer: Human law must be in accordance with natural law to be just and legitimate.
+wrong_answers:
+  - Human law is superior to natural law because it is enacted by legitimate authorities.
+  - Natural law is equal to human law.
+  - Human law only applies partially.
+explanation: |
+  For Saint Thomas Aquinas, human law derives its legitimacy from its conformity with natural law, which expresses universal moral principles. If human law contradicts natural law, it loses its justice and legitimacy.
+reviewed: false

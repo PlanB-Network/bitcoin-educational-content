@@ -1,0 +1,10 @@
+question: Hva er den første Bitcoin-transaksjonen som er registrert?
+answer: En transaksjon på 10 BTC mellom Satoshi og Hal Finney
+wrong_answers:
+  - En transaksjon på 10 000 BTC for 2 pizzaer
+  - En transaksjon på 1 BTC mellom Satoshi og Hal Finney
+  - En transaksjon på 10 000 BTC mellom Laszlo Hanyecz og Hal Finney
+explanation: |
+  Den første Bitcoin-transaksjonen som ble registrert var en transaksjon på 10 BTC mellom
+  Satoshi Nakamoto og Hal Finney.
+reviewed: true

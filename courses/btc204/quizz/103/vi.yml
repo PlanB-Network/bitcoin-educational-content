@@ -1,0 +1,13 @@
+question: Hiệu quả của một giao dịch Bitcoin được tính toán như thế nào về mặt bảo mật?
+
+answer: Bằng cách so sánh entropy thực tế của giao dịch với entropy tối đa có thể có.
+
+wrong_answers:
+  - Bằng cách nhân số lượng đầu vào với số lượng đầu ra.
+  - Bằng cách nhân entropy thực tế của giao dịch với số lượng đầu vào và đầu ra.
+  - Bằng cách so sánh số lượng đầu vào với số lượng đầu ra.
+
+explanation: |
+  Hiệu quả của giao dịch được tính toán bằng cách trừ entropy tối đa từ entropy thực tế của giao dịch được phân tích.
+
+reviewed: false

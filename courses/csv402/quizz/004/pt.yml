@@ -1,0 +1,9 @@
+question: Como é que o RGB melhora a escalabilidade em comparação com a cadeia de blocos tradicional?
+answer: Ao limitar o armazenamento e a validação apenas às transições de estado relevantes
+wrong_answers:
+  - Ao aumentar virtualmente o tamanho dos blocos de Bitcoin
+  - Ao ligar cada contrato diretamente a todos os UTXOs
+  - Ao centralizar os dados do contrato num pequeno número de servidores centrais
+explanation: |
+  O RGB reduz os requisitos de armazenamento e validação, mantendo apenas os dados relevantes para cada participante.
+reviewed: false

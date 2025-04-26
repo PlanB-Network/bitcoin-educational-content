@@ -1,9 +1,9 @@
-question: Qual é o objetivo de uma assinatura digital no contexto das transações de Bitcoin?
-answer: Provar que você é o detentor de uma chave privada sem revelá-la.
+question: Qual é a principal diferença entre um PRNG e um TRNG?
+answer: O PRNG é determinístico, enquanto o TRNG gera números verdadeiramente aleatórios.
 wrong_answers:
-  - Criptografar os dados da transação.
-  - Armazenar os dados da transação.
-  - Transmitir os dados da transação.
+  - O PRNG é mais rápido que o TRNG para números grandes.
+  - O PRNG é usado apenas para criptografia, não o TRNG.
+  - O PRNG usa chaves privadas, o TRNG usa chaves públicas.
 explanation: |
-  No contexto das transações de Bitcoin, uma assinatura digital é usada para provar que você é o detentor de uma chave privada sem revelá-la. Isso é alcançado usando o algoritmo ECDSA.
+  PRNGs são determinísticos, o que significa que podem reproduzir sequências a partir de um estado inicial, ao contrário dos TRNGs.
 reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal de una semilla en el contexto de cadenas pseudorandom?
+answer: Servir como punto de partida para generar una cadena más larga
+wrong_answers:
+  - Definir la longitud fija de una cadena pseudorandom
+  - Verificar la integridad de una cadena pseudorandom
+  - Añadir una distribución uniforme a los valores de una cadena
+explanation: |
+  La semilla es una cadena más corta utilizada como punto de partida por un algoritmo de expansión para generar una cadena pseudorandom más larga.
+reviewed: false

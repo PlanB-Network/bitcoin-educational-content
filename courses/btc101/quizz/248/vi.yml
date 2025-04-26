@@ -1,13 +1,11 @@
 question: Đặc điểm chính của Bitcoin là gì?
-
-answer: Nó có thể được trao đổi ở bất cứ đâu trên thế giới mà không cần sự cho phép của bất kỳ cơ quan nào.
-
+answer: Nó có thể được trao đổi ở bất cứ nơi nào trên thế giới mà không cần sự cho phép của bất kỳ cơ quan nào.
 wrong_answers:
-  - Chỉ một nhóm người nhất định mới có thể sử dụng.
-  - Nó yêu cầu sự cho phép của một cơ quan trung ương để có thể sử dụng.
-  - Nó chỉ có thể được sử dụng ở một số quốc gia nhất định.
-
-explanation: >-
-  Văn bản đề cập rằng Bitcoin là ẩn danh và có thể được trao đổi ở bất cứ đâu trên thế giới mà không cần sự cho phép của bất kỳ cơ quan nào.
-
-reviewed: false
+  - Chỉ có thể được sử dụng bởi một nhóm người được chọn.
+  - Yêu cầu sự cho phép của một cơ quan trung ương để có thể sử dụng.
+  - Chỉ có thể được sử dụng ở một số quốc gia nhất định.
+explanation: |
+  Văn bản đề cập rằng Bitcoin là ẩn danh và có thể
+  được trao đổi ở bất cứ nơi nào trên thế giới mà không cần sự cho phép
+  của bất kỳ cơ quan nào.
+reviewed: true

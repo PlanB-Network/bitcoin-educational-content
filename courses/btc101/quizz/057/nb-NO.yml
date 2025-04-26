@@ -1,0 +1,9 @@
+question: Hva var inflasjonsraten i Zimbabwe i november 2008?
+answer: 79,600,000,000%
+wrong_answers:
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
+explanation: |
+  I november 2008 nådde inflasjonsraten for Zimbabwes valuta en topp på 79,600,000,000%, noe som fullstendig knuste verdien av den zimbabwiske dollaren.
+reviewed: true

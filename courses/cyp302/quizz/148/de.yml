@@ -1,0 +1,9 @@
+question: Welche Funktion wird verwendet, um die Anzahl der teilerfremden Zahlen zu einer Zahl N zu berechnen?
+answer: Eulers Phi-Funktion
+wrong_answers:
+  - Die logarithmische Funktion
+  - Eulers Gamma-Funktion
+  - Die Gauß-Funktion
+explanation: |
+  Eulers Phi-Funktion (oder Eulersche Phi-Funktion), auch bekannt als totient Funktion, wird verwendet, um die Anzahl der teilerfremden Zahlen einer Zahl N zu berechnen, insbesondere für nicht-primäre Zahlen.
+reviewed: false

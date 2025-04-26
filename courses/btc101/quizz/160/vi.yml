@@ -3,10 +3,11 @@ answer: Một đối tượng sở hữu hơn một nửa hashrate và có thể
 wrong_answers:
   - Một đối tượng kiểm soát hơn một nửa số bitcoin đang lưu thông.
   - Một đối tượng kiểm soát hơn một nửa số nút trong mạng lưới Bitcoin.
-  - Một đối tượng kiểm soát hơn một nửa số nhóm đào trong mạng lưới Bitcoin.
-explanation: >-
-  Trong một cuộc tấn công 51%, một đối tượng với hơn một nửa hashrate của mạng
-  có thể tiềm năng thao túng blockchain bằng cách tạo ra một chuỗi khối thay thế.
-  Tuy nhiên, một cuộc tấn công như vậy sẽ rất tốn kém và khó có khả năng sinh lời,
-  làm cho nó trở thành một kịch bản không có khả năng xảy ra.
-reviewed: false
+  - Một đối tượng kiểm soát hơn một nửa số hồ bơi khai thác trong mạng lưới Bitcoin.
+explanation: |
+  Trong một cuộc tấn công 51%, một đối tượng với hơn một nửa
+  hashrate của mạng có thể tiềm năng thao túng
+  blockchain bằng cách tạo ra một chuỗi khối thay thế.
+  Tuy nhiên, một cuộc tấn công như vậy sẽ rất tốn kém và
+  không có khả năng sinh lời, làm cho nó trở thành một kịch bản không mấy khả thi.
+reviewed: true

@@ -5,7 +5,7 @@ wrong_answers:
   - POP3, IMAP, SSH
   - DHCP, DNS, ARP
 explanation: |
-  Chương này đề cập đến TCP/IP, VPN, và tường lửa là một số khía cạnh
-
-
-  của kiến thức mạng cần thiết trong an ninh mạng.
+  Chương này đề cập đến TCP/IP, VPN, và tường lửa là một số
+  khía cạnh của kiến thức mạng cần thiết trong
+  an ninh mạng.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Sự khác biệt chính giữa coinjoin và mixer giữ hộ là gì?
+
+answer: Coinjoin cho phép bạn giữ quyền kiểm soát đầy đủ đối với số tiền của mình.
+
+wrong_answers:
+  - Coinjoin yêu cầu việc tạm thời từ bỏ quyền giữ hộ đối với số tiền.
+  - Mixer an toàn hơn coinjoin.
+  - Mixer cung cấp chất lượng trộn tốt hơn.
+
+explanation: |
+  Nhược điểm chính của mixer so với coinjoin là chúng yêu cầu người dùng phải từ bỏ quyền giữ hộ đối với số tiền của họ trong quá trình trộn, điều này phơi bày họ trước rủi ro bị trộm cắp.
+
+reviewed: false

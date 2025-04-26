@@ -1,0 +1,9 @@
+question: Hvem er oppfinnerne av Lightning Network?
+answer: Thaddeus Dryja og Joseph Poon
+wrong_answers:
+  - Andreas Antonopoulos og Adam Back
+  - Pieter Wuille og Gregory Maxwell
+  - Satoshi Nakamoto og Hal Finney
+explanation: |
+  Thaddeus Dryja og Joseph Poon oppfant Lightning Network i 2016 for å forbedre Bitcoins skalerbarhet.
+reviewed: false

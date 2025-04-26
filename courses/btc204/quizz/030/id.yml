@@ -1,0 +1,9 @@
+question: Apa tujuan dari heuristik transaksi internal?
+answer: Untuk mengidentifikasi pertukaran.
+wrong_answers:
+  - Untuk mengidentifikasi transaksi fraudulen secara real-time.
+  - Untuk mengidentifikasi pola transaksi.
+  - Untuk mengidentifikasi kluster yang termasuk ke dalam entitas yang sama.
+explanation: |
+  Heuristik internal memungkinkan kita untuk mengidentifikasi pertukaran dengan tujuan mengamati pengguna dalam transaksi berikutnya.
+reviewed: false

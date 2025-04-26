@@ -1,9 +1,9 @@
-question: Quelle est l'importance du coût énergétique dans le minage de Bitcoin?
+question: Quelle est l'importance de la dépense énergétique dans le minage de Bitcoin ?
 answer: La dépense énergétique est nécessaire pour produire l'information, mais la vérification de l'information a un coût négligeable. Cette asymétrie garantit la sécurité du réseau.
 wrong_answers:
-  - Le coût énergétique est nécessaire pour alimenter les machines ASIC utilisées dans le minage.
-  - Le coût énergétique est nécessaire pour maintenir le réseau Bitcoin.
-  - Le coût énergétique est nécessaire pour créer de nouveaux bitcoins.
-explanation: |
-  Le coût énergétique dans le minage de Bitcoin est un aspect crucial de la sécurité du réseau. Le coût élevé de l'énergie nécessaire au minage rend extrêmement coûteux pour un acteur malveillant de manipuler la blockchain, tandis que le faible coût de la vérification des transactions garantit que n'importe qui peut participer au réseau.
+  - Le coût énergétique est nécessaire pour alimenter les machines ASIC utilisées dans le minage, et la vérification de l'information a des coûts élevés.
+  - La dépense énergétique est nécessaire pour maintenir le réseau Bitcoin, et la vérification de l'information a des coûts variables.
+  - Le coût énergétique n'est pas nécessaire pour créer de nouveaux bitcoins.
+explanation: >-
+  Le coût énergétique dans le minage de Bitcoin est un aspect crucial de la sécurité du réseau. Le coût énergétique élevé du minage rend extrêmement coûteuse toute tentative de manipulation de la blockchain par un acteur malveillant, tandis que le faible coût de vérification des transactions assure que n'importe qui peut participer au réseau.
 reviewed: false

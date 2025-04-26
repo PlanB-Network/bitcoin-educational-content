@@ -1,0 +1,9 @@
+question: Apa yang dapat dilakukan "curl -X POST /issueassetnia" di RLN?
+answer: Membuat aset RGB baru yang dapat dipertukarkan dan tidak mengalami inflasi
+wrong_answers:
+  - Membuat aset RGB baru yang tidak dapat dipertukarkan
+  - Membuat aset RGB inflasi baru yang dapat dipertukarkan
+  - Membuat aset RGB baru yang dapat dipertukarkan
+explanation: |
+  Perintah "/issueassetnia" digunakan untuk menerbitkan token RGB NIA ("Non Inflatable Asset") yang baru.
+reviewed: false

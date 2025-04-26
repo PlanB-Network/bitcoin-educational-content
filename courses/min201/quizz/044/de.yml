@@ -1,9 +1,13 @@
-question: Was sind "Jungfrauen-Bitcoins"?
-answer: Es handelt sich um frisch geschürfte Bitcoins, die noch nie ausgegeben wurden und keine Historie aufweisen.
+question: Was sind virgin bitcoins?
+answer: Frisch geschürfte Bitcoins, die noch nie ausgegeben wurden und keine Historie aufweisen.
 wrong_answers:
-  - Bitcoins, die für illegale Aktivitäten verwendet wurden.
-  - Bitcoins, die verloren oder vergessen wurden.
+  - Bitcoins, die in illegalen Aktivitäten verwendet wurden.
+  - Bitcoins, die verloren gegangen oder vergessen wurden.
   - Bitcoins, die lange Zeit in einer Wallet gespeichert wurden.
 explanation: |
-  Jungfrauen-Bitcoins sind frisch geschürfte Bitcoins, die noch nie ausgegeben wurden und keine Historie aufweisen. Diese Bitcoins gelten oft als wertvoller, da sie noch nicht verunreinigt wurden und somit eine gewisse Garantie gegen Ablehnung durch Regulierungsbehörden oder große Handelsplattformen bieten.
-reviewed: false
+  Virgin bitcoins sind frisch geschürfte Bitcoins, die noch
+  nie ausgegeben wurden und keine Historie aufweisen. Diese
+  Bitcoins werden oft als wertvoller betrachtet, da sie nie
+  verunreinigt wurden, was eine gewisse Garantie gegen
+  Ablehnung durch Regulierungsbehörden oder große Handelsplattformen bietet.
+reviewed: true

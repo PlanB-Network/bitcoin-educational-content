@@ -1,9 +1,9 @@
-question: Jaká je role BIP38 v ekosystému Bitcoinu?
-answer: Navrhl přidání dalšího hesla pro posílení bezpečnosti jednotlivých klíčů.
+question: Jaký je účel použití návnadové peněženky s heslovou frází?
+answer: Simulovat peněženku s malým množstvím v případě fyzického nátlaku
 wrong_answers:
-  - Zavedl 24-slovnou mnemonickou frázi.
-  - Revolucionizoval způsob generování a ukládání klíčů.
-  - Standardizoval strukturu a hierarchii HD peněženek.
+  - Přidat automatickou zálohu transakcí
+  - Generovat dodatečnou mnemonickou frázi
+  - Chránit UTXO před dvojitým výdajem
 explanation: |
-  BIP38 navrhl přidání dalšího hesla pro posílení bezpečnosti jednotlivých klíčů. To je jedno z mnoha vylepšení učiněných pro zvýšení bezpečnosti a funkčnosti HD peněženek.
+  Návnadová peněženka se používá k odvedení pozornosti útočníka tím, že poskytne přístup k peněžence obsahující malé množství bitcoinů.
 reviewed: false

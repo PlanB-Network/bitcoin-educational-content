@@ -1,9 +1,12 @@
-question: Pourquoi le Bitcoin n'est-il pas largement accepté dans le commerce aujourd'hui?
+question: Pourquoi le Bitcoin n'est-il pas largement accepté dans le commerce aujourd'hui ?
 answer: Parce qu'il n'est pas largement adopté par les individus.
 wrong_answers:
-  - Parce qu'il n'est pas transportable
-  - Parce qu'il n'est pas divisible
-  - Parce qu'il n'est pas liquide
+  - Parce qu'il n'est pas transportable.
+  - Parce qu'il n'est pas divisible en petites unités.
+  - Parce qu'il n'est pas liquide.
 explanation: |
-  Malgré ses caractéristiques, telles que son offre strictement limitée, le Bitcoin n'est toujours pas largement accepté dans le commerce aujourd'hui. Cela est dû au manque d'adoption par les individus, créant une situation qui se mord la queue car les commerçants sont également des individus.
-reviewed: false
+  Malgré ses propriétés, telles que son offre strictement limitée,
+  le Bitcoin n'est toujours pas largement accepté dans le commerce
+  aujourd'hui, en raison du manque d'adoption par les individus, donc
+  les commerçants ne sont pas encouragés à l'accepter.
+reviewed: true

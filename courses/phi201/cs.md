@@ -17,11 +17,43 @@ Od renesance po osvícenství kurz zkoumá vzestup svobody, označený nábožen
 
 +++
 
+# Úvod
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Přehled kurzu
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Vítejte v kurzu PHI201!
+
+Tento kurz vás zve k prozkoumání vývoje svobody v dějinách prostřednictvím analýzy hlavních myšlenkových proudů, které ji formovaly. Zjistíte, jak se pojem svobody utvářel během staletí, ať už ve spolupráci či v opozici vůči moci, při historickém putování od antiky po současné debaty.
+
+**Sekce 1: Svoboda nebo moc**  
+Začneme přehledem dvou hlavních politických filozofií, které formovaly dějiny: svoboda a moc. Tato část zkoumá názory myslitelů jako Frédéric Bastiat na produkci versus loupež, Lord Acton, který vnímá svobodu jako hybnou sílu historie, Karl Marx s jeho teorií třídního boje a Murray Rothbard, který staví stát proti společnosti. Tento konceptuální úvod poskytne analytický rámec pro historická období.
+
+**Sekce 2: Původ svobody: Antika**  
+Zde se vrátíme ke kořenům filozofického myšlení s Řeky, kteří vynalezli kritickou racionalitu, a Římany, kteří položili základy moderního práva. Také prozkoumáme pád Říma jako klíčový moment, který redefinoval politickou a sociální organizaci kolem pojmu svobody.
+
+**Sekce 3: Původ svobody: Středověk**  
+Středověk je často vnímán jako temné období, ale zjistíme, že ve skutečnosti položil základy moderní svobody. Budeme zkoumat potvrzení lidské svobody, debaty mezi rozumem a vírou, zrod suverénního státu, biblickou etiku zdůrazňující jednotlivce a první náznaky kapitalismu, které se v této době objevují.
+
+**Sekce 4: Vzestup svobody: Od renesance po osvícenství**  
+Tato část se bude zabývat vznikem náboženské tolerance a ekonomické svobody, které se začaly rozvíjet během renesance a osvícenství. Také budeme analyzovat význam roku 1776, který znamenal zásadní zlom s klíčovými událostmi pro svobodný svět, předtím než se ponoříme do éry revolucí, které předefinovaly samotný pojem svobody.
+
+**Sekce 5: Vrchol a úpadek: Od 19. do 20. století**  
+Budeme pokračovat studiem změn v 19. a 20. století, přičemž se zaměříme na silné a slabé stránky demokracie, marxistickou kritiku kapitalismu a rakouskou odpověď na tyto kritiky. Také prozkoumáme varování před nebezpečím kolektivismu prostřednictvím významných děl, jako je "Cesta do nevolnictví".
+
+**Sekce 6: Vzestup sociálního státu ve 20. století**  
+Na závěr tato část zkoumá, jak sociální stát postupně převládl nad myšlenkami ekonomické svobody, zejména analýzou triumfu Keynese a opuštění zlatého standardu. Ukončíme důrazem na důležitost myšlenek při ovlivňování běhu dějin a na roli, kterou svoboda stále hraje v našich moderních společnostech.
+
+Připraveny ponořit se do tohoto jedinečného filozofického putování za hledáním svobody? Pojďme na to!
+
 # Svoboda nebo moc
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Úvod: Existují pouze dvě politické filozofie
+## Existují pouze dvě politické filozofie
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1408,9 +1440,8 @@ Pro Hayeka minulá nestabilita tržní ekonomiky vychází z faktu, že nejdůle
 ![image](assets/6/img-006.webp)
 Hayek věřil, že volný trh s privátními měnami by vedl k větší měnové stabilitě. Téměř 50 let později kryptoměna jako Bitcoin ztělesňuje Hayekovu vizi konkurence tím, že nabízí decentralizovanou alternativu k monopolistickému systému centrálních bank. Bitcoin, se svým emisním limitem 21 milionů jednotek, je zárukou proti inflaci a libovůli regulátorů.
 
+## Recenze & Hodnocení
 
-
-## Dejte nám zpětnou vazbu k tomuto kurzu
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1438,3 +1469,22 @@ V jistém smyslu je naše situace lepší než v minulosti. Po postupných selh�
 Vše, co se děje ve světové společnosti, ve které žijeme, je výsledkem nápadů. Těch dobrých i špatných. Je nutné bojovat proti falešným nápadům. (...) Naše civilizace může přežít, a musí. A přežije díky lepším nápadům, než jsou ty, které dnes světem vládnou; a tyto lepší nápady vyvinou příští generace.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
+# Sekce finále
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## Hodnocení & Recenze
+
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Závěrečná zkouška
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Závěr
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

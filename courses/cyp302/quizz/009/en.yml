@@ -1,0 +1,9 @@
+question: Which step is not included in the security proof of a modern cryptographic scheme?
+answer: Setting up a user interface
+wrong_answers:
+  - Stating security definitions
+  - The mathematical complexity assumptions
+  - The mathematical demonstration of security
+explanation: |
+  The security proof in modern cryptography focuses on objectives and mathematical assumptions, excluding aspects like the user interface, which is not relevant to cryptographic security.
+reviewed: false

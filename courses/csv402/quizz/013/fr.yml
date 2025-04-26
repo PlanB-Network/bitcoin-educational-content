@@ -1,0 +1,9 @@
+question: Quelles sont les opérations principales d’un contrat RGB ?
+answer: State Transition, Genesis, et State Extension
+wrong_answers:
+  - Seal Definition, Commitment, et Validation
+  - Anchor Creation, DAG Update, et Transaction Signing
+  - Genesis Block, UTXO Allocation, et Script Validation
+explanation: |
+  Ces opérations permettent de modifier ou de compléter l’état d’un contrat selon son Schema.
+reviewed: false

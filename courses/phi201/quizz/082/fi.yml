@@ -1,0 +1,9 @@
+question: Mikä on pääasiallinen ero Amerikan vallankumouksen ja Ranskan vallankumouksen välillä?
+answer: Amerikan vallankumous johti hajautetun lainvaltion muodostumiseen, kun taas Ranskan vallankumous johti Terrorin aikaan ja diktatuuriin.
+wrong_answers:
+  - Amerikan vallankumous sai inspiraationsa valistuksen ideoista, kun taas Ranskan vallankumous sai inspiraationsa uskonnollisista ideoista.
+  - Amerikan vallankumousta johtivat siirtolaiset, kun taas Ranskan vallankumousta johtivat aateliset.
+  - Amerikan vallankumous oli pitkä, kun taas Ranskan vallankumous oli lyhyt.
+explanation: |
+  Amerikan vallankumous johti hajautettuun ja vakaaseen järjestelmään, joka perustui lainvaltaan, kun taas Ranskan vallankumous ajautui nopeasti Terrorin aikaan ja diktatuuriin sisäisten jakolinjojen ja vallan keskittämisen vuoksi.
+reviewed: false

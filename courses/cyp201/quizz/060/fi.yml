@@ -1,11 +1,9 @@
-question: Mikä on pääetu Hierarkkisesti Deterministisissä Lompakoissa (HD-lompakot)?
-answer: Ne mahdollistavat deterministisen ja hierarkkisen lapsiavainparien luonnin yhdestä tiedonpalasta.
+question: Minkä tyyppinen avain liittyy zpub-etuliitteeseen?
+answer: Laajennettu julkinen avain SegWit V0 lle Mainnetissä
 wrong_answers:
-  - Ne mahdollistavat useiden yksityisten avainten luonnin yhdestä julkisesta avaimesta.
-  - Ne mahdollistavat useiden julkisten avainten luonnin yhdestä yksityisestä avaimesta.
-  - Ne mahdollistavat useiden lompakoiden luonnin yhdestä avainparista.
+  - Laajennettu yksityinen avain SegWit V1: lle Mainnetissä
+  - Laajennettu julkinen avain Legacylle Testnetissä
+  - Laajennettu julkinen avain SegWit V2: lle Testnetissä
 explanation: |
-  HD-lompakot mahdollistavat deterministisen ja hierarkkisen lapsiavainparien luonnin
-  yhdestä tiedonpalasta. Tämä tekee avainten luonnin ja hallinnan helpommaksi samalla
-  ylläpitäen korkeaa turvallisuustasoa.
+  zpub-etuliite merkitsee laajennettua julkista avainta SegWit V0 -skripteille Mainnetissä.
 reviewed: false

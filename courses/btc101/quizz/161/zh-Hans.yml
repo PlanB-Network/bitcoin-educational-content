@@ -1,0 +1,8 @@
+question: 比特币挖矿的环境成本主要关注点是什么？
+answer: 能源消耗
+wrong_answers:
+  - ASICs的生产
+  - ASICs的回收
+  - 电力成本
+explanation: >-
+  比特币挖矿的主要环境关注点是能源消耗。虽然ASICs主要由铝制成，可以回收或再利用，但是为这些机器供电所需的能源是巨大的。

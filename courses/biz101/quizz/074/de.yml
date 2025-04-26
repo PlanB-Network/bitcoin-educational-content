@@ -1,0 +1,9 @@
+question: Welche fortschrittlichen Sicherheitsfunktionen werden in der Regel auf Unternehmensebene für Bitcoins implementiert?
+answer: Multi-Signatur mit Zeitschaltern
+wrong_answers:
+  - Passwortschutz für eine mobile Lightning-Brieftasche
+  - Single-sig mit BIP39-Passphrasenschutz
+  - Single-Sig mit 24 Wörtern Seed-Phrase
+explanation: |
+  Hochsicherheitsmaßnahmen wie Konfigurationen mit mehreren Unterschriften und Zeitschlössern sind für die Verwaltung großer Beträge von entscheidender Bedeutung.
+reviewed: false

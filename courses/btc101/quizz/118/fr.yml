@@ -1,9 +1,12 @@
 question: Quel est le message contenu dans le premier bloc de la blockchain Bitcoin ?
-answer: 03/jan/2009 Le chancelier au bord d'un deuxième renflouement des banques.
+answer: 03/jan/2009 Le Chancelier au bord d'un second sauvetage des banques.
 wrong_answers:
-  - Nous pouvons remporter une grande bataille dans la course aux armements et gagner un nouveau territoire de liberté pendant plusieurs années.
-  - Les gouvernements sont doués pour couper les têtes des réseaux contrôlés de manière centralisée comme Napster, mais les réseaux P2P purs comme Gnutella et Tor semblent tenir bon.
+  - Nous pouvons remporter une bataille majeure dans la course aux armements et gagner un nouveau territoire de liberté pour plusieurs années.
+  - Les gouvernements sont doués pour couper la tête de réseaux centralisés comme Napster, mais les réseaux purement P2P comme Gnutella et Tor semblent tenir le coup.
   - Aucune des réponses ci-dessus.
 explanation: |
-  Le premier bloc de la blockchain Bitcoin, également connu sous le nom de bloc de genèse, contient le message 03/jan/2009 Le chancelier au bord d'un deuxième renflouement des banques, qui est le titre du Time de ce jour-là pour horodater le bloc de genèse.
-reviewed: false
+  Le premier bloc de la blockchain Bitcoin, également connu sous
+  le nom de bloc de genèse, contient le message 03/jan/2009
+  Le Chancelier au bord d'un second sauvetage des banques, qui est
+  le titre du Times ce jour-là pour horodater le bloc de genèse.
+reviewed: true

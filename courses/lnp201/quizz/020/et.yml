@@ -1,0 +1,8 @@
+question: Mis on peamine risk kohustuslike tehingute puhul Lightning Network'is?
+answer: Vana tehingu avaldamine, et tagasi nõuda rohkem vahendeid
+wrong_answers:
+  - Kohustusliku tehingu allkirjastamise unustamine
+  - Kogemata vahendite saatmine teisele kanalile
+  - Tehingu blokeerimine sobimatu ajalukuga
+explanation: |
+  Peamine risk on see, et osapool võib üritada petta, avaldades vana kohustusliku tehingu, mis võiks neil võimaldada tagasi nõuda vahendeid, mida neil enam ei ole.

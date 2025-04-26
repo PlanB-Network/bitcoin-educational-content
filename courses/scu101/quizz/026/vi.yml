@@ -5,6 +5,6 @@ wrong_answers:
   - Chỉ Linux cần phần mềm diệt virus.
   - Chỉ Mac cần phần mềm diệt virus.
 explanation: |
-  Linux và Mac, nhờ vào hệ thống phân chia quyền người dùng của mình, thường
-  không cần phần mềm diệt virus.
-reviewed: false
+  Linux và Mac, nhờ vào hệ thống phân chia quyền người dùng
+  của họ, thường không cần phần mềm diệt virus.
+reviewed: true

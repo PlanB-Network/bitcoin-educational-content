@@ -1,0 +1,9 @@
+question: Hàm nào được sử dụng để tính số nguyên nhỏ hơn N mà nguyên tố cùng nhau với N?
+answer: Hàm Phi của Euler
+wrong_answers:
+  - Hàm Gamma của Euler
+  - Hàm Sigma của Euler
+  - Hàm Beta của Dirichlet
+explanation: |
+  Hàm Phi của Euler xác định số nguyên nhỏ hơn N mà nguyên tố cùng nhau với N, một khái niệm trung tâm trong các định lý mật mã dựa trên số nguyên tố.
+reviewed: false

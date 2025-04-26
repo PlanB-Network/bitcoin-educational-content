@@ -1,12 +1,9 @@
-question: What function is used to generate the seed from the passphrase in a Bitcoin
-  wallet?
-answer: pbkdf2
+question: What derivation path is used for a SegWit v0 account in a standard descriptor?
+answer: 84h/0h/0h
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  The pbkdf2 function is used to generate the seed from the passphrase
-  in a Bitcoin wallet. This seed allows the derivation of all the child key pairs
-  of the wallet.
+  The path 84h/0h/0h is defined in BIP84 for an account deriving SegWit v0 addresses with P2WPKH.
 reviewed: false

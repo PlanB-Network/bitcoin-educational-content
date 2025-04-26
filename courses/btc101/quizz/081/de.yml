@@ -1,9 +1,12 @@
-question: Was ist die zentrale Frage zur Selbstverwahrung bei der Auswahl einer Bitcoin-Wallet?
-answer: Sind Sie der Eigentümer der Gelder oder überlassen Sie die Kontrolle über Ihr Geld einer dritten Partei?
+question: Was ist die zentrale Frage, die man sich stellen sollte, wenn man eine Bitcoin-Wallet auswählt, im Hinblick auf die Selbstverwahrung?
+answer: Sind Sie der Eigentümer der Gelder oder überlassen Sie die Kontrolle über Ihr Geld einem Dritten?
 wrong_answers:
-  - Ist die Wallet mit einem Passwort geschützt?
-  - Ermöglicht die Wallet den Empfang und Versand von Bitcoins?
+  - Ist die Wallet mit einem Passwort gesichert?
+  - Ermöglicht die Wallet das Empfangen und Senden von Bitcoins?
   - Kann ich meine Wallet mit einer anderen Person teilen?
 explanation: |
-  Sind Sie der Eigentümer der Gelder oder überlassen Sie die Kontrolle über Ihr Geld einer dritten Partei? Dies liegt daran, dass der Inhaber des privaten Schlüssels der Eigentümer der Bitcoins ist.
-reviewed: false
+  Bei der Auswahl einer Bitcoin-Wallet ist die zentrale question:
+  Sind Sie der Eigentümer der Gelder oder überlassen Sie die Kontrolle über
+  Ihr Geld einem Dritten? Dies liegt daran, dass der Inhaber des
+  privaten Schlüssels der Eigentümer der Bitcoins ist.
+reviewed: true

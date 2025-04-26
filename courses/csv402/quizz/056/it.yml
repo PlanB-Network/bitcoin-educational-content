@@ -1,0 +1,9 @@
+question: Quali sono i componenti principali necessari per gestire un nodo Lightning compatibile con RGB?
+answer: Un bitcoind, un indicizzatore e un server proxy RGB
+wrong_answers:
+  - Un nodo Lightning, un indicizzatore e un server IPFS
+  - Un portafoglio mobile RGB, un server proxy RGB e un bitcoind
+  - Client web, indicizzatore e server proxy RGB
+explanation: |
+  Per gestire un nodo Lightning abilitato a RGB, è necessario un nodo bitcoind per interagire con la blockchain Bitcoin, un indexer per effettuare il mining delle transazioni sulla catena e un server proxy RGB per facilitare lo scambio di invii tra pari.
+reviewed: false

@@ -1,9 +1,12 @@
-question: Quel est le principal avantage d'utiliser un logiciel open-source ?
-answer: Il permet de vérifier qu'il n'y a pas d'accès caché pour voler vos données personnelles.
+question: Quel est le principal avantage de l'utilisation de logiciels open-source ?
+answer: Cela permet de vérifier qu'il n'y a pas d'accès caché pour voler vos données personnelles.
 wrong_answers:
   - Il est toujours gratuit.
-  - Il est toujours plus sûr que les logiciels à code source fermé.
-  - Il est toujours plus convivial que les logiciels à code source fermé.
+  - Il est toujours plus sûr que les logiciels propriétaires.
+  - Il est toujours plus convivial que les logiciels propriétaires.
 explanation: |
-  Un logiciel open-source est un logiciel dont le code est connu et accessible à tous. Cela permet, entre autres, de vérifier qu'il n'y a pas d'accès caché pour voler vos données personnelles. Cependant, il n'est pas toujours gratuit, plus sûr ou plus convivial que les logiciels à code source fermé.
-reviewed: false
+  Un logiciel open-source est un logiciel dont le code est connu et
+  accessible à tous. Cela permet, entre autres, de vérifier qu'il n'y a pas
+  d'accès caché pour voler vos données personnelles. Cependant, il n'est pas
+  toujours gratuit, plus sûr ou plus convivial que les logiciels propriétaires.
+reviewed: true

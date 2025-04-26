@@ -1,0 +1,9 @@
+question: Apa yang mencirikan kompleksitas proses pembayaran berbasis kartu saat ini di tempat penjualan ritel?
+answer: Proses ini melibatkan beberapa perantara, beberapa langkah, dan dapat memakan waktu berhari-hari untuk menyelesaikan dana sepenuhnya.
+wrong_answers:
+  - Hanya membutuhkan satu langkah instan dan dana langsung masuk.
+  - Sistem ini hanya mengandalkan uang tunai fisik dan tidak ada perantara.
+  - Hal ini memastikan bahwa setelah kartu digesek, pedagang memiliki dana secara instan dan tidak dapat dibatalkan.
+explanation: |
+  Pembayaran dengan kartu sering kali melibatkan rantai perantara (acquirer, penerbit, jaringan kartu), memerlukan langkah otorisasi dan penyelesaian, dan dapat memakan waktu dari 48 jam hingga beberapa hari sebelum pedagang menerima dana bersih.
+reviewed: false

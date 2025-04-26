@@ -1,0 +1,9 @@
+question: Quem criou a plataforma de câmbio Mt. Gox em 18 de julho de 2010, uma semana após o grande slashdotting do Bitcoin?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explanation: |
+  Ele criou este mercado eficiente por capricho, percebendo o quão difícil era obter bitcoin em troca de dólares (especialmente no Bitcoin Market).
+reviewed: false

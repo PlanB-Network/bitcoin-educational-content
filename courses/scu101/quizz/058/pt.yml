@@ -1,9 +1,10 @@
-question: Quais são algumas das ferramentas usadas em segurança cibernética?
+question: Quais são algumas das ferramentas utilizadas em cibersegurança?
 answer: Wireshark, Metasploit, Nmap
 wrong_answers:
   - Photoshop, Illustrator, InDesign
   - Excel, PowerPoint, Word
   - AutoCAD, SolidWorks, Revit
 explanation: |
-  O capítulo lista Wireshark, Metasploit e Nmap como algumas das ferramentas usadas em segurança cibernética.
-reviewed: false
+  O capítulo lista Wireshark, Metasploit e Nmap como algumas
+  das ferramentas utilizadas em cibersegurança.
+reviewed: true

@@ -1,0 +1,9 @@
+question: What is the name given to the consensus problem within a distributed network?
+answer: The Byzantine Generals Problem
+wrong_answers:
+  - The Roman Centurions Problem
+  - The Albanian Colonels Problem
+  - The Japanese Taishos Problem
+explanation: |
+  The name of this problem (formalized by Lamport, Shostak, and Pease in 1982) was chosen to avoid offending the reader, as no one has ever identified themselves as Byzantine.
+reviewed: false

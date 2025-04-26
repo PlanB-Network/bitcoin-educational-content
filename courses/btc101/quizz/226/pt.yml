@@ -1,9 +1,10 @@
-question: O que o Lightning Network atua como?
+question: Que tipo de rede a Lightning Network cria?
 answer: Uma rede de canais de pagamento.
 wrong_answers:
   - Uma rede de nós de mineração.
   - Uma rede de nós de blockchain.
   - Uma rede de exchanges de criptomoedas.
-explanation: |
-  O Lightning Network atua como uma rede de canais de pagamento, permitindo transações instantâneas com baixas taxas para o remetente.
-reviewed: false
+explanation: >-
+  A Lightning Network atua como uma rede de canais de pagamento, possibilitando
+  transações instantâneas com taxas baixas para o remetente.
+reviewed: true

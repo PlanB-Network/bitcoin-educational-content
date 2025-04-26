@@ -1,11 +1,11 @@
-question: Qu'est-ce que la Preuve de Travail (POW) ?
-answer: Il s'agit du consensus de sécurité du protocole Bitcoin.
+question: Qu'est-ce que la Preuve de Travail (Proof of Work - POW) ?
+answer: C'est le consensus de sécurité du protocole Bitcoin.
 wrong_answers:
   - C'est le processus de création de nouveaux bitcoins.
   - C'est la méthode de vérification des transactions Bitcoin.
   - C'est l'algorithme utilisé pour miner des bitcoins.
-explanation: |
+explanation: >-
   La Preuve de Travail est un algorithme de consensus utilisé dans le réseau Bitcoin
-  pour valider les transactions et créer de nouveaux blocs. Il demande aux mineurs de résoudre des problèmes mathématiques complexes,
-  garantissant ainsi la sécurité et l'intégrité du réseau.
-reviewed: false
+  pour valider les transactions et créer de nouveaux blocs. Elle exige des mineurs de résoudre des
+  problèmes mathématiques complexes, assurant ainsi la sécurité et l'intégrité du réseau.
+reviewed: true

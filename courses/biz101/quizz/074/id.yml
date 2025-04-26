@@ -1,0 +1,9 @@
+question: Fitur keamanan tingkat lanjut apa yang biasanya diterapkan di tingkat Perusahaan untuk bitcoin?
+answer: Tanda tangan banyak dengan pengunci waktu
+wrong_answers:
+  - Perlindungan kata sandi untuk dompet Lightning seluler
+  - Tanda tangan tunggal dengan perlindungan frasa sandi BIP39
+  - Tanda tangan tunggal dengan frasa benih 24 kata
+explanation: |
+  Langkah-langkah keamanan tinggi seperti konfigurasi multi-tanda tangan dengan penguncian waktu sangat penting untuk mengelola uang dalam jumlah besar.
+reviewed: false

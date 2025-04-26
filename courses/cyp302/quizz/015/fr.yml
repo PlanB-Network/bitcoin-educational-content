@@ -1,0 +1,9 @@
+question: Quelle est la définition d'une variable aléatoire dans le contexte de la cryptographie ?
+answer: Une variable qui peut prendre plusieurs valeurs possibles avec une probabilité positive
+wrong_answers:
+  - Une variable qui change de valeur à chaque instant
+  - Une variable dont les valeurs sont fixes et prédéfinies
+  - Une variable toujours définie dans le contexte d'une expérience physique spécifique
+explanation: |
+  Une variable aléatoire peut prendre deux ou plusieurs valeurs, chacune ayant une probabilité positive, et elle est souvent définie de manière abstraite dans le contexte de la cryptographie.
+reviewed: false

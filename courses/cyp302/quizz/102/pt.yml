@@ -1,0 +1,9 @@
+question: Qual é a ordem correta das operações na criptografia autenticada?
+answer: Primeiro criptografar, depois criar uma tag no texto criptografado
+wrong_answers:
+  - Primeiro criar uma tag, depois criptografar a mensagem e a tag
+  - Combinar o texto original com uma tag, depois criptografar
+  - Criar uma tag, depois usar uma chave pública para criptografá-la
+explanation: |
+  Para garantir a segurança, a criptografia autenticada deve primeiro criptografar a mensagem, depois gerar uma tag no texto criptografado. Outras ordens são potencialmente vulneráveis.
+reviewed: false

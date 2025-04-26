@@ -1,9 +1,8 @@
-question: Quantas rodadas o PBKDF2 realiza usando o HMAC SHA512?
-answer: 2048 rodadas
+question: Qual é a principal característica da multiplicação escalar em curvas elípticas?
+answer: Função unidirecional
 wrong_answers:
-  - 1024 rodadas
-  - 512 rodadas
-  - 4096 rodadas
+  - Facilmente reversível
+  - Baseada na fatoração de números primos
+  - Muito longa para calcular
 explanation: |
-  O PBKDF2 é usado para converter uma frase mnemônica em uma semente. Este algoritmo realiza 2048 rodadas usando o HMAC SHA512.
-reviewed: false
+  A multiplicação escalar em curvas elípticas é uma função unidirecional, tornando impossível recuperar a chave privada a partir da chave pública.

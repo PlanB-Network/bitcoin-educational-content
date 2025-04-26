@@ -1,0 +1,9 @@
+question: Que se passe-t-il si un attaquant intercepte un message chiffré dans un bon schéma de chiffrement symétrique ?
+answer: Il ne doit rien apprendre de significatif sur le message original
+wrong_answers:
+  - Il peut toujours déchiffrer le message sans la clé
+  - Il doit être capable de le déchiffrer avec une clé publique
+  - Il doit pouvoir deviner le contenu du message
+explanation: |
+  Dans un schéma de chiffrement symétrique bien conçu, un attaquant interceptant un message chiffré ne doit pas pouvoir en déduire des informations pertinentes sur le contenu du message sans la clé de déchiffrement.
+reviewed: false

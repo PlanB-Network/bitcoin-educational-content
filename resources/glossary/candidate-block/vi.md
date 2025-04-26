@@ -1,0 +1,5 @@
+---
+term: CANDIDATE BLOCK
+
+---
+A candidate block is a block that is in the process of being created by a miner participating in the Bitcoin system's mining process. The candidate block is a temporary data structure that contains transactions waiting to be confirmed but does not yet have a valid proof-of-work to be added to the blockchain. The miner selects transactions to include in the candidate block based on various factors, such as the associated transaction fees and block size constraints. Once the transactions are selected, the miner generates the block header, which includes the version, a digest of the transactions (Merkle root), a timestamp, the hash of the previous block, the difficulty target, and a nonce. The miner then attempts to find a hash of its header that meets the current difficulty target. To do this, the miner modifies the nonce present in the header. The miner may also modify other information present in their candidate block. This is the proof-of-work mechanism. If the miner succeeds in finding a valid hash, the candidate block becomes a valid block and is broadcast to the network to be added to the blockchain.

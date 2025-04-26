@@ -5,6 +5,6 @@ wrong_answers:
   - Norton
   - McAfee
 explanation: |
-  Windows Defender je vestavěný antivirový program ve Windows. Jedná se o bezpečné a
-  účinné řešení pro ochranu systému před hrozbami.
-reviewed: false
+  Windows Defender je vestavěný antivirový program ve Windows. Jedná se
+  o bezpečné a efektivní řešení pro ochranu systému před hrozbami.
+reviewed: true

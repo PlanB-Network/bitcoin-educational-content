@@ -1,9 +1,9 @@
-question: Quel est le rôle d'une clé privée dans une transaction Bitcoin ?
-answer: Elle est utilisée pour signer la transaction et déverrouiller les bitcoins de l'adresse.
+question: Dans une transaction Bitcoin, que fait le script de verrouillage ?
+answer: Il impose des conditions spécifiques pour dépenser les fonds associés
 wrong_answers:
-  - Elle est utilisée pour générer la clé publique.
-  - Elle est utilisée pour créer une adresse Bitcoin.
-  - Elle est utilisée pour chiffrer les données de la transaction.
+  - Il envoie automatiquement les fonds à plusieurs adresses
+  - Il détermine la valeur de l'UTXO à créer
+  - Il bloque temporairement les fonds pour éviter les dépenses excessives
 explanation: |
-  Dans une transaction Bitcoin, l'expéditeur utilise sa clé privée pour signer la transaction, ce qui déverrouille efficacement les bitcoins de l'adresse dans laquelle ils sont stockés. Il s'agit d'une partie cruciale du processus de transaction, car cela garantit que seul le propriétaire des bitcoins peut les dépenser.
+  Le script de verrouillage impose les conditions, telles qu'une signature avec une clé privée, pour déverrouiller et utiliser les fonds dans une transaction.
 reviewed: false

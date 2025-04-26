@@ -1,11 +1,9 @@
-question: Jaký je účel transakce vybírání prostředků v převodu přes Lightning Network?
-answer: Reprezentuje stav kanálu, zaručuje, kdo vlastní prostředky po každém převodu.
+question: Proč si Alice a Bob vyměňují svá tajemství za předchozí transakce závazků?
+answer: Aby se každý z nich mohl ochránit, pokud druhý zveřejní starou transakci
 wrong_answers:
-  - Je to transakce, která přesouvá prostředky z jedné strany na druhou.
-  - Je to transakce, která otevírá kanál.
-  - Je to transakce, která uzavírá kanál.
+  - Aby zvýšili kapacitu kanálu
+  - Aby zablokovali přístup druhého k finančním prostředkům
+  - Aby rozdělili finanční prostředky rovným dílem
 explanation: |
-  Transakce vybírání prostředků je aktualizována po každém převodu přes Lightning Network
-  tak, aby odrážela aktuální stav kanálu. Zaručuje, kdo vlastní prostředky po
-  každém převodu, ale není provedena, pokud není kanál uzavřen.
+  Výměna tajemství za předchozí transakce umožňuje každému účastníkovi potrestat druhého v případě pokusu o podvod zveřejněním staré transakce.
 reviewed: false

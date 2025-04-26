@@ -1,9 +1,9 @@
-question: Qu'est-ce qu'une adresse multi-signature dans le contexte du Lightning Network ?
-answer: Une adresse qui nécessite deux signatures pour débloquer les fonds.
+question: Pourquoi Alice crée-t-elle une transaction de retrait avant de publier la transaction de dépôt ?
+answer: Pour récupérer ses fonds en cas de problème avec Bob
 wrong_answers:
-  - Une adresse qui peut être utilisée par plusieurs utilisateurs.
-  - Une adresse qui peut contenir plusieurs types de cryptomonnaies.
-  - Une adresse qui peut être accessible depuis plusieurs appareils.
+  - Pour augmenter la capacité du canal à chaque transaction
+  - Pour effectuer une transaction Lightning immédiatement après l'ouverture
+  - Pour permettre à Bob de dépenser les fonds directement
 explanation: |
-  Dans le Lightning Network, des adresses multi-signatures sont utilisées. Ces adresses nécessitent deux signatures, ou deux clés privées, pour débloquer les fonds. Cela signifie que deux parties doivent être d'accord pour débloquer l'argent.
+  Alice crée une transaction de retrait afin de récupérer ses fonds si un problème survient avec Bob, garantissant ainsi la sécurité de son dépôt.
 reviewed: false

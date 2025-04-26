@@ -1,0 +1,5 @@
+---
+term: (ARITMETICKÝ)
+
+---
+Základna je systém číslování, který používá pevný počet znaků pro vyjádření všech možných čísel. Základna určuje počet různých symbolů, které jsou v tomto systému k dispozici pro reprezentaci číslic. Například nejznámějším systémem v našem každodenním životě je základ 10, nazývaný také desítková soustava. K reprezentaci všech čísel používá deset různých symbolů `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)`. Mezi další číselné soustavy běžně používané v oblasti výpočetní techniky a matematiky patří dvojková soustava (základ 2) se dvěma symboly `(0, 1)` a šestnáctková soustava (základ 16) se šestnácti symboly `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)`. V kontextu Bitcoinu se někdy můžete setkat s kódováním v základu 58 nebo v modifikovaném základu 32 (pojmenovaném `Bech32`).

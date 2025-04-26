@@ -1,0 +1,9 @@
+question: Kako vremenska brava štiti od varanja u Commitment transakcijama?
+answer: Sprečava stranu koja je prekršila pravila da odmah povrati svoja sredstva
+wrong_answers:
+  - Automatski vraća sredstva prevarantu
+  - Otkazuje transakciju u slučaju pokušaja prevare.
+  - Blokira upotrebu ključa za opoziv
+explanation: |
+  Tajmlok nameće kašnjenje tokom kojeg prevarant ne može povući svoja sredstva, čime se drugoj strani daje prilika da odgovori.
+reviewed: false

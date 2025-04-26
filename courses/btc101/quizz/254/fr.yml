@@ -1,9 +1,11 @@
-question: Quelle est l'une des principales façons d'obtenir des Bitcoins ?
-answer: En les acceptant en échange ou en les achetant via des plateformes réglementées ou non réglementées.
+question: Quel est un moyen pratique d'obtenir des Bitcoins ?
+answer: Les acheter via des plateformes régulées ou non régulées.
 wrong_answers:
-  - En les minant à l'aide d'un ordinateur.
-  - En les trouvant dans le monde physique.
-  - En les créant à l'aide d'un logiciel spécial.
+  - Les miner avec un ordinateur portable.
+  - Les trouver dans le monde physique.
+  - Les créer en utilisant un logiciel spécial.
 explanation: |
-  Le texte mentionne que les utilisateurs peuvent obtenir des Bitcoins en les acceptant en échange ou en les achetant via des plateformes réglementées ou non réglementées.
-reviewed: false
+  Le texte mentionne que les utilisateurs peuvent obtenir des Bitcoins en
+  les acceptant en échange ou en les achetant via des plateformes
+  régulées ou non régulées.
+reviewed: true

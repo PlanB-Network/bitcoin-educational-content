@@ -1,0 +1,9 @@
+question: Millised on krüptoökosüsteemi Ponzi skeemi tüüpilised tunnused?
+answer: Garanteeritud tulu, keerulised väljavõtmised ja soovitused
+wrong_answers:
+  - Madal tootlus, keerulised väljavõtmised ja täielik läbipaistvus
+  - Garanteeritud tulu, keerulised väljavõtmised ja viitamissüsteemi puudumine
+  - Garanteeritud tulu, lihtne väljavõtmine ja viitamissüsteemi puudumine
+explanation: |
+  Need omadused võivad viidata püramiidskeemile. Kui märkate neid mõnes projektis, olge väga ettevaatlik.
+reviewed: false

@@ -1,9 +1,0 @@
-question: É possível reverter de um endereço Bitcoin para a chave pública, ou da chave pública para a chave privada?
-answer: Não
-wrong_answers:
-  - Sim
-  - Apenas da chave pública para a chave privada
-  - Apenas do endereço para a chave pública
-explanation: |
-  No Bitcoin, não é possível reverter de um endereço para a chave pública, nem da chave pública para a chave privada. Isso é um aspecto fundamental da segurança criptográfica do Bitcoin.
-reviewed: false

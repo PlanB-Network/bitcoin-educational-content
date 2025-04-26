@@ -8,4 +8,4 @@ explanation: >-
   Miners use their computational power to solve complex mathematical problems,
   which allows them to add new transactions to the blockchain. This process secures
   the network and maintains its integrity.
-reviewed: false
+reviewed: true

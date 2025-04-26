@@ -1,0 +1,9 @@
+question: Jaké prvky jsou potřeba k vytvoření kanálu Lightning nesoucího prostředky RGB?
+answer: Financování v bitcoinech a financování v aktivech RGB
+wrong_answers:
+  - Pro začátek financování pouze pomocí bitcoinů
+  - Financování pouze v režimu RGB pro začátek
+  - Nevyžaduje se žádné financování
+explanation: |
+  Kanál vyžaduje jak financování bitcoinů na 2/2 multisig, tak financování aktiv RGB pro přidělení aktiv na stejném kanálu.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 在Mt. Gox于7月份出现之前，哪个于2010年3月创建的交易服务是最受欢迎的？
+answer: Bitcoin Market
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation:
+  这是一个由一个名为dwdollar的个体于2010年3月16日启动的使用PayPal的点对点市场，是Mt. Gox之前的主要平台。

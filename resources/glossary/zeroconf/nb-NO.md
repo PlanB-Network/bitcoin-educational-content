@@ -1,0 +1,5 @@
+---
+term: ZEROCONF
+
+---
+En risikabel praksis der en Bitcoin-transaksjon behandles som endelig, og fortsetter med utførelsen av den tilknyttede handlingen i retur (for eksempel salg av en vare eller tjeneste), før transaksjonen faktisk er inkludert i en blokk på blokkjeden. Ubekreftede transaksjoner, eller zeroconf, er sårbare for angrep med dobbeltbruk, ettersom de ennå ikke er ugjenkallelig registrert i hovedboken. Zeroconf kan vurderes i svært spesifikke sammenhenger, der hastighet er en prioritet, for eksempel ved små kommersielle transaksjoner eller ved en transaksjon mellom bekjente. I slike situasjoner anses ofte risikoen for dobbeltbruk som akseptabel i forhold til fordelen med en rask transaksjon. Ved større transaksjoner, spesielt når avsenderen er ukjent, er det imidlertid viktig å vente på flere bekreftelser før man anser transaksjonen som uforanderlig. Den allment aksepterte standarden er å vente på seks bekreftelser, noe som betyr at ytterligere fem blokker må utvinnes etter den som inkluderer transaksjonen, for at den skal anses som endelig.

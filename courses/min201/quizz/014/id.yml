@@ -1,0 +1,11 @@
+question: Apa risiko potensial dari sentralisasi penambangan dalam Bitcoin?
+answer: Sentralisasi penambangan dalam Bitcoin berpotensi menyebabkan sensor transaksi dan membuat jaringan rentan terhadap serangan, termasuk serangan 51%, di mana seorang aktor atau kelompok mengontrol lebih dari 50% kekuatan hashing jaringan, memungkinkan mereka untuk mengontrol dan memanipulasi jaringan.
+wrong_answers:
+  - Sentralisasi penambangan dalam Bitcoin berpotensi menyebabkan penurunan nilai Bitcoin dan membuat jaringan rentan terhadap inflasi.
+  - Sentralisasi penambangan dalam Bitcoin berpotensi menyebabkan penurunan dalam hadiah blok dan membuat jaringan rentan terhadap stagnasi.
+  - Sentralisasi penambangan dalam Bitcoin berpotensi menyebabkan penurunan kecepatan transaksi dan membuat jaringan rentan terhadap kemacetan.
+explanation: |
+  Bab ini menjelaskan bahwa sentralisasi penambangan dalam Bitcoin
+  berpotensi menyebabkan sensor transaksi dan membuat jaringan
+  rentan terhadap serangan, termasuk serangan 51%.
+reviewed: true

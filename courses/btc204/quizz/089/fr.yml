@@ -1,13 +1,13 @@
-question: Comment les "makers" sont-ils rémunérés dans JoinMarket ?
+question: Comment les makers sont-ils rémunérés dans JoinMarket ?
 
-answer: Par des frais payés par les "takers".
+answer: Par des frais payés par les takers.
 
 wrong_answers:
   - Par des frais de minage.
-  - Par des dons libres de la part des "takers".
+  - Par des dons libres de la part des takers.
   - Par des subventions de la communauté Bitcoin.
 
 explanation: |
-  Les "makers" laissent leurs bitcoins à disposition des "takers" et reçoivent des frais en contrepartie de leur service. Les "takers", quant à eux, paient pour utiliser les bitcoins des "makers" afin de réaliser leurs propres transactions coinjoin.
+  Les makers laissent leurs bitcoins à disposition des takers et reçoivent des frais en contrepartie de leur service. Les takers, quant à eux, paient pour utiliser les bitcoins des makers afin de réaliser leurs propres transactions coinjoin.
 
 reviewed: false

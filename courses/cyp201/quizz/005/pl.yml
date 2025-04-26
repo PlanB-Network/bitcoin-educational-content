@@ -1,0 +1,9 @@
+question: Dlaczego SHA256 zapewnia nieodwracalność?
+answer: Używane operacje usuwają informacje i są jednokierunkowe
+wrong_answers:
+  - Wiadomości są szyfrowane przed haszowaniem
+  - Bity są przestawiane losowo
+  - Każdy Hash jest przechowywany w bazie danych
+explanation: |
+  Operacje takie jak ShR i XOR uniemożliwiają powrót do stanu początkowego, zapewniając nieodwracalność.
+reviewed: false

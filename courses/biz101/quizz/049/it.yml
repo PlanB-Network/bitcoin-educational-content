@@ -1,0 +1,9 @@
+question: Quale vantaggio ha la cartamoneta rispetto alle monete nei sistemi di pagamento tradizionali?
+answer: Maggiore portabilità ed efficienza
+wrong_answers:
+  - Aumento del valore intrinseco attraverso i metalli preziosi
+  - Verifica automatica di ogni transazione
+  - Eliminazione completa dei rischi di contraffazione
+explanation: |
+  La cartamoneta, essendo leggera e più facile da trasportare rispetto alle monete, permetteva un commercio più efficiente sulle lunghe distanze e riduceva le sfide logistiche.
+reviewed: false

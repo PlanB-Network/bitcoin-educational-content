@@ -1,0 +1,9 @@
+question: Quel est l'avantage de commencer modestement lorsque l'on accepte pour la première fois des paiements en bitcoins ?
+answer: Elle permet à l'entreprise de tirer des enseignements de quelques transactions initiales et de passer progressivement à des solutions plus sophistiquées si la demande des clients augmente.
+wrong_answers:
+  - Elle oblige l'entreprise à n'utiliser immédiatement que des solutions d'autodétention.
+  - Elle empêche l'entreprise de mettre à niveau ou de changer de fournisseur ultérieurement.
+  - Elle exige qu'une entreprise accepte les bitcoins de chaque client avant de comprendre le processus.
+explanation: |
+  En commençant par une approche simple, l'entreprise peut acquérir une expérience pratique sans prendre de risques importants. Si l'intérêt pour les paiements en bitcoins s'avère payant, l'entreprise peut alors améliorer son infrastructure et intégrer des outils plus avancés.
+reviewed: false

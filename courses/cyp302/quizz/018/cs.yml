@@ -1,0 +1,9 @@
+question: Kdy můžeme říci, že jsou dvě události nezávislé?
+answer: Pravděpodobnost jedné neovlivňuje pravděpodobnost druhé
+wrong_answers:
+  - Tyto dvě události vždy nastanou současně
+  - Jsou navzájem vyloučitelné
+  - Jejich kombinovaná pravděpodobnost je rovna nejvyšší pravděpodobnosti z obou
+explanation: |
+  Dvě události jsou nezávislé, pokud pravděpodobnost jedné nezmění pravděpodobnost druhé, jako například losování loterie nemá vliv na počasí následujícího dne.
+reviewed: false

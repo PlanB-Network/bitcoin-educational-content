@@ -1,0 +1,11 @@
+question: Bagaimana transaksi payjoin dapat dianggap sebagai transaksi steganografi?
+
+answer: Ini menyembunyikan jumlah pembayaran sebenarnya dari pengamat eksternal.
+
+wrong_answers:
+  - Ini mengenkripsi jumlah pembayaran sebenarnya untuk pengamat eksternal.
+  - Ini menyembunyikan jumlah pembayaran sebenarnya dari penerima.
+  - Ini mengenkripsi jumlah pembayaran sebenarnya untuk penerima.
+
+explanation: |
+  Transaksi payjoin masuk dalam domain steganografi karena menyembunyikan jumlah sebenarnya dari sebuah transaksi dalam transaksi palsu yang bertindak sebagai umpan pengalih untuk pengamat eksternal.

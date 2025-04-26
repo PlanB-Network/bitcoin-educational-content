@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal problema de gestión de claves?
+answer: La complejidad de asegurar y almacenar un par de claves para cada cliente
+wrong_answers:
+  - La imposibilidad de renovar las claves perdidas por los clientes
+  - La necesidad de desencriptar cada clave antes de su uso por el cliente
+  - La necesidad de transmitir claves para cada comunicación
+explanation: |
+  El problema de gestión de claves radica en la dificultad de almacenar y asegurar un par de claves para cada usuario, especialmente cuando el número de clientes alcanza los millones.
+reviewed: false

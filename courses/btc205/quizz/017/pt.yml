@@ -1,9 +1,0 @@
-question: Qual é uma característica única da solução P2P da HodlHodl?
-answer: Ela oferece um sistema de indicação.
-wrong_answers:
-  - Ela opera sob a rede TOR.
-  - Ela utiliza multisign para gerenciamento de disputas.
-  - Ela requer a criação de uma conta para operar.
-explanation: |
-  O capítulo menciona que a HodlHodl oferece um sistema de indicação, o que é uma característica única entre as soluções P2P discutidas.
-reviewed: false

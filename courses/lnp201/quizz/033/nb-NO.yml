@@ -1,0 +1,8 @@
+question: Hva innebærer løkruting i Lightning-nettverket?
+answer: Det betyr at hver mellomliggende node bare kjenner sine umiddelbare naboer på stien.
+wrong_answers:
+  - Å overføre midler direkte fra node til node med kjennskap til den endelige mottakeren
+  - Å beregne gebyrer for hver mellomliggende node uavhengig
+  - Å sende midler til alle nodene på stien samtidig
+explanation: |
+  Løkruting betyr at hver mellomliggende node bare kjenner den forrige og den neste noden, og dermed bevares konfidensialiteten til den endelige mottakeren.

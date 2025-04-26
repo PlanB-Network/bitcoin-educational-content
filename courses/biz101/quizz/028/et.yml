@@ -1,0 +1,9 @@
+question: Miks võib ettevõte valida Bitcoini maksete vastuvõtmise klientidelt?
+answer: Kasutada kasvavat kasutajaskonda, vähendada potentsiaalselt tehingutasusid ja hoida väärtuslikku vara oma riigikassas.
+wrong_answers:
+  - Tagada, et kõik kliendid maksavad rohkem kui loetletud hind.
+  - Tagada, et mingeid makse või regulatiivseid nõudeid ei kohaldata.
+  - Teha kassaprotsessi aeglasemaks ja keerulisemaks.
+explanation: |
+  Bitcoini vastuvõtmine võib meelitada ligi uusi ostjaid, vähendada maksetöötlustasusid ja luua väärtuse säilitaja. Samuti võib see suurendada ülemaailmset levikut, kuna Bitcoin ei tunne piire ja toimib ööpäevaringselt.
+reviewed: false

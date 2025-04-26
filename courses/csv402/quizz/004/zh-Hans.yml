@@ -1,0 +1,9 @@
+question: 与传统区块链相比，RGB 如何提高可扩展性？
+answer: 将存储和验证仅限于相关的状态转换
+wrong_answers:
+  - 通过无形中增加比特币区块的大小
+  - 将每份合同直接与所有UTXO联系起来
+  - 将合同数据集中到几个中央服务器上
+explanation: |
+  RGB 只保留与每位参与者相关的数据，从而降低了存储和验证要求。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken andre Layer-protokoll muliggjør nesten umiddelbare betalinger?
+answer: Lightning Network
+wrong_answers:
+  - Sidekjeder
+  - RGB
+  - Bitcoin Kjerne
+explanation: |
+  Lightning Network muliggjør raske og rimelige transaksjoner gjennom off-chain-operasjoner utenfor Bitcoin Blockchain.
+reviewed: false

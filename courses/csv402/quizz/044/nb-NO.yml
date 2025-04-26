@@ -1,0 +1,9 @@
+question: Hvordan sikres sikkerheten til en RGB-overgang i en Lightning-kanal hvis en foreldet tilstand sendes ut?
+answer: Gjennom straffemekanismene i Lightning Channel
+wrong_answers:
+  - Ved automatisk å kansellere alle tidligere transaksjoner
+  - Gjennom straffemekanikken i RGB-protokollen
+  - Gjennom RGB-utstederens inngripen via signaturen som er knyttet til Genesis
+explanation: |
+  Lynnettverkets klassiske straffemekanisme sørger for at spredning av en gammel tilstand kan straffes ved at alle involverte midler, inkludert RGB-aktiva, inndras.
+reviewed: false

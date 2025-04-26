@@ -1,0 +1,9 @@
+question: Solusi penyimpanan apa yang direkomendasikan untuk hodler?
+answer: A Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - Layanan kustodian
+  - Sebuah kertas Wallet
+explanation: |
+  Seorang hodler, yang menyimpan bitcoin untuk jangka panjang, harus menggunakan Hardware Wallet untuk memaksimalkan keamanan.
+reviewed: false

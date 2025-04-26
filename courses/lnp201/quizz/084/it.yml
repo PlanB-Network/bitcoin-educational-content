@@ -1,9 +1,0 @@
-question: Qual è lo scopo di uno scambio atomico tra LN e BTC nella Lightning Network?
-answer: Per riequilibrare la liquidità
-wrong_answers:
-  - Per aprire canali
-  - Per connettersi ad altri nodi
-  - Per acquistare canali
-explanation: |
-  Uno scambio atomico tra LN e BTC nella Lightning Network viene utilizzato per riequilibrare la liquidità. Ciò viene fatto inviando liquidità a un Loop tramite un altro nodo, che quindi invia il saldo on-chain di nuovo al nodo originale.
-reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on BTC preemia pärast neljandat poolitamist?
+answer: 3.125 BTC
+wrong_answers:
+  - 1.5625 BTC
+  - 6.25 BTC
+  - 12.5 BTC
+explanation: >-
+  Pärast neljandat poolitamist, mis toimub ploki kõrgusel 840,000, on BTC preemia kaevandamise eest 3.125 BTC.
+reviewed: true

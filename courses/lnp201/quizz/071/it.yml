@@ -1,9 +1,0 @@
-question: Qual è lo scopo del fattore di casualità nel processo di instradamento della rete Lightning?
-answer: Per evitare di utilizzare sempre le stesse rotte.
-wrong_answers:
-  - Per aumentare la complessità della rete.
-  - Per diminuire la velocità delle transazioni.
-  - Per compromettere la privacy dell'utente.
-explanation: |
-  Il fattore di casualità nel processo di instradamento della rete Lightning viene utilizzato per evitare di utilizzare sempre le stesse rotte. Ciò aiuta a distribuire il carico sulla rete e aumenta le possibilità di trovare una rotta di successo per una transazione.
-reviewed: false

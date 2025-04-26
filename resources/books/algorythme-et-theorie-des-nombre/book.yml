@@ -1,80 +1,86 @@
-author: "Pierre Audibert"
+id: 76b21613-8f14-4427-bc31-dcb5fcbaca77
+author: Pierre Audibert
 level: advanced
-tags:
-  - programmation
-  - mathematics
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3154
+    contributor_names:
+    reward: 0.48
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2827
+    contributor_names:
+    reward: 0.39
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1413
+    reward: 0.19
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2990
+    contributor_names:
+    reward: 0.39
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3154
+    contributor_names:
+    reward: 0.48
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2827
+    contributor_names:
+    reward: 0.39
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2990
+    contributor_names:
+    reward: 0.39
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3481
+    contributor_names:
+    reward: 0.67
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2827
+    contributor_names:
+    reward: 0.39
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3154
+    contributor_names:
+    reward: 0.48
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3481
+    contributor_names:
+    reward: 0.67
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3317
+    contributor_names:
+    reward: 0.58
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3317
+    contributor_names:
+    reward: 0.58
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3154
+    contributor_names:
+    reward: 0.48
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.48
+tags:
+  - deep-dive
+  - technical-analysis
+contributor_names:
+  - Rogzy-DB

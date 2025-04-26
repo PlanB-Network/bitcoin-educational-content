@@ -1,9 +1,0 @@
-question: Qual é o propósito da Profundidade 3 na estrutura da Carteira HD?
-answer: Ela é usada para organizar a carteira em diferentes contas.
-wrong_answers:
-  - É usada para derivar chaves filhas para um propósito específico.
-  - Permite a diferenciação de contas para diferentes criptomoedas ou redes.
-  - Corresponde às cadeias externas e internas.
-explanation: |
-  Na estrutura da Carteira HD, a Profundidade 3 é usada para organizar a carteira em diferentes contas, proporcionando uma estrutura mais clara e organizada.
-reviewed: false

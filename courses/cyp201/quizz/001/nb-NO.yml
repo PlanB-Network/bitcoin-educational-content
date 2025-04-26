@@ -1,0 +1,9 @@
+question: Hvilken egenskap sikrer at det er beregningsmessig umulig å hente inputen til en hash?
+answer: Preimage resistance
+wrong_answers:
+  - Collision resistance
+  - Avalanche effect
+  - Second preimage resistance
+explanation: |
+  Preimage resistance sikrer at det er praktisk umulig å finne den opprinnelige meldingen fra dens hash.
+reviewed: false

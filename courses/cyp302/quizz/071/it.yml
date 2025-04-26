@@ -1,0 +1,8 @@
+question: Come funziona la decrittazione nel cifrario a traslazione?
+answer: Sottraendo la chiave da ogni lettera criptata e applicando il modulo 26
+wrong_answers:
+  - Sottraendo la chiave da ogni lettera criptata e applicando il modulo 20
+  - Moltiplicando la chiave per ogni lettera criptata
+  - Dividendo la chiave per ogni lettera criptata e applicando il modulo 27
+explanation: |
+  Nel cifrario a traslazione, la decrittazione viene eseguita sottraendo la chiave da ogni lettera criptata, poi applicando il modulo 26 per ritornare al testo originale. Il modulo 26 permette di tornare all'inizio dell'alfabeto dopo la lettera Z.

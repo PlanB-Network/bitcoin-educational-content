@@ -1,0 +1,9 @@
+question: O que posso fazer com uma fatura numa transferência RGB?
+answer: Indicar o tipo de operação, a quantidade de activos necessários e a definição do selo do destinatário
+wrong_answers:
+  - Criar um novo Génesis para o ativo
+  - Gerar um novo esquema para modificar a lógica comercial do ativo
+  - Construir um PSBT para substituir a transação Bitcoin
+explanation: |
+  A fatura é utilizada para informar o emitente da transação do tipo de operação, da quantidade de activos a transferir e do destino (definição de selo).
+reviewed: false

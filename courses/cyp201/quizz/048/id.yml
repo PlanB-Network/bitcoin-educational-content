@@ -1,0 +1,8 @@
+question: Mengapa frasa mnemonik 24 kata sering dianggap berlebihan untuk dompet Bitcoin?
+answer: Kunci yang dihasilkan hanya menawarkan 128 bit keamanan
+wrong_answers:
+  - Perangkat lunak tidak mendukung frasa 24 kata
+  - Ini tidak memungkinkan untuk derivasi kunci publik
+  - Frasa yang lebih pendek tidak distandarisasi
+explanation: |
+  Meskipun frasa 24 kata menawarkan 256 bit keamanan, kunci privat Bitcoin yang dihasilkan hanya menjamin 128 bit keamanan, membuat kelebihan tersebut tidak perlu.

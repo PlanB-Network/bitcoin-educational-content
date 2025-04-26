@@ -1,64 +1,18 @@
-id: 1a85883d-4433-43ae-b0fa-ce62f81183c3
+id: a47b134c-075c-49a9-9feb-ae71e3526492
 chapterId: 8af2948b-2ab5-54c4-862c-3414b8a285a2
-difficulty: intermediate
+difficulty: easy
 duration: 30
-author: DecouvreBitcoin
+author: pretty-private
 tags:
-  - Bitcoin
-  - Cryptocurrency
-  - Influencers
+  - good-practice
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2650
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2575
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1287
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2612
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2650
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-03-21
     urgency: 1
-    contributors_id:
-    reward: 2575
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2612
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2725
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2575
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2725
+    contributor_names:
+      - LoicPandul
+    reward: 0

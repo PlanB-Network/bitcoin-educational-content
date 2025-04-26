@@ -5,5 +5,8 @@ wrong_answers:
   - Los nodos solo verifican transacciones.
   - Los nodos no tienen ningún papel en la red de Bitcoin.
 explanation: |
-  En la red de Bitcoin, los nodos mantienen la integridad de la red al verificar y validar transacciones y bloques. Un bloque incorrecto o fraudulento será rechazado por los nodos, preservando la seguridad de la red.
-reviewed: false
+  En la red de Bitcoin, los nodos mantienen la integridad de la
+  red verificando y validando transacciones y
+  bloques. Un bloque incorrecto o fraudulento será rechazado
+  por los nodos, preservando la seguridad de la red.
+reviewed: true

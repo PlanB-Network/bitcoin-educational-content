@@ -1,8 +1,12 @@
-question: Mikä on yksi mahdollisista seurauksista Lightning Networkin käyttäjille?
-answer: He maksaisivat vain kuluttamastaan sisällöstä
+question: Mikä on DCA-alusta?
+answer: Palvelu, joka mahdollistaa käyttäjien sijoittaa kiinteän summan rahaa omaisuuserään säännöllisin väliajoin.
 wrong_answers:
-  - He joutuisivat maksamaan enemmän sisällöstä
-  - Heidän täytyisi maksaa kuukausittainen tilausmaksu
-  - Heidän täytyisi maksaa sisällöstä etukäteen
-explanation: >-
-  Lightning Networkin avulla käyttäjät maksaisivat vain kuluttamastaan sisällöstä, mikä poistaisi etukäteen maksettavat tilausmaksut.
+  - Kryptovaluuttapörssi, joka sallii vain Bitcoinin kaupankäynnin.
+  - Rahoituspalvelu, joka tarjoaa lainoja sijoittajille marginaalikaupankäyntiin.
+  - Ohjelmistotyökalu, joka seuraa osakekursseja reaaliajassa ilman sijoitusominaisuuksia.
+explanation: |
+  DCA-alusta viittaa alustaan, joka helpottaa
+  Dollar-Cost Averaging (DCA) -sijoitusstrategian toteuttamista, missä
+  yksilö sijoittaa kiinteän summan rahaa tiettyyn omaisuuserään
+  säännöllisin väliajoin, riippumatta omaisuuserän hinnasta.
+reviewed: true

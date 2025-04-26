@@ -1,0 +1,11 @@
+question: Milline on kaevandamise keelustamise potentsiaalne mõju piirkonnas?
+answer: See võib viia olulise languseni Bitcoin'i hashrate'is ja hinnas
+wrong_answers:
+  - See võib viia Bitcoin'i hinna tõusuni
+  - See võib viia võrgu hashrate'i tõusuni
+  - See võib viia võrgu aktiivsete sõlmede arvu suurenemiseni
+explanation: |
+  Kaevandamise keelustamine piirkonnas, nagu juhtus Hiinas,
+  võib viia olulise languseni Bitcoin'i hashrate'is ja hinnas.
+  Siiski võivad need kiiresti taastuda.
+reviewed: true

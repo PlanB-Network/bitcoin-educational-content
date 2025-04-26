@@ -1,0 +1,9 @@
+question: Šta je Bitcoin koji prima Address?
+answer: Niz karaktera koji se koristi za primanje bitkoina.
+wrong_answers:
+  - Kod koji se koristi za slanje bitkoina.
+  - Algoritam za Mining bitkoine.
+  - A Smart contract.
+explanation: |
+  Prijemni Address se koristi za primanje bitkoina u Wallet.
+reviewed: false

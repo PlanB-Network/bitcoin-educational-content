@@ -1,0 +1,9 @@
+question: Hvilket prefiks brukes for å indikere en komprimert offentlig nøkkel med en odde y-koordinat?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  Prefikset 0x03 indikerer en komprimert offentlig nøkkel med en odde y-koordinat.
+reviewed: false

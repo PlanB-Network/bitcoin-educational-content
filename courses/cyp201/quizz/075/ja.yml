@@ -1,8 +1,9 @@
-question: Bitcoinウォレットでパスフレーズからシードを生成するために使用される関数は何ですか？
-answer: pbkdf2
+question: 標準ディスクリプターでのSegWit v0アカウントに使用される導出パスは何ですか？
+answer: 84h/0h/0h
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  pbkdf2関数は、Bitcoinウォレットでパスフレーズからシードを生成するために使用されます。このシードにより、ウォレットのすべての子キーペアの導出が可能になります。
+  パス84h/0h/0hは、P2WPKHを使用してSegWit v0アドレスを導出するアカウントに対して、BIP84で定義されています。
+reviewed: false

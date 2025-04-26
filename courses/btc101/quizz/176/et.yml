@@ -1,0 +1,9 @@
+question: Mis on Bitcoin protokolli ainulaadne omadus?
+answer: See toimib ülemaailmsel tasandil, 24 tundi päevas, 7 päeva nädalas.
+wrong_answers:
+  - See toimib ainult tööaegadel.
+  - Seda kontrollib keskne autoriteet.
+  - Seda on kerge häkkida.
+explanation: >-
+  Bitcoin protokolli ainulaadsus seisneb selles, et see toimib ülemaailmsel tasandil,
+  24 tundi päevas, 7 päeva nädalas, muutes finantsasutuste jaoks regulatsiooni keeruliseks.

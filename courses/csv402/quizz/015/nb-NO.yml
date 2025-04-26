@@ -1,0 +1,9 @@
+question: Hvilket historisk konsept er RGB anvendelig i den digitale verden?
+answer: Innehaverinstrumenter
+wrong_answers:
+  - Sentraliserte databaser
+  - Peer-to-peer-nettverk uten validering
+  - Åpne registre som er tilgjengelige for alle
+explanation: |
+  RGB overfører ideen om bærende instrumenter til det digitale.
+reviewed: false

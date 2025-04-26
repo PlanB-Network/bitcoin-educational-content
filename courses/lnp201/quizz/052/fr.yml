@@ -1,9 +1,9 @@
-question: Qui décide de l'itinéraire avant d'envoyer le paiement dans le Lightning Network?
-answer: Le nœud de l'expéditeur.
+question: Quel service permet de déplacer de la liquidité vers le côté opposé d'un canal tout en récupérant les fonds on-chain ?
+answer: Loop Out
 wrong_answers:
-  - Le nœud du destinataire.
-  - Le nœud intermédiaire.
-  - Le réseau lui-même.
+  - Keysend
+  - LNURL
+  - CoinSwap
 explanation: |
-  Dans le Lightning Network, c'est le nœud de l'expéditeur qui décide de l'itinéraire avant d'envoyer le paiement. Par conséquent, il y a une recherche de la meilleure route et l'expéditeur est le seul à connaître l'itinéraire et le prix.
+  Le service Loop Out de Lightning Labs permet de transférer des fonds depuis un canal Lightning vers la blockchain on-chain, optimisant ainsi la capacité de réception tout en récupérant des bitcoins sur la chaîne principale.
 reviewed: false

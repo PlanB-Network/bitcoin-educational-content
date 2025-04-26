@@ -1,11 +1,12 @@
-question: Por que é recomendado baixar software do site oficial do fabricante em vez de sites genéricos?
-answer: Para garantir que o software esteja livre de software malicioso.
+question: Por que é recomendado baixar softwares a partir do site oficial do publicador em vez de sites genéricos?
+answer: Para garantir que o software esteja livre de softwares maliciosos.
 wrong_answers:
-  - Para apoiar financeiramente o fabricante.
+  - Para apoiar financeiramente o publicador.
   - Porque o software geralmente é mais barato no site oficial.
   - Porque o software em sites genéricos geralmente está desatualizado.
 explanation: |
-  Baixar software do site oficial do fabricante garante
-  que você está obtendo a versão legítima do software, que está livre de
-  qualquer software malicioso que possa prejudicar seu dispositivo ou roubar seus dados.
-reviewed: false
+  Baixar softwares a partir do site oficial do
+  publicador garante que você esteja obtendo a versão legítima
+  do software, que está livre de qualquer software malicioso
+  que poderia danificar seu dispositivo ou roubar seus dados.
+reviewed: true

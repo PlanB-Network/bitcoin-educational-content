@@ -1,0 +1,9 @@
+question: Siapa kriptografer yang menciptakan sistem kriptografi RSA pada tahun 1978?
+answer: Ronald Rivest, Adi Shamir, dan Leonard Adleman
+wrong_answers:
+  - Whitfield Diffie, Martin Hellman, dan Ralph Merkle
+  - Marc Girault, Guillaume Poupard, dan Jacques Stern
+  - Alfred Menezes, Minghua Qu, dan Scott Vanstone
+explanation: |
+  Rivest, Shamir, dan Adleman menamai algoritma RSA menggunakan tiga inisial mereka.
+reviewed: false

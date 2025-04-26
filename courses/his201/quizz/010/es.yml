@@ -1,0 +1,8 @@
+question: ¿Quién fue la principal personalidad detrás de la creación de PayPal?
+answer: Peter Thiel
+wrong_answers:
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerberg
+explanation: |
+  El producto PayPal fue desarrollado en 1999 por Confinity Inc., cofundada en diciembre de 1998 en San Francisco por Peter Thiel y Max Levchin.

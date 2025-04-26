@@ -1,11 +1,11 @@
-question: Qu'est-ce que le concept de "money streaming" dans le contexte du Lightning Network?
-answer: Effectuer des micro-transactions chaque minute
+question: Quel est le concept de money streaming dans le contexte du Lightning Network ?
+answer: Effectuer des micropaiements continus, en temps réel.
 wrong_answers:
-  - Diffuser du contenu vidéo en streaming pour Bitcoin
-  - Diffuser du contenu audio en streaming pour Bitcoin
-  - Diffuser des transactions Bitcoin en temps réel
-explanation: |
+  - Convertir des Bitcoins en espèces dans un emplacement physique à l'aide d'un distributeur automatique.
+  - Diffuser du contenu audio ou vidéo pour des Bitcoins.
+  - Créer de nouveaux bitcoins par des opérations de minage qui se déroulent en temps réel.
+explanation: >-
   Avec le Lightning Network, nous pouvons effectuer des micro-transactions chaque minute,
-  ce qui ouvre la porte à des expérimentations de modèles économiques où les consommateurs paient
-  du contenu en fonction de ce qu'ils consomment.
-reviewed: false
+  ce qui ouvre la porte à l'expérimentation de modèles économiques où les consommateurs paient pour
+  le contenu en fonction de ce qu'ils consomment.
+reviewed: true

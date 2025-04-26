@@ -1,0 +1,9 @@
+question: Qual è la funzione principale della blockchain nel paradigma di validazione lato client utilizzato da RGB?
+answer: Fornisce la marcatura temporale e previene le doppie spese
+wrong_answers:
+  - Memorizzare tutte le transizioni di stato
+  - Replicare i dati del contratto smart
+  - Garantire la disponibilità dei dati a livello globale
+explanation: |
+  La blockchain di Bitcoin viene utilizzata in RGB per datare gli impegni e prevenire la doppia spesa, senza memorizzare tutte le transizioni di stato.
+reviewed: false

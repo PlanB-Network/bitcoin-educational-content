@@ -1,9 +1,12 @@
-question: Quelle est l'une des façons dont Bitcoin s'est intégré davantage dans le marché traditionnel ?
-answer: L'arrivée imminente des ETF Bitcoin.
+question: Quelle est une manière dont le Bitcoin s'est davantage intégré au marché traditionnel ?
+answer: L'arrivée des ETF Bitcoin.
 wrong_answers:
-  - L'interdiction de Bitcoin.
+  - L'interdiction du Bitcoin.
   - La disparition de toutes les cryptomonnaies.
-  - La création de Bitcoin.
+  - La création du Bitcoin.
 explanation: |
-  Bitcoin continue de survivre et de se développer en s'intégrant de plus en plus dans le marché traditionnel. L'arrivée imminente des ETF Bitcoin, une réglementation plus claire et de meilleurs outils d'acquisition ou de stockage ne font qu'encourager cette tendance.
-reviewed: false
+  Le Bitcoin continue de survivre et de se développer encore plus en
+  s'intégrant de plus en plus au marché traditionnel. L'arrivée des ETF Bitcoin, une réglementation plus claire,
+  et une meilleure acquisition d'outils de stockage ne font qu'encourager cette
+  tendance.
+reviewed: true

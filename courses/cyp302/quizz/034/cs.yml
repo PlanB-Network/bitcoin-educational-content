@@ -1,0 +1,9 @@
+question: Co je pseudonáhodný řetězec?
+answer: Řetězec, který se zdá pocházet z rovnoměrné proměnné, ale je vytvořen pomocí expanzního algoritmu
+wrong_answers:
+  - Řetězec generovaný s identickou pravděpodobností pro každý znak
+  - Řetězec s pevnou délkou z přirozené náhodné události
+  - Náhodný řetězec vybraný pouze z binárních hodnot 0 a 1
+explanation: |
+  Pseudonáhodný řetězec je vytvořen pomocí expanzního algoritmu z menšího základu (seed), způsobem, který napodobuje rovnoměrný výběr mezi všemi řetězci stejné délky.
+reviewed: false

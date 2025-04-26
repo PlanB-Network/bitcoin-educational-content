@@ -1,12 +1,14 @@
 question: What is the role of money as a communication tool?
-answer: It allows value communication across space and time and without the need to trust counter party
+answer: It allows value communication across space and time and without the need to trust a counterparty.
 wrong_answers:
-  - It allows value communication across space only and without the need to trust counter party
-  - It allows value communication across time only and without the need to trust counter party
-  - It allows value communication across space and time and with the need to trust counter party
+  - It allows value communication across space only and without the need to trust a counterparty.
+  - It allows value communication across time only and without the need to trust trust a counterparty.
+  - It allows value communication across space and time and with the need to trust a counterparty.
 explanation: |
-  Money as a communication tool allows communication across space and time, as we transform our time and energy into an asset that can be reused
-  in the future without the risk of devaluation. It also allows communication in a
-  universal common language, enabling two strangers to exchange, trade, and agree
-  on the value of things.
+  Money as a communication tool allows communication across
+  space and time, as we transform our time and energy into an
+  asset that can be reused in the future without the risk of
+  devaluation. It also allows communication in a universal
+  common language, enabling two strangers to exchange, trade,
+  and agree on the value of things.
 reviewed: true

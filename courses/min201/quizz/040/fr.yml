@@ -1,9 +1,11 @@
-question: Que permet l'activité de minage pour Bitcoin ?
+question: Qu'est-ce que le minage établit pour le Bitcoin ?
 answer: Un prix plancher
 wrong_answers:
   - Un prix plafond
   - Un prix fixe
   - Un prix variable
 explanation: |
-  L'activité de minage établit un prix plancher pour Bitcoin, en dessous duquel les mineurs vendraient à perte. Le coût du minage influence significativement le prix de Bitcoin.
-reviewed: false
+  Le minage établit un prix plancher pour le Bitcoin, en dessous duquel
+  les mineurs vendraient à perte. Le coût du minage
+  influence considérablement le prix du Bitcoin.
+reviewed: true

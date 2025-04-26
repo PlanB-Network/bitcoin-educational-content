@@ -1,9 +1,0 @@
-question: Come viene ottenuta la chiave pubblica del figlio nella derivazione delle chiavi figlio?
-answer: La chiave pubblica del figlio viene ottenuta moltiplicando la chiave privata del figlio per il generatore della curva ellittica.
-wrong_answers:
-  - La chiave pubblica del figlio viene ottenuta aggiungendo la chiave privata del figlio al generatore della curva ellittica.
-  - La chiave pubblica del figlio viene ottenuta sottraendo la chiave privata del figlio dal generatore della curva ellittica.
-  - La chiave pubblica del figlio viene ottenuta dividendo la chiave privata del figlio per il generatore della curva ellittica.
-explanation: |
-  La chiave pubblica del figlio viene ottenuta moltiplicando la chiave privata del figlio per il generatore della curva ellittica. Questo fa parte dei calcoli matematici utilizzati nella derivazione delle chiavi figlio.
-reviewed: false

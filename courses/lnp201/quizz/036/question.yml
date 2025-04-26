@@ -1,64 +1,88 @@
-id: 0d17835d-72cf-4029-b469-cfeec4f309bb
-chapterId: f2f61e5b-badb-5947-9a81-7aa530b44e59
-difficulty: intermediate
+id: 39192090-85d4-465f-8d49-ba48b119ba2c
+chapterId: 4369b85a-1365-55d8-99e1-509088210116
+difficulty: hard
 duration: 30
-author: DecouvreBitcoin
-tags:
-  - Bitcoin
-  - Commitment Transaction
-  - Revocation Key
-
-# Proofreading metadata
-original_language: en
+author: pretty-private
+original_language: fr
 proofreading:
+  - language: fr
+    last_contribution_date: 2024-11-01
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0.09
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2622
+    contributor_names:
+    reward: 0.21
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2561
+    contributor_names:
+    reward: 0.18
   - language: en
-    last_contribution_date: 2024-09-01
+    last_contribution_date:
     urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1280
+    contributor_names:
+    reward: 0.18
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2591
+    contributor_names:
+    reward: 0.18
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2622
-  - language: fr
+    contributor_names:
+    reward: 0.21
+  - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2561
+    contributor_names:
+    reward: 0.23
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2591
+    contributor_names:
+    reward: 0.18
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2683
+    contributor_names:
+    reward: 0.26
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2561
+    contributor_names:
+    reward: 0.18
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2683
+    contributor_names:
+    reward: 0.26
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.21

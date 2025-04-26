@@ -5,8 +5,9 @@ wrong_answers:
   - They consume less electricity than CPUs
   - They are cheaper than CPUs
 explanation: |
-  ASICs are chips, comparable to a CPU chip, however, they are developed
-  to perform only one specific type of calculation in the most efficient way possible.
-  In the case of Bitcoin ASICs, they are designed for the calculation of the SHA256
-  algorithm.
-reviewed: false
+  ASICs are chips, comparable to a CPU chip, however, they
+  are developed to perform only one specific type of
+  calculation in the most efficient way possible. In the case
+  of Bitcoin ASICs, they are designed for the calculation of
+  the SHA256 algorithm.
+reviewed: true

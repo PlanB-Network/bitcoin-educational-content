@@ -1,0 +1,13 @@
+question: ¿Cómo puede considerarse una transacción payjoin como una transacción esteganográfica?
+
+answer: Oculta el monto real del pago de los observadores externos.
+
+wrong_answers:
+  - Encripta el monto real del pago para los observadores externos.
+  - Oculta el monto real del pago al destinatario.
+  - Encripta el monto real del pago para el destinatario.
+
+explanation: |
+  La transacción payjoin cae bajo el dominio de la esteganografía porque oculta el monto real de una transacción dentro de una transacción falsa que actúa como señuelo para los observadores externos.
+
+reviewed: false

@@ -1,9 +1,10 @@
-question: Qual è uno degli aspetti della sicurezza informatica che richiede un monitoraggio regolare?
+question: Qual è uno degli aspetti della cybersecurity che richiede un monitoraggio regolare?
 answer: L'evoluzione costante delle minacce
 wrong_answers:
   - Il mercato azionario
   - Il meteo
   - Le notizie
 explanation: |
-  Il capitolo menziona che l'evoluzione costante delle minacce nella sicurezza informatica richiede un monitoraggio regolare.
-reviewed: false
+  Il capitolo menziona che l'evoluzione costante delle minacce
+  nella cybersecurity richiede un monitoraggio regolare.
+reviewed: vero

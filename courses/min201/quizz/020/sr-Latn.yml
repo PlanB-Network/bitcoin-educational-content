@@ -1,0 +1,14 @@
+question: Koja je buduća zabrinutost u vezi sa korišćenjem Bitcoin blok prostora?
+answer: Buduća briga je da će sa očekivanim rastom Lightning Network i posljedičnim povećanjem otvaranja i zatvaranja kanala, prostor u Bitcoin blokovima postati sve vredniji.
+wrong_answers:
+  - Buduća zabrinutost je da će veličina Bitcoin blokova postati prevelika za upravljanje.
+  - Buduća zabrinutost je da će broj Bitcoin blokova premašiti kapacitet mreže.
+  - Buduća zabrinutost je da će složenost Bitcoin blokova porasti, što će ih učiniti teškim za obradu.
+explanation: |
+  Sa očekivanim rastom Lightning Network i
+  posledičnim povećanjem otvaranja i zatvaranja kanala, prostor
+  u Bitcoin blokovima postaje sve vredniji. Ovo
+  je dovelo do diskusija o legitimnoj upotrebi prostora u blokovima,
+  sa zabrinutošću zbog spama na Blockchain od
+  transakcija koje se smatraju neesencijalnim.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Pada RGB, mengapa direkomendasikan untuk menggunakan Tapret daripada Opret untuk komitmen?
+answer: Untuk meminimalkan visibilitas dan menghindari penyensoran
+wrong_answers:
+  - Untuk mengurangi biaya transaksi
+  - Karena OP_RETURN tidak kompatibel dengan Lightning
+  - Untuk memaksimalkan ukuran komitmen
+explanation: |
+  Tapret memungkinkan Anda mengintegrasikan komitmen secara diam-diam, tidak seperti OP_RETURN, yang membuatnya langsung terlihat dan tunduk pada sensor.
+reviewed: false

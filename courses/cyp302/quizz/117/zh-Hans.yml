@@ -1,0 +1,8 @@
+question: AES加密的哪个阶段使用了伽罗瓦域？
+answer: 在字节替换和MixColumns操作中
+wrong_answers:
+  - 在生成私钥时
+  - 当将文本分割成128位块时
+  - 在每个XOR操作阶段
+explanation:
+  伽罗瓦域在字节替换中用于计算乘法逆元，在MixColumns操作中用于执行模不可约多项式的乘法。

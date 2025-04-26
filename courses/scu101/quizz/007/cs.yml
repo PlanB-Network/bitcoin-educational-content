@@ -1,11 +1,10 @@
 question: Co je soukromé prohlížení?
 answer: Funkce, která brání internetovým prohlížečům v ukládání historie prohlížení, dočasných internetových souborů, dat formulářů, cookies a uživatelských jmen a hesel.
 wrong_answers:
-  - Funkce, která skrývá vaši online aktivitu před poskytovatelem internetových služeb.
+  - Funkce, která skrývá vaši online aktivitu před vaším poskytovatelem internetových služeb.
   - Funkce, která vám umožňuje prohlížet internet anonymně.
   - Funkce, která chrání vaše zařízení před viry a dalším škodlivým softwarem.
 explanation: |
-  Soukromé prohlížení je funkce, která brání internetovým prohlížečům v ukládání
-  historie prohlížení, dočasných internetových souborů, dat formulářů, cookies a uživatelských jmen a
-  hesel. Nicméně nezakrývá vaši online aktivitu před poskytovatelem internetových služeb ani vám neumožňuje prohlížet internet anonymně.
-reviewed: false
+  Soukromé prohlížení je funkce, která brání internetovým prohlížečům v ukládání historie prohlížení, dočasných internetových souborů, dat formulářů, cookies a uživatelských jmen a hesel.
+  Nicméně, nezakrývá vaši online aktivitu před vaším poskytovatelem internetových služeb ani vám neumožňuje prohlížet internet anonymně.
+reviewed: true

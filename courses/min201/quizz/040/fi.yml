@@ -5,6 +5,7 @@ wrong_answers:
   - Kiinteän hinnan
   - Muuttuvan hinnan
 explanation: |
-  Louhinta määrittää Bitcoinille alarajan hinnan, jonka alapuolella louhijat
-  myisivät tappiolla. Louhinnan kustannukset vaikuttavat merkittävästi Bitcoinin hintaan.
-reviewed: false
+  Louhinta määrittää Bitcoinille alarajan hinnan, jonka alapuolella
+  louhijat myisivät tappiolla. Louhinnan kustannukset
+  vaikuttavat merkittävästi Bitcoinin hintaan.
+reviewed: true

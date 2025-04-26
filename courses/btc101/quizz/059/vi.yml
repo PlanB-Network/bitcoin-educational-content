@@ -1,11 +1,9 @@
-question: Số lượng tối đa của đơn vị Bitcoin có thể tồn tại là bao nhiêu?
-answer: 21 triệu đơn vị
+question: Điều nào sau đây không phải là đặc điểm của Bitcoin?
+answer: Nó dễ bị kiểm duyệt.
 wrong_answers:
-  - 25 triệu đơn vị
-  - 30 triệu đơn vị
-  - 50 triệu đơn vị
+  - Nó có thể được vận chuyển tức thì.
+  - Nó có chi phí xác minh không đáng kể.
+  - Nó có một chính sách tiền tệ cố định.
 explanation: |
-  Mã máy tính của Bitcoin và sự đồng thuận của tất cả người dùng tham gia vào
-  giao thức quy định rằng số lượng tối đa của đơn vị Bitcoin có thể tồn tại
-  là 21 triệu.
-reviewed: false
+  Bitcoin có tất cả các đặc điểm cần thiết để trở thành một loại tiền tệ hiệu quả và lành mạnh: có thể chia nhỏ, có thể vận chuyển tức thì, không thể kiểm duyệt, chi phí xác minh không đáng kể, và với một chính sách tiền tệ đã được thiết lập cho hàng thế kỷ tới với 21 triệu đơn vị.
+reviewed: true

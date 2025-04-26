@@ -1,9 +1,10 @@
-question: Come il network Bitcoin garantisce che sia troppo costoso agire in modo malevolo all'interno del protocollo Bitcoin?
-answer: Attraverso le regole del protocollo e gli incentivi economici.
+question: Come fa la rete Bitcoin a garantire che sia troppo costoso agire in modo malevolo all'interno del protocollo Bitcoin?
+answer: Attraverso regole del protocollo e incentivi economici.
 wrong_answers:
-  - Attraverso una regolamentazione e un controllo rigorosi.
+  - Attraverso una stretta regolamentazione e supervisione.
   - Attraverso l'uso di misure di sicurezza avanzate.
   - Attraverso la minaccia di azioni legali.
-explanation: |
-  Il network Bitcoin garantisce che sia troppo costoso agire in modo malevolo all'interno del protocollo Bitcoin attraverso le regole del protocollo e gli incentivi economici. Ciò elimina la necessità di fidarsi in qualsiasi fase del trasferimento di proprietà dei bitcoin.
-reviewed: false
+explanation: >-
+  La rete Bitcoin assicura che sia troppo costoso agire in modo malevolo all'interno del protocollo Bitcoin attraverso regole del protocollo e incentivi economici. Questo
+  elimina la necessità di fiducia in qualsiasi fase del trasferimento di proprietà dei bitcoin.
+reviewed: true

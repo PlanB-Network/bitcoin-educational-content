@@ -1,9 +1,9 @@
 question: ¿Cómo asegura la red de Bitcoin que sea demasiado costoso actuar de manera maliciosa dentro del protocolo de Bitcoin?
-answer: A través de reglas de protocolo e incentivos económicos.
+answer: A través de reglas del protocolo e incentivos económicos.
 wrong_answers:
-  - A través de regulaciones estrictas y supervisión.
-  - A través del uso de medidas de seguridad avanzadas.
-  - A través de la amenaza de acciones legales.
-explanation: |
-  La red de Bitcoin asegura que sea demasiado costoso actuar de manera maliciosa dentro del protocolo de Bitcoin a través de reglas de protocolo e incentivos económicos. Esto elimina la necesidad de confiar en cualquier paso de la transferencia de propiedad de bitcoin.
-reviewed: false
+  - A través de regulación estricta y supervisión.
+  - Mediante el uso de medidas de seguridad avanzadas.
+  - A través de la amenaza de acción legal.
+explanation: >-
+  La red de Bitcoin asegura que sea demasiado costoso actuar de manera maliciosa dentro del protocolo de Bitcoin a través de reglas del protocolo e incentivos económicos. Esto elimina la necesidad de confianza en cualquier paso de la transferencia de propiedad de bitcoin.
+reviewed: true

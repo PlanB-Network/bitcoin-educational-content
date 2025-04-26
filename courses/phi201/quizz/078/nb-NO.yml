@@ -1,0 +1,9 @@
+question: Hva er Adam Smiths mest kjente bidrag til økonomien?
+answer: Han utviklet teorien om den usynlige hånd.
+wrong_answers:
+  - Han utviklet teorien om den synlige fingeren.
+  - Han utviklet teorien om den usynlige fingeren.
+  - Han utviklet teorien om den synlige hånd.
+explanation: |
+  Adam Smith er kjent for sin teori om den usynlige hånd, som hevder at individuelle handlinger motivert av egeninteresse utilsiktet bidrar til samfunnets økonomiske velvære som helhet.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hva sikrer UTXOene på Bitcoin?
+answer: Gjennom skript som definerer betingelsene for bruk.
+wrong_answers:
+  - Gjennom periodisk verifisering av gruvearbeidere.
+  - Gjennom en sentralisert database.
+  - Gjennom verifisering av brukeridentitet.
+explanation: |
+  Utgangene av en Bitcoin-transaksjon er UTXOer som er sikret med et skript. Dette skriptet krever at forhåndsdefinerte betingelser for bruk er oppfylt for å kunne bruke UTXOen.

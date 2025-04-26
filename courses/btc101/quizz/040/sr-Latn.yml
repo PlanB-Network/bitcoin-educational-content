@@ -1,0 +1,12 @@
+question: Koja je strategija koju centralne entitete koriste za devalvaciju fiat valute?
+answer: Oni povećavaju monetarnu masu za nekoliko procenata svake godine.
+wrong_answers:
+  - Oni smanjuju monetarnu masu za nekoliko procenata svake godine.
+  - Oni održavaju njegovu monetarnu masu konstantnom u poređenju sa početnom masom.
+  - Oni imaju svoju monetarnu masu koja nasumično fluktuira u poređenju sa početnom masom.
+explanation: |
+  Centralne entitete često devalviraju valutu povećanjem njene
+  monetarne mase u poređenju sa početnom za nekoliko procenata
+  svake godine. Ova tiha devalvacija se često opravdava kao
+  da je u interesu naroda.
+reviewed: true

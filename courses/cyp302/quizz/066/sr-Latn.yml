@@ -1,0 +1,9 @@
+question: Koja je funkcija algoritma za generisanje ključeva u simetričnoj šemi šifrovanja?
+answer: Generiše privatni ključ
+wrong_answers:
+  - Generiše javni ključ
+  - Hešira poruku
+  - Šifruje poruku
+explanation: |
+  U simetričnoj šemi šifrovanja, algoritam za generisanje ključeva proizvodi privatni ključ, koji će zatim biti korišćen za šifrovanje i dešifrovanje poruka.
+reviewed: false

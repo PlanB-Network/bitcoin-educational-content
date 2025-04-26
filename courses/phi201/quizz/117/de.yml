@@ -1,0 +1,9 @@
+question: Was ist laut Keynes das Hauptproblem beim Goldstandard?
+answer: Er begrenzt die Fähigkeit der Regierung, ihre Ausgaben zu finanzieren
+wrong_answers:
+  - Er fördert die Inflation
+  - Er behindert den internationalen Handel
+  - Alle anderen Antworten sind korrekt.
+explanation: |
+  Keynes war der Ansicht, dass der Goldstandard die Fähigkeit der Regierung einschränkte, die Geldmenge anzupassen, und es ihnen somit erschwerte, ihre Ausgaben zu finanzieren, insbesondere während wirtschaftlicher Krisen.
+reviewed: false

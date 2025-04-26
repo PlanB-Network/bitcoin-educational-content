@@ -4,7 +4,6 @@ wrong_answers:
   - Nó có thể bị đánh cắp dễ dàng.
   - Nó có thể bị sao chép.
   - Nó có thể bị mất vật lý.
-explanation: >-
-  Văn bản đề cập rằng Bitcoin là một tài sản tài chính có tính biến động cao và
-  giá của nó có thể giảm xuống 0. Đây là một trong những rủi ro liên quan đến việc mua Bitcoin.
-reviewed: false
+explanation: |
+  Văn bản khóa học đề cập rằng Bitcoin là một tài sản tài chính có tính biến động cao, và giá của nó có thể giảm xuống 0, đây là một trong những rủi ro liên quan đến việc mua Bitcoin.
+reviewed: true

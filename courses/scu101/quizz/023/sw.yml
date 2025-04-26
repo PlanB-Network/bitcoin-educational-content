@@ -1,0 +1,10 @@
+question: Je, kuna umuhimu gani wa kutumia nenosiri dhabiti kwa usalama wa kompyuta?
+answer: Ili kuzuia ufikiaji usioidhinishwa kwa mfumo.
+wrong_answers:
+  - Ili kufanya mfumo uendeshe haraka.
+  - Ili kuongeza uwezo wa kuhifadhi.
+  - Ili kuboresha mtumiaji Interface.
+explanation: |
+  Nenosiri thabiti ni muhimu kwa usalama wa kompyuta
+  kuzuia ufikiaji usioidhinishwa kwa mfumo.
+reviewed: true

@@ -1,0 +1,5 @@
+---
+term: KANAVATEHTAAT
+
+---
+Kehittynyt mekanismi, jota kehitetään parhaillaan Lightningissa ja joka mahdollistaa useiden maksukanavien luomisen ja hallinnan yhdestä UTXO:sta. Kanavatehtaat käyttävät `n-of-n` multisig-osoitteita, jotta ryhmä käyttäjiä voi yhdessä pitää hallussaan yhtä UTXO:ta. Sieltä käsin he voivat avata ja sulkea keskenään maksukanavia ilman ylimääräisiä ketjussa tapahtuvia transaktioita, paitsi jos he haluavat nostaa varojaan tehtaalta. Tämä menetelmä voisi vähentää merkittävästi kustannuksia ja Lightning-tapahtumien viemiä tiloja Bitcoinissa. Käytännössä tämä tarkoittaa, että toiminnot, jotka normaalisti vaatisivat ketjussa tapahtuvia transaktioita jokaista kanavan avaamista tai sulkemista varten, voidaan suorittaa ketjun ulkopuolella, ja turvallisuus taataan siten, että julkaisemattomat transaktiot voidaan tarvittaessa julkaista. David A. Hardingin sanoin kanavatehtaita voidaan kuvata Lightning-kanavina, joita käytetään muiden Lightning-kanavien luomiseen.

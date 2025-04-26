@@ -1,0 +1,9 @@
+question: ¿Por qué la volatilidad se considera un aspecto natural de Bitcoin como activo emergente?
+answer: Porque Bitcoin es todavía relativamente joven, atrae a los especuladores y responde a las noticias del mercado, provocando oscilaciones de precios antes de estabilizarse en periodos más largos.
+wrong_answers:
+  - Porque está controlado centralmente y los precios los fija una autoridad.
+  - Porque Bitcoin carece de usuarios que lo mantengan a largo plazo.
+  - Porque los comerciantes deben fijar los precios de forma impredecible cada hora.
+explanation: |
+  Como activo en desarrollo, el precio de Bitcoin se ve influido por la especulación, el sentimiento y las diferentes tasas de adopción. Con el tiempo, la volatilidad puede disminuir a medida que se incremente la participación de tenedores estables y a largo plazo, pero sigue siendo una característica de la fase inicial de crecimiento.
+reviewed: false

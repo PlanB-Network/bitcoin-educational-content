@@ -1,0 +1,9 @@
+question: Welche Rolle spielen Tools wie Zaprite und Musqet bei einer professionellen Zahlungslösung?
+answer: Sie verfeinern das Einkaufserlebnis
+wrong_answers:
+  - Sie wickeln die Konvertierung mehrerer Währungen und die Auszahlung von Bargeld ab
+  - Sie konzentrieren sich auf die Verschlüsselung von Transaktionsdaten und die Verwaltung privater Schlüssel
+  - Sie dienen als grundlegende POS-Systeme
+explanation: |
+  Zaprite und Musqet ergänzen die zentrale Zahlungsinfrastruktur durch Anpassungs- und Berichtsfunktionen für den Checkout-Prozess.
+reviewed: false

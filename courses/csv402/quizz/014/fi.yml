@@ -1,0 +1,9 @@
+question: Mikä on skeeman rooli RGB:ssä?
+answer: Määrittele sopimusmuuttujat, säännöt ja liiketoimintalogiikka
+wrong_answers:
+  - Osallistujien välillä vaihdetut varastolähetykset
+  - Pedersen-sitoumusten validointi Bitcoin-tapahtumissa
+  - Luo tiivisteen määritelmät kullekin UTXO:lle
+explanation: |
+  Skeema jäsentää sopimuksen tilan ja määrittää sallitut siirtymät ja validointiehdot.
+reviewed: false

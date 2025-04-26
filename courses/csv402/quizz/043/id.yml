@@ -1,0 +1,9 @@
+question: Apa yang diwakili oleh "transisi status RGB" dalam konteks Lightning Network?
+answer: Alokasi aset RGB yang telah diperbarui dan diintegrasikan ke dalam transaksi komitmen
+wrong_answers:
+  - Status baru dari multisig 2/2 onchain
+  - Alokasi aset RGB yang diperbarui diintegrasikan ke dalam transaksi pendanaan
+  - Skrip validasi on-chain digantikan oleh HTLC
+explanation: |
+  Transisi status RGB memperbarui distribusi aset RGB di saluran menggunakan transaksi komitmen.
+reviewed: false

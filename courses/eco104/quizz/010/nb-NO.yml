@@ -1,0 +1,11 @@
+question: Hva er formålet med noder i Bitcoin-nettverket?
+answer: Å opprettholde og sikre blokkjeden
+wrong_answers:
+  - Å behandle transaksjoner
+  - Å foreslå og implementere endringer i Bitcoin-kodebasen
+  - Å konkurrere med andre gruvearbeidere
+explanation: |
+  Noder er essensielle for integriteten og sikkerheten til Bitcoin-nettverket.
+  De fungerer som voktere av systemet, og sikrer at transaksjoner
+  blir behandlet nøyaktig og i henhold til reglene.
+reviewed: true

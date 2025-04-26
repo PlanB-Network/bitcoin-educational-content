@@ -1,0 +1,8 @@
+question: ¿Qué actitud deben adoptar los usuarios respecto a la privacidad de sus comunicaciones en el entorno moderno?
+answer: Asumir que siempre hay alguien escuchando
+wrong_answers:
+  - Confiar únicamente en Wi-Fi
+  - Creer que los datos móviles son completamente seguros
+  - Usar solo conexiones cableadas
+explanation: |
+  En un mundo donde muchos canales de comunicación son susceptibles a interceptaciones, es prudente asumir que una tercera parte podría estar escuchando, haciendo esencial la criptografía.

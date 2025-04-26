@@ -1,10 +1,14 @@
-question: Která země uznala Bitcoin za zákonné platidlo od roku 2021?
-answer: Salvador
+question: Jak Bitcoin řeší problém byzantských generálů?
+answer: Prostřednictvím využití blockchainu založeného na Důkazu práce s pohyblivou obtížností.
 wrong_answers:
-  - Francie
-  - Spojené státy
-  - Čína
+  - Prostřednictvím využití digitálních podpisů.
+  - Prostřednictvím využití veřejného účetního rejstříku.
+  - Prostřednictvím využití algoritmu Důkazu vkladu.
 explanation: >-
-  Salvador uznal Bitcoin za zákonné platidlo od roku 2021, což přispělo
-  k rozvoji ekonomiky Bitcoinu v regionu.
-reviewed: false
+  Problém byzantských generálů je klasický problém v
+  distribuovaném výpočtu, který zahrnuje dosažení konsenzu
+  v síti, kde některé uzly mohou být chybné nebo
+  záludné. Bitcoin tento problém řeší prostřednictvím využití
+  blockchainu založeného na Důkazu práce, což zajišťuje, že všechny
+  uzly souhlasí se stavem historie transakcí.
+reviewed: true

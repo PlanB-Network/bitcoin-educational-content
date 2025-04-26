@@ -1,0 +1,9 @@
+question: Mida saab "curl -X POST /issueassetnia" teha RLN-is?
+answer: Luua uus asendatav, mitteinflatsiooniline RGB vara
+wrong_answers:
+  - Loo uus mittekõrvaldatav RGB vara
+  - Loo uus asendatav inflatsiooniline RGB vara
+  - Loo uus pooleldi fungible RGB vara
+explanation: |
+  Käsu "/issueassetnia" kasutatakse uue RGB NIA ("Non Inflatable Asset") tokeni väljastamiseks.
+reviewed: false

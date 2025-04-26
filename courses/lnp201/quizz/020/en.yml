@@ -1,11 +1,9 @@
-question: What are the different levels of communication in the Lightning Network?
-answer: P2P communication, Payment channel, Bitcoin transaction
+question: What is the main risk in commitment transactions on the Lightning Network?
+answer: Publishing an old transaction to reclaim more funds
 wrong_answers:
-  - P2P communication, Bitcoin transaction, Ethereum transaction
-  - Payment channel, Bitcoin transaction, Litecoin transaction
-  - P2P communication, Payment channel, Ripple transaction
+  - Forgetting to sign the commitment transaction
+  - Accidentally sending funds to another channel
+  - Blocking the transaction with an inappropriate timelock
 explanation: |
-  The Lightning Network has three different levels of communication; P2P
-  communication (Lightning Network protocol), Payment channel (Lightning Network protocol),
-  and Bitcoin transaction (Bitcoin protocol).
+  The main risk is that a party may attempt to cheat by publishing an old commitment transaction, which could allow them to reclaim funds they no longer have.
 reviewed: false

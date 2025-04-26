@@ -1,0 +1,9 @@
+question: 0异或1的结果是什么？
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  使用异或运算，0异或1的结果是1，因为这两个位是不同的。
+reviewed: false

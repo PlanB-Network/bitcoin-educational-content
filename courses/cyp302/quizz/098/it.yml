@@ -1,0 +1,9 @@
+question: Come aiuta un MAC a prevenire la manomissione dei messaggi da parte di un attaccante?
+answer: Consentendo di verificare che il messaggio ricevuto non sia stato alterato
+wrong_answers:
+  - Prevenendo attacchi di tipo brute-force
+  - Nascondendo il contenuto del messaggio
+  - Bloccando automaticamente i messaggi sospetti
+explanation: |
+  Un MAC consente al destinatario di verificare che un messaggio non sia stato modificato attraverso un tag generato con una chiave segreta condivisa, limitando le possibilità di manipolazione.
+reviewed: false

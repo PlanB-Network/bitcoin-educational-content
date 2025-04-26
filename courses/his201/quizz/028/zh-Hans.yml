@@ -1,0 +1,8 @@
+question: 2009年1月，Hal Finney预测的价格是多少美元？
+answer: 10,000,000
+wrong_answers:
+  - 1,000,000
+  - 100,000
+  - 10,000
+explanation:
+  他[写道](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015004.html)，今天用几分钱的计算时间生成单位的可能性可能是一个非常好的赌注。

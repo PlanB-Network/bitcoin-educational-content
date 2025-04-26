@@ -1,0 +1,9 @@
+question: Kdo jako první implementoval těžbu s využitím grafického procesoru (GPU) v roce 2010?
+answer: Laszlo Hanyecz
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - Nils Schneider
+explanation: |
+  V dubnu 2010 použil prostředí OpenCL k zapojení GPU do těžby bitcoinů. Dne 10. května [zveřejnil](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100) svůj spustitelný soubor na fóru.
+reviewed: false

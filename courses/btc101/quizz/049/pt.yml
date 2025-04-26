@@ -1,9 +1,9 @@
-question: Qual é a primeira fase da hiperinflação?
-answer: Perda de Confiança
+question: Qual é a primeira fase do fenômeno da hiperinflação?
+answer: Perda de Confiança.
 wrong_answers:
-  - Colapso da moeda e aumento de preços
-  - O círculo vicioso da impressão de dinheiro
-  - Surgimento de uma nova moeda
+  - Colapso da moeda e aumento de preços.
+  - O círculo vicioso da impressão de dinheiro.
+  - Surge uma nova moeda.
 explanation: |
   A primeira fase da hiperinflação é a perda de confiança em uma moeda.
-reviewed: false
+reviewed: true

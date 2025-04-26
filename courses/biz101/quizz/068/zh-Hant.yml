@@ -1,0 +1,9 @@
+question: 如何在專業環境中部署 BTC Pay 伺服器？
+answer: 內部或透過雲端主機
+wrong_answers:
+  - 專用硬體裝置
+  - 透過完全外包的第三方服務
+  - 作為行動應用程式
+explanation: |
+  在企業內部或雲端部署 BTC Pay Server 的彈性，可讓企業選擇最適合其營運需求的設定。
+reviewed: false

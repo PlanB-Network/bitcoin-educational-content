@@ -1,9 +1,13 @@
-question: ¿Cuál es el estado de Bitcoin en algunos países?
-answer: Prohibido y criminalizado
+question: ¿Cuál es el estatus de Bitcoin en El Salvador?
+answer: Moneda de curso legal.
 wrong_answers:
-  - Totalmente adoptado
-  - Parcialmente adoptado
-  - No regulado
+  - Criminalizado.
+  - Desconocido.
+  - No regulado.
 explanation: |
-  El texto menciona que algunos países han prohibido y criminalizado el uso de Bitcoin, lo que añade complejidad a la adopción de Bitcoin basada en culturas, épocas y naciones.
-reviewed: false
+  El texto del curso menciona que algunos países han prohibido
+  y criminalizado el uso de Bitcoin, añadiendo a la
+  complejidad de la adopción de Bitcoin basada en culturas, épocas y
+  naciones. Sin embargo, El Salvador fue lo suficientemente valiente como para adoptarlo
+  como moneda de curso legal.
+reviewed: true

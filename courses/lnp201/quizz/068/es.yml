@@ -1,9 +1,0 @@
-question: ¿Por qué la distribución precisa de liquidez en la Lightning Network no es accesible directamente?
-answer: Para preservar la privacidad y seguridad del usuario.
-wrong_answers:
-  - Para reducir el tamaño de la cadena de bloques.
-  - Para aumentar la velocidad de las transacciones.
-  - Para disminuir la complejidad de la red.
-explanation: |
-  La distribución precisa de liquidez en la Lightning Network no es accesible directamente para preservar la privacidad y seguridad del usuario. Si bien la capacidad total de los canales es pública, la ubicación exacta de la liquidez no se revela. Esto evita que posibles atacantes apunten a canales o nodos específicos con alta liquidez.
-reviewed: false

@@ -2,8 +2,9 @@ question: Quelle est l'une des principales caractéristiques du protocole Bitcoi
 answer: Il est neutre envers tous ses utilisateurs.
 wrong_answers:
   - Il favorise certains utilisateurs par rapport à d'autres.
-  - Il est partial envers certains utilisateurs.
-  - Il ne bénéficie qu'à un groupe restreint d'utilisateurs.
-explanation: |
-  Le texte mentionne que le protocole Bitcoin est neutre envers tous ses utilisateurs.
-reviewed: false
+  - Il est biaisé envers certains utilisateurs.
+  - Il bénéficie uniquement à un groupe sélectionné d'utilisateurs.
+explanation: >-
+  Le texte mentionne que le protocole Bitcoin est neutre envers tous ses
+  utilisateurs.
+reviewed: true

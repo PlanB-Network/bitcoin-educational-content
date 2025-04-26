@@ -1,6 +1,4 @@
-question: Mikä termi kuvaa yritystä, joka jatkaa toimintaansa pääasiassa
-  edullisen lainanoton kautta, vaikka se olisi maksukyvytön tai lähellä konkurssia normaaleissa
-  markkinaolosuhteissa?
+question: Mikä termi kuvaa yritystä, joka jatkaa toimintaansa pääasiassa edullisen lainanoton kautta, vaikka se olisi maksukyvytön tai lähellä konkurssia normaaleissa markkinaolosuhteissa?
 answer: Zombiyritys
 wrong_answers:
   - Haamu yritys

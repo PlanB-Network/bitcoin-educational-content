@@ -1,0 +1,8 @@
+question: ¿Qué paso no está incluido en la prueba de seguridad de un esquema criptográfico moderno?
+answer: Configurar una interfaz de usuario
+wrong_answers:
+  - Declarar definiciones de seguridad
+  - Las suposiciones de complejidad matemática
+  - La demostración matemática de seguridad
+explanation: |
+  La prueba de seguridad en la criptografía moderna se centra en objetivos y suposiciones matemáticas, excluyendo aspectos como la interfaz de usuario, que no es relevante para la seguridad criptográfica.

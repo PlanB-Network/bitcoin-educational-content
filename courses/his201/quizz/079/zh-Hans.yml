@@ -1,0 +1,8 @@
+question: 谁在2010年12月创建了Bitcoin.it维基？
+answer: Mark Karpelès (MagicalTux)
+wrong_answers:
+  - Michael Marquardt (Theymos)
+  - Martti Malmi (sirius-m)
+  - Amir Taaki (genjix)
+explanation:
+  这个想法[是](https: //buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848)开发一个“更不正式、更注重社区的维基”。

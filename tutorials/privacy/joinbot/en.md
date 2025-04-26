@@ -47,10 +47,10 @@ This StonewallX2 collaborative transaction setup is available on Samourai Wallet
 
 Its mechanism is quite simple to understand. Here is how it works in practice:
 
-> - A user wants to make a payment in bitcoins (for example, at a merchant).
-> - They retrieve the receiving address of the actual payment recipient (the merchant).
-> - They construct a specific transaction with multiple inputs: at least one belonging to them and one belonging to an external collaborator.
-> - The transaction will have 4 outputs, including 2 of the same amounts: one to the merchant's address for payment, one as change that returns to the user, one output of the same value as the payment that goes to the collaborator, and another output that also returns to the collaborator.
+- A user wants to make a payment in bitcoins (for example, at a merchant).
+- They retrieve the receiving address of the actual payment recipient (the merchant).
+- They construct a specific transaction with multiple inputs: at least one belonging to them and one belonging to an external collaborator.
+- The transaction will have 4 outputs, including 2 of the same amounts: one to the merchant's address for payment, one as change that returns to the user, one output of the same value as the payment that goes to the collaborator, and another output that also returns to the collaborator.
 
 For example, here is a typical StonewallX2 transaction in which I made a payment of 50,125 sats. The first input of 102,588 sats comes from my Samourai wallet. The second input of 104,255 sats comes from my collaborator's wallet:
 
@@ -58,15 +58,16 @@ For example, here is a typical StonewallX2 transaction in which I made a payment
 
 We can observe 4 outputs, including 2 of the same amount to confuse the tracks:
 
-> - 50,125 sats that go to the actual recipient of my payment.
-> - 52,306 sats that represent my change and therefore return to an address in my wallet.
-> - 50,125 sats that return to my collaborator.
-> - 53,973 sats returning to my collaborator.
->   At the end of the operation, the collaborator will have their initial balance restored (minus mining fees), and the user will have paid the merchant. This adds a significant amount of entropy to the transaction and breaks the undeniable links between the sender and recipient of the payment.
+- `50,125 sats` that go to the actual recipient of my payment.
+- `52,306 sats` that represent my change and therefore return to an address in my wallet.
+- `50,125 sats` that return to my collaborator.
+- `53,973 sats` returning to my collaborator.
+
+At the end of the operation, the collaborator will have their initial balance restored (minus mining fees), and the user will have paid the merchant. This adds a significant amount of entropy to the transaction and breaks the undeniable links between the sender and recipient of the payment.
 
 The strength of the StonewallX2 transaction is that it completely counters one of the empirical rules used by chain analysts: the common ownership of inputs in a multi-input transaction. In other words, in most cases, if we observe a Bitcoin transaction with multiple inputs, we can assume that all of these inputs belong to the same person. Satoshi Nakamoto had already identified this problem for user privacy in his White Paper:
 
-> "As an additional firewall, a new key pair could be used for each transaction to keep them from being linked to a common owner. However, the linkage is unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner."
+> As an additional firewall, a new key pair could be used for each transaction to keep them from being linked to a common owner. However, the linkage is unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner.
 
 This is one of the many empirical rules used in on-chain analysis to construct address clusters. To learn more about these heuristics, I recommend reading this series of four articles by Samourai, which introduces the topic wonderfully.
 
@@ -79,7 +80,7 @@ On the other hand, the main disadvantage of this transaction structure is that i
 
 To solve this problem, the Samourai team recently added a new feature to their application: JoinBot.
 
-# What is JoinBot?
+## What is JoinBot?
 
 The principle of JoinBot is simple. If you can't find anyone to collaborate with for a StonewallX2 transaction, you can collaborate with JoinBot. In practice, you will actually be conducting a collaborative transaction directly with Samourai Wallet.
 
@@ -89,11 +90,11 @@ Another advantage of JoinBot is that the UTXOs it provides as input are exclusiv
 
 Obviously, JoinBot has some compromises that should be noted:
 
-> Like with a classic StonewallX2, your collaborator is necessarily aware of the UTXOs used and their destination. In the case of JoinBot, Samourai knows the details of this transaction. This is not necessarily a bad thing, but it should be kept in mind.
-> To avoid spam, Samourai charges a 3.5% service fee on the amount of the actual transaction, with a maximum limit of 0.01 BTC. For example, if I send a real payment of 100 kilosats with JoinBot, the service fee amount will be 3,500 sats.
-> To use JoinBot, you must have at least two unrelated and available UTXOs in your wallet.
-> In a classic StonewallX2, mining fees are shared equally between the two collaborators. With JoinBot, you will obviously have to pay the full mining fees.
-> In order for a JoinBot transaction to be exactly the same as a classic StonewallX2 or Stonewall transaction, the payment of service fees is made on a completely separate transaction. The refund of half of the mining fees initially paid by Samourai will be made during this second transaction. In order to optimize your privacy to the end, the fee settlement is done using a Stowaway (PayJoin) structured transaction.
+- Like with a classic StonewallX2, your collaborator is necessarily aware of the UTXOs used and their destination. In the case of JoinBot, Samourai knows the details of this transaction. This is not necessarily a bad thing, but it should be kept in mind.
+- To avoid spam, Samourai charges a 3.5% service fee on the amount of the actual transaction, with a maximum limit of 0.01 BTC. For example, if I send a real payment of 100 kilosats with JoinBot, the service fee amount will be 3,500 sats.
+- To use JoinBot, you must have at least two unrelated and available UTXOs in your wallet.
+- In a classic StonewallX2, mining fees are shared equally between the two collaborators. With JoinBot, you will obviously have to pay the full mining fees.
+- In order for a JoinBot transaction to be exactly the same as a classic StonewallX2 or Stonewall transaction, the payment of service fees is made on a completely separate transaction. The refund of half of the mining fees initially paid by Samourai will be made during this second transaction. In order to optimize your privacy to the end, the fee settlement is done using a Stowaway (PayJoin) structured transaction.
 
 ## How to use JoinBot?
 
@@ -111,15 +112,15 @@ Here is the transaction diagram that we just performed in the video:
 
 We can see 5 inputs:
 
-> - 3 inputs of 100 kilosats coming from Samourai (JoinBot).
-> - 2 inputs coming from my personal wallet, of 3,524 sats and 1.8 megasat.
+- 3 inputs of 100 kilosats coming from Samourai (JoinBot).
+- 2 inputs coming from my personal wallet, of 3,524 sats and 1.8 megasat.
 
 The 4 outputs of the transaction are as follows:
 
-> - 1 of 212,452 sats to the actual recipient of my payment.
-> - Another one of the same amount that goes back to a Samourai address.
-> - 1 change that also goes back to Samourai for 87,302 sats. This represents the difference between the total of their inputs (300,000 sats) and the obfuscation output (212,452 sats) minus the mining fees.
-> - 1 change that goes back to another address in my wallet. It represents the difference between the total of my inputs and the actual payment, minus the mining fees.
+- 1 of 212,452 sats to the actual recipient of my payment.
+- Another one of the same amount that goes back to a Samourai address.
+- 1 change that also goes back to Samourai for 87,302 sats. This represents the difference between the total of their inputs (300,000 sats) and the obfuscation output (212,452 sats) minus the mining fees.
+- 1 change that goes back to another address in my wallet. It represents the difference between the total of my inputs and the actual payment, minus the mining fees.
 
 As a reminder, mining fees do not represent transaction outputs. They simply represent the difference between the total inputs and the total outputs.
 

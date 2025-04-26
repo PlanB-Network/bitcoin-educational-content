@@ -4,7 +4,7 @@ name: RoninDojo
 description: RoninDojo Bitcoinノードのインストールと使用方法。
 ---
 
-**警告: このチュートリアルはRoninDojo v1のインストールには引き続き使用できますが、ノードをRoninDojo v2にアップグレードすることはできません。したがって、このバージョンは機能していますが、もはや更新されていません。最新の改善と機能を利用するためには、Raspberry Pi上でのRoninDojo v2の直接インストールのための専用チュートリアルを参照することを強くお勧めします:** [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
+**警告: このチュートリアルはRoninDojo v1のインストールには引き続き使用できますが、ノードをRoninDojo v2にアップグレードすることはできません。したがって、このバージョンは機能していますが、もはや更新されていません。最新の改善と機能を利用するためには、Raspberry Pi上でのRoninDojo v2の直接インストールのための専用チュートリアルを参照することを強くお勧めします:** https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

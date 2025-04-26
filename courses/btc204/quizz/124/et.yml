@@ -1,0 +1,13 @@
+question: Milline valik võimaldab P2P transport V2 sisse või välja lülitada Bitcoin Core'i konfiguratsioonifailis?
+
+answer: v2transport=
+
+wrong_answers:
+  - p2penable=
+  - networkv2=
+  - enablev2=
+
+explanation: |
+  P2P V2 transporti saab muuta v2transport= valikuga Core sõlme konfiguratsioonifailis.
+
+reviewed: false

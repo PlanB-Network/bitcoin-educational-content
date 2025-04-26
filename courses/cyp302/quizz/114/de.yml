@@ -1,0 +1,8 @@
+question: Was unterscheidet einen Standardlängen-RC4-Schlüsselstrom von der vereinfachten Version, die im Beispiel vorgestellt wurde?
+answer: Die Länge des S-Arrays in Standard-RC4 beträgt 256 Bytes
+wrong_answers:
+  - Das S-Array ist auf 128 Bytes begrenzt
+  - Der verwendete Schlüssel muss mehr als 8 Bytes lang sein
+  - Es gibt keine feste Länge für S in Standard-RC4
+explanation: |
+  In Standard-RC4 enthält das S-Array 256 Bytes, was die Komplexität der Berechnungen erheblich erhöht und die Sicherheit im Vergleich zur vereinfachten Version mit nur 8 Bytes verbessert.

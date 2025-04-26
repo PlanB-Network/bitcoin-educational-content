@@ -1,0 +1,8 @@
+question: 在流密码中，通常使用哪种操作来结合密钥流和消息？
+answer: XOR
+wrong_answers:
+  - 乘法
+  - 模数移位
+  - 每个字母的替代
+explanation: |
+  在流密码中，通常使用XOR操作来结合密钥流和消息，因为它简单且可逆。

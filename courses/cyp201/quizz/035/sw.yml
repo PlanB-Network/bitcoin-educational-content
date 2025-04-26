@@ -1,0 +1,9 @@
+question: Je, ni kiwango kipi cha Bitcoin kinatanguliza pochi za ubainishaji wa hali ya juu?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 inafafanua utendakazi wa pochi za HD, ikiruhusu kupatikana kwa funguo za kibinafsi kutoka kwa seed.
+reviewed: false

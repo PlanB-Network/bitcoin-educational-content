@@ -1,9 +1,13 @@
-question: Mikä on pääasiallinen ero keynesiläisen taloustieteen ja itävaltalaisen taloustieteen ideoiden välillä suhteessa rahajärjestelmään?
+question: Mikä on pääasiallinen ero keynesiläisen taloustieteen ja itävaltalaisen taloustieteen välillä rahajärjestelmän suhteen?
 answer: Keynesiläinen taloustiede ei ota huomioon tilanteiden ja resurssien ajallisia ja dynaamisia näkökohtia.
 wrong_answers:
-  - Keynesiläinen taloustiede edistää ylikulutusta ja velkaantumista
-  - Keynesiläinen taloustiede ei heijasta resurssien niukkuutta
-  - Keynesiläinen taloustiede kannustaa inflaatioon
+  - Keynesiläinen taloustiede edistää valuuttojen ylikulutusta.
+  - Keynesiläinen taloustiede tunnustaa tilanteiden ja resurssien niukkuuden.
+  - Keynesiläinen taloustiede kannustaa inflaatioon.
 explanation: >-
-  Pääasiallinen ero keynesiläisen taloustieteen ja itävaltalaisen taloustieteen ideoiden välillä suhteessa rahajärjestelmään on, että keynesiläinen taloustiede ei ota huomioon tilanteiden ja resurssien ajallisia ja dynaamisia näkökohtia. Toisin sanoen rajaton valuutta ei voi tehokkaasti heijastaa planeettamme rajallisia resursseja.
-reviewed: false
+  Pääasiallinen ero keynesiläisen taloustieteen ja itävaltalaisen taloustieteen
+  ideoissa rahajärjestelmän suhteen on, että keynesiläinen taloustiede ei
+  ota huomioon tilanteiden ja resurssien ajallisia ja dynaamisia näkökohtia.
+  Toisin sanoen, rajaton valuutta ei voi tehokkaasti heijastaa planeettamme rajallisia
+  resursseja.
+reviewed: true

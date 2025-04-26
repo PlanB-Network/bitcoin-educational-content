@@ -1,9 +1,9 @@
-question: Jak se určuje velikost kontrolního součtu při generování mnemonické fráze pro Bitcoinovou peněženku?
-answer: Dělením velikosti entropie číslem 32.
+question: Jaký je účel indexu při odvozování dětských klíčů?
+answer: Odlišit páry sourozeneckých klíčů
 wrong_answers:
-  - Násobením velikosti entropie číslem 32.
-  - Přičtením 32 k velikosti entropie.
-  - Odečtením 32 od velikosti entropie.
+  - Určit povahu klíče (veřejný nebo soukromý)
+  - Specifikovat bezpečnostní úroveň klíče
+  - Přidat další vrstvu zabezpečení
 explanation: |
-  Velikost kontrolního součtu se určuje dělením velikosti entropie číslem 32. Například 256bitová entropie generuje 8bitový kontrolní součet.
+  Index umožňuje rozlišení dětských klíčů odvozených ze stejného rodičovského páru.
 reviewed: false

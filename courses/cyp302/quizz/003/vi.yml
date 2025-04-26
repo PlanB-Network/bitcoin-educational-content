@@ -1,0 +1,9 @@
+question: Thông điệp Beale thứ hai tiết lộ điều gì sau khi được giải mã?
+answer: Danh sách các kho báu được chôn giấu (vàng, bạc và đá quý)
+wrong_answers:
+  - Vị trí chính xác nơi kho báu được chôn giấu
+  - Ngày Beale trở về
+  - Chữ ký của Beale và của các đồng sự của ông
+explanation: |
+  Sau khi giải mã, thông điệp thứ hai mô tả nội dung của kho báu, bao gồm vàng, bạc và đá quý.
+reviewed: false

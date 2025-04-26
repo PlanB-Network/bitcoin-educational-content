@@ -1,0 +1,9 @@
+question: Hva er en "Seal Definition" i forbindelse med RGB-tildeling?
+answer: Henvisningen til en UTXO som etablerer eierskap til en Owned State
+wrong_answers:
+  - Gruppering av data som utveksles mellom partene, med forbehold om validering på klientsiden
+  - Kompilering av kontrakter i kjørbar kode utenfor kjeden
+  - DAG-grenen av tilstandsovergangshistorikken
+explanation: |
+  "Seal Definition" knytter en UTXO til en spesifikk del av kontraktstilstanden, noe som garanterer korrekt tildeling av en rettighet eller eiendel.
+reviewed: false

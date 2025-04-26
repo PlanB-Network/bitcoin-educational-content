@@ -1,0 +1,9 @@
+question: Mitä historiallista käsitettä RGB soveltaa digitaaliseen maailmaan?
+answer: Inhalaatiosopimukset
+wrong_answers:
+  - Keskitetyt tietokannat
+  - Vertaisverkot ilman validointia
+  - Avoimet rekisterit, jotka ovat kaikkien saatavilla
+explanation: |
+  RGB:ssä siirrytään digitaalisiin instrumentteihin.
+reviewed: false

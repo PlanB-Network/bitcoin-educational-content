@@ -1,0 +1,12 @@
+question: Je, ni amri gani ya kuthibitisha wingi wa bitcoins katika mzunguko kwenye nodi ya Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo.
+wrong_answers:
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
+explanation: |
+  Amri ya kuthibitisha wingi wa bitcoins ndani
+  mzunguko kwenye nodi ya Bitcoin ni bitcoin-cli
+  gettxoutsetinfo. Amri hii inatoa uwazi na
+  uthibitisho, kuimarisha uaminifu katika mfumo wa Bitcoin.
+reviewed: true

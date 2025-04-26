@@ -1,11 +1,9 @@
-question: ¿Cuál es el propósito de los bits de relleno en la fase de preprocesamiento de SHA256?
-answer: Para hacer que el tamaño de la entrada alcance un múltiplo perfecto de 512 bits.
+question: ¿Cuál es la construcción utilizada por SHA256 para procesar mensajes de longitud arbitraria?
+answer: La construcción de Merkle-Damgård
 wrong_answers:
-  - Para aumentar el tamaño de la entrada a 256 bits.
-  - Para agregar complejidad a la entrada.
-  - Para reducir el tamaño de la entrada a 512 bits.
+  - La construcción Euclidiana
+  - La construcción de Rivest-Shamir-Adleman
+  - La construcción de Knuth-Morris-Pratt
 explanation: |
-  En la fase de preprocesamiento de SHA256, se agregan bits de relleno a la entrada
-  para que su tamaño alcance un múltiplo perfecto de 512 bits. Esto se hace para asegurar que
-  todos los ingredientes se mezclen perfectamente en la receta criptográfica.
+  La construcción de Merkle-Damgård permite transformar una función de compresión en una función hash para mensajes de longitud variable.
 reviewed: false

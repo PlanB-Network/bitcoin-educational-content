@@ -1,0 +1,13 @@
+question: Apa yang dimaksud dengan skor Boltzmann dalam konteks transaksi Bitcoin?
+
+answer: Probabilitas bersyarat bahwa sebuah input terhubung dengan output tertentu.
+
+wrong_answers:
+  - Jumlah total bitcoin yang ditransfer.
+  - Jumlah input dalam sebuah transaksi.
+  - Entropi yang terkait dengan setiap input atau output.
+
+explanation: |
+  Skor Boltzmann menunjukkan probabilitas bersyarat bahwa sebuah input spesifik terhubung dengan output tertentu. Oleh karena itu, ini adalah ukuran kuantitatif dari probabilitas bersyarat bahwa sebuah asosiasi antara input dan output dalam sebuah transaksi terjadi, didirikan pada rasio jumlah kejadian yang menguntungkan dari peristiwa ini dibandingkan dengan jumlah total kemungkinan kejadian, dalam satu set interpretasi.
+
+reviewed: false

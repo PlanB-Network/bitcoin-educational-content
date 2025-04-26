@@ -1,0 +1,9 @@
+question: Apa arti gagasan tentang penahanan diri dalam dunia Bitcoin?
+answer: Menyimpan kunci pribadi Anda sendiri
+wrong_answers:
+  - Mempercayakan kunci Anda pada platform Exchange khusus
+  - Mempercayakan kunci Anda kepada bank investasi
+  - Menyimpan kunci publik Anda sendiri
+explanation: |
+  Penitipan mandiri memastikan bahwa pengguna memiliki kontrol penuh atas bitcoin mereka melalui kunci pribadi mereka sendiri.
+reviewed: false

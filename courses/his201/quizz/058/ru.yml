@@ -1,0 +1,9 @@
+question: В какой единице измерялась хешрейт сети во второй половине 2010 года?
+answer: В GH/s
+wrong_answers:
+  - В MH/s
+  - В TH/s
+  - В PH/s
+explanation: |
+  Хешрейт увеличился с 1.35 GH/s 13 июля до 120 GH/s 31 декабря 2010 года.
+reviewed: false

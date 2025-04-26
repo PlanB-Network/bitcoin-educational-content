@@ -1,11 +1,9 @@
-question: Qual destas opções não é uma vantagem das moedas fiduciárias?
-answer: Estão sujeitas à inflação monetária
+question: Qual é o significado de moeda fiduciária?
+answer: Moeda fiduciária é a moeda que possui valor porque um governo a mantém e as pessoas confiam em seu valor, ao invés de ser respaldada por uma commodity física como o ouro.
 wrong_answers:
-  - São facilmente transportáveis
-  - São facilmente divisíveis
-  - São aceitas por todos os países
+  - Moeda fiduciária é a moeda que é respaldada por uma commodity física, como ouro ou prata, o que significa que seu valor está diretamente atrelado ao valor dessa commodity.
+  - Moeda fiduciária é um tipo de criptomoeda que opera em uma rede descentralizada, permitindo transações de peer-to-peer sem a necessidade de uma autoridade central.
+  - Moeda fiduciária é a moeda que não possui valor intrínseco e não pode ser usada para transações, tornando-a essencialmente sem valor na economia.
 explanation: |
-  Moedas fiduciárias, como o dólar e o euro, são muito líquidas e
-  facilmente transportáveis porque agora são principalmente digitais. No entanto, seu valor é
-  constantemente corroído pela inflação monetária.
-reviewed: false
+  A moeda fiduciária é estabelecida como moeda legal por decreto governamental, e seu valor não é derivado de qualquer commodity física.
+reviewed: true

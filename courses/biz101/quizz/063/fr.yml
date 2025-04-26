@@ -1,0 +1,9 @@
+question: Quel scénario illustre le mieux l'utilisation du profil Essential pour les paiements en bitcoins ?
+answer: Un restaurant qui accepte quelques paiements en bitcoins par mois
+wrong_answers:
+  - Une multinationale traitant des milliers de transactions par jour
+  - Un freelance indépendant qui accepte le paiement de ses factures en bitcoins
+  - Un bureau d'échange de bitcoins à haute fréquence
+explanation: |
+  Le profil "Essential" vise les petites et moyennes entreprises qui effectuent peu de transactions en bitcoins, comme les restaurants.
+reviewed: false

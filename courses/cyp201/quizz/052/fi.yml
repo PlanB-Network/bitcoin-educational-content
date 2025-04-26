@@ -1,9 +1,8 @@
-question: Mikä on BIP38:n rooli Bitcoin-ekosysteemissä?
-answer: Se ehdotti lisäsalasanan lisäämistä vahvistamaan yksittäisten avainten turvallisuutta.
+question: Mikä on syynä käyttää harhautuslompakkoa salasanan kanssa?
+answer: Simuloida lompakkoa, jossa on pieni määrä varoja fyysisen pakottamisen varalta
 wrong_answers:
-  - Se esitteli 24-sanan muistilauseen.
-  - Se mullisti avainten luonti- ja säilytystavan.
-  - Se standardisoi HD-lompakoiden rakenteen ja hierarkian.
+  - Lisätä automaattinen varmuuskopio transaktioista
+  - Luoda lisäinen muistisääntö
+  - Suojata UTXO: t kaksoiskulutukselta
 explanation: |
-  BIP38 ehdotti lisäsalasanan lisäämistä vahvistamaan yksittäisten avainten turvallisuutta. Tämä on yksi monista parannuksista, jotka on tehty HD-lompakoiden turvallisuuden ja toiminnallisuuden parantamiseksi.
-reviewed: false
+  Harhautuslompakkoa käytetään ohjaamaan hyökkääjän huomio pois antamalla pääsyn lompakkoon, jossa on pieni määrä bitcoineja.

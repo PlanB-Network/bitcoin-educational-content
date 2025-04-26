@@ -1,0 +1,9 @@
+question: Mitä voin tehdä laskulle RGB-siirrossa?
+answer: Ilmoita tapahtuman tyyppi, tarvittavien varojen määrä ja vastaanottajan sinetin määritelmä
+wrong_answers:
+  - Luo uusi Genesis omaisuuserälle
+  - Luo uusi skeema omaisuuserän liiketoimintalogiikan muuttamiseksi
+  - PSBT:n rakentaminen Bitcoin-tapahtuman korvaamiseksi
+explanation: |
+  Laskulla ilmoitetaan liiketoimen antajalle liiketoimen tyyppi, siirrettävien varojen määrä ja kohde (sinetin määritelmä).
+reviewed: false

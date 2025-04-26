@@ -1,0 +1,9 @@
+question: Was ist die Grenze der staatlichen Souveränität nach John Stuart Mill?
+answer: Der Staat kann nur eingreifen, wenn die Handlungen einer Person anderen schaden.
+wrong_answers:
+  - Der Staat ist unter allen Umständen souverän und kann durch keine Einzelperson oder Gruppe von Personen eingeschränkt werden.
+  - Die staatliche Souveränität wird durch wirtschaftliche Mittel begrenzt.
+  - Die staatliche Souveränität wird durch die Gesetze der Natur begrenzt.
+explanation: |
+  John Stuart Mill argumentiert, dass staatliche Eingriffe nur dann legitim sind, wenn die Handlungen einer Person anderen schaden, um die persönliche Freiheit in Bereichen zu schützen, die anderen keinen Schaden zufügen.
+reviewed: false

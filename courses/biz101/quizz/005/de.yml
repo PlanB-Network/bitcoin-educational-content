@@ -1,0 +1,9 @@
+question: Was ist ein entscheidendes Merkmal von Bitcoin als Währungsnetzwerk?
+answer: Es ist wie Bargeld und erfordert keine zentrale Behörde oder Vermittler für Transaktionen.
+wrong_answers:
+  - Es kann nur funktionieren, wenn es von einer Regierungsbehörde genehmigt wird.
+  - Es gibt auf Anfrage eines jeden Benutzers neue Währungseinheiten aus.
+  - Die Banken müssen jede Transaktion überprüfen und abwickeln.
+explanation: |
+  Bitcoin ist ein dezentralisiertes Netzwerk, an dem jeder ohne Genehmigung teilnehmen kann. Transaktionen werden von Knoten und Minern validiert, nicht von einer zentralen Behörde.
+reviewed: false

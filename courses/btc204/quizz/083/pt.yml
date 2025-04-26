@@ -1,0 +1,13 @@
+question: Por que o coordenador não pode modificar a transação coinjoin após coletar as assinaturas de todos os participantes?
+
+answer: Modificá-la invalidaria a transação.
+
+wrong_answers:
+  - Eles não têm acesso aos endereços de recebimento dos participantes.
+  - As assinaturas são criptografadas.
+  - A transação já foi transmitida na rede Bitcoin.
+
+explanation: |
+  Uma vez que os participantes tenham assinado a transação completa, após garantir que tudo está correto, o coordenador não pode mais modificar essa transação, incluindo os outputs, sem invalidá-la, porque a assinatura cobre a transação inteira.
+
+reviewed: false

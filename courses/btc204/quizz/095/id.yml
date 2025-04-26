@@ -1,0 +1,13 @@
+question: Apa yang ditunjukkan oleh anonset prospektif?
+
+answer: Ukuran kelompok UTXO yang tidak dapat dibedakan pada keluaran siklus.
+
+wrong_answers:
+  - Ukuran kelompok UTXO yang tidak dapat dibedakan pada masukan siklus.
+  - Ukuran kelompok UTXO yang tidak dapat dibedakan dalam sebuah kolam.
+  - Jumlah transaksi yang diperlukan untuk mencapai anonimitas.
+
+explanation: |
+  Anonset prospektif menunjukkan ukuran kelompok di mana UTXO yang diteliti bersembunyi pada keluaran sebuah siklus, dengan mengetahui UTXO pada masukan, yaitu, jumlah koin yang tidak dapat dibedakan yang ada dalam kelompok ini.
+
+reviewed: false

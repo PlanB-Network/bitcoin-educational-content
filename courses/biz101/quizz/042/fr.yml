@@ -1,0 +1,9 @@
+question: Dans la plupart des juridictions, qu'est-ce qui déclenche un événement imposable dans le cas du bitcoin ?
+answer: La vente, l'échange ou l'utilisation de bitcoins comme moyen de paiement déclenche souvent un événement imposable.
+wrong_answers:
+  - Il s'agit simplement de détenir des bitcoins indéfiniment sans aucune transaction.
+  - Sauvegarde de votre portefeuille Bitcoin ou de vos clés.
+  - Consulter le cours du bitcoin en ligne.
+explanation: |
+  En règle générale, un événement imposable se produit lorsqu'une entreprise cède ou utilise ses bitcoins, et non pas simplement lorsqu'elle les détient. Chaque vente ou échange de bitcoins contre des biens, des services ou de la monnaie fiduciaire peut générer des gains ou des pertes imposables.
+reviewed: false

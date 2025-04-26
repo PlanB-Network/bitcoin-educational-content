@@ -1,0 +1,9 @@
+question: 0 XOR 1の結果は何ですか？
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  XORにおいて、0 XOR 1はビットが異なるため、結果は1になります。
+  レビュー済み: false

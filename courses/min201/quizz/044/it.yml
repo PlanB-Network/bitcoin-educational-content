@@ -1,9 +1,13 @@
-question: Cosa sono i "bitcoin vergini"?
-answer: Sono bitcoin appena minati che non sono mai stati spesi e non hanno alcuna storia associata a loro.
+question: Cosa sono i bitcoin vergini?
+answer: Bitcoin appena estratti che non sono mai stati spesi e non hanno alcuna cronologia associata.
 wrong_answers:
   - Bitcoin che sono stati utilizzati in attività illegali.
   - Bitcoin che sono stati persi o dimenticati.
   - Bitcoin che sono stati conservati in un portafoglio per molto tempo.
 explanation: |
-  I bitcoin vergini sono bitcoin appena minati che non sono mai stati spesi e non hanno alcuna storia associata a loro. Questi bitcoin sono spesso considerati più preziosi perché non sono mai stati contaminati, offrendo una certa garanzia contro il rifiuto da parte dei regolatori o delle principali piattaforme di scambio.
-reviewed: false
+  I bitcoin vergini sono bitcoin appena estratti che non sono mai
+  stati spesi e non hanno alcuna cronologia associata. Questi
+  bitcoin sono spesso considerati più preziosi perché non sono mai stati
+  contaminati, fornendo una certa garanzia contro il
+  rifiuto da parte dei regolatori o delle principali piattaforme di scambio.
+reviewed: true

@@ -1,9 +1,0 @@
-question: Jaké typy dětských klíčových párů mohou být odvozeny z rozšířeného soukromého klíče?
-answer: Rozšířený soukromý klíč umožňuje odvození všech dětských klíčů, jak veřejných, tak soukromých, v normálním nebo zpevněném režimu.
-wrong_answers:
-  - Rozšířený soukromý klíč umožňuje odvození pouze normálních dětských klíčů.
-  - Rozšířený soukromý klíč umožňuje odvození pouze zpevněných dětských klíčů.
-  - Rozšířený soukromý klíč neumožňuje odvození žádných dětských klíčů.
-explanation: |
-  Rozšířený soukromý klíč umožňuje odvození všech dětských klíčů, jak veřejných, tak soukromých, ať už v normálním nebo zpevněném režimu. To je v kontrastu s rozšířeným veřejným klíčem, který umožňuje odvození pouze normálních dětských veřejných klíčů.
-reviewed: false

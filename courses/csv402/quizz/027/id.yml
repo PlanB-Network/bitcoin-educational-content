@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan pemrograman berorientasi objek (OOP) yang setara dengan komponen Skema dalam konteks RGB?
+answer: Definisi kelas
+wrong_answers:
+  - Konstruktor kelas
+  - Menerapkan antarmuka
+  - Pembuatan prototipe metode
+explanation: |
+  Skema sesuai dengan definisi kelas dalam OOP, yang menggambarkan properti, metode, dan aturan logika bisnis.
+reviewed: false

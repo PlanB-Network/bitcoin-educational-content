@@ -1,0 +1,9 @@
+question: Mis on Marx'i pakutud ajaloo visioon?
+answer: Ajalugu on sotsiaalsete klasside vahelise võitluse tulemus
+wrong_answers:
+  - Ajalugu on lineaarne progress bourgeois ühiskonna suunas
+  - Ajalugu on kordumise tsükkel, kus vabaduse perioodidele järgnevad türannia perioodid
+  - Ajalugu määravad klimaatilised faktorid
+explanation: |
+  Marx näeb ajalugu konfliktide produktina sotsiaalsete klasside vahel, väites, et rõhuvate ja rõhutud klasside vahelised pinged on sotsiaalse ja majandusliku muutuse ajendiks läbi aegade.
+reviewed: false

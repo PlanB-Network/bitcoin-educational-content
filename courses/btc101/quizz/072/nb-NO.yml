@@ -1,0 +1,11 @@
+question: Hva er de tre hovedfunksjonene til en Bitcoin-lommebok?
+answer: Motta bitcoins, sende bitcoins, sikre dem mot hacking og tyveriforsøk
+wrong_answers:
+  - Lagre bitcoins, tillate sending av bitcoins, sikre dem mot hacking og tyveriforsøk
+  - Tillate mottak av bitcoins, lagre bitcoins, sikre dem mot hacking og tyveriforsøk
+  - Tillate mottak av bitcoins, tillate sending av bitcoins, selge bitcoins
+explanation: |
+  En Bitcoin-lommebok brukes til å samhandle med Bitcoin-nettverket. Dens tre
+  hovedfunksjoner er å tillate mottak av bitcoins, tillate sending av bitcoins, og sikre
+  dem mot hacking og tyveriforsøk.
+reviewed: true

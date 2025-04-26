@@ -1,9 +1,0 @@
-question: ¿Por qué se considera que Bitcoin es una herramienta ineficaz para el lavado de dinero?
-answer: Porque es una base de datos completamente rastreable.
-wrong_answers:
-  - Porque no es ampliamente aceptado.
-  - Porque es altamente volátil.
-  - Porque no está regulado.
-explanation: |
-  Bitcoin, al ser una base de datos completamente rastreable, hace que el lavado de dinero sea particularmente difícil. El uso de Bitcoin por parte de criminales puede ser rastreado.
-reviewed: false

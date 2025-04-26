@@ -5,7 +5,9 @@ wrong_answers:
   - Spotřebovávají méně elektřiny než CPU
   - Jsou levnější než CPU
 explanation: |
-  ASIC jsou čipy, srovnatelné s čipem CPU, nicméně jsou vyvinuty
-  k provádění pouze jednoho konkrétního typu výpočtu co nejefektivnějším způsobem.
-  V případě Bitcoin ASIC jsou navrženy pro výpočet algoritmu SHA256.
-reviewed: false
+  ASIC jsou čipy, srovnatelné s čipem CPU, avšak
+  jsou vyvinuty k provádění pouze jednoho konkrétního typu
+  výpočtu nejefektivnějším způsobem. V případě
+  Bitcoin ASIC jsou navrženy pro výpočet
+  algoritmu SHA256.
+reviewed: true

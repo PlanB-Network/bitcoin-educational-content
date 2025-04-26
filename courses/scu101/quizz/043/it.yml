@@ -1,9 +1,0 @@
-question: Perché non è consigliato utilizzare variazioni o aggiunte alle password?
-answer: Non sono sicure e possono essere facilmente indovinate.
-wrong_answers:
-  - Sono troppo lunghe e complesse.
-  - Sono difficili da ricordare.
-  - Non sono consentite dalla maggior parte dei servizi online.
-explanation: |
-  Le variazioni o aggiunte alle password non sono sicure perché possono essere facilmente indovinate. È meglio utilizzare password completamente casuali che non seguano schemi prevedibili.
-reviewed: false

@@ -1,80 +1,87 @@
+id: c0e4b271-7a5a-480f-8082-2b110de72b75
 author: Alfred Lansburgh
 level: advanced
-tags:
-  - finance
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3286
+    contributor_names:
+    reward: 0.56
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2893
+    contributor_names:
+    reward: 0.45
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1446
+    reward: 0.22
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3089
+    contributor_names:
+    reward: 0.45
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3286
+    contributor_names:
+    reward: 0.56
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2893
+    contributor_names:
+    reward: 0.45
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3089
+    contributor_names:
+    reward: 0.45
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3679
+    contributor_names:
+    reward: 0.79
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2893
+    contributor_names:
+    reward: 0.45
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3286
+    contributor_names:
+    reward: 0.56
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3679
+    contributor_names:
+    reward: 0.79
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3482
+    contributor_names:
+    reward: 0.68
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3482
+    contributor_names:
+    reward: 0.68
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3286
+    contributor_names:
+    reward: 0.56
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.56
+tags:
+  - finance
+  - historical
+  - good-practice
+contributor_names:
+  - Rogzy-DB

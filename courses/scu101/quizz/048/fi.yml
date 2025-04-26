@@ -1,9 +1,11 @@
-question: Mikä on yleinen toinen vaihe kaksivaiheisessa tunnistautumisessa (2FA)?
+question: Mikä seuraavista on hyvä ja turvallinen menetelmä kaksivaiheisessa tunnistautumisessa (2FA)?
 answer: Sovelluksen, kuten Google Authenticatorin tai Authyn, generoima koodi.
 wrong_answers:
-  - Puhelinsoitto tilin omistajalle
-  - Sähköposti tilin omistajalle
-  - Kirje lähetettynä tilin omistajan kotiosoitteeseen
+  - Puhelu tai SMS-koodi tilin haltijalle
+  - Sähköposti, jossa on 10 minuutin kuluttua vanheneva koodi tilin haltijalle
+  - Kirje lähetettynä tilin haltijan kotiosoitteeseen
 explanation: |
-  Kaksivaiheisen tunnistautumisen toinen vaihe voi olla väliaikainen koodi, joka lähetetään SMS-viestillä, sovelluksen generoima koodi tai fyysinen turva-avain.
-reviewed: false
+  Kaksivaiheisen tunnistautumisen toinen vaihe voi olla väliaikainen koodi, joka lähetetään
+  SMS: nä, sähköpostilla, sovelluksen generoimana koodina tai fyysisenä turva-avaimena. Kuitenkaan kaikki nämä menetelmät
+  eivät mahdollista saman turvallisuustason ylläpitämistä.
+reviewed: true

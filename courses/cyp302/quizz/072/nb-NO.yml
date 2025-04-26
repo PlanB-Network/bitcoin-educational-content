@@ -1,0 +1,8 @@
+question: Hvorfor anses skiftkryptering som symmetrisk kryptering?
+answer: Fordi den samme nøkkelen brukes for både kryptering og dekryptering
+wrong_answers:
+  - Fordi den bruker to nøkler, offentlig og privat
+  - Fordi den dekrypterer uten å bruke en nøkkel
+  - Fordi nøkkelen varierer med hver kryptering
+explanation: |
+  Skiftkryptering anses som symmetrisk kryptering fordi den bruker den samme nøkkelen til å kryptere og dekryptere en melding, og dermed sikrer konfidensialitet mellom partene som deler denne nøkkelen.

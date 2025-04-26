@@ -1,12 +1,13 @@
 question: What is the recommended use of a mobile wallet?
-answer: For daily expenses
+answer: Storing daily expenses.
 wrong_answers:
-  - For long-term savings
-  - For medium-term savings
-  - For large amounts
+  - Storing long-term savings.
+  - Storing medium-term savings.
+  - Storing large amounts.
 explanation: |
-  A mobile wallet is recommended for daily expenses because it is easy
-  to carry out transactions with it. However, it is not recommended for storing large
-  amounts or for long-term savings because it is potentially vulnerable to online
-  threats.
+  A mobile wallet is recommended for daily expenses because
+  it is easy to carry out transactions with it. However, it
+  is not recommended for storing large amounts or for
+  long-term savings because it is potentially vulnerable to
+  online threats.
 reviewed: true

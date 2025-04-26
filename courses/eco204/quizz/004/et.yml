@@ -1,0 +1,10 @@
+question: Mis on inflatsiooni definitsioon Larousse'i järgi?
+answer: Inflatsioon on nähtus, mida iseloomustab üldine ja pidev hinnataseme tõus.
+wrong_answers:
+  - Inflatsioon on nähtus, mida iseloomustab üldine ja pidev hinnataseme langus.
+  - Inflatsioon on nähtus, mida iseloomustab spetsiifiline ja pidev hinnataseme tõus.
+  - Inflatsioon on nähtus, mida iseloomustab üldine ja katkendlik hinnataseme tõus.
+explanation: |
+  Larousse'i järgi on inflatsioon määratletud kui nähtus, mida iseloomustab
+  üldine ja pidev hinnataseme tõus.
+reviewed: false

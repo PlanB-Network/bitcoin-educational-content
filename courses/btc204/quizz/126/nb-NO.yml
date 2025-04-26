@@ -1,0 +1,13 @@
+question: Hvilken kryptografisk metode kan brukes i coinswaps for å sikre sikkerheten til utvekslingen uten behov for tillit?
+
+answer: Adaptor Signatures
+
+wrong_answers:
+  - Symmetrisk kryptering
+  - ECDH
+  - Asymmetrisk kryptering
+
+explanation: |
+  For å utføre en coinswap, kan man bruke HTLCs eller PTLCs. Disse to protokollene fungerer på en lignende måte ved å bruke et tidsbegrenset system som sikrer at utvekslingen enten fullføres vellykket eller fullstendig avbrytes, noe som beskytter integriteten til midlene fra begge parter. Den viktigste forskjellen mellom HTLCs og PTLCs er at HTLCs bruker hasher og preimages for å sikre transaksjonen, mens PTLCs bruker Adaptor Signatures.
+
+reviewed: false

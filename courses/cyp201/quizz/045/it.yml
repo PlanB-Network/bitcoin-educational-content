@@ -1,9 +1,9 @@
-question: Qual è lo scopo dell'algoritmo ECDSA nel contesto delle transazioni Bitcoin?
-answer: Per convalidare le firme digitali.
+question: Qual è la funzione hash utilizzata per calcolare il checksum di una frase mnemonica?
+answer: SHA256
 wrong_answers:
-  - Per crittografare i dati delle transazioni.
-  - Per generare indirizzi Bitcoin.
-  - Per estrarre nuovi Bitcoin.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  L'algoritmo ECDSA (Elliptic Curve Digital Signature Algorithm) viene utilizzato nel contesto delle transazioni Bitcoin per convalidare le firme digitali. Ciò consente al destinatario di una transazione di confermare l'autenticità del messaggio firmato senza avere bisogno della chiave privata del mittente.
+  Il checksum di una frase mnemonica viene calcolato applicando un semplice hash SHA256 sull'entropia.
 reviewed: false

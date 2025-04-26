@@ -1,0 +1,10 @@
+question: Kuidas on Bitcoin tekstis kirjeldatud?
+answer: Mitme distsipliini objekt
+wrong_answers:
+  - Lihtne objekt
+  - Keeruline objekt
+  - Ühe distsipliini objekt
+explanation: >-
+  Bitcoini kirjeldatakse mitme distsipliini objektina, kuna see tõstatab küsimusi, mis on seotud mitmete valdkondadega, sealhulgas krüptograafia, mänguteooria, majandus
+  ja rahapoliitika, arvutiteadus, filosoofia, energia, seadused ja regulatsioonid.
+reviewed: false

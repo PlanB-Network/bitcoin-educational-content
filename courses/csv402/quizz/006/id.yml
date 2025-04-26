@@ -1,0 +1,9 @@
+question: Dalam RGB, di manakah komitmen ketika segel sekali pakai ditutup?
+answer: Dalam output dari transaksi yang menghabiskan titik keluar
+wrong_answers:
+  - Dalam input transaksi pengeluaran titik keluar
+  - Dalam skripSig dari transaksi yang menghabiskan titik keluar
+  - Dalam Saksi transaksi yang menghabiskan titik keluar
+explanation: |
+  Komitmen dimasukkan ke dalam output transaksi yang menghabiskan titik keluar yang menentukan segel sekali pakai.
+reviewed: false

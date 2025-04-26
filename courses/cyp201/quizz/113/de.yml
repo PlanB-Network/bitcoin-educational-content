@@ -1,9 +1,0 @@
-question: Was entspricht der Tiefe 0 in der HD Wallet-Struktur?
-answer: Der Master-Schlüssel und der Master-Kettencode
-wrong_answers:
-  - Die Kind-Schlüssel und der Kind-Kettencode
-  - Die externen und internen Ketten
-  - Die empfangenden Adressen in einer Standard-Wallet
-explanation: |
-  In der HD Wallet-Struktur entspricht die Tiefe 0 dem Master-Schlüssel und dem Master-Kettencode.
-reviewed: false

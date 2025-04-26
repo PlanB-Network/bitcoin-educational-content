@@ -1,0 +1,8 @@
+question: Apa peran utama dari PBKDF2 dalam Bitcoin?
+answer: Menghasilkan seed dari dompet HD
+wrong_answers:
+  - Mengautentikasi transaksi
+  - Mengenkripsi kunci privat
+  - Membuat alamat Bitcoin
+explanation: |
+  PBKDF2 digunakan untuk menghasilkan seed dari frasa mnemonik dan passphrase opsional.

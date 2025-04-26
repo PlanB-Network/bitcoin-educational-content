@@ -1,0 +1,8 @@
+question: 加密朋克创始成员约翰·吉尔莫在2009年1月对中本聪的发明提出了什么批评？
+answer: 比特币污染了地球
+wrong_answers:
+  - 比特币促进了逃税
+  - 比特币容易受到Sybil攻击
+  - 比特币是通缩的
+explanation: |
+  他[批评](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html)比特币消耗电力并产生二氧化碳（一种温室气体）。

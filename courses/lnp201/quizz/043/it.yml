@@ -1,9 +1,9 @@
-question: Chi paga le spese di chiusura in una chiusura cooperativa?
-answer: La persona che ha aperto il canale.
+question: Quali informazioni può includere Bob in una fattura per facilitare il routing?
+answer: Canali vicini con sufficiente liquidità o l'esistenza di canali privati
 wrong_answers:
-  - La persona che ha chiuso il canale.
-  - Entrambe le parti in modo equo.
-  - La persona con più SAT nel canale.
+  - La chiave privata dei nodi intermedi
+  - La mappa completa di tutti i canali della rete
+  - L'importo esatto della liquidità disponibile per ogni canale
 explanation: |
-  In una chiusura cooperativa, i due partecipanti concordano uno stato finale del canale. La persona che ha aperto il canale paga le spese di chiusura.
+  Indicando canali vicini con liquidità o rivelando canali privati, Bob aiuta Alice a scegliere percorsi con una migliore probabilità di successo.
 reviewed: false

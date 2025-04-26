@@ -1,0 +1,9 @@
+question: Was sind die wichtigsten Komponenten, die für den Betrieb eines RGB-kompatiblen Lightning-Knotens erforderlich sind?
+answer: Ein Bitcoind, ein Indexer und ein RGB-Proxyserver
+wrong_answers:
+  - Ein Lightning-Knoten, ein Indexer und ein IPFS-Server
+  - Eine mobile RGB-Geldbörse, ein RGB-Proxyserver und ein Bitcoin
+  - Web-Client, Indexer und RGB-Proxy-Server
+explanation: |
+  Um einen RGB-fähigen Lightning-Knoten zu betreiben, benötigen Sie einen Bitcoind-Knoten, um mit der Bitcoin-Blockchain zu interagieren, einen Indexer, um On-Chain-Transaktionen zu minen, und einen RGB-Proxy-Server, um den Austausch von Sendungen zwischen Peers zu erleichtern.
+reviewed: false

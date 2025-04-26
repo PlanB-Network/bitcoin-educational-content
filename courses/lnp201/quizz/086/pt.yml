@@ -1,9 +1,0 @@
-question: O que os comerciantes precisam para gerenciar a liquidez na Lightning Network?
-answer: Eles precisam de liquidez entrante de outros nós e atores.
-wrong_answers:
-  - Eles precisam abrir canais.
-  - Eles precisam manter um equilíbrio de liquidez em ambos os lados.
-  - Eles precisam comprar canais.
-explanation: |
-  Para os comerciantes na Lightning Network, gerenciar a liquidez envolve a necessidade de ter liquidez entrante de outros nós e atores. Isso significa que eles devem ter pessoas conectadas a eles.
-reviewed: false

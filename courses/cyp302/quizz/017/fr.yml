@@ -1,0 +1,9 @@
+question: Quelle est la différence entre une variable aléatoire discrète et continue ?
+answer: Une variable discrète a un nombre fini de résultats possibles, alors qu'une variable continue peut prendre une infinité de valeurs dans un intervalle
+wrong_answers:
+  - Une variable discrète change constamment de valeur, tandis qu'une variable continue reste stable
+  - Une variable discrète est spécifique aux expériences physiques réalisées, une variable continue est abstraite dans son intervalle
+  - Les variables discrètes n'existent pas en cryptographie moderne, seules les variables continues sont utilisées
+explanation: |
+  Les variables discrètes ont un ensemble fini de résultats, tandis que les variables continues peuvent prendre toutes les valeurs d'un intervalle, comme les réels entre 0 et 1.
+reviewed: false

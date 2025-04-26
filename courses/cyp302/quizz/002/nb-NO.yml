@@ -1,0 +1,8 @@
+question: Hva er spesifisiteten til de tre krypterte tekstene som er inneholdt i boksen?
+answer: De inneholder tall adskilt med komma
+wrong_answers:
+  - De er alle skrevet med vanlige bokstaver
+  - De bruker ukjente symboler
+  - De er skrevet på flere språk
+explanation: |
+  De tre krypterte tekstene består av serier med tall adskilt av komma, og krever en nøkkel for å bli dekryptert.

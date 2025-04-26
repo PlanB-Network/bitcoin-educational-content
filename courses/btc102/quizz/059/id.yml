@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari bitcoiner yang paranoid?
+answer: Untuk melindungi privasi mereka
+wrong_answers:
+  - Untuk mengumpulkan satoshi dengan cepat
+  - Untuk memaksimalkan keuntungan trading
+  - Untuk menyimpan bitcoin mereka dalam jangka panjang
+explanation: |
+  Bitcoiner yang paranoid terutama berusaha untuk menghindari pelacakan transaksi dan identitas mereka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: RGBエコシステムにおけるrgb-lightning-nodeとは？
+answer: RGB互換のLightningチャンネルを管理するデーモン
+wrong_answers:
+  - RGB資産を管理するモバイル・ウォレット
+  - RGBログを交換するプロキシサーバー
+  - ビットコインにおけるRGB資産のマイニングツール
+explanation: |
+  rgb-lightning-nodeは、エンゲージメントトランザクションにRGBの状態遷移を追加することで、RGBアセットをLightningチャネルに統合するために設計されたRustデーモンです。
+reviewed: false

@@ -1,11 +1,8 @@
-question: Jaký je účel Návrhů na vylepšení Bitcoinu (BIPs)?
-answer: Jsou to návrhy na vylepšení, které zvyšují funkčnost a bezpečnost HD peněženek.
+question: Jaký je účel mnemonické fráze v Bitcoin HD peněžence?
+answer: Deterministicky odvodit všechny klíče
 wrong_answers:
-  - Jsou to návrhy na zvýšení hodnoty Bitcoinu.
-  - Jsou to návrhy na změnu procesu těžby Bitcoinu.
-  - Jsou to návrhy na regulaci používání Bitcoinu.
+  - K přímému podepisování transakcí
+  - K šifrování Bitcoinových adres
+  - K generování hash pro UTXO
 explanation: |
-  Návrhy na vylepšení Bitcoinu (BIPs) jsou protokoly, které mají za cíl zlepšit
-  funkčnost a bezpečnost HD peněženek. Například BIP32 představil koncept
-  deterministicky a hierarchicky odvozených klíčů.
-reviewed: false
+  Mnemonická fráze umožňuje odvození všech soukromých a veřejných klíčů v peněžence, což usnadňuje zálohování a obnovu.

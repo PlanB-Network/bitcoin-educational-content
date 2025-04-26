@@ -1,9 +1,0 @@
-question: Qual è l'obiettivo dei nodi di routing in termini di liquidità sulla rete Lightning?
-answer: Essere bilanciati con la liquidità su entrambi i lati
-wrong_answers:
-  - Aprire canali
-  - Connettersi ad altri nodi
-  - Acquistare canali
-explanation: |
-  Per i nodi di routing sulla rete Lightning, l'obiettivo in termini di liquidità è essere bilanciati con la liquidità su entrambi i lati. Mirano anche ad avere una buona connessione con molti nodi per essere utilizzati il più possibile.
-reviewed: false

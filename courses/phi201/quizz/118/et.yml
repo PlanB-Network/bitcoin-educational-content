@@ -1,0 +1,9 @@
+question: Kes pakkus välja idee konkurentsist era-valuutade vahel?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek pakkus välja idee konkurentsist era-valuutade vahel, et vähendada valitsuste mõju valuutale ja soodustada rahalist stabiilsust turu põhjal, mitte tsentraliseeritud poliitikate alusel.
+reviewed: false

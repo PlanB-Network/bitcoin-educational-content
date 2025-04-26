@@ -1,0 +1,9 @@
+question: Hva er Halveringen i konteksten av Bitcoin?
+answer: En funksjon i Bitcoins kode som halverer belønningen for gruvedrift hvert fjerde år
+wrong_answers:
+  - En prosess for å øke den globale adopsjonen av Bitcoin
+  - En mekanisme som forhindrer at bitcoins verdi kollapser
+  - Et uttrykk brukt for å beskrive hendelsen når bitcoins pris skyter i været
+explanation: |
+  Halveringen er en funksjon i Bitcoins kode som reduserer belønningen for gruvedrift med halvparten omtrent hvert fjerde år. Denne hendelsen påvirker inntektene til gruvearbeidere og legger oppadgående press på prisen på bitcoin.
+reviewed: true

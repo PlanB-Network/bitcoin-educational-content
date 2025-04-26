@@ -1,0 +1,9 @@
+question: Jaká je funkce rozhraní ve smlouvě RGB?
+answer: Usnadněte čtení a manipulaci se smluvními údaji
+wrong_answers:
+  - Spouštění validačních skriptů v blockchainu
+  - Ukládání dat Genesis na straně zákazníka
+  - Definice přísného systému typů pro sestavy
+explanation: |
+  Cílem rozhraní je prezentovat informace o smlouvě způsobem, který je pro uživatele a software srozumitelný, aniž by byla ovlivněna obchodní logika.
+reviewed: false

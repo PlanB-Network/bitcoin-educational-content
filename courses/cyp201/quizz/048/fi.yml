@@ -1,9 +1,8 @@
-question: Mikä on Bitcoin-lompakon pääasiallinen toiminto?
-answer: Se viittaa yksityisten kryptografisten avainten kokoelmaan, jotka on johdettu yhdestä pääavaimesta.
+question: Miksi 24 sanan muistisanaa pidetään usein tarpeettomana Bitcoin-lompakossa?
+answer: Johdetut avaimet tarjoavat vain 128 bitin turvallisuuden
 wrong_answers:
-  - Se on fyysinen laite, joka säilyttää kryptovaluuttoja.
-  - Se on digitaalinen alusta kryptovaluuttojen ostamiseen ja myymiseen.
-  - Se on ohjelmisto, joka louhii uusia bitcoineja.
+  - Ohjelmisto ei tue 24 sanan lauseita
+  - Se ei salli julkisten avainten johdantoa
+  - Lyhyempiä lauseita ei ole standardoitu
 explanation: |
-  Bitcoin-lompakko, erityisesti Hierarkkinen Deterministinen Lompakko (HD-lompakko), on yksityisten kryptografisten avainten kokoelma, jotka on johdettu yhdestä pääavaimesta. Nämä avaimet ovat olennaisia kryptovaluutan omistajuuden kannalta.
-reviewed: false
+  Vaikka 24 sanan lause tarjoaa 256 bitin turvallisuuden, johdetut Bitcoin yksityisavaimet takaavat vain 128 bitin turvallisuuden, mikä tekee ylimääräisestä tarpeetonta.

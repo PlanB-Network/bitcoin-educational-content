@@ -1,12 +1,9 @@
-question: È possibile imbrogliare pubblicando uno stato precedente in una transazione di impegno?
-answer: Sì
+question: Cosa succede se un pagamento tramite HTLC non viene completato entro il tempo assegnato?
+answer: Il pagamento viene annullato e i fondi ritornano al mittente.
 wrong_answers:
-  - "No"
-  - Solo se hanno la chiave di revoca.
-  - Solo se hanno creato la transazione con il Timelock.
+  - Il pagamento viene trattenuto dall'ultimo nodo intermediario
+  - I fondi vengono distribuiti a tutti i nodi nel percorso
+  - I fondi vengono bloccati permanentemente
 explanation: |
-  È possibile imbrogliare pubblicando uno stato precedente in una transazione di impegno
-  perché entrambi i partecipanti hanno la pre-firma della transazione non pubblicata.
-  Tuttavia, sono state messe in atto misure come il Timelock e la chiave di revoca per prevenire
-  questo.
+  Se un HTLC scade senza che il segreto venga rivelato, il pagamento viene annullato e i fondi ritornano al mittente, impedendo così a qualsiasi nodo intermediario di trattenere i fondi.
 reviewed: false

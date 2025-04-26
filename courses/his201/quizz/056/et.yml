@@ -1,0 +1,9 @@
+question: Millised olid tarkvaras septembris 2010 ära tuntud standardse skripti väljundi mustrid?
+answer: Kviitung avaliku võtme kaudu (P2PK) ja kviitung aadressi kaudu (P2PKH)
+wrong_answers:
+  - Kviitung aadressi kaudu (P2PKH) ja kviitung multisignatuuri skripti kaudu (P2MS)
+  - Kviitung aadressi kaudu (P2PKH) ja kviitung skripti kaudu (P2SH)
+  - Kviitung avaliku võtme kaudu (P2PK) ja kviitung skripti kaudu (P2SH)
+explanation: |
+  Need olid kaks tüüpi, mida kasutati alates Bitcoini algusest. P2MS tüüp muudeti standardiks märtsis 2012. P2SH tüüp lisati protokolli aprillis 2012.
+reviewed: false

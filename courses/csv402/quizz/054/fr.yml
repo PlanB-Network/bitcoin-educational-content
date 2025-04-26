@@ -1,0 +1,9 @@
+question: Qu'est-ce que RGBlib dans l'écosystème RGB ?
+answer: Une bibliothèque pour la création d'applications gérant des actifs RGB
+wrong_answers:
+  - Un portefeuille Android dédié à la gesiton d'actifs RGB
+  - Un client alternatif du protocole RGB
+  - Un site web pour afficher les NFT émis sur RGB
+explanation: |
+  RGBlib offre une interface simplifiée pour les développeurs, leur permettant de gérer l'émission, le transfert et la validation des actifs RGB sans avoir à maîtriser l'ensemble des détails techniques.
+reviewed: false

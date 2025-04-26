@@ -28,9 +28,9 @@ Bitrefill非常容易使用。要开设账户，你只需要提供一个电子�
 ![BITREFILL](assets/notext/05.webp)
 如果你想了解如何轻松创建一个安全的电子邮箱和如何管理你的密码，我推荐查阅这2个其他教程：
 
-https://planb.network/tutorials/others/proton-mail
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/others/bitwarden
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 然后，点击“*创建账户*”按钮。
 ![BITREFILL](assets/notext/06.webp)
@@ -49,7 +49,7 @@ https://planb.network/tutorials/others/bitwarden
 ![BITREFILL](assets/notext/13.webp)
 要了解更多关于如何使用双因素认证来保护您的在线账户的信息，我推荐您查看这个教程：
 
-https://planb.network/tutorials/others/authy
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## 如何在Bitrefill上用BTC购买礼品卡？
 
@@ -88,4 +88,4 @@ https://planb.network/tutorials/others/authy
 
 如果您希望为比特币的普及做出贡献，并鼓励独立商家采用这种支付方式，我推荐查阅我们关于瑞士比特币支付的完整教程。这是一个一体化的BTC支付处理器解决方案，安装和日常管理都很简单：
 
-https://planb.network/tutorials/merchant/swiss-bitcoin-pay-2
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

@@ -1,0 +1,9 @@
+question: Hvilket svar representerer en av de to hovedgrenene innen kryptografi?
+answer: Symmetrisk kryptografi
+wrong_answers:
+  - Kryptologi
+  - Homomorf kryptering
+  - Kryptoanalyse
+explanation: |
+  Symmetrisk kryptografi er en hovedgren innen kryptografi, som involverer krypteringssystemer hvor en enkelt nøkkel brukes til både å kryptere og dekryptere meldinger.
+reviewed: false

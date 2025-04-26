@@ -1,9 +1,11 @@
-question: ¿Cuál es el propósito de implementar la autenticación de dos factores (2FA)?
-answer: Para proteger tus cuentas en línea contra accesos no autorizados.
+question: ¿Cuál es el propósito de implementar 2FA?
+answer: Proteger tus cuentas en línea contra el acceso no autorizado.
 wrong_answers:
-  - Para dificultar el acceso a tu propia cuenta.
-  - Para rastrear tus actividades en línea.
-  - Para aumentar la velocidad de tu conexión a internet.
+  - Hacer que sea más difícil para ti acceder a tu propia cuenta
+  - Rastrear tus actividades en línea
+  - Aumentar la velocidad de tu conexión a internet
 explanation: |
-  La autenticación de dos factores (2FA) añade una capa adicional de seguridad a tus cuentas en línea. Incluso si un hacker obtiene tu contraseña, no podrán acceder a tu cuenta sin el segundo factor de verificación.
-reviewed: false
+  2FA añade una capa extra de seguridad a tus cuentas en línea.
+  Incluso si un hacker obtiene tu contraseña, no podrán acceder
+  a tu cuenta sin el segundo factor de verificación.
+reviewed: true

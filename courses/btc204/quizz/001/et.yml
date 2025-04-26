@@ -1,0 +1,9 @@
+question: Mis on Bitcoinis UTXO?
+answer: Bitcoini osa, mida ei ole veel kulutatud.
+wrong_answers:
+  - Bitcoin aadress fondide vastuvõtmiseks.
+  - Eriline tüüp Bitcoin rahakotist.
+  - Krüpteerimisalgoritm Bitcoinile.
+explanation: |
+  UTXO on kulutamata tehingu väljund, seega on see sisuliselt “bitcoini osa”.
+reviewed: false

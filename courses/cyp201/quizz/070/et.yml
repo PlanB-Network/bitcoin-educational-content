@@ -1,0 +1,9 @@
+question: Mida tähistab sügavus 0 HD rahakottide hierarhias?
+answer: Peavõti ja peamine ahelakood
+wrong_answers:
+  - Väliste aadresside ahel
+  - Vaikimisi konto
+  - Valuuta tüüp
+explanation: |
+  Sügavus 0 vastab peavõtmele ja peamisele ahelakoodile, mis on kõikide tuletiste lähtepunktid HD rahakotis.
+reviewed: false

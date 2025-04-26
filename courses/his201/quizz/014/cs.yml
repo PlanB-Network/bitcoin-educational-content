@@ -1,0 +1,9 @@
+question: Kdo vynalezl koncept důkazu práce (proof of work)?
+answer: Cynthia Dwork a Moni Naor
+wrong_answers:
+  - Markus Jakobsson a Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  Poprvé popsali tento koncept v roce 1992. Markus Jakobsson a Ari Juels vymysleli termín důkaz práce. Adam Back později tento koncept adoptoval pro Hashcash.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je povaha problému faktorizace, který leží v základu zabezpečení asymetrických kryptosystémů, jako je RSA?
+answer: Faktorizace čísla na dva velmi velké prvočinitele
+wrong_answers:
+  - Rozklad čísla na postupné faktory čísla 2
+  - Redukce čísla na jeho nejmenší dělitele
+  - Násobení dvou velkých prvočísel za účelem získání součinu
+explanation: |
+  Zabezpečení RSA je založeno na obtížnosti faktorizace velkého čísla (součinu dvou velkých prvočísel) na jeho dva prvočinitele, úkol, který je bez soukromého klíče téměř nemožný.
+reviewed: false

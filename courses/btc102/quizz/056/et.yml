@@ -1,0 +1,9 @@
+question: Millist meetodit kasutatakse tehingute On-Chain jälgitavuse kaitsmiseks?
+answer: CoinJoin ja PayJoin tehnikate kasutamine
+wrong_answers:
+  - Sama vastuvõtva Address korduvkasutamine
+  - UTXOde sagedane konsolideerimine
+  - Deponeerimine Wallet hoiuleandmisse
+explanation: |
+  Coinjoins ja payjoins aitavad parandada On-Chain tegevuse privaatsust.
+reviewed: false

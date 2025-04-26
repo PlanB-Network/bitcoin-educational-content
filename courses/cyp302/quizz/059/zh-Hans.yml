@@ -1,0 +1,8 @@
+question: 哪位法国数学家在19世纪引入了群的概念？
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation:
+  Évariste Galois 发展了群论来研究高于五次的多项式方程的解。

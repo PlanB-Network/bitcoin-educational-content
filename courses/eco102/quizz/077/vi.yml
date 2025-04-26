@@ -1,0 +1,9 @@
+question: Hạn chế chính của sự can thiệp của nhà nước theo Bastiat là gì?
+answer: Những người đưa ra quyết định công cộng không phải là những người chịu hậu quả
+wrong_answers:
+  - Những người đưa ra quyết định công cộng quá yêu tiền
+  - Những người đưa ra quyết định công cộng không đủ thông minh
+  - Những người đưa ra quyết định công cộng thiếu dũng khí
+explanation: |
+  Bastiat chỉ trích sự can thiệp của nhà nước bằng cách nhấn mạnh rằng những người đưa ra quyết định công cộng không phải chịu hậu quả của chính quyết định của họ, dẫn đến những lựa chọn không có trách nhiệm.
+reviewed: false

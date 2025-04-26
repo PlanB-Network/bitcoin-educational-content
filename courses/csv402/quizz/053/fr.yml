@@ -1,0 +1,9 @@
+question: Comment RGB ouvre-t-il la voie à la création d'un DEX layer-2 ?
+answer: En permettant l'échange d'actifs off-chain via des canaux Lightning et des swaps atomiques
+wrong_answers:
+  - En permettant l'utilisation d'un échange centralisé pour toutes les transactions RGB
+  - En permettant l'échange d'actifs via des smart contract on-chain
+  - En permettant l'échange d'actifs inter-blockchains via des swaps atomiques
+explanation: |
+  La capacité d'effectuer des swaps atomiques et des échanges via des canaux Lightning offre la possibilité de créer des DEX décentralisés, sans les inconvénients des échanges on-chain.
+reviewed: false

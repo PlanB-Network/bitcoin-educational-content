@@ -1,9 +1,0 @@
-question: Quel est le rôle de l'AMF en France?
-answer: Elle régule les marchés financiers.
-wrong_answers:
-  - Elle régule le système éducatif.
-  - Elle régule le système de santé.
-  - Elle régule le système de transport.
-explanation: |
-  "L'AMF (Autorité des marchés financiers) est l'organisme de régulation des marchés français."
-reviewed: false

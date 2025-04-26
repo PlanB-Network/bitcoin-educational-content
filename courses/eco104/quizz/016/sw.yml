@@ -1,0 +1,12 @@
+question: Unapojitunza, ni jambo gani la kwanza unapaswa kufanya ili kupunguza hatari ya hasara?
+answer: Hifadhi nakala ya maneno yako ya kurejesha Wallet ya seed
+wrong_answers:
+  - Shiriki funguo zako za faragha na mtu unayemwamini
+  - Zingatia maneno yako ya urejeshaji ya seed na uyahifadhi kwenye kompyuta yako
+  - Zima uthibitishaji wa vipengele viwili (2FA)
+explanation: |
+  Kwanza kabisa, hifadhi nakala ya Wallet yako unapojitunza.
+  Pochi za vifaa huja na maneno ya kurejesha seed, seti ya maneno ambayo
+  inaweza kutumika kurejesha funguo zako za faragha endapo kifaa chako kitapotea au kuharibika.
+  Create a physical copy, such as a metal [seed plate](https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), of this seed phrase and
+reviewed: true

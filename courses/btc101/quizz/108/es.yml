@@ -1,9 +1,11 @@
-question: ¿Cuál es el propósito de una billetera de Bitcoin?
-answer: Para almacenar la clave privada con el fin de realizar transacciones con bitcoins.
+question: ¿Cuál es el propósito de un monedero de Bitcoin?
+answer: Almacenar claves privadas para realizar transacciones con bitcoins.
 wrong_answers:
-  - Para utilizar los recursos del dispositivo para minar bitcoins.
-  - Para comprar bitcoins con la clave pública.
-  - Para almacenar bitcoins en un dispositivo.
+  - Usar los recursos del dispositivo para minar bitcoins.
+  - Comprar bitcoins a través de la clave pública.
+  - Almacenar bitcoins en un dispositivo.
 explanation: |
-  Las billeteras de Bitcoin son software que te permiten almacenar las claves privadas que te permiten realizar transacciones con tus bitcoins.
-reviewed: false
+  Los monederos de Bitcoin son un tipo de software que se utiliza para
+  almacenar las claves privadas que te permiten realizar transacciones
+  con tus bitcoins.
+reviewed: true

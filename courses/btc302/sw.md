@@ -1,4 +1,4 @@
----silvia
+---
 name: Kuunda Jumuiya ya Bitcoin au Mkutano
 goal: Unda na upange jumuiya ya Bitcoin kwa urahisi au mkutano
 objectives: 

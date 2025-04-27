@@ -64,7 +64,7 @@ Cela attire des utilisateurs expérimentés enthousiastes à contribuer au logic
 
 ### Avant de commencer
 
-Ce cours se compose de plusieurs parties. Beaucoup sera pris en charge par votre enseignant en classe, des environnements de démonstration auxquels vous aurez accès, un serveur hébergé pour vous-même, et éventuellement un nom de domaine. Si vous suivez ce cours de manière indépendante, veuillez être conscient que les environnements étiquetés comme DEMO ne seront pas disponibles pour vous.
+Ce cours se compose de plusieurs parties. Plusieurs d’entre elles seront prises en charge par votre enseignant en classe, des environnements de démonstration auxquels vous aurez accès, un serveur hébergé pour vous-même, et éventuellement un nom de domaine. Si vous suivez ce cours de manière indépendante, veuillez être conscient que les environnements étiquetés comme DEMO ne seront pas disponibles pour vous.
 NB. Si vous suivez ce cours en classe, les noms de serveurs peuvent différer en fonction de votre configuration de classe. Les variables dans les noms de serveurs peuvent être différentes à cause de cela.
 
 ### Structure du cours

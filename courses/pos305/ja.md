@@ -27,7 +27,7 @@ BTCPay Server Foundationによって制作されました
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
-BTCPay Server に関する BTC305 コースへようこそ！
+BTCPay Server に関する POS 305 コースへようこそ！
 
 このトレーニングの目的は、ビジネスや組織内で BTCPay Server をインストール、設定、および使用する方法を教えることです。BTCPay Server は、ビットコインの支払いを自律的に、安全に、そして経済的に処理できるオープンソースのソリューションです。このコースは、BTCPay Server の自己ホスティングを完全にマスターし、日常の業務に統合したいと考えている上級ユーザーを対象としています。
 

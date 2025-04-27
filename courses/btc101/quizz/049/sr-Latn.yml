@@ -1,0 +1,9 @@
+question: Koja je prva faza koja se javlja u fenomenu hiperinflacije?
+answer: Gubitak poverenja u valutu.
+wrong_answers:
+  - Kolaps valute i povećanje cena.
+  - Zaoštreni krug štampanja novca.
+  - Nova valuta se pojavljuje.
+explanation: |
+  Prva faza hiperinflacije je gubitak poverenja u valutu.
+reviewed: true

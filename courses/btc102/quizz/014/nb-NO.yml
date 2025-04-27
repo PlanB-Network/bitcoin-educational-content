@@ -1,10 +1,9 @@
-question: Hva er hovedformålet med å bruke verktøy som Signal, Tor og ProtonMail?
-answer: Å verne om og beskytte ditt privatliv
+question: Hvorfor anbefales det å investere bare det du har råd til å tape?
+answer: For å bevare din økonomiske sikkerhet i tilfelle tap
 wrong_answers:
-  - For å øke internettforbindelsen din
-  - For å beskytte datamaskinen din mot virus
-  - For å gi gratis tilgang til betalte tjenester
+  - For å maksimere fortjenesten raskt i et bear-marked
+  - For å diversifisere investeringene dine massivt
+  - Å låne for å kunne investere mer
 explanation: |
-  Verktøy som Signal, Tor og ProtonMail brukes for å verne om og beskytte
-
-  ditt privatliv. De er en del av tiltakene for å forbedre vaner for nettsikkerhet.
+  Hvis du investerer over evne (dvs. utover sparekapasiteten din), utsetter du deg for en for høy finansiell risiko.
+reviewed: false

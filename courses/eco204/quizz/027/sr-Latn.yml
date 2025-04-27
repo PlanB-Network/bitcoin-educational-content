@@ -1,0 +1,11 @@
+question: Koji je bio uobičajen metod koji su vlade koristile da održe privid normalnosti tokom ekonomskog kolapsa?
+answer: Primoravanje trgovaca da drže svoje prodavnice otvorenim.
+wrong_answers:
+  - Podsticanje stranih investicija.
+  - Smanjenje poreza.
+  - Povećanje javne potrošnje.
+explanation: |
+  Kada ekonomija propadne i valuta izgubi svoju vrednost, vlade
+  mogu pribegavati drastičnim merama kako bi održale privid normalnosti. Jedna od takvih mera
+  je prisiljavanje trgovaca da drže svoje radnje otvorenima.
+reviewed: false

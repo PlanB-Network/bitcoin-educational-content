@@ -1,0 +1,9 @@
+question: Ilu opiekunów ma Bitcoin Core w 2025 roku?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  W 2025 r. jest pięciu opiekunów: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao i Ryan Ofsky.
+reviewed: false

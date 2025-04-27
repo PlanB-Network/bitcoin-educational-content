@@ -1,11 +1,9 @@
-question: Jaká je hlavní role těžařů v síti Bitcoin?
-answer: Zajišťují bezpečnost sítě prováděním procesů proof-of-work Bitcoinu
+question: Jaký je původ termínu hodler?
+answer: Chybný zápis slova "hold"
 wrong_answers:
-  - Vytvářejí nové bitcoiny
-  - Regulují cenu Bitcoinu
-  - Kontrolují síť Bitcoinu
+  - Zkratka pro "hold"
+  - Zkratka "Hot Wallet"
+  - Zkrácení "řetězce HODL"
 explanation: |
-  Obsah kapitoly vysvětluje, že těžaři jsou zodpovědní za zabezpečení
-  sítě Bitcoin. Používají elektřinu k provádění procesů proof-of-work Bitcoinu,
-  což vytváří nový blok.
+  Výraz "hodler" pochází z překlepu v Bitcoin Talk, kde bylo slovo "hold" chybně napsáno jako "HODL" pro vyjádření dlouhodobého držení.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Ni tofauti gani kuu kati ya nadharia za Locke na Rousseau juu ya uhuru?
+answer: Locke aliamini kwamba enzi kuu ilikuwa na mipaka na haki za asili, ambapo Rousseau aliamini kuwa haina kikomo.
+wrong_answers:
+  - Locke aliamini kwamba enzi kuu ni ya mfalme, wakati Rousseau aliamini kuwa ni ya watu.
+  - Locke aliamini kuwa aina bora ya serikali ni demokrasia, huku Rousseau akiamini kuwa aina bora ya serikali ni jamhuri.
+  - Majibu mengine yote ni sahihi.
+explanation: |
+  Locke alidai kuwa mamlaka ya serikali inabanwa na haki za asili za watu binafsi, ilhali Rousseau alihisi kuwa uhuru wa jumla unaweza kutekelezwa bila mipaka kwa jina la utashi wa pamoja.
+reviewed: false

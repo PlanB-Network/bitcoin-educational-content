@@ -1,0 +1,9 @@
+question: Kako se osigurava bezbednost RGB tranzicije u Lightning kanalu ako se emituje zastarelo stanje?
+answer: Kroz kaznene mehanike Kanala Munje
+wrong_answers:
+  - Automatskim otkazivanjem svih prethodnih transakcija
+  - Kroz kaznene mehanike RGB protokola
+  - Kroz intervenciju izdavaoca sredstva RGB putem njegovog potpisa povezanog sa Genesis
+explanation: |
+  Klasični kazneni mehanizam Lightning Network osigurava da se širenje starog stanja može kazniti povratom svih uključenih sredstava, uključujući imovinu RGB.
+reviewed: false

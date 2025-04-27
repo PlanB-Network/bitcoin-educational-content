@@ -1,0 +1,10 @@
+question: Ni heuristic gani inaweza kutumika kuunganisha pembejeo zote za ujumuishaji?
+answer: CIOH.
+wrong_answers:
+  - Address kutumia tena.
+  - Pato kubwa zaidi.
+  - Malipo ya pande zote.
+explanation: |
+  Mtazamaji wa nje anaweza kutumia CIOH kukisia kuwa ingizo zote za ujumuishaji ni za huluki moja.
+  
+reviewed: false

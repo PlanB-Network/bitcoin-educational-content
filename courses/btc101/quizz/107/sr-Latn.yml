@@ -1,0 +1,11 @@
+question: Koja je uloga notara u kontekstu Bitcoin nasleđivanja?
+answer: Oni osiguravaju usklađenost sa porezima.
+wrong_answers:
+  - Oni upravljaju vašim bitkoinima nakon vaše smrti.
+  - Oni modifikuju vaš plan nasledstva.
+  - Oni osiguravaju vaše bitkoine u sefu.
+explanation: |
+  U kontekstu Bitcoin nasleđivanja, važno je
+  razgovarati o nasleđivanju bitkoina sa notarom kako bi se osigurala
+  usklađenost sa poreskim propisima.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja tehnika pomaže u zaštiti od rizika praćenja izazvanog KYC?
+answer: CoinJoin transakcije
+wrong_answers:
+  - Korišćenje VPN-a
+  - Korišćenje Full node
+  - Validacija putem Proof of Work
+explanation: |
+  Coinjoins imaju efekat prekidanja istorije novčića, što vam pomaže da se suprotstavite riziku praćenja povezanog sa KYC.
+reviewed: false

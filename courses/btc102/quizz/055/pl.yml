@@ -1,0 +1,9 @@
+question: Jaki nośnik jest zalecany do bezpiecznego tworzenia kopii zapasowych frazy Mnemonic?
+answer: Metalowa kopia zapasowa z zapieczętowaną nieprzezroczystą kopertą
+wrong_answers:
+  - Szyfrowana pamięć USB
+  - Papierowa kopia zapasowa z przezroczystym etui
+  - Tworzenie kopii zapasowych w bezpiecznej chmurze
+explanation: |
+  Odporna na awarie metalowa kopia zapasowa zapewnia długotrwałą ochronę przed uszkodzeniem i nieautoryzowanym dostępem. Zapieczętowana nieprzezroczysta koperta pozwala zweryfikować, czy ktokolwiek uzyskał dostęp do frazy Mnemonic.
+reviewed: false

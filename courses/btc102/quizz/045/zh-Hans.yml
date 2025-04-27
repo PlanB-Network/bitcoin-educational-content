@@ -1,9 +1,9 @@
-question: 比特币核心开发者的主要角色是什么？
-answer: 他们负责比特币协议及其核心功能的主要开发
+question: 为什么建议定期从 Hot Wallet 向 Hardware Wallet 转移资金？
+answer: 降低黑客攻击风险
 wrong_answers:
-  - 他们控制比特币网络
-  - 他们创造新的比特币
-  - 他们调控比特币的价格
+  - 增加 Wallet 的流动性
+  - 减少交易费用
+  - 优化 UTXO 隐私
 explanation: |
-  章节内容解释了比特币核心开发者负责比特币协议及其核心功能的主要开发。他们不控制比特币网络，不创造新的比特币，也不调控比特币的价格。
+  转移到 Hardware Wallet 可以离线存储私钥，从而确保资金安全。
 reviewed: false

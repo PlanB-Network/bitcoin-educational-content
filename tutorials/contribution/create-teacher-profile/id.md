@@ -78,7 +78,6 @@ Isi informasi yang diperlukan (harap dicatat bahwa semua informasi ini akan dipu
 
 - Nama file guru Anda (gunakan nama depan dan belakang atau nama samaran, dengan huruf kecil);
 - Nama atau nama panggilan Anda ;
-- Pembuatan login Anda secara acak ;
 - Situs web dan profil Anda X (opsional) ;
 - Lightning Address untuk menerima sumbangan dari pembaca (opsional) ;
 - Pilih 2 atau 3 tag dari daftar;

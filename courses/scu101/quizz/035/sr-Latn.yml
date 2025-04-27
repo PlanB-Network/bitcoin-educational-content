@@ -1,0 +1,12 @@
+question: Koja je svrha pokušaja phishinga?
+answer: Da bi se izvukle osetljive informacije kao što su vaše akreditive i lozinke.
+wrong_answers:
+  - Da vam šalju neželjene e-poruke.
+  - Da vam proda proizvode ili usluge.
+  - Da vas pozovemo na događaje ili vebinare.
+explanation: |
+  Pokušaji phishinga usmereni su na izvlačenje osetljivih
+  informacija kao što su vaše akreditive i lozinke. Hakeri
+  koriste razne taktike kao što su lažni emailovi da vas prevare
+  da otkrijete svoje informacije.
+reviewed: true

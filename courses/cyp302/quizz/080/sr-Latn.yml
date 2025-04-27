@@ -1,0 +1,9 @@
+question: Šta je strim šifra u kriptografiji?
+answer: Simetrična enkripcija koja generiše tok ključeva iste dužine kao i poruka
+wrong_answers:
+  - Asimetrična enkripcija zasnovana na prostim brojevima
+  - Šifrovanje koje koristi više različitih ključeva za dešifrovanje
+  - Enkripcija koja segmentira poruku u blokove podataka
+explanation: |
+  Stream šifra je simetrična enkripcija u kojoj se tok ključeva iste dužine kao poruka kombinuje sa porukom kako bi se proizveo šifrovani tekst.
+reviewed: false

@@ -1,8 +1,9 @@
-question: Mikä on pääsyy bitcoinien menettämiseen kyseisen luvun mukaan?
-answer: Heikko verkkoturvallisuuden hallinta
+question: Mitä käsite itsehuoltajuus tarkoittaa Bitcoin-maailmassa?
+answer: Yksityisten avainten säilyttäminen itse
 wrong_answers:
-  - Kryptovaluuttahuijaukset
-  - Taloudelliset huijaukset
-  - Tietokoneen vika
+  - Avainten antaminen Exchange-erikoisalustan haltuun
+  - Avainten antaminen investointipankille
+  - Julkisten avainten säilyttäminen itse
 explanation: |
-  Luku mainitsee, että kryptovaluuttahuijausten ja taloudellisten huijausten lisäksi pääsyy bitcoinien menettämiseen liittyy heikkoon verkkoturvallisuuden hallintaan.
+  Itsesäilytys varmistaa, että käyttäjä säilyttää bitcoiniensa täyden hallinnan omien yksityisten avaintensa avulla.
+reviewed: false

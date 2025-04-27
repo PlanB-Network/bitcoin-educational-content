@@ -1,0 +1,8 @@
+question: Na šta je slična kriva usvajanja Bitcoin?
+answer: S-krivulja.
+wrong_answers:
+  - Kriva U-oblik.
+  - V-krivulja.
+  - W-krivulja.
+explanation: >-
+reviewed: true

@@ -1,11 +1,9 @@
-question: Hva legger uttrykket Ikke dine nøkler, ikke dine Bitcoins vekt på?
-answer: Viktigheten av å eie den private nøkkelen til en Bitcoin-lommebok
+question: Hva er hovedformålet med å definere brukerprofilen din?
+answer: For å velge en strategi som passer til dine behov
 wrong_answers:
-  - Viktigheten av å ha en fysisk nøkkel for å få tilgang til dine Bitcoins
-  - Viktigheten av å oppbevare dine Bitcoins på et sikkert sted
-  - Viktigheten av å ikke dele detaljene for din Bitcoin-konto
+  - For å maksimere spekulasjon og dermed profitt
+  - Å vedta en generell strategi som fungerer for alle
+  - For å vite hvilken Bitcoin-influencer du bør følge på sosiale medier
 explanation: |
-  Kapittelet forklarer at uttrykket Ikke dine nøkler, ikke dine Bitcoins
-  legger vekt på viktigheten av å eie den private nøkkelen til en Bitcoin-lommebok. Ved å eie
-  den private nøkkelen, har du full kontroll over Bitcoinsene den inneholder.
+  Når du kjenner profilen din og kan justere den, kan du velge anskaffelses- og oppbevaringsløsninger som passer til din personlige situasjon.
 reviewed: false

@@ -1,0 +1,12 @@
+question: Zašto se ne preporučuje korišćenje ekstenzija za automatsko popunjavanje lozinki u pregledaču?
+answer: Mogu učiniti korisnika podložnijim phishing napadima, povećati površinu napada i usporiti performanse pregledača.
+wrong_answers:
+  - Teško ih je koristiti.
+  - Nisu kompatibilni sa svim pregledačima.
+  - Oni zahtevaju mnogo prostora za skladištenje.
+explanation: |
+  Ekstenzije pregledača za automatsko popunjavanje lozinki mogu učiniti
+  korisnika podložnijim phishing napadima. Takođe
+  imaju tendenciju da povećaju površinu napada i mogu usporiti
+  performanse pregledača, čime predstavljaju značajan rizik.
+reviewed: true

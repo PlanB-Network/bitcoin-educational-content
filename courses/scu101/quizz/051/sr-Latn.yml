@@ -1,0 +1,11 @@
+question: Koje je zlatno pravilo sajber bezbednosti?
+answer: Sajber bezbednost je pokretna meta koja će se prilagoditi vašem putu učenja.
+wrong_answers:
+  - Sajber bezbednost je jednokratno podešavanje
+  - Sajber bezbednost nije neophodna za lične naloge
+  - Sajber bezbednost je samo za tehnički potkovane ljude
+explanation: |
+  Sajberbezbednost je pokretna meta jer se pretnje i
+  mere bezbednosti neprestano razvijaju. Važno je
+  nastaviti sa učenjem i prilagođavanjem svojih praksi.
+reviewed: true

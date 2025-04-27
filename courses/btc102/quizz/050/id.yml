@@ -1,12 +1,9 @@
-question: Apa ciri utama Bitcoin yang membedakannya dari cryptocurrency lainnya?
-answer: Bitcoin adalah satu-satunya cryptocurrency yang benar-benar terdesentralisasi, tahan terhadap sensor, gratis, dan serius
+question: Solusi apa yang direkomendasikan untuk melakukan pembayaran Bitcoin berbiaya rendah?
+answer: Lightning Network
 wrong_answers:
-  - Bitcoin adalah satu-satunya cryptocurrency yang dapat ditambang
-  - Bitcoin adalah satu-satunya cryptocurrency yang dapat dibeli atau dijual di platform pertukaran
-  - Bitcoin adalah satu-satunya cryptocurrency yang dapat disimpan dalam dompet
+  - Hardware Wallet
+  - Rekening bank
+  - RGB Layer
 explanation: |
-  Konten bab menyatakan bahwa Bitcoin adalah satu-satunya cryptocurrency yang benar-benar terdesentralisasi,
-  tahan terhadap sensor, gratis, dan serius yang membenarkan ribuan
-  jam kerja. Ini adalah ciri khas utama yang membedakan Bitcoin dari cryptocurrency
-  lainnya.
+  Lightning memungkinkan transaksi yang cepat dan murah untuk pembelian harian. Ini adalah alat yang ideal untuk pengguna yang aktif.
 reviewed: false

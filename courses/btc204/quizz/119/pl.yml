@@ -1,0 +1,10 @@
+question: Jaka jest główna różnica między wzmocnionym rykoszetem a klasycznym rykoszetem?
+answer: Rozkład transakcji w czasie
+wrong_answers:
+  - Liczba wykorzystanych transakcji
+  - Typ używanego Address
+  - Liczba wyjść w transakcjach
+explanation: |
+  Ulepszony rykoszet zapewnia, że każda transakcja jest transmitowana w innym czasie i zapisywana w innym bloku, podczas gdy klasyczny rykoszet transmituje wszystkie transakcje w krótkim czasie.
+  
+reviewed: false

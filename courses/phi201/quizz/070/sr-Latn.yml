@@ -1,0 +1,9 @@
+question: Prema tekstu, koja je osnovna razlika između Contract teorija i tržišnih teorija?
+answer: Teorije Contract traže društvenu harmoniju kroz državnu prinudu, dok tržišne teorije omogućavaju da se individualni interesi sami usklade.
+wrong_answers:
+  - Teorije Contract primenjuju se na primitivna društva, dok se tržišne teorije primenjuju na moderna društva.
+  - Teorije Contract odnose se na distribuciju bogatstva, dok se tržišne teorije odnose na proizvodnju dobara i usluga.
+  - Teorije Contract brane fiziokrati, dok teorije tržišta brane merkantilisti.
+explanation: |
+  Contract teorije vide društvenu harmoniju kao nametnutu od strane države, dok tržišne teorije smatraju da individualni interesi, slobodnom interakcijom, spontano stvaraju društvenu ravnotežu.
+reviewed: false

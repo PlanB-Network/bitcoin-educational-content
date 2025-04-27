@@ -1,9 +1,9 @@
-question: Qual é o papel de empresas como OpenNode, Swiss Bitcoin Pay e BTCPay no ecossistema do Bitcoin?
-answer: Elas fornecem ferramentas que facilitam para as empresas aceitarem Bitcoin.
+question: Qual é a vantagem de ter o seu próprio nó Bitcoin?
+answer: Independência
 wrong_answers:
-  - Elas mineram Bitcoin.
-  - Elas regulam Bitcoin.
-  - Elas emitem Bitcoin.
+  - Liquidez
+  - Centralização
+  - Velocidade
 explanation: |
-  Empresas como OpenNode, Swiss Bitcoin Pay e BTCPay fornecem ferramentas que facilitam para as empresas aceitarem Bitcoin, contribuindo para sua adoção e uso em transações do dia a dia.
+  A gestão do seu próprio nó garante a independência em relação a terceiros e protege a privacidade das suas transacções.
 reviewed: false

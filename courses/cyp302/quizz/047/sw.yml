@@ -1,0 +1,9 @@
+question: Kulingana na nadharia ya Euler, ni nini matokeo ya ufafanuzi a^ϕ(N) mod N kwa nambari mbili kamili a na N ambazo ni coprime?
+answer: 1 muundo N
+wrong_answers:
+  - 0 muundo N
+  - N mod a
+  - mod N
+explanation: |
+  Nadharia ya Euler inasema kwamba kwa nambari mbili kamili a na N ambazo ni coprime, ufafanuzi a^ϕ(N) mod N daima ni sawa na 1 mod N, sifa inayotumiwa katika cryptography.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kakva je austrijska kritika marksističke teorije profita?
+answer: Profit je neophodna nagrada za preduzetnike koji preuzimaju rizike i investiraju.
+wrong_answers:
+  - Austrijanci tvrde da je profit oblik eksploatacije radnika.
+  - Austrijanci kritikuju Marksovu teoriju jer ne uzima u obzir ulogu zasluga.
+  - Marksistička teorija profita služi interesima jedne klase.
+explanation: |
+  Za austrijske ekonomiste, profit predstavlja nadoknadu za preduzetnike za preuzete rizike i izvršene investicije, za razliku od marksističkog pogleda koji ga vidi kao eksploataciju radnika.
+reviewed: false

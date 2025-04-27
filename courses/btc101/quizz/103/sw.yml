@@ -1,0 +1,13 @@
+question: Kusudi la kuunda mpango wa urithi wa bitcoins zako ni nini?
+answer: Ili kuhakikisha kuwa bitcoins zako zitasimamiwa ipasavyo baada ya kifo chako.
+wrong_answers:
+  - Ili kuzuia ushuru kwenye bitcoins zako.
+  - Ili kupunguza thamani ya bitcoins zako.
+  - Ili kuzuia bitcoins zako zisiibiwe.
+explanation: |
+  Mpango wa urithi unahakikisha kuwa bitcoins zako zitakuwa
+  kusimamiwa ipasavyo baada ya kifo chako. Inaweza kujumuisha a
+  barua iliyoandikwa kwa mkono inayoelezea mali yako, ufikiaji wao
+  mbinu, na maelezo ya mawasiliano ya watu wanaoaminika
+  kuwasiliana.
+reviewed: true

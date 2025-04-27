@@ -1,0 +1,11 @@
+question: Ni ipi njia mbadala inayopendekezwa ya kutumia karatasi kuhifadhi maneno yako ya Mnemonic?
+answer: Kuchora kwenye sahani ya chuma.
+wrong_answers:
+  - Kuihifadhi kwenye faili ya dijitali.
+  - Kuiandika kwenye ubao mweupe.
+  - Inaihifadhi kama mwasiliani kwenye simu yako.
+explanation: |
+  Moja ya njia mbadala zilizopendekezwa kwa karatasi kwa kuhifadhi
+  maneno yako ya Mnemonic yanachonga kwenye sahani ya chuma. Hii
+  suluhisho ni ya kudumu zaidi na ya kudumu.
+reviewed: true

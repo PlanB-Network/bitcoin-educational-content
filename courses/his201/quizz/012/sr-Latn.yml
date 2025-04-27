@@ -1,0 +1,9 @@
+question: Koji je naziv dat problemu konsenzusa unutar distribuirane mreže?
+answer: Problem Vizantijskih Generala
+wrong_answers:
+  - Problem rimskih centuriona
+  - Problem albanskih pukovnika
+  - Japanski Taisho problem
+explanation: |
+  Naziv ovog problema (formalizovan od strane Lamporta, Šostaka i Piza 1982. godine) izabran je kako bi se izbeglo vređanje čitaoca, jer se niko nikada nije identifikovao kao Vizantinac.
+reviewed: false

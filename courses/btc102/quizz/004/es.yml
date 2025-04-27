@@ -1,10 +1,9 @@
-question: ¿Cuál es una característica común de las estafas en el ámbito de las criptomonedas?
-answer: Promesas de retornos irreales.
+question: ¿Cuál es el principal mecanismo de un esquema Ponzi?
+answer: Los primeros inversores cobran con el dinero de los nuevos
 wrong_answers:
-  - Promesas de bienes físicos.
-  - Promesas de productos de software.
-  - Promesas de moneda fiduciaria.
+  - Los rendimientos proceden de un producto real en el mercado
+  - Los inversores reciben dividendos de las empresas
+  - Los beneficios son generados por contratos inteligentes en el Blockchain
 explanation: |
-  Las estafas en el ámbito de las criptomonedas a menudo prometen retornos irreales.
-  Es crucial no confiar ciegamente, especialmente cuando se trata de un banner en internet.
+  En un esquema Ponzi, no se crea ningún producto real y los pagos dependen únicamente de la llegada de nuevos participantes.
 reviewed: false

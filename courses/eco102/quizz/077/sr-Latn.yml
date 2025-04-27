@@ -1,0 +1,9 @@
+question: Koje je glavno ograničenje državne intervencije prema Bastijatu?
+answer: Oni koji donose javne odluke nisu oni koji trpe posledice
+wrong_answers:
+  - Oni koji donose javne odluke previše vole novac
+  - Oni koji donose javne odluke nisu dovoljno pametni
+  - Oni koji donose javne odluke nemaju hrabrosti
+explanation: |
+  Bastiat kritikuje državnu intervenciju ističući da donosioci javnih odluka ne snose posledice svojih odluka, što dovodi do neodgovornih izbora.
+reviewed: false

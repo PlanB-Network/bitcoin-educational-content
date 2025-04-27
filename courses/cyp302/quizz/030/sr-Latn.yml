@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između nasumičnog niza i pseudonasumičnog niza?
+answer: Nasumičan niz dolazi iz čistog nasumičnog procesa, dok je pseudonasumičan niz generisan algoritmom iz seed.
+wrong_answers:
+  - Pseudonasumični niz koristi samo 1 bitove.
+  - Nasumični niz je uvek duži od pseudonasumičnog niza jer postoji prirodna akcija na njemu.
+  - Pseudonasumičan niz je definisan strogo binarnim modelom, dok je nasumičan niz definisan strogo heksadecimalnim modelom.
+explanation: |
+  Nasumičan niz dolazi iz direktnog nasumičnog procesa, dok se pseudonasumičan niz proizvodi korišćenjem algoritma ekspanzije i početnog seed.
+reviewed: false

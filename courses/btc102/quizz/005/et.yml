@@ -1,9 +1,9 @@
-question: Mis on selle ülikooli kursuse fookus?
-answer: Bitcoin'i universum.
+question: Miks on soovitatav kahefaktoriline autentimine?
+answer: See lisab täiendava Layer turvalisuse
 wrong_answers:
-  - Globaalne krüptoraha tööstus.
-  - Fintech tööstus.
-  - Plokiahela tööstus.
+  - See lihtsustab juurdepääsu, vähendades koodide arvu
+  - See võimaldab sisselogimist ilma paroolita
+  - See asendab paroolihalduri kasutamise
 explanation: |
-  Selle ülikooli täielik fookus on Bitcoin'i universumil, mitte krüptorahal.
+  2FA nõuab lisaks paroolile ka ajutist koodi, mis tugevdab oluliselt võrgukonto kaitset.
 reviewed: false

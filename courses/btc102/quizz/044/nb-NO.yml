@@ -1,11 +1,9 @@
-question: Hva er hovedrollen til gruvearbeidere i Bitcoin-nettverket?
-answer: De sikrer nettverket ved å utføre Bitcoins proof-of-work prosesser
+question: Hva er opprinnelsen til begrepet hodler?
+answer: En feilstaving av "hold"
 wrong_answers:
-  - De skaper nye bitcoins
-  - De regulerer prisen på Bitcoin
-  - De kontrollerer Bitcoin-nettverket
+  - Et akronym for "hold"
+  - En forkortelse av "Hot Wallet"
+  - En sammentrekning av "HODL-kjeden"
 explanation: |
-  Kapittelinnholdet forklarer at gruvearbeidere er ansvarlige for å sikre
-  Bitcoin-nettverket. De bruker elektrisitet for å utføre Bitcoins proof-of-work prosesser,
-  som skaper en ny blokk.
+  Begrepet "hodler" kommer fra en skrivefeil på Bitcoin Talk, der "hold" ble feilstavet som "HODL" for å uttrykke langsiktig holding.
 reviewed: false

@@ -8,88 +8,75 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.18
-
+    reward: 0.17
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
-
+    reward: 0.42
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
-
+    reward: 0.34
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
-
+    reward: 0.34
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
-
+    reward: 0.42
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
-
+    reward: 0.42
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
-
+    reward: 0.49
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
-
+    reward: 0.34
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
-
+    reward: 0.42
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
-
+    reward: 0.34
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
-
+    reward: 0.42
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.61
-
+    reward: 0.57
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
-
+    reward: 0.49
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.61
+    reward: 0.57

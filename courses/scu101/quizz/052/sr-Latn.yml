@@ -1,0 +1,12 @@
+question: Zašto se hardverski tokeni, kao što su USB ključevi ili pametne kartice, smatraju da nude optimalnu sigurnost za 2FA?
+answer: Oni generate jedinstveni privatni ključ za svaki sajt i proveravaju URL pre nego što dozvole povezivanje.
+wrong_answers:
+  - Fizički ih je teže ukrasti, ali ako lopovi uspeju, lako će izvući tajne iz uređaja.
+  - Oni generate samo jednu lozinku koja će se koristiti za svaki sajt i proveravaju URL pre nego što dozvole povezivanje.
+  - Oni su novija tehnologija i skupi, pa moraju biti bolji.
+explanation: |
+  Hardverski tokeni nude optimalnu sigurnost jer
+  generate jedinstveni privatni ključ za svaku lokaciju i proveravaju
+  URL pre nego što dozvole povezivanje. Ovo čini mnogo
+  težim za hakera da dobije neovlašćen pristup.
+reviewed: true

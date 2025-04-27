@@ -1,0 +1,9 @@
+question: Među sledećim odgovorima, koji nije preporučena praksa za upravljanje nečijom doxxic promenom?
+answer: Spajanje doxxic UTXO-a zajedno.
+wrong_answers:
+  - Mešanje doxxic UTXO-a u manjem bazenu.
+  - Doniranje nečijih doxxic UTXO-a.
+  - Označavanje nečijih doxxic UTXO-a kao nepotrošivih.
+explanation: |
+  Preporučuje se da se ne spajaju doxxic UTXO-ovi zajedno jer to omogućava povezivanje različitih unosa korisnika u Whirlpool.
+reviewed: false

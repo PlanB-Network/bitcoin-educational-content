@@ -1,0 +1,9 @@
+question: Zašto je RC4 klasifikovan kao sinhroni strim šifra?
+answer: Ključni tok je nezavisan od otvorenog teksta i šifrovanog teksta.
+wrong_answers:
+  - Ključni tok zavisi od vrednosti prethodnog šifrovanog teksta.
+  - Otvoreni tekst mora biti integrisan u ključni tok
+  - Koristi ključni tok zasnovan isključivo na otvorenom tekstu
+explanation: |
+  RC4 je sinhrona strujna šifra jer njen ključni tok zavisi samo od početnog ključa, a ne od otvorenog teksta ili šifrovanog teksta, čime se obezbeđuje nezavisnost ovog toka od poruka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kakav je status Bitcoin u El Salvadoru?
+answer: Zakonsko sredstvo plaćanja.
+wrong_answers:
+  - Kriminalizovano.
+  - Nepoznato.
+  - Neregulisano.
+explanation: |
+  Tekst kursa pominje da su neke zemlje zabranile i kriminalizovale upotrebu Bitcoin, što dodaje složenost usvajanju Bitcoin zasnovanom na kulturama, epohama i nacijama. Međutim, El Salvador je bio dovoljno hrabar da ga usvoji kao zakonsko sredstvo plaćanja.
+reviewed: true

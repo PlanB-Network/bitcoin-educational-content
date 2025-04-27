@@ -8,91 +8,77 @@ proofreading:
     urgency: 1
     contributor_names:
       - hunt-wood
-    reward: 0.16
-
+    reward: 0.15
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
-
+    reward: 0.37
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.31
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.31
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
-
+    reward: 0.37
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
-
+    reward: 0.37
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.31
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.45
-
+    reward: 0.44
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.31
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
-
+    reward: 0.51
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
-
+    reward: 0.37
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.31
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.38
-
+    reward: 0.37
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.45
-
+    reward: 0.44
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
+    reward: 0.51
 tags:
   - cypherpunk
   - self-sovereignty

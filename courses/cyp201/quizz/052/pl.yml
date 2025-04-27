@@ -1,0 +1,9 @@
+question: Jaki jest cel używania wabika Wallet z passphrase?
+answer: Symulacja Wallet z niewielką ilością w przypadku przymusu fizycznego
+wrong_answers:
+  - Dodaj automatyczną kopię zapasową transakcji
+  - generate dodatkowa fraza Mnemonic
+  - Ochrona UTXO przed podwójnymi wydatkami
+explanation: |
+  Wabik Wallet służy do odwrócenia uwagi atakującego poprzez zapewnienie dostępu do Wallet zawierającego niewielką ilość bitcoinów.
+reviewed: false

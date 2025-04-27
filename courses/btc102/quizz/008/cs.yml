@@ -1,11 +1,9 @@
-question: Jaký je hlavní účel aktualizace softwaru?
-answer: Opravit chyby a zlepšit bezpečnost vašeho softwaru
+question: Proč je nutné pravidelně aktualizovat systém a software?
+answer: Oprava známých zranitelností zabezpečení
 wrong_answers:
-  - Přidat nové funkce
-  - Změnit uživatelské rozhraní softwaru
-  - Zvýšit velikost softwaru
+  - Zlepšení rychlosti počítače a tím i rychlejší reakce na kybernetické útoky
+  - Přidání funkcí hackingu
+  - Optimalizace kompatibility videoher s Bitcoin
 explanation: |
-  Ačkoliv aktualizace softwaru často přinášejí nové funkce, jejich hlavním účelem
-  je oprava chyb a zlepšení bezpečnosti softwaru. To je klíčové pro udržení
-  vašeho počítače v optimálním pracovním stavu.
+  Aktualizace často opravují známé zranitelnosti, které využívají hackeři.
 reviewed: false

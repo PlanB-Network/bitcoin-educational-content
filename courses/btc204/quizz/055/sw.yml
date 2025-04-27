@@ -1,0 +1,10 @@
+question: Bitcoin inayopokea Address ni nini?
+answer: Msururu wa herufi zinazotumika kupokea bitcoins.
+wrong_answers:
+  - Msimbo unaotumika kutuma bitcoins.
+  - Algorithm ya bitcoins za Mining.
+  - Smart contract.
+explanation: |
+  Address inayopokea hutumiwa kupokea bitcoins kwenye Wallet.
+  
+reviewed: false

@@ -1,0 +1,12 @@
+question: Koju prednost nudi mreža Bitcoin u odnosu na tradicionalne finansijske sisteme?
+answer: Decentralizacija i sigurnost
+wrong_answers:
+  - Povećane stope inflacije
+  - Zavisnost od posrednika
+  - Centralizovana kontrola nad transakcijama
+explanation: |
+  Decentralizovana mreža Bitcoin pruža siguran i efikasan način za 
+  transakcije bez potrebe za posrednicima ili trećim stranama. Ovo 
+  smanjuje rizik od cenzure i neovlašćenih promena transakcija, 
+  kao i povećava privatnost.
+reviewed: true

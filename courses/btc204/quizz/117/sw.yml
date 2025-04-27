@@ -1,0 +1,10 @@
+question: Je, ricochet ya kawaida hufanya shughuli ngapi zinazofuatana?
+answer: 5
+wrong_answers:
+  - 2
+  - 8
+  - 14
+explanation: |
+  Mbinu ya ricochet kawaida hujumuisha kufanya miamala 4 kwako mwenyewe, na ya mwisho kutuma pesa kwa mpokeaji mkuu.
+  
+reviewed: false

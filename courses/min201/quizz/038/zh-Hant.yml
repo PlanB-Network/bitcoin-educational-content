@@ -1,0 +1,14 @@
+question: 在 Bitcoin Mining 的背景下，Attakai 倡議是什麼？
+answer: 一項旨在使 Mining 更容易使用、危害更小，同時為網路做出貢獻的倡議
+wrong_answers:
+  - 一項旨在提高 Bitcoin 價格的倡議
+  - 一項旨在減少網路 Hashrate 的措施
+  - 一項旨在集中散列能力的計畫
+explanation: |
+  Attakai 倡議旨在使 Bitcoin Mining 更
+  易於獲得且危害較小。它鼓勵人們開採
+  在家中使用更經濟實惠的硬體和解決方案，以
+  減少噪音污染。該倡議還強調
+  對安全和經濟發展做出貢獻的重要性
+  Bitcoin 網路的分散化。
+reviewed: true

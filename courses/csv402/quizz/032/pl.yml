@@ -1,0 +1,9 @@
+question: Co powinna zrobić Alice (nadawca) po otrzymaniu Invoice od Boba?
+answer: Zbuduj PSBT z UTXO i generate na terminalu transferowym Consignment
+wrong_answers:
+  - Podpisuje transakcję Bitcoin, która wydaje UTXO zawierający Single-Use Seal
+  - Zaimportuj Consignment do własnego Wallet, aby uzyskać szczegóły Contract
+  - Wystawienie nowego Invoice dla emisji aktywów
+explanation: |
+  Alice musi utworzyć PSBT, aby wydać UTXO powiązany z aktywem, a następnie generate Terminal Consignment, który zawiera nowe przejście do Boba.
+reviewed: false

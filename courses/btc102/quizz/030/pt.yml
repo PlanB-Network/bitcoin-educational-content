@@ -1,10 +1,9 @@
-question: O que é o blockchain do Bitcoin?
-answer: Um banco de dados que registra todas as transações de Bitcoin.
+question: Qual é a principal vantagem que a abordagem por camadas oferece ao Bitcoin?
+answer: Manter a segurança do protocolo de base
 wrong_answers:
-  - Um tipo de moeda digital
-  - Uma rede de usuários de Bitcoin
-  - Um método de mineração de bitcoins
+  - Aumento da centralização da rede principal
+  - Inovação rápida no protocolo de base
+  - Ter as mesmas caraterísticas nas camadas e no protocolo de base
 explanation: |
-  O blockchain do Bitcoin é um banco de dados que registra todas as transações de Bitcoin.
-  Ele é mantido por mineradores que adicionam novas transações ao blockchain.
+  A abordagem em camadas permite acrescentar funcionalidades sem comprometer a segurança e a simplicidade do protocolo de base.
 reviewed: false

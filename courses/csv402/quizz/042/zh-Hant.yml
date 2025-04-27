@@ -1,0 +1,9 @@
+question: 如果在 RGB 通道內付款，Commitment 交易中的 RGB 輸出會發生什麼情況？
+answer: 它們會更新，以反映參與者之間的資產重新分配。
+wrong_answers:
+  - 在通道關閉之前，它們保持不變，以保存初始歷史記錄。
+  - 它們被移除並由新的 multi-sig 取代。
+  - 它們被轉換成經典的 Bitcoin UTXOs
+explanation: |
+  付款時，RGB State Transition 會調整 RGB 輸出，以根據新的通道平衡重新分配資產。
+reviewed: false

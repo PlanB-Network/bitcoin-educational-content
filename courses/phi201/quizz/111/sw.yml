@@ -1,0 +1,9 @@
+question: Kulingana na Keynes, ni nini nafasi ya pesa katika uchumi?
+answer: Chombo cha sera ya kiuchumi
+wrong_answers:
+  - Njia tu ya Exchange
+  - Breki kwenye ukuaji
+  - Chombo cha kubahatisha
+explanation: |
+  Kwa Keynes, pesa ni kigezo cha sera ya kiuchumi inayoruhusu serikali kudhibiti uchumi kwa kushawishi uwekezaji, ajira na mahitaji ya jumla.
+reviewed: false

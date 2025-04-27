@@ -1,0 +1,9 @@
+question: Šta je identifikacija ključa?
+answer: Sposobnost povezivanja aspekta identiteta korisnika sa aktivnošću na lancu.
+wrong_answers:
+  - Proces dodele javnog ključa svakoj novoj transakciji na lancu.
+  - Sposobnost praćenja onchain transakcija kroz uobičajenu Ownership heuristiku ulaza.
+  - Proces kojim se javni ključ izvodi iz privatnog ključa.
+explanation: |
+  Identifikacija ključa uključuje mogućnost povezivanja aspekta identiteta korisnika sa aktivnošću na lancu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Uhuru unahusisha nini?
+answer: Majibu mengine yote
+wrong_answers:
+  - Uwezo wa kufanya kile mtu anachotaka kwa kile kilicho chake
+  - Kutokuwepo kwa vikwazo vya nje
+  - Uwezo wa kufikiria na kutenda kwa kujitegemea
+explanation: |
+  Uhuru unajumuisha vipimo kadhaa, ikiwa ni pamoja na uwezo wa kutenda kulingana na mapenzi ya mtu, kutokuwepo kwa vikwazo vya nje, na uwezo wa kujitegemea katika mawazo na matendo, yote yanachangia ufafanuzi wa kina wa dhana hii.
+reviewed: false

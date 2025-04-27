@@ -133,7 +133,12 @@ Sisestage väljale "Contributor's GitHub ID" oma GitHubi kasutajanimi.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Sisestage väljale "PBN-professori ID" oma identifikaator, kasutades sõnu BIP39 nimekirjast, nagu see on esitatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Seejärel peate täitma oma professori profiili. Selleks on mitu võimalust:
+- Sisestage oma nime esimesed tähed väljale "Professor Name". Teie nimi ilmub seejärel allolevas rippmenüüs "Prof. Suggestions". Valige see, klõpsates sellele;
+- Või võite otse klõpsata rippmenüül "Prof. Suggestions" ja valida oma professori nime.
+
+See toiming täidab automaatselt teie professori UUID vastavasse välja.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
@@ -213,75 +218,94 @@ bitcoin-educational-content/
 
 Täitke fail `tutorial.yml`, kopeerides järgmise malli:
 
+
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
-Siin on esitatud andmed kohustuslike väljade kohta:
+Siin on kohustuslikud väljad:
 
+- **id** : UUID (_Universally Unique Identifier_), mis võimaldab õpetust ainulaadselt tuvastada. Selle saab luua [veebitööriista](https://www.uuidgenerator.net/version4) abil. Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikte teiste platvormil olevate UUID-dega;
 
-- id**: UUID (_Universally Universally Unique Identifier_), mis identifitseerib õpetuse üheselt. Selle saate genereerida [veebipõhise tööriistaga](https://www.uuidgenerator.net/version4). Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikti mõne teise UUID-ga platvormil;
-- project_id**: UUID: õpetuses esitatud tööriista taga oleva ettevõtte või organisatsiooni UUID [projektide nimekirjast](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui te loote õpetust Sparrow Wallet tarkvara kohta, leiate selle `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. See teave lisatakse teie õpetuse YAML-faili, sest Plan ₿ Network haldab andmebaasi kõigi Bitcoini või sellega seotud projektidega tegelevate ettevõtete ja organisatsioonide kohta. Lisades `project_id` teie juhendmaterjaliga seotud üksuse, loote kahe elemendi vahel lingi;
-- sildid**: 2 või 3 asjakohast märksõna, mis on seotud õpetuse sisuga ja mis on valitud eranditult [Plan ₿ Network'i siltide nimekirjast](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- kategooria**: Õpetuse sisule vastav alamkategooria vastavalt Plan ₿ Network saidi struktuurile (näiteks rahakottide puhul: `desktop`, `hardware`, `mobile`, `backup`);
-- tase**: Õpetuse raskusaste:
-    - "Algaja
-    - "vahepealne
-    - "Edasijõudnud
-    - "ekspert
-- professor**: Teie `contributor_id` (BIP39 sõnad), nagu on näidatud [teie professori profiilis](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- originaal_keel**: Õpetuse originaalkeel (näiteks `fr`, `en` jne);
-- korrektuur**: Teave korrektuuriprotsessi kohta. Täitke esimene osa, sest teie enda juhendmaterjali korrektuur loetakse esimeseks kinnitamiseks:
-    - keel**: Korrektuuri keelekood (näiteks `fr`, `en` jne).
-    - viimane_makse_kuupäev**: Tänane kuupäev.
-    - kiireloomulisus**: Jäta tühjaks.
-    - toetajad_id**: Teie GitHub ID.
-    - tasu**: Jäta tühjaks.
+- **project_id** : Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Network haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
 
-Lisateavet oma professori identifikaatori kohta leiate vastavast juhendmaterjalist:
+- **tags** : 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+
+- **category** : Õpetuse sisule vastav alamosa Plan ₿ Networki saidi struktuuri järgi (näiteks rahakottide jaoks: `desktop`, `hardware`, `mobile`, `backup`);
+
+- **level** : Õpetuse raskusaste, valitud järgmistest tasemetest:
+    - `beginner`
+    - `intermediate`
+    - `advanced`
+    - `expert`
+
+- **professor_id** : Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+
+- **original_language** : Õpetuse algne keel (näiteks `fr`, `en`, jne);
+
+- **proofreading** : Teave korrektuuriprotsessi kohta. Täitke esimene osa, kuna oma õpetuse korrektuur loetakse esimeseks valideerimiseks:
+    - **language** : Keelekood korrektuuri jaoks (näiteks `fr`, `en`, jne).
+    - **last_contribution_date** : Käesoleva päeva kuupäev.
+    - **urgency** : 1
+    - **contributor_names** : Teie GitHub ID.
+    - **reward** : 0
+
+Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist :
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Siin on näide valminud `tutorial.yml` failist Blockstream Green rahakoti õpetuse jaoks:
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency: 1
-contributors_id:
-- LoicPandul
-reward: 0
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
+
 
 Kui olete lõpetanud oma faili `tutorial.yml` muutmise, salvestage oma dokument, klõpsates nupule `File > Save`:
 

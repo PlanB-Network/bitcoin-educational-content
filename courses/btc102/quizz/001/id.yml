@@ -1,8 +1,9 @@
-question: Apa penipuan umum yang terkait dengan kontes online atau donasi di sektor kripto?
-answer: Iklan yang menjanjikan bitcoin gratis.
+question: Apa yang harus Anda lakukan untuk mengidentifikasi upaya phishing di sektor kripto?
+answer: Verifikasi identitas pengirim
 wrong_answers:
-  - Iklan yang menjanjikan barang fisik.
-  - Iklan yang menjanjikan mata uang fiat gratis.
-  - Iklan yang menjanjikan perangkat lunak gratis.
+  - Hanya klik tautan yang diterima di email
+  - Bagikan kunci pribadi Anda untuk mengonfirmasi keaslian
+  - Hanya mengandalkan logo dan gambar dalam email
 explanation: |
-  Penipuan yang terkait dengan kontes online atau donasi sangat umum di sektor kripto. Iklan yang menjanjikan bitcoin gratis sering digunakan untuk menipu pengguna yang tidak berpengalaman.
+  Anda harus selalu memastikan bahwa Anda berinteraksi dengan orang yang tepat, dan jangan pernah menggunakan tautan yang disediakan dalam email. Sebaliknya, buka langsung situs tersebut secara manual, dengan menggunakan penanda peramban Anda.
+reviewed: false

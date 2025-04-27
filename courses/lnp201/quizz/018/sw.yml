@@ -1,0 +1,9 @@
+question: Je, hali mpya ya kituo inaundwaje baada ya kila uhamishaji?
+answer: Kwa kuunda Commitment Transaction mpya na usambazaji uliosasishwa
+wrong_answers:
+  - Kwa kuchapisha muamala wa On-Chain baada ya kila uhamisho
+  - Kwa kuongeza uwezo wa jumla wa chaneli
+  - Kwa kufunga na kufungua tena kituo baada ya kila shughuli
+explanation: |
+  Kila muamala ndani ya kituo husasisha hali ya kituo kwa kutumia Commitment Transaction mpya, inayoonyesha mgawanyo wa sasa wa fedha kati ya washiriki hao wawili.
+reviewed: false

@@ -1,0 +1,42 @@
+# generate a random uuid v4
+id: a22ab511-d00f-4dd2-baa7-d4770ab9ead7
+
+## Non-community Project Characteristic
+
+# Complete name of the project
+name: Non-Community Porject Complete name
+
+# links
+# list releated online presence like twitter and/or website
+links:
+  website: https://stackharder.com
+  twitter: https://twitter.com/stackharder
+  Github: https://github.com/DecouvreBitcoin/sovereign-university-data
+  youtube: https://www.youtube.com/@PlanBNetwork
+
+# Define Project category
+# Choose between: conference, education, exchange, infrastructure, investment, manufacturer, mining, news, node, privacy, service, wallet
+category: education
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: YYYY-MM-DD
+    urgency: # leave as empty
+    contributor_names:
+      - author_github_username #insert your github username
+    reward: # leave as empty
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+tags:
+  - easy-explain
+  - development
+
+# Contributor section
+# List all the contributors who help format, review and translate the content.
+# They are identified by their Github usernames
+contributor_names:
+  - author1_github_username #insert your github username

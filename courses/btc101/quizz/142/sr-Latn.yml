@@ -1,0 +1,8 @@
+question: Šta je obrezani čvor u kontekstu Bitcoin?
+answer: Čvor koji u memoriji čuva samo poslednjih N blokova.
+wrong_answers:
+  - Čvor koji samo validira transakcije.
+  - Čvor koji samo prenosi informacije drugim čvorovima.
+  - Čvor koji samo sprovodi pravila Bitcoin protokola.
+explanation: >-
+reviewed: true

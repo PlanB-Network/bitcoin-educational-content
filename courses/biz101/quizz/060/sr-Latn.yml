@@ -1,0 +1,9 @@
+question: Koji je osnovni hardverski zahtev za Starter profil da prihvati Bitcoin uplate?
+answer: Pametni telefon
+wrong_answers:
+  - A Bitcoin Miner ASIC
+  - An Hardware Wallet
+  - Samostalno hostovan server
+explanation: |
+  Starter profil zahteva samo pametni telefon ili tablet sa Lightning Wallet, što ga čini laganim rešenjem.
+reviewed: false

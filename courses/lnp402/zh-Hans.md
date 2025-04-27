@@ -23,17 +23,17 @@ objectives:
 
 <partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
 
-## 课程大纲与介绍
+## 课程概述
 
 <chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
 
-### 介绍
+**介绍**
 
 欢迎参加这个关于SDKs的高级编程课程。在这个培训中，您将学习Rust的基础知识，然后专注于BTC & Rust，并以使用SDKs的一些实践练习结束。
 
 这个培训目前只提供英文版本，是去年10月在托斯卡纳由Fulgure Venture组织的现场研讨会的一部分。LIVE活动的程序可以在下面找到，这个培训将只关注第一周。下半部分针对的是RGB，可以在RGB课程中找到。
 
-### 教师
+**教师**
 
 非常感谢参与这个项目的教师们：
 
@@ -42,7 +42,7 @@ objectives:
 - Gabriel：“我写代码做事情。”
 - Jesse de wit：“Lightning网络爱好者 | 开发者 | Breez”
 
-### 研讨会日程
+**研讨会日程**
 
 LN托斯卡纳活动的第一周
 ![image](assets/1.webp)
@@ -50,8 +50,20 @@ LN托斯卡纳活动的第一周
 一旦您完成了这个课程，如果您对后续培训感兴趣，这里是日程的第二部分：
 ![image](assets/2.webp)
 
-祝您学习顺利。
 
+
+本培训为您提供了使用 Rust 和各种 SDK 在 Lightning Network 上开发编程技能的机会。它专为已经具备良好编程技能的开发人员设计，旨在深入探索 Lightning Network 的专门开发。您将学习 Rust 语言的基础知识，了解为什么它适合用于 Bitcoin 的开发，然后通过专用的 SDK 进行实践操作。
+
+**第 2 节：学习用 Rust 编程**  
+在这一部分中，您将通过一系列渐进的章节了解 Rust 的基础知识。您将学习如何用 Rust 编写代码，理解其特性，并在七个详细的部分中掌握其核心功能。这个模块对于理解为什么 Rust 是 Bitcoin 开发中首选语言至关重要。
+
+**第 3 节：Rust 与 Bitcoin**  
+在这里，我们将深入探讨为什么 Rust 是适用于 Bitcoin 开发的相关选择。您将了解其错误处理模型、UniFFI 工具，以及异步特性，这些都是构建健壮和安全软件的关键要素。
+
+**第 4 节：使用 SDK 进行 LNP/BP 开发**  
+在这一部分中，您将学习如何使用各种 SDK（如用于 Lipa 的 Breez SDK 和 Greenlight）来开发 LN 节点。您将看到如何利用专为简化 Bitcoin 和 Lightning 应用开发而设计的库来实现 Lightning Network 应用程序。
+
+准备好用 Rust 提升您的 Lightning Network 技能了吗？让我们开始吧！
 # 通过rust书学习如何编码
 
 <partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
@@ -61,19 +73,19 @@ LN托斯卡纳活动的第一周
 <chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>
 <professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
-![video](https://www.youtube.com/watch?v=aZYhDXE_Gas)
+:::video id=12a518cf-64be-43f1-b6d4-f6592a1324ea:::
 
 ## Rust简介 (2/7)
 
 <chapterId>918ca359-c123-5414-af01-253016670f3a</chapterId>
 
-![video](https://youtu.be/Xm8eCv4LQPc)
+:::video id=8ed76bae-7c30-4aac-9f28-bb4cbb9180e4:::
 
 ## Rust简介 (3/7)
 
 <chapterId>0278ed13-68b6-59e1-97c5-f8dde505549b</chapterId>
 
-![video](https://youtu.be/R8NeHvHT0uc)
+:::video id=c78a543f-1462-43a1-9845-889d310d31a4:::
 
 ## Rust简介 (4/7)
 
@@ -83,19 +95,19 @@ LN托斯卡纳活动的第一周
 
 <chapterId>96d54999-cdbc-5601-acac-1bc7acbe2eb7</chapterId>
 
-![video](https://youtu.be/PxQkVmxOc40)
+:::video id=5514da77-5b71-4763-96b8-49eb21291c2b:::
 
 ## Rust简介 (6/7)
 
 <chapterId>a66c63ed-9514-51d1-b3a0-c8edb57603bb</chapterId>
 
-![video](https://youtu.be/3C6hl9BW-Ho)
+:::video id=44c681d1-d154-4240-b3e8-15590cbfcbd2:::
 
 ## Rust简介 (7/7)
 
 <chapterId>21cf8dab-239a-580a-85cd-34326aeb1b26</chapterId>
 
-![video](https://youtu.be/SBDcb_AauHM)
+:::video id=5e96914d-df02-4781-ae54-b06008952301:::
 
 # Rust与BTC
 
@@ -105,25 +117,25 @@ LN托斯卡纳活动的第一周
 
 <chapterId>92f13f36-70bd-5b00-8c6c-fcd1a1bd1531</chapterId>
 
-![video](https://youtu.be/veLj2w6ulpc)
+:::video id=f59c4951-e109-4c70-b7da-41721e50ab04:::
 
 ## 错误模型
 
 <chapterId>1a648363-0aff-54dd-a79d-ead75231e5d6</chapterId>
 
-![video](https://youtu.be/X3VKhLtKTRU)
+:::video id=9fac0184-8443-4c36-8afd-8acb21fb43c3:::
 
 ## Unniffit
 
 <chapterId>fe1be3e3-2288-5a10-b64b-9ba72fb985d1</chapterId>
 
-![video](https://youtu.be/zro9GQpJrH0)
+:::video id=b1a0f5f6-fc29-4b83-9c09-0b24711654e2:::
 
 ## 异步特性
 
 <chapterId>e1610abe-574c-5995-abe4-a92b0dca4c93</chapterId>
 
-![video](https://youtu.be/cz66eTfk0lw)
+:::video id=8926dd48-3613-43b6-a509-60ba26ec337f:::
 
 # 使用SDK开发LNP/BP
 
@@ -133,27 +145,27 @@ LN托斯卡纳活动的第一周
 
 <chapterId>643e4670-bb1f-581f-a102-f84e8e5d2a02</chapterId>
 
-![video](https://youtu.be/aEzpxuhLdeo)
+:::video id=94b9bee6-154e-4b9c-a8ce-5e2d9e9656a2:::
 
 ## Breez sdk
 
 <chapterId>52f20a4d-7d81-58e4-be00-9d39334352af</chapterId>
 
-![video](https://youtu.be/M3ad9BE6ovo)
+:::video id=68d1f253-6210-4eab-8329-b676e5772eac:::
 
 ## Greenlight for lipa
 
 <chapterId>7ba30435-d26e-5e6f-a973-94080d44bf27</chapterId>
 
-![video](https://youtu.be/gKiIPF4apeE)
+:::video id=c3dec3df-1416-4761-b7c8-e1d66d27e390:::
 
 ## Breez sdk for lipa
 
 <chapterId>93d87d63-dd7b-5e05-ad2e-dda12915ea32</chapterId>
 
-![video](https://youtu.be/6VaIVvBKjLY)
+:::video id=f2770a37-a22f-43d7-9334-8de60eaacff8:::
 
-# 结论
+# 最终部分
 
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 

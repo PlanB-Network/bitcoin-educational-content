@@ -1,0 +1,9 @@
+question: Jakie rozwiązanie pamięci masowej jest zalecane dla hodlera?
+answer: Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - Usługa dozoru
+  - Papier Wallet
+explanation: |
+  Hodowca, który przechowuje bitcoiny przez dłuższy czas, powinien używać Hardware Wallet, aby zmaksymalizować bezpieczeństwo.
+reviewed: false

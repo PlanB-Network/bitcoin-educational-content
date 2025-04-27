@@ -1,0 +1,12 @@
+question: Koje je centralno pitanje koje treba postaviti sebi kada birate između Bitcoin i Wallet, u smislu samostalnog čuvanja?
+answer: Da li ste vlasnik sredstava ili kontrolu nad svojim novcem prepuštate trećoj strani?
+wrong_answers:
+  - Da li je Wallet osiguran sa passphrase?
+  - Da li Wallet omogućava primanje i slanje bitcoina?
+  - Mogu li podeliti svoj Wallet sa drugom osobom?
+explanation: |
+  Kada birate Bitcoin Wallet, centralno pitanje je:
+  da li ste vi vlasnik sredstava ili prepuštate kontrolu
+  vašeg novca trećoj strani? Ovo je zato što je vlasnik
+  privatnog ključa vlasnik Bitcoina.
+reviewed: true

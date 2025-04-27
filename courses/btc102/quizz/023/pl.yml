@@ -1,0 +1,9 @@
+question: Jaka jest główna zaleta Bitcoin w obliczu kryzysów walutowych?
+answer: Ochrona oszczędności przed inflacją
+wrong_answers:
+  - Rosnące stopy procentowe
+  - Gwarantowanie stałych zwrotów
+  - Zapewnienie ubezpieczenia bankowego
+explanation: |
+  Bitcoin oferuje ochronę przed dewaluacją waluty dzięki przewidywalnej polityce emisji.
+reviewed: false

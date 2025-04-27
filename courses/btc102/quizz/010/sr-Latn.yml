@@ -1,0 +1,12 @@
+question: Za šta se zalaže 2FA?
+answer: Dvofaktorska autentifikacija
+wrong_answers:
+  - Dvofaktorska autorizacija
+  - Dvofaktorska autentifikacija
+  - Dvofaktorska autentifikacija
+explanation: |
+  2FA je skraćenica za Dvofaktorsku Autentifikaciju. Ona pruža dodatni
+  Layer
+  
+  nivo sigurnosti vašim najosetljivijim nalozima.'
+reviewed: false

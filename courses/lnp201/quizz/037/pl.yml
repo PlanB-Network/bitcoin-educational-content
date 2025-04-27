@@ -1,0 +1,9 @@
+question: Co się stanie, jeśli płatność za pośrednictwem HTLC nie zostanie zrealizowana w wyznaczonym czasie?
+answer: Płatność zostaje anulowana, a środki wracają do nadawcy.
+wrong_answers:
+  - Płatność jest przechowywana przez ostatni węzeł pośredniczący
+  - Środki są dystrybuowane do wszystkich węzłów na ścieżce
+  - Środki są trwale zablokowane
+explanation: |
+  Jeśli HTLC wygaśnie bez ujawnienia sekretu, płatność zostanie anulowana, a środki wrócą do nadawcy, uniemożliwiając w ten sposób jakiemukolwiek węzłowi pośredniczącemu zatrzymanie środków.
+reviewed: false

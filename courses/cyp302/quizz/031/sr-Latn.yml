@@ -1,0 +1,9 @@
+question: Kako je nasumičan niz definisan u ovom poglavlju?
+answer: Kao niz izabran ravnomerno iz svih nizova iste dužine
+wrong_answers:
+  - Kao niz kreiran samo sa bitovima 0 i 1
+  - Kao niz dobijen ručnim odabirom
+  - Kao string promenljive dužine koji je rezultat procesa šifrovanja
+explanation: |
+  Nasumičan niz je definisan kao niz izabran uniformno među svim mogućim nizovima iste dužine.
+reviewed: false

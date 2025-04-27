@@ -14,11 +14,43 @@ Kursus ini kembali ke asal-usul kebebasan di Zaman Kuno, dengan bangsa Yunani da
 Dari masa Renaisans hingga Pencerahan, kursus ini mengkaji kebangkitan kebebasan, yang ditandai dengan toleransi beragama dan kebebasan ekonomi, yang mencapai puncaknya pada tahun 1776 dengan peristiwa-peristiwa besar seperti Kongres Philadelphia. Abad ke-19 dan ke-20 menyaksikan puncak dan kemunduran kebebasan, menghadapi kritik terhadap kapitalisme dan bahaya kolektivisme, yang memberikan perspektif tentang tantangan kontemporer bagi kebebasan.
 +++
 
+# Pengantar
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Gambaran Umum Kursus
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Selamat datang di kursus PHI201!
+
+Pelatihan ini mengundang Anda untuk mengeksplorasi evolusi kebebasan sepanjang sejarah dengan menganalisis aliran pemikiran besar yang membentuknya. Anda akan menemukan bagaimana konsep kebebasan dibangun selama berabad-abad, baik dalam oposisi maupun kerja sama dengan kekuasaan, melalui perjalanan sejarah dari Zaman Kuno hingga perdebatan kontemporer.
+
+**Bagian 1: Kebebasan atau Kekuasaan**  
+Kami akan memulai dengan tinjauan tentang dua filosofi politik utama yang telah menandai sejarah: kebebasan dan kekuasaan. Bagian ini akan mengkaji pandangan para pemikir seperti Frédéric Bastiat tentang produksi versus perampasan, Lord Acton yang melihat kebebasan sebagai penggerak sejarah, Karl Marx dengan teori perjuangan kelasnya, dan Murray Rothbard yang menentang negara terhadap masyarakat. Pengantar konseptual ini akan memberikan kerangka analisis untuk periode-periode sejarah.
+
+**Bagian 2: Asal Usul Kebebasan: Zaman Kuno**  
+Di sini, kita akan kembali ke akar pemikiran filosofis dengan orang-orang Yunani yang menciptakan rasionalitas kritis, dan orang-orang Romawi yang meletakkan dasar-dasar hukum modern. Kita juga akan memeriksa jatuhnya Roma sebagai momen penting yang mendefinisikan ulang organisasi politik dan sosial di sekitar konsep kebebasan.
+
+**Bagian 3: Asal Usul Kebebasan: Abad Pertengahan**  
+Abad Pertengahan sering dianggap sebagai periode gelap, tetapi kita akan menemukan bahwa sebenarnya ini meletakkan dasar-dasar kebebasan modern. Kita akan mempelajari penegasan kebebasan manusia, perdebatan antara akal dan iman, kelahiran negara berdaulat, etika Alkitab yang menghargai individu, serta cikal bakal kapitalisme yang muncul pada masa ini.
+
+**Bagian 4: Kebangkitan Kebebasan: Dari Renaisans hingga Pencerahan**  
+Bagian ini akan berfokus pada munculnya toleransi beragama dan kebebasan ekonomi, yang mendapatkan momentum selama Renaisans dan Pencerahan. Kita juga akan menganalisis pentingnya tahun 1776, yang menandai titik balik utama dengan peristiwa-peristiwa penting bagi dunia yang bebas, sebelum menyelami era revolusi yang mendefinisikan kembali konsep kebebasan itu sendiri.
+
+**Bagian 5: Puncak dan Kemunduran: Dari Abad ke-19 hingga Abad ke-20**  
+Kita akan melanjutkan dengan mempelajari gejolak abad ke-19 dan ke-20, menyoroti kekuatan dan kelemahan demokrasi, kritik Marxis terhadap kapitalisme, dan tanggapan dari mazhab Austria terhadap kritik-kritik tersebut. Kita juga akan mengeksplorasi peringatan tentang bahaya kolektivisme melalui karya-karya utama seperti "The Road to Serfdom".
+
+**Bagian 6: Kebangkitan Negara Kesejahteraan pada Abad ke-20**  
+Akhirnya, bagian ini akan meneliti bagaimana negara kesejahteraan secara bertahap mengambil alih ide-ide kebebasan ekonomi, khususnya melalui kemenangan Keynes dan pengabaian standar emas. Kami akan menyimpulkan dengan menekankan pentingnya ide-ide dalam membentuk jalannya sejarah dan peran yang masih dimainkan kebebasan dalam masyarakat modern kita.
+
+Siap memulai perjalanan filosofis unik ini dalam pencarian kebebasan? Mari kita mulai!
+
 # Kebebasan atau Kekuasaan
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Pendahuluan: Hanya ada dua filsafat politik
+## Hanya ada dua filosofi politik
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1432,7 +1464,7 @@ Dalam arti tertentu, situasi kita lebih baik daripada di masa lalu. Setelah kega
 Semua yang terjadi dalam masyarakat global tempat kita hidup adalah hasil dari ide-ide. Baik yang baik maupun yang buruk. Yang diperlukan adalah untuk melawan ide-ide palsu. (...) Peradaban kita dapat bertahan, dan harus bertahan. Dan akan bertahan berkat ide-ide yang lebih baik daripada yang menguasai dunia saat ini; dan ide-ide yang lebih baik ini akan dikembangkan oleh generasi yang sedang tumbuh.
 (_Kebijakan Ekonomi: Pemikiran untuk Hari Ini dan Esok_, 1979).
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

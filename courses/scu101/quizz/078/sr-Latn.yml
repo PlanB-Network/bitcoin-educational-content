@@ -1,0 +1,9 @@
+question: Koji je osnovni kriterijum prilikom kreiranja novog email naloga?
+answer: Koristite jedinstvenu i jaku lozinku.
+wrong_answers:
+  - Ponovo upotrebite lozinku sa drugih naloga.
+  - Izaberite jednostavnu lozinku za lako pamćenje.
+  - Izaberite lozinku sa imenom vašeg ljubimca.
+explanation: |
+  Jedinstvena i jaka lozinka je neophodna kako bi se sprečilo da hakeri pristupe email nalogu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji je specifični model usklađivanja korisnika koji koristi JoinMarket?
+answer: P2P tržište između kreatora i korisnika.
+wrong_answers:
+  - Server koji nasumično dodeljuje učesnike.
+  - Razmene zasnovane na holandskim aukcijama.
+  - Usluga medijacije koja ručno bira učesnike.
+explanation: |
+  JoinMarket posluje na P2P Exchange tržištu gde neki korisnici, "makers", nude svoje bitkoine za mešanje, dok drugi, "takers", koriste ta sredstva za izvođenje coinjoin transakcija u Exchange uz naknadu.
+reviewed: false

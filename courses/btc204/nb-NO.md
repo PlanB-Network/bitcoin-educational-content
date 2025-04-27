@@ -24,10 +24,11 @@ Bli med oss for å endre din bruk av Bitcoin og bli en informert bruker, som er 
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Introduksjon til opplæringen
+## Kursoversikt
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+Velkommen til BTC204-kurset!
 
 I en verden der konfidensialiteten til finansielle transaksjoner gradvis blir en luksus, er det viktig å forstå og beherske prinsippene for personvern ved bruk av Bitcoin. Dette kurset gir deg alle nøklene, både teoretiske og praktiske, for å oppnå dette på egen hånd.
 
@@ -45,37 +46,38 @@ Dette kurset er utformet for å gi en omfattende, generell oversikt over problem
 
 Målet med dette kurset er ikke å gjøre deg helt anonym i din bruk av Bitcoin, men snarere å gi deg de viktigste verktøyene for å vite hvordan du kan beskytte konfidensialiteten din i henhold til dine personlige mål. Du vil ha frihet til å velge fra konseptene og verktøyene som presenteres for å utvikle dine egne strategier, skreddersydd til dine spesifikke mål og behov.
 
-### Del 1: Definisjoner og nøkkelbegreper
+**Del 1: Definisjoner og nøkkelbegreper**
 
 Til å begynne med skal vi gå gjennom de grunnleggende prinsippene som styrer driften av Bitcoin, slik at vi deretter kan gå rolig i gang med begrepene knyttet til konfidensialitet. Det er viktig å beherske noen grunnleggende begreper, som UTXO, mottaksadresser og skripting, før du fullt ut kan forstå begrepene vi tar for oss i de følgende avsnittene. Vi vil også introdusere Bitcoins generelle konfidensialitetsmodell, slik Satoshi Nakamoto forestilte seg den, slik at vi kan forstå hva som står på spill og hvilke risikoer som er forbundet med den.
 
 ![BTC204](assets/fr/001.webp)
 
-### Del 2: Forståelse og beskyttelse mot kjedeanalyse
+**Del 2: Forståelse og beskyttelse mot kjedeanalyse**
 
 I den andre delen ser vi på teknikkene som brukes av blokkjedeanalyseselskaper for å spore aktiviteten din på Bitcoin. Å forstå disse metodene er avgjørende for å styrke personvernet ditt. Målet med denne delen er å undersøke angripernes strategier for å få en bedre forståelse av risikoen og forberede grunnen for teknikkene vi skal studere i de neste delene. Vi vil analysere transaksjonsmønstre, interne og eksterne heuristikker og sannsynlige tolkninger av disse mønstrene. I tillegg til teori lærer vi hvordan vi kan bruke en blokkutforsker til kjedeanalyse, gjennom praktiske eksempler og øvelser.
 
 ![BTC204](assets/fr/002.webp)
 
-### Del 3: Beherske beste praksis for å beskytte personvernet ditt
+**Del 3: Beherske beste praksis for å beskytte personvernet ditt**
 
 I den tredje delen av kurset vårt går vi til det helt konkrete: praksis! Målet er å mestre alle de essensielle beste praksisene som bør bli naturlige reflekser for enhver Bitcoin-bruker. Vi går gjennom bruk av blanke adresser, tagging, konsolidering, bruk av komplette noder, samt KYC og anskaffelsesmetoder. Målet er å gi deg en omfattende oversikt over fallgruvene du bør unngå for å etablere et solid grunnlag i arbeidet med å beskytte personvernet. For noen av disse metodene vil du bli veiledet til en spesifikk veiledning om hvordan du implementerer dem.
 
 ![BTC204](assets/fr/003.webp)
 
-### Del 4: Forståelse av coinjoin-transaksjoner
+**Del 4: Forståelse av coinjoin-transaksjoner**
 
 Hvordan kan vi snakke om personvern på Bitcoin uten å nevne coinjoins? I del 4 finner du ut alt du trenger å vite om denne blandingsmetoden. Du vil lære hva coinjoins er, deres historie og mål, samt de forskjellige typene coinjoins som finnes. Til slutt, for den mer erfarne brukeren, tar vi en titt på hva anonsets og entropi er, og hvordan du beregner dem.
 
 ![BTC204](assets/fr/004.webp)
 
-### Del 5: Forstå utfordringene med andre avanserte konfidensialitetsteknikker
+**Del 5: Forstå utfordringene med andre avanserte konfidensialitetsteknikker**
 
 I den femte delen tar vi en titt på alle de andre teknikkene som er tilgjengelige for å beskytte personvernet ditt på Bitcoin, bortsett fra coinjoin. Gjennom årene har utviklere vist bemerkelsesverdig kreativitet i utformingen av verktøy dedikert til personvern. Vi ser på alle disse metodene, som payjoin, samarbeidstransaksjoner, Coin Swap og Atomic Swap, og beskriver hvordan de fungerer, deres mål og eventuelle svakheter.
 
 Vi ser også på personvern på nettverksnivå med noder og transaksjonsformidling. Vi diskuterer også de ulike protokollene som har blitt foreslått opp gjennom årene for å forbedre brukernes personvern på Bitcoin, inkludert statiske adresseprotokoller.
 
 ![BTC204](assets/fr/005.webp)
+Klar til å utforske de intrikate aspektene ved personvern på Bitcoin? La oss gå!
 
 # Definisjoner og nøkkelbegreper
 
@@ -4220,7 +4222,7 @@ Siden denne funksjonen er ny, anbefaler vi at du utviser forsiktighet og unngår
 
 *For å lage dette kapittelet om Silent Payments brukte jeg [nettstedet med forklaringer om Silent Payments] (https://silentpayments.xyz/) og [BIP352-forklaringsdokumentet] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)
 
-# Konklusjon
+# Siste seksjon
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

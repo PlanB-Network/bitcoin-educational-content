@@ -1,0 +1,9 @@
+question: Jaką właściwość musi mieć funkcja Hash, aby zapewnić bezpieczeństwo podczas weryfikacji oprogramowania?
+answer: Odporność na kolizje
+wrong_answers:
+  - Odwracalność
+  - Obsługa kluczy asymetrycznych
+  - Generowalność w czasie rzeczywistym
+explanation: |
+  Odporność na kolizje zapewnia, że praktycznie niemożliwe jest znalezienie dwóch różnych wejść generujących ten sam Hash, co jest ważne dla weryfikacji, czy oprogramowanie nie zostało zmodyfikowane.
+reviewed: false

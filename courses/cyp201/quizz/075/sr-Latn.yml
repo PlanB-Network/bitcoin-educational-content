@@ -1,0 +1,9 @@
+question: Koji derivacijski put se koristi za SegWit v0 nalog u standardnom deskriptoru?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Putanja 84h/0h/0h je definisana u BIP84 za nalog koji izvodi SegWit v0 adrese sa P2WPKH.
+reviewed: false

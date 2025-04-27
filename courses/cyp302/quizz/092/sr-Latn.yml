@@ -1,0 +1,9 @@
+question: Kako se blok šifra može transformisati u strim šifru?
+answer: Korišćenjem režima kao što je OFB koji generate generiše ključni tok iz blok šifre
+wrong_answers:
+  - Deljenjem otvorenog teksta na bajtove i šifrovanjem svakog ponaosob
+  - Dodavanjem popune porukama pre šifrovanja
+  - Povećanjem dužine ključa za svaki šifrovani blok
+explanation: |
+  Režimi kao što je OFB omogućavaju blok šifri da deluje kao strim šifra generisanjem ključa strima, koji se zatim koristi za svaki deo otvorenog teksta.
+reviewed: false

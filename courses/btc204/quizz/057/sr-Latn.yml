@@ -1,0 +1,9 @@
+question: Koja je glavna pretnja povezana sa ponovnom upotrebom Address?
+answer: Omogućava uspostavljanje determinističkih veza između različitih transakcija i zajedničkog Ownership dotičnih UTXO-a.
+wrong_answers:
+  - Izlaže IP korisnika Address drugim učesnicima mreže tokom validacije transakcije.
+  - Smanjuje efikasnost mehanizama digitalnog potpisa, što oslabljuje sigurnost transakcija.
+  - To dovodi do povećanja naknada za transakcije zbog zagušenja uzrokovanog ponovnom upotrebom Address.
+explanation: |
+  Ako se isti Address koristi za više transakcija, postaje moguće zaključiti da svi bitkoini povezani sa tim Address pripadaju istoj osobi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji RGB Contract Operation stvara novu državu bez zatvaranja Seal?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Aktivacija Valency
+explanation: |
+  State Extension vam omogućava da kreirate novu državu ili prava (Valencije), bez da se Seal odmah zatvori.
+reviewed: false

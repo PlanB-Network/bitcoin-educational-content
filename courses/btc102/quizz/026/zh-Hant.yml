@@ -1,0 +1,9 @@
+question: 使用者必須自行儲存什麼才能真正擁有自己的比特幣？
+answer: 私密金鑰
+wrong_answers:
+  - 收件地址
+  - Exchange 平台密碼
+  - Blockchain 區塊
+explanation: |
+  如果不持有私人金鑰，您就無法真正擁有您的 bitcoins。
+reviewed: false

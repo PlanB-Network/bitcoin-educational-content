@@ -1,12 +1,9 @@
-
-question: What is the difference between trading and investing in the context of Bitcoin?
-answer: Trading involves short-term contracts with high risk, while investing involves buying BTC for short to medium-term with limited risk.
+question: What impact do expansionary monetary policies have on fiat currency?
+answer: They dilute the value of savings
 wrong_answers:
-  - Trading involves buying BTC for short to medium-term, while investing involves short-term contracts with high risk.
-  - Trading involves buying BTC for long-term, while investing involves short-term contracts with high risk.
-  - Trading involves buying BTC for short to medium-term, while investing involves buying BTC for long-term.
+  - They increase purchasing power
+  - They stabilize interest rates
+  - They guarantee economic growth
 explanation: |
-  In the context of Bitcoin, trading involves short-term contracts with
-  high risk, while investing involves buying BTC for short to medium-term with limited
-  risk.
+  Massive money printing leads to a depreciation of purchasing power, which gradually erodes the saver’s purchasing power.
 reviewed: false

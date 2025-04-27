@@ -1,0 +1,9 @@
+question: Prema Bastijatu, najgori oblik pljačke je legalna pljačka.
+answer: Porezi i monopoli
+wrong_answers:
+  - Krađa koju je počinila jedna osoba protiv druge
+  - Rat i osvajanja
+  - Svi oblici pljačke su podjednako loši
+explanation: |
+  Bastiat smatra da su porezi i monopoli najgori oblik pljačke jer ih država legitimizuje, što dovodi do sistematskog prisvajanja resursa i sloboda pojedinaca, često pod izgovorom javnog interesa.
+reviewed: false

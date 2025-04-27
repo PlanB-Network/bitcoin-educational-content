@@ -1,0 +1,9 @@
+question: Koji bezbednosni problem nastaje ako se ista poruka šifruje više puta u pojednostavljenom RSA kriptosistemu?
+answer: Poruka će uvek proizvesti istu enkripciju
+wrong_answers:
+  - Poruka će biti ranjiva na brute force napade
+  - Poruka će biti obrnuta
+  - Poruka će postati nemoguće dešifrovati
+explanation: |
+  U pojednostavljenom RSA, šifrovanje poruke više puta će uvek proizvesti isti rezultat, što čini šifrovanje ranjivim na napade.
+reviewed: false

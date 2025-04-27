@@ -1,0 +1,9 @@
+question: Koja je jedna od posledica dolarizacije?
+answer: Gubitak autonomne monetarne politike
+wrong_answers:
+  - Povećanje inflacije
+  - Povećanje novca Supply
+  - Smanjenje poverenja javnosti
+explanation: |
+  Dollarizacija može okončati hiperinflaciju, ali donosi druge ekonomske izazove. Jedna od posledica je gubitak autonomne monetarne politike. Bez sopstvene valute, zemlja ne može prilagoditi svoju monetarnu politiku kako bi odgovorila na unutrašnje ekonomske šokove.
+reviewed: false

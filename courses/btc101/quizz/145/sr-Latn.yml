@@ -1,0 +1,11 @@
+question: O čemu je bio rat blokova 2017. godine?
+answer: Sukob oko toga da li povećati veličinu bloka kako bi se proširio kapacitet transakcija.
+wrong_answers:
+  - Sukob oko toga da li smanjiti veličinu bloka kako bi se smanjio kapacitet transakcija.
+  - Sukob oko toga da li povećati Block reward kako bi se podstakli rudari.
+  - Sukob oko toga da li smanjiti Block reward kako bi se destimulisali rudari.
+explanation: |
+  Blokovski rat 2017. bio je sukob oko toga da li
+  modifikovati Bitcoin povećanjem veličine bloka kako bi se
+  proširio kapacitet transakcija.
+reviewed: true

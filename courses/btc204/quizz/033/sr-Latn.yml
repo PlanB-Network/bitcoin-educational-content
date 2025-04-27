@@ -1,0 +1,9 @@
+question: Ako u jednostavnoj platnoj transakciji primetimo da izlaz ima zaokružen iznos, koju verovatnu interpretaciju možemo izvući iz toga?
+answer: Kružni izlaz više nije u posedu ulaznog korisnika.
+wrong_answers:
+  - Kružni izlaz je namenjen za transakcione naknade.
+  - Kružni izlaz i dalje pripada ulaznom korisniku.
+  - Okrugli izlaz je rezerva Address.
+explanation: |
+  Kada se suočite sa jednostavnim obrascem plaćanja (1 ulaz i 2 izlaza), ako jedan od izlaza troši okrugli iznos, onda on predstavlja plaćanje. Tako napušta posed korisnika ulaza.
+reviewed: false

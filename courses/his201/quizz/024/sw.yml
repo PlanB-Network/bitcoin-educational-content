@@ -1,0 +1,9 @@
+question: Je, ni mtu gani ambaye aliitikia vyema kuchapishwa kwa karatasi nyeupe mnamo Novemba 2008?
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  Mnamo Novemba 7, aliandikia orodha kwamba Bitcoin [ilionekana] kuwa wazo la kuahidi sana. Wengine walikuwa na mashaka zaidi. ( https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: false

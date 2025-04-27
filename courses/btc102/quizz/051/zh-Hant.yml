@@ -1,0 +1,9 @@
+question: 哪種方法可以讓您抵銷已花費的 bitcoins，同時保留您的儲蓄？
+answer: 花費與替換
+wrong_answers:
+  - HODLing 和取代
+  - 花費與 HODLing
+  - 交易與花費
+explanation: |
+  花費與取代」方法是先花費比特幣，然後再回購相同數額的比特幣，以維持您的持有量。
+reviewed: false

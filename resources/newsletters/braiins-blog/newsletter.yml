@@ -1,7 +1,7 @@
 id: 54bdc47d-c126-48e5-be57-b5e639316199
 title: "Braiins Blog"
 author: Braiins Team
-level: expert
+level: advanced
 publication_date: 2019-09-27
 link:
   - website: https://braiins.com/blog
@@ -16,6 +16,7 @@ description: |
   both mining and general Bitcoin knowledge.
 contributor_names:
   - PaoloFoti
+project_id: 9c8ef98b-a33c-4ccc-8d72-43299a47887b
 tags:
   - mining
   - technical-analysis

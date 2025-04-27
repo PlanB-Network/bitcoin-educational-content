@@ -1,0 +1,14 @@
+question: Koje su glavne vrste stabilnih kovanica pomenute u tekstu?
+answer: Stabilni novčići podržani fiat valutom, robom i algoritamski stabilni novčići.
+wrong_answers:
+  - Digitalni i fizički stabilni novčići
+  - Centralizovane i decentralizovane stabilne kovanice
+  - Stablecoini podržani od strane banaka i stablecoini podržani od strane pojedinaca
+explanation: |
+  U prethodnim poglavljima smo videli tri glavne vrste stabilnih kriptovaluta; 
+  stabilne kriptovalute podržane fiat valutama, koje su podržane tradicionalnim valutama 
+  poput američkog dolara; stabilne kriptovalute podržane robama, koje su podržane 
+  robama poput zlata ili nafte; i algoritamske stabilne kriptovalute, koje se oslanjaju 
+  na skup pravila ili algoritama da bi održale svoju vrednost. Međutim, 
+  primećuje se da uspešne algoritamske stabilne kriptovalute još uvek nisu stigle na tržište.
+reviewed: true

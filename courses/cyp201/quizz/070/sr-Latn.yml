@@ -1,0 +1,9 @@
+question: Šta predstavlja dubina 0 u hijerarhiji HD novčanika?
+answer: Glavni ključ i glavni lančani kod
+wrong_answers:
+  - Spoljni lanac adresa
+  - Podrazumevani nalog
+  - Vrsta valute
+explanation: |
+  Dubina 0 odgovara glavnom ključu i glavnom lancu koda, koji su početne tačke za sve izvedbe u HD Wallet.
+reviewed: false

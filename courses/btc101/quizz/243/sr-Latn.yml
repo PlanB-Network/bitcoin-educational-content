@@ -1,0 +1,8 @@
+question: Koje su potencijalne poslovne prilike koje pruža Lightning Network?
+answer: Novi ekonomski modeli gde potrošači plaćaju za sadržaj na osnovu onoga što konzumiraju.
+wrong_answers:
+  - Novi ekonomski modeli gde potrošači plaćaju koristeći različite kriptovalute.
+  - Novi ekonomski modeli gde potrošači koriste personalizovane blokčejnove.
+  - Novi ekonomski modeli gde potrošači ne plaćaju za bilo kakav sadržaj.
+explanation: >-
+reviewed: true

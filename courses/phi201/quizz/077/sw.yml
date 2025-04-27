@@ -1,0 +1,9 @@
+question: Jina la kitabu cha Thomas Paine ni nini?
+answer: Akili ya Kawaida.
+wrong_answers:
+  - Hisia ya kipekee.
+  - Faida ya pamoja.
+  - Hakuna majibu yoyote hapo juu ambayo ni sahihi.
+explanation: |
+  Kitabu cha Thomas Paine, kilichoitwa Common Sense (Le sens commun in French), ni kijitabu chenye ushawishi ambacho kilitetea uhuru wa Marekani na kukemea udhalimu wa Waingereza, kikicheza jukumu muhimu katika kuwahamasisha wakoloni.
+reviewed: false

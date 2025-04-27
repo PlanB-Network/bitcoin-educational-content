@@ -1,0 +1,9 @@
+question: Je, ni kazi gani inayotumika kupata seed kutoka kwa maneno ya Mnemonic?
+answer: PBKDF2 pamoja na HMAC-SHA512
+wrong_answers:
+  - SHA256 pekee
+  - SHA256 mara mbili
+  - AES-256
+explanation: |
+  seed inazalishwa kwa kutumia kazi ya PBKDF2 yenye marudio ya HMAC-SHA512 na 2048, kutoka kwa maneno ya Mnemonic na passphrase.
+reviewed: false

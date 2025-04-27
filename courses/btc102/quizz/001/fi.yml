@@ -1,9 +1,9 @@
-question: Mikä on yleinen huijaus, joka liittyy verkossa järjestettäviin kilpailuihin tai lahjoituksiin kryptoalalla?
-answer: Mainokset, jotka lupaavat ilmaisia bitcoineja.
+question: Mitä sinun pitäisi tehdä, jotta tunnistaisit kryptoalalla tapahtuvan phishing-yrityksen?
+answer: Tarkista lähettäjän henkilöllisyys
 wrong_answers:
-  - Mainokset, jotka lupaavat fyysisiä tuotteita.
-  - Mainokset, jotka lupaavat ilmaista fiat-valuuttaa.
-  - Mainokset, jotka lupaavat ilmaista ohjelmistoa.
+  - Napsauta vain sähköpostissa olevia linkkejä
+  - Jaa yksityiset avaimesi aitouden vahvistamiseksi
+  - Luota sähköpostiviesteissä pelkästään logoihin ja kuviin
 explanation: |
-  Huijaukset, jotka liittyvät verkossa järjestettäviin kilpailuihin tai lahjoituksiin, ovat hyvin yleisiä kryptoalalla. Mainokset, jotka lupaavat ilmaisia bitcoineja, käytetään usein harhauttamaan kokemattomia käyttäjiä.
+  Varmista aina, että olet vuorovaikutuksessa oikean henkilön kanssa, äläkä koskaan käytä sähköpostiviesteissä annettuja linkkejä. Siirry sen sijaan suoraan sivustolle manuaalisesti selaimesi kirjanmerkkien avulla.
 reviewed: false

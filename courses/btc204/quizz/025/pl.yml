@@ -1,0 +1,9 @@
+question: Czym jest KYC?
+answer: Procedura weryfikacji i rejestrowania tożsamości klientów.
+wrong_answers:
+  - System kryptograficzny do zabezpieczania transakcji finansowych.
+  - Metoda walidacji transakcji finansowych.
+  - Technika marketingowa służąca do analizy zachowań klientów.
+explanation: |
+  KYC oznacza Poznaj swojego klienta. Jest to rzeczywiście procedura regulacyjna mająca na celu weryfikację tożsamości klienta.
+reviewed: false

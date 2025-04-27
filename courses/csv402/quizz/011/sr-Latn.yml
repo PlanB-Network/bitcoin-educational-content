@@ -1,0 +1,9 @@
+question: Šta čini Anchor u RGB?
+answer: transaction ID, MPC, DBC, and Extra Transaction Proof
+wrong_answers:
+  - Genesis, Seal Definition, and Transition Bundle
+  - Contract Schema, Business Logic, and Owned State
+  - Potpis, Transakcija Hash, i Pedersen commitment
+explanation: |
+  Anchor sadrži podatke potrebne za dokazivanje uključivanja jedinstvenog Commitment u Bitcoin transakciju.
+reviewed: false

@@ -39,11 +39,12 @@ Questo corso è stato sponsorizzato da TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Introduzione
+## Panoramica del corso
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Benvenuto al corso ECO104!
 
-### Viviamo in un mondo dove:
+**Viviamo in un mondo dove:**
 
 ● Solo il [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) delle persone risiede in società considerate "libere democraticamente". Eppure, anche all'interno di questa frazione privilegiata, le violazioni dei diritti umani sono sempre più comuni: dai conti bancari congelati alla censura. L'80% restante si trova a lottare contro l'avanzata del dominio autoritario. Solo due decenni fa, quasi la metà della popolazione mondiale godeva delle libertà più basilari.
 
@@ -62,7 +63,7 @@ Detto ciò, questo corso non è soltanto per coloro che affrontano un'inflazione
 
 Con questo in mente, la nostra missione è portarti in prima linea nel cambiamento del nostro attuale panorama finanziario, sfidare le norme esistenti e offrire soluzioni alternative. Approfondendo la storia del denaro, demistificando Bitcoin e esplorando Tether e il mondo delle stablecoin, miriamo a ispirare gli individui a reinventare il loro futuro finanziario.
 
-### Cosa aspettarsi:
+**Cosa aspettarsi:**
 
 **Modulo 1: Il Prezzo del Progresso - Uno Sguardo Approfondito al Nostro Sistema Finanziario**
 Iniziamo la nostra esplorazione guardando dietro le quinte del nostro attuale sistema finanziario, dove la censura finanziaria, la disuguaglianza di ricchezza e l'inflazione affliggono la nostra vita quotidiana. Attraverso una breve storia del denaro, esamineremo come ci siamo trovati dove siamo, facendo luce su alcuni dei principali punti dolenti che tutti noi stiamo vivendo.
@@ -1633,7 +1634,7 @@ Che questa nuova comprensione vi dia il potere di navigare il mondo in evoluzion
 
 Il Futuro è Luminoso!
 
-# Conclusione
+# Sezione finale
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

@@ -1,0 +1,9 @@
+question: Kako različiti stabilkoini Tether doprinose finansijskoj slobodi pojedinaca u nestabilnim ekonomijama?
+answer: Omogućavanjem pristupa valutama sa stabilnim Exchange kursovima
+wrong_answers:
+  - Eliminisanjem potrebe za fizičkim novcem
+  - Pružanjem viših kamatnih stopa na štednju
+  - Omogućavanjem trenutnih globalnih transakcija
+explanation: |
+  Tetherovi različiti stabilni novčići vezani su za stabilne aktive poput američkog dolara ili zlata. Ova stabilnost omogućava pojedincima u nestabilnim ekonomijama da prebace svoj novac u valutu koja nije podložna istim stopama inflacije, pomažući im da očuvaju vrednost svoje ušteđevine.
+reviewed: true

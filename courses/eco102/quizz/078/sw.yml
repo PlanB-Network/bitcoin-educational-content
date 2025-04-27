@@ -1,0 +1,9 @@
+question: Je, wajibu wa mtu binafsi katika maendeleo ya kijamii ni upi kwa mujibu wa Bastiat?
+answer: Inahimiza watu binafsi kuwa waangalifu na wafadhili
+wrong_answers:
+  - Inahimiza ushindani kati ya watu binafsi
+  - Inaruhusu serikali kufanya maamuzi kwa manufaa ya wote
+  - Inapunguza uwezekano wa ukuaji wa kibinafsi
+explanation: |
+  Bastiat anasema kuwa uwajibikaji wa mtu binafsi huongoza kwa tahadhari na utoaji, kwani kila mtu lazima achukue matokeo ya matendo yake, ambayo huhimiza tabia ya kufikiria na kuwajibika zaidi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kwa nini biashara inaweza kuchagua kukubali malipo ya Bitcoin kutoka kwa wateja?
+answer: Ili kugusa idadi inayoongezeka ya watumiaji, ada zinazoweza kuwa za chini za muamala, na kuweka kipengee muhimu katika hazina yake.
+wrong_answers:
+  - Ili kuhakikisha kuwa wateja wote watalipa zaidi ya bei iliyoorodheshwa.
+  - Ili kuhakikisha kuwa hakuna ushuru au mahitaji ya udhibiti yanawahi kutumika.
+  - Ili kufanya mchakato wa kulipa polepole na ngumu zaidi.
+explanation: |
+  Kukubali Bitcoin kunaweza kuvutia idadi mpya ya wanunuzi, kupunguza ada za usindikaji wa malipo, na kujenga duka la thamani. Inaweza pia kuongeza ufikiaji wa kimataifa, kwani Bitcoin haina mpaka na inafanya kazi saa nzima.
+reviewed: false

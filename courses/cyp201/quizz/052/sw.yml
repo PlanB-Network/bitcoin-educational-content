@@ -1,0 +1,9 @@
+question: Kusudi la kutumia decoy Wallet na passphrase ni nini?
+answer: Kuiga Wallet kwa kiasi kidogo katika kesi ya kulazimishwa kimwili
+wrong_answers:
+  - Ongeza nakala rudufu otomatiki ya miamala
+  - generate maneno ya ziada ya Mnemonic
+  - Linda UTXO kutokana na matumizi maradufu
+explanation: |
+  Udanganyifu wa Wallet hutumiwa kugeuza usikivu wa mshambuliaji kwa kutoa ufikiaji wa Wallet iliyo na kiasi kidogo cha bitcoins.
+reviewed: false

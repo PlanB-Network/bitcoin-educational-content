@@ -1,0 +1,14 @@
+question: Šta znači izreka Not your Hashrate, not your reward u kontekstu Bitcoin Mining?
+answer: Ako ne kontrolišeš Hashrate, ne kontrolišeš Mining nagrade.
+wrong_answers:
+  - Ako nemaš visok Hashrate, nećeš dobiti nikakve nagrade.
+  - Ako ne posedujete Bitcoin, nećete dobiti nikakve nagrade.
+  - Ako nemate Mining mašinu, nećete dobiti nikakve nagrade.
+explanation: |
+  Izreka Not your Hashrate, not your reward je slična
+  dobro poznatoj izreci u svetu kriptovaluta,
+  Not your keys, not your Bitcoins. To znači da ako ne
+  kontrolišete Hashrate, ne kontrolišete Mining
+  nagrade. Ovo je zato što su nagrade iz Mining
+  direktno proporcionalne sa Hashrate.
+reviewed: true

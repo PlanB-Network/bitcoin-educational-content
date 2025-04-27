@@ -1,0 +1,9 @@
+question: Koja je najteža karakteristika za postizanje sa digitalnom valutom kao što je Bitcoin?
+answer: Odsustvo dvostrukog trošenja
+wrong_answers:
+  - Integritet
+  - Autentičnost
+  - Verodostojnost
+explanation: |
+  Za digitalne valute, osiguravanje odsustva dvostrukog trošenja je složenije, jer je svako digitalno dobro u suštini informacija. Za razliku od fizičkih dobara, informacije se ne dele tokom razmene već se šire umnožavanjem.
+reviewed: false

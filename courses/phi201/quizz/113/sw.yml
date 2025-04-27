@@ -1,0 +1,9 @@
+question: Je, ukosoaji mkuu wa Hayek wa sera ya fedha ya Keynesi ni nini?
+answer: Inaunda Bubbles za kiuchumi na kushuka kwa uchumi
+wrong_answers:
+  - Inapendelea uwekezaji wa muda mrefu
+  - Inapunguza usawa wa kijamii
+  - Inaongeza mahitaji ya ndani bila kudhibitiwa
+explanation: |
+  Hayek alikosoa sera ya fedha ya Keynesi kwa kusema kwamba inahimiza mizunguko ya uwekezaji wa kupindukia, na kusababisha mapovu ya kiuchumi na, bila shaka, kushuka kwa uchumi wakati viputo hivi vinapotokea.
+reviewed: false

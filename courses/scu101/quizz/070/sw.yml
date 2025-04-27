@@ -1,0 +1,13 @@
+question: Kusudi la uthibitishaji wa Umeme ni nini?
+answer: Inazalisha kitambulisho tofauti kwa kila huduma, bila hitaji la kufanya hivyo
+wrong_answers:
+  - Huruhusu mtu yeyote, hata asiye na Umeme Wallet, kuthibitisha bila barua pepe Address, ikiwa kitambulisho halali kitaonyeshwa.
+  - Inakuruhusu kutumia nenosiri sawa kwa huduma zote.
+  - Hutuma vikumbusho vya kubadilisha manenosiri kila mwezi.
+explanation: |
+  Uthibitishaji wa umeme hutoa kitambulisho tofauti
+  kwa kila huduma, bila hitaji la kutoa barua pepe
+  Address au habari ya kibinafsi. Hii inaweza kuboresha faragha
+  na usalama kwa kupunguza kiasi cha taarifa za kibinafsi
+  ambayo inashirikiwa na kila huduma.
+reviewed: true

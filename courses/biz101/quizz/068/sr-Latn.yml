@@ -1,0 +1,9 @@
+question: Kako se BTC Pay Server može implementirati u profesionalnom okruženju?
+answer: Na lokaciji ili putem hostinga u oblaku
+wrong_answers:
+  - Isključivo na namenskim hardverskim uređajima
+  - Kroz potpuno eksternalizovanu uslugu treće strane
+  - Kao mobilna aplikacija
+explanation: |
+  Fleksibilnost implementacije BTC Pay Server-a na lokaciji ili u oblaku omogućava preduzećima da izaberu postavku koja najbolje odgovara njihovim operativnim potrebama.
+reviewed: false

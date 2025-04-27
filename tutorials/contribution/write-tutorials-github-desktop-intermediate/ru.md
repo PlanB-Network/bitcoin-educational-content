@@ -132,7 +132,12 @@ python3 main.py
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-В поле "ID профессора PBN" введите свой идентификатор, используя слова из списка BIP39, как он отображается в [профиле вашего профессора](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Затем вам необходимо заполнить свой профиль преподавателя. Для этого доступны несколько вариантов:
+- Введите первые буквы вашего имени в поле "Professor Name". Ваше имя появится в раскрывающемся списке "Prof. Suggestions", расположенном ниже. Выберите его, щелкнув по нему;
+- Или вы можете напрямую щелкнуть на раскрывающемся списке "Prof. Suggestions" и выбрать ваше имя преподавателя.
+
+Это действие автоматически заполнит ваш UUID преподавателя в соответствующем поле.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
@@ -213,73 +218,90 @@ bitcoin-educational-content/
 Заполните файл `tutorial.yml`, скопировав следующий шаблон:
 
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
-Вот подробная информация об обязательных полях:
+Вот обязательные поля:
 
+- **id** : UUID (_Универсально уникальный идентификатор_), который позволяет уникально идентифицировать учебник. Вы можете сгенерировать его с помощью [онлайн-инструмента](https://www.uuidgenerator.net/version4). Единственное требование заключается в том, чтобы этот UUID был случайным, чтобы избежать конфликта с другим UUID на платформе;
 
-- id**: UUID (_Universally Unique Identifier_) для уникальной идентификации учебника. Вы можете сгенерировать его с помощью [онлайн-инструмента](https://www.uuidgenerator.net/version4). Единственное требование - чтобы этот UUID был случайным, чтобы избежать конфликта с другим UUID на платформе;
-- project_id**: UUID компании или организации, стоящей за инструментом, представленным в учебнике [из списка проектов] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, если вы создаете учебник по программному обеспечению Sparrow Wallet, вы можете найти этот `project_id` в следующем файле: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Эта информация добавлена в YAML-файл вашего учебника, потому что Plan ₿ Network ведет базу данных всех компаний и организаций, работающих с Биткойном или связанными с ним проектами. Добавляя `project_id` организации, связанной с вашим учебником, вы создаете связь между двумя элементами;
-- теги**: 2 или 3 релевантных ключевых слова, связанных с содержанием учебного пособия, выбранные исключительно [из списка тегов Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- категория**: Подкатегория, соответствующая содержанию руководства, в соответствии со структурой сайта Plan ₿ Network (например, для кошельков: `desktop`, `hardware`, `mobile`, `backup`);
-- уровень**: Уровень сложности учебника, среди:
-    - `новичок`
-    - `промежуточный`
-    - `продвинутый`
-    - `эксперт`
-- профессор**: Ваш `contributor_id` (слова из BIP39), отображаемый в [профиле вашего профессора](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- original_language**: Язык оригинала учебника (например, `fr`, `en` и т.д.);
-- вычитка**: Информация о процессе вычитки. Заполните первую часть, так как вычитка собственного учебника считается первой проверкой:
-    - язык**: Код языка корректуры (например, `fr`, `en` и т.д.).
-    - last_contribution_date**: Сегодняшняя дата.
-    - срочность**: Оставьте пустым.
-    - contributors_id**: Ваш идентификатор на GitHub.
-    - вознаграждение**: Оставьте пустым.
+- **project_id** : UUID компании или организации, стоящей за инструментом, представленным в учебнике [из списка проектов](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Например, если вы создаете учебник о программном обеспечении Green Wallet, вы можете найти этот `project_id` в следующем файле: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Эта информация добавляется в YAML файл вашего учебника, так как Plan ₿ Network поддерживает базу данных всех компаний и организаций, работающих с Биткоином или связанными проектами. Добавляя `project_id` связанной с вашим учебником сущности, вы создаете связь между этими элементами;
 
-Для получения более подробной информации об идентификаторе профессора обратитесь к соответствующему учебному пособию:
+- **tags** : 2 или 3 ключевых слова, связанных с содержанием учебника, выбранных исключительно [из списка тегов Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+
+- **category** : Подкатегория, соответствующая содержанию учебника, в соответствии с структурой сайта Plan ₿ Network (например, для кошельков: `desktop`, `hardware`, `mobile`, `backup`);
+
+- **level** : Уровень сложности учебника, выбираемый из:
+    - `beginner`
+    - `intermediate`
+    - `advanced`
+    - `expert`
+
+- **professor_id** : Ваш `professor_id` (UUID), как указано в [вашем профиле преподавателя](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+
+- **original_language** : Оригинальный язык учебника (например, `fr`, `en`, и т. д.);
+
+- **proofreading** : Информация о процессе корректуры. Заполните первую часть, так как корректура вашего собственного учебника считается первой проверкой:
+    - **language** : Код языка корректуры (например, `fr`, `en`, и т. д.).
+    - **last_contribution_date** : Дата текущего дня.
+    - **urgency** : 1
+    - **contributor_names** : Ваш GitHub ID.
+    - **reward** : 0
+
+Для получения более подробной информации об идентификаторе учителя обратитесь к соответствующему руководству:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Вот пример заполненного файла `tutorial.yml` для учебника по кошельку Blockstream Green:
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency: 1
-contributors_id:
-- LoicPandul
-reward: 0
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
 
 После того как вы закончили модификацию файла `tutorial.yml`, сохраните документ, нажав на `File > Save`:

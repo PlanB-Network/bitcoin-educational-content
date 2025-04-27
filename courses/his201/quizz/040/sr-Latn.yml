@@ -1,0 +1,9 @@
+question: Koliko je ukupno bitkoina (približno) iskopao Satoshi Nakamoto?
+answer: 1.100.000
+wrong_answers:
+  - 11.000.000
+  - 110,000
+  - 11.000
+explanation: |
+   1,122,693 bitkoina prema studiji Whale Alert objavljenoj 2020. godine. Satoshi je prekinuo svoje Mining aktivnosti u maju 2010. godine.
+reviewed: false

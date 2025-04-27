@@ -26,7 +26,32 @@ Připojte se k Damienovi Theillierovi v této obohacující exploraci myšlení 
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Úvod do kurzu
+## Přehled kurzu
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+Cílem tohoto kurzu je poskytnout vám hluboké pochopení života, intelektuálních vlivů, ideologických protivníků a ekonomických teorií Frédérica Bastiata. Prostřednictvím této strukturované cesty zjistíte, jak jeho myšlenky ovlivnily ekonomické myšlení a nadále ovlivňují současné debaty.
+
+**Sekce 1: Úvod**  
+Začneme obecným přehledem Frédérica Bastiata, neznámého génia ekonomie. Seznámíte se s jeho životem, intelektuálním vývojem a historickým kontextem, ve kterém rozvíjel své myšlení. Pochopení tohoto rámce je klíčové pro plné pochopení rozsahu jeho spisů a teorií.
+
+**Sekce 2: Vlivy**  
+Budeme pokračovat analýzou myslitelů, kteří ovlivnili ekonomické myšlení Frédérica Bastiata. Dozvíte se, jak významné osobnosti jako Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer nebo Richard Cobden přispěly k jeho intelektuálnímu rozvoji a položily základy jeho úvah o volném obchodu a tržní ekonomice.
+
+**Sekce 3: Protivníci**  
+Poté se budeme věnovat Bastiatovým kritikám jeho ideologických protivníků. Ať už se jednalo o Rousseaua, klasické vzdělávání, protekcionismus, socialismus nebo Proudhona, pochopíte, proč Bastiat považoval tyto doktríny za překážky ekonomického a sociálního pokroku a jak na jejich argumenty reagoval přesvědčivou logikou.
+
+**Sekce 4: Ekonomické Sofismy**  
+Tato část je věnována ekonomickým sofismům, které Bastiat kritizoval, včetně známých "*To, co je vidět a co není vidět*" a "*Žádost výrobců svíček*". Prozkoumáme, jak Bastiat pomocí satiry a důkladné analýzy dokázal odhalit ekonomické omyly své doby, které jsou aktuální i dnes.
+
+**Sekce 5: Ekonomické Harmonie**  
+Zde se seznámíte s Bastiatovou pozitivní vizí ekonomie. Zaměříme se na koncepty jako zázrak trhu, sílu individuální odpovědnosti a rozlišení mezi pravou a falešnou solidaritou. Bastiat viděl ekonomii jako soudržný systém, kde správně chápaný osobní zájem přináší užitek celku. Dozvíte se proč.
+
+**Sekce 6: Zákon**  
+Na závěr tohoto kurzu se ponoříme do Bastiatova hlavního díla, "*Zákon*", kde vysvětluje své úvahy o právu na majetek, zákonné loupeži a omezené roli státu. Pochopíte, proč je tento esej považován za jeden z nejpřesvědčivějších manifestů ve prospěch individuální svobody a tržní ekonomiky.
+
+Připraveni zjistit, jak Bastiatovy myšlenky mohou i dnes rezonovat? Připojte se k nám na této intelektuální cestě, která může změnit vaše chápání ekonomie!
+
+## Bastiat: neznámý génius
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -1023,7 +1048,7 @@ Pokud se na věci podíváme z tohoto úhlu, vysvětloval Reagan zaměstnancům 
 ![obrázek](assets/test/143.webp)
 Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liberální vize společnosti a člověka: primát občanské společnosti nad státem, hodnotu volby a individuální odpovědnosti, důležitost podnikatele ve tvorbě bohatství, význam flexibilního a minimálního právního rámce, který umožňuje důvěru a respektování smluv, základní zákon, že bohatství musí být vytvořeno, než může být rozděleno, touhu dát každému šanci na konkurenčních trzích…
 
-# Závěr
+# Sekce finále
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

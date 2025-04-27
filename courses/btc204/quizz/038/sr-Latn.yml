@@ -1,0 +1,9 @@
+question: Koji model transakcije poništava upotrebu CIOH?
+answer: Saradnička transakcija.
+wrong_answers:
+  - Jednostavno plaćanje.
+  - Konsolidacija.
+  - Čišćenje.
+explanation: |
+  CIOH se ne primenjuje na transakcije koje usvajaju kolaborativni obrazac, jer u ovom specifičnom slučaju, ulazi nužno dolaze od različitih entiteta.
+reviewed: false

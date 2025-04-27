@@ -1,0 +1,9 @@
+question: Który profil użytkownika regularnie gromadzi bitcoiny za pomocą Dollar-Cost Averaging?
+answer: Układarka
+wrong_answers:
+  - Hodler
+  - Aktywny użytkownik
+  - Paranoik
+explanation: |
+  Układający regularnie kupuje małe ilości, aby uśrednić cenę zakupu w długim okresie.
+reviewed: false

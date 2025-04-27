@@ -1,0 +1,9 @@
+question: Na čemu se zasniva vrednost prema Frédéricu Bastijatu?
+answer: Korisnost
+wrong_answers:
+  - Rad
+  - Oškudica
+  - Potražnja
+explanation: |
+  Bastiat usvaja Sayeovu ideju da je korisnost osnova vrednosti, suprotno teorijama zasnovanim na radu ili oskudici.
+reviewed: false

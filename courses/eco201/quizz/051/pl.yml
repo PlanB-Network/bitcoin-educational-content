@@ -1,0 +1,11 @@
+question: Jaki jest jeden z podstawowych aksjomatów austriackiej ekonomii?
+answer: Jednym z podstawowych aksjomatów są pozytywne preferencje czasowe, które opierają się na indywidualnych wyborach dóbr lub usług dziś, a nie jutro.
+wrong_answers:
+  - Jednym z podstawowych aksjomatów jest arbitralne ustalanie stóp procentowych.
+  - Jednym z podstawowych aksjomatów jest poleganie na danych empirycznych.
+  - Jednym z podstawowych aksjomatów jest wykorzystanie tymczasowych eksperymentów w celu potwierdzenia lub
+explanation: |
+  W ekonomii austriackiej jednym z podstawowych aksjomatów jest pozytywna preferencja czasowa
+  preferencje czasowe, które opierają się na indywidualnych wyborach dóbr lub usług dziś
+  niż jutra, ze względu na niepewność co do przyszłości.
+reviewed: true

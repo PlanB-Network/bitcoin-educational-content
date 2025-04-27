@@ -1,0 +1,9 @@
+question: 運行自己的 Bitcoin 節點有什麼優勢？
+answer: 獨立性
+wrong_answers:
+  - 流動性
+  - 集中化
+  - 速度
+explanation: |
+  運行您自己的節點可以確保獨立於第三方，並保護您的交易隱私。
+reviewed: false

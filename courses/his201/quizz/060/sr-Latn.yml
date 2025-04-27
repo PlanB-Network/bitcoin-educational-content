@@ -1,0 +1,9 @@
+question: Ko je osnovao prvu Mining zadrugu za proizvodnju bloka na Bitcoin?
+answer: doublec
+wrong_answers:
+  - slush
+  - puddinpop
+  - m0mchil
+explanation: |
+  Promovisao je to 1. decembra. Blok je [pronađen](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) 4. decembra 2010. S druge strane, Slushova zadruga je pokrenuta 16. decembra.
+reviewed: false

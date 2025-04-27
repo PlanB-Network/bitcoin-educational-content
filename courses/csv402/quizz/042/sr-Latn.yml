@@ -1,0 +1,9 @@
+question: U slučaju plaćanja unutar kanala RGB, šta se dešava sa izlazima RGB u transakcijama Commitment?
+answer: Ažurirani su kako bi odražavali preraspodelu imovine među učesnicima
+wrong_answers:
+  - Oni ostaju nepromenjeni kako bi sačuvali početnu istoriju sve dok kanal nije zatvoren.
+  - Oni su uklonjeni i zamenjeni novim multi-sig
+  - Oni su konvertovani u klasične Bitcoin UTXO-e
+explanation: |
+  Kada se izvrši uplata, RGB State Transition prilagođava RGB izlaze kako bi preraspodelio sredstva u skladu sa novim stanjem kanala.
+reviewed: false

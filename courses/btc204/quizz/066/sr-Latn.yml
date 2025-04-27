@@ -1,0 +1,9 @@
+question: Šta podrazumeva konsolidacija?
+answer: Spajanje nekoliko ulaza kako bi se stvorio jedan veći.
+wrong_answers:
+  - Deljenje velikog unosa na nekoliko manjih.
+  - Prenos ulaza sa više novčanika na jedan.
+  - Ponovno dodeljivanje neiskorišćenih ulaza na nove adrese.
+explanation: |
+  Princip je konsolidacije iskoristiti periode kada su naknade niske na Bitcoin da se manji UTXO-i spoje u jedan veći.
+reviewed: false

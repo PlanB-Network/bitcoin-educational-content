@@ -1,0 +1,9 @@
+question: Koji ključni podaci o plaćanju moraju biti dokumentovani za svaku Bitcoin transakciju?
+answer: Datum, iznos, ekvivalentna fiat vrednost i povezane adrese
+wrong_answers:
+  - transaction ID, mrežna naknada i trgovčev Address
+  - Datum, Exchange stopa, Wallet tip, i geografska lokacija
+  - Broj bloka Bitcoin, Timestamp, i korišćeni skript
+explanation: |
+  Dokumentovanje ovih detalja osigurava jasnoću i pomaže računovođama u razlikovanju dolaznih i odlaznih tokova.
+reviewed: false

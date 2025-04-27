@@ -1,0 +1,12 @@
+question: W jaki sposób górnicy Bitcoin mogą pomóc w zarządzaniu nadwyżkami energii i stabilizowaniu sieci energetycznych?
+answer: Górnicy Bitcoin mogą absorbować nadwyżki energii, działając jako elastyczny bufor, dostosowując zapotrzebowanie, a nie Supply. W świecie, w którym produkcja energii elektrycznej ze źródeł odnawialnych (niekontrolowanych) stale rośnie, górnicy mogą odgrywać kluczową rolę w zapewnianiu równowagi naszych sieci energetycznych, jednocześnie korzystając z taniej lub nadwyżki energii elektrycznej do zasilania swoich operacji Mining.
+wrong_answers:
+  - Górnicy Bitcoin mogą pomóc w zarządzaniu nadwyżkami energii poprzez przechowywanie nadmiaru energii w akumulatorach.
+  - Górnicy Bitcoin mogą pomóc w zarządzaniu nadwyżkami energii, sprzedając ją z powrotem do sieci.
+  - Górnicy Bitcoin mogą pomóc w zarządzaniu nadwyżkami energii, przekształcając nadmiar energii w ciepło.
+explanation: |
+  Rozdział wyjaśnia, że górnicy Bitcoin mogą absorbować nadwyżki energii
+  nadwyżki energii, działając jako elastyczny bufor, dostosowując popyt
+  niż Supply. Może to pomóc w zarządzaniu nadwyżkami
+  nadwyżkami energii i stabilizowaniu sieci energetycznych.
+reviewed: true

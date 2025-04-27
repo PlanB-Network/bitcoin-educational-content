@@ -1,0 +1,9 @@
+question: Koji je ekvivalent komponenti Schema u kontekstu RGB u objektno orijentisanom programiranju (OOP)?
+answer: Definicija klase
+wrong_answers:
+  - Konstruktor klase
+  - Implementacija Interface
+  - Prototipizacija metoda
+explanation: |
+  Schema odgovara definiciji klase u OOP, koja opisuje svojstva, metode i pravila Business Logic.
+reviewed: false

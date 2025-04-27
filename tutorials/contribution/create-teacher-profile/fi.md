@@ -78,7 +78,6 @@ Täytä vaaditut tiedot (huomaa, että kaikki nämä tiedot ovat julkisia alusta
 
 - Opettajatiedoston nimi (käytä etu- ja sukunimeäsi tai salanimeäsi pienin kirjaimin) ;
 - Nimesi tai lempinimesi ;
-- Kirjautumistunnuksen satunnainen luominen ;
 - Verkkosivustosi ja profiilisi X (valinnainen) ;
 - Lightning Address lahjoitusten vastaanottamiseksi lukijoilta (valinnainen) ;
 - Valitse luettelosta 2 tai 3 tunnistetta;

@@ -1,0 +1,9 @@
+question: Koji predsednik Sjedinjenih Američkih Država je, tokom svoje mladosti, širio Bastiatove ideje na korporativnim seminarima?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - Džordž Buš
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan, pre nego što je postao predsednik, širio je liberalne ideje Bastijata i drugih ekonomista na seminarima za General Electric.
+reviewed: false

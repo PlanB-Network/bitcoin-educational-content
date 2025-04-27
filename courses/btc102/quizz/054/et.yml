@@ -1,10 +1,9 @@
-question: Kes tutvustas ideed Bitcoin'i maanteest?
-answer: Andreas Antonopoulos
+question: Mis on aktiivse kasutaja peamine eesmärk?
+answer: Bitcoin kasutamine igapäevase makseviisina
 wrong_answers:
-  - Satoshi Nakamoto
-  - Elon Musk
-  - Vitalik Buterin
+  - Pikaajaline investeerimine Bitcoin-sse
+  - Et järk-järgult koguda satoshisid
+  - Spekuleerida turul
 explanation: |
-  Andreas Antonopoulos, tuntud Bitcoin'i toetaja ja haridustöötaja, tutvustas
-  ideed Bitcoin'i maanteest.
+  Aktiivne kasutaja lisab Bitcoin oma igapäevaellu, et teha tehinguid ja toetada selle kasutuselevõttu.
 reviewed: false

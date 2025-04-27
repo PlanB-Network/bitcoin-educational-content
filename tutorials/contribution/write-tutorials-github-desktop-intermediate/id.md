@@ -133,7 +133,12 @@ Di bidang "ID GitHub Kontributor", masukkan nama pengguna GitHub Anda.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Pada kolom "ID profesor PBN", masukkan pengenal Anda dengan menggunakan kata-kata dari daftar BIP39, seperti yang muncul pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Selanjutnya, Anda perlu mengisi profil profesor Anda. Ada beberapa opsi yang tersedia:
+- Masukkan huruf pertama dari nama Anda di kolom "Professor Name". Nama Anda kemudian akan muncul di daftar dropdown "Prof. Suggestions" yang terletak di bawah. Pilih dengan mengkliknya;
+- Atau, Anda dapat langsung mengklik daftar dropdown "Prof. Suggestions" dan memilih nama profesor Anda.
+
+Tindakan ini akan secara otomatis mengisi UUID profesor Anda di kolom yang sesuai.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
@@ -213,74 +218,92 @@ bitcoin-educational-content/
 
 Isi file `tutorial.yml` dengan menyalin templat berikut:
 
+
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
-Berikut ini adalah rincian bidang yang wajib diisi:
+Berikut adalah bidang yang wajib diisi:
 
+- **id** : Sebuah UUID (_Universally Unique Identifier_) yang mengidentifikasi tutorial secara unik. Anda dapat membuatnya menggunakan [alat online](https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah UUID ini harus acak untuk menghindari konflik dengan UUID lain di platform;
 
-- id**: Sebuah UUID (Pengenal Unik Universal) untuk mengidentifikasi tutorial secara unik. Anda dapat membuatnya dengan [alat bantu online] (https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah bahwa UUID ini bersifat acak untuk menghindari konflik dengan UUID lain di platform;
-- project_id**: UUID dari perusahaan atau organisasi di balik alat yang disajikan dalam tutorial [dari daftar proyek] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Sebagai contoh, jika Anda membuat tutorial mengenai perangkat lunak Sparrow Wallet, Anda dapat menemukan `project_id` ini di dalam berkas berikut: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network menyimpan database semua perusahaan dan organisasi yang beroperasi dengan Bitcoin atau proyek-proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat tautan antara dua elemen;
-- tag**: 2 atau 3 kata kunci yang relevan terkait dengan konten tutorial, yang dipilih secara eksklusif [dari daftar tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- kategori**: Sub-kategori yang sesuai dengan konten tutorial, sesuai dengan struktur situs Jaringan Plan ₿ Network (misalnya untuk dompet: `desktop`, `perangkat keras`, `seluler`, `cadangan`);
-- tingkat**: Tingkat kesulitan tutorial, di antara:
-    - `pemula`
-    - 'menengah'
+- **project_id** : UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
+
+- **tags** : 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+
+- **category** : Sub-kategori yang sesuai dengan isi tutorial sesuai dengan struktur situs Plan ₿ Network (misalnya untuk dompet: `desktop`, `hardware`, `mobile`, `backup`);
+
+- **level** : Tingkat kesulitan tutorial, dipilih dari:
+    - `beginner`
+    - `intermediate`
     - `advanced`
-    - 'ahli'
-- profesor**: `contributor_id` Anda (BIP39 kata) seperti yang ditampilkan di [profil profesor Anda] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- bahasa_asli**: Bahasa asli tutorial (misalnya `fr`, `en`, dll.);
-- pengoreksian**: Informasi tentang proses proofreading. Isi bagian pertama, karena mengoreksi tutorial Anda sendiri dianggap sebagai validasi pertama:
-    - bahasa**: Kode bahasa dari proofreading (misalnya `fr`, `en`, dll.).
-    - tanggal_kontribusi_terakhir**: Tanggal hari ini.
-    - urgensi**: Biarkan kosong.
-    - kontributor_id**: ID GitHub Anda.
-    - hadiah**: Biarkan kosong.
+    - `expert`
 
-Untuk detail lebih lanjut tentang pengenal profesor Anda, lihat tutorial terkait:
+- **professor_id** : `professor_id` Anda (UUID) seperti yang ditampilkan pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+
+- **original_language** : Bahasa asli dari tutorial (misalnya `fr`, `en`, dll.);
+
+- **proofreading** : Informasi tentang proses pengoreksian. Lengkapi bagian pertama karena mengoreksi tutorial Anda sendiri dihitung sebagai validasi pertama:
+    - **language** : Kode bahasa untuk pengoreksian (misalnya `fr`, `en`, dll.).
+    - **last_contribution_date** : Tanggal hari ini.
+    - **urgency** : 1
+    - **contributor_names** : ID GitHub Anda.
+    - **reward** : 0
+
+Untuk detail lebih lanjut mengenai ID guru Anda, silakan lihat tutorial yang sesuai:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Berikut ini adalah contoh file `tutorial.yml` yang sudah selesai untuk tutorial mengenai dompet Blockstream Green:
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency: 1
-contributors_id:
-- LoicPandul
-reward: 0
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
 
 Setelah Anda selesai memodifikasi file `tutorial.yml`, simpan dokumen Anda dengan mengklik `File > Save`:

@@ -1,0 +1,16 @@
+id: 2b8a591f-05e7-4a17-b463-5442e9b32720
+name: Un podcast sobre Bitcoin
+host: Alberto Mera
+language: es
+links:
+  podcast: https://open.spotify.com/show/7dT5Hy104YQxYIQCdVsiRw
+
+description: |
+  Noticias diarias sobre finanzas, economía e inversión, libertad e historia, siempre desde la perspectiva de Bitcoin.
+
+contributor_names:
+  - jramos0
+tags:
+  - investment
+  - market-trends
+  - case-studies

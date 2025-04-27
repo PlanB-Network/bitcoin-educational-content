@@ -1,9 +1,9 @@
-question: Quelle est la vision ultime de Bitcoin selon la métaphore de l'autoroute Bitcoin ?
-answer: Il deviendra une autoroute pour le trafic internet et pour 90% de la population mondiale.
+question: Quelle méthode est employée pour protéger la traçabilité onchain des transactions ?
+answer: Utiliser des techniques de coinjoins et payjoins
 wrong_answers:
-  - Il deviendra un bien de luxe accessible uniquement aux riches.
-  - Il deviendra un outil pour des activités illégales.
-  - Il deviendra obsolète et sera remplacé par d'autres cryptomonnaies.
+  - Réutiliser la même adresse de réception
+  - Consolidation fréquente des UTXOs
+  - Dépôt sur un portefeuille custodial
 explanation: |
-  La métaphore de l'autoroute Bitcoin envisage Bitcoin comme une autoroute pour le trafic internet et pour 90% de la population mondiale, avec des biens et des services directement accessibles sur cette autoroute.
+  Les coinjoins et payjoins permettent d'amméliorer la confidentialité de ses actions onchain.
 reviewed: false

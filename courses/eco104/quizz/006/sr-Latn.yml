@@ -1,0 +1,9 @@
+question: Zašto je danas mnogo teže kupiti kuću nego 1980-ih?
+answer: Potisnute kamatne stope čine dug privlačnijim i inflaciju
+wrong_answers:
+  - Inflacija i cene zakupa
+  - Rastući troškovi života i rast populacije
+  - Nedostatak nekretnina i potisnute kamatne stope čine dug privlačnijim
+explanation: |
+  Dok inflacija obezvređuje kupovnu moć naše valute, otežavajući štednju, potisnute kamatne stope čine potrošnju duga privlačnijom. Kada je cena kapitala tako niska, ljudi pozajmljuju iznad svojih mogućnosti, usmeravajući više kapitala u imovinu i podižući cene.
+reviewed: true

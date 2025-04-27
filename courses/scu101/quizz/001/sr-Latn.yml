@@ -1,0 +1,13 @@
+question: Zašto se preporučuje ograničavanje broja ekstenzija instaliranih na vašem pretraživaču?
+answer: Da bi se izbegli potencijalni problemi sa bezbednošću i performansama.
+wrong_answers:
+  - Da biste uštedeli prostor za skladištenje na svom uređaju.
+  - Da sprečite rušenje pregledača.
+  - Da biste izbegli praćenje od strane sajtova trećih strana.
+explanation: |
+  Iako ekstenzije za pregledače mogu pružiti korisne
+  funkcionalnosti, one takođe mogu predstavljati bezbednosne rizike jer
+  mogu pristupiti vašim podacima i aktivnosti pregledanja. Pored toga,
+  previše ekstenzija može usporiti vaš pregledač i
+  uticati na njegovu performansu.
+reviewed: true

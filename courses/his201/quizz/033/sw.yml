@@ -1,0 +1,9 @@
+question: Miner gani kutoka 2009 ilipoteza bitcoins zake zote kwa kutupa kompyuta yake kwenye dampo mwaka wa 2013?
+answer: James Howells
+wrong_answers:
+  - Dustin Trammell
+  - Marti Malmi
+  - NewLibertyStandard
+explanation: |
+  Mhandisi huyu wa Uingereza alikuwa ametengeneza bitcoins 8,000 kwa kutumia kompyuta yake kati ya Februari na Aprili 2009. Kesi yake [ilitangazwa](https://www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-land-fill-site) na Guardian.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Ni faida gani moja ya kutumia VPN kwa kuvinjari mtandao nyumbani?
+answer: Huimarisha usalama wa trafiki mtandaoni kwa kupunguza tishio linaloletwa na wahusika wengine.
+wrong_answers:
+  - Inaweza kuongeza kasi ya msingi wa muunganisho wako wa intaneti.
+  - Huruhusu ufikiaji wa tovuti zaidi kila wakati.
+  - Huokoa matumizi ya data ya rununu ikilinganishwa na kutokuwa na muunganisho wa VPN ulioanzishwa.
+explanation: |
+  Kutumia VPN nyumbani kunaweza kuimarisha usalama wa data
+  wewe Exchange mtandaoni. Hii ni kwa sababu VPN husimba data kwa njia fiche,
+  kufanya iwe vigumu zaidi kwa wahusika wengine kukatiza.
+reviewed: true

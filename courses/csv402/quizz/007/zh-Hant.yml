@@ -1,0 +1,9 @@
+question: RGB 如何將其能見度降至最低？
+answer: Taproot (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Sig 調整
+  - 按鍵調整
+explanation: |
+  Taproot (Tapret) 可讓承諾謹慎且有效率地插入交易，同時確保與現行標準相容。
+reviewed: false

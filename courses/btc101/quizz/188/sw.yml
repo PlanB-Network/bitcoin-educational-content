@@ -1,0 +1,8 @@
+question: BTCMap ni nini?
+answer: Mfumo unaoorodhesha wafanyabiashara wote wanaokubali Bitcoin.
+wrong_answers:
+  - Ramani ya migodi yote ya Bitcoin duniani.
+  - Ramani ya mabadilishano yote ya Bitcoin ulimwenguni.
+  - Ramani ya watumiaji wote wa Bitcoin duniani.
+explanation: >-
+reviewed: true

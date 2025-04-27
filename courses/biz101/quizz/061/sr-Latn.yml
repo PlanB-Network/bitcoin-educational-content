@@ -1,0 +1,9 @@
+question: Koji profil Essential koristi da pomogne zaposlenima u obradi plaćanja na PoS-u?
+answer: Kreiranje menija sa cenama artikala na PoS aplikaciji
+wrong_answers:
+  - Priručnik Ledger za evidentiranje prodaje
+  - Papirni Invoice sistem za svaku transakciju
+  - Automatski sistem knjigovodstvenih zapisa za transakcije sa PoS-a
+explanation: |
+  PoS aplikacija u Essential profilu omogućava zaposlenima da odaberu stavke iz unapred postavljenog menija, pojednostavljujući proces naplate.
+reviewed: false

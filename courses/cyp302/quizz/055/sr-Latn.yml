@@ -1,0 +1,9 @@
+question: Koja je važnost cikličnih grupa u kriptografiji?
+answer: Oni omogućavaju kreiranje kriptografskih sistema zasnovanih na generatorima
+wrong_answers:
+  - Oni pojednostavljuju množenje enkripcijskih ključeva
+  - Oni povećavaju sigurnost javnih komunikacionih kanala
+  - Oni su navikli na Hash poruke direktno kako bi sačuvali njihov integritet
+explanation: |
+  U kriptografiji, ciklične grupe, koje imaju generatore, su ključne za uspostavljanje baza za enkripcijske ključeve, posebno u sistemima javnog ključa.
+reviewed: false

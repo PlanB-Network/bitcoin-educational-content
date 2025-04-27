@@ -1,0 +1,9 @@
+question: Koja je uloga Nonce u šemi autentifikovane enkripcije?
+answer: Osigurajte da svaka poruka ima jedinstvenu oznaku kako bi se sprečile ponavljanja.
+wrong_answers:
+  - Identifikujte pošiljaoca poruke
+  - Kreiraj privremeni ključ za dešifrovanje
+  - Dodajte dodatni Layer enkripcije
+explanation: |
+  U šemi autentifikovane enkripcije, Nonce se koristi kako bi se osiguralo da svaka poruka ima jedinstvenu oznaku, čime se poboljšava sigurnost sprečavanjem ponavljanja.
+reviewed: false

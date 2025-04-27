@@ -1,0 +1,9 @@
+question: Ikiwa Alice atatuma satoshi 40,000 kwa Bob kutoka kwa njia ya malipo ambapo mwanzoni ana satoshi 100,000, anabakisha pesa ngapi baada ya muamala?
+answer: 60,000 satoshi
+wrong_answers:
+  - 30,000 satoshi
+  - 40,000 satoshi
+  - 140,000 satoshi
+explanation: |
+  Baada ya kutuma satoshi 40,000, salio la Alice kwenye chaneli ni satoshi 60,000.
+reviewed: false

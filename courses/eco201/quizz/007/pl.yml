@@ -1,0 +1,9 @@
+question: Komu dziękuje się za przygotowanie kursu?
+answer: Théo Mogenet
+wrong_answers:
+  - Descoupes Bitcoin
+  - Théo Boloré
+  - Żadne z powyższych
+explanation: |
+  W rozdziale wspomniano, że Théo otrzymał podziękowania za przygotowanie kursu.
+reviewed: true

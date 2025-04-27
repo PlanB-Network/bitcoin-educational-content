@@ -1,0 +1,11 @@
+question: Koja je uloga preduzetnika i akcionara u kapitalističkoj ekonomiji prema Mizesu?
+answer: Oni raspoređuju kapital kroz različite industrije, čime formiraju cene koje služe kao ulazi u ekonomske kalkulacije menadžera.
+wrong_answers:
+  - Oni su odgovorni za stvaranje novih radnih mesta.
+  - Oni su odgovorni za povećanje bogatstva nacije.
+  - Oni su odgovorni za kontrolu Supply novca u ekonomiji.
+explanation: |
+  Mises je naglasio značaj preduzetnika i akcionara,
+  koji, kao vlasnici sredstava za proizvodnju, raspoređuju kapital kroz različite industrije,
+  tako formirajući cene koje služe kao ulazi u ekonomske kalkulacije menadžera.
+reviewed: true

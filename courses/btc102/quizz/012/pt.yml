@@ -1,9 +1,9 @@
-question: Qual é a principal razão para perder bitcoins de acordo com o capítulo?
-answer: Má gestão da segurança online
+question: O que significa a noção de auto-custódia no mundo Bitcoin?
+answer: Guardar as suas chaves privadas
 wrong_answers:
-  - Golpes de criptomoedas
-  - Golpes financeiros
-  - Falha do computador
+  - Confiar as suas chaves a uma plataforma Exchange especializada
+  - Confiar as suas chaves a um banco de investimento
+  - Guardar as suas chaves públicas
 explanation: |
-  O capítulo menciona que, além dos golpes de criptomoedas e golpes financeiros, a principal razão para perder bitcoins está relacionada à má gestão da segurança online.
+  A auto-custódia garante que o utilizador mantém o controlo total dos seus bitcoins através das suas próprias chaves privadas.
 reviewed: false

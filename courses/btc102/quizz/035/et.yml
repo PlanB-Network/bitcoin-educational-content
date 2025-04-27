@@ -1,9 +1,9 @@
-question: Kes kirjeldas Bitcoini kui Šveitsi panka sinu taskus?
-answer: Barack Obama
+question: Millist hoiulahendust soovitatakse hodleri jaoks?
+answer: Hardware Wallet
 wrong_answers:
-  - Donald Trump
-  - Bill Gates
-  - Elon Musk
+  - A Hot Wallet
+  - Hooldusteenus
+  - Paber Wallet
 explanation: |
-  Peatükis mainitakse, et Barack Obama kirjeldas kord Bitcoini kui Šveitsi panka sinu taskus.
+  Hodler, kes hoiab bitcoine pikemas perspektiivis, peaks turvalisuse maksimeerimiseks kasutama Hardware Wallet.
 reviewed: false

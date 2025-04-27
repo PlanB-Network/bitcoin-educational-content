@@ -1,0 +1,9 @@
+question: Jaki jest modyfikator, który można połączyć z podstawowymi flagami sighash?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY modyfikuje flagi sighash, aby obejmowały tylko pojedyncze wejście, pozostawiając resztę modyfikowalną.
+reviewed: false

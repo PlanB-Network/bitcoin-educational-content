@@ -1,0 +1,8 @@
+question: Koji je jedan način da sami testirate Lightning Network?
+answer: Pokušavajući aplikaciju za podkaste pod nazivom Fountain.
+wrong_answers:
+  - Korišćenjem ličnog računara od strane Mining Bitcoin.
+  - Kupovinom Bitcoin od banke.
+  - Kreiranjem nove kriptovalute.
+explanation: >-
+reviewed: true

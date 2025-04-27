@@ -1,0 +1,16 @@
+question: Jaka jest rola dóbr kapitałowych w gospodarce?
+answer: Dobra kapitałowe są wykorzystywane do produkcji innych dóbr. Umożliwiają one osobom fizycznym uzyskanie dóbr konsumpcyjnych.
+wrong_answers:
+  - Dobra kapitałowe są wykorzystywane do konsumpcji.
+  - Dobra kapitałowe nie odgrywają żadnej roli w gospodarce.
+  - Dobra kapitałowe są wykorzystywane do produkcji innych dóbr kapitałowych.
+explanation: |
+  Aby produkować dobra konsumpcyjne, przedsiębiorcy łączą różne
+  dobra pośrednie z pierwotnymi czynnikami produkcji
+  (pracą, ziemią i kapitałem) zgodnie ze schematem, który
+  maksymalizuje wynikową produkcję. Wszystkie inne dobra w
+  w gospodarce, które możemy nazwać dobrami pośrednimi, mają wartość tylko dlatego, że umożliwiają
+  wartość, ponieważ umożliwiają jednostkom uzyskanie tych
+  konsumpcyjnych; są to dobra wykorzystywane w produkcji innych dóbr
+  innych dóbr.
+reviewed: true

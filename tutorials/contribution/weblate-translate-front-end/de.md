@@ -14,7 +14,7 @@ In diesem Tutorial zeigen wir Ihnen, wie Sie ganz einfach zur Übersetzung der s
 
 Für die Übersetzung der Bildungsinhalte verwenden wir [künstliche Intelligenz] (https://github.com/Asi0Flammeus/LLM-Translator). Um eventuelle Fehler in diesen Dateien zu korrigieren, bitten wir Korrekturleser um ihre Mitarbeit. Wenn Sie einige Inhalte Korrektur lesen möchten, lesen Sie bitte die folgende Anleitung:
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Wenn Sie hingegen an der Übersetzung der statischen Elemente der Website (mit Ausnahme der Bildungsinhalte) interessiert sind, sind Sie bei uns genau richtig! Um das Frontend effektiv zu übersetzen, verwenden wir das Tool Weblate, das sehr einfach zu bedienen ist und den Ansatz zur Übersetzung erleichtert.
 
 Wenn Sie dem Plan ₿ Network eine völlig neue Sprache hinzufügen möchten, kontaktieren Sie bitte das Team des Plan ₿ Network über unsere [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder). Wenn Sie kein Telegramm haben, können Sie eine E-Mail an mari@planb.network senden. Stellen Sie sicher, dass Sie eine kleine Präsentation darüber schreiben, wer Sie sind und welche Sprachen Sie sprechen.

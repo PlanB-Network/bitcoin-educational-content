@@ -1,10 +1,10 @@
-question: Come fanno i minatori a validare le transazioni e ad includerle in un blocco?
+question: Come fanno i miner a validare le transazioni e ad includerle in un blocco?
 answer: Attraverso il processo di Proof of work.
 wrong_answers:
   - Attraverso il processo di Proof of stake.
   - Attraverso il processo di Proof of authority.
   - Attraverso il processo di Proof of burn.
 explanation: >-
-  I minatori validano le transazioni e le includono in un blocco attraverso un processo
+  I miner validano le transazioni e le includono in un blocco attraverso un processo
   chiamato proof of work. Questo comporta la risoluzione di un puzzle crittografico.
 reviewed: true

@@ -1,8 +1,9 @@
-question: 比特币钱包的目的是什么？
-answer: 发送和接收比特币
+question: 哪些是 Bitcoin 侧链？
+answer: Liquid 和根茎
 wrong_answers:
-  - 挖掘比特币
-  - 存储实体比特币
-  - 将比特币兑换成其他货币
+  - 多边形和 Arbitrum
+  - 木星和 Fantom
+  - Bitcoin 现金和 Bitcoin Satoshi 愿景
 explanation: |
-  比特币钱包用于发送和接收比特币。它们是数字钱包，存储访问比特币地址所需的数字凭证，并支出比特币。
+  Liquid 和 RSK 是侧链，与 Bitcoin 有双向挂钩。其他选项不是侧链，或者与 Bitcoin Blockchain 没有双向挂接。
+reviewed: false

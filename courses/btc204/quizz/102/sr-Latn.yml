@@ -1,0 +1,9 @@
+question: Šta predstavlja Boltzmann skor u kontekstu Bitcoin transakcija?
+answer: Uslovna verovatnoća da je ulaz povezan sa datim izlazom.
+wrong_answers:
+  - Ukupan iznos prenetih bitkoina.
+  - Broj ulaza u transakciji.
+  - Entropija povezana sa svakim ulazom ili izlazom.
+explanation: |
+  Boltzmann skor ukazuje uslovnu verovatnoću da je određeni unos povezan sa datim izlazom. To je, dakle, kvantitativna mera uslovne verovatnoće da se asocijacija između unosa i izlaza u transakciji dogodi, zasnovana na odnosu broja povoljnih pojava ovog događaja u poređenju sa ukupnim brojem mogućih pojava, u skupu interpretacija.
+reviewed: false

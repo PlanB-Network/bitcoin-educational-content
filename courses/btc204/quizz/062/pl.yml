@@ -1,0 +1,10 @@
+question: Która z tych opcji nie jest metodą automatycznego wyboru części?
+answer: Ciche płatności
+wrong_answers:
+  - Branch-and-Bound
+  - FIFO
+  - Knapsack Solver
+explanation: |
+  W przeciwieństwie do pozostałych trzech opcji, Silent Payments nie jest metodą wyboru części, ale protokołem do korzystania z adresów statycznych.
+  
+reviewed: false

@@ -1,0 +1,10 @@
+question: 在這三個通訊協定中，哪一個不是 CoinJoin 的實作？
+answer: Chainalysis.
+wrong_answers:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+explanation: |
+  Chainalysis 完全不是 CoinJoin 的實作，因為它是一家 Blockchain 分析公司。
+  
+reviewed: false

@@ -1,0 +1,8 @@
+question: Koja je jedna prednost prihvatanja Bitcoin kao trgovac?
+answer: Otpornost na cenzuru.
+wrong_answers:
+  - Povećane naknade za transakcije.
+  - Zaštita od deflacije.
+  - Finansijsko ograničenje.
+explanation: >-
+reviewed: true

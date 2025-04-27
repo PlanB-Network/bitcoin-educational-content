@@ -1,0 +1,10 @@
+question: 尼加拉瓜第一座科爾多瓦的最大價值是多少？
+answer: 一百萬。
+wrong_answers:
+  - 500,000
+  - 一千萬
+  - 一億
+explanation: |
+  在尼加拉瓜，第一座 Cordoba 達到 100 萬的價值。第二座
+  科爾多瓦達到 1,000 萬。
+reviewed: false

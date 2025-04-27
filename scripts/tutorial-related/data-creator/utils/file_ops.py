@@ -2,8 +2,6 @@ import os
 import shutil
 import uuid
 from PIL import Image
-import random
-import re
 import datetime
 
 def create_directory(path):
@@ -25,38 +23,6 @@ def process_profile_image(source_path, dest_path):
             img.save(dest_path, "WEBP")
         else:
             shutil.copy(source_path, dest_path)
-
-def generate_random_contributor_id():
-    from utils.constants import BIP39_WORDS
-    words = random.sample(BIP39_WORDS, 2)
-    return f"{words[0]}-{words[1]}"
-
-def check_contributor_id(base_path, contributor_id):
-    """
-    Verify that the contributor ID consists of two BIP39 words and is unique.
-    """
-    parts = contributor_id.split('-')
-    from utils.constants import BIP39_WORDS
-    if len(parts) != 2:
-        return False, "Contributor ID must consist of two words separated by a hyphen."
-    for word in parts:
-        if word not in BIP39_WORDS:
-            return False, f"The word '{word}' is not in the BIP39 list."
-    professors_dir = os.path.join(base_path, "professors")
-    if os.path.exists(professors_dir):
-        for folder in os.listdir(professors_dir):
-            folder_path = os.path.join(professors_dir, folder)
-            if os.path.isdir(folder_path):
-                yaml_path = os.path.join(folder_path, "professor.yml")
-                if os.path.exists(yaml_path):
-                    with open(yaml_path, "r", encoding="utf-8") as f:
-                        content = f.read()
-                    match = re.search(r'^contributor_id:\s*(\S+)', content, re.MULTILINE)
-                    if match:
-                        existing_id = match.group(1).strip()
-                        if existing_id == contributor_id:
-                            return False, f"Contributor ID '{contributor_id}' is already used."
-    return True, ""
 
 def create_tutorial_files(base, section_name, tutorial_name, language_code, project_id, tags, category_value, level_value, professor_id, contributor_id):
     """
@@ -95,8 +61,7 @@ description:
         "",
         f"level: {level_value}",
         "",
-        "credits:",
-        f"  professor: {professor_id}",
+        f"professor_id: {professor_id}",
         "",
         "# Proofreading metadata",
         "",
@@ -114,16 +79,12 @@ description:
     
     return tutorial_path
 
-def create_professor_yaml(full_name, contributor_id, website=None, twitter=None, lightning=None, tags=None):
-    """
-    Generate YAML content for a new professor.
-    """
+def create_professor_yaml(full_name, website=None, twitter=None, lightning=None, tags=None):
     prof_uuid = str(uuid.uuid4())
     lines = [
         f"id: {prof_uuid}",
         f"name: {full_name}",
         "",
-        f"contributor_id: {contributor_id}",
         ""
     ]
     if website or twitter:
@@ -175,6 +136,9 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
         lines.append("")
     lines.append(f"category: {category}")
     lines.append("")
+    lines.append("contributor_names:")
+    lines.append(f"  - {global_contributor}")
+    lines.append("")
     lines.append("tags:")
     for t in tags:
         lines.append(f"  - {t}")
@@ -192,10 +156,6 @@ def create_project_yaml(project_uuid, project_name, website, twitter, category, 
     return "\n".join(lines)
 
 def create_project_language_yaml(language_code, description, professor_global):
-    """
-    Generate the content for the language YAML file for a project.
-    'description' is mandatory and 'professor_global' is the PBN Professor's ID from HOME.
-    """
     lines = [
         f"description: |",
         f"  {description}",

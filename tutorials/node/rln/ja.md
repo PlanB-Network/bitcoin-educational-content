@@ -372,4 +372,4 @@ curl -X 'GET' \
 
 また、LNP/BP協会が開発したRGB CLIツールを使ってRGB契約を作成する方法を説明した、この別のチュートリアルもお勧めする：
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

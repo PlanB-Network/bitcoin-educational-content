@@ -4,15 +4,15 @@ description: Bagaimana cara mudah meluncurkan simpul Lightning Anda sendiri?
 ---
 ![cover](assets/cover.webp)
 
-Alby Hub adalah perangkat lunak terbaru dari Alby, perusahaan di balik ekstensi web Lightning yang populer. Alby Hub adalah antarmuka yang mudah digunakan untuk mengelola node Lightning.
+Alby Hub adalah perangkat lunak open-source terbaru dari Alby, perusahaan di balik ekstensi web Lightning yang populer. Alby Hub adalah dompet dengan kendali sendiri yang paling mudah digunakan dengan node Lightning, dapat diakses dari mana saja untuk terintegrasi dengan puluhan aplikasi. Alby Hub adalah antarmuka yang mudah digunakan untuk mengelola node Lightning.
 
-Dalam tutorial ini, kita akan melihat berbagai cara menggunakan Alby Hub untuk mengelola node Lightning Anda sendiri, dan cara menghubungkannya ke Alby Go, aplikasi seluler Alby. Ini akan memungkinkan Anda untuk menggunakan sats Anda saat bepergian sambil menjadi otonom dalam pengelolaan node Anda.
+Dalam tutorial ini, kita akan melihat berbagai cara menggunakan Alby Hub dan bagaimana menghubungkannya dengan Alby Go, aplikasi seluler Alby, atau Alby Browser Extension. Ini akan memungkinkan Anda menghabiskan sats Anda saat bepergian sambil tetap mandiri dalam mengelola node Anda.
 
 ![ALBY HUB](assets/fr/01.webp)
 
 ## Apa yang dimaksud dengan Alby Hub?
 
-Pada tahun 2024, Alby menandai pergeseran strategis. Selama bertahun-tahun, mereka telah menawarkan berbagai alat yang terkait dengan Bitcoin dan Lightning Network, termasuk ekstensi Alby yang ikonik, yang memungkinkan Anda untuk mengoperasikan dompet Lightning, kustodian atau lainnya. Namun, pada tahun 2025, mereka berencana untuk menghentikan layanan dompet kustodian bersama mereka dan fokus secara eksklusif pada solusi kustodian mandiri. Alby Hub akan menjadi alat andalan baru dalam ekosistem Alby. Perangkat lunak ini memungkinkan pengguna untuk dengan mudah mengelola node Lightning mereka sendiri, sambil mempertahankan kepemilikan kunci mereka (self-custody).
+Alby Hub diatur untuk menjadi alat unggulan baru dalam ekosistem Alby. Perangkat lunak ini memungkinkan pengguna untuk dengan mudah mengelola dompet self-custodial mereka sendiri dengan node Lightning terintegrasi, sambil mempertahankan kepemilikan kunci mereka (self-custody).
 
 Alby Hub adalah alat yang sangat mudah beradaptasi. Alat ini dapat memenuhi kebutuhan pengguna pemula dan pengguna tingkat lanjut. Para pemula akan menggunakannya untuk mengoperasikan sendiri node Lightning sungguhan dengan mudah, tanpa harus berurusan dengan kerumitan yang mendasarinya. Untuk pengguna yang lebih berpengalaman, Alby Hub dapat digunakan sebagai antarmuka lengkap untuk manajemen tingkat lanjut dari node Lightning yang ada.
 
@@ -21,12 +21,11 @@ Tergantung pada kebutuhan Anda, Alby Hub tersedia dalam 4 konfigurasi:
 
 - Alby Hub Cloud: ** Awan Alby
 
-Ideal untuk pemula, opsi pertama ini adalah opsi cloud Alby. Opsi ini memungkinkan Anda untuk menggunakan node Lightning secara langsung di server yang dikelola Alby, yang dapat diakses melalui antarmuka Alby Hub Anda. Meskipun Alby mengelola server, Anda tetap memiliki kedaulatan atas dana Anda, karena kunci Anda dienkripsi menggunakan kata sandi yang hanya diketahui oleh Anda. Akan tetapi, kunci Anda harus tetap didekripsi dalam RAM agar node dapat beroperasi, yang secara teoritis membuat mereka berisiko jika seseorang secara fisik mengakses server. Ini adalah kompromi yang menarik untuk pemula, tetapi penting untuk menyadari risikonya.
+Ideal untuk pemula, opsi pertama ini adalah opsi cloud Alby. Ini memungkinkan Anda untuk mengimplementasikan Hub secara langsung di server yang dikelola oleh Alby, dapat diakses melalui antarmuka Alby Hub Anda. Meskipun Alby mengelola server, Anda tetap memiliki kedaulatan atas dana Anda, karena kunci Anda dienkripsi menggunakan kata sandi yang hanya diketahui oleh Anda. Namun, kunci Anda harus tetap didekripsi di RAM agar node dapat beroperasi, yang secara teoritis mengeksposnya ke risiko jika seseorang mengakses server secara fisik. Ini adalah kompromi menarik bagi pemula, tetapi penting untuk menyadari risikonya.
 
 Keuntungan utama dari opsi ini adalah Anda mendapatkan node Lightning yang aktif dan berjalan 24/7, tanpa harus mengelola hosting sendiri. Terlebih lagi, pencadangan node Lightning Anda disederhanakan dan diotomatisasi, dibandingkan dengan opsi hosting mandiri yang mengharuskan Anda mengelola sendiri pencadangan saluran.
 
-Alby menawarkan layanan ini seharga 21.000 sat per bulan (harga Desember 2024, bisa berubah, [periksa harga mereka] (https://albyhub.com/#pricing)). Biaya ini secara otomatis dipotong dari node Anda melalui faktur Lightning yang dikeluarkan oleh Alby. Hal ini dilakukan melalui koneksi NWC yang mengonfigurasi node Anda untuk secara otomatis membayar faktur Alby yang terkait dengan langganan Anda.
-
+Alby Cloud adalah layanan berbayar [Periksa harga mereka](https://albyhub.com/#pricing) untuk lebih jelasnya. Biaya akan secara otomatis dikurangkan dari dompet Anda melalui faktur Lightning yang dikeluarkan oleh Alby. Ini dilakukan melalui koneksi NWC yang mengonfigurasi node Anda untuk membayar faktur Alby terkait langganan Anda secara otomatis.
 
 - Alby Hub dengan simpul yang sudah ada :**
 
@@ -35,7 +34,7 @@ Jika Anda sudah memiliki node yang dihosting, misalnya pada Umbrel atau Start9, 
 
 - Alby Hub lokal :** Lokal
 
-Anda juga dapat menginstal Alby Hub dan node Anda langsung di PC Anda, meskipun opsi ini kurang praktis, karena PC Anda harus tetap aktif setiap saat untuk mengakses node Lightning dari jarak jauh. Namun, alternatif ini mungkin cocok untuk kebutuhan spesifik Anda.
+Juga memungkinkan untuk menginstal Alby Hub langsung di PC Anda, meskipun opsi ini kurang praktis, karena PC Anda harus tetap aktif setiap saat untuk mengakses node Lightning dari jarak jauh. Namun, alternatif ini mungkin cocok untuk kebutuhan spesifik Anda.
 
 
 - Alby Hub di server pribadi :**
@@ -76,7 +75,7 @@ Klik "*Lanjutkan*" sekali lagi.
 
 ## Opsi hosting awan
 
-Anda kemudian harus memilih antara opsi hosting mandiri, di mana Anda meng-host node Lightning pada perangkat keras Anda sendiri, atau opsi berbayar menggunakan awan Alby. Saya akan mulai dengan menjelaskan cara melanjutkan dengan opsi Cloud (perhatikan bahwa ini adalah opsi berbayar, lihat detailnya di bagian sebelumnya).
+Kemudian Anda harus memilih antara opsi self-hosted, di mana Anda menginstal Alby Hub di perangkat Anda sendiri, atau opsi premium. Saya akan mulai dengan menjelaskan cara melanjutkan dengan opsi Pro Cloud (perhatikan bahwa ini adalah opsi berbayar, lihat detailnya di bagian sebelumnya).
 
 Klik "*Upgrade*".
 
@@ -94,7 +93,8 @@ Tunggu beberapa saat sementara node Anda dibuat.
 
 ![ALBY HUB](assets/fr/12.webp)
 
-Dan selesai, Alby Hub Anda sekarang sudah terkonfigurasi. Di bagian selanjutnya, saya akan menunjukkan kepada Anda cara menginstal Alby Hub pada node yang sudah ada. Jika Anda tidak perlu, Anda bisa langsung ke bagian berikutnya untuk mengonfigurasi node Anda.
+Dan itu saja, Alby Hub Anda sekarang sudah dikonfigurasi. Di bagian selanjutnya, saya akan menunjukkan cara menginstal Alby Hub di node yang sudah ada. Jika Anda belum memiliki node Lightning, Anda dapat langsung melanjutkan ke bagian berikutnya untuk mengonfigurasi Alby Hub di Alby Cloud.
+
 
 ![ALBY HUB](assets/fr/13.webp)
 
@@ -128,7 +128,7 @@ Klik tombol "*Mulai*".
 
 Alby Hub kemudian akan meminta Anda untuk memilih kata sandi. Kata sandi ini sangat penting, karena akan digunakan untuk mengenkripsi dompet Anda. Pada versi cloud berbayar, kunci Anda disimpan di server Alby, dienkripsi dengan kata sandi yang hanya Anda yang tahu, kemudian didekripsi dan disimpan hanya di RAM untuk menandatangani transaksi bila diperlukan.
 
-Oleh karena itu, sangat penting untuk memilih kata sandi yang kuat. Siapa pun yang memiliki kata sandi ini berpotensi mendapatkan akses ke node Anda. Pastikan Anda juga membuat satu atau beberapa salinan kata sandi ini pada selembar kertas, atau lebih baik lagi, pada sepotong logam untuk keamanan tambahan. **Jika Anda kehilangan kata sandi ini, maka tidak mungkin untuk memulihkan akses ke bitcoin Anda**, karena Alby tidak memiliki cara untuk meresetnya. Hilangnya kata sandi ini berarti hilangnya bitcoin Anda.
+Oleh karena itu, penting untuk memilih kata sandi yang kuat. Siapa pun yang memiliki kata sandi ini dapat berpotensi mengakses node Anda. Pastikan Anda juga membuat satu atau lebih cadangan fisik dari kata sandi ini di selembar kertas, atau lebih baik lagi, di sepotong logam untuk keamanan tambahan.
 
 Setelah Anda memilih dan menyimpan kata sandi dengan hati-hati, klik "*Buat Kata Sandi*".
 
@@ -138,7 +138,7 @@ Anda sekarang memiliki akses ke simpul Lightning Anda.
 
 ![ALBY HUB](assets/fr/20.webp)
 
-Tindakan pertama yang harus dilakukan adalah menyimpan frasa pemulihan Anda, yang darinya kunci Anda berasal. Frasa ini memungkinkan Anda untuk memulihkan akses ke dompet onchain Anda dan, dengan status terbaru dari saluran Anda, sats Anda di Lightning. Untuk melakukan ini, klik "*Settings*".
+Langkah pertama yang harus dilakukan adalah menyimpan frasa pemulihan Anda, dari mana kunci Anda dihasilkan. Untuk melakukan ini, klik pada "Pengaturan". Frasa ini memungkinkan Anda memulihkan akses ke dompet Anda jika Anda mengaktifkan cadangan otomatis.
 
 ![ALBY HUB](assets/fr/21.webp)
 
@@ -156,22 +156,18 @@ Setelah Anda menyimpan frasa, centang kotak untuk mengonfirmasi bahwa Anda telah
 
 ## Bagaimana cara memulihkan akses ke bitcoin saya?
 
-Sebelum mengirim dana ke node Anda, penting untuk memahami cara memulihkannya jika terjadi masalah, serta informasi apa saja yang diperlukan untuk pemulihan ini. Prosesnya bervariasi sesuai dengan sifat dana yang akan dipulihkan dan mode hosting node Anda.
+Sebelum mengirimkan dana ke Alby Hub Anda, penting untuk memahami bagaimana cara memulihkannya jika terjadi masalah, serta informasi apa yang diperlukan untuk pemulihan ini. Proses ini berbeda-beda tergantung pada sifat dana yang akan dipulihkan dan mode hosting node Anda.
 
-Untuk pengguna cloud berbayar, pemulihan lengkap bitcoin Anda memerlukan tiga elemen penting:
+Untuk pengguna cloud berbayar, pemulihan lengkap dari bitcoin Anda memerlukan tiga elemen penting:
 
+- Frasa pemulihan Anda;
+- Akses ke akun Alby Anda, untuk mengambil cadangan otomatis.
 
-- Ungkapan pemulihan Anda;
-- Kata sandi Anda (kata sandi yang digunakan untuk node Anda);
-- Akses ke akun Alby Anda, untuk mengambil status terbaru dari saluran Lightning Anda.
+Ketiadaan salah satu dari dua informasi ini akan membuat pemulihan bitcoin Anda sepenuhnya menjadi tidak mungkin.
 
-Ketiadaan salah satu dari ketiga informasi ini akan membuat Anda tidak dapat memulihkan bitcoin Anda secara penuh.
+Bagi mereka yang menjalankan Alby Hub di perangkat mereka sendiri, proses pemulihan didokumentasikan [di sini](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
-Bagi mereka yang meng-host node mereka sendiri, proses pemulihan identik dengan proses pemulihan untuk node Lightning mana pun. Anda akan membutuhkan :
-
-
-- Ungkapan pemulihan Anda;
-- Status terbaru dari saluran Lightning Anda. Untuk mengamankan informasi ini, Umbrel menawarkan [opsi](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) untuk mengenkripsinya dan menyimpannya secara dinamis dan anonim melalui Tor.
+Jika Anda menginstal Alby Hub di node yang sudah ada, Anda perlu mengikuti proses pemulihan dari sistem operasi node tersebut. Misalnya: Umbrel menawarkan [opsi](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) untuk mengenkripsi status terbaru dari saluran Lightning Anda dan menyimpannya secara dinamis dan anonim melalui Tor. Perlu diketahui bahwa hanya cadangan otomatis dari Alby yang memungkinkan Anda memulihkan Hub Anda sepenuhnya tanpa menutup saluran apa pun.
 
 ## Beli saluran Lightning pertama Anda
 
@@ -255,6 +251,13 @@ Saluran baru Anda sekarang akan muncul di tab "*Node*".
 
 ![ALBY HUB](assets/fr/42.webp)
 
+## Manajemen Node
+
+Mengelola saluran Lightning Anda lebih mudah dari yang Anda kira. Alby Hub memungkinkan Anda mentransfer sats antara saldo pengeluaran dan saldo on-chain Anda. Begitulah cara Anda dapat meningkatkan kapasitas pengeluaran atau penerimaan.
+
+![ALBY HUB](assets/fr/66.webp)
+
+
 ## Menghubungkan aplikasi pengeluaran
 
 Sekarang setelah Anda memiliki node Lightning yang berfungsi, Anda bisa menggunakannya untuk menerima dan membelanjakan satoshi setiap hari. Meskipun antarmuka web Alby Hub berguna untuk mengelola node Anda, namun tidak ideal untuk melakukan transaksi cepat saat bepergian. Untuk itu, kita akan menggunakan aplikasi dompet Lightning yang terinstal di ponsel pintar kita.
@@ -279,15 +282,14 @@ Ketika aplikasi diluncurkan, klik "*Hubungkan Dompet*".
 
 ![ALBY HUB](assets/fr/46.webp)
 
-Di Alby Hub Anda, di bawah tab "*Koneksi*", klik "*Tambah Koneksi*".
+Di Alby Hub Anda, di bawah App Store, temukan “Alby Go” dan klik “Connect”  
+![ALBY HUB](assets/fr/47.webp)  
+Klik “Connect with One-Tab Connections”. Ini akan memungkinkan Anda untuk menghubungkan Alby Hub Anda dengan satu klik ke aplikasi lain yang menggunakan Alby Go.  
 
-![ALBY HUB](assets/fr/47.webp)
+![ALBY HUB](assets/fr/48.webp)  
 
-Beri nama koneksi ini untuk mengidentifikasinya dengan mudah di Hub Anda, dan pilih izin yang ingin Anda berikan ke aplikasi. Dalam kasus saya, saya memilih "*Akses Penuh*" untuk mendapatkan akses penuh ke dana Lightning node saya dari ponsel cerdas saya, tetapi Anda juga bisa membatasi akses dengan anggaran maksimum, memilih fitur yang diizinkan, atau menetapkan tanggal kedaluwarsa untuk izin ini. Setelah dikonfigurasi, klik "*Next*".
+Alby Hub kemudian akan menghasilkan kunci rahasia untuk membangun koneksi dengan Alby Go.
 
-![ALBY HUB](assets/fr/48.webp)
-
-Alby Hub kemudian akan menghasilkan sebuah rahasia untuk membuat koneksi.
 
 ![ALBY HUB](assets/fr/49.webp)
 
@@ -299,7 +301,8 @@ Klik "Selesai*".
 
 ![ALBY HUB](assets/fr/51.webp)
 
-Anda sekarang memiliki akses jarak jauh ke node Lightning Anda dari ponsel cerdas Anda, membuatnya mudah untuk mengirim dan menerima satelit saat bepergian setiap hari.
+Sekarang Anda memiliki akses jarak jauh ke node Lightning yang didukung oleh Alby Hub dari ponsel cerdas Anda, membuatnya lebih mudah untuk mengirim dan menerima sats saat bepergian setiap hari.
+
 
 ![ALBY HUB](assets/fr/52.webp)
 

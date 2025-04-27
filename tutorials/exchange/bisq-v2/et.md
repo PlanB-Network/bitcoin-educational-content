@@ -86,7 +86,7 @@ Käesolev juhend keskendub ainult Bisq Easy'le, mis on praegu ainus olemasolev p
 - Laadige alla teie operatsioonisüsteemile vastav Bisq 2 versioon (kerige lehekülge allapoole)
 - Kontrollige allalaaditud faili autentsust (tungivalt soovitatav). Allkirjade kontrollimise üksikasjalik juhend on esitatud järgmises õpetuses:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Paigaldamine vastavalt teie süsteemile
 

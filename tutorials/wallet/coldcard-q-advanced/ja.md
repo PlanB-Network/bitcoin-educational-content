@@ -247,4 +247,4 @@ Add If Wrong*"オプションは、"*Trick PIN*"メニューで利用可能で�
 
 私はまた、この他のチュートリアルをお勧めします、私たちはCCQの直接の競争相手の使用については、 Ledger Flex ：
 
-https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

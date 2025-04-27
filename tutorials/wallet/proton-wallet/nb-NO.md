@@ -14,7 +14,7 @@ Det spesielle med denne lommeboken er muligheten til å sende bitcoins ved hjelp
 
 For å bruke Proton Wallet trenger du en Proton-konto. Du kan opprette en gratis ved å følge de første trinnene i denne opplæringen dedikert til å opprette en Proton-postkasse (bare delen "*Opprette en Proton-konto*"). Når kontoen din er satt opp, kan du fortsette med resten av denne veiledningen.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Koble til Proton Wallet
 

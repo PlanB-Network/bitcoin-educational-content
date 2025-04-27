@@ -86,7 +86,7 @@ Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen
 - Last ned Bisq 2-versjonen som passer til operativsystemet ditt (bla nedover på siden)
 - Bekreft ektheten til den nedlastede filen (anbefales på det sterkeste). Du finner en detaljert veiledning om signaturverifisering i følgende veiledning:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installasjon i henhold til ditt system
 

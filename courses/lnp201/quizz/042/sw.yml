@@ -1,0 +1,9 @@
+question: Ni kigezo gani kinaweza kusaidia nodi kuchagua njia bora ya malipo?
+answer: Uwezekano wa kufaulu kulingana na uwezo wa jumla wa chaneli
+wrong_answers:
+  - Umbali wa kijiografia kati ya nodi
+  - Uwepo wa nodi zilizo na kiwango cha chini cha ada
+  - Idadi ya malipo yaliyofanywa na nodi lengwa
+explanation: |
+  Uwezo wa jumla wa chaneli unaweza kuonyesha uwezekano mkubwa zaidi wa kufaulu, kwani unapendekeza upatikanaji mkubwa wa ukwasi kwa miamala.
+reviewed: false

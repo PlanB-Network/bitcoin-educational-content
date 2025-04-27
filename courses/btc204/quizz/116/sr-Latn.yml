@@ -1,0 +1,9 @@
+question: Koji je glavni cilj tehnike rikoseta?
+answer: Da se zamagle tragovi prošlosti novčića
+wrong_answers:
+  - Da bi se povećala potencijalna anonimnost transakcija
+  - Da bi se povećala entropija transakcije
+  - Da biste u budućnosti plaćali manje naknade za transakcije
+explanation: |
+  Cilj rikocheta je simulirati promenu Ownership novčića Bitcoin kako bi se povratila njegova fungibilnost zamagljivanjem njegovih prošlih oznaka.
+reviewed: false

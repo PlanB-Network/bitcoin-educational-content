@@ -6,7 +6,7 @@ description: 在 Envoy 应用程序中设置和使用护照
 
 Envoy 是基金会开发的比特币钱包管理应用程序。它专为与 Passport 硬件钱包配合使用而设计。
 
-我们在本教程中介绍的带有 Envoy 应用程序的 Passport "*Batch 2*"是 "*创始人版*"的后续产品。它采用优质设计、高清彩屏和符合人体工程学的物理键盘。它以 "*Air-Gap*"模式运行，确保钱包私钥完全隔离，可通过 MicroSD 卡或二维码进行交换。该设备配有 1200 毫安时可拆卸电池。
+本教程介绍的 Passport "*Batch 2*" 与 Envoy 应用程序一起，是 "*Founder's Edition*" 的继任者。它采用高端设计，配备高分辨率彩色屏幕和符合人体工学的物理键盘。设备以 "*Air-Gap*" 模式运行，确保钱包的私钥完全隔离，并通过 MicroSD 卡或 QR 码进行数据交换。该设备配备了可拆卸的 1200mAh 诺基亚 BL-5C 充电电池。这款非专有电池可以轻松更换，因为 BL-5C 型号在市场上广泛可用。
 
 在连接性方面，Passport 配备了一个 MicroSD 端口、一个用于充电的 USB-C 端口和一个用于扫描二维码的后置摄像头。
 
@@ -170,7 +170,7 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 在您的设备上安装之前，我们强烈建议您检查下载固件的真实性和完整性。如果您需要帮助，请参阅本教程 ：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 使用特使应用程序
 

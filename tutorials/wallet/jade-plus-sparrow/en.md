@@ -334,7 +334,7 @@ Start by downloading and installing Sparrow Wallet [from the official website](h
 
 Be sure to check the authenticity and integrity of the software before installation. If you don't know how to do this, please consult this tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Once Sparrow Wallet is open, click on the "*File*" tab, then on "*New Wallet*".
 

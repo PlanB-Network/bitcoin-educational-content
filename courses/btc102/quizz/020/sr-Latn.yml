@@ -1,0 +1,12 @@
+question: Koje je zlatno pravilo investiranja?
+answer: Nikada ne ulaži više nego što možeš priuštiti da izgubiš.
+wrong_answers:
+  - Uvek investiraj u ono što je moderno.
+  - Uvek investirajte sa pozajmljenim novcem.
+  - Uvek investiraj u ono što ne razumeš.
+explanation: |
+  Zlatno pravilo investiranja je da nikada ne ulažete više nego što možete priuštiti
+  da izgubite. To je zato što investiranje uvek nosi određeni nivo rizika, i treba da
+  ulažete samo novac koji možete priuštiti da izgubite bez da to utiče na vašu finansijsku
+  stabilnost.
+reviewed: false

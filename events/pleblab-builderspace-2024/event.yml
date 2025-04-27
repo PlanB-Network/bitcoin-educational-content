@@ -1,10 +1,9 @@
 id: f2c6cc27-f8e1-430e-88ba-8926e92b76a5
-address_line_1: Austin, USA
+address_city_country: Austin, USA
 address_line_2: ''
 address_line_3: ''
 book_in_person: false
 book_online: false
-builder: PlebLab
 description: Every Tuesday, we open our doors to the Bitcoin Builders, from simple
   projects and creators to forward-thinking developers. It is a collaborative space
   where your Bitcoin project or startup takes center stage.

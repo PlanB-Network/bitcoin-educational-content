@@ -1,0 +1,9 @@
+question: Koja je primarna uloga Bitcoin Address u transakciji?
+answer: Zaključaj UTXO-ove u scriptPubKey
+wrong_answers:
+  - Otključaj UTXO-ove u scriptSig
+  - Signaliziraj kraj transakcije
+  - Identifikujte blok potvrde
+explanation: |
+  U skriptu scriptPubKey je ugrađen Bitcoin Address za zaključavanje UTXO-a. On određuje neophodne uslove za otključavanje sredstava.
+reviewed: false

@@ -185,7 +185,7 @@ Mixer sur Sparrow a pour avantage d'être assez facile à prendre en main, d'êt
 ### Installer Sparrow Wallet
 Pour commencer, vous allez évidemment avoir besoin du logiciel Sparrow Wallet. Vous pouvez directement le télécharger sur [le site officiel](https://sparrowwallet.com/download/) ou sur [leur GitHub](https://github.com/sparrowwallet/sparrow/releases).
 
-Avant d'installer le logiciel, il sera important de vérifier la signature et l'intégrité de l'exécutable que vous venez de télécharger. Si vous souhaitez avoir plus détails sur la procédure d'installation et la vérification du logiciel Sparrow, je vous conseille de lire cet autre tutoriel : *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
+Avant d'installer le logiciel, il sera important de vérifier la signature et l'intégrité de l'exécutable que vous venez de télécharger. Si vous souhaitez avoir plus détails sur la procédure d'installation et la vérification du logiciel Sparrow, je vous conseille de lire cet autre tutoriel : *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 ### Créer un portefeuille logiciel
 Après l'installation du logiciel, vous devrez procéder à la création d'un portefeuille Bitcoin. Il est important de noter que pour participer aux coinjoins, l'utilisation d'un portefeuille logiciel (également appelé "portefeuille chaud") est indispensable. Par conséquent, **il ne sera pas possible d'effectuer des coinjoins avec un portefeuille sécurisé par un hardware wallet**.
@@ -370,7 +370,7 @@ Ensuite, il faudra être prudent sur sa gestion du doxxic change, le change qui 
 Des tutoriels détaillés sur la mise en œuvre de ces différentes techniques vous seront proposés prochainement sur PlanB Network.
 
 **Ressources supplémentaires :** 
-[Tutoriel vidéo Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Tutoriel vidéo Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 [Tutoriel vidéo Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Documentation Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts) ;
 - [Thread Twitter sur les coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739) ;

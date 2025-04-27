@@ -1,0 +1,9 @@
+question: Šta omogućava zastavica sighash SIGHASH_NONE?
+answer: Menjanje izlaza nakon potpisivanja
+wrong_answers:
+  - Menjanje unosa nakon potpisivanja
+  - Pokriti sve ulaze i izlaze
+  - Ograničavanje izmena na samo jedan izlaz
+explanation: |
+  SIGHASH_NONE pokriva samo ulaze, ostavljajući izlaze promenljivim nakon potpisivanja.
+reviewed: false

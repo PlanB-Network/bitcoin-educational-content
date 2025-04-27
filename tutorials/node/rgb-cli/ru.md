@@ -309,4 +309,4 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 Я также рекомендую этот другой учебник, в котором я объясняю, как запустить RGB-совместимую ноду Lightning для обмена токенами почти мгновенно:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

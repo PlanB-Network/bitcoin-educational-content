@@ -1,0 +1,9 @@
+question: Co sprawia, że RC4 jest dziś podatny na ataki pomimo swojej dawnej popularności?
+answer: Dobrze udokumentowane słabości w generowaniu strumienia kluczy
+wrong_answers:
+  - Klucz zbyt krótki, by zapewnić bezpieczeństwo
+  - Jego niezdolność do pracy z długimi tekstami
+  - Wymóg używania klucza publicznego oprócz klucza prywatnego
+explanation: |
+  RC4 ma znaczące słabości w generowaniu strumienia kluczy, które narażają szyfrowanie na ataki, stąd jego stopniowe porzucanie w nowoczesnych protokołach bezpieczeństwa.
+reviewed: false

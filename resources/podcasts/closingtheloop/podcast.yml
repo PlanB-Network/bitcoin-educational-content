@@ -7,8 +7,8 @@ links:
   twitter: https://twitter.com/Afrique_Bitcoin/
 description: |
   Closing the Loop is a podcast about Bitcoin. In it, we will be speaking with the entrepreneurs, developers, and thinkers who are contributing to the evolution of this revolutionary technology. The podcast will also be an ongoing experiment of sorts, leveraging the latest developments in the broader ecosystem, highlighting and implementing solutions that foster censorship-resistant communication and new content monetization models. Join us in discovering the many possibilities that Bitcoin brings!
-contributors:
-  - rabbit-hole
+contributor_names:
+  - Rogzy-DB
 tags:
   - innovation
   - development

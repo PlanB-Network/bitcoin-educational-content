@@ -309,4 +309,4 @@ Ora sapete come emettere e trasferire un contratto RGB. Se avete trovato utile q
 
 Vi consiglio anche quest'altro tutorial in cui spiego come lanciare un nodo Lightning compatibile con RGB per scambiare gettoni quasi istantaneamente:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

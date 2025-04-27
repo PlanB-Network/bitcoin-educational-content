@@ -1,0 +1,9 @@
+question: Ahadi za kriptografia (kupitia Taproot au OP_RETURN) zinatumikaje katika RGB?
+answer: Wao Anchor hali mabadiliko katika Blockchain
+wrong_answers:
+  - Wanahifadhi data ya Contract kwenye Blockchain
+  - Wanabadilisha Client-side Validation na utekelezaji wa On-Chain Smart contract
+  - Wanaunda nodi za uthibitishaji wa shughuli
+explanation: |
+  Ahadi huwezesha masasisho ya hali kuunganishwa kwa usalama na UTXO, ili kuthibitisha kuwepo kwa sehemu fulani ya habari kwa wakati fulani, bila kufichua habari yenyewe.
+reviewed: false

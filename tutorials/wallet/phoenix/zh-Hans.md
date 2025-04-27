@@ -6,7 +6,7 @@ description: 安装和使用 Phoenix 钱包
 
 Phoenix 是一个自我托管的闪电钱包和节点，由法国一家专门从事基于闪电的软件解决方案的公司 ACINQ 开发。与中本聪钱包（Wallet of Satoshi）等由第三方托管比特币的闪电钱包不同，Phoenix 使用户能够完全控制自己的私钥。
 
-事实上，Phoenix 就像一个嵌入手机的真正 Lightning 节点，它会自动打开与 ACINQ Lightning 节点的通道。该应用程序基于 ACINQ 开发的 Lightning 实施方案 Eclair。与其他闪电节点解决方案不同，Phoenix 大大简化了管理。用户无需管理通道的打开和关闭、运行比特币节点或管理其在闪电网络上的流动性。Phoenix 会在后台处理所有这些技术操作。
+Phoenix 作为一个真正的 Lightning 节点嵌入到您的手机中，会自动与 ACINQ 的 Lightning 节点打开通道。该应用基于 Lightning-KMP，这是一种使用 Kotlin 编写的跨平台 Lightning Network 实现，并针对移动钱包进行了优化。与其他 Lightning 节点解决方案不同，Phoenix 大大简化了管理。用户无需管理通道的开启和关闭，不需要运行 Bitcoin 节点，也不必管理 Lightning 网络上的流动性。Phoenix 会在后台处理所有这些技术操作。
 
 该应用程序将移动闪电钱包的易用性和便利性与真正的个人闪电节点的安全性和主权性相结合。Phoenix 使安全、高效、自主地使用闪电网络成为可能，同时还能享受流畅、直观的用户体验。
 

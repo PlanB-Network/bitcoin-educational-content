@@ -1,0 +1,11 @@
+question: Koja je uloga privatnih ključeva u Bitcoin transakcijama?
+answer: Oni se koriste za potpisivanje i autorizaciju transakcija.
+wrong_answers:
+  - Oni se koriste za verifikaciju autentičnosti transakcija.
+  - Oni se koriste za šifrovanje podataka o transakciji.
+  - Oni su javno podeljeni radi transparentnosti.
+explanation: |
+  Privatni ključevi su suštinska komponenta Bitcoin transakcija.
+  Koriste se za potpisivanje i autorizaciju transakcija, pružajući dokaz
+  o Ownership i osiguravajući da samo vlasnik može trošiti svoj Bitcoin.
+reviewed: true

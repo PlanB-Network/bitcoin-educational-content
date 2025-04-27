@@ -1,7 +1,7 @@
 ---
 name: Tab Conf 2021
 description: TABConf’s mission is to create a forum for protocol and application developers to collaborate, debate, and innovate on Bitcoin. At TABConf, we bring together the best and brightest minds in the bitcoin world to share their insights, knowledge, and experience about the latest developments. From seasoned core devs to up-and-coming plebs.
---- 
+---
 # KeyNote
 
 ## Bitcoin Mining Firmware and Stratum v2
@@ -38,13 +38,13 @@ Speaker: Matt Corallo
 
 ![video](https://youtu.be/yXemwW73W5Q?si=BHn00rhlmvZK-Px3)
 
-Speaker: niftynei 
+Speaker: niftynei
 
-##  Sovereign Computing and the Pursuit of Bitcoin
+## Sovereign Computing and the Pursuit of Bitcoin
 
 ![video](https://youtu.be/FELLqYmnr9I?si=VTjoYYszGLwC1vdg)
 
-Speaker: Nic Carter and Matt Hill 
+Speaker: Nic Carter and Matt Hill
 
 ## Brink Projects: Research and Improvements for Bitcoin
 
@@ -73,7 +73,7 @@ Speaker: Vivek Kasarabada
 
 ![video](https://youtu.be/C14V03682Sg?si=kbN4bZihRKrv-y-h)
 
-Speaker: Paul Sztorc 
+Speaker: Paul Sztorc
 
 ## Remember, Remember the 5th of November
 
@@ -85,9 +85,9 @@ Speaker: Aleks Svetski
 
 ![video](https://youtu.be/m-HiVEFqFZk?si=FKwYza8i5i1z03nd)
 
-Speaker: Andrew Chow 
+Speaker: Andrew Chow
 
-## Scaling with LND 
+## Scaling with LND
 
 ![video](https://youtu.be/W-Ev_MZAdgA?si=b_1yparzT4znz4S5)
 
@@ -115,11 +115,11 @@ Graham Krizek, CEO / Founder, Voltage
 Niftynei, Sr. Software Engineer, Blockstream
 Matt Corallo, Bitcoin Core Contributor / LDK, Square Crypto
 
-##  Why Businesses Are Using Bitcoin 
+##  Why Businesses Are Using Bitcoin
 
 ![video](https://youtu.be/ob-LYsCPzWE?si=yzOSsXP6NKnTCKTl)
 
-Panel: 
+Panel:
 Frank Hinek, Executive Director, Innovation at NCR
 Jason Lau, COO of Okcoin
 Stephen Pair, CEO & Cofounder of BitPay
@@ -142,9 +142,9 @@ Vivek Kasarabada, Blockstream
 
 ![video](https://youtu.be/3CqS1Jq1HTs?si=WJGTVGnsFNF9x8pQ)
 
-Podcast host Stephan Livera is moderating a panel on the history of Bitcoin, featuring Matt Corallo, Junseth, and Peter Todd. 
+Podcast host Stephan Livera is moderating a panel on the history of Bitcoin, featuring Matt Corallo, Junseth, and Peter Todd.
 
-## Defi, DLC's, and Decentralization 
+## Defi, DLC's, and Decentralization
 
 ![video](https://youtu.be/uWNj3ygHSL8?si=TB9RGPaW7qKZs73-)
 
@@ -153,7 +153,7 @@ Ben Carman
 Jeremy Rubin
 Jimmy Song
 
-## Bitcoin Legal Panel 
+## Bitcoin Legal Panel
 
 ![video](https://youtu.be/PZewJuyBmmI?si=5OlEDXVlubAF8Ej9)
 

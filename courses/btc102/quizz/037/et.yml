@@ -1,9 +1,9 @@
-question: Mis on Bitcoin küberpunk liikumise järgi?
-answer: Elektroonilise sularaha ekvivalent
+question: Mida tuleks kindlasti vältida, et tagada oma bitcoinide turvalisus?
+answer: Oma bitcoinide hoidmine Exchange platvormil
 wrong_answers:
-  - Digitaalse kulla vorm
-  - Uue vormi krediitkaart
-  - Krüptoraha tüüp
+  - Avatud lähtekoodiga Hardware Wallet kasutamine
+  - Hot Wallet kasutamine igapäevasteks tehinguteks
+  - Ladustamismeetodite mitmekesistamine
 explanation: |
-  Peatükk mainib, et küberpunk vaatenurgast vastandub Bitcoin sularahavabale ühiskonnale. See võimaldab luua täiesti privaatseid ja vahendajateta digitaalseid finantstehinguid. Küberpunk liikumise jaoks on Bitcoin elektroonilise sularaha ekvivalent.
+  Põhimõte "Mitte sinu võtmed, mitte sinu bitcoinid" rõhutab, kui oluline on hoida oma isiklikke võtmeid. Exchange platvormil on teie bitcoinid asjatutele riskidele avatud.
 reviewed: false

@@ -1,6 +1,6 @@
 ---
 name: Setting Up a BitAxe
-Description: Hvordan sette opp en BitAxe?
+description: Hvordan sette opp en BitAxe?
 ---
 
 ### Introduksjon

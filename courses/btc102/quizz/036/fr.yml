@@ -1,9 +1,9 @@
-question: Qu'est-ce que la phrase Not your keys, not your Bitcoins met en évidence?
-answer: L'importance de posséder la clé privée d'un portefeuille Bitcoin
+question: Quel est l'objectif principal de définir son profil d'utilisateur ?
+answer: Adopter une stratégie adaptée à ses besoins
 wrong_answers:
-  - L'importance d'avoir une clé physique pour accéder à vos Bitcoins
-  - L'importance de garder vos Bitcoins en lieu sûr
-  - L'importance de ne pas partager les détails de votre compte Bitcoin
+  - Maximiser la spéculation et donc les gains
+  - Adopter une stratégie généraliste qui fonctionne pour tout le monde
+  - Savoir quel influenceur Bitcoin il faut suivre sur les réseaux sociaux
 explanation: |
-  Le chapitre explique que la phrase Not your keys, not your Bitcoins met en évidence l'importance de posséder la clé privée d'un portefeuille Bitcoin. En possédant la clé privée, vous avez un contrôle total sur les Bitcoins qu'elle contient.
+  Connaître son profil et savoir l'adapter permet de choisir des solutions d'acquisition et de stockage en adéquation avec sa situation personnelle.
 reviewed: false

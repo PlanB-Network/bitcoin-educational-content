@@ -1,0 +1,9 @@
+question: Koje informacije nisu uključene u prošireni ključ?
+answer: Istorija transakcija ključa
+wrong_answers:
+  - Indeksni broj ključa
+  - Ključ (privatni ili javni)
+  - Lančani kod
+explanation: |
+  Prošireni ključ sadrži samo informacije potrebne za izvođenje podključeva, ne informacije povezane s transakcijama.
+reviewed: false

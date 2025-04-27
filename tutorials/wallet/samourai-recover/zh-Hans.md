@@ -146,7 +146,7 @@ Sparrow接下来会派生你钱包的密钥并搜索相应的交易。
 - 预混：`m/84'/0'/2147483645'`
 - 后混：`m/84'/0'/2147483646'`
 
-你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查看[我们的专门教程](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)。
+你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查看[我们的专门教程](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
 
 我还建议手动导入你在Samourai上与你的UTXOs关联的标签。这将允许你随后在Sparrow上进行有效的硬币控制。
 
@@ -202,7 +202,7 @@ Sparrow接下来将为你的钱包派生密钥，并搜索相应的交易。
 - 预混：`m/84'/0'/2147483645'`
 - 后混：`m/84'/0'/2147483646'`
 
-你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查阅[我们的专用教程](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)。
+你现在可以在Sparrow上访问你的比特币了。如果你需要帮助使用Sparrow Wallet，你也可以查阅[我们的专用教程](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
 
 我还建议手动导入你在Samourai上与你的UTXOs关联的标签。这将允许你随后在Sparrow上进行有效的硬币控制。
 

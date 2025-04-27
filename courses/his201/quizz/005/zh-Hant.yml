@@ -1,0 +1,9 @@
+question: 哪位經濟學家在 1999 年指出，唯一缺少的東西是可靠的電子現金，但很快就會開發出來？
+answer: 佛利民
+wrong_answers:
+  - 哈耶克
+  - Murray Rothbard
+  - 保羅-克魯格曼
+explanation: |
+  作為諾貝爾經濟學獎得主和芝加哥學派的創始人，他在全國納稅人聯盟基金會的麥克風上做出了這樣的預言。[micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: false

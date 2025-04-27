@@ -1,0 +1,9 @@
+question: Šta je koncept opadajuće marginalne korisnosti?
+answer: Svaka dodatna jedinica dobra je manje poželjna od prethodne.
+wrong_answers:
+  - Svaka dodatna jedinica dobra je više željena od prethodne.
+  - Svaka dodatna jedinica dobra je jednako poželjna kao i prethodna.
+  - Želja za svakom dodatnom jedinicom dobra nepredvidivo varira.
+explanation: |
+  Koncept opadajuće marginalne korisnosti kaže da je svaka dodatna jedinica dobra manje poželjna od prethodne. To je zato što, kako pojedinac stiče više nekog dobra, svaka dodatna jedinica tog dobra pruža manje korisnosti.
+reviewed: true

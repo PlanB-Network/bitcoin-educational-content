@@ -1,0 +1,12 @@
+question: Šta su kolačići u kontekstu online pretraživanja?
+answer: Datoteke koje kreiraju veb-sajtovi za čuvanje informacija na vašem uređaju.
+wrong_answers:
+  - Mali delovi podataka poslati sa veb-sajta i sačuvani na korisnikovom računaru putem korisnikovog veb-pregledača.
+  - Programi koji prate vašu aktivnost na mreži.
+  - Virusi koji mogu naštetiti vašem uređaju.
+explanation: |
+  U kontekstu online pretraživanja, kolačići su fajlovi
+  kreirani od strane veb-sajtova za čuvanje informacija na vašem uređaju.
+  Koriste se za pamćenje vaših preferencija, informacija za prijavu
+  i drugih podataka kako bi se poboljšalo vaše iskustvo pretraživanja.
+reviewed: true

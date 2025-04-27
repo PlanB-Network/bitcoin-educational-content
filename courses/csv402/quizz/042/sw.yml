@@ -1,0 +1,9 @@
+question: Katika tukio la malipo ndani ya chaneli ya RGB, nini kinatokea kwa matokeo ya RGB katika miamala ya Commitment?
+answer: Zinasasishwa ili kuonyesha ugawaji upya wa mali kati ya washiriki
+wrong_answers:
+  - Hazibadilika ili kuhifadhi historia ya awali hadi kituo kifungwe
+  - Wao huondolewa na kubadilishwa na multi-sig mpya
+  - Zinabadilishwa kuwa Bitcoin UTXO za kawaida
+explanation: |
+  Malipo yanapofanywa, RGB State Transition hurekebisha matokeo ya RGB ili kugawa upya vipengee kulingana na salio jipya la kituo.
+reviewed: false

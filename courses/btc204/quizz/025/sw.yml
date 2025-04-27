@@ -1,0 +1,9 @@
+question: KYC ni nini?
+answer: Utaratibu wa kuthibitisha na kurekodi utambulisho wa wateja.
+wrong_answers:
+  - Mfumo wa cryptography ili kupata miamala ya kifedha.
+  - Mbinu ya uthibitishaji wa miamala ya kifedha.
+  - Mbinu ya uuzaji ya kuchambua tabia ya wateja.
+explanation: |
+  KYC inawakilisha Mjue Mteja Wako. Hakika ni utaratibu wa udhibiti wa kuthibitisha utambulisho wa mteja.
+reviewed: false

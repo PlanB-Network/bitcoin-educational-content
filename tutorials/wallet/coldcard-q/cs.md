@@ -81,7 +81,7 @@ Pokud dáváte přednost napájení karty COLDCARD bez připojení k počítači
 
 Pro tento návod budete také potřebovat peněženku Sparrow Wallet, která vám umožní spravovat peněženku Bitcoin v počítači. Stáhněte si [Sparrow Wallet](https://sparrowwallet.com/download/) z oficiálních webových stránek. Důrazně doporučuji, abyste před pokračováním v instalaci zkontrolovali její pravost (pomocí GnuPG) i integritu (pomocí hashe). Pokud nevíte, jak to udělat, postupujte podle tohoto návodu:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Výběr kódu PIN
 
@@ -161,7 +161,7 @@ V tomto okamžiku důrazně doporučujeme zkontrolovat integritu a pravost staž
 
 Pokud tento proces ověřování neznáte, doporučuji vám postupovat podle tohoto návodu:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Vezměte kartu microSD a přeneste na ni soubor firmwaru (dokument ve formátu `.dfu`). Vložte kartu microSD do jednoho z portů karty COLDCARD.
 

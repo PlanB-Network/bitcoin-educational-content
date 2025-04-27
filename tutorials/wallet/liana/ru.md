@@ -63,7 +63,7 @@ https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 
 Чтобы узнать, как вручную проверить подлинность и целостность программного обеспечения перед установкой, мы рекомендуем вам ознакомиться с этим руководством:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Установите программу на свой компьютер и запустите ее. Выберите опцию "*Создать новый кошелек Liana*", чтобы настроить свой кошелек.
 

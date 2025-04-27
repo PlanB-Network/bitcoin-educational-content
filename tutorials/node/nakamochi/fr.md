@@ -50,7 +50,7 @@ créer un nouveau portefeuille dans l'onglet "Lightning"
 
 scanner le code QR avec l'application de gestion des nœuds
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 
 pour une plus grande sécurité, définissez un code PIN
 
@@ -86,7 +86,7 @@ Une fois votre Nakamochi configuré et connecté à une application de gestion d
 
 5. Cliquez sur **"Open Channel "**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 
 capture d'écran de ZEUS
 
@@ -104,7 +104,7 @@ Pour plus d'informations : [Canaux | Documentation Zeus](https://docs.zeusln.app
 
 5. Saisissez le montant bloqué (choisissez avec votre homologue ou utilisez le montant fixe minimum pour les nœuds bien connus).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 
 capture d'écran de Bitbanana
 

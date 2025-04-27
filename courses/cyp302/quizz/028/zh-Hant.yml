@@ -1,0 +1,9 @@
+question: 0 XOR 1 的結果是什麼？
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  使用 XOR 時，0 XOR 1 產生 1，因為位元不同。
+reviewed: false

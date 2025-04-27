@@ -3,364 +3,687 @@ name: Plan ₿ Forum 2024
 description: The Plan ₿ Forum is a conference that explores the impact of digital currencies, P2P technologies, and financial freedom on the environment and freedom of speech.
 ---
 
-# ₿ Forum
+# WAGMI Stage (EN)
 
-## Bitcoin Privacy | Plan ₿ Forum 2024
+## Lugano's Plan ₿ Update
 
-![video](https://youtu.be/LyBlZBUkM1w)
+![video](https://youtu.be/3CDRSX2sNo4)
 
-## Effortless Transactions: Payments and Receipts with the Lightning Network | Plan ₿ Forum 2024
+## Bitcoin ETFs and the Mainstreaming of Crypto
 
-![video](https://youtu.be/wBA9gfmY-9c)
+![video](https://youtu.be/gvWwbtHnM1I)
 
-## Bitcoin and International trade | Plan ₿ Forum 2024
+Speaker: Eric Balchunas
 
-![video](https://youtu.be/b_DmKPxhAvk)
+## The Virtues and Vices of Bitcoin
 
-## Teaching Freedom: Empowering Activists with Bitcoin Education | Plan ₿ Forum 2024
+![video](https://youtu.be/3huNl31xaVE)
 
-![video](https://youtu.be/eSeR41EV51Q)
+Speaker: Jimmy Song
 
-## Tech Business in Lugano: An Entrepreneur's Perspective With Special Guests | Plan ₿ Forum 2024
+## Incentives
 
-![video](https://youtu.be/mLzqxWbf5C4)
+![video](https://youtu.be/EGzvI7-WCEI)
 
-## The Sophisticated Art of Memetics | Plan ₿ Forum 2024
+speaker: Knut Svanholm
 
-![video](https://youtu.be/M7xt1KXWmL0)
+## What it took to free Julian!
 
-## Protecting Wealth with Programmable Money | Plan ₿ Forum 2024
+![video](https://youtu.be/k4mvSx0fmyU)
 
-![video](https://youtu.be/vCsAIYdGfP4)
+## The Covenants Dilemma
 
-## Bitcoin and FOSS in universities | Plan ₿ Forum 2025
+![video](https://youtu.be/8SXVygEtsPo)
 
-![video](https://youtu.be/S8UNZfU0Ljg)
+## Fireside chat with Jack Mallers
 
-## Sovereign Trading on Lightning Network | Plan ₿ Forum 2024
+![video](https://youtu.be/u4aiF4Ofsiw)
 
-![video](https://youtu.be/MZjZlg7vRtQ)
+Speaker: Jack Mallers, Natalie Brunell
 
-## CBDC vs Bitcoin, Control vs Freedom | Plan ₿ Forum 2024
+## Colonia Zacamil, El Salvador
 
-![video](https://youtu.be/j5Rr3rGoPpA)
+![video](https://youtu.be/QWQyuShia1M)
 
-## The Importance Of Duplication In A Duplication-Free World. Why Satoshi Was Wrong | Plan ₿ Forum 2024
+## Peer into the early days of Bitcoin through the lens of 2 OGs
 
-![video](https://youtu.be/_YNgqrIRyVU)
+![video](https://youtu.be/MdNLyohhHhw)
 
-## Privacy meets user experience | Plan ₿ Forum 2024
+Speaker: Luke Dashjr, Martti Malmi
+Moderator: Giacomo Zucco
 
-![video](https://youtu.be/h8jAZkL8A2M)
+## The Next Web: You Are The Algorithm
 
-## Bitcoin, Nostr, Tor: Technologies for Sovereign Individuals | Plan ₿ Forum 2024
+![video](https://youtu.be/GApQEJkavvw)
 
-![video](https://youtu.be/_IpkjE_Ya2s)
+Speaker: John Carvalho
 
-## The use of bitcoin and stablecoins in Brazil | Plan ₿ Forum 2024
+## DEBATE: Bitcoin Ossification
 
-![video](https://youtu.be/zfNoS0wzgro)
+![video](https://youtu.be/TUO10-HcdvY)
 
-## Data leaks, phishing and AI: a new threat for bitcoiners | Plan ₿ Forum 2024
+Speakers: Jimmy Song, Jameson Loop
+Moderator: Stephan Livera
 
-![video](https://youtu.be/iKBLAH7IIxU)
+## Devils
 
-## Privacy on BitCoin | Plan ₿ Forum 2025
+![video](https://youtu.be/_OoYMYDCfVk)
 
-![video](https://youtu.be/dZ2Sbp1Iz94)
+Speakers: Paolo Ardoino, Guido Brera
 
-## Sovereign Trading on Lightning Network | Plan ₿ Forum 2024
+## Bitcoin Companies in Lugano and the Plan ₿ Fund
 
-![video](https://youtu.be/xdcVYYm7l9o)
+![video](https://youtu.be/k0yAJwXWSPE)
 
-## Bitcoin: Number Go Up Religion or Secular Messiah? v2 | Plan ₿ Forum 2024
+Speaker: Oleg Mikhalsky
 
-![video](https://youtu.be/IQFIP6lBdN8)
+## How Bitcoin Empowers Africa
 
-## Lugano Sets the Standard: Full Adoption of Bitcoin and USD₮ for City Payments | Plan ₿ Forum 2024
+![video](https://youtu.be/2b_P1Qv6PO4)
 
-![video](https://youtu.be/jUjjpeZMDy8)
+Speaker: Meron Estefanos
 
-## Ladies, detach yourself from your husband's purse v2 | Plan ₿ Forum 2024
+## Built to Endure: The Timelessness of Bitcoin Native Principles
 
-![video](https://youtu.be/Cvq-I5oNqI4)
+![video](https://youtu.be/5Z56mRE-WRI)
 
-## Multisig based bitcoin escrow systems | Plan ₿ Forum 2024
+Speaker: Joseph Kelly
 
-![video](https://youtu.be/8eebL6ggFGw)
+## DEBATE: Use of Bitcoin Blockspace
 
-## Scaling bitcoin globally with client side validation and RGB | Plan ₿ Forum 2024
+![video](https://youtu.be/Ie1D-fWR_tY)
 
-![video](https://youtu.be/D3-yXL8L5XY)
+Speakers: Luke Dashjr, Bitcoin Mechanic, Peter Todd, Pete Rizzo
+Moderator: Stephan Livera
 
-## Institutional P2P: bringing TradFi on the Bitcoin standard | Plan ₿ Forum 2024
+## Bitcoin Thoughts
 
-![video](https://youtu.be/NIy64NZuSBM)
+![video](https://youtu.be/lnvuLwmGCwk)
 
-## Let's Build Apocalypse Ready P2P Apps | Plan ₿ Forum 2024
+Speaker: Nick Szabo
 
-![video](https://youtu.be/pDt1lR3w_mc)
+## A Treatise on Block Space Economics
 
-## My Bitcoin Pizza, with Extra Nostr | Plan ₿ Forum 2024
+![video](https://youtu.be/REmsKPYyV_M)
 
-![video](https://youtu.be/KwXyAXA1Pnc)
+Speaker: Jameson Lopp
 
-## Making open source hardware | Plan ₿ Forum 2024
+## Bitcoin in politics
 
-![video](https://youtu.be/unmO2HOKLq4)
+![video](https://youtu.be/kLyA5qzq_0A)
 
-## BitVM: Smarter Bitcoin Contracts | Plan ₿ Forum 2024
+## The Synergies between Energy Infrastructure and Bitcoin Mining
 
-![video](https://youtu.be/PPGDFDqmVzw)
+![video](https://youtu.be/V-3rnnryk6Y)
 
-## Bitcoin vs Altcoins | Plan ₿ Forum 2024
+Speakers: Giw Zanganeh, Josue Lopez
 
-![video](https://youtu.be/WMtuHJ8jw30)
+## Bitcoin Circular Economies
 
-## Liana Miniscript Wallet | Plan ₿ Forum 2024
+![video](https://youtu.be/t_sDiAeP92c)
 
-![video](https://youtu.be/iJ4lVCUF7S4)
+## Update on the Plan ₿ Network: one year later!
 
-## Self custody and Inheritance: never lose your coins, and have them outlive you | Plan ₿ Forum 2024
+![video](https://youtu.be/Q97OKMWa7XU)
 
-![video](https://youtu.be/yZp6bakSil0)
+Speakers: Giacomo Zucco, Rogzy
 
-## Supercharge Your Business: The Strategic Advantage of Buying Bitcoin As a Company | Plan ₿ Forum
+## Unlocking Capital: Bitcoin's Role as a Store of Value in the New Financial Era
 
-![video](https://youtu.be/wHWSCaTgX_4)
+![video](https://youtu.be/vm8yW2kcS1I)
 
-## Bitcoin’s Communication Issues: The BitPolito Case Study | Plan ₿ Forum 2024
+## All Layers Lead to Lightning
 
-![video](https://youtu.be/riLlajvusxE)
+![video](https://youtu.be/YOuyhcGUnYU)
 
-## Future of finance: Bitcoin and Layer 1 | Plan ₿ Forum 2024
+Speakers: Elizabeth Stark, BTC Sessions
+
+## Unstoppable TogETHER
+
+![video](https://youtu.be/CgvQ9T5wli4)
+
+Speaker: Paolo Ardoino
+
+## Bitcoin policy: Unlocking innovation through regulation
+
+![video](https://youtu.be/WlncXf0mLpk)
+
+Speaker: Dennis Porter
+
+## Bitcoin's false dichotomy between SoV and MoE
+
+![video](https://youtu.be/UlcKlIfFNKs)
+
+Speaker: Roy Sheinfeld
+
+## How Bitcoin is helping Palestinians in Gaza survive
+
+![video](https://youtu.be/7Hoxu2Cy-8Q)
+
+Speaker: Fadi Elsalameen
+
+## Hope among the Shacks
+
+![video](https://youtu.be/hxjtX7MXzT8)
+
+Speaker: Rikki
+
+## Special Announcement - FC Lugano + Lugano’s Plan ₿
+
+![video](https://youtu.be/4QGGSuTsKpU)
+
+Speaker: Paolo Ardoino, Martin Blaser
+
+
+
+# WAGMI Stage (IT real-time)
+
+## Bitcoin ETFs and the Mainstreaming of Crypto
+
+![video](https://youtu.be/x1aybqr1uaM)
+
+Speaker: Eric Balchunas
+
+## Le virtù e i vizi del Bitcoin (IT)
+
+![video](https://youtu.be/eR3rKMz4h5U)
+
+Speaker: Jimmy Song
+
+## Incentives
+
+![video](https://youtu.be/UN7xJ0pOPc8)
+
+speaker: Knut Svanholm
+
+## Cosa ci è voluto per liberare Julian!
+
+![video](https://youtu.be/1ipTs9b_QbA)
+
+## Chiaccherata con Jack Mallers
+
+![video](https://youtu.be/ohk9O37UpI0)
+
+Speaker: Jack Mallers, Natalie Brunell
+
+## Colonia Zacamil, El Salvador
+
+![video](https://youtu.be/WETVSpLQ3l8)
+
+## Il Dilemma Covenants
+
+![video](https://youtu.be/uX1Z6XxPNw0)
+
+## Primi giorni di Bitcoin sotto la lente di 2 OGs
+
+![video](https://youtu.be/YHo_qgKeEDk)
+
+Speaker: Luke Dashjr, Martti Malmi
+Moderatore: Giacomo Zucco
+
+## Costruito per durare: l'atemporalità dei principi nativi di Bitcoin
+
+![video](https://youtu.be/xkoD1-lfn8s)
+
+Speaker: Joseph Kelly
+
+## The Next Web: You Are The Algorithm
+
+![video](https://youtu.be/lXMsNhMW9p0)
+
+Speaker: John Carvalho
+
+## Diavoli (ITA)
+
+![video](https://youtu.be/2wYv--0FZyc)
+
+Speaker: Paolo Ardoino, Guido Brera
+
+## Bitcoin Ossification
+
+![video](https://youtu.be/BA3cWA0WZ4Y)
+
+Speaker: Jimmy Song, Jameson Loop
+Moderatore: Stephan Livera
+
+## Aziende Bitcoin a Lugano e il Plan ₿ Fund
+
+![video](https://youtu.be/H6Omfzmy5FI)
+
+Speaker: Oleg Mikhalsky
+
+## Use of Bitcoin Blockspace
+
+![video](https://youtu.be/hWHq25x1x90)
+
+Speaker: Luke Dashjr, Bitcoin Mechanic, Peter Todd, Pete Rizzo
+Moderatore: Stephan Livera
+
+## Pensieri su Bitcoin
+
+![video](https://youtu.be/-aU3beNH8kc)
+
+Speaker: Nick Szabo
+
+## Un trattato sull'economia del Block Space
+
+![video](https://youtu.be/NTd2If9jxII)
+
+Speaker: Jameson Lopp
+
+## Bitcoin in politica
+
+![video](https://youtu.be/A8srsm8qA00)
+
+## Le Sinergie tra Infrastrutture energetiche e mining di Bitcoin
+
+![video](https://youtu.be/CMBYFOXuSyA)
+
+Speakers: Giw Zanganeh, Josue Lopez
+
+## Economie Circolari
+
+![video](https://youtu.be/OyiyPdnWW2U)
+
+## Aggiornamento sul Plan ₿ Network: un anno dopo!
+
+![video](https://youtu.be/8Pk5jNMKIv4)
+
+Speakers: Giacomo Zucco, Rogzy
+
+## Sbloccare il capitale: il ruolo di Bitcoin come riserva di valore nella nuova era Finanziaria
+
+![video](https://youtu.be/KdQWg7ACqLQ)
+
+## Tutti i layer portano al Lightning Network
+
+![video](https://youtu.be/ehQpMHtkRj4)
+
+Speakers: Elizabeth Stark, BTC Sessions
+
+## Unstoppable TogETHER
+
+![video](https://youtu.be/WwRk4K_e9nI)
+
+Speaker: Paolo Ardoino
+
+## policy Bitcoin: sbloccare l'innovazione attraverso la regolamentazione
+
+![video](https://youtu.be/9DiNWIBo5hg)
+
+Speaker: Dennis Porter
+
+## La falsa dicotomia di Bitcoin tra SoV and MoE
+
+![video](https://youtu.be/UlcKlIfFNKs)
+
+Speaker: Roy Sheinfeld
+
+## come Bitcoin aiuta i Palestinesi di Gaza a sopravvivere
+
+![video](https://youtu.be/w3lD48MJbHQ)
+
+Speaker: Fadi Elsalameen
+
+## Speranza tra le macerie
+
+![video](https://youtu.be/KV0nqC3TYwA)
+
+Speaker: Rikki
+
+## come Bitcoin da potere all''Africa
+
+![video](https://youtu.be/JOAPBy0xbr8)
+
+Speaker: Meron Estefanos
+
+## Annuncio Speciale: il nuovo main sponsor di FC Lugano
+
+![video](https://youtu.be/l0qQEi_87XE)
+
+Speaker: Paolo Ardoino, Martin Blaser
+
+
+
+# P2P Stage
+
+## Future of finance: Bitcoin and Layer 1
 
 ![video](https://youtu.be/DBjJ9SIsf8o)
 
-## The Cancer of the Modern World | Plan ₿ Forum 2024
+Speaker: Greg Carson
 
-![video](https://youtu.be/42IH4rnDRhU)
+## Supercharge Your Business: The Strategic Advantage of Buying Bitcoin As a Company
 
-## How Bitcoin Brands can Truly Stand Out and Win | Plan ₿ Forum 2024
+![video](https://youtu.be/wHWSCaTgX_4)
 
-![video](https://youtu.be/_xyb34qUtj4)
+Speaker: Julian Liniger
 
-## How to build a $30 bitcoin ticker | Plan ₿ Forum 2024
+## CBDC vs Bitcoin, Control vs Freedom
 
-![video](https://youtu.be/a9zKeZs1jbk)
+![video](https://youtu.be/j5Rr3rGoPpA)
 
-## Building on RGB: DEXes, Lightning and wallets | Plan ₿ Forum 2024
+Speaker: Efrat Fenigson
 
-![video](https://youtu.be/bpxuaEFDWt8)
-
-## Exploring Bitcoin's Options and Futures Markets | Plan ₿ Forum 2024
-
-![video](https://youtu.be/SP3b0JFWgdw)
-
-## MOS: Manage your Bitcoin Mining Operations with a single tool! | Plan ₿ Forum 2024
-
-![video](https://youtu.be/zyca6BtxLvU)
-
-## Chain Duel: Gamifying Adoption | Plan ₿ Forum 2024
+## Chain Duel: Gamifying Adoption
 
 ![video](https://youtu.be/wm8BLN2ROAs)
 
-## How media sentiment shifts on emerging technologies | Plan ₿ Forum 2024
+Speaker: Francis Mars
+
+## How media sentiment shifts on emerging technologies
 
 ![video](https://youtu.be/94P79EPgvEU)
 
-## Tearing Down Walled Gardens | Plan ₿ Forum 2024
+Speaker: Federico Rivi
 
-![video](https://youtu.be/wUkOaTtpH-o)
+## My Bitcoin Pizza, with Extra Nostr
 
-## Mining at Home & Lottery Mining | Plan ₿ Forum 2024
+![video](https://youtu.be/KwXyAXA1Pnc)
 
-![video](https://youtu.be/uu9ngmRxKqY)
+Speaker: Martti Malmi
 
-## Deploying the Hardest Money Ever to 100000 Europeans | Plan ₿ Forum 2024
-
-![video](https://youtu.be/Gxf0ZCpXF1g)
-
-## On Ground Report on Bitcoin Adoption in Switzerland and El Salvador | Plan ₿ Forum 2024
+## On-Ground Report on Bitcoin Adoption in Switzerland and El Salvador
 
 ![video](https://youtu.be/ojq8Gm43SPE)
 
-## Data structures for building resilient p2p apps | Plan ₿ Forum 2024
+Speaker: Dejan Roljič
 
-![video](https://youtu.be/lSR-p8xhXyQ)
+## MOS: Manage your Bitcoin Mining Operations with a single tool!
 
-## Crypto Tax and Expatriation | Plan ₿ Forum 2024
+![video](https://youtu.be/zyca6BtxLvU)
 
-![video](https://youtu.be/9F9S61C9mGs)
+Speaker: Giw Zanganeh
+
+## Institutional P2P: bringing TradFi on the Bitcoin standard
+
+![video](https://youtu.be/NIy64NZuSBM)
+
+Speaker: Max Keidun
+
+## The Cancer of the Modern World
+
+![video](https://youtu.be/42IH4rnDRhU)
+
+Speaker: Guy Swann
+
+## BitVM: Smarter Bitcoin Contracts
+
+![video](https://youtu.be/PPGDFDqmVzw)
+
+Speaker: Lukas George
+
+## Self custody and Inheritance: never lose your coins, and have them outlive you
+
+![video](https://youtu.be/yZp6bakSil0)
+
+Speaker: Kevin Loaec
+
+## Bitcoin Apps & Devices: Top Picks For 2024
+
+![video](https://youtu.be/Nn6hECZizWE)
+
+Speaker: BTC Sessions
 
 ## Building Bitcoin Infrastructure for LATAM
 
 ![video](https://youtu.be/gYcfSK1JYtw)
 
-## Bitcoin Apps & Devices: Top Picks For 2024 | Plan ₿ Forum 2024
+Speakers: Paolo Ardoino, Samson Mow, Rocelo Lopes
+Moderator: Sam Callahan
 
-![video](https://youtu.be/Nn6hECZizWE)
+## Bitcoin Privacy
 
-## Bitcoin's Keyless Future: Redefining a better Ownership | Plan ₿ Forum 2024
+![video](https://youtu.be/LyBlZBUkM1w)
 
-![video](https://youtu.be/441mhs6wLRs)
+Speakers: Peter Todd, Seth For Privacy, Hodlonaut, BTC Sessions
 
-## Evolution of Mining Pools | Plan ₿ Forum 2024
+## Evolution of Mining Pools
 
 ![video](https://youtu.be/v11LxnH9Ppc)
 
-## Bitcoin Analogies: How to create and use them for education | 2024
+Speaker: Bitcoin Mechanic
 
-![video](https://youtu.be/qwAokloz7i8)
+## Protecting Wealth with Programmable Money
 
-## Have your Plan ₿ in El Salvador, Real Estate with Bitcoin | Plan ₿ Forum
+![video](https://youtu.be/vCsAIYdGfP4)
+
+Speaker: Becca Amilee Rubenfeld
+
+## Let's Build Apocalypse Ready P2P Apps
+
+![video](https://youtu.be/pDt1lR3w_mc)
+
+Speaker: Mathias Buus
+
+## Scaling bitcoin globally with client-side validation and RGB
+
+![video](https://youtu.be/D3-yXL8L5XY)
+
+Speaker: Maxim Orlovsky
+
+## Bitcoin and FOSS in universities
+
+![video](https://youtu.be/S8UNZfU0Ljg)
+
+Speakers: Giorgio Rasetto, Salvatore Scorsone
+
+## Tearing Down Walled Gardens
+
+![video](https://youtu.be/wUkOaTtpH-o)
+
+Speaker: Denys Zaliskyi
+
+## The use of bitcoin and stablecoins in Brazil
+
+![video](https://youtu.be/zfNoS0wzgro)
+
+Speaker: Rocelo Lopes
+
+## Privacy meets user experience
+
+![video](https://youtu.be/h8jAZkL8A2M)
+
+Speaker: Seth For Privacy
+
+## Bitcoin, Nostr, Tor: Technologies for Sovereign Individuals
+
+![video](https://youtu.be/_IpkjE_Ya2s)
+
+Speaker: Rockstar Dev
+
+## Have your Plan ₿ in El Salvador, Real Estate with Bitcoin
 
 ![video](https://youtu.be/0hV-ZKawJsM)
 
-## Elevating the Bitcoin Brand | Plan ₿ Forum 2024
+Speaker: Alexandra Cross
 
-![video](https://youtu.be/4f9Ah6SbsNA)
+## The Sophisticated Art of Memetics
 
-## Hashrate Markets: Bitcoin Minings Financial Frontier | Plan ₿ Forum 2024
+![video](https://youtu.be/M7xt1KXWmL0)
 
-![video](https://youtu.be/wHWIUn1TVN0)
+## Teaching Freedom: Empowering Activists with Bitcoin Education
 
-## Deep dive Silent Payments on a Hardware Wallet
+![video](https://youtu.be/eSeR41EV51Q)
+
+Speaker: Anna Chekhovich, BTC Sessions
+
+## Lugano Sets the Standard: Full Adoption of Bitcoin and USD₮ for City Payments
+
+![video](https://youtu.be/jUjjpeZMDy8)
+
+Speaker: Paolo Bortolin
+
+## Bitcoin: Number Go Up Religion or Secular Messiah?
+
+![video](https://youtu.be/IQFIP6lBdN8)
+
+Speaker: Pascal Hügli
+
+
+
+
+# Masterclasses
+
+## Privacy on Bitcoin
+
+![video](https://youtu.be/dZ2Sbp1Iz94)
+
+Speaker: Kukks
+
+## Crypto Tax and Expatriation
+
+![video](https://youtu.be/9F9S61C9mGs)
+
+Speaker: Alex Naray
+
+## Bitcoin and International trade
+
+![video](https://youtu.be/b_DmKPxhAvk)
+
+Speaker: Nick Szabo
+
+## Data leaks, phishing and AI: a new threat for bitcoiners
+
+![video](https://youtu.be/iKBLAH7IIxU)
+
+Speaker: Riccardo Masutti
+
+## Exploring Bitcoin's Options and Futures Markets
+
+![video](https://youtu.be/SP3b0JFWgdw)
+
+Speakers: Federico Tenga, Hendrik Ghys
+
+## Deploying the Hardest Money Ever to 100,000 Europeans
+
+![video](https://youtu.be/Gxf0ZCpXF1g)
+
+Speaker: Adem Bilican
+
+## Bitcoin’s Communication Issues: The BitPolito Case Study
+
+![video](https://youtu.be/riLlajvusxE)
+
+Speaker: Emile Jellinek
+
+## Effortless Transactions: Payments and Receipts with the Lightning Network
+
+![video](https://youtu.be/wBA9gfmY-9c)
+
+Speaker: Massimo Musumeci
+
+## Bitcoin Analogies: How to create and use them for education
+
+![video](https://youtu.be/qwAokloz7i8)
+
+Speaker: Dušan Matuška
+
+## Deep-dive: Silent Payments on a Hardware Wallet
 
 ![video](https://youtu.be/AEKvw9jQMHA)
 
-## Building your own Bitcoin Signet network | Plan ₿ Forum 2024
+Speaker: Benma
+
+## How Bitcoin Brands can Truly Stand Out and Win
+
+![video](https://youtu.be/_xyb34qUtj4)
+
+Speaker: Imo Babics
+
+## How to build a $30 bitcoin ticker
+
+![video](https://youtu.be/a9zKeZs1jbk)
+
+Speakers: Bart Mol, Stijn Toemen
+
+## Build your own Bitcoin Signet network
 
 ![video](https://youtu.be/3BTTbu2zzlo)
 
-## Le virtù e i vizi del Bitcoin (IN ITALIANO) | Lugano’s Plan ₿ Forum 2024
+Speaker: Marcel Hernandez
 
-![video](https://youtu.be/eR3rKMz4h5U)
+## Making open source hardware
 
-## Bitcoin's false dichotomy between SoV and MoE | Lugano’s Plan ₿ Forum 2024
+![video](https://youtu.be/unmO2HOKLq4)
 
-![video](https://youtu.be/UlcKlIfFNKs)
+Speaker: Alekos Filini
 
-## Hope among the Shacks | Lugano’s Plan ₿ Forum 2024
+## Sovereign Trading on Lightning Network
 
-![video](https://youtu.be/hxjtX7MXzT8)
+![video](https://youtu.be/xdcVYYm7l9o)
 
-## How Bitcoin is helping Palestinians in Gaza survive | Lugano’s Plan ₿ Forum 2024
+Speaker: Walter Maffione
 
-![video](https://youtu.be/7Hoxu2Cy-8Q)
+## Elevating the Bitcoin Brand
 
-## Unstoppable TogETHER by Paolo Ardoino | Lugano’s Plan ₿ Forum 2024
+![video](https://youtu.be/4f9Ah6SbsNA)
 
-![video](https://youtu.be/CgvQ9T5wli4)
+Speaker: Aldert Greijdanus
 
-## Devils (ENG) | Lugano’s Plan ₿ Forum 2024
+## Bitcoin's Keyless Future: Redefining a better Ownership
 
-![video](https://youtu.be/_OoYMYDCfVk)
+![video](https://youtu.be/441mhs6wLRs)
 
-## Bitcoin Thoughts by Nick Szabo | Lugano’s Plan ₿ Forum 2024
+Speakers: Aron Clementi, Gianmarco Guazzo
 
-![video](https://youtu.be/lnvuLwmGCwk)
+## Data structures for building resilient p2p apps
 
-## DEBATE: Use of Bitcoin Blockspace | Lugano’s Plan ₿ Forum 2024
+![video](https://youtu.be/lSR-p8xhXyQ)
 
-![video](https://youtu.be/Ie1D-fWR_tY)
+Speaker: Andrew Osheroff
 
-## Bitcoin in politics | Lugano’s Plan ₿ Forum 2024
+## Tech Business in Lugano: An Entrepreneur's Perspective With Special Guests
 
-![video](https://youtu.be/kLyA5qzq_0A)
+![video](https://youtu.be/mLzqxWbf5C4)
 
-## Update on the Plan ₿ Network: one year later! | Lugano’s Plan ₿ Forum 2024
+## Bitcoin vs Altcoins
 
-![video](https://youtu.be/Q97OKMWa7XU)
+![video](https://youtu.be/WMtuHJ8jw30)
 
-## A Treatise on Block Space Economics | Lugano’s Plan ₿ Forum 2024
+Speaker: Lisa Tscherry
+Moderator: Stefania Barbaglio
 
-![video](https://youtu.be/REmsKPYyV_M)
+## Hashrate Markets: Bitcoin Minings Financial Frontier
 
-## Built to Endure: The Timelessness of Bitcoin Native Principles | Lugano’s Plan ₿ Forum 2024
+![video](https://youtu.be/wHWIUn1TVN0)
 
-![video](https://youtu.be/5Z56mRE-WRI)
+Speaker: Gerson Martinez
 
-## The Synergies between Energy Infrastructure and Bitcoin Mining | Lugano’s Plan ₿ Forum 2024
+## Liana Miniscript Wallet
 
-![video](https://youtu.be/V-3rnnryk6Y)
+![video](https://youtu.be/iJ4lVCUF7S4)
 
-## Special Announcement - FC Lugano + Lugano’s Plan ₿ | Plan ₿ Forum 2024
+Speaker: Darko Gasic
 
-![video](https://youtu.be/4QGGSuTsKpU)
+## Ladies, detach yourself from your husband's purse v2
 
-## All Layers Lead to Lightning | Lugano’s Plan ₿ Forum 2024
+![video](https://youtu.be/Cvq-I5oNqI4)
 
-![video](https://youtu.be/YOuyhcGUnYU)
+Speaker: Nathaly Lenz
+Moderator: Stefania Barbaglio
 
-## Bitcoin Circular Economies | Lugano’s Plan ₿ Forum 2024
+## The Importance Of Duplication In A Duplication-Free World
 
-![video](https://youtu.be/t_sDiAeP92c)
+![video](https://youtu.be/_YNgqrIRyVU)
 
-## Bitcoin policy: Unlocking innovation through regulation | Lugano’s Plan ₿ Forum 2024
+Speaker: Sonja Aurelie
+Moderator: Stefania Barbaglio
 
-![video](https://youtu.be/WlncXf0mLpk)
+## Multisig based bitcoin escrow systems
 
-## Unlocking Capital: Bitcoin's Role as a Store of Value in the New Financial Era | Plan ₿ Forum 2024
+![video](https://youtu.be/8eebL6ggFGw)
 
-![video](https://youtu.be/vm8yW2kcS1I)
+Speaker: Martin Matejka
 
-## The Virtues and Vices of Bitcoin | Lugano’s Plan ₿ Forum 2024
+## Mining at Home & Lottery Mining
 
-![video](https://youtu.be/3huNl31xaVE)
+![video](https://youtu.be/uu9ngmRxKqY)
 
-## The Next Web: You Are The Algorithm | Lugano’s Plan ₿ Forum 2024
+Speaker: Kristian Csepcsar
 
-![video](https://youtu.be/GApQEJkavvw)
+## Building on RGB: DEXes, Lightning and wallets
 
-## Bitcoin Companies in Lugano and the Plan ₿ Fund | Lugano’s Plan ₿ Forum 2024
+![video](https://youtu.be/bpxuaEFDWt8)
 
-![video](https://youtu.be/k0yAJwXWSPE)
-
-## Fireside chat with Jack Mallers | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/u4aiF4Ofsiw)
-
-## Incentives | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/EGzvI7-WCEI)
-
-## Peer into the early days of Bitcoin through the lens of 2 OGs | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/MdNLyohhHhw)
-
-## Diavoli (ITA) | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/2wYv--0FZyc)
-
-## The Covenants Dilemma | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/8SXVygEtsPo)
-
-## Colonia Zacamil, El Salvador | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/QWQyuShia1M)
-
-## DEBATE: Bitcoin Ossification | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/TUO10-HcdvY)
-
-## Bitcoin ETFs and the Mainstreaming of Crypto | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/gvWwbtHnM1I)
-
-## What it took to free Julian! | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/k4mvSx0fmyU)
-
-## How Bitcoin Empowers Africa | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/2b_P1Qv6PO4)
-
-## Lugano's Plan ₿ Update | Lugano’s Plan ₿ Forum 2024
-
-![video](https://youtu.be/3CDRSX2sNo4)
-
-## Plan ₿ Forum 2025 Drone Show
-
-![video](https://youtu.be/Qx2v7VLjHpk)
+Speaker: Federico Tenga

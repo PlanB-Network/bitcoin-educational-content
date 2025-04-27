@@ -148,7 +148,7 @@ Napsauta vihreää painiketta "*Lisää tilisi turvallisuutta lisäämällä 2FA
 
 Tämän jälkeen voit valita todentamismenetelmän, jolla saat 2/2-monisignaalin toisen avaimen käyttöösi. Tässä ohjeessa käytämme todennussovellusta. Jos tämäntyyppiset sovellukset eivät ole sinulle tuttuja, suosittelen tutustumaan Authy-oppaaseen :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Valitse "*Autentikointisovellus*".
 

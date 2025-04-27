@@ -1,0 +1,10 @@
+question: 當 Mining Bitcoin 交易的獎勵減半時，事件的名稱是什麼？
+answer: Halving
+wrong_answers:
+  - 加倍
+  - 四分法
+  - 三倍
+explanation: |
+  按計劃減少 Mining 獎勵、Halving 每
+  四年，是被稱為 Halving 的事件。
+reviewed: true

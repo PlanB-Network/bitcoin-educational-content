@@ -1,0 +1,9 @@
+question: Zašto SHA256 primenjuje predobradu na ulaznu poruku?
+answer: Da bi se osigurala dužina koja je višekratnik od 512 bita
+wrong_answers:
+  - Da verifikujete integritet poruke
+  - Da šifrujete podatke pre heširanja
+  - Da biste povećali veličinu generisanih heševa
+explanation: |
+  Preprocesiranje prilagođava dužinu poruke dodavanjem bita za popunjavanje i binarnog prikaza njene dužine.
+reviewed: false

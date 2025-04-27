@@ -1,0 +1,9 @@
+question: Koji kriptografski ključ Exchange algoritam je u srcu BIP47 operacije?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+explanation: |
+  Algoritam koji se koristi je ECDH (Elliptic Curve Diffie-Hellman). To je varijanta klasičnog Diffie-Hellman algoritma koja koristi eliptičke krive.
+reviewed: false

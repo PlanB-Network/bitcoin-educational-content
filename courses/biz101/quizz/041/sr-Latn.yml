@@ -1,0 +1,9 @@
+question: Zašto se preporučuje imati CSV izvoz svih Bitcoin transakcija?
+answer: Pruža jasan, strukturiran zapis svake transakcije, olakšavajući računovođama integraciju ovih podataka u finansijske izveštaje i poreske prijave.
+wrong_answers:
+  - Jer su papirni računi jedini zakonski prihvatljivi računovodstveni dokumenti.
+  - Zato što izvoz podataka automatski popunjava vašu poresku prijavu bez pregleda.
+  - Zato što CSV datoteke eliminišu potrebu za praćenjem osnovice troškova.
+explanation: |
+  Imati digitalni zapis u zajedničkom formatu omogućava besprekornu integraciju u računovodstvene sisteme, pomaže u održavanju revizorskih tragova i podržava tačno izveštavanje o porezima i usklađenosti.
+reviewed: false

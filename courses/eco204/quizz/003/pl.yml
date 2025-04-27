@@ -1,0 +1,13 @@
+question: Jaką strategię zastosowały Stany Zjednoczone w latach 1933-1934 w celu dewaluacji dolara?
+answer: Rząd przejął złoto obywateli, a następnie zmienił zasady gry, przeszacowując wartość złota na korzyść skarbu państwa i na niekorzyść tych, którzy początkowo wymienili swoje złoto na banknoty.
+wrong_answers:
+  - Rząd zwiększył Supply złota, a następnie zmienił zasady gry, dewaluując wartość złota na korzyść skarbu państwa i na niekorzyść tych, którzy początkowo wymienili swoje złoto na banknoty.
+  - Rząd przejął złoto obywateli, a następnie zmienił zasady gry, dewaluując wartość złota na korzyść skarbu państwa i na niekorzyść tych, którzy początkowo wymienili swoje złoto na banknoty.
+  - Rząd zwiększył Supply złota, a następnie zmienił zasady gry, przeszacowując wartość złota na korzyść skarbu państwa i na niekorzyść tych, którzy początkowo wymienili swoje złoto na banknoty.
+explanation: |
+  W 1933 r. rząd USA przejął złoto obywateli. Następnie w 1934 r
+  przeszacował cenę złota do 35 USD za uncję, zamiast 20,67 USD. Zasadniczo rząd
+  rząd zdewaluował dolara, który był w posiadaniu obywateli. Kupując złoto od ludności
+  po cenie 20,67 USD za uncję w 1933 r., a następnie rewaluując cenę złota w 1934 r., rząd
+  osiągnął znaczny zysk, jednocześnie dewaluując oszczędności swoich obywateli"
+reviewed: false

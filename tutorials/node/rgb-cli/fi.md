@@ -309,4 +309,4 @@ Tiedät nyt, miten RGB-sopimus tehdään ja siirretään. Jos löysit tämän op
 
 Suosittelen myös tätä toista opetusohjelmaa, jossa selitän, miten RGB-yhteensopiva Lightning-solmu käynnistetään, jotta voit vaihtaa rahakkeita lähes välittömästi:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

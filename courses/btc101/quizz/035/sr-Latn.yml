@@ -1,0 +1,9 @@
+question: Šta znači fiat novac?
+answer: Fiat novac je valuta koja ima vrednost zato što je vlada održava i ljudi veruju u njenu vrednost, umesto da je podržana fizičkom robom poput zlata.
+wrong_answers:
+  - Fiat novać je valuta koja je podržana fizičkom robom, kao što je zlato ili srebro, što znači da je njena vrednost direktno vezana za vrednost te robe.
+  - Fiat novac je vrsta kriptovalute koja operiše na decentralizovanoj mreži, omogućavajući transakcije između korisnika bez potrebe za centralnim autoritetom.
+  - Fiat novac je valuta koja nema intrinzičnu vrednost i ne može se koristiti za transakcije, što je čini suštinski bezvrednom u ekonomiji.
+explanation: |
+  Fiat novać je uspostavljena kao zakonsko sredstvo plaćanja dekretom vlade, i njena vrednost ne potiče od bilo koje fizičke robe.
+reviewed: true

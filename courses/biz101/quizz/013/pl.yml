@@ -1,0 +1,9 @@
+question: Dlaczego według austriackiej ekonomii zyski są uważane za kluczowy wskaźnik kondycji firmy?
+answer: Ponieważ zyski pokazują, że firma zaspokaja potrzeby konsumentów w sposób wydajny i zrównoważony.
+wrong_answers:
+  - Ponieważ zyski zapewniają, że siła robocza firmy jest największa w branży.
+  - Ponieważ zyski są tylko znakiem, że firma otrzymała dotacje rządowe.
+  - Ponieważ zyski odzwierciedlają losowe wydarzenia rynkowe niezwiązane z wymaganiami konsumentów.
+explanation: |
+  W austriackiej ekonomii zyski sygnalizują, że firma produkuje towary lub usługi cenione przez konsumentów po cenie wyższej niż koszty produkcji. Taki wynik sugeruje efektywne wykorzystanie zasobów i dostosowanie do potrzeb rynku.
+reviewed: false

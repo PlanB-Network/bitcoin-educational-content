@@ -1,9 +1,9 @@
-question: Quel est un exemple notable d'une division majeure de Bitcoin ?
-answer: Bitcoin Cash (BCH)
+question: Quelle précaution adopter face aux arnaques aux dons et loteries frauduleuses ?
+answer: Ne jamais envoyer d'argent pour recevoir des bitcoins
 wrong_answers:
-  - Ethereum (ETH)
-  - Litecoin (LTC)
-  - Ripple (XRP)
+  - Toujours envoyer un petit montant pour tester l'offre
+  - Investir pour obtenir un gain rapide sans effort
+  - Partager ses informations personnelles pour sécuriser l'opération
 explanation: |
-  Bitcoin a subi plusieurs divisions majeures au fil du temps, donnant naissance à diverses versions alternatives de la monnaie originale. Des exemples notables de ces déviations incluent Bitcoin Cash (BCH) et Bitcoin Satoshi Vision (BSV).
+  La demande d'envoi d'argent préalable est un signe d'arnaque dans ce type de fraude.
 reviewed: false

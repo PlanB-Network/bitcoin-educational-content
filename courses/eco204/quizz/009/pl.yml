@@ -1,0 +1,12 @@
+question: Jaki jest związek między inflacją a deflacją w gospodarce?
+answer: Inflacja i deflacja są jak naczynia połączone w gospodarce. Wzrost produkcji może prowadzić do deflacji, ale jeśli jednocześnie zwiększy się ilość pieniądza Supply, efekt deflacyjny zostanie zniwelowany, powodując inflację.
+wrong_answers:
+  - Inflacja i deflacja są niezależne od siebie w gospodarce.
+  - Inflacja zawsze prowadzi do deflacji w gospodarce.
+  - Deflacja zawsze prowadzi do inflacji w gospodarce.
+explanation: |
+  Rozdział ten wyjaśnia, że inflacja i deflacja są jak naczynia połączone w gospodarce
+  naczynia połączone w gospodarce. Wzrost produkcji może prowadzić do deflacji, ale jeśli Supply pieniądza wzrośnie jednocześnie, efekt deflacyjny zostanie zniwelowany
+  pieniądza Supply, efekt deflacyjny zostaje zniwelowany,
+  skutkując inflacją.
+reviewed: false

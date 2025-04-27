@@ -1,0 +1,9 @@
+question: Šta je definicija slučajne promenljive u kontekstu kriptografije?
+answer: Varijabla koja može imati nekoliko mogućih vrednosti sa pozitivnom verovatnoćom
+wrong_answers:
+  - Promenljiva koja menja vrednost u svakom trenutku
+  - Promenljiva čije su vrednosti fiksne i unapred definisane
+  - Promenljiva uvek definisana u kontekstu specifičnog fizičkog eksperimenta
+explanation: |
+  Nasumična promenljiva može imati dve ili više vrednosti, svaka sa pozitivnom verovatnoćom, i često je apstraktno definisana u kontekstu kriptografije.
+reviewed: false

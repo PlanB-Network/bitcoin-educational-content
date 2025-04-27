@@ -1,0 +1,9 @@
+question: Šta su Bitcoin Faucet kreirani u junu 2010. od strane Gavina Andresena ponudili?
+answer: Bitcoini
+wrong_answers:
+  - Šoping vaučeri
+  - Popusti na naknade za Bitcoin Market
+  - Šanse za rudarenje bloka
+explanation: |
+  Ova usluga je u početku distribuirala 5 bitkoina po zahtevu, kako bi ljudima omogućila da isprobaju sistem. Ovaj iznos je vremenom smanjen, a Faucet je zatvoren 2012. godine.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Spośród tych 4 metod pozyskiwania bitcoinów, która z nich w najmniejszym stopniu naraża cię na ryzyko identyfikacji klucza?
+answer: Zakup w P2P za gotówkę
+wrong_answers:
+  - Kupowanie za pośrednictwem regulowanej platformy bez KYC
+  - Zakupy za pośrednictwem regulowanej platformy z KYC
+  - Zakupy przez PayPal za pośrednictwem platformy do dobierania graczy P2P
+explanation: |
+  Kupowanie bitcoinów peer-to-peer za gotówkę jest metodą, która w najmniejszym stopniu naraża użytkownika na ryzyko związane z kluczową identyfikacją, ponieważ nie wymaga przechodzenia przez regulowaną firmę i nie pozostawia śladu w systemie bankowym. Co więcej, metoda ta zasadniczo nie wymaga ujawniania danych osobowych.
+reviewed: false

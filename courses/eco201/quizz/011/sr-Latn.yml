@@ -1,0 +1,17 @@
+question: Koje su posledice politika nulte kamatne stope (ZIRP)?
+answer: ZIRP nagriza marže banaka, obeshrabruje kreditiranje preduzetnika i onih koji preuzimaju rizik, i podstiče vlade da se upuste u obimnu potrošnju, što dovodi do povećanja javnog duga.
+wrong_answers:
+  - ZIRP povećava profit banaka, podstiče kreditiranje preduzetnika i onih koji preuzimaju rizik, i obeshrabruje državnu potrošnju.
+  - ZIRP nema značajan uticaj na banke, prakse kreditiranja ili državnu potrošnju.
+  - ZIRP smanjuje javni dug, podstiče kreditiranje preduzetnika i onih koji preuzimaju rizik, i obeshrabruje državnu potrošnju.
+explanation: |
+  Politike nulte kamatne stope (ZIRP) mogu imati nekoliko
+  neželjenih posledica. Banke imaju ograničene mogućnosti
+  da obnove svoj kapital jer su im marže smanjene.
+  Takođe imaju malo podsticaja da pozajmljuju, posebno
+  preduzetnicima i drugim preuzimačima rizika. Umesto toga,
+  svoje resurse usmeravaju na sekuritizaciju postojećeg kapitala
+  ili davanje zajmova uz kolateral. Pored toga, ZIRP podstiče
+  vlade da se upuste u obimnu potrošnju, što dovodi do
+  značajnog povećanja nivoa javnog duga.
+reviewed: true

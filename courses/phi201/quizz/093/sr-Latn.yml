@@ -1,0 +1,9 @@
+question: Kakvo je Tocquevilleovo gledište na pravo na rad?
+answer: Tocqueville se protivi pravu na rad i plaši se da bi to moglo dovesti do etatizma i gubitka individualne slobode.
+wrong_answers:
+  - Tocqueville je za pravo na rad i veruje da država treba da garantuje svim građanima pristojan posao.
+  - Tocqueville misli da je pravo na rad plemenit princip, ali da ga je teško sprovesti efikasno i pravedno.
+  - Tocqueville ne iznosi jasno svoj stav o pravu na rad.
+explanation: |
+  Tocqueville se protivi pravu na rad, strahujući da bi ova odgovornost data Državi mogla dovesti do prekomernog intervencionizma i smanjenja individualnih sloboda, u korist centralizovane kontrole.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Zašto se ponovna upotreba Bitcoin Address ne preporučuje?
+answer: Omogućava praćenje transakcija od strane trećih lica
+wrong_answers:
+  - Otkiva privatni ključ zbog Nonce
+  - To čini transakcije skupljim.
+  - Ona poništava digitalne potpise
+explanation: |
+  Ponovno korišćenje Address omogućava posmatračima da lako povežu različite transakcije sa istim korisnikom, ugrožavajući njihovu privatnost.
+reviewed: false

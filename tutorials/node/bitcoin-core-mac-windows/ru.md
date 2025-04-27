@@ -1,5 +1,5 @@
 ---
-name: Установка Bitcoin Core (Mac и Windows)
+name: Bitcoin Core (macOS & Windows)
 description: Установка Bitcoin Core на Mac или Windows
 ---
 

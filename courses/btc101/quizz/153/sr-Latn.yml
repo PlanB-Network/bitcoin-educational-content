@@ -1,0 +1,8 @@
+question: Koja je svrha prilagođavanja težine u Bitcoin Mining?
+answer: Ona ponovo uspostavlja ravnotežu globalne igre Mining na osnovu broja učesnika.
+wrong_answers:
+  - Povećava nagradu za Mining.
+  - Smanjuje broj bitkoina u opticaju.
+  - Povećava sigurnost Bitcoin mreže.
+explanation: >-
+reviewed: true

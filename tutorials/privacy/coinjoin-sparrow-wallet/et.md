@@ -173,7 +173,7 @@ Sparrow kasutamise eeliseks on see, et alustamine on üsna lihtne, seadistamine 
 ### Sparrow Wallet'i paigaldamine
 Alustuseks vajate ilmselgelt Sparrow Wallet tarkvara. Saate selle otse alla laadida [ametlikult veebilehelt](https://sparrowwallet.com/download/) või [nende GitHubist](https://github.com/sparrowwallet/sparrow/releases).
 
-Enne tarkvara paigaldamist on oluline kontrollida allalaaditud täitmisfaili allkirja ja terviklikkust. Kui soovite Sparrow tarkvara paigaldusprotsessi ja kontrollimise kohta rohkem üksikasju, soovitan teil lugeda seda teist õpetust: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*.
+Enne tarkvara paigaldamist on oluline kontrollida allalaaditud täitmisfaili allkirja ja terviklikkust. Kui soovite Sparrow tarkvara paigaldusprotsessi ja kontrollimise kohta rohkem üksikasju, soovitan teil lugeda seda teist õpetust: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*.
 
 ### Tarkvararahakoti loomine
 Pärast tarkvara paigaldamist peate jätkama Bitcoin'i rahakoti loomisega. On oluline märkida, et coinjoinide kasutamiseks on hädavajalik kasutada tarkvararahakotti (nn "kuum rahakott"). Seega **ei ole võimalik teostada coinjoine rahakotiga, mis on turvatud riistvaralise rahakotiga**.
@@ -340,7 +340,7 @@ Järgmisena peate olema ettevaatlik doxxic muutuse haldamisel, muutusega, mis ei
 Nende erinevate tehnikate rakendamise kohta pakutakse varsti üksikasjalikke õpetusi PlanB Networkis.
 
 **Lisaresursid:**
-- [Sparrow Wallet Videoõpetus](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607);
+- [Sparrow Wallet Videoõpetus](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d);
 - [Samourai Wallet Videoõpetus](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956);
 - [Samourai Wallet Dokumentatsioon - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitteri lõim CoinJoinsi kohta](https://twitter.com/SamouraiWallet/status/1489220847336308739);

@@ -1,9 +1,9 @@
-question: ¿Cuál es la principal diferencia entre Bitcoin y las altcoins en términos de descentralización?
-answer: Bitcoin es descentralizado mientras que la mayoría de las altcoins no lo son.
+question: ¿Qué cualidad psicológica es esencial para un cochero?
+answer: Resiliencia emocional
 wrong_answers:
-  - Tanto Bitcoin como las altcoins son descentralizadas.
-  - Tanto Bitcoin como las altcoins no son descentralizadas.
-  - Las altcoins son descentralizadas mientras que Bitcoin no lo es.
+  - Impulsividad emocional
+  - Agresividad emocional
+  - Especulación emocional
 explanation: |
-  El contenido del capítulo afirma claramente que Bitcoin es descentralizado mientras que la mayoría de las altcoins no lo son. Esta es una característica clave que distingue a Bitcoin de otras criptomonedas.
+  La resistencia emocional permite soportar las fluctuaciones del mercado sin dejarse llevar por el pánico.
 reviewed: false

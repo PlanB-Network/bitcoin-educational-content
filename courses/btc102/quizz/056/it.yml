@@ -1,9 +1,9 @@
-question: Qual è la visione ultima per Bitcoin secondo la metafora della Bitcoin highway?
-answer: Diventerà un'autostrada per il traffico internet e per il 90% della popolazione mondiale.
+question: Quale metodo viene utilizzato per proteggere la tracciabilità On-Chain delle transazioni?
+answer: Utilizzo delle tecniche CoinJoin e PayJoin
 wrong_answers:
-  - Diventerà un bene di lusso accessibile solo ai ricchi.
-  - Diventerà uno strumento per attività illegali.
-  - Diventerà obsoleto e sostituito da altre criptovalute.
+  - Riutilizzo dello stesso Address ricevente
+  - Frequente consolidamento di UTXO
+  - Deposito in un deposito Wallet
 explanation: |
-  La metafora della Bitcoin highway immagina Bitcoin come un'autostrada per il traffico internet e per il 90% della popolazione mondiale, con beni e servizi direttamente accessibili su questa autostrada.
+  I Coinjoin e i Payjoin contribuiscono a migliorare la privacy dell'attività On-Chain.
 reviewed: false

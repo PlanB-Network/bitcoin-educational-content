@@ -1,0 +1,9 @@
+question: Šta treba da uradite kada su reči vaše Mnemonic fraze napisane?
+answer: Napravite drugu kopiju i sačuvajte je na posebnoj lokaciji.
+wrong_answers:
+  - Podeli to sa pouzdanim prijateljem.
+  - Pošalji sebi email.
+  - Sačuvaj to u svom telefonu.
+explanation: |
+  Kada su reči vaše Mnemonic fraze napisane, preporučuje se da napravite drugu kopiju i čuvate je na odvojenom mestu od prve. Ovo obezbeđuje rezervnu kopiju u slučaju gubitka ili nesreće sa prvom kopijom.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Šta je Cold Wallet?
+answer: Wallet u fizičkom uređaju koji čuva vaše ključeve i nije povezan na internet.
+wrong_answers:
+  - Wallet koji je fizički Cold na dodir.
+  - Wallet koji nije popularan među korisnicima Bitcoin.
+  - Wallet koji se preporučuje za čuvanje malih količina bitkoina.
+explanation: |
+  A Cold Wallet je termin koji se koristi za opisivanje Bitcoin Wallet
+  koji je uskladišten na uređaju koji nije povezan na
+  internet. To ga čini manje podložnim online pretnjama,
+  ali takođe znači da je Wallet manje dostupan za
+  dnevne transakcije.
+reviewed: true

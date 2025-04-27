@@ -1,0 +1,9 @@
+question: Jaki termin odnosi się do zaprogramowanego podziału dotacji Mining?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Podział
+  - Coinbase
+explanation: |
+  Halving odnosi się do Halving dotacji Mining co 210 000 bloków.
+reviewed: false

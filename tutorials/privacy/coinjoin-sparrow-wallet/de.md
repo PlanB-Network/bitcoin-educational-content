@@ -171,7 +171,7 @@ Die Nutzung von Sparrow hat den Vorteil, dass sie recht einfach zu beginnen ist,
 
 ### Sparrow Wallet installieren
 Um zu beginnen, benötigen Sie offensichtlich die Sparrow Wallet Software. Sie können diese direkt von [der offiziellen Webseite](https://sparrowwallet.com/download/) oder auf [ihrem GitHub](https://github.com/sparrowwallet/sparrow/releases) herunterladen.
-Bevor Sie die Software installieren, ist es wichtig, die Signatur und Integrität der gerade heruntergeladenen ausführbaren Datei zu überprüfen. Wenn Sie mehr Details zum Installationsprozess und zur Überprüfung der Sparrow-Software wünschen, rate ich Ihnen, dieses andere Tutorial zu lesen: *[Die Sparrow Wallet Anleitungen](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
+Bevor Sie die Software installieren, ist es wichtig, die Signatur und Integrität der gerade heruntergeladenen ausführbaren Datei zu überprüfen. Wenn Sie mehr Details zum Installationsprozess und zur Überprüfung der Sparrow-Software wünschen, rate ich Ihnen, dieses andere Tutorial zu lesen: *[Die Sparrow Wallet Anleitungen](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 ### Erstellen eines Software-Wallets
 Nach der Installation der Software müssen Sie mit der Erstellung eines Bitcoin-Wallets fortfahren. Es ist wichtig zu beachten, dass für die Teilnahme an Coinjoins die Verwendung eines Software-Wallets (auch "Hot Wallet" genannt) unerlässlich ist. Daher **wird es nicht möglich sein, Coinjoins mit einem durch ein Hardware-Wallet gesicherten Wallet durchzuführen**.
@@ -341,7 +341,7 @@ Als Nächstes müssen Sie vorsichtig sein, wenn Sie toxisches Wechselgeld verwal
 Detaillierte Tutorials zur Implementierung dieser verschiedenen Techniken werden bald im PlanB Network angeboten.
 
 **Zusätzliche Ressourcen:**
-[Sparrow Wallet Video-Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Sparrow Wallet Video-Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 [Samourai Wallet Video-Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Wallet Dokumentation - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter-Thread über CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);

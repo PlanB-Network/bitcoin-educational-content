@@ -1,9 +1,9 @@
-question: 比特币投资的黄金法则是什么？
-answer: 不掌握你的密钥，就不拥有你的比特币。
+question: 什么术语指 Mining 补贴的计划划分？
+answer: Halving
 wrong_answers:
-  - 永远不要投资超过你能承受的损失。
-  - 避免追逐时尚。
-  - 在金融成功中，规划和拥有长远视野是必不可少的。
+  - Fork
+  - 分割
+  - Coinbase
 explanation: |
-  比特币投资的黄金法则是“不掌握你的密钥，就不拥有你的比特币。”
-  这意味着如果你无法控制你的私钥，你就真正拥有不了你的比特币。
+  Halving 是指每 21 万块 Mining 补贴中的 Halving。
+reviewed: false

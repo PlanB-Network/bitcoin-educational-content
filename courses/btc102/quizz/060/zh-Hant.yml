@@ -1,0 +1,9 @@
+question: Bitcoin 繼承書在遺產計畫中扮演什麼角色？
+answer: 指導繼承人使用資金
+wrong_answers:
+  - 作為轉移比特幣給繼承人的 Contract
+  - 確定資產的稅務分配
+  - 優化錢包間的轉帳費用
+explanation: |
+  繼承書提供了清楚明確的指示，讓親人可以取回比特幣。
+reviewed: false

@@ -1,9 +1,9 @@
-question: Quel est le rôle principal des développeurs de Bitcoin Core ?
-answer: Ils sont responsables du développement principal du protocole Bitcoin et de ses fonctionnalités principales.
+question: Pourquoi est-il recommandé de transférer régulièrement les fonds d'un hot wallet vers un hardware wallet ?
+answer: Pour réduire le risque de piratage
 wrong_answers:
-  - Ils contrôlent le réseau Bitcoin
-  - Ils créent de nouveaux bitcoins
-  - Ils régulent le prix du Bitcoin
+  - Pour augmenter la liquidité du portefeuille
+  - Pour réduire les frais de transaction
+  - Pour optimiser la confidentialité des UTXOs
 explanation: |
-  Le contenu du chapitre explique que les développeurs de Bitcoin Core sont responsables du développement principal du protocole Bitcoin et de ses fonctionnalités principales. Ils ne contrôlent pas le réseau Bitcoin, ne créent pas de nouveaux bitcoins et ne régulent pas le prix du Bitcoin.
+  Le transfert vers un hardware wallet sécurise les fonds en stockant les clés privées hors ligne.
 reviewed: false

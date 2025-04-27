@@ -1,0 +1,10 @@
+question: 換幣的主要目的是什麼？
+answer: 要秘密轉移比特幣的 Ownership
+wrong_answers:
+  - 提高交易速度
+  - 混合比特幣
+  - 秘密地將 Exchange 和 Altcoin 換成 Bitcoin
+explanation: |
+  Coinswap 使用智慧契約來實現兩個使用者之間的 Bitcoin Ownership 轉移，不需要信任，也不需要在 Blockchain 上明確顯示此轉移。
+  
+reviewed: false

@@ -1,15 +1,15 @@
 ---
 name: Tab Conf 2023
 description: At TABConf, we bring together the best and brightest minds in the bitcoin world to share their insights, knowledge, and experience about the latest developments. From seasoned core devs to up-and-coming plebs. Don’t miss out on your chance to be a part of TABConf 2023. Join us in Atlanta, and we will make some magic happen! 🤘 Read about our history at TABCon
---- 
+---
 
-#  Main Stage
+# Main Stage
 
-## Improving Lightning Mobile Wallets with Rapid Gossip Sync 
+## Improving Lightning Mobile Wallets with Rapid Gossip Sync
 
 ![video](https://youtu.be/093HUi34E_0?si=7ayXIxxYUEv5J_Es)
 
-Speaker: Arik 
+Speaker: Arik
 
 ## How to Manage an effective Lightning Node
 
@@ -25,7 +25,7 @@ Speaker: Nate
 
 ![video](https://youtu.be/uI15RKnyX_E?si=wGn1ML7fobYsozfl)
 
-Speaker: Tadge Dryja 
+Speaker: Tadge Dryja
 
 ## Formula 21: Drivechain to Survive
 
@@ -39,7 +39,7 @@ Speaker: Paul Sztorc and Peter Todd
 
 Speaker: Clara Shikhelman
 
-## A 2024 Playbook For Building A Self-Custody Lightning Wallet 
+## A 2024 Playbook For Building A Self-Custody Lightning Wallet
 
 ![video](https://youtu.be/9F5WAJ6F7Zk?si=BXcEyBm9pzzU8h_5)
 
@@ -55,7 +55,7 @@ Speaker: Robin Linus
 
 ![video](https://youtu.be/lRia7WqbSFw?si=2SqgORWZIC8WZ6N6)
 
-## Utreexo - Prune my coins from your node (audio only) 
+## Utreexo - Prune my coins from your node (audio only)
 
 ![video](https://youtu.be/aR4uoLRFu2g?si=PDjjcaEOQEcms9Sl)
 
@@ -63,7 +63,7 @@ Speaker: Robin Linus
 
 ![video](https://youtu.be/jF8GTjEc6Oo?si=vfDTdGVGrOHZQZ7d)
 
-## Are Ordinals legit? (Audio Only) 
+## Are Ordinals legit? (Audio Only)
 
 ![video](https://youtu.be/4xgDair6YkY?si=KIDB4byfWdbzeQ82)
 
@@ -83,7 +83,7 @@ Speaker: Robin Linus
 
 ![video](https://youtu.be/njKgTupk_po?si=-K4v2ZnGR16iULkT)
 
-## Unleashing Bitcoin's Potential: A New Approach to Lightning Network Liquidity (Audio Only) 
+## Unleashing Bitcoin's Potential: A New Approach to Lightning Network Liquidity (Audio Only)
 
 ![video](https://youtu.be/pvzrccAIik0?si=5ygdyeooANEh6beZ)
 
@@ -97,11 +97,11 @@ Speaker: Robin Linus
 
 ![video](https://youtu.be/zDyFilxR3LE?si=L48KY6YbtnSkqkEQ)
 
-## Multiparticipant (N=2) Offchain Mechanisms 
+## Multiparticipant (N=2) Offchain Mechanisms
 
 ![video](https://youtu.be/Zf6Oon8kLXc?si=0rKHcCtl1tnKAMjJ)
 
-## OpenSats: Supporting the Open Source infra of tomorrow  
+## OpenSats: Supporting the Open Source infra of tomorrow
 
 ![video](https://youtu.be/lkSV5bwgfco?si=dHUU7RUPqKjHv2Za)
 
@@ -125,9 +125,9 @@ Join @ddustin (@OpenSats Grantee), @t-bast of @ACINQ and Justin Litchfield from 
 
 ![video](https://youtu.be/Du9YElJJ-FA?si=6byhbUIcd9rUe9uH)
 
-Speaker: Nadav Kohen 
+Speaker: Nadav Kohen
 
-## Dual funding, liquidity ads and splicing: a game changer for lightning node operators 
+## Dual funding, liquidity ads and splicing: a game changer for lightning node operators
 
 ![video](https://youtu.be/QDRaNRV8464?si=GvgJ9SNMMZb8CLFt)
 
@@ -155,26 +155,25 @@ Silas Pembroke
 
 ![video](https://youtu.be/GnEbiBjtFjU?si=GrwkbQby-F4kIbgr)
 
-## Homeschooling bitcoiners 
+## Homeschooling bitcoiners
 
 ![video](https://youtu.be/VMnTWY_CU7E?si=PKxEeoUGjGea6lKa)
 
-## 
 # Workshop
 
 ## Lunch and Learn: bitcoin-cli beginners workshop
 
 ![video](https://youtu.be/UPw_6zii73M?si=vpxIlg-XA1Fju3Zd)
 
-##  Miniscript Discussion 
+##  Miniscript Discussion
 
 ![video](https://youtu.be/0-_UD_pFBvk?si=_5NrnCjg0n_yPyDt)
 
-##  An Interactive Introduction to Zero Knowledge Proofs 
+##  An Interactive Introduction to Zero Knowledge Proofs
 
 ![video](https://youtu.be/7jAGbJ2lHkA?si=Em9yhC0ckS00OkEq)
 
-##  Building Lightning Simulations With Doppler 
+##  Building Lightning Simulations With Doppler
 
 ![video](https://youtu.be/uupFPgsOz0c?si=sLndl0ScGrx_CMxk)
 

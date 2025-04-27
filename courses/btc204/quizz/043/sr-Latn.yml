@@ -1,0 +1,9 @@
+question: Koja je glavna prednost online P2P razmena u poređenju sa fizičkim transakcijama gotovinom?
+answer: Manji rizik po ličnu bezbednost.
+wrong_answers:
+  - Manji rizik od krađe.
+  - Više privatnosti za kupca.
+  - Niže naknade za transakcije.
+explanation: |
+  Online P2P razmene ostavljaju više tragova i izloženije su rizicima od krađe nego gotovinske P2P razmene. Što se tiče naknada za transakcije, one su generalno jednake ili čak više, posebno ako proces zahteva više koraka. Međutim, glavna prednost online P2P razmena leži u smanjenju rizika po ličnu bezbednost korisnika u poređenju sa gotovinskim transakcijama.
+reviewed: false

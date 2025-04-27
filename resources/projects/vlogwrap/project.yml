@@ -10,9 +10,11 @@ proofreading:
   - language: en
     last_contribution_date: 2025-01-17
     urgency: 1
-    contributors_id:
+    contributor_names:
       - hunt-wood
     reward: 0.05
 tags:
   - high-level
   - easy-explain
+contributor_names:
+  - PaoloFoti

@@ -1,11 +1,9 @@
-question: Mis on Lightning Network'i funktsioon Bitcoin'i ökosüsteemis?
-answer: See võimaldab Bitcoin'il laieneda ja saada juurde uusi funktsioone, toimides teise kihina.
+question: Milline meetod võimaldab teil tasaarvestada kulutatud bitcoinid, säilitades samal ajal oma säästud?
+answer: Kulutada ja asendada
 wrong_answers:
-  - See on eraldi krüptoraha, mis konkureerib Bitcoin'iga.
-  - See on tööriist Bitcoin'i kaevandamiseks.
-  - See on platvorm Bitcoin'iga kauplemiseks.
+  - HODLing ja asendamine
+  - Kulutused ja HODLing
+  - Kauplemine ja kulutused
 explanation: |
-  Lightning Network on teise kihi tehnoloogia, mida rakendatakse bitcoin'ile,
-  kasutades mikromaksete kanaleid, et skaleerida selle plokiahela võimet
-  tehinguid tõhusamalt läbi viia.
+  Kuluta ja asenda meetod hõlmab bitcoinide kulutamist ja seejärel sama summa tagasiostmist, et säilitada oma varusid.
 reviewed: false

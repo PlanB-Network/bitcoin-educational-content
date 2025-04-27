@@ -81,7 +81,7 @@ Wenn Sie Ihre COLDCARD mit Strom versorgen möchten, ohne sie an einen Computer 
 
 Für dieses Tutorial benötigen Sie außerdem Sparrow Wallet, um Ihre Bitcoin-Brieftasche auf Ihrem Computer zu verwalten. Laden Sie [Sparrow Wallet] (https://sparrowwallet.com/download/) von der offiziellen Website herunter. Ich empfehle Ihnen dringend, sowohl die Authentizität (mit GnuPG) als auch die Integrität (per Hash) zu überprüfen, bevor Sie mit der Installation fortfahren. Wenn Sie nicht wissen, wie man das macht, folgen Sie dieser Anleitung:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Auswahl des PIN-Codes
 
@@ -161,7 +161,7 @@ An dieser Stelle empfehlen wir dringend, die Integrität und Authentizität der 
 
 Wenn Sie mit diesem Überprüfungsprozess nicht vertraut sind, empfehle ich Ihnen, diese Anleitung zu lesen:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Nehmen Sie eine microSD-Karte und übertragen Sie die Firmware-Datei (Dokument in `.dfu`) auf diese Karte. Stecken Sie die microSD-Karte in einen der Anschlüsse Ihrer COLDCARD.
 

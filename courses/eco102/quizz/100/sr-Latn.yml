@@ -1,0 +1,9 @@
+question: Prema Bastijatu, ko održava državni život?
+answer: Građani su ti koji održavaju državu
+wrong_answers:
+  - To su građani koji žive od države
+  - To je država koja održava naciju
+  - To su interesne grupe koje održavaju državu
+explanation: |
+  Bastiat tvrdi da su građani ti koji podržavaju državu kroz stvaranje bogatstva, a ne obrnuto.
+reviewed: false

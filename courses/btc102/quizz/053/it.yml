@@ -1,11 +1,9 @@
-question: Cosa significa dire che Bitcoin è simile a un buco nero?
-answer: Non scomparirà e assorbirà tutto ciò che si trova nel suo percorso nel tempo.
+question: Quale servizio elenca i commercianti che accettano Bitcoin in tutto il mondo?
+answer: Mappa BTC
 wrong_answers:
-  - Alla fine collasserà sotto il proprio peso.
-  - È una minaccia per il sistema finanziario globale.
-  - È un mistero che gli scienziati stanno ancora cercando di capire.
+  - CoinMarketCap
+  - Discorso Bitcoin
+  - Paga svizzera Bitcoin
 explanation: |
-  L'affermazione che Bitcoin è simile a un buco nero si riferisce alla sua resilienza
-  e al suo potenziale per diventare il sistema finanziario dominante, assorbendo tutti gli altri sistemi
-  nel suo percorso.
+  BTC Map è una piattaforma dedicata che individua i commercianti che accettano Bitcoin in tutto il mondo.
 reviewed: false

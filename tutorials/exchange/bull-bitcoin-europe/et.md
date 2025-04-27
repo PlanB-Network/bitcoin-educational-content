@@ -48,7 +48,7 @@ Skaneerige QR-kood oma autentimisrakendusega, sisestage 6-kohaline kood ja klõp
 
 Kui te ei ole 2FA autentimisrakenduste kasutamisega tuttav, siis soovitan vaadata seda Authy rakenduse õpetust:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Kinnitamiseks sisestage oma parool.
 

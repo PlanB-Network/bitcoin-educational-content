@@ -1,0 +1,9 @@
+question: Kuna uhusiano gani kati ya uhuru na wajibu?
+answer: Wajibu hutokana na uhuru wa uchaguzi wa mtu binafsi
+wrong_answers:
+  - Uhuru umewekewa mipaka na wajibu wa wengine
+  - Uhuru na wajibu ni dhana mbili zinazojitegemea
+  - Wajibu ni kikwazo kwa uhuru
+explanation: |
+  Uhusiano kati ya uhuru na wajibu ni wa ndani, kwani uhuru wa kufanya uchaguzi pia unamaanisha wajibu wa matokeo ya uchaguzi huo, na hivyo kuonyesha kwamba kila tendo la uhuru linaambatana na wajibu wa maadili.
+reviewed: false

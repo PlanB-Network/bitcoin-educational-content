@@ -81,7 +81,7 @@ Jika Anda lebih suka memberi daya pada COLDCARD tanpa menghubungkannya ke komput
 
 Untuk tutorial ini, Anda juga membutuhkan Sparrow Wallet untuk mengelola dompet Bitcoin di komputer Anda. Unduh [Sparrow Wallet] (https://sparrowwallet.com/download/) dari situs web resminya. Saya sangat menyarankan Anda untuk memeriksa keasliannya (dengan GnuPG) dan integritasnya (melalui hash) sebelum melanjutkan instalasi. Jika Anda tidak tahu bagaimana cara melakukannya, ikuti tutorial ini:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Pemilihan kode PIN
 
@@ -161,7 +161,7 @@ Pada titik ini, kami sangat menyarankan untuk memeriksa integritas dan keaslian 
 
 Jika Anda tidak terbiasa dengan proses verifikasi ini, saya sarankan Anda mengikuti tutorial ini:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Ambil kartu microSD dan transfer file firmware (dokumen dalam format `.dfu`) ke kartu tersebut. Masukkan kartu microSD ke salah satu port COLDCARD Anda.
 

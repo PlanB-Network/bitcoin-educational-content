@@ -1,0 +1,11 @@
+question: Je, ni moja ya hatari gani zinazohusiana na kununua Bitcoin?
+answer: Bei yake inaweza kushuka hadi 0.
+wrong_answers:
+  - Inaweza kuibiwa kwa urahisi.
+  - Inaweza kurudiwa.
+  - Inaweza kupotea kimwili.
+explanation: |
+  Maandishi ya kozi yanataja kuwa Bitcoin ni tete sana
+  mali ya kifedha, na bei yake inaweza kushuka hadi 0, ambayo ni moja
+  ya hatari zinazohusiana na kununua Bitcoin.
+reviewed: true

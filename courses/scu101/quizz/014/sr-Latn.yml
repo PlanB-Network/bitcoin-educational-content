@@ -1,0 +1,11 @@
+question: Koji je jedan način da se izbegnu online prevare?
+answer: Proverite identitet sajta koji pregledate, posebno proveravajući ekstenziju i ime domena.
+wrong_answers:
+  - Koristite javne Wi-Fi mreže.
+  - Koristite sajtove koji ne koriste HTTPS protokol.
+  - Koristite sajtove koji nemaju prikazan katanc.
+explanation: |
+  Da biste izbegli online prevare, ključno je proveriti identitet
+  sajta koji pregledate. Ovo se može uraditi proverom
+  ekstenzije i domena sajta.
+reviewed: true

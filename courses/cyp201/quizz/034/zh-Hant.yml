@@ -1,0 +1,9 @@
+question: Bitcoin 交易中最常使用哪個 sighash 標誌？
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - 嘆息_任何人都可以付費
+explanation: |
+  SIGHASH_ALL 是預設的 sighash 標誌，涵蓋了一個事務的所有輸入和輸出，防止任何修改。
+reviewed: false

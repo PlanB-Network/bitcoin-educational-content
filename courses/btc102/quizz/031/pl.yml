@@ -1,0 +1,9 @@
+question: Które z nich to łańcuchy boczne Bitcoin?
+answer: Liquid i podkładka
+wrong_answers:
+  - Polygon i Arbitrum
+  - Jupiter i Fantom
+  - Bitcoin Gotówka i Bitcoin Satoshi Wizja
+explanation: |
+  Liquid i RSK to łańcuchy boczne, które mają 2-kierunkowy kołek z Bitcoin. Pozostałe opcje nie są sidechainami lub nie mają 2WP z Bitcoin Blockchain.
+reviewed: false

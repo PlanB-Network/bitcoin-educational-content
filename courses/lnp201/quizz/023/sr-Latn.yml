@@ -1,0 +1,9 @@
+question: Zašto Alice i Bob Exchange svoje tajne za prethodne Commitment transakcije?
+answer: Da bi se omogućilo svakome da se zaštiti ako drugi objavi staru transakciju
+wrong_answers:
+  - Da se poveća kapacitet kanala
+  - Da blokiraju međusobni pristup sredstvima
+  - Da se sredstva podele jednako
+explanation: |
+  Razmena tajni za prethodne transakcije omogućava svakom učesniku da kazni drugog u slučaju pokušaja varanja objavljivanjem stare transakcije.
+reviewed: false

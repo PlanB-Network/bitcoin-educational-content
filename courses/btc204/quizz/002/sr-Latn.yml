@@ -1,0 +1,9 @@
+question: Kakva je akcija Bitcoin transakcije na ulazne UTXO-e?
+answer: Troši ih da zadovolji izlaze.
+wrong_answers:
+  - Arhivira ih u Blockchain za buduću referencu.
+  - Šifruje ih kako bi osigurao transakciju.
+  - Duplira ih kako bi kreirao nove UTXO-e.
+explanation: |
+  Ulazni UTXO-i u transakciji se koriste kako bi se finansirali izlazi. Na neki način, to je izvor novca.
+reviewed: false

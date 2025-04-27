@@ -1,0 +1,9 @@
+question: Kako je Sejev zakon artikulisan prema Žan-Batistu Seju i Bastijatu?
+answer: Roba i usluge se razmenjuju za robu i usluge
+wrong_answers:
+  - Supply stvara sopstvenu potražnju
+  - Što se više robe proizvodi, to se više troši.
+  - Potražnja određuje Supply
+explanation: |
+  Sejeva zakon kaže da proizvodnja dobara omogućava međusobne razmene, čime se vrednuje tržišna ekonomija.
+reviewed: false

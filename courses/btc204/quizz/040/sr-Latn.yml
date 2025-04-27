@@ -1,0 +1,9 @@
+question: Zašto su bitkoini kupljeni putem P2P berzi često skuplji od onih kupljenih na regulisanim platformama?
+answer: Dodatni rizici, transakcione naknade i premija za privatnost.
+wrong_answers:
+  - Nestabilnost tržišta, rizici dvostrukog trošenja i pravna usklađenost.
+  - Naknade za registraciju, ograničene opcije i duže vreme validacije.
+  - Naknade za registraciju, strogi propisi i niska sigurnost.
+explanation: |
+  Bitcoini prodati na P2P platformama su generalno skuplji od onih sa regulisanih platformi. Ova marža je posledica nekoliko faktora: prodavac preuzima veće rizike, takođe mora pokriti dodatne troškove, a Exchange nudi kupcu viši nivo privatnosti.
+reviewed: false

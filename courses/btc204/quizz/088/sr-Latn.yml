@@ -1,0 +1,9 @@
+question: Koju strategiju koristi Wabisabi za povećanje anonseta učesnika?
+answer: Sa nekoliko veoma velikih transakcija.
+wrong_answers:
+  - Sa mnogo veoma malih transakcija.
+  - Sa jednom malom transakcijom.
+  - Bez transakcija.
+explanation: |
+  Da bi se povećala anonimnost učesnika, Wabisabi koristi veoma velike CoinJoin transakcije koje grupišu desetine učesnika.
+reviewed: false

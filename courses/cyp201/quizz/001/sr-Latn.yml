@@ -1,0 +1,9 @@
+question: Koja osobina osigurava da je računski nemoguće povratiti ulaz Hash?
+answer: Otpornost preimagea
+wrong_answers:
+  - Otpornost na koliziju
+  - Efekat lavine
+  - Otpornost na drugu predočivu sliku
+explanation: |
+  Otpornost preimage osigurava da je praktično nemoguće pronaći originalnu poruku iz njenog Hash.
+reviewed: false

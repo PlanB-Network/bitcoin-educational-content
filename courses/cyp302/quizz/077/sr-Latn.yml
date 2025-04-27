@@ -1,0 +1,9 @@
+question: Koja je uloga Kerckhoffovog principa u kriptografiji?
+answer: Da bi se osiguralo da bezbednost zavisi od tajnog ključa, a ne od tajnosti šeme
+wrong_answers:
+  - Da bi se osiguralo da bezbednost zavisi od tajnosti šeme, a ne od tajnog ključa
+  - Da zahteva veoma dugačak ključ za šifrovanje
+  - Da se garantuje da svaka poruka ima jedinstveni ključ
+explanation: |
+  Prema Kerckhoffovom principu, sigurnost kriptografskog sistema treba da se oslanja isključivo na tajni ključ, a ne na tajnost samog algoritma.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 龐氏騙局的主要機制是什麼？
+answer: 早期投資者的資金來自新投資者的資金
+wrong_answers:
+  - 回報來自市場上真實的產品
+  - 投資人從公司獲得股利
+  - 利潤由 Blockchain 上的智慧型契約產生
+explanation: |
+  在龐氏騙局中，沒有真正的產品被創造出來，支付完全依賴於新參與者的到來。
+reviewed: false

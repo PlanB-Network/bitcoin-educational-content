@@ -1,0 +1,9 @@
+question: Kako funkcioniše Mining pool i zašto je neophodan?
+answer: Mining pool je grupa rudara koji kombinuju svoje računske resurse kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer izolovana mala Mining mašina konkuriše industrijskim gigantima, smanjujući svoje šanse za uspeh na zanemarljiv nivo. Udruživanjem, rudari mogu kombinovati svoju računarsku snagu, češće pronalaziti blokove i zatim proporcionalno raspodeliti nagrade prema doprinosu svakog Miner u bazenu.
+wrong_answers:
+  - Mining pool je grupa rudara koji dele istu Mining mašinu kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer jedna Mining mašina može da iskopa samo ograničenu količinu Bitcoin.
+  - Mining pool je grupa rudara koji dele isti Mining softver kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer različiti Mining softveri imaju različite efikasnosti.
+  - Mining pool je grupa rudara koji dele istu Mining lokaciju kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer lokacija Mining operacije može uticati na efikasnost Mining.
+explanation: |
+  Poglavlje objašnjava da je Mining pool grupa rudara koji kombinuju svoje računarske resurse kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer izolovana mala Mining mašina konkuriše industrijskim gigantima, smanjujući svoje šanse za uspeh na zanemarljiv nivo.
+reviewed: true

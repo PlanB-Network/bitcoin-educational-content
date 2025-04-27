@@ -1,0 +1,9 @@
+question: Koja je primarna funkcija tradicionalnih platnih sistema?
+answer: Da omogući transfer sredstava između dve strane
+wrong_answers:
+  - Da se stvori jedinstvena globalna valuta regulisana od strane centralne vlasti
+  - Da se olakša međunarodna trgovina
+  - Da se ograniče transferi sredstava isključivo na lične razmene gotovine
+explanation: |
+  Tradicionalni platni sistemi pružaju mehanizme i infrastrukturu za prenos sredstava između platioca i primaoca, kako na lokalnom, tako i na međunarodnom nivou.
+reviewed: false

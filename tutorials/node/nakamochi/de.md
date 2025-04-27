@@ -30,19 +30,19 @@ Die Nakamochi Node wird über eine mobile Node Management App verwaltet, [BitBan
 3. Nakamochi mit einem Mobile Gerät verbinden, dazu einfach den QR Code in der Node Management App (Zeus or BitBanana) scannen.
 4. Für mehr Sicherheit kann ein Bildschirm Pin eingerichtet werden.
 
-![image](assets/de/01.webp)
+![image](assets/en/01.webp)
 _Gerät einstecken und Seed Phrase notieren_
 
-![image](assets/de/02.webp)
+![image](assets/en/02.webp)
 _Warten, bis die Blockchain aufgeholt hat_
 
-![image](assets/de/03.webp)
+![image](assets/en/03.webp)
 _Neue Lightning Wallet aufsetzen_
 
-![image](assets/de/04.webp)
+![image](assets/en/04.webp)
 _QR Code mit Node Management App scannen_
 
-![image](asset/de/05.webp)
+![image](assets/en/05.webp)
 _Für mehr Sicherheit Bildschirm Pin einrichten_
 
 **Hinweis:** _Warten, bis die Nakamochi-Node die Blockchain synchronisiert hat. Dieser Prozess kann je nach Internetverbindung ein wenig Zeit in Anspruch nehmen._
@@ -74,7 +74,7 @@ Sobald dein Nakamochi eingerichtet und mit einer Node-Management-App verbunden i
 4. Einen Betrag eingeben (mit einem Peer frei wählbar, oder den Minimalbetrag für eine öffentliche Node eingeben).
 5. Auf **“Open Channel”** drücken.
 
-![image](asset/de/06.webp)
+![image](assets/en/06.webp)
 _ZEUS Screenshot_
 
 Mehr Informationen: [Channels | Zeus Documentation](https://docs.zeusln.app/)
@@ -87,7 +87,7 @@ Mehr Informationen: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 4. Pubkey scannen oder einfügen.
 5. Einen Betrag eingeben (mit einem Peer frei wählbar, oder den Minimalbetrag für eine öffentliche Node eingeben).
 
-![image](asset/de/07.webp)
+![image](assets/en/07.webp)
 _BitBanana Screenshot_
 
 Mehr Informationen: [BitBanana](https://bitbanana.com)

@@ -1,0 +1,10 @@
+question: Koji zlonamerni sadržaj mogu da sadrže prilozi i slike u e-pošti?
+answer: Malver
+wrong_answers:
+  - Spam
+  - Reklame
+  - Promotivni sadržaj
+explanation: |
+  Prilozi e-pošte i slike mogu sadržati zlonamerni softver.  
+  Zbog toga ne bi trebalo da preuzimate ili otvarate priloge od nepoznatih ili sumnjivih pošiljalaca.
+reviewed: true

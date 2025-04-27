@@ -1,0 +1,10 @@
+question: Jaka jest maksymalna liczba bitcoinów, które można kiedykolwiek utworzyć?
+answer: około 21 milionów sztuk
+wrong_answers:
+  - mniej więcej 18 milionów sztuk
+  - około 25 milionów sztuk
+  - około 30 milionów sztuk
+explanation: |
+  Utworzenie Bitcoin charakteryzuje się stałym limitem wynoszącym
+  21 milionów jednostek.
+reviewed: true

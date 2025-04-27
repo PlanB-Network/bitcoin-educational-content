@@ -1,0 +1,9 @@
+question: Kako strane mogu osigurati ispravan redosled poruka u sigurnoj sesiji?
+answer: Korišćenjem rednih brojeva u svakoj poruci
+wrong_answers:
+  - Razmenom ključeva za svaku poruku
+  - Dodavanjem kašnjenja između poruka
+  - Šifrovanjem poruka pomoću drugačijeg algoritma
+explanation: |
+  Brojevi sekvenci osiguravaju da poruke budu primljene u ispravnom redosledu i sprečavaju njihovo preuređivanje.
+reviewed: false

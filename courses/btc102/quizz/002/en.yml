@@ -1,11 +1,9 @@
-question: What is a notable example of a Bitcoin hard fork?
-answer: Bitcoin Cash (BCH)
+question: What precaution should be taken against donation scams and fraudulent lotteries?
+answer: Never send money to receive bitcoins
 wrong_answers:
-  - Ethereum (ETH)
-  - Litecoin (LTC)
-  - Ripple (XRP)
+  - Always send a small amount to test the offer
+  - Invest to get a quick and effortless profit
+  - Share personal information to secure the transaction
 explanation: |
-  Bitcoin has undergone several hard forks over time, giving rise to various
-  alternative versions of the original currency. Notable examples of these deviations
-  include Bitcoin Cash (BCH) and Bitcoin Satoshi Vision (BSV).
+  The request for an upfront payment is a common sign of fraud in this type of scam.
 reviewed: false

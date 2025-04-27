@@ -1,0 +1,9 @@
+question: Zašto se savetuje protiv spajanja nekoliko UTXO-a nakon CoinJoin ciklusa?
+answer: Ovo bi moglo ugroziti privatnost zbog CIOH-a.
+wrong_answers:
+  - Smanjuje brzinu transakcija.
+  - Otkiva sumnjive aktivnosti koordinatoru.
+  - Ovo bi moglo ugroziti privatnost zbog heuristike zaokruženog plaćanja.
+explanation: |
+  Važno je izbegavati kombinovanje mešanih UTXO-ova sa nemješanim UTXO-ovima u istoj transakciji, ali i mešanje UTXO-ova među sobom, kako bi se izbegla Common-Input-Ownership-Heuristic (CIOH).
+reviewed: false

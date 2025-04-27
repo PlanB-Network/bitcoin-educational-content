@@ -1,0 +1,9 @@
+question: 哪個函數可用來計算整數 N 的共質整數數？
+answer: Euler 的 Phi 函數
+wrong_answers:
+  - 對數函數
+  - Euler 的伽瑪函數
+  - 高斯函數
+explanation: |
+  Euler 的 Phi 函數 (或稱 totient 函數) 用來計算整數 N 的共素數，尤其是非素整數。
+reviewed: false

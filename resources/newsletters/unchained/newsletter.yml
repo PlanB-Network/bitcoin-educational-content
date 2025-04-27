@@ -1,7 +1,7 @@
 id: b99e1485-a584-4a99-8357-537593ba0261
 title: "Unchained"
 author: Tom Honzik, Stephen Hall
-level: expert
+level: advanced
 publication_date: 2017-11-30
 link:
   - website: https://unchained.com/blog/
@@ -12,8 +12,8 @@ description: |
   this inside the blog from Unchained Capital, a Texan company focused on
   the protection of your funds with cold storage that you control and use to get access to
   trading, inheritance, loans, and IRAs.
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
 tags:
   - wallets
   - business

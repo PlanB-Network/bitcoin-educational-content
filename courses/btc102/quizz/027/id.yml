@@ -1,11 +1,9 @@
-question: Apa yang dimaksud dengan kekekalan dari blockchain Bitcoin?
-answer: Tidak dapat diubah seiring waktu
+question: Berapa banyak pengelola yang ada di Bitcoin Core pada tahun 2025?
+answer: 5
 wrong_answers:
-  - Tidak dapat di-hack
-  - Tidak dapat disalin
-  - Tidak dapat dihapus
+  - 7
+  - 12
+  - 23
 explanation: |
-  Kekekalan dari blockchain Bitcoin berarti bahwa setelah sebuah transaksi
-  telah dicatat, transaksi tersebut tidak dapat diubah atau dihapus. Hal ini menjamin integritas dan
-  keandalan dari blockchain.
+  Pada tahun 2025, ada lima pengelola: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao, dan Ryan Ofsky.
 reviewed: false

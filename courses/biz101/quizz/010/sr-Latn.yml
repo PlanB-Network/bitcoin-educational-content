@@ -1,0 +1,9 @@
+question: Kako Lightning Network pomaže u smanjenju naknada za Bitcoin transakcije?
+answer: Sprovođenjem većine transakcija off-chain i objavljivanjem samo transakcija poravnanja kanala na glavnom Blockchain.
+wrong_answers:
+  - Uklanjanjem sve kriptografske verifikacije iz plaćanja.
+  - Centralizovanjem kontrole u jednom velikom centru za plaćanje.
+  - Tako što se od trgovaca zahteva da unapred plate sve troškove mreže.
+explanation: |
+  Pošto se Lightning transakcije dešavaju off-chain, samo konačna stanja kanala se rešavaju na Bitcoin Blockchain. Ovo smanjuje zagušenje i time smanjuje naknade izbegavanjem pravljenja mnogih On-Chain transakcija.
+reviewed: false

@@ -63,7 +63,7 @@ Visit the official Wizardsardine website and download Liana at https://wizardsar
 
 To find out how to manually verify the authenticity and integrity of software before installation, we recommend you consult this tutorial :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Install the software on your machine and launch it. Choose the "*Create a new Liana wallet*" option to configure your wallet.
 

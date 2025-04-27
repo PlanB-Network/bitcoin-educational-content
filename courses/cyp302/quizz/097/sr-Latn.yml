@@ -1,0 +1,9 @@
+question: Zašto samo poverljivost nije dovoljna za obezbeđivanje sigurne komunikacije?
+answer: Zato što napadač i dalje može presresti i izmeniti poruku bez razumevanja njenog sadržaja.
+wrong_answers:
+  - Zato što je poverljivost previše teško postići.
+  - Jer se privatni ključevi mogu lako pogoditi.
+  - Zato što poruke ne mogu biti autentifikovane bez digitalnog potpisa.
+explanation: |
+  Poverljivost štiti sadržaj poruka, ali bez MAC-a, napadač bi i dalje mogao presresti i izmeniti poruku bez razumevanja, čime bi ugrozio integritet komunikacije.
+reviewed: false

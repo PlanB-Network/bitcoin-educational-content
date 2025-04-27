@@ -14,7 +14,7 @@ La característica especial de este monedero es la posibilidad de enviar bitcoin
 
 Para utilizar Proton Wallet, necesitas una cuenta Proton. Puedes crear una gratuitamente siguiendo los primeros pasos de este tutorial dedicado a la creación de un buzón Proton (sólo la sección "*Crear una cuenta Proton*"). Una vez configurada tu cuenta, puedes continuar con el resto de este tutorial.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Conectarse a Proton Wallet
 

@@ -1,0 +1,9 @@
+question: Czym jest menedżer haseł?
+answer: Narzędzie do przechowywania, generowania i zarządzania hasłami.
+wrong_answers:
+  - Oprogramowanie antywirusowe chroniące przed atakami hakerów.
+  - Bezpieczna usługa poczty e-mail.
+  - Narzędzie do tworzenia kopii zapasowych danych osobowych.
+explanation: |
+  Menedżer haseł centralizuje przechowywanie i tworzenie haseł.
+reviewed: false

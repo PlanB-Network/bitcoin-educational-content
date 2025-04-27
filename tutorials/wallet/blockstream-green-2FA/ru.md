@@ -148,7 +148,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-
 
 После этого вы сможете выбрать метод аутентификации для доступа ко второму ключу вашей мультисигмы 2/2. В этом уроке мы будем использовать приложение для аутентификации. Если вы не знакомы с этим типом приложений, я рекомендую вам ознакомиться с нашим руководством по Authy:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Выберите "*Приложение для аутентификации*".
 

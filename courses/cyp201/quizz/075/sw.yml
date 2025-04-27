@@ -1,0 +1,9 @@
+question: Ni njia gani ya utokaji inatumika kwa akaunti ya SegWit v0 katika maelezo ya kawaida?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Njia ya 84h/0h/0h imefafanuliwa katika BIP84 kwa akaunti inayopata anwani za SegWit v0 na P2WPKH.
+reviewed: false

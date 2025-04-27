@@ -63,7 +63,7 @@ Besøk det offisielle Wizardsardine-nettstedet og last ned Liana på https://wiz
 
 For å finne ut hvordan du manuelt verifiserer ektheten og integriteten til programvaren før installasjon, anbefaler vi at du konsulterer denne veiledningen :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Installer programvaren på maskinen din og start den. Velg alternativet "*Opprett en ny Liana-lommebok*" for å konfigurere lommeboken din.
 

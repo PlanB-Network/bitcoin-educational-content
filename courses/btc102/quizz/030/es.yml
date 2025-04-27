@@ -1,10 +1,9 @@
-question: ¿Qué es la cadena de bloques de Bitcoin?
-answer: Una base de datos que registra todas las transacciones de Bitcoin.
+question: ¿Qué gran ventaja ofrece el enfoque por capas para Bitcoin?
+answer: Mantener la seguridad del protocolo base
 wrong_answers:
-  - Un tipo de moneda digital
-  - Una red de usuarios de Bitcoin
-  - Un método para minar bitcoins
+  - Centralización creciente de la red principal
+  - Rápida innovación en el protocolo base
+  - Tener las mismas características en las capas que en el protocolo base
 explanation: |
-  La cadena de bloques de Bitcoin es una base de datos que registra todas las transacciones de Bitcoin.
-  Es mantenida por mineros que añaden nuevas transacciones a la cadena de bloques.
+  El enfoque por capas permite añadir funcionalidades sin comprometer la seguridad y simplicidad del protocolo base.
 reviewed: false

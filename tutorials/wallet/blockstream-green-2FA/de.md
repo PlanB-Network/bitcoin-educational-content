@@ -148,7 +148,7 @@ Klicken Sie auf die grüne Schaltfläche "*Erhöhen Sie die Sicherheit Ihres Kon
 
 Sie können dann die Authentifizierungsmethode für den Zugriff auf den zweiten Schlüssel Ihrer 2/2-Multisig auswählen. In diesem Tutorial werden wir eine Authentifizierungsanwendung verwenden. Wenn Sie mit dieser Art von Anwendung nicht vertraut sind, empfehle ich Ihnen, unser Tutorial über Authy zu lesen:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Wählen Sie "*Authentifizierungsanwendung*".
 

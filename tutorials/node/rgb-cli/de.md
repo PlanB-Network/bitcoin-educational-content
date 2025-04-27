@@ -309,4 +309,4 @@ Sie wissen nun, wie man einen RGB-Vertrag ausstellt und überträgt. Wenn Sie di
 
 Ich empfehle auch dieses andere Tutorial, in dem ich erkläre, wie man einen RGB-kompatiblen Lightning-Knoten startet, um Token fast sofort auszutauschen:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

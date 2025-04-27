@@ -1,0 +1,10 @@
+question: Je, ni lahaja gani kuu mbili za mikataba mahiri inayotumika katika ubadilishaji wa sarafu?
+answer: HTLC na PTLC
+wrong_answers:
+  - Sahihi nyingi na saini moja
+  - Mikataba Mahiri na DApps
+  - SegWit na Taproot
+explanation: |
+  Ili kutekeleza ubadilishanaji wa sarafu, mtu anaweza kutumia HTLCs (Mikataba Iliyofungwa kwa Muda wa Hash) au PTLCs (Kandarasi Zilizofungwa kwa Muda wa Pointi).
+  
+reviewed: false

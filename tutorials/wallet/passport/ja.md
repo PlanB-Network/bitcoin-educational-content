@@ -6,7 +6,7 @@ description: 手動モードでのパスポートハードウェアウォレッ�
 
 Passportはビットコイン専用のハードウェアウォレットで、2020年4月にボストンで設立されたアメリカのFoundation Devices社が設計した。
 
-このチュートリアルで紹介するPassport "*Batch 2*"は、"*Founder's Edition*"の後継モデルです。プレミアムなデザイン、高精細カラースクリーン、人間工学に基づいた物理キーボードが特徴です。また、"*Air-Gap*"モードで動作し、財布の秘密鍵が完全に隔離された状態に保たれ、MicroSDカードまたはQRコード経由で交換が可能です。デバイスには取り外し可能な1200mAhのバッテリーが搭載されています。
+このチュートリアルで紹介する Passport "*Batch 2*" は、"*Founder's Edition*" の後継機です。プレミアムデザイン、高解像度のカラーディスプレイ、そしてエルゴノミクスに優れた物理キーボードが特徴です。"*Air-Gap*" モードで動作し、ウォレットの秘密鍵を完全に隔離し、MicroSD カードまたは QR コードを介してデータのやり取りが可能です。デバイスには 1200mAh の取り外し可能な充電式 Nokia BL-5C バッテリーが搭載されています。この非専用バッテリーは、市販されている BL-5C モデルを使用して簡単に交換できます。
 
 接続性に関しては、パスポートはMicroSDポート、充電用のUSB-Cポート、QRコードをスキャンするためのリアカメラを備えている。
 
@@ -139,7 +139,7 @@ PINコードが登録されました。
 
 お使いのデバイスにインストールする前に、ダウンロードしたファームウェアの信頼性と完全性を確認することを強くお勧めします。チュートリアルをご参照ください：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 .bin`ファイルを確認したら、MicroSDに入れ、パスポートに挿入します。パスポートのファイルエクスプローラーが開きます。vN.N.N-passport.bin`ファイルを選択します。
 
@@ -328,7 +328,7 @@ Sparrow Wallet [公式ウェブサイトから](https://sparrowwallet.com/)を�
 
 インストール前に必ずソフトウェアの信頼性と完全性を確認してください。その方法がわからない場合は、こちらのチュートリアルを参考にしてください：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow Walletを開いたら、"*File*"タブをクリックし、"*New Wallet*"をクリックしてください。
 

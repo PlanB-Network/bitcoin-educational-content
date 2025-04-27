@@ -6,7 +6,7 @@ description: Cài đặt và sử dụng Phoenix Wallet
 
 Phoenix là ví và nút Lightning tự lưu giữ do ACINQ, một công ty Pháp chuyên về các giải pháp phần mềm dựa trên Lightning, phát triển. Không giống như các ví Lightning lưu giữ như Wallet of Satoshi, nơi bitcoin được bên thứ ba nắm giữ, Phoenix cho phép người dùng giữ toàn quyền kiểm soát khóa riêng của họ.
 
-Trên thực tế, Phoenix hoạt động như một nút Lightning thực sự được nhúng trong điện thoại của bạn, nút này sẽ tự động mở một kênh bằng nút Lightning của ACINQ. Ứng dụng này dựa trên Eclair, triển khai Lightning do ACINQ phát triển. Không giống như các giải pháp nút Lightning khác, Phoenix đơn giản hóa đáng kể việc quản lý. Người dùng không phải quản lý việc mở và đóng kênh, chạy nút Bitcoin hoặc quản lý tính thanh khoản của họ trên mạng Lightning. Phoenix sẽ xử lý tất cả các hoạt động kỹ thuật này ở chế độ nền.
+Phoenix hoạt động như một nút Lightning thực sự được tích hợp vào điện thoại của bạn, tự động mở một kênh với nút Lightning của ACINQ. Ứng dụng này dựa trên Lightning-KMP, một triển khai đa nền tảng của Lightning Network bằng Kotlin, được tối ưu hóa cho ví di động. Không giống như các giải pháp nút Lightning khác, Phoenix đơn giản hóa đáng kể việc quản lý. Người dùng không cần quản lý việc mở và đóng kênh, chạy một nút Bitcoin hoặc điều phối thanh khoản trên mạng Lightning. Phoenix xử lý tất cả các hoạt động kỹ thuật này ở chế độ nền.
 
 Ứng dụng này kết hợp tính dễ sử dụng và tiện lợi của ví Lightning di động với tính bảo mật và chủ quyền của một nút Lightning cá nhân thực sự. Phoenix giúp bạn có thể sử dụng Lightning Network một cách an toàn, hiệu quả và tự chủ, đồng thời tận hưởng trải nghiệm người dùng trực quan, trôi chảy.
 

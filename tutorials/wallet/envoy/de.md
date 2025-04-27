@@ -6,7 +6,7 @@ description: Einrichten und Verwenden eines Reisepasses mit der Envoy-Anwendung
 
 Envoy ist eine von Foundation entwickelte Anwendung zur Verwaltung von Bitcoin-Wallets. Sie ist speziell für die Verwendung mit der Passport-Hardware-Wallet konzipiert.
 
-Der Passport "*Batch 2*", den wir in diesem Tutorial mit der Envoy-Anwendung vorstellen, ist der Nachfolger der "*Founder's Edition*". Es verfügt über ein hochwertiges Design, einen hochauflösenden Farbbildschirm und eine ergonomische Tastatur. Es arbeitet im "*Air-Gap*"-Modus, der sicherstellt, dass die privaten Schlüssel Ihrer Brieftasche völlig isoliert bleiben, wobei der Austausch über eine MicroSD-Karte oder QR-Codes möglich ist. Das Gerät ist mit einem herausnehmbaren 1200-mAh-Akku ausgestattet.
+Der Passport "*Batch 2*", den wir in diesem Tutorial zusammen mit der Envoy-App vorstellen, ist der Nachfolger der "*Founder's Edition*". Er zeichnet sich durch ein hochwertiges Design, ein hochauflösendes Farbdisplay und eine ergonomische physische Tastatur aus. Er arbeitet im "*Air-Gap*"-Modus, wodurch die privaten Schlüssel Ihrer Wallet vollständig isoliert bleiben, mit Datenaustausch über eine MicroSD-Karte oder QR-Codes. Das Gerät ist mit einem herausnehmbaren, wiederaufladbaren Nokia BL-5C-Akku mit 1200 mAh ausgestattet. Diese handelsübliche Batterie kann leicht ersetzt werden, da das BL-5C-Modell weit verbreitet ist.
 
 Was die Konnektivität betrifft, so ist das Passport mit einem MicroSD-Anschluss, einem USB-C-Anschluss zum Aufladen und einer Rückkamera zum Scannen von QR-Codes ausgestattet.
 
@@ -170,7 +170,7 @@ Verwenden Sie dazu die MicroSD-Karte, die in Ihrer Passport-Box enthalten ist (o
 
 Wir raten Ihnen dringend, die Authentizität und Integrität der heruntergeladenen Firmware zu überprüfen, bevor Sie sie auf Ihrem Gerät installieren. Wenn Sie dabei Hilfe benötigen, lesen Sie dieses Tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Mit der Envoy-Anwendung
 

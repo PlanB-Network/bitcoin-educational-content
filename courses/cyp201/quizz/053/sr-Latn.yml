@@ -1,0 +1,9 @@
+question: Šta se dešava ako izgubite passphrase povezan sa vašim HD Wallet?
+answer: Izgubićete pristup bitcoinima povezanim sa tim Wallet.
+wrong_answers:
+  - Još uvek možete pristupiti Wallet samo sa frazom Mnemonic
+  - Možete resetovati passphrase kontaktiranjem podrške za Bitcoin
+  - Izgubiš samo nepotvrđene transakcije.
+explanation: |
+  passphrase je suštinska komponenta u derivaciji ključeva. Bez nje, nemoguće je ponovo stvoriti ključeve i stoga pristupiti bitcoinima.
+reviewed: false

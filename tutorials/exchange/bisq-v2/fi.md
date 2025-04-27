@@ -86,7 +86,7 @@ Tämä opas keskittyy yksinomaan Bisq Easy -protokollaan, joka on tällä hetkel
 - Lataa käyttöjärjestelmääsi vastaava Bisq 2 -versio (selaa sivua alaspäin)
 - Tarkista ladatun tiedoston aitous (erittäin suositeltavaa). Yksityiskohtainen opas allekirjoituksen tarkistamisesta on seuraavassa oppaassa:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Asennus järjestelmän mukaan
 

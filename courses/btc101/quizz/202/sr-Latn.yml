@@ -1,0 +1,10 @@
+question: Jedan od načina za sticanje bitkoina bez KYC-a je korišćenje peer-to-peer (P2P) platformi kao što su LocalBitcoins ili Bisq, gde možete direktno trgovati sa drugim korisnicima.
+answer: Bitcoin bankomati.
+wrong_answers:
+  - Broker platforme.
+  - DCA platforme.
+  - Bankovni transferi.
+explanation: |
+  Tekst kursa pominje da postoji nekoliko načina za
+  sticanje Bitcoina bez KYC, od kojih je jedan Bitcoin bankomati.
+reviewed: true

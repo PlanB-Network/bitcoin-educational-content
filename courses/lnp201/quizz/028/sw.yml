@@ -1,0 +1,9 @@
+question: Bob anaweza kufanya nini akigundua jaribio la Alice la kudanganya wakati wa kufungwa kwa chaneli?
+answer: Tumia kitufe cha kubatilisha kurejesha pesa zote
+wrong_answers:
+  - Ghairi Commitment Transaction ya Alice
+  - Funga kituo kabisa bila chaguo la kufungua tena
+  - Dai nusu tu ya fedha zilizopo
+explanation: |
+  Katika tukio la kudanganya, Bob anaweza kutumia ufunguo wa ubatilishaji kurejesha pesa zote kutoka kwa kituo, na hivyo kumwadhibu Alice kwa jaribio lake.
+reviewed: false

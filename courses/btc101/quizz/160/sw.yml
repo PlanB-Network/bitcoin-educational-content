@@ -1,0 +1,13 @@
+question: Nini kinatokea katika shambulio la 51% kwenye mtandao wa Bitcoin?
+answer: Wakala ana zaidi ya nusu ya Hashrate na anaweza kujaribu kurekebisha Blockchain.
+wrong_answers:
+  - Wakala hupata udhibiti wa zaidi ya nusu ya bitcoins katika mzunguko.
+  - Wakala hupata udhibiti wa zaidi ya nusu ya nodi katika mtandao wa Bitcoin.
+  - Wakala anapata udhibiti wa zaidi ya nusu ya madimbwi ya Mining katika Bitcoin
+explanation: |
+  Katika shambulio la 51%, wakala aliye na zaidi ya nusu ya
+  mtandao Hashrate unaweza uwezekano wa kuendesha
+  Blockchain kwa kuunda mlolongo mbadala wa vitalu.
+  Walakini, shambulio kama hilo litakuwa ghali sana na
+  uwezekano wa kuwa na faida, na kuifanya kuwa hali isiyowezekana.
+reviewed: true

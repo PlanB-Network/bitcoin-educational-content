@@ -6,7 +6,7 @@ description: Konfigurere og bruke Passport-maskinvarelommeboken i manuell modus
 
 Passport er en maskinvarelommebok som kun inneholder Bitcoin, designet av Foundation Devices, et amerikansk selskap som ble grunnlagt i april 2020 i Boston.
 
-Passport "*Batch 2*", som vi presenterer i denne veiledningen, er etterfølgeren til "*Founder's Edition*". Den har et førsteklasses design, en HD-fargeskjerm og et ergonomisk, fysisk tastatur. Den fungerer i "*Air-Gap*"-modus, noe som sikrer at lommebokens private nøkler forblir helt isolerte, og at utveksling er mulig via et MicroSD-kort eller QR-koder. Enheten har et avtakbart batteri på 1200 mAh.
+Passport "*Batch 2*", som vi presenterer i denne veiledningen, er etterfølgeren til "*Founder's Edition*". Den skiller seg ut med sitt premium design, høyoppløselige fargeskjerm og ergonomiske fysiske tastatur. Den opererer i "*Air-Gap*"-modus, noe som sikrer at lommebokens private nøkler forblir fullstendig isolerte, med datautveksling via et MicroSD-kort eller QR-koder. Enheten er utstyrt med et utskiftbart oppladbart Nokia BL-5C batteri på 1200 mAh. Dette ikke-proprietære batteriet kan enkelt byttes ut, ettersom BL-5C-modellen er lett tilgjengelig i butikker.
 
 Når det gjelder tilkoblingsmuligheter, er Passport utstyrt med en MicroSD-port, en USB-C-port for lading og et kamera på baksiden for skanning av QR-koder.
 
@@ -139,7 +139,7 @@ For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (elle
 
 Før du installerer den på enheten din, anbefaler vi deg på det sterkeste å sjekke ektheten og integriteten til den nedlastede fastvaren. Hvis du trenger hjelp med dette, kan du se denne veiledningen :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Etter at du har sjekket `.bin`-filen, plasserer du den på MicroSD-kortet og setter den deretter inn i Passport. Filutforskeren i Passport åpnes. Velg filen `vN.N.N-passport.bin`.
 
@@ -328,7 +328,7 @@ Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettsted
 
 Sørg for å kontrollere ektheten og integriteten til programvaren før du installerer den. Hvis du ikke vet hvordan du gjør dette, kan du se denne veiledningen:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Når Sparrow Wallet er åpen, klikker du på "*File*"-fanen og deretter på "*New Wallet*".
 

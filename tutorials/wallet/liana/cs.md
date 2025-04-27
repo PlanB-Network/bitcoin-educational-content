@@ -63,7 +63,7 @@ Navštivte oficiální webové stránky Wizardsardine a stáhněte si Lianu na a
 
 Chcete-li zjistit, jak ručně ověřit pravost a integritu softwaru před instalací, doporučujeme vám nahlédnout do tohoto návodu :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Nainstalujte software do počítače a spusťte jej. Vyberte možnost "*Vytvořit novou peněženku Liana*" a nakonfigurujte peněženku.
 

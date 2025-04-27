@@ -1,0 +1,9 @@
+question: Jaki jest punkt wyjścia do obliczenia podpisu ECDSA?
+answer: Komunikat Hash
+wrong_answers:
+  - Klucz publiczny
+  - Stały Nonce
+  - Niestandardowa krzywa eliptyczna
+explanation: |
+  Podpis ECDSA rozpoczyna się od obliczenia Hash podpisywanej wiadomości, często przy użyciu SHA256.
+reviewed: false

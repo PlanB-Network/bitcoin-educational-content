@@ -1,11 +1,9 @@
-question: Apa ciri utama dari blockchain tanpa bukti kerja?
-answer: Tidak memiliki nilai nyata
+question: Strategi investasi apa yang terutama digunakan oleh seorang stacker?
+answer: Rata-rata Biaya Dolar
 wrong_answers:
-  - Lebih aman
-  - Lebih cepat
-  - Lebih terdesentralisasi
+  - Perdagangan harian
+  - Arbitrase
+  - Lump-Sum
 explanation: |
-  Konten bab menyatakan bahwa tanpa bukti kerja, sebuah blockchain
-  tidak memiliki nilai nyata. Ini adalah ciri khas yang membedakan Bitcoin dari
-  mata uang kripto lainnya.
+  DCA melibatkan investasi dalam jumlah tetap secara teratur untuk mengurangi dampak volatilitas pasar pada portofolio seseorang.
 reviewed: false

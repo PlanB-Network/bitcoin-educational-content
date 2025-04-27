@@ -1,0 +1,10 @@
+question: Ni tishio gani kuu linalohusishwa na utumiaji tena wa Address?
+answer: Inaruhusu viungo vya kuamua kuanzishwa kati ya shughuli tofauti na Ownership ya kawaida ya UTXO zinazohusika.
+wrong_answers:
+  - Inafichua IP ya mtumiaji Address kwa washiriki wengine wa mtandao wakati wa uthibitishaji wa muamala.
+  - Inapunguza ufanisi wa mifumo ya sahihi ya dijiti, ambayo inadhoofisha usalama wa miamala.
+  - Inasababisha kuongezeka kwa ada za ununuzi kutokana na msongamano unaosababishwa na kutumia tena Address.
+explanation: |
+  Ikiwa Address sawa inatumiwa kwa shughuli nyingi, inakuwa inawezekana kutambua kwamba bitcoins zote zinazohusiana na Address hiyo ni za mtu mmoja.
+  
+reviewed: false

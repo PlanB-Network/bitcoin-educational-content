@@ -1,0 +1,9 @@
+question: Ako posmatramo transakciju sa 1 UTXO u ulazu i 43 UTXO-a u izlazima, koji obrazac možemo prepoznati?
+answer: Grupna potrošnja
+wrong_answers:
+  - Konsolidacija
+  - Pojednostavljeno plaćanje
+  - Zajednička transakcija
+explanation: |
+  Tumačenje ovog obrasca je da imamo posla sa grupisanim troškom. Ova struktura omogućava entitetima kao što su Exchange platforme da uštede na naknadama grupisanjem svojih troškova u jednu transakciju.
+reviewed: false

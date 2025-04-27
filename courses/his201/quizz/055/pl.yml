@@ -1,0 +1,9 @@
+question: Po incydencie przepełnienia wartości, jaki mechanizm został dodany do oprogramowania przez Satoshi w celu ograniczenia wpływu potencjalnych luk w systemie?
+answer: System ostrzegania
+wrong_answers:
+  - Standardowy charakter transakcji
+  - Limit rozmiaru bloku
+  - Kody operacyjne OP_NOP
+explanation: |
+  Ten skuteczny system ostrzegania pozwolił mu, przy użyciu klucza prywatnego, ostrzec węzły sieci w przypadku problemu technicznego i zawiesić niektóre polecenia API.
+reviewed: false

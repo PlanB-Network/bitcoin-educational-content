@@ -1,9 +1,9 @@
-question: Qual è uno dei motivi per cui dovresti consolidare i tuoi UTXO nei tuoi portafogli di tanto in tanto?
+question: Qual è uno dei motivi per cui si dovrebbero consolidare gli UTXO nei wallet, di tanto in tanto?
 answer: Per evitare commissioni non necessarie durante le transazioni.
 wrong_answers:
-  - Per aumentare il valore dei tuoi bitcoin.
-  - Per prevenire il furto dei tuoi bitcoin.
-  - Per garantire che i tuoi bitcoin siano sempre disponibili.
+  - Per aumentare il valore dei propri bitcoin.
+  - Per prevenire il furto dei bitcoin.
+  - Per garantire che i bitcoin siano sempre disponibili.
 explanation: >-
-  Il testo menziona che consolidare i tuoi UTXO nei tuoi portafogli di tanto in tanto è essenziale per gestire efficacemente i tuoi bitcoin ed evitare commissioni non necessarie durante le transazioni.
+  Il testo menziona che consolidare gli UTXO nel wallet di tanto in tanto è essenziale per gestire efficacemente i fondi ed evitare commissioni non necessarie durante le transazioni.
 reviewed: vero

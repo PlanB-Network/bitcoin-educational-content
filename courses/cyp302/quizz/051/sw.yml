@@ -1,0 +1,9 @@
+question: Je, neno premier champ or corps premier linamaanisha nini?
+answer: Sehemu iliyo na nambari kuu ya Elements
+wrong_answers:
+  - Sehemu iliyo na nambari kuu pekee
+  - Sehemu inayofafanuliwa pekee kwa kuongezwa kwa nambari kuu
+  - Sehemu inayotumia vekta nasibu
+explanation: |
+  Sehemu kuu ina idadi ya Elements sawa na nambari kuu, na kuifanya kuwa sehemu ya kimsingi ya shughuli za kriptografia.
+reviewed: false

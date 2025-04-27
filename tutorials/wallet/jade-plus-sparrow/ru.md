@@ -334,7 +334,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 Перед установкой обязательно проверьте подлинность и целостность программного обеспечения. Если вы не знаете, как это сделать, обратитесь к этому руководству:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Открыв Sparrow Wallet, нажмите на вкладку "*Файл*", затем на "*Новый кошелек*".
 

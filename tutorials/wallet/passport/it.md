@@ -6,7 +6,7 @@ description: Configurazione e utilizzo del portafoglio hardware Passport in moda
 
 Il Passport è un portafoglio hardware per soli Bitcoin, progettato da Foundation Devices, un'azienda americana fondata nell'aprile 2020 a Boston.
 
-Il Passport "*Batch 2*" che presentiamo in questa guida è il successore della "*Founder's Edition*". Presenta un design premium, uno schermo a colori ad alta definizione e una tastiera fisica ergonomica. Funziona in modalità "*Air-Gap*", assicurando che le chiavi private del portafoglio rimangano totalmente isolate, con scambi possibili tramite scheda MicroSD o codici QR. Il dispositivo include una batteria rimovibile da 1200 mAh.
+Il Passport "*Batch 2*" presentato in questo tutorial è il successore della "*Founder's Edition*". Si distingue per il suo design premium, lo schermo a colori ad alta definizione e la tastiera fisica ergonomica. Funziona in modalità "*Air-Gap*", garantendo che le chiavi private del portafoglio rimangano completamente isolate, con trasferimenti possibili tramite una scheda MicroSD o codici QR. Il dispositivo è dotato di una batteria ricaricabile removibile Nokia BL-5C da 1200 mAh. Questa batteria non proprietaria è facilmente sostituibile, poiché il modello BL-5C è ampiamente disponibile sul mercato.
 
 Per quanto riguarda la connettività, il Passport è dotato di una porta MicroSD, una porta USB-C per la ricarica e una fotocamera posteriore per la scansione dei codici QR.
 
@@ -139,7 +139,7 @@ A tal fine, utilizzare la scheda MicroSD inclusa nella confezione del Passport (
 
 Prima di installarlo sul vostro dispositivo, vi consigliamo vivamente di verificare l'autenticità e l'integrità del firmware scaricato. Se avete bisogno di aiuto, consultate questo tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Dopo aver controllato il file `.bin', collocarlo sulla MicroSD e inserirlo nel Passport. Si aprirà l'esploratore di file del Passport. Selezionare il file `vN.N.N-passport.bin`.
 
@@ -328,7 +328,7 @@ Iniziate scaricando e installando Sparrow Wallet [dal sito ufficiale](https://sp
 
 Assicuratevi di verificare l'autenticità e l'integrità del software prima dell'installazione. Se non sapete come fare, consultate questa guida:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Una volta aperto Sparrow Wallet, fare clic sulla scheda "*File*", quindi su "*Nuovo portafoglio*".
 

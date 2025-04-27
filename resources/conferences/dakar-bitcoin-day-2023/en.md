@@ -5,11 +5,11 @@ description: An event held in Dakar, Senegal, and 100% dedicated to bitcoin
 
 # Day 1
 
-## Morning 
+## Morning
 
 ![video](https://www.youtube.com/live/yf5PTEe_it0?si=QdMD2BvHRb4fzfaC)
 
-## Afternoon 
+## Afternoon
 
 ![video](https://www.youtube.com/live/Ymja7Dq0Hmg?si=bMGvCjYxKW0VRhap)
 
@@ -23,6 +23,6 @@ description: An event held in Dakar, Senegal, and 100% dedicated to bitcoin
 
 ![video](https://www.youtube.com/live/1JIB4Lkx49I?si=SOw8K_TJS4PC1DxX)
 
-## Etxra 
+## Extra
 
 ![video](https://www.youtube.com/live/bICBh4KvQc8?si=f1czTBvhT8Zk_g5a)

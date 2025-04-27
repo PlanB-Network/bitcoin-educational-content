@@ -1,0 +1,8 @@
+question: Jaka jest jedna z głównych konsekwencji Bitcoin dla systemu bankowego?
+answer: Pozwala to na emancypację od systemu bankowego.
+wrong_answers:
+  - Pozwala to na kontrolę systemu bankowego.
+  - Pozwala to na wyeliminowanie systemu bankowego.
+  - Pozwala to na korupcję systemu bankowego.
+explanation: >-
+reviewed: true

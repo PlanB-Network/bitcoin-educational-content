@@ -1,0 +1,12 @@
+question: 根據 Carl Menger，為什麼兩個人之間會發生自願的 Exchange？
+answer: 每一方都相信這會增加他們的主觀效用。
+wrong_answers:
+  - 每一方都認為這會降低他們的主觀效用。
+  - 每一方都相信這能維持他們的主觀效用。
+  - 每一方都認為這不會影響他們的主觀效用。
+explanation: |
+  門格推斷出兩個人之間的自願 Exchange
+  個人之所以發生，是因為每一方都相信它會
+  增加他們的主觀效用。這表示每個
+  黨相信在 Exchange 之後，他們會過得更好。
+reviewed: true

@@ -48,7 +48,7 @@ Bull Bitcoin стремится предоставлять прозрачные 
 
 Если вы не знакомы с использованием приложений для аутентификации 2FA, я рекомендую вам взглянуть на это руководство по приложению Authy:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Введите пароль для подтверждения.
 

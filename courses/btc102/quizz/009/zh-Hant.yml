@@ -1,0 +1,9 @@
+question: 為什麼線上安全對 Bitcoin 使用者至關重要？
+answer: 因為黑客行為會導致比特幣不可逆轉的損失
+wrong_answers:
+  - 因為銀行為 Bitcoin 全損時的資金投保
+  - 因為遺失比特幣可能會坐牢
+  - 因為攻擊會導致非常沉重的行政負擔
+explanation: |
+  如果沒有中介，黑客入侵就意味著比特幣的徹底損失。
+reviewed: false

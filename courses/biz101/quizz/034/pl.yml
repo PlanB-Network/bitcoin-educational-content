@@ -1,0 +1,9 @@
+question: Jaki trend zauważono wśród uczestników obsługujących węzły na Lightning Network?
+answer: Profesjonalni operatorzy węzłów w coraz większym stopniu zapewniają płynność, podczas gdy indywidualni użytkownicy koncentrują się na węzłach "brzegowych", zmieniając skład sieci.
+wrong_answers:
+  - Indywidualni hobbyści całkowicie zastąpili wszystkich profesjonalnych operatorów.
+  - Duże banki obsługują obecnie centralnie wszystkie węzły Lightning.
+  - Sieć wyłączyła węzły osobiste, aby umożliwić dostęp tylko dużym korporacjom.
+explanation: |
+  Istnieje tendencja do zwiększania płynności i stabilności zapewnianej przez profesjonalne podmioty, podczas gdy zwykli użytkownicy polegają na uproszczonych lub hostowanych rozwiązaniach, dzięki czemu sieć jest bardziej solidna i dostępna.
+reviewed: false

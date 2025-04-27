@@ -6,7 +6,7 @@ description: Installing and using Phoenix Wallet
 
 Phoenix is a self-custodial Lightning wallet and node developed by ACINQ, a French company specializing in Lightning-based software solutions. Unlike custodial Lightning wallets such as Wallet of Satoshi, where bitcoins are held by a third party, Phoenix enables users to retain full control of their private keys.
 
-In fact, Phoenix works like a real Lightning node embedded in your phone, which will automatically open a channel with ACINQ's Lightning node. The application is based on Eclair, the Lightning implementation developed by ACINQ. Unlike other Lightning node solutions, Phoenix simplifies management considerably. Users don't have to manage the opening and closing of channels, run a Bitcoin node, or manage their liquidity on the Lightning network. Phoenix takes care of all these technical operations in the background.
+Phoenix operates as a true Lightning node embedded in your phone, automatically opening a channel with ACINQ's Lightning node. The application is based on Lightning-KMP, a cross-platform implementation of the Lightning Network in Kotlin, optimized for mobile wallets. Unlike other Lightning node solutions, Phoenix greatly simplifies management. The user does not need to handle channel opening and closing, run a Bitcoin node, or manage liquidity on the Lightning Network. Phoenix takes care of all these technical operations in the background.
 
 This application combines the ease of use and convenience of mobile Lightning wallets with the security and sovereignty of a genuine personal Lightning node. Phoenix makes it possible to use the Lightning Network securely, efficiently and autonomously, while enjoying a fluid, intuitive user experience.
 

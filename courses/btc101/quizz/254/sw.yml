@@ -1,0 +1,11 @@
+question: Ni njia gani ya vitendo ya kupata Bitcoins?
+answer: Kuzinunua kupitia majukwaa yaliyodhibitiwa au yasiyodhibitiwa.
+wrong_answers:
+  - Mining kwa kutumia kompyuta ndogo.
+  - Kuwapata katika ulimwengu wa kimwili.
+  - Kuwaunda kwa kutumia programu maalum.
+explanation: |
+  Maandishi yanataja kuwa watumiaji wanaweza kupata Bitcoins kwa
+  kuzikubali kwa biashara au kwa kuzinunua kupitia
+  majukwaa yaliyodhibitiwa au yasiyodhibitiwa.
+reviewed: true

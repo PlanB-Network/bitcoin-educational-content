@@ -48,7 +48,7 @@ Skann QR-koden med autentiseringsprogrammet ditt, skriv inn den sekssifrede kode
 
 Hvis du ikke er kjent med å bruke autentiseringsapplikasjoner for 2FA, anbefaler jeg at du tar en titt på denne veiledningen om Authy-applikasjonen:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skriv inn passordet ditt for å bekrefte.
 

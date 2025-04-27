@@ -1,0 +1,9 @@
+question: Je, orodha ya barua ya ukuzaji ya Bitcoin iliundwa tarehe gani?
+answer: Juni 12, 2011
+wrong_answers:
+  - Januari 13, 2011
+  - Machi 7, 2011
+  - Septemba 19, 2011
+explanation: |
+  Iliundwa na msanidi Jeff Garzik, na iliruhusu mijadala rasmi kuhusu mabadiliko kufanywa kwa Bitcoin.
+reviewed: false

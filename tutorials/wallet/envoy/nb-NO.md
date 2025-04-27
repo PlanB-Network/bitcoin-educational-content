@@ -6,7 +6,7 @@ description: Sette opp og bruke et pass med Envoy-applikasjonen
 
 Envoy er et program for administrasjon av Bitcoin-lommebøker utviklet av Foundation. Den er spesialdesignet for bruk med Passport-maskinvarelommeboken.
 
-Passport "*Batch 2*", som vi presenterer i denne veiledningen med Envoy-applikasjonen, er etterfølgeren til "*Founder's Edition*". Den har et førsteklasses design, HD-fargeskjerm og ergonomisk, fysisk tastatur. Den fungerer i "*Air-Gap*"-modus, noe som sikrer at lommebokens private nøkler forblir helt isolerte, og at utveksling er mulig via et MicroSD-kort eller QR-koder. Enheten har et avtakbart batteri på 1200 mAh.
+Passport "*Batch 2*", som vi presenterer i denne veiledningen med Envoy-appen, er etterfølgeren til "*Founder's Edition*". Den skiller seg ut med sitt premium design, høyoppløselige fargeskjerm og ergonomiske fysiske tastatur. Den opererer i "*Air-Gap*"-modus, noe som sikrer at lommebokens private nøkler forblir fullstendig isolerte, med datautveksling via et MicroSD-kort eller QR-koder. Enheten er utstyrt med et utskiftbart oppladbart Nokia BL-5C batteri på 1200 mAh. Dette ikke-proprietære batteriet kan enkelt byttes ut, ettersom BL-5C-modellen er lett tilgjengelig i butikker.
 
 Når det gjelder tilkoblingsmuligheter, er Passport utstyrt med en MicroSD-port, en USB-C-port for lading og et kamera på baksiden for skanning av QR-koder.
 
@@ -170,7 +170,7 @@ For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (elle
 
 Før du installerer den på enheten din, anbefaler vi deg på det sterkeste å sjekke ektheten og integriteten til den nedlastede fastvaren. Hvis du trenger hjelp med dette, kan du se denne veiledningen :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Med Envoy-applikasjonen
 

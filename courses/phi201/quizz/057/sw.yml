@@ -1,0 +1,9 @@
+question: Je! Ushawishi wa Shule ya Salamanca ulikuwa upi katika ukuzaji wa fikra za kisasa?
+answer: Majibu mengine yote ni sahihi.
+wrong_answers:
+  - Ilichangia kuibuka kwa sheria za kimataifa na utambuzi wa haki za binadamu kwa wote.
+  - Iliweka misingi ya falsafa ya kisasa ya kisiasa kwa kusisitiza mgawanyo wa mamlaka na enzi kuu ya watu wengi.
+  - Iliathiri mawazo ya kisayansi kwa kuhimiza njia ya majaribio na busara.
+explanation: |
+  Shule ya Salamanca ilikuwa na ushawishi mkubwa juu ya mawazo ya kisasa, ikiweka msingi wa sheria za kimataifa, kutetea haki za binadamu kwa wote, na kuanzisha kanuni za kimsingi za falsafa ya kisiasa na mawazo ya kisayansi.
+reviewed: false

@@ -1,0 +1,12 @@
+question: 在進行自我保管時，為了將損失風險降至最低，您首先應該做什麼？
+answer: 備份 Wallet 復原 seed 語句
+wrong_answers:
+  - 與可信賴的一方共用您的私密金鑰
+  - 記下您的復原 seed 詞組，並將其儲存在電腦中
+  - 停用雙因素驗證 (2FA)
+explanation: |
+  首先，也是最重要的是，在進行自我保管時，請備份您的 Wallet。
+  硬體錢包附有復原 seed 詞組，這組詞組可以
+  可用於在裝置遺失或損壞時復原您的私人密碼匙。
+  Create a physical copy, such as a metal [seed plate](https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), of this seed phrase and
+reviewed: true

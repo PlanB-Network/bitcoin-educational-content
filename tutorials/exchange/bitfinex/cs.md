@@ -22,11 +22,11 @@ Vyplňte požadované údaje: zadejte svou e-mailovou adresu a zemi bydliště. 
 
 Tipy pro používání a ochranu silných a jedinečných hesel naleznete také v tomto návodu :
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Nyní nakonfigurujeme 2FA pro zabezpečení účtu. Použijte ověřovací aplikaci v chytrém telefonu, například Google Authenticator nebo Authy. Návod na tento nástroj najdete zde :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Naskenujte QR kód pomocí aplikace a zadejte 6 číslic.
 

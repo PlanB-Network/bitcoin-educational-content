@@ -1,0 +1,9 @@
+question: Je, ubadilishaji kutoka sarafu hadi pesa za karatasi uliboreshaje mtandao wa sarafu?
+answer: Ilifanya pesa ziwe rahisi zaidi na scalable, kuwezesha biashara ya umbali mrefu na mifumo changamano ya kifedha.
+wrong_answers:
+  - Iliondoa hitaji la mali au uaminifu wowote.
+  - Ilisimamisha mfumuko wa bei papo hapo na kuleta utulivu wa uchumi.
+  - Iliruhusu serikali kuepuka kusimamia pesa za Supply kabisa.
+explanation: |
+  Pesa za karatasi zilikuwa nyepesi na rahisi zaidi kutengeneza na kusafirisha kuliko sarafu zilizotengenezwa kwa madini ya thamani. Uwezo huu wa kubebeka na usanifishaji umerahisisha miamala na kuwezesha uchumi kukua zaidi ya maeneo ya karibu.
+reviewed: false

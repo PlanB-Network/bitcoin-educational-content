@@ -1,0 +1,9 @@
+question: Zgodnie z twierdzeniem Eulera, jaki jest wynik potęgowania a^ϕ(N) mod N dla dwóch liczb całkowitych a i N, które są całkowite?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - a mod N
+explanation: |
+  Twierdzenie Eulera mówi, że dla dwóch liczb całkowitych a i N, które są całkowite, potęgowanie a^ϕ(N) mod N jest zawsze równe 1 mod N, co jest właściwością wykorzystywaną w kryptografii.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Apa yang dimaksud dengan DCA dalam konteks investasi Bitcoin?
-answer: Dollar Cost Averaging
+question: Metode akuisisi mana yang dihindari oleh pengguna paranoid?
+answer: Platform terpusat dengan KYC
 wrong_answers:
-  - Akuisisi Mata Uang Langsung
-  - Alokasi Koin Digital
-  - Aset Kripto Terdesentralisasi
+  - Platform perjodohan P2P
+  - ATM Bitcoin
+  - Pembelian tunai langsung pada saat pertemuan
 explanation: |
-  Dollar Cost Averaging (DCA) adalah strategi di mana Anda membagi total
-  jumlah yang ingin Anda investasikan melalui pembelian berkala untuk mengurangi dampak volatilitas.
+  Untuk menjaga anonimitas, pengguna paranoid menghindari platform yang memerlukan verifikasi identitas.
 reviewed: false

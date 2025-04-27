@@ -1,0 +1,9 @@
+question: Koji je praktičan način za nabavku Bitcoina?
+answer: Kupovina preko regulisanih ili neregulisanih platformi.
+wrong_answers:
+  - Mining ih koristeći laptop.
+  - Pronalaženje njih u fizičkom svetu.
+  - Kreiranje pomoću specijalnog softvera.
+explanation: |
+  Tekst pominje da korisnici mogu dobiti Bitcoine prihvatanjem za trgovinu ili kupovinom putem regulisanih ili neregulisanih platformi.
+reviewed: true

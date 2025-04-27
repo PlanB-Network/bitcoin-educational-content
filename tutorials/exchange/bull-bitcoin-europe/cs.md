@@ -48,7 +48,7 @@ Naskenujte QR kód pomocí autentizační aplikace, zadejte šestimístný kód 
 
 Pokud nejste obeznámeni s používáním ověřovacích aplikací pro 2FA, doporučuji vám podívat se na tento návod na aplikaci Authy:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pro potvrzení zadejte své heslo.
 

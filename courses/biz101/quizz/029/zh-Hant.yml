@@ -1,0 +1,9 @@
+question: 對於銷售點的商家而言，Lightning Network 支付的優勢是什麼？
+answer: Lightning 支付幾乎是即時結算，不需要多個中介，減少了費用和結算延遲。
+wrong_answers:
+  - 閃電付款需要數週時間確認，並需要繁重的文書工作。
+  - 閃電付款只有在中央銀行主管機關核准的情況下才會發生。
+  - 閃電付款可在銷售後由買方隨意撤銷。
+explanation: |
+  Lightning Network 透過允許 off-chain 結算，使交易變得更快、更便宜。商戶幾乎可以立即收到資金，費用極低，而且不需要依賴傳統的支付中介。
+reviewed: false

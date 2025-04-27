@@ -1,0 +1,9 @@
+question: Dlaczego zaleca się napisanie listu spadkowego atramentem na papierze?
+answer: Aby uniknąć ryzyka związanego z zagrożonymi dokumentami cyfrowymi
+wrong_answers:
+  - Aby zmniejszyć koszty drukowania
+  - Aby uzyskać prawnie uznany podpis
+  - Zwiększenie wartości prawnej dokumentu
+explanation: |
+  Pismo odręczne jest mniej podatne na cyberataki i zapewnia poufność instrukcji.
+reviewed: false

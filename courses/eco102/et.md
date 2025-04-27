@@ -26,7 +26,32 @@ Liitu Damien Theillieriga selles rikastavas uurimuses Frédéric Bastiati mõtte
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Kursuse sissejuhatus
+## Kursuse ülevaade
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+Selle koolituse eesmärk on pakkuda teile põhjalikku arusaamist Frédéric Bastiat'i elust, intellektuaalsetest mõjutustest, ideoloogilistest vastastest ja majandusteooriatest. Selle struktureeritud teekonna kaudu avastate, kuidas tema ideed on kujundanud majanduslikku mõtlemist ja mõjutavad jätkuvalt tänaseid arutelusid.
+
+**Osa 1: Sissejuhatus**  
+Alustame üldisest ülevaatest Frédéric Bastiat'st, vähetuntud majandusgeeniusest. Õpite tundma tema elu, intellektuaalset arengut ja ajaloolist konteksti, milles ta oma mõtlemist arendas. Selle raamistiku mõistmine on oluline, et täielikult mõista tema kirjutiste ja teooriate ulatust.
+
+**Osa 2: Mõjutajad**  
+Jätkame analüüsiga mõtlejatest, kes mõjutasid Frédéric Bastiat'i majanduslikku mõtlemist. Saate teada, kuidas sellised olulised tegelased nagu Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer ja Richard Cobden aitasid kaasa tema intellektuaalsele arengule, pannes aluse tema mõtisklustele vabakaubanduse ja turumajanduse teemadel.
+
+**Osa 3: Vastased**  
+Seejärel uurime Bastiat'i kriitikat tema ideoloogiliste vastaste suhtes. Olgu tegemist Rousseau, klassikalise hariduse, protektsionismi, sotsialismi või Proudhoniga, mõistate, miks Bastiat pidas neid doktriine majandusliku ja sotsiaalse progressi takistusteks ja kuidas ta vastas nende argumentidele terava loogikaga.
+
+**Osa 4: Majanduse sofismid**  
+See osa on pühendatud majanduse sofismidele, mida Bastiat kritiseeris, sealhulgas kuulsad "*Mis on nähtav ja mis pole nähtav*" ja "*Küünlatootjate palve*". Uurime, kuidas ta satiiri ja põhjaliku analüüsi abil suutis paljastada oma aja tavalisi majanduslikke eksiarvamusi, mis on endiselt aktuaalsed.
+
+**Osa 5: Majanduse harmooniad**  
+Siin avastate Bastiat'i positiivse nägemuse majandusest. Käsitleme selliseid mõisteid nagu turu ime, individuaalse vastutuse jõud ja tõelise ja vale solidaarsuse eristamine. Bastiat nägi majandust kui koherentset süsteemi, kus õigesti mõistetud isiklik huvi teenib üldist hüve. Uurime, miks see nii on.
+
+**Osa 6: Seadus**  
+Kursuse lõpetuseks sukeldume Bastiat'i peamisse teosesse "*Seadus*", kus ta esitab oma arutlused omandiõiguste, seadusliku riisumise ja riigi piiratud rolli kohta. Saate aru, miks seda esseed peetakse üheks kõige mõjuvamaid manifeste isikuvabaduse ja turumajanduse toetuseks.
+
+Kas olete valmis avastama, kuidas Frédéric Bastiat'i ideed ka tänapäeval kõlavad? Liituge meiega sellel intellektuaalsel teekonnal, mis võib muuta teie arusaama majandusest!
+
+## Bastiat: Tundmatu geenius
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -1043,7 +1068,7 @@ Kui vaadata asju sellest vaatenurgast, selgitas Reagan GE töötajatele, riiklik
 
 Olemuselt võttis Reagan Bastiat'lt mitu liberaalse ühiskonna- ja inimvaate võtmelementi: tsiviilühiskonna primaarsus riigi ees, valiku ja individuaalse vastutuse väärtus, ettevõtja tähtsus rikkuse loomisel, paindliku ja minimaalse õigusraamistiku tähtsus, mis võimaldab usaldust ja lepingute austamist, fundamentaalne seadus, et rikkus tuleb luua enne, kui seda saab jaotada, soov anda kõigile võimalus konkurentsivõimelistel turgudel…
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

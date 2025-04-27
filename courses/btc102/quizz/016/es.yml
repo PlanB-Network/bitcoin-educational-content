@@ -1,9 +1,9 @@
-question: ¿Cuál es una de las medidas para mantener tu computadora en óptimas condiciones de funcionamiento?
-answer: Realizar copias de seguridad regularmente de tus datos
+question: ¿Hasta cuántos decimales se puede dividir un Bitcoin?
+answer: Ocho
 wrong_answers:
-  - Compartir tus contraseñas
-  - Utilizar la misma contraseña para todas las cuentas
-  - Descuidar la actualización de tu computadora
+  - Seis
+  - Doce
+  - Siete
 explanation: |
-  Realizar copias de seguridad regularmente de tus datos es una de las medidas para mantener tu computadora en óptimas condiciones de funcionamiento. También es una medida básica para mejorar los hábitos de seguridad en línea.
+  Una Bitcoin puede dividirse hasta el octavo decimal, con una unidad denominada Satoshi o sat.
 reviewed: false

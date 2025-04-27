@@ -1,0 +1,11 @@
+question: Koja je glavna uloga rudara u Bitcoin mreži?
+answer: Oni osiguravaju mrežu obavljanjem Bitcoin-ovih Proof-of-Work procesa
+wrong_answers:
+  - Oni stvaraju nove bitkoine
+  - Oni regulišu cenu Bitcoin
+  - Oni kontrolišu Bitcoin mrežu
+explanation: |
+  Sadržaj poglavlja objašnjava da su rudari odgovorni za obezbeđivanje
+  Bitcoin mreže. Oni koriste električnu energiju za obavljanje Bitcoin-ovih Proof-of-Work procesa,
+  što stvara novi blok.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kikomo gani kikuu cha pochi za JBOK?
+answer: Zinahitaji chelezo huru kwa kila ufunguo wa faragha
+wrong_answers:
+  - Haziruhusu uundaji wa anwani mpya
+  - Haziendani na sahihi za dijitali
+  - Wanatumia funguo za umma ambazo hazijabanwa
+explanation: |
+  Pochi za JBOK humlazimisha mtumiaji kuhifadhi nakala ya kila ufunguo wa faragha mmoja mmoja, na hivyo kutatiza usimamizi wao.
+reviewed: false

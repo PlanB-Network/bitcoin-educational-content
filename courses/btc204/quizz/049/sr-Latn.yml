@@ -1,0 +1,9 @@
+question: Zašto se XOR operator koristi u BIP47?
+answer: Da simetrično šifruje teretni deo koda za plaćanje pošiljaoca.
+wrong_answers:
+  - Da asimetrično šifrujete sadržaj pošiljaoca platnog koda.
+  - Da simetrično šifruješ metapodatke koda plaćanja pošiljaoca.
+  - Da asimetrično šifrujete metapodatke koda plaćanja pošiljaoca.
+explanation: |
+  XOR operator se koristi za simetrično šifrovanje sadržaja koda plaćanja pošiljaoca u BIP47.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaki typ grupy jest szczególnie ważny dla kryptografii klucza publicznego ze względu na jego zdolność do generate wszystkich Elements poprzez potęgowanie?
+answer: Grupy cykliczne
+wrong_answers:
+  - Grupy nieabelowe
+  - Grupy nieskończone
+  - Grupy liczb zespolonych
+explanation: |
+  W kryptografii grupy cykliczne są niezbędne, ponieważ pozwalają na generowanie wszystkich Elements grupy za pomocą potęgowania pojedynczego elementu, zwanego generatorem.
+reviewed: false

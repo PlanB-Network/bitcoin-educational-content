@@ -1,0 +1,9 @@
+question: Šta znači apostrof (') ili h u putanji derivacije?
+answer: Ojačana derivacija
+wrong_answers:
+  - Normalna derivacija
+  - Spoljna derivacija
+  - Nenormalna derivacija
+explanation: |
+  Apostrof označava da je derivacija očvrsnuta, zahtevajući roditeljski privatni ključ za generate dečijeg ključa.
+reviewed: false

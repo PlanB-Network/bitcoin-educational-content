@@ -1,0 +1,9 @@
+question: Koja filozofija je inspirisala Cobdenovu ekonomsku viziju?
+answer: Benthamov utilitarizam
+wrong_answers:
+  - Smitov liberalizam
+  - Furijeov socijalizam
+  - Rusoin egalitarizam
+explanation: |
+  Cobden je bio pod uticajem Bentamovog utilitarizma, koji je vrednovao blagostanje za najveći broj ljudi kroz slobodnu trgovinu.
+reviewed: false

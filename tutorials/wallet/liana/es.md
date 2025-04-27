@@ -63,7 +63,7 @@ Visita el sitio web oficial de Wizardsardine y descarga Liana en https://wizards
 
 Para saber cómo verificar manualmente la autenticidad e integridad del software antes de instalarlo, le recomendamos que consulte este tutorial :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Instale el software en su máquina y ejecútelo. Elige la opción "*Crear un nuevo monedero Liana*" para configurar tu monedero.
 

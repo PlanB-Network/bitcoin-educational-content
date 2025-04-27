@@ -22,11 +22,11 @@ Hoàn tất thông tin bắt buộc: nhập địa chỉ email và quốc gia c�
 
 Để biết mẹo sử dụng và bảo vệ mật khẩu mạnh và duy nhất, hãy xem thêm hướng dẫn này:
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Bây giờ chúng ta sẽ cấu hình 2FA để bảo mật tài khoản. Sử dụng ứng dụng xác thực trên điện thoại thông minh của bạn, chẳng hạn như Google Authenticator hoặc Authy. Bạn sẽ tìm thấy hướng dẫn về công cụ này tại đây:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Quét mã QR bằng ứng dụng và nhập 6 chữ số được cung cấp.
 

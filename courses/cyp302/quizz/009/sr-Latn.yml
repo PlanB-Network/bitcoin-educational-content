@@ -1,0 +1,9 @@
+question: Koji korak nije uključen u sigurnosni dokaz modernog kriptografskog šema?
+answer: Postavljanje korisnika Interface
+wrong_answers:
+  - Navođenje definicija bezbednosti
+  - Pretpostavke matematičke složenosti
+  - Matematička demonstracija sigurnosti
+explanation: |
+  Dokaz bezbednosti u modernoj kriptografiji fokusira se na ciljeve i matematičke pretpostavke, isključujući aspekte kao što je korisnik Interface, koji nije relevantan za kriptografsku bezbednost.
+reviewed: false

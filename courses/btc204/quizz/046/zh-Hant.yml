@@ -1,0 +1,10 @@
+question: 哪種加密金鑰 Exchange 演算法是 BIP47 運作的核心？
+answer: ECDH
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+explanation: |
+  使用的演算法是 ECDH (Elliptic Curve Diffie-Hellman)。它是使用橢圓曲線的經典 Diffie-Hellman 演算法的變體。
+  
+reviewed: false

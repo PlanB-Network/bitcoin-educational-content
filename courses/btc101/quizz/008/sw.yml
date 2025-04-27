@@ -1,0 +1,11 @@
+question: Inamaanisha nini kwa Bitcoin kuwa sarafu ya upande wowote?
+answer: Haidhibitiwi na chombo au taasisi yoyote.
+wrong_answers:
+  - Inadhibitiwa na chombo au taasisi moja.
+  - Inadhibitiwa na serikali.
+  - Inatumika tu kwa shughuli kubwa.
+explanation: |
+  Bitcoin ni sarafu ya upande wowote, kumaanisha kuwa haidhibitiwi
+  na chombo au taasisi yoyote, kwa hivyo kila mtumiaji anayo sawa
+  haki. Hiki ni kipengele muhimu cha ugatuaji wake wa madaraka.
+reviewed: true

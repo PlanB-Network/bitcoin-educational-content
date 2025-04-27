@@ -1,0 +1,9 @@
+question: Zašto se volatilnost smatra prirodnim aspektom Bitcoin kao imovine u nastajanju?
+answer: Zato što je Bitcoin još uvek relativno mlad, privlači špekulante i reaguje na vesti sa tržišta, što uzrokuje oscilacije cena pre nego što se stabilizuje tokom dužih perioda.
+wrong_answers:
+  - Zato što je centralno kontrolisano i cene su određene od strane jednog autoriteta.
+  - Zato što Bitcoin nema korisnike koji ga drže dugoročno.
+  - Zato što trgovci moraju nepredvidivo postavljati cene svakog sata.
+explanation: |
+  Kao razvijajući resurs, cena Bitcoin je pod uticajem spekulacija, sentimenta i različitih stopa usvajanja. Vremenom, kako sve više stabilnih, dugoročnih vlasnika učestvuje, volatilnost može opasti, ali ostaje karakteristika rasta u ranoj fazi.
+reviewed: false

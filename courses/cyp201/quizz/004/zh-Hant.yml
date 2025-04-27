@@ -1,0 +1,9 @@
+question: 在 Bitcoin 中，generate 較短的指紋使用 Hash 功能的哪一種組合？
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 結合 SHA256 與 RIPEMD160 至 generate 160 位元指紋，尤其適用於 Bitcoin 位址。
+reviewed: false

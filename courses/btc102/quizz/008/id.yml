@@ -1,10 +1,9 @@
-question: Apa tujuan utama dari pembaruan perangkat lunak?
-answer: Untuk memperbaiki bug dan meningkatkan keamanan perangkat lunak Anda
+question: Mengapa penting untuk memperbarui sistem dan perangkat lunak Anda secara teratur?
+answer: Untuk memperbaiki kerentanan keamanan yang diketahui
 wrong_answers:
-  - Untuk menambahkan fitur baru
-  - Untuk mengubah antarmuka perangkat lunak
-  - Untuk meningkatkan ukuran perangkat lunak
+  - Untuk meningkatkan kecepatan PC dan dengan demikian merespons lebih cepat terhadap serangan siber
+  - Untuk menambahkan fitur peretasan
+  - Untuk mengoptimalkan kompatibilitas video game dengan Bitcoin
 explanation: |
-  Meskipun pembaruan perangkat lunak seringkali datang dengan fitur baru, tujuan utamanya
-  adalah untuk memperbaiki bug dan meningkatkan keamanan perangkat lunak. Hal ini sangat penting untuk menjaga
-  komputer Anda dalam kondisi kerja yang optimal.
+  Pembaruan sering kali memperbaiki kerentanan yang diketahui yang dieksploitasi oleh peretas.
+reviewed: false

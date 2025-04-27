@@ -1,0 +1,9 @@
+question: Koje su tri glavne funkcije Bitcoin Wallet?
+answer: Primanje bitkoina, slanje bitkoina, zaštita od pokušaja hakovanja i krađe.
+wrong_answers:
+  - Čuvajte bitkoine, šaljite bitkoine, osigurajte ih protiv pokušaja hakovanja i krađe.
+  - Dozvoli primanje bitkoina, čuvaj bitkoine, osiguraj ih protiv pokušaja hakovanja i krađe.
+  - Dozvoli primanje bitkoina, dozvoli slanje bitkoina, prodaju bitkoina.
+explanation: |
+  Bitcoin Wallet se koristi za interakciju sa Bitcoin mrežom. Njegove tri glavne funkcije su omogućavanje primanja bitkoina, omogućavanje slanja bitkoina i njihovo osiguranje protiv pokušaja hakovanja i krađe.
+reviewed: true

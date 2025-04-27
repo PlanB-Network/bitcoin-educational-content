@@ -1,0 +1,8 @@
+question: 什麼是瑞士 Bitcoin 薪資？
+answer: 業餘商家接受 Bitcoin 的解決方案。
+wrong_answers:
+  - 一家接受 Bitcoin 的瑞士銀行。
+  - 來自瑞士的 Bitcoin Exchange。
+  - 在瑞士工作的 Mining 公司。
+explanation: >-
+reviewed: true

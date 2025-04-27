@@ -247,4 +247,4 @@ Trick PIN - это дополнительный PIN-код, отличный о�
 
 Я также рекомендую этот другой учебник, в котором мы обсуждаем использование прямого конкурента CCQ, Ledger Flex:
 
-https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

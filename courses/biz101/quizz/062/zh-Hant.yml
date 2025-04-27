@@ -1,0 +1,9 @@
+question: 瑞士 Bitcoin Pay 接受 Bitcoin 支付的 Essential profile 的哪個替代解決方案是 100% 保管的？
+answer: 開放式節點
+wrong_answers:
+  - BTCPay 伺服器
+  - 比特幣化 PoS
+  - Phoenix Wallet
+explanation: |
+  Open Node 的特點是完全託管式解決方案，有別於瑞士 Bitcoin Pay 的混合性質。
+reviewed: false

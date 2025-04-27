@@ -12,10 +12,12 @@ proofreading:
   - language: en
     last_contribution_date: 2025-02-22
     urgency: 1
-    contributors_id:
+    contributor_names:
       - PaoloFoti
     reward: 0
 tags:
   - software
   - wallets
   - user-friendly
+contributor_names:
+  - PaoloFoti

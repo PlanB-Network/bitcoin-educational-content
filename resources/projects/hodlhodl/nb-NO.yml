@@ -6,5 +6,3 @@ description: |
   Prosessen for å starte handel er enkel. Brukere inngår en kontrakt, og Hodl Hodl genererer en unik multisig depotadresse. Selgeren deponerer bitcoins i depot direkte fra sin lommebok, og kjøperen betaler selgeren i henhold til den avtalte betalingsmetoden. Til slutt frigjør selgeren bitcoins fra depotet direkte til kjøperens lommebok, og fullfører dermed kontrakten.
 
   Hodl Hodl lar deg opprette et tilbud på dine vilkår, sette din pris, bruke flere betalingsmetoder, og sette opp en stop-loss verdi. Plattformens gjennomsiktige gebyrer deles mellom kjøper og selger og trekkes fra BTC-beløpet. Med Hodl Hodl kan du handle globalt, bruke hvilket som helst betalingssystem, for enhver valuta.
-contributors:
-  - rabbit-hole

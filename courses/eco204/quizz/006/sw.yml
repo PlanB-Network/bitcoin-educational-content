@@ -1,0 +1,12 @@
+question: Ni sababu gani kuu ya mapinduzi ya bei kati ya karne ya 15 na 17 huko Uropa?
+answer: Mapinduzi ya bei yalichochewa kwa kiasi kikubwa na utitiri mkubwa wa madini ya thamani, hasa dhahabu na fedha, kutoka Amerika.
+wrong_answers:
+  - Mapinduzi ya bei yalichochewa kwa kiasi kikubwa na utokaji mkubwa wa madini ya thamani, hasa dhahabu na fedha, hadi Amerika.
+  - Mapinduzi ya bei yalichochewa kwa kiasi kikubwa na utitiri mkubwa wa madini ya thamani hasa dhahabu na fedha, kutoka Asia.
+  - Mapinduzi ya bei yalichochewa kwa kiasi kikubwa na utokaji mkubwa wa madini ya thamani, hasa dhahabu na fedha, hadi Asia.
+explanation: |
+  Kati ya karne ya 15 na 17, Ulaya ilishuhudia uchumi wa ajabu
+  jambo, mara nyingi hujulikana kama mapinduzi ya bei. Kipindi hiki cha mfumuko wa bei
+  ilichochewa kwa kiasi kikubwa na kufurika kwa wingi kwa madini ya thamani, hasa dhahabu
+  na fedha, kutoka Amerika.
+reviewed: false

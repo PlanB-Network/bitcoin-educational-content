@@ -1,0 +1,9 @@
+question: Koja je komutativna svojina XOR operacije?
+answer: Redosled operanada ne utiče na ishod operacije
+wrong_answers:
+  - XOR radi samo sa parnim brojevima
+  - XOR zahteva operande iste dužine
+  - Položaj bitova u operandima ne utiče na ishod operacije
+explanation: |
+  XOR je komutativan, što znači da je a XOR b jednako b XOR a.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jakiemu językowi zostało poświęcone pierwsze nieanglojęzyczne podforum na forum Bitcoin w lipcu 2010 roku?
+answer: Rosyjski
+wrong_answers:
+  - Francuski
+  - Niemiecki
+  - Włoski
+explanation: |
+  Została [założona](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241) przez Martti Malmi 28 lipca. Inne języki zostały dodane w kolejnych miesiącach.
+reviewed: false

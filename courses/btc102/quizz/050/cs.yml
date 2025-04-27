@@ -1,12 +1,9 @@
-question: Jaká je hlavní charakteristika Bitcoinu, která jej odlišuje od ostatních kryptoměn?
-answer: Bitcoin je jediná skutečně decentralizovaná, odolná vůči cenzuře, svobodná a seriózní kryptoměna.
+question: Jaké řešení se doporučuje pro provádění nízkonákladových plateb Bitcoin?
+answer: Lightning Network
 wrong_answers:
-  - Bitcoin je jediná kryptoměna, která může být těžena.
-  - Bitcoin je jediná kryptoměna, která může být kupována nebo prodávána na obchodních platformách.
-  - Bitcoin je jediná kryptoměna, která může být uložena v peněžence.
+  - Hardware Wallet
+  - Bankovní účet
+  - RGB Layer
 explanation: |
-  Obsah kapitoly uvádí, že Bitcoin je jediná skutečně decentralizovaná,
-  odolná vůči cenzuře, svobodná a seriózní kryptoměna, což ospravedlňuje tisíce
-  hodin práce. To je klíčová charakteristika, která Bitcoin odlišuje od ostatních
-  kryptoměn.
+  Lightning umožňuje rychlé a levné transakce při každodenních nákupech. Je to ideální nástroj pro aktivní uživatele.
 reviewed: false

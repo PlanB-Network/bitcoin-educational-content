@@ -1,0 +1,10 @@
+question: Koji je jedan od aspekata sajber bezbednosti koji zahteva redovno praćenje?
+answer: Stalna evolucija pretnji
+wrong_answers:
+  - Tržište akcija
+  - Vreme
+  - Vesti
+explanation: |
+  Poglavlje pominje da stalna evolucija pretnji
+  u sajber bezbednosti zahteva redovno praćenje.
+reviewed: true

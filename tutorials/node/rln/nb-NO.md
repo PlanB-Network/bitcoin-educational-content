@@ -372,4 +372,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være veldig takknemlig hvis d
 
 Jeg anbefaler også denne andre veiledningen, der jeg forklarer hvordan du bruker RGB CLI-verktøyet som er utviklet av LNP/BP-foreningen, til å opprette en RGB-kontrakt:
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

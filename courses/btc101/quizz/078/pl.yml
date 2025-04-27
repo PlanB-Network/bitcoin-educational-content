@@ -1,0 +1,12 @@
+question: Która z tych opcji jest fałszywa w odniesieniu do utraty urządzenia, na którym znajduje się Bitcoin Wallet?
+answer: Możesz odtworzyć Wallet i wydać Bitcoin poprzez zresetowanie hasła.
+wrong_answers:
+  - Stracisz wszystkie swoje Bitcoiny, jeśli nie masz frazy Mnemonic.
+  - Za pomocą kluczy publicznych można zweryfikować, czy bitcoiny nie zostały wydane.
+  - Możesz odtworzyć Wallet i wydać Bitcoin używając frazy Mnemonic.
+explanation: |
+  Utrata urządzenia, na którym znajduje się Wallet, nie musi oznaczać utraty
+  niekoniecznie oznacza utratę Bitcoinów. To, co pozwala
+  na odtworzenie Wallet i wydanie Bitcoin jest fraza
+  Fraza Mnemonic.
+reviewed: true

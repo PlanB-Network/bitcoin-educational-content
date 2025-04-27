@@ -1,0 +1,9 @@
+question: 在 Bitcoin 上使用的原始私密金鑰的大小是多少？
+answer: 256 位元
+wrong_answers:
+  - 128 位元
+  - 512 位元
+  - 1024 位元
+explanation: |
+  Bitcoin 中的私密金鑰是 256 位元的隨機整數，可確保金鑰空間大到足以保證安全性。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka jest jedna korzyść z rozpoczynania od małych kwot przy pierwszym akceptowaniu płatności Bitcoin?
+answer: Pozwala to firmie uczyć się na kilku początkowych transakcjach i stopniowo przechodzić do bardziej zaawansowanych rozwiązań, jeśli zapotrzebowanie klientów rośnie.
+wrong_answers:
+  - Zmusza to firmę do natychmiastowego korzystania wyłącznie z rozwiązań samoobsługowych.
+  - Uniemożliwia to firmie późniejszą aktualizację lub zmianę dostawcy.
+  - Wymaga to od firmy zaakceptowania Bitcoin od każdego klienta przed zrozumieniem procesu.
+explanation: |
+  Rozpoczęcie od prostego, początkowego podejścia umożliwia firmie zdobycie praktycznego doświadczenia bez znaczącego ryzyka. Jeśli zainteresowanie płatnościami Bitcoin okaże się opłacalne, firma może następnie zmodernizować swoją infrastrukturę i zintegrować bardziej zaawansowane narzędzia.
+reviewed: false

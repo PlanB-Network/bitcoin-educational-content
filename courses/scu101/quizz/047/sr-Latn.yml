@@ -1,0 +1,9 @@
+question: Koja je svrha implementacije 2FA?
+answer: Da zaštitite svoje online naloge od neovlašćenog pristupa.
+wrong_answers:
+  - Da vam otežamo pristup sopstvenom nalogu
+  - Da pratite svoje aktivnosti na mreži
+  - Da biste povećali brzinu vaše internet konekcije
+explanation: |
+  2FA dodaje dodatni Layer sigurnosti vašim online nalozima. Čak i ako haker dođe do vaše lozinke, neće moći pristupiti vašem nalogu bez drugog faktora verifikacije.
+reviewed: true

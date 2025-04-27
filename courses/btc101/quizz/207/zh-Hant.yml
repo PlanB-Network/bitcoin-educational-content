@@ -1,0 +1,8 @@
+question: 將您的 Bitcoin 留在 Exchange 平台上的潛在風險之一是什麼？
+answer: 黑客入侵和資金封鎖的風險。
+wrong_answers:
+  - 平台提高 Bitcoin 價格的風險。
+  - 平台控制 Bitcoin 的 Supply 的風險。
+  - Bitcoin 價格被加密貨幣超越的風險。
+explanation: >-
+reviewed: true

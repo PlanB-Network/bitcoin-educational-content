@@ -8,8 +8,8 @@ links:
   website: https://podcast.chaincode.com/
 description: |
   The Chaincode Podcast brings you interviews with the most influential Bitcoin engineers about Bitcoin protocol development.
-contributors:
-  - rabbit-hole
+contributor_names:
+  - Rogzy-DB
 tags:
   - development
   - technical-analysis

@@ -1,0 +1,9 @@
+question: Cypherpunk Hal Finney 在發現 Bitcoin 的幾個月後，於 2009 年 8 月被診斷出患有什麼疾病？
+answer: 盧伽雷氏症
+wrong_answers:
+  - 杭丁頓氏症
+  - 阿茲海默症
+  - 帕金森症
+explanation: |
+  這種疾病在英語世界稱為肌萎縮性側索硬化症 (ALS)，於 2009 年 8 月 [診斷](https: //www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside)。他於 2014 年辭世。
+reviewed: false

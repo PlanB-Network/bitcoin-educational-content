@@ -1,8 +1,6 @@
 id: db96be11-100e-4257-b334-2f0bb9c4d063
-builder: Nakamochi
 
-credits:
-  professor: rebuild-kiss
+professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
 
 category: lightning-network
 
@@ -10,88 +8,86 @@ level: advanced
 
 project_id: 7dc44e54-3092-4250-8203-888aebc5f5a4
 
-test_only: true
-
 # Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.57
+    contributor_names:
+    reward: 3.6
   - language: de
     last_contribution_date: 2025-02-20
     urgency: 1
-    contributors_id:
-      - PaoloFoti
-    reward: 0.92
+    contributor_names:
+      - k-nakamochi
+    reward: 1.36
   - language: en
     last_contribution_date: 2025-02-20
     urgency: 1
-    contributors_id:
-      - PaoloFoti
-    reward: 0.92
+    contributor_names:
+      - k-nakamochi
+    reward: 1.36
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.7
+    contributor_names:
+    reward: 2.72
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.57
+    contributor_names:
+    reward: 3.6
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.84
+    contributor_names:
+    reward: 2.72
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.7
+    contributor_names:
+    reward: 2.72
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 5.31
+    contributor_names:
+    reward: 5.34
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.84
+    contributor_names:
+    reward: 2.72
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.57
+    contributor_names:
+    reward: 3.6
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 15775
+    contributor_names:
+    reward: 5.34
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.44
+    contributor_names:
+    reward: 4.47
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.44
+    contributor_names:
+    reward: 4.47
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.57
+    contributor_names:
+    reward: 3.6
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.57
+    contributor_names:
+    reward: 3.6
 tags:
   - node
   - guides

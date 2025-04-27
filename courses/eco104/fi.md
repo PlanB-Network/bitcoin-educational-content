@@ -39,11 +39,12 @@ Tämän kurssin on sponsoroinut TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Johdanto
+## Kurssin yleiskatsaus
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Tervetuloa ECO104-kurssille!
 
-### Elämme maailmassa, jossa:
+**Elämme maailmassa, jossa:**
 
 ● Vain [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) ihmisistä asuu yhteiskunnissa, joita pidetään "demokraattisesti vapaana". Silti, jopa tässä etuoikeutetussa osassa, ihmisoikeusrikkomukset ovat yhä yleisempiä – pankkitilien jäädyttämisestä sensuuriin. Loput 80% kamppailevat autoritaarisen hallinnon tunkeutumisen kanssa. Vain kaksi vuosikymmentä sitten lähes puolet maailman väestöstä nautti perusvapauksista.
 
@@ -62,7 +63,7 @@ Sanottuamme tämän, kurssi ei ole tarkoitettu vain niille, jotka kohtaavat hill
 
 Tämän mielessä pitäen, tehtävämme on tuoda sinut nykyisen rahoitusmaiseman muutoksen eturintamaan, haastaa olemassa olevat normit ja tarjota vaihtoehtoisia ratkaisuja. Syventymällä rahan historiaan, demystifioimalla Bitcoinin ja tutkimalla Tetheriä sekä stablecoinien maailmaa, pyrimme inspiroimaan yksilöitä uudelleenkuvittelemaan taloudellisen tulevaisuutensa.
 
-### Mitä odottaa:
+**Mitä odottaa:**
 
 **Moduuli 1: Edistyksen hinta - Lähempi katsaus rahoitusjärjestelmäämme**
 Aloitamme tutkimuksen kurkistamalla nykyisen rahoitusjärjestelmämme kulissien taakse, missä taloudellinen sensuuri, varallisuuserot ja inflaatio vaivaavat päivittäistä elämäämme. Lyhyen rahan historian kautta tarkastelemme, miten olemme päätyneet tähän pisteeseen, tuoden valoa joillekin pääkivunaiheillemme, joita me kaikki koemme.
@@ -1635,7 +1636,7 @@ Toivottavasti tämä uusi ymmärrys valtuuttaa sinut navigoimaan muuttuvassa rah
 
 Tulevaisuus on valoisa!
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

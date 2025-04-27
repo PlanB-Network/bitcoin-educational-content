@@ -86,7 +86,7 @@ Esta guía se centra exclusivamente en "Bisq Easy", el único protocolo disponib
 - Descargue la versión de Bisq 2 correspondiente a su sistema operativo (desplácese hacia abajo en la página)
 - Verifique la autenticidad del archivo descargado (muy recomendable). Para obtener una guía detallada sobre la verificación de firmas, consulte el siguiente tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Instalación según su sistema
 

@@ -49,7 +49,7 @@ Ledger Nano S Plus доступен для продажи [на официаль
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Для этих двух программных приложений я настоятельно рекомендую проверить их подлинность (с помощью GnuPG) и целостность (через хеш) перед установкой их на ваш компьютер. Если вы не уверены, как это сделать, вы можете следовать этому другому уроку:
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Как инициализировать Ledger Nano?
 
@@ -121,7 +121,7 @@ Ledger создаст вашу мнемоническую фразу, испол
 
 Парольная фраза является очень мощным инструментом для повышения безопасности ваших биткоинов. Однако очень важно понимать, как она работает, прежде чем применять ее, чтобы избежать потери доступа к вашему кошельку. Поэтому я советую вам проконсультироваться с этим другим учебным пособием, если вы хотите настроить парольную фразу на вашем Ledger:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Меню "*Блокировка PIN-кода*" позволяет настроить и активировать автоматическую блокировку вашего Ledger после определенного периода бездействия.
 
@@ -309,3 +309,4 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 Я также рекомендую вам ознакомиться с этим полным руководством по Ledger Flex:
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

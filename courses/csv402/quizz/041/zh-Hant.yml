@@ -1,0 +1,9 @@
+question: 要建立載有 RGB 資產的 Lightning 通道，需要哪些 Elements？
+answer: 以比特幣融資和以 RGB 資產融資
+wrong_answers:
+  - 一開始只提供 Bitcoin 撥款
+  - 一開始只提供 RGB 撥款
+  - 無需撥款
+explanation: |
+  該通道既需要 2/2 Multisig 上的 Bitcoin 資金，也需要 RGB 資產資金，以便在同一通道上分配資產。
+reviewed: false

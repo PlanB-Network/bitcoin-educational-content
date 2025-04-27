@@ -1,0 +1,12 @@
+question: Koja je glavna prednost fiat valuta?
+answer: Oni se lako dele.
+wrong_answers:
+  - Oni su pod kontrolom centralne partije.
+  - Oni nisu lako prenosivi.
+  - Oni su efikasni u očuvanju vrednosti kroz vreme.
+explanation: |
+  Fiat valute, kao što su dolar i evro, su veoma
+  Liquid i lako prenosive jer su sada uglavnom
+  digitalne. Međutim, njihova vrednost je konstantno narušena
+  monetarnom inflacijom.
+reviewed: true

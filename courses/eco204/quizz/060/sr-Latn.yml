@@ -1,0 +1,11 @@
+question: Koji je bio glavni razlog za osnivanje Banke Engleske?
+answer: Da bi se finansirao rat krajem 17. veka
+wrong_answers:
+  - Da izdaje sopstvenu valutu
+  - Da se takmiči sa Bankom Amsterdama
+  - Da reguliše berzu
+explanation: |
+  Banka Engleske je osnovana krajem 17. veka sa
+  primarnom motivacijom finansiranja rata. Nametnula je depozite dekretom i relegirala
+  privatne banke na sekundarnu poziciju u monetarnom sistemu.
+reviewed: false

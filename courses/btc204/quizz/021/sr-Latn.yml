@@ -1,0 +1,9 @@
+question: Koji je obrazac pojednostavljene uplate na Bitcoin?
+answer: 1 ili više UTXO-a u ulazima i 2 UTXO-a u izlazima.
+wrong_answers:
+  - 1 UTXO na ulazu i 1 UTXO na izlazu
+  - Nekoliko UTXO-a u ulazu i 1 UTXO u izlazu
+  - 5 UTXO-a u ulazima i 5 UTXO-a u izlazima
+explanation: |
+  U pojednostavljenom plaćanju, korisnik koristi jedan ili više UTXO-a kao ulaze da bi ispunio u izlazima plaćanje UTXO i kusur UTXO (dakle 2 UTXO-a).
+reviewed: false

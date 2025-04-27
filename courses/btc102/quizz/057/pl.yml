@@ -1,0 +1,9 @@
+question: Której metody pozyskiwania unika paranoiczny użytkownik?
+answer: Scentralizowane platformy z KYC
+wrong_answers:
+  - Platformy dobierania graczy w P2P
+  - Bankomaty Bitcoin
+  - Bezpośrednie zakupy gotówkowe na spotkaniach
+explanation: |
+  Aby zachować anonimowość, paranoiczny użytkownik unika platform, które wymagają weryfikacji tożsamości.
+reviewed: false

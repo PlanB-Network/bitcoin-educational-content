@@ -63,7 +63,7 @@ Kunjungi situs web resmi Wizardsardine dan unduh Liana di https://wizardsardine.
 
 Untuk mengetahui cara memverifikasi keaslian dan integritas perangkat lunak secara manual sebelum instalasi, kami sarankan Anda membaca tutorial ini:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Instal perangkat lunak pada komputer Anda dan luncurkan. Pilih opsi "*Buat dompet Liana baru*" untuk mengonfigurasi dompet Anda.
 

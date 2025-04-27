@@ -1,0 +1,9 @@
+question: Ni nini athari za nadharia ya Euler katika muktadha wa kriptografia isiyolinganishwa?
+answer: Inarahisisha hesabu ya madaraka
+wrong_answers:
+  - Inaruhusu usimbaji fiche wa moja kwa moja wa ujumbe
+  - Inatumika kupata nambari kuu
+  - Inatumika kuthibitisha usawa wa nambari
+explanation: |
+  Katika usimbaji fiche usiolinganishwa, nadharia ya Euler hurahisisha ukokotoaji wa mamlaka katika mifumo kama vile RSA, kwani hutoa mbinu ya kudhibiti maelezo ya moduli.
+reviewed: false

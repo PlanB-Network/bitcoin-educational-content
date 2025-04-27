@@ -1,0 +1,10 @@
+question: 與 BIP47 相比，Silent Payments 的缺點是什麼？
+answer: 接收器必須掃描幾乎整個 Blockchain。
+wrong_answers:
+  - 他們 generate 為寄件者收取較高的交易費用。
+  - 它們限制了可能的交易數量。
+  - 他們不太匿名。
+explanation: |
+  在 Exchange 中，為了捨棄通知交易，接收者必須掃描所有符合標準的 Bitcoin 交易，試圖找到寄給他們的付款。
+  
+reviewed: false

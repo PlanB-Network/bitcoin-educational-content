@@ -1,0 +1,13 @@
+question: Dlaczego złoto nie radzi sobie dobrze w zglobalizowanym i cyfrowym świecie?
+answer: Ponieważ potrzebuje centralnej jednostki, aby była podzielna i łatwo wymienialna.
+wrong_answers:
+  - Ponieważ nie jest wystarczająco wartościowy.
+  - Ponieważ nie jest wystarczająco rzadki.
+  - Ponieważ z czasem ulega erozji.
+explanation: |
+  Złoto nie może nadążyć w zglobalizowanym i cyfrowym świecie
+  ponieważ potrzebuje centralnego podmiotu, który uczyni je podzielnym i
+  łatwo wymienialne. To sprawia, że jest mniej praktyczne w użyciu w
+  świecie, w którym transakcje są coraz bardziej cyfrowe i
+  zdecentralizowane.
+reviewed: true

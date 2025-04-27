@@ -1,4 +1,4 @@
----silvia
+---
 name: Faragha kwenye Bitcoin
 goal: Elewa na ujue kanuni za ulinzi wa faragha unapotumia Bitcoin
 objectives: 
@@ -98,7 +98,7 @@ Bitcoin inafanya kazi tofauti. Dhana ya akaunti haipo, na vitengo vya fedha havi
 
 **> Satoshi, ambayo mara nyingi hufupishwa kukaa, ni kitengo kidogo zaidi cha Bitcoin, kinacholinganishwa na sentime katika sarafu ya pesa za serikali.
 
-```matini ghafi
+```
 1 BTC = 100 000 000 SATS
 ```
 
@@ -118,7 +118,7 @@ UTXO zote zinalindwa na hati zinazofafanua hali ambazo zinaweza kutumika. Ili ku
 
 Kwa kuwa hakuna dhana ya akaunti katika Bitcoin, salio la Pochi ni jumla ya thamani za UTXO zote inazoweza kutumia. Kwa mfano, ikiwa Pochi la Bitcoin yako linaweza kutumia UTXO 4 zifuatazo:
 
-```matini ghafi
+```
 - 2 BTC
 - 8 BTC
 - 5 BTC
@@ -143,7 +143,7 @@ Kwa hivyo, kila muamala wa Bitcoin huwa na ingizo moja au zaidi na towe moja au 
 
 ![BTC204](assets/fr/011.webp)
 
-**> Kinadharia, muamala wa Bitcoin unaweza kuwa na idadi isiyo na kikomo ya pembejeo na matokeo. Kikomo pekee ni ukubwa wa juu wa kizuizi.
+> Kinadharia, muamala wa Bitcoin unaweza kuwa na idadi isiyo na kikomo ya pembejeo na matokeo. Kikomo pekee ni ukubwa wa juu wa kizuizi.
 
 Kila ingizo katika shughuli ya Bitcoin inarejelea UTXO ambayo haijatumika hapo awali. Ili kutumia UTXO kama ingizo, mmiliki wake lazima aonyeshe kuwa yeye ndiye mmiliki halali kwa kuthibitisha hati husika, yaani kwa kukidhi sharti la matumizi lililowekwa. Kwa ujumla, hii inamaanisha kutoa sahihi ya dijiti inayozalishwa na ufunguo wa faragha unaolingana na ufunguo wa umma ambao hapo awali ulilinda UTXO hii. Kwa hivyo hati inajumuisha kuthibitisha kwamba sahihi inalingana na ufunguo wa umma uliotumiwa wakati fedha zilipokelewa.
 
@@ -171,7 +171,7 @@ Sasa hebu tufikirie kuwa Alice hana UTXO moja ya `10,000 Sats`, lakini badala ya
 
 Uangavu, mtu anaweza kufikiri kwamba gharama za muamala pia zinawakilisha matokeo ya muamala. Lakini kwa ukweli, hii sivyo. Gharama za muamala zinawakilisha tofauti kati ya jumla ya pembejeo na jumla ya matokeo. Hii ina maana kwamba, baada ya kutumia sehemu ya thamani ya pembejeo ili kufidia matokeo yanayohitajika katika muamala, jumla fulani ya pembejeo hubakia bila kutumika. Kiasi hiki cha mabaki kinajumuisha gharama za muamala.
 
-```matini ghafi
+```
 Frais = total inputs - total outputs
 ```
 
@@ -181,7 +181,7 @@ Hebu tuchukue mfano wa Alice, ambaye ana UTXO ya `10,000 Sats` na anataka kununu
 
 Kwa kutumia fomula ya ada, tunaona kwamba kuna `200 Sats` iliyosalia kwa watoto:
 
-```matini ghafi
+```
 Frais = total inputs - total outputs
 Frais = 10 000 - (4 000 + 5 800)
 Frais = 10 000 - 9 800

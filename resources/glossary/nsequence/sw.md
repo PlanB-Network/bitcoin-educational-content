@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+---
+
+Sehemu ya `nSequence` katika ingizo la muamala wa Bitcoin inatumiwa kuonyesha jinsi ingizo hili limefungwa kwa muda. Hapo awali, ilikusudiwa kuruhusu ubadilishanaji unaobadilika wa miamala katika mempools ili kuwezesha uwekeleaji wa mfumo wa malipo sawa na Umeme. Hata hivyo, matumizi yake yamebadilika kwa kuanzishwa kwa muda wa jamaa kupitia BIP68. Sehemu ya `nSequence` sasa inaweza kubainisha ucheleweshaji jamaa kabla ya muamala kujumuishwa kwenye kizuizi. Ucheleweshaji huu unaweza kufafanuliwa kulingana na idadi ya vizuizi, au kama sekunde 512 (yaani, wakati halisi). Ni muhimu kutambua kwamba tafsiri hii mpya ya uga wa `nSequence` ni halali ikiwa tu sehemu ya `nVersion` ni kubwa kuliko au sawa na `2`. Ufafanuzi huu wa uga wa `nSequence` uko katika kiwango cha kanuni za maafikiano za Bitcoin. Aidha, katika kiwango cha sheria za viwango, uwanja huu pia hutumiwa kwa kuashiria RBF (Replace-by-fee). Ikiwa muamala unajumuisha `nSequence` chini ya `0xfffffffe`, basi inaweza kubadilishwa kupitia RBF kwenye nodi zinazofuata sera hii.

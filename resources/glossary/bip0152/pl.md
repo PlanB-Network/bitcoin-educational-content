@@ -1,0 +1,5 @@
+---
+term: BIP0152
+---
+
+Propozycja "Compact Block Relay" mająca na celu zmniejszenie przepustowości potrzebnej do transmisji bloków przez sieć Bitcoin. Przyjęty w listopadzie 2016 r. w wersji 0.13.0 Bitcoin Core, protokół ten pozwala na przekazywanie informacji o blokach w zwarty sposób, w oparciu o założenie, że węzły mają już dużą część transakcji ostatniego bloku w swoich Mempool. Zamiast przesyłać każdą transakcję w całości, co spowodowałoby duplikację, BIP152 proponuje wysyłanie tylko krótkich identyfikatorów transakcji już znanych peerom, wraz z kilkoma wybranymi transakcjami (zwłaszcza Coinbase Transaction i tymi, których węzeł prawdopodobnie nie zna). Węzeł może następnie zażądać brakujących transakcji od swoich peerów. Compact Block Relay zmniejsza zatem ilość danych wymienianych podczas propagacji bloków, co zmniejsza skoki przepustowości i poprawia ogólną wydajność sieci.

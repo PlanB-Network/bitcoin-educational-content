@@ -1,0 +1,5 @@
+---
+term: BLOK KANDYDATÓW
+---
+
+Blok kandydujący to blok, który jest w trakcie tworzenia przez Miner uczestniczący w procesie Mining systemu Bitcoin. Blok kandydujący to tymczasowa struktura danych, która zawiera transakcje oczekujące na potwierdzenie, ale nie ma jeszcze ważnego Proof-of-Work do dodania do Blockchain. Miner wybiera transakcje do włączenia do bloku kandydującego na podstawie różnych czynników, takich jak powiązane opłaty transakcyjne i ograniczenia rozmiaru bloku. Po wybraniu transakcji Miner generuje nagłówek bloku, który zawiera wersję, skrót transakcji (Merkle Root), Timestamp, Hash poprzedniego bloku, cel trudności i Nonce. Następnie Miner próbuje znaleźć Hash swojego nagłówka, który spełnia bieżący cel trudności. Aby to zrobić, Miner modyfikuje Nonce obecny w nagłówku. Miner może również modyfikować inne informacje obecne w ich bloku kandydującym. Jest to mechanizm Proof-of-Work. Jeśli Miner uda się znaleźć prawidłowy Hash, blok kandydujący staje się prawidłowym blokiem i jest transmitowany do sieci w celu dodania do Blockchain.

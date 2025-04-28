@@ -1,0 +1,5 @@
+---
+term: Dust LIMIT
+---
+
+Odnosi se na prag u Sats ispod kojeg se UTXO smatra "Dust" od strane mrežnog čvora. Ovaj prag je deo pravila standardizacije koja svaki čvor može nezavisno modifikovati. U Bitcoin Core, ova granica je određena specifičnom stopom naknade, postavljenom po defaultu na 3,000 Sats po virtualnom kilobajtu (Sats/kvB). Ova granica ima za cilj ograničiti širenje transakcija koje sadrže vrlo male količine bitkoina. Naime, UTXO kvalifikovan kao Dust implicira da njegova upotreba nije ekonomski racionalna: trošenje ovog UTXO bi koštalo više nego jednostavno odustajanje od njega. Ako trošenje Dust nije racionalno, to sugeriše da bi takvi troškovi mogli biti motivisani samo spoljnim podsticajima, često zlonamernim. Ovo može biti problem ako zlonamerni akter nastoji da zasiti mrežu transakcijama koje sadrže sićušne iznose, sa ciljem povećanja operativnog opterećenja na čvorovima i potencijalno sprečavanja obrade drugih legitimnih transakcija. Da dam analogiju (iako pomalo nespretnu, priznajem), to je pomalo kao da neko pokušava da plati korpu za kupovinu od 100€ u potpunosti u kovanicama od 1 centa kako bi blokirao druge kupce na kasi.

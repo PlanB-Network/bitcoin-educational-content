@@ -1,0 +1,5 @@
+---
+term: SIGN BLIND
+---
+
+Prosessi, jossa käyttäjä allekirjoittaa Bitcoin-tapahtuman ilman, että hän voi tarkistaa allekirjoituksensa tarkat yksityiskohdat. Laitelompakoissa sokea allekirjoittaminen on vaarallista, koska käyttäjän on luotettava siihen, että liitetty tietokone näyttää tiedot (vastaanottajat, maksut, summat jne.). Tämä altistaa hänet haavoittuvuuksille, sillä tietokone on yhteydessä Internetiin ja sillä on paljon suurempi hyökkäyspinta kuin allekirjoittavalla laitteella. Jos tietokone on vaarassa, se voi manipuloida näytettyjä tietoja ja lähettää haitallisen tapahtuman allekirjoitettavaksi käyttäjän tietämättä. Tämän riskin välttämiseksi suosittelemme käyttämään laitteistolompakoita, joissa on integroitu näyttö, ja tarkistamaan siinä olevat tiedot ennen tapahtumien allekirjoittamista.

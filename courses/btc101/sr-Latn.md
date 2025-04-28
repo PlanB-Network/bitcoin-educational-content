@@ -1237,7 +1237,7 @@ Nakon ove pobede, čvorovi su aktivirali ažuriranje pod nazivom SegWit, otvaraj
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem ASIC mašina da reše bitkoin Proof of Work.**
+**Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem ASIC mašina da reše Bitkoin Proof of Work(dokaz o radu).**
 
 
 ![image](assets/en/55.webp)
@@ -1246,62 +1246,62 @@ Nakon ove pobede, čvorovi su aktivirali ažuriranje pod nazivom SegWit, otvaraj
 ### Objašnjenje Proof of Work
 
 
-"Proof of Work" (POW) je mehanizam sigurnosnog konsenzusa protokola bitkoin. To je osnova svega i igra ključnu ulogu u teoriji igara bitkoin.
+"Proof of Work" (POW) je mehanizam konsenzusa za bezbednost Bitkoin protokola. To je osnova svega i igra ključnu ulogu u teoriji igara Bitkoina.
 
 
-Da objasnimo kako to funkcioniše, zamislite univerzalnu lutriju u kojoj svako može učestvovati. Cilj je pronaći specifičan broj koji omogućava pobedniku da potpiše validan blok, zarađujući nagradu u bitkoin. Ovaj broj je veoma jednostavan za verifikaciju korišćenjem SHA-256 Hash funkcije, ali ga je teško pronaći: učesnici (rudari) će pokušavati milijarde i milijarde mogućnosti, kao što su 1, 52, 2648, 26874615, 15344854131318631, i tako dalje, sve dok ne otkriju pravi.
+Da objasnimo kako to funkcioniše, zamislite univerzalnu lutriju u kojoj svako može učestvovati. Cilj je pronaći specifičan broj koji omogućava pobedniku da potpiše validan blok, zarađujući nagradu u bitkoinima. Ovaj broj je veoma jednostavan za verifikaciju korišćenjem SHA-256 Hash funkcije, ali ga je teško pronaći: učesnici (rudari) će pokušavati milijarde i milijarde mogućnosti, kao što su 1, 52, 2648, 26874615, 15344854131318631, i tako dalje, sve dok ne otkriju pravi.
 
 
-Ako je izabrani broj tačan: Jackpot! U suprotnom, potraga se nastavlja.
+Ako je izabrani broj tačan: Džekpot! U suprotnom, potraga se nastavlja.
 
 Da bi optimizovali broj pokušaja, koristiće specifične mašine zvane ASIC, koje imaju jedinu ulogu da izračunavaju milijarde mogućnosti po sekundi (ukupna količina pokušaja se zove "Hashrate"). Da bi ove mašine radile, mora se trošiti velika količina električne energije. Stoga, POW pretvara energiju u valutu, povezujući stvarni svet i digitalni svet kako bi stvorio prvu valutu zasnovanu na energiji.
 
 
-Mašine rade neprekidno, i nakon prosečno 10 minuta, pojavljuje se pobednik: ovaj učesnik je uspešno pronašao tačan Hash koji je ispod praga težine. Ovaj jedini pobednik će zatim potpisati novi blok Timestamp servera, dodajući ga na Blockchain. Oni dobijaju svoje nagrade i vraćaju se da okušaju sreću na Mining sledećem bloku. Ovaj proces traje više od deset godina, sa pobednikom koji potvrđuje bitkoin transakcije svakih 10 minuta dok takođe osigurava prošle transakcije, čineći bitkoin Blockchain robusnijim i sigurnijim.
+Mašine rade neprekidno, i nakon prosečno 10 minuta, pojavljuje se pobednik: ovaj učesnik je uspešno pronašao tačan Hash koji je ispod praga težine. Ovaj jedini pobednik će zatim potpisati novi blok vremenskog servera, dodajući ga na Blockchain. Oni dobijaju svoje nagrade i vraćaju se da okušaju sreću u rudarenju sledećeg bloka. Ovaj proces traje više od deset godina, sa pobednikom koji potvrđuje bitkoin transakcije svakih 10 minuta dok takođe osigurava prošle transakcije, čineći Bitkoin Blockchain robusnijim i sigurnijim.
 
 
-Svakih 2016 blokova (otprilike svake dve nedelje), **podešavanje težine** ponovo balansira globalnu Mining igru na osnovu broja učesnika. Ovo podešavanje je neophodno jer broj rudara i njihova kombinovana računarska snaga mogu značajno varirati tokom vremena. Da bi se održalo ciljno vreme bloka, mreža ponovo kalibriše nivo težine na osnovu toga koliko brzo su poslednjih 2016 blokova iskopani. Ako su iskopani prebrzo, težina se povećava, čineći teže pronalaženje tačnog Hash. Suprotno tome, ako su iskopani presporo, težina se smanjuje, čineći ga lakšim.
+Svakih 2016 blokova (otprilike svake dve nedelje), **podešavanje težine** ponovo balansira globalnu rudarsku igru na osnovu broja učesnika. Ovo podešavanje je neophodno jer broj rudara i njihova kombinovana računarska snaga mogu značajno varirati tokom vremena. Da bi se održalo ciljno vreme bloka, mreža ponovo kalibriše nivo težine na osnovu toga koliko brzo su poslednjih 2016 blokova iskopani. Ako su iskopani prebrzo, težina se povećava, čineći teže pronalaženje tačnog Hash-a. Suprotno tome, ako su iskopani presporo, težina se smanjuje, čineći ga lakšim.
 
 
 ![image](assets/en/24.webp)
 
 
-### Mining se stalno razvija
+### Rudarenje se stalno razvija
 
 
-Tokom godina, rudari su se opremili sve efikasnijim računalnim hardverom kako bi proizveli što više heševa po sekundi (Hashrate) uz što manju potrošnju energije na najisplativiji mogući način. Rani rudari, poput Satoshi ili Hal Finney, rudarili su koristeći samo svoj CPU, zatim su drugi počeli Mining sa svojim grafičkim karticama. Danas rudari koriste ASIC-ove (Application-Specific Integrated Circuit): mašine dizajnirane isključivo za primenu SHA256 algoritma.
+Tokom godina, rudari su se opremili sve efikasnijim računarima kako bi proizveli što više heševa po sekundi (Hashrate) uz što manju potrošnju energije na najisplativiji mogući način. Rani rudari, poput Satoshi-ja ili Hal Finney-a, rudarili su koristeći samo svoj CPU, zatim su drugi počeli da rudare sa svojim grafičkim karticama. Danas rudari koriste ASIC-ove (Application-Specific Integrated Circuit): mašine dizajnirane isključivo za primenu SHA256 algoritma.
 
 
 ![image](assets/en/56.webp)
 
 
-Hashrate mreže bitkoin predstavlja broj pokušaja napravljenih po sekundi da se pronađe sledeći blok. Danas Hashrate premašuje 500 TH/s, što je 500.000 milijardi pokušaja po sekundi! Što je veći globalni Hashrate, to je teže za zlonamernog aktera da monopolizuje resurse potrebne za dobijanje većine Mining snage i potroši svoja sredstva više puta (problem dvostrukog trošenja). Stoga je ekonomski isplativije slediti pravila bitkoin protokola nego delovati protiv njih.
+Hashrate Bitkoin mreže predstavlja broj pokušaja napravljenih po sekundi da se pronađe sledeći blok. Danas Hashrate premašuje 500 TH/s, što je 500.000 milijardi pokušaja po sekundi! Što je veći globalni Hashrate, to je teže za zlonamernog aktera da monopolizuje resurse potrebne za dobijanje većine rudarske snage i potroši svoja sredstva više puta (problem dvostrukog trošenja). Stoga je ekonomski isplativije slediti pravila Bitkoin protokola nego delovati protiv njih.
 
 
 ![image](assets/en/57.webp)
 
 
-### Šta se može naći u bloku?
+### Šta se nalazi u bloku?
 
 
-Zaglavlje bloka sadrži nekoliko Elements kao što su vreme, cilj težine, broj poslednjeg bloka, korišćena verzija i Merkle Root prethodnih transakcija.
+Zaglavlje bloka sadrži nekoliko elemenata kao što su vreme, cilj težine, broj poslednjeg bloka, korišćena verzija i Merkle Root prethodnih transakcija.
 
 
-**Coinbase Transaction** je uvek prva transakcija uključena u blok: sadrži nagradu Miner za izvršavanje Proof-of-Work. Zatim dolaze validirane transakcije. Rudari će odabrati da ubace transakcije koje im donose najveći profit, naime transakcije male veličine sa maksimalnim naknadama.
+**Coinbase Transaction** je uvek prva transakcija uključena u blok: sadrži nagradu rudara za izvršavanje Proof-of-Work. Zatim dolaze validirane transakcije. Rudari će odabrati da ubace transakcije koje im donose najveći profit, naime transakcije male veličine sa maksimalnim naknadama.
 
 
-### Miner kompenzacija
+### Nagrada za rudare
 
 
-U početku, Miner se kompenzuje kada pronađu važeći blok. Tačnije, nagrađuju se na dva načina:
+U početku, rudar je nagrađen kada pronađe važeći blok. Tačnije, nagrađuje se na dva načina:
 
 
 
-- kroz subvenciju (novoiskovani bitkoini) uključenu u blok;
+- kroz subvencije-nagrade (u vidu novoiskovanih bitkoina) uključenih u blok;
 - kroz naknade za transakcije iz transakcija uključenih u blok.
 
 
-Iznos subvencije je definisan pravilima konsenzusa i zavisi od epohe: **Block reward = subvencija za blok + naknade za transakcije**.
+Iznos nagrade je definisan pravilima konsenzusa i zavisi od epohe: **nagrada za blok = subvencija za blok + naknade za transakcije**.
 
 
 Za prve blokove, subvencija bloka je bila 50 bitkoina. Svakih 210.000 blokova (otprilike svake 4 godine), ovaj iznos se prepolovi. Danas (2024. godine), nalazimo se u 5. epohi, što znači da je subvencija 3.125 bitkoina. Ukratko, ovo je automatski mehanizam koji pušta nove bitkoine u sistem. Subvencija se smanjuje tokom vremena, dok ne dostigne granicu izdavanja od 21 milion bitkoina. Već postoji preko 19,4 miliona bitkoina u opticaju, što je preko 92%.
@@ -1316,69 +1316,69 @@ Drugi metod kompenzacije definiše se iznosom koji korisnici odaberu za transakc
 ![image](assets/en/59.webp)
 
 
-Da bi stabilizovali svoj poslovni model, koji se oslanja na nagrade koje dobijaju za svaki važeći blok, rudari često stvaraju grupe kroz "Mining bazene", gde udružuju svoje računarske resurse.
+Da bi stabilizovali svoj poslovni model, koji se oslanja na nagrade koje dobijaju za svaki važeći blok, rudari često stvaraju grupe kroz "Rudarske bazene", gde udružuju svoje računarske resurse.
 
 
 ### Zašto se truditi raditi sve ovo?
 
 
-Ukratko, inovacija bitkoin je predlaganje rešenja za problem dvostrukog trošenja kroz korišćenje Blockchain zasnovanog na Proof-of-Work sa promenljivom težinom. U digitalnom svetu, koncept Ownership se razlikuje od onog u fizičkom svetu. Zapravo, u digitalnom svetu, sve može biti kopirano i nalepeno, što stvara rizik korišćenja digitalnih sredstava više puta, ili dvostrukog trošenja. Pouzdani posrednici, kao što su banke, su stvoreni da reše ovaj tehnološki problem i osiguraju da kada se sredstvo prenese, ono više ne pripada pošiljaocu.
+Ukratko, inovacija Bitkoina je predlaganje rešenja za problem dvostrukog trošenja kroz korišćenje Blockchaina zasnovanog na Proof-of-Work sa promenljivom težinom. U digitalnom svetu, koncept vlasništva se razlikuje od onog u fizičkom svetu. Zapravo, u digitalnom svetu, sve može biti kopirano i nalepeno, što stvara rizik korišćenja digitalnih sredstava više puta, ili dvostrukog trošenja. Pouzdani posrednici, kao što su banke, su stvoreni da reše ovaj tehnološki problem i osiguraju da kada se sredstvo prenese, ono više ne pripada pošiljaocu.
 
 
-Ali kako se to može uraditi bez pouzdanog posrednika? Ovaj problem je dobro opisan kroz paradoks Vizantijskih generala, problem koordinacije informacija u sistemu gde se raznim akterima ne može verovati. U Problemu Vizantijskih generala, grupa generala mora koordinisati napad na grad, ali neki mogu biti izdajnici koji pokušavaju da poremete plan. Izazov je da lojalni generali postignu konsenzus o tome da li da napadnu ili se povuku, uprkos potencijalno obmanjujućim porukama od izdajnika.
+Ali kako se to može uraditi bez pouzdanog posrednika? Ovaj problem je dobro opisan kroz paradoks Vizantijskih generala, problem koordinacije informacija u sistemu gde se raznim akterima ne može verovati. U Problemu Vizantijskih generala, grupa generala mora koordinirati napad na grad, ali neki mogu biti izdajnici koji pokušavaju da poremete plan. Izazov je da lojalni generali postignu konsenzus o tome da li da napadnu ili se povuku, uprkos potencijalno obmanjujućim porukama od izdajnika.
 
 
 ![image](assets/en/60.webp)
 
 
-bitkoin je stoga neka vrsta rešenja za ovaj problem, ili barem način da se zaobiđe. "Generali" bitkoin, ili rudari, proizvode blokove (informacija) i bitkoin čvorovi verifikuju finansijske transakcije koristeći pravila konsenzusa kako bi osigurali autentičnost informacija. Asimetrija u trošku energije između proizvodnje i verifikacije informacija osigurava pouzdanost informacija, bez potrebe za pouzdanim trećim licem.
+Bitkoin je stoga neka vrsta rešenja za ovaj problem, ili barem način da se zaobiđe. "Generali" Bitkoina, ili rudari, proizvode blokove (informacije) i Bitkoin čvorovi verifikuju finansijske transakcije koristeći pravila konsenzusa kako bi osigurali autentičnost informacija. Asimetrija u trošku energije između proizvodnje i verifikacije informacija osigurava pouzdanost informacija, bez potrebe za pouzdanim trećim licem.
 
 
-Rudari su graditelji sigurnosti mreže bitkoin. Trošenjem energije za proizvodnju heševa, oni grade zid koji čini izuzetno skupim za zlonamernog agenta da prepiše istoriju transakcija, a ovaj ekonomski destimulans odvraća druge od nepoštenog ponašanja.
+Rudari su graditelji sigurnosti Bitkoin mreže. Trošenjem energije za proizvodnju hash-eva, oni grade zid koji čini izuzetno skupim za zlonamernog agenta da prepravi istoriju transakcija, a ovaj ekonomski destimulans odvraća druge od nepoštenog ponašanja.
 
 
-Čak i u slučaju napada od 51%, gde bi agent posedovao više od polovine Hashrate, mreža bi ostala sigurna jer napadač mora potrošiti onoliko energije koliko svi rudari zajedno da bi pokušao modifikovati Blockchain. Ovaj energetski intenzivan Proof-of-Work mehanizam je ono što osigurava sigurnost mreže.
+Čak i u slučaju napada od 51%, gde bi agent posedovao više od polovine Hashrate-a, mreža bi ostala sigurna jer napadač mora potrošiti onoliko energije koliko svi rudari zajedno da bi pokušao modifikovati Blockchain. Ovaj energetski intenzivan Proof-of-Work mehanizam je ono što osigurava sigurnost mreže.
 
 
 ### Ukratko
 
 
-Teorija igara primenjena na bitkoin eliminiše nepoštene rudare, koji koriste ASIC mašine za rudarenje i dobijaju nagradu u slučaju uspeha. Pored toga, često se pridružuju Mining bazenima kako bi delili svoju računarsku snagu i dobijali manje, ali redovnije nagrade. Dok bitkoin Mining izaziva visoke troškove energije, ključan je za rad i sigurnost bitkoin mreže. Proof-of-Work mehanizam i Blockchain tehnologija Address Double-spending problem i obezbeđuju integritet informacija bez oslanjanja na pouzdanu treću stranu. Iako proizvodnja informacija zahteva značajnu potrošnju energije, verifikacija tih informacija ima zanemarljiv trošak. Ova asimetrija pojačava sigurnost mreže, čineći ekonomski isplativijim pridržavanje pravila konsenzusa nego pokušaj njihovog kršenja.
+Teorija igara primenjena na Bitkoin eliminiše nepoštene rudare, koji koriste ASIC mašine za rudarenje i dobijaju nagradu u slučaju uspeha. Pored toga, često se pridružuju Rudarskim bazenima kako bi delili svoju računarsku snagu i dobijali manje, ali redovnije nagrade. Dok Bitkoin rudarenje izaziva visoke troškove energije, ključan je za rad i sigurnost Bitkoin mreže. Proof-of-Work mehanizam i Blockchain tehnologija rešavaju problem dvostrukog trošenja (Double-spending) i obezbeđuju integritet informacija bez oslanjanja na pouzdanu treću stranu. Iako proizvodnja informacija zahteva značajnu potrošnju energije, verifikacija tih informacija ima zanemarljiv trošak. Ova asimetrija pojačava sigurnost mreže, čineći ekonomski isplativijim pridržavanje pravila konsenzusa nego pokušaj njihovog kršenja.
 
 
-Ako želite da se dublje upustite u specifičnu temu bitkoin Mining, možete se konsultovati sa našim kursom MIN 201. Otkrićete funkcionisanje i ulogu Proof-of-Work, kao i mehaniku industrije Mining. Takođe objašnjavamo kako da konvertujete ASIC u grejač, omogućavajući vam da iskopate svoje prve satoshije dok grejete svoj dom!
+Ako želite da se dublje upustite u specifičnu temu rudarenja Bitkoina, možete se konsultovati sa našim kursom MIN 201. Otkrićete kako funkcioniše i ulogu Proof-of-Work, kao i mehaniku rudarske industrije. Takođe objašnjavamo kako da konvertujete ASIC u grejač, omogućavajući vam da izrudarite svoje prve satoshije dok grejete svoj dom!
 
 
 https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
-## bitkoin i ekologija
+## Bitkoin i ekologija
 
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
 
-U prethodnom odeljku smo razumeli da bezbednost bitkoin protokola zavisi od visoke potrošnje energije kako bi se proizveo javni Ledger transakcija bez pouzdane treće strane. U mejnstrim medijima, ukupni energetski trošak se često poredi sa potrošnjom električne energije male zemlje. Ali da li ovo poređenje ima smisla? Da li je relevantno razumeti razloge iza takvih troškova?
+U prethodnom delu smo razumeli da se bezbednost Bitkoin protokola oslanja na visoku potrošnju energije kako bi se proizveo javni registar (ledger) transakcija bez pouzdane treće strane. U mejnstrim medijima, ukupni energetski trošak se često poredi sa potrošnjom električne energije male zemlje. Ali da li ovo poređenje ima smisla? Da li je relevantno razumeti razloge iza takvih troškova?
 
 
-### Troškovi energije za bitkoin.
+### Energetski troškovi Bitkoina.
 
 
-Prvo, hajde da kvalitativno procenimo ekološki trošak Mining. Miner mora imati mašinu kao što je ASIC i izvor energije u obliku električne energije da bi pokretao ove mašine. ASIC-ovi su uglavnom napravljeni od aluminijuma i mogu se ili reciklirati ili ponovo koristiti za drugu svrhu (kao što je pokazano u projektu Attakaï opisanom u našem kursu MIN201), koji transformiše Antminer S9 u grejalicu. Glavna briga je stoga potrošnja energije.
+Prvo, hajde da kvalitativno procenimo ekološki trošak rudarenja. Miner mora imati mašinu kao što je ASIC i izvor energije u obliku električne energije da bi pokretao ove mašine. ASIC-ovi su uglavnom napravljeni od aluminijuma i mogu se ili reciklirati ili ponovo koristiti za drugu svrhu (kao što je pokazano u projektu Attakaï opisanom u našem kursu MIN201), koji transformiše Antminer S9 u grejalicu. Glavna briga je, dakle, potrošnja energije.
 
 
 ![image](assets/en/61.webp)
 
 
-Potrošnja električne energije predstavlja gotovo sve troškove za Miner. Stoga se podstiču da pronađu jeftin izvor električne energije, kako bi mogli otići na mesta gde su elektrane instalirane, ali još nisu povezane na električnu mrežu teritorije. U ovom slučaju, rudari deluju kao kupci poslednjeg izbora, omogućavajući elektranama da osiguraju finansiranje čak i pre nego što budu povezane na električnu mrežu. Kada se povežu, potražnja za električnom energijom će porasti, što će povećati cenu i učiniti manje profitabilnim za rudare da dobiju električnu energiju na tim mestima. Pošto se mašine mogu lako premestiti, rudari će tada odlučiti da presele svoju instalaciju i nasele se dalje gde je potražnja niska, a cena takođe, najčešće u oblastima gde mogu dobiti energiju iz Green elektrana.
+Potrošnja električne energije predstavlja gotovo sve troškove za rudara. SStoga su oni podstaknuti da pronađu jeftin izvor električne energije, pa mogu otići na mesta gde su elektrane instalirane, ali još nisu povezane na električnu mrežu teritorije. U ovom slučaju, rudari deluju kao kupci poslednjeg izbora, omogućavajući elektranama da osiguraju finansiranje čak i pre nego što budu povezane na električnu mrežu. Kada se povežu, potražnja za električnom energijom će porasti, što će povećati cenu i učiniti manje profitabilnim za rudare da dobiju električnu energiju na tim mestima. Pošto se mašine mogu lako premestiti, rudari će tada odlučiti da presele svoju instalaciju i nasele se dalje gde je potražnja niska, a cena takođe, najčešće u oblastima gde mogu dobiti energiju iz zelenih elektrana.
 
 
 ### Beskrajna debata
 
 
-Dakle, debata o ekološkom uticaju bitkoin je često pogrešno usmerena, uglavnom zbog nedovoljnog razumevanja njegove korisnosti. bitkoin se ne može procenjivati samo u smislu troškova energije po transakciji, jer rudari obezbeđuju i trenutnu i istorijsku mrežu, a transakcije su grupisane i nisu sve ekvivalentne. Osim toga, uticaj Lightning Network se čak ni ne uzima u obzir. Oni koji tvrde da bitkoin troši previše energije mogu imati političke motive ili žele da prodaju sopstveno Blockchain rešenje. Mnoge puta se ekološki izgovor koristi za opravdanje zabrane bitkoin.
+Dakle, debata o ekološkom uticaju Bitkoina je često pogrešno usmerena, uglavnom zbog nedovoljnog razumevanja njegove korisnosti. bitkoin se ne može procenjivati samo u smislu troškova energije po transakciji, jer rudari obezbeđuju i trenutnu i istorijsku mrežu, a transakcije su grupisane i nisu sve ekvivalentne. Osim toga, uticaj Lightning mrežu se čak ni ne uzima u obzir. Oni koji tvrde da Bitkoin troši previše energije mogu imati političke motive ili žele da prodaju sopstveno Blockchain rešenje. Mnogo puta se ekološki izgovor koristi za opravdanje zabrane Bitkoina.
 
 
-Važno je naglasiti da bitkoin, kao revolucionarni izum, pruža sredstvo za pojedince koji žive pod finansijskom represijom ili diktatorskim režimima da se bore za svoju slobodu. Kao poslednje sredstvo, bitkoin nudi put ka finansijskoj nezavisnosti zaobilazeći cenzuru i bankarska ograničenja. Više od same valute, bitkoin služi kao oblik komunikacije i simbol slobode, a energija koju troše rudari igra ključnu ulogu u odbrani te slobode, omogućavajući emancipaciju od finansijskog sistema kojim dominiraju dug i prekomerno stvaranje novca od strane centralnih banaka.
+Važno je naglasiti da Bitkoin, kao revolucionarni izum, pruža sredstvo za pojedince koji žive pod finansijskom represijom ili diktatorskim režimima da se bore za svoju slobodu. Kao poslednje sredstvo, Bitkoin nudi put ka finansijskoj nezavisnosti zaobilazeći cenzuru i bankarska ograničenja. Više od same valute, Bitkoin služi kao oblik komunikacije i simbol slobode, a energija koju troše rudari igra ključnu ulogu u odbrani te slobode, omogućavajući emancipaciju od finansijskog sistema kojim dominiraju dug i prekomerno štampanje novca od strane centralnih banaka.
 
 
 ![image](assets/en/62.webp)
@@ -1388,16 +1388,16 @@ Važno je naglasiti da bitkoin, kao revolucionarni izum, pruža sredstvo za poje
 ![image](assets/en/64.webp)
 
 
-Za one koji žive u zemljama sa visokim stopama inflacije, bitkoin je pitanje opstanka. Omogućava način preživljavanja u nesigurnim finansijskim situacijama. Štaviše, bitkoin nudi pravedniji i nepristrasniji finansijski sistem, pružajući milijardama ljudi širom sveta pristup finansijskim resursima. S obzirom na ovu perspektivu, da li je potrošnja energije opravdana?
+Za one koji žive u zemljama sa visokim stopama inflacije, Bitkoin je pitanje opstanka. On omogućava način preživljavanja u nesigurnim finansijskim situacijama. Štaviše, Bitkoin nudi pravedniji i nepristrasniji finansijski sistem, pružajući milijardama ljudi širom sveta pristup finansijskim resursima. S obzirom na ovu perspektivu, da li je potrošnja energije opravdana?
 
 
-### bitkoin bi mogao biti neto pozitivan za životnu sredinu
+### Bitkoin bi mogao biti neto pozitivan za životnu sredinu
 
 
-Konačno, neophodno je diskutovati o ekonomskim i ekološkim posledicama usvajanja bitkoin.
+Konačno, neophodno je diskutovati o ekonomskim i ekološkim posledicama usvajanja Bitkoina.
 
 
-Kada ga uporedimo sa trenutnim finansijskim sistemom, potonji, zbog podsticanja prekomerne potrošnje i zaduživanja, predstavlja ozbiljne probleme. Faktori kao što su lak pristup kreditima, izdavanje novca od strane banaka i praksa frakcionog bankarstva sa rezervama doprinose prekomernom zaduživanju i, kao rezultat, prekomernoj potrošnji.
+Kada ga uporedimo sa trenutnim finansijskim sistemom, potonji, zbog podsticanja prekomerne potrošnje i zaduživanja, predstavlja ozbiljne probleme. Faktori kao što su lak pristup kreditima, izdavanje novca od strane banaka i praksa frakcionalnog bankarstva sa rezervama doprinose prekomernom zaduživanju i, kao rezultat, prekomernoj potrošnji.
 
 
 ![image](assets/en/65.webp)
@@ -1412,28 +1412,28 @@ Trenutni finansijski sistem je u skladu sa idejama kejnzijanske ekonomije, koja,
 ![image](assets/en/66.webp)
 
 
-Političari obično imaju kratkoročnu viziju i potrebna im je ekonomska rast da bi bili ponovo izabrani, tako da nisu u stanju da reše ekološke probleme na duži rok. Usvajanje stabilne valute kao što je bitkoin je potencijalna alternativa koja bi mogla ekonomski osnažiti ljude.
+Političari obično imaju kratkoročnu viziju i potrebna im je ekonomska rast da bi bili ponovo izabrani, tako da nisu u stanju da reše ekološke probleme na duži rok. Usvajanje stabilne valute kao što je Bitkoin je potencijalna alternativa koja bi mogla ekonomski osnažiti ljude.
 
 
-Kritičari ne priznaju da bitkoin podstiče korišćenje energije Green. Na primer, plamenovi zapaljeni na naftnim bušotinama kako bi se sagoreo metan i sprečilo zagađenje mogu biti ugašeni od strane rudara bitkoin, jer se metan može pretvoriti u električnu energiju za napajanje mašina Mining, što je korisno za životnu sredinu.
+Kritičari ne priznaju da Bitkoin podstiče korišćenje zelene energije. Na primer, plamenovi zapaljeni na naftnim bušotinama kako bi se sagoreo metan i sprečilo zagađenje mogu biti ugašeni od strane Bitkoin rudara, jer se metan može pretvoriti u električnu energiju za napajanje rudarskih mašina, što je korisno za životnu sredinu.
 
 
-**Prati jednu od bitkoin-ovih maksima: Ne veruj, proveri sam!**
+**Prati jednu od Bitkoin-ovih maksima: Ne veruj, proveri sam!**
 
 
-### Kratak pregled tehničkih karakteristika bitkoin
+### Kratak pregled tehničkih karakteristika Bitkoina
 
 
-Satoshi Nakamoto je objavio bitkoin protokol u januaru 2009, koji je od tada evoluirao zahvaljujući rastućoj zajednici programera, rudara i korisnika sa bitkoin čvorovima. Držeći svoju kopiju bitkoin Blockchain, javnog Ledger svih bitkoin transakcija, ovi čvorovi mogu osigurati validnost transakcija prema bitkoin pravilima konsenzusa. Ovo uključuje osiguranje da rudari proizvode validne blokove, koji sadrže hiljade transakcija na čekanju.
+Satoshi Nakamoto je objavio Bitkoin protokol u januaru 2009, koji je od tada evoluirao zahvaljujući rastućoj zajednici programera, rudara i korisnika sa Bitkoin čvorovima. Čuvanjem svoje kopije Bitkoin Blockchaina, javnog registra svih Bitkoin transakcija, ovi čvorovi mogu osigurati validnost transakcija prema Bitkoin pravilima konsenzusa. Ovo uključuje osiguranje da rudari proizvode validne blokove, koji sadrže hiljade transakcija koje čekaju na obradu.
 
 
-U proseku, blok se kreira svakih 10 minuta, a Miner koji pronađe važeći Hash za sledeći blok biva nagrađen od strane protokola kako subvencijom koja je definisana pravilima konsenzusa, tako i transakcionim naknadama iz svih transakcija uključenih u važeći blok. Pošto se rezultat heš algoritma (SHA256) za dati ulaz smatra nepredvidivim, proces Mining uključuje izgradnju brojnih kandidatskih blokova i testiranje da li je njihov Hash važeći ili ne. Međutim, da bi se osiguralo da prosečno vreme između dva bloka ostane konstantno (~10 min) bez obzira na broj rudara i njihovu računarsku snagu, težina pronalaženja važećeg Hash se prilagođava svakih 2016 blokova, otprilike svake 2 nedelje. Rudarima su tokom vremena razvijene specijalizovane SHA256 mašine, nazvane ASICS, kako bi povećali stopu Hash po džulu, što znači broj pokušaja po sekundi po potrošenoj energiji.
+U proseku, blok se kreira svakih 10 minuta, a rudar koji pronađe važeći Hash za sledeći blok biva nagrađen od strane protokola kako subvencijom koja je definisana pravilima konsenzusa, tako i transakcionim naknadama iz svih transakcija uključenih u važeći blok. Pošto se rezultat hash algoritma (SHA256) za dati ulaz smatra nepredvidivim, proces rudarenja uključuje izgradnju brojnih kandidatskih blokova i testiranje da li je njihov Hash važeći ili ne. Međutim, da bi se osiguralo da prosečno vreme između dva bloka ostane konstantno (~10 min) bez obzira na broj rudara i njihovu računarsku snagu, težina pronalaženja važećeg Hash se prilagođava svakih 2016 blokova, otprilike svake 2 nedelje. Rudari su tokom vremena razvili specijalizovane SHA256 mašine, nazvane ASICS, kako bi povećali stopu Hash-iranja po džulu, što znači broj pokušaja po sekundi po potrošenoj energiji.
 
 
-Kako bi rudari bili što profitabilniji u svojoj aktivnosti, moraju dobiti što jeftiniju električnu energiju, što je često u udaljenim lokacijama, unutar elektrana koje još nisu povezane na mrežu. Miner tada deluje kao kupac poslednjeg izbora, i, čim cena električne energije poraste zbog povećanja potražnje, Miner će težiti da svoju aktivnost premesti na drugo mesto.
+Kako bi rudari bili što profitabilniji u svojoj aktivnosti, moraju dobiti što jeftiniju električnu energiju, što je često u udaljenim lokacijama, unutar elektrana koje još nisu povezane na mrežu. Rudar tada deluje kao kupac poslednjeg izbora, i, čim cena električne energije poraste zbog povećanja potražnje, rudar će težiti da svoju aktivnost premesti na drugo mesto.
 
 
-Dakle, bitkoin protokol je necenzurisan i nezaustavljiv monetarni sistem jer je svaki deo protokola geografski distribuiran širom sveta. Na primer, postoji više od 40,000 bitkoin čvorova na svim kontinentima. Konsenzus pravila bitkoin su takva da je ekonomski isplativije slediti ih nego pokušati ih prekršiti, i stoga nije potrebno poverenje između aktera. bitkoin nema vođu i ne može biti zaustavljen. Čak i ako je moguće regulisati Exchange platforme kako bi se ograničio bitkoin, ovaj pristup ima marginalan uticaj na sistem. Ukratko, nijedan sudija ili država ne može cenzurisati ili zaustaviti bitkoin.
+Dakle, Bitkoin protokol je necenzurisan i nezaustavljiv monetarni sistem jer je svaki deo protokola geografski distribuiran širom sveta. Na primer, postoji više od 40,000 Bitkoin čvorova na svim kontinentima. Pravila konsenzusa Bitkoina su takva da je ekonomski isplativije slediti ih nego pokušati ih prekršiti, i stoga nije potrebno poverenje između aktera. Bitkoin nema vođu i ne može biti zaustavljen. Čak i ako je moguće regulisati platforme za trgovanje (menjačnice) kako bi se ograničio Bitkoin, ovaj pristup ima marginalan uticaj na sistem. Ukratko, nijedan sudija ili država ne može cenzurisati ili zaustaviti Bitkoin.
 
 
 # Kako doći do bitkoin?
@@ -1442,25 +1442,25 @@ Dakle, bitkoin protokol je necenzurisan i nezaustavljiv monetarni sistem jer je 
 <partId>517e1bb7-f032-51a0-930a-a91fe5148d3f</partId>
 
 
-## bitkoin Nikad Ne Spava!
+## Bitkoin Nikad Ne Spava!
 
 
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
 
-Cena bitkoin često je karakterizirana značajnom volatilnošću. Njegova vrednost može znatno varirati u zavisnosti od promena na tržištu ili od faza rasta i pada, baš kao i bilo koje drugo finansijsko tržište.
+Cena bitkoina često je karakterizirana značajnom volatilnošću. Njegova vrednost može znatno varirati u zavisnosti od promena na tržištu ili od faza rasta i pada, baš kao i bilo koje drugo finansijsko tržište.
 
 
 ![image](assets/en/67.webp)
 
 
-Da pojednostavimo, ljudi imaju tendenciju da sve kupe odjednom i sve prodaju odjednom. **bitkoin nije imun na ljudsku prirodu.**
+Da pojednostavimo, ljudi imaju tendenciju da sve kupe odjednom i sve prodaju odjednom. **Bitkoin nije imun na ljudsku prirodu.**
 
 
 ### Razumevanje talasa usvajanja
 
 
-I razvoj i evolucija bitkoin u velikoj meri su povezani sa različitim grupama aktera koji su postepeno integrisali njegov ekosistem.
+I razvoj i evolucija Bitkoina u velikoj meri su povezani sa različitim grupama aktera koji su postepeno integrisali njegov ekosistem.
 
 
 ![image](assets/en/68.webp)
@@ -1470,31 +1470,31 @@ I razvoj i evolucija bitkoin u velikoj meri su povezani sa različitim grupama a
 - Vernici:
 
 
-Rani korisnici bitkoin bili su uglavnom tehnofili, sajferpankeri, libertarijanci i entuzijasti za zlato. Ove grupe su bile privučene njime zbog njegove vrednosti kao Trustless elektronskog novca, otpornosti na cenzuru i transparentne, nepromenljive monetarne politike.
+Rani korisnici Bitkoina bili su uglavnom tehnofili, sajferpankeri, libertarijanci i entuzijasti za zlato. Ove grupe su bile privučene njime zbog njegove vrednosti kao Trustless elektronskog novca, otpornosti na cenzuru i transparentne, nepromenljive monetarne politike.
 
 
 
-- Mračna mreža & kriminalci
+- Mračna strana interneta (dark web) & kriminalci
 
 
-Zatim se upotreba bitkoin proširila na dark web tržišta poput Silk Road-a, uglavnom zbog njegove nekontrolisane i pseudonimne prirode, što je privuklo i pojedince van te platforme, uključujući neke ljude uključene u kriminalne aktivnosti. Međutim, važno je naglasiti da primena alata, a ne sam alat, određuje zakonitost. Nezakonita upotreba bitkoin ne čini nekoga inherentno kriminalcem; umesto toga, to su specifične radnje koje se mogu klasifikovati kao nezakonite. Na primer, korišćenje bitkoin za kupovinu određenih droga može biti zakonito ili nezakonito u zavisnosti od propisa koji važe na teritoriji gde se transakcija odvija.
+Zatim se upotreba Bitkoina proširila na dark web tržišta poput Silk Road-a, uglavnom zbog njegove nekontrolisane i pseudonimne prirode, što je privuklo i pojedince van te platforme, uključujući neke ljude uključene u kriminalne aktivnosti. Međutim, važno je naglasiti da primena alata, a ne sam alat, određuje zakonitost. Nezakonita upotreba Bitkoina ne čini nekoga inherentno kriminalcem; umesto toga, to su specifične radnje koje se mogu klasifikovati kao nezakonite. Na primer, korišćenje Bitkoina za kupovinu određenih droga može biti zakonito ili nezakonito u zavisnosti od propisa koji važe na teritoriji gde se transakcija odvija.
 
 
 
 - ICO ludnica i dolazak šire javnosti.
 
 
-Godina 2017. bila je obeležena značajnim spekulativnim balonom u svetu kriptovaluta, posebno sa lansiranjem hiljada inicijalnih ponuda novčića (ICO). Međutim, mnoge od ovih novih kriptovaluta nisu imale konkretan razvoj ili korisnost i brzo su nestale. Ovaj balon iz 2017. godine pratila je snažna korekcija u periodu 2018-2019.
+Godina 2017. bila je obeležena značajnim spekulativnim balonom u svetu kriptovaluta, posebno sa lansiranjem hiljada inicijalnih ponuda novčića (ICO-Initial Coin Offerings). Međutim, mnoge od ovih novih kriptovaluta nisu imale konkretan razvoj ili korisnost i brzo su nestale. Ovaj balon iz 2017. godine pratila je snažna korekcija u periodu 2018-2019.
 
 
 
 - NFT balon i DeFi
 
 
-Zatim, ponovo 2020. godine, tržište je doživelo još jedan špekulativni balon koji je podigao cenu bitkoin na $60,000. Ovaj balon se razlikovao od prethodnih zbog šire diverzifikacije investitora, uključujući finansijske institucije i velike korporacije. Međutim, kao i kod prethodnih balona, značajne korekcije obično slede kada početna euforija splasne.
+Zatim, ponovo 2020. godine, tržište je doživelo još jedan špekulativni balon koji je podigao cenu bitkoina na $60,000. Ovaj balon se razlikovao od prethodnih zbog šire diverzifikacije investitora, uključujući finansijske institucije i velike korporacije. Međutim, kao i kod prethodnih balona, značajne korekcije obično slede kada početna euforija splasne.
 
 
-### bitkoin i volatilnost
+### Bitkoin i volatilnost
 
 
 Na osnovu prethodnih ciklusa, čini se da je periodičnost ekonomskih ciklusa bitkoin ekvivalentna trajanju između dva prepolovljavanja, možda zato što događaj Halving deluje kao okidač smanjujući emisiju novih bitkoina na pola.

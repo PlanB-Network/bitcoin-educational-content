@@ -329,7 +329,7 @@ Analiza ta pokazuje, że zaufanie do waluty, a co za tym idzie jej wartość, by
 #### Wnioski
 
 
-Podsumowując, niniejsza analiza dotycząca dewaluacji monetarnej otwiera drzwi do głębokiego zrozumienia mechanizmów inflacji, które zostaną zbadane w kolejnych rozdziałach. Omówimy różne rodzaje inflacji i próg, przy którym przechodzą one w wysoką lub hiperinflację. Te solidne podstawy pozwolą nam na omówienie złożoności inflacji w nadchodzących sesjach. Dziękuję za uwagę i do zobaczenia w następnym materiale wideo, gdzie będziemy kontynuować eksplorację dynamiki monetarnej.
+Podsumowując, niniejsza analiza dewaluacji monetarnej otwiera drzwi do głębokiego zrozumienia mechanizmów inflacji, które zostaną zbadane w kolejnych rozdziałach. Omówimy różne rodzaje inflacji i próg, przy którym przechodzą one w wysoką lub hiperinflację. Te solidne podstawy pozwolą nam na omówienie złożoności inflacji w nadchodzących sesjach. Dziękuję za uwagę i do zobaczenia w następnym materiale wideo, gdzie będziemy kontynuować eksplorację dynamiki monetarnej.
 
 
 ## Rodzaje inflacji
@@ -433,7 +433,7 @@ Analiza Japonii (https://ideas.repec.org/p/ces/ceswps/_9821.html) podkreśla ró
 #### Bilanse banków i banków centralnych
 
 
-Trzecim przykładem pokazującym, dlaczego dodruk pieniądza nie powoduje inflacji, jest fakt, że związek między dodrukiem pieniądza a inflacją jest modulowany przez sposób, w jaki nowo wykreowane pieniądze są wprowadzane do gospodarki. Jeśli pieniądze te pozostaną w bilansach prywatnych banków bez pożyczania ich podmiotom gospodarczym, nie będą miały bezpośredniego wpływu na realną gospodarkę, a zatem nie spowodują inflacji.
+Trzecim przykładem, który pokazuje, dlaczego dodruk pieniądza miałby nie powodować inflacji jest fakt, że związek między dodrukiem pieniądza a inflacją jest modulowany przez sposób, w jaki nowo wykreowane pieniądze są wprowadzane do gospodarki. Jeśli pieniądze te pozostaną w bilansach prywatnych banków bez pożyczania ich podmiotom gospodarczym, nie będą miały bezpośredniego wpływu na realną gospodarkę, a zatem nie spowodują inflacji.
 
 
 ![image](assets/chapitre-2.2/5.webp)
@@ -453,10 +453,10 @@ Przykład Republiki Weimarskiej ilustruje kolejny kluczowy aspekt związku międ
 ![image](assets/chapitre-2.2/6.webp)
 
 
-Kiedy jednak sytuacja gospodarcza zaczęła się nieznacznie poprawiać, zaufanie stopniowo powróciło. Osoby fizyczne wyciągnęły wówczas swoje oszczędności z kryjówek i zaczęły masowo wydawać pieniądze. Ta nagła zmiana w zachowaniu, w połączeniu z już wysokią podażą pieniądza, doprowadziła do eksplozji popytu. Przy większej ilości pieniędzy w obiegu i zwiększonym popycie, ceny zaczęły gwałtownie rosnąć, prowadząc do zauważalnej inflacji.
+Kiedy jednak sytuacja gospodarcza zaczęła się nieznacznie poprawiać, zaufanie stopniowo powróciło. Osoby fizyczne wyciągnęły wówczas swoje oszczędności z kryjówek i zaczęły masowo wydawać pieniądze. Ta nagła zmiana w zachowaniu, w połączeniu z już wysoką podażą pieniądza, doprowadziła do eksplozji popytu. Przy większej ilości pieniędzy w obiegu i zwiększonym popycie, ceny zaczęły gwałtownie rosnąć, prowadząc do zauważalnej inflacji.
 
 
-Przykład ten podkreśla znaczenie czasu i zachowania agenta w manifestacji inflacji. Inflacja pojawia się nie tylko w odpowiedzi na wzrost podaży pieniądza Supply, ale także w zależności od tego, jak i kiedy pieniądze te są wydawane w gospodarce. Niepewność gospodarcza i oczekiwania podmiotów gospodarczych odgrywają kluczową rolę w tej dynamice i mogą przyspieszyć lub opóźnić inflacyjne skutki dodruku pieniądza.
+Przykład ten pokazuje wpływ czasu i ludzkiego zachowania na ujawnienie się inflacji. Inflacja pojawia się nie tylko w odpowiedzi na wzrost podaży pieniądza, ale także w zależności od tego, jak i kiedy pieniądze te są wydawane w gospodarce. Niepewność gospodarcza i oczekiwania podmiotów gospodarczych odgrywają kluczową rolę w tej dynamice i mogą przyspieszyć lub opóźnić inflacyjne skutki dodruku pieniądza.
 
 
 #### Podsumowanie:
@@ -477,10 +477,10 @@ Przykład ten podkreśla znaczenie czasu i zachowania agenta w manifestacji infl
 
 
 
-- Republika Weimarska: Ten okres historyczny pokazuje, jak niepewność gospodarcza doprowadziła do gromadzenia pieniędzy, opóźniając inflację. Jednak po przywróceniu zaufania i wydaniu pieniędzy inflacja eksplodowała.
+- Republika Weimarska: Ten okres historyczny pokazuje, jak niepewność gospodarcza prowadziła do gromadzenia pieniędzy, opóźniając inflację. Jednak po przywróceniu zaufania i wznowieniu wydawania pieniędzy inflacja eksplodowała.
 
 
-Przykłady te można wykorzystać w dyskusjach, aby wyjaśnić, dlaczego inflacja nie zawsze jest bezpośrednią konsekwencją dodruku pieniądza oraz w jaki sposób konteksty gospodarcze i zachowania agentów wpływają na inflację.
+Przykłady te można wykorzystać w dyskusjach, aby wyjaśnić, dlaczego inflacja nie zawsze jest bezpośrednią konsekwencją dodruku pieniądza oraz w jaki sposób konteksty gospodarcze i zachowania ludzi wpływają na inflację.
 
 
 ![image](assets/chapitre-2.2/0.5.webp)
@@ -490,14 +490,14 @@ Ponieważ, jak pokazuje ten [wątek](https://twitter.com/saifedean/status/167363
 
 
 
-- Ekonomiści obwiniają inflację za zmiany klimatu
+- Ekonomiści obciążają zmianę klimatu winą za inflację
 
 
 ![image](assets/chapitre-2.2/8.webp)
 
 
 
-- Przykład Szwecji obwiniającej Beyoncé za inflację w danym miesiącu.
+- Przykład Szwecji obwiniającej Beyoncé za inflację w konkretnym miesiącu.
 
 
 ![image](assets/chapitre-2.2/0.webp)
@@ -545,7 +545,7 @@ Kluczowe znaczenie ma zrozumienie rozróżnienia między różnymi rodzajami inf
 
 
 - Pełzająca inflacja: Jest to typ inflacji, do którego zazwyczaj dążą banki centralne, ustalony na poziomie około 2% rocznie. Cel ten został przyjęty od lat 90. i ma na celu utrzymanie stabilnego wzrostu gospodarczego bez przegrzania lub deflacji.
-- Umiarkowana inflacja: Ta forma inflacji występuje, gdy inflacja przekracza docelowy poziom 2%. Jest ona często kojarzona z przegrzaniem gospodarki, stanem, w którym nadmierna ilość pieniądza Supply stymuluje ogólny wzrost cen. Scenariusz ten obnaża ograniczenia polityki pieniężnej i czasami ujawnia sprzeczności w dyskursie ekonomicznym.
+- Umiarkowana inflacja: Ta forma inflacji występuje, gdy inflacja przekracza docelowy poziom 2%. Jest ona często kojarzona z przegrzaniem gospodarki, stanem, w którym nadmierna ilość pieniądza stymuluje ogólny wzrost cen. Scenariusz ten obnaża ograniczenia polityki pieniężnej i czasami ujawnia sprzeczności w dyskursie ekonomicznym.
 - Galopująca inflacja: Inflacja galopująca, często nazywana dwucyfrową, występuje, gdy roczna stopa inflacji przekracza 10%. Oznacza to znaczny wzrost cen, który może zagrozić stabilności gospodarczej.
 
 
@@ -556,21 +556,21 @@ Kluczowe znaczenie ma zrozumienie rozróżnienia między różnymi rodzajami inf
 ![image](assets/chapitre-2.2/17.webp)
 
 
-Badając rodzaje inflacji, w materiałach edukacyjnych często można natknąć się na terminy takie jak "popyt" i "koszt". Koncepcje te, choć ważne, mają tendencję do wyjaśniania wzrostu cen, a nie inflacji jako zjawiska pieniężnego. Oto bardziej dogłębna analiza:
+Badając rodzaje inflacji, w materiałach edukacyjnych często można natknąć się na terminy takie jak „popyt” i „koszt”. Koncepcje te, choć ważne, mają zwykle wyjaśniają wzrost cen, a nie inflację jako zjawisko pieniężne. Oto bardziej dogłębna analiza:
 
 
 
 - Ciągnięcie popytu:
 
-Inflacja popytowa jest często tłumaczona jako sytuacja, w której popyt w gospodarce przewyższa dostępną produkcję. Jednak bez odpowiedniego wzrostu pieniądza Supply, sytuacja ta doprowadzi po prostu do redystrybucji wydatków. Konsumenci mogą wydawać więcej na podstawowe towary, a mniej na inne, neutralizując w ten sposób ogólny efekt inflacyjny.
+Inflacja popytowa jest często tłumaczona jako sytuacja, w której popyt w gospodarce przewyższa dostępną produkcję. Jednak bez odpowiedniego wzrostu ilości pieniądza, sytuacja ta doprowadzi po prostu do redystrybucji wydatków. Konsumenci mogą wydawać więcej na podstawowe towary, a mniej na inne, neutralizując w ten sposób ogólny efekt inflacyjny.
 
 
 
 - Nacisk na koszty:
 
-Z drugiej strony, inflacja kosztowa przypisywana jest wzrostowi kosztów produkcji, takich jak koszty zasobów naturalnych lub pracy. Ponownie, bez wzrostu Supply, wzrost kosztów w jednym sektorze może po prostu zmniejszyć wydatki w innych, nie powodując powszechnej inflacji.
+Z drugiej strony inflacja kosztowa przypisywana jest wzrostowi kosztów produkcji, takich jak koszty zasobów naturalnych lub pracy. Ponownie, bez wzrostu ilosci pieniądza wzrost kosztów w jednym sektorze może po prostu zmniejszyć wydatki w innych, nie powodując powszechnej inflacji.
 
-Te tradycyjne wyjaśnienia często wiążą wzrost cen z inflacją, co może być mylące. W rzeczywistości, aby wystąpiła powszechna inflacja, konieczny jest wzrost Supply pieniądza. W tym kontekście koncepcje popytu i kosztów mogą wyjaśniać sektorowe wahania cen, ale nie uwzględniają pieniężnego charakteru inflacji. Podkreśla to znaczenie rozróżnienia między sektorowym wzrostem cen a powszechną inflacją i potwierdza potrzebę wzrostu pieniężnego Supply, aby inflacja pojawiła się w całej gospodarce. Analiza ta oferuje bardziej zniuansowane i precyzyjne spojrzenie na rzeczywiste przyczyny inflacji i demistyfikuje powszechne interpretacje, które mogą maskować podstawową dynamikę monetarną.
+Te tradycyjne wyjaśnienia często wiążą wzrost cen z inflacją, co może być mylące. W rzeczywistości, aby wystąpiła powszechna inflacja, konieczny jest wzrost ilości pieniądza. W tym kontekście koncepcje popytu i kosztów mogą wyjaśniać sektorowe wahania cen, ale nie uwzględniają pieniężnego charakteru inflacji. Podkreśla to znaczenie rozróżnienia między sektorowym wzrostem cen a powszechną inflacją i potwierdza potrzebę wzrostu ilości pieniądza, aby inflacja pojawiła się w całej gospodarce. Analiza ta oferuje bardziej zniuansowane i precyzyjne spojrzenie na rzeczywiste przyczyny inflacji i demistyfikuje powszechne interpretacje, które mogą maskować podstawową dynamikę monetarną.
 
 
 ### Klasyfikacja inflacji według Bernholza
@@ -583,41 +583,41 @@ Bernholz proponuje uproszczoną, ale precyzyjną klasyfikację inflacji na trzy 
 
 
 
-- Umiarkowana inflacja:
+- Inflacja umiarkowana:
 
-Umiarkowana inflacja występuje, gdy poziom Supply jest wyższy niż normalnie, ale bez uciekania się przez państwo do dużych deficytów finansowanych przez kreację pieniądza. Chociaż termin "umiarkowana" może wydawać się nieistotny, ta forma inflacji może powodować poważne problemy, choć nie jest klasyfikowana jako wysoka inflacja.
+Inflacja umiarkowana występuje, gdy ilość pieniądza jest większa niż normalnie, ale bez uciekania się państwa do tworzenia dużych deficytów finansowanych przez jego dodruk. Chociaż termin „umiarkowana” może wydawać się nieistotny, ta forma inflacji może powodować poważne problemy, choć nie jest klasyfikowana jako wysoka inflacja.
 
 
 
 - Wysoka inflacja:
 
-Wysoka inflacja występuje, gdy realna wartość pieniądza Supply spada pomimo wzrostu wartości nominalnej. Ta paradoksalna sytuacja wynika z substytucji monetarnej, w której jednostki tracą zaufanie do waluty krajowej i starają się ją Exchange wymienić na towary, usługi lub waluty obce. Proces ten dodatkowo obniża realną wartość waluty, pogłębiając inflację.
+Wysoka inflacja występuje, gdy realna wartość pieniądza spada pomimo wzrostu wartości nominalnej. Ta paradoksalna sytuacja wynika z substytucji monetarnej, w której jednostki tracą zaufanie do waluty krajowej i starają się ją wymienić na towary, usługi lub waluty obce. Proces ten dodatkowo obniża realną wartość waluty, pogłębiając inflację.
 
 
 
 - Hiperinflacja:
 
-Hiperinflacja jest rozszerzeniem wysokiej inflacji, charakteryzującym się dużymi deficytami budżetowymi finansowanymi przez kreację pieniądza. Historycznie rzecz biorąc, nie zaobserwowano żadnego przypadku hiperinflacji bez znacznego finansowania deficytu poprzez dodruk pieniądza. Hiperinflacja tworzy błędne koło: inflacja obniża wartość waluty tak szybko, że wpływy z podatków ulegają deprecjacji, zanim państwo zdąży je zebrać, zmuszając tym samym państwo do drukowania jeszcze większej ilości pieniędzy, aby się sfinansować. Ten samonapędzający się cykl prowadzi do astronomicznych stóp inflacji, często przekraczających 50% miesięcznie.
+Hiperinflacja jest rozszerzeniem wysokiej inflacji, charakteryzującym się dużymi deficytami budżetowymi finansowanymi przez kreację pieniądza. Historycznie rzecz biorąc, nie zaobserwowano żadnego przypadku hiperinflacji bez znacznego finansowania deficytu poprzez dodruk pieniądza. Hiperinflacja tworzy błędne koło: inflacja obniża wartość waluty tak szybko, że wpływy z podatków ulegają deprecjacji, zanim państwo zdąży je zebrać, zmuszając je tym samym do drukowania jeszcze większej ilości pieniędzy, aby się sfinansować. Ten samonapędzający się cykl prowadzi do astronomicznych stóp inflacji, często przekraczających 50% miesięcznie.
 
-Klasyfikacja Bernholza uwypukla niebezpieczny postęp od umiarkowanej inflacji do hiperinflacji, podkreślając kluczowe znaczenie kontroli monetarnej i budżetowej w zapobieganiu destrukcyjnym spiralom inflacyjnym. Pokazuje również, że szkodliwe konsekwencje dla finansowania państwa mogą wystąpić na długo przed osiągnięciem etapu hiperinflacji, zapewniając zniuansowaną perspektywę konsekwencji inflacji na różnych poziomach.
+Klasyfikacja Bernholza uwypukla niebezpieczny postęp od umiarkowanej inflacji do hiperinflacji, podkreślając kluczowe znaczenie kontroli monetarnej i budżetowej w zapobieganiu destrukcyjnym spiralom inflacyjnym. Pokazuje również, że konsekwencje szkodliwe dla finansów państwa mogą wystąpić na długo przed osiągnięciem etapu hiperinflacji, zapowiadając zniuansowaną perspektywę konsekwencji inflacji na różnych poziomach.
 
 
 ### Wnioski: Podsumowanie typów inflacji
 
 
-Podsumowując, zbadaliśmy szereg typów inflacji, zaczynając od powszechnie słyszanych terminów, takich jak "pełzająca inflacja", "chodząca inflacja" i "galopująca inflacja", z których każdy oznacza różne poziomy procentowe inflacji w gospodarce. Jednak dla naszego dogłębnego badania hiperinflacji, kategorie umiarkowanej inflacji, wysokiej inflacji i hiperinflacji, opisane przez Bernholza, okazują się kluczowymi punktami odniesienia.
+Podsumowując, zbadaliśmy szereg typów inflacji, zaczynając od powszechnie słyszanych terminów, takich jak „pełzająca inflacja”, „chodząca inflacja” i „galopująca inflacja”, z których każdy oznacza różne poziomy procentowe inflacji w gospodarce. Dla naszej dogłębnej analizy hiperinflacji, kategorie umiarkowanej inflacji, wysokiej inflacji i hiperinflacji, opisane przez Bernholza, okazują się kluczowymi punktami odniesienia.
 
 
 
-- Umiarkowana inflacja:
+- Inflacja umiarkowana:
 
-Wskazuje to na poziom Supply powyżej normy, choć poziom ten można utrzymać bez znacznego finansowania deficytu przez państwo.
+Wskazuje to na poziom podaży powyżej normy, choć poziom ten można utrzymać bez znacznego finansowania deficytu przez państwo.
 
 
 
-- Wysoka inflacja:
+- Inflacja wysoka:
 
-Występuje, gdy realna wartość pieniądza Supply spada, często z powodu substytucji monetarnej, w której osoby fizyczne starają się Exchange swoją walutę za towary, usługi lub inne waluty.
+Występuje, gdy realna wartość pieniądza spada, często z powodu substytucji monetarnej, w której osoby fizyczne starają się wymienić swoją walutę za towary, usługi lub inne waluty.
 
 
 
@@ -626,10 +626,10 @@ Występuje, gdy realna wartość pieniądza Supply spada, często z powodu subst
 Reprezentuje ekstremalną wersję wysokiej inflacji, w której nadmierna kreacja pieniądza w celu sfinansowania dużych deficytów budżetowych prowadzi do szybkiej erozji realnej wartości waluty.
 
 
-Z naszych badań wynika, że hiperinflacja jest zjawiskiem złożonym i sprzecznym z intuicją. Chociaż można by założyć, że hiperinflacja jest wynikiem ogromnego wzrostu wartości pieniądza Supply, w rzeczywistości wynika ona ze spadku realnej wartości tego pieniądza Supply. Ten niuans ma kluczowe znaczenie dla zrozumienia, dlaczego niektóre kraje mają trudności z wyjściem z hiperinflacji, nawet przy wsparciu międzynarodowych instytucji, takich jak Bank Światowy czy MFW. Błędne scharakteryzowanie rodzaju inflacji może prowadzić do zastosowania niewłaściwych środków zaradczych, zaostrzających problemy gospodarcze zamiast je rozwiązywać.
+Z naszych badań wynika, że hiperinflacja jest zjawiskiem złożonym i sprzecznym z intuicją. Chociaż może wydawać się, że hiperinflacja jest wynikiem ogromnego wzrostu ilości pieniądza, w rzeczywistości wynika ona ze spadku realnej wartości tego pieniądza. Ten niuans ma kluczowe znaczenie dla zrozumienia, dlaczego niektóre kraje mają trudności z wyjściem z hiperinflacji, nawet przy wsparciu międzynarodowych instytucji, takich jak Bank Światowy czy MFW. Błędne scharakteryzowanie rodzaju inflacji może prowadzić do zastosowania niewłaściwych środków zaradczych, zaostrzających problemy gospodarcze zamiast je rozwiązywać.
 
 
-W naszych przyszłych dyskusjach będziemy zagłębiać się w hiperinflację, badając jej definicje i przejawy w różnych kontekstach gospodarczych. Naszym celem będzie odkrycie mechanizmów leżących u podstaw hiperinflacji i zbadanie potencjalnych rozwiązań dla Address. To zniuansowane zrozumienie pozwoli nam lepiej zrozumieć związane z nią wyzwania i zaproponować świadome strategie zarządzania inflacją.
+W dalszej części kursu będziemy zagłębiać się w hiperinflację, badając jej definicje i przejawy w różnych kontekstach gospodarczych. Naszym celem będzie odkrycie mechanizmów leżących u podstaw hiperinflacji i zbadanie potencjalnych rozwiązań. To zniuansowane zrozumienie pozwoli nam lepiej zrozumieć związane z nią wyzwania i zaproponować świadome strategie zarządzania inflacją.
 
 Dziękuję za uwagę. Następna sesja będzie w całości poświęcona definiowaniu i demistyfikacji hiperinflacji, z uwzględnieniem różnych perspektyw akademickich i praktycznych. Z niecierpliwością czekamy na kontynuację tych badań podczas naszego następnego spotkania.
 

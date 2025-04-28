@@ -28,7 +28,9 @@ Chào mừng bạn đến với khóa học CYP302!
 
 Cuốn sách này cung cấp phần giới thiệu sâu về khoa học và thực hành mật mã. Nếu có thể, cuốn sách tập trung vào khái niệm hơn là trình bày chính thức về tài liệu.
 
-> Khóa học này dựa trên [kho lưu trữ của JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Được thôi. Nội dung vẫn chưa hoàn thiện và chỉ ở đây để giới thiệu cách chúng ta có thể tích hợp nó nếu JWburger đồng ý.
+
+Nội dung giáo dục này được chuyển thể từ sách và repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Mặc dù tác giả đã cho phép sử dụng vào mục đích giáo dục, tất cả quyền sở hữu trí tuệ vẫn thuộc về người sáng tạo ban đầu.
+
 **Động lực và mục tiêu**
 
 Thật khó để tìm được nhiều tài liệu cung cấp giải pháp trung gian tốt cho giáo dục mật mã.

@@ -29,7 +29,9 @@ Esta introducción a la criptografía pretende situarse en un término medio. Au
 
 Este libro ofrece una introducción en profundidad a la ciencia y la práctica de la criptografía. En la medida de lo posible, se centra en la exposición conceptual, más que formal, del material.
 
-> Este curso se basa en [JWBurgers's repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Todo el derecho a él. El contenido aún no está terminado y sólo está aquí para mostrar cómo podríamos integrarlo si JWburger's está de acuerdo.
+
+Este contenido educativo está adaptado del libro y repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Si bien el autor ha permitido generosamente su uso educativo, todos los derechos de propiedad intelectual permanecen con el creador original.
+
 **Motivación y objetivos**
 
 Es difícil encontrar muchos materiales que ofrezcan un buen término medio en la enseñanza de la criptografía.

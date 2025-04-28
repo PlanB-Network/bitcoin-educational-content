@@ -25,7 +25,7 @@ Utangulizi huu wa kriptografia unatafuta kunasa hali ya kati. Ingawa inapaswa ku
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
 
-Kitabu hiki kinatoa utangulizi wa kina wa sayansi na mazoezi ya usimbaji fiche. Inapowezekana inazingatia dhana, badala ya ufafanuzi rasmi wa nyenzo. Kozi hii inatokana na [repo la JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Sawa kwake. 
+Maudhui haya ya kielimu yametokolezwa kutoka kitabu na repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Ingawa mwandishi ametoa ruhusa ya matumizi yake ya kielimu, haki zote za mali ya kiakili zinabaki na muundaji wa awali.
 
 ### Motisha na malengo
 

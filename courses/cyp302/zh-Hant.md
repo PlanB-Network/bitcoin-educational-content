@@ -28,7 +28,9 @@ objectives:
 
 本書深入淺出地介紹了密碼學的科學與實踐。在可能的情況下，它著重於概念，而非形式上的材料說明。
 
-> 本課程基於 [JWBurgers's repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography)。All right to him.內容尚未完成，只是在此展示如果 JWburger 同意的話，我們可以如何整合。
+
+本教育內容改編自書籍和repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography)。雖然作者已慷慨允許將其用於教育目的，但所有知識產權仍屬於原創作者。
+
 ### 動機與目標
 
 在密碼學教學中很難找到許多能提供良好中間位置的教材。

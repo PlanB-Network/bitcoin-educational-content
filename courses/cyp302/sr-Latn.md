@@ -39,7 +39,8 @@ Dobrodošli na kurs CYP302!
 Ova knjiga nudi dubinsko uvodno proučavanje nauke i prakse kriptografije. Gde god je moguće, fokusira se na konceptualno, a ne formalno izlaganje materijala.
 
 
-> Ovaj kurs je zasnovan na [JWBurgers-ovom repozitorijumu](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Sva prava njemu. Sadržaj još nije završen i ovde je samo da pokaže kako bismo ga mogli integrisati ako se JWburger složi.
+
+Ovaj obrazovni sadržaj je adaptiran iz knjige i repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Iako je autor ljubazno dozvolio njegovu obrazovnu upotrebu, sva prava intelektualne svojine ostaju kod originalnog stvaraoca.
 
 **Motivacija i ciljevi**
 

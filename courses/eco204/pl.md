@@ -315,21 +315,21 @@ W irackiej gospodarce po wojnie w Zatoce Perskiej pojawiło się charakterystycz
 #### Tak, faktycznie zważyliśmy monety!
 
 
-W powszechnym przekonaniu często kojarzy się walutę z tworem państwowym, gdzie jej emisja i wartość są regulowane przez państwo. Koncepcja ta ma swoje korzenie w starożytnych cywilizacjach, takich jak Rzym, gdzie monety były standaryzowane i stemplowane przez Imperium, nadając w ten sposób oficjalną wartość walutom. Jednak głębsza analiza ujawnia, że wewnętrzna wartość waluty wynikała głównie z zawartości metali szlachetnych.
+W powszechnym przekonaniu często kojarzy się walutę z tworem państwowym, gdzie jej emisja i wartość są regulowane przez państwo. Koncepcja ta ma swoje korzenie w starożytnych cywilizacjach, takich jak Rzym, gdzie monetom nadawano oficjalną wartość przez standardyzacje i stemplowanie. Jednak głębsza analiza ujawnia, że wewnętrzna wartość waluty wynikała głównie z zawartości metali szlachetnych.
 
 
 ![image](assets/chapitre-2.1/18.webp)
 
-Przykładem może być waga monetarna odpowiadająca ośmiu hiszpańskim realom lub jednemu hiszpańskiemu dolarowi. Odważnik ten, oznaczony rzymską cyfrą wskazującą jego wartość, był używany przez kantory do oceny wartości monet na podstawie ich wagi, a nie tylko stempla. Ważąc monety, wymiennicy mogli określić, czy zostały one zmienione lub uszkodzone, co mogło obniżyć ich wartość. Praktyka ta podkreśla, że chociaż standardowe stemplowanie przez państwo nadawało walucie pewną wartość nominalną, prawdziwa wartość tkwiła w wadze zawartego w niej metalu szlachetnego.
+Przykładem może być waga monetarna odpowiadająca ośmiu hiszpańskim realom lub jednemu hiszpańskiemu dolarowi. Odważnik ten, oznaczony rzymską cyfrą wskazującą jego wartość, był używany przez kantory do oceny wartości monet na podstawie ich wagi, a nie tylko stempla. Ważąc monety, można było określić, czy zostały one zmienione lub uszkodzone, co mogło obniżyć ich wartość. Praktyka ta podkreśla, że chociaż standardowe stemplowanie przez państwo nadawało walucie pewną wartość nominalną, prawdziwa wartość tkwiła w wadze zawartego w niej metalu szlachetnego.
 
 
-Analiza ta pokazuje, że zaufanie do waluty, a co za tym idzie jej wartość, było zakotwiczone w jej namacalnej substancji, a nie w zwykłym zapewnieniu państwa. Podkreśla to dwoistość między wartością nominalną narzuconą przez państwo a wartością wewnętrzną podyktowaną zawartością metalu szlachetnego. W ten sposób waluta wykracza poza bycie zwykłym instrumentem państwowym, a jej podstawowa wartość jest nierozerwalnie związana z namacalnym i mierzalnym Elements.
+Analiza ta pokazuje, że zaufanie do waluty, a co za tym idzie jej wartość, było zakotwiczone w jej namacalnej substancji, a nie w zwykłym zapewnieniu państwa. Podkreśla to dwoistość między wartością nominalną narzuconą przez państwo a wartością wewnętrzną podyktowaną zawartością metalu szlachetnego. W ten sposób waluta wykracza poza bycie zwykłym instrumentem państwowym, a jej podstawowa wartość jest nierozerwalnie związana z jej fizycznymi i mierzalnym aspektami.
 
 
 #### Wnioski
 
 
-Podsumowując, niniejsze badanie dotyczące dewaluacji monetarnej otwiera drzwi do głębokiego zrozumienia mechanizmów inflacji, które zostaną zbadane w kolejnych filmach. Omówimy różne rodzaje inflacji i próg, przy którym przechodzą one w wysoką lub hiperinflację. Te solidne podstawy pozwolą nam na Address złożoności inflacji w nadchodzących sesjach. Dziękuję za uwagę i do zobaczenia w następnym materiale wideo, aby kontynuować eksplorację dynamiki monetarnej.
+Podsumowując, niniejsze badanie dotyczące dewaluacji monetarnej otwiera drzwi do głębokiego zrozumienia mechanizmów inflacji, które zostaną zbadane w kolejnych rozdziałach. Omówimy różne rodzaje inflacji i próg, przy którym przechodzą one w wysoką lub hiperinflację. Te solidne podstawy pozwolą nam na omówienie złożoności inflacji w nadchodzących sesjach. Dziękuję za uwagę i do zobaczenia w następnym materiale wideo, gdzie będziemy kontynuować eksplorację dynamiki monetarnej.
 
 
 ## Rodzaje inflacji
@@ -341,7 +341,7 @@ Podsumowując, niniejsze badanie dotyczące dewaluacji monetarnej otwiera drzwi 
 ### Inflacja nie jest zjawiskiem wieloczynnikowym
 
 
-W tej sekcji zbadamy różne wymiary inflacji, zjawiska, które jest często źle rozumiane. Chociaż inflacja jest często postrzegana jako zjawisko wieloczynnikowe w mediach i codziennych dyskusjach, ważne jest, aby pamiętać, że jest to zasadniczo zjawisko monetarne.
+W tej sekcji zbadamy różne wymiary inflacji, zjawiska, które jest często źle rozumiane. Chociaż w mediach i codziennych dyskusjach inflacja jest często postrzegana jako zjawisko wieloczynnikowe, ważne jest, aby pamiętać, że jest to zasadniczo zjawisko monetarne.
 
 
 ![image](assets/chapitre-2.2/0.webp)
@@ -362,35 +362,35 @@ Inflacja, z drugiej strony, jest definiowana przez uogólniony wzrost cen w szer
 
 - Monetarna istota inflacji:
 
-Przy stałym Supply pieniądza, wzrost cen w jednym sektorze spowodowałby spadek cen w innych sektorach, ponieważ zmniejszyłaby się ilość pieniędzy dostępnych do wydania gdzie indziej. Inflacja jest ściśle związana ze wzrostem Supply pieniądza, co pozwala na jednoczesny wzrost cen we wszystkich sektorach.
+Przy stałej podaży pieniądza wzrost cen w jednym sektorze spowodowałby spadek cen w innych sektorach, ponieważ zmniejszyłaby się ilość pieniędzy dostępnych do wydania gdzie indziej. Inflacja jest ściśle związana ze wzrostem podaży pieniądza, co powoduje jednoczesny wzrost cen we wszystkich sektorach.
 
 
 
-- Wpływ Supply na inflację i deflację:
+- Wpływ podaży na inflację i deflację:
 
 
-W systemie stałego pieniądza Supply wzrost produkcji powinien teoretycznie prowadzić do deflacji, tj. spadku cen, ponieważ dostępnych byłoby więcej towarów i usług.
+W systemie stałej podaży pieniądza wzrost produkcji powinien teoretycznie prowadzić do deflacji, tj. spadku cen, ponieważ dostępnych byłoby więcej towarów i usług.
 
-W obecnym systemie pieniądza fiducjarnego wzrost Supply niweluje potencjalną deflację spowodowaną wzrostem produkcji.
-
-
-
-- Negatywne skutki dostosowania Supply:
-
-
-Wzrost Supply pieniądza, bez odpowiadającego mu wzrostu produkcji, prowadzi do inflacji, ponieważ w obiegu jest więcej pieniędzy za tę samą ilość towarów i usług.
-
-Podczas gdy wzrost produkcji powinien doprowadzić do deflacji, jednoczesny wzrost Supply zniwelował ten efekt, powodując zamiast tego inflację.
+W obecnym systemie pieniądza fiducjarnego wzrost podaży niweluje potencjalną deflację spowodowaną wzrostem produkcji.
 
 
 
-- Inflacja, deflacja i pieniądz Supply: Statki komunikacyjne:
+- Negatywne skutki dostosowywania podaży:
 
 
-Inflacja i deflacja są jak naczynia połączone w gospodarce. Wzrost produkcji może prowadzić do deflacji, ale jeśli jednocześnie zwiększy się ilość pieniądza Supply, efekt deflacyjny zostanie zniwelowany, powodując inflację.
+Wzrost podaży pieniądza bez odpowiadającego mu wzrostu produkcji prowadzi do inflacji, ponieważ w obiegu jest więcej pieniędzy na tę samą ilość towarów i usług.
+
+Podczas gdy wzrost produkcji powinien doprowadzić do deflacji, jednoczesny wzrost podaży niweluje ten efekt, powodując zamiast tego inflację.
 
 
-Dyskusja ta podkreśla znaczenie zrozumienia podstawowych mechanizmów inflacji i deflacji oraz tego, jak manipulowanie Supply może mieć głęboki wpływ na gospodarkę. Prawdopodobnie powrócimy do tych pojęć później, aby lepiej zrozumieć ich wzajemne powiązania i wpływ na globalną gospodarkę.
+
+- Inflacja, deflacja i podaż pieniądza - naczynia połączone:
+
+
+Inflacja i deflacja w gospodarce są jak naczynia połączone. Wzrost produkcji może prowadzić do deflacji, ale jeśli jednocześnie zwiększy się ilość pieniądza, efekt deflacyjny zostanie zniwelowany, powodując inflację.
+
+
+Chcemy tutaj podkreślić znaczenie zrozumienia podstawowych mechanizmów inflacji i deflacji oraz tego, jak manipulowanie podażą pieniądza może mieć głęboki wpływ na gospodarkę. Prawdopodobnie powrócimy do tych pojęć później, aby lepiej zrozumieć ich wzajemne powiązania i wpływ na globalną gospodarkę.
 
 
 ### Dlaczego drukowanie pieniędzy nie zawsze powoduje inflację?
@@ -399,7 +399,7 @@ Dyskusja ta podkreśla znaczenie zrozumienia podstawowych mechanizmów inflacji 
 #### Inflacja ≠ CPI
 
 
-Inflacja, choć często kojarzona ze wzrostem Supply, nie zawsze ma bezpośredni związek z dodrukiem pieniądza, co ilustruje okres po kryzysie finansowym z 2008 roku. Pomimo znacznego dodruku pieniądza w celu ratowania banków, w następnej dekadzie nie odnotowano wysokiej inflacji, wynoszącej średnio od 0 do 2% rocznie. Sytuacja ta rodzi pytanie: dlaczego masowy dodruk pieniądza nie spowodował proporcjonalnej inflacji? Odpowiedź leży w kilku niuansach związanych z mierzeniem inflacji i wskaźnika cen konsumpcyjnych (CPI).
+Inflacja, choć często kojarzona ze wzrostem ilości pieniądza, nie zawsze ma bezpośredni związek z dodrukiem pieniądza, co ilustruje okres po kryzysie finansowym z 2008 roku. Pomimo znacznego dodruku pieniądza w celu ratowania banków, w następnej dekadzie nie odnotowano wysokiej inflacji, wynoszącej średnio od 0 do 2% rocznie. Sytuacja ta rodzi pytanie: dlaczego masowy dodruk pieniądza nie spowodował proporcjonalnej inflacji? Odpowiedź leży w kilku niuansach związanych z mierzeniem inflacji i wskaźnika cen konsumpcyjnych (CPI).
 
 Pierwsze wyjaśnienie leży w sposobie pomiaru inflacji. Indeks cen konsumpcyjnych (CPI), używany jako główny wskaźnik inflacji, ma pewne ograniczenia. Przykładowo, nie uwzględnia on w sposób kompleksowy zmian cen nieruchomości. Chociaż CPI zawiera składnik związany z czynszami, znaczna aprecjacja cen domów nie jest w pełni odzwierciedlona. W rezultacie może dojść do znacznego wzrostu kosztów mieszkaniowych, który nie jest w pełni uwzględniany przez wskaźnik CPI, co może powodować niedoszacowanie rzeczywistej inflacji.
 

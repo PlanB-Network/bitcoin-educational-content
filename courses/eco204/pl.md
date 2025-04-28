@@ -422,7 +422,7 @@ Nowoczesna Teoria Monetarna (MMT) oferuje odrębne spojrzenie na kreację pieni�
 ![image](assets/chapitre-2.2/4.webp)
 
 
-Ilustrującym przykładem MMT jest amerykański kompleks wojskowo-przemysłowy. Według MMT, setki miliardów dolarów mogą zostać przeznaczone na ten sektor bez powodowania inflacji, dzięki jego zdolności absorpcyjnej. W przeciwieństwie do tego, jeśli znaczne fundusze zostaną przeznaczone na budowę dróg w Stanach Zjednoczonych, gdzie istnieje ograniczona liczba firm i siły roboczej, może wystąpić inflacja z powodu niedoboru zasobów i zwiększonych kosztów wymaganych przez dostawców.
+Przykładem ilustrującym MMT jest amerykański kompleks wojskowo-przemysłowy. Według MMT setki miliardów dolarów mogą zostać przeznaczone na ten sektor bez powodowania inflacji, dzięki jego zdolności absorpcyjnej. Ale jeśli znaczne fundusze zostaną przeznaczone na budowę dróg w Stanach Zjednoczonych, gdzie istnieje ograniczona liczba firm i siły roboczej, może wystąpić inflacja z powodu niedoboru zasobów i zwiększonych kosztów wymaganych przez dostawców.
 
 Japonia jest często przywoływana przez zwolenników MMT jako kolejny przykład braku inflacji pomimo znacznego dodruku pieniądza. Jednak sytuacja w Japonii podkreśla również ograniczenia tradycyjnych miar inflacji, takich jak wskaźnik cen konsumpcyjnych (CPI). W Japonii duża część wydrukowanych pieniędzy jest oszczędzana lub inwestowana w nieruchomości lub rynki akcji, a nie wydawana w bieżącej gospodarce konsumpcyjnej. Wskaźnik CPI, nie uwzględniając w pełni tej dynamiki, może zaniżać rzeczywistą inflację.
 
@@ -441,10 +441,10 @@ Trzecim przykładem na to, dlaczego dodruk pieniądza nie spowoduje inflacji, je
 
 Drukowanie pieniądza może być postrzegane jako miecz Damoklesa wiszący nad gospodarką. Wykreowane pieniądze mogą pozostać ukryte przez pewien czas, bez widocznego efektu inflacyjnego, o ile nie zostaną wstrzyknięte do gospodarki za pośrednictwem pożyczek bankowych lub innych mechanizmów. Jednakże, gdy te ukryte pieniądze zostaną w końcu wprowadzone do obiegu, mogą pojawić się efekty inflacyjne. To właśnie zaobserwowano w latach 2020-tych, gdzie wcześniej wykreowane pieniądze znalazły drogę do gospodarki, prowadząc do inflacji.
 
-Scenariusz ten podkreśla znaczenie mechanizmów transmisji monetarnej w określaniu inflacyjnego wpływu dodruku pieniądza. Kreacja pieniądza przez bank centralny to tylko jeden z elementów układanki. Zachowanie prywatnych banków, które decydują o wielkości udzielanych pożyczek, oraz zachowanie pożyczkobiorców, którzy decydują, w jaki sposób wydadzą pożyczone pieniądze, są również kluczowymi Elements w tej dynamice.
+Scenariusz ten podkreśla znaczenie mechanizmów transmisji monetarnej w określaniu inflacyjnego wpływu dodruku pieniądza. Kreacja pieniądza przez bank centralny to tylko jeden z elementów układanki. Zachowanie prywatnych banków, które decydują o wielkości udzielanych pożyczek oraz zachowanie pożyczkobiorców, którzy decydują, w jaki sposób wydadzą pożyczone pieniądze, są również kluczowymi elementami w tej dynamice.
 
 
-#### Inflacja jest społeczna!
+#### Inflacja to zjawisko społeczne!
 
 
 Przykład Republiki Weimarskiej ilustruje kolejny kluczowy aspekt związku między dodrukiem pieniądza a inflacją: rolę oczekiwań i zachowania podmiotów gospodarczych. Kiedy Bank Centralny Republiki Weimarskiej zaczął drukować duże ilości pieniędzy, niepewność gospodarcza skłoniła ludzi do gromadzenia, tj. przechowywania pieniędzy zamiast ich wydawania. Reakcja ta tymczasowo opóźniła inflacyjne skutki dodruku pieniądza.

@@ -169,10 +169,10 @@ Opsi pengaturan dapat ditemukan di bawah menu "*Invoice Settings*". Di sini, And
 ![image](assets/28.webp)
 
 ## Menggunakan fungsi LNURL
-Dompet Muun menawarkan kemampuan untuk menggunakan LNURL untuk menerima transaksi. Fungsi ini, yang diaktifkan dengan mengetuk simbol pemindaian persegi yang terletak di pojok kanan atas halaman, memiliki beberapa keuntungan, termasuk menghindari kebutuhan untuk berbagi faktur untuk menerima transaksi. Sebagai gantinya, Anda perlu memindai kode QR untuk menerima informasi pembayaran, yang kemudian dapat Anda validasi untuk mengonfirmasi proses transaksi.
+Dompet Muun menawarkan kemampuan untuk menggunakan LNURL untuk menerima transaksi. Fungsi ini, yang diaktifkan dengan mengetuk simbol pemindaian persegi yang terletak di pojok kanan atas halaman, memiliki beberapa keuntungan, termasuk menghindari kebutuhan untuk berbagi *invoice* untuk menerima transaksi. Sebagai gantinya, Anda perlu memindai kode QR untuk menerima informasi pembayaran, yang kemudian dapat Anda validasi untuk mengonfirmasi proses transaksi.
 ![image](assets/29.webp)
 
-Muun akan awalnya menunjukkan kepada Anda sebuah halaman penjelasan (lihat tangkapan layar di atas) dan kemudian meminta Anda untuk mengaktifkan input kamera dari perangkat Anda, sebuah langkah yang diperlukan untuk menggunakan aplikasi. Harap dicatat bahwa alamat LNURL saat ini tidak didukung oleh semua dompet Lightning. Mereka yang mendukungnya umumnya hanya menawarkan kemampuan untuk menggunakan LNURL untuk menerima transaksi dan tidak untuk mengirimkannya.
+Muun akan awalnya menunjukkan kepada Anda sebuah halaman penjelasan (lihat tangkapan layar di atas) dan kemudian meminta Anda untuk mengizinkan kamera dari perangkat Anda, dimana langkah ini diperlukan untuk menggunakan aplikasi. Harap dicatat bahwa alamat LNURL saat ini tidak didukung oleh semua dompet Lightning. Dompet yang mendukungnya umumnya hanya menawarkan kemampuan untuk menggunakan LNURL untuk menerima transaksi dan tidak untuk mengirimkannya.
 
 ![image](assets/30.webp)
 
@@ -180,55 +180,55 @@ Muun akan awalnya menunjukkan kepada Anda sebuah halaman penjelasan (lihat tangk
 
 ### Melalui jaringan Bitcoin
 
-Sekarang setelah kita telah melihat cara menerima bitcoin dengan Muun, mari kita jelajahi cara mengirimkannya. Kembali ke beranda di bawah tab "Wallet", Anda perlu menekan "Send". Sebuah halaman sederhana akan muncul di mana Anda akan memiliki opsi untuk menyalin alamat Bitcoin atau Lightning ke dalam bidang yang ditentukan atau menekan ikon kode QR di sebelah kanan bidang ini untuk mengaktifkan kamera dan memindai alamat dalam bentuk kode QR.
+Sekarang setelah kita telah melihat cara menerima bitcoin dengan Muun, mari kita jelajahi cara mengirimkannya. Kembali ke beranda di bawah tab "*Wallet*", Anda perlu menekan "*Send*". Sebuah halaman akan muncul di mana Anda akan memiliki opsi untuk menyalin alamat Bitcoin atau Lightning ke dalam tempat yang ditentukan atau menekan ikon kode QR di sebelah kanan bidang ini untuk mengaktifkan kamera dan memindai alamat dalam bentuk kode QR.
 
 ![image](assets/31.webp)
 ![image](assets/32.webp)
 
-Ketika Anda tiba di halaman "Send", jika Anda sudah memiliki alamat yang disalin pada perangkat Anda, Muun akan mengenali format alamat (Bitcoin atau Lightning) dan menyarankan menggunakannya untuk menyiarkan transaksi melalui pesan berbingkai.
+Ketika Anda tiba di halaman "*Send*", jika Anda sudah memiliki alamat yang disalin pada perangkat Anda, Muun akan mengenali format alamat (Bitcoin atau Lightning) dan menyarankan menggunakannya untuk mengumumkan transaksi melalui sebuah pesan.
 
 ![image](assets/33.webp)
 ![image](assets/34.webp)
 
-Saat mempersiapkan transaksi Bitcoin, Anda perlu memasukkan jumlah yang akan dikirim. Pastikan bahwa alamat tujuan yang ditampilkan di bagian atas layar cocok dengan alamat yang sebelumnya disalin. Di bawah jumlah yang akan dikirim, Muun menampilkan saldo dompet Anda dan memberi Anda opsi untuk menggunakan semua dana Anda, fitur yang sangat berguna jika Anda ingin mengosongkan dompet Anda sepenuhnya dan menghindari meninggalkan "debu" (beberapa satoshi).
+Saat mempersiapkan transaksi Bitcoin, Anda perlu memasukkan jumlah yang akan dikirim. Pastikan bahwa alamat tujuan yang ditampilkan di bagian atas layar sesuai dengan alamat yang sebelumnya disalin. Di bawah jumlah yang akan dikirim, Muun akan menampilkan saldo dompet Anda dan memberi Anda opsi untuk menggunakan semua dana Anda, fitur yang sangat berguna jika Anda ingin mengosongkan dompet Anda sepenuhnya dan menghindari meninggalkan "debu" (beberapa satoshi).
 
 ![image](assets/35.webp)
 
-Setelah mengonfirmasi jumlah yang akan dikirim, Muun meminta Anda di halaman berikutnya untuk menulis catatan. Ini berfungsi sebagai validasi tambahan, dan Anda bebas menulis apa pun yang Anda inginkan, relevan atau tidak.
+Setelah mengonfirmasi jumlah yang akan dikirim, Muun akan meminta Anda untuk menulis catatan di halaman berikutnya. Catatan ini berfungsi sebagai validasi tambahan, dan Anda bebas menulis apa pun yang Anda inginkan pada kolom ini.
 
 ![image](assets/36.webp)
 
-Tinjauan akhir dari detail transaksi diperlukan sebelum akhirnya menyiarkannya. Validasi alamat dan jumlah yang dimasukkan, kemudian sesuaikan biaya transaksi jika diperlukan dengan menekan ikon pensil biru di sebelah kanan "Biaya Jaringan". Memahami dasar-dasar cara kerja kolam transaksi Bitcoin (mempool) adalah pengalaman edukatif yang baik yang bisa menghemat banyak satoshi Anda dari waktu ke waktu!
+Tinjauan akhir dari detail transaksi diperlukan sebelum akhirnya dikirim ke jaringan Bitcoin. Validasi alamat dan jumlah yang dimasukkan, kemudian sesuaikan biaya transaksi jika diperlukan dengan menekan ikon pensil biru di sebelah kanan "*Network Fee*". Memahami dasar-dasar cara kerja kolam transaksi Bitcoin (mempool) adalah hal yang perlu dilakukan untuk memperoleh pengetahuan baru dan belajar tentang mekanisme biaya transaksi di Bitcoin yang dapat membantu Anda menghemat beberapa sats di masa depan!
 
 ![image](assets/37.webp)
 
-Perangkat lunak Muun secara default mengimplementasikan algoritma yang menghitung biaya transaksi yang diperlukan untuk konfirmasi dalam 30 menit atau kurang. Inilah yang akan ditampilkan ketika Anda mencoba memodifikasi biaya transaksi. Tombol "Masukkan Biaya Secara Manual" memungkinkan Anda untuk menyesuaikan detail ini sendiri, fitur yang bisa sangat berguna jika Anda memerlukan konfirmasi lebih cepat atau, sebaliknya, jika Anda memiliki margin manuver yang luas.
+Perangkat lunak Muun secara default menggunakan algoritma yang menghitung biaya transaksi yang diperlukan untuk konfirmasi transaksi dalam 30 menit atau kurang. Inilah yang akan ditampilkan ketika Anda mencoba mengganti biaya transaksi. Tombol "*Enter Fee Manually*" memungkinkan Anda untuk menyesuaikan biaya ini sendiri, fitur yang bisa sangat berguna yang bergantung pada kebutuhan Anda akan perlu atau tidaknya konfirmasi transaksi secara cepat.
 
 ![image](assets/38.webp)
 Dengan memilih untuk memasukkan jumlah biaya transaksi sendiri, Anda akan dibawa ke halaman baru yang menunjukkan jumlah yang harus dimasukkan dalam sat/vbyte (satoshi per byte virtual). Muun bahkan menampilkan perkiraan waktu konfirmasi yang terkait dengan jumlah yang dipilih, serta biaya dalam BTC dan mata uang fiat pilihan Anda.
 ![image](assets/39.webp)
-Kembali ke halaman ikhtisar detail transaksi dan tekan "Kirim". Voilà, transaksi Anda disiarkan di jaringan Bitcoin! Anda akan diarahkan kembali ke halaman utama dompet di mana Anda akan melihat pengurangan dari saldo Anda. Di bagian bawah layar, ada sebuah panah yang dapat Anda tekan untuk memeriksa riwayat transaksi Anda. Transaksi yang baru saja Anda lakukan akan ditambahkan pada saat awal penerbitannya.
+Kembali ke halaman ikhtisar detail transaksi dan tekan "*Send*". Voilà, transaksi Anda sudah terkirim ke jaringan Bitcoin! Anda akan diarahkan kembali ke halaman utama dompet di mana Anda akan melihat bahwa saldo Anda telah berkurang. Di bagian bawah layar, ada sebuah panah yang dapat Anda tekan untuk memeriksa riwayat transaksi Anda. Transaksi yang baru saja Anda lakukan akan ditambahkan pada saat awal munculnya.
 ![image](assets/40.webp)
 
-Tekan sebuah entri untuk melihat detail dari transaksi tertentu. Transaksi Anda akan dikonfirmasi ketika seorang penambang menambahkan blok baru yang mengandungnya ke dalam rantai. Muun membagikan ID transaksi di bagian bawah layar, memungkinkan Anda untuk memeriksa status transaksi Anda pada sebuah block explorer.
+Tekan salah satu transaksi untuk melihat detail dari transaksi tersebut. Transaksi Anda akan dikonfirmasi ketika seorang penambang menambahkan blok baru yang memasukkannya ke dalam rantai. Muun membagikan ID transaksi di bagian bawah layar, memungkinkan Anda untuk memeriksa status transaksi Anda pada sebuah *block explorer*.
 
 ![image](assets/41.webp)
 
 ## Melalui Jaringan Lightning
 
-Sekarang mari kita gunakan invoice Bolt 11 (invoice Lightning tradisional/default) untuk melakukan transaksi. Salin atau pindai alamat Lightning di halaman "Kirim". Anda akan diarahkan ke halaman baru yang menunjukkan detail dari invoice saat ini. Jumlah transaksi akan ditampilkan (termasuk biaya jaringan), bersama dengan catatan atau deskripsi yang ditulis pada invoice, dan timer kedaluwarsa di bagian bawah. Perhatikan bahwa biaya transaksi tidak dapat dimodifikasi untuk transaksi Lightning. Biaya tersebut ditentukan oleh rute kanal yang harus dilalui untuk mencapai penerima.
+Sekarang mari kita gunakan invoice Bolt 11 (invoice Lightning tradisional/default) untuk melakukan transaksi. Salin atau pindai alamat Lightning di halaman "*Send*". Anda akan diarahkan ke halaman baru yang menunjukkan detail dari invoice saat ini. Jumlah transaksi akan ditampilkan (termasuk biaya jaringan), bersama dengan catatan atau deskripsi yang ditulis pada *invoice*, dan timer kedaluwarsa di bagian bawah. Perhatikan bahwa biaya transaksi tidak dapat dimodifikasi untuk transaksi Lightning. Biaya tersebut ditentukan oleh rute kanal yang harus dilalui untuk mencapai penerima.
 
 ![image](assets/42.webp)
 
-(Ini adalah peringatan yang ditampilkan di layar ketika menggunakan invoice kosong, yang berarti tidak ada jumlah yang telah diisi sebelumnya. Beberapa dompet mendukung jenis invoice ini dan memungkinkan Anda untuk menyesuaikan jumlahnya sendiri. Ini bukan kasus untuk Muun.)
+(Ini adalah peringatan yang ditampilkan di layar ketika menggunakan *invoice* kosong, yang berarti tidak ada jumlah yang telah diisi sebelumnya. Beberapa dompet mendukung jenis *invoice* ini dan memungkinkan Anda untuk menyesuaikan jumlahnya sendiri. Muun tidak seperti demikian.)
 
 ![image](assets/43.webp)
 
-Menekan ikon mata menunjukkan detail dari node Lightning yang Anda hadapi dalam transaksi ini. Anda bahkan memiliki opsi untuk melihat web explorer untuk informasi lebih lanjut. Ini adalah contoh baik dari abstraksi teknis yang dicapai oleh Muun.
+Jika Anda menekan ikon mata, Muun akan menunjukkan detail dari node Lightning yang terkait dengan transaksi ini. Anda bahkan memiliki opsi untuk melihat *web explorer* untuk informasi lebih lanjut. Ini adalah contoh baik dari aspek teknis yang dicapai oleh Muun.
 
 ![image](assets/44.webp)
 
-Setelah Anda menekan "Kirim", transaksi Anda akan diluncurkan dan, biasanya, selesai dalam sebagian kecil detik. Jumlah yang dibayarkan akan dikurangkan dari saldo Anda, terlihat di halaman utama aplikasi. Kembali ke riwayat transaksi Anda untuk melihat konfirmasi pembayaran secara instan.
+Setelah Anda menekan "*Send*", transaksi Anda akan diluncurkan dan, biasanya, selesai dalam kurang dari 1 detik. Jumlah yang dibayarkan akan dipotong dari saldo Anda, dan terlihat di halaman utama aplikasi. Kembali ke riwayat transaksi Anda untuk melihat konfirmasi pembayaran secara instan.
 
 ![image](assets/45.webp)
 
@@ -238,16 +238,16 @@ Perhatikan bahwa dalam riwayat, transaksi Lightning & Bitcoin dibedakan dengan s
 
 ## Pengaturan Aplikasi
 
-Tab ketiga di halaman utama, "Pengaturan," adalah tempat Anda dapat menemukan pengaturan aplikasi. Halaman ini cukup singkat, terutama jika dibandingkan dengan dompet seluler populer lainnya. Menurut saya, ini bukan sebuah kelemahan; sebaliknya, saya melihatnya sebagai keuntungan dalam hal kesederhanaan.
+Tab ketiga di halaman utama, "*Settings*" adalah tempat Anda dapat menemukan pengaturan aplikasi. Halaman ini cukup singkat, terutama jika dibandingkan dengan dompet seluler populer lainnya. Menurut saya, ini bukan sebuah kelemahan; sebaliknya, saya melihatnya sebagai keuntungan dalam hal kesederhanaan.
 
 ![image](assets/47.webp)
 
-Dalam kategori umum, Anda dapat memilih unit akun dan mata uang yang Anda sukai, serta tema tampilan aplikasi (gelap atau terang), yang awalnya akan ditentukan berdasarkan sistem perangkat Anda.
+Dalam kategori umum, Anda dapat memilih unit akun dan mata uang aplikasi Muun, serta tema tampilan aplikasi (gelap atau terang), yang awalnya akan diatur berdasarkan sistem perangkat Anda.
 
-Untuk unit akun aplikasi, pilih antara Bitcoin (BTC) atau Satoshi (SAT). Hanya untuk informasi Anda, sebuah Satoshi adalah pecahan terkecil dari bitcoin, yang berada di tempat desimal kedelapan (1 SAT = 0.00000001 BTC). Mendominasi dompet dalam Satoshis seringkali lebih disukai ketika menggunakan jaringan Lightning dengan jumlah kecil.
+Untuk unit akun aplikasi, Anda bisa memilih antara Bitcoin (BTC) atau Satoshi (SAT). Sebagai informasi, sebuah Satoshi adalah pecahan terkecil dari bitcoin, dimana 1 SAT = 0.00000001 BTC. Menggunakan SAT sebagai unit akun dompet dalam seringkali lebih disukai ketika menggunakan jaringan Lightning dengan jumlah kecil.
 
-Muun menawarkan berbagai pilihan mata uang, membuatnya lebih mudah bagi Anda untuk menemukan konversi BTC yang diperlukan untuk kebutuhan transaksional dan/atau pribadi Anda.
-Jika Anda merasa perlu untuk mengubah kata sandi pemulihan dompet Anda, Anda dapat melakukannya di halaman pengaturan. Pastikan Anda memiliki kata sandi saat ini atau kode pemulihan dan akses ke email Anda.
+Muun menawarkan berbagai pilihan mata uang, membuatnya lebih mudah bagi Anda untuk menghitung konversi BTC yang diperlukan untuk kebutuhan transaksional dan/atau pribadi Anda.
+Jika Anda merasa perlu untuk mengubah kata sandi pemulihan dompet Anda, Anda dapat melakukannya di halaman *settings*. Pastikan Anda memiliki kata sandi saat ini atau kode pemulihan dan akses ke email Anda.
 ![image](assets/48.webp)
 
 Masukkan kata sandi saat ini Anda atau pilih untuk memasukkan kode pemulihan Anda untuk memulai pengaturan ulang. Muun akan mengirimkan email ke alamat yang telah terdaftar sebelumnya.
@@ -255,22 +255,22 @@ Masukkan kata sandi saat ini Anda atau pilih untuk memasukkan kode pemulihan And
 ![image](assets/49.webp)
 ![image](assets/50.webp)
 
-Bagian pengaturan lanjutan berisi dua entri: Jaringan Bitcoin dan Jaringan Lightning. Di Jaringan Bitcoin, kita diberi pilihan untuk mengaktifkan alamat penerimaan Taproot (bc1p, tipe alamat terbaru) secara default.
+Bagian pengaturan lanjutan berisi dua hal: Jaringan Bitcoin dan Jaringan Lightning. Di Jaringan Bitcoin, kita diberi pilihan untuk mengaktifkan alamat penerimaan Taproot (bc1p, tipe alamat terbaru) secara default.
 
 ![image](assets/51.webp)
 
 Di dalam Jaringan Lightning, Anda akan menemukan:
 
-- Protokol Penerimaan: Pilih jaringan penerimaan default Anda yang ditampilkan di layar Terima. Sebuah fungsi eksperimental, Unified, juga tersedia. Ini adalah kode QR yang menyatukan kedua alamat Bitcoin dan Lightning. Namun, sedikit perangkat lunak Bitcoin yang saat ini mendukung fitur ini.
--
-- Turbo Channels: Opsi ini memungkinkan Anda untuk mengaktifkan atau menonaktifkan fitur Turbo channels. Secara default, fitur ini diaktifkan.
+- *Receiving Protocol*: Pilih jaringan penerimaan default Anda yang ditampilkan di layar Terima. Sebuah fitur uji coba bernama Unified juga tersedia. Ini adalah kode QR yang bisa digunakan baik untuk alamat Bitcoin maupun Lightning. Namun, hanya ada sedikit perangkat lunak Bitcoin yang saat ini mendukung fitur ini.
+
+- *Turbo Channels*: Opsi ini memungkinkan Anda untuk mengaktifkan atau menonaktifkan fitur Turbo channels. Secara default, fitur ini diaktifkan.
 
 ![image](assets/52.webp)
 
-Untuk memahami apa yang disebut Turbo channels, kita harus terlebih dahulu tahu bahwa transaksi Lightning dilakukan melalui saluran dari satu pengguna ke pengguna lain, dan bahwa saluran-saluran ini harus awalnya didanai oleh transaksi di blockchain Bitcoin.
+Untuk memahami apa yang disebut *Turbo channels*, kita harus terlebih dahulu tahu bahwa transaksi Lightning dilakukan melalui saluran dari satu pengguna ke pengguna lain, dan bahwa saluran-saluran ini harus awalnya didanai melalui transaksi di *blockchain* Bitcoin.
 
-Turbo channels memungkinkan Anda untuk mulai bertransaksi di jaringan Lightning bahkan sebelum transaksi on-chain apa pun telah dikonfirmasi. Menonaktifkan fungsi ini akan berarti bahwa Anda harus menunggu jauh lebih lama untuk bertransaksi di jaringan Lightning, sebagai imbalan untuk peningkatan keamanan dana Anda, karena sebaliknya Anda harus percaya bahwa Muun tidak akan bertindak dengan cara yang merugikan (double-spend yang sangat publik) sambil menunggu transaksi Anda dikonfirmasi di blockchain.
+*Turbo channels* memungkinkan Anda untuk bisa bertransaksi di jaringan Lightning bahkan sebelum transaksi *on-chain* apa pun telah dikonfirmasi. Jika Anda menonaktifkan fungsi ini, maka Anda harus menunggu jauh lebih lama untuk bertransaksi di jaringan Lightning, sebagai imbalan untuk peningkatan keamanan dana Anda, karena sebaliknya Anda harus percaya bahwa Muun tidak akan menggunakan cara yang merugikan (*double-spend* yang bersifat publik) sambil menunggu transaksi Anda dikonfirmasi di rantai blok Bitcoin.
 
-Di bagian bawah halaman pengaturan adalah opsi "Log out". Anda dapat menggunakan fungsi ini jika Anda ingin aplikasi memutuskan koneksi dompet yang saat ini dikenali. Ini akan memungkinkan Anda untuk membuat dompet baru atau mengimpor/memulihkan yang sudah ada.
+Di bagian bawah halaman pengaturan adalah opsi "*Log out*". Anda dapat menggunakan fungsi ini jika Anda ingin aplikasi memutuskan koneksi dengan dompet saat ini. Hal ini akan memungkinkan Anda untuk membuat dompet baru atau mengimpor/memulihkan yang sudah ada.
 
 ![image](assets/53.webp)

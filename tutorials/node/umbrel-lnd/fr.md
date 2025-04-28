@@ -4,7 +4,6 @@ description: Tutoriel avancé sur l'installation et la configuration de Lightnin
 ---
 ![cover](assets/cover.webp)
 
-# Tutoriel avancé : Utiliser Lightning Network Daemon (LND) sur Umbrel
 
 ## Introduction
 

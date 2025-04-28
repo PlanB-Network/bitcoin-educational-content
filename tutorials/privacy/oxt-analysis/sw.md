@@ -453,7 +453,9 @@ Kwanza kabisa, kabla ya kuzingatia mbinu kali zaidi, inashauriwa kupunguza mfidu
 
 Kanuni ya msingi ya kuhakikisha faragha yako kwenye Bitcoin inategemea kutumia Address mpya, safi kwa kila muamala unaoingia kwenye Wallet yako. Utumiaji tena wa Address ndio tishio kuu kwa usiri kwenye Bitcoin.
 
-Kwa mtumiaji binafsi, kuzalisha Address mpya kwa kila malipo yanayoingia ni rahisi sana. Pochi za kisasa hufanya hivi kiatomati mara tu unapobofya "Pokea". Kwa hivyo, ikiwa utaweka umuhimu mdogo kwenye faragha ya miamala yako, kutumia anwani mpya huwakilisha kiwango cha chini kabisa. Iwapo utahitaji mahali tuli pa kuwasiliana kwenye mtandao, badala ya kuweka Address inayopokea, unaweza kutumia suluhu [kama PayNym inayotekeleza BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093093).
+Kwa mtumiaji binafsi, kuzalisha Address mpya kwa kila malipo yanayoingia ni rahisi sana. Pochi za kisasa hufanya hivi kiatomati mara tu unapobofya "Pokea". Kwa hivyo, ikiwa utaweka umuhimu mdogo kwenye faragha ya miamala yako, kutumia anwani mpya huwakilisha kiwango cha chini kabisa. Iwapo utahitaji mahali tuli pa kuwasiliana kwenye mtandao, badala ya kuweka Address inayopokea, unaweza kutumia suluhu kama PayNym inayotekeleza BIP47 :
+
+https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 Ifuatayo, ikiwa unataka kuchukua hatua dhidi ya uchanganuzi wa minyororo, epuka kuunganisha UTXO kwenye ingizo la muamala. Kwa uchache, ikiwa unahitaji kuunganishwa, pendelea UTXO ambazo zina chanzo sawa. Pendekezo hili linamaanisha kuwa na usimamizi mzuri wa UTXO zako. Unaponunua bitcoins zako, pendelea uhamisho unaohusisha kiasi kikubwa ili kuongeza idadi ya malipo unayoweza kufanya bila kuunganishwa. Pia nakushauri uweke lebo kwenye UTXO zako kwenye programu yako ili kutambua asili yao na epuka kuunganishwa kutoka kwa vyanzo tofauti.
 
@@ -521,7 +523,7 @@ Zana hizi zote zinapatikana kwenye Samourai Wallet kwenye simu ya mkononi, na Sp
 
 - [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
 - [PayJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
-- [PayJoin - SPARROW Wallet](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd627bdd62);
+- [PayJoin - SPARROW Wallet]https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
 - [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
 - [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
 - [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).

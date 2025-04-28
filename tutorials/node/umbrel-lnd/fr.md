@@ -82,7 +82,7 @@ LND (Lightning Network Daemon) sera déployé sur votre Umbrel en tant qu'applic
 
 Vous aurez le choix entre créer un nouveau nœud ou en restaurer un depuis une sauvegarde/seed. Pour une première installation, choisissez de créer un nouveau nœud. L'app Lightning Node va générer une phrase mnémonique de 24 mots (votre seed Lightning) : notez-la très précieusement (idéalement hors-ligne, sur papier) car elle servira à restaurer vos fonds Lightning en cas de besoin.
 
-> **Remarque** : Sur les versions récentes d'Umbrel, c'est l'installation de l'app Lightning qui fournit cette seed de 24 mots (le nœud Bitcoin Umbrel en lui-même n'en donne pas).
+**Remarque** : Sur les versions récentes d'Umbrel, c'est l'installation de l'app Lightning qui fournit cette seed de 24 mots (le nœud Bitcoin Umbrel en lui-même n'en donne pas).
 
 ![Interface principale de Lightning Node](assets/fr/04.webp)
 

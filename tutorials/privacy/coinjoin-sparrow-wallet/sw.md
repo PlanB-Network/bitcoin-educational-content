@@ -283,7 +283,7 @@ Kutumia Sparrow kuna faida ya kuwa rahisi sana kuanza, haraka kusanidi, na kuhit
 Kuanza, bila shaka utahitaji programu ya Sparrow Wallet. Unaweza kuipakua moja kwa moja kutoka [tovuti rasmi](https://sparrowwallet.com/download/) au kwenye [GitHub yao](https://github.com/sparrowwallet/sparrow/releases).
 
 
-Kabla ya kusakinisha programu, itakuwa muhimu kuthibitisha saini na uadilifu wa utekelezaji ambao umepakuliwa hivi punde. Iwapo unataka maelezo zaidi kuhusu mchakato wa usakinishaji na uthibitishaji wa programu ya Sparrow, nakushauri usome mafunzo haya mengine: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-76d1b)*
+Kabla ya kusakinisha programu, itakuwa muhimu kuthibitisha saini na uadilifu wa utekelezaji ambao umepakuliwa hivi punde. Iwapo unataka maelezo zaidi kuhusu mchakato wa usakinishaji na uthibitishaji wa programu ya Sparrow, nakushauri usome mafunzo haya mengine: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 
 ### Unda Software Wallet
@@ -512,7 +512,7 @@ Hata hivyo, kuwa mwangalifu unapotumia chaguo la `Changanya kwa`, kwani kuondoa 
 
 Ili CoinJoin iwe na ufanisi wa kweli, ni muhimu kwamba iwasilishe uwiano mzuri kati ya kiasi cha pembejeo na matokeo. Usawa huu huongeza idadi ya tafsiri zinazowezekana machoni pa mwangalizi wa nje, na hivyo kuongeza kutokuwa na uhakika karibu na shughuli. Ili kuhesabu kutokuwa na uhakika huu unaotokana na CoinJoin, mtu anaweza kuamua kuhesabu entropy ya muamala. Kwa uchunguzi wa kina wa viashirio hivi, ninakuelekeza kwenye mafunzo: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Mfano wa Whirlpool unatambuliwa kama ule unaoleta homogeneity zaidi katika coinjoins.
 
-Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na saizi ya vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f8756575)
+Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na saizi ya vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ## Jinsi ya kudhibiti mchanganyiko wa posta?

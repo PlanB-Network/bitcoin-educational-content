@@ -487,7 +487,7 @@ Baada ya `Tx0` kuthibitishwa, UTXO zako zitasajiliwa kiotomatiki na mratibu, na 
 ![samourai](assets/notext/34.webp)
 
 
-Kwa kuangalia kichupo cha `Kuchanganya`, ambacho kinalingana na akaunti ya **Postmix**, utaona UTXO zinazotokana na michanganyiko ya awali. Sarafu hizi zitabaki kuwa tayari kwa uchanganyaji unaofuata, ambao hautachukua ada yoyote ya ziada. Ninapendekeza uangalie makala haya mengine ili upate maelezo zaidi kuhusu mchakato wa kuchanganya upya na ufanisi wa mzunguko wa CoinJoin: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa39-8b8b)
+Kwa kuangalia kichupo cha `Kuchanganya`, ambacho kinalingana na akaunti ya **Postmix**, utaona UTXO zinazotokana na michanganyiko ya awali. Sarafu hizi zitabaki kuwa tayari kwa uchanganyaji unaofuata, ambao hautachukua ada yoyote ya ziada. Ninapendekeza uangalie makala haya mengine ili upate maelezo zaidi kuhusu mchakato wa kuchanganya upya na ufanisi wa mzunguko wa CoinJoin: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -602,7 +602,7 @@ Ili CoinJoin iwe na ufanisi kweli, ni muhimu ionyeshe uwiano mzuri kati ya kiasi
 Kwa uchunguzi wa kina wa viashirio hivi (muundo wa Whirlpool unatambuliwa kama ule unaoleta ulinganifu zaidi kuungana), ninakuelekeza kwenye mafunzo: [BOLTZMANN KAKOSOA](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na kiwango cha vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f8756575)
+Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na kiwango cha vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ## Jinsi ya kusimamia postmix?

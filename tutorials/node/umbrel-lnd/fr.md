@@ -15,7 +15,7 @@ Avant de déployer Lightning, vous devez disposer d'un nœud Bitcoin complet op�
 
 Pour installer Umbrel et configurer votre nœud Bitcoin, nous vous recommandons de suivre notre tutoriel dédié : 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0e
+https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Assurez-vous que votre nœud Bitcoin est à jour et fonctionne correctement, car le Lightning Network s'appuie sur lui pour toutes les transactions hors chaîne.
 

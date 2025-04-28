@@ -2,7 +2,8 @@
 name: Intégrer Umbrel dans une utilisation avancée de Nostr
 description: Apprenez à configurer et utiliser les applications Nostr sur Umbrel, incluant noStrudel, Nostr Relay, NWC et Snort, avec des conseils de sécurité pour un usage avancé.
 ---
-# Intégrer Umbrel dans une utilisation avancée de Nostr
+
+![cover](assets/cover.webp)
 
 ## Prérequis : Installation d'Umbrel
 
@@ -18,7 +19,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 En résumé, Nostr est un protocole de communication décentralisé où les **clients** (applications utilisateur) envoient et reçoivent des événements via des **relais** (serveurs). Ce protocole est particulièrement prisé par la communauté Bitcoin depuis 2023 en raison de ses valeurs de décentralisation et de souveraineté des données.
 
-> **Note :** Pour utiliser Nostr, vous aurez besoin de votre clé privée (générée par un client Nostr ou via une extension dédiée). **Ne partagez jamais votre clé privée**, elle permettrait à quiconque de se faire passer pour vous. Conservez-la en lieu sûr et privilégiez les outils de gestion sécurisée de clés (voir Astuce plus bas).
+**Note :** Pour utiliser Nostr, vous aurez besoin de votre clé privée (générée par un client Nostr ou via une extension dédiée). **Ne partagez jamais votre clé privée**, elle permettrait à quiconque de se faire passer pour vous. Conservez-la en lieu sûr et privilégiez les outils de gestion sécurisée de clés (voir Astuce plus bas).
 
 ## Applications Umbrel pour Nostr
 
@@ -38,16 +39,17 @@ Vous verrez son interface web via Umbrel : elle fournit des informations basique
 
 **Configuration du relais avec un client Nostr :** Pour tirer parti de votre relais Umbrel :
 
-1. **Ajoutez le relais à votre client Nostr.** Dans votre application cliente (par ex. Damus sur iOS, Amethyst sur Android, Snort ou noStrudel sur Umbrel, etc.), ajoutez l'URL de votre relais privé que vous avez copiée précédemment. Par défaut, le relais Umbrel écoute sur le port **4848**. Si vous y accédez sur le réseau local, cela donne une URL de type : `ws://umbrel.local:4848` (ou utilisez l'IP locale de l'Umbrel).
+**Ajoutez le relais à votre client Nostr :** Dans votre application cliente (par ex. Damus sur iOS, Amethyst sur Android, Snort ou noStrudel sur Umbrel, etc.), ajoutez l'URL de votre relais privé que vous avez copiée précédemment. Par défaut, le relais Umbrel écoute sur le port **4848**. Si vous y accédez sur le réseau local, cela donne une URL de type : `ws://umbrel.local:4848` (ou utilisez l'IP locale de l'Umbrel).
     
-    - _Si vous utilisez Tailscale (voir plus bas), vous pouvez même utiliser l'alias DNS MagicDNS (généralement `umbrel` ou un nom auto-généré) pour y accéder de n'importe où, toujours sur le port 4848._
-        
-    - _Si vous préférez Tor, récupérez l'adresse .onion de votre Umbrel et utilisez-la avec le port 4848 via un navigateur ou un client compatible Tor._ (Voir section dédiée à Tor.)  
-        Une fois l'URL ajoutée dans la configuration _Relays_ de votre client Nostr, connectez-vous à ce relais. Vous devriez voir dans votre client que le relais Umbrel est bien connecté (généralement indiqué par une pastille verte ou similaire).
-        
-2. **Synchronisez l'historique (optionnel).** Dans l'interface web de _Nostr Relay_ sur Umbrel, cliquez sur l'icône **globe** 🌐 (en haut de la page). Cette action va forcer votre relais Umbrel à se connecter à vos autres relais (ceux configurés dans votre client) pour **importer vos anciennes activités** publiques. Cela signifie que les notes passées que vous aviez publiées ou lues via des relais publics seront téléchargées et stockées aussi sur votre relais privé. Patientez le temps que la synchronisation s'effectue.
+Si vous utilisez Tailscale (voir plus bas), vous pouvez même utiliser l'alias DNS MagicDNS (généralement `umbrel` ou un nom auto-généré) pour y accéder de n'importe où, toujours sur le port 4848.
+
+Si vous préférez Tor, récupérez l'adresse .onion de votre Umbrel et utilisez-la avec le port 4848 via un navigateur ou un client compatible Tor. (Voir section dédiée à Tor.)
+
+Une fois l'URL ajoutée dans la configuration Relais de votre client Nostr, connectez-vous à ce relais. Vous devriez voir dans votre client que le relais Umbrel est bien connecté (généralement indiqué par une pastille verte ou similaire).
+
+**Synchronisez l'historique (optionnel)** : Dans l'interface web de _Nostr Relay_ sur Umbrel, cliquez sur l'icône **globe** 🌐 (en haut de la page). Cette action va forcer votre relais Umbrel à se connecter à vos autres relais (ceux configurés dans votre client) pour **importer vos anciennes activités** publiques. Cela signifie que les notes passées que vous aviez publiées ou lues via des relais publics seront téléchargées et stockées aussi sur votre relais privé. Patientez le temps que la synchronisation s'effectue.
     
-3. **Utilisez Nostr normalement.** Désormais, toute nouvelle activité (notes publiées, réactions, messages privés chiffrés, etc.) que vous effectuez sur Nostr sera transmise comme d'habitude aux relais publics **et en parallèle à votre relais Umbrel**. Si votre client Nostr est bien configuré, il enverra chaque événement à tous les relais (y compris le vôtre). Votre relais privé agira comme une sauvegarde en temps réel. Même en cas de déconnexion temporaire, vos clients pourront resynchroniser les données manquantes plus tard grâce à ce relais. _Vous avez ainsi la maîtrise complète de vos données Nostr._
+**Utilisez Nostr normalement :** Désormais, toute nouvelle activité (notes publiées, réactions, messages privés chiffrés, etc.) que vous effectuez sur Nostr sera transmise comme d'habitude aux relais publics **et en parallèle à votre relais Umbrel**. Si votre client Nostr est bien configuré, il enverra chaque événement à tous les relais (y compris le vôtre). Votre relais privé agira comme une sauvegarde en temps réel. Même en cas de déconnexion temporaire, vos clients pourront resynchroniser les données manquantes plus tard grâce à ce relais. _Vous avez ainsi la maîtrise complète de vos données Nostr._
 
 En arrière-plan, _Nostr Relay_ d'Umbrel s'appuie sur le projet open-source **nostr-rs-relay** (implémentation Rust du protocole). Il supporte l'ensemble du protocole Nostr et de nombreux NIPs standards (NIP-01, 02, 03, 09, 11, 12, 15, 16, 20, 22, 26, 28, 33, etc.), garantissant une compatibilité maximale avec les clients.
 
@@ -80,7 +82,7 @@ Une fois connecté, vous pouvez utiliser noStrudel pour partager vos notes via N
 - Des outils avancés pour examiner les événements et leur contenu JSON
 - Des options de configuration pour les filtres de timeline et les NIPs
 
-> **Astuce :** Sur _noStrudel_, vous pouvez configurer des _filtres de timeline_ ou tester différents _NIPs (Nostr Implementation Possibilities)_. Par exemple, vérifier le support de NIP-05 (identifiants décentralisés) ou de fonctionnalités plus récentes. Cela fait de _noStrudel_ un excellent outil pour expérimenter dans un environnement contrôlé.
+**Astuce :** Sur _noStrudel_, vous pouvez configurer des _filtres de timeline_ ou tester différents _NIPs (Nostr Implementation Possibilities)_. Par exemple, vérifier le support de NIP-05 (identifiants décentralisés) ou de fonctionnalités plus récentes. Cela fait de _noStrudel_ un excellent outil pour expérimenter dans un environnement contrôlé.
 
 ### Snort – Client Nostr moderne sur Umbrel
 
@@ -110,7 +112,7 @@ L'interface de _Snort_ propose :
 - La gestion des **abonnements (following)** et **listes**
 - Un menu de gestion des **Relais** pour ajouter/retirer des relais et suivre leur disponibilité
 
-**Configuration recommandée des relais :** Pour ajouter votre relais Umbrel, allez dans Settings -> Relays. Saisissez l'URL de votre relais (`ws://umbrel:4848` ou autre URL selon votre config) dans la liste des relais de Snort. De cette manière, Snort publiera vos notes sur votre relais privé en plus des relais publics.
+**Configuration recommandée des relais :** Pour ajouter votre relais Umbrel, allez dans Settings - Relays. Saisissez l'URL de votre relais (`ws://umbrel:4848` ou autre URL selon votre config) dans la liste des relais de Snort. De cette manière, Snort publiera vos notes sur votre relais privé en plus des relais publics.
 
 ### Nostr Wallet Connect – Lier votre portefeuille Lightning à Nostr
 
@@ -172,7 +174,7 @@ Votre Umbrel, par souci de sécurité, n'est accessible par défaut que sur votr
     En outre, Tailscale vous permet d'accéder à l'interface Umbrel (et donc aux clients web _noStrudel/Snort_) via un simple navigateur, en utilisant l'IP privée ou le nom de domaine assigné. Pas besoin de Tor Browser, et les débits seront en général meilleurs que via le réseau Tor.
     
 
-> **Note :** Tor et Tailscale ne sont pas mutuellement exclusifs. Vous pouvez garder Tor actif pour l'accès anonymisé ou pour des services spécifiques, et utiliser Tailscale au quotidien pour sa simplicité. Dans les deux cas, aucune ouverture de port sur votre routeur n'est nécessaire, ce qui renforce la sécurité.
+**Note :** Tor et Tailscale ne sont pas mutuellement exclusifs. Vous pouvez garder Tor actif pour l'accès anonymisé ou pour des services spécifiques, et utiliser Tailscale au quotidien pour sa simplicité. Dans les deux cas, aucune ouverture de port sur votre routeur n'est nécessaire, ce qui renforce la sécurité.
 
 ### Sécuriser votre relais Nostr (pratiques recommandées)
 

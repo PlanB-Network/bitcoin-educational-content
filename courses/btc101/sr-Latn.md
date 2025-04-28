@@ -992,7 +992,7 @@ Sada kada smo pokrili osnove Bitkoin novčanika i najbolje prakse za njihovu za�
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
 
-## Pokretanje Bitkoin
+## Pokretanje Bitkoina
 
 
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
@@ -1004,39 +1004,39 @@ Sada kada smo pokrili osnove Bitkoin novčanika i najbolje prakse za njihovu za�
 ![image](assets/en/39.webp)
 
 
-31. oktobar 2008. označava rođenje nove finansijske tehnologije koja je bitkoin. Tog dana, anonimni Satoshi Nakamoto predstavio je svoju inovaciju svetu putem emaila poslatog na mailing listu cypherpunks, zajednice entuzijasta kriptografije posvećenih promociji privatnosti na internetu. Ovaj email je sadržao dokument nazvan "White Paper", koji je predstavio kako bitkoin funkcioniše.
+31. oktobar 2008. označava rođenje nove finansijske tehnologije koja se zove Bitkoin. Tog dana, anonimni Satoshi Nakamoto predstavio je svoju inovaciju svetu putem emaila poslatog na mailing listu cypherpunks-a, zajednice entuzijasta kriptografije posvećenih promociji privatnosti na internetu. Ovaj email je sadržao dokument nazvan "White Paper", koji je predstavio kako Bitkoin funkcioniše.
 
 
-Ova inicijativa nije odmah generate entuzijazam, verovatno zbog prethodnih neuspeha u pokušajima stvaranja sistema digitalnog novca. Ipak, ovaj White Paper je na kraju postao referenca za bitkoin korisnike i bio je predmet mnogih debata u bitkoin ekosistemu tokom godina.
+Ova inicijativa nije odmah izazvala entuzijazam, verovatno zbog prethodnih neuspeha u pokušajima stvaranja sistema digitalnog novca. Ipak, ovaj White Paper je na kraju postao referenca za Bitkoin korisnike i bio je predmet mnogih debata u Bitkoin ekosistemu tokom godina.
 
 
 ![image](assets/en/40.webp)
 
 
-Dana 3. januara 2009. godine, Satoshi je zvanično inaugurisao mrežu bitkoin kreiranjem prvog bloka, poznatog i kao "Genesis blok", čime je označen početak bitkoin Blockchain. Ovaj blok sadrži otkrivajuću poruku koja odražava misiju bitkoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
+Dana 3. januara 2009. godine, Satoshi je zvanično inaugurisao mrežu Bitkoin kreiranjem prvog bloka, poznatog i kao "Genesis blok", čime je označen početak bitkoin Blockchain-a. Ovaj blok sadrži otkrivajuću poruku koja odražava misiju Bitkoina: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 
 ![image](assets/en/41.webp)
 
 
-> "Možemo dobiti veliku bitku u trci naoružanja i steći"
-> nova teritorija slobode već nekoliko godina.” - Satoshi Nakamoto
+> "Možemo dobiti veliku bitku u trci u naoružanju i steći"
+> novu teritoriju slobode za nekoliko godina.” - Satoshi Nakamoto
 
 ![image](assets/en/42.webp)
 
 
-### bitkoin protokol oživljava
+### Bitkoin Protokol Oživljava
 
 
-Dana 9. januara 2009. godine, Satoshi je najavio izdavanje verzije bitkoin 0.1.0. Nedugo zatim, Hal Finney je preuzeo softver i pridružio se mreži, što je označilo prisustvo dva čvora i, samim tim, dva rudara u mreži. Finney je čak ovjekovečio ovaj korak tvitom, 'Running bitkoin'. Dana 12. januara 2009. godine, prva bitkoin transakcija od 10 BTC obavljena je između Satoshi i Hala Finneya, i lako je možete pronaći ako se vratite na blok 170.
+Dana 9. januara 2009. godine, Satoshi je najavio izdavanje verzije Bitkoin 0.1.0. Nedugo zatim, Hal Finney je preuzeo softver i pridružio se mreži, što je označilo prisustvo dva čvora i, samim tim, dva rudara u mreži. Finney je čak ovekovečio ovaj korak tvitom, 'Running bitkoin'. Dana 12. januara 2009. godine, prva Bitkoin transakcija od 10 BTC obavljena je između Satoshi-ja i Hala Finney-a, i lako je možete pronaći ako se vratite na blok 170.
 
 
 ![image](assets/en/43.webp)
 
 
-Interesovanje za bitkoin brzo je raslo, što je navelo mnoge ljude da ga testiraju, učestvuju u debatama, rešavaju greške i razmišljaju o njegovim etičkim, ekonomskim i filozofskim aspektima. Ljudi su bili toliko očarani da je Satoshi kreirao bitkoinTalk forum 22. novembra 2009. godine kako bi olakšao ovu vrstu komunikacije.
+Interesovanje za Bitkoin brzo je raslo, što je navelo mnoge ljude da ga testiraju, učestvuju u debatama, rešavaju greške i razmišljaju o njegovim etičkim, ekonomskim i filozofskim aspektima. Ljudi su bili toliko očarani da je Satoshi kreirao bitkoinTalk forum 22. novembra 2009. godine kako bi olakšao ovu vrstu komunikacije.
 
-Forum je brzo postao preferirano mesto za diskusiju među korisnicima bitkoin, toliko da su poznati mimovi i simboli povezani sa bitkoin nastali iz njega, kao što su [bitkoin logo](https://bitkointalk.org/index.php?topic=64.0), poznati [HODL](https://bitkointalk.org/index.php?topic=375643.0), ili čak [Pizza dan](https://bitkointalk.org/index.php?topic=137.msg1195).
+Forum je brzo postao preferirano mesto za diskusiju među korisnicima Bitkoin-a, toliko da su poznati mimovi i simboli povezani sa Bitkoin-om nastali iz njega, kao što su [bitkoin logo](https://bitkointalk.org/index.php?topic=64.0), poznati [HODL](https://bitkointalk.org/index.php?topic=375643.0), ili čak [Pizza dan](https://bitkointalk.org/index.php?topic=137.msg1195).
 
 
 **Da li ste znali?** Dana 22. maja 2010. godine, Laszlo Hanyecz je ušao u istoriju ponudivši da kupi dve pice za 10.000 BTC: to je bio prvi put da je bitkoin korišćen za kupovinu fizičke robe.
@@ -1045,55 +1045,55 @@ Forum je brzo postao preferirano mesto za diskusiju među korisnicima bitkoin, t
 ![image](assets/en/44.webp)
 
 
-### Nestanak Satoshi Nakamoto
+### Nestanak Satoshi-ja Nakamoto-a
 
 
-Godine 2010, kako je bitkoin počeo privlačiti pažnju medija, Satoshi je odlučio da se distancira objavivši svoje povlačenje u forumskom postu 12. decembra 2010. Dana 23. aprila 2011. poslao je svoj poslednji poznati privatni Exchange putem emaila, a zatim nestao, ostavljajući svoje delo u rukama zajednice.
+Godine 2010, kako je Bitkoin počeo privlačiti pažnju medija, Satoshi je odlučio da se distancira objavivši svoje povlačenje u forumskom postu 12. decembra 2010. Dana 23. aprila 2011. poslao je svoju poslednju poznatu privatnu razmenu putem emaila, a zatim nestao, ostavljajući svoje delo u rukama zajednice.
 
 
 > „Vlade su dobre u odsecanju glava centralno
-> kontrolisane mreže poput Napstera, ali čiste P2P mreže poput
+> kontrolisane mreže poput Napster-a, ali čiste P2P mreže poput
 > Gnutella i Tor izgleda da se drže.” - Satoshi Nakamoto
 
-Uprkos odsustvu Satoshi, bitkoin je nastavio da se razvija: istorija bitkoin se piše svakih 10 minuta, a protokol i dalje funkcioniše do danas kako je i predviđeno. Bez obzira na bilo kakav strah, nesigurnost ili sumnju, bitkoin nastavlja da napreduje, sa veoma jakom dostupnošću na mreži. Zapravo, prema ovom [sajtu](https://bitkoinuptime.com/), bitkoin je bio funkcionalan i radio bez većih problema 99.988% vremena od kada je kreiran.
+Uprkos odsustvu Satoshija, Bitkoin je nastavio da se razvija: istorija Bitkoin-a se piše svakih 10 minuta, a protokol i dalje funkcioniše do danas kako je i predviđeno. Bez obzira na bilo kakav strah, nesigurnost ili sumnju, bitkoin nastavlja da napreduje, sa veoma jakom dostupnošću na mreži. Zapravo, prema ovom [sajtu](https://bitkoinuptime.com/), bitkoin je bio funkcionalan i radio bez većih problema 99.988% vremena od kada je kreiran.
 
 
-Za neke, bitkoin je definisan kao gljivični entitet poput [micelijuma](https://brandonquittem.com/bitkoin-is-the-mycelium-of-money/), dok ga drugi opisuju kao [crnu rupu](https://dergigi.com/). Voleli ga ili mrzeli, bitkoin nastavlja da postoji, sa svojim konstantnim ritmom od 10 minuta po bloku, poput otkucaja srca novog monetarnog sistema.
+Za neke, Bitkoin je definisan kao gljivični entitet poput [micelijuma](https://brandonquittem.com/bitkoin-is-the-mycelium-of-money/), dok ga drugi opisuju kao [crnu rupu](https://dergigi.com/). Voleli ga ili mrzeli, Bitkoin nastavlja da postoji, sa svojim konstantnim ritmom od 10 minuta po bloku, poput otkucaja srca novog monetarnog sistema.
 
 
-Da biste saznali više o spisima Satoshi Nakamota, preporučujemo čitanje ["The Book of Satoshi"](https://planb.network/en/resources/books/98) autora Phil Champagne ili ARTE dokumentarac "Le mystaire Satoshi".
+Da biste saznali više o spisima Satoshi-ja Nakamoto-a, preporučujemo čitanje ["The Book of Satoshi"](https://planb.network/en/resources/books/98) autora Phil Champagne ili ARTE dokumentarac "Le mystaire Satoshi".
 
 
 ![image](assets/en/45.webp)
 
 
-> “Korenitni problem sa konvencionalnom valutom je svo poverenje koje je potrebno da bi ona funkcionisala. Centralnoj banci se mora verovati da neće obezvrediti valutu, ali istorija fiat valuta je puna kršenja tog poverenja. Bankama se mora verovati da će čuvati naš novac i prenositi ga elektronski, ali one ga pozajmljuju u talasima kreditnih balona sa jedva delićem u rezervi” - [Satoshi Nakamoto](https://Satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
+> “Osnovni problem sa konvencionalnom valutom je svo poverenje koje je potrebno da bi ona funkcionisala. Centralnoj banci se mora verovati da neće obezvrediti valutu, ali istorija fiat valuta je puna kršenja tog poverenja. Bankama se mora verovati da će čuvati naš novac i prenositi ga elektronski, ali one ga pozajmljuju u talasima kreditnih balona sa jedva delićem u rezervi” - [Satoshi Nakamoto](https://Satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 
-Sada kada imamo neku pozadinu, hajde da ispitamo kako bitkoin transakcija funkcioniše uopšteno.
+Sada kada imamo neku pozadinu, hajde da pogledamo kako Bitkoin transakcija funkcioniše uopšteno.
 
 
-## bitkoin Transakcije
+## Bitkoin Transakcije
 
 
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 
 
-Transakcija bitkoin je jednostavno transfer Ownership bitkoina kroz korišćenje bitkoin Address. Da bismo opisali ovaj proces, hajde da uvedemo dva protagonista: Alisa i Bob. Alisa želi da nabavi bitkoine, dok Bob već poseduje neke.
+Bitkoin transakcija je jednostavno transfer vlasništva nad bitkoinima kroz korišćenje Bitkoin adrese. Da bismo opisali ovaj proces, hajde da uvedemo dva protagonista: Alisa i Bob. Alisa želi da nabavi bitkoine, dok Bob već poseduje neke.
 
 
-### Korak 1 - Kreiranje transakcije putem Wallet
+### Korak 1 - Kreiranje transakcije putem novčanika
 
 
-Da bi Bob prebacio bitkoine Alisi, ona mu mora dati jednu od svojih bitkoin adresa, koje su jedinstvene za njen bitkoin Wallet. Baš kao što se privatni ključ koristi za generate javni ključ, potonji se zatim koristi za generate adrese.
+Da bi Bob prebacio bitkoine Alisi, ona mu mora dati jednu od svojih Bitkoin adresa, koje su jedinstvene za njen Bitkoin novčanik. Baš kao što se privatni ključ koristi za generate javnog ključa, potonji se zatim koristi za generisanje adresa.
 
 
-U konkretnim terminima, kada Alice otvori svoj Wallet i pritisne "primi", prikazaće se QR kod ili Address (kao ovaj bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr). Ovo služi kao njen 'bitkoin IBAN' na neki način, koji ona zatim daje Bobu.
+U konkretnim terminima, kada Alice otvori svoj novčanik i pritisne "primi", prikazaće se QR kod ili adresa (kao ovaj bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr). Ovo služi kao njen 'Bitkoin IBAN' na neki način, koji ona zatim daje Bobu.
 
 
 Nakon toga, Bob obavlja transakciju otvaranjem svog bitkoin Wallet i pritiskom na "send". Zatim kopira i lepi Alice-in Address u traženo polje, dodaje iznos koji želi poslati i odlučuje o naknadama za transakciju, koje služe kao podsticaj rudarima da uključe transakciju u sledeći blok. Zapravo, što veće naknade Bob plati, to su mu veće šanse da transakcija bude uključena u sledeći blok dodat u Blockchain, tj. javni i nepromenljivi Ledger koji beleži sve bitkoin transakcije.
 
 
-Da bi finalizovao transakciju, Bob mora da je potpiše svojim privatnim ključem kako bi potvrdio da je vlasnik bitkoina koje želi da prenese. Ovaj korak je obično automatski na mobilnim novčanicima, ili se pojavljuje kao potvrda na vašem fizičkom Wallet: "Da li ste sigurni da želite da pošaljete X ka Y? Da ili ne".
+Da bi finalizovao transakciju, Bob mora da je potpiše svojim privatnim ključem kako bi potvrdio da je vlasnik bitkoina koje želi da prenese. Ovaj korak je obično automatski na mobilnim novčanicima, ili se pojavljuje kao potvrda na vašem fizičkom novčaniku: "Da li ste sigurni da želite da pošaljete X ka Y? Da ili ne".
 
 
 ![image](assets/en/46.webp)
@@ -1102,28 +1102,28 @@ Da bi finalizovao transakciju, Bob mora da je potpiše svojim privatnim ključem
 **Zašto plaćamo naknade?** Naknade su ključne za stvaranje slobodnog tržišta za uključivanje transakcija u blokove. Naime, blok ima veličinu od 1 MB (koja je proširena na 4 MB nakon SegWit ažuriranja), tako da je broj transakcija koje se mogu "ubaciti" u blok ograničen na nekoliko hiljada transakcija po bloku. Veličina transakcije zavisi od njene složenosti. Stoga, složenije transakcije obično podrazumevaju veće naknade.
 
 
-### Korak 2: Propagacija transakcije kroz čvorove
+### Korak 2: Širenje transakcija kroz čvorove
 
 
-U ovoj fazi, transakcija je kreirana i Bobov Wallet će je podeliti sa mrežom bitkoin. Da bi to uradio, njegov Wallet će komunicirati sa čvorom mreže bitkoin, koji će ovu informaciju propagirati drugim čvorovima. Ovakav proces omogućava celoj mreži da vidi ovu novu transakciju i uzme je u obzir.
+U ovoj fazi, transakcija je kreirana i Bobov novčanik će je podeliti sa Bitkoin mrežom. Da bi to uradio, njegov novčanik će komunicirati sa čvorom Bitkoin mreže, koji će ovu informaciju propagirati drugim čvorovima. Ovakav proces omogućava celoj mreži da vidi ovu novu transakciju i uzme je u obzir.
 
 
 ![image](assets/en/47.webp)
 
 
-U ovom trenutku, iako je ova transakcija poznata svima (putem alata zvanog Mempool), ne može se smatrati potvrđenom dok ne bude umetnuta u blok od strane Miner, koji je jedini koji potvrđuje transakcije uključujući ih u Blockchain.
+U ovom trenutku, iako je ova transakcija poznata svima (putem alata zvanog Mempool), ne može se smatrati potvrđenom dok ne bude umetnuta u blok od strane rudara, koji je jedini koji potvrđuje transakcije uključujući ih u Blockchain.
 
 
-Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija kako bi ih sastavili u blok. Ukratko, moraju rešiti kriptografski zadatak u procesu nazvanom "Proof of Work" kako bi njihov blok bio sledeći u bitkoin Blockchain.
+Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija kako bi ih sastavili u blok. Ukratko, moraju rešiti kriptografski zadatak u procesu nazvanom "Proof of Work"(dokaz o radu) kako bi njihov blok bio sledeći u Bitkoin Blockchain-u.
 
 
 ![image](assets/en/48.webp)
 
 
-### Korak 3: Transakcija se rudari u bloku pomoću Miner.
+### Korak 3: Transakcija se rudari u bloku pod strane rudara.
 
 
-Sistem Proof of Work zahteva pronalaženje važećeg "Hash" za dati blok: zamislite to kao jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera. Validnost ovog Hash zavisi od stepena težine mreže bitkoin (o tome ćemo kasnije detaljnije). Za sada, uzmite u obzir da je Miner pronašao važeći blok, i da je Bobova transakcija ka Alisi uključena u njega. Zatim, novi važeći blok se dodaje u Blockchain, zajednički Ledger za sve korisnike bitkoin.
+Sistem Proof of Work zahteva pronalaženje važećeg "Hash-a" za dati blok: zamislite to kao jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera. Validnost ovog Hash-a zavisi od stepena težine Bitkoin mreže (o tome ćemo kasnije detaljnije). Za sada, uzmite u obzir da je rudar  pronašao važeći blok, i da je Bobova transakcija ka Alisi uključena u njega. Zatim, novi važeći blok se dodaje u Blockchain, zajednički Ledger za sve korisnike bitkoina.
 
 
 ![image](assets/en/49.webp)
@@ -1132,68 +1132,68 @@ Sistem Proof of Work zahteva pronalaženje važećeg "Hash" za dati blok: zamisl
 ### Korak 4: Blok je važeći i verifikovan od strane Alisinog referentnog čvora.
 
 
-U ovoj fazi, transakcija se smatra validnom: Miner će zatim propagirati novi blok na mrežu preko svog čvora, i Alisin Wallet će biti ažuriran.
+U ovoj fazi, transakcija se smatra validnom: rudar će zatim propagirati novi blok na mrežu preko svog čvora, i Alisin novčanik će biti ažuriran.
 
 
 ![image](assets/en/50.webp)
 
 
-**Napomena:** Čak i ako je Alisa obaveštena da je primila bitkoine na jednu od svojih adresa, preporučljivo je smatrati transakciju nepromenljivom tek nakon što dobije **šest** potvrda. To znači da šest dodatnih blokova mora biti iskopano iznad bloka koji sadrži Bobovu transakciju. Drugim rečima, što je transakcija starija u Blockchain, to postaje nepromenljivija.
+**Napomena:** Čak i ako je Alisa obaveštena da je primila bitkoine na jednu od svojih adresa, preporučljivo je smatrati transakciju nepromenljivom tek nakon što dobije **šest** potvrda. To znači da šest dodatnih blokova mora biti iskopano iznad bloka koji sadrži Bobovu transakciju. Drugim rečima, što je transakcija starija u Blockchain-u, to postaje nepromenljivija.
 
 
 ### Koja je važnost ovog procesa?
 
 
-bitkoin transakcioni sistem je decentralizovan i funkcioniše peer-to-peer, bez ikakvih pouzdanih posrednika.
+Bitkoin transakcioni sistem je decentralizovan i funkcioniše peer-to-peer, bez ikakvih pouzdanih posrednika.
 
 
-Bob šalje svoju transakciju na bitkoin mrežu, i kada Miner objavi važeći blok koji sadrži Bobovu transakciju, Alice može početi smatrati da bitkoini pripadaju njoj. Poverenje nije potrebno ni u jednom koraku prenosa bitkoin Ownership: pravila protokola i ekonomski podsticaji sami po sebi čine da je zlonamerno delovanje unutar bitkoin sistema izuzetno skupo.
+Bob šalje svoju transakciju na Bitkoin mrežu, i kada rudar objavi važeći blok koji sadrži Bobovu transakciju, Alice može početi smatrati da bitkoini pripadaju njoj. Poverenje nije potrebno ni u jednom koraku prenosa bitkoin vlasništva: pravila protokola i ekonomski podsticaji sami po sebi čine da je zlonamerno delovanje unutar Bitkoin sistema izuzetno skupo.
 
 
-Zapravo, korisnici prenose Ownership svojih sredstava digitalnim potpisivanjem transakcija svojim privatnim ključevima. S druge strane, rudari imaju ograničenu moć, a korisnici zadržavaju značajnu kontrolu koristeći bitkoin čvorove za validaciju novih blokova i uključenih transakcija. Svaki čvor ima ili punu ili delimičnu kopiju Ledger, tako da mreža formirana od strane bitkoin čvorova čini sistem zaista decentralizovanim.
+Zapravo, korisnici prenose vlasništvo  svojih sredstava digitalnim potpisivanjem transakcija svojim privatnim ključevima. S druge strane, rudari imaju ograničenu moć, a korisnici zadržavaju značajnu kontrolu koristeći Bitkoin čvorove za validaciju novih blokova i uključenih transakcija. Svaki čvor ima ili punu ili delimičnu kopiju registra, tako da mreža formirana od strane Bitkoin čvorova čini sistem zaista decentralizovanim.
 
 
-Kao posledica, da bi mreža bitkoin bila potpuno uništena, svaka kopija Blockchain na svim bitkoin čvorovima bi morala biti eliminisana, što je praktično nemoguć zadatak zbog geografske distribucije ovih čvorova i teškoće njihovog fizičkog zaplenjivanja.
+Kao posledicatoga, da bi Bitkoin mreža bila potpuno uništena, svaka kopija Blockchain-a na svim bitkoin čvorovima bi morala biti eliminisana, što je praktično nemoguć zadatak zbog geografske distribucije ovih čvorova i teškoće njihovog fizičkog zaplenjivanja.
 
 
-Hajde da detaljnije pogledamo kako funkcioniše čvor bitkoin.
+Hajde da detaljnije pogledamo kako funkcioniše Bitkoin čvor.
 
 
-## bitkoin Čvorovi
+## Bitkoin Čvorovi
 
 
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
 
-Čvorovi su osnovni element arhitekture mreže bitkoin, jer obavljaju različite ključne funkcije:
+Čvorovi su osnovni element arhitekture Bitkoin mreže, jer obavljaju različite ključne funkcije:
 
 
 
-- Održavanje kopije bitkoin Blockchain
+- Održavanje kopije bitkoin Blockchain-a
 - Validacija transakcija
 - Prenos informacija drugim čvorovima
-- Sprovođenje pravila bitkoin protokola.
+- Sprovođenje pravila Bitkoin protokola.
 
 
-Stoga, svaki uređaj koji pokreće deo bitkoin softvera, nazvan bitkoin čvor (često koristeći [bitkoin Core](https://bitkoin.org/en/bitkoin-core/)), doprinosi decentralizaciji mreže.
+Stoga, svaki uređaj koji pokreće deo Bitkoin softvera, nazvan bitkoin čvor (često koristeći [bitkoin Core](https://bitkoin.org/en/bitkoin-core/)), doprinosi decentralizaciji mreže.
 
 
 ![image](assets/en/51.webp)
 
 
-### Čvorovi su centralna jezgra bitkoin.
+### Čvorovi su centralna jezgra Bitkoin-a.
 
 
-Svaki čvor drži kopiju Blockchain, koja omogućava verifikaciju transakcija i sprečava bilo kakav pokušaj prevare. Decentralizovana priroda mreže daje bitkoin izuzetnu otpornost i robusnost. Zapravo, da bi se zaustavio bitkoin protokol, svi čvorovi širom sveta bi morali biti isključeni. Od septembra 2023. godine bilo je približno [45,000 čvorova](https://bitnodes.io/nodes/all/) raspoređenih širom sveta.
+Svaki čvor drži kopiju Blockchain, koja omogućava verifikaciju transakcija i sprečava bilo kakav pokušaj prevare. Decentralizovana priroda mreže daje Bitkoinu izuzetnu otpornost i robusnost. Zapravo, da bi se zaustavio Bitkoin protokol, svi čvorovi širom sveta bi morali biti isključeni. Od septembra 2023. godine bilo je približno [45,000 čvorova](https://bitnodes.io/nodes/all/) raspoređenih širom sveta.
 
 
-Čvorovi su sposobni da verifikuju validnost blokova i transakcija jer prate pravila bitkoin konsenzusa. Ova pravila uspostavljaju bitkoin monetarnu politiku, kao što je iznos Mining nagrade (o čemu ćemo detaljnije govoriti u sledećem odeljku) i količinu bitkoin u opticaju. Na neki način, čvorovi deluju kao pravni sistem mreže jer sprovode bitkoin pravila, održavajući mrežu neutralnom. Pravila konsenzusa se retko menjaju, ako uopšte, jer je za promene potrebna saglasnost svih čvorova.
+Čvorovi su sposobni da verifikuju validnost blokova i transakcija jer prate pravila Bitkoin konsenzusa. Ova pravila uspostavljaju Bitkoin monetarnu politiku, kao što je iznos nagrade za rudarenje (o čemu ćemo detaljnije govoriti u sledećem odeljku) i količinu bitkoina u opticaju. Na neki način, čvorovi deluju kao pravni sistem mreže jer sprovode bitkoin pravila, održavajući mrežu neutralnom. Pravila konsenzusa se retko menjaju, ako uopšte, jer je za promene potrebna saglasnost svih čvorova.
 
 
 ![image](assets/en/52.webp)
 
 
-Upravljanje unutar protokola prevazilazi okvire ovog osnovnog kursa, ali je važno napomenuti da svaki korisnik koji pokreće bitkoin čvor može odlučiti koje će pravila slediti. Korisnik može odlučiti da se pridržava različitih pravila (tj. da izvrši izmene u kodu), ali ako te promene poništavaju trenutna pravila konsenzusa, taj čvor više neće biti deo bitkoin mreže. Shodno tome, velike izmene su retke i zahtevaju značajnu koordinaciju među hiljadama učesnika sa različitim ideologijama i interesima, što ih primorava da pruže ažuriranja koja se smatraju 'boljim' od strane svih bitkoin korisnika.
+Upravljanje unutar protokola prevazilazi okvire ovog osnovnog kursa, ali je važno napomenuti da svaki korisnik koji pokreće bitkoin čvor može odlučiti koje će pravila slediti. Korisnik može odlučiti da se pridržava različitih pravila (tj. da izvrši izmene u kodu), ali ako te promene poništavaju trenutna pravila konsenzusa, taj čvor više neće biti deo Bitkoin mreže. Shodno tome, velike izmene su retke i zahtevaju značajnu koordinaciju među hiljadama učesnika sa različitim ideologijama i interesima, što ih primorava da pruže ažuriranja koja se smatraju 'boljim' od strane svih Bitkoin korisnika.
 
 
 ### Kako izgleda čvor?
@@ -1213,22 +1213,22 @@ Sa perspektive protoka, uzimajući u obzir 1 blok od 1MB svakih 10 minuta, to od
 ### Čvorovi moraju ostati dostupni svima!
 
 
-Povoljna cena i dostupnost bitkoin čvora u smislu hardverskih resursa, skladištenja i propusnog opsega je veoma važna karakteristika, jer olakšava decentralizaciju mreže.
+Povoljna cena i dostupnost Bitkoin čvora u smislu hardverskih resursa, skladištenja i propusnog opsega je veoma važna karakteristika, jer olakšava decentralizaciju mreže.
 
 
-Zaista, svako ima dobar razlog da pokrene čvor! Troškovi i napori su minimalni u poređenju sa dobijenom koristi. Samo treba da se upustite u avanturu i pridružite se hiljadama drugih bitkoinera kako biste svi zajedno formirali bitkoin mrežu.
+Zaista, svako ima dobar razlog da pokrene čvor! Troškovi i napori su minimalni u poređenju sa dobijenom koristi. Samo treba da se upustimo u avanturu i pridružimo se hiljadama drugih Bitkoinera kako biste svi zajedno formirali Bitkoin mrežu.
 
 
 ![image](assets/en/54.webp)
 
 
-Naprotiv, ako bi blokovi bili 100 puta teži, mogli bismo svakako obaviti 100 puta više transakcija svakih 10 minuta, ali pokretanje bitkoin čvora bi zahtevalo 50TB Hard disk, propusni opseg veći od 500GB/mesec, i hardver sposoban za validaciju stotina hiljada transakcija za manje od 10 minuta. U ovoj hipotetičkoj situaciji sa 100 puta većim blokovima, pokretanje bitkoin čvora ne bi bilo dostupno prosečnoj osobi, što bi ugrozilo i decentralizaciju protokola i nepromenljivost transakcija i pravila konsenzusa.
+Naprotiv, ako bi blokovi bili 100 puta teži, mogli bismo svakako obaviti 100 puta više transakcija svakih 10 minuta, ali pokretanje bitkoin čvora bi zahtevalo 50TB Hard disk, propusni opseg veći od 500GB/mesec, i hardver sposoban za validaciju stotina hiljada transakcija za manje od 10 minuta. U ovoj hipotetičkoj situaciji sa 100 puta većim blokovima, pokretanje Bitkoin čvora ne bi bilo dostupno prosečnoj osobi, što bi ugrozilo i decentralizaciju protokola i nepromenljivost transakcija i pravila konsenzusa.
 
 
-Dakle, ograničenja protokola su dizajnirana da omoguće što većem broju ljudi da pokreću sopstvene bitkoin čvorove. Zapravo, godina 2017. bila je obeležena intenzivnom kontroverzom poznatom kao "block size war". Ovaj sukob su činili oni koji su želeli da modifikuju bitkoin povećanjem veličine bloka kako bi poboljšali kapacitet transakcija (rudari, Exchange platforme i institucije) protiv onih koji su želeli da očuvaju nezavisnost i moć korisnika (čvorovi i korisnici). Na kraju, druga strana je trijumfovala.
+Dakle, ograničenja protokola su dizajnirana da omoguće što većem broju ljudi da pokreću sopstvene Bitkoin čvorove. Zapravo, godina 2017. bila je obeležena intenzivnom kontroverzom poznatom kao "block size war"(rat za veličinu bloka). Ovaj sukob su činili oni koji su želeli da modifikuju Bitkoin povećanjem veličine bloka kako bi poboljšali kapacitet transakcija (rudari, platforme za razmenu i institucije) protiv onih koji su želeli da očuvaju nezavisnost i moć korisnika (čvorovi i korisnici). Na kraju, druga strana je trijumfovala.
 
 
-Nakon ove pobede, čvorovi su aktivirali ažuriranje pod nazivom SegWit, otvarajući put za implementaciju Lightning Network, instant bitkoin mreže plaćanja izgrađene kao drugi Layer od bitkoin Blockchain. Ova situacija pokazuje da korisnici, putem svojih čvorova, imaju stvarnu moć unutar bitkoin, omogućavajući im da se suprotstave velikim institucijama u vremenima neslaganja.
+Nakon ove pobede, čvorovi su aktivirali ažuriranje pod nazivom SegWit, otvarajući put za implementaciju Lightning mreže, instant Bitkoin mreže plaćanja izgrađene kao drugi Layer od Bitkoin Blockchain. Ova situacija pokazuje da korisnici, putem svojih čvorova, imaju stvarnu moć unutar Bitkoin, omogućavajući im da se suprotstave velikim institucijama u vremenima neslaganja.
 
 
 ## Rudari

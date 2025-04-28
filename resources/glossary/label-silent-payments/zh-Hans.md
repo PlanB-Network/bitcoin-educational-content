@@ -10,7 +10,7 @@ $$  B_m = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } m) \cdot G
 
 $$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
 
-现在，Bob 发布的静态地址将由 $B_{text{scan}$ 和 $B_m$ 组成。例如，第一个标签为 $1$ 的静态地址将是
+现在，Bob 发布的静态地址将由 $B_{\text{scan}}$ 和 $B_m$ 组成。例如，第一个标签为 $1$ 的静态地址如下：
 
 $$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
 
@@ -18,7 +18,7 @@ $$ B = B_{\text{scan}} \text{ ‖ } B_1 $$
 
 $$  P_0 = B_1 + \text{hash}(\text{inputHash} \cdot a \cdot B_{\text{scan}} \text{ ‖ } 0) \cdot G  $$
 
-实际上，爱丽丝可能根本不知道鲍勃有一个标签地址，因为她只是使用了他提供的静态地址的第二部分，在本例中是 $B_1$ 而不是 $B_{\text{spend}}$。为了扫描付款，Bob 将始终以这种方式使用其初始静态地址的值 $B_{text/{spend}}$：
+实际上，Alice 可能根本不知道鲍勃有一个标签地址，因为她只是使用了他提供的静态地址的第二部分，在本例中是 $B_1$ 而不是 $B_{\text{spend}}$。为了扫描付款，Bob 将始终以这种方式使用其初始静态地址的值 $B_{text/{spend}}$：
 
 $$   P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0) \cdot G  $$
 
@@ -26,10 +26,10 @@ $$   P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}}
 
 $$ Out_4 - P_0 = \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G $$
 
-这样做的原因是
+因为：
 
 $$  B_1 = B_{\text{spend}} + \text{hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G  $$
 
-通过这种方法，Bob 可以使用大量静态地址（$B_1$, $B_2$, $B_3$......），所有这些地址都来自于他的基本静态地址($B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$)，以便正确区分用途。
+通过这种方法，Bob 可以使用大量静态地址（$B_1$, $B_2$, $B_3$....），所有这些地址都来自于他的基本静态地址($B = B_{\text{scan}} \text{ ‖ } B_{\text{spend}}$)，以便正确区分用途。
 
 然而，这种静态地址分离仅适用于个人钱包管理角度，却无法实现身份分离。由于它们都具有相同的 $B_{text/{scan}}$，因此很容易将所有静态地址联系在一起，并推断出它们属于同一个实体。

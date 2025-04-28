@@ -102,7 +102,7 @@ Dans les paramètres de l'application, vous trouverez différentes options impor
 
 Ces options sont essentielles pour la sécurité et la gestion de votre nœud Lightning. Assurez-vous particulièrement d'activer les sauvegardes automatiques et de conserver précieusement vos mots secrets.
 
-> **Ressources utiles :**
+**Ressources utiles :**
 > - [Umbrel Community](https://community.umbrel.com) – Forum de discussion permettant aux utilisateurs de partager leurs problèmes et solutions concernant Umbrel et son écosystème
 > - [Umbrel App Store – Lightning Node (LND)](https://apps.umbrel.com/app/lightning) – Description des fonctionnalités de l'app Lightning Node sur Umbrel
 > - [LND Docs – Quickstart](https://docs.lightning.engineering/lightning-network-tools/lnd/run-lnd) – Documentation officielle de LND

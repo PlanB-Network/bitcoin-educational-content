@@ -283,7 +283,7 @@ Wybierz "*Standard*", jeśli chcesz utworzyć klasyczny pojedynczy kod Wallet.
 Więcej informacji na temat opcji "*2FA*" można znaleźć w tym poradniku:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Twoje konto zostało utworzone.
 

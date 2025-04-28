@@ -192,7 +192,7 @@ Choisissez "*Standard*" si vous souhaitez créer un portefeuille single-sig clas
 
 Pour plus d'informations sur l'option "*2FA*", vous pouvez suivre cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Votre compte a bien été créé.
 

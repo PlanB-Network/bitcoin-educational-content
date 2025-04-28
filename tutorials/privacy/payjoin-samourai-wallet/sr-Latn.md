@@ -39,7 +39,7 @@ Transakcije u dosluhu uključuju razmene delimično potpisanih transakcija izme�
 Kada se radi na daljinu, ovaj proces postaje previše složen. Da bi se rešio ovaj problem, Samourai je razvio šifrovani komunikacioni protokol zasnovan na Tor-u, nazvan "Soroban." Sa Soroban-om, razmene neophodne za PayJoin su automatizovane iza korisnički prijatnog Interface. Ovo je druga metoda koju ćemo proučiti u ovom članku.
 
 
-Ove šifrovane razmene zahtevaju uspostavljanje veze i autentifikaciju između učesnika Cahoots-a. Soroban komunikacije su stoga zasnovane na Paynym-ima korisnika. Ako niste upoznati sa Paynym-ima, pozivam vas da pogledate ovaj članak za više detalja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+Ove šifrovane razmene zahtevaju uspostavljanje veze i autentifikaciju između učesnika Cahoots-a. Soroban komunikacije su stoga zasnovane na Paynym-ima korisnika. Ako niste upoznati sa Paynym-ima, pozivam vas da pogledate ovaj članak za više detalja: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 
 
@@ -56,7 +56,7 @@ Jednostavno rečeno, Paynym je jedinstveni identifikator povezan sa vašim Walle
 - _Paynym_ = Jedinstveni identifikator Wallet koji omogućava komunikaciju sa drugim korisnikom na Sorobanu, kako bi se izvršila Cahoots transakcija.
 
 
-[**-> Saznajte više o PayJoin transakcijama i njihovoj korisnosti**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+[**-> Saznajte više o PayJoin transakcijama i njihovoj korisnosti**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 
 ## Kako uspostaviti vezu između Paynyms?

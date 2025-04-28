@@ -1136,7 +1136,7 @@ Asteittaiseen strategiaan kuuluu toistuvat ostot, eli pienten Bitcoin-määrien 
 
 **Varokaa UTXO:ta**: Muista aika ajoin konsolidoida UTXO:t lompakkoihisi. Tämä käytäntö on välttämätön, jotta voit hallita bitcoinejasi tehokkaasti ja välttää turhat maksut transaktioiden aikana.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) on transaktion ulosmeno, jota ei ole vielä käytetty, mikä tarkoittaa, että sitä ei ole käytetty uuden transaktion sisäänmenona. UTXOjen konsolidointi tarkoittaa useiden pienten UTXOjen yhdistämistä yhdeksi suuremmaksi, jotta transaktion "painoa" voidaan vähentää ja siten maksaa alhaisempia maksuja.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) on transaktion ulosmeno, jota ei ole vielä käytetty, mikä tarkoittaa, että sitä ei ole käytetty uuden transaktion sisäänmenona. UTXOjen konsolidointi tarkoittaa useiden pienten UTXOjen yhdistämistä yhdeksi suuremmaksi, jotta transaktion "painoa" voidaan vähentää ja siten maksaa alhaisempia maksuja.
 
 - Spontaani osto
 

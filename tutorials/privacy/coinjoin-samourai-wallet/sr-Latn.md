@@ -487,7 +487,7 @@ Jednom kada `Tx0` bude potvrđen, vaši UTXO-ovi će biti automatski registrovan
 ![samourai](assets/notext/34.webp)
 
 
-Proverom karticu `Remixing`, koja odgovara nalogu **Postmix**, primetićete UTXO-e koji su rezultat početnih mešanja. Ovi novčići će ostati spremni za naknadno remiksovanje, koje neće izazvati dodatne troškove. Preporučujem da pogledate ovaj drugi članak kako biste saznali više o procesu remiksovanja i efikasnosti CoinJoin ciklusa: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Proverom karticu `Remixing`, koja odgovara nalogu **Postmix**, primetićete UTXO-e koji su rezultat početnih mešanja. Ovi novčići će ostati spremni za naknadno remiksovanje, koje neće izazvati dodatne troškove. Preporučujem da pogledate ovaj drugi članak kako biste saznali više o procesu remiksovanja i efikasnosti CoinJoin ciklusa: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -547,7 +547,7 @@ Unesite potrebne informacije za vašu transakciju troškova, zatim kliknite na p
 U sledećem koraku, imate opciju da izmenite stopu naknade povezanu sa vašom transakcijom. Takođe možete omogućiti opciju Stonewall označavanjem odgovarajućeg polja. Ako opcija Stonewall nije dostupna za izbor, to znači da vaš **Postmix** nalog ne sadrži UTXO dovoljne veličine da podrži ovu specifičnu strukturu transakcije.
 
 
-[-> Saznajte više o Stonewall transakcijama.](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Saznajte više o Stonewall transakcijama.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Ako je sve po vašoj želji, kliknite na Green `POŠALJI ... BTC` dugme.
@@ -645,7 +645,7 @@ Detaljni tutorijali o implementaciji ovih različitih tehnika uskoro će biti do
 
 **Dodatni resursi:**
 
-[Samourai Wallet video tutorial](https://planb.network/tutorials/Wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Samourai Wallet Dokumentacija - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

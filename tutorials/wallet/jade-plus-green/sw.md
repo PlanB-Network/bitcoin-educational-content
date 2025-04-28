@@ -283,7 +283,7 @@ Chagua "*Standard*" ikiwa ungependa kuunda Wallet ya kawaida ya sig moja.
 Kwa maelezo zaidi juu ya chaguo la "*2FA*", unaweza kufuata mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Akaunti yako imeundwa.
 

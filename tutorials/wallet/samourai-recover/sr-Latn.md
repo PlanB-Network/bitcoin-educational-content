@@ -29,7 +29,7 @@ S obzirom na to da stranica Samourai Wallet više nije dostupna na Google Play S
 
 Ako je Samourai Wallet već instaliran na vašem pametnom telefonu, i dalje biste trebali moći pristupiti aplikaciji. Da biste koristili Wallet funkcionalnost Samouraia, neophodno je povezati Dojo. Prethodno su korisnici bez ličnog Dojo-a zavisili od Samouraievih servera za pristup Bitcoin Blockchain informacijama i za emitovanje transakcija. Sa zaplenom ovih servera, aplikacija više ne može pristupiti ovim podacima.
 
-Ako ranije niste imali povezan Dojo, ali ga sada imate, možete ga podesiti da ponovo koristite svoju Samourai aplikaciju. Ovo uključuje proveru vaših rezervnih kopija, brisanje Wallet (Wallet, ne aplikaciju), i obnavljanje Wallet povezivanjem vašeg Dojo-a sa aplikacijom. Za više detalja o ovim koracima, možete pogledati [ovaj vodič, u odeljku "_Priprema vašeg Samourai Wallet-a_" : CoinJoin - DOJO](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
+Ako ranije niste imali povezan Dojo, ali ga sada imate, možete ga podesiti da ponovo koristite svoju Samourai aplikaciju. Ovo uključuje proveru vaših rezervnih kopija, brisanje Wallet (Wallet, ne aplikaciju), i obnavljanje Wallet povezivanjem vašeg Dojo-a sa aplikacijom. Za više detalja o ovim koracima, možete pogledati [ovaj vodič, u odeljku "_Priprema vašeg Samourai Wallet-a_" : CoinJoin - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
 
 Ako je vaša Samourai aplikacija već bila povezana sa vašim sopstvenim Dojo-om, onda Wallet deo savršeno funkcioniše za vas. Još uvek možete videti svoj saldo i emitovati transakcije. Uprkos svemu što se dešava, mislim da Samourai Wallet ostaje najbolji mobilni Wallet softver trenutno. Lično, planiram da ga i dalje koristim.
 
@@ -48,12 +48,12 @@ S druge strane, neki alati su ili pogođeni gašenjem servera ili potpuno nedost
 
 Komentari na Twitteru su istakli da privatnost koju nudi Stonewall transakcija sada može biti smanjena. Dodata vrednost Stonewall transakcije leži u činjenici da je neodvojiva od Stonewall x2 transakcije u smislu strukture. Kada analitičar naiđe na ovaj specifičan obrazac, ne može odrediti da li je u pitanju standardni Stonewall sa jednim korisnikom ili Stonewall x2 koji uključuje dva korisnika. Međutim, kao što ćemo videti u narednim pasusima, sprovođenje Stonewall x2 transakcija postalo je složenije zbog nedostupnosti Sorobana. Neki stoga misle da bi analitičar sada mogao pretpostaviti da je svaka transakcija sa ovom strukturom normalan Stonewall. Lično, ne delim ovu pretpostavku. Iako Stonewall x2 transakcije mogu biti ređe (i mislim da su već bile pre ovog incidenta), činjenica da su i dalje moguće može poništiti celu analizu zasnovanu na pretpostavci da nisu.
 
-**[-> Saznajte više o Stonewall transakcijama.](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Saznajte više o Stonewall transakcijama.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
 Što se tiče Ricochet-a, nisam bio u mogućnosti da proverim da li je usluga još uvek operativna, jer ne posedujem Dojo na Testnet, i radije ne bih rizikovao da potrošim `100 000 Sats` na Wallet koji bi mogao biti pod kontrolom vlasti. Ako ste imali priliku da nedavno testirate ovaj alat, pozivam vas da me kontaktirate kako bismo mogli ažurirati ovaj članak.
 
 
-Ako treba da koristiš Ricochet, budi svestan da uvek možeš da izvršiš ovu operaciju ručno sa bilo kojim Wallet softverom. Da bi naučio kako da ručno pravilno izvršiš razne skokove, preporučujem da pogledaš ovaj drugi članak: [**RICOCHET**](https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
+Ako treba da koristiš Ricochet, budi svestan da uvek možeš da izvršiš ovu operaciju ručno sa bilo kojim Wallet softverom. Da bi naučio kako da ručno pravilno izvršiš razne skokove, preporučujem da pogledaš ovaj drugi članak: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 
 Alat JoinBot više nije operativan, jer je u potpunosti zavisio od učešća Wallet kojim je upravljao Samourai.
@@ -75,10 +75,10 @@ Nakon nekoliko testova, čini se da Soroban više ne funkcioniše. Da bi se izvr
 - Ako ste udaljeni od svog saradnika, možete Exchange PSBT-ove putem spoljnog komunikacionog kanala do aplikacije. Međutim, budite oprezni, jer su podaci sadržani u ovim PSBT-ovima osetljivi u smislu privatnosti. Preporučujem korišćenje šifrovane usluge za razmenu poruka kako biste osigurali poverljivost Exchange.
 
 
-**[-> Saznajte više o Stonewall x2 transakcijama.](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Saznajte više o Stonewall x2 transakcijama.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 
-**[-> Saznajte više o Stowaway transakcijama.](https://planb.network/tutorials/privacy/On-Chain/PayJoin-samourai-Wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Saznajte više o Stowaway transakcijama.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 
 Što se tiče Whirlpool, čini se da protokol više ne funkcioniše, čak ni za korisnike koji imaju svoj Dojo. Posmatrao sam svoj RoninDojo ovih poslednjih nekoliko dana i pokušao neke osnovne manipulacije, ali Whirlpool CLI nije bio u mogućnosti da se poveže od kada je server ugašen.
@@ -240,7 +240,7 @@ Ako koristite drugi softver osim Sparrow-a, kao što je Electrum, za oporavak va
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Sada imate pristup svojim bitcoinima na Sparrow. Ako vam je potrebna pomoć pri korišćenju Sparrow Wallet, možete pogledati i [naš posvećeni vodič](https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Sada imate pristup svojim bitcoinima na Sparrow. Ako vam je potrebna pomoć pri korišćenju Sparrow Wallet, možete pogledati i [naš posvećeni vodič](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Takođe preporučujem ručno uvoz etiketa koje ste povezali sa vašim UTXO-ima na Samourai. Ovo će vam omogućiti efikasnu kontrolu novčića na Sparrow-u naknadno.
@@ -329,7 +329,7 @@ Ako koristite drugi softver poput Electrum-a za oporavak vašeg Samourai Wallet,
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Sada imate pristup svojim bitcoinima na Sparrow. Ako vam je potrebna pomoć pri korišćenju Sparrow Wallet, možete se obratiti i [našem posvećenom vodiču](https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Sada imate pristup svojim bitcoinima na Sparrow. Ako vam je potrebna pomoć pri korišćenju Sparrow Wallet, možete se obratiti i [našem posvećenom vodiču](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Takođe preporučujem ručno uvoz etiketa koje ste povezali sa vašim UTXO-ima na Samourai. Ovo će vam omogućiti efikasnu kontrolu novčića na Sparrow-u naknadno.

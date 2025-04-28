@@ -61,7 +61,7 @@ Kwa mtazamo wa nje, muundo wa muamala ungebaki sawa kabisa.
 Kwa muhtasari, miamala ya Stonewall na Stonewall x2 inashiriki muundo sawa. Tofauti kati ya hizi mbili iko katika asili yao ya ushirikiano. Muamala wa Stonewall unatengenezwa kibinafsi, bila hitaji la ushirikiano. Kinyume chake, shughuli ya Stonewall x2 inategemea ushirikiano kati ya watu wawili kwa utekelezaji wake.
 
 
-[**-> Pata maelezo zaidi kuhusu shughuli za Stonewall x2**](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Pata maelezo zaidi kuhusu shughuli za Stonewall x2**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 ## Madhumuni ya muamala wa Stonewall ni nini?

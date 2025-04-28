@@ -84,7 +84,7 @@ Unapofungua programu kwanza, unapewa chaguo kati ya:
 Dojo, iliyotengenezwa na timu ya Samourai, ni toleo kamili la nodi za Bitcoin ambalo linaweza kusakinishwa likiwa peke yake au kuongezwa kwa mbofyo mmoja kwenye suluhu za nodi-in-box kama vile [Umbrel](https://umbrel.com/) na [RoninDojo](https://ronindojo.io/).
 
 
-[**-> Gundua jinsi ya kusakinisha RoninDojo v2 kwenye Raspberry Pi.**](https://planb.network/tutorials/node/Bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> Gundua jinsi ya kusakinisha RoninDojo v2 kwenye Raspberry Pi.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
 Ikiwa una Dojo yako mwenyewe, unaweza kuiunganisha katika hatua hii. Kwa kufanya hivyo, utafaidika na kiwango cha juu zaidi cha faragha unapokagua maelezo yako ya muamala wa mtandao wa Bitcoin.

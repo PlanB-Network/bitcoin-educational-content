@@ -283,7 +283,7 @@ Green पुष्टि करता है कि आपका डिवाइ
 "*2FA*" विकल्प पर अधिक जानकारी के लिए, आप इस अन्य ट्यूटोरियल का अनुसरण कर सकते हैं:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 आपका खाता तैयार कर दिया गया है।
 

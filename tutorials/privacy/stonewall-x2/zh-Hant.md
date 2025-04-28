@@ -73,7 +73,7 @@ StonewallX2 交易的運作方式與 Stonewall 交易完全相同，只是前者
 如果您想尋找願意協助您進行石牆 X2 交易的合作者，您也可以造訪這個由 Samourai 使用者維護的 Telegram 群組 (非官方)，以連結發送者與合作者：[Make Every Spend a CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> 進一步瞭解石牆交易**](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> 進一步瞭解石牆交易**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## 石牆 x2 交易的目的是什麼？

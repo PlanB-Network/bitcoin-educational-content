@@ -207,7 +207,7 @@ Escolha "*Standard*" se pretender criar uma carteira clássica de assinatura ún
 
 Para mais informações sobre a opção "*2FA*", pode seguir este outro tutorial:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 A sua conta foi criada.
 

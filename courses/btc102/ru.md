@@ -2092,7 +2092,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 - Платформы P2P**: Платформы, такие как Bisq, RoboSats и Peach, способствуют обмену между частными лицами без необходимости проверки личности, используя системы условного депонирования для обеспечения безопасности транзакций. Эти платформы по-прежнему несут в себе риск кражи, если другая сторона не будет сотрудничать, но этот риск сводится к минимуму благодаря услугам эскроу.
 - Автоматические кассовые аппараты (банкоматы)**: Некоторые банкоматы (киоски) позволяют купить Bitcoin за наличные, хотя комиссии, как правило, высоки, а некоторые требуют подтверждения личности для крупных транзакций.
 - Платформы Exchange без KYC**: Некоторые платформы, особенно в Швейцарии, позволяют покупать небольшие суммы Bitcoin, не требуя подтверждения личности.
-- Mining**: Частные лица могут добывать Bitcoin. Доступны более старые или небольшие машины, что обеспечивает нетрадиционный способ получения Bitcoin без KYC. Присоединившись к Mining pool, вы сможете получать регулярные выплаты даже с базовым оборудованием. Для получения дополнительной информации [ознакомьтесь с нашими руководствами по Mining] (https://planb.network/tutorials/Mining).
+- Mining**: Частные лица могут добывать Bitcoin. Доступны более старые или небольшие машины, что обеспечивает нетрадиционный способ получения Bitcoin без KYC. Присоединившись к Mining pool, вы сможете получать регулярные выплаты даже с базовым оборудованием. Для получения дополнительной информации [ознакомьтесь с нашими руководствами по Mining] (https://planb.network/tutorials/mining).
 - Оплата / Зарплата в биткоинах**: Если вы занимаетесь бизнесом, вы можете принимать Bitcoin в качестве оплаты. Если вы работаете по найму, в зависимости от юрисдикции вы можете попросить, чтобы вам платили в Bitcoin. Эти способы позволят вам получить Bitcoin без KYC.
 
 
@@ -2434,7 +2434,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3b
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
@@ -2442,7 +2442,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503ad
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-fc1b553f-5298-4e75-9f34-8af19025f1b1
+https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
@@ -2666,7 +2666,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
@@ -2680,7 +2680,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-fc1b553f-5298-4e75-9f34-8af19025f1b1
+https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 

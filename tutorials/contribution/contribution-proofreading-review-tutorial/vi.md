@@ -33,7 +33,7 @@ Bạn không cần phải là chuyên gia GitHub để đánh giá nội dung. M
 
 Tuy nhiên, nếu bạn chưa quen với Git và GitHub và muốn tìm hiểu thêm, bạn có thể xem bài viết giới thiệu của chúng tôi về các công cụ này:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Tạo một tài khoản
 
 
@@ -163,3 +163,4 @@ NB. Bạn nên xem lại trong cửa sổ mã, với nội dung gốc được h
 
 
 - Nếu bạn có bất kỳ nhận xét, câu hỏi hoặc bình luận nào về dự án này, vui lòng gửi tin nhắn trực tiếp [đến nhóm Telegram của những người đóng góp](https://t.me/PlanBNetwork_ContentBuilder).
+

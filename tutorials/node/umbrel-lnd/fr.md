@@ -323,7 +323,7 @@ RTL est un "couteau suisse" complet pour administrer un nœud Lightning avec une
 
 L'installation de ces outils se fait en quelques clics via l'App Store d'Umbrel, sans configuration complexe.
 
-> **Ressources outils complémentaires :**
+**Ressources outils complémentaires :**
 > - [ThunderHub.io – Features](https://thunderhub.io) – Présentation des fonctionnalités de ThunderHub
 > - [Ride The Lightning (RTL) info](https://www.ridethelightning.info/) – Documentation de RTL
 > - [David Kaspar – Rebalance via ThunderHub](https://blog.davidkaspar.com) – Guide pratique pour les rééquilibrages

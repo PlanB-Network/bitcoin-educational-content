@@ -240,18 +240,51 @@ Ces options ne sont pas obligatoires, la solution Tor + Zeus fonctionne bien dan
 
 La gestion d'un nœud Lightning auto-hébergé requiert une attention particulière à la sécurité.
 
-### Sauvegarde de la seed et des canaux
+### Sauvegarde et sécurité de votre nœud
 
-Votre nœud Lightning Umbrel repose sur deux éléments de sauvegarde essentiels :
-**La seed phrase (24 mots)** : Permet de récupérer les fonds on-chain et de recréer votre wallet Lightning.
-**Le fichier de backup des canaux (Static Channel Backup ou SCB)** : Contient les informations indispensables pour permettre la fermeture forcée de vos canaux en cas de crash.
+**Types de sauvegardes essentielles**
 
-**Procédure de sauvegarde :**
-- Dans l'interface Lightning Node, via le menu (trois points "⋮" à côté de "+ Open Channel"), téléchargez le fichier de backup des canaux.
-- Exportez un nouveau SCB après chaque ouverture ou fermeture de canal.
-- Stockez le SCB en lieu sûr (stockage externe chiffré, copie hors-site).
+Votre nœud Lightning Umbrel nécessite deux types de sauvegardes :
 
-**Important :** Le SCB ne permet pas de récupérer l'état exact des canaux, mais sert de filet de sécurité pour récupérer les fonds. Ne tentez jamais de sauvegarder manuellement le fichier channel.db sous peine de risquer des pénalités.
+**La seed phrase (24 mots)**
+- Permet de récupérer les fonds on-chain
+- Nécessaire pour recréer votre wallet Lightning
+- À conserver de manière ultra-sécurisée (hors-ligne, sur papier)
+
+**Le fichier de backup des canaux (SCB - Static Channel Backup)**
+- Contient les informations des canaux Lightning
+- Permet la fermeture forcée des canaux en cas de crash
+- **Important :** Ne jamais sauvegarder manuellement le fichier `channel.db` (risque de pénalités)
+
+**Procédure de sauvegarde manuelle**
+
+Pour sauvegarder manuellement vos canaux :
+1. Accédez au menu de Lightning Node (trois points "⋮" à côté de "+ Open Channel")
+2. Téléchargez le fichier de backup des canaux
+3. Exportez un nouveau SCB après chaque modification de vos canaux
+4. Stockez le SCB de manière sécurisée (support chiffré, copie hors-site)
+
+**Système de sauvegarde automatique Umbrel**
+
+Umbrel intègre un système de sauvegarde automatique sophistiqué qui assure :
+
+*Protection des données :*
+- Chiffrement côté client avant transmission
+- Envoi via le réseau Tor
+- Données complétées par du remplissage aléatoire
+- Clé de chiffrement unique à votre appareil
+
+*Sécurité renforcée :*
+- Sauvegardes instantanées lors des changements d'état
+- Sauvegardes "leurres" à intervalles aléatoires
+- Masquage des modifications de taille des sauvegardes
+- Protection contre l'analyse temporelle
+
+*Processus de restauration :*
+- Identifiant et clé dérivés de votre seed Umbrel
+- Restauration complète possible avec uniquement la phrase mnémonique
+- Récupération automatique des dernières sauvegardes
+- Restauration des paramètres et données des canaux
 
 ### Restauration en cas de crash
 

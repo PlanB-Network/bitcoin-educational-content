@@ -326,7 +326,7 @@ L'installation de ces outils se fait en quelques clics via l'App Store d'Umbrel,
 **Ressources outils complémentaires :**
 - [ThunderHub.io – Features](https://thunderhub.io) – Présentation des fonctionnalités de ThunderHub
 - [Ride The Lightning (RTL) info](https://www.ridethelightning.info/) – Documentation de RTL
-> - [David Kaspar – Rebalance via ThunderHub](https://blog.davidkaspar.com) – Guide pratique pour les rééquilibrages
+- [David Kaspar – Rebalance via ThunderHub](https://blog.davidkaspar.com) – Guide pratique pour les rééquilibrages
 > - [Guide "Managing Lightning Nodes"](https://github.com/openoms/lightning-node-management) – Documentation avancée pour les power-users
 
 ## Conclusion

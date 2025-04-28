@@ -323,13 +323,13 @@ W powszechnym przekonaniu często kojarzy się walutę z tworem państwowym, gdz
 Przykładem może być waga monetarna odpowiadająca ośmiu hiszpańskim realom lub jednemu hiszpańskiemu dolarowi. Odważnik ten, oznaczony rzymską cyfrą wskazującą jego wartość, był używany przez kantory do oceny wartości monet na podstawie ich wagi, a nie tylko stempla. Ważąc monety, można było określić, czy zostały one zmienione lub uszkodzone, co mogło obniżyć ich wartość. Praktyka ta podkreśla, że chociaż standardowe stemplowanie przez państwo nadawało walucie pewną wartość nominalną, prawdziwa wartość tkwiła w wadze zawartego w niej metalu szlachetnego.
 
 
-Analiza ta pokazuje, że zaufanie do waluty, a co za tym idzie jej wartość, było zakotwiczone w jej namacalnej substancji, a nie w zwykłym zapewnieniu państwa. Podkreśla to dwoistość między wartością nominalną narzuconą przez państwo a wartością wewnętrzną podyktowaną zawartością metalu szlachetnego. W ten sposób waluta wykracza poza bycie zwykłym instrumentem państwowym, a jej podstawowa wartość jest nierozerwalnie związana z jej fizycznymi i mierzalnym aspektami.
+Analiza ta pokazuje, że zaufanie do waluty, a co za tym idzie jej wartość, było oparte na jej postaci fizycznej, a nie zwykłym zapewnieniu państwa. Podkreśla to dwoistość między wartością nominalną narzuconą przez państwo a wartością wewnętrzną podyktowaną zawartością metalu szlachetnego. W ten sposób waluta wykracza poza bycie zwykłym instrumentem państwowym, a jej podstawowa wartość jest nierozerwalnie związana z jej fizycznymi i mierzalnym aspektami.
 
 
 #### Wnioski
 
 
-Podsumowując, niniejsze badanie dotyczące dewaluacji monetarnej otwiera drzwi do głębokiego zrozumienia mechanizmów inflacji, które zostaną zbadane w kolejnych rozdziałach. Omówimy różne rodzaje inflacji i próg, przy którym przechodzą one w wysoką lub hiperinflację. Te solidne podstawy pozwolą nam na omówienie złożoności inflacji w nadchodzących sesjach. Dziękuję za uwagę i do zobaczenia w następnym materiale wideo, gdzie będziemy kontynuować eksplorację dynamiki monetarnej.
+Podsumowując, niniejsza analiza dotycząca dewaluacji monetarnej otwiera drzwi do głębokiego zrozumienia mechanizmów inflacji, które zostaną zbadane w kolejnych rozdziałach. Omówimy różne rodzaje inflacji i próg, przy którym przechodzą one w wysoką lub hiperinflację. Te solidne podstawy pozwolą nam na omówienie złożoności inflacji w nadchodzących sesjach. Dziękuję za uwagę i do zobaczenia w następnym materiale wideo, gdzie będziemy kontynuować eksplorację dynamiki monetarnej.
 
 
 ## Rodzaje inflacji
@@ -341,7 +341,7 @@ Podsumowując, niniejsze badanie dotyczące dewaluacji monetarnej otwiera drzwi 
 ### Inflacja nie jest zjawiskiem wieloczynnikowym
 
 
-W tej sekcji zbadamy różne wymiary inflacji, zjawiska, które jest często źle rozumiane. Chociaż w mediach i codziennych dyskusjach inflacja jest często postrzegana jako zjawisko wieloczynnikowe, ważne jest, aby pamiętać, że jest to zasadniczo zjawisko monetarne.
+W tej sekcji zbadamy różne wymiary inflacji - zjawiska, które jest często źle rozumiane. Chociaż w mediach i codziennych dyskusjach inflacja jest często postrzegana jako zjawisko wieloczynnikowe, ważne jest, aby pamiętać, że jest to zasadniczo zjawisko monetarne.
 
 
 ![image](assets/chapitre-2.2/0.webp)
@@ -433,13 +433,13 @@ Analiza Japonii (https://ideas.repec.org/p/ces/ceswps/_9821.html) podkreśla ró
 #### Bilanse banków i banków centralnych
 
 
-Trzecim przykładem na to, dlaczego dodruk pieniądza nie spowoduje inflacji, jest fakt, że związek między dodrukiem pieniądza a inflacją jest modulowany przez sposób, w jaki nowo wykreowane pieniądze są wprowadzane do gospodarki. Jeśli pieniądze te pozostaną w bilansach prywatnych banków bez pożyczania ich podmiotom gospodarczym, nie będą miały bezpośredniego wpływu na realną gospodarkę, a zatem nie spowodują inflacji.
+Trzecim przykładem pokazującym, dlaczego dodruk pieniądza nie powoduje inflacji, jest fakt, że związek między dodrukiem pieniądza a inflacją jest modulowany przez sposób, w jaki nowo wykreowane pieniądze są wprowadzane do gospodarki. Jeśli pieniądze te pozostaną w bilansach prywatnych banków bez pożyczania ich podmiotom gospodarczym, nie będą miały bezpośredniego wpływu na realną gospodarkę, a zatem nie spowodują inflacji.
 
 
 ![image](assets/chapitre-2.2/5.webp)
 
 
-Drukowanie pieniądza może być postrzegane jako miecz Damoklesa wiszący nad gospodarką. Wykreowane pieniądze mogą pozostać ukryte przez pewien czas, bez widocznego efektu inflacyjnego, o ile nie zostaną wstrzyknięte do gospodarki za pośrednictwem pożyczek bankowych lub innych mechanizmów. Jednakże, gdy te ukryte pieniądze zostaną w końcu wprowadzone do obiegu, mogą pojawić się efekty inflacyjne. To właśnie zaobserwowano w latach 2020-tych, gdzie wcześniej wykreowane pieniądze znalazły drogę do gospodarki, prowadząc do inflacji.
+Drukowanie pieniądza może być postrzegane jako miecz Damoklesa wiszący nad gospodarką. Wykreowane pieniądze mogą pozostać ukryte przez pewien czas, bez widocznego efektu inflacyjnego, o ile nie zostaną wstrzyknięte do gospodarki za pośrednictwem pożyczek bankowych lub innych mechanizmów. Jednakże, gdy te ukryte pieniądze zostaną w końcu wprowadzone do obiegu, mogą pojawić się efekty inflacyjne. To właśnie zaobserwowano w latach 2020-tych, gdzie wcześniej wykreowane pieniądze znalazły drogę wejścia do gospodarki, prowadząc do inflacji.
 
 Scenariusz ten podkreśla znaczenie mechanizmów transmisji monetarnej w określaniu inflacyjnego wpływu dodruku pieniądza. Kreacja pieniądza przez bank centralny to tylko jeden z elementów układanki. Zachowanie prywatnych banków, które decydują o wielkości udzielanych pożyczek oraz zachowanie pożyczkobiorców, którzy decydują, w jaki sposób wydadzą pożyczone pieniądze, są również kluczowymi elementami w tej dynamice.
 
@@ -453,7 +453,7 @@ Przykład Republiki Weimarskiej ilustruje kolejny kluczowy aspekt związku międ
 ![image](assets/chapitre-2.2/6.webp)
 
 
-Kiedy jednak sytuacja gospodarcza zaczęła się nieznacznie poprawiać, zaufanie stopniowo powróciło. Osoby fizyczne wycofały wówczas swoje oszczędności z kryjówek i zaczęły masowo wydawać w gospodarce. Ta nagła zmiana w zachowaniu, w połączeniu z już wysokim Supply, doprowadziła do eksplozji popytu. Przy większej ilości pieniędzy w obiegu i zwiększonym popycie, ceny zaczęły gwałtownie rosnąć, prowadząc do zauważalnej inflacji.
+Kiedy jednak sytuacja gospodarcza zaczęła się nieznacznie poprawiać, zaufanie stopniowo powróciło. Osoby fizyczne wyciągnęły wówczas swoje oszczędności z kryjówek i zaczęły masowo wydawać pieniądze. Ta nagła zmiana w zachowaniu, w połączeniu z już wysokią podażą pieniądza, doprowadziła do eksplozji popytu. Przy większej ilości pieniędzy w obiegu i zwiększonym popycie, ceny zaczęły gwałtownie rosnąć, prowadząc do zauważalnej inflacji.
 
 
 Przykład ten podkreśla znaczenie czasu i zachowania agenta w manifestacji inflacji. Inflacja pojawia się nie tylko w odpowiedzi na wzrost podaży pieniądza Supply, ale także w zależności od tego, jak i kiedy pieniądze te są wydawane w gospodarce. Niepewność gospodarcza i oczekiwania podmiotów gospodarczych odgrywają kluczową rolę w tej dynamice i mogą przyspieszyć lub opóźnić inflacyjne skutki dodruku pieniądza.

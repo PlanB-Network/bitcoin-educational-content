@@ -87,7 +87,7 @@ In this chapter, we explore the fundamentals of **distributed consensus systems*
 
 ### Introduction
 
-Distributed computing, a specific branch of computer science, studies the protocols used to circulate and process information on a network of nodes. Together, these nodes and the protocol rules constitute what is known as a distributed system. Among the essential properties that characterize such a system , some are :
+Distributed computing, a specific branch of computer science, studies the protocols used to circulate and process information on a network of nodes. Together, these nodes and the protocol rules constitute what is known as a distributed system. Among the essential properties that characterize such a system , some are:
 
 
 - The **capability of independent verification and validation** of certain data by each node;
@@ -167,7 +167,7 @@ This trilemma reminds us that confidentiality, integrity and availability cannot
 
 ### The role of blockchain and the notion of sharding
 
-The blockchain (in this case, Bitcoin) serves primarily as a _time-stamping_ mechanism and protection against double spending. Instead of inserting the complete data of a smart contract or decentralized system, we simply include **cryptographic commitments** to transactions (in the sense of Client-side Validation, which we'll call "state transitions"). Thus :
+The blockchain (in this case, Bitcoin) serves primarily as a _time-stamping_ mechanism and protection against double spending. Instead of inserting the complete data of a smart contract or decentralized system, we simply include **cryptographic commitments** to transactions (in the sense of Client-side Validation, which we'll call "state transitions"). Thus:
 
 
 - We free the blockchain from a large amount of data and logic;
@@ -254,7 +254,7 @@ Client-side Validation offers two major benefits:
 The *commitments* included in the blockchain are small (of the order of a few dozen bytes). This ensures that block space is not saturated, as only the hash needs to be included. It also enables the off-chain protocol to evolve, as each user only has to store his or her history fragment (his or her _stash_).
 
 
-- **Privacy :**
+- **Privacy:**
 
 Transactions themselves (i.e. their detailed content) are not published on-chain. Only their fingerprints (*hash*) are. Thus, amounts, addresses and contract logic remain private, and the receiver can verify, locally, the validity of his shard by inspecting all previous transitions. There is no reason for the receiver to make this data public, except in the event of a dispute or where proof is required.
 
@@ -323,7 +323,7 @@ The following comparison helps to understand this principle:
 
 Single-use Seals work in three main stages:
 
-**Seal Definition :**
+**Seal Definition:**
 
 
 - Alice defines in advance the rules for publishing the seal (when, where and how the message will be published);
@@ -331,7 +331,7 @@ Single-use Seals work in three main stages:
 
 ![RGB-Bitcoin](assets/fr/021.webp)
 
-**Seal Closing :**
+**Seal Closing:**
 
 
 - At runtime, Alice closes the seal by publishing the actual message (usually in the form of a _commitment_, e.g. a hash);
@@ -339,7 +339,7 @@ Single-use Seals work in three main stages:
 
 ![RGB-Bitcoin](assets/fr/019.webp)
 
-**Seal Verification :**
+**Seal Verification:**
 
 
 - Once the seal is closed, Bob can no longer open it: he can only check that it has been closed;
@@ -390,7 +390,7 @@ An RGB smart contract may need to spend several Single-use Seals (several UTXOs)
 Two of the project's main GitHub repositories (under the LNPBP organization) group together the basic implementations of these concepts studied in the first chapter:
 
 
-- **client_side_validation** : Contains Rust primitives for local validation ;
+- **client_side_validation**: Contains Rust primitives for local validation ;
 - **single_use_seals**: Implements the logic to define and close these seals securely.
 
 ![RGB-Bitcoin](assets/fr/020.webp)
@@ -472,7 +472,7 @@ While working on RGB, we identified at least 4 different ways to implement these
 We won't go into detail about each of these configurations, as in RGB we've chosen to use **an _outpoint_ as the definition of the seal**, and to place the _commitment_ in the output of the transaction spending this _outpoint_. We can therefore introduce the following concepts for the sequel:
 
 
-- **"Seal definition "** : A given _outpoint_ (identified by TXID + output no.) ;
+- **"Seal definition "**: A given _outpoint_ (identified by TXID + output no.) ;
 - **"Seal closing "**: The transaction that spends this _outpoint_, in which a _commitment_ is added to a message.
 
 This scheme has been selected for its compatibility with RGB architecture, but other configurations could be useful for different uses.
@@ -489,7 +489,7 @@ On the day it wants to close the seal (to signal an event, or to anchor a partic
 
 ![RGB-Bitcoin](assets/fr/025.webp)
 
-Note that in this example :
+Note that in this example:
 
 
 - No one but Bob (or the people to whom Alice chooses to reveal the full proof) will know that a certain message is hidden in this transaction;
@@ -511,7 +511,7 @@ In order for Bob or anyone else involved to check the hidden message, Alice must
 
 ![RGB-Bitcoin](assets/fr/028.webp)
 
-Alice must therefore provide Bob with :
+Alice must therefore provide Bob with the following:
 
 
 - The message itself (for example, the new PGP key) ;
@@ -539,7 +539,7 @@ To illustrate this from another angle, we can represent two layers:
 
 
 - **The top layer (blockchain, public)**: everyone sees the transaction and knows that a _outpoint_ has been spent;
-- **The lower layer (client-side, private)** : only Alice (or the person concerned) knows that this expense corresponds to such and such a message, via the cryptographic proof and the message she keeps locally.
+- **The lower layer (client-side, private)**: only Alice (or the person concerned) knows that this expense corresponds to such and such a message, via the cryptographic proof and the message she keeps locally.
 
 ![RGB-Bitcoin](assets/fr/034.webp)
 
@@ -553,13 +553,13 @@ When you give someone proof that a certain message is embedded in a transaction,
 
 The _witness transaction_ spends the famous UTXO (or _seal definition_) and this expenditure corresponds to the closing of the seal. Technically speaking, we know that each outpoint can only be spent once. This is precisely what underpins Bitcoin's resistance to double spending. But the spending transaction may have several _inputs_, several _outputs_, or be composed in a complex way (coinjoins, Lightning channels, etc.). We therefore need to clearly define where to insert the _commitment_ in this structure, unambiguously and uniformly.
 
-Whatever the method (PkO, TxO2, etc.), the _commitment_ can be inserted :
+Whatever the method (PkO, TxO2, etc.), the _commitment_ can be inserted:
 
 
-- In an **Input** via :
+- In an **Input** via:
     - **Sigtweak** (modifies the `r` component of the ECDSA signature, similar to the "Sign-to-contract" principle) ;
     - **Witweak** (the transaction's _segregated witness_ data is modified).
-- In an **Output** via :
+- In an **Output** via:
     - **Keytweak** (the recipient's public key is "tweaked" with the message) ;
     - **Opret** (the message is placed in a non-spendable output `OP_RETURN`) ;
     - **Tapret** (or _Taptweak_), which relies on taproot to insert commitment into the script part of a taproot key, thus modifying the public key deterministically.
@@ -570,7 +570,7 @@ Here are the details of each method:
 
 ![RGB-Bitcoin](assets/fr/038.webp)
 
-***Sig tweak (sign-to-contract) :***
+***Sig tweak (sign-to-contract):***
 
 An earlier scheme involved exploiting the random part of a signature (ECDSA or Schnorr) to embed the _commitment_: this is the technique known as "**Sign-to-contract**". You replace the randomly generated nonce with a hash containing the data. In this way, the signature implicitly reveals your commitment, without any additional space in the transaction. This approach has a number of advantages:
 
@@ -586,9 +586,9 @@ However, 2 major drawbacks have emerged:
 
 In practice, **sig tweak** is also not very compatible with existing hardware (hardware wallets) and formats (Lightning, etc.). So this great idea is hard to put into practice.
 
-***Key tweak (pay-to-contract) :***
+***Key tweak (pay-to-contract):***
 
-The **key tweak** takes up the historical concept of _pay-to-contract_. We take the public key `X` and tweak it by adding the value `H(message)`. Specifically, if `X = x * G` and `h = H(message)`, then the new key will be `X' = X + h * G`. This tweaked key hides the commitment to the `message`. The holder of the original private key can, by adding `h` to his private key `x`, prove that he has the key to spend the output. In theory, this is elegant, because :
+The **key tweak** takes up the historical concept of _pay-to-contract_. We take the public key `X` and tweak it by adding the value `H(message)`. Specifically, if `X = x * G` and `h = H(message)`, then the new key will be `X' = X + h * G`. This tweaked key hides the commitment to the `message`. The holder of the original private key can, by adding `h` to his private key `x`, prove that he has the key to spend the output. In theory, this is elegant, because:
 
 
 - The _commitment_ is entered without adding any additional fields;
@@ -603,9 +603,9 @@ In practice, however, we come up against the following difficulties:
 
 In the context of RGB, this path was envisaged until 2021, but it proved too complicated to make it work with current standards and infrastructure.
 
-***Witness tweak :***
+***Witness tweak:***
 
-Another idea, which certain protocols such as _inscriptions Ordinals_ have put into practice, is to place the data directly in the `witness` section of the transaction (hence the expression "witness tweak"). However, this method :
+Another idea, which certain protocols such as _inscriptions Ordinals_ have put into practice, is to place the data directly in the `witness` section of the transaction (hence the expression "witness tweak"). However, this method:
 
 
 - Makes engagement immediately visible (you literally paste raw data into the witness);
@@ -614,7 +614,7 @@ Another idea, which certain protocols such as _inscriptions Ordinals_ have put i
 
 In addition, witness is designed to be prunable in certain contexts, which can make having robust proofs more complicated.
 
-***Open-return (opret) :***
+***Open-return (opret):***
 
 Very simple in its operation, an `OP_RETURN` allows you to store a hash or message in a special field of the transaction. But it's immediately detectable: everyone sees that there's a _commitment_ in the transaction, and it can be censored or discarded, as well as adding extra output. Since this increases transparency and size, it's considered less satisfactory from the point of view of a Client-side Validation solution.
 
@@ -635,11 +635,12 @@ Before describing how the commitment is inserted into a taproot transaction, let
 
 ```txt
 64-byte_Tapret_Commitment =
-OP_RESERVED ...  ... .. OP_RESERVED   OP_RETURN   OP_PUSHBYTE_33  <mpc::Commitment>  <Nonce>
+
+ OP_RESERVED ...  ... .. OP_RESERVED   OP_RETURN   OP_PUSHBYTE_33  <mpc::Commitment>  <Nonce>
 |___________________________________| |_________| |______________| |_______________|  |______|
-OP_RESERVED x 29 times = 29 bytes      1 byte         1 byte          32 bytes        1 byte
+ OP_RESERVED x 29 times = 29 bytes      1 byte         1 byte          32 bytes        1 byte
 |________________________________________________________________| |_________________________|
-TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + NONCE = 33 bytes
+        TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + NONCE = 33 bytes
 ```
 
 
@@ -658,7 +659,7 @@ Let's take a closer look at each of these two scenarios.
 
 #### Tapret incorporation without existing Script Path
 
-In this first case, we start from a taproot output key (*Taproot Output Key*) `Q` which contains only the internal public key `P` *(Internal Key*), with no associated script path (*Script Path*) :
+In this first case, we start from a taproot output key (*Taproot Output Key*) `Q` which contains only the internal public key `P` *(Internal Key*), with no associated script path (*Script Path*):
 
 ![RGB-Bitcoin](assets/fr/047.webp)
 
@@ -687,7 +688,7 @@ The second scenario concerns a more complex `Q` **taproot** output, which alread
 - `tH_LEAF(x)` designates the normalized tagged hash function of a leaf script.
 - `A, B, C` represent scripts already included in the taproot structure.
 
-To add the Tapret commitment, we need to insert an *unspendable script* at the first level of the tree, shifting the existing scripts one level down. Visually, the tree becomes :
+To add the Tapret commitment, we need to insert an *unspendable script* at the first level of the tree, shifting the existing scripts one level down. Visually, the tree becomes:
 
 ![RGB-Bitcoin](assets/fr/050.webp)
 
@@ -719,7 +720,7 @@ In summary, the `Tapret` offers a discrete and deterministic way of incorporatin
 
 For RGB commitment transactions, the main requirement for a valid Bitcoin commitment scheme is as follows: The transaction (*witness transaction*) must provably contain a single commitment. This requirement makes it impossible to construct an alternative history for client-side validated data within the same transaction. This means that the message around which the _single-use seal_ closes is unique.
 
-To satisfy this principle, and regardless of the number of outputs in a transaction, we require that **one and only one output** can contain a commitment. For each of the schemes used (*Opret* or *Tapret*), the only valid outputs that can contain an RGB _commitment_ are :
+To satisfy this principle, and regardless of the number of outputs in a transaction, we require that **one and only one output** can contain a commitment. For each of the schemes used (*Opret* or *Tapret*), the only valid outputs that can contain an RGB _commitment_ are the following:
 
 
 - The first output `OP_RETURN` (if present) for the *Opret* scheme;
@@ -733,8 +734,8 @@ When we started RGB, we reviewed all these methods to determine where and how to
 
 
 - Compatibility with different scenarios (e.g. multisig, Lightning, hardware wallets, etc.);
-- Impact on on-chain space ;
-- Difficulty of implementation and maintenance ;
+- Impact on on-chain space;
+- Difficulty of implementation and maintenance;
 - Confidentiality and resistance to censorship.
 
 | Method                                             | On-chain trace & size | Client-side size | Wallet Integration | Hardware Compatibility | Lightning Compatibility | Taproot Compatibility |
@@ -813,13 +814,13 @@ In concrete terms, each _transition bundle_ belongs to a particular contract. Al
 
 #### MPC Root Hash
 
-The value actually written on-chain (in `Opret` or `Tapret`) is called `mpc::Commitment`. This is calculated in the form of [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), according to the formula :
+The value actually written on-chain (in `Opret` or `Tapret`) is called `mpc::Commitment`. This is calculated in the form of [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), according to the formula:
 
 ```txt
 mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofactor || mpc::Root )
 ```
 
-where :
+where:
 
 
 - `mpc_tag` is a tag: `urn:ubideco:mpc:commitment#2024-01-31`, chosen according to [RGB tagging conventions](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
@@ -831,13 +832,13 @@ where :
 
 #### MPC Tree construction
 
-To build this MPC Tree, we need to ensure that each contract corresponds to a unique leaf position. Suppose we have :
+To build this MPC Tree, we need to ensure that each contract corresponds to a unique leaf position. Suppose we have:
 
 
 - `c` contracts to be included indexed by `i` in `i` = {0,1,..,C-1};
 - For each contract `c_i`, we have an identifier `ContractId(i) = c_i`.
 
-We then construct a tree of width `w` and depth `d` such that `2^d = w`, with `w > C`, so that each contract can be placed in a separate _leaf_. The position `pos(c_i)` of each contract in the tree is determined by :
+We then construct a tree of width `w` and depth `d` such that `2^d = w`, with `w > C`, so that each contract can be placed in a separate _leaf_. The position `pos(c_i)` of each contract in the tree is determined by:
 
 ```txt
 pos(c_i) = c_i mod (w - cofactor)
@@ -860,7 +861,7 @@ Once `C` distinct positions `pos(c_i)` have been obtained for contracts `i = {0,
 tH_MPC_LEAF(c_i) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || 0x10 || c_i || BundleId(c_i))
 ```
 
-where :
+where:
 
 
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB ;
@@ -870,16 +871,16 @@ where :
 
 #### Uninhabited leaves
 
-The remaining leaves, not assigned to a contract (i.e. `w - C` leaves), are filled with a "dummy" value (_entropy leaf_) :
+The remaining leaves, not assigned to a contract (i.e. `w - C` leaves), are filled with a "dummy" value (_entropy leaf_):
 
 ```txt
 tH_MPC_LEAF(j) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || 0x11 || entropy || j )
 ```
 
-where :
+where:
 
 
-- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB ;
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB;
 - `0x11` denotes an _entropy leaf_ ;
 - `entropy` is a random value of 64 bytes, chosen by the person building the tree;
 - `j` is the position (in 32 bits Little Endian) of this leaf in the tree.
@@ -892,10 +893,10 @@ After generating the `w` leaves (inhabited or not), we proceed to merkelization.
 tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || b || d || w || tH1 || tH2)
 ```
 
-where :
+where:
 
 
-- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB ;
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB;
 - b` is the _branching factor_ (8 bits). Most often, `b=0x02` because the tree is binary and complete;
 - d` is the depth of the node in the tree;
 - `w` is the tree width (in 256-bit Little Endian binary);
@@ -903,7 +904,7 @@ where :
 
 Progressing in this way, we obtain the root `mpc::Root`. We can then calculate `mpc::Commitment` (as explained above) and insert it on-chain.
 
-To illustrate this, let's imagine an example where `C=3` (three contracts). Their positions are assumed to be `pos(c_0)=7`, `pos(c_1)=4`, `pos(c_2)=2`. The other leaves (positions 0, 1, 3, 5, 6) are _entropy leaves_. The diagram below shows the sequence of hashes to the root with :
+To illustrate this, let's imagine an example where `C=3` (three contracts). Their positions are assumed to be `pos(c_0)=7`, `pos(c_1)=4`, `pos(c_2)=2`. The other leaves (positions 0, 1, 3, 5, 6) are _entropy leaves_. The diagram below shows the sequence of hashes to the root with:
 
 
 - `BUNDLE_i` which represents `BundleId(c_i)` ;
@@ -922,7 +923,7 @@ In the example, a `c_2` verifier only needs an intermediate hash (`tH_MPC_LEAF(D
 
 ![RGB-Bitcoin](assets/fr/054.webp)
 
-This mechanism ensures that :
+This mechanism ensures that:
 
 
 - The status relative to `c_2` is indeed included in the aggregate information block (client-side);
@@ -959,14 +960,14 @@ In theory, it would be possible to find this `Txid` by tracing the chain of stat
 
 #### MPC Proof
 
-The second field, `MPC Proof`, refers to the proof that this particular contract (e.g. `c_i`) is included in the _Multi Protocol Commitment_. It is a combination of :
+The second field, `MPC Proof`, refers to the proof that this particular contract (e.g. `c_i`) is included in the _Multi Protocol Commitment_. It is a combination of:
 
 
 - `pos_i`, the position of this contract in the MPC tree;
 - cofactor`, the value defined to resolve position collisions;
 - the `Merkle Proof`, i.e. the set of nodes and hashes used to reconstruct the MPC root and verify that the contract identifier and its `Transition Bundle` are committed to the root.
 
-This mechanism was described in the previous section on building the *MPC Tree*, where each contract obtains a unique leaf thanks to the :
+This mechanism was described in the previous section on building the *MPC Tree*, where each contract obtains a unique leaf thanks to:
 
 ```txt
 pos(c_i) = c_i mod (w - cofactor)
@@ -978,7 +979,7 @@ Then, a deterministic merkelization scheme is used to aggregate all the leaves (
 
 The third field, the **ETP**, depends on the type of commitment used. If the commitment is of type `Opret`, no additional proof is required. The validator inspects the first `OP_RETURN` output of the transaction and finds the `mpc::Commitment` directly there.
 
-**If the commitment is of type `Tapret`**, an additional proof called *Extra Transaction Proof - ETP* must be provided. It contains :
+**If the commitment is of type `Tapret`**, an additional proof called *Extra Transaction Proof - ETP* must be provided. It contains:
 
 
 - The internal public key (`P`) of the taproot output in which the *commitment* is embedded;
@@ -995,7 +996,7 @@ The **Anchors** therefore encapsulate all the information required to validate a
 
 ### Conclusion
 
-In this chapter, we covered :
+In this chapter, we covered:
 
 
 - How to apply the Single-use Seals concept in Bitcoin (in particular via a _outpoint_);
@@ -1030,7 +1031,7 @@ RGB applies this concept to the digital world: rights (and obligations) are enca
 
 ### Introduction to Smart Contract RGB status
 
-A smart contract in RGB can be seen as a state machine, defined by :
+A smart contract in RGB can be seen as a state machine, defined by:
 
 
 - A **State**, i.e. the set of information reflecting the current configuration of the contract;
@@ -1049,7 +1050,7 @@ This separation of roles contributes to censorship resistance, by ensuring that 
 
 ### Status and Business Logic in RGB
 
-From a practical point of view, the contract's **Business Logic** takes the form of rules and scripts, defined in what RGB calls a **Schema**. The Schema encodes :
+From a practical point of view, the contract's **Business Logic** takes the form of rules and scripts, defined in what RGB calls a **Schema**. The Schema encodes:
 
 
 - State structure (which fields are public? Which fields are owned by which parties?
@@ -1093,7 +1094,7 @@ This DAG topology (instead of a simple linear chain) reflects the possibility th
 
 ### Summary
 
-Smart contracts in RGB introduce a model of digital bearer instruments, decentralized but anchored in Bitcoin for time-stamping and guaranteeing the order of transactions. Automated execution of these contracts is based on :
+Smart contracts in RGB introduce a model of digital bearer instruments, decentralized but anchored in Bitcoin for time-stamping and guaranteeing the order of transactions. Automated execution of these contracts is based on:
 
 
 - A **Contract State**, indicating the current configuration of the contract (rights, balances, variables, etc.);
@@ -1122,13 +1123,13 @@ Alice has a ***stash RGB*** of locally validated data (*client-side*). This stas
 
 ![RGB-Bitcoin](assets/fr/058.webp)
 
-**Bob also has UTXOs :**
+**Bob also has UTXOs:**
 
 Bob, on the other hand, has at least one UTXO of his own, with no direct link to Alice's. In the event that Bob has no UTXO, it is still possible to make the transfer to him using the *witness transaction* itself: the output of this transaction will then include the commitment (_commitment_) and implicitly associate ownership of the new contract with Bob.
 
 ![RGB-Bitcoin](assets/fr/059.webp)
 
-**Construction of the new property (*New State*) :**
+**Construction of the new property (*New State*):**
 
 Bob sends Alice information encoded in the form of an ***invoice*** (we'll go into more detail on invoice construction in later chapters), asking her to create a new state that conforms to the rules of the contract. This state will include a new *seal definition* pointing to one of Bob's UTXOs. In this way, Bob is given ownership of the assets defined in this new state, for example a certain amount of RGB tokens.
 
@@ -1163,7 +1164,7 @@ It shows that a Genesis defines a seal (*seal definition*), then a *State Transi
 In this context, here are a few reminders of terminology:
 
 
-- An ***Assignment*** combines :
+- An ***Assignment*** combines the following:
     - A ***Seal Definition*** (which points to a UTXO);
     - **Owned States**, i.e. data linked to ownership (for example, the quantity of tokens transferred).
 - A **Global State** brings together the general properties of the contract, visible to all, and ensuring the global consistency of evolutions.
@@ -1199,11 +1200,11 @@ The *InputMap* is a data structure which lists, for each input `i` of the sample
 
 ```txt
 InputMap =
-N               input_0    OpId(input_0)    input_1    OpId(input_1)   ...    input_N-1  OpId(input_N-1)
+         N               input_0    OpId(input_0)    input_1    OpId(input_1)   ...    input_N-1  OpId(input_N-1)    
 |____________________| |_________||______________| |_________||______________|       |__________||_______________|
-16-bit Little Endian   32-bit LE   32-byte hash
-|_________________________| |_________________________|  ...  |___________________________|
-MapElement1                MapElement2                       MapElementN
+ 16-bit Little Endian   32-bit LE   32-byte hash                                         
+                       |_________________________| |_________________________|  ...  |___________________________|
+                               MapElement1                MapElement2                       MapElementN 
 ```
 
 
@@ -1214,11 +1215,11 @@ By referencing each entry only once and in an orderly fashion, we prevent the sa
 
 ### State Generation and Active State
 
-State Transitions can therefore be used to transfer ownership of an asset from one person to another. However, they are not the only possible operations in the RGB protocol. The protocol defines three **Contract Operations** :
+State Transitions can therefore be used to transfer ownership of an asset from one person to another. However, they are not the only possible operations in the RGB protocol. The protocol defines three **Contract Operations**:
 
 
-- **State Transition** ;
-- **Genesis** ;
+- **State Transition**;
+- **Genesis**;
 - **State Extension**.
 
 Among these, **Genesis** and **State Extension** are sometimes called "*State Generation operations*", because they create new states without immediately closing any. This is a very important point: **Genesis** and **State Extension** do not involve closing a seal. Rather, they define a new seal, which must then be spent by a subsequent **State Transition** to be truly validated in the blockchain history.
@@ -1229,7 +1230,7 @@ The **Active State** of a contract is often defined as the set of latest states 
 
 ### Genesis
 
-The Genesis is the starting point of every RGB contract. It is created by the contract issuer and defines the initial parameters, in accordance with the **Schema**. In the case of an RGB token, the Genesis may specify, for example :
+The Genesis is the starting point of every RGB contract. It is created by the contract issuer and defines the initial parameters, in accordance with the **Schema**. In the case of an RGB token, the Genesis may specify, for example:
 
 
 - The number of tokens originally created and their owners;
@@ -1240,7 +1241,7 @@ Being the first transaction in the contract, the Genesis does not reference any 
 
 ### State Extension
 
-**State Extensions** offer an original feature for smart contracts. They make it possible to redeem certain digital rights (*Valencies*) provided for in the contract definition, without immediately closing the seal. Most often, this concerns :
+**State Extensions** offer an original feature for smart contracts. They make it possible to redeem certain digital rights (*Valencies*) provided for in the contract definition, without immediately closing the seal. Most often, this concerns:
 
 
 - Distributed token issues;
@@ -1251,7 +1252,7 @@ Technically speaking, a State Extension references a *Redeem* (a particular type
 
 ![RGB-Bitcoin](assets/fr/065.webp)
 
-For example: the Genesis creates a right of issue (*Valency*). This can be exercised by an authorized actor, who then builds a State Extension :
+For example: the Genesis creates a right of issue (*Valency*). This can be exercised by an authorized actor, who then builds a State Extension:
 
 
 - It refers to the Valency (redeem);
@@ -1263,69 +1264,69 @@ For example: the Genesis creates a right of issue (*Valency*). This can be exerc
 I'd now like to take a detailed look at each of the constituent elements of a **Contract Operation** in RGB. A Contract Operation is the action which modifies the state of a contract, and which is validated on the client side, in a deterministic way, by the legitimate recipient. In particular, we'll see how the Contract Operation takes into account, on the one hand, the **old state** of the contract, and on the other, the definition of a **new state** .
 
 ```txt
-+---------------------------------------------------------------------------------------------------------------------+
-|  Contract Operation                                                                                                 |
-|                                                                                                                     |
-|  +-----+     +-----------------------+      +--------------------------------+      +---------+     +------------+  |
-|  | Ffv |     | ContractId | SchemaId |      | TransitionType | ExtensionType |      | Testnet |     | AltLayers1 |  |
-|  +-----+     +-----------------------+      +--------------------------------+      +---------+     +------------+  |
-|                                                                                                                     |
-|  +-----------------------------------------------+  +------------------------------------------------------------+  |
-|  | Metadata                                      |  | Global State                                               |  |
-|  |                                               |  | +----------------------------------+                       |  |
-|  | +-------------------------------------+       |  | | +-------------------+ +--------+ |                       |  |
-|  | |          Structured Data            |       |  | | |  GlobalStateType  | |  Data  | |     ...     ...       |  |
-|  | +-------------------------------------+       |  | | +-------------------+ +--------+ |                       |  |
-|  |                                               |  | +----------------------------------+                       |  |
-|  +-----------------------------------------------+  +------------------------------------------------------------+  |         +------+
-|                                                                                                                     +---------> OpId |
-|  +-----------------------------------------------+  +------------------------------------------------------------+  |         +------+
-|  | Inputs                                        |  | Assignments                                                |  |
-|  |                                               |  |                                                            |  |
-|  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
-|  | | Input #1                                  | |  | | Assignment #1                                          | |  |
+               +---------------------------------------------------------------------------------------------------------------------+
+               |  Contract Operation                                                                                                 |
+               |                                                                                                                     |
+               |  +-----+     +-----------------------+      +--------------------------------+      +---------+     +------------+  |                             
+               |  | Ffv |     | ContractId | SchemaId |      | TransitionType | ExtensionType |      | Testnet |     | AltLayers1 |  |                               
+               |  +-----+     +-----------------------+      +--------------------------------+      +---------+     +------------+  |     
+               |                                                                                                                     |
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |
+               |  | Metadata                                      |  | Global State                                               |  |
+               |  |                                               |  | +----------------------------------+                       |  |
+               |  | +-------------------------------------+       |  | | +-------------------+ +--------+ |                       |  |
+               |  | |          Structured Data            |       |  | | |  GlobalStateType  | |  Data  | |     ...     ...       |  |
+               |  | +-------------------------------------+       |  | | +-------------------+ +--------+ |                       |  |
+               |  |                                               |  | +----------------------------------+                       |  |
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |         +------+
+               |                                                                                                                     +---------> OpId |
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |         +------+
+               |  | Inputs                                        |  | Assignments                                                |  |
+               |  |                                               |  |                                                            |  |
+               |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
+               |  | | Input #1                                  | |  | | Assignment #1                                          | |  |
 +------+       |  | | +----------+ +----------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
 | OpId +--------------> PrevOpId | | AssignmentType | | Index | | |  | | | AssignmentType | | Owned State | | Seal Definition +--------------> Bitcoin UTXO |
 +------+       |  | | +----------+ + ---------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
-|  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
-|  |                                               |  |                                                            |  |
-|  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
-|  | | Input #2                                  | |  | | Assignment #2                                          | |  |
+               |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |         
+               |  |                                               |  |                                                            |  |         
+               |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |         
+               |  | | Input #2                                  | |  | | Assignment #2                                          | |  |         
 +------+       |  | | +----------+ +----------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
 | OpId +--------------> PrevOpId | | AssignmentType | | Index | | |  | | | AssignmentType | | Owned State | | Seal Definition +--------------> Bitcoin UTXO |
 +------+       |  | | +----------+ +----------------+ +-------+ | |  | | +----------------+ +-------------+ +-----------------+ | |  |       +--------------+
-|  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
-|  |                                               |  |                                                            |  |
-|  |       ...           ...          ...          |  |     ...          ...             ...                       |  |
-|  |                                               |  |                                                            |  |
-|  +-----------------------------------------------+  +------------------------------------------------------------+  |
-|                                                                                                                     |
-|  +-----------------------------------------------+  +------------------------------------------------------------+  |
-|  | Redeems                                       |  | Valencies                                                  |  |
-|  |                                               |  |                                                            |  |
-|  | +------------------------------+              |  |                                                            |  |
-+------+       |  | | +----------+ +-------------+ |              |  |  +-------------+  +-------------+                          |  |
-| OpId +--------------> PrevOpId | | ValencyType | |  ...   ...   |  |  | ValencyType |  | ValencyType |         ...              |  |
-+------+       |  | | +----------+ +-------------+ |              |  |  +-------------+  +-------------+                          |  |
-|  | +------------------------------+              |  |                                                            |  |
-|  |                                               |  |                                                            |  |
-|  +-----------------------------------------------+  +------------------------------------------------------------+  |
-|                                                                                                                     |
-+---------------------------------------------------------------------------------------------------------------------+
+               |  | +-------------------------------------------+ |  | +--------------------------------------------------------+ |  |
+               |  |                                               |  |                                                            |  |
+               |  |       ...           ...          ...          |  |     ...          ...             ...                       |  |
+               |  |                                               |  |                                                            |  |
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |
+               |                                                                                                                     |
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |
+               |  | Redeems                                       |  | Valencies                                                  |  |
+               |  |                                               |  |                                                            |  |            
+               |  | +------------------------------+              |  |                                                            |  |   
++------+       |  | | +----------+ +-------------+ |              |  |  +-------------+  +-------------+                          |  |            
+| OpId +--------------> PrevOpId | | ValencyType | |  ...   ...   |  |  | ValencyType |  | ValencyType |         ...              |  |    
++------+       |  | | +----------+ +-------------+ |              |  |  +-------------+  +-------------+                          |  |    
+               |  | +------------------------------+              |  |                                                            |  |   
+               |  |                                               |  |                                                            |  |      
+               |  +-----------------------------------------------+  +------------------------------------------------------------+  |    
+               |                                                                                                                     |    
+               +---------------------------------------------------------------------------------------------------------------------+
 ```
 
 If we look at the diagram above, we can see that a Contract Operation includes elements referring to the **New State** and others referring to the updated **Old State**.
 
-The elements of the **New State** are :
+The elements of the **New State** are:
 
 
-- **Assignments**, in which are defined :
+- **Assignments**, in which are defined:
  - The **Seal Definition**;
  - The **Owned State**.
 - The **Global State**, which can be modified or enriched ;
 - **Valencies**, possibly defined in a State Transition or Genesis.
 
-The **Old State** is referenced via :
+The **Old State** is referenced via:
 
 
 - **Inputs**, which point to *Assignments* of previous state transitions (not present in Genesis);
@@ -1336,7 +1337,7 @@ In addition, a Contract Operation includes more general fields specific to the o
 
 - `ffv` (*Fast-forward version*): 2-byte integer indicating the contract version;
 - `transitionType` or `ExtensionType`: 16-bit integer specifying the Transition or Extension type, according to the business logic;
-- `ContractId`: 32-byte number referring to the *OpId* of the contract Genesis. Included in Transitions and Extensions, but not in Genesis ;
+- `ContractId`: 32-byte number referring to the *OpId* of the contract Genesis. Included in Transitions and Extensions, but not in Genesis;
 - schemaId: present only in Genesis, this is the 32-byte hash representing the structure (*Schema*) of the contract;
 - `testnet`: Boolean indicating whether you are on the Testnet or Mainnet network. Genesis only;
 - `altlayers1`: variable identifying the alternative layer (sidechain or other) used to anchor data in addition to Bitcoin. Only present in Genesis ;
@@ -1480,32 +1481,42 @@ tag_attachment = urn:rgb:state-attach#2024-02-12
 To summarize, here are the 4 possible types of state in the public and hidden form:
 
 ```txt
-State                      Concealed form                              Revealed form
+  State                      Concealed form                              Revealed form
+
 +---------------------------------------------------------------------------------------------------------
-+--------------------------------------------------------------------------------+
-|                                                                                |
-Declarative        |                              < void >                                          |
-|                                                                                |
-+--------------------------------------------------------------------------------+
+
+                     +--------------------------------------------------------------------------------+
+                     |                                                                                |
+  Declarative        |                              < void >                                          |
+                     |                                                                                |
+                     +--------------------------------------------------------------------------------+
+
 +---------------------------------------------------------------------------------------------------------
-+--------------------------+             +---------------------------------------+
-| +----------------------+ |             |         +--------+ +----------+       |
-Fungible           | | Pedersen Commitement | | <========== |         | Amount | | Blinding |       |
-| +----------------------+ |             |         +--------+ +----------+       |
-+--------------------------+             +---------------------------------------+
+
+                     +--------------------------+             +---------------------------------------+
+                     | +----------------------+ |             |         +--------+ +----------+       |
+  Fungible           | | Pedersen Commitement | | <========== |         | Amount | | Blinding |       |
+                     | +----------------------+ |             |         +--------+ +----------+       |
+                     +--------------------------+             +---------------------------------------+
+
 +---------------------------------------------------------------------------------------------------------
-+--------------------------+             +---------------------------------------+
-| +----------------------+ |             |         +--------------------+        |
-Structured         | |     Tagged Hash      | | <========== |         |     Data Blob      |        |
-| +----------------------+ |             |         +--------------------+        |
-+--------------------------+             +---------------------------------------+
+
+                     +--------------------------+             +---------------------------------------+
+                     | +----------------------+ |             |         +--------------------+        |
+  Structured         | |     Tagged Hash      | | <========== |         |     Data Blob      |        |
+                     | +----------------------+ |             |         +--------------------+        |
+                     +--------------------------+             +---------------------------------------+
+
 +---------------------------------------------------------------------------------------------------------
-+--------------------------+             +---------------------------------------+
-| +----------------------+ |             | +-----------+ +------------+ +------+ |
-Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Media Type | | Salt | |
-| +----------------------+ |             | +-----------+ +------------+ +------+ |
-+--------------------------+             +---------------------------------------+
+
+                     +--------------------------+             +---------------------------------------+
+                     | +----------------------+ |             | +-----------+ +------------+ +------+ |
+  Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Media Type | | Salt | |
+                     | +----------------------+ |             | +-----------+ +------------+ +------+ |
+                     +--------------------------+             +---------------------------------------+
+
 ```
+
 
 | **Element**     | **Declarative** | **Fungible**                      | **Structured**       | **Attachments**        |
 | --------------- | --------------- | --------------------------------- | -------------------- | ---------------------- |
@@ -2068,64 +2079,73 @@ The code below shows the complete definition of the Rust Schema. We will comment
 ```rust
 // ===== PART 1: Function Header and SubSchema =====
 fn nia_schema() -> SubSchema {
-// definitions of libraries and variables
-// ===== PART 2: General Properties (ffv, subset_of, type_system) =====
-Schema {
-ffv: zero!(),
-subset_of: None,
-type_system: types.type_system(),
-// ===== PART 3: Global States =====
-global_types: tiny_bmap! {
-GS_NOMINAL => GlobalStateSchema::once(types.get("RGBContract.DivisibleAssetSpec")),
-GS_DATA => GlobalStateSchema::once(types.get("RGBContract.ContractData")),
-GS_TIMESTAMP => GlobalStateSchema::once(types.get("RGBContract.Timestamp")),
-GS_ISSUED_SUPPLY => GlobalStateSchema::once(types.get("RGBContract.Amount")),
-},
-// ===== PART 4: Owned Types =====
-owned_types: tiny_bmap! {
-OS_ASSET => StateSchema::Fungible(FungibleType::Unsigned64Bit),
-},
-// ===== PART 5: Valencies =====
-valency_types: none!(),
-// ===== PART 6: Genesis: Initial Operations =====
-genesis: GenesisSchema {
-metadata: Ty::<SemId>::UNIT.id(None),
-globals: tiny_bmap! {
-GS_NOMINAL => Occurrences::Once,
-GS_DATA => Occurrences::Once,
-GS_TIMESTAMP => Occurrences::Once,
-GS_ISSUED_SUPPLY => Occurrences::Once,
-},
-assignments: tiny_bmap! {
-OS_ASSET => Occurrences::OnceOrMore,
-},
-valencies: none!(),
-},
-// ===== PART 7: Extensions =====
-extensions: none!(),
-// ===== PART 8: Transitions: TS_TRANSFER =====
-transitions: tiny_bmap! {
-TS_TRANSFER => TransitionSchema {
-metadata: Ty::<SemId>::UNIT.id(None),
-globals: none!(),
-inputs: tiny_bmap! {
-OS_ASSET => Occurrences::OnceOrMore,
-},
-assignments: tiny_bmap! {
-OS_ASSET => Occurrences::OnceOrMore,
-},
-valencies: none!(),
-}
-},
-// ===== PART 9: Script AluVM and Entry Points =====
-script: Script::AluVM(AluScript {
-libs: confined_bmap! { alu_id => alu_lib },
-entry_points: confined_bmap! {
-EntryPoint::ValidateGenesis => LibSite::with(FN_GENESIS_OFFSET, alu_id),
-EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET, alu_id),
-},
-}),
-}
+    
+    // definitions of libraries and variables
+
+    // ===== PART 2: General Properties (ffv, subset_of, type_system) =====
+    Schema {
+        ffv: zero!(),
+        subset_of: None,
+        type_system: types.type_system(),
+
+        // ===== PART 3: Global States =====
+        global_types: tiny_bmap! {
+            GS_NOMINAL => GlobalStateSchema::once(types.get("RGBContract.DivisibleAssetSpec")),
+            GS_DATA => GlobalStateSchema::once(types.get("RGBContract.ContractData")),
+            GS_TIMESTAMP => GlobalStateSchema::once(types.get("RGBContract.Timestamp")),
+            GS_ISSUED_SUPPLY => GlobalStateSchema::once(types.get("RGBContract.Amount")),
+        },
+
+        // ===== PART 4: Owned Types =====
+        owned_types: tiny_bmap! {
+            OS_ASSET => StateSchema::Fungible(FungibleType::Unsigned64Bit),
+        },
+
+        // ===== PART 5: Valencies =====
+        valency_types: none!(),
+
+        // ===== PART 6: Genesis: Initial Operations =====
+        genesis: GenesisSchema {
+            metadata: Ty::<SemId>::UNIT.id(None),
+            globals: tiny_bmap! {
+                GS_NOMINAL => Occurrences::Once,
+                GS_DATA => Occurrences::Once,
+                GS_TIMESTAMP => Occurrences::Once,
+                GS_ISSUED_SUPPLY => Occurrences::Once,
+            },
+            assignments: tiny_bmap! {
+                OS_ASSET => Occurrences::OnceOrMore,
+            },
+            valencies: none!(),
+        },
+
+        // ===== PART 7: Extensions =====
+        extensions: none!(),
+
+        // ===== PART 8: Transitions: TS_TRANSFER =====
+        transitions: tiny_bmap! {
+            TS_TRANSFER => TransitionSchema {
+                metadata: Ty::<SemId>::UNIT.id(None),
+                globals: none!(),
+                inputs: tiny_bmap! {
+                    OS_ASSET => Occurrences::OnceOrMore,
+                },
+                assignments: tiny_bmap! {
+                    OS_ASSET => Occurrences::OnceOrMore,
+                },
+                valencies: none!(),
+            }
+        },
+
+        // ===== PART 9: Script AluVM and Entry Points =====
+        script: Script::AluVM(AluScript {
+            libs: confined_bmap! { alu_id => alu_lib },
+            entry_points: confined_bmap! {
+                EntryPoint::ValidateGenesis => LibSite::with(FN_GENESIS_OFFSET, alu_id),
+                EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET, alu_id),
+            },
+        }),
+    }
 }
 ```
 
@@ -2321,165 +2341,166 @@ This Rust code snippet shows a [RGB20](https://github.com/RGB-WG/rgb-std/blob/ma
 ```rust
 // ...
 fn rgb20() -> Iface {
-let types = StandardTypes::with(rgb20_stl());
-Iface {
-version: VerNo::V1,
-name: tn!("RGB20"),
-global_state: tiny_bmap! {
-fname!("spec") => GlobalIface::required(types.get("RGBContract.DivisibleAssetSpec")),
-fname!("data") => GlobalIface::required(types.get("RGBContract.ContractData")),
-fname!("created") => GlobalIface::required(types.get("RGBContract.Timestamp")),
-fname!("issuedSupply") => GlobalIface::one_or_many(types.get("RGBContract.Amount")),
-fname!("burnedSupply") => GlobalIface::none_or_many(types.get("RGBContract.Amount")),
-fname!("replacedSupply") => GlobalIface::none_or_many(types.get("RGBContract.Amount")),
-},
-assignments: tiny_bmap! {
-fname!("inflationAllowance") => AssignIface::public(OwnedIface::Amount, Req::NoneOrMore),
-fname!("updateRight") => AssignIface::public(OwnedIface::Rights, Req::Optional),
-fname!("burnEpoch") => AssignIface::public(OwnedIface::Rights, Req::Optional),
-fname!("burnRight") => AssignIface::public(OwnedIface::Rights, Req::NoneOrMore),
-fname!("assetOwner") => AssignIface::private(OwnedIface::Amount, Req::NoneOrMore),
-},
-valencies: none!(),
-genesis: GenesisIface {
-metadata: Some(types.get("RGBContract.IssueMeta")),
-global: tiny_bmap! {
-fname!("spec") => ArgSpec::required(),
-fname!("data") => ArgSpec::required(),
-fname!("created") => ArgSpec::required(),
-fname!("issuedSupply") => ArgSpec::required(),
-},
-assignments: tiny_bmap! {
-fname!("assetOwner") => ArgSpec::many(),
-fname!("inflationAllowance") => ArgSpec::many(),
-fname!("updateRight") => ArgSpec::optional(),
-fname!("burnEpoch") => ArgSpec::optional(),
-},
-valencies: none!(),
-errors: tiny_bset! {
-SUPPLY_MISMATCH,
-INVALID_PROOF,
-INSUFFICIENT_RESERVES
-},
-},
-transitions: tiny_bmap! {
-tn!("Transfer") => TransitionIface {
-optional: false,
-metadata: None,
-globals: none!(),
-inputs: tiny_bmap! {
-fname!("previous") => ArgSpec::from_non_empty("assetOwner"),
-},
-assignments: tiny_bmap! {
-fname!("beneficiary") => ArgSpec::from_non_empty("assetOwner"),
-},
-valencies: none!(),
-errors: tiny_bset! {
-NON_EQUAL_AMOUNTS
-},
-default_assignment: Some(fname!("beneficiary")),
-},
-tn!("Issue") => TransitionIface {
-optional: true,
-metadata: Some(types.get("RGBContract.IssueMeta")),
-globals: tiny_bmap! {
-fname!("issuedSupply") => ArgSpec::required(),
-},
-inputs: tiny_bmap! {
-fname!("used") => ArgSpec::from_non_empty("inflationAllowance"),
-},
-assignments: tiny_bmap! {
-fname!("beneficiary") => ArgSpec::from_many("assetOwner"),
-fname!("future") => ArgSpec::from_many("inflationAllowance"),
-},
-valencies: none!(),
-errors: tiny_bset! {
-SUPPLY_MISMATCH,
-INVALID_PROOF,
-ISSUE_EXCEEDS_ALLOWANCE,
-INSUFFICIENT_RESERVES
-},
-default_assignment: Some(fname!("beneficiary")),
-},
-tn!("OpenEpoch") => TransitionIface {
-optional: true,
-metadata: None,
-globals: none!(),
-inputs: tiny_bmap! {
-fname!("used") => ArgSpec::from_required("burnEpoch"),
-},
-assignments: tiny_bmap! {
-fname!("next") => ArgSpec::from_optional("burnEpoch"),
-fname!("burnRight") => ArgSpec::required()
-},
-valencies: none!(),
-errors: none!(),
-default_assignment: Some(fname!("burnRight")),
-},
-tn!("Burn") => TransitionIface {
-optional: true,
-metadata: Some(types.get("RGBContract.BurnMeta")),
-globals: tiny_bmap! {
-fname!("burnedSupply") => ArgSpec::required(),
-},
-inputs: tiny_bmap! {
-fname!("used") => ArgSpec::from_required("burnRight"),
-},
-assignments: tiny_bmap! {
-fname!("future") => ArgSpec::from_optional("burnRight"),
-},
-valencies: none!(),
-errors: tiny_bset! {
-SUPPLY_MISMATCH,
-INVALID_PROOF,
-INSUFFICIENT_COVERAGE
-},
-default_assignment: None,
-},
-tn!("Replace") => TransitionIface {
-optional: true,
-metadata: Some(types.get("RGBContract.BurnMeta")),
-globals: tiny_bmap! {
-fname!("replacedSupply") => ArgSpec::required(),
-},
-inputs: tiny_bmap! {
-fname!("used") => ArgSpec::from_required("burnRight"),
-},
-assignments: tiny_bmap! {
-fname!("beneficiary") => ArgSpec::from_many("assetOwner"),
-fname!("future") => ArgSpec::from_optional("burnRight"),
-},
-valencies: none!(),
-errors: tiny_bset! {
-NON_EQUAL_AMOUNTS,
-SUPPLY_MISMATCH,
-INVALID_PROOF,
-INSUFFICIENT_COVERAGE
-},
-default_assignment: Some(fname!("beneficiary")),
-},
-tn!("Rename") => TransitionIface {
-optional: true,
-metadata: None,
-globals: tiny_bmap! {
-fname!("new") => ArgSpec::from_required("spec"),
-},
-inputs: tiny_bmap! {
-fname!("used") => ArgSpec::from_required("updateRight"),
-},
-assignments: tiny_bmap! {
-fname!("future") => ArgSpec::from_optional("updateRight"),
-},
-valencies: none!(),
-errors: none!(),
-default_assignment: Some(fname!("future")),
-},
-},
-extensions: none!(),
-error_type: types.get("RGB20.Error"),
-default_operation: Some(tn!("Transfer")),
-type_system: types.type_system(),
-}
+    let types = StandardTypes::with(rgb20_stl());
+
+    Iface {
+        version: VerNo::V1,
+        name: tn!("RGB20"),
+        global_state: tiny_bmap! {
+            fname!("spec") => GlobalIface::required(types.get("RGBContract.DivisibleAssetSpec")),
+            fname!("data") => GlobalIface::required(types.get("RGBContract.ContractData")),
+            fname!("created") => GlobalIface::required(types.get("RGBContract.Timestamp")),
+            fname!("issuedSupply") => GlobalIface::one_or_many(types.get("RGBContract.Amount")),
+            fname!("burnedSupply") => GlobalIface::none_or_many(types.get("RGBContract.Amount")),
+            fname!("replacedSupply") => GlobalIface::none_or_many(types.get("RGBContract.Amount")),
+        },
+        assignments: tiny_bmap! {
+            fname!("inflationAllowance") => AssignIface::public(OwnedIface::Amount, Req::NoneOrMore),
+            fname!("updateRight") => AssignIface::public(OwnedIface::Rights, Req::Optional),
+            fname!("burnEpoch") => AssignIface::public(OwnedIface::Rights, Req::Optional),
+            fname!("burnRight") => AssignIface::public(OwnedIface::Rights, Req::NoneOrMore),
+            fname!("assetOwner") => AssignIface::private(OwnedIface::Amount, Req::NoneOrMore),
+        },
+        valencies: none!(),
+        genesis: GenesisIface {
+            metadata: Some(types.get("RGBContract.IssueMeta")),
+            global: tiny_bmap! {
+                fname!("spec") => ArgSpec::required(),
+                fname!("data") => ArgSpec::required(),
+                fname!("created") => ArgSpec::required(),
+                fname!("issuedSupply") => ArgSpec::required(),
+            },
+            assignments: tiny_bmap! {
+                fname!("assetOwner") => ArgSpec::many(),
+                fname!("inflationAllowance") => ArgSpec::many(),
+                fname!("updateRight") => ArgSpec::optional(),
+                fname!("burnEpoch") => ArgSpec::optional(),
+            },
+            valencies: none!(),
+            errors: tiny_bset! {
+                SUPPLY_MISMATCH,
+                INVALID_PROOF,
+                INSUFFICIENT_RESERVES
+            },
+        },
+        transitions: tiny_bmap! {
+            tn!("Transfer") => TransitionIface {
+                optional: false,
+                metadata: None,
+                globals: none!(),
+                inputs: tiny_bmap! {
+                    fname!("previous") => ArgSpec::from_non_empty("assetOwner"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("beneficiary") => ArgSpec::from_non_empty("assetOwner"),
+                },
+                valencies: none!(),
+                errors: tiny_bset! {
+                    NON_EQUAL_AMOUNTS
+                },
+                default_assignment: Some(fname!("beneficiary")),
+            },
+            tn!("Issue") => TransitionIface {
+                optional: true,
+                metadata: Some(types.get("RGBContract.IssueMeta")),
+                globals: tiny_bmap! {
+                    fname!("issuedSupply") => ArgSpec::required(),
+                },
+                inputs: tiny_bmap! {
+                    fname!("used") => ArgSpec::from_non_empty("inflationAllowance"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("beneficiary") => ArgSpec::from_many("assetOwner"),
+                    fname!("future") => ArgSpec::from_many("inflationAllowance"),
+                },
+                valencies: none!(),
+                errors: tiny_bset! {
+                    SUPPLY_MISMATCH,
+                    INVALID_PROOF,
+                    ISSUE_EXCEEDS_ALLOWANCE,
+                    INSUFFICIENT_RESERVES
+                },
+                default_assignment: Some(fname!("beneficiary")),
+            },
+            tn!("OpenEpoch") => TransitionIface {
+                optional: true,
+                metadata: None,
+                globals: none!(),
+                inputs: tiny_bmap! {
+                    fname!("used") => ArgSpec::from_required("burnEpoch"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("next") => ArgSpec::from_optional("burnEpoch"),
+                    fname!("burnRight") => ArgSpec::required()
+                },
+                valencies: none!(),
+                errors: none!(),
+                default_assignment: Some(fname!("burnRight")),
+            },
+            tn!("Burn") => TransitionIface {
+                optional: true,
+                metadata: Some(types.get("RGBContract.BurnMeta")),
+                globals: tiny_bmap! {
+                    fname!("burnedSupply") => ArgSpec::required(),
+                },
+                inputs: tiny_bmap! {
+                    fname!("used") => ArgSpec::from_required("burnRight"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("future") => ArgSpec::from_optional("burnRight"),
+                },
+                valencies: none!(),
+                errors: tiny_bset! {
+                    SUPPLY_MISMATCH,
+                    INVALID_PROOF,
+                    INSUFFICIENT_COVERAGE
+                },
+                default_assignment: None,
+            },
+            tn!("Replace") => TransitionIface {
+                optional: true,
+                metadata: Some(types.get("RGBContract.BurnMeta")),
+                globals: tiny_bmap! {
+                    fname!("replacedSupply") => ArgSpec::required(),
+                },
+                inputs: tiny_bmap! {
+                    fname!("used") => ArgSpec::from_required("burnRight"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("beneficiary") => ArgSpec::from_many("assetOwner"),
+                    fname!("future") => ArgSpec::from_optional("burnRight"),
+                },
+                valencies: none!(),
+                errors: tiny_bset! {
+                    NON_EQUAL_AMOUNTS,
+                    SUPPLY_MISMATCH,
+                    INVALID_PROOF,
+                    INSUFFICIENT_COVERAGE
+                },
+                default_assignment: Some(fname!("beneficiary")),
+            },
+            tn!("Rename") => TransitionIface {
+                optional: true,
+                metadata: None,
+                globals: tiny_bmap! {
+                    fname!("new") => ArgSpec::from_required("spec"),
+                },
+                inputs: tiny_bmap! {
+                    fname!("used") => ArgSpec::from_required("updateRight"),
+                },
+                assignments: tiny_bmap! {
+                    fname!("future") => ArgSpec::from_optional("updateRight"),
+                },
+                valencies: none!(),
+                errors: none!(),
+                default_assignment: Some(fname!("future")),
+            },
+        },
+        extensions: none!(),
+        error_type: types.get("RGB20.Error"),
+        default_operation: Some(tn!("Transfer")),
+        type_system: types.type_system(),
+    }
 }
 ```
 
@@ -2558,28 +2579,29 @@ Here's a classic example of Interface Implementation, where we associate a *Non-
 
 ```rust
 fn nia_rgb20() -> IfaceImpl {
-let schema = nia_schema();
-let iface = Rgb20::iface();
-IfaceImpl {
-version: VerNo::V1,
-schema_id: schema.schema_id(),
-iface_id: iface.iface_id(),
-script: none!(),
-global_state: tiny_bset! {
-NamedField::with(GS_NOMINAL, fname!("spec")),
-NamedField::with(GS_DATA, fname!("data")),
-NamedField::with(GS_TIMESTAMP, fname!("created")),
-NamedField::with(GS_ISSUED_SUPPLY, fname!("issuedSupply")),
-},
-assignments: tiny_bset! {
-NamedField::with(OS_ASSET, fname!("assetOwner")),
-},
-valencies: none!(),
-transitions: tiny_bset! {
-NamedType::with(TS_TRANSFER, tn!("Transfer")),
-},
-extensions: none!(),
-}
+    let schema = nia_schema();
+    let iface = Rgb20::iface();
+
+    IfaceImpl {
+        version: VerNo::V1,
+        schema_id: schema.schema_id(),
+        iface_id: iface.iface_id(),
+        script: none!(),
+        global_state: tiny_bset! {
+            NamedField::with(GS_NOMINAL, fname!("spec")),
+            NamedField::with(GS_DATA, fname!("data")),
+            NamedField::with(GS_TIMESTAMP, fname!("created")),
+            NamedField::with(GS_ISSUED_SUPPLY, fname!("issuedSupply")),
+        },
+        assignments: tiny_bset! {
+            NamedField::with(OS_ASSET, fname!("assetOwner")),
+        },
+        valencies: none!(),
+        transitions: tiny_bset! {
+            NamedType::with(TS_TRANSFER, tn!("Transfer")),
+        },
+        extensions: none!(),
+    }
 }
 ```
 
@@ -3031,21 +3053,23 @@ Here is an example of a YAML file to create:
 
 ```yaml
 interface: RGB20Fixed
+
 globals:
-spec:
-ticker: PBN
-name: Plan B Network
-details: "Pay attention: the asset has no value"
-precision: 2
-terms:
-text: >
-SUBJECT TO, AND WITHOUT IN ANY WAY LIMITING, THE REPRESENTATIONS AND WARRANTIES OF ANY SELLER. PROPERTY IS BEING SOLD “AS IS”...
-media: ~
-issuedSupply: 100000000
+  spec:
+    ticker: PBN
+    name: Plan B Network
+    details: "Pay attention: the asset has no value"
+    precision: 2
+  terms:
+    text: >
+      SUBJECT TO, AND WITHOUT IN ANY WAY LIMITING, THE REPRESENTATIONS AND WARRANTIES OF ANY SELLER. PROPERTY IS BEING SOLD “AS IS”...
+    media: ~
+  issuedSupply: 100000000
+
 assignments:
-assetOwner:
-seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1
-amount: 100000000 # this is 1 million (we have two digits for cents)
+  assetOwner:
+    seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1
+    amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
 ![RGB-Bitcoin](assets/fr/085.webp)
@@ -3169,7 +3193,7 @@ It can be transmitted to Bob via any channel (text, QR code, etc.).
 
 #### Making a transfer
 
-To transfer from this invoice :
+To transfer from this invoice:
 
 
 - Bob (who holds the tokens in his stash) has a Bitcoin wallet. He needs to prepare a Bitcoin transaction (in the form of a PSBT, e.g. `tx.psbt`) which spends the UTXOs where the required RGB tokens are located, plus one UTXO for currency (exchange) ;
@@ -3740,14 +3764,14 @@ To issue a token, we'll start by creating "colorable" UTXOs:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
--d '{
-"up_to": false,
-"num": 4,
-"size": 2000000,
-"fee_rate": 4.2,
-"skip_sync": false
-}' \
-http://localhost:3001/createutxos
+  -d '{
+        "up_to": false,
+        "num": 4,
+        "size": 2000000,
+        "fee_rate": 4.2,
+        "skip_sync": false
+      }' \
+  http://localhost:3001/createutxos
 ```
 
 ![RGB-Bitcoin](assets/fr/107.webp)
@@ -3762,15 +3786,15 @@ We can now create an RGB asset. The command will depend on the type of asset you
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
--d '{
-"amounts": [
-1000
-],
-"ticker": "PBN",
-"name": "Plan B Network",
-"precision": 0
-}' \
-http://localhost:3001/issueassetnia
+  -d '{
+        "amounts": [
+          1000
+        ],
+        "ticker": "PBN",
+        "name": "Plan B Network",
+        "precision": 0
+      }' \
+  http://localhost:3001/issueassetnia
 ```
 
 ![RGB-Bitcoin](assets/fr/108.webp)
@@ -3791,8 +3815,8 @@ You must first connect your node to a peer on the Lightning network using the `/
 
 ```bash
 curl -X 'GET' \
-'http://localhost:3002/nodeinfo' \
--H 'accept: application/json'
+  'http://localhost:3002/nodeinfo' \
+  -H 'accept: application/json'
 ```
 
 The command returns the public key of my node n°2 :
@@ -3807,19 +3831,19 @@ Next, we'll open the channel by specifying the relevant asset (`PBN`). The `/ope
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
--d '{
-"peer_pubkey_and_opt_addr": "031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94@localhost:9736",
-"capacity_sat": 1000000,
-"push_msat": 10000000,
-"asset_amount": 500,
-"asset_id": "rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10",
-"public": true,
-"with_anchors": true,
-"fee_base_msat": 1000,
-"fee_proportional_millionths": 0,
-"temporary_channel_id": "a8b60c8ce3067b5fc881d4831323e24751daec3b64353c8df3205ec5d838f1c5"
-}' \
-http://localhost:3001/openchannel
+  -d '{
+        "peer_pubkey_and_opt_addr": "031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94@localhost:9736",
+        "capacity_sat": 1000000,
+        "push_msat": 10000000,
+        "asset_amount": 500,
+        "asset_id": "rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10",
+        "public": true,
+        "with_anchors": true,
+        "fee_base_msat": 1000,
+        "fee_proportional_millionths": 0,
+        "temporary_channel_id": "a8b60c8ce3067b5fc881d4831323e24751daec3b64353c8df3205ec5d838f1c5"
+      }' \
+  http://localhost:3001/openchannel
 ```
 
 Find out more here:
@@ -3846,21 +3870,21 @@ The Lightning channel is now open and also contains 500 `PBN` tokens on node n°
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
--d '{
-"amt_msat": 3000000,
-"expiry_sec": 420,
-"asset_id": "rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10",
-"asset_amount": 100
-}' \
-http://localhost:3002/lninvoice
+  -d '{
+        "amt_msat": 3000000,
+        "expiry_sec": 420,
+        "asset_id": "rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10",
+        "asset_amount": 100
+      }' \
+  http://localhost:3002/lninvoice
 ```
 
-With :
+With:
 
 
 - `amt_msat`: Invoice amount in millisatoshis (minimum 3000 sats) ;
-- `expiry_sec` : Invoice expiry time in seconds ;
-- `asset_id` : Identifier of the RGB asset associated with the invoice ;
+- `expiry_sec`: Invoice expiry time in seconds ;
+- `asset_id`: Identifier of the RGB asset associated with the invoice ;
 - `asset_amount`: Amount of RGB asset to be transferred with this invoice.
 
 In response, you will get an RGB invoice (as described in previous chapters):
@@ -3875,10 +3899,10 @@ We will now pay this invoice from the first node, which holds the necessary cash
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
--d '{
-"invoice": "lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj"
-}' \
-http://localhost:3001/sendpayment
+  -d '{
+        "invoice": "lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj"
+      }' \
+  http://localhost:3001/sendpayment
 ```
 
 ![RGB-Bitcoin](assets/fr/114.webp)
@@ -3887,8 +3911,8 @@ Payment has been made. This can be verified by executing the command :
 
 ```bash
 curl -X 'GET' \
-'http://localhost:3001/listpayments' \
--H 'accept: application/json'
+  'http://localhost:3001/listpayments' \
+  -H 'accept: application/json'
 ```
 
 ![RGB-Bitcoin](assets/fr/115.webp)
@@ -3900,7 +3924,7 @@ Here's how to deploy a Lightning node modified to carry RGB assets. This demonst
 - A Lightning node (`rgb-lightning-node`) based on a `bitcoind`, an indexer and an `rgb-proxy-server` ;
 - A series of JSON REST APIs for opening/closing channels, issuing tokens, transferring assets via Lightning, etc.
 
-Thanks to this process :
+Thanks to this process:
 
 
 - Lightning engagement transactions include an additional output (OP_RETURN or Taproot) with the anchoring of an RGB transition;

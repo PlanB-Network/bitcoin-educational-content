@@ -76,7 +76,7 @@ Inflacja to pojęcie, które jest często źle rozumiane ze względu na wiele zw
 
 
 
-- Definicja Roberta: Inflacja to nadmierny wzrost wartości instrumentów płatniczych (banknotów, kapitału) powodujący wzrost cen i deprecjację waluty.
+- Definicja słownika Le Robert: Inflacja to nadmierny wzrost ilości instrumentów płatniczych (banknotów, kapitału) powodujący wzrost cen i deprecjację waluty.
 
 
 
@@ -86,7 +86,7 @@ Inflacja to pojęcie, które jest często źle rozumiane ze względu na wiele zw
 ![image](assets/chapitre-2.1/4.webp)
 
 
-W świetle tych definicji ważne jest, aby zrozumieć, że dla Roberta inflacja dotyczy głównie wzrostu podaży pieniądza. Z drugiej strony encyklopedia Larousse koncentruje się na konsekwencjach tej ekspansji, a mianowicie na uogólnionym wzroście cen.
+W świetle tych definicji ważne jest, aby zrozumieć, że dla słownika Le Robert inflacja dotyczy głównie wzrostu podaży pieniądza. Z drugiej strony encyklopedia Larousse koncentruje się na konsekwencjach tej ekspansji, a mianowicie na uogólnionym wzroście cen.
 
 
 W naszej analizie hiperinflacji przyjmiemy drugą definicję, uogólnionego wzrostu cen, ponieważ jest ona bardziej odpowiednia i jasna w kontekście naszego tematu. Należy jednak pamiętać, że wzrost cen jest generalnie wynikiem zwiększenia podaży pieniądza.
@@ -94,7 +94,7 @@ W naszej analizie hiperinflacji przyjmiemy drugą definicję, uogólnionego wzro
 Znany ekonomista Milton Friedman stwierdził:
 
 
-> „Inflacja jest zawsze i wszędzie zjawiskiem pieniężnym”
+> „Inflacja jest zawsze i wszędzie zjawiskiem monetarnym”
 
 Stwierdzenie to podkreśla nieodłączny związek między ekspansją monetarną a inflacją. W kolejnych sekcjach zbadamy interakcje między inflacją a wzrostem gospodarczym w oparciu o te podstawowe definicje.
 
@@ -141,10 +141,10 @@ Rycina przedstawiająca masakrę Ateńczyków nad brzegiem Assinaros.
 #### 2. Starożytny Rzym w czasach Imperium:
 
 
-Po erze Republiki Rzymskiej w okresie Cesarstwa w III i IV wieku nastąpiła znaczna dewaluacja waluty. Ilustruje to spadek zawartości srebra w monetach, jak widać na poprzednim wykresie. Analiza pokazuje, że cena pszenicy w Egipcie, mierzona w drachmach, wzrosła milion razy w okresie około 400 lat, od 40 r. p.n.e. do 360 r. n.e.. W tym okresie oznacza to średnią roczną inflację wynoszącą około 4,4%. Inflacja ta nie była jednak równomiernie rozłożona. Rozpoczęła się ona tak naprawdę około 238 r. n.e. Od 250 do 293 roku stopa inflacji wynosiła około 3,65% i wzrosła do 22,28% między 293 a 301 rokiem.
+Po erze Republiki Rzymskiej w okresie Cesarstwa w III i IV wieku nastąpiła znaczna dewaluacja waluty. Ilustruje to spadek zawartości srebra w monetach, jak widać na poprzednim wykresie. Analiza pokazuje, że cena pszenicy w Egipcie, mierzona w drachmach, wzrosła milion razy w okresie około 400 lat, od 40 r. p.n.e. do 360 r. n.e.. W tym okresie oznacza to średnią roczną inflację wynoszącą około 4,4%. Inflacja ta nie była jednak równomiernie rozłożona. Rozpoczęła się tak naprawdę około 238 r. n.e. Od 250 do 293 roku stopa inflacji wynosiła około 3,65% i w latach 293-301 wzrosła do 22,28%.
 
 
-Chociaż w tych okresach doświadczono znacznej inflacji, nie osiągnęły one poziomów hiperinflacji, które możemy zaobserwować w niektórych współczesnych sytuacjach. Powodem tego jest fakt, że choć waluta została zdewaluowana, nadal opierała się na metalach szlachetnych. Ten solidny fundament zapewniał pewną ochronę przed ekstremalnymi poziomami inflacji. W kolejnych sekcjach przyjrzymy się bardziej szczegółowo naturze i konsekwencjom hiperinflacji.
+Chociaż w okresach tych doświadczono znacznej inflacji, nie osiągnęła ona poziomów hiperinflacji, które możemy zaobserwować w niektórych współczesnych sytuacjach. Powodem tego jest fakt, że choć waluta była zdewaluowana, nadal opierała się na metalach szlachetnych. Ten solidny fundament zapewniał pewną ochronę przed ekstremalnymi poziomami inflacji. W kolejnych sekcjach przyjrzymy się bardziej szczegółowo naturze i konsekwencjom hiperinflacji.
 
 
 ![image](assets/chapitre-2.1/2.webp)
@@ -153,21 +153,21 @@ Chociaż w tych okresach doświadczono znacznej inflacji, nie osiągnęły one p
 
 - Denar Marka Aureliusza (160 r. n.e.):
 
-Jedną z najbardziej kultowych monet starożytnego Rzymu jest denar, srebrna waluta. Posiadam konkretną monetę Marka Aureliusza z 160 r. n.e., przed poważną dewaluacją. Chociaż aparat może mieć trudności z uchwyceniem drobnych szczegółów, gołym okiem widać, że jest to piękna srebrna moneta, odzwierciedlająca stosunkowo wysoką zawartość srebra.
+Jedną z najbardziej kultowych monet starożytnego Rzymu jest denar, waluta srebrna. Posiadam monetę Marka Aureliusza z 160 r. n.e. wybitą przed poważną dewaluacją. Chociaż aparat może mieć trudności z uchwyceniem drobnych szczegółów, gołym okiem widać, że jest to piękna srebrna moneta, odzwierciedlająca stosunkowo wysoką zawartość srebra.
 
 
 
 - Antoninianus (koniec III wieku n.e.):
 
-Wraz z dewaluacją pieniądza pojawiła się nowa waluta, Antoninianus. Waluta ta miała być warta dwa denary, ale zawierała znacznie mniej srebra. Moja moneta Antoninianus wyraźnie pokazuje, że zawartość srebra została znacznie zmniejszona. Zdobi ją typowa dla rzymskich monet z tego okresu korona zwana "promienistą". Porównując kolor i jakość, można zauważyć, że Antoninianusowi daleko do monety z czystego srebra.
+Wraz z dewaluacją pieniądza pojawiła się nowa waluta, Antoninianus. Waluta ta miała być warta dwa denary, ale zawierała znacznie mniej srebra. Moja moneta Antoninianus wyraźnie pokazuje, że zawartość srebra została znacznie zmniejszona. Zdobi ją typowa dla rzymskich monet z tego okresu korona zwana „promienistą”. Porównując kolor i jakość, można zauważyć, że Antoninianusowi daleko do monety z czystego srebra.
 
-Porównując obie monety obok siebie, różnica jest uderzająca. Denar z 160 r. n.e. ma wyraźny srebrny wygląd, podczas gdy Antoninianus z końca III wieku n.e. jest znacznie bardziej matowy, co wskazuje na znaczny spadek zawartości srebra. To wizualne porównanie stanowi wyraźną ilustrację dewaluacji monetarnej, którą starożytny Rzym przeszedł na przestrzeni kilku stuleci.
+Porównując obie monety obok siebie, zauważamy uderzającą różnicę. Denar z 160 r. n.e. ma wyraźny srebrny wygląd, podczas gdy Antoninianus z końca III wieku n.e. jest znacznie bardziej matowy, co wskazuje na znaczny spadek zawartości srebra. To wizualne porównanie stanowi wyraźną ilustrację dewaluacji monetarnej, którą starożytny Rzym przeszedł na przestrzeni kilku stuleci.
 
 
 ![image](assets/chapitre-2.1/3.webp)
 
 
-Aby uzupełnić tę demonstrację, idealny byłby wykres ilustrujący dewaluację tych monet w czasie. Chociaż trudno to zwizualizować za pomocą tej platformy, wyobraźmy sobie wykres pokazujący wartość denara, a następnie jego spadek pod koniec II wieku, zastąpiony przez Antoninianusa, który miał być wart dwa denary, ale o znacznie niższej zawartości srebra. Te artefakty są niemymi świadkami wahań ekonomicznych minionych cywilizacji.
+Tę demonstrację idealnie uzupełniłby wykres ilustrujący dewaluację tych monet w czasie. Chociaż trudno to zwizualizować za pomocą tej platformy, wyobraźmy sobie wykres pokazujący wartość denara, a następnie jego spadek pod koniec II wieku, zastąpiony przez Antoninianusa, który miał być wart dwa denary, ale o znacznie niższej zawartości srebra. Te artefakty są niemymi świadkami wahań ekonomicznych minionych cywilizacji.
 
 
 #### 3. Hiszpańskie Maravedi: Świadek celowej dewaluacji
@@ -176,48 +176,48 @@ Aby uzupełnić tę demonstrację, idealny byłby wykres ilustrujący dewaluacj�
 ![image](assets/chapitre-2.1/5.webp)
 
 
-Maravedi, jako waluta miedziana, zajmuje szczególne miejsce w historii hiszpańskiej waluty. Jak wspomniano wcześniej, dolar hiszpański był pierwotnie międzynarodowym standardem, niezbędną walutą rezerwową dla Hiszpanii. Jednak w obliczu pewnych wyzwań gospodarczych Hiszpania musiała uciec się do sprytnych strategii monetarnych.
+Maravedi, jako waluta miedziana, zajmuje szczególne miejsce w historii waluty hiszpańskiej. Jak wspomniano wcześniej, dolar hiszpański był pierwotnie międzynarodowym standardem, podstawową walutą rezerwową Hiszpanii. Jednak w obliczu pewnych wyzwań gospodarczych Hiszpania musiała uciec się do sprytnych strategii monetarnych.
 
 
-Dewaluacja monetarna jest narzędziem często wykorzystywanym przez państwa do finansowania swoich wydatków lub stymulowania gospodarki. Hiszpania znalazła się jednak w delikatnej sytuacji. Dewaluacja dolara hiszpańskiego zagroziłaby jej pozycji w handlu międzynarodowym. Aby przezwyciężyć ten dylemat, Hiszpania zwróciła się do Maravedi.
+Dewaluacja monetarna jest narzędziem często wykorzystywanym przez państwa do finansowania swoich wydatków lub stymulowania gospodarki. Hiszpania znalazła się jednak w delikatnej sytuacji. Dewaluacja dolara hiszpańskiego zagroziłaby jej pozycji w handlu międzynarodowym. Aby rozwiązać ten dylemat, Hiszpania posłużyła się monetą maravedis.
 
 
 ![image](assets/chapitre-2.1/6.webp)
 
-W przeciwieństwie do cennego hiszpańskiego srebrnego dolara, Maravedis był miedzianą walutą używaną głównie przez lokalną ludność. Waluta ta została poddana dewaluacji. Gdy moneta maravedis była początkowo warta dwa maravedisy, państwo odzyskiwało ją, ponownie stemplowało nową wartością, na przykład "cztery", i zwracało właścicielowi tylko jedną monetę. Wspomniana moneta ze stemplem "osiem" jest dowodem tego procesu, ponieważ przeszła kilka cykli dewaluacji.
+W przeciwieństwie do cennego hiszpańskiego srebrnego dolara, maravedis był miedzianą walutą używaną głównie przez ludność lokalną. Waluta ta została poddana dewaluacji. Gdy moneta maravedis była początkowo warta dwa maravedisy, państwo odzyskiwało ją, ponownie stemplowało nową wartością, na przykład „cztery”, i zwracało właścicielowi tylko jedną monetę. Wspomniana moneta ze stemplem „osiem” jest dowodem tego procesu, ponieważ przeszła kilka cykli dewaluacji.
 
 
-Strategia ta pozwoliła państwu na skuteczną dewaluację waluty, tworząc inflację i pośrednio finansując siebie, jednocześnie zachowując integralność hiszpańskiego dolara na arenie międzynarodowej. Jednak ta ukierunkowana dewaluacja miała konsekwencje dla lokalnej ludności, która widziała, jak wartość ich wspólnej waluty jest osłabiona.
+Strategia ta pozwoliła państwu na skuteczną dewaluację waluty, tworząc inflację i pośrednio finansując państwo, jednocześnie zachowując integralność hiszpańskiego dolara na arenie międzynarodowej. Jednak ta ukierunkowana dewaluacja miała konsekwencje dla lokalnej ludności, która widziała, jak wartość ich wspólnej waluty jest osłabiona.
 
 
-Przypadek Maravedis ilustruje, w jaki sposób państwo może selektywnie dewaluować lokalną walutę, aby zaspokoić swoje wewnętrzne potrzeby gospodarcze, jednocześnie zachowując wartość waluty rezerwowej na arenie międzynarodowej. Jest to uderzający przykład złożoności i finezji polityki pieniężnej w historii.
+Przypadek maravedis ilustruje, w jaki sposób państwo może selektywnie dewaluować lokalną walutę, aby zaspokoić swoje wewnętrzne potrzeby gospodarcze, jednocześnie zachowując wartość waluty rezerwowej na arenie międzynarodowej. Jest to uderzający przykład złożoności i finezji polityki pieniężnej w historii.
 
 
 ![image](assets/chapitre-2.1/7.webp)
 
 
-Więcej o czym -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
+Więcej na ten temat -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
 
 
 #### 4. Rewolucja cenowa od XV do XVII wieku
 
 
-Między XV a XVII wiekiem Europa była świadkiem niezwykłego zjawiska gospodarczego, często określanego mianem "rewolucji cenowej" Ten okres inflacji został w dużej mierze wywołany przez masowy napływ metali szlachetnych, w szczególności złota i srebra, z obu Ameryk. Ponieważ europejska gospodarka w dużej mierze opierała się wówczas na standardzie metalicznym, ten dodatkowy Supply metali zwiększył Supply pieniądza. W rezultacie pojawiła się stopa inflacji wynosząca około 1 do 2% rocznie. Na pierwszy rzut oka inflacja ta może wydawać się skromna. Jednak w tamtym czasie takie wahania cen były na tyle niezwykłe, że uznano je za "rewolucję" Podkreśla to, jak zmiany w rezerwach pieniężnych mogą wpływać na cały system gospodarczy.
+Między XV a XVII wiekiem Europa była świadkiem niezwykłego zjawiska gospodarczego często określanego mianem „rewolucji cenowej”. Ten okres inflacji został w dużej mierze wywołany przez masowy napływ metali szlachetnych, w szczególności złota i srebra, z obu Ameryk. Ponieważ europejska gospodarka w dużej mierze opierała się wówczas na standardzie metalicznym, ta dodatkowa podaż metali zwiększyła podaż pieniądza. W rezultacie pojawiła się stopa inflacji wynosząca około 1 do 2% rocznie. Na pierwszy rzut oka inflacja ta może wydawać się skromna. Jednak w tamtym czasie takie wahania cen były na tyle niezwykłe, że uznano je za „rewolucję”. Pokazuje to, jak zmiany w rezerwach pieniężnych mogą wpływać na cały system gospodarczy.
 
 
 #### 5. John Law i Assignats
 
 
-W XVIII wieku francuska historia gospodarcza została naznaczona dwoma znaczącymi wydarzeniami związanymi z walutą. Po pierwsze, John Law, szkocki ekonomista i finansista, przekonał francuski rząd do przyjęcia systemu monetarnego opartego na pieniądzu papierowym. Choć początkowo uznano to za innowacyjne rozwiązanie problemów finansowych kraju, inicjatywa ta szybko doprowadziła do gwałtownej inflacji. Wkrótce potem, podczas zamieszania związanego z Rewolucją Francuską, rząd wprowadził "assignaty".
+W XVIII wieku francuska historia gospodarcza została naznaczona dwoma znaczącymi wydarzeniami związanymi z walutą. Po pierwsze, John Law, szkocki ekonomista i finansista, przekonał rząd francuski do przyjęcia systemu monetarnego opartego na pieniądzu papierowym. Choć początkowo uznano to za innowacyjne rozwiązanie problemów finansowych kraju, inicjatywa ta szybko doprowadziła do gwałtownej inflacji. Wkrótce potem, podczas zamieszania związanego z Rewolucją Francuską, rząd wprowadził „asygnaty”.
 
 
 ![image](assets/chapitre-2.1/9.webp)
 
 
-Przydziały z 1793 r
+Asygnaty z 1793 r
 
 
-Banknoty te są żywym świadectwem pierwszego poważnego okresu hiperinflacji w historii. Początkowo zaprojektowane jako odpowiedź na kolejne kryzysy finansowe, assignaty szybko stały się symbolem niestabilności monetarnej. Rząd, nadmiernie polegając na tej papierowej walucie w celu sfinansowania swoich wydatków, spowodował bezprecedensowy kryzys gospodarczy i wywołał poważny okres hiperinflacji we Francji po rewolucji.
+Banknoty te są żywym świadectwem pierwszego poważnego okresu hiperinflacji w historii. Początkowo zaprojektowane jako odpowiedź na kolejne kryzysy finansowe, asygnaty szybko stały się symbolem niestabilności monetarnej. Rząd, nadmiernie polegając na tej papierowej walucie w celu sfinansowania swoich wydatków, spowodował bezprecedensowy kryzys gospodarczy i wywołał poważny okres hiperinflacji w porewolucyjnej Francji.
 
 
 #### 6. Rozporządzenie wykonawcze 6102 i dewaluacja dolara
@@ -236,20 +236,20 @@ Na początku lat 30. w Stanach Zjednoczonych nastąpiła poważna zmiana w polit
 ![image](assets/chapitre-2.1/11.webp)
 
 
-W 1928 r. banknot o nominale 20 USD w Stanach Zjednoczonych stwierdzał: "wymienialny na złoto na żądanie" Oznacza to, że każdy banknot był dosłownie wymienialny na złoto. Konkretnie, banknot o nominale 20,67 USD stanowił równowartość jednej uncji złota.
+W 1928 r. banknot o nominale 20 USD w Stanach Zjednoczonych był opatrzony zdaniem: "wymienialny na złoto na żądanie" Oznacza to, że każdy banknot był dosłownie wymienialny na złoto - banknot o nominale 20,67 USD stanowił równowartość jednej uncji złota.
 
 
 
 - Rozporządzenie wykonawcze 6102
 
 
-W 1933 r. nastąpił poważny wstrząs wraz z wydaniem rozporządzenia wykonawczego 6102. Dekret ten zakazał obywatelom posiadania złota, czy to w formie sztabek, monet czy certyfikatów.
+Wydanie rozporządzenia wykonawczego numer 6102 w roku 1933 spowodowało poważny wstrząs. Dekret ten zakazał obywatelom posiadania złota, czy to w formie sztabek, monet czy certyfikatów.
 
 
 ![image](assets/chapitre-2.1/14.webp)
 
 
-Złoty certyfikat jest tego dobrym przykładem. Był on oznaczony: "W złotej monecie płatnej na okaziciela na żądanie" Posiadanie takiego certyfikatu stało się nielegalne i pozostało takie do 1964 roku.
+Złoty Certyfikat jest tego dobrym przykładem. Był on opatrzony napisem: "W złotej monecie płatnej na okaziciela na żądanie" Posiadanie takiego certyfikatu stało się nielegalne aż do 1964 roku.
 
 
 ![image](assets/chapitre-2.1/12.webp)
@@ -264,11 +264,11 @@ Po konfiskacie złota w 1934 r. do obiegu wprowadzono nową serię banknotów.
 
 ![image](assets/chapitre-2.1/13.webp)
 
-Wzmianka wskazująca na ich wymienialność na złoto została usunięta i zastąpiona słowami "Ten banknot jest prawnym środkiem płatniczym dla wszystkich długów" (Ce billet est une monnaie légale pour toutes dettes).
+Wzmianka wskazująca na ich wymienialność na złoto została usunięta i zastąpiona słowami "Ten banknot jest prawnym środkiem obsługującym spłatę wszystkich długów".
 
 
 
-- Przeszacowanie wartości złota
+- Rewaluacja wartości złota
 
 
 Fascynująca w tej transformacji jest strategia rządu. W 1934 r. cena złota została zrewaluowana do 35 USD za uncję, zamiast 20,67 USD. Zasadniczo rząd zdewaluował dolara posiadanego przez ludzi. Kupując złoto od ludności po cenie 20,67 USD za uncję w 1933 r., a następnie rewaluując cenę złota w 1934 r., rząd osiągnął znaczny zysk, jednocześnie dewaluując oszczędności swoich obywateli.
@@ -286,16 +286,16 @@ Stany Zjednoczone dokonały historycznego przełomu, stając się pierwszymi, kt
 Wcześniej, w okresie renesansu, włoski floren wyemitowany przez Florencję w XIII wieku był międzynarodową walutą rezerwową i nie odnotowano żadnej dewaluacji w okresie jego używania, co odzwierciedla znaczenie stabilności monetarnej dla handlu międzynarodowego.
 
 
-W tym samym duchu Hiszpania i Holandia, jako posiadacze światowej waluty rezerwowej ze względu na kwitnący handel międzynarodowy, utrzymywały integralność swojej waluty, aby zachować zaufanie i status quo w wymianie międzynarodowej. Holandia była nawet świadkiem utworzenia pierwszego banku centralnego, co było kamieniem milowym w globalnej ewolucji monetarnej.
+W tym samym duchu Hiszpania i Holandia, jako posiadacze światowej waluty rezerwowej ze względu na kwitnący handel międzynarodowy, utrzymywały integralność swojej waluty, aby zachować zaufanie i status quo w wymianie międzynarodowej. Holandia była nawet miejscem utworzenia pierwszego banku centralnego, co było ważnym etapem w globalnej ewolucji monetarnej.
 
 
 ![image](assets/chapitre-2.1/15.webp)
 
 
-Sytuacja zmieniła się jednak wraz ze wzrostem znaczenia Stanów Zjednoczonych jako dominującej potęgi gospodarczej. Zdecydowały się one zdewaluować swoją walutę rezerwową, wykorzystując w ten sposób inflację na swoją korzyść. Decyzja ta jest często przypisywana zmienionej dynamice, w której wybór waluty rezerwowej nie był już tak swobodny jak wcześniej. Amerykańska hegemonia ustanowiła dolara jako światową walutę rezerwową, umożliwiając manipulowanie jego wartością. Zmiana ta ujawnia potencjalny wpływ polityki pieniężnej na handel międzynarodowy w zglobalizowanej gospodarce, oznaczając znaczącą zmianę w zarządzaniu globalnymi walutami rezerwowymi.
+Sytuacja zmieniła się jednak wraz ze wzrostem znaczenia Stanów Zjednoczonych jako dominującej potęgi gospodarczej. Zdecydowały się one zdewaluować swoją walutę rezerwową, wykorzystując w ten sposób inflację na swoją korzyść. Decyzja ta jest często przypisywana zmienionej dynamice, w której wybór waluty rezerwowej nie był już tak swobodny jak wcześniej. Amerykańska hegemonia ustanowiła dolara jako światową walutę rezerwową, umożliwiając sobie manipulowanie jego wartością. Zmiana ta ujawnia potencjalny wpływ różnych polityk pieniężnych na handel międzynarodowy w zglobalizowanej gospodarce i stanowi znaczącą zmianę w zarządzaniu globalnymi walutami rezerwowymi.
 
 
-### Ostatni przykład na drogę: szwajcarska kolacja
+### Ostatni przykład na drogę: dinar szwajcarski
 
 
 Dinar szwajcarski ilustruje kolejny fascynujący aspekt dewaluacji pieniądza, tym razem osadzony w irackim kontekście sprzed wojny w Zatoce Perskiej. Waluta ta, nazwana na cześć wysokiej jakości banknotów, została wyemitowana przez Bank Centralny Iraku i cieszyła się reputacją stabilnej w regionie Bliskiego Wschodu. Zaufanie to wynikało głównie z jakości druku banknotów, który został wykonany w Anglii, co sugerowało pewną odporność na dewaluację.
@@ -303,7 +303,7 @@ Dinar szwajcarski ilustruje kolejny fascynujący aspekt dewaluacji pieniądza, t
 ![image](assets/chapitre-2.1/16.webp)
 
 
-Wojny w Zatoce Perskiej stanowiły jednak punkt zwrotny w historii dinara szwajcarskiego. Irak, nie będąc już w stanie polegać na swoim angielskim dostawcy w zakresie druku banknotów, zwrócił się do Chin. To przejście spowodowało wyraźną różnicę w jakości banknotów, przy czym chińska wersja była postrzegana jako gorsza. Opinia ta nie była bezpodstawna; chińskie banknoty były łatwiejsze do podrobienia i podatne na nadruki ze strony rządu, co zagrażało ich wartości.
+Wojny w Zatoce Perskiej stanowiły jednak punkt zwrotny w historii dinara szwajcarskiego. Irak, nie będąc już w stanie polegać na swoim angielskim dostawcy w zakresie druku banknotów, zwrócił się do Chin. To przejście spowodowało wyraźną różnicę w jakości banknotów, przy czym chińska wersja była postrzegana jako gorsza. Opinia ta nie była bezpodstawna; chińskie banknoty były łatwiejsze do podrobienia i podatne na naciski ze strony rządu, co zagrażało ich wartości.
 
 
 ![image](assets/chapitre-2.1/17.webp)
@@ -315,7 +315,7 @@ W irackiej gospodarce po wojnie w Zatoce Perskiej pojawiło się charakterystycz
 #### Tak, faktycznie zważyliśmy monety!
 
 
-Powszechne postrzeganie często kojarzy walutę z tworem państwowym, gdzie jej emisja i wartość są regulowane przez państwo. Koncepcja ta ma swoje korzenie w starożytnych cywilizacjach, takich jak Rzym, gdzie monety były standaryzowane i stemplowane przez Imperium, nadając w ten sposób oficjalną wartość walutom. Jednak głębsza analiza ujawnia, że wewnętrzna wartość waluty wynikała głównie z zawartości metali szlachetnych.
+W powszechnym przekonaniu często kojarzy się walutę z tworem państwowym, gdzie jej emisja i wartość są regulowane przez państwo. Koncepcja ta ma swoje korzenie w starożytnych cywilizacjach, takich jak Rzym, gdzie monety były standaryzowane i stemplowane przez Imperium, nadając w ten sposób oficjalną wartość walutom. Jednak głębsza analiza ujawnia, że wewnętrzna wartość waluty wynikała głównie z zawartości metali szlachetnych.
 
 
 ![image](assets/chapitre-2.1/18.webp)

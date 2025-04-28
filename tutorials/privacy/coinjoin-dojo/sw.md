@@ -276,7 +276,7 @@ Kwa hivyo mbinu hii ni bora kwa wale wanaotafuta faragha ya juu zaidi na mizungu
 
 
 - [Mafunzo ya Sparrow Wallet CoinJoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
-- [Mafunzo ya Samourai Wallet CoinJoin (bila Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-546200*9136-546200)
+- [Mafunzo ya Samourai Wallet CoinJoin (bila Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)
 
 
 ### Kuelewa Mpangilio
@@ -588,4 +588,4 @@ Akaunti za Whirlpool zinaweza kutambulika kwa urahisi kwenye Samourai Wallet kwa
 ![coinjoin](assets/notext/53.webp)
 
 
-Ili kufuatilia miundo yako ya kiotomatiki, ninapendekeza pia usanidi Watch-only wallet kupitia programu ya Sentinel. Ongeza ZPUB ya akaunti yako ya **Postmix** na ufuatilie maendeleo ya mizunguko yako ya CoinJoin katika muda halisi. Iwapo ungependa kuelewa jinsi ya kutumia Sentinel, ninapendekeza upate mafunzo haya mengine kwenye PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de)
+Ili kufuatilia miundo yako ya kiotomatiki, ninapendekeza pia usanidi Watch-only wallet kupitia programu ya Sentinel. Ongeza ZPUB ya akaunti yako ya **Postmix** na ufuatilie maendeleo ya mizunguko yako ya CoinJoin katika muda halisi. Iwapo ungependa kuelewa jinsi ya kutumia Sentinel, ninapendekeza upate mafunzo haya mengine kwenye PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

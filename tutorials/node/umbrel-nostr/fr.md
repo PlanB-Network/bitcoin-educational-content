@@ -27,13 +27,13 @@ Umbrel propose un écosystème d'applications intégrées pour profiter pleineme
 
 ### Nostr Relay – Votre relais privé sur Umbrel
 
-![Page d'installation de Nostr Relay sur l'App Store Umbrel](/tutorials/node/umbrel-nostr/assets/fr/01.webp)
+![Page d'installation de Nostr Relay sur l'App Store Umbrel](assets/fr/01.webp)
 
 **Nostr Relay** est l'application officielle d'Umbrel pour faire tourner votre **propre relais Nostr** sur votre nœud. L'objectif principal est de disposer d'un relais **privé** et fiable pour **sauvegarder toute votre activité Nostr** en temps réel. En d'autres termes, en utilisant ce relais personnel en complément des relais publics, vous vous assurez que toutes vos notes, messages et réactions sont copiés chez vous, à l'abri de toute censure ou perte de données.
 
 **Installation :** Depuis l'App Store Umbrel (catégorie _Social_), installez _Nostr Relay_. Une fois lancé, l'application tourne en arrière-plan (service docker). 
 
-![Interface de Nostr Relay avec l'URL du relais](/tutorials/node/umbrel-nostr/assets/fr/02.webp)
+![Interface de Nostr Relay avec l'URL du relais](assets/fr/02.webp)
 
 Vous verrez son interface web via Umbrel : elle fournit des informations basiques et surtout l'URL de votre relais (en haut à droite) que vous devrez copier pour la suite. Un bouton de synchronisation (icône de globe) est également disponible.
 
@@ -55,25 +55,25 @@ En arrière-plan, _Nostr Relay_ d'Umbrel s'appuie sur le projet open-source **no
 
 ### noStrudel – Client Nostr pour explorateurs
 
-![Page d'installation de noStrudel sur l'App Store Umbrel](/tutorials/node/umbrel-nostr/assets/fr/03.webp)
+![Page d'installation de noStrudel sur l'App Store Umbrel](assets/fr/03.webp)
 
 **noStrudel** est un client web Nostr orienté "power users", idéal pour comprendre et explorer le réseau Nostr en détail. Il s'agit d'une sorte de bac à sable permettant d'inspecter les événements, les relais et d'expérimenter avec les fonctionnalités avancées du protocole. L'interface est en anglais et relativement technique, ce qui la destine plutôt à des utilisateurs expérimentés curieux du fonctionnement interne de Nostr.
 
 **Installation :** Installez _noStrudel_ depuis l'App Store Umbrel (catégorie _Social_). Une fois lancé, il est accessible via votre navigateur à l'adresse de votre Umbrel (ex. `http://umbrel.local` ou via son .onion/Tailscale, cf. section accès externe).
 
-![Page d'accueil de noStrudel avec le bouton Setup Relays](/tutorials/node/umbrel-nostr/assets/fr/04.webp)
+![Page d'accueil de noStrudel avec le bouton Setup Relays](assets/fr/04.webp)
 
 **Configuration des relais :** À l'ouverture de noStrudel, vous verrez un bouton "Setup Relays" en haut à droite. Cliquez dessus pour configurer vos relais.
 
-![Page de configuration des relais dans noStrudel](/tutorials/node/umbrel-nostr/assets/fr/05.webp)
+![Page de configuration des relais dans noStrudel](assets/fr/05.webp)
 
 Sur cette page, collez l'URL de votre relais Umbrel que vous avez copiée précédemment. Vous pouvez également ajouter d'autres relais proposés par défaut par l'application. Une fois les relais configurés, cliquez sur "Sign in" en bas à gauche pour continuer.
 
-![Options de connexion dans noStrudel](/tutorials/node/umbrel-nostr/assets/fr/06.webp)
+![Options de connexion dans noStrudel](assets/fr/06.webp)
 
 **Connexion :** noStrudel vous propose plusieurs options de connexion. Dans notre cas, nous allons choisir "Private Key" et coller votre clé privée Nostr précédemment générée. Si vous n'avez pas encore de clé, vous pouvez installer l'extension [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) pour créer et/ou sauvegarder vos clés Nostr et ainsi communiquer de manière plus sécurisée avec les différentes applications Nostr.
 
-![Interface principale de noStrudel](/tutorials/node/umbrel-nostr/assets/fr/07.webp)
+![Interface principale de noStrudel](assets/fr/07.webp)
 
 Une fois connecté, vous pouvez utiliser noStrudel pour partager vos notes via Nostr. L'interface vous donne accès à :
 
@@ -86,21 +86,21 @@ Une fois connecté, vous pouvez utiliser noStrudel pour partager vos notes via N
 
 ### Snort – Client Nostr moderne sur Umbrel
 
-![Page d'installation de Snort sur l'App Store Umbrel](/tutorials/node/umbrel-nostr/assets/fr/08.webp)
+![Page d'installation de Snort sur l'App Store Umbrel](assets/fr/08.webp)
 
 **Snort** est un autre client web Nostr disponible sur Umbrel, offrant une **interface moderne, rapide et épurée** pour interagir avec le réseau social décentralisé. Contrairement à noStrudel qui cible les power users, _Snort_ vise la simplicité d'utilisation sans sacrifier les fonctionnalités. Il est construit en React, et propose une UX soignée rappelant les réseaux sociaux classiques, ce qui le rend adapté à un usage quotidien.
 
 **Installation :** Installez _Snort_ depuis l'App Store Umbrel (catégorie _Social_). 
 
-![Page d'accueil de Snort avec le bouton S'inscrire](/tutorials/node/umbrel-nostr/assets/fr/09.webp)
+![Page d'accueil de Snort avec le bouton S'inscrire](assets/fr/09.webp)
 
 À l'ouverture de Snort, vous verrez un bouton "S'inscrire" en bas à gauche.
 
-![Options de connexion dans Snort](/tutorials/node/umbrel-nostr/assets/fr/10.webp)
+![Options de connexion dans Snort](assets/fr/10.webp)
 
 Vous pouvez choisir de vous inscrire ou de vous connecter à un compte existant (ce que nous allons faire pour ce tutoriel).
 
-![Méthodes de connexion dans Snort](/tutorials/node/umbrel-nostr/assets/fr/11.webp)
+![Méthodes de connexion dans Snort](assets/fr/11.webp)
 
 Snort propose plusieurs méthodes de connexion. Vous pouvez utiliser l'extension Nostr Connect précédemment installée ou d'autres méthodes disponibles. Une fois connecté, vous pourrez utiliser l'application pleinement.
 
@@ -120,27 +120,27 @@ L'interface de _Snort_ propose :
 
 **Installation et configuration :**
 
-![Page d'installation de Nostr Wallet Connect sur l'App Store Umbrel](/tutorials/node/umbrel-nostr/assets/fr/12.webp)
+![Page d'installation de Nostr Wallet Connect sur l'App Store Umbrel](assets/fr/12.webp)
 
 Installez _Nostr Wallet Connect_ depuis le store Alby sur Umbrel.
 
-![Configuration de NWC dans noStrudel - Étape 1](/tutorials/node/umbrel-nostr/assets/fr/13.webp)
+![Configuration de NWC dans noStrudel - Étape 1](assets/fr/13.webp)
 
 Dans noStrudel, cliquez sur votre profil en haut à droite puis sur le bouton "manage".
 
-![Configuration de NWC dans noStrudel - Étape 2](/tutorials/node/umbrel-nostr/assets/fr/14.webp)
+![Configuration de NWC dans noStrudel - Étape 2](assets/fr/14.webp)
 
 Cliquez sur "Lightning" puis "connect Wallet".
 
-![Configuration de NWC dans noStrudel - Étape 3](/tutorials/node/umbrel-nostr/assets/fr/15.webp)
+![Configuration de NWC dans noStrudel - Étape 3](assets/fr/15.webp)
 
 Parmi les options de connexion disponibles, choisissez "Umbrel".
 
-![Configuration de NWC dans noStrudel - Étape 4](/tutorials/node/umbrel-nostr/assets/fr/16.webp)
+![Configuration de NWC dans noStrudel - Étape 4](assets/fr/16.webp)
 
 Cliquez sur "Connect" pour être automatiquement redirigé vers votre session Nostr Wallet Connect d'Umbrel.
 
-![Page de configuration des autorisations NWC](/tutorials/node/umbrel-nostr/assets/fr/17.webp)
+![Page de configuration des autorisations NWC](assets/fr/17.webp)
 
 Sur la page de Nostr Wallet Connect, vous pouvez :
    - Définir votre budget maximal
@@ -148,7 +148,7 @@ Sur la page de Nostr Wallet Connect, vous pouvez :
    - Paramétrer un délai d'expiration pour la connexion
 Cliquez sur "connecter" pour finaliser.
 
-![Confirmation de connexion dans noStrudel](/tutorials/node/umbrel-nostr/assets/fr/18.webp)
+![Confirmation de connexion dans noStrudel](assets/fr/18.webp)
 
 Vous êtes redirigé vers noStrudel avec un message de confirmation : vous pouvez maintenant zapper le monde entier depuis votre wallet/nœud LND !
 

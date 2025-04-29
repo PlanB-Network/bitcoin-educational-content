@@ -154,6 +154,9 @@ Vous êtes redirigé vers noStrudel avec un message de confirmation : vous pouve
 
 Grâce à NWC, vos **paiements Lightning via Nostr** (zaps pour récompenser des posts, paiements _Value for Value_, etc.) partent de **votre propre nœud**. Vous n'avez plus à faire transiter vos transactions par des services externes ni à scanner un QR depuis votre téléphone à chaque fois. L'expérience utilisateur est considérablement améliorée tout en restant _non custodiale_ et respectueuse de la vie privée.
 
+Si vous souhaitez savoir comment configurer votre propre nœud Lightning sur Umbrel, je vous recommande de consulter cet autre tutoriel complet :
+
+https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 ## Configuration avancée et sécurité
 
 L'utilisation conjointe d'Umbrel et de Nostr à un niveau avancé nécessite de porter une attention particulière à la **sécurité** et à la **connectivité**. Voici quelques conseils pour protéger votre configuration et y accéder de manière optimale, où que vous soyez.

@@ -143,6 +143,14 @@ Những gì Adam Smith chỉ ra là một người chỉ có thể phục vụ l
 
 ![image](assets/en/017.webp)
 
+---
+
+>“Nỗ lực tự nhiên của mỗi cá nhân để cải thiện điều kiện của bản thân... mạnh mẽ đến mức nó có thể, một mình và không cần bất kỳ sự trợ giúp nào, không chỉ đưa xã hội đến sự giàu có và thịnh vượng, mà còn vượt qua hàng trăm chướng ngại phiền phức mà sự ngu ngốc của các luật lệ con người thường gây ra.”  
+>_Sự giàu có của các quốc gia_  
+>_Quyển IV, Chương V_
+
+---
+
 Trao đổi là một trò chơi có tổng dương. Những gì một người thu được, người kia cũng thu được. Do đó, nó khác biệt với tái phân phối bằng con đường chính trị nơi luôn có người thắng và người thua. Nếu chúng ta xem xét trường phái Kinh tế học Anh, đối với Smith, đối với Ricardo, và đối với Locke trước họ, giá trị gắn với lao động. Đối với Marx, cũng vậy.
 
 ![image](assets/en/018.webp)
@@ -155,6 +163,12 @@ Nhưng Bastiat cũng làm cho Say mềm mỏng hơn về điểm này. Đó khô
 Nền kinh tế tuân theo một số quy luật đơn giản xuất phát từ hành vi con người. Một trong số đó, được gọi là "Luật Say," như sau: "Các sản phẩm và dịch vụ được trao đổi cho các sản phẩm và dịch vụ." Ý tưởng của ông là các quốc gia và cá nhân được hưởng lợi từ việc tăng cấp độ sản xuất vì nó gia tăng cơ hội cho các giao dịch có lợi cho cả hai bên.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Tự do cá nhân = Hài hòa xã hội
+
+---
 
 Thực vậy, sản phẩm chỉ được mua với kỳ vọng vào dịch vụ mà người mua mong đợi: Tôi mua một đĩa vì nhạc mà tôi sẽ nghe, tôi mua một vé xem phim vì bộ phim mà tôi sẽ xem. Và trong một giao dịch, mỗi bên quyết định xem liệu thứ mình nhận được có đáng giá hơn so với thứ mình định từ bỏ hay không. Trong bối cảnh này, tiền chỉ là một hàng hóa trung gian, nó bù đắp cho một dịch vụ đã được cung cấp và mở ra các dịch vụ khác.
 
@@ -333,6 +347,13 @@ Ban đầu, một người đàn ông chỉ là một người thuộc giai cấ
 
 ![image](assets/en/048.webp)
 
+---
+
+>Bất kỳ ai từ chối tuân theo ý chí chung sẽ bị toàn thể ép buộc: điều đó không có nghĩa gì khác ngoài việc buộc anh ta phải tự do.  
+>(Jean-Jacques Rousseau)
+
+---
+
 Theo học thuyết này, con người có hai ý chí bên trong mình: một ý chí hướng về lợi ích cá nhân, đó là của người thuộc giai cấp tư sản, và một ý chí hướng về lợi ích chung, đó là của công dân. Dẫn dắt con người, thậm chí bằng vũ lực, để muốn một mục tiêu hợp lý, lợi ích chung, là dẫn dắt họ trở nên tự do. Điều họ thực sự muốn là một mục tiêu hợp lý, ngay cả khi họ không biết điều đó.
 Vì vậy, theo Rousseau, hoàn toàn hợp lý khi hạn chế con người vì một mục tiêu mà chính họ, nếu được khai sáng hơn, sẽ theo đuổi, nhưng họ không theo đuổi vì họ mù quáng, ngu dốt, hoặc tham nhũng. Xã hội được thành lập để buộc họ làm những gì họ nên tự nguyện mong muốn nếu họ được khai sáng. Và bằng cách làm như vậy, người ta không hành động bạo lực với họ vì người ta dẫn dắt họ trở nên "tự do," tức là, làm những lựa chọn đúng đắn, những lựa chọn phù hợp với bản thân thực sự của họ.
 ![image](assets/en/049.webp)
@@ -406,6 +427,14 @@ Chủ nghĩa bảo hộ, thực tế, là một hình thức của chủ nghĩa 
 
 ![image](assets/en/058.webp)
 
+---
+
+>Cuộc gặp gỡ của chúng tôi với Arnaud Montebourg  
+>Made in France,  
+>anh ấy tin tưởng vào điều đó, chúng tôi đã thử nghiệm
+
+---
+
 Lập luận về bảo vệ việc làm là điều Bastiat gọi là một quan điểm sai lầm. Bởi vì thực tế, nó tương đương với một loại thuế. Nó có tác dụng làm cho sản phẩm trở nên đắt đỏ hơn. Hãy lấy ví dụ do chính Bastiat đưa ra.
 
 Hãy tưởng tượng một con dao của Anh bán ở nước ta với giá 2 franc, và một con dao sản xuất tại Pháp có giá 3 franc. Nếu chúng ta để người tiêu dùng tự do mua con dao mà họ muốn, họ tiết kiệm được một franc, mà họ có thể đầu tư vào nơi khác (một cuốn sách, hoặc một cây bút chì).
@@ -434,6 +463,14 @@ Và ông sẽ tiếp tục phân tích những tác động xấu xa của nó s
 3. Bastiat thêm rằng, theo quan điểm của mình, chủ nghĩa bảo hộ là biểu hiện đầu tiên của sự rối loạn này. Các nhà tư bản khởi xướng điều này bằng cách yêu cầu sự can thiệp của luật pháp để tăng cường phần thưởng của họ. Tất yếu, công nhân cũng muốn làm điều tương tự.
 
 ![image](assets/en/063.webp)
+
+---
+
+>ĐỂ THÀNH CÔNG  
+>BỎ PHIẾU CHO SFIO XÃ HỘI CHỦ NGHĨA
+
+---
+
 Kết luận, theo Bastiat: chủ nghĩa bảo hộ và chủ nghĩa xã hội có một điểm chung, đó là những gì họ tìm kiếm từ luật pháp không phải để đảm bảo cho mọi người được tự do thực hiện năng lực của mình và hưởng phần thưởng công bằng cho nỗ lực của họ, mà thay vào đó là để ưu ái việc bóc lột ít hay nhiều một tầng lớp công dân bởi một tầng lớp khác. Với chủ nghĩa bảo hộ, đó là thiểu số bóc lột đa số. Với chủ nghĩa xã hội, đó là đa số bóc lột thiểu số. Trong cả hai trường hợp, công lý bị vi phạm và lợi ích chung bị tổn hại. Bastiat đặt họ vào vị trí đối lập với nhau.
 
 > Nhà nước là hư cấu lớn, qua đó mọi người cố gắng sống bằng chi phí của người khác.

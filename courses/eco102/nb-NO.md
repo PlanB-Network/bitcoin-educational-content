@@ -416,6 +416,14 @@ Som vi allerede har sett, var det først og fremst Cobdens kamp mot proteksjonis
 Proteksjonisme er i virkeligheten en form for økonomisk nasjonalisme. Den har som mål å eliminere utenlandsk konkurranse mens den later som den "forsvarer nasjonale interesser." Deretter prøver de å få offentlige myndigheter til å akseptere et sett med rent demagogiske usannheter, presentert som dydige: forsvar av arbeidsplasser, konkurranseevne, osv. Selvfølgelig gir valgte tjenestemenn etter for produsentenes press, fordi det for dem er en gylden mulighet til å konsolidere sin kundebase og utvide sin makt.
 ![image](assets/en/058.webp)
 
+---
+
+>Vårt møte med Arnaud Montebourg  
+>Made in France,  
+>han tror på det, vi har testet det
+
+---
+
 Argumentet for jobbeskyttelse er det Bastiat kaller en feilslutning. Fordi i virkeligheten er det tilsvarende en skatt. Det har effekten av å gjøre produkter dyrere. La oss ta eksempelet gitt av Bastiat selv.
 
 Forestil deg en engelsk kniv som selges i vårt land for 2 euro, og en kniv laget i Frankrike koster 3. Hvis vi lar forbrukeren fritt kjøpe kniven han ønsker, sparer han en franc, som han kan investere andre steder (i en bok, eller en blyant).

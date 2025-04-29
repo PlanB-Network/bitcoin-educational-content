@@ -151,6 +151,14 @@ O que Adam Smith mostra é que só se pode servir ao próprio interesse servindo
 
 ![image](assets/en/017.webp)
 
+---
+
+>« O esforço natural de cada indivíduo para melhorar a sua própria condição... é tão poderoso que, sozinho e sem qualquer ajuda, é não apenas capaz de conduzir a sociedade à riqueza e à prosperidade, mas também de superar uma centena de obstáculos impertinentes que a insensatez das leis humanas frequentemente impõe às suas operações. »  
+>_A Riqueza das Nações_  
+>_Livro IV, Capítulo V_
+
+---
+
 A troca é um jogo de soma positiva. O que um ganha, o outro também ganha. Isso difere da redistribuição política onde sempre há um vencedor e um perdedor. Se considerarmos a escola inglesa, para Smith, para Ricardo e para Locke antes deles, o valor está ligado ao trabalho. Para Marx, é o mesmo.
 
 ![image](assets/en/018.webp)
@@ -163,6 +171,12 @@ Mas Bastiat também nuanciou Say neste ponto. Não se trata da utilidade que est
 A economia obedece a uma série de leis simples derivadas do comportamento humano. Uma delas, chamada "Lei de Say", é a seguinte: "Produtos e serviços são trocados por produtos e serviços." Sua ideia é que nações e indivíduos se beneficiam de um aumento no nível de produção porque oferece maiores oportunidades para trocas mutuamente benéficas.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Liberdade individual = Harmonia social
+
+---
 
 De fato, produtos são comprados apenas na antecipação dos serviços que o comprador espera: eu compro um disco pela música que vou ouvir, eu compro um ingresso de cinema pelo filme que vou ver. E em uma troca, cada parte decide porque julga que pode derivar mais serviços do que adquire do que o que desiste. Neste contexto, o dinheiro é apenas uma mercadoria intermediária, compensa por um serviço prestado e abre outros serviços.
 
@@ -417,6 +431,14 @@ O protecionismo é, na realidade, uma forma de nacionalismo econômico. Visa eli
 
 ![image](assets/en/058.webp)
 
+---
+
+>Nosso encontro com Arnaud Montebourg  
+>Made in France,  
+>ele acredita nisso, nós testamos
+
+---
+
 O argumento para a proteção do emprego é o que Bastiat chama de falácia. Porque na realidade, é equivalente a um imposto. Tem o efeito de tornar os produtos mais caros. Vamos tomar o exemplo dado pelo próprio Bastiat.
 
 Imagine uma faca inglesa que se vende em nosso país por 2 euros, e uma faca feita na França custa 3. Se deixarmos o consumidor livremente comprar a faca que quer, ele economiza um franco, que pode investir em outro lugar (em um livro, ou um lápis).
@@ -446,6 +468,14 @@ E ele continuaria a analisar seus efeitos perversos a partir de então. Aqui est
 - 3° Bastiat acrescenta que, em sua visão, o protecionismo foi a primeira manifestação dessa desordem. Os capitalistas começaram pedindo a intervenção da lei para aumentar sua parcela de riqueza. Inevitavelmente, os trabalhadores quiseram fazer o mesmo.
 
 ![image](assets/en/063.webp)
+
+---
+
+>PARA TER ÊXITO  
+>VOTE SOCIALISTA SFIO
+
+---
+
 Para concluir, protecionistas e socialistas compartilham um ponto comum, segundo Bastiat: o que eles buscam na lei não é garantir a todos o livre exercício de suas faculdades e a justa recompensa por seus esforços, mas sim favorecer a exploração mais ou menos completa de uma classe de cidadãos por outra. Com o protecionismo, é a minoria que explora a maioria. Com o socialismo, é a maioria que explora a minoria. Em ambos os casos, a justiça é violada e o interesse geral é comprometido. Bastiat os coloca um contra o outro.
 
 > O Estado é a grande ficção através da qual todos se esforçam para viver às custas de todos os outros.

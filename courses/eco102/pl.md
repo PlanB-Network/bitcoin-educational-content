@@ -119,6 +119,18 @@ Kiedy został wybrany na deputowanego, było to w czasach Drugiej Republiki i od
 
 ![image](assets/en/006.webp)
 
+---
+
+>**WARSZTATY NARODOWE**  
+>**PORZĄDEK DZIENNY.**
+>Uwzględniając, że robotnicy wcieleni do Warsztatów Narodowych słusznie zażądali, aby dostępna praca została rozdzielona między nimi w sposób jak najbardziej równy i sprawiedliwy;  
+>Uwzględniając, że istnieje praca tylko dla 16 000 mężczyzn, a liczba wcielonych przekracza 50 000;  
+>Ustalono, że do odwołania i w oczekiwaniu na lepsze rozwiązanie każda kompania będzie pracowała dwa dni w tygodniu, począwszy od poniedziałku 17.  
+>_Komisarz Republiki, Dyrektor Warsztatów Narodowych,_  
+>**Émile THOMAS.**
+
+---
+
 
 Zdał sobie sprawę, że zasadniczo nic się nie zmieniło. Ludzie pozbywali się własności innych poprzez głosowanie i prawo, co nazwał legalną grabieżą. To zjawisko legalnej grabieży było w centrum jego pracy, zwłaszcza w krótkim tekście, który napisał pod koniec życia, "The Law", gdzie przeciwstawia legalną grabież własności, prawu do własności. Pokazuje, że zasadniczo prawdziwym rozwiązaniem problemu społecznego jest wolność, czyli własność, kontrola nad sobą i owocami swojej pracy.
 
@@ -240,6 +252,13 @@ Adam Smith pokazuje, że można służyć własnym interesom tylko poprzez słu�
 
 ![image](assets/en/017.webp)
 
+---
+
+>„Naturalne dążenie każdego człowieka do poprawy własnych warunków... jest tak silne, że samo, bez jakiejkolwiek pomocy, nie tylko potrafi doprowadzić społeczeństwo do bogactwa i dobrobytu, ale również przezwyciężyć setki niepotrzebnych przeszkód, którymi głupota ludzkich praw zbyt często utrudnia jego funkcjonowanie.”  
+>_Bogactwo narodów_  
+>_Księga IV, Rozdział V_
+
+---
 
 Exchange to gra o sumie dodatniej. Co jeden zyskuje, drugi również zyskuje. Różni się zatem od redystrybucji politycznej, w której zawsze jest zwycięzca i przegrany. Jeśli weźmiemy pod uwagę szkołę angielską, dla Smitha, Ricardo, a przed nimi Locke'a, wartość jest powiązana z pracą. Dla Marksa jest tak samo.
 
@@ -259,6 +278,11 @@ Gospodarka podlega kilku prostym prawom wynikającym z ludzkiego zachowania. Jed
 
 ![image](assets/en/019.webp)
 
+---
+
+>Wolność jednostki = Harmonia społeczna
+
+---
 
 W rzeczywistości produkty są kupowane tylko w oczekiwaniu na usługi, których oczekuje kupujący: Kupuję dysk dla muzyki, której będę słuchał, kupuję bilet do kina dla filmu, który zobaczę. W Exchange każda ze stron podejmuje decyzję, ponieważ ocenia, że może uzyskać więcej usług z tego, co nabywa, niż z tego, z czego rezygnuje. W tym kontekście pieniądz jest tylko towarem pośredniczącym, rekompensuje wyświadczoną usługę i otwiera dostęp do innych usług.
 
@@ -551,6 +575,12 @@ Początkowo człowiek jest tylko burżujem. Ale burżuj jest kalkulatorem; chce 
 
 ![image](assets/en/048.webp)
 
+---
+
+>Każdy, kto odmówi posłuszeństwa woli ogólnej, zostanie do tego zmuszony przez całe ciało: co nie oznacza nic innego, jak tylko zmuszenie go do bycia wolnym.  
+>(Jean-Jacques Rousseau)
+
+---
 
 Zgodnie z tą doktryną, człowiek ma w sobie dwie wole: wolę, która dąży do osobistego interesu, wolę burżuja, i wolę, która dąży do ogólnego interesu, wolę obywatela. Nakłanianie ludzi, nawet siłą, do dążenia do racjonalnego celu, jakim jest interes ogólny, prowadzi do tego, że ludzie stają się wolni. To, czego naprawdę chcą, jest racjonalnym celem, nawet jeśli o tym nie wiedzą.
 
@@ -665,6 +695,13 @@ Protekcjonizm jest w rzeczywistości formą nacjonalizmu gospodarczego. Jego cel
 
 _przykład reklamy promocyjnej blendera wyprodukowanego we Francji_
 
+---
+
+>Nasze spotkanie z Arnaudem Montebourgiem  
+>Made in France,  
+>on w to wierzy, my to przetestowaliśmy
+
+---
 
 Argument za ochroną miejsc pracy jest tym, co Bastiat nazywa błędem. Ponieważ w rzeczywistości jest to równoznaczne z podatkiem. Jego skutkiem jest wzrost cen produktów. Weźmy przykład podany przez samego Bastiata.
 
@@ -720,6 +757,13 @@ Później nadal analizował jego przewrotne skutki. Oto jeden z przykładów, pr
 
 
 ![image](assets/en/063.webp)
+
+---
+
+>ABY ODNIEŚĆ SUKCES  
+>GŁOSUJ NA SOCJALISTYCZNĄ SFIO
+
+---
 
 Podsumowując, protekcjoniści i socjaliści mają wspólny punkt, według Bastiata: to, czego szukają w prawie, to nie zapewnienie wszystkim swobodnego korzystania z ich zdolności i sprawiedliwej nagrody za ich wysiłki, ale raczej faworyzowanie mniej lub bardziej całkowitego wyzysku jednej klasy obywateli przez inną. W przypadku protekcjonizmu to mniejszość wyzyskuje większość. W przypadku socjalizmu to większość wyzyskuje mniejszość. W obu przypadkach naruszana jest sprawiedliwość, a interes ogółu jest zagrożony. Bastiat przeciwstawia je sobie nawzajem.
 

@@ -151,6 +151,14 @@ Mitä Adam Smith osoittaa, on että voi palvella omaa etuaan vain palvelemalla m
 
 ![image](assets/en/017.webp)
 
+---
+
+>„Jokaisen yksilön luonnollinen pyrkimys parantaa omaa tilaansa... on niin voimakas, että se yksin, ilman minkäänlaista apua, pystyy paitsi viemään yhteiskunnan varallisuuteen ja vaurauteen, myös voittamaan sata turhaa estettä, joilla inhimillisten lakien typeryys usein haittaa sen toimintaa.“  
+>_Kansojen varallisuus_  
+>_Kirja IV, Luku V_
+
+---
+
 Vaihto on positiivinen summapeli. Mitä toinen voittaa, toinenkin voittaa. Se eroaa näin poliittisesta uudelleenjaosta, jossa on aina voittaja ja häviäjä. Jos tarkastelemme englantilaista koulukuntaa, Smithille, Ricardolle ja heitä ennen Lockelle, arvo liittyy työhön. Marxille se on sama.
 
 ![image](assets/en/018.webp)
@@ -163,6 +171,12 @@ Mutta Bastiat myös tarkensi Sayn näkemystä tässä asiassa. Kyse ei ole asioi
 Talous noudattaa joukkoa yksinkertaisia lakeja, jotka juontuvat ihmiskäyttäytymisestä. Yksi niistä, kutsuttu "Sayn laki", kuuluu seuraavasti: "Tuotteet ja palvelut vaihdetaan tuotteisiin ja palveluihin." Hänen ideansa on, että kansakunnat ja yksilöt hyötyvät tuotannon tason kasvusta, koska se tarjoaa lisääntyneitä mahdollisuuksia molemminpuolisesti hyödyllisiin vaihtoihin.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Yksilönvapaus = Sosiaalinen harmonia
+
+---
 
 Todellakin, tuotteita ostetaan vain odotuksessa palveluista, joita ostaja odottaa: Ostan levyn kuunnellakseni sen musiikkia, ostan elokuvalipun nähdäkseni elokuvan. Ja vaihdossa kumpikin osapuoli päättää, koska se katsoo, että se voi saada enemmän palveluksia siitä, mitä se hankkii, kuin mitä se luopuu. Tässä kontekstissa raha on vain välituote, se korvaa suoritetun palveluksen ja avaa muita palveluksia.
 
@@ -344,6 +358,13 @@ Alun perin ihminen on vain porvari. Mutta porvari on laskelmoija; hän haluaa v�
 > Kuka tahansa, joka kieltäytyy tottelemasta yleistä tahtoa, pakotetaan koko yhteisön toimesta: tämä tarkoittaa muuta kuin että heidät pakotetaan olemaan vapaita.
 
 ![image](assets/en/048.webp)
+
+---
+
+>Jokainen, joka kieltäytyy tottelemasta yleistä tahtoa, pakotetaan siihen koko yhteisön toimesta: mikä ei tarkoita muuta kuin että hänet pakotetaan olemaan vapaa.  
+>(Jean-Jacques Rousseau)
+
+---
 
 Tämän opin mukaan ihmisellä on sisällään kaksi tahtoa: tahto, joka pyrkii henkilökohtaiseen etuun, porvarin tahto, ja tahto, joka pyrkii yleiseen etuun, kansalaisen tahto. Johtamaan ihmisiä, vaikka väkisin, haluamaan rationaalista päämäärää, yleistä etua, on johtamista ihmisiä tulemaan vapaiksi. Mitä he todella haluavat, on rationaalinen päämäärä, vaikka he eivät sitä tiedä.
 Rousseau'n mukaan on siis täysin oikeutettua pakottaa ihmisiä nimissä päämäärän, jonka he itse, jos olisivat olleet valistuneempia, olisivat tavoitelleet, mutta jota he eivät tavoittele, koska ovat sokeita, tietämättömiä tai korruptoituneita. Yhteiskunta on perustettu pakottamaan heidät tekemään sen, mitä heidän spontaanisti pitäisi haluta, jos he olisivat valistuneita. Ja näin tehdessään ei tehdä heille väkivaltaa, koska johdatetaan heidät olemaan "vapaita", eli tekemään oikeita valintoja, valintoja, jotka ovat linjassa heidän todellisen minänsä kanssa.

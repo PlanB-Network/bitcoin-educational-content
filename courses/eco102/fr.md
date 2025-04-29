@@ -184,6 +184,14 @@ Ce que montre Adam Smith, c’est qu’on ne peut servir son propre intérêt qu
 
 ![image](assets/en/017.webp)
 
+---
+
+>« L'effort naturel de chaque individu pour améliorer sa propre condition... est si puissant qu’il est, à lui seul et sans aucune aide, non seulement capable de conduire la société vers la richesse et la prospérité, mais aussi de surmonter une centaine d'obstacles importuns que la folie des lois humaines entrave trop souvent dans son fonctionnement. »  
+>_La Richesse des Nations_  
+>_Livre IV, Chapitre V_
+
+---
+
 L’échange est un jeu à somme positive. Ce que l’un gagne, l’autre le gagne aussi. Il se distingue ainsi de la redistribution politique où il y a toujours un gagnant et un perdant. Si l’on considère l’école anglaise, pour Smith, pour Ricardo et pour Locke avant eux, la valeur est liée au travail. Pour Marx il en va de même.
 
 ![image](assets/en/018.webp)
@@ -196,6 +204,12 @@ Mais Bastiat va également nuancer Say sur ce point. Il ne s'agit pas de l'utili
 L’économie obéit à un certain nombre de lois simples tirées du comportement humain. L’une d’elles, appelée « loi de Say », est la suivante : « Les produits et les services s’échangent contre des produits et des services ». Son idée c’est que les nations et les personnes profitent de la hausse du niveau de production car elle offre des possibilités accrues d’échanges mutuellement bénéfiques.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Liberté individuelle = Harmonie sociale
+
+---
 
 En effet, les produits ne sont achetés qu’en vue des services qu’en escompte l’acheteur : j’achète un disque pour la musique que j’écouterai, j’achète un ticket de cinéma pour le film que j’irai voir. Et dans un échange, chaque partie se décide parce qu’elle juge pouvoir tirer, de ce qu’elle acquiert, plus de services que ce qu’elle cède. Dans ce cadre, la monnaie n’est qu’une marchandise intermédiaire, elle rémunère un service rendu et ouvre sur d’autres services.
 

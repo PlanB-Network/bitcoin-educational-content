@@ -142,6 +142,14 @@ Adam Smith ukazuje, že sloužit vlastnímu zájmu může člověk pouze tím, �
 
 ![image](assets/en/017.webp)
 
+---
+
+>„Přirozené úsilí každého jednotlivce o zlepšení vlastních podmínek... je natolik silné, že samo, bez jakékoli pomoci, je nejen schopné dovést společnost k bohatství a prosperitě, ale také překonat stovky nepříhodných překážek, jimiž její činnost často zatěžuje pošetilost lidských zákonů.“  
+>_Bohatství národů_  
+>_Kniha IV, Kapitola V_
+
+---
+
 Výměna je hra s kladným součtem. Co jeden získá, získá i druhý. Líší se tedy od politického přerozdělování, kde je vždy vítěz a poražený. Pokud uvažujeme o anglické škole, pro Smitha, pro Ricarda a pro Locka před nimi, je hodnota spojena s prací. Pro Marxe je to stejné.
 
 ![image](assets/en/018.webp)
@@ -155,6 +163,12 @@ Ekonomie se řídí několika jednoduchými zákony odvozenými z lidského chov
 
 ![image](assets/en/019.webp)
 
+---
+
+>Individuální svoboda = Sociální harmonie
+
+---
+
 Skutečně, produkty se kupují v očekávání služeb, které si kupující slibuje: Kupuji disk kvůli hudbě, kterou si poslechnu, kupuji vstupenku do kina kvůli filmu, který uvidím. A při výměně každá strana rozhoduje, protože soudí, že z toho, co získá, může odvodit více služeb, než co vzdá. V tomto kontextu je peníze jen prostředníkem, kompenzují za poskytnutou službu a otevírají další služby.
 
 Pro Bastiata ekonomika výměn, tj. vzájemných služeb svobodně nabízených a přijímaných, je tím, co podporuje mír a prosperitu, umožňuje harmonii zájmů.
@@ -162,8 +176,10 @@ Pro Bastiata ekonomika výměn, tj. vzájemných služeb svobodně nabízených 
 Ale od Jean-Baptiste Saya, Frédéric Bastiat také zdědil klíčový koncept, ten o loupeži. Neboť, jak říká, ozvěnou slov Saya:
 
 > Existují pouze dva způsoby, jak získat věci nezbytné pro zachování, zkrášlení a zlepšení života: produkce a loupež.
-> Výrobci se uchylují k přesvědčování, vyjednávání a smlouvám, zatímco lupiči využívají sílu a podvod. Proto je na zákonu, aby potlačil loupení a zajistil ochranu práce i majetku. Jak již Adam Smith uvedl, zajištění bezpečnosti občanů je hlavním posláním veřejné autority a právě to legitimizuje vybírání daní.
-> ![image](assets/en/020.webp)
+
+Výrobci se uchylují k přesvědčování, vyjednávání a smlouvám, zatímco lupiči využívají sílu a podvod. Proto je na zákonu, aby potlačil loupení a zajistil ochranu práce i majetku. Jak již Adam Smith uvedl, zajištění bezpečnosti občanů je hlavním posláním veřejné autority a právě to legitimizuje vybírání daní.
+
+![image](assets/en/020.webp)
 
 ## Antoine Destutt de Tracy
 
@@ -325,6 +341,13 @@ Původně je člověk pouze měšťanem. Ale měšťan je kalkulátor; chce své
 
 ![image](assets/en/048.webp)
 
+---
+
+>Kdokoli odmítne uposlechnout obecnou vůli, bude k tomu donucen celým tělem: což neznamená nic jiného, než že bude donucen být svobodný.  
+>(Jean-Jacques Rousseau)
+
+---
+
 Podle této doktríny má člověk v sobě dvě vůle: vůli směřující k osobnímu zájmu, toho měšťana, a vůli směřující k obecnému zájmu, toho občana. Vést lidi, i násilím, k chtění racionálního cíle, obecného zájmu, znamená vést lidi k tomu, aby se stali svobodnými. To, co ve skutečnosti chtějí, je racionální cíl, i když to nevědí.
 Je tedy podle Rousseaua zcela legitimní omezovat lidi ve jménu cíle, který by si sami, kdyby byli více osvíceni, vytyčili, ale který nesledují, protože jsou slepí, nevědomí nebo zk corruptní. Společnost je založena, aby je donutila dělat to, co by měli spontánně chtít, kdyby byli osvíceni. A tímto jednáním jim není činěno násilí, protože jsou vedeni k tomu, aby byli "svobodní", to znamená, aby dělali správná rozhodnutí, rozhodnutí, která jsou v souladu s jejich pravým já.
 ![image](assets/en/049.webp)
@@ -426,6 +449,14 @@ A nadále by analyzoval jeho zvrácené účinky. Zde je jeden příklad, citova
 - 3° Bastiat dodává, že podle jeho názoru byl protekcionismus prvním projevem tohoto nepořádku. Kapitalisté začali požadovat zásah zákona, aby zvýšili svůj podíl na bohatství. Nevyhnutelně, dělníci chtěli udělat totéž.
 
 ![image](assets/en/063.webp)
+
+---
+
+>PRO ÚSPĚCH  
+>HLAŇTE PRO SOCIALISTICKOU SFIO
+
+---
+
 Závěrem, protekcionisté a socialisté mají podle Bastiata společný bod: to, co hledají od zákona, není zajistit každému svobodné uplatnění jeho schopností a spravedlivou odměnu za jeho úsilí, ale spíše upřednostnit více či méně úplné využívání jedné třídy občanů druhou. S protekcionismem je to menšina, která využívá většinu. Se socialismem je to většina, která využívá menšinu. V obou případech je porušena spravedlnost a ohrožen veřejný zájem. Bastiat je staví proti sobě.
 
 > Stát je velká fikce, díky které se každý snaží žít na úkor všech ostatních.

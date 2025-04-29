@@ -151,6 +151,15 @@ Lo que Adam Smith muestra es que solo se puede servir al propio interés sirvien
 
 ![image](assets/en/017.webp)
 
+---
+
+>« El esfuerzo natural de cada individuo por mejorar su propia condición... es tan poderoso que, por sí solo y sin ninguna ayuda, no solo es capaz de llevar a la sociedad hacia la riqueza y la prosperidad, sino también de superar un centenar de obstáculos impertinentes con los que la insensatez de las leyes humanas a menudo entorpece sus operaciones. »  
+>_La riqueza de las naciones_  
+>_Libro IV, Capítulo V_
+
+---
+
+
 El intercambio es un juego de suma positiva. Lo que uno gana, el otro también gana. Por lo tanto, difiere de la redistribución política donde siempre hay un ganador y un perdedor. Si consideramos la escuela inglesa, para Smith, para Ricardo y para Locke antes que ellos, el valor está vinculado al trabajo. Para Marx, es lo mismo.
 
 ![image](assets/en/018.webp)
@@ -163,6 +172,12 @@ Pero Bastiat también matizó a Say en este punto. No se trata de la utilidad qu
 La economía obedece a una serie de leyes simples derivadas del comportamiento humano. Una de ellas, llamada "Ley de Say", es la siguiente: "Los productos y servicios se intercambian por productos y servicios." Su idea es que las naciones e individuos se benefician de un aumento en el nivel de producción porque ofrece mayores oportunidades para intercambios mutuamente beneficiosos.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Libertad individual = Armonía social
+
+---
 
 De hecho, los productos solo se compran en anticipación de los servicios que el comprador espera: compro un disco por la música que escucharé, compro una entrada de cine por la película que veré. Y en un intercambio, cada parte decide porque juzga que puede derivar más servicios de lo que adquiere que de lo que renuncia. En este contexto, el dinero es solo una mercancía intermediaria, compensa por un servicio prestado y abre otros servicios.
 
@@ -345,6 +360,13 @@ Inicialmente, el hombre es meramente un burgués. Pero el burgués es un calcula
 
 ![image](assets/en/048.webp)
 
+---
+
+>Quien se niegue a obedecer la voluntad general será obligado a hacerlo por todo el cuerpo: lo que no significa otra cosa que obligarlo a ser libre.  
+>(Jean-Jacques Rousseau)
+
+---
+
 Según esta doctrina, el hombre tiene dos voluntades dentro de él: una voluntad que tiende hacia el interés personal, la del burgués, y una voluntad que tiende hacia el interés general, la del ciudadano. Llevar a los hombres, incluso por la fuerza, a querer un fin racional, el interés general, es llevar a los hombres a ser libres. Lo que realmente quieren es un fin racional, aunque no lo sepan.
 Por lo tanto, es perfectamente legítimo, según Rousseau, constreñir a los hombres en nombre de un fin que ellos mismos, si hubieran sido más ilustrados, habrían perseguido, pero que no persiguen porque están ciegos, ignorantes o corruptos. La sociedad se funda para obligarlos a hacer lo que deberían desear espontáneamente si estuvieran ilustrados. Y al hacerlo, no se les hace violencia ya que se les lleva a ser "libres", es decir, a tomar las decisiones correctas, decisiones que están en línea con su verdadero ser.
 ![image](assets/en/049.webp)
@@ -417,6 +439,14 @@ El proteccionismo es, en realidad, una forma de nacionalismo económico. Su obje
 
 ![image](assets/en/058.webp)
 
+---
+
+>Nuestro encuentro con Arnaud Montebourg  
+>Hecho en Francia,  
+>él cree en ello, nosotros lo probamos
+
+---
+
 El argumento de la protección del empleo es lo que Bastiat llama una falacia. Porque en realidad, es equivalente a un impuesto. Tiene el efecto de encarecer los productos. Tomemos el ejemplo dado por el propio Bastiat.
 
 Imagina un cuchillo inglés que se vende en nuestro país por 2 euros, y un cuchillo hecho en Francia cuesta 3. Si dejamos al consumidor comprar libremente el cuchillo que quiere, ahorra un franco, que puede invertir en otra parte (en un libro, o un lápiz).
@@ -446,6 +476,14 @@ Y continuaría analizando sus efectos perversos a partir de entonces. Aquí hay 
 - 3° Bastiat añade que, en su opinión, el proteccionismo fue la primera manifestación de este desorden. Los capitalistas comenzaron pidiendo la intervención de la ley para aumentar su parte de la riqueza. Inevitablemente, los trabajadores quisieron hacer lo mismo.
 
 ![image](assets/en/063.webp)
+
+---
+
+>PARA TRIUNFAR  
+>VOTA SOCIALISTA SFIO
+
+---
+
 Para concluir, los proteccionistas y los socialistas comparten un punto común, según Bastiat: lo que buscan de la ley no es asegurar a todos el libre ejercicio de sus facultades y la justa recompensa por sus esfuerzos, sino más bien favorecer la explotación más o menos completa de una clase de ciudadanos por otra. Con el proteccionismo, es la minoría la que explota a la mayoría. Con el socialismo, es la mayoría la que explota a la minoría. En ambos casos, se viola la justicia y se compromete el interés general. Bastiat los enfrenta entre sí.
 
 > El Estado es la gran ficción a través de la cual todos se esfuerzan por vivir a expensas de todos los demás.

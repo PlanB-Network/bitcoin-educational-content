@@ -301,6 +301,13 @@ Inizialmente, l'uomo è semplicemente un borghese. Ma il borghese è un calcolat
 
 ![image](assets/en/048.webp)
 
+---
+
+>Chiunque si rifiuterà di obbedire alla volontà generale sarà costretto da tutto il corpo: il che non significa altro se non che sarà costretto a essere libero.  
+>(Jean-Jacques Rousseau)
+
+---
+
 Secondo questa dottrina, l'uomo ha due volontà dentro di sé: una volontà che tende verso l'interesse personale, quella del borghese, e una volontà che tende verso l'interesse generale, quella del cittadino. Condurre gli uomini, anche con la forza, a volere un fine razionale, l'interesse generale, è condurli a diventare liberi. Quello che veramente vogliono è un fine razionale, anche se non lo sanno.
 È quindi perfettamente legittimo, secondo Rousseau, costringere gli uomini in nome di un fine che essi stessi, se fossero stati più illuminati, avrebbero perseguito, ma che non perseguono perché sono ciechi, ignoranti o corrotti. La società è fondata per costringerli a fare ciò che dovrebbero desiderare spontaneamente se fossero illuminati. E facendo ciò, non si fa violenza a loro poiché li si porta ad essere "liberi", cioè a fare le scelte giuste, scelte che sono in linea con il loro vero sé.
 

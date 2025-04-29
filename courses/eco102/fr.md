@@ -83,6 +83,18 @@ Quand il a été élu député, c'était donc la Seconde République et désorma
 
 ![image](assets/en/006.webp)
 
+---
+
+>**ATELIERS NATIONAUX**  
+>**ORDRE DU JOUR.**
+>Attendu que les travailleurs embrigadés aux Ateliers Nationaux ont demandé, avec justice, que le travail disponible fût réparti entre eux de la manière la plus égale et la plus équitable ;
+>Attendu qu’il n’existe de travaux que pour 16,000 hommes, et que le nombre d’hommes embrigadés dépasse 50,000 ;
+>Il est convenu que jusqu’à nouvel ordre, et en attendant mieux, chaque compagnie, à partir de Lundi 17, travaillera 2 jours par semaine.
+>_Le Commissaire de la République, Directeur des Ateliers Nationaux,_
+>**Émile THOMAS.**
+
+---
+
 Et il s'est rendu compte qu'au fond, rien n'avait vraiment changé. On disposait des biens des autres par le vote, par la loi, ce qu'il a appelé la spoliation légale. Et ce phénomène de la spoliation légale a été au centre de son œuvre et notamment de ce petit texte qu'il a écrit à la fin de sa vie, La loi, où il oppose la spoliation légale et la propriété, le droit de propriété. Et il montre qu'au fond, la véritable solution du problème social, c'est la liberté, c'est-à-dire la propriété, la disposition de soi et du fruit de son travail.
 
 Dans ce cours, nous allons donc voyager ensemble à travers la pensée de Frédéric Bastiat, en partant des influences de ses auteurs qui l'ont formé très tôt dès sa jeunesse, puis nous intéresserons à ses sophismes économiques, et enfin nous terminerons avec ce grand texte qui est La loi et qui nous introduira à l'analyse du marché politique, à l'analyse de la société.

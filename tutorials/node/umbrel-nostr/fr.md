@@ -23,7 +23,7 @@ En résumé, Nostr est un protocole de communication décentralisé où les **cl
 
 ## Applications Umbrel pour Nostr
 
-Umbrel propose un écosystème d'applications intégrées pour profiter pleinement de Nostr sur votre nœud personnel. Nous allons détailler l'utilisation des principales apps liées à Nostr : **Nostr Relay**, **noStrudel**, **Snort** et **Nostr Wallet Connect**. Chacune répond à un besoin spécifique : _Nostr Relay_ est un **serveur relais privé**, _noStrudel_ et _Snort_ sont des **clients Nostr** (interfaces pour lire/publier des notes), tandis que _Nostr Wallet Connect_ est un outil pour relier votre **porte-monnaie Lightning** à Nostr.
+Umbrel propose un écosystème d'applications intégrées pour profiter pleinement de Nostr sur votre nœud personnel. Nous allons détailler l'utilisation des principales apps liées à Nostr : **Nostr Relay**, **noStrudel**, **Snort** et **Nostr Wallet Connect**. Chacune répond à un besoin spécifique : _Nostr Relay_ est un **serveur relais privé**, _noStrudel_ et _Snort_ sont des **clients Nostr** (interfaces pour lire/publier des notes), tandis que _Nostr Wallet Connect_ est un outil pour relier votre **portefeuille Lightning** à Nostr.
 
 ### Nostr Relay – Votre relais privé sur Umbrel
 

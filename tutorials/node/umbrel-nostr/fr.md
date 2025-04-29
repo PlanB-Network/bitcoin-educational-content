@@ -1,6 +1,6 @@
 ---
 name: Intégrer Umbrel dans une utilisation avancée de Nostr
-description: Apprenez à configurer et utiliser les applications Nostr sur Umbrel, incluant noStrudel, Nostr Relay, NWC et Snort, avec des conseils de sécurité pour un usage avancé.
+description: Configurer et utiliser les applications Nostr sur Umbrel
 ---
 
 ![cover](assets/cover.webp)

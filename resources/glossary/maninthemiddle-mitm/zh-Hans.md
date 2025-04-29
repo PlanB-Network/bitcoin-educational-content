@@ -1,5 +1,5 @@
 ---
-term: MAN IN THE MIDDLE (MIDM)
+term: MAN IN THE MIDDLE (中间人)
 
 ---
 一种攻击，恶意行为者秘密地将自己置于通信双方之间，以便截获并可能修改所交换的信息，而任何一方都不会注意到他们的存在。

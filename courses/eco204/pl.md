@@ -497,7 +497,7 @@ Ponieważ, jak pokazuje ten [wątek](https://twitter.com/saifedean/status/167363
 
 
 
-- Przykład Szwecji obwiniającej Beyoncé za inflację w konkretnym miesiącu.
+- Przykład Szwecji obwiniającej Beyoncé za miesięczną inflację.
 
 
 ![image](assets/chapitre-2.2/0.webp)
@@ -560,13 +560,13 @@ Badając rodzaje inflacji, w materiałach edukacyjnych często można natknąć 
 
 
 
-- Ciągnięcie popytu:
+- Inflacja popytowa:
 
 Inflacja popytowa jest często tłumaczona jako sytuacja, w której popyt w gospodarce przewyższa dostępną produkcję. Jednak bez odpowiedniego wzrostu ilości pieniądza, sytuacja ta doprowadzi po prostu do redystrybucji wydatków. Konsumenci mogą wydawać więcej na podstawowe towary, a mniej na inne, neutralizując w ten sposób ogólny efekt inflacyjny.
 
 
 
-- Nacisk na koszty:
+- Inflacja kosztowa:
 
 Z drugiej strony inflacja kosztowa przypisywana jest wzrostowi kosztów produkcji, takich jak koszty zasobów naturalnych lub pracy. Ponownie, bez wzrostu ilosci pieniądza wzrost kosztów w jednym sektorze może po prostu zmniejszyć wydatki w innych, nie powodując powszechnej inflacji.
 
@@ -649,7 +649,7 @@ Dziękuję za uwagę. Następna sesja będzie w całości poświęcona definiowa
 ### Definicje hiperinflacji
 
 
-W tej sekcji zbadamy różne definicje hiperinflacji, kluczowego terminu w badaniu ekstremalnych zjawisk pieniężnych. Najbardziej znana definicja pochodzi od Philipa Cagana, który w swojej pracy "The Monetary Dynamics of Hyperinflation" z 1956 r. zaproponował ilościowe rozumienie hiperinflacji. Według Cagana:
+W tej sekcji przeanalizujemy różne definicje hiperinflacji, kluczowego terminu w badaniu ekstremalnych zjawisk pieniężnych. Najbardziej znana definicja pochodzi od Philipa Cagana, który w swojej pracy „The Monetary Dynamics of Hyperinflation” z 1956 r. zaproponował ilościowe rozumienie hiperinflacji. Według Cagana:
 
 
 
@@ -678,7 +678,7 @@ Należy zauważyć, że definicja ta, choć precyzyjna, może wykluczać niektó
 ### Definicja hiperinflacji według Cagana
 
 
-Philip Cagan mógł ustanowić arbitralny kamień milowy z 50% miesięcznym progiem inflacji przy definiowaniu hiperinflacji. Sam przyznaje, że definicja ta jest arbitralna i służyła przede wszystkim jego analizie opartej na siedmiu epizodach hiperinflacji. Badanie danych Cagana ujawnia, że trzy epizody hiperinflacji z najniższymi miesięcznymi stopami inflacji wynosiły około 47%, 46% i 57%. Wydaje się, że próg 50% został wybrany w celu uwzględnienia tych przypadków w jego badaniu.
+50% miesięczny próg inflacji ustanowiony przez Philipa Cagana do zdefiniowania hiperinflacji można uznać za przypadkowy. Sam przyznaje, że definicja ta jest umowna i służyła przede wszystkim jego analizie opartej na siedmiu epizodach hiperinflacji. Badanie danych Cagana ujawnia, że trzy epizody hiperinflacji z najniższymi miesięcznymi stopami inflacji wynosiły około 47%, 46% i 57%. Wydaje się, że próg 50% został wybrany w celu uwzględnienia tych przypadków w jego badaniu.
 
 
 ![image](assets/chapitre-3.1/4.webp)
@@ -699,7 +699,7 @@ Według Cagana, żaden epizod nie osiągnął progu około 50% bez przejścia do
 
 - Krytyka definicji Cagana:
 
-Inni ekonomiści, tacy jak Bernholz, autor książki Monetary Regime and Inflation, również określili próg 50% jako arbitralny.
+Inni ekonomiści, tacy jak Bernholz, autor książki Monetary Regime and Inflation, również określili próg 50% jako umowny.
 
 Bernholz zauważa, że istnieją epizody wysokiej inflacji o takich samych cechach jakościowych jak epizody hiperinflacji, bez osiągnięcia progu 50%.
 
@@ -707,7 +707,7 @@ Bernholz zauważa, że istnieją epizody wysokiej inflacji o takich samych cecha
 ![image](assets/chapitre-3.1/3.webp)
 
 
-Refleksja ta skłania nas do zakwestionowania sztywności tradycyjnej definicji hiperinflacji i podkreśla potrzebę zrewidowania tego progu poprzez uwzględnienie większej liczby epizodów i danych historycznych. Definicja hiperinflacji może wymagać elastyczności, aby objąć różne przejawy skrajnej inflacji w różnych kontekstach gospodarczych i historycznych.
+Refleksja ta skłania nas do zakwestionowania sztywności tradycyjnej definicji hiperinflacji i podkreśla potrzebę zrewidowania tego progu poprzez uwzględnienie większej liczby epizodów i danych historycznych. Definicja hiperinflacji może wymagać większej elastyczności, aby objąć różne przejawy skrajnej inflacji w różnych kontekstach gospodarczych i historycznych.
 
 
 ### Definicja hiperinflacji według Rady Międzynarodowych Standardów Rachunkowości (IASB)
@@ -715,20 +715,20 @@ Refleksja ta skłania nas do zakwestionowania sztywności tradycyjnej definicji 
 
 Ile jest w sumie przypadków hiperinflacji?
 
-Powszechne definicje hiperinflacji, takie jak ta przedstawiona przez Kagana określająca miesięczną stopę inflacji na poziomie 50%, mogą być czasami mylące lub nadmiernie uproszczone. Na przykład, dwa kraje doświadczające odpowiednio rocznych stóp inflacji na poziomie 1000% i 3000% mogą być postrzegane inaczej w zależności od miesięcznego rozkładu tej inflacji. Jeśli żaden miesiąc nie przekroczy progu 50%, zgodnie z definicją Kagana, kraje te nie będą w stanie hiperinflacji. Takie podejście może zatem prowadzić do anomalii w klasyfikacji hiperinflacji, zwłaszcza przy porównywaniu skumulowanych inflacji w ciągu roku.
+Powszechne definicje hiperinflacji, takie jak ta przedstawiona przez Cagana określająca miesięczną stopę inflacji na poziomie 50%, mogą być czasami mylące lub nadmiernie uproszczone. Na przykład, dwa kraje doświadczające odpowiednio rocznych stóp inflacji na poziomie 1000% i 3000% mogą być postrzegane inaczej w zależności od miesięcznego rozkładu tej inflacji. Jeśli żaden miesiąc nie przekroczy progu 50%, zgodnie z definicją Cagana, kraje te nie będą w stanie hiperinflacji. Takie podejście może zatem prowadzić do anomalii w klasyfikacji hiperinflacji, zwłaszcza przy porównywaniu skumulowanych inflacji w ciągu roku.
 
 
 ![image](assets/chapitre-3.1/7.webp)
 
 
 
-- Praca Kagana "Monetary Dynamics of Hyperinflation", która zawiera fundamentalną analizę hiperinflacji.
+- Praca Cagana „Monetary Dynamics of Hyperinflation”, która zawiera fundamentalną analizę hiperinflacji.
 - Książka Bernolda, która bada 30 różnych okresów hiperinflacji, rozszerzając w ten sposób zakres analizy.
-- Osobista kolekcja banknotów Davida z 36 okresów hiperinflacji pozwala na namacalne i historyczne zrozumienie.
-- Tabela Hanky'ego Crossa (wersja z 2012 r., zaktualizowana w 2016 r. o Wenezuelę), zawierająca 57 okresów hiperinflacji w oparciu o definicję Kagana.
+- Osobista kolekcja banknotów Davida z 36 okresów hiperinflacji pozwala zrozumieć problem w jego namacalnym kontekście historycznym.
+- Tabela Hanky'ego Crossa (wersja z 2012 r., zaktualizowana w 2016 r. o Wenezuelę), zawierająca 57 okresów hiperinflacji w oparciu o definicję Cagana.
 
 
-Należy zauważyć, że niektóre historyczne okresy wysokiej inflacji nie są uwzględniane w klasycznych tabelach hiperinflacji, często ze względu na surowe kryteria klasyfikacji. Na przykład podczas amerykańskiej wojny o niepodległość w listopadzie 1779 r. i podczas amerykańskiej wojny secesyjnej w marcu 1864 r. miesięczne stopy inflacji wyniosły odpowiednio 47,4% i 40%. Wskaźniki te, choć wysokie, nie przekraczają progu 50% określonego przez Kagana, wykluczając tym samym te okresy z klasyfikacji jako przypadki hiperinflacji. To pominięcie ilustruje ograniczenia sztywnych definicji i podkreśla potrzebę bardziej zniuansowanego podejścia do zrozumienia hiperinflacji w całej jej złożoności.
+Należy zauważyć, że niektóre historyczne okresy wysokiej inflacji nie są uwzględniane w klasycznych tabelach hiperinflacji, często ze względu na surowe kryteria klasyfikacji. Na przykład podczas amerykańskiej wojny o niepodległość w listopadzie 1779 r. i podczas amerykańskiej wojny secesyjnej w marcu 1864 r. miesięczne stopy inflacji wyniosły odpowiednio 47,4% i 40%. Wskaźniki te, choć wysokie, nie przekraczają progu 50% określonego przez Cagana, wykluczając tym samym te okresy z klasyfikacji jako przypadki hiperinflacji. To pominięcie ilustruje ograniczenia sztywnych definicji i podkreśla potrzebę bardziej zniuansowanego podejścia do zrozumienia hiperinflacji w całej jej złożoności.
 
 
 ## Podobieństwa między Weimarem a Zimbabwe
@@ -750,13 +750,13 @@ Kilka książek było szczególnie pouczających:
 
 
 
-- "When Money Dies" autorstwa Adama Fergusona śledzi hiperinflację w Niemczech po I wojnie światowej, a także w Austrii i na Węgrzech.
-- Dwie książki o hiperinflacji w Zimbabwe, "Zimbabwe Warm Heart Ugly Face" i "Hard Boiled Egg Index" autorstwa odpowiednio Jérôme'a Gardnera i Kudzai Josepha Gou Min-Yu, zawierają przejmujące świadectwa dyrektora generalnego sieci sklepów odzieżowych i bankiera rolnego na temat ich doświadczeń w tym burzliwym okresie.
+- „When Money Dies” autorstwa Adama Fergusona śledzi hiperinflację w Niemczech po I wojnie światowej, a także w Austrii i na Węgrzech.
+- Dwie książki o hiperinflacji w Zimbabwe, „Zimbabwe Warm Heart Ugly Face” autorstwa Jérôme'a Gardnera i „Hard Boiled Egg Index” autorstwa Kudzai Josepha Gou Min-Yu, zawierają przejmujące świadectwa dyrektora generalnego sieci sklepów odzieżowych oraz bankiera rolnego na temat ich doświadczeń w tym burzliwym okresie.
 
 ![image](assets/chapitre-3.2/1.webp)
 
 
-Podczas konsolidacji moich notatek zauważyłem liczne podobieństwa między doświadczeniami hiperinflacji w Zimbabwe i Republice Weimarskiej, pomimo 90-letniej różnicy między nimi. Zidentyfikowałem około 17 podobieństw, z czego 13 ilustruje swego rodzaju progresję w kierunku katastrofy gospodarczej przedstawionej w tych świadectwach. Te fascynujące podobieństwa pokazują powtarzalną i niszczycielską naturę hiperinflacji w czasie i poza granicami. Dzisiaj przeanalizujemy te podobieństwa i sposób, w jaki przedstawiają one niepokojącą trajektorię w okresach hiperinflacji.
+Podczas porównywania moich notatek zauważyłem liczne podobieństwa między doświadczeniami hiperinflacji w Zimbabwe i Republice Weimarskiej, pomimo 90-letniej przerwy między nimi. Zidentyfikowałem około 17 podobieństw, z czego 13 ilustruje swego rodzaju progresję w kierunku katastrofy gospodarczej przedstawionej w tych świadectwach. Te fascynujące podobieństwa pokazują powtarzalną i niszczycielską naturę hiperinflacji nie liczącej się z upływem czasu i granicami państw. Dzisiaj przeanalizujemy te podobieństwa i sposób, w jaki przedstawiają one niepokojącą trajektorię okresów hiperinflacji.
 
 
 ### Analiza porównawcza: Zimbabwe i Republika Weimarska
@@ -768,30 +768,30 @@ Gra 14 różnic!
 1. Niedobór waluty
 
 
-Gdy waluta traci na wartości w zawrotnym tempie, nawet najbardziej ambitne próby zalania rynku nowymi banknotami mogą okazać się niewystarczające. Nieustanny popyt na namacalną walutę może znacznie przewyższyć zdolność banków centralnych do produkcji banknotów, powodując bezprecedensowe kryzysy płynności.
+Gdy waluta traci na wartości w zawrotnym tempie, nawet najbardziej ambitne próby zalania rynku nowymi banknotami mogą okazać się niewystarczające. Nieustanny popyt na fizyczną walutę może znacznie przewyższyć zdolność banków centralnych do produkcji banknotów, powodując bezprecedensowe kryzysy płynności.
 
 
-> Weimar: "W ciągu tego miesiąca zostanie on zwiększony do prawie 4 miliardów marek papierowych, dzięki czemu mamy nadzieję, że niedobór waluty zostanie ostatecznie przezwyciężony"
+> Weimar: „W ciągu tego miesiąca ilośc waluty zostanie zwiększona do prawie 4 miliardów marek papierowych, dzięki czemu, mamy nadzieję, niedobór waluty zostanie ostatecznie przezwyciężony”
 
-> Zimbabwe: "Od 2002 r. do stycznia 2009 r. wystąpiło kilka krytycznych niedoborów płynności. Po prostu nie było wystarczającej liczby banknotów wydrukowanych lub znajdujących się w obiegu, aby nadążyć za gwałtownie rosnącą inflacją"
+> Zimbabwe: „Od 2002 r. do stycznia 2009 r. wystąpiło kilka krytycznych niedoborów płynności. Po prostu nie było wystarczającej liczby banknotów wydrukowanych lub znajdujących się w obiegu, aby nadążyć za gwałtownie rosnącą inflacją”
 
-2. "I to jest nawóz!"
+2. „I to jest nawóz!”
 
 
 Szybkość, z jaką waluta może stracić na wartości w pewnych sytuacjach gospodarczych, jest zdumiewająca. Astronomiczne ilości banknotów mogą zostać wyemitowane w rekordowym czasie, natychmiast przekształcając niegdyś znaczne sumy w coś tak nieznaczącego jak obornik.
 
 
-> Weimar: "Obecna łączna emisja wynosi 63 000 miliardów. W ciągu kilku dni będziemy zatem w stanie wyemitować dwie trzecie całkowitego nakładu w ciągu jednego dnia"
+> Weimar: „Obecna łączna emisja wynosi 63 000 miliardów. W ciągu kilku dni będziemy zatem w stanie wyemitować dwie trzecie całkowitego nakładu w ciągu jednego dnia”
 
-> Zimbabwe: "17 września 2006 r. gubernator RBZ, Gideon Gono, oświadczył: '10 bilionów wciąż tam jest i stało się gnojem'"
+> Zimbabwe: „17 września 2006 r. gubernator RBZ, Gideon Gono, oświadczył: '10 bilionów wciąż tam jest i stało się gnojówką'”
 
 3. Banknoty warte mniej niż papier, na którym zostały wydrukowane
 
 W pewnych okolicznościach gospodarczych wartość wewnętrzna banknotu może stać się niższa niż wartość papieru, na którym został wydrukowany. Ta drastyczna deprecjacja sprawia, że banknoty, które normalnie są symbolem wartości i siły nabywczej, stają się zwykłymi kawałkami bezwartościowego papieru.
 
-> Weimar: "Całe nominały banknotów były prawie bezwartościowe, gdy tylko wyszły spod prasy drukarskiej"
+> Weimar: „Całe nominały banknotów były prawie bezwartościowe, gdy tylko wyszły spod prasy drukarskiej”
 
-> Zimbabwe: "Bank centralny zmarnował pieniądze, drukując banknot, który nie był wart papieru, na którym został wydrukowany. Innymi słowy, jego wartość była niższa niż papieru toaletowego. Choć może to zabrzmieć absurdalnie, taniej było użyć banknotu o wartości 100 bilionów ZWD jako papieru toaletowego niż kupić prawdziwy papier toaletowy"
+> Zimbabwe: „Bank centralny zmarnował pieniądze, drukując banknot, który nie był wart papieru, na którym został wydrukowany. Innymi słowy, jego wartość była niższa niż papieru toaletowego. Choć może to zabrzmieć absurdalnie, taniej było użyć banknotu o wartości 100 bilionów ZWD jako papieru toaletowego niż kupić prawdziwy papier toaletowy”
 
 ![image](assets/chapitre-3.2/PN3.webp)
 
@@ -799,12 +799,12 @@ W pewnych okolicznościach gospodarczych wartość wewnętrzna banknotu może st
 4. Liczenie pieniędzy
 
 
-Gdy waluta gwałtownie traci na wartości, nawet najprostsze transakcje mogą stać się pracochłonnymi zadaniami. Obliczenie ceny przedmiotu lub po prostu policzenie banknotów potrzebnych do zapłaty może zająć kilka minut, dodając Layer złożoności do codziennych interakcji.
+Gdy waluta gwałtownie traci na wartości, nawet najprostsze transakcje mogą stać się pracochłonnymi zadaniami. Obliczenie ceny przedmiotu lub po prostu policzenie banknotów potrzebnych do zapłaty może zająć kilka minut, dodając codziennym interakcjom kolejnej warstwy komplikacji.
 
 
-> Weimar: "Najzwyklejszy zakup w sklepie wymagał trzech lub czterech minut obliczeń, a po ustaleniu ceny zwykle potrzeba było jeszcze kilku minut na policzenie banknotów"
+> Weimar: „Najzwyklejszy zakup w sklepie wymagał trzech lub czterech minut obliczeń, a po ustaleniu ceny zwykle potrzeba było jeszcze kilku minut na policzenie banknotów”
 
-> Zimbabwe: "Kierownicy sklepów mogli również zatrudnić pracownika tymczasowego, który zastępował pracownika liczącego pieniądze przez cały dzień. Oczywiście liczenie pieniędzy w sklepie na potrzeby administracji i wpłaty bankowej to jedno, ale cały proces trzeba było powtórzyć w banku podczas wpłaty"
+> Zimbabwe: „Kierownicy sklepów mogli również zatrudnić pracownika tymczasowego, który zastępował pracownika liczącego pieniądze przez cały dzień. Oczywiście liczenie pieniędzy w sklepie na potrzeby administracji i wpłaty bankowej to jedno, ale cały proces trzeba było powtórzyć w banku podczas wpłaty”
 
 ![video](https://www.youtube.com/watch?v=OMwkb5rpm_w&t=20s)
 
@@ -818,81 +818,83 @@ Technika liczenia pieniędzy z Uzbekistanu
 W zakłóconych gospodarkach tradycyjne metody płatności, takie jak czeki, mogą szybko stracić swoją skuteczność. Banki, przytłoczone rosnącym popytem na walutę z powodu hiperinflacji, mogą racjonować lub opóźniać realizację czeków, zmniejszając w ten sposób ich rzeczywistą wartość. Ta niestabilność często prowadzi do priorytetyzacji metod płatności, w których ceny mogą się różnić w zależności od wybranego sposobu płatności.
 
 
-> Weimar: "Wzrost cen zwiększył popyt na pieniądz, zarówno ze strony państwa, jak i innych pracodawców. Prywatne banki nie mogły w ogóle zaspokoić popytu i musiały racjonować realizację czeków, więc niezrealizowane czeki pozostawały zamrożone, a ich siła nabywcza malała"
-> Zimbabwe: "Wartość pieniądza w czasie stworzyła trzy ceny towarów i usług: cenę gotówki, cenę rozliczenia brutto w czasie rzeczywistym i cenę czeku. Ostatecznie nikt nie akceptował czeków, których realizacja trwała pięć dni" 6. "Burner-preneurs"
+> Weimar: „Wzrost cen zwiększył zapotrzebowanie na pieniądz, zarówno ze strony państwa, jak i innych pracodawców. Prywatne banki nie mogły w ogóle zaspokoić popytu i musiały ograniczać realizację czeków, więc niezrealizowane czeki pozostawały zamrożone, a ich siła nabywcza malała”
+> Zimbabwe: „Wartość pieniądza w czasie stworzyła trzy ceny towarów i usług: cenę gotówki, cenę rozliczenia brutto w czasie rzeczywistym i cenę czeku. Ostatecznie nikt nie akceptował czeków, których realizacja trwała pięć dni”
+>
+> 6. „Spalenio-biorcy”
 
-Wraz ze spadkiem wartości waluty pojawiają się nowe możliwości gospodarcze, wykorzystujące zakłócenia na rynku. Przedsiębiorcy ci, często określani pomysłowymi nazwami, takimi jak "Burner-preneurs", mogą prosperować, pożyczając zdewaluowaną walutę w celu inwestowania w aktywa materialne, a następnie spłacając swoje długi jeszcze bardziej zdewaluowaną walutą.
-
-
-Weimar: "Spekulacje na temat inflacji polegały na pożyczaniu papierowych marek, przekształcaniu ich w towary i fabryki, a następnie spłacaniu pożyczkodawców zdeprecjonowanym papierem"
-
-
-Zimbabwe: "Spalacze-preneurs"
+Wraz ze spadkiem wartości waluty pojawiają się nowe możliwości gospodarcze, wykorzystujące zakłócenia na rynku. Przedsiębiorcy wykorzystujący taką sytuację, często określani pomysłowymi nazwami, takimi jak „Spalenio-biorcy”, zarabiają, pożyczając zdewaluowaną walutę w celu inwestowania w aktywa materialne, a następnie spłacając swoje długi jeszcze bardziej zdewaluowaną walutą.
 
 
-7. Uczciwość i praca Hard tracą na atrakcyjności
+Weimar: „Spekulacje na temat inflacji polegały na pożyczaniu papierowych marek, przekształcaniu ich w towary i fabryki, a następnie spłacaniu pożyczkodawców zdeprecjonowanym papierem”
 
 
-W niestabilnym kontekście ekonomicznym tradycyjne wartości pracy, gospodarności i uczciwości mogą zostać przyćmione przez pokusę szybkiego wzbogacenia się. Spekulacje i handel walutami często oferują znacznie wyższe nagrody niż zwykła praca, powodując zakłócenie priorytetów społecznych.
+Zimbabwe: „Spalenio-biorcy”
 
 
-Weimar: "Gdy stare cnoty oszczędności, uczciwości i pracy Hard straciły na atrakcyjności, wszyscy starali się szybko wzbogacić, zwłaszcza że spekulacje walutowe lub giełdowe mogły przynieść znacznie więcej niż praca"
+7. Uczciwość i ciężka praca tracą na atrakcyjności
 
 
-Zimbabwe: "Praktyki te, choć wzbogaciły kilka osób, zubożyły miejską klasę robotniczą i ludność wiejską. Edukacja straciła na wartości, ponieważ handel ten był napędzany przez ludzi, którzy nie potrzebowali wykształcenia ani pracy Hard, aby to uzasadnić. Wszystko, czego potrzebowali, to koneksje i kapitał początkowy, aby rozpocząć swój łatwy biznes"
+W niestabilnym kontekście ekonomicznym tradycyjne wartości pracy, gospodarności i uczciwości mogą zostać przyćmione przez pokusę szybkiego wzbogacenia się. Spekulacje i handel walutami często oferują znacznie wyższe zyski niż zwykła praca, powodując zakłócenie priorytetów społecznych.
+
+
+Weimar: „Gdy stare cnoty oszczędności, uczciwości i ciężkiej pracy straciły na atrakcyjności, wszyscy starali się szybko wzbogacić, zwłaszcza że spekulacje walutowe lub giełdowe mogły przynieść znacznie więcej niż praca”
+
+
+Zimbabwe: „Praktyki te, choć wzbogaciły kilka osób, zubożyły miejską klasę robotniczą i ludność wiejską. Edukacja straciła na wartości, ponieważ ten typ handlu był napędzany przez ludzi, którzy nie potrzebowali wykształcenia ani ciężkiej pracy, żeby sie w niego angażować. Wszystko, czego potrzebowali, to znajomości i kapitał początkowy, aby rozpocząć swój łatwy biznes”
 
 
 ![image](assets/chapitre-3.2/5.webp)
 
 
-8. "Banki światowe"
+8. „Banki światowe”
 
 
-W sytuacjach hiperinflacji lub kryzysu monetarnego, równoległe i nieuregulowane rynki walut obcych mają tendencję do mnożenia się. Te nieformalne "banki", często humorystycznie nazywane "bankami światowymi" lub innymi lokalnymi nazwami, stanowią schronienie dla tych, którzy chcą chronić swoje aktywa przed dewaluacją. Chociaż rynki te mogą zapewnić niezbędną ekonomiczną linię życia, często podkreślają powszechną nieufność wobec oficjalnych instytucji finansowych i polityki rządu.
+W sytuacjach hiperinflacji lub kryzysu monetarnego, równoległe i nieuregulowane rynki walut obcych mają tendencję do mnożenia się. Te nieformalne „banki”, często humorystycznie określane „bankami światowymi” lub innymi lokalnymi nazwami, stanowią schronienie dla tych, którzy chcą chronić swoje aktywa przed dewaluacją. Chociaż rynki te mogą zapewnić niezbędną ekonomiczną linię życia, często podkreślają powszechną nieufność wobec oficjalnych instytucji finansowych i polityki rządu.
 
-Weimar: "Ich transakcje były przeprowadzane głównie za pośrednictwem tak zwanych Winkelbankierów, operatorów ulicznych, którzy pojawili się wraz z inflacją i którzy, prosperując w chorej gospodarce, żyli całkowicie wykorzystując różnicę między cenami kupna i sprzedaży walut obcych"
+Weimar: „Ich transakcje były przeprowadzane głównie za pośrednictwem tak zwanych Winkelbankierów, operatorów ulicznych, którzy pojawili się wraz z inflacją i którzy, prosperując w chorej gospodarce, żyli wykorzystując różnicę między cenami kupna i sprzedaży walut obcych”
 
-Zimbabwe: "Zajmowali się również wymianą walut. Działali bezkarnie między 2. i 6. aleją a Fort Street w Bulawayo, dzięki swoim sprytnym umiejętnościom biznesowym obejmującym korupcję i inne praktyki. Ten obszar miasta był znany jako "Bank Światowy""
+Zimbabwe: „Zajmowali się również wymianą walut. Działali bezkarnie między 2. i 6. aleją a Fort Street w Bulawayo, dzięki swoim sprytnym umiejętnościom biznesowym obejmującym korupcję i inne praktyki. Ten obszar miasta był znany jako „Bank Światowy””
 
-Argentyna: "Poszedłem więc tam, gdzie chodzą wszyscy Argentyńczycy: do jaskiń, które znajdują się w dzielnicy Florida w samym sercu Buenos Aires" - TheBigWhale
-
-
-9. Waluta Exchange była nielegalna
+Argentyna: „Poszedłem więc tam, gdzie chodzą wszyscy Argentyńczycy: do jaskiń, które znajdują się w dzielnicy Florida w samym sercu Buenos Aires” - TheBigWhale
 
 
-Rządy, starając się ustabilizować własną walutę i kontrolować przepływ kapitału, mogą uczynić te transakcje walutowe nielegalnymi. Te represyjne środki, choć mają na celu ochronę krajowej gospodarki, często mogą mieć odwrotny skutek, pogłębiając nieufność społeczną i zachęcając do czarnego rynku.
+9. Wymiana walut była nielegalna
 
 
-Weimar: "Ludzie uciekali się do handlu wymiennego i stopniowo zwracali się ku obcym walutom jako jedynym niezawodnym środkom Exchange. Wprowadzono nowe dekrety dotyczące zakupu zagranicznych weksli i używania obcych walut do płatności krajowych. Oprócz kary pozbawienia wolności można było teraz nakładać grzywny w wysokości do dziesięciokrotności kwoty nielegalnej transakcji"
+Rządy, starając się ustabilizować własną walutę i kontrolować przepływ kapitału, mogą zdelegalizować wymianę walut. Takie represyjne środki, choć mają na celu ochronę krajowej gospodarki, często mogą mieć odwrotny skutek, pogłębiając nieufność społeczną i zachęcając do zbudowania czarnego rynku.
 
 
-Zimbabwe: "Naloty na firmy doprowadziły do uwięzienia kilku biznesmenów z Bulawayo na weekend i nałożenia grzywien w wysokości dwukrotności odzyskanej waluty obcej, po czym ta odwaga ustąpiła"
+Weimar: „Ludzie uciekali się do handlu wymiennego i stopniowo zwracali się ku obcym walutom jako jedynym niezawodnym środkom wymiany. Wprowadzono nowe dekrety dotyczące zakupu zagranicznych weksli i używania obcych walut do płatności krajowych. Oprócz kary pozbawienia wolności można było teraz nakładać grzywny w wysokości do dziesięciokrotności kwoty nielegalnej transakcji”
+
+
+Zimbabwe: „Naloty na firmy doprowadziły do uwięzienia kilku biznesmenów z Bulawayo na weekend i nałożenia grzywien w wysokości dwukrotności odzyskanej waluty obcej, potem odwaga zmniejszyła się”
 
 
 10. Kontrola kapitału
 
 
-Kiedy kraj staje w obliczu kryzysu walutowego lub gospodarczego, jedną z powszechnych reakcji rządów jest ścisła kontrola nad przepływem i formami kapitału. Czy to poprzez nakazy wymuszające akceptację zdewaluowanych walut krajowych, czy też poprzez surowe sankcje wobec tych, którzy odrzucają określone metody płatności, środki te często mają na celu powstrzymanie paniki i przywrócenie zaufania. Jednak ich skuteczność jest różna, a czasami środki te mogą okazać się przeciwskuteczne lub oderwane od rzeczywistości doświadczanej przez obywateli.
+Kiedy kraj staje w obliczu kryzysu walutowego lub gospodarczego, jedną z powszechnych reakcji rządów jest ścisła kontrola nad przepływem i formami kapitału. Czy to poprzez nakazy wymuszające akceptację zdewaluowanych walut krajowych, czy też poprzez surowe sankcje wobec tych, którzy odrzucają określone metody płatności, środki te często mają na celu powstrzymanie paniki i przywrócenie zaufania. Jednak ich skuteczność jest różna, a czasami środki te mogą przynosić odwrotny skutek lub być oderwane od rzeczywistości doświadczanej przez obywateli.
 
-Weimar: "Kupcy zostali niedawno zmuszeni nowym dekretem do przyjmowania banknotów państwowych; ale ponieważ zezwalał on również na dalsze używanie obcych walut do wszystkich zakupów, kupcy generalnie znajdowali wymówki, by przyjmować prawie nic innego"
+Weimar: „Kupcy zostali niedawno zmuszeni nowym dekretem do przyjmowania banknotów państwowych; ale ponieważ zezwalał on również na dalsze używanie obcych walut do wszystkich zakupów, kupcy generalnie znajdowali wymówki, by nie przyjmować prawie nic innego”
 
 
-Zimbabwe: "W dniu 12 grudnia 2008 r. rząd wprowadził SI 175/2008 dotyczący płatności czekami. Stwierdzał on, że "karą za odmowę płatności czekiem/kartą bankową lub jakąkolwiek inną metodą płatności elektronicznej za pośrednictwem banku będzie grzywna 8 stopnia lub kara pozbawienia wolności na okres sześciu miesięcy lub obie te kary" Oczywiście zignorowaliśmy SI, ponieważ była ona całkowicie oderwana od rzeczywistości"
+Zimbabwe: „W dniu 12 grudnia 2008 r. rząd wprowadził SI 175/2008 dotyczący płatności czekami. Stwierdzał on, że „karą za odmowę przyjęcia płatności czekiem/kartą bankową lub jakąkolwiek inną metodą płatności elektronicznej za pośrednictwem banku będzie grzywna 8 stopnia lub kara pozbawienia wolności na okres sześciu miesięcy lub obie te kary” Oczywiście zignorowaliśmy SI, ponieważ była ona całkowicie oderwana od rzeczywistości”
 
 
 ![image](assets/chapitre-3.2/4.webp)
 
 
-11. Zmuszeni do utrzymywania otwartych sklepów
+11. Zmuszeni do otwierania sklepów
 
 
 Kiedy gospodarka się załamuje, a waluta traci na wartości, rządy mogą uciekać się do drastycznych środków, aby zachować pozory normalności.
 
 
-Weimar: "Kupcy, którzy kontynuowali swoją działalność, podlegali nowemu rozporządzeniu, uchwalonemu 22 października, nakazującemu im pozostawienie otwartych sklepów i oferowanie towarów w Exchange za papierowe marki"
+Weimar: „Kupcy, którzy kontynuowali swoją działalność, podlegali nowemu rozporządzeniu, uchwalonemu 22 października, nakazującemu im otwieranie sklepów i oferowanie towarów w zamian za papierowe marki”
 
 
-Zimbabwe: "Pozostały tylko puste stalowe półki oraz lodówki, chłodziarki i zamrażarki. Tragedia polegała na tym, że sklep był nadal otwarty, ponieważ nie odważono się go zamknąć z powodu napięć politycznych i strachu przed aresztowaniem przywódców przez rządowe siły kontroli cen. Nawet pracownicy nie zostali zwolnieni, ponieważ wszyscy myśleli, że znajdzie się szybkie rozwiązanie"
+Zimbabwe: „Pozostały tylko puste stalowe półki oraz lodówki, chłodziarki i zamrażarki. Tragedia polegała na tym, że sklep był nadal otwarty, ponieważ nie odważono się go zamknąć z powodu napięć politycznych i strachu przed aresztowaniem przywódców przez rządowe siły kontroli cen. Nawet pracownicy nie zostali zwolnieni, ponieważ wszyscy myśleli, że znajdzie się szybkie rozwiązanie”
 
 
 12. Każdy jest przestępcą
@@ -901,17 +903,19 @@ Zimbabwe: "Pozostały tylko puste stalowe półki oraz lodówki, chłodziarki i 
 W obliczu upadającej gospodarki i wszechobecnych regulacji granica między przetrwaniem a przestępczością zaciera się.
 
 
-Weimar: "Wszystkie przestępstwa przeciwko państwu, każde z nich, w różnym stopniu, stały się kwestią przetrwania dla jednostek"
+Weimar: „Wszystkie przestępstwa przeciwko państwu, każde z nich, w różnym stopniu, stały się kwestią przetrwania dla jednostek”
 
 
-Zimbabwe: "Każdy mieszkaniec Zimbabwe był przestępcą. Choć może to zabrzmieć szorstko, była to prawda. Przy niezliczonej liczbie drobnych przepisów regulujących każdy aspekt życia, nieuniknione było, że każdy codziennie łamał jakieś prawo. Posiadanie obcej waluty było nielegalne, zgodnie z SI opublikowanym w 2004 roku. Posiadanie wielu kont bankowych w celu ominięcia dziennego limitu wypłat było nielegalne. Nieposiadanie odpowiednich tablic rejestracyjnych na samochodzie, brak licencji na radio samochodowe lub pozwolenia na generator były prawami, które ktoś, gdzieś, łamał" 13. Kupowanie walut obcych za wszelką cenę
+Zimbabwe: „Każdy mieszkaniec Zimbabwe był przestępcą. Choć może to zabrzmieć brutalnie, była to prawda. Przy niezliczonej liczbie drobnych przepisów regulujących każdy aspekt życia, nieuniknione było, że każdy codziennie łamał jakieś prawo. Posiadanie obcej waluty było nielegalne, zgodnie z SI opublikowanym w 2004 roku. Posiadanie wielu kont bankowych w celu ominięcia dziennego limitu wypłat było nielegalne. Nieposiadanie odpowiednich tablic rejestracyjnych na samochodzie, brak licencji na radio samochodowe lub pozwolenia na generator były prawami, które ktoś, gdzieś, łamał” 
+
+13. Kupowanie walut obcych za wszelką cenę
 
 Szaleńczy zakup walut obcych często stanowił krytyczny punkt zwrotny w dewaluacji waluty, pogłębiając spadek wartości wewnętrznej.
 
 
-> Weimar: "Mannheimer, zgodnie z instrukcjami swojego szefa, wyszedł w sierpniu 1921 r. i zaczął kupować obce waluty za wszelką cenę - "ponieważ Niemcy miały nieskończoną ilość papierowych marek, ale nie miały obcych walut" Była to pierwsza oznaka absolutnego załamania wartości marki"
+> Weimar: „Mannheimer, zgodnie z instrukcjami swojego szefa, wyszedł w sierpniu 1921 r. i zaczął kupować obce waluty za wszelką cenę - „ponieważ Niemcy miały nieskończoną ilość papierowych marek, ale nie miały obcych walut” Była to pierwsza oznaka absolutnego załamania wartości marki”
 
-> Zimbabwe: Zarzucano im, że otrzymywali dzienne cele do spełnienia, ponieważ niektóre z wymagań dotyczących rynku Forex były pilne i kupowali za wszelką cenę, aby zgromadzić forex, aby dotrzymać terminu. Ta rzekoma praktyka została oskarżona o podsycanie ognia dewaluacji, ponieważ wartość dolara zimbabweńskiego nadal gwałtownie spadała"
+> Zimbabwe: „Zarzucano im, że otrzymywali dzienne cele do spełnienia, ponieważ niektóre z wymagań dotyczących rynku Forex były pilne i kupowali za wszelką cenę, aby zgromadzić Forex, aby dotrzymać terminu. Ta rzekoma praktyka została oskarżona o podsycanie ognia dewaluacji, ponieważ wartość dolara zimbabweńskiego nadal gwałtownie spadała”
 
 ### Podsumowanie procesu
 
@@ -919,10 +923,10 @@ Szaleńczy zakup walut obcych często stanowił krytyczny punkt zwrotny w dewalu
 ![image](assets/chapitre-3.2/2.webp)
 
 
-Analizując trajektorię gospodarczą, widać, że po osiągnięciu wysokiej inflacji wartość masy monetarnej pogarsza się. Ta dewaluacja prowadzi do kilku komplikacji, w tym niedoboru banknotów. W tym kontekście pojawiają się możliwości arbitrażu, zwłaszcza przy wahaniach kursu Exchange. W rezultacie wiele osób korzysta z tego arbitrażu, inwestując znaczne kwoty w aktywa materialne w oczekiwaniu na przyszłą dewaluację waluty, która pozwoliłaby im spłacić długi osłabioną walutą. Takie otoczenie gospodarcze podważa atrakcyjność tradycyjnych miejsc pracy, a w konsekwencji osłabia spójność społeczną.
+Analizując trajektorię gospodarczą, widać, że po osiągnięciu wysokiej inflacji wartość masy monetarnej pogarsza się. Dewaluacja prowadzi do kilku komplikacji, w tym niedoboru banknotów. W tym kontekście pojawiają się możliwości arbitrażu, zwłaszcza przy wahaniach kursu wymiany. W rezultacie wiele osób korzysta z tego arbitrażu, inwestując znaczne kwoty w aktywa materialne w oczekiwaniu na przyszłą dewaluację waluty, która pozwoliłaby im spłacić długi osłabioną walutą. Takie otoczenie gospodarcze podważa atrakcyjność tradycyjnych miejsc pracy, a w konsekwencji osłabia spójność społeczną.
 
 
-W odpowiedzi na tę sytuację rząd nakłada drakońskie regulacje, w tym kontrolę kapitału. Nakazuje również sprzedawcom akceptowanie waluty krajowej i czeków. Z czasem wprowadzane są nowe przepisy, rozszerzające definicję zachowań przestępczych. Ostatecznie kurs Exchange rośnie wykładniczo, ponieważ rząd jest skłonny do Exchange swojej waluty, drukowanej po niższych kosztach, w zamian za bardziej solidne waluty obce.
+W odpowiedzi na tę sytuację rząd nakłada drakońskie regulacje, w tym kontrolę kapitału. Nakazuje również sprzedawcom akceptowanie waluty krajowej i czeków. Z czasem wprowadzane są nowe przepisy, rozszerzające definicję zachowań przestępczych. Ostatecznie kurs wymiany rośnie wykładniczo, ponieważ rząd jest skłonny do wymiany swojej waluty, drukowanej po niższych kosztach, w zamian za bardziej solidne waluty obce.
 
 
 ### 4 Podobieństwa w konsekwencjach hiperinflacji

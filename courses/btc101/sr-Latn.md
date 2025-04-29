@@ -1497,31 +1497,31 @@ Zatim, ponovo 2020. godine, tržište je doživelo još jedan špekulativni balo
 ### Bitkoin i volatilnost
 
 
-Na osnovu prethodnih ciklusa, čini se da je periodičnost ekonomskih ciklusa bitkoin ekvivalentna trajanju između dva prepolovljavanja, možda zato što događaj Halving deluje kao okidač smanjujući emisiju novih bitkoina na pola.
+Na osnovu prethodnih ciklusa, čini se da je periodičnost ekonomskih ciklusa bitkoina ekvivalentna trajanju između dva prepolovljavanja, možda zato što Halving događaj deluje kao okidač smanjujući emisiju novih bitkoina na pola.
 
 
-Ove značajne fluktuacije su bitkoin donele reputaciju veoma nestabilne imovine, što često dovodi do značajnih gubitaka za njegove korisnike. Iako cena može pasti za 10%, 20% ili čak 50% u nekoliko dana, važno je razumeti da sam bitkoin protokol nije pogođen promenama cena.
+Ove značajne fluktuacije su Bitkoinu donele reputaciju veoma nestabilne imovine, što često dovodi do značajnih gubitaka za njegove korisnike. Iako cena može pasti za 10%, 20% ili čak 50% u nekoliko dana, važno je razumeti da sam Bitkoin protokol nije pogođen promenama cena.
 
 
-Ova značajna volatilnost danas je u potpunosti prihvaćena od strane aktera bitkoin i može se ublažiti kroz nekoliko rešenja kao što su finansijski hedžinzi (stablecoins), snažno dugoročno uverenje (hodling), ili jednostavno izbegavanje rizika ulaganja 100% svojih sredstava u bitkoin bez solidnog razumevanja. Razumevanje zašto cena bitkoin toliko fluktuira je stoga ključno za napredak u ovoj industriji, jer su u krajnjoj liniji upravo cenovni pokreti i ciklusi ti koji pomažu da se tržište donekle ublaži i reguliše. Međutim, fundamentalno je napomenuti da kako bitkoin raste i sazreva, volatilnost postaje manje uticajna.
+Ova značajna volatilnost danas je u potpunosti prihvaćena od strane aktera Bitkoina i može se ublažiti kroz nekoliko rešenja kao što su finansijski hedžing-zaštita (stablecoins), snažno dugoročno uverenje (hodling), ili jednostavno izbegavanje rizika ulaganja 100% svojih sredstava u bitkoin bez solidnog razumevanja. Razumevanje zašto cena bitkoina toliko fluktuira je stoga ključno za napredak u ovoj industriji, jer su u krajnjoj liniji upravo cenovni pokreti i ciklusi ti koji pomažu da se tržište donekle ublaži i reguliše. Međutim, važno  je napomenuti da kako bitkoin raste i sazreva, volatilnost postaje manje uticajna.
 
 
 ![image](assets/en/69.webp)
 
 
-Iako par btc/dolar fluktuira na kratkoročnom nivou, bitkoin, zbog svoje ograničene količine od 21 milion bitkoina i svog Halving procesa (Halving monetarno stvaranje svakih 4 godine u proseku), prati opšti trend rasta na kvazi-mehanički način. Naravno, kao i svaki finansijski instrument, bitkoin je podložan ekonomskim ciklusima uključujući periode euforije, spekulativne balone i korekcije. Ovaj fenomen je prilično čest u novim tehnologijama, gde tržište nije uvek racionalno ili efikasno.
+Iako par BTC/dolar fluktuira na kratkoročnom nivou, Bitkoin, zbog svoje ograničene količine od 21 milion bitkoina i svog Halving procesa (repolovljenje monetarne kreacije svakih 4 godine u proseku), prati opšti trend rasta na kvazi-mehanički način. Naravno, kao i svaki finansijski instrument, Bitkoin je podložan ekonomskim ciklusima uključujući periode euforije, spekulativne balone i korekcije. Ovaj fenomen je prilično čest u novim tehnologijama, gde tržište nije uvek racionalno ili efikasno.
 
 
-### Jedinstvena pijaca
+### Jedinstveno tržište 
 
 
-Ovi ciklusi špekulativnih balona su prilično jedinstveni u svetu, jer je retko da jedan jedini resurs doživi takav niz balona uzastopno. Ova pojava se može pripisati činjenici da bitkoin nije samo balon osuđen na pucanje. Naprotiv, on funkcioniše kao valuta koja se aktivno koristi širom sveta. Protokol bitkoin se izdvaja po svojoj sposobnosti da funkcioniše na globalnom nivou, 24/7, što predstavlja značajne izazove za finansijske vlasti koje pokušavaju da ga regulišu.
+Ovi ciklusi špekulativnih balona su prilično jedinstveni u svetu, jer je retko da jedan jedini resurs doživi takav niz balona uzastopno. Ova pojava se može pripisati činjenici da Bitkoin nije samo balon osuđen na pucanje. Naprotiv, on funkcioniše kao valuta koja se aktivno koristi širom sveta. pBitkoin protokol se izdvaja po svojoj sposobnosti da funkcioniše na globalnom nivou, 24/7, što predstavlja značajne izazove za finansijske vlasti koje pokušavaju da ga regulišu.
 
 
 ![image](assets/en/70.webp)
 
 
-Danas, bitkoin nastavlja da opstaje i još više raste integracijom u tradicionalno tržište, a uvođenje bitkoin ETF-ova, jasnije regulative i poboljšani alati za akviziciju i skladištenje doprinose ovom pozitivnom zamahu. bitkoin je PONOVO preživeo svoj spekulativni balon, pa možda ipak nije samo Hot vazduh!
+Danas, Bitkoin nastavlja da opstaje i još više raste integracijom u tradicionalno tržište, a uvođenje Bitkoin ETF-ova, jasnije regulative i poboljšani alati za akviziciju i skladištenje doprinose ovom pozitivnom zamahu. Bitkoin je PONOVO preživeo svoj spekulativni balon, pa možda ipak nije samo prazna priča!
 
 
 ![image](assets/en/71.webp)
@@ -1539,25 +1539,25 @@ Danas, bitkoin nastavlja da opstaje i još više raste integracijom u tradiciona
 ### Paralelna ekonomija se razvija
 
 
-bitkoin se može smatrati alatom za stvaranje paralelne ekonomije u odnosu na fiat valute, jer je moguće prodavati robu ili usluge i biti plaćen u bitkoin. Transakcije se mogu obavljati direktno u bitkoin, bez potrebe za prolaskom kroz Exchange platformu, već jednostavno prelaskom sa jednog bitkoin Wallet na drugi.
+Bitkoin se može smatrati alatom za stvaranje paralelne ekonomije u odnosu na fiat valute, jer je moguće prodavati robu ili usluge i biti plaćen u bitkoinu. Transakcije se mogu obavljati direktno u bitkoinu, bez potrebe za prolaskom kroz platformu za trgovanje, već jednostavno prenosom sa jednog Bitkoin novčanika na drugi.
 
 
-Ekonomija bitkoin postoji i razvija se u određenim regionima sveta, kao što je u El Salvadoru, gde je bitkoin zakonsko sredstvo plaćanja od 2021. godine. Svuda oko nas postoje pojedinci, preduzeća i organizacije koje već prihvataju bitkoin kao sredstvo plaćanja za svoje proizvode ili usluge.
+Bitkoin ekonomija postoji i razvija se u određenim regionima sveta, kao što je El Salvador, gde je bitkoin zakonsko sredstvo plaćanja od 2021. godine. Svuda oko nas postoje pojedinci, preduzeća i organizacije koje već prihvataju bitkoin kao sredstvo plaćanja za svoje proizvode ili usluge.
 
 
 ![image](assets/en/72.webp)
 
 
-Pored toga, pokrenut je projekat otvorenog koda i saradnje, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), kako bi se olakšala upotreba bitkoin u svakodnevnim transakcijama. Ova platforma navodi sve trgovce koji prihvataju bitkoin, kao i različite bitkoin zajednice širom sveta, tako da možete posetiti njihov veb-sajt kako biste otkrili bitkoin ekosistem oko vas. Tako, uprkos poteškoćama i oklevanjima, postoje inicijative poput BTCMap koje doprinose tome da bitkoin ekonomija postane pristupačnija i pogodnija za sve.
+Pored toga, pokrenut je  otvoreni i kolaborativni projekat, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), kako bi se olakšala upotreba bitkoin u svakodnevnim transakcijama. Ova platforma navodi sve trgovce koji prihvataju bitkoin, kao i različite bitkoin zajednice širom sveta, tako da možete posetiti njihov veb-sajt kako biste otkrili Bitkoin ekosistem oko vas. Tako, uprkos poteškoćama i oklevanjima, postoje inicijative poput BTCMap koje doprinose tome da Bitkoin ekonomija postane pristupačnija i pogodnija za sve.
 
 
-### Zašto bismo prihvatili bitkoin umesto da ga kupimo?
+### Zašto bismo prihvatili Bitkoin umesto da ga kupimo?
 
 
 Da biste dobili bitkoine, možete ih kupiti na platformama koje regulišu organizacije kao što su AMF (Autorité des Marchés Financiers) u Francuskoj, ili Securities & Exchange Commission (SEC) u SAD-u, ali ovo rešenje podrazumeva praćenje vaših transakcija. Drugi način da dobijete bitkoine je da ih prihvatite kao sredstvo plaćanja za proizvode ili usluge koje nudite, tako da možete steći bitkoine kroz svoj rad bez stalne brige o ceni bitkoin.
 
 
-Štaviše, prihvatanje bitkoin kao trgovca ima nekoliko prednosti, uključujući otpornost na cenzuru, smanjene naknade za transakcije, povećanu efikasnost, zaštitu od inflacije, kao i finansijsku slobodu i suverenitet.
+Štaviše, prihvatanje bitkoina kao trgovac ima nekoliko prednosti, uključujući otpornost na cenzuru, smanjene naknade za transakcije, povećanu efikasnost, zaštitu od inflacije, kao i finansijsku slobodu i suverenitet.
 
 
 ![image](assets/en/73.webp)
@@ -1569,7 +1569,7 @@ Da biste dobili bitkoine, možete ih kupiti na platformama koje regulišu organi
 Da biste prihvatili bitkoin, potrebno je proučiti različita dostupna rešenja i izabrati ono koje najbolje odgovara vašem poslovanju. Ne postoji savršeno rešenje, i nekoliko faktora mora biti uzeto u obzir prilikom donošenja odluke, kao što su očekivani obim transakcija, dodeljeni budžet i tip poslovanja (online ili fizičko).
 
 
-Ovu temu ćemo detaljno obraditi u drugom kursu, ali da bismo je pojednostavili, možemo razmotriti nekoliko kategorija preduzeća i stoga povezane solucije.
+Ovu temu ćemo detaljno obraditi u drugom kursu, ali da bismo je pojednostavili, možemo razmotriti nekoliko kategorija preduzeća i stoga povezana rešenja.
 
 
 
@@ -1588,12 +1588,12 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitkoin-pay-2-a78b0
 - Rešenje za velike organizacije ili strastvene bitkoinere: BTCpay Server
 
 
-Da biste dodatno istražili ovu temu, preporučujemo naš kurs BIZ101! Otkrijte kako efikasno integrisati bitkoin u trezor vaše kompanije, prihvatiti bitkoin kao sredstvo plaćanja u skladu sa profilom vaše organizacije i razumeti povezane poreske i računovodstvene zahteve:
+Da biste dodatno istražili ovu temu, preporučujemo naš kurs BIZ101! Otkrijte kako efikasno integrisati bitkoin u registar vaše kompanije, prihvatiti bitkoin kao sredstvo plaćanja u skladu sa profilom vaše organizacije i razumeti povezane poreske i računovodstvene zahteve:
 
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
-## Štednja sa bitkoin
+## Štednja u bitkoinu
 
 
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
@@ -1602,12 +1602,12 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ### Upozorenje pre nego što počnete!
 
 
-bitkoin je postao značajna finansijska imovina, uglavnom zbog ograničenog Supply i rastuće potražnje. Međutim, kupovina bitkoin nosi rizike koji zahtevaju posebnu pažnju. Stoga se preporučuje da sprovedete sopstveno istraživanje i saznate više o temi kako biste se upoznali sa tehnologijom pre nego što uložite bilo kakva sredstva.
+Bitkoin je postao značajna finansijska imovina, uglavnom zbog svoje ograničene ponude i rastuće potražnje. Međutim, kupovina bitkoina nosi rizike koji zahtevaju posebnu pažnju. Stoga se preporučuje da sprovedete sopstveno istraživanje i saznate više o temi kako biste se upoznali sa tehnologijom pre nego što uložite bilo kakva sredstva.
 
 
 
 - Ulažite samo ono što možete priuštiti da izgubite.
-- bitkoin je veoma nestabilna finansijska imovina i njena cena može pasti na 0.
+- Bitkoin je veoma volatilna (nestabilna) finansijska imovina i njena cena može pasti na 0.
 - Prošla performansa nije pouzdan pokazatelj buduće performanse.
 - Kontaktirajte svog finansijskog savetnika ako je potrebno.
 
@@ -1615,27 +1615,27 @@ bitkoin je postao značajna finansijska imovina, uglavnom zbog ograničenog Supp
 **Plan ₿ Network ne pruža nikakve investicione savete, i ništa ovde navedeno ne treba smatrati takvim**
 
 
-### Mini Checklist pre nego što se odlučite na taj korak
+### Mini kontrolna lista pre nego što se odlučite na taj korak
 
 
-Pre nego što se upustite u kupovinu bitkoin, uverite se da imate:
+Pre nego što se upustite u kupovinu bitkoina, uverite se da imate:
 
 
 
-- Siguran Wallet.
-- Čvrsto razumevanje bitkoin.
-- Plan štednje koji treba pratiti.
-- Dugoročna vizija.
+- Siguran novčanik.
+- Čvrsto razumevanje Bitkoina.
+- Plan štednje koji ćete pratiti.
+- Dugoročnu viziju.
 
 
-Ako je tema još uvek nejasna, imajte na umu da će vas kurs BTC102 voditi u osiguravanju i sticanju vaših prvih bitkoina. Ovde ćemo samo površno obraditi temu.
+Ako vam tema još uvek nije jasna, imajte na umu da će vas kurs BTC102 voditi kroz osiguranje i sticanje vaših prvih bitcoina. Ovde ćemo samo zagrebati po površini.
 
 
 U konkretnim terminima, postoje dva pitanja koja treba da postavite sebi:
 
 
 
-- Da li treba da usvojite postepenu strategiju akvizicije ili strategiju sve-odjednom?
+- Da li treba da usvojite strategiju "postepenog sticanja" ili strategiju "sve odjednom"?
 - Da li treba da koristite regulisanu ili neregulisanu platformu?
 
 
@@ -1643,10 +1643,10 @@ U konkretnim terminima, postoje dva pitanja koja treba da postavite sebi:
 
 
 
-- Dollar Cost Average
+- Dollar Cost Average (DCA)
 
 
-Ova postepena strategija uključuje ponavljajuće kupovine, što znači kupovinu malih količina bitkoin u redovnim intervalima. Ova metoda izravnava cenu tokom vremena i omogućava kontinuirani rast količine bitkoin u vlasništvu. To je idealno rešenje za dugoročne uštede i ublažava zabrinutosti u vezi sa volatilnošću cene bitkoin. Kada se postavi, možete jednostavno zaboraviti na to i posmatrati kako vaša investicija raste.
+Ova postepena strategija uključuje ponavljajuće kupovine, što znači kupovinu malih količina bitkoina u redovnim intervalima. Ova metoda izravnava cenu tokom vremena i omogućava kontinuirani rast količine bitkoina u vlasništvu. To je idealno rešenje za dugoročne uštede i ublažava zabrinutosti u vezi sa volatilnošću cene bitkoina. Kada se jednom postavi, možete jednostavno zaboraviti na to i posmatrati kako vaša investicija raste.
 
 
 ![image](assets/en/74.webp)
@@ -1662,13 +1662,13 @@ Ova postepena strategija uključuje ponavljajuće kupovine, što znači kupovinu
 - Spontana kupovina
 
 
-Rešenje sve-odjednom moglo bi biti spontana kupovina, koja se koristi za trenutno sticanje izloženosti bitkoin. Bilo da kupujete tokom pada ili koristite prednost bonusa, odluka je vaša. Trebaće vam hrabrost da pritisnete dugme za kupovinu.
+Rešenje "sve odjednom" moglo bi biti spontana kupovina, koja se koristi za trenutno sticanje izloženosti bitkoina. Bilo da kupujete tokom pada ili koristite prednost bonusa, odluka je vaša. Trebaće vam hrabrost da pritisnete dugme za kupovinu.
 
 
-U ovom slučaju, treba da budete pažljivi i kontrolišete svoje emocije, jer cena bitkoin može biti prilično nestabilna. Zapravo, FOMO (strah od propuštanja) i FUD (strah, nesigurnost, sumnja) su vaši najgori neprijatelji! Zapamtite da ostanete smireni i pratite strategiju koju ste unapred uspostavili, kako biste izbegli impulsivno i potencijalno štetno donošenje odluka.
+U ovom slučaju, treba da budete pažljivi i da kontrolišete svoje emocije, jer cena bitkoina može biti prilično nestabilna. Zapravo, FOMO (strah od propuštanja) i FUD (strah, nesigurnost, sumnja) su vaši najgori neprijatelji! Zapamtite da ostanete smireni i pratite strategiju koju ste unapred uspostavili, kako biste izbegli impulsivno i potencijalno štetno donošenje odluka.
 
 
-### Koga bismo trebali kupiti naš bitkoin od?
+### Od koga treba da kupujemo bitcoin?
 
 
 Postoji nekoliko načina za sticanje bitkoina, pri čemu je svaki podložan sopstvenom skupu propisa koji mogu varirati u zavisnosti od jurisdikcije. Neke platforme zahtevaju identifikaciju radi verifikacije (KYC), dok druge ne. Stoga je ključno razumeti propise povezane sa svakom platformom.
@@ -1678,14 +1678,14 @@ Postoji nekoliko načina za sticanje bitkoina, pri čemu je svaki podložan sops
 - DCA platforme
 
 
-Kao što smo gore naveli, uobičajena metoda za akumulaciju bitkoina je prosečno ulaganje dolara (DCA), koje podrazumeva redovnu kupovinu malih količina. Nekoliko platformi nudi ovu uslugu, kao što su one navedene na našoj [posvećenoj stranici](https://planb.network/tutorials/Exchange). Pored jednostavnosti postavljanja DCA, povlačenja na vaš Wallet su uglavnom automatska, što znači da ćete uvek imati kontrolu nad svojim sredstvima.
+Kao što smo već pomenuli, uobičajena metoda za akumulaciju bitkoina je Dollar Cost Averaging (DCA), koje podrazumeva redovnu kupovinu malih količina. Nekoliko platformi nudi ovu uslugu, kao što su one navedene na našoj [posvećenoj stranici](https://planb.network/tutorials/Exchange). Pored jednostavnosti postavljanja DCA, povlačenja na vaš novčanik su uglavnom automatska, što znači da ćete uvek imati kontrolu nad svojim sredstvima.
 
 
 Danas su gotovo sva DCA rešenja relativno efikasna i imaju gotovo slične naknade, tako da će izbor više zavisiti od dostupnosti u vašoj zemlji.
 
 
 
-- Broker platforme
+- Brokerske platforme
 
 
 Za velike investicije preporučuju se regulisane i priznate platforme kao što su Kraken, Bitstamp i Paymium. One nude sigurno i bezbedno okruženje za transakcije velikog obima.
@@ -1694,25 +1694,25 @@ Za velike investicije preporučuju se regulisane i priznate platforme kao što s
 Njihova upotreba je jednostavna i dostupna svima:
 
 
-1. Postavite KYC nalog
+1. Otvorite  KYC nalog
 
-2. Prenesite sredstva na svoj račun
+2. Prenesite sredstva na svoj nalog
 
-3. Kupovina bitkoin
+3. Kupite bitkoin
 
-4. Povuci bitkoin na svoj Wallet
+4. Povucite bitkoin na svoj novčanik
 
 
 ![image](assets/en/75.webp)
 
 
-Nakon kupovine, preporučljivo je odmah povući bitkoine sa Exchange platformi kako bi se smanjili rizici od hakovanja i blokiranja sredstava. Imajte na umu da naknade za povlačenje mogu biti visoke, ponekad i do 25 evra u zavisnosti od platforme.
+Nakon kupovine, preporučljivo je odmah povući bitkoine sa menjačnica kako bi se smanjili rizici od hakovanja i blokiranja sredstava. Imajte na umu da naknade za povlačenje mogu biti visoke, ponekad i do 25 evra u zavisnosti od platforme.
 
 
-**Propisi o upoznavanju svog klijenta (KYC) zahtevaju od korisnika da pruže identifikaciju kako bi se borili protiv finansiranja terorizma, utaje poreza i pranja novca.**
+**Propisi o identifikaciji korisnika (KYC) zahtevaju od korisnika da pruže identifikaciju kako bi se borili protiv finansiranja terorizma, utaje poreza i pranja novca.**
 
 
-Važno je prepoznati da je KYC značajna tema diskusije u industriji bitkoin. Iako mnogi ljudi raspravljaju o njegovoj efikasnosti, postoje brojni problemi povezani s tim. U mnogim našim programima obuke i sadržajima akademije, savetujemo napredne korisnike da izbegavaju platforme koje zahtevaju KYC, jer često postoje alternativne opcije koje su više fokusirane na privatnost.
+Važno je prepoznati da je KYC značajna tema diskusije u industriji Bitkoina. Iako mnogi ljudi raspravljaju o njegovoj efikasnosti, postoje brojni problemi povezani s tim. U mnogim našim programima obuke i sadržajima, savetujemo napredne korisnike da izbegavaju platforme koje zahtevaju KYC, jer često postoje alternativne opcije koje su više fokusirane na privatnost.
 
 
 ### Rešenja bez KYC-a
@@ -1723,10 +1723,10 @@ Pored toga, postoji nekoliko [marketplaces](https://planb.network/tutorials/Exch
 
 
 - bitkoin bankomati
-- Fizički sastanci sa drugim ljubiteljima bitkoin
+- Fizički sastanci sa drugim ljubiteljima bitkoina
 - Ilegalne i neregulisane platforme
 - Rešenja za povezivanje korisnika međusobno (peer-to-peer)
-- Neobanke koji posluju u zemljama prijateljski nastrojenim prema bitkoin.
+- Neobanke koji posluju u zemljama prijateljski nastrojenim prema Bitkoinu.
 
 
 ![image](assets/en/76.webp)
@@ -1744,45 +1744,45 @@ Konačno, važno je napomenuti da poreske obaveze mogu varirati u zavisnosti od 
 ### Divlja trka tek počinje!
 
 
-Kao i svaka nova tehnologija, usvajanje bitkoin prati S-krivulju, ilustrujući napredak od ranih usvojitelja do šire prihvaćenosti. Prešli smo izvan ere ranih usvojitelja, a indikatori sugerišu potencijalnu demokratizaciju bitkoin. Uostalom, to je viralna tehnologija koju nije lako zaustaviti. S jedne strane, El Salvador je preduzeo hrabar korak potpuno usvojivši bitkoin kao zakonsko sredstvo plaćanja. S druge strane, druge zemlje su reagovale zabranom i kriminalizacijom njegove upotrebe, što pokazuje da je usvajanje bitkoin složeno i podložno uticaju kulturnih, istorijskih i nacionalnih faktora.
+Kao i svaka nova tehnologija, usvajanje bitkoin prati S-krivu, koja ilustruje napredak od ranih usvojitelja do šire prihvaćenosti. Prešli smo izvan ere ranih usvojitelja, a indikatori sugerišu potencijalnu demokratizaciju Bitkoina. Uostalom, to je viralna tehnologija koja se ne može zaustaviti. S jedne strane, El Salvador je preduzeo hrabar korak potpuno usvojivši Bitkoin kao zakonsko sredstvo plaćanja. S druge strane, druge zemlje su reagovale zabranom i kriminalizacijom njegove upotrebe, što pokazuje da je usvajanje Bitkoina složeno i podložno uticaju kulturnih, istorijskih i nacionalnih faktora.
 
 
 ![image](assets/en/02.webp)
 
 
-Uspon bitkoin primorava kompanije, univerzitete, regulatore i pojedince da uzmu u obzir ovu novu tehnologiju. Potrebno je kreirati nove alate, prilagoditi usluge i nastaviti sa inovacijama kako bi se osigurala njihova opstojnost. Ovaj kontekst postavlja mnoga pitanja vezana za različite oblasti, uključujući kriptografiju, teoriju igara, ekonomiju i monetarnu politiku, računarstvo, filozofiju, energiju, zakone i regulative. Ukratko, bitkoin je multidisciplinarna tema.
+Uspon Bitkoina primorava kompanije, univerzitete, regulatore i pojedince da uzmu u obzir ovu novu tehnologiju. Potrebno je kreirati nove alate, prilagoditi usluge i nastaviti sa inovacijama kako bi se osigurao njihov opstanak. Ovaj kontekst postavlja mnoga pitanja vezana za različite oblasti, uključujući kriptografiju, teoriju igara, ekonomiju i monetarnu politiku, računarstvo, filozofiju, energiju, zakone i regulative. Ukratko, Bitkoin je multidisciplinarna tema.
 
 
 ![image](assets/en/01.webp)
 
 
-### bitkoin je 0 do 1
+### bitkoin je od 0 do 1
 
 
-Na kraju, pozivamo vas da razmislite o ovoj novoj monetarnoj revoluciji. Ima toliko toga za istražiti sa bitkoin da je komplikovano asimilirati sve odjednom. Uzmite svoje vreme, bitkoin neće nestati. Naprotiv, revolucija je tek počela. Verujemo da smo sposobni stvoriti svet koji želimo poveriti našoj deci: svet gde je ljudski suverenitet pravo, gde je privatnost po defaultu poštovana i gde novac nije manipulisan. Nadamo se da ćemo to zajedno postići.
+Na kraju, pozivamo vas da razmislite o ovoj novoj monetarnoj revoluciji. Ima toliko toga za istražiti sa Bitkoinom da je komplikovano asimilovati sve odjednom. Uzmite svoje vreme, Bitkoin neće nestati. Naprotiv, revolucija je tek počela. Verujemo da smo sposobni stvoriti svet koji želimo poveriti našoj deci: svet gde je ljudski suverenitet pravo, gde je privatnost po defaultu poštovana i gde novac nije manipulisan. Nadamo se da ćemo to zajedno postići.
 
 
 ![image](assets/en/77.webp)
 
 
-Ako želite da proširite svoje znanje o bitkoin, ovo je pravo vreme: veliki broj autora, mislilaca i esejista kreirao je edukativni sadržaj o bitkoin. Poslednjih nekoliko godina, mi smo popisivali i kategorizovali ova dela kako bismo ponudili [biblioteku resursa](https://planb.network/resources) najradoznalijima među vama. U tom odeljku, naći ćete najbolje podkaste, vebsajtove, članke, tutorijale, knjige i drugi sadržaj.
+Ako želite da proširite svoje znanje o Bitkoinu, ovo je pravo vreme: veliki broj autora, mislilaca i esejista kreirao je edukativni sadržaj o Bitkoinu. Poslednjih nekoliko godina, mi smo popisivali i kategorizovali ove radove kako bismo ponudili [biblioteku resursa](https://planb.network/resources) najradoznalijima među vama. U tom odeljku, naći ćete najbolje podkaste, vebsajtove, članke, tutorijale, knjige i drugi sadržaj.
 
 
 > "Mislim da će Internet postati jedna od glavnih sila za smanjenje uloge vlade. Jedina stvar koja nedostaje, ali će uskoro biti razvijena, je pouzdan e-novac - metoda pomoću koje na Internetu možete preneti sredstva sa A na B bez da A zna B ili B zna A." - Predviđanje Miltona Friedmana 1999.
 
-# Budućnost bitkoin: Lightning Network
+# Budućnost Bitkoina: Lightning mreža
 
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
 
-## Kratak uvod u Lightning Network
+## Kratak uvod u Lightning mrežu
 
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
 
-Sada kada imamo osnove protokola bitkoin, predstavićemo mrežu plaćanja koja koristi protokol bitkoin za omogućavanje munjevito brzih transakcija: Lightning Network!
+Sada kada imamo osnove Bitkoin protokola, predstavićemo mrežu plaćanja koja koristi Bitkoin protokol za omogućavanje munjevito brzih transakcija: Lightning Network!
 
 
 Imajte na umu da je sledeće samo opšti opis, pa, ako želite da ga razumete u dubljim detaljima, pozivamo vas da pohađate naš LNP201 kurs.
@@ -1791,10 +1791,10 @@ Imajte na umu da je sledeće samo opšti opis, pa, ako želite da ga razumete u 
 ### Ukratko
 
 
-Lightning Network je revolucionarna tehnologija koja je duboko promenila naše shvatanje bitkoin, jer rešava problem skalabilnosti bitkoin.
+Lightning mreža je revolucionarna tehnologija koja je duboko promenila naše shvatanje Bitkoina, jer rešava problem skalabilnosti Bitkoina.
 
 
-Da biste u potpunosti razumeli Lightning Network, ključno je razumeti kako se bitkoin razvija i napreduje u slojevima infrastrukture: prvi Layer je Blockchain, a drugi je Lightning Network.
+Da biste u potpunosti razumeli Lightning mrežu, ključno je razumeti kako se Bitkoin razvija i napreduje u slojevima infrastrukture: prvi Layer je Blockchain, a drugi je Lightning mreža.
 
 
 ![image](assets/en/78.webp)
@@ -1803,7 +1803,7 @@ Da biste u potpunosti razumeli Lightning Network, ključno je razumeti kako se b
 ### Blockchain ne može rasti beskonačno
 
 
-Lightning Network je validiran i implementiran 2017. godine kako bi rešio problem skalabilnosti bitkoin, jer omogućava trenutne, niskotroškovne transakcije bitkoin.
+Lightning mreža je validirana i implementirana 2017. godine kako bi rešio problem skalabilnosti Bitkoina, jer omogućava trenutne, niskotroškovne Bitkoin transakcije.
 
 
 Problem skalabilnosti odnosi se na izazov implementacije monetarnog sistema sposobnog da obezbedi sve veći broj transakcija po sekundi kao odgovor na rastuće usvajanje. Ovo pitanje se odnosi na Blockchain trilemu. Zamislite trougao sa decentralizacijom, sigurnošću i skalabilnošću kao njegovim vrhovima.
@@ -1812,42 +1812,42 @@ Problem skalabilnosti odnosi se na izazov implementacije monetarnog sistema spos
 ![image](assets/en/79.webp)
 
 
-Prema tome, protokol zasnovan na Blockchain može zadovoljiti samo dve od tri navedene karakteristike. U okviru bitkoin protokola, programeri su napravili izbore u korist decentralizacije i sigurnosti. S jedne strane, veličina bloka od 1MB i vreme između dva bloka (u proseku 10 minuta) omogućavaju pokretanje bitkoin čvora uz niže troškove, što favorizuje decentralizaciju. S druge strane, proizvodnja blokova putem Proof-of-Work čini prevaru unutar protokola izuzetno skupom, dok olakšava verifikaciju od strane mrežnih čvorova i favorizuje sigurnost. Međutim, ovi izbori nameću ograničenje na prosečan broj transakcija u bloku, što otprilike odgovara nekoliko transakcija po sekundi. Ovaj broj je smešan u poređenju sa računarskim kapacitetom platnih procesora kao što je VISA (1700/s), ali ovo ograničenje je neophodno kako bi se transakcije sa bitkoin obavljale na način otporan na cenzuru i u Trustless maniru. Ipak, oni koji razvijaju na bitkoin razmišljaju o ovom problemu od samog početka.
+Prema tome, protokol zasnovan na Blockchain-u može zadovoljiti samo dve od tri navedene karakteristike. U okviru Bitkoin protokola, programeri su napravili izbore u korist decentralizacije i sigurnosti. S jedne strane, veličina bloka od 1MB i vreme između dva bloka (u proseku 10 minuta) omogućavaju pokretanje Bitkoin čvora uz niže troškove, što favorizuje decentralizaciju. S druge strane, proizvodnja blokova putem Proof-of-Work čini prevaru unutar protokola izuzetno skupom, dok olakšava verifikaciju od strane mrežnih čvorova i favorizuje sigurnost. Međutim, ovi izbori nameću ograničenje na prosečan broj transakcija u bloku, što otprilike odgovara nekoliko transakcija po sekundi. Ovaj broj je smešan u poređenju sa računarskim kapacitetom platnih procesora kao što je VISA (1700/s), ali ovo ograničenje je neophodno kako bi se transakcije sa Bitkoinom obavljale na način otporan na cenzuru i bez poverenja. Ipak, oni koji razvijaju Bitkoin razmišljaju o ovom problemu od samog početka.
 
 
-### Munja kao Layer na vrhu
+### Lightning kao sloj na vrhu
 
 
-Nakon godina razmatranja i višestrukih pokušaja, pojavio se Lightning protokol. Koristeći određeni broj specifikacija, ovaj protokol konstruira peer-to-peer mrežu plaćanja oslanjajući se na sigurnost i programabilnost bitkoin transakcijskog protokola. Lightning Network djeluje kao mreža kanala plaćanja, omogućavajući trenutne transakcije sa niskim naknadama za pošiljaoca, a čak kreira Exchange rute između pojedinaca koji nemaju direktnu vezu kanala.
+Nakon godina razmatranja i višestrukih pokušaja, pojavio se Lightning protokol. Koristeći određeni broj specifikacija, ovaj protokol konstruira peer-to-peer mrežu plaćanja oslanjajući se na sigurnost i programabilnost Bitkoin transakcijskog protokola. Lightning mreža djeluje kao mreža kanala plaćanja, omogućavajući trenutne transakcije sa niskim naknadama za pošiljaoca, a čak kreira rute za razmenu između pojedinaca koji nemaju direktnu vezu kanala.
 
 
 ![image](assets/en/80.webp)
 
 
-Tradicionalne usluge prenosa novca kao što su Western Union, centralne banke, Visa i Mastercard mogle bi nestati ako ne usvoje Lightning Network tehnologiju, koja je efikasnija i isplativija od trenutnih platnih sistema. Zapravo, Lightning Network omogućava gotovo neograničene transakcije između dva korisnika koji dele kanal, pri čemu se snose samo troškovi energije povezani sa transakcijom za najavu kreiranja kanala, umesto za svaku pojedinačnu transakciju.
+Tradicionalne usluge prenosa novca kao što su Western Union, centralne banke, Visa i Mastercard mogle bi nestati ako ne usvoje tehnologiju Lightning mreže, koja je efikasnija i isplativija od trenutnih platnih sistema. Zapravo, Lightning mreža omogućava gotovo neograničene transakcije između dva korisnika koji dele kanal, pri čemu se snose samo troškovi energije povezani sa transakcijom za najavu kreiranja kanala, umesto za svaku pojedinačnu transakciju.
 
 
 ![image](assets/en/81.webp)
 
 
-Transakcije su osigurane kroz kriptografiju i indirektno kroz energiju koju troše rudari na bitkoin. Mogu se izvršiti trenutno, bez geografskih ograničenja, uz izuzetno niske naknade (često manje od 0.5%).
+Transakcije su osigurane kroz kriptografiju i indirektno kroz energiju koju troše rudari na Bitkoinu. Mogu se izvršiti trenutno, bez geografskih ograničenja, uz izuzetno niske naknade (često manje od 0.5%).
 
 
-Ukratko, Lightning Network je obećavajući pokušaj implementacije efikasnog sistema plaćanja za kupovinu i prodaju u bitkoin. Već postoji mnogo Lightning novčanika koji su dostupni, a koje možete otkriti u našem odeljku sa tutorijalima ili kroz naše Lightning Network kurseve.
+Ukratko, Lightning mreža je obećavajući pokušaj implementacije efikasnog sistema plaćanja za kupovinu i prodaju u Bitkoinu. Već postoji mnogo Lightning novčanika koji su dostupni, a koje možete otkriti u našem odeljku sa tutorijalima ili kroz naše kurseve o Lightning mreži.
 
 
-Ako želite da idete dalje od ovog uvoda i razumete sve funkcije Lightning Network, preporučujemo da pohađate ovaj odličan kurs Fanisa Mihalakisa na tu temu:
+Ako želite da idete dalje od ovog uvoda i razumete sve funkcije Lightning mreže, preporučujemo da pohađate ovaj odličan kurs Fanisa Mihalakisa na tu temu:
 
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-## Lightning Network Upotrebe
+## Upotrebe Lightning mreže
 
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 
-Kao što smo upravo videli, bitkoin protokol, iako revolucionaran, suočava se sa značajnim izazovima u pogledu skalabilnosti potrebne za obradu svih naših dnevnih transakcija. Da bi se rešili ovi problemi, predložen je Lightning Network i od tada se razvio u nekoliko različitih implementacija, od kojih su sve interoperabilne:
+Kao što smo upravo videli, Bitkoin protokol, iako revolucionaran, suočava se sa značajnim izazovima u pogledu skalabilnosti potrebne za obradu svih naših dnevnih transakcija. Da bi se rešili ovi problemi, predložena je Lightning mreža i od tada se razvio u nekoliko različitih implementacija, od kojih su sve interoperabilne:
 
 
 

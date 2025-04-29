@@ -1006,23 +1006,23 @@ Artysta stojący za tym Notgeld wydaje się w ironiczny sposób krytykować wła
 
 > Pierwszy Shitcoin: Anegdotycznie, patrząc na centralną ilustrację banknotu, gdzie waluta jest dosłownie dewaluowana przez działania jednostki, można by ją nazwać pierwszym „shitcoinem”.
 
-3. Skrypty dłużne i hipoteki
+3. Dłużne papiery wartościowe i hipoteki
 
 
-W Weimarze niektóre długi zostały przeszacowane, aby zrekompensować wpływ inflacji. Środek ten nie został przyjęty w Zimbabwe.
+W Weimarze niektóre długi zostały przeszacowane, aby zrekompensować wpływ inflacji. Środek ten nie został zastosowany w Zimbabwe.
 
 
-> Weimar: "Decyzja o rewaluacji pożyczek rządowych stała się prawem w 1925 roku, w wyniku czego akcjonariusze otrzymali 2,5% początkowej inwestycji, pod warunkiem, że wszystkie reparacje zostały spłacone"
+> Weimar: „Decyzja o rewaluacji pożyczek rządowych stała się prawem w 1925 roku, w wyniku czego akcjonariusze otrzymali 2,5% początkowej inwestycji pod warunkiem, że wszystkie reparacje zostały spłacone”
 
-> Zimbabwe: "W lipcu 2007 r. (trzy lata później) mogłem wyjąć z kieszeni zdewaluowany banknot ZDW o wartości 500 000 (bt "000"), wart obecnie 1,67 USD według kursu rynku równoległego, i spłacić kredyt hipoteczny, który miał być spłacany przez dwadzieścia lat. Co więcej, banknot ten stanowił zaledwie 0,49 procent mojego miesięcznego wynagrodzenia za ten sam miesiąc"
+> Zimbabwe: „W lipcu 2007 r. (trzy lata później) mogłem wyjąć z kieszeni zdewaluowany banknot ZDW o wartości 500 000 (bt "000"), wart obecnie 1,67 USD według kursu rynku równoległego, i spłacić kredyt hipoteczny, który miał być spłacany przez dwadzieścia lat. Co więcej, banknot ten stanowił zaledwie 0,49 procent mojego miesięcznego wynagrodzenia za ten sam miesiąc”
 
-Aby dowiedzieć się więcej o zarządzaniu niemieckim kryzysem, ta książka jest również niezbędna.
+Aby dowiedzieć się więcej o zarządzaniu niemieckim kryzysem, ta książka jest również podstawowym materiałem.
 
 
 ![image](assets/chapitre-3.3/4.webp)
 
 
-### Współczesne podobieństwa
+### Analogie we współczesności
 
 
 1. Manipulowanie polityką pieniężną w celu kontrolowania gospodarki.
@@ -1030,46 +1030,46 @@ Aby dowiedzieć się więcej o zarządzaniu niemieckim kryzysem, ta książka je
 W historii Republiki Weimarskiej wyraźnie widać, że przemysłowcy niechętnie patrzyli na aprecjację marki. Ich zdolność do zaciągania pożyczek i spłacania długów za pomocą mocno zdeprecjonowanej waluty dawała im znaczną przewagę. Mechanizm ten ułatwiał budowę ogromnych kompleksów przemysłowych przy niemal zerowych kosztach. Przemysłowcy obawiali się aprecjacji marki, ponieważ utrudniała ona ich działalność. Niektórzy nawet postrzegali szalejącą inflację jako dobrą rzecz, wierząc, że gwarantuje ona zatrudnienie dla ludności. Nie zdawali sobie jednak sprawy ze szkodliwego wpływu tej inflacji na oszczędności i gospodarkę w ogóle. Dla tych podmiotów gospodarczych druk monetarny był błogosławieństwem.
 
 
-> Weimar: "Dlatego też bardzo obawiano się aprecjacji marki, a nawet kilka tygodni "stabilności" po Genui spowodowało stagnację biznesu"
+> Weimar: „Dlatego też bardzo obawiano się aprecjacji marki, a nawet kilka tygodni „stabilności” po Genui spowodowało stagnację biznesu”
 
-> Weimar: "Kręgi przemysłowe stanęły w obliczu niebezpieczeństwa, że gotówka stanie się cenniejsza niż towary i nastąpi załamanie, gdy wszyscy będą próbowali zamienić swoje aktywa na gotówkę"
+> Weimar: „Kręgi przemysłowe stanęły w obliczu niebezpieczeństwa, że gotówka stanie się cenniejsza niż towary i nastąpi załamanie, gdy wszyscy będą próbowali zamienić swoje aktywa na gotówkę”
 
 Współczesną paralelę można nakreślić z wypowiedziami Christine Lagarde, sugerującymi, że obywatele powinni przedkładać perspektywę zatrudnienia nad ochronę swoich oszczędności. Podobnie jak przemysłowcy z Weimaru, wydaje się ona opowiadać za dodrukiem pieniądza jako narzędziem stymulującym zatrudnienie, kosztem wartości oszczędności.
 
 
-> Christine Lagarde: "Powinniśmy być szczęśliwsi, mając pracę, niż widząc, że nasze oszczędności są chronione"
+> Christine Lagarde: „Powinniśmy być szczęśliwsi, mając pracę, niż widząc, że nasze oszczędności są chronione”
 
 2. Własność prywatna w czasach konfliktu.
 
 
-Historia Republiki Weimarskiej pokazuje, że w tym okresie aktywa i kapitał przechowywane za granicą zostały skonfiskowane. Środek ten przypomina niedawne wydarzenia w Rosji, zwłaszcza na początku konfliktu. Sytuacje te podkreślają niepokojącą rzeczywistość: w czasach kryzysu poszanowanie własności prywatnej może być zagrożone. Jest to historyczna i współczesna analogia, która podkreśla potencjalne reperkusje kryzysów dla praw jednostki.
+Historia Republiki Weimarskiej pokazuje, że w tym okresie aktywa i kapitał przechowywane za granicą zostały skonfiskowane. Środek ten przypomina niedawne wydarzenia w Rosji, zwłaszcza na początku konfliktu. Sytuacje te uwydatniają niepokojącą rzeczywistość: w czasach kryzysu poszanowanie własności prywatnej może być zagrożone. Jest to historyczna i współczesna analogia, która podkreśla potencjalne reperkusje kryzysów dla praw jednostki.
 
 
-> Weimar: "Cały niemiecki kapitał trzymany za granicą został skonfiskowany"
+> Weimar: „Cały niemiecki kapitał trzymany za granicą został skonfiskowany”
 
-> [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Około 300 miliardów dolarów rosyjskich rezerw przechowywanych za granicą rzeczywiście zostało zamrożonych w ramach zachodnich sankcji, z 640 miliardów dolarów rezerw przechowywanych przez rosyjski bank centralny"
+> [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): „Około 300 miliardów dolarów rosyjskich rezerw przechowywanych za granicą rzeczywiście zostało zamrożonych w ramach zachodnich sankcji, z 640 miliardami dolarów rezerw przechowywanych przez rosyjski bank centralny”
 
 3. Koncepcja cen rynkowych.
 
-> Weimar: "Przedsiębiorstwa zombie"
+> Weimar: „Przedsiębiorstwa zombie”
 
-> Współczesność: "Les entreprises zombies"
-> Weimar: "Stabilizacja położyła kres okresowi, w którym przedsiębiorcy mogli pożyczać tyle, ile chcieli, kosztem wszystkich innych. Duża liczba firm, utworzonych lub rozwiniętych w okresie obfitości monetarnej, szybko stała się nieproduktywna, gdy zabrakło kapitału"
+> Współczesność: „Les entreprises zombies”
+> Weimar: „Stabilizacja położyła kres okresowi, w którym przedsiębiorcy mogli pożyczać tyle, ile chcieli, kosztem wszystkich innych. Duża liczba firm, utworzonych lub rozwiniętych w okresie obfitości monetarnej, szybko stała się nieproduktywna, gdy zabrakło kapitału”
 > Spółka zombie to spółka, która w normalnych warunkach rynkowych byłaby niewypłacalna lub bliska bankructwa, ale kontynuuje działalność głównie dzięki tanim pożyczkom. Firmy te zarabiają wystarczająco dużo pieniędzy, aby pokryć swoje długi, ale nie są w stanie znacząco się rozwijać.
 
-Koncepcja spółek zombie nie jest nowa. W rzeczywistości była ona obecna w Republice Weimarskiej. W tym czasie wiele firm zdawało się kwitnąć, czerpiąc ogromne korzyści z dostępu do darmowych kredytów. Pożyczały one znaczne sumy, z perspektywą późniejszej spłaty w zdeprecjonowanej walucie z powodu szalejącej inflacji. Jednak gdy inflacja ustała, a marka niemiecka odzyskała wartość, firmy te, które nie były naprawdę rentowne pod względem operacyjnym i finansowym, stały się nierentowne i musiały zamknąć swoje podwoje.
+Koncepcja spółek zombie nie jest nowa. W rzeczywistości była ona obecna w Republice Weimarskiej. W tym czasie wiele firm zdawało się kwitnąć, czerpiąc ogromne korzyści z dostępu do darmowych kredytów. Pożyczały one znaczne sumy, z perspektywą późniejszej spłaty w zdeprecjonowanej walucie z powodu szalejącej inflacji. Jednak gdy inflacja ustała, a marka niemiecka odzyskała wartość, firmy te, które nie były tak naprawdę rentowne pod względem operacyjnym i finansowym, stały się nierentowne i musiały się zamknąć.
 
 
 ![image](assets/chapitre-3.3/5.webp)
 
 
-Zjawisko firm-zombie nie ogranicza się do powojennej historii Niemiec. Nawet dziś wiele dużych firm przetrwało dzięki uprzywilejowanemu dostępowi do bardzo nisko oprocentowanych kredytów. Gdyby musiały pożyczać na bardziej konwencjonalnych warunkach, wiele z nich przestałoby być rentownych. Jest to szczególnie istotne, ponieważ mamy rok 2023, a po długim okresie niemal zerowych stóp procentowych zaczęły one rosnąć. Ta niedawna zmiana w krajobrazie finansowym będzie niewątpliwie decydującym testem dla tych firm, które kiedyś nazywano "zombie".
+Zjawisko firm-zombie nie ogranicza się do powojennej historii Niemiec. Nawet dziś wiele dużych firm funkcjonuje dzięki uprzywilejowanemu dostępowi do bardzo nisko oprocentowanych kredytów. Gdyby musiały pożyczać na bardziej rynkowych warunkach, wiele z nich przestałoby być rentowne. Jest to szczególnie istotne, ponieważ mamy rok 2023, a po długim okresie niemal zerowych stóp procentowych zaczęły one rosnąć. Ta niedawna zmiana w krajobrazie finansowym będzie niewątpliwie decydującym testem dla tych firm, które kiedyś nazywano „zombie”.
 
 
-5. Szybkie wzbogacenie się!
+5. Wzbogać się szybko!
 
 
-W historii zdarzały się momenty, w których jednostki starały się szybko wzbogacić, jak miało to miejsce w Weimarze i Zimbabwe poprzez arbitraż. Dziś obserwujemy podobny trend wraz z pojawieniem się niektórych kryptowalut. Ludzie są kuszeni szybkimi zyskami, podejmując ryzyko w nadziei na wykładnicze pomnożenie swoich inwestycji. Takie podejście może przypominać to, co obserwuje się w okresach hiperinflacji, gdzie arbitraż jest wykorzystywany do uzyskania szybkich zysków, często kosztem innych.
+W historii zdarzały się momenty, w których jednostki starały się szybko wzbogacić dzięki arbitrażowi, jak miało to miejsce w Weimarze i Zimbabwe. Dziś obserwujemy podobny trend wraz z pojawieniem się niektórych kryptowalut. Ludzie są kuszeni szybkimi zyskami, podejmując ryzyko w nadziei na wykładnicze pomnożenie swoich inwestycji. Takie podejście może przypominać to, co obserwuje się w okresach hiperinflacji, gdzie arbitraż jest wykorzystywany do uzyskania szybkich zysków, często kosztem innych.
 
 
 ![image](assets/chapitre-3.3/6.webp)
@@ -1078,38 +1078,38 @@ W historii zdarzały się momenty, w których jednostki starały się szybko wzb
 6. Oszczędności, lekarstwo na niepewność
 
 
-> inwazyjny i destrukcyjny wpływ ciągłej erozji wartości kapitału i dochodu, a także niepewność co do przyszłości.
-> Warto zwrócić uwagę na cytat, który podkreśla destrukcyjny wpływ erozji wartości kapitału na spójność społeczną, a także niepewność, jaką ona generuje. Mówi on o "inwazyjnym i destrukcyjnym wpływie ciągłej erozji wartości kapitału i dochodów, a także niepewności co do przyszłości"
+> „Inwazyjny i destrukcyjny wpływ ciągłej erozji wartości kapitału i dochodu, a także niepewność co do przyszłości.”
+> Warto zwrócić uwagę na cytat, który podkreśla destrukcyjny wpływ erozji wartości kapitału na spójność społeczną, a także niepewność, jaką ona generuje. Mówi on o „inwazyjnym i destrukcyjnym wpływie ciągłej erozji wartości kapitału i dochodów, a także niepewności co do przyszłości”
 
-Wyobraź sobie scenariusz, w którym masz rodzinę lub bliskich, których chcesz chronić. Pracujesz w Hard, oszczędzasz pieniądze, aby przewidzieć przyszłą niepewność. Gdyby wszystko było przewidywalne, oszczędzanie byłoby bezużyteczne. Ale w obliczu nieoczekiwanego, jak zepsuty samochód, oszczędności stają się kołem ratunkowym. Zmniejszają niepewność świata. Jednak w okresie hiperinflacji oszczędzanie staje się wyzwaniem. Pieniądze szybko tracą na wartości, co utrudnia długoterminowe planowanie. Ta niestabilność finansowa może powodować stres i niepokój.
-
-
-Dziś, w obliczu malejącej siły nabywczej, inwestycje przejmują kontrolę. Takie podejście wiąże się jednak z pewnym ryzykiem. Oszczędności zawsze były lekarstwem na niepewność. Posiadanie rezerw finansowych na wypadek nieprzewidzianych sytuacji przyczynia się do spokoju ducha i wzmacnia spójność społeczną. Podsumowując, ochrona naszej siły nabywczej jest niezbędna do utrzymania stabilności społecznej i indywidualnej.
+Wyobraź sobie scenariusz, w którym masz rodzinę lub bliskich, których chcesz chronić. Ciężko pracujesz, oszczędzasz pieniądze na wypadek przyszłej niepewności. Gdyby wszystko było przewidywalne, oszczędzanie byłoby bezsensowne. Ale w obliczu nieoczekiwanego, jak zepsuty samochód, oszczędności stają się kołem ratunkowym. Zmniejszają niepewność świata. Jednak w okresie hiperinflacji oszczędzanie staje się wyzwaniem. Pieniądze szybko tracą na wartości, co utrudnia długoterminowe planowanie. Ta niestabilność finansowa może powodować stres i niepokój.
 
 
-## Redenominacje w Ameryce Łacińskiej
+Dziś w obliczu malejącej siły nabywczej pieniądza, prym wiodą inwestycje. Takie podejście wiąże się jednak z pewnym ryzykiem. Oszczędności zawsze były lekarstwem na niepewność. Posiadanie rezerw finansowych na wypadek nieprzewidzianych sytuacji przyczynia się do spokoju ducha i wzmacnia spójność społeczną. Podsumowując, ochrona naszej siły nabywczej jest niezbędna do utrzymania stabilności społecznej i indywidualnej.
+
+
+## Denominacje w Ameryce Łacińskiej
 
 
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 
-Przyjrzymy się teraz różnym okresom redenominacji w krajach Ameryki Łacińskiej.
+Przyjrzymy się teraz różnym okresom denominacji w krajach Ameryki Łacińskiej.
 
 
 ### Objaśnienie wykresów
 
 
-Na slajdzie po lewej stronie znajdują się lata redenominacji, nazwa nowej waluty i kurs Exchange w stosunku do starej waluty. Biorąc za przykład Argentynę, peso moneda nacional zostało przeliczone po kursie 25 do 1 w stosunku do poprzedniej waluty, peso real. W tym kontekście zbadamy ewolucję argentyńskiej waluty w czasie. Dodatkowo wskażemy początkowe i końcowe nominały banknotów dla każdego okresu.
+Na slajdzie po lewej stronie znajdują się daty denominacji, nazwa nowej waluty i kurs wymiany w stosunku do starej waluty. Biorąc za przykład Argentynę, peso moneda nacional zostało przeliczone po kursie 25 do 1 w stosunku do poprzedniej waluty, peso real. W tym kontekście zbadamy ewolucję argentyńskiej waluty w czasie. Dodatkowo wskażemy początkowe i końcowe nominały banknotów dla każdego okresu.
 
 
 ![image](assets/chapitre-3.4/1.webp)
 
 
-Po prawej stronie slajdu znajduje się wykres inflacji. Czerwone strzałki oznaczają lata hiperinflacji, zdefiniowanej zgodnie z kryterium Kagana jako stopa inflacji na poziomie 50% miesięcznie. Kryterium to może czasami prowadzić do niejednoznacznych interpretacji, z latami o wysokich stopach inflacji, ale niespełniającymi ścisłej definicji hiperinflacji.
+Po prawej stronie slajdu znajduje się wykres inflacji. Czerwone strzałki oznaczają lata hiperinflacji, zdefiniowanej zgodnie z kryterium Cagana jako stopa inflacji na poziomie 50% miesięcznie. Kryterium to może czasami prowadzić do niejednoznacznych interpretacji, z latami o wysokich stopach inflacji, ale niespełniającymi ścisłej definicji hiperinflacji.
 
-Należy zauważyć, że redenominacja w okresach inflacji jest powszechnym środkiem podejmowanym przez rządy. Nie rozwiązuje to jednak podstawowego problemu inflacji lub hiperinflacji. Jest to jedynie sposób na zmianę nazwy waluty i usunięcie zer, bez prawdziwego zajęcia się podstawową przyczyną hiperinflacji: ekspansją pieniądza Supply. W późniejszym wideo omówimy prawdziwe rozwiązania Address i rozwiążemy problem hiperinflacji. W tej serii podkreślimy konsekwencje prostej redenominacji bez odpowiednich reform: inflacja utrzymuje się.
+Należy zauważyć, że denominacja w okresach inflacji jest powszechnym środkiem podejmowanym przez rządy. Nie rozwiązuje to jednak podstawowego problemu inflacji lub hiperinflacji. Jest to jedynie sposób na zmianę nazwy waluty i usunięcie zer bez prawdziwego zajęcia się podstawową przyczyną hiperinflacji: ekspansją podaży pieniądza. W późniejszym wideo omówimy faktycznie działające rozwiązania rozwiązujące problem hiperinflacji. W tej serii podkreślimy konsekwencje prostej denominacji bez odpowiednich reform: inflacja utrzymuje się.
 
-Po Argentynie nasze badanie obejmie Brazylię, Boliwię, Peru, Nikaraguę i Wenezuelę. Przeanalizujemy redenominacje, które miały miejsce w tych krajach.
+Po Argentynie nasze badanie obejmie Brazylię, Boliwię, Peru, Nikaraguę i Wenezuelę. Przeanalizujemy denominacje, które miały miejsce w tych krajach.
 
 
 ### Argentyna
@@ -1118,7 +1118,7 @@ Po Argentynie nasze badanie obejmie Brazylię, Boliwię, Peru, Nikaraguę i Wene
 ![image](assets/chapitre-3.4/1.webp)
 
 
-Przed 1826 r. Argentyna używała dolara hiszpańskiego. Po uzyskaniu niepodległości w 1816 r. Argentyna wprowadziła własną walutę opartą na hiszpańskim realu, co doprowadziło do powstania podobnej waluty. Tabela rozpoczyna się w 1881 r., w którym wprowadzono "peso moneda nacional" z banknotami do 10 000. Następnie pojawiło się "peso ley", wymieniane po kursie 100 do 1 i z banknotami do miliona. Następnie pojawiło się "peso argentyńskie" z kursem Exchange wynoszącym 10 000 do 1 (co odpowiada usunięciu czterech zer) i banknotami do 10 000. W 1985 r. wprowadzono "australes", które wymieniano po kursie 1 000 do 1, z banknotami do 500 000. W 1992 r. wprowadzono obecną walutę "peso ley" po kursie 10 000 do 1, ponownie usuwając cztery zera. Jedynie w latach 1989 i 1990 miała miejsce hiperinflacja.
+Przed 1826 r. Argentyna używała dolara hiszpańskiego. Po uzyskaniu niepodległości w 1816 r. Argentyna wprowadziła własną walutę opartą na hiszpańskim realu, co doprowadziło do powstania podobnej waluty. Tabela rozpoczyna się w 1881 r., w którym wprowadzono „peso moneda nacional” z banknotami do 10 000. Następnie pojawiło się „peso ley”, wymieniane po kursie 100 do 1 i z banknotami do miliona. Następnie pojawiło się „peso argentyńskie” z kursem wymiany wynoszącym 10 000 do 1 (co odpowiada usunięciu czterech zer) i banknotami do 10 000. W 1985 r. wprowadzono „australes”, które wymieniano po kursie 1 000 do 1, z banknotami do 500 000. W 1992 r. wprowadzono obecną walutę „peso ley” po kursie 10 000 do 1, ponownie usuwając cztery zera. Jedynie w latach 1989 i 1990 miała miejsce hiperinflacja.
 
 
 ### Brazylia
@@ -1127,9 +1127,9 @@ Przed 1826 r. Argentyna używała dolara hiszpańskiego. Po uzyskaniu niepodleg�
 ![image](assets/chapitre-3.4/2.webp)
 
 
-Brazylia jest emblematycznym przykładem redenominacji monetarnej, co ilustruje jej historia zmian walutowych. Przed uzyskaniem niepodległości Brazylia używała portugalskiego reala. Jednak już w 1747 roku kraj zaczął używać własnego "reala brazylijskiego", na długo przed ogłoszeniem niepodległości w 1822 roku. Tabela rozpoczyna się w 1818 r., co oznacza początek emisji brazylijskich banknotów. Wcześniej waluta miała głównie formę monet. Banknoty te osiągały wartość do miliona reali.
+Brazylia jest emblematycznym przykładem denominacji monetarnej, co ilustruje jej historia zmian walutowych. Przed uzyskaniem niepodległości Brazylia używała portugalskiego reala. Jednak już w 1747 roku kraj zaczął używać własnego „reala brazylijskiego”, na długo przed ogłoszeniem niepodległości w 1822 roku. Tabela rozpoczyna się w 1818 r., co oznacza początek emisji brazylijskich banknotów. Wcześniej waluta miała głównie formę monet. Banknoty te osiągały wartość do miliona reali.
 
-Począwszy od 1942 r. Brazylia rozpoczęła serię redenominacji. W większości przypadków (1942, 1967, 1986, 1989, 1993) kurs wymiany wynosił 1000 do 1. W 1990 r. nastąpiła zmiana nazwy bez konwersji. Kolejność tych walut jest następująca:
+Począwszy od 1942 r. Brazylia rozpoczęła serię denominacji. W większości przypadków (1942, 1967, 1986, 1989, 1993) kurs wymiany wynosił 1000 do 1. W 1990 r. nastąpiła zmiana nazwy bez konwersji. Kolejność tych walut jest następująca:
 
 
 
@@ -1152,21 +1152,21 @@ Najwyższy nominał banknotu osiągnął 500 000, a ostatnia redenominacja w 199
 ![image](assets/chapitre-3.4/3.webp)
 
 
-Boliwia jest kolejnym przykładem kraju, który przechodził przez okresy ostrej inflacji, wymagającej redenominacji waluty. Oto podsumowanie historii walutowej tego kraju:
+Boliwia jest kolejnym przykładem kraju, który przechodził przez okresy ostrej inflacji, wymagającej denominacji waluty. Oto podsumowanie historii walutowej tego kraju:
 
 
 Przed uzyskaniem niepodległości w 1825 r. Boliwia używała dolara hiszpańskiego jako swojej waluty. Po uzyskaniu niepodległości, w latach 1827-1864 kraj wprowadził boliwijskiego sola, zastępując nim hiszpańskiego dolara. Należy jednak zauważyć, że pierwsze banknoty w Boliwii pojawiły się dopiero w 1864 roku.
 
 
-W 1864 r. wprowadzono pierwsze "Boliviano", z kursem Exchange wynoszącym 1,000 do 1 w stosunku do boliwijskiego Sol. Waluta ta pozostawała w obiegu aż do osiągnięcia nominału 10 000 boliviano.
+W 1864 r. wprowadzono pierwsze „boliviano”, z kursem wymiany wynoszącym 1,000 do 1 w stosunku do boliwijskiego sol. Waluta ta pozostawała w obiegu aż do osiągnięcia nominału 10 000 boliviano.
 
-Następnie Boliwia zmieniła swoją walutę na "peso boliwijskie", które doświadczyło tak poważnej hiperinflacji, że ostatecznie osiągnęło nominały do 10 milionów. Ten epizod inflacji osiągnął szczyt w latach 1984-1985, a miesięczne stopy inflacji często zbliżały się do progu hiperinflacji wynoszącego 50%. Aby zapewnić pewną perspektywę, stała stopa inflacji wynosząca 50% miesięcznie przez cały rok daje roczną stopę inflacji wynoszącą około 12 800%. W 1985 r. roczna stopa inflacji w Boliwii osiągnęła 11 749%, co oznacza, że niemal w każdym miesiącu inflacja była bliska lub przekraczała próg 50%.
-
-
-W odpowiedzi na ten kryzys monetarny, w 1987 r. Boliwia wprowadziła nową walutę, zwaną po prostu "Boliviano", z kursem Exchange wynoszącym 1 milion peso boliwijskich za 1 Boliviano. Ta wersja Boliviano jest nadal w obiegu.
+Następnie Boliwia zmieniła swoją walutę na „peso boliwijskie”, które doświadczyło tak poważnej hiperinflacji, że ostatecznie osiągnęło nominały do 10 milionów. Ten epizod inflacji osiągnął szczyt w latach 1984-1985, a miesięczne stopy inflacji często zbliżały się do progu hiperinflacji wynoszącego 50%. Aby zapewnić pewną perspektywę, stała stopa inflacji wynosząca 50% miesięcznie przez cały rok daje roczną stopę inflacji wynoszącą około 12 800%. W 1985 r. roczna stopa inflacji w Boliwii osiągnęła 11 749%, co oznacza, że niemal w każdym miesiącu inflacja była bliska lub przekraczała próg 50%.
 
 
-Oto przegląd burzliwej historii monetarnej Boliwii, naznaczonej okresami hiperinflacji i redenominacji.
+W odpowiedzi na ten kryzys monetarny, w 1987 r. Boliwia wprowadziła nową walutę, zwaną po prostu „boliviano”, z kursem wymianem wynoszącym 1 milion peso boliwijskich za 1 boliviano. Ta wersja boliviano jest nadal w obiegu.
+
+
+Oto przegląd burzliwej historii monetarnej Boliwii, naznaczonej okresami hiperinflacji i denominacji.
 
 
 ### Peru
@@ -1175,22 +1175,22 @@ Oto przegląd burzliwej historii monetarnej Boliwii, naznaczonej okresami hiperi
 ![image](assets/chapitre-3.4/4.webp)
 
 
-Peru przedstawia interesujący przypadek dotyczący skutków arbitralnej zasady 50%. Zaczynając od historii monetarnej, Peru używało hiszpańskiego złota do XIX wieku i ogłosiło niepodległość w 1821 roku. Dolar peruwiański był w użyciu od 1822 do 1863 roku. W 1863 r. peruwiański real został zastąpiony przez soldi oro, w stosunku 10 do 1, osiągając maksymalną wartość 50 000. W 1985 r. wprowadzono walutę "Inti" z kursem wymiany 1000 do 1, osiągając maksymalną wartość 5 milionów. W 1991 r. wprowadzono "SOL" z kursem Exchange wynoszącym 1 milion do 1, z banknotami o nominałach od 10 do 200.
+Peru to interesujący przypadek dotyczący skutków arbitralnej zasady 50%. Zaczynając od historii monetarnej, Peru używało hiszpańskiego złota do XIX wieku i ogłosiło niepodległość w 1821 roku. Dolar peruwiański był w użyciu od 1822 do 1863 roku. W 1863 r. peruwiański real został zastąpiony przez soldi oro, w stosunku 10 do 1, osiągając maksymalną wartość 50 000. W 1985 r. wprowadzono walutę „Inti” z kursem wymiany 1000 do 1, osiągając maksymalną wartość 5 milionów. W 1991 r. wprowadzono „SOL” z kursem wymiany wynoszącym 1 milion do 1, z banknotami o nominałach od 10 do 200.
 
-Analizując okresy redenominacji, rok 1988 jest uważany za rok hiperinflacji, szczególnie we wrześniu. Lipiec-sierpień 1990 r. również był okresem hiperinflacji. W 1988 r. roczna stopa inflacji wyniosła 667%, ze szczytem 50% we wrześniu. W przeciwieństwie do tego, w 1989 r. stopa inflacji wyniosła 3000% bez żadnego miesiąca przekraczającego 50%, więc nie została sklasyfikowana jako hiperinflacja. W 1990 r. inflacja osiągnęła szczyt na poziomie 7481%. Oczywiste jest, że zasada 50% może być arbitralna, ponieważ rok 1988 został uznany za rok hiperinflacji, w przeciwieństwie do roku 1989. Gdyby ponownie rozważyć tę zasadę, rozsądne byłoby obniżenie progu, aby uwzględnić okresy takie jak ten, którego doświadczyło Peru w 1989 roku.
+Analizując okresy denominacji, rok 1988 jest uważany za rok hiperinflacji, szczególnie we wrześniu. Lipiec-sierpień 1990 r. również był okresem hiperinflacji. W 1988 r. roczna stopa inflacji wyniosła 667%, ze szczytem 50% we wrześniu. W przeciwieństwie do tego, w 1989 r. stopa inflacji wyniosła 3000% bez żadnego miesiąca przekraczającego 50%, więc nie została sklasyfikowana jako hiperinflacja. W 1990 r. inflacja osiągnęła szczyt na poziomie 7481%. Oczywiste jest, że zasada 50% może być arbitralna, ponieważ rok 1988 został uznany za rok hiperinflacji, w przeciwieństwie do roku 1989. Gdyby ponownie rozważyć tę zasadę, rozsądne byłoby obniżenie progu, aby uwzględnić okresy takie jak ten, którego doświadczyło Peru w 1989 roku.
 
 
 > Zrozumienie tego, co się dzieje
 >
 
-> Kluczową rzeczą, którą należy zrozumieć na temat redenominacji walut, jest to, że gdy wartość waluty osiągnie astronomiczne liczby, takie jak 5 lub 10 milionów, jest ona redenominowana. Proces ten może być powtarzany wielokrotnie, co wiąże się ze zmianą waluty. W rezultacie oszczędności osób fizycznych mogą zostać poważnie naruszone, nawet przy braku hiperinflacji. Na przykład, jeśli ktoś oszczędza 1000 USD w ciągu jednego roku i zdoła odłożyć 100 USD, w następnym roku najniższy nominał banknotu może wynosić 1000 USD, co sprawi, że wcześniej zaoszczędzone 100 USD będzie bezwartościowe. Taka erozja oszczędności nie wymaga oczywistej hiperinflacji. Nawet jeśli dana osoba zaoszczędziła 10 000 USD w ciągu ostatnich dziesięciu lat, kwota ta może okazać się nieznaczna, niezdolna do zakupu zwykłej butelki wody. Rzeczywistość ta jest widoczna w wielu krajach, które doświadczyły redenominacji, nawet jeśli tylko przez kilka miesięcy były klasyfikowane jako hiperinflacyjne. Z kolei niektóre kraje, takie jak Nikaragua, doświadczyły kolejnych lat hiperinflacji.
+> Kluczową rzeczą, którą należy zrozumieć na temat denominacji walut, jest to, że gdy wartość waluty osiąga astronomiczne liczby, takie jak 5 lub 10 milionów, jest ona denominowana. Proces ten może być powtarzany wielokrotnie, co wiąże się ze zmianą waluty. W rezultacie oszczędności osób fizycznych mogą zostać poważnie uszczuplone nawet przy braku hiperinflacji. Na przykład jeśli ktoś oszczędza 1000 USD w ciągu jednego roku i zdoła odłożyć 100 USD, w następnym roku najniższy nominał banknotu może wynosić 1000 USD, co sprawi, że wcześniej zaoszczędzone 100 USD będzie bezwartościowe. Taka erozja oszczędności nie wymaga oczywistej hiperinflacji. Nawet jeśli dana osoba zaoszczędziła 10 000 USD w ciągu ostatnich dziesięciu lat, kwota ta może okazać się nieznaczna, niewystarczająca na zakup zwykłej butelki wody. Rzeczywistość ta jest widoczna w wielu krajach, które doświadczyły denominacji, nawet jeśli tylko przez kilka miesięcy były klasyfikowane jako hiperinflacyjne. Z kolei niektóre kraje, takie jak Nikaragua, doświadczyły kilku kolejnych lat hiperinflacji.
 
 ### Nikaragua
 
 
 ![image](assets/chapitre-3.4/5.webp)
 
-Nikaragua, będąca wcześniej pod panowaniem Hiszpanii, początkowo używała dolara hiszpańskiego, podobnie jak wiele innych krajów skolonizowanych przez Hiszpanię. Po włączeniu do Imperium Hiszpańskiego, Imperium Meksykańskiego, a następnie Federalnej Republiki Ameryki Środkowej, Nikaragua ogłosiła niepodległość. Począwszy od 1878 r. peso stało się oficjalną walutą kraju, a jego wartość wahała się od 1 do 100. W 1912 r. kraj wprowadził pierwszą Cordobę, a następnie drugą w 1988 r. i trzecią w 1991 r., która jest nadal w użyciu. Pierwsza Cordoba osiągnęła wartość 1 miliona, a druga 10 milionów. Renominacja w 1991 r. nastąpiła po kilku latach hiperinflacji.
+Nikaragua, będąca wcześniej pod panowaniem Hiszpanii, początkowo używała dolara hiszpańskiego, podobnie jak wiele innych krajów skolonizowanych przez Hiszpanię. Po włączeniu do Imperium Hiszpańskiego, Imperium Meksykańskiego, a następnie Federalnej Republiki Ameryki Środkowej, Nikaragua ogłosiła niepodległość. Począwszy od 1878 r. peso stało się oficjalną walutą kraju, a jego wartość wahała się od 1 do 100. W 1912 r. kraj wprowadził pierwszą cordobę, a następnie drugą w 1988 r. i trzecią w 1991 r., która jest nadal w użyciu. Pierwsza cordoba osiągnęła wartość 1 miliona, a druga 10 milionów. Renominacja w 1991 r. nastąpiła po kilku latach hiperinflacji.
 
 
 ### Wenezuela
@@ -1199,7 +1199,7 @@ Nikaragua, będąca wcześniej pod panowaniem Hiszpanii, początkowo używała d
 ![image](assets/chapitre-3.4/6.webp)
 
 
-Wenezuela jest ostatnim krajem wymienionym w tym filmie. Kraj ten przeszedł cztery redenominacje waluty na przestrzeni czasu. Na początku swojego istnienia Wenezuela używała dolara hiszpańskiego, zanim ogłosiła niepodległość w 1811 roku. W 1879 r. wprowadzono boliwara jako oficjalną walutę, która obowiązywała do 1983 r., kiedy to rząd zdecydował się na dolara o zmiennym kursie Exchange.
+Wenezuela jest ostatnim krajem wymienionym w tym filmie. Kraj ten przeszedł cztery denominacje waluty na przestrzeni lat. Na początku swojego istnienia Wenezuela używała dolara hiszpańskiego, zanim ogłosiła niepodległość w 1811 roku. W 1879 r. wprowadzono boliwara jako oficjalną walutę, która obowiązywała do 1983 r., kiedy to rząd zdecydował się na dolara o zmiennym kursie wymiany.
 
 
 Godnym uwagi faktem dotyczącym Wenezueli jest jej członkostwo w Łacińskiej Unii Monetarnej. Unia ta obejmowała monety takie jak 5 peset z Hiszpanii, 5 drachm z Grecji, 5 boliwarów z Wenezueli, 5 lirów z Włoch, 5 franków belgijskich i 5 franków francuskich.
@@ -1220,23 +1220,23 @@ Godnym uwagi faktem dotyczącym Wenezueli jest jej członkostwo w Łacińskiej U
 W tym okresie moneta 5 boliwarów z Wenezueli miała taką samą wagę jak monety krajów członkowskich Unii, w tym Włoch, Hiszpanii, Belgii i Francji. Boliwar był wykonany ze srebra, a konkretna moneta z 1929 roku ważyła 25 gramów i miała czystość 900, czyli 90% czystego srebra. Przy obecnej cenie srebra, moneta ta jest warta około 17-18 dolarów amerykańskich.
 
 
-Po przyjęciu zmiennego kursu Exchange w 1983 r. nastąpiło kilka redenominacji:
+Po przyjęciu zmiennego kursu wymiany w 1983 r. nastąpiło kilka denominacji:
 
 
 
-- W 2008 r. wprowadzono boliwara fuerte, czyli "mocnego boliwara", który osiągnął poziom 100 000 przed redenominacją do 1 000.
-- W 2018 r. wprowadzono Soberano z banknotami sięgającymi 1 miliona. W 2021 r. został zastąpiony przez cyfrowego boliwara, który również osiągnął milion, przed nową redenominacją miliona do jednego. Obecnie banknot 10 lub 20 jest równoważny 10 milionom lub 20 milionom w Soberano.
+- W 2008 r. wprowadzono boliwara fuerte, czyli „mocnego boliwara”, który osiągnął poziom 100 000 przed redenominacją do 1 000.
+- W 2018 r. wprowadzono soberano z banknotami sięgającymi 1 miliona. W 2021 r. został zastąpiony przez cyfrowego boliwara, który również osiągnął milion, przed nową denominacją miliona do jednego. Obecnie banknot 10 lub 20 jest równoważny 10 milionom lub 20 milionom w soberano.
 
-Rachunki z tego okresu, pochodzące z 2018 r., są rozprowadzane na różnych konferencjach Bitcoin w Biarritz, Toronto i Miami. Te banknoty Soberano osiągnęły maksymalną wartość 1 miliona. Następnie przeprowadzono redenominację, zmniejszając wartość jednego miliona do około 3 centów. Obecnie 10 banknotów o nominale 1 miliona odpowiada jednemu banknotowi o nominale 10 centów. Od 2016 r. Wenezuela doświadcza hiperinflacji, co stanowi 57. okres w określonej tabeli.
+Rachunki z tego okresu, pochodzące z 2018 r., są rozprowadzane na różnych konferencjach Bitcoina w Biarritz, Toronto i Miami. Te banknoty soberano osiągnęły maksymalną wartość 1 miliona. Następnie przeprowadzono denominację, zmniejszając wartość jednego miliona do około 3 centów. Obecnie 10 banknotów o nominale 1 miliona odpowiada jednemu banknotowi o nominale 10 centów. Od 2016 r. Wenezuela doświadczyła hiperinflacji, co plasuje ją jako 57. przykład we wczesniej wspomnianej tabeli historii hiperinflacji.
 
 
-W następnym filmie zaprezentowana zostanie kolekcja banknotów hiperinflacyjnych, skupiająca się na Wenezueli i innych wymienionych krajach. Kolekcja ta zawiera prawie wszystkie wenezuelskie banknoty. Badanie skupi się na różnych redenominacjach dla każdego wymienionego kraju. Ponadto zostanie przeprowadzona analiza redenominacji w Zimbabwe, która jest tematem godnym uwagi.
+W następnym filmie zaprezentowana zostanie kolekcja banknotów hiperinflacyjnych, skupiająca się na Wenezueli i innych wymienionych krajach. Kolekcja ta zawiera prawie wszystkie wenezuelskie banknoty. Analiza skupi się na różnych denominacjach dla każdego wymienionego kraju. Ponadto zostanie przeprowadzona analiza denominacji w Zimbabwe, która jest tematem godnym uwagi.
 
 
 ### Wnioski
 
 
-Widzieliśmy, że hiperinflacja nie jest jedynym wskaźnikiem katastrofy gospodarczej. Wielokrotna redenominacja, usuwanie zer lub zmiana nazwy waluty ma bezpośredni wpływ na ludność, począwszy od utraty pomocy, a skończywszy na problemach z żywnością. Chociaż hiperinflacja jest niepokojąca, liczba redenominacji, jaką zaobserwowano w Brazylii, pokazuje bardziej złożoną rzeczywistość.
+Widzieliśmy, że hiperinflacja nie jest jedynym wskaźnikiem katastrofy gospodarczej. Wielokrotna denominacja, usuwanie zer lub zmiana nazwy waluty ma bezpośredni wpływ na ludność, począwszy od utraty pomocy, a skończywszy na problemach z żywnością. Chociaż hiperinflacja jest niepokojąca, liczba denominacji, jaką zaobserwowano w Brazylii, pokazuje bardziej złożoną rzeczywistość.
 
 
 W oparciu o kryterium 50% inflacji miesięcznie, kilka okresów mogło zostać sklasyfikowanych jako hiperinflacja. Jest to szczególnie prawdziwe, gdy analizuje się kryteria międzynarodowej organizacji księgowej, która bierze pod uwagę takie cechy, jak szybkie porzucenie waluty przez ludność, indeksacja płac i pożyczki o wysokim oprocentowaniu w celu zrekompensowania inflacji.

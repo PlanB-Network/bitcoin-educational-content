@@ -938,20 +938,20 @@ W odpowiedzi na tę sytuację rząd nakłada drakońskie regulacje, w tym kontro
 1. Ropa naftowa i metale
 
 
-W Niemczech w okresie weimarskim kradzież cennych materiałów była tak duża, że ołów z dachów był często kradziony. W Zimbabwe desperacja doprowadziła niektórych do przerwania sieci energetycznej w celu wydobycia oleju z transformatorów i wykorzystania go w swoich pojazdach.
+W Niemczech w okresie weimarskim kradzież cennych materiałów była tak duża, że ołów z dachów był często kradziony. W Zimbabwe desperacja doprowadziła niektórych ludzi do przerywania sieci energetycznej w celu wydobycia oleju z transformatorów i wykorzystania go w swoich pojazdach.
 
-W kontekście pogarszającej się sytuacji gospodarczej i niedoboru zasobów, rządy mogą wdrażać systemy racjonowania w celu kontrolowania dystrybucji podstawowych towarów. Obejmuje to wykorzystanie kuponów lub voucherów do regulowania zakupu benzyny lub paliwa.
-
-
-> Weimar: "W Berlinie, ze względu na niedobór benzyny, wdrożono system kuponów, aby regulować jej dystrybucję. Każdemu obywatelowi przydzielono określoną liczbę kuponów, które pozwalały mu na zakup ograniczonej ilości paliwa"
-
-> Zimbabwe: "Podczas kryzysu paliwowego rząd wprowadził system kuponów do zarządzania dystrybucją benzyny. Każda osoba otrzymała określoną liczbę kuponów, które można było wymienić na określoną ilość paliwa"
-> Społeczeństwa szukają stabilnych alternatyw dla transakcji. W Weimarze produkty takie jak mosiądz i paliwo służyły jako środki Exchange ze względu na ich stałą wartość wewnętrzną. W Zimbabwe, w obliczu gwałtownej dewaluacji dolara zimbabweńskiego, kupony na benzynę, które reprezentowały stałą ilość niezbędnego produktu, stały się de facto walutą. Sytuacje te pokazują, jak społeczeństwa dostosowują się do ekstremalnych warunków ekonomicznych, znajdując innowacyjne rozwiązania, aby utrzymać handel i gospodarkę w ruchu.
-
-Weimar: "Wymiana barterowa była już powszechną formą Exchange; ale teraz towary takie jak mosiądz i paliwo stały się wspólną walutą zakupów i płatności"
+W kontekście pogarszającej się sytuacji gospodarczej i niedoboru zasobów, rządy mogą wdrażać systemy racjonowania towarów w celu kontrolowania dystrybucji podstawowych dóbr. Obejmuje to wykorzystanie kartek lub kuponów do regulowania zakupu benzyny lub paliwa.
 
 
-Zimbabwe: "Używaliśmy teraz tych bonów do płacenia czynszu właścicielom nieruchomości, podatków miejskich, rachunków telefonicznych, w rzeczywistości prawie wszystkiego, ponieważ wszyscy przestali akceptować płatności w dolarach zimbabweńskich i czekach"
+> Weimar: „W Berlinie, ze względu na niedobór benzyny, wdrożono system kuponów, aby regulować jej dystrybucję. Każdemu obywatelowi przydzielono określoną liczbę kuponów, które pozwalały mu na zakup ograniczonej ilości paliwa”
+
+> Zimbabwe: „Podczas kryzysu paliwowego rząd wprowadził system kuponów do zarządzania dystrybucją benzyny. Każda osoba otrzymała określoną liczbę kuponów, które można było wymienić na określoną ilość paliwa”
+> Społeczeństwa szukają stabilnych alternatyw dla transakcji. W Weimarze produkty takie jak mosiądz i paliwo służyły jako środki wymiany ze względu na ich stałą wartość wewnętrzną. W Zimbabwe, w obliczu gwałtownej dewaluacji dolara zimbabweńskiego, kupony na benzynę, które reprezentowały stałą ilość niezbędnego produktu, stały się de facto walutą. Sytuacje te pokazują, jak społeczeństwa dostosowują się do ekstremalnych warunków ekonomicznych, znajdując innowacyjne rozwiązania, aby utrzymać handel i gospodarkę w ruchu.
+
+Weimar: „Wymiana barterowa była już powszechną formą wymiany; ale teraz towary takie jak mosiądz i paliwo stały się wspólną walutą zakupów i płatności”
+
+
+Zimbabwe: „Używaliśmy teraz tych bonów do płacenia czynszu właścicielom nieruchomości, podatków miejskich, rachunków telefonicznych, w rzeczywistości prawie wszystkiego, ponieważ wszyscy przestali akceptować płatności w dolarach zimbabweńskich i czekach”
 
 
 #### Wnioski
@@ -966,7 +966,7 @@ Na tym kończymy ten materiał wideo poświęcony podobieństwom doświadczeń w
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 
-W tym rozdziale zbadamy różnice i współczesne podobieństwa między przeszłymi i obecnymi okresami hiperinflacji, wraz z anegdotami i odpowiednimi porównaniami dla dnia dzisiejszego.
+W tym rozdziale zbadamy różnice i współczesne podobieństwa między przeszłymi i obecnymi okresami hiperinflacji, przedstawimy anegdoty i odpowiednie porównania z dniem dzisiejszym.
 
 
 ### Różnice między Republiką Weimarską a Zimbabwe
@@ -975,7 +975,7 @@ W tym rozdziale zbadamy różnice i współczesne podobieństwa między przeszł
 1. To wina dolara!
 
 
-W Niemczech powszechne było przypisywanie inflacji wzrostowi wartości dolara, a nie wewnętrznej dewaluacji własnej waluty. Wielu uważało, że obserwowane zjawisko było spowodowane aprecjacją dolara. Takie postrzeganie odrzucało jakiekolwiek uznanie związku między ich trudnościami gospodarczymi a dewaluacją pieniądza, głównie wywołaną nadmierną kreacją pieniądza. Książka "When Money Dies" wyraźnie ilustruje ten brak zrozumienia wśród niemieckiej ludności. Z kolei w Zimbabwe sytuacja wyglądała inaczej: obywatele byli w pełni świadomi przyczyn hiperinflacji, której doświadczali.
+W Niemczech powszechne było przypisywanie inflacji wzrostowi wartości dolara, a nie wewnętrznej dewaluacji własnej waluty. Wielu uważało, że obserwowane zjawisko było spowodowane aprecjacją dolara. Takie postrzeganie odrzucało jakiekolwiek uznanie związku między ich trudnościami gospodarczymi a dewaluacją pieniądza, głównie wywołaną nadmierną kreacją pieniądza. Książka „When Money Dies” wyraźnie ilustruje ten brak zrozumienia wśród niemieckiej ludności. Z kolei w Zimbabwe sytuacja wyglądała inaczej: obywatele byli w pełni świadomi przyczyn hiperinflacji, której doświadczali.
 
 
 ![image](assets/chapitre-3.3/3.webp)
@@ -984,27 +984,27 @@ W Niemczech powszechne było przypisywanie inflacji wzrostowi wartości dolara, 
 2. Waluta niezbędna (Notgeld)
 
 
-W obliczu kryzysu monetarnego i gospodarczego Niemcy uciekły się do "Notgeld" (pieniądza awaryjnego). Banknoty te, drukowane przez miasta lub określone firmy, miały na celu Address niedobór wspólnej waluty.
+W obliczu kryzysu monetarnego i gospodarczego Niemcy uciekły się do „Notgeld” (pieniądza awaryjnego). Banknoty te, drukowane przez miasta lub określone firmy, miały na celu rozwiązanie problemu niedoboru wspólnej waluty.
 
-Co ciekawe, Francja również uciekła się do notgeldu, szczególnie w latach 20. ubiegłego wieku. Inicjatywa ta była nie tylko bezpośrednią konsekwencją hiperinflacji, ale także miała swoje korzenie w zakłóceniach spowodowanych I wojną światową. Wojna nie tylko zdestabilizowała gospodarkę, ale także zwiększyła koszt metali. W rezultacie wartość wewnętrzna metalowych monet często przekraczała ich wartość nominalną, co skłaniało ludzi do ich gromadzenia. Wobec braku monet, niektóre instytucje, takie jak Lyońska Izba Handlowa, drukowały własny Notgeld.
+Co ciekawe, Francja również uciekła się do Notgeldu, szczególnie w latach 20. ubiegłego wieku. Inicjatywa ta była nie tylko bezpośrednią konsekwencją hiperinflacji, ale także miała swoje korzenie w zakłóceniach spowodowanych I wojną światową. Wojna nie tylko zdestabilizowała gospodarkę, ale także zwiększyła koszt metali. W rezultacie wartość wewnętrzna metalowych monet często przekraczała ich wartość nominalną, co skłaniało ludzi do ich gromadzenia. Wobec braku monet, niektóre instytucje, takie jak Lyońska Izba Handlowa, drukowały własny Notgeld.
 
 ![image](assets/chapitre-3.3/0.webp)
 
 
-> "Co ma być zrobione, musi być zrobione" - lokalne powiedzenie
+> „Trzeba zrobić to, co musi być zrobione” - lokalne powiedzenie
 
-Wśród Notgeld wyróżnia się jeden szczególny banknot. Znajduje się na nim przejmująca ilustracja: w centrum przedstawiono osobę wypróżniającą się na Marka. Na odwrocie znajduje się tabela cen z lat 1913-1921 ilustrująca wzrost inflacji w tym okresie.
+Wśród Notgeld wyróżnia się jeden szczególny banknot. Znajduje się na nim przejmująca ilustracja: w centrum przedstawiono osobę wypróżniającą się na markę. Na odwrocie znajduje się tabela cen z lat 1913-1921 ilustrująca wzrost inflacji w tym okresie.
 
 
-Artysta stojący za tym Notgeld wydaje się w ironiczny sposób krytykować władze odpowiedzialne za kryzys hiperinflacyjny. Na banknocie widnieje napis "Konieczność nie zna prawa". Inne wyrażenie specyficzne dla miejsca pochodzenia Notgeldu stwierdza: "Co trzeba zrobić, trzeba zrobić".
+Artysta stojący za tym Notgeld wydaje się w ironiczny sposób krytykować władze odpowiedzialne za kryzys hiperinflacyjny. Na banknocie widnieje napis „Konieczność nie zna prawa”. Inne wyrażenie specyficzne dla miejsca pochodzenia Notgeldu stwierdza: „Trzeba zrobić to, co musi być zrobione”.
 
 
 ![image](assets/chapitre-3.3/1.webp)
 
 
-> "konieczność nie zna prawa"
+> „Konieczność nie zna prawa”
 
-> Pierwszy Shitcoin: Anegdotycznie, patrząc na centralną ilustrację banknotu, gdzie waluta jest dosłownie dewaluowana przez działania jednostki, można by ją nazwać pierwszym "shitcoinem".
+> Pierwszy Shitcoin: Anegdotycznie, patrząc na centralną ilustrację banknotu, gdzie waluta jest dosłownie dewaluowana przez działania jednostki, można by ją nazwać pierwszym „shitcoinem”.
 
 3. Skrypty dłużne i hipoteki
 

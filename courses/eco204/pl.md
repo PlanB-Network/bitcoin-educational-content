@@ -1133,13 +1133,13 @@ Począwszy od 1942 r. Brazylia rozpoczęła serię denominacji. W większości p
 
 
 
-- Réals (stara wersja) do 1942 roku.
-- Cruzeiros w 1942 roku.
-- Cruzeiros (nowa wersja) w 1967 roku.
-- Cruzados w 1986 roku.
-- Cruzados Novo w 1989 roku.
-- Powrót do Cruzeiros w 1990 roku.
-- Cruzeiros Reais w 1993 roku.
+- Réal (stara wersja) do 1942 roku.
+- Cruzeiro w 1942 roku.
+- Cruzeiro (nowa wersja) w 1967 roku.
+- Cruzado w 1986 roku.
+- Cruzado novo w 1989 roku.
+- Powrót do cruzeiro w 1990 roku.
+- Cruzeiro real w 1993 roku.
 - Wreszcie, brazylijski real w 1994 roku.
 
 
@@ -1236,10 +1236,10 @@ W następnym filmie zaprezentowana zostanie kolekcja banknotów hiperinflacyjnyc
 ### Wnioski
 
 
-Widzieliśmy, że hiperinflacja nie jest jedynym wskaźnikiem katastrofy gospodarczej. Wielokrotna denominacja, usuwanie zer lub zmiana nazwy waluty ma bezpośredni wpływ na ludność, począwszy od utraty pomocy, a skończywszy na problemach z żywnością. Chociaż hiperinflacja jest niepokojąca, liczba denominacji, jaką zaobserwowano w Brazylii, pokazuje bardziej złożoną rzeczywistość.
+Zobaczyliśmy, że hiperinflacja nie jest jedynym wskaźnikiem katastrofy gospodarczej. Wielokrotna denominacja, usuwanie zer lub zmiana nazwy waluty także ma bezpośredni wpływ na ludność, począwszy od odcięcia jej od pomocy, a skończywszy na problemach z żywnością. Chociaż hiperinflacja jest niepokojąca, liczba denominacji, jaką zaobserwowano w Brazylii, pokazuje bardziej złożoną rzeczywistość.
 
 
-W oparciu o kryterium 50% inflacji miesięcznie, kilka okresów mogło zostać sklasyfikowanych jako hiperinflacja. Jest to szczególnie prawdziwe, gdy analizuje się kryteria międzynarodowej organizacji księgowej, która bierze pod uwagę takie cechy, jak szybkie porzucenie waluty przez ludność, indeksacja płac i pożyczki o wysokim oprocentowaniu w celu zrekompensowania inflacji.
+Na podstawie kryterium 50% inflacji miesięcznie kilka okresów mogło zostać sklasyfikowanych jako hiperinflacja. Jest to szczególnie prawdziwe, gdy analizuje się kryteria międzynarodowej organizacji księgowej, która bierze pod uwagę takie cechy, jak szybkie porzucenie waluty przez ludność, indeksacja płac i pożyczki o wysokim oprocentowaniu w celu zrekompensowania inflacji.
 
 
 Podsumowując, hiperinflacja to tylko jeden z aspektów wyzwań gospodarczych. Sama wysoka inflacja może być równie szkodliwa. W następnej sekcji przeanalizujemy możliwe rozwiązania mające na celu przezwyciężenie hiperinflacji.
@@ -1254,24 +1254,24 @@ Podsumowując, hiperinflacja to tylko jeden z aspektów wyzwań gospodarczych. S
 ### Jak zakończyć umiarkowaną i wysoką inflację
 
 
-Wspomniane wnioski pochodzą z książki "Monetary Regime and Inflation" autorstwa Bernolda. Według Bernolda jedyną metodą na zakończenie inflacji jest przeprowadzenie reformy monetarnej i nałożenie ograniczeń na rząd. Ograniczenia te obejmują ustanowienie instytucji, takiej jak bank centralny, która działa niezależnie od decyzji politycznych rządu. Wysoka i hiperinflacja są często wynikiem finansowania deficytów budżetowych poprzez kreację pieniądza. Aby Address złagodzić inflację, konieczne jest zmniejszenie wzrostu pieniądza Supply. Bernold sugeruje również, że ten wzrost monetarny powinien być względny w stosunku do krajów sąsiednich. Zaskakujące jest to, że w okresach wysokiej lub hiperinflacji całkowita wartość pieniądza Supply może faktycznie spaść. Uderzającym przykładem takiej sytuacji jest Zimbabwe.
+Wspomniane wnioski pochodzą z książki „Monetary Regime and Inflation” autorstwa Bernolda. Według Bernolda jedyną metodą na zakończenie inflacji jest przeprowadzenie reformy monetarnej i nałożenie ograniczeń na rząd. Ograniczenia te obejmują ustanowienie instytucji, takiej jak bank centralny, która działa niezależnie od decyzji politycznych rządu. Wysoka inflacja i hiperinflacja są często wynikiem finansowania deficytów budżetowych poprzez kreację pieniądza. Aby złagodzić inflację, konieczne jest zmniejszenie wzrostu podaży pieniądza. Bernold sugeruje również, że wzrost monetarny powinien być przeprowadzany biorąc pod uwagę kraje sąsiednie. Zaskakujące jest to, że w okresach wysokiej inflacji lub hiperinflacji całkowita wartość podaży pieniądza może faktycznie spaść. Uderzającym przykładem takiej sytuacji jest Zimbabwe.
 
 
-### Kontrintuicyjne rozwiązania
+### Rozwiązania sprzeczne z intuicją
 
 
-Podczas badania Zimbabwe zauważono, że 10 bilionów jednostek pieniądza Supply straciło całą swoją wartość. W Weimarze możliwe było wydrukowanie dwóch trzecich całkowitej wartości nominalnej 65 miliardów jednostek pieniądza Supply w ciągu jednego dnia. To pokazuje, jak można zdewaluować pieniądze Supply. Aby zaradzić tej sytuacji, konieczne jest znaczne zwiększenie Supply, aby osiągnąć odpowiedni poziom. Wówczas niezbędna jest reforma monetarna. W sytuacji wysokiej inflacji reforma ta jest nieunikniona, ale musi zapewnić wystarczającą ilość pieniędzy w obiegu. Po tym kroku można nałożyć ograniczenia na rząd.
+Podczas badania Zimbabwe zauważono, że 10 bilionów jednostek pieniądza straciło całą swoją wartość. W Weimarze możliwe było wydrukowanie dwóch trzecich całkowitej wartości nominalnej 65 miliardów jednostek pieniądza w ciągu jednego dnia. To pokazuje, jak można zdewaluować pieniądze. Aby zaradzić tej sytuacji, konieczne jest znaczne zwiększenie podaży, aby osiągnąć odpowiedni poziom. Wówczas niezbędna jest reforma monetarna. W sytuacji wysokiej inflacji reforma ta jest nieunikniona, ale trzeba zapewnić wystarczającą ilość pieniędzy w obiegu. Po tym kroku można nałożyć ograniczenia na rząd.
 
 
-Zgodnie z obserwacjami Bernolda, jeśli chodzi o rozwiązywanie problemów inflacyjnych, instytucje takie jak MFW i Bank Światowy nie zawsze przyjmują właściwą strategię. W niektórych przypadkach, gdy kraj musi zwiększyć swój Supply pieniądza, instytucje te starają się go zmniejszyć. Kluczem jest osiągnięcie odpowiedniego poziomu pieniądza, a następnie nałożenie ograniczeń na jego wzrost, unikając w ten sposób finansowania wydatków rządowych poprzez kreację pieniądza.
+Zgodnie z obserwacjami Bernolda, jeśli chodzi o rozwiązywanie problemów inflacyjnych, instytucje takie jak MFW i Bank Światowy nie zawsze przyjmują właściwą strategię. W niektórych przypadkach, gdy kraj musi zwiększyć swoją podaż pieniądza, instytucje te starają się ją zmniejszyć. Kluczem jest osiągnięcie odpowiedniego poziomu ilości pieniądza, a następnie nałożenie ograniczeń na jego wzrost, unikając w ten sposób finansowania wydatków rządowych poprzez kreację pieniądza.
 
 
-Interesującym aspektem poruszonym przez Bernolda jest to, że sukces reformy monetarnej zależy nie tylko od jej technicznego znaczenia, ale także od zaufania, jakim darzy ją społeczeństwo. Niektóre dobrze zaprojektowane reformy mogą zakończyć się niepowodzeniem, ponieważ społeczeństwo im nie ufa, podczas gdy inne, źle zaprojektowane, mogą odnieść sukces, ponieważ społeczeństwo im ufa. Percepcja i zaufanie społeczne są zatem kluczowymi Elements w powodzeniu lub porażce reformy monetarnej.
+Interesującym aspektem poruszonym przez Bernolda jest to, że sukces reformy monetarnej zależy nie tylko od jej technicznego znaczenia, ale także od zaufania, jakim darzy ją społeczeństwo. Niektóre dobrze zaprojektowane reformy mogą zakończyć się niepowodzeniem, ponieważ społeczeństwo im nie ufa, podczas gdy inne, źle zaprojektowane, mogą odnieść sukces, ponieważ społeczeństwo im ufa. Percepcja i zaufanie społeczne są zatem kluczowymi elementami w powodzeniu lub porażce reformy monetarnej.
 
 
 
 - W Zimbabwe rozwiązaniem przyjętym w celu przeciwdziałania inflacji była dolaryzacja, co oznacza przyjęcie dolara amerykańskiego lub innych walut z krajów sąsiednich. Takie podejście uniemożliwia rządowi dowolne drukowanie pieniędzy.
-- W Niemczech rozwiązaniem było stworzenie nowej waluty, Rentenmark. Waluta ta była wspierana przez aktywa terytorialne Rzeszy, a strategia ta okazała się skuteczna.
+- W Niemczech rozwiązaniem było stworzenie nowej waluty, Rentenmark. Waluta ta była zabezpieczona aktywami terytorialnymi Rzeszy, a strategia ta okazała się skuteczna.
 
 
 ### Przypadek Zimbabwe
@@ -1283,7 +1283,7 @@ Interesującym aspektem poruszonym przez Bernolda jest to, że sukces reformy mo
 Zimbabwe uzyskało niepodległość w 1980 roku i wprowadziło dolara zimbabweńskiego. Początkowo dwa dolary zimbabweńskie były warte około 1,60 dolara amerykańskiego. Jednak w 1997 r., w następstwie działań społecznych na rzecz weteranów wojennych, waluta zdewaluowała się o 72% w ciągu jednego dnia podczas Czarnego Piątku. Następnie, na początku XXI wieku, kraj uruchomił program redystrybucji gruntów, odbierając ziemię białym właścicielom i przekazując ją miejscowej ludności. Decyzja ta zaszkodziła eksportowi, ponieważ nowym właścicielom często brakowało wiedzy niezbędnej do zarządzania gospodarstwami na dużą skalę. W rezultacie, podczas gdy w 1999 r. Zimbabwe było eksporterem netto, w 2003 r. stało się importerem netto.
 
 
-W 2006 r. kraj wprowadził nową wersję swojej waluty, ZWN, z kursem Exchange wynoszącym 1 do 1000. W 2008 r. wprowadzono kolejny nominał, ZWR, z kursem Exchange od 1 do 10 miliardów. Doprowadziło to do powstania kultowych banknotów o nominale 100 bilionów.
+W 2006 r. kraj wprowadził nową wersję swojej waluty, ZWN, z kursem wymiany wynoszącym 1 do 1000. W 2008 r. wprowadzono kolejny nominał, ZWR, z kursem wymiany od 1 do 10 miliardów. Doprowadziło to do powstania kultowych banknotów o nominale 100 bilionów.
 
 
 ![image](assets/chapitre-3.5/2.webp)
@@ -1298,27 +1298,27 @@ Dlatego po 2009 r., w obliczu utrzymującego się kryzysu walutowego i szalejąc
 Dolaryzacja nie jest jednak cudownym rozwiązaniem. Choć może ona położyć kres hiperinflacji, wiąże się z innymi wyzwaniami gospodarczymi. Jedną z konsekwencji jest utrata autonomicznej polityki pieniężnej. Bez własnej waluty kraj nie może dostosować swojej polityki pieniężnej, aby reagować na wewnętrzne wstrząsy gospodarcze.
 
 
-W 2007 r. stopa inflacji w Zimbabwe osiągnęła próg 50% miesięcznie, oficjalnie oznaczając kraj jako hiperinflację. Po dolaryzacji w 2009 r. hiperinflacja ustała, ale kraj stanął w obliczu innych wyzwań gospodarczych.
+W 2007 r. stopa inflacji w Zimbabwe osiągnęła próg 50% miesięcznie, oficjalnie wprowadzając kraj na listę krajów z hiperinflacją. Po dolaryzacji w 2009 r. hiperinflacja ustała, ale kraj stanął w obliczu innych wyzwań gospodarczych.
 
-Niepokojące jest to, że od tego czasu Zimbabwe próbowało ponownie wprowadzić własną walutę i ponownie pojawiły się oznaki wysokiej inflacji. Według niektórych organizacji międzynarodowych, kraj ten może już ponownie spełniać kryteria hiperinflacji, nawet jeśli nie osiągnął jeszcze oficjalnego progu 50% miesięcznie. Służy to jako przypomnienie o niebezpieczeństwach związanych z nadmierną emisją pieniądza i finansowaniem deficytu przez bank centralny.
+Niepokojące jest to, że od tego czasu Zimbabwe próbowało ponownie wprowadzić własną walutę i ponownie pojawiły się oznaki wysokiej inflacji. Według niektórych organizacji międzynarodowych, kraj ten może już ponownie spełniać kryteria hiperinflacji, nawet jeśli nie osiągnął jeszcze oficjalnego progu 50% miesięcznie. Potraktujmy to jako przypomnienie o niebezpieczeństwach związanych z nadmierną emisją pieniądza i finansowaniem deficytu przez bank centralny.
 
 
 ### Wnioski
 
 
-W mojej książce zatytułowanej "Wszystko o Bitcoin" poświęciłem cały rozdział hiperinflacji w Zimbabwe. Szczegółowo opisuję istotne wydarzenia, podając różne przykłady ilustrujące, w jaki sposób kraj ostatecznie położył kres hiperinflacji.
+W mojej książce zatytułowanej „Wszystko o Bitcoinie” poświęciłem cały rozdział hiperinflacji w Zimbabwe. Szczegółowo opisuję istotne wydarzenia, podając różne przykłady ilustrujące, w jaki sposób kraj ostatecznie położył kres hiperinflacji.
 
 
 ![image](assets/chapitre-3.5/3.webp)
 
 
-Dla tych, którzy są ciekawi niemieckich doświadczeń po I wojnie światowej, gorąco polecam komiks "Bankier Rzeszy" Opowiada on o tym, jak Niemcom udało się przezwyciężyć hiperinflację, zwłaszcza dzięki stworzeniu marki Rentenmark.
+Dla tych, którzy są ciekawi niemieckich doświadczeń po I wojnie światowej, gorąco polecam komiks „Bankier Rzeszy”. Opowiada on o tym, jak Niemcom udało się przezwyciężyć hiperinflację, zwłaszcza dzięki stworzeniu waluty Rentenmark.
 
 
 ![image](assets/chapitre-3.5/4.webp)
 
 
-Kluczowym wnioskiem jest to, że istnieje kilka strategii przezwyciężenia hiperinflacji. Można zdecydować się na dolaryzację lub wprowadzenie nowej waluty. Rozwiązania te zadziałają tylko wtedy, gdy ludność będzie miała do nich zaufanie. Kluczowe jest nałożenie ścisłych ograniczeń. Niezbędny jest prawdziwie niezależny bank centralny. Nie może on inflować pieniądza Supply w celu pokrycia deficytów rządowych. W przypadku łagodnej inflacji ograniczenie wzrostu pieniądza Supply powinno wystarczyć. Jednak w obliczu hiperinflacji kluczowe jest, aby najpierw mieć odpowiedni Supply pieniądza dla wielkości danej gospodarki. Następnie konieczne jest nałożenie ścisłych ograniczeń na rząd w celu ustabilizowania sytuacji.
+Kluczowym wnioskiem jest to, że istnieje kilka strategii przezwyciężenia hiperinflacji. Można zdecydować się na dolaryzację lub wprowadzenie nowej waluty. Rozwiązania te zadziałają tylko wtedy, gdy ludność będzie miała do nich zaufanie. Kluczowe jest nałożenie ścisłych ograniczeń. Niezbędny jest prawdziwie niezależny bank centralny. Nie może on zwiększać podaży pieniądza w celu pokrycia deficytów rządowych. W przypadku łagodnej inflacji ograniczenie wzrostu podaży pieniądza powinno wystarczyć. Jednak w obliczu hiperinflacji kluczowe jest, aby najpierw mieć ilość pieniądza odpowiednią dla wielkości danej gospodarki. Następnie konieczne jest nałożenie ścisłych ograniczeń na rząd w celu ustabilizowania sytuacji.
 
 
 ## Prezentacja kolekcji banknotów hiperinflacyjnych
@@ -1336,7 +1336,7 @@ Link do zeskanowanej kolekcji jest dostępny w zestawie narzędzi edukacyjnych B
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
 
-## Pojawienie się drugiego Layer pieniądza i banków centralnych
+## Pojawienie się drugiej warstwy pieniądza i banków centralnych
 
 
 <chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
@@ -1345,7 +1345,7 @@ Link do zeskanowanej kolekcji jest dostępny w zestawie narzędzi edukacyjnych B
 Transkrypcja:
 
 
-Pojawienie się drugiego Layer pieniądza i pierwszych banków centralnych to fascynujący temat. Temat ten jest szeroko omawiany w książce "Layered Money" autorstwa Nicka Battii. Gorąco polecam ją osobom zainteresowanym ewolucją i zawiłościami naszych systemów monetarnych. Celem tej sekcji jest zrozumienie pochodzenia kreacji pieniądza i tego, w jaki sposób może ona prowadzić do hiperinflacji.
+Pojawienie się drugiej warstwy pieniądza i pierwszych banków centralnych to fascynujący temat. Temat ten jest szeroko omawiany w książce „Layered Money” autorstwa Nicka Battii. Gorąco polecam ją osobom zainteresowanym ewolucją i zawiłościami naszych systemów monetarnych. Celem tej sekcji jest wytłumaczenie w jaki sposób powstają pieniądze i tego, jak ich nadmierna ilość może prowadzić do hiperinflacji.
 
 
 ![image](assets/chapitre-4.1/1.webp)
@@ -1357,7 +1357,7 @@ Pojawienie się drugiego Layer pieniądza i pierwszych banków centralnych to fa
 #### Florin
 
 
-Historia pieniądza sięga XIII-wiecznych Włoch, a konkretnie Florencji. W tym czasie floren i banknoty Exchange były powszechne. Godnym uwagi przykładem jest floren ozdobiony postacią świętego Jana Chrzciciela.
+Historia pieniądza sięga XIII-wiecznych Włoch, a konkretnie Florencji. W tym czasie floren i papierowe weksle były powszechne. Godnym uwagi przykładem jest floren ozdobiony postacią świętego Jana Chrzciciela.
 
 
 ![image](assets/chapitre-4.1/2.webp)
@@ -1366,24 +1366,24 @@ Historia pieniądza sięga XIII-wiecznych Włoch, a konkretnie Florencji. W tym 
 ![image](assets/chapitre-4.1/3.webp)
 
 
-Chociaż posiadanie prawdziwego florena jest dziś drogie, dostępne są jego reprodukcje. Istnieją również inne waluty z tamtych czasów, takie jak soldo z państw włoskich z XVII wieku, na którym widnieje wizerunek Chrystusa.
+Koszt oryginalnego florena jest dziś wysoki, ale dostępne są jego reprodukcje. Istnieją również inne waluty z tamtych czasów, takie jak soldo z państw włoskich z XVII wieku, na którym widnieje wizerunek Chrystusa.
 
 
-#### Weksle Exchange (13 wiek)
+#### Weksle (XIII wiek)
 
 
-Powszechna praktyka w tamtych czasach była następująca: złotnicy wystawiali weksle Exchange w Exchange za zdeponowane floreny. Floreny te były starannie przechowywane w ich skarbcach. W ten sposób prawdziwe złoto, reprezentowane przez floreny, tworzyło pierwszy Layer pieniądza, podczas gdy weksle Exchange tworzyły drugi Layer. Płynność tego systemu była jednak ograniczona. Jeśli ktoś chciał wymienić swoje złoto w Redeem na banknot Exchange, transakcja była prosta. Ale wymiana tych banknotów między osobami fizycznymi nie była powszechna.
+Powszechna praktyka w tamtych czasach była następująca: złotnicy wystawiali weksle w zamian za zdeponowane floreny. Floreny te były starannie przechowywane w ich skarbcach. W ten sposób prawdziwe złoto, reprezentowane przez floreny, tworzyło pierwszą warstwę pieniądza, podczas gdy weksle tworzyły drugią warstwę. Płynność tego systemu była jednak ograniczona. Jeśli ktoś chciał wymienić swój weksel na złoto, transakcja była prosta. Ale wymiana tych banknotów między osobami fizycznymi nie była powszechna.
 
 
-#### Giełda w Antwerpii Exchange (XVI wiek)
+#### Giełda w Antwerpii (XVI wiek)
 
 
-Giełda w Antwerpii Exchange stanowiła kluczowy kamień milowy w ewolucji pieniądza papierowego. To właśnie tam wprowadzono praktykę dyskontowania weksli. Weksle te były instrumentami papierowymi reprezentującymi wartość pieniężną, ale ich wyjątkowość polegała na tym, że nosiły nazwy i daty zapadalności. Utrudniało to ich Exchange przed upływem terminu zapadalności.
+Giełda w Antwerpii to kluczowy moment w ewolucji pieniądza papierowego. To właśnie tam wprowadzono praktykę odsprzedawania weksli z upustem. Weksle te były instrumentami papierowymi reprezentującymi wartość pieniężną, ale ich wyjątkowość polegała na tym, że były imienne i miały termin zapadalności. Utrudniało to ich wymianę przed upływem tego terminu.
 
-Rewolucja wywołana przez Antwerp Stock Exchange polegała na możliwości dyskontowania tych weksli przed terminem ich płatności. Na przykład, jeśli weksel był wymagalny za miesiąc, można było go kupić po obniżonej cenie, aby uwzględnić czas przed terminem płatności. Ta innowacja nie tylko sprawiła, że papierowa waluta stała się bardziej Liquid, ale także wprowadziła koncepcję wartości pieniądza w czasie.
+Rewolucja wywołana przez giełdę w Antwerpii polegała na możliwości odsprzedaży tych weksli z upustem przed terminem ich płatności. Na przykład, jeśli weksel miał termin płatności za miesiąc, można było go kupić po obniżonej cenie, aby zrekompensować czas przed terminem płatności. Ta innowacja nie tylko sprawiła, że papierowa waluta stała się bardziej płynna, ale także wprowadziła koncepcję wartości pieniądza w czasie.
 
 
-Koncepcja ta, choć kojarzona z Nickiem Bellem poprzez jego pseudonim na Twitterze "time value of BTC", nie jest jego wynalazkiem. Niemniej jednak omawia ją szczegółowo w swojej pracy. Główną ideą jest to, że czas ma wartość. Tak więc, jeśli ktoś zdecyduje się zapłacić weksel o wartości 100 USD z miesięcznym wyprzedzeniem, może uzyskać go na przykład za 98 USD i otrzymać 100 USD w terminie płatności. Ta innowacja monetarna powstała na giełdzie Exchange w Antwerpii.
+Koncepcja ta, choć kojarzona z Nickiem Bellem poprzez jego pseudonim na Twitterze „time value of BTC”, nie jest jego wynalazkiem. Niemniej jednak omawia ją szczegółowo w swojej pracy. Główną ideą jest to, że czas ma wartość. Tak więc, jeśli ktoś zdecyduje się zapłacić weksel o wartości 100 USD z miesięcznym wyprzedzeniem, może uzyskać go na przykład za 98 USD i otrzymać 100 USD w terminie płatności. Ta innowacja monetarna ma swój początek właśnie na giełdzie w Antwerpii.
 
 
 #### VOC i amsterdamska giełda papierów wartościowych (XVII wiek)
@@ -1392,7 +1392,7 @@ Koncepcja ta, choć kojarzona z Nickiem Bellem poprzez jego pseudonim na Twitter
 ![image](assets/chapitre-4.1/4.webp)
 
 
-Po Exchange w Antwerpii, kamieniem milowym było założenie VOC, Holenderskiej Kompanii Wschodnioindyjskiej. Spółka ta, z siedzibą w Holandii, wyemitowała nawet własną walutę. Po utworzeniu VOC, pierwsza giełda została założona w Amsterdamie, stając się pierwszą giełdą dla tej firmy. Interesujące jest to, w jaki sposób Holendrom udało się zakończyć dominację Antwerpii jako międzynarodowego centrum gospodarczego. Po prostu zablokowali dostęp do rzeki Scheldt. Strategia ta była częścią większego ruchu historycznego, buntu żebraków. Kluczowe wydarzenie w historii Europy.
+Po giełdzie w Antwerpii, kolejnym kluczowym momentem było założenie VOC, Holenderskiej Kompanii Wschodnioindyjskiej. Spółka ta, z siedzibą w Holandii, wyemitowała nawet własną walutę. Po utworzeniu VOC, w Amsterdamie założono pierwszą giełdę, która stała się pierwszą giełdą dla tej firmy. Interesujące jest to, w jaki sposób Holendrom udało się zakończyć dominację Antwerpii jako międzynarodowego centrum gospodarczego. Po prostu zablokowali dostęp do rzeki Scheldt. Strategia ta była częścią większego ruchu historycznego, buntu żebraków, kluczowego wydarzenia w historii Europy.
 
 
 #### Interwencja Banku Amsterdamskiego
@@ -1401,15 +1401,15 @@ Po Exchange w Antwerpii, kamieniem milowym było założenie VOC, Holenderskiej 
 ![image](assets/chapitre-4.1/5.webp)
 
 
-Po utworzeniu VOC, kolejnym istotnym elementem w historii monetarnej było wprowadzenie złotych monet przez Bank Amsterdamu. Monety te, pochodzące z 1722 r., były wykonane ze srebra. Jednak tym, co naprawdę zrewolucjonizowało finanse w tamtym czasie, była nie tyle sama moneta, co konta powiązane z tą walutą w Banku Amsterdamskim. Rachunki te stały się głównym środkiem międzynarodowego Exchange. Transakcje były po prostu rejestrowane w rejestrach lub księgach. Dzięki temu systemowi Amsterdam stał się globalnym centrum gospodarczym. Z czasem Bank Amsterdamu postanowił narzucić korzystanie z tych kont. Niezależni kantorzy musieli codziennie przekazywać Exchange swoje monety do depozytu w banku.
+Po utworzeniu VOC, kolejnym istotnym elementem w historii monetarnej było wprowadzenie przez Bank Amsterdamu złotych monet. Monety te, pochodzące z 1722 r., były wykonane ze srebra. Jednak tym, co naprawdę zrewolucjonizowało finanse w tamtym czasie, była nie tyle sama moneta, co konta powiązane z tą walutą w Banku Amsterdamskim. Rachunki te stały się głównym środkiem wymiany międzynarodowej. Transakcje były po prostu rejestrowane w rejestrach lub księgach. Dzięki temu systemowi Amsterdam stał się globalnym centrum gospodarczym. Z czasem Bank Amsterdamu sprawił, że korzystanie z tych kont było obowiązkowe. Niezależni właściciele kantorów musieli codziennie przekazywać swoje monety do depozytu w banku.
 
 
 #### Utworzenie Banku Anglii w celu sfinansowania wojny
 
 
-Utworzenie Banku Anglii było motywowane potrzebą sfinansowania wojny pod koniec XVII wieku. Podobnie jak Bank Amsterdamski, narzucił on depozyty dekretem. Szczególną cechą Banku Anglii było zdegradowanie prywatnych banków do drugorzędnej pozycji w systemie monetarnym, tworząc w ten sposób coś, co można nazwać "trzecim Layer" waluty.
+Utworzenie Banku Anglii było motywowane potrzebą sfinansowania wojny pod koniec XVII wieku. Podobnie jak Bank Amsterdamski, narzucił on konieczność oddawania środków dekretem. Szczególną cechą Banku Anglii było zdegradowanie prywatnych banków do drugorzędnej pozycji w systemie monetarnym, tworząc w ten sposób coś, co można nazwać „trzecią warstwą” waluty.
 
-Początkowo pierwszy Layer waluty był reprezentowany przez złoto. Depozyty złożone w prywatnych bankach tworzyły drugi Layer. Kiedy jednak depozyty te nie mogły być już wymieniane na złoto, pojawił się trzeci Layer waluty. Od tego momentu banknoty emitowane przez prywatne banki nie były już wymienialne na złoto, ale na papierową walutę Banku Anglii, która sama była wymienialna na złoto. Ewolucja ta doprowadziła do skomplikowania systemu monetarnego poprzez dodanie kolejnych warstw.
+Początkowo pierwsza warstwa waluty była reprezentowana przez złoto. Depozyty złożone w prywatnych bankach tworzyły drugą warstwę. Kiedy jednak depozyty te nie mogły być już wymieniane na złoto, pojawiła się trzecia warstwa waluty. Od tego momentu banknoty emitowane przez prywatne banki nie były już wymienialne na złoto, ale na papierową walutę Banku Anglii, która sama była wymienialna na złoto. Ewolucja ta doprowadziła do skomplikowania systemu monetarnego poprzez dodanie kolejnych warstw.
 
 
 #### Panika roku 1796
@@ -1417,61 +1417,61 @@ Początkowo pierwszy Layer waluty był reprezentowany przez złoto. Depozyty zł
 
 ![image](assets/chapitre-4.1/6.webp)
 
-Panika bankowa w Seamen's Savings Bank podczas paniki w 1857 r.
+Panika w Seamen's Savings Bank podczas paniki w 1857 r.
 
 
-Po panice bankowej w 1796 r. wystąpiło zjawisko, w którym każdy próbował przesunąć się w górę "piramidy pieniądza". Ludzie chcieli wymienić swoją walutę Exchange na walutę Layer, a ostatecznie na walutę Layer, czyli złoto. W obliczu tego masowego pośpiechu Bank Anglii został zmuszony do podjęcia działań w celu ustabilizowania sytuacji. Aby zapobiec potencjalnej deflacji rezerw złota, zdecydował się zawiesić wymienialność swoich banknotów na złoto. Zawieszenie to, początkowo pomyślane jako środek tymczasowy, trwało przez okres dwóch dekad.
+Po panice bankowej w 1796 r. wystąpiło zjawisko, w którym każdy próbował przesunąć się w górę „piramidy pieniądza”. Ludzie chcieli wymienić swoją walutę trzeciej warstwy na walutę drugiej warstwy, a ostatecznie na walutę pierwszej warstwy, czyli złoto. W obliczu tej masowej paniki Bank Anglii został zmuszony do podjęcia działań w celu ustabilizowania sytuacji. Aby zapobiec potencjalnej deflacji rezerw złota, zdecydował się zawiesić wymienialność swoich banknotów na złoto. Zawieszenie to, początkowo pomyślane jako środek tymczasowy, trwało przez okres dwóch dekad.
 
 
 ### Wnioski:
 
 
-Banki centralne stały się pożyczkodawcami ostatniej instancji, zawieszając wymienialność swojej waluty na złoto. Chociaż działanie to początkowo miało być rozwiązaniem tymczasowym, ostatecznie stało się trwałe, oznaczając pojawienie się koncepcji pożyczkodawcy ostatniej instancji. Ta transformacja ukształtowała banki centralne, jakie znamy dzisiaj. Jednak w bardziej wrażliwych gospodarkach zdolność do drukowania pieniędzy do woli może prowadzić do niepożądanych konsekwencji, takich jak hiperinflacja, jeśli jest wykorzystywana nieodpowiedzialnie.
+Banki centralne stały się pożyczkodawcami ostatniej instancji, zawieszając wymienialność swojej waluty na złoto. Chociaż działanie to początkowo miało być rozwiązaniem tymczasowym, ostatecznie stało się trwałe, oznaczając pojawienie się koncepcji pożyczkodawcy ostatniej instancji. Ta transformacja ukształtowała banki centralne w formie, jaką znamy dzisiaj. Jednak w bardziej wrażliwych gospodarkach zdolność do drukowania pieniędzy do woli może prowadzić do niepożądanych konsekwencji, takich jak hiperinflacja, jeśli jest wykorzystywana nieodpowiedzialnie.
 
 
-## Książki i zasoby
+## Książki i materiały
 
 
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 
-Hiperinflacja to fascynujący temat, który był badany przez różne wydarzenia historyczne. Jeśli chcesz zagłębić się w ten temat, oto lista 10 najważniejszych źródeł do przeczytania i przestudiowania:
+Hiperinflacja to fascynujący temat, który był badany w kontekście róznych wydarzeń historycznych. Jeśli chcesz się w niego zagłębić, oto lista 10 najważniejszych źródeł do przeczytania i przestudiowania:
 
 
 
-- "When Money Dies: The Nightmare of Deficit Spending, Devaluation, and Hyperinflation in Weimar Germany" autorstwa Adama Fergussona. Książka ta szczegółowo opisuje kryzys hiperinflacji w Niemczech po I wojnie światowej.
+- „When Money Die”: The Nightmare of Deficit Spending, Devaluation, and Hyperinflation in Weimar Germany” autorstwa Adama Fergussona. Książka ta szczegółowo opisuje kryzys hiperinflacji w Niemczech po I wojnie światowej.
 
 
 
-- "The Economics of Inflation - A Study of Currency Depreciation in Post-War Germany" autorstwa Costantino Bresciani-Turroni. Dogłębna analiza niemieckiej hiperinflacji w latach dwudziestych XX wieku.
+- „The Economics of Inflation - A Study of Currency Depreciation in Post-War Germany” autorstwa Costantino Bresciani-Turroniego. Dogłębna analiza niemieckiej hiperinflacji w latach dwudziestych XX wieku.
 
 
 
-- "Tym razem jest inaczej: Eight Centuries of Financial Folly" autorstwa Carmen M. Reinhart i Kennetha S. Rogoffa. Chociaż książka obejmuje wiele rodzajów kryzysów finansowych, szeroko omawia hiperinflację na przestrzeni dziejów.
+- „This Time Is Different: Eight Centuries of Financial Folly” autorstwa Carmen M. Reinhart i Kennetha S. Rogoffa. Chociaż książka obejmuje wiele rodzajów kryzysów finansowych, szeroko omawia hiperinflację na przestrzeni dziejów.
 
 
 
-- "Zimbabwe's Hyperinflation, Analysis and Lessons Learned" autorstwa Steve'a Hanke. Studium hiperinflacji w Zimbabwe na początku XXI wieku.
+- „Zimbabwe's Hyperinflation, Analysis and Lessons Learned” autorstwa Steve'a Hanke. Studium hiperinflacji w Zimbabwe na początku XXI wieku.
 
 
 
-- "Reżimy monetarne i inflacja: History, Economic and Political Relationships" autorstwa Petera Bernholza. Książka analizuje przypadki hiperinflacji na przestrzeni dziejów i stara się zrozumieć czynniki leżące u ich podstaw.
+- „Monetary Regimes and Inflation: History, Economic and Political Relationships” autorstwa Petera Bernholza. Książka analizuje przypadki hiperinflacji na przestrzeni dziejów i stara się zrozumieć czynniki leżące u ich podstaw.
 
 
 
-- "Przewodnik przetrwania hiperinflacji: Strategie dla amerykańskich firm" autorstwa Geralda Swansona. Praktyczny przewodnik po tym, jak firmy mogą poruszać się w środowisku hiperinflacyjnym.
+- „The Hyperinflation Survival Guide: Strategies for American Bussiness" autorstwa Geralda Swansona. Praktyczny przewodnik po tym, jak firmy mogą poruszać się w środowisku hiperinflacyjnym.
 
 
 
-- "Umieranie pieniądza: Lessons of the Great German and American Inflations" autorstwa Jensa O. Parssona. Analiza porównawcza kryzysów inflacyjnych w Niemczech i Stanach Zjednoczonych.
+- „Dying of Money: Lessons of the Great German and American Inflations" autorstwa Jensa O. Parssona. Analiza porównawcza kryzysów inflacyjnych w Niemczech i Stanach Zjednoczonych.
 
 
 
-- "Upadek pieniądza: Niemiecka hiperinflacja i zniszczenie klasy średniej" autorstwa Fredericka Taylora. Narracyjna eksploracja społecznego i gospodarczego wpływu hiperinflacji na niemieckie społeczeństwo.
+- „The Downfall of Money: Germany-s Hyperinflation and the Distruction of the Middle Class" autorstwa Fredericka Taylora. Narracyjna eksploracja społecznego i gospodarczego wpływu hiperinflacji na niemieckie społeczeństwo.
 
 
 
-- "Currency Boards for Developing Countries: A Handbook" autorstwa Steve'a Hanke i Kurta Schulera. Chociaż książka ta koncentruje się na radach walutowych, oferuje ona perspektywę unikania sytuacji hiperinflacji.
+- „Currency Boards for Developing Countries: A Handbook” autorstwa Steve'a Hanke i Kurta Schulera. Chociaż książka ta kierowana jest do izb walutowych, przedstawia sposoby unikania hiperinflacji.
 
 
 # Sekcja końcowa

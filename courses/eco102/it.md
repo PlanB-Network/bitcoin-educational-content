@@ -498,6 +498,12 @@ Bastiat compose allora un testo satirico che in seguito divenne uno dei suoi lav
 
 ![image](assets/en/079.webp)
 
+---
+
+>PROTEGGIAMO LE NOSTRE CANDELE!
+
+---
+
 In questa petizione, i fabbricanti di candele chiedono ai deputati protezione legale contro un pericoloso rivale:
 
 > Soffriamo della concorrenza intollerabile di un rivale straniero che, a quanto pare, si trova in condizioni talmente superiori per produrre luce che inonda il nostro mercato nazionale a un prezzo favolosamente ridotto.
@@ -756,6 +762,12 @@ Il male genera sofferenza, e la sofferenza ci fa comprendere la colpa o l'errore
 
 ![image](assets/en/110.webp)
 
+---
+
+>Errare è umano.
+
+---
+
 Così, è chiaro che Bastiat è ben lungi dall'essere cieco. Non nega l'esistenza del male. L'uomo è debole, incline all'errore e alla colpa. Da nessuna parte si vedrà Bastiat negare il fatto che l'esercizio della libertà individuale sia associato alla possibilità di errore, alla possibilità di una scelta irragionevole o insensata.
 
 Afferma semplicemente che se la fonte del male risiede nell'assenza di libertà, il rimedio è nella libertà stessa, e più specificamente nel pieno e intero esercizio della responsabilità personale.
@@ -796,6 +808,15 @@ Eppure questa perversione della legge ha un nome, è il socialismo, cioè l'ideo
 
 ![image](assets/en/116.webp)
 
+---
+
+>Società  
+>di Mutuo Soccorso  
+>di GUISY  
+>1899
+
+---
+
 Tuttavia, secondo Bastiat, esiste un'alternativa alla solidarietà statale obbligatoria: "la società di mutuo soccorso"
 
 l'assistenza reciproca e spontanea degli uomini tra loro grazie alle società di mutuo soccorso. Ma prevedeva anche che lo Stato avrebbe finito per impadronirsi di queste mutualità per renderle un organismo unico e centralizzato, incoraggiando la spesa e lo spreco.
@@ -805,6 +826,16 @@ l'assistenza reciproca e spontanea degli uomini tra loro grazie alle società di
 In un opuscolo intitolato "Giustizia e Fraternità", Bastiat esplora anche l'idea di un sistema fiscale semplificato ed equo per finanziare i bisogni collettivi (polizia, giustizia, esercito): redditi e profitti sarebbero soggetti a un'unica aliquota fiscale proporzionale. Questo è ciò che oggi è conosciuto come la "Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Le fondazioni – un  
+>**valore aggiunto**  
+>per la **società**  
+>
+>SwissFoundations
+
+---
 
 Infatti, la solidarietà intrafamiliare, la solidarietà locale o la filantropia organizzata sono molto più sviluppate nei paesi che hanno un sistema fiscale leggero e un grado relativamente alto di libertà economica, come la Svizzera e gli Stati Uniti, mentre è largamente soffocata nei paesi dove lo Stato ha in gran parte sostituito la responsabilità individuale, come la Francia o la Germania.
 Spesso è di moda lamentarsi del "egoismo" che prevalerebbe nelle società liberali. Ma è vero esattamente il contrario. Quando una società è gravata dalle tasse e gli individui non possiedono più la loro proprietà, non sono incoraggiati a dare, ma piuttosto a ritirarsi in se stessi.

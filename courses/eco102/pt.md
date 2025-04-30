@@ -585,6 +585,12 @@ Bastiat então compôs um texto satírico que mais tarde se tornou uma de suas o
 
 ![image](assets/en/079.webp)
 
+---
+
+>PROTEJAM AS NOSSAS VELAS!
+
+---
+
 Nesta petição, os fabricantes de velas pedem aos deputados proteção legal contra um rival perigoso:
 
 > Sofremos com a concorrência intolerável de um rival estrangeiro que, ao que parece, está em condições tão superiores para produzir luz que inunda nosso mercado nacional a um preço fabulosamente reduzido.
@@ -856,6 +862,12 @@ O mal gera sofrimento, e o sofrimento nos faz entender a falta ou erro, nos traz
 
 ![image](assets/en/110.webp)
 
+---
+
+>Errar é humano.
+
+---
+
 Assim, é claro que Bastiat está longe de ser cego. Ele não nega a existência do mal. O homem é fraco, propenso ao erro e à falta. Em lugar algum verá Bastiat negar o fato de que o exercício da liberdade individual está associado à possibilidade de erro, à possibilidade de uma escolha irracional ou sem sentido.
 
 Ele simplesmente afirma que se a fonte do mal reside na ausência de liberdade, o remédio está na própria liberdade, e mais especificamente no exercício pleno e integral da responsabilidade pessoal.
@@ -896,6 +908,15 @@ No entanto, essa perversão da lei tem um nome, é o socialismo, isto é, a ideo
 
 ![image](assets/en/116.webp)
 
+---
+
+>Sociedade  
+>de Socorro Mútuo  
+>de GUISY  
+>1899
+
+---
+
 Contudo, segundo Bastiat, há uma alternativa à solidariedade estatal obrigatória: "sociedade de auxílio mútuo"
 
 a assistência mútua e espontânea dos homens entre si graças às sociedades de auxílio mútuo. Mas ele também previu que o Estado eventualmente se apoderaria dessas mutualidades para torná-las um corpo único e centralizado, incentivando gastos e desperdícios.
@@ -905,6 +926,16 @@ a assistência mútua e espontânea dos homens entre si graças às sociedades d
 Em um panfleto chamado "Justiça e Fraternidade", Bastiat também explora a ideia de um sistema tributário simplificado e justo para financiar necessidades coletivas (polícia, justiça, exército): rendas e lucros estariam sujeitos a uma única taxa de imposto proporcional. Isso é o que é conhecido hoje como "Imposto Único".
 
 ![image](assets/en/118.webp)
+
+---
+
+>As fundações – um  
+>**valor acrescentado**  
+>para a **sociedade**  
+>
+>SwissFoundations
+
+---
 
 De fato, a solidariedade intrafamiliar, a solidariedade local ou a filantropia organizada são muito mais desenvolvidas em países que possuem um sistema tributário leve e um grau relativamente alto de liberdade econômica, como Suíça e Estados Unidos, enquanto é largamente sufocada em países onde o Estado substituiu em grande parte a responsabilidade individual, como França ou Alemanha.
 É frequentemente considerado moderno lamentar a "selfishness" que prevaleceria nas sociedades liberais. Mas o exato oposto é verdadeiro. Quando uma sociedade é sobrecarregada com impostos e os indivíduos não possuem mais suas propriedades, eles não são incentivados a dar, mas sim a se recolherem em si mesmos.

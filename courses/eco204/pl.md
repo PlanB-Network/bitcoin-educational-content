@@ -9,14 +9,13 @@ objectives:
   - Konkretny pomysł na to, jak chronić się przed hiperinflacją
 
 ---
-„t”
 # Podróż w głąb gospodarki
 
 
 Program ten ma na celu dogłębne zrozumienie procesu powstawania hiperinflacji w świecie zdominowanym przez waluty fiducjarne oraz zbadanie jej istotnych konsekwencji. Uczestnicy kursu szczegółowo zbadają cykle hiperinflacji, analizując ich przyczyny, okoliczności powstawania oraz historyczne i współczesne przykłady. Przeanalizują również namacalny wpływ hiperinflacji na gospodarkę i codzienne życie, badając reperkusje dla wartości waluty, siły nabywczej oraz indywidualnych i zbiorowych oszczędności.
 
 
-W tym miejscu podkreślimy trendy i cechy wspólne epizodów hiperinflacji w całej historii, proponując jednocześnie skuteczne i konkretne strategie ochrony w okresach hiperinflacji. Uczestnicy będą mieli okazję zapoznać się z różnymi opcjami inwestycyjnymi i mechanizmami obrony finansowej, zdobywając praktyczne narzędzia i niezbędną wiedzę do spokojnego poruszania się w niestabilnym klimacie gospodarczym.
+W tym miejscu podkreślimy trendy i cechy wspólne epizodów hiperinflacji w całej historii, proponując jednocześnie skuteczne i konkretne strategie ochrony w okresach hiperinflacji. Uczestnicy będą mieli okazję zapoznać się z różnymi opcjami inwestycyjnymi i mechanizmami obrony finansowej, zdobywając praktyczne narzędzia i wiedzę niezbędną do spokojnego poruszania się w niestabilnym klimacie gospodarczym.
 
 
 +++
@@ -161,13 +160,13 @@ Jedną z najbardziej kultowych monet starożytnego Rzymu jest denar, waluta sreb
 
 Wraz z dewaluacją pieniądza pojawiła się nowa waluta, Antoninianus. Waluta ta miała być warta dwa denary, ale zawierała znacznie mniej srebra. Moja moneta Antoninianus wyraźnie pokazuje, że zawartość srebra została znacznie zmniejszona. Zdobi ją typowa dla rzymskich monet z tego okresu korona zwana „promienistą”. Porównując kolor i jakość, można zauważyć, że Antoninianusowi daleko do monety z czystego srebra.
 
-Porównując obie monety obok siebie, zauważamy uderzającą różnicę. Denar z 160 r. n.e. ma wyraźny srebrny wygląd, podczas gdy Antoninianus z końca III wieku n.e. jest znacznie bardziej matowy, co wskazuje na znaczny spadek zawartości srebra. To wizualne porównanie stanowi wyraźną ilustrację dewaluacji monetarnej, którą starożytny Rzym przeszedł na przestrzeni kilku stuleci.
+Porównując obie monety obok siebie, zauważamy uderzającą różnicę. Denar z 160 r. n.e. ma wyraźny srebrny wygląd, podczas gdy Antoninianus z końca III wieku n.e. jest znacznie bardziej matowy, co wskazuje na znaczny spadek zawartości srebra. To porównanie wizualne stanowi wyraźną ilustrację dewaluacji monetarnej, którą starożytny Rzym przeszedł na przestrzeni kilku stuleci.
 
 
 ![image](assets/chapitre-2.1/3.webp)
 
 
-Tę demonstrację idealnie uzupełniłby wykres ilustrujący dewaluację tych monet w czasie. Chociaż trudno to zwizualizować za pomocą tej platformy, wyobraźmy sobie wykres pokazujący wartość denara, a następnie jego spadek pod koniec II wieku, zastąpiony przez Antoninianusa, który miał być wart dwa denary, ale o znacznie niższej zawartości srebra. Te artefakty są niemymi świadkami wahań ekonomicznych minionych cywilizacji.
+Tę demonstrację idealnie uzupełniłby wykres ilustrujący dewaluację tych monet w czasie. Chociaż trudno to zwizualizować za pomocą tej platformy, wyobraźmy sobie wykres pokazujący wartość denara, a następnie jego spadek pod koniec II wieku, zastąpiony przez Antoninianusa, który miał być wart dwa denary, ale miał znacznie niższą zawartość srebra. Te artefakty są niemymi świadkami wahań ekonomicznych minionych cywilizacji.
 
 
 #### 3. Hiszpańskie Maravedi: Świadek celowej dewaluacji
@@ -176,7 +175,7 @@ Tę demonstrację idealnie uzupełniłby wykres ilustrujący dewaluację tych mo
 ![image](assets/chapitre-2.1/5.webp)
 
 
-Maravedi, jako waluta miedziana, zajmuje szczególne miejsce w historii waluty hiszpańskiej. Jak wspomniano wcześniej, dolar hiszpański był pierwotnie międzynarodowym standardem, podstawową walutą rezerwową Hiszpanii. Jednak w obliczu pewnych wyzwań gospodarczych Hiszpania musiała uciec się do sprytnych strategii monetarnych.
+Maravedi, jako waluta miedziana, zajmuje szczególne miejsce w historii waluty hiszpańskiej. Jak wspomniano wcześniej, dolar hiszpański był pierwotnie standardem międzynarodowym, podstawową walutą rezerwową Hiszpanii. Jednak w obliczu pewnych wyzwań gospodarczych Hiszpania musiała uciec się do sprytnych strategii monetarnych.
 
 
 Dewaluacja monetarna jest narzędziem często wykorzystywanym przez państwa do finansowania swoich wydatków lub stymulowania gospodarki. Hiszpania znalazła się jednak w delikatnej sytuacji. Dewaluacja dolara hiszpańskiego zagroziłaby jej pozycji w handlu międzynarodowym. Aby rozwiązać ten dylemat, Hiszpania posłużyła się monetą maravedis.
@@ -323,7 +322,7 @@ W powszechnym przekonaniu często kojarzy się walutę z tworem państwowym, gdz
 Przykładem może być waga monetarna odpowiadająca ośmiu hiszpańskim realom lub jednemu hiszpańskiemu dolarowi. Odważnik ten, oznaczony rzymską cyfrą wskazującą jego wartość, był używany przez kantory do oceny wartości monet na podstawie ich wagi, a nie tylko stempla. Ważąc monety, można było określić, czy zostały one zmienione lub uszkodzone, co mogło obniżyć ich wartość. Praktyka ta podkreśla, że chociaż standardowe stemplowanie przez państwo nadawało walucie pewną wartość nominalną, prawdziwa wartość tkwiła w wadze zawartego w niej metalu szlachetnego.
 
 
-Analiza ta pokazuje, że zaufanie do waluty, a co za tym idzie jej wartość, było oparte na jej postaci fizycznej, a nie zwykłym zapewnieniu państwa. Podkreśla to dwoistość między wartością nominalną narzuconą przez państwo a wartością wewnętrzną podyktowaną zawartością metalu szlachetnego. W ten sposób waluta wykracza poza bycie zwykłym instrumentem państwowym, a jej podstawowa wartość jest nierozerwalnie związana z jej fizycznymi i mierzalnym aspektami.
+Analiza ta pokazuje, że zaufanie do waluty, a co za tym idzie jej wartość, było oparte na jej postaci fizycznej, a nie zwykłym zapewnieniu państwa. Podkreśla to dwoistość między wartością nominalną narzuconą przez państwo a wartością wewnętrzną podyktowaną zawartością metalu szlachetnego. W ten sposób waluta wykracza poza bycie zwykłym instrumentem państwowym, a jej podstawowa wartość jest nierozerwalnie związana z jej fizycznymi i mierzalnymi aspektami.
 
 
 #### Wnioski

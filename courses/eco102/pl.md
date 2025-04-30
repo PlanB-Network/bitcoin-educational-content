@@ -935,6 +935,12 @@ Bastiat skomponował wówczas satyryczny tekst, który później stał się jedn
 
 ![image](assets/en/079.webp)
 
+---
+
+>CHROŃMY NASZE ŚWIECE!
+
+---
+
 
 W tej petycji producenci świec proszą posłów o ochronę prawną przed niebezpiecznym konkurentem:
 
@@ -1051,11 +1057,13 @@ Dlatego Bastiat już wcześniej zrozumiał krzywą Laffera. Arthur Laffer to ame
 
 ![image](assets/en/087.webp)
 
+---
 
-> Zbyt wysoki podatek zabija podatek.
->
+>„Zbyt wysokie podatki zabijają wpływy podatkowe”  
+>Arthur Laffer
 
-> Arthur Laffer
+---
+
 
 Politycy naiwnie zakładają, że istnieje automatyczny i stały związek między stawkami podatkowymi a przychodami podatkowymi. Sądzą, że mogą podwoić wpływy podatkowe poprzez podwojenie stawki podatkowej. Według Laffera takie podejście pomija fakt, że podatnicy mogą zmienić swoje zachowanie w odpowiedzi na nowe zachęty.
 
@@ -1378,6 +1386,11 @@ To właśnie dlatego, że człowiek ryzykuje popełnienie błędu lub niewłaśc
 
 ![image](assets/en/110.webp)
 
+---
+
+>Błądzić jest rzeczą ludzką.
+
+---
 
 Jest więc jasne, że Bastiat nie jest ślepy. Nie zaprzecza istnieniu zła. Człowiek jest słaby, podatny na błędy i winy. Bastiat nigdzie nie zaprzecza, że korzystanie z indywidualnej wolności wiąże się z możliwością popełnienia błędu, możliwością dokonania nierozsądnego lub bezsensownego wyboru.
 
@@ -1435,6 +1448,14 @@ I jeszcze raz:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Stowarzyszenie  
+>wzajemnej pomocy  
+>w GUISY  
+>1899
+
+---
 
 Jednak według Bastiata istnieje alternatywa dla obowiązkowej solidarności państwowej: "społeczeństwo wzajemnej pomocy", wzajemna i spontaniczna pomoc ludzi między sobą dzięki towarzystwom wzajemnej pomocy. Bastiat przewidział jednak, że państwo w końcu przejmie te towarzystwa, aby uczynić je wyjątkowym i scentralizowanym organem, zachęcając do wydatków i marnotrawstwa.
 
@@ -1447,6 +1468,15 @@ W broszurze zatytułowanej "Sprawiedliwość i braterstwo" Bastiat analizuje ró
 
 ![image](assets/en/118.webp)
 
+---
+
+>Fundacje –  
+>**wartość dodana**  
+>dla **społeczeństwa**  
+>
+>SwissFoundations
+
+---
 
 Rzeczywiście, solidarność wewnątrzrodzinna, solidarność lokalna lub zorganizowana filantropia są znacznie bardziej rozwinięte w krajach, które mają lekki system podatkowy i stosunkowo wysoki stopień wolności gospodarczej, takich jak Szwajcaria i Stany Zjednoczone, podczas gdy jest ona w dużej mierze stłumiona w krajach, w których państwo w dużej mierze zastąpiło indywidualną odpowiedzialność, takich jak Francja czy Niemcy.
 

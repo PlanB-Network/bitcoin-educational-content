@@ -1,5 +1,5 @@
 ---
-name: Introduzione Teorica a Lightning Network
+name: Introduzione Teorica alla Lightning Network
 goal: Scoprire la Lightning Network da una prospettiva tecnica
 objectives:
   - Comprendere il funzionamento dei canali della rete.

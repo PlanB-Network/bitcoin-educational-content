@@ -1847,46 +1847,46 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 
-Kao što smo upravo videli, Bitkoin protokol, iako revolucionaran, suočava se sa značajnim izazovima u pogledu skalabilnosti potrebne za obradu svih naših dnevnih transakcija. Da bi se rešili ovi problemi, predložena je Lightning mreža i od tada se razvio u nekoliko različitih implementacija, od kojih su sve interoperabilne:
+Kao što smo upravo videli, Bitkoin protokol, iako revolucionaran, suočava se sa značajnim izazovima u pogledu skalabilnosti potrebne za obradu svih naših dnevnih transakcija. Da bi se rešili ovi problemi, predložena je Lightning mreža i od tada se razvila u nekoliko različitih implementacija, od kojih su sve interoperabilne:
 
 
 
 - Core-lightning by Blockstream
-- Eclair by Acinq
-- LND od udara groma
+- Eclair od Acinq-a
+- LND od Lightning strike-a
 
 
-Ova peer-to-peer mreža ima za cilj da olakša mikro-transakcije (sa veoma niskom vrednošću) koje bi inače bile nepraktične zbog visokih naknada i dugih vremena potvrde na bitkoin Blockchain.
+Ova peer-to-peer mreža ima za cilj da olakša mikro-transakcije (sa veoma niskom vrednošću) koje bi inače bile nepraktične zbog visokih naknada i dugih vremena potvrde na bitkoin Blockchain-u.
 
 
 ### Koje su upotrebe mreže?
 
 
-Ova tehnologija otvara vrata širokom spektru potencijalnih primena za bitkoin koje su ranije bile nedostižne zbog neophodnih ograničenja kako bi se osigurala sigurnost i decentralizacija bitkoin. Među ovim svakodnevnim slučajevima upotrebe, možemo pomenuti instant naplatu u fizičkoj i online trgovini, strimovanje novca za plaćanja u realnom vremenu i mikro-donacije za kreatore sadržaja. Omogućavanjem mreže gotovo trenutnih, sigurnih i niskotarifnih transakcija (u proseku manje od 0,5%), mnogi ranije nezamislivi poslovni modeli mogu biti ostvareni. Ovo je moguće jer Lightning Network funkcioniše koristeći satoshije (Sats), najmanju jedinicu bitkoin.
+Ova tehnologija otvara vrata širokom spektru potencijalnih primena za Bitkoin koje su ranije bile nedostižne zbog neophodnih ograničenja za osiguranje sigurnosti i decentralizaciju Bitkoina. Među ovim svakodnevnim slučajevima upotrebe, možemo pomenuti instant naplatu u fizičkoj i online trgovini, strimovanje novca za plaćanja u realnom vremenu i mikro-donacije za kreatore sadržaja. Omogućavanjem mreže gotovo trenutnih, sigurnih i niskotarifnih transakcija (u proseku manje od 0,5%), mnogi ranije nezamislivi poslovni modeli mogu biti ostvareni. Ovo je moguće jer Lightning mreža funkcioniše koristeći satoshije (Sats), najmanju jedinicu bitkoina.
 
 
 ![image](assets/en/82.webp)
 
 
-Industrija video igara nudi posebno zanimljiv primer kako se Lightning Network može koristiti za transformaciju postojećih poslovnih modela. Koncept "koža u igri" je ideja koja je nedavno stekla popularnost u ovom kontekstu. U suštini, to podrazumeva da imate finansijski ulog u ishodu igre. Zapravo, Lightning Network omogućava igračima da se klade na vrlo male iznose novca dok igraju igre, kao što su nekoliko satoshija (oko delić euro centa) kako bi uspostavili ulog koji podstiče konkurenciju, dok značajno povećava troškove korišćenja botova.
+Industrija video igara nudi posebno zanimljiv primer kako se Lightning mreža može koristiti za transformaciju postojećih poslovnih modela. Koncept "skin in the game" - koža u igri - je ideja koja je nedavno stekla popularnost u ovom kontekstu. U suštini, to podrazumeva da imate finansijski ulog u ishodu igre. Zapravo, Lightning mreža omogućava igračima da se klade na vrlo male iznose novca dok igraju igre, kao što su nekoliko satoshija (oko delić euro centa) kako bi uspostavili ulog koji podstiče konkurenciju, dok značajno povećava troškove korišćenja botova.
 
 
 ![image](assets/en/83.webp)
 
 
-Ukratko, budućnost mikrotransakcija sa bitkoin izgleda obećavajuće zahvaljujući inovacijama poput Lightning Network. Kako se ove tehnologije nastavljaju razvijati i sazrevati, možemo očekivati pojavu novih i uzbudljivih aplikacija u bliskoj budućnosti.
+Ukratko, budućnost mikrotransakcija sa Bitkoinom izgleda obećavajuće zahvaljujući inovacijama poput Lightning mreža. Kako se ove tehnologije nastavljaju razvijati i sazrevati, možemo očekivati pojavu novih i uzbudljivih aplikacija u bliskoj budućnosti.
 
 
 ![image](assets/en/84.webp)
 
 
-Još jedan primer može biti "streaming novca": putem Lightning Network, možemo vršiti mikro-transakcije svake minute (potencijalno bez pouzdane treće strane), što otvara vrata eksperimentisanju sa ekonomskim modelima gde potrošači plaćaju za sadržaj na osnovu njihove stvarne potrošnje. Čak je zamislivo koristiti ovaj sistem za iznajmljivanje dobara. U takvom sistemu, novac se automatski deli, na osnovu unapred definisanog procenta, među različitim doprinosiocima usluge ili proizvoda. Ovo bi moglo revolucionisati način na koji razmišljamo o modelima plaćanja: umesto plaćanja mesečne pretplate za uslugu, korisnici bi mogli biti naplaćeni po minuti, ili čak po sekundi, za vreme koje provode koristeći uslugu. Takav ekonomski model mogao bi imati duboke implikacije za kreatore sadržaja, koji bi bili motivisani da proizvode kvalitetan sadržaj kako bi zadržali pažnju korisnika.
+Još jedan primer može biti "strimovanje novca": putem Lightning mreže, možemo vršiti mikro-transakcije svake minute (potencijalno bez pouzdane treće strane), što otvara vrata eksperimentisanju sa ekonomskim modelima gde potrošači plaćaju za sadržaj na osnovu njihove stvarne potrošnje. Čak je zamislivo koristiti ovaj sistem za iznajmljivanje dobara. U takvom sistemu, novac se automatski deli, na osnovu unapred definisanog procenta, među različitim doprinosiocima usluge ili proizvoda. Ovo bi moglo revolucionisati način na koji razmišljamo o modelima plaćanja: umesto plaćanja mesečne pretplate za uslugu, korisnici bi mogli biti naplaćeni po minuti, ili čak po sekundi, za vreme koje provode koristeći uslugu. Takav ekonomski model mogao bi imati duboke implikacije za kreatore sadržaja, koji bi bili motivisani da proizvode kvalitetan sadržaj kako bi zadržali pažnju korisnika.
 
 
 ![image](assets/en/85.webp)
 
 
-Zaključno, Lightning Network otvara mnoštvo uzbudljivih slučajeva upotrebe za korisnike bitkoin. Rezultirajući ekonomski modeli i poslovne prilike su brojni i raznovrsni, i ohrabrujemo vas da sami proverite isprobavanjem aplikacije za podkaste [Fountain](https://www.fountain.fm/), koja vam omogućava da budete nagrađeni sa nekoliko Sats za slušanje vaših omiljenih podkasta!
+Zaključno, Lightning mreža otvara mnoštvo uzbudljivih upotreba za korisnike Bitkoina. Rezultirajući ekonomski modeli i poslovne prilike su brojni i raznovrsni, i ohrabrujemo vas da sami proverite isprobavanjem aplikacije za podkaste [Fountain](https://www.fountain.fm/), koja vam omogućava da budete nagrađeni sa nekoliko Sats za slušanje vaših omiljenih podkasta!
 
 
 ## Crvena pilula ili plava pilula?
@@ -1895,13 +1895,13 @@ Zaključno, Lightning Network otvara mnoštvo uzbudljivih slučajeva upotrebe za
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
 
-Kao što je Morpheus rekao Neu: "Uzmeš plavu pilulu, priča se završava, probudiš se u svom krevetu i veruješ u šta god želiš da veruješ. Uzmeš crvenu pilulu, ostaješ u Zemlji čuda i pokazujem ti koliko duboko ide zečja rupa." Da li si spreman da istražiš zečju rupu bitkoin? Budi oprezan, jer bi mogao ponovo otkriti svoju finansijsku slobodu!
+Kao što je Morpheus rekao Neu: "Uzmeš plavu pilulu, priča se završava, probudiš se u svom krevetu i veruješ u šta god želiš da veruješ. Uzmeš crvenu pilulu, ostaješ u Zemlji čuda i pokazujem ti koliko duboko ide zečja rupa." Da li si spreman da istražiš zečju rupu Bitkoina? Budi oprezan, jer bi mogao ponovo otkriti svoju finansijsku slobodu!
 
 
 ### Tehnološka budućnost i njene implikacije
 
 
-Tehnologija se razvija eksponencijalno i niko ne može sa sigurnošću predvideti njene buduće razvojne pravce. Svetska povezanost i veštačka inteligencija nastavljaju da napreduju, a znanje koje pojedinac može steći putem interneta postaje sve neizmerljivije tokom vremena.
+Tehnologija se razvija eksponencijalno i niko ne može sa sigurnošću predvideti njene buduće razvojne pravce. Svetska povezanost i veštačka inteligencija nastavljaju da napreduju, a znanje koje pojedinac može steći putem interneta postaje sve neizmernije tokom vremena.
 
 
 Ako uzmemo AI kao primer, ove tehnologije su već nadmašile ili se približavaju ljudskom nivou performansi u sve većem broju oblasti, kao što su video igre, proizvodnja slika i teksta, i analiza podataka. Jedna od potencijalnih implikacija je da će preko 80% poslova nestati zbog AI i automatizacije. Kao posledica, dostupno nam je nekoliko opcija, kao što su ograničavanje tehnološkog napretka ili korišćenje povećanog kapitala iz dobitaka produktivnosti koje stvara AI.
@@ -1921,12 +1921,12 @@ Računari, internet, streaming i VR će promeniti obrazovanje. Mogli bismo imati
 
 
 - Gde je granica između učitelja i personifikacije veštačke inteligencije?
-- Kako možemo garantovati društvo koje živi u blagostanju?
+- Kako možemo garantovati društvo koje živi u prosperitetu?
 
 
 Ova fundamentalna pitanja za našu budućnost moraju biti diskutovana i kolektivno odlučena.
 
-Kakva je veza sa bitkoin? Baš kao što je internet revolucionisao načine komunikacije, bitkoin predstavlja tehnološku revoluciju za nove oblike organizacije velikih razmera, omogućavajući nam da Exchange vrednost bez oslanjanja na bilo koju pouzdanu treću stranu. Da li želimo da ometamo tehnološku evoluciju monetarnog sistema, ili želimo da prihvatimo potencijal za povećani kapital kroz deseterostruke dobitke u produktivnosti koje nudi korišćenje bitkoin i Lightning protokola?
+Kakva je veza sa Bitkoinom? Baš kao što je internet revolucionisao načine komunikacije, Bitkoin predstavlja tehnološku revoluciju za nove oblike organizacije velikih razmera, omogućavajući nam da razmenjjemo vrednost bez oslanjanja na bilo koju pouzdanu treću stranu. Da li želimo da ometamo tehnološku evoluciju monetarnog sistema, ili želimo da prihvatimo potencijal za povećani kapital kroz deseterostruke dobitke u produktivnosti koje nudi korišćenje Bitkoin i Lightning protokola?
 
 
 ### Kakva je budućnost finansija?
@@ -1937,13 +1937,13 @@ Ova razmatranja takođe postavljaju pitanja o tome ko bi trebalo da drži, odobr
 
 
 - Da li je valuta oblik privatne svojine?
-- Mogu li se nalozi demonstranata blokirati bez naloga Vrhovnog suda?
+- Mogu li se računi demonstranata blokirati bez naloga Vrhovnog suda?
 - Ko garantuje finansijski sistem?
 - Kako pojedinac može biti suveren nad svojim novcem i oslanjati se na pouzdanu treću stranu?
 - Može li se novac poslati na drugi kraj sveta bez naknada ili posrednika?
 
 
-Prihvatanje ovih novih tehnologija moglo bi generate masivne ekonomije obima širom sveta. Da li bismo trebali dozvoliti slobodno kretanje kapitalnih tokova? Međunarodne blokade imaju ekonomske i političke posledice. Da li je etički koristiti finansijske posrednike poput Western Union-a, koji ponekad naplaćuju do 25% provizije? Verujemo da u sve digitalnijem svetu, novac treba da bude demokratizovan i smatran zajedničkim dobrom koje pripada ljudima, a ne državi ili netransparentnim finansijskim institucijama.
+Prihvatanje ovih novih tehnologija moglo bi generisati masivne ekonomije obima širom sveta. Da li bismo trebali dozvoliti slobodno kretanje kapitalnih tokova? Međunarodne blokade imaju ekonomske i političke posledice. Da li je etički koristiti finansijske posrednike poput Western Union-a, koji ponekad naplaćuju do 25% provizije? Verujemo da u sve digitalnijem svetu, novac treba da bude demokratizovan i smatran zajedničkim dobrom koje pripada ljudima, a ne državi ili netransparentnim finansijskim institucijama.
 
 
 Pitanje ko treba da kontroliše bankarski sistem je ključno jer pravila bankarske igre nisu transparentna i razumljiva svima, što omogućava kasti političara i regulatora da zadrže svoj stisak nad sistemom, pa je važno postaviti pitanje da li slobodno tržište ili grupa intelektualaca treba da ima moć nad njim.
@@ -1963,28 +1963,28 @@ Cenzura takođe mora biti dovedena u pitanje: ko ima znanje da odluči šta treb
 Snažno verujemo da tolerisanje cenzure može uništiti slobodu izražavanja i pravo na okupljanje, jer može imati negativan uticaj na inovacije i slobodnu volju. Uvođenje cenzure je tehnički teško bez stvaranja potpune distopije. Dakle, koji entitet bi trebalo da ima moć cenzure? Pitanje je komplikovano, a takođe je teško odlučiti ko bi trebalo da bude ograničen ili ne.
 
 
-Na svetu postoji 2,4 milijarde ljudi bez bankovnog računa, što nužno stvara geografske nejednakosti. S druge strane, bitkoin omogućava jednakost u transakcijama, ne uzimajući u obzir vaš društveni status ili političku poziciju. Protokol je apolitičan i ne daje posebne privilegije liderima ili drugim uticajnim ličnostima, osiguravajući da svi imaju iste mogućnosti za unapređenje razvoja, umesto da se nekolicini dozvoli da ostanu na vrhu dok drugi zaostaju. Da li bi svi trebalo da imaju pristup istoj valuti, bez obzira na njihov društveni status? Važno je razmisliti o svetu koji želimo da ostavimo našoj deci, i težimo ka stvaranju otvorenog sveta gde su slobodni da upravljaju svojim novcem kako žele.
+Na svetu postoji 2,4 milijarde ljudi bez bankovnog računa, što nužno stvara geografske nejednakosti. S druge strane, Bitkoin omogućava jednakost u transakcijama, ne uzimajući u obzir vaš društveni status ili političku poziciju. Protokol je apolitičan i ne daje posebne privilegije liderima ili drugim uticajnim ličnostima, osiguravajući da svi imaju iste mogućnosti za napredak, umesto da se nekolicini dozvoli da ostanu na vrhu dok drugi zaostaju. Da li bi svi trebalo da imaju pristup istoj valuti, bez obzira na njihov društveni status? Važno je razmisliti o svetu koji želimo da ostavimo našoj deci, i težimo ka stvaranju otvorenog sveta gde su slobodni da upravljaju svojim novcem kako žele.
 
 
-bitkoin je važan i ne treba ga smatrati samo igrom slučaja, stoga je ključno nastaviti postavljati pitanja o bitkoin i njegovim posledicama na svet.
+Bitkoin je važan i ne treba ga smatrati samo igrom na sreću, stoga je ključno nastaviti postavljati pitanja o Bitkoinu i njegovim posledicama na svet.
 
 
-### bitkoin: revolucionarni protokol
+### Bitkoin: revolucionarni protokol
 
 
-Kao što smo videli u prethodnom poglavlju, bitkoin protokol je neutralan prema svim svojim korisnicima. Zahvaljujući pravilima konsenzusa i kriptografiji, možemo nepromenljivo beležiti transakcije u globalnom javnom Ledger, garantujući prenose monetarne vrednosti bez ikakve pouzdane treće strane. Druga-Layer infrastruktura (a uskoro i treća Layer, sa RGB, ili "Stvarno Dobar bitkoin") koristi se za skalabilnost mreže i razvoj novih funkcionalnosti.
+Kao što smo videli u prethodnom poglavlju, Bitkoin protokol je neutralan prema svim svojim korisnicima. Zahvaljujući pravilima konsenzusa i kriptografiji, možemo nepromenljivo beležiti transakcije u globalnom javnom registru, garantujući prenose monetarne vrednosti bez ikakve pouzdane treće strane. Infrastruktura drugog sloja (a uskoro i trećeg, sa RGB, ili "Really good Bitcoin"-Stvarno Dobar Bitkoin) koristi se za skalabilnost mreže i razvoj novih funkcionalnosti.
 
 
-bitkoin ima sve potrebne karakteristike da bude efikasna i zdrava valuta: deljiva, trenutno prenosiva, necenzurisana, sa zanemarljivim troškovima verifikacije, i sa monetarnom politikom već postavljenom na 21 milion jedinica za vekove koji dolaze. bitkoin je pseudoniman i može se razmenjivati bilo gde u svetu bez ikakve autorizacije od strane bilo kog entiteta. Samo treba da držite svoje privatne ključeve i zapamtite izreku "Nisu tvoji ključevi, nisu tvoji bitkoini".
+Bitkoin ima sve potrebne karakteristike da bude efikasna i zdrava valuta: deljiva, trenutno prenosiva, necenzurisana, sa zanemarljivim troškovima verifikacije, i sa monetarnom politikom već postavljenom na 21 milion jedinica za vekove koji dolaze. Bitkoin je pseudoniman i može se razmenjivati bilo gde u svetu bez ikakve autorizacije od strane bilo kog entiteta. Samo treba da držite svoje privatne ključeve i zapamtite izreku "Nisu tvoji ključevi, nisu tvoji bitkoini".
 
 
-Usvajaju ga različite grupe ljudi, od kriptografa, preko libertarijanaca, do tradicionalnih preduzeća, pa čak i čitavih zemalja. Međutim, bitkoin je za svakoga, i kako broj korisnika raste, tako raste i broj bitkoin čvorova koji služe kao čuvari istorije transakcija, osiguravajući njegovu decentralizaciju.
+Usvajaju ga različite grupe ljudi, od kriptografa, preko libertarijanaca, do tradicionalnih preduzeća, pa čak i čitavih zemalja. Međutim, Bitkoin je za svakoga, i kako broj korisnika raste, tako raste i broj Bitkoin čvorova koji služe kao čuvari istorije transakcija, osiguravajući njegovu decentralizaciju.
 
 
-bitkoin ne može biti zaustavljen i više ne može biti cenzurisan. To je mirna revolucija koja menja monetarni sistem i omogućava finansijsku inkluzivnost. Korisnici mogu dobiti bitkoine prihvatanjem istih za svoju trgovinu ili kupovinom putem regulisanih ili neregulisanih platformi. Oni mogu čuvati sredstva u svojim novčanicima, mobilnim aplikacijama ili fizičkim uređajima, bez potrebe za pouzdanim posrednicima. bitkoin zagovara transparentnost, slobodu i individualnu odgovornost: kako se kaže "Ne veruj, proveri".
+Bitkoin ne može biti zaustavljen i više ne može biti cenzurisan. To je mirna revolucija koja menja monetarni sistem i omogućava finansijsku inkluzivnost. Korisnici mogu dobiti bitkoine prihvatanjem istih za svoju trgovinu ili kupovinom putem regulisanih ili neregulisanih platformi. Oni mogu čuvati sredstva u svojim novčanicima, mobilnim aplikacijama ili fizičkim uređajima, bez potrebe za pouzdanim posrednicima. Bitkoin zagovara transparentnost, slobodu i individualnu odgovornost: kako se kaže "Ne veruj, proveri".
 
 
-Satoshi je stvorio bitkoin 2008. godine kako bi predložio promenu finansijskog sistema redizajniranjem valute. Smatrao je da fiat koji se lako stvara predstavlja rizik od korupcije - vlade ga mogu i zloupotrebljavaju. bitkoin je neutralna alternativa, oslobađajući nas od banaka i pokrećući mirnu revoluciju u načinu na koji gledamo na novac.
+Satoshi je stvorio Bitkoin 2008. godine kako bi predložio promenu finansijskog sistema redizajniranjem valute. Smatrao je da fiat koji se lako stvara predstavlja rizik od korupcije - vlade mogu i zloupotrebljavaju je. Bitkoin je neutralna alternativa, oslobađajući nas od banaka i pokrećući mirnu revoluciju u načinu na koji gledamo na novac.
 
 
 Da li ste spremni da se pridružite?

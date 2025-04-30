@@ -580,6 +580,12 @@ Bastiat verfasste daraufhin einen satirischen Text, der später zu einem seiner 
 
 ![image](assets/en/079.webp)
 
+---
+
+>SCHÜTZT UNSERE KERZEN!
+
+---
+
 In dieser Petition bitten die Kerzenmacher die Abgeordneten um rechtlichen Schutz gegen einen gefährlichen Rivalen:
 
 > Wir leiden unter der unerträglichen Konkurrenz eines ausländischen Rivalen, der, wie es scheint, in so überlegenen Bedingungen zur Lichtproduktion ist, dass er unseren nationalen Markt zu einem fabelhaft reduzierten Preis überschwemmt.
@@ -844,6 +850,12 @@ Es ist, weil der Mensch das Risiko eingeht, Fehler zu machen oder falsch zu hand
 
 ![Bild](assets/en/110.webp)
 
+---
+
+>Irren ist menschlich.
+
+---
+
 So ist klar, dass Bastiat weit davon entfernt ist, blind zu sein. Er leugnet nicht die Existenz des Bösen. Der Mensch ist schwach, anfällig für Fehler und Schuld. Nirgendwo wird man sehen, dass Bastiat die Tatsache leugnet, dass die Ausübung individueller Freiheit mit der Möglichkeit des Irrtums, der Möglichkeit einer unvernünftigen oder sinnlosen Wahl verbunden ist.
 
 Er behauptet einfach, dass, wenn die Quelle des Bösen in der Abwesenheit von Freiheit liegt, das Heilmittel in der Freiheit selbst liegt, und genauer gesagt in der vollen und ganzen Ausübung persönlicher Verantwortung.
@@ -883,6 +895,15 @@ Und weiter:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Gesellschaft  
+>für gegenseitige Hilfe  
+>in GUISY  
+>1899
+
+---
+
 Laut Bastiat gibt es jedoch eine Alternative zur obligatorischen staatlichen Solidarität: "Gegenseitigkeitshilfeverein"
 
 die gegenseitige und spontane Unterstützung der Menschen untereinander dank der Gegenseitigkeitshilfevereine. Aber er sah auch voraus, dass der Staat diese Gegenseitigkeiten schließlich ergreifen würde, um sie zu einem einzigartigen und zentralisierten Körper zu machen, was Ausgaben und Verschwendung fördert.
@@ -892,6 +913,16 @@ die gegenseitige und spontane Unterstützung der Menschen untereinander dank der
 In einem Pamphlet mit dem Namen "Gerechtigkeit und Brüderlichkeit" erkundet Bastiat auch die Idee eines vereinfachten und fairen Steuersystems zur Finanzierung kollektiver Bedürfnisse (Polizei, Justiz, Armee): Einkommen und Gewinne würden einem einheitlichen und proportionalen Steuersatz unterliegen. Das ist das, was heute als "Flat Tax" bekannt ist.
 
 ![image](assets/en/118.webp)
+
+---
+
+>Stiftungen – ein  
+>**Mehrwert**  
+>für die **Gesellschaft**  
+>
+>SwissFoundations
+
+---
 
 Tatsächlich sind innerfamiliäre Solidarität, lokale Solidarität oder organisierte Philanthropie in Ländern mit einem leichten Steuersystem und einem relativ hohen Grad an wirtschaftlicher Freiheit, wie der Schweiz und den Vereinigten Staaten, viel stärker entwickelt, während sie in Ländern, in denen der Staat die individuelle Verantwortung weitgehend ersetzt hat, wie Frankreich oder Deutschland, weitgehend erstickt ist.
 Es ist oft modern, den "Egoismus" zu beklagen, der in liberalen Gesellschaften vorherrschen würde. Doch das genaue Gegenteil ist der Fall. Wenn eine Gesellschaft mit Steuern belastet ist und Individuen ihr Eigentum nicht mehr besitzen, werden sie nicht zum Geben ermutigt, sondern eher dazu, sich in sich selbst zurückzuziehen.

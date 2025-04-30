@@ -569,9 +569,6 @@ Bastiat zaista smatra da je Rousseau pravi preteča socijalizma i kolektivizma. 
 
 U početku, čovek je samo buržuj. Ali buržuj je kalkulator; on želi svoje neposredno zadovoljstvo, on je rob svojih čula, svojih želja, svog posebnog interesa. Ukratko, on nije racionalan, stoga nije slobodan. Potrebno mu je obrazovanje, da razume da je njegov pravi interes opšti interes. Zato je Ruso napisao u Društvenom UG-10:
 
-
-> Ko odbije da se povinuje opštoj volji, biće primoran od strane celog tela: to ne znači ništa drugo nego da će biti prisiljeni da budu slobodni.
-
 ![image](assets/en/048.webp)
 
 ---

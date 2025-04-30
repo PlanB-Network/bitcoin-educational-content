@@ -341,8 +341,6 @@ Bastiat anser faktisk Rousseau for å være den sanne forløperen til sosialisme
 
 I utgangspunktet er mennesket bare en borger. Men borgeren er en kalkulator; han ønsker sin umiddelbare nytelse, han er slave for sine sanser, for sine ønsker, for sin særinteresse. Kort sagt, han er ikke rasjonell, derfor er han ikke fri. Han trenger å bli utdannet, for å forstå at hans sanne interesse er den generelle interessen. Dette er grunnen til at Rousseau skrev i "Samfunnskontrakten":
 
-> Den som nekter å adlyde den generelle viljen, skal tvinges av hele kroppen: dette betyr ikke annet enn at de vil bli tvunget til å være frie.
-
 ![bilde](assets/en/048.webp)
 
 Ifølge denne doktrinen har mennesket to viljer inni seg: en vilje som tenderer mot personlig interesse, det til borgeren, og en vilje som tenderer mot den generelle interessen, det til statsborgeren. Å lede menn, selv med makt, til å ønske en rasjonell ende, den generelle interessen, er å lede menn til å bli frie. Det de virkelig ønsker er en rasjonell ende, selv om de ikke vet det.

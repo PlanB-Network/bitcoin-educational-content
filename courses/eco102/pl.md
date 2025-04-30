@@ -570,9 +570,6 @@ Bastiat rzeczywiście uważa Rousseau za prawdziwego prekursora socjalizmu i kol
 
 Początkowo człowiek jest tylko burżujem. Ale burżuj jest kalkulatorem; chce natychmiastowej przyjemności, jest zniewolony przez swoje zmysły, pragnienia, partykularne interesy. Krótko mówiąc, nie jest racjonalny, a zatem nie jest wolny. Potrzebuje edukacji, by zrozumieć, że jego prawdziwym interesem jest interes ogólny. To dlatego Rousseau napisał w Contract:
 
-
-> Ktokolwiek odmówi posłuszeństwa ogólnej woli, zostanie zmuszony przez całe ciało: oznacza to nic innego, jak to, że zostaną zmuszeni do bycia wolnymi.
-
 ![image](assets/en/048.webp)
 
 ---

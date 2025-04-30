@@ -355,8 +355,6 @@ Bastiat betrachtet Rousseau tatsächlich als den wahren Vorläufer des Sozialism
 
 Ursprünglich ist der Mensch lediglich ein Bürger. Aber der Bürger ist ein Rechner; er will sein unmittelbares Vergnügen, er ist versklavt an seine Sinne, an seine Wünsche, an sein besonderes Interesse. Kurz gesagt, er ist nicht rational, daher ist er nicht frei. Er muss erzogen werden, um zu verstehen, dass sein wahres Interesse das Allgemeininteresse ist. Deshalb schrieb Rousseau im Gesellschaftsvertrag:
 
-> Wer sich weigert, dem allgemeinen Willen zu gehorchen, soll vom gesamten Körper gezwungen werden: das bedeutet nichts anderes, als dass sie gezwungen werden, frei zu sein.
-
 ![image](assets/en/048.webp)
 
 ---

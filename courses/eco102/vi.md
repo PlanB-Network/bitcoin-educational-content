@@ -343,8 +343,6 @@ Bastiat thực sự coi Rousseau là tiền thân thực sự của chủ nghĩa
 
 Ban đầu, một người đàn ông chỉ là một người thuộc giai cấp tư sản. Nhưng ông ấy là một người tính toán; ông ta muốn niềm vui tức thì, ông ta bị nô lệ bởi giác quan, bởi dục vọng, bởi lợi ích cá nhân. Nói ngắn gọn, ông ta không hợp lý, do đó ông ta không tự do. Ông ta cần được giáo dục, để hiểu rằng lợi ích thực sự của mình là lợi ích chung. Đó là lý do tại sao Rousseau đã viết trong "Khế ước xã hội":
 
-> Bất kỳ ai từ chối tuân theo ý chí chung sẽ bị cưỡng bách bởi toàn bộ: điều này không có nghĩa là gì khác ngoài việc họ sẽ được buộc phải tự do.
-
 ![image](assets/en/048.webp)
 
 ---

@@ -337,8 +337,6 @@ Bastiat skutečně považuje Rousseaua za pravého předchůdce socialismu a kol
 
 Původně je člověk pouze měšťanem. Ale měšťan je kalkulátor; chce své okamžité potěšení, je otrokem svých smyslů, svých touh, svého zvláštního zájmu. Stručně řečeno, není racionální, a proto není svobodný. Musí být vzdělán, aby pochopil, že jeho pravým zájmem je obecný zájem. To je důvod, proč Rousseau napsal ve Společenské smlouvě:
 
-> Kdo odmítne poslouchat všeobecnou vůli, bude celým tělesem donucen: to znamená nic jiného, než že budou nuceni být svobodní.
-
 ![image](assets/en/048.webp)
 
 ---

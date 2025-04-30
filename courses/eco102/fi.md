@@ -355,8 +355,6 @@ Bastiat pitää todellakin Rousseauta sosialismin ja kollektivismin todellisena 
 
 Alun perin ihminen on vain porvari. Mutta porvari on laskelmoija; hän haluaa välittömän nautintonsa, hän on orjuutettu aisteilleen, toiveilleen, omalle erityiselle edulleen. Lyhyesti sanottuna, hän ei ole rationaalinen, siksi hän ei ole vapaa. Hänen täytyy oppia ymmärtämään, että hänen todellinen etunsa on yleinen etu. Tämän vuoksi Rousseau kirjoitti Sosiaalisopimuksessa:
 
-> Kuka tahansa, joka kieltäytyy tottelemasta yleistä tahtoa, pakotetaan koko yhteisön toimesta: tämä tarkoittaa muuta kuin että heidät pakotetaan olemaan vapaita.
-
 ![image](assets/en/048.webp)
 
 ---

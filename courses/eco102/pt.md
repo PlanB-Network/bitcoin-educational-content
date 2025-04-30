@@ -355,8 +355,6 @@ Bastiat de fato considera Rousseau o verdadeiro precursor do socialismo e do col
 
 Inicialmente, o homem é meramente um burguês. Mas o burguês é um calculista; ele quer seu prazer imediato, é escravizado pelos seus sentidos, pelos seus desejos, pelo seu interesse particular. Em resumo, ele não é racional, portanto, não é livre. Ele precisa ser educado, para entender que seu verdadeiro interesse é o interesse geral. É por isso que Rousseau escreveu em O Contrato Social:
 
-> Quem recusar obedecer à vontade geral será compelido por todo o corpo: isso significa nada mais do que serão forçados a ser livres.
-
 ![imagem](assets/en/048.webp)
 
 De acordo com essa doutrina, o homem tem duas vontades dentro dele: uma vontade que tende para o interesse pessoal, a do burguês, e uma vontade que tende para o interesse geral, a do cidadão. Levar os homens, mesmo que à força, a querer um fim racional, o interesse geral, é levar os homens a se tornarem livres. O que eles realmente querem é um fim racional, mesmo que não saibam.

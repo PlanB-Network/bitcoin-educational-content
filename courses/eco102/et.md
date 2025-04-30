@@ -353,8 +353,6 @@ Bastiat peab tõepoolest Rousseau'd sotsialismi ja kollektivismi tõeliseks eelk
 
 Algselt on inimene lihtsalt kodanik. Kuid kodanik on arvutaja; ta ihkab oma otsest naudingut, ta on orjastatud oma meeltele, oma soovidele, oma erihuvi(de)le. Lühidalt, ta ei ole ratsionaalne, seega ei ole ta vaba. Teda on vaja harida, et mõista, et tema tõeline huvi on üldine huvi. Sellepärast kirjutas Rousseau Sotsiaallepingus:
 
-> Igaüks, kes keeldub üldist tahet kuuletumast, sunnitakse terve kogukonna poolt: see tähendab midagi muud, kui et neid sunnitakse olema vabad.
-
 ![image](assets/en/048.webp)
 
 ---

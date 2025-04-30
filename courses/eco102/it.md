@@ -297,13 +297,11 @@ Bastiat considera infatti Rousseau il vero precursore del socialismo e del colle
 
 Inizialmente, l'uomo è semplicemente un borghese. Ma il borghese è un calcolatore; vuole il suo piacere immediato, è schiavo dei suoi sensi, dei suoi desideri, del suo interesse particolare. In breve, non è razionale, quindi non è libero. Ha bisogno di essere educato, di capire che il suo vero interesse è l'interesse generale. Ecco perché Rousseau ha scritto nel Contratto Sociale:
 
-> Chiunque rifiuti di obbedire alla volontà generale sarà costretto dall'intero corpo: ciò non significa altro che saranno costretti ad essere liberi.
-
 ![image](assets/en/048.webp)
 
 ---
 
->Chiunque si rifiuterà di obbedire alla volontà generale sarà costretto da tutto il corpo: il che non significa altro se non che sarà costretto a essere libero.  
+>Chiunque rifiuti di obbedire alla volontà generale sarà costretto dall'intero corpo: ciò non significa altro che saranno costretti ad essere liberi.  
 >(Jean-Jacques Rousseau)
 
 ---

@@ -340,8 +340,6 @@ Bastiat memang menganggap Rousseau sebagai pendahulu sejati dari sosialisme dan 
 
 Pada awalnya, manusia hanyalah seorang borjuis. Namun, borjuis adalah seorang penghitung; dia menginginkan kesenangan segera, dia diperbudak oleh indranya, oleh keinginannya, oleh kepentingan khususnya. Singkatnya, dia tidak rasional, oleh karena itu dia tidak bebas. Dia perlu dididik, untuk memahami bahwa kepentingan sejatinya adalah kepentingan umum. Inilah mengapa Rousseau menulis dalam The Social Contract:
 
-> Siapa pun yang menolak untuk mematuhi kehendak umum harus dipaksa oleh seluruh tubuh: ini tidak berarti apa-apa selain mereka akan dipaksa untuk bebas.
-
 ![image](assets/en/048.webp)
 
 ---

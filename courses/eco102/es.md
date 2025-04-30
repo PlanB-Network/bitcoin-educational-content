@@ -356,8 +356,6 @@ Bastiat considera de hecho a Rousseau como el verdadero precursor del socialismo
 
 Inicialmente, el hombre es meramente un burgués. Pero el burgués es un calculador; quiere su placer inmediato, está esclavizado a sus sentidos, a sus deseos, a su interés particular. En resumen, no es racional, por lo tanto, no es libre. Necesita ser educado, entender que su verdadero interés es el interés general. Es por esto que Rousseau escribió en El Contrato Social:
 
-> Quien se niegue a obedecer la voluntad general será compelido por el cuerpo entero: esto no significa otra cosa sino que serán forzados a ser libres.
-
 ![image](assets/en/048.webp)
 
 ---

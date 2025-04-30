@@ -385,8 +385,6 @@ Bastiat indeed considers Rousseau to be the true precursor of socialism and coll
 
 Initially, man is merely a bourgeois. But the bourgeois is a calculator; he wants his immediate pleasure, he is enslaved to his senses, to his desires, to his particular interest. In short, he is not rational, therefore he is not free. He needs to be educated, to understand that his true interest is the general interest. This is why Rousseau wrote in The Social Contract:
 
-> Whoever refuses to obey the general will shall be compelled by the whole body: this means nothing else but that they will be forced to be free.
-
 ![image](assets/en/048.webp)
 
 ---

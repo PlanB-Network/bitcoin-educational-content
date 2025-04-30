@@ -637,6 +637,12 @@ Bastiat then composed a satirical text that later became one of his most famous 
 
 ![image](assets/en/079.webp)
 
+---
+
+>PROTECT OUR CANDLES!
+
+---
+
 In this petition, the candle makers ask the deputies for legal protection against a dangerous rival:
 
 > We suffer from the intolerable competition of a foreign rival who, it seems, is in such superior conditions for producing light that he floods our national market at a fabulously reduced price.  
@@ -938,6 +944,12 @@ It is because man risks making mistakes or acting wrongly and suffering the cons
 
 ![image](assets/en/110.webp)
 
+---
+
+>To err is human.
+
+---
+
 Thus, it is clear that Bastiat is far from being blind. He does not deny the existence of evil. Man is weak, prone to error and fault. Nowhere will one see Bastiat deny the fact that the exercise of individual freedom is associated with the possibility of error, the possibility of an unreasonable or senseless choice.
 
 He simply asserts that if the source of evil lies in the absence of freedom, the remedy is in freedom itself, and more specifically in the full and entire exercise of personal responsibility.
@@ -977,6 +989,14 @@ And again:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Mutual Aid  
+>Society of GUISY  
+>1899
+
+---
+
 However, according to Bastiat, there is an alternative to mandatory state solidarity: "mutual aid society", the mutual and spontaneous assistance of men among themselves thanks to mutual aid societies. But he also foresaw that the State would eventually seize these mutuals to make them a unique and centralized body, encouraging spending and waste.
 
 ![image](assets/en/117.webp)
@@ -984,6 +1004,16 @@ However, according to Bastiat, there is an alternative to mandatory state solida
 In a pamphlet named "Justice and Fraternity", Bastiat also explores the idea of a simplified and fair tax system for financing collective needs (police, justice, army): incomes and profits would be subject to a single and proportional tax rate. This is what is known today as the "Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Foundations –  
+>**added value**  
+>for **society**  
+>
+>SwissFoundations
+
+---
 
 Indeed, intra-family solidarity, local solidarity, or organized philanthropy are much more developed in countries that have a light tax system and a relatively high degree of economic freedom, such as Switzerland and the United States, whereas it is largely stifled in countries where the State has largely replaced individual responsibility, like France or Germany.
 

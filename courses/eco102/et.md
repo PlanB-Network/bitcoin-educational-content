@@ -595,11 +595,19 @@ Bastiat koostas seejärel satiirilise teksti, mis hiljem sai üheks tema kuulsai
 
 ![image](assets/en/079.webp)
 
+---
+
+>KAITSEME OMA KÜÜNLAID!
+
+---
+
 Selles petitsioonis paluvad küünlatootjad deputaatidelt õiguslikku kaitset ohtliku rivaali vastu:
 
 > Me kannatame talumatu konkurentsi all välismaise rivaali poolt, kes, nagu näib, on valguse tootmiseks nii ülekaalukates tingimustes, et ta ujutab meie riikliku turu üle uskumatult madala hinnaga.
-> Niisiis, kes on see ebaõiglane väliskonkurent? See on keegi muu kui päike. Tootjad rõhutavad seejärel võimalust reserveerida "rahvuslik turg rahvuslikule tööjõule", tellides seadusega sulgeda "kõik aknad, katuseaknad, varjud, luugid, rulood, kardinad, fassaadiaknad, ühesõnaga kõik avad, augud, praod ja lõhed, mille kaudu päikesevalgus on harjunud majadesse sisenema".
-> Teisisõnu, küünlatootjad üritavad demonstreerida "väliskonkurendi" (päike) kahjulikke mõjusid Prantsusmaa majandusele. Sest mitte ainult ei suuda päike pakkuda sama "toodet" nagu küünlad, vaid teeb seda tasuta. Kakssada aastat hiljem on see lugu uskumatult asjakohane. Mõelge taksojuhtidele, kes paluvad seadusel keelata VTC-d ja Uberi. Mõelge raamatupoodidele, mis tahavad keelata Amazoni.
+
+Niisiis, kes on see ebaõiglane väliskonkurent? See on keegi muu kui päike. Tootjad rõhutavad seejärel võimalust reserveerida "rahvuslik turg rahvuslikule tööjõule", tellides seadusega sulgeda "kõik aknad, katuseaknad, varjud, luugid, rulood, kardinad, fassaadiaknad, ühesõnaga kõik avad, augud, praod ja lõhed, mille kaudu päikesevalgus on harjunud majadesse sisenema".
+
+Teisisõnu, küünlatootjad üritavad demonstreerida "väliskonkurendi" (päike) kahjulikke mõjusid Prantsusmaa majandusele. Sest mitte ainult ei suuda päike pakkuda sama "toodet" nagu küünlad, vaid teeb seda tasuta. Kakssada aastat hiljem on see lugu uskumatult asjakohane. Mõelge taksojuhtidele, kes paluvad seadusel keelata VTC-d ja Uberi. Mõelge raamatupoodidele, mis tahavad keelata Amazoni.
 
 ![image](assets/en/080.webp)
 
@@ -867,6 +875,12 @@ Kuna inimene riskib eksimise või valesti tegutsemise ja selle tagajärgede kand
 
 ![image](assets/en/110.webp)
 
+---
+
+>Eksida on inimlik.
+
+---
+
 Niisiis, on selge, et Bastiat ei ole pime. Ta ei eita kurjuse olemasolu. Inimene on nõrk, altid eksimustele ja süütele. Kusagil ei näe, et Bastiat eitaks asjaolu, et individuaalse vabaduse kasutamine on seotud eksimise võimalusega, mõistusevastase või mõttetu valiku võimalusega.
 Ta väidab lihtsalt, et kui kurjuse allikas peitub vabaduse puudumises, siis ravim on vabaduses endas, ja täpsemalt isikliku vastutuse täies ja terviklikus rakendamises.
 
@@ -905,6 +919,15 @@ Ja veel:
 
 ![image](assets/en/116.webp)
 
+---
+
+>GUISY  
+>Ühiskondlik  
+>vastastikuse abi selts  
+>1899
+
+---
+
 Siiski, Bastiati sõnul on riiklikule kohustuslikule solidaarsusele alternatiiv: "vastastikuse abi ühing"
 vastastikuse ja spontaanse abi osutamine inimeste vahel tänu vastastikuse abistamise ühingutele. Kuid ta nägi ette ka, et riik haarab lõpuks need vastastikused ühingud, et muuta need ühtseks ja tsentraliseeritud organiks, julgustades kulutamist ja raiskamist.
 ![image](assets/en/117.webp)
@@ -912,6 +935,16 @@ vastastikuse ja spontaanse abi osutamine inimeste vahel tänu vastastikuse abist
 Pamfletis nimega "Õiglus ja Vendlus" uurib Bastiat ka lihtsustatud ja õiglase maksusüsteemi ideed kollektiivsete vajaduste (politsei, õigussüsteem, armee) rahastamiseks: sissetulekud ja kasumid oleksid allutatud ühtsele ja proportsionaalsele maksustamismäärale. Tänapäeval tuntakse seda kui "ühtset tulumaksu".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Sihtasutused –  
+>**lisandväärtus**  
+>ühiskonnale  
+>
+>SwissFoundations
+
+---
 
 Tõepoolest, peresisene solidaarsus, kohalik solidaarsus või organiseeritud filantroopia on palju arenenumad riikides, kus on kerge maksusüsteem ja suhteliselt kõrge majandusvabaduse aste, nagu Šveits ja Ameerika Ühendriigid, samas kui see on suuresti pärssitud riikides, kus riik on suuresti asendanud individuaalse vastutuse, nagu Prantsusmaa või Saksamaa.
 

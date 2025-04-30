@@ -593,6 +593,12 @@ Bastiat entonces compuso un texto satírico que más tarde se convirtió en una 
 
 ![image](assets/en/079.webp)
 
+---
+
+>¡PROTEJAMOS NUESTRAS VELAS!
+
+---
+
 En esta petición, los fabricantes de velas piden a los diputados protección legal contra un peligroso rival:
 
 > Sufrimos la intolerable competencia de un rival extranjero que, al parecer, se encuentra en condiciones tan superiores para producir luz que inunda nuestro mercado nacional a un precio fabulosamente reducido.
@@ -864,6 +870,12 @@ Es porque el hombre arriesga cometer errores o actuar mal y sufrir las consecuen
 
 ![image](assets/en/110.webp)
 
+---
+
+>Errar es humano.
+
+---
+
 Así, es claro que Bastiat está lejos de ser ciego. No niega la existencia del mal. El hombre es débil, propenso al error y la falta. En ningún lugar se verá a Bastiat negar el hecho de que el ejercicio de la libertad individual está asociado con la posibilidad de error, la posibilidad de una elección irrazonable o sin sentido.
 
 Simplemente afirma que si la fuente del mal yace en la ausencia de libertad, el remedio está en la libertad misma, y más específicamente en el ejercicio pleno y total de la responsabilidad personal.
@@ -903,6 +915,15 @@ Y nuevamente:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Sociedad  
+>de Socorro Mutuo  
+>de GUISY  
+>1899
+
+---
+
 Sin embargo, según Bastiat, hay una alternativa a la solidaridad estatal obligatoria: "sociedad de ayuda mutua"
 
 la asistencia mutua y espontánea de los hombres entre sí gracias a las sociedades de ayuda mutua. Pero también preveía que el Estado eventualmente se apoderaría de estas mutuas para convertirlas en un cuerpo único y centralizado, fomentando el gasto y el desperdicio.
@@ -912,6 +933,16 @@ la asistencia mutua y espontánea de los hombres entre sí gracias a las socieda
 En un panfleto llamado "Justicia y Fraternidad", Bastiat también explora la idea de un sistema tributario simplificado y justo para financiar las necesidades colectivas (policía, justicia, ejército): los ingresos y beneficios estarían sujetos a una única tasa impositiva proporcional. Esto es lo que se conoce hoy como el "Impuesto Plano".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Las fundaciones – un  
+>**valor añadido**  
+>para la **sociedad**  
+>
+>SwissFoundations
+
+---
 
 De hecho, la solidaridad intrafamiliar, la solidaridad local o la filantropía organizada están mucho más desarrolladas en países que tienen un sistema tributario ligero y un grado relativamente alto de libertad económica, como Suiza y los Estados Unidos, mientras que está en gran medida sofocada en países donde el Estado ha reemplazado en gran medida la responsabilidad individual, como Francia o Alemania.
 A menudo es de moda lamentar el "egoísmo" que prevalecería en las sociedades liberales. Pero lo cierto es todo lo contrario. Cuando una sociedad está agobiada por los impuestos y los individuos ya no son dueños de su propiedad, no se les incentiva a dar sino más bien a retraerse en sí mismos.

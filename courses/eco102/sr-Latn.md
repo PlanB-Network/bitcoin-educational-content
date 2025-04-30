@@ -934,6 +934,12 @@ Bastiat je zatim sastavio satirični tekst koji je kasnije postao jedno od njego
 
 ![image](assets/en/079.webp)
 
+---
+
+>ZAŠTITIMO NAŠE SVEĆE!
+
+---
+
 
 U ovoj peticiji, proizvođači sveća traže od poslanika pravnu zaštitu protiv opasnog rivala:
 
@@ -1050,11 +1056,13 @@ Zato je Bastiat već razumeo Lafferovu krivu. Arthur Laffer je američki ekonomi
 
 ![image](assets/en/087.webp)
 
+---
 
-> Previše poreza ubija porez.
->
+>„Previše poreza ubija porez“  
+>Artur Lafer
 
-> Artur Lefer
+---
+
 
 Političari naivno pretpostavljaju da postoji automatska i fiksna veza između poreskih stopa i poreskih prihoda. Oni misle da mogu udvostručiti poreske prihode udvostručavanjem poreske stope. Prema Laffer-u, takav pristup zanemaruje činjenicu da poreski obveznici mogu promeniti svoje ponašanje kao odgovor na nove podsticaje.
 
@@ -1377,6 +1385,11 @@ To je zato što čovek rizikuje da napravi greške ili postupi pogrešno i pretr
 
 ![image](assets/en/110.webp)
 
+---
+
+>Grešiti je ljudski.
+
+---
 
 Dakle, jasno je da Bastiat nije slep. On ne poriče postojanje zla. Čovek je slab, sklon greškama i manama. Nigda nećete videti da Bastiat poriče činjenicu da je vežbanje individualne slobode povezano s mogućnošću greške, mogućnošću nerazumne ili besmislene odluke.
 
@@ -1434,6 +1447,14 @@ I opet:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Društvo  
+>međusobne pomoći  
+GUISY  
+>1899
+
+---
 
 Međutim, prema Bastijatu, postoji alternativa obaveznoj državnoj solidarnosti: "društvo uzajamne pomoći", međusobna i spontana pomoć ljudi među sobom zahvaljujući društvima uzajamne pomoći. Ali je takođe predvideo da će država na kraju preuzeti ove uzajamne organizacije kako bi ih pretvorila u jedinstveno i centralizovano telo, podstičući trošenje i rasipanje.
 
@@ -1446,6 +1467,15 @@ U pamfletu pod nazivom "Pravda i Bratstvo", Bastiat takođe istražuje ideju poj
 
 ![image](assets/en/118.webp)
 
+---
+
+>Fondacije –  
+>**dodata vrednost**  
+>za **društvo**  
+>
+>SwissFoundations
+
+---
 
 Zaista, solidarnost unutar porodice, lokalna solidarnost ili organizovana filantropija su mnogo razvijenije u zemljama koje imaju lagan poreski sistem i relativno visok stepen ekonomske slobode, kao što su Švajcarska i Sjedinjene Američke Države, dok je u velikoj meri ugušena u zemljama gde je država u velikoj meri zamenila individualnu odgovornost, kao što su Francuska ili Nemačka.
 

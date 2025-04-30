@@ -1,8 +1,9 @@
-question: Apa penipuan umum di bidang investasi keuangan?
-answer: Sistem penjualan piramida.
+question: Apa keuntungan utama menggunakan pengelola kata sandi?
+answer: Menyimpan dan menghasilkan kata sandi yang rumit
 wrong_answers:
-  - Menjual barang fisik.
-  - Menjual produk perangkat lunak.
-  - Menjual mata uang fiat.
+  - Ini memberikan petunjuk untuk mengingat kata sandi Anda
+  - Menggunakan ulang kata sandi yang sama di berbagai akun online yang berbeda
+  - Ini menggantikan kebutuhan akan perangkat lunak antivirus
 explanation: |
-  Di bidang investasi keuangan, sistem penjualan piramida dan skema Ponzi menonjol sebagai model ilegal. Mereka beroperasi dengan menggunakan uang investor baru untuk membayar peserta lama.
+  Pengelola kata sandi membuat kata sandi yang kuat dan menyimpannya dengan aman, sehingga mudah diambil tanpa perlu menghafalnya.
+reviewed: false

@@ -1,88 +1,18 @@
-id: b6809ae6-b18b-4974-bf1a-ec8958cd4375
-chapterId: 33134b3f-92c1-5185-afb6-88599e47e801
-difficulty: easy
-duration: 15
-author: DecouvreBitcoin
-original_language: en
+id: 5c46dd9d-b4d1-4fff-b1b6-30e317474a85
+chapterId: d4327ac4-9ff8-5192-b542-cb78c0bd0aa7
+difficulty: intermediate
+duration: 30
+author: pretty-private
+tags:
+  - good-practice
+  - wallets
+
+# Proofreading metadata
+original_language: fr
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.23
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.2
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 0.1
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.2
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.23
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-03-21
     urgency: 1
     contributor_names:
-    reward: 0.2
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.2
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.29
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.2
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.29
-
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.23
-
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.26
-
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.23
-
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.23
-
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.26
+      - LoicPandul
+    reward: 0

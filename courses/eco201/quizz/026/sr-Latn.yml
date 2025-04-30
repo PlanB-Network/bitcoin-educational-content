@@ -1,0 +1,11 @@
+question: Šta znači da dobro ima visoku prodajnost?
+answer: To bi trebalo da bude željeno od strane što većeg broja ljudi, većinu vremena.
+wrong_answers:
+  - To bi trebalo da žele nekolicina ljudi, većinu vremena.
+  - To bi trebalo da bude željeno od strane što većeg broja ljudi, povremeno.
+  - To bi trebalo da žele neki ljudi, ponekad.
+explanation: |
+  Dobro sa visokom prodajnošću je ono koje je široko željeno
+  i može se lako zameniti za drugu robu ili usluge.
+  To ga čini pogodnim za upotrebu kao novac.
+reviewed: true

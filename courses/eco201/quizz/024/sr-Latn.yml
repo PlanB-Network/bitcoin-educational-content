@@ -1,0 +1,11 @@
+question: Koje je rešenje problema direktnog Exchange u podeli rada?
+answer: Neizravni Exchange olakšan novcem.
+wrong_answers:
+  - Direktni Exchange olakšan putem trampe.
+  - Indirektni Exchange olakšan putem trampe.
+  - Direktno Exchange omogućeno novcem.
+explanation: |
+  Novac omogućava indirektni Exchange, gde pojedinac može
+  kupiti od drugog, a prodavac može koristiti tu monetarnu jedinicu
+  negde drugde, u drugo vreme, i sa nekim drugim.
+reviewed: true

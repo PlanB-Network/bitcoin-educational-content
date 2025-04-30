@@ -1,0 +1,10 @@
+question: 什麼是 Lightning Network？
+answer: 以 Bitcoin Blockchain 為基礎的即時 Bitcoin 付款網路。
+wrong_answers:
+  - 與 Bitcoin Blockchain 獨立的 Blockchain 網路。
+  - 由 Bitcoin 礦工組成的網路。
+  - Bitcoin 交換器網路。
+explanation: |
+  Lightning Network 是即時 Bitcoin 付款網路，以 Bitcoin Blockchain 為基礎。
+  是以 Bitcoin Blockchain 為基礎。
+reviewed: true

@@ -1,9 +1,9 @@
-question: Quelle est la solution suggérée pour des achats récurrents de Bitcoin sans stress ?
-answer: Utilisez une solution DCA (Dollar Cost Averaging).
+question: Quelle action est essentielle pour que vos héritiers récupèrent vos bitcoins sans erreur ?
+answer: Fournir des instructions claires
 wrong_answers:
-  - Utilisez un portefeuille en ligne (hot wallet).
-  - Utilisez un portefeuille hors ligne (cold wallet).
-  - Utilisez une solution sans KYC (Know Your Customer).
+  - Confier toutes les clés privées
+  - Modifier fréquemment les mots de passe
+  - Utiliser une plateforme d'échange KYC
 explanation: |
-  La solution suggérée pour des achats récurrents de Bitcoin sans stress est d'utiliser une solution DCA (Dollar Cost Averaging). Cette stratégie consiste à diviser le montant total que vous souhaitez investir en achats périodiques afin de réduire l'impact de la volatilité.
+  Des instructions détaillées et compréhensibles assurent que vos proches puissent accéder correctement aux fonds.
 reviewed: false

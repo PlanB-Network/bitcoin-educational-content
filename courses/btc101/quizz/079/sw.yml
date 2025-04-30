@@ -1,0 +1,11 @@
+question: Unawezaje kuimarisha usalama chaguo-msingi wa Bitcoin Wallet yako?
+answer: Kwa kuongeza passphrase kwa Bitcoin Wallet yako.
+wrong_answers:
+  - Kwa kuongeza ufunguo wa pili wa faragha kwenye Bitcoin Wallet yako.
+  - Kwa kuongeza ufunguo wa pili wa umma kwenye Bitcoin Wallet yako.
+  - Kwa kuongeza kishazi cha pili cha Mnemonic kwenye Bitcoin Wallet yako.
+explanation: |
+  Ikiwa haujaridhika na usalama wa chaguo-msingi wa yako
+  Bitcoin Wallet, unaweza kuimarisha kila wakati kwa kuongeza a
+  passphrase kwa Bitcoin Wallet yako.
+reviewed: true

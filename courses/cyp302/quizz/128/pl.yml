@@ -1,0 +1,9 @@
+question: Jaki trudny problem obliczeniowy wiąże się z systemami asymetrycznymi, takimi jak RSA?
+answer: Faktoryzacja liczb pierwszych
+wrong_answers:
+  - Mnożenie wykładnicze liczb całkowitych
+  - Tworzenie długich liczb losowych
+  - Bezpieczny klucz Exchange
+explanation: |
+  RSA opiera się na trudności faktoryzacji liczb pierwszych, trudnym obliczeniowo zadaniu, które sprawia, że kryptosystem jest bezpieczny przed atakami.
+reviewed: false

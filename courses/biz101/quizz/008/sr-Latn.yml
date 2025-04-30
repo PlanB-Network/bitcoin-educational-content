@@ -1,0 +1,9 @@
+question: Koja izjava najbolje opisuje ulogu Bitcoin kao mreže i sredstva za preduzeća?
+answer: Može delovati i kao čuvar vrednosti i kao medijum Exchange u globalnom, decentralizovanom sistemu.
+wrong_answers:
+  - Može funkcionisati samo kao lokalni sistem poklon kartica.
+  - To je isključivo alat za spekulativno trgovanje bez stvarne korisnosti.
+  - Mora biti vezano za monetarne politike jedne zemlje da bi funkcionisalo.
+explanation: |
+  Globalni, internet-nativni dizajn Bitcoin omogućava mu da služi ne samo kao čuvar vrednosti već i kao medijum Exchange, pružajući preduzećima brzu, bezdozvolnu i konačnu realizaciju transakcija širom sveta.
+reviewed: false

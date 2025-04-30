@@ -1,0 +1,10 @@
+question: 經典的跳箭通常會執行多少次連續交易？
+answer: 5
+wrong_answers:
+  - 2
+  - 8
+  - 14
+explanation: |
+  回彈法通常包括向自己進行 4 次交易，最後再進行一次交易，將資金傳送給最終收款人。
+  
+reviewed: false

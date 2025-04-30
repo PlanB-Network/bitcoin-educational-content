@@ -1,0 +1,9 @@
+question: Koji sighash flag se najčešće koristi u Bitcoin transakcijama?
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+explanation: |
+  SIGHASH_ALL je podrazumevana zastavica sighash, koja pokriva sve ulaze i izlaze transakcije, sprečavajući bilo kakve izmene.
+reviewed: false

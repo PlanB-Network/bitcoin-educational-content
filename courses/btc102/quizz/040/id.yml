@@ -1,12 +1,9 @@
-question: Apa keuntungan utama Bitcoin dibandingkan dengan rekening bank tradisional?
-answer: Kontrol penuh atas uang Anda
+question: Strategi akuisisi apa yang dapat diadopsi oleh hodler hybrid?
+answer: Rata-rata Biaya Dolar
 wrong_answers:
-  - Suku bunga yang lebih tinggi
-  - Biaya transaksi yang lebih rendah
-  - Waktu transaksi yang lebih cepat
+  - Perdagangan algoritmik
+  - Arbitrase
+  - Peretasan
 explanation: |
-  Bab ini menjelaskan bahwa Bitcoin menawarkan alternatif yang kuat terhadap
-  sistem keuangan tradisional. Ini memungkinkan setiap orang untuk menjaga privasi mereka, melindungi dari
-  inflasi dan devaluasi mata uang, menghindari rezim otoriter, dan mendapatkan kembali kedaulatan
-  atas uang mereka.
+  Dollar-Cost Averaging memungkinkan pembelian Bitcoin secara reguler untuk memperhalus harga pembelian rata-rata dari waktu ke waktu. Pedagang dapat menggabungkan ini dengan pembelian sekaligus sesekali.
 reviewed: false

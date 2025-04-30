@@ -1,0 +1,10 @@
+question: Jakie są dwa główne warianty inteligentnych kontraktów wykorzystywanych w coinswapach?
+answer: HTLC i PTLC
+wrong_answers:
+  - Podpis wielokrotny i podpis jednokrotny
+  - Inteligentne kontrakty i DApps
+  - SegWit i Taproot
+explanation: |
+  Aby przeprowadzić wymianę monet, można użyć HTLC (Hash Time-Locked Contracts) lub PTLC (Point Time-Locked Contracts).
+  
+reviewed: false

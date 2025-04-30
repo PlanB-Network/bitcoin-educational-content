@@ -1,0 +1,9 @@
+question: Među sledećim odgovorima, koji ne predstavlja rizik prilikom slanja bitkoina koji su prošli kroz CoinJoin na regulisanu platformu?
+answer: Platforma može povećati naknade za transakcije
+wrong_answers:
+  - Platforma može zamrznuti sredstva
+  - Platforma može blokirati korisnički nalog
+  - Platforma može prijaviti sumnjivo ponašanje nadležnim organima.
+explanation: |
+  Ako pošaljete svoj novčić na regulisanu Exchange platformu, ali je nedavno prošao kroz CoinJoin, alat za analizu lanca platforme će otkriti ovu činjenicu. Platforma bi tada mogla odbiti da prihvati vaš UTXO koji je prošao kroz CoinJoin, ili čak zahtevati objašnjenja od vas, uz rizik da vam nalog bude suspendovan ili sredstva zamrznuta. U nekim slučajevima, platforma može takođe prijaviti vaše ponašanje državnim vlastima.
+reviewed: false

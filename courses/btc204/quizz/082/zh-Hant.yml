@@ -1,0 +1,10 @@
+question: Chaumian CoinJoin 程序的哪一步涉及在 Tor 上更改身份以確保匿名性？
+answer: 輸出的註冊。
+wrong_answers:
+  - 輸入的註冊。
+  - 交易的簽署。
+  - 交易的廣播。
+explanation: |
+  為了防止協調者能將特定輸出與輸入連結起來，使用者在傳送明文接收位址給協調者之前，會先改變他們的 Tor 身分。
+  
+reviewed: false

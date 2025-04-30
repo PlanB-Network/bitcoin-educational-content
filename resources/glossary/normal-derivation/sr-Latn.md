@@ -1,0 +1,5 @@
+---
+term: NORMALNA DERIVACIJA
+---
+
+Proces generisanja ključeva dece u HD novčanicima. Normalna derivacija koristi roditeljski javni ključ kao ulaz za funkciju `HMAC-SHA512`, omogućavajući generisanje javnih ključeva dece iz roditeljskog javnog ključa i roditeljskog lanca koda. Proces uključuje konkatenciju roditeljskog javnog ključa i indeksa manjeg od $2^{31}$, nakon čega sledi primena `HMAC-SHA512` sa roditeljskim lancem koda. Rezultat se deli na dva dela: prvih 256 bita se dodaje roditeljskom privatnom ključu da bi se dobio privatni ključ deteta, dok preostalih 256 bita formira lanac koda deteta. Ova metoda osigurava da se prošireni javni ključ može koristiti za izvođenje javnih ključeva dece. U standardnoj derivaciji, normalna derivacija se koristi na svim nivoima derivacije od dubine računa. U notaciji putanja derivacije, normalna derivacija se identifikuje kada postoji samo indeks bez ikakvog apostrofa `'`.

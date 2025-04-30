@@ -1,0 +1,12 @@
+question: 目前 Bitcoin 網路中的礦工使用的主要工具是什麼？
+answer: ASIC
+wrong_answers:
+  - CPU
+  - GPU
+  - FPGA
+explanation: |
+  如今，礦工們專門使用專用的 ASIC。
+  操作，優化為測試最大數量的
+  能耗最小的組合
+  並盡快完成。
+reviewed: true

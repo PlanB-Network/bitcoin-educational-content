@@ -1,11 +1,11 @@
 ---
-term: STACK
-
+term: BATTERIE
 ---
-Im Zusammenhang mit der Skriptsprache, die verwendet wird, um Ausgabenbedingungen auf Bitcoin UTXOs anzuwenden, ist der Stapel eine "LIFO" (*Last In, First Out*) Datenstruktur, die dazu dient, temporäre Elemente während der Ausführung eines Skripts zu speichern. Jede Operation im Skript manipuliert diese Stapel, wobei Elemente hinzugefügt (*push*) oder entfernt (*pop*) werden können. Skripte verwenden Stapel, um Ausdrücke auszuwerten, temporäre Variablen zu speichern und Bedingungen zu verwalten.
 
-Während der Ausführung eines Bitcoin-Skripts können 2 Stapel verwendet werden: der Hauptstapel und der Alt-Stapel (alternativ). Der Hauptstapel wird für den Großteil der Operationen eines Skripts verwendet. Auf diesem Stack werden bei Skriptoperationen Daten hinzugefügt, entfernt oder manipuliert. Der alternative Stack hingegen dient zur vorübergehenden Speicherung von Daten während der Skriptausführung. Bestimmte Opcodes wie `OP_TOALTSTACK` und `OP_FROMALTSTACK` ermöglichen die Übertragung von Elementen vom Hauptstapel zum alternativen Stapel und umgekehrt.
+Im Zusammenhang mit der Skriptsprache, die verwendet wird, um Bitcoin UTXOs mit Ausgabenbedingungen zu versehen, ist der Stapel eine LIFO (*Last In, First Out*) Datenstruktur, die verwendet wird, um temporäre Elements während der Skriptausführung zu speichern. Jede Operation im Skript manipuliert diese Stapel, wobei Elements hinzugefügt (*push*) oder entfernt (*pop*) werden können. Skripte verwenden Stapel, um Ausdrücke auszuwerten, temporäre Variablen zu speichern und Bedingungen zu verwalten.
 
-So werden beispielsweise bei der Validierung einer Transaktion Signaturen und öffentliche Schlüssel auf den Hauptstapel geschoben und durch aufeinanderfolgende Opcodes verarbeitet, um zu überprüfen, ob die Signaturen mit den Schlüsseln und den Transaktionsdaten übereinstimmen.
 
-> ► *Im Englischen ist die Übersetzung von "pile" "Stapel". Der englische Begriff wird im Allgemeinen auch im Französischen bei technischen Diskussionen verwendet.*
+Bei der Ausführung eines Bitcoin-Skripts können 2 Stapel verwendet werden: der Hauptstapel und der Alt-Stapel (alternativ). Der Hauptstapel wird für die Mehrzahl der Skriptoperationen verwendet. Auf diesem Stapel werden bei Skriptoperationen Daten hinzugefügt, entfernt oder manipuliert. Der alternative Stack hingegen wird verwendet, um Daten während der Skriptausführung vorübergehend zu speichern. Mit bestimmten Opcodes wie `OP_TOALTSTACK` und `OP_FROMALTSTACK` können Sie Elements vom Hauptstapel auf den alternativen Stapel und umgekehrt übertragen.
+
+
+Wenn beispielsweise eine Transaktion validiert wird, werden Signaturen und öffentliche Schlüssel auf den Hauptstapel geschoben und durch aufeinander folgende Opcodes verarbeitet, um zu überprüfen, ob die Signaturen mit den Transaktionsschlüsseln und -daten übereinstimmen.

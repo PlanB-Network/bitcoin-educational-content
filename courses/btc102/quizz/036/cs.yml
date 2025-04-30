@@ -1,11 +1,9 @@
-question: Co zdůrazňuje fráze Not your keys, not your Bitcoins?
-answer: Důležitost vlastnictví soukromého klíče k Bitcoinové peněžence
+question: Jaký je hlavní účel definování uživatelského profilu?
+answer: Přijetí strategie odpovídající vašim potřebám
 wrong_answers:
-  - Důležitost mít fyzický klíč pro přístup k vašim Bitcoinům
-  - Důležitost uchovávat vaše Bitcoiny na bezpečném místě
-  - Důležitost nesdílet údaje o vašem Bitcoinovém účtu
+  - Maximalizovat spekulace, a tím i zisky
+  - Přijmout obecnou strategii, která bude fungovat pro všechny
+  - Jak zjistit, kterého influencera Bitcoin sledovat na sociálních sítích
 explanation: |
-  Kapitola vysvětluje, že fráze Not your keys, not your Bitcoins
-  zdůrazňuje důležitost vlastnictví soukromého klíče k Bitcoinové peněžence. Vlastněním
-  soukromého klíče máte plnou kontrolu nad Bitcoiny, které obsahuje.
+  Znalost vašeho profilu a možnost jeho přizpůsobení vám umožní vybrat si řešení pro pořízení a skladování, která odpovídají vaší osobní situaci.
 reviewed: false

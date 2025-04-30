@@ -1,0 +1,9 @@
+question: W jaki sposób zapewnione jest bezpieczeństwo przejścia RGB w kanale Lightning, jeśli nadawany jest nieaktualny stan?
+answer: Poprzez karną mechanikę Lightning Channel
+wrong_answers:
+  - Automatycznie anulując wszystkie poprzednie transakcje
+  - Poprzez karną mechanikę protokołu RGB
+  - Poprzez interwencję emitenta aktywów RGB za pośrednictwem jego podpisu powiązanego z Genesis
+explanation: |
+  Klasyczny mechanizm karny Lightning Network zapewnia, że rozpowszechnianie starego stanu może zostać ukarane poprzez odzyskanie wszystkich zaangażowanych środków, w tym aktywów RGB.
+reviewed: false

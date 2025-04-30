@@ -1,0 +1,9 @@
+question: Kako je prelazak sa kovanica na papirni novac unapredio mrežu valute?
+answer: To je učinilo novac prenosivijim i skalabilnijim, olakšavajući trgovinu na daljinu i složene finansijske sisteme.
+wrong_answers:
+  - Eliminisao je potrebu za bilo kakvom osnovnom imovinom ili poverenjem.
+  - Odmah je zaustavilo inflaciju i stabilizovalo ekonomiju.
+  - Omogućilo je vladama da u potpunosti izbegnu upravljanje novcem Supply.
+explanation: |
+  Papirni novac je bio lakši i jednostavniji za izradu i transport od kovanica napravljenih od plemenitih metala. Ova prenosivost i standardizacija pojednostavili su transakcije i omogućili ekonomijama da rastu izvan lokalnih regiona.
+reviewed: false

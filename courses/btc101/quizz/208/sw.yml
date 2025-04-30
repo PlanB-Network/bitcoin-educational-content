@@ -1,0 +1,10 @@
+question: Je, ni nini mojawapo ya matokeo yanayoweza kutokea ya kutofuata kanuni za nchi yako unaponunua Bitcoin?
+answer: Unaweza kujiweka hatarini.
+wrong_answers:
+  - Unaweza kuongeza bei ya Bitcoin.
+  - Unaweza kudhibiti Supply ya Bitcoin.
+  - Unaweza kuzuia wengine kununua Bitcoin.
+explanation: |
+  Nakala ya kozi inataja kwamba kutofuata kanuni
+  ya nchi yako unaponunua Bitcoin inaweza kukuweka hatarini.
+reviewed: true

@@ -1,0 +1,9 @@
+question: U grupi, koji je jedinstveni element koji, kada se primeni na drugi element, ne menja ga?
+answer: Identitetni element
+wrong_answers:
+  - Inverzni element
+  - Komutativni element
+  - Asocijativni element
+explanation: |
+  Identitetni element grupe je jedinstveni element koji, kada se primeni na drugi element, ostavlja ga nepromenjenim. Na primer, u grupi celih brojeva pod operacijom sabiranja, identitetni element je 0.
+reviewed: false

@@ -1,0 +1,5 @@
+---
+term: OTVRĐENO IZVODENJE
+---
+
+Proces generisanja ključeva za decu u HD novčanicima. Ojačana derivacija koristi roditeljski privatni ključ kao ulaz za funkciju `HMAC-SHA512`, čineći nemogućim da se generate javni ključevi dece dobiju iz roditeljskog javnog ključa i roditeljskog lanca koda. Proces uključuje konkatenciju roditeljskog privatnog ključa i indeksa većeg ili jednakog $2^{31}$, nakon čega sledi primena `HMAC-SHA512` sa roditeljskim lancem koda. Rezultat se deli na dva dela: prvih 256 bita se dodaje roditeljskom privatnom ključu da bi se dobio privatni ključ deteta, dok preostalih 256 bita formira lanac koda deteta. Ovaj metod osigurava da čak i ako je prošireni javni ključ kompromitovan, ne može se koristiti za dobijanje javnih ključeva dece. U standardnoj derivaciji, ojačana derivacija se koristi na svim nivoima derivacije do dubine naloga. U notacijama putanje derivacije, ojačana derivacija se identifikuje apostrofom `'` ili ređe sa `h`.

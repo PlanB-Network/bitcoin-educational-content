@@ -1,0 +1,9 @@
+question: U kojoj godini je asimetrična kriptografija zvanično otkrivena?
+answer: 1976
+wrong_answers:
+  - 1676
+  - 1776
+  - 1876
+explanation: |
+  Predstavili su ga Whitfield Diffie i Martin Hellman, dva kriptografa sa Univerziteta Stanford, u radu objavljenom u novembru 1976. godine.
+reviewed: false

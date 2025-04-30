@@ -1,10 +1,9 @@
-question: K čemu je Bitcoin původně určen?
-answer: Internet
+question: Jaká je přibližná maximální hodnota Supply bitcoinů v oběhu?
+answer: 21 milionů
 wrong_answers:
-  - Blockchain
-  - Bankovní systém
-  - Akciový trh
+  - 10 milionů
+  - 47 milionů
+  - 150 milionů
 explanation: |
-  Kapitola uvádí, že Bitcoin je původně určen pro internet, což jej činí
-  dostupným pro každého, kdo má přístup k internetu.
+  Bitcoin je naprogramována tak, aby měla omezenou kapacitu Supply přibližně 21 milionů bitcoinů.
 reviewed: false

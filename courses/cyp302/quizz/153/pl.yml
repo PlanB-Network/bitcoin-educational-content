@@ -1,0 +1,9 @@
+question: Jaki problem bezpieczeństwa pojawia się, gdy ta sama wiadomość jest szyfrowana wielokrotnie w uproszczonym kryptosystemie RSA?
+answer: Wiadomość zawsze będzie miała takie samo szyfrowanie
+wrong_answers:
+  - Wiadomość będzie podatna na ataki typu brute force
+  - Wiadomość zostanie odwrócona
+  - Odszyfrowanie wiadomości stanie się niemożliwe
+explanation: |
+  W uproszczonym RSA wielokrotne szyfrowanie wiadomości zawsze daje ten sam wynik, przez co szyfrowanie jest podatne na ataki.
+reviewed: false

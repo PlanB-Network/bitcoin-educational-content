@@ -1,0 +1,10 @@
+question: 與 BIP47 相比，Silent Payments 的主要優勢是什麼？
+answer: 它們不需要通知交易。
+wrong_answers:
+  - 他們提供完整的交易隱私。
+  - 它們允許收件人退款。
+  - 它們確保與所有錢包相容。
+explanation: |
+  Silent Payments 在無通知交易的情況下運作，可節省交易費用，並避免 Blockchain 負荷過重。
+  
+reviewed: false

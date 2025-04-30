@@ -1,9 +1,9 @@
-question: Qual è una delle misure per mantenere il tuo computer in condizioni di lavoro ottimali?
-answer: Eseguire regolarmente il backup dei tuoi dati
+question: Fino a quante cifre decimali può essere diviso un Bitcoin?
+answer: Otto
 wrong_answers:
-  - Condividere le tue password
-  - Utilizzare la stessa password per tutti gli account
-  - Trascurare di aggiornare il tuo computer
+  - Sei
+  - Dodici
+  - Sette
 explanation: |
-  Eseguire regolarmente il backup dei tuoi dati è una delle misure per mantenere il tuo computer in condizioni di lavoro ottimali. È anche una misura di base per migliorare le abitudini di sicurezza online.
+  Un Bitcoin può essere diviso fino all'ottava cifra decimale, con un'unità chiamata Satoshi o sat.
 reviewed: false

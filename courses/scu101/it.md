@@ -26,11 +26,11 @@ Théo; contributo
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Introduzione al corso
+## Panoramica del corso
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Obiettivo: aggiornamento!
+**Obiettivo: aggiornamento!**
 
 Benvenuti a tutti in questo programma di insegnamento dedicato alla sicurezza informatica. Questa formazione è progettata per essere accessibile a tutti, quindi non sono necessari prerequisiti informatici. Il nostro obiettivo principale è fornire le conoscenze e le competenze necessarie per navigare in modo più sicuro e privato nel mondo digitale.
 
@@ -46,7 +46,7 @@ La tua igiene digitale è cruciale in un mondo sempre più digitale. Nonostante 
 Con questo percorso di formazione, non cerchiamo di renderti un esperto, anonimo o inattaccabile, ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili per tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
 Se stai cercando competenze più avanzate sull'argomento, le nostre risorse, tutorial o altri corsi sulla sicurezza informatica sono qui per te. Nel frattempo, ecco una breve panoramica del nostro programma per le prossime ore insieme.
 
-### Sezione 1: Tutto ciò che devi sapere sulla navigazione online
+**Sezione 1: Tutto ciò che devi sapere sulla navigazione online**
 
 - Capitolo 1 - Navigazione online
 - Capitolo 2 - Utilizzare Internet in sicurezza
@@ -54,7 +54,7 @@ Se stai cercando competenze più avanzate sull'argomento, le nostre risorse, tut
 Per iniziare, discuteremo dell'importanza della scelta di un browser web e delle sue implicazioni in termini di sicurezza. Esploreremo poi le specificità dei browser, in particolare per quanto riguarda la gestione dei cookie. Vedremo anche come garantire una navigazione più sicura e anonima, utilizzando strumenti come TOR. Successivamente, metteremo l'accento sull'uso delle VPN per rafforzare la protezione dei tuoi dati. Infine, concluderemo con alcune raccomandazioni sull'uso sicuro delle connessioni WiFi.
 ![](assets/it/1.webp)
 
-### Sezione 2: Buone pratiche nell'uso del computer
+**Sezione 2: Buone pratiche nell'uso del computer**
 
 - Capitolo 3 - Utilizzo del computer
 - Capitolo 4 - Hack e gestione del backup
@@ -62,7 +62,7 @@ Per iniziare, discuteremo dell'importanza della scelta di un browser web e delle
 In questa sezione, affronteremo tre aree chiave della sicurezza informatica. Innanzitutto, esploreremo i diversi sistemi operativi: Mac, PC e Linux, evidenziandone le specificità e i punti di forza. Successivamente, ci concentreremo sui metodi per proteggerti efficacemente dai tentativi di hacking e per rafforzare la sicurezza dei tuoi dispositivi. Infine, metteremo l'accento sull'importanza di proteggere e fare regolarmente il backup dei tuoi dati per prevenire perdite o ransomware.
 ![](assets/it/2.webp)
 
-### Sezione 3: Implementazione delle soluzioni
+**Sezione 3: Implementazione delle soluzioni**
 
 - Capitolo 6 - Gestione della casella di posta
 - Capitolo 7 - Gestore di password
@@ -73,12 +73,13 @@ In questa terza sezione pratica, passeremo alla pratica con l'implementazione de
 Prima di tutto, vedremo come proteggere la tua casella di posta, essenziale per le tue comunicazioni e spesso presa di mira dai pirati informatici. Successivamente, ti presenteremo cos'è un gestore di password: una soluzione pratica per non dimenticare o confondere le tue password, mantenendole comunque sicure. Infine, parleremo di una misura di sicurezza aggiuntiva, l'autenticazione a due fattori, che aggiunge un ulteriore livello di protezione ai tuoi account. Tutto sarà spiegato in modo chiaro e accessibile.
 ![](assets/it/3.webp)
 
-### Sezione Bonus: Intervista con Pantamis e Renaud
+**Sezione Bonus: Intervista con Pantamis e Renaud**
 
 Come bonus, vi proponiamo un'intervista esclusiva con Pantamis e Renaud, i nostri esperti di sicurezza informatica. Condivideranno le loro conoscenze approfondite e consigli aggiuntivi per rafforzare la vostra igiene digitale. L'idea è imparare di più da questi professionisti esperti.
 
 Questo programma di formazione è offerto gratuitamente con una licenza redistribuibile CC BY SA. Desideriamo esprimere la nostra gratitudine ai nostri Patreons e al nostro team di ripresa per il loro indispensabile supporto nella realizzazione di questa formazione. Ringraziamo anche tutti i nostri donatori e sostenitori che ci permettono di continuare a produrre contenuti educativi gratuiti a livello mondiale.
 
+Pronto a rafforzare la tua sicurezza digitale et riprendere il controllo dei tuoi dati? Iniziamo!
 # Tutto quello che c'è da sapere sulla navigazione online
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -520,7 +521,7 @@ Alcune alternative alle pubblicità invasive includono Google DNS, OpenDNS e alt
 
 Nel contesto del modulo di formazione "Sicurezza 101" di Découvre Bitcoin sull'Accademia, abbiamo anche discusso dell'autenticazione Lightning. Questo sistema genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. È possibile avere identità decentralizzate controllate dall'utente, ma manca una normalizzazione e standardizzazione nei progetti di identità decentralizzata. I gestori di pacchetti come Nuget e Chocolaté, che consentono di scaricare software open source al di fuori del Microsoft Store, sono consigliati per evitare attacchi maligni. In sintesi, il DNS è cruciale per la sicurezza online, ma è necessario rimanere vigili di fronte a potenziali attacchi ai server DNS.
 
-# Conclusione
+# Sezione finale
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

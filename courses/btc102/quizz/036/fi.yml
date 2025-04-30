@@ -1,11 +1,9 @@
-question: Mitä lause Ei sinun avaimiasi, ei sinun Bitcoinejasi korostaa?
-answer: Oman yksityisen avaimen omistamisen tärkeyttä Bitcoin-lompakossa
+question: Mikä on käyttäjäprofiilin määrittelyn päätarkoitus?
+answer: Tarpeisiisi sopivan strategian omaksuminen
 wrong_answers:
-  - Oman fyysisen avaimen tärkeys Bitcoineihin pääsyssä
-  - Bitcoinien säilyttämisen tärkeys turvallisessa paikassa
-  - Bitcoin-tilin tietojen jakamattomuuden tärkeys
+  - Spekulaation ja siten voittojen maksimointi
+  - Otetaan käyttöön yleinen strategia, joka toimii kaikille
+  - Jos haluat tietää, mitä Bitcoin-vaikuttajaa kannattaa seurata sosiaalisessa mediassa
 explanation: |
-  Luku selittää, että lause Ei sinun avaimiasi, ei sinun Bitcoinejasi
-  korostaa oman yksityisen avaimen omistamisen tärkeyttä Bitcoin-lompakossa. Omistamalla
-  yksityisen avaimen, sinulla on täysi hallinta lompakossa oleviin Bitcoineihin.
+  Kun tunnet profiilisi ja pystyt mukauttamaan sitä, voit valita hankintaratkaisut ja varastointiratkaisut, jotka sopivat henkilökohtaiseen tilanteeseesi.
 reviewed: false

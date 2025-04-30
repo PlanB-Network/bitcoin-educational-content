@@ -26,7 +26,32 @@ Unisciti a Damien Theillier in questa esplorazione arricchente del pensiero di F
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Introduzione al Corso
+## Panoramica del corso
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+L'obiettivo di questa formazione è offrirti una comprensione approfondita della vita, delle influenze intellettuali, degli avversari ideologici e delle teorie economiche di Frédéric Bastiat. Attraverso questo percorso strutturato, scoprirai come le sue idee abbiano plasmato il pensiero economico e continuino a influenzare i dibattiti attuali.
+
+**Sezione 1: Introduzione**  
+Inizieremo con una panoramica generale di Frédéric Bastiat, un genio sconosciuto dell'economia. Scoprirai la sua vita, il suo percorso intellettuale e il contesto storico in cui ha sviluppato il suo pensiero. Comprendere questo contesto è essenziale per afferrare pienamente la portata dei suoi scritti e delle sue teorie.
+
+**Sezione 2: Le influenze**  
+Continueremo con l'analisi dei pensatori che hanno influenzato il pensiero economico di Frédéric Bastiat. Imparerai come figure importanti come Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer e Richard Cobden abbiano contribuito al suo sviluppo intellettuale, ponendo le basi per la sua riflessione sul libero scambio e l'economia di mercato.
+
+**Sezione 3: Gli avversari**  
+Successivamente, esploreremo le critiche di Bastiat nei confronti dei suoi avversari ideologici. Che si tratti di Rousseau, dell'educazione classica, del protezionismo, del socialismo o di Proudhon, capirai perché Bastiat considerava queste dottrine come ostacoli al progresso economico e sociale e come rispondeva ai loro argomenti con logica convincente.
+
+**Sezione 4: I Sofismi Economici**  
+Questa sezione è dedicata ai sofismi economici denunciati da Bastiat, tra cui i celebri "*Ciò che si vede e ciò che non si vede*" e "*La petizione dei fabbricanti di candele*". Esamineremo come sia riuscito a dimostrare, attraverso la satira e l'analisi rigorosa, gli errori economici comuni del suo tempo, che rimangono tuttora attuali.
+
+**Sezione 5: Le Armonie Economiche**  
+Qui scoprirai la visione positiva di Bastiat riguardo all'economia. Affronteremo concetti come il miracolo del mercato, la potenza della responsabilità individuale e la distinzione tra vera e falsa solidarietà. Bastiat vedeva l'economia come un sistema coerente in cui l'interesse personale ben compreso giova al bene comune. Scopriremo perché.
+
+**Sezione 6: La Legge**  
+Per concludere questo corso, esploreremo l'opera principale di Bastiat, "*La Legge*", dove espone le sue riflessioni sui diritti di proprietà, sul saccheggio legale e sul ruolo limitato dello Stato. Capirai perché questo saggio è considerato uno dei manifesti più incisivi a favore della libertà individuale e dell'economia di mercato.
+
+Pronto a scoprire come le idee di Frédéric Bastiat possano ancora risuonare oggi? Unisciti a noi in questo viaggio intellettuale che potrebbe mettere in discussione la tua concezione dell'economia!
+
+## Bastiat: Un genio sconosciuto
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -940,7 +965,7 @@ Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della 
 
 In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
 
-# Conclusione
+# Sezione finale
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

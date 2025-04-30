@@ -1,10 +1,9 @@
-question: Wie hoch war die Inflationsrate in Deutschland im Oktober 1923?
-answer: 29.50%
+question: Wie hoch war ungefähr die Inflationsrate in Deutschland im Oktober 1923 auf dem Höhepunkt der Hyperinflation?
+answer: 29 500 %
 wrong_answers:
-  - 200.9%
-  - 50.51%
-  - 25.98%
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  Der Monat mit der höchsten Inflationsrate in Deutschland war
-  Oktober 1923, mit einem Höchststand von 29.50%.
-reviewed: true
+  Der Monat mit der höchsten Inflationsrate in Deutschland war der Oktober 1923, als die Inflation einen Höchststand von 29 500 % erreichte.
+reviewed: false

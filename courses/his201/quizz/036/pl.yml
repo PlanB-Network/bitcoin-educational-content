@@ -1,0 +1,9 @@
+question: Kto zaprojektował pierwsze prawdziwe logo Bitcoin (złota wielka litera B przecięta dwoma pionowymi paskami) w lutym 2010 roku?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Skorzystał on z sugestii NewLibertyStandard, by użyć symbolu tajskiego bahta (฿). Pomarańczowe logo zostało później stworzone przez kogoś znanego jako bitboy.
+reviewed: false

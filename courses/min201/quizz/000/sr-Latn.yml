@@ -1,0 +1,14 @@
+question: Kolika je trenutna nagrada Mining u mreži Bitcoin?
+answer: Kreiranje novih bitkoina i transakcione naknade
+wrong_answers:
+  - Kreiranje novih bitkoina samo
+  - Naknade za transakcije samo
+  - Kreiranje novih bitkoina, naknade za transakcije i bonus za najbrži Miner
+explanation: |
+  Trenutna Mining nagrada u Bitcoin mreži je
+  dvostruka. Uključuje kreiranje novih bitkoina, što se
+  smanjilo sa 50 bitkoina svakih deset minuta inicijalno
+  na 6.25 bitkoina danas (2023). Takođe uključuje
+  transakcione naknade, ili Mining naknade, iz transakcija
+  koje Miner odluči da uključi u svoj blok.
+reviewed: true

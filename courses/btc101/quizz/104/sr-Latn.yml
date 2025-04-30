@@ -1,0 +1,9 @@
+question: Šta nije Mnemonic fraza u kontekstu Bitcoin?
+answer: Lozinka za vaš Bitcoin Wallet.
+wrong_answers:
+  - Spisak od 12 reči iz određenog rečnika.
+  - Lista od 24 reči iz određenog rečnika.
+  - Tajna za pristup vašem Bitcoin fondu.
+explanation: |
+  Fraza Mnemonic u kontekstu Bitcoin je lista od 12 ili 24 reči koja vam omogućava da povratite vaš Wallet na bilo kojoj Bitcoin Wallet aplikaciji. Svako ko ima pristup ovoj listi takođe može pristupiti vašim bitcoinima.
+reviewed: true

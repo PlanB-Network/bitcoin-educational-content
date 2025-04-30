@@ -14,7 +14,7 @@ Plan ₿ Network 的使命是提供一流的比特币教育资源，并将其翻
 
 为了翻译教育内容，我们使用了[人工智能](https://github.com/Asi0Flammeus/LLM-Translator)。然后，为了纠正这些文件中可能出现的错误，我们邀请校对人员提供帮助。如果您想校对某些内容，请参考以下教程：
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 另一方面，如果您有兴趣翻译网站的静态元素（不包括教育内容），那您就找对地方了！为了有效地翻译前端内容，我们使用了 Weblate 工具，该工具使用起来非常简单，而且便于翻译。
 
 如果您希望在 Plan ₿ Network 中添加一种全新的语言，请务必通过我们的 [Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder) 联系 Plan ₿ Network 团队。如果您没有电报，可以发送电子邮件至 mari@planb.network。请务必撰写一份小简介，介绍您的身份和您所使用的语言。

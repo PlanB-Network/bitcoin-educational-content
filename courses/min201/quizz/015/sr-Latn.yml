@@ -1,0 +1,9 @@
+question: Koji je princip na kojem Bitcoin Mining radi?
+answer: Bitcoin Mining radi na principu lutrije, gde su šanse za osvajanje bloka (a samim tim i Bitcoin nagrade) svakih deset minuta izuzetno male za pojedinačni mali Miner.
+wrong_answers:
+  - Bitcoin Mining radi na principu "ko prvi dođe, prvi je poslužen", gde prvi Miner koji reši složen matematički problem dobija Bitcoin nagradu.
+  - Bitcoin Mining radi na principu licitiranja, gde Miner koji ponudi najviše dobija Bitcoin nagradu.
+  - Bitcoin Mining radi na principu rotacije, gde svaki Miner dobija priliku da iskopa blok i primi Bitcoin nagradu.
+explanation: |
+  Poglavlje objašnjava da Bitcoin Mining radi na principu lutrije, gde su šanse za osvajanje bloka (i samim tim Bitcoin nagrade) svakih deset minuta izuzetno male za pojedinačni mali Miner.
+reviewed: true

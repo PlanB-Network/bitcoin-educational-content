@@ -1,0 +1,9 @@
+question: Gde se Bitcoin developeri sastaju kako bi imali neformalne tehničke diskusije?
+answer: Na IRC kanalu \#Bitcoin-dev
+wrong_answers:
+  - Na posebnom delu foruma
+  - Na Bitcoin-development mailing listi
+  - Na subredditu r/Bitcoin
+explanation: |
+  Ovo je [kreirano](https: //mmalmi.github.io/Satoshi/#email-27) u avgustu 2009. od strane Martti Malmi. Steklo je određenu popularnost nakon objave na Slashdot-u u julu 2010.
+reviewed: false

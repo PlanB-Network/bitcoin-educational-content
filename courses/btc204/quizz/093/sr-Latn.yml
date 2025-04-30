@@ -1,0 +1,9 @@
+question: Koja je glavna uloga transakcije Tx0 u Whirlpool?
+answer: Da se izjednače UTXO-i.
+wrong_answers:
+  - Da izvršite prvo mešanje.
+  - Da uklonite UTXO-ove iz bazena.
+  - Da potrošite mešane UTXO-e.
+explanation: |
+  Tx0 ima za cilj da pripremi i izjednači UTXO-ove za CoinJoin, tako što ih deli na jedinice koje odgovaraju iznosu odabranog pool-a, kako bi se osigurala homogenost mešanja.
+reviewed: false

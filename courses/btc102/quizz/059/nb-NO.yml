@@ -1,9 +1,9 @@
-question: Hva er en kald lommebok i konteksten av Bitcoin?
-answer: En lommebok for å lagre store mengder Bitcoin offline
+question: Hva er hovedmålet til den paranoide bitcoineren?
+answer: For å beskytte personvernet deres
 wrong_answers:
-  - En lommebok som brukes for transaksjoner i kalde klima
-  - En lommebok som brukes for å lagre små mengder Bitcoin
-  - En lommebok som brukes for å lagre Bitcoin over en kort periode
+  - For å samle satoshier raskt
+  - For å maksimere handelsfortjenesten
+  - For å holde bitcoinsene sine langsiktig
 explanation: |
-  En kald lommebok er en lommebok for å lagre store mengder Bitcoin offline.
-  Den anses som mer sikker enn en varm lommebok siden den er mindre utsatt for hacking.
+  Den paranoide bitcoineren ønsker først og fremst å unngå at transaksjonene og identiteten deres kan spores.
+reviewed: false

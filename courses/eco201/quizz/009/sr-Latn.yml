@@ -1,0 +1,13 @@
+question: Koja je uloga centralne banke kao zajmodavca u krajnjoj nuždi?
+answer: Centralna banka pozajmljuje sredstva bankama u nevolji tokom kriza kako bi sprečila domino efekat koji bi mogao paralizovati ceo finansijski sistem.
+wrong_answers:
+  - Centralna banka pozajmljuje sredstva bankama u nevolji tokom kriza kako bi povećala sopstvenu dobit.
+  - Centralna banka pozajmljuje sredstva bankama u nevolji tokom kriza kako bi preuzela njihove operacije.
+  - Centralna banka pozajmljuje sredstva bankama u nevolji tokom kriza kako bi povećala nacionalni dug.
+explanation: |
+  Koncept centralne banke kao zajmodavca u krajnjoj nuždi
+  pojavio se u 19. veku u Engleskoj kao odgovor na
+  ponovljene bankovne panike koje su ugrožavale finansijsku stabilnost. Davanjem zajmova bankama u nevolji, centralna banka može sprečiti
+  domino efekat bankrota banaka koji bi mogao dovesti do
+  recesije ili depresije.
+reviewed: true

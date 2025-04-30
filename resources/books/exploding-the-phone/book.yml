@@ -7,12 +7,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.66
+    reward: 0.65
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
+    reward: 0.51
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
@@ -23,63 +23,62 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
+    reward: 0.51
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.66
+    reward: 0.65
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
+    reward: 0.51
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
+    reward: 0.51
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.94
+    reward: 0.92
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
+    reward: 0.51
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.66
+    reward: 0.65
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.94
+    reward: 0.92
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.8
+    reward: 0.79
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.8
+    reward: 0.79
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.66
-
+    reward: 0.65
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.66
+    reward: 0.65
 tags:
   - cypherpunk
   - historical

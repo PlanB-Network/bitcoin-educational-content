@@ -1,0 +1,8 @@
+question: Jaka jest jedna z głównych cech protokołu Bitcoin?
+answer: Jest neutralny wobec wszystkich użytkowników.
+wrong_answers:
+  - Faworyzuje niektórych użytkowników kosztem innych.
+  - Jest stronniczy w stosunku do niektórych użytkowników.
+  - Przynosi to korzyści tylko wybranej grupie użytkowników.
+explanation: >-
+reviewed: true

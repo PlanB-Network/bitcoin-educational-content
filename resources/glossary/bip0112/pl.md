@@ -1,0 +1,5 @@
+---
+term: BIP0112
+---
+
+Wprowadza opcode `OP_CHECKSEQUENCEVERIFY` (CSV) w języku Bitcoin Script. Operacja ta pozwala na tworzenie transakcji, których ważność zaczyna obowiązywać dopiero po pewnym opóźnieniu w stosunku do poprzedniej transakcji, zdefiniowanym w liczbie bloków lub w czasie. `OP_CHECKSEQUENCEVERIFY` porównuje wartość na szczycie stosu z wartością pola `nSequence` na wejściu. Jeśli jest ona większa i wszystkie inne warunki są spełnione, skrypt jest poprawny. W ten sposób `OP_CHECKSEQUENCEVERIFY` ogranicza możliwe wartości dla pola `nSequence` danych wejściowych, które go wydają, a samo pole `nSequence` ogranicza, kiedy transakcja zawierająca te dane wejściowe może zostać włączona do bloku. BIP112 został wprowadzony za pośrednictwem Soft Fork w dniu 4 lipca 2016 r., obok BIP68 i BIP113, aktywowanych po raz pierwszy przy użyciu metody BIP9.

@@ -1,0 +1,9 @@
+question: Na jakim procesie opiera się model pieniądza elektronicznego eCash?
+answer: Ślepe podpisy
+wrong_answers:
+  - Podpisy grupowe
+  - Sygnatury pierścieni
+  - Sygnatury progowe
+explanation: |
+  eCash opiera się na procesie ślepego podpisu, który pozwala podpisującemu podpisać coś, nie widząc tego, co podpisuje.
+reviewed: false

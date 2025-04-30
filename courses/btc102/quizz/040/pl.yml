@@ -1,0 +1,9 @@
+question: Jaką strategię akwizycji może przyjąć hodowca hybrydowy?
+answer: Uśrednianie kosztów w dolarach
+wrong_answers:
+  - Handel algorytmiczny
+  - Arbitraż
+  - Hakowanie
+explanation: |
+  Uśrednianie kosztów w dolarach pozwala na regularne zakupy Bitcoin w celu wyrównania średniej ceny zakupu w czasie. Hodowca może połączyć to z okazjonalnymi zakupami ryczałtowymi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koju konstrukciju koristi SHA256 za obradu poruka proizvoljne dužine?
+answer: Merkle-Damgård konstrukcija
+wrong_answers:
+  - Euklidska konstrukcija
+  - Rivest-Šamir-Adleman konstrukcija
+  - Knuth-Morris-Pratt konstrukcija
+explanation: |
+  Merkle-Damgård konstrukcija omogućava transformisanje kompresione funkcije u Hash funkciju za poruke promenljive dužine.
+reviewed: false

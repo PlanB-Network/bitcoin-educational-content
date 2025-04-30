@@ -1,0 +1,9 @@
+question: Jaka jest główna idea fragmentu Voltaire'a dotyczącego londyńskiej giełdy Exchange?
+answer: Biznesmeni wszystkich religii odkładają na bok różnice, aby skupić się na wspólnym zysku.
+wrong_answers:
+  - Różne religie świata gromadzą się w Stock Exchange, aby praktykować swoją wiarę w pokoju.
+  - London Stock Exchange to miejsce spekulacji i korupcji, gdzie wartości moralne są lekceważone.
+  - Religia nie ma miejsca w świecie biznesu zdominowanym przez ducha konkurencji i indywidualizmu.
+explanation: |
+  Voltaire podkreśla, że na londyńskiej giełdzie Exchange biznesmeni przekraczają różnice religijne, aby współpracować na rzecz wspólnego celu gospodarczego, ilustrując prymat interesów materialnych nad podziałami religijnymi.
+reviewed: false

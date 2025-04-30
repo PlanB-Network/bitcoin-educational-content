@@ -1,9 +1,9 @@
-question: Qual é o papel principal dos mineradores na rede Bitcoin?
-answer: Eles garantem a segurança da rede ao realizar os processos de prova de trabalho do Bitcoin.
+question: Qual é a origem do termo hodler?
+answer: Um erro ortográfico de "hold" (segurar)
 wrong_answers:
-  - Eles criam novos bitcoins.
-  - Eles regulam o preço do Bitcoin.
-  - Eles controlam a rede Bitcoin.
+  - Um acrónimo de "hold" (segurar)
+  - Uma abreviatura de "Hot Wallet"
+  - Uma contração de "HODL chain" (cadeia HODL)
 explanation: |
-  O conteúdo do capítulo explica que os mineradores são responsáveis por garantir a segurança da rede Bitcoin. Eles utilizam eletricidade para realizar os processos de prova de trabalho do Bitcoin, o que cria um novo bloco.
+  O termo "hodler" provém de uma gralha no Bitcoin Talk, em que "hold" foi incorretamente escrito como "HODL" para exprimir a detenção a longo prazo.
 reviewed: false

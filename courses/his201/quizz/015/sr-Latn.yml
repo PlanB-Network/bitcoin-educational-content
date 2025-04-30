@@ -1,0 +1,9 @@
+question: Koji je bio početni cilj algoritma Hashcash Proof of Work koji je dizajnirao Adam Back?
+answer: Da bi se suzbio neželjeni email
+wrong_answers:
+  - Da se garantuje vrednost obračunske jedinice
+  - Da bi se postigao konsenzus na peer-to-peer mreži
+  - Da proključa okeane
+explanation: |
+  Hashcash je zahtevao Proof of Work za svaki primljeni email, što je trebalo da ograniči spam.
+reviewed: false

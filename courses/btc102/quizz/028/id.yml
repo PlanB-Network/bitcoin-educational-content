@@ -1,11 +1,9 @@
-question: Apa artinya Bitcoin bersifat open source?
-answer: Siapa saja dapat melihat bagaimana Bitcoin bekerja, ini transparan dan oleh karena itu dapat diaudit
+question: Platform mana yang direkomendasikan untuk menghindari KYC saat membeli bitcoin?
+answer: Platform Exchange peer-to-peer
 wrong_answers:
-  - Siapa saja dapat membuat versi Bitcoin mereka sendiri
-  - Bitcoin gratis untuk digunakan
-  - Kode Bitcoin tersedia secara publik untuk dimodifikasi
+  - Platform Exchange untuk keperluan umum
+  - Platform Bitcoin khusus Exchange
+  - Platform Exchange yang berfokus pada perdagangan
 explanation: |
-  Menjadi open source berarti kode Bitcoin tersedia secara publik untuk
-  siapa saja yang ingin meninjau. Ini membuatnya transparan dan dapat diaudit, memastikan bahwa protokol
-  sama untuk semua orang.
-  direview: false
+  Platform P2P memungkinkan pengguna untuk membeli bitcoin secara langsung dari satu sama lain tanpa memerlukan KYC.
+reviewed: false

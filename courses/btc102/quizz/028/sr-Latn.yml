@@ -1,0 +1,9 @@
+question: Šta znači da je Bitcoin otvorenog koda?
+answer: Bilo ko može pogledati kako Bitcoin funkcioniše, transparentan je i stoga podložan reviziji.
+wrong_answers:
+  - Svako može kreirati svoju verziju Bitcoin
+  - Bitcoin je besplatan za korišćenje
+  - Kod za Bitcoin je javno dostupan za modifikaciju.
+explanation: |
+  Biti otvorenog koda znači da je kod Bitcoin javno dostupan svima za pregled. Ovo ga čini transparentnim i podložnim reviziji, osiguravajući da je protokol jednak za sve.
+reviewed: false

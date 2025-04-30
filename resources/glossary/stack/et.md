@@ -1,11 +1,11 @@
 ---
-term: STACK
-
+term: BATTERI
 ---
-Bitcoini UTXOde kulutamistingimuste kohaldamiseks kasutatava skriptikeele kontekstis on virn "LIFO" (*Last In, First Out*) andmestruktuur, mis on mõeldud ajutiste elementide salvestamiseks skripti täitmise ajal. Iga skripti toiminguga manipuleeritakse neid virna, kuhu saab elemente lisada (*push*) või kustutada (*pop*). Skriptid kasutavad stäkke väljendite hindamiseks, ajutiste muutujate salvestamiseks ja tingimuste haldamiseks.
 
-Bitcoini skripti täitmise ajal saab kasutada 2 virna: põhihunnikut ja alt (alternatiivset) virna. Peamist virna kasutatakse enamiku skripti toimingute jaoks. Selles virnas toimuvad skripti operatsioonid, millega lisatakse, eemaldatakse või manipuleeritakse andmeid. Alternatiivne virn seevastu on mõeldud andmete ajutiseks säilitamiseks skripti täitmise ajal. Spetsiifilised opkoodid, nagu `OP_TOALTSTACK` ja `OP_FROMALTSTACK`, võimaldavad elementide ülekandmist põhihunnikust alternatiivsesse hunnikusse ja vastupidi.
+Skriptikeele kontekstis, mida kasutatakse kulutustingimuste kinnitamiseks Bitcoin UTXOdele, on virna LIFO (*Last In, First Out*) andmestruktuur, mida kasutatakse ajutise Elements salvestamiseks skripti täitmise ajal. Iga skripti toiminguga manipuleeritakse neid virnasid, kus Elements saab lisada (*push*) või eemaldada (*pop*). Skriptid kasutavad stäkke väljendite hindamiseks, ajutiste muutujate salvestamiseks ja tingimuste haldamiseks.
 
-Näiteks tehingu valideerimise ajal lükatakse allkirjad ja avalikud võtmed põhihunnikusse ja neid töödeldakse järjestikuste opkoodidega, et kontrollida allkirjade vastavust võtmetele ja tehingu andmetele.
 
-> ► *Inglise keeles on sõna "pile" tõlge "virn". Ingliskeelset terminit kasutatakse üldiselt ka prantsuse keeles tehniliste arutelude käigus.*
+Bitcoin skripti käivitamisel saab kasutada 2 virna: põhi- ja alternatiivset virna. Peamist virna kasutatakse enamiku skriptioperatsioonide jaoks. Selles virnas toimuvad skriptioperatsioonid andmete lisamiseks, eemaldamiseks või manipuleerimiseks. Alternatiivset virna kasutatakse seevastu andmete ajutiseks säilitamiseks skripti täitmise ajal. Spetsiifilised opkoodid, nagu `OP_TOALTSTACK` ja `OP_FROMALTSTACK`, võimaldavad Elements üle kanda peast virna alternatiivsesse virna ja vastupidi.
+
+
+Näiteks tehingu valideerimisel lükatakse allkirjad ja avalikud võtmed põhihunnikusse ja neid töödeldakse järjestikuste opkoodidega, et kontrollida allkirjade vastavust tehingu võtmetele ja andmetele.

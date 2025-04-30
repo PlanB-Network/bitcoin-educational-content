@@ -1,0 +1,9 @@
+question: Zombi kompanija
+answer: Zombi kompanija
+wrong_answers:
+  - Kompanija duh
+  - Vampirska kompanija
+  - Fantom kompanija
+explanation: |
+  Zombi kompanija je kompanija koja bi, pod normalnim tržišnim uslovima, bila nesolventna ili blizu bankrota, ali nastavlja da posluje uglavnom kroz niskokamatno zaduživanje.
+reviewed: false

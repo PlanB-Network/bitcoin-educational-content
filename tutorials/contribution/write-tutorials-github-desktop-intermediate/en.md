@@ -125,7 +125,12 @@ In the "Contributor's GitHub ID" field, enter your GitHub username.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-In the "PBN professor's ID" field, enter your identifier using words from the BIP39 list, as it appears on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Next, you need to fill in your professor profile. There are several options available to you:
+- Enter the first letters of your name in the "Professor Name" field. Your name will then appear in the "Prof. Suggestions" dropdown list below. Select it by clicking on it;
+- Alternatively, you can directly click on the "Prof. Suggestions" dropdown list and choose your professor name.
+
+This action will automatically fill in your professor UUID in the corresponding field.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
@@ -218,8 +223,7 @@ category:
 
 level: 
 
-credits:
-  professor: 
+professor_id:
 
 # Proofreading metadata
 
@@ -228,46 +232,45 @@ proofreading:
   - language: 
     last_contribution_date:
     urgency:
-    contributors_id:
+    contributor_names:
       - 
     reward:
 ```
 
-Here are the details of the mandatory fields:
+Here are the required fields:
 
-- **id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID be random to avoid conflict with another UUID on the platform;
+- **id** : A UUID (_Universally Unique Identifier_) that uniquely identifies the tutorial. You can generate it using [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID is random to avoid conflicts with another UUID on the platform;
 
-- **project_id**: The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial on Sparrow Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. This information is added to the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity related to your tutorial, you create a link between the two elements;
+- **project_id** : The UUID of the company or organization behind the tool presented in the tutorial [from the project list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial about the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity linked to your tutorial, you create a link between the two elements;
 
-- **tags**: 2 or 3 relevant keywords related to the content of the tutorial, chosen exclusively [from the list of tags of Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags** : 2 or 3 relevant keywords related to the tutorial content, exclusively chosen [from the Plan ₿ Network tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: The sub-category corresponding to the content of the tutorial, according to the structure of the Plan ₿ Network site (for example for wallets: `desktop`, `hardware`, `mobile`, `backup`);
+- **category** : The sub-category corresponding to the tutorial content, according to the Plan ₿ Network website structure (for example, for wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level**: The difficulty level of the tutorial, among:
+- **level** : The difficulty level of the tutorial, chosen from:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor**: Your `contributor_id` (BIP39 words) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id** : Your `professor_id` (UUID) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language**: The original language of the tutorial (for example `fr`, `en`, etc.);
+- **original_language** : The original language of the tutorial (e.g., `fr`, `en`, etc.);
 
-- **proofreading**: Information about the proofreading process. Fill in the first part, as proofreading your own tutorial counts as a first validation:
-    - **language**: Language code of the proofreading (for example `fr`, `en`, etc.).
-    - **last_contribution_date**: Today's date.
-    - **urgency**: Leave blank.
-    - **contributors_id**: Your GitHub ID.
-    - **reward**: Leave blank.
+- **proofreading** : Information about the proofreading process. Complete the first part, as proofreading your own tutorial counts as a first validation:
+    - **language** : Language code of the proofreading (e.g., `fr`, `en`, etc.).
+    - **last_contribution_date** : Date of the day.
+    - **urgency** : 1
+    - **contributor_names** : Your GitHub ID.
+    - **reward** : 0
 
-For more details on your professor identifier, refer to the corresponding tutorial:
+For more details on your teacher ID, please refer to the corresponding tutorial :
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Here is an example of a completed `tutorial.yml` file for a tutorial on the Blockstream Green wallet:
-
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 
 tags:
@@ -279,8 +282,7 @@ category: mobile
 
 level: beginner
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 
@@ -289,7 +291,7 @@ proofreading:
   - language: fr
     last_contribution_date: 2024-11-20
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
     reward: 0
 ```

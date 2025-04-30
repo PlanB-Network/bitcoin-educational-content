@@ -1,0 +1,11 @@
+question: 如何加強 Bitcoin Wallet 的預設安全性？
+answer: 通過在您的 Bitcoin Wallet 上增加一個 passphrase。
+wrong_answers:
+  - 在 Bitcoin Wallet 中加入第二個私人密碼匙。
+  - 將第二個公開金鑰加入您的 Bitcoin Wallet。
+  - 在您的 Bitcoin Wallet 中加入第二個 Mnemonic 詞組。
+explanation: |
+  如果您不滿意您的
+  Bitcoin Wallet 的預設安全性感到不滿意，您可以隨時在您的
+  passphrase 到您的 Bitcoin Wallet。
+reviewed: true

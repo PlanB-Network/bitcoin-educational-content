@@ -1,0 +1,9 @@
+question: Zašto je ključno redovno ažurirati operativni sistem i aplikacije?
+answer: Da bi se zaštitili od novih pretnji i ranjivosti.
+wrong_answers:
+  - Da mašina postane zastarela.
+  - Da usporiš mašinu.
+  - Da promenite korisnika Interface.
+explanation: |
+  Redovna ažuriranja su neophodna za zaštitu sistema od novih pretnji i ranjivosti. Nisu namenjena da učine mašinu zastarelom ili sporom.
+reviewed: true

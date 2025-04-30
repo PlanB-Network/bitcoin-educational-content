@@ -116,74 +116,90 @@ bitcoin-educational-content/
 复制以下模板，填写 `tutorial.yml` 文件：
 
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
 以下是必填字段：
 
+- **id** : 一个 UUID (_Universally Unique Identifier_) 用于唯一标识教程。您可以使用 [在线工具](https://www.uuidgenerator.net/version4) 生成它。唯一的要求是这个 UUID 是随机生成的，以避免与平台上的其他 UUID 冲突；
 
-- id**：UUID（通用唯一标识符），用于唯一标识教程。您可以使用[在线工具](https://www.uuidgenerator.net/version4)生成它。唯一的限制是该 UUID 必须是随机的，以免与平台上的其他 UUID 冲突；
-- project_id** ：教程中介绍的工具背后的公司或组织的 UUID[来自项目列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果你正在做一个关于绿色钱包软件的教程，你可以在以下文件中找到这个 `project_id` ：bitcoin-educational-content/resources/projects/blockstream/project.yml`。之所以在教程的 YAML 文件中添加此信息，是因为 Plan ₿ Network 维护着一个所有在比特币或相关项目上运营的公司和组织的数据库。将链接实体的 `project_id` 添加到您的教程中，就在两个元素之间建立了链接；
-- 标签**：从计划₿ 网络标签列表]中专门选择 2 或 3 个与教程内容相关的关键字(https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)；
-- 类别** ：根据计划₿ 网络结构（例如钱包："桌面"、"硬件"、"移动"、"备份"），与教程内容相对应的子类别；
-- 级别** ：教程难度级别，从 ：
-    - 初学者
-    - 中级
-    - 高级
-    - 专家
-- 教授**：您在[您的教师简介](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors)中显示的 "贡献者 ID"（BIP39 字样）；
-- original_language** ：教程的原始语言（如`fr`、`en`等）；
-- 校对**：有关校对过程的信息。填写第一部分，因为校对自己的教程也算第一次验证：
-    - 语言**：校对语言代码（如`fr`、`en`等）。
-    - last_contribution_date**：今天的日期。
-    - 紧迫性** ：留空。
-    - contributors_id** ：您的 GitHub ID。
-    - 奖励** ：留空。
+- **project_id** : 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Network 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
+
+- **tags** : 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Network 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
+
+- **category** : 对应于教程内容的子类别，根据 Plan ₿ Network 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
+
+- **level** : 教程的难度级别，可从以下选项中选择：
+    - `beginner`
+    - `intermediate`
+    - `advanced`
+    - `expert`
+
+- **professor_id** : 您的 `professor_id` (UUID)，如在 [您的教授资料](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) 中显示；
+
+- **original_language** : 教程的原始语言（例如 `fr`、`en` 等）；
+
+- **proofreading** : 有关校对过程的信息。请填写第一部分，因为自己校对教程也算作第一次验证：
+    - **language** : 校对的语言代码（例如 `fr`、`en` 等）。
+    - **last_contribution_date** : 当前日期。
+    - **urgency** : 1
+    - **contributor_names** : 您的 GitHub ID。
+    - **reward** : 0
 
 有关教师 ID 的详细信息，请参阅相应的教程 ：
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-以下是为 Blockstream Green 钱包教程编写的`tutorial.yml`文件示例：
-
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency:
-contributors_id:
-- LoicPandul
-reward:
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
 
 修改完 `tutorial.yml` 文件后，点击 "*提交更改...*"按钮保存文档：

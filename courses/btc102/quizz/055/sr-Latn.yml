@@ -1,0 +1,11 @@
+question: Šta je Lightning Network?
+answer: To je drugi Layer od Bitcoin.
+wrong_answers:
+  - To je kriptovaluta Exchange.
+  - To je tip Bitcoin Wallet.
+  - To je Bitcoin Mining pool.
+explanation: |
+  Lightning Network je druga Layer tehnologija primenjena na Bitcoin
+  koja koristi kanale za mikroplaćanja kako bi skalirala sposobnost Blockchain za obavljanje
+  transakcija.
+reviewed: false

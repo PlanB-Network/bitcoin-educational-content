@@ -1,0 +1,9 @@
+question: Ni nini hufanyika wakati wa kila mzunguko wa compression katika SHA256?
+answer: Vigezo vya hali vinasasishwa kutoka kwa maneno ya ujumbe na viunga
+wrong_answers:
+  - Hash ya mwisho inatolewa hatua kwa hatua baada ya kila raundi
+  - Biti za ujumbe zimepangwa upya
+  - Maadili ya awali ya vigezo kubaki bila kubadilika
+explanation: |
+  Kila duru hurekebisha vigeu vya hali kwa kutumia maneno, viunga, na utendakazi wa kimantiki ili kueneza habari.
+reviewed: false

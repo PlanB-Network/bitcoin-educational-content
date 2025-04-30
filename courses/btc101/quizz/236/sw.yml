@@ -1,0 +1,14 @@
+question: Je, dhana ya ngozi katika mchezo ni ipi katika muktadha wa tasnia ya mchezo wa video?
+answer: Kuwa na hisa ya kifedha katika matokeo ya mchezo.
+wrong_answers:
+  - Kubinafsisha wahusika kwa ngozi za kipekee zinazoboresha uchezaji.
+  - Kununua vitu vya ndani ya mchezo kwa pesa halisi.
+  - Kuuza ngozi za mchezo kwa pesa halisi.
+explanation: |
+  Dhana ya ngozi katika mchezo ni wazo ambalo lina
+  hivi karibuni ilipata umaarufu katika tasnia ya mchezo wa video. Ni
+  kimsingi inahusu wazo kwamba watengenezaji na
+  wadau wana uwekezaji binafsi au hisa katika
+  mafanikio ya mchezo, ambayo yanalingana na masilahi yao
+  kutoa bidhaa bora.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Lightning 通道何時正式開放？
+answer: 當存款交易在 Bitcoin Blockchain 上確認時
+wrong_answers:
+  - 只要參與者之間交換公開金鑰
+  - 當雙方簽署提款交易時
+  - 只要建立 2/2 多重簽章 Address
+explanation: |
+  一旦存款交易被包含在 Bitcoin 區塊中，並達到一定的確認數量，該通道就被視為開放。
+reviewed: false

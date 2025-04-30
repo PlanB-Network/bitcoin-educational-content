@@ -1,0 +1,9 @@
+question: Koja od sledećih nije karakteristika Bitcoin?
+answer: Lako se cenzuriše.
+wrong_answers:
+  - To je trenutno prenosivo.
+  - Ima zanemarljive troškove verifikacije.
+  - Ima fiksnu monetarnu politiku.
+explanation: |
+  Bitcoin ima sve neophodne karakteristike da bude efikasna i zdrava valuta: deljiva, trenutno prenosiva, necenzurisana, sa zanemarljivim troškovima verifikacije, i sa monetarnom politikom koja je već postavljena za vekove unapred sa 21 milion jedinica.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Je, ni utaratibu gani unaotumiwa na majukwaa ya ulinganishaji mtandaoni ya peer-to-peer (P2P) ili kupunguza hatari ya wizi?
+answer: Utaratibu wa escrow.
+wrong_answers:
+  - Algorithm salama inayolingana.
+  - Utaratibu wa uthibitishaji wa barua pepe.
+  - Utaratibu wa uthibitishaji wa utambulisho.
+explanation: |
+  Majukwaa haya kwa kawaida hutumia utaratibu wa ulinzi ambapo bitcoins hushikiliwa hadi muuzaji athibitishe malipo kwa sarafu ya fiat. Utaratibu huu wa kushikiliwa na mtu wa tatu unawakilisha kile kinachojulikana kama escrow.
+reviewed: false

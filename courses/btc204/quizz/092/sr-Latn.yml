@@ -1,0 +1,9 @@
+question: Koji je naziv naloga koji se koristi za UTXO-ove koji ne mogu ući u Whirlpool CoinJoin bazen?
+answer: Doxxic promeni nalog.
+wrong_answers:
+  - Postmix nalog.
+  - Premix nalog.
+  - Račun za depozit.
+explanation: |
+  Promena koja nije mogla da se pridruži bazenu je izolovana u “doxxic change account, kako bi se osigurala stroga odvojenost od ostalih UTXO-a u Wallet.
+reviewed: false

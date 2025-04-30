@@ -1,0 +1,9 @@
+question: Koje kodiranje se koristi za predstavljanje SegWit v0 adresa?
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  Adrese SegWit v0, kao što su one za P2WPKH i P2WSH, koriste bech32 kodiranje uvedeno sa SegWit.
+reviewed: false

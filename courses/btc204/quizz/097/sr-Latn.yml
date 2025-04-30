@@ -1,0 +1,9 @@
+question: Šta velika anonseta ukazuje o privatnosti UTXO?
+answer: Poboljšana privatnost.
+wrong_answers:
+  - Smanjena privatnost.
+  - Poboljšana sledljivost.
+  - Brže brzine transakcija CoinJoin.
+explanation: |
+  Veliki anonset ukazuje na visok nivo anonimnosti, jer postaje teško razlikovati određeni UTXO unutar homogenog skupa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Które alternatywne rozwiązanie jest wspomniane dla firm preferujących kompleksowe środowisko sprzedaży detalicznej online?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Węzeł otwarty
+  - Swiss Bitcoin Pay
+explanation: |
+  Be-BOP jest opcją dla tych, którzy chcą zintegrowanego sklepu internetowego, który ułatwia płatności Bitcoin.
+reviewed: false

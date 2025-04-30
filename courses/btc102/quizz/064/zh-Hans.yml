@@ -1,8 +1,9 @@
-question: 为了无压力地进行重复购买比特币，推荐的解决方案是什么？
-answer: 使用DCA方案
+question: 您的继承人必须采取哪些行动才能无误地收回您的比特币？
+answer: 提供明确的指示
 wrong_answers:
-  - 使用热钱包
-  - 使用冷钱包
-  - 使用非KYC方案
+  - 委托所有私人密钥
+  - 经常更改密码
+  - 使用 KYC Exchange 平台
 explanation: |
-  为了无压力地进行重复购买比特币，推荐的解决方案是使用DCA（Dollar Cost Averaging，定投）方案。这种策略涉及将您想要投资的总金额分散到周期性购买中，以减少波动性的影响。
+  详细易懂的说明可确保您的亲人能够正确使用资金。
+reviewed: false

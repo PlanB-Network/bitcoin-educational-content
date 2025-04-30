@@ -1,11 +1,14 @@
 ---
-term: SEED
-
+term: KORN
 ---
-Im spezifischen Kontext einer hierarchisch-deterministischen Bitcoin-Wallet ist ein Seed eine 512-Bit-Information, die aus dem Zufallsprinzip abgeleitet ist. Er wird verwendet, um deterministisch und hierarchisch einen Satz privater Schlüssel und die entsprechenden öffentlichen Schlüssel für eine Bitcoin-Wallet zu erzeugen. Der Seed wird oft mit der Recovery Phrase selbst verwechselt. Es handelt sich jedoch um unterschiedliche Informationen. Der Seed wird durch Anwendung der Funktion `PBKDF2` auf die mnemonische Phrase und jede potentielle Passphrase erhalten.
 
-Der Seed wurde mit der Einführung von BIP32 erfunden, das die Grundlagen der hierarchischen deterministischen Brieftasche definiert. In diesem Standard betrug der Seed 128 Bit. Dies ermöglicht die Ableitung aller Schlüssel in einer Geldbörse aus einer einzigen Information, im Gegensatz zu JBOK (*Just a Bunch of Keys*) Geldbörsen, die für jeden erzeugten Schlüssel neue Sicherungen erfordern. BIP39 führte später eine Kodierung dieses Seeds ein, um seine Lesbarkeit für Menschen zu vereinfachen. Diese Kodierung erfolgt in Form einer Phrase, die gemeinhin als mnemonische Phrase oder Wiederherstellungsphrase bezeichnet wird. Dieser Standard hilft, Fehler bei der Sicherung des Seeds zu vermeiden, insbesondere durch die Verwendung einer Prüfsumme.
+Im spezifischen Kontext eines hierarchischen, deterministischen Bitcoin-Portfolios ist ein seed eine 512-Bit-Information, die von einem Zufallsereignis abgeleitet ist. Es wird verwendet, um deterministisch und hierarchisch generate eine Reihe von privaten Schlüsseln und die entsprechenden öffentlichen Schlüssel für ein Bitcoin-Portfolio zu erstellen. Der seed wird oft mit der Recovery-Phrase selbst verwechselt. Aber es ist nicht dasselbe. Die seed wird durch Anwendung der Funktion "PBKDF2" auf die Mnemonic-Phrase und jede passphrase erhalten.
 
-Allgemeiner ausgedrückt ist ein Seed in der Kryptografie ein Stück Zufallsdaten, das als Ausgangspunkt für die Erzeugung von kryptografischen Schlüsseln, Verschlüsselungen oder Pseudozufallssequenzen dient. Die Qualität und Sicherheit vieler kryptografischer Verfahren hängt von der Zufälligkeit und Vertraulichkeit des Seeds ab.
 
-> ► *Die englische Übersetzung von "graine" ist "Samen". Im Französischen verwenden viele direkt das englische Wort, um sich auf den Samen zu beziehen
+Der seed wurde mit BIP32 erfunden, das die Grundlagen des hierarchischen deterministischen Portfolios definierte. In diesem Standard maß der seed 128 Bit. Dadurch können alle Schlüssel eines Portfolios aus einer einzigen Information abgeleitet werden, im Gegensatz zu JBOK-Portfolios (*Just a Bunch of Keys*), die für jeden erzeugten Schlüssel neue Sicherungen erfordern. BIP39 schlug dann eine Kodierung dieses seed vor, um das Lesen durch Menschen zu vereinfachen. Diese Kodierung erfolgt in Form einer Phrase, die allgemein als Mnemonic-Phrase oder Wiederherstellungsphrase bezeichnet wird. Dieser Standard vermeidet Fehler beim Speichern der seed, insbesondere dank der Verwendung einer Prüfsumme.
+
+
+Außerhalb des Bitcoin-Kontextes ist ein seed in der Kryptografie im Allgemeinen ein Anfangswert, der für generate kryptografische Schlüssel oder allgemeiner für jede Art von Daten verwendet wird, die von einem Pseudo-Zufallszahlengenerator erzeugt werden. Dieser Anfangswert muss zufällig und unvorhersehbar sein, um die Sicherheit des kryptografischen Systems zu gewährleisten. seed führt zwar Entropie in das System ein, aber der anschließende Generierungsprozess ist deterministisch.
+
+
+> im allgemeinen Sprachgebrauch beziehen sich die meisten Bitcoiner auf die Mnemonic-Phrase, wenn sie von der "seed" sprechen, und nicht auf den Zwischenzustand der Ableitung, der zwischen der Mnemonic-Phrase und dem Hauptschlüssel liegt

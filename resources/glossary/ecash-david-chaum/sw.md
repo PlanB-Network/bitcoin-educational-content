@@ -1,0 +1,5 @@
+---
+term: PESA (DAUDI CHAUM)
+---
+
+Itifaki iliyopendekezwa na David Chaum mnamo 1982, ambayo ni mojawapo ya mifumo ya kwanza ya sarafu ya kidijitali iliyoundwa kuhifadhi kutokujulikana kwa mtumiaji. Inategemea kanuni za siri za ufunguo wa umma ili kuunda sarafu ya dijiti ambayo inaweza kubadilishwa kwa usalama na bila kujulikana. eCash hufanya kazi kwa kuunda tokeni za kidijitali zilizotiwa saini na benki. Kwa hivyo, inawakilisha mageuzi ya benki za amana, bila kuwa na madaraka. Wakati wa shughuli za malipo, tokeni hizi huhamishwa kati ya wahusika bila kufichua utambulisho wa watumiaji, na hivyo kuhifadhi ufaragha wao. eCash inachukuliwa kuwa mtangulizi wa sarafu fiche. Mara nyingi huja katika majadiliano kuhusu Bitcoin, huku wengine wakitaka kutumia mifumo inayofanana na eCash kama Layer juu. Leo, mwelekeo unaelekea zaidi kwenye ile inayoitwa mifumo ya "shirikisho ya Chaumian" kama vile Fedimint.

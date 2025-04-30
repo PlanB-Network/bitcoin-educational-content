@@ -1,0 +1,12 @@
+question: Według Carla Mengera, dlaczego dochodzi do dobrowolnego Exchange między dwiema osobami?
+answer: Każda ze stron uważa, że zwiększy to ich subiektywną użyteczność.
+wrong_answers:
+  - Każda ze stron uważa, że zmniejszy to ich subiektywną użyteczność.
+  - Każda ze stron wierzy, że utrzyma swoją subiektywną użyteczność.
+  - Każda ze stron uważa, że nie będzie to miało wpływu na ich subiektywną użyteczność.
+explanation: |
+  Menger wywnioskował, że dobrowolne Exchange pomiędzy dwoma
+  osobami ma miejsce, ponieważ każda ze stron wierzy, że
+  zwiększy ich subiektywną użyteczność. Oznacza to, że każda
+  strona wierzy, że po Exchange będzie jej lepiej.
+reviewed: true

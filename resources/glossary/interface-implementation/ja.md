@@ -1,0 +1,5 @@
+---
+term: Interface Implementation
+---
+
+RGBプロトコルでは、Interface ImplementationはInterfaceとSchemaの対応を確立する宣言のセットを指す。Interface Implementationは、バイナリContractデータのセマンティック変換を可能にし、ユーザーやウォレットのようなアプリケーションによる正しい解釈を保証します。

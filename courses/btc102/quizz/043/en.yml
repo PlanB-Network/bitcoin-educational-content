@@ -1,11 +1,9 @@
-question: What is the main reason why governments and central banks are exploring the possibility of creating a digital version of their fiat currency?
-answer: To ensure control and comply with local regulations
+question: What is the main goal of a hodler?
+answer: To hold their bitcoins over the long term
 wrong_answers:
-  - To compete with Bitcoin
-  - To provide privacy protection
-  - To increase mass surveillance
+  - To speculate in the short term
+  - To make frequent bitcoin transactions
+  - To maximize the privacy of their Bitcoin transactions
 explanation: |
-  The chapter content explains that while these projects claim to compete
-  with Bitcoin, they remain centralized in order to ensure control and comply with
-  local regulations.
+  A hodler aims to keep their bitcoins for many years in order to benefit from the asset’s presumed growth.
 reviewed: false

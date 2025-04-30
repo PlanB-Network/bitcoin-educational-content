@@ -1,0 +1,9 @@
+question: Zašto se preporučuje izbegavanje Google Chrome pregledača?
+answer: Zbog svojih tragača.
+wrong_answers:
+  - Jer nije sigurno.
+  - Zato što nije prilagođeno korisniku.
+  - Zato što ne podržava ekstenzije.
+explanation: |
+  Google Chrome pregledač je poznat po svojim tragačima, koji mogu prikupljati podatke o vašim aktivnostima na mreži. Ovo može biti zabrinutost za privatnost kod nekih korisnika.
+reviewed: true

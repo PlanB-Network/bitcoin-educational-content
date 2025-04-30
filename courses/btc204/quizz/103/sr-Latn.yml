@@ -1,0 +1,9 @@
+question: Kako se efikasnost Bitcoin transakcije izračunava u smislu privatnosti?
+answer: Poređenjem stvarne entropije transakcije sa maksimalnom mogućom entropijom.
+wrong_answers:
+  - Množenjem broja ulaza sa brojem izlaza.
+  - Množenjem stvarne entropije transakcije brojem ulaza i izlaza.
+  - Upoređivanjem broja ulaza sa brojem izlaza.
+explanation: |
+  Efikasnost transakcije se izračunava oduzimanjem maksimalne entropije od stvarne entropije analizirane transakcije.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kati ya sheria ya asili na sheria chanya kulingana na mawazo ya Kirumi?
+answer: Sheria ya asili ni ya ulimwengu wote na haibadiliki, wakati sheria chanya ni tofauti na inategemea sheria za wanadamu.
+wrong_answers:
+  - Sheria ya asili ni sheria ya wenye nguvu wakati sheria chanya ni sheria ya wanyonge.
+  - Sheria ya asili inategemea dini wakati sheria chanya inategemea sababu.
+  - Sheria ya asili inatumika kwa raia wa Kirumi pekee wakati sheria chanya inatumika kwa wakaaji wote wa Dola.
+explanation: |
+  Katika mawazo ya Kirumi, sheria ya asili inachukuliwa kuwa ya ulimwengu wote na isiyoweza kubadilika, inayotokana na kanuni zisizobadilika, ambapo sheria chanya ni seti ya sheria zilizowekwa na wanadamu na zinaweza kubadilika kulingana na mazingira ya kijamii na kisiasa.
+reviewed: false

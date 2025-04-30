@@ -2298,7 +2298,7 @@ Luego, la generación de la dirección sigue el mismo proceso, utilizando la cla
 
 ¡Y ahí lo tienes! Hemos llegado al final de este curso CYP201. Si encontraste este curso útil, estaría muy agradecido si pudieras tomar unos momentos para darle una buena calificación en el siguiente capítulo de evaluación. Siéntete libre de compartirlo también con tus seres queridos o en tus redes sociales. Finalmente, si deseas obtener tu diploma para este curso, puedes tomar el examen final justo después del capítulo de evaluación.
 
-# Conclusión
+# Sección final
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

@@ -1,0 +1,8 @@
+question: Šta je OpenNode?
+answer: Jednostavno online rešenje za preduzeća da prihvate Bitcoin.
+wrong_answers:
+  - Tip Bitcoin čvora koji istovremeno koristi mnogo korisnika.
+  - Softver Bitcoin Mining koji je otvorenog koda.
+  - Bitcoin Exchange platforma.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Zašto je rizično ručno generate entropiju za HD Wallet?
+answer: Može uvesti ljudske slabosti ili predvidljive pristrasnosti
+wrong_answers:
+  - To rezultira nevažećim javnim ključevima
+  - Blokira izvođenje privatnih ključeva
+  - Ograničava veličinu generisanih Mnemonic fraza
+explanation: |
+  Ručno generisanje entropije može uvesti pristrasnosti ili greške, čineći ključeve podložnijim napadima.
+reviewed: false

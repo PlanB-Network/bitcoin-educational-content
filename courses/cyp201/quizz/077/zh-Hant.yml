@@ -1,0 +1,9 @@
+question: 為什麼描述符對多重簽章錢包特別有用？
+answer: 它們包括每個因子的 xpub，並描述多重特徵結構。
+wrong_answers:
+  - 它們消除了對 Mnemonic 語句的需求
+  - 它們簡化了硬化金鑰的產生
+  - 它們使多重簽名與所有腳本相容
+explanation: |
+  描述符包括所有參與者的擴充公開金鑰，有助於還原和管理多重簽章配置。
+reviewed: false

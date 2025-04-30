@@ -78,7 +78,6 @@ Füllen Sie die erforderlichen Informationen aus (bitte beachten Sie, dass alle 
 
 - Name der Lehrerakte (Vor- und Nachname oder ein Pseudonym in Kleinbuchstaben) ;
 - Ihr Name oder Spitzname ;
-- Zufällige Generierung Ihres Logins ;
 - Ihre Website und Ihr Profil X (optional) ;
 - Ein Lightning Address, um Spenden von Lesern zu erhalten (optional) ;
 - Wählen Sie 2 oder 3 Tags aus der Liste aus;

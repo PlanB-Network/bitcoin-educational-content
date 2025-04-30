@@ -1,0 +1,9 @@
+question: Šta vam omogućava HD Wallet u poređenju sa JBOK Wallet?
+answer: generate svi privatni ključevi iz jednog seed
+wrong_answers:
+  - Povećajte sigurnost digitalnih potpisa
+  - Ponovo koristiti isti Address za više transakcija
+  - Potpuno izbegavajte korišćenje javnih ključeva
+explanation: |
+  HD novčanici izvode sve privatne ključeve iz jedinstvenog seed, što pojednostavljuje rezervnu kopiju i indirektno poboljšava privatnost.
+reviewed: false

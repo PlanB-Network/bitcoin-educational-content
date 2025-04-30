@@ -1,0 +1,9 @@
+question: Je, madhumuni ya Terminal Consignment katika mchakato wa uhamisho wa RGB ni nini?
+answer: Toa historia ya Mpito za Jimbo
+wrong_answers:
+  - Thibitisha Genesis Contract
+  - Futa mabadiliko ya zamani
+  - generate mpya Schema kwa uhamisho
+explanation: |
+  Terminal Consignment hukusanya historia ya Contract ili kuthibitisha uhalali wa mali iliyohamishwa hadi sasa.
+reviewed: false

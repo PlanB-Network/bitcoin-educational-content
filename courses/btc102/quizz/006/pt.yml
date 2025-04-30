@@ -1,9 +1,9 @@
-question: Qual é um golpe comum no campo de investimentos financeiros?
-answer: Sistemas de venda em pirâmide.
+question: Qual é a principal vantagem de utilizar um gestor de palavras-passe?
+answer: Armazena e gera palavras-passe complexas
 wrong_answers:
-  - Venda de bens físicos.
-  - Venda de produtos de software.
-  - Venda de moeda fiduciária.
+  - Fornece sugestões para memorizar as suas palavras-passe
+  - Reutiliza as mesmas palavras-passe em diferentes contas online
+  - Substitui a necessidade de software antivírus
 explanation: |
-  No campo de investimentos financeiros, os sistemas de venda em pirâmide e os esquemas de Ponzi se destacam como modelos ilegais. Eles operam usando o dinheiro de novos investidores para pagar participantes mais antigos.
+  O gestor de palavras-passe cria palavras-passe fortes e guarda-as em segurança, permitindo a sua fácil recuperação sem necessidade de as memorizar.
 reviewed: false

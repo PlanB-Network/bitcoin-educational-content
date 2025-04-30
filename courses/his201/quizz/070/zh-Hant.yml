@@ -1,0 +1,9 @@
+question: 2010 年 11 月，是誰建議聯絡 WikiLeaks 組織，鼓勵他們接受 Bitcoin？
+answer: Amir Taaki
+wrong_answers:
+  - Wladimir van der Laan
+  - 羅伯特-霍寧
+  - Satoshi Nakamoto
+explanation: |
+  他的理由是該組織的資金已被凍結多次。值得注意的是，Moneybookers 曾在 10 月凍結 WikiLeaks 的帳戶。
+reviewed: false

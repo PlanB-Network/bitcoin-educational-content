@@ -1,0 +1,8 @@
+question: 什麼是 Bitcoin Blockchain？
+answer: 所有 Bitcoin 交易的公開且不可變更的 Ledger。
+wrong_answers:
+  - 所有 Bitcoin 交易的私有且可變的 Ledger。
+  - 所有 Bitcoin 交易的公開且可變的 Ledger。
+  - 所有 Bitcoin 交易的私有且不可變更的 Ledger。
+explanation: >-
+reviewed: true

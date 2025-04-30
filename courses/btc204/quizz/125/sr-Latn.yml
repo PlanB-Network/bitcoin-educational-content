@@ -1,0 +1,9 @@
+question: Koji je glavni cilj coinswap-a?
+answer: Da tajno prenesete Ownership bitkoina
+wrong_answers:
+  - Povećajte brzinu transakcija
+  - Mešaj bitkoine
+  - Tajno Exchange i Altcoin za Bitcoin
+explanation: |
+  Coinswap koristi pametne ugovore za omogućavanje prenosa Bitcoin Ownership između dva korisnika, bez potrebe za poverenjem i bez da ovaj prenos bude eksplicitno vidljiv na Blockchain.
+reviewed: false

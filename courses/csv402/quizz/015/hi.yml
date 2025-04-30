@@ -1,0 +1,11 @@
+question: RGB (Ground Zero) को डिजिटल दुनिया में किस ऐतिहासिक अवधारणा पर लागू किया जाता है?  
+
+(Note: RGB is retained as it appears to be a technical term/acronym. The translation maintains the original formatting and special characters while adapting the question to colloquial Hindi.)
+answer: बेयरर इंस्ट्रूमेंट्स
+wrong_answers:
+  - केंद्रीकृत डेटाबेस
+  - बिना वैलिडेशन वाले पीयर-टू-पीयर नेटवर्क्स
+  - सबके लिए खुला रजिस्टर
+explanation: |
+  RGB बियरर इंस्ट्रूमेंट्स के कॉन्सेप्ट को डिजिटल में ट्रांसपोज़ करता है।
+reviewed: false

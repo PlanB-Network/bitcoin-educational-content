@@ -1,9 +1,9 @@
-question: Tỷ lệ lạm phát ở Đức vào tháng 10 năm 1923 là bao nhiêu?
-answer: 29,50%.
+question: Tỷ lệ lạm phát ở Đức vào tháng 10 năm 1923, thời điểm đỉnh cao của siêu lạm phát, vào khoảng bao nhiêu?
+answer: 29.500%
 wrong_answers:
-  - 200.9%.
-  - 50.51%.
-  - 25.98%.
+  - 5.200%
+  - 76%
+  - 110%
 explanation: |
-  Tháng có tỷ lệ lạm phát cao nhất ở Đức là tháng 10 năm 1923, đạt đỉnh ở mức 29,50%.
-  Đã duyệt: true
+  Tháng có tỷ lệ lạm phát cao nhất ở Đức là tháng 10 năm 1923, khi đạt đỉnh ở mức 29.500%.
+reviewed: false

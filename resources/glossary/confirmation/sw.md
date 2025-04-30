@@ -1,0 +1,5 @@
+---
+term: UTHIBITISHO
+---
+
+Inarejelea idadi ya vitalu ambavyo muamala unanufaika kutokana na usalama wao. Shughuli inapotangazwa kwa mtandao wa Bitcoin, kwanza inasalia katika kumbukumbu za nodi. Kisha imejumuishwa kwenye kizuizi halali na Miner. Katika hatua hii, muamala umeongezwa hivi punde kwa Blockchain, kwa hivyo inafaidika kutokana na uthibitisho wake wa kwanza. Wakati kizuizi kipya kinapatikana juu ya kizuizi kilicho na shughuli inayohusika, itapokea uthibitisho wa pili, na kadhalika. Kila kizuizi kipya kinachochimbwa juu ya kizuizi kilicho na shughuli hiyo ni uthibitisho mpya. Kwa kuhesabu idadi ya uthibitishaji wa muamala, tunaweza kukadiria hatari ambayo inaweza hatimaye kughairiwa kwa sababu ya kupanga upya. Idadi ya uthibitisho huturuhusu kutathmini kiwango cha kutobadilika kwa shughuli kwenye Blockchain.

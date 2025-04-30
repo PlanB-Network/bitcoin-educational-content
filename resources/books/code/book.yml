@@ -7,7 +7,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
+    reward: 0.67
   - language: de
     last_contribution_date:
     urgency: 1
@@ -18,7 +18,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.27
+    reward: 0.26
   - language: es
     last_contribution_date:
     urgency: 1
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
+    reward: 0.67
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -43,7 +43,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.97
+    reward: 0.95
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -53,33 +53,32 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
+    reward: 0.67
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.97
+    reward: 0.95
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.82
+    reward: 0.81
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.82
+    reward: 0.81
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
-
+    reward: 0.67
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
+    reward: 0.67
 tags:
   - technical-analysis
   - deep-dive

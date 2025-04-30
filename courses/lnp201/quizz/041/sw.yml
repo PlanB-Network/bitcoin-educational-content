@@ -1,0 +1,9 @@
+question: Kwa nini ni vigumu kwa nodi ya kupitisha kukadiria ukwasi halisi wa chaneli?
+answer: Kwa sababu ni washiriki wawili tu wanaojua mgawanyo sahihi wa fedha
+wrong_answers:
+  - Kwa sababu uwezo wa jumla wa chaneli unabadilika kila wakati
+  - Kwa sababu ada za nodi za mpatanishi hazijachapishwa
+  - Kwa sababu chaneli hujifunga kiotomatiki baada ya kila muamala
+explanation: |
+  Mgawanyo sahihi wa fedha katika chaneli unaonekana tu kwa nodi mbili zinazoshiriki, kuzuia nodi nyingine kukadiria ukwasi unaopatikana wa kuelekeza.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Je! ni kanuni gani ya Attakai katika muktadha wa Bitcoin Mining?
+answer: Kanuni ya Attakai inahusu matumizi yenye tija ya joto linalotokana na Bitcoin Mining.
+wrong_answers:
+  - Kanuni ya Attakai inahusu matumizi ya vyanzo vya nishati mbadala kwa Bitcoin Mining.
+  - Kanuni ya Attakai inahusu matumizi ya mifumo ya juu ya baridi katika Bitcoin Mining.
+  - Kanuni ya Attakai inahusu matumizi ya vifaa vya matumizi ya chini ya nishati katika Bitcoin Mining.
+explanation: |
+  Kanuni ya Attakai inahusu wazo la
+  kugatua Mining kupitia matumizi yenye tija ya
+  joto linalotokana. Dhana hii inaonyesha kwamba nishati kubwa
+  taasisi zinaweza kufaidika na joto linalozalishwa na
+  wachimbaji madini joto vifaa vyao.
+reviewed: true

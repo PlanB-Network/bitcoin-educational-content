@@ -1,0 +1,9 @@
+question: Koja je uloga Bayesove teoreme u verovatnoći?
+answer: Omogućava izračunavanje uslovne verovatnoće obrnutim redosledom događaja.
+wrong_answers:
+  - Pruža verovatnoću pojave jednog događaja.
+  - Definiše ukupnu verovatnoću svih mogućih događaja.
+  - Odnosi se samo na kontinuirane varijable.
+explanation: |
+  Bajesova teorema omogućava izračunavanje verovatnoće događaja A pod uslovom B preokretanjem verovatnoća i suštinska je u teoriji verovatnoće.
+reviewed: false

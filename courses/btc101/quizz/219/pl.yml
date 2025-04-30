@@ -1,0 +1,10 @@
+question: Co ten kurs sugeruje na temat przyszłości Bitcoin?
+answer: To nie zniknie.
+wrong_answers:
+  - Zostanie ona zastąpiona lepszą technologią.
+  - Zostanie on zakazany na całym świecie.
+  - Straci on swoją wartość.
+explanation: |
+  Tekst kursu sugeruje, że Bitcoin nie zniknie
+  zniknie. Wręcz przeciwnie, rewolucja dopiero się rozpoczęła.
+reviewed: true

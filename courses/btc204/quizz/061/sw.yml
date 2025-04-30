@@ -1,0 +1,10 @@
+question: Ni nini madhumuni ya chaguo la kudhibiti sarafu katika programu ya Bitcoin Wallet?
+answer: Ili kuchagua UTXO za kutumia kama pembejeo za miamala.
+wrong_answers:
+  - Kusimba UTXO kwa njia fiche ili kuimarisha usalama wa Wallet.
+  - Ili kugundua na kuzuia UTXO kutoka kwa vyanzo vya kutiliwa shaka.
+  - Kuweka lebo kila UTXO katika Wallet.
+explanation: |
+  Udhibiti wa sarafu ni kipengele kinachopatikana katika programu nzuri ya Bitcoin Wallet, ambayo hukupa uwezo wa kuchagua UTXO maalum za kutumia kama pembejeo unapofanya muamala.
+  
+reviewed: false

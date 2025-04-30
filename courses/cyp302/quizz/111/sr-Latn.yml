@@ -1,0 +1,9 @@
+question: Šta je asinhrono strim šifrovanje?
+answer: Šifrovanje čiji tok ključeva zavisi i od ključa i od Elements prethodno šifrovanog teksta
+wrong_answers:
+  - Šifrovanje koje generiše nasumični ključni tok pri svakoj upotrebi
+  - Šifrovanje gde se ključ mora menjati za svaku poruku
+  - Šifrovanje čiji tok ključeva zavisi samo od početnog ključa
+explanation: |
+  Asinhro strim enkripcija je tip enkripcije gde je ključni tok pod uticajem ključa i Elements enkriptovanog teksta.
+reviewed: false

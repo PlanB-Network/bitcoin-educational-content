@@ -1,0 +1,9 @@
+question: Koja je preporučena praksa za upravljanje glavnom lozinkom menadžera lozinki?
+answer: Napišite to na papir i čuvajte ga na skrivenom i sigurnom mestu.
+wrong_answers:
+  - Sačuvaj to u svom emailu.
+  - Koristite istu lozinku za sve naloge.
+  - Memoriši to.
+explanation: |
+  Preporučuje se da se glavna lozinka menadžera lozinki zapiše na papir, ali treba je čuvati na skrivenom i sigurnom mestu. Ovo je zato što, ako je Hard disk šifrovan i računar zaključan, lozinka neće biti dostupna, čak ni u slučaju provale.
+reviewed: true

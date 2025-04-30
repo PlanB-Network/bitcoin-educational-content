@@ -39,11 +39,12 @@ Selle kursuse on sponsoreerinud TETHER
 
 <partId>d44d9f32-c72e-58a4-9855-12e29f3e763c</partId>
 
-## Sissejuhatus
+## Kursuse ülevaade
 
 <chapterId>2eaf5947-8180-540e-9418-c40bf04e07ce</chapterId>
+Tere tulemast kursusele ECO104!
 
-### Elame maailmas, kus:
+**Elame maailmas, kus:**
 
 ● Vaid [20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) inimestest elab ühiskondades, mida peetakse "demokraatlikult vabaks". Ometi isegi selle privileegitud osa sees on inimõiguste rikkumised üha tavalisemad - alates pangakontode külmutamisest kuni tsensuurini. Ülejäänud 80% maadleb autoritaarse režiimi pealetungiga. Veel kaks aastakümmet tagasi nautis peaaegu pool maailma elanikkonnast kõige põhilisemaid vabadusi.
 
@@ -62,7 +63,7 @@ See kursus ei ole mõeldud ainult neile, kes seisavad silmitsi ulatusliku inflat
 
 Selle eesmärgiga silmas pidades on meie missioon tuua teid praeguse finantsmaastiku muutuste esirinda, väljakutse olemasolevatele normidele ja pakkuda alternatiivseid lahendusi. Sukeldudes raha ajalukku, demüstifitseerides Bitcoini ja uurides Tetherit ning stabiilsete müntide maailma, soovime inspireerida inimesi oma finantsilist tulevikku ümber kujutlema.
 
-### Mida oodata:
+**Mida oodata:**
 
 **Moodul 1: Edu hind - Lähem pilk meie finantssüsteemile**
 Alustame oma uurimistööd, heites pilgu meie praeguse finantssüsteemi telgitagustesse, kus finantsiline tsensuur, varanduslik ebavõrdsus ja inflatsioon kimbutavad meie igapäevaelu. Lühikese rahaajaloo kaudu vaatame, kuidas me jõudsime sinna, kus me praegu oleme, tuues esile mõned peamised valupunktid, mida me kõik kogeme.
@@ -1635,7 +1636,7 @@ Loodetavasti annab see uus mõistmine teile jõudu navigeerida muutuvas finantsm
 
 Tulevik on Helge!
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

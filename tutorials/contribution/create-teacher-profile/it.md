@@ -78,7 +78,6 @@ Compilare le informazioni richieste (si prega di notare che tutte queste informa
 
 - Nome del file dell'insegnante (utilizzare nome e cognome o uno pseudonimo, in minuscolo) ;
 - Il vostro nome o soprannome ;
-- Generazione casuale del login ;
 - Il vostro sito web e il vostro profilo X (facoltativo) ;
 - Un Lightning Address per ricevere donazioni dai lettori (opzionale) ;
 - Selezionare 2 o 3 etichette dall'elenco;

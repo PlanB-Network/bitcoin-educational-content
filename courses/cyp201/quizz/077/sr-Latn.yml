@@ -1,0 +1,9 @@
+question: Zašto su deskriptori posebno korisni za multisignature novčanike?
+answer: Oni uključuju xpub svakog faktora i opisuju multisignature strukturu
+wrong_answers:
+  - Oni eliminišu potrebu za Mnemonic frazom
+  - Oni pojednostavljuju generisanje ojačanih ključeva
+  - Oni čine multisignature kompatibilnim sa svim skriptama
+explanation: |
+  Opisi uključuju proširene javne ključeve svih učesnika, što olakšava obnavljanje i upravljanje multisignature konfiguracijama.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Qu'est-ce qu'un portefeuille dans le contexte du Bitcoin?
-answer: Un coffre-fort numérique pour vos bitcoins
+question: Quel dispositif est conseillé pour sécuriser les fonds accumulés sur le long terme ?
+answer: Hardware wallet
 wrong_answers:
-  - Un appareil physique pour stocker des bitcoins
-  - Un logiciel pour miner des bitcoins
-  - Une plateforme pour acheter et vendre des bitcoins
+  - Hot wallet
+  - Lightning wallet
+  - Plateforme d'échange
 explanation: |
-  Le contenu du chapitre explique que les bitcoins sont stockés dans ce qu'on appelle
-  un portefeuille, qui est un coffre-fort numérique pour votre argent. Seul le détenteur de la clé peut y accéder.
+  Le hardware wallet stocke les clés privées hors ligne, ce qui offre une sécurité renforcée pour des montants importants sur le long terme.
 reviewed: false

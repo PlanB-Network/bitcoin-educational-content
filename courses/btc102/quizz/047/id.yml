@@ -1,10 +1,9 @@
-question: Apa itu dompet dalam konteks Bitcoin?
-answer: Sebuah brankas digital untuk bitcoin Anda
+question: Perangkat apa yang direkomendasikan untuk mengamankan akumulasi dana jangka panjang?
+answer: Hardware Wallet
 wrong_answers:
-  - Sebuah perangkat fisik untuk menyimpan bitcoin
-  - Sebuah perangkat lunak untuk menambang bitcoin
-  - Sebuah platform untuk membeli dan menjual bitcoin
+  - Hot Wallet
+  - Petir Wallet
+  - Platform Exchange
 explanation: |
-  Konten bab menjelaskan bahwa bitcoin disimpan dalam apa yang disebut
-  dompet, yang merupakan brankas digital untuk uang Anda. Hanya pemegang kunci yang dapat
-  mengaksesnya.
+  Hardware Wallet menyimpan kunci pribadi secara offline, memberikan keamanan yang lebih baik untuk jumlah yang signifikan dalam jangka panjang.
+reviewed: false

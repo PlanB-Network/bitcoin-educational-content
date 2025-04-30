@@ -1,0 +1,17 @@
+question: Kakva je bila reakcija Banke Engleske na paniku u bankama 1796. godine?
+answer: Obustavio je konvertibilnost svojih novčanica u zlato
+wrong_answers:
+  - Izdao je više novčanica
+  - Zatvoreno je
+  - Povećala je vrednost svojih novčanica
+explanation: |
+  Nakon panike u bankama 1796. godine, Banka Engleske je obustavila
+  
+  konvertibilnost
+  
+  svojih novčanica u zlato kako bi sprečila potencijalnu deflaciju zlatnih rezervi. Ova
+  
+  obustava, prvobitno zamišljena kao privremena mera, trajala je dve
+  
+  decenije.
+reviewed: false

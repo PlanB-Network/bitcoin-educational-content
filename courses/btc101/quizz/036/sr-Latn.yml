@@ -1,0 +1,12 @@
+question: Šta znači termin fiducijarni u kontekstu valuta?
+answer: Odnosi se na valute koje su vredne samo zbog poverenja u centralnu instituciju koja ih reguliše.
+wrong_answers:
+  - Odnosi se na valute koje su podržane zlatom i koje izdaju male komercijalne banke.
+  - Odnosi se na valute koje su vredne samo za fiducijarne transakcije.
+  - Odnosi se na valute koje se koriste samo unutar određene institucije.
+explanation: |
+  Fiducijarne valute nisu podržane fizičkom robom
+  kao što su zlato ili srebro. Njihova vrednost proizlazi iz poverenja
+  i uverenja koje ljudi imaju u institucije koje ih izdaju
+  i regulišu.
+reviewed: true

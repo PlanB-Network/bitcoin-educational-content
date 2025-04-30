@@ -1,0 +1,9 @@
+question: Koja je uloga saradnika u Stonewall x2 transakciji?
+answer: Obezbedite bitkoine da dodate sumnju
+wrong_answers:
+  - Ponašaj se kao koordinator transakcije.
+  - Primite iznos uplate
+  - Pošalji iznos uplate
+explanation: |
+  Saradnik u Stonewall x2 transakciji obezbeđuje bitkoine kako bi dodao sumnju u analizu transakcije, dok u potpunosti povrati svoja sredstva na kraju (neutralna akcija za njih, minus Mining naknade).
+reviewed: false

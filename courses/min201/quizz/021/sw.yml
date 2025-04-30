@@ -1,0 +1,13 @@
+question: Je, ni kichocheo gani cha kiuchumi cha kutumia Bitcoin Miner badala ya hita rahisi ya umeme?
+answer: Miner haitoi joto tu bali pia malipo ya Bitcoin.
+wrong_answers:
+  - Miner hutumia umeme kidogo kuliko hita rahisi ya umeme.
+  - Miner hutoa joto zaidi kuliko hita rahisi ya umeme.
+  - Miner ni nafuu zaidi kuliko hita rahisi ya umeme.
+explanation: |
+  Tofauti kati ya kutumia Miner na umeme rahisi
+  heater iko katika ukweli kwamba Miner haitoi tu
+  joto lakini pia malipo ya Bitcoin. Zawadi hii ya ziada
+  inaweza kusaidia kupunguza wasiwasi kuhusu nishati ya juu
+  matumizi ya wachimbaji.
+reviewed: true

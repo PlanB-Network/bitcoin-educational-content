@@ -1,0 +1,9 @@
+question: 以下哪項最能說明 Bitcoin 交易如何達成終局性？
+answer: 交易一旦記錄在 Blockchain 上，就無法更改。
+wrong_answers:
+  - 如果發生爭議，銀行可以撤銷交易。
+  - 使用者必須獲得多個政府單位的核准，才能完成交易。
+  - 任何參與者只要有特殊代碼，就可以隨意編輯過去的交易。
+explanation: |
+  Bitcoin s Blockchain 是防篡改的 Ledger。一旦交易被確認並納入區塊，它就會成為永久記錄的一部分，確保終局性。
+reviewed: false

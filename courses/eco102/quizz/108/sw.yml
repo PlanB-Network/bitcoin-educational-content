@@ -1,0 +1,9 @@
+question: Ni udanganyifu gani wa kiuchumi ambao Bastiat alikosoa, ambao ungetokea tena katika karne ya 20?
+answer: Kwamba Serikali inaweza kutengeneza ajira
+wrong_answers:
+  - Kwamba soko linahitaji Serikali
+  - Kwamba soko linaweza kujisimamia
+  - Kwamba makampuni yanaweza kuunda utajiri bila udhibiti
+explanation: |
+  Bastiat alikosoa wazo kwamba Serikali inaweza kuunda nafasi za kazi bila kuathiri kazi zingine kutokana na athari za ushuru zinazohitajika kufadhili ubunifu huu.
+reviewed: false

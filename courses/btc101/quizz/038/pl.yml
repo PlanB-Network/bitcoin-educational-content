@@ -1,0 +1,12 @@
+question: Jaka jest maksymalna liczba jednostek Bitcoin, które mogą kiedykolwiek istnieć?
+answer: 21 milionów.
+wrong_answers:
+  - 3 biliony.
+  - 100 milionów.
+  - Nie ma żadnych ograniczeń.
+explanation: |
+  Całkowity Supply Bitcoin jest ograniczony do 21 milionów jednostek.
+  Jest to kluczowa cecha Bitcoin, która odróżnia go
+  od walut fiducjarnych, które mogą być drukowane w nieograniczonych
+  w nieograniczonych ilościach przez banki centralne.
+reviewed: true

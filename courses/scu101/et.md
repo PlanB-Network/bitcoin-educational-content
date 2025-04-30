@@ -26,11 +26,11 @@ Théo; panus
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Kursuse Sissejuhatus
+## Kursuse ülevaade
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Eesmärk: Värskenda oma turvalisuse oskusi!
+**Eesmärk: Värskenda oma turvalisuse oskusi!**
 
 Tere tulemast kõigile sellesse digitaalse turvalisusele pühendatud haridusprogrammi. See koolitus on mõeldud kõigile ligipääsetavaks, seega pole vajalik eelnev arvutiteaduse tundmine. Meie peamine eesmärk on varustada teid teadmiste ja oskustega, mis on vajalikud digitaalses maailmas turvalisemalt ja privaatsemalt liikumiseks.
 
@@ -46,7 +46,7 @@ Teie digitaalne hügieen on üha digitaalsemas maailmas ülioluline. Hoolimata p
 Selle koolitusega ei püüa me teid muuta eksperdiks, anonüümseks või haavamatuks, kuna see on võimatu. Selle asemel pakume teile mõningaid lihtsaid ja ligipääsetavaid lahendusi, et kõik saaksid alustada oma veebiharjumuste muutmist ja taastada kontroll oma digitaalse suveräänsuse üle.
 Kui otsite teemal edasijõudnute oskusi, on meie ressursid, õpetused või muud küberjulgeoleku koolitused teie jaoks olemas. Vahepeal on siin lühike ülevaade meie järgnevatest tundidest koos.
 
-### Jaotis 1: Kõik, mida pead teadma veebis surfamise kohta
+**Jaotis 1: Kõik, mida pead teadma veebis surfamise kohta**
 
 - Peatükk 1 - Veebis surfamine
 - Peatükk 2 - Turvaline interneti kasutamine
@@ -55,13 +55,13 @@ Alustuseks arutame veebibrauseri valimise tähtsust ja selle mõju turvalisusele
 
 ![](assets/en/1.webp)
 
-### Jaotis 2: Parimad praktikad arvuti kasutamisel
+**Jaotis 2: Parimad praktikad arvuti kasutamisel**
 
 - Peatükk 3 - Arvuti kasutamine
 - Peatükk 4 - Häkkimine & varundamise haldus
   Selles jaotises käsitleme kolme peamist valdkonda arvutiturvalisuses. Esiteks uurime erinevaid operatsioonisüsteeme: Mac, PC ja Linux, tuues esile nende eripärad ja tugevused. Seejärel süveneme meetoditesse, kuidas tõhusalt kaitsta end häkkimiskatsete eest ja tugevdada oma seadmete turvalisust. Lõpuks rõhutame regulaarselt oma andmete kaitsmise ja varundamise tähtsust, et vältida igasugust kaotust või lunarvara.![](assets/en/2.webp)
 
-### Jaotis 3: Lahenduste rakendamine
+**Jaotis 3: Lahenduste rakendamine**
 
 - Peatükk 6 - E-posti haldamine
 - Peatükk 7 - Paroolihaldur
@@ -72,6 +72,7 @@ Selles praktilises kolmandas jaotises liigume edasi teie konkreetsete lahenduste
 Esmalt vaatame, kuidas kaitsta oma e-posti sisendkausta, mis on teie suhtluse jaoks hädavajalik ning tihti häkkerite sihtmärk. Seejärel tutvustame teile paroolihaldurit: praktilist lahendust, et enam ei unustaks ega segaks omavahel paroole, hoides neid turvaliselt. Lõpuks arutame lisaturvameedet, kahefaktorilist autentimist, mis lisab teie kontodele täiendava kaitsekihi. Kõik selgitatakse selgelt ja ligipääsetavalt.
 ![](assets/en/3.webp)
 
+Kas olete valmis tugevdama oma digitaalset turvalisust ja taastama kontrolli oma andmete üle? Lähme!
 # Kõik, mida pead teadma veebis surfamisest
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -500,7 +501,7 @@ Tuleb märkida, et internet on suuresti tsentraliseeritud ja valdavalt Ameerika 
 
 "Security 101" koolitusmooduli osana Découvre Bitcoin Academy's arutasime ka Lightning autentimist. See süsteem genereerib iga teenuse jaoks erineva identifikaatori, ilma et oleks vaja esitada e-posti aadressi või isiklikku teavet. On võimalik omada kasutaja kontrollitud detsentraliseeritud identiteete, kuid detsentraliseeritud identiteediprojektides puudub standardiseerimine ja normaliseerimine. Soovitatavad on paketihaldurid nagu Nuget ja Chocolaté, mis võimaldavad alla laadida avatud lähtekoodiga tarkvara väljaspool Microsoft Store'i, et vältida pahatahtlikke rünnakuid. Kokkuvõttes on DNS oluline veebiturvalisuse jaoks, kuid on vajalik olla valvas võimalike rünnakute suhtes DNS-serverite vastu.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

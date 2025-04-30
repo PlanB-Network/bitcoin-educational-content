@@ -1,0 +1,9 @@
+question: Koja je glavna kritika Caganove definicije hiperinflacije?
+answer: Prag od 50% je proizvoljan i isključuje određene epizode visoke inflacije.
+wrong_answers:
+  - Definicija je previše široka i uključuje previše epizoda inflacije.
+  - Definicija je zastarela i nije primenljiva na moderne ekonomije.
+  - Definicija ne uzima u obzir uticaj inflacije na ekonomiju
+explanation: |
+  Kritičari Caganove definicije, kao što je Bernholz, tvrde da je prag od 50% proizvoljan i isključuje određene epizode visoke inflacije koje imaju iste kvalitativne karakteristike kao epizode hiperinflacije.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je jedna ključna prednost Bitcoin ekosistema plaćanja u pogledu prelaska između rešenja?
+answer: Relativno je lako promeniti provajdere ili unaprediti alate, jer otvoreni, interoperabilni standardi Bitcoin omogućavaju besprekorno prebacivanje sredstava.
+wrong_answers:
+  - Jednom kada se izabere provajder, posao nikada ne može preći na drugo rešenje.
+  - Bitcoin rešenja su vlasnička i zaključana za jednog dobavljača.
+  - Promena provajdera zahteva odobrenje vlade i dugotrajan pravni proces.
+explanation: |
+  Pošto je Bitcoin izgrađen na otvorenim protokolima, trgovci su slobodni da premeste svoja sredstva ili usvoje nova rešenja kako rastu ili se njihove potrebe menjaju. Ova fleksibilnost osigurava da preduzeća mogu odabrati najbolje alate bez zaključavanja od strane dobavljača.
+reviewed: false

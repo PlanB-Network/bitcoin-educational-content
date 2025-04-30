@@ -1,0 +1,9 @@
+question: Ako se u jednostavnoj transakciji plaćanja primeti da se isti tip skripta koristi u ulazu i samo na jednom od 2 izlaza, koji izlaz verovatno predstavlja kusur?
+answer: Onaj sa istim tipom pisma kao ulaz.
+wrong_answers:
+  - Onaj sa najnovijom vrstom skripte.
+  - Onaj sa drugačijom vrstom pisma od ulaza.
+  - Onaj sa nestandardnim tipom pisma.
+explanation: |
+  Ako dođe do ponovne upotrebe verzionisanja unutar transakcije, razumno je pretpostaviti da korisnik još uvek poseduje povezani UTXO. Stoga je izlaz sa istom verzijom skripte kao i ulaz verovatno kusur.
+reviewed: false

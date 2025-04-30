@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta transakcji PayJoin w porównaniu do klasycznej transakcji płatniczej?
+answer: Poprawia prywatność
+wrong_answers:
+  - Zwiększa szybkość potwierdzania
+  - Zmniejsza opłaty transakcyjne
+  - Wprowadza odbiorcę w błąd
+explanation: |
+  Transakcja PayJoin zwiększa prywatność zainteresowanych stron poprzez wprowadzającą w błąd analizę łańcucha.

@@ -1,0 +1,10 @@
+question: Kada je zimbabveanski dolar uveden 1980. godine, početni kurs Exchange bio je 1 zimbabveanski dolar za 1,47 američkih dolara.
+answer: Dva zimbabveanska dolara vredela su oko 1,60 američkih dolara.
+wrong_answers:
+  - Jedan zimbabveanski dolar vredeo je oko 1 američki dolar
+  - Jedan zimbabveanski dolar vredeo je oko 2 američka dolara.
+  - Dva zimbabveanska dolara vredela su oko 2 američka dolara
+explanation: |
+  Zimbabve je stekla nezavisnost 1980. godine i uvela zimbabveanski dolar.
+  U početku, dva zimbabveanska dolara vredela su oko 1,60 američkih dolara.
+reviewed: false

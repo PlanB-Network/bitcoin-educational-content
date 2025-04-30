@@ -21,14 +21,17 @@ Phần giới thiệu về mật mã này tìm cách nắm bắt được điể
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Mô tả ngắn gọn
+## Tổng quan về khóa học
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Chào mừng bạn đến với khóa học CYP302!
 
 Cuốn sách này cung cấp phần giới thiệu sâu về khoa học và thực hành mật mã. Nếu có thể, cuốn sách tập trung vào khái niệm hơn là trình bày chính thức về tài liệu.
 
-> Khóa học này dựa trên [kho lưu trữ của JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Được thôi. Nội dung vẫn chưa hoàn thiện và chỉ ở đây để giới thiệu cách chúng ta có thể tích hợp nó nếu JWburger đồng ý.
-### Động lực và mục tiêu
+
+Nội dung giáo dục này được chuyển thể từ sách và repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Mặc dù tác giả đã cho phép sử dụng vào mục đích giáo dục, tất cả quyền sở hữu trí tuệ vẫn thuộc về người sáng tạo ban đầu.
+
+**Động lực và mục tiêu**
 
 Thật khó để tìm được nhiều tài liệu cung cấp giải pháp trung gian tốt cho giáo dục mật mã.
 
@@ -36,11 +39,11 @@ Một mặt, có những chuyên luận dài dòng, chính thức, thực sự c
 
 Phần giới thiệu về mật mã này tìm cách nắm bắt được điểm trung gian. Mặc dù nó có thể khá khó khăn và chi tiết đối với bất kỳ ai mới làm quen với mật mã, nhưng nó không phải là hang thỏ của một chuyên luận cơ bản thông thường.
 
-### Đối tượng mục tiêu
+**Đối tượng mục tiêu**
 
 Từ các nhà phát triển đến những người tò mò về trí tuệ, cuốn sách này hữu ích cho bất kỳ ai muốn hiểu biết sâu hơn về mật mã. Nếu mục tiêu của bạn là nắm vững lĩnh vực mật mã, thì cuốn sách này cũng là một điểm khởi đầu tốt.
 
-### Hướng dẫn đọc
+**Hướng dẫn đọc**
 
 Cuốn sách hiện có bảy chương: "Mật mã là gì?" (Chương 1), "Nền tảng toán học của mật mã I" (Chương 2), "Nền tảng toán học của mật mã II" (Chương 3), "Mật mã đối xứng" (Chương 4), "RC4 và AES" (Chương 5), "Mật mã bất đối xứng" (Chương 6) và "Hệ thống mật mã RSA" (Chương 7). Một chương cuối cùng, "Mật mã trong thực hành", vẫn sẽ được thêm vào. Chương này tập trung vào các ứng dụng mật mã khác nhau, bao gồm bảo mật lớp vận chuyển, định tuyến onion và hệ thống trao đổi giá trị của Bitcoin.
 
@@ -48,7 +51,7 @@ Trừ khi bạn có nền tảng vững chắc về toán học, lý thuyết s�
 
 Nếu bạn thực sự gặp khó khăn với các chi tiết chính thức trong những phần này của cuốn sách, tôi khuyên bạn nên đọc chúng ở cấp độ cao hơn ngay từ lần đầu tiên.
 
-### Lời cảm ơn
+**Lời cảm ơn**
 
 Cuốn sách có ảnh hưởng nhất trong việc định hình lĩnh vực này là _Introduction to Modern Cryptography_ của Jonathan Katz và Yehuda Lindell, CRC Press (Boca Raton, FL), 2015. Một khóa học đi kèm có sẵn trên Coursera có tên là "Cryptography".
 
@@ -58,11 +61,11 @@ Tôi sẽ chỉ trích dẫn những thông tin và kết quả rất cụ thể
 
 Đối với những độc giả muốn tìm hiểu thêm kiến thức nâng cao về mật mã sau phần giới thiệu này, tôi thực sự khuyên bạn nên đọc cuốn sách của Katz và Lindell. Khóa học của Katz trên Coursera dễ tiếp cận hơn so với cuốn sách.
 
-### Đóng góp
+**Đóng góp**
 
 Vui lòng xem [tệp đóng góp trong kho lưu trữ](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) để biết một số hướng dẫn về cách hỗ trợ dự án.
 
-### Ký hiệu
+**Ký hiệu**
 
 **Các thuật ngữ chính:**
 
@@ -84,6 +87,8 @@ Ký hiệu chính thức chủ yếu liên quan đến các biến, biến ngẫ
 - Biến: Những biến này thường chỉ được biểu thị bằng chữ thường (ví dụ: "x" hoặc "y"). Đôi khi chúng được viết hoa để rõ ràng hơn (ví dụ: "M" hoặc "K").
 - Biến ngẫu nhiên: Biến này luôn được biểu thị bằng chữ cái viết hoa (ví dụ: "X" hoặc "Y")
 - Bộ: Những bộ này luôn được biểu thị bằng chữ in hoa đậm (ví dụ: **S**)
+
+Sẵn sàng khám phá thế giới hấp dẫn của mật mã học chưa? Đi thôi!
 
 # Mật mã học là gì?
 
@@ -1449,29 +1454,19 @@ Chúng ta tiếp tục quá trình này cho đến khi tạo ra hàng cuối cù
 
 *Bảng 1: Bảng lịch trình chính*
 
-| Vòng | i | j | | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-
 |         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-| Ban đầu | | 0 | | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 |     | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 |     | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 |     | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 |     | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 |     | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 |     | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 |     | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 |     | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### Bước 4
 
@@ -1500,21 +1495,16 @@ Sau đó, chúng ta tiếp tục tạo ra các byte khác cho đến khi có đ�
 
 *Bảng 2: Tạo luồng khóa*
 
-| i | j | t | Dòng khóa | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-
 |     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-|     | 0 |     |           | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
 
 Ví dụ mà chúng ta vừa thảo luận chỉ là phiên bản giản lược của **mã hóa luồng RC4**. Mã hóa luồng RC4 thực tế có một mảng **S** dài 256 byte, không phải 8 byte, và một khóa có thể nằm trong khoảng từ 1 đến 256 byte, không phải trong khoảng từ 1 đến 8 byte. Mảng khóa và các luồng khóa sau đó đều được tạo ra khi xem xét độ dài 256 byte của mảng **S**. Các phép tính trở nên phức tạp hơn rất nhiều, nhưng các nguyên tắc vẫn giữ nguyên. Sử dụng cùng một khóa, [14,48,9], với mã hóa RC4 chuẩn, tin nhắn văn bản thuần túy "SOUP" được mã hóa thành 67 02 ed df ở định dạng thập lục phân.
 
@@ -1590,41 +1580,26 @@ Thứ hai, hoạt động **thay thế byte** được thực hiện trên trạ
 
 *Hình 3: Hộp S của Rijndael*
 
-|     | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
 
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | QUẢNG CÁO | D4 | A2 | AF | 9C | A4 | 72 | C0 |
-
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 |
-
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
-
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF |
-
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
-
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 |
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | ĐC | 74 | 1F | 4B | BD | 8B | 8A |
-
-| D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E |
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF |
-
-| F0 | 8C | A1 | 89 | 0D | bạn trai | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
 Hộp S này là một nơi mà đại số trừu tượng phát huy tác dụng trong mật mã Rijndael, cụ thể là **trường Galois**.
 
@@ -1638,39 +1613,31 @@ Sau khi ma trận của **S** được xây dựng, bốn hàng được dịch 
 
 *Hình 4: Thao tác chuyển hàng*
 
-| F1 | A0 | B1 | 23 |
 
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| F1 | A0 | B1 | 23 |
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| 09 | 82 | 59 |
-
-| B0 | CC | 97 | 01 |
-
-| 21 | Ngày 4 | 72 | 04 |
 
 Ở bước thứ tư, **trường Galois** lại xuất hiện. Để bắt đầu, mỗi cột của ma trận **S** được nhân với cột của ma trận 4 x 4 được thấy trong *Hình 5*. Nhưng thay vì là phép nhân ma trận thông thường, thì đó là phép nhân vectơ **modulo một đa thức bất khả quy**, $x^8 + x^4 + x^3 + x + 1$. Các hệ số vectơ kết quả biểu diễn các bit riêng lẻ của một byte.
 
 *Hình 5: Ma trận cột trộn*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
 
 Phép nhân cột đầu tiên của ma trận **S** với ma trận 4 x 4 ở trên cho kết quả như *Hình 6*.
 
@@ -1774,6 +1741,7 @@ Vậy, điều gì đã xảy ra vào những năm 1970? Làm sao chúng ta có 
 Ít nhất một động lực chính cho dự án của họ là viễn kiến rằng truyền thông máy tính mở sẽ ảnh hưởng sâu sắc đến thế giới của chúng ta. Như Diffie và Helmann lưu ý vào năm 1976,
 
 > Sự phát triển của các mạng lưới truyền thông điều khiển bằng máy tính hứa hẹn sự tiếp xúc dễ dàng và không tốn kém giữa những người hoặc máy tính ở hai đầu đối diện của thế giới, thay thế hầu hết thư từ và nhiều chuyến đi bằng viễn thông. Đối với nhiều ứng dụng, những liên lạc này phải được bảo mật chống lại cả việc nghe lén và việc đưa vào các thông điệp bất hợp pháp. Tuy nhiên, hiện tại, giải pháp cho các vấn đề bảo mật vẫn còn chậm so với các lĩnh vực khác của công nghệ truyền thông. *Mật mã học đương đại không thể đáp ứng được các yêu cầu, vì việc sử dụng nó sẽ gây ra những bất tiện nghiêm trọng cho người dùng hệ thống, đến mức loại bỏ nhiều lợi ích của xử lý từ xa.* [1]
+
 Sự kiên trì của Diffie, Hellman và Merkle đã được đền đáp. Ấn phẩm đầu tiên về kết quả của họ là một bài báo của Diffie và Helmann năm 1976 có tựa đề “New Directions in Cryptography.” Trong đó, họ trình bày hai cách ban đầu để giải quyết vấn đề phân phối khóa và quản lý khóa.
 
 Giải pháp đầu tiên mà họ đưa ra là một *giao thức trao đổi khóa* từ xa, tức là một tập hợp các quy tắc để trao đổi một hoặc nhiều khóa đối xứng qua một kênh truyền thông không an toàn. Giao thức này hiện được gọi là *trao đổi khóa Diffie-Helmann* hoặc *trao đổi khóa Diffie-Helmann-Merkle*. [2]
@@ -2029,19 +1997,18 @@ Giả sử bây giờ $N$ rất lớn. Sẽ khó khăn như thế nào để rú
 
 Điều đó thực sự phụ thuộc vào $N$. Giả sử, ví dụ, $N$ là 50.450.400. Mặc dù con số này có vẻ đáng sợ, nhưng các phép tính không quá phức tạp và có thể dễ dàng thực hiện bằng tay. Như trên, bạn chỉ cần bắt đầu với 2 và làm việc theo cách của bạn. Bên dưới, bạn có thể thấy kết quả của quá trình này theo cách tương tự như trên.
 
-
-- 2: 25.225.200 (50.450.400 đô la = 2 \cdot 25.225.200)
-- 2: 12.612.600 (50.450.400 đô la = 2^2 \cdot 12.612.600)
-- 2: 6.306.300 (50.450.400 đô la = 2^3 \cdot 6.306.300)
-- 2: 3.153.150 (50.450.400 đô la = 2^4 \cdot 3.153.150)
-- 2: 1.576.575 (50.450.400 đô la = 2^5 \cdot 1.576.575)
-- 3: 525.525 (50.450.400 đô la = 2^5 \cdot 3 \cdot 525.525)
-- 3: 175.175 (50.450.400 đô la = 2^5 \cdot 3^2 \cdot 175.175)
-- 5: 35.035 (50.450.400 đô la = 2^5 \cdot 3^2 \cdot 5 \cdot 35.035 đô la)
-- 5: 7.007 (50.450.400 đô la = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7.007 đô la)
-- 7: 1.001 (50.450.400 đô la = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1.001 đô la)
-- 7: 143 (50.450.400 đô la = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
-- 11: 13 (50.450.400 đô la = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
+- 2: 25.225.200 ($50.450.400 = 2 \cdot 25.225.200$)
+- 2: 12.612.600 ($50.450.400 = 2^2 \cdot 12.612.600$)
+- 2: 6.306.300 ($50.450.400 = 2^3 \cdot 6.306.300$)
+- 2: 3.153.150 ($50.450.400 = 2^4 \cdot 3.153.150$)
+- 2: 1.576.575 ($50.450.400 = 2^5 \cdot 1.576.575$)
+- 3: 525.525 ($50.450.400 = 2^5 \cdot 3 \cdot 525.525$)
+- 3: 175.175 ($50.450.400 = 2^5 \cdot 3^2 \cdot 175.175$)
+- 5: 35.035 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35.035$)
+- 5: 7.007 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7.007$)
+- 7: 1.001 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1.001$)
+- 7: 143 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
+- 11: 13 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
 - Vì 13 là số nguyên tố nên kết quả là $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
 
 Giải quyết vấn đề này bằng tay mất một thời gian. Tất nhiên, máy tính có thể làm tất cả những điều này trong một phần nhỏ của một giây. Trên thực tế, máy tính thường có thể phân tích thừa số các số nguyên cực lớn trong một phần nhỏ của một giây.
@@ -2053,7 +2020,7 @@ Tuy nhiên, có một số ngoại lệ nhất định. Giả sử rằng trư�
 Điều quan trọng là phải đánh giá $p$ và $q$ lớn như thế nào nếu được chọn theo các điều kiện trên. Ví dụ, tôi đã chọn một số nguyên tố ngẫu nhiên cần ít nhất 1024 bit để biểu diễn bên dưới.
 
 
-- 14.752.173.874.503.595.484.930.006.383.670.759.559.764.562.721.397.166.747.289.220.945.457.932.666.751 ,048,198,854,920,097,085,690,793,755,254,946,188,163,753,506,778,089,706,699,671,722,089,715,624,760,04 9,594,106,189,662,669,156,149,028,900,805,928,183,585,427,782,974,951,355,515,394,807,209,836,870,484, 558.332.897.443.152.653.214.483.870.992.618.171.825.921.582.253.023.974.514.209.142.520.026.807.636.589
+- 14.752.173.874.503.595.484.930.006.383.670.759.559.764.562.721.397.166.747.289.220.945.457.932.666.751,048,198,854,920,097,085,690,793,755,254,946,188,163,753,506,778,089,706,699,671,722,089,715,624,760,049,594,106,189,662,669,156,149,028,900,805,928,183,585,427,782,974,951,355,515,394,807,209,836,870,484,558.332.897.443.152.653.214.483.870.992.618.171.825.921.582.253.023.974.514.209.142.520.026.807.636.589
 
 Giả sử bây giờ sau khi chọn ngẫu nhiên các số nguyên tố $p$ và $q$, chúng ta nhân chúng để thu được số nguyên $N$. Do đó, số nguyên sau này là số 2048 bit, cần ít nhất 2048 bit để biểu diễn. Nó lớn hơn rất nhiều so với $p$ hoặc $q$.
 
@@ -2290,7 +2257,7 @@ Tuy nhiên, với việc thêm một chút phức tạp thông minh, bài toán 
 
 [4] Xem ví dụ, Jonathan Katz và Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), trang 410–32 về mã hóa RSA và trang 444–41 về chữ ký số RSA.
 
-# Phần kết luận
+# Phần cuối
 
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 

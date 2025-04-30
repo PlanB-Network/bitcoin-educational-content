@@ -1,0 +1,9 @@
+question: Kwa Bastiat, ni dawa gani ya maovu katika jamii?
+answer: Katika uhuru wenyewe
+wrong_answers:
+  - Katika mapenzi ya madaraka
+  - Katika adhabu kwa mfumo wa mahakama unaokandamiza na usio na maelewano
+  - Katika kutafuta usawa kamili
+explanation: |
+  Bastiat anaamini kwamba uhuru, pamoja na wajibu kamili na kamili wa mtu binafsi, ni njia ya kukabiliana na uovu na kuhimiza vitendo vya kuwajibika zaidi na vya haki.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Zašto je često složeno koristiti PayJoin za plaćanje?
+answer: To zahteva aktivnu saradnju primaoca u izgradnji
+wrong_answers:
+  - Zahtijeva fiksne iznose za svaku transakciju
+  - Prisiljava obe strane da koriste isti tip softvera
+  - To zahteva da platiša ima najmanje 2 UTXO-a veća od vrednosti plaćanja.
+explanation: |
+  Teškoća korišćenja PayJoin leži u njegovoj zavisnosti od učešća trgovca. Kao kupac, korišćenje PayJoin je nemoguće ako ga trgovac ne podržava.
+reviewed: false

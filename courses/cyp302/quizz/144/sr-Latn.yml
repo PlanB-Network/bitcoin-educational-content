@@ -1,0 +1,9 @@
+question: Koja je tipična veličina prostih brojeva korišćenih u faktorizaciji za moderne kriptosisteme kao što je RSA?
+answer: 1024 bita za svaki faktor
+wrong_answers:
+  - 1024 bita ukupno
+  - 256 bita za svaki faktor
+  - 256 bita ukupno
+explanation: |
+  U modernim kriptosistemima kao što je RSA, odabrani prosti brojevi su obično 1024 bita svaki, što čini faktorizaciju izuzetno teškom i poboljšava sigurnost.
+reviewed: false

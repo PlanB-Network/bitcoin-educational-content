@@ -1,0 +1,9 @@
+question: Kako se transakcija PayJoin može smatrati steganografskom transakcijom?
+answer: Skriva stvarni iznos plaćanja od spoljašnjih posmatrača.
+wrong_answers:
+  - Šifruje stvarni iznos plaćanja za spoljne posmatrače.
+  - Skriva stvarni iznos plaćanja od primaoca.
+  - Šifruje stvarni iznos plaćanja za primaoca.
+explanation: |
+  Transakcija PayJoin spada u domen steganografije jer skriva stvarni iznos transakcije unutar lažne transakcije koja služi kao mamac za spoljne posmatrače.
+reviewed: false

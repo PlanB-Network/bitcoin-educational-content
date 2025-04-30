@@ -1,0 +1,10 @@
+question: 在 Bitcoin 中，什麼是跳彈？
+answer: 一種涉及向自己進行多筆交易的技巧
+wrong_answers:
+  - 涉及多位參與者的合作交易
+  - 一種混合比特幣以增加潛在匿名性的方法
+  - 特定於某些 Exchange 平台的 CoinJoin 類型
+explanation: |
+  連鎖交易是一種對自己進行多次虛構交易（掃貨）的技術。
+  
+reviewed: false

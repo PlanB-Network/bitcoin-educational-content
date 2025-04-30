@@ -1,0 +1,9 @@
+question: Na koji datum je kreirana mailing lista Bitcoin-development?
+answer: 12. jun 2011.
+wrong_answers:
+  - 13. januar 2011.
+  - 7. mart 2011.
+  - 19. septembar 2011.
+explanation: |
+  Kreirao ga je programer Jeff Garzik, i omogućio je formalne diskusije o promenama koje treba napraviti na Bitcoin.
+reviewed: false

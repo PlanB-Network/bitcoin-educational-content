@@ -574,6 +574,12 @@ Bastiat kirjoitti tuolloin satiirisen tekstin, josta myöhemmin tuli yksi hänen
 
 ![image](assets/en/079.webp)
 
+---
+
+>SUOJELKAA KYNTTILÖITÄMME!
+
+---
+
 Tässä vetoomuksessa kynttiläntekijät pyytävät edustajilta laillista suojelua vaarallista kilpailijaa vastaan:
 
 > Kärsimme sietämättömästä kilpailusta ulkomaisen kilpailijan kanssa, joka näyttää olevan niin ylivoimaisissa tuotanto-olosuhteissa, että hän tulvii kansallisen markkinamme hämmästyttävän alhaisin hinnoin.
@@ -838,6 +844,12 @@ Se, että ihminen riskeeraa tekevänsä virheitä tai toimivansa väärin ja kä
 
 ![kuva](assets/en/110.webp)
 
+---
+
+>Virhe on inhimillinen.
+
+---
+
 Näin on selvää, että Bastiat ei ole sokea. Hän ei kiellä pahan olemassaoloa. Ihminen on heikko, altis virheille ja vioille. Missään ei näe Bastiatin kieltävän sitä tosiasiaa, että yksilön vapauden harjoittaminen liittyy virheen mahdollisuuteen, järjettömän tai mielettömän valinnan mahdollisuuteen.
 
 Hän yksinkertaisesti väittää, että jos pahan lähde on vapauden puutteessa, ratkaisu on vapaudessa itsessään, ja tarkemmin sanottuna henkilökohtaisen vastuun täydessä ja kokonaisvaltaisessa harjoittamisessa.
@@ -877,6 +889,15 @@ Ja jälleen:
 
 ![image](assets/en/116.webp)
 
+---
+
+>GUISYn  
+>Keskinäisen avun  
+>yhdistys  
+>1899
+
+---
+
 Bastiatin mukaan on kuitenkin vaihtoehto valtion pakolliselle solidaarisuudelle: "keskinäinen avunantoyhteisö"
 
 miesten keskinäinen ja spontaani avunanto keskenään kiitos keskinäisen avun yhteisöjen. Mutta hän ennusti myös, että valtio lopulta kaappaisi nämä keskinäiset yhteisöt tehdäkseen niistä yksittäisen ja keskitetyn elimen, kannustaen kulutukseen ja tuhlaukseen.
@@ -886,6 +907,16 @@ miesten keskinäinen ja spontaani avunanto keskenään kiitos keskinäisen avun 
 Pamfletissa nimeltä "Oikeus ja Veljeys", Bastiat tutkii myös yksinkertaistetun ja oikeudenmukaisen verotusjärjestelmän ideaa kollektiivisten tarpeiden (poliisi, oikeuslaitos, armeija) rahoittamiseksi: tulot ja voitot olisivat alaisia yhdelle ja suhteelliselle verokannalle. Tätä kutsutaan nykyään "Flat Tax" -veroksi.
 
 ![image](assets/en/118.webp)
+
+---
+
+>Säätiöt –  
+>**lisäarvo**  
+>yhteiskunnalle  
+>
+>SwissFoundations
+
+---
 
 Todellakin, perheen sisäinen solidaarisuus, paikallinen solidaarisuus tai järjestäytynyt filantropia ovat paljon kehittyneempiä maissa, joilla on kevyt verotusjärjestelmä ja suhteellisen korkea taloudellisen vapauden aste, kuten Sveitsissä ja Yhdysvalloissa, kun taas se on suurelta osin tukahdutettu maissa, joissa valtio on suurelta osin korvannut yksilön vastuun, kuten Ranskassa tai Saksassa.
 Usein on muodikasta valittaa "itsekkyydestä", joka vallitsee liberaaleissa yhteiskunnissa. Mutta todellisuudessa asia on täysin päinvastainen. Kun yhteiskuntaa rasittavat verot ja yksilöt eivät enää omista omaisuuttaan, heitä ei kannusteta antamaan, vaan pikemminkin vetäytymään itseensä.

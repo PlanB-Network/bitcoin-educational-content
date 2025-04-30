@@ -37,7 +37,7 @@ Tangu 2009, Bitcoin imeendelea kukuza. Hii ni pamoja na utekelezaji wa Mapendeke
 
 Maendeleo yake pia yanaonekana On-Chain, haswa katika kuongezeka kwa idadi ya miamala.
 
-Kwa hivyo, kati ya Januari 1, 2018 na Januari 1, 2024, idadi ya miamala kwenye safu kuu ya Bitcoin inakadiriwa kuwa [iliongezeka kwa asilimia 66.2](https://dune.com/queries/3375917/5663935); ilhali kati ya Agosti 2021 na Agosti 2023, idadi ya miamala ya umma kwenye mwekeleo wa Umeme imeongezeka [kuongezeka kwa asilimia 1212](https://river.com/learn/files/river-lightning-report-2023.pdf).
+Kwa hivyo, kati ya Januari 1, 2018 na Januari 1, 2024, idadi ya miamala kwenye layer (safu) kuu ya Bitcoin inakadiriwa kuwa [iliongezeka kwa asilimia 66.2](https://dune.com/queries/3375917/5663935); ilhali kati ya Agosti 2021 na Agosti 2023, idadi ya miamala ya umma kwenye mwekeleo wa Umeme imeongezeka [kuongezeka kwa asilimia 1212](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 Mtazamo huu wa takwimu, bila shaka, unahusiana kwa karibu na:
 
@@ -319,9 +319,9 @@ Tovuti hii ambayo ni rahisi kutumia na isiyolipishwa inajulikana hasa kwa wingi 
 
 **Unapounda nembo yako**, basi unaweza kutafuta nembo tofauti zilizoundwa awali kwenye ukurasa wa nyumbani, ili kuiga ile au nembo unayovutiwa nayo; na kisha urekebishe unavyotaka.
 
-Kisha unaweza kuongeza kiwakilishi cha mandharinyuma cha jiji lako (kwa kuleta picha au kwa kutafuta "Michoro" au "Picha" kwenye menyu ya kushoto "Vipengele"). Ifuatayo, kuingiza nembo ya Bitcoin au ₿ juu-hata kubadilisha rangi yake ikiwa unataka-ni chaguo.
+Kisha unaweza kuongeza kiwakilishi cha mandharinyuma cha jiji lako (kwa kuleta picha au kwa kutafuta "Michoro" au "Picha" kwenye menyu ya kushoto "Elements" (Vipengele). Ifuatayo, kuingiza nembo ya Bitcoin au ₿ juu-hata kubadilisha rangi yake ikiwa unataka-ni chaguo.
 
-Katika kesi ya **kuunda bango au bango**, tafuta tu ukurasa wa nyumbani wa tovuti tena ili kupata bango lililoundwa awali. Baada ya kuinakili, utaweza kuihariri kwa kubadilisha maandishi na fonti, kuongeza nembo ya jumuiya yako, na kuleta picha ili kuziburuta hadi kwenye fremu (ambazo utapata kwa kutafuta "fremu" kwenye menyu ya kushoto "Vipengele").
+Katika kesi ya **kuunda bango au bango**, tafuta tu ukurasa wa nyumbani wa tovuti tena ili kupata bango lililoundwa awali. Baada ya kuinakili, utaweza kuihariri kwa kubadilisha maandishi na fonti, kuongeza nembo ya jumuiya yako, na kuleta picha ili kuziburuta hadi kwenye fremu (ambazo utapata kwa kutafuta "fremu" kwenye menyu ya kushoto "Elements" (Vipengele).
 
 Kwa kuongeza, orodha ya kushoto "Design" inakuwezesha kutafuta mifano mingine kulingana na mahitaji yako.
 
@@ -333,7 +333,7 @@ Kwa kifupi, **uwezekano hauna mwisho na unategemea mahitaji yako lakini pia kwen
 
 Ili kukuongoza kwa undani zaidi, tunatoa hapa chini mafunzo ya video yasiyo ya kina ambayo yanawasilisha baadhi ya uwezekano:
 
-![Tutorial Canva](https://www.youtube.com/watch?v=sgloI_v-nAk)
+:::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
 ####
 
@@ -480,7 +480,7 @@ Tutaona baadaye, lakini **inapendekezwa sana kwamba uchague "Kikundi cha Telegra
 
 Kwa mafunzo yanayofuata, tutatumia programu ya APK ya "Telegram+"; programu ambayo inaruhusu usanidi wa hali ya juu zaidi wa Telegraph. Walakini, hii sio lazima, kwani kuunda kikundi au kikundi bora kwenye Telegraph sasa kunaweza kufanywa kwa urahisi sana kwenye simu:
 
-![Tutorial Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw)
+:::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
 ### Kuunda Chaneli ya Telegraph
 
@@ -498,7 +498,7 @@ Hata hivyo, inawezekana kuongeza uwezo wa wanachama wa kituo kutoa maoni kwa kil
 
 Mafunzo ya kuunda chaneli ya Telegraph:
 
-![Tutorial Canale Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U)
+:::video id=98be4709-d221-4030-8c31-e10113482515:::
 
 ### Unda Kikundi cha Telegraph
 
@@ -522,7 +522,7 @@ Wasimamizi wa kituo hiki wataweza:
 
 Mafunzo ya kuunda kikundi cha Telegraph:
 
-![Tutorial canale Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA)
+:::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
 Dokezo: kama ilivyotajwa awali, mafunzo yaliyo hapo juu yalifanywa kwenye kompyuta kwa kutumia APK ya "Telegram+". Walakini, sasa ni rahisi sana kuunda kikundi cha Telegraph kwenye simu.
 
@@ -548,7 +548,7 @@ Ni **kundi la Telegramu ambamo "mada"** tofauti zimeunganishwa. Kwa hivyo, mada 
 
 Mada **"Jumla "** pia inaweza kuwekwa, ambapo wanachama wote wanaweza kujadili.
 
-Hatimaye, **mada mahususi** (uchimbaji, ukuzaji wa mradi, mkutano ujao, n.k.) zinaweza kuongezwa.
+Hatimaye, **mada mahususi** (mining (uchimbaji), ukuzaji wa mradi, mkutano ujao, n.k.) zinaweza kuongezwa.
 
 Ni juu yako kuirekebisha kulingana na matakwa yako; sawa, kwa mfano, na kikundi kikuu cha Bitcoin kukutana huko Abidjan.
 
@@ -562,7 +562,7 @@ Kwa ujumla, hakuna idadi maalum ya wanachama ambayo inakuwa muhimu kutumia kikun
 
 Mafunzo ya kuunda kikundi kikuu cha Telegraph:
 
-![Tutorial supergruppo Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
+  :::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
 Kumbuka: Kama ilivyotajwa hapo juu, mafunzo yaliyo hapo juu yalifanywa kwenye kompyuta kwa kutumia APK ya "Telegram+". Walakini, sasa ni rahisi sana kuunda kikundi kikuu cha Telegraph kwenye simu.
 
@@ -640,7 +640,7 @@ Chaguzi nyingi za ziada zinapatikana pia kwako. Hata hivyo, neno la ushauri: **u
 
 Mafunzo ya kuongeza roboti yenye kazi nyingi kwa kikundi au kikundi kikuu kwenye Telegraph:
 
-![Tutorial bot Telegram multifunzione](https://www.youtube.com/watch?v=l72GZcEFDtU)
+:::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
 Kumbuka ndogo: kama ilivyotajwa hapo awali, sasa utaratibu huu wote unaweza kufanywa kwa simu.
 
@@ -658,7 +658,7 @@ Ni wazi, kando na Telegram na Twitter, hii inahitaji muda zaidi katika usimamizi
 
 Ili kurahisisha mambo, **tunashiriki [seva ya Discord iliyotengenezwa awali, inayoweza kurudiwa na inayoweza kuhaririwa](https://discord.com/template/bDY4eXXJk2C8) ambayo unaweza kubinafsisha upendavyo**:
 
-![Tutorial server Discord duplicabile](https://www.youtube.com/watch?v=i3V6_359Ajw)
+:::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 ####
 
@@ -688,7 +688,7 @@ Hii ndiyo sababu, katika miezi ijayo, mafunzo kuhusu utumiaji wa itifaki za mawa
 
 Lakini kwa nini uzingatie njia hizi mbadala?
 
-Kwa sababu tu, kama mtandao wa kijamii wa NOSTR na programu za mawasiliano kama vile Matrix, Mawimbi au vipengele, vimegatuliwa na/au vimesimbwa kwa njia fiche. Kando na **mapato ya usiri** katika ubadilishanaji unaofanywa kati ya wanajumuiya tofauti, hii pia hukuruhusu **kujilinda dhidi ya kuzima (kudhibiti?) kwa kikundi chako cha Telegraph au kikundi bora zaidi**.
+Kwa sababu tu, kama mtandao wa kijamii wa NOSTR na programu za mawasiliano kama vile Matrix, Mawimbi au Elements (Vipengele), vimegatuliwa na/au vimesimbwa kwa njia fiche. Kando na **mapato ya usiri** katika ubadilishanaji unaofanywa kati ya wanajumuiya tofauti, hii pia hukuruhusu **kujilinda dhidi ya kuzima (kudhibiti?) kwa kikundi chako cha Telegraph au kikundi bora zaidi**.
 
 Ni nini kinachoweza kuwa bora zaidi, kama itifaki ya Bitcoin, kuliko **kuwa isiyoweza kugharamiwa na isiyobadilika**?
 
@@ -784,7 +784,7 @@ Hatimaye, ingawa jina lako la mtumiaji la "@Bitcoin[CITY]" ni la kipekee na sasa
 
 Mafunzo ya kuunda akaunti ya Twitter:
 
-![Tutorial account Twitter](https://www.youtube.com/watch?v=pp3DDakV0bA)
+:::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
 ## Kuunganishwa na mikutano ya karibu
 
@@ -939,7 +939,7 @@ Hatimaye, jumuiya yako inapokua kwa kiasi kikubwa na mikutano yako inaanza kujaa
 
 Katika kesi ya awali, ingawa unyeti na matamanio ya kila mtu yanahitaji kuzingatiwa, hii inaweza kuruhusu washiriki wote **kuondoka kwenye tukio wakiwa na maarifa mapya** huku wakizingatia tena mada za mazungumzo karibu na Bitcoin (kama walikuwa wakitofautiana).
 
-Katika kesi ya pili, tukio la pili katika mwezi, kwa mfano, inakuwezesha **Anwani yenye mada maalum, kama vile kuandaa vikao vya "wanaoanza" na/au warsha** (Uchimbaji ,umeme, ufungaji wa nodi, nk).
+Katika kesi ya pili, tukio la pili katika mwezi, kwa mfano, inakuwezesha **Anwani yenye mada maalum, kama vile kuandaa vikao vya "wanaoanza" na/au warsha** (mining (uchimbaji) ,umeme, ufungaji wa nodi, nk).
 
 ![image](assets/fr/31.webp)
 
@@ -1190,7 +1190,7 @@ Kwa mwaka mzima, matukio mengine yanaweza kupangwa. Hizi zinaweza kujumuisha:
 ![image](assets/fr/37.webp)
 
 
-- **warsha kwenye Uchimbaji**, na ugunduzi wa vifaa mbalimbali (processor, kadi ya graphics, FPGA, ASIC, nerdminer, bitaxe);
+- **warsha kwenye mining (uchimbaji)**, na ugunduzi wa vifaa mbalimbali (processor, kadi ya graphics, FPGA, ASIC, nerdminer, bitaxe);
 - **mchana au jioni hasa kwa wanaoanza, na warsha za mada**;
 - au hata, **mkutano wa pamoja na mkutano mmoja (au zaidi) wa jirani**.
 
@@ -1354,7 +1354,7 @@ Jumuiya ya Wafaransa ya Bitcoiner kisha ilichukua hatua ya **kutafsiri kwa ukami
 
 ![immagine](assets/fr/46.webp)
 
-Matangazo haya yalisababisha mijadala mingi kuhusu Uchimbaji wa Bitcoin, matumizi yake ya umeme, na athari zake kwa ikolojia kwa ujumla zaidi.
+Matangazo haya yalisababisha mijadala mingi kuhusu mining (uchimbaji) wa Bitcoin, matumizi yake ya umeme, na athari zake kwa ikolojia kwa ujumla zaidi.
 
 ## Weka Mabango katika Jiji lako
 
@@ -1372,7 +1372,7 @@ Bila shaka, ikiwa unataka
 
 tengeneza mabango ya mitaani, utahitaji **kuwa na ufahamu wa sheria katika nchi yako**. Nchini Ufaransa, kwa mfano, inaruhusiwa **kuweka mabango kwenye mabango ya manispaa pekee**. Mahali pengine, hii ni marufuku na inaweza kusababisha faini.
 
-Ni wazi: **nje ya macho, nje ya akili**. Kwa hivyo, katika kesi hii, labda ni bora kuwa mwangalifu usijumuishe kwenye mabango vipengele ambavyo vinaweza kupatikana nyuma kwako (jina la mkutano wa hadhara, @ Twitter, nk.)
+Ni wazi: **nje ya macho, nje ya akili**. Kwa hivyo, katika kesi hii, labda ni bora kuwa mwangalifu usijumuishe kwenye mabango Elements (Vipengele) ambavyo vinaweza kupatikana nyuma kwako (jina la mkutano wa hadhara, @ Twitter, nk.)
 
 Ikiwa unapanga **kuchapisha aina hizi za mabango kwa kichapishi cha kibinafsi, fahamu kwamba hii kwa ujumla husababisha karatasi kuwa na uchafu mwingi na pia kuharibika haraka baada ya muda**. Kwa kuzingatia hili, **kitu bora zaidi cha kufanya ni kuwasiliana na kichapishi kitaalamu ili kutoa mabango haya kwenye karatasi maalum ya kujinatia iliyoundwa mahususi kwa matumizi ya nje**. Kwa hivyo ubora utahakikishwa.
 
@@ -1412,7 +1412,7 @@ Ili kurahisisha kazi hii ya uundaji, mafunzo yaliyo hapa chini yanakuonyesha baa
 
 Baadaye, utaweza kununua kikoa chako mwenyewe na hata kukikaribisha kwenye seva yako ikiwa unataka.
 
-![Tutorial per creare un sito web WordPress gratuito](https://www.youtube.com/watch?v=cZzH4gj_kZY)
+:::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
 ####
 
@@ -1480,9 +1480,9 @@ Kwa hivyo mara tu unapomaliza kufanya kazi kwenye "Spotify kwa podikasti," kilic
 
 Iwapo ungependa **kurekodi kwenye kompyuta yako, programu isiyolipishwa kama vile ["Audacity"](https://www.audacityteam.org/) inafanya kazi vizuri sana**. Inakuruhusu kurekebisha mipangilio mingi, kutekeleza crescendos, na hata kuboresha uwazi wa sauti wakati wa kuhariri. Kurekodi sauti yako na kisha kuhariri sauti ya podikasti yako inapaswa kuwa rahisi sana.
 
-Haya hapa ni mafunzo mafupi ambayo yanawasilisha, katika dakika 10, vipengele vikuu unavyohitaji kujua kuhusu kutengeneza podikasti na Audacity.
+Haya hapa ni mafunzo mafupi ambayo yanawasilisha, katika dakika 10, Elements (Vipengele) vikuu unavyohitaji kujua kuhusu kutengeneza podikasti na Audacity.
 
-![Tutorial per creare un podcast con Audacity](https://www.youtube.com/watch?v=z471_Ye6Y0I)
+:::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
 Kumbuka: Kama ilivyoelezwa hapo awali, katika tukio ambalo, siku moja, Bitcoin itapigwa marufuku au kukaguliwa, inaweza kuwa muhimu **kila mara weka nakala ya ndani kwenye hifadhi ya Ugumu wa podikasti** unazochapisha.
 
@@ -1568,7 +1568,7 @@ Kufikia lengo la **kumfanya mfanyabiashara akubali Bitcoin kama njia ya malipo**
 - **wanahitaji ripoti za fedha zilizo wazi na zilizo wazi** ambazo zinaweza kutumwa kwa wahasibu wao;
 - **njia zao za malipo lazima zifanye kazi bila matatizo ya kiufundi au ya vifaa**, na wafanyakazi lazima wawe na uwezo wa kupokea malipo bila kuwa na uwezo wa kukimbia na till.
 
-Kwa vipengele hivi, ongeza:
+Kwa Elements (Vipengele) hivi, ongeza:
 
 
 - **uwezekano wa upendeleo wa mfanyabiashara**kuelekea Bitcoin;
@@ -1813,7 +1813,7 @@ Hatimaye:
 
 Kwa undani kidogo, katika video ya dakika 21, inaonekana kama hii:
 
-![Tutorial Comunità Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8)
+:::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
 Kwa vyovyote vile, **kumbuka kwamba hauko peke yako na kwamba jumuiya zilizopo zipo kukusaidia**.
 

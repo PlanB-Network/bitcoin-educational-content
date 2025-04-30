@@ -581,6 +581,12 @@ Sau đó, Bastiat đã soạn một văn bản châm biếm, sau này trở thà
 
 ![image](assets/en/079.webp)
 
+---
+
+>BẢO VỆ NHỮNG NGỌN NẾN CỦA CHÚNG TA!
+
+---
+
 Trong kiến nghị này, các nhà sản xuất nến yêu cầu các nghị sĩ dùng pháp lý để bảo vệ chống lại một đối thủ nguy hiểm:
 
 > Chúng ta đang vấp phải sự cạnh tranh không thể vực dậy được từ một đối thủ nước ngoài, người mà, có vẻ như, ở trong điều kiện thuận lợi vượt trội để sản xuất ra ánh sáng đến mức sản phẩm của ông ta tràn ngập thị trường quốc gia của chúng ta với một giá cả giảm mạnh một cách kỳ diệu.
@@ -882,6 +888,15 @@ Và một lần nữa:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Hội  
+>Tương trợ lẫn nhau  
+>của GUISY  
+>1899
+
+---
+
 Tuy nhiên, theo Bastiat, có một lựa chọn khác cho sự đoàn kết bắt buộc của nhà nước: "xã hội hỗ trợ lẫn nhau"
 
 Sự hỗ trợ lẫn nhau và tự phát của con người với nhau nhờ vào các xã hội hỗ trợ lẫn nhau. Nhưng ông cũng dự đoán rằng Nhà nước cuối cùng sẽ chiếm đoạt những tổ chức này để biến chúng thành một cơ quan duy nhất và tập trung, khuyến khích chi tiêu và lãng phí.
@@ -891,6 +906,16 @@ Sự hỗ trợ lẫn nhau và tự phát của con người với nhau nhờ v�
 Trong một cuốn sách có tên "Công lý và Tình anh em - Justice and Fraternity", Bastiat cũng khám phá ý tưởng về một hệ thống thuế đơn giản và công bằng để tài trợ cho nhu cầu tập thể (cảnh sát, tư pháp, quân đội): thu nhập và lợi nhuận sẽ chịu một mức thuế duy nhất và tỷ lệ cố định. Điều này ngày nay được biết đến là "Thuế suất đồng đều - Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Các quỹ –  
+>**giá trị gia tăng**  
+>cho **xã hội**  
+>
+>SwissFoundations
+
+---
 
 Thật vậy, sự đoàn kết trong gia đình, sự đoàn kết địa phương, hoặc hoạt động phúc thiện có tổ chức được phát triển nhiều hơn ở các quốc gia có hệ thống thuế nhẹ và mức độ tự do kinh tế tương đối cao, như Thụy Sĩ và Hoa Kỳ, trong khi bị bóp nghẹt đáng kể ở các quốc gia nơi mà Nhà nước đã thay thế phần lớn trách nhiệm cá nhân, như Pháp hoặc Đức.
 Thường thì người ta hay phê phán "sự ích kỷ" đang tồn tại phổ biến trong các xã hội tự do. Nhưng thực tế lại hoàn toàn ngược lại. Khi một xã hội bị gánh nặng bởi thuế và các cá nhân không còn làm chủ tài sản của mình, họ không được khuyến khích đóng góp mà thay vào đó là thu mình lại.

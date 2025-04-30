@@ -573,10 +573,17 @@ Bastiat kemudian menyusun teks satir yang kemudian menjadi salah satu karya pali
 
 ![image](assets/en/079.webp)
 
+---
+
+>LINDUNGI LILIN KAMI!
+
+---
+
 Dalam petisi ini, para pembuat lilin meminta para deputi untuk perlindungan hukum terhadap saingan asing yang berbahaya:
 
 > Kami menderita karena kompetisi yang tidak tertahankan dari saingan asing yang, tampaknya, berada dalam kondisi yang sangat superior untuk memproduksi cahaya sehingga ia membanjiri pasar nasional kita dengan harga yang sangat murah.
-> Jadi, siapakah pesaing asing yang tidak adil ini? Tidak lain adalah matahari. Para produsen kemudian menyoroti peluang yang akan ada dalam "memperuntukkan pasar nasional untuk tenaga kerja nasional", dengan memerintahkan melalui sebuah undang-undang untuk menutup "semua jendela, atap kaca, tirai, penutup jendela, tirai, gorden, ventilasi atas, dalam satu kata semua bukaan, lubang, celah, dan retakan yang biasa dilalui sinar matahari masuk ke dalam rumah".
+
+Jadi, siapakah pesaing asing yang tidak adil ini? Tidak lain adalah matahari. Para produsen kemudian menyoroti peluang yang akan ada dalam "memperuntukkan pasar nasional untuk tenaga kerja nasional", dengan memerintahkan melalui sebuah undang-undang untuk menutup "semua jendela, atap kaca, tirai, penutup jendela, tirai, gorden, ventilasi atas, dalam satu kata semua bukaan, lubang, celah, dan retakan yang biasa dilalui sinar matahari masuk ke dalam rumah".
 
 Dengan kata lain, para pembuat lilin mencoba menunjukkan efek buruk dari "pesaing asing" (matahari) terhadap ekonomi Prancis. Karena tidak hanya matahari dapat menyediakan "produk" yang sama seperti lilin, tetapi ia melakukannya secara gratis. Dua ratus tahun kemudian, cerita ini tetap sangat relevan. Pertimbangkan para sopir taksi yang meminta undang-undang untuk melarang VTC dan Uber. Pikirkan tentang toko buku yang ingin melarang Amazon.
 
@@ -842,6 +849,12 @@ Karena manusia berisiko membuat kesalahan atau bertindak salah dan menderita kon
 
 ![image](assets/en/110.webp)
 
+---
+
+>Kesalahan adalah manusiawi.
+
+---
+
 Dengan demikian, jelas bahwa Bastiat jauh dari buta. Dia tidak menyangkal keberadaan kejahatan. Manusia lemah, cenderung salah dan bersalah. Tidak di mana pun akan seseorang melihat Bastiat menyangkal fakta bahwa pelaksanaan kebebasan individu dikaitkan dengan kemungkinan kesalahan, kemungkinan pilihan yang tidak masuk akal atau tidak masuk akal.
 Dia hanya menegaskan bahwa jika sumber kejahatan terletak pada ketiadaan kebebasan, maka obatnya adalah kebebasan itu sendiri, dan lebih spesifik lagi dalam pelaksanaan tanggung jawab pribadi secara penuh dan menyeluruh.
 
@@ -880,6 +893,15 @@ Dan lagi:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Perkumpulan  
+>Bantuan Timbal Balik  
+>GUISY  
+>1899
+
+---
+
 Namun, menurut Bastiat, ada alternatif untuk solidaritas negara wajib: "masyarakat bantuan timbal balik"
 bantuan timbal balik dan spontan antara manusia berkat perkumpulan bantuan timbal balik. Namun, ia juga memprediksi bahwa Negara pada akhirnya akan mengambil alih perkumpulan ini untuk menjadikannya sebuah badan yang unik dan terpusat, mendorong pengeluaran dan pemborosan.
 
@@ -888,6 +910,16 @@ bantuan timbal balik dan spontan antara manusia berkat perkumpulan bantuan timba
 Dalam sebuah pamflet yang berjudul "Keadilan dan Persaudaraan", Bastiat juga mengeksplorasi ide tentang sistem pajak yang disederhanakan dan adil untuk membiayai kebutuhan kolektif (polisi, keadilan, tentara): pendapatan dan keuntungan akan dikenakan tarif pajak tunggal dan proporsional. Inilah yang saat ini dikenal sebagai "Pajak Tunggal".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Yayasan –  
+>**nilai tambah**  
+>bagi **masyarakat**  
+>
+>SwissFoundations
+
+---
 
 Memang, solidaritas intra-keluarga, solidaritas lokal, atau filantropi terorganisir jauh lebih berkembang di negara-negara yang memiliki sistem pajak ringan dan tingkat kebebasan ekonomi yang relatif tinggi, seperti Swiss dan Amerika Serikat, sedangkan hal ini sebagian besar terhambat di negara-negara di mana Negara telah sebagian besar menggantikan tanggung jawab individu, seperti Prancis atau Jerman.
 

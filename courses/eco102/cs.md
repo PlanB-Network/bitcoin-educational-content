@@ -566,6 +566,12 @@ Bastiat tehdy složil satirický text, který se později stal jedním z jeho ne
 
 ![image](assets/en/079.webp)
 
+---
+
+>CHRAŇTE NAŠE SVÍČKY!
+
+---
+
 V této petici svíčkáři žádají poslance o právní ochranu proti nebezpečnému konkurentovi:
 
 > Trpíme nesnesitelnou konkurencí zahraničního rivala, který, jak se zdá, je v tak výhodných podmínkách pro výrobu světla, že zaplavuje náš národní trh za fabulózně sníženou cenu.
@@ -836,6 +842,12 @@ Je to proto, že člověk riskuje, že udělá chybu nebo jedná špatně a pone
 
 ![image](assets/en/110.webp)
 
+---
+
+>Mýlit se je lidské.
+
+---
+
 Je tedy jasné, že Bastiat není slepý. Nezapírá existenci zla. Člověk je slabý, náchylný k chybám a vině. Nikde neuvidíte Bastiata popírat fakt, že cvičení individuální svobody je spojeno s možností chyby, možností neracionální nebo nesmyslné volby.
 
 Jednoduše tvrdí, že pokud zdroj zla leží v absenci svobody, lék je ve svobodě samotné, a konkrétněji v plném a celkovém cvičení osobní odpovědnosti.
@@ -875,6 +887,15 @@ A znovu:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Společnost  
+>vzájemné pomoci  
+>v GUISY  
+>1899
+
+---
+
 Podle Bastiata však existuje alternativa k povinné státní solidaritě: "vzájemná pomocná společnost"
 
 vzájemná a spontánní pomoc lidí mezi sebou díky vzájemným pomocným společnostem. Ale také předvídal, že stát tyto vzájemné společnosti nakonec převezme a promění je v jedinečné a centralizované těleso, podporující výdaje a plýtvání.
@@ -884,6 +905,16 @@ vzájemná a spontánní pomoc lidí mezi sebou díky vzájemným pomocným spol
 V pamfletu nazvaném "Spravedlnost a bratrství" Bastiat také zkoumá myšlenku zjednodušeného a spravedlivého daňového systému pro financování kolektivních potřeb (policie, spravedlnost, armáda): příjmy a zisky by podléhaly jednotné a proporcionální daňové sazbě. To je to, co je dnes známé jako "Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Nadace –  
+>**přidaná hodnota**  
+>pro **společnost**  
+>
+>SwissFoundations
+
+---
 
 Skutečně, solidarita v rámci rodiny, místní solidarita nebo organizovaná filantropie jsou mnohem více rozvinuté v zemích, které mají lehký daňový systém a relativně vysoký stupeň ekonomické svobody, jako je Švýcarsko a Spojené státy, zatímco je výrazně potlačena v zemích, kde stát do značné míry nahradil individuální odpovědnost, jako je Francie nebo Německo.
 Často je módní naříkat nad "sobeckostí", která by měla převládat v liberálních společnostech. Ale pravda je přesně opačná. Když je společnost zatížena daněmi a jednotlivci již nevlastní svůj majetek, nejsou povzbuzováni k dávání, ale spíše k uzavírání se do sebe.

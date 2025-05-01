@@ -1,0 +1,5 @@
+---
+term: SHOR (ALGORYTM)
+---
+
+Algorytm kwantowy wynaleziony w 1994 roku przez Petera Shora, który pozwala na faktoryzację dużych liczb całkowitych do iloczynu liczb pierwszych w czasie wielomianowym. Zmniejszając liczbę operacji potrzebnych do faktoryzacji liczb całkowitych, Shor mógł uczynić niepraktycznymi algorytmy kryptograficzne oparte na tym problemie matematycznym, takie jak RSA. Shor można nieco zmodyfikować, aby działał na prawie wszystkich algorytmach wykorzystujących strukturę grupową. W szczególności ma już wydajny wariant kryptografii krzywych eliptycznych (ECDSA, Schnorr...). Dlatego też Shor i jego bliskie warianty są skuteczne w przypadku algorytmów kryptografii asymetrycznej. Obecnie nie dysponujemy jeszcze komputerem kwantowym, który byłby wystarczająco wydajny i stabilny, aby z powodzeniem wykonać algorytm Shora.

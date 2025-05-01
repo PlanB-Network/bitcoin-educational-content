@@ -1,0 +1,5 @@
+---
+term: KIZUIZI CHA MGOMBEA
+---
+
+Kizuizi cha mgombea ni kizuizi ambacho kiko katika mchakato wa kuundwa na Miner inayoshiriki katika mchakato wa Bitcoin wa mfumo wa Mining. Sehemu ya watahiniwa ni muundo wa data wa muda ambao una miamala inayosubiri kuthibitishwa lakini bado haina Proof-of-Work halali ya kuongezwa kwenye Blockchain. Miner huchagua miamala ya kujumuisha katika kizuizi cha mteule kulingana na vipengele mbalimbali, kama vile ada za ununuzi zinazohusiana na vikwazo vya ukubwa wa kiwanja. Mara baada ya shughuli kuchaguliwa, Miner inazalisha kichwa cha kuzuia, ambacho kinajumuisha toleo, digest ya shughuli (Merkle Root), Timestamp, Hash ya block ya awali, lengo la ugumu, na Nonce. Miner kisha inajaribu kupata Hash ya kichwa chake ambacho kinakidhi lengo la ugumu wa sasa. Ili kufanya hivyo, Miner inarekebisha Nonce iliyopo kwenye kichwa. Miner inaweza pia kurekebisha maelezo mengine yaliyopo kwenye block yao ya wagombea. Huu ni utaratibu wa Proof-of-Work. Ikiwa Miner itafanikiwa kupata Hash halali, kizuizi cha mgombea kinakuwa kizuizi halali na kinatangazwa kwenye mtandao ili kuongezwa kwa Blockchain.

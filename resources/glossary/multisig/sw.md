@@ -1,0 +1,8 @@
+---
+term: Multisig
+---
+
+Pochi zenye saini nyingi, ambazo mara nyingi hufupishwa kama "Multisig," zimeundwa ili kuimarisha usalama wa bitcoins kwa kuhitaji saini nyingi kutoka kwa funguo tofauti za kibinafsi ili kuidhinisha matumizi. Njia hii inasambaza hatari kati ya funguo kadhaa, ambayo husaidia kupunguza hatari zote za kupoteza na wizi (kulingana na usanidi wa Multisig). Pochi za Multisig hufanya kazi kwenye muundo wa "m-of-n", ambapo `m` inawakilisha idadi ya chini kabisa ya sahihi zinazohitajika ili kuthibitisha shughuli, na `n` ni jumla ya idadi ya funguo zinazohusika. Kwa mfano, usanidi wa 2 kati ya 3 unahitaji sahihi mbili kati ya tatu zinazowezekana ili kudhibitisha shughuli. Mbinu hii inatoa usalama wa hali ya juu ikilinganishwa na pochi za ufunguo mmoja, lakini pia inaleta ugumu zaidi katika masuala ya usimamizi na chelezo. Zaidi ya hayo, miamala inayotumia viwango vya zamani vya Multisig si ya faragha na ni ghali zaidi katika ada kuliko miamala ya jadi ya singlesig. Hata hivyo, ubunifu wa hivi majuzi kama vile Taproot na matumizi ya vifafanuzi vinatarajiwa kupunguza, ikiwa si kuondoa, kasoro hizi za multisigs.
+
+
+> ► *Baadhi ya bitcoiners hutofautisha kati ya maneno "Multisig" na "Threshold Multisig." Hakika, wengine wanasema kuwa Multisig ni lazima n-of-n, wakati kizingiti Multisig ni m-of-n. Hata hivyo, katika lugha ya kawaida, inakubalika kurejelea "Multisig" hata kwa m-of-n.*

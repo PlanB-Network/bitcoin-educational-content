@@ -1,0 +1,5 @@
+---
+term: Bitcoin XT
+---
+
+Bitcoin XT je Fork od Bitcoin lansiran 2015. godine od strane renomiranog developera Majka Herna i podržan od strane Gavina Andresena (bivšeg glavnog održavaoca Bitcoin nakon odlaska Satoshi). Originalno, Bitcoin XT je bila implementacija Bitcoin protokola kompatibilna sa Bitcoin Core. Međutim, u avgustu 2015, Bitcoin XT verzija 0.11A usvojila je BIP101: predloženi Hard Fork za povećanje limita veličine bloka sa 1 MB na 8 MB, sa planiranim udvostručavanjem ove veličine svake dve godine dok ne dostigne nešto više od 8 GB po bloku u 2036. godini. Ovaj predlog je bio jedan od glavnih uzroka Rata oko veličine bloka koji se odigrao između 2015. i 2017. godine. Podržan je od strane značajnog dela rudara i uticajnih kompanija kao što su BitPay, Blockchain.info i Circle. Na kraju, Bitcoin XT nije uspeo da dobije dovoljno podrške od zajednice, a Majk Hern je na kraju najavio svoj odlazak iz zajednice i prodaju svojih bitkoina. Izrazio je svoje razočaranje u blog postu, posebno navodeći da je Bitcoin podbacio.

@@ -1,0 +1,5 @@
+---
+term: Liquid Network
+---
+
+Bitcoin Sidechain iliyotengenezwa na Blockstream kutoa haraka na Confidential Transactions. Tofauti na Blockchain kuu ya Bitcoin, Liquid hutumia utaratibu wa makubaliano kulingana na shirikisho (kundi lililochaguliwa la waendeshaji wa nodi, kwa kawaida biashara zinazohusiana na Bitcoin), na hivyo kuchukua nafasi ya utaratibu wa makubaliano wa Nakamoto. Mbinu hii inaharakisha shughuli kwa kiasi kikubwa na inapunguza gharama, huku ikitoa vipengele vya juu zaidi. Liquid pia inaruhusu utoaji wa mali ya dijiti, ikiwa ni pamoja na tokeni zinazowakilisha fedha nyingine za siri. Bitcoins kwenye Liquid, inayojulikana kama L-BTC, inaunganishwa na BTC kupitia mfumo wa vigingi wa njia mbili kulingana na sehemu ya shirikisho. Washiriki katika shirikisho hili wanaitwa "watendaji," na wanaweza kutumika kama "watchmen" na "watia saini block."

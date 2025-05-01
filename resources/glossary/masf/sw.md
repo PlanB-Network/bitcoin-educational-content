@@ -1,0 +1,5 @@
+---
+term: MASF
+---
+
+Kifupi cha "*Miner-Activated Soft Fork*". Inaelezea Soft Fork katika Bitcoin wakati uanzishaji wake unatoka kwa hatua ya wachimbaji. MASF ni familia ya mbinu za kuwezesha Soft Fork kwenye Bitcoin. Katika mbinu hizi, wachimbaji huashiria makubaliano yao na utayari wa kusasisha itifaki na vitalu vya Mining vinavyounga mkono kufungwa kwa Soft Fork. Iwapo idadi kubwa ya wachimbaji watapiga kura kuunga mkono Soft Fork, sasisho litachukuliwa kuwa limekubaliwa na kuanzishwa baadaye. Utaratibu huu husaidia kuzuia kugawanyika kwa Blockchain na kudumisha umoja wa mtandao. MASF inapendekezwa kwa mbinu yake ya upole, yenye msingi wa makubaliano, kupunguza hatari ya mgawanyiko wa Blockchain huku ikihakikisha kwamba nguvu nyingi za kompyuta zinaunga mkono sasisho jipya. Mbinu za kuwezesha kama vile BIP34, BIP9, BIP8 (kama `LOT=sivyo` au ikiwa kiwango cha upigaji kura kimefikiwa), au Jaribio la Haraka ni mifano ya MASF.

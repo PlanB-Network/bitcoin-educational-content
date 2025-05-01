@@ -1,0 +1,5 @@
+---
+term: PHOENIX
+---
+
+Programu ya kujitegemea ya Wallet ya simu iliyoundwa ili kurahisisha na kufanya miamala inayofikika zaidi kwenye itifaki ya Umeme. Huruhusu watumiaji kudhibiti pesa zao moja kwa moja kutoka kwa vifaa vyao vya rununu bila hitaji la kuunganishwa kwa nodi tofauti ya Umeme. Phoenix hufanya kazi kama nodi kamili ya Umeme inayojitegemea kwenye simu (utekelezaji wa umeme). Inaauni miamala ya Bitcoin na Umeme na inatoa vipengele vya kuwezesha usimamizi wa nodi, kama vile usimamizi otomatiki wa kituo kwa nodi ya Acinq. Tofauti na programu nyinginezo za Lightning Wallet, ambazo mara nyingi huhifadhiwa, Phoenix hutoa maelewano ya kuvutia kwa kuchanganya matumizi ya nodi ya Umeme na urahisi wa programu ya simu mahiri. Ni mojawapo ya suluhu bora zaidi kwa anayeanza kutaka kutumia Umeme huku akibakiza Ownership kamili ya bitcoins zao (kujitunza). Phoenix ni mradi ulioendelezwa na kudumishwa na kampuni ya Ufaransa ya Acinq.

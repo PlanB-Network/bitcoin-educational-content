@@ -1,0 +1,5 @@
+---
+term: RIPEMD160
+---
+
+Skrót od *Research and development in Advanced Communications technologies in Europe Integrity Primitives Evaluation Message Digest 160*. Jest to kryptograficzna funkcja Hash, która generuje 160-bitowy skrót z dowolnego wejścia. Jest używana w Bitcoin do przekształcania klucza publicznego w odbiorczy Address dla standardów Legacy i SegWit v0 (dla SegWit v1 klucz publiczny nie jest hashowany). Proces ten obejmuje najpierw zastosowanie funkcji `SHA256` Hash do klucza publicznego, a następnie zastosowanie `RIPEMD160` na wyniku. Ta kombinacja dwóch różnych funkcji Hash jest znana jako `HASH160` w kontekście Bitcoin. funkcja `RIPEMD160` jest również używana w deterministycznych i hierarchicznych portfelach do obliczania odcisków palców kluczy. W szczególności, `HASH160` jest używany do obliczania odcisku palca klucza nadrzędnego, a następnie dołączany do metadanych klucza rozszerzonego (xpub, xprv...).

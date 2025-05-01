@@ -1,0 +1,5 @@
+---
+term: COMPACT BLOCK RELAY
+---
+
+Itifaki iliyoanzishwa katika Bitcoin Core mwaka wa 2016 kupitia BIP152, ambayo inapendekeza njia ya kuokoa kipimo data kwa nodi za mtandao. Upeanaji wa Kizuizi cha Compact huruhusu mawasiliano ya habari ya kuzuia kwa njia ya kuunganishwa, kwa kuzingatia dhana kwamba nodi tayari zina miamala mingi ya kizuizi cha hivi karibuni katika Mempool yao. Badala ya kusambaza kila muamala kwa ukamilifu, ambayo ingesababisha kurudiwa, Compact Block Relay inapendekeza kutuma vitambulishi vifupi pekee vya miamala ambayo tayari inajulikana kwa wenzao, ikiambatana na miamala michache iliyochaguliwa (haswa Coinbase Transaction na zile ambazo nodi ina uwezekano kutozijua). Njia basi inaweza kuomba shughuli zozote zinazokosekana kutoka kwa wenzao. Compact Block Relay hivyo hupunguza kiasi cha data kubadilishana wakati wa uenezi wa kuzuia, ambayo kwa upande hupunguza spikes za bandwidth na kuboresha ufanisi wa jumla wa mtandao.

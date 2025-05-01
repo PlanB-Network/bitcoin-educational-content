@@ -1,0 +1,25 @@
+id: 7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+
+project_id: 5c2f09e3-e6ce-4751-8ba6-27bfc1ba14a3
+
+tags:
+  - guides
+  - node
+  - DIY
+
+category: others
+
+level: intermediate
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-04-28
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 0

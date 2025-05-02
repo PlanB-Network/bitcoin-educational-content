@@ -44,7 +44,7 @@ $$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} 
 
 其中：
 
-* $b_{text{scan}}$：Bob 的私人扫描密钥。
+* $b_{\text{scan}}$：Bob 的私人扫描密钥。
 
 如果他发现 $P_0$ 是一个包含寄给他的无声付款的地址，他就会计算出 $p_0$，即允许他使用 Alice 发送给 $P_0$ 的资金的私人密钥：
 
@@ -52,7 +52,7 @@ $$ p_0 = （ b_{text{spend}}+ text{hash}(\text{inputHash} \cdot b_{text{scan}} \
 
 参数说明：
 
-* $b_{text{spend}}$：Bob 的私人消费密钥；
+* $b_{\text{spend}}$：Bob 的私人消费密钥；
 * $n$：椭圆曲线 `secp256k1` 的阶数。
 
 除了这个基本版本之外，还可以使用标签从同一个基础静态地址生成多个不同的静态地址，其目的是在不显著增加扫描工作量的前提下，实现多用途地址的分离。

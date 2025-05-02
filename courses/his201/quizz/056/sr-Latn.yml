@@ -1,0 +1,9 @@
+question: Koji su bili standardni obrasci izlaza skripti prepoznati od strane softvera u septembru 2010?
+answer: Prijem putem javnog ključa (P2PK) i prijem putem Address (P2PKH)
+wrong_answers:
+  - Prijem putem Address (P2PKH) i prijem putem skripte sa višestrukim potpisom (P2MS)
+  - Prijem putem Address (P2PKH) i prijem putem skripta (P2SH)
+  - Prijem putem javnog ključa (P2PK) i prijem putem skripte (P2SH)
+explanation: |
+  Ovo su bile dve vrste korišćene od početka Bitcoin. Tip P2MS je postao standard u martu 2012. Tip P2SH je dodat u protokol u aprilu 2012.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Cosa è un portafoglio nel contesto di Bitcoin?
-answer: Una cassaforte digitale per i tuoi bitcoin
+question: Quale dispositivo è consigliato per proteggere i fondi accumulati a lungo termine?
+answer: Hardware Wallet
 wrong_answers:
-  - Un dispositivo fisico per conservare i bitcoin
-  - Un software per minare bitcoin
-  - Una piattaforma per comprare e vendere bitcoin
+  - Hot Wallet
+  - Fulmine Wallet
+  - Piattaforma Exchange
 explanation: |
-  Il contenuto del capitolo spiega che i bitcoin sono conservati in quello che viene chiamato un portafoglio, che è una cassaforte digitale per i tuoi soldi. Solo il detentore della chiave può accedervi.
+  Un Hardware Wallet memorizza le chiavi private offline, garantendo una maggiore sicurezza per importi significativi a lungo termine.
 reviewed: false

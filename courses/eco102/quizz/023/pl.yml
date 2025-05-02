@@ -1,0 +1,9 @@
+question: Jakie są klasy w konflikcie według Comte'a i Dunoyera?
+answer: Ci, którzy płacą podatki i ci, którzy z nich żyją
+wrong_answers:
+  - Pracownicy i pracodawcy
+  - Burżuazja i proletariusze
+  - Kupcy i rzemieślnicy
+explanation: |
+  Comte i Dunoyer dostrzegają konflikt klasowy między producentami, którzy finansują się z podatków, a nieproducentami, którzy z nich korzystają.
+reviewed: false

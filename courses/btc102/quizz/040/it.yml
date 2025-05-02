@@ -1,9 +1,9 @@
-question: Qual è il principale vantaggio di Bitcoin rispetto ai conti bancari tradizionali?
-answer: Controllo completo del proprio denaro
+question: Quale strategia di acquisizione può essere adottata da un hodler ibrido?
+answer: Media del costo del dollaro
 wrong_answers:
-  - Tassi di interesse più alti
-  - Commissioni di transazione più basse
-  - Tempi di transazione più veloci
+  - Trading algoritmico
+  - Arbitraggio
+  - Hacking
 explanation: |
-  Il capitolo spiega che Bitcoin offre un'alternativa potente ai sistemi finanziari tradizionali. Consente a tutti di preservare la propria privacy, proteggersi dall'inflazione e dalla svalutazione della valuta, aggirare regimi autoritari e riacquistare la sovranità sul proprio denaro.
+  Il Dollar-Cost Averaging consente di effettuare acquisti regolari di Bitcoin per appianare il prezzo medio di acquisto nel tempo. L'hodler può combinare questo metodo con acquisti occasionali a forfait.
 reviewed: false

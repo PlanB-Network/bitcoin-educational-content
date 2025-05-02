@@ -1,9 +1,9 @@
-question: Mikä on Bitcoinin lopullinen visio Bitcoin-valtatien metaforan mukaan?
-answer: Siitä tulee valtatie internet-liikenteelle ja 90% maailman väestöstä.
+question: Millä menetelmällä suojataan liiketoimien On-Chain-jäljitettävyys?
+answer: CoinJoin- ja PayJoin-tekniikoiden käyttö
 wrong_answers:
-  - Siitä tulee ylellisyystuote, joka on vain varakkaiden saavutettavissa.
-  - Siitä tulee väline laittomiin toimiin.
-  - Se tulee vanhentumaan ja korvautumaan muiden kryptovaluuttojen toimesta.
+  - Saman vastaanottavan Address:n uudelleenkäyttö
+  - UTXO:iden usein tapahtuva konsolidointi
+  - Tallettaminen Wallet:n säilytysyhteisöön
 explanation: |
-  Bitcoin-valtatie metafora visioi Bitcoinin muuttuvan valtatieksi internet-liikenteelle ja 90% maailman väestölle, jossa tavarat ja palvelut ovat suoraan saavutettavissa tällä valtatiellä.
+  Coinjoins ja payjoins auttavat parantamaan On-Chain-toiminnan yksityisyyttä.
 reviewed: false

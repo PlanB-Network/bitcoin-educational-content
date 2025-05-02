@@ -1,0 +1,9 @@
+question: Šta podrazumeva Heuristika zajedničkog ulaza Ownership (CIOH)?
+answer: Kada transakcija uključuje više ulaza, verovatno su svi od jednog entiteta.
+wrong_answers:
+  - Kada transakcija uključuje više ulaza, oni verovatno dolaze od različitih entiteta.
+  - Kada transakcija uključuje više izlaza, verovatno svi idu jednoj jedinici.
+  - Kada transakcija uključuje više izlaza, verovatno svi idu različitim entitetima.
+explanation: |
+  CIOH je heuristika koja sugeriše da kada transakcija uključuje više ulaza, ti ulazi verovatno svi potiču od jednog entiteta. Shodno tome, njihov Ownership je zajednički.
+reviewed: false

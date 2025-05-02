@@ -1,0 +1,9 @@
+question: Ni kizuizi gani cha kupata ufunguo wa umma wa mtoto kutoka kwa ufunguo wa umma wa mzazi?
+answer: Ufunguo wa mtoto lazima uwe wa kawaida
+wrong_answers:
+  - Ufunguo wa mtoto lazima uwe mgumu
+  - Msimbo wa mnyororo lazima ufanane na ule wa ufunguo wa mzazi
+  - Mchakato lazima ujumuishe ufunguo wa faragha wa mzazi
+explanation: |
+  Ufunguo wa umma wa mtoto unaweza tu kutolewa kutoka kwa ufunguo wa umma wa mzazi ikiwa ni wa kawaida, sio ngumu.
+reviewed: false

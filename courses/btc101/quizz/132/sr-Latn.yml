@@ -1,0 +1,12 @@
+question: Koji je značaj geografske distribucije Bitcoin čvorova?
+answer: To praktično onemogućava uništavanje svih kopija Blockchain.
+wrong_answers:
+  - Određuje cenu Bitcoin u različitim regionima.
+  - To utiče na brzinu Bitcoin transakcija.
+  - Određuje broj bitkoina koji se mogu iskopati u nekom regionu.
+explanation: |
+  Geografska distribucija Bitcoin čvorova čini
+  praktično nemogućim uništavanje svih kopija
+  Blockchain. Pošto su čvorovi rasprostranjeni, teško ih je
+  fizički sve zapleniti.
+reviewed: true

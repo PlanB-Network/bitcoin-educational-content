@@ -1,0 +1,10 @@
+question: Ni neno gani linaloelezea ulinzi unaotolewa na CoinJoin dhidi ya uchanganuzi wa miamala ya awali ya sarafu?
+answer: Anoset ya kurudi nyuma.
+wrong_answers:
+  - Anonset inayotarajiwa.
+  - Upinzani wa ufuatiliaji.
+  - Faragha ya muda.
+explanation: |
+  Ulinzi dhidi ya uchanganuzi kutoka kwa sasa hadi siku za nyuma ni kile kinachoitwa anoset ya kurudi nyuma.
+  
+reviewed: false

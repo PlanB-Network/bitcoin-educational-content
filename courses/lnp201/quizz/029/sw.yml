@@ -1,0 +1,9 @@
+question: Katika hali gani ni kufungwa kwa kulazimishwa kwa chaneli kutumika?
+answer: Wakati mmoja wa vyama hajibu tena
+wrong_answers:
+  - Wakati uwezo wa kituo unahitaji kuongezwa
+  - Wakati kufuli ya saa haitoshi
+  - Wakati ada za muamala ni kubwa sana
+explanation: |
+  Kufunga kwa lazima kunatumika kama suluhu la mwisho ikiwa mmoja wa wahusika, kwa mfano kutokana na tatizo la kiufundi, hatajibu tena ujumbe wa mwingine.
+reviewed: false

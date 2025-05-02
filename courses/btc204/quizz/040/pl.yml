@@ -1,0 +1,9 @@
+question: Dlaczego bitcoiny kupowane za pośrednictwem giełd P2P są często droższe niż te kupowane na platformach regulowanych?
+answer: Dodatkowe ryzyko, opłaty transakcyjne i premia za prywatność.
+wrong_answers:
+  - Zmienność rynku, ryzyko podwójnych wydatków i zgodność z prawem.
+  - Opłaty rejestracyjne, ograniczone opcje i dłuższy czas weryfikacji.
+  - Opłaty rejestracyjne, surowe przepisy i niski poziom bezpieczeństwa.
+explanation: |
+  Bitcoiny sprzedawane na platformach P2P są generalnie droższe niż te z platform regulowanych. Ten narzut wynika z kilku czynników: sprzedawca podejmuje większe ryzyko, musi również pokryć dodatkowe koszty, a Exchange oferuje kupującemu wyższy poziom prywatności.
+reviewed: false

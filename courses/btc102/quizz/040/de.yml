@@ -1,9 +1,9 @@
-question: Was ist der Hauptvorteil von Bitcoin gegenüber traditionellen Bankkonten?
-answer: Vollständige Kontrolle über Ihr Geld
+question: Welche Akquisitionsstrategie kann ein hybrider Hodler verfolgen?
+answer: Dollar-Cost Averaging
 wrong_answers:
-  - Höhere Zinssätze
-  - Niedrigere Transaktionsgebühren
-  - Schnellere Transaktionszeiten
+  - Algorithmischer Handel
+  - Arbitrage
+  - Hacken
 explanation: |
-  Das Kapitel erklärt, dass Bitcoin eine leistungsstarke Alternative zu traditionellen Finanzsystemen bietet. Es ermöglicht es jedem, seine Privatsphäre zu wahren, sich gegen Inflation und Währungsabwertung zu schützen, autoritäre Regime zu umgehen und die Souveränität über sein Geld zurückzugewinnen.
+  Das Dollar-Cost Averaging ermöglicht regelmäßige Bitcoin-Käufe, um den durchschnittlichen Kaufpreis im Laufe der Zeit zu glätten. Der Hodler kann dies mit gelegentlichen Pauschalkäufen kombinieren.
 reviewed: false

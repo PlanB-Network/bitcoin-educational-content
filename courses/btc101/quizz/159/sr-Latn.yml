@@ -1,0 +1,8 @@
+question: Koji je značaj potrošnje energije u Bitcoin Mining?
+answer: Potrošnja energije je neophodna za proizvodnju informacija, ali verifikacija informacija ima zanemarljiv trošak. Ova asimetrija garantuje sigurnost mreže.
+wrong_answers:
+  - Trošak energije je neophodan za napajanje ASIC mašina korišćenih u Mining, a verifikacija informacija ima visoke troškove.
+  - Potrošnja energije je neophodna za održavanje Bitcoin mreže, a verifikacija informacija ima promenljive troškove.
+  - Trošak energije nije neophodan za kreiranje novih bitkoina.
+explanation: >-
+reviewed: false

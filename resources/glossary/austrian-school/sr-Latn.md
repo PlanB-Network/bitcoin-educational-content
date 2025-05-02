@@ -1,0 +1,5 @@
+---
+term: AUSTRIJSKA ŠKOLA
+---
+
+Ekonomska škola mišljenja koja teoretizuje tržište kao zbirku dobrovoljnih individualnih interakcija, naglašava spontanost ekonomskog poretka i kritikuje državne intervencije. Austrijska škola zagovara ulogu privatne svojine, ugovorne slobode i slobodne trgovine, dok kritikuje disruptivne efekte monetarnog stvaranja na ekonomiju. Njeni doprinosioci, kao što su Karl Menger, Ludvig fon Mizes i Fridrih Hajek, razvili su koncepte kao što su formiranje cena, funkcija novca, dinamika kapitala i subjektivna teorija vrednosti. Austrijska škola kritikuje socijalizam zbog njegove nesposobnosti da obavlja efikasne ekonomske kalkulacije i favorizuje liberalni pristup. Vrednuje slobodno tržište i vidi državnu intervenciju kao izvor ekonomskih neravnoteža. Mnogi entuzijasti Bitcoin pridržavaju se ovih ideja, verujući da Bitcoin predstavlja alat u skladu sa ovom filozofijom zbog svoje distribuirane prirode, ograničenja monetarnog stvaranja i sposobnosti da funkcioniše nezavisno od državne intervencije.

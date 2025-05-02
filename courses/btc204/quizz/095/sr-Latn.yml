@@ -1,0 +1,9 @@
+question: Šta ukazuje potencijalni anonset?
+answer: Veličina grupe nerazlučivih UTXO-a na izlazu ciklusa.
+wrong_answers:
+  - Veličina grupe nerazlučivih UTXO-a na ulazu ciklusa.
+  - Veličina grupe nerazlučivih UTXO-a u bazenu.
+  - Broj transakcija potrebnih za postizanje anonimnosti.
+explanation: |
+  Prospektivni anonset označava veličinu grupe među kojom se proučavani UTXO skriva na izlazu ciklusa, znajući UTXO na ulazu, to jest, broj nerazlučivih novčića prisutnih unutar ove grupe.
+reviewed: false

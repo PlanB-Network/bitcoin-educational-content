@@ -1,0 +1,13 @@
+question: Šta znači KYC?
+answer: Upoznaj Svojeg Kupca.
+wrong_answers:
+  - Zadrži svoj novac.
+  - Unesite Vaše Kodove.
+  - Ljubazno ustupite usklađenost.
+explanation: |
+  KYC ili Upoznaj Svog Kupca odnosi se na proceduru koju
+  poslovni subjekti usvajaju kako bi verifikovali identitet svojih klijenata.
+  Ovo se obično radi kako bi se osigurala usklađenost sa
+  propisima i sprečile ilegalne aktivnosti kao što su pranje
+  novca ili prevara.
+reviewed: true

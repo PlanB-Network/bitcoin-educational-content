@@ -1,0 +1,9 @@
+question: Koji mehanizam u RGB omogućava grupisanje više tranzicija u jednu Bitcoin transakciju?
+answer: Transition Bundle
+wrong_answers:
+  - Seal Agregacija
+  - Multi-Commitment Drvo
+  - Konsolidacija države
+explanation: |
+  Transition Bundle je skup RGB državnih tranzicija (koje pripadaju istom Contract) koje su sve uključene u isti Bitcoin Witness Transaction.
+reviewed: false

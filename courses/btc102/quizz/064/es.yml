@@ -1,12 +1,9 @@
-question: ¿Cuál es la solución sugerida para compras recurrentes de Bitcoin sin estrés?
-answer: Utiliza una solución DCA (Dollar Cost Averaging).
+question: ¿Qué acción es esencial para que sus herederos recuperen sus bitcoins sin errores?
+answer: Dar instrucciones claras
 wrong_answers:
-  - Utiliza una billetera en caliente (hot wallet).
-  - Utiliza una billetera en frío (cold wallet).
-  - Utiliza una solución sin KYC.
+  - Confiar todas las claves privadas
+  - Cambio frecuente de contraseñas
+  - Utilizar una plataforma KYC Exchange
 explanation: |
-  La solución sugerida para compras recurrentes de Bitcoin sin estrés
-  es utilizar una solución DCA (Dollar Cost Averaging). Esta estrategia consiste en dividir
-  la cantidad total que deseas invertir en compras periódicas para reducir el impacto
-  de la volatilidad.
+  Unas instrucciones detalladas y comprensibles garantizan que sus seres queridos puedan acceder correctamente a los fondos.
 reviewed: false

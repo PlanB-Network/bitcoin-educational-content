@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Core -solmu (mac & windows)
+name: Bitcoin Core (macOS & Windows)
 description: Asenna Bitcoin Core Macille tai Windowsille
 ---
 

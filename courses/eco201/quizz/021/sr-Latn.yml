@@ -1,0 +1,9 @@
+question: Prema Karlu Mengeru, kakva je priroda vrednosti?
+answer: Vrednost je subjektivni psihološki fenomen unutar pojedinca.
+wrong_answers:
+  - Vrednost je inherentno svojstvo robe.
+  - Vrednost je objektivna i merljiva pojava.
+  - Vrednost se određuje količinom rada utrošenog u proizvodnji.
+explanation: |
+  Prema Mengeru, vrednost je subjektivni psihološki fenomen unutar pojedinca. To znači da vrednost nije inherentno svojstvo dobara, već proizlazi iz mišljenja pojedinca o korisnosti koju može izvući iz tih dobara.
+reviewed: true

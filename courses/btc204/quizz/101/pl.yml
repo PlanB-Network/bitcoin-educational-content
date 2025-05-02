@@ -1,0 +1,10 @@
+question: Jak obliczana jest entropia w kontekście analizy łańcucha na Bitcoin?
+answer: Biorąc logarytm binarny z liczby interpretacji.
+wrong_answers:
+  - Mnożąc liczbę wejść przez liczbę wyjść.
+  - Dodając liczbę wejść i wyjść.
+  - Biorąc logarytm binarny z liczby wejść i wyjść.
+explanation: |
+  Entropia jest definiowana jako logarytm binarny liczby możliwych kombinacji.
+  
+reviewed: false

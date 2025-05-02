@@ -1,0 +1,9 @@
+question: Je, tovuti iliyochangia kwa kiasi kikubwa kufanya Bitcoin ijulikane Julai 2010 ni jina gani?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  Mnamo Julai 11, 2010, wasilisho la Bitcoin lililoandikwa na Teppy lilichapishwa kwenye tovuti hii maarufu, ambayo ilisababisha kuongezeka kwa watumiaji wengi.
+reviewed: false

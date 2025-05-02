@@ -4,15 +4,16 @@ description: Hvordan lanserer du enkelt din egen Lightning-node?
 ---
 ![cover](assets/cover.webp)
 
-Alby Hub er den nyeste programvaren fra Alby, selskapet bak den populære Lightning-nettutvidelsen. Alby Hub er et brukervennlig grensesnitt for administrasjon av Lightning-noder.
+Alby Hub er den nyeste open-source-programvaren fra Alby, selskapet bak den populære Lightning-nettleserutvidelsen. Alby Hub er en selvforvaltet lommebok med den enkleste Lightning-noden å bruke, tilgjengelig fra hvor som helst for å integrere med dusinvis av apper. Alby Hub er et brukervennlig grensesnitt for å administrere Lightning-noder.
 
-I denne veiledningen skal vi se på ulike måter å bruke Alby Hub til å administrere din egen Lightning-node, og hvordan du kobler den til Alby Go, Albys mobilapp. Slik kan du bruke satsene dine mens du er på farten, samtidig som du kan administrere noden din på egen hånd.
+I denne veiledningen skal vi se på forskjellige måter å bruke Alby Hub på, og hvordan koble det til Alby Go, Alby's mobilapp eller Alby-nettleserutvidelsen. Dette vil gjøre det mulig for deg å bruke satsene dine på farten mens du opprettholder autonomi i administrasjonen av noden din.
+
 
 ![ALBY HUB](assets/fr/01.webp)
 
 ## Hva er Alby Hub?
 
-I 2024 markerte Alby et strategisk skifte. I årevis har de tilbudt en rekke verktøy knyttet til Bitcoin og Lightning Network, inkludert den ikoniske Alby-utvidelsen, som lar deg drive en Lightning-lommebok, med eller uten depot. I 2025 planlegger de imidlertid å avvikle sin delte depotlommebokstjeneste og fokusere utelukkende på selvforvaringsløsninger. Alby Hub er satt til å være det nye flaggskipverktøyet i Alby-økosystemet. Denne programvaren gjør det enkelt for brukerne å administrere sin egen Lightning-node, samtidig som de beholder eierskapet til nøklene sine (self-custody).
+Alby Hub er satt til å bli det nye flaggskipverktøyet i Alby-økosystemet. Denne programvaren lar brukere enkelt administrere sin egen selvforvaltede lommebok med en integrert Lightning-node, samtidig som de beholder eierskap til sine nøkler (self-custody).
 
 Alby Hub er et svært tilpasningsdyktig verktøy. Det kan dekke behovene til både nybegynnere og avanserte brukere. Nybegynnere kan enkelt bruke det til å drifte en ekte Lightning-node på egen hånd, uten å måtte forholde seg til den underliggende kompleksiteten. For mer erfarne brukere kan Alby Hub brukes som et komplett grensesnitt for avansert administrasjon av en eksisterende Lightning-node.
 
@@ -21,11 +22,11 @@ Avhengig av dine behov er Alby Hub tilgjengelig i fire konfigurasjoner:
 
 - Alby Hub Cloud :**
 
-Dette første alternativet er ideelt for nybegynnere, og er Alby Cloud-alternativet. Det lar deg distribuere en Lightning-node direkte på en Alby-administrert server, som er tilgjengelig via ditt Alby Hub-grensesnitt. Selv om Alby administrerer serveren, beholder du råderetten over midlene dine, ettersom nøklene dine krypteres med et passord som bare du kjenner til. Nøklene dine må imidlertid forbli dekryptert i RAM-minnet for at noden skal fungere, noe som teoretisk sett utsetter dem for risiko hvis noen får fysisk tilgang til serveren. Det er et interessant kompromiss for nybegynnere, men det er viktig å være klar over risikoen.
+Ideell for nybegynnere, dette første alternativet er Alby-skyalternativet. Det lar deg distribuere en Hub direkte på en Alby-administrert server, tilgjengelig via din Alby Hub-grensesnitt. Selv om Alby administrerer serveren, beholder du suvereniteten over midlene dine, ettersom nøklene dine er kryptert med et passord som bare du kjenner. Imidlertid må nøklene dine forbli dekryptert i RAM for at noden skal fungere, noe som teoretisk sett utsetter dem for risiko hvis noen fysisk får tilgang til serveren. Det er et interessant kompromiss for nybegynnere, men det er viktig å være klar over risikoene.
 
 Den største fordelen med dette alternativet er at du får en Lightning-node som er oppe og går 24/7, uten at du trenger å administrere hostingen selv. I tillegg er sikkerhetskopieringen av Lightning-noden forenklet og automatisert, sammenlignet med alternativer med egen hosting, der du selv må administrere sikkerhetskopieringen av kanalene.
 
-Alby tilbyr denne tjenesten for 21 000 satser per måned (pris for desember 2024, med forbehold om endringer, [sjekk prisene deres] (https://albyhub.com/#pricing)). Avgiften trekkes automatisk fra noden din via en lynfaktura utstedt av Alby. Dette gjøres via en NWC-tilkobling som konfigurerer noden din til å automatisk betale Alby-fakturaer knyttet til abonnementet ditt.
+Alby Cloud er en betalt tjeneste [Sjekk deres priser](https://albyhub.com/#pricing) for mer informasjon. Avgiften trekkes automatisk fra lommeboken din via en Lightning-faktura utstedt av Alby. Dette gjøres via en NWC-tilkobling som konfigurerer noden din til automatisk å betale Alby-fakturaer relatert til abonnementet ditt.
 
 
 - Alby Hub med en eksisterende node :**
@@ -35,7 +36,7 @@ Hvis du allerede har en node hosted, for eksempel på Umbrel eller Start9, kan A
 
 - Alby Hub lokal :**
 
-Det er også mulig å installere Alby Hub og noden direkte på PC-en, selv om dette alternativet er mindre praktisk, ettersom PC-en må være aktiv hele tiden for å få fjerntilgang til Lightning-noden. Dette alternativet kan imidlertid være egnet for dine spesifikke behov.
+Det er også mulig å installere Alby Hub direkte på PC-en din, selv om dette alternativet er mindre praktisk, siden PC-en din må være aktiv hele tiden for å få fjernadgang til Lightning-noden. Imidlertid kan dette alternativet være egnet for dine spesifikke behov.
 
 
 - Alby Hub på en personlig server :**
@@ -76,7 +77,7 @@ Klikk på "*Fortsett*" igjen.
 
 ## Alternativet med skyhosting
 
-Deretter må du velge mellom et alternativ der du selv er vert for en Lightning-node på din egen maskinvare, eller det betalte alternativet der du bruker Albys sky. Jeg begynner med å forklare hvordan du går frem med skyalternativet (merk at dette er et betalingsalternativ, se detaljer i forrige avsnitt).
+Du må deretter velge mellom et selvhostet alternativ, hvor du installerer Alby Hub på din egen enhet, eller premium-alternativer. Jeg vil starte med å forklare hvordan du går frem med Pro Cloud-alternativet (merk at dette er et betalt alternativ, se detaljer i forrige avsnitt).
 
 Klikk på "*Oppgrader*".
 
@@ -94,7 +95,8 @@ Vent et øyeblikk mens noden opprettes.
 
 ![ALBY HUB](assets/fr/12.webp)
 
-Og det var det, Alby Hub er nå konfigurert. I neste avsnitt skal jeg vise deg hvordan du installerer Alby Hub på en eksisterende node. Hvis du ikke trenger det, kan du hoppe videre til neste avsnitt for å konfigurere noden.
+Og det er det, din Alby Hub er nå konfigurert. I neste seksjon vil jeg vise deg hvordan du installerer Alby Hub på en eksisterende node. Hvis du ikke allerede har en Lightning-node, kan du hoppe videre til neste seksjon for å konfigurere Alby Hub på Alby Cloud.
+
 
 ![ALBY HUB](assets/fr/13.webp)
 
@@ -128,7 +130,7 @@ Klikk på knappen "*Get Started*".
 
 Alby Hub vil deretter be deg om å velge et passord. Dette passordet er svært viktig, ettersom det vil bli brukt til å kryptere lommeboken din. I den betalte skyversjonen lagres nøklene dine på Alby-serveren, krypteres med dette passordet som bare du kjenner, dekrypteres og lagres kun i RAM for å signere transaksjoner når det er nødvendig.
 
-Det er derfor viktig å velge et sterkt passord. Hvem som helst med dette passordet kan potensielt få tilgang til noden din. Sørg for at du også tar en eller flere fysiske sikkerhetskopier av dette passordet på et stykke papir, eller enda bedre, på et stykke metall for ekstra sikkerhet. **Hvis du mister dette passordet, vil det være umulig å få tilgang til bitcoinsene dine igjen**, ettersom Alby ikke har noen mulighet til å tilbakestille det. Tap av dette passordet betyr tap av bitcoinsene dine.
+Det er derfor essensielt å velge et sterkt passord. Alle som har dette passordet, kan potensielt få tilgang til noden din. Sørg også for å lage en eller flere fysiske sikkerhetskopier av dette passordet på et papir, eller enda bedre, på et stykke metall for økt sikkerhet.
 
 Når du har valgt og lagret passordet ditt, klikker du på "*Opprett passord*".
 
@@ -138,7 +140,7 @@ Du har nå tilgang til Lightning-noden din.
 
 ![ALBY HUB](assets/fr/20.webp)
 
-Det første du må gjøre er å lagre gjenopprettingsfrasen din, som nøklene dine er utledet fra. Med denne frasen kan du gjenopprette tilgangen til lommeboken din på kjeden og, med den nyeste tilstanden til kanalene dine, satsene dine på Lightning. For å gjøre dette, klikk på "*Settings*".
+Den første handlingen du må gjøre er å lagre din gjenopprettingsfrase, som nøklene dine er avledet fra. For å gjøre dette, klikk på "Innstillinger". Denne frasen lar deg gjenopprette tilgang til lommeboken din hvis du har aktivert automatiske sikkerhetskopier.
 
 ![ALBY HUB](assets/fr/21.webp)
 
@@ -156,22 +158,18 @@ Når du har lagret frasen, merker du av i boksen for å bekrefte at du har lagre
 
 ## Hvordan kan jeg få tilgang til bitcoinsene mine?
 
-Før du sender penger til noden din, er det viktig å forstå hvordan du kan gjenopprette dem hvis det skulle oppstå et problem, og hvilken informasjon som kreves for denne gjenopprettingen. Prosessen varierer avhengig av hva slags midler som skal gjenopprettes, og hvordan noden din er hostet.
+Før du sender midler til din Alby Hub, er det viktig å forstå hvordan du kan gjenopprette dem i tilfelle et problem, samt hvilken informasjon som kreves for denne gjenopprettingen. Prosessen varierer avhengig av arten av midlene som skal gjenopprettes og vertsmåten for noden din.
 
-For betalende skybrukere krever fullstendig gjenoppretting av bitcoins tre viktige elementer:
+For betalte skytjenestebrukere krever full gjenoppretting av bitcoinene dine tre essensielle elementer:
 
+- Din gjenopprettingsfrase;
+- Tilgang til din Alby-konto for å hente de automatiserte sikkerhetskopiene.
 
-- Gjenopprettingsfrasen din;
-- Passordet ditt (det som brukes for noden din) ;
-- Tilgang til Alby-kontoen din for å hente den nyeste statusen for Lightning-kanalene dine.
+Fraværet av noen av disse to informasjonene vil gjøre det umulig å gjenopprette dine bitcoins fullt ut.
 
-Hvis noen av disse tre opplysningene mangler, vil det være umulig å få tilbake bitcoinsene dine i sin helhet.
+For de som kjører Alby Hub på sin egen enhet, er gjenopprettingsprosessen dokumentert [her](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
-For de som hoster sin egen node, er gjenopprettingsprosessen identisk med den for en hvilken som helst Lightning-node. Du trenger :
-
-
-- Gjenopprettingsfrasen din;
-- Den siste statusen til Lightning-kanalene dine. For å sikre denne informasjonen tilbyr Umbrel [et alternativ] (https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) for å kryptere den og lagre den dynamisk og anonymt via Tor.
+Hvis du har installert Alby Hub på en eksisterende node, må du følge gjenopprettingsprosessen for det spesifikke node-operativsystemet. For eksempel: Umbrel tilbyr [en mulighet](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) til å kryptere den nyeste statusen til Lightning-kanalene dine og lagre den dynamisk og anonymt via Tor. Vær oppmerksom på at kun de automatiserte sikkerhetskopiene fra Alby lar deg gjenopprette din Hub helt uten å lukke noen kanaler.
 
 ## Kjøp din første Lightning-kanal
 
@@ -255,6 +253,13 @@ Den nye kanalen din vil nå vises i "*Node*"-fanen.
 
 ![ALBY HUB](assets/fr/42.webp)
 
+## Nodeadministrasjon
+
+Å administrere dine Lightning-kanaler er enklere enn du tror. Alby Hub lar deg overføre sats mellom din utgiftsbalanse og din on-chain-balanse. Slik kan du øke din kapasitet til å sende eller motta.
+
+![ALBY HUB](assets/fr/66.webp)
+
+
 ## Koble til en utgiftsapplikasjon
 
 Nå som du har en fungerende Lightning-node, kan du bruke den til å motta og bruke sats på daglig basis. Selv om Alby Hubs webgrensesnitt er praktisk for å administrere noden din, er det ikke ideelt for å gjøre raske transaksjoner på farten. Til dette skal vi bruke en Lightning-lommebok-app installert på smarttelefonen vår.
@@ -279,15 +284,14 @@ Når applikasjonen startes, klikker du på "*Connect Wallet*".
 
 ![ALBY HUB](assets/fr/46.webp)
 
-I Alby Hub, under fanen "*Connections*", klikker du på "*Add Connection*".
+I din Alby Hub, under App Store, finn “Alby Go” og klikk på “Connect”  
+![ALBY HUB](assets/fr/47.webp)  
+Klikk på “Connect with One-Tab Connections”. Dette lar deg koble Alby Hub til andre apper med ett klikk ved å bruke Alby Go.  
 
-![ALBY HUB](assets/fr/47.webp)
+![ALBY HUB](assets/fr/48.webp)  
 
-Gi denne tilkoblingen et navn som gjør det enkelt å identifisere den i huben, og velg hvilke tillatelser du ønsker å gi applikasjonen. I mitt tilfelle velger jeg "*Full tilgang*" for å ha full tilgang til Lightning-nodens midler fra smarttelefonen min, men du kan også begrense tilgangen med et maksimalt budsjett, velge hvilke funksjoner som er tillatt, eller angi en utløpsdato for disse tillatelsene. Når du har konfigurert, klikker du på "*Neste*".
+Alby Hub vil deretter generere en hemmelighet for å opprette forbindelsen til Alby Go.
 
-![ALBY HUB](assets/fr/48.webp)
-
-Alby Hub genererer deretter en hemmelighet for å opprette forbindelsen.
 
 ![ALBY HUB](assets/fr/49.webp)
 
@@ -299,7 +303,8 @@ Klikk på "Fullfør*".
 
 ![ALBY HUB](assets/fr/51.webp)
 
-Du har nå ekstern tilgang til Lightning-noden fra smarttelefonen din, noe som gjør det enkelt å bruke og motta satellitter mens du er på farten hver dag.
+Du har nå fjernadgang til din Lightning-node drevet av Alby Hub fra smarttelefonen din, noe som gjør det enkelt å sende og motta sats på farten hver dag.
+
 
 ![ALBY HUB](assets/fr/52.webp)
 

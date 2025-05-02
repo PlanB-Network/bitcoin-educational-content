@@ -1,11 +1,9 @@
-question: Mida rõhutab fraas Kui pole sinu võtmeid, pole sinu Bitcoine?
-answer: Privaatvõtme omamise tähtsus Bitcoin'i rahakotis
+question: Mis on kasutaja profiili määratlemise peamine eesmärk?
+answer: Võtta vastu teie vajadustele vastav strateegia
 wrong_answers:
-  - Füüsilise võtme omamise tähtsus, et pääseda ligi oma Bitcoinidele
-  - Oma Bitcoinide turvalises kohas hoidmise tähtsus
-  - Oma Bitcoin'i konto andmete mittejagamise tähtsus
+  - Spekuleerimise ja seega ka kasumi maksimeerimiseks
+  - Võtta vastu üldine strateegia, mis töötab kõigi jaoks
+  - Et teada saada, millist Bitcoin mõjutajat sotsiaalmeedias jälgida
 explanation: |
-  Peatükk selgitab, et fraas Kui pole sinu võtmeid, pole sinu Bitcoine
-  rõhutab privaatvõtme omamise tähtsust Bitcoin'i rahakotis. Privaatvõtme
-  omamisega on sul täielik kontroll rahakotis olevate Bitcoinide üle.
+  Oma profiili tundmine ja selle kohandamise võimalus võimaldab teil valida oma isikliku olukorraga sobivaid soetamis- ja hoiulahendusi.
 reviewed: false

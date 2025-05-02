@@ -1,0 +1,8 @@
+question: Koja je jedna od glavnih karakteristika Bitcoin protokola?
+answer: Neutralan je prema svim svojim korisnicima.
+wrong_answers:
+  - Ona favorizuje određene korisnike u odnosu na druge.
+  - Pristrasno je prema određenim korisnicima.
+  - To koristi samo odabranu grupu korisnika.
+explanation: >-
+reviewed: true

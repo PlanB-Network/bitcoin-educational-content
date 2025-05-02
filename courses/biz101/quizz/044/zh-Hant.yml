@@ -1,0 +1,9 @@
+question: 商家使用 Lightning Network 的主要優勢之一是什麼？
+answer: 降低交易費用
+wrong_answers:
+  - 銀行擔保付款
+  - 自動增加銷售額
+  - 取消商業稅
+explanation: |
+  Lightning Network 的交易費用非常低，對商家來說是一個符合成本效益的解決方案。
+reviewed: false

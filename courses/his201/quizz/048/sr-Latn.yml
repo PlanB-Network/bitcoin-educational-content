@@ -1,0 +1,9 @@
+question: Koju uslugu koja prihvata Bitcoin je vodio Teppy, osoba koja je predstavila Bitcoin na Slashdot-u 11. jula 2010?
+answer: MMORPG Priča u pustinji
+wrong_answers:
+  - VPN Mullvad
+  - VoIP usluga Link2VoIP
+  - Web hosting usluga Vekja.net
+explanation: |
+  Ovaj je [počeo](https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159) da prihvata Bitcoin 19. maja.
+reviewed: false

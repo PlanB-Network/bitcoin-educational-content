@@ -1,0 +1,9 @@
+question: Co się stanie, jeśli Bob wyśle Invoice do Alice za 30 000 satoshi?
+answer: Alice tworzy Commitment Transaction, aby przesłać 30 000 satoshi do Boba w kanale.
+wrong_answers:
+  - Alice musi otworzyć nowy kanał, aby dokonać tego transferu.
+  - Bob automatycznie otrzymuje 30 000 satoshi w swoim Wallet.
+  - Invoice jest opłacany poprzez transakcję On-Chain na Bitcoin.
+explanation: |
+  Gdy Bob wysyła Invoice do Alicji, ta tworzy i podpisuje nowy Commitment Transaction, aby dostosować dystrybucję środków, tym samym przesyłając 30 000 satoshi w kanale.
+reviewed: false

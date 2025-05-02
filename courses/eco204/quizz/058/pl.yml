@@ -1,0 +1,12 @@
+question: Jaka była wyjątkowa cecha weksli własnych wprowadzonych na giełdzie Exchange w Antwerpii w XVI wieku?
+answer: Nosiły one nazwy i daty zapadalności
+wrong_answers:
+  - Były wykonane ze złota
+  - Zostały one wyemitowane przez Bank of Amsterdam
+  - Były one wymienialne na floreny
+explanation: |
+  Antwerp Stock Exchange wprowadził weksle, które nosiły nazwy i daty zapadalności
+  i daty zapadalności. Utrudniało to ich wycofanie z Exchange przed upływem terminu płatności. Jednak,
+  gW-1 wprowadził jednak praktykę dyskontowania tych weksli przed terminem ich
+  terminem płatności, czyniąc je bardziej Liquid i wprowadzając koncepcję wartości pieniądza w czasie.
+reviewed: false

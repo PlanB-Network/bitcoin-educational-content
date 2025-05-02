@@ -1,0 +1,9 @@
+question: Koja je uloga ključa u procesima simetričnog šifrovanja i dešifrovanja?
+answer: Koristi se za šifrovanje i dešifrovanje poruke.
+wrong_answers:
+  - Koristi se samo za dešifrovanje poruke.
+  - Koristi se za kreiranje koda za verifikaciju integriteta poruke
+  - Javno je podeljeno sa generate drugim ključevima
+explanation: |
+  U simetričnim šemama šifrovanja, isti privatni ključ se koristi i za šifrovanje poruke prilikom slanja i za dešifrovanje prilikom prijema.
+reviewed: false

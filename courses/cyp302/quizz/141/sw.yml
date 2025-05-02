@@ -1,0 +1,9 @@
+question: Kwa nini kuhesabu bidhaa ya nambari mbili kubwa sana inachukuliwa kuwa shida ngumu?
+answer: Kwa sababu inahitaji muda mwingi wa kukokotoa hata kwa kompyuta kubwa.
+wrong_answers:
+  - Kwa sababu inahitaji ufunguo wa umma kwa kila kipengele.
+  - Kwa sababu inahusisha shughuli za msingi tu katika hesabu.
+  - Kwa sababu inategemea kuzidisha na sio kugawanyika.
+explanation: |
+  Kuongeza idadi kubwa, bidhaa ya nambari kuu mbili kubwa, inahitaji nguvu za kompyuta zinazozidi uwezo wa kompyuta za sasa, na kufanya kazi hii isiwezekane.
+reviewed: false

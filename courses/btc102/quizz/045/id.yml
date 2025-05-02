@@ -1,11 +1,9 @@
-question: Apa peran utama dari pengembang Bitcoin Core?
-answer: Mereka bertanggung jawab atas pengembangan utama dari protokol Bitcoin dan fitur intinya
+question: Mengapa disarankan untuk mentransfer dana secara teratur dari Hot Wallet ke Hardware Wallet?
+answer: Untuk mengurangi risiko peretasan
 wrong_answers:
-  - Mereka mengontrol jaringan Bitcoin
-  - Mereka menciptakan bitcoin baru
-  - Mereka mengatur harga Bitcoin
+  - Untuk meningkatkan likuiditas Wallet
+  - Untuk mengurangi biaya transaksi
+  - Untuk mengoptimalkan privasi UTXO
 explanation: |
-  Konten bab menjelaskan bahwa pengembang Bitcoin Core bertanggung jawab
-  untuk pengembangan utama dari protokol Bitcoin dan fitur intinya. Mereka tidak
-  mengontrol jaringan Bitcoin, menciptakan bitcoin baru, atau mengatur harga Bitcoin.
+  Mentransfer ke Hardware Wallet mengamankan dana dengan menyimpan kunci pribadi secara offline.
 reviewed: false

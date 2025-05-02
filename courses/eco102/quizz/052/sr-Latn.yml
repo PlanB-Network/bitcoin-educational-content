@@ -1,0 +1,9 @@
+question: Kakav zaključak Bastija izvodi iz uticaja uništenja na ekonomiju?
+answer: Štetno je za ekonomiju
+wrong_answers:
+  - To je korisno za ekonomiju
+  - To je neutralno za ekonomiju
+  - To zavisi od ekonomske situacije
+explanation: |
+  Bastiat pokazuje da je uništavanje ekonomski teret jer skreće dragocene resurse i ne stvara dodatnu vrednost.
+reviewed: false

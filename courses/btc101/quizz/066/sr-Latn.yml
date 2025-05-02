@@ -1,0 +1,12 @@
+question: Predviđa se da će kreacija bitkoina prestati oko 2140. godine.
+answer: 2140
+wrong_answers:
+  - 2050
+  - 2030
+  - 2200
+explanation: |
+  Zbog Halving mehanizma, može se matematički
+  predvideti da će kreacija bitkoina prestati 2140. godine,
+  kada ukupan broj bitkoina dostigne svoj limit od 21
+  milion.
+reviewed: true

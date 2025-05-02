@@ -1,6 +1,5 @@
 ---
-term: ビットコイン・ノット
+term: Bitcoin ノット
 ---
-Bitcoinプロトコルの実装。Bitcoin KnotsはリファレンスソフトウェアであるBitcoin Coreの代替であり、他のノードとの互換性を保ちつつ、いくつかの異なるルールや機能を提供する。KnotsはLuke Dashjrによって開発・保守されている。
 
-![](../../dictionnaire/assets/51.webp)
+Bitcoinプロトコルの少数実装。Bitcoin KnotsはBitcoin Coreリファレンスソフトの代替ソフトで、他のノードとの互換性を保ちつつ、いくつかの異なるルールと機能を提供しています。KnotsはLuke Dashjrによって開発・保守されています。

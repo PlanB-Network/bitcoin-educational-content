@@ -1,0 +1,10 @@
+question: Jakie ryzyko wiąże się z korzystaniem z węzła innej firmy?
+answer: Cenzura i monitorowanie działań.
+wrong_answers:
+  - Utrata bitcoinów.
+  - Wzrost opłat transakcyjnych.
+  - Kradzież bitcoinów i śledzenie.
+explanation: |
+  Jeśli korzystasz z węzła, który nie należy do Ciebie, ryzykujesz, że Twoje transmisje transakcji zostaną zablokowane i będą monitorowane przez operatora.
+  
+reviewed: false

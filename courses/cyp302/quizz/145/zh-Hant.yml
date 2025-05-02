@@ -1,0 +1,9 @@
+question: 歐拉定理在非對稱密碼學方面有什麼影響？
+answer: 它簡化了幂的計算
+wrong_answers:
+  - 它允許直接加密訊息
+  - 用於尋找素數
+  - 用於驗證數字的奇偶性
+explanation: |
+  在非對稱密碼學中，Euler 定理簡化了 RSA 等方案中的幂次計算，因為它提供了一種操作模擬指數的方法。
+reviewed: false

@@ -1,0 +1,14 @@
+question: Je, ni jukumu gani la benki kuu kama mkopeshaji wa njia ya mwisho?
+answer: Benki kuu inatoa fedha kwa benki zilizo na shida wakati wa migogoro ili kuzuia athari ya domino ambayo inaweza kulemaza mfumo mzima wa kifedha.
+wrong_answers:
+  - Benki kuu inatoa mikopo kwa benki zilizo na shida wakati wa migogoro ili kuongeza faida yake yenyewe.
+  - Benki kuu inatoa fedha kwa benki zilizo na shida wakati wa mizozo kuchukua shughuli zao.
+  - Benki kuu inatoa mikopo kwa benki zilizo na shida wakati wa migogoro ili kuongeza deni la taifa.
+explanation: |
+  dhana ya benki kuu kama mkopeshaji wa mapumziko ya mwisho
+  iliibuka katika karne ya 19 huko Uingereza kwa kujibu
+  mara kwa mara benki anaendesha kwamba kutishia utulivu wa kifedha. Na
+  mikopo kwa benki katika dhiki, benki kuu inaweza kuzuia
+  athari kubwa ya kushindwa kwa benki ambayo inaweza kusababisha a
+  kushuka kwa uchumi au unyogovu.
+reviewed: true

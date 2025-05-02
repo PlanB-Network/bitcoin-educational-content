@@ -1,0 +1,13 @@
+question: Šta je Bitcoin transakcija?
+answer: Prijenos Ownership bitkoina, koristeći kriptografiju.
+wrong_answers:
+  - Fizički Exchange bitkoina, koristeći notara.
+  - Prenos Ownership bitkoina, korišćenjem fizičkog Address.
+  - Prenos Ownership bitkoina, koristeći email Address.
+explanation: |
+  Transakcija Bitcoin je digitalni prenos
+  Ownership bitkoina, korišćenjem Bitcoin Address
+  dobijenog zahvaljujući kriptografiji eliptičke krive. Ovaj
+  Address je jedinstven za Wallet osobe koja prima
+  bitkoine.
+reviewed: true

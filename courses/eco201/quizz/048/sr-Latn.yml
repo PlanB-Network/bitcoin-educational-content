@@ -1,0 +1,9 @@
+question: Koji je aksiomatsko-deduktivni metod koji je predložio Ludwig von Mises u proučavanju društvenih nauka?
+answer: Ovaj pristup zasnovan je na fundamentalnim predlozima koji se nazivaju aksiomi, slično onima koji se koriste u matematici.
+wrong_answers:
+  - Ovaj pristup zasnovan je na empirijskim podacima i zapažanjima.
+  - Ovaj pristup se zasniva na privremenim eksperimentima i hipotezama.
+  - Ovaj pristup zasnovan je na pozitivističkom pristupu koji se često koristi u društvenim naukama.
+explanation: |
+  Ekonomski eksperimenti ne mogu se reprodukovati u laboratoriji, i važno je napomenuti da posmatranje korelacije između dve varijable ne dokazuje uzročnu vezu između njih. Ovo je razlog zašto je Ludwig von Mises predložio aksiomatsko-deduktivnu metodu.
+reviewed: true

@@ -7,12 +7,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.59
+    reward: 0.58
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
@@ -23,42 +23,42 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.59
+    reward: 0.58
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.84
+    reward: 0.83
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.59
+    reward: 0.58
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.84
+    reward: 0.83
   - language: id
     last_contribution_date:
     urgency: 1
@@ -73,13 +73,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.59
-
+    reward: 0.58
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.59
+    reward: 0.58
 tags:
   - self-sovereignty
   - risks

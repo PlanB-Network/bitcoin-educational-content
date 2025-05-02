@@ -1,0 +1,11 @@
+question: Ni nambari gani ya kuzuia ya muamala wa kwanza wa Bitcoin?
+answer: Kizuizi cha 170.
+wrong_answers:
+  - Kizuizi cha 1.
+  - Kizuizi cha 17.
+  - Zuia 1700.
+explanation: |
+  Shughuli ya kwanza ya Bitcoin, ambayo ilikuwa ni shughuli ya
+  10 BTC kati ya Satoshi Nakamoto na Hal Finney, imerekodiwa
+  katika block 170.
+reviewed: true

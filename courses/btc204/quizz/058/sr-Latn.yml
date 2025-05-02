@@ -1,0 +1,9 @@
+question: Koja je razlika između spoljašnje i unutrašnje ponovne upotrebe Address u transakciji?
+answer: Spoljna ponovna upotreba se primećuje u više transakcija, dok se unutrašnja ponovna upotreba primećuje unutar iste transakcije.
+wrong_answers:
+  - Spoljna ponovna upotreba odnosi se na javne adrese, dok se unutrašnja ponovna upotreba odnosi na privatne adrese korišćene u skriptama transakcija.
+  - Interna ponovna upotreba se primećuje kroz više transakcija, dok se eksterna ponovna upotreba primećuje unutar iste transakcije.
+  - Interna ponovna upotreba odnosi se na javne adrese, dok se eksterna ponovna upotreba odnosi na privatne adrese korišćene u skriptama transakcija.
+explanation: |
+  Spoljna ponovna upotreba Address se primećuje kada se Address ponovo koristi u nekoliko različitih transakcija, dok se unutrašnja ponovna upotreba odnosi na Address koji se koristi i u ulazima i u izlazima iste transakcije.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Koja je preporučena praksa kada ubacujete USB ključ u vaš računar?
+answer: Ne umećite nepoznate ili sumnjive USB ključeve.
+wrong_answers:
+  - Umetnite bilo koji USB ključ bez provere.
+  - Uvek formatirajte USB ključ pre umetanja.
+  - Umetnite USB ključ i zatim proverite ima li virusa.
+explanation: |
+  Umetanje nepoznatih ili sumnjivih USB ključeva može izložiti
+  sistem zlonamernim programima koji se mogu automatski pokrenuti
+  prilikom umetanja. Provera USB ključa biće beskorisna nakon
+  što je umetnut.
+reviewed: true

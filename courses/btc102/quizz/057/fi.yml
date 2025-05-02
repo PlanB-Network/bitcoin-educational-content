@@ -1,10 +1,9 @@
-question: Mitä DCA tarkoittaa Bitcoin-sijoittamisen yhteydessä?
-answer: Dollar Cost Averaging
+question: Mitä hankintamenetelmää vainoharhainen käyttäjä välttää?
+answer: Keskitetyt alustat ja KYC
 wrong_answers:
-  - Suora Valuutan Hankinta
-  - Digitaalisen Kolikon Allokointi
-  - Hajautettu Krypto-Omaisuus
+  - P2P matchmaking-alustat
+  - Bitcoin Pankkiautomaatit
+  - Suorat käteisostot tapaamisissa
 explanation: |
-  Dollar Cost Averaging (DCA) on strategia, jossa jaat haluamasi sijoitussumman
-  periodisiin ostoihin vähentääksesi volatiliteetin vaikutusta.
+  Anonymiteetin säilyttämiseksi vainoharhainen käyttäjä välttää alustoja, jotka vaativat henkilöllisyyden todentamista.
 reviewed: false

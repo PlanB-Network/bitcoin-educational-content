@@ -1,0 +1,11 @@
+question: Ni ipi njia mojawapo ya kuepuka ulaghai mtandaoni?
+answer: Thibitisha utambulisho wa tovuti unayovinjari, hasa kwa kuangalia kiendelezi na jina la kikoa.
+wrong_answers:
+  - Tumia mitandao ya Wi-Fi ya umma.
+  - Tumia tovuti ambazo hazitumii itifaki ya HTTPS.
+  - Tumia tovuti ambazo hazina kufuli iliyoonyeshwa.
+explanation: |
+  Ili kuepuka ulaghai mtandaoni, ni muhimu kuthibitisha utambulisho
+  ya tovuti unayovinjari. Hii inaweza kufanyika kwa kuangalia
+  ugani na jina la kikoa la tovuti.
+reviewed: true

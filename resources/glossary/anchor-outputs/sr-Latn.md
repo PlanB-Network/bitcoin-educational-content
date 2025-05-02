@@ -1,0 +1,5 @@
+---
+term: Anchor OUTPUTS
+---
+
+Predlog usmeren na poboljšanje upravljanja naknadama za transakcije unutar Lightning kanala. Sa svakom promenom stanja u Lightning kanalu, zainteresovane strane kreiraju i potpisuju novi Commitment Transaction koji odražava novu raspodelu sredstava unutar kanala. Problem sa ovim mehanizmom leži u određivanju naknada za transakcije u trenutku njegovog kreiranja. Naime, naknade za transakcije na Bitcoin mreži podložne su značajnim fluktuacijama, kako naviše tako i naniže. Ako naknade postavljene za poslednji Commitment Transaction nisu dovoljne u trenutku jednostranog zatvaranja kanala, ne samo da će transakcija zahtevati znatno vreme za potvrdu, već bi vremenski mehanizmi zaključavanja (timelocks) mogli omogućiti krađu sredstava. Anchor izlazi rezervišu mali deo sredstava u Commitment Transaction za pokrivanje budućih naknada. U slučaju zagušenja mreže i rasta naknada, Anchor izlazi omogućavaju modifikaciju naknada za transakcije nakon kreiranja Commitment Transaction, čime se obezbeđuje dovoljno brzo zatvaranje Lightning kanala.

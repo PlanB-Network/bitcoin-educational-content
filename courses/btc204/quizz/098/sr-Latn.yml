@@ -1,0 +1,9 @@
+question: Šta meri prosleđena anonimnost?
+answer: Otpornost privatnosti protiv analize od prošlosti do sadašnjosti.
+wrong_answers:
+  - Otpornost privatnosti protiv analize sadašnjosti prema prošlosti.
+  - Otpornost privatnosti protiv analize budućnost-u-sadašnjost.
+  - Otpornost privatnosti protiv analize budućnost-prema-prošlost.
+explanation: |
+  Prosle anonimnosti mere otpornost privatnosti novčića protiv analize od prošlosti ka sadašnjosti (ulaz ka izlazu).
+reviewed: false

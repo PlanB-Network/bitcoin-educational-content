@@ -1,0 +1,9 @@
+question: Je, ni hatari gani kuu katika miamala ya Commitment kwenye Lightning Network?
+answer: Kuchapisha muamala wa zamani ili kudai pesa zaidi
+wrong_answers:
+  - Kusahau kusaini Commitment Transaction
+  - Kutuma pesa kwa bahati mbaya kwa kituo kingine
+  - Kuzuia muamala kwa kufunga muda usiofaa
+explanation: |
+  Hatari kuu ni kwamba chama kinaweza kujaribu kudanganya kwa kuchapisha Commitment Transaction ya zamani, ambayo inaweza kuwaruhusu kurejesha pesa ambazo hawana tena.
+reviewed: false

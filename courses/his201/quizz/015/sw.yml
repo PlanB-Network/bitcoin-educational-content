@@ -1,0 +1,9 @@
+question: Je, ni lengo gani la awali la algoriti ya Hashcash Proof of Work iliyoundwa na Adam Back?
+answer: Ili kupambana na barua pepe taka
+wrong_answers:
+  - Ili kuhakikisha thamani ya kitengo cha akaunti
+  - Ili kufikia makubaliano juu ya mtandao wa rika-kwa-rika
+  - Kuchemsha bahari
+explanation: |
+  Hashcash ilihitaji Proof of Work kwa kila barua pepe iliyopokelewa, ambayo ilipaswa kupunguza barua taka.
+reviewed: false

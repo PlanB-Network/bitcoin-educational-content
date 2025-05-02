@@ -1,0 +1,9 @@
+question: Jaka jest główna zaleta korzystania z menedżera haseł?
+answer: Przechowuje i generuje złożone hasła
+wrong_answers:
+  - Zapewnia podpowiedzi do zapamiętania haseł
+  - Ponownie wykorzystuje te same hasła na różnych kontach online
+  - Zastępuje potrzebę korzystania z oprogramowania antywirusowego
+explanation: |
+  Menedżer haseł tworzy silne hasła i bezpiecznie je przechowuje, umożliwiając ich łatwe odzyskanie bez konieczności ich zapamiętywania.
+reviewed: false

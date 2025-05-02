@@ -1,0 +1,12 @@
+question: W jaki sposób nowe Bitcoin są tworzone i wprowadzane do obiegu?
+answer: Poprzez Mining jako nagrodę za dodanie nowych transakcji do Blockchain
+wrong_answers:
+  - Poprzez wydawanie przez scentralizowany organ
+  - Kupując je na giełdach Bitcoin
+  - Otrzymując je jako opłaty transakcyjne
+explanation: |
+  Nowe Bitcoin są wprowadzane do obiegu w procesie zwanym Mining.
+  Górnicy rywalizują ze sobą o dodanie nowych transakcji do Blockchain.
+  W Exchange za swoją pracę górnicy są nagradzani nowo utworzonymi Bitcoin.
+  Proces ten również weryfikuje i zabezpiecza transakcje w sieci Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja matematička operacija je osnova sigurnosti kriptografije eliptičkih krivih?
+answer: Problem diskretnog logaritma
+wrong_answers:
+  - Faktorizacija prostih brojeva
+  - Izračunavanje kvadratnih ostataka
+  - Diskretni problem kocke
+explanation: |
+  Bezbednost kriptografije eliptičkih krivih zasniva se na težini rešavanja problema diskretnog logaritma na ovim krivama.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Šta omogućava Lightning Network?
+answer: Trenutne, niskobudžetne Bitcoin transakcije.
+wrong_answers:
+  - Trenutne, visokotarifne Bitcoin transakcije.
+  - Odgodene, niskobudžetne Bitcoin transakcije.
+  - Odgodene, visokotarifne Bitcoin transakcije.
+explanation: >-
+reviewed: true

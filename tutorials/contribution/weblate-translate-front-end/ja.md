@@ -14,7 +14,7 @@ Plan ₿ Networkの使命は、ビットコインに関する一流の教育リ�
 
 教育コンテンツを翻訳するために、私たちは[人工知能](https://github.com/Asi0Flammeus/LLM-Translator)を使用しています。そして、これらのファイルに含まれる間違いを修正するために、校正者を募集しています。校正をご希望の方は、以下のチュートリアルをご参照ください：
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 一方、ウェブサイトの静的要素（教育コンテンツを除く）の翻訳にご興味がある場合は、こちらが最適です！フロントエンドを効果的に翻訳するには、Weblate ツールを使用します。
 
 Plan ₿ Networkに全く新しい言語を追加したい場合は、必ずPlan ₿ Networkチームの[Telegram group](https://t.me/PlanBNetwork_ContentBuilder)までご連絡ください。テレグラムをお持ちでない方は、mari@planb.network。その際、あなたがどのような人で、どのような言語を話すかについて、簡単なプレゼンテーションを必ず書いてください。
@@ -23,7 +23,7 @@ Plan ₿ Networkに全く新しい言語を追加したい場合は、必ずPlan
 
 Weblateに新しい言語を追加する前に、このチュートリアルに従ってください。
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 翻訳を始める準備ができたら、このチュートリアルに戻って、以下の点を確認してください。
 
 ## ウェブレイトに登録する

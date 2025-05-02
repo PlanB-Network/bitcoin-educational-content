@@ -1,0 +1,8 @@
+question: Koji je glavni rizik korišćenja usluge skrbništva za čuvanje vaših bitkoina?
+answer: Pouzdana treća strana može ograničiti vaš pristup vašim sredstvima u bilo kojem trenutku.
+wrong_answers:
+  - Pouzdana treća strana može povećati vrednost vaših bitkoina u bilo kom trenutku.
+  - Pouzdana treća strana može smanjiti vrednost vaših bitkoina u bilo kom trenutku.
+  - Pouzdana treća strana ne može duplicirati vaše bitkoine u bilo kom trenutku.
+explanation: >-
+reviewed: true

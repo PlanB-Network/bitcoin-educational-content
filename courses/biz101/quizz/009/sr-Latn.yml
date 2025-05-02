@@ -1,0 +1,9 @@
+question: Koja je glavna svrha Lightning Network izgrađenog na vrhu Bitcoin?
+answer: Da bi se omogućila brža, gotovo trenutna plaćanja uz minimalnu interakciju sa On-Chain.
+wrong_answers:
+  - Da zameni Bitcoin-ov Blockchain u potpunosti i skladišti sve transakcije lokalno.
+  - Da obezbedi mrežu sa dozvolama koju kontroliše jedan entitet.
+  - Da uspori transakcije kako bi se osiguralo da ostanu potpuno sledljive od strane vlada.
+explanation: |
+  Lightning Network je protokol „drugi-Layer“ koji omogućava učesnicima da kreiraju kanale plaćanja, obavljaju transakcije off-chain i samo poravnaju konačni neto saldo na Bitcoin Blockchain. Ovaj dizajn postiže veće brzine i niže troškove.
+reviewed: false

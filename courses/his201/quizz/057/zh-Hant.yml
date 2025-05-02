@@ -1,0 +1,9 @@
+question: 在 2010 年的幾個月中，哪個德國 Miner 網路的 Hash 率維持在 20%？
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - 騎士
+explanation: |
+  他在 2010 年夏天成立了一個由顯示卡組成的 Mining 農場 (稱為 ArtFarm)，因此在秋天時已大幅領先競爭對手。
+reviewed: false

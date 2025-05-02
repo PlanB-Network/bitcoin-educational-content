@@ -1,0 +1,9 @@
+question: Koji je glavni nedostatak korišćenja Tor-a za Bitcoin čvor?
+answer: Smanjenje brzine komunikacije
+wrong_answers:
+  - Povećanje naknada za transakcije
+  - Rizik od cenzure transakcija
+  - Rizik od Eclipse napada na čvor
+explanation: |
+  Komunikacije preko Tor-a su sporije. Ovo kašnjenje je posebno problematično tokom inicijalnog pokretanja čvora, jer IBD (Initial Block Download) zahteva mnogo komunikacija.
+reviewed: false

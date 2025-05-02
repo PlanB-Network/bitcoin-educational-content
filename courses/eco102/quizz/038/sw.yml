@@ -1,0 +1,9 @@
+question: Je, Bastiat anazingatiaje ufafanuzi mzuri wa mali?
+answer: Ni lazima kuzingatia sababu
+wrong_answers:
+  - Ni lazima kuzingatia madhara
+  - Ni lazima kuzingatia sheria
+  - Ni lazima iwe na msingi wa utambuzi wa kijamii
+explanation: |
+  Bastiat anaamini kwamba mali inapaswa kufafanuliwa kulingana na sababu zake, kama vile kazi na juhudi za kibinafsi, badala ya kama muundo wa kisheria.
+reviewed: false

@@ -1,9 +1,9 @@
-question: ¿Cuál es el propósito principal de una actualización de software?
-answer: Para corregir errores y mejorar la seguridad de tu software.
+question: ¿Por qué es esencial actualizar periódicamente el sistema y el software?
+answer: Para corregir vulnerabilidades de seguridad conocidas
 wrong_answers:
-  - Para agregar nuevas características
-  - Para cambiar la interfaz del software
-  - Para aumentar el tamaño del software
+  - Para mejorar la velocidad de los ordenadores y responder así más rápidamente a los ciberataques
+  - Para añadir funciones de pirateo
+  - Para optimizar la compatibilidad de los videojuegos con Bitcoin
 explanation: |
-  Si bien las actualizaciones de software a menudo vienen con nuevas características, su propósito principal es corregir errores y mejorar la seguridad del software. Esto es crucial para mantener tu computadora en óptimas condiciones de funcionamiento.
+  Las actualizaciones suelen corregir vulnerabilidades conocidas que son aprovechadas por los piratas informáticos.
 reviewed: false

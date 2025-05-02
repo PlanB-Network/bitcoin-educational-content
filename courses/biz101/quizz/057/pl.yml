@@ -1,0 +1,9 @@
+question: Dlaczego ważne jest śledzenie wartości fiat w momencie każdej transakcji Bitcoin?
+answer: Zapewnienie dokładnej księgowości i zgodności z przepisami podatkowymi
+wrong_answers:
+  - Aby automatycznie zwiększyć saldo Wallet
+  - Aby umożliwić handel rynkowy w czasie rzeczywistym bezpośrednio z Wallet
+  - Aby zmniejszyć opłaty transakcyjne nakładane przez sieć
+explanation: |
+  Śledzenie wartości fiat pomaga firmom zarządzać księgowością przy wahaniach cen Bitcoin.
+reviewed: false

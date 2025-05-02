@@ -1,11 +1,14 @@
 ---
-term: SEED
-
+term: GRAIN
 ---
-I den spesifikke konteksten til en hierarkisk deterministisk Bitcoin-lommebok er et seed en 512-biters informasjonsbit som er avledet fra tilfeldigheter. Det brukes til å generere et sett med private nøkler og tilhørende offentlige nøkler for en Bitcoin-lommebok på en deterministisk og hierarkisk måte. Frøet forveksles ofte med selve gjenopprettingsfrasen. Det er imidlertid forskjellig informasjon. Frøet fås ved å bruke `PBKDF2`-funksjonen på den mnemoniske frasen og enhver potensiell passordfrase.
 
-Frøet ble oppfunnet med innføringen av BIP32, som definerer grunnlaget for den hierarkiske, deterministiske lommeboken. I denne standarden var seed 128 bits. Dette gjør det mulig å utlede alle nøklene i en lommebok fra én enkelt informasjon, i motsetning til JBOK-lommebøker (*Just a Bunch Of Keys*), som krever nye sikkerhetskopier for hver genererte nøkkel. BIP39 introduserte senere en koding av dette frøet for å gjøre det enklere for mennesker å lese det. Denne kodingen gjøres i form av en frase, ofte kalt en mnemonisk frase eller gjenopprettingsfrase. Denne standarden bidrar til å unngå feil i sikkerhetskopieringen av seed, blant annet gjennom bruk av en sjekksum.
+I den spesifikke konteksten av en hierarkisk deterministisk Bitcoin-portefølje er en seed en 512-biters informasjonsbit som er avledet fra en tilfeldig hendelse. Den brukes til å deterministisk og hierarkisk generate et sett med private nøkler og deres tilsvarende offentlige nøkler for en Bitcoin-portefølje. seed forveksles ofte med selve gjenopprettingsfrasen. Men det er ikke det samme. seed oppnås ved å bruke funksjonen `PBKDF2` på Mnemonic-frasen og en hvilken som helst passphrase.
 
-I kryptografi er et seed et stykke tilfeldig data som brukes som utgangspunkt for å generere kryptografiske nøkler, krypteringer eller pseudotilfeldige sekvenser. Kvaliteten og sikkerheten til mange kryptografiske prosesser avhenger av hvor tilfeldig og konfidensielt seed er.
 
-> den engelske oversettelsen av "graine" er "frø". På fransk bruker mange det engelske ordet direkte om frøet
+seed ble oppfunnet med BIP32, som definerte grunnlaget for den hierarkiske deterministiske porteføljen. I denne standarden målte seed 128 bits. Dette gjør at alle nøklene i en portefølje kan avledes fra én enkelt informasjon, i motsetning til JBOK-porteføljer (*Just a Bunch Of Keys*), som krever nye sikkerhetskopier for hver nøkkel som genereres. BIP39 foreslo deretter en koding av denne seed for å gjøre det enklere for mennesker å lese den. Denne kodingen har form av en frase, vanligvis referert til som en Mnemonic-frase eller gjenopprettingsfrase. Denne standarden unngår feil ved lagring av seed, særlig takket være bruken av en sjekksum.
+
+
+Utenfor Bitcoin-sammenheng er en seed i kryptografi generelt en startverdi som brukes til å generate kryptografiske nøkler, eller mer generelt, alle typer data som produseres av en pseudotilfeldige tallgenerator. Denne startverdien må være tilfeldig og uforutsigbar for å garantere sikkerheten til det kryptografiske systemet. seed introduserer entropi i systemet, men den påfølgende genereringsprosessen er deterministisk.
+
+
+> i vanlig språkbruk refererer de fleste bitcoin-brukere til Mnemonic-frasen når de snakker om "seed", og ikke til den mellomliggende avledningstilstanden som ligger mellom Mnemonic-frasen og hovednøkkelen

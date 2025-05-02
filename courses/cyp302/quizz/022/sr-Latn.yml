@@ -1,0 +1,9 @@
+question: U šifrovanju pomakom, koji je rezultat za reč DOG sa ključem 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Sa pomakom od 17 u abecedi, D postaje U, O postaje F, a G postaje X. Dakle, šifrovana reč je UFX.
+reviewed: false

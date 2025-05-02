@@ -1,0 +1,11 @@
+question: Ni nini moja ya hasara za dhahabu kama aina ya pesa?
+answer: Haigawanyiki kwa urahisi.
+wrong_answers:
+  - Haihifadhi thamani yake katika nafasi.
+  - Inamomonyoka kwa muda.
+  - Ni rahisi kuzalisha.
+explanation: |
+  Moja ya hasara kuu za dhahabu kama aina ya pesa ni
+  kuwa ngumu kugawanya katika vitengo vidogo kama hitaji
+  hutokea, ambayo inafanya kuwa chini ya vitendo kutumia.
+reviewed: true

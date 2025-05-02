@@ -1,0 +1,9 @@
+question: Koja je jedna od glavnih prednosti za trgovce koji koriste Lightning Network?
+answer: Smanjene naknade za transakcije
+wrong_answers:
+  - Plaćanja garantovana od strane banaka
+  - Automatsko povećanje prodaje
+  - Eliminacija komercijalnih poreza
+explanation: |
+  Naknade za transakcije na Lightning Network su veoma niske, što ga čini isplativim rešenjem za trgovce.
+reviewed: false

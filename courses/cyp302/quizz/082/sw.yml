@@ -1,0 +1,9 @@
+question: Kwa nini pedi ya wakati mmoja inachukuliwa kuwa njia salama ya usimbaji fiche?
+answer: Kwa sababu kila sehemu ya ufunguo ni ya nasibu na hakuna sehemu inayotumiwa tena
+wrong_answers:
+  - Kwa sababu hutumia ufunguo wa umma na wa kibinafsi bila mpangilio
+  - Kwa sababu inategemea nambari kuu
+  - Kwa sababu inasimba ujumbe mdogo tu
+explanation: |
+  Pedi ya mara moja ni salama kwa sababu kila biti ya ufunguo ni ya nasibu na haitumiki tena, kuhakikisha kuwa haiachi alama zozote za kunyonya kwa mshambulizi.
+reviewed: false

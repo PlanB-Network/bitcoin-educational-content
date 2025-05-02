@@ -1,0 +1,12 @@
+question: Je, lengo kuu la mapinduzi ya Bitcoin kulingana na kozi hii ni lipi?
+answer: Kuunda ulimwengu ambamo enzi kuu ya mwanadamu ni haki, faragha inaheshimiwa kwa chaguo-msingi, na pesa haitumiwi.
+wrong_answers:
+  - Kuunda ulimwengu ambapo faragha si haki ya binadamu, na pesa zinatumiwa na benki.
+  - Kuunda ulimwengu ambao serikali hazina nguvu, na jamii ina machafuko.
+  - Kuunda ulimwengu ambapo pesa za mwili zimepitwa na wakati.
+explanation: |
+  Maandishi haya ya kozi yanapendekeza kwamba lengo kuu la Bitcoin
+  mapinduzi ni kuunda ulimwengu ambapo uhuru wa mwanadamu uko
+  haki, faragha inaheshimiwa kwa chaguo-msingi, na pesa haziheshimiwi
+  kuendeshwa.
+reviewed: true

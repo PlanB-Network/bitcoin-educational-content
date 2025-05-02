@@ -1,0 +1,9 @@
+question: Koji je termin za informacije koje povezuju paket On-Chain aktivnosti sa oblikom stvarnog identiteta?
+answer: Ulazna tačka.
+wrong_answers:
+  - Ključ za povezivanje.
+  - Veza otiska prsta.
+  - Marker analize.
+explanation: |
+  Ponašanja i informacije koje mogu povezati pravi identitet sa aktivnostima On-Chain nazivaju se ulazne tačke.
+reviewed: false

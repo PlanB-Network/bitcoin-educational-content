@@ -1,0 +1,9 @@
+question: 弱密碼散列時的主要弱點是什麼？
+answer: 它們容易受到字典攻擊
+wrong_answers:
+  - 它們無法透過散列方式驗證
+  - 他們總是 generate 碰撞
+  - 它們需要較長的雜湊時間以提高安全性
+explanation: |
+  弱密碼可以使用字典攻擊輕易地從 Hash 中復原，因此密碼的選擇對於確保安全性非常重要。
+reviewed: false

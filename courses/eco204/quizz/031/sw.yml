@@ -1,0 +1,12 @@
+question: Je, watu wa Ujerumani walikuwa na mtazamo gani wakati wa mfumuko wa bei katika Jamhuri ya Weimar?
+answer: Walihusisha mfumuko wa bei na kupanda kwa dola badala ya kushuka kwa thamani ya ndani ya sarafu yao wenyewe.
+wrong_answers:
+  - Walikuwa wanafahamu kikamilifu sababu ya msingi ya mfumuko mkubwa wa bei waliokuwa wakiupata.
+  - Waliilaumu serikali kwa matatizo yao ya kiuchumi.
+  - Waliamini kwamba mfumuko wa bei ulitokana na malipo ya vita.
+explanation: |
+  Idadi ya watu wa Ujerumani wakati wa Jamhuri ya Weimar walihusisha mfumuko wa bei
+  walikuwa wakikabiliwa na kupanda kwa dola, na kutupilia mbali utambuzi wowote wa
+  uhusiano kati ya matatizo yao ya kiuchumi na kushuka kwa thamani ya fedha, hasa ikiwa
+  kwa kutengeneza pesa kupita kiasi.
+reviewed: false

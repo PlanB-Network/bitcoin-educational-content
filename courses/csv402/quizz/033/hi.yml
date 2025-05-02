@@ -1,0 +1,9 @@
+question: Terminal Consignment का उद्देश्य RGB ट्रांसफर प्रक्रिया में क्या है?
+answer: राज्य परिवर्तन इतिहास प्रदान करें
+wrong_answers:
+  - Genesis और Contract को वैलिडेट करें
+  - पुराने ट्रांज़िशन हटा दो
+  - जीडब्ल्यू-4 ट्रांसफर के लिए एक नया जीडब्ल्यू-5
+explanation: |
+  Terminal Consignment, Contract का इतिहास इकट्ठा करता है ताकि अब तक ट्रांसफर किए गए एसेट की वैधता साबित की जा सके।
+reviewed: false

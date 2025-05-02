@@ -56,33 +56,33 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16

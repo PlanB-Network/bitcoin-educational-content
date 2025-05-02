@@ -1,0 +1,9 @@
+question: Kako su oznake povezane sa Bitcoin Wallet uskladištene?
+answer: Lokalno na Wallet softveru.
+wrong_answers:
+  - U centralizovanoj bazi podataka kojom upravlja programer.
+  - Na Bitcoin Blockchain kroz OP_RETURN.
+  - Samo u RAM-u tokom izvršavanja softvera.
+explanation: |
+  Oznake se čuvaju lokalno putem Wallet softvera i nikada se ne prenose preko Bitcoin mreže. Obeležavanje je stoga alat za lično upravljanje.
+reviewed: false

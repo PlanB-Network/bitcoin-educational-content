@@ -1,0 +1,13 @@
+question: Jaka jest główna zaleta układów ASIC w kontekście Bitcoin Mining?
+answer: Mogą one bardzo wydajnie wykonywać jeden konkretny typ obliczeń
+wrong_answers:
+  - Mogą one wykonywać wiele różnych typów obliczeń
+  - Zużywają mniej energii elektrycznej niż procesory
+  - Są one tańsze niż procesory
+explanation: |
+  Układy ASIC to chipy porównywalne z układami CPU, jednak
+  są opracowywane w celu wykonywania tylko jednego
+  obliczeń w możliwie najbardziej wydajny sposób. W przypadku
+  gW-2 ASIC, są one zaprojektowane do obliczania algorytmu
+  algorytmu SHA256.
+reviewed: true

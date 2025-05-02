@@ -1,0 +1,9 @@
+question: Zašto se pseudonasumične strujne šifre češće koriste u praksi nego jednokratni blokovi?
+answer: Dozvoljavaju korišćenje kraćeg ključa prilikom generisanja dužeg toka ključeva
+wrong_answers:
+  - Oni ne zahtevaju tajni ključ
+  - Oni koriste kombinaciju simetrične i asimetrične enkripcije
+  - Oni ne trebaju ključna ažuriranja
+explanation: |
+  Pseudorandom strim šifre su praktičnije jer omogućavaju da se kratak ključ proširi u duži ključni tok, izbegavajući potrebu za čuvanjem ključa koji je dug kao sama poruka.
+reviewed: false

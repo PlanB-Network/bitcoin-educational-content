@@ -1,0 +1,9 @@
+question: Je, ni jambo gani kuu la kuzingatia unapochagua jukwaa au wakala wa kununua Bitcoin kwa ajili ya biashara?
+answer: Sifa ya mtoa huduma, hatua za usalama, na uwezo wa kusafirisha historia za miamala kwa ajili ya uhasibu.
+wrong_answers:
+  - Kuhakikisha kuwa mfumo huu unaauni fedha za siri zisizojulikana pekee.
+  - Kutafuta mtoa huduma ambaye anakataa kutoa usaidizi wowote kwa wateja.
+  - Kwa kutumia huduma ambayo inakataza kutoa Bitcoin kwa Wallet ya kujilinda.
+explanation: |
+  Jukwaa linalotegemewa linapaswa kuwa na sifa dhabiti, usalama mzuri, na zana za kutunza kumbukumbu. Uwezo wa kuondoa Bitcoin na kuunganishwa na programu ya uhasibu pia ni muhimu kwa shughuli za biashara.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka jest granica suwerenności państwa według Johna Stuarta Milla?
+answer: Państwo może interweniować tylko wtedy, gdy działania jednostki szkodzą innym.
+wrong_answers:
+  - Państwo jest suwerenne w każdych okolicznościach i nie może być ograniczane przez żadną jednostkę lub grupę jednostek.
+  - Suwerenność państwa jest ograniczona środkami ekonomicznymi.
+  - Suwerenność państwa jest ograniczona przez prawa natury.
+explanation: |
+  John Stuart Mill argumentował, że interwencja państwa jest uzasadniona tylko wtedy, gdy działania jednostki wyrządzają krzywdę innym, w celu ochrony wolności osobistej w obszarach, które nie szkodzą innym.
+reviewed: false

@@ -1,0 +1,9 @@
+question: W jakiej sytuacji stosuje się wymuszone zamknięcie kanału?
+answer: Gdy jedna ze stron przestaje odpowiadać
+wrong_answers:
+  - Gdy konieczne jest zwiększenie przepustowości kanału
+  - Gdy blokada czasowa jest niewystarczająca
+  - Gdy opłaty transakcyjne są zbyt wysokie
+explanation: |
+  Wymuszone zamknięcie jest stosowane w ostateczności, gdy jedna ze stron, na przykład z powodu problemu technicznego, nie odpowiada już na wiadomości drugiej strony.
+reviewed: false

@@ -1,0 +1,9 @@
+question: कौन सा दूसरा-जीडब्ल्यू-0 प्रोटोकॉल तुरंत भुगतान करने में सक्षम बनाता है?
+answer: जीडब्ल्यू-1
+wrong_answers:
+  - साइडचेन
+  - जीडब्ल्यू-2
+  - जीडब्ल्यू-3 कोर
+explanation: |
+  Lightning Network, Bitcoin Blockchain के बाहर off-chain ऑपरेशंस के जरिए तेज और कम लागत वाले लेन-देन को सक्षम बनाता है।
+reviewed: false

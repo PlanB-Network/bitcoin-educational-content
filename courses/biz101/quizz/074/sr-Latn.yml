@@ -1,0 +1,9 @@
+question: Koje napredne sigurnosne funkcije se obično implementiraju na nivou preduzeća za bitkoine?
+answer: Višestruki potpis sa vremenskim zaključavanjem
+wrong_answers:
+  - Zaštita lozinkom za mobilni Lightning Wallet
+  - Single-sig sa BIP39 passphrase zaštitom
+  - Single-sig sa 24 reči seed fraza
+explanation: |
+  Mere visoke bezbednosti kao što su konfiguracije sa više potpisa i vremenskim zaključavanjem su ključne za upravljanje velikim iznosima.
+reviewed: false

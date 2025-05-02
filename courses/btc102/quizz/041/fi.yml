@@ -1,9 +1,9 @@
-question: Mihin Bitcoin on natiivi?
-answer: Internetiin
+question: Mikä on liikkeessä olevien bitcoinien likimääräinen enimmäismäärä Supply?
+answer: 21 miljoonaa
 wrong_answers:
-  - Lohkoketjuun
-  - Pankkijärjestelmään
-  - Osakemarkkinoille
+  - 10 miljoonaa
+  - 47 miljoonaa
+  - 150 miljoonaa
 explanation: |
-  Luvussa todetaan, että Bitcoin on natiivi internetille, tehden siitä
-  saavutettavan kenelle tahansa, jolla on internetyhteys.
+  Bitcoin on ohjelmoitu niin, että Supply:n rajoitettu määrä on noin 21 miljoonaa bitcoinia.
+reviewed: false

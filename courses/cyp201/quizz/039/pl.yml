@@ -1,0 +1,9 @@
+question: Jaka jest główna rola Bitcoin Wallet?
+answer: Zarządzanie i zabezpieczanie kluczy prywatnych
+wrong_answers:
+  - Przechowywanie bitcoinów użytkownika
+  - Automatyczne zapewnianie poufności transakcji
+  - generate bitcoiny dla każdego użytkownika
+explanation: |
+  Bitcoin Wallet nie przechowuje bezpośrednio bitcoinów, ale zarządza kluczami prywatnymi niezbędnymi do odblokowania UTXO, które reprezentują bitcoiny.
+reviewed: false

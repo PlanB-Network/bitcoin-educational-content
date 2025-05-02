@@ -1,0 +1,11 @@
+question: Lightning Network क्या है?
+answer: एक पेमेंट नेटवर्क जो Bitcoin प्रोटोकॉल का इस्तेमाल करता है बिजली की रफ़्तार से लेन-देन करने के लिए।
+wrong_answers:
+  - एक नया क्रिप्टोकरेंसी का प्रकार।
+  - एक नई Blockchain टेक्नोलॉजी जो भविष्य में Bitcoin की जगह लेगी।
+  - Mining और Bitcoin के लिए एक तरीका।
+explanation: |
+  Lightning Network एक भुगतान नेटवर्क है जो
+  Bitcoin प्रोटोकॉल तेज़ लेन-देन को सक्षम करने के लिए। यह नहीं है
+  अलग क्रिप्टोकरेंसी नहीं, न ही Mining Bitcoin के लिए कोई तरीका।
+reviewed: true

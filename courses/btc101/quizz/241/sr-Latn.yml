@@ -1,0 +1,13 @@
+question: Šta je DCA platforma?
+answer: Usluga koja omogućava korisnicima da investiraju fiksni iznos novca u imovinu u redovnim intervalima.
+wrong_answers:
+  - Vrsta kriptovalute Exchange koja omogućava trgovanje samo Bitcoin.
+  - Finansijska usluga koja pruža zajmove investitorima za margina trgovanje.
+  - Softverski alat koji prati cene akcija u realnom vremenu bez ikakvih investicionih funkcija.
+explanation: |
+  DCA platforma odnosi se na platformu koja omogućava
+  Dollar-Cost Averaging (DCA), investicionu strategiju gde
+  pojedinac investira fiksni iznos novca u
+  određeni aset u redovnim intervalima, bez obzira na
+  cenu aseta.
+reviewed: true

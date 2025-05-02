@@ -1,0 +1,10 @@
+question: 不使用自己的 Bitcoin 節點時，可以採取什麼中間措施來隱藏連線？
+answer: 使用 Tor。
+wrong_answers:
+  - 使用防火牆。
+  - 使用加密的 Wallet。
+  - 使用雙 Wallet。
+explanation: |
+  為了限制被觀察的風險，一個中間解決方案是使用 Wallet 軟體，讓您透過 Tor 隱藏連線。
+  
+reviewed: false

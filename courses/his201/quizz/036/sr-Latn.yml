@@ -1,0 +1,9 @@
+question: Ko je dizajnirao prvi pravi Bitcoin logo (zlatno veliko slovo B precrtano sa dve vertikalne linije) u februaru 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Koristio je predlog NewLibertyStandard-a da koristi simbol tajlandskog bahta (฿). Narandžasti logo je kasnije kreirao neko poznat kao bitboy.
+reviewed: false

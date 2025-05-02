@@ -1,0 +1,9 @@
+question: 如果正在使用 HTLC 的頻道被強行關閉，會發生什麼情況？
+answer: HTLC 作為輸出包含在 Commitment 交易中。
+wrong_answers:
+  - HTLC 會自動取消。
+  - 資金會重新分配給之前的節點。
+  - 在 HTLC 過期之前，通道無法關閉。
+explanation: |
+  在強制關閉期間，待定 HTLC 在 Commitment 交易中表示為輸出，因此可確保根據定義的條件執行或返回。
+reviewed: false

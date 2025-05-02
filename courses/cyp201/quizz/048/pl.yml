@@ -1,0 +1,9 @@
+question: Dlaczego 24-wyrazowa fraza Mnemonic jest często uważana za zbędną dla Bitcoin Wallet?
+answer: Pochodzące klucze oferują tylko 128 bitów bezpieczeństwa
+wrong_answers:
+  - Oprogramowanie nie obsługuje 24-wyrazowych fraz
+  - Nie pozwala na wyprowadzanie kluczy publicznych
+  - Krótsze frazy nie są standaryzowane
+explanation: |
+  Chociaż 24-wyrazowa fraza zapewnia 256 bitów bezpieczeństwa, wyprowadzone klucze prywatne Bitcoin gwarantują tylko 128 bitów bezpieczeństwa, co sprawia, że nadmiar jest zbędny.
+reviewed: false

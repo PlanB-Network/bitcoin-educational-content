@@ -85,7 +85,7 @@ Queste funzioni hash crittografiche hanno diverse caratteristiche essenziali che
 
 #### 1. Irreversibilità (resistenza alla preimmagine):
 
-L'irreversibilità significa che è facile calcolare l'hash dalle informazioni di input, ma il calcolo inverso, cioè trovare l'input dall'hash, è praticamente impossibile. Questa proprietà rende le funzioni hash perfette per creare impronte digitali uniche senza compromettere le informazioni originali. Questa caratteristica è spesso definita come una funzione unidirezionale o una "_funzione trappola_".
+L'irreversibilità significa che è facile calcolare l'hash a partire dalle informazioni in ingresso, ma il calcolo inverso, ovvero trovare l'ingresso a partire dall'hash, è praticamente impossibile. Questa proprietà rende le funzioni di hash perfette per creare impronte digitali uniche senza compromettere le informazioni originali.
 
 Nell'esempio dato, ottenere l'hash `24f1b9…` conoscendo l'input "_PlanB_" è semplice e veloce. Tuttavia, trovare il messaggio "_PlanB_" conoscendo solo `24f1b9…` è impossibile.
 
@@ -2236,7 +2236,7 @@ La generazione dell'indirizzo segue quindi lo stesso processo, utilizzando la ch
 
 Ed eccoci! Abbiamo raggiunto la fine di questo corso CYP201. Se hai trovato questo corso utile, ti sarei molto grato se potessi dedicare qualche momento per dare una buona valutazione nel capitolo di valutazione seguente. Sentiti libero di condividerlo anche con i tuoi cari o sui tuoi social network. Infine, se desideri ottenere il tuo diploma per questo corso, puoi sostenere l'esame finale subito dopo il capitolo di valutazione.
 
-# Conclusione
+# Sezione finale
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

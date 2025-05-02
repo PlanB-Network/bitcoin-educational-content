@@ -1,0 +1,12 @@
+question: Je, ni vyombo gani vinavyosimamia utoaji wa sarafu aminifu?
+answer: Benki kuu.
+wrong_answers:
+  - Benki za biashara.
+  - Serikali.
+  - Taasisi Binafsi.
+explanation: |
+  Benki kuu ni vyombo vinavyohusika na kutoa a
+  fedha za uaminifu. Wanaamua sera ya fedha na
+  kuamua ni kiasi gani cha pesa kinapaswa kuwekwa kwenye mzunguko au
+  iliyochapishwa.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je glavna funkcija proširenog ključa u HD Wallet?
+answer: Da bi se omogućilo izvođenje ključeva potomaka
+wrong_answers:
+  - Skladišti transakcije Wallet
+  - Direktno generate UTXO-e
+  - Šifruj javne ključeve
+explanation: |
+  Prošireni ključ kombinuje ključ (bilo privatni ili javni) sa pridruženim lancem koda, tj. dva Elements neophodna za izvođenje podređenih ključeva.
+reviewed: false

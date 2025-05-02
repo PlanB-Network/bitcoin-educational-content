@@ -39,7 +39,10 @@ https://planb.network/tutorials/others/contribution/create-github-account-a75fc3
 ## 1. Create an account
 
 - Create an account on [GitHub](https://github.com/) to start contributing. If you want guidance on creating your GitHub account, go to the tutorial mentioned just above.
+<<<<<<< HEAD
+=======
 
+>>>>>>> 29182ddfc9 (Updating_proofreading_tutorial (#1642))
 - You will also need an account on the messaging app [Telegram](https://telegram.org/).
 
 ## 2. Join the Telegram group

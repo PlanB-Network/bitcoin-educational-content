@@ -1,0 +1,9 @@
+question: Jak nazywa się grupa, która spełnia warunek przemienności?
+answer: Grupa abelowa
+wrong_answers:
+  - Zamknięta grupa
+  - Grupa asocjacyjna
+  - Grupa odwrotna
+explanation: |
+  Grupa abelowa lub komutatywna to grupa, w której kolejność Elements w operacji binarnej nie wpływa na wynik. Oznacza to, że dla dowolnych a i b, a ∘ b = b ∘ a.
+reviewed: false

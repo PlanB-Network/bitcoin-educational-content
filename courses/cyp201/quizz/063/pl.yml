@@ -1,0 +1,9 @@
+question: Jakie informacje nie są zawarte w kluczu rozszerzonym?
+answer: Historia transakcji klucza
+wrong_answers:
+  - Numer indeksu klucza
+  - Klucz (prywatny lub publiczny)
+  - Kod łańcucha
+explanation: |
+  Klucz rozszerzony zawiera tylko informacje niezbędne do wyprowadzenia kluczy podrzędnych, a nie informacje związane z transakcjami.
+reviewed: false

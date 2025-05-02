@@ -1,0 +1,9 @@
+question: Koja je početna tačka za izračunavanje ECDSA potpisa?
+answer: Poruka Hash
+wrong_answers:
+  - Javni ključ
+  - Fiksni Nonce
+  - Prilagođena eliptična kriva
+explanation: |
+  ECDSA potpis počinje izračunavanjem Hash poruke koja treba biti potpisana, često koristeći SHA256.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja operacija je potrebna za izračunavanje Taproot javnog ključa Q?
+answer: Dodajte prilagodbu tG javnom ključu P
+wrong_answers:
+  - Pomnoži privatni ključ p sa prilagođavanjem
+  - Hash javni ključ P sa SHA256
+  - Konkateniraj izmenu t i javni ključ P
+explanation: |
+  Javni ključ Taproot Q se dobija dodavanjem skalar proizvoda tweak-a t sa generatorom G javnom ključu P.
+reviewed: false

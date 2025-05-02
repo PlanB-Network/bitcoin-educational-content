@@ -1,0 +1,5 @@
+---
+term: RELAIS
+---
+
+In the context of proof-of-work on the Bitcoin network, means a tool whose main function is to relay new valid blocks that have been found. A distinction is sometimes made between the role of the miner, who is involved in the entire proof-of-work process, from the construction of the candidate block to the dissemination of the validated block, and the role of the chopper, which is limited to participating in the hashing of a block without intervening in its selection or dissemination. The relay role, on the other hand, consists of distributing new blocks found by a chopper. In the case of mining pools, this relay role is performed by the pool itself. It is this role that gives the pool a great deal of power over individual choppers. The term "relayer" can also refer to the person or entity operating a relay.

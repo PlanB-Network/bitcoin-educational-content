@@ -1,11 +1,9 @@
-question: What is the main reason for the establishment of dictatorial regimes according to the chapter?
-answer: The worsening wealth inequalities in the world
+question: Which user profile regularly accumulates bitcoins through Dollar-Cost Averaging?
+answer: The stacker
 wrong_answers:
-  - The lack of education in the world
-  - The lack of resources in the world
-  - The lack of democracy in the world
+  - The hodler
+  - The active user
+  - The paranoid
 explanation: |
-  The chapter mentions that the worsening wealth inequalities in the world
-  have led to a rise in extremism, which has sometimes resulted in the establishment
-  of dictatorial regimes.
+  The stacker regularly buys small amounts to average out the purchase price over the long term.
 reviewed: false

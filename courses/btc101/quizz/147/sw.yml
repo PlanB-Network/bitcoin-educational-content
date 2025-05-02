@@ -1,0 +1,16 @@
+question: Je, matokeo yatakuwaje kwa watumiaji wa Bitcoin ikiwa vizuizi vingekuwa vizito mara 100?
+answer: Kuendesha nodi ya Bitcoin haingefikiwa na mtu wa kawaida, na hivyo kuhatarisha ugatuaji wa itifaki na kutoweza kubadilika kwa shughuli zote mbili na sheria za makubaliano.
+wrong_answers:
+  - Kuendesha nodi ya Bitcoin kunaweza kufikiwa zaidi na mtu wa kawaida, na hivyo kuimarisha ugatuaji wa itifaki na kutoweza kubadilika kwa shughuli zote mbili na sheria za makubaliano.
+  - Uwezo wa muamala wa mtandao utapungua.
+  - Block reward kwa wachimbaji itaongezeka.
+explanation: |
+  Ikiwa vitalu vilikuwa vizito mara 100, vinaendesha Bitcoin
+  nodi ingehitaji diski ya 50TB Hard, kipimo data cha juu
+  500GB/mwezi, na maunzi yenye uwezo wa kuthibitisha mamia ya
+  maelfu ya miamala katika chini ya dakika 10. Hii
+  ingefanya kuendesha nodi ya Bitcoin isiweze kufikiwa na
+  mtu wa kawaida, kuhatarisha ugatuaji wa
+  itifaki na kutobadilika kwa shughuli na makubaliano
+  sheria.
+reviewed: true

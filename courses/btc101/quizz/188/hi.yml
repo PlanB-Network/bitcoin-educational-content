@@ -1,0 +1,8 @@
+question: BTCMap क्या है?
+answer: एक प्लेटफॉर्म जो सभी व्यापारियों को सूचीबद्ध करता है जो Bitcoin स्वीकार करते हैं।
+wrong_answers:
+  - दुनिया के सभी Bitcoin खानों का नक्शा।
+  - दुनिया के सभी Bitcoin एक्सचेंजों का नक्शा।
+  - दुनिया के सभी Bitcoin यूजर्स का एक नक्शा।
+explanation: >-
+reviewed: true

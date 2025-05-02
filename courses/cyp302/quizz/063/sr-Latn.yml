@@ -1,0 +1,9 @@
+question: Zašto primeri kriptografije često koriste likove Alisa i Bob?
+answer: Da ilustruje kriptografske principe na pojednostavljen način
+wrong_answers:
+  - Zato što su Alisa i Bob tehnički termini u kriptografiji
+  - Zato što su to najčešća imena na svetu
+  - Zato što predstavljaju računarske sisteme
+explanation: |
+  Alice i Bob se obično koriste u kriptografiji kao fiktivni likovi za ilustrovanje razmene poruka i kriptografskih principa u pojednostavljenom i shematskom kontekstu.
+reviewed: false

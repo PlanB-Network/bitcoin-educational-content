@@ -1,0 +1,9 @@
+question: Kakav je potencijalni uticaj trenutnog finansijskog sistema na političke aktere?
+answer: Nisu motivisani da naprave radikalne promene, dopuštajući sistemu da nastavi svojim tokom do moguće implozije.
+wrong_answers:
+  - Oni su podstaknuti da naprave radikalne promene kako bi sprečili moguću imploziju.
+  - Nisu motivisani da održavaju status kvo kako bi osigurali sopstveno bogatstvo.
+  - Oni su podstaknuti da razmišljaju dugoročno.
+explanation: |
+  Kako politički akteri imaju koristi od trenutnog finansijskog sistema, nisu motivisani da naprave radikalne promene. Ovo omogućava sistemu da nastavi svojim tokom sve do moguće implozije, jer je sistem regulisan i ograničen kako bi se izbegao sopstveni kolaps.
+reviewed: true

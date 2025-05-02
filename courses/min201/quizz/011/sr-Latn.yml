@@ -1,0 +1,9 @@
+question: Koje su strategije diskutovane za borbu protiv centralizacije Mining u Bitcoin?
+answer: Strategije o kojima se raspravlja za borbu protiv centralizacije Mining u Bitcoin uključuju Home Mining, protokol Stratum V2, otvoreni kod Mining softvera i diverzifikaciju aktera i geografije.
+wrong_answers:
+  - Strategije o kojima se raspravljalo za borbu protiv centralizacije Mining u Bitcoin uključuju povećanje veličine bloka, implementaciju proof of stake i stvaranje centralnog autoriteta za nadgledanje Mining.
+  - Strategije o kojima se raspravljalo za borbu protiv centralizacije Mining u Bitcoin uključuju smanjenje Block reward, uvođenje naknade za transakcije i kreiranje poreza na Mining.
+  - Strategije o kojima se raspravljalo za borbu protiv centralizacije Mining u Bitcoin uključuju povećanje težine Mining, uvođenje limita za Mining i kreiranje lutrije za Mining.
+explanation: |
+  Poglavlje raspravlja o nekoliko strategija za borbu protiv centralizacije Mining u Bitcoin, uključujući Home Mining, protokol Stratum V2, otvoreni kod Mining softvera i diverzifikaciju aktera i geografije.
+reviewed: true

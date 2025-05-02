@@ -1,11 +1,9 @@
-question: Mida tähendab Bitcoini plokiahela muutumatus?
-answer: Seda ei saa aja jooksul muuta
+question: Mitu hooldajat on Bitcoin Core'il 2025. aastal?
+answer: 5
 wrong_answers:
-  - Seda ei saa häkkida
-  - Seda ei saa kopeerida
-  - Seda ei saa kustutada
+  - 7
+  - 12
+  - 23
 explanation: |
-  Bitcoini plokiahela muutumatus tähendab, et kord salvestatud tehingut
-  ei saa muuta ega kustutada. See tagab plokiahela terviklikkuse ja
-  usaldusväärsuse.
+  Aastal 2025 on viis hooldajat: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao ja Ryan Ofsky.
 reviewed: false

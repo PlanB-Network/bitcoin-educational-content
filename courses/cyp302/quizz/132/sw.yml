@@ -1,0 +1,9 @@
+question: Katika shughuli ya Bitcoin, ni teknolojia gani kwa ujumla hutumiwa kuthibitisha Ownership ya fedha kwa kufungua hati?
+answer: Saini za kidijitali
+wrong_answers:
+  - Vyeti vya digital
+  - Usimbaji fiche linganifu
+  - Nambari za Uthibitishaji wa Ujumbe (MAC)
+explanation: |
+  Sahihi za kidijitali katika Bitcoin huthibitisha umiliki wa fedha kwa kutia saini miamala kwa kutumia ufunguo wa faragha ili kufungua hati inayolinda UTXO.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Qual é a visão final para o Bitcoin de acordo com a metáfora da rodovia do Bitcoin?
-answer: Ele se tornará uma rodovia para o tráfego da internet e para 90% da população mundial.
+question: Que método é utilizado para proteger a rastreabilidade das transacções On-Chain?
+answer: Utilização das técnicas CoinJoin e PayJoin
 wrong_answers:
-  - Ele se tornará um bem de luxo acessível apenas aos ricos.
-  - Ele se tornará uma ferramenta para atividades ilegais.
-  - Ele se tornará obsoleto e substituído por outras criptomoedas.
+  - Reutilização do mesmo Address recetor
+  - Consolidação frequente de UTXOs
+  - Depósito numa conta de custódia Wallet
 explanation: |
-  A metáfora da rodovia do Bitcoin prevê que o Bitcoin se torne uma rodovia para o tráfego da internet e para 90% da população mundial, com bens e serviços diretamente acessíveis nesta rodovia.
+  Os Coinjoins e payjoins ajudam a melhorar a privacidade da atividade do On-Chain.
 reviewed: false

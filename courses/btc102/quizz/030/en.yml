@@ -1,10 +1,9 @@
-question: What is the Bitcoin blockchain?
-answer: A database that records all Bitcoin transactions
+question: What major advantage does the layered approach offer for Bitcoin?
+answer: Maintaining the security of the base protocol
 wrong_answers:
-  - A type of digital currency
-  - A network of Bitcoin users
-  - A method of mining bitcoins
+  - Increasing centralization of the main network
+  - Rapid innovation on the base protocol
+  - Having the same features on the layers as on the base protocol
 explanation: |
-  The Bitcoin blockchain is a database that records all Bitcoin transactions.
-  It is maintained by miners who add new transactions to the blockchain.
+  The layered approach allows for adding functionalities without compromising the security and simplicity of the base protocol.
 reviewed: false

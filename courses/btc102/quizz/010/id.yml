@@ -1,10 +1,9 @@
-question: Apa yang dimaksud dengan 2FA?
-answer: Otentikasi Dua-Faktor
+question: Mengapa Anda disarankan untuk tetap merahasiakan kepemilikan Bitcoin Anda?
+answer: Untuk menghindari menarik perhatian penjahat dan pemerintah
 wrong_answers:
-  - Otorisasi Dua-Faktor
-  - Otentikasi Dua-Fitur
-  - Otentikasi Dua-Fungsi
+  - Untuk mendapatkan keuntungan dari tingkat Exchange yang lebih baik di negara-negara tertentu
+  - Untuk menghindari menarik perhatian pengusaha yang mencari pendanaan
+  - Untuk meningkatkan kapasitas pinjaman
 explanation: |
-  2FA adalah singkatan dari Otentikasi Dua-Faktor. Ini memberikan lapisan
-
-  keamanan tambahan untuk akun-akun yang paling sensitif.
+  Kebijaksanaan melindungi dari risiko menjadi sasaran penipu, orang yang cemburu, atau pencuri.
+reviewed: false

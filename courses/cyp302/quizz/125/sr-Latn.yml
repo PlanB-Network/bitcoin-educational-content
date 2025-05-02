@@ -1,0 +1,9 @@
+question: Koji su glavni problem kriptografi Diffie, Hellman i Merkle pokušali da reše 1970-ih?
+answer: Problemi distribucije i upravljanja ključevima
+wrong_answers:
+  - Razvoj postkvantne kriptografije
+  - Osiguranje vojnih komunikacija
+  - Poboljšanje simetričnih tehnika šifrovanja
+explanation: |
+  Diffie, Hellman i Merkle bili su motivisani praktičnim poteškoćama distribucije i upravljanja ključevima za osiguranje komunikacija, što su ključni izazovi u svetu koji prelazi na digitalnu komunikaciju.
+reviewed: false

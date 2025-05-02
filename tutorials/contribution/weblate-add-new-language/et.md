@@ -28,7 +28,7 @@ Kontrollida, kas teie keel on juba nende keelte hulgas, millega me töötame.
 
 Kui teie keel on selles nimekirjas, ei pea te seda uuesti lisama. Et aidata kaasa veebilõike korrektuuriga, avastage järgmine juhendmaterjal:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Kui teie keelt seal ei ole, järgige selle lisamiseks allolevat õpetust.
 
 ## Uue keele lisamine plaanile ₿ Võrk
@@ -64,7 +64,7 @@ Kui teie keelt seal ei ole, järgige selle lisamiseks allolevat õpetust.
 
 Tõlkimisprotsessi juhendamiseks vaadake meie spetsiaalset õpetust siin allpool:
 
-https://planb.network/tutorials/others/contribution/translate-front-weblate-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Palju õnne, olete alustanud Plan ₿ Network'i veebisaidi staatiliste elementide tõlkimist!
 
 Need hõlmavad kõiki veebisaidil olevaid stringid, välja arvatud hariduslik sisu (kursused, õpetused...), mille jaoks kasutame teist poolautomaatset meetodit (AI-tõlge + korrektuur).

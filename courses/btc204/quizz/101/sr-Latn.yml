@@ -1,0 +1,9 @@
+question: Kako se entropija izračunava u kontekstu analize lanca na Bitcoin?
+answer: Uzimajući binarni logaritam broja interpretacija.
+wrong_answers:
+  - Množenjem broja ulaza sa brojem izlaza.
+  - Dodavanjem broja ulaza i izlaza.
+  - Uzimajući binarni logaritam broja ulaza i izlaza.
+explanation: |
+  Entropija je definisana kao binarni logaritam broja mogućih kombinacija.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Jaký je významný příklad hard forku Bitcoinu?
-answer: Bitcoin Cash (BCH)
+question: Jaká opatření je třeba přijmout proti podvodům s dary a podvodným loteriím?
+answer: Nikdy neposílejte peníze, abyste obdrželi bitcoiny
 wrong_answers:
-  - Ethereum (ETH)
-  - Litecoin (LTC)
-  - Ripple (XRP)
+  - Vždy posílejte malou částku na otestování nabídky
+  - Investujte a získejte rychlý a snadný zisk
+  - Sdílet osobní údaje pro zabezpečení transakce
 explanation: |
-  Bitcoin prošel v průběhu času několika hard forky, které vedly k vzniku různých
-  alternativních verzí původní měny. Významnými příklady těchto odchylek
-  jsou Bitcoin Cash (BCH) a Bitcoin Satoshi Vision (BSV).
+  Požadavek na platbu předem je u tohoto typu podvodu běžným znakem podvodu.
 reviewed: false

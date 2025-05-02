@@ -1,0 +1,9 @@
+question: Co oznacza termin dyfuzja w kontekście szyfrowania AES?
+answer: Zmiana w tekście jawnym powoduje znaczącą zmianę w szyfrogramie
+wrong_answers:
+  - Szyfrogram ma zawsze taką samą długość
+  - Bajty klucza są rozłożone równomiernie
+  - Wrażliwe informacje są szyfrowane w każdym bloku szyfrogramu
+explanation: |
+  Dyfuzja oznacza, że niewielka zmiana w tekście jawnym powoduje znaczącą zmianę w szyfrogramie, co utrudnia atakującemu wydedukowanie tekstu jawnego.
+reviewed: false

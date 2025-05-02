@@ -1,0 +1,8 @@
+question: Jaki jest jeden powód, dla którego cena Bitcoin może spaść o 10%, 20%, a nawet 50% w ciągu zaledwie kilku dni?
+answer: Fazy hossy i bessy na rynku.
+wrong_answers:
+  - Liczba osób korzystających z Internetu.
+  - Pogoda.
+  - Cena złota.
+explanation: >-
+reviewed: true

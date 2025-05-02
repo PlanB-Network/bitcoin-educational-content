@@ -1,0 +1,9 @@
+question: Kolika je bila maksimalna vrednost prve kordobe u Nikaragvi?
+answer: 1 milion.
+wrong_answers:
+  - 500,000
+  - 10 miliona
+  - 100 miliona
+explanation: |
+  U Nikaragvi, prva kordoba dostigla je vrednost od 1 milion. Druga kordoba dostigla je 10 miliona.
+reviewed: false

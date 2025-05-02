@@ -24,11 +24,11 @@ Připojte se k nám, abyste změnili způsob používání bitcoinu a stali se i
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Úvod do školení
+## Přehled kurzu
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/V3eeFn4TuIY?feature=shared)
+Vítejte v kurzu BTC204!
 
 Ve světě, kde se důvěrnost finančních transakcí postupně stává luxusem, je pochopení a zvládnutí zásad ochrany soukromí při používání Bitcoinu nezbytné. Tento vzdělávací kurz vám poskytne všechny klíče, teoretické i praktické, jak toho samostatně dosáhnout.
 
@@ -46,37 +46,38 @@ Tento školicí kurz je navržen tak, aby poskytl ucelený obecný přehled o pr
 
 Cílem tohoto školení není zajistit, abyste byli při používání Bitcoinu zcela anonymní, ale spíše vám poskytnout základní nástroje, abyste věděli, jak chránit svou důvěrnost v souladu s vašimi osobními cíli. Budete si moci svobodně vybrat z představených konceptů a nástrojů a vytvořit si vlastní strategie, přizpůsobené vašim konkrétním cílům a potřebám.
 
-### Oddíl 1: Definice a klíčové pojmy
+**Oddíl 1: Definice a klíčové pojmy**
 
 Nejprve si projdeme základní principy fungování Bitcoinu, abychom se pak mohli v klidu věnovat pojmům týkajícím se důvěrnosti. Než budete moci plně pochopit pojmy, kterými se budeme zabývat v následujících kapitolách, je nezbytné zvládnout několik základních pojmů, jako je UTXO, přijímání adres a skriptování. Představíme si také obecný model důvěrnosti Bitcoinu, jak si jej představoval Satoshi Nakamoto, což nám umožní pochopit související sázky a rizika.
 
 ![BTC204](assets/fr/001.webp)
 
-### Oddíl 2: Porozumění analýze řetězce a ochrana před ní
+**Oddíl 2: Porozumění analýze řetězce a ochrana před ní**
 
 Ve druhé části se podíváme na techniky, které používají společnosti zabývající se analýzou blockchainu ke sledování vaší aktivity na Bitcoinu. Pochopení těchto metod je zásadní pro posílení ochrany vašeho soukromí. Cílem této části je prozkoumat strategie útočníků, abychom lépe pochopili rizika a připravili si půdu pro techniky, které budeme studovat v následujících částech. Budeme analyzovat vzory transakcí, vnitřní a vnější heuristiky a pravděpodobné interpretace těchto vzorů. Kromě teorie se na praktických příkladech a cvičeních naučíme používat průzkumníka bloků pro analýzu řetězců.
 
 ![BTC204](assets/fr/002.webp)
 
-### Oddíl 3: Osvojení osvědčených postupů pro ochranu soukromí
+**Oddíl 3: Osvojení osvědčených postupů pro ochranu soukromí**
 
 Ve třetí části našeho vzdělávacího kurzu přejdeme k samotné podstatě: praxi! Cílem je osvojit si všechny základní osvědčené postupy, které by se měly stát přirozenými reflexy každého uživatele Bitcoinu. Budeme se zabývat používáním prázdných adres, tagováním, konsolidací, používáním kompletních uzlů a také metodami KYC a akvizice. Cílem je poskytnout vám ucelený přehled nástrah, kterým je třeba se vyhnout, abyste si vytvořili pevné základy v naší snaze o ochranu soukromí. U některých z těchto postupů budete odkázáni na konkrétní návod, jak je implementovat.
 
 ![BTC204](assets/fr/003.webp)
 
-### Oddíl 4: Porozumění transakcím coinjoin
+**Oddíl 4: Porozumění transakcím coinjoin**
 
 Jak můžeme mluvit o soukromí v Bitcoinu, aniž bychom zmínili coinjoiny? V části 4 se dozvíte vše, co potřebujete vědět o této metodě míchání. Dozvíte se, co jsou coinjoiny, jaká je jejich historie a cíle a jaké různé typy coinjoinů existují. Nakonec se pro zkušenější uživatele podíváme na to, co jsou to anonsety a entropie a jak je vypočítat.
 
 ![BTC204](assets/fr/004.webp)
 
-### Oddíl 5: Porozumění problémům dalších pokročilých technik utajení
+**Oddíl 5: Porozumění problémům dalších pokročilých technik utajení**
 
 V páté části se podíváme na všechny ostatní dostupné techniky ochrany soukromí na Bitcoinu, kromě coinjoinu. V průběhu let prokázali vývojáři pozoruhodnou kreativitu při navrhování nástrojů věnovaných ochraně soukromí. Podíváme se na všechny tyto metody, jako je payjoin, kolaborativní transakce, coin swap a atomic swap, a podrobně popíšeme, jak fungují, jaké jsou jejich cíle a případné slabiny.
 
 Budeme se také zabývat soukromím na úrovni sítě uzlů a šířením transakcí. Probereme také různé protokoly, které byly v průběhu let navrženy ke zvýšení soukromí uživatelů v Bitcoinu, včetně protokolů statických adres.
 
 ![BTC204](assets/fr/005.webp)
+Připraveni prozkoumat zákoutí soukromí na Bitcoinu? Jdeme na to!
 
 # Definice a klíčové pojmy
 
@@ -86,7 +87,6 @@ Budeme se také zabývat soukromím na úrovni sítě uzlů a šířením transa
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/bE-dmcAe_wY?feature=shared)
 
 Bitcoin je především měna, ale víte, jak jsou BTC v protokolu zastoupeny?
 
@@ -137,7 +137,6 @@ Celkový zůstatek vašeho portfolia bude `17 BTC`.
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/oKhgnEClQzo?feature=shared)
 
 ### Vstupy a výstupy transakcí
 
@@ -224,7 +223,6 @@ Za druhé, jak bylo zmíněno v předchozích částech, mince Bitcoin jsou v po
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/ca80pCpMID0?feature=shared)
 
 ### Peníze: autenticita, integrita a dvojí utrácení
 
@@ -298,7 +296,6 @@ Protože jsou však transakce bitcoinů zveřejňovány, je možné mezi nimi vy
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/PtAUOGgHEAY?feature=shared)
 
 ### Definice a fungování
 
@@ -381,7 +378,6 @@ Jaké to jsou, se dozvíme v následujících kapitolách, ale už teď je zají
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/FA4VLQHr8wU?feature=shared)
 
 Vzor transakce je jednoduše celkový model nebo struktura typické transakce, kterou lze nalézt v blockchainu a jejíž pravděpodobná interpretace je známa. Při studiu vzorů se zaměřujeme na jednu transakci a analyzujeme ji na vysoké úrovni.
 
@@ -513,7 +509,6 @@ Díky těmto transakčním vzorům již můžeme interpretovat určité množstv
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/mMBZ_diMC3g?feature=shared)
 
 Vnitřní heuristika je specifická vlastnost, kterou identifikujeme v rámci samotné transakce, aniž bychom museli zkoumat její okolí, a která nám umožňuje činit závěry. Na rozdíl od vzorů, které se zaměřují na celkovou strukturu transakce na vysoké úrovni, je interní heuristika založena na souboru extrahovatelných dat. Patří sem např:
 
@@ -624,7 +619,6 @@ Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/WZ2B5cXp14w?feature=shared)
 
 Studium externích heuristik znamená analýzu podobností, vzorců a charakteristik určitých prvků, které nejsou specifické pro samotnou transakci. Jinými slovy, zatímco dříve jsme se omezovali na využívání prvků vlastních transakci pomocí interních heuristik, nyní rozšiřujeme pole analýzy o prostředí transakce díky externím heuristikám.
 
@@ -1044,7 +1038,6 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/qq_rdiujQTI?feature=shared)
 
 Po prostudování technik, které mohou narušit důvěrnost Bitcoinu, se v této třetí části podíváme na nejlepší postupy, které je třeba přijmout, abyste se ochránili. Cílem této části není zkoumat metody zvyšování důvěrnosti, což je téma, kterému se budeme věnovat později, ale spíše pochopit, jak správně komunikovat s Bitcoinem, abyste si zachovali důvěrnost, kterou přirozeně nabízí, aniž byste se museli uchylovat k dalším technikám.
 
@@ -1181,7 +1174,6 @@ Pokud potřebujete statický identifikátor pro příjem plateb, například dar
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/EhF0AlTv-uY?feature=shared)
 
 Jak jsme zjistili v části o analýze řetězců, existuje množství heuristických postupů a vzorů, které lze použít k odvození informací o transakci. Jako uživatel je důležité tyto techniky znát, abyste se před nimi mohli lépe chránit.
 
@@ -1289,7 +1281,6 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/oqS0GGsoVUE?feature=shared)
 
 Zkratka KYC znamená "Poznej svého zákazníka". Jedná se o regulační postup, který uplatňují některé společnosti působící v oblasti bitcoinů. Cílem tohoto postupu je ověřit a zaregistrovat totožnost jejich zákazníků, přičemž deklarovaným cílem je boj proti praní špinavých peněz a financování terorismu.
 
@@ -1391,7 +1382,6 @@ Závěrem lze říci, že při směně bitcoinů za jiná aktiva, ať už se jed
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/tSLMwfvQVWQ?feature=shared)
 
 Po přečtení předchozí kapitoly vás možná zajímá, jak můžete nakupovat nebo prodávat bitcoiny, aniž byste museli podstoupit proceduru ověření totožnosti, abyste se vyhnuli rizikům spojeným s KYC. Existuje několik způsobů, jak s bitcoiny obchodovat.
 
@@ -1515,7 +1505,6 @@ Další metodou je práce výměnou za bitcoiny. Tento způsob získání může
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/5mynikwUkLs?feature=shared)
 
 Jedním z nejsložitějších aspektů vedení portfolia s vlastní správou je konsolidace. Měli byste konsolidovat? Jaký to má smysl? Jakou velikost UTXO je třeba respektovat? Jaké jsou kompromisy z hlediska důvěrnosti? Na to se podíváme v této části.
 
@@ -1600,7 +1589,6 @@ V každém případě nezapomeňte, že jakákoli konsolidace s sebou nevyhnutel
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/mKuyVKi_JKM?feature=shared)
 
 Podívejme se na několik dalších osvědčených postupů pro optimalizaci vašeho soukromí v bitcoinech.
 
@@ -1657,7 +1645,6 @@ Kromě všech těchto osvědčených postupů, které je třeba používat každ
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/D9-2dTpmWNU?feature=shared)
 
 Po prostudování základů ochrany soukromí se nyní podíváme na sofistikovanější techniky zaměřené na aktivní ochranu důvěrnosti, zejména na rozdělení historie bitcoinů. V příští části se budeme zabývat celou řadou drobných technik, ale nejprve bych vám rád pověděl o coinjoinu.
 
@@ -1756,7 +1743,6 @@ Dnešní uživatelé proto dávají přednost coinjoinu, protože jim umožňuje
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/JYBh0_u62Yc?feature=shared)
 
 Soukromí, které poskytuje coinjoin, je dáno velikostí skupiny, v níž je náš kus skryt. To znamená najít co nejvíce účastníků. Je naprosto možné vytvořit coinjoin ručně, s uživateli, které jsme sami našli, ale je to složitý proces, který vám žádné velké anonce nepřinese.
 
@@ -1872,7 +1858,6 @@ V současné době je Whirlpool jedinou implementací coinjoinu, která důsledn
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/cKNB1_840Ic?feature=shared)
 
 *V roce 2024 jsme svědky velkých změn v nástrojích, které mají uživatelé, kteří chtějí provádět coinjoiny na Bitcoinu, k dispozici. V současné době se nacházíme v bodě zlomu a trh s coinjoiny prochází zásadní restrukturalizací. Tato kapitola bude jistě časem aktualizována
 
@@ -1954,7 +1939,6 @@ Jak jste již jistě pochopili, u Bitcoinu dávám jednoznačně přednost model
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/JQ12fBHsLtY?feature=shared)
 
 Whirlpool se od ostatních metod coinjoin liší použitím transakcí "_ZeroLink_", které zajišťují, že mezi všemi vstupy a výstupy neexistuje žádné možné technické spojení. Této dokonalé kombinace je dosaženo díky struktuře, v níž každý účastník přispívá stejným množstvím vstupů (s výjimkou poplatků za těžbu) a generuje výstupy v naprosto stejné výši.
 
@@ -2194,7 +2178,6 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c7
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/9nMLaYf6yx0?feature=shared)
 
 Poté, co jsme si prostudovali, jak funguje spojování mincí a jaké jsou problémy spojené s efektivním mícháním, se nyní dozvíme, jak měřit jejich účinnost. Jak můžeme určit, zda byl proces coinjoiningu účinný a jaký stupeň anonymity část získala? To zjistíme v této kapitole pomocí sad anonymity neboli "anonsetů".
 
@@ -2270,7 +2253,6 @@ https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/yGr34eyMPtA?feature=shared)
 
 Jak jsme viděli v této části o spojování mincí, homogenita UTXO na vstupu a výstupu hraje důležitou roli při zvyšování důvěrnosti bitcoinové transakce. Tento parametr vytváří věrohodnou popíratelnost tváří v tvář analýze blockchainu. K měření této homogenity lze použít několik metod, ale jednou z nejefektivnějších je podle mého názoru využití ukazatelů poskytovaných nástrojem *Boltzmann*, který vyvinuly týmy OXT a Samourai Wallet, a zejména entropie transakce. Právě na to se budeme v této kapitole podrobněji zaměřovat.
 
@@ -2532,7 +2514,6 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/e4i66QXWCvs?feature=shared)
 
 Coinjoin je v současné době nejúčinnější metodou, jak vnést nejistotu do sledování částí v analýze řetězce. Jak jsme viděli v předchozích kapitolách, pro získání vysoce výkonného mixu musí být vstupy a výstupy co nejhomogennější. Kromě toho je důležité, aby byly součásti integrovány do co největší skupiny, aby se maximalizovaly anonsety. Aby tedy bylo coinjoins efektivní, musí zahrnovat velký počet stejnorodých částí. Toto množství požadavků znamená, že transakce coinjoin mají velmi pevnou strukturu: částky jsou předem pevně stanoveny a všichni účastníci je musí dodržovat, aby byla zaručena jednotnost procesu. Kromě toho coinjoiny vyžadují synchronizaci mezi všemi účastníky a koordinátorem během konstrukce transakce.
 
@@ -2624,7 +2605,6 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/SUMLsQSytbE?feature=shared)
 
 Pokud chcete provést platební transakci při zachování určitého stupně důvěrnosti, je payjoin dobrou volbou. Jak jsme si však právě ukázali, payjoin vyžaduje zapojení příjemce. Co tedy dělat, když se příjemce odmítne payjoin zúčastnit nebo když ho prostě raději nezapojíte? Jednou z alternativ je použití transakce Stonewall nebo Stonewall x2. Podívejme se na tyto dva typy transakcí blíže.
 
@@ -2748,7 +2728,6 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/TfOsnqXtJ8g?feature=shared)
 
 Použití struktur transakcí bitcoinu, které přidávají nejednoznačnost analýze řetězce, jako je coinjoin, je obzvláště výhodné pro ochranu soukromí. Jak jsme však uvedli v kapitole o payjoin, transakce coinjoin jsou v řetězci přirozeně identifikovatelné. Vzpomeňte si na analogii, kterou jsme uvedli mezi šifrováním a coinjoiny: když je soubor zašifrován, třetí strana, která objeví zašifrovaný soubor, nemůže získat přístup k jeho obsahu, ale může jasně identifikovat, že soubor byl upraven tak, aby se jeho obsah skryl. Totéž platí pro coinjoin: když analytik zkoumá transakci coinjoin, nemůže sice zjistit přímé vazby mezi vstupy a výstupy (a naopak), nicméně může rozpoznat, že pozorovaná transakce je coinjoin.
 
@@ -2822,7 +2801,6 @@ https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a94
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/zfl5c5yeoTk?feature=shared)
 
 Další z technik důvěrnosti bitcoinu je tajný převod vlastnictví. Cílem této metody je převést vlastnictví bitcoinů z jedné osoby na druhou a naopak, aniž by transakce byla explicitně viditelná v blockchainu. Podívejme se na různé dostupné techniky spolu s jejich výhodami a nevýhodami.
 
@@ -2945,7 +2923,6 @@ Doposud jsme se zabývali především metodami utajení na úrovni samotných t
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/z3PMxy7xpuU?feature=shared)
 
 V části 4 jsme se zabývali důležitostí používání kompletního uzlu pro ochranu důvěrnosti vašich transakcí. Je však důležité si uvědomit, že váš uzel může být sám předmětem útoků, které se snaží získat informace o vašich aktivitách. V této kapitole se proto podíváme na různá opatření, která můžete přijmout k ochraně svého soukromí, a to nikoli na úrovni samotných transakcí nebo toků bitcoinů, ale na úrovni sítě.
 
@@ -3023,7 +3000,6 @@ Poté, co jsme prozkoumali různé metody utajení na úrovni sítě, bych vás 
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/QxbNReGAsvg?feature=shared)
 
 Jak jsme viděli v části 3, opakované použití adres je vážnou překážkou důvěrnosti uživatelů v protokolu Bitcoin. Pro zmírnění těchto rizik se důrazně doporučuje generovat prázdnou přijímací adresu pro každou novou platbu přijatou do peněženky. Ačkoli je generování nové adresy v současné době zjednodušeno používáním moderního softwaru a hierarchických deterministických peněženek, může se tento postup zdát kontraintuitivní.
 
@@ -3850,7 +3826,6 @@ https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
 
-![La confidentialité sur Bitcoin](https://youtu.be/lG6JamNlwXY?feature=shared)
 
 BIP47 byl široce kritizován pro svou neúčinnost v řetězci. Jak bylo vysvětleno v předchozí kapitole, vyžaduje provedení oznamovací transakce pro každého nového příjemce. Toto omezení se stává zanedbatelným, pokud s tímto příjemcem plánujeme vytvořit udržitelný platební kanál. Jediná notifikační transakce totiž otevírá cestu k téměř nekonečnému počtu následných plateb BIP47.
 
@@ -4247,7 +4222,7 @@ Vzhledem k tomu, že tato funkce je nová, doporučujeme vám, abyste byli opatr
 
 *K vytvoření této kapitoly o tichých platbách jsem použil [stránku s vysvětlením tichých plateb](https://silentpayments.xyz/) a [dokument s vysvětlením BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Závěr
+# Sekce finále
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
@@ -4255,7 +4230,7 @@ Vzhledem k tomu, že tato funkce je nová, doporučujeme vám, abyste byli opatr
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
@@ -4267,4 +4242,4 @@ Vzhledem k tomu, že tato funkce je nová, doporučujeme vám, abyste byli opatr
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
-<isCourseConclusion>pravdivý</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

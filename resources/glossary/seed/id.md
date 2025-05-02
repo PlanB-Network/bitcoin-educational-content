@@ -1,11 +1,14 @@
 ---
-term: BENIH
-
+term: GRAIN
 ---
-Dalam konteks spesifik dompet Bitcoin deterministik hirarkis, sebuah seed adalah sebuah informasi berukuran 512-bit yang berasal dari keacakan. Seed digunakan untuk menghasilkan satu set kunci privat, dan kunci publik yang sesuai, secara deterministik dan hirarkis untuk sebuah dompet Bitcoin. Seed sering kali disalahartikan sebagai frasa pemulihan itu sendiri. Akan tetapi, ini adalah informasi yang berbeda. Seed didapatkan dengan menerapkan fungsi `PBKDF2` pada frasa mnemonik dan kata sandi potensial.
 
-Seed diciptakan dengan diperkenalkannya BIP32, yang mendefinisikan dasar-dasar dompet deterministik hirarkis. Dalam standar ini, ukuran seed adalah 128 bit. Hal ini memungkinkan untuk mendapatkan semua kunci dalam sebuah dompet dari sebuah informasi, tidak seperti dompet JBOK (*Just a Bunch Of Keys*), yang membutuhkan cadangan baru untuk setiap kunci yang dihasilkan. BIP39 kemudian memperkenalkan sebuah pengkodean untuk menyederhanakan pembacaan oleh manusia. Pengkodean ini dilakukan dalam bentuk sebuah frase, yang biasa disebut sebagai frase mnemonik atau frase pemulihan. Standar ini membantu untuk menghindari kesalahan dalam pencadangan seed, terutama melalui penggunaan checksum.
+Dalam konteks spesifik portofolio deterministik hirarkis Bitcoin, sebuah seed adalah sebuah informasi 512-bit yang berasal dari sebuah peristiwa acak. Ini digunakan untuk secara deterministik dan hirarkis generate satu set kunci privat, dan kunci publik yang sesuai, untuk portofolio Bitcoin. seed sering kali dikacaukan dengan frasa pemulihan itu sendiri. Akan tetapi, ini bukanlah hal yang sama. seed didapatkan dengan menerapkan fungsi `PBKDF2` pada frasa Mnemonic dan passphrase.
 
-Secara umum, dalam kriptografi, sebuah seed adalah sebuah data acak yang digunakan sebagai titik awal untuk menghasilkan kunci kriptografi, enkripsi, atau urutan acak semu. Kualitas dan keamanan dari banyak proses kriptografi bergantung pada keacakan dan kerahasiaan seed.
 
-> ► *Terjemahan bahasa Inggris dari "graine" adalah "biji". Dalam bahasa Prancis, banyak yang secara langsung menggunakan kata bahasa Inggris untuk merujuk pada biji*
+seed diciptakan dengan BIP32, yang mendefinisikan dasar-dasar portofolio deterministik hirarkis. Dalam standar ini, seed berukuran 128 bit. Hal ini memungkinkan semua kunci dalam portofolio berasal dari satu informasi, tidak seperti portofolio JBOK (*Just a Bunch Of Keys*), yang membutuhkan cadangan baru untuk setiap kunci yang dihasilkan. BIP39 kemudian mengusulkan pengkodean seed ini, untuk menyederhanakan pembacaannya oleh manusia. Pengkodean ini berbentuk sebuah frasa, yang secara umum disebut sebagai frasa Mnemonic atau frasa pemulihan. Standar ini menghindari kesalahan ketika menyimpan seed, khususnya berkat penggunaan checksum.
+
+
+Di luar konteks Bitcoin, dalam kriptografi secara umum, seed adalah nilai awal yang digunakan untuk kunci kriptografi generate, atau lebih luas lagi, semua jenis data yang dihasilkan oleh generator bilangan acak semu. Nilai awal ini haruslah acak dan tidak dapat diprediksi untuk menjamin keamanan sistem kriptografi. Memang, seed memperkenalkan entropi ke dalam sistem, tetapi proses pembangkitan yang mengikutinya bersifat deterministik.
+
+
+> ► *Dalam bahasa umum, mayoritas pengguna bitcoin mengacu pada frasa Mnemonic ketika mereka berbicara tentang "seed", dan bukan pada kondisi turunan antara yang berada di antara frasa Mnemonic dan kunci utama*

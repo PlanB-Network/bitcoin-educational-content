@@ -1,9 +1,9 @@
-question: Que propose Bitcoin à chaque individu?
-answer: Une chance de sortir du système financier traditionnel
+question: Quel profil privilégie l'acquisition sans KYC et l'usage de portefeuilles très sécurisés ?
+answer: Le paranoïaque
 wrong_answers:
-  - Une chance de devenir rapidement riche
-  - Une chance d'investir dans des actions
-  - Une chance d'ouvrir un compte bancaire
+  - Le hodler
+  - Le stacker
+  - L'utilisateur actif
 explanation: |
-  Le chapitre indique que Bitcoin offre à chaque individu la possibilité de sortir du système financier traditionnel. C'est un choix éthique que tout le monde devra probablement faire un jour.
+  Le paranoïaque met la confidentialité et la sécurité au premier plan, en utilisant des méthodes d'acquisition et de stockage très sécurisées.
 reviewed: false

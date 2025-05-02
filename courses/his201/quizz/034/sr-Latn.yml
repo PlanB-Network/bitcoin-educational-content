@@ -1,0 +1,9 @@
+question: Ko je uspostavio prvu Exchange uslugu između Bitcoin i dolara u oktobru 2009?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - PrevišePuši
+explanation: |
+  Ova usluga je bila rudimentarna: razmene su se dogovarale putem e-pošte, a plaćanja su vršena preko PayPal-a. Exchange stopa je bila zasnovana na Mining troškovima samog NewLibertyStandard-a.
+reviewed: false

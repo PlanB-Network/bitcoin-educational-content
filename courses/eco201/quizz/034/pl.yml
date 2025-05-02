@@ -1,0 +1,13 @@
+question: Czym jest austriacka teoria cyklu koniunkturalnego?
+answer: Austriacka teoria cyklu koniunkturalnego to teoria, która wyjaśnia cykle gospodarcze jako endogeniczną dynamikę systemu bankowego opartego na rezerwie cząstkowej, podkreślając sekwencyjny charakter ludzkich działań i wpływ wahań stóp procentowych na międzyokresową koordynację podmiotów gospodarczych.
+wrong_answers:
+  - Austriacka teoria cyklu koniunkturalnego to teoria, która wyjaśnia cykle gospodarcze jako wynik wydarzeń zewnętrznych i duchów zwierząt.
+  - Austriacka teoria cyklu koniunkturalnego to teoria, która wyjaśnia cykle gospodarcze jako wynik zmian w zagregowanym popycie i Supply.
+  - Austriacka teoria cyklu koniunkturalnego to teoria, która wyjaśnia cykle gospodarcze jako wynik zmian w poziomie zatrudnienia, PKB lub wskaźniku cen konsumpcyjnych.
+explanation: |
+  Austriacka teoria cyklu koniunkturalnego, opracowana przez Ludwiga Von Misesa i Friedricha Hayeka
+  i Friedricha Hayeka, wyjaśnia cykle koniunkturalne jako endogeniczną dynamikę systemu bankowości
+  rezerwowego systemu bankowego. Podkreśla ona sekwencyjny charakter ludzkich działań i wpływ wahań stóp procentowych na gospodarkę
+  wpływ wahań stóp procentowych na międzyokresową koordynację podmiotów gospodarczych
+  podmiotów gospodarczych.
+reviewed: true

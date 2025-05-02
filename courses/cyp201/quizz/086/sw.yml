@@ -1,0 +1,9 @@
+question: Je, hundi imehesabiwaje kwa anwani za SegWit v0 zilizosimbwa katika bech32?
+answer: Kwa kutumia misimbo ya BCH
+wrong_answers:
+  - Kwa kutumia HASH256 mara mbili
+  - Kwa kuongeza RIPEMD160 Hash
+  - Kwa kusimba moja kwa moja katika base64
+explanation: |
+  Anwani za Bech32 hutumia misimbo ya BCH kukokotoa hundi.
+reviewed: false

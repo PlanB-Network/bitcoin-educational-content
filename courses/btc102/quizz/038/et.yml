@@ -1,10 +1,9 @@
-question: Mida pakub Bitcoin igale inimesele?
-answer: Võimaluse väljuda traditsioonilisest finantssüsteemist
+question: Milline profiil soosib mitte-KYC omandamist ja väga turvaliste rahakottide kasutamist?
+answer: Paranoiline
 wrong_answers:
-  - Võimaluse kiiresti rikkaks saada
-  - Võimaluse investeerida aktsiatesse
-  - Võimaluse avada pangakonto
+  - Hodler
+  - Stacker
+  - Aktiivne kasutaja
 explanation: |
-  Peatükk väidab, et Bitcoin pakub igale inimesele võimalust väljuda
-  traditsioonilisest finantssüsteemist. See on eetiline valik, mille ees võib
-  ühel päeval seista igaüks.
+  Paranoiline seab esikohale privaatsuse ja turvalisuse, kasutades väga turvalisi omandamis- ja salvestusmeetodeid.
+reviewed: false

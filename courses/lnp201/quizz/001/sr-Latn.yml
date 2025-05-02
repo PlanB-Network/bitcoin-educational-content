@@ -1,0 +1,9 @@
+question: U platnom kanalu, šta je kapacitet kanala?
+answer: Ukupan iznos sredstava koji dva učesnika mogu Exchange
+wrong_answers:
+  - Vremensko ograničenje za koje kanal može ostati otvoren
+  - Maksimalan iznos koji jedan učesnik može poslati u jednoj transakciji
+  - Broj transakcija koje kanal može podržati dnevno
+explanation: |
+  Kapacitet kanala odgovara ukupnim sredstvima dva učesnika i ostaje fiksiran kako bi se odredile moguće razmene.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja su 2 rizika po privatnost povezana sa izborom novčića?
+answer: CIOH i veza između ulaza / identiteta od strane primaoca.
+wrong_answers:
+  - Praćenje IP Address i korelacija aktivnosti.
+  - Praćenje vremena i ponovna upotreba Address.
+  - Ponovna upotreba Address i veza između ulaza / identiteta od strane spoljnog posmatrača.
+explanation: |
+  Prilikom odabira novčića treba razmotriti dva rizika: mogućnost da primalac plaćanja poveže deo vašeg identiteta sa UTXO-ima korišćenim kao ulazi i sposobnost spoljnog posmatrača da uspostavi veze između svih UTXO-a potrošenih kao ulazi (CIOH).
+reviewed: false

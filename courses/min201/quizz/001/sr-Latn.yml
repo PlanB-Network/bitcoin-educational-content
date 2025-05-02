@@ -1,0 +1,9 @@
+question: Koja je svrha mehanizma za prilagođavanje težine u Bitcoin mreži?
+answer: Da bi se osiguralo da se blokovi rudare u proseku svakih 10 minuta
+wrong_answers:
+  - Da bi se povećala težina Mining tokom vremena
+  - Da se smanji težina Mining tokom vremena
+  - Da se osigura da isti Miner ne rudari uzastopne blokove
+explanation: |
+  Podešavanje težine je ključni mehanizam u radu Bitcoin mreže, osiguravajući da se blokovi rudare u proseku svakih 10 minuta. Ovaj mehanizam podešavanja osigurava da Mining vreme za nove blokove ostane konstantno tokom vremena, bez obzira na broj rudara ili ukupnu računarsku snagu mreže.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je veličina sirovog privatnog ključa korišćenog na Bitcoin?
+answer: 256 bita
+wrong_answers:
+  - 128 bita
+  - 512 bita
+  - 1024 bita
+explanation: |
+  Privatni ključ u Bitcoin je 256-bitni nasumični ceo broj, što osigurava dovoljno veliki prostor ključeva da garantuje sigurnost.
+reviewed: false

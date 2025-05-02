@@ -1,0 +1,12 @@
+question: Šta treba da uradite ako otkrijete virus na svom računaru?
+answer: Isključite ga sa interneta, izvršite potpuni antivirusni sken i obrišite zaražene fajlove.
+wrong_answers:
+  - Nastavite normalno koristiti računar.
+  - Isključite računar i ostavite ga isključenog nekoliko sati.
+  - Izbriši sve fajlove na računaru.
+explanation: |
+  Ako otkrijete virus na svom računaru, trebali biste ga
+  isključiti sa interneta kako biste sprečili širenje virusa ili
+  komunikaciju sa hakerom. Zatim, izvršite
+  potpuno skeniranje antivirusom i obrišite zaražene fajlove.
+reviewed: true

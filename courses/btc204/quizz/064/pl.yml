@@ -1,0 +1,10 @@
+question: W jaki sposób przechowywane są etykiety powiązane z Bitcoin Wallet?
+answer: Lokalnie w oprogramowaniu Wallet.
+wrong_answers:
+  - W scentralizowanej bazie danych kontrolowanej przez dewelopera.
+  - Na Bitcoin Blockchain do OP_RETURN.
+  - W pamięci RAM tylko podczas wykonywania oprogramowania.
+explanation: |
+  Etykiety są przechowywane lokalnie przez oprogramowanie Wallet i nigdy nie są przesyłane przez sieć Bitcoin. Etykietowanie jest więc osobistym narzędziem do zarządzania.
+  
+reviewed: false

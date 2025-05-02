@@ -1,7 +1,5 @@
 ---
-term: BITCOIN KNOTS
-
+term: Bitcoin HẢI ĐỒNG
 ---
-Implementation of the Bitcoin protocol. Bitcoin Knots is an alternative to the reference software Bitcoin Core, offering some different rules and features, while being compatible with other nodes. Knots is developed and maintained by Luke Dashjr.
 
-![](../../dictionnaire/assets/51.webp)
+Triển khai thiểu số của giao thức Bitcoin. Bitcoin Knots là một giải pháp thay thế cho phần mềm tham chiếu Bitcoin Core, cung cấp một số quy tắc và tính năng khác nhau, trong khi vẫn tương thích với các nút khác. Knots được phát triển và duy trì bởi Luke Dashjr.

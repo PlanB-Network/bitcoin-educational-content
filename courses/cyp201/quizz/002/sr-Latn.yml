@@ -1,0 +1,9 @@
+question: Koja osobina Hash funkcija se demonstrira potpunom promenom Hash kada se poruka malo promeni?
+answer: Efekat lavine
+wrong_answers:
+  - Otpornost na koliziju
+  - Otpornost na drugu predočivu sliku
+  - Dužina
+explanation: |
+  Mala promena u ulazu rezultira radikalnom promenom u Hash, to je ono što se naziva efektom lavine.
+reviewed: false

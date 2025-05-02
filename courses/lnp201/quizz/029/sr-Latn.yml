@@ -1,0 +1,9 @@
+question: U kojoj situaciji se koristi prisilno zatvaranje kanala?
+answer: Kada jedna od strana više ne odgovara
+wrong_answers:
+  - Kada kapacitet kanala treba povećati
+  - Kada vremenska brava nije dovoljna
+  - Kada su naknade za transakcije previsoke
+explanation: |
+  Prinudno zatvaranje se koristi kao poslednje sredstvo ako jedna od strana, na primer zbog tehničkog problema, više ne odgovara na poruke druge strane.
+reviewed: false

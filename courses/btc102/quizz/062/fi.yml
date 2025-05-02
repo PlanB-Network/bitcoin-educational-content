@@ -1,8 +1,9 @@
-question: Mikä on tarkoitus kysyä neljä kysymystä ennen Bitcoin-sijoitussuunnitelman valitsemista?
-answer: Valita sinulle parhaiten sopiva polku
+question: Mitä EI suositella, kun luovutat pääsyn bitcoineihisi?
+answer: Mnemonic-lauseen antaminen yhdelle henkilölle
 wrong_answers:
-  - Määrittää, kuinka paljon Bitcoinia sinun tulisi ostaa
-  - Määrittää, minkä tyyppistä Bitcoin-lompakkoa sinun tulisi käyttää
-  - Määrittää Bitcoin-sijoituksesi keston
+  - Tietojen jakaminen usean henkilön kesken
+  - Suljettujen läpinäkymättömien kirjekuorien käyttö
+  - Selittävän kirjeen kirjoittaminen
 explanation: |
-  Neljän kysymyksen esittämisen tarkoitus ennen Bitcoin-sijoitussuunnitelman valitsemista on valita sinulle parhaiten sopiva polku. Kysymykset auttavat ymmärtämään sijoitustavoitteesi ja -mieltymyksesi.
+  Mnemonic-lauseen antaminen yhdelle henkilölle ilman lisäturvaa lisää huomattavasti varkauden riskiä elinaikanasi.
+reviewed: false

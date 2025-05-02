@@ -1,0 +1,9 @@
+question: Koje bi bile implikacije za korisnike Bitcoin ako bi blokovi bili 100 puta teži?
+answer: Pokretanje Bitcoin čvora ne bi bilo dostupno prosečnoj osobi, što bi ugrozilo decentralizaciju protokola i nepromenljivost kako transakcija tako i pravila konsenzusa.
+wrong_answers:
+  - Pokretanje Bitcoin čvora bilo bi pristupačnije prosečnoj osobi, poboljšavajući decentralizaciju protokola i nepromenljivost kako transakcija tako i pravila konsenzusa.
+  - Kapacitet transakcija mreže bi se smanjio.
+  - Block reward za rudare bi se povećao.
+explanation: |
+  Ako bi blokovi bili 100 puta teži, pokretanje Bitcoin čvora bi zahtevalo 50TB Hard disk, propusni opseg veći od 500GB/mesec, i hardver sposoban za validaciju stotina hiljada transakcija za manje od 10 minuta. Ovo bi učinilo pokretanje Bitcoin čvora nedostupnim prosečnoj osobi, ugrožavajući decentralizaciju protokola i nepromenljivost transakcija i pravila konsenzusa.
+reviewed: true

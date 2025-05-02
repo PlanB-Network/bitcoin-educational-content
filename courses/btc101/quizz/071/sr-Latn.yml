@@ -1,0 +1,12 @@
+question: U kojoj godini će se desiti 7. Halving?
+answer: 2036
+wrong_answers:
+  - 2032
+  - 2028
+  - 2048
+explanation: |
+  7. Halving bi trebalo da se dogodi 2036. godine, a procenjeni
+  broj Bitcoin u opticaju će biti 20,835,937.5,
+  što će otprilike odgovarati 99.22% od ukupnog
+  Supply.
+reviewed: true

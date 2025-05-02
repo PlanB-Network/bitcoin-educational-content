@@ -1,9 +1,11 @@
 ---
 term: OUTPUT
-
 ---
-Im Kontext von Bitcoin bezieht sich ein Output innerhalb einer Transaktion auf die UTXOs (*Unspent Transaction Outputs*), die als Zielfonds für die Zahlung erstellt werden. Genauer gesagt ist es ein Mechanismus, mit dem eine Transaktion Gelder verteilt.
 
-Eine Transaktion nimmt UTXOs, d. h. Bitcoin-Stücke, als Input und erzeugt neue UTXOs als Output. Diese Ausgaben spezifizieren eine bestimmte Menge an Bitcoins, die oft einer bestimmten Adresse zugeordnet sind, sowie die Bedingungen, unter denen diese Mittel später ausgegeben werden können. Die Rolle der Bitcoin-Transaktion besteht also darin, UTXOs als Inputs zu verbrauchen und neue UTXOs als Outputs zu erzeugen. Die Differenz zwischen den beiden entspricht den Transaktionsgebühren, die der siegreiche Miner des Blocks kassieren kann. Ein UTXO ist im Wesentlichen der Output einer früheren Transaktion, der noch nicht ausgegeben wurde. Aus den Transaktionsoutputs werden also neue UTXOs erzeugt, die wiederum als Inputs für künftige Transaktionen verwendet werden können.
+Im Zusammenhang mit Bitcoin bezieht sich ein Output innerhalb einer Transaktion auf _Unspent Transaction Outputs_ (UTXOs), die als Zielfonds für Zahlungen angelegt werden. Genauer gesagt handelt es sich um einen Mechanismus, mit dem eine Transaktion Geldmittel verteilt. Eine Transaktion nimmt UTXOs, d.h. Bits von Bitcoins, als "Inputs" und erzeugt neue UTXOs als "Outputs". Diese Outputs legen eine bestimmte Menge an Bitcoins fest, die häufig einem bestimmten Address zugewiesen wird, sowie die Bedingungen, unter denen diese Mittel zu einem späteren Zeitpunkt ausgegeben werden können.
 
-Im weiteren Sinne bezieht sich der Begriff "Ausgabe" in der Datenverarbeitung im Allgemeinen auf die Daten, die aus einer Funktion, einem Algorithmus oder einem System resultieren. Wenn beispielsweise Daten durch eine kryptografische Hash-Funktion geleitet werden, werden diese Informationen als "Eingabe" und das Ergebnis als "Ausgabe" bezeichnet
+
+Die Rolle der Bitcoin-Transaktion besteht also darin, UTXOs als Inputs zu verbrauchen und neue UTXOs als Outputs zu erzeugen. Die Differenz zwischen den beiden entspricht den Transaktionsgebühren, die von der siegreichen Miner des Blocks zurückgefordert werden können. Ein UTXO ist im Wesentlichen die Ausgabe einer früheren Transaktion, die noch nicht ausgegeben wurde. Transaktionsoutputs sind also die Schaffung neuer UTXOs, die wiederum potenziell als Inputs in zukünftigen Transaktionen verwendet werden können.
+
+
+Im weiteren Sinne bezieht sich der Begriff "Ausgabe" in der Informatik im Allgemeinen auf die Daten, die sich aus einer Funktion, einem Algorithmus oder einem System ergeben. Wenn beispielsweise Daten durch eine kryptografische Hash-Funktion geleitet werden, werden diese Informationen als "Eingabe" und das Ergebnis als "Ausgabe" bezeichnet.

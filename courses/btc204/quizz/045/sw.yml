@@ -1,0 +1,10 @@
+question: Lengo kuu la BIP47 ni nini?
+answer: Kuwa na kitambulisho cha kipekee cha kupokea BTC bila kutumia tena anwani.
+wrong_answers:
+  - Ongeza ukubwa wa vitalu kwa shughuli za haraka zaidi.
+  - Ruhusu miamala isiyo na ada kwenye mtandao wa Bitcoin.
+  - Fanya miamala isijulikane kabisa kwenye Bitcoin.
+explanation: |
+  Lengo la BIP47 ni kutoa kitambulisho cha kipekee kinachoruhusu kupokea bitcoins mara nyingi na kutoka kwa watu wengi, lakini bila kutumia tena anwani, kwa kuwa hii ni desturi mbaya sana kwa faragha ya mtumiaji.
+  
+reviewed: false

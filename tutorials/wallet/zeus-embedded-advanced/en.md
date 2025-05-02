@@ -1,10 +1,9 @@
 ---
-name: Zeus
-
+name: Zeus Embedded - Advanced
 description: Multi-node self-custodial wallet
 ---
 
-![Zeus](assets/zeus_intro.webp)
+![Zeus](assets/cover.webp)
 
 # Introduction to ZEUS Wallet
 
@@ -66,7 +65,7 @@ In order to be able to use Zeus and manage the Lightning channels, liquidity, fe
 
 # A walk-through guide how to start using Zeus LN embedded node on your mobile device
 
-![](https://darth-coin.github.io/assets/images/zeus-intro-logo.jpg)
+![Image](assets/en/01.webp)
 
 I dedicate this guide to all those new Lightning Network (LN) users that want to start a new sovereign journey using a self-custody node wallet on their mobile devices.
 
@@ -74,7 +73,7 @@ Let’s consider that you already pass through all that plethora of custodial LN
 
 Here comes Zeus, starting with [version v0.8.0 announced on their blog](https://blog.zeusln.com/new-release-zeus-v0-8-0/), is offering now an embedded LND node into the app. Until now Zeus was a remote node management app + LNDhub accounts. But now… the node is in the phone!
 
-![](https://darth-coin.github.io/assets/images/zeus-node-lagarde.jpg)
+![Image](assets/en/02.webp)
 
 ## Quick recap of main features for Zeus Node:
 
@@ -89,11 +88,7 @@ Here comes Zeus, starting with [version v0.8.0 announced on their blog](https://
 -   **LND logs** - user can read in real time the LND service logs and use them to debug possible issues (mainly for bad connections)
 -   **Automated Backups** - the LN node channels are automatically back up on the Olympus server. This automated backup is encrypted with your node wallet seed (without the seed is totally useless). User also can export manually a SCB (static channels backup) for a disaster recovery.
 
-  
-
 ## How to get onboard with Zeus LN Node (LND embedded)
-
-![](https://darth-coin.github.io/assets/images/zeus-laser-eyes.gif)
 
 In this guide I will talk only about the embedded LND node, and not about the other ways to use this magnificent app (remote node management and LNDhub accounts). For the other types of connections, please refer to [Zeus Docs page](https://docs.zeusln.app/category/getting-started), that is very well explained and no need for writing a dedicated guide.
 
@@ -109,7 +104,7 @@ Due to the fact that Zeus is a full LND node I will have some initial recommenda
 
 Once you setup the type of connection “Embedded node” the app will start syncing for a while. Wait patiently to finish that part, then enter in the main Settings page.
 
-![](https://darth-coin.github.io/assets/images/zeus-main-settings.jpg)
+![Image](assets/en/03.webp)
 
 Briefly, let’s dive into each of the Settings sections and understand some of the main features, before you start using Zeus:
 
@@ -160,7 +155,7 @@ In this section are some options to generate invoices:
 
 Another option in this section is how to set the type of onchain address you want to use: segwit nested, segwit, taproot.
 
-![](https://darth-coin.github.io/assets/images/zeus-invoice-set-type-address.jpg)
+![Image](assets/en/04.webp)
 
 Click on the top wheel button and a popup screen will appear to choose the desired type of address. Once you set that, the next time you hit the receive button for onchain, it will generate the address type selected. You can change it anytime.
 
@@ -302,17 +297,17 @@ Here is a short video how to configure and use your Zeus contacts:
 
 Here we have various sub-sections with more tools:
 
-1.  _Accounts_ - here you can import external accounts / wallets, cold wallets, hot wallets, to control or use as external funding source for your Zeus node channels. This feature is still experimental.
-2.  _Speed up transaction_ - This feature could be helpful when you have a stuck tx into mempool and want to bump the fee. You will need to provide the tx output from tx details and select the desired new fee you want to use. Must be higher then previous one and require you to have more funds available in your onchain wallet.
-    
-    ![](https://darth-coin.github.io/assets/images/zeus-fees-bump.jpg)
-    
-    You have to go to your pending tx and copy the txID outpoint. Then come to this section and paste it, then select the new fee you want to use to bump it. It will popup a new screen with recommended fees in that moment, or you can set a custom one. Remember MUST be higher than previous one.
-    
-    Is always better to keep a UTXO with a maximum 100k sats in your Zeus onchain wallet, to be able to use it to bump fees when is necessary.
-    
-3.  _Sign or verify_ - With this feature you could sign a specific message with your wallet keys. Also can be used to verify a message to prove that is coming from a specific wallet keys.
-4.  _Currency converter_ - a simple tool to calculate the rate conversion between BTC and other fiat currencies.
+- _Accounts_ - here you can import external accounts / wallets, cold wallets, hot wallets, to control or use as external funding source for your Zeus node channels. This feature is still experimental.
+- _Speed up transaction_ - This feature could be helpful when you have a stuck tx into mempool and want to bump the fee. You will need to provide the tx output from tx details and select the desired new fee you want to use. Must be higher then previous one and require you to have more funds available in your onchain wallet.
+
+![Image](assets/en/05.webp)
+
+You have to go to your pending tx and copy the txID outpoint. Then come to this section and paste it, then select the new fee you want to use to bump it. It will popup a new screen with recommended fees in that moment, or you can set a custom one. Remember MUST be higher than previous one.
+
+Is always better to keep a UTXO with a maximum 100k sats in your Zeus onchain wallet, to be able to use it to bump fees when is necessary.
+
+- _Sign or verify_ - With this feature you could sign a specific message with your wallet keys. Also can be used to verify a message to prove that is coming from a specific wallet keys.
+- _Currency converter_ - a simple tool to calculate the rate conversion between BTC and other fiat currencies.
 
 #### J - Merch and Support
 
@@ -346,9 +341,9 @@ By simply creating an invoice on your Zeus (put the amount and click “request�
 
 The invoice you generate will be [wrapped](https://docs.zeusln.app/lsp/wrapped-invoices) and you'll be presented with the fees associated with the service if they're paid. This wrapped invoice contain route hints towards your Zeus node, so the LSP could find your new node and open a channel with the new funds you are depositing.
 
-![](https://darth-coin.github.io/assets/images/zeus-wrapped-invoice.jpg)
+![Image](assets/en/06.webp)
 
-![](https://darth-coin.github.io/assets/images/zeus-wrapped.jpg)
+![Image](assets/en/07.webp)
 
 In order to get a LN channel from the LSP with the funds you want to receive 1st time, this invoice must be paid from another LN wallet and wait few moments until the LSP is opening the channel towards your Zeus node, deduct the fee and push the the remaining amount of the payment on your side of the channel.
 
@@ -358,11 +353,11 @@ Another benefit of paying for a channel is zero fee routing. That means when rou
 
 Once the channel is ready, click on the right button at the bottom of the screen, that displays the Zeus channels.
 
-![](https://darth-coin.github.io/assets/images/zeus-channels-button.png)
+![Image](assets/en/08.webp)
 
 And you will see a channel like this, showing your side of the channel balance:
 
-![](https://darth-coin.github.io/assets/images/zeus-channels-screen.jpg)
+![Image](assets/en/09.webp)
 
 For more you will spend from this channel, more inbound liquidity you will have. For more sats you will receive into this channel, less inbound liquidity space you will have.
 
@@ -382,7 +377,7 @@ Once you swap out from that channel let’s say 50% and get back the sats into y
 
 With this method you can open channels towards any other LN node, including the same Olympus LSP. But if you already have a channel with Olympus is recommended to have also with another node, for more reliability and also could use MPP (multi-part payment).
 
-![](https://darth-coin.github.io/assets/images/zeus-mpp.jpg)
+![Image](assets/en/10.webp)
 
 Above is an example of paying a LN invoice using MPP. As you can see at the bottom of the screen you have “settings” and is opening a drop down page with more details for the payment you are about to make. In that screen, if you have at least 2 channels open, the MPP feature will be ON by default. Also you can activate AMP (atomic multi-path) and set specific parts you want. This is a powerful feature!
 
@@ -394,7 +389,7 @@ Here is also a list of vouched node peers for Zeus. If you know good ones, you a
 
 You can open a channel in Zeus by going to the Channels view by clicking the channel icon in the bottom right corner of the main view, and then hitting the + icon in the top right corner.
 
-![](https://darth-coin.github.io/assets/images/zeus-open-chan-olympus.jpg)
+![Image](assets/en/11.webp)
 
 If you want to open a channel with a specific node, click on (A) top corner to scan the node QR nodeID (on Mempool, Amboss, 1ML you can obtain that QR) and all the peer details will be populated.
 
@@ -408,7 +403,7 @@ Unlike paid LSP channels, your channel will require on-chain confirmation, using
 
 Before hitting the button to open the channel, slide down the advanced options:
 
-![](https://darth-coin.github.io/assets/images/zeus-chan-details.jpg)
+![Image](assets/en/12.webp)
 
 You will also need to make sure that the channel is un-announced (private). By default the option is off for announced channels. This option is not recommended to be activated for Zeus embedded node, is useful only when you use Zeus with your remote node, as a public routing node.
 
@@ -431,7 +426,7 @@ So if you need practically an empty LN channel (the balance is 100% on the peer 
 
 Right now, due to some LN code limitations it is not possible to receive exactly how much is displayed in “Inbound”. Always keep in mind that you should make your invoices with a slight less amount, respectively the “Channel Local Reserve” amount.
 
-![](https://darth-coin.github.io/assets/images/zeus-chan-reserves.jpg)
+![Image](assets/en/13.webp)
 
 As you can see in the above image, the “inbound” it displays that I can still receive 5101 sats, but in fact in this moment is impossible to receive more. And you can observe that is the same amount as the “Local reserve”.
 
@@ -457,7 +452,7 @@ If you want to add more privacy when you receive, you could use the “wrapped i
 
 In order to obtain a wrapped invoice, go to the main keypad screen, put the amount and hit request. Will display a normal QR code for your invoice. Now, click on the top right “X” button and you will be redirected to more options for the invoice.
 
-![](https://darth-coin.github.io/assets/images/zeus-wrapped-invoice2.jpg)
+![Image](assets/en/14.webp)
 
 Now you will have to activate that option on top “Enable LSP” and hit the “Create invoice” button. That option will create the wrapped invoice and remember, will charge a small fee.
 
@@ -488,7 +483,7 @@ Simply scan or copy the destination nodeID (or use Zeus contacts to save your re
 
 Put the amount of sats, a message if is necessary (yes, you can use it also as a secret chat over LN) and click on “Send” button. Done!
 
-![](https://darth-coin.github.io/assets/images/zeus-keysend.jpg)
+![Image](assets/en/15.webp)
 
 If you have a direct channel with the destination peer, will be NO fees involved.
 
@@ -502,6 +497,5 @@ And… that’s it! From now on you just use Zeus Node as a regular BTC/LN walle
 
 In conclusion, here is a comparison privacy chart :
 
-![](https://darth-coin.github.io/assets/images/privacy-chart-mobile-nodes.jpg)
+![Image](assets/en/16.webp)
 
-* * *

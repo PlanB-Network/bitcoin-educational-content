@@ -102,6 +102,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.25
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.54
 tags:
   - guides
   - personal-security

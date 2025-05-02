@@ -33,3 +33,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.97
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.69

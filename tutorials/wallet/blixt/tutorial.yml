@@ -102,6 +102,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 18.49
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.08
 tags:
   - node
   - lightning

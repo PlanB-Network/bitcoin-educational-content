@@ -134,6 +134,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 82.84
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 103.53
 tags:
   - guides
   - business

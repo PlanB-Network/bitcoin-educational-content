@@ -107,6 +107,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 134.43
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 168.01
 tags:
   - deep-dive
   - historical

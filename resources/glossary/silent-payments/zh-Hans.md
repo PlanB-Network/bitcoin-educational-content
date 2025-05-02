@@ -27,16 +27,16 @@ $$  \text{inputHash} = \text{hash}(\text{outpoint}_L \text{ ‖ } A)  $$
 
 参数说明：
 
-- $B_{\text{scan}}$：Bob 的扫描公开密钥（静态地址）；
-- $B_{\text{spend}}$：Bob 花费的公开密钥（静态地址）；
-- $A$:输入（调整）中的公钥之和；
-- $a$:调整后的私钥，即在 Alice 交易中作为输入消耗的 UTXO 的`scriptPubKey`中使用的所有密钥对的总和；
-- $\text{outpoint}_L$：用作 Alice 交易输入的最小 UTXO（按词典顺序）；
-- $\text{ ‖ }$：连接（将操作数端对端连接起来的操作）；
-- $G$:椭圆曲线 `secp256k1` 的生成点；
-- $\text{hash}$：标记为 `BIP0352/SharedSecret` 的 SHA256 哈希函数；
-- $P_0$:第一个公钥/唯一地址，用于向 Bob 付款；
-- $0$:用于生成多个唯一付款地址的整数。
+* $B_{\text{scan}}$：Bob 的扫描公开密钥（静态地址）；
+* $B_{\text{spend}}$：Bob 花费的公开密钥（静态地址）；
+* $A$:输入（调整）中的公钥之和；
+* $a$:调整后的私钥，即在 Alice 交易中作为输入消耗的 UTXO 的`scriptPubKey`中使用的所有密钥对的总和；
+* $\text{outpoint}_L$：用作 Alice 交易输入的最小 UTXO（按词典顺序）；
+* $\text{ ‖ }$：连接（将操作数端对端连接起来的操作）；
+* $G$:椭圆曲线 `secp256k1` 的生成点；
+* $\text{hash}$：标记为 `BIP0352/SharedSecret` 的 SHA256 哈希函数；
+* $P_0$:第一个公钥/唯一地址，用于向 Bob 付款；
+* $0$:用于生成多个唯一付款地址的整数。
 
 Bob 通过这种方式扫描区块链，找到他的 "静默支付"：
 
@@ -44,7 +44,7 @@ $$  P_0 = B_{\text{spend}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} 
 
 其中：
 
-- $b_{text{scan}}$：Bob 的私人扫描密钥。
+* $b_{text{scan}}$：Bob 的私人扫描密钥。
 
 如果他发现 $P_0$ 是一个包含寄给他的无声付款的地址，他就会计算出 $p_0$，即允许他使用 Alice 发送给 $P_0$ 的资金的私人密钥：
 
@@ -52,7 +52,7 @@ $$ p_0 = （ b_{text{spend}}+ text{hash}(\text{inputHash} \cdot b_{text{scan}} \
 
 参数说明：
 
-- $b_{text{spend}}$：Bob 的私人消费密钥；
-- $n$：椭圆曲线 `secp256k1` 的阶数。
+* $b_{text{spend}}$：Bob 的私人消费密钥；
+* $n$：椭圆曲线 `secp256k1` 的阶数。
 
 除了这个基本版本之外，还可以使用标签从同一个基础静态地址生成多个不同的静态地址，其目的是在不显著增加扫描工作量的前提下，实现多用途地址的分离。

@@ -229,29 +229,29 @@ If you want to see more recovery options for a LND node, [please read my previou
 
 In this section we will find some basic tools to manage the integrated node:
 
-1.  _Disaster Recovery_ - Automated and manual backups for the LN channels. Please read more how to use this feature on Zeus Docs page.
-2.  _Express Graph Sync_ - Zeus app will download the LN gossip data graph from a dedicated server, for faster and better synchronization, offering best payment paths. You can choose also to clear previous graph data at startup.
-3.  _Peers_ - section to manage the neutrino peers and 0-conf peers. If you have issues with initial sync, channels not coming online, is because your device have high latency with the configured neutrino peer. Try switching of the list of preferred peers or add your specific peer that you know it have better latency for sync. Well known neutrino servers are:
+- _Disaster Recovery_ - Automated and manual backups for the LN channels. Please read more how to use this feature on Zeus Docs page.
+- _Express Graph Sync_ - Zeus app will download the LN gossip data graph from a dedicated server, for faster and better synchronization, offering best payment paths. You can choose also to clear previous graph data at startup.
+- _Peers_ - section to manage the neutrino peers and 0-conf peers. If you have issues with initial sync, channels not coming online, is because your device have high latency with the configured neutrino peer. Try switching of the list of preferred peers or add your specific peer that you know it have better latency for sync. Well known neutrino servers are:
 
--   btcd1.lnolymp.us | btcd2.lnolymp.us - for US region
--   sg.lnolymp.us - for Asia region
--   btcd-mainnet.lightning.computer - for US region
--    uswest.blixtwallet.com (Seattle) - for US region
--  europe.blixtwallet.com (Germany) - for EU region
--  asia.blixtwallet.com - for Asia region
--  node.eldamar.icu - for US region
--  noad.sathoarder.com - for US region
--  bb1.breez.technology | bb2.breez.technology - for US region
--  neutrino.shock.network - US region
+	-   btcd1.lnolymp.us | btcd2.lnolymp.us - for US region
+	-   sg.lnolymp.us - for Asia region
+	-   btcd-mainnet.lightning.computer - for US region
+	-   uswest.blixtwallet.com (Seattle) - for US region
+	-  europe.blixtwallet.com (Germany) - for EU region
+	-  asia.blixtwallet.com - for Asia region
+	-  node.eldamar.icu - for US region
+	-  noad.sathoarder.com - for US region
+	-  bb1.breez.technology | bb2.breez.technology - for US region
+	-  neutrino.shock.network - US region
 
-4.  _LND logs_ - very useful tool to debug your LN node issues and control in depth what is going on with a more technical level.
-5.  _Advanced settings_ - more tools to control the use of your LND node:
+- _LND logs_ - very useful tool to debug your LN node issues and control in depth what is going on with a more technical level.
+- _Advanced settings_ - more tools to control the use of your LND node:
 
--  _Pathfinding mode_ - bimodal or apriori, ways to find a better route for your LN payments and also resetting the previous routing information. Please read these very good guides about pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/lnd/pathfinding) - by Docs Lightning Engineering and [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - by Voltage
--  _Persistent LND_ - activate this mode if you want the LND service to run continuously in the background and keep your node online 24/7. This is very useful if you use Zeus as a PoS in a small shop or you are receiving many LN tips over the LN Address.
--  _Rescan wallet_ - this option will trigger at restart a full scan of all onchain txs of your wallet. Activate it only in case you are missing some txs in your wallet. The rescan task will take time, several minutes so be patient and always check the logs to see more details about the progress.
--  _Compact Database_ - this option is very useful if your Zeus app is occupying a lot of device space (see app details in your device settings). If you have a lot of activity using Zeus, I would recommend to do this compaction more often. Once you see that you have more than 1-1.5GB data for Zeus app, do the compaction. It will restart and take some time, so be patient.
--  _Delete Neutrino files_ - this option to delete the neutrino files (with a restart) will reduce a lot the data storage usage. Reducing the data usage also have a big impact in battery use, reducing the battery use, especially if you use Zeus in persistent mode.
+	- _Pathfinding mode_ - bimodal or apriori, ways to find a better route for your LN payments and also resetting the previous routing information. Please read these very good guides about pathfinding: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/lnd/pathfinding) - by Docs Lightning Engineering and [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - by Voltage
+	- _Persistent LND_ - activate this mode if you want the LND service to run continuously in the background and keep your node online 24/7. This is very useful if you use Zeus as a PoS in a small shop or you are receiving many LN tips over the LN Address.
+	- _Rescan wallet_ - this option will trigger at restart a full scan of all onchain txs of your wallet. Activate it only in case you are missing some txs in your wallet. The rescan task will take time, several minutes so be patient and always check the logs to see more details about the progress.
+	- _Compact Database_ - this option is very useful if your Zeus app is occupying a lot of device space (see app details in your device settings). If you have a lot of activity using Zeus, I would recommend to do this compaction more often. Once you see that you have more than 1-1.5GB data for Zeus app, do the compaction. It will restart and take some time, so be patient.
+	- _Delete Neutrino files_ - this option to delete the neutrino files (with a restart) will reduce a lot the data storage usage. Reducing the data usage also have a big impact in battery use, reducing the battery use, especially if you use Zeus in persistent mode.
 
 **D - Node Info**
 
@@ -432,15 +432,15 @@ So keep in mind, when you make invoices to receive, also take a look into your c
 
 ### Quick advice for new users starting with Zeus node:
 
-1\. Seize correctly your new channels.
+- Seize correctly your new channels.
 
 For example, if you know that you will receive in a week let's say 1M sats, open a 2M sats channel and swap out into onchain wallet or into another (temporary) custodial LN account 50-60% of your outbound liquidity. Always be prepared with more liquidity. Once you need more liquidity back in your Zeus channels, you can move it back from the custodial accounts.
 
 If you know that you will send let's say 500k sats/week, then open a 1M sats channel. In this way you will still have a reserve until you fill it up again.
 
-2\. If you are a merchant and you will always receive more than you spend regularly, buy a dedicated inbound channel. Is the cheapest way. You pay a minimal fee and you get an "empty" channel.
+- If you are a merchant and you will always receive more than you spend regularly, buy a dedicated inbound channel. Is the cheapest way. You pay a minimal fee and you get an "empty" channel.
 
-3\. Do not open small meaningless channels of 50-100-300-500k sats. You will fill them in matter of days, even if you use them only for zaps. Open bigger ones and different ones, NOT just one channel.
+- Do not open small meaningless channels of 50-100-300-500k sats. You will fill them in matter of days, even if you use them only for zaps. Open bigger ones and different ones, NOT just one channel.
 
 Once you open a bigger channel, you can always use external submarine swaps to move sats into your onchain wallets (including back to Zeus onchain). Keeping a balance between in and out liquidity is good and also you can “re-use” those sats to open more channels if you like.
 

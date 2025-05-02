@@ -202,4 +202,4 @@ Bravo, vous êtes désormais en mesure d'utiliser par vous même Zeus Embedded, 
 
  Pour en savoir plus sur le fonctionnement technique du Lightning Network, vous pouvez retrouver l'excellente formation gratuite de Fanis Michalakis sur Plan ₿ Network :
  
-  [Plan ₿ Network - Introduction théorique au Lightning Network](https://planb.network/fr/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb)
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

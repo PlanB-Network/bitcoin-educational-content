@@ -83,7 +83,7 @@ A co, jeśli klucz do zrozumienia dzisiejszej gospodarki leży w teorii sprzed k
 ### Jak powstają pieniądze
 
 
-W naszym obecnym systemie monetarnym pieniądz jest tworzony głównie poprzez praktykę bankową znaną jako „bankowość rezerw cząstkowych” Termin ten zasadniczo oznacza, że banki nie są zobowiązane do utrzymywania tylu rezerw, ile otrzymują w depozytach. W rezultacie mogą one tworzyć nową siłę nabywczą podczas udzielania pożyczek i odwrotnie - zmniejszać siłę nabywczą, gdy klienci spłacają swoje pożyczki.
+W naszym obecnym systemie monetarnym pieniądz jest tworzony głównie poprzez praktykę bankową znaną jako „bankowość rezerw cząstkowych”. Termin ten zasadniczo oznacza, że banki nie są zobowiązane do utrzymywania tylu rezerw, ile otrzymują w depozytach. W rezultacie mogą one tworzyć nową siłę nabywczą podczas udzielania pożyczek i odwrotnie - zmniejszać siłę nabywczą, gdy klienci spłacają swoje pożyczki.
 
 
 Na przykład, gdybyś zwrócił się do lokalnego banku w celu zabezpieczenia kredytu hipotecznego na zakup domu, pieniądze pożyczone ci przez bank zostałyby zapisane w księgach rachunkowych. W księgowości zazwyczaj przedstawiamy majątek netto danej osoby za pomocą bilansu, który ma dwie strony: stronę aktywów, w tym wszelkie nieruchomości, kontrakty finansowe, majątek ruchomy lub inne formy posiadanego bogactwa, oraz stronę pasywów, pokazującą źródło funduszy wykorzystanych do stworzenia kapitału wymienionego po stronie aktywów. Różnica między aktywami a pasywami jest określana jako „kapitał własny”, który możemy rozumieć jako majątek netto jednostki.
@@ -113,7 +113,7 @@ Proces ten pozwala bankom rejestrować wszystkie transakcje, w tym przelewy bank
 ### Niestabilność bankowości opartej na rezerwach cząstkowych i pożyczkodawcach ostatniej instancji (bankach centralnych)
 
 
-Głównym problemem związanym z systemem rezerw cząstkowych jest to, że znaczne wypłaty z danego banku mogą potencjalnie doprowadzić do jego bankructwa. Ponieważ banki muszą zaspokajać zapotrzebowanie klientów na gotówkę, posiadając jedynie ograniczony bufor rezerw bankowych, jednoczesna chęć wypłaty środków przez wielu klientów może sprawić, że bank nie będzie w stanie zaspokoić tych żądań, co doprowadzi do jego bankructwa. Biorąc pod uwagę, że wiele osób, firm i instytucji deponuje swoje środki w bankach, dopuszczenie do upadłości banku może mieć poważne konsekwencje gospodarcze, takie jak recesja, a nawet depresja.
+Głównym problemem związanym z systemem rezerw cząstkowych jest to, że znaczne wypłaty z danego banku mogą potencjalnie doprowadzić do jego bankructwa. Ponieważ banki muszą zaspokajać zapotrzebowanie klientów na gotówkę, posiadając jedynie ograniczony bufor rezerw bankowych, jednoczesna chęć wypłaty środków przez wielu klientów może sprawić, że bank nie będzie w stanie zaspokoić wszystkich żądań, co doprowadzi do jego bankructwa. Biorąc pod uwagę, że wiele osób, firm i instytucji deponuje swoje środki w bankach, dopuszczenie do upadłości banku może mieć poważne konsekwencje gospodarcze, takie jak recesja, a nawet depresja.
 
 
 Ta komplikacja dała początek nowoczesnym bankom centralnym. W XIX wieku w Anglii powtarzające się upadki banków zagrażały stabilności finansowej, co doprowadziło do ustanowienia Banku Anglii jako „pożyczkodawcy ostatniej instancji”. Bank Anglii miał za zadanie pożyczać fundusze bankom znajdującym się w trudnej sytuacji podczas kryzysów, aby zapobiec efektowi domina, który mógłby sparaliżować cały system finansowy. Koncepcja banków centralnych jako pożyczkodawców ostatniej instancji rozprzestrzeniła się na cały świat i stała się powszechna.
@@ -146,7 +146,7 @@ W przeciwieństwie do wielu oczekiwań, programy QE nie ożywiły znacząco wzro
 ### Efekt Cantillona
 
 
-Niemniej jednak z tego epizodu można wyciągnąć podstawową zasadę ekonomiczną: kiedy tworzony jest nowy pieniądz, początkowo przynosi on korzyści tym, którzy znajdują się najbliżej źródła pieniądza, kosztem tych, którzy znajdują się dalej. To spostrzeżenie ekonomiczne pochodzi z XVIII wieku, kiedy Richard Cantillon przedstawił je w swoim „Eseju o naturze handlu w ogóle”. Jest on obecnie potocznie nazywany „efektem Cantillona”.
+Z tego rozdziału można wyabstrahować podstawową zasadę ekonomiczną: kiedy tworzony jest nowy pieniądz, początkowo przynosi on korzyści tym, którzy znajdują się najbliżej źródła pieniądza, kosztem tych, którzy znajdują się dalej. To spostrzeżenie ekonomiczne pochodzi z XVIII wieku, kiedy Richard Cantillon przedstawił je w swoim „Eseju o naturze handlu w ogóle”. Jest on obecnie potocznie nazywany „efektem Cantillona”.
 
 
 ![image](assets/en/04.webp)
@@ -158,7 +158,7 @@ Rysunek 4: Efekt Cantillona w pigułce / Źródło: River Financial
 W tym przypadku bankierzy, dyrektorzy banków, właściciele akcji i obligacji, deweloperzy nieruchomości, wynajmujący nieruchomości i wszyscy posiadający aktywa finansowe lub nieruchomości otrzymali gratkę finansową, podczas gdy ciężar spadł na resztę społeczeństwa. Sytuacja ta utrzymywała się przez lata i w dużej mierze wyjaśnia rosnące nierówności majątkowe i poczucie pozbawienia praw wśród ciężko pracujących osób oraz pozornie niepowstrzymany wzrost cen aktywów pomimo powolnego wzrostu PKB.
 
 
-Mówiąc krótko, system jest wadliwy. Banki są z natury niestabilne, ale dopuszczenie do ich upadku może zagrozić całej gospodarce. Pokusa nadużyć stanowi zachętę dla dyrektorów banków do podejmowania nadmiernego ryzyka w celu maksymalizacji przychodów banku ponieważ wiedzą, że bank centralny ostatecznie ich uratuje, przenosząc koszty na podatników. W takich scenariuszach bankierzy centralni tworzą warunki do masowego transferu siły nabywczej od ciężko pracujących osób i oszczędzających do właścicieli aktywów i osób powiązanych z systemem finansowym, odłączając w ten sposób proces tworzenia bogactwa od jego akumulacji.
+Mówiąc krótko, system jest wadliwy. Banki są z natury niestabilne, ale dopuszczenie do ich upadku może zagrozić całej gospodarce. Pokusa dokonywania nadużyć sprawia, że dyrektorzy banków podejmują nadmierne ryzyko w celu maksymalizacji przychodów banku ponieważ wiedzą, że bank centralny ostatecznie ich uratuje, przenosząc koszty na podatników. W takich scenariuszach bankierzy centralni tworzą warunki do masowego transferu siły nabywczej od ciężko pracujących osób i oszczędzających do właścicieli aktywów i osób powiązanych z systemem finansowym, odłączając w ten sposób proces tworzenia bogactwa od jego akumulacji.
 
 
 ![image](assets/en/05.webp)
@@ -239,10 +239,10 @@ Po tym jak teoria wartości autorstwa fizjokratów zakładająca, że cała wart
 Od lewej do prawej: William Stanley Jevons, Carl Menger, Léon Walras
 
 
-Krańcowa teoria wartości utrzymuje, że wartość ekonomiczna odpowiada temu, co podmiot gospodarczy chętnie zapłaci za kolejną jednostkę dobra lub usługi. Ponieważ teoria ta podkreśla fakt, że ceny kształtują się na marginesie, tj. dla następnej jednostki danego dobra, została ona nazwana "marginalizmem".
+Krańcowa teoria wartości utrzymuje, że wartość ekonomiczna odpowiada temu, co podmiot gospodarczy chętnie zapłaci za kolejną jednostkę dobra lub usługi. Ponieważ teoria ta podkreśla fakt, że ceny kształtują się na marginesie, tj. dla następnej jednostki danego dobra, została ona nazwana „marginalizmem”.
 
 
-Powszechnie przedstawia się marginalizm tych trzech szkół jako podobny. Rzeczywiście, Walras i Jevons są bardzo kompatybilni, ale teoretyzacja Mengera znacząco różni się od innych. W swojej pracy, obecnie uważanej za fundament austriackiej teorii ekonomicznej, zatytułowanej „Grundsätze des Volkswirtschaftlehre” (Zasady ekonomii politycznej), opublikowanej w 1874 roku, Menger oferuje marginalne, ale przede wszystkim subiektywne wyjaśnienie wartości, w przeciwieństwie do Walrasa i Jevonsa, którzy uważają wartość za zjawisko obiektywne i mierzalne.
+Powszechnie przedstawia się marginalizm tych trzech szkół jako podobny. Rzeczywiście, Walras i Jevons są bardzo kompatybilni, ale teorię Mengera znacząco różnią się od innych. W swojej pracy, obecnie uważanej za fundament austriackiej teorii ekonomicznej, zatytułowanej „Grundsätze des Volkswirtschaftlehre” (Zasady ekonomii politycznej), opublikowanej w 1874 roku, Menger oferuje marginalne, ale przede wszystkim subiektywne wyjaśnienie wartości, w przeciwieństwie do Walrasa i Jevonsa, którzy uważają wartość za zjawisko obiektywne i mierzalne.
 
 
 ### Wartość subiektywna
@@ -296,7 +296,7 @@ Każdy jest wyjątkowy i ma szczególną sytuację osobistą. Dlatego też każd
 W przypadku gdy dana osoba ma większe zdolności w porównaniu do swoich rówieśników w zakresie produkcji danego dobra (przewaga absolutna), jest ona zainteresowana specjalizacją w produkcji tego dobra, a następnie wymianą uzyskanej nadwyżki na dobra, których pragnie. W ten sposób zaspokaja swoją subiektywną użyteczność bardziej ekonomicznie, niż gdyby miała zaangażować się w produkcję wszystkich pożądanych dóbr.
 
 
-Może się jednak zdarzyć, że jednostka nie ma absolutnej przewagi w produkcji jakiegokolwiek dobra. W takim przypadku nadal będą istnieć rodzaje produkcji, w których jednostka jest lepsza niż w innych (przewaga komparatywna) i z tego powodu nadal będzie zainteresowana specjalizacją.
+Może się jednak zdarzyć, że dana jednostka nie ma absolutnej przewagi w produkcji jakiegokolwiek dobra. W takim przypadku nadal będą istnieć rodzaje produkcji, w których ta jednostka jest lepsza niż w innych (przewaga komparatywna) i z tego powodu nadal będzie zainteresowana specjalizacją.
 
 
 Z pewnością istnieją osoby, które mogłyby wyprodukować dane dobro bardziej produktywnie, ale ponieważ osoby te są prawdopodobnie bardziej produktywne w innym zadaniu niż w tym, a nie mogą wykonywać obu zadań jednocześnie, nieproduktywne jest dla nich pracowanie nad tym zadaniem, a nie nad innym, w którym są bardziej produktywne. Specjalizując się w zadaniu, w którym są najbardziej produktywne, uzyskają nadwyżkę większą niż gdyby się nie wyspecjalizowały, a zatem dzięki wymianie mogłyby uzyskać zwiększoną ilość tych innych dóbr, nawet jeśli uzyskane dobra zostałyby wyprodukowane bardziej efektywnie przez nich samych niż przez producentów, od których je uzyskały.
@@ -326,7 +326,7 @@ Rezultatem poprzedniej analizy jest to, że jednostki są zawsze w lepszej sytua
 > Baruch Spinoza
 
 
-Lata 1871-1874 to wspaniałe lata dla nowoczesnej ekonomii: okres ten był świadkiem prac trzech niezależnych myślicieli, którzy stali się fundamentem nowoczesnej ekonomii. Kładąc nacisk na subiektywną wartość porządkową, austriaccy ekonomiści rozwinęli całą myśl ekonomiczną, odróżniając ją od swoich homologów. Prace austriackich ekonomistów nad rozumowaniem ludzkiego działania w kontekście niedoboru na zawsze staną w wyraźnym kontraście z doktrynami ekonomicznymi zapoczątkowanymi przez Jevonsa i Walrasa, silnie opierającymi się na matematyce stojącej za ideą, że wartość można obiektywnie zmierzyć i wyprowadzić jako funkcję ciągłą.
+Lata 1871-1874 to wspaniałe lata dla nowoczesnej ekonomii: okres ten był świadkiem prac trzech niezależnych myślicieli, którzy stali się fundamentem nowoczesnej ekonomii. Kładąc nacisk na subiektywną wartość porządkową, austriaccy ekonomiści rozwinęli całą myśl ekonomiczną, odróżniając ją od swoich homologów. Prace ekonomistów austriackich rozważające ludzkie działanie w kontekście niedoboru na zawsze staną w wyraźnym kontraście z doktrynami ekonomicznymi zapoczątkowanymi przez Jevonsa i Walrasa, silnie opierającymi się na matematyce stojącej za ideą, że wartość można obiektywnie zmierzyć i wyprowadzić jako funkcję ciągłą.
 
 
 Opierając się na spostrzeżeniach dotyczących subiektywnej wartości porządkowej, Menger wyjaśnił pojawienie się podziału pracy i dobrowolnej wymiany. Jak jednak zobaczymy w następnym rozdziale, wymiana bezpośrednia jest kiepską strategią dla podmiotów gospodarczych dążących do maksymalizacji swojej subiektywnej użyteczności. W ten sposób ojciec szkoły austriackiej rozwinął swoje rozumowanie, aby wyjaśnić, dlaczego pieniądz pojawił się jako instytucja społeczna.
@@ -365,10 +365,10 @@ Pierwotnie dylemat więźnia został sformułowany w następujący sposób: Dwoj
 Wyniki te można przedstawić w postaci tabeli (wyniki liczbowe wskazują liczbę lat pozbawienia wolności):
 
 
-| Alice / Bob       | Accuse | Remain Silent |
+| Alice / Bob       | Oskarżenie | Milczenie |
 | ----------------- | ------ | ------------- |
-| **Accuse**        | 2, 2   | 0, 3          |
-| **Remain Silent** | 3, 0   | 1, 1          |
+| **Oskarżenie**    | 2, 2   | 0, 3          |
+| **Milczenie**     | 3, 0   | 1, 1          |
 
 W tej grze nie ma możliwości koordynacji (komunikacja jest niemożliwa), aby osiągnąć najlepszy wynik dla obu stron. W związku z tym Alice i Bob mają indywidualną motywację do wzajemnego oskarżania się, nawet jeśli nie prowadzi to do optymalnego wyniku dla grupy. Optymalną strategią dla obojga jest zachowanie milczenia, a każde z nich otrzyma wyrok 1 roku pozbawienia wolności.
 
@@ -424,7 +424,7 @@ Aby dobro mogło służyć jako pieniądz, musi mieć wysoką zbywalność, co o
 Jednak problem zbywalności w czasie jest trudniejszy do rozwiązania z dwóch powodów:
 
 
-Po pierwsze entropia (powszechnie znana jako "efekt czasu") stopniowo zmienia cechy większości dóbr o bezpośredniej użyteczności. Dlatego też zachowanie zbywalności towaru w czasie wymaga, aby był on wysoce trwały lub odporny na entropię.
+Po pierwsze entropia (powszechnie znana jako „efekt czasu”) stopniowo zmienia cechy większości dóbr o bezpośredniej użyteczności. Dlatego też zachowanie zbywalności towaru w czasie wymaga, aby był on wysoce trwały lub odporny na entropię.
 
 
 Po drugie, względny niedobór danego dobra w czasie „t” nie gwarantuje jego względnego niedoboru w przyszłości. Poświęcając wystarczającą ilość zasobów na określony obszar produkcji, ludzie mogą zwiększyć podaż dowolnego dobra. Jedynym ograniczeniem dla zwiększenia produkcji danego dobra jest związany z tym koszt alternatywny. W związku z tym obecny względny niedobór danego dobra nie może zagwarantować jego względnego niedoboru w przyszłości. Tylko dobra, których krańcowa produkcja może być zwiększona przy bardzo wysokich kosztach, mogą być stale rzadkie, dlatego była to cecha charakterystyczna spontanicznie pojawiających się dóbr pieniężnych w całej historii ludzkości.

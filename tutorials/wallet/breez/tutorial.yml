@@ -12,9 +12,24 @@ tags:
 
 original_language: fr
 proofreading:
-- language: fr
-  last_contribution: 2025-04-29
-  urgency: 1
-  contributors_names: 
-    - heyolaniran
-  reward: 0
+  - language: fr
+    last_contribution: 2025-04-29
+    urgency: 1
+    contributors_names:
+      - heyolaniran
+    reward: 0
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.12
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97

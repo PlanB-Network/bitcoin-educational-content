@@ -85,6 +85,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 21.38
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.12
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.89
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.12
 tags:
   - lightning
   - software

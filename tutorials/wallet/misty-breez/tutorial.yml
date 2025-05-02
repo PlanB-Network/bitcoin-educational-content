@@ -12,9 +12,9 @@ tags:
 
 original_language: fr
 proofreading:
-- language: fr
-  last_contribution: 2025-05-02
-  urgency: 1
-  contributors_names: 
-    - heyolaniran
-  reward: 0
+  - language: fr
+    last_contribution: 2025-05-02
+    urgency: 1
+    contributors_names:
+      - heyolaniran
+    reward: 0

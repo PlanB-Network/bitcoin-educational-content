@@ -79,6 +79,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.65
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.65
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.07
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.65
 tags:
   - cypherpunk
   - keys

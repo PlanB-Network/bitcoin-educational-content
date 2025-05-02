@@ -88,6 +88,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 8.26
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.26
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 14.38
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.26
 tags:
   - privacy
   - software

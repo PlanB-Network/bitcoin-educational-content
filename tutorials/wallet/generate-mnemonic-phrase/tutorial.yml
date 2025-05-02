@@ -86,6 +86,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 13.66
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.66
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.83
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.66
 tags:
   - DIY
   - keys

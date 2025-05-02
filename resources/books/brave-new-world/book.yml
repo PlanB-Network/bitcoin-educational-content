@@ -79,6 +79,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.58
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.58
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.95
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.58
 tags:
   - self-sovereignty
   - risks

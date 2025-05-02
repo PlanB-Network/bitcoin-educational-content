@@ -88,6 +88,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.3
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.26
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.38
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.26
 tags:
   - software
   - guides

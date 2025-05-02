@@ -87,6 +87,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 5.42
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.36
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.55
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.36
 tags:
   - guides
   - DIY

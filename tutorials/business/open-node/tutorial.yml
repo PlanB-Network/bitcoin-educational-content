@@ -83,6 +83,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.18
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
 tags:
   - business
   - guides

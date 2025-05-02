@@ -19,7 +19,7 @@ En revanche il n’est à mon sens pour le moment pas adapté aux débutants qui
 
 ## Installer l'application
 
-Rendez-vous [sur le site du projet](https://zeusln.com/) pour télécharges l’application correspondant à l’OS de votre smartphone:
+Rendez-vous [sur le site du projet](https://zeusln.com/) pour télécharger l’application correspondant à l’OS de votre smartphone:
 ![image](assets/fr/01.webp)
 ![image](assets/fr/02.webp)
 ## Création du portefeuille

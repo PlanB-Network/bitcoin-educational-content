@@ -1154,7 +1154,7 @@ Najwyższy nominał banknotu osiągnął 500 000, a ostatnia redenominacja w 199
 Boliwia jest kolejnym przykładem kraju, który przechodził przez okresy ostrej inflacji, wymagającej denominacji waluty. Oto podsumowanie historii walutowej tego kraju:
 
 
-Przed uzyskaniem niepodległości w 1825 r. Boliwia używała dolara hiszpańskiego jako swojej waluty. Po uzyskaniu niepodległości, w latach 1827-1864 kraj wprowadził boliwijskiego sola, zastępując nim hiszpańskiego dolara. Należy jednak zauważyć, że pierwsze banknoty w Boliwii pojawiły się dopiero w 1864 roku.
+Przed uzyskaniem niepodległości w 1825 r. Boliwia używała dolara hiszpańskiego jako swojej waluty. Po uzyskaniu niepodległości, w latach 1827-1864 kraj wprowadził boliwijskiego sola, zastępując nim dolara hiszpańskiego. Należy jednak zauważyć, że pierwsze banknoty w Boliwii pojawiły się dopiero w 1864 roku.
 
 
 W 1864 r. wprowadzono pierwsze „boliviano”, z kursem wymiany wynoszącym 1,000 do 1 w stosunku do boliwijskiego sol. Waluta ta pozostawała w obiegu aż do osiągnięcia nominału 10 000 boliviano.

@@ -71,7 +71,7 @@ Co by było, gdyby historia monetarna powtórzyła się na naszych oczach? Ty b�
 ### Definicje inflacji
 
 
-Inflacja to pojęcie, które jest często źle rozumiane ze względu na wiele związanych z nim definicji. Postrzeganie inflacji różni się w różnych grupach, takich jak bitcoinerzy i tradycyjni ekonomiści. Najpierw wyjaśnijmy definicje, zanim omówimy hiperinflację:
+Inflacja to pojęcie, które jest często źle rozumiane ze względu na wiele związanych z nim definicji. Postrzeganie inflacji różni się pomiędzy różnymi grupami, takimi jak bitcoinerzy i tradycyjni ekonomiści. Zanim omówimy hiperinflację, wyjaśnimy definicje inflacji:
 
 
 
@@ -88,7 +88,7 @@ Inflacja to pojęcie, które jest często źle rozumiane ze względu na wiele zw
 W świetle tych definicji ważne jest, aby zrozumieć, że dla słownika Le Robert inflacja dotyczy głównie wzrostu podaży pieniądza. Z drugiej strony encyklopedia Larousse koncentruje się na konsekwencjach tej ekspansji, a mianowicie na uogólnionym wzroście cen.
 
 
-W naszej analizie hiperinflacji przyjmiemy drugą definicję, uogólnionego wzrostu cen, ponieważ jest ona bardziej odpowiednia i jasna w kontekście naszego tematu. Należy jednak pamiętać, że wzrost cen jest generalnie wynikiem zwiększenia podaży pieniądza.
+W naszej analizie hiperinflacji przyjmiemy drugą definicję, uogólnionego wzrostu cen, ponieważ jest ona bardziej odpowiednia i jasna w kontekście naszego tematu. Należy jednak pamiętać, że wzrost cen jest naogół wynikiem zwiększenia podaży pieniądza.
 
 Znany ekonomista Milton Friedman stwierdził:
 
@@ -101,7 +101,7 @@ Stwierdzenie to podkreśla nieodłączny związek między ekspansją monetarną 
 ### Zrozumienie zjawiska monetarnego
 
 
-Odnosząc się do zjawiska monetarnego, mamy na myśli sposób, w jaki wpływa ono na podaż pieniądza w gospodarce. Milton Friedman zasadniczo postrzegał to jako wzrost podaży. W przeszłości istniały dwie główne metody zwiększania podaży pieniądza:
+Odnosząc się do zjawiska monetarnego, mamy na myśli sposób, w jaki w danej gospodarce zmienia się podaż pieniądza. Milton Friedman zasadniczo postrzegał to jako wzrost podaży. W przeszłości istniały dwie główne metody zwiększania podaży pieniądza:
 
 
 1. Druk monetarny:
@@ -207,7 +207,7 @@ Między XV a XVII wiekiem Europa była świadkiem niezwykłego zjawiska gospodar
 #### 5. John Law i Assignats
 
 
-W XVIII wieku francuska historia gospodarcza została naznaczona dwoma znaczącymi wydarzeniami związanymi z walutą. Po pierwsze, John Law, szkocki ekonomista i finansista, przekonał rząd francuski do przyjęcia systemu monetarnego opartego na pieniądzu papierowym. Choć początkowo uznano to za innowacyjne rozwiązanie problemów finansowych kraju, inicjatywa ta szybko doprowadziła do gwałtownej inflacji. Wkrótce potem, podczas zamieszania związanego z Rewolucją Francuską, rząd wprowadził „asygnaty”.
+W XVIII wieku francuska historia gospodarcza odnotowała dwa znaczące wydarzenia związane z walutą. Po pierwsze, John Law, szkocki ekonomista i finansista, przekonał rząd francuski do przyjęcia systemu monetarnego opartego na pieniądzu papierowym. Choć początkowo uznano to za innowacyjne rozwiązanie problemów finansowych kraju, inicjatywa ta szybko doprowadziła do gwałtownej inflacji. Wkrótce potem, podczas zamieszania związanego z Rewolucją Francuską, rząd wprowadził „asygnaty”.
 
 
 ![image](assets/chapitre-2.1/9.webp)
@@ -370,16 +370,16 @@ Przy stałej podaży pieniądza wzrost cen w jednym sektorze spowodowałby spade
 
 W systemie stałej podaży pieniądza wzrost produkcji powinien teoretycznie prowadzić do deflacji, tj. spadku cen, ponieważ dostępnych byłoby więcej towarów i usług.
 
-W obecnym systemie pieniądza fiducjarnego wzrost podaży niweluje potencjalną deflację spowodowaną wzrostem produkcji.
+W obecnym systemie pieniądza fiducjarnego wzrost ilości pieniądza niweluje potencjalną deflację spowodowaną wzrostem produkcji.
 
 
 
 - Negatywne skutki dostosowywania podaży:
 
 
-Wzrost podaży pieniądza bez odpowiadającego mu wzrostu produkcji prowadzi do inflacji, ponieważ w obiegu jest więcej pieniędzy na tę samą ilość towarów i usług.
+Wzrost podaży pieniądza bez odpowiadającego mu wzrostu produkcji prowadzi do inflacji, ponieważ w obiegu jest więcej pieniędzy do wydania na tę samą ilość towarów i usług.
 
-Podczas gdy wzrost produkcji powinien doprowadzić do deflacji, jednoczesny wzrost podaży niweluje ten efekt, powodując zamiast tego inflację.
+Podczas gdy wzrost produkcji powinien doprowadzić do deflacji, jednoczesny wzrost podaży pieniądza niweluje ten efekt, powodując zamiast tego inflację.
 
 
 
@@ -438,7 +438,7 @@ Trzecim przykładem, który pokazuje, dlaczego dodruk pieniądza miałby nie pow
 ![image](assets/chapitre-2.2/5.webp)
 
 
-Drukowanie pieniądza może być postrzegane jako miecz Damoklesa wiszący nad gospodarką. Wykreowane pieniądze mogą pozostać ukryte przez pewien czas, bez widocznego efektu inflacyjnego, o ile nie zostaną wstrzyknięte do gospodarki za pośrednictwem pożyczek bankowych lub innych mechanizmów. Jednakże, gdy te ukryte pieniądze zostaną w końcu wprowadzone do obiegu, mogą pojawić się efekty inflacyjne. To właśnie zaobserwowano w latach 2020-tych, gdzie wcześniej wykreowane pieniądze znalazły drogę wejścia do gospodarki, prowadząc do inflacji.
+Drukowanie pieniądza może być postrzegane jako miecz Damoklesa wiszący nad gospodarką. Wykreowane pieniądze mogą być ukryte przez pewien czas, bez widocznego efektu inflacyjnego, o ile nie zostaną wstrzyknięte do gospodarki za pośrednictwem pożyczek bankowych lub innych mechanizmów. Jednakże, gdy te ukryte pieniądze zostaną w końcu wprowadzone do obiegu, mogą pojawić się efekty inflacyjne. To właśnie zaobserwowano w latach 2020-tych, gdzie wcześniej wykreowane pieniądze znalazły drogę wejścia do gospodarki, prowadząc do inflacji.
 
 Scenariusz ten podkreśla znaczenie mechanizmów transmisji monetarnej w określaniu inflacyjnego wpływu dodruku pieniądza. Kreacja pieniądza przez bank centralny to tylko jeden z elementów układanki. Zachowanie prywatnych banków, które decydują o wielkości udzielanych pożyczek oraz zachowanie pożyczkobiorców, którzy decydują, w jaki sposób wydadzą pożyczone pieniądze, są również kluczowymi elementami w tej dynamice.
 
@@ -476,7 +476,7 @@ Przykład ten pokazuje wpływ czasu i ludzkiego zachowania na ujawnienie się in
 
 
 
-- Republika Weimarska: Ten okres historyczny pokazuje, jak niepewność gospodarcza prowadziła do gromadzenia pieniędzy, opóźniając inflację. Jednak po przywróceniu zaufania i wznowieniu wydawania pieniędzy inflacja eksplodowała.
+- Republika Weimarska: Ten okres historyczny pokazuje, jak niepewność gospodarcza prowadziła do gromadzenia pieniędzy, opóźniając inflację. Jednak kiedy ludzie odzyskali zaufanie i zaczęli znowu wydawać pieniądze, inflacja eksplodowała.
 
 
 Przykłady te można wykorzystać w dyskusjach, aby wyjaśnić, dlaczego inflacja nie zawsze jest bezpośrednią konsekwencją dodruku pieniądza oraz w jaki sposób konteksty gospodarcze i zachowania ludzi wpływają na inflację.
@@ -485,7 +485,7 @@ Przykłady te można wykorzystać w dyskusjach, aby wyjaśnić, dlaczego inflacj
 ![image](assets/chapitre-2.2/0.5.webp)
 
 
-Ponieważ, jak pokazuje ten [wątek](https://twitter.com/saifedean/status/1673639779433590786): Inflacja to wszystko poza winą banków centralnych.
+Ponieważ, jak pokazuje ten [wątek](https://twitter.com/saifedean/status/1673639779433590786): Winne inflacji jest wszystko oprócz banków centralnych.
 
 
 
@@ -543,7 +543,7 @@ Kluczowe znaczenie ma zrozumienie rozróżnienia między różnymi rodzajami inf
 
 
 
-- Pełzająca inflacja: Jest to typ inflacji, do którego zazwyczaj dążą banki centralne, ustalony na poziomie około 2% rocznie. Cel ten został przyjęty od lat 90. i ma na celu utrzymanie stabilnego wzrostu gospodarczego bez przegrzania lub deflacji.
+- Pełzająca inflacja: Jest to typ inflacji, do którego zazwyczaj dążą banki centralne, ustalony na poziomie około 2% rocznie. Cel ten został przyjęty w latach 90. i ma na celu utrzymanie stabilnego wzrostu gospodarczego bez przegrzania lub deflacji.
 - Umiarkowana inflacja: Ta forma inflacji występuje, gdy inflacja przekracza docelowy poziom 2%. Jest ona często kojarzona z przegrzaniem gospodarki, stanem, w którym nadmierna ilość pieniądza stymuluje ogólny wzrost cen. Scenariusz ten obnaża ograniczenia polityki pieniężnej i czasami ujawnia sprzeczności w dyskursie ekonomicznym.
 - Galopująca inflacja: Inflacja galopująca, często nazywana dwucyfrową, występuje, gdy roczna stopa inflacji przekracza 10%. Oznacza to znaczny wzrost cen, który może zagrozić stabilności gospodarczej.
 
@@ -567,7 +567,7 @@ Inflacja popytowa jest często tłumaczona jako sytuacja, w której popyt w gosp
 
 - Inflacja kosztowa:
 
-Z drugiej strony inflacja kosztowa przypisywana jest wzrostowi kosztów produkcji, takich jak koszty zasobów naturalnych lub pracy. Ponownie, bez wzrostu ilosci pieniądza wzrost kosztów w jednym sektorze może po prostu zmniejszyć wydatki w innych, nie powodując powszechnej inflacji.
+Z drugiej strony inflacja kosztowa przypisywana jest wzrostowi kosztów produkcji, takich jak koszty zasobów naturalnych lub pracy. Ponownie, bez wzrostu ilości pieniądza wzrost kosztów w jednym sektorze może po prostu zmniejszyć wydatki w innych, nie powodując powszechnej inflacji.
 
 Te tradycyjne wyjaśnienia często wiążą wzrost cen z inflacją, co może być mylące. W rzeczywistości, aby wystąpiła powszechna inflacja, konieczny jest wzrost ilości pieniądza. W tym kontekście koncepcje popytu i kosztów mogą wyjaśniać sektorowe wahania cen, ale nie uwzględniają pieniężnego charakteru inflacji. Podkreśla to znaczenie rozróżnienia między sektorowym wzrostem cen a powszechną inflacją i potwierdza potrzebę wzrostu ilości pieniądza, aby inflacja pojawiła się w całej gospodarce. Analiza ta oferuje bardziej zniuansowane i precyzyjne spojrzenie na rzeczywiste przyczyny inflacji i demistyfikuje powszechne interpretacje, które mogą maskować podstawową dynamikę monetarną.
 
@@ -584,7 +584,7 @@ Bernholz proponuje uproszczoną, ale precyzyjną klasyfikację inflacji na trzy 
 
 - Inflacja umiarkowana:
 
-Inflacja umiarkowana występuje, gdy ilość pieniądza jest większa niż normalnie, ale bez uciekania się państwa do tworzenia dużych deficytów finansowanych przez jego dodruk. Chociaż termin „umiarkowana” może wydawać się nieistotny, ta forma inflacji może powodować poważne problemy, choć nie jest klasyfikowana jako wysoka inflacja.
+Inflacja umiarkowana występuje, gdy ilość pieniądza jest większa niż normalnie, ale bez uciekania się państwa do tworzenia dużych deficytów finansowanych przez jego dodruk. Chociaż termin „umiarkowana” może sugerować, że jest ona nieistotna, ta forma inflacji może powodować poważne problemy, choć nie jest klasyfikowana jako wysoka inflacja.
 
 
 
@@ -604,7 +604,7 @@ Klasyfikacja Bernholza uwypukla niebezpieczny postęp od umiarkowanej inflacji d
 ### Wnioski: Podsumowanie typów inflacji
 
 
-Podsumowując, zbadaliśmy szereg typów inflacji, zaczynając od powszechnie słyszanych terminów, takich jak „pełzająca inflacja”, „chodząca inflacja” i „galopująca inflacja”, z których każdy oznacza różne poziomy procentowe inflacji w gospodarce. Dla naszej dogłębnej analizy hiperinflacji, kategorie umiarkowanej inflacji, wysokiej inflacji i hiperinflacji, opisane przez Bernholza, okazują się kluczowymi punktami odniesienia.
+Podsumowując, zbadaliśmy szereg typów inflacji, zaczynając od powszechnie słyszanych terminów, takich jak „pełzająca inflacja”, „umiarkowana inflacja” i „galopująca inflacja”, z których każdy oznacza różne poziomy procentowe inflacji w gospodarce. Dla naszej dogłębnej analizy hiperinflacji, kategorie umiarkowanej inflacji, wysokiej inflacji i hiperinflacji, opisane przez Bernholza, okazują się kluczowymi punktami odniesienia.
 
 
 
@@ -630,7 +630,7 @@ Z naszych badań wynika, że hiperinflacja jest zjawiskiem złożonym i sprzeczn
 
 W dalszej części kursu będziemy zagłębiać się w hiperinflację, badając jej definicje i przejawy w różnych kontekstach gospodarczych. Naszym celem będzie odkrycie mechanizmów leżących u podstaw hiperinflacji i zbadanie potencjalnych rozwiązań. To zniuansowane zrozumienie pozwoli nam lepiej zrozumieć związane z nią wyzwania i zaproponować świadome strategie zarządzania inflacją.
 
-Dziękuję za uwagę. Następna sesja będzie w całości poświęcona definiowaniu i demistyfikacji hiperinflacji, z uwzględnieniem różnych perspektyw akademickich i praktycznych. Z niecierpliwością czekamy na kontynuację tych badań podczas naszego następnego spotkania.
+Dziękuję za uwagę. Następna sesja będzie w całości poświęcona definiowaniu i demistyfikacji hiperinflacji, z uwzględnieniem różnych perspektyw akademickich i praktycznych. Z niecierpliwością czekamy na kontynuację tej analizy podczas naszego następnego spotkania.
 
 
 # Czym jest hiperinflacja?
@@ -922,7 +922,7 @@ Szaleńczy zakup walut obcych często stanowił krytyczny punkt zwrotny w dewalu
 ![image](assets/chapitre-3.2/2.webp)
 
 
-Analizując trajektorię gospodarczą, widać, że po osiągnięciu wysokiej inflacji wartość masy monetarnej pogarsza się. Dewaluacja prowadzi do kilku komplikacji, w tym niedoboru banknotów. W tym kontekście pojawiają się możliwości arbitrażu, zwłaszcza przy wahaniach kursu wymiany. W rezultacie wiele osób korzysta z tego arbitrażu, inwestując znaczne kwoty w aktywa materialne w oczekiwaniu na przyszłą dewaluację waluty, która pozwoliłaby im spłacić długi osłabioną walutą. Takie otoczenie gospodarcze podważa atrakcyjność tradycyjnych miejsc pracy, a w konsekwencji osłabia spójność społeczną.
+Analizując trajektorię gospodarczą, widać, że po osiągnięciu wysokiej inflacji wartość masy monetarnej pogarsza się. Dewaluacja prowadzi do kilku komplikacji, w tym niedoboru banknotów. W tym kontekście pojawiają się możliwości arbitrażu, zwłaszcza przy wahaniach kursu wymiany. W rezultacie wiele osób z niego korzysta, inwestując znaczne kwoty w aktywa materialne w oczekiwaniu na przyszłą dewaluację waluty, która pozwoliłaby im spłacić długi osłabioną walutą. Takie otoczenie gospodarcze podważa atrakcyjność tradycyjnych miejsc pracy, a w konsekwencji osłabia spójność społeczną.
 
 
 W odpowiedzi na tę sytuację rząd nakłada drakońskie regulacje, w tym kontrolę kapitału. Nakazuje również sprzedawcom akceptowanie waluty krajowej i czeków. Z czasem wprowadzane są nowe przepisy, rozszerzające definicję zachowań przestępczych. Ostatecznie kurs wymiany rośnie wykładniczo, ponieważ rząd jest skłonny do wymiany swojej waluty, drukowanej po niższych kosztach, w zamian za bardziej solidne waluty obce.
@@ -937,7 +937,7 @@ W odpowiedzi na tę sytuację rząd nakłada drakońskie regulacje, w tym kontro
 1. Ropa naftowa i metale
 
 
-W Niemczech w okresie weimarskim kradzież cennych materiałów była tak duża, że ołów z dachów był często kradziony. W Zimbabwe desperacja doprowadziła niektórych ludzi do przerywania sieci energetycznej w celu wydobycia oleju z transformatorów i wykorzystania go w swoich pojazdach.
+W Niemczech w okresie weimarskim kradzież cennych materiałów była tak duża, że często kradziony był ołów z dachów. W Zimbabwe desperacja doprowadziła niektórych ludzi do przerywania sieci energetycznej w celu wydobycia oleju z transformatorów i wykorzystania go w swoich pojazdach.
 
 W kontekście pogarszającej się sytuacji gospodarczej i niedoboru zasobów, rządy mogą wdrażać systemy racjonowania towarów w celu kontrolowania dystrybucji podstawowych dóbr. Obejmuje to wykorzystanie kartek lub kuponów do regulowania zakupu benzyny lub paliwa.
 
@@ -1015,7 +1015,7 @@ W Weimarze niektóre długi zostały przeszacowane, aby zrekompensować wpływ i
 
 > Zimbabwe: „W lipcu 2007 r. (trzy lata później) mogłem wyjąć z kieszeni zdewaluowany banknot ZDW o wartości 500 000 (bt "000"), wart obecnie 1,67 USD według kursu rynku równoległego, i spłacić kredyt hipoteczny, który miał być spłacany przez dwadzieścia lat. Co więcej, banknot ten stanowił zaledwie 0,49 procent mojego miesięcznego wynagrodzenia za ten sam miesiąc”
 
-Aby dowiedzieć się więcej o zarządzaniu niemieckim kryzysem, ta książka jest również podstawowym materiałem.
+Ta książka jest również podstawowym źródłem informacji na temat zarządzania niemieckim kryzysem.
 
 
 ![image](assets/chapitre-3.3/4.webp)

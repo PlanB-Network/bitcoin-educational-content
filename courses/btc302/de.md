@@ -783,16 +783,16 @@ Um Ihnen viel Zeit zu ersparen, haben wir uns die Zeit genommen, den [Quellcode 
 
 
 - Allgemeines:
-    - **tweeten Sie in der Sprache, die Sie in Ihrem Twitter-Konto eingestellt haben**, oder auf Englisch (andernfalls droht eine empfindliche Strafe);
-    - **tweeten Sie nur Informationen, die sich auf die Domäne Ihres Kontos beziehen** (andernfalls droht eine empfindliche Strafe);
-    - 1 bis 2 Mal am Tag tweeten (Beständigkeit ist wichtig);
-- **tweeten Sie zu Zeiten mit hoher Sichtbarkeit** (am interessantesten sind Donnerstag oder Freitag zwischen 8 und 10 Uhr; siehe den Abschnitt "Twitter Analytics" in Ihrem Konto).
-- Wenn Sie einen Tweet schreiben:
-    - **ein Foto** (oder Video) hinzufügen;
-    - **fügen Sie nur einen Hashtag zu Ihrem Tweet hinzu** (#Bitcoin ist in der Regel der relevanteste. Wenn es Sinn macht und mit dem Bereich Ihres Kontos zusammenhängt, fügen Sie einen Trending-Hashtag hinzu);
-    - **ermutigen Sie Ihre Community zu:** **Likes** (Gewichtung von 0,5), **Retweets** (Gewichtung von 1) **aber vor allem zu Antworten** (Gewichtung von 27!);
-    - **auf Menschen zu reagieren, die auf Ihre Tweets reagieren** (Gewicht von 75!);
-    - **fügen Sie in Ihrem ersten Tweet** keinen Link ein (dies kann z. B. im ersten Kommentar geschehen);
+    - **Tweeten Sie in der Sprache, die Sie in Ihrem Twitter-Konto eingestellt haben**, oder auf Englisch (andernfalls droht eine empfindliche Strafe);
+    - **Tweeten Sie nur Informationen, die sich auf die Domäne Ihres Kontos beziehen** (andernfalls droht eine empfindliche Strafe);
+    -   Tweeten Sie ein bis zwei Mal am Tag (Beständigkeit ist wichtig);
+- **Tweeten Sie zu Zeiten mit hoher Sichtbarkeit** (am interessantesten sind Donnerstag oder Freitag zwischen 8 und 10 Uhr; siehe den Abschnitt "Twitter Analytics" in Ihrem Konto).
+- Wenn Sie einen Tweet schreiben, dann:
+    -   Fügen Sie ein **Foto** oder Video hinzu;
+    - **Fügen Sie nur einen Hashtag zu Ihrem Tweet hinzu** (#Bitcoin ist in der Regel der relevanteste. Wenn es Sinn macht und mit dem Bereich Ihres Kontos zusammenhängt, fügen Sie einen Trending-Hashtag hinzu);
+    - **Ermutigen Sie Ihre Community zu folgendem:** **Likes** (Gewichtung von 0,5), **Retweets** (Gewichtung von 1) **aber vor allem zu Antworten** (Gewichtung von 27!);
+    - **Reagieren Sie auf Menschen, die auf Ihre Tweets antworten** (Gewicht von 75!);
+    - **Fügen Sie in Ihrem ersten Tweet** keinen Link ein (dies kann z. B. im ersten Kommentar geschehen);
     - schreiben Sie die Wörter vollständig, ohne Abkürzungen zu verwenden.
 - Weitere Punkte sind zu beachten:
     - Nutzen Sie Tweets auf der Grundlage von Trends, sofern sie sich im Rahmen Ihres Kontos bewegen;
@@ -827,7 +827,7 @@ Dies ermöglicht es, sich gegenseitig zu folgen, zu markieren und so gemeinsam S
 
 Dies ist der Fall bei den mehr als fünfzig französischen Bitcoin-Gemeinschaften, und dasselbe gilt für die meisten "Satoshi Spritz"-Initiativen in Italien und "Einundzwanzig" in Deutschland.
 
-Auch wenn es manchen überflüssig erscheinen mag, **kann das Verfolgen von lokalen Gemeinschaften und Initiativen im eigenen Land indirekt zu gemeinsamen Projekten** oder sogar "Partnerschaften" führen Auf diese Weise haben die Bitcoin-Lüttich- und Bitcoin-Lille-Gemeinschaften Kontakt aufgenommen (dasselbe gilt für Bitcoin-Aix und Bitcoin-Marseille); sie organisieren nun mindestens ein gemeinsames Treffen pro Jahr. Die **Cercle du Coin**-Abendessen sind ein weiteres Beispiel.
+Auch wenn es manchen überflüssig erscheinen mag, **kann das Verfolgen von lokalen Gemeinschaften und Initiativen im eigenen Land indirekt zu gemeinsamen Projekten** oder sogar "Partnerschaften" führen. Auf diese Weise haben die Bitcoin-Lüttich- und Bitcoin-Lille-Gemeinschaften Kontakt aufgenommen (dasselbe gilt für Bitcoin-Aix und Bitcoin-Marseille); sie organisieren nun mindestens ein gemeinsames Treffen pro Jahr. Die **Cercle du Coin**-Abendessen sind ein weiteres Beispiel.
 
 ![immagine](assets/fr/26.webp)
 
@@ -843,7 +843,7 @@ Parallel dazu ist es auch möglich, **Organisatoren von Treffen und denjenigen, 
 
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
-Zu diesem Zeitpunkt ist Ihre Community bereits gestartet. Alles, was bleibt, ist auf neue Bitcoiner und Interessierte zu warten, um sie zu entwickeln.
+Ihre Community ist nun gestartet – jetzt geht es darum, neue Bitcoiner und Interessierte willkommen zu heißen und gemeinsam weiterzuwachsen.
 
 Sie können jedoch nicht weiter gehen, ohne zu wissen, dass **es Plattformen gibt, die es interessierten Bitcoinern ermöglichen, Gemeinschaften und Treffen in ihrer Nähe zu finden**.
 
@@ -855,7 +855,7 @@ Darunter finden wir insbesondere:
 
 
 - [Btcmap.org](https://btcmap.org/)**, eine Website, die zwei täglich aktualisierte Karten enthält: **[die Weltkarte der Bitcoin-akzeptierenden Unternehmen](https://btcmap.org/map)**, und **[die Karte der globalen Gemeinschaften](https://btcmap.org/communities)**. Viele Bitcoiner schauen in ihrem Urlaub oder sogar im Alltag regelmäßig auf diese Karten, um neue Begegnungen oder Käufe zu tätigen. **Btcmap ist eindeutig DER globale Bezugspunkt. Und für Ihre Sichtbarkeit muss Ihre Gemeinschaft dort gelistet sein.**
-- [BitcoinerEvents](https://www.bitcoinerevents.com/)** ist eine Website, die von Bitcoinern für Bitcoiner erstellt wurde. Sie können dort **die anstehenden Veranstaltungen Ihrer Gemeinschaft** veröffentlichen. Leider wird diese Plattform in Frankreich relativ wenig genutzt.
+- [BitcoinerEvents](https://www.bitcoinerevents.com/)** ist eine Website, die von Bitcoinern für Bitcoiner erstellt wurde. Sie können dort **die anstehenden Veranstaltungen Ihrer Gemeinschaft** veröffentlichen. 
 
 Je nach Land gibt es auch einzigartige Initiativen. Dies ist insbesondere der Fall **in Frankreich, wo die Website [bitcoin.fr] (https://bitcoin.fr/events/categories/evenements/) jeden Monat Dutzende von Bitcoin-Veranstaltungen in Frankreich auflistet**. Wenn Sie ihnen noch nicht auf Twitter gefolgt sind oder sich mit ihnen in Verbindung gesetzt haben, um Informationen über Ihre Gemeinschaft und/oder Veranstaltungen weiterzugeben, ist es jetzt an der Zeit! **Um den französischen Veranstaltungskalender auf dem neuesten Stand zu halten, würden wir es begrüßen, wenn alle französischen Bitcoin-Communities sich angewöhnen würden:** ** @bitcoinpointfr auf Twitter bei jeder neuen Veranstaltungsankündigung ihrer Community zu erwähnen**;
 
@@ -866,11 +866,11 @@ Je nach Land gibt es auch einzigartige Initiativen. Dies ist insbesondere der Fa
 
 ####
 
-Es ist wichtig zu wissen, dass auch andere Plattformen und Anwendungen eine erhöhte Sichtbarkeit ermöglichen. **[Meetup](https://www.meetup.com/)** ist eine davon. Dabei handelt es sich um eine Website (und eine Telefonanwendung), die es Ihnen ermöglicht, eine Veranstaltung zu erstellen, aber auch nach Veranstaltungen in Ihrer Nähe zu suchen.
+Es ist wichtig zu wissen, dass auch andere Plattformen und Anwendungen eine erhöhte Sichtbarkeit ermöglichen. **[Meetup](https://www.meetup.com/)** ist eine davon. Dabei handelt es sich um eine Website (Smartphone App), die es Ihnen ermöglicht, eine Veranstaltung zu erstellen, aber auch nach Veranstaltungen in Ihrer Nähe zu suchen.
 
 Leider muss man für die Einrichtung von Meetups fast 8 € pro Monat ausgeben (was etwa 90 € pro Jahr entspricht), was für eine Gemeinschaft, die weder strukturiert noch ausgereift ist, sehr teuer ist. In einigen Ländern, insbesondere in Kanada und den Vereinigten Staaten, ist Meetup jedoch sehr beliebt; sein Hauptvorteil besteht darin, dass es eine integrierte Verwaltung der Anmeldungen für Treffen ermöglicht.
 
-Parallel dazu ist **[Orangepillapp](https://www.orangepillapp.com/)** eine kostenpflichtige Telefonanwendung, die es Bitcoinern ermöglicht, sich gegenseitig zu treffen. Sie ist jedoch ebenfalls kostenpflichtig (50.000 Sats/Jahr oder 200.000 Sats auf Lebenszeit).
+Parallel dazu ist **[Orangepillapp](https://www.orangepillapp.com/)** eine kostenpflichtige Smartphone App, die es Bitcoinern ermöglicht, sich gegenseitig zu treffen. Sie ist jedoch ebenfalls kostenpflichtig (50.000 Sats/Jahr oder 200.000 Sats auf Lebenszeit).
 
 ####
 
@@ -927,13 +927,13 @@ In diesem Sinne scheint es besser zu sein, die Dinge natürlich geschehen zu las
 Wenn Sie **bestimmte ruhige Zeiten vorhersehen wollen, können Sie mehrere "Aktivitäten" oder Ausweichmöglichkeiten** planen. Dazu können gehören:
 
 
-- einen Computer oder ein Smartphone mit dem **[mempool](https://mempool.space/)**;
+- einen Computer oder ein Smartphone mit dem **[mempool](https://mempool.space/)** dabei haben;
 - ein Buch mitbringen;
-- bringen Sie einen **Nerdminer**, Bitaxe, FPGA oder sogar einen ASIC mit;
+- einen **Nerdminer**, Bitaxe, FPGA oder sogar einen ASIC mitbringen;;
 - einen **Flyer über Bitcoin** zur Verfügung haben;
-- brainstorming zu einem weiterentwickelten Bitcoin-Bild/Logo für Ihre Gemeinschaft;
-- ein **[Kartenspiel über Bitcoin](https://www.maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
-- die **[btcmap.org](https://btcmap.org/)** Karte der Gemeinden und Unternehmen;
+- ein Brainstorming zu einem weiterentwickelten Bitcoin-Logo oder -Bild für eure Community durchführen;
+- ein **[Kartenspiel über Bitcoin] mitbringen. (https://www.maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
+- die **[btcmap.org](https://btcmap.org/)** Karte der Communities und Unternehmen nutzen;
 - ein informelles "Hey, übrigens, **haben Sie jemals Bitcoin über Lightning verschickt?**"
 
 Es ist jedoch wichtig zu wissen, dass es zu Beginn eines Treffens nicht unbedingt angebracht ist, eine formelle Präsentation zu halten. Wenn nur einige wenige Teilnehmer anwesend sind, scheint es besser zu sein, die Diskussionen in einer offeneren und freundlichen Weise zu führen.
@@ -954,21 +954,20 @@ Für den Fall, dass sich eine **regelmäßige Gruppe von Bitcoinern und Interess
 
 Dieser zweite Punkt ist sehr wichtig. Er ist einer der Gründe, warum **in Frankreich die meisten Treffen am ersten Mittwoch eines jeden Monats** stattfinden; in Anlehnung an die "Botschafter"-Initiative, die von [DecouvreBitcoin] (https://decouvrebitcoin.fr/) ins Leben gerufen wurde.
 
-In Deutschland gibt es keinen staatlich festgelegten Tag; dasselbe gilt für Italien.
+In Deutschland gibt es keinen landesweiten festgelegten Tag; dasselbe gilt für Italien.
 
 Es ist jedoch wichtig zu beachten, dass **alle nationalen Treffen am selben Tag ein Zentralisierungsproblem schaffen**. Zusätzlich zu den Sicherheitsbedenken können Bitcoiner, die an dem Treffen in ihrer jeweiligen Stadt teilnehmen, nicht an Bitcoin-Veranstaltungen in benachbarten Gemeinden teilnehmen. Daher liegt es an Ihnen, Stellung zu beziehen. Zu diesem Zweck kann eine **Interaktion mit dem/den nächstgelegenen Treffen zu einer relevanten Entscheidung führen**.
 
 ####
 
-Wenn Ihre Gemeinschaft stark wächst und Ihre Treffen immer voller werden, ist es durchaus möglich, einen Antrag zu stellen:
+Wenn Ihre Community stark wächst und Ihre Treffen immer besser besucht sind, können Sie durchaus Folgendes in Betracht ziehen:
 
-
-- ein konkretes Ziel für jedes Ihrer Treffen**;
-- oder sogar **eine zweite Veranstaltung im Monat**.
+- jedem Treffen **ein konkretes Ziel zu geben**;
+- oder sogar **eine zweite Veranstaltung im Monat** zu organisieren.
 
 Im ersten Fall müssen zwar die Empfindlichkeiten und Wünsche aller Beteiligten berücksichtigt werden, doch kann dies allen Teilnehmern die Möglichkeit geben, die Veranstaltung mit neuem Wissen zu verlassen und gleichzeitig die Gesprächsthemen rund um Bitcoin neu zu fokussieren (falls sie voneinander abwichen).
 
-Im zweiten Fall können Sie z. B. mit einer zweiten Veranstaltung im Monat **ein bestimmtes Thema ansprechen, wie z. B. die Organisation von "Einsteiger"-Sitzungen und/oder Workshops** (Mining, Lightning, Knoteninstallation usw.).
+Im zweiten Fall können Sie z. B. mit einer zweiten Veranstaltung im Monat **ein bestimmtes Thema ansprechen, wie z. B. die Organisation von "Einsteiger"-Sitzungen und/oder Workshops** (Mining, Lightning, Set up eines Nodes usw.).
 
 ![image](assets/fr/31.webp)
 
@@ -986,20 +985,20 @@ Dabei müssen viele Kriterien berücksichtigt werden. Unter ihnen:
 
 1) Die Lage des Standorts: Ist er leicht **mit öffentlichen Verkehrsmitteln zu erreichen? Mit dem Auto?** Ist es möglich, dort problemlos zu parken?
 
-2) **Ist der Ort nett und nicht zu laut?** Suchen Sie einen formellen Ort (Coworking Space, Tagungsraum) oder einen informellen (Bar oder sogar Restaurant)? 3) **Hat der Veranstaltungsort genügend Kapazität, um Sie unterzubringen?** Und das sogar am Abend eines Rugby- oder Champions-League-Spiels? 4) ** Verfügt der Veranstaltungsort über einen Videoprojektor und einen ruhigen Raum für Ihre Präsentationen?** 5) Und schließlich, im Falle einer Bar (oder sogar eines Restaurants): **Gibt es auf der Speisekarte die Möglichkeit, zu essen und zu trinken?** Zu diesen Punkten können drei wichtige Bemerkungen hinzugefügt werden:
+2) **Ist der Ort nett und nicht zu laut?** Suchen Sie einen formellen Ort (Coworking Space, Konferenzraum) oder einen informellen (Bar oder sogar Restaurant)? 3) **Hat der Veranstaltungsort genügend Kapazität, um Sie unterzubringen?** Und das sogar am Abend eines Rugby- oder Champions-League-Spiels? 4) ** Verfügt der Veranstaltungsort über einen Videoprojektor und einen ruhigen Raum für Ihre Präsentationen?** 5) Und schließlich, im Falle einer Bar (oder sogar eines Restaurants): **Gibt es auf der Speisekarte die Möglichkeit für jeden Teilnehmer, zu essen und zu trinken - auch bei besonderen Ernährungswünschen??** Zu diesen Punkten können drei wichtige Bemerkungen hinzugefügt werden:
 
 
 - falls Sie den Abend **in zwei Teile aufteilen** möchten (zunächst eine **Präsentation in einem formellen Raum**, damit sich alle Teilnehmer besser konzentrieren können; danach **Wechsel des Veranstaltungsortes, um den Abend in einer Bar** oder einem Restaurant in entspannterer Atmosphäre fortzusetzen), sollten Sie sich darüber im Klaren sein, dass dieser Wechsel des Veranstaltungsortes in der Mitte des Abends dazu führen wird, dass **einige Teilnehmer die Gelegenheit zum Verlassen der Veranstaltung nutzen. Daher wird diese Art von Vereinbarung nicht empfohlen**;
-- bei Ihren ersten Treffen ist es wahrscheinlich, dass nur wenige Leute anwesend sind, so dass Sie sich wahrscheinlich nicht vorstellen werden. In diesem Sinne scheint es nicht notwendig zu sein, sich dem Eigentümer vorzustellen und seine Ziele usw. zu präsentieren. Sobald die Treffen jedoch regelmäßig und gut besucht sind, scheint es wichtig zu sein, sich vorzustellen und zu zeigen, dass man es ernst meint und regelmäßig kommen möchte**. Dies kann zu vielen Gesprächen führen (automatische monatliche Reservierungen, kostenlose Getränke und/oder Gerichte, Rabatte, Diskussion über Bitcoin, Akzeptanz von Bitcoin als Zahlungsmittel usw.) Falls Sie speziell nach einem Lokal mit einem Videoprojektor für Präsentationen suchen, scheint es natürlich unerlässlich, im Voraus ein Treffen (persönlich oder sogar telefonisch) mit dem Eigentümer und/oder Manager zu beantragen, um Ihr Projekt und Ihre Ziele vorzustellen;
+- bei Ihren ersten Treffen ist es wahrscheinlich, dass nur wenige Leute anwesend sind, so dass Sie sich wahrscheinlich nicht bei dem Eigentümer vorstellen werden. In diesem Sinne scheint es nicht notwendig zu sein, dem Inhaber Ihre Ziele und Absichten zu präsentieren. Sobald die Treffen jedoch regelmäßig und gut besucht sind, scheint es wichtig zu sein, sich vorzustellen und zu zeigen, dass man es ernst meint und regelmäßig kommen möchte**. Dies kann zu vielen Gesprächen führen (automatische monatliche Reservierungen, kostenlose Getränke und/oder Gerichte, Rabatte, Diskussion über Bitcoin, Akzeptanz von Bitcoin als Zahlungsmittel usw.) Falls Sie speziell nach einem Lokal mit einem Videoprojektor für Präsentationen suchen, scheint es natürlich unerlässlich, im Voraus ein Treffen (persönlich oder sogar telefonisch) mit dem Eigentümer und/oder Manager zu beantragen, um Ihr Projekt und Ihre Ziele vorzustellen;
 
 ![image](assets/fr/32.webp)
 
 
-- schließlich können einige Gemeinden beschließen, **ihre Veranstaltungen nur an Orten abzuhalten, die Bitcoin als Zahlungsmittel akzeptieren**; und das ist verständlich. Vor diesem Hintergrund erscheint es sinnvoll, **zunächst nach Geschäften in Ihrer Stadt zu suchen, die Bitcoin akzeptieren (z. B. auf [btcmap.org](https://btcmap.org/map/))** und diese zu kontaktieren, um einen Veranstaltungsort zu finden, der Ihren Kriterien entspricht. Falls leider nichts Passendes dabei ist, haben Sie die Möglichkeit, neue Händler "an Bord zu holen". Rechnen Sie jedoch damit, dass Sie viele Ablehnungen erhalten, was entmutigend sein kann. Deshalb **ist es vielleicht sinnvoll, dies nicht von Anfang an als Ziel zu setzen, sondern erst dann, wenn Ihre Gemeinschaft gut entwickelt ist** und Sie über genügend "Einfluss" verfügen
+- schließlich können einige Gemeinden beschließen, **ihre Veranstaltungen nur an Orten abzuhalten, die Bitcoin als Zahlungsmittel akzeptieren**; und das ist verständlich. Vor diesem Hintergrund erscheint es sinnvoll, **zunächst nach Geschäften in Ihrer Stadt zu suchen, die Bitcoin akzeptieren (z. B. auf [btcmap.org](https://btcmap.org/map/))** und diese zu kontaktieren, um einen Veranstaltungsort zu finden, der Ihren Kriterien entspricht. Falls leider nichts Passendes dabei ist, haben Sie die Möglichkeit, neue Händler "an Bord zu holen". Rechnen Sie jedoch damit, dass Sie viele Ablehnungen erhalten, was entmutigend sein kann. Deshalb **ist es vielleicht sinnvoll, dies nicht von Anfang an als Ziel zu setzen, sondern erst dann, wenn Ihre Gemeinschaft gut entwickelt ist** und Sie über genügend "Einfluss" verfügen.
 
 Zögern Sie auch nicht, **zu Beginn Ihres Treffens** für einige Monate den Veranstaltungsort zu wechseln. So können Sie **Kontakte** mit einigen Managern knüpfen, **verschiedene Atmosphären kennenlernen**, aber auch **Informationen** über die verschiedenen Veranstaltungsorte sammeln, die für Ihre Veranstaltungen in Frage kommen.
 
-Nichts hindert Sie später, wenn Sie viele Teilnehmer haben, daran, an einem Wochenendnachmittag verschiedene Geschäfte und Lokale zu besuchen, um zu fragen, ob sie einen geeigneten Ort haben, um einmal im Monat Ihre Veranstaltungen und Treffen durchzuführen!
+Nichts hindert Sie später daran, wenn Sie viele Teilnehmer haben, an einem Wochenendnachmittag verschiedene Geschäfte und Lokale zu besuchen, um zu fragen, ob sie einen geeigneten Ort haben, um einmal im Monat Ihre Veranstaltungen und Treffen durchzuführen!
 
 ## Vor dem Treffen
 

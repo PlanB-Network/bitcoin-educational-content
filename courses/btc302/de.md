@@ -1018,11 +1018,11 @@ Sie haben beschlossen, ein Treffen zu organisieren und Ihre Gemeinde über den T
 
 ####
 
-Zu diesen vier Schritten können sie noch hinzugefügt werden:
+Zu diesen vier Schritten kann folgendes noch hinzugefügt werden:
 
 
-- druck von Flugblättern und/oder Plakaten**;
-- eine Präsentation** zu einem vordefinierten Thema erstellen;
+- Druck von Flugblättern und/oder Plakaten**;
+- eine Präsentation** zu einem vordefinierten Thema;
 - vorbereitung einer Aktivität oder eines Workshops**;
 - usw.
 
@@ -1036,7 +1036,7 @@ Der große Tag ist da! Eine oder zwei Stunden vor Beginn der Veranstaltung könn
 
 Wenn Ihr Treffen wächst und Sie mehr als 20 Personen pro Veranstaltung begrüßen, wird die **Vorbereitung des Raums/der Räumlichkeiten zu einem wichtigen Element**.
 
-Um dies zu erreichen, wird es notwendig sein:
+Um dies zu erreichen, wird folgendes notwendig sein:
 
 1) **Fahren Sie etwas früher los**, um sich vorzubereiten;
 

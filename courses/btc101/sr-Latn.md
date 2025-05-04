@@ -1,5 +1,5 @@
 ---
-name: Putovanje Bitkoina
+name: Putovanje Bitkoina 
 goal: Otkrijte osnove Bitkoina, uključujući njegovu novčanu vrednost, rudare, transakcije i novčanike.
 objectives: 
 

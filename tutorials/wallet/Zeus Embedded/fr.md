@@ -3,7 +3,6 @@ name: Zeus Embedded
 description: Savoir utiliser le portefeuille Lightning Zeus Embedded
 ---
 ![cover-zeus-embedded](assets/cover.webp)
-![cover-zeus-embedded](assets/cover2.webp)
 
 ZEUS est initialement une application mobile de gestion de nœud lightning à distance, qui permet de piloter son noeud installé sur un serveur distant
 Mais l’application propose aussi un noeud Lightning Intégré ou “Embedded node” en anglais. 

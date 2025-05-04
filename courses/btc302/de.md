@@ -1347,11 +1347,11 @@ Um dieses Projekt mit allen Beteiligten erfolgreich durchführen zu können, war
 - [boites-a-livres.fr](https://www.boites-a-livres.fr/carte-de-france);
 - [delivrez.fr] (https://delivrez.fr/maps/fr_FR/);- sowie einige Artikel in der lokalen Presse.
 
-Natürlich hat die Platzierung des Bitcoin Whitepapers in diesen Büchertauschbörsen eine symbolische Bedeutung. Für einen Anfänger ist es jedoch zu komplex, um es zu verstehen. Daher war die Idee, **ein kleines Pamphlet zu schreiben, das**:
+Natürlich hat die Platzierung des Bitcoin Whitepapers in diesen Büchertauschbörsen eine symbolische Bedeutung. Für einen Anfänger ist es jedoch zu komplex, um es zu verstehen. Daher war die Idee, **ein kleines Handout zu schreiben, das**:
 
 
-- eine vereinfachte und dokumentierte Einführung in Bitcoin, seine Verwendung und die Probleme, die er löst**;
-- und **das Bitcoin-Whitepaper**, übersetzt ins Französische.
+- **eine vereinfachte und gut dokumentierte Einführung in Bitcoin**, seine Anwendung und die Probleme, die es löst, bietet;
+- **das Bitcoin-Whitepaper**, ins Französische übersetzt.
 
 Hier ist die Broschüre, die unter französischen Bitcoinern geteilt wurde [die Broschüre, die unter französischen Bitcoinern geteilt wurde](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) und ihre Reise in mehreren Dutzend Büchertauschbörsen im ganzen Land beendet hat. Das Design ist auch [als Open-Source verfügbar](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 

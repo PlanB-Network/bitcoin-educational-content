@@ -7,7 +7,7 @@ description: Savoir utiliser le portefeuille Lightning Zeus Embedded
 ZEUS est initialement une application mobile de gestion de nœud lightning à distance, qui permet de piloter son noeud installé sur un serveur distant
 Mais l’application propose aussi un noeud Lightning Intégré ou “Embedded node” en anglais. 
 
-**C’est cette facette de l’application que nous explorerons dans ce tutoriel. Cela permet à n’importe qui d’avoir son propre noeud lightning sur mobile, sans avoir besoin d’un serveur dédié, à la manière de ce que propose ACINQ avec son incroyable wallet lightning [Phoenix](![image](assets/fr/21.webp))
+C’est cette facette de l’application que nous explorerons dans ce tutoriel. Cela permet à n’importe qui d’avoir son propre noeud lightning sur mobile, sans avoir besoin d’un serveur dédié, à la manière de ce que propose ACINQ avec son incroyable wallet lightning [Phoenix](![image](assets/fr/21.webp))
 
 *Pour rappel Lightning est un réseau qui fonctionne en parallèle de celui de Bitcoin, et qui permet de manière astucieuse de s'échanger des Bitcoins sans avoir à systématiquement réaliser des transactions on-chain. On arrive ainsi à réaliser des transactions quasi instantanées, plus besoin d'attendre 10 min qu'un block soit validé. Cela est particulièrement utile quand il s'git de payer un commerçant dans le monde physique. De plus Lightning apporte un niveau de **confidentialité** remarquable que ne possède pas le réseau Bitcoin nativement*
   

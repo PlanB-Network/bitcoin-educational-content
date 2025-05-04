@@ -1040,22 +1040,22 @@ Um dies zu erreichen, wird folgendes notwendig sein:
 
 1) **Fahren Sie etwas früher los**, um sich vorzubereiten;
 
-2) **Richten Sie das Zimmer oder den Raum nach Ihren Möglichkeiten und Bedürfnissen ein**. Wenn Sie etwa ein halbes Dutzend Personen sind, gibt es nicht viel zu tun. Aber sobald Sie 10 bis 20 Personen pro Veranstaltung erreichen, werden Sie schnell merken, dass es keine gute Idee ist, alle sitzen zu lassen, da so weniger Beziehungen entstehen und Sie nicht in der Lage sein werden, mit allen während des Abends zu sprechen. In diesem Sinne ist es sinnvoll, **Stehplätze zu bevorzugen, z. B. mit Stehtischen** (wenn möglich), sobald Sie etwa 15 Personen erreichen. Denken Sie aber trotzdem daran, **Stühle zur Verfügung zu haben** (z. B. hohe). Falls ein Vortrag gehalten werden soll, ist es besser, den ganzen Abend über stehend zu bleiben, auch wenn dies bedeutet, dass einige Minuten vor dem Vortrag (hohe) Stühle herbeigeschafft werden müssen;
+2) **Richten Sie das Zimmer oder den Raum nach Ihren Möglichkeiten und Bedürfnissen ein**. Wenn Sie etwa ein halbes Dutzend Personen sind, gibt es nicht viel zu tun. Aber sobald Sie 10 bis 20 Personen pro Veranstaltung erreichen, werden Sie schnell merken, dass es keine gute Idee ist, alle sitzen zu lassen, da so weniger Beziehungen entstehen und Sie nicht in der Lage sein werden, mit allen während des Abends zu sprechen. In diesem Sinne ist es sinnvoll, **Stehplätze zu bevorzugen, z. B. mit Stehtischen** (wenn möglich), sobald Sie etwa 15 Personen erreichen. Denken Sie aber trotzdem daran, **Stühle zur Verfügung zu haben** (z. B. hohe). Falls ein Vortrag gehalten wird, lohnt es sich, den Raum zuerst auf Stehplätze auszurichten – und erst kurz vorher bei Bedarf (hohe) Stühle bereitzustellen.
 
 3) Neben der Raumaufteilung können weitere kleine "Anpassungen" vorgenommen werden:
 
 
-    - stellen Sie mit Patafix ein **Plakat vor dem Ort Ihres Treffens auf und geben Sie an, in welchem Raum Sie sich aufhalten werden** (denken Sie natürlich daran, vorher um Erlaubnis zu fragen);
-    - stellen Sie mit Patafix **spezifische Poster** in dem Raum aus, in dem Ihre Veranstaltung stattfindet (**Bitcoin-Whitepapers, Statuten Ihrer Gemeinschaft, laufende Projekte**, usw.).
-- auf einem oder mehreren Tischen **Kleber, Flugblätter oder sogar Material, das zu Diskussionen führen kann** (Nerdminer, Hardware-Wallet, Computer mit Mempool, ASIC, Metallplatte zum Schutz des privaten Schlüssels usw.)
+    - Bringen Sie mit Patafix ein **Plakat am Eingang des Veranstaltungsorts an, das zeigt, in welchem Raum das Treffen stattfindet** (bitte vorher um Erlaubnis fragen).;
+    - Hängen Sie mit Patafix **spezifische Poster im Raum auf, z. B. das Bitcoin-Whitepaper, die Grundsätze Ihrer Community oder laufende Projekte**.
+    - Legen Sie auf einem oder mehreren Tischen **Sticker, Flyer oder Anschauungsmaterial aus, das Gespräche anregen kann** – z. B. Nerdminer, Hardware-Wallet, ein laufender Computer mit Mempool, ASIC oder       eine Metallplatte zum Schutz des privaten Schlüssels.
 
 ![immagine](assets/fr/34.webp)
 
 ####
 
-Wenn Sie nur wenige Teilnehmer erwarten und die Manager noch nicht über Ihr Treffen informiert haben, weil Sie es gerade erst ins Leben gerufen haben, sollten Sie natürlich nicht alle Ihre Materialien mitbringen und zeigen.
+Wenn Sie nur wenige Teilnehmer erwarten und die Inhaber noch nicht über Ihr Treffen informiert haben, weil Sie es gerade erst ins Leben gerufen haben, sollten Sie natürlich nicht alle Ihre Materialien mitbringen und zeigen.
 
-Sobald Sie jedoch **Vertrauen zu den Managern aufgebaut haben, werden Sie viel freier sein, den Raum so zu gestalten, wie Sie es für richtig halten**.
+Sobald Sie jedoch **Vertrauen zu den Betreibern oder Inhabern aufgebaut haben, werden Sie viel freier sein, den Raum so zu gestalten, wie Sie es für richtig halten**.
 
 Alles, was bleibt, ist, sich ein Getränk zu holen und geduldig auf potenzielle Teilnehmer zu warten. Aber wie bereits erwähnt: **Seien Sie nicht enttäuscht, wenn beim ersten Mal niemand kommt**. Planen Sie daher für den Fall der Fälle ein Buch oder ein Video zum Anschauen ein.
 
@@ -1063,22 +1063,22 @@ Alles, was bleibt, ist, sich ein Getränk zu holen und geduldig auf potenzielle 
 
 <chapterId>3e881af9-9c09-5721-81ee-c5cda3b109c5</chapterId>
 
-Wenn die Sitzung beendet ist, ist es für die Manager des Veranstaltungsorts an der Zeit, **aufzuräumen**. Bevor Sie also gehen (und Sie werden in der Regel zu den Letzten gehören, die gehen, zumindest anfangs), sollten Sie den Kellnern und/oder Managern Ihre Hilfe anbieten. Das könnte so einfach sein wie **Gläser von einem Tisch aufheben**; oder, wenn Sie sich in der Nähe der Bar befinden, **die Gläser zurückbringen, bevor Sie gehen**.
+Wenn die Sitzung beendet ist, ist es für die Betreiber des Veranstaltungsorts an der Zeit, **aufzuräumen**. Bevor Sie also gehen (und Sie werden in der Regel zu den Letzten gehören, die gehen, zumindest anfangs), sollten Sie den Kellnern und/oder Managern Ihre Hilfe anbieten. Das könnte so einfach sein wie **Gläser von einem Tisch aufheben**; oder, wenn Sie sich in der Nähe der Bar befinden, **die Gläser zurückbringen, bevor Sie gehen**.
 
-Wenn Sie nach Hause zurückkehren, werden Sie höchstwahrscheinlich einige Tage lang **Bitcoin in den Augen** haben. Dies ist ein guter Zeitpunkt, um zum Beispiel Feedback zu bewerten:
+Wenn Sie nach Hause zurückkehren, werden Sie höchstwahrscheinlich einige Tage lang **Bitcoin in den Augen** haben. Dies ist ein guter Zeitpunkt, um zum Beispiel das Feedback auszuwerten:
 
 
-- senden Sie eine Nachricht über Ihre Kommunikationskanäle, um **den Teilnehmern** zu danken, und/oder teilen Sie Links oder Websites, die Sie besprochen haben;
-- die Teilnehmer der Sitzung aufzufordern, **Verbesserungen** für die nächste Sitzung vorzuschlagen;
-- und auch, um **die nächste Veranstaltung vorzubereiten!**
+- Senden Sie eine Nachricht über Ihre Kommunikationskanäle, um **den Teilnehmenden** zu danken und ggf. besprochene Links oder Websites zu teilen;
+- Bitten Sie die Teilnehmenden, **Verbesserungsvorschläge** für das nächste Treffen zu machen;
+- und beginnen Sie gleich damit, **die nächste Veranstaltung vorzubereiten!**
 
-Dann steht Ihnen ein langer Zeitraum von mehreren Wochen zur Verfügung, in dem Sie weitere Entwürfe und/oder Pläne für Ihr Treffen entwickeln können.
+Dann steht Ihnen ein langer Zeitraum von mehreren Wochen zur Verfügung, in dem Sie weitere Entwürfe und/oder Pläne für Ihr nächstes Treffen entwickeln können.
 
-## Die Bedeutung der Einbindung und Bindung von Teilnehmern
+## **Die Bedeutung der Einbindung und Bindung von Teilnehmern**
 
 <chapterId>f5355e35-4b07-527c-88a3-8535cba7592c</chapterId>
 
-Rom wurde nicht an einem Tag erbaut; und das Gleiche gilt für Ihre Gemeinschaft. Das bedeutet, dass Sie **durch die regelmäßige Organisation von Treffen und Veranstaltungen eine Dynamik rund um Bitcoin** erzeugen können.
+Rom wurde nicht an einem Tag erbaut; und das Gleiche gilt für Ihre Gemeinschaft. Durch **regelmäßige Treffen und Veranstaltungen** können Sie Schritt für Schritt **eine lebendige Dynamik rund um Bitcoin** aufbauen.
 
 Um dies zu erreichen, ist ein Punkt wesentlich: **Sie müssen die Teilnehmer an Ihre Veranstaltungen binden**.
 
@@ -1086,32 +1086,32 @@ Dies kann mit einer kleinen Gruppe von begeisterten Bitcoinern beginnen, deren Z
 
 **Im Laufe der Treffen werden neue Gesichter zu Ihnen stoßen**. Das können Leute sein, die in früheren Runden BTC und/oder Alt/Shitcoin gekauft haben; Nicht-Coiner, die ihr Verständnis von Bitcoin und seinem Ökosystem vertiefen wollen; aber auch Neulinge, die ihre ersten Informationen über dieses neue unzensierbare, dezentralisierte, transparente, faire, bedingungslose und vertrauenslose elektronische Zahlungssystem sammeln. Um sicherzustellen, dass sich **jeder in die Veranstaltungen** einbezogen fühlt, kann an zwei Hauptbereichen gearbeitet werden.
 
-Einerseits ist es aus sozialer Sicht für die Entwicklung einer Gemeinschaft entscheidend, dass sich jeder, der an einer Veranstaltung teilnimmt, einbezogen fühlt. Das bedeutet: **sich bemühen, auf die neuen Teilnehmer zuzugehen, sich dafür interessieren, warum sie da sind, sie herzlich willkommen heißen** usw. Wenn sie sich einbezogen und willkommen fühlen, werden sie gerne wiederkommen und sich in Zukunft sogar, je nach ihrem Profil, an der Organisation dieser Veranstaltungen beteiligen.
+Einerseits ist es aus sozialer Sicht für die Entwicklung einer Gemeinschaft entscheidend, dass sich jeder, der an einer Veranstaltung teilnimmt, einbezogen fühlt. Das bedeutet: **sich bemühen, auf neue Teilnehmende zuzugehen, sich für ihre Motivation zu interessieren und sie herzlich willkommen zu heißen** usw. Wenn sie sich einbezogen und willkommen fühlen, kommen sie gerne wieder und beteiligen sich möglicherweise – je nach Profil – künftig an der Organisation.
 
 Das erfordert natürlich **Zeit und Motivation**. Wenn man einen Shitcoiner (oder noch schlimmer: einen XRP-Maximalisten) willkommen heißt, kann es ziemlich schwierig sein, seine Zeitpräferenz beiseite zu schieben und zuzustimmen, in einseitigen Diskussionen "Zeit zu verschwenden". Wenn wir uns jedoch die Zeit nehmen, mit diesen Menschen zu sprechen, können wir ihnen helfen, ihre Missverständnisse und Denkfehler zu verstehen. Sobald sie diese akzeptieren, werden sie bereit sein, Bitcoin zu verstehen.
 
 ![immagine](assets/fr/35.webp)
 
-Andererseits können sich aus technischer Sicht mehrere Fragen stellen:
+Andererseits können sich aus praktischer Sicht mehrere Fragen stellen:
 
 
-- der Ort, an dem **die Sitzung stattfand, angenehm war?**
-- war sie **leicht zugänglich?
-- warum sind einige Teilnehmer letztendlich nicht gekommen?
-- welche Diskussionen wurden geführt? Waren sie **zu technisch, so dass Neulinge nicht einbezogen werden konnten?**
-- ist der Alkohol zu stark geflossen?
+- War der Ort, an dem die Sitzung stattfand, angenehm?
+- War die Location**leicht zugänglich?**
+- Warum sind einige Teilnehmer letztendlich nicht gekommen?
+- Welche Diskussionen wurden geführt? Waren sie **zu technisch, so dass Neulinge nicht einbezogen werden konnten?**
+- Ist der Alkohol zu stark geflossen?
 
 Natürlich hat jeder Teilnehmer seine eigene Persönlichkeit, Sensibilität, Ziele und Interessen. Daher wird jeder das Treffen anders erleben.
 
-Aber **wenn der Veranstaltungsort gut gewählt ist, die Anwesenden (insbesondere die Organisatoren) aufgeschlossen sind und ein hehres Ziel verfolgen, gibt es keinen Grund, warum das Treffen nicht ein Erfolg werden sollte**.
+Aber **wenn der Veranstaltungsort gut gewählt ist, die Anwesenden (insbesondere die Organisatoren) aufgeschlossen sind und ein hehres Ziel verfolgen, gibt es keinen Grund, warum das Treffen kein Erfolg werden sollte**.
 
 ####
 
-**Die Organisation einer Sitzung erfordert also Zeit, aber vor allem Organisation.
+**Die Organisation einer Sitzung erfordert also Zeit – vor allem aber gute Planung**.
 
 Sie ist ein menschliches Projekt, und deshalb kann sie nur dann funktionieren und sich langfristig entwickeln, wenn sie durchdacht, offen und integrativ ist**.
 
-Natürlich ist es **jedem freigestellt, seine eigene Grenze** für das zu setzen, was mit "offen und integrativ" gemeint ist Aber vergessen wir nicht: Ein Shitcoiner ist ein angehender Bitcoiner (der noch nicht "rekt" verdorben wurde).
+Natürlich ist es jedem freigestellt, seine eigene Grenze dafür zu setzen, was mit "offen und integrativ" gemeint ist. Aber vergessen wir nicht: **Ein Shitcoiner ist ein angehender Bitcoiner** – einer, der noch nicht „rekt“ verdorben wurde.
 
 # Beispiele für Projekte und Initiativen
 
@@ -1136,7 +1136,7 @@ Doch bevor wir beginnen, scheint es interessant, auf einen Punkt einzugehen, der
 Wenn Sie ein Treffen zu Bitcoin starten, lernen Sie neue Leute kennen. Soziale Interaktionen sind also wichtig, und Bier (Alkohol im Allgemeinen) macht diese Art von Veranstaltungen festlich. Aber VORSICHT!
 
 
-- zum einen hemmt **Alkohol einige kognitive Fähigkeiten** (Denken, Verstehen usw.). Daher wird es **für die Teilnehmer schwieriger, ernsthaften Diskussionen** - oder einer Präsentation - nach dem Genuss eines süßen alkoholischen Getränks zu folgen;
+- zum einen hemmt **Alkohol einige kognitive Fähigkeiten** (Denken, Verstehen usw.). Daher wird es **für die Teilnehmer schwieriger, ernsthaften Diskussionen** - oder einer Präsentation - nach dem Genuss eines alkoholischen Getränks zu folgen;
 - auf der anderen Seite kann **Alkohol tröstlich sein**: Jeden Monat haben Sie Ihren "Bitcoin-Moment" mit Ihren neuen Freunden. Sie teilen eine gemeinsame Leidenschaft, und das ist sehr positiv! **Aber ist das Biertrinken wirklich das Hauptziel Ihres Treffens?** Würden Sie nicht lieber Informationen über Ihre neuen Entdeckungen/Forschungen austauschen, von den Erfahrungen anderer lernen; oder sogar Bitcoin für Neulinge demokratisieren, um sie einzuweihen?
 
 Jeder hat seine eigenen Wünsche, seine eigenen Überzeugungen, seine eigene Persönlichkeit. Es soll hier also kein Urteil darüber gefällt werden, wie das eine oder das andere Treffen funktioniert. Schließlich ist es **ein Bier, mit dem wir die Welt neu gestalten, aber nicht, wie wir sie tiefgreifend verändern**.
@@ -1159,7 +1159,7 @@ Der Weg, der bei den französischen Treffen 2023/2024 eingeschlagen wurde, ist u
 
 Wenn Sie Zugang zu anderen bearbeitbaren Ressourcen haben möchten, sollten Sie sich das [Bitcoin Educational Toolkit] (https://planb.network/fr/resources/bet) ansehen!
 
-Es sollte auch darauf hingewiesen werden, dass die Kapitel 2 und 7 in zwei Präsentationen aufgeteilt werden können, um die Teilnehmer nicht mit Informationen zu überfrachten; sie können aber auch auf einmal durchgeführt werden. Diese zweite Option bietet mehr Freiheit, da in den beiden Sitzungen Workshops oder spezielle Veranstaltungen (z. B. gemeinsame Sitzungen oder Quiz) durchgeführt werden können.
+Es sollte auch darauf hingewiesen werden, dass die Kapitel 2 und 7 in zwei Präsentationen aufgeteilt werden können, um die Teilnehmer nicht mit Informationen zu überfluten; sie können aber auch auf einmal durchgeführt werden. Diese zweite Option bietet mehr Freiheit, da in den beiden Sitzungen Workshops oder spezielle Veranstaltungen (z. B. gemeinsame Sitzungen oder Quiz) durchgeführt werden können.
 
 | Monat | Thema | Video | Bearbeitbare Ressource |
 
@@ -1171,19 +1171,19 @@ Es sollte auch darauf hingewiesen werden, dass die Kapitel 2 und 7 in zwei Präs
 
 | Dezember | Kapitel 3: Das Lightning-Netzwerk verstehen | [YT](https://www.youtube.com/watch?v=hHz-ALx8D9w) | [canva](https://www.canva.com/design/DAF4YPSNnR8/HKp4Vmcno8eMtVWnZmFtcw/edit) |
 
-| Januar | Kapitel 4: Was ist Bergbau? | [YT](https://www.youtube.com/watch?v=QyHZ3CVI_OI) | [canva](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
+| Januar | Kapitel 4: Was ist Mining? | [YT](https://www.youtube.com/watch?v=QyHZ3CVI_OI) | [canva](https://www.canva.com/design/DAF5DE6iBEM/tsy8E3oBebUnsR0kj53vvQ/edit) |
 
-| Februar | Kapitel 5: Einen Bitcoin-Knoten und Lightning konfigurieren | [YT](https://www.youtube.com/watch?v=RRYK-usg-OY) | [canva](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
+| Februar | Kapitel 5: Einen Bitcoin-Node und Lightning konfigurieren | [YT](https://www.youtube.com/watch?v=RRYK-usg-OY) | [canva](https://www.canva.com/design/DAF55FU6HI0/sQ0lacRJblqrhn_9Xk1yDg/edit) |
 
 | März | Kapitel 6: Das Lightning-Netzwerk im Alltag nutzen | [YT](https://www.youtube.com/watch?v=o2BS4xjei8M) | [canva](https://www.canva.com/design/DAGAcJMw7lw/-haMNnHnwj5vpDAy8MDowA/edit) |
 
 | April & Mai | Kapitel 7: Ihre Bitcoins schützen | [YT](https://www.youtube.com/watch?v=fHExPbhM0Hg) | [canva](https://www.canva.com/design/DAGDz3Nq4e0/D3uG-4w9FN6OhUq-VXzhfg/edit) |
 
-| Juni | Demnächst | Demnächst | Demnächst | Demnächst |
+| Juni | Demnächst verfügbar| Demnächst verfügbar |Demnächst verfügbar | Demnächst verfügbar |
 
-| Juli | Demnächst | Demnächst | Demnächst | Demnächst |
+| Juli | Demnächst verfügbar | Demnächst verfügbar | Demnächst verfügbar | Demnächst verfügbar |
 
-| August | Demnächst | Demnächst | Demnächst | Demnächst |
+| August | Demnächst verfügbar | Demnächst verfügbar | Demnächst verfügbar | Demnächst verfügbar |
 
 ####
 
@@ -1197,8 +1197,8 @@ Parallel dazu können weitere thematische Treffen organisiert werden. Dazu gehö
 
 
 - ein **Wissensquiz** (z. B. mit einer physischen Mappe als Preis);
-- eine **"Onboarding "**-Herausforderung durch das Versenden von kostenlosen Satoshi an Nicht-Coiner;
-- organisation der Ankunft eines Experten auf einem bestimmten Gebiet oder eines Unternehmens**, das ein relevantes Bitcoin-bezogenes Produkt anbietet;
+- eine **"Onboarding "**-Herausforderung durch das Versenden von kostenlosen Satoshis an No-Coiner;
+- die Einladung eines Experten auf einem bestimmten Gebiet oder eines Unternehmens, das ein relevantes Bitcoin-bezogenes Produkt anbietet;
 - einen Abend mit **"Touren durch Bars und Geschäfte "**, die Bitcoin als Zahlungsmittel akzeptieren;
 - usw.
 
@@ -1211,15 +1211,15 @@ Die einzigen Grenzen, die man sich setzen kann, sind die der eigenen Vorstellung
 Im Laufe des Jahres können weitere Veranstaltungen organisiert werden. Dazu können gehören:
 
 
-- einen Abend in der Pizzeria zum Pizzatag** am 22. Mai;
-- einen Abend oder ein Wochenende zur "Feier" der bevorstehenden Halbierung**;
-- eine "Familienspiel"-Veranstaltung rund um Bitcoin** und wie es funktioniert. Sie können Spiele wie ["Le Coin de Table"] (https://www.maximalist.ovh/) oder ["SHAmory"] (https://shamory.com/) mitbringen;
+- einen Abend in einer Pizzeria zum **Pizzatag** am 22. Mai;
+- einen Abend oder ein Wochenende zur **Feier des bevorstehenden Halvings**;
+- eine **Familienspiel-Veranstaltung rund um Bitcoin**. Sie können Spiele wie ["Le Coin de Table"] (https://www.maximalist.ovh/) oder ["SHAmory"] (https://shamory.com/) mitbringen;
 
 ![image](assets/fr/37.webp)
 
 
-- ein Workshop zum Thema Mining**, bei dem verschiedene Geräte (Prozessor, Grafikkarte, FPGA, ASIC, Nerdminer, Bitaxe) vorgestellt werden;
-- ein Nachmittag oder Abend speziell für Anfänger, mit thematischen Workshops**;
+- **ein Workshop zum Thema Mining**, bei dem verschiedene Geräte (Prozessor, Grafikkarte, FPGA, ASIC, Nerdminer, Bitaxe) vorgestellt werden;
+- ein Nachmittag oder Abend **speziell für Anfänger, mit thematischen Workshops**;
 - oder sogar **ein gemeinsames Treffen mit einem (oder mehreren) benachbarten Treffen**.
 
 ####
@@ -1235,11 +1235,11 @@ Als Symbole für die Identität Ihrer Gemeinschaft könnte es interessant sein, 
 Bevor Sie die Bestellung aufgeben, sollten Sie die folgenden Punkte beachten:
 
 
-- wenn Sie möchten, dass diese Aufkleber im Freien angebracht werden können, benötigen Sie **wasserfeste Aufkleber** ("waterproof" oder wasserfest);
-- achten Sie darauf, dass Ihr Logo kleiner ist als die bei der Bestellung angegebene Fläche**. Dies hilft, Präzisionsfehler beim Laserschnitt zu vermeiden, durch die ein Teil Ihres Logos abgeschnitten werden könnte. Dies wird normalerweise zum Zeitpunkt der Bestellung erklärt;
+- Wenn Sie möchten, dass diese Aufkleber im Freien angebracht werden können, benötigen Sie **wasserfeste Aufkleber** ("waterproof" oder wasserfest);
+- Achten Sie darauf, dass Ihr Logo kleiner ist als die bei der Bestellung angegebene Fläche**. Dies hilft, Präzisionsfehler beim Laserschnitt zu vermeiden, durch die ein Teil Ihres Logos abgeschnitten        werden könnte. Dies wird normalerweise zum Zeitpunkt der Bestellung erklärt;
 - erwägen Sie die **Verwendung einer Vektordatei** anstelle einer Bilddatei. Dies wird die Druckqualität verbessern;
-- überlegen Sie sich genau, welche Größe Sie wünschen**. Ein kreisförmiger Aufkleber mit einem Durchmesser von 8 cm ist etwa so groß wie die Handfläche eines Erwachsenen. Suchen Sie diese Größe, die für die Sichtbarkeit sehr wichtig ist, oder suchen Sie etwas Unauffälligeres (z. B. 4 cm Durchmesser)?
-- schließlich - und das ist ein wenig technisch - wenn Sie einen satten schwarzen Druck (ein "Vier-Farben-Schwarz") wünschen, sollten die Eigenschaften dieser Farbe sein: 30% Cyan, 30% Magenta, 30% Gelb und 100% Schwarz. Wenn nur 100 % Schwarz verwendet wird, ist das Ergebnis ein etwas gräuliches Schwarz. Glücklicherweise achten die Drucker im Allgemeinen auf dieses Detail. Sie sollten sich also nicht zu viele Gedanken darüber machen.
+- **Überlegen Sie sich gut, welche Größe der Aufkleber haben soll**. Ein runder Sticker mit 8 cm Durchmesser entspricht etwa der Fläche einer Handfläche. Diese Größe sorgt für gute Sichtbarkeit – wenn Sie    etwas Unauffälligeres wollen, wäre z. B. 4 cm Durchmesser denkbar.
+- Schließlich – etwas technischer –: Wenn Sie ein besonders tiefes Schwarz („Vierfarb-Schwarz“) wünschen, sollten die Farbanteile etwa 30 % Cyan, 30 % Magenta, 30 % Gelb und 100 % Schwarz betragen. Bei       reinem 100 % Schwarz wirkt der Druck oft leicht gräulich. Die meisten Druckereien achten allerdings selbstständig darauf – machen Sie sich also keine allzu großen Sorgen.
 
 ![image](assets/fr/38.webp)
 
@@ -1275,7 +1275,7 @@ Wenn Sie einen **Verband leiten und einen Teil Ihres Vermögens in Bildungs- und
 
 ####
 
-In diesem Zusammenhang und mit dem Ziel, das Ökosystem zu entwickeln, bietet der **[Verlag Konsensus.Network] (https://konsensus.network/) internationalen Bitcoin-Treffen und -Gemeinschaften einen Rabatt von 15 bis 35 Prozent auf alle seine Bücher an, beginnend mit drei gekauften**.
+In diesem Zusammenhang und mit dem Ziel, das Ökosystem zu entwickeln, bietet der **[Verlag Konsensus.Network] (https://konsensus.network/) internationalen Bitcoin-Treffen und -Gemeinschaften einen Rabatt von 15 bis 35 Prozent auf alle seine Bücher an, bereits ab einer Bestellung von drei Exemplaren**.
 
 Auch wenn Sie nicht über die nötigen Mittel verfügen, können Sie diese Ermäßigung in Anspruch nehmen.
 
@@ -1285,7 +1285,7 @@ Um von diesem Rabatt zu profitieren, wenden Sie sich einfach **an [den Konsensus
 
 ####
 
-Darüber hinaus kann eine Charta erstellt werden, in der die Regeln der Buchausleihe kurz erläutert werden und die bei den Treffen ausgehängt wird.
+Darüber hinaus kann ein Regelblatt zur Buchausleihe erstellt und bei den Treffen ausgehängt werden.
 
 Hier ist ein Open-Source-Beispiel, das Sie übernehmen und nach Belieben verändern können:
 
@@ -1305,13 +1305,14 @@ Wenn ja, könnte es interessant sein, zu fragen, ob in den kommenden Monaten **R
 
 Die Erstellung von Flugblättern ist ein zeitaufwändiger Schritt. Es ermöglicht jedoch, **bei Bitcoin-Diskussionen ein Papiermedium zu haben**, was sehr zu begrüßen ist.
 
-Diese Flugblätter können dann für andere Zwecke verwendet werden:
+Diese Flugblätter können dann für weitere Zwecke verwendet werden:
 
 
-- händler**, falls Sie ihnen vorschlagen möchten, Bitcoin als Zahlungsmittel zu akzeptieren;
-- menschen, die an Ihren Veranstaltungen** teilnehmen, mit einem Flyer, der speziell erklärt, wie man Bitcoin / Lightning verwendet und damit bezahlt; - und **Neulinge**, die Sie auf der Straße, bei der Arbeit oder bei einem Familienessen treffen, mit einem Flyer, der die wichtigsten Vorteile von Bitcoin zusammenfasst.
+- **Händler**, falls Sie ihnen vorschlagen möchten, Bitcoin als Zahlungsmittel zu akzeptieren;
+- **Menschen, die an Ihren Veranstaltungen teilnehmen**, können einen Flyer erhalten, der speziell erklärt, wie man Bitcoin und Lightning verwendet und damit bezahlt.
+  Ebenso **Neulinge**, denen Sie auf der Straße, bei der Arbeit oder beim Familienessen begegnen – können einen Flyer erhalten, der die wichtigsten Vorteile von Bitcoin zusammenfasst.
 
-Es ist auch durchaus möglich, einen **Flyer speziell für Ihre Gemeinschaft oder Ihren Treff zu erstellen, in dem Ihre Aktionen, Ziele, Netzwerke und Kommunikationskanäle, aber auch die Termine und Orte Ihrer bereits geplanten Veranstaltungen** vorgestellt werden.
+Es ist auch durchaus möglich, einen **Flyer speziell für Ihre Gemeinschaft oder Ihre Treffen zu erstellen, in dem Ihre Aktionen, Ziele, Netzwerke und Kommunikationskanäle, aber auch die Termine und Orte Ihrer bereits geplanten Veranstaltungen** vorgestellt werden.
 
 ####
 
@@ -1337,7 +1338,7 @@ Diese Kisten sind in der Regel aus Holz und bieten Platz für Bücher, die versc
 
 ![image](assets/fr/43.webp)
 
-In diesem Sinne wurde im Jahr 2023 **die Initiative "Ein Bitcoin-Weißbuch in Frankreichs Bücherkisten "** gestartet.
+In diesem Sinne wurde im Jahr 2023 **die Initiative "Ein Bitcoin Whitepaper in Frankreichs Bücherkisten "** gestartet.
 
 Um dieses Projekt mit allen Beteiligten erfolgreich durchführen zu können, war es zunächst erforderlich, die **Geolokalisierung aller bestehenden Bücherkisten im Land** zu ermitteln. Hierfür gibt es mehrere Datenbanken:
 
@@ -1346,7 +1347,7 @@ Um dieses Projekt mit allen Beteiligten erfolgreich durchführen zu können, war
 - [boites-a-livres.fr](https://www.boites-a-livres.fr/carte-de-france);
 - [delivrez.fr] (https://delivrez.fr/maps/fr_FR/);- sowie einige Artikel in der lokalen Presse.
 
-Natürlich hat die Platzierung des Bitcoin-Weißbuchs in diesen Büchertauschbörsen eine symbolische Bedeutung. Für einen Anfänger ist es jedoch zu komplex, um es zu verstehen. Daher war die Idee, **ein kleines Pamphlet zu schreiben, das**:
+Natürlich hat die Platzierung des Bitcoin Whitepapers in diesen Büchertauschbörsen eine symbolische Bedeutung. Für einen Anfänger ist es jedoch zu komplex, um es zu verstehen. Daher war die Idee, **ein kleines Pamphlet zu schreiben, das**:
 
 
 - eine vereinfachte und dokumentierte Einführung in Bitcoin, seine Verwendung und die Probleme, die er löst**;

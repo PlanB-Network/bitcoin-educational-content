@@ -1371,13 +1371,13 @@ So ist es durchaus möglich, **Ihrer Gemeinde eine Videoaufführung dieser Minis
 
 Es gibt jedoch einen kleinen Nachteil: In Frankreich haben wir uns an ARTE gewandt, um zu erfahren, ob dies rechtlich möglich ist. Leider beliefen sich die Kosten pro Vorführung aufgrund der **Projektionsgebühren** auf fast 250 €, wobei bei 5 aufeinanderfolgenden Veranstaltungen im Jahr ein Rabatt von 120 € pro Vorführung möglich ist.
 
-Infolgedessen ist diese Gebühr für die meisten Gemeinden unerschwinglich. Der Dokumentarfilm ist jedoch kostenlos auf ART...
+Infolgedessen ist diese Gebühr für die meisten Gemeinden unerschwinglich. Der Dokumentarfilm ist jedoch kostenlos auf ARTE...
 
 ####
 
 Weitere Vorführungen können parallel dazu stattfinden.
 
-In Frankreich zum Beispiel hat **die Regisseurin des Dokumentarfilms "Gestrandet", [Alana Mediavilla] (https://twitter.com/AlanaMediavilla), eine Vorpremiere ihres Dokumentarfilms bei Treffen** erlaubt; einige der Aufnahmen stammen aus Sequenzen des [Films "Dirty Coin"] (https://www.dirtycointhemovie.com/), der 2024 in die Kinos kommt.
+In Frankreich zum Beispiel hat **die Regisseurin des Dokumentarfilms "Gestrandet", [Alana Mediavilla] (https://twitter.com/AlanaMediavilla), eine Vorpremiere ihres Dokumentarfilms bei Treffen** erlaubt; einige der Aufnahmen stammen aus Sequenzen des [Films "Dirty Coin"] (https://www.dirtycointhemovie.com/), der 2024 in die Kinos kam.
 
 Die französische Bitcoiner-Gemeinschaft ergriff daraufhin die Initiative, den Dokumentarfilm "Gestrandet "** vollständig zu übersetzen, mit französischen Untertiteln zu versehen und ihn bei allen Treffen im Land zu zeigen. In der Woche vom 4. März 2024 wurde **eine gemeinsame Vorführung in etwa zehn Treffen im ganzen Land organisiert**.
 
@@ -1455,7 +1455,7 @@ Das [Uncode-Plugin] (https://undsgn.com/uncode/), das kostenpflichtig ist, ist e
 
 <chapterId>076286db-1627-57ec-a410-c44b1666e1cd</chapterId>
 
-Einige Ihrer Community-Mitglieder sind vielleicht an der **Erstellung von Multimedia-Inhalten** interessiert. Dies könnte zum Beispiel in Form von Video-Tutorials geschehen (Verwendung einer Software-Wallet, Tutorials für den Kauf von Nicht-KYC-BTC usw.)
+Einige Ihrer Community-Mitglieder sind vielleicht an der **Erstellung von Multimedia-Inhalten** interessiert. Dies könnte zum Beispiel in Form von Video-Tutorials geschehen (Verwendung einer Software-Wallet, Tutorials für den Kauf von NON-KYC-BTC usw.)
 
 Parallel dazu könnte der Tag kommen, an dem auf Ihren Sitzungen Präsentationen gehalten werden. Oder sogar, wenn Ihre Gemeinschaft Konferenzen an weiterführenden Schulen und Universitäten durchführt.
 
@@ -1476,7 +1476,7 @@ Je nachdem, wofür Sie sich entscheiden, müssen Sie natürlich **Grafiken spezi
 
 ####
 
-Falls Sie **auf Ihrem Computer aufnehmen möchten, funktioniert eine Software wie ["Streamlabs"] (https://streamlabs.com/fr-fr) sehr gut**. Damit können Sie viele Einstellungen vornehmen, es ist kostenlos und ermöglicht auch Szenenübergänge.
+Falls Sie **auf Ihrem Computer aufnehmen möchten, funktioniert eine Software wie ["Streamlabs"] (https://streamlabs.com/de-de) sehr gut**. Damit können Sie viele Einstellungen vornehmen, es ist kostenlos und ermöglicht auch Szenenübergänge.
 
 Für die **Videobearbeitung** (falls vorhanden) benötigen Sie eine geeignete Software.
 
@@ -1523,7 +1523,7 @@ Für Ihre Sitzungen und Veranstaltungen können Sie einen kleinen Anreiz für di
 
 Im Prinzip könnte diese Initiative auch dazu dienen, **die engagiertesten Mitglieder Ihrer Gemeinschaft zu belohnen, zum Beispiel durch eine jährliche Verlosung**, bei der ein erworbenes Abzeichen einem Los für die Verlosung entsprechen würde. Ein Mitglied, das an allen 12 Sitzungen des Jahres teilnimmt, hätte dann 12 Lose für diese jährliche Verlosung.
 
-Darüber hinaus ist es in einem völlig anderen Zusammenhang auch möglich, **die Teilnehmer jeder Veranstaltung zu bitten, ihren Namen oder ihr Pseudonym auf ein Namensschild** zu schreiben. Dazu können auch die Gründe für ihre Anwesenheit hinzugefügt werden. Diese Strategie ist zwar etwas förmlich, kann es aber einigen Mitgliedern ermöglichen, **Gemeinsamkeiten und Gesprächsthemen** leichter zu finden, und macht es **Neulingen leichter, Organisatoren** und potenzielle Vereinsmitglieder zu identifizieren.
+Darüber hinaus ist es in einem völlig anderen Zusammenhang auch möglich, **die Teilnehmer jeder Veranstaltung zu bitten, ihren Namen oder ihr Pseudonym auf ein Namensschild** zu schreiben. Dazu können auch die Gründe für ihre Anwesenheit hinzugefügt werden. Diese Strategie ist zwar etwas förmlich, kann es aber einigen Mitgliedern ermöglichen, **Gemeinsamkeiten und Gesprächsthemen** leichter zu finden, und **macht es Neulingen leichter, Organisatoren und potenzielle Vereinsmitglieder zu identifizieren.**
 
 Mehrere Modelle, die von der Bitcoin Lille Association verwendet werden, sind auch [als Open-Source auf Canva] verfügbar (https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
@@ -1539,14 +1539,14 @@ In der Tat kann leider der Tag kommen, an dem die Familie eines Ihrer ehemaligen
 
 Diese Person wird wahrscheinlich erklären, dass sie **Hilfe bei der Wiedererlangung der Gelder** benötigt, da sie der Begünstigte des Erbes dieses ehemaligen Mitglieds ist.
 
-Bei der Beantwortung dieses Ersuchens kann es aus mehreren Gründen sehr wichtig sein, **bereits eine Art von Verfahren zu entwickeln**.
+Bei der Beantwortung dieses Ersuchens kann es aus mehreren Gründen sehr wichtig sein, **bereits ein entsprechendes Verfahren ausgearbeitet zu haben**.
 
 Einerseits:
 
 
-- sich zu vergewissern, dass der Verstorbene seine Familie **informiert hat, die privaten Schlüssel und die physische(n) Brieftasche(n) des Verstorbenen nicht weiterzugeben oder zu einem Treffen mitzubringen**;
-- damit die Familie klar versteht, dass **ihre Anwesenheit dem Erlernen von Bitcoin** dient, um schließlich die Hoheit über das Vermögen des Verstorbenen zu erlangen;
-- damit **die Familie weiß, welches Recht in dem Land im Falle einer Schenkung, einer Erbschaft oder eines Umtauschs in Fiat-Währung** gilt;
+- sicherzustellen, dass der Verstorbene seine Familie **darüber informiert hat, die privaten Schlüssel und die physische(n) Wallet(s) nicht weiterzugeben oder zu einem Treffen mitzubringen;**
+- dafür zu sorgen, dass die Familie versteht, dass **ihre Anwesenheit dem Erlernen von Bitcoin dient**, um schließlich die Hoheit über das Vermögen des Verstorbenen zu erlangen;
+- sicherzustellen, dass **die Familie über die rechtlichen Rahmenbedingungen im Land informiert ist**, etwa im Fall von Schenkung, Erbschaft oder Umtausch in Fiat-Währung;
 
 Darüber hinaus wird durch die vorherige Festlegung eines Verfahrens sichergestellt, dass niemand, weder ein Mitglied der Versammlung noch ein einfacher Gast, diese Situation irgendwie ausnutzen (und/oder Gelder stehlen) kann.
 
@@ -1562,7 +1562,7 @@ Zunächst einmal wissen Sie zweifellos, dass **eine der besten Möglichkeiten, m
 
 Um eine Konferenz vor mehreren Dutzend oder gar Hunderten von Menschen zu halten, ist es nicht nur wichtig, **zu wissen, wie man in der Öffentlichkeit spricht**, sondern auch, **wie man mit Stress, Artikulation und Zeit umgeht**. Es erfordert auch die **Vorbereitung einer qualitativ hochwertigen Präsentation oder eines Workshops, der dokumentiert ist und dem Kenntnisstand des Publikums entspricht**, das Sie ansprechen werden.
 
-Darüber hinaus ist es bei dieser Art von Übung unerlässlich, **offen zu bleiben und bereit zu sein, Konzepte bei Bedarf zu vereinfachen**, insbesondere während der Frage/Antwort-Phase und im Falle einer Podiumsdiskussion. Dies bedeutet nicht, dass man seine Prinzipien aufgibt, sondern einfach akzeptiert, dass andere einen anderen Standpunkt vertreten, auch wenn dies bedeutet, dass man später darauf reagieren oder es sein lassen muss, damit der Dialog weitergehen kann. In jedem Fall werden die Zuhörer nicht in die Irre geführt, wenn **Ihre Rede und Ihre Antworten auf relevanten und dokumentierten Argumenten** beruhen.
+Darüber hinaus ist es bei dieser Art von Übung unerlässlich, **offen zu bleiben und bereit zu sein, Konzepte bei Bedarf zu vereinfachen**, insbesondere während der Frage/Antwort-Phase und im Falle einer Podiumsdiskussion. Dies bedeutet nicht, dass man seine Prinzipien aufgibt, sondern einfach akzeptiert, dass andere Teilnehmer eine andere Meinung vertreten – auch wenn das heißt, später darauf zu reagieren oder es dabei zu belassen, damit der Dialog weitergeführt werden kann. In jedem Fall werden die Zuhörer nicht in die Irre geführt, wenn **Ihre Rede und Ihre Antworten auf relevanten und gut belegten Argumenten beruhen.**
 
 Wenn Sie sich also in der Lage fühlen: treten Sie vor! Unsere Welt braucht dringend eine Aufklärung darüber, was Bitcoin ist...
 
@@ -1574,15 +1574,15 @@ Es liegt jedoch auf der Hand, dass man für diese Aufgabe **viel Motivation, ein
 
 In der Tat ist es **nicht einfach, eine Konferenz oder einen Workshop an einer Schule und/oder Universität zu organisieren**.
 
-Zunächst ist es notwendig, einen **Kontakt** zu finden. Dieser kann **über einen Bekannten, über das BDE ("Bureaux Des Étudiants" oder Studentenbüros); oder auch über Studentenvereinigungen**, die im Allgemeinen jedes Jahr Vortragsreihen und Treffen organisieren, hergestellt werden. Auch Ihre **ehemaligen Professoren der Ingenieurschule und/oder der Universität** können als Vermittler fungieren.
+Zunächst ist es notwendig, einen **Kontakt** zu finden. Dieser kann **über einen Bekannten, über Studentenbüros, oder auch über Studentenvereinigungen**, die im Allgemeinen jedes Jahr Vortragsreihen und Treffen organisieren, hergestellt werden. Auch Ihre **ehemaligen Professoren der Ingenieurschule und/oder der Universität** können als Vermittler fungieren.
 
 Im Falle einer Postgraduiertenschule können Sie sich auch **direkt an den Leiter des Ausbildungsprogramms** wenden, um Ihren Vorschlag zu erläutern. Dies kann dann zu einem ersten Treffen und - bestenfalls einige Wochen später - zu einer Präsentation vor Studenten führen, in der Sie erklären, was Bitcoin ist und wie es funktioniert.
 
 ####
 
-Leider wird Bitcoin in unserer heutigen Welt immer noch zu oft absichtlich von den Medien und Politikern verteufelt, was viele Anfänger zu der Ansicht verleitet, dass er aus Klassenzimmern und Hörsälen verbannt werden sollte. **Die Wahrscheinlichkeit ist daher recht hoch, dass Sie auf viel Ablehnung stoßen werden**; besonders in der akademischen Welt, wo Bitcoin-Arbeitsnachweise und Energieverbrauch manchmal tabu zu sein scheinen.
+Leider wird Bitcoin in unserer heutigen Welt immer noch zu oft absichtlich von den Medien und Politikern verteufelt, was viele Anfänger zu der Ansicht verleitet, dass er aus Klassenzimmern und Hörsälen verbannt werden sollte. **Die Wahrscheinlichkeit ist daher recht hoch, dass Sie auf viel Ablehnung stoßen werden**; besonders in der akademischen Welt, wo Bitcoins Proof-of-work und Energieverbrauch manchmal tabu zu sein scheinen.
 
-Aber nichts hindert Sie daran, es zu versuchen, vor allem beim BDE und den Studentenverbänden. **Mit etwas Glück, auch wenn die Ablehnung beim ersten Mal hart ausfällt, ist es nicht ausgeschlossen, dass Sie beim nächsten Bull-Run unter Ihrer Community-E-Mail-Adresse erneut kontaktiert werden, um einen Vortrag vor fast 280 Studenten zu halten!
+Aber nichts hindert Sie daran, es zu versuchen, vor allem bei Studentenbüros und den Studentenverbänden. **Mit etwas Glück, auch wenn die Ablehnung beim ersten Mal hart ausfällt, ist es nicht ausgeschlossen, dass Sie beim nächsten Bull-Run unter Ihrer Community-E-Mail-Adresse erneut kontaktiert werden**, um einen Vortrag vor fast 280 Studenten zu halten!
 
 ![immagine](assets/fr/53.webp)
 
@@ -1593,16 +1593,16 @@ Aber nichts hindert Sie daran, es zu versuchen, vor allem beim BDE und den Stude
 Das Ziel zu erreichen, **einen Händler dazu zu bringen, Bitcoin als Zahlungsmittel zu akzeptieren**, ist für viele Bitcoin-Enthusiasten so etwas wie der "heilige Gral". Es ist wie das Freischalten eines Meilensteins in ihrem Pokédex! Da jedoch jeder Händler anders ist, ist diese Aufgabe nicht einfach, und es treten zahlreiche Probleme auf:
 
 
-- ein Händler braucht (vorerst) noch Fiat-Währung, um seine Lieferanten zu bezahlen**;
-- brauchen klare und eindeutige Finanzberichte**, die an ihre Buchhalter geschickt werden können;
-- ihre Zahlungsmethoden müssen ohne technische oder logistische Probleme** funktionieren, und die Angestellten müssen in der Lage sein, Zahlungen entgegenzunehmen, ohne mit der Kasse weglaufen zu können.
+- Händler benötigen (zumindest vorerst) weiterhin **Fiat-Währung, um ihre Lieferanten zu bezahlen;**
+- Sie brauchen **klare und nachvollziehbare Finanzberichte**, die an ihre Buchhaltung weitergeleitet werden können;
+- Ihre **Zahlungssysteme müssen zuverlässig funktionieren**, ohne technische oder organisatorische Hürden – und das Personal muss in der Lage sein, Zahlungen entgegenzunehmen, ohne mit der Kasse              durchzubrennen.
 
-Ergänzen Sie diese Aspekte:
+Hinzu kommen weitere Aspekte:
 
 
-- mögliche Voreingenommenheit** der Händler gegenüber Bitcoin;
-- die Schwierigkeit, eine Softwarelösung** zu finden, die perfekt funktioniert;
-- sondern auch, **wie wichtig es ist, ihnen die Vorteile der Akzeptanz von Bitcoin** als Zahlungsmittel zu vermitteln.
+- eine mögliche **Voreingenommenheit der Händler gegenüber Bitcoin**;
+- die **Schwierigkeit, eine reibungslos funktionierende Softwarelösung** zu finden;
+- und vor allem die **Herausforderung, ihnen die Vorteile der Bitcoin-Akzeptanz als Zahlungsmittel verständlich zu vermitteln.**
 
 ![immagine](assets/fr/54.webp)
 

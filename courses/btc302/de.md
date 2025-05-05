@@ -1612,25 +1612,25 @@ Die Entwicklung des Bitcoin-Ökosystems in Ihrer Stadt kann dann die **Akquise v
 
 1) Sobald Sie ein Geschäft betreten, **fragen Sie immer, ob Sie mit Bitcoin** bezahlen können. Dies wird in der Regel zu einer Ablehnung und einem fragenden Blick führen, aber diese einfache Frage wird die Händler allmählich dazu bringen, zu sehen, dass Bitcoin von "normalen Menschen" verwendet werden kann und als Zahlungsmethode in der Bevölkerung an Interesse gewinnt. Sie können auch **zwei oder drei Personen im gleichen Geschäft im Abstand von ein paar Tagen bitten, in Bitcoin zu bezahlen**. Irgendwann wird dies die Aufmerksamkeit des Händlers erregen;
 
-2) Sobald Sie das richtige Interesse geweckt haben, könnten sie fragen, was Bitcoin ist, und Sie können es ihnen kurz und verständlich erklären**. Zum Beispiel, dass Bitcoin eine Währung ist, die nicht von Banken kontrolliert wird, ohne einen vertrauenswürdigen Vermittler, dass sie nicht zählbar ist, nicht der Inflation unterliegt und dass die Gebühren niedriger sind als bei traditionellen Banken. Sie können ihnen dann **ein Handout** geben, z.B. "21 Gründe, Bitcoin zu verwenden" und/oder "10 Gründe, Bitcoin in Ihrem Geschäft zu akzeptieren", und ihnen dann **Ihren Kontakt oder den Ihres Treffens** geben. Auf diese Weise können sie sich an Sie wenden, wenn sie an einer Demonstration interessiert sind.
+2) Sobald Sie das richtige Interesse geweckt haben, könnten sie fragen, was Bitcoin ist, und **Sie können es ihnen kurz und verständlich erklären**. Zum Beispiel, dass Bitcoin eine Währung ist, die nicht von Banken kontrolliert wird, keinen vertrauenswürdigen Vermittler benötigt, nicht zensiert werden kann, nicht der Inflation unterliegt – und dass die Transaktionsgebühren niedriger sind als im traditionellen Bankensystem. Sie können ihnen dann **ein Handout** geben, z.B. "21 Gründe, Bitcoin zu verwenden" und/oder "10 Gründe, Bitcoin in Ihrem Geschäft zu akzeptieren", und ihnen dann **Ihren Kontakt oder den Ihres Treffens** geben. Auf diese Weise können sie sich an Sie wenden, wenn sie an einer Demonstration von Bitcoin interessiert sind.
 
-3) Sobald diese Person beschlossen hat, Bitcoin zu akzeptieren, **vereinbaren Sie ein Treffen mit ihr, um ihr die von Ihnen vorgeschlagene Softwarelösung zu zeigen**. **[Swiss Bitcoin Pay](https://swiss-bitcoin-pay.ch/)** scheint in dieser Hinsicht eine ausgezeichnete Lösung zu sein, denn:
-
-
-- ermöglicht es Händlern, die dies wünschen, ihre Tageseinnahmen in Bitcoin in Fiat-Währung umzuwandeln und so ihre Lieferanten zu bezahlen;
-- erlaubt auch, falls gewünscht, einen bestimmten Prozentsatz des Erlöses in BTC zu behalten;
-- ermöglicht den Export der Buchhaltung für alle Bitcoin-Zahlungen, um sie an Buchhalter zu senden und so deren Arbeit zu erleichtern;
-- verfügt über ein benutzerfreundliches Dashboard für den Verwalter;
-- sondern auch eine ergonomische und benutzerfreundliche Schnittstelle für die Mitarbeiter, die Zahlungen abwickeln können, ohne mit der Registrierkasse weglaufen zu müssen;
-- schließlich sind die Nutzungskosten geringer als 2 bis 3 Prozent im traditionellen Bankennetz.
-
-4) **Wenn dieses Unternehmen Bitcoin** akzeptiert, wird es für Sie möglich sein:
+3) Sobald diese Person beschlossen hat, Bitcoin zu akzeptieren, **vereinbaren Sie ein Treffen mit ihr, um ihr die von Ihnen vorgeschlagene Softwarelösung zu zeigen**. **[Swiss Bitcoin Pay](https://swiss-bitcoin-pay.ch/)** scheint in dieser Hinsicht eine ausgezeichnete Lösung zu sein, denn sie:
 
 
-- besuchen Sie regelmäßig** zum Einkaufen;
-- nutzen Sie die Gelegenheit, um **zu fragen, ob alles in Ordnung ist**, und bieten Sie bei Bedarf erneut Ihren Kontakt an;
-- wieder vorschlagen, zu Ihren Treffen und Veranstaltungen zu kommen**;
-- diese Aktivität auf [der btcmap.org-Karte](https://btcmap.org/)** einzutragen und [Swiss Bitcoin Pay auf Twitter](https://x.com/swissbitcoinpay) zu informieren, um dieser Aktivität Sichtbarkeit zu verleihen; - aber auch, um **möglicherweise Veranstaltungen im Rahmen dieser Aktivität** zu organisieren, wie z.B. Treffen oder Workshops.
+- ermöglicht es Händlern, die dies wünschen, ihre Tageseinnahmen von Bitcoin in  Fiat-Währung umzuwandeln, um ihre Lieferanten zu bezahlen;
+- erlaubt es, falls gewünscht, einen bestimmten Prozentsatz des Erlöses in BTC zu behalten;
+- bietet die Möglichkeit, Buchhaltungsdaten aller Bitcoin-Zahlungen zu exportieren und dem Steuerberater/Accountant zur Verfügung zu stellen;
+- verfügt über ein benutzerfreundliches Dashboard für den Betreiber;
+- bietet außerdem eine ergonomische und einfache Benutzeroberfläche für das Personal, das Zahlungen entgegennimmt – ohne Risiko für die Kasse;
+- und schließlich: Die Nutzungskosten liegen unter den üblichen 2–3 % im traditionellen Bankensystem.
+
+4) **Wenn dieses Unternehmen Bitcoin akzeptiert**, eröffnet das für Sie mehrere Möglichkeiten:
+
+
+- es regelmäßig zum Einkaufen zu besuchen;
+- die Gelegenheit zu nutzen, **nachzufragen, ob alles reibungslos funktioniert**, und bei Bedarf erneut Ihre Unterstützung anzubieten;
+- erneut vorzuschlagen, **an Ihren Treffen oder Veranstaltungen teilzunehmen;**
+- diese Aktivität auf [der btcmap.org-Karte](https://btcmap.org/)** einzutragen und [Swiss Bitcoin Pay auf Twitter](https://x.com/swissbitcoinpay) zu informieren, um ihr mehr Sichtbarkeit zu verleihen;    - und eventuell **Veranstaltungen direkt im Unternehmen zu organisieren**, z. B. Meetups oder Workshops.
 
 ![immagine](assets/fr/55.webp)
 
@@ -1651,9 +1651,9 @@ Oft wird vergessen, dass wir Bitcoiner im Allgemeinen denken, dass die besten Ko
 Mehrere Gemeinschaften (wie z.B. [Breizh Bitcoin](https://breizhbitcoin.com/) in Frankreich) haben sich daher angewöhnt, sich an die **Lokalpresse** zu wenden, um sie zu informieren:
 
 
-- Sprechen Sie über die Veranstaltungen, die sie organisieren** (Treffen, Präsentationen, Workshops, Halbierungspartys usw.);
-- Fordern Sie sie auf, lokale Geschäfte zu erkunden, die Bitcoin akzeptieren, mit dem Ziel, einen Artikel** zu diesem Thema zu schreiben;
-- aber auch einfach **sie bitten, das Datum und den Ort ihrer nächsten Veranstaltungen mitzuteilen**.
+- Sprechen Sie über die Veranstaltungen, die sie organisieren** (Treffen, Präsentationen, Workshops, Halving-Partys usw.);
+- Fordern Sie sie auf, lokale Geschäfte zu erkunden, die Bitcoin akzeptieren, mit dem Ziel, **einen Artikel zu diesem Thema zu schreiben;**
+- aber auch einfach nur, **um sie zu bitten, das Datum und den Ort ihrer nächsten Veranstaltungen mitzuteilen**.
 
 In vielen Lokalzeitungen findet sich auf der letzten oder vorletzten Seite eine Liste der in der Region organisierten Veranstaltungen.
 
@@ -1693,9 +1693,9 @@ Denken Sie daran, dass **jede Gemeinschaft und jedes Treffen die gleichen Phasen
 
 Mit dem Eintritt in die vierte Ära, dem 840.000er-Block, sehen immer mehr Menschen **Bitcoin als eine technologische, finanzielle und soziale Revolution**.
 
-Genau wie die Internet-Revolution wird auch diese notwendigerweise **Zeit** brauchen, und das ist gut so. Es wird jedem die Möglichkeit geben, **sich über die Grundlagen von Bitcoin zu informieren und zu lernen, wie man ihn benutzt**. Aber es wird auch Entwicklern und Unternehmen Zeit geben, relevante Protokolle und Anwendungen zu entwickeln, so dass das volle Potenzial von Bitcoin erforscht werden kann.
+Genau wie die Internet-Revolution wird auch diese notwendigerweise **Zeit** brauchen, und das ist gut so. Es wird jedem die Möglichkeit geben, **sich über die Grundlagen von Bitcoin zu informieren und zu lernen, wie man es benutzt**. Aber es wird auch Entwicklern und Unternehmen Zeit geben, relevante Protokolle und Anwendungen zu entwickeln, so dass das volle Potenzial von Bitcoin erforscht werden kann.
 
-Obwohl es unmöglich ist, die Zukunft vorherzusagen, **ist ein sehr deutlicher Anstieg der Zahl der Bitcoin-Nutzer zu erwarten**, um **auf alle Situationen vorbereitet zu sein**. Einschließlich der katastrophalsten Szenarien, wie eine mögliche Implosion des traditionellen Finanzsystems; oder sogar: ein Verbot von Bitcoin.
+Obwohl es unmöglich ist, die Zukunft vorherzusagen, **ist ein sehr deutlicher Anstieg der Zahl der Bitcoin-Nutzer zu erwarten**, um **auf alle Situationen vorbereitet zu sein**. Einschließlich der katastrophalsten Szenarien, wie eine mögliche Implosion des traditionellen Finanzsystems; oder sogar dem Verbot von Bitcoin.
 
 In diesem achten und letzten Teil des Kurses werden wir uns die Zeit nehmen, um einige Punkte zu erläutern, die bei der Entwicklung Ihrer Gemeinschaft und Ihrer Treffen zu berücksichtigen sind.
 

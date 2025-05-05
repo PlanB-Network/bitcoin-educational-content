@@ -20,7 +20,9 @@ La lecture du premier cours sur l'histoire de Bitcoin (intitulée *L'histoire de
 
 https://planb.network/courses/lhistoire-de-la-creation-de-bitcoin-a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Ouvrages de référence :
+Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et peuvent ainsi différer des dates américaines. La plupart des citations proviennent de l'anglais américain et ont été traduites pour l'occasion, sauf indication contraire.
+
+En plus des sources directes archivées sur Internet, nous nous basons sur les ouvrages de référence suivants :
 
 - [*Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money*](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X) de Nathaniel Popper, publié en 2014 ;
 - [*Pay the Devil in Bitcoin: The Creation of a Cryptocurrency and How Half a Billion Dollars of It Vanished from Japan*](https://www.goodreads.com/book/show/36238082-pay-the-devil-in-bitcoin) de Jake Adelstein et Nathalie Stucky, publié en 2017, en version électronique uniquement ; traduction française : [*J'ai vendu mon âme en bitcoins*](https://www.editions-marchialy.fr/livre/j-ai-vendu-mon-ame-en-bitcoins/), publiée en 2019 ;
@@ -187,9 +189,223 @@ L'émergence de Silk Road a été un élément essentiel du développement de Bi
 
 Ainsi, un peu plus d'un an après la vente des pizzas de Laszlo, Silk Road est devenu l'incarnation du commerce exercé avec Bitcoin. Toutefois, cette utilisation était dans le même temps concurrencée par un autre type d'activité : la spéculation. Et celle-ci battait son plein sur la principale plateforme dédiée : Mt. Gox.
 
+## La reprise de Mt. Gox (mars–août 2011)
+
+https://journalducoin.com/analyses/mt-gox-origines-premiere-place-marche-bitcoin/
+
+La période allant du début de l'année 2011 à la fin de l'année 2013 est caractérisée par le développement des services de change ... par la financiarisation, c'est-à-dire par le développement poussé de services de change reposant sur le système bancaire, notamment grâce à une demande spéculative élevée.
+
+de financiarisation, c'est-à-dire une période de développement des services de change.
+
+EDB : Le besoin de disposer de services de change se fait ressentir très rapidement. En effet, de manière générale les gens possèdent, gagnent et dépensent de la monnaie fiat comme du dollar ou de l'euro, et non du bitcoin. Ainsi, même si Bitcoin est un système théoriquement indépendant du système traditionnel, il est essentiel qu'il existe des passerelles entre les deux univers, au moins de manière temporaire.
+
+Le première plateforme de change d'envergure a été Mt. Gox. Celle-ci a été lancée « sur un coup de tête » en juillet 2010 par l'entrepreneur Jed McCaleb. Elle a connu une croissance fulgurante et s'est rapidement imposée comme le moyen principal de changer des dollars en bitcoins, et inversement. Au début de l'année 2011, face à l'ampleur de la tâche, Jed McCaleb a décidé de céder cette plateforme à une personne plus qualifiée techniquement et davantage motivée : le développeur français Mark Karpelès.
+
+La plateforme a pris une place majeure dans le fonctionnement économique de Bitcoin : là où les mineurs pouvaient vendre, là où les vendeurs de Silk Road pouvaient récupérer des dollars, là où les spéculateurs pouvaient se procurer du bitcoin en quantité suffisante. Elle a été le lieu principal de la première réelle bulle spéculative sur le prix du bitcoin, qui a culminé à 32 $ en juin. Toutefois, elle a été stoppée par un incident majeur : un piratage qui présageait de l'avenir de la plateforme.
+
+JDC: Durant le printemps 2011, Mt. Gox connaît une ascension fulgurante en offrant aux nouveaux arrivants la possibilité de se procurer des gros montants de bitcoins, et en permettant aux mineurs et aux vendeurs de la toute jeune plateforme Silk Road de revendre leurs revenus en bitcoins.
+
+Dans ce chapitre, nous verrons comment la reprise de Mt. Gox a eu lieu, comment le succès s'est installé et comment les premiers problèmes sont apparus.
+
+### Mark Karpelès, le geek
+
+Mark Karpelès est né en France en 1984. Fils unique, il élevé par sa mère seule. Il s'intéresse rapidement pour les ordinateurs, les jeux vidéos et les mangas. Dans sa vingtaine, il est un geek [mal dans sa peau](https://web.archive.org/web/20140302234940/http://blog.magicaltux.net/2006/02/12/pensees-nocturnes/). En 2007, il apparait dans le documentaire *Suck my Geek*, consacré au mouvement geek français. En 2009, désireux de quitter la France où il ne s'est jamais réellement chez lui, il déménage au Japon [en juin 2009](https://web.archive.org/web/20090628035138/http://blog.magicaltux.net/2009/06/18/arrived-in-japan/) par attrait pour la culture locale. Là-bas, il fonde une société appelée Tibanne Co. Ltd. (comme son chat, Tibane), par le biais de laquelle il travaille en free-lance. Il gère notamment un service d'hébergement appelé [KalyHost](https://web.archive.org/web/20101231201212/https://www.kalyhost.com/).
+
+![Mark Karpelès dans Suck My Geek en 2007](assets/en/mark-karpeles-suck-my-geek-2007.webp)
+
+Mark Karpelès dans *Suck My Geek* en 2007 (source : [MrReportageTV](https://www.youtube.com/watch?v=cAOLU4_4QGg) sur Youtube)
+
+Il apprend l'existence de Bitcoin au cours de l'automne 2010 par l'intermédiaire d'un client français installé au Pérou (appelé William Waisse), qui lui demande s'il peut payer en bitcoins pour régler une facture. Mark est ouvert à la possibilité et se prend vite de passion pour le système. Contrairement à Martti Malmi, Ross Ulbricht ou Roger Ver, Mark Karpelès n'est pas un libertarien ayant une motivation idéologique ; et il n'est pas non plus un spéculateur assoiffé de profit. Son intérêt pour Bitcoin prend plutôt sa source dans la curiosité technique. Comme il le [dira](https://web.archive.org/web/20140918220234/http://www.thedailybeast.com/articles/2014/09/17/mt-gox-s-karpeles-on-losing-a-half-billion-bucks-in-bitcoins.html) en 2014 :
+
+> « Ce qui m'a intéressé dans bitcoin, c'étaient les aspects techniques. À savoir, le fait de maintenir une base de données mondiale de manière sécurisée. Le fait que chaque client dispose d'un portefeuille privé sécurisé. Le fait d'avoir un système entièrement décentralisé. De plus, bitcoin permet de disposer d'une base de données qui est publique. »
+>
+> original: "What interested me in bitcoin was the technological aspects. In other words, the fact of maintaining a global database in a secured way. The fact that each client has a secured private wallet. To have an entirely decentralized system. Also, bitcoin allows you to have a database that is public."
+
+Dès sa découverte, en bon passionné d'informatique, il se plonge dans les rouages de Bitcoin et commence à écrire des programmes en tirant parti. En novembre, il [commence](https://bitcointalk.org/index.php?topic=30.msg20699#msg20699) à accepter les paiements en bitcoins avec KalyHost (Ross Ulbricht [utilisera](https://cdn.arstechnica.net/wp-content/uploads/2015/01/Govt.motion.1.19.pdf) d'ailleurs ce service pour héberger la page web silkroadmarket.org). En décembre 2010, il [crée](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) un nouveau wiki, Bitcoin.it, qui deviendra rapidement le wiki principal de Bitcoin. Il se met également en tête de développer une implémentation logicielle ([QBitcoin](https://web.archive.org/web/20110326023018/http://bitcoinweekly.com/articles/interview-with-magicaltux-on-qbitcoin)), sans pour autant aller au bout.
+
+## L'achat de Mt. Gox
+
+Au début de l'année 2011, Jed McCaleb gère Mt. Gox tant bien que mal. La plateforme n'est pas sûre du tout, opinion partagée par certains membres de la communauté, comme [Mike Caldwell](https://bitcointalk.org/index.php?topic=4187.msg66477#msg66477). Et Jed n'est pas sûr de la conformité règlementaire de son l'activité. L'article de PC World a déjà eu un effet sur le prix, et il craint (à raison) que la tendance haussière ne se poursuive. Il se met donc à chercher un repreneur.
+
+Son choix se porte sur Mark Karpelès, qui est actif dans la communauté des développeurs, notamment sur le canal IRC #bitcoin-dev. Le Français a aidé Martti Malmi pour l'hébergement de Bitcoin.org et l'a aidé lui-même pour l'acceptation de l'euro, ce qui lui donne confiance dans ses compétences techniques. \[source : Digital Gold, p. 66\] Le 18 janvier, il propose ainsi à Mark de reprendre Mt. Gox. Dans son courriel, il [écrit](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) :
+
+> « Salut Mark,
+>
+> Je te prie de bien vouloir garder tout ça confidentiel, car je ne veux pas créer la panique, et rien n'est encore sûr, mais j'envisage de revendre mtgox. J'ai d'autres projets auxquels j'aimerais me consacrer. Est-ce que ça t'intéresserait ? Je pourrais le vendre pour pas grand-chose en échange d'intérêts sur les bénéfices, par exemple. Il y a aussi un fonds d'investissement qui est prêt à investir dans mtgox. Probablement autour de 158 k$. Donc tu pourrais tout simplement récupérer la boîte avec du fric. » (Traduction de Cyril Gay)
+>
+> Original: "Hi Mark,
+>
+> Please keep all this confidential I don't want to start a panic and I'm not sure I'll do it yet but I'm thinking I might try to sell mtgox. I just have these other projects I would like to devote more time to. Would you be interested? It could be very little up front and just a payout based on revenue or something. There is also an investment group that wants to fund mtgox. Probably around $158k. So you could most likely take it over with some cash."
+
+Après des discussions sur les termes de l'accord, le contrat est finalement signé le 3 février. Jed McCaleb conserve 12 % de la société et 50 % des revenus pendant six mois, contre quoi le reste est cédé à la société de Mark Karpelès, Tibanne Co. Ltd. Une clause du contrat dédouane Jed de toute responsabilité légale.
+
+Le 6 mars, Jed McCaleb [officialise](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) publiquement le transfert sur le forum de Bitcoin. Dans son dernier message avec le compte mtgox, il explique :
+
+> « J'ai créé mtgox sur un coup de tête après avoir lu un article sur les bitcoins l'été dernier. L'expérience s'est révélée intéressante et amusante. Je suis toujours convaincu que les bitcoins ont un bel avenir. Mais pour faire vraiment en sorte que mtgox réalise son plein potentiel, il faudrait plus de temps que je n'en ai actuellement. J'ai donc décidé de passer le flambeau à quelqu'un qui sera plus à même de faire passer le site au niveau supérieur. »
+>
+> Original: "I created mtgox on a lark after reading about bitcoins last summer. It has been interesting and fun to do. I'm still very confident that bitcoins have a bright future. But to really make mtgox what it has the potential to be would require more time than I have right now. So I've decided to pass the torch to someone better able to take the site to the next level."
+
+Dans les mois qui suivent, Jed continue à aider Mark pour la gestion de la plateforme, mais il sera rapidement absorbé par un [nouveau projet](https://bitcointalk.org/index.php?topic=10193.msg146250#msg146250) de monnaie numérique, qui débouchera sur la refonte de Ripple en 2012, puis la création de Stellar en 2014.
+
+### Les premiers piratages
+
+Comme on l'a dit, au début de l'année 2011, la pltaforme Mt. Gox n'est pas sûre. Et elle subit très logiquement un certain nombre d'attaques qui sont plus ou moins graves.
+
+\[JDC\] Alors qu'il cherche à revendre Mt. Gox en janvier 2011, Jed McCaleb doit faire face à plusieurs incidents : l'accès aux comptes d'utilisateurs individuels, une injection XML permettant un retrait non autorisé vers Liberty Reserve, et un retrait (heureusement non honoré) de 2 milliards de dollars grâce à une faille dans le code. Ce sont finalement plus de 50 000 $ et 9 500 bitcoins qui manquent dans les caisses de la plateforme début février, alors que Jed et Mark concluent leur accord.
+
+Lorsque Mt. Gox change de mains, la plateforme constitue donc déjà un cadeau empoisonné pour Mark Karpelès. Mais les ennuis ne s'arrêtent pas là : le 1er mars, alors que le transfert est sur le point d'être officialisé, 80 000 bitcoins [s'évaporent](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) dans la nature grâce à un accès malveillant au fichier wallet.dat du site.
+
+Le 3 mars, Jed McCaleb remarque le retrait et [informe](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark sur IRC que « quelque chose d'horrible est arrivé » (original: "something bad happened"). C'est une perte importante (un bitcoin se vend alors pour 0,92 $), qui va s'agrandir de plus en plus au fil des mois avec la hausse inouïe du prix.
+
+Ce problème est [évoqué](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) le 18 avril dans un courriel de Jed McCaleb adressé à Mark :
+
+> « Je ne peux pas te dire quelle sera l'ampleur de problème du problème s'il manque 80 kBTC et si leur valeur grimpe jusqu'à 100 $ et quelques. Cela fera une sacrée dette, mais d'ici là mtgox devrait avoir empoché une tonne de BTC. On peut aussi compter sur le fait que le solde de BTC ne descendra probablement jamais en dessous des 80k. Donc peut-être que tu n'as pas à t'en faire. » (Traduction de Cyril Gay, légèrement modifiée)
+>
+> original: "I can't tell how big an issue it will be to be short 80k BTC if the price goes to $100 or something. That is quite a bit to owe at that point but mtgox should have made a ton of BTC (Bitcoin) getting to there. There is also still the fact that the BTC (Bitcoin) balance will probably never fall below 80k. So maybe you don't really need to worry about it."
+
+Le 11 mars, se produit l'accident nucléaire de Fukushima, ce qui perturbe fortement la vie au Japon. Cet évènement est de mauvaise augure pour ce qui va se passer dans la suite.
+
+### La gestion de la première bulle spéculative
+
+À la fin du printemps 2011, se produit la première bulle spéculative sur le prix du bitcoin. Comme décrite dans le dernier chapitre du cours [HIS201](https://planb.network/fr/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082/la-prise-de-relai-de-la-communaute-16c5e6d6-2412-48c6-9687-6af92cf0d89a), cette bulle est caractérisée par la multiplication des regroupements autour de Bitcoin, par une attention médiatique venant à la fois des blogueurs indépendants et de la presse en ligne, et par une activité élevée sur les plateformes de change, dont principalement Mt. Gox.
+
+En avril, à la suite de la publication de [l'article de Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html), le prix dépasse son ancien sommet et atteint les 3 $. L'enthousiasme spéculatif se poursuit en mai et le prix est porté à 10 $. Enfin, la publication de l'article de Gawker finit de généraliser l'attention portée à Bitcoin et déclenche l'épisode spéculatif final, le prix atteignant brièvement les 32 $ le 8 juin.
+
+Cette hausse phénoménale est particulièrement bénéfique à Mt. Gox, qui voit ses chiffres exploser. Entre la reprise effective de Mark en mars et la fin du mois de mai, le nombre de comptes d'utilisateurs passe de 3 000 à 60 000. Au cours de la même période, le volume d'échange journalier passe lui de quelques milliers de dollars à plusieurs centaines de milliers de dollars. En juin, il dépasse même les deux millions de dollars pendant quelques jours !
+
+La gestion est cauchemardesque : Mark reçoit d'innombrables courriels et tickets de support. Il doit gérer une [pluralité](https://bitcointalk.org/index.php?topic=9808.msg141011#msg141011) de modes de paiements, les deux derniers en date étant [les virements SEPA](https://bitcointalk.org/index.php?topic=5461.msg80087#msg80087) (Mark a ouvert un compte dans une banque française) et le service [Dwolla](https://bitcointalk.org/index.php?topic=8280.msg120637#msg120637). Certains dépôts se perdent en route.
+
+Au cours du mois de juin, Mark Karpelès engage un employé pour l'aider, un certain Adam Turner, [dont le nom civil](https://www.reddit.com/r/Bitcoin/comments/3fe92x/im_ashley_barr_aka_adam_turner_the_first_mtgox/) est Ashley Barr. Il décide d'installer l'entreprise dans un bureau de la prestigieuse Cerulean Tower à Tokyo. C'est la consécration.
+
+![Bureau de Mt. Gox en juin 2011](assets/en/mt-gox-office-june-2011.webp)
+
+Le bureau de Mt. Gox en juin 2011 (source : Mark Karpelès [sur Twitter](https://twitter.com/MagicalTux/status/1310018500602130432))
+
+### Les concurrents de Mt. Gox
+
+Le succès de Mt. Gox fait des émules, tant aux États-Unis qu'ailleurs. Avec la montée du prix et de la demande, il devient profitable de lancer une plateforme d'échange. Ainsi, de nombreux concurrents, construits sur le même modèle et incluant une gestion automatisée des ordres, [apparaissent](https://web.archive.org/web/20110727192503/https://bitcoincharts.com/markets/) au cours de l'année et en particulier à partir du printemps.
+
+<!-- Bitcoin-Central -->
+
+Outre Bitcoin Market (mentionné dans HIS201), la première plateforme à réellement faire concurrence à Mt. Gox est Bitcoin-Central, une plateforme installée en France. Celle-ci est [lancée](https://bitcointalk.org/index.php?topic=2519.msg34080#msg34080) le 29 décembre 2010 par David François (davout), un développeur web expérimenté ayant découvert Bitcoin en octobre. Conformément à l'éthos de la communauté, le code source de la place de marché est [ouvert](https://bitcointalk.org/index.php?topic=2721.msg36980#msg36980) et publié [sous licence libre](https://github.com/davout/bitcoin-central/blob/master/LICENSE) (AGPL). La plateforme n'accepte initialement que les dollars et les euros de Liberty Reserve, ainsi que les [virements (non SEPA) en euros](https://bitcointalk.org/index.php?topic=2584.msg35109#msg35109). Le fonctionnement du système est au départ un peu expérimental, mais il s'améliorera au fil des mois. David François ajoutera notamment une [API](https://bitcointalk.org/index.php?topic=3174.msg44575#msg44575), les [virements SEPA](https://bitcointalk.org/index.php?topic=37488.msg459866#msg459866) (original/EN version: https://bitcointalk.org/index.php?topic=37494.msg459909#msg459909), et d'autres monnaies ([or via Pecunix](https://bitcointalk.org/index.php?topic=3098.msg43315#msg43315), [dollar canadien et roupie indienne](https://bitcointalk.org/index.php?topic=40239.msg490360#msg490360)).
+
+<!-- Britcoin/Intersango -->
+
+Une deuxième plateforme est Britcoin, qui est [lancée](https://bitcointalk.org/index.php?topic=4984.msg73066#msg73066) le 26 mars par Amir Taaki (genjix), le jeune développeur britannique d'origine iranienne qui voulait envoyer un courrier à WikiLeaks en novembre 2010 pour recommander Bitcoin. Comme son nom l'indique, la plateforme est installé au Royaume-Uni et intègre le change entre la livre sterling et le bitcoin. À l'instar de David François, il [publie](https://bitcointalk.org/index.php?topic=4579.msg67047#msg67047) le logiciel sous-jacent [sous licence libre](https://github.com/dooglus/intersango/blob/master/LICENSE) (AGPL), qu'il baptise « Intersango » (de l'espéranto *interŝanĝo* signifiant échange). Amir est rapidement [rejoint](https://web.archive.org/web/20120129171120/https://britcoin.co.uk/about-us.php) par Donald Norman (Donald_Norman) et Patrick Strateman (phantomcircuit) pour gérer la plateforme.
+
+![Patrick Strateman en 2016](assets/en/patrick-strateman-phantomcircuit-2016.webp)
+
+Patrick Strateman en 2016 (source : [SF Bitcoin Developers](https://www.youtube.com/watch?v=Y6kibPzbrIc))
+
+En avril, les trois hommes fondent la [Bitcoin Consultancy](https://web.archive.org/web/20110513023005/http://bitcoinconsultancy.com/), une organisation offrant développement logiciel et conseil technique. Ils sont aidés par d'autres personnes comme Nils Schneider (tcatm) et Denis Rojo (Jaromil). Cette entité a aussi un pouvoir d'influence, car elle organisera les premières conférences européennes, à Prague et à Londres. Toutefois, sous ses airs sérieux, se cache un esprit éminemment hacker, ainsi que la personnalité d'Amir Taaki le suppose.
+
+![Capture du site de la Bitcoin Consultancy du 13 mai 2011](assets/en/bitcoin-consultancy-screenshot-20110513.webp)
+
+Capture du site de la Bitcoin Consultancy du 13 mai 2011 (source : [archive](https://web.archive.org/web/20110513023005/http://bitcoinconsultancy.com/))
+
+Le 6 juin, la Bitcoin Consultancy [lance](https://bitcointalk.org/index.php?topic=26543.msg332466#msg332466) une nouvelle plateforme de change, destinée au marché européen, appelée Intersango (comme le logiciel qui la soutient). Britcoin et Intersango finissent par fusionner quelques mois plus tard pour ne plus former qu'un seul site.
+
+<!-- Plateformes localesBitomat / Carvitex -->
+
+En Europe de l'Est, la plateforme Bitomat, installée en Pologne, est [lancée](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) le 4 avril. L'interface est rudimentaire, mais permet à ses utilisateurs polonais d'échanger leurs zlotys contre des bitcoins. On peut également citer la plateforme Cavirtex, [ouverte](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) le 2 juillet, qui officie au Canada.
+
+<!-- VirWoX -->
+
+Une autre plateforme est VirWoX (*Virtual World Exchange*), établie en Autriche. Ouverte en 2007, il s'agit d'une plateforme indépendante de premier plan permettant l'échange de monnaies virtuelles de jeux vidéos, et notamment le dollar Linden de *Second Life*. Le 27 avril 2011, le site [ajoute](https://web.archive.org/web/20110511075334/https://www.virwox.com/) le bitcoin à son offre, ouvrant uniquement le change avec le dollar Linden, ce qui permet à ses utilisateurs de se procurer la cryptomonnaie de Nakamoto.
+
+<!-- TradeHill -->
+
+Enfin, la dernière place de marché à apparaitre durant cette période est TradeHill, une plateforme fondée par Jered Kenna, un ancien militaire américain devenu entrepreneur, et Adam Stradling. Elle est lancée le 8 juin 2011 et [annoncée](https://bitcointalk.org/index.php?topic=13650.msg186776#msg186776) sur le forum par Bruce Wagner, l'animateur du *Bitcoin Show*, qui travaille en étroite collaboration avec la plateforme. TradeHill est installée aux États-Unis et facilite le change avec le dollar américain, de sorte qu'elle devient rapidement la deuxième plateforme en termes de volume, loin derrière Mt. Gox, qui reste la référence.
+
+### Les piratages de juin
+
+Le succès financier du bitcoin attire également les pirates informatiques. L'absence d'intermédiaire et le relatif anonymat de Bitcoin est une caractéristique parfaite pour les voleurs, qui peuvent se saisir des bitcoins des autres, sans risquer de voir les fonds gelés. Le 13 juin, le premier piratage de grande envergure survient : un membre actif de la communauté utilisant le pseudonyme Allinvain se fait dérober [25 000 bitcoins](https://mempool.space/tx/4885ddf124a0f97b5a3775a12de0274d342d12842ebe59520359f976721ac8c3), soit près de 500 000 dollars. Il [partage](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423) son expérience sur le forum de Bitcoin, et l'affaire est relayée [dans la presse en ligne](https://www.forbes.com/sites/timworstall/2011/06/17/bitcoin-the-first-500000-theft/). Il [semblerait](https://web.archive.org/web/20140507013623/https://www.wired.com/2011/06/bitcoin-malware/) qu'il ait été la victime d'un cheval de Troie (logiciel malveillant) appelé Coinbit, qui récupère le fichier `wallet.dat` d'une machine fonctionnant sous Windows. Cela [pose la question](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) du chiffrement du portefeuille, une pratique qui sera généralisée bien plus tard. \[QUAND ?\]
+
+Comme nous l'avons dit, Mt. Gox constitue un cible idéale. Elle est régulièrement la cible d'attaques par déni de service (par exemple le [1er mai](https://bitcointalk.org/index.php?topic=6931.msg101451#msg101451)). De plus, elle a déjà échappé au pire en mai, lorsqu'un pirate s'tait emparé de 300 000 BTC avant d'en rendre 297 000.
+
+C'est ainsi qu'elle subit un piratage massif à partir du 16 juin. Un pirate (peut-être [issu](https://www.theguardian.com/technology/2011/jun/22/lulzsec-rogue-suspected-of-bitcoin-hack) du groupe LulzSec) parvient à mettre la main sur la base de données contenant les pseudonymes des utilisateurs et les empreintes cryptographiques de leurs mots de passe (hachés par MD5, [la plupart sans salage](https://news.ycombinator.com/item?id=2671669)). Cela lui permet d'accéder aux comptes sécurisés par mots de passe faibles (courts ou facile à deviner), et de procéder à des retraits inférieurs à la limite journalière de 1 000 $. Les plaintes [s'accumulent](https://bitcointalk.org/index.php?topic=18050.0) le forum, et poussent Mark Karpelès à [réagir](https://bitcointalk.org/index.php?topic=18858.msg236884#msg236884) le 18 juin. Ce dernier minimise ces vols, mettant en avant le fait qu'ils sont peu nombreux et soutenant l'idée que « le problème \[vient\] principalement des utilisateurs ».
+
+<!-- Le 17 juin, le pirate [annonce](https://web.archive.org/web/20110619054549/http://pastebin.com/xhnNdvte) vendre la base de données de Mt. Gox sur Pastebin. Il signe son message du pseudonyme cRazIeStinGeR. -->
+
+Toutefois, le dimanche 19 juin, la réalité rattrappe Mark. Vers 17 heures, le pirate parvient à accéder au compte de Jed McCaleb, qui contient beaucoup de fonds. Puisque la limite de retrait journalière est de 1 000 $, il cherche à faire baisser le prix le plus possible afin de retirer un maximum de bitcoins, et se met donc à vendre les bitcoins sur le compte. Cette opération provoque un krach éclair (*flash crash*) : le prix, qui stationnait autour des 17,5 $ dans la journée, baisse progressivement puis chute jusqu'à 0,01 $ à 17:51 UTC. Le pirate réussit à dérober ainsi 2 000 BTC.
+
+![Bitcoin Report Volume 8](https://www.youtube.com/watch?v=T1X6qQt9ONg)
+
+*Bitcoin Report Volume 8*
+
+Beaucoup d'utilisateurs de Mt. Gox paniquent et vendent sous le coup de l'émotion afin de conserver ce qui leur reste. D'autres utilisateurs profitent de l'occasion pour se procurer des bitcoins à bas prix. Après avoir pris connaissance de la chose, Mark met immédiatement la plateforme hors ligne et [annonce](https://news.ycombinator.com/item?id=2671549) annuler tous les échanges ayant eu lieu lors de la vente massive, [invoquant](https://bitcointalk.org/index.php?topic=20535.msg256505#msg256505) la « force majeure » (original: "force majeure"). Mais certains utilisateurs ont pu retirer des fonds. C'est le cas d'un certain Kevin Day (toasty), qui [est parvenu](https://bitcointalk.org/index.php?topic=20207.msg252680#msg252680) à acheter 259 685 bitcoins à un prix unitaire de 0,0101 $, pour un total de 2 623 $, et à en retirer 643 de la plateforme. En raison de cet ordre d'achat exceptionnel, il est [suspecté](https://bitcointalk.org/index.php?topic=20250.msg253411#msg253411) par Mark Karpelès d'agir en collusion avec le pirate. Pour prouver sa bonne foi, il [apparait](https://www.youtube.com/watch?v=skBbFDcVuY4) dans le *Bitcoin Show* le lendemain du piratage, et finit par [placer](https://bitcointalk.org/index.php?topic=20775.msg259984#msg259984) les bitcoins sur un compte séquestre auprès de ClearCoin, le service de dépôt fiduciaire développé par Gavin Andresen. \[Les BTC sont-ils rendus ?\]
+
+Le krach éclair n'est cependant pas le seul évènement dramatique qui se produit ce jour-là. Quelques heures plus tard, [vers 19 heures 30](https://news.ycombinator.com/item?id=2671612), le pirate [rend public](https://bitcointalk.org/index.php?topic=19576.msg244940#msg244940) la base de données des utilisateurs. Cela permettra à d'autres personnes malentionnées et plus expérimentées de complètement l'exploiter. Elles accèderont ainsi à des services comme [GMail](https://bitcointalk.org/index.php?topic=19641.msg245714#msg245714), [TradeHill](https://www.youtube.com/watch?v=8ygb9D9vnL4&t=253s) ou encore MyBitcoin...
+
 ---
 
-## La reprise de Mt. Gox (mars–août 2011)
+Le résultat est catastrophique pour Mark...
+
+18 ou 20 juin ? Intervention de Roger Ver et Jesse Powell, un entrepreneur de San Francisco, ami de lycée. Jesse Powell prend un vol de dernière minute pour Tokyo et rejoint son ami. Mais Mark Karpelès a [pris son week-end](https://www.wired.com/2014/03/bitcoin-exchange/) ?
+
+Voyant qu'il y a un problème à résoudre et habitant non loin des bureaux de Mt. Gox à Tokyo, Roger Ver envoie un courriel à Mark Karpelès pour lui proposer ses services :
+
+> « Salut Mark — Si vous avez besoin d'un coup de main en personne, je suis disponible. Je peux être dans vos bureaux en dix minutes. Je ne sais pas très bien ce que je peux faire pour vous aider, mais je peux passer des coups de fil, envoyer des e-mails ou tout ce dont vous avez besoin pendant un jour ou deux, le temps que vous retombiez sur vos pattes. » (Traduction de Cyril Gay, légèrement modifiée)
+>
+> original: "Hey Mark—If you guys need any physical help, I'm available. I can be at your office within 10 minutes. I'm not sure what I can do to help, but I can help with phones or emails or anything you need for a day or two until you get things calmed down."
+
+Mark Karpelès accepte et Roger Ver se rend donc dans les locaux de Mt. Gox pour leur prêter main forte. Il est accompagné de trois personnes, dont notamment son ami de lycée Jesse Powell, qu'il a connu au lycée en jouant aux cartes Magic et qui s'intéresse aussi à Bitcoin. Grâce à leur aide, la situation de Mt. Gox se stabilise.
+
+---
+
+### Les conséquences des piratages
+
+La conséquence des piratages est de mettre fin à l'enthousiasme spéculatif. La plateforme Mt. Gox est fermée pendant un temps ce qui gèle la plus grande place de marché de l'écosystème. Le 5 juillet, le prix n'est plus que de 13 $.
+
+Ces piratages atteignent l'image de Bitcoin auprès du grand public. Même si un piratage individuel n'est pas représentatif du reste du réseau et même si Mt. Gox n'est qu'un service de change fonctionnant avec la cryptomonnaie, le commun des mortels a tendance à assimiler Bitcoin dans son ensemble à ces choses. Le 20 juin, Tim Worstall [écrit](https://www.forbes.com/sites/timworstall/2011/06/20/so-thats-the-end-of-bitcoin-then/) un article pour Forbes dans lequel il annonce « la fin de l'expérience Bitcoin » (original: "the end of the Bitcoin experiment"), ce qui en fait l'une des premières « nécrologies de Bitcoin » (original: "Bitcoin obituaries") publiées par la presse (qui seront [recensées](https://web.archive.org/web/20150106024100/http://bitcoinobituaries.com/) sur le site web de Jordan Tuwiner à partir de 2014). Il écrit :
+
+> « Les bitcoins ne sont pas sécurisés, comme le montrent à la fois le vol récent et le problème des mots de passe. Ils ne sont pas liquides, ni ne forment une réserve de valeur comme en témoigne l'effondrement du prix, et s'ils ne sont rien de tout cela, ils ne seront pas non plus un bon moyen d'échange, car qui voudrait les accepter ? »
+>
+> "Bitcoins aren't secure, as both the recent theft and this password problem show. They're not liquid, nor a store of value, as the price collapse shows and if they're none of those things then they'll not be a great medium of exchange either as who would want to accept them?"
+
+La 21 juin, afin d'améliorer la situation et de rassurer les clients, Mark Karpelès et Adam Turner [passent](https://www.youtube.com/watch?v=-0XvP841jaM) dans le *Bitcoin Show* de Bruce Wagner. Le 23, Mark [déplace](https://bitcointalk.org/index.php?topic=21436.msg268800#msg268800) 424 242 bitcoins sur la chaîne pour prouver la solvabilité de l'entreprise, et la plateforme rouvre finalement le 27. Mark a compris qu'il fallait mieux communiquer : en juillet, il [réalisera](https://www.youtube.com/watch?v=wG-Wt0dAm_U) même un épisode du *Bitcoin Show* en français avec David François !
+
+Une dernière conséquence du piratage de Mt. Gox est le développement accéléré de la double authentification (*two-factor authentication* en anglais) comme moyen d'accéder à un compte. Cette procédure ajoute généralement au mot de passe simple, la contrainte de saisir une information provenant d'un appareil tiers, comme un téléphone par exemple. Ainsi, dès le 7 juillet, Mt. Gox [propose](https://bitcointalk.org/index.php?topic=26917.msg338630#msg338630) à ses clients de commander des YubiKeys dédiées, qui sont des clés USB spécialisées émettant des mots de passe à usage unique. Celles-ci commencent à être distribuées durant la semaine qui suit.
+
+![YubiKey dédiée à Mt. Gox](assets/en/yubikey-mtgox.webp)
+
+YubiKey dédiée à Mt. Gox (source : [Tech Solvency](https://www.techsolvency.com/mfa/security-keys/yubikeys/rare/))
+
+Les plateformes concurrentes mettent aussi une solution de double authentification. Bitcoin-Central [opte](https://bitcointalk.org/index.php?topic=21422.msg307138#msg307138) pour Google Authenticator dès le 30 juin. TradeHill [passe](https://bitcointalk.org/index.php?topic=28447.msg357955#msg357955) elle par l'intermédiaire du service Duo Security à partir du 13 juillet.
+
+### La fermeture de MyBitcoin
+
+Lors de l'été 2011, la plupart des nouveaux utilisateurs optent pour MyBitcoin, l'application dépositaire permettant de gérer des bitcoins sans avoir à se soucier de faire fonctionner un logiciel complexe. Elle est disponible en ligne sous la forme d'une interface web, et il faut disposer d'un simple mot de passe pour accéder à un compte. L'application est [mise en avant](https://www.youtube.com/watch?v=ejiqbzqmxSE) par les [tutoriels](https://web.archive.org/web/20110613053345/http://bitcoinme.com/index.php/accept) de l'époque comme solution simple de recevoir des bitcoins. Bruce Wagner la [présente](https://web.archive.org/web/20110424221921/http://www.bitcoinme.com/) sur son site Bitcoinme.com comme un moyen « très rapide et facile de commencer à utiliser Bitcoin » (original: "super fast and easy to get started with using Bitcoin"). L'utilisation est si simple que beaucoup de gens ne suivent pas le [conseil de Satoshi](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) de juste conserver de la « petite monnaie » sur l'application, et s'en servent comme un compte d'épargne.
+
+Dans les jours qui suivent le 19 juin, MyBitcoin subit les conséquences de la fuite de données de Mt. Gox. Des personnes malintentionnées accèdent à de nombreux comptes appartenant à des personnes ayant un mot de passe faible réutilisé sur Mt. Gox (ce qui arrive aussi pour [GMail](https://bitcointalk.org/index.php?topic=19641.msg245714#msg245714) ou [TradeHill](https://www.youtube.com/watch?v=8ygb9D9vnL4&t=253s)). Par exemple, [BrightAnarchist](https://bitcointalk.org/index.php?topic=20427.msg255193#msg255193), le membre du forum qui avait poussé l'EFF à accepter le bitcoin en 2010, perd l'intégralité de ses fonds. Le 25 juin, Tom Williams, le président anonyme de MyBitcoin, [explique](https://bitcointalk.org/index.php?topic=22221.msg279396#msg279396) que 1 % des utilisateurs présents dans la fuite de données de Mt. Gox ont été touchés et que 4 019 bitcoins ont été volés.
+
+Toutefois, les déboires de l'application ne s'arrêtent pas là. Le 29 juillet, MyBitcoin connait une fermeture soudaine. Près de 78 740 bitcoins manquent à l'appel sur le portefeuille lié à l'application, un montant équivalent à plus d'un millions de dollars à ce moment-là et correspondant à 51 % des fonds présents sur les comptes des clients, ce qui contraint le service à rembourser le reste et à disparaître. Même si MyBitcoin [invoque](https://web.archive.org/web/20111018173154/https://www.mybitcoin.com/) un piratage, des [éléments](https://observer.com/2011/08/search-for-owners-of-mybitcoin-loses-steam/) laissent à penser que son fondateur anonyme, Tom Williams, est à l'origine du vol.
+
+![Annonce de Tom Williams du 4 août 2011](assets/en/mybitcoin-20110804.webp)
+
+Annonce de Tom Williams du 4 août 2011 (source : [Bitcoin Wiki](https://en.bitcoin.it/wiki/MyBitcoin))
+
+Certaines pertes individuelles sont [élevées](https://bitcointalk.org/index.php?topic=33389.msg417455#msg417455). En particulier, Bruce Wagner est touché : il [affirme](https://www.youtube.com/watch?v=4FZldY-ZBBE&t=88s) avoir perdu, avec son conjoint, plus de 25 000 bitcoins, soit plus de 300 000 $ au moment de la fermeture. Il réalise une série d'émissions consacrées à cet évènement.
+
+Malgré cette chute de confiance, les portefeuilles dépositaires continuent d'avoir du succès. C'est le cas d'Instawallet, qui [existe](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) depuis avril. Par réaction, la Bitcoin Consultancy [lance](https://bitcointalk.org/index.php?topic=35599.msg439954#msg439954) son propre service, Vibanko, en août.
+
+---
+
+### La faillite de Bitomat
+
+17 000 BTC perdus (perte des clés privées), rachat par Mt. Gox
+
+Il s'agit alors de la troisième plus grosse plateforme de change derrière Tradehill et Mt. Gox. "3rd largest bitcoin exchange"
+
+JDC : Le 26 juillet, la plateforme d'échange polonaise Bitomat subit un incident technique suite à quoi 17 000 bitcoins sont détruits. Mark Karpelès, qui souhaite que Mt. Gox ait un pied à terre en Europe, rachètera la plateforme et encaissera au passage la dette des 17 000 bitcoins.
+
+Le 11 août, Mt. Gox [annonce](https://web.archive.org/web/20120426023056/http://support.mtgox.com/entries/20357051-mt-gox-the-world-s-largest-bitcoin-exchange-to-acquire-bitomat-pl-compensate-loss-of-bitcoins) racheter Bitomat, afin de « rétablir la confiance dans l'économie de bitcoin » (original: "to restore confidence in the bitcoin economy").
+
+### Une entreprise en pleine croissance
+
+Mt. Gox constituait ainsi le point central de l'économie de Bitcoin. À l'image de l'écosystème, la plateforme connaissait un succès florrissant en 2011. Mais on pouvait voir
+
+---
 
 ## L'éclatement de la bulle de 2011 (juin–déc. 2011)
 

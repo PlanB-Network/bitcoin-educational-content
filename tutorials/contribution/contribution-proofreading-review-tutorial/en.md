@@ -34,7 +34,7 @@ You don’t need to be a GitHub expert to review content. While it’s always be
 
 However, if you’re unfamiliar with Git and GitHub and want to learn more, you can check out our introductory article on these tools:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Create an account
 
@@ -148,3 +148,4 @@ NB. It’s recommended to review in the code window, with the original content d
 ![REVIEW](assets/fr/16.webp)
 
 - If you have any remarks, questions, or comments about this project, feel free to send a DM [to the contributors' Telegram group](https://t.me/PlanBNetwork_ContentBuilder).
+

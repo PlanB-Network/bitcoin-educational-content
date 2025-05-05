@@ -271,7 +271,7 @@ Amua kipaumbele cha muamala. Kwa uondoaji bila ada, chagua kipaumbele cha "*Stan
 ![Image](assets/fr/32.webp)
 
 
-Iwapo hufahamu jinsi Wallet inavyofanya kazi, tunatoa mafunzo kuhusu masuluhisho mengi yanayopatikana [kwenye Plan ₿ Network katika sehemu ya "*Wallet*"](https://planb.network/tutorials/Wallet).
+Iwapo hufahamu jinsi Wallet inavyofanya kazi, tunatoa mafunzo kuhusu masuluhisho mengi yanayopatikana [kwenye Plan ₿ Network katika sehemu ya "*Wallet*"](https://planb.network/tutorials/wallet).
 
 
 ## Inauza Bitcoin

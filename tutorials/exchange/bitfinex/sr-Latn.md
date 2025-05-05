@@ -247,7 +247,7 @@ Ako ste zainteresovani za Lightning Network, imamo i kompletan kurs obuke koji �
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Nakon kupovine svojih prvih bitkoina, očigledno imate opciju da ih ostavite na platformi, ali ja snažno preporučujem da ih prebacite na svoj Wallet u samostalnom čuvanju. Ako još ne znate kako da koristite Bitcoin Wallet, pozivam vas da istražite [odeljak "Wallet" na Plan ₿ Network](https://planb.network/tutorials/Wallet).
+Nakon kupovine svojih prvih bitkoina, očigledno imate opciju da ih ostavite na platformi, ali ja snažno preporučujem da ih prebacite na svoj Wallet u samostalnom čuvanju. Ako još ne znate kako da koristite Bitcoin Wallet, pozivam vas da istražite [odeljak "Wallet" na Plan ₿ Network](https://planb.network/tutorials/wallet).
 
 
 ## 6 - Kupovina i prodaja bitkoina na Bitfinex-u

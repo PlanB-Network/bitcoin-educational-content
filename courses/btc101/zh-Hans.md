@@ -1136,7 +1136,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 **小心 UTXO**：记得时不时地在钱包中合并 UTXOs。这种做法对有效管理比特币和避免交易过程中不必要的费用至关重要。
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO)（Unspent Transaction Output）是尚未被花费的交易输出，这意味着它没有被用作新交易的输入。合并UTXO意味着将多个小的UTXO合并为一个较大的UTXO，以减少交易的“重量”，从而支付更低的费用。
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo)（Unspent Transaction Output）是尚未被花费的交易输出，这意味着它没有被用作新交易的输入。合并UTXO意味着将多个小的UTXO合并为一个较大的UTXO，以减少交易的“重量”，从而支付更低的费用。
 
 - 自发购买
 

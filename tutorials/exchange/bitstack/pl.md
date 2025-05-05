@@ -271,7 +271,7 @@ Określ priorytet transakcji. W przypadku wypłaty bez opłat wybierz priorytet 
 ![Image](assets/fr/32.webp)
 
 
-Jeśli nie jesteś zaznajomiony z działaniem Wallet, oferujemy samouczki dotyczące większości dostępnych rozwiązań [na Plan ₿ Network w sekcji "*Wallet*"] (https://planb.network/tutorials/Wallet).
+Jeśli nie jesteś zaznajomiony z działaniem Wallet, oferujemy samouczki dotyczące większości dostępnych rozwiązań [na Plan ₿ Network w sekcji "*Wallet*"] (https://planb.network/tutorials/wallet).
 
 
 ## Sprzedaż Bitcoin

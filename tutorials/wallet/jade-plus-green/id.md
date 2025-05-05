@@ -207,7 +207,7 @@ Pilih "*Standard*" jika Anda ingin membuat portofolio single-sig klasik.
 
 Untuk informasi lebih lanjut tentang opsi "*2FA*", Anda dapat mengikuti tutorial lainnya:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Akun Anda telah dibuat.
 

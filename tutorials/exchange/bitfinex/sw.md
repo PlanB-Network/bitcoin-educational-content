@@ -247,7 +247,7 @@ Ikiwa ungependa Lightning Network, pia tuna kozi kamili ya mafunzo ili kukusaidi
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Baada ya kununua bitcoins zako za kwanza, ni wazi kuwa una fursa ya kuwaacha kwenye jukwaa, lakini ninapendekeza sana kuwahamisha kwenye Wallet yako mwenyewe kwa kujitegemea. Ikiwa bado hujui jinsi ya kutumia Bitcoin Wallet, ninakualika uchunguze [sehemu ya "Wallet" kwenye Plan ₿ Network](https://planb.network/tutorials/Wallet).
+Baada ya kununua bitcoins zako za kwanza, ni wazi kuwa una fursa ya kuwaacha kwenye jukwaa, lakini ninapendekeza sana kuwahamisha kwenye Wallet yako mwenyewe kwa kujitegemea. Ikiwa bado hujui jinsi ya kutumia Bitcoin Wallet, ninakualika uchunguze [sehemu ya "Wallet" kwenye Plan ₿ Network](https://planb.network/tutorials/wallet).
 
 
 ## 6 - Kununua na kuuza bitcoins kwenye Bitfinex

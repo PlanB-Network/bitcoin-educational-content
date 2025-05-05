@@ -592,7 +592,7 @@ Pošto bitkoin funkcioniše kao sredstvo razmene, moguće je zamisliti cirkularn
 
 Ovo podrazumeva zarađivanje nagrada od rada na mašinama za rudarenje. Za nespecijalizovane firme, ovo ostaje relativno marginalno. Možete učestvovati preko posrednika koji će vam prodati ili iznajmiti računarsku snagu, mrežu i održavanje. Ako posedujete mašine, možete ih računati kao amortizovanu imovinu. U velikim razmerama, moraćete pažljivo izračunati povrat investicije jer je tržište veoma konkurentno i zahteva dobro predviđanje troškova, posebno električne energije.
 
-Da biste saznali više o metodama rudarenja, možete [pogledati "Mining" odeljak u našim tutorijalima](https://planb.network/tutorials/Mining).
+Da biste saznali više o metodama rudarenja, možete [pogledati "Mining" odeljak u našim tutorijalima](https://planb.network/tutorials/mining).
 
 
 - **Kupovina bitkoina:**
@@ -603,7 +603,7 @@ Da biste naučili kako da otvorite poslovni račun i koristite ga za kupovinu, p
 
 https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Da biste saznali više o metodama za sticanje bitkoina putem manjačnice ili peer-to-peer, možete [pogledati odeljak "Exchange" u našim tutorijalima](https://planb.network/tutorials/Exchange).
+Da biste saznali više o metodama za sticanje bitkoina putem manjačnice ili peer-to-peer, možete [pogledati odeljak "Exchange" u našim tutorijalima](https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
 
@@ -859,13 +859,13 @@ Za detaljne tutorijale o preporučenim novčanicima i osnovnom podešavanju, mol
 **Samostalni LN novčanici/čvorovi:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
 **Non-custodial LN novčanici:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 ## Osnovni profil
 
@@ -897,7 +897,7 @@ Iako Osnovni profil ne zahteva visoko sofisticirane računovodstvene sisteme, ip
 
 Najprikladnije hibridno rešenje za vaš profil je verovatno Swiss Bitkoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-Bitkoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 Još jedno lako rešenje za implementaciju, ali sa nedostatkom da je 100% kustodijalno, je Open Node:
 
 https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
@@ -1347,3 +1347,4 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

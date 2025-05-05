@@ -37,7 +37,7 @@ Cahoots 交易涉及使用者之間交換部分已簽署的交易。這個過程
 在遠端進行時，這個過程會變得太複雜。為了 Address 這個問題，Samourai 開發了一個以 Tor 為基礎的加密通訊協定，稱為 "Soroban"。有了 Soroban，PayJoin 所需的交換就會自動在使用者友善的 Interface 後面進行。這是我們在本文中要探討的第二種方法。
 
 
-這些加密交換需要在 Cahoots 參與者之間建立連線和驗證。Soroban 的通訊依賴使用者的 Paynyms。如果您不熟悉 Paynyms，我邀請您參考這篇文章以瞭解更多詳細資訊：[BIP47 - PAYNYM](https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+這些加密交換需要在 Cahoots 參與者之間建立連線和驗證。Soroban 的通訊依賴使用者的 Paynyms。如果您不熟悉 Paynyms，我邀請您參考這篇文章以瞭解更多詳細資訊：[BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 簡單來說，Paynym 是與您的 Wallet 相連的唯一識別碼，可使用各種功能，包括加密訊息。Paynym 以識別碼和代表機器人的插圖形式呈現。以下是我在 Testnet 上的範例： ![Paynym Sparrow](assets/en/1.webp)
 
@@ -55,7 +55,7 @@ Cahoots 交易涉及使用者之間交換部分已簽署的交易。這個過程
 進行 Cahoots 交易。
 
 
-[**-> 進一步瞭解 PayJoin 交易及其效用**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+[**-> 進一步瞭解 PayJoin 交易及其效用**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 
 ## 如何在 Paynyms 之間建立連接？

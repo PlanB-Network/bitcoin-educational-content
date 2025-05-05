@@ -283,7 +283,7 @@ Kutumia Sparrow kuna faida ya kuwa rahisi sana kuanza, haraka kusanidi, na kuhit
 Kuanza, bila shaka utahitaji programu ya Sparrow Wallet. Unaweza kuipakua moja kwa moja kutoka [tovuti rasmi](https://sparrowwallet.com/download/) au kwenye [GitHub yao](https://github.com/sparrowwallet/sparrow/releases).
 
 
-Kabla ya kusakinisha programu, itakuwa muhimu kuthibitisha saini na uadilifu wa utekelezaji ambao umepakuliwa hivi punde. Iwapo unataka maelezo zaidi kuhusu mchakato wa usakinishaji na uthibitishaji wa programu ya Sparrow, nakushauri usome mafunzo haya mengine: *[The Sparrow Wallet Guides](https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-76d1b)*
+Kabla ya kusakinisha programu, itakuwa muhimu kuthibitisha saini na uadilifu wa utekelezaji ambao umepakuliwa hivi punde. Iwapo unataka maelezo zaidi kuhusu mchakato wa usakinishaji na uthibitishaji wa programu ya Sparrow, nakushauri usome mafunzo haya mengine: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 
 ### Unda Software Wallet
@@ -468,7 +468,7 @@ Katika sehemu hii, utakuwa na chaguo la kuingiza unakoenda Address, kiasi cha ku
 ![sparrow](assets/notext/33.webp)
 
 
-[-> Pata maelezo zaidi kuhusu shughuli za Stonewall.](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Pata maelezo zaidi kuhusu shughuli za Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Ikiwa ungependa kufanya uteuzi sahihi zaidi wa sarafu zako za kutumia, nenda kwenye kichupo cha `UTXOs`. Chagua UTXO unazotaka kutumia haswa, kisha ubonyeze kitufe cha `Tuma Ulichochagua` ili kuanzisha muamala.
@@ -496,7 +496,7 @@ Dirisha linafungua, anza kwa kuchagua lengwa la Wallet kutoka kwenye orodha kunj
 ![sparrow](assets/notext/37.webp)
 
 
-Chagua kizingiti cha CoinJoin ambacho uondoaji utafanywa kiotomatiki. Siwezi kukupa idadi kamili ya mchanganyiko wa kufanya, kwa kuwa hii inatofautiana kulingana na hali yako ya kibinafsi na malengo yako ya faragha, lakini epuka kuchagua kiwango cha chini sana. Ninapendekeza uangalie makala haya mengine ili upate maelezo zaidi kuhusu mchakato wa uchanganyaji: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Chagua kizingiti cha CoinJoin ambacho uondoaji utafanywa kiotomatiki. Siwezi kukupa idadi kamili ya mchanganyiko wa kufanya, kwa kuwa hii inatofautiana kulingana na hali yako ya kibinafsi na malengo yako ya faragha, lakini epuka kuchagua kiwango cha chini sana. Ninapendekeza uangalie makala haya mengine ili upate maelezo zaidi kuhusu mchakato wa uchanganyaji: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 Unaweza kuacha chaguo la `Index range` kwenye thamani yake chaguomsingi, `Full`. Chaguo hili la kukokotoa huruhusu kuchanganya kwa wakati mmoja kutoka kwa wateja tofauti, lakini sivyo tunachotaka kufanya katika mafunzo haya. Kukamilisha na kuamilisha chaguo la `Changanya kwa...`, bonyeza `Anzisha upya Whirlpool`.
@@ -512,7 +512,7 @@ Hata hivyo, kuwa mwangalifu unapotumia chaguo la `Changanya kwa`, kwani kuondoa 
 
 Ili CoinJoin iwe na ufanisi wa kweli, ni muhimu kwamba iwasilishe uwiano mzuri kati ya kiasi cha pembejeo na matokeo. Usawa huu huongeza idadi ya tafsiri zinazowezekana machoni pa mwangalizi wa nje, na hivyo kuongeza kutokuwa na uhakika karibu na shughuli. Ili kuhesabu kutokuwa na uhakika huu unaotokana na CoinJoin, mtu anaweza kuamua kuhesabu entropy ya muamala. Kwa uchunguzi wa kina wa viashirio hivi, ninakuelekeza kwenye mafunzo: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Mfano wa Whirlpool unatambuliwa kama ule unaoleta homogeneity zaidi katika coinjoins.
 
-Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na saizi ya vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f8756575)
+Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na saizi ya vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ## Jinsi ya kudhibiti mchanganyiko wa posta?
@@ -554,9 +554,9 @@ Mafunzo ya kina juu ya kutekeleza mbinu hizi tofauti yatatolewa hivi karibuni kw
 
 **Nyenzo za Ziada:**
 
-[Mafunzo ya Video ya Sparrow Wallet](https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+[Mafunzo ya Video ya Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-[Mafunzo ya Video ya Samourai Wallet](https://planb.network/tutorials/Wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Mafunzo ya Video ya Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Hati za Samourai Wallet - Whirlpool](https://docs.samourai.io/Whirlpool/dhana-za-msingi);

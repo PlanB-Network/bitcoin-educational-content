@@ -1,0 +1,26 @@
+id: 3e89603c-501d-439c-8691-d4a0d0de459b
+
+level: intermediate
+
+category: mobile
+
+professor_id: 7261131b-4ede-4d68-a299-5941584f5592
+
+project_id: 79942e25-335d-45ae-bf81-799317f7d6bd
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-05-02
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
+
+
+tags:
+  - lightning
+  - wallets
+  - node

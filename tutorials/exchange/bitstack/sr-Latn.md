@@ -271,7 +271,7 @@ Odredite prioritet transakcije. Za povlačenje bez naknade, izaberite prioritet 
 ![Image](assets/fr/32.webp)
 
 
-Ako niste upoznati sa tim kako funkcioniše samostalno čuvanje Wallet, nudimo tutorijale za većinu dostupnih rešenja [na Plan ₿ Network u odeljku "*Wallet*"](https://planb.network/tutorials/Wallet).
+Ako niste upoznati sa tim kako funkcioniše samostalno čuvanje Wallet, nudimo tutorijale za većinu dostupnih rešenja [na Plan ₿ Network u odeljku "*Wallet*"](https://planb.network/tutorials/wallet).
 
 
 ## Prodaja Bitcoin

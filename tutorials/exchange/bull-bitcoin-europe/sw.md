@@ -186,7 +186,7 @@ Ikiwa hujui kutumia pochi za Bitcoin, Radi au Liquid, ninapendekeza uchukue kozi
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Unaweza pia kugundua [mafunzo yetu ya kina kuhusu pochi bora zaidi za Bitcoin](https://planb.network/tutorials/Wallet).
+Unaweza pia kugundua [mafunzo yetu ya kina kuhusu pochi bora zaidi za Bitcoin](https://planb.network/tutorials/wallet).
 
 
 Kisha thibitisha ununuzi wako kwa kubofya "*Thibitisha Nunua*".

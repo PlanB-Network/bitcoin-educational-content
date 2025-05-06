@@ -315,6 +315,8 @@ Une autre plateforme est VirWoX (*Virtual World Exchange*), établie en Autriche
 
 <!-- TradeHill -->
 
+![Logo de TradeHill en 2011](assets/en/tradehill-logo-2011.webp)
+
 Enfin, la dernière place de marché à apparaitre durant cette période est TradeHill, une plateforme fondée par Jered Kenna, un ancien militaire américain devenu entrepreneur, et Adam Stradling. Elle est lancée le 8 juin 2011 et [annoncée](https://bitcointalk.org/index.php?topic=13650.msg186776#msg186776) sur le forum par Bruce Wagner, l'animateur du *Bitcoin Show*, qui travaille en étroite collaboration avec la plateforme. TradeHill est installée aux États-Unis et facilite le change avec le dollar américain, de sorte qu'elle devient rapidement la deuxième plateforme en termes de volume, loin derrière Mt. Gox, qui reste la référence.
 
 ### Les piratages de juin
@@ -333,27 +335,13 @@ Toutefois, le dimanche 19 juin, la réalité rattrappe Mark. Vers 17 heures, le 
 
 *Bitcoin Report Volume 8*
 
-Beaucoup d'utilisateurs de Mt. Gox paniquent et vendent sous le coup de l'émotion afin de conserver ce qui leur reste. D'autres utilisateurs profitent de l'occasion pour se procurer des bitcoins à bas prix. Après avoir pris connaissance de la chose, Mark met immédiatement la plateforme hors ligne et [annonce](https://news.ycombinator.com/item?id=2671549) annuler tous les échanges ayant eu lieu lors de la vente massive, [invoquant](https://bitcointalk.org/index.php?topic=20535.msg256505#msg256505) la « force majeure » (original: "force majeure"). Mais certains utilisateurs ont pu retirer des fonds. C'est le cas d'un certain Kevin Day (toasty), qui [est parvenu](https://bitcointalk.org/index.php?topic=20207.msg252680#msg252680) à acheter 259 685 bitcoins à un prix unitaire de 0,0101 $, pour un total de 2 623 $, et à en retirer 643 de la plateforme. En raison de cet ordre d'achat exceptionnel, il est [suspecté](https://bitcointalk.org/index.php?topic=20250.msg253411#msg253411) par Mark Karpelès d'agir en collusion avec le pirate. Pour prouver sa bonne foi, il [apparait](https://www.youtube.com/watch?v=skBbFDcVuY4) dans le *Bitcoin Show* le lendemain du piratage, et finit par [placer](https://bitcointalk.org/index.php?topic=20775.msg259984#msg259984) les bitcoins sur un compte séquestre auprès de ClearCoin, le service de dépôt fiduciaire développé par Gavin Andresen. \[Les BTC sont-ils rendus ?\]
+Beaucoup d'utilisateurs de Mt. Gox paniquent et vendent sous le coup de l'émotion afin de conserver ce qui leur reste. D'autres [profitent](https://www.youtube.com/watch?v=jrikj7fy4MU) de l'occasion pour se procurer des bitcoins à bas prix. Après avoir pris connaissance de la chose, Mark met immédiatement la plateforme hors ligne et [annonce](https://news.ycombinator.com/item?id=2671549) annuler tous les échanges ayant eu lieu lors de la vente massive, [invoquant](https://bitcointalk.org/index.php?topic=20535.msg256505#msg256505) la « force majeure » (original: "force majeure"). Mais certains clients ont pu retirer des fonds. C'est le cas d'un certain Kevin Day (toasty), qui [est parvenu](https://bitcointalk.org/index.php?topic=20207.msg252680#msg252680) à acheter 259 685 bitcoins à un prix unitaire de 0,0101 $, pour un total de 2 623 $, et à en retirer 643 de la plateforme. En raison de cet ordre d'achat exceptionnel, il est [suspecté](https://bitcointalk.org/index.php?topic=20250.msg253411#msg253411) par Mark Karpelès d'agir en collusion avec le pirate. Pour prouver sa bonne foi, il [apparait](https://www.youtube.com/watch?v=skBbFDcVuY4) dans le *Bitcoin Show* le lendemain du piratage, et finit par [placer](https://bitcointalk.org/index.php?topic=20775.msg259984#msg259984) les bitcoins sur un compte séquestre auprès de ClearCoin, le service de dépôt fiduciaire développé par Gavin Andresen. \[Les BTC sont-ils rendus ?\]
 
 Le krach éclair n'est cependant pas le seul évènement dramatique qui se produit ce jour-là. Quelques heures plus tard, [vers 19 heures 30](https://news.ycombinator.com/item?id=2671612), le pirate [rend public](https://bitcointalk.org/index.php?topic=19576.msg244940#msg244940) la base de données des utilisateurs. Cela permettra à d'autres personnes malentionnées et plus expérimentées de complètement l'exploiter. Elles accèderont ainsi à des services comme [GMail](https://bitcointalk.org/index.php?topic=19641.msg245714#msg245714), [TradeHill](https://www.youtube.com/watch?v=8ygb9D9vnL4&t=253s) ou encore MyBitcoin...
 
----
+### Les conséquences des piratages
 
 Le résultat est catastrophique pour Mark...
-
-18 ou 20 juin ? Intervention de Roger Ver et Jesse Powell, un entrepreneur de San Francisco, ami de lycée. Jesse Powell prend un vol de dernière minute pour Tokyo et rejoint son ami. Mais Mark Karpelès a [pris son week-end](https://www.wired.com/2014/03/bitcoin-exchange/) ?
-
-Voyant qu'il y a un problème à résoudre et habitant non loin des bureaux de Mt. Gox à Tokyo, Roger Ver envoie un courriel à Mark Karpelès pour lui proposer ses services :
-
-> « Salut Mark — Si vous avez besoin d'un coup de main en personne, je suis disponible. Je peux être dans vos bureaux en dix minutes. Je ne sais pas très bien ce que je peux faire pour vous aider, mais je peux passer des coups de fil, envoyer des e-mails ou tout ce dont vous avez besoin pendant un jour ou deux, le temps que vous retombiez sur vos pattes. » (Traduction de Cyril Gay, légèrement modifiée)
->
-> original: "Hey Mark—If you guys need any physical help, I'm available. I can be at your office within 10 minutes. I'm not sure what I can do to help, but I can help with phones or emails or anything you need for a day or two until you get things calmed down."
-
-Mark Karpelès accepte et Roger Ver se rend donc dans les locaux de Mt. Gox pour leur prêter main forte. Il est accompagné de trois personnes, dont notamment son ami de lycée Jesse Powell, qu'il a connu au lycée en jouant aux cartes Magic et qui s'intéresse aussi à Bitcoin. Grâce à leur aide, la situation de Mt. Gox se stabilise.
-
----
-
-### Les conséquences des piratages
 
 La conséquence des piratages est de mettre fin à l'enthousiasme spéculatif. La plateforme Mt. Gox est fermée pendant un temps ce qui gèle la plus grande place de marché de l'écosystème. Le 5 juillet, le prix n'est plus que de 13 $.
 
@@ -389,17 +377,13 @@ Certaines pertes individuelles sont [élevées](https://bitcointalk.org/index.ph
 
 Malgré cette chute de confiance, les portefeuilles dépositaires continuent d'avoir du succès. C'est le cas d'Instawallet, qui [existe](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) depuis avril. Par réaction, la Bitcoin Consultancy [lance](https://bitcointalk.org/index.php?topic=35599.msg439954#msg439954) son propre service, Vibanko, en août.
 
----
-
 ### La faillite de Bitomat
 
-17 000 BTC perdus (perte des clés privées), rachat par Mt. Gox
+En parallèle, la plateforme polonaise Bitomat rencontre un problème majeur. Le 26 juillet, l'administrateur [procède](https://www.reddit.com/r/Bitcoin/comments/j4t58/3rd_largest_bitcoin_exchange_has_lost_its/c2957nt/) à une augmentation des ressources du serveur et l'opération a pour effet (inhabituel) de redémarrer la machine virtuelle et de supprimer les données présentes, y compris les clés privées du portefeuille du système. La perte s'élève à 17 000 bitcoins, soit environ 235 000 $ à ce moment-là. Bien que le volume échangé ne soit pas énorme, il s'agit de la troisième plus grosse plateforme de change derrière TradeHill et Mt. Gox, ce qui en fait un incident important.
 
-Il s'agit alors de la troisième plus grosse plateforme de change derrière Tradehill et Mt. Gox. "3rd largest bitcoin exchange"
+Pour éviter de flouer ses clients, l'administrateur propose de vendre la plateforme pour 17 000 BTC. Cela intéresse Mark Karpelès, qui pourrait alors bénéficier du marché polonais. Le 11 août, Mt. Gox [annonce](https://web.archive.org/web/20120426023056/http://support.mtgox.com/entries/20357051-mt-gox-the-world-s-largest-bitcoin-exchange-to-acquire-bitomat-pl-compensate-loss-of-bitcoins) racheter Bitomat, afin de « rétablir la confiance dans l'économie de bitcoin » (original: "to restore confidence in the bitcoin economy"). Mais cela a pour conséquence de rajouter 17 000 BTC au passif de Mt. Gox.
 
-JDC : Le 26 juillet, la plateforme d'échange polonaise Bitomat subit un incident technique suite à quoi 17 000 bitcoins sont détruits. Mark Karpelès, qui souhaite que Mt. Gox ait un pied à terre en Europe, rachètera la plateforme et encaissera au passage la dette des 17 000 bitcoins.
-
-Le 11 août, Mt. Gox [annonce](https://web.archive.org/web/20120426023056/http://support.mtgox.com/entries/20357051-mt-gox-the-world-s-largest-bitcoin-exchange-to-acquire-bitomat-pl-compensate-loss-of-bitcoins) racheter Bitomat, afin de « rétablir la confiance dans l'économie de bitcoin » (original: "to restore confidence in the bitcoin economy").
+---
 
 ### Une entreprise en pleine croissance
 

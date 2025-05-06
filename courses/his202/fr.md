@@ -1,4 +1,4 @@
-# Le Far West de la finance (histoire de Bitcoin, 2011–2014)
+# L'essor de Bitcoin entre 2011 et 2014 : le Far West de la finance
 
 Bienvenue dans ce cours consacré à l'histoire de Bitcoin entre le printemps 2011 et l'hiver 2013–2014 !
 
@@ -223,7 +223,7 @@ Il apprend l'existence de Bitcoin au cours de l'automne 2010 par l'intermédiair
 
 Dès sa découverte, en bon passionné d'informatique, il se plonge dans les rouages de Bitcoin et commence à écrire des programmes en tirant parti. En novembre, il [commence](https://bitcointalk.org/index.php?topic=30.msg20699#msg20699) à accepter les paiements en bitcoins avec KalyHost (Ross Ulbricht [utilisera](https://cdn.arstechnica.net/wp-content/uploads/2015/01/Govt.motion.1.19.pdf) d'ailleurs ce service pour héberger la page web silkroadmarket.org). En décembre 2010, il [crée](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) un nouveau wiki, Bitcoin.it, qui deviendra rapidement le wiki principal de Bitcoin. Il se met également en tête de développer une implémentation logicielle ([QBitcoin](https://web.archive.org/web/20110326023018/http://bitcoinweekly.com/articles/interview-with-magicaltux-on-qbitcoin)), sans pour autant aller au bout.
 
-## L'achat de Mt. Gox
+### L'achat de Mt. Gox
 
 Au début de l'année 2011, Jed McCaleb gère Mt. Gox tant bien que mal. La plateforme n'est pas sûre du tout, opinion partagée par certains membres de la communauté, comme [Mike Caldwell](https://bitcointalk.org/index.php?topic=4187.msg66477#msg66477). Et Jed n'est pas sûr de la conformité règlementaire de son l'activité. L'article de PC World a déjà eu un effet sur le prix, et il craint (à raison) que la tendance haussière ne se poursuive. Il se met donc à chercher un repreneur.
 

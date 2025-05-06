@@ -4,7 +4,7 @@ goal: Otkrijte austrijsku školu ekonomske misli. Proučite njihove poglede na d
 objectives: 
 
   - Alternativa kejnzijanizmu
-  - Važnost Hard valute
+  - Važnost čvrste valute
   - Zašto i kako nastaju naši ekonomski ciklusi?
   - Zašto su centralni bankari poludeli?
 
@@ -13,10 +13,10 @@ objectives:
 # Putovanje u ekonomiju
 
 
-Dobrodošli na kurs Théa Mogeneta! Strastven prema ekonomiji, istoriji, književnosti, političkim naukama i tehnologiji, odlučio je da podeli svoje znanje o austrijskoj ekonomiji sa vama. Ova grana, manje poznata u ekonomiji, zasniva se na ljudskoj racionalnosti i ponašanju slobodnih aktera. Manje intenzivna u matematici, pre svega je pitanje logike i društvene studije.
+Dobrodošli na kurs Théo-a Mogeneta! Strastven prema ekonomiji, istoriji, književnosti, političkim naukama i tehnologiji, odlučio je da podeli svoje znanje o austrijskoj ekonomiji sa vama. Ova grana, manje poznata u ekonomiji, zasniva se na ljudskoj racionalnosti i slobodnom ponašanju aktera. Manje intenzivna u matematici, pre svega se bavi logikom i društvenim studijama.
 
 
-Ova škola mišljenja već ima nekoliko vekova iza sebe i čitav panoram autora, misli i ekonomista iza sebe. Velika imena u ekonomiji kao što su Hayek, Rothbard, Mises, Bastiat ili Menger dugo su branili ovaj pokret. Za razliku od sveprisutnog kejnzijanizma našeg doba, austrijska škola stavlja pojedinca ponovo u centar jednačine sa liberalnijim, kapitalističkim, pa čak i anarhističkim pristupom.
+Ova škola mišljenja već ima nekoliko vekova iza sebe i čitavu panoramu autora, misli i ekonomista iza sebe. Velika imena u ekonomiji kao što su Hayek, Rothbard, Mises, Bastiat ili Menger dugo su branili ovaj pokret. Za razliku od sveprisutnog kejnzijanizma našeg doba, austrijska škola vraća pojedinca ponovo u centar jednačine sa liberalnijim, kapitalističkim, pa čak i anarhističkim pristupom.
 
 
 +++
@@ -36,16 +36,16 @@ Ova škola mišljenja već ima nekoliko vekova iza sebe i čitav panoram autora,
 Dobrodošli na kurs ECO201!
 
 
-U ovom kursu koji nudi Théo Mogenet, otkrićete školu ekonomske misli koja se suštinski razlikuje od preovlađujuće kejnzijanske doktrine. Do sada ste možda učili da su upravljanje novcem i ekonomska politika prvenstveno domen centralnih banaka, sa idejom da štampanje novca i javna potrošnja podstiču ekonomski rast. Međutim, postoji koherentniji alternativni pristup: **Austrijska ekonomija**.
+Na ovom kursu koji nudi Théo Mogenet, otkrićete školu ekonomske misli koja se suštinski razlikuje od preovlađujuće kejnzijanske doktrine. Do sada ste možda učili da su upravljanje novcem i ekonomska politika prvenstveno domen centralnih banaka, sa idejom da štampanje novca i javna potrošnja podstiču ekonomski rast. Međutim, postoji koherentniji alternativni pristup: **Austrijska ekonomija**.
 
 
 Sa više od dva veka istraživanja, filozofske refleksije i spisa renomiranih autora kao što su Karl Menger, Ludvig fon Mizes i Fridrih Hajek, ova škola mišljenja zauzima drugačiju perspektivu, favorizujući decentralizovani pogled na ekonomiju zasnovan na pojedincu i ljudskoj racionalnosti.
 
 
-Ekonomija je, u stvarnosti, duboko društvena i složena oblast, sastavljena od brojnih nezavisnih aktera koji slobodno interaguju kako bi formirali koherentnu celinu. Da bi se razumeo ovaj dinamički sistem, Austrijska ekonomija favorizuje kvalitativnu analizu, zasnovanu na ljudskoj logici, sociologiji i proučavanju tržišnih procesa, umesto na krutim matematičkim jednačinama.
+Ekonomija je, u stvarnosti, duboko društvena i složena oblast, sastavljena od brojnih nezavisnih aktera koji slobodno interaguju kako bi formirali koherentnu celinu. Da bi se razumeo ovaj dinamički sistem, Austrijska ekonomija favorizuje kvalitativnu analizu, zasnovanu na ljudskoj logici, sociologiji i proučavanju tržišnih procesa, umesto na rigidnim matematičkim jednačinama.
 
 
-U ovom kursu istražićete osnovne principe ove škole mišljenja. Théo Mogenet, vaš instruktor, je strastveni zagovornik ovog ekonomskog pristupa i vodiće vas kroz ključne koncepte Austrijske ekonomije, pokazujući vam kako se ove ideje posebno primenjuju na svet Bitcoin.
+U ovom kursu istražićete osnovne principe ove škole mišljenja. Théo Mogenet, vaš instruktor, je strastveni zagovornik ovog ekonomskog pristupa i vodiće vas kroz ključne koncepte Austrijske ekonomije, pokazujući vam kako se ove ideje posebno primenjuju na svet Bitkoina.
 
 
 **Sekcija 1: Uvod u ECON**
@@ -63,7 +63,7 @@ Ovaj deo će se upustiti u osnovne pojmove austrijske ekonomije, kao što je sub
 Ovde ćemo istražiti praktične primene austrijske teorije. Detaljno ćete naučiti o austrijskoj teoriji poslovnog ciklusa, koja objašnjava kako monetarne manipulacije stvaraju veštačke procvate praćene recesijama. Takođe ćemo videti zašto je ekonomska kalkulacija nemoguća u socijalističkom sistemu i kako austrijska metodologija, zasnovana na prakseologiji (proučavanju ljudske akcije), pruža jedinstven i koherentan pristup razumevanju ekonomskih fenomena.
 
 
-Ovaj kurs je spoj ekonomije i filozofije, vođen otvorenom diskusijom između Théa i mene (Rogzy). Želeo bih da se toplo zahvalim Théo Mogenetu na kreiranju ovog kursa. Uživali smo u razvoju ovog sadržaja, koji je dizajniran da bude dostupan svima. Ovaj kurs služi kao osnovni uvod i postaviće temelje za naše buduće, naprednije ekonomske module.
+Ovaj kurs je spoj ekonomije i filozofije, vođen otvorenom diskusijom između Théa i mene (Rogzy). Želeo bih da se toplo zahvalim Théo-u Mogenetu na kreiranju ovog kursa. Uživali smo u razvoju ovog sadržaja, koji je dizajniran da bude dostupan svima. Ovaj kurs služi kao osnovni uvod i postaviće temelje za naše buduće, naprednije ekonomske module.
 
 
 A šta ako ključ za razumevanje današnje ekonomije leži u teoriji staroj nekoliko vekova? Hajde da to otkrijemo zajedno!
@@ -75,64 +75,64 @@ A šta ako ključ za razumevanje današnje ekonomije leži u teoriji staroj neko
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
 
-> „Osnovni problem sa konvencionalnom valutom je sav taj poverenje koje je potrebno da bi funkcionisala. Centralnoj banci se mora verovati da neće obezvrediti valutu, ali istorija fiat valuta je puna kršenja tog poverenja. Bankama se mora verovati da će čuvati naš novac i prenositi ga elektronski, ali ga pozajmljuju u talasima kreditnih balona sa jedva delićem u rezervi. Moramo im verovati sa našom privatnošću, verovati im da neće dozvoliti kradljivcima identiteta da isprazne naše račune.“
+> „Osnovni problem sa konvencionalnom valutom je svo to poverenje koje je potrebno da bi funkcionisala. Centralnoj banci se mora verovati da neće obezvrediti valutu, ali istorija fiat valuta je puna kršenja tog poverenja. Bankama se mora verovati da će čuvati naš novac i prenositi ga elektronski, ali ga pozajmljuju u talasima kreditnih balona sa jedva delićem u rezervi. Moramo im verovati sa našom privatnošću, verovati im da neće dozvoliti kradljivcima identiteta da isprazne naše račune.“
 >
 
-> Satoshi Nakamoto, pseudonimni pronalazač Bitcoin
+> Satoshi Nakamoto, pseudonimni pronalazač Bitkoina
 
 
 ### Kako se Stvara Novac
 
 
-U našem današnjem monetarnom sistemu, novac se prvenstveno stvara kroz bankarsku praksu poznatu kao "frakcionalno rezervno bankarstvo." Ovaj termin u suštini znači da banke nisu obavezne da drže onoliko rezervi koliko primaju u depozitima. Posledično, one mogu stvoriti novu kupovnu moć kada odobravaju kredite i, obrnuto, smanjiti kupovnu moć kada klijenti otplaćuju svoje kredite.
+U našem današnjem monetarnom sistemu, novac se prvenstveno stvara kroz bankarsku praksu poznatu kao "frakcionalno rezervno bankarstvo." Ovaj termin u suštini znači da banke nisu obavezne da drže onoliko rezervi koliko primaju u depozitima. Shodno tome, one mogu stvoriti novu kupovnu moć kada odobravaju kredite i, obrnuto, smanjiti kupovnu moć kada klijenti otplaćuju svoje kredite.
 
 
-Na primer, ako biste se obratili svojoj lokalnoj banci da obezbedite hipoteku za kupovinu kuće, novac koji vam banka pozajmljuje bi nastao kao knjigovodstveni unos. U računovodstvu, obično predstavljamo neto bogatstvo pojedinca bilansom stanja, koji ima dve strane: stranu imovine, uključujući bilo koju imovinu, finansijske ugovore, zalihe ili druge oblike bogatstva u vlasništvu, i stranu obaveza, koja pokazuje izvor sredstava korišćenih za stvaranje kapitala navedenog na strani imovine. Razlika između imovine i obaveza naziva se "kapital" i može se smatrati neto bogatstvom entiteta.
+Na primer, ako biste se obratili svojoj lokalnoj banci da obezbedite hipoteku za kupovinu kuće, novac koji vam banka pozajmljuje bi nastao kao knjigovodstveni unos. U računovodstvu, obično predstavljamo neto bogatstvo pojedinca bilansom stanja, koji ima dve strane: stranu aktive, koja uključuje svu imovinu, finansijske ugovore, zalihe ili druge oblike bogatstva u vlasništvu, i stranu pasive, koja pokazuje izvor sredstava korišćenih za stvaranje kapitala navedenog na strani aktive. Razlika između aktive i pasive naziva se "kapital" i može se smatrati neto bogatstvom entiteta.
 
 
-Kada finansijska institucija poseduje bankarsku licencu, to u suštini znači da se obaveze zabeležene kao "depoziti klijenata" smatraju zvaničnim novcem unutar određene zemlje ili monetarne zone. Dakle, kada tražite kredit za kupovinu kuće od banke, bankar ne pozajmljuje sredstva deponovana od strane drugog klijenta. Umesto toga, banka pripisuje pozajmljeni iznos vašem računu i istovremeno beleži vaš kredit Contract kao imovinu banke. Kako otplaćujete svoj kredit, novac se efektivno gasi, a vrednost odgovarajućeg kredita Contract opada, pri čemu banka zadržava samo kamatu na kredit.
+Kada finansijska institucija poseduje bankarsku licencu, to u suštini znači da se obaveze zabeležene kao "depoziti klijenata" smatraju zvaničnim novcem unutar određene zemlje ili monetarne zone. Dakle, kada tražite kredit za kupovinu kuće od banke, bankar ne pozajmljuje sredstva deponovana od strane drugog klijenta. Umesto toga, banka pripisuje pozajmljeni iznos vašem računu i istovremeno beleži vaš ugovor o kreditu kao aktivu banke. Kako otplaćujete svoj kredit, novac se efektivno gasi, a vrednost odgovarajućeg ugovora o kreditu se smanjuje, pri čemu banka zadržava samo kamatu na kredit.
 
 
-Po kupovini kuće, instruirate svog bankara da prebaci novac na račun prodavca. Ako je račun prodavca u drugoj banci, vaš bankar obaveštava odgovarajućeg bankara u drugoj instituciji kako bi se osiguralo da je račun prodavca pravilno kreditiran, dok se vaš račun zadužuje za odgovarajući iznos.
+Po kupovini kuće, vi dajete instrukcije svom bankaru da prebaci novac na račun prodavca. Ako je račun prodavca u drugoj banci, vaš bankar obaveštava odgovarajućeg bankara u drugoj instituciji kako bi se osiguralo da je račun prodavca pravilno kreditiran, dok se vaš račun zadužuje za odgovarajući iznos.
 
 
 ![image](assets/en/01.webp)
 
 
-Slika 1: Kreiranje novca kao knjigovodstveni unosi
+Slika 1: Kreiranje novca kao knjigovodstvenog unosa
 
 
 > „Dovoljno je dobro što ljudi naše nacije ne razumeju naš bankarski i monetarni sistem, jer ako bi ga razumeli, verujem da bi došlo do revolucije pre sutrašnjeg jutra“
 >
 
-> Henri Ford
+> Henry Ford
 
 
-Ovaj proces omogućava bankama da zabeleže sve transakcije, uključujući elektronske prenose, kupovine kreditnim karticama i čekove, tokom određenog perioda (obično nedelju ili mesec). Zatim međusobno izmiruju ove transakcije koristeći bankarske rezerve, koje su drugi oblik fiat valute koju javnost nikada ne koristi. Bankarske rezerve se drže u centralnoj banci na posebnom računu dostupnom samo licenciranim bankama i finansijskim institucijama.
+Ovaj proces omogućava bankama da evidentiraju sve transakcije, uključujući elektronske prenose, kupovine kreditnim karticama i čekove, tokom određenog perioda (obično nedelju ili mesec). Zatim međusobno poravnavaju ove transakcije koristeći bankarske rezerve, koje su drugi oblik fiat valute koju javnost nikada ne koristi. Bankarske rezerve se drže u centralnoj banci na posebnom računu dostupnom samo licenciranim bankama i finansijskim institucijama.
 
 
-### Nestabilnost frakcionalnog bankarstva rezervi i zajmodavca poslednjeg utočišta
+### Nestabilnost frakcionalnih rezervi u bankarstvu i zajmodavac poslednjeg utočišta
 
 
-Glavni problem sa ovim sistemom frakcionalnih rezervi je da značajna povlačenja iz određene banke mogu potencijalno dovesti do njenog bankrota. Pošto banke moraju ispuniti zahteve klijenata za gotovinom dok drže samo ograničeni rezervni fond, istovremeni nalet mnogih klijenata da povuku sredstva može učiniti da banka ne bude u mogućnosti da zadovolji te zahteve, što rezultira bankrotom. S obzirom na to da mnogi pojedinci, firme i institucije imaju svoja sredstva deponovana u bankama, dozvoljavanje da banka propadne moglo bi imati ozbiljne ekonomske posledice, kao što su recesija ili čak depresija.
+Glavni problem sa ovim sistemom frakcionalnih rezervi je taj što značajna povlačenja iz određene banke mogu potencijalno dovesti do njenog bankrota. Pošto banke moraju ispuniti zahteve klijenata za gotovinom dok drže samo ograničeni rezervni fond, istovremeni nalet mnogih klijenata da povuku sredstva može učiniti da banka ne bude u mogućnosti da zadovolji te zahteve, što rezultira bankrotom. S obzirom na to da mnogi pojedinci, firme i institucije imaju svoja sredstva deponovana u bankama, dozvoljavanje da banka propadne moglo bi imati ozbiljne ekonomske posledice, kao što su recesija ili čak depresija.
 
 
-Ova zagonetka dovela je do nastanka modernih centralnih banaka. U 19. veku u Engleskoj, ponovljeni bankarski slomovi ugrožavali su finansijsku stabilnost, što je dovelo do osnivanja Banke Engleske kao "pozajmljivača poslednje instance." Banci Engleske je povereno da pozajmljuje sredstva bankama u nevolji tokom kriza kako bi se sprečio domino efekat koji bi mogao paralizovati ceo finansijski sistem. Ovaj koncept centralnih banaka kao pozajmljivača poslednje instance od tada se proširio širom sveta i postao uobičajen.
+Ova dilema dovela je do nastanka modernih centralnih banaka. U 19. veku u Engleskoj, ponovljeni bankarski slomovi ugrožavali su finansijsku stabilnost, što je dovelo do osnivanja Banke Engleske kao "zajmodavca poslednjeg utočišta." Banci Engleske je povereno da pozajmljuje sredstva ugroženim bankama tokom kriza kako bi se sprečio domino efekat koji bi mogao paralizovati ceo finansijski sistem. Ovaj koncept centralnih banaka kao zajmodavca poslednjeg utočišta od tada se proširio širom sveta i postao uobičajen.
 
 
-Pored održavanja finansijske stabilnosti, centralne banke su odgovorne za postavljanje ključnih kamatnih stopa. Ove stope određuju cenu po kojoj licencirane banke mogu pozajmljivati sredstva od centralne banke, suštinski definišući cenu likvidnosti za finansijske institucije koje igraju ključnu ulogu u kreditiranju u našim ekonomijama. Stoga, ove stope služe kao referentna tačka za ceo finansijski sistem. Kao pojedinac, kamatne stope koje plaćate na svoju hipoteku mogu se razložiti na referentnu stopu i maržu banke.
+Pored održavanja finansijske stabilnosti, centralne banke su odgovorne za postavljanje ključnih kamatnih stopa. Ove stope određuju cenu po kojoj licencirane banke mogu pozajmljivati sredstva od centralne banke, suštinski definišući cenu likvidnosti za finansijske institucije koje igraju ključnu ulogu u kreditiranju u našim ekonomijama. Dakle, ove stope služe kao referentna tačka za ceo finansijski sistem. Kao pojedinac, kamatne stope koje plaćate na svoju hipoteku mogu se razložiti na referentnu kamatnustopu i maržu banke.
 
 
 ![image](assets/en/02.webp)
 
 
-Figure2: Bankrotstvo Lehman Brothers (15/09/2008)
+Slika 2: Bankrotstvo Lehman Brothers (15/09/2008)
 
 
-Tokom velike finansijske krize 2008. godine, Lehman Brothers, velika investiciona banka, proglasila je bankrot nakon što je pretrpela značajne gubitke na svojim hipotekarnim hartijama od vrednosti i suočila se sa masovnim povlačenjem sredstava od strane zabrinutih klijenata. Kao odgovor na ovaj neviđeni finansijski preokret, centralne banke širom sveta ubrizgale su velike količine likvidnosti u finansijska tržišta, spojile posrnule investicione banke sa komercijalnim bankama i smanjile kamatne stope na gotovo nulu u pokušaju da spreče sistemski kolaps.
+Tokom velike finansijske krize 2008. godine, Lehman Brothers, velika investiciona banka, proglasila je bankrot nakon što je pretrpela značajne gubitke na svojim hipotekarnim hartijama od vrednosti i suočila se sa masovnim povlačenjem sredstava od strane zabrinutih klijenata. Kao odgovor na ovaj neviđeni finansijski preokret, centralne banke širom sveta ubrizgale su velike količine likvidnosti u finansijska tržišta, spojile posrnule investicione banke sa komercijalnim bankama i smanjile kamatne stope gotovo na nulu u pokušaju da spreče sistemski kolaps.
 
 
-Iako su ove mere sprečile talas bankrota, malo su učinile da ublaže kasniji ekonomski pad. Milioni su izgubili poslove i domove, potrošnja potrošača je naglo opala, preduzeća su propala, a banke su pretrpele značajne gubitke. Uprkos istorijski niskim kamatnim stopama, malo ko je bio spreman da pozajmljuje, što je rezultiralo začaranim krugom gde se početno smanjenje potrošnje i investicija samo pojačavalo. Kao posledica toga, centralni bankari su preduzeli dodatne korake implementacijom programa Kvantitativnog Opuštanja (QE). Ovi programi su uključivali kupovinu državnih obveznica i hartija od vrednosti osiguranih hipotekom od strane komercijalnih banaka sa rezervama centralne banke.
+Iako su ove mere sprečile talas bankrota, malo su učinile da ublaže kasniji ekonomski pad. Milioni su izgubili poslove i domove, potrošnja potrošača je naglo opala, preduzeća su propala, a banke su pretrpele značajne gubitke. Uprkos istorijski niskim kamatnim stopama, malo ko je bio spreman da pozajmljuje, što je rezultiralo začaranim krugom gde se početno smanjenje potrošnje i investicija samo pojačavalo. Kao posledica toga, centralni bankari su preduzeli dodatne korake implementacijom programa Kvantitativnog Popuštanja (QE-Quantitative Easing). Ovi programi su uključivali kupovinu državnih obveznica i hipotekarnih hartija od vrednosti od strane komercijalnih banaka sa rezervama centralne banke.
 
 
 ![image](assets/en/03.webp)
@@ -144,37 +144,37 @@ Slika3 : Kamatne stope u glavnim ekonomijama / Izvor: ECB
 Suprotno mnogim očekivanjima, QE programi nisu značajno oživeli ekonomski rast, već su naduvali finansijske aktive do istorijskih nivoa. Ovo je prvenstveno koristilo bogatima i finansijskim institucijama, jer su oni već posedovali značajne količine takvih aktiva, čime su se produbile razlike u bogatstvu. S obzirom na strukturu bankarskog sistema objašnjenu ranije, ovaj ishod ne bi trebalo da bude iznenađenje. Pošto bankarske rezerve ne mogu lako da se preliju u realnu ekonomiju, QE programi su uglavnom podstakli cene aktiva bez efikasnog poboljšanja finansijske situacije prosečnih pojedinaca.
 
 
-### Cantillonov efekat
+### Kantilonov efekat
 
 
-Ipak, iz ovog događaja se može izvući suštinski ekonomski princip: kada se stvara novi novac, on u početku koristi onima koji su najbliži izvoru novca, na štetu onih koji su dalje. Ovaj ekonomski uvid datira iz 18. veka kada ga je Ričard Kantiljon izložio u svom "Eseju o prirodi trgovine uopšte." Sada se kolokvijalno naziva "Kantiljonov efekat".
+Ipak, iz ovog događaja se može izvući jedan važan ekonomski princip: kada se stvara novi novac, on u početku koristi onima koji su najbliži izvoru novca, na štetu onih koji su dalje. Ovaj ekonomski uvid datira iz 18. veka kada ga je Ričard Kantilon izložio u svom "Eseju o prirodi trgovine uopšte." Sada se kolokvijalno naziva "Kantilonov efekat".
 
 
 ![image](assets/en/04.webp)
 
 
-Slika4: Cantillon Efekat u Kratkim Crtama / Izvor: River Financial
+Slika4: Kantilonov Efekat u Kratkim Crtama / Izvor: River Financial
 
 
 U ovom slučaju, bankari, rukovodioci banaka, vlasnici akcija i obveznica, razvijači nekretnina, zajmodavci nekretnina i svi koji poseduju finansijsku imovinu ili nekretnine dobili su finansijski dobitak, dok je teret pao na sve ostale. Ova situacija je trajala godinama i u velikoj meri objašnjava rastuću nejednakost u bogatstvu, osećaj obespravljenosti među vrednim pojedincima i naizgled nezaustavljiv rast cena imovine uprkos sporom rastu BDP-a.
 
 
-U suštini, sistem je iskrivljen. Banke su inherentno nestabilne, ali njihov neuspeh može ugroziti celu ekonomiju. Ovaj moralni hazard podstiče bankarske izvršioce da preuzimaju prekomerne rizike kako bi maksimizirali prihod svoje banke, znajući da će ih centralna banka na kraju spasiti, prebacujući trošak na poreske obveznike. U takvim scenarijima, centralni bankari stvaraju uslove za masivan transfer kupovne moći od vrednih pojedinaca i štediša ka vlasnicima imovine i onima povezanim sa finansijskim sistemom, čime se proces stvaranja bogatstva odvaja od akumulacije bogatstva.
+U suštini, sistem je iskrivljen. Banke su inherentno nestabilne, ali njihov neuspeh može ugroziti celu ekonomiju. Ovaj moralni hazard podstiče izvršne direktore banaka da preuzimaju prekomerne rizike kako bi maksimizirali prihod svoje banke, znajući da će ih centralna banka na kraju spasiti, prebacujući trošak na poreske obveznike. U takvim scenarijima, centralni bankari stvaraju uslove za masivan transfer kupovne moći od vrednih pojedinaca i štediša ka vlasnicima imovine i onima povezanim sa finansijskim sistemom, čime se proces stvaranja bogatstva odvaja od akumulacije bogatstva.
 
 
 ![image](assets/en/05.webp)
 
 
-Slika5: Distribucija bogatstva u Kini + Evropi + SAD / Izvor: OECD
+Slika 5: Distribucija bogatstva u Kini + Evropi + SAD / Izvor: OECD
 
 
 ### Posledice politika nulte kamatne stope
 
 
-Tokom produženih perioda politike nulte kamatne stope (ZIRP), banke imaju ograničene mogućnosti da obnove svoj kapital jer su im marže smanjene. Banke obično zarađuju novac pozajmljujući po kratkoročnim stopama i pozajmljujući po dugoročnim stopama. Međutim, kada centralne banke kupuju velike količine obveznica i postavljaju stope na nulu, banke imaju malo podsticaja da pozajmljuju, posebno preduzetnicima i drugim preuzimačima rizika. Umesto toga, one alociraju svoje resurse na sekjuritizaciju postojećeg kapitala ili pružanje zajmova protiv kolaterala kako bi zadovoljile potražnju onih koji imaju koristi od Kantilonovog efekta.
+Tokom produženih perioda politike nulte kamatne stope (ZIRP-Zero Interest Rate Policies), banke imaju ograničene mogućnosti da obnove svoj kapital jer su im marže smanjene. Banke obično zarađuju novac pozajmljujući po kratkoročnim stopama i pozajmljujući po dugoročnim stopama. Međutim, kada centralne banke kupuju velike količine obveznica i postavljaju stope na nulu, banke imaju malo podsticaja da pozajmljuju, posebno preduzetnicima i drugim rizičnim korisnicima. Umesto toga, one alociraju svoje resurse na sekjuritizaciju postojećeg kapitala ili davanje zajmova uz kolateral kako bi zadovoljile potražnju onih koji imaju koristi od Kantilonovog efekta.
 
 
-Još jedna nenamerna posledica ZIRP-a je da podstiče vlade da se upuste u obimno trošenje. Pošto vlade nemaju troškove zaduživanja i mogu se osloniti na centralne banke da otkupe njihove obveznice kroz QE programe, imaju prirodni podsticaj da troše što je više moguće, posebno u demokratskim kontekstima gde trošenje može doneti glasove. Ova tendencija često zanemaruje dugoročne posledice takve fiskalne rasipnosti, što dovodi do značajnog povećanja nivoa javnog duga u razvijenim ekonomijama od Globalne finansijske krize (GFC).
+Još jedna nenamerna posledica ZIRP-a je da podstiče vlade da se upuste u obimno trošenje. Pošto vlade nemaju troškove zaduživanja i mogu se osloniti na centralne banke da otkupe njihove obveznice kroz QE programe, imaju prirodni podsticaj da troše što je više moguće, posebno u demokratskim kontekstima gde trošenje može doneti glasove. Ova tendencija često zanemaruje dugoročne posledice takve fiskalne rasipnosti, što dovodi do značajnog povećanja nivoa javnog duga u razvijenim ekonomijama od Globalne finansijske krize (GFC-Global Financial Crisis).
 
 
 ![image](assets/en/06.webp)
@@ -183,25 +183,25 @@ Još jedna nenamerna posledica ZIRP-a je da podstiče vlade da se upuste u obimn
 Slika 6: Javni i privatni dug kao % BDP-a (Svet, ponderisano prema BDP-u po zemlji) / Izvor MMF
 
 
-Sa inflacijom koja raste zbog značajnog stvaranja novca kao odgovora na zatvaranja povezana sa COVID-om, centralni bankari sada podižu kamatne stope u pokušaju da obuzdaju inflaciju. Međutim, ovo predstavlja značajan izazov za ceo sistem. Banke su više zadužene nego ikada, vlade nose istorijski visoke nivoe duga, ekonomski rast je spor, deficiti rastu, a potrošači, koji se bore sa rastućim cenama osnovnih dobara, teško sastavljaju kraj s krajem. Kontrolisanje inflacije bi zahtevalo podizanje stopa na nivo koji bi mogao da bankrotira vlade, dok banke rizikuju da izgube deponente jer pojedinci troše svoje uštede na sve skuplje osnovne potrepštine ili traže utočište u Hard imovini i fondovima novčanog tržišta kako bi se zaštitili od inflacije.
+Sa inflacijom koja raste zbog značajnog stvaranja novca kao odgovora na zatvaranja povezana sa COVID-om, centralni bankari sada podižu kamatne stope u pokušaju da obuzdaju inflaciju. Međutim, ovo predstavlja značajan izazov za ceo sistem. Banke su više zadužene nego ikada, vlade nose istorijski visoke nivoe duga, ekonomski rast je spor, deficiti rastu, a potrošači, koji se bore sa rastućim cenama osnovnih dobara, teško sastavljaju kraj s krajem. Kontrolisanje inflacije bi zahtevalo podizanje stopa na nivo koji bi mogao da dovede vlade do bankrota, dok banke rizikuju da izgube deponente jer pojedinci troše svoje uštede na sve skuplje osnovne potrepštine ili traže utočište u čvrstoj imovini i fondovima novčanog tržišta kako bi se zaštitili od inflacije.
 
 
 ### Zaključak
 
 
-> „Na ovaj način (frakcionalno bankarstvo rezervi), vlade mogu tajno i neprimećeno konfiskovati bogatstvo naroda, a da nijedan čovek u milion ne bi otkrio krađu“
+> „Na ovaj način (frakcionalno rezerve banaka), vlade mogu tajno i neprimećeno konfiskovati bogatstvo naroda, a da nijedan čovek u milion ne bi otkrio krađu“
 >
 
 > John Maynard Keynes
 
 
-U suštini, naš sistem se suočava sa značajnim izazovima, i Bitcoin se pojavljuje kao jedina kredibilna alternativa. Međutim, Bitcoin sam po sebi ne može Address probleme unutar našeg monetarnog sistema. Iznad svega, potrebni su nam pojedinci koji razumeju osnovne ekonomske principe među Bitcoin entuzijastima, omogućavajući širu svest i ekonomski zdrav razum da nas vodi dalje od izgradnje još jedne krhke finansijske osnove za našu civilizaciju. Primarni cilj ovog kursa je edukacija novih Bitcoin entuzijasta u zdravim ekonomskim principima.
+U suštini, naš sistem se suočava sa značajnim izazovima, i Bitkoin se pojavljuje kao jedina kredibilna alternativa. Međutim, Bitkoin sam po sebi ne može rešiti probleme unutar našeg monetarnog sistema. Iznad svega, potrebni su nam pojedinci koji razumeju osnovne ekonomske principe među Bitkoin entuzijastima, omogućavajući širu svest i ekonomski zdrav razum da nas vodi dalje od izgradnje još jedne krhke finansijske osnove za našu civilizaciju. Primarni cilj ovog kursa je edukacija novih Bitkoin entuzijasta u zdravim ekonomskim principima.
 
 
 Da bismo postigli ovaj cilj, objasnićemo osnovne principe "Austrijske ekonomije," ekonomske škole mišljenja sa metodološkom tradicijom koja datira iz 16. veka, pružajući uvide u ljudsko delovanje pod ekonomskim ograničenjima. Sa ovim uvodom, sada razumete osnove kreiranja novca i trenutno stanje našeg finansijskog i monetarnog sistema.
 
 
-U narednom poglavlju, istražićemo temeljni kamen svake ekonomske škole mišljenja: teoriju vrednosti. Sledeća poglavlja će istražiti novac kao društvenu instituciju, teoriju kapitala i poslovni ciklus, izazov ekonomske kalkulacije, i kratak pregled istorije i metodologije Austrijske škole ekonomije.
+U narednom poglavlju, istražićemo kamen temeljac svake ekonomske škole mišljenja: teoriju vrednosti. Sledeća poglavlja će istražiti novac kao društvenu instituciju, teoriju kapitala i poslovni ciklus, izazov ekonomske kalkulacije, i kratak pregled istorije i metodologije Austrijske škole ekonomije.
 
 
 # Teorijske Osnove
@@ -231,7 +231,7 @@ U korenu ekonomskog razmišljanja leži pitanje vrednosti. Kako određujemo vred
 Takva pitanja su zaokupljala ekonomiste i filozofe vekovima i dobila su brojne različite odgovore. Na mnogo načina, epistemološka evolucija ekonomije bila je obeležena evolucijom teorija vrednosti.
 
 
-Nakon što je teorija fiziokrata o vrednosti zemlje, koja je tvrdila da sva vrednost dolazi od zemlje, bila opovrgnuta teorijom vrednosti rada klasičnih ekonomista, koja je postavljala da vrednost dobra potiče od količine rada uloženog u njegovu proizvodnju, došao je red na marginalnu teoriju vrednosti da zameni potonju. U 1870-im, nakon Marksa, poslednjeg od klasičnih ekonomista, tri nove škole ekonomske misli pojavile su se gotovo istovremeno oko marginalne teorije vrednosti: Lozanska škola sa Léonom Walrasom, moderna ili neoklasična škola sa Williamom Stanleyjem Jevonsom, i Austrijska škola sa Carlom Mengerom. Ova revolucija u teoriji vrednosti predstavljala je značajnu obnovu ekonomske misli.
+Nakon što je teorija fiziokrata o vrednosti zemlje, koja je tvrdila da sva vrednost dolazi od zemlje, bila opovrgnuta teorijom vrednosti rada klasičnih ekonomista, koja je postavljala da vrednost dobra potiče od količine rada uloženog u njegovu proizvodnju, došao je red na marginalnu teoriju vrednosti da zameni poslednju. U 1870-im, nakon Marksa, poslednjeg od klasičnih ekonomista, tri nove škole ekonomske misli pojavile su se gotovo istovremeno oko marginalne teorije vrednosti: Lozanska škola sa Léonom Walrasom, moderna ili neoklasična škola sa Williamom Stanleyjem Jevonsom, i Austrijska škola sa Carlom Mengerom. Ova revolucija u teoriji vrednosti predstavljala je značajnu obnovu ekonomske misli.
 
 
 ![image](assets/en/07.webp)
@@ -240,7 +240,7 @@ Nakon što je teorija fiziokrata o vrednosti zemlje, koja je tvrdila da sva vred
 Sleva na desno: William Stanley Jevons, Carl Menger, Léon Walras
 
 
-Marginalna teorija vrednosti drži da ekonomska vrednost odgovara onome što ekonomski agent spremno plaća za sledeću jedinicu dobra ili usluge. Kako ova teorija naglašava činjenicu da se cene formiraju na margini, tj. za sledeću jedinicu datog dobra, nazvana je "marginalizam".
+Marginalna teorija vrednosti drži da ekonomska vrednost odgovara onome što ekonomski agent dobrovoljno plaća za sledeću jedinicu dobra ili usluge. Kako ova teorija naglašava činjenicu da se cene formiraju na margini, tj. za sledeću jedinicu datog dobra, nazvana je "marginalizam".
 
 
 Uobičajeno je predstaviti marginalizam ovih triju škola kao sličan. Zaista, Walras i Jevons su veoma kompatibilni, ali Mengerova teorija se u dubokim aspektima razlikuje od ostalih. U svom delu, koje se sada smatra temeljem austrijske ekonomske teorije, pod nazivom "Grundsätze des Volkswirtschaftlehre" (Principi političke ekonomije), objavljenom 1874. godine, Menger nudi marginalno, ali prvenstveno subjektivno objašnjenje vrednosti, za razliku od Walrasa i Jevonsa, koji vrednost smatraju objektivnim i merljivim fenomenom.
@@ -252,7 +252,7 @@ Uobičajeno je predstaviti marginalizam ovih triju škola kao sličan. Zaista, W
 ![image](assets/en/08.webp)
 
 
-Austrijski ekonomista opovrgava shvatanje sledbenika Adama Smita i napušta ideju da vrednost dobra dolazi iz količine rada utrošenog u njegovu proizvodnju, u korist shvatanja da njegovu vrednost određuje pojedinac, koji u svakom kontekstu vrši mentalni čin procene u vezi sa određenom količinom dobra ili usluge. Ovaj intelektualni skok koji je napravio Menger izaziva objektivnost vrednosti: za njega, vrednost nije objektivno svojstvo dobara; ona je samo rezultat odnosa koji pojedinac ima prema toj stvari: "vrednost ne postoji izvan ljudske svesti."
+Austrijski ekonomista opovrgava shvatanje sledbenika Adama Smita i napušta ideju da vrednost dobra dolazi iz količine rada utrošenog u njegovu proizvodnju, u korist shvatanja da njegovu vrednost određuje pojedinac, koji u svakom kontekstu vrši mentalni čin vrednovanja u vezi sa određenom količinom dobra ili usluge. Ovaj intelektualni skok koji je napravio Menger osporava objektivnost vrednosti: za njega, vrednost nije objektivno svojstvo dobara; ona je samo rezultat odnosa koji pojedinac ima prema toj stvari: "vrednost ne postoji izvan ljudske svesti."
 
 
 Drugim rečima, Menger nas poziva da razmotrimo da vrednost postoji samo kao subjektivni psihološki fenomen unutar pojedinca, da vrednost nije inherentno svojstvo dobara, već proizlazi iz mišljenja pojedinca o korisnosti koju može izvući iz tih dobara.
@@ -264,19 +264,19 @@ Prema ovom gledištu, litar pijaće vode nema objektivnu vrednost. Osoba koja im
 Ukratko, Menger je primetio da je vrednost ekonomskog dobra ništa drugo do subjektivna procena koju pojedinac dodeljuje dodatnoj jedinici tog dobra ili usluge.
 
 
-### Dobrovoljni Exchange: Igra pozitivne sume
+### Dobrovoljna Razmena: Igra sa pozitivnim ishodom
 
 
-Od ove tačke, Menger zaključuje da se dobrovoljni Exchange između dve individue dešava zato što svaka strana veruje da će to povećati njihovu subjektivnu korisnost. Za njega, Exchange ne pretpostavlja nikakvu ekvivalenciju vrednosti, suprotno onome što su klasični ekonomisti verovali. Prema austrijskom misliocu, ako bi postojala ekvivalencija korisnosti između razmenjenih dobara, ne bi bilo razloga da se strane uopšte trude da razmenjuju. Ako postoji Exchange, to je zato što svaka strana nalazi da je to u njihovom (subjektivnom) interesu, i kao posledica toga, svaki dobrovoljni Exchange proizvodi društvenu korist.
+Od ove tačke, Menger zaključuje da se dobrovoljna razmena između dve individue dešava zato što svaka strana veruje da će to povećati njihovu subjektivnu korisnost. Za njega, razmena ne pretpostavlja nikakvu ekvivalenciju vrednosti, suprotno onome što su klasični ekonomisti verovali. Prema austrijskom misliocu, ako bi postojala ekvivalencija korisnosti između razmenjenih dobara, ne bi bilo razloga da se strane uopšte trude da razmenjuju. Ako postoji Exchange, to je zato što svaka strana nalazi da je to u njihovom (subjektivnom) interesu, i kao posledica toga, svaka dobrovoljna razmena proizvodi društvenu korist.
 
 
-### Vrednovanje kao fenomen uređenja ljudskih želja
+### Vrednovanje kao fenomen rangiranja ljudskih želja
 
 
-Međutim, takva socijalna korist, ili subjektivna vrednost pripisana nekoj robi, ne može se meriti. Za Mengera, vrednost je kognitivni fenomen poređenja (ordinalni) pre nego merenja (kardinalni). Nije, kao što su neoklasični ekonomisti mislili od Valrasa i Dževonsa, Assignment od strane pojedinca numeričke vrednosti koja odražava korisnost koju iz nje izvlače, već čin uređivanja ljudskih želja kojim pojedinac izražava da želi količinu dobra A intenzivnije nego količinu dobra B.
+Međutim, takva društvena korist, ili subjektivna vrednost pripisana nekoj robi, ne može se meriti. Za Mengera, vrednost je kognitivni fenomen poređenja (ordinalni) pre nego merenja (kardinalni). Nije, kao što su neoklasični ekonomisti mislili od Valrasa i Dževonsa, dodeljivanje numeričke vrednosti od strane pojedinca koja odražava korisnost koju izvlači iz toga, već čin uređivanja ljudskih želja kojim pojedinac izražava da želi količinu dobra A intenzivnije nego količinu dobra B.
 
 
-Bilo koji agent može reći da li više voli 2 banane nego kurs ekonomije, ali niko razumno ne može reći da vrednuje 2 banane na 3.1416 utila, dok kurs ekonomije vrednuje na 3 utila, i stoga, više voli da ima banane. Takav opis ljudskih preferencija, zasnovan na kontinuiranim realnim funkcijama, ne odgovara stvarnosti kognitivnih procesa koje doživljavamo u našem svakodnevnom životu. Pojedinac nikada ne procenjuje dobra koja su mu predstavljena poredeći ih sa apstraktnim standardom korisnosti. Umesto toga, on subjektivno poredi različite tokove akcije, koje ne može oceniti u apsolutnim terminima, ali ih ipak može rangirati na osnovu njihove relativne poželjnosti.
+Svaki agent može reći da li više voli 2 banane u odnosu na kurs ekonomije, ali niko ne može razumno reći da vrednuje 2 banane na 3.1416 utila, dok kurs ekonomije vrednuje na 3 utila, i stoga, više voli da ima banane. Takav opis ljudskih preferencija, zasnovan na kontinuiranim realnim funkcijama, ne odgovara stvarnosti kognitivnih procesa koje doživljavamo u našem svakodnevnom životu. Pojedinac nikada ne procenjuje dobra koja su mu predstavljena poredeći ih sa apstraktnim standardom korisnosti. Umesto toga, on subjektivno poredi različite tokove akcije, koje ne može oceniti u apsolutnim terminima, ali ih ipak može rangirati na osnovu njihove relativne poželjnosti.
 
 
 Ova subjektivna koncepcija vrednosti, shvaćena kao psihološki odnos koji pojedinac održava sa svojim ciljevima i sredstvima relevantnim za njihovo postizanje, takođe omogućava austrijskim ekonomistima da objasne fenomen podele rada.
@@ -297,10 +297,10 @@ Svi su jedinstveni i imaju određenu ličnu situaciju. Stoga, svako poseduje sup
 U slučaju kada pojedinac ima superiornu sposobnost u poređenju sa svojim vršnjacima u proizvodnji određenog dobra (apsolutna prednost), ima interes da se specijalizuje u proizvodnji tog dobra i zatim razmeni višak koji dobije za dobra koja želi. Na taj način, zadovoljava svoju subjektivnu korisnost ekonomičnije nego da se upusti u proizvodnju svih dobara koja želi.
 
 
-Ali može biti i slučaj da pojedinac nema apsolutnu prednost u proizvodnji bilo kog dobra. U tom slučaju, i dalje će postojati vrste proizvodnje u kojima je pojedinac bolji nego u drugim (komparativna prednost), i zbog toga i dalje ima interes da se specijalizuje.
+Ali može se desiti i slučaj da pojedinac nema apsolutnu prednost u proizvodnji bilo kog dobra. U tom slučaju, i dalje će postojati vrste proizvodnje u kojima je pojedinac bolji nego u drugim (komparativna prednost), i zbog toga i dalje ima interes da se specijalizuje.
 
 
-Svakako, postoje pojedinci koji bi mogli proizvoditi taj određeni proizvod produktivnije od njega, ali pošto su ti pojedinci verovatno produktivniji u nekom drugom zadatku nego u ovom, i pošto ne mogu obavljati oba zadatka istovremeno, neproduktivno je da rade na ovom zadatku umesto na drugom za koji su produktivniji. Specijalizacijom u zadatku za koji su najproduktivniji, oni će dobiti veći višak nego da se nisu specijalizovali, i stoga, kroz Exchange, mogli bi dobiti povećanu količinu tih drugih dobara, čak i ako bi dobra koja su dobili bila efikasnije proizvedena od strane njih samih nego od strane proizvođača od kojih su ih dobili.
+Svakako, postoje pojedinci koji bi mogli proizvoditi taj određeni proizvod produktivnije od njega, ali pošto su ti pojedinci verovatno produktivniji u nekom drugom zadatku nego u ovom, i pošto ne mogu obavljati oba zadatka istovremeno, neproduktivno je da rade na ovom zadatku umesto na drugom za koji su produktivniji. Specijalizacijom u zadatku za koji su najproduktivniji, oni će dobiti veći višak nego da se nisu specijalizovali, i stoga, kroz razmenu, mogli bi dobiti povećanu količinu tih drugih dobara, čak i ako bi dobra koja su dobili bila efikasnije proizvedena od strane njih samih nego od strane proizvođača od kojih su ih dobili.
 
 
 Uzmimo primer lekara. On bi mogao biti bolji u pisanju mejlova i zakazivanju sastanaka od svoje sekretarice (relativna prednost). Ali svako vreme provedeno na obavljanju tih zadataka je vreme koje ne koristi za lečenje pacijenata. Dakle, kako je produktivniji u lečenju ljudi, u njegovom je interesu da delegira administrativne dužnosti drugoj osobi čak i ako je bolji u tom zadatku od svog zamenika, jer mu to omogućava da maksimizuje vrednost stvorenu za druge, a samim tim i svoje bogatstvo.
@@ -309,10 +309,10 @@ Uzmimo primer lekara. On bi mogao biti bolji u pisanju mejlova i zakazivanju sas
 U suštini, postoji korist od specijalizacije, čak i za pojedince koji nemaju apsolutne prednosti, jer je vreme oskudan i suparnički resurs: svaka jedinica vremena provedena na aktivnosti koja nije ona u kojoj je pojedinac najproduktivniji podrazumeva trošak predstavljen propuštenom proizvodnjom koje su se odrekli (oportunitetni trošak).
 
 
-Jednom kada se pojedinac specijalizuje u određenoj proizvodnji, može zatim rezervisati količinu proizvoda koju smatra potrebnom za ličnu potrošnju i Exchange višak za druge željene robe. Na taj način zadovoljavaju svoju želju za robama koje sami proizvode, što znači da preostale jedinice njihove proizvodnje imaju malu vrednost za njih. To je ono što ekonomisti nazivaju opadajućom graničnom korisnošću: svaka dodatna jedinica robe je manje željena od prethodne. Za druge kojima takve robe nedostaju, situacija je drugačija: iz istih razloga, oni teže da intenzivnije žele robe koje ne proizvode nego one koje proizvode. Ovo dovodi do situacije gde postoji jaka asimetrija između različitih subjektivnih procena pojedinaca, što je veoma pogodno za razmenu: svaka strana ima interes da razmeni svoj višak proizvodnje jer time povećava svoju subjektivnu korisnost.
+Jednom kada se pojedinac specijalizuje u određenoj proizvodnji, može zatim rezervisati količinu proizvoda koju smatra potrebnom za ličnu potrošnju i razmeniti višak za druge željene robe. Na taj način zadovoljavaju svoju želju za robama koje sami proizvode, što znači da preostale jedinice njihove proizvodnje imaju malu vrednost za njih. To je ono što ekonomisti nazivaju opadajućom marginalnom korisnošću: svaka dodatna jedinica robe je manje željena od prethodne. Za druge kojima takve robe nedostaju, situacija je drugačija: iz istih razloga, oni teže da intenzivnije žele robe koje ne proizvode nego one koje proizvode. Ovo dovodi do situacije gde postoji jaka asimetrija između različitih subjektivnih procena pojedinaca, što je veoma pogodno za razmenu: svaka strana ima interes da razmeni svoj višak proizvodnje jer time povećava svoju subjektivnu korisnost.
 
 
-Rezultat prethodne analize je da su pojedinci uvek u boljoj poziciji kada se specijalizuju u svom radu i učestvuju u razmenama. Stoga, austrijski ekonomisti, posebno Ludwig Von Mises, zaključuju da je produktivna prednost koja proizlazi iz podele rada pokretačka snaga iza procesa društvene saradnje. Ovde može biti korisno citirati ga direktno:
+Rezultat prethodne analize je da su pojedinci uvek u boljoj poziciji kada se specijalizuju u svom radu i učestvuju u razmeni. Stoga, austrijski ekonomisti, posebno Ludwig Von Mises, zaključuju da je produktivna prednost koja proizlazi iz podele rada pokretačka snaga iza procesa društvene saradnje. Ovde može biti korisno citirati ga direktno:
 
 
 "Osnovne činjenice koje su dovele do saradnje, društva i civilizacije i transformisale životinju čoveka u ljudsko biće su činjenice da je rad obavljen pod podelom rada produktivniji od izolovanog rada i da je ljudski razum sposoban da prepozna ovu istinu. […] Ljudi ne sarađuju pod podelom rada zato što se vole ili bi trebalo da se vole. Oni sarađuju zato što to najbolje služi njihovim sopstvenim interesima."
@@ -327,10 +327,10 @@ Rezultat prethodne analize je da su pojedinci uvek u boljoj poziciji kada se spe
 > Baruch Spinoza
 
 
-1871-1874 su divne godine moderne ekonomije: ovaj period je svedočio radovima tri nezavisna mislioca koji su temeljni za modernu ekonomiju. Sa svojim naglaskom na subjektivnu ordinalnu vrednost, austrijski ekonomisti će razviti čitavo telo ekonomske misli koje ih izdvaja od njihovih homologa. Rad austrijskih ekonomista koji razmišljaju o ljudskoj akciji u kontekstu oskudice zauvek će stajati u oštrom kontrastu sa ekonomskim doktrinama koje su inicirali Dževons i Valras, a koje se u velikoj meri oslanjaju na matematiku, stojeći na ideji da se vrednost može objektivno meriti i izvesti kao kontinuirana funkcija.
+1871-1874 su divne godine moderne ekonomije: ovaj period je svedočio radovima tri nezavisna mislioca koji su temeljni za modernu ekonomiju. Sa svojim naglaskom na subjektivnu ordinalnu vrednost, austrijski ekonomisti će razviti čitavo telo ekonomske misli koje ih izdvaja od njihovih homologa. Rad austrijskih ekonomista koji razmišljaju o ljudskoj akciji u kontekstu oskudice zauvek će stajati u oštrom kontrastu sa ekonomskim doktrinama koje su inicirali Jevons i Walras, a koje se u velikoj meri oslanjaju na matematiku, i ideju da se vrednost može objektivno meriti i izvesti kao kontinuirana funkcija.
 
 
-Oslanjajući se na uvide subjektivne ordinalne vrednosti, Menger je objasnio nastanak podele rada i dobrovoljni Exchange. Ipak, kao što ćemo videti u narednom poglavlju, direktni Exchange je loša strategija za ekonomske agente koji žele da maksimiziraju svoju subjektivnu korisnost. Otac Austrijske škole je tako dodatno razvio svoje razmišljanje kako bi objasnio zašto je novac nastao kao društvena institucija.
+Oslanjajući se na uvide o subjektivnoj ordinalnoj vrednosti, Menger je objasnio nastanak podele rada i dobrovoljnu razmenu. Ipak, kao što ćemo videti u narednom poglavlju, direktna razmena je loša strategija za ekonomske agente koji žele da maksimiziraju svoju subjektivnu korisnost. Otac Austrijske škole je tako dalje razvio svoje razmišljanje kako bi objasnio zašto je novac nastao kao društvena institucija.
 
 
 Naredna poglavlja biće posvećena pojavi novca kao društvene institucije, teoriji kapitala i kamate, koja će služiti kao osnova za Teoriju poslovnog ciklusa, i na kraju ulozi cena u ekonomskoj kalkulaciji.
@@ -345,7 +345,7 @@ Naredna poglavlja biće posvećena pojavi novca kao društvene institucije, teor
 Iako pojedinci imaju zajednički interes u specijalizaciji i maksimizaciji podele rada, i dalje postoje problemi koordinacije koji ograničavaju ovo širenje.
 
 
-Prvo, važno je napomenuti da, pošto su proizvodni procesi inherentno vremenski ograničeni i često asinhroni (neistovremeni), obično će postojati vremenski razmak između početnog doprinosa pojedinca i prijema protivvrednosti. Posvećivanje određenom zadatku sada, bez prethodnog uverenja da će drugi zadovoljiti naše potrebe u budućnosti, može biti rizično.
+Prvo, važno je napomenuti da, pošto su proizvodni procesi inherentno vremenski ograničeni i često asinhroni (neistovremeni), obično će postojati vremenski jaz između početnog doprinosa pojedinca i prijema protivvrednosti. Posvećivanje određenom zadatku sada, bez prethodnog uverenja da će drugi zadovoljiti naše potrebe u budućnosti, može biti rizično.
 
 
 U podeli rada, svaka strana ima koristi od saradnje, ali pojedinačno, neko bi mogao biti u iskušenju da uživa u radu drugih bez uzvraćanja, jer na taj način dobija nešto vredno bez ikakvih troškova. Takve situacije, gde međusobna saradnja rezultira suboptimalnim dobicima za pojedince, ali maksimalnim dobicima za grupu, u teoriji igara se opisuju kao "zatvorenikova dilema."
@@ -354,24 +354,24 @@ U podeli rada, svaka strana ima koristi od saradnje, ali pojedinačno, neko bi m
 ### Zatvorenikova dilema
 
 
-Prvobitno, dilema zatvorenika je formulisana na sledeći način: Dvoje osumnjičenih, Alis i Bob, koji ne mogu da komuniciraju, suočavaju se sa rizikom zatvora, sa potencijalnim kaznama kako sledi:
+Prvobitno, zatvorenikova dilema je formulisana na sledeći način: Dvoje osumnjičenih, Alis i Bob, koji ne mogu da komuniciraju, suočavaju se sa rizikom zatvora, sa potencijalnim kaznama kako sledi:
 
 
 
-- Ako Alisa optuži Boba, a Bob ostane tih, Alisa ide slobodno, a Bob dobija 3 godine.
-- Ako se i Alisa i Bob međusobno optuže, oboje dobijaju po 2 godine.
-- Ako obojica ostanu tihi, svaki dobija po 1 godinu.
+- Ako Alisa optuži Boba, a Bob ne prizna, Alice je slobodna, a Bob dobija 3 godine.
+- Ako se i Alice i Bob međusobno optuže, oboje dobijaju po 2 godine.
+- Ako oboje ne priznaju, oboje dobijaju po 1 godinu.
 
 
 Ovi ishodi mogu biti predstavljeni u matrici (numerički rezultati označavaju broj godina zatvora):
 
 
-| Alice / Bob       | Accuse | Remain Silent |
+| Alice / Bob       | Optužiti | Ne priznati |
 | ----------------- | ------ | ------------- |
-| **Accuse**        | 2, 2   | 0, 3          |
-| **Remain Silent** | 3, 0   | 1, 1          |
+| **Optužiti**      | 2, 2   | 0, 3          |
+| **Ne priznati**   | 3, 0   | 1, 1          |
 
-U ovoj igri, ne postoji mogućnost koordinacije (komunikacija je nemoguća) kako bi se postigao najbolji ishod za obe strane. Posledično, Alisa i Bob imaju individualni podsticaj da optuže jedno drugo, iako to ne vodi do optimalnog ishoda za grupu. Optimalna strategija za oboje je da ostanu tihi, pri čemu svaki dobija kaznu od 1 godine.
+U ovoj igri, ne postoji mogućnost koordinacije (komunikacija je nemoguća) kako bi se postigao najbolji ishod za obe strane. Posledično, Alice i Bob imaju individualni podsticaj da optuže jedno drugo, iako to ne vodi do optimalnog ishoda za grupu. Optimalna strategija za oboje je da ne priznaju, pri čemu svaki dobija kaznu od 1 godine.
 
 
 Ova igra ilustruje problem koji se često sreće u stvarnom životu: u odsustvu mehanizama koordinacije, pojedinci teže da biraju strategije koje maksimizuju njihov individualni dobitak, bez obzira na strategije koje biraju drugi (krađa, varanje, izdaja, nasilje, itd.), čak i kada je moguće postići poželjniju ravnotežu kroz koordinaciju/saradnju.
@@ -392,19 +392,19 @@ Međutim, kada se radi o većim zajednicama koje značajno profitiraju od podele
 Prvo, ljudi su ograničeni svojim kognitivnim kapacitetima. Nemoguće je da osoba održava i pamti stabilne društvene odnose sa više od 150 pojedinaca, što čini sistem reputacije nedovoljnim za prevazilaženje zatvorenikove dileme u velikim razmerama.
 
 
-Drugo, društveno prihvaćeno merenje vrednosti doprinosa u Exchange (uporedivost) je netrivijalan problem. Na primer, ako pojedinac obezbedi meso iz lova i zauzvrat zatraži materijale za sklonište, kako se može proceniti količina ponuđenog mesa u ekvivalentu traženih materijala? Isto važi i za kvalitet – da li je meso jelena vrednije ili manje vredno od drveta?
+Drugo, društveno prihvaćeno merenje vrednosti doprinosa u razmeni (uporedivost) je složen problem. Na primer, ako pojedinac obezbedi meso iz lova i zauzvrat zatraži materijale za sklonište, kako se može proceniti količina ponuđenog mesa u ekvivalentnim terminima traženih materijala? Isto važi i za kvalitet – da li je meso jelena vrednije ili manje vredno od drveta?
 
 
-Čak i kada bi bilo moguće uspostaviti zadovoljavajuću Exchange stopu za svaki par dobara, održavanje ovih informacija brzo postaje nepraktično. U direktnom Exchange sistemu koji uključuje N dobara, postoji N(N-1)/2 Exchange stopa koje treba zapamtiti. Za ekonomiju od 50 dobara, to znači zapamtiti 50\*49/2, ili 1225 Exchange stopa, za razliku od samo 50 u indirektnim razmenama. Za ekonomiju od 100 dobara, ovaj broj se povećava na 4950. Takav kvadratni odnos postavlja dodatno ograničenje na skalabilnost direktnog Exchange (trampa).
+Čak i kada bi bilo moguće uspostaviti zadovoljavajući kurs razmene za svaki par dobara, održavanje ovih informacija brzo postaje nepraktično. U sistemu direktne razmene koji uključuje N dobara, postoji N(N-1)/2 kurseva razmene koje treba zapamtiti. Za ekonomiju od 50 dobara, to znači zapamtiti 50\*49/2, ili 1225 kurseva razmene, za razliku od samo 50 u indirektnim razmenama. Za ekonomiju od 100 dobara, ovaj broj se povećava na 4950. Takav kvadratni odnos postavlja dodatno ograničenje na skalabilnost direktne razmene (trampe).
 
 
-Štaviše, pošto se ove razmene ne dešavaju trenutno, već su raspoređene tokom vremena, procena doprinosa tokom vremena dodatno komplikuje relativnu procenu doprinosa. Pored procene Exchange odnosa između dva sadašnja dobra, postaje neophodno proceniti vrednost prošlog doprinosa u odnosu na budući ekvivalent.
+Štaviše, pošto se ove razmene ne dešavaju trenutno, već su raspoređene tokom vremena, procena doprinosa tokom vremena dodatno komplikuje relativnu procenu doprinosa. Pored procene kursa razmene između dva sadašnja dobra, postaje neophodno proceniti vrednost prošlog doprinosa u odnosu na buduću protivvrednost.
 
 
-Danas, uprkos nepraktičnosti takvog sistema, mogli bismo koristiti pisanje ili digitalno skladištenje podataka da zapamtimo sve ove informacije i uspostavimo kreditni sistem (praćenje prošlih doprinosa, uključujući Exchange stopu tih doprinosa, suštinski je postavljanje kreditnog sistema).
+Danas, uprkos nepraktičnosti takvog sistema, mogli bismo koristiti pisanje ili digitalno skladištenje podataka da zapamtimo sve ove informacije i uspostavimo kreditni sistem (praćenje prošlih doprinosa, uključujući kurs razmene tih doprinosa, suštinski je postavljanje kreditnog sistema).
 
 
-U vremenima pre civilizacije, ove tehnologije nisu postojale. Tako su naši preci morali pronaći druga rešenja kako bi uživali u prednostima podele rada, a da se ne izlože negativnim posledicama zatvorenikove dileme. Rešenje ovog problema direktnog Exchange bilo je indirektno Exchange omogućeno novcem.
+U predcivilizacijskim vremenima, ove tehnologije nisu postojale. Tako su naši preci morali pronaći druga rešenja kako bi uživali u prednostima podele rada, a da se ne izlože negativnim posledicama zatvorenikove dileme. Rešenje ovog problema direktne razmene bila je indirektna razmena olakšana novcem.
 
 
 ### Dvostruka podudarnost želja i prodajnost

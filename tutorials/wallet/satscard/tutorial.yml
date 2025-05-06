@@ -88,6 +88,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.99
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.91
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.99
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.99
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.99
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.96
 tags:
   - hardware
   - wallets

@@ -18,8 +18,101 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0
-
-
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.86
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.92
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.92
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.86
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.86
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.92
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 27.69
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.8
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.92
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.74
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.86
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.86
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.92
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.86
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.86
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.86
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.74
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.8
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.8
 tags:
   - lightning
   - wallets

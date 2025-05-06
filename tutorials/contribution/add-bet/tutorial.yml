@@ -86,6 +86,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.41
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.14
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.41
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.41
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.41
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.98
 tags:
   - guides
   - evaluation

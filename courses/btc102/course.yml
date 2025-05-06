@@ -100,6 +100,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 18.52
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.16
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 50.18
 tags:
   - wallets
   - user-friendly

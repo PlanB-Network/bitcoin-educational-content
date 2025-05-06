@@ -79,6 +79,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.74
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.22
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.74
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.74
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.74
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.9
 tags:
   - cypherpunk
   - privacy

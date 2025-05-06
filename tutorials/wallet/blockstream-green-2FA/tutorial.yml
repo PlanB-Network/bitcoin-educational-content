@@ -88,6 +88,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 8.59
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 11.99
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.89
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.89
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.89
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.59
 tags:
   - wallets
   - guides

@@ -407,19 +407,19 @@ Danas, uprkos nepraktičnosti takvog sistema, mogli bismo koristiti pisanje ili 
 U predcivilizacijskim vremenima, ove tehnologije nisu postojale. Tako su naši preci morali pronaći druga rešenja kako bi uživali u prednostima podele rada, a da se ne izlože negativnim posledicama zatvorenikove dileme. Rešenje ovog problema direktne razmene bila je indirektna razmena olakšana novcem.
 
 
-### Dvostruka podudarnost želja i prodajnost
+### Dvostruka podudarnost želja i mogućnosti prodaje
 
 
 ![image](assets/en/11.webp)
 
 
-Novac se može smatrati rešenjem koje su naši preci otkrili za Address, ono što ekonomisti nazivaju problemom "dvostruke podudarnosti želja". Ovaj problem ima tri dimenzije: prostornu, vremensku i međuljudsku.
+Novac se može smatrati rešenjem koje su naši preci otkrili kako bi rešili problem koji ekonomisti nazivaju "dvostruka podudarnost želja". Ovaj problem ima tri dimenzije: prostornu, vremensku i međuljudsku.
 
 
-U direktnom Exchange (trampi) između Alise i Boba, oboje moraju posedovati nešto što onaj drugi želi u isto vreme i na istom mestu. Koristeći indirektni Exchange, tj. kroz novac, Alisa može kupiti od Boba, a Bob može koristiti tu novčanu jedinicu negde drugde, u drugo vreme, i sa nekim drugim (pod uslovom da ta osoba prihvata taj oblik novca).
+U direktnom razmeni (trampi) između Alice i Boba, oboje moraju posedovati nešto što onaj drugi želi u isto vreme i na istom mestu. Korišćenjem indirektne razmene, tj. kroz novac, Alice može kupiti od Boba, a Bob može koristiti tu novčanu jedinicu negde drugde, u drugo vreme, i sa nekim drugim (pod uslovom da ta osoba prihvata taj oblik novca).
 
 
-Da bi dobro služilo kao novac, mora imati visoku prodajnost, što znači da bi trebalo da bude poželjno od strane što većeg broja ljudi, većinu vremena. Korišćenjem visoko prodajnog dobra, problem dvostrukog podudaranja želja se rešava u smislu prostorne i međuljudske dimenzije: ako je dobro koje koristim kao novac poželjno svuda i od strane većine ljudi, mogu lako odvojiti čin prodaje od čina kupovine u smislu lokacije i socijalne interakcije.
+Da bi neko dobro služilo kao novac, mora imati visoku prodajnost, što znači da bi trebalo da bude željeno od strane što većeg broja ljudi, većinu vremena. Korišćenjem visoko prodajnog dobra, problem dvostrukog podudaranja želja se rešava u smislu prostorne i međuljudske dimenzije: ako je dobro koje koristim kao novac poželjno svuda i od strane većine ljudi, mogu lako odvojiti čin prodaje od čina kupovine u smislu lokacije i društvene interakcije.
 
 
 Međutim, problem prodajnosti tokom vremena je teže rešiti iz dva razloga:
@@ -428,13 +428,13 @@ Međutim, problem prodajnosti tokom vremena je teže rešiti iz dva razloga:
 Prvo, entropija (obično poznata kao "efekat vremena") postepeno menja osobine većine dobara sa direktnom korisnošću. Stoga, očuvanje prodajnosti dobra tokom vremena zahteva da ono bude veoma izdržljivo ili otporno na entropiju.
 
 
-Drugo, relativna oskudica dobra u trenutku "t" ne garantuje njegovu relativnu oskudicu u budućnosti. Posvećivanjem dovoljno resursa određenoj oblasti proizvodnje, ljudi mogu povećati Supply bilo kog dobra. Jedino ograničenje za povećanje proizvodnje dobra je povezani oportunitetni trošak. Shodno tome, trenutna relativna oskudica dobra ne može garantovati njegovu buduću relativnu oskudicu. Samo dobra čija se marginalna proizvodnja može povećati po veoma visokim troškovima mogu biti dosledno oskudna, zbog čega je ovo karakteristika slobodno nastalih monetarnih dobara kroz ljudsku istoriju.
+Drugo, relativna oskudica dobra u trenutku "t" ne garantuje njegovu relativnu oskudicu u budućnosti. Posvećivanjem dovoljno resursa određenoj oblasti proizvodnje, ljudi mogu povećati ponudu bilo kog dobra. Jedino ograničenje za povećanje proizvodnje dobra je povezani oportunitetni trošak. Shodno tome, trenutna relativna oskudica dobra ne može garantovati njegovu buduću relativnu oskudicu. Samo dobra čija se marginalna proizvodnja može povećati po veoma visokim troškovima mogu biti dosledno oskudna, zbog čega je ovo karakteristika slobodno nastalih monetarnih dobara kroz ljudsku istoriju.
 
 
 U predcivilizacijskim vremenima, razne robe poput školjki, ručno izrađenog nakita, ogrlica ili perli služile su kao novac. Ove robe su bile lako prenosive, nisu imale direktnu korisnost osim svoje ukrasne vrednosti, odolevale su entropiji (tj. nisu se vremenom pogoršavale), bile su prirodno oskudne i/ili su zahtevale značajnu količinu specijalizovanog rada za proizvodnju. Pošto je nivo podele rada tada bio nizak, a samim tim i oportunitetni trošak povezan sa proizvodnjom ukrasnih artefakata bio visok, ovi predmeti nisu mogli biti proizvedeni u velikim količinama. Tako su oni koji su koristili ove predmete kao novac mogli biti sigurni u njihovu buduću relativnu oskudnost.
 
 
-Činjenica da su naši preci lovci-sakupljači učestvovali u ovim resursno intenzivnim zadacima, iako nisu generisali dobra sa direktnom korisnošću, pokazuje značajne dobitke koje su očekivali od širenja prostornog, socijalnog i vremenskog obima Exchange. Da to nije bio slučaj, i da im je bilo korisnije da ove resurse koriste za izgradnju skloništa, lov ili druge aktivnosti, umesto za proizvodnju monetarnih dobara, verovatno ne bismo pronašli toliko arheoloških dokaza o ovim zanatskim aktivnostima. Druge grupe koje su efikasnije koristile svoje resurse uživale bi bolji razvoj i veću prosperitet, a ove zanatske aktivnosti bi brzo nestale u korist aktivnosti koje proizvode dobra sa direktnom korisnošću.
+Činjenica da su naši preci lovci-sakupljači učestvovali u ovim resursno intenzivnim zadacima, iako nisu generisali dobra sa direktnom korisnošću, pokazuje značajne dobitke koje su očekivali od širenja prostornog, socijalnog i vremenskog obima razmene. Da to nije bio slučaj, i da im je bilo korisnije da ove resurse koriste za izgradnju skloništa, lov ili druge aktivnosti, umesto za proizvodnju monetarnih dobara, verovatno ne bismo pronašli toliko arheoloških dokaza o ovim zanatskim aktivnostima. Druge grupe koje su efikasnije koristile svoje resurse uživale bi bolji razvoj i veći prosperitet, a ove zanatske aktivnosti bi brzo nestale u korist aktivnosti koje proizvode dobra sa direktnom korisnošću.
 
 
 U tom smislu, proizvodnja monetarnih dobara, promovišući širenje podele rada, predstavljala je isplativiju upotrebu resursa (u smislu subjektivne korisnosti za pojedince) nego sve druge alternative (povećanje lova, ribolova, sakupljanja, proizvodnje drveta, izgradnje kuća, proizvodnje više alata za lov i ribolov, itd.).
@@ -443,19 +443,19 @@ U tom smislu, proizvodnja monetarnih dobara, promovišući širenje podele rada,
 ### Neizvesnost
 
 
-Da bismo zaključili našu analizu monetarne institucije, potrebno je Address pitanje ekonomske akcije u kontekstu neizbežne neizvesnosti o budućnosti.
+Da bismo zaključili našu analizu monetarne institucije, potrebno je da se pozabavimo pitanjem ekonomskog delovanja u kontekstu neizbežne neizvesnosti o budućnosti.
 
 
-Kao što su austrijski ekonomisti istakli, ljudska akcija je vremenski ograničena i uvek usmerena ka budućnosti. Kada pojedinac deluje, menja svoje trenutno stanje u nadi da će postići buduće zadovoljstvo. Ova mentalna projekcija može biti usmerena ka bliskoj ili dalekoj budućnosti, ali da bi pojedinac projektovao na duži rok, prvo mora obezbediti svoju kratkoročnu egzistenciju jer njihovo stanje u bliskoj budućnosti direktno utiče na njihovo stanje u dalekoj budućnosti.
+Kao što su austrijski ekonomisti istakli, ljudska akcija je vremenski ograničena i uvek usmerena ka budućnosti. Kada pojedinac deluje, menja svoje trenutno stanje u nadi da će postići buduće zadovoljstvo. Ova mentalna projekcija može biti usmerena ka bliskoj ili dalekoj budućnosti, ali da bi pojedinac projektovao na duži rok, prvo mora obezbediti svoju kratkoročnu egzistenciju jer njegovo stanje u bliskoj budućnosti direktno utiče na njegovo stanje u dalekoj budućnosti.
 
 
 Ovo direktno proizilazi iz ljudske racionalnosti; niko ne može ignorisati sekvencijalnu prirodu vremenskih fenomena i hronološku zavisnost koja iz toga proizilazi jer je to jedno od suštinskih ograničenja ljudskog života. Stoga, pošto budućnost uvek ostaje neizvesna za ljude, oni će nastojati da obezbede svoj dugoročni opstanak tek kada im je kratkoročni opstanak osiguran.
 
 
-U tom pogledu, novac, omogućavajući skladištenje vrednosti u sadašnjosti i njeno prenošenje budućem sebi, igra ključnu ulogu u intertemporalnoj koordinaciji ljudske akcije. Skladištenjem novca, tj. štednjom, pojedinci se štite od buduće neizvesnosti i tako omogućavaju sebi da usmere svoje akcije ka dužim vremenskim horizontima. Međutim, to mogu postići samo ako novac koji koriste predstavlja skladište vrednosti, što znači da ima prodajnost tokom vremena, što je, kao što je ranije pomenuto, karakteristika trajnih i relativno oskudnih dobara.
+U tom pogledu, novac, omogućavajući skladištenje vrednosti u sadašnjosti i njeno prenošenje budućem sebi, igra ključnu ulogu u intertemporalnoj koordinaciji ljudske akcije. Skladištenjem novca, tj. štednjom, pojedinci se štite od buduće neizvesnosti i tako omogućavaju sebi da usmere svoje akcije ka dužim vremenskim horizontima. Međutim, to mogu postići samo ako novac koji koriste predstavlja čuvara vrednosti, što znači da ima prodajnost tokom vremena, što je, kao što je ranije pomenuto, karakteristika trajnih i relativno oskudnih dobara.
 
 
-U narednom poglavlju ćemo se upustiti u koncept vremenske preferencije i objasniti austrijsku perspektivu o kamatama i kapitalu, što će poslužiti kao osnova za sledeće poglavlje o Teoriji poslovnog ciklusa.
+U narednom poglavlju ćemo se upustiti u koncept vremenske preferencije i objasniti austrijsku perspektivu o kamati i kapitalu, što će poslužiti kao osnova za sledeće poglavlje o Teoriji poslovnog ciklusa.
 
 
 ## Vremenska preferencija, kamata i kapital
@@ -470,22 +470,22 @@ U narednom poglavlju ćemo se upustiti u koncept vremenske preferencije i objasn
 Zaključili smo poslednje poglavlje objašnjavajući kako ekonomski agenti koriste najprodavanije dobro, tj. novac, da bi se zaštitili od buduće neizvesnosti. Takođe smo objasnili da nas sekvencijalna priroda vremenskih fenomena vodi ka postepenoj borbi protiv neizvesnosti: tek kada znamo da će naša egzistencija biti osigurana za narednu nedelju, možemo se koncentrisati na ciljeve koji su dalje u budućnosti.
 
 
-Ili, da to kažemo drugačije: kao ljudska bića umanjujemo vrednost budućih dobara.
+Ili, da to kažemo drugačije: kao ljudska bića diskontujemo (umanjujemo) vrednost budućih dobara.
 
 
 Ova subjektivna procena vrednosti budućih dobara u poređenju sa sadašnjim dobrima naziva se vremenska preferencija. Sve ostalo jednako, sadašnja dobra su inherentno preferirana u odnosu na buduća dobra. Pošto smo smrtni, a budućnost je uvek neizvesna, prirodno preferiramo da imamo pristup dobru sada, a ne kasnije. Iako vremenska preferencija može da se razlikuje među pojedincima, zbog mnoštva faktora kao što su kultura, bogatstvo, obrazovanje, fiziologija, itd., vremenske preferencije su uvek pozitivne, što znači da, sve ostalo jednako, uvek više cenimo sadašnja dobra nego buduća dobra.
 
 
-Ovaj koncept relativne vrednosti budućih dobara u odnosu na sadašnja dobra je u osnovi fenomena kamate. Zaista, u ekonomiji sa nemanipulisanim tržištima kapitala, referentne kamatne stope (smatrane bez rizika od neizvršenja obaveza) određuju se na preseku kapitala Supply i potražnje. Stoga, ove stope predstavljaju stanje vremenskih preferencija za celu ekonomiju: povećanje kamatne stope rezultat je relativnog povećanja potražnje za kapitalom u poređenju sa Supply, što ukazuje na veće vremenske preferencije. Suprotno tome, smanjenje kamatnih stopa nastaje zbog povećanja štednje, što je povećanje Supply kapitala, što ukazuje na smanjenje vremenskih preferencija.
+Ovaj koncept relativne vrednosti budućih dobara u odnosu na sadašnja dobra je u osnovi fenomena kamate. Zaista, u ekonomiji sa nemanipulisanim tržištima kapitala, referentne kamatne stope (koje se smatraju bez rizika od neizvršenja obaveza) određuju se na preseku ponude i potražnje kapitala. Stoga, ove stope predstavljaju stanje vremenskih preferencija za celu ekonomiju: povećanje kamatne stope rezultat je relativnog povećanja potražnje za kapitalom u poređenju sa ponudom, što ukazuje na veće vremenske preferencije. Suprotno tome, smanjenje kamatnih stopa nastaje zbog povećanja štednje, što je povećanje ponude kapitala, što ukazuje na smanjenje vremenskih preferencija.
 
 
 ![image](assets/en/12.webp)
 
 
-U ekonomiji gde centralna banka ne manipuliše kamatnim stopama, obično posmatramo krivu prinosa koja raste: što je duži rok dospeća duga, to je viša kamatna stopa. Suprotna situacija ne može da se dogodi jer bi to značilo da je budućnost izvesnija od sadašnjosti, što je logička nemogućnost.
+U ekonomiji gde centralna banka ne manipuliše kamatnim stopama, obično posmatramo krivu prinosa koja raste: što je duži rok dospeća duga, to je viša kamatna stopa. Suprotna situacija ne može da se dogodi jer bi to značilo da je budućnost izvesnija od sadašnjosti, što je logički nemoguće.
 
 
-Koncept vremenske preferencije i način na koji izražavamo sopstvenu vremensku preferenciju kroz čin potrošnje i štednje su fundamentalni za procese alokacije kapitala i proizvodnje. Okrenimo se Mengerovom učeniku, Eugenu fon Böm-Baverku, i njegovoj teoriji kapitala kako bismo razumeli tačno kako vremenska preferencija utiče na organizaciju proizvodnje.
+Koncept vremenske preferencije i način na koji izražavamo sopstvenu vremensku preferenciju kroz čin potrošnje i štednje su fundamentalni za procese alokacije kapitala i proizvodnje. Okrenimo se Mengerovom učeniku, Eugenu fon Böm-Baverk-u, i njegovoj teoriji kapitala kako bismo razumeli tačno kako vremenska preferencija utiče na organizaciju proizvodnje.
 
 
 ### Teorija kapitala
@@ -497,16 +497,16 @@ Koncept vremenske preferencije i način na koji izražavamo sopstvenu vremensku 
 Na početku ovog kursa, videli smo da su, za Karla Mengera, dobra smatrana ekonomskim dobrima (vrednovana) samo zato što služe kao sredstva za ciljeve koje pojedinci biraju i vrednuju. Prema ovom gledištu, cela ekonomska analiza se vrti oko potrošnje jer je ona u krajnjoj liniji motivacioni cilj iza sve ekonomske aktivnosti. Dakle, za Mengera, početna tačka ekonomske analize su potrošačka dobra, ili finalna dobra, jer predstavljaju krajnji cilj ekonomske aktivnosti. Sva ostala dobra u ekonomiji, koja možemo nazvati "srednja dobra," imaju vrednost samo zato što omogućavaju pojedincima da dobiju ova potrošačka dobra: to su dobra koja se koriste u proizvodnji drugih dobara.
 
 
-Da bi proizveli potrošačku robu, preduzetnici kombinuju ove različite međuproizvode sa originalnim faktorima proizvodnje (rad, zemlja i kapital) prema obrascu koji maksimizira rezultujuću proizvodnju. Ova aranžman, koji prave preduzetnici, ili struktura proizvodnje, uključuje različite faze tokom kojih međuproizvodi prolaze kroz transformacije dok na kraju ne postanu potrošačka roba.
+Da bi proizveli potrošačku robu, preduzetnici kombinuju ove različite međuproizvode (srednja dobra) sa originalnim faktorima proizvodnje (rad, zemlja i kapital) prema obrascu koji maksimizira rezultujuću proizvodnju. Ova aranžman, koji prave preduzetnici, ili struktura proizvodnje, uključuje različite faze tokom kojih međuproizvodi prolaze kroz transformacije dok na kraju ne postanu potrošačka roba.
 
 
-Dakle, kao i Menger, možemo definisati potrošačka dobra kao dobra prvog reda, dobra uključena u prethodnu fazu kao dobra drugog reda, ona u fazi pre toga kao dobra trećeg reda, i tako dalje, sve dok ne dođemo do originalnih faktora (zemlja, rad, kapital). Broj faza koje razmatramo u osnovi zavisi od strukture proizvodnje koju usvajaju preduzetnici i ne treba ga posmatrati kao objektivnu karakteristiku strukture proizvodnje. Naprotiv, faze proizvodnje i međuproizvodi postoje samo u teleološkom kontekstu: akter zamišlja niz akcija kroz koje će postići željeni cilj i mentalno deli svoju akciju na uzastopne faze.
+Dakle, kao i Menger, možemo definisati potrošačka dobra kao dobra prvog reda, dobra uključena u prethodnu fazu kao dobra drugog reda, ona u fazi pre toga kao dobra trećeg reda, i tako dalje, sve dok ne dođemo do originalnih faktora (zemlja, rad, kapital). Broj faza koje razmatramo u osnovi zavisi od strukture proizvodnje koju usvajaju preduzetnici i ne treba ga posmatrati kao objektivnu karakteristiku strukture proizvodnje. Naprotiv, faze proizvodnje i međuproizvodi postoje samo u teleološkom kontekstu: akter zamišlja niz akcija kroz koje će postići željeni cilj i mentalno deli svoju akciju na sukcesivne faze.
 
 
 Ova karakteristika mentalne projekcije akcije u sekvencijalnom obrascu je nametnuta vremenskom prirodom ljudske akcije. Svaka akcija koju preduzmu ljudi zahteva vreme; trenutna akcija je nemoguća. Stoga, akter uvek ima izbor među obrascima akcije koji traju više ili manje vremena.
 
 
-Stoga, pošto pojedinci nužno imaju pozitivne vremenske preferencije, što znači da preferiraju sadašnja dobra u odnosu na buduća dobra, oni će izabrati duži put samo ako rezultat koji dobiju ima veću subjektivnu vrednost za njih nego ono što bi postigli uzimanjem direktnog puta. U suprotnom, niko ne bi usvojio metode koje oduzimaju više vremena: pod ekvivalentnim rezultatima, najkraći put ostaje preferirani izbor.
+Stoga, pošto pojedinci nužno imaju pozitivne vremenske preferencije, što znači da preferiraju sadašnja dobra u odnosu na buduća dobra, oni će izabrati duži put samo ako rezultat koji dobiju ima veću subjektivnu vrednost za njih nego ono što bi postigli direktnim putem. U suprotnom, niko ne bi usvojio metode koje oduzimaju više vremena: pod ekvivalentnim rezultatima, najkraći put ostaje preferirani izbor.
 
 
 Zbog sekvencijalne prirode ljudskih akcija, ovi međuvremenski izbori uvek imaju implikacije na sekvencu akcija. Drugim rečima, kratkoročne akcije koje preduzimam su podređene dugoročnim ciljevima koje postavljam, i moje kratkoročne akcije će uticati na ono što mogu da radim u budućnosti. Implikacija ove očigledne tačke u vezi sa proizvodnim aktivnostima je da bilo kakvo zaobilaženje u proizvodnji, tj. bilo kakvo produžavanje strukture proizvodnje, zahteva prethodnu štednju. Ako odlučim da alociram više resursa u sadašnjosti kako bih postigao budući cilj, prvo moram odvojiti ono što će me održati tokom vremena koje je potrebno za moju investiciju.
@@ -530,13 +530,13 @@ Eugen von Böhm-Bawerk (1851-1914)
 Robinson Crusoe iskrcava zalihe sa olupine, John Alexander Gilfillan (1793-1864)
 
 
-U svojoj knjizi, austrijski ekonomista nas poziva da razmotrimo međuvremenske kompromise svojstvene zaobilaznim putevima proizvodnje kroz misaoni eksperiment zasnovan na Robinsonu Krusou koji je sam na svom ostrvu.
+U svojoj knjizi, austrijski ekonomista nas poziva da razmotrimo međuvremenske kompromise svojstvene zaobilaznim putevima proizvodnje kroz misaoni eksperiment zasnovan na Robinson Kruso-u koji je sam na svom ostrvu.
 
 
 Robinson, kao primitivni čovek, zavisi od sakupljanja i lova za svoju ishranu. Zamislimo da Robinson može sakupiti dovoljno bobica da se nahrani za ceo dan za osam sati. U takvim uslovima, ima malo vremena za druge aktivnosti. Međutim, Robinson veruje da bi pravljenjem drvenog štapa mogao lako oboriti bobice i obezbediti svoju dnevnu hranu za samo četiri sata rada. Štaviše, procenjuje da će mu trebati pet dana, radeći po dva sata dnevno, da napravi štap. Stoga zaključuje da treba da uštedi 1/5 svoje proizvodnje bobica tokom pet dana, ili alternativno provede dodatna 2 sata dnevno u sakupljanju tokom 5 dana, kako bi uštedeo dovoljno bobica da se izdržava tokom vremena koje provodi praveći štap.
 
 
-Ako ne izvrši ovo prethodno spasavanje, Robinson neće moći da završi svoj pol i mogao bi da umre u međuvremenu.
+Ako ne izvrši ovu prethodnu uštedu, Robinson neće moći da završi svoj štap i mogao bi da umre u međuvremenu.
 
 
 Dakle, pet dana žrtvuje dva sata svog odmora kako bi sakupio više bobica. Na kraju ovog perioda, ima dovoljno bobica i počinje izrađivati drveni štap, radeći dva sata dnevno tokom pet dana. Kada završi svoj rad, može sakupiti dovoljno bobica za svoju dnevnu porciju za 4 sata umesto 8, što mu omogućava da preostalih 4 sata dnevno koristi za druge aktivnosti.
@@ -554,10 +554,10 @@ Drugim rečima, u ekonomiji jednog čoveka Robinzona Krusoa, štednja kroz žrtv
 Ovo je primamljiv, iako jednostavan, koncept: svako proširenje proizvodne strukture zahteva prethodnu štednju (jer dobra potrebna za takvu proizvodnju neće pasti s neba), i stoga, što više štedimo, više kapitala ćemo moći akumulirati, što će zauzvrat rezultirati povećanjem produktivnosti koja donosi više dobara. Tako austrijski ekonomisti smatraju da je smanjenje vremenskih preferencija početna tačka za vrli ciklus štednje –> više kapitalnih dobara  veća produktivnost  više dobara = viši životni standard –> niža vremenska preferencija.
 
 
-Sada, kao što je nagovešteno u prvom poglavlju, centralne banke manipulišu kamatnim stopama decenijama, dok komercijalne banke odobravaju kredite bez prethodnih rezervi, što znači da kamatne stope ne predstavljaju našu vremensku preferencu i daju iluziju obilnih ušteda.
+Sada, kao što je nagovešteno u prvom poglavlju, centralne banke manipulišu kamatnim stopama decenijama, dok komercijalne banke odobravaju kredite bez prethodnih rezervi, što znači da kamatne stope ne predstavljaju našu vremensku preferenciju i daju iluziju obilnih ušteda.
 
 
-Ovo je savršeno ilustrovano grafikonom ispod: dugoročne stope su niže od kratkoročnih. Prvo, ovo apsolutno nema smisla, jer bi to značilo da je budućnost sigurnija od sadašnjosti. Drugo, to zahteva istragu o posledicama za alokaciju kapitala: ako su svi podstaknuti da se ponašaju kao da su uštede obilne, dok štediše nigde nisu jer nisu nagrađeni za štednju, kakve posledice bi to moglo imati za ekonomiju?
+Ovo je savršeno ilustrovano grafikonom ispod: dugoročne stope su niže od kratkoročnih. Prvo, ovo apsolutno nema smisla, jer bi to značilo da je budućnost sigurnija od sadašnjosti. Drugo, to zahteva istragu o posledicama za alokaciju kapitala: ako su svi podstaknuti da se ponašaju kao da je štednja obilna, dok štediša nema jer nisu nagrađeni za štednju, kakve posledice bi to moglo imati za ekonomiju?
 
 
 ![image](assets/en/16.webp)

@@ -191,21 +191,11 @@ Ainsi, un peu plus d'un an après la vente des pizzas de Laszlo, Silk Road est d
 
 ## La reprise de Mt. Gox (mars–août 2011)
 
-https://journalducoin.com/analyses/mt-gox-origines-premiere-place-marche-bitcoin/
+La période allant du début de l'année 2011 à la fin de l'année 2013 est caractérisée par le développement de l'activité de change entre le bitcoin et les monnaies classiques, comme le dollar et l'euro. Ce type de services jouait en effet un rôle essentiel dans l'économie de Bitcoin, cette dernière étant trop petite pour fonctionner de manière fermée. Les mineurs avaient besoin de vendre leurs récompenses pour payer leurs factures d'électricité. Les commerçants (dont notamment les vendeurs de Silk Road) devaient récupérer des dollars pour rembourser leurs fournisseurs, et leurs clients, qui ne disposaient généralement pas de bitcoin, avaient besoin de s'en procurer préalablement. Il y avait aussi une forte demande spéculative, venant des gens qui considéraient la cryptomonnaie comme un investissement.
 
-La période allant du début de l'année 2011 à la fin de l'année 2013 est caractérisée par le développement des services de change ... par la financiarisation, c'est-à-dire par le développement poussé de services de change reposant sur le système bancaire, notamment grâce à une demande spéculative élevée.
+La première plateforme de change d'envergure a été Mt. Gox, lancée « sur un coup de tête » en juillet 2010 par l'entrepreneur Jed McCaleb. Grâce à son fonctionnement automatisé, elle s'est rapidement imposée comme le moyen principal de changer des dollars en bitcoins, et inversement. Au début de l'année 2011, face à l'ampleur de la tâche, Jed McCaleb a décidé de céder cette plateforme à une personne plus qualifiée techniquement et davantage motivée : le développeur français Mark Karpelès.
 
-de financiarisation, c'est-à-dire une période de développement des services de change.
-
-EDB : Le besoin de disposer de services de change se fait ressentir très rapidement. En effet, de manière générale les gens possèdent, gagnent et dépensent de la monnaie fiat comme du dollar ou de l'euro, et non du bitcoin. Ainsi, même si Bitcoin est un système théoriquement indépendant du système traditionnel, il est essentiel qu'il existe des passerelles entre les deux univers, au moins de manière temporaire.
-
-Le première plateforme de change d'envergure a été Mt. Gox. Celle-ci a été lancée « sur un coup de tête » en juillet 2010 par l'entrepreneur Jed McCaleb. Elle a connu une croissance fulgurante et s'est rapidement imposée comme le moyen principal de changer des dollars en bitcoins, et inversement. Au début de l'année 2011, face à l'ampleur de la tâche, Jed McCaleb a décidé de céder cette plateforme à une personne plus qualifiée techniquement et davantage motivée : le développeur français Mark Karpelès.
-
-La plateforme a pris une place majeure dans le fonctionnement économique de Bitcoin : là où les mineurs pouvaient vendre, là où les vendeurs de Silk Road pouvaient récupérer des dollars, là où les spéculateurs pouvaient se procurer du bitcoin en quantité suffisante. Elle a été le lieu principal de la première réelle bulle spéculative sur le prix du bitcoin, qui a culminé à 32 $ en juin. Toutefois, elle a été stoppée par un incident majeur : un piratage qui présageait de l'avenir de la plateforme.
-
-JDC: Durant le printemps 2011, Mt. Gox connaît une ascension fulgurante en offrant aux nouveaux arrivants la possibilité de se procurer des gros montants de bitcoins, et en permettant aux mineurs et aux vendeurs de la toute jeune plateforme Silk Road de revendre leurs revenus en bitcoins.
-
-Dans ce chapitre, nous verrons comment la reprise de Mt. Gox a eu lieu, comment le succès s'est installé et comment les premiers problèmes sont apparus.
+La plateforme a joué un rôle central dans l'histoire de Bitcoin. Elle a été le lieu principal de la première réelle bulle spéculative sur le prix du bitcoin, qui a culminé à 32 $ en juin. Elle a aussi connu un piratage massif, et était liée à plusieurs incidents s'étant produit dans l'écosystème. Dans ce chapitre, nous parlerons des circonstances dans lesquelles s'est faite la reprise de Mt. Gox, du succès fulgurant qu'elle a rencontré à partir du printemps et des premiers problèmes qu'elle a subi.
 
 ### Mark Karpelès, le geek
 
@@ -365,7 +355,7 @@ Les plateformes concurrentes mettent aussi une solution de double authentificati
 
 Lors de l'été 2011, la plupart des nouveaux utilisateurs optent pour MyBitcoin, l'application dépositaire permettant de gérer des bitcoins sans avoir à se soucier de faire fonctionner un logiciel complexe. Elle est disponible en ligne sous la forme d'une interface web, et il faut disposer d'un simple mot de passe pour accéder à un compte. L'application est [mise en avant](https://www.youtube.com/watch?v=ejiqbzqmxSE) par les [tutoriels](https://web.archive.org/web/20110613053345/http://bitcoinme.com/index.php/accept) de l'époque comme solution simple de recevoir des bitcoins. Bruce Wagner la [présente](https://web.archive.org/web/20110424221921/http://www.bitcoinme.com/) sur son site Bitcoinme.com comme un moyen « très rapide et facile de commencer à utiliser Bitcoin » (original: "super fast and easy to get started with using Bitcoin"). L'utilisation est si simple que beaucoup de gens ne suivent pas le [conseil de Satoshi](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) de juste conserver de la « petite monnaie » sur l'application, et s'en servent comme un compte d'épargne.
 
-Dans les jours qui suivent le 19 juin, MyBitcoin subit les conséquences de la fuite de données de Mt. Gox. Des personnes malintentionnées accèdent à de nombreux comptes appartenant à des personnes ayant un mot de passe faible réutilisé sur Mt. Gox (ce qui arrive aussi pour [GMail](https://bitcointalk.org/index.php?topic=19641.msg245714#msg245714) ou [TradeHill](https://www.youtube.com/watch?v=8ygb9D9vnL4&t=253s)). Par exemple, [BrightAnarchist](https://bitcointalk.org/index.php?topic=20427.msg255193#msg255193), le membre du forum qui avait poussé l'EFF à accepter le bitcoin en 2010, perd l'intégralité de ses fonds. Le 25 juin, Tom Williams, le président anonyme de MyBitcoin, [explique](https://bitcointalk.org/index.php?topic=22221.msg279396#msg279396) que 1 % des utilisateurs présents dans la fuite de données de Mt. Gox ont été touchés et que 4 019 bitcoins ont été volés.
+Dans les jours qui suivent le 19 juin, MyBitcoin subit les conséquences de la fuite de données de Mt. Gox. Des personnes malintentionnées accèdent à de nombreux comptes appartenant à des personnes ayant un mot de passe faible réutilisé sur Mt. Gox (ce qui arrive aussi pour [GMail](https://bitcointalk.org/index.php?topic=19641.msg245714#msg245714) ou [TradeHill](https://www.youtube.com/watch?v=8ygb9D9vnL4&t=253s)). Par exemple, [BrightAnarchist](https://bitcointalk.org/index.php?topic=20427.msg255193#msg255193), le membre du forum qui avait poussé l'EFF à accepter le bitcoin en 2010, perd l'intégralité de ses fonds. Le 25 juin, Tom Williams, le président anonyme de MyBitcoin, [explique](https://bitcointalk.org/index.php?topic=22221.msg279396#msg279396) que 1 % des utilisateurs présents dans la fuite de données de Mt. Gox ont été touchés et que 4 019 bitcoins ont été volés.
 
 Toutefois, les déboires de l'application ne s'arrêtent pas là. Le 29 juillet, MyBitcoin connait une fermeture soudaine. Près de 78 740 bitcoins manquent à l'appel sur le portefeuille lié à l'application, un montant équivalent à plus d'un millions de dollars à ce moment-là et correspondant à 51 % des fonds présents sur les comptes des clients, ce qui contraint le service à rembourser le reste et à disparaître. Même si MyBitcoin [invoque](https://web.archive.org/web/20111018173154/https://www.mybitcoin.com/) un piratage, des [éléments](https://observer.com/2011/08/search-for-owners-of-mybitcoin-loses-steam/) laissent à penser que son fondateur anonyme, Tom Williams, est à l'origine du vol.
 
@@ -383,13 +373,11 @@ En parallèle, la plateforme polonaise Bitomat rencontre un problème majeur. Le
 
 Pour éviter de flouer ses clients, l'administrateur propose de vendre la plateforme pour 17 000 BTC. Cela intéresse Mark Karpelès, qui pourrait alors bénéficier du marché polonais. Le 11 août, Mt. Gox [annonce](https://web.archive.org/web/20120426023056/http://support.mtgox.com/entries/20357051-mt-gox-the-world-s-largest-bitcoin-exchange-to-acquire-bitomat-pl-compensate-loss-of-bitcoins) racheter Bitomat, afin de « rétablir la confiance dans l'économie de bitcoin » (original: "to restore confidence in the bitcoin economy"). Mais cela a pour conséquence de rajouter 17 000 BTC au passif de Mt. Gox.
 
----
+### Une croissance fragile
 
-### Une entreprise en pleine croissance
+Mt. Gox constituait ainsi le point central de l'économie de Bitcoin. À l'image de l'écosystème, la plateforme a connu un succès florrissant dans la première moitié de l'année 2011. Sous la direction de Mark Karpelès, elle a acquis une nouvelle dimension. Celui-ci a ouvert des bureaux et embauché un employé.
 
-Mt. Gox constituait ainsi le point central de l'économie de Bitcoin. À l'image de l'écosystème, la plateforme connaissait un succès florrissant en 2011. Mais on pouvait voir
-
----
+Toutefois, cette croissance fulgurante cachait une grande fragilité. La plateforme Mt. Gox a subi plusieurs piratages durant cette période, ce qui fait qu'elle a accumulé les pertes au fil des mois : plus d'une centaine de milliers de bitcoins manquaient à l'appel à la fin de l'été. Cela présageait une chute abrupte. Mais Mt. Gox allait d'abord devenir une plateforme énorme en l'espace de deux ans et demi.
 
 ## L'éclatement de la bulle de 2011 (juin–déc. 2011)
 

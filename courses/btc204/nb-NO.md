@@ -2950,13 +2950,13 @@ Målet med BIP156 er å løse dette problemet. For å gjøre dette innfører den
 
 ![BTC204](assets/fr/205.webp)
 
-Transaksjonen distribueres deretter til hele nettverket i "kapitulasjonsfasen".
+Transaksjonen blir deretter kringkastet til hele nettverket i "Fluff"-fasen.
 
 ![BTC204](assets/fr/206.webp)
 
-Stilken og blomsterhodet er referanser til hvordan transaksjonen forplanter seg gjennom nettverket, som ligner formen til en løvetann.
+Stilken og "Fluff"-fasen viser til oppførselen ved spredning av transaksjonen i nettverket, som ligner på formen og utviklingen til en løvetann ("Dandelion" på engelsk).
 
-Dermed kan spionnoder potensielt spore transaksjonen tilbake til noden som startet kapitulasjonsfasen (massesendingen), men denne noden er ikke den som først sendte transaksjonen, ettersom den mottok den fra den siste noden på stammen. Hvis spionnoder ikke kan spore stammen, kan de heller ikke identifisere kildenoden.
+Spionnoder kan dermed potensielt spore transaksjonen tilbake til noden som startet "Fluff"-fasen (masseutsendingen), men denne noden er ikke den som sendte transaksjonen først, da den mottok den fra den siste noden i stilken. Hvis spionnodene ikke kan spore stilken, kan de heller ikke identifisere kildenoden.
 
 ![BTC204](assets/fr/207.webp)
 

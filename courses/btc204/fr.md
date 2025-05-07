@@ -2800,13 +2800,13 @@ L'objectif du BIP156 est de traiter ce problème. Pour ce faire, il introduit un
 
 ![BTC204](assets/fr/205.webp)
 
-La transaction est ensuite diffusée à l'ensemble du réseau dans la phase de "capitule".
+La transaction est ensuite diffusée à l'ensemble du réseau dans la phase de "*Fluff*".
 
 ![BTC204](assets/fr/206.webp)
 
-La tige et le capitule sont des références au comportement de la propagation de la transaction à travers le réseau, qui ressemble à la forme d'un pissenlit (Dandelion).
+La tige et la "*Fluff*" sont des références au comportement de la propagation de la transaction à travers le réseau, qui ressemble à la forme et l'évolution d'un pissenlit ("*Dandelion*" en anglais).
 
-Ainsi, les nœuds espions peuvent potentiellement remonter la transaction jusqu'au nœud qui a lancé la phase de capitule (la diffusion massive), mais ce nœud n'est pas celui qui a diffusé la transaction en premier, car il l'a reçue du dernier nœud de la tige. Si les nœuds espions ne peuvent pas remonter la tige, ils ne peuvent pas non plus identifier le nœud source.
+Ainsi, les nœuds espions peuvent potentiellement remonter la transaction jusqu'au nœud qui a lancé la phase de "*Fluff*" (la diffusion massive), mais ce nœud n'est pas celui qui a diffusé la transaction en premier, car il l'a reçue du dernier nœud de la tige. Si les nœuds espions ne peuvent pas remonter la tige, ils ne peuvent pas non plus identifier le nœud source.
 
 ![BTC204](assets/fr/207.webp)
 

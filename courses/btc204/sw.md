@@ -2903,13 +2903,13 @@ Lengo la BIP156 ni Anwani (address) tatizo hili. Ili kufanya hivyo, inatanguliza
 
 ![BTC204](assets/fr/205.webp)
 
-Kisha shughuli hiyo inasambazwa kwa mtandao mzima katika awamu ya "capitulation".
+Muamala hutangazwa kwa mtandao mzima katika awamu ya "Fluff".
 
 ![BTC204](assets/fr/206.webp)
 
-Shina na kichwa cha maua ni marejeleo ya tabia ya uenezi wa shughuli kupitia mtandao, ambayo inafanana na sura ya dandelion.
+Shina na awamu ya "Fluff" ni marejeleo ya tabia ya usambazaji wa muamala katika mtandao, ambayo inafanana na umbo na mabadiliko ya mmea wa "Dandelion" kwa Kiingereza.
 
-Kwa hivyo, nodi za kijasusi zinaweza kufuatilia shughuli nyuma kwenye nodi iliyozindua awamu ya uwasilishaji (matangazo ya wingi), lakini nodi hii sio ile iliyotangaza shughuli hiyo kwanza, kwani iliipokea kutoka kwa nodi ya mwisho kwenye shina. Ikiwa nodi za kijasusi haziwezi kufuata shina, haziwezi kutambua nodi ya chanzo pia.
+Hivyo, nodi za upelelezi zinaweza kufuatilia muamala hadi kwa nodi iliyoanzisha awamu ya "Fluff" (usambazaji mkubwa), lakini nodi hiyo si ile iliyotangaza muamala kwanza, kwani ilipokea kutoka kwa nodi ya mwisho ya shina. Ikiwa nodi za upelelezi haziwezi kufuatilia shina, basi haziwezi pia kutambua nodi chanzo.
 
 ![BTC204](assets/fr/207.webp)
 

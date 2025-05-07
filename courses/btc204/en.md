@@ -2950,13 +2950,13 @@ The aim of BIP156 is to address this problem. To do this, it introduces an addit
 
 ![BTC204](assets/fr/205.webp)
 
-The transaction is then distributed to the entire network in the "capitulation" phase.
+The transaction is then broadcast to the entire network during the "Fluff" phase.
 
 ![BTC204](assets/fr/206.webp)
 
-The stem and flower head are references to the behavior of the transaction's propagation through the network, which resembles the shape of a dandelion.
+The stem and the "Fluff" are references to the behavior of transaction propagation through the network, which resembles the shape and evolution of a dandelion.
 
-Thus, spy nodes can potentially trace the transaction back to the node that launched the capitulation phase (the mass broadcast), but this node is not the one that first broadcast the transaction, as it received it from the last node on the stem. If spy nodes can't trace the stem, they can't identify the source node either.
+Thus, spy nodes can potentially trace the transaction back to the node that initiated the "Fluff" phase (the mass broadcast), but that node is not the one that first broadcast the transaction, as it received it from the last node of the stem. If the spy nodes cannot trace the stem, they also cannot identify the source node.
 
 ![BTC204](assets/fr/207.webp)
 

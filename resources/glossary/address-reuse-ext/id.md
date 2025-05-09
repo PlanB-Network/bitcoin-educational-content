@@ -1,7 +1,7 @@
 ---
-term: PENGGUNAAN ULANG ALAMAT (EXT)
+term: PENGGUNAAN ULANG ALAMAT (EKSTERNAL)
 
 ---
-Penggunaan ulang alamat dikatakan "eksternal" jika terjadi di beberapa transaksi yang berbeda. Dalam pengaturan ini, penggunaan ulang alamat eksternal merupakan sebuah heuristik analisis blockchain yang memungkinkan hipotesis yang masuk akal bahwa semua alamat ini adalah milik entitas yang sama.
+Penggunaan ulang alamat dikategorikan sebagai "eksternal" jika terjadi di beberapa transaksi yang berbeda. Dalam pengaturan ini, penggunaan ulang alamat eksternal merupakan sebuah metode analisis _blockchain_ yang memungkinkan penarikan hipotesis bahwa semua alamat ini dimiliki oleh entitas yang sama.
 
 ![](../../dictionnaire/assets/27.webp)

@@ -1,11 +1,9 @@
-question: Jaka jest złota zasada inwestycji Bitcoin?
-answer: Nie twój klucz, nie twoje Bitcoiny.
+question: Jaki termin odnosi się do zaprogramowanego podziału dotacji Mining?
+answer: Halving
 wrong_answers:
-  - Nigdy nie inwestuj więcej, niż możesz stracić.
-  - Unikaj tego, co jest modne.
-  - Planowanie i posiadanie długoterminowej wizji są niezbędne do osiągnięcia sukcesu w finansach.
+  - Fork
+  - Podział
+  - Coinbase
 explanation: |
-  Złota zasada inwestowania w Bitcoin brzmi: Nie twój klucz, nie twoje Bitcoiny.
-  Oznacza to, że jeśli nie masz kontroli nad swoim kluczem prywatnym, to tak naprawdę nie posiadasz
-  właścicielem swoich Bitcoinów.
+  Halving odnosi się do Halving dotacji Mining co 210 000 bloków.
 reviewed: false

@@ -1,11 +1,9 @@
-question: Hva er Lightning Network?
-answer: Det er det andre laget av Bitcoin.
+question: Hvilket medium anbefales for sikker sikkerhetskopiering av Mnemonic-frasen din?
+answer: Metallsikkerhetskopi med forseglet, ugjennomsiktig konvolutt
 wrong_answers:
-  - Det er en kryptovalutabørs.
-  - Det er en type Bitcoin-lommebok.
-  - Det er en Bitcoin-miningpool.
+  - Kryptert lagring på USB-stasjon
+  - Papirbackup med gjennomsiktig hylse
+  - Sikkerhetskopiering i en sikker sky
 explanation: |
-  Lightning Network er en teknologi for andre lag som anvendes på bitcoin,
-  som bruker mikrobetalingskanaler for å skalere blokkjedens evne til å gjennomføre
-  transaksjoner.
+  En katastrofebestandig metallsikkerhetskopi gir langvarig beskyttelse mot skader og uautorisert tilgang. Den forseglede, ugjennomsiktige konvolutten gjør at du kan kontrollere om noen har fått tilgang til Mnemonic-frasen.
 reviewed: false

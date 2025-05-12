@@ -1,13 +1,9 @@
-question: What is the main advantage of Bitcoin over traditional bank accounts?
-answer: Full control over your money
+question: What acquisition strategy can be adopted by a hybrid hodler?
+answer: Dollar-Cost Averaging
 wrong_answers:
-  - Higher interest rates
-  - Lower transaction fees
-  - Faster transaction times
+  - Algorithmic trading
+  - Arbitrage
+  - Hacking
 explanation: |
-  The chapter explains that Bitcoin offers a powerful alternative to
-  traditional
-  financial systems. It allows everyone to preserve their privacy, protect against
-  inflation and currency devaluation, bypass authoritarian regimes, and regain sovereignty
-  over their money.
+  Dollar-Cost Averaging allows for regular bitcoin purchases to smooth out the average purchase price over time. The hodler may combine this with occasional lump-sum buys.
 reviewed: false

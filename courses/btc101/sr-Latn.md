@@ -745,7 +745,7 @@ Srećom, od 2017. godine, privatni ključ može biti predstavljen jednostavnom l
 Dakle, verovatnoća hakovanja vašeg Bitcoin Wallet je astronomski niska ako pratite dobre bezbednosne prakse koje ćemo detaljno opisati u sledećem odeljku.
 
 
-Imajte na umu da odaberete pravi Wallet za vaše potrebe i upotrebu: detaljni tutorijali o upravljanju i osiguravanju različitih novčanika dostupni su u [odeljku sa tutorijalima našeg univerziteta](https://planb.network/tutorials/Wallet).
+Imajte na umu da odaberete pravi Wallet za vaše potrebe i upotrebu: detaljni tutorijali o upravljanju i osiguravanju različitih novčanika dostupni su u [odeljku sa tutorijalima našeg univerziteta](https://planb.network/tutorials/wallet).
 
 
 Ako, tokom vašeg putovanja niz zečju rupu, želite da saznate više o izgradnji Bitcoin Wallet, od entropije do primanja adresa, preporučujemo CYP 201 kurs posvećen ovoj temi:
@@ -929,7 +929,7 @@ Kao i svaki oblik bogatstva, vaši bitkoini moraju biti zaštićeni od gubitka, 
 Jedan metod za dugoročno osiguranje vaših bitkoina je graviranje vaše Mnemonic fraze na izuzetno izdržljiv materijal poput čelika. Na ovaj način kreirate fizičku rezervnu kopiju vaših ključeva koja je otporna na oštećenja od vode i vatre.
 
 
-Različita rešenja su dostupna: neka od njih su niskobudžetna, kao što je "Blockmit", dok druga mogu zahtevati specijalizovaniju opremu. Možete dalje istražiti ovu temu u [tutorijalima](https://planb.network/en/tutorials/Wallet) sekciji naše akademije.
+Različita rešenja su dostupna: neka od njih su niskobudžetna, kao što je "Blockmit", dok druga mogu zahtevati specijalizovaniju opremu. Možete dalje istražiti ovu temu u [tutorijalima](https://planb.network/en/tutorials/wallet) sekciji naše akademije.
 
 
 ![image](assets/en/37.webp)
@@ -1655,7 +1655,7 @@ Ova postepena strategija uključuje ponavljajuće kupovine, što znači kupovinu
 **Pazite na UTXO-e**: Ne zaboravite da s vremena na vreme konsolidujete svoje UTXO-e u svojim novčanicima. Ova praksa je ključna za efikasno upravljanje vašim bitcoinima i izbegavanje nepotrebnih naknada tokom transakcija.
 
 
-[UTXO](https://planb.network/en/resources/glossary/UTXO) je izlaz transakcije koji još nije potrošen, što znači da nije korišćen kao ulaz za novu transakciju. Konsolidacija njih znači kombinovanje nekoliko malih UTXO-a u jedan veći, kako bi se smanjila "težina" transakcije, i time platile niže naknade.
+[UTXO](https://planb.network/en/resources/glossary/utxo) je izlaz transakcije koji još nije potrošen, što znači da nije korišćen kao ulaz za novu transakciju. Konsolidacija njih znači kombinovanje nekoliko malih UTXO-a u jedan veći, kako bi se smanjila "težina" transakcije, i time platile niže naknade.
 
 
 
@@ -1678,7 +1678,7 @@ Postoji nekoliko načina za sticanje bitkoina, pri čemu je svaki podložan sops
 - DCA platforme
 
 
-Kao što smo gore naveli, uobičajena metoda za akumulaciju bitkoina je prosečno ulaganje dolara (DCA), koje podrazumeva redovnu kupovinu malih količina. Nekoliko platformi nudi ovu uslugu, kao što su one navedene na našoj [posvećenoj stranici](https://planb.network/tutorials/Exchange). Pored jednostavnosti postavljanja DCA, povlačenja na vaš Wallet su uglavnom automatska, što znači da ćete uvek imati kontrolu nad svojim sredstvima.
+Kao što smo gore naveli, uobičajena metoda za akumulaciju bitkoina je prosečno ulaganje dolara (DCA), koje podrazumeva redovnu kupovinu malih količina. Nekoliko platformi nudi ovu uslugu, kao što su one navedene na našoj [posvećenoj stranici](https://planb.network/tutorials/exchange). Pored jednostavnosti postavljanja DCA, povlačenja na vaš Wallet su uglavnom automatska, što znači da ćete uvek imati kontrolu nad svojim sredstvima.
 
 
 Danas su gotovo sva DCA rešenja relativno efikasna i imaju gotovo slične naknade, tako da će izbor više zavisiti od dostupnosti u vašoj zemlji.
@@ -1718,7 +1718,7 @@ Važno je prepoznati da je KYC značajna tema diskusije u industriji Bitcoin. Ia
 ### Rešenja bez KYC-a
 
 
-Pored toga, postoji nekoliko [marketplaces](https://planb.network/tutorials/Exchange) gde možete kupovati i prodavati bitkoine u peer-to-peer Exchange. Uopšteno, možete razmotriti sledeće:
+Pored toga, postoji nekoliko [marketplaces](https://planb.network/tutorials/exchange) gde možete kupovati i prodavati bitkoine u peer-to-peer Exchange. Uopšteno, možete razmotriti sledeće:
 
 
 

@@ -1,9 +1,9 @@
-question: Quel est le but de poser les quatre questions avant de choisir un plan d'investissement Bitcoin ?
-answer: Pour choisir la voie qui vous convient le mieux
+question: Quel élément n'est PAS recommandé dans la transmission de l'accès à vos bitcoins ?
+answer: Donner la phrase mnémonique à une personne
 wrong_answers:
-  - Pour déterminer la quantité de Bitcoin que vous devriez acheter
-  - Pour déterminer le type de portefeuille Bitcoin que vous devriez utiliser
-  - Pour déterminer la durée de votre investissement Bitcoin
+  - Répartir les informations entre plusieurs personnes
+  - Utiliser des enveloppes opaques scellées
+  - Rédiger une lettre explicative
 explanation: |
-  Le but de poser les quatre questions avant de choisir un plan d'investissement Bitcoin est de choisir la voie qui vous convient le mieux. Les questions vous aident à comprendre vos objectifs d'investissement et vos préférences.
+  Confier la phrase mnémonique à une seule personne sans sécurité supplémentaire augmente considérablement le risque de vol de votre vivant.
 reviewed: false

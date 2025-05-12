@@ -1,9 +1,9 @@
-question: Mikä on riski, jos et omista Bitcoin-lompakkosi yksityistä avainta?
-answer: Bitcoinisi ovat alttiina riskeille, kuten hakkeroinnille, takavarikoinnille, sääntelylle tai konkurssille
+question: Minkä suurimman riskin aiheuttaa se, että perintösuunnitelmassa annetaan liikaa tietoja?
+answer: Varkausriski
 wrong_answers:
-  - Bitcoinisi muunnetaan automaattisesti toiseen kryptovaluuttaan
-  - Bitcoinisi menettävät arvonsa
-  - Bitcoinisi siirretään toiseen lompakkoon
+  - Häviämisriski
+  - Devalvaatioriski
+  - Sääntelyyn liittyvä riski
 explanation: |
-  Jos et omista Bitcoin-lompakkosi yksityistä avainta, bitcoinisi ovat alttiina riskeille, kuten hakkeroinnille, takavarikoinnille, sääntelylle tai konkurssille.
+  Liian suuri määrä tietoa voi helpottaa pahansuopaisten henkilöiden toimintaa, jos he pääsevät käsiksi perintösuunnitelmaasi.
 reviewed: false

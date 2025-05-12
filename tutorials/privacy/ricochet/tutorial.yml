@@ -87,6 +87,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.02
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.96
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.02
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.02
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.02
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.0
 tags:
   - protocols
   - privacy

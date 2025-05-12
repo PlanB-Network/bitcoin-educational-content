@@ -1,11 +1,9 @@
-question: Jaký je hlavní důvod pro zřízení diktátorských režimů podle kapitoly?
-answer: Zhoršující se nerovnosti v bohatství ve světě
+question: Který uživatelský profil pravidelně hromadí bitcoiny prostřednictvím metody Dollar-Cost Averaging?
+answer: Zakladač
 wrong_answers:
-  - Nedostatek vzdělání ve světě
-  - Nedostatek zdrojů ve světě
-  - Nedostatek demokracie ve světě
+  - Hodler
+  - Aktivní uživatel
+  - Paranoidní
 explanation: |
-  Kapitola uvádí, že zhoršující se nerovnosti v bohatství ve světě
-  vedly k nárůstu extremismu, což někdy vyústilo ve zřízení
-  diktátorských režimů.
+  Zakladač pravidelně nakupuje malá množství, aby zprůměroval nákupní cenu v dlouhodobém horizontu.
 reviewed: false

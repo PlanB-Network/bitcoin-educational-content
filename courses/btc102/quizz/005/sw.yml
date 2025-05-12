@@ -1,9 +1,0 @@
-question: Ni nini lengo la kozi ya chuo kikuu hiki?
-answer: Ulimwengu wa Bitcoin.
-wrong_answers:
-  - Sekta ya kimataifa ya cryptocurrency.
-  - Sekta ya fintech.
-  - Sekta ya Blockchain.
-explanation: |
-  Lengo zima la chuo kikuu hiki ni ulimwengu wa Bitcoin, sio crypto.
-reviewed: false

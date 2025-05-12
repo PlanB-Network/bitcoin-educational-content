@@ -1,9 +1,9 @@
-question: ¿Cuál es la función de la Red Lightning en el ecosistema de Bitcoin?
-answer: Permite que Bitcoin se expanda y obtenga más características al actuar como una segunda capa.
+question: ¿Qué método le permite compensar los bitcoins gastados preservando sus ahorros?
+answer: Gastar y sustituir
 wrong_answers:
-  - Es una criptomoneda separada que compite con Bitcoin.
-  - Es una herramienta para minar Bitcoin.
-  - Es una plataforma para negociar Bitcoin.
+  - HODLing y Replace
+  - Gasto y HODLing
+  - Comercio y gasto
 explanation: |
-  La Red Lightning es una tecnología de segunda capa aplicada a Bitcoin que utiliza canales de micropagos para aumentar la capacidad de su cadena de bloques y realizar transacciones de manera más eficiente.
+  El método Spend and Replace consiste en gastar bitcoins y luego recomprar la misma cantidad para mantener tus reservas.
 reviewed: false

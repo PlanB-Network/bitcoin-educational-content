@@ -52,8 +52,8 @@
     {
       "code": "hi",
       "name": "Hindi",
-      "translator": "deepseek",
-      "code_translator": "Colloquial Hindi"
+      "translator": "google",
+      "code_translator": "HI"
     },
     {
       "code": "id",

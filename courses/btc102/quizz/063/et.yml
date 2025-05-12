@@ -1,9 +1,9 @@
-question: Mis on risk, kui sa ei oma oma Bitcoin rahakoti privaatvõtit?
-answer: Sinu bitcoinid on ohus, nagu näiteks häkkimine, konfiskeerimine, regulatsioonid või pankrot
+question: Milline suur risk kaasneb liiga suure teabe avalikustamisega pärimisplaanis?
+answer: Varguse oht
 wrong_answers:
-  - Sinu bitcoinid konverteeritakse automaatselt teise krüptorahasse
-  - Sinu bitcoinid kaotavad oma väärtuse
-  - Sinu bitcoinid kantakse üle teise rahakotti
+  - Kaotuse oht
+  - Devalveerimisoht
+  - Reguleerimisega seotud risk
 explanation: |
-  Kui sa ei oma oma Bitcoin rahakoti privaatvõtit, on sinu bitcoinid ohus nagu näiteks häkkimine, konfiskeerimine, regulatsioonid või pankrot.
+  Liiga palju teavet võib lihtsustada pahatahtlike isikute tegevust, kui nad saavad juurdepääsu teie pärimisplaanile.
 reviewed: false

@@ -1,11 +1,9 @@
-question: Czym jest rozwiązanie non-KYC w kontekście Bitcoin?
-answer: Rozwiązanie umożliwiające anonimowe transakcje Bitcoin
+question: Dlaczego zaleca się napisanie listu spadkowego atramentem na papierze?
+answer: Aby uniknąć ryzyka związanego z zagrożonymi dokumentami cyfrowymi
 wrong_answers:
-  - Rozwiązanie pozwalające na transakcje Bitcoin bez internetu
-  - Rozwiązanie umożliwiające transakcje Bitcoin bez Wallet
-  - Rozwiązanie umożliwiające transakcje Bitcoin bez opłat
+  - Aby zmniejszyć koszty drukowania
+  - Aby uzyskać prawnie uznany podpis
+  - Zwiększenie wartości prawnej dokumentu
 explanation: |
-  Rozwiązanie inne niż KYC (Know Your Customer) to rozwiązanie, które pozwala na
-  anonimowe transakcje Bitcoin. Nie wymaga ono od użytkownika podawania
-  informacji identyfikacyjnych.
+  Pismo odręczne jest mniej podatne na cyberataki i zapewnia poufność instrukcji.
 reviewed: false

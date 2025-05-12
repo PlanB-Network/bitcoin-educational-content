@@ -86,6 +86,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 22.6
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 39.48
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.6
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.6
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 22.6
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 28.23
 tags:
   - DIY
   - hardware

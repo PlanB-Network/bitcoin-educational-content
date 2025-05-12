@@ -1,11 +1,9 @@
-question: Bitcoin Blockchain 的不可更改性意味著什麼？
-answer: 無法隨時間改變
+question: 2025 年 Bitcoin Core 上有多少維護人員？
+answer: 5
 wrong_answers:
-  - 無法被駭客入侵
-  - 無法複製
-  - 無法刪除
+  - 7
+  - 12
+  - 23
 explanation: |
-  Bitcoin Blockchain 的不可更改性意味著，一旦交易
-  記錄後，就無法變更或刪除。這可確保 Blockchain 的完整性和
-  可靠性。
+  2025 年有五位維護員：Hennadii Stepanov、Michael Ford、Ava Chow、Gloria Zhao 和 Ryan Ofsky。
 reviewed: false

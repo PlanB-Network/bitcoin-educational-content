@@ -1,10 +1,9 @@
-question: Who introduced the idea of the Bitcoin highway?
-answer: Andreas Antonopoulos
+question: What is the main goal of the active user?
+answer: To use Bitcoin as a daily payment method
 wrong_answers:
-  - Satoshi Nakamoto
-  - Elon Musk
-  - Vitalik Buterin
+  - To invest in bitcoin for the long term
+  - To gradually accumulate satoshis
+  - To speculate on the market
 explanation: |
-  Andreas Antonopoulos, a well-known Bitcoin advocate and educator, introduced
-  the idea of the Bitcoin highway.
+  The active user incorporates Bitcoin into their daily life to make transactions and support its adoption.
 reviewed: false

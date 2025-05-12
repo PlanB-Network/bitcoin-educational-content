@@ -1,10 +1,9 @@
-question: Mis on bitcoinide maksimaalne kogus, mis kunagi eksisteerima hakkab?
-answer: 21 miljonit
+question: Milline teise Layer protokoll võimaldab peaaegu koheseid makseid?
+answer: Lightning Network
 wrong_answers:
-  - 100 miljonit
-  - 1 miljard
-  - Piirangut pole
+  - Sidechains
+  - RGB
+  - Bitcoin tuum
 explanation: |
-  Peatükk väidab, et bitcoine ei saa kunagi olla rohkem kui 21 miljonit.
-  See piirang kehtestati Bitcoin'i protokollis Satoshi poolt ja seda ei saa täna muuta.
+  Lightning Network võimaldab kiireid ja odavaid tehinguid off-chain operatsioonide kaudu väljaspool Bitcoin Blockchain.
 reviewed: false

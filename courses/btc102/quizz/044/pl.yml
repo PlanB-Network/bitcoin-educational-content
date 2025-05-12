@@ -1,11 +1,9 @@
-question: Jaka jest główna rola górników w sieci Bitcoin?
-answer: Zabezpieczają sieć, wykonując procesy Bitcoin z Proof-of-Work
+question: Jakie jest pochodzenie terminu hodler?
+answer: Błędna pisownia słowa "hold"
 wrong_answers:
-  - Tworzą nowe bitcoiny
-  - Regulują one cenę Bitcoin
-  - Kontrolują oni sieć Bitcoin
+  - Skrót od "hold"
+  - Skrót od "Hot Wallet"
+  - Skrócenie "łańcucha HODL"
 explanation: |
-  Treść rozdziału wyjaśnia, że górnicy są odpowiedzialni za zabezpieczenie sieci Bitcoin
-  sieci Bitcoin. Wykorzystują oni energię elektryczną do wykonywania procesów Bitcoin Proof-of-Work,
-  który tworzy nowy blok.
+  Termin "hodler" pochodzi z literówki w Bitcoin Talk, gdzie "hold" zostało błędnie napisane jako "HODL", aby wyrazić długoterminowe trzymanie.
 reviewed: false

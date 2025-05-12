@@ -1,8 +1,9 @@
-question: Jaký je hlavní důvod ztráty bitcoinů podle kapitoly?
-answer: Špatné řízení online bezpečnosti
+question: Co znamená pojem vlastní péče ve světě Bitcoin?
+answer: Uchovávání soukromých klíčů
 wrong_answers:
-  - Podvody s kryptoměnami
-  - Finanční podvody
-  - Selhání počítače
+  - Svěření klíčů specializované platformě Exchange
+  - Svěření klíčů investiční bance
+  - Uchovávání veřejných klíčů
 explanation: |
-  Kapitola uvádí, že kromě podvodů s kryptoměnami a finančních podvodů je hlavním důvodem ztráty bitcoinů souvislost se špatným řízením online bezpečnosti.
+  Vlastní úschova zajišťuje, že uživatel má plnou kontrolu nad svými bitcoiny prostřednictvím vlastních soukromých klíčů.
+reviewed: false

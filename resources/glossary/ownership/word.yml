@@ -9,3 +9,98 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.08
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.22
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.19
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.19
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.19

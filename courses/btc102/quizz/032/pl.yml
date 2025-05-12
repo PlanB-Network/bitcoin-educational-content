@@ -1,11 +1,9 @@
-question: Jakie znaczenie ma to, że Bitcoin jest innowacją od 0 do 1?
-answer: Zakłóca nasze normy i nawyki
+question: Jaki mechanizm RGB zapewnia odporność na podwójne wydatki?
+answer: Single-Use Seal
 wrong_answers:
-  - Jest to pierwsza cyfrowa waluta
-  - Jego wartość wzrosła z 0 do 1
-  - Jest to pierwszy krok w kierunku społeczeństwa bezgotówkowego
+  - Wielofunkcyjny Seal
+  - Podwójny podpis
+  - Proof-of-Stake
 explanation: |
-  Termin 0 do 1 odnosi się do dużej innowacji, która zakłóca istniejące normy i przyzwyczajenia
-  normy i przyzwyczajenia. Bitcoin jest uważany za taką innowację ze względu na swoje unikalne cechy
-  i potencjalny wpływ na społeczeństwo.
+  Single-Use Seal wykorzystuje fakt, że UTXO można wydać tylko raz, zapewniając odporność na podwójne wydatki w ramach inteligentnych kontraktów RGB.
 reviewed: false

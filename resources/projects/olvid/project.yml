@@ -1,0 +1,26 @@
+id: ae70f2f1-c47c-4958-9c4d-d58b94726a70
+name: Olvid
+
+links:
+  website: https://www.olvid.io/
+  twitter: https://x.com/olvid_io
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - personal-security
+  - privacy
+  - software
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-04-23
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

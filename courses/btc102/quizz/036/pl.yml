@@ -1,11 +1,9 @@
-question: Co podkreśla fraza Nie twoje klucze, nie twoje Bitcoiny?
-answer: Znaczenie posiadania klucza prywatnego do Bitcoin Wallet
+question: Jaki jest główny cel definiowania profilu użytkownika?
+answer: Aby przyjąć strategię dostosowaną do Twoich potrzeb
 wrong_answers:
-  - Znaczenie posiadania fizycznego klucza dostępu do Bitcoinów
-  - Znaczenie przechowywania Bitcoinów w bezpiecznym miejscu
-  - Znaczenie nieudostępniania danych konta Bitcoin
+  - Aby zmaksymalizować spekulację, a tym samym zyski
+  - Przyjęcie ogólnej strategii, która działa dla wszystkich
+  - Aby wiedzieć, którego influencera Bitcoin śledzić w mediach społecznościowych
 explanation: |
-  Rozdział wyjaśnia, że wyrażenie Nie twoje klucze, nie twoje Bitcoiny
-  podkreśla znaczenie posiadania klucza prywatnego do Bitcoin Wallet. Posiadając klucz
-  klucz prywatny, masz pełną kontrolę nad zawartymi w nim Bitcoinami.
+  Znajomość swojego profilu i możliwość jego dostosowania pozwala wybrać rozwiązania w zakresie pozyskiwania i przechowywania, które pasują do osobistej sytuacji.
 reviewed: false

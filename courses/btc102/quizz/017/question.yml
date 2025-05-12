@@ -1,37 +1,52 @@
-id: 97751a98-31d1-4418-b517-c41aa1e0f249
-chapterId: 33134b3f-92c1-5185-afb6-88599e47e801
+id: c906b55c-d26d-41ca-acac-6570c4444806
+chapterId: ae122ad9-9b4d-5229-9038-e1b99d5cfc83
 difficulty: hard
-duration: 45
-author: DecouvreBitcoin
-original_language: en
+duration: 30
+author: pretty-private
+tags:
+  - good-practice
+  - wallets
+
+# Proofreading metadata
+original_language: fr
 proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-21
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.15
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.14
   - language: en
-    last_contribution_date: 2024-09-01
+    last_contribution_date:
     urgency: 1
     contributor_names:
-      - Asi0Flammeus
-    reward: 0.09
+    reward: 0.14
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.14
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
-  - language: fr
+    reward: 0.15
+  - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
@@ -40,49 +55,44 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.14
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.24
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.17
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.24
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.2
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.22
+    reward: 0.18
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.2
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.22
+    reward: 0.15
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.2
+    reward: 0.15
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17

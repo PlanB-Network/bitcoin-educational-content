@@ -25,3 +25,93 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.53
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.01
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.53
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.53
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.01
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.01
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.53
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.44
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.48
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.96
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.01
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.01
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.53
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.01
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.01
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.01
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.96
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.48
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.48

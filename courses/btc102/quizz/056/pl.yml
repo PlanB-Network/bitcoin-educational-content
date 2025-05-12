@@ -1,11 +1,9 @@
-question: Jaka jest ostateczna wizja Bitcoin zgodnie z metaforą autostrady Bitcoin?
-answer: Stanie się autostradą dla ruchu internetowego i dla 90% światowej populacji.
+question: Jaka metoda jest używana do ochrony identyfikowalności transakcji On-Chain?
+answer: Korzystanie z technik CoinJoin i PayJoin
 wrong_answers:
-  - Stanie się dobrem luksusowym dostępnym tylko dla bogatych.
-  - Stanie się narzędziem do nielegalnych działań.
-  - Stanie się ona przestarzała i zostanie zastąpiona przez inne kryptowaluty.
+  - Ponowne użycie tego samego odbiornika Address
+  - Częsta konsolidacja UTXO
+  - Wpłata na rachunek powierniczy Wallet
 explanation: |
-  Metafora autostrady Bitcoin przewiduje, że Bitcoin stanie się autostradą dla
-  ruchu internetowego i dla 90% światowej populacji, z towarami i usługami
-  bezpośrednio dostępne na tej autostradzie.
+  Coinjoins i payjoins pomagają zwiększyć prywatność aktywności On-Chain.
 reviewed: false

@@ -631,7 +631,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 इसमें Mining मशीनों को चलाकर इनाम कमाना शामिल है। गैर-विशेषीकृत व्यवसायों के लिए, यह अपेक्षाकृत कम महत्वपूर्ण है। आप बिचौलियों के माध्यम से भाग ले सकते हैं जो आपको कंप्यूटिंग, नेटवर्क और रखरखाव सेवाएं बेचेंगे या किराए पर देंगे। अगर आपके पास मशीनें हैं, तो आप उन्हें मूल्यह्रास योग्य संपत्ति के रूप में दर्ज कर सकते हैं। बड़े पैमाने पर, आपको निवेश पर रिटर्न की सावधानी से गणना करनी होगी क्योंकि बाजार अत्यधिक प्रतिस्पर्धी है और खर्चों, विशेष रूप से बिजली की लागत का अच्छा अनुमान लगाने की आवश्यकता होती है।
 
-Mining के तरीकों के बारे में अधिक जानने के लिए, आप [हमारे ट्यूटोरियल्स में "Mining" सेक्शन देख सकते हैं](https://planb.network/tutorials/Mining)।
+Mining के तरीकों के बारे में अधिक जानने के लिए, आप [हमारे ट्यूटोरियल्स में "Mining" सेक्शन देख सकते हैं](https://planb.network/tutorials/mining)।
 
 
 - बिटकॉइन खरीदना:
@@ -642,7 +642,8 @@ Mining के तरीकों के बारे में अधिक ज�
 
 https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-बिटकॉइन हासिल करने के तरीकों के बारे में अधिक जानने के लिए, जैसे कि विनिमय या पीयर-टू-पीयर के जरिए, आप [हमारे ट्यूटोरियल्स में "विनिमय" सेक्शन देख सकते हैं](https://planb.network/tutorials/विनिमय)।
+
+बिटकॉइन हासिल करने के तरीकों के बारे में अधिक जानने के लिए, जैसे कि Exchange या पीयर-टू-पीयर के जरिए, आप [हमारे ट्यूटोरियल्स में "Exchange" सेक्शन देख सकते हैं](https://planb.network/tutorials/exchange)।
 
 ![BIZ101](assets/en/16.webp)
 
@@ -964,7 +965,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 **स्व-संरक्षित LN वॉलेट/नोड्स:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b

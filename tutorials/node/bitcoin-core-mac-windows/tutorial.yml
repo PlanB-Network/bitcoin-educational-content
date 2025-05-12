@@ -87,6 +87,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.07
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.04
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.07
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.07
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.07
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.06
 tags:
   - node
   - guides

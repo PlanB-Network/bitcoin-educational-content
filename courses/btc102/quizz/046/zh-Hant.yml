@@ -1,11 +1,9 @@
-question: 將您的比特幣留在 Exchange 平台上的主要風險是什麼？
-answer: 平台可能被駭客入侵、查封、破產，或乾脆帶著您的資金消失。
+question: 什麼工具可讓您在不暴露私人金鑰的情況下監控 Wallet？
+answer: Watch-only wallet
 wrong_answers:
-  - Bitcoin 的價格可能會突然下降
-  - 平台可以提高收費
-  - 平台可以限制您可以買入或賣出的比特幣數量
+  - Hot Wallet
+  - 閃電 Wallet
+  - 保管 Wallet
 explanation: |
-  本章內容警告，Exchange 平台具有重大風險，應盡可能避免使用。
-  風險，應盡可能避免使用。它們可能會被駭客入侵、查封、破產
-  破產，或乾脆帶著您的資金消失。
+  Watch-only wallet 只使用公開金鑰來顯示餘額和交易，而不會有暴露私人金鑰的風險。
 reviewed: false

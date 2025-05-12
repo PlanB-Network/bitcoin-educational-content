@@ -1,6 +1,6 @@
 ---
 name: 设置BitAxe
-Description: 如何设置BitAxe？
+description: 如何设置BitAxe？
 ---
 
 ### 引言

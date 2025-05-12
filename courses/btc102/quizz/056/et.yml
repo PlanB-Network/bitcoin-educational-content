@@ -1,8 +1,9 @@
-question: Mis on Bitcoin'i lõplik visioon vastavalt Bitcoin'i maantee metafoorile?
-answer: See saab olema maantee internetiliiklusele ja 90% maailma elanikkonnast.
+question: Millist meetodit kasutatakse tehingute On-Chain jälgitavuse kaitsmiseks?
+answer: CoinJoin ja PayJoin tehnikate kasutamine
 wrong_answers:
-  - See saab olema luksuskaup, mis on kättesaadav ainult jõukatele.
-  - See saab olema vahend ebaseaduslikeks tegevusteks.
-  - See muutub iganenuks ja asendatakse teiste krüptovaluutadega.
+  - Sama vastuvõtva Address korduvkasutamine
+  - UTXOde sagedane konsolideerimine
+  - Deponeerimine Wallet hoiuleandmisse
 explanation: |
-  Bitcoin'i maantee metafoor kujutab Bitcoin'i kui maanteed internetiliiklusele ja 90% maailma elanikkonnale, kus kaubad ja teenused on otseselt sellel maanteel kättesaadavad.
+  Coinjoins ja payjoins aitavad parandada On-Chain tegevuse privaatsust.
+reviewed: false

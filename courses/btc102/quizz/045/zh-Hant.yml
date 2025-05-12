@@ -1,11 +1,9 @@
-question: Bitcoin Core 開發人員的主要角色是什麼？
-answer: 他們負責 Bitcoin 通訊協定及其核心功能的主要開發工作
+question: 為什麼建議定期將資金從 Hot Wallet 轉移到 Hardware Wallet？
+answer: 為了降低駭客入侵的風險
 wrong_answers:
-  - 他們控制 Bitcoin 網路
-  - 他們創造新的比特幣
-  - 他們調節 Bitcoin 的價格
+  - 增加 Wallet 的流動性
+  - 減少交易費用
+  - 優化 UTXO 隱私權
 explanation: |
-  本章內容說明 Bitcoin Core 開發人員負責
-  Bitcoin 通訊協定及其核心功能的主要開發工作。他們不
-  不控制 Bitcoin 網路、不創造新的比特幣，也不調節 Bitcoin 的價格。
+  轉移到 Hardware Wallet 透過離線儲存私人金鑰來確保資金安全。
 reviewed: false

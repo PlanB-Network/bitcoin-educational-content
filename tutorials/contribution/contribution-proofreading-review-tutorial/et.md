@@ -33,13 +33,13 @@ Sa ei pea olema GitHubi ekspert, et sisu üle vaadata. Kuigi alati on parem mõi
 
 Kui te aga ei ole Git ja GitHubiga kursis ja soovite rohkem teada saada, siis vaadake meie sissejuhatavat artiklit nende tööriistade kohta:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Konto loomine
 
 
 - Loo konto [GitHubis](https://github.com/), et alustada panustamist. Kui soovite juhiseid GitHubi konto loomiseks, on meil ka üksikasjalik õpetus:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Sul on vaja ka kontot sõnumirakenduses [Telegram](https://telegram.org/).
 
@@ -162,3 +162,4 @@ NB. Soovitatav on vaadata läbi koodiaknas, kusjuures originaalsisu kuvatakse er
 
 
 - Kui teil on selle projekti kohta märkusi, küsimusi või kommentaare, saatke julgelt DM [toetajate Telegram gruppi](https://t.me/PlanBNetwork_ContentBuilder).
+

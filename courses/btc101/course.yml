@@ -127,6 +127,26 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 21.9
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 38.25
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.9
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.9
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 27.35
 tags:
   - user-friendly
   - wallets

@@ -1,12 +1,9 @@
-question: Mis on peamine omadus, mis eristab Bitcoini teistest krüptorahadest?
-answer: Bitcoin on ainus tõeliselt detsentraliseeritud, tsensuurikindel, vaba ja tõsine krüptoraha
+question: Millist lahendust soovitatakse Bitcoin maksete tegemiseks soodsalt?
+answer: Lightning Network
 wrong_answers:
-  - Bitcoin on ainus krüptoraha, mida saab kaevandada
-  - Bitcoin on ainus krüptoraha, mida saab osta või müüa vahetusplatvormidel
-  - Bitcoin on ainus krüptoraha, mida saab hoida rahakotis
+  - Hardware Wallet
+  - Pangakonto
+  - RGB Layer
 explanation: |
-  Peatüki sisu väidab, et Bitcoin on ainus tõeliselt detsentraliseeritud,
-  tsensuurikindel, vaba ja tõsine krüptoraha, mis õigustab tuhandeid
-  töötunde. See on võtmeks olev omadus, mis eristab Bitcoini teistest
-  krüptorahadest.
+  Lightning võimaldab kiireid ja odavaid tehinguid igapäevaste ostude puhul. See on ideaalne vahend aktiivsele kasutajale.
 reviewed: false

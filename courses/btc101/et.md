@@ -1137,7 +1137,7 @@ Järkjärguline strateegia hõlmab korduvaid oste, mis tähendab, et regulaarsel
 
 **Vältige UTXOsid**: Ärge unustage aeg-ajalt oma UTXO-d oma rahakotis konsolideerida. See tava on oluline oma bitcoinide tõhusaks haldamiseks ja tarbetute tasude vältimiseks tehingute ajal.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) on tehingu väljund, mida ei ole veel kulutatud, mis tähendab, et seda ei ole kasutatud uue tehingu sisendina. UTXOde konsolideerimine tähendab mitme väikese UTXO ühendamist üheks suuremaks, et vähendada tehingu "kaalu" ja seega maksta madalamaid tasusid.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) on tehingu väljund, mida ei ole veel kulutatud, mis tähendab, et seda ei ole kasutatud uue tehingu sisendina. UTXOde konsolideerimine tähendab mitme väikese UTXO ühendamist üheks suuremaks, et vähendada tehingu "kaalu" ja seega maksta madalamaid tasusid.
 
 - Spontaanne ostmine
 

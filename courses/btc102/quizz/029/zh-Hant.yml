@@ -1,11 +1,9 @@
-question: Bitcoin 的稀缺性有什麼意義？
-answer: 世界上只有 2100 萬個比特幣，絕不會再有更多。
+question: 哪個主要廠商為 Bitcoin Mining 設計 ASIC？
+answer: Bitmain
 wrong_answers:
-  - Bitcoin 的值會一直增加
-  - Bitcoin 難以開採
-  - Bitcoin 交易數量有限
+  - Trezor
+  - Ledger
+  - 代工美國
 explanation: |
-  Bitcoin 的稀缺性是指只有 2100 萬個比特幣。
-  萬個比特幣。這一特性與黃金相似，可以防止通過過度印鈔來稀釋
-  Bitcoin 的價值。
+  Bitmain 是 Bitcoin Mining 專用硬體的領先製造商之一。
 reviewed: false

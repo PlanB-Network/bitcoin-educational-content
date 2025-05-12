@@ -1,12 +1,9 @@
-question: Bitcoin 有別於其他加密貨幣的主要特徵是什麼？
-answer: Bitcoin 是唯一真正去中心化、可抵抗審查、自由且嚴肅的加密貨幣
+question: 建議使用何種解決方案進行低成本的 Bitcoin 付款？
+answer: Lightning Network
 wrong_answers:
-  - Bitcoin 是唯一可開採的加密貨幣
-  - Bitcoin 是唯一可以在 Exchange 平台上買賣的加密貨幣
-  - Bitcoin 是唯一可以儲存在 Wallet 中的加密貨幣。
+  - Hardware Wallet
+  - 銀行帳戶
+  - RGB Layer
 explanation: |
-  章節內容指出，Bitcoin 是唯一真正去中心化、
-  抗檢查、自由且嚴肅的加密貨幣，足以證明數以千計的
-  小時的工作。這是 Bitcoin 有別於其他
-  加密貨幣的關鍵特徵。
+  Lightning 可實現快速、低成本的日常購物交易。它是活躍用戶的理想工具。
 reviewed: false

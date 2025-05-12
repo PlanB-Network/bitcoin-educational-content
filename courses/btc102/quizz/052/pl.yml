@@ -1,11 +1,9 @@
-question: Jaka jest rola firm takich jak OpenNode, Swiss Bitcoin Pay i BTCPay w ekosystemie Bitcoin?
-answer: Dostarczają narzędzia, które ułatwiają firmom akceptację Bitcoin.
+question: Jakie korzyści zapewnia uruchomienie własnego węzła Bitcoin?
+answer: Niezależność
 wrong_answers:
-  - Wydobywają Bitcoin.
-  - Regulują one Bitcoin.
-  - Wydają Bitcoin.
+  - Płynność
+  - Centralizacja
+  - Prędkość
 explanation: |
-  Firmy takie jak OpenNode, Swiss Bitcoin Pay i BTCPay zapewniają narzędzia
-  które ułatwiają firmom akceptowanie Bitcoin, przyczyniając się do jego przyjęcia
-  i wykorzystania w codziennych transakcjach.
+  Prowadzenie własnego węzła zapewnia niezależność od stron trzecich i chroni prywatność transakcji.
 reviewed: false

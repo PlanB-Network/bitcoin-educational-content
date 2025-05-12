@@ -17,6 +17,7 @@ A lo largo de esta guía, aprenderá a entender Bitcoin como una red monetaria g
 
 Tanto si es un **pequeño negocio como una gran corporación**, integrar Bitcoin en sus operaciones diarias puede hacer que su empresa sea más **resiliente, productiva y competitiva**. Todo negocio basado en Internet se convertirá en una empresa orientada a Bitcoin, y este curso le asegura que está preparado. Las secciones iniciales recapitulan los fundamentos del funcionamiento de Bitcoin, por lo que incluso si usted es un principiante, obtendrá los conocimientos básicos necesarios para continuar. Aprender los fundamentos de la invención de Satoshi es siempre una buena idea, ya sea antes o después de sumergirse en BIZ101.
 
++++
 
 # Introducción
 
@@ -884,7 +885,7 @@ Para obtener tutoriales detallados sobre los monederos recomendados y la configu
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 

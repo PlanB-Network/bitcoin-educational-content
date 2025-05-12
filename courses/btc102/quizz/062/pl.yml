@@ -1,12 +1,9 @@
-question: Jaki jest cel zadawania czterech pytań przed wyborem planu inwestycyjnego Bitcoin?
-answer: Aby wybrać ścieżkę, która najbardziej Ci odpowiada
+question: Czego NIE zaleca się podczas przekazywania dostępu do swoich bitcoinów?
+answer: Przekazanie frazy Mnemonic jednej osobie
 wrong_answers:
-  - Aby określić ilość Bitcoin, którą należy kupić
-  - Aby określić typ Bitcoin Wallet, którego należy użyć
-  - Aby określić czas trwania inwestycji w Bitcoin
+  - Dzielenie informacji między wiele osób
+  - Używanie zapieczętowanych nieprzezroczystych kopert
+  - Pisanie listu wyjaśniającego
 explanation: |
-  Celem zadania tych czterech pytań przed wyborem inwestycji Bitcoin
-  inwestycyjnego
-  jest wybranie ścieżki, która najbardziej Ci odpowiada. Pytania pomagają zrozumieć
-  twoje cele i preferencje inwestycyjne.
+  Powierzenie frazy Mnemonic jednej osobie bez dodatkowych zabezpieczeń znacznie zwiększa ryzyko kradzieży w ciągu całego życia.
 reviewed: false

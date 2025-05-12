@@ -1,11 +1,9 @@
-question: Jaki jest godny uwagi przykład Bitcoin Hard Fork?
-answer: Bitcoin Cash (BCH)
+question: Jakie środki ostrożności należy podjąć przed oszustwami związanymi z darowiznami i nieuczciwymi loteriami?
+answer: Nigdy nie wysyłaj pieniędzy, aby otrzymać bitcoiny
 wrong_answers:
-  - Ethereum (ETH)
-  - Litecoin (LTC)
-  - Ripple (XRP)
+  - Zawsze wysyłaj niewielką kwotę, aby przetestować ofertę
+  - Inwestuj, aby uzyskać szybki i łatwy zysk
+  - Udostępnianie danych osobowych w celu zabezpieczenia transakcji
 explanation: |
-  Bitcoin przeszedł z czasem kilka rozwidleń Hard, dając początek różnym
-  alternatywne wersje oryginalnej waluty. Godne uwagi przykłady tych odchyleń
-  obejmują Bitcoin Cash (BCH) i Bitcoin Satoshi Vision (BSV).
+  Żądanie płatności z góry jest powszechną oznaką oszustwa tego typu.
 reviewed: false

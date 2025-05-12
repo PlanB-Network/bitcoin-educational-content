@@ -1,11 +1,9 @@
-question: Mis on peamine risk, kui jätta oma bitcoine vahetusplatvormile?
-answer: Platvormi võib häkkida, arestida, see võib pankrotti minna või lihtsalt kaduda koos sinu rahaga
+question: Milline tööriist võimaldab teil jälgida oma Wallet ilma oma isiklikke võtmeid paljastamata?
+answer: Watch-only wallet
 wrong_answers:
-  - Bitcoini hind võib järsult langeda
-  - Platvorm võib tõsta oma tasusid
-  - Platvorm võib piirata bitcoine, mida saad osta või müüa
+  - Hot Wallet
+  - Välk Wallet
+  - Hooldus Wallet
 explanation: |
-  Peatüki sisu hoiatab, et vahetusplatvormid kujutavad endast olulisi
-  riske ja neid tuleks võimalikult palju vältida. Neid võib häkkida, arestida, nad võivad
-  pankrotti minna või lihtsalt kaduda koos sinu rahaga.
+  Watch-only wallet kasutab saldode ja tehingute kuvamiseks ainult avalikke võtmeid, ilma et oleks oht, et isiklikud võtmed paljastatakse.
 reviewed: false

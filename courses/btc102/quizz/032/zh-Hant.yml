@@ -1,11 +1,9 @@
-question: Bitcoin 是從 0 到 1 的創新，其意義何在？
-answer: 它破壞了我們的規範和習慣
+question: 什麼 RGB 機制能確保抵制雙重花費？
+answer: Single-Use Seal
 wrong_answers:
-  - 這是第一種數位貨幣
-  - 它的值從 0 增加到 1
-  - 這是邁向無現金社會的第一步
+  - 多用途 Seal
+  - 雙重簽名
+  - 認股證明
 explanation: |
-  從 0 到 1 一詞是指打破現有規範和習慣的重大創新。
-  規範和習慣。Bitcoin 因其獨特的特性和對社會的潛在影響而被視為此類創新。
-  和對社會的潛在影響。
+  Single-Use Seal 利用 UTXO 只能花費一次的事實，確保 RGB 智慧型契約內的雙重花費不受影響。
 reviewed: false

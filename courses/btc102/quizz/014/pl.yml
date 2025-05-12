@@ -1,11 +1,9 @@
-question: Jaki jest główny cel korzystania z narzędzi takich jak Signal, Tor i ProtonMail?
-answer: Cenić i chronić prywatność użytkowników
+question: Dlaczego zaleca się inwestowanie tylko tyle, ile można stracić?
+answer: Aby zachować bezpieczeństwo finansowe w przypadku straty
 wrong_answers:
-  - Aby przyspieszyć połączenie internetowe
-  - Aby chronić komputer przed wirusami
-  - Zapewnienie bezpłatnego dostępu do płatnych usług
+  - Aby szybko zmaksymalizować zyski na rynku niedźwiedzia
+  - Aby znacznie zdywersyfikować swoje inwestycje
+  - Pożyczanie w celu zwiększenia inwestycji
 explanation: |
-  Narzędzia takie jak Signal, Tor i ProtonMail są używane do wartościowania i ochrony
-  
-  prywatności. Są one częścią środków mających na celu poprawę nawyków bezpieczeństwa online"
+  Inwestowanie ponad posiadane środki (tj. ponad możliwości oszczędzania) naraża na zbyt wysokie ryzyko finansowe.
 reviewed: false

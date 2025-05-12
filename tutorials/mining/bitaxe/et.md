@@ -1,6 +1,6 @@
 ---
 name: BitAxe seadistamine
-Kirjeldus: Kuidas seadistada BitAxe'i?
+description: Kuidas seadistada BitAxe'i?
 ---
 
 ### Sissejuhatus

@@ -1,10 +1,9 @@
-question: Apa salah satu langkah untuk menjaga komputer Anda dalam kondisi kerja optimal?
-answer: Secara rutin membackup data Anda
+question: Sampai berapa angka desimal yang dapat dibagi dengan Bitcoin?
+answer: Delapan
 wrong_answers:
-  - Membagi password Anda
-  - Menggunakan password yang sama untuk semua akun
-  - Mengabaikan pembaruan komputer Anda
+  - Enam
+  - Dua belas
+  - Tujuh
 explanation: |
-  Secara rutin membackup data Anda adalah salah satu langkah untuk menjaga komputer
-
-  Anda dalam kondisi kerja optimal. Ini juga merupakan langkah dasar untuk meningkatkan kebiasaan keamanan online.
+  Sebuah Bitcoin dapat dibagi hingga tempat desimal kedelapan, dengan satu unit yang disebut Satoshi atau sat.
+reviewed: false

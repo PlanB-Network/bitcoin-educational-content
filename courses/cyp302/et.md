@@ -29,7 +29,9 @@ Tere tulemast kursusele CYP302!
 
 See raamat pakub põhjalikku sissejuhatust krüptograafia teadusse ja praktikasse. Võimaluse korral keskendutakse pigem materjali kontseptuaalsele kui formaalsele eksponeerimisele.
 
-> See kursus põhineb [JWBurgersi repol](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Kõik õigused talle. Sisu ei ole veel valmis ja ainult siin näidata, kuidas me võiksime seda integreerida, kui JWburger on nõus.
+
+See õppesisu on kohandatud raamatust ja repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Kuigi autor on lahkelt lubanud selle hariduslikku kasutamist, jäävad kõik intellektuaalomandi õigused algsele loojale.
+
 **Motivatsioon ja eesmärgid**
 
 On raske leida palju materjale, mis pakuksid krüptograafiaõppes head keskteed.

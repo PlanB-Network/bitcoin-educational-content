@@ -1,10 +1,9 @@
-question: Was ist eine der Maßnahmen, um Ihren Computer in optimaler Arbeitsbedingung zu halten?
-answer: Regelmäßig Ihre Daten sichern
+question: Bis zu wie vielen Dezimalstellen kann ein Bitcoin geteilt werden?
+answer: Acht
 wrong_answers:
-  - Teilen Sie Ihre Passwörter
-  - Verwenden Sie dasselbe Passwort für alle Konten
-  - Vernachlässigen Sie das Aktualisieren Ihres Computers
+  - Sechs
+  - Zwölf
+  - Sieben
 explanation: |
-  Regelmäßiges Sichern Ihrer Daten ist eine der Maßnahmen, um Ihren Computer
-  in optimaler Arbeitsbedingung zu halten. Es ist auch eine grundlegende Maßnahme zur Verbesserung der Online-Sicherheitsgewohnheiten.
+  Ein Bitcoin kann bis auf die achte Dezimalstelle unterteilt werden, wobei eine Einheit als Satoshi oder sat bezeichnet wird.
 reviewed: false

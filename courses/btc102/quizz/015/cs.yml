@@ -1,9 +1,9 @@
-question: Jaká je hlavní výhoda používání správce hesel podle kapitoly?
-answer: Pomáhá vám nikdy nepoužít stejné heslo dvakrát
+question: Který systém umožňuje rychlé a levné transakce v systému Bitcoin?
+answer: Lightning Network
 wrong_answers:
-  - Pomáhá vám pamatovat si vaše uživatelská jména
-  - Chrání váš počítač před viry
-  - Generuje náhodná hesla
+  - SegWit
+  - Síť Ripple
+  - RGB
 explanation: |
-  Podle kapitoly správce hesel pomáhá nikdy nepoužít stejné heslo dvakrát, vybírat složitá a bezpečná hesla a usnadňuje správu vaší online bezpečnosti.
+  Lightning Network je druhé řešení Layer, které umožňuje rychlé vypořádání a snižuje náklady na transakce BTC.
 reviewed: false

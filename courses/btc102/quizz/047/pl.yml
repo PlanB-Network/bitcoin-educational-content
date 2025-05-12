@@ -1,11 +1,9 @@
-question: Czym jest Wallet w kontekście Bitcoin?
-answer: Cyfrowy sejf na bitcoiny
+question: Jakie urządzenie jest zalecane w celu zabezpieczenia długoterminowo zgromadzonych środków?
+answer: Hardware Wallet
 wrong_answers:
-  - Fizyczne urządzenie do przechowywania bitcoinów
-  - Oprogramowanie dla bitcoinów Mining
-  - Platforma do kupowania i sprzedawania bitcoinów
+  - Hot Wallet
+  - Lightning Wallet
+  - Platforma Exchange
 explanation: |
-  Treść rozdziału wyjaśnia, że bitcoiny są przechowywane w tak zwanym
-  gW-3, który jest cyfrowym sejfem na pieniądze. Dostęp do niego ma tylko posiadacz klucza
-  do niego dostęp.
+  Hardware Wallet przechowuje klucze prywatne w trybie offline, zapewniając zwiększone bezpieczeństwo dla znacznych kwot w dłuższej perspektywie.
 reviewed: false

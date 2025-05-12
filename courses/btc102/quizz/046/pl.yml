@@ -1,11 +1,9 @@
-question: Jakie jest główne ryzyko związane z pozostawieniem bitcoinów na platformie Exchange?
-answer: Platforma może zostać zhakowana, przejęta, zbankrutować lub po prostu zniknąć wraz z pieniędzmi użytkownika
+question: Jakie narzędzie umożliwia monitorowanie Wallet bez ujawniania kluczy prywatnych?
+answer: Watch-only wallet
 wrong_answers:
-  - Cena Bitcoin może nagle spaść
-  - Platforma może zwiększyć swoje opłaty
-  - Platforma może ograniczyć liczbę bitcoinów, które można kupić lub sprzedać
+  - Hot Wallet
+  - Lightning Wallet
+  - Custodial Wallet
 explanation: |
-  Treść rozdziału ostrzega, że platformy Exchange stwarzają znaczne
-  ryzyko i należy ich unikać w miarę możliwości. Mogą zostać zhakowane, przejęte, zbankrutować lub po prostu
-  zbankrutować lub po prostu zniknąć wraz z pieniędzmi.
+  Watch-only wallet wykorzystuje tylko klucze publiczne do wyświetlania sald i transakcji, bez ryzyka ujawnienia kluczy prywatnych.
 reviewed: false

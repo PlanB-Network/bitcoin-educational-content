@@ -1,10 +1,9 @@
-question: Qual é o limite de bitcoins que existirá?
-answer: 21 milhões
+question: Qual é o segundo protocolo Layer que permite pagamentos quase instantâneos?
+answer: Lightning Network
 wrong_answers:
-  - 100 milhões
-  - 1 bilhão
-  - Sem limite
+  - Cadeias laterais
+  - RGB
+  - Núcleo Bitcoin
 explanation: |
-  O capítulo afirma que nunca haverá mais do que 21 milhões de bitcoins.
-  Esse limite foi estabelecido no protocolo do Bitcoin por Satoshi e não pode ser alterado hoje.
+  O Lightning Network permite transacções rápidas e de baixo custo através de operações off-chain fora do Bitcoin Blockchain.
 reviewed: false

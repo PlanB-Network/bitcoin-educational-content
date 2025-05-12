@@ -1,0 +1,5 @@
+---
+term: BIP0322
+---
+
+Inapendekeza kiwango kipya cha kuchukua nafasi ya BIP137 kwa ajili ya kusaini ujumbe kwa funguo za faragha za Bitcoin na anwani zake zinazohusiana, ili kuthibitisha Ownership ya Address. Sahihi hizi ni muhimu kwa programu mbalimbali kama vile uthibitisho wa fedha, ukaguzi na matumizi mengine yanayohitaji uthibitishaji wa Address kupitia ufunguo wake wa faragha. Ikilinganishwa na BIP137, BIP322 hupanua kiwango cha kutia sahihi ujumbe zaidi ya anwani za kawaida, kwa kutumia mbinu kulingana na hati. Inaruhusu programu ya Wallet kusaini ujumbe kwa hati yoyote ambayo wangeweza kufungua ili kutumia bitcoins. Ili kufanya hivyo, mbinu inahusisha kusaini maandishi kwa kutoa saini ya ununuzi wa Bitcoin. Kwa anwani za kitamaduni za P2PKH, BIP322 inasalia sambamba na umbizo la sahihi la jadi.

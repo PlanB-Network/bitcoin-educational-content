@@ -1,11 +1,9 @@
-question: Bitcoin 投資的黃金法則是什麼？
-answer: 不是你的鑰匙，也不是你的比特幣。
+question: 什麼名詞指的是 Mining 資助的程式化分割？
+answer: Halving
 wrong_answers:
-  - 切勿投資超過您能承受的損失。
-  - 避免流行的東西。
-  - 規劃與長遠的願景是財務成功的必要條件。
+  - Fork
+  - 分割
+  - Coinbase
 explanation: |
-  Bitcoin 投資的金科玉律是 Not your key, not your Bitcoins。
-  這意味著，如果您不能控制您的私人密碼匙，您就不能真正
-  擁有你的比特幣。
+  Halving 是指每 210,000 個區塊中 Mining 補貼的 Halving。
 reviewed: false

@@ -1,10 +1,9 @@
-question: 在 Bitcoin 的情況下，什麼是 Cold Wallet？
-answer: 用於離線儲存大量 Bitcoin 的 Wallet
+question: 偏執狂 bitcoiner 的主要目標是什麼？
+answer: 為了保護他們的隱私
 wrong_answers:
-  - 用於 Cold 氣候下交易的 Wallet
-  - 用於儲存少量 Bitcoin 的 Wallet
-  - 用於短時間儲存 Bitcoin 的 Wallet
+  - 快速累積 Satoshis
+  - 使交易利潤最大化
+  - 長期持有比特幣
 explanation: |
-  Cold Wallet 是一種用於離線儲存大量 Bitcoin 的 Wallet。
-  它被認為比 Hot Wallet 更為安全，因為它不易受到黑客攻擊。
+  偏執的 bitcoiner 主要是為了避免他們的交易和身份受到任何追蹤。
 reviewed: false

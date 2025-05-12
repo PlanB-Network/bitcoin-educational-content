@@ -1,10 +1,9 @@
-question: 在 Bitcoin 的情況下，什麼是 Hot Wallet？
-answer: 用於線上儲存少量 Bitcoin 的 Wallet
+question: Bitcoin 繼承書在遺產計畫中扮演什麼角色？
+answer: 指導繼承人使用資金
 wrong_answers:
-  - 用於 Hot 氣候下交易的 Wallet
-  - 用於儲存大量 Bitcoin 的 Wallet
-  - 用於長時間儲存 Bitcoin 的 Wallet
+  - 作為轉移比特幣給繼承人的 Contract
+  - 確定資產的稅務分配
+  - 優化錢包間的轉帳費用
 explanation: |
-  Hot Wallet 是一種用於線上儲存少量 Bitcoin 的 Wallet。
-  它被認為安全性比 Cold Wallet 低，因為它更容易受到黑客攻擊。
+  繼承書提供了清楚明確的指示，讓親人可以取回比特幣。
 reviewed: false

@@ -1,11 +1,9 @@
-question: Jakie jest powszechne oszustwo związane z darowiznami online w sektorze kryptowalut?
-answer: Oferty zapewniające podwojenie lub pomnożenie wysyłanych bitcoinów.
+question: Co oznacza zasada 3-2-1 w kontekście tworzenia kopii zapasowych danych?
+answer: 3 kopie na 2 różnych nośnikach, z czego 1 przechowywana poza siedzibą firmy
 wrong_answers:
-  - Oferty twierdzące, że podwajają lub pomnażają twoje fizyczne dobra.
-  - Oferty umożliwiające podwojenie lub pomnożenie waluty fiducjarnej.
-  - Oferty zapewniające podwojenie lub zwielokrotnienie oprogramowania.
+  - 3 kopie na 2 nośnikach online i 1 urządzeniu fizycznym
+  - 3 nośniki z 2 kopiami, z których jedna znajduje się poza siedzibą firmy
+  - 3 kopie, z których 2 są zaszyfrowane, a 1 przechowywana poza siedzibą firmy
 explanation: |
-  Klasycznym przykładem tego typu oszustwa jest oferta twierdząca, że podwaja
-  lub pomnożenie wysyłanych bitcoinów. Ważne jest, aby zrozumieć, że nie ma
-  magiczne rozwiązanie, aby stać się natychmiast bogatym.
+  Zasada ta zaleca posiadanie 3 kopii danych na 2 różnych typach nośników, z 1 kopią przechowywaną poza siedzibą firmy w celu zwiększenia odporności.
 reviewed: false

@@ -79,6 +79,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.42
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.66
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.42
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.42
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.42
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.5
 tags:
   - investment
   - good-practice

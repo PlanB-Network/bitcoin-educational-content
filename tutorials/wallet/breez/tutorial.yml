@@ -1,90 +1,115 @@
 id: 46a6867b-c74b-45e7-869c-10a4e0263c06
-
-level: intermediate
-
-category: mobile
-
 project_id: 41c4621e-7411-42a8-9ef9-90c29e19b76a
-original_language: en
-proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.83
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.65
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 0.32
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.65
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.83
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.65
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.65
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.19
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.65
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.83
-  - language: vi
-    last_contribution_date: 2024-09-24
-    urgency: 1
-    contributor_names:
-      - Henry-Da0
-    reward: 0.6
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.83
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.01
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.01
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.83
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+level: intermediate
+category: mobile
 tags:
   - wallets
   - lightning
   - user-friendly
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-04-29
+    urgency: 1
+    contributors_names:
+      - heyolaniran
+    reward: 0
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.25
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.25
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.25
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.12
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.69
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.25
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.41
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.25
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.41
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.69
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.69

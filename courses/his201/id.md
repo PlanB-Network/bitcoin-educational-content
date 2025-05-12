@@ -23,7 +23,7 @@ Kursus ini, tentu saja, berpusat pada sosok Satoshi Nakamoto, di mana Anda akan 
 ## Ikhtisar Kursus
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 Selamat datang di kursus HIS201!
-Kursus ini bertujuan untuk menceritakan kisah penciptaan Bitcoin dengan cara yang belum pernah Anda baca sebelumnya. Seringkali diabaikan, meskipun dipenuhi dengan detail yang menarik. Kami akan berusaha menggambarkannya dalam semua kompleksitasnya, dari konsepsinya oleh Satoshi Nakamoto hingga kepergiannya yang awal dan penyerahan kepada komunitas.
+Kursus ini bertujuan untuk menceritakan kisah penciptaan Bitcoin dengan cara yang belum pernah Anda baca sebelumnya. Seringkali diabaikan, meskipun dipenuhi dengan detail yang menarik. Kami akan berusaha untuk menjelaskannya dalam segala kerumitannya, mulai dari konsepsinya oleh Satoshi Nakamoto hingga menghilangnya ia di awal kemunculannya dan pengambilalihan oleh komunitas.
 
 **Ikhtisar Singkat**
 

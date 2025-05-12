@@ -1,5 +1,5 @@
 ---
-name: Paszport - Fundacja
+name: Passport Core
 description: Konfiguracja i korzystanie z urządzenia Passport Hardware Wallet w trybie ręcznym
 ---
 ![cover](assets/cover.webp)

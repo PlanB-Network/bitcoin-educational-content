@@ -1,5 +1,5 @@
 ---
-name: Pass - Stiftelse
+name: Passport Core
 description: Konfigurera och använda Passport Hardware Wallet i manuellt läge
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Паспорт - основание
+name: Passport Core
 description: Настройка и использование аппаратного кошелька Passport в ручном режиме
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Sparrow отобразит первый пустой адрес квитанци
 Более подробную информацию вы найдете в нашем руководстве по программе Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

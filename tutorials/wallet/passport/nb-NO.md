@@ -1,5 +1,5 @@
 ---
-name: Pass - Foundation
+name: Passport Core
 description: Konfigurere og bruke Passport-maskinvarelommeboken i manuell modus
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Gratulerer, du vet nå hvordan du konfigurerer og bruker Passport. Hvis du synes
 For mer informasjon, se vår veiledning om Liana-programvaren:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

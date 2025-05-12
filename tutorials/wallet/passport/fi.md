@@ -1,5 +1,5 @@
 ---
-name: Passi - Säätiö
+name: Passport Core
 description: Passport-laitteiston lompakon määrittäminen ja käyttö manuaalisessa tilassa
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Onneksi olkoon, tiedät nyt, miten Passportin asetukset määritetään ja miten
 Lisätietoja on Liana-ohjelmiston oppaassa:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

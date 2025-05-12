@@ -1,5 +1,5 @@
 ---
-name: Passaporto - Fondazione
+name: Passport Core
 description: Configurazione e utilizzo del portafoglio hardware Passport in modalità manuale
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Congratulazioni, ora sapete come configurare e utilizzare Passport. Se questa gu
 Per ulteriori informazioni, consultare il nostro tutorial sul software Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

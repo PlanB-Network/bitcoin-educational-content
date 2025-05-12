@@ -1,5 +1,5 @@
 ---
-name: Pass - Sihtasutus
+name: Passport Core
 description: Passport riistvaralise rahakoti konfigureerimine ja kasutamine manuaalses režiimis
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Palju õnne, te teate nüüd, kuidas passi konfigureerida ja kasutada. Kui leids
 Lisateavet leiate meie Liana tarkvara juhendmaterjalist:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

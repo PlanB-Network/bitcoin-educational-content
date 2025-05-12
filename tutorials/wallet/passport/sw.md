@@ -1,5 +1,5 @@
 ---
-name: Pasipoti - Msingi
+name: Passport Core
 description: Kusanidi na kutumia Pasipoti Hardware Wallet katika hali ya mwongozo
 ---
 ![cover](assets/cover.webp)

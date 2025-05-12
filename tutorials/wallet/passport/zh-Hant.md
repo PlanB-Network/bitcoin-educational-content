@@ -1,5 +1,5 @@
 ---
-name: 護照 - 基金會
+name: Passport Core
 description: 在手动模式下配置和使用 Passport Hardware Wallet
 ---
 ![cover](assets/cover.webp)

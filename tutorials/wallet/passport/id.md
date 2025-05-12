@@ -1,5 +1,5 @@
 ---
-name: Paspor - Yayasan
+name: Passport Core
 description: Mengonfigurasi dan menggunakan dompet perangkat keras Passport dalam mode manual
 ---
 ![cover](assets/cover.webp)
@@ -489,3 +489,4 @@ Selamat, Anda sekarang tahu cara mengonfigurasi dan menggunakan Passport. Jika A
 Untuk informasi lebih lanjut, lihat tutorial kami tentang perangkat lunak Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

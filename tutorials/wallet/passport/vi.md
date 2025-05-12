@@ -1,5 +1,5 @@
 ---
-name: Hộ chiếu - Nền tảng
+name: Passport Core
 description: Cấu hình và sử dụng ví phần cứng Passport ở chế độ thủ công
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Xin chúc mừng, giờ bạn đã biết cách cấu hình và sử dụng Pass
 Để biết thêm thông tin, hãy xem hướng dẫn của chúng tôi về phần mềm Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

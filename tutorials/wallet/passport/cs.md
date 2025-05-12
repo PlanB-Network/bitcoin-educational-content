@@ -1,5 +1,5 @@
 ---
-name: Passport - Nadace
+name: Passport Core
 description: Konfigurace a používání hardwarové peněženky Passport v ručním režimu
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Gratulujeme, nyní víte, jak nakonfigurovat a používat aplikaci Passport. Pok
 Další informace naleznete v našem návodu k softwaru Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

@@ -1,5 +1,5 @@
 ---
-name: पासपोर्ट - आधारशिला
+name: Passport Core
 description: पासपोर्ट Hardware Wallet को मैनुअल मोड में कॉन्फ़िगर और उपयोग करना
 ---
 ![cover](assets/cover.webp)

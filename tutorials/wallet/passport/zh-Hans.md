@@ -1,5 +1,5 @@
 ---
-name: 护照 - 基金会
+name: Passport Core
 description: 在手动模式下配置和使用 Passport 硬件钱包
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Sparrow 将在您的产品组合中显示第一个空白收据地址。您可以
 如需了解更多信息，请参阅我们的 Liana 软件教程：
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

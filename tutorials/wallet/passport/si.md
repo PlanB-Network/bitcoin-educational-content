@@ -1,5 +1,5 @@
 ---
-name: පස්පෝට් - පදනම
+name: Passport Core
 description: Hardware Wallet පස්පෝට් මැනුවල් ප්‍රකාරයෙහි වින්‍යාසය සහ භාවිතය
 ---
 ![cover](assets/cover.webp)

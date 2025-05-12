@@ -1,5 +1,5 @@
 ---
-name: Pasaporte - Fundación
+name: Passport Core
 description: Configuración y uso del monedero electrónico Passport en modo manual
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Enhorabuena, ya sabes cómo configurar y utilizar Passport. Si este tutorial te 
 Para más información, consulte nuestro tutorial sobre el software Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

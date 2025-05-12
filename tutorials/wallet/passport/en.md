@@ -1,5 +1,5 @@
 ---
-name: Passport - Foundation
+name: Passport Core
 description: Configuring and using the Passport hardware wallet in manual mode
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Congratulations, you now know how to configure and use Passport. If you found th
 For further information, see our tutorial on Liana software:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

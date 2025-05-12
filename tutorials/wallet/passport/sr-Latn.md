@@ -1,5 +1,5 @@
 ---
-name: Pasoš - Fondacija
+name: Passport Core
 description: Konfigurisanje i korišćenje Passport Hardware Wallet u ručnom režimu
 ---
 ![cover](assets/cover.webp)

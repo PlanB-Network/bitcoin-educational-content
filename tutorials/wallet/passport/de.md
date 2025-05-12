@@ -1,5 +1,5 @@
 ---
-name: Reisepass - Stiftung
+name: Passport Core
 description: Konfigurieren und Verwenden der Passport-Hardware-Geldbörse im manuellen Modus
 ---
 ![cover](assets/cover.webp)
@@ -483,3 +483,4 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie Passport konfigurieren und ve
 Weitere Informationen finden Sie in unserem Tutorium zur Liana-Software:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

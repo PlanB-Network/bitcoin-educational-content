@@ -8,6 +8,8 @@ Passport là ví phần cứng chỉ dành cho Bitcoin, được thiết kế b�
 
 Passport "*Batch 2*" được giới thiệu trong hướng dẫn này là phiên bản kế nhiệm của "*Founder's Edition*". Nó nổi bật với thiết kế cao cấp, màn hình màu độ phân giải cao và bàn phím vật lý tiện dụng. Thiết bị hoạt động ở chế độ "*Air-Gap*", đảm bảo rằng khóa riêng tư của ví của bạn luôn được cách ly hoàn toàn, với việc trao đổi dữ liệu thông qua thẻ MicroSD hoặc mã QR. Thiết bị được trang bị pin sạc có thể tháo rời Nokia BL-5C dung lượng 1200 mAh. Pin này không độc quyền và có thể dễ dàng thay thế vì mẫu BL-5C có sẵn rộng rãi trên thị trường.
 
+💡 **Cập nhật:** Kể từ tháng 3 năm 2025, tên của ví phần cứng này không còn là "Passport" hay "Passport V2", mà là "Passport Core".
+
 Về khả năng kết nối, Passport được trang bị cổng MicroSD, cổng USB-C để sạc và camera sau để quét mã QR.
 
 Về mặt bảo mật, Passport tích hợp một thành phần bảo mật và mã nguồn của thiết bị hoàn toàn là mã nguồn mở. Nó cung cấp tất cả các tính năng được mong đợi của một ví phần cứng Bitcoin tốt. Lưu ý rằng Passport hiện chưa hỗ trợ miniscript, nhưng tính năng này được lên kế hoạch vào quý 2 năm 2025.

@@ -8,6 +8,8 @@ Passport on pelkästään Bitcoinia käyttävä laitteistolompakko, jonka on suu
 
 Passport "*Batch 2*", jota esittelemme tässä oppaassa, on "*Founder's Edition*"-version seuraaja. Se erottuu premium-muotoilullaan, korkearesoluutioisella värinäytöllään ja ergonomisella fyysisellä näppäimistöllään. Se toimii "*Air-Gap*"-tilassa, mikä varmistaa, että lompakkosi yksityiset avaimet pysyvät täysin eristettyinä, ja tiedonsiirto tapahtuu MicroSD-kortin tai QR-koodien kautta. Laitteessa on irrotettava ja ladattava Nokia BL-5C akku, jonka kapasiteetti on 1200 mAh. Tämä vakiomalliakku on helposti vaihdettavissa, koska BL-5C-mallia on laajalti saatavilla kaupoista.
 
+💡 **Päivitys:** Maaliskuusta 2025 lähtien tämän laitelompakon nimi ei ole enää "Passport" tai "Passport V2", vaan "Passport Core".
+
 Liitettävyyden osalta Passportissa on MicroSD-portti, USB-C-portti latausta varten ja takakamera QR-koodien skannausta varten.
 
 Turvallisuuden osalta Passport sisältää turvallisen elementin, ja laitteen lähdekoodi on täysin avointa lähdekoodia. Se tarjoaa kaikki ominaisuudet, joita hyvältä Bitcoin-laitelompakolta odotetaan. Huomaa, että Passport ei vielä tue miniscriptiä, mutta tämä ominaisuus on suunnitteilla vuoden 2025 toiselle neljännekselle.

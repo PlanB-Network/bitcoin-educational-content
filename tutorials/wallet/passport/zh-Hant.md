@@ -10,6 +10,7 @@ Passport 是僅限 Bitcoin 的 Hardware Wallet，由 2020 年 4 月在波士頓�
 
 本教學中介紹的 Passport "*Batch 2*「 是 」*Founder's Edition*" 的後繼機種。它以其優質的設計、高解析度彩色螢幕和符合人體工學的實體鍵盤脫穎而出。它以 "*Air-Gap*"模式運作，可確保 Wallet 的私密金鑰完全隔離，並可透過 MicroSD 卡或 QR 代碼進行通訊。本裝置配備可拆卸、可充電的諾基亞 BL-5C 電池，容量為 1200 mAh。由於 BL-5C 型號可在商店中廣泛買到，因此可輕鬆更換此非專屬電池。
 
+💡 **更新：** 自2025年3月起，此硬體錢包不再稱為「Passport」或「Passport V2」，而是「Passport Core」。
 
 連線方面，Passport 配備 MicroSD 連接埠、用於充電的 USB-C 連接埠，以及用於掃描 QR 碼的後置攝影機。
 

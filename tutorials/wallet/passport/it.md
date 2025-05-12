@@ -8,6 +8,8 @@ Il Passport è un portafoglio hardware per soli Bitcoin, progettato da Foundatio
 
 Il Passport "*Batch 2*" presentato in questo tutorial è il successore della "*Founder's Edition*". Si distingue per il suo design premium, lo schermo a colori ad alta definizione e la tastiera fisica ergonomica. Funziona in modalità "*Air-Gap*", garantendo che le chiavi private del portafoglio rimangano completamente isolate, con trasferimenti possibili tramite una scheda MicroSD o codici QR. Il dispositivo è dotato di una batteria ricaricabile removibile Nokia BL-5C da 1200 mAh. Questa batteria non proprietaria è facilmente sostituibile, poiché il modello BL-5C è ampiamente disponibile sul mercato.
 
+💡 **Aggiornamento:** Da marzo 2025, questo wallet hardware non si chiama più "Passport" o "Passport V2", ma "Passport Core".
+
 Per quanto riguarda la connettività, il Passport è dotato di una porta MicroSD, una porta USB-C per la ricarica e una fotocamera posteriore per la scansione dei codici QR.
 
 In termini di sicurezza, il Passport incorpora un elemento sicuro e il codice sorgente del dispositivo è interamente open-source. Offre tutte le caratteristiche che ci si aspetta da un buon portafoglio hardware Bitcoin. Si noti che il Passport non supporta ancora miniscript, ma questa funzione è prevista per il secondo trimestre del 2025.

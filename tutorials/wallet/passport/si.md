@@ -10,6 +10,7 @@ description: Hardware Wallet පස්පෝට් මැනුවල් ප්�
 
 V tem priročniku predstavljen potni list "*Batch 2*" je naslednik "*Founder's Edition*". Izstopa s svojim vrhunskim dizajnom, visokoločljivim barvnim zaslonom in ergonomsko fizično tipkovnico. Deluje v načinu "*Air-Gap*", kar zagotavlja, da zasebni ključi vašega Wallet ostanejo popolnoma izolirani, komunikacija pa je možna prek kartice MicroSD ali QR kod. Naprava je opremljena z odstranljivo, polnilno baterijo Nokia BL-5C s kapaciteto 1200 mAh. Ta neproprietarna baterija je enostavno zamenljiva, saj je model BL-5C široko dostopen v trgovinah.
 
+💡 **යාවත්කාලීන කිරීම:** 2025 මාර්තු මස සිට මෙම දෘඩාංග පසුම්බිය "Passport" හෝ "Passport V2" යන නාමයෙන් නොව "Passport Core" යන නමින් හැඳින්වේ.
 
 සම්බන්ධතාවය සඳහා, Passport එක MicroSD වරාය, ආරෝපණය සඳහා USB-C වරාය, සහ QR කේත ස්කෑන් කිරීම සඳහා පසුපස කැමරාවකින් සන්නද්ධ වේ.
 

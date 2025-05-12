@@ -8,6 +8,8 @@ Passport adalah dompet perangkat keras khusus Bitcoin, yang dirancang oleh Found
 
 Passport "*Batch 2*" yang kami perkenalkan dalam tutorial ini adalah penerus dari edisi "*Founder's Edition*". Perangkat ini memiliki desain premium, layar warna berdefinisi tinggi, dan keyboard fisik yang ergonomis. Beroperasi dalam mode "*Air-Gap*", memastikan kunci pribadi dompet Anda tetap sepenuhnya terisolasi, dengan pertukaran data yang dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi dengan baterai isi ulang yang dapat dilepas, Nokia BL-5C berkapasitas 1200 mAh. Baterai non-proprietary ini mudah diganti karena model BL-5C tersedia luas di pasaran.
 
+💡 **Pembaruan:** Sejak Maret 2025, nama dompet perangkat keras ini bukan lagi "Passport" atau "Passport V2", melainkan "Passport Core".
+
 Sedangkan untuk konektivitas, Passport dilengkapi dengan port MicroSD, port USB-C untuk pengisian daya, dan kamera belakang untuk memindai kode QR.
 
 Dalam hal keamanan, Passport menggabungkan elemen yang aman, dan kode sumber perangkat ini sepenuhnya bersifat open source. Ia menawarkan semua fitur yang diharapkan dari dompet perangkat keras Bitcoin yang baik. Perlu dicatat bahwa Passport belum mendukung miniscript, tetapi fitur ini direncanakan untuk kuartal kedua tahun 2025.

@@ -8,6 +8,8 @@ Passport er en maskinvarelommebok som kun inneholder Bitcoin, designet av Founda
 
 Passport "*Batch 2*", som vi presenterer i denne veiledningen, er etterfølgeren til "*Founder's Edition*". Den skiller seg ut med sitt premium design, høyoppløselige fargeskjerm og ergonomiske fysiske tastatur. Den opererer i "*Air-Gap*"-modus, noe som sikrer at lommebokens private nøkler forblir fullstendig isolerte, med datautveksling via et MicroSD-kort eller QR-koder. Enheten er utstyrt med et utskiftbart oppladbart Nokia BL-5C batteri på 1200 mAh. Dette ikke-proprietære batteriet kan enkelt byttes ut, ettersom BL-5C-modellen er lett tilgjengelig i butikker.
 
+💡 **Oppdatering:** Siden mars 2025 heter denne maskinvarelommeboken ikke lenger "Passport" eller "Passport V2", men "Passport Core".
+
 Når det gjelder tilkoblingsmuligheter, er Passport utstyrt med en MicroSD-port, en USB-C-port for lading og et kamera på baksiden for skanning av QR-koder.
 
 Når det gjelder sikkerhet, har Passport et sikkert element, og enhetens kildekode er helt åpen kildekode. Den tilbyr alle funksjonene som forventes av en god Bitcoin-maskinvarelommebok. Merk at Passport ennå ikke støtter miniscript, men denne funksjonen er planlagt for andre kvartal 2025.

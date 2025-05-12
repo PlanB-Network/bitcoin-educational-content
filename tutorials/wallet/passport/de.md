@@ -8,6 +8,8 @@ Der Passport ist eine reine Bitcoin-Hardware-Wallet, entwickelt von Foundation D
 
 Der Passport "*Batch 2*", den wir in diesem Tutorial vorstellen, ist der Nachfolger der "*Founder's Edition*". Er zeichnet sich durch ein hochwertiges Design, ein hochauflösendes Farbdisplay und eine ergonomische physische Tastatur aus. Er arbeitet im "*Air-Gap*"-Modus, wodurch die privaten Schlüssel Ihrer Wallet vollständig isoliert bleiben, mit Datenaustausch über eine MicroSD-Karte oder QR-Codes. Das Gerät ist mit einem herausnehmbaren, wiederaufladbaren Nokia BL-5C-Akku mit 1200 mAh ausgestattet. Diese handelsübliche Batterie kann leicht ersetzt werden, da das BL-5C-Modell weit verbreitet ist.
 
+💡 **Aktualisierung:** Seit März 2025 heißt diese Hardware-Wallet nicht mehr "Passport" oder "Passport V2", sondern "Passport Core".
+
 Was die Konnektivität betrifft, so ist das Passport mit einem MicroSD-Anschluss, einem USB-C-Anschluss zum Aufladen und einer Rückkamera zum Scannen von QR-Codes ausgestattet.
 
 Was die Sicherheit betrifft, so verfügt der Passport über ein Sicherheitselement und der Quellcode des Geräts ist vollständig quelloffen. Es bietet alle Funktionen, die man von einer guten Bitcoin-Hardware-Wallet erwartet. Beachten Sie, dass der Passport noch nicht Miniscript unterstützt, aber diese Funktion ist für das zweite Quartal 2025 geplant.

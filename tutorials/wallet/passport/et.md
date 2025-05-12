@@ -8,6 +8,8 @@ Passport on ainult Bitcoini riistvara rahakott, mille on kujundanud 2020. aasta 
 
 Passport "*Batch 2*", mida esitleme selles juhendis, on "*Founder's Edition*" järglane. See eristub oma kvaliteetse disaini, kõrglahutusega värviekraani ja ergonoomilise füüsilise klaviatuuriga. See töötab "*Air-Gap*" režiimis, tagades, et teie rahakoti privaatvõtmed jäävad täielikult isoleerituks, kus andmevahetus toimub MicroSD-kaardi või QR-koodide kaudu. Seade on varustatud eemaldatava ja laetava Nokia BL-5C akuga mahutavusega 1200 mAh. See mitteomandiline aku on kergesti asendatav, kuna BL-5C mudelit on lihtne leida kaubanduses.
 
+💡 **Uuendus:** Alates 2025. aasta märtsist ei kanna see riistvaraline rahakott enam nime "Passport" ega "Passport V2", vaid "Passport Core".
+
 Mis puutub ühenduvusse, siis on Passport varustatud MicroSD-pordi, USB-C-pordi laadimiseks ja tagakaameraga QR-koodide skaneerimiseks.
 
 Turvalisuse osas sisaldab Passport turvalist elementi ja seadme lähtekood on täielikult avatud lähtekoodiga. See pakub kõiki funktsioone, mida ühelt healt Bitcoini riistvaraliselt rahakotilt oodatakse. Pange tähele, et Passport ei toeta veel miniscripti, kuid see funktsioon on kavas 2025. aasta teises kvartalis.

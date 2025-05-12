@@ -8,6 +8,8 @@ El Passport es un monedero de hardware solo para Bitcoin, diseñado por Foundati
 
 El Passport "*Batch 2*" que presentamos en este tutorial es el sucesor de la edición "*Founder's Edition*". Se distingue por su diseño premium, una pantalla a color de alta definición y un teclado físico ergonómico. Funciona en modo "*Air-Gap*", lo que garantiza que las claves privadas de su monedero permanezcan completamente aisladas, con intercambios posibles a través de una tarjeta MicroSD o códigos QR. El dispositivo está equipado con una batería recargable extraíble Nokia BL-5C de 1200 mAh. Esta batería no propietaria se puede reemplazar fácilmente, ya que el modelo BL-5C es de fácil acceso en el mercado.
 
+💡 **Actualización:** Desde marzo de 2025, este monedero físico ya no se llama "Passport" ni "Passport V2", sino "Passport Core".
+
 En cuanto a la conectividad, el Passport está equipado con un puerto MicroSD, un puerto USB-C para la carga y una cámara trasera para escanear códigos QR.
 
 En términos de seguridad, el Passport incorpora un elemento seguro, y el código fuente del dispositivo es totalmente de código abierto. Ofrece todas las características que se esperan de un buen monedero hardware de Bitcoin. Tenga en cuenta que el Passport aún no es compatible con miniscript, pero esta característica está prevista para el segundo trimestre de 2025.

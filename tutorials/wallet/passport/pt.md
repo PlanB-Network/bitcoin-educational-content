@@ -8,6 +8,8 @@ O Passport é uma carteira de hardware apenas para Bitcoin, concebida pela Found
 
 O Passport "*Batch 2*" apresentado neste tutorial é o sucessor da edição "*Founder's Edition*". Ele se destaca pelo design premium, tela colorida de alta definição e teclado físico ergonômico. Opera no modo "*Air-Gap*", garantindo que as chaves privadas da sua carteira permaneçam totalmente isoladas, com trocas possíveis via cartão MicroSD ou códigos QR. O dispositivo possui uma bateria removível e recarregável Nokia BL-5C de 1200 mAh. Esta bateria não proprietária pode ser facilmente substituída, pois o modelo BL-5C é amplamente disponível no mercado.
 
+💡 **Atualização:** Desde março de 2025, esta carteira de hardware deixou de se chamar "Passport" ou "Passport V2" e passou a chamar-se "Passport Core".
+
 Quanto à conetividade, o Passport está equipado com uma porta MicroSD, uma porta USB-C para carregamento e uma câmara traseira para leitura de códigos QR.
 
 Em termos de segurança, o Passport incorpora um elemento seguro e o código-fonte do dispositivo é totalmente open-source. Ele oferece todas as caraterísticas esperadas de uma boa carteira de hardware Bitcoin. Note-se que o Passport ainda não suporta miniscript, mas esta funcionalidade está planeada para o segundo trimestre de 2025.

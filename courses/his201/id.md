@@ -9,6 +9,8 @@ objectives:
 
 # Menyelami Sejarah Penciptaan Bitcoin
 
+i Can edit it
+
 Selamat datang di kursus ini yang didedikasikan untuk sejarah penciptaan Bitcoin! Sebagai pengguna, Anda mungkin pernah bertanya-tanya dari mana asal usul alat yang Anda gunakan ini. Lebih dari itu, Anda mungkin tidak memahami referensi yang terkadang dibuat kepada orang-orang dan peristiwa yang telah menandai sejarah singkat cryptocurrency. Akhirnya, mempelajari sejarah ini akan memungkinkan Anda untuk lebih memahami Bitcoin itu sendiri, dengan mengungkap konteks yang membentuk pembentukannya yang lambat.
 
 Dalam kursus ini, Anda akan menemukan perjalanan desain, peluncuran, dan konstruksi ekonomi awalnya. Di bagian pertama, kita akan melihat konteks teknis di mana konsep Bitcoin muncul. Di bagian kedua, kita akan fokus pada kelahiran dan bootstrapping-nya. Di bagian ketiga, kita akan mempelajari bagaimana Bitcoin mendapatkan magnitudo dalam hal penggunaan ekonomi, produksi penambangan, dan pengembangan perangkat lunak. Di bagian keempat, kita akan mengikuti bagaimana Satoshi Nakamoto, pencipta Bitcoin, secara bertahap menghilang dan bagaimana komunitas mengambil alih, menjadikan cryptocurrency sebuah proyek kolektif yang sebenarnya.

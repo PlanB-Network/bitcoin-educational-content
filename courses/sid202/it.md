@@ -914,7 +914,7 @@ Si può notare che il comando crea un nuovo indirizzo mainchain e un nuovo scrip
 
 Come getnewaddress, getpeginaddress aggiunge un nuovo segreto al portafoglio del nodo chiamante, quindi è importante tenere conto del backup del file del portafoglio nel processo di gestione del nodo.
 
-Ora invieremo alcuni bitcoin dalla mainchain alla sidechain. Il nostro portafoglio di test di regressione della _mainchai_n contiene già alcuni fondi.
+Ora invieremo alcuni bitcoin dalla mainchain alla sidechain. Il nostro portafoglio di test di regressione della _mainchain_ contiene già alcuni fondi.
 
 ```
 b-cli getwalletinfo
@@ -1123,7 +1123,7 @@ e1-cli sendtoaddress <e2-address> 500 "" "" false
 
 Si noti che non è stato necessario specificare il tipo di risorsa da inviare, poiché `newasset` è stato creato come risorsa predefinita della rete
 
-Inviamo anche alcuni dei token di riemissione per `newasset` a e.
+Inviamo anche alcuni dei token di riemissione per `newasset` a e2.
 
 ```
 e1-cli sendtoaddress <e2-address> 1 "" "" false false 1 UNSET false <reissuance-token-id>

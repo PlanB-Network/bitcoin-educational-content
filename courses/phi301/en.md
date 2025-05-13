@@ -35,20 +35,18 @@ The book was commissioned and funded by [Chaincode Labs](https://learning.chainc
 
 +++
 
-# Decentralization
+# Bitcoin Central Values
+
+
+## Decentralization
 
 
 ![](assets/decentralization-banner.jpg)
 
-This  analyzes what decentralization is and why it's
-essential for Bitcoin to function. We distinguish between the
-decentralization of miners and that of full nodes, and discuss what
-they bring to the table for censorship resistance, one of Bitcoin's
-most central properties. The discussion then shifts
-to understanding neutrality - or permissionlessness towards users,
-miners, and developers - which is a necessary property of any
-decentralized system. Lastly, we touch upon how hard it can be to
-grasp a decentralized system like Bitcoin, and present some mental
+This analyzes what decentralization is and why it's essential for Bitcoin to function. We distinguish between the
+decentralization of miners and that of full nodes, and discuss what they bring to the table for censorship resistance, one of Bitcoin's
+most central properties. The discussion then shifts to understanding neutrality - or permissionlessness towards users, miners, and developers - which is a necessary property of any 
+decentralized system. Lastly, we touch upon how hard it can be to grasp a decentralized system like Bitcoin, and present some mental
 models that might help you grok it.
 
 A system without any central point of control is referred to as being
@@ -83,10 +81,9 @@ as earlier attempts to create digital money. In the introduction of
 [a paper](https://www.blockstream.com/sidechains.pdf) titled "`Enabling
 Blockchain Innovations with Pegged Sidechains`", the authors explain
 how early versions of digital money weren't equipped for an
-adversarial environment (see also <<adversarialthinking>>):
+adversarial environment (see also the chapter on Adversarial Thinking in the
+next part):
 
-[quote, various authors, Enabling Blockchain Innovations with Pegged Sidechains (2014)]
-____
 David Chaum introduced digital cash as a research topic in 1983, in a
 setting with a central server that is trusted to prevent
 double-spending[Cha83]. To mitigate the privacy risk to individuals
@@ -101,7 +98,6 @@ the central server’s signature with a threshold signature of several
 signers, it is important for auditability that the signers be distinct
 and identifiable. This still leaves the system vulnerable to failure,
 since each signer can fail, or be made to fail, one by one.
-____
 
 It became clear that using a central server to order transactions was
 not a viable option due to the high risk of censorship. Even if one

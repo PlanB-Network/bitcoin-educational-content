@@ -1,7 +1,18 @@
-# About this book
+---
+name: Bitcoin Development Philosophy
+goal: Develop deep philosophical understanding of Bitcoin's design principles.
+objectives:
+  - Analyze Bitcoin's fundamental defing trade-offs and architectural decisions
+  - Learn how to evaluate proposed changes and inovations to the Bitcoin protocol
+  - Synthesize over a decade of Bitcoin Development history and community debates
+  - Apply critical thinking frameworks when assessing new BIPs 
+
+---
+
+# Deep dive into the Philosophy of Bitcoin Development
 
 
-_Bitcoin Development Philosophy_ is a guide for Bitcoin developers
+The Bitcoin Development Philosophy is a course for Bitcoin developers
 who already understand the basics of concepts and processes such as Proof-of-Work, block
 building, and the transaction life cycle, and who want to level up by
 gaining a deeper understanding of Bitcoin's design trade-offs and
@@ -9,77 +20,27 @@ philosophy. It should help new developers absorb the most important
 lessons of over a decade of Bitcoin development and public debate, while providing them with
 a useful context for evaluating new ideas (good ones and bad ones!).
 
-Table of contents overview:
-
-:oldstyle: {xrefstyle}
-:xrefstyle: full
-<<decentralization>>::
-<<trustlessness>>::
-<<privacy>>::
-<<finitesupply>>::
-<<upgrading>>::
-<<adversarialthinking>>::
-<<opensource>>::
-<<scaling>>::
-<<whenshithitsthefan>>::
-<<appendixdiscussion>>::
-<<appendixbuild>>:: {empty}
-
-:xrefstyle: {oldstyle}
-
-Your feedback and contributions are most welcome! Instructions for
-building and contributing can be found in <<appendixbuild>>.
-
 ### What to expect?
 
-
-As stated above, this is a practical guide for Bitcoin developers. However, Bitcoin is a broad and complex subject and we couldn't possibly cover all of its aspects here. With this book, we
+As stated above, this is a practical guide for Bitcoin developers. However, Bitcoin is a broad and complex subject and we couldn't possibly cover all of its aspects here. With this course, we
 hope to discuss the necessary features to get your development activity started as well as to enable you to further explore it on your own.
 
-There are lots of people involved in Bitcoin; as some of them have opposing opinions, here you may find
-resources that express contradictory ideas. However, we always
+There are lots of people involved in Bitcoin; as some of them have opposing opinions, here you may find resources that express contradictory ideas. However, we always
 attempt to stick to the domain of facts, where opinions do not matter.
 
 ### Who wrote this?
 
+This course is adapted from the eponym book which main author is Kalle Rosenbaum, and Linnéa Rosenbaum contributed as a co-author. 
+The book was commissioned and funded by [Chaincode Labs](https://learning.chaincode.com/), a development center that runs educational programs for developers who want to learn about Bitcoin development.
 
-The main author of this book is Kalle Rosenbaum, and Linnéa Rosenbaum contributed as a co-author. This work
-was commissioned and funded by [Chaincode Labs](https://learning.chaincode.com/), a development center that runs educational
-programs for developers who want to learn about Bitcoin development.
-
-Kalle is the author of [_Grokking Bitcoin_](https://rosenbaum.se/book/) (Manning Publications) and is a 
-seasoned software developer. He's been working professionally with Bitcoin-related development since 
-2015.
-
-Linnéa has a Ph.D. in Electronic Systems. She is the Swedish translator of [_The Little Bitcoin Book_](https://konsensus.network/product/lilla-boken-om-bitcoin/) and co-translator of [_The Bitcoin Standard_](https://konsensus.network/product/sverige-bitcoinstandarden/).  She is also on the board of the Swedish Bitcoin Association. Her background is in firmware development with a recent shift towards software development.
-
-
-
-### How is this organized?
-
-
-The book is sectioned into chapters, each covering a pivotal topic within Bitcoin. Every
-chapter guides you through the relevant information related to the chapter's focus, with the addition of links and QR codes that will take you to articles or
-videos that we recommend reading or watching. The reported material was written by individuals who have
-studied Bitcoin development for a long time.
-
-The links refer to external resources on platforms we cannot
-control. We have therefore saved the linked articles locally in this
-repository, along with the information on where it was copied from and when. The
-resources are collected in link:sources/sources.html[a separate
-document] (`sources/sources.adoc`) and organized by the chapter they are
-linked to. The links found in the chapters refer to the original
-sources, which should be found online, but in case you don't have an internet connection, the links
-appear dead, or the information seems severely changed, you can read the
-content locally instead.
-
++++
 
 # Decentralization
 
 
 ![](assets/decentralization-banner.jpg)
 
-This chapter analyzes what decentralization is and why it's
+This  analyzes what decentralization is and why it's
 essential for Bitcoin to function. We distinguish between the
 decentralization of miners and that of full nodes, and discuss what
 they bring to the table for censorship resistance, one of Bitcoin's
@@ -103,7 +64,6 @@ validation of the blocks, i.e. the data that miners output, gets done at
 the edge of the network, ultimately by its users, and not by a few
 trusted authorities.
 
-[[minerdecentralization]]
 ### Miner decentralization
 
 

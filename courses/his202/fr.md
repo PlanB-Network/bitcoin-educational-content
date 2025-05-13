@@ -379,6 +379,137 @@ Mt. Gox constituait ainsi le point central de l'économie de Bitcoin. À l'image
 
 Toutefois, cette croissance fulgurante cachait une grande fragilité. La plateforme Mt. Gox a subi plusieurs piratages durant cette période, ce qui fait qu'elle a accumulé les pertes au fil des mois : plus d'une centaine de milliers de bitcoins manquaient à l'appel à la fin de l'été. Cela présageait une chute abrupte. Mais Mt. Gox allait d'abord devenir une plateforme énorme en l'espace de deux ans et demi.
 
+## Bitcoin et le politique (mars–novembre 2011)
+
+Bitcoin est un objet éminemment politique en ce qu'il permet de faire des choses hors du cadre légal, qu'il est un outil de libération. Il a tout naturellement attiré les individus motivés idéologiquement, qui ont souvent été ses plus grands partisans.
+
+Bitcoin a en particulier été un succès au sein du mouvement libertarien américain. Sorte de troisième voie aux États-Unis... Les libertariens ont été les plus grands promoteurs de la cryptomonnaie. Mais en parallèle, il se développe égale...
+
+### Bitcoin et le libertarianisme
+
+La relation entre Bitcoin et le libertarianisme américain est plutôt fusionnelle. Les libertariens voient dans Bitcoin une alternative à la monnaie gérée par l'État. Ils jugent en effet que l'intervention de l'État n'est pas désirable, y compris dans la fonction monétaire. L'évolution monétaire qui a caractérisé le XXe siècle a fait passer le système monétaire d'un étalon-or (taux de change fixe) à un système de monnaies fiduciaires (taux de change flottants), et a permis aux dépenses publiques d'exploser. La création de la Réserve fédérale aux États-Unis.
+
+Satoshi lui-même [percevait](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) cette proximité.
+
+L'année 2011 est marquée par le début de la campagne
+
+La seconde campagne de Ron Paul pour l'élection présidentielle débute en [mai 2011](https://web.archive.org/web/20110516130810/http://politicalticker.blogs.cnn.com/2011/05/13/breaking-rep-ron-paul-announces-third-bid-for-presidency/). Ron Paul est alors représentant du 14e district de l'État du Texas.
+
+Les libertariens sont très souvent des partisans de l'école autrichienne d'économie, ... Ils sont également amateurs de métaux précieux, dans lesquels ils voient la « vraie monnaie », par opposition à la fausse monnaie de la Réserve Fédérale.
+
+https://rulingclass.wordpress.com/2011/06/09/bitcoin-and-agorism/
+
+- Libertariens
+- Partisans de l'économie autrichienne
+- Amateurs de métaux précieux
+
+Un certain nombre des libertariens sont assez rapidement convaincus par Bitcoin, comme [Stefan Molyneux](https://odysee.com/@freedomain:b/stefan-molyneux-in-2011-bitcoins-digital:e) ou [Adam Kokesh](https://odysee.com/@adamkokesh:2/what-is-bitcoin-and-why-is-it-important:8).
+
+Rejet : ["Why Are Libertarians Against Bitcoin?"](https://themonetaryfuture.blogspot.com/2011/06/why-are-libertarians-against-bitcoin.html)
+
+théorème de régression de Ludwig von Mises, absence de valeur intrinsèque
+
+[Peter Schiff](https://www.youtube.com/watch?v=vTr_hTC90oQ)
+
+Free Talk Live est une émission de radio call-in-talk américaine produite depuis 2002. L'émission est animée par les libertariens Ian Freeman et Mark Edge. L'émission est syndiquée au niveau national via le réseau ultraconservateur Genesis Communications Network. En 2016, les présentateurs sont classés 31e dans le classement américain des « Heavy Hundred » Talkhosts.
+
+La place de marché [éveille](https://bitcointalk.org/index.php?topic=3984.msg66567#msg66567) aussi la curiosité de Ian Freeman, coanimateur de l'émission *Free Talk Live*, si bien qu'une partie de [l'épisode du 16 mars](http://traffic.libsyn.com/ftl/FTL2011-03-16.mp3) finit par y être consacrée.
+
+https://www.youtube.com/watch?v=mrlgw5KpkXM
+
+### Roger Ver
+
+https://www.youtube.com/watch?v=IG_AvbfCEs4
+
+L'une des personnes
+
+Silk Road contribue grandement à convaincre un certain Roger Ver de s'investir pleinement dans Bitcoin.
+
+article Hijacking: Roger Ver est un homme d'affaires américain. À la fin des années 90, il a fondé l'entreprise MemoryDealers, une société de revente de composants informatiques en ligne, grâce à laquelle il est devenu millionnaire au bout de quelques années. En parallèle, il a développé des convictions libertariennes, notamment en lisant Murray Rothbard. Il entretient également une passion pour l'évolution technique et le transhumanisme, ayant été influencé par le futurologue Ray Kurzweil.
+
+Anarcho-capitaliste, Roger Ver a très vite entretenu une relation conflictuelle avec l'État. En 2002, il a passé 5 mois en prison pour avoir vendu des feux d'artifice sans licence. En 2011, il s'est expatrié au Japon et vit à Tokyo.
+
+Il apprend l'existence de Bitcoin à la fin de l'année 2010 grâce à un épisode de Free Talk Live, une émission de webradio libertarienne aux États-Unis. Il s'est rapidement pris de passion pour la création de Satoshi Nakamoto, et s'est procuré ses premiers bitcoins « pour moins d'un dollar chacun » (p. 2).
+
+À la fin du mois d'avril, il se prend de passion pour la création de Satoshi Nakamoto, achète beaucoup de bitcoins, et commence à accepter les paiements en bitcoins avec sa société MemoryDealers.
+
+![Roger Ver en 2013](assets/en/roger-ver-2013.webp)
+
+Roger Ver en avril 2013 (source : [Bitcoin Magazine](https://web.archive.org/web/20130501115949/http://bitcoinmagazine.com/roger-ver-bitcoin-is-different/))
+
+Au printemps 2011, il commence à accepter les paiements en bitcoins avec sa société MemoryDealers. Il a investi dans les premiers projets liés à Bitcoin comme le processeur de paiement BitPay, le portefeuille Blockchain.info ou le service de change BitInstant.
+
+Le 4 juin, Roger Ver utilise un panneau d'affichage dont il dispose pour faire la promotion de Bitcoin et de son entreprise, MemoryDealers. Ce panneau est visible depuis une autoroute très fréquentée de Sunnyvale, dans la Silicon Valley. Cela a pour conséquence d'attirer l'attention sur Bitcoin dans le mouvement de bulle spéculative. Instagram : [Paul Stamatiou](https://www.instagram.com/p/FNIFl/)
+
+![Panneau publicitaire pour Bitcoin, juin 2011](assets/en/bitcoin-billboard-roger-ver-2011.webp)
+
+Panneau publicitaire pour Bitcoin à Sunnyvale (source : Roger Ver, [archive de Bitcointalk](https://web.archive.org/web/20130524003126/https://bitcointalk.org/index.php?topic=7961.40))
+
+En juin, suite aux premiers ennuis rencontrés par Mt. Gox, il propose à Mark Karpelès de venir l'aider, car il habite tout près des bureaux de la société à Tokyo. Mark accepte et Roger se présente à la Cerulean Tower. Il est accompagné de plusieurs personnes, dont Jesse Powell, un ami de lycée et entrepreneur de San Francisco qui s'intéresse aussi à Bitcoin (ce dernier fondera la plateforme Kraken en 2013). Malgré l'[attitude nonchalante](https://www.wired.com/2014/03/bitcoin-exchange/) de Mark Karpelès, ils parviennent à stabiliser la situation et à rouvrir la plateforme au bout d'une semaine.
+
+Mais l'engagement de Roger Ver vis-à-vis de Bitcoin ne s'arrête pas là. Il croit au potentiel de Bitcoin et sent qu'il a une mission à accomplir en ce sens. Il [intervient](https://www.youtube.com/watch?v=IG_AvbfCEs4) dans le Bitcoin Show en juin. Il [diffuse](https://www.youtube.com/watch?v=5pV9ptoCMyc) des publicités sur la radio de FreeTalkLive. Au fil des mois, il s'impose comme l'un des promoteurs les plus zélés de Bitcoin. En février 2012, il sera [surnommé](https://web.archive.org/web/20120218230448/http://www.thebitcointrader.com/2012/02/bitcoin-jesus-is-getting-ready-to.html) le « Jésus de Bitcoin » ("*Bitcoin Jesus*" en anglais) par le tradeur canadien GoWest, et le surnom restera bien qu'il ne l'ait jamais revendiqué.
+
+De plus, il est particulièrement optimiste concernant le cours boursier de la cryptomonnaie et achète beaucoup de bitcoins à partir de mai. Le 4 août 2011, il fait le [pari public](https://www.youtube.com/watch?v=gfydIbhduu0) que le prix en dollars (qui se stabilise alors autour de 10 $) devrait être multiplié par 100 dans les deux ans qui suivent. Il investit également dans les sociétés de l'écosystème comme BitPay, Blockchain.info et BitInstant.
+
+### Erik Voorhees et Ira Miller
+
+https://www.forbes.com/sites/michaeldelcastillo/2019/01/03/bitcoins-last-gunslinger/
+
+Né à Danbury, Connecticut, en 1984, il a grandi dans un foyer libertarien dans le Colorado. Il est le fils de Jacques Voorhees, qui était le PDG de la plateforme de commerce de diamants Polygon avant de la vendre pour 8,4 millions de dollars en 2004. Libertarien, il a déménagé à Portsmouth dans le New Hampshire \[QUAND ?\]
+
+Erik Voorhees (evoorhees), il apprend l'existence de Bitcoin en mai 2011, indirectement à cause de la hausse du prix. Après quelques heures à étudier la question, il est convaincu. Sources : http://forbes.com/sites/michaeldelcastillo/2019/01/03/bitcoins-last-gunslinger/ https://bitcoinmagazine.com/culture/erik-voorhees-new-frontier-1374794545 https://www.maxraskin.com/interviews/erik-voorhees
+
+
+5 août, [cherche speaker pour Agora I/O](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717)
+
+> « Personnellement, je pense que Bitcoin est à l'agorisme ce que les branchies sont au poisson. Il lui permet de fonctionner. En effet, les agoristes du monde entier devraient se réjouir de ce nouveau phénomène \[...\]. »
+>
+> original: "Personally, I think Bitcoin is to Agorism what gills are to a fish. It makes it possible. Indeed, Agorists everywhere should rejoice at this new phenomenon, and this event is a cornerstone of the community."
+
+Ira Miller (bearbones)
+
+Ira Miller est lui aussi engagé politiquement. Suivant la tendance de sa famille, Ira Miller [était](https://isysd.medium.com/change-by-example-not-politics-or-money-e232c25d58a7) initialement social-démocrate (*liberal* dans le sens américain) et a voté pour Barack Obama en 2008. Cependant, il a foncièrement été déçu par les promesses non tenues et par les politiques hostiles à la liberté du camp démocrate. N'aimant pas beaucoup non plus le camp républicain, il s'est alors tourné vers le libertarianisme et a en particulier soutenu Ron Paul.
+
+Avec Bitcoin, il souhaite « construire des systèmes alternatifs, pour concurrencer le statu quo effroyablement corrompu » (original: "to build alternate systems, to compete with the horrifically corrupt status quo").
+
+23 novembre 2011, ils lancent FeedZeBirds (littéralement « nourrissez les oiseaux »), une plateforme publicitaire permettant de payer pour mettre en avant un contenu sur Twitter. Il est accompagné d'Ira Miller (bearbones), qu'il a rencontré à la conférence de New York et qui gère alors [BitMunchies](https://bitcointalk.org/index.php?topic=7078.msg103566#msg103566)... Ils passent dans le Bitcoin Show le 28/11 : https://www.youtube.com/watch?v=VuLAhZsFc1A Ils sont au Panama ?
+
+[BTCinch](https://web.archive.org/web/20111019172637/http://btcinch.com/), oct. 2011
+
+Les deux hommes rejoindront rapidement BitInstant. (cf. photo de févr. 2012)
+
+
+### Le Free State Project
+
+Free State Project : https://www.wikiberal.org/wiki/Free_State_Project
+
+Jason Sorens, doctorant à Yale, a publié un essai dans le petit webzine *The Libertarian Enterprise*, déplorant l'échec des efforts libertariens aux élections. (23 juillet 2001 : https://web.archive.org/web/20010727113202/http://www.webleyweb.com/tle/libe131-20010723-03.html)
+
+
+
+Deux évènements sont organisés tous les ans par le Free State Project dans le New Hampshire. Le premier est le *New Hampshire Liberty Forum*, qui est une convention classique où interviennent de grands noms du libertarianisme et qui a lieu au cours de ces années-là à l'hôtel Crowne Plaza de Nashua, au sud de l'État. Le second est le *Porcupine Freedom Festival* (plus communément appelé « PorcFest »), qui est un festival d'une semaine se déroulant en été sur un terrain de camping près de Lancaster, plus au nord. L'ambiance y est plus décontractée, à tel point que l'évènement a été [qualifié](https://aaeblog.com/2011/06/way-long-gone-part-2/) en 2011 de « Woodstock pour les gens rationnels » par l'auteur libertarien Roderick T. Long. (original: "Woodstock for rational people")
+
+En 2011, le PorcFest rencontre un joli succès (1 200 personnes environ).
+
+**8 octobre 2011** Le Free State Project donne des bitcoins à ses membres, grâce à la contribution de Roger Ver, Erik Voorhees https://bitcointalk.org/index.php?topic=47350.msg563649#msg563649 Le NH Liberty Forum accepte le Bitcoin (Chris Lawless, organisateur)
+
+Interview de Roger Ver : https://www.youtube.com/watch?v=1ZAFGRrp_kc
+
+
+### Occupy Wall Street
+
+Toutefois, le libertarianisme n'est pas le seul mouvement politique à présenter des affinités avec Bitcoin. Le libertarianisme, plutôt situé à droite de l'échiquier politique (les positions économiques du libertarianisme sont plutôt situées à droite de l'échiquier politique) en ce qui concerne l'économique) ...
+
+Le Free State Project n'est pas le seul projet politique à s'intéresser à Bitcoin. Il y a aussi, plutôt situé sur la gauche de l'échiquier politique, le mouvement Occupy Wall Street...
+
+Débute dans le parc Zuccotti à NYC, 17 septembre–15 novembre 2011
+
+Accepte les dons en bitcoins : https://web.archive.org/web/20111004195625/http://nycga.cc/donate/ ; quelques dons https://mempool.space/fr/address/1Q7DQVTubbUqr5by2YoZJRKCEzj9D3LQ9w
+
+["Should all the money be converted to an alternative currency like Bitcoin?", 24/10](https://www.huffpost.com/entry/occupy-wall-street-money-donated-tension_n_1029377)
+
++ Crise grecque ?
+
 ## L'éclatement de la bulle de 2011 (juin–déc. 2011)
 
 ## L'amélioration de l'utilisation (mars 2011–nov. 2011)

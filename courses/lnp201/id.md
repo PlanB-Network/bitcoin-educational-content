@@ -1,21 +1,21 @@
 ---
 name: Pengantar Teoretis ke Jaringan Lightning
-goal: Menemukan Jaringan Lightning dari perspektif teknis
+goal: Memahami Jaringan Lightning dari perspektif teknis
 objectives:
   - Memahami operasi saluran jaringan.
   - Membiasakan diri dengan istilah HTLC, LNURL, dan UTXO.
-  - Menyerap pengelolaan likuiditas dan biaya LNN.
-  - Mengenali Jaringan Lightning sebagai sebuah jaringan.
+  - Menguasai manajemen likuiditas dan biaya LNN.
+  - Menyadari Jaringan Lightning sebagai sebuah jaringan.
   - Memahami penggunaan teoretis Jaringan Lightning.
 ---
 
 # Perjalanan ke Lapisan Kedua Bitcoin 
 
-Menyelami inti dari Jaringan Lightning, sebuah sistem esensial untuk masa depan transaksi Bitcoin. LNP201 adalah kursus teoretis tentang cara kerja teknis Lightning. Ini mengungkap fondasi dan mekanisme dari jaringan lapisan kedua ini, yang dirancang untuk membuat pembayaran Bitcoin cepat, ekonomis, dan dapat diskalakan.
+Memahami inti dari Jaringan Lightning, sebuah sistem penting untuk masa depan transaksi Bitcoin. LNP201 adalah kursus teoretis tentang cara kerja teknis Lightning. Kursus ini menjelaskan fondasi dan mekanisme dari jaringan lapisan kedua ini, yang dirancang untuk membuat pembayaran Bitcoin cepat, ekonomis, dan dapat digunakan oleh banyak pengguna secara bersamaan.
 
-Berkat jaringan saluran pembayarannya, Lightning memungkinkan transaksi cepat dan aman tanpa mencatat setiap pertukaran di blockchain Bitcoin. Sepanjang bab, Anda akan belajar bagaimana pembukaan, pengelolaan, dan penutupan saluran bekerja, bagaimana pembayaran dialihkan melalui node perantara secara aman sambil meminimalkan kebutuhan akan kepercayaan, dan bagaimana mengelola likuiditas. Anda akan menemukan apa itu transaksi komitmen, HTLC, kunci pembatalan, mekanisme hukuman, pengarahan bawang, dan faktur.
+Berkat jaringan saluran pembayarannya, Lightning memungkinkan transaksi cepat dan aman tanpa mencatat setiap pertukaran di blockchain Bitcoin. Sepanjang bab, Anda akan belajar bagaimana pembukaan, pengelolaan, dan penutupan saluran bekerja, bagaimana pembayaran dialihkan melalui node perantara secara aman sambil meminimalkan kebutuhan akan kepercayaan, dan bagaimana mengelola likuiditas. Anda akan memahami apa itu transaksi komitmen, HTLC, kunci pembatalan, mekanisme hukuman, onion routing, dan faktur.
 
-Baik Anda pemula Bitcoin atau pengguna yang lebih berpengalaman, kursus ini akan memberikan informasi berharga untuk memahami dan menggunakan Jaringan Lightning. Meskipun kami akan membahas beberapa dasar operasi Bitcoin di bagian pertama, sangat penting untuk menguasai dasar-dasar penemuan Satoshi sebelum menyelami LNP201.
+Entah Anda pemula dalam Bitcoin ataupun sudah berpengalaman, kursus ini akan memberikan informasi berharga untuk memahami dan menggunakan Jaringan Lightning. Meskipun kami akan membahas beberapa dasar operasi Bitcoin di bagian pertama, sangat penting untuk menguasai dasar-dasar penemuan Satoshi sebelum membahas lebih dalam LNP201.
 
 Nikmati penemuan Anda!
 
@@ -29,10 +29,10 @@ Nikmati penemuan Anda!
 
 Selamat datang di kursus LNP201!
 
-Pelatihan ini bertujuan untuk memberi Anda pemahaman teknis mendalam tentang Lightning Network, jaringan lapisan tambahan yang dirancang untuk memfasilitasi transaksi bitcoin dengan cepat dan seringkali dengan biaya lebih rendah. Anda akan secara bertahap menemukan konsep-konsep mendasar yang mengatur sistem ini, mulai dari membuka saluran pembayaran hingga teknik routing dan manajemen likuiditas.
+Pelatihan ini bertujuan untuk memberi Anda pemahaman mendalam tentang teknis Jaringan Lightning, sebuah jaringan lapisan tambahan yang dirancang untuk memfasilitasi transaksi bitcoin dengan cepat dan seringkali dengan biaya lebih rendah. Anda akan secara bertahap memahami konsep mendasar yang mengatur Jaringan Lightning ini, mulai dari membuka saluran pembayaran hingga teknik routing dan manajemen likuiditas.
 
 **Bagian 1: Dasar-Dasar**  
-Kita akan memulai dengan pengenalan umum tentang Lightning Network, dengan menjelaskan dasar-dasar penting tentang Bitcoin, alamatnya, UTXO, dan cara kerja transaksi. Tinjauan dasar ini sangat penting untuk memahami bagaimana Lightning Network bergantung pada mekanisme blockchain dasar untuk beroperasi dengan aman.
+Kita akan mulai dengan pengenalan umum tentang Jaringan Lightning, memahami dasar tentang Bitcoin, Address, UTXO, dan cara kerja transaksi. Dasar ini sangat penting untuk memahami bagaimana Lightning Network mengandalkan prinsip blockchain yang melandasinya untuk beroperasi dengan aman.
 
 **Bagian 2: Pembukaan dan Penutupan Saluran**  
 Di bagian ini, kita akan menjelajahi proses pembukaan saluran, yang merupakan landasan dari Lightning Network. Anda akan belajar bagaimana transaksi komitmen dibuat, peran kunci revokasi untuk keamanan, dan bagaimana saluran dapat ditutup baik secara kolaboratif maupun sepihak. Setiap langkah akan dijelaskan dengan tepat dan teknis untuk memastikan Anda memahami semua detailnya.

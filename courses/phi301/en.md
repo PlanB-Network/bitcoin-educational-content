@@ -12,21 +12,14 @@ objectives:
 # Deep dive into the Philosophy of Bitcoin Development
 
 
-The Bitcoin Development Philosophy is a course for Bitcoin developers
-who already understand the basics of concepts and processes such as Proof-of-Work, block
-building, and the transaction life cycle, and who want to level up by
-gaining a deeper understanding of Bitcoin's design trade-offs and
-philosophy. It should help new developers absorb the most important
-lessons of over a decade of Bitcoin development and public debate, while providing them with
-a useful context for evaluating new ideas (good ones and bad ones!).
+The Bitcoin Development Philosophy is a course for Bitcoin developers who already understand the basics of concepts and processes such as Proof-of-Work, block building, and the transaction life cycle, and who want to level up by gaining a deeper understanding of Bitcoin's design trade-offs and philosophy. 
+It should help new developers absorb the most important lessons of over a decade of Bitcoin development and public debate, while providing them with a useful context for evaluating new ideas (good ones and bad ones!).
 
 ### What to expect?
 
-As stated above, this is a practical guide for Bitcoin developers. However, Bitcoin is a broad and complex subject and we couldn't possibly cover all of its aspects here. With this course, we
-hope to discuss the necessary features to get your development activity started as well as to enable you to further explore it on your own.
+As stated above, this is a practical guide for Bitcoin developers. However, Bitcoin is a broad and complex subject and we couldn't possibly cover all of its aspects here. With this course, we hope to discuss the necessary features to get your development activity started as well as to enable you to further explore it on your own.
 
-There are lots of people involved in Bitcoin; as some of them have opposing opinions, here you may find resources that express contradictory ideas. However, we always
-attempt to stick to the domain of facts, where opinions do not matter.
+There are lots of people involved in Bitcoin; as some of them have opposing opinions, here you may find resources that express contradictory ideas. However, we always attempt to stick to the domain of facts, where opinions do not matter.
 
 ### Who wrote this?
 
@@ -41,339 +34,147 @@ The book was commissioned and funded by [Chaincode Labs](https://learning.chainc
 ## Decentralization
 
 
-![](assets/decentralization-banner.jpg)
 
 This analyzes what decentralization is and why it's essential for Bitcoin to function. We distinguish between the
-decentralization of miners and that of full nodes, and discuss what they bring to the table for censorship resistance, one of Bitcoin's
-most central properties. The discussion then shifts to understanding neutrality - or permissionlessness towards users, miners, and developers - which is a necessary property of any 
-decentralized system. Lastly, we touch upon how hard it can be to grasp a decentralized system like Bitcoin, and present some mental
-models that might help you grok it.
+decentralization of miners and that of full nodes, and discuss what they bring to the table for censorship resistance, one of Bitcoin's most central properties. 
 
-A system without any central point of control is referred to as being
-_decentralized_. Bitcoin is designed to avoid having a central point
-of control, or more precisely a _central point of censorship_.
+The discussion then shifts to understanding neutrality - or permissionlessness towards users, miners, and developers - which is a necessary property of any decentralized system. Lastly, we touch upon how hard it can be to grasp a decentralized system like Bitcoin, and present some mental models that might help you grok it.
+
+A system without any central point of control is referred to as being _decentralized_. Bitcoin is designed to avoid having a central point of control, or more precisely a _central point of censorship_.
+
 Decentralization is a means to achieve _censorship resistance_.
 
-There are two major aspects of decentralization in Bitcoin: miner
-decentralization and full node decentralization. Miner
-decentralization refers to the fact that transaction processing isn't performed nor
-coordinated by any central entity. Full node decentralization refers to the fact that
-validation of the blocks, i.e. the data that miners output, gets done at
-the edge of the network, ultimately by its users, and not by a few
-trusted authorities.
+There are two major aspects of decentralization in Bitcoin: miner decentralization and full node decentralization. 
+
+Miner decentralization refers to the fact that transaction processing isn't performed nor coordinated by any central entity. Full node decentralization refers to the fact that validation of the blocks, i.e. the data that miners output, gets done at the edge of the network, ultimately by its users, and not by a few trusted authorities.
+
+![](assets/decentralization-banner.jpg)
 
 ### Miner decentralization
 
 
-There had been attempts at creating digital currencies before Bitcoin,
-but most of them failed due to a lack of governance decentralization
-and censorship resistance.
+There had been attempts at creating digital currencies before Bitcoin, but most of them failed due to a lack of governance decentralization and censorship resistance.
 
-Miner decentralization in Bitcoin means that the _ordering of
-transactions_ isn't carried out by any single entity or fixed set of
-entities. It's carried out collectively by all the actors who want
-to participate in it; this miners`' collective is a dynamic set of users. Anyone can
-join or leave as they wish. This property makes Bitcoin censorship-resistant.
+Miner decentralization in Bitcoin means that the _ordering of transactions_ isn't carried out by any single entity or fixed set of entities. It's carried out collectively by all the actors who want to participate in it; this miners`' collective is a dynamic set of users. Anyone can join or leave as they wish. This property makes Bitcoin censorship-resistant.
 
-If Bitcoin were centralized, it would be vulnerable to those who
-wished to censor it, such as governments. It would meet the same fate
-as earlier attempts to create digital money. In the introduction of
-[a paper](https://www.blockstream.com/sidechains.pdf) titled "`Enabling
-Blockchain Innovations with Pegged Sidechains`", the authors explain
-how early versions of digital money weren't equipped for an
-adversarial environment (see also the chapter on Adversarial Thinking in the
-next part):
+If Bitcoin were centralized, it would be vulnerable to those who wished to censor it, such as governments. It would meet the same fate as earlier attempts to create digital money. In the introduction of [a paper](https://www.blockstream.com/sidechains.pdf) titled "Enabling Blockchain Innovations with Pegged Sidechains", the authors explain how early versions of digital money weren't equipped for an adversarial environment (see also the chapter on Adversarial Thinking in the next part).
 
-David Chaum introduced digital cash as a research topic in 1983, in a
-setting with a central server that is trusted to prevent
-double-spending[Cha83]. To mitigate the privacy risk to individuals
-from this central trusted party, and to enforce fungibility, Chaum
-introduced the blind signature, which he used to provide a
-cryptographic means to prevent linking of the central server’s
-signatures (which represent coins), while still allowing the central
-server to perform double-spend prevention. The requirement for a
-central server became the Achilles’ heel of digital cash[Gri99]. While
-it is possible to distribute this single point of failure by replacing
-the central server’s signature with a threshold signature of several
-signers, it is important for auditability that the signers be distinct
-and identifiable. This still leaves the system vulnerable to failure,
-since each signer can fail, or be made to fail, one by one.
+David Chaum introduced digital cash as a research topic in 1983, in a setting with a central server that is trusted to prevent double-spending. To mitigate the privacy risk to individuals from this central trusted party, and to enforce fungibility, Chaum introduced the blind signature, which he used to provide a cryptographic means to prevent linking of the central server’s signatures (which represent coins), while still allowing the central server to perform double-spend prevention. 
+The requirement for a central server became the Achilles’ heel of digital cash[Gri99]. While it is possible to distribute this single point of failure by replacing the central server’s signature with a threshold signature of several signers, it is important for auditability that the signers be distinct and identifiable. This still leaves the system vulnerable to failure, since each signer can fail, or be made to fail, one by one.
 
-It became clear that using a central server to order transactions was
-not a viable option due to the high risk of censorship. Even if one
-replaced the central server with a federation of a fixed set of
-n servers, of which at least m must
-approve of an ordering, there would still be difficulties. The problem would indeed 
-shift to one where users must agree on this set of n servers 
-as well as on how to replace malicious servers with good ones without relying on a central authority.
+It became clear that using a central server to order transactions was not a viable option due to the high risk of censorship. Even if one replaced the central server with a federation of a fixed set of n servers, of which at least m must approve of an ordering, there would still be difficulties. The problem would indeed  shift to one where users must agree on this set of n servers as well as on how to replace malicious servers with good ones without relying on a central authority.
 
-Let's contemplate what could happen if Bitcoin were censorable. The
-censor could pressure users to identify themselves, to
-declare where their money is coming from or what they're buying with it
-before allowing their transactions to enter the blockchain.
+Let's contemplate what could happen if Bitcoin were censorable. The censor could pressure users to identify themselves, to declare where their money is coming from or what they're buying with it before allowing their transactions to enter the blockchain.
 
-Also, the lack of censorship resistance would allow the censor to
-coerce users into adopting new system rules. For example, they could
-impose a change that allowed them to inflate the money supply, thereby enriching
-themselves. In such an event, a user verifying blocks would have three
-options to handle the new rules:
+Also, the lack of censorship resistance would allow the censor to coerce users into adopting new system rules. For example, they could impose a change that allowed them to inflate the money supply, thereby enriching themselves. In such an event, a user verifying blocks would have three options to handle the new rules:
 
-* Adopt: Accept the changes and adopt them into their full node.
-* Reject: Refuse to adopt the changes; this leaves the user with a system that doesn't process
-transactions anymore, as the censor's blocks are now deemed invalid
-by the user's full node.
-* Move: Appoint a new central point of control; all of the users must figure out how
-to coordinate and then agree on the new central control point.
-If they succeed, the same issues will most likely resurface at some point in the future, considering that the system
-remained just as censorable as it was before.
+- Adopt: Accept the changes and adopt them into their full node.
+- Reject: Refuse to adopt the changes; this leaves the user with a system that doesn't process transactions anymore, as the censor's blocks are now deemed invalid by the user's full node.
+- Move: Appoint a new central point of control; all of the users must figure out how to coordinate and then agree on the new central control point.
+
+If they succeed, the same issues will most likely resurface at some point in the future, considering that the system remained just as censorable as it was before.
 
 None of these options are beneficial to the user.
 
-Censorship resistance through decentralization is what separates Bitcoin from
-other money systems, but it is not an easy thing to accomplish due to
-the _double-spending problem_. This is the problem of making sure no
-one can spend the same coin twice, an issue that many people thought was
-impossible to solve in a decentralized fashion. Satoshi Nakamoto
-write in his [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) about how
-to solve the double-spending problem:
+Censorship resistance through decentralization is what separates Bitcoin from other money systems, but it is not an easy thing to accomplish due to the _double-spending problem_. This is the problem of making sure no one can spend the same coin twice, an issue that many people thought was impossible to solve in a decentralized fashion. Satoshi Nakamoto write in his [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) about how to solve the double-spending problem:
 
-[quote, Satoshi Nakamoto, Bitcoin: A Peer-to-Peer Electronic Cash System (2008)]
-____
-In this paper, we propose a solution to the double-spending problem
-using a peer-to-peer distributed timestamp server to generate
-computational proof of the chronological order of transactions.
-____
+> In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions.
 
-Here he uses the peculiar-sounding phrase "`peer-to-peer distributed timestamp
-server`". The keyword here is _distributed_, which in this
-context means that there is no central point of control. Nakamoto then
-goes on to explain how proof-of-work is the solution. Still, no one
-explains it better than
-https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/[Gregory
-Maxwell on Reddit], where he responds to someone who proposes to limit
-miners`' hash power to avoid potential 51% attacks:
 
-[[one-cpu-one-vote]]
-[quote, Gregory Maxwell, r/Bitcoin subreddit (2019)]
-____
-A decentralized system like Bitcoin uses a public election. But you
-can't just have a vote of 'people' in a decentralized system because
-that would require a centralized party to authorize people to
-vote. Instead, Bitcoin uses a vote of computing power because it's
-possible to verify computing power without the help of any centralized
+Here he uses the peculiar-sounding phrase "peer-to-peer distributed timestamp server". The keyword here is _distributed_, which in this context means that there is no central point of control. Nakamoto then goes on to explain how proof-of-work is the solution. 
+Still, no one explains it better than
+[Gregory Maxwell on Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), where he responds to someone who proposes to limit miners hash power to avoid potential 51% attacks:
+
+> A decentralized system like Bitcoin uses a public election. But you can't just have a vote of 'people' in a decentralized system because that would require a centralized party to authorize people to vote. Instead, Bitcoin uses a vote of computing power because it's possible to verify computing power without the help of any centralized
 third party.
-____
 
-The post explains how the decentralized Bitcoin network can come to an
-agreement on transaction ordering through the use of proof-of-work.
-He then concludes by saying that the 51% attack is not particularly
-worrisome, compared to people not caring about or not
-understanding Bitcoin's decentralization properties.
+The post explains how the decentralized Bitcoin network can come to an agreement on transaction ordering through the use of proof-of-work. 
 
-[quote, Gregory Maxwell, r/Bitcoin subreddit (2019)]
-____
-A far bigger risk to Bitcoin is that the public using it won't
-understand, won't care, and won't protect the decentralization
-properties that make it valuable over centralized alternatives in the
-first place.
-____
+He then concludes by saying that the 51% attack is not particularly worrisome, compared to people not caring about or not understanding Bitcoin's decentralization properties:
 
-The conclusion is an important one. If people don't protect Bitcoin's
-decentralization, which is a proxy for its censorship resistance, Bitcoin
-might fall victim to centralizing powers, until it's so centralized
-that censorship becomes a thing. Then most, if not all, of its value
-proposition is gone. This brings us to the next section on full node
-decentralization.
+> A far bigger risk to Bitcoin is that the public using it won't understand, won't care, and won't protect the decentralization properties that make it valuable over centralized alternatives in the first place.
 
-[[fullnodedecentralization]]
+The conclusion is an important one. If people don't protect Bitcoin's decentralization, which is a proxy for its censorship resistance, Bitcoin might fall victim to centralizing powers, until it's so centralized that censorship becomes a thing. Then most, if not all, of its value proposition is gone. This brings us to the next section on full node decentralization.
+
 ### Full node decentralization
 
 
-In the paragraphs above, we've mostly talked about miner decentralization and how
-centralizating miners can allow for censorship. But there's also another
-aspect of decentralization, namely _full node decentralization_.
+In the paragraphs above, we've mostly talked about miner decentralization and how centralizating miners can allow for censorship. But there's also another aspect of decentralization, namely _full node decentralization_.
 
-The importance of full node decentralization is related to
-trustlessness (see <<trustlessness>>). Suppose a user stops running their own
-full node due to, for example, a prohibitive increase in the cost of
-operation. In that case, they have to interact with the Bitcoin network in some
-other way, possibly by using web wallets or lightweight wallets, which requires a certain level of trust in the providers of these services.
-The user goes from directly enforcing the network consensus rules to trusting that
-someone else will. Now suppose that most users delegate consensus enforcement to a
-trusted entity. In that case, the network can quickly spiral into centralization, and the
-network rules can be changed by conspiring malicious actors.
+The importance of full node decentralization is related to trustlessness. Suppose a user stops running their own full node due to, for example, a prohibitive increase in the cost of operation. In that case, they have to interact with the Bitcoin network in some other way, possibly by using web wallets or lightweight wallets, which requires a certain level of trust in the providers of these services.
 
-In
-https://bitcoinmagazine.com/technical/decentralist-perspective-bitcoin-might-need-small-blocks-1442090446[a
-Bitcoin Magazine article], Aaron van Wirdum interviews Bitcoin
-developers about their views on decentralization and the risks
-involved in increasing Bitcoin's maximum block size. This discussion
-was a hot topic during the 2014-2017 era, when many people argued over
-increasing the block size limit to allow for more transaction
-throughput.
+The user goes from directly enforcing the network consensus rules to trusting that someone else will. Now suppose that most users delegate consensus enforcement to a trusted entity. In that case, the network can quickly spiral into centralization, and the network rules can be changed by conspiring malicious actors.
 
-A powerful argument against increasing the block size is that it
-increases the cost of verification (see <<verticalscaling,the
-Scaling chapter>>). If verification cost rises, it will push some 
-users to stop running their full nodes. This, in turn, will lead to
-more people not being able to use the system in a
-trustless way. Pieter Wuille is quoted in the article, where he
-explains the risks of full node centralization.
+In [a
+Bitcoin Magazine article](https://bitcoinmagazine.com/technical/decentralist-perspective-bitcoin-might-need-small-blocks-1442090446), Aaron van Wirdum interviews Bitcoin developers about their views on decentralization and the risks involved in increasing Bitcoin's maximum block size. This discussion was a hot topic during the 2014-2017 era, when many people argued over increasing the block size limit to allow for more transaction throughput.
 
-[quote, Pieter Wuille, The Decentralist Perspective or Why Bitcoin Might Need Small Blocks (2015)]
-____
-If lots companies run a full node, it means they all need to be
-convinced to implement a different rule set. In other words: the
-decentralization of block validation is what gives consensus rules
-their weight. But if full node count would drop very low, for instance
-because everyone uses the same web-wallets, exchanges and SPV or
-mobile wallets, regulation could become a reality. And if authorities
-can regulate the consensus rules, it means they can change anything
-that makes Bitcoin Bitcoin. Even the 21 million bitcoin limit.
-____
+A powerful argument against increasing the block size is that it increases the cost of verification If verification cost rises, it will push some users to stop running their full nodes. This, in turn, will lead to more people not being able to use the system in a trustless way. 
 
-There you go. Bitcoin users should run their own full
-nodes to deter regulators and big corporations from trying to change
-the consensus rules.
+Pieter Wuille is quoted in the article, where he explains the risks of full node centralization:
 
-[[neutrality]]
+> If lots companies run a full node, it means they all need to be convinced to implement a different rule set. In other words: the decentralization of block validation is what gives consensus rules their weight. 
+> But if full node count would drop very low, for instance because everyone uses the same web-wallets, exchanges and SPV or mobile wallets, regulation could become a reality. And if authorities can regulate the consensus rules, it means they can change anything that makes Bitcoin Bitcoin. Even the 21 million bitcoin limit.
+
+There you go. Bitcoin users should run their own full nodes to deter regulators and big corporations from trying to change the consensus rules.
+
 ### Neutrality
 
 
-Bitcoin is neutral, or permissionless, as people like to call it. This
-means that Bitcoin doesn't care who you are or what you use it for.
+Bitcoin is neutral, or permissionless, as people like to call it. This means that Bitcoin doesn't care who you are or what you use it for.
 
-[quote, wumpus on freenode IRC (punctuation added), #bitcoin-core-dev 2012-04-04T17:34:04 UTC]
-____
-bitcoin is neutral, which is a good thing, and the only way it can
-work. if it was controlled by an organisation it'd just be another
-virtual object type and I would have zero interest in it
-____
+Bitcoin is neutral, which is a good thing, and the only way it can work. If it was controlled by an organisation it'd just be another virtual object type and I would have zero interest in it
 
-As long as you play by the rules, you're free to use it
-as you please, without asking anyone for permission. This includes
-_mining_, _transacting_ in, and _building protocols and services_ on top of
-Bitcoin.
+As long as you play by the rules, you're free to use it as you please, without asking anyone for permission. This includes _mining_, _transacting_ in, and _building protocols and services_ on top of Bitcoin:
 
-* If *mining* were a permissioned process, we would need a
-central authority to select who's allowed to mine. This would most
-likely lead to miners having to sign legal contracts in which they would agree
-to censor transactions according to the whims of the central
-authority, which defeats the purpose of mining in the first place.
+- If *mining* were a permissioned process, we would need a central authority to select who's allowed to mine. This would most likely lead to miners having to sign legal contracts in which they would agree
+to censor transactions according to the whims of the central authority, which defeats the purpose of mining in the first place.
 
-* If people *transacting* in Bitcoin had to provide personal
-information, declare what their transactions were for, or otherwise prove
-that they were worthy of transacting, we would also need a central
-point of authority to approve users or transactions. Again,
-this would lead to censorship and exclusion.
+- If people *transacting* in Bitcoin had to provide personal information, declare what their transactions were for, or otherwise prove that they were worthy of transacting, we would also need a central point of authority to approve users or transactions. Again, this would lead to censorship and exclusion.
 
-* If developers had to ask for permission to *build protocols* on top of
-Bitcoin, only the protocols allowed by the central developer granting committee
-would get developed. This would, due to government intervention,
-inevitably exclude all privacy-preserving protocols and all attempts
-at improving decentralization.
+- If developers had to ask for permission to *build protocols* on top of Bitcoin, only the protocols allowed by the central developer granting committee would get developed. This would, due to government intervention  inevitably exclude all privacy-preserving protocols and all attempts at improving decentralization.
 
-At all levels, trying to impose restrictions on who gets to use
-Bitcoin for what will hurt Bitcoin to the point where it's no longer
-living up to its value proposition.
+At all levels, trying to impose restrictions on who gets to use Bitcoin for what will hurt Bitcoin to the point where it's no longer living up to its value proposition.
 
-Pieter Wuille https://bitcoin.stackexchange.com/a/92055/69518[answers
-a question on Stack Exchange] about how the blockchain relates to
-normal databases. He explains how permissionlessness is achievable
-through the use of proof-of-work in combination with economic
-incentives. He concludes:
+Pieter Wuille https://bitcoin.stackexchange.com/a/92055/69518[answers a question on Stack Exchange] about how the blockchain relates to normal databases. He explains how permissionlessness is achievable through the use of proof-of-work in combination with economic incentives. 
 
-[quote, Pieter Wuille, Stack Exchange (2019)]
-____
-Using trustless consensus algorithms like PoW does add something no
-other construction gives you (permissionless participation, meaning
-there is no set group of participants that can censor your changes),
-but comes at a high cost, and its economic assumptions make it pretty
-much only useful for systems that define their own
-cryptocurrency. There is probably only place in the world for one or a
-few actually used ones of these.
-____
+He concludes:
 
-He explains that, in order to achieve permissionlessness, the system most
-likely needs its own currency, thereby "`limiting the use cases to
-effectively just cryptocurrencies`". This is because permissionless
-participation, or mining, requires economic incentives built into the
-system itself.
+> Using trustless consensus algorithms like PoW does add something no other construction gives you (permissionless participation, meaning there is no set group of participants that can censor your changes), Using trustless consensus algorithms like PoW does add something no but comes at a high cost, and its economic assumptions make it pretty much only useful for systems that define their own cryptocurrency. 
+> There is probably only place in the world for one or a few actually used ones of these.
+
+He explains that, in order to achieve permissionlessness, the system most likely needs its own currency, thereby "limiting the use cases to effectively just cryptocurrencies". This is because permissionless participation, or mining, requires economic incentives built into the system itself.
 
 ### Grokking decentralization
 
 
-A compelling aspect of Bitcoin is how hard it is to grasp
-that no one controls it. There are no committees or executives in
-Bitcoin. Gregory Maxwell, again
-https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3[on
-the Bitcoin subreddit], compares this to the English language in an
-intriguing way:
+A compelling aspect of Bitcoin is how hard it is to grasp that no one controls it. There are no committees or executives in Bitcoin. Gregory Maxwell, again [on the Bitcoin subreddit](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), compares this to the English language in an intriguing way:
 
-[quote, Gregory Maxwell, r/Bitcoin subreddit (2022)]
-____
-Many people have a hard time understanding autonomous systems, there
-are many in their lives things like the english language-- but people
-just take them for granted and don't even think of them as
-systems. They're stuck in a centralized way of thinking where
-everything they think of as a 'thing' has an authority that
-controls it.
+> Many people have a hard time understanding autonomous systems, there are many in their lives things like the english language-- but people just take them for granted and don't even think of them as systems. They're stuck in a centralized way of thinking where everything they think of as a 'thing' has an authority that controls it.
+> 
+>  Bitcoin doesn't focus on anything. Various people who have adopted Bitcoin chose of their own free will to promote it, and how they choose to do so is their own business. Authority fixated people may see these activities and believe they're some operation by the bitcoin authority, but no such authority exists.
 
-Bitcoin doesn't focus on anything. Various people who have adopted
-Bitcoin chose of their own free will to promote it, and how they
-choose to do so is their own business. Authority fixated people may
-see these activities and believe they're some operation by the bitcoin
-authority, but no such authority exists.
-____
 
-.Fish schools have no leaders.
-[.right.half-width.thumb,pdfwidth=300px,float=right]
+The way Bitcoin works through decentralization resembles the extraordinary collective intelligence found among many species in nature. Computer scientist Radhika Nagpal speaks in a [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) about the collective behavior of fish schools and how scientists are trying to mimic it using robots.
+
+> Secondly, and the thing that I still find most remarkable, is that we know that there are no leaders supervising this fish school. Instead, this incredible collective mind behavior is emerging purely from the interactions of one fish and another. 
+> Somehow, there are these interactions or rules of engagement between neighboring fish that make it all work out.
+
+She points out that many systems, either natural or artificial, can and do work without leaders, and they are powerful and resilient. Each individual only interacts with their immediate surroundings, but together they form something tremendous.
+
 ![](assets/fishschool.jpg)
+*Fish schools have no leaders*
 
-The way Bitcoin works through decentralization resembles the
-extraordinary collective intelligence found among many species in
-nature. Computer scientist Radhika Nagpal speaks in a
-https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish[Ted
-talk] about the collective behavior of fish schools and how scientists are trying
-to mimic it using robots.
+No matter what you think about Bitcoin, its decentralized nature makes it difficult to control. Bitcoin exists, and there's nothing you can do about it. It's something to be studied, not debated.
 
-[quote, Radhika Nagpal, What intelligent machines can learn from a school of fish (2017)]
-____
-Secondly, and the thing that I still find most remarkable, is that we
-know that there are no leaders supervising this fish school. Instead,
-this incredible collective mind behavior is emerging purely from the
-interactions of one fish and another. Somehow, there are these
-interactions or rules of engagement between neighboring fish that make
-it all work out.
-____
+### Conclusion about Decentralization
 
-She points out that many systems, either natural or artificial, can and do
-work without leaders, and they are powerful and resilient. Each individual only
-interacts with their immediate surroundings, but together they form something
-tremendous.
+We distinguish between full node decentralization and mining decentralization. Mining decentralization is a means to achieve censonship resistance, while full node decentralization is what keeps the consensus rules of the network hard to change without broad support among users.
 
-No matter what you think about Bitcoin, its decentralized nature makes
-it difficult to control. Bitcoin exists, and there's nothing you can do
-about it. It's something to be studied, not debated.
+The decentralized nature of Bitcoin allows for neutrality towards developers, users, and miners. Anyone is free to participate without asking for permission.
 
-### Conclusion
+Decentralized systems can be hard to wrap your head around, but there are some mental models that may help, for example the English language, or fish schools.
 
-
-We distinguish between full node decentralization and mining
-decentralization. Mining decentralization is a means to achieve
-censonship resistance, while full node decentralization is what keeps
-the consensus rules of the network hard to change without broad
-support among users.
-
-The decentralized nature of Bitcoin allows for neutrality towards
-developers, users, and miners. Anyone is free to participate without
-asking for permission.
-
-Decentralized systems can be hard to wrap your head around, but there
-are some mental models that may help, for example the English
-language, or fish schools.
-
-# Trustlessness
+## Trustlessness
 
 
 ![](assets/trustlessness-banner.jpg)
@@ -387,8 +188,8 @@ between Bitcoin and actual softwares or users, and the need to make
 trade-offs between convenience and trustlessness to get anything done
 at all.
 
-People often say things like "`Bitcoin is great because it's
-trustless`". What do they mean by trustless? Pieter Wuille explains
+People often say things like "Bitcoin is great because it's
+trustless". What do they mean by trustless? Pieter Wuille explains
 this widely used term on
 [Stack Exchange](https://bitcoin.stackexchange.com/a/45674/69518):
 
@@ -400,8 +201,8 @@ require any trusted parties to function correctly.
 ____
 
 In short, the word _trustless_ refers to a property of the Bitcoin
-protocol whereby it can logically function without "`any trusted
-parties`". This is different from the trust you inevitably have to
+protocol whereby it can logically function without "any trusted
+parties". This is different from the trust you inevitably have to
 put into the software or hardware you run. More on this latter aspect of trust will be discussed further
 in this chapter.
 
@@ -536,7 +337,7 @@ So, besides running a full node, you also need to make sure you're
 running what you intend to. Reddit user brianddk
 https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/[wrote
 an article] about the various levels of trust you can choose from, when
-verifying your software. In the section "`Trusting the builders`", he
+verifying your software. In the section "Trusting the builders", he
 talks about _reproducible builds_:
 
 [quote, brianddk on Reddit, Bitcoin v22.0 and Guix; Stronger defense against the "Trusting Trust Attack" (2022)]
@@ -657,7 +458,7 @@ inevitebly involves some central point of authority. You can build a
 trusted system on top of a trustless system, but you can't build a
 trustless system on top of a trusted system.
 
-# Privacy
+## Privacy
 
 
 ![](assets/privacy-banner.jpg)
@@ -764,7 +565,7 @@ not an anonymous system.
 We have also said that the pseudonyms are public keys, but it's
 actually addresses derived from public keys. Why do we use addresses
 as pseudonyms and not something else, for example some descriptive
-names, like "`watchme1984`"? This has been
+names, like "watchme1984"? This has been
 [explained well](https://bitcoin.stackexchange.com/a/25175/69518) by
 user Tim S., also on Bitcoin Stack Exchange:
 
@@ -826,7 +627,7 @@ Chris Belcher
 https://en.bitcoin.it/Privacy#Blockchain_attacks_on_privacy[wrote in
 great detail] about the different kinds of privacy leaks that can
 happen on the Bitcoin blockchain. We recommend you read at least
-the first few subsections under "`Blockchain attacks on privacy.`"
+the first few subsections under "Blockchain attacks on privacy."
 
 The takeaway is that privacy in Bitcoin isn't perfect. It requires a
 significant amount of work to transact privately. Most people aren't
@@ -865,8 +666,8 @@ there are plenty of other leaks that don't use the blockchain, some
 sneakier than others. These range from key-loggers to network traffic
 analysis. To read up on some of these methods, please refer again to
 https://en.bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy[Chris
-Belcher's piece], specifically the section "`Non-blockchain attacks on
-privacy`".
+Belcher's piece], specifically the section "Non-blockchain attacks on
+privacy".
 
 Among a plethora of attacks, Belcher mentions the possibility of
 someone snooping on your internet connection, for example, your ISP:
@@ -1021,8 +822,8 @@ can only increase with layers on top, but that doesn't seem to be the
 case for privacy, which can be improved or made worse arbitrarily in
 layers on top. Why is that? Any layer on top of Bitcoin, as explained
 in <<layeredscaling>>, must use on-chain
-transactions occasionally, otherwise it wouldn't be "`on top of
-Bitcoin`". Privacy-enhancing layers generally try to use the base layer
+transactions occasionally, otherwise it wouldn't be "on top of
+Bitcoin". Privacy-enhancing layers generally try to use the base layer
 as little as possible to minimize the amount of information revealed.
 
 The above are somewhat technical ways to improve your privacy. But
@@ -1057,7 +858,7 @@ and instead trade in private, or use decentralized exchanges like
 [bisq](https://bisq.network/).
 
 For more in-depth reading about countermeasures, refer to the
-previously mentioned [wiki article on privacy](https://en.bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-blockchain.29), starting at "`Methods for improving privacy (non-blockchain)`".
+previously mentioned [wiki article on privacy](https://en.bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-blockchain.29), starting at "Methods for improving privacy (non-blockchain)".
 
 ### Conclusion
 
@@ -1066,7 +867,7 @@ Privacy is very important but hard to achieve. There is no privacy
 silver bullet. To get decent privacy in Bitcoin, you have to take
 active measures, some of which are costly and time-consuming.
 
-# Finite supply
+## Finite supply
 
 
 ![](assets/finitesupply-banner.jpg)
@@ -1270,7 +1071,8 @@ today, and that is probably not so bad. Ensuring that the security
 budget remains high enough is crucial but not urgent. Let's have this
 discussion in 10-50 years, when we know more. If it's still relevant.
 
-# Upgrading
+# Bitcoin Gouvernance 
+## Upgrading
 
 
 ![](assets/upgrading-banner.jpg)
@@ -1457,7 +1259,7 @@ coordinate upgrades. Due to this misunderstanding, miners might have also felt
 obliged to proclaim in public their views on a certain soft fork, as if that
 gave weight to the proposal.
 
-The UASF proposal is, in a nutshell, a "`flag day`" on which nodes
+The UASF proposal is, in a nutshell, a "flag day" on which nodes
 start enforcing specific new rules. That way, miners don't have to
 make a collective effort to coordinate the upgrade, but _can_ trigger activation
 earlier than the flag day if enough blocks signal support.
@@ -1622,19 +1424,19 @@ ____
 
 From this point forward the discussions became very heated, especially
 around whether `lockinontimeout` should be `true` (as in a user
-activated soft fork, referred to as "`BIP8 with forced activation`" by
+activated soft fork, referred to as "BIP8 with forced activation" by
 Harding) or `false` (as in a miner activated soft fork, referred to as
-"`BIP8 without forced activation`" by Harding).
+"BIP8 without forced activation" by Harding).
 
-Among the proposals listed, one of them was titled "`Let’s see what
-happens`". For some reason, this proposal didn't get much traction
+Among the proposals listed, one of them was titled "Let’s see what
+happens". For some reason, this proposal didn't get much traction
 until seven months later.
 
 During those seven months, the discussion went on and it seemed like
 there was no way to reach broad consensus over which deployment
 mechanism to use. There were mainly two camps: one that preferred
 `lockinontimeout=true` (the UASF crowd) and the other one that preferred
-`lockinontimeout=false` (the "`try and if it fails rethink`" crowd). Since
+`lockinontimeout=false` (the "try and if it fails rethink" crowd). Since
 there was no overwhelming support for any of these options, the
 debate went in circles with seemingly no way forward. Some of
 these discussions were held on IRC, in a channel called
@@ -1658,8 +1460,8 @@ ____
 ....
 ____
 
-The "`let's see what happens`" approach finally seemed to click in
-peoples`' minds. This process would later be labeled as "`Speedy Trial`"
+The "let's see what happens" approach finally seemed to click in
+peoples`' minds. This process would later be labeled as "Speedy Trial"
 due to its short signaling period. David Harding explains this idea
 to the broader community in an
 https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-March/018583.html[email
@@ -1812,7 +1614,7 @@ To keep Bitcoin in harmony, soft forks have proven to be the way
 forward, but the big question is still not fully answered: how do we
 safely deploy soft forks without causing discord?
 
-# Adversarial thinking
+## Adversarial thinking
 
 
 ![](assets/adversarialthinking-banner.jpg)
@@ -1829,7 +1631,7 @@ first place.
 
 When discussing security within various systems, it's important to understand
 what the security assumptions are. A typical security assumption in
-Bitcoin is "`the discrete logarithm problem is hard to solve`", which,
+Bitcoin is "the discrete logarithm problem is hard to solve", which,
 simply put, means it's practically impossible to find a private key
 that corresponds to a particular public key. Another pretty strong
 security assumption is that a majority of the network's hashpower is
@@ -1886,7 +1688,7 @@ The importance of adversarial thinking also extends to everyday
 Bitcoin users to some degree, not only to hardcore Bitcoin developers and experts. 
 Ragnar Lifthasir mentions in a
 [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) how simplistic narratives around
-Bitcoin - for example, "`just HODL`" - can be degrading to Bitcoin itself, and
+Bitcoin - for example, "just HODL" - can be degrading to Bitcoin itself, and
 concludes by saying
 
 [quote, Ragnar Lifthasir, Twitter (2020)]
@@ -1899,7 +1701,7 @@ conservative
 ____
 
 He refers to these simplistic narratives as monomanias. Through this definition he's saying that by
-focusing on a single thing - for example, "`just HODL`"- you risk to overlook 
+focusing on a single thing - for example, "just HODL"- you risk to overlook 
 the arguably more important stuff, such as keeping your Bitcoin secure or doing your
 best to use Bitcoin in a trustless manner.
 
@@ -1948,8 +1750,8 @@ get a glimpse into how they operate. A US government body named
 Office of Strategic Services, which operated during World War II and had among its purposes to
 conduct espionage, perform sabotage and spread propaganda,
 produced a [manual](https://www.gutenberg.org/ebooks/26184)
-for their personnel on how to properly sabotage the enemy. Its title was "`Simple
-Sabotage Field Manual`" and contained concrete tips on infiltrating
+for their personnel on how to properly sabotage the enemy. Its title was "Simple
+Sabotage Field Manual" and contained concrete tips on infiltrating
 the enemy to make their lives hard. The tips range from burning
 down warehouses to causing wear to drills in order to decrease the enemy's
 efficiency.
@@ -1975,8 +1777,8 @@ Bitcoin as an enemy.
 [[axiomofresistance]]
 Eric Voskuil
 https://github.com/libbitcoin/libbitcoin-system/wiki/Axiom-of-Resistance[writes
-on his Cryptoeconomics wiki page] about what he calls the "`axiom of
-resistance`":
+on his Cryptoeconomics wiki page] about what he calls the "axiom of
+resistance":
 
 [quote, Eric Voskuil, Cryptoeconomics wiki (2017)]
 ____
@@ -2018,7 +1820,7 @@ who have enourmous economic power, through taxation and money
 printing. They probably won't give up their money printing privileges
 easily.
 
-# Open Source
+## Open Source
 
 
 ![](assets/opensource-banner.jpg)
@@ -2079,11 +1881,10 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
-----
 
 As noted in <<donttrustverify>>, it's important for users to be able
-to verify that the Bitcoin software they run "`works as
-advertised`". To do that, they must have unrestricted access to
+to verify that the Bitcoin software they run "works as
+advertised". To do that, they must have unrestricted access to
 the source code of the software they wish to verify.
 
 In the upcoming sections we dive into
@@ -2105,7 +1906,7 @@ but socially it has become the focal point of Bitcoin development.
 
 Bitcoin and security expert Jameson Lopp
 explains this very
-well in a [blog post](https://blog.lopp.net/who-controls-bitcoin-core-/) titled "`Who Controls Bitcoin Core?`":
+well in a [blog post](https://blog.lopp.net/who-controls-bitcoin-core-/) titled "Who Controls Bitcoin Core?":
 
 [quote, Jameson Lopp, Who Controls Bitcoin Core? (2018)]
 ____
@@ -2132,7 +1933,7 @@ ____
 Bitcoin Core developer Eric Lombrozo talks further about the
 development process in his
 https://medium.com/@elombrozo/the-bitcoin-core-merge-process-74687a09d81d[Medium
-post] titled "`The Bitcoin Core Merge Process`".
+post] titled "The Bitcoin Core Merge Process".
 
 [quote, Eric Lombrozo on Medium.com, The Bitcoin Core Merge Process (2017)]
 ____
@@ -2283,7 +2084,7 @@ ecosystem. But Bitcoin software deals with real money and, in light of this, dev
 In a philosophical
 https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-bitcoin-selection-cryptography/[talk
 about cryptography], Gregory Maxwell wants to
-redefine the term "`cryptography`" which he believes to be too narrow. He
+redefine the term "cryptography" which he believes to be too narrow. He
 explains that fundamentally _information wants to be free_, and
 makes his definition of cryptography based on that:
 
@@ -2298,8 +2099,8 @@ ____
 He then introduces the term _selection cryptography_, referred to as the art
 of selecting cryptographic tools, and explains why it is an
 important part of cryptography. It revolves around how to select
-cryptographic libraries, tools, and practices, or as he says "`the
-cryptosystem of picking cryptosystems`".
+cryptographic libraries, tools, and practices, or as he says "the
+cryptosystem of picking cryptosystems".
 
 Using concrete examples, he shows how selection cryptography can
 easily go horribly wrong, and also proposes a list of questions
@@ -2330,7 +2131,7 @@ from font rendering to implementation of system calls.
 ### Review
 
 
-This section is named "`Review`", rather than "`Code review`", because
+This section is named "Review", rather than "Code review", because
 Bitcoin's security relies heavily on review at multiple levels, not
 just source code. Moreover, different ideas require review at different
 levels: a consensus rule change would require a deeper review
@@ -2441,8 +2242,8 @@ and endless heated debates among Bitcoin developers, and that they are
 incapable of making decisions.
 
 For example, the Taproot deployment mechanism, described in <<taproot-deployment>>,
-was discussed over a long period of time during which two "`camps`" formed. One
-wanted to "`fail`" the upgrade if miners hadn't overwhelmingly
+was discussed over a long period of time during which two "camps" formed. One
+wanted to "fail" the upgrade if miners hadn't overwhelmingly
 voted for the new rules after a certain moment, while the other
 wanted to enforce the rules after that moment no matter what. Michael Folkson
 summarizes the arguments from the two camps in an
@@ -2529,7 +2330,7 @@ The development process around Bitcoin is radically open, which can
 make Bitcoin look like a toxic and inefficient place, but that's what
 keeps Bitcoin resilient against malicious actors.
 
-# Scaling
+## Scaling
 
 
 ![](assets/scaling-banner.jpg)
@@ -2542,7 +2343,7 @@ approaches to scaling Bitcoin, specifically vertical, horizontal,
 inward, and layered scaling. Each description is followed by considerations over whether the approach
 interferes with Bitcoin's value proposition.
 
-In the Bitcoin space, different people ascribe different definitions to the word "`scale`". Some conceive it as the
+In the Bitcoin space, different people ascribe different definitions to the word "scale". Some conceive it as the
 increase of the blockchain transaction capacity, others believe it equals to using the
 blockchain more efficiently, and others see it as the development of systems on top of Bitcoin.
 
@@ -2664,7 +2465,7 @@ in depth in <<fullnodedecentralization>>.
 Besides the negative effects on full node decentralization, vertical
 scaling might also negatively impact Bitcoin's
 mining decentralization (explained in <<minerdecentralization>>) and security in
-less obvious ways. Let's have a look at how miners "`should`"
+less obvious ways. Let's have a look at how miners "should"
 operate. Say a miner mines a block at height 7 and publishes that
 block on the Bitcoin network. It will take some time for this block to
 reach broad acceptance, which is mainly due to two factors:
@@ -2767,7 +2568,7 @@ to be suitable for a decentralized network like Bitcoin due to their
 centralizing effects.
 
 An approach that gets far too little appreciation is what we can call
-_inward scaling_, which translates into "`do more with less`". It refers
+_inward scaling_, which translates into "do more with less". It refers
 to the ongoing work constantly done by many developers to optimize the
 algorithms already in place, so that we can do more within the existing
 limits of the system.
@@ -2906,10 +2707,10 @@ during the protocol's life cycle. All the juicy action happens
 _off-chain_. We've seen how this can be a win for privacy
 if done right, but it can also be an advantage for scalability.
 
-In a [Reddit post](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) titled "`A trip to the moon requires a rocket with
+In a [Reddit post](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) titled "A trip to the moon requires a rocket with
 multiple stages or otherwise the rocket equation will eat your
 lunch... packing everyone in clown-car style into a trebuchet and
-hoping for success is right out.`", Gregory Maxwell explains why
+hoping for success is right out.", Gregory Maxwell explains why
 layering is our best shot at getting Bitcoin to scale by orders of
 magnitudes.
 
@@ -2964,12 +2765,12 @@ We've discussed various ways through which one might want to scale
 Bitcoin, increase Bitcoin's usage capacity. Scaling has been a concern
 in Bitcoin since its very early days.
 
-We know today that Bitcoin doesn't scale well vertically ("`buy bigger
-hardware`") or horizontally ("`verify only parts of the data`"), but
-rather inward ("`do more with less`") and in layers ("`build protocols
-on top of Bitcoin`").
+We know today that Bitcoin doesn't scale well vertically ("buy bigger
+hardware") or horizontally ("verify only parts of the data"), but
+rather inward ("do more with less") and in layers ("build protocols
+on top of Bitcoin").
 
-# When shit hits the fan
+## When shit hits the fan
 
 
 ![](assets/shtf-banner.jpg)
@@ -3032,11 +2833,11 @@ an email to security@bitcoincore.org.
 
 In an
 https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-September/015002.html[email
-thread] titled "`Responsible disclosure of bugs`" from 2017, Anthony Towns
+thread] titled "Responsible disclosure of bugs" from 2017, Anthony Towns
 tried to summarize what he perceived to be the current best practices. He
 had collected inputs from several sources and different people to inform his view on the subject.
 
-[quote, Anthony Towns in thread "`Responsible disclosure of bugs`",Bitcoin-dev email list (2017)]
+[quote, Anthony Towns in thread "Responsible disclosure of bugs",Bitcoin-dev email list (2017)]
 ____
 
 * Vulnerabilities should be reported via security at bitcoincore.org
@@ -3084,14 +2885,14 @@ others to discover it.
 
 The thread that led to this email was discussing whether, when, and how
 to disclose vulnerabilities to altcoins and other implementations of
-Bitcoin. There is no clear answer here. "`Helping the good guys`"
+Bitcoin. There is no clear answer here. "Helping the good guys"
 seems like the sensible thing to do, but who decides who they are and
 where does one draw the line? Bryan Bishop
 [argued](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-September/014983.html)
 that helping altcoins and even scamcoins defend themselves against security
 exploits was a moral duty.
 
-[quote, Bryan Bishop in thread "`Responsible disclosure of bugs`", Bitcoin-dev email list (2017)]
+[quote, Bryan Bishop in thread "Responsible disclosure of bugs", Bitcoin-dev email list (2017)]
 ____
 It's not enough to defend bitcoin and its users from active threats,
 there is a more general responsibility to defend all kinds of users
@@ -3108,7 +2909,7 @@ Also leading up to Town's email above was a
 by Gregory Maxwell, in which he argued that security
 vulnerabilities could be more severe than they appear.
 
-[quote, Gregory Maxwell in thread "`Responsible disclosure of bugs`", Bitcoin-dev email list (2017)]
+[quote, Gregory Maxwell in thread "Responsible disclosure of bugs", Bitcoin-dev email list (2017)]
 ____
 I've multiple time seen a hard to exploit issue turn out to be trivial
 when you find the right trick, or a minor dos issue turn our to far
@@ -3127,12 +2928,12 @@ So, even if a vulnerability seems hard to exploit, it might be best to
 assume that it's easily exploitable and you just haven't figured out
 how yet.
 
-He also mentions how "`it's somewhat incorrect to call this thread
+He also mentions how "it's somewhat incorrect to call this thread
 anything about disclosure, this thread is not about
 disclosure. Disclosure is when you tell the vendor.  This thread is
 about publication and that has very different
 implications. Publication is when you're sure you've told the
-prospective attackers`". This last observation concerning the distinction
+prospective attackers". This last observation concerning the distinction
 between disclosure and publication is an important one. The easy part
 is responsible disclosure; the hard part is sensible publishing.
 
@@ -3196,8 +2997,8 @@ immediately failed, instead.
 ----
 
 Satoshi made this change locally and built an executable binary with
-version 0.3.5 from it. Then he posted on Bitcointalk forum "`\\*** ALERT \***
-Upgrade to 0.3.5 ASAP`", urging users to install this binary version
+version 0.3.5 from it. Then he posted on Bitcointalk forum "\\*** ALERT \***
+Upgrade to 0.3.5 ASAP", urging users to install this binary version
 of his, without presenting the source code for it.
 
 [quote, Satoshi Nakamoto, Bitcointalk forum (2010)]
@@ -3248,8 +3049,8 @@ Windows and Linux users: if you got 0.3.5 you still need to upgrade to 0.3.6.
 ____
 
 Note the difference in the characterization of the problem from the
-first message: "`could be displayed as accepted`" vs "`could be
-accepted`". Maybe Satoshi downplayed the severity of the bug in his communication
+first message: "could be displayed as accepted" vs "could be
+accepted". Maybe Satoshi downplayed the severity of the bug in his communication
 so as not to draw too much attention to the actual issue. Anyhow, people
 upgraded to 0.3.6 and it worked as expected. This particular
 issue was resolved, amazingly, with no bitcoin losses.
@@ -3310,7 +3111,7 @@ ____
 
 Presumably, there was a bug causing two int64 (not uint64, as Garzik supposed) outputs`' sum
 to overflow to a negative value -0.00997538 BTC. Whatever the sum
-of the inputs, the "`sum`" of the outputs would be smaller, making
+of the inputs, the "sum" of the outputs would be smaller, making
 this transaction OK according to the code at the time.
 
 In this case, the bug had been disclosed and published through an actual exploit. An unfortunate outcome of this was that about 2x92 billion bitcoin
@@ -3412,7 +3213,7 @@ that didn't directly reveal what the issue was.
 
 A very interesting an educationally valuable issue surfaced in March
 2013. It appeared that the blockchain had split (although the word
-"`fork`" is used in the quote below) after block 225429. The details
+"fork" is used in the quote below) after block 225429. The details
 of this incident were
 https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki[reported
 in BIP50]. The summary says:
@@ -3487,7 +3288,7 @@ One might wonder if this would be doable today. The mining
 landscape is more complex today, and, depending on the hash power on
 each side of the split, it might be hard to roll out a patch such as
 the one in BIP50 quickly enough. It'd probably be hard to convince
-miners on the "`wrong`" branch to let go of their block rewards.
+miners on the "wrong" branch to let go of their block rewards.
 
 [[bip66-splits]]
 #### BIP66
@@ -3553,7 +3354,7 @@ Without anyone knowing about the issue, it could have been resolved by
 the now widthdrawn BIP62, which was a proposal to reduce the
 possibilities of transaction malleability. Among the proposed changes
 in BIP62 were tightening of the consensus rules for the encoding of
-signatures, or "`strict DER encoding`". Pieter Wuille proposed some
+signatures, or "strict DER encoding". Pieter Wuille proposed some
 tweaks to the BIP in July 2014, that would have solved the issue:
 
 [quote, Pieter Wuille on Bitcoin-dev mailing list, Disclosure: consensus bug indirectly solved by BIP66 (2015)]
@@ -3570,7 +3371,7 @@ vulnerability.
 ____
 
 Due to the breadth of this BIP, which covered substantially more than
-just "`strict DER encoding`", it was constantly changing and never got
+just "strict DER encoding", it was constantly changing and never got
 near deployment. The BIP was later withdrawn because Segregated
 Witness, BIP141, solved transaction malleability in a different and
 more complete way.
@@ -3591,7 +3392,7 @@ While for most applications it is generally acceptable to eagerly
 reject some signatures, Bitcoin is a consensus system where all
 participants must generally agree on the exact validity or
 invalidity of the input data.  In a sense, consistency is more
-important than "`correctness`".
+important than "correctness".
 
 ...
 
@@ -3694,7 +3495,7 @@ fixed before malicious actors had a chance to exploit them.
 
 [appendix]
 
-These discussion questions are not just a recap of the content in "`Bitcoin development philosophy`", they are meant to encourage you to research further so make sure to go out and explore.
+These discussion questions are not just a recap of the content in "Bitcoin development philosophy", they are meant to encourage you to research further so make sure to go out and explore.
 
 
 ### Decentralization

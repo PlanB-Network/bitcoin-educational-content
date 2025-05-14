@@ -84,10 +84,11 @@ proofreading:
     contributor_names:
     reward: 12.03
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 10.04
+      - MilankovicProtocol
+    reward: 5.02
   - language: hi
     last_contribution_date:
     urgency: 1

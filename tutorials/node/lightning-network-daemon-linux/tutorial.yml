@@ -11,8 +11,8 @@ professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 # Proofreading metadata
 
 original_language: fr
-proofreading: 
-  - language : fr
+proofreading:
+  - language: fr
     last_contribution_date: 2025-04-26
     urgency: 1
     contributors_names:

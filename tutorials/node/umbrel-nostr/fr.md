@@ -1,5 +1,5 @@
 ---
-name: Intégrer Umbrel dans une utilisation avancée de Nostr
+name: Umbrel Nostr
 description: Configurer et utiliser les applications Nostr sur Umbrel
 ---
 

@@ -207,7 +207,7 @@ Scegliere "*Standard*" se si desidera creare un portafoglio classico a sigla sin
 
 Per ulteriori informazioni sull'opzione "*2FA*", potete seguire quest'altra guida:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Il vostro account è stato creato.
 

@@ -83,6 +83,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.69
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.14
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.69
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.69
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.69
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.84
 tags:
   - guides
   - user-friendly

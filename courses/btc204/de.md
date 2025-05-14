@@ -2950,13 +2950,13 @@ Das Ziel von BIP156 ist es, dieses Problem zu lösen. Zu diesem Zweck führt es 
 
 ![BTC204](assets/fr/205.webp)
 
-Die Transaktion wird dann in der "Kapitulationsphase" an das gesamte Netz verteilt.
+Die Transaktion wird anschließend im „Fluff“-Stadium an das gesamte Netzwerk gesendet.
 
 ![BTC204](assets/fr/206.webp)
 
-Der Stängel und der Blütenkopf verweisen auf das Verhalten bei der Ausbreitung der Transaktion im Netz, das der Form einer Pusteblume ähnelt.
+Der Stiel und die „Fluff“-Phase beziehen sich auf das Verhalten der Transaktionsverbreitung im Netzwerk, das an die Form und Entwicklung eines Löwenzahns („Dandelion“ auf Englisch) erinnert.
 
-Somit können die Spionageknoten die Transaktion möglicherweise zu dem Knoten zurückverfolgen, der die Kapitulationsphase (die Massenübertragung) eingeleitet hat, aber dieser Knoten ist nicht derjenige, der die Transaktion zuerst übertragen hat, da er sie vom letzten Knoten im Stamm erhalten hat. Wenn die Spionageknoten den Stamm nicht zurückverfolgen können, können sie auch den Ursprungsknoten nicht identifizieren.
+Spionage-Knoten können die Transaktion möglicherweise bis zu dem Knoten zurückverfolgen, der die „Fluff“-Phase (die Massenverbreitung) gestartet hat, aber dieser Knoten ist nicht der ursprüngliche Sender der Transaktion, da er sie vom letzten Knoten des Stiels empfangen hat. Wenn die Spionage-Knoten den Stiel nicht zurückverfolgen können, können sie auch den Ursprungsknoten nicht identifizieren.
 
 ![BTC204](assets/fr/207.webp)
 

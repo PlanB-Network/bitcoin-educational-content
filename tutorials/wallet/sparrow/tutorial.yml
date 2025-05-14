@@ -93,3 +93,28 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 12.26
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.12
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.82
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.82
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.82
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.26

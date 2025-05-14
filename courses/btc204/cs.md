@@ -2950,13 +2950,13 @@ Cílem BIP156 je tento problém řešit. Za tímto účelem zavádí dodatečnou
 
 ![BTC204](assets/fr/205.webp)
 
-Transakce je poté distribuována do celé sítě ve fázi "kapitulace".
+Transakce je poté rozeslána celé síti ve fázi „Fluff“.
 
 ![BTC204](assets/fr/206.webp)
 
-Stonek a květní hlavička odkazují na chování transakce při jejím šíření sítí, které připomíná tvar pampelišky.
+Stonek a fáze „Fluff“ odkazují na chování šíření transakce v síti, které připomíná tvar a vývoj pampelišky (v angličtině „Dandelion“).
 
-Špehovací uzly tedy mohou potenciálně vysledovat transakci zpět k uzlu, který zahájil fázi kapitulace (hromadné vysílání), ale tento uzel není tím, který transakci vysílal jako první, protože ji obdržel od posledního uzlu na kmeni. Pokud špionážní uzly nemohou vystopovat kmen, nemohou identifikovat ani zdrojový uzel.
+Špionážní uzly tak potenciálně mohou sledovat transakci zpět k uzlu, který zahájil fázi „Fluff“ (hromadné šíření), ale tento uzel není tím, kdo transakci vyslal jako první, protože ji obdržel od posledního uzlu stonku. Pokud špionážní uzly nedokážou vystopovat stonek, nemohou identifikovat zdrojový uzel.
 
 ![BTC204](assets/fr/207.webp)
 

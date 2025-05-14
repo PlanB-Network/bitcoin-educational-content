@@ -2950,13 +2950,13 @@ BIP156:n tavoitteena on puuttua tähän ongelmaan. Tätä varten siinä otetaan 
 
 ![BTC204](assets/fr/205.webp)
 
-Tämän jälkeen transaktio jaetaan koko verkolle "antautumisvaiheessa".
+Tämän jälkeen tapahtuma lähetetään koko verkkoon "Fluff"-vaiheessa.
 
 ![BTC204](assets/fr/206.webp)
 
-Varsi ja kukkapää viittaavat transaktion etenemiseen verkossa, joka muistuttaa voikukan muotoa.
+Varsi ja "Fluff"-vaihe viittaavat tapahtuman leviämiskäyttäytymiseen verkossa, joka muistuttaa voikukan (englanniksi "Dandelion") muotoa ja kehitystä.
 
-Näin ollen vakoilusolmut voivat mahdollisesti jäljittää tapahtuman takaisin kapitulaatiovaiheen (joukkolähetys) aloittaneeseen solmuun, mutta tämä solmu ei ole se, joka lähetti tapahtuman ensimmäisenä, sillä se sai sen varren viimeiseltä solmulta. Jos vakoilusolmut eivät voi jäljittää varren kulkua, ne eivät voi myöskään tunnistaa lähdesolmua.
+Vakoilunoodit voivat siten mahdollisesti jäljittää tapahtuman siihen noodin, joka aloitti "Fluff"-vaiheen (massalähetyksen), mutta kyseinen noodi ei ole se, joka alun perin lähetti tapahtuman, koska se vastaanotti sen varren viimeiseltä noodilta. Jos vakoilunoodit eivät pysty jäljittämään vartta, ne eivät voi myöskään tunnistaa lähdenoodia.
 
 ![BTC204](assets/fr/207.webp)
 

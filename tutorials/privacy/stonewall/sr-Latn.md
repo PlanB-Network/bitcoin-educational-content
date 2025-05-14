@@ -61,7 +61,7 @@ Iz spoljne perspektive, obrazac transakcije bi ostao potpuno isti.
 Ukratko, Stonewall i Stonewall x2 transakcije dele identičnu strukturu. Razlika između njih leži u njihovoj kolaborativnoj prirodi. Stonewall transakcija se razvija individualno, bez potrebe za saradnjom. Nasuprot tome, Stonewall x2 transakcija se oslanja na saradnju između dve osobe za njeno sprovođenje.
 
 
-[**-> Saznajte više o Stonewall x2 transakcijama**](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Saznajte više o Stonewall x2 transakcijama**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 ## Koja je svrha Stonewall transakcije?

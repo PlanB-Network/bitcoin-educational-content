@@ -275,8 +275,8 @@ Kufanya coinjoin kupitia Samourai Wallet kwa kutumia Dojo yako binafsi, kwa maon
 Kwa hivyo mbinu hii ni bora kwa wale wanaotafuta faragha ya juu zaidi na mizunguko ya ubora wa juu ya CoinJoin. Hata hivyo, inahitaji kuwa na nodi ya Bitcoin unayoweza kutumia na, kama tutakavyoona baadaye, inahitaji usanidi fulani. Kwa hivyo inafaa zaidi kwa watumiaji wa kati hadi wa hali ya juu. Kwa wanaoanza, ninapendekeza kufahamiana na CoinJoin kupitia mafunzo haya mengine mawili, ambayo yanaonyesha jinsi ya kuifanya kutoka Sparrow Wallet au Samourai Wallet (bila Dojo):
 
 
-- [Mafunzo ya Sparrow Wallet CoinJoin](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-sparrow-Wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
-- [Mafunzo ya Samourai Wallet CoinJoin (bila Dojo)](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-546200*9136-546200)
+- [Mafunzo ya Sparrow Wallet CoinJoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- [Mafunzo ya Samourai Wallet CoinJoin (bila Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)
 
 
 ### Kuelewa Mpangilio
@@ -287,7 +287,7 @@ Ili kuanza, utahitaji Dojo! Dojo ni utekelezaji wa nodi za Bitcoin kulingana na 
 Ili kuendesha Dojo yako mwenyewe, una chaguo la kusakinisha kifundo cha Dojo kwa uhuru, au kuchukua fursa ya Dojo juu ya suluhisho lingine la "nodi-in-box" Bitcoin. Hivi sasa, chaguzi zinazopatikana ni:
 
 
-- [RoninDojo](https://ronindojo.io/), ambayo ni Dojo iliyoboreshwa kwa zana za ziada, ikiwa ni pamoja na msaidizi wa usakinishaji na msaidizi wa utawala. Ninaeleza kwa kina utaratibu wa kusanidi na kutumia RoninDojo katika mafunzo haya mengine: [RONINDOJO V2](https://planb.network/tutorials/node/Bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
+- [RoninDojo](https://ronindojo.io/), ambayo ni Dojo iliyoboreshwa kwa zana za ziada, ikiwa ni pamoja na msaidizi wa usakinishaji na msaidizi wa utawala. Ninaeleza kwa kina utaratibu wa kusanidi na kutumia RoninDojo katika mafunzo haya mengine: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Mwavuli](https://umbrel.com/) yenye programu ya "Seva ya Samourai";
 - [MyNode](https://mynodebtc.com/) na programu ya "Dojo";
 - [Nodl](https://www.nodl.eu/) na programu ya "Dojo";
@@ -412,7 +412,7 @@ Katika hatua inayofuata, utafikia ukurasa uliowekwa maalum kusanidi Dojo yako. T
 ![coinjoin](assets/notext/24.webp)
 
 
-*Kwa watumiaji wapya wa Samourai, basi itakuwa muhimu kuunda Wallet kuanzia mwanzo. Ikiwa unahitaji usaidizi, unaweza kushauriana na maagizo ya kusanidi Samourai Wallet mpya [katika somo hili, haswa katika sehemu ya "Kuunda Software Wallet"](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
+*Kwa watumiaji wapya wa Samourai, basi itakuwa muhimu kuunda Wallet kuanzia mwanzo. Ikiwa unahitaji usaidizi, unaweza kushauriana na maagizo ya kusanidi Samourai Wallet mpya [katika somo hili, haswa katika sehemu ya "Kuunda Software Wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 
 Ikiwa unaendelea na urejeshaji wa Samourai Wallet iliyopo tayari, chagua `Rejesha iliyopo Wallet`, kisha uchague `Nina faili mbadala ya Samourai`.
@@ -588,4 +588,4 @@ Akaunti za Whirlpool zinaweza kutambulika kwa urahisi kwenye Samourai Wallet kwa
 ![coinjoin](assets/notext/53.webp)
 
 
-Ili kufuatilia miundo yako ya kiotomatiki, ninapendekeza pia usanidi Watch-only wallet kupitia programu ya Sentinel. Ongeza ZPUB ya akaunti yako ya **Postmix** na ufuatilie maendeleo ya mizunguko yako ya CoinJoin katika muda halisi. Iwapo ungependa kuelewa jinsi ya kutumia Sentinel, ninapendekeza upate mafunzo haya mengine kwenye PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/Wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de)
+Ili kufuatilia miundo yako ya kiotomatiki, ninapendekeza pia usanidi Watch-only wallet kupitia programu ya Sentinel. Ongeza ZPUB ya akaunti yako ya **Postmix** na ufuatilie maendeleo ya mizunguko yako ya CoinJoin katika muda halisi. Iwapo ungependa kuelewa jinsi ya kutumia Sentinel, ninapendekeza upate mafunzo haya mengine kwenye PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

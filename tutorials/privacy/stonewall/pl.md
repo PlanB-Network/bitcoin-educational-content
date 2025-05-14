@@ -61,7 +61,7 @@ Z perspektywy zewnętrznej schemat transakcji pozostałby dokładnie taki sam.
 Podsumowując, transakcje Stonewall i Stonewall x2 mają identyczną strukturę. Różnica między nimi polega na ich wspólnym charakterze. Transakcja Stonewall jest opracowywana indywidualnie, bez potrzeby współpracy. Natomiast transakcja Stonewall x2 opiera się na współpracy między dwiema osobami w celu jej wdrożenia.
 
 
-[**-> Dowiedz się więcej o transakcjach Stonewall x2**](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Dowiedz się więcej o transakcjach Stonewall x2**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 ## Jaki jest cel transakcji Stonewall?

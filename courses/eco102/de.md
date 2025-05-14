@@ -151,6 +151,14 @@ Was Adam Smith zeigt, ist, dass man nur im Dienste des eigenen Interesses handel
 
 ![image](assets/en/017.webp)
 
+---
+
+>„Das natürliche Bestreben jedes Einzelnen, seine eigene Lage zu verbessern... ist so mächtig, dass es allein, ohne jegliche Unterstützung, nicht nur in der Lage ist, die Gesellschaft zu Reichtum und Wohlstand zu führen, sondern auch Hunderte von lästigen Hindernissen zu überwinden, mit denen die Torheit menschlicher Gesetze ihren Ablauf oft belastet.“  
+>_Der Wohlstand der Nationen_  
+>_Buch IV, Kapitel V_
+
+---
+
 Der Austausch ist ein Positivsummenspiel. Was der eine gewinnt, gewinnt auch der andere. Damit unterscheidet er sich von der politischen Umverteilung, bei der es immer einen Gewinner und einen Verlierer gibt. Wenn wir die englische Schule betrachten, ist für Smith, für Ricardo und für Locke vor ihnen der Wert an die Arbeit gebunden. Für Marx ist es dasselbe.
 
 ![image](assets/en/018.webp)
@@ -163,6 +171,12 @@ Aber Bastiat nuancierte Say auch in diesem Punkt. Es geht nicht um den Nutzen, d
 Die Wirtschaft gehorcht einer Reihe einfacher Gesetze, die sich aus menschlichem Verhalten ableiten. Eines davon, genannt "Says Gesetz", lautet wie folgt: "Produkte und Dienstleistungen werden gegen Produkte und Dienstleistungen getauscht." Seine Idee ist, dass Nationen und Individuen von einer Steigerung des Produktionsniveaus profitieren, weil es erhöhte Möglichkeiten für gegenseitig vorteilhafte Austausche bietet.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Individuelle Freiheit = Soziale Harmonie
+
+---
 
 Tatsächlich werden Produkte nur in Erwartung der Dienstleistungen gekauft, die der Käufer erwartet: Ich kaufe eine Disk für die Musik, die ich hören werde, ich kaufe eine Kinokarte für den Film, den ich sehen werde. Und bei einem Austausch entscheidet jede Partei, weil sie urteilt, dass sie aus dem, was sie erwirbt, mehr Dienstleistungen ziehen kann, als sie aufgibt. In diesem Kontext ist Geld nur eine Zwischenware, es gleicht eine erbrachte Dienstleistung aus und eröffnet andere Dienstleistungen.
 
@@ -341,9 +355,14 @@ Bastiat betrachtet Rousseau tatsächlich als den wahren Vorläufer des Sozialism
 
 Ursprünglich ist der Mensch lediglich ein Bürger. Aber der Bürger ist ein Rechner; er will sein unmittelbares Vergnügen, er ist versklavt an seine Sinne, an seine Wünsche, an sein besonderes Interesse. Kurz gesagt, er ist nicht rational, daher ist er nicht frei. Er muss erzogen werden, um zu verstehen, dass sein wahres Interesse das Allgemeininteresse ist. Deshalb schrieb Rousseau im Gesellschaftsvertrag:
 
-> Wer sich weigert, dem allgemeinen Willen zu gehorchen, soll vom gesamten Körper gezwungen werden: das bedeutet nichts anderes, als dass sie gezwungen werden, frei zu sein.
-
 ![image](assets/en/048.webp)
+
+---
+
+>Wer sich weigert, dem Gemeinwillen zu gehorchen, wird von der Gesamtheit dazu gezwungen: was nichts anderes bedeutet, als dass man ihn zwingen wird, frei zu sein.  
+>(Jean-Jacques Rousseau)
+
+---
 
 Nach dieser Lehre hat der Mensch zwei Willen in sich: einen Willen, der auf das persönliche Interesse, das des Bürgers, und einen Willen, der auf das Allgemeininteresse, das des Bürgers, tendiert. Die Menschen, auch mit Gewalt, zu einem rationalen Ziel, dem Allgemeininteresse, zu führen, bedeutet, die Menschen zur Freiheit zu führen. Was sie wirklich wollen, ist ein rationales Ziel, auch wenn sie es nicht wissen.
 Es ist daher vollkommen legitim, nach Rousseau, Männer im Namen eines Ziels zu zwingen, das sie selbst, wären sie aufgeklärter gewesen, verfolgt hätten, das sie aber nicht verfolgen, weil sie blind, unwissend oder korrupt sind. Die Gesellschaft ist gegründet, um sie zu zwingen, das zu tun, was sie spontan wünschen sollten, wenn sie aufgeklärt wären. Und indem man dies tut, tut man ihnen keine Gewalt an, da man sie dazu führt, "frei" zu sein, das heißt, die richtigen Entscheidungen zu treffen, Entscheidungen, die mit ihrem wahren Selbst übereinstimmen.
@@ -417,6 +436,14 @@ Protektionismus ist in Wirklichkeit eine Form des wirtschaftlichen Nationalismus
 
 ![image](assets/en/058.webp)
 
+---
+
+>Unser Treffen mit Arnaud Montebourg  
+>Made in France,  
+>er glaubt daran, wir haben es getestet
+
+---
+
 Das Argument für den Arbeitsplatzschutz ist das, was Bastiat eine Trugschluss nennt. Denn in Wirklichkeit entspricht es einer Steuer. Es hat zur Folge, dass Produkte teurer werden. Nehmen wir das Beispiel, das Bastiat selbst gibt.
 
 Stellen Sie sich ein englisches Messer vor, das in unserem Land für 2 Euro verkauft wird, und ein in Frankreich hergestelltes Messer kostet 3. Wenn wir dem Verbraucher erlauben, frei das Messer zu kaufen, das er möchte, spart er einen Franc, den er anderswo investieren kann (in ein Buch oder einen Bleistift).
@@ -446,6 +473,14 @@ Und er würde danach weiterhin dessen perverse Effekte analysieren. Hier ist ein
 - 3° Bastiat fügt hinzu, dass seiner Ansicht nach der Protektionismus die erste Manifestation dieser Störung war. Die Kapitalisten begannen damit, die Intervention des Gesetzes zu fordern, um ihren Anteil am Reichtum zu erhöhen. Unvermeidlich wollten die Arbeiter dasselbe tun.
 
 ![image](assets/en/063.webp)
+
+---
+
+>FÜR DEN ERFOLG  
+>WÄHLT DIE SOZIALISTISCHE SFIO
+
+---
+
 Zum Abschluss, Protektionisten und Sozialisten teilen einen gemeinsamen Punkt, laut Bastiat: Was sie vom Gesetz suchen, ist nicht, jedem die freie Ausübung seiner Fähigkeiten und die gerechte Belohnung für seine Anstrengungen zu sichern, sondern eher die mehr oder weniger vollständige Ausbeutung einer Klasse von Bürgern durch eine andere zu begünstigen. Mit dem Protektionismus ist es die Minderheit, die die Mehrheit ausbeutet. Mit dem Sozialismus ist es die Mehrheit, die die Minderheit ausbeutet. In beiden Fällen wird die Gerechtigkeit verletzt und das allgemeine Interesse kompromittiert. Bastiat stellt sie gegeneinander.
 
 > Der Staat ist die große Fiktion, durch die jeder versucht, auf Kosten aller anderen zu leben.
@@ -542,6 +577,12 @@ Im Jahr 1840 stimmte die Kammer der Abgeordneten für ein Gesetz, das die Import
 Bastiat verfasste daraufhin einen satirischen Text, der später zu einem seiner berühmtesten Werke wurde: "Die Petition der Kerzenmacher". Es veranschaulicht, wie bestimmte gut organisierte Druckgruppen von Produzenten unangemessene Privilegien vom Staat erhalten, zum Nachteil der Bürger. Gleichzeitig demonstriert es die absurde und zerstörerische Natur protektionistischer Gesetzgebung.
 
 ![image](assets/en/079.webp)
+
+---
+
+>SCHÜTZT UNSERE KERZEN!
+
+---
 
 In dieser Petition bitten die Kerzenmacher die Abgeordneten um rechtlichen Schutz gegen einen gefährlichen Rivalen:
 
@@ -807,6 +848,12 @@ Es ist, weil der Mensch das Risiko eingeht, Fehler zu machen oder falsch zu hand
 
 ![Bild](assets/en/110.webp)
 
+---
+
+>Irren ist menschlich.
+
+---
+
 So ist klar, dass Bastiat weit davon entfernt ist, blind zu sein. Er leugnet nicht die Existenz des Bösen. Der Mensch ist schwach, anfällig für Fehler und Schuld. Nirgendwo wird man sehen, dass Bastiat die Tatsache leugnet, dass die Ausübung individueller Freiheit mit der Möglichkeit des Irrtums, der Möglichkeit einer unvernünftigen oder sinnlosen Wahl verbunden ist.
 
 Er behauptet einfach, dass, wenn die Quelle des Bösen in der Abwesenheit von Freiheit liegt, das Heilmittel in der Freiheit selbst liegt, und genauer gesagt in der vollen und ganzen Ausübung persönlicher Verantwortung.
@@ -846,6 +893,15 @@ Und weiter:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Gesellschaft  
+>für gegenseitige Hilfe  
+>in GUISY  
+>1899
+
+---
+
 Laut Bastiat gibt es jedoch eine Alternative zur obligatorischen staatlichen Solidarität: "Gegenseitigkeitshilfeverein"
 
 die gegenseitige und spontane Unterstützung der Menschen untereinander dank der Gegenseitigkeitshilfevereine. Aber er sah auch voraus, dass der Staat diese Gegenseitigkeiten schließlich ergreifen würde, um sie zu einem einzigartigen und zentralisierten Körper zu machen, was Ausgaben und Verschwendung fördert.
@@ -855,6 +911,16 @@ die gegenseitige und spontane Unterstützung der Menschen untereinander dank der
 In einem Pamphlet mit dem Namen "Gerechtigkeit und Brüderlichkeit" erkundet Bastiat auch die Idee eines vereinfachten und fairen Steuersystems zur Finanzierung kollektiver Bedürfnisse (Polizei, Justiz, Armee): Einkommen und Gewinne würden einem einheitlichen und proportionalen Steuersatz unterliegen. Das ist das, was heute als "Flat Tax" bekannt ist.
 
 ![image](assets/en/118.webp)
+
+---
+
+>Stiftungen – ein  
+>**Mehrwert**  
+>für die **Gesellschaft**  
+>
+>SwissFoundations
+
+---
 
 Tatsächlich sind innerfamiliäre Solidarität, lokale Solidarität oder organisierte Philanthropie in Ländern mit einem leichten Steuersystem und einem relativ hohen Grad an wirtschaftlicher Freiheit, wie der Schweiz und den Vereinigten Staaten, viel stärker entwickelt, während sie in Ländern, in denen der Staat die individuelle Verantwortung weitgehend ersetzt hat, wie Frankreich oder Deutschland, weitgehend erstickt ist.
 Es ist oft modern, den "Egoismus" zu beklagen, der in liberalen Gesellschaften vorherrschen würde. Doch das genaue Gegenteil ist der Fall. Wenn eine Gesellschaft mit Steuern belastet ist und Individuen ihr Eigentum nicht mehr besitzen, werden sie nicht zum Geben ermutigt, sondern eher dazu, sich in sich selbst zurückzuziehen.

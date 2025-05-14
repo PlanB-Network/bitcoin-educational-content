@@ -2092,7 +2092,7 @@ Membeli Bitcoin tanpa mengungkapkan identitas Anda adalah pilihan bagi mereka ya
 - Platform P2P**: Platform seperti Bisq, RoboSats, dan Peach memfasilitasi pertukaran antara individu pribadi tanpa perlu verifikasi identitas, menggunakan sistem escrow untuk mengamankan transaksi. Platform-platform ini masih memiliki risiko pencurian jika pihak lain tidak bekerja sama, tetapi risiko ini diminimalkan dengan layanan escrow.
 - Anjungan Tunai Mandiri (ATM) Bitcoin **: Beberapa ATM (kios) memungkinkan Anda membeli Bitcoin dengan uang tunai, meskipun biayanya cenderung tinggi, dan beberapa memerlukan verifikasi ID untuk transaksi yang lebih besar.
 - Platform Exchange bebas KYC**: Beberapa platform, terutama di Swiss, memungkinkan Anda membeli Bitcoin dalam jumlah kecil tanpa memerlukan verifikasi identitas.
-- Mining**: Perorangan dapat menambang Bitcoin. Mesin yang lebih tua atau lebih kecil dapat diakses, memberikan cara non-tradisional untuk mendapatkan Bitcoin tanpa KYC. Dengan bergabung dengan Mining pool, Anda dapat memperoleh pembayaran reguler, bahkan dengan peralatan dasar. Untuk info lebih lanjut, [lihat tutorial Mining] (https://planb.network/tutorials/Mining).
+- Mining**: Perorangan dapat menambang Bitcoin. Mesin yang lebih tua atau lebih kecil dapat diakses, memberikan cara non-tradisional untuk mendapatkan Bitcoin tanpa KYC. Dengan bergabung dengan Mining pool, Anda dapat memperoleh pembayaran reguler, bahkan dengan peralatan dasar. Untuk info lebih lanjut, [lihat tutorial Mining] (https://planb.network/tutorials/mining).
 - Pembayaran / Gaji dalam bitcoin**: Jika Anda menjalankan bisnis, Anda dapat menerima Bitcoin sebagai pembayaran. Jika Anda bekerja, tergantung pada yurisdiksi Anda, Anda mungkin dapat meminta untuk dibayar dengan Bitcoin. Metode-metode ini memungkinkan Anda memperoleh Bitcoin tanpa KYC.
 
 
@@ -2434,7 +2434,7 @@ Stacker membutuhkan pengaturan Wallet yang menyeimbangkan kemudahan penggunaan d
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
 
@@ -2442,7 +2442,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503ad
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-fc1b553f-5298-4e75-9f34-8af19025f1b1
+https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
@@ -2666,7 +2666,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
@@ -2680,7 +2680,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-fc1b553f-5298-4e75-9f34-8af19025f1b1
+https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 

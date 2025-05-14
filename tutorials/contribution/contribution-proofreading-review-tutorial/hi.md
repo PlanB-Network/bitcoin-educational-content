@@ -49,7 +49,7 @@ Plan ₿ Network मूल रूप से बहुभाषी है, क्
 हालाँकि, यदि आप Git और GitHub से परिचित नहीं हैं और अधिक जानना चाहते हैं, तो आप इन उपकरणों पर हमारा परिचयात्मक लेख देख सकते हैं:
 
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. एक खाता बनाएँ
 

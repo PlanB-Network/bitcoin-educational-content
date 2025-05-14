@@ -49,7 +49,7 @@ Nie musisz być ekspertem GitHub, aby recenzować zawartość. Chociaż zawsze l
 Jeśli jednak nie jesteś zaznajomiony z Git i GitHub i chcesz dowiedzieć się więcej, możesz zapoznać się z naszym artykułem wprowadzającym na temat tych narzędzi:
 
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Utwórz konto
 

@@ -1,0 +1,2 @@
+description: |
+  Solution VPN sans configuration reposant sur WireGuard, qui permet de créer en quelques minutes un réseau privé chiffré entre vos appareils, où qu’ils soient. Facile à déployer, compatible avec toutes les plateformes, Tailscale offre un accès sécurisé de type zero-trust, sans ouverture de ports ni complexité réseau.

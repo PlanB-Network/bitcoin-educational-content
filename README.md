@@ -10,8 +10,8 @@
 
 <div align="center">
   <h1 style="margin-top: 0;"></h1>
-  <a href="https://planb.network/en/node-network">
-    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20Become a P₿N Node&color=ff5c00">
+    <a href="https://planb.network/">
+    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20Website&color=ff5c00">
   </a>
   <a href="https://twitter.com/planb_network">
     <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/planb_network">
@@ -19,13 +19,10 @@
   <a href="https://t.me/PlanBNetwork_ContentBuilder">
     <img alt="Static Badge" src="https://img.shields.io/badge/community-telegram-blue?logo=telegram">
   </a>
-  <a href="https://planb.network">
-    <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20P₿N Platform&color=ff5c00">
-  </a>
   <a href="https://weblate.planb.network/engage/planb-network-website/">
     <img src="https://weblate.planb.network/widget/planb-network-website/website-elements/svg-badge.svg" alt="Translation status" />
   </a>
-  <a href="https://github.com/PlanB-Network/bitcoin-educational-content">
+  <a href="https://github.com/PlanB-Network/bitcoin-educational-content/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/DecouvreBitcoin/sovereign-university-data?label=Contributors&color=ff5c00" alt="Contributors">
   </a>
 </div>

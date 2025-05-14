@@ -4207,16 +4207,17 @@ Celem BIP156 jest Address tego problemu. Aby to zrobić, Dandelion wprowadza dod
 ![BTC204](assets/fr/205.webp)
 
 
-Transakcja jest następnie dystrybuowana do całej sieci w fazie "kapitulacji".
+Transakcja jest następnie rozgłaszana do całej sieci w fazie „Fluff”.
+
 
 
 ![BTC204](assets/fr/206.webp)
 
 
-Łodyga i główka kwiatu są odniesieniami do zachowania propagacji transakcji w sieci, która przypomina kształt mniszka lekarskiego.
+Łodyga i faza „Fluff” odnoszą się do zachowania propagacji transakcji w sieci, które przypomina kształt i rozwój mniszka lekarskiego („Dandelion” po angielsku).
 
 
-W ten sposób węzły szpiegowskie mogą potencjalnie wyśledzić transakcję z powrotem do węzła, który uruchomił fazę kapitulacji (masowa transmisja), ale ten węzeł nie jest tym, który jako pierwszy nadał transakcję, ponieważ otrzymał ją od ostatniego węzła na pniu. Jeśli węzły szpiegowskie nie mogą wyśledzić pnia, nie mogą również zidentyfikować węzła źródłowego.
+Węzły szpiegowskie mogą zatem potencjalnie prześledzić transakcję do węzła, który zainicjował fazę „Fluff” (masowe rozgłaszanie), ale ten węzeł nie jest tym, który jako pierwszy ją rozgłosił, ponieważ otrzymał ją od ostatniego węzła łodygi. Jeśli węzły szpiegowskie nie mogą prześledzić łodygi, nie mogą również zidentyfikować węzła źródłowego.
 
 
 ![BTC204](assets/fr/207.webp)

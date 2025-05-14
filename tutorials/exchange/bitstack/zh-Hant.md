@@ -271,7 +271,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 ![Image](assets/fr/32.webp)
 
 
-如果您不熟悉自保管 Wallet 的運作方式，我們提供大部分解決方案的教學[Plan ₿ Network 上的「*Wallet*」部分](https://planb.network/tutorials/Wallet)。
+如果您不熟悉自保管 Wallet 的運作方式，我們提供大部分解決方案的教學[Plan ₿ Network 上的「*Wallet*」部分](https://planb.network/tutorials/wallet)。
 
 
 ## 銷售 Bitcoin

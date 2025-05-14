@@ -1,0 +1,247 @@
+---
+name: 奧爾維德
+description: 每個人的私人訊息
+---
+![cover](assets/cover.webp)
+
+
+
+Olvid 是於 2019 年推出的法國即時通訊應用程式，旨在提供高度安全性，同時不犧牲隱私。與 WhatsApp 或 Signal 不同，Olvid 在註冊時不會要求提供任何個人資料：沒有電話號碼、沒有電子郵件，什麼都沒有。使用者之間的識別是基於鑰匙的 Exchange，沒有目錄伺服器或共用的 Address 書。
+
+
+
+所有訊息都使用原始加密通訊協定進行端對端加密，其設計也是為了保護元資料：沒有人知道您在和誰通話，或在何時通話。用戶端程式碼是開放原始碼，但用於路由加密訊息的中央伺服器仍是專屬的，並託管於 AWS。
+
+
+
+Olvid 提供免費版本和每月 4.99 歐元的訂閱版。免費版提供完整的功能，除了撥打音訊和視訊通話 (雖然可以接聽)，而且不允許在多部裝置上同步帳號。因此，如果您打算只使用智慧型手機，而且不需要撥打電話，Olvid 是非常好的解決方案。
+
+
+
+Olvid 已通過 ANSSI（法國網路安全機構）的認證。此應用程式是傳統訊息服務 (WhatsApp、Facebook Messenger、微信...) 的絕佳替代方案，適合追求隱私，同時保留簡單易用性的使用者。
+
+
+
+| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
+| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
+| **Olvid**                | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2019**              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
+| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
+*E2EE = 端對端加密 *
+
+
+
+## 安裝 Olvid 應用程式
+
+
+
+Olvid 適用於所有平台。您可以直接從手機的應用程式商店下載應用程式：
+
+
+
+
+- [Google Play](https://play.google.com/store/apps/details?id=io.olvid.messenger)；
+- [App Store](https://apps.apple.com/app/olvid/id1414865219)；
+
+
+
+在 Android 上，也可以 [透過 APK 安裝](https://www.olvid.io/download/)。
+
+
+
+在本教程中，我們將專注於行動版本，但請注意 [電腦版本也有提供](https://www.olvid.io/download/) (MacOS, Linux and Windows)。如果您選擇付費版本，就能在多部裝置上同步您的帳戶。
+
+
+
+![Image](assets/fr/01.webp)
+
+
+
+## 在 Olvid 上建立帳戶
+
+
+
+第一次啟動應用程式時，請按一下「*我是新使用者*」按鈕。
+
+
+
+![Image](assets/fr/02.webp)
+
+
+
+選擇暱稱或輸入您的名字和姓氏。
+
+
+
+![Image](assets/fr/03.webp)
+
+
+
+新增個人檔案照片。
+
+
+
+![Image](assets/fr/04.webp)
+
+
+
+您的帳戶已建立。
+
+
+
+![Image](assets/fr/05.webp)
+
+
+
+為了防止任何 Olvid 帳戶存取權的遺失，我們建議您設定自動備份。若要執行此操作，請按一下 Interface 右上方的三個圓點，開啟設定，然後選擇「*設定*」。
+
+
+
+![Image](assets/fr/06.webp)
+
+
+
+移至「*儲存按鍵和連絡人」功能表。
+
+
+
+![Image](assets/fr/07.webp)
+
+
+
+然後按一下「*generate a backup key*」。此密鑰將加密您的備份。如果您需要在其他裝置上復原您的帳戶，但已無法存取，您將需要備份和此金鑰來解密。
+
+
+
+![Image](assets/fr/08.webp)
+
+
+
+請將這把鑰匙存放在安全的地方。您也可以複製一份紙本。
+
+
+
+![Image](assets/fr/09.webp)
+
+
+
+然後，您可以選擇建立本機備份或在雲端服務上建立自動備份。強烈建議使用第二個選項，以確保在任何情況下都能存取您的 Olvid 帳戶，即使遺失手機也沒問題。
+
+
+
+![Image](assets/fr/10.webp)
+
+
+
+確定已勾選「*啟用自動備份*」選項。
+
+
+
+![Image](assets/fr/11.webp)
+
+
+
+您也可以探索其他可用的設定，依您的需求自訂應用程式。
+
+
+
+![Image](assets/fr/12.webp)
+
+
+
+## 使用 Olvid 傳送訊息
+
+
+
+若要傳送訊息，您必須先新增連絡人。從首頁按一下藍色的「*+*」按鈕。
+
+
+
+![Image](assets/fr/13.webp)
+
+
+
+Olvid 會顯示您的使用者 ID。然後，您可以將此 ID 傳送給希望與您溝通的人，讓他們可以將您加為連絡人。
+
+
+
+若要新增一個人，請用相機掃描他們的 ID，或按一下右上角的三個小圓點，手動貼入。
+
+
+
+![Image](assets/fr/14.webp)
+
+
+
+ID 掃描完成後，您可以讓連絡人掃描顯示的 QR 代碼，或按一下「*遠端連絡人*」，傳送遠端連線要求給他們。
+
+
+
+![Image](assets/fr/15.webp)
+
+
+
+連接現已建立。
+
+
+
+![Image](assets/fr/16.webp)
+
+
+
+現在您可以開始與您的通信員交換訊息和其他內容！
+
+
+
+![Image](assets/fr/17.webp)
+
+
+
+從首頁，您可以找到您所有的對話。
+
+
+
+![Image](assets/fr/18.webp)
+
+
+
+第二個標籤包含您的所有連絡人。
+
+
+
+![Image](assets/fr/19.webp)
+
+
+
+您也可以建立群組討論。
+
+
+
+![Image](assets/fr/20.webp)
+
+
+
+恭喜您，現在您已經能夠快速使用 Olvid 訊息，這是 WathsApp 的絕佳替代方案！如果您覺得本教程有用，請在下方留下 Green 拇指，我將不勝感激。請隨時在您的社交網路分享本教學。非常感謝
+
+
+
+我也推薦這篇教學，其中我介紹了 Proton Mail，一個比 Gmail 更能保護隱私的替代品：
+
+
+
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

@@ -96,6 +96,26 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 23.41
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.9
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.41
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.41
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.24
 tags:
   - business
   - adoption

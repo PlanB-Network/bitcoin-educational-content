@@ -84,7 +84,7 @@ Sentinel 的獨特缺點在於該應用程式僅適用於 Android，且不支援
 Dojo 由 Samourai 團隊開發，是完整的 Bitcoin 節點版本，可單獨安裝，或一鍵加入節點盒中解決方案，例如 [Umbrel](https://umbrel.com/)、[RoninDojo](https://ronindojo.io/)。
 
 
-[**-> 探索如何在 Raspberry Pi 上安裝 RoninDojo v2.**](https://planb.network/tutorials/node/Bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> 探索如何在 Raspberry Pi 上安裝 RoninDojo v2.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
 如果您有自己的 Dojo，您可以在此階段連接它。如此一來，您在檢查 Bitcoin 網路交易資訊時，將享有最高等級的隱私權。

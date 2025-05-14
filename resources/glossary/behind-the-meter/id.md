@@ -1,5 +1,6 @@
 ---
-term: DI BELAKANG METERAN
+term: BEHIND THE METER
+
 ---
 
-Dalam konteks Bitcoin Mining, mengacu pada listrik yang dihasilkan dan didistribusikan langsung ke ladang, tanpa melewati jaringan listrik umum.
+Dalam konteks penambangan Bitcoin, _behind the meter_ mengacu pada listrik yang dihasilkan dan didistribusikan langsung ke infrastruktur penambangan tanpa melewati jaringan listrik umum.

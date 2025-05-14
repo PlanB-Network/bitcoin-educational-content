@@ -9,7 +9,7 @@ objectives:
   - Memahami penggunaan teoretis Jaringan Lightning.
 ---
 
-# Perjalanan ke Lapisan Kedua Bitcoin
+# Perjalanan ke Lapisan Kedua Bitcoin 
 
 Menyelami inti dari Jaringan Lightning, sebuah sistem esensial untuk masa depan transaksi Bitcoin. LNP201 adalah kursus teoretis tentang cara kerja teknis Lightning. Ini mengungkap fondasi dan mekanisme dari jaringan lapisan kedua ini, yang dirancang untuk membuat pembayaran Bitcoin cepat, ekonomis, dan dapat diskalakan.
 

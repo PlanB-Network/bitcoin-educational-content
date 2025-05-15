@@ -42,7 +42,7 @@ Eventuali domande, richieste di ulteriori informazioni o dubbi sulle risposte ai
 
 ![Video](https://youtu.be/ns-JLGdkNig?si=fmWye_boRSvVF1Bt)
 
-Elements è una ["sidechain"](https://planb.network/resources/glossary/sidechain) collegata a una piattaforma blockchain, che consente di accedere a potenti funzionalità sviluppate dai membri della comunità, come le "Confidential Transaction" e le "Issued Assets".
+Elements è una ["sidechain"](https://planb.network/resources/glossary/sidechain) collegata a una piattaforma blockchain, che consente di accedere a potenti funzionalità sviluppate dai membri della comunità, come le ["Confidential Transaction"](https://elementsproject.org/features/confidential-transactions) e le ["Issued Assets"](https://elementsproject.org/features#issuedassets).
 
 Elements è, nella sua essenza, un protocollo che consente di formare il consenso intorno alla storia delle transazioni e alle regole che governano il trasferimento e la creazione di asset memorizzati in un libro mastro distribuito della blockchain.
 
@@ -131,7 +131,7 @@ Poiché la generazione dei blocchi di una _"Strong Federation"_ non è probabili
 
 Se gestita come sidechain, alcuni membri della Strong Federation hanno un ruolo aggiuntivo da svolgere, quello degli "Watchmen". I Watchmen sono responsabili del trasferimento di asset in entrata e in uscita da una sidechain Elements, processi noti come `Peg-In` (Ancoraggio in Ingresso) e `Peg-Out` (Ancoraggio in Uscita).
 
-Affinché una sidechain operi in modo affidabile, deve consentire ai partecipanti di verificare che la fornitura di asset sia controllata e verificabile. Una sidechain di Elements utilizza un _"Federated 2-Way Peg"_ (Ancoraggio Federato a due Vie) per consentire il trasferimento bidirezionale di asset all'interno e all'esterno di una blockchain di Elements. Questo soddisfa i requisiti di emissione e trasferimento intercatena dimostrabili.
+Affinché una sidechain operi in modo affidabile, deve consentire ai partecipanti di verificare che la fornitura di asset sia controllata e verificabile. Una sidechain di Elements utilizza un _"Federated 2-Way Peg"_ (Ancoraggio Federato bidirezionale) per consentire il trasferimento bidirezionale di asset all'interno e all'esterno di una blockchain di Elements. Questo soddisfa i requisiti di emissione e trasferimento intercatena dimostrabili.
 
 La funzione "Federated 2-Way Peg" (Ancoraggio Federato a due Vie) consente a un asset di essere interoperabile con altre blockchain e rappresentativo dell'asset nativo di un'altra blockchain. Agganciando la propria blockchain a un'altra, è possibile estendere le capacità della mainchain (catena principale) e superare alcune delle sue limitazioni intrinseche.
 
@@ -181,7 +181,7 @@ Alcuni elementi possono essere modificati utilizzando questi parametri:
 - La posizione di archiviazione dei file di dati della blockchain.
 - Le credenziali RPC utilizzate per connettersi a un nodo Bitcoin.
 - La soglia `n di m` da rispettare e le chiavi pubbliche valide che possono firmare i blocchi.
-- Lo script che deve essere soddisfatto per trasferire le asset all'interno e all'esterno di una sidechain.
+- Lo script che deve essere soddisfatto per trasferire gli asset all'interno e all'esterno di una sidechain.
 - Se connettersi o meno a un nodo Bitcoin come sidechain.
 
 Molti di questi fanno parte delle regole di consenso della rete, quindi è importante che siano applicati a tutti i nodi all'avvio. Alcune possono essere modificate dopo l'inizializzazione di una catena, mentre altre devono essere corrette dopo che sono state usate per inizializzare una catena.
@@ -251,9 +251,9 @@ e2-cli getaddressinfo <address>
 
 Si può notare che c'è una proprietà confidential_key che indica che si tratta di un  "Confidential Address" (Indirizzo Riservato).
 
-La confidential_key è la public blinding key (chiave pubblica offuscata), che viene aggiunta al Confidential Address stesso. Questo è il motivo per cui un Confidential Address è così lungo.
+La confidential_key è la blinding key pubblica, che viene aggiunta al Confidential Address stesso. Questo è il motivo per cui un Confidential Address è così lungo.
 
-Ha anche un "unconfidential address" (indirizzo non riservato) associato. Se si desidera utilizzare transazioni regolari, non riservate, all'interno di Elements, le asset devono essere inviate a questo indirizzo invece che a quello con il prefisso lq1.
+Ha anche un "unconfidential address" associato. Se si desidera utilizzare transazioni regolari, non riservate, all'interno di Elements, gli asset devono essere inviati a questo indirizzo invece che a quello con il prefisso lq1.
 
 Ora possiamo fare in modo che e2 invii dei fondi all'indirizzo che ha generato. In seguito si dimostrerà che e1, non essendo una delle parti coinvolte nella transazione, non sarà in grado di visualizzare i dettagli della transazione.
 
@@ -285,9 +285,9 @@ Questo restituisce i dettagli grezzi della transazione. Se si guarda alla sezion
 
 ### Blinding Keys
 
-Le prime due sezioni di vout mostrano dei "blinded ranges" (intervalli nascosti) di valori e di commitment data, i quali fungono da prova dell'importo effettivo e del tipo di asset transata.
+Le prime due sezioni di vout mostrano dei "blinded ranges" (intervalli nascosti) di valori e di commitment data, i quali fungono da prova dell'importo effettivo e del tipo di asset transato.
 
-Anche se importassimo la chiave privata di e2 nel wallet di e1, quest'ultimo non sarebbe comunque in grado di vedere gli importi e il tipo di asset transate, perché non è ancora a conoscenza della chiave di blocco utilizzata da e2. Lo dimostreremo importando la chiave privata utilizzata dal wallet di e2 in quello di e1. Per prima cosa dobbiamo esportare la chiave da e2.
+Anche se importassimo la chiave privata di e2 nel wallet di e1, quest'ultimo non sarebbe comunque in grado di vedere gli importi e il tipo di asset transato, perché non è ancora a conoscenza della chiave di blocco utilizzata da e2. Lo dimostreremo importando la chiave privata utilizzata dal wallet di e2 in quello di e1. Per prima cosa dobbiamo esportare la chiave da e2.
 
 ```
 e2-cli dumpprivkey <address>
@@ -327,7 +327,7 @@ e1-cli gettransaction <txid>
 
 Si vede che con l'importazione della blinding key è possibile visualizzare il valore effettivo di 1 all'interno della transazione.
 
-In questa sezione abbiamo visto che l'uso di una blinding key nasconde l'importo e il tipo di asset di una transazione e che, importando la giusta blinding key, è possibile rivelare tali valori. Nell'uso pratico, una blinding key può essere fornita, ad esempio, a un revisore dei conti, nel caso in cui sia necessario verificare l'importo e il tipo di asset detenute da una parte. La funzione Confidential Transactions di Elements consente anche di eseguire "range proofs" (prove di intervallo). Le prove di intervallo possono dimostrare che la quantità di un'asset è detenuta all'interno di un determinato intervallo, senza la necessità di esporre l'importo effettivo.
+In questa sezione abbiamo visto che l'uso di una blinding key nasconde l'importo e il tipo di asset di una transazione e che, importando la giusta blinding key, è possibile rivelare tali valori. Nell'uso pratico, una blinding key può essere fornita, ad esempio, a un revisore dei conti, nel caso in cui sia necessario verificare l'importo e il tipo di asset detenuto da una parte. La funzione Confidential Transactions di Elements consente anche di eseguire "range proofs" (prove di intervallo). Le prove di intervallo possono dimostrare che la quantità di un'asset è detenuta all'interno di un determinato intervallo, senza la necessità di esporre l'importo effettivo.
 
 Abbiamo anche visto che le Confidential Transactions sono facoltative, ma vengono attivate di default quando viene generato un nuovo indirizzo.
 
@@ -511,7 +511,7 @@ e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <name-of-the-n
 
 Dietro le quinte, Elements mappa le etichette locali in valori esadecimali per semplificare l'uso delle risorse emesse.
 
-In questa sezione abbiamo visto come emettere ed etichettare le asset. Nella prossima sezione vedremo come riemettere e distruggere le quantità di un'asset emessa.
+In questa sezione abbiamo visto come emettere ed etichettare gli asset. Nella prossima sezione vedremo come riemettere e distruggere le quantità di un'asset emessa.
 
 ## Riemissione di Asset (asset)
 
@@ -521,7 +521,7 @@ In questa sezione abbiamo visto come emettere ed etichettare le asset. Nella pro
 
 In questa sezione imparerete come emettere una quantità maggiore di un'asset già emessa e come distruggere una determinata quantità di un'asset emesso.
 
-La necessità di riemettere (creare di più) un'asset o di distruggerne una quantità è probabile che si verifichi quando l'asset rappresenta qualcosa che non ha una fornitura fissa. Questo potrebbe valere, ad esempio, per le asset che rappresentano l'oro custodito in un caveau; man mano che le unità d'oro entrano ed escono dal caveau, l'asset che rappresenta la fornitura del caveau deve essere regolata di conseguenza.
+La necessità di riemettere (creare di più) un'asset o di distruggerne una quantità è probabile che si verifichi quando l'asset rappresenta qualcosa che non ha una fornitura fissa. Questo potrebbe valere, ad esempio, per gli asset che rappresentano l'oro custodito in un caveau; man mano che le unità d'oro entrano ed escono dal caveau, l'asset che rappresenta la fornitura del caveau deve essere regolata di conseguenza.
 
 La riemissione di un importo di un'asset richiede la proprietà del token associato che è stato creato insieme all'asset quando è stata inizialmente emessa.
 
@@ -647,7 +647,7 @@ Controllare il risultato della riemissione.
 e2-cli getwalletinfo
 ```
 
-Si può notare che e2 ora detiene l'importo riemesso nel suo wallet e che la RIT stessa non viene consumata nel processo di riemissione delle asset.
+Si può notare che e2 ora detiene l'importo riemesso nel suo wallet e che la RIT stessa non viene consumata nel processo di riemissione delgli asset.
 
 Distruggere una quantità di un'asset è qualcosa che può fare chiunque detenga almeno la quantità che viene distrutta, non è governato dal token di riemissione.
 

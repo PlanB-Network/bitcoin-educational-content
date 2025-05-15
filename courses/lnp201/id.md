@@ -112,7 +112,7 @@ Inilah akhir dari bab pertama ini, di mana kita telah memahami dasar dari Jaring
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 :::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
-Bab ini cukup spesial karena tidak akan langsung didedikasikan untuk Lightning, melainkan untuk Bitcoin. Memang, Lightning Network adalah lapisan di atas Bitcoin. Oleh karena itu, sangat penting untuk memahami beberapa konsep fundamental Bitcoin untuk benar-benar mengerti cara kerja Lightning di bab-bab selanjutnya. Dalam bab ini, kita akan mengulas dasar-dasar alamat penerima Bitcoin, UTXOs, serta cara kerja transaksi Bitcoin.
+Bab ini cukup istimewa karena tidak secara langsung didedikasikan untuk Lightning, melainkan untuk Bitcoin. Memang, Jaringan Lightning adalah lapisan di atasnya Bitcoin. Oleh karena itu, sangat penting untuk memahami beberapa konsep dasar Bitcoin agar bisa mengerti cara kerja Lightning di bab-bab selanjutnya. Dalam bab ini, kita akan mengulas dasar-dasar alamat penerima Bitcoin, UTXOs, serta cara kerja transaksi Bitcoin.
 
 ### Alamat Bitcoin, Kunci Privat, dan Kunci Publik
 

@@ -1,3 +1,4 @@
+id: 9bb68739-46ef-4a74-82b9-73f04652e956
 name: Peter St Onge, Ph.D Podcast
 host: Peter St Onge
 language: en
@@ -6,8 +7,9 @@ links:
   website: https://peterstonge.com/
 description: |
   Interpreting news on the economy in plain English without the jargon and double-speak to show you what they’re trying to do to you.
+contributor_names:
+  - PaoloFoti
 tags:
-  - regulation
+  - easy-explain
+  - high-level
   - finance
-contributors:
-  - hunt-wood

@@ -1,0 +1,9 @@
+question: ¿Cómo puede implantarse BTC Pay Server en un entorno profesional?
+answer: En las instalaciones o mediante alojamiento en la nube
+wrong_answers:
+  - Exclusivamente en dispositivos de hardware dedicados
+  - A través de un servicio de terceros totalmente externalizado
+  - Como aplicación móvil
+explanation: |
+  La flexibilidad de implantar BTC Pay Server en las instalaciones o en la nube permite a las empresas elegir la configuración que mejor se adapte a sus necesidades operativas.
+reviewed: false

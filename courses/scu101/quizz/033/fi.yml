@@ -1,5 +1,4 @@
-question: Mikä on mahdollinen haittapuoli luodessa pilvi varmuuskopiota käyttäen palveluita
-  kuten ProtonMail Drive, Sync tai Google Drive?
+question: Mikä on mahdollinen haittapuoli luodessa pilvi varmuuskopiota käyttäen palveluita kuten ProtonMail Drive, Sync tai Google Drive?
 answer: Tietosi ovat mahdollisesti internetissä ja luotetun kolmannen osapuolen hallussa.
 wrong_answers:
   - Nämä palvelut eivät välttämättä ole luotettavia tietojen varmuuskopiointiin.

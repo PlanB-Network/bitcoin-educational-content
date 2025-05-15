@@ -1,0 +1,9 @@
+question: Je, kipeo kinachaguliwaje katika mfumo wa siri wa RSA?
+answer: Lazima iwe nambari kamili kuliko 2, coprime na φ(N)
+wrong_answers:
+  - Ni lazima iwe nambari kuu chini ya N
+  - Inachaguliwa kwa nasibu bila kizuizi
+  - Lazima iwe sawa na φ(N)
+explanation: |
+  Katika RSA, kipeo e huchaguliwa kiasi kwamba ni kikubwa kuliko 2 na coprime na φ(N), ambayo inahakikisha usalama wa shughuli.
+reviewed: false

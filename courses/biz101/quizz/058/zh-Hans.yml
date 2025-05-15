@@ -1,0 +1,9 @@
+question: 在 Starter 配置文件中使用托管钱包有什么好处？
+answer: 减少技术责任
+wrong_answers:
+  - 加强对私人密钥的控制
+  - 完全自主交易，提高隐私性
+  - 取消交易费
+explanation: |
+  托管钱包管理私钥，减轻用户的技术负担。
+reviewed: false

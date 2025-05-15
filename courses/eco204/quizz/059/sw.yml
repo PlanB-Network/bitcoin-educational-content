@@ -1,0 +1,11 @@
+question: Layer ya kwanza ya pesa katika karne ya 13 Italia ilikuwa nini?
+answer: Dhahabu, iliyowakilishwa na florin
+wrong_answers:
+  - Miswada ya Exchange
+  - Hati za ahadi
+  - Sarafu za fedha
+explanation: |
+  Katika karne ya 13 Italia, haswa Florence, Layer ya kwanza ya pesa
+  ilikuwa dhahabu halisi, iliyowakilishwa na florin. Wafua dhahabu walitoa bili za Exchange in
+  Exchange kwa florins zilizowekwa, ambayo iliunda Layer ya pili ya pesa.
+reviewed: false

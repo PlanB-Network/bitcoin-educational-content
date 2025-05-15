@@ -1,0 +1,9 @@
+question: Zašto ruter mora održavati dobru distribuciju likvidnosti u svojim kanalima?
+answer: Da maksimizuje broj plaćanja koja može usmeriti
+wrong_answers:
+  - Da se smanje naknade za transakcije
+  - Da se izbegne otvaranje novih kanala
+  - Da se ograniči upotreba Bitcoin Blockchain
+explanation: |
+  Ruter ima za cilj da usmeri što više uplata kako bi prikupio naknade, što zahteva dobru raspodelu likvidnosti na obe strane kanala kako bi se osigurala kapacitet usmeravanja.
+reviewed: false

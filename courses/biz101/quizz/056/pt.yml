@@ -1,0 +1,9 @@
+question: Como é que uma carteira sem custódia difere em termos de funcionalidade para os utilizadores Starter?
+answer: Dá ao proprietário da empresa o controlo total das chaves privadas
+wrong_answers:
+  - Pode converter automaticamente bitcoins em moeda fiduciária
+  - Não requer procedimentos de salvaguarda ou medidas de segurança
+  - Gere todas as transacções através de um serviço de terceiros
+explanation: |
+  As carteiras sem custódia colocam o controlo das chaves privadas e das transacções inteiramente nas mãos do utilizador.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What enables real-time data sync between Enterprise Bitcoin systems and ERP software?
+answer: APIs
+wrong_answers:
+  - CSV files
+  - Batch uploads
+  - Email reports
+explanation: |
+  APIs allow continuous, real-time integration.
+reviewed: false

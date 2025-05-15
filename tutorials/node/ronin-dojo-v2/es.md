@@ -211,7 +211,7 @@ Una vez en la página de inicio de RoninUI, se te pedirá que comiences la confi
 
 ![lets start](assets/notext/25.webp)
 
-En esta etapa, RoninUI te presenta tu contraseña `root`. Es esencial mantenerla segura. Puedes optar por una copia de seguridad física, en papel, o guardarla en un [gestor de contraseñas](https://planb.network/courses/secu101/4/2).
+En esta etapa, RoninUI te presenta tu contraseña `root`. Es esencial mantenerla segura. Puedes optar por una copia de seguridad física, en papel, o guardarla en un [gestor de contraseñas](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -326,6 +326,7 @@ Un tutorial detallado está en preparación para guiarte paso a paso a través d
 Para un entendimiento más profundo del coinjoin y su uso en Bitcoin, también te invito a consultar este otro artículo: Entendiendo y usando coinjoin en Bitcoin, donde detallo todo lo que necesitas saber sobre esta técnica.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ### Usando Whirlpool Stat Tool (WST)
 
 Después de realizar coinjoins con Whirlpool, es útil evaluar precisamente el nivel de privacidad alcanzado para tus UTXOs mezclados. Para hacer esto, puedes usar la herramienta Python *Whirlpool Stat Tool*. Esta herramienta te permite medir tanto los puntajes prospectivos como retrospectivos de tus UTXOs, mientras analiza su tasa de difusión en el pool.

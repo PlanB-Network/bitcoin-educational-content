@@ -1,11 +1,14 @@
 ---
-term: SEMENTE
-
+term: GRÃOS
 ---
-No contexto específico de uma carteira Bitcoin determinística hierárquica, uma semente é um pedaço de informação de 512 bits derivado da aleatoriedade. Ela é usada para gerar deterministicamente e hierarquicamente um conjunto de chaves privadas, e suas correspondentes chaves públicas, para uma carteira Bitcoin. A semente é frequentemente confundida com a própria frase de recuperação. No entanto, são informações diferentes. A semente é obtida através da aplicação da função `PBKDF2` à frase mnemónica e a qualquer frase-chave potencial.
 
-A semente foi inventada com a introdução do BIP32, que define as bases da carteira determinística hierárquica. Nesta norma, a semente era de 128 bits. Isto permite a derivação de todas as chaves numa carteira a partir de um único pedaço de informação, ao contrário das carteiras JBOK (*Just a Bunch Of Keys*), que requerem novas cópias de segurança para cada chave gerada. O BIP39 introduziu mais tarde uma codificação desta semente para simplificar a sua leitura por humanos. Esta codificação é feita sob a forma de uma frase, normalmente designada por frase mnemónica ou frase de recuperação. Esta norma ajuda a evitar erros na cópia de segurança da semente, nomeadamente através da utilização de uma soma de controlo.
+No contexto específico de uma carteira determinística hierárquica Bitcoin, um seed é um pedaço de informação de 512 bits derivado de um evento aleatório. É utilizado para determinar de forma determinística e hierárquica um conjunto de chaves privadas, e as suas correspondentes chaves públicas, para uma carteira Bitcoin. O seed é frequentemente confundido com a própria frase de recuperação. Mas não é a mesma coisa. O seed é obtido pela aplicação da função `PBKDF2` à frase Mnemonic e a qualquer passphrase.
 
-Em termos mais gerais, na criptografia, uma semente é um dado aleatório utilizado como ponto de partida para gerar chaves criptográficas, cifras ou sequências pseudo-aleatórias. A qualidade e a segurança de muitos processos criptográficos dependem da aleatoriedade e da confidencialidade da semente.
 
-> ► *A tradução inglesa de "graine" é "seed". Em francês, muitos utilizam diretamente a palavra inglesa para se referirem à semente.*
+O seed foi inventado com o BIP32, que definiu os fundamentos da carteira determinística hierárquica. Nesta norma, o seed media 128 bits. Isto permite que todas as chaves de um portfólio sejam derivadas de uma única informação, ao contrário dos portfólios JBOK (*Just a Bunch Of Keys*), que requerem novos backups para cada chave gerada. A BIP39 propôs então uma codificação deste seed, para simplificar a sua leitura por humanos. Esta codificação assume a forma de uma frase, geralmente designada por frase Mnemonic ou frase de recuperação. Esta norma evita erros aquando da gravação do seed, graças, nomeadamente, à utilização de uma soma de controlo.
+
+
+Fora do contexto do Bitcoin, na criptografia em geral, um seed é um valor inicial utilizado para as chaves criptográficas generate ou, mais genericamente, qualquer tipo de dados produzidos por um gerador de números pseudo-aleatórios. Este valor inicial deve ser aleatório e imprevisível para garantir a segurança do sistema criptográfico. De facto, o seed introduz entropia no sistema, mas o processo de geração que se segue é determinístico.
+
+
+> ► *Na linguagem comum, a maioria dos bitcoiners referem-se à frase Mnemonic quando falam da "seed", e não ao estado de derivação intermédio que se situa entre a frase Mnemonic e a chave-mestra*

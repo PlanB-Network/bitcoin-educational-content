@@ -1,0 +1,10 @@
+question: Je, tunawezaje kupunguza athari za COIH wakati wa kuunganisha UTXO?
+answer: Kwa kuunganisha UTXO pekee kutoka chanzo kimoja.
+wrong_answers:
+  - Kwa kutuma UTXO kwa anwani za watu wengine.
+  - Kwa kuchagua kwa nasibu UTXO ili kuepuka mifumo inayotambulika.
+  - Kwa kuunganisha UTXO wakati wa shughuli za chini.
+explanation: |
+  Ikiwa unajikuta unahitaji kuunganisha bitcoins zako, weka kipaumbele kuunganisha UTXO kutoka chanzo sawa kwanza.
+  
+reviewed: false

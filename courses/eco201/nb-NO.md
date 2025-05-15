@@ -16,27 +16,36 @@ Denne skolen har allerede flere århundrer bak seg og har et helt panorama av fo
 
 +++
 
-# Introduksjon til ECON
+# Introduksjon
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Introduksjon
+## Kursoversikt
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Hallo alle sammen og velkommen til Econ 201: Introduksjon til Østerriksk Økonomi.
+Velkommen til kurset ECO201!
 
-I dette kurset tilbudt av Théo Mogenet, vil du oppdage denne grenen av økonomi som skiller seg sterkt fra Keynesiansk doktrine. Til nå kan du ha lært at produksjon og håndtering av penger var sentralbankenes ansvar, med ideen om at pengetrykking og utgifter fremmer vekst. Det finnes imidlertid en annen skole innen økonomisk tenkning: Østerriksk økonomi. Med over 200 års forskning og utvikling, filosofiske refleksjoner og skrifter av anerkjente forfattere, legger denne tilnærmingen vekt på en mer nøktern visjon av vekst og menneskelig rasjonalitet i vår økonomi.
+I dette kurset, som tilbys av Théo Mogenet, vil du oppdage en økonomisk skole som fundamentalt skiller seg fra den dominerende keynesianske doktrinen. Så langt har du kanskje lært at pengestyring og økonomisk politikk primært er sentralbankenes ansvar, med ideen om at pengetrykking og offentlige utgifter stimulerer økonomisk vekst. Det finnes imidlertid en mer sammenhengende alternativ tilnærming: **Den østerrikske økonomiske skolen**.
 
-I virkeligheten er økonomi et ekstremt sosialt og komplekst felt, sammensatt av en myriade av sammenkoblede små aktører som sammen bidrar til å danne en sammenhengende helhet. I stedet for å nærme seg denne disiplinen gjennom matematiske ligninger, må vi forstå den fra perspektivet av menneskelig logikk og sosiologi. I dette kurset vil vi utforske de grunnleggende konseptene i østerriksk økonomi. Din instruktør, Théo Mogenet, er en lidenskapelig og kompetent professor i østerriksk økonomi.
+Med over to århundrer med forskning, filosofiske refleksjoner og skrifter fra anerkjente forfattere som Carl Menger, Ludwig von Mises og Friedrich Hayek, tar denne skolen et annet perspektiv, som favoriserer en desentralisert tilnærming til økonomien, basert på individet og menneskelig rasjonalitet.
 
-For å starte, tilbyr vi deg en bonusvideo som vil forklare hvordan vårt nåværende finanssystem fungerer. Du vil oppdage hvordan kommersielle banker og sentralbanker samhandler og driver økonomien. Vi vil adressere de store aktørene i vår finansielle verden og hvordan denne sentraliseringen av makt blant visse økonomiske institusjoner kan føre til misbruk og finanskriser.
+Økonomi er i realiteten et dypt sosialt og komplekst felt, bestående av mange uavhengige aktører som fritt samhandler for å danne en helhet. For å forstå dette dynamiske systemet, foretrekker den østerrikske økonomiske skolen kvalitativ analyse basert på menneskelig logikk, sosiologi og studier av markedsprosesser, i stedet for rigide matematiske ligninger.
 
-I den andre delen av dette kurset vil vi undersøke forskjellen mellom Keynesianismen og østerriksk økonomi, utforske deres respektive skoler, refleksjonsmetoder og verktøy de bruker for å etablere økonomisk sannhet. Vi vil også studere dannelsen av økonomiske kriser. Skyldes det menneskelig inkompetanse, markedmanipulasjon eller kollektiv eufori blant folk? Vi vil utforske hvordan våre sykluser av vekst, nedgang, resesjon og gullalder skapes av menneskelige følelser.
+I dette kurset vil du utforske de grunnleggende prinsippene til denne tankegangen. Théo Mogenet, din instruktør, er en lidenskapelig tilhenger av denne økonomiske tilnærmingen og vil pedagogisk lede deg gjennom de sentrale konseptene i østerriksk økonomi, og vise hvordan disse ideene særlig gjelder for Bitcoin-verdenen.
 
-Dette kurset vil være en kombinasjon av økonomi og filosofi, med en åpen diskusjon mellom Théo og meg selv. Hvis du har noen spørsmål i løpet av dette kurset, nøl ikke med å stille dem i vår Discord, som du vil finne lenken til i beskrivelsen.
-Jeg takker varmt Théo for å ha produsert dette kurset, og jeg håper han vil være en utmerket lærer for dere. Vi hadde det veldig gøy med å skape dette innholdet. Dette kurset er tilgjengelig for alle og vil, tror jeg, være essensielt for å følge våre fremtidige mer dyptgående kurs om økonomi. Dette kurset vil legge de nødvendige grunnlagene for å utforske visse økonomiske teorier mer detaljert som vi bare vil berøre kort her.
-Hvis du er klar til å begi deg ut på dette eventyret, inviterer jeg deg til å klikke på følgende video og starte med bonusvideoen om vårt nåværende finanssystem. Jeg gir nå ordet til Théo. Takk til ham for å samarbeide med Descoupes Bitcoin for realiseringen av denne videoen. Vi sees veldig snart. Ha det!
+**Del 1: Introduksjon til ECON**  
+Vi starter med en generell introduksjon til østerriksk økonomi, utforsker dens historiske røtter og grunnlaget for dens tankegang. Denne delen dekker også essensielle begreper som penger, kreditt, banker og sentralbanker. Du vil forstå hvorfor disse institusjonene spiller en sentral rolle i østerriksk tanke, spesielt i kritikken mot pengeintervensjoner.
+
+**Del 2: Teoretiske Grunnlag**  
+Denne delen vil utdype de grunnleggende konseptene i østerriksk økonomi, som den subjektive verditeorien, som forklarer hvorfor verdien av en vare ikke er objektiv, men avhenger av den oppfattede nytten for hver enkelt person. Du vil også oppdage hvordan penger naturlig oppstår som et sosialt fenomen, samt begreper som tidspreferanse, rente og kapital som er sentrale i den østerrikske frimarkedsteorien.
+
+**Del 3: Østerrikske Økonomiske Perspektiver**  
+Her vil vi utforske de praktiske anvendelsene av østerriksk teori. Du vil lære detaljert om den østerrikske konjunkturteorien, som forklarer hvordan monetære manipulasjoner skaper kunstige oppgangstider etterfulgt av resesjoner.
+
+Dette kurset er en fusjon mellom økonomi og filosofi, drevet av en åpen diskusjon mellom Théo og meg (Rogzy). Jeg vil gjerne takke Théo Mogenet hjertelig for opprettelsen av dette kurset. Vi har hatt stor glede av å utvikle dette innholdet, som er utformet for å være tilgjengelig for alle. Dette kurset utgjør en viktig introduksjon og vil legge grunnlaget for våre fremtidige, mer avanserte moduler om økonomi.
+
+Og hva om nøkkelen til å forstå dagens økonomi ligger i en teori som er flere hundre år gammel? La oss oppdage den sammen!
 
 ## Penger, Kreditt, Banker og Sentralbanker
 
@@ -510,7 +519,7 @@ Et eksempel på metodologisk forskjell er posisjonen til tilhengere av Moderne M
 Det er viktig å merke seg at kirsebærplukking, som innebærer selektivt valg av data for å etablere relasjoner mellom variabler, er en uvitenskapelig og lite grundig metode i økonomi. Pengekreasjon, for eksempel, fører ikke nødvendigvis til inflasjon, og en mer nyansert tilnærming er nødvendig for å forstå komplekse økonomiske mekanismer. Aksiomer spiller en avgjørende rolle i østerriksk økonomisk resonnement. De er grunnleggende elementer som logiske slutninger kan trekkes fra. Det er imidlertid viktig å anerkjenne at nøyaktig forutsigelse av fremtiden i økonomi ofte er vanskelig på grunn av kompleksiteten i økonomiske fenomener og iboende usikkerhet.
 Metodologi er et essensielt aspekt i økonomi og i samfunnsvitenskapene generelt. Det påvirker hvordan spørsmål stilles, hypoteser formuleres, og data tolkes. Å forstå de metodologiske forskjellene mellom økonomiske skoler kan hjelpe oss med å sette pris på ulike perspektiver og utvikle våre egne meninger om temaene diskutert i tidligere episoder.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
@@ -524,39 +533,6 @@ Metodologi er et essensielt aspekt i økonomi og i samfunnsvitenskapene generelt
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
 <isCourseExam>true</isCourseExam>
 
-## Videre studier
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Gratulerer med å ha fullført dette ECON 201-kurset! Jeg håper inderlig at du likte det og at det åpnet dører for deg. Din oppdagelse av Bitcoin er bare i begynnelsen, og jeg inviterer deg til å utforske alle de andre kursene som er tilgjengelige ved universitetet.
-
-### Videre lesning
-
-For å fordype din forståelse av økonomiske og sosiale fenomener, spesielt med tanke på østerriksk økonomi, her er noen bokanbefalinger:
-
-- "The Austrian School" av Ressus Huerta de Soto: Denne rimelige boken gir en omfattende introduksjon til utviklingen av østerriksk økonomisk tenkning, som dekker nøkkelkonsepter og teorier.
-- "Human Action" av Ludwig von Mises: Ansett som det største verket til den østerrikske skolen, utforsker dette arbeidet i dybden de teoretiske grunnlagene for menneskelig handling og økonomi.
-- "The Use of Knowledge in Society" av Friedrich Hayek: Denne korte teksten undersøker hvordan spredt kunnskap i samfunnet brukes til å veilede økonomiske beslutninger, og fremhever viktigheten av priser og konkurranse.
-- Joseph Schumpeters Nobelpris-tale i 1974: Denne talen gir en oversikt over Schumpeters visjon om entreprenørskap, innovasjon og kapitalisme.
-- "Capitalism, Socialism and Democracy" eller "The Theory of Economic Development" av Joseph Schumpeter: Disse ikoniske bøkene av Schumpeter utforsker dynamikken i kapitalismen, innovasjon og økonomiske sykluser.
-
-I tillegg til disse lesningene, kan du også finne informasjon om østerriksk økonomi ved å utforske online ressurser. Mises-instituttet, basert i det sørøstlige USA, tilbyr artikler og videoer av anerkjente økonomer. Savedin Amoos Academy tilbyr interaktive seminarer med fremtredende gjester, selv om dette alternativet er betalt. I Frankrike deler personer som Yorick de Montbin, Fergan Aziri, og Richard Hamelin ofte analyser og diskusjoner om østerriksk økonomi på forskjellige YouTube-kanaler. Til slutt kan også Bitcoin-instituttet være en kilde til informasjon om de økonomiske aspektene knyttet til Bitcoin.
-
-Ved å lese disse verkene og utforske disse online ressursene, kan du utvikle en dypere forståelse av de nøkkelprinsippene og ideene til den østerrikske skolen for økonomi.
-
-# Konklusjon
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Evaluer dette kurset
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Avsluttende eksamen
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
-<isCourseExam>true</isCourseExam>
 
 ## Konklusjon
 

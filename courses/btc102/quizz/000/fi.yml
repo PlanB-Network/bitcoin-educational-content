@@ -1,11 +1,9 @@
-question: Mikä on yleinen piirre Ponzi-huijauksissa kryptovaluutta-alalla?
-answer: Ne käyttävät uusien sijoittajien rahoja maksamaan vanhemmille osallistujille.
+question: Mitkä ovat tyypilliset Ponzi-järjestelmän piirteet kryptoekosysteemissä?
+answer: Taatut tuotot, vaikeat nostot ja suosittelut
 wrong_answers:
-  - Ne aina sisältävät Bitcoinin.
-  - Ne ovat aina laillisia ja säänneltyjä.
-  - Ne aina sisältävät fyysisiä omaisuuksia.
+  - Alhainen tuotto, vaikeat nostot ja täysi läpinäkyvyys
+  - Taatut tuotot, vaikeat nostot, eikä suosittelujärjestelmää
+  - Taatut tuotot, helpot nostot, eikä suosittelujärjestelmää
 explanation: |
-  Ponzi-huijaukset kryptovaluutta-alalla toimivat usein käyttämällä uusien
-  sijoittajien rahoja maksamaan vanhemmille osallistujille. Tämä kestämätön luonne ja riippuvuus
-  uusista tulokkaista tekevät niistä todennäköisesti väistämättä romahtavia.
+  Nämä ominaisuudet voivat viitata pyramidihuijaukseen. Jos havaitset niitä hankkeessa, ole hyvin varovainen.
 reviewed: false

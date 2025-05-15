@@ -206,7 +206,7 @@ RoninUI avalehele jõudes palutakse teil seadistamist alustada. Selleks klõpsak
 
 ![lets start](assets/notext/25.webp)
 
-Sel etapil esitleb RoninUI teile teie `root` parooli. On oluline see turvaliselt hoida. Võite valida füüsilise varukoopia, paberil, või salvestada selle [paroolihalduris](https://planb.network/courses/secu101/4/2).
+Sel etapil esitleb RoninUI teile teie `root` parooli. On oluline see turvaliselt hoida. Võite valida füüsilise varukoopia, paberil, või salvestada selle [paroolihalduris](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 

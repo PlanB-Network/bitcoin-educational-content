@@ -1,0 +1,9 @@
+question: 衍生路徑中的哪個深度指定了貨幣類型？
+answer: 深度 2
+wrong_answers:
+  - 深度 1
+  - 深度 3
+  - 深度 4
+explanation: |
+  深度 2 用於在多貨幣錢包中識別貨幣，例如 Bitcoin (index 0「) 或 Litecoin (index 2」)。
+reviewed: false

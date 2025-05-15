@@ -1,13 +1,9 @@
-question: Co znamená 2FA?
-answer: Dvoufaktorová autentizace
+question: Proč se doporučuje zachovávat diskrétnost ohledně držby Bitcoin?
+answer: Aby se zabránilo upoutání pozornosti zločinců a vlád
 wrong_answers:
-  - Dvoufaktorová autorizace
-  - Dvouprvková autentizace
-  - Dvoufunkční autentizace
+  - Využití lepších sazeb Exchange v některých zemích
+  - Abyste nepřitahovali pozornost podnikatelů, kteří hledají finanční prostředky
+  - Zlepšení výpůjční kapacity
 explanation: |
-  2FA znamená Dvoufaktorová autentizace. Poskytuje další
-
-  vrstvu
-
-  zabezpečení vašich nejcitlivějších účtů.
+  Diskrétnost chrání před rizikem, že se stanete terčem podvodníků, závistivců nebo zlodějů.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Jaki był wynik wojny blokowej w 2017 roku?
+answer: Użytkownicy i węzły odrzucili proponowaną zmianę polegającą na zwiększeniu rozmiaru bloku i aktywowali aktualizację o nazwie SegWit.
+wrong_answers:
+  - Użytkownicy i węzły zaakceptowali proponowaną zmianę polegającą na zwiększeniu rozmiaru bloku i aktywowali aktualizację o nazwie SegWit.
+  - Użytkownicy i węzły odrzucili proponowaną zmianę polegającą na zwiększeniu rozmiaru bloku i nie aktywowali żadnych aktualizacji.
+  - Użytkownicy i węzły zaakceptowali proponowaną zmianę polegającą na zwiększeniu rozmiaru bloku i nie aktywowali żadnych aktualizacji.
+explanation: >-
+reviewed: true

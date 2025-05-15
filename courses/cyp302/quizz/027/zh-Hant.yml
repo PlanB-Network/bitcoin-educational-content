@@ -1,0 +1,9 @@
+question: XOR 運算的換算性質是什麼？
+answer: 操作數的順序不會影響運算結果
+wrong_answers:
+  - XOR 只適用於偶數
+  - XOR 需要相同長度的操作數
+  - 操作數中位元的位置並不影響操作的結果
+explanation: |
+  XOR 是換向的，意思是 a XOR b 等於 b XOR a。
+reviewed: false

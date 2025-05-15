@@ -1,0 +1,9 @@
+question: Czym jest funkcja Hash używana do obliczania sumy kontrolnej frazy Mnemonic?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  Suma kontrolna frazy Mnemonic jest obliczana przez zastosowanie prostego SHA256 Hash na entropii.
+reviewed: false

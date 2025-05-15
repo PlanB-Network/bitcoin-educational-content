@@ -30,7 +30,9 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 在开始本教程之前，请确保您已经初始化了您的Ledger并生成了您的助记词短语。如果情况并非如此且您的Ledger是新的，请按照PlanB网络上为您的型号提供的特定教程操作。完成这一步骤后，您可以返回到本教程。
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## 如何在Ledger上设置临时密码短语？

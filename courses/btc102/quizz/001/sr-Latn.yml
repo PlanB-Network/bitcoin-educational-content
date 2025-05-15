@@ -1,0 +1,11 @@
+question: Koja je uobičajena prevara vezana za onlajn takmičenja ili donacije u kripto sektoru?
+answer: Reklame koje obećavaju besplatne bitkoine.
+wrong_answers:
+  - Reklame koje obećavaju fizičke proizvode.
+  - Reklame koje obećavaju besplatnu fiat valutu.
+  - Reklame koje obećavaju besplatan softver.
+explanation: |
+  Prevare povezane sa onlajn konkursima ili donacijama su veoma česte u
+  kripto sektoru. Oglasi koji obećavaju besplatne bitkoine često se koriste da prevare
+  neiskusne korisnike.
+reviewed: false

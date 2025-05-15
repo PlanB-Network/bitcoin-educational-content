@@ -1,0 +1,9 @@
+question: Jak podnikové systémy automaticky aktualizují inventář?
+answer: Prostřednictvím spouštěčů pracovních postupů
+wrong_answers:
+  - Ruční aktualizace
+  - Nahrávání na konci dne
+  - Plánované zprávy
+explanation: |
+  Spouštěče pracovních postupů aktualizují systémy v reálném čase.
+reviewed: false

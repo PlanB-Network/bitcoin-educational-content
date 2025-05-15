@@ -1,0 +1,9 @@
+question: Kto stworzył platformę Mt. Gox Exchange 18 lipca 2010 r., tydzień po wielkim slashdottingu Bitcoin?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explanation: |
+  Stworzył ten efektywny rynek dla kaprysu, zdając sobie sprawę, jak trudno było zdobyć Bitcoin w Exchange za dolary (zwłaszcza na rynku Bitcoin).
+reviewed: false

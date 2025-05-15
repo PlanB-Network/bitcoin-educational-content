@@ -9,9 +9,9 @@ language: es
 description: |
   Esto es VEINTIUNO.world’s Stack, artículos y pódcast de interés cultural sobre
   la tecnología del bitcoin.
+contributor_names:
+  - PaoloFoti
 tags:
-  - easy-explain
-  - historical
   - adoption
-contributors:
-  - hunt-wood
+  - user-friendly
+  - good-practice

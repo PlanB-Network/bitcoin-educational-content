@@ -1,0 +1,9 @@
+question: Šta znači operacija XOR kada se primeni između dva bita?
+answer: Vraća 1 ako su bitovi različiti, u suprotnom vraća 0
+wrong_answers:
+  - Vraća 1 samo ako su oba bita 1
+  - Dodaje bitove i vraća zbir
+  - Uvek vraća 0 bez obzira na rezultat
+explanation: |
+  Operacija XOR (ili isključivo ili) proizvodi 1 ako su dva bita različita (0 i 1 ili 1 i 0) i 0 ako su isti.
+reviewed: false

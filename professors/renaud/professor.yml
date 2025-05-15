@@ -1,18 +1,16 @@
+id: b05f416c-fe76-429a-a46c-d5a8b0154a7b
 name: Renaud Lifchitz
 
-contributor_id: gate-fence
 
 links:
   website: https://bio.link/renaudl
   twitter: https://twitter.com/nono2357
 
-tags:
-  - privacy
-  - security
-  - nostr
-
 affiliations:
-  - DécouvreBitcoin
-
+  - 77f56919-1875-45ab-8c4c-b8fb26b021de
 tips:
   lightning_address: renaud@walletofsatoshi.com
+tags:
+  - network-security
+  - personal-security
+  - good-practice

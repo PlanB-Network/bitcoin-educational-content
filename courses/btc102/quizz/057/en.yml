@@ -1,10 +1,9 @@
-question: What does DCA stand for in the context of Bitcoin investment?
-answer: Dollar Cost Averaging
+question: Which acquisition method is avoided by the paranoid user?
+answer: Centralized platforms with KYC
 wrong_answers:
-  - Direct Currency Acquisition
-  - Digital Coin Allocation
-  - Decentralized Crypto Asset
+  - P2P matchmaking platforms
+  - Bitcoin ATMs
+  - Direct cash purchases at meetups
 explanation: |
-  Dollar Cost Averaging (DCA) is a strategy where you divide the total
-  amount you want to invest across periodic purchases to reduce the impact of volatility.
+  To preserve anonymity, the paranoid user avoids platforms that require identity verification.
 reviewed: false

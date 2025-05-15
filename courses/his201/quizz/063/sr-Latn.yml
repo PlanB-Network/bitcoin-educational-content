@@ -1,0 +1,9 @@
+question: Koji jezik je bio prvi neengleski podforum Bitcoin foruma posvećen u julu 2010?
+answer: Ruski
+wrong_answers:
+  - Francuski
+  - Nemački
+  - Italijanski
+explanation: |
+  Osnovao ga je [Martti Malmi](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241) 28. jula. Drugi jezici su dodati u narednim mesecima.
+reviewed: false

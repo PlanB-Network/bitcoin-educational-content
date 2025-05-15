@@ -1,0 +1,11 @@
+question: Zašto je važno da Bitcoin čvor ostane pristupačan i dostupan svim mogućim korisnicima?
+answer: Jer omogućava decentralizaciju mreže.
+wrong_answers:
+  - Zato što povećava kapacitet transakcija mreže.
+  - Zato što smanjuje kapacitet transakcija mreže.
+  - Zato što povećava Block reward za rudare.
+explanation: |
+  Povoljna cena i dostupnost Bitcoin čvora su
+  važni jer olakšavaju decentralizaciju
+  mreže.
+reviewed: true

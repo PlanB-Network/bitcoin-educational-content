@@ -1,0 +1,9 @@
+question: Quali dettagli chiave del pagamento devono essere documentati per ogni transazione Bitcoin?
+answer: La data, l'importo, il valore fiat equivalente e gli indirizzi associati
+wrong_answers:
+  - L'ID della transazione, la tariffa di rete e l'indirizzo dell'esercente
+  - La data, il tasso di cambio, il tipo di portafoglio e la posizione geografica
+  - Il numero del blocco Bitcoin, il timestamp e lo script utilizzato
+explanation: |
+  La documentazione di questi dettagli garantisce chiarezza e aiuta i contabili a differenziare i flussi in entrata e in uscita.
+reviewed: false

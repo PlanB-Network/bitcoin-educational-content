@@ -1,0 +1,5 @@
+---
+term: BITVM
+---
+
+Itifaki iliyoanzishwa na Robin Linus mnamo 2023, inayolenga kupanua uwezo wa ukuzaji wa programu ya Bitcoin. BitVM inaruhusu operesheni yoyote ya kimahesabu kufanywa kiholela na hutumia hesabu hii kuelekeza bitcoins zinazohusika. Itifaki inahusisha kusogeza hesabu zote za off-chain huku ikiruhusu ukokotoaji kupingwa On-Chain ikiwa upande mwingine utadai matokeo ya ulaghai. Kwa hivyo, BitVM hutoa Bitcoin na uwezo wa kukokotoa unaokaribia kuwa wa Turing, bila kuhitaji marekebisho yoyote katika kiwango cha makubaliano. BitVM inaiga tabia ya lango la mantiki la `NAND` kupitia matumizi ya pamoja ya opcodes `OP_BOOLAND` (ambayo yenyewe inaiga tabia ya lango la mantiki la `AND`) na `OP_NOT` (ambayo inaiga tabia ya lango la mantiki la `NOT`). Hakika, lango hili la mantiki la `NAND` linaweza kutumika katika mnyororo kuiga tabia ya milango mingine yote iliyopo ya mantiki. Hili ndilo linaloitwa "lango la ulimwengu wote". Kwa kiendelezi, msururu wa milango ya mantiki ya `NAND` kwa hivyo inaweza kunakili mzunguko wowote wa hesabu. Wazo na BitVM ni kuhifadhi mfuatano huu wa hesabu wa `NAND` kama inavyoondoka kwenye MAST ya muamala wa Taproot.

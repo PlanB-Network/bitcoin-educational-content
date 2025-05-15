@@ -1,0 +1,9 @@
+question: Hvilke to lommeboktyper vurderes i Starter-profilen?
+answer: Lynlommebøker med og uten forvaring
+wrong_answers:
+  - Varm og kald lagring av Bitcoin-lommebøker
+  - Multisig og Bitcoin-lommebøker på papir
+  - Maskinvare og hjerne Lynlommebøker
+explanation: |
+  Starter-profilen bruker enten depotbaserte eller ikke-depotbaserte Lightning-lommebøker.
+reviewed: false

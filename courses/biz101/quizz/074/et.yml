@@ -1,0 +1,9 @@
+question: Milliseid täiustatud turvaelemente rakendatakse tavaliselt ettevõtte tasandil bitcoinide puhul?
+answer: Mitu allkirja koos ajamärkidega
+wrong_answers:
+  - Mobiilse Lightning rahakoti parooliga kaitsmine
+  - Ühe signeeringuga BIP39 parooliga kaitse
+  - Ühe sümboliga 24 sõnaga seemnefraasiga
+explanation: |
+  Suuremate summade haldamisel on väga olulised sellised kõrge turvalisusega meetmed nagu mitme allkirjaga konfiguratsioonid koos ajalukkudega.
+reviewed: false

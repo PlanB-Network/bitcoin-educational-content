@@ -1,0 +1,9 @@
+question: ¿Qué ventaja ofrece un proveedor de correo seguro como ProtonMail?
+answer: Respeto por la privacidad y mayor seguridad.
+wrong_answers:
+  - Interfaz más sencilla para principiantes.
+  - Reducción de funcionalidades para minimizar la superficie de ataque.
+  - Integración de un algoritmo para generar automáticamente los correos electrónicos.
+explanation: |
+  ProtonMail se destaca por su política de privacidad y sus medidas de seguridad mejoradas.
+reviewed: false

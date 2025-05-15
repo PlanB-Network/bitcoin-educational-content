@@ -1,0 +1,5 @@
+---
+term: STRATUM V2
+---
+
+Ewolucja Stratum, znanego protokołu sieci nakładkowej dla Bitcoin, zaprojektowanego dla Mining. Ten rodzaj protokołu został zaprojektowany w celu optymalizacji komunikacji między indywidualnymi górnikami a serwerami Mining pool w celu zwiększenia ich rentowności. Opracowany przez pulę Braiins (dawniej "Slush Pool"), Stratum V2 wprowadza kilka ulepszeń, w tym bardziej wydajną komunikację między górnikami a pulami Mining, zmniejszając w ten sposób niezbędną przepustowość. Zmniejsza również zapotrzebowanie na infrastrukturę dla pul. Jeśli chodzi o bezpieczeństwo, dodano uwierzytelnianie kryptograficzne, aby zapobiec różnym atakom typu man-in-the-middle, w tym podsłuchiwaniu i złośliwemu przekierowywaniu Hashrate. Ważnym aspektem Stratum V2 jest to, że zawiera on podprotokoły umożliwiające indywidualnym górnikom wybór własnych zestawów transakcji do uwzględnienia w blokach, nad którymi pracują. Funkcja ta daje większą władzę poszczególnym górnikom, w przeciwieństwie do oryginalnego protokołu, w którym pule miały całkowitą kontrolę nad szablonem bloku. Metoda ta może zatem wzmocnić decentralizację procesu Mining przez pule.

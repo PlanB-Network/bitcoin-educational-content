@@ -1,0 +1,9 @@
+question: Koja je ekvivalencija XOR-a sa operacijom modulo?
+answer: XOR je ekvivalentan operaciji modulo 2 na bitovima
+wrong_answers:
+  - XOR je ekvivalentan klasičnom oduzimanju modulo 3
+  - XOR je ekvivalentan operaciji modulo 7 na bitovima
+  - XOR je inverzija sabiranja
+explanation: |
+  Operacija XOR može se posmatrati kao sabiranje bitova sa moduo 2, čineći rezultate identičnim.
+reviewed: false

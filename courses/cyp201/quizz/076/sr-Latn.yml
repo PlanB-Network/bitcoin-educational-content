@@ -1,0 +1,9 @@
+question: Na koju notaciju se odnosi /<0;1>/* u deskriptoru?
+answer: Na spoljašnji i unutrašnji lanac sa sekvencijalnim izvođenjem
+wrong_answers:
+  - Za sortirani multisignature Address
+  - Do kontrolnog zbira za putanje derivacije
+  - Do očvrsnutog puta derivacije
+explanation: |
+  Oznaka /<0;1>/* označava da deskriptor može generate adrese za eksterni (0) i interni (1) lanac, sa sekvencijalnom derivacijom zahvaljujući džokeru (*).
+reviewed: false

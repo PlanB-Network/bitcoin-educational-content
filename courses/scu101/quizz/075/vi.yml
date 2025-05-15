@@ -1,0 +1,9 @@
+question: Những đặc điểm nào xác định một mật khẩu tốt?
+answer: Dài, phức tạp và duy nhất.
+wrong_answers:
+  - Ngắn, đơn giản và dễ nhớ.
+  - Dựa trên thông tin cá nhân.
+  - Giống nhau cho tất cả các tài khoản.
+explanation: |
+  Một mật khẩu tốt cần đủ dài, phức tạp và không được sử dụng lại.
+reviewed: false

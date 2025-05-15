@@ -1,0 +1,14 @@
+question: Dlaczego zaleca się usuwanie plików cookie po każdej wizycie na stronie?
+answer: Aby uniemożliwić stronom trzecim śledzenie aktywności użytkownika w Internecie.
+wrong_answers:
+  - Aby zaoszczędzić miejsce na urządzeniu.
+  - Aby uniemożliwić witrynie zapamiętanie danych logowania.
+  - Aby uniemożliwić witrynie wyświetlanie ukierunkowanych reklam.
+explanation: |
+  Pliki cookie to pliki tworzone przez witryny internetowe w celu przechowywania informacji
+  na urządzeniu użytkownika. Podczas gdy niektóre witryny wymagają tych plików cookie do
+  prawidłowego działania, mogą być one również wykorzystywane przez
+  strony trzecie, zwłaszcza do celów śledzenia reklam
+  reklamowych. Usunięcie plików cookie po każdej wizycie w witrynie może
+  pomóc temu zapobiec.
+reviewed: true

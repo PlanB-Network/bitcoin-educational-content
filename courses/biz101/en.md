@@ -24,10 +24,10 @@ Whether you're a **small business or a large corporation**, integrating Bitcoin 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
 
-## Onboard your company to Bitcoin
+## Course overview
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Kickstart your company’s journey on the Bitcoin network with this comprehensive training course - a gateway to understanding how Bitcoin and the Lightning Network can revolutionize traditional business operations. This course is designed for retailers, entrepreneurs, managers, and corporate decision-makers who wish to explore the practical capabilities of Bitcoin as a global, internet-native monetary network and a robust means of value exchange.
+Welcome to the BIZ101 course! Kickstart your company’s journey on the Bitcoin network with this comprehensive training course - a gateway to understanding how Bitcoin and the Lightning Network can revolutionize traditional business operations. This course is designed for retailers, entrepreneurs, managers, and corporate decision-makers who wish to explore the practical capabilities of Bitcoin as a global, internet-native monetary network and a robust means of value exchange.
 
 Throughout the course, you will be introduced to the foundational principles that make Bitcoin and the Lightning Network distinctly transformative. You will learn how these technologies offer a spectrum of use cases, from digital capital storage to fast, economical, and scalable payments, and how they provide critical improvements over traditional currency and payment systems. BIZ101 course connects economic theory with real-world applications, clarifying how decentralization can reduce dependencies on intermediaries and overcome limitations inherent in legacy systems.
 
@@ -35,7 +35,7 @@ The course begins with a detailed examination of conventional currencies and pay
 
 Whether you represent a small enterprise or a large corporation, this course aims to equip you with the knowledge to integrate Bitcoin into your daily operations, thereby enhancing your company’s resilience, efficiency, and competitive edge. As Bitcoin continue to reshape the economic landscape, understanding these groundbreaking technologies is not merely an option but a strategic necessity. Prepare to engage with insightful content, practical examples, and strategic guidance that will enable you to navigate and leverage the evolving world of Bitcoin!
 
-
+Ready to dive into the world of Bitcoin for businesses? Let's go!
 
 # Currency, payment systems, and Bitcoin
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -234,7 +234,7 @@ Bitcoin challenges us to reconsider the nature of money itself. Could you explai
 
 For more information on Bitcoin, its history, how it works, and its use, I also suggest following this other comprehensive course:
 
-https://planb.network/courses/btc101
+https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Introduction to the Lightning Network
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -307,7 +307,7 @@ The Lightning Network is ideal for Bitcoin payments in physical or online stores
 
 For more information on the technical workings of the Lightning Network, I also suggest following this other comprehensive course:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 # Bitcoin in treasury
@@ -426,11 +426,11 @@ These thinkers shaped the idea that state intervention distorts markets and that
 
 For more information on this topic:
 
-https://planb.network/courses/eco201
+https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/phi201
+https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/eco102
+https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Holding bitcoin in treasury
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -472,7 +472,7 @@ Second, Bitcoin has so far experienced **4-year cycles**, meaning that with a ti
 
 ![BIZ101](assets/en/07.webp)
 
-*MICHAEL SAYLOR: "The best Bitcon price signal  is the 4 year simple moving average."* See above chart.
+*MICHAEL SAYLOR: "The best Bitcoin price signal  is the 4 year simple moving average."* See above chart.
 
 Additionally, it is advisable to keep one’s exposure to Bitcoin **proportional** to one’s level of understanding. It’s also important not to be in a rush or to try to time the market perfectly.
 
@@ -569,12 +569,18 @@ There are three ways to acquire Bitcoin:
 Since Bitcoin functions as a medium of exchange, it’s possible to envision a circular economy. Although this remains uncommon today, more and more businesses are beginning to accept Bitcoin payments—why not yours? (See our next chapter)
 
 - **Mining Bitcoin:**
-This involves earning rewards from operating mining machines. For non-specialized businesses, this remains relatively marginal. You can participate through intermediaries, such as [https://www.blobb.io/](https://www.blobb.io/). If you own the machines, you can account for them as depreciable assets. On a large scale, you’ll need to carefully calculate return on investment because the market is highly competitive and requires a good anticipation of costs, particularly electricity.
+This involves earning rewards from operating mining machines. For non-specialized businesses, this remains relatively marginal. You can participate through intermediaries which will sell or rent you the compute, network and maintenance. If you own the machines, you can account for them as depreciable assets. On a large scale, you’ll need to carefully calculate return on investment because the market is highly competitive and requires a good anticipation of costs, particularly electricity.
 
 To learn mor about mining methods, you can [consult the "mining" section in our tutorials](https://planb.network/tutorials/mining).
 
 - **Buying Bitcoin:**
 This is by far the most common method, done either via peer-to-peer exchanges or, more typically, on specialized trading platforms. But when acquiring Bitcoin as a corporate treasury asset, companies must comply with robust regulatory standards and Know-Your-Customer (KYC) procedures. When they buy it on specialized trading platforms, businesses are typically required to provide detailed company information, including identification documents, financial statements, and proof of address, to satisfy KYC and anti-money laundering (AML) requirements.
+
+To learn how to open a business account and use it to buy, sell, and transfer bitcoins, you can check out these two tutorials specifically designed for businesses, covering the Kraken and Bitfinex platforms in their corporate versions:
+
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 To learn more about methods for acquiring bitcoins via an exchange or peer-to-peer, you can [consult the "exchange" section in our tutorials](https://planb.network/tutorials/exchange).
 
@@ -747,7 +753,7 @@ To simplify the decision-making process, we have defined four distinct business 
 | **Business Type Examples**       | E-commerce sites with moderate volume, small marketplaces, groups of physical stores (e.g., Click & Collect), SME operations                           |
 | **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred; no set payment size limit; less than 250,000 per year                                     |
 | **Settings Complexity**          | Light to fully featured (local or cloud hosting), often requires an e-commerce storefront                                                              |
-| **Example Recommended Solution** | BTC Pay Server for e-commerce and/or physical environments; ZapRite or Musqet for checkout, Be-BOP for an integrated e-store                           |
+| **Example Recommended Solution** | BTC Pay Server for e-commerce and/or physical environments; ZapRite, Musqet or PayWithFlash for checkout, Be-BOP for an integrated e-store             |
 | **Merchant Interface**           | Website (mobile and desktop) with invoice editing, shopping cart options, and payment button creation; automated invoicing with e-commerce integration |
 | **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                                    |
 | **Fees**                         | Mix of free open-source backend and paid Lightning hosting/service fees; front-end fees include Bitcoin Lightning fees and <1.5% conversion fees       |
@@ -808,7 +814,7 @@ For detailed tutorials on the recommended wallets and basic setup, please consul
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -819,7 +825,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 **Custodial LN wallets:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
@@ -853,17 +859,17 @@ Although the Essential profile does not demand highly sophisticated accounting s
 
 The most suitable hybrid solution for your profile is likely Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 
 Another easy-to-implement solution, but with the drawback of being 100% custodial, is Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 
 If you are ready to get your hands dirty and want full control over the process, the BTCPay Server software is an excellent option. However, the major drawback of BTCPay Server is that its setup and management are time-consuming and require a certain level of technical expertise, but you can follow our guides:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 Finally, as a complement for physical points of sale, you could consider setting up [a Bitcoinize PoS](https://bitcoinize.com/).
@@ -902,7 +908,7 @@ When it comes to real-world examples, consider a mid-sized e-commerce store spec
 
 To delve deeper into implementation specifics and to explore hands-on configurations of BTC Pay Server, refer to the following course:
 
-https://planb.network/courses/btc305
+https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 ## The Enterprise
@@ -973,7 +979,7 @@ New infrastructures succeed because they are more efficient, and early adopters 
 
 **The Comeback of the Wallet**
 
-Bitcoin and the Lightning Network are completing the **digital wallet revolution**. New web services now allow **transactions without the need to create an account**—your wallet becomes your identity! Gone are the days of account fatigue for simple purchases or subscriptions. No more need to provide personal or payment information that could end up for sale on the dark web, as we are reminded all too often by recent events.
+Bitcoin and the Lightning Network are completing the **digital wallet revolution**. New web services now allow **transactions without the need to create an account**—your wallet becomes your identity! With protocols like **Nostr Wallet Connect (NWC)** and **LN-URL-AUTH**, wallets can seamlessly authenticate users and enable transactions without traditional accounts. Gone are the days of account fatigue for simple purchases or subscriptions. No more need to provide personal or payment information that could end up being hacked and for sale on the dark web, as we are reminded all too often by recent events.
 
 ![BIZ101](assets/en/10.webp)
 
@@ -1258,7 +1264,7 @@ Finally, whether you are a small merchant or a more established business, it is 
 
 
 
-# Conclusion
+# Final Section
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 
 ## Evaluate this course
@@ -1271,38 +1277,4 @@ Finally, whether you are a small merchant or a more established business, it is 
 
 ## Conclusion
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
-
-We have now reached the end of the  BIZ101 training : "Kickstart your Company’s Journey on the Bitcoin Network". We hope it has provided valuable insights into how Bitcoin and the Lightning Network can transform your business operations. From understanding the nature of money and currency networks, to grasping the strategic importance of holding Bitcoin in treasury, and exploring the practical solutions for accepting Bitcoin payments, you’ve gained knowledge that connects fundamental theory with real-world application.
-
-If you use Bitcoin as part of your business, comprehension of these mechanisms enables you to confidently adopt best practices, leverage cost savings, improve your payment infrastructure, and strengthen financial resilience. By understanding how Bitcoin and Lightning payments work, you ensure that your company remains competitive in a rapidly evolving global marketplace.
-
-If you found this training helpful, we’d greatly appreciate your feedback. **Please consider rating and commenting on this course**, and feel free to share it within your professional network. Your support helps this knowledge reach more entrepreneurs and managers looking to benefit from Bitcoin’s capabilities.
-
-Ready to go further? To continue your journey, you might consider exploring additional courses on Plan ₿ Network. For instance, if you wish to deepen your understanding of the Bitcoin ecosystem, check out **BIZ102** in which you will go more in depth about Bitcoin fundamentals and practical applications, specifically tailored for future startup-builders, business students and professionals willing to work in the growing Bitcoin ecosystem in non-technical roles.
-
-We also invite you to explore other courses available on Plan ₿ Network such as:
-
-The Bitcoin Journey:
-
-https://planb.network/courses/btc101
-
-Getting your first Bitcoins:
-
-https://planb.network/courses/btc102
-
-Discover the economic thought of the Austrian School with:
-
-https://planb.network/courses/eco201
-
-Discover the history of Bitcoin's origins with:
-
-https://planb.network/courses/his201
-
-Discover the evolution of freedom through the ages with:
-
-https://planb.network/courses/phi201
-
-
-
-
-
+<isCourseConclusion>true</isCourseConclusion>

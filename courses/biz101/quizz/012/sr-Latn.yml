@@ -1,0 +1,9 @@
+question: Zašto se Lightning Network može uporediti sa „emailom za plaćanja“?
+answer: Zato što omogućava besprekornu, globalnu i bezdozvolnu vrednost Exchange jednako lako kao slanje poruke.
+wrong_answers:
+  - Zato što šalje uplate putem tradicionalnih provajdera e-pošte.
+  - Zato što radi samo kada je priložen uz regularne email poruke.
+  - Jer čuva stanja korisnika u telu e-pošte.
+explanation: |
+  Baš kao što je e-pošta revolucionisala komunikaciju uklanjanjem posrednika i omogućavanjem svakome da šalje poruke širom sveta, Lightning Network pojednostavljuje i ubrzava transakcije, čineći prenos vrednosti bez trenja i pristupačnim kao e-pošta.
+reviewed: false

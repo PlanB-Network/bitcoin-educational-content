@@ -1,0 +1,9 @@
+question: Ni mahali gani pa kuanzia kuhesabu sahihi ya ECDSA?
+answer: Ujumbe wa Hash
+wrong_answers:
+  - Ufunguo wa umma
+  - Nonce ya kudumu
+  - Mviringo maalum wa duaradufu
+explanation: |
+  Sahihi ya ECDSA huanza kwa kukokotoa Hash ya ujumbe utakaotiwa saini, mara nyingi na SHA256.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Jaká je hlavní charakteristika blockchainu bez důkazu práce?
-answer: Nemá skutečnou hodnotu
+question: Jakou investiční strategii používá především stohovatel?
+answer: Průměrování dolarových nákladů
 wrong_answers:
-  - Je bezpečnější
-  - Je rychlejší
-  - Je více decentralizovaný
+  - Denní obchodování
+  - Arbitráž
+  - Paušální částka
 explanation: |
-  Obsah kapitoly uvádí, že bez důkazu práce blockchain nemá skutečnou hodnotu. To je klíčová charakteristika, která odlišuje Bitcoin od ostatních kryptoměn.
+  DCA spočívá v pravidelném investování pevně stanovené částky s cílem snížit dopad volatility trhu na portfolio.
 reviewed: false

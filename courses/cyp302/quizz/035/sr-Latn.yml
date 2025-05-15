@@ -1,0 +1,9 @@
+question: Koji je glavni cilj teorije brojeva?
+answer: Da se prouče svojstva celih brojeva i funkcije koje njima operišu
+wrong_answers:
+  - Analizirajte geometrijske transformacije
+  - Proučavanje strukture nasumičnih geometrijskih figura u konačnoj grupi
+  - Razvijanje simetričnih algoritama za šifrovanje
+explanation: |
+  Teorija brojeva se fokusira na svojstva celih brojeva i funkcije primenjene na cele brojeve, često za primene u kriptografiji, posebno u kontekstu kriptografije javnog ključa.
+reviewed: false

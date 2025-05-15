@@ -1,0 +1,9 @@
+question: Koji je model privatnosti bankarskog sistema?
+answer: Samo banka ima pristup detaljima transakcije.
+wrong_answers:
+  - Transakcije su javne, ali identitet korisnika nije poznat.
+  - Transakcije su anonimne i skrivene od svih, uključujući banku.
+  - Samo vlade imaju pristup detaljima transakcija.
+explanation: |
+  U tradicionalnom sistemu, svaki bankovni račun je povezan sa identitetom. Međutim, tok informacija je prekinut između banke i javnog domena.
+reviewed: false

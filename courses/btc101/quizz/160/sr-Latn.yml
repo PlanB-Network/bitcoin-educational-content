@@ -1,0 +1,13 @@
+question: Šta se dešava u napadu od 51% na Bitcoin mrežu?
+answer: Agent poseduje više od polovine Hashrate i može pokušati da modifikuje Blockchain.
+wrong_answers:
+  - Agent preuzima kontrolu nad više od polovine bitkoina u opticaju.
+  - Agent preuzima kontrolu nad više od polovine čvorova u Bitcoin mreži.
+  - Agent preuzima kontrolu nad više od polovine Mining poolova u Bitcoin
+explanation: |
+  U napadu od 51%, agent sa više od polovine
+  mreže Hashrate mogao bi potencijalno manipulisati
+  Blockchain kreiranjem alternativnog lanca blokova.
+  Međutim, takav napad bi bio izuzetno skup i
+  verovatno ne bi bio isplativ, što ga čini malo verovatnim scenarijem.
+reviewed: true

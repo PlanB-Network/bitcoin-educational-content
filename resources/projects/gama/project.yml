@@ -1,0 +1,22 @@
+id: cae9aff3-0cd3-4d2f-a839-c7210e92f82d
+name: GAMA
+category: mining
+
+links:
+  website: https://www.gama.africa/
+  twitter: https://x.com/gama_alliance
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.08
+tags:
+  - evaluation
+  - guides
+  - personal-security
+contributor_names:
+  - PaoloFoti

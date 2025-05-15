@@ -1,0 +1,9 @@
+question: Miten BTC Pay Server voidaan ottaa käyttöön Professional-ympäristössä?
+answer: Toimitiloissa tai pilvipalvelun kautta
+wrong_answers:
+  - Ainoastaan erillisissä laitteistolaitteissa
+  - Täysin ulkoistetun kolmannen osapuolen palvelun kautta
+  - Mobiilisovelluksena
+explanation: |
+  BTC Pay Server voidaan ottaa käyttöön joustavasti joko tiloissa tai pilvipalvelimessa, joten yritykset voivat valita asetukset, jotka sopivat parhaiten niiden toiminnallisiin tarpeisiin.
+reviewed: false

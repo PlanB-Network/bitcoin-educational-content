@@ -1,15 +1,11 @@
+id: 8260ed86-de30-468b-88bc-6ed4140a24e2
 name: WINTER ☩ HODLER
 
-contributor_id: write-school
 
 links:
   twitter: https://twitter.com/KST_Energy
   nostr: winterhodler@agora256.com
   website: https://agora256.com
-
-tags:
-  - bitcoin
-  - privacy
 
 tips:
   lightning_address: agora256@getalby.com
@@ -17,4 +13,8 @@ tips:
 company: agora256
 
 affiliations:
-  - agora256
+  - 64f64e0a-7788-46cf-be46-c781b4ec259e
+tags:
+  - cypherpunk
+  - self-sovereignty
+  - finance

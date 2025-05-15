@@ -1,0 +1,9 @@
+question: Zašto je teško za čvor koji prenosi da proceni tačnu likvidnost kanala?
+answer: Zato što samo dva učesnika znaju tačnu raspodelu sredstava
+wrong_answers:
+  - Zato što se ukupni kapacitet kanala stalno menja
+  - Zato što naknade posredničkih čvorova nisu objavljene
+  - Zato što se kanali automatski zatvaraju nakon svake transakcije
+explanation: |
+  Precizna distribucija sredstava u kanalu vidljiva je samo za dva čvora koja učestvuju, sprečavajući druge čvorove da procene dostupnu likvidnost za rutiranje.
+reviewed: false

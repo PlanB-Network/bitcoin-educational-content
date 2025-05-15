@@ -1,0 +1,9 @@
+question: Ni taarifa gani ambayo Bob anaweza kujumuisha katika Invoice ili kuwezesha uelekezaji?
+answer: Vituo vya karibu vilivyo na ukwasi wa kutosha au kuwepo kwa chaneli za kibinafsi
+wrong_answers:
+  - Ufunguo wa kibinafsi wa nodi za kati
+  - Ramani kamili ya chaneli zote za mtandao
+  - Kiasi kamili cha ukwasi unaopatikana kwa kila chaneli
+explanation: |
+  Kwa kuonyesha chaneli zilizo karibu zenye ukwasi au kufichua chaneli za faragha, Bob humsaidia Alice kuchagua njia zenye uwezekano bora wa kufaulu.
+reviewed: false

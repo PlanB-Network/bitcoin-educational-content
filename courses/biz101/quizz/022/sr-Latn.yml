@@ -1,0 +1,9 @@
+question: Šta se generalno preporučuje kada se deo trezora kompanije alocira u Bitcoin?
+answer: Uložite samo višak likvidnosti koji vam neće biti potreban nekoliko godina i održavajte vremenski horizont od najmanje četiri godine.
+wrong_answers:
+  - Odmah iskoristite sav operativni novac bez razmatranja potreba za likvidnošću.
+  - Ciljajte da kupujete i prodajete u roku od nekoliko nedelja kako biste maksimizirali kratkoročne profite.
+  - Ulažite samo kada vam je potreban hitan kratkoročni zajam za pokrivanje troškova.
+explanation: |
+  Zbog toga što cena Bitcoin može biti nestabilna na kratak rok, pametno je koristiti sredstva koja vam nisu odmah potrebna i držati ih najmanje četiri godine. Ovaj pristup ublažava nestabilnost i povećava šanse za ostvarivanje dugoročne vrednosti.
+reviewed: false

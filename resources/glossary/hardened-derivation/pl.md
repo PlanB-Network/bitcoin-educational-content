@@ -1,0 +1,5 @@
+---
+term: UTWARDZONA POCHODNA
+---
+
+Proces generowania kluczy podrzędnych w portfelach HD. Wzmocniona derywacja wykorzystuje nadrzędny klucz prywatny jako dane wejściowe dla funkcji `HMAC-SHA512`, uniemożliwiając generate podrzędnych kluczy publicznych z nadrzędnego klucza publicznego i nadrzędnego kodu łańcucha. Proces ten obejmuje konkatenację nadrzędnego klucza prywatnego i indeksu większego lub równego $2^{31}$, a następnie zastosowanie `HMAC-SHA512` z nadrzędnym kodem łańcucha. Wynik jest dzielony na dwie części: pierwsze 256 bitów jest dodawane do klucza prywatnego rodzica w celu uzyskania klucza prywatnego dziecka, podczas gdy pozostałe 256 bitów tworzy kod łańcucha dziecka. Metoda ta zapewnia, że nawet jeśli rozszerzony klucz publiczny zostanie naruszony, nie może zostać użyty do wyprowadzenia podrzędnych kluczy publicznych. W standardowej derywacji wzmocniona derywacja jest stosowana na wszystkich poziomach derywacji aż do głębokości konta. W notacji ścieżek derywacji, utwardzona derywacja jest identyfikowana apostrofem `'` lub rzadziej literą `h`.

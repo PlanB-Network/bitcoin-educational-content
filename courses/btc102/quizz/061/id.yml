@@ -1,10 +1,9 @@
-question: Apa itu solusi non-KYC dalam konteks Bitcoin?
-answer: Solusi yang memungkinkan transaksi Bitcoin secara anonim
+question: Mengapa dianjurkan untuk menulis surat warisan dengan tinta di atas kertas?
+answer: Untuk menghindari risiko yang terkait dengan dokumen digital yang disusupi
 wrong_answers:
-  - Solusi yang memungkinkan transaksi Bitcoin tanpa internet
-  - Solusi yang memungkinkan transaksi Bitcoin tanpa dompet
-  - Solusi yang memungkinkan transaksi Bitcoin tanpa biaya
+  - Untuk mengurangi biaya pencetakan
+  - Untuk mendapatkan tanda tangan yang diakui secara hukum
+  - Untuk meningkatkan nilai hukum dokumen
 explanation: |
-  Solusi non-KYC (Know Your Customer) adalah solusi yang memungkinkan
-  transaksi Bitcoin secara anonim. Ini tidak memerlukan pengguna untuk menyediakan informasi
-  identifikasi pribadi.
+  Surat yang ditulis tangan tidak terlalu rentan terhadap serangan siber dan memastikan kerahasiaan instruksi.
+reviewed: false

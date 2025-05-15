@@ -1,0 +1,9 @@
+question: Quel avantage offre un fournisseur de messagerie sécurisé comme ProtonMail ?
+answer: Respect de la vie privée et renforcement de la sécurité
+wrong_answers:
+  - Interface plus simple pour les débutants
+  - Réduction du nombre de fonctionnalités pour réduire la surface d'attaque
+  - Intégration d'un algorithme pour générer automatiquement vos emails
+explanation: |
+  ProtonMail se distingue par sa politique de confidentialité et ses mesures de sécurité accrues.
+reviewed: false

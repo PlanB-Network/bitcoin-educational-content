@@ -1,0 +1,9 @@
+question: Dlaczego osobista wymiana kluczy jest niepraktyczna w przypadku bezpiecznej komunikacji online?
+answer: Prowadzi to do wysokich kosztów organizacyjnych, a jednocześnie jest nieefektywne
+wrong_answers:
+  - Sprawia, że szyfrowana komunikacja staje się bezużyteczna
+  - Wymaga to użycia wielu kluczy na klienta
+  - Zapobiega to ponownemu użyciu kluczy do powtarzających się transakcji
+explanation: |
+  Osobista wymiana kluczy jest kosztowna i nieefektywna, zwłaszcza na dużą skalę, ponieważ spowalnia transakcje i nakłada znaczne koszty logistyczne na każdego nowego klienta.
+reviewed: false

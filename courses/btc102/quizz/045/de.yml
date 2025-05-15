@@ -1,9 +1,9 @@
-question: Was ist die Hauptrolle der Bitcoin Core-Entwickler?
-answer: Sie sind verantwortlich für die Hauptentwicklung des Bitcoin-Protokolls und seiner Kernfunktionen.
+question: Warum ist es empfehlenswert, regelmäßig Mittel von einem Hot Wallet auf einen Hardware Wallet zu übertragen?
+answer: Verringerung des Hacking-Risikos
 wrong_answers:
-  - Sie kontrollieren das Bitcoin-Netzwerk.
-  - Sie erzeugen neue Bitcoins.
-  - Sie regulieren den Preis von Bitcoin.
+  - Erhöhung der Wallet-Liquidität
+  - Senkung der Transaktionsgebühren
+  - Zur Optimierung des UTXO-Datenschutzes
 explanation: |
-  Der Kapitelinhalt erklärt, dass Bitcoin Core-Entwickler für die Hauptentwicklung des Bitcoin-Protokolls und seiner Kernfunktionen verantwortlich sind. Sie kontrollieren nicht das Bitcoin-Netzwerk, erzeugen keine neuen Bitcoins und regulieren nicht den Preis von Bitcoin.
+  Bei der Übertragung auf ein Hardware Wallet werden die Gelder durch die Offline-Speicherung privater Schlüssel gesichert.
 reviewed: false

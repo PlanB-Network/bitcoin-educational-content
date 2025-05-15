@@ -1,0 +1,9 @@
+question: Mikä on yksi tärkeimmistä eroista Bitcoinin käsittelemisessä digitaalisena omaisuutena verrattuna sen käsittelemiseen valuuttana kirjanpidossa?
+answer: Digitaalisena omaisuuseränä jokaisen transaktion hankintamenoa ja voittoja/tappioita on seurattava, kun taas jos sitä kohdeltaisiin kuten valuuttaa, uudelleenarvostukset olisivat yksinkertaisempia ja harvinaisempia.
+wrong_answers:
+  - Kun sitä käsitellään digitaalisena omaisuutena, se on täysin vapautettu kaikista veroista.
+  - Kun sitä käsitellään kuin valuuttaa, ei tarvita kirjanpitoa liiketoimista.
+  - Sen käsitteleminen valuutan tavoin edellyttää välitöntä siirtymistä uuteen kirjanpito-ohjelmistoon.
+explanation: |
+  Digitaalisten omaisuuserien käsittely edellyttää yleensä myyntivoittojen tai -tappioiden laskemista jokaisesta liiketoimesta, mikä lisää monimutkaisuutta. Jos Bitcoinia käsiteltäisiin kuten valuuttaa, se olisi yksinkertaisempaa; fiat-arvo vain päivitettäisiin säännöllisesti, kuten muille valuutoille tehdään.
+reviewed: false

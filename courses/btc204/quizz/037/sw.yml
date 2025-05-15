@@ -1,0 +1,9 @@
+question: Je, Pembejeo ya Kawaida ya Ownership Heuristic (CIOH) inahusisha nini?
+answer: Wakati muamala unajumuisha pembejeo nyingi, hizi zote zinawezekana kutoka kwa huluki moja.
+wrong_answers:
+  - Wakati muamala unajumuisha pembejeo nyingi, hizi huenda zote zinatoka kwa vyombo tofauti.
+  - Wakati muamala unajumuisha matokeo mengi, haya yote yanaweza kwenda kwa huluki moja.
+  - Wakati muamala unajumuisha matokeo mengi, haya yote yanaweza kwenda kwa huluki tofauti.
+explanation: |
+  CIOH ni wazo linalopendekeza kwamba shughuli inapojumuisha pembejeo nyingi, huenda ingizo hizi zote zinatoka kwa huluki moja. Kwa hivyo, Ownership yao ni ya kawaida.
+reviewed: false

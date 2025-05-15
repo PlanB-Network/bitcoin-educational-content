@@ -1,6 +1,0 @@
-description: |
-  Holepunch on alusta palvelimettomien sovellusten luomiseen käyttämällä kokoelmaamme pieniä Javascript-moduuleja, Hypercore.
-
-  Voit rakentaa, päivittää ja skaalata sovellustasi suoraan kannettavalta tietokoneeltasi. Sovelluksemme, kuten viestintätyökalu Keet, ovat yksityisiä ja salattuja, mikä varmistaa tietoturvan. Holepunchin avulla nautit tehokkaasta sovelluskehityksestä ja -jakelusta, jota käyttäjäkunta vahvistaa isännöimällä sovellustasi uudelleen. Me mullistamme sovelluskehityksen ilman palvelimia, ilman välikäsiä, vain parempia sovelluksia.
-contributors:
-  - rabbit-hole

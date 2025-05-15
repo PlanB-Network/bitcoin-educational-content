@@ -1,5 +1,4 @@
-question: What is the main advantage of specialized SHA256 machines, or ASICS, in
-  Bitcoin mining?
+question: What is the main advantage of specialized SHA256 machines, or ASICS, in Bitcoin mining?
 answer: They increase the hash rate per joule.
 wrong_answers:
   - They reduce the energy consumption.

@@ -1,3 +1,4 @@
+id: ee4ad169-6bfe-4dc2-8fe1-f392871f0e2d
 name: Wake Up Podcast
 host: Aleks Svetski
 language: en
@@ -12,9 +13,9 @@ description: |
   Wake up is dedicated to helping ensure V for Vendetta and 1984 remain works of fiction.
   Topics will include Bitcoin, Money, Freedom, Philosophy, Psychology, Science, Ethics & more
 
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-  - philosophy
-contributors:
-  - rabbit-hole
+  - cypherpunk
+  - self-sovereignty
+  - personal-security

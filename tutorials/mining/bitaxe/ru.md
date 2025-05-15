@@ -1,6 +1,6 @@
 ---
 name: Настройка BitAxe
-Description: Как настроить BitAxe?
+description: Как настроить BitAxe?
 ---
 
 ### Введение

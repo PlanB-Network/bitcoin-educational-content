@@ -1,0 +1,9 @@
+question: W transakcji Bitcoin, która technologia jest zwykle używana do udowodnienia Ownership środków poprzez odblokowanie skryptu?
+answer: Podpisy cyfrowe
+wrong_answers:
+  - Certyfikaty cyfrowe
+  - Szyfrowanie symetryczne
+  - Kody uwierzytelniania wiadomości (MAC)
+explanation: |
+  Podpisy cyfrowe w Bitcoin dowodzą posiadania środków poprzez podpisywanie transakcji kluczem prywatnym w celu odblokowania skryptu zabezpieczającego UTXO.
+reviewed: false

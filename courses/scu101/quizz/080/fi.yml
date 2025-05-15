@@ -1,0 +1,9 @@
+question: Miksi on suositeltavaa luoda kaksi erillistä sähköpostiosoitetta?
+answer: Yleisen viestinnän erottamiseksi tilin palautuksesta.
+wrong_answers:
+  - Työ- ja henkilökohtaisen viestinnän erottamiseksi.
+  - Useiden tilien luomiseksi ja verkkonäkyvyyden lisäämiseksi.
+  - Enemmän roskapostin vastaanottamiseksi.
+explanation: |
+  Sähköpostiosoitteiden erottaminen auttaa vähentämään riskejä ja suojaamaan paremmin pääsyn kriittisiin tileihin.
+reviewed: false

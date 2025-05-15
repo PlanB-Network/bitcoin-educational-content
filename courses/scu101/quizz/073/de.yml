@@ -1,0 +1,9 @@
+question: Was ist der Hauptvorteil der Nutzung eines Passwort-Managers?
+answer: Sich nur ein Master-Passwort merken.
+wrong_answers:
+  - Keine neuen Passwörter mehr erstellen.
+  - Alle Passwörter mit Hilfe von Merkhilfen auswendig lernen.
+  - Die Notwendigkeit von Online-Konten eliminieren.
+explanation: |
+  Der Benutzer muss sich nur ein einziges Passwort merken, um auf alle anderen zugreifen zu können.
+reviewed: false

@@ -1,86 +1,119 @@
-id: c4792842-b046-44f9-a6f1-351191b7cc2b
-builder: Wallet of Satoshi
+id: 39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-level: beginner
+project_id: 6ca330b1-d19c-470e-93a7-98bce38ff0f5
 
 category: mobile
 
+level: beginner
+
+professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
+
 tags:
-  - wallet
   - lightning-network
-  - custodial
+  - guides
+  - user-friendly
 
 # Proofreading metadata
-original_language: en
+original_language: it
 proofreading:
+  - language: it
+    last_contribution_date: 2025-03-07
+    urgency: 1
+    contributor_names:
+      - f205sats
+    reward: 0.51
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.02
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2742
+    contributor_names:
+    reward: 1.33
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2621
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1310
+    contributor_names:
+    reward: 1.02
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2681
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2742
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2621
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2681
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2863
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2621
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2742
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2863
+    contributor_names:
+    reward: 1.02
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2742
+    contributor_names:
+    reward: 1.33
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.33
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.02
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.25
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2802
+    contributor_names:
+    reward: 1.64
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.95
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.33
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.33
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.02
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.33
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.33
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.33
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.95
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2802
+    contributor_names:
+    reward: 1.64
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.64

@@ -1,0 +1,8 @@
+question: 如何確保 Lightning Network 上交易的安全性？
+answer: 透過加密技術，並間接透過 Bitcoin 上的礦工所消耗的能量。
+wrong_answers:
+  - 僅透過使用私人金鑰。
+  - 僅透過使用公開金鑰。
+  - 僅透過使用私密金鑰和公開金鑰。
+explanation: >-
+reviewed: true

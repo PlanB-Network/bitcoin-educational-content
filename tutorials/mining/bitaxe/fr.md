@@ -1,6 +1,6 @@
 ---
 name: Paramétrer un BitAxe
-Description: Comment paramétrer un BitAxe ?
+description: Comment paramétrer un BitAxe ?
 ---
 
 ### Présentation

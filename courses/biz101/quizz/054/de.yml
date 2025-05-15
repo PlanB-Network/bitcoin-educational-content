@@ -1,0 +1,9 @@
+question: Bei welcher der folgenden Software handelt es sich nicht um eine Bitcoin-Buchhaltungslösung?
+answer: Sperling
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow ist keine Bitcoin-Buchhaltungslösung, während die anderen es sind (es ist eine Bitcoin-Wallet-Software).
+reviewed: false

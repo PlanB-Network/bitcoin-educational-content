@@ -1,0 +1,9 @@
+question: Solusi alternatif apa yang disebutkan untuk bisnis yang lebih memilih lingkungan ritel online yang lengkap?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Simpul Terbuka
+  - Pembayaran Bitcoin Swiss
+explanation: |
+  Be-BOP adalah sebuah pilihan bagi mereka yang menginginkan sebuah e-store online terintegrasi yang memfasilitasi pembayaran Bitcoin.
+reviewed: false

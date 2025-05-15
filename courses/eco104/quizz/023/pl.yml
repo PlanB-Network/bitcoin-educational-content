@@ -1,0 +1,10 @@
+question: W ilu krajach na świecie kobiety nie mogą otwierać kont bankowych na własne nazwisko?
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  W 72 krajach na całym świecie kobiety nie mogą otwierać
+  kont bankowych na własne nazwisko.
+reviewed: true

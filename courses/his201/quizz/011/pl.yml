@@ -1,0 +1,9 @@
+question: Do jakiego prywatnego systemu walutowego Satoshi Nakamoto wyraźnie odnosił się w swoich pismach?
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - Dolar wolności
+  - e-Bullion
+explanation: |
+  Ta waluta rzeczywiście była nadal aktywna w czasie Bitcoin, w przeciwieństwie do e-gold i Liberty Dollar. Satoshi również [wspomniał](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) o Pecunix, cyfrowej złotej walucie stworzonej w 2002 roku.
+reviewed: false

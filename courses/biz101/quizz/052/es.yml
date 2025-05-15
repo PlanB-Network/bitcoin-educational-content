@@ -1,0 +1,9 @@
+question: ¿Qué detalle NO está explícitamente documentado en un típico archivo csv de transacción de Bitcoin como se describe en el curso?
+answer: El tipo de script utilizado
+wrong_answers:
+  - La fecha de la transacción
+  - El valor fiduciario equivalente
+  - Las direcciones Bitcoin implicadas
+explanation: |
+  El típico archivo csv de transacciones Bitcoin suele mencionar la fecha, el importe, el equivalente fiat y las direcciones Bitcoin, pero no el tipo de script utilizado.
+reviewed: false

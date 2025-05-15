@@ -1,0 +1,8 @@
+question: Među sledećim odgovorima, koji ne predstavlja prednost korišćenja sopstvenog čvora?
+answer: Smanjenje naknada za transakcije.
+wrong_answers:
+  - Učestvovanje u konsenzusu.
+  - Biti nezavisan od trećih strana.
+  - Mogućnost otpora cenzuri transakcija.
+explanation: |
+  Evo zašto je imati svoj čvor ključno za potpuno suvereno korišćenje Bitcoin: Otpornost na cenzuru; Vaše transakcije ne mogu biti blokirane od strane bilo koga; Nezavisnost od trećih strana; Više ne zavisite od bilo koje spoljne usluge za verifikaciju Blockchain podataka; Aktivno učešće; Imate mogućnost da postavite svoja pravila validacije i direktno učestvujete u konsenzusu; Doprinos mreži; Pokretanjem čvora, pomažete u jačanju i distribuciji Bitcoin mreže; Tehničko obrazovanje; Upravljanje Full node je odličan način da produbite svoje tehničko znanje o Bitcoin.

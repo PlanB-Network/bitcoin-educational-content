@@ -1,0 +1,14 @@
+question: Jaka jest główna zaleta dziewiczych bitcoinów Mining?
+answer: Nigdy nie zostały wydane i nie mają żadnej historii.
+wrong_answers:
+  - Mogą być sprzedawane po wyższej cenie.
+  - Mogą być wykorzystywane do nielegalnych działań.
+  - Mogą być przechowywane przez długi czas bez utraty wartości.
+explanation: |
+  Główną zaletą dziewiczych bitcoinów Mining jest to, że
+  nigdy nie zostały wydane i nie mają żadnej historii.
+  Te bitcoiny są często uważane za bardziej wartościowe, ponieważ
+  nigdy nie zostały skażone, zapewniając pewną gwarancję
+  przed odrzuceniem przez organy regulacyjne lub główne platformy Exchange
+  platformy.
+reviewed: true

@@ -227,7 +227,7 @@ Une fois sur la page d'accueil de RoninUI, vous serez invité à lancer la confi
 
 ![lets start](assets/notext/25.webp)
 
-À cette étape, RoninUI vous présente votre mot de passe `root`. Il est essentiel de le conserver soigneusement. Vous pouvez opter pour une sauvegarde physique, sur papier, ou l'enregistrer dans un [gestionnaire de mots de passe](https://planb.network/courses/secu101/4/2).
+À cette étape, RoninUI vous présente votre mot de passe `root`. Il est essentiel de le conserver soigneusement. Vous pouvez opter pour une sauvegarde physique, sur papier, ou l'enregistrer dans un [gestionnaire de mots de passe](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![mot de passe root](assets/notext/26.webp)
 

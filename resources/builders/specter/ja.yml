@@ -1,8 +1,0 @@
-description: |
-  Specter Firmware は、自分自身で信頼性を最小限に抑えた署名デバイスを構築できるようにします。
-  これは、MITライセンスの下でのFOSSフリーオープンソースソフトウェアです。
-  信頼性を最小限に抑えたビットコインの自己保管のための、オープンソースファームウェアと市販のハードウェア。
-
-contributors:
-  - rabbit-hole
-  - another-satoshi

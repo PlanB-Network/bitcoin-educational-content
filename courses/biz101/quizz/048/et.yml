@@ -1,0 +1,9 @@
+question: Mis on traditsiooniliste maksesüsteemide peamine funktsioon?
+answer: Võimaldamaks rahaliste vahendite ülekandmist kahe osapoole vahel
+wrong_answers:
+  - Luua ühtne ülemaailmne valuuta, mida reguleerib keskasutus
+  - Hõlbustada rahvusvahelist kaubandust
+  - Rahaülekannete piiramine ainult isikliku sularahavahetusega
+explanation: |
+  Traditsioonilised maksesüsteemid pakuvad mehhanisme ja infrastruktuuri rahaliste vahendite ülekandmiseks maksjate ja makse saajate vahel nii kohalikus kui ka rahvusvahelises kontekstis.
+reviewed: false

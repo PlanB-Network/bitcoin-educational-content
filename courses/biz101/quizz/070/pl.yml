@@ -1,0 +1,9 @@
+question: Jakie zaawansowane funkcje są zazwyczaj wymagane przez firmy o profilu profesjonalnym?
+answer: Zaawansowane pulpity raportowania i wiele ról administracyjnych
+wrong_answers:
+  - Podstawowe rejestrowanie transakcji i standardowe paragony
+  - Prosta integracja Wallet i generowanie kodów QR
+  - Automatyczna konwersja na fiat bez żadnych opcji raportowania
+explanation: |
+  Profesjonalne firmy wymagają konfigurowalnych faktur, zaawansowanego raportowania i zarządzania rolami, aby dopasować je do złożonych przepływów pracy.
+reviewed: false

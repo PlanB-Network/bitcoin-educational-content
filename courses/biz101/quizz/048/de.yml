@@ -1,0 +1,9 @@
+question: Was ist die Hauptfunktion der traditionellen Zahlungssysteme?
+answer: Ermöglicht den Transfer von Geldern zwischen zwei Parteien
+wrong_answers:
+  - Schaffung einer einheitlichen globalen Währung, die von einer zentralen Behörde reguliert wird
+  - Erleichterung des internationalen Handels
+  - Beschränkung von Geldtransfers auf den persönlichen Bargeldumtausch
+explanation: |
+  Traditionelle Zahlungssysteme bieten Mechanismen und Infrastrukturen für den Geldtransfer zwischen Zahlern und Zahlungsempfängern im lokalen und internationalen Kontext.
+reviewed: false

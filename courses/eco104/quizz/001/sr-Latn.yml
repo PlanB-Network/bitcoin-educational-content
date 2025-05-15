@@ -1,0 +1,9 @@
+question: Koje od sledećeg je neophodno za uspešnu transakciju u barter sistemu?
+answer: Dvostruka podudarnost želja
+wrong_answers:
+  - Zajednička obračunska jedinica
+  - Centralna banka autoritet
+  - Zahtev za minimalnim stanjem
+explanation: |
+  U barter sistemu, transakcije se odvijaju direktno između dve strane koje razmenjuju robu ili usluge bez korišćenja novca. Uspešna transakcija zahteva dvostruku podudarnost želja, što znači da obe strane moraju imati nešto što druga strana želi da razmeni.
+reviewed: true

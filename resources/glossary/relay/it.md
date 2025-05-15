@@ -1,0 +1,5 @@
+---
+term: RELAIS
+---
+
+Nel contesto del Proof-of-Work sulla rete Bitcoin, si intende uno strumento la cui funzione principale è quella di trasmettere i nuovi blocchi validi che sono stati trovati. A volte si fa una distinzione tra il ruolo del Miner, che è coinvolto nell'intero processo Proof-of-Work, dalla costruzione del blocco candidato alla diffusione del blocco convalidato, e il ruolo del chopper, che si limita a partecipare all'hashing di un blocco senza intervenire nella sua selezione o diffusione. Il ruolo di relay, invece, consiste nel distribuire i nuovi blocchi trovati da un chopper. Nel caso dei pool Mining, questo ruolo di relay è svolto dal pool stesso. È questo ruolo che conferisce al pool un grande potere sui singoli chopper. Il termine "relay" può anche riferirsi alla persona o all'entità che gestisce un relay.

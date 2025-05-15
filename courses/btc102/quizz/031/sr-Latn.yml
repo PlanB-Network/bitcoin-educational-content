@@ -1,0 +1,9 @@
+question: Koja je svrha Bitcoin novčanika?
+answer: Da šaljete i primate bitkoine
+wrong_answers:
+  - Da kopam bitkoine
+  - Da se čuvaju fizički bitkoini
+  - Da konvertujete bitkoine u druge valute
+explanation: |
+  Bitcoin novčanici se koriste za slanje i primanje bitkoina. Oni su digitalni novčanici koji čuvaju digitalne akreditive potrebne za pristup Bitcoin Address i trošenje bitkoina.
+reviewed: false

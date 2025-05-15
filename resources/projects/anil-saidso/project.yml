@@ -1,0 +1,106 @@
+id: c356ddae-11e4-4201-8759-8fa253c33ddc
+name: Anil
+category: education
+
+links:
+  website: https://anilsaidso.gumroad.com/
+  twitter: https://x.com/anilsaidso
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-12-10
+    urgency: 1
+    contributor_names:
+      - jramos0
+    reward: 0.05
+
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.12
+
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.12
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.12
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.12
+tags:
+  - software
+  - user-friendly
+  - development
+contributor_names:
+  - Rogzy-DB

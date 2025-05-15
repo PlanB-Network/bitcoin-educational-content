@@ -1,0 +1,9 @@
+question: Rezultat 0 XOR 1 je 1.
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  Sa XOR, 0 XOR 1 daje 1 jer su bitovi različiti.
+reviewed: false

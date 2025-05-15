@@ -1,11 +1,9 @@
-question: What is the main characteristic of a blockchain without proof of work?
-answer: It has no real value
+question: What investment strategy is primarily used by a stacker?
+answer: Dollar-Cost Averaging
 wrong_answers:
-  - It is more secure
-  - It is faster
-  - It is more decentralized
+  - Day trading
+  - Arbitrage
+  - Lump-Sum
 explanation: |
-  The chapter content states that without proof of work, a blockchain
-  has no real value. This is a key characteristic that sets Bitcoin apart from other
-  cryptocurrencies.
+  DCA involves investing a fixed amount regularly to reduce the impact of market volatility on one's portfolio.
 reviewed: false

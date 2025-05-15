@@ -1,5 +1,5 @@
 id: 2f96b9c7-1c7c-4342-bdcb-e5ca3ce678e8
-title: "Adler's Сrypto Insight"
+title: "Adler's Crypto Insight"
 author: Alex Adler Jr
 level: beginner
 publication_date: 2024-07-21
@@ -9,8 +9,9 @@ language: en
 description: |
   Unlocking market opportunities with data-driven on-chain crypto insights, follow
   the real smart money to get a 10x return every cycle.
+contributor_names:
+  - PaoloFoti
 tags:
-  - investment
   - market-trends
-contributors:
-  - hunt-wood
+  - onchain
+  - investment

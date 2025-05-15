@@ -1,0 +1,11 @@
+question: Satoshi Nakamoto 最後一次透過電子郵件傳送私人訊息的日期是什麼時候？
+answer: 2011 年 4 月 23 日。
+wrong_answers:
+  - 2010 年 12 月 12 日。
+  - 2009 年 1 月 8 日。
+  - 2008 年 10 月 31 日。
+explanation: |
+  Satoshi 最後通過電子郵件發送私人訊息的日期是 2011 年 4 月 23 日。
+  中本聪通过电子邮件发送的最后一条私人信息的日期是 2011 年 4 月 23 日。它是寄給
+  開發人員 Mike Hearn。
+reviewed: true

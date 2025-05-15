@@ -1,0 +1,9 @@
+question: Czym było e-gold?
+answer: Cyfrowa waluta zabezpieczona równoważną ilością złota przechowywaną w skarbcu
+wrong_answers:
+  - Jednostka walutowa w uniwersum World of Warcraft
+  - Koncepcja waluty cyfrowej, której emisja została oparta na Proof of Work
+  - Internetowy system Exchange dla złotej biżuterii
+explanation: |
+  System został współzałożony przez Douglasa Jacksona i Barry'ego Downeya w 1996 roku i był dostępny za pomocą prostej przeglądarki internetowej.
+reviewed: false

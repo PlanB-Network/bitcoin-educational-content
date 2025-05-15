@@ -1,0 +1,9 @@
+question: Co robi skrypt blokujący w transakcji Bitcoin?
+answer: Nakłada określone warunki wydatkowania powiązanych funduszy
+wrong_answers:
+  - Automatycznie wysyła środki na wiele adresów
+  - Określa wartość tworzonego UTXO
+  - Tymczasowo blokuje fundusze, aby zapobiec nadmiernym wydatkom
+explanation: |
+  Skrypt blokujący nakłada warunki, takie jak podpisanie kluczem prywatnym, w celu odblokowania i wykorzystania środków w transakcji.
+reviewed: false

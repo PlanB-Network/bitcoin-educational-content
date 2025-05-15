@@ -1,0 +1,9 @@
+question: Jakie są trzy podstawowe składniki schematu szyfrowania symetrycznego?
+answer: Algorytm generowania klucza, algorytm szyfrowania i algorytm deszyfrowania
+wrong_answers:
+  - Algorytm haszujący, klucz publiczny i algorytm weryfikacji
+  - Klucz publiczny, klucz prywatny i algorytm deszyfrowania
+  - Algorytm szyfrowania, klucz publiczny i klucz prywatny
+explanation: |
+  Schemat szyfrowania symetrycznego składa się z trzech Elements: algorytmu generowania klucza, algorytmu szyfrowania i algorytmu deszyfrowania. Wszystkie używają tego samego klucza.
+reviewed: false

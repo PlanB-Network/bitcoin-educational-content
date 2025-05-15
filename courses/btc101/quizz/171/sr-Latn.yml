@@ -1,0 +1,13 @@
+question: Kako Bitcoin protokol osigurava svoju otpornost na cenzuru i otpornost?
+answer: Svaka komponenta protokola geografski je raspoređena širom sveta.
+wrong_answers:
+  - Koristi lokalnu mrežu čvorova raspoređenih u Evropi.
+  - Koristi složen algoritam za validaciju transakcija.
+  - Koristi visok nivo enkripcije.
+explanation: |
+  Bitcoin protokol osigurava otpornost na cenzuru i
+  otpornost jer je svaki deo protokola
+  geografski raspoređen širom sveta. Na primer,
+  postoji približno 40.000 Bitcoin čvorova na svim
+  kontinentima.
+reviewed: true

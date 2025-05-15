@@ -1,0 +1,9 @@
+question: Prema Keynesu, koju ulogu bi država trebala imati u ekonomiji?
+answer: Aktivna uloga stimulisanjem potražnje za podsticanje ekonomije
+wrong_answers:
+  - Minimalna uloga koja omogućava tržištu da reguliše ekonomiju
+  - Neutralna uloga bez intervencije u tržišne mehanizme
+  - Primarno fiskalna uloga za balansiranje budžeta
+explanation: |
+  Keynes je tvrdio da država treba aktivno da interveniše kako bi stimulisala potražnju, posebno tokom recesije, kako bi podstakla ekonomiju i nadoknadila nedostatke tržišta.
+reviewed: false

@@ -2,6 +2,7 @@
 name: Mnemoniline Fraas - Täringuvisked
 description: Kuidas ise luua oma taastefraasi täringuvisete abil?
 ---
+
 ![kaas](assets/cover.webp)
 
 Selles õpetuses saate teada, kuidas käsitsi koostada taastefraasi Bitcoin'i rahakotile, kasutades täringuviskeid.
@@ -9,10 +10,12 @@ Selles õpetuses saate teada, kuidas käsitsi koostada taastefraasi Bitcoin'i ra
 **HOIATUS:** Mnemonilise fraasi turvalisel viisil genereerimine nõuab, et selle loomise käigus ei jäetaks digitaalset jälge, mis on peaaegu võimatu. Vastasel juhul oleks rahakott liiga suure rünnakupinna all, oluliselt suurendades riski, et teie bitcoinid varastatakse. **Seetõttu on tungivalt soovitatav mitte kanda vahendeid rahakotti, mis sõltub teie enda genereeritud taastefraasist.** Isegi kui järgite seda õpetust täpselt, on olemas risk, et taastefraas võib olla kompromiteeritud. **Seega ei tohiks seda õpetust rakendada päris rahakoti loomiseks.** Selle ülesande jaoks on palju vähem riskantne kasutada riistvaralist rahakotti, kuna see genereerib fraasi võrguühenduseta ja tõelised krüptograafid on kaalunud kvalitatiivsete entroopiaallikate kasutamist.
 
 Seda õpetust võib järgida ainult eksperimentaalsetel eesmärkidel fiktiivse rahakoti loomiseks, ilma kavatsuseta seda päris bitcoinidega kasutada. Siiski pakub kogemus kahte eelist:
+
 - Esiteks võimaldab see teil paremini mõista teie Bitcoin'i rahakoti aluseks olevaid mehhanisme;
 - Teiseks võimaldab see teil teada, kuidas seda teha. Ma ei ütle, et see ühel päeval kasulik on, aga võib-olla!
 
 ## Mis on mnemoniline fraas?
+
 Taastefraas, mida mõnikord nimetatakse ka "mnemoonikuks", "seemnefraasiks" või "salafraasiks", on tavaliselt 12 või 24 sõnast koosnev jada, mis genereeritakse pseudojuhuslikul viisil entroopiaallikast. Pseudojuhuslikku jada täiendatakse alati kontrollsummaga.
 
 Mnemoniline fraas koos valikulise paroolifraasiga kasutatakse HD (Hierarhiliselt Deterministliku) rahakoti kõigi sellega seotud võtmete deterministlikuks tuletamiseks. See tähendab, et sellest fraasist on võimalik deterministlikult genereerida ja taasluua kõik Bitcoin'i rahakoti privaatsed ja avalikud võtmed ning seeläbi pääseda ligi sellega seotud vahenditele.
@@ -21,7 +24,9 @@ Selle lause eesmärk on pakkuda lihtsat viisi bitcoinide varundamiseks ja taasta
 Tavaliselt antakse see fraas teile otse rahakoti loomisel, kasutatava tarkvara või riistvaralise rahakoti poolt. Siiski on võimalik ka see fraas ise genereerida ja seejärel sisestada valitud toele, et tuletada rahakoti võtmed. Just seda me selles õpetuses õpime tegema.
 
 ## Vajalike materjalide ettevalmistamine
+
 Oma taastefraasi käsitsi loomiseks vajate:
+
 - Paberilehte;
 - Pliiatsit või pastakat, ideaalis erinevates värvides, et hõlbustada organiseerimist;
 - Mitut täringut, et minimeerida kallutatuse riske, mis on seotud tasakaalustamata täringuga;
@@ -36,17 +41,18 @@ Soovitatav on kasutada suurt hulka täringuid, et leevendada potentsiaalselt tas
 Reaalsetes tingimustes, pärast nende kontrollide sooritamist, oleksite valmis genereerima vajaliku entroopia. Eksperimentaalse väljamõeldud rahakoti loomiseks, mis on osa sellest õpetusest, võiksite loomulikult need ettevalmistused vahele jätta.
 
 ## Mõned meeldetuletused taastefraasi kohta
+
 Alustuseks vaatame üle mnemoonilise fraasi loomise põhitõed vastavalt BIP39-le. Nagu varem selgitatud, tuletatakse fraas teatud suurusega pseudojuhuslikust informatsioonist, millele lisatakse kontrollsumma, et tagada selle terviklikkus.
 
 Selle algse informatsiooni suurus, mida sageli nimetatakse "entroopiaks", määratakse sõltuvalt sellest, mitu sõna soovite taastefraasis saada. Kõige levinumad formaadid on 12 ja 24 sõnaga fraasid, mis tuletatakse vastavalt 128-bitisest ja 256-bitisest entroopiast. Siin on tabel, mis näitab erinevaid entroopia suurusi vastavalt BIP39-le:
 
 | Fraas (sõnad) | Entroopia (bitid) | Kontrollsumma (bitid) | Entroopia + Kontrollsumma (bitid) |
-| --------------- | --------------- | --------------- | -------------------------- |
-| 12              | 128             | 4               | 132                        |
-| 15              | 160             | 5               | 165                        |
-| 18              | 192             | 6               | 198                        |
-| 21              | 224             | 7               | 231                        |
-| 24              | 256             | 8               | 264                        |
+| ------------- | ----------------- | --------------------- | --------------------------------- |
+| 12            | 128               | 4                     | 132                               |
+| 15            | 160               | 5                     | 165                               |
+| 18            | 192               | 6                     | 198                               |
+| 21            | 224               | 7                     | 231                               |
+| 24            | 256               | 8                     | 264                               |
 
 Entroopia on seega juhuslik number vahemikus 128 kuni 256 biti. Selles õpetuses võtame näiteks 12-sõnalise fraasi, milles entroopia on 128 biti, mis tähendab, et genereerime juhusliku jada 128 `0`-st või `1`-st. See esindab numbrit, mis koosneb 128-st numbrist kahendsüsteemis (binaarne).
 Selle entroopia põhjal genereeritakse kontrollsumma. Kontrollsumma on väärtus, mis arvutatakse andmekogumi põhjal, mida kasutatakse selle andmekogumi terviklikkuse ja kehtivuse kontrollimiseks selle edastamisel või salvestamisel. Kontrollsumma algoritmid on kavandatud juhuslike vigade või andmetes toimunud muudatuste tuvastamiseks.
@@ -66,6 +72,7 @@ Lõpuks ütleb kümnendsüsteemi number meile vastava sõna asukoha [2048 BIP39 
 Nüüd asume praktika juurde! Genereerime 12-sõnalise taastefraasi. Siiski jääb see toiming 24-sõnalise fraasi puhul identseks, välja arvatud see, et see nõuaks 256 biti entroopiat ja 8-bitist kontrollsummat, nagu on näidatud selle jaotise alguses asuvas ekvivalentsustabelis.
 
 ## 1. samm: Entroopia genereerimine
+
 Valmistage ette oma paberileht, pliiats ja täringud. Alustuseks peame genereerima juhuslikult 128 bitti, st jada 128 `0`st ja `1`st järjest. Selleks kasutame täringuid.
 ![mnemonic](assets/notext/7.webp)
 
@@ -78,7 +85,8 @@ Nagu näete minu näites, koosneb kaheteistkümnes sõna praegu ainult 7 bitist.
 ![mnemonic](assets/notext/9.webp)
 
 ## 2. samm: Kontrollsumma arvutamine
-See samm on mnemoonilise fraasi käsitsi genereerimisel kõige kriitilisem, kuna see nõuab arvuti kasutamist. Nagu varem mainitud, vastab kontrollsumma entroopiast genereeritud SHA256 räsi algusele. Kuigi teoreetiliselt on võimalik SHA256 käsitsi arvutada 128 või 256 biti sisendi jaoks, võib see ülesanne võtta terve nädala. Lisaks tuvastataks käsitsi arvutustes tehtud vead alles protsessi lõpus, sundides teid alustama otsast peale. Seetõttu on ettekujutamatu teha seda sammu ainult paberilehe ja pliiatsiga. Arvuti kasutamine on peaaegu kohustuslik. Kui soovite siiski õppida, kuidas SHA256 käsitsi teha, selgitame, kuidas seda teha [CRYPTO301 kursusel](https://planb.network/en/courses/crypto301).
+
+See samm on mnemoonilise fraasi käsitsi genereerimisel kõige kriitilisem, kuna see nõuab arvuti kasutamist. Nagu varem mainitud, vastab kontrollsumma entroopiast genereeritud SHA256 räsi algusele. Kuigi teoreetiliselt on võimalik SHA256 käsitsi arvutada 128 või 256 biti sisendi jaoks, võib see ülesanne võtta terve nädala. Lisaks tuvastataks käsitsi arvutustes tehtud vead alles protsessi lõpus, sundides teid alustama otsast peale. Seetõttu on ettekujutamatu teha seda sammu ainult paberilehe ja pliiatsiga. Arvuti kasutamine on peaaegu kohustuslik. Kui soovite siiski õppida, kuidas SHA256 käsitsi teha, selgitame, kuidas seda teha [CRYPTO301 kursusel](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 Seetõttu soovitan tungivalt mitte luua käsitsi fraasi tegeliku rahakoti jaoks. Minu arvates suurendab arvuti kasutamine selles etapis, isegi kõigi vajalike ettevaatusabinõudega, ebamõistlikult rahakoti ründepinda.
 Kontrollsumma arvutamiseks, jättes võimalikult vähe jälgi, kasutame eemaldatavalt draivilt käivitatavat amneesilist Linuxi distributsiooni nimega **Tails**. See operatsioonisüsteem käivitub USB-pulgalt ja töötab täielikult arvuti RAM-is, ilma et suhtleks kõvakettaga. Seega teoreetiliselt ei jäta see arvutisse pärast väljalülitamist mingit jälge. Palun pange tähele, et Tails on ühilduv ainult x86_64 tüüpi protsessoritega, mitte ARM tüüpi protsessoritega.
@@ -110,7 +118,8 @@ Te jõuate uude tühja käsureale.
 Sisestage käsk `echo`, millele järgneb teie varem genereeritud entroopia, veendudes, et `echo` ja teie binaarjada vahel oleks tühik.
 ![mnemonic](assets/notext/17.webp)
 
-Lisage veel üks tühik, seejärel sisestage järgmine käsk, kasutades *toru* (`|`):
+Lisage veel üks tühik, seejärel sisestage järgmine käsk, kasutades _toru_ (`|`):
+
 ```plaintext
 | shasum -a 256 -0
 ```
@@ -118,14 +127,16 @@ Lisage veel üks tühik, seejärel sisestage järgmine käsk, kasutades *toru* (
 ![mnemonic](assets/notext/18.webp)
 
 Minu entroopia näites on kogu käsk järgmine:
+
 ```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
 Selles käskluses:
+
 - `echo` kasutatakse bitijada saatmiseks;
-- `|`, *toru*, kasutatakse `echo` käsu väljundi suunamiseks järgmise käsu sisendisse;
-- `shasum` käivitab räsifunktsiooni, mis kuulub SHA (*Secure Hash Algorithm*) perekonda;
+- `|`, _toru_, kasutatakse `echo` käsu väljundi suunamiseks järgmise käsu sisendisse;
+- `shasum` käivitab räsifunktsiooni, mis kuulub SHA (_Secure Hash Algorithm_) perekonda;
 - `-a` määrab kindla räsialgoritmi valiku;
 - `256` näitab, et kasutatakse SHA256 algoritmi;
 - `-0` võimaldab sisendit tõlgendada binaarnumbrina.
@@ -135,6 +146,7 @@ Pärast seda, kui olete hoolikalt kontrollinud, et teie binaarjadas ei oleks üh
 ![mnemonic](assets/notext/19.webp)
 
 Praegu väljendatakse räsi kuueteistkümnendsüsteemis (alus 16). Näiteks minu oma on:
+
 ```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
@@ -142,7 +154,6 @@ a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 Meie mnemoonilise fraasi lõpuleviimiseks vajame ainult räsi esimesi 4 bitti, mis moodustavad kontrollsumma. Kuueteistkümnendsüsteemis esindab iga tähemärk 4 bitti. Seega säilitame ainult räsi esimese tähemärgi. 24-sõnalise fraasi puhul oleks vajalik arvesse võtta esimesi kahte tähemärki. Minu näites vastab see täht: `a`. Pange see tähemärk hoolikalt kuskile lehele kirja, seejärel lülitage arvuti välja.
 
 Järgmine samm on muuta see kuueteistkümnendsüsteemi tähemärk (alus 16) binaarväärtuseks (alus 2), kuna meie fraas on koostatud selles formaadis. Selleks võite kasutada järgmist teisendustabelit:
-
 
 | Kümneline (alus 10) | Kuueteistkümnend (alus 16) | Binaarne (alus 2) |
 | ------------------- | -------------------------- | ----------------- |
@@ -155,13 +166,13 @@ Järgmine samm on muuta see kuueteistkümnendsüsteemi tähemärk (alus 16) bina
 | 6                   | 6                          | 0110              |
 | 7                   | 7                          | 0111              |
 | 8                   | 8                          | 1000              |
-| 9                 | 9                     | 1001            |
-| 10                | a                     | 1010            |
-| 11                | b                     | 1011            |
-| 12                | c                     | 1100            |
-| 13                | d                     | 1101            |
-| 14                | e                     | 1110            |
-| 15                | f                     | 1111            |
+| 9                   | 9                          | 1001              |
+| 10                  | a                          | 1010              |
+| 11                  | b                          | 1011              |
+| 12                  | c                          | 1100              |
+| 13                  | d                          | 1101              |
+| 14                  | e                          | 1110              |
+| 15                  | f                          | 1111              |
 
 Minu näites vastab täht `a` binaararvule `1010`. Need 4 bitti moodustavad meie taastefraasi kontrollsumma. Nüüd saate need lisada juba paberilehele märgitud entroopiale, asetades need viimase sõna lõppu.
 
@@ -170,7 +181,9 @@ Minu näites vastab täht `a` binaararvule `1010`. Need 4 bitti moodustavad meie
 Teie mnemooniline fraas on nüüd valmis, kuid see on binaarvormingus. Järgmine samm on teisendada see kümnendsüsteemi, et saaksite seejärel iga numbri vastavate sõnadega BIP39 nimekirjas seostada.
 
 ## 3. samm: Sõnade teisendamine kümnendarvuks
+
 Iga binaarrea teisendamiseks kümnendarvuks kasutame meetodit, mis hõlbustab käsitsi arvutamist. Praegu on teil paberil kaksteist rida, igaüks koosneb 11 binaardigist `0` või `1`. Kümnendarvuks teisendamiseks omistage igale esimesele digile väärtus `1024`, kui see on `1`, vastasel juhul `0`. Teisele digile omistatakse väärtus `512`, kui see on `1`, vastasel juhul `0`, ja nii edasi kuni üheteistkümnenda digini. Vastavused on järgmised:
+
 - 1. bitt: `1024`;
 - 2. bitt: `512`;
 - 3. bitt: `256`;
@@ -184,6 +197,7 @@ Iga binaarrea teisendamiseks kümnendarvuks kasutame meetodit, mis hõlbustab k�
 - 11. bitt: `1`.
 
 Iga rea puhul liidame kokku väärtused, mis vastavad digitele `1`, et saada binaararvu kümnendarvuline ekvivalent. Võtame näiteks binaarrea, mis on võrdne:
+
 ```plaintext
 1010 1101 101
 ```
@@ -191,6 +205,7 @@ Iga rea puhul liidame kokku väärtused, mis vastavad digitele `1`, et saada bin
 Teisendus oleks järgmine:
 ![mnemonic](assets/notext/21.webp)
 Tulemus oleks siis:
+
 ```plaintext
 1389
 ```
@@ -202,6 +217,7 @@ Seejärel lihtsalt liidake kõik numbrid, mida `1` kinnitab, et saada kümnendar
 ![mnemonic](assets/notext/23.webp)
 
 ## 4. samm: Mnemoonilise fraasi sõnade otsimine
+
 Saadud kümnendarvudega saame nüüd leida vastavad sõnad nimekirjast, et koostada mnemooniline fraas. Siiski, 2048 sõna nummerdus BIP39 nimekirjas ulatub `1`st `2048`ni. Kuid meie arvutatud binaartulemused jäävad vahemikku `0` kuni `2047`. Seega on vaja parandada üheühikulist nihet. Selle nihke parandamiseks lihtsalt lisage `1` kaheteistkümnele varem arvutatud kümnendarvule.
 
 ![mnemonic](assets/notext/24.webp)
@@ -209,15 +225,18 @@ Pärast seda kohandust on teil iga sõna järjestus nimekirjas. Jääb üle vaid
 [**-> Prindi BIP39 nimekiri A4 formaadis.**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 Näiteks, kui esimeselt realt saadud number on 1721, siis vastav sõna nimekirjas on:
+
 ```plaintext
 1721. strike
 ```
+
 ![mnemonic](assets/notext/25.webp)
 Sel viisil jätkame järjestikku 12 sõnaga, et konstrueerida meie mnemooniline fraas.
 
 ![mnemonic](assets/notext/26.webp)
 
 ## 5. samm: Bitcoini rahakoti loomine
+
 Sel hetkel jääb üle vaid meie mnemooniline fraas importida Bitcoini rahakoti tarkvarasse. Olenevalt meie eelistustest, saab seda teha lauaarvuti tarkvaras, et saada kuum rahakott, või riistvaralisel rahakotil, et saada külm rahakott.
 
 ![mnemonic](assets/notext/27.webp)
@@ -228,18 +247,19 @@ Ainult importimise käigus saate kontrollida oma kontrollsumma kehtivust. Kui ta
 Pärast rahakoti loomist ärge unustage oma taastefraasi varundada füüsilisel kandjal, nagu paberil või metallil, ja hävitada selle genereerimisel kasutatud tabel, et vältida igasuguse informatsiooni leket.
 
 ## Eriline juhtum Coldcardide täringuveeretamise valiku kohta
-Coldcardi perekonna riistvaralised rahakotid pakuvad [funktsiooni nimega *Dice Roll*](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), et genereerida teie rahakoti taastefraas täringutega. See meetod on suurepärane, kuna annab teile otsese kontrolli entroopia loomise üle, ilma et oleks vaja kasutada välist seadet kontrollsumma arvutamiseks, nagu meie õpetuses.
+
+Coldcardi perekonna riistvaralised rahakotid pakuvad [funktsiooni nimega _Dice Roll_](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), et genereerida teie rahakoti taastefraas täringutega. See meetod on suurepärane, kuna annab teile otsese kontrolli entroopia loomise üle, ilma et oleks vaja kasutada välist seadet kontrollsumma arvutamiseks, nagu meie õpetuses.
 
 Siiski on hiljuti teatatud bitcoini vargustest, mis on toimunud selle funktsiooni vale kasutamise tõttu. Tõepoolest, liiga piiratud arv täringuveeretusi võib põhjustada ebapiisava entroopia, teoreetiliselt võimaldades mnemoonilist fraasi jõuga murda ja seotud bitcoinid varastada. Selle riski vältimiseks soovitatakse Coldcardil teha vähemalt 99 täringuveeretust, mis tagab piisava entroopia.
 
 Coldcardi poolt pakutav tulemuste tõlgendamise meetod erineb sellest, mida meie õpetuses esitletakse. Kuigi meie õpetuses soovitame 128 veeretust, et saavutada 128 biti turvalisus, soovitab Coldcard 99 veeretust, et jõuda 256 biti turvalisuseni. Tõepoolest, meie lähenemises on iga täringuveeretuse jaoks võimalikud ainult kaks tulemust: paaris (`0`) või paaritu (`1`). Seega on iga veeretuse poolt genereeritud entroopia võrdne `log2(2)`-ga. Coldcardi puhul, mis arvestab täringu kuut võimalikku tahku (alates `1` kuni `6`), on entroopia veeretuse kohta võrdne `log2(6)`-ga. Seetõttu peame meie õpetuses tegema rohkem veeretusi, et saavutada sama entroopia tase.
-Entroopia = veeretuste arv * log2(täringu võimalike tulemuste arv)
+Entroopia = veeretuste arv \* log2(täringu võimalike tulemuste arv)
 Coldcard:
 
-Entroopia = 99 * log2(6)
+Entroopia = 99 \* log2(6)
 Entroopia = 255.91
 
 Meie õpetus:
 
-Entroopia = 128 * log2(2)
+Entroopia = 128 \* log2(2)
 Entroopia = 128

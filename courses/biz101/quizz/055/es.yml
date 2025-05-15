@@ -1,0 +1,9 @@
+question: ¿Cuál es el objetivo principal de las herramientas especializadas en contabilidad de Bitcoin?
+answer: Simplificar la recogida y el tratamiento automáticos de datos relacionados con Bitcoin
+wrong_answers:
+  - Para aumentar la seguridad de las claves privadas de Bitcoin
+  - Facilitar a las empresas el comercio directo de Bitcoin en bolsas descentralizadas
+  - Crear un sistema PoS para aceptar pagos con Bitcoin
+explanation: |
+  Estas herramientas están diseñadas para automatizar la recopilación de datos, la conversión de formatos, el cálculo de impuestos y la categorización de transacciones.
+reviewed: false

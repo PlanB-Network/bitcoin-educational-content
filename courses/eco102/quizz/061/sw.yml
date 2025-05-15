@@ -1,0 +1,8 @@
+question: Je, ni tatizo gani kuu ambalo Bastiat anaona katika kutumia kodi ili kupunguza kukosekana kwa usawa?
+answer: Majibu haya yote ni sahihi
+wrong_answers:
+  - Inajenga utegemezi kwa Serikali
+  - Inakatisha tamaa mpango wa mtu binafsi
+  - Inaweza kusababisha uholela na kunyang'anywa
+explanation: |
+  Bastiat anakosoa kodi ya ugawaji upya kwa sababu inahimiza utegemezi, inakatisha tamaa mpango huo, na inaongoza kwa jeuri, ikijumuisha uporaji uliohalalishwa.

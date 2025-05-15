@@ -1,6 +1,0 @@
-description: |
-  Samourai on Bitcoin-lompakko, joka on omistettu yksityisyydelle ja turvallisuudelle.
-  
-  Se käyttää edistyneitä teknologioita estääkseen lohkoketjuun perustuvan valvonnan ja mahdollistaa offline-transaktiot. Ei-hallinnollinen lompakko tarjoaa täyden kontrollin yksityisiin avaimiin. Se tarjoaa myös RoninDojo, korkean suorituskyvyn omaavan, itse isännöidyn täysnoden, ja Whirlpool, Chaumian CoinJoinin toteutuksen, joka on suunniteltu katkaisemaan linkki bitcoinien ja niiden transaktiohistorian välillä. Samourain takana oleva tiimi koostuu yksityisyyden aktivisteista, jotka ovat sitoutuneet luomaan ohjelmistoja, jotka asettavat yksityisyyden ja turvallisuuden etusijalle Bitcoin-ekosysteemissä.
-contributors:
-  - rabbit-hole

@@ -1,0 +1,9 @@
+question: Které alternativní řešení ke švýcarské službě Bitcoin Pay pro přijímání plateb v bitcoinech pro profil Essential je 100% depozitní?
+answer: Otevřený uzel
+wrong_answers:
+  - Server BTCPay
+  - Bitcoinize PoS
+  - Peněženka Phoenix
+explanation: |
+  Open Node je charakterizován jako plně depozitní řešení, které se liší od hybridní povahy Swiss Bitcoin Pay.
+reviewed: false

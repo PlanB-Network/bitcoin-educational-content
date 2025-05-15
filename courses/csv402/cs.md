@@ -45,7 +45,8 @@ Závěrečná část je vedena dalšími přednášejícími, kteří představ�
 ---
 Tento školící kurz původně vznikl na základě dvoutýdenního výcvikového tábora pro pokročilé vývojáře ve Viareggiu v Toskánsku, který pořádala společnost [Fulgur'Ventures](https://fulgur.ventures/). První týden, zaměřený na Rust a SDK, najdete v tomto jiném kurzu:
 
-https://planb.network/courses/lnp402
+https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 V tomto kurzu se zaměříme na druhý týden bootcampu, který je zaměřen na RGB.
 
 **Týden 1 - LNP402:**
@@ -69,6 +70,8 @@ Písemná verze tohoto vzdělávacího kurzu byla vypracována s využitím 2 hl
 - Videa ze semináře Maxima Orlovského, Huntera Trujila a Frederica Tengy na Lightning Bootcampu ;
 - Dokumentace RGB, jejíž výrobu sponzorovala společnost [Bitfinex](https://www.bitfinex.com/).
 
+Připraveni ponořit se do složitého a fascinujícího světa RGB? Jdeme na to!
+
 # Teoreticky RGB
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -77,7 +80,7 @@ Písemná verze tohoto vzdělávacího kurzu byla vypracována s využitím 2 hl
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
-![video](https://youtu.be/AF2XbifPGXM)
+:::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 RGB je protokol navržený k uplatňování a vymáhání digitálních práv (ve formě smluv a aktiv) škálovatelným a důvěrným způsobem, který je založen na pravidlech konsensu a operacích blockchainu Bitcoin. Cílem této první kapitoly je představit základní pojmy a terminologii týkající se protokolu RGB a zdůraznit zejména jeho úzké propojení se základními koncepty distribuovaných výpočtů, jako je ověřování na straně klienta a pečetě na jedno použití.
 
@@ -310,15 +313,11 @@ Následující srovnání pomáhá pochopit tento princip:
 - Časové razítko (blockchain)**: Vložením tohoto hashe do blockchainu zároveň prokazujeme, že jsme jej znali v přesném okamžiku (v okamžiku zařazení do bloku);
 - Těsnění na jedno použití**: V případě jednorázových pečetí jdeme ještě o krok dál a závazek je jedinečný. Pomocí jediné hash můžete paralelně vytvořit několik protichůdných závazků (problém lékaře, který rodině oznámí "*Je to chlapec*" a do svého osobního deníku "*Je to dívka*"). Jednorázová pečeť tuto možnost eliminuje tím, že závazek připojí k médiu prokazujícímu jeho zveřejnění, jako je například bitcoinový blockchain, takže vynaložení UTXO závazek definitivně zpečetí. Jakmile je jednou utraceno, nemůže být stejné UTXO znovu utraceno, aby závazek nahradilo.
 
-| Jednorázové pečetě | Časové značky | Jednoduchý závazek (digest/hash) | Jednorázové pečetě |
-
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| Zveřejnění závazku neprozrazuje zprávu | Ano | Ano | Ano | Ano | Ano
-
-| Důkaz data závazku / existence zprávy před určitým datem | Nemožné | Možné | Možné | Možné | Možné
-
-| Důkaz, že žádný jiný alternativní závazek nemůže existovat | Nemožné | Možné |
+|                                                                                  | Jednoduchý závazek (digest/hash) | Časová razítka | Jednorázové pečeti |
+| -------------------------------------------------------------------------------- | -------------------------------- | ------------- | ------------------ |
+| Zveřejnění závazku neodhaluje zprávu                                             | Ano                              | Ano          | Ano               |
+| Důkaz o datu závazku / existenci zprávy před určitým datem                      | Nemožné                          | Možné        | Možné             |
+| Důkaz, že nemůže existovat žádný alternativní závazek                           | Nemožné                          | Nemožné      | Možné             |
 
 Jednorázové těsnění pracuje ve třech hlavních fázích:
 
@@ -424,7 +423,7 @@ Než se ponoříte do technických detailů druhé kapitoly, neváhejte si znovu
 
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
-![video](https://youtu.be/FS6PDprWl5Q)
+:::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 V této kapitole se podíváme na implementaci ověřování na straně klienta a jednorázových pečetí v rámci blockchainu Bitcoin. Představíme si hlavní principy vrstvy **commitment** (vrstva 1) systému RGB se zvláštním zaměřením na schéma **TxO2**, které systém RGB používá k definování a uzavření pečetě v transakci Bitcoin. Dále probereme dva důležité body, které dosud nebyly podrobně popsány:
 
@@ -460,17 +459,13 @@ Při práci na RGB jsme identifikovali nejméně 4 různé způsoby, jak tyto pe
 - Definujte pečeť pomocí hodnoty veřejného klíče a uzavřete ji v _vstupu_ ;
 - Definujte pečeť pomocí _outpoint_ a uzavřete ji v _input_.
 
-| Definice plomby | Uzávěr plomby | Další požadavky | Hlavní použití | Možná schémata zapojení |
+| Název schématu | Definice pečetě          | Uzavření pečetě        | Další požadavky                                                   | Hlavní aplikace              | Možné závazkové schématy        |
+| -------------- | ------------------------ | ---------------------- | ----------------------------------------------------------------- | ---------------------------- | -------------------------------- |
+| PkO            | Hodnota veřejného klíče  | Výstup transakce       | P2(W)PKH                                                          | Zatím žádná                  | Keytweak, taptweak, opret       |
+| TxO2           | Výstup transakce         | Výstup transakce       | Vyžaduje deterministické závazky na Bitcoinu                      | RGBv1 (univerzální)          | Keytweak, tapret, opret         |
+| PkI            | Hodnota veřejného klíče  | Vstup transakce        | Pouze Taproot & nekompatibilní se staršími peněženkami            | Bitcoinové identitě založené | Sigtweak, witweak               |
+| TxO1           | Výstup transakce         | Vstup transakce        | Pouze Taproot & nekompatibilní se staršími peněženkami            | Zatím žádná                  | Sigtweak, witweak               |
 
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | V současné době neexistuje | Keytweak, taptweak, opret |
-
-| TxO2 | Transakční výstup | Transakční výstup | Vyžaduje deterministické závazky u Bitcoinu | RGBv1 (univerzální) | Keytweak, tapret, opret |
-
-| PkI | Hodnota veřejného klíče | Záznam o transakci | Pouze Taproot a není kompatibilní se staršími peněženkami | Identity založené na Bitcoinech | Sigtweak, witweak |
-
-| TxO1 | Transakční výstup | Transakční vstup | Pouze Taproot a nekompatibilní se staršími peněženkami | V současné době neexistuje | Sigtweak, witweak |
 
 Nebudeme se podrobně zabývat každou z těchto konfigurací, protože v RGB jsme se rozhodli použít jako definici pečeti **výstupní bod** a umístit _commitment_ do výstupu transakce, která tento _výstupní bod_ utrácí. Můžeme tedy zavést následující pojmy pro pokračování:
 
@@ -740,79 +735,52 @@ Při spuštění systému RGB jsme všechny tyto metody přezkoumali, abychom ur
 - Obtížnost implementace a údržby ;
 - Důvěrnost a odpor vůči cenzuře.
 
-| Trace a on-chain sizing | Client-side sizing | Portfolio integration | Hardware compatibility | Lightning compatibility | Taproot compatibility |
+| Metoda                                               | Stopa a velikost on-chain | Velikost na straně klienta | Integrace peněženek | Kompatibilita s hardwarem | Kompatibilita s Lightning | Kompatibilita s Taproot |
+| ---------------------------------------------------- | ------------------------- | -------------------------- | ------------------- | ------------------------- | ------------------------- | ----------------------- |
+| Keytweak (deterministický P2C)                       | 🟢                        | 🟡                         | 🔴                  | 🟠                        | 🔴 BOLT, 🔴 Bifrost       | 🟠 Taproot, 🟢 MuSig    |
+| Sigtweak (deterministický S2C)                       | 🟢                        | 🟢                         | 🟠                  | 🔴                        | 🔴 BOLT, 🔴 Bifrost       | 🟠 Taproot, 🔴 MuSig    |
+| Opret (OP_RETURN)                                    | 🔴                        | 🟢                         | 🟢                  | 🟠                        | 🔴 BOLT, 🟠 Bifrost       | -                       |
+| Algoritmus Tapret: levý horní uzel                   | 🟠                        | 🔴                         | 🟠                  | 🟢                        | 🔴 BOLT, 🟢 Bifrost       | 🟢 Taproot, 🟢 MuSig    |
+| Algoritmus Tapret #4: jakýkoliv uzel + důkaz jedinečnosti | 🟢                  | 🟠                         | 🟠                  | 🟢                        | 🔴 BOLT, 🟢 Bifrost       | 🟢 Taproot, 🟢 MuSig    |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
+| Deterministické schéma závazku                                | Standard       | Náklady on-chain                                                                                                         | Velikost důkazu na straně klienta                                                                               |
+| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Keytweak (deterministické P2C)                                | LNPBP-1, 2     | 0 bytů                                                                                                                  | 33 bytů (netweakovaný klíč)                                                                                      |
+| Sigtweak (deterministické S2C)                                | WIP (LNPBP-39) | 0 bytů                                                                                                                  | 0 bytů                                                                                                           |
+| Opret (OP_RETURN)                                             | -              | 36 (v)bytů (další TxOut)                                                                                                | 0 bytů                                                                                                           |
+| Algoritmus Tapret: levý horní uzel                            | LNPBP-6        | 32 bytů ve svědku (8 vbytů) pro jakýkoliv multisig n-of-m a výdaj přes scriptovou cestu                                | 0 bytů pro scriptless scripts taproot ~270 bytů v případě jednoho skriptu, ~128 bytů pokud více skriptů         |
+| Algoritmus Tapret #4: libovolný uzel + důkaz jedinečnosti     | LNPBP-6        | 32 bytů ve svědku (8 vbytů) pro případy jednoho skriptu, 0 bytů ve svědku ve většině ostatních případů                   | 0 bytů pro scriptless scripts taproot, 65 bytů, dokud Taptree neobsahuje tucet skriptů                          |
 
-| Keytweak (deterministické P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+| Vrstva                          | Náklady on-chain (bytes/vbytes) | Náklady on-chain (bytes/vbytes) | Náklady on-chain (bytes/vbytes) | Náklady on-chain (bytes/vbytes) | Náklady on-chain (bytes/vbytes) | Náklady klientské (bytes) | Náklady klientské (bytes) | Náklady klientské (bytes) | Náklady klientské (bytes) | Náklady klientské (bytes) |
+| -------------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| **Typ**                         | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**               | **Tapret #4**            | **Keytweak**             | **Sigtweak**             | **Opret**                |
+| Single-sig                      | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | 0?                       | 0                        |
+| MuSig (n-of-n)                  | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | ? > 0                    | 0                        |
+| Multi-sig 2-of-3                | 32/8                         | 32/8 nebo 0                  | 0                            | n/a                          | 32                           | ~270                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 3-of-5                | 32/8                         | 32/8 nebo 0                  | 0                            | n/a                          | 32                           | ~340                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 2-of-3 s časovými limity | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
-| Sigtweak (deterministické S2C) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
 
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - |
+| Vrstva                            | Náklady on-chain (vbytes) | Náklady on-chain (vbytes) | Náklady on-chain (vbytes) | Náklady klientské (bytes) | Náklady klientské (bytes) |
+| --------------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| **Typ**                           | **Základ**               | **Tapret #2**            | **Tapret #4**            | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                    | 16.5                     | 0                        | 0                        | 0                        | 0                        |
+| FROST (n-of-m)                    | ?                        | 0                        | 0                        | 0                        | 0                        |
+| Multi_a (n-of-m)                  | 1+16n+8m                 | 8                        | 8                        | 33 * m                   | 65                       |
+| Větev MuSig / Multi_a (n-of-m)     | 1+16n+8n+8xlog(n)        | 8                        | 0                        | 64                       | 65                       |
+| S časovými limity (n-of-m)         | 1+16n+8n+8xlog(n)        | 8                        | 0                        | 64                       | 65                       |
 
-| Algoritmus Tapret: levý horní uzel | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
+| Metoda                                   | Soukromí a škálovatelnost | Interoperabilita | Kompatibilita | Přenositelnost | Složitost |
+| ---------------------------------------- | ------------------------- | ---------------- | ------------- | -------------- | ---------- |
+| Keytweak (deterministické P2C)           | 🟢                         | 🔴               | 🔴            | 🟡            | 🟡         |
+| Sigtweak (deterministické S2C)           | 🟢                         | 🔴               | 🔴            | 🟢            | 🔴         |
+| Opret (OP_RETURN)                        | 🔴                         | 🟠               | 🔴            | 🟢            | 🟢         |
+| Algo Tapret: levý horní uzel             | 🟠                         | 🟢               | 🟢            | 🔴            | 🟠         |
+| Algo Tapret #4: libovolný uzel + důkaz   | 🟢                         | 🟢               | 🟢            | 🟠            | 🔴         |
 
-| Tapret algoritmus #4: libovolný uzel + důkaz | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
-| Deterministické schéma závazků | Standardní | Náklady na řetězec | Velikost důkazů na straně zákazníka |
 
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 
-| Úprava klíče (deterministické P2C) | LNPBP-1, 2 | 0 bajtů | 33 bajtů (neupravený klíč) |
-
-| Sigtweak (deterministické S2C) | WIP (LNPBP-39) | 0 bajtů | 0 bajtů |
-
-| Opret (OP_RETURN) | - | 36 (v)bytů (TxOut additional) | 0 bytů |
-
-| Tapretův algoritmus: levý horní uzel | LNPBP-6 | 32 bajtů ve svědkovi (8 vbytů) na libovolném n-of-m multisig a strávit na cestu skriptu | 0 bajtů na taproot skriptech bez skriptu ~270 bajtů v případě jednoho skriptu, ~128 bajtů, pokud je více než jeden skript |
-
-| Tapret algoritmus #4: libovolný uzel + důkaz jedinečnosti | LNPBP-6 | 32 bajtů ve svědkovi (8 vbytů) pro případy s jedním skriptem, 0 bajtů ve svědkovi ve většině ostatních případů | 0 bajtů u skriptů bez taprootu, 65 bajtů, dokud Taptree nemá tucet skriptů |
-
-| Vrstva | Náklady na řetězec (bajty/byt) | Náklady na řetězec (bajty/byt) | Náklady na řetězec (bajty/byt) | Náklady na řetězec (bajty/byt) | Náklady na řetězec (bajty/byt) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty)
-
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Type** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Type** | **Type** | **Type** | **Keytweak** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Typ**
-
-| Single-sig | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-of-n) | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-of-3 | 32/8 | 32/8 nebo 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3 z 5 | 32/8 | 32/8 nebo 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-of-3 s časovým limitem | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0
-
-| Vrstva | Náklady v řetězci (vbytes) | Náklady v řetězci (vbytes) | Náklady v řetězci (vbytes) | Náklady na straně klienta (bajty) | Náklady na straně klienta (bajty) |
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Typ** | **Základna** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** | **Tapret #4**
-
-| MuSig (n-of-n) | 16,5 | 0 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-of-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-of-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
-
-| MuSig branch / Multi_a (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| S časovými limity (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Metoda | Důvěrnost a škálovatelnost | Interoperabilita | Kompatibilita | Přenositelnost | Složitost |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (deterministické P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 | 🟡 |
-
-| Sigtweak (deterministické S2C) | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 | |
-
-| Algo Tapret: levý horní uzel | 🟠 | 🟢 | 🔴 | 🟠 | 🟠 |
-
-| Algo Tapret #4: Jakýkoli uzel + důkaz | 🟢 | 🟢 | 🔴 | 🔴 |
 
 V průběhu studie se ukázalo, že žádné z těchto schémat závazků není plně kompatibilní se současným standardem Lightning (který nepoužívá Taproot, _muSig2_ ani další podporu _závazků). Probíhá úsilí o úpravu konstrukce kanálu Lightning (*BiFrost*) tak, aby umožňovala vkládání závazků RGB. To je další oblast, kde je třeba přezkoumat strukturu transakcí, klíče a způsob, jakým se podepisují aktualizace kanálů.
 
@@ -1042,7 +1010,7 @@ V příští kapitole se podíváme na čistě neřetězcovou složku RGB, konkr
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
-![video](https://youtu.be/tmAVdyXGmj4)
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
 V této a následující kapitole se budeme zabývat pojmem **chytrá smlouva** v prostředí RGB a prozkoumáme různé způsoby, jakými mohou tyto smlouvy definovat a vyvíjet svůj *stav*. Uvidíme, proč architektura RGB pomocí uspořádané posloupnosti jednorázových pečetí umožňuje provádět různé typy ***smluvních operací*** škálovatelným způsobem a bez průchodu centralizovaným registrem. Podíváme se také na zásadní roli ***Business Logic*** v rámci vývoje stavu smlouvy.
 
@@ -1134,7 +1102,7 @@ V příští kapitole se budeme podrobněji zabývat konkrétní reprezentací t
 
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
-![video](https://youtu.be/lUTjeuM0oTA)
+:::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
 V této kapitole se podíváme na to, jak fungují operace v chytrých smlouvách a přechody mezi stavy, opět v rámci protokolu RGB. Cílem bude také pochopit, jak několik účastníků spolupracuje na převodu vlastnictví aktiva.
 
@@ -1400,19 +1368,14 @@ Není-li ve smlouvě prvek stavu definován jako proměnlivý nebo kumulativní,
 
 Následující tabulka ukazuje, jak mohou jednotlivé typy smluvních operací manipulovat (nebo nemanipulovat) s globálním stavem a vlastněným stavem:
 
-| Geneze | Rozšíření stavu | Přechod stavu |
+|                              | Genesis | Rozšíření stavu | Přechod stavu |
+| ---------------------------- | :-----: | :-------------: | :-----------: |
+| **Přidání Global State**     |    +    |        -        |       +       |
+| **Mutace Global State**      |   n/a   |        -        |       +       |
+| **Přidání Owned State**      |    +    |        -        |       +       |
+| **Mutace Owned State**       |   n/a   |       Ne        |       +       |
+| **Přidání Valencies**        |    +    |        +        |       +       |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Přidání globálního stavu** | + | - | + |
-
-| n/a | - | + | **Mutace globálního stavu** | - | + |
-
-| **Přidání vlastního státu** | + | - | + | |
-
-| **Mutace vlastněného stavu** | n/a | Ne | + |
-
-| **Přidání valencí** | + | + | + | + | |
 
 **`+`** : akce je možná, pokud to schéma smlouvy umožňuje.
 
@@ -1420,15 +1383,12 @@ Následující tabulka ukazuje, jak mohou jednotlivé typy smluvních operací m
 
 Kromě toho lze v následující tabulce rozlišit časový rozsah a práva aktualizace jednotlivých typů dat:
 
-| Metadata | Globální stav | Vlastní stav |
+|                                 | Metadata                                 | Globální stav                                 | Vlastněný stav                                                                                              |
+| ------------------------------- | ---------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Rozsah**                      | Definováno pro jednu Contract Operation  | Definováno globálně pro smlouvu               | Definováno pro každou pečeť (*Assignment*)                                                                |
+| **Kdo jej může aktualizovat?**  | Neaktualizovatelné (efemérní data)       | Operace vydaná aktéry (vydavatel atd.)        | Závisí na oprávněném držiteli, který vlastní pečeť (ten, kdo ji může utratit v následující transakci)     |
+| **Časový rozsah**               | Pouze pro aktuální operaci               | Stav je stanoven na konci operace             | Stav je definován před operací (podle *Seal Definition* předchozí operace)                                |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Definováno pro jednu operaci smlouvy | Definováno globálně pro smlouvu | Definováno pro každou plombu (*Přidělení*) | Definováno pro jednu operaci smlouvy | Definováno globálně pro smlouvu | Definováno pro každou plombu (*Přidělení*) | Definováno pro každou plombu (*Přidělení*) | Definováno pro každou smlouvu
-
-| Neaktualizovatelné (efemérní údaje) | Transakce vydaná aktéry (emitentem atd.) | Závisí na oprávněném držiteli pečeti (ten, kdo ji může utratit v následné transakci) |
-
-| Stav je definován před operací (podle *definice těsnění* předchozí operace) | Stav je stanoven na konci operace | Stav je stanoven na konci operace | Stav je definován před operací (podle *definice těsnění* předchozí operace) | Stav je stanoven na konci operace | Stav je definován před operací (podle *definice těsnění* předchozí operace)
 
 ### Globální stát
 
@@ -1544,17 +1504,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Deklarativní** | **Fungující** | **Strukturované** | **Přílohy** | **Přílohy**
+| **Prvek**            | **Deklarativní** | **Fungibilní**                       | **Strukturovaný**              | **Přílohy**                   |
+| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Data**             | Žádná           | Podepsané nebo nepodepsané celé číslo 64bit | Jakýkoli přísný typ dat | Jakýkoli soubor              |
+| **Typ informace**    | Žádný           | Podepsané nebo nepodepsané            | Přísné typy                   | MIME typ                      |
+| **Soukromí**        | Nevyžadováno    | Pedersen commitment                   | Hashování s oslepením         | Hašovaný identifikátor souboru |
+| **Velikostní limity** | N/A            | 256 bajtů                             | Až 64 KB                       | Až ~500 GB                    |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| Žádný | 64bitové celé číslo se znaménkem nebo bez znaménka | Jakýkoli striktní datový typ | Jakýkoli soubor |
-
-| Typ informace** | Žádné | Signované nebo nepodepsané | Přísné typy | Typ MIME |
-
-| Pedersenův závazek | Hashování se zaslepením | Hashované ID souboru
-
-| Omezení velikosti** | N/A | 256 bajtů | Až 64 KB | Až ~500 Gb |
 
 ### Vstupy
 
@@ -1865,7 +1821,8 @@ Lightning Network je decentralizovaná síť platebních kanálů (nebo _státn�
 
 Další informace o tom, jak Lightning funguje, najdete v tomto dalším kurzu:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### Multi Protocol Commitment - MPC
 
 Multi Protocol Commitment (MPC) odkazuje na Merkleho stromovou strukturu používanou v RGB, která v rámci jedné bitcoinové transakce zahrnuje několik **přechodových balíčků** z různých smluv. Smyslem je seskupit několik závazků (potenciálně odpovídajících různým smlouvám nebo různým aktivům) do jednoho kotevního bodu s cílem optimalizovat obsazení prostoru bloku.
@@ -1968,7 +1925,7 @@ Transakce svědka je transakce Bitcoinu, která uzavírá jednorázovou pečeť 
 
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
-![video](https://youtu.be/Uo1UoxiImsI)
+:::video id=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
 
 V této kapitole se blíže podíváme na to, jak je definována a implementována smlouva RGB. Uvidíme, jaké jsou součásti kontraktu RGB, jaké jsou jejich role a jak jsou konstruovány.
 
@@ -1998,17 +1955,13 @@ Je důležité si uvědomit, že aby peněženka mohla spravovat aktivum RGB (a�
 
 Pro objasnění těchto pojmů uvádíme souhrnnou tabulku, která porovnává součásti smlouvy RGB s pojmy známými z objektově orientovaného programování (OOP) nebo z ekosystému Ethereum:
 
-| Komponenta smlouvy RGB | Význam | Ekvivalent OOP | Ekvivalent Ethereum |
+| RGB smluvní komponenta       | Význam                                 | Odpovídající OOP                             | Odpovídající Ethereum            |
+| ---------------------------- | ------------------------------------- | -------------------------------------------- | -------------------------------- |
+| **Genesis**                  | Počáteční stav smlouvy                | Konstruktor třídy                           | Konstruktor kontraktu            |
+| **Schema**                   | Obchodní logika smlouvy               | Třída                                       | Kontrakt                         |
+| **Interface**                | Sémantika smlouvy                     | Rozhraní (Java) / trait (Rust) / protokol (Swift) | ERC Standard                     |
+| **Interface Implementation** | Mapování sémantiky a logiky           | Impl (Rust) / Implements (Java)             | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Konstruktor třídy | Konstruktor smlouvy | Počáteční stav smlouvy
-
-| Třída | Obchodní logika smlouvy
-
-| Sémantika smlouvy | Rozhraní (Java) / rys (Rust) / protokol (Swift) | ERC Standard |
-
-| Binární rozhraní aplikace (ABI) | Impl (Rust) / Implements (Java) | Mapování sémantiky a logiky
 
 V levém sloupci jsou uvedeny prvky specifické pro protokol RGB. Prostřední sloupec ukazuje konkrétní funkci jednotlivých prvků. Ve sloupci "OOP ekvivalent" pak najdeme ekvivalentní výraz v objektově orientovaném programování:
 
@@ -2660,7 +2613,7 @@ V příští kapitole se podíváme na to, jak funguje převod smlouvy a jak se 
 
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
-![video](https://youtu.be/sVoKIi-1XbY)
+:::video id=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
 
 V této kapitole budeme analyzovat proces převodu smlouvy v ekosystému RGB. Pro ilustraci se podíváme na Alici a Boba, naše obvyklé protagonisty, kteří si přejí vyměnit aktivum RGB. Ukážeme si také několik výňatků z příkazů nástroje `rgb` pro příkazový řádek, abychom viděli, jak funguje v praxi.
 
@@ -2954,7 +2907,7 @@ Nyní, když jsme se seznámili s hlavními prvky programování RGB, vás v dal
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
-![video](https://youtu.be/GRwS-NvWF3I)
+:::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
 V této kapitole si krok za krokem ukážeme, jak napsat smlouvu pomocí nástroje příkazového řádku `rgb`. Cílem je ukázat, jak nainstalovat CLI a pracovat s ním, zkompilovat **schéma**, importovat **rozhraní** a **implementaci rozhraní** a poté vydat (*vydat*) aktivum. Podíváme se také na základní logiku, včetně kompilace a ověřování stavu. Na konci této kapitoly byste měli být schopni reprodukovat tento proces a vytvořit vlastní smlouvy RGB.
 
@@ -3253,7 +3206,7 @@ V příští kapitole se blíže podíváme na integraci RGB do sítě Lightning
 
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
-![video](https://youtu.be/mqCupTlDbA0)
+:::video id=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 V této kapitole navrhnu, jak lze RGB využít v rámci sítě Lightning Network k integraci a přesunu aktiv RGB (tokenů, NFT atd.) prostřednictvím platebních kanálů mimo řetězec.
 
@@ -3305,7 +3258,8 @@ Síť Lightning Network ve skutečnosti umožňuje směrování plateb více kan
 
 Fungování systému RGB v síti Lightning je proto třeba posuzovat souběžně s fungováním samotné sítě Lightning. Pokud byste se chtěli tomuto tématu věnovat hlouběji, vřele doporučuji podívat se na toto další komplexní školení:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### Kódová mapa RGB
 
 Nakonec, než přejdeme k další části, bych vám rád poskytl přehled kódu použitého v RGB. Protokol je založen na sadě knihoven Rust a specifikacích open source. Zde je přehled hlavních repozitářů a beden:
@@ -3407,7 +3361,7 @@ Ekosystém spojený s deterministickým vývojem s otevřeným zdrojovým kódem
 
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
-![video](https://youtu.be/nbUtV8GOR_U)
+:::video id=2ec9a181-a8b0-4da2-b7b5-9dfaaaeb10ba:::
 
 Tato závěrečná část kurzu je založena na prezentacích různých řečníků z bootcampu RGB. Obsahuje výpovědi a úvahy o RGB a jeho ekosystému a také prezentace nástrojů a projektů založených na tomto protokolu. Tuto první kapitolu moderuje Hunter Beast a další dvě Frederico Tenga.
 
@@ -3473,7 +3427,7 @@ Peněženka **Bitmask** je součástí tohoto přístupu: na straně blockchainu
 
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
-![vidéo](https://youtu.be/5iAhsgCSL3U)
+:::video id=04555813-516f-4eea-9767-7082c2ea6f01:::
 
 V této kapitole, založené na prezentaci Frederica Tengy, se podíváme na soubor nástrojů a projektů vytvořených týmem Bitfinex, které se věnují RGB a jejichž cílem je podpořit vznik bohatého a rozmanitého ekosystému kolem tohoto protokolu. Původním cílem týmu není vydat konkrétní komerční produkt, ale spíše poskytnout softwarové stavební kameny, přispět k samotnému protokolu RGB a navrhnout konkrétní referenční implementace, jako je mobilní peněženka (*Iris Wallet*) nebo uzel Lightning kompatibilní s RGB.
 
@@ -3587,7 +3541,7 @@ V příští kapitole se blíže podíváme na to, jak spustit uzel RGB Lightnin
 
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
-![vidéo](https://youtu.be/piQQH4Q2nr0)
+:::video id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::
 
 V této závěrečné kapitole vás Frederico Tenga krok za krokem provede nastavením uzlu Lightning RGB v prostředí Regtest a ukáže vám, jak v něm vytvořit tokeny RGB. Spuštěním dvou samostatných uzlů také zjistíte, jak mezi nimi otevřít kanál Lightning a vyměňovat aktiva RGB.
 
@@ -3954,20 +3908,18 @@ Projekt zůstává ve fázi alfa. Proto se důrazně doporučuje omezit se na te
 
 Možnosti, které se díky této kompatibilitě LN-RGB otevírají, jsou značné: stablecoiny na Lightningu, DEX layer-2, převod zastupitelných tokenů nebo NFT za velmi nízké náklady... V předchozích kapitolách byla nastíněna koncepční architektura a logika ověřování. Nyní máte praktický pohled na to, jak takový uzel zprovoznit, pro váš budoucí vývoj nebo testy.
 
-# Závěr
+# Sekce finále
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
-
-<isCourseConclusion>pravdivý</isCourseConclusion>
 
 ## Recenze a hodnocení
 
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
-## Závěrečné poznámky
+## Závěr
 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-<isCourseConclusion>pravdivý</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

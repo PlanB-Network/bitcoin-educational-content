@@ -1,0 +1,10 @@
+question: JoinMarket 如何補償製造商？
+answer: 通過接受者支付的費用。
+wrong_answers:
+  - 透過 Mining 收費。
+  - 透過接受者的自願捐款。
+  - 透過 Bitcoin 社群的撥款。
+explanation: |
+  製造者將其比特幣提供給接受者，並收取服務費。兌換者反過來付費使用製造者的比特幣，以進行他們自己的 CoinJoin 交易。
+  
+reviewed: false

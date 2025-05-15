@@ -1,0 +1,12 @@
+question: Na jakiej zasadzie działa Bitcoin Mining?
+answer: Bitcoin Mining działa na zasadzie loterii, gdzie szanse na wygranie bloku (a tym samym nagrody Bitcoin) co dziesięć minut są niezwykle niskie dla pojedynczego małego Miner.
+wrong_answers:
+  - Bitcoin Mining działa na zasadzie "kto pierwszy, ten lepszy", gdzie pierwszy Miner, który rozwiąże złożony problem matematyczny, otrzymuje nagrodę Bitcoin.
+  - Bitcoin Mining działa na zasadzie licytacji, gdzie Miner, który licytuje najwyżej, otrzymuje nagrodę Bitcoin.
+  - Bitcoin Mining działa na zasadzie rotacji, gdzie każdy Miner dostaje turę na wydobycie bloku i otrzymanie nagrody Bitcoin.
+explanation: |
+  Rozdział wyjaśnia, że Bitcoin Mining działa na zasadzie loterii
+  gdzie szanse na wygranie bloku (a tym samym nagrody
+  a tym samym nagrodę Bitcoin) co dziesięć minut są
+  niezwykle niskie dla pojedynczego małego Miner.
+reviewed: true

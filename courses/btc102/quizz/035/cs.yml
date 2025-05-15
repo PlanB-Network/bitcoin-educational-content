@@ -1,9 +1,9 @@
-question: Kdo popsal Bitcoin jako švýcarskou banku ve vaší kapse?
-answer: Barack Obama
+question: Jaké řešení ukládání se doporučuje pro hodler?
+answer: A Hardware Wallet
 wrong_answers:
-  - Donald Trump
-  - Bill Gates
-  - Elon Musk
+  - A Hot Wallet
+  - Pečovatelská služba
+  - Dokument Wallet
 explanation: |
-  Kapitola uvádí, že Barack Obama jednou popsal Bitcoin jako švýcarskou banku ve vaší kapse.
+  Hodler, který drží bitcoiny dlouhodobě, by měl používat Hardware Wallet, aby maximalizoval bezpečnost.
 reviewed: false

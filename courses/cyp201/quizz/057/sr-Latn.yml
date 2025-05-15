@@ -1,0 +1,9 @@
+question: Kolika je veličina seed generisanog pomoću PBKDF2?
+answer: 512 bita
+wrong_answers:
+  - 128 bita
+  - 256 bita
+  - Promenljiva u zavisnosti od dužine fraze Mnemonic
+explanation: |
+  Bez obzira na dužinu Mnemonic fraze, PBKDF2 uvek generiše 512-bitni seed.
+reviewed: false

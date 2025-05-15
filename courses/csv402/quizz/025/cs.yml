@@ -1,0 +1,9 @@
+question: Jaké čtyři složky definují smlouvu RGB?
+answer: Geneze, schéma, rozhraní a implementace rozhraní
+wrong_answers:
+  - Geneze, schéma, přechod a implementace rozhraní
+  - Geneze, rozhraní, přechod a rozšíření
+  - Genesis, rozhraní, implementace rozhraní a rozšíření
+explanation: |
+  Smlouva RGB se skládá ze čtyř různých prvků: Genesis, Schema, Interface a Interface Implementation.
+reviewed: false

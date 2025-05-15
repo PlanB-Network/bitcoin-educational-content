@@ -1,0 +1,8 @@
+question: Šta je BTCMap?
+answer: Platforma koja navodi sve trgovce koji prihvataju Bitcoin.
+wrong_answers:
+  - Mapa svih Bitcoin rudnika u svetu.
+  - Mapa svih Bitcoin menjačnica na svetu.
+  - Mapa svih korisnika Bitcoin u svetu.
+explanation: >-
+reviewed: true

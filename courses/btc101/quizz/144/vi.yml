@@ -1,5 +1,4 @@
-question: Yêu cầu băng thông để vận hành một nút Bitcoin, xét
-  1 khối 1MB mỗi 10 phút là bao nhiêu?
+question: Yêu cầu băng thông để vận hành một nút Bitcoin, xét 1 khối 1MB mỗi 10 phút là bao nhiêu?
 answer: Khoảng 5GB mỗi tháng.
 wrong_answers:
   - Khoảng 1GB mỗi tháng.

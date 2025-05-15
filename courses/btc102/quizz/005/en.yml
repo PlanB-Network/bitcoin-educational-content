@@ -1,9 +1,9 @@
-question: What is the focus of this university's course?
-answer: The Bitcoin universe.
+question: Why is two-factor authentication recommended?
+answer: It adds an extra layer of security
 wrong_answers:
-  - The global cryptocurrency industry.
-  - The fintech industry.
-  - The blockchain industry.
+  - It simplifies access by reducing the number of codes
+  - It allows login without a password
+  - It replaces the use of a password manager
 explanation: |
-  The entire focus of this university is on the Bitcoin universe, not crypto.
+  2FA requires a temporary code in addition to the password, which greatly strengthens the protection of an online account.
 reviewed: false

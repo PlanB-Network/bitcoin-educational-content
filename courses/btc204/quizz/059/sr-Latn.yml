@@ -1,0 +1,9 @@
+question: Na približno kom nivou je ukupna stopa ponovne upotrebe Address na Bitcoin?
+answer: Oko 50%
+wrong_answers:
+  - Oko 5%
+  - Oko 15%
+  - Oko 40%
+explanation: |
+  Od ranih 2010-ih, ukupna stopa ponovne upotrebe Address na Bitcoin varirala je oko 50%.
+reviewed: false

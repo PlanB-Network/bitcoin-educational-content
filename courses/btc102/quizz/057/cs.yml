@@ -1,9 +1,9 @@
-question: Co znamená zkratka DCA v kontextu investování do Bitcoinu?
-answer: Průměrování nákladů v dolarech
+question: Kterému způsobu pořízení se paranoidní uživatel vyhne?
+answer: Centralizované platformy s KYC
 wrong_answers:
-  - Přímé získání měny
-  - Přidělení digitálních mincí
-  - Decentralizovaný kryptoaktivum
+  - Platformy pro dohazování P2P
+  - Bankomaty Bitcoin
+  - Přímé nákupy v hotovosti na setkáních
 explanation: |
-  Průměrování nákladů v dolarech (DCA) je strategie, při které rozdělíte celkovou částku, kterou chcete investovat, mezi pravidelné nákupy, aby se snížil dopad volatility.
+  Paranoidní uživatel se v zájmu zachování anonymity vyhýbá platformám, které vyžadují ověření totožnosti.
 reviewed: false

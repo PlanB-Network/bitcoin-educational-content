@@ -1,0 +1,9 @@
+question: Welches Szenario veranschaulicht am besten die Verwendung des Profils Essential für Bitcoin-Zahlungen?
+answer: Ein Restaurant, das ein paar Bitcoin-Zahlungen pro Monat akzeptiert
+wrong_answers:
+  - Ein multinationales Unternehmen, das täglich Tausende von Transaktionen verarbeitet
+  - Ein unabhängiger Freiberufler, der die Bezahlung seiner Rechnungen in Bitcoins akzeptiert
+  - Ein Hochfrequenz-Bitcoin-Handelsplatz
+explanation: |
+  Das Profil Essential zielt auf kleine bis mittelgroße Unternehmen mit wenigen Bitcoin-Transaktionen ab, wie z. B. ein Restaurant.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Co nabízí Bitcoin každému jednotlivci?
-answer: Možnost opustit tradiční finanční systém
+question: Který profil upřednostňuje získávání peněz bez KYC a používání vysoce zabezpečených peněženek?
+answer: Paranoidní
 wrong_answers:
-  - Možnost rychle zbohatnout
-  - Možnost investovat do akcií
-  - Možnost otevřít si bankovní účet
+  - Hodler
+  - Zakladač
+  - Aktivní uživatel
 explanation: |
-  Kapitola uvádí, že Bitcoin nabízí každému jednotlivci možnost opustit
-  tradiční finanční systém. Je to etická volba, kterou se pravděpodobně
-  jednoho dne každý bude muset rozhodnout.
+  Paranoik upřednostňuje soukromí a bezpečnost a používá vysoce bezpečné metody získávání a ukládání dat.
 reviewed: false

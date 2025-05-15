@@ -1,0 +1,9 @@
+question: 是誰想出建立測試網路來避免損害主要的 Bitcoin 網路？
+answer: Gavin Andresen
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - Laszlo Hanyecz
+explanation: |
+  他 [提到](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104)這個想法在 6 月 9 日的論壇上，Satoshi 核准了。他 [建立](https;//bitcointalk.org/index.php?topic=363.msg3018#msg3018) Testnet 於 7 月 15 日。
+reviewed: false

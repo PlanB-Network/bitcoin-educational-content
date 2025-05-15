@@ -1,0 +1,9 @@
+question: Koji je uslov da ceo broj a ima inverz modulo N?
+answer: a i N moraju biti međusobno prosti
+wrong_answers:
+  - N mora biti paran
+  - a mora biti neparan
+  - a mora biti prost broj
+explanation: |
+  Ceo broj a ima inverz modulo N ako i samo ako su međusobno prosti, što znači da je njihov najveći zajednički delilac 1.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitkä keskeiset maksutiedot on dokumentoitava jokaisesta Bitcoin-tapahtumasta?
+answer: Päiväys, määrä, vastaava fiat-arvo ja siihen liittyvät osoitteet
+wrong_answers:
+  - Tapahtuman tunnus, verkkomaksu ja kauppiaan osoite
+  - Päivämäärä, valuuttakurssi, lompakkotyyppi ja maantieteellinen sijainti
+  - Bitcoin-lohkon numero, aikaleima ja käytetty skripti
+explanation: |
+  Näiden yksityiskohtien dokumentointi varmistaa selkeyden ja auttaa kirjanpitäjiä erottamaan saapuvat ja lähtevät virrat toisistaan.
+reviewed: false

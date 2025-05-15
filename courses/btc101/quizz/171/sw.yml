@@ -1,0 +1,13 @@
+question: Je, itifaki ya Bitcoin inahakikishaje kwamba ina upinzani na uthabiti wa udhibiti?
+answer: Kila sehemu ya itifaki inasambazwa kijiografia kote ulimwenguni.
+wrong_answers:
+  - Inatumia mtandao wa ndani wa nodi zinazosambazwa huko Uropa.
+  - Inatumia algoriti changamano ili kuthibitisha shughuli.
+  - Inatumia kiwango cha juu cha usimbaji fiche.
+explanation: |
+  Itifaki ya Bitcoin inahakikisha upinzani wake wa udhibiti na
+  ujasiri kwa sababu kila sehemu ya itifaki ni
+  kusambazwa kijiografia kote ulimwenguni. Kwa mfano,
+  kuna takriban nodi 40,000 za Bitcoin kote kote
+  mabara.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welche beiden Briefträgertypen werden im Starterprofil berücksichtigt?
+answer: Gewahrsamsfähige und nicht gewahrsamsfähige Lightning-Geldbörsen
+wrong_answers:
+  - Hot- und Cold-Storage Bitcoin-Wallets
+  - Multisig und Papier-Bitcoin-Geldbörsen
+  - Hardware und Gehirn Blitz-Brieftaschen
+explanation: |
+  Das Starter-Profil verwendet entweder verwahrte oder nicht verwahrte Lightning-Geldbörsen.
+reviewed: false

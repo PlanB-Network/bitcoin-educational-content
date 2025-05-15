@@ -1,6 +1,0 @@
-description: |
-  Holepunch je platforma pro vytváření serverless aplikací s využitím naší kolekce malých Javascript modulů, Hypercore.
-  
-  Můžete stavět, aktualizovat a škálovat vaši aplikaci přímo z vašeho laptopu. Naše aplikace, jako je komunikační nástroj Keet, jsou soukromé a šifrované, což zajišťuje bezpečnost dat. S Holepunch si užijte efektivní vývoj a distribuci aplikací, podpořené uživatelskou základnou, která vaši aplikaci posiluje jejím re-hostingem. Revolučně měníme vývoj aplikací bez serverů, bez prostředníků, jen lepší aplikace.
-contributors:
-  - rabbit-hole

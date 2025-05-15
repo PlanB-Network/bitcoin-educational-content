@@ -1,5 +1,4 @@
-question: Mis on käsklus, et kontrollida ringluses olevate bitcoinide hulka
-  Bitcoin'i sõlmel?
+question: Mis on käsklus, et kontrollida ringluses olevate bitcoinide hulka Bitcoin'i sõlmel?
 answer: bitcoin-cli gettxoutsetinfo
 wrong_answers:
   - bitcoin-cli getblockchaininfo

@@ -1,0 +1,11 @@
+question: Jaka jest definicja inflacji według Roberta?
+answer: Inflacja to nadmierny wzrost instrumentów płatniczych powodujący wzrost cen i deprecjację waluty.
+wrong_answers:
+  - Inflacja to spadek środków płatniczych powodujący wzrost cen i deprecjację waluty.
+  - Inflacja to nadmierny wzrost instrumentów płatniczych powodujący spadek cen i deprecjację waluty.
+  - Inflacja to nadmierny wzrost instrumentów płatniczych powodujący wzrost cen i aprecjację waluty.
+explanation: |
+  Według Roberta inflację definiuje się jako nadmierny wzrost wartości
+  instrumentów płatniczych (banknoty, kapitał) powodujący wzrost cen i deprecjację waluty
+  waluty.
+reviewed: false

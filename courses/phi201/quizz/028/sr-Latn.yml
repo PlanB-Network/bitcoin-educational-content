@@ -1,0 +1,9 @@
+question: Prema Aristotelu, šta je sloboda?
+answer: Poslušnost gradskom zakonu
+wrong_answers:
+  - Odsustvo bilo kakvog ograničenja
+  - Moć da radi šta god želi
+  - Svi ostali odgovori su tačni.
+explanation: |
+  Za Aristotela, sloboda se sastoji u poštovanju zakona grada, jer su oni uspostavljeni za opšte dobro. Prava sloboda se ostvaruje unutar okvira građanstva i učešća u političkom životu.
+reviewed: false

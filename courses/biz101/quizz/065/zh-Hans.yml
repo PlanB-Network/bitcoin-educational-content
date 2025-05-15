@@ -1,0 +1,9 @@
+question: 建议基本型企业采用的主要支付解决方案是什么？
+answer: 瑞士比特币支付
+wrong_answers:
+  - 开放节点
+  - BTCPay 服务器
+  - 比特币化 PoS
+explanation: |
+  我们重点推荐瑞士比特币支付（Swiss Bitcoin Pay）作为基本配置文件的解决方案，兼顾简便性和安全性。
+reviewed: false

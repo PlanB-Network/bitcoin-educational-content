@@ -1,0 +1,5 @@
+---
+term: NOVČIĆI/
+---
+
+blkindex.dat

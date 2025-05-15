@@ -9,8 +9,9 @@ language: fr
 description: |
   Des publications traitant d'Histoire, d'économie et de Bitcoin... Le passé peut
   parfois être aussi surprenant que l'avenir.
+contributor_names:
+  - PaoloFoti
 tags:
-  - finance
   - historical
-contributors:
-  - hunt-wood
+  - finance
+  - future-outlook

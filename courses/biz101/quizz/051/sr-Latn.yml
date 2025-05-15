@@ -1,0 +1,9 @@
+question: Koji tip poslovanja će najverovatnije smatrati da je jednostavan csv fajl dovoljan za računovodstvo?
+answer: Mala preduzeća
+wrong_answers:
+  - Velike multinacionalne korporacije
+  - Velike finansijske institucije
+  - Platforme za trgovanje visoke frekvencije
+explanation: |
+  Većina malih preduzeća ima koristi od jednostavnosti i dovoljne detaljnosti koje pruža izvoz u csv formatu.
+reviewed: false

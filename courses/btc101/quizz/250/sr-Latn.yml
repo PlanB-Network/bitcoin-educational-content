@@ -1,0 +1,8 @@
+question: Koja bi mogla biti glavna briga u vezi sa bankarskim sistemom?
+answer: Pravila bankarske igre nisu transparentna i razumljiva svima.
+wrong_answers:
+  - Bankarski sistem je previše lak za razumevanje.
+  - Bankarski sistem je previše transparentan.
+  - Bankarski sistem je previše decentralizovan.
+explanation: >-
+reviewed: true

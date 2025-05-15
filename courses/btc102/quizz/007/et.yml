@@ -1,11 +1,9 @@
-question: Mis on levinud pettus seoses krüptovaluutaga online-annetustega?
-answer: Pakkumised, mis väidavad, et kahekordistavad või suurendavad saadetud bitcoine.
+question: Mida tähendab 3-2-1 reegel andmete varundamisel?
+answer: 3 koopiat kahel erineval andmekandjal, millest 1 on salvestatud väljaspool asukohta
 wrong_answers:
-  - Pakkumised, mis väidavad, et kahekordistavad või suurendavad sinu füüsilisi kaupu.
-  - Pakkumised, mis väidavad, et kahekordistavad või suurendavad sinu fiat valuutat.
-  - Pakkumised, mis väidavad, et kahekordistavad või suurendavad sinu tarkvaratooteid.
+  - 3 koopiat 2 veebipõhisel andmekandjal ja 1 füüsilisel seadmel
+  - 3 andmekandjat koos 2 koopiaga, millest üks on väljaspool tootmiskohta
+  - 3 koopiat, millest 2 on krüpteeritud ja 1 salvestatud väljaspool asukohta
 explanation: |
-  Klassikaline näide sellisest pettusest on pakkumine, mis väidab, et kahekordistab
-  või suurendab saadetud bitcoine. On oluline mõista, et ei ole olemas
-  maagilist lahendust, et saada koheselt rikkaks.
+  Selle reegli kohaselt soovitatakse hoida 3 koopiat andmetest kahel erineval andmekandjal, kusjuures 1 koopia on suurema vastupidavuse tagamiseks salvestatud väljaspool asukohta.
 reviewed: false

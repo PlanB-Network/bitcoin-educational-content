@@ -1,0 +1,9 @@
+question: Womit unterstützt das Essential-Profil die Mitarbeiter bei der Zahlungsabwicklung am PoS?
+answer: Die Erstellung eines Menüs mit Artikelpreisen auf der PoS-App
+wrong_answers:
+  - Ein manuelles Buch zur Erfassung der Verkäufe
+  - Ein Papierrechnungssystem für jede Transaktion
+  - Ein automatisches Buchhaltungssystem für Transaktionen vom PoS
+explanation: |
+  Die PoS-App im Essential-Profil ermöglicht es den Mitarbeitern, Artikel aus einem vorgegebenen Menü auszuwählen, was den Abrechnungsprozess vereinfacht.
+reviewed: false

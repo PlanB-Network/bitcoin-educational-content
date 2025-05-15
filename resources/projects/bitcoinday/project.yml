@@ -1,0 +1,21 @@
+id: ffb8387f-f5f0-4dea-bb71-08ee793797c4
+name: BitcoinDay
+category: conference
+
+links:
+  website: https://bitcoinday.io
+  twitter: https://twitter.com/bitcoindayio
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-21
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.08
+tags:
+  - historical
+  - adoption
+contributor_names:
+  - PaoloFoti

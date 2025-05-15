@@ -1,0 +1,10 @@
+question: Ilani ya Cypherpunk ni nini?
+answer: Maandishi yaliyoandikwa na Eric Hughes yakidai kuwa faragha ni haki ya kimsingi.
+wrong_answers:
+  - Kitabu kilichoandikwa na Julian Assange kuhusu mustakabali wa teknolojia.
+  - Hati inayoelezea kanuni za Bitcoin.
+  - Ilani iliyoandikwa na David Chaum kuhusu umuhimu wa sarafu ya kidijitali.
+explanation: |
+  Manifesto ya Cypherpunk iliandikwa na Eric Hughes mnamo 1993
+  na anadai kuwa faragha ni haki ya msingi.
+reviewed: true

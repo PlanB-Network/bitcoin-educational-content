@@ -91,7 +91,7 @@ Ces fonctions de hachage cryptographiques possèdent plusieurs caractéristiques
 
 #### 1. L'irréversibilité (résistance à la préimage) :
 
-L'irréversibilité signifie qu'il est facile de calculer le hash à partir de l'information en entrée, mais que le calcul inverse, c'est-à-dire retrouver l'entrée à partir du hash, est pratiquement impossible. Cette propriété rend les fonctions de hachage parfaites pour créer des empreintes numériques uniques sans compromettre les informations d'origine. On parle souvent de fonction à sens unique ou de "_trap door function_" pour décrire cette caractéristique.
+L'irréversibilité signifie qu'il est facile de calculer le hash à partir de l'information en entrée, mais que le calcul inverse, c'est-à-dire retrouver l'entrée à partir du hash, est pratiquement impossible. Cette propriété rend les fonctions de hachage parfaites pour créer des empreintes numériques uniques sans compromettre les informations d'origine.
 
 Dans l'exemple donné, obtenir le hash `24f1b9…` en connaissant l'entrée "_PlanB_" est simple et rapide. Toutefois, retrouver le message "_PlanB_" en connaissant uniquement `24f1b9…` est impossible.
 
@@ -721,7 +721,7 @@ Les mathématiques des courbes elliptiques sur les corps finis sont analogues à
 
 Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter également cette autre formation sur Plan ₿ Network :
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calculer la clé publique à partir de la clé privée
 
@@ -1128,7 +1128,7 @@ Si ce sighash flag est intégré à Bitcoin, il permettra l'utilisation de coven
 
 Pour approfondir vos connaissances sur le Lightning Network, après la formation CYP201, je vous recommande vivement la formation LNP201 de Fanis Michalakis, qui aborde le sujet en détail :
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Dans la prochaine partie, je vous propose de découvrir comment fonctionne la phrase mnémonique à la base de votre portefeuille Bitcoin.
 
@@ -1164,7 +1164,7 @@ Cette contrainte découle du modèle de confidentialité de Bitcoin. En réutili
 
 Pour en savoir plus sur le modèle de confidentialité de Bitcoin et découvrir les méthodes pour protéger votre vie privée, je vous recommande également de suivre ma formation BTC204 sur Plan ₿ Network :
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Les portefeuilles HD (_Hierarchical Deterministic_)
 
@@ -2199,13 +2199,13 @@ Pour convertir une valeur en un caractère _bech32_ à l’aide de ce tableau, i
 En mappant toutes nos valeurs, nous obtenons l'adresse suivante :
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Il ne reste plus qu’à ajouter le HRP `bc`, qui indique qu’il s’agit d’une adresse pour le mainnet de Bitcoin, ainsi que le séparateur `1`, afin d’obtenir l’adresse de réception complète :
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 La particularité de cet alphabet _bech32_ est qu’il intègre l’ensemble des caractères alphanumériques à l’exception de `1`, `b`, `i` et `o` pour éviter les confusions visuelles entre des caractères semblables, notamment lors de leur saisie ou de leur lecture par des humains.
@@ -2308,7 +2308,7 @@ Ensuite, la génération de l’adresse suit le même processus, en utilisant la
 
 Et voilà ! Nous arrivons à la fin de cette formation CYP201. Si ce cours vous a été utile, je vous serais très reconnaissant de prendre quelques instants pour lui attribuer une bonne note dans le chapitre d’évaluation qui suit. N’hésitez pas également à le partager avec vos proches ou sur vos réseaux sociaux. Enfin, si vous souhaitez obtenir votre diplôme pour cette formation, vous pouvez passer l’examen final juste après le chapitre de l'évaluation.
 
-# Conclusion
+# Section finale
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

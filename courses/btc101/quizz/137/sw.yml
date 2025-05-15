@@ -1,0 +1,12 @@
+question: Watumiaji huhamishaje Ownership ya pesa zao katika mtandao wa Bitcoin?
+answer: Kwa kusaini shughuli kidijitali kwa kutumia funguo zao za faragha.
+wrong_answers:
+  - Kwa kukabidhi Bitcoins zao kimwili.
+  - Kwa kutuma barua pepe kwa mpokeaji.
+  - Kwa kutoa Bitcoin Address yao kwa mpokeaji.
+explanation: |
+  Watumiaji katika mtandao wa Bitcoin huhamisha Ownership ya zao
+  pesa kwa kusaini shughuli za kidijitali na shughuli zao za kibinafsi
+  funguo. Hii inathibitisha kuwa wao ndio wamiliki wa
+  bitcoins wanataka kuhamisha.
+reviewed: true

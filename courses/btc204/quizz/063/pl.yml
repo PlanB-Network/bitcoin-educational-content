@@ -1,0 +1,10 @@
+question: Jakie są 2 zagrożenia dla prywatności związane z wyborem monet?
+answer: CIOH i powiązanie między danymi wejściowymi / tożsamością przez odbiorcę.
+wrong_answers:
+  - Śledzenie IP Address i korelacja aktywności.
+  - Śledzenie czasowe i ponowne wykorzystanie Address.
+  - Ponowne wykorzystanie Address i powiązanie między wejściami / tożsamością przez zewnętrznego obserwatora.
+explanation: |
+  Przy wyborze monet należy wziąć pod uwagę dwa rodzaje ryzyka: możliwość powiązania przez odbiorcę płatności części tożsamości użytkownika z UTXO wykorzystywanymi jako dane wejściowe oraz możliwość ustanowienia przez zewnętrznego obserwatora powiązań między wszystkimi UTXO wykorzystywanymi jako dane wejściowe (CIOH).
+  
+reviewed: false

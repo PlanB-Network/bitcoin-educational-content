@@ -1,0 +1,5 @@
+---
+term: TRUDNOŚCI Z AKCJAMI
+---
+
+Docelowa trudność wyższa niż trudność Bitcoin (a więc mniejsza), określona przez Mining pool w celu zakwalifikowania Hash do udziału i oceny wkładu każdego indywidualnego Miner w puli. Aby skutecznie zarządzać obciążeniem weryfikacyjnym i zapewnić, że każdy Miner, niezależnie od jego mocy obliczeniowej, regularnie przesyła udziały, pule dostosowują trudność udziałów. Trudność przypisana do każdego Miner określa liczbę udziałów, które gromadzi: na przykład, jeśli Miner ma przypisaną trudność 10 i przedłoży 5 ważnych dowodów pracy o tej trudności, otrzyma 50 udziałów. Potężniejszy Miner o trudności 100, który przedstawi 7 ważnych dowodów pracy, otrzyma 700 udziałów. System ten pozwala na precyzyjną kwantyfikację Hashrate każdego Miner i dystrybucję nagród zgodnie z wybraną metodą obliczania rekompensaty (PPS, PPLNS, TIDES...).

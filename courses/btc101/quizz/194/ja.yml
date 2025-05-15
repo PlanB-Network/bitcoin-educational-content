@@ -1,5 +1,4 @@
 question: 大規模な組織や情熱的なBitcoin愛好家がBitcoinを受け入れるためのツールは何ですか？
-  Bitcoin?
 answer: BTCpay Server.
 wrong_answers:
   - Bitcoin Wallet.

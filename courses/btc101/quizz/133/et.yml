@@ -1,5 +1,4 @@
-question: Mis on protsess, mille abil kaevurid valideerivad tehinguid ja lisavad need
-  plokki?
+question: Mis on protsess, mille abil kaevurid valideerivad tehinguid ja lisavad need plokki?
 answer: Töötõend
 wrong_answers:
   - Panusetõend

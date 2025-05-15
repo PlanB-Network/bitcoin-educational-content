@@ -1,0 +1,9 @@
+question: Jaký je hlavní hardwarový požadavek na profil Starter, aby mohl přijímat platby v bitcoinech?
+answer: Chytrý telefon
+wrong_answers:
+  - Miner bitcoinů ASIC
+  - Hardwarová peněženka
+  - Samostatně hostovaný server
+explanation: |
+  Profil Starter vyžaduje pouze chytrý telefon nebo tablet s peněženkou Lightning, což z něj činí lehké řešení.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jenis bisnis apa yang paling mungkin menemukan file csv sederhana yang cukup untuk akuntansi?
+answer: Usaha kecil
+wrong_answers:
+  - Perusahaan multinasional besar
+  - Institusi keuangan utama
+  - Platform perdagangan frekuensi tinggi
+explanation: |
+  Sebagian besar bisnis kecil mendapat manfaat dari kesederhanaan dan detail yang cukup yang disediakan oleh ekspor csv.
+reviewed: false

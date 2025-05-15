@@ -1,0 +1,9 @@
+question: Jaka jest funkcja Interface w RGB Contract?
+answer: Dane Contract powinny być łatwe do odczytu i manipulacji
+wrong_answers:
+  - Uruchamianie skryptów walidacji na Blockchain
+  - Przechowywanie danych Genesis po stronie klienta
+  - Zdefiniuj ścisły system typów dla raportów
+explanation: |
+  Celem Interface jest przedstawienie informacji Contract w sposób jasny dla użytkowników i oprogramowania, bez wpływu na Business Logic.
+reviewed: false

@@ -1,0 +1,23 @@
+id: 9cb5260c-4ec8-48f8-8523-589da06cfcf9
+name: Human Rights Foundation
+category: news
+
+links:
+  website: https://hrf.org/
+  twitter: https://x.com/HRF
+  youtube: https://www.youtube.com/@humanrightsfdn
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-21
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.06
+tags:
+  - self-sovereignty
+  - decentralization
+  - cypherpunk
+contributor_names:
+  - PaoloFoti

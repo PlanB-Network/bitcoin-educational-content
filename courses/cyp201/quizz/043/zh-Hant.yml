@@ -1,0 +1,9 @@
+question: 一個 24 個字的 Mnemonic 詞組使用多少位元的熵值？
+answer: 256 位元
+wrong_answers:
+  - 128 位元
+  - 512 位元
+  - 64 位元
+explanation: |
+  24 個字的 Mnemonic 詞組以 256 位元的熵為基礎，可確保非常高的安全性。
+reviewed: false

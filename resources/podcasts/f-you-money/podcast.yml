@@ -1,3 +1,4 @@
+id: 3bc4e051-5094-4b64-8539-9a79b8e73596
 name: F You Money
 host: LotoMaxi
 language: pt
@@ -7,9 +8,10 @@ links:
   website: https://fyoumoneypod.com
 description: |
   O podcast focado em Bitcoin (e, esporadicamente, algumas shitcoins, quando é preciso pôr o dedo na ferida) falado em língua portuguesa.
-  
+
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - market-trends
+  - investment
+  - adoption

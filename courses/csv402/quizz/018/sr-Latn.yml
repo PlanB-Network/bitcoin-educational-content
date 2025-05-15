@@ -1,0 +1,9 @@
+question: Koje operacije definišu evoluciju Smart contract u RGB?
+answer: State Transition, Genesis, i State Extension
+wrong_answers:
+  - Seal Kreacija, Contract Posmatranje, i Konačna Validacija
+  - UTXO Transfer, Proof Generation, and Hash Commitment
+  - Tranzicioni Paketi, Jednokratne Zaptivke i Kreacija Valency
+explanation: |
+  Ove operacije kreiraju ili modifikuju stanje Contract, dok garantuju njegovu validnost putem Bitcoin sidara.
+reviewed: false

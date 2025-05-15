@@ -208,7 +208,7 @@ Når du er på RoninUI-hjemmesiden, vil du bli bedt om å starte oppsettet. For 
 
 ![lets start](assets/notext/25.webp)
 
-På dette stadiet presenterer RoninUI deg med ditt `root`-passord. Det er essensielt å holde dette sikkert. Du kan velge en fysisk sikkerhetskopi, på papir, eller lagre det i en [passordbehandler](https://planb.network/courses/secu101/4/2).
+På dette stadiet presenterer RoninUI deg med ditt `root`-passord. Det er essensielt å holde dette sikkert. Du kan velge en fysisk sikkerhetskopi, på papir, eller lagre det i en [passordbehandler](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -320,6 +320,7 @@ En detaljert opplæring er under forberedelse for å veilede deg trinn for trinn
 For en dypere forståelse av coinjoin og bruken av det på Bitcoin, inviterer jeg deg også til å konsultere denne andre artikkelen: Forståelse og bruk av coinjoin på Bitcoin, hvor jeg detaljerer alt du trenger å vite om denne teknikken.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ### Bruke Whirlpool Stat Tool (WST)
 
 Etter å ha utført coinjoins med Whirlpool, er det nyttig å nøyaktig evaluere personvernnivået oppnådd for dine blandede UTXOs. For å gjøre dette, kan du bruke Python-verktøyet *Whirlpool Stat Tool*. Dette verktøyet lar deg måle både de prospektive og retrospektive poengene til dine UTXOs, samtidig som du analyserer deres diffusjonsrate i bassenget.

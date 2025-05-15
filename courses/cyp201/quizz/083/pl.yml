@@ -1,0 +1,9 @@
+question: Jaki typ Address zaczyna się od `1` i należy do standardu Legacy?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  Adresy P2PKH, zakodowane w base58check, pochodzą ze standardu Legacy i zaczynają się od cyfry `1`.
+reviewed: false

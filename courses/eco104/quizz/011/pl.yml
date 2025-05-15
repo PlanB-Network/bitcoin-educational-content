@@ -1,0 +1,19 @@
+question: Co odróżnia Bitcoin od tradycyjnych walut kontrolowanych przez banki centralne lub rządy?
+answer: Wszystkie
+wrong_answers:
+  - Bitcoin wymaga współpracy między górnikami, węzłami i deweloperami
+  - Bitcoin umożliwia każdemu uczestnictwo w sieci i pełnienie kluczowych ról
+  - Bitcoin opiera się na zdecentralizowanym systemie konsensusu
+explanation: |
+  To, co odróżnia Bitcoin od tradycyjnych walut fiducjarnych, to fakt, że jest to
+  współpraca między trzema podstawowymi rolami i społecznością.
+  Węzły zapewniają integralność i bezpieczeństwo sieci, służąc jako strażnicy.
+  Górnicy są odpowiedzialni za przetwarzanie transakcji i utrzymanie Blockchain.
+  Deweloperzy to wysoko wykwalifikowani członkowie społeczności Bitcoin, którzy współpracują ze sobą w celu
+  aby utrzymywać i ulepszać oprogramowanie, które zasila sieć.
+  Społeczność, poprzez korzystanie z Bitcoin, jest tym, co nadaje mu wartość.
+  Każda z tych ról jest niezbędna dla funkcjonalności i sukcesu Bitcoin jako waluty cyfrowej
+  waluty cyfrowej. Powierzając te kluczowe zadania kluczowym graczom, Bitcoin może
+  działać jako zdecentralizowany, bezpieczny, przejrzysty i odpowiedzialny nośnik Exchange dla wszystkich użytkowników
+  dla wszystkich użytkowników, dzięki czemu znacznie różni się od scentralizowanych walut, z których korzystamy obecnie.
+reviewed: true

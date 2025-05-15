@@ -1,5 +1,4 @@
 question: Como o protocolo Bitcoin mantém um tempo médio consistente entre a criação de dois blocos?
-  remains constant?
 answer: A dificuldade de encontrar um hash válido ajusta-se a cada 2016 blocos.
 wrong_answers:
   - O número de mineradores é regulado para um número fixo.

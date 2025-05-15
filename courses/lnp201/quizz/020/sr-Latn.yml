@@ -1,0 +1,9 @@
+question: Koji je glavni rizik u Commitment transakcijama na Lightning Network?
+answer: Objavljivanje stare transakcije radi povraćaja više sredstava
+wrong_answers:
+  - Zaboravljanje da se potpiše Commitment Transaction
+  - Slučajno slanje sredstava na drugi kanal
+  - Blokiranje transakcije sa neodgovarajućim vremenskim zaključavanjem
+explanation: |
+  Glavni rizik je da strana može pokušati da prevari objavljivanjem starog Commitment Transaction, što bi im moglo omogućiti da povrate sredstva koja više nemaju.
+reviewed: false

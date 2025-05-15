@@ -1,0 +1,12 @@
+question: निम्नलिखित में से कौन सा पैसे के तीन आवश्यक कार्यों में से एक *नहीं* है?  
+
+(Note: The original question seems incomplete as it doesn't list the options. In Hindi, I've framed it to match the structure while highlighting "NOT" with emphasis. If you provide the options, I can refine the translation further.)
+answer: ऊर्जा का स्रोत
+wrong_answers:
+  - मूल्य संचय (Store of Value)
+  - Exchange का माध्यम
+  - हिसाब की इकाई
+explanation: |
+  पैसे के तीन मुख्य काम हैं - मूल्य का संचय, विनिमय का माध्यम (Exchange),
+  और लेखा की इकाई। ऊर्जा का स्रोत पैसे का काम नहीं है।
+reviewed: true

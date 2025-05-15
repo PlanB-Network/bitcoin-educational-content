@@ -1,0 +1,9 @@
+question: Koje su implikacije Eulerove teoreme u kontekstu asimetrične kriptografije?
+answer: Pojednostavljuje izračunavanje stepena
+wrong_answers:
+  - Omogućava direktno šifrovanje poruka
+  - Koristi se za pronalaženje prostih brojeva
+  - Koristi se za proveru pariteta broja
+explanation: |
+  U asimetričnoj kriptografiji, Eulerov teorem pojednostavljuje izračunavanje stepena u šemama kao što je RSA, jer pruža metodu za manipulaciju modularnim eksponencijacijama.
+reviewed: false

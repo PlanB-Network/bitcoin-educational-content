@@ -1,0 +1,9 @@
+question: Jaką krytykę pod adresem wynalazku Satoshi Nakamoto wyraził w styczniu 2009 r. członek-założyciel cypherpunks, John Gilmore?
+answer: Bitcoin zanieczyszcza planetę
+wrong_answers:
+  - Bitcoin ułatwia unikanie opodatkowania
+  - Bitcoin jest podatny na ataki Sybil
+  - Bitcoin jest deflacyjny
+explanation: |
+  On [skrytykował](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin za zużywanie energii elektrycznej i generowanie dwutlenku węgla (gazu cieplarnianego).
+reviewed: false

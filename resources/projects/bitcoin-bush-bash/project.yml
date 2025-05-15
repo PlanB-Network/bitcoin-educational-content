@@ -1,0 +1,22 @@
+id: 2509a2dd-5592-4097-a68f-bd7e5e228b04
+name: Bitcoin Bush Bash
+category: education
+
+links:
+  website: https://bitcoinbushbash.info/
+  twitter: https://x.com/bitcoinbushbash
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-21
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.09
+tags:
+  - DIY
+  - guides
+  - user-friendly
+contributor_names:
+  - PaoloFoti

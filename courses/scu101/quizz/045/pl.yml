@@ -1,0 +1,12 @@
+question: Jaka jest główna zaleta korzystania z menedżera haseł?
+answer: Pomaga tworzyć silne hasła i zapamiętywać je, dzięki czemu nie musisz tego robić.
+wrong_answers:
+  - Automatycznie loguje cię do twoich kont online.
+  - Chroni komputer przed wirusami.
+  - Przechowuje wszystkie hasła w jednym miejscu, ułatwiając ich znalezienie.
+explanation: |
+  Menedżer haseł pomaga tworzyć silne hasła i
+  zapamiętać je, abyś nie musiał tego robić. Przechowuje wszystkie
+  hasła w bezpieczny sposób i generuje silne hasła
+  i generuje silne hasła.
+reviewed: true

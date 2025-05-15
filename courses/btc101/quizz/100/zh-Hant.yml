@@ -1,0 +1,12 @@
+question: Wallet 中沒有 Mnemonic 詞組表示什麼？
+answer: 這顯示 Wallet 對於長期儲存 Bitcoin 並不安全。
+wrong_answers:
+  - 這表示 Wallet 完全安全，不需要任何備份。
+  - 這表示 Wallet 可以持有許多不同的債券。
+  - 這表示 Wallet 會自動由您的裝置備份。
+explanation: |
+  在 Wallet 中沒有列出 12 或 24 個單詞，即
+  在 Wallet 中沒有 12 或 24 個字的清單，也就是 Mnemonic 詞組，應該提醒您
+  Wallet 並不安全，因為它沒有遵循標準的備份
+  程序。
+reviewed: true

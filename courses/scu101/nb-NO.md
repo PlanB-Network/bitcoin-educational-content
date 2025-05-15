@@ -26,11 +26,11 @@ Théo; bidrag
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Kursintroduksjon
+## Kursoversikt
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Mål: Oppdater dine sikkerhetsferdigheter!
+**Mål: Oppdater dine sikkerhetsferdigheter!**
 
 Velkommen alle sammen til dette opplæringsprogrammet dedikert til digital sikkerhet. Denne opplæringen er designet for å være tilgjengelig for alle, så ingen forkunnskaper i datavitenskap er nødvendig. Vårt hovedmål er å gi dere kunnskapen og ferdighetene som er nødvendige for å navigere i den digitale verden på en tryggere og mer privat måte.
 
@@ -46,7 +46,7 @@ Din digitale hygiene er avgjørende i en stadig mer digital verden. Til tross fo
 I denne opplæringen prøver vi ikke å gjøre deg til en ekspert, anonym eller usårbar, da dette er umulig. I stedet tilbyr vi deg noen enkle og tilgjengelige løsninger for alle for å starte transformasjonen av dine nettvaner og gjenvinne kontrollen over din digitale suverenitet.
 Hvis du ser etter mer avanserte ferdigheter om emnet, er våre ressurser, opplæringsprogrammer eller annen cybersikkerhetsopplæring her for deg. I mellomtiden, her er en kort oversikt over vårt program for de neste timene sammen.
 
-### Seksjon 1: Alt du trenger å vite om nettlesing
+**Seksjon 1: Alt du trenger å vite om nettlesing**
 
 - Kapittel 1 - Nettlesing
 - Kapittel 2 - Sikker bruk av internett
@@ -55,13 +55,13 @@ For å starte, vil vi diskutere viktigheten av å velge en nettleser og dens imp
 
 ![](assets/en/1.webp)
 
-### Seksjon 2: Beste praksiser for bruk av datamaskin
+**Seksjon 2: Beste praksiser for bruk av datamaskin**
 
 - Kapittel 3 - Bruk av datamaskin
 - Kapittel 4 - Hacking & håndtering av sikkerhetskopier
   I denne seksjonen vil vi dekke tre nøkkelområder innen datamaskinsikkerhet. Først vil vi utforske ulike operativsystemer: Mac, PC og Linux, og fremheve deres spesifikasjoner og styrker. Deretter vil vi dykke ned i metoder for å effektivt beskytte mot hackingforsøk og styrke sikkerheten til enhetene dine. Til slutt vil vi understreke viktigheten av regelmessig å beskytte og sikkerhetskopiere dataene dine for å forhindre tap eller ransomware. ![](assets/en/2.webp)
 
-### Seksjon 3: Implementering av løsninger
+**Seksjon 3: Implementering av løsninger**
 
 - Kapittel 6 - E-posthåndtering
 - Kapittel 7 - Passordbehandler
@@ -71,6 +71,7 @@ I denne praktiske tredje seksjonen vil vi gå videre til implementeringen av din
 
 Først vil vi se på hvordan du beskytter innboksen din, som er essensiell for kommunikasjonen din og ofte målrettet av hackere. Deretter vil vi introdusere deg for en passordbehandler: en praktisk løsning for å ikke lenger glemme eller blande sammen passordene dine samtidig som du holder dem sikre. Til slutt vil vi diskutere et ekstra sikkerhetstiltak, to-faktor autentisering, som legger til et ekstra lag med beskyttelse for kontoene dine. Alt vil bli forklart klart og tilgjengelig. ![](assets/en/3.webp)
 
+Klar til å styrke din digitale sikkerhet og ta tilbake kontrollen over dine data? La oss starte!
 # Alt du trenger å vite om nettlesing
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -110,7 +111,7 @@ Et mer avansert alternativ er TOR (The Onion Router)-nettverket, som tilbyr anon
 TOR er lovlig og brukes av journalister, frihetsaktivister og andre som ønsker å unnslippe sensur i autoritære land. Det er imidlertid viktig å forstå at TOR ikke sikrer de besøkte sidene eller datamaskinen selv. I tillegg kan bruk av TOR senke internettforbindelsen ettersom data passerer gjennom tre andre personers datamaskiner før det når sin destinasjon. Det er også essensielt å merke seg at TOR ikke er en idiotsikker løsning for å garantere 100% anonymitet og bør ikke brukes til ulovlige aktiviteter.
 ![](assets/notext/7.webp)
 
-https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN og internettforbindelse
 
@@ -129,9 +130,9 @@ Det er to hovedtyper av VPN-er: bedrifts-VPN-er og forbruker-VPN-er, som NordVPN
 Å bruke en forbruker-VPN garanterer ikke fullstendig anonymitet. Mange VPN-leverandører beholder informasjon om brukerne sine, noe som potensielt kan kompromittere deres anonymitet. Selv om VPN-er kan være nyttige for å forbedre online sikkerhet, er de ikke en universell løsning. De er effektive for visse spesifikke bruksområder, som å få tilgang til geografisk begrensede tjenester eller forbedre sikkerheten mens man reiser, men de garanterer ikke total sikkerhet. Når du velger en VPN, er det essensielt å prioritere pålitelighet og teknikalitet over popularitet. VPN-leverandører som samler inn minst personlig informasjon, er generelt de sikreste. Tjenester som iVPN og Mullvad samler ikke inn personlig informasjon og tillater til og med betalinger i Bitcoin for økt personvern. ![](assets/notext/9.webp)
 Til slutt kan en VPN også brukes til å blokkere online annonser, noe som gir en mer behagelig og sikker nettleseropplevelse. Det er imidlertid viktig å gjøre din egen forskning for å finne VPN-en som best passer dine spesifikke behov. Å bruke en VPN anbefales for å forbedre sikkerheten, selv når du surfer på internett hjemme. Dette bidrar til å sikre et høyere sikkerhetsnivå for utvekslet data online. Til slutt, sørg for å sjekke URL-ene og det lille hengelåsikonet i adresselinjen for å bekrefte at du er på nettstedet du har til hensikt å besøke.
 
-https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & offentlige Wi-Fi-nettverk
 
@@ -227,9 +228,9 @@ NEI, det anbefales generelt ikke å betale hackere i tilfelle løsepengevirus el
 
 Hvis du oppdager et virus på datamaskinen din, koble den fra internett, utfør en fullstendig antivirus-skanning, og slett infiserte filer. Deretter, oppdater programvaren og operativsystemet ditt, og endre passordene dine for å forhindre ytterligere inntrengninger.
 
-https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementering av løsninger.
 
@@ -262,7 +263,7 @@ Det er tilrådelig å bruke nettstedet Have I Been Pwned (https://haveibeenpwned
 Generelt er det å begynne å bruke en ny, sikrere e-postadresse ikke en dårlig praksis og til og med nødvendig hvis man ønsker å starte på nytt på en sunn basis.
 Bonus Bitcoin: Det kan være tilrådelig å opprette en spesifikk e-postadresse for våre Bitcoin-aktiviteter (opprette børs-kontoer) for å virkelig skille livets aktivitetsområder.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Passordbehandler
 
@@ -303,9 +304,9 @@ For å lage et sterkt passord, anbefales det å bruke et stort antall tilfeldige
 
 Tilfeldig genererte passord tilbyr et høyere nivå av sikkerhet, selv om de kan være vanskeligere å huske. Passordbehandlere kan generere mer sikre tilfeldige passord. Ved å bruke en passordbehandler, trenger du ikke å huske alle passordene dine. Det er viktig å gradvis erstatte dine gamle passord med de som er generert av behandleren, da de er sterkere og lengre. Sørg for at hovedpassordet til passordbehandleren din også er sterkt og sikkert.
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## To-Faktor Autentisering
 
@@ -347,9 +348,9 @@ Fortsett å lære og gradvis implementere gode praksiser!
 
 Gylden regel: Cybersikkerhet er et bevegelig mål som vil tilpasse seg din læringsreise!
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Praktisk del
 
@@ -361,7 +362,7 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 Å beskytte e-postkontoen din er et viktig skritt for å sikre dine nettaktiviteter og beskytte dine personlige data. Denne veiledningen vil lede deg, steg for steg, i å opprette og sette opp en ProtonMail-konto, en leverandør kjent for sitt høye sikkerhetsnivå som tilbyr ende-til-ende-kryptering av dine kommunikasjoner. Enten du er en nybegynner eller en erfaren bruker, vil de beste praksisene som presenteres her hjelpe deg med å styrke sikkerheten til din e-post, samtidig som du tar fordel av ProtonMails avanserte funksjoner:
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Sikre med 2FA
 
@@ -369,9 +370,10 @@ https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b3
 
 Tofaktorautentisering (2FA) har blitt essensielt for å sikre dine nettbaserte kontoer. I denne veiledningen vil du lære hvordan du setter opp og bruker 2FA-appen Authy, som genererer dynamiske 6-sifrede koder for å beskytte kontoene dine. Authy er veldig enkel å bruke og synkroniseres på tvers av flere enheter. Oppdag hvordan du installerer og konfigurerer Authy, og dermed styrker sikkerheten til dine nettbaserte kontoer nå:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 En annen mulighet er å bruke en fysisk sikkerhetsnøkkel. Denne tilleggstutorialen viser deg hvordan du setter opp og bruker en sikkerhetsnøkkel som en sekundær autentiseringsfaktor:
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Opprette en passordbehandler
 
@@ -381,11 +383,11 @@ Passordhåndtering er en utfordring i den digitale tidsalderen. Vi har alle mang
 
 I denne tutorialen lærer du hvordan du setter opp Bitwarden, en åpen kildekode passordbehandler, og hvordan du synkroniserer legitimasjonen din på tvers av alle enhetene dine for å forenkle daglig bruk:
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 For mer avanserte brukere tilbyr jeg også en tutorial om en annen gratis og åpen kildekode programvare for å bruke lokalt til å håndtere passordene dine:
 
-https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Sikre kontoene dine
 
@@ -393,9 +395,9 @@ https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-2
 
 I disse to tutorialene guider jeg deg også i å sikre dine online kontoer og forklarer hvordan du gradvis kan adoptere sikrere praksiser for å håndtere passordene dine på daglig basis.
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Oppsett av sikkerhetskopi
 
@@ -403,11 +405,11 @@ https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-2
 
 Å beskytte dine personlige filer er også et kritisk punkt. Denne tutorialen viser deg hvordan du implementerer en effektiv backup-strategi ved bruk av Proton Drive. Oppdag hvordan du bruker denne sikre sky-løsningen for å anvende 3-2-1 metoden: tre kopier av dataene dine på to forskjellige medier, med en kopi offsite. Dette sikrer tilgjengeligheten og sikkerheten til dine sensitive filer:
 
-https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Og for å sikre filene dine lagret på flyttbare medier som en USB-stasjon eller ekstern harddisk, viser jeg deg også hvordan du enkelt kan kryptere og dekryptere disse mediene ved bruk av VeraCrypt:
 
-https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ## Bytte av nettleser & VPN
 
@@ -417,13 +419,13 @@ https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea
 
 Jeg foreslår å oppdage to pålitelige VPN-løsninger som kan betales i Bitcoin, nemlig IVPN og Mullvad. Disse tutorialene guider deg på hvordan du installerer, konfigurerer og bruker Mullvad eller IVPN på alle enhetene dine:
 
-https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Lær også hvordan du bruker Tor Browser, en nettleser spesielt designet for å beskytte ditt online privatliv:
 
-https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 # Gå videre
 
@@ -499,7 +501,7 @@ Det bør også bemerkes at internett er sterkt sentralisert og i stor grad under
 Alternativer til påtrengende annonser inkluderer Google DNS, OpenDNS og andre uavhengige tjenester. Standard DNS-protokollen lar DNS-forespørsler være synlige for internettleverandøren. DOH (DNS over HTTPS) og DOT (DNS over TLS) krypterer DNS-forbindelsen, og gir større personvern og sikkerhet. Disse protokollene brukes mye i bedrifter på grunn av deres forbedrede sikkerhet og støttes nativt av Windows, Android og iPhone. For å bruke DOH og DOT, må et TLS-vertsnavn angis i stedet for en IP-adresse. Gratis DOH- og DOT-leverandører er tilgjengelige på nettet. DOH og DOT forbedrer personvern og sikkerhet ved å unngå "man in the middle"-angrep. Andre nøkkelhensyn
 Som en del av "Security 101" treningsmodulen på Découvre Bitcoin Academy, diskuterte vi også Lightning-autentisering. Dette systemet genererer en forskjellig identifikator for hver tjeneste, uten behov for å oppgi en e-postadresse eller personlig informasjon. Det er mulig å ha brukerkontrollerte desentraliserte identiteter, men det er en mangel på standardisering og normalisering i prosjekter for desentralisert identitet. Pakkebehandlere som Nuget og Chocolaté, som tillater nedlasting av åpen kildekode-programvare utenfor Microsoft Store, anbefales for å unngå ondsinnede angrep. Sammenfattet er DNS avgjørende for online sikkerhet, men det er nødvendig å være årvåken mot potensielle angrep på DNS-servere.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

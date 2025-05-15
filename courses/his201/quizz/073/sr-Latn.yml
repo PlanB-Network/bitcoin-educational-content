@@ -1,0 +1,9 @@
+question: Koja je američka savezna obaveštajna služba pozvala Gavina Andresena u aprilu 2011. da predstavi Bitcoin nekoliko meseci kasnije?
+answer: CIA
+wrong_answers:
+  - FBI
+  - NSA
+  - DEA
+explanation: |
+  Tačnije, to je bio In-Q-Tel, američki fond rizičnog kapitala kojim upravlja CIA, ali poseta se zaista dogodila u sedištu CIA-e.
+reviewed: false

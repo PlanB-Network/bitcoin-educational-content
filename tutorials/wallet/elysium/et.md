@@ -2,57 +2,33 @@
 name: Elysium rahakott
 description: Elysiumi rahakoti seadistamine ja kasutamine
 ---
-![cover-elysium](assets/cover.webp)
+![image](assets/cover.webp)
 
 Elysium Wallet on Šveitsi idufirma Elysium Labs esimene mittekohustuslik tarkvaraline rahakott.
 
-Tänu uuenduslikule võtmehaldussüsteemile saate juurdepääsu oma digitaalsetele varadele, kasutades elemente, mis on osa igapäevaelust: kasutajanimi, pääsukood, salasõna või pääsukood.
-
-See on õige: enam ei ole rangelt vajalik kasutada seemnefraasi, et taastada juurdepääs oma digitaalsetele varadele.
-
-Selline lihtsustamine võib kiirendada Bitcoini levikut kogu maailmas.
+Tänu uuenduslikule võtmehaldussüsteemile saate juurdepääsu oma digitaalsetele varadele, kasutades elemente, mis on osa igapäevaelust: kasutajanimi, pääsukood, salasõna või pääsukood. See on õige: enam ei ole rangelt vajalik kasutada Seed Phrase'i, et taastada juurdepääs oma digitaalsetele varadele. See lihtsustamine võib kiirendada Bitcoini levikut kogu maailmas.
 
 ## Kuidas avada konto?
 
-Lae alla Elysium Wallet App Apple Store'ist või Google Play'st.
+Laadige Elysium Wallet App alla Apple Store'ist või Google Play'st, seejärel avage oma seadmesse alla laaditud Elysium Wallet rakendus. Puudutage valikut "Loo uus rahakott", sellisel hetkel ilmub ekraanile kasutustingimused. Nõustumiseks ja konto loomise jätkamiseks koputage nuppu "Alusta seadistamist", seejärel sisestage oma kasutajanimi; pange tähele, et profiilipilt on kohandatav: valige üks etteantud võimalustest, tehes foto või laadides üles pildi oma seadmest. Kui olete valinud, koputage valikut "Jätka".
 
-Avage oma seadmesse alla laaditud rakendus Elysium Wallet.
+![image](assets/en/02.webp)
 
-Puudutage valikut "Loo uus rahakott".
+Elysium paistab silma uuendusliku mitmefaktorilise algoritmi poolest, mis ühendab endas Passkey, PassCode ja PassWord. PassKeys on kohustuslik. Need võimaldavad teil autentida end kiiresti ja turvaliselt, kasutades oma seadme sisseehitatud turvafunktsioone, näiteks Face ID või sõrmejälje skaneerimist. Need on teie peamine kaitsekiht, mis tagab kiire ja turvalise juurdepääsu.
 
-Ilmub ekraan kasutustingimustega.
+![image](assets/en/03.webp)
 
-Konto loomisega nõustumiseks ja selle jätkamiseks koputage nuppu "Alusta seadistamist".
+Valige oma teine tase: Järgmisena peate valima teise turvataseme:
 
-Sisestage oma kasutajanimi.
-
-Profiilipilt on kohandatav: valige üks etteantud võimalustest, tehke foto või laadige pilt oma seadmest üles.
-
-Kui olete valinud, koputage nuppu "Jätka".
-
-![Open](assets/open.webp)
-
-Elysium paistab silma uuendusliku mitmefaktorilise algoritmi poolest, mis ühendab endas Passkey, PassCode ja PassWord.
-
-PassKeys on kohustuslik.
-
-Need võimaldavad teil autentida end kiiresti ja turvaliselt, kasutades oma seadme sisseehitatud turvafunktsioone, näiteks Face ID või sõrmejälje skaneerimist.
-
-Need on teie peamine kaitsekiht, mis tagab kiire ja turvalise juurdepääsu.
-
-![Passkey](assets/passkey.webp)
-
-Valige oma teine tase: PassCode või PassWord
-
-Järgmisena peate valima teise turvataseme:
 
 - PassCode: 6-kohaline kood, mida on lihtne meeles pidada. Sobib suurepäraselt täiendava kaitsekihi lisamiseks.
 - Parool: Looge tugev, vähemalt 8-täheline parool, mis lisab veelgi rohkem turvalisust.
+
 Te peate kasutama Passkey'd koos PassCode'i või PassWord'iga.
 
-![secondfactor](assets/secondfactor.webp)
+![image](assets/en/04.webp)
 
-Märkus: Konto loomiseks on vaja vähemalt 2 tegurit, millest üks peab olema Passkey.
+**Märkus:** Konto loomiseks on vaja vähemalt 2 tegurit, millest üks peab olema Passkey.
 
 Turvalisuse täiendavaks suurendamiseks saate lisada kolmanda kaitsekihi (Passkey + PassCode + PassWord).
 
@@ -64,7 +40,7 @@ Kui olete valinud teise tegurina PassCode, saate lisada kolmandaks kihiks PassWo
 
 Kolmanda turvateguri saate lisada seadistamisetapis (vt pilte) või hiljem, valides Seaded > Turvalisuse parandamine.
 
-![thirdfactor](assets/thirdfactor.webp)
+![image](assets/en/05.webp)
 
 Kui te siiski unustate ühe teguri, siis võtke seda arvesse:
 
@@ -72,77 +48,71 @@ Kui olete seadistanud kõik kolm tegurit, saate neid alati seadetest muuta või 
 
 Kahjuks, kui olete seadistanud ainult kaks tegurit ja unustate ühe, ei ole taastamise võimalust.
 
-Soovitame tungivalt seadistada kõik kolm tegurit algusest peale, et tagada maksimaalne turvalisus ja paindlikkus.
+Soovitame tungivalt määrata kõik kolm tegurit algusest peale, et tagada maksimaalne turvalisus ja paindlikkus.
 
 ## Kuidas saada tehingut?
 
-Samm 1: Avage Elysiumi rakendus ja minge peamenüüsse. Puudutage valikut "Receive".
+Avage rakendus Elysium ja minge peamenüüsse, seejärel koputage nuppu "Vastuvõtmine".
 
-![receive1](assets/receive1.webp)
+![image](assets/en/06.webp)
 
 Nüüd valige ahel, mille alusel soovite makseid saada (Bitcoin või Polygon), ja saate lihtsalt jagada oma Elysiumi rahakoti QR-koodi isikuga, kes peab teile maksma, ja nad hoolitsevad ülejäänud eest.
 
 ## Kuidas saada tehingut Lightning Networkis?
 
-STEP 1: Puudutades valikut "Makse taotlemine", taotlete Bitcoini makset Lightning Networki kaudu.
+**Samm 1:** Koputades "Makse taotlemine", taotlete Bitcoini makset Lightning Networki kaudu.
 
-![requestpayment1](assets/requestpayment1.webp)
+![image](assets/en/07.webp)
 
-2. samm: Sisestage summa, mida soovite taotleda, valige valuuta, mida soovite saada, ja lisage vajaduse korral kirjeldus.
+**Samm 2:** Sisestage summa, mida soovite taotleda, valige valuuta, mida soovite saada, ja lisage vajadusel kirjeldus.
 
-![requestpayment2](assets/requestpayment2.webp)
+![image](assets/en/08.webp)
 
-Märkus: esimese Lightning Network (LN) makse eest tuleb maksta väike tasu LN-kanali avamiseks. Pärast seda on kõik järgmised maksed tasuta.
+**Märkus:** Esimese Lightning Network (LN) makse eest tuleb tasuda väike tasu LN-kanali avamiseks. Pärast seda on kõik järgmised maksed tasuta.
 
 ## Kuidas saata tehingut?
 
-STEP 1: Minge peamenüüsse ja koputage valikut "Saada".
+**Samm 1:** Mine peamenüüsse ja puuduta valikut "Saada".
 
-![send1](assets/send1.webp)
+![image](assets/en/09.webp)
 
-2. samm: Skaneerige saaja QR-kood tema Elysium Walletist, et salvestada tema kontakt automaatselt oma aadressiraamatusse.
+**Samm 2:** Skaneerige saaja QR-kood tema Elysium Walletist, et salvestada tema kontakt automaatselt oma aadressiraamatusse. Teise võimalusena kopeerige nende aadress käsitsi ja kleepige see saaja väljale. Pärast saaja valimist või tema lisamist oma aadressiraamatusse koputage valikut "Saada makse".
 
-Teise võimalusena kopeeri nende aadress käsitsi ja kleebi see saaja väljale.
-
-Pärast saaja valimist või tema lisamist oma aadressiraamatusse koputage valikut "Saada makse".
-
-![payment1](assets/payment1.webp)
+![image](assets/en/10.webp)
 
 Kas kontakt on juba olemas? Valige see otse aadressiraamatust.
 
-![addressbook1](assets/addressbook1.webp)
+![image](assets/en/11.webp)
 
-3. samm: Sisestage summa, mida soovite saata, ja valige vara, mida soovite üle kanda.
+**Samm 3:** Sisestage summa, mida soovite saata, ja valige vara, mida soovite üle kanda.
 
 BTC tehingute puhul saate valida oma eelistatud võrgu kiiruse ja tasud (nagu on näidatud kolmandal pildil)
 
-![payment2](assets/payment2.webp)
+![image](assets/en/12.webp)
 
 Teie tehing on esitatud! Saate hõlpsasti kontrollida oma Elysium Walleti ajakohastatud saldot ja tehingu staatust.
 
-## Kuidas saata tehingut Lightning Networkis (LN)?
+## Kuidas saata tehingut Lightning Networkis?
 
-STEP 1: Koputage skanneri avamiseks valikut "Skaneeri".
+![image](assets/en/13.webp)
 
-2. samm: skaneeri LN QR-kood maksmiseks.
+**Samm 1:** Koputage skanneri avamiseks nuppu "Skaneeri".
 
-STEP3: Vaadake makse üksikasjad üle ja kinnitage, et kõik on õige.
+**Samm 2:** Skaneeri LN QR-koodi maksmiseks.
 
-STEP4: Tehingu lõpuleviimiseks puudutage valikut "Kinnita".
+**Samm 3:** Vaadake makse üksikasjad üle ja kinnitage, et kõik on õige.
 
-![paymentLN1](assets/paymentLN1.webp)
+**Samm 4:** Koputage "Kinnita", et tehing lõpule viia.
 
 ## Kuidas näha Seed Phrase?
 
 Minge peamenüüsse ja koputage valikut "Keskus". Valige Seaded ja koputage valikut "Extract private key".
 
-![extract1](assets/extract1.webp)
+![image](assets/en/14.webp)
 
-Logige sisse oma parooliga ja sisestage oma parool ja/või paroolikood.
+Logige sisse oma parooliga ja sisestage oma parool ja/või paroolikood. Seemnefraas kuvatakse 24-sõnalises formaadis.
 
-Seemne fraas kuvatakse 24 sõna formaadis.
-
-![seed1](assets/seed1.webp)
+![image](assets/en/15.webp)
 
 Ära jaga seda kellegagi!
 
@@ -150,9 +120,7 @@ Seemne fraas kuvatakse 24 sõna formaadis.
 
 Kas vajate abi Elysium Walletiga? Me oleme siin, et aidata!
 
-Lae rakendus alla.
-
-Nii saate meie klienditoe meeskonnaga otse rakendusest ühendust võtta:
+Lae alla rakendus ja vaata, kuidas saad meie klienditoe meeskonnaga otse rakendusest ühendust võtta:
 
 1. Mine keskusesse
 
@@ -160,7 +128,7 @@ Nii saate meie klienditoe meeskonnaga otse rakendusest ühendust võtta:
 
 3. Valige Abi
 
-![help1](assets/help1.webp)
+![image](assets/en/16.webp)
 
 Ilmub vorm, kus saate kirjeldada tekkinud probleemi.
 
@@ -168,4 +136,4 @@ Kui te olete selle esitanud, vastab meie meeskond võimalikult kiiresti lahendus
 
 Kui soovite veast teatada või meile tagasisidet anda, klõpsake kodulehe vidinale:
 
-![help2](assets/help2.webp)
+![image](assets/en/17.webp)

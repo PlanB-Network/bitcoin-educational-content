@@ -1,0 +1,16 @@
+question: Ni tofauti gani kuu kati ya uchumi wa Keynesi na Austria?
+answer: Uchumi wa Keynesi unaamini katika uchapishaji wa fedha na matumizi ili kukuza ukuaji, wakati uchumi wa Austria unasisitiza maono ya kiasi zaidi ya ukuaji na busara ya kibinadamu.
+wrong_answers:
+  - Uchumi wa Keynesia unasisitiza maono ya kiasi zaidi ya ukuaji na busara ya kibinadamu, wakati uchumi wa Austria unaamini katika uchapishaji wa fedha na matumizi ili kukuza ukuaji.
+  - Uchumi wa Keynesi unazingatia uzalishaji na usimamizi wa pesa na benki kuu, wakati uchumi wa Austria unaamini katika ugatuaji wa nguvu za kifedha.
+  - Uchumi wa Keynesi unaamini katika uwekaji kati wa nguvu za kifedha, wakati uchumi wa Austria unazingatia uzalishaji na usimamizi wa pesa na benki kuu.
+explanation: |
+  Sura hiyo inaeleza kuwa uchumi wa Keynesi unasaidia
+  wazo kwamba uzalishaji na usimamizi wa fedha ni
+  wajibu wa benki kuu, na uchapishaji huo wa fedha
+  na matumizi kukuza ukuaji. Kwa upande mwingine, Austrian
+  uchumi, na zaidi ya miaka 200 ya utafiti na maendeleo,
+  tafakari za kifalsafa, na maandishi na mashuhuri
+  waandishi, inasisitiza maono ya kiasi zaidi ya ukuaji na binadamu
+  busara katika uchumi wetu.
+reviewed: true

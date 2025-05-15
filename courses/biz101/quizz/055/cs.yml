@@ -1,0 +1,9 @@
+question: Co je hlavním cílem specializovaných nástrojů pro účtování bitcoinů?
+answer: Zjednodušení automatického sběru a zpracování údajů o bitcoinech
+wrong_answers:
+  - Zvýšení bezpečnosti soukromých klíčů Bitcoin
+  - Usnadnění přímého obchodování s bitcoiny na decentralizovaných burzách pro podniky
+  - Nastavení systému PoS pro přijímání plateb bitcoinů
+explanation: |
+  Tyto nástroje jsou určeny k automatizaci sběru dat, konverzi formátů, výpočtu daní a kategorizaci transakcí.
+reviewed: false

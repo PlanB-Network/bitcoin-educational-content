@@ -1,0 +1,9 @@
+question: Koja je osnovna misija Bitcoin?
+answer: Da bude mreža Exchange otporna na cenzuru vrednosti.
+wrong_answers:
+  - Da zameni tradicionalne valute.
+  - Da bi transakcije bile anonimne.
+  - Da se stvori novi oblik investicije.
+explanation: |
+  Osnovna misija Bitcoin je da bude mreža Exchange otporna na cenzuru. Zajednica Bitcoin neprestano teži jačanju distribucije, otpornosti na cenzuru i antifragilnosti mreže.
+reviewed: true

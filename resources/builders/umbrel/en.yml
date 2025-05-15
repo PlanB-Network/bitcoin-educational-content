@@ -1,6 +1,0 @@
-description: |
-  Umbrel is an open-source operating system that allows users to run a personal server in their home, providing the convenience of cloud storage with the privacy and control of local data storage. 
-  
-  Users can self-host various applications, including Nextcloud for private cloud storage, PhotoPrism for photo and video storage, and personal Bitcoin and Lightning nodes for bitcoin transactions. Umbrel also features its own app store for additional self-hosted apps, ad-blocking capabilities, and home automation integrations.
-contributors:
-  - rabbit-hole

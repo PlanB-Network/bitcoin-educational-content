@@ -1,0 +1,11 @@
+question: Je, ni watetezi wakuu wa Nadharia ya Austria ya Mzunguko wa Biashara?
+answer: Ludwig Von Mises na Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes na Milton Friedman
+  - Adam Smith na David Ricardo
+  - Karl Marx na Friedrich Engels
+explanation: |
+  Nadharia ya Austria ya Mzunguko wa Biashara ilitengenezwa na Ludwig Von
+  Mises na Friedrich Hayek, ambao wote walikuwa washiriki mashuhuri wa Shule ya Austria
+  ya uchumi.
+reviewed: true

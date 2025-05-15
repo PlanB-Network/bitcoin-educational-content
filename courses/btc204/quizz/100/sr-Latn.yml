@@ -1,0 +1,9 @@
+question: Šta entropija ukazuje u kontekstu analize lanca na Bitcoin?
+answer: Nedostatak znanja analitičara o tačnoj konfiguraciji transakcije.
+wrong_answers:
+  - Brzina kojom se informacije o transakciji šire mrežom.
+  - Nivo kriptografske sigurnosti digitalnih potpisa korišćenih u transakciji.
+  - Veličina grupe identičnih UTXO-a u kojoj je novčić skriven.
+explanation: |
+  Entropija se koristi za merenje nedostatka znanja analitičara o tačnoj konfiguraciji transakcije. Drugim rečima, što je veća entropija, to postaje teže za analitičare da identifikuju tokove bitkoina između ulaza i izlaza.
+reviewed: false

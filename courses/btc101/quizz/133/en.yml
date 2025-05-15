@@ -1,5 +1,4 @@
 question: How do miners validate transactions and include them in a block?
-  in a block?
 answer: Through the process of Proof of work.
 wrong_answers:
   - Through the process of Proof of stake.

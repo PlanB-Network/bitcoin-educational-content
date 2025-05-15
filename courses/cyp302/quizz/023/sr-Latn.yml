@@ -1,0 +1,9 @@
+question: Koja je uloga modulo operacije u šifrovanju pomoću shift šifre?
+answer: Osigurava da se slova vrate na početak abecede kada pređu 26
+wrong_answers:
+  - Množi vrednosti slova ključem
+  - Preokreće slova abecede
+  - Briše slova posle slova Z
+explanation: |
+  Operacija modulo 26 omogućava slovima da se vrate na početak nakon Z kako bi se osiguralo da svako šifrovano slovo ostane unutar 26 slova abecede.
+reviewed: false

@@ -20,11 +20,12 @@ Khóa học này, tất nhiên, tập trung vào hình ảnh của Satoshi Nakam
 # Giới Thiệu
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Giới Thiệu về Lịch Sử Sự Ra Đời Của Bitcoin
+## Tổng quan về khóa học
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Chào mừng bạn đến với khóa học HIS201!
 Khóa học này nhằm mục đích kể cho bạn câu chuyện về sự tạo ra của Bitcoin một cách bạn chưa bao giờ đọc trước đây. Nó thường bị bỏ qua, mặc dù chứa đầy chi tiết thú vị. Chúng tôi sẽ cố gắng mô tả nó trong toàn bộ sự phức tạp của nó, từ sự hình thành của nó bởi Satoshi Nakamoto đến sự biến mất sớm của ông và việc chuyển giao cho cộng đồng.
 
-### Tổng Quan Ngắn Gọn
+**Tổng Quan Ngắn Gọn**
 
 Bitcoin được thiết kế bởi một cá nhân (hoặc một nhóm) sử dụng bí danh Satoshi Nakamoto. Vào ngày 31 tháng 10 năm 2008, ông đã chia sẻ một bản trắng mô tả mô hình của mình qua một danh sách email mờ ám trên Internet. Vào ngày 8 tháng 1 năm 2008, ông đã triển khai khái niệm của mình bằng cách xuất bản mã nguồn của phần mềm và khởi động mạng lưới bằng cách khai thác những khối đầu tiên của chuỗi. Mong muốn thu hút một số lượng người dùng quan trọng, ông đã quảng bá sáng tạo của mình qua các kênh giao tiếp khác nhau.
 
@@ -46,7 +47,7 @@ Sự tạo ra của Bitcoin cũng trong bối cảnh đóng cửa các hệ th�
 
 Cuối cùng, dự án Bitcoin là người kế thừa tinh thần của phong trào cypherpunk, một phong trào của các nhà mật mã học nổi loạn từ những năm 90, những người tìm cách bảo vệ quyền riêng tư và tự do của mọi người trên Internet thông qua việc sử dụng tích cực mật mã học. Bitcoin phù hợp với các dự án như b-money, bit gold, hoặc RPOW được những cá nhân này tưởng tượng vào cuối những năm 90 và đầu những năm 2000. Satoshi Nakamoto đã đề cập đến họ, mặc dù ông không biết về họ trước khi thiết kế Bitcoin và có lẽ không phải là một phần của phong trào ban đầu.
 
-### Đề Cương Khóa Học
+**Đề Cương Khóa Học**
 
 Khóa học này được chia thành bốn phần, tập trung lần lượt vào nguồn gốc của Bitcoin (3 chương), sự xuất hiện chậm rãi của nó (3 chương), sự tăng trưởng ban đầu (3 chương), và sự hình thành của cộng đồng của nó (4 chương). Tổng cộng, nó bao gồm 12 chương như sau (khoảng thời gian liên quan cũng được chỉ định):
 
@@ -64,7 +65,7 @@ Khóa học này được chia thành bốn phần, tập trung lần lượt v�
 - Sự Biến Mất của Satoshi (Tháng 12 năm 2010–Tháng 4 năm 2011)
 - Cộng Đồng Tiếp Quản (Tháng 4 năm 2011–Tháng 9 năm 2011)
 
-### Chi Tiết
+**Chi Tiết**
 
 Tất cả các ngày và thời gian được đưa ra theo múi giờ UTC (tương ứng với Meridian Greenwich) và do đó có thể khác biệt so với ngày tháng ở Mỹ. Có khả năng Satoshi Nakamoto đang ở Hoa Kỳ khi làm việc dự án của mình. Tuy nhiên, Bitcoin là một dự án quốc tế, đặc biệt bao gồm sự đóng góp từ nhà phát triển người Phần Lan Martti Malmi (Múi giờ Đông Âu, UTC+2 / UTC+3), và chúng tôi sẽ do đó tham chiếu đến múi giờ toàn cầu. Như vậy, chúng ta nói rằng việc khởi động mạng chính thức diễn ra vào ngày 9 tháng 1 lúc 2:54 sáng, thay vì ngày 8 tháng 1 lúc 6:54 tối, tương ứng với múi giờ Bờ Đông (Thời gian Thái Bình Dương, UTC-8 / UTC-7).
 
@@ -78,6 +79,7 @@ Nội dung được phần nào chuyển thể từ cuốn sách tiếng Pháp [
 
 Lưu ý rằng cho phiên bản không phải tiếng Anh của khóa học này, hầu hết các trích dẫn đều đến từ tiếng Anh Mỹ và đã được dịch cho dịp này. Thuật ngữ *coin* thường được dịch là "đơn vị" (và không phải là "mảnh") khi nói đến đơn vị tài khoản.
 
+Sẵn sàng khám phá câu chuyện kỳ diệu về sự ra đời của Bitcoin chưa? Vậy thì hãy cùng nhau đắm chìm trong hành trình phi thường này!
 # Nguồn Gốc của Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -358,7 +360,7 @@ Khái niệm của Ripple dựa trên ý tưởng rằng tiền tệ về cơ b�
 
 Dưới đây là video giới thiệu về Ripple được thực hiện vào năm 2011:
 
-![Video (Youtube) về bài thuyết trình của Ripple năm 2011](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 Mặc dù có sự nhiệt tình của cộng đồng và vài nghìn người dùng, Ripple đã gặp phải những lỗi lớn khiến nó không thể thành công. Đặc biệt, nó [gặp phải](https://fiatjaf.com/3cb7c325.html) "vấn đề về cam kết phi tập trung": trong một khoản thanh toán, các bên tham gia không thể cam kết một cách an toàn để đảm bảo chuỗi vay, một vấn đề sau này được giải quyết bởi Lightning. (*nguyên văn: "the problem of the decentralized commit"*)
 
@@ -1112,7 +1114,7 @@ EFF mất một thời gian để bắt đầu chấp nhận quyên góp từ c�
 
 Vài ngày sau, một [bài viết](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) về chủ đề này được blogger jimbobway viết, đã thu hút sự chú ý đến Bitcoin. Bài viết này được [chia sẻ](https://news.ycombinator.com/item?id=1905522) trên HackerNews. Nó cũng được chuyển thể thành video bởi BitcoinMedia sử dụng Xtranormal:
 
-![Video "Bitcoin và EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 Đây là tin tức rất tốt cho Bitcoin vì cả hai sáng kiến đều chia sẻ các giá trị chung. Hơn nữa, EFF được biết đến với việc cung cấp bảo vệ pháp lý cho các dự án bảo tồn quyền riêng tư và chia sẻ dữ liệu như Tor và BitTorrent. Chính Satoshi Nakamoto cũng nhận thức được điều này và đặc biệt ủng hộ các hành động của tổ chức, như được thể hiện trong [bình luận](https://mmalmi.github.io/satoshi/#email-254) của ông trong một trong những email gửi cho Gavin Andresen vào ngày 6 tháng 1 năm 2011:
 > "EFF thực sự quan trọng. &nbsp;Chúng tôi muốn duy trì mối quan hệ tốt với họ. &nbsp;Chúng tôi là loại dự án mà họ đánh giá cao; họ đã giúp dự án TOR và đã làm rất nhiều để bảo vệ chia sẻ file P2P."
@@ -1242,14 +1244,6 @@ Khía cạnh bí ẩn xung quanh người tạo ra Bitcoin đã được Hal Fin
 >
 > Chữ S đại diện cho cái gì?"
 
-## Nhận xét & Đánh giá
-<chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Kỳ Thi Cuối Kỳ
-<chapterId>39e43ec2-5b38-5174-882a-c1f7d284b9e6</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Cộng Đồng Tiếp Quản
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
@@ -1309,7 +1303,7 @@ Những cuộc gặp gỡ người dùng Bitcoin đầu tiên được khởi x�
 
 Tháng 2 cũng đánh dấu [bài thuyết trình được quay phim đầu tiên](https://www.youtube.com/watch?v=koIq58UoNfE) về Bitcoin, được thực hiện bởi Gavin Andresen vào ngày 8 trong một sự kiện được tổ chức tại quê hương của ông ở Amherst, Massachusetts. Với tiêu đề "Making Money," bài thuyết trình của người duy trì chính mới của dự án bao gồm nhiều yếu tố ngôn ngữ sẽ đặc trưng cho cách tiền điện tử được trình bày trong những năm tiếp theo.
 
-![Video (Youtube) của bài phát biểu của Gavin tại Amherst vào tháng 2 năm 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 Mặc dù những sự kiện đầu tiên diễn ra tại Hoa Kỳ, cộng đồng Pháp không bị bỏ lại phía sau. Vào ngày 25 tháng 5, để đánh dấu chuyến thăm của Gavin Andresen tới Paris, một bữa trưa đã được tổ chức tại khu vực La Défense, với sự tham gia của các nhân vật nổi bật như Lucien Grondin, David François, và Jon Matonis (người cũng đang thăm).
 
@@ -1323,7 +1317,7 @@ Bài thuyết trình Bitcoin của Renaud Lifchitz vào ngày 15 tháng 6 năm 2
 
 Sau trải nghiệm này, cộng đồng Paris [tổ chức](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) một buổi gặp mặt xã hội, diễn ra vào ngày 11 tháng 7. Sự kiện này đã quy tụ những cá nhân như Pierre Noizat hay Émilien Dutang.
 Trên mặt trận quốc tế, hội nghị tập thể đầu tiên về Bitcoin đã diễn ra từ ngày 19 đến 21 tháng 8 tại New York. Cuộc họp này, do Bruce Wagner tổ chức, đã quy tụ những nhân vật như Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès và Charlie Lee. Mặc dù Wagner hứa hẹn ba ngày sự kiện, chỉ có bốn bài thuyết trình diễn ra: bài của chính ông và những bài của Gavin Andresen, Jeff Garzik và Stefan Thomas.
-![Video (Youtube) về phần tham gia của Gavin vào ngày 20 tháng 8 năm 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 Về sau trong năm, vào tháng 11, một hội nghị châu Âu [sẽ diễn ra](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) tại Prague. Những diễn giả đáng chú ý sẽ bao gồm nhà phát triển Amir Taaki, người sáng lập Đảng Cướp Biển Thụy Điển Rick Falkvinge, và người dẫn chương trình Max Keiser. Năm sau, một sự kiện tương tự sẽ được [tổ chức tại London](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
@@ -1333,7 +1327,7 @@ Năm 2011 cũng là một năm mà sự quan tâm của truyền thông mở r�
 
 Đầu tiên, các video về chủ đề này bắt đầu lan truyền trên Youtube. Vào ngày 22 tháng 3, video chất lượng cao đầu tiên về Bitcoin xuất hiện. Video này, đơn giản với tiêu đề "Bitcoin là gì?", được sản xuất bởi Stefan Thomas (justmoon) nhờ [gây quỹ cộng đồng](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001) từ cộng đồng. Nó được công bố trên cổng thông tin WeUseCoins dành cho việc giáo dục và phổ biến tiền mã hóa. Các video giới thiệu độc lập khác cũng theo sau, như [của howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) vào tháng 4, [của Reason](https://www.youtube.com/watch?v=yYTqvYqXRbY), hoặc [của Rocketboom](https://www.youtube.com/watch?v=9LaSrxtWfgc) vào tháng 6.
 
-![Bitcoin là gì?](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 Vào tháng Tư, chủ đề về tiền tệ số đã được các phương tiện truyền thông chính thống lớn như [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), và [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) đưa tin. Vào tháng Năm, phong trào này đã nhận được sự đẩy mạnh, và Bitcoin được nhắc đến hầu như ở khắp mọi nơi, đáng chú ý là trên [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), trên [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), trên [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124), và trên [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 ![Gavin Andresen trong Forbes vào tháng Tư 2011](assets/en/68.webp)
 Gavin Andresen trong Forbes vào tháng Tư 2011 (nguồn: [Lưu trữ Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
@@ -1366,7 +1360,7 @@ Thứ ba, Bitcoin phát triển một cách tự nhiên. Nó đã có thể phá
 Thứ tư, Bitcoin là một sáng tạo vị tha. Satoshi Nakamoto đã cung cấp Bitcoin cho thế giới. Ông đã phát hành chương trình dưới một giấy phép miễn phí. Ông không tìm kiếm danh tiếng, lợi nhuận, hay quyền lực. Ông đã đảm bảo an ninh khai thác mạng lưới hơn một năm, mà không yêu cầu bất kỳ sự bồi thường nào. Mặc dù ông đã tích lũy hơn một triệu bitcoin, ông chưa bao giờ tiêu chúng. Cuối cùng, ông biến mất, chủ yếu do lo ngại liên quan đến sự chú ý mà vụ việc WikiLeaks tạo ra, để lại dự án cho một cộng đồng, không có một nhân vật lãnh đạo nào.
 
 Vào năm 2011, Satoshi biến mất, nhưng Bitcoin vẫn tồn tại. Đồng tiền mã hóa thậm chí đã chính thức cất cánh, từ cả quan điểm truyền thông và kinh tế. Cỗ máy đã được khởi động và không ai có thể ngăn cản nó.
-# Kết luận
+# Phần cuối
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Nhận xét & Đánh giá
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

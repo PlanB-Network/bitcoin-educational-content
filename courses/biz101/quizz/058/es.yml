@@ -1,0 +1,9 @@
+question: ¿Cuál es una ventaja de utilizar un monedero de custodia para el perfil Starter?
+answer: Reducción de las responsabilidades técnicas
+wrong_answers:
+  - Mayor control de las claves privadas
+  - Mayor privacidad con plena autonomía sobre las transacciones
+  - Eliminación de las comisiones por transacción
+explanation: |
+  Los monederos custodiados gestionan las claves privadas, aliviando las cargas técnicas de los usuarios.
+reviewed: false

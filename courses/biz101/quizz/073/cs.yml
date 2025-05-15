@@ -1,0 +1,9 @@
+question: Co umožňuje synchronizaci dat v reálném čase mezi podnikovými systémy Bitcoin a softwarem ERP?
+answer: Rozhraní API
+wrong_answers:
+  - Soubory CSV
+  - Dávkové nahrávání
+  - E-mailové zprávy
+explanation: |
+  Rozhraní API umožňují průběžnou integraci v reálném čase.
+reviewed: false

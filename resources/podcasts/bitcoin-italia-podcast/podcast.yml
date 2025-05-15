@@ -1,3 +1,4 @@
+id: bf2a2bad-ebab-4056-a34d-becf0257d369
 name: Bitcoin Italia Podcast
 host: Rikki and GuyBrush
 language: it
@@ -7,10 +8,10 @@ links:
   website: https://bitcoinitaliapodcast.it/
 description: |
   Il primo #Bitcoin Podcast in lingua italiana. Ogni giovedì alle 17 un nuovo episodio sul tuo pod-player preferito.
+contributor_names:
+  - Rogzy-DB
+  - PaoloFoti
 tags:
-  - self-sovereignty
   - easy-explain
-  - finance
-contributors:
-  - rabbit-hole
-  - hunt-wood
+  - high-level
+  - adoption

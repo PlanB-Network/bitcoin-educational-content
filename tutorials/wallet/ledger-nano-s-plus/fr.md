@@ -54,7 +54,7 @@ Pour ce tutoriel, vous aurez besoin de 2 logiciels : Ledger Live pour initialise
 
 Pour ces deux logiciels, je vous recommande fortement de vérifier à la fois leur authenticité (avec GnuPG) et leur intégrité (via le hash) avant de les installer sur votre machine. Si vous ne savez pas comment le faire, vous pouvez suivre cet autre tutoriel :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Comment initialiser une Ledger Nano ?
 
@@ -158,7 +158,7 @@ La passphrase ne doit pas être confondue avec le code PIN. Elle joue un rôle d
 
 La passphrase est un outil très puissant pour renforcer la sécurité de vos bitcoins. Toutefois, il est très important de comprendre son fonctionnement avant de l'implémenter, afin d'éviter de perdre l'accès à votre portefeuille. C'est pourquoi je vous conseille de consulter cet autre tutoriel dédié si vous souhaitez mettre en place une passphrase sur votre Ledger :
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Le menu "*PIN lock*" vous permet de configurer et d'activer le verrouillage automatique de votre Ledger après une période d'inactivité déterminée.
 
@@ -359,3 +359,5 @@ Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser 
 Je vous conseille également de découvrir cet autre tutoriel complet sur la Ledger Flex :
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+

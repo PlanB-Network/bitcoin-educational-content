@@ -1,0 +1,9 @@
+question: Kakav je bio stav Biblije prema pozajmljivanju uz kamatu?
+answer: Bilo je zabranjeno.
+wrong_answers:
+  - Podsticalo je to.
+  - Tolerisao je to u nekim slučajevima.
+  - Nije imao mišljenje o tom pitanju.
+explanation: |
+  Biblija zabranjuje pozajmljivanje uz kamatu, posebno u Starom zavetu, gde se pozajmljivanje uz kamatu među članovima zajednice smatra nemoralnim i suprotnim vrednostima solidarnosti.
+reviewed: false

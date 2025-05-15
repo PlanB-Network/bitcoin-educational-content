@@ -1,7 +1,0 @@
-description: |
-  O Electrum é uma carteira Bitcoin versátil que prioriza a segurança e flexibilidade do usuário. 
-  
-  Ele suporta várias plataformas, incluindo dispositivos móveis, desktop e interfaces de linha de comando. Suas chaves privadas são criptografadas e mantidas em seu dispositivo, garantindo que nunca sejam expostas. Além disso, o Electrum usa uma frase secreta para permitir a recuperação de fundos e fornece acesso rápido à blockchain do Bitcoin por meio de sua rede de servidores. Ele suporta armazenamento "frio" offline para manter suas chaves privadas seguras e oferece capacidades de multisig para dividir a permissão para gastos de moedas. O Electrum também verifica todas as transações em seu histórico usando a Verificação Simplificada de Pagamento (SPV) e permite integrações de plug-ins de terceiros, como serviços de multisig e carteiras de hardware.
-contributors:
-  - rabbit-hole
-  - another-satoshi

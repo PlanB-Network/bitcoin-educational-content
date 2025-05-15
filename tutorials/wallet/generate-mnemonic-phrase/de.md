@@ -2,6 +2,7 @@
 name: Mnemonic Phrase - Würfelwurf
 description: Wie Sie Ihre eigene Wiederherstellungsphrase mit Würfeln generieren?
 ---
+
 ![cover](assets/cover.webp)
 
 In diesem Tutorial lernen Sie, wie Sie manuell eine Wiederherstellungsphrase für eine Bitcoin-Wallet mithilfe von Würfelwürfen erstellen.
@@ -9,10 +10,12 @@ In diesem Tutorial lernen Sie, wie Sie manuell eine Wiederherstellungsphrase fü
 **WARNUNG:** Eine Mnemonic-Phrase auf sichere Weise zu generieren, erfordert, dass während ihrer Erstellung keine digitalen Spuren hinterlassen werden, was nahezu unmöglich ist. Andernfalls würde die Wallet eine viel zu große Angriffsfläche bieten, was das Risiko, dass Ihre Bitcoins gestohlen werden, erheblich erhöht. **Es wird daher dringend davon abgeraten, Mittel auf eine Wallet zu übertragen, die von einer Wiederherstellungsphrase abhängt, die Sie selbst generiert haben.** Selbst wenn Sie dieses Tutorial genau befolgen, besteht das Risiko, dass die Wiederherstellungsphrase kompromittiert werden könnte. **Daher sollte dieses Tutorial nicht für die Erstellung einer echten Wallet angewendet werden.** Die Verwendung einer Hardware-Wallet für diese Aufgabe ist viel weniger riskant, da sie die Phrase offline generiert und echte Kryptographen den Einsatz von qualitativen Entropiequellen berücksichtigt haben.
 
 Dieses Tutorial kann nur zu experimentellen Zwecken für die Erstellung einer fiktiven Wallet verfolgt werden, ohne die Absicht, sie mit echten Bitcoins zu verwenden. Die Erfahrung bietet jedoch zwei Vorteile:
+
 - Erstens ermöglicht es Ihnen, die Mechanismen an der Basis Ihrer Bitcoin-Wallet besser zu verstehen;
 - Zweitens ermöglicht es Ihnen zu wissen, wie man es macht. Ich sage nicht, dass es eines Tages nützlich sein wird, aber es könnte sein!
 
 ## Was ist eine Mnemonic-Phrase?
+
 Eine Wiederherstellungsphrase, auch manchmal "Mnemonic", "Seed-Phrase" oder "Geheimphrase" genannt, ist eine Sequenz, die üblicherweise aus 12 oder 24 Wörtern besteht und aus einer Entropiequelle auf pseudo-zufällige Weise generiert wird. Die pseudo-zufällige Sequenz wird immer mit einer Prüfsumme vervollständigt.
 
 Die Mnemonic-Phrase, zusammen mit einer optionalen Passphrase, wird verwendet, um deterministisch alle Schlüssel abzuleiten, die mit einer HD (Hierarchical Deterministic) Wallet verbunden sind. Das bedeutet, dass aus dieser Phrase alle privaten und öffentlichen Schlüssel der Bitcoin-Wallet deterministisch generiert und rekreiert werden können und folglich Zugang zu den damit verbundenen Mitteln erhalten wird.
@@ -21,7 +24,9 @@ Der Zweck dieser Phrase ist es, ein leicht zu verwendendes Mittel zur Sicherung 
 Üblicherweise wird Ihnen diese Phrase direkt bei der Erstellung Ihrer Wallet gegeben, durch die verwendete Software- oder Hardware-Wallet. Es ist jedoch auch möglich, diese Phrase selbst zu generieren und dann auf dem gewählten Träger einzugeben, um die Wallet-Schlüssel abzuleiten. Das werden wir in diesem Tutorial lernen.
 
 ## Vorbereitung der notwendigen Materialien
+
 Für die Erstellung Ihrer Wiederherstellungsphrase von Hand benötigen Sie:
+
 - Ein Blatt Papier;
 - Einen Stift oder Bleistift, idealerweise in verschiedenen Farben, um die Organisation zu erleichtern;
 - Mehrere Würfel, um das Risiko von Verzerrungen durch einen unausgewogenen Würfel zu minimieren;
@@ -36,6 +41,7 @@ Es wird empfohlen, eine hohe Anzahl von Würfeln zu verwenden, um die Auswirkung
 Unter realen Bedingungen wären Sie nach diesen Überprüfungen bereit, die notwendige Entropie zu erzeugen. Für eine experimentelle fiktive Geldbörse, die als Teil dieses Tutorials erstellt wurde, könnten Sie natürlich diese Vorbereitungen überspringen.
 
 ## Einige Erinnerungen an die Wiederherstellungsphrase
+
 Zunächst werden wir die Grundlagen der Erstellung einer mnemonischen Phrase gemäß BIP39 überprüfen. Wie zuvor erklärt, wird die Phrase aus pseudo-zufälligen Informationen einer bestimmten Größe abgeleitet, zu denen eine Prüfsumme hinzugefügt wird, um deren Integrität zu gewährleisten.
 
 Die Größe dieser anfänglichen Informationen, oft als "Entropie" bezeichnet, wird durch die Anzahl der Wörter bestimmt, die Sie in der Wiederherstellungsphrase erhalten möchten. Die gängigsten Formate sind Phrasen aus 12 und 24 Wörtern, die jeweils von einer Entropie von 128 Bits und 256 Bits abgeleitet werden. Hier ist eine Tabelle, die die verschiedenen Größen der Entropie gemäß BIP39 zeigt:
@@ -66,6 +72,7 @@ Schließlich teilt uns die Zahl in Dezimal die Position des entsprechenden Worte
 Jetzt gehen wir zur Praxis über! Wir werden eine 12-Wort-Wiederherstellungsphrase generieren. Diese Operation bleibt jedoch im Falle einer 24-Wort-Phrase identisch, außer dass sie 256 Bits Entropie und eine 8-Bit-Prüfsumme erfordern würde, wie in der Äquivalenztabelle am Anfang dieses Abschnitts angegeben.
 
 ## Schritt 1: Generierung der Entropie
+
 Bereiten Sie Ihr Blatt Papier, Ihren Stift und Ihre Würfel vor. Um zu beginnen, müssen wir zufällig 128 Bits generieren, das heißt, eine Sequenz von 128 `0`en und `1`en hintereinander. Dazu werden wir Würfel verwenden.
 ![mnemonic](assets/notext/7.webp)
 
@@ -78,7 +85,8 @@ Wie Sie in meinem Beispiel sehen können, besteht das zwölfte Wort derzeit nur 
 ![mnemonic](assets/notext/9.webp)
 
 ## Schritt 2: Berechnung der Prüfsumme
-Dieser Schritt ist der kritischste bei der manuellen Erzeugung einer Mnemonik-Phrase, da er die Verwendung eines Computers erfordert. Wie bereits erwähnt, entspricht die Prüfsumme dem Anfang des SHA256-Hashs, der aus der Entropie generiert wird. Obwohl es theoretisch möglich ist, einen SHA256-Hash von Hand für eine Eingabe von 128 oder 256 Bits zu berechnen, könnte diese Aufgabe eine ganze Woche in Anspruch nehmen. Darüber hinaus würde jeder Fehler bei manuellen Berechnungen erst am Ende des Prozesses identifiziert werden, was Sie zwingt, von vorne zu beginnen. Daher ist es undenkbar, diesen Schritt nur mit einem Blatt Papier und einem Stift durchzuführen. Ein Computer ist fast obligatorisch. Wenn Sie dennoch lernen möchten, wie man einen SHA256 von Hand berechnet, erklären wir, wie das im [CRYPTO301-Kurs](https://planb.network/en/courses/crypto301) geht.
+
+Dieser Schritt ist der kritischste bei der manuellen Erzeugung einer Mnemonik-Phrase, da er die Verwendung eines Computers erfordert. Wie bereits erwähnt, entspricht die Prüfsumme dem Anfang des SHA256-Hashs, der aus der Entropie generiert wird. Obwohl es theoretisch möglich ist, einen SHA256-Hash von Hand für eine Eingabe von 128 oder 256 Bits zu berechnen, könnte diese Aufgabe eine ganze Woche in Anspruch nehmen. Darüber hinaus würde jeder Fehler bei manuellen Berechnungen erst am Ende des Prozesses identifiziert werden, was Sie zwingt, von vorne zu beginnen. Daher ist es undenkbar, diesen Schritt nur mit einem Blatt Papier und einem Stift durchzuführen. Ein Computer ist fast obligatorisch. Wenn Sie dennoch lernen möchten, wie man einen SHA256 von Hand berechnet, erklären wir, wie das im [CRYPTO301-Kurs](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f) geht.
 
 Aus diesem Grund rate ich dringend davon ab, eine manuelle Phrase für eine tatsächliche Wallet zu erstellen. Meiner Meinung nach erhöht die Verwendung eines Computers in dieser Phase, selbst mit allen notwendigen Vorsichtsmaßnahmen, unangemessen die Angriffsfläche der Wallet.
 Um die Prüfsumme zu berechnen, während so wenig Spuren wie möglich hinterlassen werden, werden wir eine amnesische Linux-Distribution von einem entfernbaren Laufwerk namens **Tails** verwenden. Dieses Betriebssystem startet von einem USB-Stick und funktioniert vollständig im RAM des Computers, ohne mit der Festplatte zu interagieren. Theoretisch hinterlässt es daher keine Spuren auf dem Computer, nachdem er ausgeschaltet wurde. Bitte beachten Sie, dass Tails nur mit Prozessoren vom Typ x86_64 kompatibel ist und nicht mit Prozessoren vom Typ ARM.
@@ -110,7 +118,8 @@ Sie gelangen zu einem neuen, leeren Befehlsterminal.
 Geben Sie den `echo`-Befehl ein, gefolgt von Ihrer zuvor generierten Entropie, und achten Sie darauf, ein Leerzeichen zwischen `echo` und Ihrer Binärziffernfolge einzufügen.
 ![mnemonic](assets/notext/17.webp)
 
-Fügen Sie ein zusätzliches Leerzeichen hinzu, dann geben Sie den folgenden Befehl ein, indem Sie eine *Pipe* (`|`) verwenden:
+Fügen Sie ein zusätzliches Leerzeichen hinzu, dann geben Sie den folgenden Befehl ein, indem Sie eine _Pipe_ (`|`) verwenden:
+
 ```plaintext
 | shasum -a 256 -0
 ```
@@ -118,14 +127,16 @@ Fügen Sie ein zusätzliches Leerzeichen hinzu, dann geben Sie den folgenden Bef
 ![mnemonic](assets/notext/18.webp)
 
 Im Beispiel mit meiner Entropie lautet der gesamte Befehl wie folgt:
+
 ```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
 In diesem Befehl:
+
 - wird `echo` verwendet, um die Bitfolge zu senden;
-- `|`, die *Pipe*, wird verwendet, um die Ausgabe des `echo`-Befehls an die Eingabe des nächsten Befehls zu leiten;
-- `shasum` startet eine Hashing-Funktion, die zur SHA (*Secure Hash Algorithm*)-Familie gehört;
+- `|`, die _Pipe_, wird verwendet, um die Ausgabe des `echo`-Befehls an die Eingabe des nächsten Befehls zu leiten;
+- `shasum` startet eine Hashing-Funktion, die zur SHA (_Secure Hash Algorithm_)-Familie gehört;
 - `-a` gibt die Wahl eines spezifischen Hashing-Algorithmus an;
 - `256` zeigt an, dass der SHA256-Algorithmus verwendet wird;
 - `-0` ermöglicht es, die Eingabe als eine Binärzahl zu interpretieren.
@@ -135,6 +146,7 @@ Nachdem Sie sorgfältig überprüft haben, dass Ihre Binärsequenz keine Tippfeh
 ![mnemonic](assets/notext/19.webp)
 
 Vorerst wird der Hash im hexadezimalen Format (Basis 16) ausgedrückt. Zum Beispiel ist meiner:
+
 ```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
@@ -162,7 +174,6 @@ Der nächste Schritt ist die Umwandlung dieses hexadezimalen Zeichens (Basis 16)
 | 14                 | e                      | 1110            |
 | 15                 | f                      | 1111            |
 
-
 In meinem Beispiel entspricht der Buchstabe `a` der Binärzahl `1010`. Diese 4 Bits bilden die Prüfsumme unserer Wiederherstellungsphrase. Sie können sie nun der bereits auf Ihrem Blatt Papier notierten Entropie hinzufügen, indem Sie sie am Ende des letzten Wortes platzieren.
 
 ![mnemonic](assets/notext/20.webp)
@@ -170,7 +181,9 @@ In meinem Beispiel entspricht der Buchstabe `a` der Binärzahl `1010`. Diese 4 B
 Ihre mnemonische Phrase ist nun vollständig, aber sie liegt im Binärformat vor. Der nächste Schritt wird sein, sie in das Dezimalsystem umzuwandeln, damit Sie dann jede Zahl einer entsprechenden Wort in der BIP39-Liste zuordnen können.
 
 ## Schritt 3: Umwandlung von Wörtern in Dezimalzahlen
+
 Um jede Binärzeile in eine Dezimalzahl umzuwandeln, werden wir eine Methode verwenden, die die manuelle Berechnung erleichtert. Derzeit haben Sie zwölf Zeilen auf Ihrem Papier, jede besteht aus 11 Binärziffern `0` oder `1`. Um mit einer Umwandlung in Dezimalzahlen fortzufahren, weisen Sie jedem ersten Ziffer den Wert `1024` zu, wenn es sich um `1` handelt, andernfalls `0`. Für die zweite Ziffer wird der Wert `512` zugewiesen, wenn es sich um `1` handelt, andernfalls `0`, und so weiter bis zur elften Ziffer. Die Entsprechungen sind wie folgt:
+
 - 1. Bit: `1024`;
 - 2. Bit: `512`;
 - 3. Bit: `256`;
@@ -184,6 +197,7 @@ Um jede Binärzeile in eine Dezimalzahl umzuwandeln, werden wir eine Methode ver
 - 11. Bit: `1`.
 
 Für jede Zeile werden wir die Werte, die den Ziffern `1` entsprechen, addieren, um die Dezimalzahläquivalent der Binärzahl zu erhalten. Nehmen wir das Beispiel einer Binärzeile gleich:
+
 ```plaintext
 1010 1101 101
 ```
@@ -191,6 +205,7 @@ Für jede Zeile werden wir die Werte, die den Ziffern `1` entsprechen, addieren,
 Die Umwandlung wäre wie folgt:
 ![mnemonic](assets/notext/21.webp)
 Das Ergebnis wäre dann:
+
 ```plaintext
 1389
 ```
@@ -202,6 +217,7 @@ Dann addieren Sie einfach alle Zahlen, die durch `1`er bestätigt wurden, um die
 ![mnemonic](assets/notext/23.webp)
 
 ## Schritt 4: Suche nach den Wörtern der mnemonischen Phrase
+
 Mit den erhaltenen Dezimalzahlen können wir nun die entsprechenden Wörter in der Liste finden, um die mnemonische Phrase zu bilden. Die Nummerierung der 2048 Wörter in der BIP39-Liste reicht jedoch von `1` bis `2048`. Aber unsere berechneten Binärergebnisse reichen von `0` bis `2047`. Daher gibt es eine Verschiebung um eine Einheit, die korrigiert werden muss. Um diese Verschiebung zu korrigieren, fügen Sie einfach `1` zu den zwölf zuvor berechneten Dezimalzahlen hinzu.
 
 ![mnemonic](assets/notext/24.webp)
@@ -209,15 +225,18 @@ Nach dieser Anpassung haben Sie den Rang jedes Wortes innerhalb der Liste. Alles
 [**-> Drucken Sie die BIP39-Liste im A4-Format aus.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 Zum Beispiel, wenn die aus der ersten Zeile abgeleitete Nummer 1721 ist, wird das entsprechende Wort das 1721. auf der Liste sein:
+
 ```plaintext
 1721. strike
 ```
+
 ![mnemonic](assets/notext/25.webp)
 Auf diese Weise fahren wir sukzessive mit den 12 Wörtern fort, um unsere mnemonische Phrase zu konstruieren.
 
 ![mnemonic](assets/notext/26.webp)
 
 ## Schritt 5: Erstellen des Bitcoin-Wallets
+
 An diesem Punkt bleibt nur noch, unsere mnemonische Phrase in eine Bitcoin-Wallet-Software zu importieren. Je nach unseren Vorlieben kann dies auf einer Desktop-Software geschehen, um ein Hot Wallet zu erhalten, oder auf einem Hardware-Wallet für ein Cold Wallet.
 
 ![mnemonic](assets/notext/27.webp)
@@ -228,7 +247,8 @@ Erst bei der Importierung können Sie die Gültigkeit Ihrer Prüfsumme verifizie
 Nachdem Sie Ihr Wallet erstellt haben, vergessen Sie nicht, Ihre Wiederherstellungsphrase auf einem physischen Medium wie Papier oder Metall zu sichern und die während der Generierung verwendete Tabelle zu zerstören, um jegliche Informationslecks zu verhindern.
 
 ## Spezifischer Fall der Würfelwurf-Option auf Coldcards
-Die Hardware-Wallets aus der Coldcard-Familie bieten [eine Funktion namens *Dice Roll*](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), um die Wiederherstellungsphrase Ihres Wallets mit Würfeln zu generieren. Diese Methode ist ausgezeichnet, da sie Ihnen direkte Kontrolle über die Erstellung der Entropie gibt, ohne die Verwendung eines externen Geräts zur Berechnung der Prüfsumme, wie in unserem Tutorial erforderlich.
+
+Die Hardware-Wallets aus der Coldcard-Familie bieten [eine Funktion namens _Dice Roll_](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), um die Wiederherstellungsphrase Ihres Wallets mit Würfeln zu generieren. Diese Methode ist ausgezeichnet, da sie Ihnen direkte Kontrolle über die Erstellung der Entropie gibt, ohne die Verwendung eines externen Geräts zur Berechnung der Prüfsumme, wie in unserem Tutorial erforderlich.
 
 Jedoch wurden kürzlich Bitcoin-Diebstähle gemeldet, die auf unsachgemäßen Gebrauch dieser Funktion zurückzuführen sind. Tatsächlich kann eine zu begrenzte Anzahl von Würfelwürfen zu unzureichender Entropie führen, was theoretisch das Brute-Force-Verfahren der mnemonischen Phrase und den Diebstahl der damit verbundenen Bitcoins ermöglicht. Um dieses Risiko zu vermeiden, wird empfohlen, auf der Coldcard mindestens 99 Würfelwürfe durchzuführen, was ausreichende Entropie sicherstellt.
 
@@ -245,3 +265,4 @@ Unser Tutorial:
 
 Entropie = 128 * log2(2)
 Entropie = 128
+```

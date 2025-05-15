@@ -1,0 +1,9 @@
+question: Какое альтернативное решение Swiss Bitcoin Pay для приема биткоин-платежей по профилю Essential является 100% кастодиальным?
+answer: Открытый узел
+wrong_answers:
+  - Сервер BTCPay
+  - Биткоинизация PoS
+  - Кошелек Феникс
+explanation: |
+  Open Node характеризуется как полностью кастодиальное решение, отличающееся от гибридной природы Swiss Bitcoin Pay.
+reviewed: false

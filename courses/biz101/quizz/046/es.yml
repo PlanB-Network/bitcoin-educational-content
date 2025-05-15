@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal de la moneda?
+answer: Actuar como intermediario que simplifica el intercambio de valor
+wrong_answers:
+  - Almacenar el valor intrínseco en forma física
+  - Sustituir completamente el trueque por el intercambio directo de mercancías
+  - Centralizar todas las transacciones económicas a través de una autoridad única
+explanation: |
+  La moneda simplifica el comercio al servir de medio común que reduce la compleja red de tipos de cambio necesaria en un sistema de trueque, facilitando así las transacciones.
+reviewed: false

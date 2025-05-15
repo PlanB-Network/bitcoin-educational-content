@@ -1,0 +1,9 @@
+question: Jaki jest algorytm szyfrowania blokowego przyjęty jako standard AES?
+answer: Szyfr Rijndael
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Szyfr Rijndael został przyjęty jako standard szyfrowania symetrycznego (AES) przez NIST ze względu na jego wysoką wydajność i bezpieczeństwo.
+reviewed: false

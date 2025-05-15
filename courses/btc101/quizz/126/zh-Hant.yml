@@ -1,0 +1,13 @@
+question: 什麼是 Bitcoin 交易？
+answer: 比特幣的 Ownership 轉移，使用加密技術。
+wrong_answers:
+  - 比特幣的實體 Exchange，使用公證。
+  - 比特幣 Ownership 的轉移，使用實體 Address。
+  - 使用電子郵件 Address 轉帳比特幣 Ownership。
+explanation: |
+  Bitcoin 交易是指以數位方式轉移
+  比特幣的 Ownership 數位轉移，通過使用 Bitcoin Address
+  衍生的橢圓曲線加密技術。這個
+  Address 對於接收比特幣的人的 Wallet 來說是獨一無二的。
+  比特幣。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ko je predložio ideju konkurencije među privatnim valutama?
+answer: Friedrich Hayek
+wrong_answers:
+  - Džon Majnard Kejns
+  - Žak Rijf
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek je predložio ideju konkurencije među privatnim valutama kako bi se smanjio uticaj vlada na valutu i podstakla monetarna stabilnost zasnovana na tržištu, a ne na centralizovanim politikama.
+reviewed: false

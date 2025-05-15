@@ -1,10 +1,9 @@
-question: Mis on üks levinumaid omadusi krüptoraha valdkonna petuskeemides?
-answer: Ebareaalsete tuluootuste lubamine.
+question: Mis on Ponzi skeemi peamine mehhanism?
+answer: Varasematele investoritele makstakse uute investorite raha eest
 wrong_answers:
-  - Füüsiliste kaupade lubamine.
-  - Tarkvaratoodete lubamine.
-  - Fiatriaha lubamine.
+  - Tulud tulevad reaalselt turul olevast tootest
+  - Investorid saavad ettevõtetelt dividende
+  - Blockchain arukate lepingute abil saadakse kasumit
 explanation: |
-  Krüptoraha valdkonna petuskeemid lubavad tihti ebareaalseid tuluootusi.
-  On oluline mitte pimesi usaldada, eriti kui tegemist on interneti bänneriga.
+  Ponzi skeemi puhul ei looda mingit reaalset toodet ja väljamaksed sõltuvad ainult uute osalejate saabumisest.
 reviewed: false

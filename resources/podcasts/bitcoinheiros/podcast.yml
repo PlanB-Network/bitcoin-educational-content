@@ -1,3 +1,4 @@
+id: c4e354e5-0881-4145-9eea-5e9bde534f8f
 name: bitcoinheiros
 host: Bitcoinheiros do Brasil
 language: pt
@@ -7,9 +8,9 @@ links:
   website: https://www.bitcoinheiros.com/
 description: |
   O melhor podcast sobre Bitcoin em português. Junte-se todas as semanas ao Allan, Becas, Dov, Ivan e convidados especiais para uma discussão sobre a tecnologia que está revolucionando o mundo.
+contributor_names:
+  - PaoloFoti
 tags:
-  - privacy
-  - cypherpunk
-  - use-case
-contributors:
-  - hunt-wood
+  - market-trends
+  - user-friendly
+  - high-level

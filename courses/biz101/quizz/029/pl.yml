@@ -1,0 +1,9 @@
+question: Jakie są zalety płatności Lightning Network dla sprzedawców w punkcie sprzedaży?
+answer: Płatności błyskawiczne są rozliczane niemal natychmiast i nie wymagają wielu pośredników, co zmniejsza opłaty i opóźnienia w rozliczeniach.
+wrong_answers:
+  - Płatności błyskawiczne wymagają tygodni na potwierdzenie i wymagają dużej ilości formalności.
+  - Płatności błyskawiczne mają miejsce tylko wtedy, gdy zostaną zatwierdzone przez organ banku centralnego.
+  - Płatności błyskawiczne mogą być dowolnie wycofane przez kupującego po sprzedaży.
+explanation: |
+  Lightning Network sprawia, że transakcje są szybsze i tańsze, umożliwiając rozliczenie off-chain. Sprzedawcy mogą otrzymywać środki niemal natychmiast, przy minimalnych opłatach i bez polegania na tradycyjnych pośrednikach płatności.
+reviewed: false

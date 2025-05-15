@@ -1,0 +1,9 @@
+question: Koji Nishijima
+answer: Džef Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Ovaj blok, iskorišćavajući grešku, kreirao je preko 184 milijarde bitkoina.
+reviewed: false

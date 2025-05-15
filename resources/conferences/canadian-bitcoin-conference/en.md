@@ -5,12 +5,12 @@ description: The focus will be on the Canadian marketplace, including real estat
 
 # Day 1
 
-## Canadian Bitcoin Conference 2024 | Day 1 Livestream
+## Full day Livestream
 
 ![video](https://youtu.be/5ZD53ytRQ-s)
 
 # Day 2
 
-## Canadian Bitcoin Conference 2024 | Day 2 Livestream
+## Full day Livestream
 
 ![video](https://youtu.be/fzpAizhsBTE)

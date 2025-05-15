@@ -1,71 +1,112 @@
+id: 43c1f166-aef7-4565-8375-2a3f5052326d
 author: Vaclav Smil
 level: advanced
-tags:
-  - science
-  - history
-  - technology
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3208
+    contributor_names:
+    reward: 0.73
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1604
+    reward: 0.36
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3562
+    contributor_names:
+    reward: 0.73
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3208
+    contributor_names:
+    reward: 0.73
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3562
+    contributor_names:
+    reward: 0.73
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4624
+    contributor_names:
+    reward: 1.36
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3208
+    contributor_names:
+    reward: 0.73
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3916
+    contributor_names:
+    reward: 0.94
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4624
+    contributor_names:
+    reward: 1.36
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4270
+    contributor_names:
+    reward: 1.15
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4270
+    contributor_names:
+    reward: 1.15
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3916
+    contributor_names:
+    reward: 0.94
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.94
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.94
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.94
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.57
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.94
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.94
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.94
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.15
+tags:
+  - market-trends
+  - technical-analysis
+  - deep-dive
+contributor_names:
+  - Rogzy-DB

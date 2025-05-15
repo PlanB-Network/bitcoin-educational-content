@@ -1,0 +1,9 @@
+question: Which open-source software is adapted to a Professional Bitcoin payment system?
+answer: BTC Pay Server
+wrong_answers:
+  - Swiss Bitcoin Pay
+  - Open Node
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server is highlighted in the course as the core open-source solution for Professional setups due to its extensive integration options and control.
+reviewed: false

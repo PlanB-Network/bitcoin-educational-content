@@ -1,0 +1,9 @@
+question: Zašto bi prodavac izvršio fiktivno plaćanje u kanalu?
+answer: Da premestite likvidnost na suprotnu stranu
+wrong_answers:
+  - Da se smanje troškovi rutiranja
+  - Da povećaju ukupni kapacitet svojih kanala
+  - Da zaključate sredstva na duži rok
+explanation: |
+  Pravljenjem fiktivne uplate, prodavac premešta likvidnost sa svoje strane na suprotnu stranu kanala, čime oslobađa dolazni kapacitet za primanje uplata.
+reviewed: false

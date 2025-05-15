@@ -1,0 +1,9 @@
+question: 為什麼密碼學範例經常使用字元 Alice 和 Bob？
+answer: 以簡化的方式說明密碼原則
+wrong_answers:
+  - 因為 Alice 和 Bob 是密碼學中的專業術語
+  - 因為它們是世界上最常見的名字
+  - 因為它們代表電腦系統
+explanation: |
+  Alice 和 Bob 是密碼學中常用的虛構角色，以簡化和示意的方式說明資訊交換和密碼原理。
+reviewed: false

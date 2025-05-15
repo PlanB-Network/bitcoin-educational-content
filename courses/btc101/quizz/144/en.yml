@@ -1,5 +1,4 @@
-question: What is the bandwidth requirement for running a Bitcoin node, considering
-  1 block of 1MB every 10 minutes?
+question: What is the bandwidth requirement for running a Bitcoin node, considering 1 block of 1MB every 10 minutes?
 answer: Approximately 5GB per month.
 wrong_answers:
   - Approximately 1GB per month.

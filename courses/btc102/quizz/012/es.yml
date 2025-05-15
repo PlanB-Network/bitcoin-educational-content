@@ -1,9 +1,9 @@
-question: ¿Cuál es la razón principal de perder bitcoins según el capítulo?
-answer: Gestión deficiente de la seguridad en línea
+question: ¿Qué significa la noción de autocustodia en el mundo de Bitcoin?
+answer: Conserve usted mismo sus claves privadas
 wrong_answers:
-  - Estafas de criptomonedas
-  - Estafas financieras
-  - Fallo del ordenador
+  - Confíe sus llaves a una plataforma especializada Exchange
+  - Confiar sus llaves a un banco de inversión
+  - Conserve usted mismo sus claves públicas
 explanation: |
-  El capítulo menciona que, además de las estafas de criptomonedas y las estafas financieras, la razón principal de perder bitcoins está relacionada con una gestión deficiente de la seguridad en línea.
+  La autocustodia garantiza que el usuario mantenga el control total de sus bitcoins a través de sus propias claves privadas.
 reviewed: false

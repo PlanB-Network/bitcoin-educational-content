@@ -1,0 +1,9 @@
+question: Co oznacza przedrostek `wpkh` w deskryptorze?
+answer: Pay-to-Witness-PubKey-Hash
+wrong_answers:
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Skrypt świadka Hash
+explanation: |
+  Przedrostek `wpkh` oznacza skrypt SegWit v0 używający adresów Pay-to-Witness-Public-Key-Hash.
+reviewed: false

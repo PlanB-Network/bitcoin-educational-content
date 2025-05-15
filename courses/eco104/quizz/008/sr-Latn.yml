@@ -1,0 +1,12 @@
+question: Kako se novi Bitcoin kreiraju i uvode u cirkulaciju?
+answer: Kroz Mining kao nagrada za dodavanje novih transakcija u Blockchain
+wrong_answers:
+  - Kroz izdavanje centralizovane vlasti
+  - Kupovinom sa Bitcoin berzi
+  - Primajući ih kao naknade za transakcije
+explanation: |
+  Novi Bitcoin se uvode u opticaj kroz proces nazvan Mining. 
+  Rudari se međusobno takmiče da dodaju nove transakcije u Blockchain. 
+  U Exchange za svoj rad, rudari su nagrađeni sa novoizgrađenim Bitcoin. 
+  Ovaj proces takođe verifikuje i osigurava transakcije na Bitcoin mreži.
+reviewed: true

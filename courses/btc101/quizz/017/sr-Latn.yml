@@ -1,0 +1,11 @@
+question: Šta Bitcoin simbolizuje izvan svoje tehnologije?
+answer: Revolucija protiv tradicionalnih finansijskih sistema i alternativa zasnovana na transparentnosti, decentralizaciji i individualnom suverenitetu.
+wrong_answers:
+  - Novi oblik digitalne valute koji je efikasniji od tradicionalnih valuta jer je brži.
+  - Način za pojedince da zarade novac putem Mining.
+  - Alat za kriminalce za obavljanje ilegalnih transakcija.
+explanation: |
+  Iza njegove tehnologije, Bitcoin simbolizuje revoluciju
+  protiv tradicionalnih finansijskih sistema: protokol
+  sprovodi novi monetarni sistem bez ikakve centralne entitete.
+reviewed: true

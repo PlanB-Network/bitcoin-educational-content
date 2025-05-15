@@ -1,10 +1,9 @@
-question: Cos'è la blockchain di Bitcoin?
-answer: Una base di dati che registra tutte le transazioni di Bitcoin
+question: Quale vantaggio offre l'approccio a strati per il Bitcoin?
+answer: Mantenere la sicurezza del protocollo di base
 wrong_answers:
-  - Un tipo di valuta digitale
-  - Una rete di utenti di Bitcoin
-  - Un metodo per estrarre Bitcoin
+  - Crescente centralizzazione della rete principale
+  - Rapida innovazione del protocollo di base
+  - Avere sui livelli le stesse caratteristiche del protocollo di base
 explanation: |
-  La blockchain di Bitcoin è una base di dati che registra tutte le transazioni di Bitcoin.
-  È mantenuta dai minatori che aggiungono nuove transazioni alla blockchain.
+  L'approccio a strati consente di aggiungere funzionalità senza compromettere la sicurezza e la semplicità del protocollo di base.
 reviewed: false

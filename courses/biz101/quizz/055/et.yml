@@ -1,0 +1,9 @@
+question: Mis on spetsialiseeritud Bitcoini raamatupidamistööriistade peamine eesmärk?
+answer: Lihtsustada Bitcoiniga seotud andmete automaatset kogumist ja töötlemist
+wrong_answers:
+  - Bitcoini privaatvõtmete turvalisuse suurendamiseks
+  - Et hõlbustada otsest kauplemist Bitcoini detsentraliseeritud börsidel ettevõtete jaoks
+  - Bitcoin-maksete vastuvõtmiseks PoS-süsteemi loomine
+explanation: |
+  Need vahendid on mõeldud andmete kogumise, vormingu teisendamise, maksude arvutamise ja tehingute liigitamise automatiseerimiseks.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Kako bi se Lightning Network potencijalno mogao koristiti za iznajmljivanje robe?
+answer: Korisnicima bi mogla biti naplaćena cena po minutu, ili čak po sekundi, za vreme koje koriste robu.
+wrong_answers:
+  - Korisnicima bi mogla biti naplaćena visoka naknada za iznajmljivanje robe.
+  - Korisnicima bi se moglo naplatiti na osnovu vrednosti robe.
+  - Korisnicima bi mogla biti naplaćena naknada na osnovu stanja robe.
+explanation: >-
+reviewed: true

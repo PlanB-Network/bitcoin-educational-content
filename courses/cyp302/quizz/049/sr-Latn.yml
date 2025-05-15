@@ -1,0 +1,9 @@
+question: Koja je vrsta grupe posebno važna za kriptografiju javnog ključa zbog svoje sposobnosti da generate sve Elements kroz eksponencijaciju?
+answer: Ciklične grupe
+wrong_answers:
+  - Ne-abelske grupe
+  - Beskonačne grupe
+  - Grupe kompleksnih brojeva
+explanation: |
+  U kriptografiji, ciklične grupe su esencijalne jer omogućavaju generisanje svih Elements grupe korišćenjem eksponenciranja jednog elementa, koji se naziva generator.
+reviewed: false

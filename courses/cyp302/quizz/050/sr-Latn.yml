@@ -1,0 +1,9 @@
+question: Zašto su proširena polja sa bazom 2 korisna u kriptografiji?
+answer: Oni omogućavaju sigurno manipulisanje binarnim nizovima.
+wrong_answers:
+  - Oni pojednostavljuju proračune smanjenjem broja operacija.
+  - Oni sprečavaju greške u proračunu dodavanjem redundancije.
+  - Oni ograničavaju opseg mogućnosti smanjenjem broja Elements.
+explanation: |
+  Polja proširenja sa bazom 2 su pogodna jer se njihov Elements može posmatrati kao binarni nizovi, što olakšava izvođenje operacija na digitalnim podacima na binarnom nivou u sistemima.
+reviewed: false

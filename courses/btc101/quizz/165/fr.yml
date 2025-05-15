@@ -1,5 +1,4 @@
 question: Comment le protocole Bitcoin maintient-il un temps moyen constant entre la création de deux blocs ?
-  remains constant?
 answer: La difficulté de trouver un hash valide s'ajuste tous les 2016 blocs.
 wrong_answers:
   - Le nombre de mineurs est régulé à un nombre fixe.

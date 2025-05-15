@@ -1,0 +1,9 @@
+question: passphrase और Bitcoin, Wallet के लिए PIN कोड में मुख्य अंतर क्या है?
+answer: passphrase कुंजी व्युत्पत्ति (key derivation) को बदलता है, पिन कोड (PIN code) को नहीं।
+wrong_answers:
+  - पिन कोड Mnemonic वाक्यांश से जुड़ा हुआ है
+  - पिन कोड का इस्तेमाल लेन-देन को एन्क्रिप्ट करने के लिए होता है, लेकिन passphrase के लिए नहीं।
+  - पिन कोड से Bitcoin पते जनरेट होते हैं
+explanation: |
+  PIN कोड के विपरीत, passphrase सीधे की डेरिवेशन प्रक्रिया में शामिल होता है और Wallet कीज़ को बदल देता है।
+reviewed: false

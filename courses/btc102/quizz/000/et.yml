@@ -1,11 +1,9 @@
-question: Mis on Ponzi skeemide ühine tunnusjoon krüptovaluuta valdkonnas?
-answer: Nad kasutavad uute investorite raha, et maksta vanematele osalejatele.
+question: Millised on krüptoökosüsteemi Ponzi skeemi tüüpilised tunnused?
+answer: Garanteeritud tulu, keerulised väljavõtmised ja soovitused
 wrong_answers:
-  - Nad hõlmavad alati Bitcoini.
-  - Nad on alati seaduslikud ja reguleeritud.
-  - Nad hõlmavad alati füüsilisi varasid.
+  - Madal tootlus, keerulised väljavõtmised ja täielik läbipaistvus
+  - Garanteeritud tulu, keerulised väljavõtmised ja viitamissüsteemi puudumine
+  - Garanteeritud tulu, lihtne väljavõtmine ja viitamissüsteemi puudumine
 explanation: |
-  Ponzi skeemid krüptovaluuta valdkonnas toimivad sageli, kasutades uute
-  investorite raha, et maksta vanematele osalejatele. See jätkusuutmatu olemus ja sõltuvus
-  uutest tulijatest teeb neist tõenäoliselt paratamatult kokkuvarisevad.
+  Need omadused võivad viidata püramiidskeemile. Kui märkate neid mõnes projektis, olge väga ettevaatlik.
 reviewed: false

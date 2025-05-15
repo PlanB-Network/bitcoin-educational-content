@@ -1,0 +1,9 @@
+question: Qual dos seguintes softwares não é uma solução de contabilidade Bitcoin?
+answer: Pardal
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow não é uma solução de contabilidade Bitcoin, enquanto os outros são (é um software de carteira Bitcoin).
+reviewed: false

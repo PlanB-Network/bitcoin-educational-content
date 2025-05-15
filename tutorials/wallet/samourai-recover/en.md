@@ -158,7 +158,7 @@ If you are using a different software than Sparrow, like Electrum, to recover yo
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also check out [our dedicated tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also check out [our dedicated tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 I also recommend manually importing the labels you had associated with your UTXOs on Samourai. This will allow you to perform effective coin control on Sparrow subsequently.
 
@@ -217,7 +217,7 @@ If you are using another software like Electrum to recover your Samourai wallet,
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also consult [our dedicated tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+You now have access to your bitcoins on Sparrow. If you need help using Sparrow Wallet, you can also consult [our dedicated tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 I also recommend manually importing the labels you had associated with your UTXOs on Samourai. This will allow you to perform effective coin control on Sparrow subsequently.
 

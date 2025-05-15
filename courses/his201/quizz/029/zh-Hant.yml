@@ -1,0 +1,9 @@
+question: 2009 年 1 月，cypherpunks 的創始成員 John Gilmore 對 Satoshi Nakamoto 的發明提出了什麼批評？
+answer: Bitcoin 會污染地球
+wrong_answers:
+  - Bitcoin 有助於逃稅
+  - Bitcoin 容易受到 Sybil 攻擊
+  - Bitcoin 是通縮性的
+explanation: |
+  他[批評](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html)Bitcoin消耗電力並產生二氧化碳（一種溫室氣體）。
+reviewed: false

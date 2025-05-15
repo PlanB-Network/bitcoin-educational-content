@@ -1,11 +1,9 @@
-question: Qual è la caratteristica principale di una blockchain senza proof of work?
-answer: Non ha un valore reale
+question: Quale strategia di investimento viene utilizzata principalmente da un impilatore?
+answer: Media del costo del dollaro
 wrong_answers:
-  - È più sicura
-  - È più veloce
-  - È più decentralizzata
+  - Day trading
+  - Arbitraggio
+  - Capitale
 explanation: |
-  Il contenuto del capitolo afferma che senza proof of work, una blockchain
-  non ha un valore reale. Questa è una caratteristica chiave che distingue Bitcoin da altre
-  criptovalute.
+  Il DCA consiste nell'investire regolarmente un importo fisso per ridurre l'impatto della volatilità del mercato sul proprio portafoglio.
 reviewed: false

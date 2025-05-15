@@ -1,0 +1,9 @@
+question: Mikä avoimen lähdekoodin ohjelmisto on mukautettu Professional Bitcoin -maksujärjestelmään?
+answer: BTC Pay palvelin
+wrong_answers:
+  - Sveitsin Bitcoin Pay
+  - Avoin solmu
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server korostuu kurssilla avoimen lähdekoodin perusratkaisuna Professional-asetuksille sen laajojen integrointimahdollisuuksien ja hallinnan ansiosta.
+reviewed: false

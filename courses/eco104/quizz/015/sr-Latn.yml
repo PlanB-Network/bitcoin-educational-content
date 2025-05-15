@@ -1,0 +1,9 @@
+question: Koja je glavna prednost korišćenja nekustodijalnih novčanika za Bitcoin skladištenje?
+answer: Povećana sigurnost i privatnost
+wrong_answers:
+  - Lak pristup Bitcoin
+  - Niže naknade za transakcije
+  - Nema potrebe za lozinkom
+explanation: |
+  Novčanici bez staratelja su oni gde ste vi jedini staratelj vaših sredstava, što znači da imate potpunu kontrolu nad vašim privatnim ključevima. Stoga, novčanici bez staratelja nude viši nivo sigurnosti i privatnosti u odnosu na novčanike sa starateljem, jer ste vi jedini odgovorni za bezbednost vaših sredstava.
+reviewed: true

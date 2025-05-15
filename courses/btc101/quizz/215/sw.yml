@@ -1,0 +1,9 @@
+question: Inamaanisha nini kuwa Bitcoin ina mwelekeo wa juu wa jumla?
+answer: Mwenendo wa jumla wa kupanda kwa Bitcoin unamaanisha kuwa, kwa ujumla, bei ya Bitcoin imekuwa ikiongezeka.
+wrong_answers:
+  - Mwelekeo wa jumla wa kupanda katika Bitcoin unamaanisha kuwa bei imehakikishiwa kupanda kwa muda usiojulikana bila mabadiliko yoyote.
+  - Mwelekeo wa jumla wa kupanda katika Bitcoin unamaanisha kuwa Bitcoin inapungua thamani na inapoteza mvuto wake wa soko.
+  - Mwelekeo wa jumla wa kupanda katika Bitcoin unamaanisha kuwa ni maarufu tu kati ya kikundi kidogo cha wawekezaji na haina athari kwenye soko la jumla.
+explanation: |
+  Mwelekeo wa jumla wa kupanda juu katika Bitcoin unarejelea ongezeko thabiti la bei yake katika kipindi fulani cha muda. Ni muhimu kutambua kwamba ingawa mwelekeo wa juu unaonyesha mwelekeo mzuri, hauhakikishi kuwa bei itaendelea kupanda bila kushuka kwa thamani yoyote.
+reviewed: true

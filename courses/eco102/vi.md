@@ -26,8 +26,32 @@ Tham gia cùng Damien Theillier trong cuộc khám phá thú vị này về tư 
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Giới thiệu khoá học
+## Tổng quan về khóa học
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
 
+Mục tiêu của khóa học này là cung cấp cho bạn sự hiểu biết sâu sắc về cuộc đời, các ảnh hưởng trí tuệ, các đối thủ tư tưởng và các lý thuyết kinh tế của Frédéric Bastiat. Thông qua hành trình có cấu trúc này, bạn sẽ khám phá cách mà những ý tưởng của ông đã đánh dấu tư duy kinh tế và tiếp tục ảnh hưởng đến các cuộc tranh luận hiện nay.
+
+**Phần 1 : Giới thiệu**  
+Chúng ta sẽ bắt đầu với cái nhìn tổng quan về Frédéric Bastiat, một thiên tài ít được biết đến trong lĩnh vực kinh tế. Bạn sẽ tìm hiểu về cuộc đời, hành trình trí tuệ của ông, cũng như bối cảnh lịch sử mà trong đó ông đã phát triển tư tưởng của mình. Hiểu được bối cảnh này là điều cần thiết để nắm bắt đầy đủ tầm ảnh hưởng của các tác phẩm và lý thuyết của ông.
+
+**Phần 2 : Những ảnh hưởng**  
+Chúng ta sẽ tiếp tục với phân tích về những nhà tư tưởng đã định hình tư duy kinh tế của Frédéric Bastiat. Bạn sẽ học được cách mà các nhân vật quan trọng như Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer và Richard Cobden đã góp phần vào sự phát triển trí tuệ của ông, đặt nền tảng cho những suy nghĩ của ông về tự do thương mại và kinh tế thị trường.
+
+**Phần 3 : Các đối thủ tư tưởng**  
+Sau đó, chúng ta sẽ khám phá những phê phán của Bastiat đối với các đối thủ tư tưởng của mình. Dù là Rousseau, nền giáo dục cổ điển, chủ nghĩa bảo hộ, chủ nghĩa xã hội hay Proudhon, bạn sẽ hiểu tại sao Bastiat coi những học thuyết này là trở ngại đối với sự tiến bộ kinh tế và xã hội, và cách ông đáp trả các lập luận của họ bằng một logic sắc bén.
+
+**Phần 4 : Những ngụy biện kinh tế**  
+Phần này dành riêng cho các ngụy biện kinh tế mà Bastiat đã lên án, bao gồm những tác phẩm nổi tiếng như "*Những gì người ta thấy và những gì người ta không thấy*" và "*Đơn kiến nghị của các nhà sản xuất nến*". Chúng ta sẽ xem xét cách ông đã chứng minh, bằng sự trào phúng và phân tích nghiêm túc, những sai lầm kinh tế phổ biến trong thời đại của ông, những vấn đề mà vẫn còn tồn tại đến ngày nay.
+
+**Phần 5 : Những hòa hợp kinh tế**  
+Ở đây, bạn sẽ khám phá tầm nhìn tích cực của Bastiat về kinh tế. Chúng ta sẽ đề cập đến các khái niệm như phép màu của thị trường, sức mạnh của trách nhiệm cá nhân và sự phân biệt giữa tình đoàn kết thật sự và giả tạo. Bastiat coi kinh tế là một hệ thống nhất quán, trong đó lợi ích cá nhân được hiểu đúng đắn sẽ mang lại lợi ích chung. Chúng ta sẽ khám phá lý do tại sao.
+
+**Phần 6 : Luật pháp**  
+Để kết thúc khóa học này, chúng ta sẽ đắm chìm vào tác phẩm quan trọng nhất của Bastiat, "*Luật pháp*", nơi ông trình bày những suy nghĩ về quyền sở hữu, sự chiếm đoạt hợp pháp và vai trò giới hạn của nhà nước. Bạn sẽ hiểu tại sao tác phẩm này được coi là một trong những tuyên ngôn mạnh mẽ nhất ủng hộ tự do cá nhân và nền kinh tế thị trường.
+
+Sẵn sàng khám phá cách mà những ý tưởng của Frédéric Bastiat vẫn còn vang vọng đến ngày nay? Hãy tham gia cùng chúng tôi trong hành trình trí tuệ này, điều có thể sẽ làm thay đổi cách nhìn nhận của bạn về kinh tế!
+
+## Bastiat : Một thiên tài ít được biết đến
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
 Đây là phần giới thiệu về Frédéric Bastiat, một thiên tài không được công nhận và một ngọn hải đăng cho thời đại chúng ta. Trong bài giới thiệu ngắn gọn này, tôi sẽ cố gắng giúp bạn khám phá Frédéric Bastiat là ai và những chủ đề chính mà chúng ta sẽ có trong loạt bài này.
@@ -119,6 +143,14 @@ Những gì Adam Smith chỉ ra là một người chỉ có thể phục vụ l
 
 ![image](assets/en/017.webp)
 
+---
+
+>“Nỗ lực tự nhiên của mỗi cá nhân để cải thiện điều kiện của bản thân... mạnh mẽ đến mức nó có thể, một mình và không cần bất kỳ sự trợ giúp nào, không chỉ đưa xã hội đến sự giàu có và thịnh vượng, mà còn vượt qua hàng trăm chướng ngại phiền phức mà sự ngu ngốc của các luật lệ con người thường gây ra.”  
+>_Sự giàu có của các quốc gia_  
+>_Quyển IV, Chương V_
+
+---
+
 Trao đổi là một trò chơi có tổng dương. Những gì một người thu được, người kia cũng thu được. Do đó, nó khác biệt với tái phân phối bằng con đường chính trị nơi luôn có người thắng và người thua. Nếu chúng ta xem xét trường phái Kinh tế học Anh, đối với Smith, đối với Ricardo, và đối với Locke trước họ, giá trị gắn với lao động. Đối với Marx, cũng vậy.
 
 ![image](assets/en/018.webp)
@@ -131,6 +163,12 @@ Nhưng Bastiat cũng làm cho Say mềm mỏng hơn về điểm này. Đó khô
 Nền kinh tế tuân theo một số quy luật đơn giản xuất phát từ hành vi con người. Một trong số đó, được gọi là "Luật Say," như sau: "Các sản phẩm và dịch vụ được trao đổi cho các sản phẩm và dịch vụ." Ý tưởng của ông là các quốc gia và cá nhân được hưởng lợi từ việc tăng cấp độ sản xuất vì nó gia tăng cơ hội cho các giao dịch có lợi cho cả hai bên.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Tự do cá nhân = Hài hòa xã hội
+
+---
 
 Thực vậy, sản phẩm chỉ được mua với kỳ vọng vào dịch vụ mà người mua mong đợi: Tôi mua một đĩa vì nhạc mà tôi sẽ nghe, tôi mua một vé xem phim vì bộ phim mà tôi sẽ xem. Và trong một giao dịch, mỗi bên quyết định xem liệu thứ mình nhận được có đáng giá hơn so với thứ mình định từ bỏ hay không. Trong bối cảnh này, tiền chỉ là một hàng hóa trung gian, nó bù đắp cho một dịch vụ đã được cung cấp và mở ra các dịch vụ khác.
 
@@ -305,9 +343,14 @@ Bastiat thực sự coi Rousseau là tiền thân thực sự của chủ nghĩa
 
 Ban đầu, một người đàn ông chỉ là một người thuộc giai cấp tư sản. Nhưng ông ấy là một người tính toán; ông ta muốn niềm vui tức thì, ông ta bị nô lệ bởi giác quan, bởi dục vọng, bởi lợi ích cá nhân. Nói ngắn gọn, ông ta không hợp lý, do đó ông ta không tự do. Ông ta cần được giáo dục, để hiểu rằng lợi ích thực sự của mình là lợi ích chung. Đó là lý do tại sao Rousseau đã viết trong "Khế ước xã hội":
 
-> Bất kỳ ai từ chối tuân theo ý chí chung sẽ bị cưỡng bách bởi toàn bộ: điều này không có nghĩa là gì khác ngoài việc họ sẽ được buộc phải tự do.
-
 ![image](assets/en/048.webp)
+
+---
+
+>Bất kỳ ai từ chối tuân theo ý chí chung sẽ bị toàn thể ép buộc: điều đó không có nghĩa gì khác ngoài việc buộc anh ta phải tự do.  
+>(Jean-Jacques Rousseau)
+
+---
 
 Theo học thuyết này, con người có hai ý chí bên trong mình: một ý chí hướng về lợi ích cá nhân, đó là của người thuộc giai cấp tư sản, và một ý chí hướng về lợi ích chung, đó là của công dân. Dẫn dắt con người, thậm chí bằng vũ lực, để muốn một mục tiêu hợp lý, lợi ích chung, là dẫn dắt họ trở nên tự do. Điều họ thực sự muốn là một mục tiêu hợp lý, ngay cả khi họ không biết điều đó.
 Vì vậy, theo Rousseau, hoàn toàn hợp lý khi hạn chế con người vì một mục tiêu mà chính họ, nếu được khai sáng hơn, sẽ theo đuổi, nhưng họ không theo đuổi vì họ mù quáng, ngu dốt, hoặc tham nhũng. Xã hội được thành lập để buộc họ làm những gì họ nên tự nguyện mong muốn nếu họ được khai sáng. Và bằng cách làm như vậy, người ta không hành động bạo lực với họ vì người ta dẫn dắt họ trở nên "tự do," tức là, làm những lựa chọn đúng đắn, những lựa chọn phù hợp với bản thân thực sự của họ.
@@ -382,6 +425,14 @@ Chủ nghĩa bảo hộ, thực tế, là một hình thức của chủ nghĩa 
 
 ![image](assets/en/058.webp)
 
+---
+
+>Cuộc gặp gỡ của chúng tôi với Arnaud Montebourg  
+>Made in France,  
+>anh ấy tin tưởng vào điều đó, chúng tôi đã thử nghiệm
+
+---
+
 Lập luận về bảo vệ việc làm là điều Bastiat gọi là một quan điểm sai lầm. Bởi vì thực tế, nó tương đương với một loại thuế. Nó có tác dụng làm cho sản phẩm trở nên đắt đỏ hơn. Hãy lấy ví dụ do chính Bastiat đưa ra.
 
 Hãy tưởng tượng một con dao của Anh bán ở nước ta với giá 2 franc, và một con dao sản xuất tại Pháp có giá 3 franc. Nếu chúng ta để người tiêu dùng tự do mua con dao mà họ muốn, họ tiết kiệm được một franc, mà họ có thể đầu tư vào nơi khác (một cuốn sách, hoặc một cây bút chì).
@@ -410,6 +461,14 @@ Và ông sẽ tiếp tục phân tích những tác động xấu xa của nó s
 3. Bastiat thêm rằng, theo quan điểm của mình, chủ nghĩa bảo hộ là biểu hiện đầu tiên của sự rối loạn này. Các nhà tư bản khởi xướng điều này bằng cách yêu cầu sự can thiệp của luật pháp để tăng cường phần thưởng của họ. Tất yếu, công nhân cũng muốn làm điều tương tự.
 
 ![image](assets/en/063.webp)
+
+---
+
+>ĐỂ THÀNH CÔNG  
+>BỎ PHIẾU CHO SFIO XÃ HỘI CHỦ NGHĨA
+
+---
+
 Kết luận, theo Bastiat: chủ nghĩa bảo hộ và chủ nghĩa xã hội có một điểm chung, đó là những gì họ tìm kiếm từ luật pháp không phải để đảm bảo cho mọi người được tự do thực hiện năng lực của mình và hưởng phần thưởng công bằng cho nỗ lực của họ, mà thay vào đó là để ưu ái việc bóc lột ít hay nhiều một tầng lớp công dân bởi một tầng lớp khác. Với chủ nghĩa bảo hộ, đó là thiểu số bóc lột đa số. Với chủ nghĩa xã hội, đó là đa số bóc lột thiểu số. Trong cả hai trường hợp, công lý bị vi phạm và lợi ích chung bị tổn hại. Bastiat đặt họ vào vị trí đối lập với nhau.
 
 > Nhà nước là hư cấu lớn, qua đó mọi người cố gắng sống bằng chi phí của người khác.
@@ -519,6 +578,12 @@ Vào năm 1840, Hạ viện đã bỏ phiếu thông qua một đạo luật tă
 Sau đó, Bastiat đã soạn một văn bản châm biếm, sau này trở thành một trong những tác phẩm nổi tiếng nhất của ông: "Kiến nghị của các nhà sản xuất nến - The petition of the candle makers". Nó minh họa cách thức mà một số nhóm lợi ích của các nhà sản xuất được tổ chức tốt có được những đặc quyền không xứng đáng từ nhà nước, gây thiệt hại cho người dân. Đồng thời, nó cũng chứng minh bản chất vô lý và phá hoại của luật lệ bảo hộ.
 
 ![image](assets/en/079.webp)
+
+---
+
+>BẢO VỆ NHỮNG NGỌN NẾN CỦA CHÚNG TA!
+
+---
 
 Trong kiến nghị này, các nhà sản xuất nến yêu cầu các nghị sĩ dùng pháp lý để bảo vệ chống lại một đối thủ nguy hiểm:
 
@@ -821,6 +886,15 @@ Và một lần nữa:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Hội  
+>Tương trợ lẫn nhau  
+>của GUISY  
+>1899
+
+---
+
 Tuy nhiên, theo Bastiat, có một lựa chọn khác cho sự đoàn kết bắt buộc của nhà nước: "xã hội hỗ trợ lẫn nhau"
 
 Sự hỗ trợ lẫn nhau và tự phát của con người với nhau nhờ vào các xã hội hỗ trợ lẫn nhau. Nhưng ông cũng dự đoán rằng Nhà nước cuối cùng sẽ chiếm đoạt những tổ chức này để biến chúng thành một cơ quan duy nhất và tập trung, khuyến khích chi tiêu và lãng phí.
@@ -830,6 +904,16 @@ Sự hỗ trợ lẫn nhau và tự phát của con người với nhau nhờ v�
 Trong một cuốn sách có tên "Công lý và Tình anh em - Justice and Fraternity", Bastiat cũng khám phá ý tưởng về một hệ thống thuế đơn giản và công bằng để tài trợ cho nhu cầu tập thể (cảnh sát, tư pháp, quân đội): thu nhập và lợi nhuận sẽ chịu một mức thuế duy nhất và tỷ lệ cố định. Điều này ngày nay được biết đến là "Thuế suất đồng đều - Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Các quỹ –  
+>**giá trị gia tăng**  
+>cho **xã hội**  
+>
+>SwissFoundations
+
+---
 
 Thật vậy, sự đoàn kết trong gia đình, sự đoàn kết địa phương, hoặc hoạt động phúc thiện có tổ chức được phát triển nhiều hơn ở các quốc gia có hệ thống thuế nhẹ và mức độ tự do kinh tế tương đối cao, như Thụy Sĩ và Hoa Kỳ, trong khi bị bóp nghẹt đáng kể ở các quốc gia nơi mà Nhà nước đã thay thế phần lớn trách nhiệm cá nhân, như Pháp hoặc Đức.
 Thường thì người ta hay phê phán "sự ích kỷ" đang tồn tại phổ biến trong các xã hội tự do. Nhưng thực tế lại hoàn toàn ngược lại. Khi một xã hội bị gánh nặng bởi thuế và các cá nhân không còn làm chủ tài sản của mình, họ không được khuyến khích đóng góp mà thay vào đó là thu mình lại.
@@ -1025,7 +1109,7 @@ Nếu nhìn nhận vấn đề từ góc độ này, Reagan giải thích với 
 
 Về bản chất, Reagan đã lấy từ Bastiat một số yếu tố then chốt của một tầm nhìn tự do về xã hội và con người: ưu tiên hơn vai trò của xã hội dân sự so với Nhà nước, giá trị của sự lựa chọn và trách nhiệm cá nhân, tầm quan trọng của doanh nhân trong việc tạo ra của cải, vật chất, tầm quan trọng của một khung pháp lý linh hoạt và tối thiểu, để tạo niềm tin và sự tôn trọng đối với các hợp đồng, quy luật cơ bản rằng của cải phải được tạo ra trước khi nó có thể được phân phối, mong muốn mang lại cho mọi người một cơ hội trong thị trường cạnh tranh...
 
-# Kết luận
+# Phần cuối
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

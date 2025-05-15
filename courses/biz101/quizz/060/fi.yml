@@ -1,0 +1,9 @@
+question: Mikä on tärkein laitteistovaatimus, jotta Starter-profiili voi hyväksyä Bitcoin-maksuja?
+answer: Älypuhelin
+wrong_answers:
+  - Bitcoin-louhija ASIC
+  - Laitteiston lompakko
+  - Itse isännöity palvelin
+explanation: |
+  Starter-profiili vaatii vain Lightning-lompakolla varustetun älypuhelimen tai tabletin, joten se on kevyt ratkaisu.
+reviewed: false

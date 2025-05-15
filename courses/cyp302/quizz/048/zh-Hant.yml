@@ -1,0 +1,9 @@
+question: 在一個循環群中，透過指數化可以 generate 所有其他 Elements 的元素的術語是什麼？
+answer: A 發電機
+wrong_answers:
+  - 乘法器
+  - 共質
+  - 逆
+explanation: |
+  生成器是一個循環群中的元素，透過幂運算可以產生群中所有其他的 Elements。
+reviewed: false

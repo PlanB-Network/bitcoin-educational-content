@@ -1,0 +1,14 @@
+question: Zašto se preporučuje brisanje kolačića nakon svake posete sajtu?
+answer: Da biste sprečili treće strane da prate vašu aktivnost na mreži.
+wrong_answers:
+  - Da uštedite prostor za skladištenje na svom uređaju.
+  - Da sprečite sajt da pamti vaše podatke za prijavu.
+  - Da sprečite sajt da vam prikazuje ciljane oglase.
+explanation: |
+  Kolačići su datoteke koje kreiraju veb-sajtovi kako bi sačuvali informacije
+  na vašem uređaju. Dok neki sajtovi zahtevaju ove kolačiće da bi
+  ispravno funkcionisali, oni takođe mogu biti iskorišćeni od strane
+  trećih sajtova, posebno za potrebe praćenja oglašavanja.
+  Brisanje kolačića nakon svake posete sajtu može
+  pomoći u sprečavanju ovoga.
+reviewed: true

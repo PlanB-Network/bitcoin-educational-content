@@ -1,0 +1,5 @@
+---
+term: FEDIMINT
+---
+
+Malipo na itifaki ya usimamizi ya Bitcoin iliyoundwa ili kuimarisha faragha na kupunguza utegemezi kwenye msururu mkuu kupitia ujumuishaji wa ulinzi wa hazina. Fedimint iliundwa na Eric Sirion mnamo 2021. Inatokana na mfumo wa benki ya Chaumian, ambayo, badala ya kuwa kati ya muigizaji mmoja anayeaminika, inategemea mashirikisho. Mashirikisho haya ni vikundi vya walinzi wanaoaminika ambao kwa pamoja wanashikilia na kudhibiti bitcoins za watumiaji katika kikundi chao. Ndani ya kikundi, watumiaji wanaweza kufanya malipo kwa tiketi zilizotolewa katika Exchange kwa amana zao za Bitcoin. Wazo la Fedimint ni kupeleka dhana hii katika ngazi ya jumuiya za wenyeji. Kwa hivyo, inawakilisha aina ya mabadiliko ya benki ya amana kulingana na Bitcoin, ikijumuisha mfumo wa eCash wa David Chaum, na matumizi ya shirikisho la watu wanaoaminika wanaosimamia uhifadhi na utoaji wa mali ya msingi.

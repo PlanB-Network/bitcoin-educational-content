@@ -1,0 +1,9 @@
+question: Proč je důležité zabezpečit si poštovní schránku?
+answer: Protože umožňuje obnovit vaše hesla
+wrong_answers:
+- Protože slouží k odběru newsletterů
+- Protože obsahuje všechna vaše hesla
+- Protože obsahuje vaše bankovní údaje
+explanation: Schránka je centrálním bodem pro získání hesel a ohrožení mnoha účtů
+  v případě zranitelnosti.
+reviewed: false

@@ -2,6 +2,7 @@
 name: Mnemonic Phrase - Dice Roll
 description: Hvordan generere din egen gjenopprettingsfrase med terninger?
 ---
+
 ![cover](assets/cover.webp)
 
 I denne veiledningen vil du lære hvordan du manuelt kan konstruere en gjenopprettingsfrase for en Bitcoin-lommebok ved hjelp av terningkast.
@@ -9,19 +10,23 @@ I denne veiledningen vil du lære hvordan du manuelt kan konstruere en gjenoppre
 **ADVARSEL:** Å generere en mnemonic frase på en sikker måte krever at det ikke etterlates noen digital spor under dens skapelse, noe som er nesten umulig. Ellers ville lommeboken presentere en altfor stor angrepsflate, noe som betydelig øker risikoen for at dine bitcoins blir stjålet. **Det er derfor sterkt frarådet å overføre midler til en lommebok som avhenger av en gjenopprettingsfrase du har generert selv.** Selv om du følger denne veiledningen til punkt og prikke, er det en risiko for at gjenopprettingsfrasen kan bli kompromittert. **Derfor bør denne veiledningen ikke anvendes til opprettelsen av en ekte lommebok.** Bruk av en maskinvarelommebok for denne oppgaven er mye mindre risikabelt, da den genererer frasen offline, og ekte kryptografer har vurdert bruken av kvalitative entropikilder.
 
 Denne veiledningen kan følges kun for eksperimentelle formål for opprettelsen av en fiktiv lommebok, uten intensjonen om å bruke den med ekte bitcoins. Imidlertid tilbyr opplevelsen to fordeler:
+
 - For det første lar den deg bedre forstå mekanismene som ligger til grunn for din Bitcoin-lommebok;
 - For det andre gir den deg kunnskap om hvordan du gjør det. Jeg sier ikke at det vil være nyttig en dag, men det kan det være!
 
 ## Hva er en mnemonic frase?
+
 En gjenopprettingsfrase, også noen ganger kalt en "mnemonic", "seed phrase", eller "secret phrase", er en sekvens som vanligvis består av 12 eller 24 ord, som genereres på en pseudo-tilfeldig måte fra en kilde til entropi. Den pseudo-tilfeldige sekvensen fullføres alltid med en kontrollsum.
 
 Mnemonic frasen, sammen med en valgfri passfrase, brukes til deterministisk å avlede alle nøklene assosiert med en HD (Hierarchical Deterministic) lommebok. Dette betyr at fra denne frasen, er det mulig å deterministisk generere og gjenskape alle de private og offentlige nøklene til Bitcoin-lommeboken, og dermed, få tilgang til midlene assosiert med den.
 ![mnemonic](assets/notext/1.webp)
-Formålet med denne setningen er å tilby et lett-å-bruke middel for sikkerhetskopiering og gjenoppretting av bitcoins. Det er avgjørende å holde mnemonic frasen på et trygt og sikkert sted, da enhver som er i besittelse av denne frasen ville ha tilgang til midlene i den tilsvarende lommeboken. Hvis den brukes i konteksten av en tradisjonell lommebok, og uten en valgfri passfrase, utgjør den ofte et SPOF (Single Point Of Failure). 
+Formålet med denne setningen er å tilby et lett-å-bruke middel for sikkerhetskopiering og gjenoppretting av bitcoins. Det er avgjørende å holde mnemonic frasen på et trygt og sikkert sted, da enhver som er i besittelse av denne frasen ville ha tilgang til midlene i den tilsvarende lommeboken. Hvis den brukes i konteksten av en tradisjonell lommebok, og uten en valgfri passfrase, utgjør den ofte et SPOF (Single Point Of Failure).
 Vanligvis blir denne frasen gitt direkte til deg når du oppretter lommeboken din, av programvaren eller maskinvarelommeboken som brukes. Det er imidlertid også mulig å generere denne frasen selv, og deretter angi den på det valgte støttet for å avlede lommeboknøklene. Dette er hva vi vil lære å gjøre i denne veiledningen.
 
 ## Forberedelse av nødvendige materialer
+
 For å skape din gjenopprettingsfrase for hånd, vil du trenge:
+
 - Et ark papir;
 - En penn eller blyant, ideelt sett i forskjellige farger for å lette organiseringen;
 - Flere terninger, for å minimere risikoen for skjevhet relatert til en ubalansert terning;
@@ -36,17 +41,18 @@ Det anbefales å bruke et høyt antall terninger for å redusere effekten av en 
 I reelle forhold, etter å ha utført disse sjekkene, ville du være klar til å generere den nødvendige entropien. For en eksperimentell fiktiv lommebok opprettet som en del av denne opplæringen, kunne du naturligvis hoppe over disse forberedelsene.
 
 ## Noen Påminnelser om Gjenopprettingsfrasen
+
 For å begynne, vil vi gjennomgå grunnleggende om å skape en mnemonisk frase i henhold til BIP39. Som tidligere forklart, er frasen avledet fra pseudo-tilfeldig informasjon av en viss størrelse, hvortil et kontrollsum legges til for å sikre dens integritet.
 
 Størrelsen på denne opprinnelige informasjonen, ofte referert til som "entropi", bestemmes av antall ord du ønsker å oppnå i gjenopprettingsfrasen. De mest vanlige formatene er fraser på 12 og 24 ord, som henholdsvis stammer fra en entropi på 128 bits og 256 bits. Her er en tabell som viser de forskjellige størrelsene av entropi i henhold til BIP39:
 
 | Phrase (words) | Entropy (bits) | Checksum (bits) | Entropy + Checksum (bits) |
-| --------------- | --------------- | --------------- | -------------------------- |
-| 12              | 128             | 4               | 132                        |
-| 15              | 160             | 5               | 165                        |
-| 18              | 192             | 6               | 198                        |
-| 21              | 224             | 7               | 231                        |
-| 24              | 256             | 8               | 264                        |
+| -------------- | -------------- | --------------- | ------------------------- |
+| 12             | 128            | 4               | 132                       |
+| 15             | 160            | 5               | 165                       |
+| 18             | 192            | 6               | 198                       |
+| 21             | 224            | 7               | 231                       |
+| 24             | 256            | 8               | 264                       |
 
 Entropi er altså et tilfeldig tall mellom 128 og 256 bits. I denne opplæringen, vil vi ta eksemplet med en 12-ords frase, der entropien er 128 bits, noe som betyr at vi vil generere en tilfeldig sekvens av 128 `0`er eller `1`er. Dette representerer et tall bestående av 128 sifre i base 2 (binær).
 Basert på denne entropien, vil en kontrollsum bli generert. En kontrollsum er en verdi beregnet fra et sett med data, brukt til å verifisere integriteten og gyldigheten av disse dataene under deres overføring eller lagring. Algoritmer for kontrollsum er designet for å oppdage tilfeldige feil eller endringer i dataene.
@@ -66,6 +72,7 @@ Til slutt forteller tallet i desimal oss posisjonen til det tilsvarende ordet i 
 Nå, la oss gå videre til praksis! Vi vil generere en 12-ords gjenopprettingsfrase. Imidlertid forblir denne operasjonen identisk i tilfellet av en 24-ords frase, bortsett fra at den ville kreve 256 bits entropi og en 8-bits kontrollsum, som angitt i ekvivalenstabellen som ligger i begynnelsen av denne seksjonen.
 
 ## Steg 1: Generering av Entropi
+
 Forbered ditt ark med papir, din penn, og dine terninger. For å begynne, vil vi trenge å generere 128 bits tilfeldig, det vil si, en sekvens av 128 `0`er og `1`er på rad. For å gjøre dette, vil vi bruke terninger.
 ![mnemonic](assets/notext/7.webp)
 
@@ -78,7 +85,8 @@ Som du kan se i eksemplet mitt, består det tolvte ordet for øyeblikket av bare
 ![mnemonic](assets/notext/9.webp)
 
 ## Steg 2: Beregning av sjekksum
-Dette steget er det mest kritiske i den manuelle genereringen av en mnemonic frase, ettersom det krever bruk av en datamaskin. Som nevnt tidligere, tilsvarer sjekksummen begynnelsen av SHA256-hashen generert fra entropien. Selv om det teoretisk er mulig å beregne en SHA256 for hånd for en input på 128 eller 256 bits, kunne denne oppgaven ta en hel uke. Dessuten ville eventuelle feil i manuelle beregninger kun bli identifisert ved slutten av prosessen, noe som tvinger deg til å starte på nytt fra begynnelsen. Derfor er det utenkelig å gjøre dette steget med bare et ark papir og en penn. En datamaskin er nesten obligatorisk. Hvis du fortsatt ønsker å lære hvordan du gjør en SHA256 for hånd, forklarer vi hvordan du gjør det i [CRYPTO301-kurset](https://planb.network/en/courses/crypto301).
+
+Dette steget er det mest kritiske i den manuelle genereringen av en mnemonic frase, ettersom det krever bruk av en datamaskin. Som nevnt tidligere, tilsvarer sjekksummen begynnelsen av SHA256-hashen generert fra entropien. Selv om det teoretisk er mulig å beregne en SHA256 for hånd for en input på 128 eller 256 bits, kunne denne oppgaven ta en hel uke. Dessuten ville eventuelle feil i manuelle beregninger kun bli identifisert ved slutten av prosessen, noe som tvinger deg til å starte på nytt fra begynnelsen. Derfor er det utenkelig å gjøre dette steget med bare et ark papir og en penn. En datamaskin er nesten obligatorisk. Hvis du fortsatt ønsker å lære hvordan du gjør en SHA256 for hånd, forklarer vi hvordan du gjør det i [CRYPTO301-kurset](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 Av denne grunn, fraråder jeg sterkt å lage en manuell frase for en faktisk lommebok. Etter min mening, selv med alle nødvendige forholdsregler, øker bruk av en datamaskin på dette stadiet angrepsflaten for lommeboken urimelig.
 For å beregne sjekksummen mens man etterlater så få spor som mulig, vil vi bruke en amnesisk Linux-distribusjon fra et flyttbart drev kalt **Tails**. Dette operativsystemet starter fra en USB-stick og opererer helt på datamaskinens RAM, uten å samhandle med harddisken. Dermed, i teorien, etterlater det ingen spor på datamaskinen etter at den er slått av. Vær oppmerksom på at Tails kun er kompatibelt med x86_64-type prosessorer, og ikke med ARM-type prosessorer.
@@ -109,7 +117,8 @@ Du vil komme til et nytt blankt kommandoterminal.
 Skriv inn `echo`-kommandoen, etterfulgt av din tidligere genererte entropi, og sørg for å sette inn et mellomrom mellom `echo` og din binære siffersekvens.
 ![mnemonic](assets/notext/17.webp)
 
-Legg til et ekstra mellomrom, deretter skriv inn følgende kommando, ved å bruke en *pipe* (`|`):
+Legg til et ekstra mellomrom, deretter skriv inn følgende kommando, ved å bruke en _pipe_ (`|`):
+
 ```plaintext
 | shasum -a 256 -0
 ```
@@ -117,14 +126,16 @@ Legg til et ekstra mellomrom, deretter skriv inn følgende kommando, ved å bruk
 ![mnemonic](assets/notext/18.webp)
 
 I eksemplet med min entropi, er den totale kommandoen som følger:
+
 ```plaintext
 echo 11010111000110111011000011000010011000100111000001000000001001011011001010111111001010011111110001010100000101110010010011011010 | shasum -a 256 -0
 ```
 
 I denne kommandoen:
+
 - `echo` brukes til å sende bitssekvensen;
-- `|`, *pipen*, brukes til å dirigere utdata fra `echo`-kommandoen til inndata for neste kommando;
-- `shasum` initierer en hashingfunksjon som tilhører SHA (*Secure Hash Algorithm*)-familien;
+- `|`, _pipen_, brukes til å dirigere utdata fra `echo`-kommandoen til inndata for neste kommando;
+- `shasum` initierer en hashingfunksjon som tilhører SHA (_Secure Hash Algorithm_)-familien;
 - `-a` spesifiserer valget av en spesifikk hashingalgoritme;
 - `256` indikerer at SHA256-algoritmen brukes;
 - `-0` tillater inndata å bli tolket som et binært tall.
@@ -134,6 +145,7 @@ Etter å ha nøye sjekket at din binære sekvens ikke inneholder noen skrivefeil
 ![mnemonic](assets/notext/19.webp)
 
 For nå er hashen uttrykt i heksadesimalt format (base 16). For eksempel er min:
+
 ```plaintext
 a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 ```
@@ -142,25 +154,24 @@ For å fullføre vår mnemoniske frase, trenger vi bare de første 4 bitene av h
 
 Neste steg er å konvertere denne heksadesimale karakteren (base 16) til en binær verdi (base 2), ettersom vår frase er konstruert i dette formatet. For å gjøre dette, kan du bruke følgende konverteringstabell:
 
-
 | Desimal (base 10) | Heksadesimal (base 16) | Binær (base 2) |
-| ----------------- | --------------------- | --------------- |
-| 0                 | 0                     | 0000            |
-| 1                 | 1                     | 0001            |
-| 2                 | 2                     | 0010            |
-| 3                 | 3                     | 0011            |
-| 4                 | 4                     | 0100            |
-| 5                 | 5                     | 0101            |
-| 6                 | 6                     | 0110            |
-| 7                 | 7                     | 0111            |
-| 8                 | 8                     | 1000            |
-| 9                 | 9                     | 1001            |
-| 10                | a                     | 1010            |
-| 11                | b                     | 1011            |
-| 12                | c                     | 1100            |
-| 13                | d                     | 1101            |
-| 14                | e                     | 1110            |
-| 15                | f                     | 1111            |
+| ----------------- | ---------------------- | -------------- |
+| 0                 | 0                      | 0000           |
+| 1                 | 1                      | 0001           |
+| 2                 | 2                      | 0010           |
+| 3                 | 3                      | 0011           |
+| 4                 | 4                      | 0100           |
+| 5                 | 5                      | 0101           |
+| 6                 | 6                      | 0110           |
+| 7                 | 7                      | 0111           |
+| 8                 | 8                      | 1000           |
+| 9                 | 9                      | 1001           |
+| 10                | a                      | 1010           |
+| 11                | b                      | 1011           |
+| 12                | c                      | 1100           |
+| 13                | d                      | 1101           |
+| 14                | e                      | 1110           |
+| 15                | f                      | 1111           |
 
 I mitt eksempel tilsvarer bokstaven `a` det binære tallet `1010`. Disse 4 bitene danner sjekksummen for vår gjenopprettingsfrase. Du kan nå legge dem til entropien du allerede har notert på arket ditt, ved å plassere dem på slutten av det siste ordet.
 
@@ -169,7 +180,9 @@ I mitt eksempel tilsvarer bokstaven `a` det binære tallet `1010`. Disse 4 biten
 Din mnemonic frase er nå komplett, men den er i binært format. Neste steg vil være å konvertere den til desimalsystemet slik at du deretter kan knytte hvert tall til et tilsvarende ord i BIP39-listen.
 
 ## Steg 3: Konvertere Ord til Desimal
+
 For å konvertere hver binær linje til et desimaltall, vil vi bruke en metode som letter manuell beregning. For øyeblikket har du tolv linjer på papiret ditt, hver bestående av 11 binære sifre `0` eller `1`. For å fortsette med en konvertering til desimal, tilordne til hvert første siffer verdien `1024` hvis det er `1`, ellers `0`. For det andre sifferet, vil verdien `512` bli tilordnet hvis det er `1`, ellers `0`, og så videre til det ellevte sifferet. Tilsvarelsene er som følger:
+
 - 1. bit: `1024`;
 - 2. bit: `512`;
 - 3. bit: `256`;
@@ -183,6 +196,7 @@ For å konvertere hver binær linje til et desimaltall, vil vi bruke en metode s
 - 11. bit: `1`.
 
 For hver linje, vil vi legge sammen verdiene som tilsvarer sifrene `1` for å få det desimaltallet som tilsvarer det binære tallet. La oss ta eksemplet med en binær linje lik:
+
 ```plaintext
 1010 1101 101
 ```
@@ -190,6 +204,7 @@ For hver linje, vil vi legge sammen verdiene som tilsvarer sifrene `1` for å f�
 Konverteringen vil være som følger:
 ![mnemonic](assets/notext/21.webp)
 Resultatet vil da være:
+
 ```plaintext
 1389
 ```
@@ -201,6 +216,7 @@ Deretter, legg ganske enkelt sammen alle tallene validert av `1`-ene for å få 
 ![mnemonic](assets/notext/23.webp)
 
 ## Steg 4: Søke etter Ordene til den Mnemoniske Frasen
+
 Med de oppnådde desimaltallene, kan vi nå finne de tilsvarende ordene i listen for å sette sammen den mnemoniske frasen. Imidlertid, nummereringen av de 2048 ordene i BIP39-listen varierer fra `1` til `2048`. Men, våre beregnede binære resultater varierer fra `0` til `2047`. Derfor er det en enhetsforskyvning som må korrigeres. For å rette opp denne forskyvningen, legg ganske enkelt til `1` til de tolv tidligere beregnede desimaltallene.
 
 ![mnemonic](assets/notext/24.webp)
@@ -208,15 +224,18 @@ Etter denne justeringen har du rangen til hvert ord i listen. Alt som gjenstår 
 [**-> Skriv ut BIP39-listen i A4-format.**](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)
 
 For eksempel, hvis nummeret som er avledet fra den første linjen er 1721, vil det tilsvarende ordet være det 1721. på listen:
+
 ```plaintext
 1721. strike
 ```
+
 ![mnemonic](assets/notext/25.webp)
 På denne måten fortsetter vi suksessivt med de 12 ordene for å konstruere vår mnemonic frase.
 
 ![mnemonic](assets/notext/26.webp)
 
 ## Steg 5: Opprette Bitcoin-lommeboken
+
 På dette tidspunktet er alt som gjenstår å importere vår mnemonic frase inn i en Bitcoin-lommebokprogramvare. Avhengig av våre preferanser, kan dette gjøres på en skrivebordsprogramvare for å få en hot wallet, eller på en hardware-lommebok for en cold wallet.
 
 ![mnemonic](assets/notext/27.webp)
@@ -227,7 +246,8 @@ Det er bare under importeringen at du kan verifisere gyldigheten av din checksum
 Etter å ha opprettet lommeboken din, ikke glem å sikkerhetskopiere din gjenopprettingsfrase på et fysisk medium, som papir eller metall, og ødelegge regnearket som ble brukt under genereringen for å forhindre eventuelle informasjonslekkasjer.
 
 ## Spesifikt tilfelle av Dice Roll-alternativet på Coldcards
-Hardware-lommebøkene fra Coldcard-familien tilbyr [en funksjon kalt *Dice Roll*](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), for å generere din lommeboks gjenopprettingsfrase med terninger. Denne metoden er utmerket fordi den gir deg direkte kontroll over opprettelsen av entropi, uten å kreve bruk av en ekstern enhet for å beregne checksum som i vår veiledning.
+
+Hardware-lommebøkene fra Coldcard-familien tilbyr [en funksjon kalt _Dice Roll_](https://youtu.be/Rc29d9m92xg?si=OeFW2iCGRvxexhK7), for å generere din lommeboks gjenopprettingsfrase med terninger. Denne metoden er utmerket fordi den gir deg direkte kontroll over opprettelsen av entropi, uten å kreve bruk av en ekstern enhet for å beregne checksum som i vår veiledning.
 
 Imidlertid har det nylig blitt rapportert om tilfeller av bitcoin-tyveri på grunn av feil bruk av denne funksjonen. Faktisk kan et for begrenset antall terningkast føre til utilstrekkelig entropi, teoretisk gjør det mulig å brute force mnemonic-frasen og stjele de tilknyttede bitcoinene. For å unngå denne risikoen, anbefales det å utføre minst 99 terningkast på Coldcard, noe som sikrer tilstrekkelig entropi.
 
@@ -244,3 +264,4 @@ Vår opplæring:
 
 Entropi = 128 * log2(2)
 Entropi = 128
+```

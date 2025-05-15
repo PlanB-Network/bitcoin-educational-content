@@ -1,0 +1,9 @@
+question: Quelle solution alternative à Swiss Bitcoin Pay pour accepter les paiements en bitcoins pour le profil Essentiel est 100% dépositaire ?
+answer: Nœud ouvert
+wrong_answers:
+  - Serveur BTCPay
+  - Bitcoinize PoS
+  - Portefeuille Phoenix
+explanation: |
+  Open Node se caractérise comme une solution de conservation complète, différente de la nature hybride de Swiss Bitcoin Pay.
+reviewed: false

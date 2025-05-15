@@ -1,0 +1,9 @@
+question: Koja su 2 Elements koja čine Block reward u Coinbase Transaction?
+answer: Subvencija bloka i naknade za transakcije.
+wrong_answers:
+  - Subvencija za blok i bonusi za brzinu.
+  - Prava na emisiju i premije za sigurnost.
+  - Dividende Mining i mrežne takse.
+explanation: |
+  Kada Miner pronađe važeći blok, imaju pravo na nagradu koja se sastoji, s jedne strane, od subvencije bloka, a s druge strane, od naknada za transakcije koje su uključili u svoj blok.
+reviewed: false

@@ -13,8 +13,4 @@ Points de connexion initiaux pour les nouveaux nœuds Bitcoin qui rejoignent le 
 * dnsseed.emzy.de : Stephan Oeste ;
 * seed.bitcoin.wiz.biz : Jason Maurice ;
 * seed.mainnet.achownodes.xyz : Ava Chow.
-
 Les DNS seeds représentent le second moyen, par ordre de priorité, pour un nœud Bitcoin d'établir des connexions. Le premier moyen consiste à utiliser le fichier peers.dat que le nœud a lui-même créé. Ce fichier est naturellement vide dans le cas d'un nouveau nœud, à moins que l'utilisateur l'ait modifié manuellement.
-
-> ► *Attention, les DNS seeds ne doivent pas être confondus avec les « seed nodes », qui sont eux la troisième manière d'établir des connexions.*
-

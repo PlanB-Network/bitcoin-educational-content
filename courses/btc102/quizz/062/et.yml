@@ -1,9 +1,9 @@
-question: Mis on nelja küsimuse esitamise eesmärk enne Bitcoin'i investeerimisplaani valimist?
-answer: Valida endale kõige sobivam tee
+question: Mida EI soovitata oma bitcoinidele juurdepääsu edasiandmisel?
+answer: Mnemonic fraasi andmine ühele inimesele
 wrong_answers:
-  - Määrata, kui palju Bitcoin'i peaksid ostma
-  - Määrata, millist tüüpi Bitcoin'i rahakotti peaksid kasutama
-  - Määrata oma Bitcoin'i investeeringu kestvus
+  - Teabe jagamine mitme inimese vahel
+  - Suletud läbipaistmatute ümbrike kasutamine
+  - Seletuskirja kirjutamine
 explanation: |
-  Nelja küsimuse esitamise eesmärk enne Bitcoin'i investeerimisplaani valimist on valida endale kõige sobivam tee. Küsimused aitavad mõista sinu investeerimise eesmärke ja eelistusi.
+  Mnemonic fraasi usaldamine ühele inimesele ilma täiendava turvata suurendab oluliselt varguse ohtu teie eluajal.
 reviewed: false

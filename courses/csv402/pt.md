@@ -45,7 +45,8 @@ A secção final é conduzida por outros oradores que apresentam aplicações co
 ---
 Este curso de formação surgiu originalmente de um bootcamp de desenvolvimento avançado de duas semanas em Viareggio, Toscana, organizado pela [Fulgur'Ventures](https://fulgur.ventures/). A primeira semana, focada em Rust e SDKs, pode ser encontrada neste outro curso:
 
-https://planb.network/courses/lnp402
+https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 Neste curso, concentramo-nos na segunda semana do bootcamp, que se centra no RGB.
 
 **Semana 1 - LNP402:**
@@ -69,6 +70,8 @@ A versão escrita deste curso de formação foi elaborada com base em dois recur
 - Vídeos do seminário de Maxim Orlovsky, Hunter Trujilo e Frederico Tenga no Lightning Bootcamp ;
 - A documentação RGB, cuja produção foi patrocinada pela [Bitfinex] (https://www.bitfinex.com/).
 
+Pronto para mergulhar no universo complexo e fascinante do RGB? Vamos lá!
+
 # RGB em teoria
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -77,7 +80,7 @@ A versão escrita deste curso de formação foi elaborada com base em dois recur
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
-![video](https://youtu.be/AF2XbifPGXM)
+:::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 O RGB é um protocolo concebido para aplicar e fazer cumprir direitos digitais (sob a forma de contratos e activos) de forma escalável e confidencial, com base nas regras e operações de consenso da cadeia de blocos Bitcoin. O objetivo deste primeiro capítulo é apresentar os conceitos básicos e a terminologia em torno do protocolo RGB, destacando em particular as suas ligações estreitas com conceitos básicos de computação distribuída, como a validação do lado do cliente e os selos de utilização única.
 
@@ -310,15 +313,12 @@ A comparação que se segue ajuda a compreender este princípio:
 - Carimbo de data/hora (blockchain)**: Ao inserir este hash na cadeia de blocos, provamos também que o conhecíamos num momento preciso (o da inclusão num bloco);
 - Selo de utilização única**: Com os selos de utilização única, damos um passo em frente ao tornar o compromisso único. Com um único hash, é possível criar vários compromissos contraditórios em paralelo (o problema do médico que anuncia "*É um rapaz*" à família e "*É uma rapariga*" no seu diário pessoal). O Selo de Utilização Única elimina esta possibilidade ligando o compromisso a um meio de prova de publicação, como a cadeia de blocos Bitcoin, de modo que uma despesa de UTXO sela definitivamente o compromisso. Uma vez gasto, o mesmo UTXO não pode ser gasto novamente para substituir o compromisso.
 
-| Selos de utilização única | Selos temporais | Compromisso simples (digest/hash) | Selos de utilização única
+|                                                                                  | Compromisso simples (digest/hash) | Timestamps | Selos de uso único |
+| -------------------------------------------------------------------------------- | -------------------------------- | ---------- | ------------------ |
+| A publicação do compromisso não revela a mensagem                              | Sim                             | Sim        | Sim               |
+| Prova da data do compromisso / existência da mensagem antes de uma determinada data | Impossível                      | Possível    | Possível          |
+| Prova de que nenhum outro compromisso alternativo pode existir                 | Impossível                      | Impossível  | Possível          |
 
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| A publicação do compromisso não revela a mensagem Sim Sim Sim Sim Sim
-
-| Prova da data do compromisso / existência da mensagem antes de uma determinada data Impossível | Possível | Possível | Possível
-
-| Prova de que não pode existir outro compromisso alternativo
 
 Os selos de utilização única funcionam em três fases principais:
 
@@ -424,7 +424,7 @@ Antes de mergulhar nos detalhes mais técnicos do segundo capítulo, não hesite
 
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
-![video](https://youtu.be/FS6PDprWl5Q)
+:::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 Neste capítulo, veremos a implementação da validação do lado do cliente e dos selos de uso único dentro da blockchain do Bitcoin. Apresentaremos os principais princípios da **camada de compromisso** (camada 1) da RGB, com um foco particular no esquema **TxO2**, que a RGB usa para definir e fechar um selo em uma transação Bitcoin. De seguida, discutiremos dois pontos importantes que ainda não foram abordados em pormenor:
 
@@ -460,23 +460,17 @@ Enquanto trabalhávamos no RGB, identificámos pelo menos 4 formas diferentes de
 - Defina o selo através do valor de uma chave pública e feche-o num _input_ ;
 - Definir o selo através de um _outpoint_ e fechá-lo num _input_.
 
-| Definição do selo | Fecho do selo | Requisitos adicionais | Aplicação principal | Possíveis esquemas de compromisso
-
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | Nenhum até ao momento | Keytweak, taptweak, opret |
-
-| TxO2 | Saída de transação | Saída de transação | Requer compromissos determinísticos no Bitcoin | RGBv1 (universal) | Keytweak, tapret, opret |
-
-| PkI | Valor da chave pública | Entrada de transação | Apenas Taproot e não compatível com carteiras antigas | Identidades baseadas em Bitcoin | Sigtweak, witweak |
-
-| TxO1 | Saída de transação | Entrada de transação | Taproot apenas & não compatível com carteiras Legacy | Nenhum no momento | Sigtweak, witweak |
+| Nome do esquema | Definição do selo        | Fechamento do selo      | Requisitos adicionais                                           | Aplicação principal        | Esquemas de compromisso possíveis |
+| --------------- | ------------------------ | ----------------------- | -------------------------------------------------------------- | -------------------------- | ---------------------------------- |
+| PkO             | Valor da chave pública   | Saída de transação      | P2(W)PKH                                                        | Nenhuma no momento         | Keytweak, taptweak, opret         |
+| TxO2            | Saída de transação       | Saída de transação      | Exige compromissos determinísticos em Bitcoin                   | RGBv1 (universal)          | Keytweak, tapret, opret           |
+| PkI             | Valor da chave pública   | Entrada de transação    | Somente Taproot & não compatível com carteiras antigas          | Identidades baseadas em Bitcoin | Sigtweak, witweak               |
+| TxO1            | Saída de transação       | Entrada de transação    | Somente Taproot & não compatível com carteiras antigas          | Nenhuma no momento         | Sigtweak, witweak                 |
 
 Não entraremos em detalhes sobre cada uma dessas configurações, pois no RGB optamos por usar **um _outpoint_ como definição do selo**, e colocar o _commitment_ na saída da transação que gasta esse _outpoint_. Podemos assim introduzir os seguintes conceitos para a sequência:
 
-
-- "Definição do selo "** : Um determinado _ponto de saída_ (identificado por TXID + nº de saída) ;
-- "Fecho do selo "**: A transação que gasta este _outpoint_, na qual um _commitment_ é adicionado a uma mensagem.
+- **"Definição do selo "** : Um determinado _ponto de saída_ (identificado por TXID + nº de saída) ;
+- **"Fecho do selo "**: A transação que gasta este _outpoint_, na qual um _commitment_ é adicionado a uma mensagem.
 
 Este esquema foi selecionado pela sua compatibilidade com a arquitetura RGB, mas outras configurações podem ser úteis para diferentes utilizações.
 
@@ -740,79 +734,55 @@ Quando criámos o RGB, analisámos todos estes métodos para determinar onde e c
 - Dificuldade de implementação e manutenção ;
 - Confidencialidade e resistência à censura.
 
-| Rastreamento e dimensionamento na cadeia | Dimensionamento do lado do cliente | Integração do portfólio | Compatibilidade de hardware | Compatibilidade com Lightning | Compatibilidade com Taproot |
-
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
-
-| Keytweak (P2C determinístico) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
-
-| Sigtweak (S2C determinístico) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
-
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - |
-
-| Algoritmo Tapret: nó superior esquerdo | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Algoritmo Tapret #4: qualquer nó + prova | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Esquema de compromisso determinístico | Padrão | Custo na cadeia | Tamanho das evidências do lado do cliente |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Keytweak (P2C determinístico) | LNPBP-1, 2 | 0 bytes | 33 bytes (chave não ajustada) |
-
-| Sigtweak (S2C determinístico) | WIP (LNPBP-39) | 0 bytes | 0 bytes |
-
-| Opret (OP_RETURN) | - | 36 (v)bytes (TxOut adicional) | 0 bytes |
-
-| Algoritmo Tapret: nó superior esquerdo | LNPBP-6 | 32 bytes na testemunha (8 vbytes) em qualquer multisig n-de-m e gasto por caminho de script | 0 bytes em scripts sem script taproot ~270 bytes num caso de script único, ~128 bytes se houver mais de um script |
-
-| Algoritmo Tapret #4: qualquer nó + prova de unicidade | LNPBP-6 | 32 bytes na testemunha (8 vbytes) para casos de um único script, 0 bytes na testemunha na maioria dos outros casos | 0 bytes em scripts sem script na raiz principal, 65 bytes até a Taptree ter uma dúzia de scripts |
+| Método                                            | Rastro e tamanho on-chain | Tamanho do lado do cliente | Integração com carteira | Compatibilidade de hardware | Compatibilidade com Lightning | Compatibilidade com Taproot |
+| ------------------------------------------------- | ------------------------ | ------------------------- | ---------------------- | -------------------------- | ---------------------------- | -------------------------- |
+| Keytweak (P2C determinístico)                    | 🟢                        | 🟡                         | 🔴                      | 🟠                           | 🔴 BOLT, 🔴 Bifrost          | 🟠 Taproot, 🟢 MuSig        |
+| Sigtweak (S2C determinístico)                    | 🟢                        | 🟢                         | 🟠                      | 🔴                           | 🔴 BOLT, 🔴 Bifrost          | 🟠 Taproot, 🔴 MuSig        |
+| Opret (OP_RETURN)                                 | 🔴                        | 🟢                         | 🟢                      | 🟠                           | 🔴 BOLT, 🟠 Bifrost          | -                          |
+| Algoritmo Tapret: nó superior esquerdo           | 🟠                        | 🔴                         | 🟠                      | 🟢                           | 🔴 BOLT, 🟢 Bifrost          | 🟢 Taproot, 🟢 MuSig        |
+| Algoritmo Tapret #4: qualquer nó + prova         | 🟢                        | 🟠                         | 🟠                      | 🟢                           | 🔴 BOLT, 🟢 Bifrost          | 🟢 Taproot, 🟢 MuSig        |
 
 
+| Esquema de compromisso determinístico               | Padrão         | Custo on-chain                                                                                                      | Tamanho da prova no lado do cliente                                                                             |
+| --------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| Keytweak (P2C determinístico)                      | LNPBP-1, 2     | 0 bytes                                                                                                           | 33 bytes (chave não ajustada)                                                                                   |
+| Sigtweak (S2C determinístico)                      | WIP (LNPBP-39) | 0 bytes                                                                                                           | 0 bytes                                                                                                         |
+| Opret (OP_RETURN)                                  | -              | 36 (v)bytes (TxOut adicional)                                                                                      | 0 bytes                                                                                                         |
+| Algoritmo Tapret: nó superior esquerdo             | LNPBP-6        | 32 bytes no witness (8 vbytes) para qualquer multisig n-of-m e gasto via caminho de script                        | 0 bytes nos scriptless scripts taproot ~270 bytes para um único script, ~128 bytes se houver vários scripts    |
+| Algoritmo Tapret #4: qualquer nó + prova de unicidade | LNPBP-6        | 32 bytes no witness (8 vbytes) para casos de script único, 0 bytes no witness na maioria dos outros casos         | 0 bytes nos scriptless scripts taproot, 65 bytes até que o Taptree tenha uma dúzia de scripts                   |
 
+
+| Camada                         | Custo on-chain (bytes/vbytes) | Custo on-chain (bytes/vbytes) | Custo on-chain (bytes/vbytes) | Custo on-chain (bytes/vbytes) | Custo on-chain (bytes/vbytes) | Custo lado cliente (bytes) | Custo lado cliente (bytes) | Custo lado cliente (bytes) | Custo lado cliente (bytes) | Custo lado cliente (bytes) |
 | ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| **Tipo**                       | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**               | **Tapret #4**            | **Keytweak**             | **Sigtweak**             | **Opret**                |
+| Single-sig                     | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | 0?                       | 0                        |
+| MuSig (n-of-n)                 | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | ? > 0                    | 0                        |
+| Multi-sig 2-of-3               | 32/8                         | 32/8 ou 0                    | 0                            | n/a                          | 32                           | ~270                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 3-of-5               | 32/8                         | 32/8 ou 0                    | 0                            | n/a                          | 32                           | ~340                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 2-of-3 com timeouts  | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
-| **Type** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
 
-| Single-sig | 0 | 0 | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | 0? | 0 | 0 |
+| Camada                          | Custo on-chain (vbytes) | Custo on-chain (vbytes) | Custo on-chain (vbytes) | Custo no cliente (bytes) | Custo no cliente (bytes) |
+| ------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Tipo**                        | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                  | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                  | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Ramificação MuSig / Multi_a (n-of-m) | 1+16n+8n+8xlog(n)  | 8                      | 0                      | 64                       | 65                       |
+| Com timeouts (n-of-m)           | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
 
-| MuSig (n-de-n) | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | ? > 0 | 0 |
+| Método                                    | Privacidade e Escalabilidade | Interoperabilidade | Compatibilidade | Portabilidade | Complexidade |
+| ----------------------------------------- | ------------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (P2C determinístico)             | 🟢                         | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (S2C determinístico)             | 🟢                         | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                         | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Nó superior esquerdo         | 🟠                         | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Qualquer nó + prova       | 🟢                         | 🟢               | 🟢            | 🟠          | 🔴         |
 
-| Multi-sig 2-de-3 | 32/8 | 32/8 ou 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
 
-| Multi-sig 3-de-5 | 32/8 | 32/8 ou 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
 
-| Multi-sig 2-de-3 com tempos limite | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0 | 0
 
-camada | Custo na cadeia (vbytes) | Custo na cadeia (vbytes) | Custo na cadeia (vbytes) | Custo no lado do cliente (bytes) | Custo no lado do cliente (bytes) | Custo no lado do cliente (bytes) |
 
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Tipo** | **Base** | **Tapete #2** | **Tapete #4** | **Tapete #2** | **Tapete #4** |
-
-| MuSig (n-de-n) | 16,5 | 0 | 0 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-de-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-de-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
-
-| ramo MuSig / Multi_a (n-de-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Com timeouts (n-de-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Método | Confidencialidade e escalabilidade | Interoperabilidade | Compatibilidade | Portabilidade | Complexidade
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-keytweak (P2C determinístico) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 | 🟡 |
-
-| Sigtweak (S2C determinístico) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 |
-
-| Algo Tapret: nó superior esquerdo | 🟠 | 🟢 | 🔴 | 🟠 |
-
-| Algo Tapret #4: Qualquer nó + prova | 🟢 | 🟢 | 🟠 | 🔴 |
 
 No decurso do estudo, tornou-se claro que nenhum dos esquemas de compromisso era totalmente compatível com a atual norma Lightning (que não emprega Taproot, _muSig2_ ou suporte adicional de _commitment_). Estão a ser desenvolvidos esforços para modificar a construção de canais do Lightning (*BiFrost*) para permitir a inserção de compromissos RGB. Esta é outra área em que precisamos de rever a estrutura da transação, as chaves e a forma como as actualizações do canal são assinadas.
 
@@ -1042,7 +1012,7 @@ No próximo capítulo, veremos o componente puramente fora da cadeia do RGB, ou 
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
-![video](https://youtu.be/tmAVdyXGmj4)
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
 Neste e no próximo capítulo, analisaremos a noção de **contrato inteligente** no ambiente RGB e exploraremos as diferentes formas como estes contratos podem definir e fazer evoluir o seu *estado*. Veremos porque é que a arquitetura RGB, utilizando a sequência ordenada de selos de utilização única, permite executar vários tipos de ***operações contratuais*** de forma escalável e sem passar por um registo centralizado. Veremos também o papel fundamental da ***Lógica de Negócios*** no enquadramento da evolução do estado do contrato.
 
@@ -1134,7 +1104,7 @@ No próximo capítulo, entraremos em mais detalhes sobre a representação concr
 
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
-![video](https://youtu.be/lUTjeuM0oTA)
+:::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
 Neste capítulo, veremos como funcionam as operações em contratos inteligentes e as transições de estado, mais uma vez no âmbito do protocolo RGB. O objetivo será também compreender como vários participantes cooperam para transferir a propriedade de um ativo.
 
@@ -1400,19 +1370,14 @@ Se, no contrato, um elemento de estado não for definido como mutável ou cumula
 
 A tabela abaixo ilustra como cada tipo de Operação de contrato pode manipular (ou não) o Estado global e o Estado próprio:
 
-| Génese | Extensão de estado | Transição de estado |
+|                              | Gênese | Extensão de Estado | Transição de Estado |
+| ---------------------------- | :----: | :---------------: | :---------------: |
+| **Adição de Global State**   |   +    |        -        |        +        |
+| **Mutação de Global State**  |  n/a   |        -        |        +        |
+| **Adição de Owned State**    |   +    |        -        |        +        |
+| **Mutação de Owned State**   |  n/a   |       Não       |        +        |
+| **Adição de Valencies**      |   +    |        +        |        +        |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Adicionar estado global** | + | - | + |
-
-| n/a | - | + | **Mutação do estado global** | - | + |
-
-| **Adicionar estado próprio** | + | - | + |
-
-**Mutação do estado de propriedade** | n/a | Não | + |
-
-| **Adicionar valências** | + | + | + + | + |
 
 **`+`** : ação possível se o esquema do contrato o permitir.
 
@@ -1420,15 +1385,12 @@ A tabela abaixo ilustra como cada tipo de Operação de contrato pode manipular 
 
 Além disso, o âmbito temporal e os direitos de atualização de cada tipo de dados podem ser distinguidos no quadro seguinte:
 
-| Metadados | Estado global | Estado próprio |
+|                                 | Metadados                              | Estado Global                            | Estado Possuído                                                                                         |
+| ------------------------------- | ------------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Escopo**                      | Definido para uma única Operação de Contrato | Definido globalmente para o contrato  | Definido para cada selo (*Assignment*)                                                               |
+| **Quem pode atualizá-lo?**      | Não atualizável (dados efêmeros)      | Operação emitida por atores (emissor, etc.) | Depende do detentor legítimo que possui o selo (quem pode gastá-lo em uma transação seguinte)      |
+| **Escopo Temporal**             | Apenas para a operação atual         | O estado é estabelecido ao final da operação | O estado é definido antes da operação (pela *Seal Definition* da operação anterior)                 |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Definido para uma única operação de contrato | Definido globalmente para o contrato | Definido para cada selo (*Atribuição*) | Definido para uma única operação de contrato | Definido globalmente para o contrato | Definido para cada selo (*Atribuição*) | Definido para cada selo (*Atribuição*) | Definido para cada contrato
-
-| Transação emitida por actores (emitente, etc.) | Depende do legítimo detentor do selo (aquele que o pode gastar numa transação subsequente) | Não realizável (dados efémeros)
-
-| O estado é definido antes da operação (pela *Definição de Vedação* da operação anterior) | O estado é estabelecido no final da operação | O estado é estabelecido no final da operação | O estado é definido antes da operação (pela *Definição de Vedação* da operação anterior) | O estado é estabelecido no final da operação | O estado é definido antes da operação (pela *Definição de Vedação* da operação anterior)
 
 ### Estado global
 
@@ -1544,17 +1506,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Declarativo** | **Fungível** | **Estruturado** | **Anexos** |
+| **Elemento**       | **Declarativo** | **Fungível**                          | **Estruturado**                 | **Anexos**                     |
+| ------------------ | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Dados**         | Nenhum         | Número inteiro de 64 bits assinado ou não assinado | Qualquer tipo de dado estrito | Qualquer arquivo              |
+| **Tipo de Info**  | Nenhum         | Assinado ou não assinado              | Tipos estritos                  | Tipo MIME                      |
+| **Privacidade**   | Não requerida  | Pedersen commitment                   | Hash com blinding               | Identificador de arquivo com hash |
+| **Limites de Tamanho** | N/A        | 256 bytes                             | Até 64 KB                        | Até ~500 GB                    |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| Nenhum | Número inteiro de 64 bits assinado ou não assinado | Qualquer tipo de dados estrito | Qualquer ficheiro |
-
-| Info type** | Nenhum | Assinado ou não assinado | Tipos estritos | Tipo MIME |
-
-| Compromisso de Pedersen | Hashing com cegueira | ID do ficheiro com hash
-
-| Limites de tamanho** | N/A | 256 bytes | Até 64 KB | Até ~500 Gb |
 
 ### Entradas
 
@@ -1865,7 +1823,8 @@ A Lightning Network é uma rede descentralizada de canais de pagamento (ou _stat
 
 Para obter mais informações sobre o funcionamento do Lightning, recomendo que faça este outro curso:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### Compromisso multiprotocolo - MPC
 
 Multi Protocol Commitment (MPC) refere-se à estrutura de árvore Merkle utilizada no RGB para incluir, numa única transação Bitcoin, vários **Transition Bundles** de diferentes contratos. A ideia é agrupar vários compromissos (potencialmente correspondentes a diferentes contratos ou diferentes activos) num único ponto de ancoragem, de forma a otimizar a ocupação do espaço do bloco.
@@ -1968,7 +1927,7 @@ A transação testemunha é a transação Bitcoin que fecha o selo de utilizaç�
 
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
-![video](https://youtu.be/Uo1UoxiImsI)
+:::video id=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
 
 Neste capítulo, analisaremos em pormenor a forma como um contrato RGB é definido e implementado. Veremos quais são os componentes de um contrato RGB, quais são as suas funções e como são construídos.
 
@@ -1998,17 +1957,13 @@ Em suma, cada contrato é composto por :
 
 Para ajudar a clarificar estas noções, eis um quadro recapitulativo que compara os componentes de um contrato RGB com conceitos já conhecidos da programação orientada para os objectos (OOP) ou do ecossistema Ethereum:
 
-| Componente de contrato RGB | Significado | Equivalente a OOP | Equivalente a Ethereum |
+| Componente do contrato RGB   | Significado                        | Equivalente OOP                        | Equivalente Ethereum               |
+| ---------------------------- | --------------------------------- | ------------------------------------- | --------------------------------- |
+| **Genesis**                  | Estado inicial do contrato       | Construtor de classe                  | Construtor de contrato            |
+| **Schema**                   | Lógica de negócios do contrato   | Classe                                | Contrato                          |
+| **Interface**                | Semântica do contrato            | Interface (Java) / Trait (Rust) / Protocolo (Swift) | Padrão ERC                       |
+| **Interface Implementation** | Mapeamento de semântica e lógica | Impl (Rust) / Implements (Java)      | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Construtor de classe | Construtor de contrato | Estado inicial do contrato
-
-| Classe | Lógica de negócios do contrato
-
-| Semântica de contrato | Interface (Java) / traço (Rust) / protocolo (Swift) | Norma ERC |
-
-| Interface Binária de Aplicação (ABI) | Impl (Rust) / Implementos (Java) | Mapeamento da semântica e da lógica
 
 A coluna da esquerda apresenta os elementos específicos do protocolo RGB. A coluna do meio mostra a função concreta de cada componente. Em seguida, na coluna "equivalente OOP", encontramos o termo equivalente em programação orientada para objectos:
 
@@ -2660,7 +2615,7 @@ No próximo capítulo, veremos como funciona uma transferência de contrato e co
 
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
-![video](https://youtu.be/sVoKIi-1XbY)
+:::video id=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
 
 Neste capítulo, vamos analisar o processo de transferência de um contrato no ecossistema RGB. Para o ilustrar, vamos ver a Alice e o Bob, os nossos protagonistas habituais, que desejam trocar um ativo RGB. Vamos também mostrar alguns excertos de comandos da ferramenta de linha de comando `rgb`, para ver como funciona na prática.
 
@@ -2954,7 +2909,7 @@ Agora que já analisámos os principais elementos da programação RGB, passo ao
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
-![video](https://youtu.be/GRwS-NvWF3I)
+:::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
 Neste capítulo, vamos abordar passo-a-passo a escrita de um contrato, usando a ferramenta de linha de comando `rgb`. O objetivo é mostrar como instalar e manipular o CLI, compilar um **Esquema**, importar a **Interface** e a **Interface Implementation**, e depois emitir (*emitir*) um ativo. Também veremos a lógica subjacente, incluindo compilação e validação de estado. No final deste capítulo, deverá ser capaz de reproduzir o processo e criar os seus próprios contratos RGB.
 
@@ -3253,7 +3208,7 @@ No próximo capítulo, analisaremos mais detalhadamente a integração do RGB na
 
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
-![video](https://youtu.be/mqCupTlDbA0)
+:::video id=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 Neste capítulo, proponho-me examinar a forma como o RGB pode ser utilizado na Lightning Network, para integrar e movimentar activos RGB (tokens, NFTs, etc.) através de canais de pagamento fora da cadeia.
 
@@ -3305,7 +3260,8 @@ Na realidade, a Lightning Network permite que os pagamentos sejam encaminhados a
 
 O funcionamento do RGB no Lightning deve, portanto, ser considerado em paralelo com o da própria rede Lightning. Se quiser aprofundar este assunto, recomendo vivamente que dê uma vista de olhos a este outro curso de formação completo:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### Mapa de código RGB
 
 Finalmente, antes de passar à secção seguinte, gostaria de dar uma visão geral do código utilizado no RGB. O protocolo baseia-se num conjunto de bibliotecas Rust e especificações de código aberto. Eis um resumo dos principais repositórios e caixas:
@@ -3407,7 +3363,7 @@ Ecossistema ligado a desenvolvimentos determinísticos de fonte aberta.
 
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
-![video](https://youtu.be/nbUtV8GOR_U)
+:::video id=2ec9a181-a8b0-4da2-b7b5-9dfaaaeb10ba:::
 
 Esta última secção do curso baseia-se nas apresentações feitas por vários oradores no bootcamp RGB. Inclui testemunhos e reflexões sobre o RGB e o seu ecossistema, bem como apresentações de ferramentas e projectos baseados no protocolo. Este primeiro capítulo é moderado por Hunter Beast e os dois seguintes por Frederico Tenga.
 
@@ -3473,7 +3429,7 @@ A carteira **Bitmask** faz parte desta abordagem: do lado da blockchain, tudo o 
 
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
-![vidéo](https://youtu.be/5iAhsgCSL3U)
+:::video id=04555813-516f-4eea-9767-7082c2ea6f01:::
 
 Neste capítulo, com base numa apresentação de Frederico Tenga, analisamos um conjunto de ferramentas e projectos criados pela equipa da Bitfinex dedicados ao RGB, com o objetivo de fomentar a emergência de um ecossistema rico e diversificado em torno deste protocolo. O objetivo inicial da equipa não é lançar um produto comercial específico, mas sim fornecer blocos de construção de software, contribuir para o próprio protocolo RGB e propor referências concretas de implementação, como uma carteira móvel (*Iris Wallet*) ou um nó Lightning compatível com o RGB.
 
@@ -3587,7 +3543,7 @@ No próximo capítulo, veremos mais detalhadamente como lançar um nó de ilumin
 
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
-![vidéo](https://youtu.be/piQQH4Q2nr0)
+:::video id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::
 
 Neste capítulo final, Frederico Tenga leva-o passo a passo através da configuração de um nó Lightning RGB num ambiente Regtest, e mostra-lhe como criar tokens RGB nele. Ao lançar dois nós separados, você também descobrirá como abrir um canal Lightning entre eles e trocar ativos RGB.
 
@@ -3954,11 +3910,10 @@ O projeto continua na fase alfa. Por conseguinte, recomenda-se vivamente que se 
 
 As oportunidades abertas por esta compatibilidade LN-RGB são consideráveis: stablecoins na Lightning, DEX layer-2, transferência de tokens fungíveis ou NFTs a um custo muito baixo... Os capítulos precedentes apresentaram a arquitetura concetual e a lógica de validação. Agora tem uma visão prática de como colocar um nó deste tipo em funcionamento, para os seus futuros desenvolvimentos ou testes.
 
-# Conclusão
+# Seção final
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
-<isCourseConclusion>verdadeiro</isCourseConclusion>
 
 ## Comentários e classificações
 
@@ -3966,8 +3921,8 @@ As oportunidades abertas por esta compatibilidade LN-RGB são consideráveis: st
 
 <isCourseReview>true</isCourseReview>
 
-## Observações finais
+## Conclusão
 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-<isCourseConclusion>verdadeiro</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

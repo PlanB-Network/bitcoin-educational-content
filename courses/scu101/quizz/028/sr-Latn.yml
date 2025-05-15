@@ -1,0 +1,11 @@
+question: Koji je prvi vektor napada za hakere?
+answer: E-pošta
+wrong_answers:
+  - Društvene mreže
+  - Veb-sajtovi za onlajn kupovinu
+  - Bankarske veb stranice
+explanation: |
+  E-pošte su prva vektorska tačka napada za hakere. Oni koriste
+  pokušaje phishinga da izvuku osetljive informacije kao što su
+  vaši kredencijali i lozinke.
+reviewed: false

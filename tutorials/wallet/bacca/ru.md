@@ -140,5 +140,5 @@ https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b
 
 Я также рекомендую вам взглянуть на этот учебник по GnuPG, в котором рассказывается о том, как проверить целостность и подлинность программного обеспечения перед его установкой. Это очень важная практика, особенно при установке программ для управления портфелем, таких как Liana или Sparrow:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

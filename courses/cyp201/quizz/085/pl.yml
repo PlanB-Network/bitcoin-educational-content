@@ -1,0 +1,9 @@
+question: Jaka operacja jest konieczna do obliczenia klucza publicznego Taproot Q?
+answer: Dodanie poprawki tG do klucza publicznego P
+wrong_answers:
+  - Mnożenie klucza prywatnego p przez tweak
+  - Hash klucz publiczny P z SHA256
+  - Łączenie tweak t i klucza publicznego P
+explanation: |
+  Klucz publiczny Taproot Q jest uzyskiwany przez dodanie iloczynu skalarnego tweak t przez generator G do klucza publicznego P.
+reviewed: false

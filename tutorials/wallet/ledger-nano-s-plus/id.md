@@ -49,7 +49,7 @@ Untuk tutorial ini, Anda akan memerlukan 2 aplikasi perangkat lunak: Ledger Live
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Untuk kedua program perangkat lunak ini, saya sangat menyarankan untuk memeriksa keaslian mereka (dengan GnuPG) dan integritas mereka (melalui hash) sebelum menginstalnya di mesin Anda. Jika Anda tidak yakin bagaimana melakukannya, Anda dapat mengikuti tutorial lain ini:
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Bagaimana Cara Menginisialisasi Ledger Nano?
 
@@ -121,7 +121,7 @@ Passphrase tidak boleh dikacaukan dengan kode PIN. Ini berperan dalam derivasi k
 
 Passphrase adalah alat yang sangat kuat untuk meningkatkan keamanan bitcoin Anda. Namun, sangat penting untuk memahami cara kerjanya sebelum mengimplementasikannya, untuk menghindari kehilangan akses ke dompet Anda. Inilah mengapa saya menyarankan Anda untuk berkonsultasi dengan tutorial lain ini yang didedikasikan jika Anda ingin menetapkan passphrase pada Ledger Anda:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Menu "*PIN lock*" memungkinkan Anda untuk mengonfigurasi dan mengaktifkan penguncian otomatis Ledger Anda setelah periode ketidakaktifan yang ditentukan.
 
@@ -309,3 +309,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat menghargai jika Anda 
 Saya juga merekomendasikan Anda untuk memeriksa tutorial lengkap ini tentang Ledger Flex:
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

@@ -1,0 +1,9 @@
+question: Kako da uvezem "NonInflatableAsset.RGB" Schema u lokalni Stash?
+answer: RGB uvozna shema/NonInflatableAssets.RGB
+wrong_answers:
+  - RGB uvoz Schema/NonInflatableAssets.RGB
+  - RGB klon šemata/NonInflatableAssets.RGB
+  - RGB klon Schema/NonInflatableAssets.RGB
+explanation: |
+  Kompajlirani Schema se uvozi u lokalni Stash koristeći komandu "RGB import schemata/NonInflatableAssets.RGB".
+reviewed: false

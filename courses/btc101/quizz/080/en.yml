@@ -1,5 +1,4 @@
-question: What is the probability of someone accidentally guessing your list of 12
-  or 24 words in a Bitcoin wallet?
+question: What is the probability of someone accidentally guessing your list of 12 or 24 words in a Bitcoin wallet?
 answer: Astronomically low.
 wrong_answers:
   - High.

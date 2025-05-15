@@ -1,0 +1,9 @@
+question: Hvordan oppdaterer Enterprise-systemer lagerbeholdningen automatisk?
+answer: Gjennom arbeidsflytutløsere
+wrong_answers:
+  - Manuelle oppdateringer
+  - Opplasting ved dagens slutt
+  - Planlagte rapporter
+explanation: |
+  Arbeidsflytutløsere oppdaterer systemer i sanntid.
+reviewed: false

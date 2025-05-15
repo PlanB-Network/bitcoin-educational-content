@@ -1,0 +1,9 @@
+question: Какую роль играет LSP в корпоративных биткойн-платежах?
+answer: Управление большими объемами транзакций на Lightning
+wrong_answers:
+  - Храните закрытые ключи кошелька Lightning
+  - Печать счетов-фактур Lightning
+  - Обрабатывайте возвраты вручную на Lightning
+explanation: |
+  LSP выполняют сложные и объемные операции на Lightning.
+reviewed: false

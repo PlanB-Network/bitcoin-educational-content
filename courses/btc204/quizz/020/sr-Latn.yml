@@ -1,0 +1,9 @@
+question: Kada tražimo obrazac, koji deo transakcije ćemo proučavati?
+answer: Njegova struktura
+wrong_answers:
+  - Njegovi metapodaci
+  - Njegovi skripti
+  - Njegov potpis
+explanation: |
+  Obrazac transakcije je jednostavno model ili ukupna struktura tipične transakcije koja se može pronaći na Blockchain, čije je verovatno tumačenje poznato.
+reviewed: false

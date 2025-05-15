@@ -1,5 +1,4 @@
 question: What would occur if a node user chose to follow different rules that contradict the existing consensus rules?
-  the current consensus rules?
 answer: The node will no longer be part of the Bitcoin network.
 wrong_answers:
   - The node will become a part of a different Bitcoin network.

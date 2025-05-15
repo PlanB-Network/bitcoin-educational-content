@@ -1,0 +1,9 @@
+question: Šta ribareva priča ilustruje o prirodi kapitala?
+answer: Kapital predstavlja sačuvane resurse koji omogućavaju izgradnju alata za poboljšanje buduće produktivnosti.
+wrong_answers:
+  - Kapital je samo zaliha potrošačkih dobara koja čekaju da budu odmah potrošena.
+  - Kapital mora biti stvoren trenutno putem državnih zajmova.
+  - Kapital je važan samo za velike korporacije, ne za male preduzetnike.
+explanation: |
+  Ribar koji čuva nekoliko dana ulova da bi napravio koplje odlaže trenutnu potrošnju za buduću dobit. Ovaj primer pokazuje kako štednja (akumulacija kapitala) vodi ka većoj efikasnosti i većoj proizvodnji u budućnosti.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Proč je nedostatek základní vlastností dobré měny?
+answer: Zachovává hodnotu
+wrong_answers:
+  - Zaručuje, že jako měnu lze použít pouze fyzická aktiva
+  - Zajišťuje, aby byla měna široce dostupná každému jednotlivci
+  - Zajišťuje, že měna musí být vždy kryta komoditou, jako je zlato
+explanation: |
+  Nedostatek zabraňuje nadměrné tvorbě měny, a tím udržuje její hodnotu a kupní sílu v čase.
+reviewed: false

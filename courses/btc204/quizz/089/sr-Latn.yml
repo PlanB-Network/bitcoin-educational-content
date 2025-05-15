@@ -1,0 +1,9 @@
+question: Kako su tvorci kompenzovani u JoinMarket-u?
+answer: Kroz naknade koje plaćaju korisnici.
+wrong_answers:
+  - Kroz Mining naknade.
+  - Kroz dobrovoljne donacije od korisnika.
+  - Kroz grantove zajednice Bitcoin.
+explanation: |
+  Proizvođači ostavljaju svoje bitkoine dostupnim za korisnike i zauzvrat primaju naknade za svoju uslugu. Korisnici, zauzvrat, plaćaju za korišćenje bitkoina proizvođača kako bi izvršili sopstvene CoinJoin transakcije.
+reviewed: false

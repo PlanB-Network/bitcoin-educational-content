@@ -1,0 +1,8 @@
+question: 截至 2023 年 9 月，分佈在全球各地的節點大約有多少？
+answer: 45,000 個節點。
+wrong_answers:
+  - 10,000 個節點。
+  - 100,000 個節點。
+  - 500,000 個節點。
+explanation: >-
+reviewed: true

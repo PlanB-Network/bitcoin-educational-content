@@ -1,0 +1,8 @@
+question: Kwa nini, kulingana na Bastiat, haki ya mali na uhuru hazitenganishwi?
+answer: Kwa sababu anafafanua haki ya kumiliki mali kuwa ni uhuru wa kwanza kuondoa mtu wake mwenyewe, kisha kazi ya mtu, na hatimaye, ya mazao ya kazi ya mtu.
+wrong_answers:
+  - Kwa sababu anajitahidi kuanzisha tofauti ya uchambuzi kati ya hizo mbili
+  - Kwa sababu zote mbili zinatokana na utashi wa mbunge
+  - Kwa sababu haki ya kumiliki mali ni nyongeza ya haki za kisiasa
+explanation: |
+  Bastiat anaona mali kuwa inahusishwa na uhuru kwa sababu inahusisha uwezo wa kujiondoa kwa uhuru, kazi yake, na matunda ya kazi yake.

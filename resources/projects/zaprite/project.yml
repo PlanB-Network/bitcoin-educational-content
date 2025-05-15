@@ -1,0 +1,24 @@
+id: 5909db91-2695-472d-82a3-3184ee2bc601
+name: Zaprite
+category: infrastructure
+
+links:
+  website: https://zaprite.com/
+  twitter: https://x.com/ZapriteApp
+  Github: https://github.com/zapriteapp/
+  youtube: https://youtube.com/@zapriteapp
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-18
+    urgency: 1
+    contributor_names:
+      - jramos0
+    reward: 0
+tags:
+  - adoption
+  - user-friendly
+  - business
+contributor_names:
+  - Asi0Flammeus

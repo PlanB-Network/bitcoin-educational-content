@@ -1,0 +1,9 @@
+question: Co oferował Bitcoin Faucet stworzony w czerwcu 2010 roku przez Gavina Andresena?
+answer: Bitcoiny
+wrong_answers:
+  - Kupony na zakupy
+  - Zniżki na opłaty dla rynku Bitcoin
+  - Szanse na wydobycie bloku
+explanation: |
+  Usługa ta początkowo dystrybuowała 5 bitcoinów na żądanie, aby umożliwić ludziom wypróbowanie systemu. Kwota ta została z czasem zmniejszona, a Faucet zamknięto w 2012 roku.
+reviewed: false

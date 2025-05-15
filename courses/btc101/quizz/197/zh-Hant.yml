@@ -1,0 +1,11 @@
+question: 購買 Bitcoin 的風險之一是什麼？
+answer: 其價格可降至 0.
+wrong_answers:
+  - 它很容易被偷。
+  - 可以複製。
+  - 它可以實體遺失。
+explanation: |
+  課程中提到 Bitcoin 是一種波動性極高的
+  金融資產，其價格可能跌至 0，這是購買 Bitcoin 的相關風險之一。
+  購買 Bitcoin 的風險之一。
+reviewed: true

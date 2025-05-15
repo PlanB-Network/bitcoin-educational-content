@@ -1,9 +1,9 @@
-question: Qual è una truffa comune nel campo degli investimenti finanziari?
-answer: Sistemi di vendita piramidale.
+question: Qual è il principale vantaggio dell'utilizzo di un gestore di password?
+answer: Memorizza e genera password complesse
 wrong_answers:
-  - Vendita di beni fisici.
-  - Vendita di prodotti software.
-  - Vendita di valuta fiat.
+  - Fornisce suggerimenti per ricordare le password
+  - Riutilizza le stesse password per diversi account online
+  - Sostituisce la necessità di un software antivirus
 explanation: |
-  Nel campo degli investimenti finanziari, i sistemi di vendita piramidale e gli schemi Ponzi si distinguono come modelli illegali. Operano utilizzando i soldi dei nuovi investitori per pagare i partecipanti più anziani.
+  Il gestore di password crea password forti e le memorizza in modo sicuro, consentendo un facile recupero senza la necessità di memorizzarle.
 reviewed: false

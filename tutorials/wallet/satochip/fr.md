@@ -52,7 +52,7 @@ Pour gérer le portefeuille, dans ce tutoriel, je vous propose d'utiliser Sparro
 
 Je vous recommande fortement de vérifier à la fois l'authenticité (avec GnuPG) et l'intégrité (via le hash) de Sparrow avant de l'installer sur votre machine. Si vous ne savez pas comment le faire, vous pouvez suivre cet autre tutoriel :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![SATOCHIP](assets/notext/05.webp)
 

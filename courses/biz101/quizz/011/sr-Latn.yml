@@ -1,0 +1,9 @@
+question: Koju prednost Lightning nudi trgovcima u pogledu konačnosti plaćanja?
+answer: Plaćanja na Lightning mreži se završavaju gotovo trenutno, smanjujući rizik od storniranja ili prevare.
+wrong_answers:
+  - Potrebno je 24 sata čekanja pre nego što sredstva budu raspoloživa za trošenje.
+  - Omogućava kupcima da povrate svoju uplatu u bilo kom trenutku.
+  - Omogućava potpunu reverzibilnost transakcija do 90 dana.
+explanation: |
+  Sa Lightning-om, kada se uplata usmeri i reguliše kroz mrežu, ona je konačna. Ovo eliminiše scenarije povraćaja sredstava koji se viđaju kod tradicionalnih platnih sistema.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji je ključni element koji osigurava da Bob primi sredstvo tokom State Transition u RGB?
+answer: Novi Seal Definition koji pokazuje na Bobov UTXO
+wrong_answers:
+  - Kontrolna transakcija bez reference na UTXO
+  - Javna izjava od Alice
+  - Dvostruki potpis koji dele Alis i Bob
+explanation: |
+  Seal Definition kriptografski povezuje imovinu sa Bobovim UTXO, osiguravajući da je on poseduje.
+reviewed: false

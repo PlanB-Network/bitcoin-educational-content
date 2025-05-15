@@ -1,0 +1,96 @@
+id: 456389ac-a73a-4f68-ae78-e4941cfb3626
+name: Lightning Network +
+links:
+  website: https://lightningnetwork.plus/
+  twitter: https://twitter.com/BTC_LN
+  github: https://github.com/GaloyMoney
+  nostr: npub17tlh448s3tfdfgymehqdkdn52as59qsrax0n9h58pk54wcmqyc2qklzsxj
+
+category: service
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0.06
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.12
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.12
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+tags:
+  - lightning
+  - scalability
+  - offchain
+contributor_names:
+  - Rogzy-DB

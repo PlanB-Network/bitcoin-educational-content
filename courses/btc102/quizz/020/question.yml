@@ -1,63 +1,103 @@
-id: c8f7ae91-3633-4929-a004-c1a4bd278a6b
-chapterId: 33134b3f-92c1-5185-afb6-88599e47e801
+id: a360c4b0-ee1a-4c85-b821-2f1645ecc7cf
+chapterId: d4327ac4-9ff8-5192-b542-cb78c0bd0aa7
 difficulty: intermediate
 duration: 30
-author: DecouvreBitcoin
+author: pretty-private
 tags:
-  - Investing
-  - Golden Rule
+  - good-practice
+  - wallets
 
 # Proofreading metadata
-original_language: en
+original_language: fr
 proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-21
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2678
+    contributor_names:
+    reward: 0.18
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2589
+    contributor_names:
+    reward: 0.16
   - language: en
-    last_contribution_date: 2024-09-01
+    last_contribution_date:
     urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1294
+    contributor_names:
+    reward: 0.16
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2633
+    contributor_names:
+    reward: 0.16
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2678
-  - language: fr
+    contributor_names:
+    reward: 0.18
+  - language: hi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2589
+    contributor_names:
+    reward: 0.24
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2633
+    contributor_names:
+    reward: 0.16
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2767
+    contributor_names:
+    reward: 0.22
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2589
-  - language: vi
+    contributor_names:
+    reward: 0.16
+  - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2767
+    contributor_names:
+    reward: 0.18
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2

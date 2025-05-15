@@ -1,0 +1,11 @@
+question: 如果節點使用者選擇遵循與現有共識規則相衝突的不同規則，會發生什麼情況？
+answer: 節點將不再是 Bitcoin 網路的一部分。
+wrong_answers:
+  - 該節點將成為不同 Bitcoin 網路的一部分。
+  - 該節點將會受到 Bitcoin 網路的懲罰。
+  - 該節點將獲得 Bitcoin 網路的獎勵。
+explanation: |
+  如果節點使用者決定遵循其他規則，而這些規則
+  使目前的共識規則失效，那麼這個節點
+  將不再是 Bitcoin 網路的一部分。
+reviewed: true

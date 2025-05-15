@@ -29,7 +29,7 @@ Un contrat RGB se structure comme une machine à états évolutive. Il démarre 
 
 Pour en savoir plus sur le fonctionnement du protocole RGB, je vous conseille de suivre cette formation complète :
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Installation du nœud Lightning compatible RGB
 
@@ -355,4 +355,5 @@ Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de me
 
 Je vous conseille également de découvrir cet autre tutoriel dans lequel je vous explique comment utiliser l'outil RGB CLI développé par l'association LNP/BP pour créer un contrat RGB :
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+

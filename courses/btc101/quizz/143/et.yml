@@ -1,5 +1,4 @@
-question: Mis juhtuks, kui kasutaja otsustab järgida teisi reegleid, mis tühistavad
-  praegused konsensuse reeglid?
+question: Mis juhtuks, kui kasutaja otsustab järgida teisi reegleid, mis tühistavad praegused konsensuse reeglid?
 answer: Sõlm ei ole enam osa Bitcoin võrgustikust
 wrong_answers:
   - Sõlm saab osaks erinevast Bitcoin võrgustikust

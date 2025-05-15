@@ -1,0 +1,9 @@
+question: Hva er den primære betalingsløsningen som anbefales for virksomheter med Essential-profil?
+answer: Sveitsisk Bitcoin Pay
+wrong_answers:
+  - Åpen node
+  - BTCPay-server
+  - Bitcoinize PoS
+explanation: |
+  Vi fremhever Swiss Bitcoin Pay som den anbefalte løsningen for en Essential-profil, som balanserer enkelhet og sikkerhet.
+reviewed: false

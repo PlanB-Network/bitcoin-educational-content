@@ -1,5 +1,4 @@
 question: Kuinka Bitcoin-protokolla ylläpitää johdonmukaista keskimääräistä aikaa kahden lohkon luomisen välillä?
-  pysyy vakiona?
 answer: Validin hashin löytämisen vaikeustaso säätyy joka 2016 lohkon jälkeen.
 wrong_answers:
   - Louhijoiden määrä säädetään kiinteään lukumäärään.

@@ -1,0 +1,9 @@
+question: Koji je glavni cilj CoinJoin transakcije?
+answer: Da se razbije istorija novčića.
+wrong_answers:
+  - Da bi se smanjile transakcione naknade.
+  - Da bitkoini budu neotkriveni.
+  - Da bi se povećala brzina potvrde.
+explanation: |
+  Cilj CoinJoin transakcije je da prekine istoriju novčića. Ova tehnika ne pruža trajnu anonimnost niti definitivno blokira praćenje bitkoina, suprotno onome što bi se moglo pomisliti. CoinJoin ima za cilj samo da prekine istoriju na tački gde se CoinJoin transakcija izvršava.
+reviewed: false

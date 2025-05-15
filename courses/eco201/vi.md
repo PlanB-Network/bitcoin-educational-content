@@ -16,28 +16,36 @@ Trường phái tư tưởng này đã có một lịch sử kéo dài vài th�
 
 +++
 
-# Giới thiệu về ECO
+# Giới thiệu
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Giới thiệu
+## Tổng quan về khóa học
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Chào mừng tất cả mọi người đến với Eco 201: Giới thiệu về trường phái Kinh tế học Áo.
+Chào mừng bạn đến với khóa học ECO201!
 
-Trong khóa học do Théo Mogenet đem đến này, bạn sẽ khám phá trường phái Kinh tế học khác biệt lớn so với học thuyết Keynes. Cho đến nay, bạn có thể đã học được rằng việc phát hành và quản lý tiền tệ là trách nhiệm của các ngân hàng trung ương, với ý tưởng rằng việc in tiền và chi tiêu sẽ thúc đẩy tăng trưởng. Tuy nhiên, có một trường phái tư tưởng kinh tế khác: Kinh tế học Áo. Với hơn 200 năm nghiên cứu và phát triển, suy ngẫm triết học, và các tác phẩm của các tác giả nổi tiếng, cách tiếp cận này nhấn mạnh một tầm nhìn đúng mực và chín chắn hơn về tăng trưởng và lý trí của con người trong nền kinh tế của chúng ta.
+Trong khóa học này được cung cấp bởi Théo Mogenet, bạn sẽ khám phá một trường phái tư tưởng kinh tế khác biệt cơ bản so với học thuyết Keynesian đang thống trị. Cho đến nay, có thể bạn đã được dạy rằng quản lý tiền tệ và chính sách kinh tế chủ yếu là trách nhiệm của các ngân hàng trung ương, với ý tưởng rằng in tiền và chi tiêu công sẽ kích thích tăng trưởng kinh tế. Tuy nhiên, tồn tại một cách tiếp cận thay thế nhất quán hơn: **Kinh tế học Áo**.
 
-Trên thực tế, kinh tế là một lĩnh vực mang tính xã hội cao và phức tạp, bao gồm một loạt các chủ thể tham gia nhỏ liên kết với nhau, cùng nhau đóng góp vào việc tạo nên một toàn thể nhất quán. Thay vì tiếp cận ngành này thông qua các phương trình toán học, chúng ta phải hiểu nó từ góc độ logic con người và xã hội học. Trong khóa học này, chúng ta sẽ khám phá các khái niệm cơ bản của Kinh tế học Áo. Giáo viên của bạn, Théo Mogenet, là một giáo sư đầy đam mê và năng lực về Kinh tế học Áo.
+Với hơn hai thế kỷ nghiên cứu, suy ngẫm triết học và các tác phẩm của những tác giả nổi tiếng như Carl Menger, Ludwig von Mises và Friedrich Hayek, trường phái này chọn một cách nhìn khác, ưu tiên một cái nhìn phi tập trung về kinh tế, dựa trên cá nhân và lý trí con người.
 
-Để bắt đầu, chúng tôi mang đến cho bạn một video bổ sung sẽ giải thích cách hệ thống tài chính hiện tại của chúng ta hoạt động. Bạn sẽ khám phá cách các ngân hàng thương mại và ngân hàng trung ương tương tác và thúc đẩy nền kinh tế. Chúng ta sẽ đề cập đến các chủ thể tham gia chính (các tay chơi chính) trong thế giới tài chính và cách mà sự tập trung của quyền lực này vào một số tổ chức kinh tế có thể dẫn đến lạm dụng và khủng hoảng tài chính.
+Kinh tế học thực chất là một lĩnh vực sâu sắc về mặt xã hội và phức tạp, bao gồm nhiều tác nhân độc lập tương tác tự do để hình thành một hệ thống mạch lạc. Để hiểu được hệ thống động này, Kinh tế học Áo ưu tiên phân tích định tính, dựa trên logic con người, xã hội học và nghiên cứu các quá trình thị trường, thay vì các phương trình toán học cứng nhắc.
 
-Trong phần thứ hai của khóa học này, chúng ta sẽ xem xét sự khác biệt giữa Kinh tế học Keynes và Kinh tế học Áo, khám phá trường phái tư tưởng, phương pháp suy ngẫm, và công cụ họ sử dụng để thiết lập nên sự thật kinh tế của họ. Chúng ta cũng sẽ nghiên cứu sự hình thành của các cuộc khủng hoảng kinh tế. Liệu nó có phải là do sự bất tài của con người, sự thao túng thị trường, hay sự phấn khích tập thể của mọi người? Chúng ta sẽ khám phá cách các chu kỳ tăng trưởng, suy giảm, suy thoái, và thời kỳ hoàng kim của chúng ta được tạo ra bởi cảm xúc của con người.
+Trong khóa học này, bạn sẽ khám phá các nguyên tắc cơ bản của trường phái tư tưởng này. Théo Mogenet, người hướng dẫn của bạn, là một người đam mê cách tiếp cận kinh tế này và sẽ hướng dẫn bạn qua các khái niệm chính của Kinh tế học Áo, cho thấy cách những ý tưởng này đặc biệt phù hợp với thế giới của Bitcoin.
 
-Khóa học này sẽ là sự kết hợp giữa kinh tế học và triết học, với cuộc thảo luận mở giữa Théo và tôi. Nếu bạn có bất kỳ câu hỏi nào trong suốt khóa học này, đừng ngần ngại đặt ra trong Discord của chúng tôi, bạn sẽ tìm thấy liên kết trong mô tả.
+**Phần 1: Giới thiệu về ECON**  
+Chúng ta sẽ bắt đầu với một giới thiệu chung về Kinh tế học Áo, khám phá nguồn gốc lịch sử và nền tảng của tư tưởng này. Phần này cũng đề cập đến các khái niệm quan trọng như tiền tệ, tín dụng, ngân hàng và ngân hàng trung ương. Bạn sẽ hiểu tại sao các tổ chức này đóng vai trò trung tâm trong tư tưởng Áo, đặc biệt là trong sự phê phán các can thiệp tiền tệ.
 
-Tôi chân thành cảm ơn Théo đã tạo ra khóa học này, và tôi hy vọng anh ấy sẽ là một giáo viên xuất sắc của bạn. Chúng tôi đã rất vui khi tạo ra nội dung này. Khóa học này dành cho mọi người và tôi nghĩ, sẽ là cần thiết để theo dõi các khóa học sâu hơn về kinh tế học của chúng tôi trong tương lai. Khóa học này sẽ đặt nền móng cần thiết để khám phá chi tiết hơn một số lý thuyết kinh tế mà chúng ta chỉ mới chạm nhẹ đến ở đây.
-Nếu bạn đã sẵn sàng bắt đầu cuộc phiêu lưu này, tôi mời bạn nhấp vào video sau và bắt đầu với video bổ sung về hệ thống tài chính hiện tại của chúng ta. Bây giờ, tôi xin nhường sân cho Théo. Cảm ơn anh ấy đã hợp tác với Descoupes Bitcoin để thực hiện khoá học này. Tôi sẽ sớm gặp lại bạn. Tạm biệt!
+**Phần 2: Các nguyên lý lý thuyết**  
+Phần này sẽ đi sâu vào các khái niệm cơ bản của Kinh tế học Áo, như lý thuyết giá trị chủ quan, giải thích tại sao giá trị của một hàng hóa không phải là khách quan mà phụ thuộc vào sự hữu ích mà mỗi cá nhân cảm nhận. Bạn cũng sẽ khám phá cách mà tiền tệ tự nhiên hình thành như một hiện tượng xã hội, cùng với các khái niệm về ưu tiên thời gian, lãi suất và vốn là cốt lõi của lý thuyết thị trường tự do Áo.
+
+**Phần 3: Các quan điểm kinh tế học Áo**  
+Ở đây, chúng ta sẽ khám phá các ứng dụng thực tế của lý thuyết Áo. Bạn sẽ học chi tiết về Lý thuyết Chu kỳ Kinh tế Áo, giải thích cách mà các thao túng tiền tệ tạo ra sự bùng nổ nhân tạo tiếp theo là suy thoái. Chúng ta cũng sẽ thấy tại sao việc tính toán kinh tế là không thể dưới một hệ thống xã hội chủ nghĩa và cách mà phương pháp luận Áo, dựa trên hành động học (praxéologie - nghiên cứu về hành động con người), cung cấp một cách tiếp cận độc đáo và nhất quán để hiểu các hiện tượng kinh tế.
+
+Khóa học này là sự kết hợp giữa kinh tế học và triết học, được dẫn dắt bởi một cuộc thảo luận mở giữa Théo và tôi (Rogzy). Tôi muốn gửi lời cảm ơn chân thành tới Théo Mogenet vì đã tạo ra khóa học này. Chúng tôi đã rất vui khi phát triển nội dung này, được thiết kế để tất cả mọi người đều có thể tiếp cận được. Khóa học này là một phần giới thiệu cơ bản và sẽ đặt nền tảng cho các mô-đun kinh tế nâng cao trong tương lai của chúng tôi.
+
+Nếu chìa khóa để hiểu nền kinh tế hiện tại nằm trong một lý thuyết hàng trăm năm tuổi thì sao? Hãy khám phá nó cùng nhau!
 
 ## Tiền tệ, Tín dụng, Ngân hàng, và Ngân hàng Trung ương
 
@@ -523,7 +531,7 @@ Quan trọng là phải lưu ý rằng việc chọn lựa dữ liệu một cá
 
 Phương pháp luận là một khía cạnh thiết yếu trong kinh tế học và trong các ngành khoa học xã hội nói chung. Nó ảnh hưởng đến cách đặt ra các câu hỏi, cách hình thành các giả thuyết, và cách diễn giải dữ liệu. Hiểu được sự khác biệt về phương pháp luận giữa các trường phái kinh tế có thể giúp chúng ta đánh giá các quan điểm đa dạng và phát triển ý kiến ​​của riêng mình về các chủ đề đã được thảo luận trong các phần trước.
 
-# Kết luận
+# Phần cuối
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 
@@ -535,40 +543,6 @@ Phương pháp luận là một khía cạnh thiết yếu trong kinh tế học
 ## Kỳ thi cuối cùng
 
 <chapterId>d58d188f-81fb-572a-a898-8b6f8aceba7a</chapterId>
-<isCourseExam>true</isCourseExam>
-
-## Học thêm
-
-<chapterId>64faaed4-84b9-5b8c-9736-a959e8e6cd9d</chapterId>
-
-Xin chúc mừng bạn đã hoàn thành khóa học ECON 201 này! Tôi thực sự hy vọng bạn đã thích nó và mở ra một cánh cửa mới cho bản thân. Hành trình khám phá về Bitcoin của bạn chỉ mới bắt đầu, và tôi mời bạn khám phá tất cả các khóa học khác có sẵn tại trường đại học.
-
-### Đọc thêm
-
-Để làm sâu sắc hơn hiểu biết của bạn về các hiện tượng kinh tế và xã hội, đặc biệt là về kinh tế học Áo, dưới đây là một số gợi ý về sách:
-
-- "The Austrian School" của Ressus Huerta de Soto: Cuốn sách có mức giá hợp lý này cung cấp một giới thiệu toàn diện về sự phát triển của tư duy kinh tế học Áo, bao gồm các khái niệm và lý thuyết chính.
-- "Human Action" của Ludwig von Mises: Được coi là tác phẩm vĩ đại nhất của trường phái kinh tế học Áo, công trình này khám phá sâu rộng về nền tảng lý thuyết của hành động con người và kinh tế học.
-- "The Use of Knowledge in Society" của Friedrich Hayek: Tác phẩm ngắn này xem xét cách kiến thức phân tán trong xã hội được sử dụng để định hướng cho các quyết định kinh tế, nhấn mạnh tầm quan trọng của giá cả và cạnh tranh.
-- Bài phát biểu nhận giải Nobel của Joseph Schumpeter vào năm 1974: Bài phát biểu này cung cấp cái nhìn tổng quan về tầm nhìn của Schumpeter về doanh nhân, đổi mới và chủ nghĩa tư bản.
-- "Capitalism, Socialism and Democracy" hoặc "The Theory of Economic Development" của Joseph Schumpeter: Những cuốn sách biểu tượng này của Schumpeter khám phá động lực của chủ nghĩa tư bản, đổi mới sáng tạo và chu kỳ kinh tế.
-
-Ngoài việc đọc những tác phẩm này, bạn cũng có thể tìm hiểu về kinh tế học Áo bằng cách khám phá các nguồn trực tuyến. Viện Mises, có trụ sở tại miền đông nam Hoa Kỳ, cung cấp các bài viết và video của các nhà kinh tế học nổi tiếng. Học viện Savedin Amoos cung cấp các hội thảo tương tác với các khách mời nổi bật, mặc dù lựa chọn này là có phí. Tại Pháp, những người như Yorick de Montbin, Fergan Aziri, và Richard Hamelin thường chia sẻ phân tích và thảo luận về kinh tế học Áo trên các kênh YouTube khác nhau. Cuối cùng, Bitcoin Institute cũng có thể là một nguồn thông tin về các khía cạnh kinh tế liên quan đến Bitcoin.
-
-Bằng cách đọc những tác phẩm này và khám phá những nguồn trực tuyến, bạn có thể phát triển hiểu biết sâu sắc hơn về các nguyên tắc và ý tưởng chính của trường phái kinh tế học Áo.
-
-# Kết luận
-
-<partId>24d251ad-d525-41f6-a893-d0f304b8c24c</partId>
-
-## Đánh giá khóa học này
-
-<chapterId>40c39f78-0b4c-4be0-951d-567385949531</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Bài kiểm tra cuối cùng
-
-<chapterId>fb0fd916-a972-4a80-bc15-e5fa318a9b6d</chapterId>
 <isCourseExam>true</isCourseExam>
 
 ## Kết luận

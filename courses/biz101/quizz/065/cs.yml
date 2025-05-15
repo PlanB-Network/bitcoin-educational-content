@@ -1,0 +1,9 @@
+question: Jaké je hlavní platební řešení doporučované pro podniky se základním profilem?
+answer: Švýcarský Bitcoin Pay
+wrong_answers:
+  - Otevřený uzel
+  - Server BTCPay
+  - Bitcoinize PoS
+explanation: |
+  Jako doporučené řešení pro profil Essential, který vyvažuje jednoduchost a bezpečnost, vyzdvihujeme Swiss Bitcoin Pay.
+reviewed: false

@@ -85,7 +85,7 @@ Queste funzioni hash crittografiche hanno diverse caratteristiche essenziali che
 
 #### 1. Irreversibilità (resistenza alla preimmagine):
 
-L'irreversibilità significa che è facile calcolare l'hash dalle informazioni di input, ma il calcolo inverso, cioè trovare l'input dall'hash, è praticamente impossibile. Questa proprietà rende le funzioni hash perfette per creare impronte digitali uniche senza compromettere le informazioni originali. Questa caratteristica è spesso definita come una funzione unidirezionale o una "_funzione trappola_".
+L'irreversibilità significa che è facile calcolare l'hash a partire dalle informazioni in ingresso, ma il calcolo inverso, ovvero trovare l'ingresso a partire dall'hash, è praticamente impossibile. Questa proprietà rende le funzioni di hash perfette per creare impronte digitali uniche senza compromettere le informazioni originali.
 
 Nell'esempio dato, ottenere l'hash `24f1b9…` conoscendo l'input "_PlanB_" è semplice e veloce. Tuttavia, trovare il messaggio "_PlanB_" conoscendo solo `24f1b9…` è impossibile.
 
@@ -712,7 +712,7 @@ La matematica delle curve ellittiche sui campi finiti è analoga a quella sui ca
 
 Se desideri approfondire le basi matematiche della crittografia moderna, ti consiglio anche di consultare questo altro corso su Plan ₿ Network:
 
-https://planb.network/courses/cyp302
+https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calcolare la Chiave Pubblica dalla Chiave Privata
 
@@ -1095,7 +1095,7 @@ Se questa flag sighash viene integrata in Bitcoin, consentirà l'uso di covenant
 
 Per approfondire la tua conoscenza della Lightning Network, dopo il corso CYP201, ti consiglio vivamente il corso LNP201 di Fanis Michalakis, che copre l'argomento in dettaglio:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Nella prossima parte, propongo di scoprire come funziona la frase mnemonica alla base del tuo portafoglio Bitcoin.
 
@@ -1128,7 +1128,7 @@ Questo vincolo deriva dal modello di privacy di Bitcoin. Riutilizzando lo stesso
 
 Per saperne di più sul modello di privacy di Bitcoin e scoprire metodi per proteggere la tua privacy, ti consiglio anche di seguire il mio corso BTC204 su Plan ₿ Network:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Portafogli HD (_Hierarchical Deterministic_)
 
@@ -1267,6 +1267,7 @@ Una frase di 12 parole, che offre quindi 128 bit di sicurezza, è attualmente su
 Per approfondire e imparare concretamente come generare manualmente una frase mnemonica di prova, ti consiglio di scoprire questo tutorial:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Prima di continuare con la derivazione del portafoglio da questa frase mnemonica, ti presenterò, nel capitolo seguente, la passphrase BIP39, poiché gioca un ruolo nel processo di derivazione, ed è allo stesso livello della frase mnemonica.
 ## La passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
@@ -2128,13 +2129,13 @@ Per convertire un valore in un carattere _bech32_ utilizzando questa tabella, è
 Mappando tutti i nostri valori, otteniamo il seguente indirizzo:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Tutto ciò che rimane da fare è aggiungere l'HRP `bc`, che indica che si tratta di un indirizzo per il mainnet di Bitcoin, così come il separatore `1`, per ottenere l'indirizzo completo di ricezione:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 La particolarità di questo alfabeto _bech32_ è che include tutti i caratteri alfanumerici tranne `1`, `b`, `i` e `o` per evitare confusione visiva tra caratteri simili, specialmente durante la loro digitazione o lettura da parte degli umani.
@@ -2235,7 +2236,7 @@ La generazione dell'indirizzo segue quindi lo stesso processo, utilizzando la ch
 
 Ed eccoci! Abbiamo raggiunto la fine di questo corso CYP201. Se hai trovato questo corso utile, ti sarei molto grato se potessi dedicare qualche momento per dare una buona valutazione nel capitolo di valutazione seguente. Sentiti libero di condividerlo anche con i tuoi cari o sui tuoi social network. Infine, se desideri ottenere il tuo diploma per questo corso, puoi sostenere l'esame finale subito dopo il capitolo di valutazione.
 
-# Conclusione
+# Sezione finale
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

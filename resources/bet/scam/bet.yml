@@ -1,12 +1,11 @@
+id: fb64138f-79bf-4844-85ce-e51c40e63c33
 type: Visual Content
 links:
-  download: https://workspace.planb.network/s/KT96YtP83wfYwGJ
+  download: https://workspace.planb.network/s/2zHpiH9FPf4yYeK
   view:
     - en: https://penpot.planb.network/#/view/7154756b-3ebd-8040-8004-5042193e651d?page-id=7154756b-3ebd-8040-8004-5042193e651e&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-5044d9213bf6&zoom=fill
-tags:
-  - bitcoin
-contributors:
-  - rabbit-hole
+contributor_names:
+  - Rogzy-DB
 
 # Proofreading metadata
 original_language: en
@@ -14,71 +13,105 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2524
+    contributor_names:
+    reward: 0.11
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2512
+    contributor_names:
+    reward: 0.11
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1256
+    reward: 0.06
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2518
+    contributor_names:
+    reward: 0.11
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2524
+    contributor_names:
+    reward: 0.11
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2512
+    contributor_names:
+    reward: 0.11
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2518
+    contributor_names:
+    reward: 0.11
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2536
+    contributor_names:
+    reward: 0.12
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2512
+    contributor_names:
+    reward: 0.11
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2524
+    contributor_names:
+    reward: 0.11
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2536
+    contributor_names:
+    reward: 0.12
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2530
+    contributor_names:
+    reward: 0.12
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2530
+    contributor_names:
+    reward: 0.12
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2524
+    contributor_names:
+    reward: 0.11
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.11
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.12
+tags:
+  - risks
+  - good-practice
+  - personal-security

@@ -1,0 +1,10 @@
+question: Lightning Network ni nini?
+answer: Mtandao wa malipo wa papo hapo wa Bitcoin kulingana na Bitcoin Blockchain.
+wrong_answers:
+  - Mtandao tofauti wa Blockchain kutoka kwa Bitcoin Blockchain.
+  - Mtandao wa wachimbaji Bitcoin.
+  - Mtandao wa kubadilishana Bitcoin.
+explanation: |
+  Lightning Network ni mtandao wa malipo wa papo hapo wa Bitcoin
+  ambayo inategemea Bitcoin Blockchain.
+reviewed: true

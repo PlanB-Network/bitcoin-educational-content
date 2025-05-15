@@ -1,3 +1,4 @@
+id: e02ef1cc-7517-475f-ba3f-5e4b5a83a77d
 name: L'afrique parle Bitcoin
 host: PrinceDonK
 language: fr
@@ -6,8 +7,9 @@ links:
   twitter: https://twitter.com/Afrique_Bitcoin/
 description: |
   Discussions avec celles et ceux qui contribuent à l'hyperbitcoinisation en Afrique. @PrinceDonK
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - afrique
-contributors:
-  - rabbit-hole
+  - adoption
+  - case-studies
+  - business

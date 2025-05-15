@@ -1,0 +1,9 @@
+question: Koja je bila svrha hleba i igara koje su organizovali rimski carevi?
+answer: Da zabave ljude i skrenu njihovu pažnju sa političkih problema
+wrong_answers:
+  - Da se promoviše rimska kultura i umetnost
+  - Da obučava vojnike i priprema građane za rat
+  - Da se stimuliše ekonomija i otvore radna mesta
+explanation: |
+  Hleb i igre su bili osmišljeni da zabave narod i skrenu im pažnju sa političkih i ekonomskih poteškoća, omogućavajući vođama da održe društveni mir pružanjem zabave i distribucijom hrane.
+reviewed: false

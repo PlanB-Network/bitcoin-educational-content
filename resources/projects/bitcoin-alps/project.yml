@@ -1,0 +1,22 @@
+id: 1399336b-b9f3-4b2e-93ae-94be9b769fe9
+name: Bitcoin Alps
+category: education
+
+links:
+  website: https://www.bitcoin-alps.ch/
+  twitter: https://twitter.com/bitcoin_alps
+  Github: https://github.com/bitcoin-alps/website
+  youtube: https://www.youtube.com/@BitcoinAlps/videos
+
+original_language: de
+proofreading:
+  - language: de
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.08
+tags:
+  - business
+  - network-security
+  - decentralization

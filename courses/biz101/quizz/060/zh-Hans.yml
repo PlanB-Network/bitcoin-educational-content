@@ -1,0 +1,9 @@
+question: 接受比特币支付的 Starter 配置文件的主要硬件要求是什么？
+answer: 智能手机
+wrong_answers:
+  - 比特币矿机 ASIC
+  - 硬件钱包
+  - 自托管服务器
+explanation: |
+  Starter 配置文件只需要一部带闪电钱包的智能手机或平板电脑，是一种轻便的解决方案。
+reviewed: false

@@ -26,7 +26,32 @@ Unisciti a Damien Theillier in questa esplorazione arricchente del pensiero di F
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Introduzione al Corso
+## Panoramica del corso
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+L'obiettivo di questa formazione è offrirti una comprensione approfondita della vita, delle influenze intellettuali, degli avversari ideologici e delle teorie economiche di Frédéric Bastiat. Attraverso questo percorso strutturato, scoprirai come le sue idee abbiano plasmato il pensiero economico e continuino a influenzare i dibattiti attuali.
+
+**Sezione 1: Introduzione**  
+Inizieremo con una panoramica generale di Frédéric Bastiat, un genio sconosciuto dell'economia. Scoprirai la sua vita, il suo percorso intellettuale e il contesto storico in cui ha sviluppato il suo pensiero. Comprendere questo contesto è essenziale per afferrare pienamente la portata dei suoi scritti e delle sue teorie.
+
+**Sezione 2: Le influenze**  
+Continueremo con l'analisi dei pensatori che hanno influenzato il pensiero economico di Frédéric Bastiat. Imparerai come figure importanti come Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer e Richard Cobden abbiano contribuito al suo sviluppo intellettuale, ponendo le basi per la sua riflessione sul libero scambio e l'economia di mercato.
+
+**Sezione 3: Gli avversari**  
+Successivamente, esploreremo le critiche di Bastiat nei confronti dei suoi avversari ideologici. Che si tratti di Rousseau, dell'educazione classica, del protezionismo, del socialismo o di Proudhon, capirai perché Bastiat considerava queste dottrine come ostacoli al progresso economico e sociale e come rispondeva ai loro argomenti con logica convincente.
+
+**Sezione 4: I Sofismi Economici**  
+Questa sezione è dedicata ai sofismi economici denunciati da Bastiat, tra cui i celebri "*Ciò che si vede e ciò che non si vede*" e "*La petizione dei fabbricanti di candele*". Esamineremo come sia riuscito a dimostrare, attraverso la satira e l'analisi rigorosa, gli errori economici comuni del suo tempo, che rimangono tuttora attuali.
+
+**Sezione 5: Le Armonie Economiche**  
+Qui scoprirai la visione positiva di Bastiat riguardo all'economia. Affronteremo concetti come il miracolo del mercato, la potenza della responsabilità individuale e la distinzione tra vera e falsa solidarietà. Bastiat vedeva l'economia come un sistema coerente in cui l'interesse personale ben compreso giova al bene comune. Scopriremo perché.
+
+**Sezione 6: La Legge**  
+Per concludere questo corso, esploreremo l'opera principale di Bastiat, "*La Legge*", dove espone le sue riflessioni sui diritti di proprietà, sul saccheggio legale e sul ruolo limitato dello Stato. Capirai perché questo saggio è considerato uno dei manifesti più incisivi a favore della libertà individuale e dell'economia di mercato.
+
+Pronto a scoprire come le idee di Frédéric Bastiat possano ancora risuonare oggi? Unisciti a noi in questo viaggio intellettuale che potrebbe mettere in discussione la tua concezione dell'economia!
+
+## Bastiat: Un genio sconosciuto
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -272,9 +297,14 @@ Bastiat considera infatti Rousseau il vero precursore del socialismo e del colle
 
 Inizialmente, l'uomo è semplicemente un borghese. Ma il borghese è un calcolatore; vuole il suo piacere immediato, è schiavo dei suoi sensi, dei suoi desideri, del suo interesse particolare. In breve, non è razionale, quindi non è libero. Ha bisogno di essere educato, di capire che il suo vero interesse è l'interesse generale. Ecco perché Rousseau ha scritto nel Contratto Sociale:
 
-> Chiunque rifiuti di obbedire alla volontà generale sarà costretto dall'intero corpo: ciò non significa altro che saranno costretti ad essere liberi.
-
 ![image](assets/en/048.webp)
+
+---
+
+>Chiunque rifiuti di obbedire alla volontà generale sarà costretto dall'intero corpo: ciò non significa altro che saranno costretti ad essere liberi.  
+>(Jean-Jacques Rousseau)
+
+---
 
 Secondo questa dottrina, l'uomo ha due volontà dentro di sé: una volontà che tende verso l'interesse personale, quella del borghese, e una volontà che tende verso l'interesse generale, quella del cittadino. Condurre gli uomini, anche con la forza, a volere un fine razionale, l'interesse generale, è condurli a diventare liberi. Quello che veramente vogliono è un fine razionale, anche se non lo sanno.
 È quindi perfettamente legittimo, secondo Rousseau, costringere gli uomini in nome di un fine che essi stessi, se fossero stati più illuminati, avrebbero perseguito, ma che non perseguono perché sono ciechi, ignoranti o corrotti. La società è fondata per costringerli a fare ciò che dovrebbero desiderare spontaneamente se fossero illuminati. E facendo ciò, non si fa violenza a loro poiché li si porta ad essere "liberi", cioè a fare le scelte giuste, scelte che sono in linea con il loro vero sé.
@@ -465,6 +495,12 @@ Nel 1840, la Camera dei Deputati votò per una legge che aumentava le tasse di i
 Bastiat compose allora un testo satirico che in seguito divenne uno dei suoi lavori più famosi: "la petizione dei fabbricanti di candele". Illustra come certi gruppi di pressione di produttori ben organizzati ottengano privilegi indebiti dallo stato, a detrimento dei cittadini. Allo stesso tempo, dimostra la natura assurda e distruttiva della legislazione protezionistica.
 
 ![image](assets/en/079.webp)
+
+---
+
+>PROTEGGIAMO LE NOSTRE CANDELE!
+
+---
 
 In questa petizione, i fabbricanti di candele chiedono ai deputati protezione legale contro un pericoloso rivale:
 
@@ -724,6 +760,12 @@ Il male genera sofferenza, e la sofferenza ci fa comprendere la colpa o l'errore
 
 ![image](assets/en/110.webp)
 
+---
+
+>Errare è umano.
+
+---
+
 Così, è chiaro che Bastiat è ben lungi dall'essere cieco. Non nega l'esistenza del male. L'uomo è debole, incline all'errore e alla colpa. Da nessuna parte si vedrà Bastiat negare il fatto che l'esercizio della libertà individuale sia associato alla possibilità di errore, alla possibilità di una scelta irragionevole o insensata.
 
 Afferma semplicemente che se la fonte del male risiede nell'assenza di libertà, il rimedio è nella libertà stessa, e più specificamente nel pieno e intero esercizio della responsabilità personale.
@@ -764,6 +806,15 @@ Eppure questa perversione della legge ha un nome, è il socialismo, cioè l'ideo
 
 ![image](assets/en/116.webp)
 
+---
+
+>Società  
+>di Mutuo Soccorso  
+>di GUISY  
+>1899
+
+---
+
 Tuttavia, secondo Bastiat, esiste un'alternativa alla solidarietà statale obbligatoria: "la società di mutuo soccorso"
 
 l'assistenza reciproca e spontanea degli uomini tra loro grazie alle società di mutuo soccorso. Ma prevedeva anche che lo Stato avrebbe finito per impadronirsi di queste mutualità per renderle un organismo unico e centralizzato, incoraggiando la spesa e lo spreco.
@@ -773,6 +824,16 @@ l'assistenza reciproca e spontanea degli uomini tra loro grazie alle società di
 In un opuscolo intitolato "Giustizia e Fraternità", Bastiat esplora anche l'idea di un sistema fiscale semplificato ed equo per finanziare i bisogni collettivi (polizia, giustizia, esercito): redditi e profitti sarebbero soggetti a un'unica aliquota fiscale proporzionale. Questo è ciò che oggi è conosciuto come la "Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Le fondazioni – un  
+>**valore aggiunto**  
+>per la **società**  
+>
+>SwissFoundations
+
+---
 
 Infatti, la solidarietà intrafamiliare, la solidarietà locale o la filantropia organizzata sono molto più sviluppate nei paesi che hanno un sistema fiscale leggero e un grado relativamente alto di libertà economica, come la Svizzera e gli Stati Uniti, mentre è largamente soffocata nei paesi dove lo Stato ha in gran parte sostituito la responsabilità individuale, come la Francia o la Germania.
 Spesso è di moda lamentarsi del "egoismo" che prevalerebbe nelle società liberali. Ma è vero esattamente il contrario. Quando una società è gravata dalle tasse e gli individui non possiedono più la loro proprietà, non sono incoraggiati a dare, ma piuttosto a ritirarsi in se stessi.
@@ -940,7 +1001,7 @@ Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della 
 
 In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
 
-# Conclusione
+# Sezione finale
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

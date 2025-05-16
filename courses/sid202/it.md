@@ -72,7 +72,7 @@ Di seguito sono elencate alcune delle caratteristiche principali di Elements.
 
 #### Confidential Transactions
 
-Per impostazione predefinita, tutti gli indirizzi in Elements sono rese confidenziali utilizzando le Confidential Transactions. Il Blinding è il processo mediante il quale l'importo e il tipo di asset trasferita vengono nascosti crittograficamente a tutti, tranne che ai partecipanti e a coloro che scelgono di rivelare la blinding key. Con Confidential Transaction si intende dire che le transazioni di Elements sono offuscate, nascondendo sia l'ammontare sia il tipo di asset trasferito.
+Per impostazione predefinita, tutti gli indirizzi in Elements sono resi confidenziali utilizzando le Confidential Transactions. Il Blinding è il processo mediante il quale l'importo e il tipo di asset trasferita vengono nascosti crittograficamente a tutti, tranne che ai partecipanti e a coloro che scelgono di rivelare la blinding key. Con Confidential Transaction si intende dire che le transazioni di Elements sono offuscate, nascondendo sia l'ammontare sia il tipo di asset trasferito.
 
 #### Issued Assets
 

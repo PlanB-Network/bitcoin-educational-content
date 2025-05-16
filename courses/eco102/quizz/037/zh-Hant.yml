@@ -1,0 +1,9 @@
+question: 羅馬人認為拉丁文中財產的定義是什麼？
+answer: Jus utendi et abutendi
+wrong_answers:
+  - 特別法減損一般法
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  在羅馬法中，jus utendi et abutendi 將財產定義為使用和濫用的權利，強調使用而不深究其原因。
+reviewed: false

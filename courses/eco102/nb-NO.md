@@ -26,7 +26,32 @@ Bli med Damien Theillier på denne berikende utforskningen av Frédéric Bastiat
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Kursintroduksjon
+## Kursoversikt
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+Målet med denne opplæringen er å gi deg en dyp forståelse av livet, de intellektuelle påvirkningene, ideologiske motstandere og økonomiske teorier til Frédéric Bastiat. Gjennom denne strukturerte reisen vil du oppdage hvordan hans ideer har formet økonomisk tenkning og fortsetter å påvirke dagens debatter.
+
+**Seksjon 1: Introduksjon**  
+Vi starter med en generell oversikt over Frédéric Bastiat, et ukjent geni innen økonomi. Du vil lære om hans liv, intellektuelle utvikling og den historiske konteksten han utviklet sine tanker i. Å forstå denne rammen er avgjørende for å fullt ut forstå rekkevidden av hans skrifter og teorier.
+
+**Seksjon 2: Påvirkninger**  
+Vi vil fortsette med å analysere tenkerne som påvirket Frédéric Bastiats økonomiske tenkning. Du vil lære hvordan store skikkelser som Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer og Richard Cobden bidro til hans intellektuelle utvikling, og la grunnlaget for hans refleksjoner om frihandel og markedsøkonomi.
+
+**Seksjon 3: Motstandere**  
+Deretter vil vi utforske Bastiat sin kritikk av sine ideologiske motstandere. Enten det er Rousseau, klassisk utdanning, proteksjonisme, sosialisme eller Proudhon, vil du forstå hvorfor Bastiat betraktet disse doktrinene som hindringer for økonomisk og sosial fremgang, og hvordan han svarte på deres argumenter med skarp logikk.
+
+**Seksjon 4: Økonomiske Sofismer**  
+Denne delen er dedikert til de økonomiske sofismene som Bastiat avslørte, inkludert de berømte "*Det man ser og det man ikke ser*" og "*Lysprodusentenes petisjon*". Vi vil undersøke hvordan han gjennom satire og grundig analyse demonstrerte de vanlige økonomiske feilene i sin tid, som fortsatt er relevante i dag.
+
+**Seksjon 5: Økonomiske Harmonier**  
+Her vil du oppdage Bastiat sin positive visjon av økonomien. Vi vil diskutere konsepter som markedets mirakel, kraften i individuell ansvarlighet og skillet mellom ekte og falsk solidaritet. Bastiat så på økonomien som et sammenhengende system der vel forstått egeninteresse gagner fellesskapets beste. Vi vil utforske hvorfor.
+
+**Seksjon 6: Loven**  
+For å avslutte dette kurset vil vi fordype oss i Bastiat sitt hovedverk, "*Loven*", hvor han presenterer sine refleksjoner om eiendomsrett, lovlig plyndring og statens begrensede rolle. Du vil forstå hvorfor dette essayet regnes som en av de mest overbevisende manifestene til fordel for individuell frihet og markedsøkonomi.
+
+Klar til å oppdage hvordan Frédéric Bastiat sine ideer fortsatt kan gi gjenklang i dag? Bli med oss på denne intellektuelle reisen som kan utfordre din forståelse av økonomi!
+
+## Bastiat: Et ukjent geni
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -316,8 +341,6 @@ Bastiat anser faktisk Rousseau for å være den sanne forløperen til sosialisme
 
 I utgangspunktet er mennesket bare en borger. Men borgeren er en kalkulator; han ønsker sin umiddelbare nytelse, han er slave for sine sanser, for sine ønsker, for sin særinteresse. Kort sagt, han er ikke rasjonell, derfor er han ikke fri. Han trenger å bli utdannet, for å forstå at hans sanne interesse er den generelle interessen. Dette er grunnen til at Rousseau skrev i "Samfunnskontrakten":
 
-> Den som nekter å adlyde den generelle viljen, skal tvinges av hele kroppen: dette betyr ikke annet enn at de vil bli tvunget til å være frie.
-
 ![bilde](assets/en/048.webp)
 
 Ifølge denne doktrinen har mennesket to viljer inni seg: en vilje som tenderer mot personlig interesse, det til borgeren, og en vilje som tenderer mot den generelle interessen, det til statsborgeren. Å lede menn, selv med makt, til å ønske en rasjonell ende, den generelle interessen, er å lede menn til å bli frie. Det de virkelig ønsker er en rasjonell ende, selv om de ikke vet det.
@@ -390,6 +413,14 @@ _(Richard Cobden)_
 Som vi allerede har sett, var det først og fremst Cobdens kamp mot proteksjonisme med den engelske ligaen for avskaffelse av kornlovene som ledet Bastiat til å skrive artikler og deretter bøker.
 Proteksjonisme er i virkeligheten en form for økonomisk nasjonalisme. Den har som mål å eliminere utenlandsk konkurranse mens den later som den "forsvarer nasjonale interesser." Deretter prøver de å få offentlige myndigheter til å akseptere et sett med rent demagogiske usannheter, presentert som dydige: forsvar av arbeidsplasser, konkurranseevne, osv. Selvfølgelig gir valgte tjenestemenn etter for produsentenes press, fordi det for dem er en gylden mulighet til å konsolidere sin kundebase og utvide sin makt.
 ![image](assets/en/058.webp)
+
+---
+
+>Vårt møte med Arnaud Montebourg  
+>Made in France,  
+>han tror på det, vi har testet det
+
+---
 
 Argumentet for jobbeskyttelse er det Bastiat kaller en feilslutning. Fordi i virkeligheten er det tilsvarende en skatt. Det har effekten av å gjøre produkter dyrere. La oss ta eksempelet gitt av Bastiat selv.
 
@@ -531,6 +562,12 @@ I 1840 stemte Deputertkammeret for en lov som økte importskattene for å beskyt
 Bastiat komponerte deretter en satirisk tekst som senere ble et av hans mest berømte verk: "lysprodusentenes bønnskrift". Den illustrerer hvordan visse velorganiserte pressgrupper av produsenter oppnår ufortjente privilegier fra staten, til skade for borgerne. Samtidig demonstrerer den det absurde og destruktive ved proteksjonistisk lovgivning.
 ![image](assets/en/079.webp)
 
+---
+
+>BESKYTT VÅRE LYS!
+
+---
+
 I denne bønnskriften ber lysprodusentene deputatene om juridisk beskyttelse mot en farlig rival:
 
 > Vi lider under den uutholdelige konkurransen fra en utenlandsk rival som, det ser ut til, er i så overlegne forhold for å produsere lys at han oversvømmer vårt nasjonale marked til en eventyrlig redusert pris.
@@ -604,6 +641,13 @@ Problemet er at skatter, slik de er oppfattet, er underlagt vilkårligheten til 
 Det er derfor Bastiat allerede hadde forstått Laffer-kurven. Arthur Laffer er en amerikansk økonom kjent for sin berømte "kurve" (en ellipse), publisert i 1974, som viser at inntektene fra skatter øker med senking av skattesatsen. Dette er teorien om den avtagende avkastningen av overdreven beskatning.
 
 ![image](assets/en/087.webp)
+
+---
+
+>«For mye skatt dreper skatteinntektene»  
+>Arthur Laffer
+
+---
 
 Politikere antar naivt at det er et automatisk og fast forhold mellom skattesatser og skatteinntekter. De tror de kan doble skatteinntektene ved å doble skattesatsen. Ifølge Laffer overser en slik tilnærming det faktum at skattebetalere kan endre sin oppførsel som respons på nye insentiver.
 Laffer-kurven viser at regjeringen samler inn ingen inntekter når skattesatsene er på 100%. Tvert imot, enhver reduksjon i skatter tjener til å stimulere økonomisk aktivitet og dermed statens inntekter. Faktisk stimulerer reduksjon av marginale skattesatser investeringer, arbeid, kreativitet og fremmer dermed økonomisk vekst. En tilstrekkelig reduksjon kunne produsere nok økonomisk stimulans til å øke offentlige inntekter ved betydelig utvidelse av skattegrunnlaget.
@@ -793,6 +837,12 @@ Det er fordi mennesket risikerer å gjøre feil eller handle galt og lide konsek
 
 ![bilde](assets/en/110.webp)
 
+---
+
+>Å feile er menneskelig.
+
+---
+
 Således er det klart at Bastiat er langt fra å være blind. Han benekter ikke eksistensen av ondskap. Mennesket er svakt, tilbøyelig til feil og feilskjær. Ingensteder vil man se Bastiat benekte det faktum at utøvelsen av individuell frihet er forbundet med muligheten for feil, muligheten for et urimelig eller meningsløst valg.
 
 Han hevder ganske enkelt at hvis kilden til ondskap ligger i fraværet av frihet, er løsningen i friheten selv, og mer spesifikt i den fullstendige og hele utøvelsen av personlig ansvar.
@@ -831,6 +881,15 @@ Og igjen:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Gjensidig  
+>hjelpeforening  
+>i GUISY  
+>1899
+
+---
+
 Men ifølge Bastiat finnes det et alternativ til obligatorisk statlig solidaritet: "gjensidig hjelpesamfunn"
 
 den gjensidige og spontane assistansen av menn blant seg selv takket være gjensidige hjelpesamfunn. Men han forutså også at Staten til slutt ville gripe disse gjensidige for å gjøre dem til en unik og sentralisert kropp, som oppmuntrer til utgifter og sløsing.
@@ -840,6 +899,16 @@ den gjensidige og spontane assistansen av menn blant seg selv takket være gjens
 I en pamflett med navnet "Rettferdighet og Brorskap", utforsker Bastiat også ideen om et forenklet og rettferdig skattesystem for finansiering av kollektive behov (politi, rettsvesen, hær): inntekter og profitter ville være underlagt en enkelt og proporsjonal skattesats. Dette er det som i dag er kjent som "Flat Tax".
 
 ![image](assets/en/118.webp)
+
+---
+
+>Stiftelser – en  
+>**merverdi**  
+>for **samfunnet**  
+>
+>SwissFoundations
+
+---
 
 Faktisk er intrafamiliær solidaritet, lokal solidaritet, eller organisert filantropi mye mer utviklet i land som har et lett skattesystem og en relativt høy grad av økonomisk frihet, som Sveits og USA, mens det i stor grad er kvalt i land hvor Staten i stor grad har erstattet individuelt ansvar, som Frankrike eller Tyskland.
 
@@ -1034,7 +1103,7 @@ Hvis vi ser på ting fra denne vinkelen, forklarte Reagan til GE-ansatte, fremst
 ![bilde](assets/test/143.webp)
 I bunn og grunn tok Reagan fra Bastiat flere nøkkelelementer av et liberalt syn på samfunn og menneske: primatet til sivilsamfunnet over Staten, verdien av valg og individuelt ansvar, betydningen av entreprenøren i rikdomsskaping, viktigheten av et fleksibelt og minimalt lovverk, som tillater tillit og respekt for kontrakter, den grunnleggende loven om at rikdom må skapes før den kan distribueres, ønsket om å gi alle en sjanse i konkurranseutsatte markeder…
 
-# Konklusjon
+# Siste seksjon
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

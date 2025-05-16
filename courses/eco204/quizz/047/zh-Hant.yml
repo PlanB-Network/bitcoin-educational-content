@@ -1,0 +1,10 @@
+question: 委內瑞拉 2021 年的數字玻利瓦 Exchange 率是多少？
+answer: 一百萬比一
+wrong_answers:
+  - 一千比一
+  - 一萬比一
+  - 十萬比一。
+explanation: |
+  2021 年，委內瑞拉的數位玻利瓦被新的
+  重新幣值為一百萬比一。
+reviewed: false

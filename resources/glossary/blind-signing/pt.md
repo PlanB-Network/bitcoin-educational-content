@@ -1,0 +1,5 @@
+---
+term: SINAL CEGO
+---
+
+O processo pelo qual um utilizador assina uma transação Bitcoin sem poder verificar os detalhes exactos do que está a assinar. Com as carteiras de hardware, a assinatura às cegas é perigosa, pois o utilizador tem de confiar no computador ligado para apresentar informações (destinatários, taxas, montantes, etc.). Isto expõe o utilizador a vulnerabilidades, uma vez que o computador está ligado à Internet e tem uma superfície de ataque muito maior do que o dispositivo de assinatura. Se o computador estiver comprometido, pode manipular os detalhes apresentados e enviar uma transação maliciosa para ser assinada sem que o utilizador se aperceba. Para evitar este risco, recomendamos a utilização de carteiras de hardware com um ecrã integrado e a verificação das informações nele contidas antes de assinar as transacções.

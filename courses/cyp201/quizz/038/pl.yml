@@ -1,0 +1,9 @@
+question: Dlaczego ponowne użycie Bitcoin Address nie jest zalecane?
+answer: Ułatwia śledzenie transakcji przez strony trzecie
+wrong_answers:
+  - Ujawnia klucz prywatny z powodu Nonce
+  - Sprawia to, że transakcje są droższe
+  - Unieważnia podpisy cyfrowe
+explanation: |
+  Ponowne użycie Address pozwala obserwatorom łatwo powiązać różne transakcje z tym samym użytkownikiem, naruszając jego prywatność.
+reviewed: false

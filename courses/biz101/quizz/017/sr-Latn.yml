@@ -1,0 +1,9 @@
+question: Zašto bi kompanija razmotrila držanje dela svoje blagajne u Bitcoin?
+answer: Kao potencijalno vrednujuća imovina koja može čuvati vrednost i ponuditi likvidnost bez oslanjanja na tradicionalne finansijske posrednike.
+wrong_answers:
+  - Da odmah eliminišete sav rizik i garantujete stabilne prinose.
+  - Da bi se ispunili obavezni vladini propisi koji zahtevaju Bitcoin posede.
+  - Da osigura da nikada ne može konvertovati svoju imovinu nazad u tradicionalne valute.
+explanation: |
+  Osnovna karakteristika Bitcoin je njegova oskudica, globalna likvidnost i nezavisnost od tradicionalnih bankarskih sistema, što ga može učiniti privlačnim kao trezorsku imovinu. Iako uključuje rizik i volatilnost, preduzeća ga mogu posmatrati kao dugoročno skladište vrednosti i zaštitu od inflacije.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Mikä on pääominaisuus lohkoketjussa ilman työn todistusta?
-answer: Sillä ei ole todellista arvoa
+question: Mitä sijoitusstrategiaa pinoaja käyttää ensisijaisesti?
+answer: Dollarikustannusten keskiarvoistaminen
 wrong_answers:
-  - Se on turvallisempi
-  - Se on nopeampi
-  - Se on hajautetumpi
+  - Päivän kaupankäynti
+  - Arbitraasi
+  - Kertakorvaus
 explanation: |
-  Luvun sisältö toteaa, että ilman työn todistusta lohkoketjulla
-  ei ole todellista arvoa. Tämä on keskeinen ominaisuus, joka erottaa Bitcoinin muista
-  kryptovaluutoista.
+  DCA:ssa sijoitetaan säännöllisesti kiinteä määrä, jotta markkinoiden volatiliteetin vaikutus omaan salkkuun saadaan vähennettyä.
 reviewed: false

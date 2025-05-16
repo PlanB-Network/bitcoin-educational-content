@@ -1,0 +1,9 @@
+question: Koji deo izlaza HMAC-SHA512 se koristi kao child chain code?
+answer: Poslednjih 32 bajta
+wrong_answers:
+  - Prvih 32 bajta
+  - Celih 64 bajta
+  - SHA256 Hash srednjih 32 bajta
+explanation: |
+  Poslednjih 32 bajta izlaza HMAC-SHA512 služe kao lančani kod za dečiji ključ.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Apa itu blockchain Bitcoin?
-answer: Sebuah basis data yang mencatat semua transaksi Bitcoin
+question: Apa keuntungan utama yang ditawarkan oleh pendekatan berlapis untuk Bitcoin?
+answer: Menjaga keamanan protokol dasar
 wrong_answers:
-  - Sejenis mata uang digital
-  - Jaringan pengguna Bitcoin
-  - Metode penambangan bitcoin
+  - Meningkatkan sentralisasi jaringan utama
+  - Inovasi cepat pada protokol dasar
+  - Memiliki fitur yang sama pada lapisan seperti pada protokol dasar
 explanation: |
-  Blockchain Bitcoin adalah sebuah basis data yang mencatat semua transaksi Bitcoin.
-  Ini dipelihara oleh para penambang yang menambahkan transaksi baru ke dalam blockchain.
+  Pendekatan berlapis memungkinkan penambahan fungsi tanpa mengorbankan keamanan dan kesederhanaan protokol dasar.
+reviewed: false

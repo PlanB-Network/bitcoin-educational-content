@@ -1,0 +1,9 @@
+question: Jaka jest rola Nonce w uwierzytelnionym schemacie szyfrowania?
+answer: Upewnij się, że każda wiadomość ma unikalny znacznik, aby zapobiec powtórzeniom
+wrong_answers:
+  - Identyfikacja nadawcy wiadomości
+  - Utwórz tymczasowy klucz deszyfrowania
+  - Dodaj dodatkowy Layer szyfrowania
+explanation: |
+  W uwierzytelnionym schemacie szyfrowania Nonce służy do zapewnienia, że każda wiadomość ma unikalny znacznik, zwiększając w ten sposób bezpieczeństwo poprzez zapobieganie powtórzeniom.
+reviewed: false

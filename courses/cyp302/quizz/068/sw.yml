@@ -1,0 +1,9 @@
+question: Ni nini jukumu la ufunguo katika michakato ya usimbuaji na usimbuaji linganifu?
+answer: Inatumika kusimba na kusimbua ujumbe
+wrong_answers:
+  - Inatumika tu kusimbua ujumbe
+  - Inatumika kuunda msimbo wa uthibitishaji wa uadilifu wa ujumbe
+  - Inashirikiwa hadharani kwa funguo zingine za generate
+explanation: |
+  Katika mipango ya usimbaji fiche linganifu, ufunguo sawa wa faragha hutumiwa kusimba ujumbe wakati wa kutuma na kusimbua unapoupokea.
+reviewed: false

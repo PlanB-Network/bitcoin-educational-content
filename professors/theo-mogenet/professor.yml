@@ -1,7 +1,6 @@
 id: 3a838eea-570a-494e-b641-23d5b39f2927
 name: Théo Mogenet
 
-contributor_id: hazard-bonus
 
 links:
   website: https://institutbitcoin.fr/
@@ -11,7 +10,7 @@ tips:
   lightning_address: theomogenet@getalby.com
 
 affiliations:
-  - DécouvreBitcoin
+  - 77f56919-1875-45ab-8c4c-b8fb26b021de
 tags:
   - historical
   - finance

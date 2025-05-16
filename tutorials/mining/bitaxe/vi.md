@@ -1,6 +1,6 @@
 ---
 name: Cài Đặt BitAxe
-Description: Hướng dẫn cách cài đặt BitAxe?
+description: Hướng dẫn cách cài đặt BitAxe?
 ---
 
 ### Giới thiệu

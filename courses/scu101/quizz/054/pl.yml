@@ -1,0 +1,12 @@
+question: Jakie są zalecane praktyki dla optymalnego bezpieczeństwa z silnym uwierzytelnianiem?
+answer: Korzystaj z bezpiecznej poczty e-mail Address, bezpiecznego menedżera haseł i zastosuj 2FA za pomocą YubiKeys.
+wrong_answers:
+  - Używaj wspólnego hasła dla wszystkich kont i unikaj 2FA
+  - Używaj prostego hasła i polegaj na danych biometrycznych dla 2FA
+  - Korzystaj z bezpiecznej poczty e-mail Address, ale unikaj menedżerów haseł i 2FA
+explanation: |
+  W celu zapewnienia optymalnego bezpieczeństwa zaleca się korzystanie z bezpiecznego
+  e-mail Address, bezpiecznego menedżera haseł i przyjęcia 2FA
+  przy użyciu YubiKeys. Zaleca się również zakup dwóch kluczy
+  YubiKeys, aby zapobiec ich utracie lub kradzieży.
+reviewed: true

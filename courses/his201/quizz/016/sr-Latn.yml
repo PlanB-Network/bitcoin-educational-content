@@ -1,0 +1,9 @@
+question: Koji koncept elektronskog novca je eksplicitno pomenut od strane Satoshi Nakamoto u Bitcoin beloj knjizi?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Ovo je bila prva referenca. Dodao ju je Satoshi u avgustu 2008. nakon njegovih razmena sa Wei Dai.
+reviewed: false

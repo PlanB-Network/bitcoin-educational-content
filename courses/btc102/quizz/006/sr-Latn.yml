@@ -1,0 +1,9 @@
+question: Koja je uobičajena prevara u oblasti finansijskih investicija?
+answer: Piramidalni prodajni sistemi.
+wrong_answers:
+  - Prodaja fizičke robe.
+  - Prodaja softverskih proizvoda.
+  - Prodaja fiat valute.
+explanation: |
+  U oblasti finansijskih investicija, piramidalni prodajni sistemi i Ponzi šeme ističu se kao ilegalni modeli. Oni funkcionišu tako što koriste novac novih investitora za isplatu starijih učesnika.
+reviewed: false

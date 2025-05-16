@@ -1,0 +1,13 @@
+question: Je! ni nini majibu ya Benki ya Uingereza kwa hofu ya benki ya 1796?
+answer: Ilisitisha ubadilishaji wa noti zake kuwa dhahabu
+wrong_answers:
+  - Ilitoa noti zaidi
+  - Ilifungwa
+  - Iliongeza thamani ya noti zake
+explanation: |
+  Kufuatia hofu ya benki ya 1796, Benki ya Uingereza ilisitisha
+  ubadilishaji
+  ya noti zake kuwa dhahabu ili kuzuia uwezekano wa kupungua kwa hifadhi ya dhahabu. Hii
+  kusimamishwa, iliyokusudiwa awali kama hatua ya muda, ilidumu kwa muda wa mbili
+  miongo.'
+reviewed: false

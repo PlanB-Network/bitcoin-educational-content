@@ -1,0 +1,5 @@
+---
+term: BIP0322
+---
+
+Proponuje nowy standard zastępujący BIP137 do podpisywania wiadomości kluczami prywatnymi Bitcoin i powiązanymi z nimi adresami, w celu udowodnienia Ownership Address. Podpisy te są przydatne w różnych zastosowaniach, takich jak dowód środków, audyt i inne zastosowania wymagające uwierzytelnienia Address za pomocą jego klucza prywatnego. W porównaniu do BIP137, BIP322 rozszerza standard podpisywania wiadomości poza tradycyjne adresy, wykorzystując podejście oparte na skryptach. Pozwala on oprogramowaniu Wallet na podpisanie wiadomości dla dowolnego skryptu, który mógłby odblokować w celu wydania bitcoinów. W tym celu metoda polega na podpisaniu tekstu poprzez utworzenie podpisu dla wirtualnej transakcji Bitcoin. W przypadku tradycyjnych adresów P2PKH, BIP322 pozostaje kompatybilny z tradycyjnym formatem podpisu.

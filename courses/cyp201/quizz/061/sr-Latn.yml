@@ -1,0 +1,9 @@
+question: Kolika je ukupna veličina proširenog ključa sa kontrolnim zbirom?
+answer: 82 bajtova
+wrong_answers:
+  - 78 bajtova
+  - 64 bajta
+  - 128 bajtova
+explanation: |
+  Prošireni ključ je 78 bajtova bez kontrolnog zbira i 82 bajta sa uključenim kontrolnim zbirom.
+reviewed: false

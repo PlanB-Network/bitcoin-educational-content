@@ -1,0 +1,13 @@
+question: Jaka była roczna stopa inflacji w Boliwii w 1985 roku?
+answer: 11,749%
+wrong_answers:
+  - 12,800%
+  - 10,000%
+  - 15,000%
+explanation: |
+  W 1985 r. roczna stopa inflacji w Boliwii osiągnęła 11,749%, co wskazuje na
+  
+  że prawie każdego miesiąca inflacja była bliska lub przekraczała próg hiperinflacji
+  
+  50%"
+reviewed: false

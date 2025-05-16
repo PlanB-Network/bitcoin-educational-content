@@ -1,0 +1,13 @@
+question: Koji je potencijalni nedostatak Mining za mrežu?
+answer: Bez dovoljne finansijske motivacije, rudarima može biti teško da nastave podržavati mrežu.
+wrong_answers:
+  - To može dovesti do smanjenja cene Bitcoin
+  - To može dovesti do povećanja Hashrate mreže.
+  - To može dovesti do smanjenja broja aktivnih čvorova u mreži
+explanation: |
+  Mining za mrežu je plemenita inicijativa koja
+  doprinosi sigurnosti i decentralizaciji
+  Bitcoin mreže. Međutim, bez dovoljnog finansijskog
+  podsticaja, može biti teško za rudare da nastave
+  podržavati mrežu, posebno ako posluju s gubitkom.
+reviewed: true

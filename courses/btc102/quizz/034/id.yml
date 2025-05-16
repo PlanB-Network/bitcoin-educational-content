@@ -1,11 +1,9 @@
-question: Berapa batas maksimum bitcoin yang akan ada?
-answer: 21 juta
+question: Protokol Layer kedua mana yang memungkinkan pembayaran nyaris instan?
+answer: Lightning Network
 wrong_answers:
-  - 100 juta
-  - 1 miliar
-  - Tidak ada batas
+  - Rantai samping
+  - RGB
+  - Inti Bitcoin
 explanation: |
-  Bab tersebut menyatakan bahwa tidak akan pernah ada lebih dari 21 juta bitcoin.
-  Batas ini ditetapkan dalam protokol Bitcoin oleh Satoshi dan tidak dapat diubah
-  saat ini.
+  Lightning Network memungkinkan transaksi yang cepat dan berbiaya rendah melalui operasi off-chain di luar Bitcoin Blockchain.
 reviewed: false

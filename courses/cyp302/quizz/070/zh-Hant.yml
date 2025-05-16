@@ -1,0 +1,9 @@
+question: 移位加密是哪一種加密方式？
+answer: 單字母取代密碼
+wrong_answers:
+  - 文字排列密碼
+  - 多字母取代密碼
+  - 非對稱密碼
+explanation: |
+  移位加密是單字母取代密碼的一個範例，訊息中的每個字母都會在字母表中移位固定的位置。
+reviewed: false

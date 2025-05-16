@@ -1,0 +1,9 @@
+question: Jakie jest motto fizjokratów?
+answer: Laissez-faire, laissez passer.
+wrong_answers:
+  - Państwo jest jednocześnie bankierem, kupcem i dostawcą.
+  - Francja może stać się bogata tylko poprzez zrujnowanie Anglii i Holandii.
+  - Ekonomia polityczna, jak podsumował Dupont de Nemours, jest nauką o prawie naturalnym stosowanym w cywilizowanych społeczeństwach.
+explanation: |
+  Motto Laissez-faire, laissez passer fizjokratów wyraża ich przekonanie, że gospodarka rozwija się, gdy jest wolna od interwencji państwa, pozwalając naturalnym siłom rynku na swobodną równowagę.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja struktura garantuje vremensku konzistentnost tranzicija u RGB?
+answer: A DAG (Directed Acyclic Graph)
+wrong_answers:
+  - Jednostavan linearni lanac
+  - Dinamička peer-to-peer mreža
+  - Binarno stablo za UTXO-e
+explanation: |
+  DAG omogućava da tranzicije stanja budu strukturirane, dok istovremeno dozvoljava paralelne evolucije bez nedoslednosti.
+reviewed: false

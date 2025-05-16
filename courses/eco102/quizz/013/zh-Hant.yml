@@ -1,0 +1,9 @@
+question: Frédéric Bastiat 認為價值的基礎是什麼？
+answer: 公用設施
+wrong_answers:
+  - 勞工
+  - 稀缺性
+  - 需求
+explanation: |
+  Bastiat 採納了 Say 的觀點，即效用是價值的基礎，與以勞動力或稀缺性為基礎的理論相反。
+reviewed: false

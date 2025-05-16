@@ -1,0 +1,9 @@
+question: Barack Obama 如何形容 Bitcoin？
+answer: 口袋裡的瑞士銀行
+wrong_answers:
+  - 數位黃金
+  - 高度投機性資產
+  - 分散式貨幣
+explanation: |
+  巴拉克-奧巴馬曾將 Bitcoin 稱為 「口袋裡的瑞士銀行」。事實上，Bitcoin 為每個人提供相同的機會，不論其身份如何，並允許 Confidential Transactions 的存在。
+reviewed: false

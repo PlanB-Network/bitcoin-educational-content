@@ -1,0 +1,12 @@
+question: Koju strategiju je Španija koristila da devalvira svoju valutu bez uticaja na svoju poziciju u međunarodnoj trgovini?
+answer: Španija je selektivno devalvirala Maravedi, lokalnu valutu, dok je očuvala vrednost španskog dolara na globalnoj sceni.
+wrong_answers:
+  - Španija je selektivno devalvirala španski dolar, lokalnu valutu, dok je očuvala vrednost Maravedija na globalnoj sceni.
+  - Španija je selektivno povećala vrednost Maravedija, lokalne valute, dok je očuvala vrednost španskog dolara na globalnoj sceni.
+  - Španija je selektivno povećala vrednost španskog dolara, lokalne valute, dok je očuvala vrednost Maravedija na globalnoj sceni.
+explanation: |
+  Španija se našla u delikatnoj situaciji. Razvodnjavanje španskog dolara
+  bi ugrozilo njen položaj u međunarodnoj trgovini. Da bi prevazišla ovu dilemu,
+  Španija se okrenula Maravediju, bakarnoj valuti koja se uglavnom koristila unutar lokalnog stanovništva.
+  Ova valuta je bila cilj devalvacije.
+reviewed: false

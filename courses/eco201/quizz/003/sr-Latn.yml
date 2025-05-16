@@ -1,0 +1,9 @@
+question: Šta uzrokuje ekonomske krize prema kursu?
+answer: Ekonomske krize mogu biti posledica ljudske nesposobnosti, manipulacije tržištem ili kolektivne euforije ljudi.
+wrong_answers:
+  - Ekonomske krize su isključivo zbog manipulacije tržištem.
+  - Ekonomske krize su isključivo posledica ljudske nesposobnosti.
+  - Ekonomske krize su isključivo posledica kolektivne euforije ljudi.
+explanation: |
+  Poglavlje pominje da će kurs istraživati kako ekonomske krize mogu biti posledica ljudske nesposobnosti, manipulacije tržištem ili kolektivne euforije ljudi.
+reviewed: true

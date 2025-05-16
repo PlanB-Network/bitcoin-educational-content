@@ -1,0 +1,9 @@
+question: Može li neko duplicirati Bitcoin kod?
+answer: da, ali ne možete kopirati vrednost Bitcoin mreže
+wrong_answers:
+  - da i kopirali biste vrednost Bitcoin mreže takođe
+  - ne i možete kopirati vrednost Bitcoin mreže
+  - ne, jer je kod Bitcoin zatvorenog koda
+explanation: |
+  Iako je kod za Bitcoin otvorenog koda i može se kopirati, vrednost Bitcoin ne proizlazi iz njegovog koda. Ona proizlazi iz njegove mreže korisnika i poverenja i prihvatanja koje je izgradio tokom vremena.
+reviewed: true

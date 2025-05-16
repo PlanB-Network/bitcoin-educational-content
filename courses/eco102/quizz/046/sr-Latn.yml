@@ -1,0 +1,9 @@
+question: Koji je Bastiatov glavni argument protiv ideje besplatnog kredita?
+answer: Svi ostali odgovori
+wrong_answers:
+  - To favorizuje bogaćenje banaka na račun pojedinaca.
+  - Podstiče neodgovorno ponašanje i prekomerno preuzimanje rizika.
+  - Ne omogućava održivo povećanje kupovne moći
+explanation: |
+  Bastiat odbacuje ideju besplatnog kredita ističući da ona vodi ka neodgovornom finansijskom ponašanju, povećanim rizicima i nemogućnosti održivog povećanja kupovne moći.
+reviewed: false

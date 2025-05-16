@@ -1,0 +1,9 @@
+question: Jednosmerna funkcija
+answer: Jednosmerna funkcija
+wrong_answers:
+  - Linearna funkcija
+  - Eksponencijalna funkcija
+  - Reverzibilna funkcija
+explanation: |
+  Jednosmerne funkcije omogućavaju brzo računanje u jednom pravcu, ali čine inverzno rešavanje praktično nemogućim, što ih čini korisnim u kriptografiji.
+reviewed: false

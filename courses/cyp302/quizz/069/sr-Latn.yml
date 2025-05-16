@@ -1,0 +1,9 @@
+question: Koja je razlika između korišćenja Salsa20 algoritma sa 128-bitnim ključem i 256-bitnim ključem?
+answer: Dužina ključa utiče na broj rundi u algoritmu.
+wrong_answers:
+  - Dužina ključa menja tip enkripcije.
+  - Za šifrovanje toka koristi se ključ od 128 bita, a za blok šifrovanje ključ od 256 bita.
+  - Dužina ključa nema uticaja na Salsa20.
+explanation: |
+  U simetričnoj šemi enkripcije Salsa20, dužina ključa (128 ili 256 bita) utiče na broj rundi u algoritmu, bez promene same suštine algoritma.
+reviewed: false

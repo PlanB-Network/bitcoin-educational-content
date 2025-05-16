@@ -1,0 +1,10 @@
+question: Jaki jest wpływ hiperinflacji na wartość pieniądza?
+answer: Powoduje to, że pieniądze szybko tracą na wartości.
+wrong_answers:
+  - Powoduje to wzrost wartości pieniądza.
+  - Nie ma to wpływu na wartość pieniądza.
+  - Powoduje to nieprzewidywalne wahania wartości pieniądza.
+explanation: |
+  W okresie hiperinflacji pieniądze szybko tracą na wartości, co utrudnia długoterminowe planowanie
+  długoterminowe planowanie.
+reviewed: false

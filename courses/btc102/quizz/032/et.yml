@@ -1,11 +1,9 @@
-question: Mis on Bitcoin'i 0-st 1-ni innovatsiooni tähtsus?
-answer: See muudab meie norme ja harjumusi
+question: Milline RGB mehhanism tagab vastupanu topeltkulutustele?
+answer: Single-Use Seal
 wrong_answers:
-  - See on esimene digitaalne valuuta
-  - Selle väärtus on tõusnud 0-st 1-ni
-  - See on esimene samm sularahavaba ühiskonna suunas
+  - Mitmeotstarbeline Seal
+  - Topeltallkirjaga
+  - Proof-of-Stake
 explanation: |
-  Termin 0-st 1-ni viitab olulisele innovatsioonile, mis muudab olemasolevaid
-  norme ja harjumusi. Bitcoin'i peetakse selliseks innovatsiooniks tänu oma unikaalsetele
-  omadustele ja potentsiaalsele mõjule ühiskonnale.
+  Single-Use Seal kasutab ära asjaolu, et UTXO saab kulutada ainult üks kord, tagades RGB arukate lepingute raames vastupidavuse topeltkulutamisele.
 reviewed: false

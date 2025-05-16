@@ -1,0 +1,9 @@
+question: Kakvi su rizici korišćenja Multisig Wallet?
+answer: Nemanje pristupa dovoljnim brojem pojedinačnih privatnih ključeva ili rezervnih komponenti.
+wrong_answers:
+  - Imati pristup dovoljnom broju pojedinačnih privatnih ključeva ili rezervnih komponenti.
+  - Deljenje vaših privatnih ključeva sa drugim stranama.
+  - Deljenje vaših javnih ključeva sa drugim stranama.
+explanation: |
+  Kada koristite Multisig Wallet, svaki privatni ključ Multisig treba biti pohranjen na različitim lokacijama. To je zato što Multisig zahteva više potpisa za obavljanje transakcije, pa je potreban određeni broj novčanika. Dakle, pohranjivanje svakog dela na različitoj lokaciji dodaje dodatni Layer sigurnosti.
+reviewed: true

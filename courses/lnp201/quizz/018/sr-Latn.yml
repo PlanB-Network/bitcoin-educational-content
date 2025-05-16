@@ -1,0 +1,9 @@
+question: Kako se kreira novo stanje kanala nakon svakog prenosa?
+answer: Kreiranjem novog Commitment Transaction sa ažuriranom distribucijom
+wrong_answers:
+  - Postavljanjem On-Chain transakcije nakon svakog transfera
+  - Povećanjem ukupnog kapaciteta kanala
+  - Zatvaranjem i ponovnim otvaranjem kanala nakon svake transakcije
+explanation: |
+  Svaka transakcija unutar kanala ažurira stanje kanala sa novim Commitment Transaction, odražavajući trenutnu raspodelu sredstava između dva učesnika.
+reviewed: false

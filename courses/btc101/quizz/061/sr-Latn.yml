@@ -1,0 +1,11 @@
+question: Kako se zove događaj kada se nagrada za Mining prepolovi?
+answer: Halving
+wrong_answers:
+  - Udvostručavanje
+  - Četvrtinjenje
+  - Utrostručavanje
+explanation: |
+  Događaj kada se nagrada za Mining prepolovi naziva se
+  Halving. Ovaj događaj daje krivoj monetarnog izdavanja
+  oblik stepenica.
+reviewed: true

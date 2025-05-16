@@ -1,0 +1,9 @@
+question: Kakva je veza između prirodnog zakona i ljudskog zakona prema Svetom Tomi Akvinskom?
+answer: Ljudski zakon mora biti u skladu sa prirodnim zakonom da bi bio pravedan i legitiman.
+wrong_answers:
+  - Ljudski zakon je superiorniji od prirodnog zakona jer ga donose legitimne vlasti.
+  - Prirodni zakon je jednak ljudskom zakonu.
+  - Ljudski zakon se primenjuje samo delimično.
+explanation: |
+  Za Svetog Tomu Akvinskog, ljudski zakon dobija svoju legitimnost iz usklađenosti sa prirodnim zakonom, koji izražava univerzalne moralne principe. Ako ljudski zakon protivreči prirodnom zakonu, gubi svoju pravdu i legitimnost.
+reviewed: false

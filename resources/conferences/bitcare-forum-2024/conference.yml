@@ -1,7 +1,6 @@
 id: b571c75d-f908-446b-bb24-002e810b5b2d
 year: 2024-05
 name: Bitcare Forum 2024
-builder: Bitcare Forum
 location: Brescia, Italy
 language:
   - it
@@ -14,7 +13,7 @@ proofreading:
   - language: en
     last_contribution_date: "2024-12-16"
     urgency: 0
-    contributors_id:
+    contributor_names:
       - jramos0
     reward: 0.05
 tags:

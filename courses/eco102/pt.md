@@ -26,7 +26,32 @@ Junte-se a Damien Theillier nesta enriquecedora exploração do pensamento de Fr
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Introdução ao Curso
+## Visão geral do curso
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+O objetivo deste curso é proporcionar a você uma compreensão profunda da vida, das influências intelectuais, dos adversários ideológicos e das teorias econômicas de Frédéric Bastiat. Ao longo desta jornada estruturada, você descobrirá como suas ideias moldaram o pensamento econômico e continuam a influenciar os debates atuais.
+
+**Seção 1: Introdução**  
+Começaremos com uma visão geral de Frédéric Bastiat, um gênio pouco conhecido da economia. Você conhecerá sua vida, seu percurso intelectual e o contexto histórico em que ele desenvolveu seu pensamento. Compreender esse contexto é essencial para captar totalmente o alcance de seus escritos e teorias.
+
+**Seção 2: As influências**  
+Prosseguiremos com a análise dos pensadores que influenciaram o pensamento econômico de Frédéric Bastiat. Você descobrirá como figuras importantes como Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer e Richard Cobden contribuíram para seu desenvolvimento intelectual e lançaram as bases de suas reflexões sobre o livre comércio e a economia de mercado.
+
+**Seção 3: Os adversários**  
+Em seguida, abordaremos as críticas de Bastiat aos seus opositores ideológicos. Seja Rousseau, a educação clássica, o protecionismo, o socialismo ou Proudhon, você entenderá por que Bastiat considerava essas doutrinas obstáculos ao progresso econômico e social e como ele respondeu a seus argumentos com lógica convincente.
+
+**Seção 4: Os sofismas econômicos**  
+Esta parte é dedicada aos sofismas econômicos denunciados por Bastiat, incluindo os famosos "*O que se vê e o que não se vê*" e "*O pedido dos fabricantes de velas*". Analisaremos como ele utilizou a sátira e a análise rigorosa para desmascarar os erros econômicos comuns de sua época — que permanecem atuais até hoje.
+
+**Seção 5: As harmonias econômicas**  
+Aqui, você descobrirá a visão positiva de Bastiat sobre a economia. Exploraremos conceitos como o milagre do mercado, o poder da responsabilidade individual e a distinção entre solidariedade verdadeira e falsa. Bastiat via a economia como um sistema coerente no qual o interesse pessoal bem compreendido gera benefícios para o bem comum.
+
+**Seção 6: A Lei**  
+Para encerrar o curso, mergulharemos em sua obra-prima, "*A Lei*", na qual Bastiat expõe suas reflexões sobre o direito de propriedade, o saque legalizado e o papel limitado do Estado. Você entenderá por que esse ensaio é considerado um dos manifestos mais fortes em defesa da liberdade individual e da economia de mercado.
+
+Pronto para descobrir como as ideias de Frédéric Bastiat ainda ressoam hoje? Junte-se a nós nesta jornada intelectual que pode transformar sua compreensão de economia!
+
+## Bastiat: Um gênio desconhecido
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -126,6 +151,14 @@ O que Adam Smith mostra é que só se pode servir ao próprio interesse servindo
 
 ![image](assets/en/017.webp)
 
+---
+
+>« O esforço natural de cada indivíduo para melhorar a sua própria condição... é tão poderoso que, sozinho e sem qualquer ajuda, é não apenas capaz de conduzir a sociedade à riqueza e à prosperidade, mas também de superar uma centena de obstáculos impertinentes que a insensatez das leis humanas frequentemente impõe às suas operações. »  
+>_A Riqueza das Nações_  
+>_Livro IV, Capítulo V_
+
+---
+
 A troca é um jogo de soma positiva. O que um ganha, o outro também ganha. Isso difere da redistribuição política onde sempre há um vencedor e um perdedor. Se considerarmos a escola inglesa, para Smith, para Ricardo e para Locke antes deles, o valor está ligado ao trabalho. Para Marx, é o mesmo.
 
 ![image](assets/en/018.webp)
@@ -138,6 +171,12 @@ Mas Bastiat também nuanciou Say neste ponto. Não se trata da utilidade que est
 A economia obedece a uma série de leis simples derivadas do comportamento humano. Uma delas, chamada "Lei de Say", é a seguinte: "Produtos e serviços são trocados por produtos e serviços." Sua ideia é que nações e indivíduos se beneficiam de um aumento no nível de produção porque oferece maiores oportunidades para trocas mutuamente benéficas.
 
 ![image](assets/en/019.webp)
+
+---
+
+>Liberdade individual = Harmonia social
+
+---
 
 De fato, produtos são comprados apenas na antecipação dos serviços que o comprador espera: eu compro um disco pela música que vou ouvir, eu compro um ingresso de cinema pelo filme que vou ver. E em uma troca, cada parte decide porque julga que pode derivar mais serviços do que adquire do que o que desiste. Neste contexto, o dinheiro é apenas uma mercadoria intermediária, compensa por um serviço prestado e abre outros serviços.
 
@@ -316,8 +355,6 @@ Bastiat de fato considera Rousseau o verdadeiro precursor do socialismo e do col
 
 Inicialmente, o homem é meramente um burguês. Mas o burguês é um calculista; ele quer seu prazer imediato, é escravizado pelos seus sentidos, pelos seus desejos, pelo seu interesse particular. Em resumo, ele não é racional, portanto, não é livre. Ele precisa ser educado, para entender que seu verdadeiro interesse é o interesse geral. É por isso que Rousseau escreveu em O Contrato Social:
 
-> Quem recusar obedecer à vontade geral será compelido por todo o corpo: isso significa nada mais do que serão forçados a ser livres.
-
 ![imagem](assets/en/048.webp)
 
 De acordo com essa doutrina, o homem tem duas vontades dentro dele: uma vontade que tende para o interesse pessoal, a do burguês, e uma vontade que tende para o interesse geral, a do cidadão. Levar os homens, mesmo que à força, a querer um fim racional, o interesse geral, é levar os homens a se tornarem livres. O que eles realmente querem é um fim racional, mesmo que não saibam.
@@ -392,6 +429,14 @@ O protecionismo é, na realidade, uma forma de nacionalismo econômico. Visa eli
 
 ![image](assets/en/058.webp)
 
+---
+
+>Nosso encontro com Arnaud Montebourg  
+>Made in France,  
+>ele acredita nisso, nós testamos
+
+---
+
 O argumento para a proteção do emprego é o que Bastiat chama de falácia. Porque na realidade, é equivalente a um imposto. Tem o efeito de tornar os produtos mais caros. Vamos tomar o exemplo dado pelo próprio Bastiat.
 
 Imagine uma faca inglesa que se vende em nosso país por 2 euros, e uma faca feita na França custa 3. Se deixarmos o consumidor livremente comprar a faca que quer, ele economiza um franco, que pode investir em outro lugar (em um livro, ou um lápis).
@@ -421,6 +466,14 @@ E ele continuaria a analisar seus efeitos perversos a partir de então. Aqui est
 - 3° Bastiat acrescenta que, em sua visão, o protecionismo foi a primeira manifestação dessa desordem. Os capitalistas começaram pedindo a intervenção da lei para aumentar sua parcela de riqueza. Inevitavelmente, os trabalhadores quiseram fazer o mesmo.
 
 ![image](assets/en/063.webp)
+
+---
+
+>PARA TER ÊXITO  
+>VOTE SOCIALISTA SFIO
+
+---
+
 Para concluir, protecionistas e socialistas compartilham um ponto comum, segundo Bastiat: o que eles buscam na lei não é garantir a todos o livre exercício de suas faculdades e a justa recompensa por seus esforços, mas sim favorecer a exploração mais ou menos completa de uma classe de cidadãos por outra. Com o protecionismo, é a minoria que explora a maioria. Com o socialismo, é a maioria que explora a minoria. Em ambos os casos, a justiça é violada e o interesse geral é comprometido. Bastiat os coloca um contra o outro.
 
 > O Estado é a grande ficção através da qual todos se esforçam para viver às custas de todos os outros.
@@ -529,6 +582,12 @@ Em 1840, a Câmara dos Deputados votou por uma lei que aumentava os impostos de 
 Bastiat então compôs um texto satírico que mais tarde se tornou uma de suas obras mais famosas: "a petição dos fabricantes de velas". Ele ilustra como certos grupos de pressão de produtores bem organizados obtêm privilégios indevidos do estado, em detrimento dos cidadãos. Ao mesmo tempo, demonstra a natureza absurda e destrutiva da legislação protecionista.
 
 ![image](assets/en/079.webp)
+
+---
+
+>PROTEJAM AS NOSSAS VELAS!
+
+---
 
 Nesta petição, os fabricantes de velas pedem aos deputados proteção legal contra um rival perigoso:
 
@@ -801,6 +860,12 @@ O mal gera sofrimento, e o sofrimento nos faz entender a falta ou erro, nos traz
 
 ![image](assets/en/110.webp)
 
+---
+
+>Errar é humano.
+
+---
+
 Assim, é claro que Bastiat está longe de ser cego. Ele não nega a existência do mal. O homem é fraco, propenso ao erro e à falta. Em lugar algum verá Bastiat negar o fato de que o exercício da liberdade individual está associado à possibilidade de erro, à possibilidade de uma escolha irracional ou sem sentido.
 
 Ele simplesmente afirma que se a fonte do mal reside na ausência de liberdade, o remédio está na própria liberdade, e mais especificamente no exercício pleno e integral da responsabilidade pessoal.
@@ -841,6 +906,15 @@ No entanto, essa perversão da lei tem um nome, é o socialismo, isto é, a ideo
 
 ![image](assets/en/116.webp)
 
+---
+
+>Sociedade  
+>de Socorro Mútuo  
+>de GUISY  
+>1899
+
+---
+
 Contudo, segundo Bastiat, há uma alternativa à solidariedade estatal obrigatória: "sociedade de auxílio mútuo"
 
 a assistência mútua e espontânea dos homens entre si graças às sociedades de auxílio mútuo. Mas ele também previu que o Estado eventualmente se apoderaria dessas mutualidades para torná-las um corpo único e centralizado, incentivando gastos e desperdícios.
@@ -850,6 +924,16 @@ a assistência mútua e espontânea dos homens entre si graças às sociedades d
 Em um panfleto chamado "Justiça e Fraternidade", Bastiat também explora a ideia de um sistema tributário simplificado e justo para financiar necessidades coletivas (polícia, justiça, exército): rendas e lucros estariam sujeitos a uma única taxa de imposto proporcional. Isso é o que é conhecido hoje como "Imposto Único".
 
 ![image](assets/en/118.webp)
+
+---
+
+>As fundações – um  
+>**valor acrescentado**  
+>para a **sociedade**  
+>
+>SwissFoundations
+
+---
 
 De fato, a solidariedade intrafamiliar, a solidariedade local ou a filantropia organizada são muito mais desenvolvidas em países que possuem um sistema tributário leve e um grau relativamente alto de liberdade econômica, como Suíça e Estados Unidos, enquanto é largamente sufocada em países onde o Estado substituiu em grande parte a responsabilidade individual, como França ou Alemanha.
 É frequentemente considerado moderno lamentar a "selfishness" que prevaleceria nas sociedades liberais. Mas o exato oposto é verdadeiro. Quando uma sociedade é sobrecarregada com impostos e os indivíduos não possuem mais suas propriedades, eles não são incentivados a dar, mas sim a se recolherem em si mesmos.
@@ -1043,7 +1127,7 @@ Se olharmos as coisas sob este ângulo, Reagan explicou aos funcionários da GE,
 ![image](assets/test/143.webp)
 Em essência, Reagan retirou de Bastiat vários elementos-chave de uma visão liberal da sociedade e do homem: a primazia da sociedade civil sobre o Estado, o valor da escolha e da responsabilidade individual, a importância do empreendedor na criação de riqueza, a importância de um quadro legal flexível e mínimo, que permite confiança e respeito pelos contratos, a lei fundamental de que a riqueza deve ser criada antes que possa ser distribuída, o desejo de dar a todos uma chance nos mercados competitivos…
 
-# Conclusão
+# Seção final
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

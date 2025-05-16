@@ -1,0 +1,9 @@
+question: Jak obliczana jest suma kontrolna dla adresów SegWit v0 zakodowanych w bech32?
+answer: Korzystanie z kodów BCH
+wrong_answers:
+  - Poprzez dwukrotne zastosowanie HASH256
+  - Dodając RIPEMD160 Hash
+  - Poprzez bezpośrednie kodowanie w base64
+explanation: |
+  Adresy Bech32 używają kodów BCH do obliczania sumy kontrolnej.
+reviewed: false

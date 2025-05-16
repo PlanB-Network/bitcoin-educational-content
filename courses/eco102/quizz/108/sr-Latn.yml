@@ -1,0 +1,9 @@
+question: Koju ekonomsku iluziju je Bastija kritikovao, a koja će se ponovo pojaviti u 20. veku?
+answer: Da država može stvoriti radna mesta
+wrong_answers:
+  - Da tržište treba Državu
+  - Da tržište može samo da se reguliše
+  - Da kompanije mogu stvoriti bogatstvo bez regulacije
+explanation: |
+  Bastiat je kritikovao ideju da država može stvoriti radna mesta bez štete po druga radna mesta zbog uticaja poreza potrebnih za finansiranje ovih kreacija.
+reviewed: false

@@ -1,9 +1,9 @@
-question: ¿Cuál es la principal ventaja de Bitcoin sobre las cuentas bancarias tradicionales?
-answer: Control total sobre tu dinero
+question: ¿Qué estrategia de adquisición puede adoptar un hodler híbrido?
+answer: Promedio del coste en dólares
 wrong_answers:
-  - Tasas de interés más altas
-  - Comisiones de transacción más bajas
-  - Tiempos de transacción más rápidos
+  - Negociación algorítmica
+  - Arbitraje
+  - Hackear
 explanation: |
-  El capítulo explica que Bitcoin ofrece una poderosa alternativa a los sistemas financieros tradicionales. Permite a todos preservar su privacidad, protegerse contra la inflación y la devaluación de la moneda, evadir regímenes autoritarios y recuperar la soberanía sobre su dinero.
+  El promediado del coste en dólares permite realizar compras periódicas de Bitcoin para suavizar el precio medio de compra a lo largo del tiempo. El hodler puede combinar esta opción con compras ocasionales a tanto alzado.
 reviewed: false

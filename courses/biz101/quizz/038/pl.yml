@@ -1,0 +1,9 @@
+question: Dlaczego staranne prowadzenie dokumentacji jest niezbędne w przypadku Bitcoin w księgowości firmy?
+answer: Ponieważ każda transakcja Bitcoin może spowodować zdarzenie podlegające opodatkowaniu, a dokładne zapisy są potrzebne do obliczenia zysków, strat i zobowiązań podatkowych.
+wrong_answers:
+  - Ponieważ Blockchain automatycznie składa podatki w imieniu firmy.
+  - Ponieważ żadne standardy rachunkowości nie mają zastosowania do transakcji Bitcoin.
+  - Ponieważ niemożliwe jest prześledzenie raz zarejestrowanych transakcji Bitcoin.
+explanation: |
+  Każdy zakup, sprzedaż lub płatność dokonana w Bitcoin może mieć konsekwencje podatkowe. Prowadzenie szczegółowej dokumentacji dotyczącej podstawy kosztowej, ceny sprzedaży i terminów zapewnia prawidłowe i zgodne z przepisami raportowanie podatkowe.
+reviewed: false

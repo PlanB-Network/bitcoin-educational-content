@@ -1,11 +1,9 @@
-question: What does Bitcoin offer to every individual?
-answer: A chance to exit the traditional financial system
+question: Which profile favors non-KYC acquisition and the use of highly secure wallets?
+answer: The paranoid
 wrong_answers:
-  - A chance to become rich quickly
-  - A chance to invest in stocks
-  - A chance to open a bank account
+  - The hodler
+  - The stacker
+  - The active user
 explanation: |
-  The chapter states that Bitcoin offers every individual a chance to exit
-  the traditional financial system. It is an ethical choice that everyone will likely
-  have to make one day.
+  The paranoid prioritizes privacy and security, using highly secure acquisition and storage methods.
 reviewed: false

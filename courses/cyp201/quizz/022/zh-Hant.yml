@@ -1,0 +1,9 @@
+question: 如何從私人密碼匙計算出公開密碼匙？
+answer: 透過在橢圓曲線上使用標量乘法
+wrong_answers:
+  - 透過在私密金鑰上套用 Hash
+  - 透過非對稱加密
+  - 隨著數值的反覆增加
+explanation: |
+  公開金鑰是由私人金鑰與橢圓曲線上的產生點 G 相乘而得到的。
+reviewed: false

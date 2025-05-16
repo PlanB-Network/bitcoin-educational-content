@@ -1,0 +1,11 @@
+question: Je, ni hatari gani inayoweza kutokea ya kuwekwa kati kwa Mining katika Bitcoin?
+answer: Uwekaji kati wa Mining katika Bitcoin unaweza kusababisha udhibiti wa shughuli na kufanya mtandao kuwa katika hatari ya kushambuliwa, ikiwa ni pamoja na mashambulizi ya 51%, ambapo mwigizaji au kikundi hudhibiti zaidi ya 50% ya nguvu ya hashing ya mtandao, kuwaruhusu kudhibiti na kuendesha mtandao.
+wrong_answers:
+  - Uwekaji kati wa Mining katika Bitcoin unaweza uwezekano wa kusababisha kupungua kwa thamani ya Bitcoin na kufanya mtandao kuwa katika hatari ya mfumuko wa bei.
+  - Uwekaji kati wa Mining katika Bitcoin unaweza uwezekano wa kusababisha kupungua kwa Block reward na kufanya mtandao kuwa hatarini kwa vilio.
+  - Uwekaji kati wa Mining katika Bitcoin unaweza uwezekano wa kusababisha kupungua kwa kasi ya ununuzi na kufanya mtandao kuwa katika hatari ya msongamano.
+explanation: |
+  Sura inaeleza kuwa Mining centralization katika Bitcoin
+  inaweza kusababisha udhibiti wa shughuli na kufanya
+  mtandao unaweza kushambuliwa, ikiwa ni pamoja na mashambulizi ya 51%.
+reviewed: true

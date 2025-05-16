@@ -1,0 +1,9 @@
+question: 什麼結構可以保證 RGB 中過渡的時間一致性？
+answer: A DAG (Directed Acyclic Graph)
+wrong_answers:
+  - 簡單的線性鏈
+  - 動態對等網路
+  - UTXOs的二叉樹
+explanation: |
+  DAG 可使狀態轉換結構化，同時允許平行演進而不會產生不一致。
+reviewed: false

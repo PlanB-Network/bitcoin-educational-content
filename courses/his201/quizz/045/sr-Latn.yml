@@ -1,0 +1,9 @@
+question: Kako se zove vebsajt koji je značajno doprineo da Bitcoin postane poznat u julu 2010?
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation: |
+  Dana 11. jula 2010. godine, prezentacija Bitcoin koju je napisao Teppy objavljena je na ovom popularnom sajtu, što je dovelo do masovnog priliva korisnika.
+reviewed: false

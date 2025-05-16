@@ -1,0 +1,9 @@
+question: Na co pozwala witryna Have I Been Pwned?
+answer: Sprawdź, czy adres e-mail Address został naruszony.
+wrong_answers:
+  - generate nowe silne i losowe hasła.
+  - Utwórz bezpieczną skrzynkę e-mail.
+  - Synchronizacja kont e-mail dla łatwiejszego użytkowania.
+explanation: |
+  Ta strona pomaga wykrywać naruszenia danych i weryfikować bezpieczeństwo poczty elektronicznej Address.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja ranjivost koju je prijavio ArtForz 28. jula 2010. godine omogućava trošenje bitkoina sa bilo kog Address koristeći specifičan skript?
+answer: 1 RETURN bug
+wrong_answers:
+  - Greška prelivanja vrednosti
+  - OP_NOP greška
+  - LSHIFT greška
+explanation: |
+  Nedostatak nije bio iskorišćen. Satoshi je brzo uključio ispravku u softver i preporučio svim korisnicima da izvrše nadogradnju.
+reviewed: false

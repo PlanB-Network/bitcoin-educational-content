@@ -1,0 +1,9 @@
+question: Koja verzija softvera je bila predstavljena na Slashdot-u u julu 2010?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  Ovo izdanje, dugo pripremano od strane Satoshi i Marttija, označilo je novi napor u komunikaciji.
+reviewed: false

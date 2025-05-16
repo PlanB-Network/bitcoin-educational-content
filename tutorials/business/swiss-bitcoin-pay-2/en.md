@@ -4,8 +4,6 @@ description: How to easily accept Bitcoin payments?
 ---
 ![cover](assets/cover.webp)
 
-![video](https://youtu.be/_yAyJReq3Dg)
-
 Today, numerous solutions exist for merchants who wish to accept Bitcoin as a payment method. For small entities looking for an informal setup, installing a hot wallet, or even a Lightning wallet, suffices to receive payments directly into it. Larger businesses, needing to maintain accounting records, should rather opt for a specialized payment processing system. Several options are also available in this area.
 
 For those who prefer not to bother and receive funds in fiat currency directly into their bank account, custodial solutions like Open Node are available:

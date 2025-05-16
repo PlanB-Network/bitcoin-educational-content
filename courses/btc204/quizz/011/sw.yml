@@ -1,0 +1,9 @@
+question: Ni sifa gani ngumu zaidi kufikia ukitumia sarafu ya kidijitali kama Bitcoin?
+answer: Kutokuwepo kwa matumizi mara mbili
+wrong_answers:
+  - Uadilifu
+  - Uhalisi
+  - Ukweli
+explanation: |
+  Kwa sarafu za dijiti, kuhakikisha kutokuwepo kwa matumizi mara mbili ni ngumu zaidi, kwani faida yoyote ya dijiti kimsingi ni habari. Tofauti na bidhaa za kimwili, habari haigawanyi wakati wa kubadilishana lakini hueneza kwa kuzidisha.
+reviewed: false

@@ -1,13 +1,9 @@
-question: What is one of the basic measures to improve online security habits?
-answer: Enable two-factor authentication (2FA)
+question: What is the main difference between trading and investing?
+answer: Trading is short-term and speculative, investing is long-term and strategic
 wrong_answers:
-  - Use the same password for all accounts
-  - Neglect to regularly back up data
-  - Share your passwords
+  - Trading involves fixed fees, investing involves variable fees
+  - Trading is based on fundamental analysis, investing on macro trends
+  - Trading is less risky than investing
 explanation: |
-  Enabling two-factor authentication (2FA) is one of the basic measures
-
-  to improve online security habits. It provides an additional layer of security to
-
-  your most sensitive accounts.'
+  Trading requires constant monitoring and technical skills, while investing relies on a long-term vision.
 reviewed: false

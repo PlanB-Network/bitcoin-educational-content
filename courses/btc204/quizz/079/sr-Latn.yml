@@ -1,0 +1,9 @@
+question: Koji termin opisuje zaštitu koju nudi CoinJoin protiv analize budućih transakcija novčića?
+answer: Prospektivni anonset.
+wrong_answers:
+  - Retrospektivna anonset.
+  - Otpornost na praćenje.
+  - Privatnost u vremenu.
+explanation: |
+  Zaštita od analize iz prošlosti do sadašnjosti je ono što se naziva perspektivna anonset.
+reviewed: false

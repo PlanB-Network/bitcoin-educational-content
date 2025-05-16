@@ -1,11 +1,9 @@
-question: ¿Cuál es la función principal de un gestor de contraseñas?
-answer: Almacenar y gestionar tus contraseñas
+question: ¿Por qué es crucial la seguridad en línea para los usuarios de Bitcoin?
+answer: Porque el pirateo provoca la pérdida irreversible de bitcoins
 wrong_answers:
-  - Generar contraseñas aleatorias
-  - Recordar tus nombres de usuario
-  - Proteger tu computadora de virus
+  - Porque los bancos aseguran los fondos en caso de pérdida total de Bitcoin
+  - Porque uno puede ir a la cárcel por perder bitcoins
+  - Porque los ataques conllevan cargas administrativas muy pesadas
 explanation: |
-  Un gestor de contraseñas es un software que almacena y gestiona tus contraseñas.
-  Te ayuda a no utilizar la misma contraseña dos veces, elegir contraseñas complejas y seguras,
-  y facilita la gestión de tu seguridad en línea.
+  Sin intermediarios, un hackeo supone la pérdida definitiva de bitcoins.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Ni nini wazo kuu la hadithi ya uporaji kulingana na Bastiat?
+answer: Hadithi ni mapambano ya mara kwa mara kati ya uhuru na ukandamizaji
+wrong_answers:
+  - Hadithi ni mzunguko wa maendeleo na kupungua kwa ustaarabu
+  - Hadithi imedhamiriwa na mambo ya kiuchumi
+  - Hadithi ni hadithi ya asili ya mwanadamu isiyobadilika
+explanation: |
+  Kulingana na Bastiat, wazo kuu la hadithi ya uporaji liko katika mapambano yanayoendelea kati ya uhuru wa mtu binafsi na nguvu za ukandamizaji, ambapo marupurupu ya baadhi mara nyingi hupatikana kwa gharama ya haki na uhuru wa wengine.
+reviewed: false

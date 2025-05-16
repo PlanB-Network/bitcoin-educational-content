@@ -1,8 +1,9 @@
-question: Hva er hovedgrunnen til at regjeringer og sentralbanker utforsker muligheten for å skape en digital versjon av deres fiat-valuta?
-answer: For å sikre kontroll og overholde lokale forskrifter
+question: Hva er hovedmålet til en hodler?
+answer: Å holde bitcoinsene sine på lang sikt
 wrong_answers:
-  - For å konkurrere med Bitcoin
-  - For å tilby beskyttelse av personvern
-  - For å øke masseovervåkning
+  - Å spekulere på kort sikt
+  - For å gjøre hyppige Bitcoin-transaksjoner
+  - For å maksimere personvernet til Bitcoin-transaksjonene deres
 explanation: |
-  Kapittelinnholdet forklarer at selv om disse prosjektene hevder å konkurrere med Bitcoin, forblir de sentraliserte for å sikre kontroll og overholde lokale forskrifter.
+  En hodler har som mål å beholde sine bitcoins i mange år for å kunne dra nytte av eiendelens antatte vekst.
+reviewed: false

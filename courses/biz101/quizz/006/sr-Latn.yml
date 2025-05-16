@@ -1,0 +1,9 @@
+question: Zašto je ograničenje od 21 milion na izdavanje Bitcoin značajno?
+answer: Stvara deflatornu imovinu, štiteći njenu vrednost od proizvoljne inflacije.
+wrong_answers:
+  - To osigurava da vlade mogu štampati onoliko bitkoina koliko je potrebno.
+  - Sprečava bilo koga da šalje transakcije nakon što se dostigne ograničenje.
+  - Eliminiše svu volatilnost u ceni Bitcoin.
+explanation: |
+  Imajući maksimalni Supply od 21 milion, oskudica Bitcoin je Hard-kodirana, što je čini fundamentalno drugačijom od inflatornih valuta gde se Supply može povećati po volji.
+reviewed: false

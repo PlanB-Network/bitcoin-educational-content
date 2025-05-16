@@ -15,6 +15,8 @@ proofreading:
   - language: en
     last_contribution_date: 2025-03-07
     urgency: 1
-    contributors_id:
+    contributor_names:
       - jramos0
     reward: 0
+contributor_names:
+  - Rogzy-DB

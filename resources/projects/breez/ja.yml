@@ -6,5 +6,3 @@ description: |
   P2P Lightning支払いを自分のアプリに統合したいと考えている方のために、Breezは最小限のプログラミングで最大限のカスタマイズを可能にするSDKを提供しています。Breez Cloudはさらにユーザー体験を向上させ、非預託のLightningの主権性と預託サービスの利便性を組み合わせた、いつでもどこでもの汎用性の高い支払いを可能にします。
 
   Breezは、Bitcoin支払いをこれまでになくアクセスしやすく効率的なものにすることで、Lightning経済の未来を形作っています。
-contributors:
-  - rabbit-hole

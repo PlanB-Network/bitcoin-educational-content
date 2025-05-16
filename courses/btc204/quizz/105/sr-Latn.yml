@@ -1,0 +1,8 @@
+question: Koja je glavna prednost PayJoin transakcije u poređenju sa klasičnom platnom transakcijom?
+answer: Poboljšava privatnost
+wrong_answers:
+  - Povećava brzinu potvrde
+  - Smanjuje troškove transakcija
+  - To obmanjuje primaoca
+explanation: |
+  Transakcija PayJoin poboljšava privatnost zainteresovanih strana obmanjujući analizu lanca.

@@ -1,9 +1,9 @@
-question: Was ist die Hauptcharakteristik einer Blockchain ohne Proof of Work?
-answer: Sie hat keinen realen Wert.
+question: Welche Anlagestrategie wird hauptsächlich von einem Stapler verwendet?
+answer: Dollar-Cost Averaging
 wrong_answers:
-  - Sie ist sicherer.
-  - Sie ist schneller.
-  - Sie ist dezentralisierter.
+  - Daytrading
+  - Arbitrage
+  - Pauschalbetrag
 explanation: |
-  Der Inhalt des Kapitels besagt, dass eine Blockchain ohne Proof of Work keinen realen Wert hat. Dies ist eine entscheidende Eigenschaft, die Bitcoin von anderen Kryptowährungen unterscheidet.
+  Bei DCA wird regelmäßig ein fester Betrag investiert, um die Auswirkungen der Marktvolatilität auf das eigene Portfolio zu verringern.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Jaka jest jedna zaleta akceptowania Bitcoin jako sprzedawcy?
+answer: Opór przed cenzurą.
+wrong_answers:
+  - Zwiększone opłaty transakcyjne.
+  - Ochrona przed deflacją.
+  - Ograniczenie finansowe.
+explanation: >-
+reviewed: true

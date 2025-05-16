@@ -1,0 +1,9 @@
+question: Consignment katika RGB ina nini?
+answer: Data ya upande wa mteja inayohitajika ili kuthibitisha mpito
+wrong_answers:
+  - Nakala kamili ya Bitcoin Blockchain
+  - Orodha ya ahadi za umma za Bitcoin
+  - Funguo za umma za washiriki wa State Transition
+explanation: |
+  Consignment inajumuisha maelezo ya RGB yanayomwezesha mpokeaji kuthibitisha State Transition kulingana na sheria za Contract.
+reviewed: false

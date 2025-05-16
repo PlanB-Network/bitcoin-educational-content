@@ -1,0 +1,14 @@
+question: Koje su tri aspekta problema dvostruke podudarnosti želja?
+answer: Prostorni, vremenski i interpersonalni.
+wrong_answers:
+  - Prostorni, vremenski i intrapersonalni.
+  - Prostorni, međuvremenski i međuljudski.
+  - Interprostorni, vremenski i međuljudski.
+explanation: |
+  Problem dvostruke podudarnosti želja odnosi se na
+  teškoću u trampi gde obe strane moraju posedovati
+  nešto što druga strana želi u isto vreme i na istom mestu.
+  Ovaj problem ima tri dimenzije; prostornu (isto mesto),
+  vremensku (isto vreme) i međuljudsku (uzajamna želja za
+  dobrima druge strane).
+reviewed: true

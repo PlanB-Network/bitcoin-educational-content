@@ -1,0 +1,9 @@
+question: Je, kulikuwa na tofauti gani katika bei ya Bitcoin wakati wa wiki kufuatia kuanzishwa kwake kwenye Slashdot?
+answer: Kutoka $0.008 hadi $0.08
+wrong_answers:
+  - Kutoka $0.001 hadi $0.008
+  - Kutoka $0.08 hadi $0.50
+  - Kutoka $0.50 hadi $1
+explanation: |
+  Tofauti hii iliendana na ongezeko mara kumi! Kiwango cha Hash kilipata ongezeko sawa.
+reviewed: false

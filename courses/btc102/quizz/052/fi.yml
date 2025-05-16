@@ -1,11 +1,9 @@
-question: Mikä on yritysten, kuten OpenNode, Swiss Bitcoin Pay ja BTCPay, rooli Bitcoin-ekosysteemissä?
-answer: Ne tarjoavat työkaluja, jotka helpottavat yritysten Bitcoinien hyväksymistä.
+question: Mitä hyötyä oman Bitcoin-solmun ylläpidosta on?
+answer: Itsenäisyys
 wrong_answers:
-  - Ne louhivat Bitcoinia.
-  - Ne säätelevät Bitcoinia.
-  - Ne laskevat liikkeelle Bitcoinia.
+  - Maksuvalmius
+  - Keskittäminen
+  - Nopeus
 explanation: |
-  Yritykset kuten OpenNode, Swiss Bitcoin Pay ja BTCPay tarjoavat työkaluja,
-  jotka helpottavat yritysten Bitcoinien hyväksymistä, edistäen sen omaksumista
-  ja käyttöä jokapäiväisissä transaktioissa.
+  Oman solmun ylläpitäminen takaa riippumattomuuden kolmansista osapuolista ja suojaa tapahtumien yksityisyyttä.
 reviewed: false

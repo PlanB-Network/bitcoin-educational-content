@@ -1,0 +1,12 @@
+question: U kojim oblastima Bitcoin postavlja pitanja?
+answer: Kriptografija, teorija igara, ekonomija i monetarna politika, računarstvo, filozofija, energija, zakoni i regulativa.
+wrong_answers:
+  - Samo računarstvo i ekonomija
+  - Samo kriptografija i teorija igara.
+  - Samo filozofija i energija.
+explanation: |
+  Bitcoin je multidisciplinarna tema koja postavlja
+  pitanja vezana za različite oblasti, uključujući
+  kriptografiju, teoriju igara, ekonomiju i monetarnu politiku,
+  računarske nauke, filozofiju, energiju, zakone i regulative.
+reviewed: true

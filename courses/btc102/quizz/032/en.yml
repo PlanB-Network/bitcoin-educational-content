@@ -1,11 +1,9 @@
-question: What is the significance of Bitcoin being a 0 to 1 innovation?
-answer: It disrupts our norms and habits
+question: What RGB mechanism ensures resistance to double spending?
+answer: Single-use Seal
 wrong_answers:
-  - It is the first digital currency
-  - It has increased in value from 0 to 1
-  - It is the first step towards a cashless society
+  - Multi-use Seal
+  - Double-signature
+  - Proof-of-Stake
 explanation: |
-  The term 0 to 1 refers to a major innovation that disrupts existing
-  norms and habits. Bitcoin is considered such an innovation due to its unique characteristics
-  and potential impact on society.
+  The Single-use Seal leverages the fact that a UTXO can only be spent once, ensuring resistance to double spending within RGB smart contracts.
 reviewed: false

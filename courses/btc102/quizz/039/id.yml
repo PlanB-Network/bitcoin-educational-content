@@ -1,10 +1,9 @@
-question: Apa alasan utama pendirian rezim diktator menurut bab tersebut?
-answer: Memburuknya ketimpangan kekayaan di dunia
+question: Profil pengguna mana yang secara teratur mengumpulkan bitcoin melalui Dollar-Cost Averaging?
+answer: Penumpuk
 wrong_answers:
-  - Kurangnya pendidikan di dunia
-  - Kurangnya sumber daya di dunia
-  - Kurangnya demokrasi di dunia
+  - Hodler
+  - Pengguna aktif
+  - Paranoid
 explanation: |
-  Bab tersebut menyebutkan bahwa memburuknya ketimpangan kekayaan di dunia
-  telah menyebabkan meningkatnya ekstremisme, yang terkadang berujung pada pendirian
-  rezim diktator.
+  Stacker secara teratur membeli dalam jumlah kecil untuk meratakan harga pembelian dalam jangka panjang.
+reviewed: false

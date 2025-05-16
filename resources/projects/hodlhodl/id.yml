@@ -6,5 +6,3 @@ description: |
   Proses untuk memulai perdagangan cukup sederhana. Pengguna terlibat dalam kontrak, dan Hodl Hodl menghasilkan alamat escrow multisig yang unik. Penjual menyetorkan bitcoin dalam escrow langsung dari dompet mereka, dan pembeli membayar penjual sesuai dengan metode pembayaran yang disepakati. Akhirnya, penjual melepaskan bitcoin dari escrow langsung ke dompet pembeli, menyelesaikan kontrak.
 
   Hodl Hodl memungkinkan Anda untuk membuat penawaran sesuai dengan ketentuan Anda, menetapkan harga Anda, menggunakan berbagai metode pembayaran, dan menetapkan nilai stop-loss. Biaya transparan platform dibagi antara pembeli dan penjual dan dikurangkan dari jumlah BTC. Dengan Hodl Hodl, Anda dapat berdagang secara global, menggunakan sistem pembayaran apa pun, untuk mata uang apa pun.
-contributors:
-  - lubang-kelinci

@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kati ya tofauti isiyo ya kawaida na inayoendelea?
+answer: Tofauti tofauti ina idadi kamili ya matokeo yanayowezekana, ilhali kigezo endelevu kinaweza kuchukua idadi isiyo na kikomo ya thamani ndani ya muda.
+wrong_answers:
+  - Tofauti tofauti hubadilisha thamani kila wakati, wakati tofauti inayoendelea inabaki thabiti.
+  - Tofauti tofauti ni maalum kwa majaribio ya kimwili yaliyofanywa, tofauti inayoendelea ni ya kufikirika katika muda wake.
+  - Vigezo tofauti havipo katika cryptography ya kisasa, vigezo vinavyoendelea tu hutumiwa.
+explanation: |
+  Vigezo tofauti vina seti fupi ya matokeo, ilhali viwezo vinavyoendelea vinaweza kuchukua thamani yoyote ndani ya muda, kama vile nambari halisi kati ya 0 na 1.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 誰把一個鐵盒交給旅館老闆 Robert Morriss 保管？
+answer: Thomas J. Beale
+wrong_answers:
+  - J.B. Ward
+  - Simon Singh
+  - Andrew Allen
+explanation: |
+  是 Thomas J. Beale 將一個裝有加密文件的鐵盒和一張字條交給 Robert Morriss，並給予他指示，以防他不回來。
+reviewed: false

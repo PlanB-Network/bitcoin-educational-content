@@ -1,11 +1,11 @@
-question: Come descrive questo corso il Bitcoin?
+question: Come viene descrtitto Bitcoin in questo corso?
 answer: Un argomento multidisciplinare.
 wrong_answers:
   - Un argomento semplice.
   - Un argomento fisico.
   - Un argomento monodisciplinare.
 explanation: |
-  Il Bitcoin è descritto come un argomento multidisciplinare perché
+  Bitcoin è descritto come un argomento multidisciplinare perché
   solleva questioni relative a vari campi, inclusi
   la crittografia, la teoria dei giochi, l'economia e la politica monetaria,
   l'informatica, la filosofia, l'energia, le leggi e la regolamentazione.

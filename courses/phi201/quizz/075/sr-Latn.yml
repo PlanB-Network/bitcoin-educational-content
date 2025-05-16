@@ -1,0 +1,9 @@
+question: Koji je naslov knjige Adama Smitha?
+answer: Istraživanje prirode i uzroka bogatstva naroda.
+wrong_answers:
+  - Istraga o Prirodi i Duhu Bogatstva Naroda.
+  - Ispitivanje prirode i uzroka bogatstva naroda.
+  - Istraga o Uzroku i Poreklu Bogatstva Naroda.
+explanation: |
+  Puni naslov knjige Adama Smita, An Inquiry into the Nature and Causes of the Wealth of Nations, ističe njegovu analizu faktora koji doprinose ekonomskoj prosperitetu, istražujući mehanizme proizvodnje i distribucije bogatstva.
+reviewed: false

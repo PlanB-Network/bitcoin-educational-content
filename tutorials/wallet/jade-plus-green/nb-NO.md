@@ -207,7 +207,7 @@ Velg "*Standard*" hvis du ønsker å opprette en klassisk portefølje med én si
 
 Hvis du vil ha mer informasjon om "*2FA*"-alternativet, kan du følge denne andre veiledningen:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Kontoen din er opprettet.
 

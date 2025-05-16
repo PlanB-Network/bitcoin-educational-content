@@ -1,0 +1,9 @@
+question: Bitcoin Wallet 的主要作用是什麼？
+answer: 管理和保護私人密碼匙
+wrong_answers:
+  - 儲存使用者的比特幣
+  - 自動確保交易的機密性
+  - 每位使用者 generate 比特幣
+explanation: |
+  Bitcoin Wallet 並不直接儲存比特幣，而是管理解鎖代表比特幣的 UTXO 所需的私密金鑰。
+reviewed: false

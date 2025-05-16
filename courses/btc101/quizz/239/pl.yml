@@ -1,0 +1,15 @@
+question: Które z poniższych nie jest kluczową cechą mikrotransakcji w Lightning Network?
+answer: Długi czas płatności.
+wrong_answers:
+  - Niskie opłaty.
+  - Natychmiastowe płatności.
+  - Skalowalność.
+explanation: |
+  Dzięki mikrotransakcjom Lightning Network użytkownicy mogą
+  mają niskie opłaty transakcyjne, dzięki czemu wysyłanie
+  bardzo małych ilości Bitcoin. Mogą również mieć natychmiastowe
+  płatności, pozwalając na transakcje w czasie rzeczywistym. Wreszcie
+  skalowalność, umożliwiając obsługę dużej liczby transakcji jednocześnie
+  dużej liczby transakcji jednocześnie. Tak więc złą
+  odpowiedzią jest długi czas płatności.
+reviewed: true

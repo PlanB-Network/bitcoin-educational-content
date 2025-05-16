@@ -1,0 +1,10 @@
+question: Jaki środek pośredni można zastosować w celu ukrycia połączeń, gdy nie korzysta się z własnego węzła Bitcoin?
+answer: Korzystanie z sieci Tor.
+wrong_answers:
+  - Korzystanie z zapory sieciowej.
+  - Korzystanie z zaszyfrowanego Wallet.
+  - Zastosowanie podwójnego Wallet.
+explanation: |
+  Aby ograniczyć ryzyko bycia obserwowanym, pośrednim rozwiązaniem jest użycie oprogramowania Wallet, które pozwala ukryć połączenia za pośrednictwem sieci Tor.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Zašto je samo autentifikovana šema šifrovanja nedovoljna u komunikacionoj sesiji?
+answer: Ne garantuje da je poruku poslao pošiljalac u vreme sesije.
+wrong_answers:
+  - Koristi ključeve koji su prekratki.
+  - Ne šifrira poruke poslate u vreme sesije.
+  - Ne omogućava autentifikaciju pošiljaoca u trenutku sesije.
+explanation: |
+  Šema autentifikovanog šifrovanja ne štiti od napada kao što su ponavljanje, preuređivanje i refleksija bez dodatka indikatora kao što su identifikatori i redni brojevi.
+reviewed: false

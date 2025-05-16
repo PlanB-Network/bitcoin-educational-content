@@ -1,9 +1,9 @@
-question: ¿Cuál es la razón principal por la que los gobiernos y los bancos centrales están explorando la posibilidad de crear una versión digital de su moneda fiduciaria?
-answer: Para garantizar el control y cumplir con las regulaciones locales
+question: ¿Cuál es el principal objetivo de un cochero?
+answer: Conservar sus bitcoins a largo plazo
 wrong_answers:
-  - Para competir con Bitcoin
-  - Para proporcionar protección de privacidad
-  - Para aumentar la vigilancia masiva
+  - Especular a corto plazo
+  - Para realizar transacciones frecuentes de Bitcoin
+  - Para maximizar la privacidad de sus transacciones Bitcoin
 explanation: |
-  El contenido del capítulo explica que aunque estos proyectos afirman competir con Bitcoin, siguen siendo centralizados para garantizar el control y cumplir con las regulaciones locales.
+  Un hodler pretende conservar sus bitcoins durante muchos años para beneficiarse del presumible crecimiento del activo.
 reviewed: false

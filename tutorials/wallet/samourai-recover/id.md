@@ -148,7 +148,7 @@ Jika Anda menggunakan perangkat lunak lain selain Sparrow, seperti Electrum, unt
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Anda sekarang memiliki akses ke bitcoin Anda di Sparrow. Jika Anda memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat melihat [tutorial khusus kami](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Anda sekarang memiliki akses ke bitcoin Anda di Sparrow. Jika Anda memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat melihat [tutorial khusus kami](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Saya juga merekomendasikan untuk secara manual mengimpor label yang Anda asosiasikan dengan UTXO Anda di Samourai. Ini akan memungkinkan Anda untuk melakukan kontrol koin yang efektif di Sparrow selanjutnya.
 
@@ -204,7 +204,7 @@ Jika Anda menggunakan perangkat lunak lain seperti Electrum untuk memulihkan dom
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Anda sekarang memiliki akses ke bitcoin Anda di Sparrow. Jika Anda memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat mengonsultasikan [tutorial khusus kami](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Anda sekarang memiliki akses ke bitcoin Anda di Sparrow. Jika Anda memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat mengonsultasikan [tutorial khusus kami](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Saya juga merekomendasikan untuk secara manual mengimpor label yang Anda asosiasikan dengan UTXO Anda di Samourai. Ini akan memungkinkan Anda untuk melakukan kontrol koin yang efektif di Sparrow selanjutnya.
 

@@ -6,6 +6,3 @@ description: |
   Der Prozess, um mit dem Handel zu beginnen, ist unkompliziert. Benutzer schließen einen Vertrag ab und Hodl Hodl generiert eine einzigartige Multisig-Treuhandadresse. Der Verkäufer hinterlegt Bitcoins direkt aus seiner Wallet in der Treuhand, und der Käufer zahlt dem Verkäufer entsprechend der vereinbarten Zahlungsmethode. Schließlich gibt der Verkäufer die Bitcoins direkt aus der Treuhand an die Wallet des Käufers frei und schließt den Vertrag ab.
 
   Hodl Hodl ermöglicht es Ihnen, ein Angebot nach Ihren eigenen Bedingungen zu erstellen, Ihren Preis festzulegen, mehrere Zahlungsmethoden zu verwenden und einen Stop-Loss-Wert einzurichten. Die transparenten Gebühren der Plattform werden zwischen Käufer und Verkäufer aufgeteilt und vom BTC-Betrag abgezogen. Mit Hodl Hodl können Sie weltweit handeln, jedes Zahlungssystem verwenden und jede Währung nutzen.'
-contributors:
-  - rabbit-hole
-  - another-satoshi

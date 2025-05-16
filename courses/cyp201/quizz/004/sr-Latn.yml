@@ -1,0 +1,9 @@
+question: Koja kombinacija funkcija Hash se koristi za generate kraće otiske prstiju u Bitcoin?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 kombinuje SHA256 i RIPEMD160 za generate 160-bitne otiske prstiju, posebno za Bitcoin adrese.
+reviewed: false

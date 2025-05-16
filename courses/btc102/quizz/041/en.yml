@@ -1,10 +1,9 @@
-question: What is Bitcoin native to?
-answer: The internet
+question: What is the approximate maximum supply of bitcoins in circulation?
+answer: 21 million
 wrong_answers:
-  - The blockchain
-  - The banking system
-  - The stock market
+  - 10 million
+  - 47 million
+  - 150 million
 explanation: |
-  The chapter states that Bitcoin is native to the internet, making it
-  accessible to anyone with internet access.
+  Bitcoin is programmed to have a limited supply of approximately 21 million bitcoins.
 reviewed: false

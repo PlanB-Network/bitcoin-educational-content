@@ -1,0 +1,10 @@
+question: Kwa nini inashauriwa dhidi ya kuunganisha UTXO kadhaa baada ya mizunguko ya CoinJoin?
+answer: Hii inaweza kuhatarisha faragha kwa sababu ya CIOH.
+wrong_answers:
+  - Inapunguza kasi ya shughuli.
+  - Inaonyesha shughuli ya kutiliwa shaka kwa mratibu.
+  - Hii inaweza kuhatarisha faragha kwa sababu ya utabiri wa malipo ya pande zote.
+explanation: |
+  Ni muhimu kuepuka kuchanganya UTXO zilizochanganywa na UTXO zisizochanganywa katika shughuli sawa, lakini pia kuchanganya UTXO kati yao wenyewe, ili kuepuka Common-Input-Ownership-Heuristic (CIOH).
+  
+reviewed: false

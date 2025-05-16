@@ -1,0 +1,9 @@
+question: Koliko uzastopnih transakcija obično izvrši klasičan rikošet?
+answer: 5
+wrong_answers:
+  - 2
+  - 8
+  - 14
+explanation: |
+  Metoda rikoseta obično uključuje pravljenje 4 transakcije samom sebi, a poslednja je za slanje sredstava krajnjem primaocu.
+reviewed: false

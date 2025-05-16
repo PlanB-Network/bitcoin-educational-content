@@ -1,0 +1,9 @@
+question: Ukosoaji wa Frédéric Bastiat wa demokrasia ya ujamaa ni upi?
+answer: Bastiat anakosoa demokrasia ya kisoshalisti kwa sababu inasababisha kuongezeka kwa kodi, madeni ya serikali, na uporaji.
+wrong_answers:
+  - Bastiat anaikosoa demokrasia ya kijamaa kwa sababu haiheshimu kanuni za uhuru na usawa.
+  - Bastiat anaikosoa demokrasia ya kijamaa kwa sababu inasababisha kudumaa.
+  - Bastiat anakosoa demokrasia ya ujamaa kwa sababu inatishia maadili ya jadi ya familia na dini.
+explanation: |
+  Frédéric Bastiat anaona katika demokrasia ya kisoshalisti tabia ya kutumia serikali kugawanya tena mali kupitia kodi na madeni, ambayo anaiona kama uporaji wa kisheria wa mali ya mtu binafsi.
+reviewed: false

@@ -1,0 +1,11 @@
+question: 津巴布韋採取了什麼解決方案來對抗通脹？
+answer: 美元化
+wrong_answers:
+  - 印刷更多貨幣
+  - 引入新貨幣
+  - 減少資金 Supply
+explanation: |
+  津巴布韋採用美元化來對抗通脹。這意味著他們
+  採用鄰近國家的美元或其他貨幣，以防止
+  政府不能隨意印鈔。
+reviewed: false

@@ -4,11 +4,10 @@ subtopic: bitcoin
 level: beginner
 hours: 5
 
-professors:
-  - network-pill
-
-contributors:
-  - pretty-private
+professors_id:
+  - 5a52397f-0148-4e4c-b489-e67578be1b7e
+contributor_names:
+  - LoicPandul
 
 
 published_at: 2025-01-15
@@ -19,93 +18,111 @@ proofreading:
   - language: en
     last_contribution_date: 2024-12-18
     urgency: 1
-    contributors_id:
+    contributor_names:
       - NetworkEffect
-    reward: 5.87
-
+    reward: 8.79
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 23.4
-
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11.75
-
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 17.57
-
+  - language: es
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - lutxoitalico
+    reward: 8.79
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 23.4
-
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 23.4
-
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
-    contributors_id:
-    reward: 11.75
-
+    contributor_names:
+      - Sosylos
+    reward: 8.79
   - language: id
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
-    contributors_id:
-    reward: 29.22
-
+    contributor_names:
+      - bitcoinindo21
+    reward: 14.62
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
-    contributors_id:
-    reward: 17.57
-
+    contributor_names:
+      - AlbertoMagno21
+    reward: 8.79
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 35.04
-
   - language: nb-NO
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
-    contributors_id:
-    reward: 23.4
-
+    contributor_names:
+      - turdsferguson
+    reward: 11.71
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11.75
-
+    contributor_names:
+    reward: 17.59
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 23.4
-
+    contributor_names:
+    reward: 23.41
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 35.04
-
+    contributor_names:
+    reward: 35.07
   - language: zh-Hans
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - MilankovicProtocol
+    reward: 14.62
+  - language: pl
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 29.22
+    contributor_names:
+    reward: 23.41
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.9
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.41
+  - language: sw
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 11.71
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.24
 tags:
   - business
   - adoption

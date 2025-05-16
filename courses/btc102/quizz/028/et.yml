@@ -1,10 +1,9 @@
-question: Mida tähendab see, et Bitcoin on avatud lähtekoodiga?
-answer: Igaüks saab vaadata, kuidas Bitcoin töötab, see on läbipaistev ja seetõttu auditeeritav
+question: Milliseid platvorme soovitatakse bitcoinide ostmisel KYC-i vältimiseks?
+answer: Peer-to-peer Exchange platvormid
 wrong_answers:
-  - Igaüks saab luua oma versiooni Bitcoinist
-  - Bitcoini kasutamine on tasuta
-  - Bitcoini kood on avalikult muutmiseks kättesaadav
+  - Üldotstarbelised Exchange platvormid
+  - Ainult Bitcoin Exchange platvormid
+  - Kaubandusele suunatud Exchange platvormid
 explanation: |
-  Avatud lähtekoodiga olek tähendab, et Bitcoini kood on avalikult kõigile ülevaatamiseks kättesaadav.
-  See muudab selle läbipaistvaks ja auditeeritavaks, tagades, et protokoll on kõigile võrdne.
+  P2P platvormid võimaldavad kasutajatel osta bitcoine otse üksteiselt ilma KYC-i nõudmata.
 reviewed: false

@@ -1,0 +1,12 @@
+question: Bitcoin 透過 Mining 消耗能源的動機之一是什麼？
+answer: 提供強大的防禦機制，防止中央集权
+wrong_answers:
+  - 使 Bitcoin 的使用成本更高
+  - 透過增加能源成本來降低其價值
+  - 阻止新使用者加入網路
+explanation: |
+  Bitcoin 透過 Mining 消耗能源的原因之一是為了
+  提供一個強大的防禦機制，以對抗集中化和
+  不當操控。分散式的礦工網路有助於防止
+  集中化的實體無法控制網路或操控規則，使其對自己有利。
+reviewed: true

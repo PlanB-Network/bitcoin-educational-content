@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između austrijskih ekonomista i kejnzijanskih ili monetarističkih ekonomista u pogledu njihovih metoda analize?
+answer: Dok Austrijanci rasuđuju iz fundamentalnih aksioma, kejnzijanski ili monetaristički ekonomisti obično se oslanjaju na empirijske podatke.
+wrong_answers:
+  - Austrijski ekonomisti oslanjaju se na empirijske podatke, dok kejnzijanski ili monetaristički ekonomisti rasuđuju iz osnovnih aksioma.
+  - Austrijski ekonomisti i kejnzijanski ili monetaristički ekonomisti koriste iste metode analize.
+  - Austrijski ekonomisti se oslanjaju na vladine politike, dok se kejnzijanski ili monetaristički ekonomisti oslanjaju na tržišne sile.
+explanation: |
+  Glavna razlika između austrijskih ekonomista i kejnzijanskih ili monetarističkih ekonomista u pogledu njihovih metoda analize je ta što Austrijanci razmišljaju iz osnovnih aksioma iz kojih se mogu izvesti logički zaključci, dok kejnzijanski ili monetaristički ekonomisti teže oslanjanju na empirijske podatke kako bi uspostavili opšte ekonomske zakone.
+reviewed: true

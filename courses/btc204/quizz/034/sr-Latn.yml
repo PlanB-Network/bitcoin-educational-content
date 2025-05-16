@@ -1,0 +1,9 @@
+question: U jednostavnoj platnoj transakciji gde postoji ulaz od 500,000 Sats podeljen na jedan izlaz od 47,500 Sats i drugi od 451,000 Sats, koji UTXO je verovatno kusur?
+answer: Jedan od 451.000 Sats.
+wrong_answers:
+  - Jedan od 500.000 Sats.
+  - Jedan od 47.500 Sats.
+  - Nijedan od njih.
+explanation: |
+  Kada postoji dovoljno velika razlika između dva izlaza u transakciji na jednostavnom modelu plaćanja, može se proceniti da je veći izlaz verovatno kusur.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Koji je jedan razlog zašto cena Bitcoin može pasti za 10%, 20% ili čak 50% u samo nekoliko dana?
+answer: Bikovski i medveđi tržišni faze.
+wrong_answers:
+  - Broj ljudi koji koriste internet.
+  - Vreme.
+  - Cena zlata.
+explanation: >-
+reviewed: true

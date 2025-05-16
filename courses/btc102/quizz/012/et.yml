@@ -1,8 +1,9 @@
-question: Mis on peamine põhjus bitcoinide kaotamiseks vastavalt peatükile?
-answer: Kehv veebiturvalisuse haldus
+question: Mida tähendab Bitcoin maailmas mõiste "enesehooldus"?
+answer: Oma isiklike võtmete hoidmine ise
 wrong_answers:
-  - Krüptoraha pettused
-  - Finantspettused
-  - Arvuti rike
+  - Võtmete usaldamine spetsiaalsele Exchange platvormile
+  - Oma võtmete usaldamine investeerimispangale
+  - Oma avalike võtmete hoidmine ise
 explanation: |
-  Peatükis mainitakse, et lisaks krüptoraha pettustele ja finantspettustele on bitcoinide kaotamise peamine põhjus seotud kehva veebiturvalisuse haldusega.
+  Omavahetus tagab, et kasutaja säilitab täieliku kontrolli oma bitcoinide üle oma isiklike võtmete kaudu.
+reviewed: false

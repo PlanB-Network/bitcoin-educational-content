@@ -1,0 +1,9 @@
+question: Jaka jest podstawowa funkcja kodu uwierzytelniania wiadomości (MAC)?
+answer: Zapewnienie autentyczności i integralności wiadomości
+wrong_answers:
+  - Szyfrowanie wiadomości w celu zapewnienia poufności
+  - Zapobieganie przechwytywaniu wiadomości
+  - Klucze prywatne generate dla każdej komunikacji
+explanation: |
+  MAC to schemat kryptograficzny, który umożliwia weryfikację, czy wiadomość rzeczywiście pochodzi od legalnego nadawcy i nie została zmieniona, zapewniając w ten sposób autentyczność i integralność.
+reviewed: false

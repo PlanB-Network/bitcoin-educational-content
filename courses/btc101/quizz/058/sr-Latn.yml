@@ -1,0 +1,11 @@
+question: Šta se dogodilo sa zimbabveanskim dolarom u aprilu 2009?
+answer: Ministar finansija je najavio suspenziju zimbabveanskog dolara i odobrio upotrebu različitih stranih valuta za trgovinu.
+wrong_answers:
+  - Zimbabveanski dolar je pao za preko 72%.
+  - Vlada je pristala da obešteti ratne veterane za iznos ekvivalentan 450 miliona američkih dolara.
+  - Vlada je morala pribegavati pokretanju štamparske prese.
+explanation: |
+  U aprilu 2009. godine, ministar finansija je najavio
+  suspendovanje zimbabveanskog dolara i odobrio upotrebu
+  različitih stranih valuta za trgovinu.
+reviewed: true

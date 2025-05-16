@@ -1,9 +1,9 @@
-question: Qual é a diferença entre negociar e investir no contexto do Bitcoin?
-answer: Negociar envolve contratos de curto prazo com alto risco, enquanto investir envolve comprar BTC para o curto a médio prazo com risco limitado.
+question: Que impacto têm as políticas monetárias expansionistas na moeda fiduciária?
+answer: Diluem o valor da poupança
 wrong_answers:
-  - Negociar envolve comprar BTC para o curto a médio prazo, enquanto investir envolve contratos de curto prazo com alto risco.
-  - Negociar envolve comprar BTC para o longo prazo, enquanto investir envolve contratos de curto prazo com alto risco.
-  - Negociar envolve comprar BTC para o curto a médio prazo, enquanto investir envolve comprar BTC para o longo prazo.
+  - Aumentam o poder de compra
+  - Estabilizam as taxas de juro
+  - Garantem o crescimento económico
 explanation: |
-  No contexto do Bitcoin, negociar envolve contratos de curto prazo com alto risco, enquanto investir envolve comprar BTC para o curto a médio prazo com risco limitado.
+  A impressão maciça de dinheiro conduz a uma depreciação do poder de compra, que corrói gradualmente o poder de compra do aforrador.
 reviewed: false

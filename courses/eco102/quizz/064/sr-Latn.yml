@@ -1,0 +1,9 @@
+question: Zašto Bastiat kritikuje koncept progresivnog redistributivnog poreza?
+answer: Zato što omogućava legalizovanu pljačku od strane većine na račun manjine
+wrong_answers:
+  - Zato što je neefikasan u generisanju poreskih prihoda
+  - Zato što koristi samo radničkoj klasi
+  - Zato što prvenstveno koristi privatnim kompanijama
+explanation: |
+  Bastiat veruje da progresivni redistributivni porez omogućava većini da eksploatiše manjinu, pretvarajući porez u alat legalizovane pljačke.
+reviewed: false

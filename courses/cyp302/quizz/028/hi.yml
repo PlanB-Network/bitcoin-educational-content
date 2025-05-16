@@ -1,0 +1,9 @@
+question: 0 XOR 1 का रिजल्ट 1 होता है।
+answer: 1
+wrong_answers:
+  - 0
+  - २
+  - -१
+explanation: |
+  XOR के साथ, 0 XOR 1 का रिजल्ट 1 होता है क्योंकि बिट्स अलग-अलग होते हैं।
+reviewed: false

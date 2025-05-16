@@ -6,9 +6,9 @@ links:
   trailer: https://youtu.be/-R7TFUr0tzw
 description: |
   BTC Sessions is geared towards helping you understand Bitcoin. Get the tutorials on wallets, hardware, security, exchanges and much more, as well as the latest news and industry interviews.
-contributors:
-  - another-satoshi
-  - hunt-wood
+contributor_names:
+  - Asi0Flammeus
+  - PaoloFoti
 tags:
   - guides
   - user-friendly

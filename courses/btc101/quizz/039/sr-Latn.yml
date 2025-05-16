@@ -1,0 +1,9 @@
+question: Koji je glavni cilj iza stvaranja Bitcoin?
+answer: Da se država odvoji od novca.
+wrong_answers:
+  - Da se eliminiše zlatni standard.
+  - Da bi transakcije bile brže i jeftinije.
+  - Da svi budu bogati.
+explanation: |
+  Bitcoin je stvoren sa ciljem da odvoji državu od novca. To je odgovor na sistemske izazove trenutnog finansijskog sistema, gde država ima potpunu kontrolu nad novcem Supply i može ga manipulisati u svoju korist.
+reviewed: true

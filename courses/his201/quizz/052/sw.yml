@@ -1,0 +1,9 @@
+question: Je, ni ukubwa gani wa juu zaidi wa block ulioongezwa na Satoshi kwenye itifaki ya Bitcoin mnamo Septemba 2010?
+answer: MB 1
+wrong_answers:
+  - 2 MB
+  - 4 MB
+  - 8 MB
+explanation: |
+  Kigezo cha MAX_BLOCK_SIZE kiliongezwa Julai, kisha kikomo kikatekelezwa kwenye nodi zote za mtandao kuanzia tarehe 12 Septemba.
+reviewed: false

@@ -1,0 +1,14 @@
+question: Jakie jest główne zadanie górników w sieci Bitcoin?
+answer: Aby rozwiązać cyfrową łamigłówkę i zatwierdzić nowy blok
+wrong_answers:
+  - Aby utworzyć nowe bitcoiny
+  - Aby kontrolować cenę Bitcoin
+  - Aby zweryfikować tożsamość użytkowników Bitcoin
+explanation: |
+  W kontekście Bitcoin Mining, górnicy dążą do szybkiego
+  rozwiązać cyfrową łamigłówkę. Pierwszy Miner, który rozwiąże zagadkę
+  przedstawia swoje rozwiązanie całej sieci, która może następnie
+  łatwo zweryfikować jego poprawność. Ta pomyślna
+  weryfikacja pozwala Miner na walidację nowego bloku i
+  dodanie go do łańcucha czasowego Bitcoin.
+reviewed: true

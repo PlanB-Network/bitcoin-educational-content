@@ -145,7 +145,7 @@ A frase-senha não deve ser confundida com o código PIN. Ela desempenha um pape
 
 A frase-senha é uma ferramenta muito poderosa para aumentar a segurança dos seus bitcoins. No entanto, é muito importante entender como ela funciona antes de implementá-la, para evitar perder o acesso à sua carteira. É por isso que eu aconselho que você consulte este outro tutorial dedicado se desejar configurar uma frase-senha no seu Ledger:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 O menu "*Bloqueio por PIN*" permite que você configure e ative o bloqueio automático do seu Ledger após um período determinado de inatividade.
 
@@ -333,3 +333,4 @@ Se você achou este tutorial útil, eu ficaria grato se você pudesse deixar um 
 Eu também recomendo que você confira este tutorial completo sobre o Ledger Flex:
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

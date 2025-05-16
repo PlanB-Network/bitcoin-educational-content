@@ -1,0 +1,9 @@
+question: Šta je jedinstveno u vezi sa remiksima u Whirlpool u poređenju sa drugim implementacijama CoinJoin?
+answer: Oni su potpuno besplatni.
+wrong_answers:
+  - Oni zahtevaju samo plaćanje Mining naknada.
+  - Oni su ograničeni na jedan po korisniku.
+  - Oni zahtevaju samo plaćanje naknada za uslugu.
+explanation: |
+  Whirlpool remiksi su 100% besplatni: nisu potrebne dodatne naknade za uslugu niti Mining naknade.
+reviewed: false

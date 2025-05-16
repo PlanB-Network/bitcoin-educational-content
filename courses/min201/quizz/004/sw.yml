@@ -1,0 +1,12 @@
+question: Ni zana gani kuu inayotumiwa na wachimbaji katika mtandao wa Bitcoin leo?
+answer: ASICs
+wrong_answers:
+  - CPU
+  - GPU
+  - FPGAs
+explanation: |
+  Siku hizi, wachimbaji hutumia ASICs maalum kwa hili
+  operesheni, iliyoboreshwa ili kujaribu idadi ya juu zaidi ya
+  mchanganyiko na matumizi madogo ya nishati iwezekanavyo
+  na haraka iwezekanavyo.
+reviewed: true

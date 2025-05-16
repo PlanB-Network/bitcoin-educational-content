@@ -1,0 +1,11 @@
+question: Dlaczego zaleca się unikanie pozostawiania Bitcoinów na platformach Exchange?
+answer: Mogą być podatne na ataki hakerów.
+wrong_answers:
+  - Platformy Exchange pobierają losowe opłaty.
+  - Bitcoin traci wartość na platformach Exchange.
+  - Platformy Exchange nie są instytucją regulowaną.
+explanation: |
+  Zaleca się unikanie pozostawiania Bitcoinów na platformach Exchange
+  ponieważ mogą one być podatne na ataki hakerów
+  ataki hakerów.
+reviewed: true

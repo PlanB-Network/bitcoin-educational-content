@@ -1,0 +1,9 @@
+question: Šta znači napad grube sile?
+answer: Pokušavanje svih mogućih ključeva dok se ne pronađe pravi
+wrong_answers:
+  - Menjanje teksta kako bi postao nerazumljiv
+  - Korišćenje javnog ključa za dešifrovanje poruke
+  - Udaranje računara vrlo Hard da bi se prisilio da otkrije tajni ključ
+explanation: |
+  Brute force napad uključuje sistematsko testiranje svih mogućih ključeva kako bi se dešifrovala šifrovana poruka.
+reviewed: false

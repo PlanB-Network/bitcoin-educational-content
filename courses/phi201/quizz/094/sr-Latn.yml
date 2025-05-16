@@ -1,0 +1,9 @@
+question: Kakva je kritika Frédérica Bastiata na socijalističku demokratiju?
+answer: Bastiat kritikuje socijalističku demokratiju jer vodi ka povećanju poreza, zaduživanju države i pljački.
+wrong_answers:
+  - Bastiat kritikuje socijalističku demokratiju jer ne poštuje principe slobode i jednakosti.
+  - Bastiat kritikuje socijalističku demokratiju jer vodi ka stagnaciji.
+  - Bastiat kritikuje socijalističku demokratiju jer preti tradicionalnim vrednostima porodice i religije.
+explanation: |
+  Frédéric Bastiat vidi u socijalističkoj demokratiji tendenciju da se država koristi za preraspodelu bogatstva putem poreza i duga, što on smatra legalnom pljačkom individualne svojine.
+reviewed: false

@@ -1,0 +1,25 @@
+id: c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+project_id: 79942e25-335d-45ae-bf81-799317f7d6bd
+
+tags:
+  - lightning
+  - wallets
+  - node
+
+category: mobile
+
+level: intermediate
+
+professor_id: c7108417-5ba9-455e-b467-775cac83c9b5
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-04-28
+    urgency: 1
+    contributor_names:
+      - Skyman21m
+    reward: 1.76

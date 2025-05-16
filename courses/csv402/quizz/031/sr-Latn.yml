@@ -1,0 +1,9 @@
+question: Šta mogu da uradim sa Invoice u RGB transferu?
+answer: Naznačite vrstu transakcije, količinu potrebne imovine i primalčev Seal Definition
+wrong_answers:
+  - Kreiraj novi Genesis za sredstvo
+  - generate a new Schema to modify the asset's Business Logic
+  - Izgradnja PSBT za zamenu transakcije Bitcoin
+explanation: |
+  Invoice se koristi da obavesti izdavaoca transakcije o tipu operacije, količini sredstava koja će biti preneta i odredištu (Seal Definition).
+reviewed: false

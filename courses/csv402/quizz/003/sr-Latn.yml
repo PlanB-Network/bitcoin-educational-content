@@ -1,0 +1,9 @@
+question: Koja je posledica gubitka Stash u RGB protokolu?
+answer: Istorija Contract i povezani podaci postaju nepopravljivi
+wrong_answers:
+  - Podaci se mogu rekonstruisati iz Blockchain ako imate seed
+  - Kopija podataka je dostupna na serverima RGB u Švajcarskoj.
+  - Podaci se automatski repliciraju za sve učesnike
+explanation: |
+  U Client-side Validation, svaki korisnik je odgovoran za svoj Stash, koji nije repliciran na drugom mestu, što njegov gubitak čini konačnim.
+reviewed: false

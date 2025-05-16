@@ -1,0 +1,9 @@
+question: Koja je krajnja svrha ekonomske aktivnosti prema Karlu Mengeru?
+answer: Krajnji cilj ekonomske aktivnosti je potrošnja.
+wrong_answers:
+  - Krajnji cilj ekonomske aktivnosti je proizvodnja.
+  - Krajnji cilj ekonomske aktivnosti je štednja.
+  - Krajnji cilj ekonomske aktivnosti je investicija.
+explanation: |
+  Prema Karlu Mengeru, dobra se smatraju ekonomskim dobrima (vrednovanim) samo zato što služe kao sredstva za ciljeve koje pojedinci biraju i vrednuju. Stoga, za Mengera, početna tačka ekonomske analize su potrošačka dobra, ili finalna dobra, jer predstavljaju krajnji cilj ekonomske aktivnosti.
+reviewed: true

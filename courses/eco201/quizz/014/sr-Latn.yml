@@ -1,0 +1,9 @@
+question: Koja je osnovna razlika između marginalne teorije vrednosti Karla Mengera i one Leona Valrasa i Vilijama Stenlija Dževonsa?
+answer: Mengerova teorija je prvenstveno subjektivna, dok Walras i Jevons smatraju da je vrednost objektivna i merljiva pojava.
+wrong_answers:
+  - Mengerova teorija je prvenstveno objektivna, dok Walras i Jevons smatraju da je vrednost subjektivna i nemerljiva pojava.
+  - Mengerova teorija zasniva se na radnoj teoriji vrednosti, dok Walras i Jevons smatraju da se vrednost zasniva na količini zemlje korišćene u proizvodnji.
+  - Mengerova teorija zasniva se na teoriji fiziokrata o vrednosti zemlje, dok Walras i Jevons smatraju da se vrednost zasniva na radu uloženom u proizvodnju.
+explanation: |
+  Prema poglavlju, Mengerova teorija marginalne vrednosti je subjektivna, što znači da se zasniva na percepciji pojedinca o korisnosti koju može dobiti od dobra ili usluge. S druge strane, Valras i Dževons smatraju da je vrednost objektivna i merljiva pojava.
+reviewed: true

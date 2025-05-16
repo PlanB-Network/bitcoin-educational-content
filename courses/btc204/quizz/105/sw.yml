@@ -1,0 +1,8 @@
+question: Je, ni faida gani kuu ya muamala wa PayJoin ikilinganishwa na muamala wa kawaida wa malipo?
+answer: Inaboresha faragha
+wrong_answers:
+  - Inaongeza kasi ya uthibitishaji
+  - Inapunguza ada za muamala
+  - Inampotosha mpokeaji
+explanation: |
+  Muamala wa PayJoin huongeza faragha ya washikadau kwa uchanganuzi unaopotosha.

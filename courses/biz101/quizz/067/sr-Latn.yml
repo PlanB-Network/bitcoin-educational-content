@@ -1,0 +1,9 @@
+question: Kakvu ulogu imaju alati poput Zaprite i Musqet u profesionalnom rešenju za plaćanje?
+answer: Oni usavršavaju iskustvo naplate
+wrong_answers:
+  - Oni upravljaju konverzijom više valuta i isplatom fiat novca
+  - Oni se fokusiraju na šifrovanje podataka o transakcijama i upravljanje privatnim ključevima
+  - Oni služe kao osnovni POS sistemi
+explanation: |
+  Zaprite i Musqet dodaju prilagođavanja i poboljšanja izveštavanja procesu naplate, dopunjujući osnovnu infrastrukturu plaćanja.
+reviewed: false

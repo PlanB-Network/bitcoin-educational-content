@@ -1,0 +1,12 @@
+question: Ni nini jukumu la nodi ya Bitcoin katika mtandao wa Bitcoin?
+answer: Inathibitisha vitalu vipya na shughuli zilizojumuishwa.
+wrong_answers:
+  - Inaunda Bitcoins mpya na kuziweka kwenye vizuizi.
+  - Inasimamia bei ya Bitcoin.
+  - Inasimamia mtandao wa Bitcoin.
+explanation: |
+  Nodi ya Bitcoin katika mtandao wa Bitcoin inashughulikia
+  uthibitisho wa vitalu vipya na shughuli zilizojumuishwa. Ni
+  mtandao huu wa nodi za Bitcoin zinazoifanya kuwa kweli
+  kugatuliwa.
+reviewed: true

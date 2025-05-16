@@ -1,0 +1,12 @@
+question: Ni nini matokeo ya mfumuko wa bei?
+answer: Kupungua kwa kasi kwa thamani ya sarafu.
+wrong_answers:
+  - Kupungua kidogo kwa thamani ya sarafu.
+  - Ongezeko kubwa la thamani ya sarafu.
+  - Ongezeko dogo la thamani ya sarafu.
+explanation: |
+  Kwa sababu ya mfumuko wa bei, watu wana haraka
+  hasara kamili ya kujiamini katika sarafu, ambayo inaongoza kwa
+  kupungua kwa kasi kwa thamani yake kwa muda mfupi wa
+  wakati.
+reviewed: true

@@ -14,7 +14,7 @@ Selles õpetuses näitame teile, kuidas saate hõlpsasti kaasa aidata meie veebi
 
 Õppesisu tõlkimiseks kasutame [tehisintellekti](https://github.com/Asi0Flammeus/LLM-Translator). Seejärel kutsume nendes failides olevate võimalike vigade parandamiseks korrektoreid üles andma oma panuse. Kui soovite mõnda sisu korrektuurida, vaadake järgmist juhendmaterjali:
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Kui aga olete huvitatud veebilehe staatiliste elementide (välja arvatud õppesisu) tõlkimisest, siis olete õiges kohas! Frontend'i tõhusaks tõlkimiseks kasutame tööriista Weblate, mida on väga lihtne kasutada ja mis hõlbustab tõlkimisele lähenemist.
 
 Kui soovite lisada Plan ₿ Network'ile täiesti uue keele, võtke kindlasti ühendust Plan ₿ Network'i meeskonnaga meie [Telegrami grupi](https://t.me/PlanBNetwork_ContentBuilder) kaudu. Kui teil ei ole telegrammi, võite saata e-kirja aadressil mari@planb.network. Kirjuta kindlasti väike tutvustus selle kohta, kes sa oled ja milliseid keeli sa räägid.
@@ -23,7 +23,7 @@ Meie meeskonnaliikmed annavad teile konkreetseid juhiseid ja avavad Githubis sel
 
 Enne selle konkreetse õpetuse järgimist, et lisada uus keel Weblate'ile.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Kui olete valmis tõlkimisega alustama, tulge tagasi selle õpetuse juurde ja vaadake läbi järgmised punktid.
 
 ## Registreeru Weblate'is

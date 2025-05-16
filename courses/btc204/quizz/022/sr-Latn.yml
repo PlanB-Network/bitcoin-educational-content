@@ -1,0 +1,9 @@
+question: Koji je naziv šablona koji se sastoji od jednog UTXO na ulazu i jednog UTXO na izlazu?
+answer: Čišćenje
+wrong_answers:
+  - Konsolidacija
+  - CoinJoin
+  - Grupna potrošnja
+explanation: |
+  Tumačenje ove strukture je da smo u prisustvu "sweep"-a, što znači samoprenos bitkoina.
+reviewed: false

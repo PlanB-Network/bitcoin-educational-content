@@ -1,9 +1,9 @@
-question: Hva er fokuset til dette universitetskurs?
-answer: Bitcoin-universet.
+question: Hvorfor anbefales tofaktorautentisering?
+answer: Det gir en ekstra Layer av sikkerhet
 wrong_answers:
-  - Den globale kryptovalutaindustrien.
-  - Fintech-industrien.
-  - Blockchain-industrien.
+  - Det forenkler tilgangen ved å redusere antall koder
+  - Den tillater pålogging uten passord
+  - Den erstatter bruken av en passordbehandler
 explanation: |
-  Hele fokuset til dette universitetet er på Bitcoin-universet, ikke krypto.
+  2FA krever en midlertidig kode i tillegg til passordet, noe som styrker beskyttelsen av en nettkonto betraktelig.
 reviewed: false

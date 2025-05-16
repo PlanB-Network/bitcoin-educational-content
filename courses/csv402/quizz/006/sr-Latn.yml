@@ -1,0 +1,9 @@
+question: U RGB, gde je Commitment kada je Single-Use Seal zatvoren?
+answer: U izlazu transakcije trošeći outpoint
+wrong_answers:
+  - U ulazu transakcije koja troši izlaznu tačku
+  - u skripti theSig transakcije koja troši outpoint
+  - U Svedoku transakcije koja troši izlaznu tačku
+explanation: |
+  Commitment je umetnut u izlaz transakcije koja troši izlaznu tačku definisanu Single-Use Seal.
+reviewed: false

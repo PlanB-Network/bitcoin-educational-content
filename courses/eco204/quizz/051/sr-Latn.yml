@@ -1,0 +1,11 @@
+question: Koja je bila rešenja koja je Nemačka usvojila da bi se suprotstavila inflaciji posle Prvog svetskog rata?
+answer: Kreiranje nove valute, Rentenmark
+wrong_answers:
+  - Dolariizacija
+  - Štampanje više novca
+  - Smanjenje novca Supply
+explanation: |
+  Nemačka je stvorila novu valutu, Rentenmark, kako bi se suprotstavila inflaciji
+  nakon Prvog svetskog rata. Ova valuta je bila podržana teritorijalnom imovinom Rajha, i
+  ova strategija se pokazala kao efikasna.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Apa yang ditawarkan Bitcoin kepada setiap individu?
-answer: Kesempatan untuk keluar dari sistem keuangan tradisional
+question: Profil mana yang mendukung akuisisi non-KYC dan penggunaan dompet yang sangat aman?
+answer: Paranoid
 wrong_answers:
-  - Kesempatan untuk cepat kaya
-  - Kesempatan untuk berinvestasi di saham
-  - Kesempatan untuk membuka rekening bank
+  - Hodler
+  - Penumpuk
+  - Pengguna aktif
 explanation: |
-  Bab tersebut menyatakan bahwa Bitcoin menawarkan setiap individu kesempatan untuk keluar
-  dari sistem keuangan tradisional. Ini adalah pilihan etis yang mungkin suatu hari nanti
-  harus diambil oleh setiap orang.
+  Paranoid memprioritaskan privasi dan keamanan, menggunakan metode akuisisi dan penyimpanan yang sangat aman.
+reviewed: false

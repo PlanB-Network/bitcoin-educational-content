@@ -1,0 +1,9 @@
+question: Jak nazywała się implementacja oprogramowania wydana przez Mike'a Hearna w marcu 2011 r., która wdrażała uproszczoną weryfikację płatności (SPV)?
+answer: BitCoinJ
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  Opublikował go [https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438] na licencji open-source (Apache 2.0), którą przypisał Google (swojemu ówczesnemu pracodawcy). Implementacja ta umożliwiła uruchomienie pierwszego lekkiego Wallet działającego na Androidzie.
+reviewed: false

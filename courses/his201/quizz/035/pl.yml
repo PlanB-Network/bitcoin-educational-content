@@ -1,0 +1,9 @@
+question: Kiedy miał miejsce pierwszy Exchange między Bitcoin a dolarem?
+answer: 12 października 2009 r
+wrong_answers:
+  - 8 maja 2009 r
+  - 30 grudnia 2009 r
+  - 11 marca 2010 r
+explanation: |
+  Martti przelał 5 050 bitcoinów do NLS, który następnie przelał 5,02 USD na jego konto PayPal. Odpowiadało to cenie jednostkowej wynoszącej około 0,001 USD.
+reviewed: false

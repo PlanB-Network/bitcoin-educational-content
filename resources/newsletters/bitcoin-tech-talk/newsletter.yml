@@ -1,7 +1,7 @@
 id: 0490de2d-0e74-4ceb-a184-af14f3101ca0
 title: "Bitcoin Tech Talk"
 author: Jimmy Song
-level: expert
+level: advanced
 publication_date: 2020-01-27
 link:
   - website: https://jimmysong.substack.com/
@@ -22,8 +22,8 @@ description: |
   podcast. Whether you're a developer, investor, or simply a technically-minded
   Bitcoin enthusiast, Jimmy Song's weekly newsletter provides an invaluable window
   into the inner workings of the world's premier cryptocurrency.
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
 tags:
   - technical-analysis
   - development

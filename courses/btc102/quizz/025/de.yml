@@ -1,11 +1,9 @@
-question: Welche Rolle spielen Miner im Bitcoin-Netzwerk?
-answer: Um die übermittelten Transaktionen in der Bitcoin-Blockchain aufzuzeichnen.
+question: Welches Merkmal unterscheidet Bitcoin hauptsächlich von Altcoins?
+answer: Dezentralisierung
 wrong_answers:
-  - Um neue Bitcoins zu erstellen
-  - Um den Wert von Bitcoins zu regulieren
-  - Um die Identität von Bitcoin-Benutzern zu überprüfen
+  - Liquidität
+  - Reputation
+  - Datenschutz
 explanation: |
-  Miner im Bitcoin-Netzwerk sind dafür verantwortlich, die Transaktionen aufzuzeichnen,
-  die über das Netzwerk in die Bitcoin-Blockchain übertragen wurden. Dies gewährleistet
-  die Endgültigkeit der Transaktionen.
+  Bitcoin ist für seine Dezentralisierung bekannt, im Gegensatz zu den meisten Altcoins, die mehr oder weniger zentralisiert sind.
 reviewed: false

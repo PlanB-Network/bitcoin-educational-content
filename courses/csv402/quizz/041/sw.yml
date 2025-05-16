@@ -1,0 +1,9 @@
+question: Ni Elements gani inahitajika ili kuunda chaneli ya Umeme inayobeba mali ya RGB?
+answer: Ufadhili katika bitcoins na ufadhili katika mali ya RGB
+wrong_answers:
+  - Ufadhili wa Bitcoin pekee wa kuanzia
+  - Ufadhili wa RGB pekee wa kuanzia
+  - Hakuna ufadhili unaohitajika
+explanation: |
+  Kituo kinahitaji ufadhili wa Bitcoin kwenye 2/2 Multisig, pamoja na ufadhili wa kipengee wa RGB ili kutenga mali kwenye chaneli hiyo hiyo.
+reviewed: false

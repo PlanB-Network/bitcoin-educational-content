@@ -1,0 +1,9 @@
+question: Šta je funkcija Hash koja se koristi za izračunavanje kontrolnog zbira Mnemonic fraze?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  Kontrolni zbir fraze Mnemonic se izračunava primenom jednostavnog SHA256 Hash na entropiju.
+reviewed: false

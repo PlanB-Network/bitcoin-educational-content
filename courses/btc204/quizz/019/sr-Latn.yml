@@ -1,0 +1,9 @@
+question: Koji su heuristički lanci analize pomenuti od strane Satoshi Nakamoto u Bitcoin White Paper-u?
+answer: CIOH i Address ponovna upotreba.
+wrong_answers:
+  - Grupisanje po potpisu i vremenskoj korelaciji.
+  - Zaokružene isplate i veliki rezultat.
+  - Analiza volumena i sličnosti skripti.
+explanation: |
+  U delu 10 Bitcoin Bele Bele, Satoshi Nakamoto upozorava korisnike na CIOH (Common Input Ownership Heuristic) i ponovnu upotrebu istog para ključeva.
+reviewed: false

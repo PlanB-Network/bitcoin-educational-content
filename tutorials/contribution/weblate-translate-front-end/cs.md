@@ -14,7 +14,7 @@ V tomto návodu vám ukážeme, jak snadno přispět k překladu statických prv
 
 K překladu vzdělávacího obsahu používáme [umělou inteligenci](https://github.com/Asi0Flammeus/LLM-Translator). K opravě případných chyb v těchto souborech pak vyzýváme korektory, aby přispěli. Pokud chcete provést korekturu některého obsahu, nahlédněte do následujícího návodu:
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Na druhou stranu, pokud máte zájem o překlad statických prvků webových stránek (kromě vzdělávacího obsahu), jste na správném místě! K efektivnímu překladu frontendu používáme nástroj Weblate, který je velmi jednoduchý na používání a usnadňuje přístup k překladu.
 
 Pokud chcete do sítě Plan ₿ Network přidat zcela nový jazyk, kontaktujte tým Plan ₿ Network prostřednictvím naší [telegramové skupiny](https://t.me/PlanBNetwork_ContentBuilder). Pokud telegram nemáte, můžete poslat e-mail na adresu mari@planb.network. Nezapomeňte napsat malou prezentaci o tom, kdo jste a jaké jazyky ovládáte.
@@ -23,7 +23,7 @@ Pokud chcete do sítě Plan ₿ Network přidat zcela nový jazyk, kontaktujte t
 
 Před přidáním nového jazyka do Weblate postupujte podle tohoto konkrétního návodu.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Až budete připraveni začít překládat, vraťte se k tomuto návodu a projděte si následující body.
 
 ## Registrace na Weblate

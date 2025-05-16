@@ -1,0 +1,9 @@
+question: Šta je Blockchain trilema?
+answer: Protokol zasnovan na Blockchain može zadovoljiti samo dva od kriterijuma decentralizacije, sigurnosti i skalabilnosti.
+wrong_answers:
+  - Protokol zasnovan na Blockchain može zadovoljiti samo jedan od kriterijuma decentralizacije, sigurnosti i skalabilnosti.
+  - Protokol zasnovan na Blockchain može zadovoljiti sve kriterijume decentralizacije, sigurnosti i skalabilnosti.
+  - Protokol zasnovan na Blockchain ne može zadovoljiti nijedan od kriterijuma decentralizacije, sigurnosti i skalabilnosti.
+explanation: |
+  Blockchain trilema odnosi se na izazov da protokol zasnovan na Blockchain može zadovoljiti samo dva kriterijuma od decentralizacije, sigurnosti i skalabilnosti.
+reviewed: true

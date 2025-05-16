@@ -1,0 +1,14 @@
+question: Šta je koncept apsolutne prednosti u kontekstu podele rada?
+answer: Pojedinac poseduje superiornu sposobnost da obavlja određene zadatke bolje od svojih vršnjaka.
+wrong_answers:
+  - Pojedinac poseduje superiornu sposobnost da obavlja sve zadatke bolje od svojih vršnjaka.
+  - Pojedinac poseduje jednaku sposobnost za obavljanje određenih zadataka kao i njegovi vršnjaci.
+  - Pojedinac poseduje inferiornu sposobnost za obavljanje određenih zadataka nego njegov
+explanation: |
+  U kontekstu podele rada, apsolutna prednost
+  odnosi se na situaciju u kojoj pojedinac ima superiornu
+  sposobnost da obavlja određene zadatke bolje od svojih vršnjaka. Ovaj
+  pojedinac tada ima interes da se specijalizuje u
+  proizvodnji te robe i zatim razmenjuje višak
+  dobijen za robu koju želi.
+reviewed: true

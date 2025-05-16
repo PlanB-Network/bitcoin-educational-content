@@ -1,0 +1,11 @@
+question: Jakie jest główne wyzwanie związane z Bitcoin Mining?
+answer: Branża Mining jest niezwykle konkurencyjna i niestabilna, a nieprzewidziane zdarzenia mogą zakłócić operacje Mining.
+wrong_answers:
+  - Głównym wyzwaniem jest znalezienie niezawodnego źródła energii elektrycznej.
+  - Głównym wyzwaniem jest znalezienie bezpiecznego miejsca do przechowywania wydobytych bitcoinów.
+  - Głównym wyzwaniem jest znalezienie kupca na wydobyte bitcoiny.
+explanation: |
+  Głównym wyzwaniem związanym z Bitcoin Mining jest to, że
+  branża Mining jest niezwykle konkurencyjna i niestabilna,
+  a nieprzewidziane zdarzenia mogą zakłócić działalność Mining.
+reviewed: true

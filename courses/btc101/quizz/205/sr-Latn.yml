@@ -1,0 +1,8 @@
+question: Koji je jedan od razloga zašto bi trebalo s vremena na vreme konsolidovati svoje UTXO-ove u svojim novčanicima?
+answer: Da biste izbegli nepotrebne naknade tokom transakcija.
+wrong_answers:
+  - Da povećate vrednost svojih bitkoina.
+  - Da sprečite krađu vaših bitkoina.
+  - Da biste osigurali da su vaši bitkoini uvek dostupni.
+explanation: >-
+reviewed: true

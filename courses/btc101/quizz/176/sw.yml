@@ -1,0 +1,8 @@
+question: Ni sifa gani ya kipekee ya itifaki ya Bitcoin?
+answer: Inafanya kazi kwa kiwango cha kimataifa, masaa 24 kwa siku, siku 7 kwa wiki.
+wrong_answers:
+  - Inafanya kazi wakati wa saa za kazi pekee.
+  - Inadhibitiwa na mamlaka kuu.
+  - Inaweza kudukuliwa kwa urahisi.
+explanation: >-
+reviewed: true

@@ -1,0 +1,11 @@
+question: Zašto je praktično iskustvo važno u sajber bezbednosti?
+answer: Omogućava vam da primenite svoje teorijsko znanje u stvarnim situacijama.
+wrong_answers:
+  - To je zahtev za sve poslove u sajber bezbednosti.
+  - To je važnije od akademskog znanja
+  - To je jedini način da se nauči o sajber bezbednosti.
+explanation: |
+  Poglavlje naglašava važnost praktičnog
+  iskustva jer vam omogućava da primenite svoje teorijsko
+  znanje u stvarnim situacijama.
+reviewed: true

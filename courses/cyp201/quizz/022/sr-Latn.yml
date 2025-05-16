@@ -1,0 +1,9 @@
+question: Kako se javni ključ izračunava iz privatnog ključa?
+answer: Korišćenjem skalarne multiplikacije na eliptičnoj krivi
+wrong_answers:
+  - Primenom Hash na privatni ključ
+  - Kroz asimetričnu enkripciju
+  - Sa ponovljenim dodavanjem numeričkih vrednosti
+explanation: |
+  Javni ključ se dobija skalarnim množenjem privatnog ključa sa generatorom G na eliptičnoj krivoj.
+reviewed: false

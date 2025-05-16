@@ -1,0 +1,9 @@
+question: Koja je svrha Terminal Consignment u procesu prenosa RGB?
+answer: Pružite istoriju prelaza stanja
+wrong_answers:
+  - Potvrdi Genesis Contract
+  - Izbriši stare tranzicije
+  - generate nova Schema za transfer
+explanation: |
+  Terminal Consignment prikuplja istoriju Contract kako bi dokazao legitimnost prenetog sredstva do danas.
+reviewed: false

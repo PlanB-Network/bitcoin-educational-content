@@ -1,0 +1,9 @@
+question: Kwa nini kutoweza kutenduliwa kunahakikishwa katika SHA256?
+answer: Shughuli zinazotumika huondoa taarifa na ni za njia moja
+wrong_answers:
+  - Ujumbe husimbwa kwa njia fiche kabla ya hashing
+  - Biti hupangwa upya kwa nasibu
+  - Kila Hash imehifadhiwa kwenye hifadhidata
+explanation: |
+  Operesheni kama vile ShR na XOR hufanya isiwezekane kurudi katika hali ya awali, na kuhakikisha kutoweza kutenduliwa.
+reviewed: false

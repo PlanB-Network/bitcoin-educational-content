@@ -1,0 +1,9 @@
+question: Blockchain का मुख्य काम Client-side Validation पैराडाइम में क्या है जिसे RGB इस्तेमाल करता है?
+answer: समय स्टैम्पिंग प्रदान करें और डबल खर्च को रोकें
+wrong_answers:
+  - सभी स्टेट ट्रांज़िशन्स को स्टोर करो
+  - Smart contract डेटा को दोहराना
+  - वैश्विक डेटा उपलब्धता की गारंटी दें
+explanation: |
+  Bitcoin Blockchain का इस्तेमाल RGB में कमिटमेंट्स को टाइम-स्टैम्प करने और Double-spending को रोकने के लिए किया जाता है, बिना सभी स्टेट ट्रांजिशन्स को स्टोर किए।
+reviewed: false

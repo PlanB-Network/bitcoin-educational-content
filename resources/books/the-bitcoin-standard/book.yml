@@ -6,82 +6,108 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.19
+    contributor_names:
+    reward: 0.22
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.09
+    reward: 0.11
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.22
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.19
+    contributor_names:
+    reward: 0.22
   - language: it
     last_contribution_date: 2025-02-06
     urgency: 1
-    contributors_id:
+    contributor_names:
       - PaoloFoti
     reward: 0.11
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.36
+    contributor_names:
+    reward: 0.35
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.19
+    contributor_names:
+    reward: 0.22
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.36
+    contributor_names:
+    reward: 0.35
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.32
+    contributor_names:
+    reward: 0.31
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.32
+    contributor_names:
+    reward: 0.31
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.39
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.27
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.27
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.27
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.31
 tags:
   - finance
   - historical
   - market-trends
+contributor_names:
+  - Rogzy-DB

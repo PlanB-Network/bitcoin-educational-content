@@ -1,11 +1,9 @@
-question: Mikä on Bitcoin Core -kehittäjien päärooli?
-answer: He ovat vastuussa Bitcoin-protokollan ja sen keskeisten ominaisuuksien pääkehityksestä
+question: Miksi on suositeltavaa siirtää varoja säännöllisesti Hot Wallet:stä Hardware Wallet:een?
+answer: Hakkeroinnin riskin vähentäminen
 wrong_answers:
-  - He hallitsevat Bitcoin-verkkoa
-  - He luovat uusia bitcoineja
-  - He säätelevät Bitcoinin hintaa
+  - Wallet:n likviditeetin lisääminen
+  - Transaktiomaksujen vähentäminen
+  - UTXO:n yksityisyyden optimointi
 explanation: |
-  Luvun sisältö selittää, että Bitcoin Core -kehittäjät ovat vastuussa
-  Bitcoin-protokollan ja sen keskeisten ominaisuuksien pääkehityksestä. He eivät
-  hallitse Bitcoin-verkkoa, luo uusia bitcoineja, tai säätele Bitcoinin hintaa.
+  Siirtäminen Hardware Wallet:een turvaa varat tallentamalla yksityiset avaimet offline-tilassa.
 reviewed: false

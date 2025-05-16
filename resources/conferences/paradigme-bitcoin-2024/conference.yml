@@ -1,7 +1,6 @@
 id: bcd263ac-390b-4f28-be8c-836c716e54fb
 year: 2024-06
 name: Le Paradigme Bitcoin 2024
-builder: Paradigme Bitcoin
 location: La Chaux-de-Fonds
 language:
   - fr
@@ -15,7 +14,7 @@ proofreading:
   - language: en
     last_contribution_date: "2025-03-04"
     urgency: 0
-    contributors_id:
+    contributor_names:
       - PaoloFoti
     reward: 0.05
 tags:

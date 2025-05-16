@@ -1,0 +1,9 @@
+question: Šta podrazumeva procena stope Hash člana zadruge putem delimičnog Proof of Work?
+answer: Preuzimanje dokaza o radu nižeg stepena nego što je mrežna težina koju je proizveo hešer
+wrong_answers:
+  - Preuzimanje otiska pečata uključujući prvi bajt svakog bloka Hash koji je proizveo hešer
+  - Preuzimanje računa za struju hešera svakog meseca
+  - Preuzimanje dokaza o radu proizvedenih na mreži niže težine, kao što je BitDNS
+explanation: |
+  Ovu jednostavnu metodu predložili su ribuck, Nils Schneider i Gavin Andresen [na forumu](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) 14. oktobra 2010. ()
+reviewed: false

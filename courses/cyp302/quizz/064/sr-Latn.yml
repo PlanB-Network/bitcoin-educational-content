@@ -1,0 +1,9 @@
+question: Šta osigurava kod za autentifikaciju poruke (MAC) u kriptografskom sistemu?
+answer: Integritet i autentičnost poruke
+wrong_answers:
+  - Poverljivost poruke
+  - Kompresija poruke
+  - Pretvaranje poruke u binarni oblik
+explanation: |
+  Kod za autentifikaciju poruke (MAC) koristi se kako bi se osiguralo da poruka nije izmenjena i da zaista dolazi od pretpostavljenog pošiljaoca.
+reviewed: false

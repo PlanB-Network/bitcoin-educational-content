@@ -1,0 +1,9 @@
+question: Koja je jedna preporučena praksa u vezi sa starateljstvom prilikom sticanja Bitcoin?
+answer: Razmotrite rešenja za samostalno čuvanje nakon početnih kupovina, kako bi poslovanje zaista kontrolisalo svoju imovinu.
+wrong_answers:
+  - Nikada ne povlačite Bitcoin iz Exchange ni pod kojim okolnostima.
+  - Uvek verujte jednom čuvaru bez pregleda mera bezbednosti.
+  - Skladišti sve Bitcoin na javnom vebsajtu sa jednostavnom lozinkom
+explanation: |
+  Nakon kupovine Bitcoin, premeštanje na samostalno čuvanje Wallet osigurava da poslovanje ima direktnu kontrolu nad svojim sredstvima. Iako treća lica kao čuvari mogu biti pogodna, samostalno čuvanje je u skladu sa Bitcoin principom finansijskog suvereniteta.
+reviewed: false

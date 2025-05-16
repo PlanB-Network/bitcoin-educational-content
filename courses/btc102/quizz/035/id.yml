@@ -1,9 +1,9 @@
-question: Siapa yang mendeskripsikan Bitcoin sebagai bank Swiss di saku Anda?
-answer: Barack Obama
+question: Solusi penyimpanan apa yang direkomendasikan untuk hodler?
+answer: A Hardware Wallet
 wrong_answers:
-  - Donald Trump
-  - Bill Gates
-  - Elon Musk
+  - A Hot Wallet
+  - Layanan kustodian
+  - Sebuah kertas Wallet
 explanation: |
-  Bab tersebut menyebutkan bahwa Barack Obama pernah mendeskripsikan Bitcoin sebagai bank Swiss di saku Anda.
+  Seorang hodler, yang menyimpan bitcoin untuk jangka panjang, harus menggunakan Hardware Wallet untuk memaksimalkan keamanan.
 reviewed: false

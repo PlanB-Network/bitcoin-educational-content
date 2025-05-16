@@ -1,0 +1,9 @@
+question: Među ovim rizicima, koji nije povezan sa gotovinskim P2P razmenama?
+answer: Rizik od curenja podataka.
+wrong_answers:
+  - Rizik po ličnu bezbednost.
+  - Rizik od krađe.
+  - Pravni rizik.
+explanation: |
+  Gotovinske P2P razmene predstavljaju mnoge rizike, ali ne zahtevaju obavljanje KYC. Stoga, ne postoji rizik od curenja podataka.
+reviewed: false

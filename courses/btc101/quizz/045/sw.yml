@@ -1,0 +1,13 @@
+question: Je, ni kipengele gani muhimu cha Bitcoin ambacho kinaitofautisha na sarafu za fiat?
+answer: Sera yake ya fedha inatekelezwa na makubaliano ya jumla.
+wrong_answers:
+  - Inaweza kuchapishwa kwa kiasi cha ukomo na benki kuu.
+  - Inasaidiwa na bidhaa halisi kama dhahabu au fedha.
+  - Inadhibitiwa na benki kuu.
+explanation: |
+  Kwa sababu ya ugatuzi wake na asili ya kriptografia,
+  Bitcoin haiwezi kughushiwa na imezuiwa kwa milioni 21
+  vitengo. Hiki ni kipengele muhimu kinachoitofautisha nayo
+  fedha za fiat, ambazo hufuata sera ya fedha ambayo inaweza kuwa
+  kubadilishwa na benki kuu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je svrha operacije pomeranja redova u AES-u?
+answer: Da bi se povećala difuzija preuređivanjem bajtova u tabeli stanja
+wrong_answers:
+  - Osigurajte da svaki blok bude iste dužine
+  - Primeni tajni ključ na svaki red tabele stanja
+  - Uvedite dodatnu zabunu zamenom bajtova
+explanation: |
+  Operacija pomeranja redova u AES-u preuređuje bajtove u tabeli stanja kako bi se informacije raspršile, čime se povećava difuzija.
+reviewed: false

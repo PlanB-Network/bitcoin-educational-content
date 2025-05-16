@@ -1,0 +1,9 @@
+question: Šta je svrha fraze Mnemonic u Bitcoin HD Wallet?
+answer: Da deterministički izvedete sve ključeve
+wrong_answers:
+  - Da direktno potpišete transakcije
+  - Da šifrujete Bitcoin adrese
+  - Za generate i Hash za UTXO-e
+explanation: |
+  Mnemonic fraza omogućava izvođenje svih privatnih i javnih ključeva u Wallet, čime se olakšava bekap i oporavak.
+reviewed: false

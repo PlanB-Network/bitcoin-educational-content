@@ -1,10 +1,9 @@
-question: Was ist eine Hot Wallet im Zusammenhang mit Bitcoin?
-answer: Eine Wallet zum Speichern kleiner Mengen von Bitcoin online.
+question: Welche Rolle spielt der Bitcoin-Erbschaftsbrief in einem Nachlassplan?
+answer: Anleitung der Erben beim Zugriff auf die Mittel
 wrong_answers:
-  - Eine Wallet, die in heißen Klimazonen für Transaktionen verwendet wird.
-  - Eine Wallet, die zum Speichern großer Mengen von Bitcoin verwendet wird.
-  - Eine Wallet, die zum langfristigen Speichern von Bitcoin verwendet wird.
+  - Als Contract für die Übertragung von Bitcoins an Erben zu dienen
+  - Um die steuerliche Verteilung des Vermögens zu bestimmen
+  - Zur Optimierung der Transfergebühren zwischen Wallets
 explanation: |
-  Eine Hot Wallet ist eine Wallet zum Speichern kleiner Mengen von Bitcoin online.
-  Sie gilt als weniger sicher als eine Cold Wallet, da sie anfälliger für Hacking ist.
+  Der Erbschaftsbrief enthält klare und präzise Anweisungen, damit die Angehörigen die Bitcoins zurückerhalten können.
 reviewed: false

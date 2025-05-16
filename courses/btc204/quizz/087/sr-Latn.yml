@@ -1,0 +1,9 @@
+question: Kako Wabisabi upravlja promenama u poređenju sa Wasabi 1.0?
+answer: Podeli ga na nekoliko malih iznosa raspoređenih u jednakim apoenima.
+wrong_answers:
+  - Konsoliduje ih kako bi sprečio da postanu Dust.
+  - Isključuje ih pre transakcije CoinJoin izjednačavanjem ulaza.
+  - Automatski ga prenosi u rezervni Wallet.
+explanation: |
+  Za razliku od Wasabi 1.0, gde je promena bila direktno povezana sa unosima korisnika, Wabisabi ima za cilj da podeli promenu na nekoliko malih iznosa, raspoređenih u jednake denominacije svim učesnicima.
+reviewed: false

@@ -1,11 +1,11 @@
 question: Perché la privacy è importante nel contesto di Bitcoin?
-answer: Per minimizzare il rischio che i tuoi fondi vengano tracciati.
+answer: Per minimizzare il rischio che i fondi vengano tracciati.
 wrong_answers:
-  - Per diminuire il valore dei tuoi bitcoin.
-  - Per prevenire il furto dei tuoi bitcoin.
-  - Per pagare le tasse sui tuoi bitcoin.
+  - Per diminuire il valore dei propri bitcoin.
+  - Per prevenire il furto dei propri bitcoin.
+  - Per pagare le tasse sui propri bitcoin.
 explanation: |
   La privacy è importante nel contesto di Bitcoin per minimizzare
-  i rischi che i tuoi fondi vengano tracciati, il che può facilitare
-  la tua sorveglianza.
+  i rischi che i fondi vengano tracciati, cosa che può facilitare
+  la sorveglianza.
 reviewed: true

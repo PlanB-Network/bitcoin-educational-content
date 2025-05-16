@@ -1,0 +1,9 @@
+question: Šta je koncept "skin in the game" u kontekstu industrije video igara?
+answer: Imati finansijski udeo u ishodu igre.
+wrong_answers:
+  - Prilagođavanje likova jedinstvenim skinovima koji poboljšavaju igru.
+  - Kupovina predmeta u igri pravim novcem.
+  - Prodaja skinova za igre za pravi novac.
+explanation: |
+  Koncept "skin in the game" je ideja koja je nedavno stekla popularnost u industriji video igara. U suštini se odnosi na ideju da programeri i zainteresovane strane imaju ličnu investiciju ili ulog u uspehu igre, što usklađuje njihove interese sa isporukom kvalitetnog proizvoda.
+reviewed: true

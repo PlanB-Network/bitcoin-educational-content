@@ -1,0 +1,9 @@
+question: Koja je važnost korišćenja jake lozinke za bezbednost računara?
+answer: Da se spreči neovlašćen pristup sistemu.
+wrong_answers:
+  - Da sistem radi brže.
+  - Da se poveća kapacitet skladištenja.
+  - Da poboljšate korisnika Interface.
+explanation: |
+  Jaka lozinka je ključna za bezbednost računara kako bi se sprečio neovlašćen pristup sistemu.
+reviewed: true

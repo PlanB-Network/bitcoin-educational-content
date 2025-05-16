@@ -1,0 +1,10 @@
+question: Jaką strategię stosuje Wabisabi, aby zwiększyć zaangażowanie uczestników?
+answer: Z kilkoma bardzo dużymi transakcjami.
+wrong_answers:
+  - Z wieloma bardzo małymi transakcjami.
+  - Z jedną małą transakcją.
+  - Bez żadnych transakcji.
+explanation: |
+  Aby zwiększyć liczbę uczestników, Wabisabi wykorzystuje bardzo duże transakcje CoinJoin, które grupują dziesiątki uczestników.
+  
+reviewed: false

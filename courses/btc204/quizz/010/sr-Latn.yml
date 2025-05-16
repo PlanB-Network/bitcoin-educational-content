@@ -1,0 +1,9 @@
+question: Na novčiću, koja su 3 osnovna kriterijuma koja omogućavaju osobi da bude sigurna da ga može kasnije potrošiti?
+answer: Novčić mora biti netaknut, autentičan i ne sme biti dvostruko potrošen.
+wrong_answers:
+  - Novčić mora biti drevan, redak i u dobrom stanju.
+  - Novčić mora biti univerzalno prihvaćen, legalan i čuvan u banci.
+  - Novčić mora biti odobren od strane države, registrovan i izdržljiv.
+explanation: |
+  Svaka racionalna osoba koja želi da prihvati novčić, bilo digitalni ili fizički, osigurava da nije izmenjen, da je zaista pravi novčić i da ga izdavalac ne može ponovo koristiti.
+reviewed: false

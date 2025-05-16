@@ -11,10 +11,12 @@ proofreading:
   - language: en
     last_contribution_date: 2025-02-19
     urgency: 1
-    contributors_id:
+    contributor_names:
       - jramos0
     reward: 0
 tags:
   - keys
   - backup
   - personal-security
+contributor_names:
+  - Asi0Flammeus

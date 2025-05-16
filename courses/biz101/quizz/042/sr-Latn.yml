@@ -1,0 +1,9 @@
+question: U većini jurisdikcija, šta pokreće oporezivi događaj kada se radi o Bitcoin?
+answer: Prodaja, trgovina ili korišćenje Bitcoin kao sredstva plaćanja često izaziva oporezivi događaj.
+wrong_answers:
+  - Jednostavno držanje Bitcoin na neodređeno vreme bez ikakvih transakcija.
+  - Pravljenje rezervne kopije vaših Bitcoin Wallet ili ključeva.
+  - Pregled cene za Bitcoin na mreži.
+explanation: |
+  Tipično, oporezivi događaj se dešava kada preduzeće otuđi ili koristi svoj Bitcoin, ne samo držanjem istog. Svaka prodaja ili Exchange Bitcoin za robu, usluge ili fiat valutu može generate oporezive dobitke ili gubitke.
+reviewed: false

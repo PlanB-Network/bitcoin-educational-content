@@ -23,15 +23,17 @@ proofreading:
     contributor_names:
     reward: 7.01
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 7.01
+      - 2raj2raj
+    reward: 3.51
   - language: es
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 7.01
+      - lutxoitalico
+    reward: 3.51
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
@@ -77,10 +79,11 @@ proofreading:
     contributor_names:
     reward: 9.31
   - language: id
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 11.62
+      - MilankovicProtocol
+    reward: 5.81
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

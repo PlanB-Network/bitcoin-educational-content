@@ -1,8 +1,4 @@
-QUIZZ
-ÉCOLE DE LA LIBERTÉ
-
-
-Introduction
+<chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
 
 1) À la fin du XVIIe siècle, quel ministre devient la référence des hommes d’État en matière d’économie ?
 a) Turgot
@@ -40,7 +36,7 @@ d) D'une absence totale de règles, laissant libre cours à l'initiative individ
 bonne reponse: b
 
 
-Vauban
+<chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
 
 1) De quand date la première proposition de réforme fiscale de Vauban ?
 a) 1693
@@ -78,7 +74,7 @@ d) Parce que cela permet de financer les guerres et d'assurer la grandeur du roy
 bonne reponse: a
 
 
-Boisguilbert
+<chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
 
 1) Boisguilbert a en commun avec Vauban :
 a) D’avoir longuement décrit la misère du peuple des campagnes et d'avoir commencé par une carrière littéraire
@@ -116,7 +112,7 @@ d) La France prospère sous le règne de Louis XIV, grâce à qui et comment, av
 bonne reponse: a
 
 
-Cantillon
+<chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
 
 1) Qui a qualifié Cantillon de fondateur de la science économique ?
 a) Joseph A. Schumpeter
@@ -154,7 +150,7 @@ d) La révolution anglaise
 bonne reponse: b
 
 
-L’abbé de Saint-Pierre
+<chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
 
 1) Quel économiste français du XIXe siècle a consacré un livre à l’abbé de Saint-Pierre ?
 a) Frédéric Bastiat
@@ -191,9 +187,8 @@ c) Une nation qui échange est toujours plus riche qu’une nation qui vit dans 
 d) Parce que Dieu le veut
 bonne reponse: a
 
-ici
 
-Le marquis d’Argenson
+<chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
 
 1) Avant le marquis d’Argenson, l’idée du laissez-faire fut développée par :
 a) Boisguilbert
@@ -216,22 +211,22 @@ c) L’Etat n’a aucune légitimé, il ne doit offrir aucun service
 d) Un Etat interventionniste : il doit réguler tous les aspects de la vie économique
 bonne reponse: b
 
-4) A quoi comparait-il la société ?
+4) A quoi le marquis d'Argenson comparait la société ?
 a) À un fleuve, qui coule naturellement sans l’intervention des lois 
 b) À une jungle, où seule règne la loi du plus fort
 c) À une ruche d’abeille, où chaque insecte agit selon son intérêt et où il en résulte le bien-être commun
 d) A une machine complexe nécessitant un entretien constant
 bonne reponse: a
 
-5) Que répondait-il aux ministres de son époque, qui proposaient de réglementer telle ou telle activité économique ?
+5) Que répondait le marquis d'Argenson aux ministres de son époque, qui proposaient de réglementer telle ou telle activité économique ?
 a) Qu’il fallait d’abord laisser cette activité arriver à maturité avant de la réglementer
- b) Qu’il fallait suivre les règlements qu’avaient fait les Anglais et les Hollandais
+b) Qu’il fallait suivre les règlements qu’avaient fait les Anglais et les Hollandais
 c) Qu’il fallait d’abord s’assurer que la réglementation valait mieux que la liberté
 d) Qu'il fallait consulter le peuple avant de prendre une décision
 bonne reponse: c
 
 
-Vincent de Gournay
+<chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
 
 1) Quelles nations Vincent de Gournay propose-t-il comme modèles ?
 a) La Hollande et la Suisse
@@ -268,7 +263,7 @@ c) La prohibition du prêt à intérêt
 d) La dîme
 bonne reponse: c
 
-Le groupe de Gournay
+<chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
 
 1) Quelle est la particularité des écrits issus du cercle de Gournay ?
 a) Ce sont des écrits défendant tous le libéralisme économique
@@ -282,9 +277,9 @@ a) Véron de Forbonnais
 b) Turgot
 c) Dupont de Nemours
 d) Adam Smith
-bonne reponse: d
+bonne reponse: c
 
-3) Quelle thèse défend le court roman Chinki : histoire cochininoise applicable à d’autres pays ?
+3) Quelle thèse défend le court roman Chinki, histoire cochininoise applicable à d’autres pays ?
 a) Que les réglements corporatifs empêchent les hommes de travailler et découragent l’effort
 b) Que la Cochinchine est un exemple de gouvernement libéral
 c) Que le commerce des grains doit être libre par tous les ports
@@ -305,9 +300,9 @@ c) Les Traités sur le commerce de Josiah Child
 d) Le Prince de Machiavel
 bonne reponse: a
 
-Mirabeau
+<chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
 
-1) Paru anonymement, l’Ami des Hommes fit une telle impression qu’on l’attribua d’abord à :
+1) Paru anonymement, l’Ami des Hommes fit une telle impression qu’on l’attribua d’abord à ?
 a) Voltaire
 b) Diderot
 c) Montesquieu
@@ -328,7 +323,7 @@ c) L’Essai sur la nature du commerce en général
 d) Le Contrat Social
 bonne reponse: a
 
-4) Mirabeau a eut un rôle actif au sein de l’école physiocratique. Il a notamment converti :
+4) Mirabeau a eut un rôle actif au sein de l’école physiocratique. Qui a-t-il notamment converti ?
 a) François Quesnay
 b) Turgot
 c) Dupont de Nemours
@@ -343,8 +338,9 @@ d) La nécessité d'un gouvernement fort et centralisé
 bonne reponse: a
 
 Quesnay
+<chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
 
-1) Avant l’économie, Quesnay eut une carrière médicale. Il était :
+1) Avant l’économie, quelle profession médicale Quesnay avait-il ?
 a) Chirurgien
 b) Dentiste
 c) Infirmier
@@ -358,7 +354,7 @@ c) Il était son médecin personnel
 d) Il était son conseiller financier
 bonne reponse: c
 
-3) 1757 marque la naissance de la Physiocratie quand Quesnay publie dans l’Encyclopédie deux articles :
+3) 1757 marque la naissance de la Physiocratie, quels sont les deux que publie Quesnay publie dans l’Encyclopédie ?
 a) Intérêt de l’argent et Agriculture
 b) Culture des terres et Assolement
 c) Fermiers et Grains
@@ -379,7 +375,7 @@ c) Leur complaisance avec le pouvoir de Louis XV
 d) Leur manque de rigueur scientifique
 bonne reponse: b
 
-Les Physiocrates (1) Histoire
+<chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
 
 1) Quel personnage représente le chaînon manquant entre Boisguilbert et les Physiocrates ?
 a) Voltaire
@@ -393,21 +389,21 @@ a) Louis XV
 b) François Quesnay
 c) Madame de Pompadour
 d) Voltaire
-bonne reponse: b
+bonne reponse: c
 
-3) Quel est le nom du journal des Physiocrates 
+3) Quel est le nom du journal des Physiocrates ?
 a) Les Ephémérides du Peuple
 b) Le Nouveau Citoyen
 c) Les Ephémérides du Citoyen
 d) Le Journal des Économistes
 bonne reponse: c
 
-4) Parmi ces auteurs, qui n’a pas critiqué les Physiocrates ?
+4) Parmi ces auteurs, lequel n’a pas critiqué les Physiocrates ?
 a) Voltaire
 b) Condorcet
 c) Condillac
 d) Adam Smith
-bonne reponse: c
+bonne reponse: b
 
 5) Dans quels pays des réformes économiques inspirées par la Physiocratie furent-ils appliquées ?
 a) La France, l’Italie, l’Allemagne
@@ -416,9 +412,9 @@ c) La Hollande, l’Italie, la Suède
 d) L'Espagne, le Portugal, la Russie
 bonne reponse: a
 
-Les Physiocrates (2) Fondements de doctrine
+<chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
 
-1) Pour les Physiocrates, il existe une différence entre la production et le gain. En d’autres termes,
+1) Pour les Physiocrates, quelle est la différence entre la production et le gain ?
 a) L’industriel et le négociant peuvent gagner, mais il n’y a que l’agriculteur qui produit, car la production est une création de matière utile
 b) L’industriel et le négociant peuvent ne pas dégager de profits. Seule l’agriculture rapporte nécessairement des bénéfices.
 c) L’agriculteur peut gagner, mais il n’y a que l’industriel et le négociant qui produisent, car produire c’est rendre un service
@@ -437,9 +433,9 @@ a) Toujours profitable et toujours utile
 b) Souvent profitable et toujours morale
 c) Toujours utile et jamais nuisible
 d) Parfois profitable et parfois nuisible
-bonne reponse: a
+bonne reponse: c
 
-4) Dans un projet de loi soumis à l’Assemblée constituante, Dupont de Nemours proposait d’interdire :
+4) Dans un projet de loi soumis à l’Assemblée constituante, qu'est ce que Dupont de Nemours proposait-il d’interdire ?
 a) Les guerres commerciales
 b) Les guerres défensives
 c) Les guerres offensives
@@ -453,7 +449,8 @@ c) Les Physiocrates comptaient dans leur rang plusieurs hauts personnages de la 
 d) Ils pensaient que le peuple était trop ignorant pour prendre des décisions éclairées
 bonne reponse: b
 
-Les Physiocrates (3) Réalisations et influence
+
+<chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
 
 1) Pour quelle raison l’application des idées physiocratiques en Allemagne fut finalement avortée ?
 a) Les fonctionnaires en place y étaient peu favorables
@@ -481,7 +478,7 @@ a) Dupont de Nemours
 b) Le marquis de Mirabeau
 c) Louis-Paul Abeille
 d) François Quesnay
-bonne reponse: d
+bonne reponse: b
 
 5) Où Adam Smith et les Physiocrates se sont-ils rencontrés ?
 a) À Glasgow
@@ -490,7 +487,7 @@ c) À Paris
 d) Ils ne se sont jamais rencontrés
 bonne reponse: c
 
-Dupont de Nemours (I)
+<chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
 
 1) Dans quel domaine l’entreprise Dupont de Nemours et Cie, fondée par le fils de l’économiste français, opère-t-elle ?
 a) Banque et assurance
@@ -506,14 +503,14 @@ c) Pour le différencier des autres Dupont de l’Assemblée de 1789
 d) C'était un nom de plume
 bonne reponse: c
 
-3) C’était une personnalité exceptionnelle au sein de l’école physiocratiques, parce que :
+3) Pour quelle raison Dupont de Nemours était une personnalité exceptionnelle au sein de l’école physiocratiques ?
 a) Il était le plus jeune
 b) Il était le plus vieux
 c) Il était le plus riche
 d) Il était le plus éloquent
 bonne reponse: a
 
-4) Auprès de quel ministre a-t-il œuvré ?
+4) Auprès de quel ministre Dupont de Nemours a-t-il œuvré ?
 a) Necker
 b) Calonne
 c) Turgot
@@ -527,14 +524,14 @@ c) D’occasions de renier son adhésion au laissez-faire
 d) De reconnaissance de ses pairs
 bonne reponse: a
 
-Voltaire et les philosophes
+<chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
 
 1) Quel philosophe a écrit dans les Ephémérides du Citoyen, le journal des Physiocrates ?
 a) Voltaire
 b) Condorcet
 c) Diderot
 d) Rousseau
-bonne reponse: b
+bonne reponse: c
 
 2) Sous quelle forme littéraire l’abbé Galiani attaqua les Physiocrates et leur thèse sur la liberté du commerce des grains ?
 a) Le Dialogue
@@ -564,7 +561,8 @@ c) Certains se sont rangés distinctement parmi les économistes, d’autres dan
 d) Ils étaient trop théoriques et pas assez pratiques
 bonne reponse: b
 
-Turgot (1) Théoricien
+
+<chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
 
 1) Quels sont les trois facteurs qui expliquent l’éclat de Turgot ?
 a) Ses origines familiales, l’époque, sa précocité intellectuelle
@@ -575,5 +573,178 @@ bonne reponse: a
 
 2) De quel économiste Turgot a-t-il tracé l’éloge ?
 a) François Quesnay
-b) Le marquis d’
+b) Le marquis d’Argenson
+c) Vincent de Gournay
+d) Adam Smith
+bonne reponse: c
+
+3) Quelle est la thèse défendue par Turgot dans Valeurs et monnaie ?
+a) La valeur des choses dépend de l’appréciation subjective des hommes
+b) La valeur des choses dépend des qualités intrinsèques de ces choses
+c) On ne peut mesurer la valeur des choses qu’avec la monnaie
+d) La valeur est déterminée par le travail
+bonne reponse: a
+
+4) Dans sa lettre sur la marque des fers, Turgot exprime l’idée qu’il est impossible de connaître mieux que le marché ne le fait. Quel économiste autrichien la développa au XXe siècle ?
+a) Carl Menger
+b) Friedrich Hayek
+c) Murray Rothbard
+d) Ludwig von Mises
+bonne reponse: b
+
+5) Dans son mémoire sur les prêts d’argent, de qui Turgot défend-t-il la liberté tout en réfutant leurs principes ?
+a) Des Grecs et des Égyptiens
+b) De l’Eglise catholique et des Egyptiens
+c) Des Grecs et de l’Eglise catholique
+d) Des Romains et des Carthaginois
+bonne reponse: c
+
+
+<chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
+
+1) Dans quelle province française Turgot a-t-il eut pour la première fois l’occasion d’expérimenter ses principes du libéralisme économique ?
+a) La Bretagne
+b) L’Alsace
+c) Le Limousin
+d) La Normandie
+bonne reponse: c
+
+2) La corvée, travail forcé non rémunéré, servant à la construction des chemins, est l’objet de ses réformes. Par quoi la remplace-t-il ?
+a) Par un impôt en argent
+b) Par un impôt en nature (denrées agricoles)
+c) Il ne la remplace par rien
+d) Par un système de volontariat
+bonne reponse: a
+
+3) Pourquoi la nomination de Turgot au poste de Ministre de la Marine est-elle accueillie avec surprise ?
+a) Turgot n’est pas un grand connaisseur de la Marine
+b) Turgot a de nombreux ennemis dans ce ministère
+c) Turgot ne sait pas nager
+d) Turgot est un civil
+bonne reponse: a
+
+4) Quels sont les trois impératifs financiers mis en avant par Turgot dans sa fameuse lettre à Louis XVI à son entrée au Contrôle général ?
+a) Point de réforme. Point de nouvel impôt. Point de nouvelle loi. 
+b) Point de nouvelle guerre. Point d’augmentation d’impôts. Point d’emprunts
+c) Point de banqueroute. Point d’augmentation d’impôts. Point d’emprunts
+d) Point de dépenses inutiles. Point de privilèges. Point de favoritisme.
+bonne reponse: c
+
+5) Qui prononça cette phrase "Je le vois bien, il n’y a que M. Turgot et moi qui aimions le peuple." ?
+a) Voltaire
+b) Louis XVI
+c) Condorcet
+d) Rousseau
+bonne reponse: b
+
+<chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
+
+1) Quelle idée a-t-on appelé le sophisme de Montaigne ?
+a) L’échange est un jeu à somme nulle
+b) L’échange est un jeu à somme positive
+c) Selon les temps et les lieux, l’échange est tantôt un jeu à somme nulle, tantôt un jeu à somme positive
+d) L'échange est toujours défavorable au plus faible
+bonne reponse: a
+
+2) En 1776 paraît Le commerce et le gouvernement considérés relativement l’un avec l’autre. Quel autre livre est publié la même année ?
+a) Le Traité d’économie politique de Jean-Baptiste Say
+b) La Richesse des Nations d’Adam Smith
+c) Les Réflexions sur la formation et la distribution des richesses de Turgot
+d) Le Contrat Social
+bonne reponse: b
+
+3) Avec quel membre de l’école Physiocratique Condillac a-t-il débattu sur la nature de la valeur des choses ?
+a) François Quesnay
+b) Guillaume-François Le Trosne
+c) Pierre-Samuel Dupont de Nemours
+d) Le Marquis de Mirabeau
+bonne reponse: b
+
+4) Pourquoi la théorie de Condillac apporte un appui considérable au principe du libre-échange ?
+a) Parce que si les échanges sont toujours mutuellement avantageux, il est inutile des les limiter ou les interdire par les douanes
+b) Parce que Condillac a montré par le calcul que le libre-échange enrichi plus une nation que le protectionnisme
+c) Parce que Condillac a prouvé que le libre-échange est favorable à la paix
+d) Parce que Condillac était un ami d'Adam Smith
+bonne reponse: a
+
+5) Pourquoi dit-on que dans l’échange on donne toujours moins pour recevoir plus ?
+a) Parce que c’est un jeu de dupes, où on vend nos produits plus cher que leur valeur 
+b) Parce qu’on cède toujours ce que l’on estime moins pour quelque chose qu’on estime plus
+c) Parce que l’argent ayant de la valeur, chaque vente est un enrichissement
+d) Parce que les vendeurs sont toujours plus malins que les acheteurs
+bonne reponse: b
+
+<chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
+
+1) De quel condamné célèbre Condorcet a-t-il pris la défense ?
+a) Le chevalier de la Barre
+b) Jean Calas
+c) Louis Mandrin
+d) Le Comte de Lally
+bonne reponse: a
+
+2) Sur quel sujet Condorcet n’a-t-il pas écrit ?
+a) La liberté du commerce des grains
+b) Les corvées
+c) Les banques
+d) L'esclavage
+bonne reponse: c
+
+3) Quelle raison Condorcet donnait de l’échec de Turgot ?
+a) Il était trop peu habile aux manœuvres politiques
+b) Il était trop absolu dans ses principes
+c) Il était de constitution physique trop faible
+d) Il était trop jeune
+bonne reponse: b
+
+4) Pourquoi la liberté fait-elle peur au peuple selon Condorcet ?
+a) Parce qu’il est trop habitué à laisser le gouvernement intervenir dans toutes matières
+b) Parce qu’elle n’a jamais été essayée en France
+c) Parce qu’elle nécessite une révolution violente
+d) Parce qu'elle est synonyme de chaos
+bonne reponse: a
+
+5) À quel ministre, adversaire de Turgot, Condorcet a-t-il opposé sa défense du libre-échange ?
+a) Calonne
+b) Trudaine
+c) Necker
+d) Choiseul
+bonne reponse: c
+
+<chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
+
+1) Pendant la Révolution française, auxquels de ces évènements Dupont de Nemours a-t-il participé ?
+a) L’assemblée constituante et la rédaction des cahiers de doléances
+b) La rédaction des cahiers de doléances et la prise de la Bastille
+c) La prise de la Bastille et l'assemblée consitutuante
+d) La fuite du Roi et l'assemblée constituante
+bonne reponse: a
+
+2) Quelle raison Dupont de Nemours met-il en avant pour repousser la création des Assignats ?
+a) Les Assignats serviront à conduire des guerres offensives
+b) Les Assignats provoqueront la ruine des capitaux étrangers
+c) Les Assignats provoqueront la hausse des prix
+d) Les Assignats sont une atteinte à la propriété
+bonne reponse: c
+
+3) Dans sa brochure sur les assignats, comment se présente Dupont de Nemours ?
+a) Comme un Ami du Roi
+b) Comme un Ami du Peuple
+c) Comme un Ami des Libertés
+d) Comme un Ami des Bourgeois
+bonne reponse: b
+
+4) Que reproche-t-il à la loi sur Caisse d’Escompte de novembre 1789 ?
+a) Elle constitue en monopole un établissement qui doit obéir aux règles de la libre concurrence
+b) Elle établit un établissement qui favorisera le financement des guerres offensives
+c) Elle dérègle l’émission des assignats
+d) Elle favorise les riches
+bonne reponse: a
+
+5) Quel établissement bancaire est la conséquence finale des choix faits en 1789 et contre lesquels s’est exprimé Dupont de Nemours ?
+a) La Caisse d’épargne
+b) La Banque de France
+c) Le Crédit Agricole
+d) Le Banque Centrale Européenne
+bonne reponse: b
 

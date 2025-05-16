@@ -417,13 +417,13 @@ Vale la pena notare che, anche se e2 non può vedere l'emissione stessa, e1 potr
 
 Per consentire a e2 di vedere l'emissione effettiva (e quindi l'importo emesso), dobbiamo aggiungere l'indirizzo a e2 come watched address.
 
-Per farlo, dobbiamo scoprire l'indirizzo a cui è stata inviata la risorsa. A tale scopo, utilizzeremo l'_id della transazione_ copiato in precedenza e chiederemo a e1 di recuperare i dettagli della transazione, in modo da individuare l'indirizzo corretto da aggiungere all'elenco dei portafogli di e2.
+Per farlo, dobbiamo scoprire l'indirizzo a cui è stato inviato l'asset. A tale scopo, utilizzeremo l'_id della transazione_ copiato in precedenza e chiederemo a e1 di recuperare i dettagli della transazione, in modo da individuare l'indirizzo corretto da aggiungere all'elenco dei wallet di e2.
 
 ```
 e1-cli gettransaction <the-issuance-transaction-id>
 ```
 
-Scorrendo verso l'alto, oltre l'esadecimale dei dati della transazione, si vedrà l'indirizzo che ha ricevuto 100 esemplari del nostro nuovo bene, identificato dal suo valore esadecimale.
+Scorrendo verso l'alto, oltre l'esadecimale dei dati della transazione, si vedrà l'indirizzo che ha ricevuto 100 dei nostri nuovi asset, identificato dal suo valore esadecimale.
 
 Prendete l'indirizzo e copiatelo per poterlo importare in e2.
 
@@ -439,13 +439,13 @@ Se ora controlliamo l'elenco delle emissioni di e2.
 e2-cli listissuances
 ```
 
-Si può notare che il nostro asset appena emesso è ora incluso nell'elenco. Il nodo e2 è anche in grado di determinare l'importo dell'asset emesso, insieme all'importo del token associato, poiché l'emissione è stata un'emissione non bloccata. Per abilitare l'uso dell'ID dell'asset alla mappatura dei nomi all'interno di Elements, occorre innanzitutto arrestare Elements.
+Si può notare che il nostro asset appena emesso è ora incluso nell'elenco. Il nodo e2 è anche in grado di determinare l'importo dell'asset emesso, insieme all'importo del token associato, poiché l'emissione è stata un'emissione non offuscata. Per abilitare l'uso dell'ID dell'asset alla mappatura dei nomi all'interno di Elements, occorre innanzitutto arrestare Elements.
 
 ```
 e1-cli stop
 ```
 
-Poi lo si riavvia con un parametro aggiuntivo che mappa l'esagono di una risorsa con l'etichetta fornita. Questo permette al nodo di visualizzare i dati sulla risorsa in un formato più leggibile. Se si preferisce, si può aggiungere questo parametro alla fine di `elements.conf`, in modo da non dover aggiungere l'argomento al _daemon (demone)_ ogni volta che lo si avvia. Per esempio:
+Poi lo si riavvia con un parametro aggiuntivo che mappa l'esadecimale dell'asset con l'etichetta fornita. Questo permette al nodo di visualizzare i dati sull'asset in un formato più leggibile. Se si preferisce, si può aggiungere questo parametro alla fine di `elements.conf`, in modo da non dover aggiungere l'argomento al _daemon (demone)_ ogni volta che lo si avvia. Per esempio:
 
 ```
 assetdir=5186d0bc8ed15e6ef85571bd2d8070573adf0e06fd4507082694526975ce4f35:My new asset (MNA)
@@ -469,7 +469,7 @@ Questo dimostra che la mappatura del valore esadecimale dell'asset con la sua et
 e2-cli listissuances
 ```
 
-Si può notare che il nodo e2 non ha accesso a questa etichetta, perché le etichette sono disponibili solo per il nodo che le ha impostate. In effetti, è possibile assegnare un'etichetta diversa allo stesso asset hex su e2 rispetto a quella assegnata su e1. Per prima cosa fermiamo il nodo e2.
+Si può notare che il nodo e2 non ha accesso a questa etichetta, perché le etichette sono disponibili solo per il nodo che le ha impostate. In effetti, è possibile assegnare un'etichetta diversa allo stesso esadecimale dell'asset su e2 rispetto a quella assegnata su e1. Per prima cosa fermiamo il nodo e2.
 
 ```
 e2-cli stop
@@ -487,11 +487,11 @@ Emissioni di elenchi da e2.
 e2-cli listissuances
 ```
 
-Le etichette degli asset sono locali a ciascun nodo, solo l'esagono dell'asset viene riconosciuto dagli altri nodi della rete.
+Le etichette degli asset sono locali rispetto a ciascun nodo, solo l'esadecimale dell'asset viene riconosciuto dagli altri nodi della rete.
 
-La mappatura dell'etichetta con l'hex dell'asset è utile quando si eseguono azioni come le transazioni e le interrogazioni sul saldo del wallet, in quanto consente di fare riferimento a un asset in modo abbreviato. Ad esempio, se volessimo inviare una parte della nostra nuova asset (una quantità di 10) da e1 a e2 senza usare l'etichetta.
+La mappatura dell'etichetta con l'esadecimale dell'asset è utile quando si eseguono azioni come le transazioni e le interrogazioni sul saldo del wallet, in quanto consente di fare riferimento a un asset in modo abbreviato. Ad esempio, se volessimo inviare una parte del nostro nuovo asset (una quantità di 10) da e1 a e2 senza usare l'etichetta.
 
-Per prima cosa dobbiamo ottenere un indirizzo a cui inviare la risorsa.
+Per prima cosa dobbiamo ottenere un indirizzo a cui inviare l'asset.
 
 ```
 e2-cli getnewaddress
@@ -509,23 +509,23 @@ Confermare la transazione generando un blocco.
 generate 1
 ```
 
-Verifica della ricezione del bene su e2.
+Verifica della ricezione dell'asset su e2.
 
 ```
 e2-cli getwalletinfo
 ```
 
-Possiamo vedere che la risorsa è stata effettivamente ricevuta.
+Possiamo vedere che l'asset è stato effettivamente ricevuto.
 
-Si noti che e2 mappa l'esagono dell'asset ricevuto e lo visualizza utilizzando la propria etichetta. Un modo più semplice per fare la stessa cosa sarebbe quello di utilizzare l'etichetta della risorsa di e1 durante l'invio.
+Si noti che e2 mappa l'esadecimale dell'asset ricevuto e lo visualizza utilizzando la propria etichetta. Un modo più semplice per fare la stessa cosa sarebbe quello di utilizzare l'etichetta della risorsa di e1 durante l'invio.
 
 ```
 e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <name-of-the-new-asset>
 ```
 
-Dietro le quinte, Elements mappa le etichette locali in valori esadecimali per semplificare l'uso delle risorse emesse.
+Dietro le quinte, Elements mappa le etichette locali in valori esadecimali per semplificare l'uso degli asset emessi.
 
-In questa sezione abbiamo visto come emettere ed etichettare gli asset. Nella prossima sezione vedremo come riemettere e distruggere le quantità di un'asset emessa.
+In questa sezione abbiamo visto come emettere ed etichettare gli asset. Nella prossima sezione vedremo come riemettere e distruggere le quantità di un'asset emesso.
 
 ## Riemissione di Asset (asset)
 

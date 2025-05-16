@@ -135,7 +135,7 @@ Il cliente acquista un prodotto dal negozio con dei bitcoin.
 - Ognuno dei 9 Computer possiede un registro storico completo di tutte le transazioni passate (quindi saldi accurati senza falsificazioni), così come un insieme di regole:
   - Verificare che la transazione sia firmata correttamente (la chiave apre la serratura)
   - Trasmettere e ricevere transazioni valide ai pari nella rete, scartare quelle non valide (incluso qualsiasi tentativo di spendere gli stessi fondi due volte)
-- Aggiornare/Aggiungere periodicamente i record con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del Proof of Work, esclusivamente per semplicità), altrimenti rifiutare queste ultime e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento.
+- Aggiornare/Aggiungere periodicamente i registri con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del Proof of Work, esclusivamente per semplicità), altrimenti rifiutare queste ultime e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento.
   - La quantità appropriata è stata inviata se i contenuti erano validi.
 - Rappresentare la sequenza degli eventi:
   - Cliente - naviga nel negozio online e trova un articolo a $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo.
@@ -149,7 +149,7 @@ Il cliente acquista un prodotto dal negozio con dei bitcoin.
 - Un computer viene "casualmente" scelto per proporre di finalizzare la transazione proposta trasmettendo "un blocco" che la contiene; se risulta corretto, riceveranno una ricompensa in BTC.
   - OPZIONALE/AVANZATO - invece di selezionare casualmente un Computer, simulare il mining facendo lanciare ai Computer dei dadi fino a quando non si verifica un risultato predeterminato (ad es., il primo che ottiene un doppio sei viene selezionato)
   - Può anche rappresentare cosa succederebbe se due Computer vincono approssimativamente contemporaneamente, risultando in una divisione della catena.
-  - I Computer controllano la validità, aggiornano/aggiungono record ai loro registri se le regole sono soddisfatte e trasmettono il blocco ai pari.
+  - I Computer controllano la validità, aggiornano/aggiungono  ai loro registri se le regole sono soddisfatte e trasmettono il blocco ai pari.
   - Il computer casualmente scelto riceve una ricompensa per aver proposto un blocco valido.
   - Il Commerciante controlla che la transazione sia stata finalizzata; quindi, i fondi sono stati ricevuti e l'articolo è stato inviato al cliente.
 - Commenti:
@@ -213,7 +213,7 @@ Quando vieni accolto nell'ambiente Demo, ti viene chiesto di 'Accedere' o 'Crear
 
 ### Finestra di creazione di un account
 
-La creazione di account su BTCPay Server richiede stringhe di indirizzi Email validi; example@email.com sembrerebbe una stringa valida per l'Email.
+La creazione di account su BTCPay Server richiede stringhe di indirizzi Email validi; example@email.com potrebbe essere una stringa valida per l'Email.
 
 La password deve essere lunga almeno 8 caratteri, includendo lettere, numeri e caratteri. Dopo aver impostato la password, dovrai digitarla nuovamente per assicurarti che sia uguale a quella inserita la prima volta. 
 Quando sia i campi Email che Password sono compilati correttamente, clicca sul pulsante "Crea Account". Questo salverà l'Email e la password sull'istanza del BTCPay Server dell'istruttore.
@@ -230,7 +230,7 @@ L'Amministratore dell'Istanza di BTCPay Server può anche creare account per BTC
 
 ![image](assets/en/2.webp)
 
-Come amministratore, avrai bisogno dell'indirizzo Email dell'utente per impostare una password standard. Si consiglia come Amministratore di informare l'utente che, per motivi di sicurezza, dovrebbe cambiare questa password prima di utilizzare l'account. Se l'Amministratore NON imposta una Password e l'SMTP è stato configurato sul server, l'utente riceverà un'email con un link di invito per creare il proprio account e impostare la password da solo.
+Come amministratore, avrai bisogno dell'indirizzo Email dell'utente per impostare una password standard. Si consiglia come Amministratore di informare l'utente che, per motivi di sicurezza, dovrebbe cambiare questa password prima di utilizzare l'account. Se l'Amministratore NON imposta una Password, e se l'SMTP è stato configurato sul server, l'utente riceverà un'email con un link di invito per creare il proprio account e impostare la password da solo.
 
 ### Esempio
 
@@ -281,7 +281,7 @@ Il pulsante nascondi informazioni sensibili offre un semplice strato di sicurezz
 
 ### Gestisci Account
 
-Una volta che l'account utente è stato creato, qui è dove puoi gestire le password, 2FA, o le chiavi API.
+Una volta che l'account utente è stato creato, da qui puoi gestire le password, 2FA, o le chiavi API.
 
 ### Gestione Account - Account
 
@@ -373,7 +373,7 @@ Questo creerà la tua prima Home e la dashboard per utilizzare BTCPay Server.
 
 ![immagine](assets/en/11.webp)
 
-(3) Come ultimo parametro nella configurazione del negozio, BTCPay Server richiede di impostare una "Fonte di prezzo preferita" per confrontare il prezzo dei bitcoin con il prezzo fiat corrente in modo che il tuo negozio mostri il corretto tasso di cambio tra i bitcoin e la valuta fiat impostata per il negozio. Nell'esempio Demo, ci atteniamo all'impostazione predefinita e la impostiamo sull'exchange Kraken. BTCPay Server utilizza l'API di Kraken per controllare i tassi di cambio.
+(3) Come ultimo parametro nella configurazione del negozio, BTCPay Server richiede di impostare una "Fonte di prezzo preferita" per confrontare il prezzo di Bitcoin con il prezzo fiat corrente in modo che il tuo negozio mostri il corretto tasso di cambio tra Bitcoin e la valuta fiat impostata per il negozio. Nell'esempio Demo, ci atteniamo all'impostazione predefinita e la impostiamo sull'exchange Kraken. BTCPay Server utilizza l'API di Kraken per controllare i tassi di cambio.
 
 ![immagine](assets/en/12.webp)
 
@@ -402,7 +402,7 @@ In questa sezione, hai imparato:
 
 ### Cosa comporta la generazione delle chiavi Bitcoin?
 
-Quando vengono creati, i portafogli Bitcoin generano un cosiddetto "seed". Nell'ultimo obiettivo, hai creato un "seed", Le serie di parole generate in precedenza sono note anche come frasi mnemoniche. Il seed è utilizzato per derivare le singole Chiavi Bitcoin da esso. Le seed phrases non dovrebbero mai essere condivise con terze parti o peer non fidati.
+Quando vengono creati, i wallet Bitcoin generano un cosiddetto "seed". Nell'ultimo obiettivo, hai creato un "seed", Le serie di parole generate in precedenza sono note anche come frasi mnemoniche. Il seed è utilizzato per derivare le singole Chiavi Bitcoin da esso. Le seed phrase non dovrebbero mai essere condivise con terze parti o peer non fidati.
 La generazione del seed avviene secondo lo standard industriale noto come framework "Hierarchical Deterministic" (HD).
 
 ![image](assets/en/15.webp)
@@ -411,7 +411,7 @@ La generazione del seed avviene secondo lo standard industriale noto come framew
 
 BTCPay Server è stato impostato per generare sempre un nuovo Indirizzo. Questo allevia il problema del riutilizzo della chiave pubblica o dell'Indirizzo. Usare la stessa chiave pubblica rende molto facile tracciare l'intera cronologia dei pagamenti. Pensare alle chiavi come a buoni monouso migliorerebbe significativamente la tua privacy. Usiamo anche gli Indirizzi Bitcoin, senza confonderli con le chiavi pubbliche.
 
-Un Indirizzo viene derivato dalla chiave pubblica attraverso un "algoritmo di hashing". La maggior parte dei portafogli e delle transazioni, tuttavia, mostrerà gli Indirizzi piuttosto che quelle chiavi pubbliche. Gli Indirizzi sono, in generale, più corti delle chiavi pubbliche e di solito iniziano con `1`, `3`, o `bc1`, mentre le chiavi pubbliche iniziano con `02`, `03`, o `04`.
+Un Indirizzo viene derivato dalla chiave pubblica attraverso un "algoritmo di hashing". La maggior parte dei wallet e delle transazioni, tuttavia, mostrerà gli Indirizzi piuttosto che quelle chiavi pubbliche. Gli Indirizzi sono, in generale, più corti delle chiavi pubbliche e di solito iniziano con `1`, `3`, o `bc1`, mentre le chiavi pubbliche iniziano con `02`, `03`, o `04`.
 
 - Gli indirizzi che iniziano con `1.....` sono ancora indirizzi molto comuni. Come menzionato nel capitolo Creazione di un nuovo negozio, questi sono indirizzi legacy. Questo tipo di indirizzo è destinato alle transazioni P2PKH. P2PKH utilizza la codifica Base58, che rende l'indirizzo sensibile al maiuscolo/minuscolo. La sua struttura si basa sulla chiave pubblica con un ulteriore cifra come identificatore.
 
@@ -419,7 +419,7 @@ Un Indirizzo viene derivato dalla chiave pubblica attraverso un "algoritmo di ha
 
 - Gli indirizzi che iniziano con `3...` sono comunemente ancora utilizzati dagli exchange per gli indirizzi di deposito. Questi indirizzi sono menzionati nel capitolo Creazione di un nuovo negozio, indirizzi SegWit avvolti o nidificati. Tuttavia, potrebbero anche funzionare come "Indirizzo Multisig". Quando utilizzati come indirizzo SegWit, si risparmia nuovamente sulle commissioni di transazione, anche se meno rispetto a SegWit nativo. Gli indirizzi P2SH utilizzano la codifica Base58. Ciò li rende sensibili al maiuscolo/minuscolo, come l'indirizzo legacy.
 
-- Gli indirizzi che iniziano con `2...` sono indirizzi Testnet. Sono destinati a ricevere bitcoin testnet (tBTC). Non dovresti mai confonderli e inviare Bitcoin a questi indirizzi. Per scopi di sviluppo, puoi generare un wallet testnet. Ci sono molteplici faucet online per ottenere Bitcoin testnet. Non acquistare mai Bitcoin testnet. I Bitcoin testnet sono minati. Questo, invece, potrebbe essere un motivo per uno sviluppatore di utilizzare Regtest. Si tratta di un ambiente di prova per sviluppatori, privo di alcuni componenti di rete. Bitcoin è, tuttavia, molto utile per scopi di sviluppo.
+- Gli indirizzi che iniziano con `2...` sono indirizzi Testnet. Sono destinati a ricevere bitcoin testnet (tBTC): non dovresti mai confonderli e inviare Bitcoin a questi indirizzi. Per scopi di sviluppo, puoi generare un wallet testnet e ottenere Bitcoin testnet da molteplici faucet online, ma non acquistare mai Bitcoin testnet. I Bitcoin testnet sono minati. Questo, invece, potrebbe essere un motivo per uno sviluppatore di utilizzare Regtest. Si tratta di un ambiente in cui gli sviluppatori effettuano varie prove, poiché privo di alcuni componenti di rete. Bitcoin è molto utile per scopi di sviluppo.
 
 ### Chiavi Pubbliche
 
@@ -427,7 +427,7 @@ Le chiavi pubbliche sono meno utilizzate nella pratica oggi. Nel tempo, gli uten
 
 - Prima di tutto, `02...` e `03...` sono identificatori di molte chiavi pubbliche standard, codificati in formato SEC. Questi possono essere elaborati e trasformati in indirizzi per ricevere, utilizzati per creare indirizzi multi-sig o per verificare una firma. Le transazioni Bitcoin dei primi giorni utilizzavano chiavi pubbliche come parte delle transazioni P2PK.
 
-- Tuttavia, i portafogli HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` sono chiamate chiavi pubbliche estese, meglio note come xpubs. Queste chiavi vengono utilizzate per derivare molte chiavi pubbliche poiché fanno parte del wallet HD. Poiché la tuo xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
+- Tuttavia, i wallet HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` sono chiamate chiavi pubbliche estese, meglio note come xpubs. Queste chiavi vengono utilizzate per derivare molte chiavi pubbliche poiché fanno parte del wallet HD. Poiché la tuo xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
 
 ### Riepilogo delle Competenze
 
@@ -445,13 +445,13 @@ Descrivere il vantaggio dell'utilizzo di indirizzi nuovi per ogni transazione ri
 
 ### Conservazione delle Chiavi Bitcoin
 
-La seed phrase, l'elenco di 12 - 24 parole generato, richiede backup adeguati e sicurezza, poiché queste parole sono l'unico modo per recuperare l'accesso a un wallet. La struttura dei portafogli HD e il modo in cui vengono generati deterministicamente gli indirizzi utilizzando questo seme e determinano i tuoi indirizzi creati, i quali verranno salvati utilizzando la lista di parole mnemoniche che rappresentano la tua seed phrase o frase di recupero.
+La seed phrase, l'elenco di 12 - 24 parole generato, richiede backup adeguati e sicurezza, poiché queste parole sono l'unico modo per recuperare l'accesso a un wallet. La struttura dei wallet HD implica il modo in cui vengono generati deterministicamente gli indirizzi, utilizzando questo seed per determinare i tuoi indirizzi, i quali verranno salvati utilizzando la lista di parole mnemoniche che rappresentano la tua seed phrase o recovery phrase.
 
-Mantieni la tua frase di recupero al sicuro. Se resa accessibile a qualcun'altro, specialmente con intenti malevoli, costui potrebbe spostare i tuoi fondi. Proteggi e mantieni sicuro la tua seed phrase, inoltre memorizzalo; tali azioni sono reciprocamente fondamentali. Ci sono diversi metodi per conservare le chiavi private Bitcoin, ognuno con vantaggi e svantaggi, sia in termini di sicurezza, privacy, comodità o con mezzi fisici. Data l'importanza delle chiavi private, gli utenti Bitcoin tendono a conservare e mantenere al sicuro queste chiavi in "autocustodia" piuttosto che usare servizi "custodial" come le banche. A seconda dell'utente e delle esigenze è possibile utilizzare o una soluzione di Cold storage oppure un Hot wallet.
+Mantieni la tua recovery phrase al sicuro. Se resa accessibile a qualcun'altro, specialmente con intenti malevoli, costui potrebbe spostare i tuoi fondi. Proteggi e mantieni sicuro la tua seed phrase, e dovresti anche memorizzarla: entrambe queste azioni sono fondamentali. Ci sono diversi metodi per conservare le chiavi private, ognuno con vantaggi e svantaggi, sia in termini di sicurezza, privacy, comodità o di utilizzo di mezzi fisici. Data l'importanza delle chiavi private, gli utenti Bitcoin tendono a conservare e mantenere al sicuro queste chiavi in "autocustodia" piuttosto che usare servizi "custodial" come le banche. A seconda dell'utente e delle esigenze è possibile utilizzare o una soluzione di Cold storage oppure un Hot wallet.
 
 ### Conservazione Hot e Cold delle chiavi Bitcoin
 
-Di solito, i portafogli Bitcoin sono denominati in Hot Wallet o Cold Wallet. La maggior parte dei compromessi si trovano nella comodità, facilità d'uso e rischi per la sicurezza. Ognuno di questi metodi può anche essere visto come una soluzione custodial. Tuttavia, i compromessi qui sono per lo più basati su sicurezza e privacy e vanno oltre l'ambito di questo corso.
+Di solito, i wallet Bitcoin sono denominati in Hot Wallet o Cold Wallet. La maggior parte dei compromessi si trova nella comodità, facilità d'uso e rischi per la sicurezza. Ognuno di questi metodi può anche essere visto come una soluzione custodial. Tuttavia, i compromessi qui sono per lo più basati su sicurezza e privacy e vanno oltre l'ambito di questo corso.
 
 ### Hot wallet
 
@@ -459,17 +459,17 @@ Gli Hot wallet sono il modo più comodo di interagire con Bitcoin tramite mobile
 
 ### Cold Wallet
 
-Le persone spostano i loro bitcoin in un cold wallet perché così possono isolare le chiavi private da Internet. Rimuovere la connessione internet dall'equazione riduce il rischio di malware, spyware e SIM swap. Si ritiene che la conservazione in cold wallet sia superiore alla conservazione con hot wallet per la sicurezza e l'autonomia, purché vengano prese precauzioni adeguate per evitare la perdita delle chiavi private Bitcoin. La conservazione a freddo è più adatta per grandi quantità di bitcoin, che non sono destinati a essere spesi spesso a causa della complessità dell'installazione del wallet.
+Le persone spostano le loro chiavi private in un cold wallet perché così possono isolarle da Internet. Rimuovere la connessione internet dall'equazione riduce il rischio di malware, spyware e SIM swap. Si ritiene che conservare le chiavi in cold wallet sia più vantaggioso di farlo in un hot wallet, per questioni di sicurezza e di maggiore autonomia, purché vengano prese precauzioni adeguate per evitare la perdita delle chiavi stesse. Il cold wallet è più adatto nel caso si abbia una grande quantità di bitcoin, che non sono destinati a essere spesi spesso. Infatti il set-up del cold allet è più complesso.
 
-Ci sono vari metodi su come conservare le chiavi Bitcoin in cold storage, dai paper wallet ai brain wallet, hardware wallet o, come all'inizio, un file del wallet. La maggior parte dei wallet utilizza BIP39 per generare la seed phrase. Tuttavia, all'interno del software Bitcoin core, non è ancora stato raggiunto un consenso sull'uso di questo metodo. Il software Bitcoin Core genererà comunque un file Wallet.dat che devi conservare in una posizione sicura offline.
+Ci sono vari metodi per conservare le chiavi Bitcoin in cold storage, dai paper wallet ai brain wallet, hardware wallet o, sin da subito nel file del wallet. La maggior parte dei wallet utilizza BIP39 per generare la seed phrase. Tuttavia, tra gli sviluppatori del software di Bitcoin Core non è ancora stato raggiunto un consenso sull'uso di questo metodo. Bitcoin Core genererà comunque un file "Wallet.dat" che devi conservare in una posizione sicura offline.
 
-### Riepilogo delle Competenze
+### Riepilogo
 
 In questa sezione, hai imparato:
 
-- Le differenze tra hot e cold wallet in termini di funzionalità e i loro compromessi.
+- Le differenze tra hot e cold wallet in termini di funzionalità, e i loro compromessi.
 
-### Valutazione della conoscenza e della Revisione Concettuale
+### Valutazione e Revisione dei Concetti trattati
 
 - Cos'è un wallet?
 - Qual è la differenza tra hot e cold wallet?
@@ -571,9 +571,9 @@ BTCPay Server chiederà sempre di utilizzare l'indirizzo successivo BTC disponib
 
 #### Re-scan
 
-La funzionalità di Re-scan si basa su "Scantxoutset" di Bitcoin Core 0.17.0 per scandire lo stato attuale della blockchain (chiamato Set UTXO) alla ricerca dei bitcoin appartenenti allo schema di derivazione configurato. La re-scan del wallet risolve due problemi che gli utenti di BTCPay Server hanno nell'esperienza di utilizzo.
+La funzionalità di Re-scan si basa su "Scantxoutset" di Bitcoin Core 0.17.0 per ottenere lo stato attuale della blockchain (chiamato UTXO set) alla ricerca dei bitcoin appartenenti allo schema di derivazione configurato. La re-scan del wallet risolve due problemi che gli utenti di BTCPay Server hanno nell'esperienza d'uso.
 
-1. Problema del limite di gap - La maggior parte dei wallet di terze parti sono wallet leggeri che condividono un nodo tra molti utenti. I portafogli che dipendono da nodi leggeri e completi limitano la quantità (tipicamente 20) di indirizzi senza saldo per i quali tengono traccia sulla blockchain per evitare problemi di prestazioni. BTCPay Server genera un nuovo indirizzo per ogni fattura. Tenendo presente quanto sopra, dopo che BTCPay Server genera 20 invoice consecutive non pagate, il wallet esterno smette di recuperare le transazioni, assumendo che non si siano verificate nuove transazioni. Il tuo wallet esterno non le mostrerà una volta che le invoice vengono pagate dalla 21ª, 22ª, ecc. D'altra parte, internamente, il wallet BTCPay Server tiene traccia di qualsiasi indirizzo che genera insieme a un limite _gap_ molto più grande. Non si affida a terzi e può sempre mostrare il saldo corretto.
+1. Problema del limite di gap - La maggior parte dei wallet di terze parti sono "light wallet" che condividono un nodo tra molti utenti. I wallet che dipendono da ["light node"](https://planb.network/en/resources/glossary/spv-node-light-node) e da full node limitano la quantità (tipicamente 20) di indirizzi senza saldo per i quali tengono traccia sulla blockchain per evitare problemi di prestazioni. BTCPay Server genera un nuovo indirizzo per ogni fattura. Tenendo presente quanto sopra, dopo che BTCPay Server genera 20 invoice consecutive non pagate, il wallet esterno smette di recuperare le transazioni, assumendo che non si siano verificate nuove transazioni. Il tuo wallet esterno non le mostrerà una volta che le invoice vengono pagate dalla 21ª, 22ª, ecc. D'altra parte, internamente, il wallet BTCPay Server tiene traccia di qualsiasi indirizzo che genera insieme a un limite _gap_ molto più grande. Non si affida a terzi e può sempre mostrare il saldo corretto.
 2. La soluzione del limite di gap - Se il tuo [external/existing wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-wallet) consente la configurazione del limite di gap, la soluzione più semplice è aumentarlo. Tuttavia, la maggior parte dei wallet non permettono questa configurazione. Gli unici wallet che conosciamo e che permettono la configurazione del limite di gap sono Electrum, Wasabi e Sparrow Wallet. Sfortunatamente, è probabile che tu incontri problemi con molti altri wallet. Per la migliore esperienza utente e privacy, considera di abbandonare i wallet esterni e di utilizzare il wallet interno di BTCPay Server.
 
 #### BTCPay Server utilizza "mempoolfullrbf=1"
@@ -606,7 +606,7 @@ Se segui questo corso da solo, creare questo account potrebbe essere qualcosa ch
 #### Configurare un wallet Bitcoin in BTCPay Server
 
 BTCPay Server permette di configurare un wallet in due modi. Il primo è importare un wallet Bitcoin già esistente. L'importazione può essere fatta collegando un hardware wallet, importando un file del wallet, inserendo una chiave pubblica estesa, scansionando il codice QR di un wallet, o, meno consigliato, inserendo a mano una seed phrase di recupero del wallet precedentemente creato. In BTCPay Server, è anche possibile creare un nuovo wallet. Ci sono due modi possibili per configurare BTCPay Server quando si genera un nuovo wallet.
-L'opzione di portafoglio caldo (hot wallet) in BTCPay Server consente funzionalità come 'Payjoin' o 'Liquid'. Tuttavia, c'è uno svantaggio: la seed phrase di recupero generata per questo wallet sarà memorizzato sul server, dove chiunque abbia il controllo da Amministratore potrebbe recuperare la seed phrase di recupero. Poiché la tua chiave privata deriva dalla tua seed phrase di recupero, un attore malevolo potrebbe ottenere accesso ai tuoi fondi attuali e futuri!
+L'opzione di walleto caldo (hot wallet) in BTCPay Server consente funzionalità come 'Payjoin' o 'Liquid'. Tuttavia, c'è uno svantaggio: la seed phrase di recupero generata per questo wallet sarà memorizzato sul server, dove chiunque abbia il controllo da Amministratore potrebbe recuperare la seed phrase di recupero. Poiché la tua chiave privata deriva dalla tua seed phrase di recupero, un attore malevolo potrebbe ottenere accesso ai tuoi fondi attuali e futuri!
 Per mitigare tale rischio in BTCPay Server, un Amministratore può impostare in Impostazioni Server > Politiche > "Consenti ai non-amministratori di creare hot wallet per i loro negozi" su no, come impostazione predefinita. Per migliorare la sicurezza di questi hot wallet, l'amministratore del server dovrebbe abilitare l'autenticazione 2FA sugli account autorizzati ad avere hot wallet. Conservare le chiavi private su un server pubblico è pericoloso e comporta dei rischi. Alcuni sono simili ai rischi della Rete Lightning (vedi il capitolo successivo per i rischi della Rete Lightning).
 
 La seconda opzione che BTCPay Server offre per generare un nuovo wallet è creando un wallet di sola visualizzazione (Watch-Only wallet). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria seed phrase, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha collegato un Watch-Only wallet. Per spendere i fondi ricevuti sul tuo Watch-Only wallet, vedi il capitolo 'Come Inviare', sia utilizzando BTCPay Server Vault, PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente la tua seed phrase.
@@ -698,8 +698,8 @@ In questa sezione, hai appreso quanto segue:
 
 - La visualizzazione delle transazioni del wallet Bitcoin e le sue varie categorizzazioni.
 - Le varie opzioni quando si invia da un wallet Bitcoin, dagli hardware wallet agli hot wallet.
-- Il problema del limite di gap affrontato quando si utilizzano la maggior parte dei portafogli e come correggerlo.
-- Come generare un nuovo wallet Bitcoin all'interno di BTCPay Server, inclusa la memorizzazione delle chiavi in un hardware wallet e il backup della frase di recupero.
+- Il problema del limite di gap affrontato quando si utilizzano la maggior parte dei wallet e come correggerlo.
+- Come generare un nuovo wallet Bitcoin all'interno di BTCPay Server, inclusa la memorizzazione delle chiavi in un hardware wallet e il backup della recovery phrase.
 
 In questa sezione, hai imparato come generare un nuovo wallet Bitcoin all'interno di BTCPay Server. Non abbiamo ancora affrontato come assicurare o utilizzare quelle chiavi. In una rapida panoramica di questo obiettivo, hai imparato come configurare il primo negozio. Hai imparato come generare una seed phrase di recupero Bitcoin.
 
@@ -724,7 +724,7 @@ Andare in un negozio configurato in precedenza e cliccare sul wallet "Lightning"
 
 Ai proprietari dei negozi non è in genere permesso utilizzare il nodo Lightning dell'amministratore del server per impostazione predefinita. È necessario effettuare il collegamento a un nodo esterno, come un nodo del proprietario del negozio prima della configurazione di BTCPay Server, un plugin LNBank se reso disponibile dall'amministratore del server, o una soluzione di custodia come Alby.
 
-Andare in un negozio configurato in precedenza e cliccare su "Lightning" sotto i portafogli nel menu a sinistra. Poiché ai proprietari dei negozi non è permesso utilizzare il nodo interno per impostazione predefinita, questa opzione è disabilitata. Utilizzare un nodo personalizzato è l'unica opzione disponibile.
+Andare in un negozio configurato in precedenza e cliccare su "Lightning" sotto i wallet nel menu a sinistra. Poiché ai proprietari dei negozi non è permesso utilizzare il nodo interno per impostazione predefinita, questa opzione è disabilitata. Utilizzare un nodo personalizzato è l'unica opzione disponibile.
 
 BTCPay Server richiede informazioni di connessione; le soluzioni precedenti (o di custodia) forniranno queste informazioni specifiche per implementare Lightning. All'interno di BTCPay Server, i proprietari dei negozi possono utilizzare le seguenti connessioni:
 
@@ -755,7 +755,7 @@ Dopo aver collegato il nodo Lightning interno, gli amministratori del server not
 - Servizi Lightning
   - Ride the Lightning (RTL).
 
-Cliccando sia sul logo di Ride the Lightning nella tessera "Servizi Lightning" sia su "Lightning" sotto i portafogli nel menu a sinistra, gli amministratori del server possono accedere a RTL per la gestione del nodo Lightning.
+Cliccando sia sul logo di Ride the Lightning nella tessera "Servizi Lightning" sia su "Lightning" sotto i wallet nel menu a sinistra, gli amministratori del server possono accedere a RTL per la gestione del nodo Lightning.
 
 **!Nota!**
 
@@ -848,7 +848,7 @@ Quando ci si connette ad una soluzione custodial come Alby, i proprietari di cia
 
 Dopo aver creato l'account Alby, vai al tuo negozio BTCPay Server.
 
-Passo 1: Clicca su 'Imposta un nodo Lightning' sulla Dashboard o su 'Lightning' sotto portafogli.
+Passo 1: Clicca su 'Imposta un nodo Lightning' sulla Dashboard o su 'Lightning' sotto wallet.
 
 ![immagine](assets/en/36.webp)
 
@@ -1428,7 +1428,7 @@ Un Amministratore di BTCPay Server può cliccare su "Vedi informazioni" dietro o
 
 #### LND (gRPC)
 
-BTCPay espone il servizio gRPC di LND per l'utilizzo esterno; qui troverai le informazioni di connessione in questo specifico menu delle impostazioni; qui sono elencati i portafogli compatibili. BTCPay Server fornisce anche un codice QR per la connessione da scansionare e applicare nel wallet mobile.
+BTCPay espone il servizio gRPC di LND per l'utilizzo esterno; qui troverai le informazioni di connessione in questo specifico menu delle impostazioni; qui sono elencati i wallet compatibili. BTCPay Server fornisce anche un codice QR per la connessione da scansionare e applicare nel wallet mobile.
 
 Gli amministratori del server possono aprire più dettagli per vedere;
 
@@ -1459,13 +1459,13 @@ LND documenta il processo di recupero. Vedi https://github.com/lightningnetwork/
 
 Ride the Lightning è uno strumento di gestione dei nodi Lightning costruito come software Open Source. BTCPay Server utilizza RTL come componente di gestione del nodo Lightning nel suo stack. Gli amministratori di BTCPay Server possono accedere a RTL tramite le impostazioni del Server - scheda Servizi o cliccando sul wallet Lightning.
 
-#### Nodo completo P2P
+#### Full node P2P
 
-Gli amministratori del server potrebbero voler collegare il loro nodo Bitcoin a un wallet mobile. Questa pagina espone informazioni per connettersi da remoto al tuo nodo completo tramite il protocollo P2P. Al momento, BTCPay Server elenca Blockstream Green e Wasabi wallet come wallet compatibili. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
+Gli amministratori del server potrebbero voler collegare il loro nodo Bitcoin a un wallet mobile. Questa pagina espone informazioni per connettersi da remoto al tuo Full node tramite il protocollo P2P. Al momento, BTCPay Server elenca Blockstream Green e Wasabi wallet come wallet compatibili. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
 
-#### Nodo completo RPC
+#### Full node RPC
 
-Questa pagina espone informazioni per connettersi da remoto al tuo nodo completo tramite il protocollo RPC.
+Questa pagina espone informazioni per connettersi da remoto al tuo Full node tramite il protocollo RPC.
 
 #### SSH
 
@@ -1517,7 +1517,7 @@ BTCPay Server funziona con componenti Docker; con gli aggiornamenti, potrebbero 
 
 ![image](assets/en/88.webp)
 
-#### Aggiornamento
+#### Aggiornamenti
 
 Probabilmente l'opzione più importante nella scheda Manutenzione. BTCPay Server è costruito dalla comunità e, quindi, i suoi cicli di aggiornamento sono più frequenti rispetto alla maggior parte dei prodotti software. Quando BTCPay Server ha una nuova release, agli amministratori arriverà una notificata nel centro notifiche. Cliccando sul pulsante di aggiornamento, BTCPay Server controllerà GitHub per l'ultima release, aggiornerà il Server e lo riavvierà. Prima di aggiornare, si consiglia sempre agli amministratori del server di leggere le note di rilascio distribuite attraverso i canali ufficiali di BTCPay Server.
 

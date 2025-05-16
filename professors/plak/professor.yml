@@ -1,7 +1,6 @@
 id: 81a4b427-8d2a-4e50-b5b6-7e08bbf2d9d7
 name: plak
 
-
 links:
   twitter: https://x.com/Plak_btc
   nostr: Plak@nostr.red
@@ -10,6 +9,5 @@ links:
 tips:
   lightning_address: finalstepbitcoin@getalby.com
 tags:
-  - Bitcoin
-  - technology
+  - easy-explain
   - user-friendly

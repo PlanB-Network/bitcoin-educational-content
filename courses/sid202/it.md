@@ -159,7 +159,7 @@ Per trasferire gli asset alla mainchain, un utente effettua una speciale transaz
 
 :::video id=1f73dfee-3623-483b-ab42-07d9286ed999:::
 
-Poiché Elements si basa sul codice di base di Bitcoin, i componenti che costituiscono una rete funzionante sono molto simili.
+Poiché Elements si fonda sul codice di base di Bitcoin, i componenti che costituiscono una rete funzionante sono molto simili.
 
 Il software del nodo Elements si chiama `elementsd` e viene eseguito come daemon (demone) sul computer dell'utente. Un daemon (demone) (o servizio in Windows) è un programma che viene eseguito come servizio in background senza richiedere il controllo diretto di un utente connesso.
 

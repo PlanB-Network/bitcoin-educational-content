@@ -401,7 +401,7 @@ Eseguire nuovamente il comando `listissuances` su e1.
 e1-cli listissuances
 ```
 
-Questo ci mostra che e1 è ora a conoscenza di due emissioni, l'emissione iniziale di Bitcoin e la nostra nuova asset emessa, di cui possiamo vedere 100 esemplari. Si noti il valore esadecimale del nuovo asset e che non c'è un'etichetta di asset associata, come per l'emissione di bitcoin.
+Questo ci mostra che e1 è ora a conoscenza di due emissioni, l'emissione iniziale di bitcoin e i nostri nuovi asset emessi, di cui possiamo vedere 100 esemplari. Si noti il valore esadecimale del nuovo asset e che non c'è un'etichetta di asset associata, come per l'emissione di bitcoin.
 
 Controllate di nuovo l'elenco delle emissioni note di e2.
 

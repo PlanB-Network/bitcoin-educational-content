@@ -301,7 +301,7 @@ Questo restituisce i dettagli grezzi della transazione. Se si guarda alla sezion
 
 Le prime due sezioni di vout mostrano dei "blinded ranges" (intervalli nascosti) di valori e di commitment data, i quali fungono da prova dell'importo effettivo e del tipo di asset transato.
 
-Anche se importassimo la chiave privata di e2 nel wallet di e1, quest'ultimo non sarebbe comunque in grado di vedere gli importi e il tipo di asset transato, perché non è ancora a conoscenza della chiave di blocco utilizzata da e2. Lo dimostreremo importando la chiave privata utilizzata dal wallet di e2 in quello di e1. Per prima cosa dobbiamo esportare la chiave da e2.
+Anche se importassimo la chiave privata di e2 nel wallet di e1, quest'ultimo non sarebbe comunque in grado di vedere gli importi e il tipo di asset transato, perché non è ancora a conoscenza della blinding key utilizzata da e2. Lo dimostreremo importando la chiave privata utilizzata dal wallet di e2 in quello di e1. Per prima cosa dobbiamo esportare la chiave da e2.
 
 ```
 e2-cli dumpprivkey <address>

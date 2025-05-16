@@ -411,7 +411,7 @@ e2-cli listissuances
 
 Ciò dimostra che e2 non è a conoscenza dell'emissione di asset effettuata da e1. Può solo vedere l'emissione iniziale di bitcoin che già vedeva.
 
-Questo perché e2 non è a conoscenza e non sta guardando l'indirizzo a cui è stata inviata la nuova risorsa quando è stata emessa da e1.
+Questo perché e2 non è a conoscenza e non sta guardando l'indirizzo a cui sono stati inviati i nuovi asset quando sono stati emessi da e1.
 
 Vale la pena notare che, anche se e2 non può vedere l'emissione stessa, e1 potrebbe comunque inviare a e2 una parte dell'asset. La nuova asset verrebbe quindi visualizzata come saldo disponibile nel wallet di e2, anche se quest'ultimo non è a conoscenza dell'emissione originale.
 

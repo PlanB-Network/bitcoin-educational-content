@@ -361,7 +361,7 @@ Un'"Issued Asset" beneficia anche di Confidential Transactions e può essere rie
 
 Il primo passo è l'accesso a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati sottoposti a un reset della blockchain e la risorsa predefinita è stata divisa tra loro.
 
-I due nodi si trovano sulla stessa rete locale e sono collegati tra loro, quindi condividono le stesse transazioni nel loro _mempool_ di transazioni e blockchain identiche. Sebbene siano in esecuzione sulla stessa macchina, vale la pena notare che non condividono gli stessi file blockchain effettivi. Ogni nodo gestisce la propria copia locale della blockchain, che contiene la stessa cronologia delle transazioni, perché sono in consenso e rispettano le stesse regole del protocollo.
+I due nodi si trovano sulla stessa rete locale e sono collegati tra loro, quindi condividono le stesse transazioni nella loro _mempool_ di transazioni e blockchain identiche. Sebbene siano in esecuzione sulla stessa macchina, vale la pena notare che non condividono gli stessi file blockchain effettivi. Ogni nodo gestisce la propria copia locale della blockchain, che contiene la stessa cronologia delle transazioni, perché sono in consenso e rispettano le stesse regole del protocollo.
 
 Iniziamo controllando la visione di ciascun nodo sulle emissioni di asset esistenti nella rete.
 

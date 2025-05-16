@@ -84,7 +84,7 @@ Elements è una piattaforma blockchain di uso generale che può anche essere "an
 
 #### Signed Blocks (Blocchi firmati)
 
-Elements utilizza una "Strong Federation" di firmatari, chiamati ["Block Signers"](https://planb.network/resources/glossary/blocksigners), che firmano e creano blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione "PoW" (Proof-of-work, prova di lavoro), che è soggetto a una ampia gamma dei tempi di estrazione dei blocchi a causa della sua distribuzione casuale di tipo _Poisson_. Il processo di "Federated Block Signing" (Firma federata dei blocchi) consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi o di un mining basato su `algoritmi` computazionali.
+Elements utilizza una "Strong Federation" di firmatari, chiamati ["Block Signers"](https://planb.network/resources/glossary/blocksigners), che firmano e creano blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione "PoW" (Proof-of-work, prova di lavoro), che è soggetto a una gamma ampia dei tempi di estrazione dei blocchi a causa della sua distribuzione casuale di tipo _Poisson_. Il processo di "Federated Block Signing" (Firma federata dei blocchi) consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi o di un mining basato su `algoritmi` computazionali.
 
 Elements aggiunge tutte queste funzionalità alla base di codice di Bitcoin Core, estendendo le capacità del protocollo mainchain e consentendo nuovi casi d'uso commerciali quando viene distribuito come sidechain o come soluzione blockchain indipendente.
 

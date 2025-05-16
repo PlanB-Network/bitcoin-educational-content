@@ -64,7 +64,7 @@ Ulteriori informazioni di base su Elements sono disponibili sul sito web del pro
 
 ### Elements
 
-Lanciato nel 2015, Elements riduce i costi interni di sviluppo e ricerca e sfrutta la più recente tecnologia blockchain, aprendo molti nuovi casi d'uso per l'implementazione. Una blockchain basata su Elements può funzionare come blockchain indipendente o essere collegata a un'altra e funzionare come sidechain . L'esecuzione di Elements come Sidechain consente di trasferire in modo verificabile gli asset (asset) tra blockchain diverse.
+Lanciato nel 2015, Elements riduce i costi interni di sviluppo e ricerca e sfrutta la più recente tecnologia blockchain, aprendo molti nuovi casi d'uso per l'implementazione. Una blockchain basata su Elements può funzionare come blockchain indipendente o essere collegata a un'altra e funzionare come sidechain. L'esecuzione di Elements come Sidechain consente di trasferire in modo verificabile gli asset tra blockchain diverse.
 
 Costruito sulla base del codice di Bitcoin e da esso esteso, consente agli sviluppatori che hanno familiarità con l'API di Bitcoin di creare rapidamente e a costi contenuti blockchain funzionanti e di testare progetti "proof-of-concept" (come prova concettuale). Essendo costruito sulla base del codice di Bitcoin, Elements può anche funzionare come banco di prova per le modifiche al protocollo Bitcoin stesso.
 

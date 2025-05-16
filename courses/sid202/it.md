@@ -136,7 +136,7 @@ La firma a blocchi federata consiste in diverse fasi:
 - Fase 1 - "Block Signers" (Firmatari del Blocco) propongono i blocchi candidati in modo circolare a tutti gli altri _"Block Signers"_ partecipanti.
 - Fase 2 - Ogni Block Signers segnala la propria intenzione impegnandosi a firmare il blocco candidato.
 - Fase 3 - Se la soglia data per il preimpegno è soddisfatta, ogni "Block Signers" firma il blocco.
-- Fase 4 - Se la soglia di firma (che può essere diversa da quella della fase 3) è soddisfatta, il blocco viene accettato e inviato alla rete. La "Strong Federations"  ha raggiunto il consenso sull'ultimo blocco di transazioni.
+- Fase 4 - Se la soglia di firma (che può essere diversa da quella della fase 3) è soddisfatta, il blocco viene accettato e inviato alla rete. La "Strong Federation"  ha raggiunto il consenso sull'ultimo blocco di transazioni.
 - Fase 5 - Il blocco successivo viene proposto dal successivo Block Signers in modo circolare e il processo si ripete.
 
 Poiché la generazione dei blocchi di una _"Strong Federation"_ non è probabilistica e si basa su un insieme fisso di firmatari, non sarà mai soggetta a riorganizzazioni multi-blocco. Ciò consente una significativa riduzione dei tempi di attesa associati alla conferma delle transazioni. Inoltre, elimina l'incentivo a estrarre per profitto (cioè le ricompense dei blocchi) e lo sostituisce con un incentivo a partecipare in modo produttivo a una rete in cui tutti i partecipanti hanno lo stesso obiettivo condiviso: garantire che la rete continui a funzionare in modo vantaggioso per tutti. Ciò avviene senza introdurre un singolo punto di fallimento o requisiti di fiducia più elevati.

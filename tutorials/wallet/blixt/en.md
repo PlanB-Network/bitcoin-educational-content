@@ -26,7 +26,7 @@ If you never used Bitcoin Lightning Network, before you begin, [please read thi
 
 So… Darth’s Mom decided to start using LN with Blixt. Hard decision, but wise. Blixt is only for smart people and those who really want to learn more, deep use of LN.
 
-01
+![blixt](assets/en/01.webp)
 
 Darth warn his mom:
 
@@ -36,7 +36,7 @@ Darth’s Mom read the resources and did her first step: install Blixt on her br
 
 Once you open Blixt, the “Welcome” screen will give you some options:
 
-02
+![blixt](assets/en/02.webp)
 
 On top right corner, you will see 3 dots that activate a menu with:
 
@@ -50,13 +50,13 @@ If you choose to “create a new wallet”, you will be redirected straight to t
 
 This is your “cockpit” and also is the “Main LN Wallet”, so be aware, it will show you only the balance of your LN wallet. The onchain wallet is separately displayed (see C).
 
-03
+![blixt](assets/en/03.webp)
 
 A - Blixt blocks sync indicator icon. This is the most important thing for a LN node: to be synchronized with the network. If that icon is still there working, means your node IS NOT READY! So have patience, in special for the first initial sync. It could take up to 6-8 min, depending on your device and internet connection.
 
 You could click it and see the status of the sync:
 
-04
+![blixt](assets/en/04.webp)
 
 Also you could click on the “Show LND Log” (A) button if you want to see and read more technical details of the LND log, in real time. Is very useful for debug and learning more how LN works.
 
@@ -64,13 +64,13 @@ B - Here you can access all the Blixt Settings, and are a lot! Blixt is offering
 
 C - Here you have the “Magic Drawer” menu, [also explained in details here](https://blixtwallet.github.io/features#blixt-drawer). Here is the “Onchain Wallet” (B), Lightning Channels (C), Contacts, Channels status icon (A), Keysend (D).
 
-05
+![blixt](assets/en/05.webp)
 
 D - Is the help menu, with links to FAQ / Guides page, contact developer, Github page and Telegram support group.
 
 E - Indicate your first BTC address, where you can deposit your first testing sats. THIS IS OPTIONAL! If you deposit straight into that address, is opening a LN channel towards Blixt Node. That means you will see your deposited sats, going into another onchain transaction (tx), for opening that LN channel. You can check that into Blixt onchain wallet (see point C), clicking on the top right TX menu.
 
-06
+![blixt](assets/en/06.webp)
 
 As you can see in the Onchain Transaction Log, the steps are very detailed indicating where the sats are going (deposit, open, close channel).
 
@@ -98,11 +98,11 @@ This is very simple, only take some few steps and a bit of patience:
 - Select a node and click on its name title link, it will open its Amboss page
 - Click to display the QR code for the node URI address
 
-07
+![blixt](assets/en/07.webp)
 
 Open Blixt and go to top drawer - Lightning Channels and click on the “+” button
 
-08
+![blixt](assets/en/08.webp)
 
 Now, click on (A) camera to scan the QR code from Amboss page and the node details will be filled out. Add the amount of the sats for the channel you want and then select the fee rate for the tx. You can leave it auto (B) for a faster confirmation or adjust it manually sliding the button. You can also long press the number and edit it as you like.
 
@@ -118,11 +118,11 @@ Once is confirmed, you will see the channel active in your section “Lightning 
 
 Ok so now we have a LN channel with only OUTBOUND liquidity. That means we can only SEND, we still can’t RECEIVE sats over LN.
 
-09
+![blixt](assets/en/09.webp)
 
 Why? Did you read the guides indicated in the beginning? No? Go back and read them. It is very important to understand how LN channels works.
 
-10
+![blixt](assets/en/10.webp)
 
 As you can see in this example, the channel open with the first deposit, do not have too much INBOUND liquidity (“Can receive”) but have a lot of OUTBOUND liquidity (“Can send”).
 
@@ -136,7 +136,7 @@ So what options you have, if you want to receive more sats over LN?
 
 - Open a Dunder channel, with Blixt node or any other Dunder LSP provider. A Dunder channel is a simple way to get some INBOUND liquidity, but in the same time you deposit some sats into that channel. Is also good because it will open the channel with an [UTXO](https://en.bitcoin.it/wiki/UTXO) that is not from your Blixt wallet. That add some privacy. Is also good because, if you do not have sats into an onchain wallet, to open a normal LN channel, but you have them into another LN wallet, you can just pay from that another wallet through LN the opening and the deposit (on your side) of that Dunder channel. [More details how Dunder works and how to run your own server here](https://github.com/hsjoberg/dunder-lsp).
 
-11
+![blixt](assets/en/11.webp)
 
 Here are the steps to activate opening a Dunder channel:
 
@@ -146,7 +146,7 @@ Here are the steps to activate opening a Dunder channel:
 
 OK, so after the Dunder channel is confirmed (will take few minutes) you will end up with having 2 LN channels: one opened initially with autopilot (channel A) and one with more inbound liquidity, opened with Dunder (channel B).
 
-12
+![blixt](assets/en/12.webp)
 
 Good, now you are good to go, to send and receive enough sats over LN !
 
@@ -168,7 +168,7 @@ In the past I wrote a dedicated guide about [how to restore a crashed Umbrel no
 
 I also wrote a guide how to restore your Blixt node or migrate your Blixt to another device, [here](https://blixtwallet.github.io/faq#blixt-restore).
 
-13
+![blixt](assets/en/13.webp)
 
 But let’s explain in simple steps this process. As you can see in the image above, there are 2 things you should do to restore your previous Blixt/LND node:
 
@@ -183,7 +183,7 @@ Another useful feature is to set a specific Bitcoin node from that top menu. By 
 
 So once you fill those options, and hit the restore button, Blixt will start first to sync the blocks through Neutrino as we explained in the First Contact chapter. So be patient and watch the restore process in the main screen, by clicking on the sync icon.
 
-14
+![blixt](assets/en/14.webp)
 
 As you can see in this example, it shows that the bitcoin blocks are 100% synced (A) and the recovering process is in course (B). That means the LN channels you had previously, it will be closed and the funds restored into your Blixt onchain wallet.
 
@@ -191,15 +191,15 @@ This process takes time! So please, be patient and try to keep your Blixt active
 
 Once this process it started, you could check in the Magic Drawer - Lightning Channels, the status of each of your previous channels,showing that are in “pending to close” status. Once each channel is closed, you could see the closing tx in the onchain wallet (see Magic Drawer - Onchain), and open up the tx menu log.
 
-15
+![blixt](assets/en/15.webp)
 
 Also will be good to check and add if are not there, your previously peers you had in your old LN node. So go to Settings menu, down to “Lightning Network” and enter into option “Show Lightning Peers”.
 
-16
+![blixt](assets/en/16.webp)
 
 Inside the section you will see the peers you are connected in that moment and you could add more, better to add those you had channels before. Just go to [Amboss page](https://amboss.space/), search for your peer nodes aliases or nodeID and scan their node URI.
 
-17
+![blixt](assets/en/17.webp)
 
 As you can in the image above, are 3 aspects:
 
@@ -213,7 +213,7 @@ This node address URI you have to add it into your peers list. So be aware is no
 
 Now you can go to Magic Drawer (top left menu) - Lightning Channels, and you can see at which maturity block height the funds will be returned into your onchain address.
 
-18
+![blixt](assets/en/18.webp)
 
 That block number 764272 is when the funds will be usable in your bitcoin onchain address. And it could take up to 144 blocks from the 1st confirmation block until are released. [So check that in the mempool](https://mempool.space/).
 
@@ -251,7 +251,7 @@ But I will point out some of those necessary to go forward using your Blixt and 
 
 ### A - Name (NameDesc)
 
-19
+![blixt](assets/en/19.webp)
 
 [The NamDesc](https://github.com/lightning/blips/blob/master/blip-0011.md) is a standard for conveying "receiver name" in BOLT11 invoices.
 
@@ -261,11 +261,11 @@ This option is really useful in various cases, when you want to send a name toge
 
 Here is an example of how would appear when you use [chat.blixtwallet.com](https://chat.blixtwallet.com/)
 
-20
+![blixt](assets/en/20.webp)
 
 This is another example sending to another wallet app that support NameDesc:
 
-21
+![blixt](assets/en/21.webp)
 
 ### B - Lightning Box
 
@@ -283,7 +283,7 @@ This LN address implemented into Blixt wallet app, is like a chat over LN, insta
 
 Another useful feature is the full support fro LUD-18 (that also [Stacker.News](https://stacker.news/r/DarthCoin) and others is supporting it).
 
-22
+![blixt](assets/en/22.webp)
 
 As you can see in the screenshot above, sending from a Stacker News account, it displayed nicely the logo + LN address + message. Same way works for sending from Blixt, you can attach your Blixt LN Address or simply add the alias name (previously set in Blixt settings) or even both.
 
@@ -299,7 +299,7 @@ This is a very important feature !
 
 After opening or closing a LN channel you should do a backup. It can be done manually saving a small file on local device (download folder usually) or using a Google Drive or iCloud account.
 
-23
+![blixt](assets/en/23.webp)
 
 Go to Blixt Settings - Wallet section. There you have the options to save all important data for your Blixt wallet:
 
@@ -314,7 +314,7 @@ I would recommend for this section the following:
 - use a password manager to store safely your seed and backup file. KeePass or Bitwarden are very good for that and can be used on multiplatform and self hosted or offline.
 - DO THE BACKUP EVERY TIME you open or close a channel. That file is updated with the channels info. There’s no need to do it after each transaction you’ve done on LN. The channel backup is not storing that info, is storing only the status of the channel.
 
-24
+![blixt](assets/en/24.webp)
 
 ---
 
@@ -336,7 +336,7 @@ So there's NO NEED to use it with Tor. Tor will add a huge latency on your synci
 
 You can test the latency of a neutrino server by simply ping it, from a PC or from your mobile.
 
-25
+![blixt](assets/en/25.webp)
 
 This is an usual ping to the neutrino server europe.blixtwallet.com, this shows that the connection is very good with a response time of avg 50ms and a TTL of 51. The response time can vary but not too much. TTL must be stable.
 

@@ -415,7 +415,7 @@ Questo perché e2 non è a conoscenza e non sta guardando l'indirizzo a cui sono
 
 Vale la pena notare che, anche se e2 non può vedere l'emissione stessa, e1 potrebbe comunque inviare a e2 una parte dell'asset. Il nuovo asset verrebbe quindi visualizzato come saldo disponibile nel wallet di e2, anche se quest'ultimo non è a conoscenza dell'emissione originale.
 
-Per consentire a e2 di vedere l'emissione effettiva (e quindi l'importo emesso), dobbiamo aggiungere l'indirizzo a e2 come indirizzo guardato.
+Per consentire a e2 di vedere l'emissione effettiva (e quindi l'importo emesso), dobbiamo aggiungere l'indirizzo a e2 come watched address.
 
 Per farlo, dobbiamo scoprire l'indirizzo a cui è stata inviata la risorsa. A tale scopo, utilizzeremo l'_id della transazione_ copiato in precedenza e chiederemo a e1 di recuperare i dettagli della transazione, in modo da individuare l'indirizzo corretto da aggiungere all'elenco dei portafogli di e2.
 

@@ -413,7 +413,7 @@ Ciò dimostra che e2 non è a conoscenza dell'emissione di asset effettuata da e
 
 Questo perché e2 non è a conoscenza e non sta guardando l'indirizzo a cui sono stati inviati i nuovi asset quando sono stati emessi da e1.
 
-Vale la pena notare che, anche se e2 non può vedere l'emissione stessa, e1 potrebbe comunque inviare a e2 una parte dell'asset. La nuova asset verrebbe quindi visualizzata come saldo disponibile nel wallet di e2, anche se quest'ultimo non è a conoscenza dell'emissione originale.
+Vale la pena notare che, anche se e2 non può vedere l'emissione stessa, e1 potrebbe comunque inviare a e2 una parte dell'asset. Il nuovo asset verrebbe quindi visualizzato come saldo disponibile nel wallet di e2, anche se quest'ultimo non è a conoscenza dell'emissione originale.
 
 Per consentire a e2 di vedere l'emissione effettiva (e quindi l'importo emesso), dobbiamo aggiungere l'indirizzo a e2 come indirizzo guardato.
 

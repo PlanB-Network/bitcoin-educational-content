@@ -191,10 +191,11 @@ Dengan Bitcoin, Satoshi Nakamoto menciptakan mata uang digital yang kuat dan rah
 ## Mata Uang Digital Pribadi
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
-Di bab sebelumnya, kita telah menjelajahi bentuk pertama dari uang elektronik yang muncul dari kemunculan Internet dan kriptografi modern: model eCash David Chaum. Model ini memberikan pengaruh yang signifikan kepada Satoshi Nakamoto dan merupakan tonggak penting dalam perjalanan menuju Bitcoin. Namun, cerita tentang asal-usul cryptocurrency tidak berakhir dengan eCash; ini juga mencakup eksperimen dengan mata uang pribadi yang beroperasi di Internet, yang dikembangkan dari akhir tahun 1990-an.
+Pada bab sebelumnya, kita telah menjelajahi bentuk pertama uang elektronik yang muncul dari kemajuan internet dan kriptografi modern: model eCash dari David Chaum. Model ini secara signifikan memengaruhi Satoshi Nakamoto dan merupakan tonggak penting dalam perjalanan yang mengarah pada Bitcoin. Namun, kisah asal-usul mata uang kripto tidak berakhir dengan eCash; itu juga mencakup eksperimen dengan mata uang privat yang beroperasi di internet, yang dikembangkan sejak akhir tahun 1990-an.
 
-Dalam bab ini, kita akan melihat apa yang dilakukan dalam ranah mata uang pribadi di Amerika Serikat. Kita akan pertama-tama membahas kasus Liberty Dollar. Kemudian, kita akan memeriksa sistem terpusat seperti e-gold dan Liberty Reserve. Akhirnya, kita akan membahas tentang PayPal, yang pendekatannya berbeda, namun tetap memberikan contoh yang menerangi dari model yang berbasis pada pihak ketiga yang terpercaya.
-Dalam semua kasus, sistem-sistem ini akhirnya ditutup oleh otoritas atau harus mematuhi regulasi keuangan. Inilah mengapa Satoshi Nakamoto, yang memiliki pemahaman yang baik tentang sistem-sistem ini, sangat memahami kebutuhan akan sistem alternatif yang tidak bergantung pada otoritas pusat.
+Dalam bab ini, kita akan melihat apa yang dilakukan di ranah mata uang privat di Amerika Serikat. Pertama, kita akan membahas kasus Liberty Dollar. Kemudian, kita akan memeriksa sistem terpusat seperti e-gold dan Liberty Reserve. Terakhir, kita akan berbicara tentang PayPal, yang pendekatannya berbeda, tetapi tetap berfungsi sebagai contoh yang memberikan pencerahan tentang model yang didasarkan pada pihak ketiga yang terpercaya.
+
+Dalam semua kasus, sistem-sistem ini akhirnya ditutup oleh pihak berwenang atau harus mematuhi regulasi keuangan. Inilah mengapa Satoshi Nakamoto, yang memiliki pemahaman yang baik tentang sistem-sistem ini, sangat memahami kebutuhan akan sistem alternatif yang tidak bergantung pada otoritas pusat.
 
 ### Kebebasan Moneter di Amerika Serikat dan Liberty Dollar
 

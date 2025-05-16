@@ -198,9 +198,9 @@ Alcuni elementi possono essere modificati utilizzando questi parametri:
 - Lo script che deve essere soddisfatto per trasferire gli asset all'interno e all'esterno di una sidechain.
 - Se connettersi o meno a un nodo Bitcoin come sidechain.
 
-Molti di questi fanno parte delle regole di consenso della rete, quindi è importante che siano applicati a tutti i nodi all'avvio. Alcune possono essere modificate dopo l'inizializzazione di una catena, mentre altre devono essere corrette dopo che sono state usate per inizializzare una catena.
+Molti di questi parametri fanno parte delle regole di consenso della rete, quindi è importante che siano applicati a tutti i nodi all'avvio. Alcuni possono essere modificati dopo l'inizializzazione di una catena, mentre altri devono essere corretti dopo che sono stati usati per inizializzare una catena.
 
-L'uso dei parametri sarà trattato più avanti nel corso del corso, in relazione a ciascuna sezione.
+L'uso dei parametri sarà trattato più avanti nello svolgimento del corso, in relazione a ciascuna sezione.
 
 ### Operazioni di base con la riga di comando
 

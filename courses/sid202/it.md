@@ -106,7 +106,7 @@ A differenza della rete Bitcoin, il processo di firma dei blocchi all'interno di
 
 Elements può funzionare come sidechain di un'altra blockchain, come Bitcoin, o come blockchain autonoma senza dipendere da altre reti.
 
-Quando viene utilizzata come sidechain, la "Strong Federation" contiene anche membri che consentono il trasferimento sicuro e controllato di asset tra una catena principale e una sidechain Elements. Il trasferimento controllato di asset è chiamato "Federated 2-Way Peg" (Ancoraggio Federato a due Vie) e i membri che svolgono il ruolo di trasferimento dei asset sono chiamati ["Watchmen" (guardiani)](https://planb.network/resources/glossary/watchmen).
+Quando viene utilizzata come sidechain, la "Strong Federation" contiene anche membri che consentono il trasferimento sicuro e controllato di asset tra una catena principale e una sidechain Elements. Il trasferimento controllato di asset è chiamato "Federated 2-Way Peg" (Ancoraggio Federato a due Vie) e i membri che svolgono il ruolo di trasferimento degli asset sono chiamati ["Watchmen" (Guardiani)](https://planb.network/resources/glossary/watchmen).
 
 I processi coinvolti nella gestione di una rete Elements e i ruoli dei partecipanti alla rete sono importanti per comprendere il funzionamento di Elements.
 

@@ -110,7 +110,7 @@ Quando viene utilizzata come sidechain, la "Strong Federation" contiene anche me
 
 I processi coinvolti nella gestione di una rete Elements e i ruoli dei partecipanti alla rete sono importanti per comprendere il funzionamento di Elements.
 
-Sia che venga implementata come sidechain o come blockchain indipendente, Elements si avvale di "initialfreecoinss" di "Block Signers" (Firmatari dei Blocchi) per produrre i blocchi.
+Sia che venga implementata come sidechain o come blockchain indipendente, Elements si avvale di "initialfreecoins" di "Block Signers" (Firmatari dei Blocchi) per produrre i blocchi.
 
 ### Strong Federations
 

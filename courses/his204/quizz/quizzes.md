@@ -18,7 +18,7 @@ bonne reponse: a
 difficulty: easy
 explanation: Maximilien de Béthune, duc de Sully, fut le principal ministre d'Henri IV. Il a joué un rôle essentiel dans la restauration des finances royales et le redressement économique du royaume après les guerres de religion.
 
-3) Qu'est ce que La politique mercantiliste recommande-t-elle ?
+3) Qu'est ce que La politique mercantiliste recommande ?
 a) les importations, pour amasser des marchandises étrangères
 b) les exportations, pour amasser l’or et l’argent reçu en paiement
 c) ni l’un ni l’autre, le commerce étant stérile et sans intérêt
@@ -66,7 +66,7 @@ bonne reponse: b
 difficulty: intermediate
 explanation: La fiscalité sous l'Ancien Régime était souvent arbitraire et imprévisible. L'absence de règles claires et la possibilité d'être taxé de manière excessive décourageaient l'investissement et l'enrichissement, car les gains pouvaient être confisqués par l'impôt.
 
-3) Quel type d’impôt Vauban a-t-il défendu dans ses écrits
+3) Quel type d’impôt Vauban a-t-il défendu dans ses écrits ?
 a) L’impôt progressif : le taux de l’impôt des riches doit être plus élevé que celui des pauvres 
 b) L’impôt proportionnel : chacun doit céder à l’Etat le même pourcentage de ses revenus
 c) L’impôt forfaitaire : quel que soit votre revenu, vous devrez payer une même somme chaque année à l’Etat
@@ -127,10 +127,10 @@ explanation: Boisguilbert critiquait ceux qui cherchaient à maintenir les prix 
 a) La théorie du sous-emploi de Keynes
 b) La théorie marxiste des classes
 c) Aucune de ces réponses ne convient
-d) La théorie de la relativité
+d) La théorie de la relance par la consommation
 bonne reponse: c
 difficulty: easy
-explanation: On a attribué à Boisguilbert des idées précurseurs de la théorie du sous-emploi de Keynes et de la théorie des classes de Marx, bien qu'il n'ait pas formulé ces théories de manière aussi explicite. La théorie de la relativité n'a aucun lien avec Boisguilbert.
+explanation: On a attribué à Boisguilbert des idées précurseurs de la théorie du sous-emploi de Keynes, de la théorie des classes de Marx et de la théorie de la relance par la consommation, bien qu'il n'ait pas formulé ces théories de manière aussi explicite.
 
 5) Sous quel titre Boisguilbert a-t-il republié son Détail de la France en 1696 ?
 a) La France ruinée sous le règne de Louis XIV, par qui et comment, avec les moyens de la rétablir
@@ -448,7 +448,7 @@ bonne reponse: c
 difficulty: easy
 explanation: Quesnay était le médecin personnel de Madame de Pompadour, ce qui lui donnait un accès privilégié à la cour et lui permettait d'influencer les décisions politiques.
 
-3) 1757 marque la naissance de la Physiocratie, quels sont les deux que publie Quesnay publie dans l’Encyclopédie ?
+3) 1757 marque la naissance de la Physiocratie, quels sont les deux articles que publie Quesnay publie dans l’Encyclopédie ?
 a) Intérêt de l’argent et Agriculture
 b) Culture des terres et Assolement
 c) Fermiers et Grains
@@ -542,7 +542,7 @@ bonne reponse: a
 difficulty: intermediate
 explanation: La sécurité de la propriété privée était essentielle pour encourager l'investissement et le travail selon les Physiocrates. Ils pensaient que les individus étaient plus enclins à travailler et à investir s'ils étaient assurés de pouvoir conserver les fruits de leur labeur.
 
-3) Selon le titre d’un livre de Le Trosne, comment est décrit la liberté du commerce ?
+3) Selon le titre d’un livre de Le Trosne, comment est décrite la liberté du commerce ?
 a) Toujours profitable et toujours utile
 b) Souvent profitable et toujours morale
 c) Toujours utile et jamais nuisible
@@ -551,7 +551,7 @@ bonne reponse: c
 difficulty: hard
 explanation: Le Trosne a écrit "De l'intérêt social, par rapport à la valeur, à la circulation, à l'industrie et au commerce intérieur et extérieur", où il défend la liberté du commerce comme étant toujours utile et jamais nuisible à la société.
 
-4) Dans un projet de loi soumis à l’Assemblée constituante, qu'est ce que Dupont de Nemours proposait-il d’interdire ?
+4) Dans un projet de loi soumis à l’Assemblée constituante, qu'est ce que Dupont de Nemours proposait d’interdire ?
 a) Les guerres commerciales
 b) Les guerres défensives
 c) Les guerres offensives
@@ -697,7 +697,7 @@ a) La liberté du travail et la suppression des corporations
 b) La liberté du commerce des grains
 c) La liberté des prêts à intérêt
 d) La réforme de l'éducation
-bonne reponse: hard
+bonne reponse: a
 difficulty: hard
 explanation: Diderot soutenait Turgot sur la question de la liberté du travail et la suppression des corporations, car il pensait que ces mesures étaient nécessaires pour stimuler l'économie et favoriser le progrès social.
 
@@ -721,7 +721,7 @@ bonne reponse: a
 difficulty: hard
 explanation: Les origines familiales de Turgot, son appartenance à une famille noble et influente, l'époque, marquée par un bouillonnement intellectuel et une volonté de réforme, et sa précocité intellectuelle, qui lui a permis de maîtriser rapidement les connaissances économiques et politiques, ont contribué à son éclat.
 
-2) De quel économiste Turgot a-t-il tracé l’éloge ?
+2) De quel économiste Turgot a-t-il écrit l’éloge ?
 a) François Quesnay
 b) Le marquis d’Argenson
 c) Vincent de Gournay

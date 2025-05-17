@@ -1,0 +1,23 @@
+start_date: 2026-01-30
+end_date: 2026-01-31
+address_line_1: Cape Town, South Africa
+address_line_2: 
+address_line_3: 
+name: Adopting Bitcoin Cape Town
+builder: Adopting Bitcoin Cape Town
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Signal-only, Bitcoin-only, 2-day conference in January every year!
+language: 
+  - en
+links:
+  website: https://za25.adoptingbitcoin.org/
+  replay_url:
+  live_url :
+tags: 
+  - Bitcoiner
+  - General
+  - International
+  - Africa

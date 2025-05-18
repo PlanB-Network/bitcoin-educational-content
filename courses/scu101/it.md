@@ -59,7 +59,7 @@ Per iniziare, discuteremo dell'importanza della scelta di un browser web e delle
 - Capitolo 3 - Utilizzo del computer
 - Capitolo 4 - Hack e gestione del backup
 
-In questa sezione, affronteremo tre aree chiave della sicurezza informatica. Innanzitutto, esploreremo i diversi sistemi operativi: Mac, PC e Linux, evidenziandone le specificità e i punti di forza. Successivamente, ci concentreremo sui metodi per proteggerti efficacemente dai tentativi di hacking e per rafforzare la sicurezza dei tuoi dispositivi. Infine, metteremo l'accento sull'importanza di proteggere e fare regolarmente il backup dei tuoi dati per prevenire perdite o ransomware.
+In questa sezione, affronteremo tre aree chiave della sicurezza informatica. Innanzitutto, esploreremo i diversi sistemi operativi: Mac, PC e Linux, evidenziandone le specificità e i punti di forza. Successivamente, ci concentreremo sui metodi per proteggerti efficacemente dai tentativi di hacking e per rafforzare la sicurezza dei tuoi dispositivi. Infine, metteremo l'accento sull'importanza di proteggere e fare regolarmente il backup dei tuoi dati per prevenire perdite o potenziali estorsioni informatiche.
 ![](assets/it/2.webp)
 
 **Sezione 3: Implementazione delle soluzioni**

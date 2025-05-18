@@ -1,0 +1,8 @@
+question: Où Adam Smith et les Physiocrates se sont-ils rencontrés ?
+answer: À Paris
+wrong_answers:
+  - À Glasgow
+  - À Londres
+  - Ils ne se sont jamais rencontrés
+explanation: |
+  Adam Smith a rencontré les Physiocrates à Paris lors d'un voyage en Europe. Il a été influencé par leurs idées, mais il a également développé sa propre théorie économique, qui diffère de la physiocratie sur certains points.

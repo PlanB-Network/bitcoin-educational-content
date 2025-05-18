@@ -1,21 +1,21 @@
 ---
-name: Pengantar Teoretis Jaringan Lightning
-goal: Memahami Jaringan Lightning dari perspektif teknis
+name: Pengantar Teoretis Lightning Network
+goal: Memahami Lightning Network dari perspektif teknis
 objectives:
   - Memahami operasi saluran jaringan.
   - Membiasakan diri dengan istilah HTLC, LNURL, dan UTXO.
   - Menguasai manajemen likuiditas dan biaya LNN.
-  - Menyadari Jaringan Lightning sebagai sebuah jaringan.
-  - Memahami penggunaan Jaringan Lightning secara teoretis.
+  - Menyadari Lightning Network (Jaringan Lightning) sebagai sebuah jaringan.
+  - Memahami penggunaan Lightning Network secara teoretis.
 ---
 
 # Perjalanan ke Lapisan Kedua Bitcoin 
 
-Memahami inti dari Jaringan Lightning, sebuah sistem penting untuk masa depan transaksi Bitcoin. LNP201 adalah kursus teoretis tentang cara kerja teknis Lightning. Kursus ini menjelaskan fondasi dan mekanisme dari jaringan lapisan kedua ini, yang dirancang untuk membuat pembayaran Bitcoin cepat, ekonomis, dan dapat digunakan oleh banyak pengguna secara bersamaan.
+Memahami inti dari Lightning Network (Jaringan Lightning), sebuah sistem penting untuk masa depan transaksi Bitcoin. LNP201 adalah kursus teoretis tentang cara kerja teknis Lightning. Kursus ini menjelaskan fondasi dan mekanisme dari jaringan lapisan kedua ini, yang dirancang untuk membuat pembayaran Bitcoin cepat, ekonomis, dan dapat digunakan oleh banyak pengguna secara bersamaan.
 
-Berkat jaringan saluran pembayarannya, Lightning memungkinkan transaksi cepat dan aman tanpa mencatat setiap pertukaran di blockchain Bitcoin. Sepanjang bab, Anda akan belajar bagaimana pembukaan, pengelolaan, dan penutupan saluran bekerja, bagaimana pembayaran dialirkan melalui node perantara secara aman dengan meminimalkan kebutuhan akan kepercayaan, serta bagaimana mengelola likuiditas. Anda akan memahami apa itu transaksi komitmen, _HTLC_, kunci pembatalan (_revocation key_), mekanisme hukuman, onion routing, dan permintaan pembayaran (invoice).
+Berkat jaringan saluran pembayarannya, Lightning memungkinkan transaksi cepat dan aman tanpa mencatat setiap pertukaran di blockchain Bitcoin. Sepanjang bab, Anda akan belajar bagaimana pembukaan, pengelolaan, dan penutupan saluran bekerja, bagaimana pembayaran dialirkan melalui node perantara secara aman dengan meminimalkan kebutuhan akan kepercayaan, serta bagaimana mengelola likuiditas. Anda akan memahami apa itu transaksi komitmen, _HTLC_, _revocation key_ (kunci pembatalan), mekanisme hukuman, _onion routing_, dan _invoice_ (permintaan pembayaran).
 
-Entah Anda pemula dalam Bitcoin ataupun sudah berpengalaman, kursus ini akan memberikan informasi berharga untuk memahami dan menggunakan Jaringan Lightning. Meskipun kami akan membahas beberapa dasar cara kerja Bitcoin di bagian awal, sangat penting untuk menguasai dasar-dasar penemuan Satoshi sebelum membahas lebih dalam LNP201.
+Entah Anda pemula dalam Bitcoin ataupun sudah berpengalaman, kursus ini akan memberikan informasi berharga untuk memahami dan menggunakan Lightning Network (Jaringan Lightning). Meskipun kami akan membahas beberapa dasar cara kerja Bitcoin di bagian awal, sangat penting untuk menguasai dasar-dasar penemuan Satoshi sebelum membahas lebih dalam LNP201.
 
 Nikmati penemuan Anda!
 
@@ -29,42 +29,43 @@ Nikmati penemuan Anda!
 
 Selamat datang di kursus LNP201!
 
-Pelatihan ini bertujuan untuk memberikan pemahaman mendalam tentang teknis Jaringan Lightning, sebuah jaringan lapisan tambahan yang dirancang untuk memfasilitasi transaksi bitcoin dengan cepat dan seringkali dengan biaya lebih rendah. Anda akan secara bertahap memahami konsep mendasar yang mengatur Jaringan Lightning ini, mulai dari membuka saluran pembayaran hingga teknik routing dan manajemen likuiditas.
+Pelatihan ini bertujuan untuk memberikan pemahaman mendalam tentang teknis 
+Lightning Network (Jaringan Lightning), sebuah jaringan lapisan tambahan yang dirancang untuk memfasilitasi transaksi bitcoin dengan cepat dan seringkali dengan biaya lebih rendah. Anda akan secara bertahap memahami konsep mendasar yang mengatur Jaringan Lightning ini, mulai dari membuka saluran pembayaran hingga teknik routing dan manajemen likuiditas.
 
 **Bagian 1: Dasar-Dasar**  
-Kita akan mulai dengan pengenalan umum tentang Jaringan Lightning, untuk memahami dasar-dasar penting terkait Bitcoin, Address, UTXO, dan cara kerja transaksi. Hal-hal dasar ini sangat penting untuk memahami bagaimana Jaringan Lightning bergantung pada mekanisme blockchain yang melandasinya agar dapat beroperasi dengan aman.
+Kita akan mulai dengan pengenalan umum tentang Lightning Network (Jaringan Lightning), untuk memahami dasar-dasar penting terkait Bitcoin, Address, UTXO, dan cara kerja transaksi. Hal-hal dasar ini sangat penting untuk memahami bagaimana Lightning Network (Jaringan Lightning) bergantung pada mekanisme blockchain yang melandasinya agar dapat beroperasi dengan aman.
 
 **Bagian 2: Pembukaan dan Penutupan Saluran**  
-Pada bagian ini, kita akan membahas proses pembukaan saluran, yang merupakan landasan dari Jaringan Lightning. Anda akan mempelajari bagaimana transaksi komitmen dibuat, peran kunci pembatalan (revocation key) dalam menjaga keamanan, serta bagaimana saluran dapat ditutup secara kolaboratif maupun sepihak. Setiap langkah akan dijelaskan secara rinci dan teknis agar Anda dapat memahami semua seluk beluknya dengan baik.
+Pada bagian ini, kita akan membahas proses pembukaan saluran, yang merupakan landasan dari Lightning Network (Jaringan Lightning). Anda akan mempelajari bagaimana transaksi komitmen dibuat, peran kunci pembatalan (revocation key) dalam menjaga keamanan, serta bagaimana saluran dapat ditutup secara kolaboratif maupun sepihak. Setiap langkah akan dijelaskan secara rinci dan teknis agar Anda dapat memahami semua seluk beluknya dengan baik.
 
 **Bagian 3: Jaringan Likuiditas**  
-Jaringan Lightning tidak terbatas pada saluran individual; ini adalah jaringan pembayaran nyata. Kita akan melihat bagaimana transaksi dapat dialirkan melalui node perantara menggunakan HTLC. Bagian ini juga akan memperkenalkan Anda pada tantangan terkait likuiditas masuk dan keluar.
+Lightning Network (Jaringan Lightning) tidak terbatas pada saluran pembayaran antar individu; ini adalah jaringan pembayaran nyata yang dapat digunakan secara luas. Kita akan melihat bagaimana transaksi dapat dialirkan melalui node perantara menggunakan HTLC. Bagian ini juga akan menjelaskan tantangan likuiditas masuk (_inbound_) dan keluar (_outbound_).
 
 **Bagian 4: Alat-Alat Jaringan Lightning**  
-Bagian ini memperkenalkan berbagai alat praktis dalam Jaringan Lightning, seperti *Invoice*, *LNURL*, dan *Keysend*. Anda juga akan mempelajari cara mengelola likuiditas saluran Anda, aspek penting untuk memastikan kelancaran pembayaran dan memaksimalkan efisiensi transaksi di Lightning.
+Bagian ini memperkenalkan berbagai alat praktis dalam Lightning Network (Jaringan Lightning), seperti *Invoice*, *LNURL*, dan *Keysend*. Anda juga akan mempelajari cara mengelola likuiditas saluran Anda, aspek penting untuk memastikan kelancaran pembayaran dan memaksimalkan efisiensi transaksi di Lightning.
 
 **Bagian 5: Melangkah Lebih Jauh**  
-Akhirnya, kita akan menutup pelatihan dengan merangkum kembali konsep-konsep yang telah dibahas sekaligus membuka jalan untuk topik-topik lanjutan bagi Anda yang ingin memperdalam pemhamanan tentang Jaringan Lightning.
+Sebagai penutup pelatihan ini, kita akan merangkum kembali konsep-konsep yang telah dibahas serta memberikan pengantar untuk topik-topik lanjutan bagi Anda yang ingin memperdalam pemhamanan tentang Lightning Network (Jaringan Lightning).
 
-Siap untuk mengungkap mekanisme teknis di balik Jaringan Lightning? Ayo kita mulai!
+Siap untuk mengungkap mekanisme teknis di balik Lightning Network (Jaringan Lightning)? Ayo kita mulai!
 
 # Dasar-Dasar
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
 
-## Memahami Jaringan Lightning
+## Memahami Lightning Network
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 :::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
 
 
-Jaringan Lightning adalah jaringan saluran pembayaran yang dibangun di atas protokol Bitcoin, agar memungkinkan transaksi yang cepat dan dengan biaya rendah. Jaringan ini memungkinkan pembuatan saluran pembayaran antar peserta, di mana transaksi dapat dilakukan hampir secara instan dan dengan biaya minimal, tanpa perlu mencatat setiap transaksi secara individu di blockchain. Dengan demikian, Jaringan Lightning berupaya untuk meningkatkan skalabilitas Bitcoin dan membuatnya dapat digunakan untuk pembayaran bernilai kecil.
+Lightning Network (Jaringan Lightning) adalah jaringan saluran pembayaran yang dibangun di atas protokol Bitcoin, agar memungkinkan transaksi yang cepat dan dengan biaya rendah. Jaringan ini memungkinkan pembuatan saluran pembayaran antar peserta, di mana transaksi dapat dilakukan hampir secara instan dan dengan biaya minimal, tanpa perlu mencatat setiap transaksi secara individu di blockchain. Dengan demikian, Lightning Network (Jaringan Lightning) berupaya untuk meningkatkan skalabilitas Bitcoin dan membuatnya dapat digunakan untuk pembayaran bernilai kecil.
 
-Sebelum membahas terkait "jaringan", penting untuk memahami konsep **saluran pembayaran** di Lightning, bagaimana cara kerjanya, dan spesifikasinya. Ini adalah subjek dari bab pertama ini.
+Sebelum membahas terkait "jaringan", penting untuk memahami konsep **saluran pembayaran** di Lightning, bagaimana cara kerjanya, dan spesifikasinya. Ini adalah fokus pembahasan pada bab pertama ini.
 
 ### Konsep Saluran Pembayaran
 
-Saluran pembayaran memungkinkan dua pihak, sebagai contoh **Alice** dan **Bob**, untuk bertukar dana melalui Jaringan Lightning. Setiap dari mereka memiliki sebuah node, yang dilambangkan dengan lingkaran, dan saluran di antara mereka diwakili oleh segmen garis.
+Saluran pembayaran memungkinkan dua pihak, sebagai contoh **Alice** dan **Bob**, untuk bertukar dana melalui Lightning Network (Jaringan Lightning). Setiap dari mereka memiliki sebuah node, yang dilambangkan dengan lingkaran, dan saluran di antara mereka dilambangkan dengan sebuah garis.
 
 ![LNP201](assets/en/01.webp)
 
@@ -72,11 +73,11 @@ Dalam contoh ini, Alice memiliki 100.000 satoshi, dan Bob memiliki 30.000, denga
 
 **Tapi apa itu satoshi?**
 
-**Satoshi** (atau "sat") adalah unit akun dari Bitcoin. Mirip dengan sen untuk euro, satoshi hanyalah pecahan dari Bitcoin. Satu satoshi sama dengan **0,00000001 Bitcoin**, atau satu per seratus juta dari satu Bitcoin. Menggunakan satoshi menjadi semakin praktis seiring kenaikan nilai Bitcoin.
+**Satoshi** (atau "sat") adalah satuan nilai terkecil dari Bitcoin. Mirip dengan sen dalam euro, satoshi hanyalah pecahan dari Bitcoin. Satu satoshi sama dengan **0,00000001 Bitcoin**, atau satu per seratus juta dari satu Bitcoin. Penggunaan satoshi menjadi semakin praktis seiring dengan meningkatnya nilai Bitcoin.
 
 ### Alokasi Dana dalam Saluran
 
-Mari kembali ke saluran pembayaran. Konsep kunci di sini adalah "**sisi dari saluran**". Setiap peserta memiliki dana di sisi saluran mereka: Alice 100.000 satoshi dan Bob 30.000. Seperti yang telah kita lihat, jumlah dana ini mewakili kapasitas total dari saluran, yang ditetapkan ketika awal saluran dibuka.
+Mari kembali ke pembahasan tentang saluran pembayaran. Hal penting yang perlu dipahami di sini adalah "**sisi dari saluran**". Setiap peserta memiliki dana di sisi saluran mereka: Alice 100.000 satoshi dan Bob 30.000. Seperti yang sudah dijelaskan, jumlah dana ini mewakili kapasitas total dari saluran, yang ditetapkan ketika awal saluran dibuka.
 
 ![LNP201](assets/en/02.webp)
 
@@ -84,89 +85,89 @@ Mari kita ambil contoh transaksi Lightning. Jika Alice ingin mengirim 40.000 sat
 
 ![LNP201](assets/en/03.webp)
 
-**Kapasitas saluran**, pada 130.000 satoshi, akan tetap sama. Yang berubah adalah alokasi dana. Sistem ini tidak memungkinkan mengirim lebih banyak dana daripada yang dimiliki seseorang. Misalnya, jika Bob ingin mengirim kembali 80.000 satoshi ke Alice, Bob tidak akan bisa, karena dia hanya memiliki 70.000.
+**Kapasitas saluran**, sebesar 130.000 satoshi, akan tetap sama. Yang berubah hanyalah penempatan dana antara Bob dan Alice. Sistem ini tidak memungkinkan seseorang mengirim dana melebihi saldo yang dimilikinya. Misalnya, jika Bob ingin mengirim kembali 80.000 satoshi ke Alice, hal tersebut tidak bisa dilakukan karena saldo Bob hanya 70.000 satoshi.
 
-Cara lain untuk membayangkan alokasi dana adalah dengan memikirkan sebuah **slider** yang menunjukkan di mana dana tersebut berada di dalam saluran. Awalnya, dengan 100.000 satoshi untuk Alice dan 30.000 untuk Bob, slider secara logis berada di sisi Alice. Setelah transaksi 40.000 satoshi, slider akan bergerak sedikit ke sisi Bob, yang sekarang memiliki 70.000 satoshi.
+Cara lain untuk memahami alokasi dana adalah dengan memikirkan sebuah **slider** yang menunjukkan di mana dana tersebut berada di dalam saluran. Awalnya, dengan 100.000 satoshi untuk Alice dan 30.000 untuk Bob, slider secara logis berada di sisi Alice. Setelah transaksi 40.000 satoshi, slider akan bergerak sedikit ke sisi Bob, yang sekarang memiliki 70.000 satoshi.
 
 ![LNP201](assets/en/04.webp)
 
-Representasi ini bisa berguna untuk membayangkan keseimbangan dana dalam suatu saluran.
+Gambar ini untuk membayangkan keseimbangan dana dalam suatu saluran.
 
 ### Aturan Dasar dari Saluran Pembayaran
 
-Poin pertama yang harus diingat adalah bahwa **kapasitas saluran** itu tetap. Hal ini sedikit mirip dengan diameter pipa: karena menentukan jumlah maksimum dana yang dapat dikirimkan sekaligus melalui saluran tersebut.
+Hal penting yang harus diingat adalah bahwa **kapasitas saluran** bersifat tetap. Hal ini bisa dianalogikan seperti diameter sebuah pipa: yang menentukan jumlah maksimum dana yang dapat dikirimkan sekaligus melalui saluran tersebut.
 Mari kita ambil contoh: jika Alice memiliki 130.000 satoshi, Alice hanya dapat mengirim maksimum 130.000 satoshi ke Bob dalam satu transaksi. Namun, Bob kemudian dapat mengirim dana ini kembali ke Alice, baik sebagian atau seluruhnya.
 
-Yang penting untuk dipahami adalah bahwa kapasitas tetap dari saluran membatasi jumlah maksimum dalam satu transaksi, tetapi tidak membatasi jumlah total transaksi yang bisa dilakukan, maupun volume dana yang dikirimkan di dalam saluran.
+Yang penting untuk dipahami adalah bahwa kapasitas saluran yang tetap ini membatasi jumlah maksimum dalam satu transaksi, tetapi tidak membatasi jumlah total transaksi yang bisa dilakukan, maupun volume dana yang dikirimkan dalam saluran tersebut.
 
-**Apa yang dapat Anda pahami dari bab ini?**
+**Apa yang bisa Anda dapatkan dari bab ini?**
 
-- Kapasitas saluran itu tetap dan menentukan jumlah maksimum yang dapat dikirim dalam satu transaksi.
-- Dana dalam saluran didistribusikan antara dua peserta, dan masing-masing hanya dapat mengirimkan dana yang mereka miliki kepada peserta lainnya.
-- Oleh karena itu, Jaringan Lightning memungkinkan pertukaran dana yang cepat dan efisien, sambil tetap memperhatikan batasan kapasitas saluran.
+- Kapasitas sebuah saluran bersifat tetap dan menjadi penentu jumlah maksimum yang dapat dikirim dalam satu transaksi.
+- Dana dalam saluran didistribusikan antara dua pihak, dan masing-masing hanya dapat mengirimkan dana kepada pihak lain sesuai dengan jumlah yang mereka miliki di sisi mereka.
+- Dengan demikian, Lightning Network (Jaringan Lightning) memungkinkan pertukaran dana yang cepat dan efisien, sambil tetap memperhatikan batasan yang ditetapkan oleh kapasitas saluran.
 
-Inilah akhir dari bab pertama ini, di mana kita telah memahami dasar dari Jaringan Lightning. Dalam bab berikutnya, kita akan membahas cara membuka saluran dan menggali lebih dalam konsep yang sudah dibahas di sini.
+Inilah akhir dari bab pertama ini, di mana kita telah memahami dasar dari Lightning Network (Jaringan Lightning). Pada bab berikutnya, kita akan membahas cara membuka channel (saluran) dan menggali lebih dalam konsep yang sudah dibahas di bab ini.
 
-## Bitcoin, Alamat, UTXO, dan Transaksi
+## Bitcoin, Address, UTXO, dan Transaksi
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 :::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
-Bab ini cukup istimewa karena tidak secara langsung didedikasikan untuk Lightning, melainkan untuk Bitcoin. Memang, Jaringan Lightning adalah lapisan di atasnya Bitcoin. Oleh karena itu, sangat penting untuk memahami beberapa konsep dasar Bitcoin agar bisa mengerti cara kerja Lightning di bab-bab selanjutnya. Dalam bab ini, kita akan mengulas dasar-dasar alamat penerima Bitcoin, UTXOs, serta cara kerja transaksi Bitcoin.
+Bab ini cukup istimewa karena tidak secara langsung didedikasikan untuk Lightning, melainkan untuk Bitcoin. Memang, Lightning Network (Jaringan Lightning) adalah lapisan di atasnya Bitcoin. Oleh karena itu, sangat penting untuk memahami beberapa konsep dasar Bitcoin agar bisa mengerti cara kerja Lightning di bab-bab selanjutnya. Dalam bab ini, kita akan mengulas dasar-dasar alamat penerima (_receiving address_) Bitcoin, UTXOs, serta cara kerja transaksi Bitcoin.
 
-### Alamat Bitcoin, Kunci Privat, dan Kunci Publik
+### Bitcoin Address, Kunci Privat, dan Kunci Publik
 
-Alamat Bitcoin adalah serangkaian karakter yang berasal dari **kunci publik**, yang sendiri dihitung dari **kunci privat**. Seperti yang Anda pasti tahu, ini digunakan untuk mengunci bitcoin, yang setara dengan menerima mereka di dompet kita.
+Address (alamat) Bitcoin adalah serangkaian karakter yang berasal dari **public key (kunci publik)**, yang dihasilkan dari perhitungan **private key (kunci privat)**. Seperti yang Anda tahu, address (alamat) digunakan untuk mengunci bitcoin, yang artinya saat seseorang mengirim bitcoin ke address (alamat) kita maka bitcoin tersebut masuk ke dompet kita.
 
-Kunci privat adalah elemen rahasia yang **tidak boleh pernah dibagikan**, sementara kunci publik dan alamat dapat dibagikan tanpa risiko keamanan (pembukaan mereka hanya mewakili risiko terhadap privasi Anda). Berikut adalah representasi umum yang akan kita adopsi sepanjang pelatihan ini:
+Private key (kunci privat) adalah elemen rahasia yang **tidak boleh dibagikan**, sementara public key (kunci publik) dan address (alamat) dapat dibagikan tanpa risiko keamanan (namun membagikan public key (kunci publik) dan address (alamat) tetap dapat membahayakan data pribadi Anda). Berikut adalah gambar yang akan kita gunakan sepanjang pelatihan ini:
 
-- **Kunci privat** akan diwakili **secara vertikal**.
-- **Kunci publik** akan diwakili **secara horizontal**.
-- Warna mereka menunjukkan siapa yang memilikinya (Alice dalam oranye dan Bob dalam hitam...).
+- **Private key (kunci privat)** akan digambarkan **secara vertikal**.
+- **Public key (kunci publik)** akan digambarkan **secara horizontal**.
+- Warna yang digunakan akan menunjukkan siapa yang memilikinya (Alice warna oranye dan Bob warna hitam...).
 
 ### Transaksi Bitcoin: Mengirim Dana dan Skrip
 
-Di Bitcoin, sebuah transaksi melibatkan pengiriman dana dari satu alamat ke alamat lain. Mari kita ambil contoh Alice mengirim 0.002 Bitcoin ke Bob. Alice menggunakan kunci privat yang terkait dengan alamatnya untuk **menandatangani** transaksi, dengan demikian membuktikan bahwa dia memang dapat menghabiskan dana tersebut. Tapi apa sebenarnya yang terjadi di balik transaksi ini? Dana pada alamat Bitcoin dikunci oleh **skrip**, semacam mini-program yang memberlakukan kondisi tertentu untuk menghabiskan dana.
+Di Bitcoin, sebuah transaksi melibatkan pengiriman dana dari satu alamat ke alamat lain. Sebagai contoh Alice mengirim 0.002 Bitcoin ke Bob. Alice menggunakan private key (kunci privat) alamatnya (address) untuk **menandatangani** transaksi, sehingga membuktikan bahwa dia memang dapat menggunakan dana tersebut. Tapi apa sebenarnya yang terjadi di balik transaksi ini? Dana pada address (alamat) Bitcoin dikunci oleh **skrip**, semacam program kecil yang menetapkan kondisi tertentu untuk menggunakan dana tersebut.
 
-Skrip yang paling umum memerlukan tanda tangan dengan kunci privat yang terkait dengan alamat. Ketika Alice menandatangani transaksi dengan kunci privatnya, dia **membuka skrip** yang mengunci dana, dan mereka kemudian dapat ditransfer. Transfer dana melibatkan penambahan skrip baru pada dana ini, menetapkan bahwa untuk menghabiskannya kali ini, tanda tangan kunci privat **Bob** akan diperlukan.
+Skrip yang paling umum memerlukan tanda tangan dengan private key (kunci privat) yang dimiliki oleh address (alamat) tersebut. Ketika Alice menandatangani transaksi dengan private key (kunci privat) miliknya, Alice **membuka skrip** yang mengunci dana tersebut, sehingga dana tersebut dapat ditransfer. Transfer dana tersebut melibatkan penambahan skrip baru pada dana ini, sehingga untuk menggunakan dana ini, tanda tangan private key (kunci privat) **Bob** yang akan diperlukan.
 
 ![LNP201](assets/en/05.webp)
 
 ### UTXOs: Unspent Transaction Outputs
 
-Di Bitcoin, apa yang sebenarnya kita tukarkan bukanlah bitcoin secara langsung, melainkan **UTXOs** (_Unspent Transaction Outputs_), yang berarti "output transaksi yang belum dihabiskan".
+Di Bitcoin, apa yang sebenarnya kita tukarkan bukanlah bitcoin secara langsung, melainkan **UTXOs** (_Unspent Transaction Outputs_), yang berarti "output transaksi yang belum digunakan".
 
-UTXO adalah sepotong bitcoin yang bisa bernilai berapa saja, misalnya, **2.000 bitcoin**, **8 bitcoin**, atau bahkan **8.000 sats**. Setiap UTXO dikunci oleh skrip, dan untuk menghabiskannya, seseorang harus memenuhi kondisi skrip, seringkali sebuah tanda tangan dengan kunci privat yang sesuai dengan alamat penerima tertentu.
+UTXO adalah sepotong bitcoin yang bisa bernilai berapa saja, misalnya, **2.000 bitcoin**, **8 bitcoin**, atau bahkan **8.000 sats**. Setiap UTXO dikunci oleh skrip, dan untuk menggunakan UTXO tersebut, harus memenuhi kondisi skrip, biasanya berupa sebuah tanda tangan dengan private key (kunci privat) yang sesuai dengan address (alamat) penerima UTXO tersebut.
 
-UTXOs tidak dapat dibagi. Setiap kali mereka digunakan untuk menghabiskan jumlah dalam bitcoin yang mereka wakili, itu harus dilakukan secara keseluruhan. Ini sedikit seperti uang kertas: jika Anda memiliki uang kertas €10 dan Anda berhutang kepada tukang roti €5, Anda tidak bisa hanya memotong uang kertas itu menjadi dua. Anda harus memberikannya uang kertas €10, dan dia akan memberi Anda €5 kembali. Prinsip yang sama persis berlaku untuk UTXOs di Bitcoin! Misalnya, ketika Alice membuka skrip dengan kunci privatnya, dia membuka seluruh UTXO. Jika dia ingin mengirim hanya sebagian dari dana yang diwakili oleh UTXO ini ke Bob, dia dapat "memecah"nya menjadi beberapa yang lebih kecil. Dia kemudian akan mengirim 0.0015 BTC ke Bob dan mengirim sisanya, 0.0005 BTC, ke **alamat kembalian**.
+Semua UTXO tidak dapat dibagi. UTXO selalu digunakan secara keseluruhan sesuai dengan jumlah bitcoin yang ada di UTXO tersebut. Ini mirip seperti uang kertas: jika Anda memiliki uang kertas €10 dan Anda berhutang kepada tukang roti €5, Anda tidak bisa membayarnya dengan cara memotong uang kertas tersebut menjadi dua. Anda harus memberikan seluruh uang kertas €10, lalu tukang roti akan memberi Anda €5 sebagai kembali. Prinsip yang sama berlaku untuk UTXO di Bitcoin! Misalnya, ketika Alice membuka skrip dengan private key (kunci privat), Alice membuka seluruh UTXO. Jika Alice ingin mengirim hanya sebagian dari dana yang diwakili oleh UTXO ini ke Bob, Alice dapat "memecah"nya menjadi beberapa yang lebih kecil. Alice kemudian akan mengirim 0.0015 BTC ke Bob dan mengirim sisanya, 0.0005 BTC, ke **change address (alamat kembalian)**.
 
 Berikut adalah contoh transaksi dengan 2 output:
 
-- UTXO sebesar 0,0015 BTC untuk Bob, dikunci oleh skrip yang memerlukan tanda tangan kunci privat Bob.
-- UTXO sebesar 0,0005 BTC untuk Alice, dikunci oleh skrip yang memerlukan tanda tangan kunci privatnya sendiri.
+- UTXO sebesar 0,0015 BTC untuk Bob, dikunci oleh skrip yang memerlukan tanda tangan private key (kunci privat) Bob.
+- UTXO sebesar 0,0005 BTC untuk Alice, dikunci oleh skrip yang memerlukan tanda tangan private key (kunci privat) Alice.
 
 ![LNP201](assets/en/06.webp)
 
-### Alamat Multi-signature
+### Multi-signature Addresses
 
-Selain alamat sederhana yang dihasilkan dari satu kunci publik, juga dimungkinkan untuk membuat **alamat multi-signature** dari beberapa kunci publik. Kasus yang sangat menarik untuk Lightning Network adalah **alamat multi-signature 2/2**, yang dihasilkan dari dua kunci publik:
+Selain address (alamat) sederhana yang dibuat dari satu public key (kunci publik), dengan beberapa public key (kunci publik) juga bisa untuk membuat **multi-signature addresses (_alamat multi-tanda tangan_)**. Salah satu kasus yang sangat menarik untuk Lightning Network (Jaringan Lightning) adalah **2/2 multi-signature address (alamat multi-tanda tangan 2/2)**, yang dihasilkan dari dua public key (kunci publik):
 
 ![LNP201](assets/en/07.webp)
 
-Untuk menghabiskan dana yang dikunci dengan alamat multi-signature 2/2 ini, diperlukan tanda tangan dengan dua kunci privat yang terkait dengan kunci publik.
+Untuk menggunakan dana yang dikunci dengan 2/2 multi-signature address (alamat multi-tanda tangan 2/2) ini, diperlukan tanda tangan dari dua private key (kunci privat) yang terhubung dengan public key (kunci publik).
 
 ![LNP201](assets/en/08.webp)
 
 Tipe alamat ini secara tepat merupakan representasi di blockchain Bitcoin dari saluran pembayaran pada Lightning Network.
 
-**Apa yang harus Anda pahami dari bab ini?**
+**Apa yang bisa Anda dapatkan dari bab ini?**
 
-- **Alamat Bitcoin** berasal dari kunci publik, yang sendiri berasal dari kunci privat.
-- Dana pada Bitcoin dikunci oleh **skrip**, dan untuk menghabiskan dana tersebut, seseorang harus memenuhi skrip, yang umumnya melibatkan penyediaan tanda tangan dengan kunci privat yang sesuai.
-- **UTXOs** adalah potongan-potongan bitcoin yang dikunci oleh skrip, dan setiap transaksi pada Bitcoin terdiri dari membuka UTXO dan kemudian menciptakan satu atau lebih yang baru sebagai gantinya.
-- **Alamat multi-signature 2/2** memerlukan tanda tangan dari dua kunci privat untuk menghabiskan dana. Alamat spesifik ini digunakan dalam konteks Lightning untuk membuat saluran pembayaran.
+- **Bitcoin address (alamat)** berasal dari public key (kunci publik), yang asalnya dari private key (kunci privat).
+- Dana pada Bitcoin dikunci oleh **skrip**, dan untuk bisa menggunakan dana tersebut, maka harus memenuhi kondisi skrip, yang umumnya memerlukan tanda tangan dengan private key (kunci privat) yang sesuai.
+- **UTXOs** adalah potongan-potongan bitcoin yang dikunci oleh skrip, dan setiap transaksi Bitcoin terdiri dari membuka kunci UTXO dan kemudian menciptakan satu atau lebih UTXO baru yang juga terkunci sebagai gantinya.
+- **2/2 multi-signature address (alamat multi-tanda tangan 2/2)** memerlukan tanda tangan dari private key (kunci privat) untuk bisa menggunakan dana di dalamnya. Address (alamat) spesifik ini digunakan dalam konteks Lightning untuk membuat payment channel (saluran pembayaran).
 
-Bab ini tentang Bitcoin telah memungkinkan kita untuk meninjau beberapa konsep esensial untuk apa yang akan diikuti. Dalam bab selanjutnya, kita akan secara khusus menemukan bagaimana pembukaan saluran pada Lightning Network bekerja.
+Bab tentang Bitcoin ini mempersiapkan kita agar dapat memahami beberapa konsep penting untuk pembahasan berikutnya. Dalam bab selanjutnya, kita akan secara khusus membahas bagaimana cara pembukaan channel (saluran) pada Lightning Network (Jaringan Lightning).
 
 # Membuka dan Menutup Saluran
 

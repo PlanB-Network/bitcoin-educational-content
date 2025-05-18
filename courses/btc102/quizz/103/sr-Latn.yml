@@ -1,9 +1,0 @@
-question: Koje su uobičajene zablude o kreiranju plana nasleđivanja prema Pameli Morgan u knjizi Cryptoasset Inheritance Planning?
-answer: Moram da angažujem advokata; Moram da verujem trećoj strani; Planiranje će učiniti da moja imovina bude lako ukradena; Vrednost moje kriptovalute je suviše niska da bi se planirala; Moji naslednici će sve sami shvatiti; Sve ovo se može uraditi jednostavnim Smart contract.
-wrong_answers:
-  - Ne treba da angažujem advokata; Ne treba da verujem trećoj strani; Planiranje će učiniti da moja imovina bude Hard za krađu; Vrednost moje kriptovalute je prevelika da bi se planirala; Moji naslednici neće sve sami shvatiti; Sve ovo ne može biti urađeno jednostavnim Smart contract.
-  - Moram da angažujem advokata; Moram da verujem trećoj strani; Planiranje će učiniti da moja imovina Hard bude ukradena; Vrednost moje kriptovalute je prevelika da bi se planirala; Moji naslednici će sve sami shvatiti; Sve ovo ne može biti urađeno sa jednostavnim Smart contract.
-  - Ne moram da angažujem advokata; Ne moram da verujem trećoj strani; Planiranje će učiniti da moja imovina bude lako ukradena; Vrednost moje kriptovalute je suviše niska da bi se planirala; Moji naslednici neće sami sve shvatiti; Sve ovo može biti urađeno jednostavnim Smart contract.
-explanation: |
-  Uobičajene zablude o kreiranju plana nasleđivanja, kako navodi Pamela Morgan u Cryptoasset Inheritance Planning, su da morate angažovati advokata; morate verovati trećoj strani; planiranje će učiniti da vaša imovina bude lako ukradena; vrednost vaše kriptovalute je suviše niska da bi se planirala; vaši naslednici će sve sami shvatiti; i sve ovo se može uraditi jednostavnim smart Contract.
-reviewed: false

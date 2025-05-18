@@ -1,9 +1,0 @@
-question: Koji je primarni razlog zbog kojeg bi paranoični Bitcoiner koristio svoj vlastiti LN čvor?
-answer: Da bi se održala privatnost i sigurnost
-wrong_answers:
-  - Da biste izbegli KYC procese
-  - Da upravljaju svojim UTXO-ima
-  - Da pomešaju svoje kovanice
-explanation: |
-  Poglavlje pominje da bi paranoični Bitcoiner koristio svoj sopstveni LN čvor kao deo svog fokusa na bezbednost. Iako izbegavanje KYC procesa, upravljanje UTXO-ima i mešanje novčića takođe mogu biti aktivnosti u koje bi se paranoični Bitcoiner mogao upustiti, one nisu direktno povezane sa korišćenjem LN čvora.
-reviewed: false

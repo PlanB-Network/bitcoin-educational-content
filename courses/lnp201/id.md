@@ -13,7 +13,7 @@ objectives:
 
 Memahami inti dari Lightning Network (Jaringan Lightning), sebuah sistem penting untuk masa depan transaksi Bitcoin. LNP201 adalah kursus teoretis tentang cara kerja teknis Lightning. Kursus ini menjelaskan fondasi dan mekanisme dari jaringan lapisan kedua ini, yang dirancang untuk membuat pembayaran Bitcoin cepat, ekonomis, dan dapat digunakan oleh banyak pengguna secara bersamaan.
 
-Berkat jaringan saluran pembayarannya, Lightning memungkinkan transaksi cepat dan aman tanpa mencatat setiap pertukaran di blockchain Bitcoin. Sepanjang bab, Anda akan belajar bagaimana pembukaan, pengelolaan, dan penutupan saluran bekerja, bagaimana pembayaran dialirkan melalui node perantara secara aman dengan meminimalkan kebutuhan akan kepercayaan, serta bagaimana mengelola likuiditas. Anda akan memahami apa itu transaksi komitmen, _HTLC_, _revocation key_ (kunci pembatalan), mekanisme hukuman, _onion routing_, dan _invoice_ (permintaan pembayaran).
+Berkat jaringan saluran pembayarannya, Lightning memungkinkan transaksi cepat dan aman tanpa mencatat setiap pertukaran di blockchain Bitcoin. Sepanjang bab, Anda akan belajar bagaimana pembukaan, pengelolaan, dan penutupan saluran bekerja, bagaimana pembayaran dialirkan melalui node perantara secara aman dengan meminimalkan kebutuhan akan kepercayaan, serta bagaimana mengelola likuiditas. Anda akan memahami apa itu transaksi komitmen, _HTLC_, _revocation key_ (kunci pembatalan), mekanisme hukuman, _onion routing_, dan _invoice_ (tagihan pembayaran).
 
 Entah Anda pemula dalam Bitcoin ataupun sudah berpengalaman, kursus ini akan memberikan informasi berharga untuk memahami dan menggunakan Lightning Network (Jaringan Lightning). Meskipun kami akan membahas beberapa dasar cara kerja Bitcoin di bagian awal, sangat penting untuk menguasai dasar-dasar penemuan Satoshi sebelum membahas lebih dalam LNP201.
 
@@ -36,7 +36,7 @@ Lightning Network (Jaringan Lightning), sebuah jaringan lapisan tambahan yang di
 Kita akan mulai dengan pengenalan umum tentang Lightning Network (Jaringan Lightning), untuk memahami dasar-dasar penting terkait Bitcoin, Address, UTXO, dan cara kerja transaksi. Hal-hal dasar ini sangat penting untuk memahami bagaimana Lightning Network (Jaringan Lightning) bergantung pada mekanisme blockchain yang melandasinya agar dapat beroperasi dengan aman.
 
 **Bagian 2: Pembukaan dan Penutupan Saluran**  
-Pada bagian ini, kita akan membahas proses pembukaan saluran, yang merupakan landasan dari Lightning Network (Jaringan Lightning). Anda akan mempelajari bagaimana transaksi komitmen dibuat, peran kunci pembatalan (revocation key) dalam menjaga keamanan, serta bagaimana saluran dapat ditutup secara kolaboratif maupun sepihak. Setiap langkah akan dijelaskan secara rinci dan teknis agar Anda dapat memahami semua seluk beluknya dengan baik.
+Pada bagian ini, kita akan membahas proses pembukaan saluran, yang merupakan landasan dari Lightning Network (Jaringan Lightning). Anda akan mempelajari bagaimana transaksi komitmen dibuat, peran revocation key (kunci pembatalan) dalam menjaga keamanan, serta bagaimana saluran dapat ditutup secara kolaboratif maupun sepihak. Setiap langkah akan dijelaskan secara rinci dan teknis agar Anda dapat memahami semua seluk beluknya dengan baik.
 
 **Bagian 3: Jaringan Likuiditas**  
 Lightning Network (Jaringan Lightning) tidak terbatas pada saluran pembayaran antar individu; ini adalah jaringan pembayaran nyata yang dapat digunakan secara luas. Kita akan melihat bagaimana transaksi dapat dialirkan melalui node perantara menggunakan HTLC. Bagian ini juga akan menjelaskan tantangan likuiditas masuk (_inbound_) dan keluar (_outbound_).
@@ -158,7 +158,7 @@ Untuk menggunakan dana yang dikunci dengan 2/2 multi-signature address (alamat m
 
 ![LNP201](assets/en/08.webp)
 
-Tipe alamat ini secara tepat merupakan representasi di blockchain Bitcoin dari saluran pembayaran pada Lightning Network.
+Tipe alamat ini secara tepat merupakan representasi di blockchain Bitcoin dari saluran pembayaran pada Lightning Network (Jaringan Lightning).
 
 **Apa yang bisa Anda dapatkan dari bab ini?**
 
@@ -173,68 +173,68 @@ Bab tentang Bitcoin ini mempersiapkan kita agar dapat memahami beberapa konsep p
 
 <partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
 
-## Pembukaan Saluran
+## Membuka Saluran
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 :::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 
-Dalam bab ini, kita akan melihat lebih rinci bagaimana membuka saluran pembayaran pada Lightning Network dan memahami hubungan antara operasi ini dan sistem Bitcoin yang mendasarinya.
+Dalam bab ini, kita akan membahas lebih rinci bagaimana cara membuka payment channel (saluran pembayaran) pada Lightning Network (Jaringan Lightning) dan memahami kaitannya dengan sistem Bitcoin yang mendasarinya.
 
-### Saluran Lightning
+### Lightning Channels
 
-Seperti yang kita lihat di bab pertama, **saluran pembayaran** pada Lightning dapat dibandingkan dengan "pipa" untuk bertukar dana antara dua peserta (**Alice** dan **Bob** dalam contoh kita). Kapasitas dari saluran ini sesuai dengan jumlah dana yang tersedia di setiap sisi. Dalam contoh kita, Alice memiliki **100.000 satoshi** dan Bob memiliki **30.000 satoshi**, memberikan **kapasitas total** sebesar **130.000 satoshi**.
+Seperti yang kita lihat di bab pertama, **payment channel (saluran pembayaran)** pada Lightning dapat digambarkan seperti "pipa" untuk bertukar dana antara dua pihak (**Alice** dan **Bob** dalam contoh kita). Kapasitas dari saluran ini sesuai dengan jumlah dana yang tersedia di setiap sisi. Dalam contoh kita, Alice memiliki **100.000 satoshi** dan Bob memiliki **30.000 satoshi**, memberikan **kapasitas total** sebesar **130.000 satoshi**.
 
 ![LNP201](assets/en/09.webp)
 
 ### Tingkatan Pertukaran Informasi
 
-Sangat penting untuk membedakan dengan jelas berbagai tingkatan pertukaran pada Lightning Network:
+Sangat penting untuk membedakan dengan jelas berbagai tingkatan pertukaran pada Lightning Network (Jaringan Lightning):
 
-- **Komunikasi peer-to-peer (protokol Lightning)**: Ini adalah pesan yang dikirimkan node-node Lightning satu sama lain untuk berkomunikasi. Kami akan merepresentasikan pesan-pesan ini dengan garis putus-putus hitam dalam diagram kami.
-- **Saluran pembayaran (protokol Lightning)**: Ini adalah jalur untuk bertukar dana pada Lightning, yang akan kami representasikan dengan garis hitam padat.
-- **Transaksi Bitcoin (protokol Bitcoin)**: Ini adalah transaksi yang dilakukan onchain, yang akan kami representasikan dengan garis oranye.
+- **Komunikasi peer-to-peer (protokol Lightning)**: Ini adalah pesan yang dikirimkan node-node Lightning satu sama lain untuk berkomunikasi. Kita akan menggambarkan pesan-pesan untuk komunikasi peer-to-peer ini dengan garis putus-putus hitam di dalam diagram.
+- **Payment channels (saluran pembayaran) (protokol Lightning)**: Ini adalah jalur untuk bertukar dana pada Lightning, yang akan kita gambarkan dengan garis hitam padat.
+- **Transaksi Bitcoin (protokol Bitcoin)**: Ini adalah transaksi yang dilakukan onchain (di jaringan utama), yang akan kita gambarkan dengan garis oranye.
 
 ![LNP201](assets/en/10.webp)
 Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui protokol P2P tanpa membuka saluran, tetapi untuk bertukar dana, sebuah saluran diperlukan.
 
 ### Langkah-langkah Membuka Saluran Lightning
 
-- **Pertukaran pesan**: Alice ingin membuka saluran dengan Bob. Dia mengiriminya pesan yang berisi jumlah yang ingin dia setorkan ke dalam saluran (130.000 sats) dan kunci publiknya. Bob merespons dengan membagikan kunci publiknya sendiri.
+- **Pertukaran pesan**: Alice ingin membuka saluran dengan Bob. Alice mengirimi Bob pesan yang berisi jumlah yang ingin dia setorkan ke dalam saluran (130.000 sats) dan public key (kunci publik) miliknya. Bob merespons dengan membagikan public key (kunci publik) milik Bob.
 
 ![LNP201](assets/en/11.webp)
 
-- **Pembuatan alamat multisignature**: Dengan kedua kunci publik ini, Alice membuat **alamat multisignature 2/2**, yang berarti dana yang nantinya akan disetorkan pada alamat ini akan memerlukan kedua tanda tangan (Alice dan Bob) untuk dihabiskan.
+- **Pembuatan multisignature address (alamat multi-tandatangan)**: Dengan kedua public key (kunci publik) ini, Alice membuat **2/2 multi-signature address (alamat multi-tanda tangan 2/2)**, yang berarti dana yang nantinya akan disetorkan pada address (alamat) ini akan memerlukan kedua tanda tangan (Alice dan Bob) untuk dapat digunakan.
 
 ![LNP201](assets/en/12.webp)
 
-- **Transaksi setoran**: Alice menyiapkan transaksi Bitcoin untuk menyetorkan dana pada alamat multisignature ini. Sebagai contoh, dia mungkin memutuskan untuk mengirim **130.000 satoshi** ke alamat multisignature ini. Transaksi ini **dibuat tetapi belum dipublikasikan** di blockchain.
+- **Deposit transaction (transaksi setoran - awal pembukaan saluran)**: Alice menyiapkan transaksi Bitcoin untuk menyetorkan dana pada multisignature address (alamat multi-tandatangan) ini. Sebagai contoh, Alice mungkin memutuskan untuk mengirim **130.000 satoshi** ke multisignature address (alamat multi-tandatangan) ini. Transaksi ini **dibuat tetapi belum dipublikasikan** di blockchain.
 
 ![LNP201](assets/en/13.webp)
 
-- **Transaksi penarikan**: Sebelum mempublikasikan transaksi setoran, Alice membuat transaksi penarikan sehingga dia dapat memulihkan dananya jika terjadi masalah dengan Bob. Memang, setelah Alice mempublikasikan transaksi setoran, satoshinya akan terkunci pada alamat multisignature 2/2 yang memerlukan kedua tanda tangan (Alice dan Bob) untuk dibuka. Alice melindungi diri dari risiko kehilangan ini dengan membuat transaksi penarikan yang memungkinkan dia untuk memulihkan dananya.
+- **Withdrawal transaction (transaksi penarikan)**: Sebelum mempublikasikan deposit transaction (transaksi setoran), Alice terlebih dahulu membuat withdrawal transaction (transaksi penarikan) sehingga Alice bisa mengambil kembali dananya jika terjadi masalah dengan Bob. Hal ini penting, karena begitu Alice mempublikasikan transaksi setoran, satoshinya akan terkunci di multisignature address (alamat multi-tandatangan) yang membutuhkan kedua tanda tangan (Alice dan Bob) untuk bisa digunakan. Alice melindungi diri dari risiko kehilangan dana, Alice membuat transaksi penarikan yang memungkinkan Alice untuk mengambil kembali dananya jika diperlukan.
 
 ![LNP201](assets/en/14.webp)
 
-- **Tanda tangan Bob**: Alice mengirim transaksi setoran kepada Bob sebagai bukti dan memintanya untuk menandatangani transaksi penarikan. Setelah tanda tangan Bob diperoleh pada transaksi penarikan, Alice merasa yakin bahwa dia dapat memulihkan dananya kapan saja, karena hanya tanda tangan dia sendiri yang sekarang diperlukan untuk membuka multisignature.
+- **Tanda tangan Bob**: Alice mengirim deposit transaction (transaksi setoran) kepada Bob sebagai bukti dan memintanya untuk menandatangani withdrawal transaction (transaksi penarikan). Setelah tanda tangan Bob diperoleh pada transaksi penarikan, Alice merasa yakin bahwa dia dapat memulihkan dananya kapan saja, karena hanya tanda tangan Alice sendiri yang sekarang diperlukan untuk membuka multisignature.
 
 ![LNP201](assets/en/15.webp)
 
-- **Publikasi transaksi setoran**: Setelah tanda tangan Bob diperoleh, Alice dapat mempublikasikan transaksi setoran di blockchain Bitcoin, dengan demikian secara resmi membuka saluran Lightning antara kedua pengguna.
+- **Publikasi deposit transaction (transaksi setoran)**: Setelah tanda tangan Bob diperoleh, Alice dapat mempublikasikan transaksi setoran di blockchain Bitcoin, dengan demikian secara resmi membuka channel (saluran) Lightning antara kedua pengguna.
 
 ![LNP201](assets/en/16.webp)
 
-### Kapan saluran dianggap terbuka?
+### Kapan saluran dianggap sudah aktif?
 
-Saluran dianggap terbuka setelah transaksi setoran dimasukkan dalam blok Bitcoin dan telah mencapai kedalaman konfirmasi tertentu (jumlah blok berikutnya).
+Saluran dianggap sudah buka setelah deposit transaction (transaksi setoran) dimasukkan ke dalam blok Bitcoin dan telah mencapai sejumlah konfirmasi tertentu (jumlah blok berikutnya).
 
-**Apa yang harus Anda ingat dari bab ini?**
+**Apa yang perlu Anda ingat dari bab ini?**
 
-- Membuka saluran dimulai dengan pertukaran **pesan** antara kedua pihak (pertukaran jumlah dan kunci publik).
-- Saluran dibentuk dengan membuat **alamat multisignature 2/2** dan menyetorkan dana ke dalamnya melalui transaksi Bitcoin.
-- Orang yang membuka saluran memastikan mereka dapat **memulihkan dana mereka** melalui transaksi penarikan yang ditandatangani oleh pihak lain sebelum mempublikasikan transaksi setoran.
+- Membuka saluran dimulai dengan pertukaran **pesan** antara kedua pihak (pertukaran jumlah dan public key/ kunci publik).
+- Saluran dibentuk dengan membuat **2/2 multi-signature address (alamat multi-tanda tangan 2/2)** dan menyetorkan dana ke dalamnya melalui transaksi Bitcoin.
+- Pihak yang membuka saluran memastikan bahwa mereka dapat **memulihkan dana mereka** melalui withdrawal transaction (transaksi penarikan) yang ditandatangani oleh pihak lain sebelum mempublikasikan deposit transaction (transaksi setoran).
 
-Di bab selanjutnya, kita akan menjelajahi cara kerja teknis transaksi Lightning dalam sebuah saluran.
+Pada bab selanjutnya, kita akan membahas cara kerja teknis transaksi Lightning dalam sebuah channel (saluran).
 
 ## Transaksi Komitmen
 
@@ -242,36 +242,36 @@ Di bab selanjutnya, kita akan menjelajahi cara kerja teknis transaksi Lightning 
 :::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 
-Dalam bab ini, kita akan menemukan fungsi teknis dari sebuah transaksi dalam saluran di Jaringan Lightning, yaitu, ketika dana dipindahkan dari satu sisi saluran ke sisi lainnya.
+Dalam bab ini, kita akan membahas fungsi teknis dari sebuah transaksi dalam channel (saluran) di Lightning Network (Jaringan Lightning), yaitu ketika dana dipindahkan dari satu sisi channel (saluran) ke sisi lainnya.
 
-### Pengingat siklus hidup saluran
+### Ringkasan terkait siklus hidup channel (saluran)
 
-Seperti yang telah dilihat sebelumnya, sebuah saluran Lightning dimulai dengan **pembukaan** melalui transaksi Bitcoin. Saluran tersebut dapat **ditutup** kapan saja, juga melalui transaksi Bitcoin. Di antara kedua momen tersebut, hampir tak terbatas jumlah transaksi yang dapat dilakukan dalam saluran, tanpa harus melalui blockchain Bitcoin. Mari kita lihat apa yang terjadi selama transaksi dalam saluran.
+Seperti yang telah dijelaskan sebelumnya, sebuah channel (saluran) Lightning dimulai dengan **pembukaan** melalui transaksi Bitcoin. Channel (saluran) tersebut dapat **ditutup** kapan saja, juga melalui transaksi Bitcoin. Di antara pembukaan dan penutupan tersebut, dalam jumlah yang tak terbatas transaksi dapat dilakukan di dalam channel (saluran) tersebut, tanpa harus melalui blockchain Bitcoin. Mari kita lihat apa yang terjadi selama transaksi di dalam channel (saluran).
 
 ![LNP201](assets/en/17.webp)
 
-### Kondisi Awal Saluran
+### Kondisi Awal Channel (Saluran)
 
-Pada saat membuka saluran, Alice menyetorkan **130.000 satoshi** pada alamat multisignature dari saluran. Dengan demikian, dalam kondisi awal, semua dana berada di sisi Alice. Sebelum membuka saluran, Alice juga membuat Bob menandatangani sebuah **transaksi penarikan**, yang akan memungkinkan dia untuk mengambil kembali dananya jika dia ingin menutup saluran.
+Pada saat membuka channel (saluran), Alice menyetorkan **130.000 satoshi** pada multisignature address (alamat multi tanda tangan). Sehingga, pada kondisi awal, semua dana berada di sisi Alice. Sebelum pembukaan channel (saluran), Alice juga membuat Bob menandatangani sebuah **withdrawal transaction (transaksi penarikan)**, yang memungkinkan Alice untuk mengambil kembali dananya jika Alice ingin menutup channel (saluran) tersebut.
 
 ![LNP201](assets/en/18.webp)
 
 ### Transaksi yang Tidak Dipublikasikan: Transaksi Komitmen
 
-Ketika Alice melakukan transaksi dalam saluran untuk mengirim dana ke Bob, sebuah transaksi Bitcoin baru dibuat untuk mencerminkan perubahan ini dalam distribusi dana. Transaksi ini, yang disebut **transaksi komitmen**, tidak dipublikasikan di blockchain tetapi mewakili kondisi baru saluran setelah transaksi Lightning.
+Ketika Alice melakukan transaksi dalam channel (saluran) untuk mengirim dana ke Bob, sebuah transaksi Bitcoin baru dibuat untuk mencerminkan perubahan ini dalam distribusi dana. Transaksi ini, yang disebut **transaksi komitmen**, tidak dipublikasikan di blockchain tetapi mewakili kondisi baru channel (saluran) setelah transaksi di dalam channel (saluran) Lightning ini.
 
 Mari kita ambil contoh dengan Alice mengirim 30.000 satoshi ke Bob:
 
 - **Awalnya**: Alice memiliki 130.000 satoshi.
 - **Setelah transaksi**: Alice memiliki 100.000 satoshi, dan Bob 30.000 satoshi.
-  Untuk memvalidasi transfer ini, Alice dan Bob membuat **transaksi Bitcoin baru yang tidak dipublikasikan** yang akan mengirim **100.000 satoshi ke Alice** dan **30.000 satoshi ke Bob** dari alamat multisignature. Kedua pihak membangun transaksi ini secara independen, tetapi dengan data yang sama (jumlah dan alamat). Setelah dibangun, masing-masing menandatangani transaksi dan bertukar tanda tangan dengan yang lain. Ini memungkinkan salah satu pihak untuk mempublikasikan transaksi kapan saja jika diperlukan untuk memulihkan bagian mereka dari saluran di blockchain Bitcoin utama.
+  Untuk memvalidasi transfer ini, Alice dan Bob membuat **transaksi Bitcoin baru yang tidak dipublikasikan** yang akan mengirim **100.000 satoshi ke Alice** dan **30.000 satoshi ke Bob** dari multisignature address (alamat multi tanda tangan). Kedua pihak membangun transaksi ini secara independen, tetapi dengan data yang sama (jumlah dan address/ alamat). Setelah dibangun, masing-masing menandatangani transaksi dan bertukar tanda tangan dengan yang lain. Ini memungkinkan salah satu pihak untuk mempublikasikan transaksi kapan saja jika diperlukan untuk memulihkan bagian mereka dari saluran di blockchain Bitcoin utama.
   ![LNP201](assets/en/19.webp)
 
-### Proses Transfer: Faktur
+### Proses Transfer: Invoice (Tagihan Pembayaran)
 
-Ketika Bob ingin menerima dana, dia mengirim Alice sebuah **_faktur_** untuk 30.000 satoshi. Alice kemudian melanjutkan untuk membayar faktur ini dengan memulai transfer dalam saluran. Seperti yang telah kita lihat, proses ini bergantung pada pembuatan dan penandatanganan **transaksi komitmen** baru.
+Ketika Bob ingin menerima dana, dia mengirim Alice sebuah **invoice** untuk 30.000 satoshi. Alice kemudian melanjutkan untuk membayar invoice ini dengan melakukan transfer di dalam channel (saluran) tersebut. Seperti yang telah kita lihat, proses ini bergantung pada pembuatan dan penandatanganan **transaksi komitmen** baru.
 
-Setiap transaksi komitmen mewakili distribusi dana baru dalam saluran setelah transfer. Dalam contoh ini, setelah transaksi, Bob memiliki 30.000 satoshi dan Alice memiliki 100.000 satoshi. Jika salah satu dari dua peserta memutuskan untuk mempublikasikan transaksi komitmen ini di blockchain, itu akan mengakibatkan penutupan saluran dan dana akan didistribusikan sesuai dengan distribusi terakhir ini.
+Setiap transaksi komitmen mewakili distribusi dana baru dalam channel (saluran) setelah transfer. Dalam contoh ini, setelah transaksi, Bob memiliki 30.000 satoshi dan Alice memiliki 100.000 satoshi. Jika salah satu dari dua peserta memutuskan untuk mempublikasikan transaksi komitmen ini di blockchain, itu akan mengakibatkan penutupan saluran dan dana akan didistribusikan sesuai dengan distribusi terakhir ini.
 
 ![LNP201](assets/en/20.webp)
 
@@ -284,17 +284,17 @@ Mari kita ambil contoh lain: setelah transaksi pertama di mana Alice mengirim 30
 
 ![LNP201](assets/en/21.webp)
 
-Sekali lagi, transaksi ini tidak dipublikasikan di blockchain tetapi dapat dipublikasikan kapan saja jika saluran ditutup.
+Sekali lagi, transaksi ini tidak dipublikasikan di blockchain tetapi dapat dipublikasikan kapan saja jika channel (saluran) ditutup.
 
-Secara ringkas, ketika dana ditransfer dalam saluran Lightning:
+Kesimpulannya, ketika dana ditransfer dalam channel (saluran) Lightning:
 
 - Alice dan Bob membuat **transaksi komitmen** baru, yang mencerminkan distribusi dana yang baru.
-- Transaksi Bitcoin ini **ditandatangani** oleh kedua belah pihak, namun **tidak dipublikasikan** di blockchain Bitcoin selama saluran tetap terbuka.
+- Transaksi Bitcoin ini **ditandatangani** oleh kedua belah pihak, namun **tidak dipublikasikan** di blockchain Bitcoin selama channel (saluran) masih dibuka.
 - Transaksi komitmen memastikan bahwa setiap peserta dapat memulihkan dana mereka kapan saja di blockchain Bitcoin dengan mempublikasikan transaksi terakhir yang ditandatangani.
 
-Namun, sistem ini memiliki kelemahan potensial, yang akan kita bahas di bab berikutnya. Kita akan melihat bagaimana setiap peserta dapat melindungi diri mereka dari upaya curang oleh pihak lain.
+Namun, sistem ini memiliki kelemahan, yang akan kita bahas di bab berikutnya. Kita akan melihat bagaimana setiap pihak dapat melindungi diri mereka dari upaya curang dari pihak lainnya.
 
-## Kunci Pembatalan
+## Revocation Key (Kunci Pembatalan)
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 :::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::

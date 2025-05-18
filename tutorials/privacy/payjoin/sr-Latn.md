@@ -69,10 +69,10 @@ Ovo tumačenje je očigledno netačno jer, kao što već znate, dva ulazna UTXO-
 Ako želite da analizirate pravu PayJoin transakciju, evo jedne koju sam izvršio na Testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://Mempool.space/fr/Testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 
-[**-> Otkrijte naš vodič o tome kako napraviti PayJoin sa Samourai Wallet**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-samourai-Wallet-48a5c711-ee3d-44db-b812-c55913080eab)
+[**-> Otkrijte naš vodič o tome kako napraviti PayJoin sa Samourai Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
-[**-> Otkrijte naš vodič o tome kako napraviti PayJoin sa Sparrow Wallet**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-sparrow-Wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
+[**-> Otkrijte naš vodič o tome kako napraviti PayJoin sa Sparrow Wallet**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 

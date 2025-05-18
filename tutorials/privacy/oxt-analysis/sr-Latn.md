@@ -102,7 +102,7 @@ Međutim, praktična stvarnost je mnogo složenija. Postoji mnoštvo ponašanja 
 Ove ulazne tačke su gotovo neizbežne kada se koristi Bitcoin. Iako neko može pokušati da ograniči njihov obim, one će ostati prisutne. Zato je ključno kombinovati metode usmerene na očuvanje vaše privatnosti. Dok održavanje prihvatljive razdvojenosti između vašeg stvarnog identiteta i vaših transakcija jeste pohvalan pristup, ostaje nedovoljno. Naime, ako se sve vaše aktivnosti na On-Chain mogu grupisati zajedno, onda čak i najmanja ulazna tačka može ugroziti jedinu Layer privatnosti koju ste uspostavili.
 
 
-Stoga je takođe neophodno baviti se analizom lanca u našoj upotrebi Bitcoin. Na taj način možemo minimizirati agregaciju naših aktivnosti i ograničiti uticaj ulazne tačke na našu privatnost. Tačno, da bismo bolje suprotstavili analizi lanca, koji je bolji pristup od upoznavanja sa metodama koje se koriste u analizi lanca? Ako želite da znate kako da poboljšate svoju privatnost na Bitcoin, morate razumeti ove metode. Ovo će vam omogućiti da bolje shvatite tehnike poput [CoinJoin](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef) ili [PayJoin](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), i da smanjite greške koje biste mogli napraviti.
+Stoga je takođe neophodno baviti se analizom lanca u našoj upotrebi Bitcoin. Na taj način možemo minimizirati agregaciju naših aktivnosti i ograničiti uticaj ulazne tačke na našu privatnost. Tačno, da bismo bolje suprotstavili analizi lanca, koji je bolji pristup od upoznavanja sa metodama koje se koriste u analizi lanca? Ako želite da znate kako da poboljšate svoju privatnost na Bitcoin, morate razumeti ove metode. Ovo će vam omogućiti da bolje shvatite tehnike poput [CoinJoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef) ili [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), i da smanjite greške koje biste mogli napraviti.
 
 
 U tome možemo povući analogiju sa kriptografijom i kriptoanalizom. Dobar kriptograf je pre svega dobar kriptoanalitičar. Da bi se zamislio novi algoritam šifrovanja, mora se znati sa kojim napadima će se suočiti, kao i proučiti zašto su prethodni algoritmi bili razbijeni. Isti princip važi za privatnost na Bitcoin. Razumevanje metoda analize lanca je ključ za zaštitu od nje. Zato vam nudim ovaj članak.
@@ -453,7 +453,7 @@ Prvo i najvažnije, pre nego što razmotrimo radikalnije metode, preporučljivo 
 
 Osnovni princip za osiguranje vaše privatnosti na Bitcoin leži u korišćenju novog, čistog Address za svaku dolaznu transakciju na vaš Wallet. Ponovna upotreba Address je zaista glavna pretnja poverljivosti na Bitcoin.
 
-Za pojedinačnog korisnika, generisanje novog Address za svaku dolaznu uplatu je veoma jednostavno. Moderni novčanici to rade automatski čim kliknete na "Primi". Dakle, ako pridajete i najmanji značaj privatnosti vaših transakcija, korišćenje novih adresa predstavlja apsolutni minimum. Ako vam ikada zatreba statična tačka kontakta na internetu, umesto da stavite primajući Address, možete koristiti rešenja [poput PayNym koja implementiraju BIP47](https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
+Za pojedinačnog korisnika, generisanje novog Address za svaku dolaznu uplatu je veoma jednostavno. Moderni novčanici to rade automatski čim kliknete na "Primi". Dakle, ako pridajete i najmanji značaj privatnosti vaših transakcija, korišćenje novih adresa predstavlja apsolutni minimum. Ako vam ikada zatreba statična tačka kontakta na internetu, umesto da stavite primajući Address, možete koristiti rešenja [poput PayNym koja implementiraju BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 
 Dalje, ako želite da se suprotstavite analizi lanca, izbegavajte spajanje UTXO-a na ulazu transakcije. U najmanju ruku, ako zaista morate da spojite, preferirajte UTXO-e koji imaju isti izvor. Ova preporuka podrazumeva dobro upravljanje vašim UTXO-ima. Kada kupujete svoje bitkoine, preferirajte transfere koji uključuju velike iznose kako biste maksimizirali broj plaćanja koja možete izvršiti bez potrebe za spajanjem. Takođe vam savetujem da označite svoje UTXO-e u svom softveru kako biste identifikovali njihovo poreklo i izbegli spajanje iz različitih izvora.
 
@@ -477,8 +477,8 @@ Takođe možete koristiti metode koje čine vašu upotrebu Bitcoin dvosmislenom 
 Najpopularnija tehnika je sigurno CoinJoin, kolaborativna struktura transakcija koja mobilizuje nekoliko UTXO-a istih iznosa. Cilj ovde je razbijanje determinističkih veza, čime se sprečavaju analize od sadašnjosti ka prošlosti i od prošlosti ka sadašnjosti. CoinJoin omogućava verodostojno poricanje skrivajući vaše kovanice unutar velike grupe neprepoznatljivih kovanica. Ako želite da saznate više o CoinJoin, kako tehnički tako i praktično, predlažem da pročitate ove druge članke i tutorijale:
 
 
-- [CoinJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef);
-- [CoinJoin - SPARROW Wallet](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-sparrow-Wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [CoinJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [CoinJoin - SPARROW Wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
 - [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 
 ![analysis](assets/en/13.webp)
@@ -490,7 +490,7 @@ CoinJoin je odličan alat za stvaranje uverljive poricljivosti za novčiće, ali
 Na primer, zamislite da želim da platim svoj baget u bitkoinima dok optimizujem svoju privatnost. S obzirom na nemogućnost odabira iznosa rezultujućeg UTXO iz CoinJoin, našao bih se u situaciji da ne mogu prilagoditi iznos svoje potrošnje ceni koju je postavio pekar. Stoga, CoinJoin se pokazuje kao neadekvatan za platne transakcije.
 
 
-Drugi alati su osmišljeni kako bi zadovoljili potrebe privatnosti u specifičnijim slučajevima upotrebe. Na primer, imamo [PayJoin](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), vrstu mini-CoinJoin, koja uključuje samo dva učesnika i zasniva se na strukturi koja omogućava plaćanje.
+Drugi alati su osmišljeni kako bi zadovoljili potrebe privatnosti u specifičnijim slučajevima upotrebe. Na primer, imamo [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f), vrstu mini-CoinJoin, koja uključuje samo dva učesnika i zasniva se na strukturi koja omogućava plaćanje.
 
 
 Jedinstvenost PayJoin leži u njegovoj sposobnosti da proizvede transakciju koja izgleda obično, dok je zapravo mini-CoinJoin između dva korisnika. U ovoj strukturi, primalac transakcije učestvuje među ulazima zajedno sa stvarnim pošiljaocem. Tako primalac ubacuje uplatu sebi unutar transakcije koja omogućava stvarnu uplatu.
@@ -513,18 +513,18 @@ Drugi cilj PayJoin je da prevari analitičara o stvarnom iznosu transakcije, zah
 Zaista, ako ponovo razmotrimo naš primer korišćenja PayJoin za kupovinu bageta, spoljašnji posmatrač bi mogao pomisliti da se bavimo uplatom od 4,000 Sats ili 21,000 Sats. U stvarnosti, uplata za baget je 6,000 Sats: 21,000 - 15,000 = 6,000. Prava vrednost uplate je stoga skrivena unutar lažne uplate koja služi kao mamac za analizu lanca.
 
 
-Iza PayJoin i CoinJoin, postoje mnoge druge Bitcoin strukture transakcija koje ili blokiraju analizu lanca ili je obmanjuju. Među njima, mogao bih pomenuti [Stonewall](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) i [StonewallX2](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) transakcije, koje omogućavaju ili pravljenje fleksibilnog mini CoinJoin ili imitaciju fleksibilnog mini CoinJoin. Tu su i [Ricochet](https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) transakcije koje simuliraju promenu Ownership bitkoina pravljenjem mnoštva lažnih transfera sebi.
+Iza PayJoin i CoinJoin, postoje mnoge druge Bitcoin strukture transakcija koje ili blokiraju analizu lanca ili je obmanjuju. Među njima, mogao bih pomenuti [Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4) i [StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b) transakcije, koje omogućavaju ili pravljenje fleksibilnog mini CoinJoin ili imitaciju fleksibilnog mini CoinJoin. Tu su i [Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589) transakcije koje simuliraju promenu Ownership bitkoina pravljenjem mnoštva lažnih transfera sebi.
 
 
 Svi ovi alati su dostupni na Samourai Wallet na mobilnom uređaju i Sparrow Wallet na računaru. Ako želite da saznate više o ovim specifičnim strukturama transakcija, savetujem vam da pogledate moje tutorijale:
 
 
-- [PayJoin](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
-- [PayJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/On-Chain/PayJoin-samourai-Wallet-48a5c711-ee3d-44db-b812-c55913080eab);
-- [PayJoin - SPARROW Wallet](https://planb.network/tutorials/privacy/On-Chain/PayJoin-sparrow-Wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
-- [STONEWALL](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
-- [STONEWALL X2](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
-- [RICOCHET](https://planb.network/tutorials/privacy/On-Chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+- [PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
+- [PayJoin - SAMOURAI Wallet](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PayJoin - SPARROW Wallet](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 
 ## Zaključak

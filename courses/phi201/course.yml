@@ -98,6 +98,26 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 74.44
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 130.19
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 74.44
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 74.44
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 93.02
 tags:
   - historical
   - self-sovereignty

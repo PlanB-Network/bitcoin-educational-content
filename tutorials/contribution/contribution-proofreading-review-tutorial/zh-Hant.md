@@ -49,7 +49,7 @@ Plan ₿ Network 從根本而言是多語言的，因為我們的目標是讓全
 但是，如果您對 Git 和 GitHub 不熟悉，想要瞭解更多資訊，可以查看我們關於這些工具的介紹文章：
 
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1.建立帳號
 

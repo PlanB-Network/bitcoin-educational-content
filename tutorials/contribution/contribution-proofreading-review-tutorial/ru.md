@@ -33,13 +33,13 @@ Plan ₿ Network в основе своей многоязычна, поскол
 
 Однако если вы не знакомы с Git и GitHub и хотите узнать больше, вы можете ознакомиться с нашей вводной статьей об этих инструментах:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Создать учетную запись
 
 
 - Создайте аккаунт на [GitHub](https://github.com/), чтобы начать вносить свой вклад. Если вам нужны рекомендации по созданию учетной записи на GitHub, у нас также есть подробное руководство:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Вам также понадобится учетная запись в приложении для обмена сообщениями [Telegram] (https://telegram.org/).
 
@@ -162,3 +162,4 @@ NB. Рекомендуется просматривать в окне кода, 
 
 
 - Если у вас есть замечания, вопросы или комментарии по этому проекту, не стесняйтесь отправлять DM [в Telegram-группу контрибьюторов](https://t.me/PlanBNetwork_ContentBuilder).
+

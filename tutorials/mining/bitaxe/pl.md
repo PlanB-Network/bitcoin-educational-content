@@ -69,7 +69,7 @@ Dlatego należy podać identyfikator SSID sieci Wi-Fi, czyli nazwę sieci, hasł
 Jak widać na ekranie, należy usunąć części `stratum+tcp://` i `:3333`, pozostawiając tylko `eu.stratum.braiins.com`. Następnie w polu `Port` należy wpisać 4 cyfry na końcu adresu URL podanego przez pulę, ale bez `:`. W tym przypadku jest to `3333`.
 
 
-W tym samouczku używamy Braiins Mining pool, ale możesz wybrać inny. Nasze samouczki dotyczące basenów Mining można znaleźć [na stronie PlanB Network] (https://planb.network/en/tutorials/Mining).
+W tym samouczku używamy Braiins Mining pool, ale możesz wybrać inny. Nasze samouczki dotyczące basenów Mining można znaleźć [na stronie PlanB Network] (https://planb.network/en/tutorials/mining).
 
 
 Następnie w `User` wprowadź swój identyfikator, a następnie `Password`, zazwyczaj jest to `"x"` lub `"Anything123"`.

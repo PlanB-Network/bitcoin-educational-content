@@ -44,10 +44,11 @@ proofreading:
     contributor_names:
     reward: 0.16
   - language: ja
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 0.22
+      - yutaro21jp
+    reward: 0.11
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -83,6 +84,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.18
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.24
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
 tags:
   - business
   - guides

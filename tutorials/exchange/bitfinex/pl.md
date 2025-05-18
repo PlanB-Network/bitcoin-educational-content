@@ -247,7 +247,7 @@ Jeśli jesteś zainteresowany Lightning Network, mamy również kompletny kurs s
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Po zakupie swoich pierwszych bitcoinów masz oczywiście możliwość pozostawienia ich na platformie, ale zdecydowanie zalecam przeniesienie ich do własnego Wallet na własny rachunek. Jeśli nie wiesz jeszcze, jak korzystać z Bitcoin Wallet, zapraszam do zapoznania się z [sekcją "Wallet" na Plan ₿ Network](https://planb.network/tutorials/Wallet).
+Po zakupie swoich pierwszych bitcoinów masz oczywiście możliwość pozostawienia ich na platformie, ale zdecydowanie zalecam przeniesienie ich do własnego Wallet na własny rachunek. Jeśli nie wiesz jeszcze, jak korzystać z Bitcoin Wallet, zapraszam do zapoznania się z [sekcją "Wallet" na Plan ₿ Network](https://planb.network/tutorials/wallet).
 
 
 ## 6 - Kupno i sprzedaż bitcoinów na Bitfinex

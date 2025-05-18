@@ -283,7 +283,7 @@ Korzystanie ze Sparrow ma tę zaletę, że jest dość łatwe do rozpoczęcia, s
 Aby rozpocząć, będziesz oczywiście potrzebował oprogramowania Sparrow Wallet. Można je pobrać bezpośrednio z [oficjalnej strony](https://sparrowwallet.com/download/) lub z [ich GitHub](https://github.com/sparrowwallet/sparrow/releases).
 
 
-Przed instalacją oprogramowania ważne będzie zweryfikowanie podpisu i integralności właśnie pobranego pliku wykonywalnego. Jeśli chcesz uzyskać więcej szczegółów na temat procesu instalacji i weryfikacji oprogramowania Sparrow, radzę przeczytać ten inny samouczek: *[The Sparrow Wallet Guides](https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
+Przed instalacją oprogramowania ważne będzie zweryfikowanie podpisu i integralności właśnie pobranego pliku wykonywalnego. Jeśli chcesz uzyskać więcej szczegółów na temat procesu instalacji i weryfikacji oprogramowania Sparrow, radzę przeczytać ten inny samouczek: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 
 ### Utwórz Software Wallet
@@ -468,7 +468,7 @@ W tej sekcji będziesz mieć możliwość wprowadzenia miejsca docelowego Addres
 ![sparrow](assets/notext/33.webp)
 
 
-[-> Dowiedz się więcej o transakcjach Stonewall](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Dowiedz się więcej o transakcjach Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Jeśli chcesz dokonać bardziej precyzyjnego wyboru monet do wydania, przejdź do zakładki `UTXOs`. Wybierz UTXO, które chcesz wykorzystać, a następnie naciśnij przycisk "Wyślij wybrane", aby zainicjować transakcję.
@@ -496,7 +496,7 @@ Otworzy się okno, w którym należy wybrać docelowy Wallet z listy rozwijanej.
 ![sparrow](assets/notext/37.webp)
 
 
-Wybierz próg CoinJoin, po przekroczeniu którego wypłata zostanie dokonana automatycznie. Nie mogę podać dokładnej liczby remiksów do wykonania, ponieważ zależy to od osobistej sytuacji i celów związanych z prywatnością, ale unikaj wybierania zbyt niskiego progu. Zalecam zapoznanie się z tym artykułem, aby dowiedzieć się więcej o procesie remiksowania: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Wybierz próg CoinJoin, po przekroczeniu którego wypłata zostanie dokonana automatycznie. Nie mogę podać dokładnej liczby remiksów do wykonania, ponieważ zależy to od osobistej sytuacji i celów związanych z prywatnością, ale unikaj wybierania zbyt niskiego progu. Zalecam zapoznanie się z tym artykułem, aby dowiedzieć się więcej o procesie remiksowania: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 Opcję `Index range` można pozostawić na domyślnej wartości `Full`. Ta funkcja pozwala na jednoczesne miksowanie z różnych klientów, ale nie to chcemy zrobić w tym samouczku. Aby zakończyć i aktywować opcję `Mix to...`, naciśnij `Restart Whirlpool`.
@@ -554,9 +554,9 @@ Szczegółowe samouczki dotyczące wdrażania tych różnych technik zostaną wk
 
 **Dodatkowe zasoby:**
 
-[Samouczek wideo Sparrow Wallet](https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+[Samouczek wideo Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-[Samourai Wallet Video Tutorial](https://planb.network/tutorials/Wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Dokumentacja Samourai Wallet - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

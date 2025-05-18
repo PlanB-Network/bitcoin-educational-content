@@ -47,10 +47,11 @@ proofreading:
     contributor_names:
     reward: 5.97
   - language: ja
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 11.83
+      - yutaro21jp
+    reward: 5.92
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -86,6 +87,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 7.92
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 13.79
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.92
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.92
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.92
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.88
 tags:
   - development
   - lightning

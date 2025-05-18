@@ -87,6 +87,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.43
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.92
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.43
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.43
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.43
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.26
 tags:
   - guides
   - business

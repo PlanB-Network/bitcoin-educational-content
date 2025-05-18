@@ -39,7 +39,7 @@ Transakcje Cahoots obejmują wymianę częściowo podpisanych transakcji między
 Gdy odbywa się to zdalnie, proces ten staje się zbyt skomplikowany. Aby rozwiązać ten problem, Samourai opracował szyfrowany protokół komunikacyjny oparty na sieci Tor, zwany "Soroban" Dzięki Soroban wymiana danych niezbędna do PayJoin jest zautomatyzowana za pomocą przyjaznego dla użytkownika Interface. Jest to druga metoda, którą przeanalizujemy w tym artykule.
 
 
-Te zaszyfrowane wymiany wymagają ustanowienia połączenia i uwierzytelnienia między uczestnikami Cahoots. Komunikacja Soroban opiera się zatem na Paynyms użytkowników. Jeśli nie jesteś zaznajomiony z Paynyms, zapraszam do zapoznania się z tym artykułem po więcej szczegółów: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+Te zaszyfrowane wymiany wymagają ustanowienia połączenia i uwierzytelnienia między uczestnikami Cahoots. Komunikacja Soroban opiera się zatem na Paynyms użytkowników. Jeśli nie jesteś zaznajomiony z Paynyms, zapraszam do zapoznania się z tym artykułem po więcej szczegółów: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 
 
@@ -56,7 +56,7 @@ Mówiąc prościej, Paynym to unikalny identyfikator powiązany z Wallet, który
 - _Paynym_ = Unikalny identyfikator Wallet umożliwiający komunikację z innym użytkownikiem na Sorobanie w celu przeprowadzenia transakcji Cahoots.
 
 
-[**-> Dowiedz się więcej o transakcjach PayJoin i ich użyteczności**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+[**-> Dowiedz się więcej o transakcjach PayJoin i ich użyteczności**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 
 ## Jak nawiązać połączenie między Paynyms?

@@ -79,6 +79,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.65
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.06
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.65
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.65
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.65
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.79
 tags:
   - cypherpunk
   - historical

@@ -1176,7 +1176,7 @@ Chiến lược này liên quan đến việc mua định kỳ, nghĩa là mua m
 
 Một [UTXO]((https://planb.network/resources/glossary/utxo)) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất chúng có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó trả phí thấp hơn.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất UTXO có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó phải trả phí thấp hơn.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất UTXO có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó phải trả phí thấp hơn.
 
 - Mua tự phát
 

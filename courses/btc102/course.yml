@@ -25,10 +25,11 @@ proofreading:
     contributor_names:
     reward: 13.93
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 13.93
+      - ckriptoco
+    reward: 15.07
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
@@ -100,6 +101,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 18.52
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.16
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 50.18
 tags:
   - wallets
   - user-friendly
@@ -113,7 +124,7 @@ videos:
       - en: ifVSDGtxZxM
   - id: 2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
     youtube:
-      - en: O6wMORu9vMg
+      - en: G78aCcMhefI
   - id: 7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b
     youtube:
       - en: 4zLze9QWt-E

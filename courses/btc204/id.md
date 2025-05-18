@@ -2950,13 +2950,13 @@ Tujuan dari BIP156 adalah untuk mengatasi masalah ini. Untuk melakukan ini, ia m
 
 ![BTC204](assets/fr/205.webp)
 
-Transaksi ini kemudian didistribusikan ke seluruh jaringan dalam fase "kapitulasi".
+Transaksi kemudian disiarkan ke seluruh jaringan dalam fase "Fluff".
 
 ![BTC204](assets/fr/206.webp)
 
-Batang dan kepala bunga adalah referensi untuk perilaku penyebaran transaksi melalui jaringan, yang menyerupai bentuk dandelion.
+Batang dan fase "Fluff" merujuk pada perilaku penyebaran transaksi melalui jaringan, yang menyerupai bentuk dan perkembangan bunga dandelion ("Dandelion" dalam bahasa Inggris).
 
-Dengan demikian, spy node berpotensi untuk melacak transaksi kembali ke node yang meluncurkan fase kapitulasi (siaran massal), tetapi node ini bukanlah node yang pertama kali menyiarkan transaksi, karena ia menerimanya dari node terakhir pada batang. Jika node mata-mata tidak dapat melacak batang, mereka juga tidak dapat mengidentifikasi node sumber.
+Dengan demikian, node mata-mata dapat secara potensial melacak transaksi kembali ke node yang memulai fase "Fluff" (penyiaran massal), namun node tersebut bukanlah yang pertama kali menyiarkan transaksi tersebut, karena ia menerimanya dari node terakhir pada batang. Jika node mata-mata tidak dapat melacak batang tersebut, maka mereka juga tidak dapat mengidentifikasi node sumber.
 
 ![BTC204](assets/fr/207.webp)
 

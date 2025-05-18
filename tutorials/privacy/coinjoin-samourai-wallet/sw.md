@@ -487,7 +487,7 @@ Baada ya `Tx0` kuthibitishwa, UTXO zako zitasajiliwa kiotomatiki na mratibu, na 
 ![samourai](assets/notext/34.webp)
 
 
-Kwa kuangalia kichupo cha `Kuchanganya`, ambacho kinalingana na akaunti ya **Postmix**, utaona UTXO zinazotokana na michanganyiko ya awali. Sarafu hizi zitabaki kuwa tayari kwa uchanganyaji unaofuata, ambao hautachukua ada yoyote ya ziada. Ninapendekeza uangalie makala haya mengine ili upate maelezo zaidi kuhusu mchakato wa kuchanganya upya na ufanisi wa mzunguko wa CoinJoin: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa39-8b8b)
+Kwa kuangalia kichupo cha `Kuchanganya`, ambacho kinalingana na akaunti ya **Postmix**, utaona UTXO zinazotokana na michanganyiko ya awali. Sarafu hizi zitabaki kuwa tayari kwa uchanganyaji unaofuata, ambao hautachukua ada yoyote ya ziada. Ninapendekeza uangalie makala haya mengine ili upate maelezo zaidi kuhusu mchakato wa kuchanganya upya na ufanisi wa mzunguko wa CoinJoin: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -547,7 +547,7 @@ Weka taarifa muhimu kwa ajili ya muamala wako wa matumizi, kisha ubofye kitufe c
 Katika hatua inayofuata, una chaguo la kurekebisha kiwango cha ada kinachohusishwa na muamala wako. Unaweza pia kuwezesha chaguo la Stonewall kwa kuangalia kisanduku kinacholingana. Ikiwa chaguo la Stonewall haliwezi kuchaguliwa, inamaanisha kwamba akaunti yako ya **Postmix** haina UTXO ya ukubwa wa kutosha kuauni muundo huu mahususi wa muamala.
 
 
-[-> Pata maelezo zaidi kuhusu shughuli za Stonewall.](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Pata maelezo zaidi kuhusu shughuli za Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Ikiwa kila kitu ni cha kuridhika kwako, bofya kwenye kitufe cha Green `TUMA ... BTC`.
@@ -602,7 +602,7 @@ Ili CoinJoin iwe na ufanisi kweli, ni muhimu ionyeshe uwiano mzuri kati ya kiasi
 Kwa uchunguzi wa kina wa viashirio hivi (muundo wa Whirlpool unatambuliwa kama ule unaoleta ulinganifu zaidi kuungana), ninakuelekeza kwenye mafunzo: [BOLTZMANN KAKOSOA](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na kiwango cha vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f8756575)
+Ifuatayo, utendaji wa mizunguko kadhaa ya CoinJoin inatathminiwa kulingana na kiwango cha vikundi ambavyo sarafu imefichwa. Ukubwa wa vikundi hivi hufafanua kile kinachoitwa anonsets. Kuna aina mbili za anonsets: ya kwanza inatathmini faragha iliyopatikana dhidi ya uchambuzi wa retrospective (kutoka sasa hadi zamani) na pili, dhidi ya uchambuzi unaotarajiwa (kutoka zamani hadi sasa). Kwa maelezo ya kina ya viashirio hivi viwili, ninakualika usome mafunzo: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 
 ## Jinsi ya kusimamia postmix?
@@ -645,7 +645,7 @@ Mafunzo ya kina juu ya kutekeleza mbinu hizi tofauti yatatolewa hivi karibuni kw
 
 **Nyenzo za ziada:**
 
-[Mafunzo ya video ya Samourai Wallet](https://planb.network/tutorials/Wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Mafunzo ya video ya Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Hati za Samourai Wallet - Whirlpool](https://docs.samourai.io/Whirlpool/dhana-za-msingi);

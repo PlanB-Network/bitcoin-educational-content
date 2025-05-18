@@ -27,10 +27,11 @@ proofreading:
       - MariJJhodl
     reward: 0.83
   - language: es
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 1.66
+      - OscarG673
+    reward: 0.83
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -43,10 +44,11 @@ proofreading:
       - Asi0Flammeus
     reward: 0.83
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 1.66
+      - glrq
+    reward: 0.83
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -87,6 +89,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.18
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.74
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.18
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.18
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.18
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.7
 tags:
   - guides
   - good-practice

@@ -49,7 +49,7 @@ Huhitaji kuwa mtaalam wa GitHub kukagua yaliyomo. Ingawa daima ni bora kuelewa u
 Walakini, ikiwa hujui Git na GitHub na unataka kujifunza zaidi, unaweza kuangalia nakala yetu ya utangulizi juu ya zana hizi:
 
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Fungua akaunti
 

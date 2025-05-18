@@ -119,6 +119,17 @@ Kada je izabran za poslanika, to je bilo tokom Druge republike, i od tog trenutk
 
 ![image](assets/en/006.webp)
 
+---
+
+>**NACIONALNE RADIONICE**  
+>**DNEVNI RED.**
+>Uzimajući u obzir da su radnici upisani u Nacionalne radionice opravdano zatražili da se dostupni rad ravnomerno i pravedno podeli među njima;  
+>Uzimajući u obzir da postoji rad samo za 16.000 muškaraca, dok broj upisanih premašuje 50.000;  
+>Dogovoreno je da, do daljnjeg i u očekivanju boljeg rešenja, svaka četa radi dva dana nedeljno počevši od ponedeljka 17.  
+>_Komesar Republike, Direktor Nacionalnih radionica,_  
+>**Émile THOMAS.**
+
+---
 
 I shvatio je da se u suštini ništa nije stvarno promenilo. Ljudi su raspolagali tuđom imovinom putem glasanja i zakona, što je on nazivao legalnom pljačkom. Ovaj fenomen legalne pljačke bio je u centru njegovog rada, posebno u ovom kratkom tekstu koji je napisao pred kraj svog života, "Zakon," gde suprotstavlja legalnu pljačku sa imovinom, pravom na imovinu. Pokazuje da je, u suštini, pravo rešenje društvenog problema sloboda, to jest, imovina, kontrola nad samim sobom i plodovima svog rada.
 
@@ -240,6 +251,13 @@ Ono što Adam Smit pokazuje jeste da se sopstveni interes može zadovoljiti samo
 
 ![image](assets/en/017.webp)
 
+---
+
+>„Prirodni napor svakog pojedinca da poboljša sopstvene uslove... toliko je snažan da je sam, bez ikakve pomoći, ne samo sposoban da dovede društvo do bogatstva i prosperiteta, već i da prevaziđe stotinu besmislenih prepreka koje često ometaju njegovo delovanje zbog gluposti ljudskih zakona.“  
+>_Bogatstvo nacija_  
+>_Knjiga IV, Poglavlje V_
+
+---
 
 Exchange je igra sa pozitivnom sumom. Ono što jedan dobije, dobija i drugi. Tako se razlikuje od političke redistribucije gde uvek postoji pobednik i gubitnik. Ako uzmemo u obzir englesku školu, za Smita, za Rikarda i za Loka pre njih, vrednost je povezana sa radom. Za Marksa, isto je.
 
@@ -259,6 +277,11 @@ Ekonomija se pokorava brojnim jednostavnim zakonima izvedenim iz ljudskog ponaš
 
 ![image](assets/en/019.webp)
 
+---
+
+>Individualna sloboda = Društvena harmonija
+
+---
 
 Zaista, proizvodi se kupuju samo u očekivanju usluga koje kupac očekuje: Kupujem disk zbog muzike koju ću slušati, kupujem kartu za film koji ću gledati. I u Exchange, svaka strana odlučuje jer procenjuje da može izvući više usluga iz onoga što stiče nego što odustaje. U ovom kontekstu, novac je samo posrednička roba, on nadoknađuje pruženu uslugu i otvara druge usluge.
 
@@ -546,11 +569,14 @@ Bastiat zaista smatra da je Rousseau pravi preteča socijalizma i kolektivizma. 
 
 U početku, čovek je samo buržuj. Ali buržuj je kalkulator; on želi svoje neposredno zadovoljstvo, on je rob svojih čula, svojih želja, svog posebnog interesa. Ukratko, on nije racionalan, stoga nije slobodan. Potrebno mu je obrazovanje, da razume da je njegov pravi interes opšti interes. Zato je Ruso napisao u Društvenom UG-10:
 
-
-> Ko odbije da se povinuje opštoj volji, biće primoran od strane celog tela: to ne znači ništa drugo nego da će biti prisiljeni da budu slobodni.
-
 ![image](assets/en/048.webp)
 
+---
+
+>Ko god odbije da se pokori opštoj volji, biće primoran od strane celog tela: što ne znači ništa drugo do da će biti prisiljen da bude slobodan.  
+>(Žan-Žak Ruso)
+
+---
 
 Prema ovoj doktrini, čovek ima dve volje u sebi: volju koja teži ka ličnom interesu, onu buržoasku, i volju koja teži ka opštem interesu, onu građansku. Voditi ljude, čak i silom, ka želji za racionalnim ciljem, opštim interesom, znači voditi ljude ka slobodi. Ono što oni zaista žele je racionalan cilj, čak i ako to ne znaju.
 
@@ -665,6 +691,13 @@ Protecionizam je, u stvarnosti, oblik ekonomskog nacionalizma. Cilj mu je elimin
 
 _primer promotivne reklame za blender proizveden u Francuskoj_
 
+---
+
+>Naš susret sa Arnaudom Montebourgom  
+>Made in France,  
+>on veruje u to, mi smo ga testirali
+
+---
 
 Argument za zaštitu radnih mesta je ono što Bastija naziva zabludom. Jer u stvarnosti, to je ekvivalent porezu. Ima efekat da proizvode čini skupljim. Uzmimo primer koji je dao sam Bastija.
 
@@ -720,6 +753,13 @@ I nastavio bi da analizira njegove perverzne efekte i nakon toga. Evo jednog pri
 
 
 ![image](assets/en/063.webp)
+
+---
+
+>DA BISTE USPELI  
+>GLASAJTE ZA SOCIJALISTIČKI SFIO
+
+---
 
 Zaključno, protekcionisti i socijalisti dele zajedničku tačku, prema Bastijatu: ono što traže od zakona nije da osigura svima slobodno korišćenje svojih sposobnosti i poštenu nagradu za njihov trud, već da favorizuje više ili manje potpunu eksploataciju jedne klase građana od strane druge. Sa protekcionizmom, manjina eksploatiše većinu. Sa socijalizmom, većina eksploatiše manjinu. U oba slučaja, pravda je narušena i opšti interes je ugrožen. Bastijat ih suprotstavlja jedno drugom.
 
@@ -891,6 +931,12 @@ Bastiat je zatim sastavio satirični tekst koji je kasnije postao jedno od njego
 
 ![image](assets/en/079.webp)
 
+---
+
+>ZAŠTITIMO NAŠE SVEĆE!
+
+---
+
 
 U ovoj peticiji, proizvođači sveća traže od poslanika pravnu zaštitu protiv opasnog rivala:
 
@@ -1007,11 +1053,13 @@ Zato je Bastiat već razumeo Lafferovu krivu. Arthur Laffer je američki ekonomi
 
 ![image](assets/en/087.webp)
 
+---
 
-> Previše poreza ubija porez.
->
+>„Previše poreza ubija porez“  
+>Artur Lafer
 
-> Artur Lefer
+---
+
 
 Političari naivno pretpostavljaju da postoji automatska i fiksna veza između poreskih stopa i poreskih prihoda. Oni misle da mogu udvostručiti poreske prihode udvostručavanjem poreske stope. Prema Laffer-u, takav pristup zanemaruje činjenicu da poreski obveznici mogu promeniti svoje ponašanje kao odgovor na nove podsticaje.
 
@@ -1334,6 +1382,11 @@ To je zato što čovek rizikuje da napravi greške ili postupi pogrešno i pretr
 
 ![image](assets/en/110.webp)
 
+---
+
+>Grešiti je ljudski.
+
+---
 
 Dakle, jasno je da Bastiat nije slep. On ne poriče postojanje zla. Čovek je slab, sklon greškama i manama. Nigda nećete videti da Bastiat poriče činjenicu da je vežbanje individualne slobode povezano s mogućnošću greške, mogućnošću nerazumne ili besmislene odluke.
 
@@ -1391,6 +1444,14 @@ I opet:
 
 ![image](assets/en/116.webp)
 
+---
+
+>Društvo  
+>međusobne pomoći  
+GUISY  
+>1899
+
+---
 
 Međutim, prema Bastijatu, postoji alternativa obaveznoj državnoj solidarnosti: "društvo uzajamne pomoći", međusobna i spontana pomoć ljudi među sobom zahvaljujući društvima uzajamne pomoći. Ali je takođe predvideo da će država na kraju preuzeti ove uzajamne organizacije kako bi ih pretvorila u jedinstveno i centralizovano telo, podstičući trošenje i rasipanje.
 
@@ -1403,6 +1464,15 @@ U pamfletu pod nazivom "Pravda i Bratstvo", Bastiat takođe istražuje ideju poj
 
 ![image](assets/en/118.webp)
 
+---
+
+>Fondacije –  
+>**dodata vrednost**  
+>za **društvo**  
+>
+>SwissFoundations
+
+---
 
 Zaista, solidarnost unutar porodice, lokalna solidarnost ili organizovana filantropija su mnogo razvijenije u zemljama koje imaju lagan poreski sistem i relativno visok stepen ekonomske slobode, kao što su Švajcarska i Sjedinjene Američke Države, dok je u velikoj meri ugušena u zemljama gde je država u velikoj meri zamenila individualnu odgovornost, kao što su Francuska ili Nemačka.
 

@@ -275,8 +275,8 @@ Izvođenje coinjoin-a putem Samourai Wallet koristeći sopstveni Dojo je, po mom
 Ova tehnika je stoga idealna za one koji traže maksimalnu privatnost i najviši kvalitet CoinJoin ciklusa. Međutim, zahteva da imate Bitcoin čvor na raspolaganju i, kao što ćemo kasnije videti, zahteva određeno podešavanje. Stoga je pogodnija za korisnike srednjeg do naprednog nivoa. Za početnike preporučujem da se upoznaju sa CoinJoin kroz ova dva druga tutorijala, koji pokazuju kako to uraditi iz Sparrow Wallet ili Samourai Wallet (bez Dojo):
 
 
-- [Tutorial za Sparrow Wallet CoinJoin](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-sparrow-Wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
-- [Samourai Wallet CoinJoin tutorial (without Dojo)](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
+- [Tutorial za Sparrow Wallet CoinJoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- [Samourai Wallet CoinJoin tutorial (without Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 
 ### Razumevanje postavke
@@ -287,7 +287,7 @@ Za početak, trebat će vam Dojo! Dojo je implementacija Bitcoin čvora zasnovan
 Da biste pokrenuli sopstveni Dojo, imate opciju da instalirate Dojo čvor autonomno ili da iskoristite Dojo na vrhu drugog "node-in-box" Bitcoin čvor rešenja. Trenutno, dostupne opcije su:
 
 
-- [RoninDojo](https://ronindojo.io/), koji je Dojo obogaćen dodatnim alatima, uključujući asistenta za instalaciju i asistenta za administraciju. Detaljno opisujem proceduru za postavljanje i korišćenje RoninDojo-a u ovom drugom vodiču: [RONINDOJO V2](https://planb.network/tutorials/node/Bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
+- [RoninDojo](https://ronindojo.io/), koji je Dojo obogaćen dodatnim alatima, uključujući asistenta za instalaciju i asistenta za administraciju. Detaljno opisujem proceduru za postavljanje i korišćenje RoninDojo-a u ovom drugom vodiču: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) sa aplikacijom "Samourai Server";
 - [MyNode](https://mynodebtc.com/) sa aplikacijom "Dojo";
 - [Nodl](https://www.nodl.eu/) sa aplikacijom "Dojo";
@@ -412,7 +412,7 @@ U sledećem koraku, pristupićete stranici posvećenoj konfigurisanju vašeg Doj
 ![coinjoin](assets/notext/24.webp)
 
 
-*Za nove korisnike Samouraia, biće potrebno da kreiraju Wallet od nule. Ako vam je potrebna pomoć, možete se konsultovati sa uputstvima za postavljanje novog Samourai Wallet [u ovom vodiču, posebno u odeljku "Kreiranje Software Wallet"](https://planb.network/tutorials/privacy/On-Chain/CoinJoin-samourai-Wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
+*Za nove korisnike Samouraia, biće potrebno da kreiraju Wallet od nule. Ako vam je potrebna pomoć, možete se konsultovati sa uputstvima za postavljanje novog Samourai Wallet [u ovom vodiču, posebno u odeljku "Kreiranje Software Wallet"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 
 Ako nastavljate sa restauracijom već postojećeg Samourai Wallet, izaberite `Restore existing Wallet`, zatim odaberite `I have a Samourai backup file`.
@@ -588,4 +588,4 @@ Whirlpool nalozi su lako prepoznatljivi na Samourai Wallet po svojoj plavoj boji
 ![coinjoin](assets/notext/53.webp)
 
 
-Da biste pratili svoje automatske coinjoin-e, takođe preporučujem postavljanje Watch-only wallet putem aplikacije Sentinel. Dodajte ZPUB vašeg **Postmix** naloga i pratite napredak vaših CoinJoin ciklusa u realnom vremenu. Ako želite da razumete kako koristiti Sentinel, preporučujem da pogledate ovaj drugi vodič na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/Wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+Da biste pratili svoje automatske coinjoin-e, takođe preporučujem postavljanje Watch-only wallet putem aplikacije Sentinel. Dodajte ZPUB vašeg **Postmix** naloga i pratite napredak vaših CoinJoin ciklusa u realnom vremenu. Ako želite da razumete kako koristiti Sentinel, preporučujem da pogledate ovaj drugi vodič na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)

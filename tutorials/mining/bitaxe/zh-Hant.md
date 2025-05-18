@@ -69,7 +69,7 @@ BitAxe 有多個版本，晶片和效能各不相同：
 正如您在螢幕上看到的，您需要移除 `stratum+tcp://` 和 `:3333` 部分，只留下 `eu.stratum.braiins.com`。然後，在 `Port` 欄位中輸入池所給的 URL 結尾的 4 位數字，但去掉 `:`。因此，這裡是 `3333`。
 
 
-在本教程中，我們使用的是 Braiins Mining pool，但您也可以自由選擇其他產品。您可以在 [PlanB Network 網站上](https://planb.network/en/tutorials/Mining) 找到我們有關 Mining 水池的教學。
+在本教程中，我們使用的是 Braiins Mining pool，但您也可以自由選擇其他產品。您可以在 [PlanB Network 網站上](https://planb.network/en/tutorials/mining) 找到我們有關 Mining 水池的教學。
 
 
 接下來，在`使用者`中輸入您的識別碼，然後輸入`密碼`，通常是`"x「`或`」Anything123"`。

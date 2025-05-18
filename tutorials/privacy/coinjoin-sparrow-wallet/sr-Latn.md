@@ -283,7 +283,7 @@ Korišćenje Sparrow-a ima prednost što je prilično lako započeti, brzo se po
 Da biste započeli, očigledno će vam biti potreban Sparrow Wallet softver. Možete ga direktno preuzeti sa [zvanične veb stranice](https://sparrowwallet.com/download/) ili na [njihovom GitHub-u](https://github.com/sparrowwallet/sparrow/releases).
 
 
-Pre nego što instalirate softver, važno je da proverite potpis i integritet izvršnog fajla koji ste upravo preuzeli. Ako želite više detalja o procesu instalacije i verifikaciji Sparrow softvera, savetujem vam da pročitate ovaj drugi vodič: *[The Sparrow Wallet Guides](https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
+Pre nego što instalirate softver, važno je da proverite potpis i integritet izvršnog fajla koji ste upravo preuzeli. Ako želite više detalja o procesu instalacije i verifikaciji Sparrow softvera, savetujem vam da pročitate ovaj drugi vodič: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 
 ### Kreiraj Software Wallet
@@ -468,7 +468,7 @@ U ovom odeljku, imaćete opciju da unesete destinaciju Address, iznos za slanje 
 ![sparrow](assets/notext/33.webp)
 
 
-[-> Saznajte više o Stonewall transakcijama.](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Saznajte više o Stonewall transakcijama.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Ako želite preciznije da odaberete koje novčiće ćete potrošiti, idite na karticu `UTXOs`. Izaberite UTXO-e koje želite da iskoristite, zatim pritisnite dugme `Send Selected` da pokrenete transakciju.
@@ -496,7 +496,7 @@ Otvara se prozor, započnite izborom odredišta Wallet sa padajuće liste.
 ![sparrow](assets/notext/37.webp)
 
 
-Izaberite prag CoinJoin nakon kojeg će povlačenje biti automatski izvršeno. Ne mogu vam dati tačan broj remiksa koji treba da izvedete, jer to varira u zavisnosti od vaše lične situacije i ciljeva privatnosti, ali izbegavajte da izaberete suviše nizak prag. Preporučujem da konsultujete ovaj drugi članak kako biste saznali više o procesu remiksovanja: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Izaberite prag CoinJoin nakon kojeg će povlačenje biti automatski izvršeno. Ne mogu vam dati tačan broj remiksa koji treba da izvedete, jer to varira u zavisnosti od vaše lične situacije i ciljeva privatnosti, ali izbegavajte da izaberete suviše nizak prag. Preporučujem da konsultujete ovaj drugi članak kako biste saznali više o procesu remiksovanja: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 Možete ostaviti opciju `Index range` na njenoj podrazumevanoj vrednosti, `Full`. Ova funkcija omogućava mešanje istovremeno sa različitih klijenata, ali to nije ono što želimo da uradimo u ovom uputstvu. Da biste završili i aktivirali opciju `Mix to...`, pritisnite `Restart Whirlpool`.
@@ -554,9 +554,9 @@ Detaljni tutorijali o implementaciji ovih različitih tehnika uskoro će biti do
 
 **Dodatni resursi:**
 
-[Sparrow Wallet Video Tutorial](https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+[Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-[Samourai Wallet Video Tutorial](https://planb.network/tutorials/Wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Samourai Wallet Dokumentacija - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

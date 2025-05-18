@@ -99,6 +99,27 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 178.36
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 312.05
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 178.36
+  - language: sw
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 89.18
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 222.92
 tags:
   - protocols
   - complex-DIY

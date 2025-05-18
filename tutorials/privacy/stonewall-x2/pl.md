@@ -73,7 +73,7 @@ W związku z tym logika powinna być następująca w przypadku korzystania z nar
 Jeśli chcesz znaleźć współpracownika, który jest chętny do pomocy w transakcji Stonewall X2, możesz również odwiedzić tę grupę Telegram (nieoficjalną) prowadzoną przez użytkowników Samourai w celu łączenia nadawców i współpracowników: [Make Every Spend a CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> Dowiedz się więcej o transakcjach Stonewall**](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> Dowiedz się więcej o transakcjach Stonewall**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## Jaki jest cel transakcji Stonewall x2?

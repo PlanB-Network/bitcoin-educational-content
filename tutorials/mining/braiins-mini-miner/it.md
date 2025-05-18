@@ -2,7 +2,7 @@
 name: Mini Miner Braiins
 description: Fare mining facilmente da casa.
 ---
-![cover](assets/en/cover.webp)
+![cover](assets/cover.webp)
 
 ### Introduzione
 

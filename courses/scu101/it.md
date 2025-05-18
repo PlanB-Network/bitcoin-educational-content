@@ -79,7 +79,7 @@ Come bonus, vi proponiamo un'intervista esclusiva con Pantamis e Renaud, i nostr
 
 Questo programma di formazione è offerto gratuitamente con una licenza redistribuibile CC BY SA. Desideriamo esprimere la nostra gratitudine ai nostri Patreons e al nostro team di ripresa per il loro indispensabile supporto nella realizzazione di questa formazione. Ringraziamo anche tutti i nostri donatori e sostenitori che ci permettono di continuare a produrre contenuti educativi gratuiti a livello mondiale.
 
-Pronto a rafforzare la tua sicurezza digitale et riprendere il controllo dei tuoi dati? Iniziamo!
+Pronto a rafforzare la tua sicurezza digitale e riprendere il controllo dei tuoi dati? Iniziamo!
 # Tutto quello che c'è da sapere sulla navigazione online
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>

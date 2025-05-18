@@ -1,0 +1,8 @@
+question: Which minister did Dupont de Nemours work for?
+answer: Turgot
+wrong_answers:
+  - Necker
+  - Calonne
+  - Colbert
+explanation: |
+  Dupont de Nemours worked with Turgot, Louis XVI's finance minister, and helped implement a number of economic reforms inspired by physiocracy.

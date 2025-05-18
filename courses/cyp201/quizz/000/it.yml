@@ -1,7 +1,7 @@
 question: Qual è la funzione principale di una funzione hash?
 answer: Converte informazioni di lunghezza arbitraria in un'impronta digitale di dimensione fissa
 wrong_answers:
-  - Cripta i messaggi per renderli illeggibili
+  - Cifra i messaggi per renderli illeggibili
   - È usata solo per verificare l'integrità del software Bitcoin
   - Genera chiavi private per i portafogli Bitcoin
 explanation: |

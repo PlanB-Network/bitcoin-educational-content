@@ -373,7 +373,7 @@ e1-cli listissuances
 e2-cli listissuances
 ```
 
-Come si può vedere, entrambi i nodi mostrano la stessa cronologia di emissione. Entrambi mostrano un asset, l'emissione iniziale di 21 milioni di Bitcoin creati all'inizializzazione della catena. È possibile vedere l'id esadecimale dell'asset nei risultati dell'esecuzione del comando precedente e anche l'etichetta assegnata all'asset, che è "bitcoin".
+Come si può vedere, entrambi i nodi mostrano la stessa cronologia di emissione. Entrambi mostrano un asset, l'emissione iniziale di 21 milioni di Bitcoin creati all'inizializzazione della catena. È possibile vedere l'hex id dell'asset nei risultati dell'esecuzione del comando precedente e anche l'etichetta assegnata all'asset, che è "bitcoin".
 
 Vale la pena notare che all'asset predefinito viene sempre assegnata un'etichetta quando la catena viene inizializzata. Quando si rilasciano le proprie risorse, è possibile impostare le etichette per esse, cosa che faremo a breve. Prima di poterlo fare, dobbiamo emettere la nostra risorsa.
 
@@ -387,7 +387,7 @@ e1-cli issueasset 100 1 false
 
 L'ammontare del nuovo asset da emettere, noi abbiamo usato 100. La quantità di token da creare (i token sono utilizzati per riemettere quantità di un asset), di cui abbiamo scelto 1. Il parametro finale indica a Elements di creare l'emissione dell'asset come "blinded" (offuscato) o "unblinded" (non offuscato). Utilizzeremo unblinded perché vogliamo visualizzare gli importi dell'emissione da e2 tra un minuto, quindi inseriremo `false`.
 
-L'esecuzione del comando restituisce i dati relativi all'emissione. Questi includono l'id della transazione, di cui si può fare una copia per un uso successivo, il valore esadecimale unico della risorsa e il valore esadecimale unico del token della risorsa.
+L'esecuzione del comando restituisce i dati relativi all'emissione. Questi includono l'id della transazione, di cui si può fare una copia per un uso successivo, il valore hex unico della risorsa e il valore hex unico del token della risorsa.
 
 Generare un blocco per confermare la transazione di emissione.
 
@@ -401,7 +401,7 @@ Eseguire nuovamente il comando `listissuances` su e1.
 e1-cli listissuances
 ```
 
-Questo ci mostra che e1 è ora a conoscenza di due emissioni, l'emissione iniziale di bitcoin e i nostri nuovi asset emessi, di cui possiamo vedere 100 esemplari. Si noti il valore esadecimale del nuovo asset e che non c'è un'etichetta di asset associata, come per l'emissione di bitcoin.
+Questo ci mostra che e1 è ora a conoscenza di due emissioni, l'emissione iniziale di bitcoin e i nostri nuovi asset emessi, di cui possiamo vedere 100 esemplari. Si noti il valore hex del nuovo asset e che non c'è un'etichetta di asset associata, come per l'emissione di bitcoin.
 
 Controllate di nuovo l'elenco delle emissioni note di e2.
 
@@ -423,7 +423,7 @@ Per farlo, dobbiamo scoprire l'indirizzo a cui è stato inviato l'asset. A tale 
 e1-cli gettransaction <the-issuance-transaction-id>
 ```
 
-Scorrendo verso l'alto, oltre l'esadecimale dei dati della transazione, si vedrà l'indirizzo che ha ricevuto 100 dei nostri nuovi asset, identificato dal suo valore esadecimale.
+Scorrendo verso l'alto, oltre l'hex dei dati della transazione, si vedrà l'indirizzo che ha ricevuto 100 dei nostri nuovi asset, identificato dal suo valore hex.
 
 Prendete l'indirizzo e copiatelo per poterlo importare in e2.
 
@@ -445,7 +445,7 @@ Si può notare che il nostro asset appena emesso è ora incluso nell'elenco. Il 
 e1-cli stop
 ```
 
-Poi lo si riavvia con un parametro aggiuntivo che mappa l'esadecimale dell'asset con l'etichetta fornita. Questo permette al nodo di visualizzare i dati sull'asset in un formato più leggibile. Se si preferisce, si può aggiungere questo parametro alla fine di `elements.conf`, in modo da non dover aggiungere l'argomento al _daemon (demone)_ ogni volta che lo si avvia. Per esempio:
+Poi lo si riavvia con un parametro aggiuntivo che mappa l'hex dell'asset con l'etichetta fornita. Questo permette al nodo di visualizzare i dati sull'asset in un formato più leggibile. Se si preferisce, si può aggiungere questo parametro alla fine di `elements.conf`, in modo da non dover aggiungere l'argomento al _daemon (demone)_ ogni volta che lo si avvia. Per esempio:
 
 ```
 assetdir=5186d0bc8ed15e6ef85571bd2d8070573adf0e06fd4507082694526975ce4f35:My new asset (MNA)
@@ -848,7 +848,7 @@ Una volta che un numero soglia di firmatari ha firmato il blocco proposto, quest
 
 :::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
-Elements è una piattaforma blockchain open-source di uso generale che può anche essere `pegged` (ancorata) a una blockchain esistente, come Bitcoin. Quando è collegato a un'altra blockchain, si dice che Elements opera come una `sidechain`. Le sidechain consentono il trasferimento bidirezionale di asset da una catena all'altra. L'implementazione di Elements come sidechain consente di aggirare alcune delle limitazioni intrinseche della mainchain, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla mainchain.
+Elements è una piattaforma blockchain open-source di uso generale che può anche essere `pegged` (ancorata) a una blockchain esistente, come Bitcoin. Quando è collegato a un'altra blockchain, si dice che Elements opera come una `sidechain`. Le [sidechain](https://planb.network/it/resources/glossary/sidechain) consentono il trasferimento bidirezionale di asset da una catena all'altra. L'implementazione di Elements come sidechain consente di aggirare alcune delle limitazioni intrinseche della mainchain, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla mainchain.
 
 Mentre una sidechain è a conoscenza della mainchain e della sua cronologia delle transazioni, la mainchain non è a conoscenza della sidechain e non è necessaria per il suo funzionamento. Ciò consente alle sidechain di innovare senza restrizioni o ritardi associati alle proposte di miglioramento del protocollo della mainchain. Piuttosto che cercare di modificarlo direttamente, l'estensione del protocollo principale permette alla mainchain stessa di rimanere sicura e specializzata, sostenendo il buon funzionamento della sidechain.
 
@@ -856,13 +856,13 @@ Estendendo le funzionalità di Bitcoin e sfruttando la sua sicurezza sottostante
 
 Per inizializzare una blockchain Elements come sidechain, è necessario utilizzare il parametro di script federated peg. Questo parametro può essere impostato nel file di configurazione di un nodo o utilizzato all'avvio.
 
-Lo script federated peg definisce quali membri della "Strong Federation" possono svolgere funzioni di peg-in e peg-out. Questi funzionari sono chiamati `Watchmen`, in quanto controllano la mainchain e la sidechain alla ricerca di transazioni peg-in e `peg-out` valide e le eseguono se sono valide. `Peg-out` significa spostare gli asset pegged dalla sidechain alla mainchain e `peg-in` significa spostare gli asset pegged dalla mainchain alla sidechain. Quando diciamo `move into the sidechain` (spostare nella sidechain), in realtà intendiamo dire che i fondi vengono bloccati in un indirizzo multi-firma sulla mainchain e una quantità corrispondente dell'asset viene creata sulla sidechain Elements. Quando si dice `move out of the sidechain` (uscire dalla sidechain), si intende che gli asset vengono distrutti sulla sidechain di Elements e l'importo corrispondente viene rilasciato dai fondi bloccati sulla mainchain. Il permesso di eseguire le funzioni di peg-in e peg-out richiede che i funzionari dimostrino la proprietà delle chiavi pubbliche utilizzate nello script federated peg. Ciò avviene con l'uso delle chiavi private corrispondenti.
+Lo script federated peg definisce quali membri della "Strong Federation" possono svolgere funzioni di peg-in e peg-out. Questi funzionari sono chiamati `Watchmen`, in quanto controllano la mainchain e la sidechain alla ricerca di transazioni peg-in e `peg-out` valide e le eseguono se sono valide. `Peg-out` significa spostare gli asset pegged dalla sidechain alla mainchain e `peg-in` significa spostare gli asset pegged dalla mainchain alla sidechain. Quando diciamo `move into the sidechain` (spostare nella sidechain), in realtà intendiamo dire che i fondi vengono bloccati in un indirizzo multi-firma sulla mainchain e una quantità corrispondente dell'asset viene creata sulla sidechain Elements. Quando si dice `move out of the sidechain` (uscire dalla sidechain), si intende che gli asset vengono distrutti sulla sidechain di Elements e l'importo corrispondente viene rilasciato dai fondi bloccati sulla mainchain. Il permesso di eseguire le funzioni di peg-in e peg-out richiede che i functionaries dimostrino la proprietà delle chiavi pubbliche utilizzate nello script federated peg. Ciò avviene con l'uso delle chiavi private corrispondenti.
 
 Per creare uno script federated peg, quindi, è necessario che ogni nodo generi una chiave pubblica. Dobbiamo anche memorizzare le chiavi private associate per un uso successivo, poiché dovremo cancellare tutti i dati della catena esistente e inizializzare una nuova catena usando lo script federated peg. Questo perché lo script federated peg fa parte delle regole di consenso di una sidechain e non può essere applicato a una blockchain esistente, non ancorata, in un secondo momento.
 
 Generiamo quindi un indirizzo per ciascuno dei nostri nodi, memorizziamo i dati rilevanti per un uso successivo e generiamo lo script federated peg che useremo per inizializzare la nostra sidechain in seguito.
 
-Per prima cosa è necessario che ciascuno dei nostri nodi, che fungeranno da sentinelle della nostra rete, generi un nuovo indirizzo.
+Per prima cosa è necessario che ciascuno dei nostri nodi, che fungeranno da Watchmen della nostra rete, generino un nuovo indirizzo.
 
 ```
 e1-cli getnewaddress
@@ -886,11 +886,11 @@ e1-cli dumpprivkey <e1-address>
 e2-cli dumpprivkey <e2-address>
 ```
 
-Memorizzare le chiavi private e pubbliche per un uso successivo.
+Memorizziamo le chiavi private e pubbliche per un uso successivo.
 
 Ora dobbiamo cancellare i dati della blockchain e del wallet esistenti, poiché inizializzeremo una nuova catena utilizzando uno script federated peg. Potete farlo ora. Non dimenticate di avviare il daemon (demone) di Bitcoin, che ci servirà per il peg-in.
 
-Ora possiamo inizializzare una nuova catena con uno script federated peg creato utilizzando le chiavi pubbliche che abbiamo memorizzato in precedenza. I numeri che inseriamo e che circondano le nostre chiavi pubbliche definiscono e delimitano il numero di chiavi utilizzate e la proprietà delle chiavi che deve essere dimostrata per effettuare il peg-in e il peg-out della nostra sidechain.
+Ora possiamo inizializzare una nuova catena con uno script federated peg creato utilizzando le chiavi pubbliche che abbiamo memorizzato in precedenza. I numeri che inseriamo e che circoscrivono le nostre chiavi pubbliche definiscono e delimitano il numero di chiavi utilizzate e la proprietà delle chiavi che deve essere dimostrata per effettuare il peg-in e il peg-out della nostra sidechain.
 
 ```
 e1-dae -fedpegscript=5221<e1-pubkey>21<e2-pubkey>52ae
@@ -960,13 +960,13 @@ Per far sì che il nostro nodo Elements rivendichi i fondi peg-in, dobbiamo otte
 b-cli gettxoutproof '["<tx-id>"]'
 ```
 
-Abbiamo bisogno anche dei dati grezzi delle transazioni.
+Abbiamo bisogno anche dei dati raw (grezzi) delle transazioni.
 
 ```
 b-cli getrawtransaction <tx-id>
 ```
 
-Con la prova e i dati grezzi della transazione peg-in, il nostro nodo elemento può ora rivendicare il peg-in utilizzando la transazione grezza e la prova della transazione.
+Con la prova e i dati raw della transazione peg-in, il nostro nodo Elements può ora rivendicare il peg-in utilizzando la transazione raw e la prova della transazione.
 
 ```
 e1-cli claimpegin <raw> <proof>
@@ -1022,10 +1022,9 @@ E vedere che il saldo è diminuito.
 
 In questa sezione abbiamo visto come:
 
-
 - Generare uno script federated peg.
-- Inizializza una nuova catena che utilizza lo script come regola di parametro del consenso di rete.
-- Invia fondi dalla mainchain alla sidechain.
+- Inizializzare una nuova catena che utilizza lo script come parametro delle regole di consenso della rete.
+- Inviare fondi dalla mainchain alla sidechain.
 - Rivendicare i fondi all'interno della sidechain di Elements.
 - Capire come si avvia l'invio di fondi alla mainchain.
 
@@ -1045,7 +1044,7 @@ Nota: I caratteri al di fuori delle chiavi pubbliche sono delimitatori che indic
 
 Prima che un peg-in (ancoraggio in ingresso) possa essere accettato da una sidechain di Elements, deve avere sufficienti conferme sulla mainchain. Ciò è necessario per evitare l'inflazione dell'offerta dell'asset pegged sulla sidechain di Elements che potrebbe essere causata da una riorganizzazione della mainchain.
 
-Brevi riorganizzazioni della punta della blockchain Bitcoin sono previste come parte del normale funzionamento del meccanismo di consenso Proof of Work (PoW). Per questo motivo, Elements accetta che un peg-in sia valido solo quando ha una profondità sufficiente all'interno della blockchain Bitcoin. Questo serve a evitare che Elements accetti lo stesso peg-in più di una volta.
+Brevi riorganizzazioni della testa della blockchain Bitcoin sono previste come parte del normale funzionamento del meccanismo di consenso Proof of Work (PoW). Per questo motivo, Elements accetta che un peg-in sia valido solo quando ha una profondità sufficiente all'interno della blockchain Bitcoin. Questo serve a evitare che Elements accetti lo stesso peg-in più di una volta.
 
 ### Peg-out (ancoraggio in uscita)
 

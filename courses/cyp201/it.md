@@ -1498,7 +1498,7 @@ Il formato completo di una chiave estesa è quindi di 78 byte senza il checksum,
 | Elemento          | Descrizione                                                                                                        | Dimensione |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------ | --------- |
 | Versione          | Indica se la chiave è pubblica (`xpub`, `ypub`) o privata (`xprv`, `zprv`), così come la versione della chiave estesa | 4 byte    |
-| Profondità        | Livello nella gerarchia rispetto alla chiave master                                                             | 1 byte    |
+| profondità (depth)| Livello nella gerarchia rispetto alla chiave master                                                             | 1 byte    |
 | Fingerprint Genitore | I primi 4 byte di HASH160 della chiave pubblica genitore                                                            | 4 byte    |
 | Indice     | Posizione della chiave nell'ordine dei figli                                                                        | 4 byte    |
 | Chain Code     | Utilizzato per derivare le chiavi figlie                                                                            | 32 byte   |
@@ -1549,9 +1549,9 @@ Questa chiave estesa si suddivide in diversi elementi distinti:
 
 I primi 4 byte sono la versione. Qui, corrisponde a una chiave pubblica estesa sulla Mainnet con derivazione _Legacy_ o _SegWit v1_.
 
-2.**Profondità**: `03`
+2.**profondità (depth)**: `03`
 
-Questo campo indica il livello gerarchico della chiave all'interno del wallet HD. In questo caso, una profondità di `03` significa che questa chiave è tre livelli di derivazione sotto la chiave master.
+Questo campo indica il livello gerarchico della chiave all'interno del wallet HD. In questo caso, una profondità (depth) di `03` significa che questa chiave è tre livelli di derivazione sotto la chiave master.
 
 3.**Fingerprint Genitore**: `6D5601AD`
 Questi sono i primi 4 byte dell'hash HASH160 della chiave pubblica genitore che è stata utilizzata per derivare questa `xpub`.
@@ -1577,7 +1577,7 @@ In questo capitolo, abbiamo scoperto che esistono due tipi differenti di chiavi 
 
 La derivazione delle coppie di chiavi figlie nei wallet gerarchico-deterministici Bitcoin si basa su una struttura gerarchica, che consente di generare un gran numero di chiavi, organizzandole in diversi gruppi attraverso rami. Ogni coppia figlia derivata da una coppia genitore può essere utilizzata direttamente in uno _scriptPubKey_ per bloccare i bitcoin, o come punto di partenza per generare ulteriori chiavi figlie e così via, per creare un albero di chiavi.
 
-Tutte queste derivazioni iniziano con la chiave master e la master chain code, che sono i primi genitori al livello di profondità 0. Sono, in un certo senso, l'Adamo e l'Eva delle chiavi del tuo wallet, capostipiti comuni di tutte le chiavi derivate.
+Tutte queste derivazioni iniziano con la chiave master e la master chain code, che sono i primi genitori al livello di profondità (depth) 0. Sono, in un certo senso, l'Adamo e l'Eva delle chiavi del tuo wallet, capostipiti comuni di tutte le chiavi derivate.
 
 ![CYP201](assets/fr/048.webp)
 
@@ -1762,29 +1762,29 @@ Per riassumere finora hai imparato a creare gli elementi base del wallet HD: la 
 ## Struttura del wallet e Derivation Path
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
-La struttura gerarchica dei wallet HD consente l'organizzazione delle coppie di chiavi in vari modi. L'idea è derivare, a partire dalla chiave privata master e dalla master chain code, diversi livelli di profondità. Ogni livello aggiunto corrisponde alla derivazione di una coppia di chiavi figlie da una coppia di chiavi genitore.
+La struttura gerarchica dei wallet HD consente l'organizzazione delle coppie di chiavi in vari modi. L'idea è derivare, a partire dalla chiave privata master e dalla master chain code, diversi livelli di profondità (depth). Ogni livello aggiunto corrisponde alla derivazione di una coppia di chiavi figlie da una coppia di chiavi genitore.
 
 Nel tempo, diversi BIP hanno introdotto standard per questi percorsi di derivazione, con l'obiettivo di unificare il loro uso attraverso diversi software. In questo capitolo scopriremo il significato di ogni livello di derivazione nei wallet HD, secondo questi standard.
 
-### Profondità di Derivazione in un wallet HD
+### profondità (depth) di Derivazione in un wallet HD
 
-I derivation path sono organizzati in livelli di profondità, che vanno dalla 0, che rappresenta la chiave master e la chain code master, a strati di sottolivelli per derivare gli indirizzi utilizzati per bloccare gli UTXO. I BIP (_Bitcoin Improvement Proposals_) definiscono gli standard per ogni livello, il che aiuta ad armonizzare le pratiche attraverso diversi software di gestione dei wallet.
+I derivation path sono organizzati in livelli di profondità (depth), che vanno dalla 0, che rappresenta la chiave master e la chain code master, a strati di sottolivelli per derivare gli indirizzi utilizzati per bloccare gli UTXO. I BIP (_Bitcoin Improvement Proposals_) definiscono gli standard per ogni livello, il che aiuta ad armonizzare le pratiche attraverso diversi software di gestione dei wallet.
 
 Un derivation path, quindi, si riferisce alla sequenza di indici utilizzati per derivare le chiavi figlie da una chiave master.
 
-**Profondità 0: Chiave Master (BIP32)**
+**profondità (depth) 0: Chiave Master (BIP32)**
 
-Questa profondità corrisponde alla chiave privata master del wallet e alla master chain code. È rappresentata dalla notazione $m/$.
+Questa profondità (depth) corrisponde alla chiave privata master del wallet e alla master chain code. È rappresentata dalla notazione $m/$.
 
-**Profondità 1: Purpose, Scopo (BIP43)**
+**profondità (depth) 1: Purpose, Scopo (BIP43)**
 
-Il Purpose determina la struttura logica di derivazione. Per un indirizzo P2WPKH, ad esempio, avrà $/84'/$ a profondità 1 (secondo BIP84), mentre per un indirizzo P2TR avrà $/86'/$ (secondo BIP86). Questo strato facilita la compatibilità tra wallet, mostrando indici corrispondenti ai numeri dei BIP.
+Il Purpose determina la struttura logica di derivazione. Per un indirizzo P2WPKH, ad esempio, avrà $/84'/$ a profondità (depth) 1 (secondo BIP84), mentre per un indirizzo P2TR avrà $/86'/$ (secondo BIP86). Questo strato facilita la compatibilità tra wallet, mostrando indici corrispondenti ai numeri dei BIP.
 
-In altre parole, una volta che si ha la chiave master e la chain code master, questi servono come coppia di chiavi genitore per derivare una coppia di chiavi figlie. L'indice usato in questa derivazione può essere, ad esempio, $/84'/$ se il wallet è inteso per usare script di tipo SegWit v0. Questa coppia di chiavi è quindi a profondità 1. Il suo ruolo non è bloccare bitcoin, ma semplicemente servire come punto di passaggio nella gerarchia di derivazione.
+In altre parole, una volta che si ha la chiave master e la chain code master, questi servono come coppia di chiavi genitore per derivare una coppia di chiavi figlie. L'indice usato in questa derivazione può essere, ad esempio, $/84'/$ se il wallet è inteso per usare script di tipo SegWit v0. Questa coppia di chiavi è quindi a profondità (depth) 1. Il suo ruolo non è bloccare bitcoin, ma semplicemente servire come punto di passaggio nella gerarchia di derivazione.
 
-**Profondità 2: Tipo di Valuta (BIP44)**
+**profondità (depth) 2: Tipo di Valuta (BIP44)**
 
-Dalla coppia di chiavi a profondità 1 viene eseguita una nuova derivazione per ottenere la coppia di chiavi a profondità 2. Questa profondità permette di differenziare gli account Bitcoin da altre criptovalute all'interno dello stesso wallet.
+Dalla coppia di chiavi a profondità (depth) 1 viene eseguita una nuova derivazione per ottenere la coppia di chiavi a profondità (depth) 2. Questa profondità (depth) permette di differenziare gli account Bitcoin da altre criptovalute all'interno dello stesso wallet.
 
 Ogni valuta ha un indice unico per garantire la compatibilità tra wallet multi-valuta. Per Bitcoin l'indice è $/0'/$ (o `0x80000000` in notazione esadecimale). Gli indici delle valute sono scelti nell'intervallo da $2^{31}$ a $2^{32}-1$ per garantire una derivazione hardened.
 
@@ -1793,27 +1793,27 @@ Per darvi altri esempi, ecco gli indici di alcune valute:
 - $2'$ (`0x80000002`) per Litecoin;
 - $60'$ (`0x8000003c`) per Ethereum...
 
-**Profondità 3: Account (BIP32)**
+**profondità (depth) 3: Account (BIP32)**
 
-Ogni wallet può essere diviso in diversi account, numerati da $2^{31}$ e rappresentati a profondità 3 da $/0'/$ per il primo account, $/1'/$ per il secondo, e così via. Generalmente, quando si fa riferimento a una chiave estesa `xpub`, si riferisce a chiavi a questa profondità di derivazione.
+Ogni wallet può essere diviso in diversi account, numerati da $2^{31}$ e rappresentati a profondità (depth) 3 da $/0'/$ per il primo account, $/1'/$ per il secondo, e così via. Generalmente, quando si fa riferimento a una chiave estesa `xpub`, si riferisce a chiavi a questa profondità (depth) di derivazione.
 
-Questa separazione in diversi account è opzionale. Ha lo scopo di semplificare l'organizzazione del wallet per gli utenti. In pratica si usa solo un account, di solito il primo per impostazione predefinita. In alcuni casi, tuttavia, se si desidera distinguere chiaramente coppie di chiavi per usi diversi, può risultare utile usare altri account. Ad esempio è possibile creare un account personale e uno professionale a partire dallo stesso seed, con gruppi di chiavi completamente distinti. Tutto ciò si ottiene a questa profondità di derivazione.
+Questa separazione in diversi account è opzionale. Ha lo scopo di semplificare l'organizzazione del wallet per gli utenti. In pratica si usa solo un account, di solito il primo per impostazione predefinita. In alcuni casi, tuttavia, se si desidera distinguere chiaramente coppie di chiavi per usi diversi, può risultare utile usare altri account. Ad esempio è possibile creare un account personale e uno professionale a partire dallo stesso seed, con gruppi di chiavi completamente distinti. Tutto ciò si ottiene a questa profondità (depth) di derivazione.
 
-**Profondità 4: Chain (BIP32)**
+**profondità (depth) 4: Chain (BIP32)**
 
-Ogni account definito a profondità 3 è poi strutturato in due chain:
+Ogni account definito a profondità (depth) 3 è poi strutturato in due chain:
 - **Chain esterna**: nella chain esterna vengono derivate quelli che sono noti come indirizzi "pubblici". Gli indirizzi di ricezione sono destinati a bloccare UTXO provenienti da transazioni esterne (cioè, originati dalla spesa di UTXO che non ti appartengono). Per dirla semplicemente, questa chain esterna viene utilizzata ogni volta che si desidera ricevere bitcoin. Quando si clicca su "_receive_" nel wallet, è sempre un indirizzo della chain esterna che viene mostrato.
 - **La chain interna (resto/change)**: Questa chain è riservata per gli indirizzi di ricezione che bloccano bitcoin generati spendendo un UTXO che ti appartiene: in altre parole indirizzi di resto. È identificata dall'indice $/1/$.
 
-**Profondità 5: Indice degli Indirizzi (BIP32)**
+**profondità (depth) 5: Indice degli Indirizzi (BIP32)**
 
-Infine il livello 5, che rappresenta l'ultimo passo della derivazione nel wallet. Sebbene tecnicamente sia possibile continuare all'infinito, gli standard attuali si fermano a questa profondità. Qui vengono derivate le coppie di chiavi che saranno effettivamente utilizzate per bloccare e sbloccare gli UTXO. Ogni indice permette di distinguere tra coppie di chiavi sorelle: il primo indirizzo di ricezione utilizzerà l'indice $/0/$, il secondo l'indice $/1/$, e così via.
+Infine il livello 5, che rappresenta l'ultimo passo della derivazione nel wallet. Sebbene tecnicamente sia possibile continuare all'infinito, gli standard attuali si fermano a questa profondità (depth). Qui vengono derivate le coppie di chiavi che saranno effettivamente utilizzate per bloccare e sbloccare gli UTXO. Ogni indice permette di distinguere tra coppie di chiavi sorelle: il primo indirizzo di ricezione utilizzerà l'indice $/0/$, il secondo l'indice $/1/$, e così via.
 
 ![CYP201](assets/fr/053.webp)
 
 ### Notazione del Derivation Path
 
-Il derivation path è scritto separando ogni livello con una barra ($/$). Ogni barra indica quindi la derivazione di una coppia di chiavi genitore ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) in una coppia di chiavi figlie ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Il numero indicato ad ogni profondità corrisponde all'indice utilizzato per derivare questa chiave dai suoi genitori. L'apostrofo ($'$) posto alla destra dell'indice indica una derivazione hardened ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Talvolta questo apostrofo è sostituito da una $h$. In assenza di un apostrofo o di una $h$, si tratta quindi di una derivazione normale ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
+Il derivation path è scritto separando ogni livello con una barra ($/$). Ogni barra indica quindi la derivazione di una coppia di chiavi genitore ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) in una coppia di chiavi figlie ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$). Il numero indicato ad ogni profondità (depth) corrisponde all'indice utilizzato per derivare questa chiave dai suoi genitori. L'apostrofo ($'$) posto alla destra dell'indice indica una derivazione hardened ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$). Talvolta questo apostrofo è sostituito da una $h$. In assenza di un apostrofo o di una $h$, si tratta quindi di una derivazione normale ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
 Come abbiamo visto nei capitoli precedenti, gli indici delle chiavi hardened partono da $2^{31}$, o `0x80000000` in esadecimale. Quando in un derivation path un indice è seguito da un apostrofo, a $2^{31}$ deve essere aggiunto il numero indicato per ottenere il valore effettivo utilizzato nella funzione HMAC-SHA512. Ad esempio, se il percorso di derivazione specifica $/44'/$, l'indice effettivo sarà:
 $$
 
@@ -2022,13 +2022,13 @@ Ora che abbiamo coperto la teoria passiamo alla pratica! Nel capitolo seguente, 
 ## Derivazione dell'Indirizzo
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
 
-Vediamo ora come generare un indirizzo di ricezione da una coppia di chiavi situate, ad esempio, alla profondità 5 di un wallet HD. Questo indirizzo, poi, potrà essere utilizzato in un software wallet per bloccare un UTXO.
+Vediamo ora come generare un indirizzo di ricezione da una coppia di chiavi situate, ad esempio, alla profondità (depth) 5 di un wallet HD. Questo indirizzo, poi, potrà essere utilizzato in un software wallet per bloccare un UTXO.
 
 Poiché il processo di generazione di un indirizzo dipende dal modello di script adottato, concentriamoci su due casi specifici: generare un indirizzo SegWit v0 P2WPKH e un indirizzo SegWit v1 P2TR, poiché questi due tipi di indirizzi coprono la stragrande maggioranza di quelli utilizzati oggi.
 
 ### Compressione della Chiave Pubblica
 
-Dopo aver eseguito tutti i passaggi di derivazione dalla chiave master alla profondità 5 utilizzando gli indici appropriati, otteniamo una coppia di chiavi ($k$, $K$) con $K = k \cdot G$. Anche se è possibile utilizzare questa chiave pubblica così com'è per bloccare fondi con lo standard P2PK, questo non è l'obiettivo ora. Adesso miriamo, invece, a creare un indirizzo  P2WPKH in prima istanza, e poi P2TR per un altro esempio.
+Dopo aver eseguito tutti i passaggi di derivazione dalla chiave master alla profondità (depth) 5 utilizzando gli indici appropriati, otteniamo una coppia di chiavi ($k$, $K$) con $K = k \cdot G$. Anche se è possibile utilizzare questa chiave pubblica così com'è per bloccare fondi con lo standard P2PK, questo non è l'obiettivo ora. Adesso miriamo, invece, a creare un indirizzo  P2WPKH in prima istanza, e poi P2TR per un altro esempio.
 
 Il primo passo è comprimere la chiave pubblica $K$. Per comprendere bene questo processo, ricordiamo prima alcuni fondamenti trattati nella parte 3.
 Nel protocollo Bitcoin, una chiave pubblica è un punto $K$ situato su una curva ellittica. È rappresentata nella forma $(x, y)$, dove $x$ e $y$ sono le coordinate del punto. Nella sua forma non compressa, questa chiave pubblica misura 520 bit: 8 bit per un prefisso (valore iniziale di `0x04`), 256 bit per la coordinata $x$ e 256 bit per la coordinata $y$.

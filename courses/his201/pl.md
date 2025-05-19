@@ -9,10 +9,10 @@ objectives:
 
 ---
 
-# Zanurz się w historii tworzenia Bitcoin
+# Zanurz się w historii tworzenia Bitcoina
 
 
-Witamy w kursie poświęconym historii powstania Bitcoin! Jako użytkownik mogłeś się zastanawiać, skąd pochodzi narzędzie, którego używasz. Co więcej, możesz nie rozumieć odniesień do osób i wydarzeń, które naznaczyły krótką historię kryptowaluty. Wreszcie, przestudiowanie tej historii pozwoli ci lepiej zrozumieć samą Bitcoin, odsłaniając kontekst, który ukształtował jej powolną formację.
+Witamy na kursie poświęconym historii powstania Bitcoina! Jako użytkownik mogłeś się zastanawiać, skąd pochodzi narzędzie, którego używasz. Co więcej, możesz nie rozumieć odniesień do osób i wydarzeń związanych z krótką historią kryptowaluty. Wreszcie, przeanalizowanie tej historii pozwoli ci lepiej zrozumieć samego Bitcoina, odsłaniając kontekst, który ukształtował jego powolną formację.
 
 
 W tym kursie odkryjesz podróż związaną z jego projektowaniem, uruchomieniem i początkową konstrukcją ekonomiczną. W pierwszej części przyjrzymy się kontekstowi technicznemu, w którym pojawiła się koncepcja Bitcoin. W drugiej części skupimy się na jego narodzinach i bootstrappingu. W trzeciej części zbadamy, w jaki sposób Bitcoin zyskał na znaczeniu pod względem ekonomicznego wykorzystania, produkcji Mining i rozwoju oprogramowania. W czwartej części po prostu prześledzimy, jak Satoshi Nakamoto, twórca Bitcoin, stopniowo znikał i jak społeczność przejęła kontrolę, czyniąc kryptowalutę prawdziwie kolektywnym projektem.

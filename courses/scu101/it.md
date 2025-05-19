@@ -40,7 +40,7 @@ Questa formazione è uno sforzo congiunto di tre dei nostri professori:
 
 - Renaud Lifchitz, esperto in sicurezza informatica
 - Théo Pantamis, dottore in matematica applicata
-- Rogzy, CEO di DécouvreBitcoin
+- Rogzy, Co-fondatore di Plan ₿ Network
 
 La tua igiene digitale è cruciale in un mondo sempre più digitale. Nonostante il costante aumento di casi di hacking e sorveglianza di massa, non è mai troppo tardi per fare il primo passo e proteggerti.
 Con questo percorso di formazione, non cerchiamo di renderti un esperto, anonimo o inattaccabile, ciò è impossibile. Invece, ti offriamo alcune soluzioni semplici e accessibili per tutti per iniziare a trasformare le tue abitudini online e riprendere il controllo della tua sovranità digitale.
@@ -496,7 +496,7 @@ Padroneggiando queste competenze e strumenti, sarai ben attrezzato per navigare 
 
 ### Gestione efficace delle password e rafforzamento dell'autenticazione: un approccio accademico
 
-Nel modulo di formazione "Sicurezza 101" offerto da Découvre Bitcoin all'interno dell'Accademia, abbiamo affrontato l'importanza dei gestori di password. Tre dimensioni sono fondamentali da considerare: la creazione, l'aggiornamento e l'implementazione delle password sui siti web.
+Ci sono tre dimensioni chiave da considerare quando si parla di gestori di password: la creazione, l'aggiornamento e l'implementazione delle password sui siti web.
 
 In generale, è sconsigliato utilizzare estensioni del browser per il riempimento automatico delle password. Questi strumenti possono rendere l'utente più vulnerabile agli attacchi di phishing. Renaud, un esperto riconosciuto in materia di sicurezza informatica, preferisce una gestione manuale tramite KeePass, che implica una copia e incolla manuale della password. Le estensioni tendono ad aumentare la superficie di attacco, possono rallentare le prestazioni del browser e quindi presentano un rischio non trascurabile. Pertanto, l'uso minimo di estensioni sul browser è una pratica consigliata.
 
@@ -517,9 +517,9 @@ L'autenticazione diretta sul servizio in questione rappresenta un'opzione intere
 La sicurezza informatica può essere compromessa da pratiche semplici e dall'uso di password predefinite, come "admin". Non sempre sono necessari attacchi sofisticati per mettere a rischio la sicurezza informatica. Ad esempio, le password degli amministratori di un canale YouTube erano scritte nel codice sorgente privato di un'azienda. Le vulnerabilità di sicurezza sono spesso il risultato della negligenza umana.
 
 È importante notare anche che Internet è molto centralizzato e ampiamente controllato dagli Stati Uniti. Il server DNS può essere soggetto a censura e spesso utilizza DNS falsi per bloccare l'accesso a determinati siti. Il DNS è un protocollo vecchio e insufficientemente sicuro, il che può causare problemi di sicurezza. Nuovi protocolli, come DNSsec, sono emersi ma sono ancora poco utilizzati. Per aggirare la censura e il blocco degli annunci, è possibile scegliere fornitori DNS alternativi.
-Alcune alternative alle pubblicità invasive includono Google DNS, OpenDNS e altri servizi indipendenti. Il protocollo DNS standard lascia le richieste DNS visibili al provider di servizi Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) consentono di crittografare la connessione DNS, offrendo maggiore privacy e sicurezza. Questi protocolli sono ampiamente utilizzati in ambito aziendale per la migliore sicurezza e sono nativamente supportati da Windows, Android e iPhone. Per utilizzare DOH e DOT, è necessario inserire un nome host TLS al posto di un indirizzo IP. I provider gratuiti di DOH e DOT sono disponibili online. DOH e DOT migliorano la privacy e la sicurezza evitando attacchi di tipo "man in the middle". Altre considerazioni chiave
+Alcune alternative alle pubblicità invasive includono Google DNS, OpenDNS e altri servizi indipendenti. Il protocollo DNS standard lascia le richieste DNS visibili al provider di servizi Internet. DOH (DNS over HTTPS) e DOT (DNS over TLS) consentono di crittografare la connessione DNS, offrendo maggiore privacy e sicurezza. Questi protocolli sono ampiamente utilizzati in ambito aziendale per la migliore sicurezza e sono nativamente supportati da Windows, Android e iPhone. Per utilizzare DOH e DOT, è necessario inserire un nome host TLS al posto di un indirizzo IP. I provider gratuiti di DOH e DOT sono disponibili online. DOH e DOT migliorano la privacy e la sicurezza evitando attacchi di tipo "man in the middle".
 
-Nel contesto del modulo di formazione "Sicurezza 101" di Découvre Bitcoin sull'Accademia, abbiamo anche discusso dell'autenticazione Lightning. Questo sistema genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. È possibile avere identità decentralizzate controllate dall'utente, ma manca una normalizzazione e standardizzazione nei progetti di identità decentralizzata. I gestori di pacchetti come Nuget e Chocolaté, che consentono di scaricare software open source al di fuori del Microsoft Store, sono consigliati per evitare attacchi maligni. In sintesi, il DNS è cruciale per la sicurezza online, ma è necessario rimanere vigili di fronte a potenziali attacchi ai server DNS.
+Vale anche la pena menzionare il sistema chiamato "Lightning authentication", che genera un identificatore diverso per ogni servizio, senza la necessità di fornire un indirizzo email o informazioni personali. È possibile avere identità decentralizzate controllate dall'utente, ma manca una normalizzazione e standardizzazione nei progetti di identità decentralizzata. I gestori di pacchetti come Nuget e Chocolaté, che consentono di scaricare software open source al di fuori del Microsoft Store, sono consigliati per evitare attacchi maligni. In sintesi, il DNS è cruciale per la sicurezza online, ma è necessario rimanere vigili di fronte a potenziali attacchi ai server DNS.
 
 # Sezione finale
 

@@ -541,9 +541,9 @@ La riemissione di un importo di un'asset richiede la proprietà del token associ
 
 Quando si creano altri asset, non importa quale nodo abbia emesso l'asset in primo luogo, purché il nodo che sta riemettendo una quantità di asset sia in possesso di quello che viene comunemente chiamato token di riemissione dell'asset. Vedremo come creare inizialmente il token di riemissione, come usarlo per riemettere una quantità di asset e come trasferire il token di riemissione ad altri nodi, in modo che anch'essi abbiano il permesso di riemettere l'asset.
 
-Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e l'asset predefinito è stata diviso tra loro.
+Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e l'asset predefinito è stato diviso tra loro.
 
-Faremo in modo che e1 emetta una quantità di 100 di un nuovo asset e crei 1 token di riemissione per quello stesso asset. Per semplificare l'esempio, creeremo l'emissione come non offuscata. Procediamo quindi con l'emissione dell'asset e del relativo token di riemissione.
+Faremo in modo che e1 emetta una quantità pari a 100 nuovi asset e crei 1 token di riemissione per quello stesso asset. Per semplificare l'esempio, creeremo l'emissione come non offuscata. Procediamo quindi con l'emissione dell'asset e del relativo token di riemissione.
 
 ```
 e1-cli issueasset 100 1 false
@@ -565,7 +565,7 @@ Ora controlleremo i dettagli della transazione utilizzando il comando gettransac
 e1-cli gettransaction <txid>
 ```
 
-Scorrendo l'esagono dei dati della transazione, si vedrà che nella transazione e1 ha ricevuto 1 token di riemissione e 100 dell'asset associato.
+Scorrendo l'esadecimale dei dati della transazione, si vedrà che nella transazione e1 ha ricevuto 1 token di riemissione e 100 unità dell'asset associato.
 
 Fate una copia dell'indirizzo per poterlo importare in e2.
 
@@ -607,7 +607,7 @@ La verifica della riemissione ha funzionato.
 e1-cli getwalletinfo
 ```
 
-Si può notare che e1 ora detiene 200 dell'asset, come previsto.
+Si può notare che e1 ora detiene 200 unità dell'asset, come previsto.
 
 Poiché e2 non detiene una quantità di token di riemissione, riceveranno un errore se proveranno a riemettere l'asset.
 
@@ -625,7 +625,7 @@ e1-cli listissuances
 
 Si noti il flag `is_reissuance`.
 
-Se ora inviamo a e2 una quantità di token di riemissione, essi saranno in grado di riemettere essi stessi una quantità di asset. Per prima cosa abbiamo bisogno di un indirizzo a cui inviarlo. Vale la pena notare che il token di riemissione viene trattato come qualsiasi altro asset all'interno di Elements quando si inviano e si visualizzano i saldi e che può anche essere suddiviso in tagli più piccoli come qualsiasi altro asset, quindi non è necessario inviare 1 token di riemissione a e2 perché possa riemettere l'asset. Qualsiasi taglio sarà sufficiente. Generare un indirizzo per e2 per ricevere il token di riemissione.
+Se ora inviamo a e2 una quantità di token di riemissione, saranno in grado di riemettere loro stessi una quantità di asset. Per prima cosa abbiamo bisogno di un indirizzo a cui inviarlo. Vale la pena notare che il token di riemissione viene trattato come qualsiasi altro asset all'interno di Elements quando si inviano e si visualizzano i saldi e che può anche essere suddiviso in tagli più piccoli come qualsiasi altro asset, quindi non è necessario inviare 1 token di riemissione a e2 perché possa riemettere l'asset. Qualsiasi taglio sarà sufficiente. Generare un indirizzo per e2 per ricevere il token di riemissione.
 
 ```
 e2-cli getnewaddress
@@ -643,13 +643,13 @@ Confermare la transazione.
 e1-cli -generate 1
 ```
 
-Ora possiamo vedere che e2 mantiene lo 0,1 che gli è stato inviato.
+Ora possiamo vedere che e2 detiene lo 0,1 che gli è stato inviato.
 
 ```
 e2-cli getwalletinfo
 ```
 
-Ciò significa che e2 può ora riemettere una quantità maggiore dell'asset associato alla RIT che detiene nel suo wallet. Faremo in modo che e2 riemetta 500 esemplari dell'asset.
+Ciò significa che e2 può ora riemettere una quantità maggiore dell'asset associato al RIT che detiene nel suo wallet. Faremo in modo che e2 riemetta 500 unità dell'asset.
 
 ```
 e2-cli reissueasset <asset-id> 500
@@ -661,9 +661,9 @@ Controllare il risultato della riemissione.
 e2-cli getwalletinfo
 ```
 
-Si può notare che e2 ora detiene l'importo riemesso nel suo wallet e che la RIT stessa non viene consumata nel processo di riemissione delgli asset.
+Si può notare che e2 ora detiene l'importo riemesso nel suo wallet e che il RIT stesso non viene consumata nel processo di riemissione degli asset.
 
-Distruggere una quantità di un'asset è qualcosa che può fare chiunque detenga almeno la quantità che viene distrutta, non è governato dal token di riemissione.
+Distruggere una quantità di un'asset è qualcosa che può fare chiunque detenga almeno la quantità che viene distrutta, non è gestito dal token di riemissione.
 
 ```
 e2-cli destroyamount <asset-id>

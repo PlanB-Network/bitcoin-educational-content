@@ -179,1028 +179,381 @@ Decentralized systems can be hard to wrap your head around, but there are some m
 
 ![](assets/trustlessness-banner.jpg)
 
-This chapter dissects the concept of trustlessness, what it means from a computer
-science perspective, and why Bitcoin has to be trustless to retain its
-value proposition. We then talk about what it means to use Bitcoin in
-a trustless way, and what kind of guarantees a full node can and cannot
-give you. In the last section, we look at the real-world interaction
-between Bitcoin and actual softwares or users, and the need to make
-trade-offs between convenience and trustlessness to get anything done
-at all.
+This chapter dissects the concept of trustlessness, what it means from a computer science perspective, and why Bitcoin has to be trustless to retain its value proposition. 
+We then talk about what it means to use Bitcoin in a trustless way, and what kind of guarantees a full node can and cannot give you. 
+In the last section, we look at the real-world interaction between Bitcoin and actual softwares or users, and the need to make trade-offs between convenience and trustlessness to get anything done at all.
 
-People often say things like "Bitcoin is great because it's
-trustless". What do they mean by trustless? Pieter Wuille explains
-this widely used term on
-[Stack Exchange](https://bitcoin.stackexchange.com/a/45674/69518):
+People often say things like "Bitcoin is great because it's trustless". 
 
-[quote, Pieter Wuille, Bitcoin Stack Exchange (2016)]
-____
-The trust we're talking about in "trustless" is an abstract technical
-term. A distributed system is called trustless when it does not
-require any trusted parties to function correctly.
-____
+What do they mean by trustless? Pieter Wuille explains this widely used term on [Stack Exchange](https://bitcoin.stackexchange.com/a/45674/69518):
 
-In short, the word _trustless_ refers to a property of the Bitcoin
-protocol whereby it can logically function without "any trusted
-parties". This is different from the trust you inevitably have to
-put into the software or hardware you run. More on this latter aspect of trust will be discussed further
-in this chapter.
+> The trust we're talking about in "trustless" is an abstract technical term. A distributed system is called trustless when it does not require any trusted parties to function correctly.
 
-In centralized systems, we rely on a central actor's reputation in order to make sure
-that they will take care of security or roll back in case of issues,
-as well as on the legal system to sanction any violations. These trust
-requirements are problematic in pseudonymous decentralized systems - there is
-no possibility of recourse so there really can't be any trust. In the introduction to
-[the Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf), Satoshi Nakamoto
-describes this problem:
+In short, the word _trustless_ refers to a property of the Bitcoin protocol whereby it can logically function without "any trusted parties". This is different from the trust you inevitably have to put into the software or hardware you run. More on this latter aspect of trust will be discussed further in this chapter.
 
-[quote,Satoshi Nakamoto, Bitcoin: A Peer-to-Peer Electronic Cash System (2008)]
-____
-Commerce on the Internet has come to rely almost exclusively on
-financial institutions serving as trusted third parties to process
-electronic payments. While the system works well enough for most
-transactions, it still suffers from the inherent weaknesses of the
-trust based model.  Completely non-reversible transactions are not
-really possible, since financial institutions cannot avoid mediating
-disputes. The cost of mediation increases transaction costs, limiting
-the minimum practical transaction size and cutting off the possibility
-for small casual transactions, and there is a broader cost in the loss
-of ability to make non-reversible payments for nonreversible
-services. With the possibility of reversal, the need for trust
-spreads. Merchants must be wary of their customers, hassling them for
-more information than they would otherwise need.  A certain percentage
-of fraud is accepted as unavoidable. These costs and payment
-uncertainties can be avoided in person by using physical currency, but
-no mechanism exists to make payments over a communications channel
-without a trusted party
-____
+In centralized systems, we rely on a central actor's reputation in order to make sure that they will take care of security or roll back in case of issues, as well as on the legal system to sanction any violations. These trust requirements are problematic in pseudonymous decentralized systems - there is no possibility of recourse so there really can't be any trust. In the introduction to [the Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf), Satoshi Nakamoto describes this problem:
 
-It seems that we can't have a decentralized system based on trust, and
-that's why trustlessness is important in Bitcoin.
+> Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. 
+> While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model.  Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for nonreversible services. 
+> With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need.  A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party
 
-To use Bitcoin in a trustless manner, you have to run a
-fully-validating Bitcoin node. Only then will you be able to verify
-that the blocks you receive from others are following the consensus
-rules; for example, that the coin issuance schedule is kept and that no
-double-spends occur on the blockchain. If you don't run a full node,
-you outsource verification of Bitcoin blocks to someone else and
-trust them to tell you the truth, which means you're not using Bitcoin
-trustlessly.
+It seems that we can't have a decentralized system based on trust, and that's why trustlessness is important in Bitcoin.
 
-David Harding has authored
-https://bitcoin.org/en/bitcoin-core/features/validation[an article on
-the bitcoin.org website] explaining how running a full node - or
-using Bitcoin trustlessly - actually helps you.
+To use Bitcoin in a trustless manner, you have to run a fully-validating Bitcoin node. Only then will you be able to verify that the blocks you receive from others are following the consensus rules; for example, that the coin issuance schedule is kept and that no double-spends occur on the blockchain. If you don't run a full node, you outsource verification of Bitcoin blocks to someone else and trust them to tell you the truth, which means you're not using Bitcoin trustlessly.
 
-[quote, David Harding, Full Validation on bitcoin.org (2015)]
-____
-The bitcoin currency only works when people accept bitcoins in
-exchange for other valuable things. That means it’s the people
-accepting bitcoins who give it value and who get to decide how Bitcoin
-should work.
+David Harding has authored [an article on the bitcoin.org website](https://bitcoin.org/en/bitcoin-core/features/validation) explaining how running a full node - or using Bitcoin trustlessly - actually helps you:
 
-When you accept bitcoins, you have the power to enforce Bitcoin’s
-rules, such as preventing confiscation of any person’s bitcoins
-without access to that person’s private keys.
+> The bitcoin currency only works when people accept bitcoins in exchange for other valuable things. That means it’s the people accepting bitcoins who give it value and who get to decide how Bitcoin should work.
+> 
+> When you accept bitcoins, you have the power to enforce Bitcoin’s rules, such as preventing confiscation of any person’s bitcoins without access to that person’s private keys.
+> 
+> Unfortunately, many users outsource their enforcement power. This leaves Bitcoin’s decentralization in a weakened state where a handful of miners can collude with a handful of banks and free services to change Bitcoin’s rules for all those non-verifying users who outsourced their power.
+> 
+> Unlike other wallets, Bitcoin Core does enforce the rules—so if the miners and banks change the rules for their non-verifying users, those users will be unable to pay full validation Bitcoin Core users like you.
 
-Unfortunately, *many users outsource their enforcement power*. This
-leaves Bitcoin’s decentralization in a weakened state where a handful
-of miners can collude with a handful of banks and free services to
-change Bitcoin’s rules for all those non-verifying users who
-outsourced their power.
 
-Unlike other wallets, *Bitcoin Core does enforce the rules*—so if the
-miners and banks change the rules for their non-verifying users, those
-users will be unable to pay full validation Bitcoin Core users
-like you.
-____
+He says that running a full node will help you verify every aspect of the blockchain without trusting anyone else, so as to ensure that the coins you receive from others are genuine. This is great, but there's one important thing that a full node can't help you with: it can't prevent double- spending through chain rewrites:
 
-He says that running a full node will help you verify every aspect of
-the blockchain without trusting anyone else, so as to ensure that the coins you
-receive from others are genuine. This is great, but there's one important
-thing that a full node can't help you with: it can't prevent double-
-spending through chain rewrites:
+> Note that although all programs—including Bitcoin Core—are vulnerable to chain rewrites, Bitcoin provides a defense mechanism: the more confirmations your transactions have, the safer you are. There is no known decentralized defense better than that.
 
-[quote, David Harding, Full Validation on bitcoin.org (2015)]
-____
-Note that although all programs—including Bitcoin Core—are vulnerable
-to chain rewrites, Bitcoin provides a defense mechanism: the more
-confirmations your transactions have, the safer you are. There is no
-known decentralized defense better than that.
-____
+No matter how advanced your software is, you still have to trust that the blocks containing your coins won't be rewritten. However, as pointed out by Harding, you can await a number of confirmations, after which you consider the probability of a chain rewrite small enough to be acceptable.
 
-No matter how advanced your software is, you still have to trust that
-the blocks containing your coins won't be rewritten. However, as pointed
-out by Harding, you can await a number of confirmations, after which
-you consider the probability of a chain rewrite small enough to be
-acceptable.
+The incentives for using Bitcoin in a trustless way align with the system's need for full node decentralization. The more people who use their own full nodes, the more full node decentralization, and thus the stronger Bitcoin stands against malicious changes to the protocol. But unfortunately, as explained in the full node decentralization section, users often opt for trusted services as consequence of the inevitable trade-off between trustlessness and convenience.
 
-The incentives for using Bitcoin in a trustless way align with the
-system's need for <<fullnodedecentralization,full node
-decentralization>>. The more people who use their own full nodes, the
-more full node decentralization, and thus the stronger Bitcoin stands
-against malicious changes to the protocol. But unfortunately, as
-explained in the full node decentralization section, users often opt
-for trusted services as consequence of the inevitable trade-off between trustlessness and convenience.
+Bitcoin's trustlessness is absolutely imperative from a system perspective. In 2018, Matt Corallo, [spoke about trustlessness](https://btctranscripts.com/baltic-honeybadger/2018/trustlessness-scalability-and-directions-in-security-models/) at the Baltic Honeybadger conference in Riga. 
 
-Bitcoin's trustlessness is absolutely imperative from a system
-perspective. In 2018, Matt Corallo,
-https://btctranscripts.com/baltic-honeybadger/2018/trustlessness-scalability-and-directions-in-security-models/[spoke
-about trustlessness] at the Baltic Honeybadger conference in Riga.
-// Video: https://youtu.be/66ZoGUAnY9s?t=4019
-The essence of that talk is that you can't build trustless systems on
-top of a trusted system, but you can build trusted systems - for
-example, a custodial wallet - on top of a trustless system.
+![video](https://youtu.be/66ZoGUAnY9s?t=4019)
 
-.A trustless base layer allows for various trade-offs on higher levels.
+The essence of that talk is that you can't build trustless systems on top of a trusted system, but you can build trusted systems - for example, a custodial wallet - on top of a trustless system.
+
+
 ![width=50%](assets/trust.png)
+
+A trustless base layer allows for various trade-offs on higher levels
 
 This security model allows the system designer to select trade-offs
 that make sense to them without forcing those trade-offs on others.
 
-[[donttrustverify]]
 ### Don't trust, verify
 
 
-Bitcoin works trustlessly, but you still have to trust your software and
-hardware to some degree. That's because your software or hardware
-might not be programmed to do what's stated on the box. For example:
+Bitcoin works trustlessly, but you still have to trust your software and hardware to some degree. That's because your software or hardware might not be programmed to do what's stated on the box. For example:
 
-* The CPU might be maliciously designed to detect private key
-  cryptographic operations and leak the private key data.
-* The operating system's random number generator might not be as
-  random as it claims.
-* Bitcoin Core might have sneaked in code that will send your private
-  keys to some bad actor.
+- The CPU might be maliciously designed to detect private key cryptographic operations and leak the private key data.
+- The operating system's random number generator might not be as random as it claims.
+- Bitcoin Core might have sneaked in code that will send your private keys to some bad actor.
 
-So, besides running a full node, you also need to make sure you're
-running what you intend to. Reddit user brianddk
-https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/[wrote
-an article] about the various levels of trust you can choose from, when
-verifying your software. In the section "Trusting the builders", he
-talks about _reproducible builds_:
+So, besides running a full node, you also need to make sure you're running what you intend to. Reddit user brianddk [wrote an article](https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) about the various levels of trust you can choose from, when verifying your software. In the section "Trusting the builders", he talks about reproducible builds:
 
-[quote, brianddk on Reddit, Bitcoin v22.0 and Guix; Stronger defense against the "Trusting Trust Attack" (2022)]
-____
-Reproducible builds are a way to design software so that many
-community developers can each build the software and ensure that the
-final installer built is identical to what other developers
-produce. With a very public, reproducible project like bitcoin, no
-single developer needs to be completely trusted. Many developers can
-all perform the build and attest that they produced the same file as
-the one the original builder digitally signed.
-____
+> Reproducible builds are a way to design software so that many community developers can each build the software and ensure that the final installer built is identical to what other developers produce. With a very public, reproducible project like bitcoin, no single developer needs to be completely trusted. Many developers can all perform the build and attest that they produced the same file as the one the original builder digitally signed.
 
-The article defines 5 levels of trust: trusting the site, the
-builders, the compiler, the kernel, and the hardware.
+The article defines 5 levels of trust: trusting the site, the builders, the compiler, the kernel, and the hardware.
 
-To further deepen the topic of reproducible builds, Carl Dong
-https://btctranscripts.com/breaking-bitcoin/2019/bitcoin-build-system/[made
-a presentation about Guix]
-explaining why
-trusting the operating system, libraries, and compilers can be
-problematic, and how to fix that with a system called Guix, which is
-used by Bitcoin Core today.
+To further deepen the topic of reproducible builds, Carl Dong [made a presentation about Guix](https://btctranscripts.com/breaking-bitcoin/2019/bitcoin-build-system/) explaining why trusting the operating system, libraries, and compilers can be problematic, and how to fix that with a system called Guix, which is used by Bitcoin Core today.
 
-[quote, Carl Dong on Guix, Breaking Bitcoin Conference (2019)]
-____
-So what can we do about the fact that our toolchain can have a bunch
-of trusted binaries that can be reproducibly malicious? We need to be
-more than reproducible. We need to be bootstrappable. We cannot have
-that many binary tools that we need to download and trust from
-external servers controlled by other organizations. We should know how
-these tools are built and exactly how we can go through the process of
-building them again, preferably from a much smaller set of trusted
-binaries. We need to minimize our trusted set of binaries as much as
-possible, and have an easily auditable path from those toolchains to
-what we use how to build bitcoin. This allows us to maximize
-verification and minimize trust.
-____
+> So what can we do about the fact that our toolchain can have a bunch of trusted binaries that can be reproducibly malicious? We need to be more than reproducible. We need to be bootstrappable. We cannot have that many binary tools that we need to download and trust from external servers controlled by other organizations. 
+> 
+> We should know how these tools are built and exactly how we can go through the process of building them again, preferably from a much smaller set of trusted binaries. We need to minimize our trusted set of binaries as much as possible, and have an easily auditable path from those toolchains to what we use how to build bitcoin. This allows us to maximize verification and minimize trust.
 
-He then explains how Guix allows us to only trust a minimal binary of
-357 bytes that can be verified and fully understood if you know how
-to interpret the instructions. This is quite remarkable: one verifies that
-the 357-byte binary does what it should, then uses it to build the
-full build system from source code, and ends up with a Bitcoin Core
-binary that should be an exact copy of anyone else's build.
+He then explains how Guix allows us to only trust a minimal binary of 357 bytes that can be verified and fully understood if you know how to interpret the instructions. This is quite remarkable: one verifies that the 357-byte binary does what it should, then uses it to build the full build system from source code, and ends up with a Bitcoin Core binary that should be an exact copy of anyone else's build.
 
-There's a mantra that many bitcoiners subscribe to, which captures well
-much of the above:
+There's a mantra that many bitcoiners subscribe to, which captures well much of the above:
 
-[quote, Bitcoiners everywhere]
-____
-Don't trust, verify.
-____
+> Don't trust, verify.
 
-//noqr
-This alludes to the phrase
-"[trust, but verify](https://en.wikipedia.org/wiki/Trust,_but_verify)"
-that former U.S. president Ronald Reagan used in the context of
-nuclear
-disarmament. https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w[Bitcoiners
-switched it around to highlight the rejection of trust and the
-importance of running a full node].
+This alludes to the phrase "[trust, but verify](https://en.wikipedia.org/wiki/Trust,_but_verify)" that former U.S. president Ronald Reagan used in the context of nuclear disarmament. [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) switched it around to highlight the rejection of trust and the importance of running a full node.
 
-It's up to the users to decide to what degree they want to verify the
-software they use and the blockchain data they receive. As with so
-many other things in Bitcoin, there's a trade-off between convenience
-and trustlessness. It's almost always more convenient to use a
-custodial wallet compared to running Bitcoin Core on your own
-hardware. However, as Bitcoin software is maturing and user interfaces are
-improving, over time it should get better at supporting users willing to work
-towards trustlessness. Also, as users gain more knowledge over time,
-they should be able to gradually remove trust from the equation.
+It's up to the users to decide to what degree they want to verify the software they use and the blockchain data they receive. As with so many other things in Bitcoin, there's a trade-off between convenience and trustlessness. It's almost always more convenient to use a custodial wallet compared to running Bitcoin Core on your own hardware. However, as Bitcoin software is maturing and user interfaces are improving, over time it should get better at supporting users willing to work towards trustlessness. Also, as users gain more knowledge over time, they should be able to gradually remove trust from the equation.
 
-Some users think adversarially (see <<adversarialthinking>>) and verify
-most aspects of the software they run. As a consequence, they reduce the need for trust to the bare minimum,
-as they only need to trust their computer hardware and operating system. In
-doing so, they also help people who don't verify their hardware as thoroughly by
-raising their voices in public to warn about any issues they might find. One
-good example of this is an
-https://bitcoincore.org/en/2018/09/20/notice/[event that occurred in
-2018], when someone discovered a bug that would allow miners to spend an
-output twice in the same transaction:
+Some users think adversarially and verify most aspects of the software they run. As a consequence, they reduce the need for trust to the bare minimum, as they only need to trust their computer hardware and operating system. In doing so, they also help people who don't verify their hardware as thoroughly by raising their voices in public to warn about any issues they might find. One good example of this is an [event that occurred in 2018](https://bitcoincore.org/en/2018/09/20/notice/), when someone discovered a bug that would allow miners to spend an output twice in the same transaction:
 
-[quote, CVE-2018-17144 Full Disclosure on bitcoincore.org (2018)]
-____
-CVE-2018-17144, a fix for which was released on September 18th in
-Bitcoin Core versions 0.16.3 and 0.17.0rc4, includes both a Denial of
-Service component and a critical inflation vulnerability. It was
-originally reported to several developers working on Bitcoin Core, as
-well as projects supporting other cryptocurrencies, including ABC and
-Unlimited on September 17th as a Denial of Service bug only, however
-we quickly determined that the issue was also an inflation
-vulnerability with the same root cause and fix.
-____
+> CVE-2018-17144, a fix for which was released on September 18th in Bitcoin Core versions 0.16.3 and 0.17.0rc4, includes both a Denial of Service component and a critical inflation vulnerability. It was originally reported to several developers working on Bitcoin Core, as well as projects supporting other cryptocurrencies, including ABC and Unlimited on September 17th as a Denial of Service bug only, however we quickly determined that the issue was also an inflation vulnerability with the same root cause and fix.
 
-Here, an anonymous person reported an issue that turned out much worse
-than the reporter realized. This highlights the fact that people who verify the
-code often report security flaws instead of exploiting them. This is
-beneficial to those who aren't able to verify everything
-themselves. However, users should not trust others to keep them safe,
-but should rather verify for themselves whenever and whatever they can; that's how one remains as
-sovereign as possible, and how Bitcoin prospers. The more eyes on
-the software, the less likely it is that malicious code and security
-flaws slip through.
+Here, an anonymous person reported an issue that turned out much worse than the reporter realized. This highlights the fact that people who verify the code often report security flaws instead of exploiting them. This is beneficial to those who aren't able to verify everything themselves. 
 
-### Conclusion
+However, users should not trust others to keep them safe, but should rather verify for themselves whenever and whatever they can; that's how one remains as sovereign as possible, and how Bitcoin prospers. The more eyes on the software, the less likely it is that malicious code and security flaws slip through.
+
+### Conclusion about Trustlessness
 
 
-The Bitcoin protocol is trustless because it allows users to interact
-with it without trusting a third party. In practice, however, most
-people aren't able to verify the full stack of software and hardware
-they run Bitcoin on. Skilled people that verify software or hardware
-are able to warn other, less skilled, people when they find malicious
-code or bugs.
+The Bitcoin protocol is trustless because it allows users to interact with it without trusting a third party. In practice, however, most people aren't able to verify the full stack of software and hardware they run Bitcoin on. Skilled people that verify software or hardware are able to warn other, less skilled, people when they find malicious code or bugs.
 
-Without trustlessness, we can't have decentralizaion, because trust
-inevitebly involves some central point of authority. You can build a
-trusted system on top of a trustless system, but you can't build a
-trustless system on top of a trusted system.
+Without trustlessness, we can't have decentralizaion, because trust inevitebly involves some central point of authority. You can build a trusted system on top of a trustless system, but you can't build a trustless system on top of a trusted system.
 
 ## Privacy
 
 
 ![](assets/privacy-banner.jpg)
 
-This chapter deals with how to keep your private financial information
-to yourself. It explains what privacy stands for in the context of Bitcoin,
-why it's important, and what it means to say that Bitcoin is
-pseudonymous. It also looks into how private data can leak, both on-chain
-and off-chain. Then, it talks about the fact that bitcoins should be
-fungible, meaning interchangeable for any other bitcoins, and how
-fungibility and privacy go hand in hand. Lastly, the chapter introduces some
-measures you can take to improve your privacy and that of others.
+This chapter deals with how to keep your private financial information to yourself. It explains what privacy stands for in the context of Bitcoin, why it's important, and what it means to say that Bitcoin is pseudonymous. It also looks into how private data can leak, both on-chain and off-chain. 
 
-Bitcoin can be described as a pseudonymous system (see
-<<pseudonymity>> for further details on this), where users have multiple pseudonyms in the
-form of public keys. At first glance, this looks like a pretty good
-way to protect users from being identified, but it is in fact really
-easy to leak private financial information unintentionally.
+Then, it talks about the fact that bitcoins should be fungible, meaning interchangeable for any other bitcoins, and how fungibility and privacy go hand in hand. Lastly, the chapter introduces some measures you can take to improve your privacy and that of others.
+
+Bitcoin can be described as a pseudonymous system, where users have multiple pseudonyms in the form of public keys. At first glance, this looks like a pretty good way to protect users from being identified, but it is in fact really easy to leak private financial information unintentionally.
 
 ### What does privacy mean?
 
 
-Privacy can mean different things in different contexts. In
-Bitcoin, it generally means that users don't have to reveal their
-financial information to others, unless they voluntarily do so.
+Privacy can mean different things in different contexts. In Bitcoin, it generally means that users don't have to reveal their financial information to others, unless they voluntarily do so.
 
-There are many ways in which you may leak your private information
-to others, with or without knowing it. Data can either leak from the
-public blockchain or through other means, for example when malicious actors intercept
-your internet communications.
+There are many ways in which you may leak your private information to others, with or without knowing it. Data can either leak from the public blockchain or through other means, for example when malicious actors intercept your internet communications.
 
-[[whyprivacyimportant]]
 ### Why is privacy important?
 
+It may seem obvious why privacy is important in Bitcoin, but there are some aspects of it that one might not immediately think about. [On the Bitcoin Talk forum](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908), Gregory Maxwell walks us through a lot of good reasons why he thinks privacy matters. Among them are free market, safety, and human dignity:
 
-It may seem obvious why privacy is important in Bitcoin, but there are
-some aspects of it that one might not immediately think about.
-https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908[On
-the Bitcoin Talk forum], Gregory
-Maxwell walks us through a lot of good reasons why he
-thinks privacy matters. Among them are free market, safety, and human
-dignity:
+> Financial privacy is an essential criteria for the efficient operation of a free market: if you run a business, you cannot effectively set prices if your suppliers and customers can see all your transactions against your will. 
+> You cannot compete effectively if your competition is tracking your sales.  Individually your informational leverage is lost in your private dealings if you don't have privacy over your accounts: if you pay your landlord in Bitcoin without enough privacy in place, your landlord will see when you've received a pay raise and can hit you up for more rent.
+> 
+> Financial privacy is essential for personal safety: if thieves can see your spending, income, and holdings, they can use that information to target and exploit you. Without privacy malicious parties have more ability to steal your identity, snatch your large purchases off your doorstep, or impersonate businesses you transact with towards you... they can tell exactly how much to try to scam you for.
+> 
+> Financial privacy is essential for human dignity: no one wants the snotty barista at the coffee shop or their nosy neighbors commenting on their income or spending habits. No one wants their baby-crazy in-laws asking why they're buying contraception (or sex toys). Your employer has no business knowing what church you donate to. Only in a perfectly enlightened discrimination free world where no one has undue authority over anyone else could we retain our dignity and make our lawful transactions freely without self-censorship if we don't have privacy.
 
-[quote, Gregory Maxwell, Bitcoin Talk forum (2013)]
-____
-Financial privacy is an essential criteria for the efficient operation
-of a free market: if you run a business, you cannot effectively set
-prices if your suppliers and customers can see all your transactions
-against your will. You cannot compete effectively if your competition
-is tracking your sales.  Individually your informational leverage is
-lost in your private dealings if you don't have privacy over your
-accounts: if you pay your landlord in Bitcoin without enough privacy
-in place, your landlord will see when you've received a pay raise and
-can hit you up for more rent.
+Maxwell also touches on fungibility, which will be discussed later in this chapter, as well as on how privacy and law enforcement are not contradictory.
 
-Financial privacy is essential for personal safety: if thieves can see
-your spending, income, and holdings, they can use that information to
-target and exploit you. Without privacy malicious parties have more
-ability to steal your identity, snatch your large purchases off your
-doorstep, or impersonate businesses you transact with towards
-you... they can tell exactly how much to try to scam you for.
-
-Financial privacy is essential for human dignity: no one wants the
-snotty barista at the coffee shop or their nosy neighbors commenting
-on their income or spending habits. No one wants their baby-crazy
-in-laws asking why they're buying contraception (or sex toys). Your
-employer has no business knowing what church you donate to. Only in a
-perfectly enlightened discrimination free world where no one has undue
-authority over anyone else could we retain our dignity and make our
-lawful transactions freely without self-censorship if we don't have
-privacy.
-____
-
-Maxwell also touches on fungibility, which will be discussed <<fungibility,later in
-this chapter>>, as well as on how privacy and law enforcement are not
-contradictory.
-
-[[pseudonymity]]
 ### Pseudonymity
 
+We mentioned above that Bitcoin is pseudonymous, and that the pseudonyms are public keys. In the media you often hear that Bitcoin is anonymous, which is not correct. There is a distinction between anonymity and pseudonymity.
 
-We mentioned above that Bitcoin is pseudonymous, and that the
-pseudonyms are public keys. In the media you often hear
-that Bitcoin is anonymous, which is not correct. There is a
-distinction between anonymity and pseudonymity.
+Andrew Poelstra [explains in a Bitcoin Stack Exchange post](https://bitcoin.stackexchange.com/a/29473/69518) what anonymity would look like in transactions:
 
-Andrew Poelstra
-https://bitcoin.stackexchange.com/a/29473/69518[explains in a Bitcoin
-Stack Exchange post] what anonymity would look like in transactions:
+> Total anonymity, in the sense that when you spend money there is no trace of where it came from or where it's going, is theoretically possible by using the cryptographic technique of zero-knowledge proofs.
 
-[quote,Andrew Poelstra on anonymity,Bitcoin Stack Exchange (2016)]
-____
-Total anonymity, in the sense that when you spend money there is no
-trace of where it came from or where it's going, is theoretically
-possible by using the cryptographic technique of zero-knowledge
-proofs.
-____
+The difference seems to be that in a pseudonymous form of money you can trace payments between pseudonyms, whereas in an anonymous form of money you can't. Since bitcoin payments are traceable between pseudonyms, it's not an anonymous system.
 
-The difference seems to be that in a pseudonymous form of money you can
-trace payments between pseudonyms, whereas in an anonymous form of money you
-can't. Since bitcoin payments are traceable between pseudonyms, it's
-not an anonymous system.
+We have also said that the pseudonyms are public keys, but it's actually addresses derived from public keys. Why do we use addresses as pseudonyms and not something else, for example some descriptive names, like "watchme1984"? This has been [explained well](https://bitcoin.stackexchange.com/a/25175/69518) by user Tim S., also on Bitcoin Stack Exchange:
 
-We have also said that the pseudonyms are public keys, but it's
-actually addresses derived from public keys. Why do we use addresses
-as pseudonyms and not something else, for example some descriptive
-names, like "watchme1984"? This has been
-[explained well](https://bitcoin.stackexchange.com/a/25175/69518) by
-user Tim S., also on Bitcoin Stack Exchange:
+> In order for Bitcoin's idea to work, you must have coins that can only be spent by the owner of a given private key. This means that whatever you send to must be tied, in some way, to a public key.
+> 
+> Using arbitrary pseudonyms (e.g. user names) would mean that you'd have to then somehow link the pseudonym to a public key in order to enable public/private key crypto. This would remove the ability to securely create addresses/pseudonyms offline (e.g. before someone could send money to the user name "tdumidu", you'd have to announce in the blockchain that "tdumidu" is owned by public key "a1c...", and include a fee so others have a reason to announce it), reduce anonymity (by encouraging you to reuse pseudonyms), and needlessly bloat the size of the blockchain. It would also create a false sense of security that you're sending to who you think you are (if I take the name "Linus Torvalds" before he does, then it's mine and people might send money thinking they're paying the creator of Linux, not me).
 
-[quote,Tim S. on pseudonyms,Bitcoin Stack Exchange (2014)]
-____
-In order for Bitcoin's idea to work, you must have coins that can only
-be spent by the owner of a given private key. This means that whatever
-you send to must be tied, in some way, to a public key.
+By using addresses, or public keys, we achieve important goals, such as removing the need to somehow register a pseudonym beforehand, reducing the incentives for pseudonym reuse, avoiding blockchain bloat, and making it harder to impersonate other people.
 
-Using arbitrary pseudonyms (e.g. user names) would mean that you'd
-have to then somehow link the pseudonym to a public key in order to
-enable public/private key crypto. This would remove the ability to
-securely create addresses/pseudonyms offline (e.g. before someone
-could send money to the user name "tdumidu", you'd have to announce in
-the blockchain that "tdumidu" is owned by public key "a1c...", and
-include a fee so others have a reason to announce it), reduce
-anonymity (by encouraging you to reuse pseudonyms), and needlessly
-bloat the size of the blockchain. It would also create a false sense
-of security that you're sending to who you think you are (if I take
-the name "Linus Torvalds" before he does, then it's mine and people
-might send money thinking they're paying the creator of Linux, not
-me).
-____
-
-By using addresses, or public keys, we achieve important goals, such as removing the need to somehow register
-a pseudonym beforehand, reducing the incentives for pseudonym reuse, avoiding
-blockchain bloat, and making it harder to impersonate other people.
-
-[[blockchainprivacy]]
 ### Blockchain privacy
 
 
-Blockchain privacy refers to the information you disclose by
-transacting on the blockchain. It applies to all transactions,
-the ones you send as well as the ones you receive.
+Blockchain privacy refers to the information you disclose by transacting on the blockchain. It applies to all transactions, the ones you send as well as the ones you receive.
 
-Satoshi Nakamoto ponders over on-chain privacy in section 7 of his
-[Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf):
+Satoshi Nakamoto ponders over on-chain privacy in section 7 of his [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf):
 
-[quote, Satoshi Nakamoto, Bitcoin: A Peer-to-Peer Electronic Cash System (2008)]
-____
-As an additional firewall, a new key pair should be used for each
-transaction to keep them from being linked to a common owner. Some
-linking is still unavoidable with multi-input transactions, which
-necessarily reveal that their inputs were owned by the same owner. The
-risk is that if the owner of a key is revealed, linking could reveal
-other transactions that belonged to the same owner.
-____
+> As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
 
-The paper summarizes the main problems of blockchain privacy, namely address
-reuse and address clustering. The first is self-explaining, the latter refers to the ability to decide,
-with some level of certainty, that a set of different addresses belongs
-to the same user.
+The paper summarizes the main problems of blockchain privacy, namely address reuse and address clustering. The first is self-explaining, the latter refers to the ability to decide, with some level of certainty, that a set of different addresses belongs to the same user.
 
-.Typical privacy leaks on the blockchain.
 ![](assets/address-reuse-clustering.png)
 
-Chris Belcher
-https://en.bitcoin.it/Privacy#Blockchain_attacks_on_privacy[wrote in
-great detail] about the different kinds of privacy leaks that can
-happen on the Bitcoin blockchain. We recommend you read at least
-the first few subsections under "Blockchain attacks on privacy."
+Typical privacy leaks on the blockchain
 
-The takeaway is that privacy in Bitcoin isn't perfect. It requires a
-significant amount of work to transact privately. Most people aren't
-prepared to go that far for privacy. There seems to be a clear
-trade-off between privacy and usability.
+Chris Belcher [wrote in great detail](https://en.bitcoin.it/Privacy#Blockchain_attacks_on_privacy) about the different kinds of privacy leaks that can happen on the Bitcoin blockchain. We recommend you read at least the first few subsections under "Blockchain attacks on privacy."
 
-Another important aspect of privacy is that the measures you take to protect your own privacy affect other
-users as well. If you are sloppy with your own privacy, other people might
-experience reduced privacy, too. Gregory Maxwell explains this very
-plainly on the same Bitcoin Talk discussion
-https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252[that
-we linked above], and concludes with an example:
+The takeaway is that privacy in Bitcoin isn't perfect. It requires a significant amount of work to transact privately. Most people aren't prepared to go that far for privacy. There seems to be a clear trade-off between privacy and usability.
 
-[quote, Gregory Maxwell, Bitcoin Talk forum (2013)]
-____
-This actually works in practice, too... A nice whitehat hacker on IRC
-was playing around with brainwallet cracking and hit a phrase with
-~250 BTC in it.  We were able to identify the owner from just the
-address alone, because they'd been paid by a Bitcoin service that
-reused addresses and he was able to talk them into giving up the users
-contact information. He actually got the user on the phone, they were
-shocked and confused— but grateful to not be out their coin.  A happy
-ending there. (This isn't the only example of it, by far ... but its
-one of the more fun ones).
-____
+Another important aspect of privacy is that the measures you take to protect your own privacy affect other users as well. If you are sloppy with your own privacy, other people might experience reduced privacy, too. Gregory Maxwell explains this very plainly on the same Bitcoin Talk discussion [that we linked above](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), and concludes with an example:
 
-In this case, it all went well thanks to the philanthropically-minded
-hacker, but don't count on that next time.
+> This actually works in practice, too... A nice whitehat hacker on IRC was playing around with brainwallet cracking and hit a phrase with ~250 BTC in it.  We were able to identify the owner from just the address alone, because they'd been paid by a Bitcoin service that reused addresses and he was able to talk them into giving up the users contact information. He actually got the user on the phone, they were shocked and confused— but grateful to not be out their coin.  A happy ending there. (This isn't the only example of it, by far ... but its one of the more fun ones).
 
-[[nonblockchainprivacy]]
+In this case, it all went well thanks to the philanthropically-minded hacker, but don't count on that next time.
+
 ### Non-blockchain privacy
 
+While the blockchain proves to be a notorious source of privacy leaks, there are plenty of other leaks that don't use the blockchain, some sneakier than others. These range from key-loggers to network traffic analysis. To read up on some of these methods, please refer again to [Chris Belcher's piece](https://en.bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), specifically the section "Non-blockchain attacks on privacy".
 
-While the blockchain proves to be a notorious source of privacy leaks,
-there are plenty of other leaks that don't use the blockchain, some
-sneakier than others. These range from key-loggers to network traffic
-analysis. To read up on some of these methods, please refer again to
-https://en.bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy[Chris
-Belcher's piece], specifically the section "Non-blockchain attacks on
-privacy".
+Among a plethora of attacks, Belcher mentions the possibility of someone snooping on your internet connection, for example, your ISP:
 
-Among a plethora of attacks, Belcher mentions the possibility of
-someone snooping on your internet connection, for example, your ISP:
+> If the adversary sees a transaction or block coming out of your node which did not previously enter, then it can know with near-certainty that the transaction was made by you or the block was mined by you. As internet connections are involved, the adversary will be able to link the IP address with the discovered bitcoin information.
 
-[quote, Chris Belcher, Bitcoin wiki]
-____
-If the adversary sees a transaction or block coming out of your node
-which did not previously enter, then it can know with near-certainty
-that the transaction was made by you or the block was mined by you. As
-internet connections are involved, the adversary will be able to link
-the IP address with the discovered bitcoin information.
-____
+However, among the most obvious privacy leaks are exchanges. Due to laws, usually referred to as KYC (Know Your Customer) and AML (Anti-Money Laundering), that are valid in the jurisdictions they operate in, exchanges and related companies often have to collect personal data about their users, building up big databases about which users own which bitcoins. These databases are great honeypots for evil governments and criminals who are always on the lookout for new victims. There are actual markets for this kind of data, where hackers
+sell data to the highest bidder. 
 
-//noqr
-[[kycdbs]]
-However, among the most obvious privacy leaks are exchanges. Due to
-laws, usually referred to as KYC (Know Your Customer) and AML
-(Anti-Money Laundering), that are valid in the jurisdictions they operate in,
-exchanges and related companies often have to collect personal data
-about their users, building up big databases about which users own
-which bitcoins. These databases are great honeypots for evil
-governments and criminals who are always on the lookout for new
-victims. There are actual markets for this kind of data, where hackers
-sell data to the highest bidder. To make things worse, the companies
-that manage these databases often have little experience with
-protecting financial data, in fact many of them are young start-ups, and we know for a fact that
-several leaks have already occurred. A few examples are
-https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-importance-of-bitcoin-privacy[India-based
-MobiQwik] and
-[HubSpot](https://bitcoinmagazine.com/business/hubspot-security-breach-leaks-bitcoin-users-data)
+To make things worse, the companies that manage these databases often have little experience with protecting financial data, in fact many of them are young start-ups, and we know for a fact that several leaks have already occurred. A few examples are
+[India-based MobiQwik](https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-importance-of-bitcoin-privacy) and [HubSpot](https://bitcoinmagazine.com/business/hubspot-security-breach-leaks-bitcoin-users-data).
 
-Again, protecting data against this wide range of attacks is hard, and it is likely that you
-won't be fully able to do so. You'll have to opt for the trade-off between
-convenience and privacy that works best for you.
+Again, protecting data against this wide range of attacks is hard, and it is likely that you won't be fully able to do so. You'll have to opt for the trade-off between convenience and privacy that works best for you.
 
-[[fungibility]]
 ### Fungibility
 
+Fungibility, in the context of currencies, means that one coin is interchangeable for any other coin of the same currency. This funny
+word was briefly touched upon earlier in the chapter. 
 
-Fungibility, in the context of currencies, means that one coin is
-interchangeable for any other coin of the same currency. This funny
-word was briefly touched upon in <<whyprivacyimportant>>. In the
-article discussed there, Gregory Maxwell [stated](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908)
+In the article discussed there, Gregory Maxwell [stated](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
 
-[quote, Gregory Maxwell, Bitcoin Talk forum (2013)]
-____
-Financial privacy is an essential element to fungibility in Bitcoin:
-if you can meaningfully distinguish one coin from another, then their
-fungibility is weak. If our fungibility is too weak in practice, then
-we cannot be decentralized: if someone important announces a list of
-stolen coins they won't accept coins derived from, you must carefully
-check coins you accept against that list and return the ones that
-fail.  Everyone gets stuck checking blacklists issued by various
-authorities because in that world we'd all not like to get stuck with
-bad coins. This adds friction and transactional costs and makes
-Bitcoin less valuable as a money.
-____
+> Financial privacy is an essential element to fungibility in Bitcoin: if you can meaningfully distinguish one coin from another, then their fungibility is weak. If our fungibility is too weak in practice, then we cannot be decentralized: if someone important announces a list of stolen coins they won't accept coins derived from, you must carefully check coins you accept against that list and return the ones that fail.  Everyone gets stuck checking blacklists issued by various authorities because in that world we'd all not like to get stuck with bad coins. This adds friction and transactional costs and makes Bitcoin less valuable as a money.
 
-Here, he speaks about the dangers derived from a lack of fungibility. Suppose that you
-have a UTXO. That UTXO's history can normally be traced back several
-hops, fanning out to multitudes of previous outputs. If any of those
-outputs were involved in any illegal, unwanted, or suspicious
-activity, then some potential recipients of your coin might
-reject it. If you think that your payees will verify your coins
-against some centralized whitelist or blacklist service, you might
-start checking the coins you receive too, just to be on the safe side. The result is that
-bad fungibility will bolster even worse fungibility.
+Here, he speaks about the dangers derived from a lack of fungibility. Suppose that you have a UTXO. That UTXO's history can normally be traced back several hops, fanning out to multitudes of previous outputs. If any of those outputs were involved in any illegal, unwanted, or suspicious activity, then some potential recipients of your coin might reject it. If you think that your payees will verify your coins against some centralized whitelist or blacklist service, you might start checking the coins you receive too, just to be on the safe side. The result is that bad fungibility will bolster even worse fungibility.
 
-Adam Back and Matt Corallo
-https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/[gave
-a presentation about fungibility] at Scaling Bitcoin in Milan in
-2016. They were thinking along the same lines:
+Adam Back and Matt Corallo [gave a presentation about fungibility](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) at Scaling Bitcoin in Milan in 2016. They were thinking along the same lines:
 
-[quote, Matt Corallo and Adam Back, Fungibility Overview (2016)]
-____
-You need fungibility for bitcoin to function. If you receive coins and
-can’t spend them, then you start to doubt whether you can spend
-them. If there are doubts about coins you receive, then people are
-going to go to taint services and check whether “are these coins
-blessed” and then people are going to refuse to trade. What this does
-is it transitions bitcoin from a decentralized permissionless system
-into a centralized permissioned system where you have an “IOU” from
-the blacklist providers.
-____
+> You need fungibility for bitcoin to function. If you receive coins and can’t spend them, then you start to doubt whether you can spend them. If there are doubts about coins you receive, then people are going to go to taint services and check whether "are these coins blessed" and then people are going to refuse to trade. What this does is it transitions bitcoin from a decentralized permissionless system into a centralized permissioned system where you have an "IOU" from the blacklist providers.
 
-It seems that privacy and fungibility go hand-in-hand. Fungibility will
-weaken if privacy is weak, for example as coins from unwanted
-people may become blacklisted. In the same way, privacy will weaken if fungibility is
-weak: if there is a blacklist, you will have to ask the blacklist providers about which coins
-to accept, thereby possibly revealing your IP address, email address, and
-other sensitive information. These two features are so intertwined that it's hard to
-talk about either of them in isolation.
+It seems that privacy and fungibility go hand-in-hand. Fungibility will weaken if privacy is weak, for example as coins from unwanted people may become blacklisted. In the same way, privacy will weaken if fungibility is weak: if there is a blacklist, you will have to ask the blacklist providers about which coins to accept, thereby possibly revealing your IP address, email address, and other sensitive information. These two features are so intertwined that it's hard to talk about either of them in isolation.
 
-[[privacymeasures]]
 ### Privacy measures
 
 
-Several techniques have been developed to help people protecting themselves from privacy
-leaks. Among the most obvious ones is, as
-noted by Nakamoto in <<blockchainprivacy>>, using unique
-addresses for every transaction, but several others exist. We're not
-going to teach you how to become a privacy ninja. However, Bitcoin Q+A has
-a https://bitcoiner.guide/privacytips/[quick summary of
-privacy-enhancing technologies], somewhat ordered by
-how hard they are to implement.
-When you read it, you'll notice
-that Bitcoin privacy often has to do with stuff outside of Bitcoin.
-For example, you shouldn't brag about your bitcoins, and you should use Tor and VPN. The
-post also lists some measures directly related to Bitcoin:
+Several techniques have been developed to help people protecting themselves from privacy leaks. Among the most obvious ones is, as noted by Nakamoto earlier, using unique
+addresses for every transaction, but several others exist. We're not going to teach you how to become a privacy ninja. However, Bitcoin Q+A has a [quick summary of privacy-enhancing technologies](https://bitcoiner.guide/privacytips/), somewhat ordered by how hard they are to implement. When you read it, you'll notice that Bitcoin privacy often has to do with stuff outside of Bitcoin. For example, you shouldn't brag about your bitcoins, and you should use Tor and VPN. 
 
-Full node:: If you don't use your own full node, you will leak lots of
-information about your wallet to servers on the internet. Running a
-full node is a great first step.
+The post also lists some measures directly related to Bitcoin:
+- Full node: If you don't use your own full node, you will leak lots of information about your wallet to servers on the internet. Running a full node is a great first step.
+- Lightning Network: Several protocols exist on top of Bitcoin, for example the Lightning Network and Blockstream's Liquid sidechain.
+- CoinJoin: A way for multiple people to merge their transactions into one, making it harder to do chain analysis.
 
-Lightning Network:: Several protocols exist on top of Bitcoin, for
-example the Lightning Network and Blockstream's Liquid sidechain.
+In [a talk](https://btctranscripts.com/breaking-bitcoin/2019/breaking-bitcoin-privacy/) at the Breaking Bitcoin conference, Chris Belcher gave an interesting practical example of how privacy has been improved:
 
-CoinJoin:: A way for multiple people to merge their transactions into
-one, making it harder to do chain analysis.
-
-In
-https://btctranscripts.com/breaking-bitcoin/2019/breaking-bitcoin-privacy/[a
-talk] at the Breaking Bitcoin conference, Chris Belcher gave an
-interesting practical example of how privacy has been improved.
-
-[quote,Chris Belcher in "Breaking Bitcoin Privacy", Breaking Bitcoin conference (2019)]
-____
-They were a bitcoin casino. Online gambling is not allowed in
-the US. Any customers of Coinbase that deposited straight to Bustabit
-would have their accounts shutdown because Coinbase was monitoring for
-this. Bustabit did a few things. They did something called change
-avoidance where you go through– and you see if you can construct a
-transaction that has no change output. This saves miner fees and also
-hinders analysis. Also, they imported their heavily-used reused
-deposit addresses into joinmarket. At this point, coinbase.com
-customers never got banned. It seems Coinbase’s surveillance service
-was unable to do the analysis after this, so it is possible to break
-these algorithms.
+> They were a bitcoin casino. Online gambling is not allowed in the US. Any customers of Coinbase that deposited straight to Bustabit would have their accounts shutdown because Coinbase was monitoring for this. Bustabit did a few things. They did something called change avoidance where you go through– and you see if you can construct a transaction that has no change output. This saves miner fees and also hinders analysis. 
+> 
+> Also, they imported their heavily-used reused deposit addresses into joinmarket. At this point, coinbase.com customers never got banned. It seems Coinbase’s surveillance service was unable to do the analysis after this, so it is possible to break these algorithms.
 ____
 
-He also mentioned this example, among others, on the
-[Privacy page](https://en.bitcoin.it/Privacy) on the Bitcoin wiki.
+He also mentioned this example, among others, on the [Privacy page](https://en.bitcoin.it/Privacy) on the Bitcoin wiki.
 
-Note how better privacy can be achieved by building systems on top of
-Bitcoin, as is the case with Lightning Network:
+Note how better privacy can be achieved by building systems on top of Bitcoin, as is the case with Lightning Network:
 
-.Layers on top of Bitcoin can add privacy.
-![width=50%](assets/privacy.png)
+![image](assets/privacy.png)
 
-We noted in <<trustlessness>> that the need for trust
-can only increase with layers on top, but that doesn't seem to be the
-case for privacy, which can be improved or made worse arbitrarily in
-layers on top. Why is that? Any layer on top of Bitcoin, as explained
-in <<layeredscaling>>, must use on-chain
-transactions occasionally, otherwise it wouldn't be "on top of
-Bitcoin". Privacy-enhancing layers generally try to use the base layer
-as little as possible to minimize the amount of information revealed.
+Layers on top of Bitcoin can add privacy
 
-The above are somewhat technical ways to improve your privacy. But
-there are other ways. At the beginning of this chapter, we said that
-Bitcoin is a pseudonymous system. This means that users in Bitcoin
-aren't known by their real names or other personal data, but by their
-public keys. A public key is a pseudonym for a user, and a user can
-have multiple pseudonyms. In an ideal world, your in-person identity
-is decoupled from your Bitcoin pseudonyms. Unfortunately, due to the
-privacy problems described in this chapter, this decoupling usually
-degrades over time.
+We noted in the last chaper that the need for trust can only increase with layers on top, but that doesn't seem to be the case for privacy, which can be improved or made worse arbitrarily in layers on top. Why is that? Any layer on top of Bitcoin, as explained in the Layered Scaling paragraph in future chapter Scaling, must use on-chain transactions occasionally, otherwise it wouldn't be "on top of Bitcoin". Privacy-enhancing layers generally try to use the base layer as little as possible to minimize the amount of information revealed.
 
-To mitigate the risks of having your personal data revealed is to not
-give it out in the first place nor to give it to centralized services,
-which build big databases that can leak (see <<nonblockchainprivacy>>). An article by
-Bitcoin Q+A [explains KYC](https://bitcoiner.guide/nokyconly/) and the
-dangers derived from it. It also suggests some steps you can take to improve
-your situation.
+The above are somewhat technical ways to improve your privacy. But there are other ways. At the beginning of this chapter, we said that Bitcoin is a pseudonymous system. This means that users in Bitcoin aren't known by their real names or other personal data, but by their public keys. A public key is a pseudonym for a user, and a user can have multiple pseudonyms. In an ideal world, your in-person identity is decoupled from your Bitcoin pseudonyms. Unfortunately, due to the privacy problems described in this chapter, this decoupling usually degrades over time.
 
-[quote,"Bitcoin Q+A, noKYC only, Avoid the creep", bitcoiner.guide]
-____
-Thankfully there are some options out there to purchase Bitcoin via no
-KYC sources. These are all P2P (peer to peer) exchanges where you are
-trading directly with another individual and not a centralised third
-party. Unfortunately some sell other coins as well as bitcoin so we
-urge you to take care.
-____
+To mitigate the risks of having your personal data revealed is to not give it out in the first place nor to give it to centralized services, which build big databases that can leak. An article by Bitcoin Q+A [explains KYC](https://bitcoiner.guide/nokyconly/) and the dangers derived from it. It also suggests some steps you can take to improve your situation:
 
-//noqr
-The article suggests you avoid using exchanges that require KYC/AML
-and instead trade in private, or use decentralized exchanges like
-[bisq](https://bisq.network/).
+> Thankfully there are some options out there to purchase Bitcoin via no KYC sources. These are all P2P (peer to peer) exchanges where you are trading directly with another individual and not a centralised third party. Unfortunately some sell other coins as well as bitcoin so we urge you to take care.
 
-For more in-depth reading about countermeasures, refer to the
-previously mentioned [wiki article on privacy](https://en.bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-blockchain.29), starting at "Methods for improving privacy (non-blockchain)".
+The article suggests you avoid using exchanges that require KYC/AML and instead trade in private, or use decentralized exchanges like [bisq](https://bisq.network/).
 
-### Conclusion
+https://planb.network/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
+For more in-depth reading about countermeasures, refer to the previously mentioned [wiki article on privacy](https://en.bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-blockchain.29), starting at "Methods for improving privacy (non-blockchain)".
+
+### Conclusion about Privacy
 
 
-Privacy is very important but hard to achieve. There is no privacy
-silver bullet. To get decent privacy in Bitcoin, you have to take
-active measures, some of which are costly and time-consuming.
+Privacy is very important but hard to achieve. There is no privacy silver bullet. 
+
+To get decent privacy in Bitcoin, you have to take active measures, some of which are costly and time-consuming.
 
 ## Finite supply
 
 
 ![](assets/finitesupply-banner.jpg)
 
-This chapter looks into the bitcoin supply limit of 21 million BTC, or
-how much is it actually? We talk about how this limit is enforced
-and what one can do to verify that it's being respected. Moreover, we
-take a peek into the crystal ball and discuss the dynamics
-that will come into play when the block reward shifts from
-subsidy-based to fee-based.
+This chapter looks into the bitcoin supply limit of 21 million BTC, or how much is it actually? We talk about how this limit is enforced and what one can do to verify that it's being respected. Moreover, we take a peek into the crystal ball and discuss the dynamics that will come into play when the block reward shifts from subsidy-based to fee-based.
 
-The well-known finite supply of 21 million BTC is regarded as a
-fundamental property of Bitcoin. But is it really set in stone?
+The well-known finite supply of 21 million BTC is regarded as a fundamental property of Bitcoin. But is it really set in stone?
 
-Let's start by looking at what the current consensus rules say about
-the supply of bitcoin, and how much of it will actually be
-usable. Pieter Wuille wrote a piece about this
-[on Stack Exchange](https://bitcoin.stackexchange.com/a/38998/69518),
-in which he counted how many bitcoins there would be once all coins are
-mined:
+Let's start by looking at what the current consensus rules say about the supply of bitcoin, and how much of it will actually be usable. Pieter Wuille wrote a piece about this [on Stack Exchange](https://bitcoin.stackexchange.com/a/38998/69518), in which he counted how many bitcoins there would be once all coins are mined:
 
-[quote, Pieter Wuille, Stack Exchange (2015)]
-____
-If you sum all these numbers together, you get *20999999.9769* BTC.
-____
+> If you sum all these numbers together, you get 20999999.9769 BTC.
 
-But due to a number of reasons -- such as early problems with coinbase
-transactions, miners who unintentionally claim less than allowed, and
-loss of private keys -- that upper limit will never be reached. Wuille
-concludes:
+But due to a number of reasons -- such as early problems with coinbase transactions, miners who unintentionally claim less than allowed, and loss of private keys -- that upper limit will never be reached. Wuille concludes:
 
-[quote, Pieter Wuille, Stack Exchange (2015)]
-____
-This leaves us with *20999817.31308491* BTC (taking everything up to
-block 528333 into account)
+> This leaves us with 20999817.31308491 BTC (taking everything up to block 528333 into account)
 
-//noqr
-\... However, various wallets have been lost or stolen, transactions
-have been sent to the wrong address, people forgot they owned
-bitcoin. The totals of this may well be millions. People have tried to
-tally known losses up
-[here](https://bitcointalk.org/index.php?topic=7253.0).
+However, various wallets have been lost or stolen, transactions have been sent to the wrong address, people forgot they owned bitcoin. The totals of this may well be millions. People have tried to tally known losses up [here](https://bitcointalk.org/index.php?topic=7253.0).
 
-This leaves us with: *???* BTC.
-____
+This leaves us with: ??? BTC.
 
-We can thus be sure that the bitcoin supply will be
-20999817.31308491 BTC at most. Any lost or unverifiably burnt coins will make
-this number lower, but we don't know by how much. The interesting
-thing is that it doesn't really matter, or better yet it does matter in a
-positive way for bitcoin holders,
-https://bitcointalk.org/index.php?topic=198.msg1647#msg1647[as
-explained] by Satoshi Nakamoto:
+We can thus be sure that the bitcoin supply will be 20999817.31308491 BTC at most. Any lost or unverifiably burnt coins will make this number lower, but we don't know by how much. The interesting thing is that it doesn't really matter, or better yet it does matter in a positive way for bitcoin holders,
+[as explained](https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) by Satoshi Nakamoto:
 
-[quote,Satoshi Nakamoto on lost bitcoins, Bitcointalk forum (2010)]
-____
-Lost coins only make everyone else's coins worth slightly more.  Think
+> Lost coins only make everyone else's coins worth slightly more.  Think
 of it as a donation to everyone.
-____
 
-The finite supply will shrink and this should, at least in theory,
-cause price deflation.
+The finite supply will shrink and this should, at least in theory, cause price deflation.
 
-More important than the exact number of coins in circulation is
-the way the supply limit is enforced without any central
-authority. Alias chytrik puts it well on
-[Stack Exchange](https://bitcoin.stackexchange.com/a/106830/69518).
+More important than the exact number of coins in circulation is the way the supply limit is enforced without any central authority. Alias chytrik puts it well on [Stack Exchange](https://bitcoin.stackexchange.com/a/106830/69518):
 
-[quote, chytrik, Stack Exchange (2021)]
-____
-So the answer is that you don't have to trust someone to not increase
-the supply. You just have to run some code that will verify that they
-haven't.
-____
+> So the answer is that you don't have to trust someone to not increase the supply. You just have to run some code that will verify that they haven't.
 
-Even if some full nodes turn to the dark side and decide to
-accept blocks with higher-value coinbase transactions, all the remaining full
-nodes will simply neglect them and continue doing business as usual. Some full nodes
-may, intentionally or unintentionally (see
-<<combined-output-overflow>>), run evil
-softwares, yet the collective will robustly secure the blockchain.
-In conclusion, you can choose to trust the system without having to
-trust anyone.
+Even if some full nodes turn to the dark side and decide to accept blocks with higher-value coinbase transactions, all the remaining full nodes will simply neglect them and continue doing business as usual. Some full nodes may, intentionally or unintentionally, run evil softwares, yet the collective will robustly secure the blockchain. In conclusion, you can choose to trust the system without having to trust anyone.
 
 ### Block subsidy and transaction fees
 
 
-A block reward is composed of the block subsidy plus transaction
-fees. The block reward needs to cover Bitcoin's security costs. We can
-say for sure that under today's conditions with regard to block subsidy, transaction fees,
-bitcoin price, mempool size, hash power, degree of decentralization
-etc., the incentives for every player to play by the rules are high enough to preserve a
-secure monetary system.
+A block reward is composed of the block subsidy plus transaction fees. The block reward needs to cover Bitcoin's security costs. We can say for sure that under today's conditions with regard to block subsidy, transaction fees, bitcoin price, mempool size, hash power, degree of decentralization etc., the incentives for every player to play by the rules are high enough to preserve a secure monetary system.
 
-What happens when the block subsidy approaches zero? To keep things simple, let's
-assume it actually equals zero. At this point, the system's security cost
-is covered through transaction fees only. What the future holds
-for us when this happens, we cannot know. The uncertainty factors are
-numerous and we are left to speculations. For example, Paul Sztorc's
-contribution to the subject
-https://www.truthcoin.info/blog/security-budget/[in his Truthcoin
-blog] is mostly speculations, but he has at least one solid point (please note that M2,
-as referred to by Sztorc, is a measurement of a fiat money supply):
+What happens when the block subsidy approaches zero? To keep things simple, let's assume it actually equals zero. At this point, the system's security cost is covered through transaction fees only. What the future holds for us when this happens, we cannot know. The uncertainty factors are numerous and we are left to speculations. For example, Paul Sztorc's contribution to the subject [in his Truthcoin blog](https://www.truthcoin.info/blog/security-budget/) is mostly speculations, but he has at least one solid point (please note that M2, as referred to by Sztorc, is a measurement of a fiat money supply):
 
-[quote, 'Paul Sztorc, Security Budget in the Long Run', Truthcoin blog (2019)]
-____
-While the two are mixed into the same “security budget”, the block
-subsidy and txn-fees are utterly and completely different. They are as
-different from each other, as “VISA’s total profits in 2017” are from
-the “total increase in M2 in 2017”.
-____
+> While the two are mixed into the same "security budget", the block subsidy and txn-fees are utterly and completely different. They are as different from each other, as "VISA’s total profits in 2017" are from the "total increase in M2 in 2017".
 
-Today, it is holders who pay for security (via monetary inflation). Tomorrow
-it will be the spenders`' turn to somehow shoulder this burden, as
-illustrated below.
+Today, it is holders who pay for security (via monetary inflation). Tomorrow it will be the spenders' turn to somehow shoulder this burden, as illustrated below.
 
-.As time goes by, the bearing of security costs will shift from holders to spenders.
-![width=60%](assets/finitesupply.png)
+![image](assets/finitesupply.png)
 
-When transaction fees are the main motivation for mining, the
-incentives shift. Most notably, if the mempool of a miner doesn't
-contain enough transaction fees, it might become more profitable for
-that miner to rewrite Bitcoin's history rather than
-extending it. Bitcoin Optech has a specific
-https://bitcoinops.org/en/topics/fee-sniping/[section on this
-behavior], called _fee sniping_, written by David Harding:
+As time goes by, the bearing of security costs will shift from holders to spenders
 
-//noqr
-[quote,"David Harding, fee sniping", Bitcoin Optech website]
-____
-Fee sniping is a problem that may occur as Bitcoin’s subsidy continues
-to diminish and transaction fees begin to dominate Bitcoin’s block
-rewards. If transaction fees are all that matter, then a miner with
-`x` percent of the hash rate has a `x` percent chance of mining the
-next block, so the expected value to them of honestly mining is `x`
-percent of the
-https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction[best
-feerate set of transactions] in their mempool.
+When transaction fees are the main motivation for mining, the incentives shift. Most notably, if the mempool of a miner doesn't contain enough transaction fees, it might become more profitable for that miner to rewrite Bitcoin's history rather than extending it. Bitcoin Optech has a specific [section on this behavior](https://bitcoinops.org/en/topics/fee-sniping/), called *fee sniping*, written by David Harding:
 
-Alternatively, a miner could dishonestly attempt to re-mine the
-previous block plus a wholly new block to extend the chain. This
-behavior is referred to as fee sniping, and the dishonest miner’s
-chance of succeeding at it if every other miner is honest is
-`(x/(1-x))^2`. Even though fee sniping has an overall lower probability
-of success than honest mining, attempting dishonest mining could be
-the more profitable choice if transactions in the previous block paid
-significantly higher feerates than the transactions currently in the
-mempool—a small chance at a large amount can be worth more than a
-large chance at a small amount.
-____
+> Fee sniping is a problem that may occur as Bitcoin’s subsidy continues to diminish and transaction fees begin to dominate Bitcoin’s block rewards. If transaction fees are all that matter, then a miner with `x` percent of the hash rate has a `x` percent chance of mining the next block, so the expected value to them of honestly mining is `x` percent of the [best feerate set of transactions](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) in their mempool.
+> 
+> Alternatively, a miner could dishonestly attempt to re-mine the previous block plus a wholly new block to extend the chain. This behavior is referred to as fee sniping, and the dishonest miner’s chance of succeeding at it if every other miner is honest is `(x/(1-x))^2`. Even though fee sniping has an overall lower probability of success than honest mining, attempting dishonest mining could be the more profitable choice if transactions in the previous block paid significantly higher feerates than the transactions currently in the mempool—a small chance at a large amount can be worth more than a large chance at a small amount.
 
-Throwing a wet blanket over our hopes for the future is the fact that if miners start
-conducting fee sniping, this will incentivize others to do the same,
-leaving even fewer honest miners. This could severely impair the
-overall security of Bitcoin. Harding goes on to list a few
-countermeasures that can be taken, such as relying on transaction
-time locks to restrict where in the blockchain the transaction may
-appear.
+Throwing a wet blanket over our hopes for the future is the fact that if miners start conducting fee sniping, this will incentivize others to do the same, leaving even fewer honest miners. This could severely impair the overall security of Bitcoin. Harding goes on to list a few countermeasures that can be taken, such as relying on transaction time locks to restrict where in the blockchain the transaction may appear.
 
-So, given that the consensus on finite supply remains, the block
-subsidy will - thanks to
-[BIP42](https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki)
-which fixed a very-long-term inflation bug - get to zero around year
-2140. Will the transaction fees thereafter be enough to secure the
-network? It's impossible to say, but we do know a few things:
+So, given that the consensus on finite supply remains, the block subsidy will - thanks to [BIP42](https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki) which fixed a very-long-term inflation bug - get to zero around year 2140. Will the transaction fees thereafter be enough to secure the network? 
 
-* A century is a _long_ time from the Bitcoin perspective. If it is
-  still around, it will have probably evolved enormously.
-* If an overwhelming economic majority finds it necessary to change
-  the rules and introduce for example a perpetual annual 0.1% or 1%
-  monetary inflation, the supply of bitcoin will no longer be finite.
-* With zero block subsidy and an empty or nearly empty mempool, things
-  can become shaky due to fee sniping.
+It's impossible to say, but we do know a few things:
+- A century is a _long_ time from the Bitcoin perspective. If it is still around, it will have probably evolved enormously.
+- If an overwhelming economic majority finds it necessary to change the rules and introduce for example a perpetual annual 0.1% or 1% monetary inflation, the supply of bitcoin will no longer be finite.
+- With zero block subsidy and an empty or nearly empty mempool, things can become shaky due to fee sniping.
 
-Since the transition to a fee-only block reward is so far in the future, it
-might be wise not to jump to conclusions and try to fix the potential
-issues while we can. For example, Peter Todd thinks there's an actual risk that Bitcoin's
-security budget won't be enough in the future, and consequently argues for a small
-perpetual inflation in Bitcoin. However, he also thinks it's not a
-good idea to discuss such an issue at this time, as
-https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-bitcoin[he said on the What
-Bitcoin Did podcast]:
+Since the transition to a fee-only block reward is so far in the future, it might be wise not to jump to conclusions and try to fix the potential issues while we can. For example, Peter Todd thinks there's an actual risk that Bitcoin's security budget won't be enough in the future, and consequently argues for a small perpetual inflation in Bitcoin. However, he also thinks it's not a good idea to discuss such an issue at this time, as [he said on the What Bitcoin Did podcast](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-bitcoin):
 
-[quote,Peter Todd on security budget, What Bitcoin Did podcast (2019)]
-____
-But, that’s a risk like 10, 20 years in the future. That is a very
-long time. And, by then, who the hell knows what the risks are?
-____
+> But, that’s a risk like 10, 20 years in the future. That is a very long time. And, by then, who the hell knows what the risks are?
 
-Perhaps we could think of Bitcoin as something organic. Imagine a
-small, slowly-growing oak plant. Imagine also that you have never seen a fully
-grown tree in your life. Wouldn't it be wise then to restrain your
-control issues instead of setting in advance all the rules on how this plant
-should be allowed to evolve and grow?
+Perhaps we could think of Bitcoin as something organic. Imagine a small, slowly-growing oak plant. Imagine also that you have never seen a fully grown tree in your life. Wouldn't it be wise then to restrain your control issues instead of setting in advance all the rules on how this plant should be allowed to evolve and grow?
 
-### Conclusion
+### Conclusion about Finite Supply
 
 
-Whether the bitcoin supply will grow past 21 million we cannot say
-today, and that is probably not so bad. Ensuring that the security
-budget remains high enough is crucial but not urgent. Let's have this
-discussion in 10-50 years, when we know more. If it's still relevant.
+Whether the bitcoin supply will grow past 21 million we cannot say today, and that is probably not so bad. Ensuring that the security budget remains high enough is crucial but not urgent. Let's have this discussion in 10-50 years, when we know more. If it's still relevant.
 
 # Bitcoin Gouvernance 
+
 ## Upgrading
 
 
 ![](assets/upgrading-banner.jpg)
 
-Upgrading Bitcoin in a safe way can be extremely difficult. Some
-changes take several years to roll out. In this chapter, we learn
-about the common vocabulary around upgrading Bitcoin, and explore some
-examples of historic upgrades to its protocol as well as the insights that we gained
-from them. Finally, we talk about chain splits and the risks and costs 
-related to them.
+Upgrading Bitcoin in a safe way can be extremely difficult. Some changes take several years to roll out. In this chapter, we learn about the common vocabulary around upgrading Bitcoin, and explore some examples of historic upgrades to its protocol as well as the insights that we gained from them. Finally, we talk about chain splits and the risks and costs  related to them.
 
-To get in tune for this chapter, you should read
-https://bitcointalk.org/dec/p1.html[David Harding's piece on harmony
-and discord].
+To get in tune for this chapter, you should read [David Harding's piece on harmony and discord](https://bitcointalk.org/dec/p1.html):
 
-[quote, David Harding, Harmony and Discord]
-____
-Bitcoin experts talk often of consensus, whose meaning is abstract and
-hard to pin down. But the word consensus evolved from the Latin word
-concentus, "a singing together,
-harmony,"[1] so let us talk
-not of Bitcoin consensus but of Bitcoin harmony.
+> Bitcoin experts talk often of consensus, whose meaning is abstract and hard to pin down. But the word consensus evolved from the Latin word concentus, "a singing together harmony" so let us talk not of Bitcoin consensus but of Bitcoin harmony.
+> 
+> Harmony is what makes Bitcoin work. Thousands of full nodes each work independently to verify the transactions they receive are valid, producing a harmonious agreement about the state of the Bitcoin ledger without any node operator needing to trust anyone else. It's similar to a chorus where each member sings the same song at the same time to produce something far more beautiful than any of them could produce alone.
+> 
+> The result of Bitcoin harmony is a system where bitcoins are safe not just from petty thieves (provided you keep your keys secure) but also from endless inflation, mass or targeted confiscation, or simply the bureaucratic morass that is the legacy financial system.
 
-Harmony is what makes Bitcoin work. Thousands of full nodes each work
-independently to verify the transactions they receive are valid,
-producing a harmonious agreement about the state of the Bitcoin ledger
-without any node operator needing to trust anyone else. It's similar
-to a chorus where each member sings the same song at the same time to
-produce something far more beautiful than any of them could produce
-alone.
-
-The result of Bitcoin harmony is a system where bitcoins are safe not
-just from petty thieves (provided you keep your keys secure) but also
-from endless inflation, mass or targeted confiscation, or simply the
-bureaucratic morass that is the legacy financial system.
-____
-
-This chapter discusses how Bitcoin can be upgraded without causing
-discord. Staying in harmony, i.e. maintaining consensus, is indeed one of the biggest
-challenges in Bitcoin development. There are lots of nuances to
-upgrade mechanisms, which might be best understood by studying actual cases of
-previous upgrades. For this reason, the chapter puts much focus on historic examples, and
-it starts by setting the stage with some useful vocabulary.
+This chapter discusses how Bitcoin can be upgraded without causing discord. Staying in harmony, i.e. maintaining consensus, is indeed one of the biggest challenges in Bitcoin development. There are lots of nuances to upgrade mechanisms, which might be best understood by studying actual cases of previous upgrades. For this reason, the chapter puts much focus on historic examples, and it starts by setting the stage with some useful vocabulary.
 
 ### Vocabulary
 
 
-According to Wikipedia,
-https://en.wikipedia.org/wiki/Forward_compatibility[_forward
-compatibility_]
-refers to the condition in which an old software can process data
-created by newer softwares, ignoring the parts it doesn't understand.
+According to Wikipedia, [forward compatibility](https://en.wikipedia.org/wiki/Forward_compatibility) refers to the condition in which an old software can process data created by newer softwares, ignoring the parts it doesn't understand: 
 
-[quote, Forward compatibility, Wikipedia]
-____
-A standard supports forward compatibility if a product that complies
-with earlier versions can "gracefully" process input designed for
-later versions of the standard, ignoring new parts which it does not
-understand.
-____
+A standard supports forward compatibility if a product that complies with earlier versions can "gracefully" process input designed for later versions of the standard, ignoring new parts which it does not understand.
 
-Vice versa,
-https://en.wikipedia.org/wiki/Backward_compatibility[_backward
-compatibility_] refers to when data from an old software is usable
-on newer
-softwares. A change is said to be fully compatible if it's both forward
-and backward compatible.
+Vice versa, [backward compatibility](https://en.wikipedia.org/wiki/Backward_compatibility) refers to when data from an old software is usable on newer softwares. A change is said to be fully compatible if it's both forward and backward compatible.
 
-A change to the Bitcoin consensus rules is said to be a *soft fork* if
-it is fully compatible. This is the most common way to upgrade
-Bitcoin, for a number of reasons that we'll discuss further in this
-chapter. If a change to the Bitcoin consensus rules is backward
-compatible but not forward compatible, it is called a *hard fork*.
+A change to the Bitcoin consensus rules is said to be a *soft fork* if it is fully compatible. This is the most common way to upgrade Bitcoin, for a number of reasons that we'll discuss further in this chapter. If a change to the Bitcoin consensus rules is backward compatible but not forward compatible, it is called a *hard fork*.
 
-For a technical overview of soft forks and hard forks, please read
-https://rosenbaum.se/book/grokking-bitcoin-11.html[chapter 11 of
-Grokking Bitcoin]. It explains these terms and also dives into the
-upgrade mechanisms. It's recommended, although not strictly
-necessary, to get a grip on this before you continue reading.
+For a technical overview of soft forks and hard forks, please read [chapter 11 of Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). It explains these terms and also dives into the upgrade mechanisms. It's recommended, although not strictly necessary, to get a grip on this before you continue reading.
 
-[[historic-upgrades]]
 ### Historic upgrades
 
 
-Bitcoin is not the same today as it was when the genesis block was
-created. Several upgrades have been made throughout the years. In 2017, Eric
-Lombrozo
-https://btctranscripts.com/breaking-bitcoin/2017/changing-consensus-rules-without-breaking-bitcoin/[spoke
-at the Breaking Bitcoin conference]
-about Bitcoin's different upgrading mechanisms, pointing out how much they
-have evolved over time. He even explained how Satoshi Nakamoto
-once upgraded Bitcoin through a hard fork.
+Bitcoin is not the same today as it was when the genesis block was created. Several upgrades have been made throughout the years. In 2018, Eric Lombrozo [spoke at the Breaking Bitcoin conference](https://btctranscripts.com/breaking-bitcoin/2017/changing-consensus-rules-without-breaking-bitcoin/) about Bitcoin's different upgrading mechanisms, pointing out how much they have evolved over time. He even explained how Satoshi Nakamoto once upgraded Bitcoin through a hard fork:
 
-//noqr
-[quote, Eric Lombrozo, Changing Consensus Rules Without Breaking Bitcoin at Breaking Bitcoin conference (2017)]
-____
-There was actually a hard-fork in bitcoin that Satoshi did that we
-would never do it this way- it’s a pretty bad way to do it. If you
-look at the git commit description here
-[[757f076](https://github.com/bitcoin/bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)],
-he says something about reverted makefile.unix wx-config version
-0.3.6. Right. That’s all it says. It has no indication that it has a
-breaking change at all. He was basically hiding it in there. He also
-https://bitcointalk.org/index.php?topic=626.msg6451#msg6451[posted to
-bitcointalk] and said, please upgrade to 0.3.6 ASAP. We fixed an
-implementation bug where it is possible that bogus transactions can be
-displayed as accepted. Do not accept bitcoin payments until you
-upgrade to 0.3.6. If you can’t upgrade right away, then it would be
-best to shutdown your bitcoin node until you do. And then on top of
-that, I don’t know why he decided to do this as well, he decided to
-add some optimizations in the same code. Fix a bug and add some
-optimizations.
-____
+> There was actually a hard-fork in bitcoin that Satoshi did that we would never do it this way- it’s a pretty bad way to do it. If you look at the git commit description here [[757f076](https://github.com/bitcoin/bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], he says something about reverted makefile.unix wx-config version 0.3.6. Right. That’s all it says. It has no indication that it has a breaking change at all. He was basically hiding it in there. He also https://bitcointalk.org/index.php?topic=626.msg6451#msg6451[posted to bitcointalk] and said, please upgrade to 0.3.6 ASAP. We fixed an implementation bug where it is possible that bogus transactions can be displayed as accepted. Do not accept bitcoin payments until you upgrade to 0.3.6. If you can’t upgrade right away, then it would be best to shutdown your bitcoin node until you do. And then on top of that, I don’t know why he decided to do this as well, he decided to add some optimizations in the same code. Fix a bug and add some optimizations.
 
-He points out that, be it intentionally or not, this hard fork created
-opportunities for future soft forks, namely the Script operators
-(opcodes) OP_NOP1-OP_NOP10. We'll look more into this
-code change in <<cve-2010-5141>>. These opcodes have
-been used for two soft
-forks so far:
-[BIP65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki)
-(OP_CHECKLOCKTIMEVERIFY), and
-[BIP113](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki)
-(OP_SEQUENCEVERIFY).
+He points out that, be it intentionally or not, this hard fork created opportunities for future soft forks, namely the Script operators (opcodes) OP_NOP1-OP_NOP10. We'll look more into this code change in cve-2010-5141. These opcodes have been used for two soft forks so far:
+- [BIP65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
+- [BIP113](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
-Lombrozo also provides an overview of the way upgrade mechanisms have evolved
-throughout the years, up until 2017. Since then, only one other
-major upgrade, Taproot (analyzed in <<taproot-deployment>>),
+Lombrozo also provides an overview of the way upgrade mechanisms have evolved throughout the years, up until 2017. Since then, only one other major upgrade, Taproot (analyzed in <<taproot-deployment>>),
 has been deployed. The long and somewhat chaotic process that led to its activation has helped us gain further insights on upgrading mechanisms in Bitcoin.
 
 [[segwit-upgrade]]

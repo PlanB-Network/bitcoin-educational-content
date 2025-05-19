@@ -2534,8 +2534,7 @@ CoinJoin फिलहाल चेन एनालिसिस में पा�
 
 PayJoin एक खास Bitcoin लेन-देन संरचना है जो भुगतान प्राप्तकर्ता के साथ मिलकर काम करके उपयोगकर्ता की गोपनीयता को बढ़ाती है, खासकर खर्च करते समय।
 
-लॉरेंट एमटी ने पहली बार 2015 में इस तरीके को "*स्टेगनोग्राफ़िक ट्रांजैक्शन्स*" कहा था, यह जानकारी [यहाँ](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) उपलब्ध एक दस्तावेज़ के मुताबिक है। बाद में सामुराई Wallet ने इस तकनीक को अपनाया, और 2018 में स्टोअवे टूल के साथ इसे लागू करने वाला पहला ग्राहक बना। PayJoin की अवधारणा [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki) और [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078.mediawiki) में भी मिल सकती है। PayJoin को दर्शाने के लिए कई शब्दों का इस्तेमाल किया जाता है:
-
+2015 में, LaurentMT ने पहली बार इस विधि को "*steganographic transactions*" के रूप में वर्णित किया था, जैसा कि [यहाँ](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) उपलब्ध दस्तावेज़ में बताया गया है। बाद में इस तकनीक को Samourai Wallet ने अपनाया, जो 2018 में इसे Stowaway उपकरण के साथ लागू करने वाला पहला क्लाइंट बना। payjoin की अवधारणा [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) और [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/) में भी मिलती है। payjoin को संदर्भित करने के लिए कई शब्दों का उपयोग किया जाता है:
 
 - जीडब्ल्यू-936 ;
 - छिपकर सफर करने वाला;

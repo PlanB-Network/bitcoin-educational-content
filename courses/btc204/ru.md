@@ -2525,8 +2525,7 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 Payjoin - это особая структура транзакций Bitcoin, которая повышает конфиденциальность пользователя при совершении трат, сотрудничая с получателем платежа.
 
-ЛоранМТ впервые назвал этот метод "*стеганографическими транзакциями*" в 2015 году, согласно документу, доступному [здесь] (https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Впоследствии эта техника была принята на вооружение кошельком Samourai, который в 2018 году стал первым клиентом, реализовавшим ее с помощью инструмента Stowaway. Концепцию payjoin также можно найти в [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) и [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Для обозначения payjoin используется несколько терминов:
-
+В 2015 году LaurentMT впервые упомянул этот метод под названием "*steganographic transactions*", как указано в документе, доступном [здесь](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Позже эту технику принял кошелек Samourai Wallet, который в 2018 году первым внедрил её с помощью инструмента Stowaway. Концепция payjoin также представлена в [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) и [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Для обозначения payjoin используются различные термины:
 
 - Payjoin ;
 - Безбилетник;

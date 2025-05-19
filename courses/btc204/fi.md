@@ -2525,8 +2525,7 @@ Olisi kuitenkin mielenkiintoista, että transaktiorakenteet mahdollistaisivat ma
 
 Payjoin on erityinen Bitcoin-tapahtumarakenne, joka parantaa käyttäjän yksityisyyttä rahankäytön yhteydessä tekemällä yhteistyötä maksun vastaanottajan kanssa.
 
-LaurentMT viittasi tähän menetelmään ensimmäisen kerran nimellä "*steganografiset transaktiot*" vuonna 2015 [täällä] olevan asiakirjan mukaan (https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Sittemmin tekniikan otti käyttöön Samourai Wallet, josta tuli vuonna 2018 ensimmäinen asiakas, joka otti sen käyttöön Stowaway-työkalulla. Payjoinin käsite löytyy myös [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) ja [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Payjoinista käytetään useita termejä:
-
+Vuonna 2015 LaurentMT esitteli ensimmäisen kerran tämän menetelmän nimellä "*steganographic transactions*", kuten tässä [dokumentissa](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) näkyy. Tämän tekniikan otti myöhemmin käyttöön Samourai Wallet, joka vuonna 2018 oli ensimmäinen asiakas, joka toteutti sen Stowaway-työkalulla. Payjoin-käsite esiintyy myös [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) ja [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/) asiakirjoissa. Useita termejä käytetään viittaamaan payjoiniin:
 
 - Payjoin ;
 - Salamatkustaja;

@@ -2525,8 +2525,7 @@ Coinjoin 是目前在链分析中将不确定性引入零件追踪的最有效�
 
 payjoin 是一种特殊的比特币交易结构，它通过与收款人合作来增强用户消费时的隐私。
 
-根据一份可在[此处](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt)查阅的文件，LaurentMT 在 2015 年首次将这种方法称为 "*steganographic transactions*"。随后，Samourai 钱包采用了这一技术，并于 2018 年成为第一个使用 Stowaway 工具实施这一技术的客户。Payjoin 的概念也可在 [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) 和 [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) 中找到。Payjoin 有几个术语：
-
+2015年，LaurentMT首次提出这种方法，称其为“*steganographic transactions*”，详见[此处](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt)的文档。此技术随后被 Samourai Wallet 采用，并于2018年成为第一个使用 Stowaway 工具实现该功能的钱包客户端。payjoin 的概念也出现在 [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki)、[BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) 和 [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/) 中。多个术语被用于描述 payjoin：
 
 - Payjoin ；
 - 偷渡者

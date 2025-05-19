@@ -2525,8 +2525,7 @@ Tuttavia, sarebbe interessante disporre di strutture di transazione che permetta
 
 Il payjoin è una struttura di transazione Bitcoin specifica che migliora la privacy dell'utente quando spende collaborando con il destinatario del pagamento.
 
-LaurentMT si è riferito per la prima volta a questo metodo come "transazioni *steganografiche*" nel 2015, secondo un documento accessibile [qui](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). La tecnica è stata successivamente adottata da Samourai Wallet, che nel 2018 è stato il primo cliente a implementarla con lo strumento Stowaway. Il concetto di payjoin si trova anche in [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) e [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Per designare un payjoin vengono utilizzati diversi termini:
-
+Nel 2015 LaurentMT parlò per la prima volta di questo metodo con il nome di "*steganographic transactions*", secondo un documento disponibile [qui](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Questa tecnica fu successivamente adottata dal wallet Samourai, che nel 2018 fu il primo client a implementarla tramite lo strumento Stowaway. Il concetto di payjoin si ritrova anche nei [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) e [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Diversi termini vengono usati per designare un payjoin:
 
 - Payjoin ;
 - Viaggiatore clandestino;

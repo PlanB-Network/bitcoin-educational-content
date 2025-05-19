@@ -2525,8 +2525,7 @@ Coinjoinは現在、連鎖分析における部品のトレースに不確実性
 
 payjoinは特定のビットコイン取引構造であり、支払先と協力することで支出時のユーザーのプライバシーを強化する。
 
-ローランMTは2015年、アクセス可能な文書[こちら](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt)によると、この手法を「*ステガノグラフィック・トランザクション*」と初めて言及した。その後、この手法はSamourai Walletによって採用され、2018年にはStowawayツールでこれを実装した最初の顧客となった。payjoinの概念は、[BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki)と[BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki)にも記載されている。payjoinを指定するためにいくつかの用語が使用されています：
-
+2015年、LaurentMTはこの手法を初めて「*steganographic transactions*」と名付けて言及しました。その内容は[こちら](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt)の文書で確認できます。この技術はその後、Samourai Wallet によって採用され、2018年にStowawayツールを使って最初に実装したクライアントとなりました。payjoinの概念は [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki)、[BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki)、および [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/) にも見られます。payjoin を表すために使用される用語はいくつかあります：
 
 - Payjoin ；
 - 密航者；

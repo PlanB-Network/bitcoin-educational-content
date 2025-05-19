@@ -691,13 +691,13 @@ Impostiamo i nostri nodi in modo che richiedano la creazione di blocchi multisig
 
 Lo faremo usando alcuni nodi esistenti, salveremo i dati che producono e poi cancelleremo la catena in modo da poterla riavviare usando il nostro parametro signblockscript. Questo è necessario perché lo script fa parte delle regole di consenso della rete e deve essere impostato all'inizializzazione della catena. Non può essere aggiunto in un secondo momento a una catena già esistente.
 
-Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e la risorsa predefinita è stata divisa tra loro.
+Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e l'asset predefinito è stata diviso tra loro.
 
 Assicurarsi che il parametro con_max_block_sig_size sia impostato a un valore elevato nel file elements.conf, altrimenti la firma a blocchi fallirà più avanti in questa sezione. Per questa esercitazione abbiamo impostato con_max_block_sig_size=2000.
 
 Poiché resetteremo la blockchain e cancelleremo i wallet associati a e1 ed e2, dovremo fare una copia degli indirizzi, delle chiavi pubbliche e delle chiavi private utilizzate per generare lo script di firma dei blocchi, in modo da poterli utilizzare in seguito.
 
-Per prima cosa, è necessario che ciascuno di quelli che saranno i nodi di firma dei blocchi generi un nuovo indirizzo, di cui è necessario fare una copia.
+Per prima cosa, è necessario che ciascuno di quelli che saranno i nodi di firma dei blocchi generino un nuovo indirizzo, di cui è necessario fare una copia.
 
 ```
 e1-cli getnewaddress
@@ -721,7 +721,7 @@ e1-cli dumpprivkey <e1-address>
 e2-cli dumpprivkey <e2-address>
 ```
 
-Ora dobbiamo generare uno _script redeem_ con i requisiti di multi-firma 2 su 2. Lo facciamo utilizzando il comando createmultisig e passando il primo parametro come 2 e fornendo poi due chiavi pubbliche. Per farlo, si utilizza il comando createmultisig, passando il primo parametro a 2 e fornendo due chiavi pubbliche. Sono queste chiavi che la proprietà deve essere dimostrata in seguito, quando il blocco viene creato.
+Ora dobbiamo generare uno _script redeem_ con i requisiti di multi-firma 2 su 2. Per farlo, si utilizza il comando createmultisig, passando il primo parametro a 2 e fornendo due chiavi pubbliche. Sono queste chiavi che la proprietà deve essere dimostrata in seguito, quando il blocco viene creato.
 
 Entrambi i nodi, e1 o e2, possono generare il multisig.
 
@@ -731,7 +731,7 @@ e1-cli createmultisig 2 '["<e1-pubkey>", "<e2-pubkey>"]'
 
 In questo modo si ottiene il nostro script reedem, che può essere copiato per essere utilizzato in seguito.
 
-Ora dobbiamo cancellare i dati della blockchain e del wallet esistenti per poter ricominciare con il nuovo signblockscript come parte delle regole di consenso della catena. Per questo motivo è stato necessario fare una copia di alcuni dati, come le chiavi private che verranno utilizzate nella nuova catena per firmare i blocchi. È necessario farlo prima di procedere.
+Ora dobbiamo cancellare i dati della blockchain e del wallet esistenti per poter ricominciare con il nuovo signblockscript come parte delle regole di consenso della catena. Per questo motivo è stato necessario fare una copia di alcuni dati, come le chiavi private che verranno utilizzate nella nuova catena per firmare i blocchi, tutto ciò è stato necessario prepararlo prima di procedere.
 
 Con i dati del wallet e della catena esistenti cancellati, possiamo ora avviare i nostri nodi e far loro inizializzare una nuova catena usando il parametro signblockscript. Inseriamo -evbparams=dynafed:0::: per disabilitare l'attivazione di dynafed, perché in questo esempio non abbiamo bisogno di questa funzione avanzata.
 
@@ -775,7 +775,7 @@ Se proviamo a inviare il blocco hex senza prima firmarlo.
 e1-cli submitblock <block-hex>
 ```
 
-Riceviamo un messaggio che ci informa che la prova di blocco non è valida. Questo perché non è ancora stata firmata da due delle due parti richieste.
+Riceviamo un messaggio che ci informa che la prova di blocco non è valida. Questo perché non è ancora stata firmata da entrambe le parti richieste.
 
 Facciamo in modo che e1 firmi il blocco proposto.
 
@@ -789,7 +789,7 @@ Chiedere a e2 di firmare l'hex.
 e2-cli signblock <block-hex>
 ```
 
-Si noti che e2 non firma l'output creato da e1 che firma il blocco proposto. Entrambi firmano l'hex del blocco proposto indipendentemente dai risultati dell'altro.
+Si noti che e2 non firma l'output creato da e1 il quale firma il blocco proposto. Entrambi firmano l'hex del blocco proposto indipendentemente dai risultati dell'altro.
 
 Ora dobbiamo combinare le firme dei blocchi e1 ed e2. Entrambi i nodi possono farlo, tutto ciò di cui hanno bisogno è l'hex del blocco firmato dall'altro nodo.
 
@@ -813,7 +813,7 @@ e1-cli getblockcount
 e2-cli getblockcount
 ```
 
-Si può notare che sia e1 che e2 hanno accettato il blocco come valido e lo hanno aggiunto alla punta delle loro copie locali della blockchain.
+Si può notare che sia e1 che e2 hanno accettato il blocco come valido e lo hanno aggiunto alla fine delle loro copie locali della blockchain.
 
 Per riassumere il processo. In questa sezione abbiamo:
 
@@ -832,7 +832,7 @@ Sebbene il processo appaia inizialmente complesso, la sequenza di firma dei bloc
 
 1. Impostazione iniziale (eseguita una volta)
 
-2. Viene creato un indirizzo multi-firma chiamato `signblockscript` utilizzando le chiavi pubbliche dei firmatari di blocchi federati.
+2. Viene creato un indirizzo multi-firma chiamato `signblockscript` utilizzando le chiavi pubbliche dei Federated Block Signers.
 
 3. Lo script di _reedem_ (riscatto) viene utilizzato per avviare una nuova blockchain.
 

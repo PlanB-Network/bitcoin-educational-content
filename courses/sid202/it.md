@@ -661,7 +661,7 @@ Controllare il risultato della riemissione.
 e2-cli getwalletinfo
 ```
 
-Si può notare che e2 ora detiene l'importo riemesso nel suo wallet e che il RIT stesso non viene consumata nel processo di riemissione degli asset.
+Si può notare che e2 ora detiene l'importo riemesso nel suo wallet e che il RIT stesso non viene consumato nel processo di riemissione degli asset.
 
 Distruggere una quantità di un'asset è qualcosa che può fare chiunque detenga almeno la quantità che viene distrutta, non è gestito dal token di riemissione.
 

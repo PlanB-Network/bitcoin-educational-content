@@ -173,7 +173,7 @@ Bab tentang Bitcoin ini mempersiapkan kita agar dapat memahami beberapa konsep p
 
 <partId>900b5b6b-ccd0-5b2f-9424-4b191d0e935d</partId>
 
-## Membuka Saluran
+## Membuka Channel (Saluran)
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 :::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
@@ -181,7 +181,7 @@ Bab tentang Bitcoin ini mempersiapkan kita agar dapat memahami beberapa konsep p
 
 Dalam bab ini, kita akan membahas lebih rinci bagaimana cara membuka payment channel (saluran pembayaran) pada Lightning Network (Jaringan Lightning) dan memahami kaitannya dengan sistem Bitcoin yang mendasarinya.
 
-### Lightning Channels
+### Lightning Channel (Saluran Lightning)
 
 Seperti yang kita lihat di bab pertama, **payment channel (saluran pembayaran)** pada Lightning dapat digambarkan seperti "pipa" untuk bertukar dana antara dua pihak (**Alice** dan **Bob** dalam contoh kita). Kapasitas dari saluran ini sesuai dengan jumlah dana yang tersedia di setiap sisi. Dalam contoh kita, Alice memiliki **100.000 satoshi** dan Bob memiliki **30.000 satoshi**, memberikan **kapasitas total** sebesar **130.000 satoshi**.
 
@@ -198,7 +198,7 @@ Sangat penting untuk membedakan dengan jelas berbagai tingkatan pertukaran pada 
 ![LNP201](assets/en/10.webp)
 Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui protokol P2P tanpa membuka saluran, tetapi untuk bertukar dana, sebuah saluran diperlukan.
 
-### Langkah-langkah Membuka Saluran Lightning
+### Langkah-langkah Membuka Lightning Channel (Saluran Lightning)
 
 - **Pertukaran pesan**: Alice ingin membuka saluran dengan Bob. Alice mengirimi Bob pesan yang berisi jumlah yang ingin dia setorkan ke dalam saluran (130.000 sats) dan public key (kunci publik) miliknya. Bob merespons dengan membagikan public key (kunci publik) milik Bob.
 
@@ -315,7 +315,7 @@ Mari kita ambil contoh sederhana:
 
 Kapan saja, kedua belah pihak dapat mempublikasikan **transaksi komitmen terakhir** yang ditandatangani untuk menutup channel (saluran) dan memulihkan dana mereka.
 
-### Kekurangan: Kecurangan dengan Memublikasikan Transaksi Lama
+### Kekurangan: Kecurangan dengan Mempublikasikan Transaksi Lama
 
 Masalah dapat muncul jika salah satu pihak memutuskan untuk **berbuat curang** dengan mempublikasikan transaksi komitmen lama. Misalnya, Alice mempublikasikan transaksi komitmen yang lebih lama di mana Alice masih memiliki **100.000 satoshi**, meskipun sekarang Alice hanya memiliki **60.000** secara nyata. Ini akan memungkinkan Alice untuk mencuri **40.000 satoshi** dari Bob.
 
@@ -372,17 +372,17 @@ Sistem keamanan ini memastikan bahwa semua pihak mematuhi aturan Lightning Netwo
 
 Anda sekarang sudah mengetahui bagaimana saluran Lightning dibuka dan bagaimana transaksi dalam channel (saluran) ini bekerja. Pada bab selanjutnya, kita akan membahas berbagai cara untuk menutup saluran dan memulihkan bitcoin Anda di blockchain utama.
 
-## Penutupan Saluran
+## Menutup Channel (Saluran)
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 :::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 
-Dalam bab ini, kita akan membahas **penutupan saluran** di Jaringan Lightning, yang dilakukan melalui transaksi Bitcoin, sama seperti membuka saluran. Setelah melihat bagaimana transaksi dalam saluran bekerja, sekarang saatnya untuk melihat cara menutup saluran dan memulihkan dana di blockchain Bitcoin.
+Dalam bab ini, kita akan membahas **penutupan channel (saluran)** di Lightning Network (Jaringan Lightning), yang dilakukan melalui transaksi Bitcoin, sama seperti membuka saluran. Setelah melihat bagaimana transaksi dalam saluran bekerja, sekarang saatnya untuk melihat cara menutup saluran dan memulihkan dana di blockchain Bitcoin.
 
-### Pengingat siklus hidup saluran
+### Ringkasan terkait siklus hidup channel (saluran)
 
-**Siklus hidup saluran** dimulai dengan **pembukaannya**, melalui transaksi Bitcoin, kemudian transaksi Lightning dilakukan di dalamnya, dan akhirnya, ketika para pihak ingin memulihkan dana mereka, saluran **ditutup** melalui transaksi Bitcoin kedua. Transaksi perantara yang dibuat di Lightning diwakili oleh **transaksi komitmen** yang tidak dipublikasikan.
+**Siklus hidup channel (saluran)** dimulai dengan **pembukaannya**, melalui transaksi Bitcoin, kemudian transaksi Lightning dilakukan di dalamnya, dan akhirnya, ketika para pihak ingin mengambil kembali dana mereka, channel (saluran) **ditutup** melalui transaksi Bitcoin kedua. Transaksi perantara yang dibuat di Lightning diwakili oleh **transaksi komitmen** yang tidak dipublikasikan.
 
 ![LNP201](assets/en/29.webp)
 

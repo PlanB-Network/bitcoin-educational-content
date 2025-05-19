@@ -541,7 +541,7 @@ La riemissione di un importo di un'asset richiede la proprietà del token associ
 
 Quando si creano altri asset, non importa quale nodo abbia emesso l'asset in primo luogo, purché il nodo che sta riemettendo una quantità di asset sia in possesso di quello che viene comunemente chiamato token di riemissione dell'asset. Vedremo come creare inizialmente il token di riemissione, come usarlo per riemettere una quantità di asset e come trasferire il token di riemissione ad altri nodi, in modo che anch'essi abbiano il permesso di riemettere l'asset.
 
-Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e la risorsa predefinita è stata divisa tra loro.
+Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e l'asset predefinito è stata diviso tra loro.
 
 Faremo in modo che e1 emetta una quantità di 100 di un nuovo asset e crei 1 token di riemissione per quello stesso asset. Per semplificare l'esempio, creeremo l'emissione come non offuscata. Procediamo quindi con l'emissione dell'asset e del relativo token di riemissione.
 

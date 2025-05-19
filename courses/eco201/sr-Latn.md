@@ -42,7 +42,7 @@ Na ovom kursu koji nudi Théo Mogenet, otkrićete školu ekonomske misli koja se
 Sa više od dva veka istraživanja, filozofske refleksije i spisa renomiranih autora kao što su Karl Menger, Ludvig fon Mizes i Fridrih Hajek, ova škola mišljenja zauzima drugačiju perspektivu, favorizujući decentralizovani pogled na ekonomiju zasnovan na pojedincu i ljudskoj racionalnosti.
 
 
-Ekonomija je, u stvarnosti, duboko društvena i složena oblast, sastavljena od brojnih nezavisnih aktera koji slobodno interaguju kako bi formirali koherentnu celinu. Da bi se razumeo ovaj dinamički sistem, Austrijska ekonomija favorizuje kvalitativnu analizu, zasnovanu na ljudskoj logici, sociologiji i proučavanju tržišnih procesa, umesto na rigidnim matematičkim jednačinama.
+Ekonomija je, u stvarnosti, duboko društvena i složena oblast, sastavljena od brojnih nezavisnih aktera koji slobodno deluju kako bi formirali koherentnu celinu. Da bi se razumeo ovaj dinamički sistem, Austrijska ekonomija favorizuje kvalitativnu analizu, zasnovanu na ljudskoj logici, sociologiji i proučavanju tržišnih procesa, umesto na rigidnim matematičkim jednačinama.
 
 
 U ovom kursu istražićete osnovne principe ove škole mišljenja. Théo Mogenet, vaš instruktor, je strastveni zagovornik ovog ekonomskog pristupa i vodiće vas kroz ključne koncepte Austrijske ekonomije, pokazujući vam kako se ove ideje posebno primenjuju na svet Bitkoina.

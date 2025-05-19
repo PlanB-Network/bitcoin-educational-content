@@ -1,10 +1,9 @@
-question: Qu'est-ce que la blockchain Bitcoin ?
-answer: Une base de données qui enregistre toutes les transactions Bitcoin.
+question: Quel avantage majeur offre l'approche en couches pour Bitcoin ?
+answer: Maintenir la sécurité du protocole de base
 wrong_answers:
-  - Un type de monnaie numérique
-  - Un réseau d'utilisateurs Bitcoin
-  - Une méthode pour miner des bitcoins
+  - Augmenter la centralisation du réseau principal
+  - Innover rapidement sur le protocole de base
+  - Bénéficier des mêmes caractéristiques sur les surcouches que le protocole de base
 explanation: |
-  La blockchain Bitcoin est une base de données qui enregistre toutes les transactions Bitcoin.
-  Elle est maintenue par des mineurs qui ajoutent de nouvelles transactions à la blockchain.
+  L'approche en couches permet d'ajouter des fonctionnalités sans altérer la sécurité et la simplicité du protocole de base.
 reviewed: false

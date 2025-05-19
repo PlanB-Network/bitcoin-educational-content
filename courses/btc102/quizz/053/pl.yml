@@ -1,11 +1,9 @@
-question: Co oznacza stwierdzenie, że Bitcoin jest jak czarna dziura?
-answer: Nie zniknie i z czasem pochłonie wszystko na swojej drodze.
+question: Która usługa zawiera listę sprzedawców akceptujących Bitcoin na całym świecie?
+answer: Mapa BTC
 wrong_answers:
-  - W końcu zawali się pod własnym ciężarem.
-  - Jest to zagrożenie dla globalnego systemu finansowego.
-  - Jest to tajemnica, którą naukowcy wciąż próbują zrozumieć.
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Swiss Bitcoin Pay
 explanation: |
-  Stwierdzenie, że Bitcoin jest jak czarna dziura, odnosi się do jego odporności
-  i jego potencjału do stania się dominującym systemem finansowym, pochłaniającym wszystkie inne systemy
-  na swojej drodze.
+  BTC Map to dedykowana platforma, która lokalizuje sprzedawców akceptujących Bitcoin na całym świecie.
 reviewed: false

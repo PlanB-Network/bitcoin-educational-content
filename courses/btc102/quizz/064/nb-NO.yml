@@ -1,12 +1,9 @@
-question: Hva er den foreslåtte løsningen for gjentatte Bitcoin-kjøp uten stress?
-answer: Bruk en DCA-løsning
+question: Hvilke tiltak er avgjørende for at arvingene dine skal få tilbake bitcoinsene dine uten feil?
+answer: Gi tydelige instruksjoner
 wrong_answers:
-  - Bruk en varm lommebok
-  - Bruk en kald lommebok
-  - Bruk en ikke-KYC-løsning
+  - Betro alle private nøkler
+  - Hyppig endring av passord
+  - Bruk av en KYC Exchange-plattform
 explanation: |
-  Den foreslåtte løsningen for gjentatte Bitcoin-kjøp uten stress
-  er å bruke en DCA (Dollar Cost Averaging)-løsning. Denne strategien innebærer å dele
-  det totale beløpet du ønsker å investere over periodiske kjøp for å redusere innvirkningen
-  av volatilitet.
+  Detaljerte og forståelige instruksjoner sikrer at dine nærmeste kan få tilgang til midlene på riktig måte.
 reviewed: false

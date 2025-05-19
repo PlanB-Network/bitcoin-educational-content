@@ -1,10 +1,9 @@
-question: Mis on isetegemise (DIY - Do It Yourself) rahakoti peamine omadus?
-answer: See on 100% avatud lähtekoodiga lahendus, mida saab kodus luua, et vähendada usaldusriske teiste tootmis- või loomeahela osalistega
+question: Mis on virnastamise peamine eesmärk?
+answer: Järk-järgult kogunevad satoshid
 wrong_answers:
-  - See on riistvaraseade bitcoiinide hoidmiseks
-  - See on tarkvara bitcoiinide kaevandamiseks
-  - See on platvorm bitcoiinide ostuks ja müügiks
+  - Lühiajaline spekulatsioon
+  - Ostes korraga suure hulga satoshisid
+  - Bitcoin kasutamine igapäevaste maksete tegemiseks
 explanation: |
-  Peatüki sisu selgitab, et DIY (Do It Yourself) rahakotid on 100%
-  avatud lähtekoodiga lahendused, mida saab kodus luua, et vähendada usaldusriske teiste tootmis- või loomeahela osalistega.
+  Stacker investeerib regulaarselt väikseid summasid, et ostuhind aja jooksul keskmiselt tasa teha.
 reviewed: false

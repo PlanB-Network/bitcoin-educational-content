@@ -1,4 +1,4 @@
-question: Qual è l'ultimo passo per aprire un canale sulla Lightning Network?
+question: Qual è l'ultimo passo per aprire un canale su Lightning Network?
 answer: Pubblicare la transazione di deposito sulla blockchain di Bitcoin
 wrong_answers:
   - Firmare una transazione di prelievo per recuperare i fondi

@@ -1,10 +1,9 @@
-question: Co je cold wallet v kontextu Bitcoinu?
-answer: Peněženka pro ukládání velkých množství Bitcoinu offline
+question: Co je hlavním cílem paranoidního bitcoinera?
+answer: Chránit jejich soukromí
 wrong_answers:
-  - Peněženka, která se používá pro transakce v chladném klimatu
-  - Peněženka, která se používá pro ukládání malých množství Bitcoinu
-  - Peněženka, která se používá pro ukládání Bitcoinu po krátkou dobu
+  - Rychlé hromadění satošů
+  - Maximalizace zisku z obchodování
+  - Dlouhodobě držet své bitcoiny
 explanation: |
-  Cold wallet je peněženka pro ukládání velkých množství Bitcoinu offline.
-  Je považována za bezpečnější než hot wallet, protože je méně náchylná k hackování.
+  Paranoidní bitcoiner se především snaží vyhnout jakémukoli vysledování svých transakcí a identity.
 reviewed: false

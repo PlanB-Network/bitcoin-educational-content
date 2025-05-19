@@ -1,0 +1,5 @@
+---
+term: SIGNO CIEGO
+---
+
+Proceso por el que un usuario firma una transacción Bitcoin sin poder comprobar los detalles precisos de lo que está firmando. Con los monederos físicos, firmar a ciegas es peligroso, ya que el usuario debe confiar en el ordenador conectado para visualizar la información (destinatarios, tarifas, importes, etc.). Esto les expone a vulnerabilidades, ya que el ordenador está conectado a Internet y tiene una superficie de ataque mucho mayor que el dispositivo de firma. Si el ordenador está comprometido, puede manipular los detalles mostrados y enviar una transacción maliciosa para que sea firmada sin que el usuario sea consciente de ello. Para evitar este riesgo, recomendamos utilizar monederos físicos con pantalla integrada y comprobar la información que aparece en ella antes de firmar las transacciones.

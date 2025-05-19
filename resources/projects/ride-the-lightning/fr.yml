@@ -1,0 +1,2 @@
+description: |
+  Interface web open source permettant de gérer facilement un ou plusieurs nœuds Lightning (LND, Core Lightning, Eclair). RTL offre une large gamme de fonctionnalités, dont la gestion des canaux, les paiements, les sauvegardes et les swaps, le tout dans une interface intuitive, déployable en quelques minutes sur de nombreuses plateformes.

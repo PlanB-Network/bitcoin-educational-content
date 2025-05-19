@@ -1,0 +1,8 @@
+---
+term: Taproot
+---
+
+Duża aktualizacja protokołu Bitcoin, przyjęta przez Soft Fork w listopadzie 2021 roku. Aktualizacja ta wprowadza znaczące ulepszenia w zakresie prywatności, wydajności i elastyczności poprzez wdrożenie BIP340, BIP341 i BIP342. Aktualizacja ta została zablokowana w bloku 687,284 w dniu 12 czerwca 2021 r., kiedy 90% bloków wygenerowanych w tym okresie zasygnalizowało "za", wskazując tym samym gotowość górników do aktywacji aktualizacji (*Speedy Trial*). Aktywacja nastąpiła ostatecznie w bloku 709,632 w dniu 14 listopada 2021 r., prawie cztery lata po początkowych dyskusjach na ten temat między Pieterem Wuille, Andrew Poelstrą i Gregorym Maxwellem. Była to pierwsza poważna próba aktualizacji od czasu kontrowersyjnej aktywacji SegWit w 2017 roku.
+
+
+Taproot to także nazwa BIP341, zaimplementowanego w Soft Fork o tej samej nazwie, który wprowadza nowy model skryptu o nazwie P2TR. Skrypt P2TR blokuje bitcoiny na unikalnym kluczu publicznym Schnorra, oznaczonym jako $K$. Klucz $K$ jest jednak w rzeczywistości agregatem klucza publicznego $P$ i klucza publicznego $M$, przy czym ten ostatni jest obliczany na podstawie Merkle Root listy `scriptPubKey`. Bitcoiny zablokowane skryptem P2TR można wydać na dwa różne sposoby: albo publikując podpis dla klucza publicznego $P$, albo spełniając jeden ze skryptów zawartych w Merkle Tree. Pierwsza opcja nazywana jest "*ścieżką klucza*", a druga "*ścieżką skryptu*".

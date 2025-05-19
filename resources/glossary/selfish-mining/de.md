@@ -1,0 +1,11 @@
+---
+term: SELFISH Mining
+---
+
+Strategie (oder Angriff) in Mining, bei der ein Miner oder eine Gruppe von Schürfern absichtlich Blöcke mit einem gültigen Proof of Work hält, ohne sie sofort an das Netz freizugeben. Das Ziel ist es, anderen Minern in Bezug auf Proof of Work voraus zu sein, was es ihnen möglicherweise ermöglicht, mehrere Blöcke hintereinander zu schürfen und sie alle auf einmal zu veröffentlichen, um so ihre Gewinne zu maximieren. Mit anderen Worten: Die angreifende Gruppe von Minern schürft nicht auf dem letzten vom gesamten Netzwerk validierten Block, sondern auf einem von ihnen selbst erstellten Block, der sich von dem vom Netzwerk validierten unterscheidet.
+
+
+Dieser Prozess erzeugt eine Art geheimen Zweig der Blockchain, der dem gesamten Netzwerk unbekannt bleibt, bis diese alternative Kette möglicherweise die ehrliche Blockchain überschreitet. Sobald die geheime Kette der angreifenden Schürfer länger wird (d. h. mehr akkumulierte Arbeit enthält) als die ehrliche, öffentliche Kette, wird sie an das gesamte Netzwerk gesendet. Zu diesem Zeitpunkt synchronisieren sich die Knoten im Netzwerk, die der längsten Kette (mit der meisten akkumulierten Arbeit) folgen, mit dieser neuen Kette. Es findet also eine Umstrukturierung statt.
+
+
+Mining-Egoismus ist für die Benutzer ärgerlich, da er die Systemsicherheit verringert, indem er einen Teil der Rechenleistung des Netzes verschwendet. Wenn sie erfolgreich ist, führt sie auch zu Blockchain-Umstrukturierungen, was die Zuverlässigkeit der Transaktionsbestätigungen für die Nutzer beeinträchtigt. Dennoch bleibt diese Praxis für die angreifende Gruppe von Schürfern riskant, da es oft profitabler ist, Miner normalerweise über dem letzten öffentlich bekannten Block zu erreichen, als Rechenleistung für einen geheimen Zweig zu verwenden, der wahrscheinlich nie die ehrliche Blockchain überschreiten wird. Je größer die Anzahl der Blöcke in der Reorganisation ist, desto geringer ist die Wahrscheinlichkeit eines erfolgreichen Angriffs.

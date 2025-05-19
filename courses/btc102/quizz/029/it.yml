@@ -1,9 +1,9 @@
-question: Qual è il significato della scarsità di Bitcoin?
-answer: Ci saranno solo 21 milioni di bitcoin nel mondo e mai di più.
+question: Quale attore principale progetta ASIC per Bitcoin Mining?
+answer: Bitmain
 wrong_answers:
-  - Il valore di Bitcoin aumenterà sempre.
-  - Bitcoin è difficile da minare.
-  - Le transazioni di Bitcoin sono limitate in numero.
+  - Trezor
+  - Ledger
+  - Fonderia USA
 explanation: |
-  La scarsità di Bitcoin si riferisce al fatto che ci saranno solo 21 milioni di bitcoin. Questa caratteristica, simile all'oro, impedisce la diluizione del valore di Bitcoin attraverso una stampa eccessiva di denaro.
+  Bitmain è uno dei principali produttori di hardware specializzato per Bitcoin Mining.
 reviewed: false

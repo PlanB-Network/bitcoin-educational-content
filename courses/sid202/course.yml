@@ -92,6 +92,27 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 25.36
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 44.3
+  - language: sr-Latn
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - Sanja22B
+    reward: 12.68
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 25.36
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 31.67
 tags:
   - sidechains
   - development

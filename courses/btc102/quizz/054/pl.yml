@@ -1,10 +1,9 @@
-question: Kto wprowadził ideę autostrady Bitcoin?
-answer: Andreas Antonopoulos
+question: Jaki jest główny cel aktywnego użytkownika?
+answer: Aby używać Bitcoin jako codziennej metody płatności
 wrong_answers:
-  - Satoshi Nakamoto
-  - Elon Musk
-  - Vitalik Buterin
+  - Inwestowanie w Bitcoin w perspektywie długoterminowej
+  - Aby stopniowo gromadzić satoshis
+  - Spekulować na rynku
 explanation: |
-  Andreas Antonopoulos, znany orędownik i edukator Bitcoin, przedstawił ideę autostrady Bitcoin
-  ideę autostrady Bitcoin.
+  Aktywny użytkownik włącza Bitcoin do swojego codziennego życia, aby dokonywać transakcji i wspierać jego przyjęcie.
 reviewed: false

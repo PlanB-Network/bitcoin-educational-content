@@ -929,7 +929,7 @@ Kao i svaki oblik bogatstva, vaši bitkoini moraju biti zaštićeni od gubitka, 
 Jedan metod za dugoročno osiguranje vaših bitkoina je graviranje vaše Mnemonic fraze na izuzetno izdržljiv materijal poput čelika. Na ovaj način kreirate fizičku rezervnu kopiju vaših ključeva koja je otporna na oštećenja od vode i vatre.
 
 
-Različita rešenja su dostupna: neka od njih su niskobudžetna, kao što je "Blockmit", dok druga mogu zahtevati specijalizovaniju opremu. Možete dalje istražiti ovu temu u [tutorijalima](https://planb.network/en/tutorials/Wallet) sekciji naše akademije.
+Različita rešenja su dostupna: neka od njih su niskobudžetna, kao što je "Blockmit", dok druga mogu zahtevati specijalizovaniju opremu. Možete dalje istražiti ovu temu u [tutorijalima](https://planb.network/en/tutorials/wallet) sekciji naše akademije.
 
 
 ![image](assets/en/37.webp)
@@ -1655,7 +1655,7 @@ Ova postepena strategija uključuje ponavljajuće kupovine, što znači kupovinu
 **Pazite na UTXO-e**: Ne zaboravite da s vremena na vreme konsolidujete svoje UTXO-e u svojim novčanicima. Ova praksa je ključna za efikasno upravljanje vašim bitkoinima i izbegavanje nepotrebnih naknada tokom transakcija.
 
 
-[UTXO](https://planb.network/en/resources/glossary/UTXO) je izlaz transakcije koji još nije potrošen, što znači da nije korišćen kao ulaz za novu transakciju. Konsolidacija njih znači kombinovanje nekoliko malih UTXO-a u jedan veći, kako bi se smanjila "težina" transakcije, i time platile niže naknade.
+[UTXO](https://planb.network/en/resources/glossary/utxo) je izlaz transakcije koji još nije potrošen, što znači da nije korišćen kao ulaz za novu transakciju. Konsolidacija njih znači kombinovanje nekoliko malih UTXO-a u jedan veći, kako bi se smanjila "težina" transakcije, i time platile niže naknade.
 
 
 
@@ -1718,7 +1718,7 @@ Važno je prepoznati da je KYC značajna tema diskusije u industriji Bitkoina. I
 ### Rešenja bez KYC-a
 
 
-Pored toga, postoji nekoliko [marketplaces](https://planb.network/tutorials/Exchange) gde možete kupovati i prodavati bitkoine u peer-to-peer Exchange. Uopšteno, možete razmotriti sledeće:
+Pored toga, postoji nekoliko [marketplaces](https://planb.network/tutorials/exchange) gde možete kupovati i prodavati bitkoine u peer-to-peer Exchange. Uopšteno, možete razmotriti sledeće:
 
 
 

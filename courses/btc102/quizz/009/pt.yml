@@ -1,11 +1,9 @@
-question: Qual é a função principal de um gerenciador de senhas?
-answer: Armazenar e gerenciar suas senhas
+question: Porque é que a segurança em linha é crucial para os utilizadores do Bitcoin?
+answer: Porque a pirataria informática resulta na perda irreversível de bitcoins
 wrong_answers:
-  - Gerar senhas aleatórias
-  - Lembrar seus nomes de usuário
-  - Proteger seu computador contra vírus
+  - Porque os bancos seguram os fundos em caso de perda total do Bitcoin
+  - Porque se pode ir para a cadeia por perder bitcoins
+  - Porque os ataques conduzem a encargos administrativos muito pesados
 explanation: |
-  Um gerenciador de senhas é um software que armazena e gerencia suas senhas.
-  Ele ajuda você a nunca usar a mesma senha duas vezes, escolher senhas complexas e seguras,
-  e facilita o gerenciamento da sua segurança online.
+  Sem intermediários, um hack significa uma perda definitiva de bitcoins.
 reviewed: false

@@ -2950,13 +2950,13 @@ El objetivo de BIP156 es resolver este problema. Para ello, introduce una fase a
 
 ![BTC204](assets/fr/205.webp)
 
-A continuación, la transacción se distribuye a toda la red en la fase de "capitulación".
+La transacción se transmite posteriormente a toda la red durante la fase de "Fluff".
 
 ![BTC204](assets/fr/206.webp)
 
-El tallo y la cabeza de la flor son referencias al comportamiento de la propagación de la transacción a través de la red, que se asemeja a la forma de un diente de león.
+El tallo y la fase de "Fluff" hacen referencia al comportamiento de la propagación de la transacción a través de la red, que se asemeja a la forma y evolución de un diente de león ("Dandelion" en inglés).
 
-Así, los nodos espía pueden rastrear potencialmente la transacción hasta el nodo que lanzó la fase de capitulación (la emisión masiva), pero este nodo no es el que emitió primero la transacción, ya que la recibió del último nodo del tallo. Si los nodos espía no pueden rastrear el tallo, tampoco pueden identificar el nodo de origen.
+Así, los nodos espía pueden potencialmente rastrear la transacción hasta el nodo que inició la fase de "Fluff" (la difusión masiva), pero ese nodo no es el que la transmitió primero, ya que la recibió del último nodo del tallo. Si los nodos espía no pueden rastrear el tallo, tampoco pueden identificar el nodo fuente.
 
 ![BTC204](assets/fr/207.webp)
 

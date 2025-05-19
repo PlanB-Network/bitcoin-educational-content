@@ -1,10 +1,9 @@
-question: Czym jest Hot Wallet w kontekście Bitcoin?
-answer: Wallet do przechowywania niewielkich ilości Bitcoin online
+question: Jaka jest rola pisma spadkowego Bitcoin w planie spadkowym?
+answer: Aby pomóc spadkobiercom w uzyskaniu dostępu do funduszy
 wrong_answers:
-  - Wallet używany do transakcji w klimacie Hot
-  - Wallet używany do przechowywania dużych ilości Bitcoin
-  - Wallet używany do przechowywania Bitcoin przez długi okres czasu
+  - Służyć jako Contract do przekazywania bitcoinów spadkobiercom
+  - Określenie podziału podatkowego aktywów
+  - Aby zoptymalizować opłaty za transfer między portfelami
 explanation: |
-  Hot Wallet to Wallet do przechowywania niewielkich ilości Bitcoin online.
-  Jest uważany za mniej bezpieczny niż Cold Wallet, ponieważ jest bardziej podatny na ataki hakerskie.
+  List spadkowy zawiera jasne i precyzyjne instrukcje, dzięki którym bliscy mogą odzyskać bitcoiny.
 reviewed: false

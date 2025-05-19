@@ -1,13 +1,9 @@
-question: What is the main benefit of using a password manager according to the chapter?
-answer: It helps you never use the same password twice
+question: Which system enables fast and low-cost transactions on Bitcoin?
+answer: Lightning Network
 wrong_answers:
-  - It helps you remember your usernames
-  - It protects your computer from viruses
-  - It generates random passwords
+  - SegWit
+  - Ripple Network
+  - RGB
 explanation: |
-  According to the chapter, a password manager helps you never use the
-
-  same password twice, choose complex and secure passwords, and facilitates your online
-
-  security management.'
+  The Lightning Network is a second-layer solution that allows for fast settlement and reduces the cost of BTC transactions.
 reviewed: false

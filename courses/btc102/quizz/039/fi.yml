@@ -1,11 +1,9 @@
-question: Mikä on pääsyy diktatuuristen hallintojen perustamiselle kyseisen luvun mukaan?
-answer: Maailmanlaajuisesti pahenevat varallisuuserot
+question: Mikä käyttäjäprofiili kerää säännöllisesti bitcoineja Dollar-Cost Averagingin avulla?
+answer: Pinoaja
 wrong_answers:
-  - Maailman koulutuksen puute
-  - Maailman resurssien puute
-  - Maailman demokratian puute
+  - Hodler
+  - Aktiivinen käyttäjä
+  - Vainoharhainen
 explanation: |
-  Luku mainitsee, että maailmanlaajuisesti pahenevat varallisuuserot
-  ovat johtaneet ääriliikkeiden nousuun, mikä on joskus johtanut
-  diktatuuristen hallintojen perustamiseen.
+  Pakkaaja ostaa säännöllisesti pieniä määriä, jotta ostohinta saadaan pidemmällä aikavälillä keskimääräiseksi.
 reviewed: false

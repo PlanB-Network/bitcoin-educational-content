@@ -2950,13 +2950,13 @@ BIP156 eesmärk on selle probleemi lahendamine. Selleks kehtestatakse uue tehing
 
 ![BTC204](assets/fr/205.webp)
 
-Seejärel jaotatakse tehing kogu võrgule "kapituleerimise" faasis.
+Seejärel edastatakse tehing kogu võrgustikule "Fluff" etapis.
 
 ![BTC204](assets/fr/206.webp)
 
-Tüvi ja lillepea on viited tehingu võrgu kaudu levimise käitumisele, mis meenutab võilille kuju.
+Vars ja „Fluff“ viitavad tehingu leviku käitumisele võrgus, mis meenutab võilille (inglise keeles "Dandelion") kuju ja arengut.
 
-Seega saavad luurajad potentsiaalselt jälgida tehingu tagasi sõlme, mis käivitas kapituleerumisfaasi (masssaatmine), kuid see sõlme ei ole see, kes esimesena tehingu edastas, sest ta sai selle viimaselt tüve sõlmedelt. Kui spioonisõlmed ei saa jälgida tüve, ei saa nad ka lähtesõlme tuvastada.
+Seega võivad nuhk-node potentsiaalselt jälgida tehingut tagasi sõlmeni, mis käivitas „Fluff“ faasi (masslevi), kuid see sõlm ei ole see, kes tehingu esimesena levitas, kuna ta sai selle varre viimaselt sõlmelt. Kui nuhk-node ei suuda varre jälgida, ei suuda nad ka allikasõlme tuvastada.
 
 ![BTC204](assets/fr/207.webp)
 

@@ -86,6 +86,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.88
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.71
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.88
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.88
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.88
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.82
 tags:
   - privacy
   - onchain

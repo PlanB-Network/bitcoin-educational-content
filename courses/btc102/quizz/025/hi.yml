@@ -1,11 +1,11 @@
-question: Bitcoin नेटवर्क में माइनर्स (खनिकों) की भूमिका क्या है?
-answer: Bitcoin से Blockchain में प्रचारित लेन-देन को रिकॉर्ड करने के लिए
+question: Bitcoin और altcoins के बीच मुख्य अंतर क्या है?  
+
+(Note: The original question was already in Hindi, so the translation remains the same. If you'd like a more detailed or explanatory version, let me know!)
+answer: विकेंद्रीकरण
 wrong_answers:
-  - नए बिटकॉइन बनाने के लिए
-  - बिटकॉइन के मूल्य को नियंत्रित करने के लिए
-  - Bitcoin उपयोगकर्ताओं की पहचान सत्यापित करने के लिए
+  - लिक्विडिटी
+  - इज़्ज़त (Izzat)
+  - गोपनीयता
 explanation: |
-  Bitcoin नेटवर्क में माइनर्स लेन-देन रिकॉर्ड करने के लिए ज़िम्मेदार होते हैं।
-  जो नेटवर्क में फैलाए गए हैं और Bitcoin Blockchain में पहुँच गए हैं। यह सुनिश्चित करता है
-  लेन-देन की अंतिमता।
+  Bitcoin अपने विकेंद्रीकरण के लिए मशहूर है, जबकि ज़्यादातर ऑल्टकॉइन्स कमोबेश केंद्रीकृत होते हैं।
 reviewed: false

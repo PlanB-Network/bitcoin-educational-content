@@ -96,6 +96,27 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 99.54
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 174.12
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 99.54
+  - language: sw
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - monyangi10
+    reward: 49.77
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 124.4
 tags:
   - development
   - protocols

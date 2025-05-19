@@ -1,13 +1,9 @@
-question: Jaka jest główna korzyść z używania menedżera haseł według rozdziału?
-answer: Dzięki temu nigdy nie użyjesz tego samego hasła dwa razy
+question: Który system umożliwia szybkie i tanie transakcje na Bitcoin?
+answer: Lightning Network
 wrong_answers:
-  - Pomaga zapamiętać nazwy użytkowników
-  - Chroni komputer przed wirusami
-  - Generuje losowe hasła
+  - SegWit
+  - Sieć Ripple
+  - RGB
 explanation: |
-  Zgodnie z tym rozdziałem, menedżer haseł pomaga nigdy nie używać
-  
-  tego samego hasła, wybierać złożone i bezpieczne hasła oraz ułatwia korzystanie z Internetu
-  
-  zarządzanie bezpieczeństwem online"
+  Lightning Network to drugie rozwiązanie Layer, które umożliwia szybkie rozliczanie i zmniejsza koszty transakcji BTC.
 reviewed: false

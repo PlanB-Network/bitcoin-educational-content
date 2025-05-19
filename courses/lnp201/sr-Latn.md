@@ -21,10 +21,10 @@ Bilo da ste Bitkojn početnik ili iskusniji korisnik, ovaj kurs će pružiti vre
 Uživaj u svom otkriću!
 
 +++
-Uvod
+# Uvod
 <partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
 
-Pregled kursa
+## Pregled kursa
 <chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
 
 Dobrodošli na kurs LNP201!

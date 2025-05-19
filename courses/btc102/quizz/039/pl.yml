@@ -1,11 +1,9 @@
-question: Jaki jest główny powód ustanowienia reżimów dyktatorskich według rozdziału?
-answer: Pogarszające się nierówności majątkowe na świecie
+question: Który profil użytkownika regularnie gromadzi bitcoiny za pomocą Dollar-Cost Averaging?
+answer: Układarka
 wrong_answers:
-  - Brak edukacji na świecie
-  - Brak zasobów na świecie
-  - Brak demokracji na świecie
+  - Hodler
+  - Aktywny użytkownik
+  - Paranoik
 explanation: |
-  W rozdziale wspomniano, że pogłębiające się nierówności majątkowe na świecie
-  doprowadziły do wzrostu ekstremizmu, który czasami skutkował ustanowieniem reżimów dyktatorskich
-  dyktatorskich reżimów.
+  Układający regularnie kupuje małe ilości, aby uśrednić cenę zakupu w długim okresie.
 reviewed: false

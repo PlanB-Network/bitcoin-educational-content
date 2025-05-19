@@ -1,10 +1,9 @@
-question: Mitä tarkoittaa 2FA?
-answer: Kaksivaiheinen tunnistautuminen
+question: Miksi Bitcoin-omistuksistasi on suositeltavaa pitää huolta?
+answer: Välttääksesi rikollisten ja hallitusten huomion kiinnittämistä
 wrong_answers:
-  - Kaksivaiheinen valtuutus
-  - Kaksipiirteinen tunnistautuminen
-  - Kaksitoiminto tunnistautuminen
+  - Parempien Exchange-korkojen hyödyntäminen tietyissä maissa
+  - Välttääksesi rahoitusta hakevien yrittäjien huomion kiinnittämistä
+  - Lainanottokyvyn parantaminen
 explanation: |
-  2FA tarkoittaa Kaksivaiheista tunnistautumista. Se tarjoaa lisäkerroksen
-
-  turvaa sinun arkaluonteisimmille tileillesi.
+  Huolellisuus suojaa riskiltä joutua huijareiden, mustasukkaisten tai varkaiden kohteeksi.
+reviewed: false

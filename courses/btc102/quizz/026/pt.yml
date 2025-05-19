@@ -1,9 +1,9 @@
-question: Quais são as duas características que tornam o Bitcoin o que ele é hoje?
-answer: Seu código aberto e sua escassez
+question: O que é que os utilizadores devem armazenar para serem verdadeiramente donos dos seus bitcoins?
+answer: Chaves privadas
 wrong_answers:
-  - Sua anonimidade e sua descentralização
-  - Seu alto valor e sua volatilidade
-  - Sua facilidade de uso e sua aceitação global
+  - Endereços de receção
+  - Palavras-passe da plataforma Exchange
+  - Blocos Blockchain
 explanation: |
-  As duas principais características que definem o Bitcoin são seu código aberto, o que o torna transparente, auditável e utilizável por qualquer pessoa, e sua escassez, o que significa que só existirão 21 milhões de bitcoins no mundo.
+  Sem a posse das suas chaves privadas, não é verdadeiramente proprietário dos seus bitcoins.
 reviewed: false

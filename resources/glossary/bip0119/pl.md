@@ -1,0 +1,5 @@
+---
+term: BIP0119
+---
+
+Wprowadza nowy opcode o nazwie `OP_CHECKTEMPLATEVERIFY` (CTV). CTV pozwoliłoby na tworzenie nierekurencyjnych przymierzy w transakcjach, w celu nałożenia określonych warunków na sposób, w jaki dana moneta może zostać wydana, w tym w przyszłych transakcjach. Mówiąc konkretniej, umożliwiłoby to zdefiniowanie warunków dotyczących `scriptPubKey` wyników transakcji w oparciu o `scriptPubKey` UTXO wydanych jako dane wejściowe. CheckTemplateVerify został zaprojektowany jako prosty i bez dynamicznego stanu. Jego wdrożenie ma na celu rozszerzenie możliwości skryptowych Bitcoin w celu ułatwienia różnych zastosowań, takich jak kontrola przeciążenia transakcji, tworzenie nieinteraktywnych kanałów płatności, DLC, pule płatności ... Ten nowy kod operacyjny zostałby wprowadzony jako zamiennik dla `OP_NOP4`. Ta zmiana oznaczałaby Soft Fork.

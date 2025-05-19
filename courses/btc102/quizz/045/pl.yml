@@ -1,11 +1,9 @@
-question: Jaka jest główna rola deweloperów Bitcoin Core?
-answer: Są oni odpowiedzialni za główny rozwój protokołu Bitcoin i jego podstawowych funkcji
+question: Dlaczego zaleca się regularne przenoszenie środków z Hot Wallet do Hardware Wallet?
+answer: Aby zmniejszyć ryzyko włamania
 wrong_answers:
-  - Kontrolują one sieć Bitcoin
-  - Tworzą nowe bitcoiny
-  - Regulują one cenę Bitcoin
+  - Aby zwiększyć płynność Wallet
+  - Aby zmniejszyć opłaty transakcyjne
+  - Aby zoptymalizować prywatność UTXO
 explanation: |
-  Treść rozdziału wyjaśnia, że deweloperzy Bitcoin Core są odpowiedzialni
-  za główny rozwój protokołu Bitcoin i jego podstawowych funkcji. Nie
-  nie kontrolują sieci Bitcoin, nie tworzą nowych bitcoinów ani nie regulują ceny Bitcoin.
+  Transfer do Hardware Wallet zabezpiecza środki poprzez przechowywanie kluczy prywatnych w trybie offline.
 reviewed: false

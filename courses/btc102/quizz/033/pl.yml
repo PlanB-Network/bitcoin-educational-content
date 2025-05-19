@@ -1,12 +1,9 @@
-question: Jakie są dwie przeciwstawne ideologie w świecie Bitcoin?
-answer: Wprowadzanie osób nieubankowionych do systemu bankowego i usuwanie z niego osób znajdujących się w systemie bankowym
+question: Kim są wynalazcy Lightning Network?
+answer: Tadeusz Dryja i Joseph Poon
 wrong_answers:
-  - Czyniąc wszystkich bogatymi i czyniąc wszystkich biednymi
-  - Centralizacja władzy i decentralizacja władzy
-  - Promowanie prywatności i przejrzystości
+  - Andreas Antonopoulos i Adam Back
+  - Pieter Wuille i Gregory Maxwell
+  - Satoshi Nakamoto i Hal Finney
 explanation: |
-  Rozdział wspomina o dwóch przeciwstawnych ideologiach w świecie Bitcoin.
-  Jedną z nich jest wprowadzenie do systemu bankowego miliardów ludzi, którzy w nim nie są.
-  Druga to wyciągnięcie z niego miliardów ludzi, którzy są w systemie bankowym
-  go.
+  Thaddeus Dryja i Joseph Poon wynaleźli Lightning Network w 2016 roku, aby poprawić skalowalność Bitcoin.
 reviewed: false

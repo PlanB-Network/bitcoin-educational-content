@@ -1,0 +1,5 @@
+---
+term: BIP0068
+---
+
+Wprowadzono możliwość używania względnych czasów blokady poprzez pole `nSequence`. Pozwala to transakcji na określenie względnego opóźnienia przed włączeniem jej do bloku. Opóźnienie to może być zdefiniowane jako liczba bloków lub jako wielokrotność 512 sekund (tj. czasu rzeczywistego). Należy zauważyć, że ta nowa interpretacja pola `nSequence` jest ważna tylko wtedy, gdy pole `nVersion` jest większe lub równe `2`. Ta interpretacja pola `nSequence` występuje na poziomie reguł konsensusu Bitcoin. Względny timelock ustawia opóźnienie rozpoczynające się od akceptacji poprzedniej transakcji, podczas gdy bezwzględny timelock określa dokładny moment, przed którym transakcja nie może zostać włączona do bloku. BIP68 został wprowadzony za pośrednictwem Soft Fork w dniu 4 lipca 2016 r., obok BIP112 i BIP113, aktywowanych po raz pierwszy przy użyciu metody BIP9.

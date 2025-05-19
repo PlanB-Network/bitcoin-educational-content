@@ -1,11 +1,9 @@
-question: 根據 Bitcoin 高速公路的隱喻，Bitcoin 的最終願景是什麼？
-answer: 它將成為網際網路流量和全球 90% 人口的高速公路。
+question: 使用何種方法保護交易的 On-Chain 可追蹤性？
+answer: 使用 CoinJoin 和 PayJoin 技術
 wrong_answers:
-  - 它將變成只有富人才能享用的奢侈品。
-  - 它將成為非法活動的工具。
-  - 它將會過時，並被其他加密貨幣取代。
+  - 重複使用相同的接收 Address
+  - UTXO 經常合併
+  - 存入保管 Wallet
 explanation: |
-  Bitcoin 高速公路的隱喻是，Bitcoin 將成為網際網路流量的高速公路，為全球 90% 的人口提供商品與服務。
-  世界上 90% 的人口，商品和服務都可以在這條高速公路上直達。
-  可直接從這條高速公路上獲得。
+  Coinjoins 和 payjoins 有助於改善 On-Chain 活動的隱私性。
 reviewed: false

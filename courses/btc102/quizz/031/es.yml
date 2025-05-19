@@ -1,9 +1,9 @@
-question: ¿Cuál es el propósito de las carteras de Bitcoin?
-answer: Para enviar y recibir bitcoins
+question: ¿Cuáles son las cadenas laterales de Bitcoin?
+answer: Liquid y portainjertos
 wrong_answers:
-  - Para minar bitcoins
-  - Para almacenar bitcoins físicos
-  - Para convertir bitcoins en otras monedas
+  - Polígono y Arbitrio
+  - Júpiter y Fantom
+  - Bitcoin Cash y Bitcoin Satoshi Vision
 explanation: |
-  Las carteras de Bitcoin se utilizan para enviar y recibir bitcoins. Son carteras digitales que almacenan las credenciales digitales necesarias para acceder a una dirección de bitcoin y gastar los bitcoins.
+  Liquid y RSK son cadenas laterales que tienen una clavija de 2 vías con Bitcoin. Las otras opciones no son sidechains, o no tienen un 2WP con el Bitcoin Blockchain.
 reviewed: false

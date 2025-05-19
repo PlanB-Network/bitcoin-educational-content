@@ -1,11 +1,9 @@
-question: 使用 Signal、Tor 和 ProtonMail 等工具的主要目的是什麼？
-answer: 重視並保護您的隱私
+question: 為什麼建議只投資您能承受的損失？
+answer: 保留您的財務安全，以防損失
 wrong_answers:
-  - 加速您的網際網路連線
-  - 保護您的電腦免受病毒侵害
-  - 免費提供付費服務
+  - 在熊市中迅速獲取最大利潤
+  - 大量分散您的投資
+  - 借貸以進行更多投資
 explanation: |
-  Signal、Tor 和 ProtonMail 等工具用來珍惜和保護
-  
-  您的隱私。它們是改善線上安全習慣措施的一部分'。
+  投資超出您的負擔能力（即超出您的儲蓄能力）會使您面臨過高的財務風險。
 reviewed: false

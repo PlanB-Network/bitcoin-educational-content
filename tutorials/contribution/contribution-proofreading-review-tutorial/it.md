@@ -33,7 +33,7 @@ Non è necessario essere esperti di GitHub per revisionare i contenuti. Anche se
 
 Tuttavia, se non conosci Git e GitHub e vuoi saperne di più, puoi consultare il nostro articolo introduttivo su questi strumenti:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Crea un account
 
 
@@ -162,3 +162,4 @@ NB. Si consiglia di effettuare la revisione nella finestra del codice, con il co
 
 
 - Se hai osservazioni, domande o commenti su questo progetto, sentiti libero di inviare un DM [al gruppo Telegram dei collaboratori](https://t.me/PlanBNetwork_ContentBuilder).
+

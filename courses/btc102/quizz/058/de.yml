@@ -1,9 +1,9 @@
-question: Was bedeutet es, wenn Sie nicht im Besitz des privaten Schlüssels zu Ihrer Bitcoin-Wallet sind?
-answer: Eine dritte Partei ist für die Sicherheit Ihrer Bitcoins verantwortlich.
+question: Welche Cold-Speicherlösung wird für den paranoiden Benutzer empfohlen?
+answer: Luftgekapselt oder DIY Hardware Wallet
 wrong_answers:
-  - Sie haben alle Ihre Bitcoins verloren.
-  - Sie können keine Transaktionen mehr mit Ihren Bitcoins durchführen.
-  - Ihre Bitcoins werden automatisch in eine andere Kryptowährung umgewandelt.
+  - Mobil Hot Wallet
+  - Pflegedienst auf einer Exchange-Plattform
+  - Hardware Wallet für allgemeine Zwecke mit geschlossenem Quellcode
 explanation: |
-  Wenn Sie nicht im Besitz des privaten Schlüssels zu Ihrer Bitcoin-Wallet sind, bedeutet dies, dass eine dritte Partei für die Sicherheit Ihrer Bitcoins verantwortlich ist. Sie unterliegen den gleichen Risiken wie Börsenplattformen, wie z.B. Hacking, Beschlagnahmung, Regulierung oder Insolvenz.
+  Der paranoide Benutzer bevorzugt die Offline-Speicherung mit Open-Source-Lösungen, um das Risiko einer Aufdeckung zu minimieren.
 reviewed: false

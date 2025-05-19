@@ -1,13 +1,9 @@
-question: Jaka jest główna funkcja menedżera haseł?
-answer: Przechowywanie haseł i zarządzanie nimi
+question: Dlaczego bezpieczeństwo online jest kluczowe dla użytkowników Bitcoin?
+answer: Ponieważ hakowanie skutkuje nieodwracalną utratą bitcoinów
 wrong_answers:
-  - Do losowych haseł generate
-  - Aby zapamiętać nazwy użytkowników
-  - Aby chronić komputer przed wirusami
+  - Ponieważ banki ubezpieczają środki na wypadek całkowitej utraty Bitcoin
+  - Ponieważ za utratę bitcoinów można pójść do więzienia
+  - Ponieważ ataki prowadzą do bardzo dużych obciążeń administracyjnych
 explanation: |
-  Menedżer haseł to oprogramowanie, które przechowuje hasła i zarządza nimi.
-  
-  Pomaga nigdy nie używać tego samego hasła dwa razy, wybierać złożone i bezpieczne hasła,
-  
-  i ułatwia zarządzanie bezpieczeństwem online"
+  Bez pośredników włamanie oznacza definitywną utratę bitcoinów.
 reviewed: false

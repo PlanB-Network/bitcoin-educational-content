@@ -1,12 +1,9 @@
-question: Jaka jest główna cecha Bitcoin, która odróżnia go od innych kryptowalut?
-answer: Bitcoin to jedyna prawdziwie zdecentralizowana, odporna na cenzurę, wolna i poważna kryptowaluta
+question: Jakie rozwiązanie jest zalecane do dokonywania tanich płatności Bitcoin?
+answer: Lightning Network
 wrong_answers:
-  - Bitcoin to jedyna kryptowaluta, którą można wydobywać
-  - Bitcoin to jedyna kryptowaluta, którą można kupić lub sprzedać na platformach Exchange
-  - Bitcoin to jedyna kryptowaluta, którą można przechowywać w Wallet
+  - Hardware Wallet
+  - Konto bankowe
+  - RGB Layer
 explanation: |
-  Treść rozdziału stwierdza, że Bitcoin jest jedyną prawdziwie zdecentralizowaną,
-  odporną na cenzurę, wolną i poważną kryptowalutą, która uzasadnia tysiące godzin pracy
-  tysięcy godzin pracy. Jest to kluczowa cecha, która odróżnia Bitcoin od innych kryptowalut
-  kryptowalut.
+  Lightning umożliwia szybkie i tanie transakcje codziennych zakupów. To idealne narzędzie dla aktywnych użytkowników.
 reviewed: false

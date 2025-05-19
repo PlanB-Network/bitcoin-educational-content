@@ -1,11 +1,9 @@
-question: Jaké je zlaté pravidlo investování do Bitcoinu?
-answer: Nejsou-li vaše klíče, nejsou vaše Bitcoiny.
+question: Jaký termín označuje naprogramované rozdělení dotace Mining?
+answer: Halving
 wrong_answers:
-  - Nikdy neinvestujte více, než si můžete dovolit ztratit.
-  - Vyhněte se tomu, co je módní.
-  - Plánování a dlouhodobé vize jsou klíčové pro úspěch ve financích.
+  - Fork
+  - Bisekce
+  - Coinbase
 explanation: |
-  Zlaté pravidlo investování do Bitcoinu je Nejsou-li vaše klíče, nejsou vaše Bitcoiny.
-  To znamená, že pokud nemáte kontrolu nad svým soukromým klíčem, skutečně
-  nevlastníte své Bitcoiny.
+  Halving se vztahuje na Halving dotace Mining každých 210 000 bloků.
 reviewed: false

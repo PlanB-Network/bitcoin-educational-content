@@ -51,10 +51,11 @@ proofreading:
     contributor_names:
     reward: 1.82
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 1.13
+      - TinF0ilHat1
+    reward: 0.57
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -76,11 +77,38 @@ proofreading:
     contributor_names:
     reward: 1.47
   - language: vi
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - Henry-Da0
+    reward: 1.08
+  - language: zh-Hans
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - MilankovicProtocol
+    reward: 0.91
+  - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.16
-  - language: zh-Hans
+    reward: 2.5
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.47
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.47
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.47
+  - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:

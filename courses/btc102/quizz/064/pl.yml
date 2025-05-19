@@ -1,12 +1,9 @@
-question: Jakie jest sugerowane rozwiązanie dla powtarzających się zakupów Bitcoin bez stresu?
-answer: Użyj rozwiązania DCA
+question: Jakie działania są niezbędne dla spadkobierców, aby bezbłędnie odzyskać bitcoiny?
+answer: Dostarczanie jasnych instrukcji
 wrong_answers:
-  - Użyj Hot Wallet
-  - Użyj Cold Wallet
-  - Korzystanie z rozwiązania bez KYC
+  - Powierzenie wszystkich kluczy prywatnych
+  - Częsta zmiana haseł
+  - Korzystanie z platformy KYC Exchange
 explanation: |
-  Sugerowanym rozwiązaniem dla powtarzających się zakupów Bitcoin bez stresu
-  jest zastosowanie rozwiązania DCA (Dollar Cost Averaging). Strategia ta polega na podzieleniu
-  całkowitą kwotę, którą chcesz zainwestować w okresowe zakupy, aby zmniejszyć wpływ
-  zmienności.
+  Szczegółowe i zrozumiałe instrukcje zapewniają, że Twoi bliscy będą mogli prawidłowo uzyskać dostęp do środków.
 reviewed: false

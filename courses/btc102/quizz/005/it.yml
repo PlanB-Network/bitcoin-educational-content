@@ -1,9 +1,9 @@
-question: Qual è l'obiettivo del corso di questa università?
-answer: L'universo Bitcoin.
+question: Perché è consigliata l'autenticazione a due fattori?
+answer: Aggiunge un ulteriore Layer di sicurezza
 wrong_answers:
-  - L'industria globale delle criptovalute.
-  - L'industria fintech.
-  - L'industria della blockchain.
+  - Semplifica l'accesso riducendo il numero di codici
+  - Consente l'accesso senza password
+  - Sostituisce l'uso di un gestore di password
 explanation: |
-  L'intero focus di questa università è sull'universo Bitcoin, non sulle criptovalute.
+  il 2FA richiede un codice temporaneo in aggiunta alla password, che rafforza notevolmente la protezione di un account online.
 reviewed: false

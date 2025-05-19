@@ -1,9 +1,9 @@
-question: Hva er risikoen ved å ikke eie den private nøkkelen til din Bitcoin-lommebok?
-answer: Dine bitcoins er utsatt for risikoer som hacking, beslagleggelse, regulering eller konkurs
+question: Hvilken stor risiko er det forbundet med å oppgi for mye informasjon i arveplanen?
+answer: Risiko for tyveri
 wrong_answers:
-  - Dine bitcoins vil automatisk bli konvertert til en annen kryptovaluta
-  - Dine bitcoins vil miste sin verdi
-  - Dine bitcoins vil bli overført til en annen lommebok
+  - Risiko for tap
+  - Risiko for devaluering
+  - Risiko for regulering
 explanation: |
-  Hvis du ikke eier den private nøkkelen til din Bitcoin-lommebok, er dine bitcoins
-  utsatt for risikoer som hacking, beslagleggelse, regulering eller konkurs.
+  For mye informasjon kan gjøre det lettere for ondsinnede personer å handle hvis de får tilgang til arveplanen din.
+reviewed: false

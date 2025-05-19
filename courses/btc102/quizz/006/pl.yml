@@ -1,11 +1,9 @@
-question: Co jest powszechnym oszustwem w dziedzinie inwestycji finansowych?
-answer: Systemy sprzedaży piramidalnej.
+question: Jaka jest główna zaleta korzystania z menedżera haseł?
+answer: Przechowuje i generuje złożone hasła
 wrong_answers:
-  - Sprzedaż towarów fizycznych.
-  - Sprzedaż oprogramowania.
-  - Sprzedaż waluty fiducjarnej.
+  - Zapewnia podpowiedzi do zapamiętania haseł
+  - Ponownie wykorzystuje te same hasła na różnych kontach online
+  - Zastępuje potrzebę korzystania z oprogramowania antywirusowego
 explanation: |
-  W dziedzinie inwestycji finansowych systemy sprzedaży piramidalnej i schematy Ponzi
-  wyróżniają się jako nielegalne modele. Działają one poprzez wykorzystywanie pieniędzy nowych inwestorów
-  aby płacić starszym uczestnikom.
+  Menedżer haseł tworzy silne hasła i bezpiecznie je przechowuje, umożliwiając ich łatwe odzyskanie bez konieczności ich zapamiętywania.
 reviewed: false

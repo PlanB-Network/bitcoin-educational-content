@@ -1,10 +1,9 @@
-question: Co je peněženka v kontextu Bitcoinu?
-answer: Digitální trezor pro vaše bitcoiny
+question: Jaké zařízení se doporučuje k zajištění dlouhodobě akumulovaných prostředků?
+answer: Hardware Wallet
 wrong_answers:
-  - Fyzické zařízení pro ukládání bitcoinů
-  - Software pro těžbu bitcoinů
-  - Platforma pro nákup a prodej bitcoinů
+  - Hot Wallet
+  - Blesk Wallet
+  - Platforma Exchange
 explanation: |
-  Obsah kapitoly vysvětluje, že bitcoiny jsou uloženy v tom, co se nazývá
-  peněženka, což je digitální trezor pro vaše peníze. Přístup k ní má pouze držitel klíče.
+  Systém Hardware Wallet ukládá soukromé klíče v režimu offline, čímž poskytuje dlouhodobě vyšší bezpečnost pro značné částky.
 reviewed: false

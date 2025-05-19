@@ -1,9 +1,9 @@
-question: Qual é a importância da escassez do Bitcoin?
-answer: Haverá apenas 21 milhões de bitcoins no mundo e nunca mais.
+question: Qual dos principais intervenientes concebe ASICs para Bitcoin Mining?
+answer: Bitmain
 wrong_answers:
-  - O valor do Bitcoin sempre aumentará
-  - O Bitcoin é difícil de minerar
-  - As transações de Bitcoin são limitadas em número
+  - Trezor
+  - Ledger
+  - Fundição EUA
 explanation: |
-  A escassez do Bitcoin refere-se ao fato de que só haverá 21 milhões de bitcoins. Essa característica, semelhante ao ouro, impede a diluição do valor do Bitcoin por meio de impressão excessiva de dinheiro.
+  A Bitmain é um dos principais fabricantes de hardware especializado para Bitcoin Mining.
 reviewed: false

@@ -1,10 +1,9 @@
-question: Apa itu Bitcoin menurut gerakan cyberpunk?
-answer: Ekuivalen elektronik dari uang tunai
+question: Apa saja yang harus dihindari untuk memastikan keamanan bitcoin Anda?
+answer: Menyimpan bitcoin Anda di platform Exchange
 wrong_answers:
-  - Sebuah bentuk emas digital
-  - Bentuk baru dari kartu kredit
-  - Sejenis cryptocurrency
+  - Menggunakan Hardware Wallet sumber terbuka
+  - Menggunakan Hot Wallet untuk transaksi harian
+  - Diversifikasi metode penyimpanan
 explanation: |
-  Bab tersebut menyebutkan bahwa dari perspektif Cyberpunk, Bitcoin menentang
-  masyarakat tanpa uang tunai. Ini memungkinkan penciptaan transaksi keuangan digital yang sepenuhnya pribadi dan bebas dari perantara. Bagi gerakan cyberpunk, Bitcoin adalah ekuivalen elektronik dari uang tunai.
+  Prinsip "Bukan kunci Anda, bukan bitcoin Anda" menyoroti pentingnya memegang kunci pribadi Anda sendiri. Pada platform Exchange, bitcoin Anda terekspos pada risiko yang tidak perlu.
 reviewed: false

@@ -1,10 +1,21 @@
-id: f654a6bd-b023-4e09-b732-6e488f9c3f42
-chapterId: d4327ac4-9ff8-5192-b542-cb78c0bd0aa7
-difficulty: easy
-duration: 15
-author: DecouvreBitcoin
-original_language: en
+id: 46933355-ac22-46b8-bb5e-cbde613a1e22
+chapterId: baf1adc2-3828-5265-8ee5-130be547585c
+difficulty: intermediate
+duration: 30
+author: pretty-private
+tags:
+  - good-practice
+  - wallets
+
+# Proofreading metadata
+original_language: fr
 proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-21
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -16,26 +27,35 @@ proofreading:
     contributor_names:
     reward: 0.14
   - language: en
-    last_contribution_date: 2024-09-01
+    last_contribution_date:
     urgency: 1
     contributor_names:
-      - Asi0Flammeus
-    reward: 0.07
+    reward: 0.14
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.14
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.15
-  - language: fr
+  - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.19
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16
   - language: it
     last_contribution_date:
     urgency: 1
@@ -46,32 +66,27 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.18
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.18
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.15
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.16
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.15
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
   - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
+  - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
@@ -81,8 +96,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.16
-  - language: pl
+  - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.15
+    reward: 0.16

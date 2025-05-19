@@ -544,7 +544,7 @@ Je, ikiwa mtu atakisia orodha yetu ya maneno 12 au 24 kwa bahati mbaya? Jibu fup
 
 Kwa hivyo, uwezekano wa kuvamia Bitcoin Wallet yako ni mdogo sana ikiwa utafuata mbinu bora za usalama ambazo tutazieleza kwa undani katika sehemu inayofuata.
 
-Kumbuka kuchagua Wallet inayofaa kwa mahitaji na matumizi yako: mafunzo ya kina kuhusu kudhibiti na kupata pochi tofauti yanapatikana katika [sehemu ya mafunzo ya chuo kikuu chetu](https://planb.network/tutorials/Wallet).
+Kumbuka kuchagua Wallet inayofaa kwa mahitaji na matumizi yako: mafunzo ya kina kuhusu kudhibiti na kupata pochi tofauti yanapatikana katika [sehemu ya mafunzo ya chuo kikuu chetu](https://planb.network/tutorials/wallet).
 
 Ikiwa, wakati wa safari yako chini ya shimo la sungura, unataka kujifunza zaidi kuhusu kujenga Bitcoin Wallet, kutoka entropy hadi anwani za kupokea, tunapendekeza kozi ya CYP 201 iliyotolewa kwa mada hii:
 
@@ -669,7 +669,7 @@ Kama aina yoyote ya utajiri, bitcoins zako lazima zilindwe dhidi ya hasara, wizi
 
 Njia moja ya kulinda bitcoins zako kwa muda mrefu ni kuchora maneno yako ya Mnemonic kwenye nyenzo sugu kama vile chuma, kwa kuunda chelezo halisi ya funguo zako zinazostahimili uharibifu wa maji na moto.
 
-Suluhisho anuwai zinapatikana: zingine ni za bei ya chini, kama vile "Blockmit", wakati zingine zinaweza kuhitaji vifaa maalum zaidi. Unaweza kuchunguza mada hii zaidi katika sehemu ya [mafunzo](https://planb.network/en/tutorials/Wallet) ya chuo chetu.
+Suluhisho anuwai zinapatikana: zingine ni za bei ya chini, kama vile "Blockmit", wakati zingine zinaweza kuhitaji vifaa maalum zaidi. Unaweza kuchunguza mada hii zaidi katika sehemu ya [mafunzo](https://planb.network/en/tutorials/wallet) ya chuo chetu.
 
 ![image](assets/en/37.webp)
 
@@ -1176,7 +1176,7 @@ Kuna njia kadhaa za kupata bitcoins, kila chini ya seti yake,ya kanuni ambazo zi
 
 - Majukwaa ya DCA
 
-Kama tulivyoanzisha hapo juu, njia ya kawaida ya kukusanya bitcoins ni Wastani wa Gharama ya Dola (DCA), ambayo inahusisha kununua mara kwa mara kiasi kidogo. Mifumo kadhaa hutoa huduma hii, kama vile zile zilizoorodheshwa kwenye [ukurasa maalum](https://planb.network/tutorials/Exchange). Mbali na usahili wa kusanidi DCA, uondoaji kwa pochi lako kwa ujumla ni kiotomatiki, kumaanisha kuwa utakuwa na udhibiti wa mali yako kila wakati.
+Kama tulivyoanzisha hapo juu, njia ya kawaida ya kukusanya bitcoins ni Wastani wa Gharama ya Dola (DCA), ambayo inahusisha kununua mara kwa mara kiasi kidogo. Mifumo kadhaa hutoa huduma hii, kama vile zile zilizoorodheshwa kwenye [ukurasa maalum](https://planb.network/tutorials/exchange). Mbali na usahili wa kusanidi DCA, uondoaji kwa pochi lako kwa ujumla ni kiotomatiki, kumaanisha kuwa utakuwa na udhibiti wa mali yako kila wakati.
 
 Leo, karibu suluhu zote za DCA zinafaa kwa kiasi na zina karibu ada zinazofanana, kwa hivyo chaguo litategemea zaidi upatikanaji katika nchi yako.
 
@@ -1205,7 +1205,7 @@ Ni muhimu kutambua kwamba KYC ni mada muhimu ya majadiliano katika sekta ya Bitc
 
 ### Suluhu zisizo za KYC
 
-Kwa kuongeza, kuna [maeneo ya soko] (https://planb.network/tutorials/Exchange) ambapo unaweza kununua na kuuza bitcoins katika ubadilishanaji wa rika-kwa-rika. Kwa ujumla, unazingatia yafuatayo:
+Kwa kuongeza, kuna [maeneo ya soko] (https://planb.network/tutorials/exchange) ambapo unaweza kununua na kuuza bitcoins katika ubadilishanaji wa rika-kwa-rika. Kwa ujumla, unazingatia yafuatayo:
 
 
 - ATM za Bitcoin

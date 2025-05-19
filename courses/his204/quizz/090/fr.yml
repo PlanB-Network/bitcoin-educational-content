@@ -1,0 +1,8 @@
+question: Pourquoi dit-on que dans l’échange on donne toujours moins pour recevoir plus ?
+answer: Parce qu’on cède toujours ce que l’on estime moins pour quelque chose qu’on estime plus
+wrong_answers:
+  - Parce que c’est un jeu de dupes, où on vend nos produits plus cher que leur valeur
+  - Parce que l’argent ayant de la valeur, chaque vente est un enrichissement
+  - Parce que les vendeurs sont toujours plus malins que les acheteurs
+explanation: |
+  On donne ce que l'on valorise moins pour obtenir ce que l'on valorise plus, ce qui rend l'échange mutuellement bénéfique.

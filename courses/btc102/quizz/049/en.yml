@@ -1,11 +1,9 @@
-question: What is the main characteristic of a DIY (Do It Yourself) wallet?
-answer: It is a 100% open source solution that can be created at home to reduce trust risks towards other actors in the production or creation chain
+question: What is the main goal of stacking?
+answer: Gradually accumulating satoshis
 wrong_answers:
-  - It is a hardware device for storing bitcoins
-  - It is a software for mining bitcoins
-  - It is a platform for buying and selling bitcoins
+  - Short-term speculation
+  - Buying a large amount of satoshis at once
+  - Using Bitcoin for daily payments
 explanation: |
-  The chapter content explains that DIY (Do It Yourself) wallets are 100%
-  open source solutions that can be created at home to reduce trust risks towards
-  other actors in the production or creation chain.
+  The stacker invests small amounts at regular intervals to average out the purchase price over time.
 reviewed: false

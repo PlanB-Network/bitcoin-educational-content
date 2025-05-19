@@ -2950,13 +2950,13 @@ L'obiettivo del BIP156 è quello di risolvere questo problema. A tal fine, intro
 
 ![BTC204](assets/fr/205.webp)
 
-La transazione viene quindi distribuita all'intera rete nella fase di "capitolazione".
+La transazione viene poi trasmessa all'intera rete nella fase di "Fluff".
 
 ![BTC204](assets/fr/206.webp)
 
-Lo stelo e il capolino sono riferimenti al comportamento della propagazione della transazione attraverso la rete, che ricorda la forma di un dente di leone.
+Lo stelo e la fase "Fluff" fanno riferimento al comportamento della propagazione della transazione attraverso la rete, che ricorda la forma e l'evoluzione di un dente di leone ("Dandelion" in inglese).
 
-Pertanto, i nodi spia possono potenzialmente risalire alla transazione fino al nodo che ha avviato la fase di capitolazione (la trasmissione di massa), ma questo nodo non è quello che ha trasmesso per primo la transazione, poiché l'ha ricevuta dall'ultimo nodo dello stem. Se i nodi spia non possono risalire allo stelo, non possono nemmeno identificare il nodo sorgente.
+Pertanto, i nodi spia possono potenzialmente risalire alla transazione fino al nodo che ha avviato la fase di "Fluff" (la diffusione di massa), ma quel nodo non è quello che ha trasmesso per primo la transazione, poiché l’ha ricevuta dall’ultimo nodo del gambo. Se i nodi spia non riescono a risalire al gambo, non possono nemmeno identificare il nodo sorgente.
 
 ![BTC204](assets/fr/207.webp)
 

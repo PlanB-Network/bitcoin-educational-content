@@ -1,11 +1,9 @@
-question: Jaka jest główna cecha Wallet typu "zrób to sam"?
-answer: Jest to rozwiązanie w 100% open source, które można stworzyć w domu, aby zmniejszyć ryzyko zaufania do innych podmiotów w łańcuchu produkcji lub tworzenia
+question: Jaki jest główny cel stackowania?
+answer: Stopniowe gromadzenie satoshis
 wrong_answers:
-  - Jest to urządzenie sprzętowe do przechowywania bitcoinów
-  - Jest to oprogramowanie dla bitcoinów Mining
-  - Jest to platforma do kupowania i sprzedawania bitcoinów
+  - Spekulacja krótkoterminowa
+  - Zakup dużej ilości satoshi na raz
+  - Korzystanie z Bitcoin do codziennych płatności
 explanation: |
-  Treść rozdziału wyjaśnia, że portfele DIY (Do It Yourself) są w 100%
-  open source, które mogą być tworzone w domu, aby zmniejszyć ryzyko zaufania do
-  innych podmiotów w łańcuchu produkcji lub tworzenia.
+  Inwestor inwestuje niewielkie kwoty w regularnych odstępach czasu, aby uśrednić cenę zakupu w czasie.
 reviewed: false

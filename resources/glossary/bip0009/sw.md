@@ -1,0 +1,5 @@
+---
+term: BIP0009
+---
+
+Njia ya kuwezesha uma za Soft kwenye Bitcoin iliyopendekezwa mwaka wa 2015. Inatanguliza mfumo ambapo wachimbaji huashiria msaada wao kwa Soft Fork kwa kutumia kidogo maalum katika uwanja wa toleo la vitalu. Soft Fork iliyopendekezwa chini ya BIP9 imeamilishwa ikiwa 95% ya vitalu katika kipindi cha vitalu vya 2016 (takriban wiki mbili, sanjari na kila marekebisho ya ugumu) yanaonyesha idhini yao. Baada ya kufungiwa huku, muda wa ziada unatolewa kwa wachimbaji kujiandaa kwa sasisho kabla ya kuwezesha. Ikiwa kizingiti cha 95% haijafikiwa ndani ya muda wa juu uliowekwa, Soft Fork inaachwa. BIP9 inaruhusu kuashiria kwa uma nyingi za Soft kwa wakati mmoja lakini inatoa nguvu kubwa kwa wachimbaji, kana kwamba kizingiti kinachohitajika hakijafikiwa, Soft Fork imeachwa tu. Njia hii ilitumiwa hapo awali kwa SegWit, kabla ya BIP148, ambayo inapendekeza matumizi ya UASF, kuanza kutumika na kulazimisha kufuli kupitia BIP91.

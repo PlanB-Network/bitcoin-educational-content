@@ -1,11 +1,9 @@
-question: Hva er risikoen forbundet med å lagre Bitcoins på en børsplattform?
-answer: Plattformen kan gå konkurs, dine Bitcoins kan bli beslaglagt, eller plattformen kan bli hacket.
+question: Hvem publiserte hvitboken om Bitcoin?
+answer: Satoshi Nakamoto
 wrong_answers:
-  - Plattformen kan øke sine gebyrer, dine Bitcoins kan miste verdi, eller plattformen kan bli hacket.
-  - Plattformen kan gå konkurs, dine Bitcoins kan øke i verdi, eller plattformen kan bli hacket.
-  - Plattformen kan gå konkurs, dine Bitcoins kan bli beslaglagt, eller plattformen kan øke sine gebyrer.
+  - David Chaum
+  - Tim May
+  - Eric Hughes
 explanation: |
-  Å lagre Bitcoins på en børsplattform innebærer risikoer som at plattformen
-  går konkurs, beslagleggelse av dine Bitcoins, eller hacking av plattformen.
-  Dette er grunnen til at det er viktig å ha kontroll over din private nøkkel.
+  Hvitboken ble publisert i slutten av 2008 av Satoshi Nakamoto (et pseudonym).
 reviewed: false

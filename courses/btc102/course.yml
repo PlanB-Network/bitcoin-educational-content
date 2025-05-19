@@ -2,12 +2,13 @@ id: f3e3843d-1a1d-450c-96d6-d7232158b81f
 topic: bitcoin
 subtopic: bitcoin
 level: beginner
-hours: 9
+hours: 14
 
 professors_id:
   - 2e1b5182-567e-453a-af29-36009340ff02
 contributor_names:
   - Asi0Flammeus
+  - LoicPandul
 published_at: 2023-05-17
 
 # Proofreading metadata
@@ -24,10 +25,11 @@ proofreading:
     contributor_names:
     reward: 13.93
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 13.93
+      - ckriptoco
+    reward: 15.07
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
@@ -99,27 +101,64 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 18.52
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.16
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 50.18
 tags:
   - wallets
   - user-friendly
   - personal-security
+
+# videos
+
 videos:
-  - id: c1a469c0-77ed-4c7d-aff0-acb1cc727d76
+  - id: 9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a
     youtube:
-      - ja: LeyI3CBw2g4
-      - fr: LeyI3CBw2g4
-  - id: 93612ecc-08a2-4242-9879-38970b052f44
+      - en: ifVSDGtxZxM
+  - id: 2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
     youtube:
-      - ja: juMUJ3MWeZY
-      - fr: juMUJ3MWeZY
-  - id: 047c7ad4-1cd4-4d19-8255-700add7ba656
+      - en: G78aCcMhefI
+  - id: 7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b
     youtube:
-      - ja: Iq0wZF3Ui9A
-      - fr: Iq0wZF3Ui9A
-  - id: e7016d07-9fce-42d2-8d33-51139fb485e2
+      - en: 4zLze9QWt-E
+  - id: 3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f
     youtube:
-      - ja: fcXvjghA-uM
-      - fr: fcXvjghA-uM
-  - id: bbd89739-728c-49d5-85ab-487881d82246
+      - en: RLl3TjwDnJ0
+  - id: 5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f
     youtube:
-      - fr: d9Ccy17yWB0
+      - en: 42kA6D6ONBY
+  - id: 8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d
+    youtube:
+      - en: EXfWIxTlusA
+  - id: 6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e
+    youtube:
+      - en: H_YcaXbOO90
+  - id: 1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
+    youtube:
+      - en: 7kR_C8oFzq8
+  - id: 3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f
+    youtube:
+      - en: vvwClEg8ZOY
+  - id: 4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b
+    youtube:
+      - en: jlbrq560_JI
+  - id: 5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c
+    youtube:
+      - en: kQyBMuhqfsk
+  - id: 6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d
+    youtube:
+      - en: snoPO_x9-nA
+  - id: 7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e
+    youtube:
+      - en: pfrS9pmdBIE
+  - id: 8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f
+    youtube:
+      - en: b_6MCWYzdGg
+

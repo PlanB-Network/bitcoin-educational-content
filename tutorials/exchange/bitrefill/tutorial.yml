@@ -27,10 +27,11 @@ proofreading:
     contributor_names:
     reward: 1.08
   - language: ja
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 2.07
+      - yutaro21jp
+    reward: 1.03
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -86,6 +87,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.41
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.4
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.41
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.41
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.41
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.74
 tags:
   - user-friendly
   - adoption

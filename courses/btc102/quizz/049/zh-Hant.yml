@@ -1,11 +1,9 @@
-question: DIY (Do It Yourself) Wallet 的主要特徵是什麼？
-answer: 它是 100% 的開放原始碼解決方案，可在家中建立，以降低對生產或創造鏈中其他參與者的信任風險。
+question: 堆疊的主要目的是什麼？
+answer: 逐漸累積的 Satoshis
 wrong_answers:
-  - 它是用來儲存比特幣的硬體裝置
-  - 這是一款用於 Mining 比特幣的軟體
-  - 這是一個買賣比特幣的平台
+  - 短期投機
+  - 一次購買大量的 Satoshis
+  - 使用 Bitcoin 進行每日付款
 explanation: |
-  本章內容說明 DIY (Do It Yourself) 電子錢包是 100%
-  開放原始碼解決方案，可在家中製作，以降低對生產或創造鏈中其他參與者的信任風險。
-  的信任風險。
+  堆疊者每隔一段時間就會投入小額資金，以在一段時間內平均購買價格。
 reviewed: false

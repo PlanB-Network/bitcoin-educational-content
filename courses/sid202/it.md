@@ -537,9 +537,9 @@ In questa sezione imparerete come emettere una quantità maggiore di un'asset gi
 
 La necessità di riemettere un'asset (crearne di più) o di distruggerne una quantità è probabile che possa avvenire quando l'asset rappresenta qualcosa che non ha una fornitura fissa. Questo potrebbe valere, ad esempio, per gli asset che rappresentano l'oro custodito in un caveau; man mano che le unità d'oro entrano ed escono dal caveau, l'asset che rappresenta la fornitura del caveau deve essere regolata di conseguenza.
 
-La riemissione di un importo di un'asset richiede la proprietà del token associato che è stato creato insieme all'asset quando è stata inizialmente emessa.
+La riemissione di un importo di un'asset richiede la proprietà del token associato che è stato creato insieme all'asset quando è stato inizialmente emesso.
 
-Quando si creano altri assets, non importa quale nodo abbia emesso l'asset in primo luogo, purché il nodo che sta riemettendo una quantità di assets sia in possesso di quello che viene comunemente chiamato token di riemissione dell'assets. Vedremo come creare inizialmente il token di riemissione, come usarlo per riemettere una quantità di asset e come trasferire il token di riemissione ad altri nodi, in modo che anch'essi abbiano il permesso di riemettere l'asset.
+Quando si creano altri asset, non importa quale nodo abbia emesso l'asset in primo luogo, purché il nodo che sta riemettendo una quantità di asset sia in possesso di quello che viene comunemente chiamato token di riemissione dell'asset. Vedremo come creare inizialmente il token di riemissione, come usarlo per riemettere una quantità di asset e come trasferire il token di riemissione ad altri nodi, in modo che anch'essi abbiano il permesso di riemettere l'asset.
 
 Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e la risorsa predefinita è stata divisa tra loro.
 

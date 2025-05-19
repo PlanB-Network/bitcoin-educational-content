@@ -535,7 +535,7 @@ In questa sezione abbiamo visto come emettere ed etichettare gli asset. Nella pr
 
 In questa sezione imparerete come emettere una quantità maggiore di un'asset già emessa e come distruggere una determinata quantità di un'asset emesso.
 
-La necessità di riemettere (creare di più) un'asset o di distruggerne una quantità è probabile che si verifichi quando l'asset rappresenta qualcosa che non ha una fornitura fissa. Questo potrebbe valere, ad esempio, per gli asset che rappresentano l'oro custodito in un caveau; man mano che le unità d'oro entrano ed escono dal caveau, l'asset che rappresenta la fornitura del caveau deve essere regolata di conseguenza.
+La necessità di riemettere un'asset (crearne di più) o di distruggerne una quantità è probabile che possa avvenire quando l'asset rappresenta qualcosa che non ha una fornitura fissa. Questo potrebbe valere, ad esempio, per gli asset che rappresentano l'oro custodito in un caveau; man mano che le unità d'oro entrano ed escono dal caveau, l'asset che rappresenta la fornitura del caveau deve essere regolata di conseguenza.
 
 La riemissione di un importo di un'asset richiede la proprietà del token associato che è stato creato insieme all'asset quando è stata inizialmente emessa.
 

@@ -30,6 +30,10 @@ For the new Bitcoiner, it is excellent only if under the supervision of an exper
 
 **Warning:** this guide is big. Don’t try to do all this in one day. It’s best to save the guide and chip away over time.
 
+**Note:** you may want to take a look at the following Electrum full video guide (beware that this doesn't replace the written tutorial, it's an integration of it):
+
+![video](https://youtu.be/NNZdbYd8PUQ)
+
 ## Downloading Electrum
 
 Ideally, use a dedicated Bitcoin computer for your Bitcoin transactions (My guide for this https://armantheparman.com/mint/) _(ALSO available on privacy section)_. It’s fine to practice with small amounts on a “dirty” computer when you’re first learning (who knows how much hidden malware your regular computer has accumulated over the years – you don’t want to expose your Bitcoin wallets to them).

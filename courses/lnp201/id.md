@@ -298,11 +298,11 @@ Namun, sistem ini memiliki kelemahan, yang akan kita bahas di bab berikutnya. Ki
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 :::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
-Dalam bab ini, kita akan mendalami lebih dalam tentang bagaimana transaksi bekerja di Jaringan Lightning dengan membahas mekanisme yang ada untuk melindungi dari kecurangan, memastikan bahwa setiap pihak mematuhi aturan dalam sebuah saluran.
+Dalam bab ini, kita akan membahas lebih rinci tentang bagaimana cara kerja transaksi di Lightning Network (Jaringan Lightning) dengan membahas mekanisme yang ada untuk melindungi dari kecurangan, memastikan bahwa setiap pihak mematuhi aturan dalam sebuah channel (saluran).
 
-### Pengingat: Transaksi Komitmen
+### Ringkasan terkait Transaksi Komitmen
 
-Seperti yang telah dilihat sebelumnya, transaksi di Lightning bergantung pada **transaksi komitmen** yang tidak dipublikasikan. Transaksi ini mencerminkan distribusi dana saat ini di saluran. Ketika transaksi Lightning baru dilakukan, transaksi komitmen baru dibuat dan ditandatangani oleh kedua belah pihak untuk mencerminkan keadaan baru saluran.
+Seperti yang telah dijelaskan sebelumnya, transaksi di Lightning bergantung pada **transaksi komitmen** yang tidak dipublikasikan. Transaksi ini mencerminkan distribusi dana saat ini di saluran. Ketika ada transaksi Lightning yang baru dilakukan, maka transaksi komitmen baru juga dibuat dan ditandatangani oleh kedua belah pihak untuk mencerminkan keadaan baru di saluran tersebut.
 
 Mari kita ambil contoh sederhana:
 
@@ -313,37 +313,36 @@ Mari kita ambil contoh sederhana:
 
 ![LNP201](assets/en/22.webp)
 
-Kapan saja, kedua belah pihak dapat mempublikasikan **transaksi komitmen terakhir** yang ditandatangani untuk menutup saluran dan memulihkan dana mereka.
+Kapan saja, kedua belah pihak dapat mempublikasikan **transaksi komitmen terakhir** yang ditandatangani untuk menutup channel (saluran) dan memulihkan dana mereka.
 
 ### Kekurangan: Kecurangan dengan Memublikasikan Transaksi Lama
 
-Masalah potensial muncul jika salah satu pihak memutuskan untuk **berbuat curang** dengan mempublikasikan transaksi komitmen lama. Misalnya, Alice dapat mempublikasikan transaksi komitmen yang lebih lama di mana dia memiliki **100.000 satoshi**, meskipun sekarang dia hanya memiliki **60.000** secara nyata. Ini akan memungkinkan dia untuk mencuri **40.000 satoshi** dari Bob.
+Masalah dapat muncul jika salah satu pihak memutuskan untuk **berbuat curang** dengan mempublikasikan transaksi komitmen lama. Misalnya, Alice mempublikasikan transaksi komitmen yang lebih lama di mana Alice masih memiliki **100.000 satoshi**, meskipun sekarang Alice hanya memiliki **60.000** secara nyata. Ini akan memungkinkan Alice untuk mencuri **40.000 satoshi** dari Bob.
 
 ![LNP201](assets/en/23.webp)
 
-Lebih buruk lagi, Alice dapat mempublikasikan transaksi penarikan pertama, yang sebelum saluran dibuka, di mana dia memiliki **130.000 satoshi**, dan dengan demikian mencuri seluruh dana saluran.
+Lebih buruk lagi, Alice dapat mempublikasikan withdrawal transaction (transaksi penarikan) pertama, yang sebelum channel (saluran) dibuka, di mana Alice memiliki **130.000 satoshi**, dan mencuri seluruh dana channel (saluran) tersebut.
 
 ![LNP201](assets/en/24.webp)
 
-### Solusi: Kunci Pembatalan dan Timelock
+### Solusi: Revocation Key (Kunci Pembatalan) dan Timelock (Penguncian Waktu)
 
-Untuk mencegah jenis kecurangan ini oleh Alice, di Jaringan Lightning, **mekanisme keamanan** ditambahkan ke transaksi komitmen:
+Untuk mencegah kecurangan seperti yang dilakukan oleh Alice, di Lightning Network (Jaringan Lightning), **mekanisme keamanan** ditambahkan ke transaksi komitmen:
 
-- **Timelock**: Setiap transaksi komitmen mencakup timelock untuk dana Alice. Timelock adalah primitif kontrak pintar yang menetapkan kondisi waktu yang harus dipenuhi agar transaksi dapat ditambahkan ke blok. Ini berarti bahwa Alice tidak dapat memulihkan dana nya sampai sejumlah blok telah berlalu jika dia mempublikasikan salah satu transaksi komitmen. Timelock ini mulai berlaku dari konfirmasi transaksi komitmen. Durasi nya umumnya proporsional dengan ukuran saluran, tetapi juga dapat dikonfigurasi secara manual.
-- **Kunci Pembatalan**: Dana Alice juga dapat segera dihabiskan oleh Bob jika dia memiliki **kunci pembatalan**. Kunci ini terdiri dari rahasia yang dipegang oleh Alice dan rahasia yang dipegang oleh Bob. Perhatikan bahwa rahasia ini berbeda untuk setiap transaksi komitmen.
-   Berikut adalah terjemahan dari teks yang diberikan:
+- **Timelock (penguncian waktu)**: Setiap transaksi komitmen harus disertai timelock (penguncian waktu) untuk dana milik Alice. Timelock (penguncian waktu) adalah aturan dalam kontrak pintar yang menunda pencairan dana hingga waktu tertentu, agar transaksi bisa dimasukkan ke dalam blok di blockchain. Ini berarti bahwa Alice tidak bisa langsung mengambil dananya sampai sejumlah blok telah berlalu semenjak Alice mempublikasikan salah satu transaksi komitmen tersebut. Timelock (penguncian waktu) ini mulai berlaku sejak transaksi komitmen dikonfirmasi di blockchain. Durasi timelock (penguncian waktu) ini umumnya berdasarkan besar dana di channel (saluran), namun juga bisa diatur secara manual.
+- **Revocation Key (Kunci Pembatalan)**: Dana milik Alice juga bisa diambil oleh Bob jika Bob memiliki **revocation key (kunci pembatalan)**. Kunci ini terdiri dari rahasia yang dipegang oleh Alice dan juga Bob. Rahasia ini berbeda untuk setiap transaksi komitmen. 
 
-Berkat dua mekanisme gabungan ini, Bob memiliki waktu untuk mendeteksi upaya Alice untuk menipu, dan untuk menghukumnya dengan mengambil kembali outputnya menggunakan kunci pembatalan, yang bagi Bob berarti memulihkan semua dana dari saluran tersebut. Transaksi komitmen baru kita sekarang akan terlihat seperti ini:
+Berkat dua mekanisme ini, Bob memiliki waktu untuk mendeteksi kecurangan Alice, dan menghukumn Alice dengan mengambil kembali semua dana dari channel (saluran) tersebut menggunakan revocation key (kunci pembatalan). Transaksi komitmen baru kita sekarang akan terlihat seperti ini:
 ![LNP201](assets/en/25.webp)
 
 Mari kita rinci bersama fungsi mekanisme ini.
 
 ### Proses Pembaruan Transaksi
 
-Ketika Alice dan Bob memperbarui status saluran dengan transaksi Lightning baru, mereka bertukar terlebih dahulu **rahasia** masing-masing untuk transaksi komitmen sebelumnya (yang akan menjadi usang dan bisa memungkinkan salah satu dari mereka untuk menipu). Ini berarti bahwa, dalam status baru saluran:
+Ketika Alice dan Bob memperbarui status saluran dengan transaksi Lightning baru, mereka bertukar **rahasia** terlebih dahulu untuk transaksi komitmen sebelumnya (yang akan menjadi kadaluarsa dan memungkinkan disalahgunakan untuk menipu). Ini berarti bahwa, dalam status channel (saluran) yang baru:
 
 - Alice dan Bob memiliki transaksi komitmen baru yang mewakili distribusi dana saat ini setelah transaksi Lightning.
-- Masing-masing memiliki rahasia transaksi sebelumnya dari yang lain, yang memungkinkan mereka untuk menggunakan kunci pembatalan hanya jika salah satu dari mereka mencoba menipu dengan mempublikasikan transaksi dengan status lama di mempool node Bitcoin. Memang, untuk menghukum pihak lain, diperlukan untuk memegang kedua rahasia dan transaksi komitmen pihak lain, yang mencakup input yang ditandatangani. Tanpa transaksi ini, kunci pembatalan sendirian tidak berguna. Satu-satunya cara untuk mendapatkan transaksi ini adalah dengan mengambilnya dari mempool (dalam transaksi yang menunggu konfirmasi) atau dalam transaksi yang dikonfirmasi di blockchain selama timelock, yang membuktikan bahwa pihak lain mencoba menipu, baik sengaja maupun tidak.
+- Masing-masing memiliki rahasia satu sama lain dari transaksi sebelumnya, yang memungkinkan mereka untuk menggunakan revocation key (kunci pembatalan) hanya jika salah satu dari mereka mencoba berbuat curang dengan mempublikasikan transaksi versi lama di mempool/ memory pool (tempat penyimpanan sementara transaksi-transaksi Bitcoin yang sudah valid, tapi belum masuk ke dalam blok di blockchain) node-node Bitcoin. Memang, untuk menghukum pihak lain, diperlukan untuk memegang kedua rahasia dan transaksi komitmen pihak lain, yang mencakup input yang ditandatangani. Tanpa transaksi ini, hanya revocation key (kunci pembatalan) saja tidak akan berguna. Satu-satunya cara untuk mendapatkan transaksi ini adalah dengan mengambilnya dari mempool (dalam transaksi yang menunggu konfirmasi) atau dalam transaksi yang sudah dikonfirmasi di blockchain selama timelock (penguncian waktu), yang membuktikan bahwa pihak lain mencoba curang, baik sengaja maupun tidak.
 
 Mari kita ambil contoh untuk memahami proses ini dengan baik:
 
@@ -351,26 +350,27 @@ Mari kita ambil contoh untuk memahami proses ini dengan baik:
 
 ![LNP201](assets/en/26.webp)
 
-- Bob ingin menerima 40.000 satoshi dari Alice melalui saluran Lightning mereka. Untuk melakukan ini:
-   - Dia mengirimkan faktur bersama dengan rahasianya untuk kunci pembatalan transaksi komitmen sebelumnya.
-   - Sebagai tanggapan, Alice memberikan tanda tangannya untuk transaksi komitmen baru Bob, serta rahasianya untuk kunci pembatalan transaksi sebelumnya.
+- Bob ingin menerima 40.000 satoshi dari Alice melalui channel (saluran) Lightning mereka. Untuk melakukan ini:
+   - Bob mengirimkan invoice (tagihan pembayaran) kepada Alice bersama dengan rahasianya untuk revocation key (kunci pembatalan) transaksi komitmen sebelumnya.
+   - Sebagai tanggapan, Alice memberikan tanda tangannya untuk transaksi komitmen baru Bob, serta rahasianya untuk revocation key (kunci pembatalan) transaksi sebelumnya.
    - Akhirnya, Bob mengirimkan tanda tangannya untuk transaksi komitmen baru Alice.
-   - Pertukaran ini memungkinkan Alice untuk mengirim **40.000 satoshi** kepada Bob di Lightning melalui saluran mereka, dan transaksi komitmen baru sekarang mencerminkan distribusi dana baru ini.
+   - Pertukaran ini memungkinkan Alice untuk mengirim **40.000 satoshi** kepada Bob di Lightning melalui channel (saluran) mereka, dan transaksi komitmen baru sekarang mencerminkan distribusi dana baru ini.
 
 ![LNP201](assets/en/27.webp)
 
-- Jika Alice mencoba mempublikasikan transaksi komitmen lama di mana dia masih memiliki **100.000 satoshi**, Bob, setelah mendapatkan kunci pembatalan, dapat segera memulihkan dana menggunakan kunci ini, sementara Alice diblokir oleh timelock.
+- Jika Alice mencoba mempublikasikan transaksi komitmen lama di mana Alice masih memiliki **100.000 satoshi**, maka Bob setelah mendapatkan revocation key (kunci pembatalan), dapat segera memulihkan dana menggunakan kunci ini, sementara Alice diblokir oleh timelock (penguncian waktu).
 
 ![LNP201](assets/en/28.webp)
 
-Meskipun, dalam kasus ini, Bob tidak memiliki kepentingan ekonomi untuk mencoba menipu, jika dia melakukannya, Alice juga mendapat manfaat dari perlindungan simetris yang memberinya jaminan yang sama.
+Meskipun, dalam kasus ini, Bob tidak memiliki kepentingan ekonomi untuk dalam percobaan kecurangan, jika Bob melakukan kecurangan, Alice juga mendapat manfaat dari perlindungan ini yang memberinya jaminan yang sama.
 
-**Apa yang harus Anda ambil dari bab ini?**
+**Apa yang bisa Anda dapatkan dari bab ini?**
 
-**Transaksi komitmen** di Lightning Network mencakup mekanisme keamanan yang mengurangi baik risiko menipu maupun insentif untuk melakukannya. Sebelum menandatangani transaksi komitmen baru, Alice dan Bob bertukar **rahasia** masing-masing untuk transaksi komitmen sebelumnya. Jika Alice mencoba mempublikasikan transaksi komitmen lama, Bob dapat menggunakan **kunci pembatalan** untuk memulihkan semua dana sebelum Alice bisa (karena dia diblokir oleh timelock), yang menghukumnya karena mencoba menipu.
+**Transaksi komitmen** di Lightning Network (Jaringan Lightning) mencakup mekanisme keamanan yang dapat mengurangi risiko kecurangan maupun insentif untuk melakukannya. Sebelum menandatangani transaksi komitmen baru, Alice dan Bob bertukar **rahasia** masing-masing untuk transaksi komitmen sebelumnya. Jika Alice mencoba mempublikasikan transaksi komitmen lama, Bob dapat menggunakan **revocation key (kunci pembatalan)** untuk mengambil alih semua dana sebelum Alice mengambilnya (karena Alice diblokir oleh timelock), yang menghukumnya karena mencoba curang.
 
-Sistem keamanan ini memastikan bahwa peserta mematuhi aturan Lightning Network, dan mereka tidak dapat memperoleh keuntungan dari mempublikasikan transaksi komitmen lama.
-Pada titik ini dalam pelatihan, Anda sekarang sudah mengetahui bagaimana saluran Lightning dibuka dan bagaimana transaksi dalam saluran ini bekerja. Pada bab selanjutnya, kita akan menemukan berbagai cara untuk menutup saluran dan memulihkan bitcoin Anda di blockchain utama.
+Sistem keamanan ini memastikan bahwa semua pihak mematuhi aturan Lightning Network (Jaringan Lightning), dan mereka tidak dapat memperoleh keuntungan dari mempublikasikan transaksi komitmen lama.
+
+Anda sekarang sudah mengetahui bagaimana saluran Lightning dibuka dan bagaimana transaksi dalam channel (saluran) ini bekerja. Pada bab selanjutnya, kita akan membahas berbagai cara untuk menutup saluran dan memulihkan bitcoin Anda di blockchain utama.
 
 ## Penutupan Saluran
 

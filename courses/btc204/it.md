@@ -2060,7 +2060,7 @@ Per creare un coinjoin tramite Whirlpool, il portafoglio deve generare diversi c
 
 ![BTC204](assets/fr/143.webp)
 
-Un portafoglio HD può teoricamente derivare fino a `2^(32/2)` conti diversi. Il conto iniziale, utilizzato per impostazione predefinita in tutti i portafogli Bitcoin, corrisponde all'indice `0'`.
+Un portafoglio HD può teoricamente derivare fino a `2^(31)` conti diversi. Il conto iniziale, utilizzato per impostazione predefinita in tutti i portafogli Bitcoin, corrisponde all'indice `0'`.
 
 Per i portafogli adattati a Whirlpool, vengono utilizzati 4 conti per soddisfare le esigenze del processo ZeroLink:
 

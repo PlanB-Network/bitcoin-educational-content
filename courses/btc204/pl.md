@@ -2957,7 +2957,7 @@ Aby utworzyć CoinJoin przez Whirlpool, Wallet musi generate kilka oddzielnych k
 ![BTC204](assets/fr/143.webp)
 
 
-HD Wallet może teoretycznie wyprowadzić do `2^(32/2)` różnych kont. Początkowe konto, używane domyślnie we wszystkich portfelach Bitcoin, odpowiada indeksowi `0`.
+HD Wallet może teoretycznie wyprowadzić do `2^(31)` różnych kont. Początkowe konto, używane domyślnie we wszystkich portfelach Bitcoin, odpowiada indeksowi `0`.
 
 
 W przypadku portfeli dostosowanych do Whirlpool używane są 4 konta, aby spełnić potrzeby procesu ZeroLink:

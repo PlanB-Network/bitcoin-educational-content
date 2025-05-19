@@ -2060,7 +2060,7 @@ Um einen Coinjoin über Whirlpool zu erstellen, muss die Wallet mehrere separate
 
 ![BTC204](assets/fr/143.webp)
 
-Eine HD-Wallet kann theoretisch bis zu 2^(32/2)` verschiedene Konten ableiten. Das erste Konto, das standardmäßig bei allen Bitcoin-Wallets verwendet wird, entspricht dem Index "0".
+Eine HD-Wallet kann theoretisch bis zu `2^(31)` verschiedene Konten ableiten. Das erste Konto, das standardmäßig bei allen Bitcoin-Wallets verwendet wird, entspricht dem Index "0".
 
 Für Portfolios, die an Whirlpool angepasst sind, werden 4 Konten verwendet, um den Anforderungen des ZeroLink-Prozesses gerecht zu werden:
 

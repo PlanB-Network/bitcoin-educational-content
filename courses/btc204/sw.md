@@ -2030,7 +2030,7 @@ Ili kuunda kuunga sarafu kupitia Whirlpool, Wallet lazima kuzalisha akaunti kadh
 
 ![BTC204](assets/fr/143.webp)
 
-Pochi la HD linaweza kinadharia kupata hadi akaunti tofauti za `2^(32/2)`. Akaunti ya awali, inayotumiwa na chaguo-msingi kwenye pochi zote za Bitcoin, inalingana na faharasa ya `0'`.
+Pochi la HD linaweza kinadharia kupata hadi akaunti tofauti za `2^(31)`. Akaunti ya awali, inayotumiwa na chaguo-msingi kwenye pochi zote za Bitcoin, inalingana na faharasa ya `0'`.
 
 Kwa portfolios zilizorekebishwa kwa Whirlpool, akaunti 4 hutumiwa kukidhi mahitaji ya mchakato wa ZeroLink:
 

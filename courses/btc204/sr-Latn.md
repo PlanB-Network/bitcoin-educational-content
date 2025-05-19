@@ -2957,7 +2957,7 @@ Da biste kreirali CoinJoin putem Whirlpool, Wallet mora generate nekoliko odvoje
 ![BTC204](assets/fr/143.webp)
 
 
-HD Wallet može teoretski izvesti do `2^(32/2)` različitih naloga. Početni nalog, koji se koristi podrazumevano na svim Bitcoin novčanicima, odgovara `0'` indeksu.
+HD Wallet može teoretski izvesti do `2^(31)` različitih naloga. Početni nalog, koji se koristi podrazumevano na svim Bitcoin novčanicima, odgovara `0'` indeksu.
 
 
 Za portfolije prilagođene Whirlpool, koriste se 4 naloga kako bi se zadovoljile potrebe ZeroLink procesa:

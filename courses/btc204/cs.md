@@ -2060,7 +2060,7 @@ Chcete-li vytvořit coinjoin přes Whirlpool, musí peněženka vygenerovat něk
 
 ![BTC204](assets/fr/143.webp)
 
-Z peněženky HD lze teoreticky odvodit až `2^(32/2)` různých účtů. Počáteční účet, který se ve výchozím nastavení používá ve všech bitcoinových peněženkách, odpovídá indexu `0`.
+Z peněženky HD lze teoreticky odvodit až `2^(31)` různých účtů. Počáteční účet, který se ve výchozím nastavení používá ve všech bitcoinových peněženkách, odpovídá indexu `0`.
 
 U portfolií přizpůsobených systému Whirlpool se pro potřeby procesu ZeroLink používají 4 účty:
 

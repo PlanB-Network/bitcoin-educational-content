@@ -2060,7 +2060,7 @@ Whirlpooli kaudu coinjoini loomiseks peab rahakott looma mitu eraldi kontot. See
 
 ![BTC204](assets/fr/143.webp)
 
-HD rahakott võib teoreetiliselt tuletada kuni `2^(32/2)` erinevaid kontosid. Algne konto, mida kasutatakse vaikimisi kõigis Bitcoini rahakottides, vastab `0'`indeksile.
+HD rahakott võib teoreetiliselt tuletada kuni `2^(31)` erinevaid kontosid. Algne konto, mida kasutatakse vaikimisi kõigis Bitcoini rahakottides, vastab `0'`indeksile.
 
 Whirlpoolile kohandatud portfellide puhul kasutatakse 4 kontot, et vastata ZeroLink protsessi vajadustele:
 

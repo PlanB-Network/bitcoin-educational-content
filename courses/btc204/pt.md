@@ -2060,7 +2060,7 @@ Para criar um coinjoin via Whirlpool, a carteira deve gerar várias contas separ
 
 ![BTC204](assets/fr/143.webp)
 
-Uma carteira HD pode, teoricamente, derivar até `2^(32/2)` contas diferentes. A conta inicial, usada por padrão em todas as carteiras Bitcoin, corresponde ao índice `0'`.
+Uma carteira HD pode, teoricamente, derivar até `2^(31)` contas diferentes. A conta inicial, usada por padrão em todas as carteiras Bitcoin, corresponde ao índice `0'`.
 
 Para as carteiras adaptadas à Whirlpool, são utilizadas 4 contas para responder às necessidades do processo ZeroLink:
 

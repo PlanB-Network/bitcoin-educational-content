@@ -2060,7 +2060,7 @@ Para crear una coinjoin a través de Whirlpool, el monedero debe generar varias 
 
 ![BTC204](assets/fr/143.webp)
 
-Un monedero HD puede teóricamente derivar hasta `2^(32/2)` cuentas diferentes. La cuenta inicial, utilizada por defecto en todos los monederos Bitcoin, corresponde al índice `0'`.
+Un monedero HD puede teóricamente derivar hasta `2^(31)` cuentas diferentes. La cuenta inicial, utilizada por defecto en todos los monederos Bitcoin, corresponde al índice `0'`.
 
 Para las carteras adaptadas a Whirlpool, se utilizan 4 cuentas para satisfacer las necesidades del proceso ZeroLink:
 

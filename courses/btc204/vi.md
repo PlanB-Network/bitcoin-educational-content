@@ -2060,7 +2060,7 @@ Nhờ hệ thống phí này, Whirlpool thực sự nổi bật so với các tr
 
 ![BTC204](assets/fr/143.webp)
 
-Về mặt lý thuyết, ví HD có thể tạo ra tối đa `2^(32/2)` tài khoản khác nhau. Tài khoản ban đầu, được sử dụng theo mặc định trên tất cả các ví Bitcoin, tương ứng với chỉ số `0'`.
+Về mặt lý thuyết, ví HD có thể tạo ra tối đa `2^(31)` tài khoản khác nhau. Tài khoản ban đầu, được sử dụng theo mặc định trên tất cả các ví Bitcoin, tương ứng với chỉ số `0'`.
 
 Đối với danh mục đầu tư được điều chỉnh cho Whirlpool, 4 tài khoản được sử dụng để đáp ứng nhu cầu của quy trình ZeroLink:
 

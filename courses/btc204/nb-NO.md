@@ -2060,7 +2060,7 @@ For å opprette en coinjoin via Whirlpool må lommeboken generere flere separate
 
 ![BTC204](assets/fr/143.webp)
 
-En HD-lommebok kan teoretisk sett utlede opptil `2^(32/2)` forskjellige kontoer. Den første kontoen, som brukes som standard på alle Bitcoin-lommebøker, tilsvarer indeksen `0'.
+En HD-lommebok kan teoretisk sett utlede opptil `2^(31)` forskjellige kontoer. Den første kontoen, som brukes som standard på alle Bitcoin-lommebøker, tilsvarer indeksen `0'.
 
 For porteføljer tilpasset Whirlpool brukes 4 kontoer for å dekke behovene i ZeroLink-prosessen:
 

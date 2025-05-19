@@ -1958,7 +1958,7 @@ Pour réaliser un coinjoin via Whirlpool, le portefeuille doit générer plusieu
 
 ![BTC204](assets/fr/143.webp)
 
-Un portefeuille HD peut théoriquement dériver jusqu'à `2^(32/2)` comptes différents. Le compte initial, utilisé par défaut sur tous les portefeuilles Bitcoin, correspond à l'index `0'`.
+Un portefeuille HD peut théoriquement dériver jusqu'à `2^(31)` comptes différents. Le compte initial, utilisé par défaut sur tous les portefeuilles Bitcoin, correspond à l'index `0'`.
 
 Pour les portefeuilles adaptés à Whirlpool, 4 comptes sont utilisés pour répondre aux besoins du processus de ZeroLink :
 - Le compte **dépôt**, identifié par l'index `0'` ;

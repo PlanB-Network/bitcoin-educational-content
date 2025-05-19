@@ -2060,7 +2060,7 @@ Whirlpoolin kautta tapahtuvaa kolikkoliitosta varten lompakon on luotava useita 
 
 ![BTC204](assets/fr/143.webp)
 
-HD-lompakko voi teoriassa johtaa jopa `2^(32/2)` eri tilejä. Alkuperäinen tili, jota käytetään oletuksena kaikissa Bitcoin-lompakoissa, vastaa `0'`-indeksiä.
+HD-lompakko voi teoriassa johtaa jopa `2^(31)` eri tilejä. Alkuperäinen tili, jota käytetään oletuksena kaikissa Bitcoin-lompakoissa, vastaa `0'`-indeksiä.
 
 Whirlpooliin mukautetuissa salkuissa käytetään 4 tiliä ZeroLink-prosessin tarpeiden täyttämiseksi:
 

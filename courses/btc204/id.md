@@ -2060,7 +2060,7 @@ Untuk membuat coinjoin melalui Whirlpool, wallet harus membuat beberapa akun ter
 
 ![BTC204](assets/fr/143.webp)
 
-Sebuah dompet HD secara teoritis dapat menghasilkan hingga `2^(32/2)` akun yang berbeda. Akun awal, yang digunakan secara default pada semua dompet Bitcoin, berhubungan dengan indeks `0`.
+Sebuah dompet HD secara teoritis dapat menghasilkan hingga `2^(31)` akun yang berbeda. Akun awal, yang digunakan secara default pada semua dompet Bitcoin, berhubungan dengan indeks `0`.
 
 Untuk portofolio yang disesuaikan dengan Whirlpool, 4 akun digunakan untuk memenuhi kebutuhan proses ZeroLink:
 

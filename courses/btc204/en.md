@@ -2060,7 +2060,7 @@ To create a coinjoin via Whirlpool, the wallet must generate several separate ac
 
 ![BTC204](assets/fr/143.webp)
 
-An HD wallet can theoretically derive up to `2^(32/2)` different accounts. The initial account, used by default on all Bitcoin wallets, corresponds to the `0'` index.
+An HD wallet can theoretically derive up to `2^(31)` different accounts. The initial account, used by default on all Bitcoin wallets, corresponds to the `0'` index.
 
 For portfolios adapted to Whirlpool, 4 accounts are used to meet the needs of the ZeroLink process:
 

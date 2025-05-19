@@ -527,7 +527,7 @@ Dietro le quinte, Elements mappa le etichette locali in valori esadecimali per s
 
 In questa sezione abbiamo visto come emettere ed etichettare gli asset. Nella prossima sezione vedremo come riemettere e distruggere le quantità di un'asset emesso.
 
-## Riemissione di Asset (asset)
+## Riemissione di Asset
 
 <chapterId>78751b21-1dc8-4877-a406-e71bc80a95b0</chapterId>
 

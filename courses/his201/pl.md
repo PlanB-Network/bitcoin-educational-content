@@ -40,7 +40,7 @@ Ten kurs ma na celu opowiedzenie historii powstania Bitcoina w sposób, jakiego 
 **Krótki przegląd**
 
 
-Bitcoin został zaprojektowany przez osobę (lub grupę) posługującą się pseudonimem Satoshi Nakamoto. W dniu 31 października 2008 r. udostępnił tzw. White Paper opisujący jego model za pośrednictwem niejasnej listy mailingowej w Internecie. W dniu 8 stycznia 2008 r. wdrożył swoją koncepcję, publikując kod źródłowy oprogramowania i uruchamiając sieć poprzez Mining pierwszych bloków łańcucha. Chcąc przyciągnąć krytyczną liczbę użytkowników, promował swoje dzieło za pośrednictwem różnych kanałów komunikacji.
+Bitcoin został zaprojektowany przez osobę (lub grupę) posługującą się pseudonimem Satoshi Nakamoto. W dniu 31 października 2008 r. udostępnił tzw. białą księgę (z ang. White Paper, ważny dokument w świecie projektów innowacyjnych, zawierający szczegółowy opis danego przedsięwzięcia, przyp. tłum.) opisującą jego model za pośrednictwem ukrytej listy mailingowej w Internecie. W dniu 8 stycznia 2008 r. wdrożył swoją koncepcję, publikując kod źródłowy oprogramowania i uruchamiając sieć poprzez wydobycie pierwszych bloków łańcucha. Chcąc przyciągnąć krytyczną liczbę użytkowników, promował swoje dzieło za pośrednictwem różnych kanałów komunikacji.
 
 
 Po trudnych początkach, bootstrapping systemu ostatecznie miał miejsce w październiku 2009 roku, kiedy jednostka rozliczeniowa - zwana również Bitcoin - zyskała cenę. Pierwsze usługi handlowe zaczęły pojawiać się na początku 2010 roku, zaczynając od usług Exchange, które łączyły się z dolarem. Mniej więcej w tym czasie wdrożono również Mining z wydajniejszą kartą graficzną, a z inicjatywy Laszlo Hanyecza odbył się pierwszy Exchange za towar fizyczny, a konkretnie pizzę.

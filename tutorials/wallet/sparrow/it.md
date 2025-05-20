@@ -40,7 +40,7 @@ Per interagire con la rete Bitcoin e trasmettere le proprie transazioni, Sparrow
 - 🟢 Connessione a un nodo Bitcoin Core. Se si dispone di un nodo Bitcoin Core, è possibile collegarlo a Sparrow Wallet, sia localmente se Bitcoin Core è installato sulla stessa macchina, sia in remoto.
 - 🔵 Connessione tramite un server Electrum. Se il nodo Bitcoin è dotato di Electrum, come nel caso di soluzioni node-in-a-box come Umbrel o Start9, è possibile collegarsi ad esso in remoto da Sparrow.
 
-**È preferibile utilizzare una connessione tramite Electrum o Bitcoin Core sul proprio nodo per ridurre la necessità di affidarsi a terzi e ottimizzare la propria riservatezza**
+**È preferibile utilizzare una connessione tramite Electrs o Bitcoin Core sul proprio nodo per ridurre la necessità di affidarsi a terzi e ottimizzare la propria riservatezza**
 
 ### Connettersi ad un nodo pubblico 🟡
 

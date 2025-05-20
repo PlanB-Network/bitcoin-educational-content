@@ -9,16 +9,16 @@ objectives:
 
 ---
 
-# Zanurz się w historii tworzenia Bitcoin
+# Zanurz się w historię powstania Bitcoina
 
 
-Witamy w kursie poświęconym historii powstania Bitcoin! Jako użytkownik mogłeś się zastanawiać, skąd pochodzi narzędzie, którego używasz. Co więcej, możesz nie rozumieć odniesień do osób i wydarzeń, które naznaczyły krótką historię kryptowaluty. Wreszcie, przestudiowanie tej historii pozwoli ci lepiej zrozumieć samą Bitcoin, odsłaniając kontekst, który ukształtował jej powolną formację.
+Witamy na kursie poświęconym historii powstania Bitcoina! Jako użytkownik mogłeś się zastanawiać, skąd pochodzi narzędzie, którego używasz. Co więcej, możesz nie rozumieć odniesień do osób i wydarzeń związanych z krótką historią kryptowaluty. Wreszcie, przestudiowanie tej historii pozwoli ci lepiej zrozumieć samego Bitcoina, odsłaniając kontekst, który ukształtował jego powolne powstawanie.
 
 
-W tym kursie odkryjesz podróż związaną z jego projektowaniem, uruchomieniem i początkową konstrukcją ekonomiczną. W pierwszej części przyjrzymy się kontekstowi technicznemu, w którym pojawiła się koncepcja Bitcoin. W drugiej części skupimy się na jego narodzinach i bootstrappingu. W trzeciej części zbadamy, w jaki sposób Bitcoin zyskał na znaczeniu pod względem ekonomicznego wykorzystania, produkcji Mining i rozwoju oprogramowania. W czwartej części po prostu prześledzimy, jak Satoshi Nakamoto, twórca Bitcoin, stopniowo znikał i jak społeczność przejęła kontrolę, czyniąc kryptowalutę prawdziwie kolektywnym projektem.
+Na tym kursie odkryjesz informacje związane z jego projektowaniem, uruchomieniem i początkową konstrukcją ekonomiczną. W pierwszej części przyjrzymy się kontekstowi technicznemu, w którym pojawiła się koncepcja Bitcoina. W drugiej części skupimy się na jego narodzinach i bootstrappingu. W trzeciej części zbadamy, w jaki sposób Bitcoin zyskał na znaczeniu w kontekście ekonomicznym, wydobycia i rozwoju oprogramowania. W czwartej części prześledzimy, jak Satoshi Nakamoto, twórca Bitcoina, stopniowo znikał z widoku publicznego i jak społeczność przejęła kontrolę nad projektem, czyniąc go prawdziwie społecznościowym.
 
 
-Kurs ten koncentruje się oczywiście na postaci Satoshi Nakamoto, którego słowa i działania odkryjesz, ale obejmuje także inne postacie, które uczestniczyły w rozwoju Bitcoin w pierwszych latach jego istnienia. W ten sposób poznasz takie osoby jak Hal Finney, Martti Malmi, Laszlo Hanyecz, Gavin Andresen, Jeff Garzik czy Amir Taaki, którzy byli kluczowymi pionierami w tym rozwoju. Mamy nadzieję, że to zanurzenie się w historię początków Bitcoin będzie dla Ciebie korzystne!
+Kurs ten koncentruje się oczywiście na postaci Satoshi Nakamoto, którego słowa i działania odkryjesz, ale obejmuje także inne postacie, które uczestniczyły w rozwoju Bitcoina w pierwszych latach jego istnienia. W ten sposób poznasz takie osoby jak Hal Finney, Martti Malmi, Laszlo Hanyecz, Gavin Andresen, Jeff Garzik czy Amir Taaki, które były kluczowymi pionierami w rozwoju Bitcoina. Mamy nadzieję, że to zanurzenie się w historię początków Bitcoina będzie dla ciebie interesujące!
 
 
 +++
@@ -34,55 +34,55 @@ Kurs ten koncentruje się oczywiście na postaci Satoshi Nakamoto, którego sło
 
 Witamy na kursie HIS201!
 
-Ten kurs ma na celu opowiedzenie historii powstania Bitcoin w sposób, jakiego nigdy wcześniej nie czytałeś. Jest ona często pomijana, mimo że jest wypełniona fascynującymi szczegółami. Postaramy się opisać ją w całej jej złożoności, od jej koncepcji przez Satoshi Nakamoto do jego wczesnego zniknięcia i przekazania społeczności.
+Ten kurs ma na celu opowiedzenie historii powstania Bitcoina w sposób, jakiego nigdy wcześniej nie słyszałeś. Jest ona często pomijana, mimo że jest wypełniona fascynującymi szczegółami. Postaramy się opisać ją w całej jej złożoności, od stworzenia projektu przez Satoshi Nakamoto do jego wczesnego zniknięcia z życia publicznego i przekazania projektu społeczności.
 
 
 **Krótki przegląd**
 
 
-Bitcoin został zaprojektowany przez osobę (lub grupę) posługującą się pseudonimem Satoshi Nakamoto. W dniu 31 października 2008 r. udostępnił białą księgę opisującą jego model za pośrednictwem niejasnej listy mailingowej w Internecie. W dniu 8 stycznia 2008 r. wdrożył swoją koncepcję, publikując kod źródłowy oprogramowania i uruchamiając sieć poprzez Mining pierwszych bloków łańcucha. Chcąc przyciągnąć krytyczną liczbę użytkowników, promował swoje dzieło za pośrednictwem różnych kanałów komunikacji.
+Bitcoin został zaprojektowany przez osobę (lub grupę) posługującą się pseudonimem Satoshi Nakamoto. W dniu 31 października 2008 r. udostępnił tzw. białą księgę opisującą jego model (z ang. White Paper, ważny dokument w świecie projektów innowacyjnych, zawierający szczegółowy opis danego przedsięwzięcia, przyp. korektora) za pośrednictwem ukrytej listy mailingowej w Internecie. W dniu 8 stycznia 2008 r. wdrożył swoją koncepcję, publikując kod źródłowy oprogramowania i uruchamiając sieć poprzez wydobycie pierwszych bloków łańcucha. Chcąc przyciągnąć krytyczną liczbę użytkowników, promował swoje dzieło za pośrednictwem różnych kanałów komunikacji.
 
 
-Po trudnych początkach, bootstrapping systemu ostatecznie miał miejsce w październiku 2009 roku, kiedy jednostka rozliczeniowa - zwana również Bitcoin - zyskała cenę. Pierwsze usługi handlowe zaczęły pojawiać się na początku 2010 roku, zaczynając od usług Exchange, które łączyły się z dolarem. Mniej więcej w tym czasie wdrożono również Mining z wydajniejszą kartą graficzną, a z inicjatywy Laszlo Hanyecza odbył się pierwszy Exchange za towar fizyczny, a konkretnie pizzę.
+Po trudnych początkach, bootstrapping systemu ostatecznie miał miejsce w październiku 2009 roku, kiedy jednostka rozliczeniowa - zwana również bitcoin - zyskała cenę rynkową. Pierwsze usługi handlowe zaczęły pojawiać się na początku 2010 roku, zaczynając od usług wymiany waluty na dolary. Mniej więcej w tym czasie wdrożono również wydobycie z wydajniejszą kartą graficzną, a z inicjatywy Laszlo Hanyecza odbyła się pierwsza transakcja wymiany za towar fizyczny, a konkretnie pizzę.
 
 
-Projekt naprawdę wystartował latem 2010 roku, po opublikowaniu artykułu na bardzo popularnej stronie Slashdot. Exchange z dolarem, Bitcoin Mining, a rozwój oprogramowania znacznie się poprawił w tym okresie. Od jesieni Satoshi Nakamoto stopniowo zaczął się wycofywać, zaprzestając publicznego pisania i stopniowo delegując swoje zadania. Ostatecznie zniknął całkowicie wiosną 2011 r., po przekazaniu dostępu swoim prawym rękom, Marttiemu Malmi i Gavinowi Andresenowi. Społeczność w końcu przejęła kontrolę i zdołała doprowadzić projekt do obecnego stanu.
+Projekt naprawdę wystartował latem 2010 roku, po opublikowaniu artykułu na bardzo popularnej stronie Slashdot. Mozliwosć wymiany na dolary, wydobywanie bitcoina i rozwój oprogramowania w tym okresie znacznie zyskały na jakości. Od jesieni Satoshi Nakamoto stopniowo zaczął się wycofywać, zaprzestając publicznego pisania i stopniowo delegując swoje zadania. Ostatecznie zniknął całkowicie wiosną 2011 r., po przekazaniu dostępu swoim prawym rękom, Marttiemu Malmi i Gavinowi Andresenowi. Społeczność w końcu przejęła kontrolę nad projektem i zdołała doprowadzić go do obecnego stanu.
 
 
-Oprócz tej narracji, Bitcoin ma również swoją prehistorię. Rzeczywiście, nie jest to obiekt, który pojawił się znikąd. Jego stworzenie jest częścią konkretnego kontekstu: poszukiwania sposobu na transkrypcję właściwości gotówki do cyberprzestrzeni. W szczególności, techniczne Elements, które go tworzą, są wynikiem dziesięcioleci badań i eksperymentów, które go poprzedziły. Bitcoin opiera się na:
+Bitcoin ma również swoją prehistorię. Rzeczywiście, nie jest to obiekt, który pojawił się znikąd. Jego stworzenie jest częścią konkretnego kontekstu: poszukiwania sposobu na przeniesienie właściwości gotówki do cyberprzestrzeni. W szczególności elementy techniczne, które go tworzą, są wynikiem dziesięcioleci badań i eksperymentów, które go poprzedziły. Bitcoin opiera się na:
 
 
 
-- Podpis cyfrowy, wywodzący się z kryptografii asymetrycznej powstałej w 1976 roku;
-- Rozproszony konsensus, opracowany w latach 80. w następstwie wczesnego rozwoju Internetu;
-- Znacznik czasu dokumentu, wynaleziony na początku lat 90. wraz z pojawieniem się pierwszych silnych funkcji Hash;
-- Proof of Work, opisany i wdrożony w latach 90.
+- Podpisie cyfrowym, wywodzącym się z kryptografii asymetrycznej powstałej w 1976 roku;
+- Rozproszonym konsensusie, opracowanym w latach 80. w następstwie wczesnego rozwoju Internetu;
+- Znaczniku czasu dokumentu, wynalezionym na początku lat 90. wraz z pojawieniem się pierwszych silnych funkcji Hash;
+- Dowodzie Pracy, opisanym i wdrożonym w latach 90.
 
 
-Projektując Bitcoin, Satoshi Nakamoto był w dużej mierze zainspirowany modelem eCash, koncepcją zaproponowaną przez kryptografa Davida Chauma w 1982 roku i wdrożoną przez jego firmę DigiCash w latach 90-tych. Model ten, który opierał się na procesie ślepego podpisu, pozwalał użytkownikom na dokonywanie wymian w stosunkowo poufny sposób. Opierał się on jednak na scentralizowanej sieci banków, które interweniowały w celu zapobiegania podwójnym wydatkom. Dlatego też, gdy DigiCash zbankrutował, system upadł. Bitcoin poprawił ten problem, eliminując potrzebę zaufanej strony trzeciej.
+Projektując Bitcoina, Satoshi Nakamoto był w dużej mierze zainspirowany modelem eCash, koncepcją zaproponowaną przez kryptografa Davida Chauma w 1982 roku i wdrożoną przez jego firmę DigiCash w latach 90-tych. Model ten, który opierał się na procesie ślepego podpisu, pozwalał użytkownikom na dokonywanie transakcji w stosunkowo poufny sposób. Opierał się on jednak na scentralizowanej sieci banków, które interweniowały w celu zapobiegania podwójnemu wydatkowaniu. Dlatego też, gdy DigiCash zbankrutował, system upadł. Bitcoin poprawił ten problem, eliminując potrzebę zaufanej strony trzeciej.
 
 
 Bitcoin pojawił się w szczególnym kontekście: zamknięcia przez rząd federalny Stanów Zjednoczonych prywatnych systemów walutowych, takich jak cyfrowa waluta złota e-gold w 2008 roku i system Liberty Reserve w 2013 roku. Opierając się na modelu, który dzielił ryzyko między jego uczestników, podobnym do systemów udostępniania peer-to-peer, takich jak BitTorrent, Satoshi Nakamoto stworzył solidny model waluty cyfrowej, który mógł wytrzymać bezpośrednie ataki ze strony państwa.
 
 
-Stworzenie Bitcoin miało również miejsce w kontekście zamknięcia przez państwo prywatnych systemów walutowych, takich jak e-gold i Liberty Reserve. Stanowił on solidny model waluty cyfrowej, który mógł oprzeć się bezpośrednim atakom ze strony rządu federalnego USA. Rozkładając ryzyko pomiędzy swoich uczestników, podobnie jak w przypadku systemów udostępniania peer-to-peer, takich jak BitTorrent, zapewnił sobie przetrwanie.
+Stworzenie Bitcoina miało również miejsce w kontekście zamknięcia przez państwo prywatnych systemów walutowych, takich jak e-gold i Liberty Reserve. Stanowił on solidny model waluty cyfrowej, który mógł oprzeć się bezpośrednim atakom ze strony rządu federalnego USA. Rozkładając ryzyko pomiędzy swoich uczestników, podobnie jak w przypadku systemów udostępniania peer-to-peer, takich jak BitTorrent, zapewnił sobie przetrwanie.
 
 
-Wreszcie, projekt Bitcoin jest spadkobiercą etosu ruchu Cypherpunk, ruchu zbuntowanych kryptografów z lat 90-tych, którzy dążyli do zachowania prywatności i wolności ludzi w Internecie poprzez proaktywne wykorzystanie kryptografii. Bitcoin jest zgodny z projektami takimi jak b-money, bit gold czy RPOW wyobrażonymi przez te osoby pod koniec lat 90. i na początku XXI wieku. Satoshi Nakamoto wspomniał o nich, choć nie był ich świadomy przed zaprojektowaniem Bitcoin i prawdopodobnie nie był częścią oryginalnego ruchu.
+Wreszcie, projekt Bitcoin jest spadkobiercą etosu ruchu Cypherpunk, ruchu zbuntowanych kryptografów z lat 90-tych, którzy dążyli do zachowania prywatności i wolności ludzi w Internecie poprzez proaktywne wykorzystanie kryptografii. Bitcoin jest zgodny z projektami takimi jak b-money, bit gold czy RPOW wykoncypowanymi przez te osoby pod koniec lat 90. i na początku XXI wieku. Satoshi Nakamoto wspomniał o nich, choć nie znał ich przed zaprojektowaniem Bitcoina i prawdopodobnie nie były one częścią oryginalnego ruchu.
 
 
 **Zarys kursu**
 
 
-Kurs ten podzielony jest na cztery części, które koncentrują się odpowiednio na początkach Bitcoin (3 rozdziały), jego powolnym powstawaniu (3 rozdziały), jego początkowym wzroście (3 rozdziały) i kształtowaniu się jego społeczności (4 rozdziały). W sumie zawiera 12 rozdziałów, które są następujące (określony jest również okres, którego dotyczą):
+Kurs ten podzielony jest na cztery części, które koncentrują się kolejno na początkach Bitcoina (3 rozdziały), jego powolnym powstawaniu (3 rozdziały), jego początkowym wzroście (3 rozdziały) i kształtowaniu się jego społeczności (4 rozdziały). W sumie zawiera następujących 12 rozdziałów (określony jest również okres czasu, którego dotyczą):
 
 
 
 - eCash: Elektroniczna gotówka Chaumian (1976-1998)
 - Prywatne waluty cyfrowe (1996-2013)
 - Modele zdecentralizowane przed Nakamoto (1982-2012)
-- Narodziny Bitcoin (sierpień 2008 - styczeń 2009)
-- Prezentacja dla świata (styczeń 2009 - październik 2009)
+- Narodziny Bitcoina (sierpień 2008 - styczeń 2009)
+- Prezentacja projektu (styczeń 2009 - październik 2009)
 - Bootstrapping kryptowaluty (październik 2009-kwiecień 2010)
 - Karty graficzne, pizza i darmowe bitcoiny (kwiecień 2010 - czerwiec 2010)
 - Wielki Slashdotting (czerwiec 2010-lipiec 2010)

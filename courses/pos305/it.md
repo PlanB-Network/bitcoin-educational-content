@@ -282,15 +282,15 @@ Fornisci motivi per cui utilizzare un Server Demo è una cattiva idea per scopi 
 
 Dopo che un commerciante ha creato il proprio account, può gestirlo in Basso a Sinistra dell'interfaccia utente di BTCPay Server. Sotto il pulsante Account, ci sono diverse impostazioni di livello superiore.
 
-- Modalità Scuro/Chiaro.
+- Modalità Chiaro/Scuro.
 - Nascondi le Informazioni Sensibili.
 - Gestisci Account.
 
 ![image](assets/en/3.webp)
 
-### Modalità Scuro e Chiaro
+### Modalità Chiaro o Scuro
 
-Gli utenti di BTCPay Server possono scegliere tra una versione dell'interfaccia utente in Modalità Scuro o Chiaro. Le pagine rivolte ai clienti non cambieranno. Queste ultime usano le impostazioni preferite dal cliente riguardo la modalità scuro o chiaro.
+Gli utenti di BTCPay Server possono scegliere tra una versione dell'interfaccia utente in Modalità Chiaro o Scuro. Le pagine rivolte ai clienti non cambieranno. Queste ultime usano le impostazioni preferite dal cliente riguardo la modalità chiaro o scuro.
 
 ### Nascondi le Informazioni Sensibili
 
@@ -322,7 +322,7 @@ Uno studente potrebbe voler cambiare la sua password. Può farlo andando nella s
 
 Per limitare le conseguenze di una password rubata, è possibile utilizzare l'autenticazione a due fattori (2FA), un metodo di sicurezza relativamente nuovo. È possibile attivare l'autenticazione a due fattori tramite la gestione account e la scheda per l'autenticazione a due fattori. È necessario completare un secondo passaggio dopo aver effettuato l'accesso con il proprio nome utente e password.
 
-BTCPay Server consente due modi per abilitare il 2FA, 2FA basato su App (Authy, Google, Microsoft authenticators) o tramite dispositivi di sicurezza (FIDO2 o LNURL Auth).
+BTCPay Server consente due modi per abilitare il 2FA, 2FA basato su App ([Authy](https://planb.network/it/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7), Google, Microsoft authenticators) o tramite dispositivi di sicurezza (FIDO2 o [LNURL Auth](https://planb.network/it/resources/glossary/lnurl)).
 
 ### Autenticazione a Due Fattori - Basata su App
 

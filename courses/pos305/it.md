@@ -215,22 +215,22 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 
 ### Lavorare con BTCPay Server
 
-L'obiettivo di questo blocco del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore e seguire insieme il Manuale del Corso BTCPay Server. Imparerai come creare un wallet attraverso diversi metodi. Gli esempi includono configurazioni di hot wallet e hardware wallet collegati tramite BTCPay Server Vault. Questi obiettivi verranno perseguiti in un ambiente Demo, a cui il tuo istruttore ti dara accesso.
-Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://directory.btcpayserver.org/filter/hosts. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione, ma sono idonei allo scopo per un'introduzione all'uso di Bitcoin e BTCPay Server.
+L'obiettivo di questa parte del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore assieme al Manuale del Corso BTCPay Server. Imparerai come creare un wallet attraverso diversi metodi. Gli esempi includono configurazioni di hot wallet e hardware wallet collegati tramite BTCPay Server Vault. Questi obiettivi verranno perseguiti in un ambiente Demo, a cui il tuo istruttore ti darà accesso.
+Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://directory.btcpayserver.org/filter/hosts. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione/commercio, ma sono idonei allo scopo per un'introduzione all'uso di Bitcoin e BTCPay Server.
 
-Come tirocinante rockstar di BTCPay Server, potresti avere esperienza precedente nella configurazione di un nodo Bitcoin. Questo corso si riferisce specificamente allo stack software di BTCPay Server.
+Come tirocinante rockstar di BTCPay Server, potresti avere esperienze precedenti nella configurazione di un nodo Bitcoin, mentre questo corso si riferisce specificamente allo stack software di BTCPay Server.
 
 Molte delle opzioni in BTCPay Server esistono in una forma o nell'altra in altri software relativi ai wallet Bitcoin.
 
 ### Schermata di login di BTCPay Server
 
-Quando vieni accolto nell'ambiente Demo, ti viene chiesto di 'Accedere' o 'Creare il tuo account'. Gli amministratori del server potrebbero disattivare la funzionalità di creazione di nuovi account per motivi di sicurezza. I loghi e i colori dei pulsanti di BTCPay Server possono essere modificati perché BTCPay Server è un software open source. Un host di terze parti può applicare il White-label al software e cambiare l'intero aspetto.
+Quando vieni accolto nell'ambiente Demo, ti viene chiesto di 'Accedere' o 'Creare il tuo account'. Gli amministratori del server potrebbero disattivare la funzionalità di creazione di nuovi account per motivi di sicurezza. I loghi e i colori dei pulsanti di BTCPay Server possono essere modificati perché BTCPay Server è un software open source e un host di terze parti può applicare il White-label al software e cambiarne l'intero aspetto qualora fosse neccessario.
 
 ![immagine](assets/en/0.webp)
 
 ### Finestra di creazione di un account
 
-La creazione di account su BTCPay Server richiede stringhe di indirizzi Email validi; example@email.com potrebbe essere una stringa valida per l'Email.
+La creazione di account su BTCPay Server richiede stringhe di indirizzi Email validi (_example@email.com_ potrebbe essere una stringa valida per l'Email).
 
 La password deve essere lunga almeno 8 caratteri, includendo lettere, numeri e caratteri. Dopo aver impostato la password, dovrai digitarla nuovamente per assicurarti che sia uguale a quella inserita la prima volta. 
 Quando sia i campi Email che Password sono compilati correttamente, clicca sul pulsante "Crea Account". Questo salverà l'Email e la password sull'istanza del BTCPay Server dell'istruttore.
@@ -239,11 +239,11 @@ Quando sia i campi Email che Password sono compilati correttamente, clicca sul p
 
 **!Nota!**
 
-Se segui questo corso da solo, creare questo account potrebbe essere qualcosa che potresti fare su un host di terze parti; quindi, ancora una volta, menzioniamo di non usare questi come ambienti di produzione ma solo a scopo di formazione.
+Se segui questo corso da solo, creare questo account potrebbe essere qualcosa che potresti fare su un host di terze parti; quindi, ancora una volta, menzioniamo di non usare questi come ambienti di produzione/commercio ma solo a scopo di formazione.
 
 ### Creazione Account da parte dell'Amministratore di BTCPay Server
 
-L'Amministratore dell'Istanza di BTCPay Server può anche creare account per BTCPay Server. L'Amministratore dell'istanza di BTCPay Server può cliccare su "Impostazioni Server" (1), cliccare sulla scheda "Utenti" (2), e cliccare sul pulsante "+ Aggiungi Utente" (3) in alto a destra della scheda Utenti. Nell'Obiettivo (4.3), imparerai di più sul controllo degli account da parte dell'amministratore.
+L'Amministratore dell'Istanza di BTCPay Server può anche creare account per BTCPay Server, cliccando su "Impostazioni Server" (1), successivamente cliccando sulla scheda "Utenti" (2), e poi cliccando sul pulsante "+ Aggiungi Utente" (3) in alto a destra della scheda Utenti. Nel capitolo 4.3, imparerai di più sul controllo degli account da parte dell'amministratore.
 
 ![image](assets/en/2.webp)
 
@@ -251,9 +251,9 @@ Come amministratore, avrai bisogno dell'indirizzo Email dell'utente per impostar
 
 ### Esempio
 
-Quando segui il corso con un istruttore, segui il link fornito dall'istruttore e crea il tuo account sull'ambiente Demo fornito. Assicurati che il tuo indirizzo email e la password siano salvati in modo sicuro; avrai bisogno di queste credenziali di accesso per il resto degli obiettivi dimostrativi in questo corso.
+Quando segui il corso con un istruttore, segui il link fornito dall'istruttore stesso e crea il tuo account sull'ambiente Demo fornito. Assicurati che il tuo indirizzo email e la password siano salvati in modo sicuro; avrai bisogno di queste credenziali di accesso per il resto degli obiettivi dimostrativi in questo corso.
 
-Il tuo istruttore potrebbe aver raccolto in anticipo l'indirizzo email e inviato un link di invito prima di questo esercizio. Se è già stato preparato, controlla la tua Email.
+Il tuo istruttore potrebbe aver raccolto in anticipo l'indirizzo email e inviato un link di invito prima di questo esercizio. Se è già stato preparato il link, controlla la tua Email.
 
 Quando segui il corso senza un istruttore, crea il tuo account utilizzando l'ambiente demo di BTCPay Server; vai su
 

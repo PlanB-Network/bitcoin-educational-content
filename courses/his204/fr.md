@@ -1123,6 +1123,11 @@ Eli Heckscher, Mercantilism, 2 vols. London: Allen and Unwin. 1935
 
 <isCourseReview>true</isCourseReview>
 
+## Examen final
+
+<chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
+
+<isCourseExam>true</isCourseExam>
 
 ## Conclusion
 <chapterId>3b366ff6-03c8-5f6a-b4c0-ba8186e65d7e</chapterId>

@@ -4,9 +4,9 @@ goal: Da biste stekli duboko razumevanje života, uticaja, protivnika i ekonomsk
 objectives: 
 
   - Saznajte više o životu i istorijskom kontekstu Frédérica Bastiata.
-  - Razumeti intelektualne uticaje na Bastijata.
-  - Ispitaj Bastiatove ideološke protivnike.
-  - Analizirajte ekonomske sofizme prema Bastijatu.
+  - Spoznajte intelektualne uticaje na Bastiata.
+  - Ispitajte Bastiatove ideološke protivnike.
+  - Analizirajte ekonomske sofizme prema Bastiatu.
 
 ---
 
@@ -16,16 +16,16 @@ objectives:
 Ovaj kurs, koji vodi Damien Theillier, poziva vas da zaronite u svet Frédérica Bastiata, francuskog ekonomiste i filozofa čije ideje i dalje utiču na savremenu ekonomsku misao. Kroz 21 video, Damien Theillier istražuje Bastiatov život, njegove intelektualne uticaje, njegove ideološke protivnike, kao i njegove ekonomske teorije.
 
 
-Kurs počinje detaljnim uvodom u Bastiatov život i istorijski kontekst, pre nego što ispita mislioce koji su obeležili njegovo razmišljanje, kao što su Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer i Richard Cobden. Zatim, kurs razmatra Bastiatove protivnike, uključujući Rousseaua, klasično obrazovanje, protekcionizam, socijalizam i Proudhona.
+Kurs počinje detaljnim uvodom u Bastiatov život i istorijski kontekst, pre nego što se osvrne na mislioce koji su obeležili njegovo razmišljanje, kao što su Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer i Richard Cobden. Zatim, kurs razmatra Bastiatove protivnike, uključujući Rousseaua, klasično obrazovanje, protekcionizam, socijalizam i Proudhona.
 
 
-Važan deo kursa posvećen je ekonomskim sofizmima koje je Bastija osudio, kao što su "Ono što se vidi i ono što se ne vidi," "Peticija proizvođača sveća," pljačka kroz oporezivanje, i razlika između dve ekonomske morale. Kurs takođe obrađuje ekonomske harmonije koje je Bastija zagovarao, uključujući čudo tržišta, moć odgovornosti i pravu solidarnost.
+Važan deo kursa posvećen je ekonomskim sofizmima koje je Bastiat osudio, kao što su "Ono što se vidi i ono što se ne vidi," "Peticija proizvođača sveća," pljačka kroz oporezivanje, i razlika između dve ekonomske moralnosti. Kurs takođe obrađuje ekonomske harmonije koje je Bastiat zagovarao, uključujući čudo tržišta, moć odgovornosti i pravu solidarnost.
 
 
-Konačno, kurs se završava refleksijom o "Zakonu", obrađujući ključne pojmove kao što su pravo na imovinu, legalna pljačka i uloga države. Zaključak kursa ponovo razmatra nasleđe Frédérica Bastiata i njegov trajan uticaj na modernu ekonomiju.
+Na kraju, kurs se završava refleksijom o "Zakonu", obrađujući ključne pojmove kao što su pravo na imovinu, legalna pljačka i uloga države. Zaključak kursa ponovo razmatra nasleđe Frédérica Bastiata i njegov trajan uticaj na modernu ekonomiju.
 
 
-Pridružite se Damienu Theillieru u ovom obogaćujućem istraživanju misli Frédérica Bastiata i otkrijte kako njegove ideje mogu osvetliti trenutne ekonomske i političke debate.
+Pridružite se Damienu Theillieru u ovom bogatom istraživanju misli Frédérica Bastiata i otkrijte kako njegove ideje mogu osvetliti trenutne ekonomske i političke debate.
 
 
 +++
@@ -41,7 +41,7 @@ Pridružite se Damienu Theillieru u ovom obogaćujućem istraživanju misli Fré
 <chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
 
 
-Cilj ovog kursa je da vam pruži duboko razumevanje života, intelektualnih uticaja, ideoloških protivnika i ekonomskih teorija Frédérica Bastiata. Kroz ovo strukturirano putovanje, otkrićete kako su njegove ideje oblikovale ekonomsko mišljenje i nastavljaju da utiču na aktuelne debate.
+Cilj ovog kursa je da vam pruži duboko razumevanje života, intelektualnih uticaja, ideoloških protivnika i ekonomskih teorija Frédérica Bastiata. Kroz ovo strukturirano putovanje, otkrićete kako su njegove ideje oblikovale ekonomsku misao i nastavljaju da utiču na aktuelne debate.
 
 
 **Sekcija 1: Uvod**
@@ -51,7 +51,7 @@ Počećemo sa opštim pregledom Frédérica Bastiata, potcenjenog genija ekonomi
 
 **Sekcija 2: Uticaji**
 
-Nastavićemo sa analizom mislilaca koji su oblikovali ekonomske misli Frédérica Bastiata. Saznaćete kako su značajne ličnosti kao što su Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer i Richard Cobden doprinele njegovom intelektualnom razvoju, postavljajući temelje za njegovo razmišljanje o slobodnoj trgovini i tržišnoj ekonomiji.
+Nastavićemo sa analizom mislilaca koji su oblikovali ekonomsku misao Frédérica Bastiata. Saznaćete kako su značajne ličnosti kao što su Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer i Richard Cobden doprinele njegovom intelektualnom razvoju, postavljajući temelje za njegovo razmišljanje o slobodnoj trgovini i tržišnoj ekonomiji.
 
 
 **Sekcija 3: Protivnici**
@@ -61,12 +61,12 @@ Dalje ćemo istražiti Bastiatove kritike njegovih ideoloških protivnika. Bilo 
 
 **Sekcija 4: Ekonomske Zablude**
 
-Ovaj deo je posvećen ekonomskim zabludama koje je razotkrio Bastija, uključujući čuvene "*Ono što se vidi i ono što se ne vidi*" i "*Peticija proizvođača sveća*". Ispitaćemo kako je vešto demonstrirao, kroz satiru i rigoroznu analizu, uobičajene ekonomske greške svog vremena, koje su i danas relevantne.
+Ovaj deo je posvećen ekonomskim zabludama koje je razotkrio Bastiat, uključujući čuvene "*Ono što se vidi i ono što se ne vidi*" i "*Peticija proizvođača sveća*". Ispitaćemo kako je vešto demonstrirao, kroz satiru i rigoroznu analizu, uobičajene ekonomske greške svog vremena, koje su i danas relevantne.
 
 
 **Sekcija 5: Ekonomske Harmonije**
 
-Ovde ćete otkriti Bastiatovu pozitivnu viziju ekonomije. Razmotrićemo Address pojmove kao što su čudo tržišta, moć individualne odgovornosti i razlika između prave i lažne solidarnosti. Bastiat je posmatrao ekonomiju kao koherentan sistem gde dobro shvaćen lični interes koristi opštem dobru. Istražićemo zašto.
+Ovde ćete otkriti Bastiatovu pozitivnu viziju ekonomije. Obradićemo pojmove kao što su čudo tržišta, moć individualne odgovornosti i razlika između prave i lažne solidarnosti. Bastiat je posmatrao ekonomiju kao koherentan sistem gde dobro shvaćen lični interes koristi opštem dobru. Istražićemo zašto.
 
 
 **Odjeljak 6: Zakon**

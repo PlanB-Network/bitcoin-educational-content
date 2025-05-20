@@ -181,12 +181,29 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 
 - Nodo
 - Mempool
-- Obiettivo di Difficoltà
+- Difficulty Target
 - Blocco
 
 **Discutere il significato di alcuni termini aggiuntivi come gruppo:**
 
-Blockchain, Transazione, Doppia Spesa, Problema dei Generali Bizantini, Mining, Proof of Work (PoW), Funzione di Hash, Ricompensa del Blocco, Blockchain, Chain più Lunga, Attacco del 51%, Output, Blocco dell'Output, Cambio, satoshi, Chiave Pubblica/Privata, Indirizzo, Crittografia a Chiave Pubblica, Firma Digitale, Wallet.
+- Blockchain
+- Transazione
+- Doppia Spesa
+- Problema dei Generali Bizantini
+- Mining
+- Proof of Work (PoW)
+- Funzione di Hash
+- Block Reward
+- Chain più lunga
+- Attacco del 51%
+- Output
+- Output Lock
+- Resto
+- satoshi,
+- Chiave Pubblica/Privata
+- Indirizzo
+- Crittografia a Chiave Pubblica
+- Firma Digitale, Wallet.
 
 # Introduzione a BTCPay Server
 

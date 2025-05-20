@@ -297,7 +297,7 @@ Cliccare su "*Apply*" per finalizzare la creazione del portafoglio.
 
 ![Image](assets/fr/39.webp)
 
-Impostate una password forte per proteggere l'accesso al vostro Sparrow Wallet. Questa password proteggerà le chiavi pubbliche, gli indirizzi e la cronologia delle transazioni. Si consiglia di salvarla in un gestore di password. Si noti che questa password non ha alcun ruolo nella derivazione delle chiavi. Anche senza di essa, è possibile recuperare l'accesso ai bitcoin con frase Mnemonic tramite qualsiasi software compatibile con BIP39.
+Impostate una password forte per proteggere l'accesso al vostro Sparrow Wallet. Questa password proteggerà le chiavi pubbliche, gli indirizzi e la cronologia delle transazioni. Si consiglia di salvarla in un gestore di password. Si noti che questa password non ha alcun ruolo nella derivazione delle chiavi. Anche senza di essa, è possibile recuperare l'accesso ai Bitcoin con frase Mnemonic tramite qualsiasi software compatibile con BIP39.
 
 ![Image](assets/fr/40.webp)
 

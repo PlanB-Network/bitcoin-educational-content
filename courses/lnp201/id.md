@@ -388,43 +388,43 @@ Dalam bab ini, kita akan membahas **penutupan channel (saluran)** di Lightning N
 
 ### Tiga jenis penutupan saluran
 
-Ada tiga cara utama untuk menutup saluran ini, yang dapat disebut **yang baik, yang kasar, dan yang nakal** (terinspirasi oleh Andreas Antonopoulos dalam _Mastering the Lightning Network_):
+Ada tiga cara untuk menutup channel (saluran), yang disebut **yang baik, yang kasar, dan yang curang** (terinspirasi oleh Andreas Antonopoulos dalam _Mastering the Lightning Network_):
 
-- **Yang Baik**: **penutupan kooperatif**, di mana Alice dan Bob setuju untuk menutup saluran.
-- **Yang Buruk**: **penutupan paksa**, di mana salah satu pihak memutuskan untuk menutup saluran dengan jujur, tetapi tanpa persetujuan pihak lain.
-- **Yang Jelek**: **penutupan dengan kecurangan**, di mana salah satu pihak mencoba mencuri dana dengan mempublikasikan transaksi komitmen lama (apapun kecuali yang terakhir, yang mencerminkan distribusi dana yang sebenarnya dan adil).
+- **Yang Baik**: **penutupan kooperatif**, di mana Alice dan Bob setuju untuk menutup channel (saluran).
+- **Yang Kasar**: **penutupan paksa**, di mana salah satu pihak memutuskan untuk menutup channel (saluran) dengan jujur, tetapi tanpa persetujuan pihak lain.
+- **Yang Buruk**: **penutupan dengan kecurangan**, di mana salah satu pihak mencoba mencuri dana dengan mempublikasikan transaksi komitmen lama (transaksi komitmen manapun selain yang terakhir yang mencerminkan distribusi dana yang sebenarnya dan adil).
 
 Mari kita ambil contoh:
 
 - Alice memiliki **100.000 satoshi** dan Bob **30.000 satoshi**.
-- Distribusi ini tercermin dalam **2 transaksi komitmen** (satu per pengguna) yang tidak dipublikasikan, tetapi bisa saja dalam kejadian penutupan saluran.
+- Distribusi ini tercermin dalam **2 transaksi komitmen** (masing-masing satu untuk setiap pengguna) yang tidak dipublikasikan, tetapi dapat dipublikasikan jika penutupan saluran.
 
 ![LNP201](assets/en/30.webp)
 
-### Yang Baik: penutupan kooperatif
+### Yang Baik: Penutupan Kooperatif
 
-Dalam **penutupan kooperatif**, Alice dan Bob setuju untuk menutup saluran. Begini caranya:
+Dalam **penutupan kooperatif**, Alice dan Bob setuju untuk menutup channel (saluran). Begini caranya:
 
-- Alice mengirim pesan ke Bob melalui protokol komunikasi Lightning untuk mengusulkan penutupan saluran.
-- Bob setuju, dan kedua pihak tidak melakukan transaksi lebih lanjut di saluran.
+- Alice mengirim pesan ke Bob melalui protokol komunikasi Lightning untuk mengusulkan penutupan channel (saluran).
+- Bob setuju, dan kedua pihak tidak melakukan transaksi lebih lanjut di channel (saluran).
 
 ![LNP201](assets/en/31.webp)
 
-- Alice dan Bob bersama-sama menegosiasikan biaya dari **transaksi penutupan**. Biaya ini umumnya dihitung berdasarkan pasar biaya Bitcoin pada saat penutupan. Penting untuk dicatat bahwa **selalu orang yang membuka saluran** (Alice dalam contoh kita) yang membayar biaya penutupan.
-- Mereka membuat **transaksi penutupan** baru. Transaksi ini menyerupai transaksi komitmen, tetapi tanpa timelock atau mekanisme pencabutan, karena kedua pihak bekerja sama dan tidak ada risiko kecurangan. Transaksi penutupan kooperatif ini oleh karena itu berbeda dari transaksi komitmen.
-   Misalnya, jika Alice memiliki **100.000 satoshi** dan Bob **30.000 satoshi**, transaksi penutupan akan mengirim **100.000 satoshi** ke alamat Alice dan **30.000 satoshi** ke alamat Bob, tanpa batasan timelock. Setelah transaksi ini ditandatangani oleh kedua belah pihak, Alice akan mempublikasikannya. Setelah transaksi dikonfirmasi di blockchain Bitcoin, saluran Lightning akan resmi ditutup.
+- Alice dan Bob berdiskusi bersama biaya dari **transaksi penutupan**. Biaya ini umumnya dihitung berdasarkan pasar biaya Bitcoin pada saat penutupan. Penting untuk dicatat bahwa **selalu orang yang membuka channel (saluran)** (Alice dalam contoh kita) yang membayar biaya penutupan.
+- Mereka membuat **transaksi penutupan** baru. Transaksi ini menyerupai transaksi komitmen, tetapi tanpa timelock (penguncian waktu) atau mekanisme revocation (pencabutan), karena kedua pihak bekerja sama dan tidak ada risiko kecurangan. Transaksi penutupan kooperatif ini oleh karena itu berbeda dari transaksi komitmen.
+   Misalnya, jika Alice memiliki **100.000 satoshi** dan Bob **30.000 satoshi**, transaksi penutupan akan mengirim **100.000 satoshi** ke alamat Alice dan **30.000 satoshi** ke alamat Bob, tanpa batasan timelock (penguncian waktu). Setelah transaksi ini ditandatangani oleh kedua belah pihak, Alice akan mempublikasikannya. Setelah transaksi dikonfirmasi di blockchain Bitcoin, channel (saluran) Lightning akan resmi ditutup.
    ![LNP201](assets/en/32.webp)
 
 **Penutupan kooperatif** adalah metode penutupan yang disukai karena cepat (tanpa timelock) dan biaya transaksi disesuaikan menurut kondisi pasar Bitcoin saat ini. Ini menghindari pembayaran yang terlalu sedikit, yang bisa berisiko memblokir transaksi di mempool, atau membayar terlalu banyak secara tidak perlu, yang mengakibatkan kerugian finansial yang tidak perlu bagi para peserta.
 
-### Yang Buruk: penutupan paksa
+### Yang Kasar: Penutupan Paksa
 
-Ketika node Alice mengirim pesan ke Bob meminta penutupan kooperatif, jika dia tidak merespon (misalnya, karena gangguan internet atau masalah teknis), Alice dapat melanjutkan dengan **penutupan paksa** dengan mempublikasikan **transaksi komitmen terakhir yang ditandatangani**.
+Ketika node Alice mengirim pesan ke Bob meminta penutupan kooperatif, jika Bob tidak merespon (misalnya, karena gangguan internet atau masalah teknis), Alice dapat melanjutkan dengan **penutupan paksa** dengan mempublikasikan **transaksi komitmen terakhir yang ditandatangani**.
 Dalam kasus ini, Alice akan mempublikasikan transaksi komitmen terakhir, yang mencerminkan keadaan saluran pada saat transaksi Lightning terakhir terjadi dengan distribusi dana yang benar.
 
 ![LNP201](assets/en/33.webp)
 
-Transaksi ini mencakup **timelock** untuk dana Alice, membuat penutupan menjadi lebih lambat.
+Transaksi ini mencakup **timelock (penguncian waktu)** untuk dana Alice, membuat penutupan menjadi lebih lambat.
 
 ![LNP201](assets/en/34.webp)
 
@@ -432,38 +432,38 @@ Juga, biaya dari transaksi komitmen mungkin tidak sesuai pada saat penutupan, ka
 
 Secara ringkas, **penutupan paksa** adalah opsi terakhir ketika rekan tidak lagi merespon. Ini lebih lambat dan kurang ekonomis daripada penutupan kooperatif. Oleh karena itu, sebisa mungkin harus dihindari.
 
-### Kecurangan: penipuan
+### Yang Buruk: Dengan Kecurangan
 
-Akhirnya, penutupan dengan **kecurangan** terjadi ketika salah satu pihak mencoba mempublikasikan transaksi komitmen lama, seringkali di mana mereka memiliki lebih banyak dana daripada yang seharusnya. Misalnya, Alice mungkin mempublikasikan transaksi lama di mana dia memiliki **120.000 satoshi**, sementara dia sebenarnya hanya memiliki **100.000** sekarang.
+Yang terakhir, penutupan dengan **kecurangan** terjadi ketika salah satu pihak mencoba mempublikasikan transaksi komitmen lama, seringkali di mana mereka memiliki lebih banyak dana daripada yang seharusnya. Misalnya, Alice mungkin mempublikasikan transaksi lama di mana dia memiliki **120.000 satoshi**, sementara dia sebenarnya hanya memiliki **100.000** sekarang.
 
 ![LNP201](assets/en/35.webp)
 
-Bob, untuk mencegah kecurangan ini, memantau blockchain Bitcoin dan mempoolnya untuk memastikan Alice tidak mempublikasikan transaksi lama. Jika Bob mendeteksi upaya kecurangan, dia dapat menggunakan **kunci pembatalan** untuk mengambil dana Alice dan menghukumnya dengan mengambil seluruh dana saluran. Karena Alice diblokir oleh timelock pada outputnya, Bob memiliki waktu untuk menghabiskannya tanpa timelock di sisinya untuk memulihkan seluruh jumlah pada alamat yang dia miliki.
+Bob, untuk mencegah kecurangan ini, memantau mempool dan blockchain Bitcoin untuk memastikan Alice tidak mempublikasikan transaksi lama. Jika Bob mendeteksi upaya kecurangan, dia dapat menggunakan **kunci pembatalan** untuk mengambil dana Alice dan menghukumnya dengan mengambil seluruh dana channel (saluran). Karena Alice diblokir oleh timelock (penguncian waktu) pada outputnya (dana yang dimiliki Alice), Bob memiliki waktu untuk menggunakan dana tanpa timelock (penguncian waktu) di sisinya untuk mengambil seluruh dana yang ada di address (alamat) Bob.
 
 ![LNP201](assets/en/36.webp)
 
-Jelas, kecurangan berpotensi berhasil jika Bob tidak bertindak dalam waktu yang ditetapkan oleh timelock pada output Alice. Dalam kasus ini, output Alice dibuka, memungkinkannya untuk mengkonsumsinya untuk membuat output baru ke alamat yang dia kontrol.
+Jelas bahwa kecurangan Alice berpotensi berhasil jika Bob tidak bertindak dalam waktu yang ditetapkan oleh timelock (penguncian waktu) pada output milik Alice. Dalam kasus ini, output Alice akan terbuka (unlocked), sehingga Alice dapat menggunakannya untuk membuat output baru ke address (alamat) yang dia miliki.
 
-**Apa yang harus Anda ambil dari bab ini?**
+**Apa yang bisa Anda dapatkan dari bab ini?**
 
 Ada tiga cara untuk menutup saluran:
 
-- **Penutupan Kooperatif**: Cepat dan kurang mahal, di mana kedua belah pihak setuju untuk menutup saluran dan mempublikasikan transaksi penutupan yang disesuaikan.
-- **Penutupan Paksa**: Kurang diinginkan, karena bergantung pada penerbitan transaksi komitmen, dengan biaya yang mungkin tidak sesuai dan timelock, yang memperlambat penutupan.
-- **Kecurangan**: Jika salah satu pihak mencoba mencuri dana dengan mempublikasikan transaksi lama, pihak lain dapat menggunakan kunci pembatalan untuk menghukum kecurangan tersebut.
-   Dalam bab-bab berikutnya, kita akan menjelajahi Jaringan Lightning dari perspektif yang lebih luas, berfokus pada bagaimana jaringannya beroperasi.
+- **Penutupan Kooperatif**: Cepat dan lebih terjangkau, di mana kedua belah pihak setuju untuk menutup saluran dan mempublikasikan transaksi penutupan yang disesuaikan.
+- **Penutupan Paksa**: Kurang diinginkan, karena bergantung pada penerbitan transaksi komitmen, dengan biaya yang mungkin tidak sesuai dan timelock (penguncian waktu), yang memperlambat penutupan.
+- **Penutupan dengan Kecurangan**: Jika salah satu pihak mencoba mencuri dana dengan mempublikasikan transaksi lama, pihak lain dapat menggunakan revocation key (kunci pembatalan) untuk menghukum kecurangan tersebut.
+   Dalam bab-bab berikutnya, kita akan meembahas Lightning Network (Jaringan Lightning) dari perspektif yang lebih luas, berfokus pada bagaimana jaringannya beroperasi.
 
 # Jaringan Likuiditas
 
 <partId>a873f1cb-751f-5f4a-9ed7-25092bfdef11</partId>
 
-## Jaringan Lightning
+## Lightning Network
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-Dalam bab ini, kita akan menjelajahi bagaimana pembayaran di Jaringan Lightning dapat mencapai penerima meskipun mereka tidak terhubung langsung oleh saluran pembayaran. Lightning memang merupakan **jaringan dari saluran pembayaran**, yang memungkinkan dana dikirim ke node yang jauh melalui saluran dari peserta lain. Kita akan menemukan bagaimana pembayaran dialihkan melintasi jaringan, bagaimana likuiditas bergerak antar saluran, dan bagaimana biaya transaksi dihitung.
+Dalam bab ini, kita akan membahas bagaimana pembayaran di Lightning Network (Jaringan Lightning) dapat mencapai penerima meskipun mereka tidak terhubung langsung oleh payment saluran pembayaran. Lightning memang merupakan **jaringan dari saluran pembayaran**, yang memungkinkan dana dikirim ke node yang jauh melalui saluran dari peserta lain. Kita akan menemukan bagaimana pembayaran dialihkan melintasi jaringan, bagaimana likuiditas bergerak antar saluran, dan bagaimana biaya transaksi dihitung.
 
 ### Jaringan Saluran Pembayaran
 

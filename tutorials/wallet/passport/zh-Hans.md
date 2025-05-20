@@ -1,5 +1,5 @@
 ---
-name: 护照 - 基金会
+name: Passport Core
 description: 在手动模式下配置和使用 Passport 硬件钱包
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: 在手动模式下配置和使用 Passport 硬件钱包
 Passport 是一款纯比特币硬件钱包，由 2020 年 4 月在波士顿成立的美国公司 Foundation Devices 设计。
 
 本教程介绍的 Passport "*Batch 2*" 是 "*Founder's Edition*" 的继任者。它采用高端设计，配备高分辨率彩色屏幕和符合人体工学的物理键盘。设备以 "*Air-Gap*" 模式运行，确保钱包的私钥完全隔离，并通过 MicroSD 卡或 QR 码进行数据交换。该设备配备了可拆卸的 1200mAh 诺基亚 BL-5C 充电电池。这款非专有电池可以轻松更换，因为 BL-5C 型号在市场上广泛可用。
+
+💡 **更新：** 自2025年3月起，该硬件钱包不再称为“Passport”或“Passport V2”，而是“Passport Core”。
 
 在连接性方面，Passport 配备了一个 MicroSD 端口、一个用于充电的 USB-C 端口和一个用于扫描二维码的后置摄像头。
 
@@ -483,3 +485,4 @@ Sparrow 将在您的产品组合中显示第一个空白收据地址。您可以
 如需了解更多信息，请参阅我们的 Liana 软件教程：
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

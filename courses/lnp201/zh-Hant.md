@@ -2,7 +2,6 @@
 name: Lightning Network 理論介紹
 goal: 從技術角度探索 Lightning Network
 objectives: 
-
   - 瞭解網路頻道的運作。
   - 熟悉詞彙 HTLC、LNURL 和 UTXO。
   - 同化流動資金的管理和 LNN 的費用。

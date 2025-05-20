@@ -1,5 +1,5 @@
 ---
-name: Pasipoti - Msingi
+name: Passport Core
 description: Kusanidi na kutumia Pasipoti Hardware Wallet katika hali ya mwongozo
 ---
 ![cover](assets/cover.webp)
@@ -10,6 +10,7 @@ Pasipoti ni Hardware Wallet ya Bitcoin pekee, iliyoundwa na Foundation Devices, 
 
 Pasipoti "*Kundi la 2*" iliyotolewa katika somo hili ni mrithi wa "*Toleo la Mwanzilishi*". Inatofautishwa na muundo wake wa hali ya juu, skrini ya rangi yenye ubora wa juu, na kibodi halisi ya ergonomic. Inafanya kazi katika hali ya "*Air-Gap*", kuhakikisha kuwa funguo zako za faragha za Wallet zinasalia kutengwa kabisa, na mawasiliano yanawezekana kupitia kadi ya MicroSD au misimbo ya QR. Kifaa kina vifaa vya betri ya Nokia BL-5C inayoweza kutolewa, inayoweza kuchajiwa na uwezo wa 1200 mAh. Betri hii isiyo ya umiliki inaweza kubadilishwa kwa urahisi, kwani mfano wa BL-5C unapatikana sana katika maduka.
 
+💡 **Sasisho:** Kuanzia Machi 2025, jina la pochi hii ya vifaa si tena "Passport" au "Passport V2", bali ni "Passport Core".
 
 Kuhusu muunganisho, Pasipoti ina mlango wa MicroSD, mlango wa USB-C wa kuchaji, na kamera ya nyuma ya kuchanganua misimbo ya QR.
 

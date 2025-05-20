@@ -2,7 +2,6 @@
 name: Utangulizi wa Kinadharia kwa Lightning Network
 goal: Gundua Lightning Network kutoka kwa mtazamo wa kiufundi
 objectives: 
-
   - Kuelewa uendeshaji wa njia za mtandao.
   - Jifahamishe na masharti HTLC, LNURL, na UTXO.
   - Kusasisha usimamizi wa ukwasi na ada za LNN.
@@ -47,6 +46,7 @@ Sehemu hii inawasilisha zana za vitendo za Mtandao wa Umeme, kama vile *Ankara*,
 Hatimaye, tutahitimisha mafunzo kwa kurejea dhana zilizoshughulikiwa na kuweka njia ya mada za juu zaidi kwa wale wanaotaka kuongeza ujuzi wao wa Mtandao wa Umeme.
 
 Je, uko tayari kufichua mbinu za kiufundi za Mtandao wa Umeme? Hebu tuzame ndani!
+
 # Misingi
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

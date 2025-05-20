@@ -2030,7 +2030,7 @@ Ili kuunda kuunga sarafu kupitia Whirlpool, Wallet lazima kuzalisha akaunti kadh
 
 ![BTC204](assets/fr/143.webp)
 
-Pochi la HD linaweza kinadharia kupata hadi akaunti tofauti za `2^(32/2)`. Akaunti ya awali, inayotumiwa na chaguo-msingi kwenye pochi zote za Bitcoin, inalingana na faharasa ya `0'`.
+Pochi la HD linaweza kinadharia kupata hadi akaunti tofauti za `2^(31)`. Akaunti ya awali, inayotumiwa na chaguo-msingi kwenye pochi zote za Bitcoin, inalingana na faharasa ya `0'`.
 
 Kwa portfolios zilizorekebishwa kwa Whirlpool, akaunti 4 hutumiwa kukidhi mahitaji ya mchakato wa ZeroLink:
 
@@ -2487,8 +2487,7 @@ Hata hivyo, itakuwa ya kuvutia kuwa na miundo ya shughuli ambayo inaruhusu malip
 
 Ulipaji wa kujiunga ni muundo mahususi wa muamala wa Bitcoin ambao huongeza faragha ya mtumiaji wakati wa kutumia kwa kushirikiana na mpokeaji malipo.
 
-LaurentMT kwa mara ya kwanza aliitaja njia hii kama "*steganographic transaction*" mnamo 2015, kulingana na hati inayopatikana. [hapa](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Mbinu hiyo ilipitishwa baadaye na Pochi la Samourai, ambalo mnamo 2018 likawa mteja wa kwanza kulitekeleza kwa zana ya Stowaway. Dhana ya ulipaji wa kujiunga pia inaweza kupatikana katika [BIP79](https://github.com/Bitcoin/bips/blob/master/bip-0079.mediawiki) na [BIP78](https://github.com/Bitcoin/bips/blob/master/bip-0078).mediawiki). Maneno kadhaa hutumiwa kuteua kulipa kujiunga:
-
+Mnamo mwaka wa 2015, LaurentMT alitaja kwa mara ya kwanza mbinu hii kwa jina la "*steganographic transactions*", kulingana na hati inayopatikana [hapa](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Mbinu hii baadaye ilikubaliwa na pochi ya Samourai Wallet, ambayo mwaka 2018 ilikuwa mteja wa kwanza kuitekeleza kwa kutumia zana ya Stowaway. Wazo la payjoin pia linapatikana katika [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki), na [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Istilahi kadhaa hutumiwa kuelezea payjoin:
 
 - PayJoin (malipo ya kujiunga);
 - Stowaway;

@@ -96,7 +96,7 @@ Source avril 2025 : [StatCounter Global Stats - OS Market Share](https://gs.stat
 
 Par ailleurs, on retrouve Linux massivement intégré dans les équipements embarqués, tels que les routeurs, les télévisions connectées, les smartphones (Android étant basé sur un noyau Linux) et même dans l’industrie automobile. Windows conserve une forte implantation en entreprise, tandis que macOS est privilégié par les professionnels dans certains secteurs spécifiques.
 
-💡 **Important :** Le noyau est le composant central du système d’exploitation : il orchestre l’accès au matériel (processeur, mémoire, périphériques), arbitre l’exécution simultanée des processus, applique les politiques de sécurité et expose aux programmes une interface uniforme qui masque la complexité des circuits électroniques. Autrement dit, il sert d’intermédiaire entre l'environnement logiciel (bibliothèques, pilotes, shell, services, outils d’administration, interface graphique...) et la machine.
+→ **Important :** Le noyau est le composant central du système d’exploitation : il orchestre l’accès au matériel (processeur, mémoire, périphériques), arbitre l’exécution simultanée des processus, applique les politiques de sécurité et expose aux programmes une interface uniforme qui masque la complexité des circuits électroniques. Autrement dit, il sert d’intermédiaire entre l'environnement logiciel (bibliothèques, pilotes, shell, services, outils d’administration, interface graphique...) et la machine.
 
 ### Windows : simplicité d’usage et compatibilité
 
@@ -226,7 +226,7 @@ Très rapidement, ce noyau, initialement baptisé Freax puis renommé Linux (con
 
 ![Image](assets/fr/017.webp)
 
-💡 ***Tux*** : la mascotte et le logo du noyau Linux, créé en 1996 par Larry Ewing à l’aide du logiciel GIMP.
+→ ***Tux*** : la mascotte et le logo du noyau Linux, créé en 1996 par Larry Ewing à l’aide du logiciel GIMP.
 
 ### Philosophie de l’open-source et du logiciel libre
 
@@ -274,7 +274,7 @@ Dans chaque distribution Linux, on retrouve :
 
 Ce travail d’assemblage est spécifique à chaque distribution, qui sélectionne ses composants selon sa philosophie (simplicité, légèreté, sécurité, stabilité, innovation...), ses publics cibles (débutants, entreprises, serveurs, postes de travail, machines embarquées...) et son cycle de développement (*rolling release* ou *stable*). Par exemple, Arch Linux privilégie la simplicité structurelle et la transparence technique, tandis qu’Ubuntu se concentre sur l’expérience utilisateur et la compatibilité grand public (mais nous y reviendrons dans la dernière partie de ce chapitre).
 
-💡 **Remarque :** Une distribution *rolling release* intègre les dernières versions des logiciels dès leur disponibilité, ce qui permet d'avoir un système constamment à jour mais potentiellement moins stable. À l’inverse, une distribution *stable* envoie les versions des logiciels à la sortie d’une version majeure, ce qui garantit une meilleure fiabilité au détriment de la nouveauté.
+→ **Remarque :** Une distribution *rolling release* intègre les dernières versions des logiciels dès leur disponibilité, ce qui permet d'avoir un système constamment à jour mais potentiellement moins stable. À l’inverse, une distribution *stable* envoie les versions des logiciels à la sortie d’une version majeure, ce qui garantit une meilleure fiabilité au détriment de la nouveauté.
 
 L’existence des distributions permet à l’utilisateur de bénéficier d’un système Linux prêt à l’emploi, sans avoir à reconstruire manuellement chaque brique logicielle. Cela représente un énorme gain en temps, en cohérence et en sécurité. Aussi, en termes d’architecture, les distributions tirent partie de la couche d’abstraction matérielle fournie par le noyau Linux. Cette couche permet au système d’exploitation d’être compatible avec une large gamme de matériels différents, sans qu’il soit nécessaire d’adapter les logiciels à chaque composant spécifique. Cette modularité offre également la possibilité de modifier ou de remplacer facilement des composants du système sans avoir à le reconstruire entièrement.
 
@@ -496,7 +496,7 @@ Parrot OS est également dérivée de Debian. Elle propose un environnement pour
 
 Tails est une distribution live basée sur Debian, orientée vers la confidentialité. Tout passe par le réseau Tor, rien n’est conservé entre deux sessions utilisateur. C'est un distribution idéale pour des usages ponctuels sensibles (journalisme, activisme, génération de seed Bitcoin...).
 
-💡 **Remarque :** Une distribution live est un système d'exploitation Linux utilisable directement depuis une clé USB ou un CD, sans installation sur le disque dur.
+→ **Remarque :** Une distribution live est un système d'exploitation Linux utilisable directement depuis une clé USB ou un CD, sans installation sur le disque dur.
 
 ![Image](assets/fr/032.webp)
 
@@ -833,7 +833,7 @@ sudo apt autoremove --purge
 
 La première commande met à jour la liste locale des paquets, télécharge les nouvelles versions et les installe ; la seconde nettoie les dépendances devenues inutiles.
 
-💡La commande `sudo` permet d’exécuter une action avec les droits administrateur et vous demande votre mot de passe pour confirmer.
+→ La commande `sudo` permet d’exécuter une action avec les droits administrateur et vous demande votre mot de passe pour confirmer.
 
 ![Image](assets/fr/064.webp)
 
@@ -1060,7 +1060,7 @@ sudo apt upgrade
 
 ![Image](assets/fr/077.webp)
 
-💡 APT est rapide, léger et très bien intégré à Ubuntu. Pour tous les logiciels disponibles dans les dépôts officiels, c’est la méthode à privilégier.
+→ APT est rapide, léger et très bien intégré à Ubuntu. Pour tous les logiciels disponibles dans les dépôts officiels, c’est la méthode à privilégier.
 
 #### Snap : les paquets conteneurisés de Canonical
 
@@ -1100,7 +1100,7 @@ sudo snap remove spotify
 
 ![Image](assets/fr/080.webp)
 
-💡 Les applications Snap sont installées dans le répertoire `/var/snap` et montées comme systèmes de fichiers séparés.
+→ Les applications Snap sont installées dans le répertoire `/var/snap` et montées comme systèmes de fichiers séparés.
 
 #### Flatpak : une alternative modulable
 
@@ -1168,7 +1168,7 @@ sudo systemctl enable --now unattended-upgrades
 
 Ce service protège votre système contre les vulnérabilités récemment découvertes, sans avoir besoin de vérifier manuellement chaque jour s’il existe des mises à jour. Il est particulièrement utile sur les postes peu surveillés comme les ordinateurs personnels, car il garantit un minimum de sécurité à jour.
 
-💡 **Attention :** `unattended-upgrades` se limite aux paquets de sécurité issus du dépôt `security`. Il n’applique donc pas les mises à jour des logiciels standards, que vous devrez faire manuellement.
+→ **Attention :** `unattended-upgrades` se limite aux paquets de sécurité issus du dépôt `security`. Il n’applique donc pas les mises à jour des logiciels standards, que vous devrez faire manuellement.
 
 #### Mettre à jour manuellement tout le système
 
@@ -1286,7 +1286,7 @@ Une fois installé, lancez-le via le menu d’applications. Vous pourrez activer
 
 ![Image](assets/fr/089.webp)
 
-💡 **Bonnes pratiques :** Même si vous n’exposez pas de service réseau à l’extérieur, un pare-feu reste utile pour bloquer certains types de scans ou d'accès. Pensez aussi à changer les ports par défaut pour certains services (comme SSH), à désactiver les services inutiles et à toujours tenir vos logiciels réseau à jour. Ce durcissement du réseau local est une première ligne de défense dans une stratégie de sécurité plus large, mais nous y reviendrons plus tard dans la formation.
+→ **Bonnes pratiques :** Même si vous n’exposez pas de service réseau à l’extérieur, un pare-feu reste utile pour bloquer certains types de scans ou d'accès. Pensez aussi à changer les ports par défaut pour certains services (comme SSH), à désactiver les services inutiles et à toujours tenir vos logiciels réseau à jour. Ce durcissement du réseau local est une première ligne de défense dans une stratégie de sécurité plus large, mais nous y reviendrons plus tard dans la formation.
 
 ### Connexion Internet et gestion réseau
 
@@ -1562,7 +1562,7 @@ Mais de nos jours, le navigateur est devenu bien plus qu’un simple logiciel : 
 
 Pourtant, il n’a pas toujours occupé cette place centrale. L'histoire des navigateurs est marquée par des cycles d’innovation, de compétition technologique, et parfois de domination monopolistique. Retracer cette histoire va nous aider à comprendre comment les navigateurs sont devenus si complexes, mais aussi pourquoi leur sécurité représente aujourd’hui un enjeu important.
 
-💡Le navigateur est souvent confondu, à tort, avec le moteur de recherche, notamment par les débutants. Pourtant, ces deux éléments sont bien distincts. Le navigateur web sert à afficher des sites internet, tandis que le moteur de recherche (qui est accessible depuis ce navigateur) permet de trouver des informations en ligne en indexant et en classant les pages web.
+→ Le navigateur est souvent confondu, à tort, avec le moteur de recherche, notamment par les débutants. Pourtant, ces deux éléments sont bien distincts. Le navigateur web sert à afficher des sites internet, tandis que le moteur de recherche (qui est accessible depuis ce navigateur) permet de trouver des informations en ligne en indexant et en classant les pages web.
 
 ### Naissance et premiers navigateurs
 
@@ -2070,6 +2070,65 @@ En complément de ces mesures, l’utilisation d’un bon gestionnaire de mots d
 La présence du cadenas dans la barre d’adresse indique une connexion chiffrée, mais ne garantit pas la légitimité du site. Cliquez dessus pour examiner le certificat (organisation, domaine, autorité de certification). Cela reste utile en cas de doute sur une URL.
 
 Le phishing fonctionne uniquement si vous cliquez trop vite. Face à chaque lien reçu, adoptez un réflexe de vérification systématique, même pour un site que vous connaissez. Ralentir, observer et valider manuellement une URL connue sont les meilleurs remparts contre ce type d'attaque.
+
+### Contrôler les extensions installées
+
+Les extensions de navigateur sont des modules qui ajoutent des fonctionnalités (blocage de publicité, traduction, prise de notes, gestionnaire de mot de passe, wallet Bitcoin...). Elles s’exécutent directement dans l’environnement du navigateur et peuvent accéder à tout ou partie des pages que vous visitez. Cela les rend puissantes, mais aussi potentiellement dangereuses.
+
+Une extension malveillante ou compromise peut intercepter vos données personnelles, lire les contenus de formulaires, injecter du code dans les pages web ou même exécuter du JavaScript en arrière-plan. Certaines conservent un accès permanent aux onglets ouverts ou à l’historique de navigation, bien au-delà de ce qui est nécessaire à leur fonctionnement.
+
+Pour limiter ces risques, installez uniquement des extensions depuis des sources officielles (Mozilla Add-ons), vérifiez toujours les permissions demandées, et réduisez leur nombre au strict minimum. Supprimez celles que vous n’utilisez plus et méfiez-vous des clones.
+
+Un contrôle régulier de vos extensions est important pour garder un navigateur sécurisé.
+
+### Cloisonner vos usages du web
+
+Le cloisonnement des activités est une pratique importante pour limiter la portée d’une compromission sur le web. Elle consiste à séparer techniquement vos différents usages d’Internet : navigation personnelle, professionnelle, privée ou sensible.
+
+L’objectif est simple : empêcher qu’un incident sur une activité donnée (comme une fuite de cookie, une attaque ou un vol de session) ne contamine l’ensemble de votre environnement numérique. Plusieurs méthodes peuvent être utilisées, seules ou combinées :
+
+- **Utiliser plusieurs navigateurs distincts** : par exemple, Firefox pour un usage personnel, Tor ou Mullvad pour des activités sensibles, et un Chromium pour les tâches professionnelles. Chaque navigateur utilise sa propre instance de stockage, ce qui isole totalement les cookies, sessions et extensions. Aussi, cela vous permet d'adapter les réglages du navigateur à vos cas d'utilisation.
+
+- **Créer plusieurs profils au sein d’un même navigateur** : certains navigateurs permettent de créer des profils indépendants, chacun avec son propre historique, ses sessions, extensions et réglages. C’est une solution un peu moins contraignante que d’utiliser plusieurs navigateurs distincts, mais cela reste moins efficace.
+
+- **Utiliser les conteneurs intégrés** : Firefox propose l’extension [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), qui vous permet d’ouvrir des onglets isolés les uns des autres, chacun avec ses propres identifiants et cookies. Vous pouvez également attribuer automatiquement certains sites à un conteneur spécifique pour maintenir un cloisonnement à chaque ouverture.
+
+- **Utiliser un environnement système isolé** : Pour des usages particulièrement sensibles, vous pouvez aussi exécuter votre navigateur au sein d’une machine virtuelle ou d’un conteneur Docker, afin de le séparer totalement de votre environnement principal.
+
+### Limiter les autorisations accordées aux sites
+
+Les navigateurs modernes permettent aux sites de solliciter des accès à des ressources sensibles de votre appareil, comme la caméra, le microphone, la géolocalisation ou encore les notifications système. Ces fonctionnalités sont utiles pour certaines applications (visioconférences, cartes interactives...), mais elles ouvrent aussi la porte à des abus si elles sont mal contrôlées.
+
+Lorsqu’un site vous demande l’accès à l’une de ces ressources, le navigateur affiche une popup que vous devez valider. Cependant, si vous acceptez une fois sans attention, cette autorisation peut rester active de manière persistante pour toutes vos visites futures sur ce site. Cela signifie, par exemple, qu’un site pourrait à nouveau activer votre micro ou votre caméra sans vous le redemander, si vous n’avez pas révoqué manuellement ce droit.
+
+Pour renforcer votre sécurité :
+- Accordez l’autorisation uniquement au moment précis où elle est requise pour une fonctionnalité légitime ;
+- Préférez l’option "autoriser une seule fois" si disponible ;
+- Révoquez manuellement les permissions accordées via les paramètres du navigateur de manière régulière.
+
+### Vérifier les connexions sécurisées (HTTPS)
+
+Chaque fois que vous transmettez des informations personnelles, confidentielles ou financières sur un site web, que ce soit un mot de passe, un numéro de carte bancaire ou un simple formulaire d’inscription, il est important de s’assurer que la connexion entre votre navigateur et le site est chiffrée.
+
+C’est justement le rôle du protocole HTTPS (*HyperText Transfer Protocol Secure*). Ce protocole repose sur le chiffrement TLS (*Transport Layer Security*), qui permet :
+- de chiffrer les données échangées (personne ne peut les lire ou les modifier en transit) ;
+- de vérifier l’authenticité du serveur distant via un certificat numérique ;
+- d’empêcher les attaques de type homme du milieu (MITM), fréquentes sur les réseaux publics ou compromis.
+
+Concrètement, un site en HTTPS est signalé par un cadenas fermé dans la barre d’adresse de votre navigateur, généralement en haut à gauche de l'interface. En cliquant sur ce cadenas, vous pouvez afficher les informations relatives au certificat TLS du site (autorité de certification, date de validité...). L’adresse du site commence aussi systématiquement par `https://`.
+
+À l’inverse, si le site utilise encore HTTP (sans le "S"), la connexion est en clair. Toute information saisie peut alors être interceptée par un acteur malveillant situé entre vous et le site : opérateur réseau, fournisseur d’accès, hotspot Wi-Fi piégé, malware local…
+
+En théorie, il faudrait toujours vérifier manuellement ces informations avant de saisir des données sur un site web. En pratique, la plupart des navigateurs modernes signalent automatiquement les sites en HTTP comme non sécurisés. Vous pouvez également activer une option pour forcer l’utilisation du protocole HTTPS dans les paramètres de sécurité de votre navigateur, ce qui permet de bloquer les sites qui ne le prennent pas en charge.
+
+En réalité, très peu de sites sont aujourd’hui accessibles uniquement en HTTP. Ce protocole est largement abandonné au profit d'HTTPS, non seulement pour des raisons de sécurité évidentes, mais aussi parce qu’il est pénalisé par les moteurs de recherche et signalé comme potentiellement dangereux par les navigateurs modernes, ce qui n'inspire pas confiance aux visiteurs.
+
+
+
+
+
+
+
 
 
 

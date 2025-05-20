@@ -1,10 +1,10 @@
 ---
-name: Passero Wallet
+name: Sparrow Wallet
 description: Installazione, configurazione e utilizzo di Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
 
-Sparrow Wallet è un software di gestione del portafoglio Bitcoin autocustodito sviluppato da Craig Raw. Questo software open-source è apprezzato dai bitcoiners per le sue numerose funzioni e per l'intuitività del Interface.
+Sparrow Wallet è un software di gestione del portafoglio Bitcoin autocustodito sviluppato da Craig Raw. Questo software open-source è apprezzato dai bitcoiners per le sue numerose funzioni e per l'intuitività dell'interfaccia.
 
 Esistono due modi per utilizzare Sparrow:
 

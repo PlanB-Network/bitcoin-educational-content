@@ -29,7 +29,7 @@ Prodotto dalla BTCPay Server Foundation
 
 Benvenuto al corso POS 305 su BTCPay Server!
 
-L'obiettivo di questo corso è insegnarti come installare, configurare e utilizzare BTCPay Server all'interno della tua azienda o organizzazione. BTCPay Server è una soluzione open-source che consente di elaborare pagamenti in bitcoin in modo autonomo, sicuro ed economico. Questo corso è rivolto principalmente agli utenti avanzati che desiderano padroneggiare l'auto-hosting di BTCPay Server per un'integrazione completa nelle loro attività quotidiane.
+L'obiettivo di questo corso è insegnarti come installare, configurare e utilizzare BTCPay Server all'interno della tua organizzazione o azienda. BTCPay Server è una soluzione open-source che consente di elaborare pagamenti in bitcoin in modo autonomo, sicuro ed economico. Questo corso è rivolto principalmente agli utenti avanzati che desiderano padroneggiare il self-hosting di BTCPay Server per un'integrazione completa nelle loro attività quotidiane.
 
 **Sezione 1: Introduzione a BTCPay Server**  
 Inizieremo con una presentazione generale di BTCPay Server, inclusi lo schermo di accesso, la gestione degli account utente e la creazione di un nuovo negozio. Questa introduzione ti permetterà di comprendere l'interfaccia di BTCPay Server e di familiarizzare con le funzionalità di base necessarie per iniziare a utilizzare questo strumento.
@@ -49,8 +49,8 @@ Pronto a padroneggiare BTCPay Server e far crescere la tua attività? Andiamo!
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
 
-Iniziamo imparando cos'è BTCPay Server e da dove proviene. Diamo valore alla trasparenza e a certi standard per dare forma alla fiducia nello spazio Bitcoin.
-Un progetto in questo mondo ha infranto questi valori. Lo sviluppatore principale di BTCPay Server, Nicolas Dorier, ha preso questa sfida personalmente e ha fatto la promessa di renderli obsoleti. Eccoci molti anni dopo, lavorando in direzione di questo futuro, completamente open-source, ogni giorno.
+Iniziamo imparando cos'è BTCPay Server e da dove proviene. Diamo valore alla trasparenza e ad alcuni standard per dare forma alla fiducia nel mondo Bitcoin.
+Un progetto in questo ambiente ha infranto questi valori. Lo sviluppatore principale di BTCPay Server, Nicolas Dorier, ha preso questa sfida personalmente e ha fatto la promessa di renderli obsoleti. Molti anni dopo siamo arrivati a questo punto, lavorando tutti i giorni con l'obiettivo di un futuro completamente open-source.
 
 > Questo è falso, la mia fiducia in te è infranta, ti renderò obsoleto.
 > Nicolas Dorier
@@ -59,17 +59,17 @@ Dopo le parole pronunciate da Nicolas, era il momento di iniziare a costruire. �
 
 Cosa significa open source e cosa comporta un tale progetto?
 
-FOSS sta per Free & Open-Source Software. Il primo termine si riferisce a condizioni che permettono a chiunque di copiare, modificare e persino distribuire versioni (anche a scopo di lucro) del software. Il secondo termine si riferisce alla condivisione aperta del codice sorgente, incoraggiando il pubblico a contribuire e migliorarlo.
-Questo attira utenti esperti entusiasti di contribuire al software che già utilizzano e da cui traggono valore, dimostrando nel tempo di prevalere nell'adozione rispetto al software proprietario. È coerente con l'etica di Bitcoin secondo cui "le informazioni aspirano ad essere libere". Riunisce persone appassionate che formano una comunità ed è semplicemente più divertente. Come Bitcoin, il FOSS è inevitabile.
+FOSS sta per Free & Open-Source Software. Il primo termine si riferisce a condizioni che permettono a chiunque di copiare, modificare e persino distribuire versioni (anche a scopo di lucro) del software. Il secondo termine si riferisce alla condivisione aperta del codice sorgente, incoraggiando il pubblico a contribuire e a migliorarlo.
+Questo attira utenti esperti entusiasti di contribuire al software che già utilizzano e da cui traggono valore, dimostrando nel tempo di prevalere nell'adozione di software FOSS  rispetto al software proprietario. È coerente con l'etica di Bitcoin secondo cui "le informazioni aspirano ad essere libere". Questo modo di vedere il software riunisce persone appassionate che formano una comunità e inoltre è semplicemente più divertente. Come Bitcoin, il FOSS è inevitabile.
 
 ### Prima di iniziare
 
-Questo corso è composto da più parti. Molte saranno gestite dal tuo insegnante in aula, ambienti demo a cui avrai accesso, un server ospitato per te stesso e, possibilmente, un nome di dominio. Se completi questo corso in modo indipendente, tieni presente che gli ambienti contrassegnati come DEMO non saranno disponibili per te.
+Questo corso è composto da più parti. Molte saranno gestite dal tuo insegnante in aula, ambienti demo a cui avrai accesso, un server ospitato per te e, possibilmente, un nome di dominio. Se completi questo corso in modo indipendente, tieni presente che gli ambienti contrassegnati come DEMO non saranno disponibili per te.
 NB. Se segui questo corso in aula, i nomi dei server potrebbero differire a seconda della configurazione della tua aula. Le variabili nei nomi dei server potrebbero essere diverse per questo motivo.
 
 ### Struttura del corso
 
-Ogni capitolo ha obiettivi e valutazioni delle conoscenze. Copriremo ognuno di essi e avremo un riassunto delle caratteristiche chiave in ogni blocco di lezione (ad es. capitolo). Le illustrazioni sono presentate per fornire un feedback visivo e rafforzare i concetti chiave. Gli obiettivi sono stabiliti all'inizio di ogni blocco di lezione. Questi obiettivi vanno oltre una semplice lista di controllo. Ti forniscono una guida per acquisire un nuovo insieme di competenze. Le valutazioni delle conoscenze diventano progressivamente più sfidanti nella configurazione del tuo BTCPay Server.
+Ogni capitolo ha obiettivi e valutazioni delle conoscenze. Copriremo ognuno di essi e avremo un riassunto delle caratteristiche chiave in ogni blocco di lezione (ad es. capitolo). Le illustrazioni sono presentate per fornire un feedback visivo e rafforzare i concetti chiave. Gli obiettivi sono stabiliti all'inizio di ogni blocco di lezione. Questi obiettivi vanno oltre una semplice lista di controllo, ti forniscono una guida per acquisire un nuovo insieme di competenze. Le valutazioni delle conoscenze diventano progressivamente più sfidanti nella configurazione del tuo BTCPay Server.
 
 ### Cosa ricevono gli studenti con il corso?
 
@@ -77,7 +77,7 @@ Con il Corso su BTCPay Server, uno studente può comprendere i principi di base,
 
 ### Indirizzi Web importanti o opportunità di contatto
 
-La Fondazione BTCPay Server, che ha permesso ad Alekos e Bas di scrivere questo corso, si trova a Tokyo, Giappone. È possibile contattare la Fondazione BTCPay Server tramite il sito web elencato;
+La Fondazione BTCPay Server, che ha permesso ad Alekos e Bas di scrivere questo corso, si trova a Tokyo, Giappone. È possibile contattare la Fondazione BTCPay Server tramite il sito web qui sotto elencato:
 
 - https://foundation.btcpayserver.org
 - unisciti ai canali di chat ufficiali: https://chat.btcpayserver.org

@@ -1,0 +1,21 @@
+name: West Data Group
+
+address_line_1: Addis Ababa, Ethiopia
+address_line_2:
+address_line_3: 
+
+language:
+  - en
+
+links:
+  website: 
+  twitter: https://x.com/WestDataGroup
+  Github:
+  youtube:
+  nostr:
+
+tags:
+  - bitcoin
+  - mining
+
+category: mining

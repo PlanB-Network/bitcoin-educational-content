@@ -1,0 +1,20 @@
+start_date: 2025-05-31
+end_date: 2025-05-31
+address_line_1: Nairobi, Kenya
+address_line_2: 
+address_line_3: 
+name: Africa Bitcoin Day 2025 (Kenya)
+builder: Africa Bitcoin Conference
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: A commemoration that brings together Bitcoiners across Africa to engage their communities, share knowledge, and promote grassroots adoption.
+language: 
+  - en
+links:
+  website: https://afrobitcoin.org/bitcoin-day/
+tags: 
+  - Bitcoin
+  - Africa
+  - Kenya

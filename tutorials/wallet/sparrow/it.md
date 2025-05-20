@@ -10,7 +10,7 @@ Esistono due modi per utilizzare Sparrow:
 
 
 - Come un Hot Wallet, dove le chiavi private sono memorizzate sul PC.
-- Come gestore di Cold Wallet, in cui le chiavi private sono conservate in un Hardware Wallet. In questa modalità, Sparrow manipola solo le informazioni pubbliche Wallet, tiene traccia dei fondi, genera indirizzi e crea transazioni, ma la firma Hardware Wallet è necessaria per rendere valide queste transazioni. Può quindi sostituire applicazioni come Ledger Live o Trezor Suite.
+- Come gestore di Cold Wallet, in cui le chiavi private sono conservate in un Hardware Wallet. In questa modalità, Sparrow manipola solo le informazioni pubbliche del Wallet, tiene traccia dei fondi, genera indirizzi e crea transazioni, ma la firma Hardware Wallet è necessaria per rendere valide queste transazioni. Può quindi sostituire applicazioni come Ledger Live o Trezor Suite.
 
 Sparrow supporta portafogli a firma singola e multipla e consente una gestione fluida di più portafogli. Ad esempio, è possibile controllare simultaneamente un Wallet collegato a un Ledger, un altro a un Trezor e anche un Hot Wallet.
 
@@ -40,7 +40,7 @@ Per interagire con la rete Bitcoin e trasmettere le proprie transazioni, Sparrow
 - 🟢 Connessione a un nodo Bitcoin Core. Se si dispone di un nodo Bitcoin Core, è possibile collegarlo a Sparrow Wallet, sia localmente se Bitcoin Core è installato sulla stessa macchina, sia in remoto.
 - 🔵 Connessione tramite un server Electrum. Se il nodo Bitcoin è dotato di Electrum, come nel caso di soluzioni node-in-a-box come Umbrel o Start9, è possibile collegarsi ad esso in remoto da Sparrow.
 
-**È preferibile utilizzare una connessione tramite Electrs o Bitcoin Core sul proprio nodo per ridurre la necessità di affidarsi a terzi e ottimizzare la propria riservatezza**
+**È preferibile utilizzare una connessione tramite Electrum o Bitcoin Core sul proprio nodo per ridurre la necessità di affidarsi a terzi e ottimizzare la propria riservatezza**
 
 ### Connettersi ad un nodo pubblico 🟡
 
@@ -56,15 +56,15 @@ Quindi fare clic su "*Test Connection*".
 
 ![Image](assets/fr/05.webp)
 
-Una volta collegato, Sparrow Wallet visualizzerà un segno di spunta giallo nell'angolo inferiore destro di Interface per indicare che si è connessi a un nodo pubblico.
+Una volta collegato, Sparrow Wallet visualizzerà un segno di spunta giallo nell'angolo inferiore destro dell'interfaccia per indicare che si è connessi a un nodo pubblico.
 
 ![Image](assets/fr/06.webp)
 
-### Collegamento a un nucleo Bitcoin 🟢
+### Collegamento a Bitcoin Core 🟢
 
-Il secondo metodo di connessione a un nodo Bitcoin consiste nel collegare Sparrow a un Bitcoin Core. Se il Bitcoin Core è installato sulla stessa macchina, l'autenticazione avverrà tramite il file cookie. Se Bitcoin Core si trova su una macchina remota, è necessario utilizzare la password definita nel file `Bitcoin.conf`.
+Il secondo metodo di connessione a un nodo Bitcoin consiste nel collegare Sparrow a un Bitcoin Core. Se Bitcoin Core è installato sulla stessa macchina, l'autenticazione avverrà tramite il file cookie. Se Bitcoin Core si trova su una macchina remota, è necessario utilizzare la password definita nel file `Bitcoin.conf`.
 
-Si noti che se si utilizza un nodo Bitcoin Core potato, non sarà possibile ripristinare un Wallet contenente transazioni precedenti ai blocchi memorizzati localmente. Tuttavia, per un nuovo Wallet creato su Sparrow, questo non sarà un problema: le nuove transazioni saranno visibili, anche se il nodo è stato tagliato.
+Si noti che se si utilizza un nodo Bitcoin Core Light (con installazione parziale), non sarà possibile ripristinare un Wallet contenente transazioni precedenti ai blocchi memorizzati localmente. Tuttavia, per un nuovo Wallet creato su Sparrow, questo non sarà un problema: le nuove transazioni saranno visibili, anche se il nodo è Light.
 
 Per configurare un nodo Bitcoin Core, è possibile consultare una delle seguenti esercitazioni, a seconda del sistema operativo in uso:
 
@@ -84,7 +84,7 @@ server=1
 
 Quindi salvare le modifiche.
 
-È possibile farlo anche tramite la grafica Interface di Bitcoin-QT, andando su "*Impostazioni*" > "*Opzioni...*" e attivando l'opzione "*Abilita server RPC*" > "*Opzioni...*" e attivando l'opzione "*Abilita server RPC*".
+È possibile farlo anche tramite l'interfaccia grafica di Bitcoin-QT, andando su "*Impostazioni*" > "*Opzioni...*" e attivando l'opzione "*Abilita server RPC*" > "*Opzioni...*" e attivando l'opzione "*Abilita server RPC*".
 
 Non dimenticate di riavviare il software dopo aver apportato queste modifiche.
 
@@ -106,11 +106,11 @@ Lasciare gli altri parametri come predefiniti, URL `127.0.0.1` e porta `8332`, q
 
 ![Image](assets/fr/10.webp)
 
-La connessione è stabilita. Nell'angolo in basso a destra apparirà un segno di spunta Green per indicare che si è connessi a un nodo Bitcoin Core.
+La connessione è stabilita. Nell'angolo in basso a destra apparirà un segno di spunta verde per indicare che si è connessi a un nodo Bitcoin Core.
 
 ![Image](assets/fr/11.webp)
 
-**Con il nucleo Bitcoin remoto:**
+**Con Bitcoin Core remoto:**
 
 Se Bitcoin Core è installato su un'altra macchina collegata alla stessa rete, individuare innanzitutto il file `Bitcoin.conf` tra i file del software. Se questo file non esiste ancora, è possibile crearlo. Aprire questo file con un editor di testo e aggiungere la seguente riga:
 
@@ -128,11 +128,11 @@ Dopo aver modificato il file, assicuratevi di salvarlo nella cartella appropriat
 
 | **Linux** | ~/.Bitcoin |
 
-Questa operazione può essere eseguita anche tramite il Bitcoin-QT Interface grafico. Accedere al menu "*Impostazioni*", poi "*Opzioni...*" e attivare l'opzione "*Abilita server RPC*" selezionando la casella corrispondente. Se il file `Bitcoin.conf` non esiste, è possibile crearlo direttamente da questo Interface facendo clic su "*Apri file di configurazione*".
+Questa operazione può essere eseguita anche tramite l'interfaccia grafica Bitcoin-QT. Accedere al menu "*Impostazioni*", poi "*Opzioni...*" e attivare l'opzione "*Abilita server RPC*" selezionando la casella corrispondente. Se il file `Bitcoin.conf` non esiste, è possibile crearlo direttamente da questo schermata facendo clic su "*Apri file di configurazione*".
 
 ![Image](assets/fr/12.webp)
 
-Trovare l'IP Address della macchina che ospita Bitcoin Core sulla rete locale. Per farlo, si può usare uno strumento come [Angry IP Scanner](https://angryip.org/). Supponiamo, per amor di discussione, che l'IP Address del vostro nodo sia `192.168.1.18`.
+Trovare l'IP Address della macchina che ospita Bitcoin Core sulla rete locale. Per farlo, si può usare uno strumento come [Angry IP Scanner](https://angryip.org/). Supponiamo, per esempio, che l'IP Address del vostro nodo sia `192.168.1.18`.
 
 Nel file `Bitcoin.conf`, aggiungere le seguenti righe, impostando `rpcbind=192.168.1.18` in modo che corrisponda all'IP Address del nodo.
 
@@ -161,7 +161,7 @@ Ora è possibile tornare a Sparrow Wallet. Andare alla scheda "*User / Pass*". I
 
 ![Image](assets/fr/15.webp)
 
-La connessione è stabilita. Nell'angolo in basso a destra apparirà un segno di spunta Green per indicare che si è connessi a un nodo Bitcoin Core.
+La connessione è stabilita. Nell'angolo in basso a destra apparirà un segno di spunta verde per indicare che si è connessi a un nodo Bitcoin Core.
 
 ![Image](assets/fr/16.webp)
 
@@ -173,11 +173,11 @@ Per farlo, procuratevi il Tor `.onion' Address del vostro server Electrum. Con U
 
 ![Image](assets/fr/17.webp)
 
-Su Sparrow Wallet, accedere alla scheda "*Elettro privato*".
+Su Sparrow Wallet, accedere alla scheda "*Electrum Privato*".
 
 ![Image](assets/fr/18.webp)
 
-Inserire il proprio Tor Address nell'apposito spazio. Le altre impostazioni possono rimanere predefinite. Quindi fare clic su "*Test Connection*".
+Inserire il proprio indirizzo Tor nell'apposito spazio. Le altre impostazioni possono rimanere predefinite. Quindi fare clic su "*Test Connection*".
 
 ![Image](assets/fr/19.webp)
 
@@ -185,7 +185,7 @@ La connessione è confermata. Se si chiude questa finestra, nell'angolo in basso
 
 ![Image](assets/fr/20.webp)
 
-## Creare un portafoglio caldo
+## Creare un portafoglio caldo (Hot Wallet)
 
 Ora che Sparrow Wallet è configurato per comunicare con la rete Bitcoin, siete pronti a creare il vostro primo Wallet. Questa sezione vi guida nella creazione di un Hot Wallet, ovvero un Wallet le cui chiavi private sono memorizzate sul vostro computer. Poiché il computer è una macchina complessa connessa a Internet, presenta una superficie di attacco molto ampia. Di conseguenza, un Hot Wallet dovrebbe essere utilizzato solo per quantità limitate di bitcoin. Per conservare quantità maggiori, optate per un Wallet sicuro con un Hardware Wallet. Se questo è ciò che state cercando, potete passare alla sezione successiva.
 
@@ -197,7 +197,7 @@ Inserire un nome per il portafoglio e cliccare su "*Crea Wallet*".
 
 ![Image](assets/fr/22.webp)
 
-Nella parte superiore del Interface è possibile scegliere se creare un portafoglio "*Single Signature*" o "*Multi Signature*". Subito sotto, selezionate il tipo di script per bloccare i vostri UTXO. Vi consiglio di utilizzare lo standard più recente: "*Taproot (P2TR)*".
+Nella parte superiore della schermata è possibile scegliere se creare un portafoglio "*Single Signature*" o "*Multi Signature*". Subito sotto, selezionate il tipo di script per bloccare i vostri UTXO. Vi consiglio di utilizzare lo standard più recente: "*Taproot (P2TR)*".
 
 ![Image](assets/fr/23.webp)
 
@@ -213,9 +213,9 @@ Fare clic sul pulsante "*generate New*" per inserire la frase generate del propr
 
 La frase di 12 parole ripristina l'accesso ai bitcoin in caso di perdita, furto o rottura del computer. È quindi molto importante salvarla con cura e conservarla in un luogo sicuro.
 
-È possibile inciderlo su carta o, per maggiore sicurezza, inciderlo su acciaio inossidabile per proteggerlo da incendi, inondazioni o crolli. La scelta del supporto per il vostro Mnemonic dipenderà dalla vostra strategia di sicurezza, ma se state usando Sparrow come Wallet a spesa calda contenente quantità moderate, la carta dovrebbe essere sufficiente.
+È possibile inciderlo su carta o, per maggiore sicurezza, inciderlo su acciaio inossidabile per proteggerlo da incendi, inondazioni o crolli. La scelta del supporto per la frase Mnemonica dipenderà dalla vostra strategia di sicurezza, ma se state usando Sparrow come Wallet per le spese quotidiane contenente quantità moderate di Bitcoin, la carta dovrebbe essere sufficiente.
 
-Per ulteriori informazioni sul modo corretto di salvare e gestire la frase del Mnemonic, vi consiglio di seguire quest'altra guida, soprattutto se siete principianti:
+Per ulteriori informazioni sul modo corretto di salvare e gestire la frase Mnemonica, vi consiglio di seguire quest'altra guida, soprattutto se siete principianti:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 ![Image](assets/fr/26.webp)
@@ -233,7 +233,7 @@ Reinserire le 12 parole per confermare che sono state salvate correttamente, qui
 
 ![Image](assets/fr/28.webp)
 
-Quindi fare clic su "*Import Keystore*" per importare le chiavi del portafoglio dal Mnemonic.
+Quindi fare clic su "*Import Keystore*" per importare le chiavi del portafoglio dalla frase Mnemonica.
 
 ![Image](assets/fr/29.webp)
 
@@ -241,17 +241,17 @@ Cliccare su "*Apply*" per finalizzare la creazione del portafoglio.
 
 ![Image](assets/fr/30.webp)
 
-Impostate una password forte per proteggere l'accesso al vostro portafoglio Sparrow. È buona norma conservare questa password in un gestore di password, in modo da non dimenticarla. Si noti che questa password non ha alcun ruolo nella derivazione delle chiavi. Viene utilizzata solo per accedere al proprio Wallet tramite Sparrow Wallet. Quindi, anche senza questa password, la frase Mnemonic sarà sufficiente per accedere ai bitcoin da qualsiasi applicazione compatibile con BIP39.
+Impostate una password forte per proteggere l'accesso al vostro portafoglio Sparrow. È buona norma conservare questa password in un gestore di password, in modo da non dimenticarla. Si noti che questa password non ha alcun ruolo nella derivazione delle chiavi. Viene utilizzata solo per accedere al proprio Wallet tramite Sparrow Wallet. Quindi, anche senza questa password, la frase Mnemonica sarà sufficiente per accedere ai Bitcoin da qualsiasi applicazione compatibile con BIP39.
 
 ![Image](assets/fr/31.webp)
 
 Il vostro Hot Wallet è ora creato. Potete passare alla sezione *Ricezione di Bitcoin* di questa esercitazione se non intendete utilizzare un Hardware Wallet con Sparrow.
 
-## Gestione di un portafoglio Cold
+## Gestione di un Portafoglio Freddo (Cold Wallet)
 
-Il secondo modo di utilizzare Sparrow Wallet è di configurarlo come gestore di portafoglio con un Hardware Wallet. In questa configurazione, le chiavi private del Bitcoin Wallet rimangono esclusivamente sul Hardware Wallet, mentre Sparrow accede solo alle informazioni pubbliche. Questo approccio offre un livello di sicurezza più elevato rispetto ai portafogli Hot discussi in precedenza, in quanto le chiavi private sono conservate su un dispositivo specializzato, spesso dotato di un chip sicuro, che non è connesso a Internet e presenta quindi una superficie di attacco molto più ridotta rispetto a un computer tradizionale.
+Il secondo modo di utilizzare Sparrow Wallet è di configurarlo come gestore di Portafoglio con un Hardware Wallet. In questa configurazione, le chiavi private del Portafoglio Bitcoin rimangono esclusivamente sull'Hardware Wallet, mentre Sparrow accede solo alle informazioni pubbliche. Questo approccio offre un livello di sicurezza più elevato rispetto ai Portafogli Hot discussi in precedenza, in quanto le chiavi private sono conservate su un dispositivo specializzato, spesso dotato di un chip sicuro (Secure Element), che non è connesso a Internet e presenta quindi una superficie di attacco molto più ridotta rispetto a un computer tradizionale.
 
-Esistono due modi principali per collegare il Hardware Wallet a Sparrow:
+Esistono due modi principali per collegare l'Hardware Wallet a Sparrow:
 
 
 - Con cavo, comunemente utilizzato con modelli entry-level come Trezor Safe 3 o Ledger Nano S Plus ;
@@ -259,9 +259,9 @@ Esistono due modi principali per collegare il Hardware Wallet a Sparrow:
 
 Sparrow supporta tutti questi metodi di comunicazione ed è compatibile con la maggior parte dei portafogli hardware presenti sul mercato.
 
-Per questa esercitazione, utilizzerò un Ledger Nano S con cavo, ma la procedura è simile in modalità Air-Gap. Troverete i dettagli specifici per il vostro Hardware Wallet nel tutorial dedicato al Plan ₿ Network.
+Per questa esercitazione, utilizzerò un Ledger Nano S con cavo, ma la procedura è simile in modalità Air-Gap, ovvero senza cavo. Troverete i dettagli specifici per il vostro Hardware Wallet nel tutorial dedicato al Plan ₿ Network.
 
-Prima di iniziare, accertarsi che il Wallet sia già configurato sul Hardware Wallet. Se si utilizza una connessione via cavo, collegarlo al computer tramite il cavo.
+Prima di iniziare, accertarsi che il Wallet sia già configurato sull'Hardware Wallet. Se si utilizza una connessione via cavo, collegarlo al computer tramite il cavo.
 
 Per importare il cosiddetto "*Keystore*" (le informazioni pubbliche necessarie per gestire il portafoglio) in Sparrow Wallet, fare clic sulla scheda "*File*", quindi su "*New Wallet*".
 
@@ -271,7 +271,7 @@ Assegnare un nome al portafoglio e fare clic su "*Crea Wallet*". Vi consiglio di
 
 ![Image](assets/fr/33.webp)
 
-Nella parte superiore del Interface, scegliere tra un portafoglio "*Single Signature*" o "*Multi Signature*". Per il nostro esempio, configureremo un portafoglio a firma singola.
+Nella parte superiore della schermata, scegliere tra un portafoglio "*Single Signature*" o "*Multi Signature*". Per il nostro esempio, configureremo un portafoglio a firma singola.
 
 In basso, selezionare il tipo di script per bloccare gli UTXO. Se il vostro Hardware Wallet lo supporta, vi suggerisco di scegliere "*Taproot (P2TR)*".
 

@@ -305,9 +305,9 @@ Il portafoglio di gestione è ora configurato su Sparrow.
 
 ![Image](assets/fr/41.webp)
 
-## Ricevere bitcoin
+## Ricevere Bitcoin
 
-Ora che il Wallet è impostato su Sparrow, è possibile ricevere bitcoin. È sufficiente accedere al menu "*Receive*".
+Ora che il Wallet è impostato su Sparrow, è possibile ricevere Bitcoin. È sufficiente accedere al menu "*Receive*".
 
 ![Image](assets/fr/42.webp)
 

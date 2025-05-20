@@ -96,71 +96,71 @@ L'esercizio inizia dopo aver guardato l'introduzione "Come funzionano Bitcoin e 
 
 Questo esercizio richiede la partecipazione di almeno nove persone. L'intento dell'esercizio è di ottenere fisicamente un'idea di come funziona Bitcoin. Interpretando ciascun ruolo nella rete, apprenderai in modo interattivo e divertente. Questo esercizio non coinvolge Lightning Network.
 
-### Esempio; Richiede 9 / 11 persone
+### L'Esempio richiede 9 / 11 persone
 
 I ruoli sono:
 
 - 1 Cliente
 - 1 Commerciante
-- 7 a 9 nodi Bitcoin
+- da 7 a 9 nodi Bitcoin
 
 **La configurazione è la seguente:**
 
-Il cliente acquista un prodotto dal negozio con dei bitcoin.
+Il cliente acquista un prodotto dal negozio tramite il Network di Bitcoin.
 
 **Scenario 1 - Sistema Bancario Tradizionale**
 
 - Configurazione:
   - Vedi diagrammi/spiegazioni nell'allegato Figjam - [Schema dell'Attività](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-  - Fai partecipare tre studenti volontari nei ruoli di Cliente (Alice), Commerciante (Bob) e Banca.
-- Questa la sequenza degli eventi:
-  - Cliente - naviga nel negozio online e trova un articolo per $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo
-  - Commerciante - chiede il pagamento.
-  - Cliente - invia le informazioni della carta al Commerciante
-  - Commerciante - inoltra le informazioni alla Banca (identificando sia la propria identità che quella del cliente) richiedendo il pagamento di 25$
+  - Fai partecipare tre studenti volontari nei ruoli di Cliente (Alice), Commerciante (Bob) e una Banca.
+- Questa è la sequenza degli eventi:
+  - Il Cliente - naviga nel negozio online e trova un articolo per $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo
+  - Il Commerciante - chiede il pagamento.
+  - Il Cliente - invia le informazioni della carta al Commerciante
+  - Il Commerciante - inoltra le informazioni alla Banca (identificando sia la propria identità che quella del cliente) richiedendo il pagamento di 25$
   - La Banca - raccoglie informazioni sul Cliente e sul Commerciante (Alice e Bob) e verifica che il saldo del cliente sia sufficiente.
-  - Deduce $25 dal conto di Alice, aggiunge $24 al conto di Bob, prende $1 per il servizio
+  - La Banca deduce $25 dal conto di Alice, aggiunge $24 al conto di Bob, prende $1 per il servizio
   - Il Commerciante riceve il via libera dalla Banca e spedisce l'articolo al cliente.
 - Commenti:
-  - Bob e Alice devono avere una relazione con una banca.
+  - Bob e Alice devono avere una relazione almeno con una banca.
   - La banca raccoglie informazioni su entrambi, Bob e Alice.
   - La banca prende una percentuale.
-  - La banca deve essere fidata in ogni momento per la custodia del denaro di ciascun partecipante.
+  - Nella banca si deve porre fiducia in ogni momento per la custodia del denaro di ciascun partecipante.
 
 **Scenario 2 - Sistema Bitcoin**
 
 - Configurazione:
   - Vedi diagrammi/spiegazioni nell'allegato Figjam - [Schema dell'Attività](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-- Sostituire la Banca con nove studenti che interpreteranno il ruolo di un Computer (Nodi/Minatori di Bitcoin) in una rete per sostituire la Banca.
+- Sostituire la Banca con nove studenti che interpreteranno il ruolo di un Computer ciascuno (Nodi/Minatori di Bitcoin) in una rete interconnessa in sostituzione del sistema bancario.
 - Ognuno dei 9 Computer possiede un registro storico completo di tutte le transazioni passate (quindi saldi accurati senza falsificazioni), così come un insieme di regole:
-  - Verificare che la transazione sia firmata correttamente (la chiave apre la serratura)
-  - Trasmettere e ricevere transazioni valide ai pari nella rete, scartare quelle non valide (incluso qualsiasi tentativo di spendere gli stessi fondi due volte)
-- Aggiornare/Aggiungere periodicamente i registri con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del Proof of Work, esclusivamente per semplicità), altrimenti rifiutare queste ultime e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento.
+  - Verificare che la transazione sia firmata correttamente (la chiave apre la serratura);
+  - Trasmettere e ricevere transazioni valide agli altri computer nella rete, scartando le transazioni non valide (incluso qualsiasi tentativo di spendere gli stessi fondi due volte).
+- Aggiornare/Aggiungere periodicamente i registri con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del Proof of Work, esclusivamente per semplicità), altrimenti dovrà rifiutare queste ultime transazioni e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento.
   - La quantità appropriata è stata inviata se i contenuti erano validi.
 - Rappresentare la sequenza degli eventi:
-  - Cliente - naviga nel negozio online e trova un articolo a $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo.
-  - Commerciante - chiede il pagamento inviando al cliente una fattura/indirizzo dal proprio wallet.
-  - Cliente - costruisce una transazione (inviando $25 in BTC a un indirizzo fornito dal Commerciante) e la trasmette alla Rete Bitcoin.
-- Computer - ricevono la transazione e verificano:
-  - Che ci siano almeno $25 di BTC nell'indirizzo da cui viene inviato.
+  - Il Cliente - naviga nel negozio online e trova un articolo a $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo.
+  - Il Commerciante - chiede il pagamento inviando al cliente una fattura/indirizzo dal proprio wallet.
+  - Il Cliente - costruisce una transazione (inviando $25 in BTC a un indirizzo fornito dal Commerciante) e la trasmette alla Rete Bitcoin.
+- I Computer - ricevono la transazione e verificano:
+  - Che ci siano almeno $25 di BTC nell'indirizzo da cui viene inviata la transazione.
   - Che la transazione sia firmata correttamente (“sbloccata” dal cliente).
   - Se non è così, allora la transazione non verrà propagata attraverso la rete, diversamente verrà propagata e messa in attesa.
   - I commercianti possono controllare che la transazione sia in sospeso e in attesa.
-- Un computer viene "casualmente" scelto per proporre di finalizzare la transazione proposta trasmettendo "un blocco" che la contiene; se risulta corretto, riceveranno una ricompensa in BTC.
-  - OPZIONALE/AVANZATO - invece di selezionare casualmente un Computer, simulare il mining facendo lanciare ai Computer dei dadi fino a quando non si verifica un risultato predeterminato (ad es., il primo che ottiene un doppio sei viene selezionato)
-  - Può anche rappresentare cosa succederebbe se due Computer vincono approssimativamente contemporaneamente, risultando in una divisione della catena.
+- Un computer viene "casualmente" scelto per proporre di finalizzare la transazione proposta trasmettendo "un blocco" che la contiene; se risulta corretto, riceverà una ricompensa in BTC.
+  - OPZIONALE/AVANZATO - invece di selezionare casualmente un omputer, simulare il mining facendo lanciare ai Computer dei dadi fino a quando non si verifica un risultato predeterminato (ad es., il primo che ottiene un doppio sei viene selezionato)
+  - Si può anche rappresentare cosa succederebbe se due Computer vincono quasi contemporaneamente, creando in una divisione della catena.
   - I Computer controllano la validità, aggiornano/aggiungono  ai loro registri se le regole sono soddisfatte e trasmettono il blocco ai pari.
   - Il computer casualmente scelto riceve una ricompensa per aver proposto un blocco valido.
-  - Il Commerciante controlla che la transazione sia stata finalizzata; quindi, i fondi sono stati ricevuti e l'articolo è stato inviato al cliente.
+  - Il Commerciante controlla che la transazione sia stata finalizzata; quindi, che i fondi siano stati ricevuti e che l'articolo sia inviato al cliente.
 - Commenti:
   - Si noti che non è stata necessaria una preesistente relazione bancaria.
-  - Non è necessario un terzo per facilitare; sostituito da codice/incentivi.
-  - Nessuna raccolta di dati da parte di nessuno al di fuori dello scambio diretto e solo la quantità necessaria scambiata tra i partecipanti (ad es., indirizzo di spedizione).
-  - Non è richiesta fiducia tra le persone (sennochè l'invio dell'articolo da parte Commerciante).
-  - Il denaro è gestito e detenuto direttamente dagli individui.
-  - Il registro di Bitcoin è rappresentato in dollari per semplicità, ma in realtà è in BTC.
-  - Simuliamo una singola transazione trasmessa, ma in realtà, sono in sospeso nella rete molteplici transazioni, e i blocchi includono migliaia di transazioni contemporaneamente. I nodi controllano anche che non ci siano transazioni di doppia spesa in sospeso (scarterei tutte tranne una se fosse il caso).
-- Scenari di imbroglio:
+  - Non è necessario un terzo per facilitare la transazione; quest'ultimo è sostituito da codice/incentivi.
+  - Nessuna raccolta di dati da parte di nessuno al di fuori dello scambio diretto e della sola quantità necessaria scambiata tra i partecipanti (ad es., indirizzo di spedizione).
+  - Non è richiesta fiducia tra le persone (sennonché l'invio dell'articolo da parte del Commerciante).
+  - Il denaro è gestito e detenuto direttamente dalle persone coinvolte.
+  - Il registro di Bitcoin è rappresentato in dollari per semplicità, ma nella realtà è in BTC.
+  - Simuliamo una singola transazione trasmessa, ma effettivamente, sono in sospeso nella rete molteplici transazioni, e i blocchi includono contemporaneamente migliaia di transazioni. I nodi controllano anche che non ci siano transazioni di doppia spesa in sospeso (verrebbero scartate tutte tranne una se fosse il caso).
+- Scenari di truffa:
   - Cosa succede se il cliente non avesse $25 in BTC?
     - Non sarebbe in grado di creare la transazione perché “sbloccare” e “proprietà” sono la stessa cosa, e i computer controllano che la transazione sia firmata correttamente; altrimenti, la rifiutano.
 - Cosa succede se il computer scelto casualmente tenta di "modificare il registro"?

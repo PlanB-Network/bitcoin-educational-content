@@ -6,7 +6,7 @@ Descrizione: Creare un portafoglio multi-firma su Sparrow
 
 
 
-Un Wallet multi-firma (spesso chiamato "*Multisig*") è una struttura Bitcoin Wallet che richiede più firme crittografiche, da chiavi diverse, per autorizzare una spesa. A differenza di un Wallet convenzionale ("*singlesig*"), dove una singola chiave privata è sufficiente per sbloccare un UTXO, il Multisig si basa su un modello **m-of-n**: delle _n_ chiavi associate al Wallet, _m_ devono imperativamente co-firmare ogni transazione.
+Un Wallet multi-firma (spesso chiamato "*Multisig*") è una struttura Bitcoin Wallet che richiede più firme crittografiche, da chiavi diverse, per autorizzare una spesa. A differenza di un Wallet convenzionale ("*singlesig*"), dove una singola chiave privata è sufficiente per sbloccare un UTXO, il Multisig si basa su un modello **m-di-n**: delle _n_ chiavi associate al Wallet, _m_ devono imperativamente co-firmare ogni transazione.
 
 
 

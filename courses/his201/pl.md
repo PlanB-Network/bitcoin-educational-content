@@ -8,6 +8,7 @@ objectives:
   - Znajomość wydarzeń związanych z uruchomieniem systemu i jego rozwojem
 
 ---
+„–”
 
 # Zanurz się w historię powstania Bitcoina
 
@@ -96,26 +97,26 @@ Kurs ten podzielony jest na cztery części, które koncentrują się kolejno na
 **Szczegóły**
 
 
-Wszystkie daty i godziny są podane zgodnie ze strefą czasową UTC (odpowiadającą południkowi Greenwich) i dlatego mogą różnić się od dat amerykańskich. Jest prawdopodobne, że Satoshi Nakamoto przebywał w Stanach Zjednoczonych podczas pracy nad swoim projektem. Jednak Bitcoin to projekt międzynarodowy, który w szczególności obejmował wkład fińskiego dewelopera Martti Malmi (czas wschodnioeuropejski, UTC+2 / UTC+3), dlatego będziemy odnosić się do uniwersalnej strefy czasowej. W związku z tym mówimy, że faktyczne uruchomienie głównej sieci miało miejsce 9 stycznia o 2:54, a nie 8 stycznia o 6:54, co odpowiada strefie czasowej Wschodniego Wybrzeża (czas pacyficzny, UTC-8 / UTC-7).
+Wszystkie daty i godziny są podane zgodnie ze strefą czasową UTC (odpowiadającą południkowi Greenwich) i dlatego mogą różnić się od dat amerykańskich. Jest prawdopodobne, że Satoshi Nakamoto przebywał w Stanach Zjednoczonych podczas pracy nad swoim projektem. Jednak Bitcoin to projekt międzynarodowy - w szczególności należy podkreślic wkład fińskiego dewelopera Martti Malmi (czas wschodnioeuropejski, UTC+2 / UTC+3), dlatego będziemy odnosić się do uniwersalnej strefy czasowej. W związku z tym mówimy, że faktyczne uruchomienie głównej sieci miało miejsce 9 stycznia o 2:54, a nie 8 stycznia o 6:54, co odpowiada strefie czasowej Wschodniego Wybrzeża (czas pacyficzny, UTC-8 / UTC-7).
 
 
-Treść została częściowo zaadaptowana z francuskiej książki [*L'Élégance de Bitcoin*](https://bitcoinbook.shop/products/lelegance-de-Bitcoin) (2024), napisanej przez autora tego kursu. Oprócz bezpośrednich źródeł zarchiwizowanych w Internecie, opieramy się na wielu pracach referencyjnych. Oto najważniejsze z nich:
+Treść została częściowo zaadaptowana z francuskiej książki [*L'Élégance de Bitcoin*](https://bitcoinbook.shop/products/lelegance-de-Bitcoin) (2024), napisanej przez autora tego kursu. Oprócz bezpośrednich źródeł zarchiwizowanych w Internecie, opieramy się na wielu innych pracach. Oto najważniejsze z nich:
 
 
 
-- [*The Genesis Book*](https://store.bitcoinmagazine.com/products/the-Genesis-book) autorstwa Aarona van Wirduma, opublikowana w 2024 roku;
+- [*The Genesis Book*](https://store.bitcoinmagazine.com/products/the-Genesis-book) autorstwa Aarona van Wirduma, opublikowany w 2024 roku;
 - [*Digital Gold*](https://www.amazon.com/Digital-Gold-Bitcoin-Millionaires-Reinvent/dp/006236250X) autorstwa Nathaniela Poppera, opublikowany w 2014 roku;
-- [*The Book of Satoshi*](https://www.bookofsatoshi.com/) autorstwa Phila Champagne'a, opublikowana w 2014 roku;
-- [*Digital Cash*](https://press.princeton.edu/books/hardcover/9780691179490/digital-cash) autorstwa Finn Brunton, opublikowane w 2019 roku;
+- [*The Book of Satoshi*](https://www.bookofsatoshi.com/) autorstwa Phila Champagne'a, opublikowany w 2014 roku;
+- [*Digital Cash*](https://press.princeton.edu/books/hardcover/9780691179490/digital-cash) autorstwa Finn Brunton, opublikowany w 2019 roku;
 - [*This Machine Kills Secrets*](https://penguinrandomhouselibrary.com/book/?isbn=9780142180495) autorstwa Andy'ego Greenberga, opublikowany w 2012 roku.
 
 
-Należy pamiętać, że w przypadku nieanglojęzycznej wersji tego kursu większość cytatów pochodzi z amerykańskiego angielskiego i została przetłumaczona na potrzeby tej okazji. Termin *coin* jest zwykle tłumaczony jako "jednostka" (a nie "kawałek"), gdy odnosi się do jednostki rozliczeniowej.
+Należy pamiętać, że w przypadku nieanglojęzycznej wersji tego kursu większość cytatów pochodzi z amerykańskiego angielskiego i została przetłumaczona na potrzeby tego kursu. Termin *coin* jest zwykle tłumaczony jako „jednostka” (a nie „kawałek”), gdy odnosi się do jednostki rozliczeniowej.
 
 
-Gotowy na poznanie niesamowitej sagi o stworzeniu Bitcoin? Zanurzmy się razem w tej niezwykłej historii!
+Gotowy na poznanie niesamowitej sagi o stworzeniu Bitcoina? Zacznijmy razem tę niezwykłą opowieść!
 
-# Początki Bitcoin
+# Początki Bitcoina
 
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -125,13 +126,13 @@ Gotowy na poznanie niesamowitej sagi o stworzeniu Bitcoin? Zanurzmy się razem w
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
 
-Zanim zagłębimy się we właściwą historię stworzenia Bitcoin przez Satoshi Nakamoto, należy omówić to, co ją poprzedziło. Omówimy ten temat w trzech etapach: najpierw przedstawimy koncepcję cyfrowej gotówki Chaumian, powszechnie nazywanej *eCash*; następnie porozmawiamy o prywatnych walutach opartych na scentralizowanych systemach, takich jak e-gold; na koniec opiszemy modele techniczne, które wyobrażano sobie przed wdrożeniem solidnego systemu rozproszonego, jakim jest Bitcoin.
+Zanim zagłębimy się we właściwą historię stworzenia Bitcoina przez Satoshi Nakamoto, należy omówić to, co ją poprzedziło. Omówimy ten temat w trzech etapach: najpierw przedstawimy koncepcję cyfrowej gotówki Chaumian, powszechnie nazywanej *eCash*; następnie porozmawiamy o prywatnych walutach opartych na scentralizowanych systemach, takich jak e-gold; na koniec opiszemy modele techniczne, które wyobrażano sobie przed wdrożeniem solidnego systemu rozproszonego, jakim jest Bitcoin.
 
 
-Zacznijmy od pierwszej koncepcji, eCash. eCash wywodzi się z pracy Davida Chauma, amerykańskiego informatyka i kryptografa urodzonego w 1955 roku, uważanego za pioniera w dziedzinie anonimowej komunikacji i prekursora cypherpunks. Wniósł on znaczący wkład w rozwój kryptografii w latach 80. ubiegłego wieku. W tym samym czasie opracował swój model cyfrowej gotówki (znany jako "Chaumian") i próbował go wdrożyć w latach 90. za pośrednictwem swojej firmy DigiCash.
+Zacznijmy od pierwszej koncepcji, eCash. eCash wywodzi się z pracy Davida Chauma, amerykańskiego informatyka i kryptografa urodzonego w 1955 roku, uważanego za pioniera w dziedzinie anonimowej komunikacji i prekursora cypherpunks. Wniósł on znaczący wkład w rozwój kryptografii w latach 80. ubiegłego wieku. W tym samym czasie opracował model gotówki cyfrowej (znany jako "Chaumian") i próbował go wdrożyć w latach 90. za pośrednictwem swojej firmy DigiCash.
 
 
-Działania Davida Chauma były następstwem rewolucji koncepcyjnej: ujawnienia kryptografii asymetrycznej w 1976 roku przez Whitfielda Diffie i Martina Hellmana. Idea cyfrowej waluty również wyłoniła się z tego przełomowego odkrycia. Oprócz ukrywania informacji zawartych w wiadomości, kryptografia asymetryczna umożliwiła ustanowienie procesów podpisywania. W ten sposób możliwe stało się matematyczne udowodnienie, że dana osoba jest właścicielem określonej liczby cyfrowych jednostek rozliczeniowych.
+Działania Davida Chauma były następstwem rewolucji pojęciowej: przedstawieniem kryptografii asymetrycznej w 1976 roku przez Whitfielda Diffie i Martina Hellmana. Również idea waluty cyfrowej wyłoniła się z tego przełomowego odkrycia. Oprócz ukrywania informacji zawartych w wiadomości, kryptografia asymetryczna umożliwiła zastosowanie procesów podpisywania. W ten sposób możliwe stało się matematyczne udowodnienie, że dana osoba jest właścicielem określonej liczby cyfrowych jednostek rozliczeniowych.
 
 
 W tym rozdziale zbadamy, co wniosła kryptografia asymetryczna, w jaki sposób David Chaum wykorzystał ją do zaprojektowania eCash i jak jego koncepcja została następnie wdrożona.
@@ -142,10 +143,10 @@ W tym rozdziale zbadamy, co wniosła kryptografia asymetryczna, w jaki sposób D
 
 Kryptografia to dyscyplina mająca na celu zabezpieczenie komunikacji w obecności złośliwych stron trzecich poprzez zapewnienie poufności, autentyczności i integralności przesyłanych informacji.
 
-Przez wieki jedyną metodą ukrywania treści wiadomości był rodzaj szyfrowania, który opierał się na unikalnym kluczu zarówno do szyfrowania, jak i odszyfrowywania wiadomości. Jest to znane jako *kryptografia symetryczna*. Najbardziej znanym przykładem jest [szyfr Cezara](https://fr.wikipedia.org/wiki/Chiffrement_par_décalage), który polega na zastąpieniu każdej litery w tekście inną literą znajdującą się w ustalonej odległości w alfabecie (wybrana odległość staje się kluczem). Wraz z rozwojem telekomunikacji i budową pierwszych maszyn liczących i komputerów w XX wieku, algorytmy szyfrowania stały się znacznie bardziej złożone. Jednak pomimo tego, że ten rodzaj kryptografii działa bardzo dobrze, ma jedną poważną wadę: konieczność Exchange klucza w bezpieczny sposób przed nawiązaniem komunikacji.
+Przez wieki jedyną metodą ukrywania treści wiadomości był rodzaj szyfrowania, który opierał się na unikalnym kluczu zarówno do szyfrowania, jak i odszyfrowywania wiadomości. Nazywamy to *kryptografią symetryczną*. Najbardziej znanym przykładem jest [szyfr Cezara](https://fr.wikipedia.org/wiki/Chiffrement_par_décalage), który polega na zastąpieniu każdej litery w tekście inną literą znajdującą się w ustalonej odległości w alfabecie (wybrana odległość staje się kluczem). Wraz z rozwojem telekomunikacji i budową pierwszych maszyn liczących i komputerów w XX wieku, algorytmy szyfrowania stały się znacznie bardziej złożone. Jednak pomimo tego, że ten rodzaj kryptografii działa bardzo dobrze, ma jedną poważną wadę: konieczność przekazania klucza odbiorcy w bezpieczny sposób przed nawiązaniem komunikacji.
 
 
-Aby rozwiązać ten problem, opracowano *asymetryczną* kryptografię, znaną również jako kryptografia klucza publicznego. Opiera się ona na dwóch odrębnych kluczach: kluczu prywatnym, który ma pozostać tajny, oraz kluczu publicznym, który jest pochodną klucza prywatnego. Teoretycznie klucza prywatnego nie można łatwo znaleźć na podstawie klucza publicznego, co oznacza, że ten ostatni może być udostępniany każdemu bez obaw.
+Aby rozwiązać ten problem, opracowano kryptografię *asymetryczną*, znaną również jako kryptografia klucza publicznego. Opiera się ona na dwóch odrębnych kluczach: kluczu prywatnym, który ma pozostać tajny, oraz kluczu publicznym, który jest pochodną klucza prywatnego. Teoretycznie klucza prywatnego nie można łatwo znaleźć na podstawie klucza publicznego, co oznacza, że ten ostatni może być udostępniany każdemu bez obaw.
 
 
 Ten typ kryptografii pozwala na implementację zarówno algorytmów szyfrowania, jak i procesów podpisywania. Szyfrowanie asymetryczne polega na użyciu klucza publicznego jako klucza szyfrowania i klucza prywatnego jako klucza deszyfrowania. Użytkownik generuje parę kluczy, zachowuje klucz prywatny i udostępnia klucz publiczny swoim korespondentom, aby mogli wysyłać wiadomości. Ten rodzaj szyfrowania jest analogiczny do skrzynki pocztowej, której odbiorca używa do odbierania listów i do której tylko on posiada klucz.

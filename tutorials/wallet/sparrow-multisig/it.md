@@ -18,7 +18,7 @@ Questo meccanismo consente di condividere il controllo di un portafoglio tra pi�
 
 
 
-Tuttavia, questa maggiore sicurezza comporta una maggiore complessità. La configurazione di un Multisig Wallet richiede la protezione di diverse frasi Mnemonic (una per fattore di firma) e di chiavi pubbliche estese ("*xpub*"). Infatti, se si utilizza un Multisig 2-of-3 Wallet, per recuperare il Wallet è necessario disporre di tutte e tre le frasi Mnemonic o di almeno due delle tre frasi. Ma se si dispone solo di due delle tre frasi, è necessario accedere anche alle tre *xpub*, senza le quali sarà impossibile recuperare le chiavi pubbliche necessarie per accedere ai Bitcoin che proteggono.
+Tuttavia, questa maggiore sicurezza comporta una maggiore complessità. La configurazione di un Multisig Wallet richiede la protezione di diverse frasi Mnemonic (una per fattore di firma) e di chiavi pubbliche estese ("*xpub*"). Infatti, se si utilizza un Multisig 2-di-3 Wallet, per recuperare il Wallet è necessario disporre di tutte e tre le frasi Mnemonic o di almeno due delle tre frasi. Ma se si dispone solo di due delle tre frasi, è necessario accedere anche alle tre *xpub*, senza le quali sarà impossibile recuperare le chiavi pubbliche necessarie per accedere ai Bitcoin che proteggono.
 
 
 

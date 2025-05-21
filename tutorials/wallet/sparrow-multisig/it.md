@@ -81,19 +81,19 @@ Per configurare un Wallet multi-firma, sono necessari diversi portafogli hardwar
 
 
 
-- Il Trezor Model One è completamente open-source, il che rende possibile la verifica della generazione seed. Tuttavia, non essendo dotato di un chip anti manomissione (Secure Element), rimane vulnerabile agli attacchi fisici;
+- Trezor Model One è completamente open-source, il che rende possibile la verifica della generazione seed. Tuttavia, non essendo dotato di un chip anti manomissione (Secure Element), rimane vulnerabile agli attacchi fisici;
 
 
 
 
 
-- Il Ledger Flex, invece, beneficia di un firmware proprietario non verificabile, ma incorpora un Secure Element che offre un'eccellente protezione fisica;
+- Ledger Flex, invece, beneficia di un firmware proprietario non verificabile, ma incorpora un Secure Element che offre un'eccellente protezione fisica;
 
 
 
 
 
-- Il Coldcard è dotato di un Secure Element e il suo codice è rintracciabile. È una scelta interessante per la nostra configurazione, in quanto offre funzioni di verifica non disponibili su altri modelli.
+- Coldcard è dotato di un Secure Element e il suo codice è rintracciabile. È una scelta interessante per la nostra configurazione, in quanto offre funzioni di verifica non disponibili su altri modelli.
 
 
 

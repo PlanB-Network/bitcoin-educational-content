@@ -1,0 +1,8 @@
+question: Pour quel livre Mirabeau fut-il conduit en prison ?
+answer: La Théorie de l’Impôt
+wrong_answers:
+  - L’Ami des Hommes
+  - L’Essai sur la nature du commerce en général
+  - Le Contrat Social
+explanation: |
+  Mirabeau a été emprisonné pour "La Théorie de l'Impôt", un ouvrage dans lequel il critiquait le système fiscal français.

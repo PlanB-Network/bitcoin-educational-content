@@ -1,15 +1,14 @@
 ---
-name: Paszport - Fundacja
+name: Passport Core
 description: Konfiguracja i korzystanie z urządzenia Passport Hardware Wallet w trybie ręcznym
 ---
 ![cover](assets/cover.webp)
 
-
 Passport to Bitcoin-only Hardware Wallet, zaprojektowany przez Foundation Devices, amerykańską firmę założoną w kwietniu 2020 roku w Bostonie.
-
 
 Passport "*Batch 2*" prezentowany w tym poradniku jest następcą "*Founder's Edition*". Wyróżnia się wysokiej jakości wzornictwem, kolorowym ekranem o wysokiej rozdzielczości i ergonomiczną klawiaturą fizyczną. Działa w trybie "*Air-Gap*", zapewniając, że klucze prywatne Wallet pozostają całkowicie odizolowane, a komunikacja jest możliwa za pośrednictwem karty MicroSD lub kodów QR. Urządzenie jest wyposażone w wymienną, ładowalną baterię Nokia BL-5C o pojemności 1200 mAh. Ten niezastrzeżony akumulator można łatwo wymienić, ponieważ model BL-5C jest powszechnie dostępny w sklepach.
 
+💡 **Aktualizacja:** Od marca 2025 roku ta portfel sprzętowy nie nazywa się już „Passport” ani „Passport V2”, lecz „Passport Core”.
 
 Jeśli chodzi o łączność, Passport jest wyposażony w port MicroSD, port USB-C do ładowania i tylną kamerę do skanowania kodów QR.
 

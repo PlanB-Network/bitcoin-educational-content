@@ -1,0 +1,8 @@
+question: D’où vient le terme Physiocratie ?
+answer: Signifiant gouvernement de la nature, il est utilisé pour la première fois comme titre à un recueil d’articles de Quesnay
+wrong_answers:
+  - Signifiant l’amour de la nature, il est le nom adopté par un groupe d’agronomes qui deviendront bientôt des économistes
+  - Nom donné par les grecs pour désigner la politique économique, il est repris par Quesnay pour nommer cette nouvelle science qu’est l’économie
+  - C'est un terme inventé par Voltaire pour se moquer des idées de Quesnay
+explanation: |
+  Le terme "Physiocratie" signifie "gouvernement de la nature" et a été utilisé par Quesnay pour désigner sa doctrine économique, qui mettait l'accent sur l'importance de l'agriculture et de l'ordre naturel.

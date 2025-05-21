@@ -28,7 +28,11 @@ This is a detailed guide on how to use the Electrum Bitcoin Wallet, with solutio
 
 For the new Bitcoiner, it is excellent only if under the supervision of an experienced user to show them the way. If learning to use it alone, it would be safe provided they take their time and use it in a testing environment with only a small number of sats at first. This guide supports that endeavour, but it is also a good reference for anyone else.
 
-**Warning:** this guide is big. Don’t try to do all this in one day. It’s best to save the guide and chip away over time.
+**Warning:** this guide is quite long, so don’t try to do all the described steps in one day. It’s advisable to keep the guide handy and make steady progress over time.
+
+**Note:** you may also watch the following Electrum full video guide (beware that it doesn't replace the written tutorial, but it's an integration to it):
+
+![video](https://youtu.be/NNZdbYd8PUQ)
 
 ## Downloading Electrum
 

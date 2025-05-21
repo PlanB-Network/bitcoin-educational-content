@@ -8,12 +8,12 @@ description: Kompletan vodič za LNP2PBot i P2P Bitcoin trgovanje
 ## Uvod
 
 
-Peer-to-peer razmene bez KYC (P2P) su ključne za očuvanje poverljivosti korisnika i finansijske autonomije. Omogućavaju direktne transakcije između pojedinaca bez potrebe za verifikacijom identiteta, što je od suštinskog značaja za one koji cene privatnost. Za dublje razumevanje teorijskih koncepata, pogledajte kurs BTC204:
+Peer-to-peer razmene bez KYC-ija (P2P) su ključne za očuvanje poverljivosti korisnika i finansijske autonomije. Omogućavaju direktne transakcije između pojedinaca bez potrebe za verifikacijom identiteta, što je od suštinskog značaja za one koji cene privatnost. Za dublje razumevanje teorijskih koncepata, pogledajte kurs BTC204:
 
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Kupovina i prodaja Bitcoin peer-to-peer (P2P) je jedan od najprivatnijih metoda za sticanje ili raspolaganje bitcoinima. LNP2PBot je open source Telegram bot koji omogućava P2P razmene na Lightning Network, omogućavajući brze, niskotarifne transakcije bez KYC-a.
+Kupovina i prodaja bitcoina peer-to-peer (P2P) je jedan od najprivatnijih metoda za sticanje ili raspolaganje bitcoinima. LNP2PBot je open source Telegram bot koji omogućava P2P razmene na Lightning mreži, omogućavajući brze, niskotarifne transakcije bez KYC-ija.
 
 
 ### Zašto koristiti Lnp2pbot?
@@ -22,11 +22,11 @@ Kupovina i prodaja Bitcoin peer-to-peer (P2P) je jedan od najprivatnijih metoda 
 
 
 - Nije potreban KYC
-- Brze transakcije na Lightning Network
+- Brze transakcije na Lightning mreži
 - Niski troškovi
 - Jednostavan Interface putem Telegrama, popularne aplikacije za razmenu poruka dostupne sa bilo kog mesta na svetu
 - Integrisani sistem reputacije
-- Automatski eskrou za sigurnu trgovinu
+- Automatski eskrou za sigurnu trgovinu (automatizovano posredništvo za sigurnu razmenu)
 - Podrška za više valuta
 - Aktivna i rastuća zajednica
 
@@ -37,7 +37,7 @@ Kupovina i prodaja Bitcoin peer-to-peer (P2P) je jedan od najprivatnijih metoda 
 Da biste koristili Lnp2pbot, trebat će vam :
 
 
-1. Lightning Network Wallet (Breez, Phoenix ili Blixt preporučeno)
+1. Novčanik na Lightning mreži (Breez, Phoenix ili Blixt preporučeno)
 
 
 2. Instalirana aplikacija Telegram (https://telegram.org/)
@@ -49,10 +49,10 @@ Da biste koristili Lnp2pbot, trebat će vam :
 ## Instalacija i konfiguracija
 
 
-### 1. Konfigurisanje vašeg Lightning Wallet
+### 1. Konfigurisanje vašeg Lightning novčanika
 
 
-Počnite instaliranjem kompatibilnog Lightning Wallet. Evo naših detaljnih preporuka:
+Počnite instaliranjem kompatibilnog Lightning novčanika. Evo naših detaljnih preporuka:
 
 
 **Preporučeni novčanici**
@@ -62,8 +62,8 @@ Počnite instaliranjem kompatibilnog Lightning Wallet. Evo naših detaljnih prep
 
 - [Breez](https://breez.technology)**:
   - Odlično za početnike
-  - Intuitivan, moderan Interface
-  - Nekustodijalni (vi zadržavate kontrolu nad svojim sredstvima)
+  - Intuitivan, moderno korisničko iskustvo
+  - Nekastodijalni (vi zadržavate kontrolu nad svojim sredstvima)
   - Savršeno kompatibilan sa Lnp2pbot
   - Dostupno na iOS i Android
 
@@ -75,14 +75,14 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 
 - [Phoenix](https://phoenix.acinq.co)** :
-  - Jednostavno i pouzdano
+  - Jednostavan i pouzdan
   - Automatska konfiguracija kanala
   - Izvorna podrška za BOLT11 fakture
   - Odličan za svakodnevne transakcije
   - Dostupno na iOS i Android
 
 
-Ispod je link ka uputstvu za ovaj Wallet:
+Ispod je link ka uputstvu za ovaj novčanik:
 
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
@@ -104,17 +104,17 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 **Važne napomene o drugim novčanicima**
 
 
-⚠️ **Važno**: Pre nego što prodate Sats, uverite se da vaš Wallet podržava fakture za "zadržavanje", koje bot koristi kao sistem eskroua.
+⚠️ **Važno**: Pre nego što prodate Sats (satošije), uverite se da vaš novčanik podržava "hold" fakture, koje bot koristi kao sistem eskroua. Hold faktura – posebna vrsta Lightning fakture koja omogućava da uplata bude zadržana (ne potvrđena odmah), što omogućava rad kao privremeni depozit (eskrou).
 
 
 
 
-- Wallet od Satoshi**: Dobro funkcioniše za primanje Sats, ali može imati kašnjenja u ažuriranju stanja ako je prodaja otkazana.
-- Muun**: Nije preporučeno jer plaćanja mogu propasti zbog ograničenja naknada za usmeravanje botova (maksimalno 0,2%).
-- Aqua**: Radi da primi Sats, ali može imati duža kašnjenja (do 48 sati) za ažuriranja stanja u slučaju otkazivanja prodaje.
+- **Wallet od Satoshi**: Dobro funkcioniše za primanje Sats-a, ali može imati kašnjenja u ažuriranju stanja ako je prodaja otkazana.
+- **Muun**: Nije preporučeno jer plaćanja mogu propasti zbog – ograničenja na naknade koje bot prihvata prilikom rutiranja transakcija kroz Lightning mrežu. (maksimalno 0,2%).
+- **Aqua**: Radi da primi Sats, ali može imati duža kašnjenja (do 48 sati) za ažuriranja stanja u slučaju otkazivanja prodaje.
 
 
-💡 **Savjet**: Za optimalno iskustvo, odlučite se za preporučene novčanike (Breez, Phoenix ili Blixt).
+💡 **Savet**: Za optimalno iskustvo, odlučite se za preporučene novčanike (Breez, Phoenix ili Blixt).
 
 
 ⚠️ **Važno**: Ne zaboravite da sačuvate svoje fraze za oporavak na sigurnom mestu.
@@ -147,10 +147,10 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 - Podrška: [@lnp2pbotHelp](https://t.me/lnp2pbotHelp)
 
 
-## Kupovina i prodaja Bitcoina
+## Kupovina i prodaja bitcoina
 
 
-Postoje dva glavna načina za Exchange bitkoina na Lnp2pbot:
+Postoje dva glavna načina za razmenu bitkoina na Lnp2pbot:
 
 
 1. Pregledajte i odgovorite na postojeće ponude na tržištu
@@ -168,7 +168,7 @@ U ovom vodiču, detaljno ćemo pogledati kako :
 - Prodajte bitkoine kreiranjem sopstvene ponude
 
 
-### Kako kupiti Bitkoine
+### Kako kupiti bitcoine
 
 
 **1. Pronađite i odaberite ponudu**
@@ -186,7 +186,7 @@ Pregledajte ponude na [@p2plightning](https://t.me/p2plightning) i kliknite na d
 ![Validation de l'offre](assets/fr/02.webp)
 
 
-1. Povratak na bot četat
+1. Povratak na bot chat
 
 
 2. Potvrdite svoj izbor ponude
@@ -195,7 +195,7 @@ Pregledajte ponude na [@p2plightning](https://t.me/p2plightning) i kliknite na d
 3. Unesite iznos u fiat valuti koji želite da kupite
 
 
-4. Bot će vas zamoliti da obezbedite Lightning Invoice za iznos u satoshijima
+4. Bot će vas zamoliti da obezbedite Lightning fakturu za iznos u satoshijima
 
 
 **3. Kontaktirajte prodavca**
@@ -204,7 +204,7 @@ Pregledajte ponude na [@p2plightning](https://t.me/p2plightning) i kliknite na d
 ![Mise en relation](assets/fr/03.webp)
 
 
-Jednom kada je Invoice poslat, bot vas povezuje sa prodavcem.
+Jednom kada je faktura poslata, bot vas povezuje sa prodavcem.
 
 
 **4. Komunikacija sa prodavcem**
@@ -213,7 +213,7 @@ Jednom kada je Invoice poslat, bot vas povezuje sa prodavcem.
 ![Chat privé](assets/fr/04.webp)
 
 
-Kliknite na nadimak prodavca da otvorite privatni kanal za ćaskanje gde možete Exchange detalje o fiat plaćanju.
+Kliknite na nadimak prodavca da otvorite privatni kanal za ćaskanje gde možete razmeniti detalje o fiat plaćanju.
 
 
 **5. Potvrda o uplati
@@ -225,7 +225,7 @@ Kliknite na nadimak prodavca da otvorite privatni kanal za ćaskanje gde možete
 Nakon što izvršite fiat uplatu, koristite komandu `/fiatsent` u bot četu. Kada transakcija bude završena, moći ćete da ocenite prodavca i transakcija će biti zatvorena.
 
 
-### Kako prodati Bitcoine
+### Kako prodati bitcoine
 
 
 **1. Kreiraj prodajnu ponudu**
@@ -237,7 +237,7 @@ Nakon što izvršite fiat uplatu, koristite komandu `/fiatsent` u bot četu. Kad
 Da biste kreirali prodajnu ponudu, jednostavno koristite komandu :
 
 
-`/prodaj`
+`/sell`
 
 
 Bot će vas zatim voditi korak po korak:
@@ -254,11 +254,11 @@ Bot će vas zatim voditi korak po korak:
 
 
 
-   - Postavite fiksnu cenu za količinu satoshija
+   - Postavite fiksnu cenu za datu količinu satoshija
    - Koristite tržišnu cenu sa opcijom primene premije (pozitivne ili negativne)
 
 
-💡 **Savjet**: Premija vam omogućava da prilagodite svoju cenu u odnosu na tržišnu cenu. Na primer, premija od -1% znači da prodajete za 1% manje od tržišne cene.
+💡 **Savet**: Premija vam omogućava da prilagodite svoju cenu u odnosu na tržišnu cenu. Na primer, premija od -1% znači da prodajete za 1% manje od tržišne cene.
 
 
 **2. Potvrda kreiranja narudžbine**
@@ -278,7 +278,7 @@ Kada je narudžbina kreirana, videćete potvrdu sa opcijom da otkažete narudžb
 
 
 
-- Kada kupac odgovori na vašu ponudu, dobićete obaveštenje sa QR kodom i Invoice za plaćanje.
+- Kada kupac odgovori na vašu ponudu, dobićete obaveštenje sa QR kodom i fakturu za plaćanje.
 - Proverite profil i reputaciju kupca.
 
 
@@ -345,7 +345,7 @@ Kada je narudžbina kreirana, videćete potvrdu sa opcijom da otkažete narudžb
 ## Poređenje sa drugim rešenjima
 
 
-Lnp2pbot ima nekoliko prednosti i nedostataka u odnosu na druga P2P Exchange rešenja kao što su Peach, Bisq, HodlHodl i Robosat:
+Lnp2pbot ima nekoliko prednosti i nedostataka u odnosu na druga P2P rešenja kao što su Peach, Bisq, HodlHodl i Robosat:
 
 
 ### Prednosti Lnp2pbot
@@ -353,11 +353,11 @@ Lnp2pbot ima nekoliko prednosti i nedostataka u odnosu na druga P2P Exchange re�
 
 
 
-- Nije potreban KYC** : Za razliku od nekih platformi, Lnp2pbot ne zahteva verifikaciju identiteta, čime se čuva poverljivost korisnika.
-- Brze transakcije**: Zahvaljujući Lightning Network, transakcije su gotovo trenutne.
-- Niske naknade** : Troškovi transakcija su niži nego kod tradicionalnih berzi.
-- Dostupnost na mobilnim uređajima**: LNP2PBot je dostupan putem Telegrama, što ga čini jednostavnim za korišćenje na mobilnim uređajima.
-- Lako za korišćenje** : Lnp2pbot-ov intuitivni Interface čini ga lakim za korišćenje, čak i za manje iskusne korisnike.
+- **Nije potreban KYC** : Za razliku od nekih platformi, Lnp2pbot ne zahteva verifikaciju identiteta, čime se čuva poverljivost korisnika.
+- **Brze transakcije**: Zahvaljujući Lightning mreži, transakcije su gotovo trenutne.
+- **Niske naknade** : Troškovi transakcija su niži nego kod tradicionalnih berzi.
+- **Dostupnost na mobilnim uređajima**: LNP2PBot je dostupan putem Telegrama, što ga čini jednostavnim za korišćenje na mobilnim uređajima.
+- **Lako za korišćenje** : Lnp2pbot-ov intuitivni korisnički interfejs čini ga lakim za korišćenje, čak i za manje iskusne korisnike.
 
 
 ### Nedostaci Lnp2pbot
@@ -365,11 +365,11 @@ Lnp2pbot ima nekoliko prednosti i nedostataka u odnosu na druga P2P Exchange re�
 
 
 
-- Telegram zavisnost**: Korišćenje Lnp2pbot-a zahteva Telegram nalog, što možda nije pogodno za sve korisnike.
-- Manja likvidnost**: U poređenju sa etabliranijim platformama kao što je Bisq, likvidnost može biti ograničenija.
+- **:Telegram zavisnost**: Korišćenje Lnp2pbot-a zahteva Telegram nalog, što možda nije pogodno za sve korisnike.
+- **:Manja likvidnost**: U poređenju sa etabliranijim platformama kao što je Bisq, likvidnost može biti ograničenija.
 
 
-U poređenju, rešenja kao što je Bisq nude veću likvidnost i desktop Interface, ali mogu uključivati veće naknade i duže vreme transakcije. HodlHodl i Robosat, u međuvremenu, takođe nude trgovanje bez KYC-a, ali sa različitim strukturama naknada i interfejsima.
+U poređenju, rešenja kao što je Bisq nude veću likvidnost i desktop korisnički interfjes, ali mogu uključivati veće naknade i duže vreme transakcije. HodlHodl i Robosat, u međuvremenu, takođe nude trgovanje bez KYC-ija, ali sa različitim strukturama naknada i interfejsima.
 
 
 ## Korisni resursi

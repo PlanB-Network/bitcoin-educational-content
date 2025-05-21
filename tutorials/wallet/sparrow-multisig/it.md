@@ -1,6 +1,6 @@
 ---
-name: Passero Wallet - Multisig
-description: Creare un portafoglio multi-firma su Sparrow
+Nome: Sparrow Wallet - Multisig
+Descrizione: Creare un portafoglio multi-firma su Sparrow
 ---
 ![cover](assets/cover.webp)
 

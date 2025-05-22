@@ -561,14 +561,15 @@ Likuiditas pun diperbarui:
 Untuk mengalirkan pembayaran dari pengirim ke penerima, Lightning Network menggunakan metode yang disebut "**onion routing**". Tidak seperti mengalirkan data klasik, di mana setiap alur menentukan arah data berdasarkan tujuan mereka, onion routing bekerja secara berbeda:
 
 - **Node pengirim menghitung seluruh rute**: Alice, misalnya, menentukan bahwa pembayarannya harus melewati Suzie dan Carol sebelum mencapai Bob.
-- **Setiap node perantara hanya mengetahui tetangga terdekatnya**: Suzie hanya tahu bahwa dia menerima dana dari Alice dan dia harus mentransfernya ke Carol. Namun, Suzie tidak tahu apakah Alice adalah node sumber atau node perantara, dan dia juga tidak tahu apakah Carol adalah node penerima atau hanya node perantara lainnya. Prinsip ini juga berlaku untuk Carol dan semua node lain di jalur tersebut. Routing bawang merah (onion routing) dengan demikian menjaga kerahasiaan transaksi dengan menyembunyikan identitas pengirim dan penerima akhir. Untuk memastikan node pengirim dapat menghitung rute lengkap ke penerima dalam onion routing, node tersebut harus memelihara **grafik jaringan** untuk mengetahui topologinya dan menentukan rute yang mungkin.
-  **Apa yang harus Anda ambil dari bab ini?**
+- **Setiap node perantara hanya mengetahui tetangga terdekatnya**: Suzie hanya tahu bahwa dia menerima dana dari Alice dan dia harus mentransfernya ke Carol. Namun, Suzie tidak tahu apakah Alice adalah node sumber atau node perantara, dan dia juga tidak tahu apakah Carol adalah node penerima atau hanya node perantara lainnya. Prinsip ini juga berlaku untuk Carol dan semua node lain di jalur tersebut. Onion routing menjaga kerahasiaan transaksi dengan menyembunyikan identitas pengirim dan penerima akhir. Untuk memastikan node pengirim dapat menghitung rute lengkap ke penerima dalam onion routing, node tersebut harus memelihara **grafik jaringan** untuk mengetahui topologinya dan menentukan rute yang memungkikan.
 
-- Di Lightning, pembayaran dapat dialihkan antar node yang tidak terhubung langsung melalui saluran perantara. Setiap node perantara ini memfasilitasi relay likuiditas.
+  **Apa yang bisa Anda dapatkan dari bab ini?**
+
+- Di Lightning, pembayaran dapat dialihkan antar node yang tidak terhubung langsung melalui saluran perantara. Setiap node perantara ini memfasilitasi relay (dari satu node ke node lainnya) likuiditas.
 - Node perantara menerima komisi untuk layanannya, yang terdiri dari biaya tetap dan variabel.
-- Onion routing memungkinkan node pengirim untuk menghitung rute lengkap tanpa node perantara mengetahui sumber atau tujuan akhir.
+- Onion routing memungkinkan node pengirim untuk menghitung rute lengkap tanpa node perantara mengetahui pengirim atau penerima akhir.
 
-Dalam bab ini, kita telah menjelajahi routing pembayaran di Jaringan Lightning. Namun, pertanyaan muncul: apa yang mencegah node perantara menerima pembayaran masuk tanpa meneruskannya ke tujuan berikutnya, dengan tujuan untuk mencegat transaksi? Inilah peran HTLC yang akan kita pelajari di bab berikutnya.
+Dalam bab ini, kita telah menjelajahi pengalihan pembayaran di Jaringan Lightning. Namun, menimbulkan sebuah pertanyaan: apa ada yang bisa mencegah terjadinya node perantara tidak meneruskan ke tujuan berikutnya, dengan tujuan untuk mencegat transaksi tersebut? Inilah peran HTLC yang akan kita pelajari di bab berikutnya.
 
 ## HTLC – Hashed Time Locked Contract
 
@@ -576,7 +577,7 @@ Dalam bab ini, kita telah menjelajahi routing pembayaran di Jaringan Lightning. 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Dalam bab ini, kita akan menemukan bagaimana Lightning memungkinkan pembayaran untuk transit melalui node perantara tanpa perlu mempercayai mereka, berkat **HTLC** (_Hashed Time-Locked Contracts_). Kontrak pintar ini memastikan bahwa setiap node perantara hanya akan menerima dana dari salurannya jika ia meneruskan pembayaran ke penerima akhir, jika tidak, pembayaran tidak akan divalidasi.
+Dalam bab ini, kita akan membahas bagaimana Lightning memungkinkan pembayaran untuk transit melalui node perantara tanpa perlu mempercayai mereka, berkat **HTLC** (_Hashed Time-Locked Contracts_). Kontrak pintar ini memastikan bahwa setiap node perantara hanya akan menerima dana dari salurannya jika ia meneruskan pembayaran ke penerima akhir, jika tidak, pembayaran tidak akan divalidasi.
 
 Masalah yang muncul untuk routing pembayaran adalah kepercayaan yang diperlukan pada node perantara, dan di antara node perantara itu sendiri. Untuk mengilustrasikan ini, mari kita kembali ke contoh jaringan Lightning yang disederhanakan dengan 3 node dan 2 saluran:
 

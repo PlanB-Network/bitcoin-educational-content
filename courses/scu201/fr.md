@@ -1934,6 +1934,8 @@ Cette complexité technique, combinée à une surface d’attaque massive, fait 
 
 Pour atténuer ces risques, les éditeurs de navigateurs publient des mises à jour très fréquentes, souvent hebdomadaires, qui corrigent ces vulnérabilités dès qu’elles sont identifiées. Ces correctifs ne se limitent pas à des améliorations d'interface ou de performance : ils bloquent activement des vecteurs d’attaque réels et documentés.
 
+129
+
 Il est donc impératif :
 * d’activer les mises à jour automatiques de votre navigateur et de vérifier régulièrement à la main qu'aucune mise à jour n'est disponible ;
 * ou, si vous utilisez une version packagée manuellement (par exemple via `apt`, `flatpak` ou `snap` sous Linux), de mettre à jour régulièrement l’ensemble du système via votre gestionnaire de paquets.
@@ -1984,6 +1986,8 @@ Un VPN (*Virtual Private Network*) est un outil de tunnelisation qui permet de c
 
 L’usage d’un VPN présente plusieurs avantages. Il protège votre navigation sur des réseaux peu sûrs (comme un Wi-Fi public en aéroport ou en hôtel par exemple), en empêchant des tiers d’intercepter vos données. Il dissimule également votre adresse IP réelle, ce qui peut être utile pour éviter un pistage élémentaire, ou simuler une connexion depuis un autre pays. Enfin, le VPN constitue un outil de contournement de censure. Dans des environnements où l’accès à certains contenus est bloqué au niveau du fournisseur d’accès, rediriger son trafic vers un serveur VPN situé dans un pays non filtré permet de retrouver un accès libre.
 
+128
+
 En revanche, contrairement à une idée reçue très répandue, un VPN ne rend pas anonyme. Le fournisseur de VPN connaît votre véritable adresse IP, peut enregistrer vos connexions, et devient un tiers de confiance. Vous lui déléguez entièrement votre activité en ligne. Si le fournisseur est malveillant, soumis à des obligations légales contraignantes ou techniquement négligent, vos données peuvent être exposées.
 
 De plus, un VPN ne protège en rien contre les malwares, le pistage JavaScript ou les cookies tiers. Si vous êtes connecté à votre compte Google ou Facebook, utiliser un VPN n’empêchera pas ces plateformes de vous identifier avec précision. Le VPN ne filtre pas non plus le contenu, et n’empêche pas une page piégée de vous attaquer via une faille navigateur.
@@ -2032,6 +2036,8 @@ Concrètement, lorsque vous ouvrez une fenêtre en navigation privée :
 Cependant, ce mode n’altère en rien la visibilité de votre activité sur Internet : les sites web que vous visitez connaissent toujours votre adresse IP publique, peuvent toujours exploiter des techniques de fingerprinting, et votre fournisseur d’accès à Internet, ou tout acteur sur votre réseau local, peut toujours voir les sites que vous visitez.
 
 Il est donc important de ne pas confondre navigation privée et anonymat. Pour une protection renforcée de votre confidentialité en ligne, il faut recourir à des outils complémentaires comme Tor ou un bon VPN, selon le niveau de menace.
+
+127
 
 ### Identifier et éviter le phishing et l’ingénierie sociale
 
@@ -2093,6 +2099,8 @@ L’objectif est simple : empêcher qu’un incident sur une activité donnée (
 
 - **Utiliser les conteneurs intégrés** : Firefox propose l’extension [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), qui vous permet d’ouvrir des onglets isolés les uns des autres, chacun avec ses propres identifiants et cookies. Vous pouvez également attribuer automatiquement certains sites à un conteneur spécifique pour maintenir un cloisonnement à chaque ouverture.
 
+126
+
 - **Utiliser un environnement système isolé** : Pour des usages particulièrement sensibles, vous pouvez aussi exécuter votre navigateur au sein d’une machine virtuelle ou d’un conteneur Docker, afin de le séparer totalement de votre environnement principal.
 
 ### Limiter les autorisations accordées aux sites
@@ -2106,6 +2114,8 @@ Pour renforcer votre sécurité :
 - Préférez l’option "autoriser une seule fois" si disponible ;
 - Révoquez manuellement les permissions accordées via les paramètres du navigateur de manière régulière.
 
+125
+
 ### Vérifier les connexions sécurisées (HTTPS)
 
 Chaque fois que vous transmettez des informations personnelles, confidentielles ou financières sur un site web, que ce soit un mot de passe, un numéro de carte bancaire ou un simple formulaire d’inscription, il est important de s’assurer que la connexion entre votre navigateur et le site est chiffrée.
@@ -2117,22 +2127,41 @@ C’est justement le rôle du protocole HTTPS (*HyperText Transfer Protocol Secu
 
 Concrètement, un site en HTTPS est signalé par un cadenas fermé dans la barre d’adresse de votre navigateur, généralement en haut à gauche de l'interface. En cliquant sur ce cadenas, vous pouvez afficher les informations relatives au certificat TLS du site (autorité de certification, date de validité...). L’adresse du site commence aussi systématiquement par `https://`.
 
+124
+
 À l’inverse, si le site utilise encore HTTP (sans le "S"), la connexion est en clair. Toute information saisie peut alors être interceptée par un acteur malveillant situé entre vous et le site : opérateur réseau, fournisseur d’accès, hotspot Wi-Fi piégé, malware local…
 
 En théorie, il faudrait toujours vérifier manuellement ces informations avant de saisir des données sur un site web. En pratique, la plupart des navigateurs modernes signalent automatiquement les sites en HTTP comme non sécurisés. Vous pouvez également activer une option pour forcer l’utilisation du protocole HTTPS dans les paramètres de sécurité de votre navigateur, ce qui permet de bloquer les sites qui ne le prennent pas en charge.
 
 En réalité, très peu de sites sont aujourd’hui accessibles uniquement en HTTP. Ce protocole est largement abandonné au profit d'HTTPS, non seulement pour des raisons de sécurité évidentes, mais aussi parce qu’il est pénalisé par les moteurs de recherche et signalé comme potentiellement dangereux par les navigateurs modernes, ce qui n'inspire pas confiance aux visiteurs.
 
+### Le choix du moteur de recherche
 
+Comme nous l'avons déjà vu précédemment, il est important de bien distinguer deux éléments souvent confondus : le navigateur, qui est une application installée sur votre ordinateur (comme Firefox ou Brave) et qui sert à afficher les pages web, et le moteur de recherche, qui est un service en ligne (comme Google) auquel vous soumettez des requêtes pour obtenir des résultats. Ces deux éléments sont indépendants, même si les navigateurs intègrent souvent par défaut un moteur particulier.
 
+122
 
+Le moteur de recherche que vous utilisez influence directement votre confidentialité. En effet, chaque recherche envoyée peut être :
+- associée à votre adresse IP si vous n'utilisez pas Tor ou un VPN ;
+- liée à vos identifiants si vous êtes connecté à un compte ;
+- stockée et analysée pour créer un profil comportemental ;
+- utilisée pour du ciblage publicitaire ou des reventes à des tiers.
 
+Donc un moteur comme Google vous donne des résultats rapides et pertinents (quoi que, [certaines études suggèrent](https://consumerwatchdog.org/in-the-news/wallet-hub-google-quality-issues-part-of-an-intentional-strategy/) que Google est de moins en moins efficace), mais au prix d'une surveillance systématique de vos requêtes. Bing (Microsoft) et Yahoo suivent un modèle similaire de collecte de vos activités en ligne pour alimenter leurs régies publicitaires.
 
+Pour limiter ce traçage, il est recommandé d’opter pour des moteurs de recherche respectueux de la vie privée, qui ne conservent aucun identifiant personnel ni historique de vos requêtes :
+- [Startpage](https://www.startpage.com/) ;
+- [Qwant](https://www.qwant.com/) ;
+- [Mojeek](https://www.mojeek.com/) ;
+- [SearXNG](https://docs.searxng.org/) (qui peut être auto-hébergé).
 
+123
 
+Dans la plupart des navigateurs, vous pouvez configurer manuellement le moteur de recherche par défaut dans les paramètres. Cela vous permet d’éviter Google sans changer d’outil de navigation.
 
+Les bonnes pratiques présentées dans ce chapitre constituent la base pour une navigation plus sécurisée et souveraine. Leur adoption régulière vous permettra de réduire significativement votre exposition aux menaces.
 
-
+Maintenant que nous avons étudié l’usage des navigateurs et des ordinateurs, nous allons, dans la section suivante, découvrir comment reprendre le contrôle de notre téléphone portable.
 
 # Reprendre le contrôle de son téléphone
 <partId>5f0ef9ad-5701-4620-89bf-eb6937adccac</partId>

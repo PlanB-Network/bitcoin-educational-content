@@ -13,7 +13,7 @@ objectives:
 
 Dans un monde où les appareils numériques sont omniprésents, mais rarement maîtrisés, apprendre à sécuriser son propre environnement informatique devient une nécessité. Qu’il s’agisse de votre ordinateur, de votre navigateur, de votre téléphone ou de votre réseau domestique, chacun de ces éléments constitue une porte d’entrée potentielle vers votre vie privée. Ce cours vous propose de reprendre le contrôle sur vos appareils numériques.
 
-L’objectif n’est pas seulement de connaître les bonnes pratiques : il s’agit de comprendre ce que vous utilisez, comment vous l’utilisez, et ce que cela implique pour votre sécurité. Ce cours SCU 201 vous plonge dans les bases techniques des systèmes d’exploitation, vous initie à l’utilisation concrète de Linux, et vous guide dans la configuration d’un environnement de travail stable, fonctionnel et résilient.
+L’objectif n’est pas seulement de connaître les bonnes pratiques : il s’agit de comprendre ce que vous utilisez, comment vous l’utilisez, et ce que cela implique pour votre sécurité. Ce cours SCU 202 vous plonge dans les bases techniques des systèmes d’exploitation, vous initie à l’utilisation concrète de Linux, et vous guide dans la configuration d’un environnement de travail stable, fonctionnel et résilient.
 
 Au fil des modules, vous découvrirez comment vérifier l’intégrité des logiciels que vous installez, chiffrer efficacement vos données, utiliser votre navigateur et votre téléphone avec un minimum de fuite de données, et renforcer la sécurité de votre réseau domestique.
 
@@ -54,7 +54,7 @@ Ici l'idée c'est de faire un gros recap de chaque section de SCU101 pour avoir 
 ## Linux, Windows, macOS : lequel vous convient ?
 <chapterId>598cdecb-f90c-4382-b13c-0ba5a9dfeede</chapterId>
 
-Commençons ce cours SCU 201 par la base : le système d'exploitation (OS) de votre ordinateur. C’est lui qui conditionnera non seulement le choix de votre matériel informatique, mais également votre sécurité, votre confort d’usage et votre capacité à personnaliser votre machine.
+Commençons ce cours SCU 202 par la base : le système d'exploitation (OS) de votre ordinateur. C’est lui qui conditionnera non seulement le choix de votre matériel informatique, mais également votre sécurité, votre confort d’usage et votre capacité à personnaliser votre machine.
 
 Avant d’entrer dans les détails techniques de Linux dans les prochains chapitres, il est important de comprendre les grandes différences entre les trois systèmes les plus répandus : Windows, macOS et donc GNU/Linux. Dans ce chapitre, nous allons étudier chaque solution, afin d'en identifier les forces et les limites, puis de faire un choix éclairé et adapté à vos usages.
 
@@ -118,7 +118,7 @@ Selon moi, Windows occupe une position centrale peu affirmée : il peut être s�
 
 ![Image](assets/fr/006.webp)
 
-Dans une démarche de souveraineté numérique et de maîtrise technique, Windows montre rapidement ses limites. Son modèle repose sur une relation déséquilibrée entre l’utilisateur et l’éditeur, au profit de ce dernier. Pour ceux qui souhaitent comprendre, personnaliser et sécuriser en profondeur leur ordinateur, c'est un système d'exploitation peu adapté. C’est pourquoi nous ne nous attarderons pas davantage sur Windows dans SCU 201.
+Dans une démarche de souveraineté numérique et de maîtrise technique, Windows montre rapidement ses limites. Son modèle repose sur une relation déséquilibrée entre l’utilisateur et l’éditeur, au profit de ce dernier. Pour ceux qui souhaitent comprendre, personnaliser et sécuriser en profondeur leur ordinateur, c'est un système d'exploitation peu adapté. C’est pourquoi nous ne nous attarderons pas davantage sur Windows dans SCU 202.
 
 ### macOS : intégration et optimisation
 
@@ -138,7 +138,7 @@ Cependant, cette intégration a pour inconvénient un enfermement croissant dans
 
 Côté respect de la vie privée, bien que macOS soit moins intrusif que Windows, il reste lié à une logique de collecte de données, de synchronisation cloud, et de dépendance à des services centralisés. La plupart des fonctions avancées du système reposent sur une connexion permanente à l’écosystème Apple (iCloud, App Store, Siri…), ce qui limite l’indépendance de l’utilisateur.
 
-macOS peut convenir aux utilisateurs qui valorisent la performance, la stabilité et le confort d’un système bien intégré, sans avoir à se plonger dans les détails techniques. En revanche, dans une démarche de souveraineté numérique et de contrôle de son environnement informatique, il s’avère trop fermé, trop dépendant d’une entreprise unique, et peu propice à une personnalisation fine. C'est pourquoi nous n'en parlerons pas plus dans ce cours SCU 201.
+macOS peut convenir aux utilisateurs qui valorisent la performance, la stabilité et le confort d’un système bien intégré, sans avoir à se plonger dans les détails techniques. En revanche, dans une démarche de souveraineté numérique et de contrôle de son environnement informatique, il s’avère trop fermé, trop dépendant d’une entreprise unique, et peu propice à une personnalisation fine. C'est pourquoi nous n'en parlerons pas plus dans ce cours SCU 202.
 
 ### GNU/Linux : liberté, contrôle et sécurité
 
@@ -148,7 +148,7 @@ Le principal atout de Linux réside dans sa robustesse, sa stabilité et son hau
 
 ![Image](assets/fr/010.webp)
 
-Cependant, Linux présente aussi une certaine complexité pour les débutants. La multiplicité des distributions Linux disponibles peut dérouter les utilisateurs non initiés. De même, la prise en main initiale, bien que simplifiée par certaines distributions, peut nécessiter un apprentissage préalable pour maîtriser correctement le système, notamment en raison d'une utilisation régulière du terminal (ligne de commande). Cela tombe bien, c'est justement l'objectif de cette première partie du cours SCU 201 !
+Cependant, Linux présente aussi une certaine complexité pour les débutants. La multiplicité des distributions Linux disponibles peut dérouter les utilisateurs non initiés. De même, la prise en main initiale, bien que simplifiée par certaines distributions, peut nécessiter un apprentissage préalable pour maîtriser correctement le système, notamment en raison d'une utilisation régulière du terminal (ligne de commande). Cela tombe bien, c'est justement l'objectif de cette première partie du cours SCU 202 !
 
 ### Quel système d’exploitation choisir pour vous ?
 
@@ -414,7 +414,7 @@ Le choix d’une distribution Linux dépend de vos besoins spécifiques, de votr
 
 - **Ubuntu** :
 
-Développée par Canonical et lancée en 2004, Ubuntu est l’une des distributions les plus populaires au monde. Basée sur Debian, elle propose un cycle de publication régulier, avec des versions LTS (*Long Term Support*) stables maintenues pendant cinq ans. Ubuntu se distingue par son excellente compatibilité matérielle, sa large communauté, et sa documentation abondante, ce qui en fait un choix très sûr pour les débutants. C'est d'ailleurs celle-ci que nous utiliserons pour la suite de la formation SCU 201, car c'est un point d’entrée solide dans l’univers GNU/Linux. Ubuntu intègre par défaut l’environnement de bureau GNOME, avec quelques ajustements spécifiques.
+Développée par Canonical et lancée en 2004, Ubuntu est l’une des distributions les plus populaires au monde. Basée sur Debian, elle propose un cycle de publication régulier, avec des versions LTS (*Long Term Support*) stables maintenues pendant cinq ans. Ubuntu se distingue par son excellente compatibilité matérielle, sa large communauté, et sa documentation abondante, ce qui en fait un choix très sûr pour les débutants. C'est d'ailleurs celle-ci que nous utiliserons pour la suite de la formation SCU 202, car c'est un point d’entrée solide dans l’univers GNU/Linux. Ubuntu intègre par défaut l’environnement de bureau GNOME, avec quelques ajustements spécifiques.
 
 ![Image](assets/fr/020.webp)
 
@@ -530,7 +530,7 @@ Whonix combine Debian avec le réseau Tor dans une architecture en deux VM (pass
 
 ![Image](assets/fr/037.webp)
 
-Ce panorama vous offre un aperçu de l’écosystème actuel des distributions Linux, et vous permet, selon votre profil technique et vos objectifs, de sélectionner la distribution la mieux adaptée à vos attentes. Dans le prochain chapitre de SCU 201, nous allons étudier plus précisément l’environnement pratique de Linux, en commençant par les environnements graphiques qui représentent la base de vos interactions quotidiennes avec le système.
+Ce panorama vous offre un aperçu de l’écosystème actuel des distributions Linux, et vous permet, selon votre profil technique et vos objectifs, de sélectionner la distribution la mieux adaptée à vos attentes. Dans le prochain chapitre de SCU 202, nous allons étudier plus précisément l’environnement pratique de Linux, en commençant par les environnements graphiques qui représentent la base de vos interactions quotidiennes avec le système.
 
 ## Les environnements de bureau Linux
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
@@ -1558,7 +1558,7 @@ Nettoyage des métadonnées (exiftool).
 
 Le navigateur web est le logiciel qui vous permet d’accéder à des sites et contenus disponibles sur le *World Wide Web*. Son rôle est d'interpréter les langages utilisés pour créer les pages web, notamment le HTML, le CSS et le JavaScript, afin de vous afficher le contenu des sites de manière lisible et interactive. Il agit comme une interface entre l’internaute et les serveurs web, en envoyant des requêtes et en recevant des réponses via le protocole HTTP ou HTTPS.
 
-Mais de nos jours, le navigateur est devenu bien plus qu’un simple logiciel : il constitue souvent l’interface principale en informatique, en particulier pour les utilisateurs débutants. C’est pourquoi il est parfois considéré comme un véritable "système d’exploitation secondaire" au sein du véritable système d’exploitation (que nous avons étudié dans la première section de SCU 201). En effet, de nombreuses tâches autrefois réalisées à l’aide de logiciels locaux spécialisés sont désormais effectuées directement en ligne via le navigateur : divertissement, bureautique (traitement de texte, tableur, présentation), gestion des e-mails, messagerie, stockage de fichiers ou encore travail collaboratif.
+Mais de nos jours, le navigateur est devenu bien plus qu’un simple logiciel : il constitue souvent l’interface principale en informatique, en particulier pour les utilisateurs débutants. C’est pourquoi il est parfois considéré comme un véritable "système d’exploitation secondaire" au sein du véritable système d’exploitation (que nous avons étudié dans la première section de SCU 202). En effet, de nombreuses tâches autrefois réalisées à l’aide de logiciels locaux spécialisés sont désormais effectuées directement en ligne via le navigateur : divertissement, bureautique (traitement de texte, tableur, présentation), gestion des e-mails, messagerie, stockage de fichiers ou encore travail collaboratif.
 
 Pourtant, il n’a pas toujours occupé cette place centrale. L'histoire des navigateurs est marquée par des cycles d’innovation, de compétition technologique, et parfois de domination monopolistique. Retracer cette histoire va nous aider à comprendre comment les navigateurs sont devenus si complexes, mais aussi pourquoi leur sécurité représente aujourd’hui un enjeu important.
 

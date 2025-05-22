@@ -463,22 +463,22 @@ Ada tiga cara untuk menutup saluran:
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-Dalam bab ini, kita akan membahas bagaimana pembayaran di Lightning Network (Jaringan Lightning) dapat mencapai penerima meskipun mereka tidak terhubung langsung melalui saluran pembayaran (payment channel). Lightning memang merupakan **jaringan dari saluran-saluran pembayaran (network of payment channels)**, yang memungkinkan dana dikirim ke node yang jauh melalui channel (saluran) milik peserta lain. Kita akan membahas bagaimana pembayaran dialirkan melalui jaringan, bagaimana likuiditas bergerak antar saluran, dan bagaimana biaya transaksi dihitung.
+Dalam bab ini, kita akan membahas bagaimana pembayaran di Lightning Network (Jaringan Lightning) dapat mencapai penerima meskipun mereka tidak terhubung langsung melalui saluran pembayaran (payment channel). Lightning memang merupakan **jaringan dari saluran-saluran pembayaran (network of payment channels)**, yang memungkinkan dana dikirim ke node yang jauh melalui saluran (atau channel) milik peserta lain. Kita akan membahas bagaimana pembayaran dialirkan melalui jaringan, bagaimana likuiditas bergerak antar saluran, dan bagaimana biaya transaksi dihitung.
 
 ### Jaringan Saluran Pembayaran
 
-Di Lightning Network (Jaringan Lightning), sebuah transaksi merupakan pemindahan dana antara dua node. Seperti yang telah dibahas di bab-bab sebelumnya, untuk dapat melakukan transaksi di Lightning, diperlukan pembukaan channel (saluran) dengan seseorang terlebih dahulu. Channel (saluran) ini memungkinkan transaksi dalam jumlah hampir tak terbatas di off-chain (transaksi yang terjadi di luar jaringan utama blockchain) sebelum menutupnya untuk mengklaim kembali saldo on-chain (transaksi yang dicatat langsung di jaringan utama blockchain). Namun, metode ini memiliki kelemahan yang memerlukan channel (saluran) langsung dengan orang lain untuk menerima atau mengirim dana, yang berarti diperlukan transaksi pembukaan dan penutupan untuk setiap channel (saluran). Jika saya berencana untuk melakukan sejumlah besar pembayaran dengan orang ini, membuka dan menutup channel (saluran) menjadi lebih hemat. Sebaliknya, jika saya hanya perlu melakukan beberapa transaksi Lightning, membuka channel (saluran tidak menguntungkan, karena itu akan menghabiskan biaya saya 2 transaksi on-chain untuk jumlah transaksi off-chain yang terbatas. Kasus ini mungkin terjadi, misalnya, ketika ingin membayar dengan Lightning di pedagang tanpa berencana untuk kembali.
+Di Lightning Network (Jaringan Lightning), sebuah transaksi merupakan pemindahan dana antara dua node. Seperti yang telah dibahas di bab-bab sebelumnya, untuk dapat melakukan transaksi di Lightning, diperlukan pembukaan saluran dengan seseorang terlebih dahulu. Saluran ini memungkinkan transaksi dalam jumlah hampir tak terbatas di off-chain (transaksi yang terjadi di luar jaringan utama blockchain) sebelum menutupnya untuk mengklaim kembali saldo on-chain (transaksi yang dicatat langsung di jaringan utama blockchain). Namun, metode ini memiliki kelemahan yang memerlukan saluran langsung dengan orang lain untuk menerima atau mengirim dana, yang berarti diperlukan transaksi pembukaan dan penutupan untuk setiap saluran. Jika saya berencana untuk melakukan sejumlah besar pembayaran dengan orang ini, membuka dan menutup saluran menjadi lebih hemat. Sebaliknya, jika saya hanya perlu melakukan beberapa transaksi Lightning, membuka saluran menjadi tidak menguntungkan, karena saya harus membayar 2 transaksi on-chain hanya untuk sejumlah kecil transaksi off-chain yang terbatas. Kasus ini mungkin terjadi, misalnya, ketika ingin membayar dengan Lightning di pedagang tanpa berencana untuk membeli lagi.
 
 Untuk menyelesaikan masalah ini, Jaringan Lightning memungkinkan untuk mengalihkan pembayaran melalui beberapa saluran dan node perantara, sehingga memungkinkan transaksi tanpa saluran langsung dengan orang lain.
 
 Misalnya, bayangkan bahwa:
 
-- **Alice** (dalam oranye) memiliki saluran dengan **Suzie** (dalam abu-abu) dengan **100.000 satoshi** di sisinya dan **30.000 satoshi** di sisi Suzie.
-- **Suzie** memiliki saluran dengan **Bob** di mana dia memiliki **250.000 satoshi** dan di mana Bob tidak memiliki satoshi.
+- **Alice** (oranye) memiliki saluran dengan **Suzie** (abu-abu) dengan **100.000 satoshi** di sisinya dan **30.000 satoshi** di sisi Suzie.
+- **Suzie** memiliki saluran dengan **Bob** di mana Suzie memiliki **250.000 satoshi** dan Bob tidak memiliki satoshi.
 
 ![LNP201](assets/en/37.webp)
 
-Jika Alice ingin mengirim dana ke Bob tanpa membuka saluran langsung dengannya, dia harus melalui Suzie, dan setiap saluran perlu menyesuaikan likuiditas di setiap sisi. **Satoshi yang dikirim tetap dalam saluran masing-masing**; mereka sebenarnya tidak "melintasi" saluran, tetapi transfer dilakukan melalui penyesuaian likuiditas internal di setiap saluran.
+Jika Alice ingin mengirim dana ke Bob tanpa membuka saluran langsung dengan Bob, Alice harus melalui Suzie, dan setiap saluran perlu menyesuaikan likuiditas di setiap sisi. **Satoshi yang dikirim tetap dalam saluran masing-masing**; mereka sebenarnya tidak "melintasi" saluran, tetapi transfer dilakukan melalui penyesuaian likuiditas internal di setiap saluran.
 
 Misalkan Alice ingin mengirim **50.000 satoshi** ke Bob:
 
@@ -486,15 +486,15 @@ Misalkan Alice ingin mengirim **50.000 satoshi** ke Bob:
 - **Suzie** mereplikasi transfer ini dengan mengirim 50.000 satoshi ke **Bob** di saluran mereka.
 
 ![LNP201](assets/en/38.webp)
-Dengan demikian, pembayaran dialihkan ke Bob melalui pergerakan likuiditas di setiap saluran. Di akhir operasi, Alice berakhir dengan 50.000 satoshi. Dia memang telah mentransfer 50.000 satoshi karena awalnya, dia memiliki 100.000. Bob, di sisinya, berakhir dengan tambahan 50.000 satoshi. Untuk Suzie (node perantara), operasi ini netral: awalnya, dia memiliki 30.000 satoshi di salurannya dengan Alice dan 250.000 satoshi di salurannya dengan Bob, total 280.000 satoshi. Setelah operasi, dia memegang 80.000 satoshi di salurannya dengan Alice dan 200.000 satoshi di salurannya dengan Bob, yang merupakan jumlah yang sama seperti di awal.
+Dengan demikian, pembayaran dialihkan ke Bob melalui pergerakan likuiditas di setiap saluran. Di akhir operasi, Alice berakhir dengan 50.000 satoshi. Alice telah mentransfer 50.000 satoshi yang awalnya, Alice memiliki 100.000. Bob, di sisinya, berakhir dengan tambahan 50.000 satoshi. Untuk Suzie (node perantara), operasi ini netral: awalnya, dia memiliki 30.000 satoshi di salurannya dengan Alice dan 250.000 satoshi di salurannya dengan Bob, total 280.000 satoshi. Setelah operasi, dia memegang 80.000 satoshi di salurannya dengan Alice dan 200.000 satoshi di salurannya dengan Bob, yang merupakan jumlah yang sama seperti di awal.
 Transfer ini dengan demikian dibatasi oleh **likuiditas yang tersedia** dalam arah transfer.
 
 ### Perhitungan Rute dan Batas Likuiditas
 
 Mari kita ambil contoh teoretis dari jaringan lain dengan:
 
-- **130.000 satoshi** di sisi Alice (dalam oranye) di salurannya dengan **Suzie** (dalam abu-abu).
-- **90.000 satoshi** di sisi **Suzie** dan **200.000 satoshi** di sisi **Carol** (dalam pink).
+- **130.000 satoshi** di sisi Alice (oranye) di salurannya dengan **Suzie** (abu-abu).
+- **90.000 satoshi** di sisi **Suzie** dan **200.000 satoshi** di sisi **Carol** (pink).
 - **150.000 satoshi** di sisi **Carol** dan **100.000 satoshi** di sisi **Bob**.
 
 ![LNP201](assets/en/39.webp)

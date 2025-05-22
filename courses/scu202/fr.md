@@ -418,9 +418,13 @@ Développée par Canonical et lancée en 2004, Ubuntu est l’une des distributi
 
 ![Image](assets/fr/020.webp)
 
+https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+
 - **Linux Mint** :
 
 Lancée en 2006, Linux Mint est une distribution dérivée d’Ubuntu, pensée pour offrir une alternative plus intuitive et plus proche de l’ergonomie de Windows. Elle propose plusieurs environnements de bureau, dont Cinnamon, un fork de GNOME conçu spécifiquement par l’équipe de Mint, qui offre une interface claire, classique et immédiatement familière.
+
+https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint se distingue par sa simplicité, la présence par défaut de codecs multimédias et un outil de mise à jour bien conçu. En contrepartie, elle repose étroitement sur l’infrastructure d’Ubuntu, ce qui la rend dépendante de ses choix techniques (notamment au niveau du noyau ou des dépôts). Mint est particulièrement adaptée aux utilisateurs peu techniques ou à ceux qui souhaitent un système prêt à l’emploi, sans courbe d’apprentissage abrupte.
 
@@ -495,6 +499,8 @@ Parrot OS est également dérivée de Debian. Elle propose un environnement pour
 - **Tails** :
 
 Tails est une distribution live basée sur Debian, orientée vers la confidentialité. Tout passe par le réseau Tor, rien n’est conservé entre deux sessions utilisateur. C'est un distribution idéale pour des usages ponctuels sensibles (journalisme, activisme, génération de seed Bitcoin...).
+
+https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Remarque :** Une distribution live est un système d'exploitation Linux utilisable directement depuis une clé USB ou un CD, sans installation sur le disque dur.
 
@@ -1837,7 +1843,11 @@ Firefox demeure une référence incontournable en matière de sécurité et de p
 
 #### Tor Browser
 
-[Tor Browser](https://www.torproject.org/download/) est un navigateur basé sur Firefox ESR. Il constitue l’une des solutions les plus solides pour l’anonymat en ligne. Il redirige le trafic à travers le réseau Tor, et empêche donc toute corrélation directe entre l'utilisateur et la destination web. La contrepartie est une réduction importante des performances (latence élevée) et une compatibilité limitée avec certains sites web. Tor Browser est idéal pour des activités sensibles (journalisme, activisme...), mais moins adapté à un usage quotidien ordinaire.
+[Tor Browser](https://www.torproject.org/download/) est un navigateur basé sur Firefox ESR. Il constitue l’une des solutions les plus solides pour l’anonymat en ligne. Il redirige le trafic à travers le réseau Tor, et empêche donc toute corrélation directe entre l'utilisateur et la destination web.
+
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+La contrepartie est une réduction importante des performances (latence élevée) et une compatibilité limitée avec certains sites web. Tor Browser est idéal pour des activités sensibles (journalisme, activisme...), mais moins adapté à un usage quotidien ordinaire.
 
 ![Image](assets/fr/118.webp)
 
@@ -2163,22 +2173,54 @@ Les bonnes pratiques présentées dans ce chapitre constituent la base pour une 
 
 Maintenant que nous avons étudié l’usage des navigateurs et des ordinateurs, nous allons, dans la section suivante, découvrir comment reprendre le contrôle de notre téléphone portable.
 
+
+
 # Reprendre le contrôle de son téléphone
 <partId>5f0ef9ad-5701-4620-89bf-eb6937adccac</partId>
 
 ## Système d'exploitation mobile : comprendre les enjeux
 <chapterId>020329e9-a2cb-464b-bb4c-ee4f0e5346c6</chapterId>
 
-Historique d’Android et son écosystème open-source vs Google.  
-Historique d’iOS.  
-Alternatives open-source : Calyx, Graphene, autres.  
-Comparaison des avantages et inconvénients.
+Jusqu’ici, nous nous sommes principalement concentrés sur la sécurisation et l’utilisation de votre ordinateur. Pourtant, pour la majorité des individus, le smartphone est aujourd’hui l’appareil numérique le plus utilisé au quotidien.
 
+À la différence des ordinateurs, les téléphones mobiles fonctionnent généralement avec des systèmes fermés, fortement contrôlés par leurs fabricants. C’est pourquoi, dans ce chapitre, je vous propose d’explorer les enjeux spécifiques liés aux systèmes d’exploitation mobiles.
 
+### Android : de l’open-source au contrôle par Google
 
+#### Historique et évolution d’Android
 
+Android domine aujourd’hui le marché mondial des smartphones, avec environ 72 % des appareils en circulation. Son développement débute en 2003 avec la création de la société Android Inc., fondée par Andy Rubin, Rich Miner, Nick Sears et Chris White. À l’origine, leur objectif était de concevoir un système d’exploitation pour appareils photo numériques.
 
+Après avoir essuyé plusieurs refus d’investisseurs, Android Inc. décide de réorienter son projet vers la création d’un système d’exploitation mobile. Pour bien situer le contexte, en 2003-2004, le marché des téléphones portables était en pleine effervescence, largement dominé par des constructeurs comme Nokia, Motorola, Sony Ericsson ou Samsung. La majorité des appareils étaient des "*feature phones*", équipés de claviers physiques, de petits écrans couleur, et parfois d’un appareil photo rudimentaire. Les smartphones existaient déjà, mais restaient principalement destinés aux professionnels, et portés par des marques comme BlackBerry ou Palm.
 
+Google rachète la société Android Inc. en 2005 pour environ 50 millions de dollars. Entre 2005 et 2007, l’entreprise développe son système d’exploitation en interne, sans en dévoiler de version publique. À cette époque, certaines rumeurs laissent entendre que Google prépare un appareil mobile, peut-être inspiré des BlackBerry, alors en pleine ascension.
+
+Mais en janvier 2007, un événement marque un tournant majeur dans l’histoire du smartphone : Steve Jobs dévoile la première génération de l’iPhone. L’idée alors largement répandue selon laquelle un clavier physique était indispensable vole en éclats. L’iPhone introduit un appareil pensé pour un usage entièrement tactile et redéfinit à lui seul les attentes du marché.
+
+Face à cette révolution, Google est contraint de revoir entièrement l’orientation de son projet Android afin de le rendre compatible avec une interface tactile. C’est plus tard en 2007 que Google officialise la sortie d’Android comme un projet open-source reposant sur un noyau Linux modifié, sous le nom de *Android Open Source Project (AOSP)*.
+
+Le premier appareil commercialisé sous Android, le *HTC Dream*, sort en 2008. Il propose un environnement encore rudimentaire, mais entièrement ouvert : les fabricants et opérateurs peuvent adapter librement le système à leurs besoins, tandis que les développeurs peuvent créer et distribuer des applications sans validation préalable. Cette approche séduit rapidement une communauté active et favorise l’adoption massive d’Android par de nombreux constructeurs.
+
+Cependant, cette ouverture initiale va progressivement être encadrée par Google. En parallèle du code libre d’AOSP, l’entreprise développe une suite d’applications et d’API propriétaires, regroupées sous le nom de *Google Mobile Services (GMS)*. On y retrouvera progressivement le Play Store, Google Maps, YouTube, Google Play Services, Gmail, Chrome ou encore l’assistant vocal. Pour pouvoir préinstaller le Play Store, les fabricants doivent désormais signer un accord de licence avec Google et garantir la compatibilité de leurs appareils avec les standards GMS, ce qui restreint fortement leur marge de personnalisation.
+
+Android connaît une ascension fulgurante : il dépasse iOS en parts de marché dès juillet 2011, et devient le système d’exploitation mobile dominant en juin 2012, à la suite de la chute brutale de SymbianOS après son abandon par Nokia au profit de Windows Phone. Android reste depuis le leader incontesté du marché mobile, et forme aujourd’hui un duopole avec iOS.
+
+130
+
+#### Open-source vs Google : un écosystème complexe
+
+Le projet Android repose sur une dualité structurelle. D’un côté, l’AOSP (*Android Open Source Project*) représente la base libre du système : il comprend le noyau Linux, la pile logicielle système, une interface graphique minimale et un ensemble d’API. Ce socle est publié sous licence Apache 2.0, et reste accessible à tous. De l’autre côté, l’environnement réellement utilisé par la majorité des utilisateurs Android repose presque entièrement sur des composants propriétaires développés par Google : les *Google Mobile Services* (GMS).
+
+Ces composants ne sont pas open-source : ils ne peuvent être ni audités librement par la communauté, ni remplacés facilement. Pour pouvoir les préinstaller légalement sur leurs appareils, les fabricants doivent signer des accords de licence avec Google et se soumettre à des exigences techniques et commerciales strictes. Parmi ces conditions figurent notamment :
+- l’intégration obligatoire de plusieurs applications Google comme applications système non désinstallables ;
+- la mise en avant visuelle de certaines applications (Google Search, Play Store, Gemini...) sur l’écran d’accueil ;
+- l’usage exclusif des API Google pour des fonctions importantes telles que la synchronisation, les notifications push ou la géolocalisation.
+
+Cela crée progressivement une dépendance structurelle pour les constructeurs de smartphones, et rend presque inévitable, pour l’utilisateur final, la transmission de données personnelles vers les serveurs de Google. Ces services visent à garantir une expérience utilisateur fluide et cohérente, mais centralisent également des fonctions sensibles comme la sauvegarde automatique des données, la géolocalisation passive, ou encore l’authentification permanente via un compte Google (souvent requis pour exploiter pleinement son appareil).
+
+Même si Android reste, en théorie, un système libre à sa base, la majorité des smartphones Android vendus dans le monde fonctionnent sur une version modifiée et enrichie par Google. Dans cette version, la couche open-source est largement dissimulée sous une surcouche propriétaire, verrouillée et intrusive.
+
+Pour réellement reprendre le contrôle, il est donc nécessaire de se tourner vers des alternatives comme les ROMs libres (GrapheneOS, CalyxOS, etc.), que nous aborderons plus loin dans ce cours.
 
 
 

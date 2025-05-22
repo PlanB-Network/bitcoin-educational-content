@@ -494,12 +494,12 @@ Transfer ini dengan demikian dibatasi oleh **likuiditas yang tersedia** dalam ar
 Mari kita ambil contoh teoretis dari jaringan lain dengan:
 
 - **130.000 satoshi** di sisi Alice (oranye) di salurannya dengan **Suzie** (abu-abu).
-- **90.000 satoshi** di sisi **Suzie** dan **200.000 satoshi** di sisi **Carol** (pink).
+- **90.000 satoshi** di sisi **Suzie** dan **200.000 satoshi** di sisi **Carol** (merah muda).
 - **150.000 satoshi** di sisi **Carol** dan **100.000 satoshi** di sisi **Bob**.
 
 ![LNP201](assets/en/39.webp)
 
-Maksimum yang dapat Alice kirim ke Bob dalam konfigurasi ini adalah **90.000 satoshi**, karena dia dibatasi oleh likuiditas terkecil yang tersedia di saluran dari **Suzie ke Carol**. Dalam arah sebaliknya (dari Bob ke Alice), tidak ada pembayaran yang mungkin karena sisi **Suzie** di saluran dengan **Alice** tidak mengandung satoshi. Oleh karena itu, tidak ada **rute** yang dapat digunakan untuk transfer dalam arah ini.
+Jumlah maksimal yang dapat Alice kirim ke Bob adalah **90.000 satoshi**, karena Alice dibatasi oleh likuiditas terkecil yang tersedia di saluran dari **Suzie ke Carol**. Dalam arah sebaliknya (dari Bob ke Alice), tidak ada pembayaran yang mungkin karena sisi **Suzie** di saluran dengan **Alice** tidak memliki satoshi. Oleh karena itu, tidak ada **rute** yang dapat digunakan untuk transfer dari arah Bob ke Alice ini.
 Alice mengirim **40.000 satoshi** ke Bob melalui saluran:
 
 - Alice mentransfer 40.000 satoshi ke salurannya dengan Suzie.
@@ -508,20 +508,20 @@ Alice mengirim **40.000 satoshi** ke Bob melalui saluran:
 
 ![LNP201](assets/en/40.webp)
 
-**Satoshi yang dikirim** di setiap saluran **tetap di saluran**, jadi satoshi yang dikirim oleh Carol ke Bob bukanlah sama dengan yang dikirim oleh Alice ke Suzie. Transfer dilakukan hanya dengan menyesuaikan likuiditas di dalam setiap saluran. Selain itu, kapasitas total saluran tetap tidak berubah.
+**Satoshi yang dikirim** di setiap saluran **tetap di saluran**, jadi satoshi yang dikirim oleh Carol ke Bob bukanlah satochi yang sama dengan yang dikirim oleh Alice ke Suzie. Transfer dilakukan hanya dengan menyesuaikan likuiditas di dalam setiap saluran. Selain itu, kapasitas total saluran tetap tidak berubah.
 
 ![LNP201](assets/en/41.webp)
 
 Seperti dalam contoh sebelumnya, setelah transaksi, node sumber (Alice) memiliki 40.000 satoshi lebih sedikit. Node perantara (Suzie dan Carol) mempertahankan jumlah total yang sama, membuat operasi netral bagi mereka. Akhirnya, node tujuan (Bob) menerima tambahan 40.000 satoshi.
 
-Peran node perantara oleh karena itu sangat penting dalam fungsi Lightning Network. Mereka memfasilitasi transfer dengan menawarkan beberapa jalur untuk pembayaran. Untuk mendorong node ini menyediakan likuiditas mereka dan berpartisipasi dalam merutekan pembayaran, **biaya perutean** dibayarkan kepada mereka.
+Peran node perantara oleh karena itu sangat penting dalam fungsi Lightning Network. Mereka memfasilitasi transfer dengan menawarkan beberapa jalur untuk pembayaran. Untuk mendorong node ini menyediakan likuiditas mereka dan berpartisipasi dalam mengalihkan pembayaran, **biaya routing (pengalihan)** dibayarkan kepada mereka.
 
-### Biaya Perutean
+### Biaya Routing
 
 Node perantara menerapkan biaya untuk memungkinkan pembayaran melewati saluran mereka. Biaya ini ditetapkan oleh **setiap node untuk setiap saluran**. Biaya terdiri dari 2 elemen:
 
-- "**Biaya Dasar**": jumlah tetap per saluran, sering kali **1 sat** secara default, tetapi dapat disesuaikan.
-- "**Biaya variabel**": persentase dari jumlah yang ditransfer, dihitung dalam **bagian per juta (ppm)**. Secara default, ini adalah **1 ppm** (1 sat per juta satoshi yang ditransfer), tetapi ini juga dapat disesuaikan.
+- "**Biaya Dasar**": jumlah tetap per saluran, sering kali **1 sat**, tetapi dapat disesuaikan.
+- "**Biaya variabel**": persentase dari jumlah yang ditransfer, dihitung dalam **parts per milliion (ppm) atau per sejuta**. Biasanya, biayanya adalah **1 ppm** (1 satoshi per 1 juta satoshi yang ditransfer), tetapi biaya ini juga dapat disesuaikan.
    Biaya juga berbeda tergantung pada arah transfer. Misalnya, untuk transfer dari Alice ke Suzie, biaya Alice yang berlaku. Sebaliknya, dari Suzie ke Alice, biaya Suzie yang digunakan.
 
 Sebagai contoh, untuk sebuah saluran antara Alice dan Suzie, kita bisa memiliki:
@@ -531,7 +531,7 @@ Sebagai contoh, untuk sebuah saluran antara Alice dan Suzie, kita bisa memiliki:
 
 ![LNP201](assets/en/42.webp)
 
-Untuk lebih memahami bagaimana biaya bekerja, mari kita pelajari jaringan Lightning yang sama seperti sebelumnya, tetapi sekarang dengan biaya perutean berikut:
+Untuk lebih memahami bagaimana biaya bekerja, mari kita pelajari Lightning Network (Jaringan Lightning) yang sama seperti sebelumnya, tetapi sekarang dengan biaya routing (pengalihan) berikut:
 
 - Saluran **Alice - Suzie**: biaya dasar 1 satoshi dan 1 ppm untuk Alice.
 - Saluran **Suzie - Carol**: biaya dasar 0 satoshi dan 200 ppm untuk Suzie.
@@ -544,21 +544,21 @@ Untuk pembayaran yang sama sebesar **40,000 satoshi** ke Bob, Alice harus mengir
   $$ f*{\text{Carol-Bob}} = \text{biaya dasar} + \left(\frac{\text{ppm} \times \text{jumlah}}{10^6}\right) $$
   $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
-- **Suzie** mengurangi 8 satoshi dalam biaya di saluran dengan Carol:
+- **Suzie** mengurangi 8 satoshi untuk biaya di saluran dengan Carol:
   $$ f*{\text{Suzie-Carol}} = \text{biaya dasar} + \left(\frac{\text{ppm} \times \text{jumlah}}{10^6}\right) $$
   $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
-Total biaya untuk pembayaran ini di jalur ini adalah **9.04 satoshi**. Dengan demikian, Alice harus mengirim **40,009.04 satoshi** agar Bob menerima tepat **40,000 satoshi**.
+Total biaya untuk pembayaran di jalur ini adalah **9.04 satoshi**. Dengan demikian, Alice harus mengirim **40,009.04 satoshi** agar Bob menerima tepat **40,000 satoshi**.
 
 ![LNP201](assets/en/44.webp)
 
-Likuiditas oleh karena itu diperbarui:
+Likuiditas pun diperbarui:
 
 ![LNP201](assets/en/45.webp)
 
 ### Onion Routing
 
-Untuk merutekan pembayaran dari pengirim ke penerima, Jaringan Lightning menggunakan metode yang disebut "**onion routing**". Tidak seperti perutean data klasik, di mana setiap router menentukan arah data berdasarkan tujuan mereka, onion routing bekerja secara berbeda:
+Untuk mengalirkan pembayaran dari pengirim ke penerima, Lightning Network menggunakan metode yang disebut "**onion routing**". Tidak seperti mengalirkan data klasik, di mana setiap alur menentukan arah data berdasarkan tujuan mereka, onion routing bekerja secara berbeda:
 
 - **Node pengirim menghitung seluruh rute**: Alice, misalnya, menentukan bahwa pembayarannya harus melewati Suzie dan Carol sebelum mencapai Bob.
 - **Setiap node perantara hanya mengetahui tetangga terdekatnya**: Suzie hanya tahu bahwa dia menerima dana dari Alice dan dia harus mentransfernya ke Carol. Namun, Suzie tidak tahu apakah Alice adalah node sumber atau node perantara, dan dia juga tidak tahu apakah Carol adalah node penerima atau hanya node perantara lainnya. Prinsip ini juga berlaku untuk Carol dan semua node lain di jalur tersebut. Routing bawang merah (onion routing) dengan demikian menjaga kerahasiaan transaksi dengan menyembunyikan identitas pengirim dan penerima akhir. Untuk memastikan node pengirim dapat menghitung rute lengkap ke penerima dalam onion routing, node tersebut harus memelihara **grafik jaringan** untuk mengetahui topologinya dan menentukan rute yang mungkin.

@@ -68,7 +68,7 @@ Les grandes étapes d'installation sont :
 
    * **Mot de passe UI** : choisissez un mot de passe sécurisé et renseignez-le dans `multiPass` (à la place de `"password"` par défaut).
    * **Port** : par défaut `3000`. Vous pouvez le modifier si ce port est déjà pris sur votre machine.
-   * **Noeud** : dans la section `nodes[0]`, ajustez les paramètres pour votre nœud :
+   * **Nœud** : dans la section `nodes[0]`, ajustez les paramètres pour votre nœud :
      * `lnNode` : un nom descriptif de votre nœud (ex: `"LND Node Maison"`).
      * `lnImplementation` : `"LND"` (ou `"CLN"`/`"ECL"` selon le cas).
      * Sous `authentication`:
@@ -325,6 +325,8 @@ N'exposez jamais RTL directement sur Internet. Privilégiez :
 - **Tor** pour un accès anonyme et sécurisé
 - **Reverse proxy HTTPS** (Nginx/Caddy) uniquement si vous maîtrisez la configuration
 
+https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+
 ### Bonnes pratiques de sécurité
 
 - **Protégez vos accès** : ne partagez jamais le fichier admin.macaroon ni votre mot de passe RTL. Limitez les permissions des fichiers sensibles.
@@ -352,3 +354,7 @@ Pour aller plus loin :
 En résumé, RTL vous donne le contrôle total sur votre nœud Lightning, dans une interface moderne et complète.
 
 **Sources :** RTL official website; RTL GitHub; Umbrel App Store; Umbrel Community; Plan B Network resources.
+
+Pour approfondir votre compréhension du fonctionnement du Lightning Network, je vous recommande également de suivre ce cours gratuit :
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

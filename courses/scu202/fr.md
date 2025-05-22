@@ -92,7 +92,7 @@ Linux reste minoritaire sur les ordinateurs personnels (environ 4 %), mais domin
 
 ![Image](assets/fr/002.webp)
 
-Source avril 2025 : [StatCounter Global Stats - OS Market Share](https://gs.statcounter.com/os-market-share/desktop/worldwide)
+*Source avril 2025 : [StatCounter Global Stats - OS Market Share](https://gs.statcounter.com/os-market-share/desktop/worldwide)*
 
 Par ailleurs, on retrouve Linux massivement intégré dans les équipements embarqués, tels que les routeurs, les télévisions connectées, les smartphones (Android étant basé sur un noyau Linux) et même dans l’industrie automobile. Windows conserve une forte implantation en entreprise, tandis que macOS est privilégié par les professionnels dans certains secteurs spécifiques.
 
@@ -114,7 +114,7 @@ Sur le plan de la sécurité, Windows est une cible privilégiée pour les logic
 
 ![Image](assets/fr/007.webp)
 
-Selon moi, Windows occupe une position centrale peu affirmée : il peut être sécurisé, mais l’est moins que Linux et macOS ; il laisse un certain contrôle, mais bien moins que Linux ; il n’est ni aussi performant que macOS, ni aussi simple que Chrome OS ou certaines distributions Linux destinées aux débutants. Il est moyen en tout, sans être véritablement mauvais dans aucun domaine (sauf la confidentialité par défaut).
+Selon moi, Windows occupe une position centrale peu affirmée : il peut être sécurisé, mais l’est moins que Linux et macOS ; il laisse un certain contrôle, mais bien moins que Linux ; il n’est ni aussi performant que macOS, ni aussi simple que Chrome OS ou certaines distributions Linux destinées aux débutants. Il est moyen en tout, sans être véritablement mauvais dans aucun domaine (sauf la confidentialité, par défaut).
 
 ![Image](assets/fr/006.webp)
 
@@ -382,7 +382,7 @@ La plus connue est Manjaro, qui conserve la base technique d’Arch tout en prop
 
 #### La famille Slackware
 
-Slackware demeure fidèle aux principes Unix historiques, privilégiant simplicité, transparence et stabilité. Contrairement aux distributions modernes qui automatisent la gestion logicielle, Slackware repose sur un système de paquets `.tgz` sans résolution automatique des dépendances, ce qui exige d'avoir une bonne connaissance de son environnement et de ses composants logiciels.
+Slackware demeure fidèle aux principes Unix historiques, et privilégie la simplicité, la transparence et la stabilité. Contrairement aux distributions modernes qui automatisent la gestion logicielle, Slackware repose sur un système de paquets `.tgz` sans résolution automatique des dépendances, ce qui exige d'avoir une bonne connaissance de son environnement et de ses composants logiciels.
 
 Cette approche minimaliste, combinée à une forte stabilité, fait de Slackware une distribution prisée par les utilisateurs expérimentés ou les puristes Unix, notamment dans des contextes où la prédictibilité et le contrôle sont importants (serveurs, systèmes embarqués, environnements critiques...).
 
@@ -400,7 +400,7 @@ Issu du projet Enoch Linux créé en 1999, Gentoo est créé par Daniel Robbins 
 
 Plusieurs dérivées ont vu le jour pour élargir son usage : Funtoo, Redcore Linux (Sabayon), Calculate Linux, Pentoo...
 
-Enfin, ChromeOS, le système d’exploitation développé par Google pour ses Chromebook, dérive initialement de Gentoo, bien qu’il s’en soit considérablement éloigné.
+Enfin, ChromeOS, le système d’exploitation développé par Google pour ses Chromebook, est initialement dérivé de Gentoo, bien qu’il s’en soit considérablement éloigné.
 
 ![Image](assets/fr/039.webp)
 
@@ -1200,7 +1200,7 @@ flatpak update
 
 #### Redémarrage après certaines mises à jour
 
-Certaines mises à jour critiques, comme celles du noyau Linux ou de la libc (bibliothèque standard du langage C, utilisée par la majorité des programmes), ne prennent effet qu’après un redémarrage de vo machine. Pour savoir si un redémarrage est conseillé, installez l’outil `needrestart` :
+Certaines mises à jour critiques, comme celles du noyau Linux ou de la libc (bibliothèque standard du langage C, utilisée par la majorité des programmes), ne prennent effet qu’après un redémarrage de votre machine. Pour savoir si un redémarrage est conseillé, installez l’outil `needrestart` :
 
 ```bash
 sudo apt install needrestart
@@ -1431,7 +1431,7 @@ Si vous êtes développeur, pour installer une base de développement C/C++, Git
 sudo apt install build-essential git curl
 ```
 
-Pour un installer VSCode :
+Pour installer VSCode :
 
 ```bash
 sudo snap install code --classic
@@ -1779,7 +1779,7 @@ Brave est basé sur Chromium et l’ensemble de son code est disponible sur GitH
 
 ![Image](assets/fr/111.webp)
 
-Brave constitue donc une alternative performante à Chrome, combinant rapidité, sécurité renforcée, meilleure confidentialité par défaut et une interface intuitive. Pour autant, je ne vous le recommanderais pas forcément, tout simplement car il repose sur Chromium. 
+Brave constitue donc une alternative performante à Chrome, qui combine rapidité, sécurité renforcée, meilleure confidentialité par défaut et une interface intuitive. Pour autant, je ne vous le recommanderais pas forcément, tout simplement car il repose sur Chromium. 
 
 Même si de nombreux navigateurs (y compris Brave) se basent sur Chromium tout en revendiquant une approche orientée vie privée, une enquête menée en 2024 a révélé l’intégration, par défaut, d’une API permettant à Google d’accéder à des informations sensibles sur le matériel de l’utilisateur (CPU, GPU, RAM), ainsi qu’à son activité sur les services Google. Cette API, intégrée sous forme d’extension non désactivable dans Chrome, était également présente dans plusieurs navigateurs dérivés comme Edge, Opera… et même Brave.
 
@@ -1900,7 +1900,7 @@ Chrome, malgré sa popularité, ne peut être recommandé dans une démarche de 
 
 Le choix de votre navigateur joue aujourd’hui un rôle important dans votre sécurité et votre confidentialité en ligne. Prenez donc le temps d’identifier celui qui correspond le mieux à votre profil de risque et à vos priorités.
 
-Voici un petit récapitulatif pour vous aider à faire votre choix (gardez toutefois à l’esprit que le jugement de l’interface et des fonctionnalités relève d’une appréciation personnelle) :
+Voici un petit récapitulatif pour vous aider à faire votre choix (gardez toutefois à l’esprit que cette comparaison a pu évoluer dans le temps depuis la rédaction de SCU 202, et le jugement de l’interface et des fonctionnalités relève avant tout d’une appréciation personnelle) :
 
 | Navigateur      | Confidentialité | Vitesse | Fonctionnalités | Interface | Open source | Consommation ressources |
 | --------------- | --------------- | ------- | --------------- | --------- | ----------- | ----------------------- |

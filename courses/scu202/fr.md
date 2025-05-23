@@ -2372,7 +2372,38 @@ Au-delà du système d’exploitation, les applications installées sur votre sm
 
 Sur Android, si vous installez des applications via des fichiers `.apk`, vous devrez gérer manuellement les mises à jour. En effet, ces applications installées en dehors des canaux officiels ne disposent d’aucun mécanisme de mise à jour automatique. Il vous faudra donc consulter régulièrement les versions publiées par les développeurs sur GitHub ou sur leur site officiel.
 
+### Gérer les autorisations des applications
 
+Sur un smartphone, chaque application peut demander un accès direct à des ressources sensibles : microphone, caméra, position géographique précise, carnet d’adresses, fichiers, SMS, capteurs de mouvement... Ces accès ne sont pas anodins : techniquement, lorsqu’une permission est accordée, l’application peut l’exploiter en arrière-plan, de façon continue ou ponctuelle, parfois sans notification visible. C’est pourquoi il est important d’appliquer le principe du moindre privilège : ne donner à chaque application que les autorisations strictement indispensables à son fonctionnement minimal.
+
+141
+
+Par exemple, une application de lampe torche n’a aucun besoin d’accéder à vos contacts ou à votre géolocalisation. Une application de météo peut fonctionner avec une localisation manuelle, sans accès GPS. Un lecteur de PDF n’a pas besoin d’utiliser le micro ou les SMS. En cas de doute, refusez toujours par défaut, puis réévaluez si l’application ne fonctionne pas correctement. Sur certains systèmes, il est également possible de n’accorder des autorisations que de manière temporaire : soit pour une seule utilisation, soit uniquement lorsque l’application est en cours d’exécution. Cela permet d’éviter qu’une application exploite certaines permissions en arrière-plan à votre insu.
+
+Android et iOS permettent aujourd’hui un contrôle granulaire des autorisations. Vous pouvez les gérer par application ou par type de permission. Prenez le temps, une fois par mois par exemple, de vérifier les autorisations actives via les paramètres de votre téléphone.
+
+Certains systèmes permettent également de révoquer automatiquement les autorisations accordées à une application après une certaine période d’inutilisation. Cela permet de limiter les risques si vous oubliez de désinstaller une application.
+
+### Verrouillage de l'écran
+
+La sécurité physique d’un smartphone commence par son écran de verrouillage. C’est la première barrière entre un attaquant potentiel et l’accès à vos données personnelles. Le moyen le plus fiable reste le code PIN ou le mot de passe complexe.
+
+En revanche, les méthodes de déverrouillage comme les schémas graphiques sont fortement déconseillées. Ces schémas laissent des traces visibles sur l’écran, sont faciles à mémoriser pour un tiers observant votre geste, et sont rarement suffisamment complexes.
+
+Les systèmes biométriques (reconnaissance faciale ou empreinte digitale) offrent un confort d’usage évident, mais doivent être utilisés avec prudence. En cas de contrainte physique (vol, pression policière...), l’empreinte ou le visage peut être utilisé sans votre consentement actif. En droit, dans certains pays, l’usage de la biométrie ne bénéficie pas des mêmes protections que le secret d’un mot de passe.
+
+Par ailleurs, les systèmes biométriques peuvent être contournés (ou pourraient l’être à l’avenir) à l’aide de techniques comme la reproduction visuelle du visage ou la récupération d’empreintes digitales latentes sur une surface. Leur fiabilité dépend aussi fortement du niveau de sécurité de votre appareil : par exemple, la reconnaissance faciale Face ID d’Apple est bien plus rigoureuse que celle de certains smartphones d’entrée de gamme.
+
+Pour résumer, voici le classement du meilleur système de verrouillage de smartphone au moins bon :
+- Le mot de passe alphanumérique ;
+- Le code PIN ;
+- La biométrie ;
+- Les schémas graphiques ;
+- Pas de verrouillage.
+
+142
+
+Pour les appareils sensibles, la meilleure solution reste donc un mot de passe combiné à une désactivation de la biométrie, avec déverrouillage uniquement manuel. Cela peut paraître contraignant, mais c’est le mieux dans une démarche de protection. Évidemment, pour un code PIN ou un mot de passe alphanumérique, plus il est long et aléatoire, mieux c’est. Il faut qu'il soit résistant face aux attaques par brute force.
 
 
 

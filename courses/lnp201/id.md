@@ -579,16 +579,16 @@ Dalam bab ini, kita telah menjelajahi pengalihan pembayaran di Jaringan Lightnin
 
 Dalam bab ini, kita akan membahas bagaimana Lightning memungkinkan pembayaran untuk transit melalui node perantara tanpa perlu mempercayai mereka, berkat **HTLC** (_Hashed Time-Locked Contracts_). Kontrak pintar ini memastikan bahwa setiap node perantara hanya akan menerima dana dari salurannya jika ia meneruskan pembayaran ke penerima akhir, jika tidak, pembayaran tidak akan divalidasi.
 
-Masalah yang muncul untuk routing pembayaran adalah kepercayaan yang diperlukan pada node perantara, dan di antara node perantara itu sendiri. Untuk mengilustrasikan ini, mari kita kembali ke contoh jaringan Lightning yang disederhanakan dengan 3 node dan 2 saluran:
+Masalah yang muncul untuk routing (pengalihan) pembayaran adalah perlunya kepercayaan pada node perantara, dan kepercayaan di antara node perantara itu sendiri. Untuk menggambarkannya, mari kita kembali ke contoh Lightning Network (Jaringan Lightning) yang disederhanakan dengan 3 node dan 2 saluran:
 
 - Alice memiliki saluran dengan Suzie.
 - Suzie memiliki saluran dengan Bob.
 
-Alice ingin mengirim 40.000 sats ke Bob tetapi dia tidak memiliki saluran langsung dengannya dan tidak ingin membuka satu. Dia mencari rute dan memutuskan untuk melalui node Suzie.
+Alice ingin mengirim 40.000 sats ke Bob tetapi Alice tidak memiliki saluran langsung dengan Bob dan tidak ingin membuka saluran baru. Alice mencari route (rute) dan memutuskan untuk melalui node Suzie.
 
 ![LNP201](assets/en/46.webp)
 
-Jika Alice secara naif mengirim 40.000 satoshi ke Suzie dengan harapan Suzie akan mentransfer jumlah tersebut ke Bob, Suzie bisa menyimpan dana tersebut untuk dirinya sendiri dan tidak mentransmisikan apa pun ke Bob.
+Jika Alice secara naif mengirim 40.000 satoshi ke Suzie dengan harapan Suzie akan mentransfer jumlah tersebut ke Bob, Suzie bisa saja menyimpan dana tersebut untuk dirinya sendiri dan tidak mengirimkan apa pun ke Bob.
 
 ![LNP201](assets/en/47.webp)
 Untuk menghindari situasi ini, di Lightning, kita menggunakan HTLCs (Hashed Time-Locked Contracts), yang membuat pembayaran ke node perantara bersyarat, artinya Suzie harus memenuhi kondisi tertentu untuk mengakses dana Alice dan mentransfernya ke Bob.
@@ -633,35 +633,35 @@ $$
 
 ![LNP201](assets/en/52.webp)
 
-**Validasi oleh Rahasia _s_**: Bob memberikan _s_ kepada Suzie untuk menerima 40.000 satoshi yang dijanjikan dalam HTLC. Dengan rahasia ini, Suzie kemudian dapat membuka HTLC Alice dan mendapatkan 40.000 satoshi dari Alice. Pembayaran kemudian dengan benar dialihkan ke Bob.
+**Validasi oleh Rahasia _s_**: Bob memberikan _s_ kepada Suzie untuk menerima 40.000 satoshi yang dijanjikan dalam HTLC. Dengan rahasia ini, Suzie kemudian dapat membuka HTLC Alice dan mendapatkan 40.000 satoshi dari Alice. Pembayaran tersebut kemudian dirutekan dengan benar kepada Bob.
 
 ![LNP201](assets/en/53.webp)
-Proses ini mencegah Suzie menyimpan dana Alice tanpa menyelesaikan transfer ke Bob, karena dia harus mengirim pembayaran ke Bob untuk mendapatkan rahasia _s_ dan dengan demikian membuka HTLC Alice. Operasi tetap sama bahkan jika rute mencakup beberapa node perantara: ini hanya masalah mengulangi langkah-langkah Suzie untuk setiap node perantara. Setiap node dilindungi oleh kondisi HTLC, karena membuka HTLC terakhir oleh penerima secara otomatis memicu pembukaan semua HTLC lainnya secara beruntun.
+Proses ini mencegah Suzie menyimpan dana Alice tanpa menyelesaikan transfer ke Bob, karena Suzie harus mengirim pembayaran ke Bob untuk mendapatkan rahasia _s_ dan dengan demikian membuka HTLC Alice. Operasi tetap sama bahkan jika rute mencakup beberapa node perantara: ini hanya masalah mengulangi langkah-langkah Suzie untuk setiap node perantara. Setiap node dilindungi oleh kondisi HTLC, karena membuka HTLC terakhir oleh penerima secara otomatis memicu pembukaan semua HTLC lainnya secara beruntun.
 
-### Kedaluwarsa dan Pengelolaan HTLC dalam Kasus Masalah
+### Kedaluwarsa dan Pengelolaan HTLC ketika terjadi Masalah
 
-Jika selama proses pembayaran, salah satu node perantara, atau node penerima, berhenti merespon, terutama dalam kasus gangguan internet atau listrik, maka pembayaran tidak dapat diselesaikan, karena rahasia yang diperlukan untuk membuka HTLC tidak ditransmisikan. Mengambil contoh kita dengan Alice, Suzie, dan Bob, masalah ini terjadi, misalnya, jika Bob tidak mentransmisikan rahasia _s_ kepada Suzie. Dalam kasus ini, semua HTLC di jalur hulu diblokir, dan dana yang mereka amankan juga demikian.
+Jika selama proses pembayaran, salah satu node perantara, atau node penerima, berhenti merespon, terutama dalam kasus gangguan internet atau listrik, maka pembayaran tidak dapat diselesaikan, karena rahasia yang diperlukan untuk membuka HTLC tidak terkirim. Mengambil contoh kita dengan Alice, Suzie, dan Bob, masalah ini terjadi, misalnya, jika Bob tidak mengirimkan rahasia _s_ kepada Suzie. Dalam kasus ini, semua HTLC di jalur awal diblokir, dan dana yang mereka amankan juga demikian.
 
 ![LNP201](assets/en/54.webp)
 
-Untuk menghindari ini, HTLC di Lightning memiliki waktu kedaluwarsa yang memungkinkan penghapusan HTLC jika tidak diselesaikan setelah waktu tertentu. Kedaluwarsa mengikuti urutan tertentu karena dimulai terlebih dahulu dengan HTLC yang paling dekat dengan penerima, dan kemudian secara bertahap bergerak ke atas ke pengirim transaksi. Dalam contoh kita, jika Bob tidak pernah memberikan rahasia _s_ kepada Suzie, ini akan pertama-tama menyebabkan HTLC Suzie ke Bob kedaluwarsa.
+Untuk menghindari ini, HTLC di Lightning memiliki waktu kedaluwarsa yang memungkinkan penghapusan HTLC jika tidak diselesaikan dalam waktu tertentu. Kedaluwarsa mengikuti urutan tertentu karena dimulai terlebih dahulu dengan HTLC yang paling dekat dengan penerima, dan kemudian secara bertahap bergerak ke atas ke pengirim transaksi. Dalam contoh kita, jika Bob tidak pernah memberikan rahasia _s_ kepada Suzie, pertama-tama akan menyebabkan HTLC Suzie ke Bob kedaluwarsa.
 
 ![LNP201](assets/en/55.webp)
 
 Kemudian HTLC dari Alice ke Suzie.
 ![LNP201](assets/en/56.webp)
-Jika urutan kedaluwarsa dibalik, Alice bisa memulihkan pembayarannya sebelum Suzie bisa melindungi dirinya dari potensi kecurangan. Memang, jika Bob kembali untuk mengklaim HTLC-nya sementara Alice telah menghapus miliknya, Suzie akan berada dalam posisi yang tidak menguntungkan. Urutan kedaluwarsa HTLC yang berurutan ini memastikan bahwa tidak ada node perantara yang menderita kerugian yang tidak adil.
+Jika urutan kedaluwarsa dibalik, Alice bisa mendapatkan kembali uanganya sebelum Suzie bisa melindungi dirinya dari potensi kecurangan. Memang, jika Bob kembali untuk mengklaim HTLC-nya sementara Alice telah menghapus miliknya, Suzie akan berada dalam posisi yang tidak menguntungkan. Urutan kedaluwarsa HTLC yang berurutan ini memastikan bahwa tidak ada node perantara yang menderita kerugian yang tidak adil.
 
 ### Representasi HTLC dalam transaksi komitmen
 
-Transaksi komitmen merepresentasikan HTLC sedemikian rupa sehingga kondisi yang mereka terapkan pada Lightning dapat ditransfer ke Bitcoin dalam kejadian penutupan saluran paksa selama masa hidup HTLC. Sebagai pengingat, transaksi komitmen merepresentasikan keadaan saat ini dari saluran antara dua pengguna dan memungkinkan penutupan paksa sepihak dalam kasus masalah. Dengan setiap keadaan baru dari saluran, 2 transaksi komitmen dibuat: satu untuk setiap pihak. Mari kita kembali ke contoh kita dengan Alice, Suzie, dan Bob, tetapi lihat lebih dekat apa yang terjadi di tingkat saluran antara Alice dan Suzie ketika HTLC dibuat.
+Transaksi komitmen merepresentasikan HTLC sedemikian rupa sehingga kondisi yang mereka terapkan pada Lightning dapat ditransfer ke Bitcoin dalam kejadian penutupan saluran paksa selama masa hidup HTLC. Sebagai pengingat, transaksi komitmen merepresentasikan keadaan saat ini dari saluran antara dua pengguna dan memungkinkan penutupan paksa sepihak ketika terjadi masalah. Dengan setiap keadaan baru dari saluran, 2 transaksi komitmen dibuat: satu untuk setiap pihak. Mari kita kembali ke contoh Alice, Suzie, dan Bob, serta melihat lebih jelas apa yang terjadi di tingkat saluran antara Alice dan Suzie ketika HTLC dibuat.
 ![LNP201](assets/en/57.webp)
 
 Sebelum dimulainya pembayaran 40.000 sats antara Alice dan Bob, Alice memiliki 100.000 sats di salurannya dengan Suzie, sementara Suzie memiliki 30.000. Transaksi komitmen mereka adalah sebagai berikut:
 
 ![LNP201](assets/en/58.webp)
 
-Alice baru saja menerima faktur Bob, yang secara khusus berisi _r_, hash dari rahasia. Dia dapat dengan demikian membangun HTLC sebesar 40.000 satoshi dengan Suzie. HTLC ini direpresentasikan dalam transaksi komitmen terbaru sebagai output yang disebut "**_HTLC Out_**" di sisi Alice, karena dana keluar, dan "**_HTLC In_**" di sisi Suzie, karena dana masuk.
+Alice baru saja menerima invoice (permintaan pembayaran) Bob, yang secara khusus berisi _r_, hash dari rahasia. Sehingga, Alice dapat membangun HTLC sebesar 40.000 satoshi dengan Suzie. HTLC ini direpresentasikan dalam transaksi komitmen terbaru sebagai output yang disebut "**_HTLC Out_**" di sisi Alice, karena dana keluar, dan "**_HTLC In_**" di sisi Suzie, karena dana masuk.
 
 ![LNP201](assets/en/59.webp)
 

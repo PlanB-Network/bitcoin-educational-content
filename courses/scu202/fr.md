@@ -2326,9 +2326,9 @@ Enfin, LineageOS est une distribution AOSP plutôt pour les utilisateurs qui veu
 | Système    | Sécurité | Confidentialité | Compatibilité | Personnalisation |
 | ---------- | -------- | --------------- | ------------- | ---------------- |
 | Android    | 🟡       | 🔴              | 🟢            | 🟢               |
-| iOS        | 🟢       | 🟡              | 🔴            | 🔴               |
+| iOS        | 🟢       | 🟡              | 🟡            | 🔴               |
 | GrapheneOS | 🟢       | 🟢              | 🟡            | 🟡               |
-| CalyxOS    | 🟢       | 🟢              | 🟡            | 🟡               |
+| CalyxOS    | 🟡       | 🟢              | 🟡            | 🟡               |
 | LineageOS  | 🟡       | 🟡              | 🟢            | 🟢               |
 
 Quel que soit votre choix de système d'exploitation mobile, nous verrons dans le prochain chapitre quelles sont les bonnes pratiques à adopter pour sécuriser efficacement votre téléphone et maintenir un environnement numérique sain.

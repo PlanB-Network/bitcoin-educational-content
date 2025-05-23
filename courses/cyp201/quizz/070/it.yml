@@ -1,4 +1,4 @@
-question: Cosa rappresenta la profondità 0 nella gerarchia dei wallet HD?
+question: Cosa rappresenta la profondità (depth) 0 nella gerarchia dei wallet HD?
 answer: Le chiavi master e la master chain code
 wrong_answers:
   - La chain esterna degli indirizzi

@@ -1,9 +1,0 @@
-question: Koja je svrha Bitcoin čvora u kontekstu Lightning Network?
-answer: Da pomogne u razumevanju i istraživanju novih aspekata Bitcoin koje je doneo Lightning Network.
-wrong_answers:
-  - Da se iskopaju novi Bitcoini.
-  - Da trgujete Bitcoinima.
-  - Da se čuvaju Bitcoini.
-explanation: |
-  Čvor Bitcoin u kontekstu Lightning Network koristi se za razumevanje i istraživanje novih aspekata Bitcoin koje je doneo Lightning Network. Ne rudari nove Bitkoine, ne trguje Bitkoinima, niti skladišti Bitkoine.
-reviewed: false

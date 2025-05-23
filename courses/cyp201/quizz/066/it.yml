@@ -1,9 +1,9 @@
-question: Quale parte dell'output HMAC-SHA512 viene utilizzata come codice catena figlio?
+question: Quale parte dell'output HMAC-SHA512 viene utilizzata come chain code?
 answer: Gli ultimi 32 byte
 wrong_answers:
   - I primi 32 byte
   - Tutti i 64 byte
   - L'hash SHA256 dei 32 byte centrali
 explanation: |
-  Gli ultimi 32 byte dell'output HMAC-SHA512 fungono da codice catena per la chiave figlio.
+  Gli ultimi 32 byte dell'output HMAC-SHA512 fungono da chain code per la chiave figlia.
 recensito: false

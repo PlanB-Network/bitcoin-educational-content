@@ -2187,11 +2187,11 @@ Jusqu’ici, nous nous sommes principalement concentrés sur la sécurisation et
 
 ### Android : de l’open-source au contrôle par Google
 
-#### Historique et évolution d’Android
+#### Brève histoire d’Android
 
 Android domine aujourd’hui le marché mondial des smartphones, avec environ 72 % des appareils en circulation. Son développement débute en 2003 avec la création de la société Android Inc., fondée par Andy Rubin, Rich Miner, Nick Sears et Chris White. À l’origine, leur objectif était de concevoir un système d’exploitation pour appareils photo numériques.
 
-Après avoir essuyé plusieurs refus d’investisseurs, Android Inc. décide de réorienter son projet vers la création d’un système d’exploitation mobile. Pour bien situer le contexte, en 2003-2004, le marché des téléphones portables était en pleine effervescence, largement dominé par des constructeurs comme Nokia, Motorola, Sony Ericsson ou Samsung. La majorité des appareils étaient des "*feature phones*", équipés de claviers physiques, de petits écrans couleur, et parfois d’un appareil photo rudimentaire. Les smartphones existaient déjà, mais restaient principalement destinés aux professionnels, et portés par des marques comme BlackBerry ou Palm.
+Après avoir essuyé plusieurs refus d’investisseurs, Android Inc. décide de réorienter son projet vers la création d’un système d’exploitation mobile. Pour bien situer le contexte, en 2003-2004, le marché des téléphones portables était en pleine effervescence, largement dominé par des constructeurs comme Nokia, Motorola, Sony Ericsson ou Samsung. La majorité des appareils étaient des "*feature phones*", équipés de claviers physiques, de petits écrans couleur, et parfois d’un appareil photo rudimentaire. Les smartphones existaient déjà, mais restaient principalement destinés aux professionnels, et portés par des marques comme BlackBerry.
 
 Google rachète la société Android Inc. en 2005 pour environ 50 millions de dollars. Entre 2005 et 2007, l’entreprise développe son système d’exploitation en interne, sans en dévoiler de version publique. À cette époque, certaines rumeurs laissent entendre que Google prépare un appareil mobile, peut-être inspiré des BlackBerry, alors en pleine ascension.
 
@@ -2201,13 +2201,17 @@ Face à cette révolution, Google est contraint de revoir entièrement l’orien
 
 Le premier appareil commercialisé sous Android, le *HTC Dream*, sort en 2008. Il propose un environnement encore rudimentaire, mais entièrement ouvert : les fabricants et opérateurs peuvent adapter librement le système à leurs besoins, tandis que les développeurs peuvent créer et distribuer des applications sans validation préalable. Cette approche séduit rapidement une communauté active et favorise l’adoption massive d’Android par de nombreux constructeurs.
 
+131
+
+*Source : [By Akela NDE - Own work](https://commons.wikimedia.org/w/index.php?curid=6680413), CC BY-SA 3.0*
+
 Cependant, cette ouverture initiale va progressivement être encadrée par Google. En parallèle du code libre d’AOSP, l’entreprise développe une suite d’applications et d’API propriétaires, regroupées sous le nom de *Google Mobile Services (GMS)*. On y retrouvera progressivement le Play Store, Google Maps, YouTube, Google Play Services, Gmail, Chrome ou encore l’assistant vocal. Pour pouvoir préinstaller le Play Store, les fabricants doivent désormais signer un accord de licence avec Google et garantir la compatibilité de leurs appareils avec les standards GMS, ce qui restreint fortement leur marge de personnalisation.
 
 Android connaît une ascension fulgurante : il dépasse iOS en parts de marché dès juillet 2011, et devient le système d’exploitation mobile dominant en juin 2012, à la suite de la chute brutale de SymbianOS après son abandon par Nokia au profit de Windows Phone. Android reste depuis le leader incontesté du marché mobile, et forme aujourd’hui un duopole avec iOS.
 
 130
 
-#### Open-source vs Google : un écosystème complexe
+#### Open-source vs Google
 
 Le projet Android repose sur une dualité structurelle. D’un côté, l’AOSP (*Android Open Source Project*) représente la base libre du système : il comprend le noyau Linux, la pile logicielle système, une interface graphique minimale et un ensemble d’API. Ce socle est publié sous licence Apache 2.0, et reste accessible à tous. De l’autre côté, l’environnement réellement utilisé par la majorité des utilisateurs Android repose presque entièrement sur des composants propriétaires développés par Google : les *Google Mobile Services* (GMS).
 
@@ -2216,19 +2220,118 @@ Ces composants ne sont pas open-source : ils ne peuvent être ni audités librem
 - la mise en avant visuelle de certaines applications (Google Search, Play Store, Gemini...) sur l’écran d’accueil ;
 - l’usage exclusif des API Google pour des fonctions importantes telles que la synchronisation, les notifications push ou la géolocalisation.
 
+132
+
 Cela crée progressivement une dépendance structurelle pour les constructeurs de smartphones, et rend presque inévitable, pour l’utilisateur final, la transmission de données personnelles vers les serveurs de Google. Ces services visent à garantir une expérience utilisateur fluide et cohérente, mais centralisent également des fonctions sensibles comme la sauvegarde automatique des données, la géolocalisation passive, ou encore l’authentification permanente via un compte Google (souvent requis pour exploiter pleinement son appareil).
 
 Même si Android reste, en théorie, un système libre à sa base, la majorité des smartphones Android vendus dans le monde fonctionnent sur une version modifiée et enrichie par Google. Dans cette version, la couche open-source est largement dissimulée sous une surcouche propriétaire, verrouillée et intrusive.
 
 Pour réellement reprendre le contrôle, il est donc nécessaire de se tourner vers des alternatives comme les ROMs libres (GrapheneOS, CalyxOS, etc.), que nous aborderons plus loin dans ce cours.
 
+### iOS : sécurité élevée, mais système fermé
 
+#### Brève histoire d’iOS
 
+iOS est le système d’exploitation développé par Apple pour ses smartphones, inauguré avec le premier iPhone en 2007 (alors nommé "*iPhone OS*"). Dès ses origines, Apple adopte une stratégie d’intégration verticale complète : matériel, logiciel, système d’exploitation, services en ligne et boutique d’applications sont tous conçus, contrôlés et maintenus par Apple. Au départ, les applications natives non produites par Apple n'étaient même pas prises en charge. Cette approche contraste fortement avec Android, dont l’écosystème est beaucoup plus fragmenté dès le départ, et encore aujourd'hui.
 
+133
 
+iOS reposait initialement sur le système d'exploitation utilisé par le Mac : OS X. Il utilise donc un noyau hybride dérivé de Darwin, lui-même issu de BSD Unix et du micro-noyau Mach. Ce socle technique permet à iOS d’hériter d’un certain nombre de propriétés de robustesse et de stabilité propres aux systèmes Unix. Le système est donc conçu autour de principes de sécurité stricts, notamment :
+- un sandboxing complet des applications, empêchant une app d’accéder aux données ou processus d’une autre ;
+- la signature obligatoire du code applicatif, qui garantit l’intégrité des binaires et leur provenance (App Store uniquement) ;
+- le chiffrement matériel des données dès la puce, via le *Secure Enclave*, un coprocesseur cryptographique isolé du reste du système ;
+- des mises à jour de sécurité rapides, déployées directement par Apple sur l’ensemble des appareils, sans intermédiaire.
 
+Cette architecture fermée permet à Apple de garantir une expérience utilisateur fluide et sécurisée. La centralisation du développement facilite également l'optimisation matérielle-logicielle, avec peu de variabilité entre les modèles, contrairement à Android. iOS est ainsi considéré comme l’un des systèmes les plus sûrs contre les attaques informatiques.
 
+#### Inconvénients de la fermeture d’iOS
 
+Cependant, cette sécurité repose sur un verrouillage strict de l’utilisateur final, qui n’a quasiment aucun contrôle technique sur son propre appareil. Il est impossible d’installer des applications autrement que via l’App Store, sauf à procéder à un *jailbreak*, une opération complexe, risquée, et souvent instable, qui annule la garantie et compromet la sécurité du système. C'est également sur ce principe que repose le modèle économique d'Apple, qui impose une commission sur les transactions effectuées dans les applications tierces.
+
+La personnalisation est également très restreinte. Il n’est pas possible de modifier profondément le comportement du système, de changer librement d’environnement d’exécution, ou d’accéder directement aux fichiers système. Le smartphone reste donc dans les faits propriété d’Apple, même après achat, dans la mesure où vous ne pouvez pas en exercer une pleine maîtrise.
+
+134
+
+Par ailleurs, l’intégration obligatoire d’iCloud dans la majorité des services (sauvegardes, messagerie, photos, localisation, Siri...) expose les utilisateurs à une centralisation massive de leurs données personnelles. Bien qu’Apple revendique un modèle axé sur la protection de la vie privée (et que, contrairement à Google, son modèle économique ne repose pas sur l’exploitation des données personnelles) plusieurs limites subsistent :
+- certains éléments (comme les métadonnées de connexion, les requêtes Siri ou les journaux d’erreurs) transitent tout de même par les serveurs Apple ;
+- les mécanismes d’analyse comportementale pour les suggestions contextuelles, les mises à jour d’App Store ou le filtrage de messages utilisent des modèles propriétaires non auditables ;
+- l’utilisation de services comme iCloud implique une confiance implicite dans l’infrastructure Apple, sans contrôle possible sur la localisation ou la durée de stockage des données.
+
+Enfin, sur le plan de la souveraineté numérique, iOS représente un environnement fermé : aucune autorité extérieure (ni utilisateur, ni organisation indépendante) ne peut vérifier ou modifier son fonctionnement. L’utilisateur est donc contraint de faire confiance à Apple à tous les niveaux : matériel, logiciel, réseau...
+
+### Alternatives open-source avec Android
+
+Comme nous venons de le voir, l’écosystème Android standard, dominé par Google, repose sur une version libre du système (AOSP) avec des composants propriétaires (GMS). Plusieurs projets open-source tirent parti d’AOSP pour proposer des systèmes d'exploitation alternatifs, plus respectueux de la vie privée, sans surcouches intrusives, et avec un meilleur contrôle utilisateur. Ces alternatives s’installent en remplacement du système d’origine, sous forme de ROM personnalisées. Elles permettent de reprendre le contrôle sur le logiciel, mais nécessitent aussi un contrôle matériel minimal, car elles ne sont compatibles qu’avec quelques appareils.
+
+#### Prérequis matériels et avertissement
+
+Avant toute installation, il est important de vérifier la compatibilité de votre smartphone avec la ROM choisie. La plupart de ces projets supportent une liste restreinte de modèles. La plupart du temps, il faut utiliser la gamme de téléphones Google Pixel, en raison de leur support du bootloader déverrouillable et des pilotes publics.
+
+L’installation nécessite de déverrouiller le bootloader, une opération qui permet d’écrire une nouvelle image système, mais qui efface totalement le contenu de l’appareil d'origine. Il faudra également installer manuellement des services additionnels, comme F-Droid ou Aurora Store pour les apps.
+
+Certains constructeurs interdisent ou compliquent cette opération, voire désactivent certaines fonctions (caméra, capteurs...) en cas de changement de système. Il est donc important de choisir un téléphone compatible (souvent un Google Pixel).
+
+135
+
+#### GrapheneOS
+
+[GrapheneOS](https://grapheneos.org/) est une ROM AOSP renforcée, conçue pour offrir un niveau de sécurité supérieur à celui d’Android standard. C'est un système développé par une équipe indépendante et audité par des experts. Graphene implémente des mécanismes avancés de sécurité, notamment :
+- une réduction drastique de la surface d’attaque : désactivation par défaut de nombreuses fonctionnalités (NFC, Bluetooth...), verrouillage des ports USB lorsque l’appareil est inactif, contrôle avancé des broches pogo... ;
+- un renforcement du sandbox Android ;
+- des protections mémoire avancées ;
+- un contrôle granulaire des permissions ;
+- un chiffrement matériel indépendant de Google.
+- etc.
+
+136
+
+GrapheneOS n’intègre aucun composant propriétaire. L’utilisateur est libre d’ajouter ou non des services Google, mais ceux-ci sont strictement isolés (sandboxés dans des profils dédiés). Cela en fait un système extrêmement résistant aux attaques locales et à l’exploitation de failles système.
+
+Graphene est uniquement compatible avec les Google Pixel récents (Pixel 6, 7, 8 et 9).
+
+https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+
+#### CalyxOS
+
+[CalyxOS](https://calyxos.org/) est un système intermédiaire qui vise à concilier confidentialité, sécurité et compatibilité avec les usages quotidiens. Il se base également sur AOSP, avec des améliorations de sécurité. Sa spécificité réside dans l’intégration optionnelle de MicroG, une réimplémentation libre des services Google. Cela permet de faire fonctionner la plupart des applications Android dépendantes des services Google, sans passer par les binaires officiels propriétaires.
+
+CalyxOS propose aussi des applications préinstallées (Signal, F-Droid, Aurora Store, VPN intégré...), et une interface soignée. Il s’installe facilement via un outil graphique pour les utilisateurs Pixel. Calyx est principalement compatible avec les Google Pixel, mais aussi certains modèles Fairphone et Motorola.
+
+137
+
+#### LineageOS
+
+[LineageOS](https://lineageos.org/), héritier de CyanogenMod, est la ROM alternative la plus largement compatible. Elle supporte plusieurs centaines de modèles, grâce à une large communauté de contributeurs. Basée sur AOSP, elle met l’accent sur la personnalisation, la sobriété et la liberté d’utilisation.
+
+LineageOS permet d’avoir un système Android sans surcouche constructeur, sans bloatware, avec une gestion complète des permissions, une mise à jour facilitée et une interface épurée. Il est possible d’y ajouter les services Google ou au contraire d’opter pour un usage 100 % libre.
+
+En revanche, côté sécurité, LineageOS n’intègre pas certaines protections matérielles ou renforcements mémoire présents dans GrapheneOS et CalyxOS. Son système de mises à jour dépend également de la communauté, ce qui peut introduire des délais dans les patchs de sécurité.
+
+138
+
+### Quel OS mobile choisir pour quel usage ?
+
+Le choix de votre système d’exploitation mobile doit se faire en connaissance des compromis entre sécurité, respect de la vie privée, ergonomie et compatibilité applicative. Chaque solution présente des caractéristiques techniques spécifiques qui vont influencer directement votre expérience quotidienne, vos capacités de contrôle, et votre exposition à la surveillance commerciale ou aux vulnérabilités.
+
+Android standard (avec GMS) reste aujourd’hui la solution la plus répandue. Elle offre une compatibilité totale avec l’ensemble des applications Android, une grande simplicité d’utilisation et un accès immédiat aux services populaires (Play Store, Maps, Gmail...). Toutefois, cette facilité d’usage repose sur une forte intégration des services propriétaires de Google, avec une collecte de données systématique : position GPS, historique de navigation, métadonnées d’appels, préférences publicitaires... Il s’agit donc d’un choix peu adapté si vous êtes soucieux de votre souveraineté numérique ou de votre confidentialité.
+
+iOS, le système d’Apple, dispose d'un niveau de sécurité très élevé. Cependant, cette sécurité s’accompagne d’une fermeture extrême de l’environnement : l’utilisateur ne peut pas installer d’applications hors de l’App Store (sauf cas marginaux), ne peut pas modifier les comportements système, et dépend entièrement d’Apple pour la gestion du matériel, du stockage cloud et de la synchronisation. C’est un environnement efficace et robuste, mais qui sacrifie toute forme de personnalisation ou d’indépendance.
+
+GrapheneOS s’adresse aux profils les plus exigeants sur la sécurité et la confidentialité. Son niveau de sécurité impose toutefois des contraintes : peu d’appareils compatibles (uniquement des modèles Google Pixel récents), pas d’intégration automatique des services applicatifs tiers, et nécessité de configurer manuellement des outils alternatifs pour les mises à jour, le store ou les notifications. Si la confidentialité et la sécurité sont vos priorités, c'est clairement le meilleur choix.
+
+CalyxOS propose un équilibre intéressant. L’expérience utilisateur reste proche d’un Android standard, mais sans la surveillance directe de Google. Il supporte un nombre raisonnable de modèles (notamment les Google Pixel), et peut être installé sans connaissances techniques poussées. Pour les utilisateurs qui souhaitent un bon niveau de sécurité sans renoncer à la compatibilité logicielle, CalyxOS est une solution pratique et équilibrée.
+
+Enfin, LineageOS est une distribution AOSP plutôt pour les utilisateurs qui veulent de la flexibilité et du contrôle. Elle est compatible avec un grand nombre d’appareils, même anciens, permet une personnalisation complète du système, et offre une alternative légère aux surcouches des constructeurs. Cependant, elle n’intègre pas nativement les renforcements de sécurité avancés présents dans GrapheneOS ou CalyxOS, et ne bénéficie pas toujours de mises à jour régulières pour tous les modèles. LineageOS requiert donc une certaine discipline de l’utilisateur pour rester sécurisée dans le temps.
+
+| Système    | Sécurité | Confidentialité | Compatibilité | Personnalisation |
+| ---------- | -------- | --------------- | ------------- | ---------------- |
+| Android    | 🟡       | 🔴              | 🟢            | 🟢               |
+| iOS        | 🟢       | 🟡              | 🔴            | 🔴               |
+| GrapheneOS | 🟢       | 🟢              | 🟡            | 🟡               |
+| CalyxOS    | 🟢       | 🟢              | 🟡            | 🟡               |
+| LineageOS  | 🟡       | 🟡              | 🟢            | 🟢               |
+
+Quel que soit votre choix de système d'exploitation mobile, nous verrons dans le prochain chapitre quelles sont les bonnes pratiques à adopter pour sécuriser efficacement votre téléphone et maintenir un environnement numérique sain.
 
 ## Sécuriser son smartphone au quotidien
 <chapterId>37b9499e-32cf-42c3-8715-15c6884d2ec7</chapterId>

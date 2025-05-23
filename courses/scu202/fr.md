@@ -2201,7 +2201,7 @@ Face à cette révolution, Google est contraint de revoir entièrement l’orien
 
 Le premier appareil commercialisé sous Android, le *HTC Dream*, sort en 2008. Il propose un environnement encore rudimentaire, mais entièrement ouvert : les fabricants et opérateurs peuvent adapter librement le système à leurs besoins, tandis que les développeurs peuvent créer et distribuer des applications sans validation préalable. Cette approche séduit rapidement une communauté active et favorise l’adoption massive d’Android par de nombreux constructeurs.
 
-131
+![Image](assets/fr/131.webp)
 
 *Source : [By Akela NDE - Own work](https://commons.wikimedia.org/w/index.php?curid=6680413), CC BY-SA 3.0*
 
@@ -2209,7 +2209,7 @@ Cependant, cette ouverture initiale va progressivement être encadrée par Googl
 
 Android connaît une ascension fulgurante : il dépasse iOS en parts de marché dès juillet 2011, et devient le système d’exploitation mobile dominant en juin 2012, à la suite de la chute brutale de SymbianOS après son abandon par Nokia au profit de Windows Phone. Android reste depuis le leader incontesté du marché mobile, et forme aujourd’hui un duopole avec iOS.
 
-130
+![Image](assets/fr/130.webp)
 
 #### Open-source vs Google
 
@@ -2220,7 +2220,7 @@ Ces composants ne sont pas open-source : ils ne peuvent être ni audités librem
 - la mise en avant visuelle de certaines applications (Google Search, Play Store, Gemini...) sur l’écran d’accueil ;
 - l’usage exclusif des API Google pour des fonctions importantes telles que la synchronisation, les notifications push ou la géolocalisation.
 
-132
+![Image](assets/fr/132.webp)
 
 Cela crée progressivement une dépendance structurelle pour les constructeurs de smartphones, et rend presque inévitable, pour l’utilisateur final, la transmission de données personnelles vers les serveurs de Google. Ces services visent à garantir une expérience utilisateur fluide et cohérente, mais centralisent également des fonctions sensibles comme la sauvegarde automatique des données, la géolocalisation passive, ou encore l’authentification permanente via un compte Google (souvent requis pour exploiter pleinement son appareil).
 
@@ -2234,7 +2234,7 @@ Pour réellement reprendre le contrôle, il est donc nécessaire de se tourner v
 
 iOS est le système d’exploitation développé par Apple pour ses smartphones, inauguré avec le premier iPhone en 2007 (alors nommé "*iPhone OS*"). Dès ses origines, Apple adopte une stratégie d’intégration verticale complète : matériel, logiciel, système d’exploitation, services en ligne et boutique d’applications sont tous conçus, contrôlés et maintenus par Apple. Au départ, les applications natives non produites par Apple n'étaient même pas prises en charge. Cette approche contraste fortement avec Android, dont l’écosystème est beaucoup plus fragmenté dès le départ, et encore aujourd'hui.
 
-133
+![Image](assets/fr/133.webp)
 
 iOS reposait initialement sur le système d'exploitation utilisé par le Mac : OS X. Il utilise donc un noyau hybride dérivé de Darwin, lui-même issu de BSD Unix et du micro-noyau Mach. Ce socle technique permet à iOS d’hériter d’un certain nombre de propriétés de robustesse et de stabilité propres aux systèmes Unix. Le système est donc conçu autour de principes de sécurité stricts, notamment :
 - un sandboxing complet des applications, empêchant une app d’accéder aux données ou processus d’une autre ;
@@ -2250,7 +2250,7 @@ Cependant, cette sécurité repose sur un verrouillage strict de l’utilisateur
 
 La personnalisation est également très restreinte. Il n’est pas possible de modifier profondément le comportement du système, de changer librement d’environnement d’exécution, ou d’accéder directement aux fichiers système. Le smartphone reste donc dans les faits propriété d’Apple, même après achat, dans la mesure où vous ne pouvez pas en exercer une pleine maîtrise.
 
-134
+![Image](assets/fr/134.webp)
 
 Par ailleurs, l’intégration obligatoire d’iCloud dans la majorité des services (sauvegardes, messagerie, photos, localisation, Siri...) expose les utilisateurs à une centralisation massive de leurs données personnelles. Bien qu’Apple revendique un modèle axé sur la protection de la vie privée (et que, contrairement à Google, son modèle économique ne repose pas sur l’exploitation des données personnelles) plusieurs limites subsistent :
 - certains éléments (comme les métadonnées de connexion, les requêtes Siri ou les journaux d’erreurs) transitent tout de même par les serveurs Apple ;
@@ -2271,7 +2271,7 @@ L’installation nécessite de déverrouiller le bootloader, une opération qui 
 
 Certains constructeurs interdisent ou compliquent cette opération, voire désactivent certaines fonctions (caméra, capteurs...) en cas de changement de système. Il est donc important de choisir un téléphone compatible (souvent un Google Pixel).
 
-135
+![Image](assets/fr/135.webp)
 
 #### GrapheneOS
 
@@ -2283,7 +2283,7 @@ Certains constructeurs interdisent ou compliquent cette opération, voire désac
 - un chiffrement matériel indépendant de Google.
 - etc.
 
-136
+![Image](assets/fr/136.webp)
 
 GrapheneOS n’intègre aucun composant propriétaire. L’utilisateur est libre d’ajouter ou non des services Google, mais ceux-ci sont strictement isolés (sandboxés dans des profils dédiés). Cela en fait un système extrêmement résistant aux attaques locales et à l’exploitation de failles système.
 
@@ -2297,7 +2297,7 @@ https://planb.network/tutorials/computer-security/operating%20system/grapheneos-
 
 CalyxOS propose aussi des applications préinstallées (Signal, F-Droid, Aurora Store, VPN intégré...), et une interface soignée. Il s’installe facilement via un outil graphique pour les utilisateurs Pixel. Calyx est principalement compatible avec les Google Pixel, mais aussi certains modèles Fairphone et Motorola.
 
-137
+![Image](assets/fr/137.webp)
 
 #### LineageOS
 
@@ -2307,7 +2307,7 @@ LineageOS permet d’avoir un système Android sans surcouche constructeur, sans
 
 En revanche, côté sécurité, LineageOS n’intègre pas certaines protections matérielles ou renforcements mémoire présents dans GrapheneOS et CalyxOS. Son système de mises à jour dépend également de la communauté, ce qui peut introduire des délais dans les patchs de sécurité.
 
-138
+![Image](assets/fr/138.webp)
 
 ### Quel OS mobile choisir pour quel usage ?
 
@@ -2346,7 +2346,7 @@ Je vais ici encore une fois me répéter, mais chaque mise à jour publiée par 
 
 Ne pas appliquer ces mises à jour revient à laisser volontairement ouvertes des failles connues, documentées publiquement dans des bases comme CVE (*Common Vulnerabilities and Exposures*). Ces failles sont parfois exploitées automatiquement par des outils disponibles en ligne, sans même nécessiter de compétences poussées. Un téléphone non mis à jour devient donc une cible idéale, y compris pour des attaques opportunistes à grande échelle.
 
-139
+![Image](assets/fr/139.webp)
 
 Il est donc indispensable d’activer les mises à jour automatiques dans les paramètres de votre système, et de vérifier manuellement chaque semaine que votre appareil dispose des derniers correctifs de sécurité. Sous Android, cela se fait généralement dans `Settings > Security > System Update`, et sous iOS dans `Settings > General > Software Update`.
 
@@ -2366,7 +2366,7 @@ Avant toute installation, prenez donc le temps de vérifier plusieurs éléments
 
 Sur Android, les magasins alternatifs open-source comme [F-Droid](https://f-droid.org/) offrent une solution plus éthique et souvent plus sécurisée : chaque application y est compilée à partir de sources libres, et auditée manuellement. Pour les applications propriétaires nécessaires, des outils comme [Aurora Store](https://auroraoss.com/) permettent d’accéder au Play Store sans compte Google, ce qui limite la collecte de données.
 
-140
+![Image](assets/fr/140.webp)
 
 Au-delà du système d’exploitation, les applications installées sur votre smartphone doivent elles aussi être tenues à jour. Vous pouvez activer les mises à jour automatiques via les paramètres de votre magasin d’applications, et prenez l’habitude de lancer manuellement une vérification au moins une fois par semaine.
 
@@ -2376,7 +2376,7 @@ Sur Android, si vous installez des applications via des fichiers `.apk`, vous de
 
 Sur un smartphone, chaque application peut demander un accès direct à des ressources sensibles : microphone, caméra, position géographique précise, carnet d’adresses, fichiers, SMS, capteurs de mouvement... Ces accès ne sont pas anodins : techniquement, lorsqu’une permission est accordée, l’application peut l’exploiter en arrière-plan, de façon continue ou ponctuelle, parfois sans notification visible. C’est pourquoi il est important d’appliquer le principe du moindre privilège : ne donner à chaque application que les autorisations strictement indispensables à son fonctionnement minimal.
 
-141
+![Image](assets/fr/141.webp)
 
 Par exemple, une application de lampe torche n’a aucun besoin d’accéder à vos contacts ou à votre géolocalisation. Une application de météo peut fonctionner avec une localisation manuelle, sans accès GPS. Un lecteur de PDF n’a pas besoin d’utiliser le micro ou les SMS. En cas de doute, refusez toujours par défaut, puis réévaluez si l’application ne fonctionne pas correctement. Sur certains systèmes, il est également possible de n’accorder des autorisations que de manière temporaire : soit pour une seule utilisation, soit uniquement lorsque l’application est en cours d’exécution. Cela permet d’éviter qu’une application exploite certaines permissions en arrière-plan à votre insu.
 
@@ -2401,7 +2401,7 @@ Pour résumer, voici le classement du meilleur système de verrouillage de smart
 - Les schémas graphiques ;
 - Pas de verrouillage.
 
-142
+![Image](assets/fr/142.webp)
 
 Pour les appareils sensibles, la meilleure solution reste donc un mot de passe combiné à une désactivation de la biométrie, avec déverrouillage uniquement manuel. Cela peut paraître contraignant, mais c’est le mieux dans une démarche de protection. Évidemment, pour un code PIN ou un mot de passe alphanumérique, plus il est long et aléatoire, mieux c’est. Il faut qu'il soit résistant face aux attaques par brute force.
 

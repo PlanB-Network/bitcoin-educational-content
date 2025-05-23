@@ -2336,6 +2336,90 @@ Quel que soit votre choix de système d'exploitation mobile, nous verrons dans l
 ## Sécuriser son smartphone au quotidien
 <chapterId>37b9499e-32cf-42c3-8715-15c6884d2ec7</chapterId>
 
+Dans le chapitre précédent, nous avons analysé les enjeux associés aux systèmes d’exploitation mobiles et exploré différentes alternatives permettant de mieux contrôler son téléphone. Mais choisir un bon système d’exploitation n’est pas suffisant : pour assurer une réelle sécurité et confidentialité, il est important d’adopter quelques bonnes pratiques dans votre utilisation quotidienne.
+
+Dans ce chapitre, nous allons voir étape par étape des recommandations fondamentales applicables quel que soit votre OS mobile.
+
+### Mises à jour
+
+Je vais ici encore une fois me répéter, mais chaque mise à jour publiée par les développeurs inclut potentiellement des correctifs de sécurité importants. De plus, les smartphones sont exposés à de nombreux risques à cause de leur immense surface d'attaque : via les réseaux mobiles, les applications tierces, les communications sans fil (Wi-Fi, Bluetooth, NFC)...
+
+Ne pas appliquer ces mises à jour revient à laisser volontairement ouvertes des failles connues, documentées publiquement dans des bases comme CVE (*Common Vulnerabilities and Exposures*). Ces failles sont parfois exploitées automatiquement par des outils disponibles en ligne, sans même nécessiter de compétences poussées. Un téléphone non mis à jour devient donc une cible idéale, y compris pour des attaques opportunistes à grande échelle.
+
+139
+
+Il est donc indispensable d’activer les mises à jour automatiques dans les paramètres de votre système, et de vérifier manuellement chaque semaine que votre appareil dispose des derniers correctifs de sécurité. Sous Android, cela se fait généralement dans `Settings > Security > System Update`, et sous iOS dans `Settings > General > Software Update`.
+
+#### Support de mises à jour
+
+Tous les smartphones ne se valent pas en matière de durée de support logiciel. De nombreux appareils d’entrée ou de milieu de gamme cessent de recevoir des mises à jour critiques après seulement deux ou trois ans, ce qui vous expose à des risques de plus en plus graves.
+
+Certaines marques ont cependant de très bon suivis logiciels, notamment Google (7 ans), Fairphone (5 à 7 ans), Samsung (5 à 7 ans) et Apple (5 à 7 ans). Ce critère est très important lors de l’achat d’un nouveau téléphone : un appareil durable est avant tout un appareil maintenu.
+
+#### Utiliser des magasins d’applications fiables
+
+Les applications mobiles représentent une source importante de risque : c’est par elles que transitent la majorité des malwares modernes sur Android. Installer une application via un fichier `.apk` récupéré sur un site inconnu, ou depuis un magasin non certifié, c’est prendre le risque d’installer un programme volontairement malveillant, ou modifié pour inclure des fonctions d’espionnage ou de vol de données.
+
+Même sur les magasins officiels comme le Google Play Store ou l’App Store d’Apple, il faut rester vigilant. Malgré les mécanismes de filtrage, des applications malveillantes parviennent régulièrement à s’y faufiler. Par exemple, on peut parfois voir des applications "Sparrow Wallet" sur le Play Store, alors que ce logiciel n’existe que sur PC : il s’agit sans aucun doute d’une application frauduleuse.
+
+Avant toute installation, prenez donc le temps de vérifier plusieurs éléments : les permissions demandées, le nombre de téléchargements, la note globale, la date de dernière mise à jour, ainsi que les avis des utilisateurs.
+
+Sur Android, les magasins alternatifs open-source comme [F-Droid](https://f-droid.org/) offrent une solution plus éthique et souvent plus sécurisée : chaque application y est compilée à partir de sources libres, et auditée manuellement. Pour les applications propriétaires nécessaires, des outils comme [Aurora Store](https://auroraoss.com/) permettent d’accéder au Play Store sans compte Google, ce qui limite la collecte de données.
+
+140
+
+Au-delà du système d’exploitation, les applications installées sur votre smartphone doivent elles aussi être tenues à jour. Vous pouvez activer les mises à jour automatiques via les paramètres de votre magasin d’applications, et prenez l’habitude de lancer manuellement une vérification au moins une fois par semaine.
+
+Sur Android, si vous installez des applications via des fichiers `.apk`, vous devrez gérer manuellement les mises à jour. En effet, ces applications installées en dehors des canaux officiels ne disposent d’aucun mécanisme de mise à jour automatique. Il vous faudra donc consulter régulièrement les versions publiées par les développeurs sur GitHub ou sur leur site officiel.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Mises à jour OS et applications.  
 Restrictions d’autorisations.  
 Accès et authentification (comparaison des méthodes de déverrouillage).  

@@ -29,9 +29,11 @@ The book was commissioned and funded by [Chaincode Labs](https://learning.chainc
 +++
 
 # Bitcoin Central Values
+<partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>
 
 
 ## Decentralization
+<chapterId>9397c84b-0038-5d0e-88d5-11767ce8182d</chapterId>
 
 
 
@@ -175,6 +177,7 @@ The decentralized nature of Bitcoin allows for neutrality towards developers, us
 Decentralized systems can be hard to wrap your head around, but there are some mental models that may help, for example the English language, or fish schools.
 
 ## Trustlessness
+<chapterId>0506ba61-16a3-543c-95fa-3f3e2dd64121</chapterId>
 
 
 ![](assets/trustlessness-banner.jpg)
@@ -281,6 +284,7 @@ The Bitcoin protocol is trustless because it allows users to interact with it wi
 Without trustlessness, we can't have decentralizaion, because trust inevitebly involves some central point of authority. You can build a trusted system on top of a trustless system, but you can't build a trustless system on top of a trusted system.
 
 ## Privacy
+<chapterId>1b960afe-0008-589b-b2f4-007d60d264c6</chapterId>
 
 
 ![](assets/privacy-banner.jpg)
@@ -434,6 +438,7 @@ Privacy is very important but hard to achieve. There is no privacy silver bullet
 To get decent privacy in Bitcoin, you have to take active measures, some of which are costly and time-consuming.
 
 ## Finite supply
+<chapterId>af125ba2-ef98-5905-8895-41a538fe5ea5</chapterId>
 
 
 ![](assets/finitesupply-banner.jpg)
@@ -509,8 +514,10 @@ Perhaps we could think of Bitcoin as something organic. Imagine a small, slowly-
 Whether the bitcoin supply will grow past 21 million we cannot say today, and that is probably not so bad. Ensuring that the security budget remains high enough is crucial but not urgent. Let's have this discussion in 10-50 years, when we know more. If it's still relevant.
 
 # Bitcoin Gouvernance 
+<partId>411bf53f-af4b-50f1-b71b-e40fe3ff64b7</partId>
 
 ## Upgrading
+<chapterId>3ffa84d1-adfa-5fbc-9b13-384ea783fcdd</chapterId>
 
 
 ![](assets/upgrading-banner.jpg)
@@ -683,6 +690,7 @@ Bitcoin grows and evolves with time. Different upgrade mechanisms have been used
 To keep Bitcoin in harmony, soft forks have proven to be the way forward, but the big question is still not fully answered: how do we safely deploy soft forks without causing discord?
 
 ## Adversarial thinking
+<chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
 ![](assets/adversarialthinking-banner.jpg)
 
@@ -768,6 +776,7 @@ A decentralized system can't have accountability outside the system itself, ther
 To keep Bitcoin safe you need to know its enemies and their incentives. Most of the threats seem to boil down to nation states, who have enourmous economic power, through taxation and money printing. They probably won't give up their money printing privileges easily.
 
 ## Open Source
+<chapterId>427a160c-f893-5b2c-afba-7b24e71ba899</chapterId>
 
 
 ![](assets/opensource-banner.jpg)
@@ -972,6 +981,7 @@ Open source allows for permissionless development in, and on top of Bitcoin. Whe
 The development process around Bitcoin is radically open, which can make Bitcoin look like a toxic and inefficient place, but that's what keeps Bitcoin resilient against malicious actors.
 
 ## Scaling
+<chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
 
 
 ![](assets/scaling-banner.jpg)
@@ -1159,6 +1169,7 @@ We've discussed various ways through which one might want to scale Bitcoin, incr
 We know today that Bitcoin doesn't scale well vertically ("buy bigger hardware") or horizontally ("verify only parts of the data"), but rather inward ("do more with less") and in layers ("build protocols on top of Bitcoin").
 
 ## When shit hits the fan
+<chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
 
 
 ![](assets/shtf-banner.jpg)
@@ -1474,6 +1485,7 @@ Bitcoin has bugs. People discovering bugs are encouraged to disclose them respon
 We've looked at some of the more severe issues that's surfaced through the years, and how they were handled. Some were discovered publicly through exploits while other were responisibly disclosed and could be fixed before malicious actors had a chance to exploit them.
 
 ## Discussion Questions
+<chapterId>91462ca7-f09c-55da-a5b9-3e211de31da5</chapterId>
 
 These discussion questions are not just a recap of the content in "Bitcoin development philosophy", they are meant to encourage you to research further so make sure to go out and explore.
 

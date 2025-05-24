@@ -1,0 +1,9 @@
+question: اهمیت Lightning Network در زمینه Bitcoin Mining چیست؟
+answer: Lightning Network این پتانسیل را دارد که به طور قابل توجهی هزینه‌های تراکنش را کاهش دهد و به این ترتیب بر درآمد ماینرها تأثیر بگذارد.
+wrong_answers:
+  - Lightning Network اندازه بلوک را افزایش می‌دهد و در نتیجه درآمد ماینرها را افزایش می‌دهد.
+  - Lightning Network مصرف انرژی Bitcoin Mining را کاهش می‌دهد.
+  - Lightning Network سرعت Bitcoin Mining را افزایش می‌دهد.
+explanation: |
+  Lightning Network امکان انجام تراکنش‌های سریع و کم‌هزینه را خارج از زنجیره اصلی Bitcoin فراهم می‌کند. این قابلیت می‌تواند به طور قابل توجهی هزینه‌های تراکنش را کاهش دهد، که ممکن است بر درآمد ماینرها تأثیر بگذارد.
+reviewed: true

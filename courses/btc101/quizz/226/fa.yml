@@ -1,0 +1,8 @@
+question: Lightning Network چه نوع شبکه‌ای ایجاد می‌کند؟
+answer: شبکه‌ای از کانال‌های پرداخت.
+wrong_answers:
+  - شبکه‌ای از گره‌های Mining.
+  - شبکه‌ای از گره‌های Blockchain.
+  - شبکه‌ای از صرافی‌های ارز دیجیتال.
+explanation: >-
+reviewed: true

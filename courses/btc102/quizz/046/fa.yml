@@ -1,0 +1,9 @@
+question: چه ابزاری به شما امکان می‌دهد تا Wallet خود را بدون افشای کلیدهای خصوصی‌تان نظارت کنید؟
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - لایتنینگ Wallet
+  - نگهداری Wallet
+explanation: |
+  یک Watch-only wallet فقط از کلیدهای عمومی برای نمایش موجودی‌ها و تراکنش‌ها استفاده می‌کند، بدون اینکه خطر افشای کلیدهای خصوصی وجود داشته باشد.
+reviewed: false

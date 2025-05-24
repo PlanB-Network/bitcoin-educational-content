@@ -1,0 +1,9 @@
+question: الزامات اصلی سخت‌افزاری برای یک پروفایل Starter جهت پذیرش پرداخت‌های Bitcoin چیست؟
+answer: یک گوشی هوشمند
+wrong_answers:
+  - Bitcoin Miner ASIC
+  - یک Hardware Wallet
+  - یک سرور خود میزبان
+explanation: |
+  پروفایل Starter تنها به یک گوشی هوشمند یا تبلت با Lightning Wallet نیاز دارد و آن را به یک راه‌حل سبک تبدیل می‌کند.
+reviewed: false

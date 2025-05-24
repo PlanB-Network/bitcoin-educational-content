@@ -1,0 +1,9 @@
+question: اندازه seed تولید شده توسط PBKDF2 چقدر است؟
+answer: ۵۱۲ بیت
+wrong_answers:
+  - ۱۲۸ بیت
+  - ۲۵۶ بیت
+  - متغیر بسته به طول عبارت Mnemonic
+explanation: |
+  صرف‌نظر از طول عبارت Mnemonic، PBKDF2 همیشه یک seed با طول 512 بیت تولید می‌کند.
+reviewed: false

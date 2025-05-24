@@ -121,6 +121,12 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 40.49
+  - language: fa
+    last_contribution_date: 2025-05-24
+    urgency: 1
+    contributor_names:
+      - Arshia-r-m
+    reward: 11.70
 tags:
   - lightning
   - layers

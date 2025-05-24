@@ -1,0 +1,9 @@
+question: در یک Lightning Invoice، پیشوند lnbc در بخش قابل خواندن توسط انسان به چه معناست؟
+answer: این نشان‌دهنده یک تراکنش لایتنینگ بر روی Bitcoin Blockchain است.
+wrong_answers:
+  - که Invoice فقط روی Bitcoin Testnet معتبر است
+  - Invoice در bech32 کدگذاری شده است.
+  - که این یک تراکنش On-Chain است
+explanation: |
+  پیشوند lnbc نشان می‌دهد که Invoice برای یک تراکنش Lightning در شبکه Bitcoin است و نه در شبکه‌ای دیگر.
+reviewed: false

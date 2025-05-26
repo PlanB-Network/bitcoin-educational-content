@@ -358,7 +358,7 @@ Descrivi come il 2FA basato su app aiuta a proteggere il tuo account
 
 ### Crea la tua procedura guidata per il negozio
 
-Quando un nuovo utente accede a BTCPay Server, l'ambiente è vuoto e necessita di un primo negozio. La procedura guidata di introduzione di BTCPay Server offrirà all'utente l'opzione di "Creare il tuo negozio" (1). Un Negozio può essere visto come una Home per le tue necessità in Bitcoin. Un nuovo Nodo BTCPay Server inizierà con la Sincronizzazione della Blockchain di Bitcoin (2). A seconda dell'infrastruttura su cui esegui BTCPay Server, ciò può richiedere dalle poche ore a qualche giorno. La versione corrente dell'istanza è mostrata nell'angolo in basso a destra della tua interfaccia utente BTCPay Server. Questo è utile come riferimento quando si riscontrano problemi.
+Quando un nuovo utente accede a BTCPay Server, l'ambiente è vuoto e necessita di un primo negozio. La procedura guidata di introduzione di BTCPay Server offrirà all'utente l'opzione di "Creare il tuo negozio" (1). Un Negozio può essere visto come una Home per le tue necessità in Bitcoin. Un nuovo Nodo BTCPay Server inizierà con la Sincronizzazione della Blockchain di Bitcoin (2). A seconda dell'infrastruttura su cui esegui BTCPay Server potrebbero essere richieste poche ore fino a qualche giorno. La versione corrente dell'istanza è mostrata nell'angolo in basso a destra della tua interfaccia utente BTCPay Server, ciò sarà utile come riferimento quando si riscontrano eventuali problemi.
 
 ![immagine](assets/en/7.webp)
 
@@ -366,13 +366,13 @@ Quando un nuovo utente accede a BTCPay Server, l'ambiente è vuoto e necessita d
 
 Questo corso inizierà con una schermata leggermente diversa rispetto alla pagina precedente. Poiché il tuo istruttore ha preparato l'ambiente Demo, la blockchain di Bitcoin è stata sincronizzata in precedenza e, quindi, non vedrai lo stato di sincronizzazione dei nodi.
 
-Un utente può decidere di eliminare l'intero account. Questo può essere fatto cliccando sul pulsante di eliminazione nella scheda Account.
+Un utente può decidere di eliminare l'intero account cliccando sul pulsante di eliminazione nella scheda Account.
 
 ![immagine](assets/en/8.webp)
 
 **!Nota!**
 
-Gli account di BTCPay Server possono creare un numero illimitato di negozi. Ogni negozio è un wallet o "home".
+Gli account di BTCPay Server possono creare un numero illimitato di negozi e ognuno di questi è anche un wallet e viene denominato come "home".
 
 ### Esempio
 
@@ -382,15 +382,15 @@ Inizia cliccando su "Crea il tuo negozio".
 
 Questo creerà la tua prima Home e la dashboard per utilizzare BTCPay Server.
 
-(1) Dopo aver cliccato su "Crea il tuo negozio", BTCPay Server richiederà di nominare il negozio; questo nome può essere qualsiasi cosa scelto da te.
+(1) Dopo aver cliccato su "Crea il tuo negozio", BTCPay Server richiederà di dare un nome al negozio e potrà essere scelto da noi a fantasia.
 
 ![immagine](assets/en/10.webp)
 
-(2) Successivamente, deve essere impostata una valuta predefinita per il negozio, sia una valuta fiat sia denominata in uno standard bitcoin / sat. Per l'ambiente demo, la imposteremo in USD.
+(2) Successivamente, deve essere impostata una valuta predefinita per il negozio, scegliendo fra una delle valute fiat o nello standard bitcoin / sat. Per l'ambiente demo, la imposteremo in USD.
 
 ![immagine](assets/en/11.webp)
 
-(3) Come ultimo parametro nella configurazione del negozio, BTCPay Server richiede di impostare una "Fonte di prezzo preferita" per confrontare il prezzo di Bitcoin con il prezzo fiat corrente in modo che il tuo negozio mostri il corretto tasso di cambio tra Bitcoin e la valuta fiat impostata per il negozio. Nell'esempio Demo, ci atteniamo all'impostazione predefinita e la impostiamo sull'exchange Kraken. BTCPay Server utilizza l'API di Kraken per controllare i tassi di cambio.
+(3) Come ultimo parametro nella configurazione del negozio, BTCPay Server richiede di impostare una "Fonte di prezzo preferita" per confrontare il prezzo dei bitcoin con il prezzo fiat corrente in modo che il tuo negozio mostri il corretto tasso di cambio tra i bitcoin e la valuta fiat impostata per quel negozio. Nell'esempio Demo, ci atteniamo all'impostazione predefinita e la impostiamo sull'exchange Kraken. BTCPay Server utilizza l'API di Kraken per controllare i tassi di cambio.
 
 ![immagine](assets/en/12.webp)
 
@@ -406,8 +406,8 @@ Congratulazioni, hai creato il tuo primo negozio, e questo conclude questo eserc
 
 In questa sezione, hai imparato:
 
-- Creazione del negozio e configurazione di una valuta predefinita combinata con le preferenze della fonte di prezzo.
-- Ogni "Negozio" è una nuova home separata dagli altri negozi su questa installazione di BTCPay Server.
+- La creazione del negozio e la configurazione di una valuta predefinita combinata con le preferenze della fonte di prezzo.
+- Ogni "Negozio" è una nuova "home" separata dagli altri negozi su questa installazione di BTCPay Server.
 
 # Introduzione alla Sicurezza delle Chiavi Bitcoin
 

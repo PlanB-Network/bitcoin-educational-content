@@ -2405,6 +2405,75 @@ Pour résumer, voici le classement du meilleur système de verrouillage de smart
 
 Pour les appareils sensibles, la meilleure solution reste donc un mot de passe combiné à une désactivation de la biométrie, avec déverrouillage uniquement manuel. Cela peut paraître contraignant, mais c’est le mieux dans une démarche de protection. Évidemment, pour un code PIN ou un mot de passe alphanumérique, plus il est long et aléatoire, mieux c’est. Il faut qu'il soit résistant face aux attaques par brute force.
 
+### Cloisonnement des usages et des données
+
+Comme nous l'avons vu dans les chapitres précédents, le cloisonnement est une pratique importante pour limiter les risques en cas de compromission d’une partie du système. En créant des environnements séparés pour vos différentes activités, vous évitez qu’une attaque ou une fuite de données dans une zone ne contamine l’ensemble de votre appareil. Sur Android, cette stratégie peut se concrétiser à travers plusieurs mécanismes intégrés.
+
+#### Utiliser un profil professionnel séparé
+
+Le *Work Profile* est une fonctionnalité native d’Android (depuis Android 5.0), qui permet de créer une partition logicielle distincte à l’intérieur d'un même smartphone. Concrètement, ce profil fonctionne comme un conteneur isolé : les applications, les comptes et les données stockées dans cet espace ne peuvent pas interagir avec celles du profil personnel. Cette séparation empêche donc les fuites de données entre les espaces et limite les droits d’accès des applications. Cette fonctionnalité est souvent gérée en interne dans les entreprises, mais il existe également des moyens pour l'utiliser de manière personnelle pour isoler des applications. 
+
+143
+
+L’outil Shelter est une application open-source qui exploite cette fonction *Work Profile* du système Android pour offrir aux utilisateurs non professionnels un moyen simple de créer un environnement isolé. Shelter peut être utilisé pour installer et exécuter des applications sensibles dans un espace protégé, ce qui réduit considérablement l’exposition de ces applications aux autres logiciels installés sur le téléphone.
+
+144
+
+#### Utiliser plusieurs téléphones distincts
+
+Pour aller plus loin dans la séparation des usages, il est possible d’opter pour l’utilisation de plusieurs appareils physiques, chacun dédié à un type d’activité (personnelle, professionnelle ou sensible). Cette séparation matérielle assure une isolation complète, bien plus stricte qu’une segmentation logicielle, puisque chaque téléphone fonctionne de manière totalement autonome. 
+
+En cas de compromission d’un smartphone, les autres restent intacts. Ce cloisonnement physique présente également l’avantage de simplifier la gestion des accès et des permissions sur chaque appareil, et réduit l’exposition globale à d’éventuelles menaces.
+
+### Maîtriser vos flux de données
+
+Votre smartphone communique en permanence avec l’extérieur, que ce soit via le Wi-Fi, le Bluetooth, le NFC, le GPS ou les réseaux mobiles. Chacun de ces canaux représente une surface d’attaque potentielle. Comprendre leur fonctionnement et les sécuriser est donc important pour limiter les risques.
+
+#### Wi-Fi public
+
+Les réseaux Wi-Fi publics, comme ceux des cafés, hôtels ou transports, sont rarement sécurisés. Même lorsqu’ils nécessitent un mot de passe, ce dernier est souvent partagé entre de nombreux utilisateurs, et le chiffrement appliqué est parfois facilement contournable. Un attaquant connecté au même réseau peut intercepter vos paquets, capturer des identifiants ou injecter du contenu malveillant via des attaques de type Man-in-the-Middle.
+
+Pour vous protéger, évitez tout simplement d'utiliser ces réseaux publics ou bien utilisez un VPN, qui va créer un tunnel chiffré entre votre appareil et un serveur distant. Ce tunnel encapsule vos données, ce qui rend leur interception ou modification extrêmement complexe.
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+Pour ce qui est de votre réseau Wi-Fi domestique, nous en parlerons dans la dernière partie du cours SCU 202.
+
+#### Bluetooth, NFC et GPS
+
+Le Bluetooth (protocole sans fil pour communications à courte portée), le NFC (communication en champ proche) et le GPS (localisation par satellite) sont activés par défaut sur de nombreux smartphones. Ces technologies peuvent servir de porte d’entrée à des attaques locales : exécution de code à distance, accès non autorisé, suivi de localisation, voire interception de communications dans le cas du Bluetooth (failles BlueBorne, par exemple).
+
+Pour limiter ces risques, désactivez systématiquement ces fonctionnalités lorsque vous ne les utilisez pas. Cela réduit drastiquement la surface d’attaque et empêche toute tentative d’exploitation.
+
+#### Réseaux mobiles
+
+Les smartphones échangent en permanence avec les antennes-relais des opérateurs téléphoniques. Cette communication peut être détournée par certains dispositifs *IMSI Catchers*, qui simulent des antennes-relais pour intercepter vos données mobiles. Ces attaques permettent à un tiers d’identifier votre appareil, de suivre vos déplacements et dans certains cas, d’intercepter appels et messages.
+
+145
+
+Certaines applications, comme SnoopSnitch sur Android, peuvent détecter des comportements suspects dans vos échanges avec le réseau. Ces outils analysent les métadonnées des communications mobiles et peuvent vous alerter en cas de modification de la configuration radio ou de comportement anormal, ce qui renforce ainsi votre vigilance face aux tentatives d’interception.
+
+La meilleure façon de sécuriser vos communications reste d’utiliser des applications de messagerie sécurisées, que ce soit pour vos appels ou vos messages. En effet, ces applications n’utilisent pas le réseau mobile et assurent un bon chiffrement des échanges. Nous aborderons ce sujet plus en détail dans le prochain chapitre.
+
+### Sécuriser son appareil mobile
+
+#### Antivirus sur mobile
+
+L’utilité d’un antivirus sur smartphone est souvent surévaluée, en grande partie à cause de campagnes marketing agressives. Les menaces réelles sur mobile, notamment sous Android, sont généralement liées à l’installation d’applications malveillantes provenant de sources non officielles. Sur un appareil régulièrement mis à jour, configuré avec prudence (notamment au niveau des autorisations), et qui utilise exclusivement des sources officielles ou vérifiées, le risque d’infection est très faible. 
+
+Aussi, les appareils Android sont déjà équipés par défaut de Google Play Protect, qui agit comme un antivirus. Les applications antivirus tierces utilisent cette même interface d’analyse, ce qui ajoute simplement de la redondance. En pratique, les antivirus mobiles apportent donc peu de valeur ajoutée, que ce soit sur Android ou iOS.
+
+De plus, ces applications peuvent induire un faux sentiment de sécurité chez l’utilisateur, en laissant penser qu’il est totalement protégé contre les menaces, alors qu’elles n’offrent qu’une protection réactive. Elles ne protègent ni contre le phishing, ni contre les autorisations excessives accordées aux applications, alors que la plupart des menaces sur smartphone proviennent précisément de ces vecteurs.
+
+Leur utilité réelle est donc très limitée, et ces applications sont parfois coûteuses, et consomment inutilement de la batterie et des ressources. Mieux vaut ne pas en utiliser, et simplement adopter les bonnes pratiques présentées dans ce chapitre.
+
+
+
+
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Toro Bitcoin Europa
+name: Bull Bitcoin
 description: Comprare e vendere bitcoin su Bull Bitcoin
 ---
 ![cover](assets/cover.webp)

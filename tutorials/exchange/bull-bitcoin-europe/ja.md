@@ -1,5 +1,5 @@
 ---
-name: ブル・ビットコイン・ヨーロッパ
+name: Bull Bitcoin
 description: Bull Bitcoinでビットコインを売買する
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 歐洲公牛 Bitcoin
+name: Bull Bitcoin
 description: 在 Bull Bitcoin 上買賣比特幣
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 欧洲比特币牛市
+name: Bull Bitcoin
 description: 在 Bull Bitcoin 上买卖比特币
 ---
 ![cover](assets/cover.webp)

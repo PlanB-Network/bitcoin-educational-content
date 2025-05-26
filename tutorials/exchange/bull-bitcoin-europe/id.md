@@ -1,5 +1,5 @@
 ---
-name: Bull Bitcoin Eropa
+name: Bull Bitcoin
 description: Beli dan jual bitcoin di Bull Bitcoin
 ---
 ![cover](assets/cover.webp)

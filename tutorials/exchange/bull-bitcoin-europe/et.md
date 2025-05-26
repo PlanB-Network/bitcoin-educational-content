@@ -1,5 +1,5 @@
 ---
-name: Bull Bitcoin Euroopas
+name: Bull Bitcoin
 description: Osta ja müüa bitcoine Bull Bitcoini kohta
 ---
 ![cover](assets/cover.webp)

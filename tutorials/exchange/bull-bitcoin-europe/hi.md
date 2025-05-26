@@ -1,5 +1,5 @@
 ---
-name: बुल Bitcoin यूरोप
+name: Bull Bitcoin
 description: बुल Bitcoin पर बिटकॉइन खरीदें और बेचें
 ---
 ![cover](assets/cover.webp)

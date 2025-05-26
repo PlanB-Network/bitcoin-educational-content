@@ -1,5 +1,5 @@
 ---
-name: Bull Bitcoin Ulaya
+name: Bull Bitcoin
 description: Nunua na uuze bitcoins kwenye Bull Bitcoin
 ---
 ![cover](assets/cover.webp)

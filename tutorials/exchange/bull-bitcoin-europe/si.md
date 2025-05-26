@@ -1,5 +1,5 @@
 ---
-name: Bull Bitcoin Europe
+name: Bull Bitcoin
 description: Bull Bitcoin මත බිට්කොයින් මිලදී ගන්න සහ විකිණීමට.
 ---
 ![cover](assets/cover.webp)

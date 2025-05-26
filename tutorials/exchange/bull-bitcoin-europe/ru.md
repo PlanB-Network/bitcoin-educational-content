@@ -1,5 +1,5 @@
 ---
-name: Быки Биткойн Европа
+name: Bull Bitcoin
 description: Покупайте и продавайте биткоины на Bull Bitcoin
 ---
 ![cover](assets/cover.webp)

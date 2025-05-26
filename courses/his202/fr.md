@@ -491,7 +491,7 @@ Très naturellement, Bitcoin attire l'attention du mouvement dès le printemps, 
 
 Le New Hampshire, grâce à cette concentration de libertariens, deviendra au fil des années un lieu d'adoption de la cryptomonnaie. Outre sa mutation institutionnelle, il [se transformera](https://www.forbes.com/sites/kashmirhill/2014/06/12/the-free-state-project-a-libertarian-testing-ground-for-bitcoin-3d-printers-and-drones/) en véritable « terrain d'essai » pour Bitcoin et d'autres innovations techniques favorisant la liberté comme les imprimantes 3D.
 
-### Occupy Wall Street (17 sept.–15 nov. 2011)
+### Occupy Wall Street
 
 Le libertarianisme n'est cependant pas le seul mouvement politique à présenter des affinités avec Bitcoin. De l'autre côté de l'échiquier politique (si l'on considère que les positions économiques du libertarianisme sont plutôt situées à droite), il y a tout le mouvement anticapitaliste et antifinance qui a tout intérêt à s'intéresser à la cryptomonnaie.
 
@@ -513,7 +513,147 @@ Le politique constitue un élément essentiel de l'essor de Bitcoin entre 2011 e
 
 Pourtant, cet aspect idéologique était en opposition avec une force autrement plus attractive : celle de l'intérêt financier. Une tension s'est ainsi construite au cours de ces années entre les deux aspects. Mais avant cela, il fallait construire les outils permettant aux acteurs financiers de venir s'investir dans l'écosystème...
 
-## L'éclatement de la bulle de 2011 (juin–déc. 2011)
+## L'éclatement de la grande bulle de 2011 (août–déc. 2011)
+
+https://web.archive.org/web/20110925003655/http://www.betabeat.com/2011/09/15/despite-cyberattacks-and-overspeculation-bitcoin-economy-continues-to-evolve/
+
+En juin 2011, l'engouement spéculatif de juin a été stoppé net par la piratage de Mt. Gox et par sa mise hors ligne pendant des jours. Le fiasco lié à la fermeture de MyBitcoin à la fin du mois de juillet a finalement provoqué le dégonflement de la bulle. Dans les jours qui ont suivi le prix a baissé en flèche jusqu'à 6 $, et a finit par tomber à 2 $ en novembre.
+
+Cet éclatement de la « grande bulle de 2011 » (original: "the Great Bubble of 2011") a bien évidemment attiré l'attention de la presse, qui s'est empressée de déclarée que Bitcoin était mort. Mais il a également été propice à la construction économique. La période de stagnation du prix a permis de développer des projets qui ont porté leurs fruits par la suite.
+
+### Traitement médiatique
+
+Rétrospective sur la bulle. Vitalik Buterin, juin 2012 : https://web.archive.org/web/20120618044628/http://bitcoinmagazine.net/anniversary-of-the-great-bubble-of-2011/
+
+Prix : 6 $ le 6/8/2011, 2 $ le 18/11/2011, 7 $ le 8/1/2012
+
+Capture de Bitcoin Charts, août 2011 : https://web.archive.org/web/20110727192503/http://bitcoincharts.com/markets/
+
+James Surowiecki, "Cryptocurrency", août 2011 : https://www.technologyreview.com/2011/08/23/191860/cryptocurrency/ ; *MIT Technology Review* September/October 2011
+
+Paul Krugman, "Golden Cyberfetters", septembre 2011 : https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/
+
+économiste néokeynésien, et prix Nobel d'économie (« cyberchaînes dorées » en français), référence à l'ouvrage *Golden Fetters* de Barry Eichengreen, qui soutient que la grande dépression des années 1930 a été due à l'étalon-or. Paul Krugman soutient qu'en fixant « la quantité totale de cybermonnaie » ("created its own private gold standard world, in which the money supply is fixed rather") mènerait au résultat suivant : thésaurisation, déflation et dépression ("hoarding, deflation, and depression")
+
+The Economist, "*The bursting of the Bitcoin bubble*", 21 octobre 2011 : https://web.archive.org/web/20181019113320/https://www.economist.com/babbage/2011/10/21/the-bursting-of-the-bitcoin-bubble
+
+Benjamin Wallace, *Wired*, "The Rise and Fall of Bitcoin", 23 novembre 2011 : https://www.wired.com/2011/11/mf-bitcoin/
+
+Stefan Brands : "pyramid scheme"
+
+Timothy Lee, *Arstechnica*, "Bitcoin’s Comeback: Should Western Union Be Afraid?", [21/12/2011](https://arstechnica.com/tech-policy/2011/12/bitcoins-comeback-should-western-union-be-afraid/)
+
+Rebecca Greenfield, *The Atlantic*, "The Bitcoin Collapse That Never Happened", [21/12/2011](https://web.archive.org/web/20120107225333/http://www.theatlanticwire.com/technology/2011/12/bitcoin-collapse-never-happened/46522/)
+
+### Quelques autres plateformes de change
+
+BTC-e, cofondée par Alexander Vinnik et Aleksandr Bilyuchenko, [testée](https://bitcointalk.org/index.php?topic=29698.0) à partir du 17 juillet 2011, lancement le [7 août 2011](https://bitcointalk.org/index.php?topic=29698.msg437237#msg437237)
+
+Bitstamp, Nejc Kodrič, Damijan Merlak, Slovénie, 18 août 2011 : https://web.archive.org/web/20140430233930/https://bitcointalk.org/index.php?topic=20292.220 https://bitcointalk.org/index.php?topic=38578.msg472485#msg472485 (déplacée au Royaume-Uni en avril 2013, puis au Luxembourg en 2016)
+
+Crypto X Change, plateforme australienne, [10/11/2011](https://bitcointalk.org/index.php?topic=51457.msg613057#msg613057)
+
+OKPAY, service de paiement (russe ?), carte de paiement MasterCard, [07/11/2011](https://bitcointalk.org/index.php?topic=51403.msg612744#msg612744)
+
+### Trading sur marge : Bitcoinica
+
+Bitcoinica, [8 septembre 2011](https://bitcointalk.org/index.php?topic=42267.msg514429#msg514429), https://news.ycombinator.com/item?id=2973301
+
+JDC: Le succès est au rendez-vous dès le début. Durant les premières 24 heures, 3724 bitcoins sont échangés par 290 utilisateurs différents, soit l'équivalent de 19 000 $. Le volume sur les 7 premiers jours est 160 865 bitcoins, soit plus de 800 000 $ (source: https://web.archive.org/web/20111019032441/http://blog.bitcoinica.com/), faisant de Bitcoinica la deuxième plateforme de trading en termes de volume derrière Mt. Gox.
+
+https://bitcointalk.org/index.php?topic=49445.msg588749#msg588749
+
+### Produits dérivés : MPOE et GLBSE
+
+Mircea Popescu, MPOE, avr. 2011 (renommé MPEx en avr. 2012) : https://en.bitcoin.it/wiki/MPEx
+
+bitoptions, mai 2011 : https://bitcointalk.org/index.php?topic=9611.msg138413#msg138413 https://bitcointalk.org/index.php?topic=12572.msg174313#msg174313
+
+GLBSE (*GLobal Bitcoin Stock Exchange*), lancé en avril 2011 par James McCarthy (Nefario sur le forum), première  v2 en mars 2012, fermeture en octobre 2012) https://en.bitcoin.it/wiki/GLBSE https://bitcointalk.org/index.php?topic=6500.msg94943#msg94943 https://bitcoinmagazine.com/markets/global-bitcoin-stock-exchange-shuts-down-for-good-1349879479
+
+Première « IPO » en bitcoins, [avr. 2011](https://bitcointalk.org/index.php?topic=6584.msg100156#msg100156) : Ubitex, Nathaniel Theis, 1100 BTC récupérés (d'une valeur d'environ 10 000 $), exit scam https://en.bitcoin.it/wiki/Ubitex
+
+"Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway." https://en.bitcoin.it/wiki/Coinabul
+
+### BitInstant, la plaque tournante du change en bitcoins
+
+Sources : https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/ https://www.youtube.com/watch?v=8TD5u_ocXds (12:46)
+
+Vit dans le sous-sol de la maison de ses parents à Midwood (quartier juif), à Brooklyn, New York. Il a grandi dans une famille juive syrienne orthodoxe très stricte.
+
+img: Photo de Charlie Shrem en 2011/2012
+
+BitInstant, cofondé en juin 2011 par Gareth Nelson (garethnelsonuk) et Charlie Shrem (Yankee).
+
+Charlie est jeune : il a 21 ans (né en 25 novembre 1989). Gareth est un Gallois de 23 ans ([source](https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/)).
+
+Charlie Shrem, s'inscrit le 10 juin sur le forum avec le pseudonyme [Yankee](https://web.archive.org/web/20111127073246/https://bitcointalk.org/index.php?action=profile;u=21181)
+
+13 juin, 04:04 UTC : [annonce](https://bitcointalk.org/index.php?topic=16134.msg210887#msg210887) de Gareth Nelson, recherche d'investisseurs ; 21:01 UTC : [annonce du projet BitInstant](https://bitcointalk.org/index.php?topic=16472.msg214518#msg214518)
+
+"startup installée à Brooklyn qui propose des crédits temporaires afin d'accélérer les transactions en bitcoins"
+
+Charlie Shrem dans le Bitcoin Show : [24/11/2011](https://www.youtube.com/watch?v=PxMazut6-0U)
+
+![](bitinstant-howitworks-2012.png)
+
+Capture du 26 janvier 2012 (source : [archive de Bitinstant.com](https://web.archive.org/web/20120126191036/https://bitinstant.com/))
+
+Investissement de Roger Ver [source](https://londonlovesbusiness.com/meet-bitcoin-jesus-roger-ver-the-millionaire-who-distributes-free-bitcoins/)
+
+En décembre, BitInstant [réalise](https://observer.com/2011/12/brooklyn-based-bitcoin-startup-bitinstant-raises-seed-round/) une levée de fonds auprès d'investisseurs providentiels. Le plus important d'entre eux n'est autre que Roger Ver, qui acquiert 15 % de la société et qui devient assez rapidement son directeur marketing. Roger Ver conseille à Charlie Shrem d'engager Erik Voorhees, qui devient le responsable responsable de la communication et du marketing de la société en février 2012. Ira Miller est également intégré à l'équipe en tant que développeur.
+
+EDB : En parallèle se développe un service nommé BitInstant aux États-Unis, cofondé en juin 2011 par Gareth Nelson et Charlie Shrem, dont le rôle est de faciliter les transferts vers et depuis les plateformes de change. L'entreprise sert d'intermédiaire entre les clients et les plateformes et permet de rendre les dépôts (et les retraits) instantanés moyennant une commission. Charlie Shrem, jeune New-Yorkais d'origine juive syrienne, assure le rôle de PDG et devient rapidement la figure principale de l'entreprise. bien que d'autres personnes soient impliquées dans le projet comme Roger Ver et Erik Voorhees. Dès le début de l'année 2012, BitInstant propose diverses méthodes de transfert d'argent (Liberty Reserve, Dwolla, Paxum, dépôts d'espèces) pour interagir avec les principales plateformes de l'écosystème, dont notamment Mt. Gox qui est basée au Japon.
+
+En 2012, l'équipe est [composée](https://web.archive.org/web/20120626114419/https://www.bitinstant.com/aboutus) de quatre personnes : Gareth Nelson, Charlie Shrem, Erik Voorhees, Roger Ver. [photos](https://web.archive.org/web/20130118073422/https://www.bitinstant.com/aboutus)
+
+![Erik Voorhees, Charlie Shrem et Ira Miller dans les locaux de BitInstant en février 2012](bitinstant-2012-02-brian-patrick-eha.webp)
+
+Erik Voorhees, Charlie Shrem et Ira Miller dans les locaux de BitInstant en février 2012 (source : Brian Patrick Eha pour [Fortune](https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/))
+
+Charlie Shrem n'est pas intialement motivé idéologiquement. Néanmoins, la fréquentation d'Erik Voorhees, d'Ira Miller et de Roger Ver modifie sa perception des choses au cours du temps.
+
+Ira Miller sur FreeTalkLive, [27/02/2012](https://www.youtube.com/watch?v=i4bSYVLQHvk)
+
+Nouveau site : https://bitcointalk.org/index.php?topic=74624.msg826565#msg826565
+
+[AVTM, 18/10/2012](https://www.youtube.com/watch?v=2BqpYbzZ3NI)
+
+### Processeurs de paiement
+
+En septembre, des centaines de commerçants (en ligne) sont référencés sur le wiki : https://web.archive.org/web/20110919161327/https://en.bitcoin.it/wiki/Trade
+
+BitPay, mai 2011, Tony Gallippi (https://bitcointalk.org/index.php?action=profile;u=31293) Stephen Pair (https://bitcointalk.org/index.php?action=profile;u=4399) https://web.archive.org/web/20120210233724/https://bit-pay.com/ https://web.archive.org/web/20120909120601/http://bitpay.com/ ; interview dans le Bitcoin Show : https://www.youtube.com/watch?v=UZAnM4FjTOg
+
+"One of the most significant innovations for Bitcoin businesses is services like BitPay. BitPay functions as a fully fledged merchant system for Bitcoin, and markets itself specifically as a substitute for credit cards and PayPal. It's most important innovation, however, is instantly converting BTC received from customers into conventional currencies, effectively insulating vendors from the chaos of the Bitcoin exchange rate, making Bitcoin attractive to them despite its current instability." ([Vitalik Buterin](https://web.archive.org/web/20120104013914/http://bitcoinweekly.com/articles/bitcoin-for-merchants-part-ii))
+
+Bitcoin.com by TradeHill, sept. 2011 : https://web.archive.org/web/20110907014134/http://bitcoin.com/
+
+- Martti Malmi, "1000 BTC for getting a major business to accept Bitcoin" (oct. 2011) https://bitcointalk.org/index.php?topic=46646.msg555039#msg555039
+
+Commerçants : 100 en novembre 2011, 1 100 en octobre 2012 (source : https://www.scientificamerican.com/article/3-years-in-bitcoin-digital-money-gains-momentum/)
+
+12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666
+
+- Paymium, startup fondée en [juin 2011](https://web.archive.org/web/20111120231150/http://www.paymium.com/) par Gonzague Grandval, David François (davout), Pierre Noizat (Boussac), initialement dans le domaine des paiements, et dont le produit principal est une application de prévention de la fraude par carte bancaire. L'entreprise se tourne progressivement vers Bitcoin, faisant rapidement de Bitcoin-Central son produit phare \[QUAND ?\] mention de Paytunia en mai 2012 (https://web.archive.org/web/20120514233205/https://bitcoin-central.net/), mentions légales en janvier 2013 (https://web.archive.org/web/20130120182340/https://bitcoin-central.net/)\], à tel point que celui-ci [prendra](https://bitcoin.fr/bitcoin-central-devient-paymium/) le nom de Paymium en 2014.
+
+### Poker et jeu d'argent
+
+Répression contre le poker dans l'année, 15 avril 2011 surnommé « vendredi noir » (original: "Black Friday") ou "Full Tilt Scandal", saisie des sites de PokerStars, Full Tilt Poker et Absolute Poker par le FBI, violation de l'UIGEA https://www.theguardian.com/world/2011/apr/24/online-poker-sites-shut-down-fbi https://www.pokernews.com/news/2022/11/full-tilt-poker-cheating-scandal-42534.htm https://en.wikipedia.org/wiki/United_States_v._Scheinberg https://web.archive.org/web/20110419194619/https://www.nytimes.com/2011/04/16/technology/16poker.html
+
+Moonco.in, https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530 https://bitcointalk.org/index.php?topic=31768.0 ; piraté en septembre : https://bitcointalk.org/index.php?topic=83794.0#post_toc_25
+
+Betco.in, (hippich), sept. 2010 https://bitcointalk.org/index.php?topic=840.msg9795#msg9795 https://web.archive.org/web/20111128083415/https://bitcointalk.org/index.php?topic=840.0
+
+Seals With Clubs (FreeMoney), 29 août 2011 https://web.archive.org/web/20120328190743/https://bitcointalk.org/index.php?topic=40077.0 [sealswithclubs.eu, 27/3/2012](https://bitcointalk.org/index.php?topic=40077.msg822567#msg822567)
+
+BTC on Tilt
+
+Paris variés : https://web.archive.org/web/20111004131910/http://betwithbtc.com/ ([GoWest](https://bitcointalk.org/index.php?topic=45566.msg543768#msg543768), [vendu en octobre 2013 ?](https://bitcointalk.org/index.php?topic=314256.msg3369154#msg3369154))
+
+"Bitcoin for Poker Home Games" https://bitcointalk.org/index.php?topic=29024.msg365482#msg365482
+
+http://betsofbitco.in/
 
 ## L'amélioration de l'utilisation (mars 2011–nov. 2011)
 

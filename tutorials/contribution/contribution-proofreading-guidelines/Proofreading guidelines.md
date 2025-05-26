@@ -24,19 +24,19 @@ On the issue itself, you will find the links that take you directly to the conte
 
 First of all, ALWAYS remember to SYNC you repo, on the "dev" branch. This way, the content will always be updated before you start any type of task, and you will not create any conflicts between old and new material. Make sure to click on "Sync fork" and "update branch".
 
-[image01]
+![REVIEW](assets/en/1.webp)
 
 After successfully syncing, you can directly access the content of interest and commit on a new branch, as shown in this [tutorial](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Otherwise, you can open a new branch where to work, by clicking on "Branches"
 
-[image2]
+![REVIEW](assets/en/2.webp)
 
 Inside this new page, you will be able to find all the branches you opened, under "Your Branches". This system is very useful because it allows you to easily find the place where you modified some content. To open a new branch, you can click on "New Branch" on the upper right.
 
-[image3]
+![REVIEW](assets/en/3.webp)
 
 Then, you will get a pop-up where you need to inser the name of the new branch. In the case below, I chose to call it "BTC101-FR". This way, I will always remember that this specific branch needs to be used for the proofreading of the course BTC101 in French, and I will not use it for any other task.
 
-[image4]
+![REVIEW](assets/en/4.webp)
 
 After creating this new branch, make sure to click on it from "Your Branches in the previous page" and start working on the *.md* file related to the specific content (in my case, I will click on the folder "courses", and the subfolder BTC101, to search for fr.md). All commits related to the specific file will have to be committed (saved) inside the same branch.
 
@@ -53,21 +53,20 @@ LLM tools may translate some words related to Bitcoin literally, like Lightning 
 
 It is especially the case when it deals with very techical words. In cases like these, it is advisable to maintain the original English word on your target language for better clarity, unless your language rules impose you to translate every single word. In this second case, always do some research to see if someone else in your Bitcoin community has already translated that word and it is now broadly used. 
 
-- One solution could be to check on [BitcoinWiki](https://en.bitcoin.it/wiki/Main_Page) in your target language to see if the word was translated or not.
+- One solution could be to check on [BitcoinWiki](https://en.bitcoin.it/wiki/Main_Page) in your target language to see if the word was translated or not. If it's not, you keep the word in English.
 
-- In any case, my advice would be to insert the EN word and then the corresponding meaning inside round parenthesis in the target language, following the scheme EN (LANG)
+- In any case, my advice would be to insert the EN word nonetheless, and then the corresponding meaning in the target language inside round parenthesis, following the scheme EN (LANG), or viceversa. Ex. Address (indirizzo) or indirizzo (address).
 
-[image5]
+- Another good solution is to keep the EN original word/phrase, then create a hyperlink that redirects to the [glossary](https://planb.network/en/resources/glossary) on planb.network. To do this, you need to insert the word/phrase inside square brackets, and the link inside round parenthesis, like you can see in the example below: 
 
-- Another good solution is to write the EN original word/phrase, then create a hyperlink that takes to the [glossary](https://planb.network/en/resources/glossary) on planb.network. To do this, you need to insert the word/phrase inside square brackets, and the link inside round parenthesis, like you can see below: 
-` `` `
-
-	[UTXO](https://planb.network/resources/glossary/utxo)
-` `` `
+```
+[UTXO](https://planb.network/resources/glossary/utxo)
+```
 
 In the final result (image below) you will not visualize the entire link, and the word will become clickable.
 
-[imahe6]
+![REVIEW](assets/en/5.webp)
+
 
 Please note that in the original like you will take from the website, the language code will be inserted after the word "resources" (example: https://planb.network/resources/en/glossary/utxo). Here you can read the language code "en" after "resources". In this case, remove the language code from the link, like you saw in the box above. This way, the system will automatically take the reader to their designated language.
 
@@ -81,42 +80,42 @@ The same goes for "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", which should also be 
 
 In the markdown language, headers (and paragraph titles) all begin with the hash sign ``#`` . The number of hash signs used corresponds to the heading level. For example, a heading of level three has three number signs before the text (e.g., `### My Header`).
 
-[image7]
+![REVIEW](assets/en/6.webp)
 
 Make sure to NEVER delete hash signs before a title, otherwise you will create issues with the structure of the text. At the same time, make sure not to change the chapterID part you can see in the image above: ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>``
 
 ## The initial section of courses
 
-At the beginning of any content, you will find the following static words: "name", "description", "objectives". They are used by the website to decode the content itself and are always left in EN. As a consequence, DO NOT translate them, otherwise the content will create syncronization issues. Make sure to only proofread the part after the colon, which is automatically translated by AI.
+At the beginning of any content, you will find the following static lowercase words: "name", "description", "objectives". They are used by the website to decode the content itself and are always left in EN. As a consequence, DO NOT translate them, otherwise the content will create syncronization issues. Make sure to only proofread the part after the colon, which is automatically translated by AI.
 
-[image8]
+![REVIEW](assets/en/7.webp)
 
-In this same initial section, keep the format as it is and don't add anything Don't add anything at the beginning of the text: Ex. "tt" before the dashes!
+In this same initial section, keep the format as it is and don't add anything Don't add anything at the beginning of the text: Ex. avoid adding "tt" before the dashes, like in the image below!
 
-[image9] image already screenshotted
+![REVIEW](assets/en/8.webp)
 
-## Format stuff
+## Format recommendations
 
 Here below you can find a few examples of format issues to pay attention to when proofreading content in your target language.
 
-- Pay attention to weird punctuation like `\*\*\`, or ``**`` which might represent a bad rendering of the bold symbol . 
+- Pay attention to weird punctuation like `\*\*\`, or ``**`` which might represent a bad rendering of the bold symbol. 
 
-[image10]
+	In the image below, you can see that the asterisks are only on the right of the word, which looks weird. Always check the original English text to see if a bold text is supposed to be there. In the original EN text, instead, we have this:
 
-In the image above, you can see that the asterisks are only on the right of the word, which looks weird. Always check the original English text to see if a bold text is supposed to be there. In the original EN text, instead, we have this:
-
-[image11]
+![REVIEW](assets/en/9.webp)
 
 In this case, it's enough to just add two asterisks at the start of the word to make it show correctly on the website. In fact in the markdown language, to render the bold, you have to insert two asterisks ``**`` both before and after the word/sentence.
 
-example of final result (image)
+![REVIEW](assets/en/10.webp)
 
-- The same issues may happen with symbols like $ and `` ` `. 
 
-- If you find quotes, make sure to do some research online to find the right translation in your language.
-	- quotes are usually inserted after the symbol ``>``
+- The same issues may happen with symbols like $ and `` ` `. Make sure to check the original language file (ofter en or fr to see where these symbols are supposed to be).
 
-examle image?
+- If you find quotes, make sure to do some research online to find the right translation in your language. Quotes are usually inserted after the symbol ``>``
+
+![REVIEW](assets/en/11.webp)
+
+- Tables will not be translated anymore????
 
 ### others
 

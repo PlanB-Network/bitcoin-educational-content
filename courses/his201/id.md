@@ -433,21 +433,22 @@ Untuk memastikan fungsinya berjalan dengan benar, Satoshi [memprogram](https://w
 
 ### Persiapan
 
-Pada Agustus 2008, Satoshi memutuskan untuk mempersiapkan peluncuran Bitcoin. Pada tanggal 18, ia memesan nama domain Bitcoin.org melalui layanan anonim AnonymousSpeech (serta [Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720), mungkin belum menyelesaikan pilihan nama untuk konsepnya). Nama domain tersebut akan menjadi host situs utama Bitcoin. Namun, Satoshi tidak dapat memesan nama domain Bitcoin.com, yang saat itu dipegang oleh seorang [spekulan](https://mmalmi.github.io/satoshi/#email-28) dan akan [digunakan](https://web.archive.org/web/20090719065532/http://www.bitcoin.com/) antara 2009 dan 2011 oleh sebuah perusahaan bernama BitCoin Ltd., yang mengkhususkan diri dalam mikropembayaran.
+Pada bulan Agustus 2008, Satoshi memutuskan untuk mempersiapkan peluncuran Bitcoin. Pada tanggal 18, ia mendaftarkan nama domain Bitcoin.org melalui layanan anonim AnonymousSpeech (serta [Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720), kemungkinan belum menyelesaikan pilihan nama untuk konsepnya). Nama domain tersebut akan menjadi host situs utama Bitcoin. Namun, Satoshi tidak dapat mendaftarkan nama domain Bitcoin.com, yang saat itu dipegang oleh seorang [spekulan](https://mmalmi.github.io/satoshi/#email-28) dan akan digunakan antara tahun 2009 dan 2011 oleh perusahaan bernama BitCoin Ltd., yang berspesialisasi dalam pembayaran mikro.
 
-Pada tanggal 20 Agustus, pencipta Bitcoin [menghubungi](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) Adam Back dengan mengiriminya email meminta saran tentang bagaimana mengutip makalahnya tentang Hashcash di white paper. Sulit untuk tidak melihat ini sebagai alasan untuk memastikan bahwa penemu Hashcash mengetahui sistem baru ini.
+Pada tanggal 20 Agustus, pencipta Bitcoin [menghubungi](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) Adam Back dengan mengiriminya email yang menanyakan saran tentang cara mengutip makalahnya tentang Hashcash di white paper. Sulit untuk tidak melihat ini sebagai dalih untuk memastikan bahwa penemu Hashcash menyadari sistem barunya.
 
 ![Adam Back in 2012](assets/en/20.webp)
+
 Adam Back pada tahun 2012 (sumber: [Halaman pribadi Adam Back](http://www.cypherspace.org/adam/))
 
-Email tersebut berisi tautan ke draf white paper. Nama file PDF adalah `ecash.pdf` dan judulnya adalah "Electronic Cash Without a Trusted Third Party". Abstraknya sama dengan versi pertama yang akan dipublikasikan pada Oktober, dengan satu kata perbedaan. Sayangnya, kami tidak memiliki dokumen lengkapnya.
-Sehari setelah membaca ringkasan yang dikirim oleh Satoshi (tetapi bukan makalahnya), Adam Back mengarahkannya ke usulan b-money dari Wei Dai, yang tampaknya memiliki kesamaan dengan konsepnya. Satoshi merespons dengan berterima kasih atas petunjuk tersebut dan menyatakan bahwa "ide-ide saya dimulai tepat dari titik itu." Adam Back juga menyebutkan tentang keberadaan MicroMint, tetapi Satoshi tidak merespons.
+Email tersebut berisi tautan ke draf white paper. Nama file PDF-nya adalah ecash.pdf dan judulnya adalah "Electronic Cash Without a Trusted Third Party" (Uang  Elektronik Tanpa Pihak Ketiga Tepercaya). Abstraknya sama dengan versi pertama yang akan diterbitkan pada bulan Oktober, dengan satu perbedaan kata. Sayangnya, kita tidak memiliki dokumen lengkapnya.
+Sehari setelah membaca ringkasan yang dikirim oleh Satoshi (tetapi bukan makalahnya), Adam Back mengarahkannya ke proposal b-money milik Wei Dai, yang tampaknya memiliki kemiripan dengan konsepnya. Satoshi menanggapi dengan berterima kasih atas petunjuk tersebut dan menyatakan bahwa "ide-ide saya berawal persis dari titik itu." Adam Back juga menyebutkan keberadaan MicroMint, tetapi Satoshi tidak menanggapi.
 
-Keesokan harinya, pada tanggal 22 Agustus, Satoshi mengirim email kepada Wei Dai mengatakan dia "sedang bersiap untuk merilis sebuah makalah yang mengembangkan ide-ide Anda menjadi sistem kerja yang lengkap" dan meminta tahun publikasi halaman b-money-nya untuk dirujuk dalam white paper. Seperti dalam pertukarannya dengan Adam Back, dia berbagi draf white paper dengan Wei Dai.
+Sehari setelahnya, pada 22 Agustus, Satoshi mengirimkan email kepada Wei Dai yang menyatakan bahwa ia "bersiap untuk merilis sebuah makalah yang mengembangkan ide-ide Anda menjadi sistem kerja yang lengkap" dan menanyakan tahun publikasi halaman b-money-nya untuk merujuknya dalam white paper. Seperti dalam percakapannya dengan Adam Back, ia membagikan draf white paper tersebut kepada Wei Dai.
 
-Meskipun ada interaksi ini, Adam Back dan Wei Dai tidak langsung tertarik dengan konsep Satoshi. Baru bertahun-tahun kemudian mereka akan kembali ke Bitcoin: Wei Dai pada 2010-2011 dan Adam Back pada 2013.
+Meskipun interaksi ini terjadi, Adam Back dan Wei Dai tidak langsung tertarik pada konsep Satoshi. Baru bertahun-tahun kemudian mereka akan kembali ke Bitcoin: Wei Dai pada tahun 2010-2011 dan Adam Back pada tahun 2013.
 
-Dari pihaknya, Satoshi menyelesaikan persiapan untuk membuat penemuannya menjadi publik. Pada tanggal 3 Oktober, dia menyelesaikan versi pertama dari white paper Bitcoin, sekarang dengan nama yang dipilih. Pada tanggal 5 Oktober, dia mendaftar di platform manajemen proyek SourceForge, di mana kode sumber perangkat lunak open-source akan dihosting dan dipelihara hingga 2011.
+Sementara itu, Satoshi menyelesaikan persiapan untuk mempublikasikan penemuannya. Pada 3 Oktober, ia menyelesaikan versi pertama white paper Bitcoin, dengan nama yang sudah terpilih. Pada 5 Oktober, ia mendaftar di platform manajemen proyek SourceForge, tempat kode sumber perangkat lunak open-source tersebut akan di-host dan dipelihara hingga tahun 2011.
 
 ### Publikasi white paper
 

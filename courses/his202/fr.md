@@ -595,7 +595,7 @@ Charlie Shrem, s'inscrit le 10 juin sur le forum avec le pseudonyme [Yankee](htt
 
 Charlie Shrem dans le Bitcoin Show : [24/11/2011](https://www.youtube.com/watch?v=PxMazut6-0U)
 
-![](bitinstant-howitworks-2012.png)
+![Capture du site de BitInstant, 26 janvier 2012](assets/en/bitinstant-howitworks-2012.webp)
 
 Capture du 26 janvier 2012 (source : [archive de Bitinstant.com](https://web.archive.org/web/20120126191036/https://bitinstant.com/))
 
@@ -607,7 +607,7 @@ EDB : En parallèle se développe un service nommé BitInstant aux États-Unis,
 
 En 2012, l'équipe est [composée](https://web.archive.org/web/20120626114419/https://www.bitinstant.com/aboutus) de quatre personnes : Gareth Nelson, Charlie Shrem, Erik Voorhees, Roger Ver. [photos](https://web.archive.org/web/20130118073422/https://www.bitinstant.com/aboutus)
 
-![Erik Voorhees, Charlie Shrem et Ira Miller dans les locaux de BitInstant en février 2012](bitinstant-2012-02-brian-patrick-eha.webp)
+![Erik Voorhees, Charlie Shrem et Ira Miller dans les locaux de BitInstant en février 2012](assets/en/bitinstant-2012-02-brian-patrick-eha.webp)
 
 Erik Voorhees, Charlie Shrem et Ira Miller dans les locaux de BitInstant en février 2012 (source : Brian Patrick Eha pour [Fortune](https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/))
 

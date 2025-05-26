@@ -2508,13 +2508,32 @@ Nous arrivons au terme de ce chapitre consacré aux bonnes pratiques à adopter 
 ## Communiquer sans se faire écouter
 <chapterId>e60773c6-ee96-47b2-a9fa-08d1bdbd1108</chapterId>
 
-Applications de messagerie : comparaison, usage recommandé.  
-Fonctionnement des SMS, risques associés.
+Dans le monde connecté d’aujourd’hui, une partie importante de nos échanges personnels, professionnels ou sensibles s'effectue via des messageries électroniques. Or, la confidentialité de ces communications est très variable en fonction des protocoles utilisés.
 
+Dans ce chapitre, nous allons tenter de comprendre les enjeux techniques et pratiques liés à l’utilisation des outils de communication numérique, afin de choisir et d’utiliser ceux qui assurent une réelle protection contre l’écoute et la surveillance.
 
+### Pourquoi les SMS ne protègent pas vos échanges ?
 
+Les SMS (*Short Message Service*) sont historiquement très populaires pour les échanges de textes, mais ils sont basés sur un protocole obsolète datant de la fin des années 1980. Ce protocole, intégré dans les standards GSM (*Global System for Mobile communications*), ne prévoit aucun mécanisme de chiffrement de bout en bout. En pratique, chaque SMS envoyé transite en clair sur les réseaux d’opérateurs mobiles (parfois chiffré uniquement sur l’interface radio, mais jamais de bout en bout). Cela signifie que le contenu du message peut être intercepté à plusieurs niveaux : 
+- par l’opérateur,
+- par un acteur malveillant qui intercepte le trafic mobile (notamment via des IMSI Catchers),
+- ou par des organismes gouvernementaux qui disposeraient d’accès légaux ou illégaux aux infrastructures réseau.
 
+Le stockage des SMS sur des serveurs centraux des opérateurs, ainsi que la faiblesse du système d’authentification (le numéro de téléphone en tant qu’identifiant unique), rend les messages facilement usurpables et vulnérables aux attaques. Les SMS sont donc totalement inadapté pour transmettre des informations, que ce soit dans un cadre personnel, professionnel ou critique.
 
+Ces limitations s’appliquent également aux MMS (*Multimedia Messaging Service*), qui repose sur les mêmes fondations techniques, avec en plus une exposition du contenu multimédia (photos, vidéos).
+
+Depuis quelques années, certains opérateurs et constructeurs ont introduit RCS (*Rich Communication Services*), une évolution technique des SMS. RCS permet l’envoi de messages enrichis (images, vidéos, accusés de réception...) et intègre un chiffrement en transit (TLS), mais celui-ci reste dépendant des serveurs d’opérateurs et ne garantit pas le chiffrement de bout en bout dans tous les cas. De plus, la fragmentation de sa mise en œuvre entre opérateurs et constructeurs (par exemple entre Android et iOS) limite son adoption et sa fiabilité réelle.
+
+Depuis 2021, Google Messages adopte le protocole Signal afin de garantir un chiffrement de bout en bout, mais cette fonctionnalité n’est accessible que si les deux interlocuteurs utilisent Google Messages.
+
+En mars 2025, la GSM Association a publié l’*Universal Profile 3.0* (UP 3.0), qui établit enfin un standard d’interopérabilité pour le chiffrement de bout en bout (E2EE) dans RCS. Ainsi, lorsque l’échange se fait via un client RCS compatible UP 3.0, le contenu devient illisible tant pour l’opérateur que pour un IMSI-catcher. Google et Apple ont d’ailleurs annoncé leur intention de prendre en charge cette technologie (reste à savoir si tout cela sera interopérable). Toutefois, si l’un des appareils n’est pas compatible RCS UP 3.0 ou en cas d’absence de connectivité IP, la communication bascule automatiquement vers les SMS classiques non chiffrés, ce qui rend l’interception triviale.
+
+Du côté d’Apple, iMessage (lancé en 2011) propose un chiffrement de bout en bout natif entre utilisateurs Apple, mais ce protocole reste fermé et limité à l’écosystème iOS/macOS. Lors d’échanges avec des utilisateurs hors de cet écosystème, le message repasse par le protocole classique, et perd ainsi toute confidentialité. Le chiffrement peut également être rompu si vous ou votre interlocuteur sauvegardez vos messages dans iCloud sans l'option *Advanced Data Protection*.
+
+En résumé, ni les SMS classiques, ni les MMS, ni même le RCS standard ne peuvent être considérés comme des solutions fiables et universelles pour préserver la confidentialité des échanges. Seules l’utilisation de Google Messages, iMessage ou du futur protocole RCS UP 3.0 garantissent une confidentialité satisfaisante, à condition que les deux interlocuteurs adoptent le même protocole de chiffrement. Et c’est précisément là que réside le principal écueil des SMS au sens large : cette application de messagerie préinstallée sur la majorité des téléphones regroupe des protocoles radicalement différents, et si votre interlocuteur ne prend en charge que le protocole SMS, votre message sera transmis en clair, sans forcément que vous ne vous en rendiez compte. C’est pourquoi, tant qu’un standard universel et rigoureux de chiffrement de bout en bout n’est pas mis en place, je vous déconseille fortement d’utiliser les messages classiques, car vous restez bien trop tributaire du choix de protocole de votre interlocuteur pour garantir votre propre sécurité.
+
+Au lieu des SMS, je vous conseille plutôt d'utiliser des applications de messagerie dédiées qui utilisent un chiffrement de bout en bout robuste et transparent, qui permettent une communication réellement sécurisée et privée.
 
 
 

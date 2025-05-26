@@ -729,14 +729,14 @@ Descrivi un metodo per generare chiavi e uno schema per assicurarle, insieme ai 
 
 <chapterId>1bbece7e-0197-57e6-a93a-561cf384d946</chapterId>
 
-Quando un amministratore del server provvede a configurare una nuova istanza di BTCPay Server, può impostare un'implementazione della rete Lightning, LND, Core Lightning o Eclair; vedi Parte Configurazione di BTCPay Server per istruzioni di installazione più dettagliate.
+Quando un amministratore del server provvede a configurare una nuova istanza di BTCPay Server, può impostare un'implementazione della rete Lightning, LND, Core Lightning o Eclair; vedi la Parte "Configurazione di BTCPay Server" per istruzioni di installazione più dettagliate.
 Collegare un nodo Lightning al proprio BTCPay Server funziona tramite un nodo personalizzato. Un utente che non è un amministratore del server, su BTCPay Server, non sarà in grado di utilizzare il nodo Lightning interno per impostazione predefinita. Ciò serve a proteggere il proprietario del server dalla perdita dei suoi fondi. Gli amministratori del server possono installare un Plugin per dare accesso al loro nodo Lightning tramite LNBank; ciò è al di fuori dell'ambito di questo corso; per maggiori informazioni su LNBank, consultare la pagina ufficiale del plugin.
 
 ### Collegare il nodo interno (amministratore del server)
 
 L'amministratore del server può utilizzare il nodo Lightning interno di BTCPay Server. Indipendentemente dall'implementazione di Lightning, il collegamento al nodo Lightning interno è lo stesso.
 
-Andare in un negozio configurato in precedenza e cliccare sul wallet "Lightning" nel menu a sinistra. BTCPay Server offre due possibilità di configurazione, utilizzando il nodo interno (solo amministratore del server per impostazione predefinita) o un nodo personalizzato (collegamento esterno). Gli amministratori del server possono cliccare sull'opzione "Usa nodo interno". Non è richiesta ulteriore configurazione. Cliccare sul pulsante "salva"  e controllare la notifica che indica "Nodo Lightning BTC aggiornato". Il negozio ha ora ottenuto con successo le capacità alla rete Lightning.
+Andare in un negozio configurato in precedenza e cliccare sul wallet "Lightning" nel menu a sinistra. BTCPay Server offre due possibilità di configurazione, utilizzando il nodo interno (solo l'amministratore del server, per impostazione predefinita) o un nodo personalizzato (collegamento esterno). Gli amministratori del server possono cliccare sull'opzione "Usa nodo interno". Non è richiesta ulteriore configurazione. Cliccare sul pulsante "salva"  e controllare la notifica che indica "Nodo Lightning BTC aggiornato". Il negozio ha ora ottenuto con successo le capacità alla rete Lightning.
 
 ### Collegare il nodo esterno (utente del server/proprietario del negozio)
 
@@ -754,11 +754,11 @@ BTCPay Server richiede informazioni di connessione; le soluzioni precedenti (o d
 
 ![immagine](assets/en/31.webp)
 
-Cliccare su "testa connessione" per assicurarsi di aver inserito correttamente i dettagli della connessione. Dopo che la connessione risulta essere buona, cliccare su salva, e BTCPay Server mostra che il negozio è aggiornato con un Nodo Lightning.
+Cliccare su "testa connessione" per assicurarsi di aver inserito correttamente i dettagli della connessione. Dopo che la connessione risulta essere buona, cliccare su salva, e BTCPay Server mostrerà che il negozio è aggiornato con un Nodo Lightning.
 
 ### Gestione del nodo Lightning interno LND (Amministratore del server)
 
-Dopo aver collegato il nodo Lightning interno, gli amministratori del server noteranno nuove tessere sulla Dashboard specificamente per le informazioni Lightning.
+Dopo aver collegato il nodo Lightning interno, gli amministratori del server noteranno nuove funzioni sulla Dashboard specificamente per le informazioni Lightning.
 
 - Saldo Lightning
 - BTC nei canali
@@ -773,16 +773,16 @@ Dopo aver collegato il nodo Lightning interno, gli amministratori del server not
 - Servizi Lightning
   - Ride the Lightning (RTL).
 
-Cliccando sia sul logo di Ride the Lightning nella tessera "Servizi Lightning" sia su "Lightning" sotto i wallet nel menu a sinistra, gli amministratori del server possono accedere a RTL per la gestione del nodo Lightning.
+Cliccando sia sul logo di Ride the Lightning nella funzione "Servizi Lightning" sia su "Lightning" sotto i wallet nel menu a sinistra, gli amministratori del server possono accedere a RTL per la gestione del nodo Lightning.
 
 **!Nota!**
 
-Se il collegamento al nodo Lightning interno fallisce - Se la connessione interna fallisce, confermare:
+Se il collegamento al nodo Lightning interno fallisce - Se la connessione interna fallisce, verificare che:
 
-1. Che il nodo Bitcoin on-chain sia completamente sincronizzato
-2. Che il nodo Lightning interno sia "Abilitato" in "Lightning" > "Impostazioni" > "Impostazioni Lightning BTC"
+1. Il nodo Bitcoin on-chain sia completamente sincronizzato
+2. Il nodo Lightning interno sia "Abilitato" in "Lightning" > "Impostazioni" > "Impostazioni Lightning BTC"
 
-Se non riesci a connetterti al tuo nodo Lightning, prova a riavviare il server o leggi maggiori dettagli sulla documentazione ufficiale di BTCPay Server; https://docs.btcpayserver.org/Troubleshooting/ . Non potrai accettare pagamenti Lightning nel tuo negozio fino a quando il tuo nodo Lightning non risulterà "Online". Prova a testare la tua connessione Lightning cliccando sul link "Informazioni Nodo Pubblico".
+Se non riesci a connetterti al tuo nodo Lightning, prova a riavviare il server o leggi maggiori dettagli sulla documentazione ufficiale di BTCPay Server; https://docs.btcpayserver.org/Troubleshooting/. Non potrai accettare pagamenti Lightning nel tuo negozio fino a quando il tuo nodo Lightning non risulterà "Online". Prova a testare la tua connessione Lightning cliccando sul link "Informazioni Nodo Pubblico".
 
 ### Lightning wallet
 
@@ -815,13 +815,13 @@ Dopo aver aggiunto il nodo Lightning al negozio in una fase precedente, all'inte
 I proprietari dei negozi possono impostare parametri per migliorare l'esperienza Lightning per i loro clienti.
 
 - Mostrare gli importi dei pagamenti Lightning in satoshi.
-- Aggiungere suggerimenti di hop per canali privati alla fattura Lightning.
+- Aggiungere suggerimenti di hop per canali privati all'invoice Lightning.
 - Unificare URL/QR code di pagamento on-chain e Lightning al checkout.
 - Impostare un modello di descrizione per le invoice Lightning.
 
 #### LNURL
 
-I proprietari dei negozi possono scegliere di utilizzare o meno LNURL. Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 prefissato con lnurl. Si prevede che il Lightning wallet decodifichi l'URL, contatti l'URL e attenda un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
+I proprietari dei negozi possono scegliere di utilizzare o meno LNURL. Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 con il prefisso "lnurl". Il Lightning wallet dovrebbe decodificare l'URL, contattando l'URL in attesa di un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
 
 - Abilitare LNURL
 - Modalità LNURL Classica
@@ -838,7 +838,7 @@ Come amministratore, clicca su Lightning wallet nella barra del menu a sinistra.
 
 #### Gestire il tuo nodo Lightning (RTL)
 
-Dopo essersi connessi al nodo lightning interno, BTCPay Server si aggiornerà e mostrerà una notifica "Nodo Lightning BTC aggiornato", confermando che ora hai collegato Lightning al tuo negozio.
+Dopo essersi connessi al nodo Lightning interno, BTCPay Server si aggiornerà e mostrerà una notifica "Nodo Lightning BTC aggiornato", confermando che ora hai collegato Lightning al tuo negozio.
 
 Gestire il nodo Lightning è un compito per l'Amministratore del server. Questo comporta:
 
@@ -854,7 +854,7 @@ Gestire il nodo Lightning è un compito per l'Amministratore del server. Questo 
 - Controllare i rapporti di routing.
 - In alternativa, utilizzare servizi come Loop.
 
-Tutta la gestione dei nodi Lightning viene effettuata in modo standard con RTL (assumendo che si utilizzi un'implementazione LND). Gli amministratori possono cliccare sul loro Lightning Wallet in BTCPay Server e trovare un pulsante per aprire RTL. La Dashboard principale di BTCPay Server è ora aggiornata con le caselle di Lightning Network, inclusi accessi rapidi a RTL.
+Tutta la gestione dei nodi Lightning viene effettuata in modo standard con RTL (assumendo che si utilizzi un'implementazione LND). Gli amministratori possono cliccare sul loro Lightning Wallet in BTCPay Server e trovare un pulsante per aprire RTL. La Dashboard principale di BTCPay Server è ora aggiornata con le funzioni di Lightning Network, inclusi gli accessi rapidi a RTL.
 
 ### Esempio 2
 
@@ -884,14 +884,14 @@ Passo 4: Clicca su salva, e il tuo negozio è ora connesso con un nodo Lightning
 
 **!Nota!**
 
-Non affidare mai ad una soluzione Lightning custodital più di quanto sei disposto a perdere.
+Non affidare mai ad una soluzione Lightning custodital per un valore inferiore a quanto sei disposto a perdere.
 
 ### Riassunto delle Competenze
 
 In questa sezione hai imparato:
 
 - Come connettere un nodo Lightning interno o esterno
-- I contenuti e la funzione delle varie caselle relative a Lightning nella Dashboard
+- I contenuti e la funzione delle vari pulsanti relativi a Lightning nella Dashboard
 - Come configurare il Lightning wallet utilizzando Voltage Surge o Alby
 
 ### Valutazione della Conoscenza e della Revisione Pratica

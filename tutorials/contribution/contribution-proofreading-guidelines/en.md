@@ -39,13 +39,13 @@ Inside this new page, you will be able to find all the branches you opened, unde
 ![REVIEW](assets/en/3.webp)
 
 
-Then, you will get a pop-up where you need to inser the name of the new branch. In the case below, I chose to call it "BTC101-FR". This way, I will always remember that this specific branch needs to be used for the proofreading of the course BTC101 in French, and I will not use it for any other task.
+Then, you will get a pop-up where you need to insert the name of the new branch. In the case below, I chose to call it "BTC101-FR". This way, I will always remember that this specific branch needs to be used for the proofreading of the course BTC101 in French, and I will not use it for any other task.
 
 
 ![REVIEW](assets/en/4.webp)
 
 
-After creating this new branch, make sure to click on it from "Your Branches in the previous page" and start working on the *.md* file related to the specific content (in my case, I will click on the folder "courses", and the subfolder BTC101, to search for fr.md). All commits related to the specific file will have to be committed (saved) inside the same branch.
+After creating this new branch, make sure to click on it from "Your Branches in the previous page" and start working on the *.md* file related to the specific content (in my case, I will click on the folder "courses", and the sub-folder BTC101, to search for fr.md). All commits related to the specific file will have to be committed (saved) inside the same branch.
 
 ## Original language or translation?
 
@@ -53,15 +53,13 @@ When doing some proofreading of content, it's important to always check the orig
 
 Thus, feel free to make adjustments to the text and modify sentences, if needed. Our objective is to enhance fluidity, always following the overall original meaning Make sure to ask the coordinator if you have any doubts.
 
-Legend, from now on EN is English and LANG is the target language, es IT, etc...
-
 LLM tools may translate some words related to Bitcoin literally, like Lightning Network that would become "Rete Fulmine" in Italian, for example. 
 
-It is especially the case when it deals with very techical words. In cases like these, it is advisable to maintain the original English word on your target language for better clarity, unless your language rules impose you to translate every single word. In this second case, always do some research to see if someone else in your Bitcoin community has already translated that word and it is now broadly used. 
+It is especially the case when it deals with very technical words. In cases like these, it is advisable to maintain the original English word on your target language for better clarity, unless your language rules impose you to translate every single word. In this second case, always do some research to see if someone else in your Bitcoin community has already translated that word and it is now broadly used. 
 
 - One solution could be to check on [BitcoinWiki](https://en.bitcoin.it/wiki/Main_Page) in your target language to see if the word was translated or not. If it's not, you keep the word in English.
 
-- In any case, my advice would be to insert the EN word nonetheless, and then the corresponding meaning in the target language inside round parenthesis, following the scheme EN (LANG), or viceversa. Ex. Address (indirizzo) or indirizzo (address).
+- In any case, my advice would be to insert the EN word nonetheless, and then the corresponding meaning in the target language inside round parenthesis, following the scheme EN (LANG), or vice-versa. Ex. Address (indirizzo) or indirizzo (address).
 
 - Another good solution is to keep the EN original word/phrase, then create a hyperlink that redirects to the [glossary](https://planb.network/en/resources/glossary) on planb.network. To do this, you need to insert the word/phrase inside square brackets, and the link inside round parenthesis, like you can see in the example below: 
 
@@ -84,7 +82,7 @@ The same goes for "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", which should also be 
 
 ## The structure of headers
 
-In the markdown language, headers (and paragraph titles) all begin with the hash sign ``#`` . The number of hash signs used corresponds to the heading level. For example, a heading of level three has three number signs before the text (e.g., `### My Header`).
+In the markdown language, headers (and paragraph titles) all begin with the hash sign ``#``. The number of hash signs used corresponds to the heading level. For example, a heading of level three has three number signs before the text (e.g., `### My Header`).
 
 
 ![REVIEW](assets/en/6.webp)
@@ -93,7 +91,7 @@ Make sure to NEVER delete hash signs before a title, otherwise you will create i
 
 ## The initial section of courses
 
-At the beginning of any content, you will find the following static lowercase words: "name", "description", "objectives". They are used by the website to decode the content itself and are always left in EN. As a consequence, DO NOT translate them, otherwise the content will create syncronization issues. Make sure to only proofread the part after the colon, which is automatically translated by AI.
+At the beginning of any content, you will find the following static lowercase words: "name", "description", "objectives". They are used by the website to decode the content itself and are always left in EN. As a consequence, DO NOT translate them, otherwise the content will create synchronization issues. Make sure to only proofread the part after the colon, which is automatically translated by AI.
 
 
 ![REVIEW](assets/en/7.webp)
@@ -122,7 +120,7 @@ In this case, it's enough to just add two asterisks at the start of the word to 
 ![REVIEW](assets/en/10.webp)
 
 
-- The same issues may happen with symbols like $ and `` ` `. Make sure to check the original language file (ofter en or fr to see where these symbols are supposed to be).
+- The same issues may happen with symbols like $ and `` ` `. Make sure to check the original language file (often en or fr to see where these symbols are supposed to be).
 
 - If you find quotes, make sure to do some research online to find the right translation in your language. Quotes are usually inserted after the symbol ``>``.
 
@@ -141,7 +139,7 @@ If you need to search for specific words inside the text, you can click on CTRL+
 When using the "replace all" function, it's important to double-check the results to ensure that links haven't been altered as well. For instance, if you want to change the word "Bitcoin" to "Bitkoin" (which may be necessary in some languages), using the batch replace function can efficiently update all instances in the text. However, be aware that this tool will also modify any links containing the word, potentially leading to redirection issues.
 
 
-Another best practise when you finish your proofreading task and send the PR is to go back to the original issue opened by the coordinator, and comment with "Proofreading done". Make sure to insert your PR link there as well.
+Another best practice when you finish your proofreading task and send the PR is to go back to the original issue opened by the coordinator, and comment with "Proofreading done". Make sure to insert your PR link there as well.
 
 
 ## Conclusion

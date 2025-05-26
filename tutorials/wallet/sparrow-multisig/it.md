@@ -303,7 +303,7 @@ Una volta creato il Multisig Wallet, Sparrow fornisce automaticamente questo *De
 
 
 
-È quindi possibile stampare il PDF e copiarlo sulle chiavette USB.
+È quindi possibile stampare il PDF e copiarlo sulla tua chiavetta USB.
 
 
 
@@ -311,7 +311,7 @@ Una volta creato il Multisig Wallet, Sparrow fornisce automaticamente questo *De
 
 
 
-Registreremo anche questo *Descrittore* sul Coldcard (se ne usate uno nella vostra configurazione). Ciò consentirà al Coldcard di verificare che ogni transazione firmata in seguito corrisponda al Wallet originale: xpub corretto, formato Address corretto, percorso di derivazione corretto... Senza questo *Descrittore* importato, Coldcard non può confermare che gli indirizzi Exchange non siano stati dirottati o che il PSBT non sia stato manomesso.
+Registra anche questo *Descriptor* sul Coldcard (se ne usi uno nella tua configurazione). Ciò consentirà al Coldcard di verificare che ogni transazione firmata in seguito corrisponda al Wallet originale: xpub corretto, formato Address corretto, percorso di derivazione corretto... Senza questo *Descriptor* importato, Coldcard non può confermare che gli indirizzi Exchange non siano stati dirottati o che il PSBT non sia stato manomesso.
 
 
 
@@ -319,7 +319,7 @@ Questo è ciò che rende Coldcard così interessante in un Multisig: offre contr
 
 
 
-In Sparrow, accedere al menu "*Settings*", quindi fare clic su "*Export...*".
+In Sparrow, accedi al menu "*Settings*", quindi fai clic su "*Export...*".
 
 
 
@@ -327,7 +327,7 @@ In Sparrow, accedere al menu "*Settings*", quindi fare clic su "*Export...*".
 
 
 
-Accanto all'opzione "*Coldcard Multisig*", fare clic su "*Export file...*" e salvare il file di testo sulla scheda Micro SD.
+Accanto all'opzione "*Coldcard Multisig*", fai clic su "*Export file...*" e salva il file di testo sulla scheda Micro SD.
 
 
 
@@ -335,7 +335,7 @@ Accanto all'opzione "*Coldcard Multisig*", fare clic su "*Export file...*" e sal
 
 
 
-Inserire quindi la scheda nel Coldcard. Andare al menu "*Settings*", quindi "*Multisig Wallet*" e selezionare "*Import from SD*".
+Inserisci quindi la scheda nel Coldcard. Vai al menu "*Settings*", quindi "*Multisig Wallet*" e seleziona "*Import from SD*".
 
 
 
@@ -343,7 +343,7 @@ Inserire quindi la scheda nel Coldcard. Andare al menu "*Settings*", quindi "*Mu
 
 
 
-Selezionare il file appropriato e confermare l'importazione.
+Seleziona il file appropriato e conferma l'importazione.
 
 
 
@@ -351,7 +351,7 @@ Selezionare il file appropriato e confermare l'importazione.
 
 
 
-Fare clic sul nome del nuovo Multisig importato.
+Fai clic sul nome del nuovo Multisig importato.
 
 
 
@@ -359,7 +359,7 @@ Fare clic sul nome del nuovo Multisig importato.
 
 
 
-Controllare i parametri di configurazione del Multisig, quindi confermare la registrazione.
+Controlla i parametri di configurazione del Multisig, quindi conferma la registrazione.
 
 
 
@@ -367,31 +367,31 @@ Controllare i parametri di configurazione del Multisig, quindi confermare la reg
 
 
 
-Il Multisig è ora correttamente salvato sul Coldcard. Se si dispone di più Coldcard nello stesso Multisig, ripetere questa procedura per ciascuna di esse.
+Il Multisig è ora correttamente salvato sul Coldcard. Se disponi di più Coldcard nello stesso Multisig, ripeti questa procedura per ciascuna di esse.
 
 
 
-Oltre a salvare il *Descrittore*, non dimenticate di prestare particolare attenzione al salvataggio delle frasi Mnemonic per ciascuno dei vostri dispositivi di firma. Se siete alle prime armi, vi consiglio di consultare quest'altra guida per imparare a salvarle e gestirle correttamente:
+Oltre a salvare il *Descriptor*, non dimentica di prestare particolare attenzione al salvataggio delle frasi Mnemonic per ciascuno dei tuoi dispositivi di firma. Se sei alle prime armi, ti consiglio di consultare quest'altra guida per imparare a salvarle e gestirle correttamente:
 
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Prima di ricevere i primi Bitcoin sul Multisig, **vi consiglio vivamente di eseguire un test di ripristino a vuoto**. Annotare alcune informazioni di riferimento, come la prima ricezione dell'Address, quindi ripristinare gli Hardware Wallet mentre il Wallet è ancora vuoto. Successivamente, provare a ripristinare il Multisig Wallet sui portafogli Hardware utilizzando i backup cartacei della frase Mnemonic, mentre su Sparrow utilizzando il *Descrittore*. Verificare che il primo Address generato dopo il ripristino corrisponda a quello scritto originariamente. Se così fosse, si può essere certi che i backup cartacei sono affidabili.
+Quando ancora non hai ricevuto fondi sul Multisig, **ti consiglio vivamente di eseguire un test di ripristino con il wallet vuoto**. Annota alcune informazioni di riferimento, come il primo indirizzo di ricezione, quindi ripristina gli Hardware Wallet mentre il wallet è ancora vuoto. Successivamente, prova a ripristinare il Multisig Wallet sui portafogli Hardware utilizzando i backup cartacei della frase Mnemonic, mentre su Sparrow fai la stessa cosa utilizzando il *Descriptor*. Verifica che il primo indirizzo di ricezione generato dopo il ripristino corrisponda a quello scritto originariamente. Se così fosse, puoi essere certo che i backup cartacei sono affidabili.
 
 
 
-Per saperne di più su come eseguire un test di ripristino, vi suggerisco di consultare quest'altra guida:
+Per saperne di più su come eseguire un test di ripristino, ti suggerisco di consultare quest'altra guida:
 
 
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-## Ricevere Bitcoin sul vostro Multisig
+## Ricevere bitcoin sul tuo Multisig
 
 
 
-Il vostro Wallet è ora pronto a ricevere Bitcoin. In Sparrow, fare clic sulla scheda "*Receive*".
+Il tuo Wallet è ora pronto a ricevere bitcoin. In Sparrow, fai clic sulla scheda "*Receive*".
 
 
 
@@ -399,11 +399,11 @@ Il vostro Wallet è ora pronto a ricevere Bitcoin. In Sparrow, fare clic sulla s
 
 
 
-Prima di utilizzare l'Address generato da Sparrow Wallet, prendetevi il tempo di verificarlo direttamente sullo schermo dei vostri Hardware Wallet. In questo modo vi assicurerete che l'Address non sia stato alterato e che i vostri dispositivi possiedano le chiavi private necessarie per spendere i fondi associati. Questo aiuta a proteggersi da una serie di vettori di attacco.
+Prima di utilizzare l'Address, ovvero l'indirizzo di ricezione, generato da Sparrow Wallet, prenditi del tempo per verificarlo direttamente sullo schermo dei tuoi Hardware Wallet. Questo ti assicurerà che l'Address non è stato alterato e che i tuoi dispositivi possiedono le chiavi private necessarie per spendere i fondi associati. Questo aiuta a proteggerti da una serie di vettori di attacco.
 
 
 
-A tal fine, fare clic su "*Display Address*" per visualizzare l'Address sul Trezor o sul Ledger, se collegato via cavo.
+A tal fine, fai clic su "*Display Address*" per visualizzare l'Address sul Trezor o sul Ledger, se collegato via cavo.
 
 
 
@@ -411,7 +411,7 @@ A tal fine, fare clic su "*Display Address*" per visualizzare l'Address sul Trez
 
 
 
-Con Coldcard, questa verifica può essere effettuata senza alcuna interazione con Sparrow. È sufficiente aprire il menu "*Address Explorer*" e selezionare il proprio Multisig in basso.
+Con Coldcard, questa verifica può essere effettuata senza alcuna interazione con Sparrow. Semplicemente apri il menu "*Address Explorer*" e seleziona il tuo Multisig in basso.
 
 
 
@@ -419,7 +419,7 @@ Con Coldcard, questa verifica può essere effettuata senza alcuna interazione co
 
 
 
-Si vedranno quindi gli indirizzi di ricezione generati dal Multisig.
+Vedrai quindi gli indirizzi di ricezione generati dal Multisig.
 
 
 
@@ -427,11 +427,11 @@ Si vedranno quindi gli indirizzi di ricezione generati dal Multisig.
 
 
 
-Verificare che l'Address visualizzato su ogni Hardware Wallet corrisponda esattamente a quello del Wallet di Sparrow. È consigliabile eseguire questa operazione appena prima di condividere l'Address con il pagatore, per essere sicuri della sua integrità.
+Verifica che l'Address visualizzato su ogni Hardware Wallet corrisponda esattamente a quello del Wallet di Sparrow. Ti consiglio di eseguire questa operazione prima di condividere l'Address con il pagatore, per essere sicuro della sua integrità.
 
 
 
-È quindi possibile assegnare un "Label" (etichetta) a questo Address, per indicare l'origine dei Bitcoin ricevuti. Questo è un buon modo per organizzare la gestione dei vostri UTXO.
+Puoi quindi assegnare una "Etichetta"  a questo Address, per indicare l'origine dei bitcoin ricevuti. Questo è un buon modo per organizzare la gestione dei tuoi UTXO.
 
 
 
@@ -439,7 +439,7 @@ Verificare che l'Address visualizzato su ogni Hardware Wallet corrisponda esatta
 
 
 
-Una volta verificato, è possibile utilizzare l'Address per ricevere Bitcoin.
+Una volta verificato, puoi utilizzare l'Address per ricevere bitcoin.
 
 
 
@@ -447,11 +447,11 @@ Una volta verificato, è possibile utilizzare l'Address per ricevere Bitcoin.
 
 
 
-## Inviare Bitcoin con il vostro Multisig
+## Inviare bitcoin con il tuo Multisig
 
 
 
-Ora che avete ricevuto i primi Sats sul vostro Multisig Wallet, potete anche spenderli! In Sparrow, vai alla scheda "*Send*" per creare una nuova transazione.
+Ora che hai ricevuto i primi Sats sul tuo Multisig Wallet, puoi anche spenderli! Su Sparrow, vai alla scheda "*Send*" per creare una nuova transazione.
 
 
 
@@ -459,7 +459,7 @@ Ora che avete ricevuto i primi Sats sul vostro Multisig Wallet, potete anche spe
 
 
 
-Se si desidera utilizzare il *Coin Control*, ossia la selezione manualmente gli UTXO da spendere, andare alla scheda "*UTXO*". Scegliete gli UTXO che desiderate spendere, quindi cliccate su "*Send Selected*". Si verrà automaticamente reindirizzati alla scheda "*Send*", con gli UTXO già precompilati.
+Se vuoi utilizzare il *Coin Control*, ossia la selezione manuale degli UTXO da spendere, vai sulla scheda "*UTXO*". Scegli gli UTXO che desideri spendere, quindi clicca su "*Send Selected*". Verrai automaticamente reindirizzato sulla scheda "*Send*", con gli UTXO già selezionati.
 
 
 
@@ -467,7 +467,7 @@ Se si desidera utilizzare il *Coin Control*, ossia la selezione manualmente gli 
 
 
 
-Inserire la destinazione dell'Address. È possibile aggiungere più indirizzi facendo clic su "*+ Aggiungi*".
+Inserisci l'indirizzo di destinazione. Puoi aggiungere più indirizzi facendo clic su "*+ Aggiungi*".
 
 
 
@@ -475,7 +475,7 @@ Inserire la destinazione dell'Address. È possibile aggiungere più indirizzi fa
 
 
 
-Aggiungere una "*Label*" (Etichetta) per descrivere lo scopo di questa spesa, così da facilitare la tracciabilità delle transazioni.
+Aggiungi una "*Etichetta*" per descrivere lo scopo di questa transazione, così da facilitarne la tracciabilità.
 
 
 
@@ -483,7 +483,7 @@ Aggiungere una "*Label*" (Etichetta) per descrivere lo scopo di questa spesa, co
 
 
 
-Inserire l'importo da inviare all'Address selezionato.
+Inserisci l'importo da inviare all'Address selezionato.
 
 
 
@@ -491,11 +491,11 @@ Inserire l'importo da inviare all'Address selezionato.
 
 
 
-Regolare la quantità di fees in base alle condizioni attuali della rete. Ad esempio, consultare [Mempool.space](https://Mempool.space/) per selezionare una fee adeguata.
+Regola la quantità di fees in base alle condizioni attuali della rete. Ad esempio, consulta [Mempool.space](https://Mempool.space/) per selezionare una fee adeguata.
 
 
 
-Dopo aver controllato tutti i parametri della transazione, fare clic su "*Create Transaction*".
+Dopo aver controllato tutti i parametri della transazione, fai clic su "*Create Transaction*".
 
 
 
@@ -503,7 +503,7 @@ Dopo aver controllato tutti i parametri della transazione, fare clic su "*Create
 
 
 
-Se siete soddisfatti di tutto, fate clic su "*Finalize Transaction for Signing*".
+Se sei soddisfatto di tutto, fai clic su "*Finalize Transaction for Signing*".
 
 
 
@@ -511,7 +511,7 @@ Se siete soddisfatti di tutto, fate clic su "*Finalize Transaction for Signing*"
 
 
 
-Nella parte inferiore dello schermo, vedrete che Sparrow è in attesa di 2 firme. Questo è normale: il Wallet usato qui è un Multisig 2-di-3.
+Nella parte inferiore dello schermo, vedrai che Sparrow è in attesa di 2 firme. Questo è normale: il Wallet usato qui è un Multisig 2-di-3.
 
 
 
@@ -519,7 +519,7 @@ Nella parte inferiore dello schermo, vedrete che Sparrow è in attesa di 2 firme
 
 
 
-Inizio a firmare con il mio Coldcard. A tal fine, inserisco una scheda Micro SD nel computer, quindi faccio clic su "*Save Transaction*".
+Inizia a firmare con il tuo Coldcard. A tal fine, inserisci una scheda Micro SD nel computer, quindi fai clic su "*Save Transaction*".
 
 
 
@@ -527,11 +527,11 @@ Inizio a firmare con il mio Coldcard. A tal fine, inserisco una scheda Micro SD 
 
 
 
-Esistono 3 modi per trasmettere la transazione dal firmare all'Hardware Wallet e poi recuperarla da Sparrow. Il primo è utilizzare una scheda Micro SD, come faremo qui per Coldcard. Il secondo è tramite una connessione via cavo, che utilizzeremo per la seconda firma (Ledger e Trezor). Infine, è possibile utilizzare la comunicazione tramite codice QR, per i dispositivi dotati di fotocamera come Coldcard Q, Jade Plus o Passport V2.
+Esistono 3 modi per trasmettere la transazione da firmare all'Hardware Wallet e poi recuperarla da Sparrow. Il primo è utilizzare una scheda Micro SD, come vedrai qui con Coldcard. Il secondo è tramite una connessione via cavo, che utilizzerai per la seconda firma (Ledger e Trezor). Infine, puoi utilizzare la comunicazione tramite codice QR, per i dispositivi dotati di fotocamera come Coldcard Q, Jade Plus o Passport V2.
 
 
 
-Una volta salvato il PSBT (*Partially Signed Bitcoin Transaction*) sulla Micro SD, lo inserisco nel Coldcard MK3, quindi seleziono il menu "*Ready To Sign*".
+Una volta che hai salvato il PSBT (*Partially Signed Bitcoin Transaction*) sulla Micro SD, inseriscilo nel Coldcard MK3, quindi seleziona il menu "*Ready To Sign*".
 
 
 
@@ -539,7 +539,7 @@ Una volta salvato il PSBT (*Partially Signed Bitcoin Transaction*) sulla Micro S
 
 
 
-Sullo schermo dell'Hardware Wallet, controllare attentamente i parametri della transazione: l'Address del destinatario, l'importo inviato e le spese. Una volta confermata la transazione, convalidare per procedere alla firma.
+Sullo schermo dell'Hardware Wallet, controlla attentamente i parametri della transazione: l'Address del destinatario, l'importo inviato e le fees. Una volta confermata la transazione, convalida per procedere alla firma.
 
 
 
@@ -547,7 +547,7 @@ Sullo schermo dell'Hardware Wallet, controllare attentamente i parametri della t
 
 
 
-Riportare quindi la Micro SD sul computer e fare clic su "*Load Transaction*" su Sparrow. Selezionate il PSBT firmato su Coldcard dai vostri file.
+Quindi torna al tuo computer con la Micro SD e su Sparrow clicca su "*Load Transaction*". Seleziona il PSBT firmato su Coldcard dai tuoi file.
 
 
 
@@ -555,7 +555,7 @@ Riportare quindi la Micro SD sul computer e fare clic su "*Load Transaction*" su
 
 
 
-Si può notare che la firma Coldcard è stata aggiunta. Ora utilizzerò un secondo dispositivo, in questo caso il Ledger, per eseguire la seconda firma richiesta. Lo collego, lo sblocco e poi faccio clic su "*Sign*" su Sparrow.
+Puoi vedere che la firma Coldcard è stata aggiunta. Devi ora usare un secondo dispositivo, in questo esempio il Ledger, per eseguire la seconda firma richiesta. Collegalo, sbloccalo e poi fai clic su "*Sign*" su Sparrow.
 
 
 
@@ -563,7 +563,7 @@ Si può notare che la firma Coldcard è stata aggiunta. Ora utilizzerò un secon
 
 
 
-Fare clic su "*Sign*" accanto al nome del proprio Hardware Wallet.
+Fai clic su "*Sign*" accanto al nome del proprio Hardware Wallet.
 
 
 
@@ -571,7 +571,7 @@ Fare clic su "*Sign*" accanto al nome del proprio Hardware Wallet.
 
 
 
-La prima volta che si utilizza Ledger con questo Multisig, Sparrow chiederà di verificare le chiavi pubbliche estese (xpub) dei cofirmatari. Come nel caso di Coldcard, questo passaggio impedisce di firmare alla cieca in seguito. Per convalidare queste informazioni, confrontare le xpub visualizzate sullo schermo del Ledger con quelle fornite direttamente dagli altri Hardware Wallet.
+La prima volta che usi Ledger con questo Multisig, Sparrow chiederà di verificare le chiavi pubbliche estese (xpub) dei cofirmatari. Come nel caso di Coldcard, questo passaggio impedisce di firmare alla cieca in seguito. Per convalidare queste informazioni, confronta le xpub visualizzate sullo schermo del Ledger con quelle fornite direttamente dagli altri Hardware Wallet.
 
 
 
@@ -579,7 +579,7 @@ La prima volta che si utilizza Ledger con questo Multisig, Sparrow chiederà di 
 
 
 
-Controllare l'Address del destinatario, l'importo trasferito e la tariffa della transazione, quindi firmare la transazione.
+Controlla l'Address del destinatario, l'importo trasferito e la fee della transazione, quindi firma la transazione.
 
 
 
@@ -587,7 +587,7 @@ Controllare l'Address del destinatario, l'importo trasferito e la tariffa della 
 
 
 
-Toccare sullo schermo per firmare.
+Tocca sullo schermo per firmare.
 
 
 
@@ -595,7 +595,7 @@ Toccare sullo schermo per firmare.
 
 
 
-Sparrow dispone ora delle due firme necessarie per rilasciare i fondi dal portafoglio Multisig. Controllate la transazione un'ultima volta e, se tutto va bene, fate clic su "*Broadcast Transaction*" per trasmetterla in rete.
+Sparrow dispone ora delle due firme necessarie per rilasciare i fondi dal portafoglio Multisig. Controlla la transazione un'ultima volta e, se tutto va bene, fai clic su "*Broadcast Transaction*" per trasmetterla in rete.
 
 
 
@@ -611,11 +611,11 @@ Questa transazione si trova nella scheda "*Transactions*" di Sparrow Wallet.
 
 
 
-Congratulazioni, ora sapete come impostare e utilizzare un Wallet a firma multipla su Sparrow. Se avete trovato utile questa guida, vi sarei grato se lasciaste un pollice verde qui sotto. Non esitate a condividere questo articolo sui vostri social network. Grazie per la condivisione!
+Congratulazioni, ora sai come impostare e utilizzare un Wallet a firma multipla su Sparrow. Se hai trovato utile questa guida, ti sarei grato se lasciassi un pollice verde qui sotto. Non esitare a condividere questo articolo sui tuoi social network. Grazie per la condivisione!
 
 
 
-Per andare oltre, vi consiglio di consultare questo tutorial su un altro metodo per aumentare la sicurezza del vostro Bitcoin Wallet, il passphrase BIP39:
+Per andare avanti, ti consiglio di consultare questo tutorial su un altro metodo per aumentare la sicurezza del tuo Bitcoin Wallet, il passphrase BIP39:
 
 
 

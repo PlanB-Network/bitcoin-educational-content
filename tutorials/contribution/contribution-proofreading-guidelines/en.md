@@ -10,36 +10,42 @@ First of all, contributing to Plan ₿ Network [public repository](https://githu
 
 The present tutorial is dedicated to contributors who want to proofread content. Most of them don't know much about [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) or the [Markdown language](https://www.markdownguide.org/basic-syntax/)) we use on the repository, so it's important to share some insights on the things they need to pay attention to when doing this task.
 
-Before diving into the specifics, though, the first thing to do is read this tutorial on how to practically proofread on Github by forking our repository, committing changes and sending PRs:
+Before diving into the specifics, the first thing to do is read this tutorial on how to practically proofread on Github by forking our repository, committing changes and sending PRs:
 
 https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 
-The following list was created after analyzing the usual issues that.-....
+I created the following tutorial after gathering the most common issues that proofreaders encounter when executing their tasks. Feel free to suggest more, as it can help others improve.
 
 ## The first steps before proofreading
 
-Before starting a new proofreading, announce it in the [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or tell your Plan ₿ Network coordinator, who will open a dedicated [issue](https://github.com/orgs/PlanB-Network/projects/3). This system allows the coordinator to keep track of the progress inside the repo, and it allows the content to be "claimed" by the proofreader, preventing duplicate efforts by someone else. When you receive the issue link, simply comment that you are starting with the proofreading task of that content.
+Before starting a new proofreading task, announce it in the [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or tell your Plan ₿ Network coordinator, who will open a dedicated [issue](https://github.com/orgs/PlanB-Network/projects/3). This system allows the coordinator to keep track of the progress inside the repo, and it allows the content to be "claimed" by the proofreader, preventing duplicate efforts by someone else. When you receive the issue link, simply comment that you are starting with the proofreading task of that content.
 
 On the issue itself, you will find the links that take you directly to the content to check. You can directly click on them, or even better, you can go back to your own forked repo and work directly from there.
 
 First of all, ALWAYS remember to SYNC you repo, on the "dev" branch. This way, the content will always be updated before you start any type of task, and you will not create any conflicts between old and new material. Make sure to click on "Sync fork" and "update branch".
 
+
 ![REVIEW](assets/en/1.webp)
 
-After successfully syncing, you can directly access the content of interest and commit on a new branch, as shown in this [tutorial](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Otherwise, you can open a new branch where to work, by clicking on "Branches"
+
+After successfully syncing, you can directly access the content of interest and commit on a new branch, as shown in this [tutorial](https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6). Otherwise, you can open a new branch where to work, by clicking on "Branches".
+
 
 ![REVIEW](assets/en/2.webp)
+
 
 Inside this new page, you will be able to find all the branches you opened, under "Your Branches". This system is very useful because it allows you to easily find the place where you modified some content. To open a new branch, you can click on "New Branch" on the upper right.
 
 ![REVIEW](assets/en/3.webp)
 
+
 Then, you will get a pop-up where you need to inser the name of the new branch. In the case below, I chose to call it "BTC101-FR". This way, I will always remember that this specific branch needs to be used for the proofreading of the course BTC101 in French, and I will not use it for any other task.
+
 
 ![REVIEW](assets/en/4.webp)
 
-After creating this new branch, make sure to click on it from "Your Branches in the previous page" and start working on the *.md* file related to the specific content (in my case, I will click on the folder "courses", and the subfolder BTC101, to search for fr.md). All commits related to the specific file will have to be committed (saved) inside the same branch.
 
+After creating this new branch, make sure to click on it from "Your Branches in the previous page" and start working on the *.md* file related to the specific content (in my case, I will click on the folder "courses", and the subfolder BTC101, to search for fr.md). All commits related to the specific file will have to be committed (saved) inside the same branch.
 
 ## Original language or translation?
 
@@ -80,6 +86,7 @@ The same goes for "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", which should also be 
 
 In the markdown language, headers (and paragraph titles) all begin with the hash sign ``#`` . The number of hash signs used corresponds to the heading level. For example, a heading of level three has three number signs before the text (e.g., `### My Header`).
 
+
 ![REVIEW](assets/en/6.webp)
 
 Make sure to NEVER delete hash signs before a title, otherwise you will create issues with the structure of the text. At the same time, make sure not to change the chapterID part you can see in the image above: ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>``
@@ -88,9 +95,12 @@ Make sure to NEVER delete hash signs before a title, otherwise you will create i
 
 At the beginning of any content, you will find the following static lowercase words: "name", "description", "objectives". They are used by the website to decode the content itself and are always left in EN. As a consequence, DO NOT translate them, otherwise the content will create syncronization issues. Make sure to only proofread the part after the colon, which is automatically translated by AI.
 
+
 ![REVIEW](assets/en/7.webp)
 
+
 In this same initial section, keep the format as it is and don't add anything Don't add anything at the beginning of the text: Ex. avoid adding "tt" before the dashes, like in the image below!
+
 
 ![REVIEW](assets/en/8.webp)
 
@@ -101,29 +111,41 @@ Here below you can find a few examples of format issues to pay attention to when
 - Pay attention to weird punctuation like `\*\*\`, or ``**`` which might represent a bad rendering of the bold symbol. 
 
 	In the image below, you can see that the asterisks are only on the right of the word, which looks weird. Always check the original English text to see if a bold text is supposed to be there. In the original EN text, instead, we have this:
+	
 
 ![REVIEW](assets/en/9.webp)
 
+
 In this case, it's enough to just add two asterisks at the start of the word to make it show correctly on the website. In fact in the markdown language, to render the bold, you have to insert two asterisks ``**`` both before and after the word/sentence.
+
 
 ![REVIEW](assets/en/10.webp)
 
 
 - The same issues may happen with symbols like $ and `` ` `. Make sure to check the original language file (ofter en or fr to see where these symbols are supposed to be).
 
-- If you find quotes, make sure to do some research online to find the right translation in your language. Quotes are usually inserted after the symbol ``>``
+- If you find quotes, make sure to do some research online to find the right translation in your language. Quotes are usually inserted after the symbol ``>``.
+
 
 ![REVIEW](assets/en/11.webp)
 
-- Tables will not be translated anymore????
 
-### others
+## Other best practices
 
-- when they do batch change of words, re-check to make sure links are not messed up
-
-example image already screenshotted
+If you need to search for specific words inside the text, you can click on CTRL+F and the find-replace section will appear. This part is very useful when you need to jump to a specific part of the text, or you need to replace specific words/sentences in batch, without scrolling the full content.
 
 
-- Let us know if you find some reference to Decouvre Bitcoin which is the....
+![REVIEW](assets/en/12.webp)
 
-- When you finish your proofreading, you can go back to the original issue opened by the coordinator, comment with "Proofreading done", and insert your PR link there.
+
+When using the "replace all" function, it's important to double-check the results to ensure that links haven't been altered as well. For instance, if you want to change the word "Bitcoin" to "Bitkoin" (which may be necessary in some languages), using the batch replace function can efficiently update all instances in the text. However, be aware that this tool will also modify any links containing the word, potentially leading to redirection issues.
+
+
+Another best practise when you finish your proofreading task and send the PR is to go back to the original issue opened by the coordinator, and comment with "Proofreading done". Make sure to insert your PR link there as well.
+
+
+## Conclusion
+
+To sum up, being aware of the common mistakes proofreaders make can really help you improve your skills when checking content. It's easy to overlook things like context or consistency, so, catching these mistakes can make a big difference. Always keep in mind that a beginner may read these courses and tutorials, so it's our responsibility to ensure that they understand fully.
+
+Thank you for reading through this tutorial and enjoy your proofreading journey!

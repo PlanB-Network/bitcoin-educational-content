@@ -2469,74 +2469,39 @@ De plus, ces applications peuvent induire un faux sentiment de sécurité chez l
 
 Leur utilité réelle est donc très limitée, et ces applications sont parfois coûteuses, et consomment inutilement de la batterie et des ressources. Mieux vaut ne pas en utiliser, et simplement adopter les bonnes pratiques présentées dans ce chapitre.
 
+### Contrôler les connexions sortantes
 
+Il existe également des applications pare-feu pour smartphone, comme NetGuard ou RethinkDNS, qui agissent comme un pare-feu local directement sur votre appareil. Elles utilisent l’API VPN d’Android pour intercepter l’intégralité du trafic sortant, sans nécessiter d’accès root. 
 
+Concrètement, cela vous permet de bloquer individuellement l’accès à Internet pour certaines applications, ce qui réduit ainsi considérablement les risques de collecte de données indésirables ou de communications non autorisées.
 
+NetGuard, par exemple, vous permet de gérer application par application l’accès à internet, aussi bien en Wi-Fi qu’en données mobiles. RethinkDNS propose en plus des fonctionnalités avancées comme le filtrage DNS, le blocage de publicités et l’inspection des requêtes DNS pour détecter les fuites potentielles.
 
+146
 
+### Sauvegarde sécurisée et gestion en cas de perte
 
+#### Chiffrez vos sauvegardes
 
+La sauvegarde régulière des données de votre smartphone est très importante pour votre sécurité. Mais cette sauvegarde doit impérativement être chiffrée, afin d’éviter que vos données sensibles ne soient accessibles à quiconque mettrait la main sur votre support de sauvegarde. Cela concerne aussi bien les photos, documents que les données d’applications.
 
+Pour cela, privilégiez des solutions locales chiffrées, comme un disque externe ou une clé USB chiffrée (par exemple avec Veracrypt). À défaut, des solutions cloud auto-hébergées comme *Syncthing* ou *Nextcloud* permettent de sauvegarder vos données sur un serveur personnel, tout en conservant un contrôle total sur l’accès et la confidentialité. Contrairement aux services cloud commerciaux (Google Drive, iCloud...), ces solutions limitent considérablement l’exposition de vos informations à des tiers.
 
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
+#### Effacement à distance
 
+Un smartphone perdu ou volé peut devenir une véritable mine d’informations pour un attaquant : données personnelles, historiques de navigation, comptes connectés… Il peut donc être cohérent de configurer les fonctions natives de localisation, verrouillage et effacement à distance.
 
+Sous Android, vous pouvez utiliser *Find My Device* depuis les paramètres Google. Sur iOS, *Find My iPhone* joue le même rôle, accessible depuis iCloud. Ces outils permettent de verrouiller immédiatement l’accès, de faire sonner l’appareil pour le localiser, ou en dernier recours, d’effacer complètement les données à distance. Il existe également des services similaires gérées par les surcouches logicielles des fabriquant comme Samsung avec *SmartThings Find*.
 
+Cependant, ces fonctionnalités présentent des compromis importants : elles centralisent vos informations sensibles (géolocalisation, identifiants, accès à distance...) sur les serveurs d'une entreprise privée, et vous obligent à conserver la localisation activée.
 
+Si vous choisissez tout de même de les mettre en place, testez ces fonctionnalités à l’avance pour être sûr qu’elles fonctionneront correctement le jour où vous en aurez besoin.
 
+En alternative, si vous préférez ne pas utiliser ces services de contrôle à distance, je vous recommande vivement de sauvegarder régulièrement les données de votre téléphone afin d’éviter de les perdre en cas de vol ou de perte de l’appareil. Pour limiter le risque qu’un attaquant accède à vos informations, définissez un mot de passe fort pour le verrouillage de votre téléphone et pour votre carte SIM.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Mises à jour OS et applications.  
-Restrictions d’autorisations.  
-Accès et authentification (comparaison des méthodes de déverrouillage).  
-Cloisonnement (Shelter, Work Profile Android).
-
-
-
-
-
-
-
-
-
-
-
-
-
+Nous arrivons au terme de ce chapitre consacré aux bonnes pratiques à adopter avec votre smartphone. Dans le chapitre suivant, je vous propose de découvrir les solutions les plus adaptées pour communiquer de manière sécurisée et confidentielle depuis votre appareil, que ce soit pour passer des appels, échanger des messages ou gérer vos groupes de discussion.
 
 ## Communiquer sans se faire écouter
 <chapterId>e60773c6-ee96-47b2-a9fa-08d1bdbd1108</chapterId>

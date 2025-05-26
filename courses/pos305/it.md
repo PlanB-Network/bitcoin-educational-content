@@ -419,32 +419,33 @@ In questa sezione, hai imparato:
 
 ### Cosa comporta la generazione delle chiavi Bitcoin?
 
-Quando vengono creati, i wallet Bitcoin generano un cosiddetto "seed". Nell'ultimo obiettivo, hai creato un "seed", Le serie di parole generate in precedenza sono note anche come frasi mnemoniche. Il seed è utilizzato per derivare le singole Chiavi Bitcoin da esso. Le seed phrase non dovrebbero mai essere condivise con terze parti o peer non fidati.
-La generazione del seed avviene secondo lo standard industriale noto come framework "Hierarchical Deterministic" (HD).
+I wallet Bitcoin, quando vengono creati, generano un cosiddetto "seed", come abbiamo fatto nell'ultimo obiettivo. Le serie di parole generate in precedenza, che compongono parte del seed, sono note anche come mnemonic phrases (frasi mnemoniche). Il seed viene utilizzato per derivare singole chiavi Bitcoin e usato per inviare o ricevere Bitcoin. La seed phrase o mnemonic phrases non dovrebbero mai essere condivise con terze parti o peer non fidati.
+
+La generazione del seed avviene secondo lo standard di settore noto come framework "Hierarchical Deterministic" (HD).
 
 ![image](assets/en/15.webp)
 
 ### Indirizzi
 
-BTCPay Server è stato impostato per generare sempre un nuovo Indirizzo. Questo allevia il problema del riutilizzo della chiave pubblica o dell'Indirizzo. Usare la stessa chiave pubblica rende molto facile tracciare l'intera cronologia dei pagamenti. Pensare alle chiavi come a buoni monouso migliorerebbe significativamente la tua privacy. Usiamo anche gli Indirizzi Bitcoin, senza confonderli con le chiavi pubbliche.
+BTCPay Server è stato impostato per generare sempre un nuovo Indirizzo. Questo allevia il problema del riutilizzo della chiave pubblica o dell'Indirizzo, perchè usare la stessa chiave pubblica rende molto facile tracciare l'intera cronologia dei pagamenti. Pensare alle chiavi pubbliche come a buoni monouso per migliorare significativamente la tua privacy e usiamo  gli Indirizzi Bitcoin, senza confonderli con le chiavi pubbliche.
 
-Un Indirizzo viene derivato dalla chiave pubblica attraverso un "algoritmo di hashing". La maggior parte dei wallet e delle transazioni, tuttavia, mostrerà gli Indirizzi piuttosto che quelle chiavi pubbliche. Gli Indirizzi sono, in generale, più corti delle chiavi pubbliche e di solito iniziano con `1`, `3`, o `bc1`, mentre le chiavi pubbliche iniziano con `02`, `03`, o `04`.
+Un Indirizzo viene derivato dalla chiave pubblica attraverso un "algoritmo di hashing". La maggior parte dei wallet e delle transazioni, tuttavia, mostrerà gli Indirizzi piuttosto che le relative chiavi pubbliche. Gli Indirizzi sono, in generale, più corti delle chiavi pubbliche e di solito iniziano con `1`, `3`, o `bc1`, mentre le chiavi pubbliche iniziano con `02`, `03`, o `04`.
 
-- Gli indirizzi che iniziano con `1.....` sono ancora indirizzi molto comuni. Come menzionato nel capitolo Creazione di un nuovo negozio, questi sono indirizzi legacy. Questo tipo di indirizzo è destinato alle transazioni P2PKH. P2PKH utilizza la codifica Base58, che rende l'indirizzo sensibile al maiuscolo/minuscolo. La sua struttura si basa sulla chiave pubblica con un ulteriore cifra come identificatore.
+- Gli indirizzi che iniziano con `1.....` sono ancora indirizzi molto comuni. Come menzionato nel capitolo Creazione di un nuovo negozio, questi sono indirizzi legacy. Questo tipo di indirizzo è destinato alle transazioni P2PKH in cui si utilizza la codifica Base58, che rende l'indirizzo sensibile al maiuscolo/minuscolo. La sua struttura si basa sulla chiave pubblica con un ulteriore cifra come identificatore.
 
 - Gli indirizzi che iniziano con `bc1...` stanno lentamente diventando indirizzi molto comuni. Sono noti come indirizzi SegWit (nativi). Offrono una struttura di commissioni migliore rispetto agli altri indirizzi menzionati. Gli indirizzi SegWit nativi utilizzano la codifica Bech32 e consentono solo lettere minuscole.
 
-- Gli indirizzi che iniziano con `3...` sono comunemente ancora utilizzati dagli exchange per gli indirizzi di deposito. Questi indirizzi sono menzionati nel capitolo Creazione di un nuovo negozio, indirizzi SegWit avvolti o nidificati. Tuttavia, potrebbero anche funzionare come "Indirizzo Multisig". Quando utilizzati come indirizzo SegWit, si risparmia nuovamente sulle commissioni di transazione, anche se meno rispetto a SegWit nativo. Gli indirizzi P2SH utilizzano la codifica Base58. Ciò li rende sensibili al maiuscolo/minuscolo, come l'indirizzo legacy.
+- Gli indirizzi che iniziano con `3...` sono comunemente ancora utilizzati dagli exchange per gli indirizzi di deposito. Questi indirizzi sono menzionati nel capitolo Creazione di un nuovo negozio, indirizzi SegWit wrapped (avvolti) o nested (nidificati). Tuttavia, potrebbero anche funzionare come "Indirizzo Multisig". Quando utilizzati come indirizzo SegWit, possono portare a risparmia nuovamente sulle commissioni di transazione, anche se meno rispetto agli indirizzi SegWit nativi. Gli indirizzi P2SH utilizzano la codifica Base58 e per questo sono sensibili al maiuscolo/minuscolo, come per gli indirizzi legacy.
 
-- Gli indirizzi che iniziano con `2...` sono indirizzi Testnet. Sono destinati a ricevere bitcoin testnet (tBTC): non dovresti mai confonderli e inviare Bitcoin a questi indirizzi. Per scopi di sviluppo, puoi generare un wallet testnet e ottenere Bitcoin testnet da molteplici faucet online, ma non acquistare mai Bitcoin testnet. I Bitcoin testnet sono minati. Questo, invece, potrebbe essere un motivo per uno sviluppatore di utilizzare Regtest. Si tratta di un ambiente in cui gli sviluppatori effettuano varie prove, poiché privo di alcuni componenti di rete. Bitcoin è molto utile per scopi di sviluppo.
+- Gli indirizzi che iniziano con `2...` sono indirizzi Testnet e sono destinati a ricevere bitcoin testnet (tBTC). Non dovresti mai confondere questi indirizzi con quelli precedenti e inviarci dei bitcoin. Per scopi di sviluppo, puoi generare un wallet testnet e ottenere bitcoin testnet da molteplici faucet online per questo non dovresti acquistare mai bitcoin testnet. I Bitcoin testnet sono anch'essi minati, per questo motivo per uno sviluppatore potrebbe essere più efficiente utilizzare Regtest. Quest'ultima è un ambiente di sviluppo locale in cui gli sviluppatori effettuano varie prove, poiché privo di alcuni componenti di rete. Il protocollo Bitcoin ha molte utilità per scopi di sviluppo.
 
 ### Chiavi Pubbliche
 
-Le chiavi pubbliche sono meno utilizzate nella pratica oggi. Nel tempo, gli utenti di bitcoin le hanno sostituite con gli Indirizzi. Esistono ancora e vengono ancora utilizzate occasionalmente. Le chiavi pubbliche sono, in generale, stringhe molto più lunghe degli indirizzi. Come con gli indirizzi, iniziano con un identificatore specifico.
+Le chiavi pubbliche sono meno utilizzate nella pratica oggi. Nel tempo, gli utenti di Bitcoin le hanno sostituite con gli Indirizzi, ma esistono e vengono ancora utilizzate occasionalmente. Le chiavi pubbliche sono, in generale, stringhe molto più lunghe degli indirizzi e come gli indirizzi, iniziano con un identificatore specifico.
 
-- Prima di tutto, `02...` e `03...` sono identificatori di molte chiavi pubbliche standard, codificati in formato SEC. Questi possono essere elaborati e trasformati in indirizzi per ricevere, utilizzati per creare indirizzi multi-sig o per verificare una firma. Le transazioni Bitcoin dei primi giorni utilizzavano chiavi pubbliche come parte delle transazioni P2PK.
+- Per prima cosa, `02...` e `03...` sono identificatori di molte chiavi pubbliche standard, codificati in formato SEC. Queste possono essere elaborate e trasformati in indirizzi per ricevere, utilizzate per creare indirizzi multi-sig o per verificare una firma. Le transazioni Bitcoin dei primi giorni utilizzavano chiavi pubbliche come parte delle transazioni P2PK.
 
-- Tuttavia, i wallet HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` sono chiamate chiavi pubbliche estese, meglio note come xpubs. Queste chiavi vengono utilizzate per derivare molte chiavi pubbliche poiché fanno parte del wallet HD. Poiché la tuo xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
+- Tuttavia, i wallet HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` le quali sono chiamate chiavi pubbliche estese, meglio note come xpub. Queste chiavi vengono utilizzate per derivare tutte le chiavi pubbliche poiché fanno parte del wallet HD. Poiché la tua xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
 
 ### Riepilogo delle Competenze
 

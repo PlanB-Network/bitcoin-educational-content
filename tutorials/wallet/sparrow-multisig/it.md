@@ -6,11 +6,11 @@ Description: Creare un wallet multi-firma su Sparrow
 
 
 
-Un wallet multi-firma (spesso chiamato "*Multisig*") è un contratto Bitcoin che richiede più firme crittografiche, da chiavi diverse, per autorizzare una spesa. A differenza di un wallet convenzionale ("*singlesig*"), dove una singola chiave privata è sufficiente per sbloccare un UTXO, il Multisig si basa su un modello **m-di-n**: delle _n_ chiavi associate al wallet, _m_ devono imperativamente co-firmare ogni transazione.
+Un wallet multi-firma (spesso chiamato "*Multisig*") è un contratto Bitcoin che richiede più firme crittografiche, da chiavi diverse, per autorizzare una spesa. A differenza di un wallet convenzionale ("*singlesig*"), dove una singola chiave privata è sufficiente per sbloccare un [UTXO](https://planb.network/resources/glossary/utxo), il Multisig si basa su un modello **m-di-n**: delle _n_ chiavi associate al wallet, _m_ devono imperativamente co-firmare ogni transazione.
 
 
 
-Questo meccanismo consente di condividere il controllo di un wallet tra più entità o dispositivi. Ad esempio, in una configurazione 2 su 3, vengono generate tre serie di chiavi indipendenti, ma solo due sono necessarie per sbloccare i fondi. Questa architettura riduce drasticamente i rischi associati alla compromissione o alla perdita di una chiave: un ladro che ha accesso a una sola chiave non può svuotare il wallet, e un utente che ne perde una può comunque accedere ai suoi fondi con le altre due.
+Questo meccanismo consente di suddividere il controllo di un wallet tra più entità o dispositivi. Ad esempio, in una configurazione 2 su 3, vengono generate tre serie di chiavi indipendenti, ma solo due sono necessarie per sbloccare i fondi. Questa architettura riduce drasticamente i rischi associati alla compromissione o alla perdita di una chiave: un ladro che ha accesso a una sola chiave non può svuotare il wallet, e un utente che ne perde una può comunque accedere ai suoi fondi con le altre due.
 
 
 
@@ -58,7 +58,7 @@ In questa esercitazione ti mostrerò come creare un Multisig con [Sparrow](https
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Per configurare un wallet multi-firma, sono necessari diversi hardware wallet. Per un Multisig 2-di-3, ad esempio, si possono utilizzare:
 
@@ -75,7 +75,7 @@ Per configurare un wallet multi-firma, sono necessari diversi hardware wallet. P
 
 
 
-È una buona idea utilizzare diverse marche di Hardware Wallet nella configurazione Multisig. In questo modo si garantisce che se un modello specifico presenta un problema grave, questo non influisce sulla sicurezza complessiva del Multisig. Inoltre, ciò consente di beneficiare dei vantaggi specifici di ciascun dispositivo. Ad esempio, nella mia configurazione:
+È una buona idea utilizzare diverse marche di Hardware Wallet nella configurazione Multisig. In questo modo hai la garanzia che se un modello specifico presenta un problema grave, questo non influisce sulla sicurezza complessiva del Multisig. Inoltre, ciò ti consente di beneficiare dei vantaggi specifici di ciascun dispositivo. Ad esempio, nella mia configurazione:
 
 
 
@@ -139,7 +139,7 @@ Nel menu a discesa "*Policy Type*", seleziona l'opzione "*Multi Signature*".
 
 
 
-Nell'angolo in alto a destra è possibile definire il numero totale di chiavi nel Multisig e il numero di cofirmatari necessari per autorizzare una transazione. Nel mio esempio, si tratta di uno schema 2 di 3.
+Nell'angolo in alto a destra puoi definire il numero totale di chiavi nel Multisig e il numero di cofirmatari necessari per autorizzare una transazione. Nel mio esempio, si tratta di uno schema 2 di 3.
 
 
 
@@ -151,7 +151,7 @@ Nella parte inferiore della finestra, Sparrow visualizza tre "*Keystore*". Ognun
 
 
 
-Inizio con la Coldcard. Nella scheda "*Keystore 1*", scelgo l'opzione "*Airgapped Hardware Wallet*".
+Inizio con il Coldcard. Nella scheda "*Keystore 1*", scelgo l'opzione "*Airgapped Hardware Wallet*".
 
 
 
@@ -291,7 +291,7 @@ Questo *Descriptor* non contiene chiavi private, ma solo chiavi pubbliche. Ciò 
 
 
 
-Consiglio vivamente di creare diverse copie di questo *Descriptor* e di conservarle con ciascun dispositivo di firma del Multisig. Ad esempio, nel mio caso, stampo il *Descriptor* su carta e ne conservo una copia nello stesso luogo dove riponi il Coldcard, un'altra insieme al Trezor e una insieme al Ledger. Inoltre, salvo questo *Descriptor* in formato PDF su tre chiavette USB, ognuna delle quali viene conservata con uno degli Hardware Wallet. In questo modo, massimizzo le possibilità di non perdere mai questo *Descrittore* e sono sicuro di avere due copie (una fisica e una digitale) con ogni dispositivo.
+Ti consiglio vivamente di creare diverse copie di questo *Descriptor* e di conservarle con ciascun dispositivo di firma del Multisig. Ad esempio, nel mio caso, stampo il *Descriptor* su carta e ne conservo una copia nello stesso luogo dove ripongo il Coldcard, un'altra insieme al Trezor e una insieme al Ledger. Inoltre, salvo questo *Descriptor* in formato PDF su tre chiavette USB, ognuna delle quali viene conservata con uno degli Hardware Wallet. In questo modo, massimizzo le possibilità di non perdere mai questo *Descriptor* e sono sicuro di avere due copie (una fisica e una digitale) con ogni dispositivo.
 
 
 
@@ -311,7 +311,7 @@ Una volta creato il Multisig Wallet, Sparrow fornisce automaticamente questo *De
 
 
 
-Registra anche questo *Descriptor* sul Coldcard (se ne usi uno nella tua configurazione). Ciò consentirà al Coldcard di verificare che ogni transazione firmata in seguito corrisponda al Wallet originale: xpub corretto, formato Address corretto, percorso di derivazione corretto... Senza questo *Descriptor* importato, Coldcard non può confermare che gli indirizzi Exchange non siano stati dirottati o che il PSBT non sia stato manomesso.
+Registra anche questo *Descriptor* sul Coldcard (se ne usi uno nella tua configurazione). Ciò consentirà al Coldcard di verificare che ogni transazione firmata in seguito corrisponda al Wallet originale: xpub corretto, formato Address corretto, percorso di derivazione corretto... Senza questo *Descriptor* importato, Coldcard non può confermare che gli indirizzi Exchange non siano stati dirottati o che il PSBT (Partially Signed Bitcoin Transaction) non sia stato manomesso.
 
 
 
@@ -371,7 +371,7 @@ Il Multisig è ora correttamente salvato sul Coldcard. Se disponi di più Coldca
 
 
 
-Oltre a salvare il *Descriptor*, non dimentica di prestare particolare attenzione al salvataggio delle frasi Mnemonic per ciascuno dei tuoi dispositivi di firma. Se sei alle prime armi, ti consiglio di consultare quest'altra guida per imparare a salvarle e gestirle correttamente:
+Oltre a salvare il *Descriptor*, non dimenticare di prestare particolare attenzione al salvataggio delle frasi Mnemonic per ciascuno dei tuoi dispositivi di firma. Se sei alle prime armi, ti consiglio di consultare quest'altra guida per imparare a salvarle e gestirle correttamente:
 
 
 

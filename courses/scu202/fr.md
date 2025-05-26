@@ -2413,11 +2413,11 @@ Comme nous l'avons vu dans les chapitres précédents, le cloisonnement est une 
 
 Le *Work Profile* est une fonctionnalité native d’Android (depuis Android 5.0), qui permet de créer une partition logicielle distincte à l’intérieur d'un même smartphone. Concrètement, ce profil fonctionne comme un conteneur isolé : les applications, les comptes et les données stockées dans cet espace ne peuvent pas interagir avec celles du profil personnel. Cette séparation empêche donc les fuites de données entre les espaces et limite les droits d’accès des applications. Cette fonctionnalité est souvent gérée en interne dans les entreprises, mais il existe également des moyens pour l'utiliser de manière personnelle pour isoler des applications. 
 
-143
+![Image](assets/fr/143.webp)
 
 L’outil Shelter est une application open-source qui exploite cette fonction *Work Profile* du système Android pour offrir aux utilisateurs non professionnels un moyen simple de créer un environnement isolé. Shelter peut être utilisé pour installer et exécuter des applications sensibles dans un espace protégé, ce qui réduit considérablement l’exposition de ces applications aux autres logiciels installés sur le téléphone.
 
-144
+![Image](assets/fr/144.webp)
 
 #### Utiliser plusieurs téléphones distincts
 
@@ -2451,7 +2451,7 @@ Pour limiter ces risques, désactivez systématiquement ces fonctionnalités lor
 
 Les smartphones échangent en permanence avec les antennes-relais des opérateurs téléphoniques. Cette communication peut être détournée par certains dispositifs *IMSI Catchers*, qui simulent des antennes-relais pour intercepter vos données mobiles. Ces attaques permettent à un tiers d’identifier votre appareil, de suivre vos déplacements et dans certains cas, d’intercepter appels et messages.
 
-145
+![Image](assets/fr/145.webp)
 
 Certaines applications, comme SnoopSnitch sur Android, peuvent détecter des comportements suspects dans vos échanges avec le réseau. Ces outils analysent les métadonnées des communications mobiles et peuvent vous alerter en cas de modification de la configuration radio ou de comportement anormal, ce qui renforce ainsi votre vigilance face aux tentatives d’interception.
 
@@ -2477,7 +2477,7 @@ Concrètement, cela vous permet de bloquer individuellement l’accès à Intern
 
 NetGuard, par exemple, vous permet de gérer application par application l’accès à internet, aussi bien en Wi-Fi qu’en données mobiles. RethinkDNS propose en plus des fonctionnalités avancées comme le filtrage DNS, le blocage de publicités et l’inspection des requêtes DNS pour détecter les fuites potentielles.
 
-146
+![Image](assets/fr/146.webp)
 
 ### Sauvegarde sécurisée et gestion en cas de perte
 
@@ -2494,6 +2494,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 Un smartphone perdu ou volé peut devenir une véritable mine d’informations pour un attaquant : données personnelles, historiques de navigation, comptes connectés… Il peut donc être cohérent de configurer les fonctions natives de localisation, verrouillage et effacement à distance.
 
 Sous Android, vous pouvez utiliser *Find My Device* depuis les paramètres Google. Sur iOS, *Find My iPhone* joue le même rôle, accessible depuis iCloud. Ces outils permettent de verrouiller immédiatement l’accès, de faire sonner l’appareil pour le localiser, ou en dernier recours, d’effacer complètement les données à distance. Il existe également des services similaires gérées par les surcouches logicielles des fabriquant comme Samsung avec *SmartThings Find*.
+
+![Image](assets/fr/147.webp)
 
 Cependant, ces fonctionnalités présentent des compromis importants : elles centralisent vos informations sensibles (géolocalisation, identifiants, accès à distance...) sur les serveurs d'une entreprise privée, et vous obligent à conserver la localisation activée.
 

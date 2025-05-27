@@ -1,11 +1,11 @@
 ---
-name: Bitcoin för företag
-goal: Lär dig grunderna i betalning och treasury för att introducera ditt företag till Bitcoin
-objectives: 
+namn: Bitcoin för företag
+mål: Lär dig grunderna i betalning och finansiell förvaltning för att introducera ditt företag till Bitcoin
+objektiv: 
 
-  - Bitcoin som en ny valuta och ett affärsverktyg
-  - Förstå varför och hur ett företag kan hålla Bitcoin i kassan eller använda det för betalningar
-  - Ha en konkret idé om hur du ska acceptera Bitcoin-betalning i praktiken
+  - Bitcoin som en växande valuta och ett affärsverktyg
+  - Förstå varför och hur ett företag kan inneha Bitcoin i förvaltning eller använda det för betalningar
+  - Få en konkret idé om hur du ska acceptera Bitcoin-betalningar i praktiken
   - Vara förberedd på att hantera skatte- och redovisningskrav
 
 ---

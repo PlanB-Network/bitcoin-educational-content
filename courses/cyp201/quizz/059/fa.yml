@@ -1,0 +1,9 @@
+question: نقش seed در یک Bitcoin HD Wallet چیست؟
+answer: برای خدمت به عنوان نقطه شروع برای استخراج تمام کلیدها
+wrong_answers:
+  - ذخیره تراکنش‌های Wallet
+  - مستقیماً generate کلید عمومی اصلی
+  - اطمینان از محرمانگی تراکنش
+explanation: |
+  seed یک دنباله 512 بیتی است که از عبارت Mnemonic و passphrase مشتق شده است. این دنباله پایه و اساس تمام کلیدهای Wallet را تشکیل می‌دهد.
+reviewed: false

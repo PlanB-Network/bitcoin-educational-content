@@ -1,0 +1,9 @@
+question: رویدادی که در آن پاداش برای تراکنش‌های Mining Bitcoin نصف می‌شود، چه نام دارد؟
+answer: Halving
+wrong_answers:
+  - دو برابر کردن
+  - چهار بخش کردن
+  - سه‌برابر کردن
+explanation: |
+  کاهش برنامه‌ریزی‌شده پاداش‌های Mining، Halving هر چهار سال یک‌بار، رویدادی است که به عنوان Halving شناخته می‌شود.
+reviewed: true

@@ -1,0 +1,9 @@
+question: عملکرد اصلی یک Lightning Invoice چیست؟
+answer: درخواست پرداخت از گره ارسال‌کننده
+wrong_answers:
+  - ارسال وجوه بدون تراکنش On-Chain
+  - فعال‌سازی HTLCها بر روی یک کانال
+  - یک کانال لایتنینگ جدید باز کنید
+explanation: |
+  یک درخواست پرداخت Lightning Invoice، توسط نود دریافت‌کننده به نود ارسال‌کننده منتقل می‌شود تا یک پرداخت روی Lightning Network را آغاز کند.
+reviewed: false

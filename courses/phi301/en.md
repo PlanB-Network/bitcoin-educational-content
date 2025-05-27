@@ -50,7 +50,7 @@ There are two major aspects of decentralization in Bitcoin: miner decentralizati
 
 Miner decentralization refers to the fact that transaction processing isn't performed nor coordinated by any central entity. Full node decentralization refers to the fact that validation of the blocks, i.e. the data that miners output, gets done at the edge of the network, ultimately by its users, and not by a few trusted authorities.
 
-![](assets/decentralization-banner.jpg)
+![](assets/decentralization-banner.webp)
 
 ### Miner decentralization
 
@@ -163,7 +163,7 @@ The way Bitcoin works through decentralization resembles the extraordinary colle
 
 She points out that many systems, either natural or artificial, can and do work without leaders, and they are powerful and resilient. Each individual only interacts with their immediate surroundings, but together they form something tremendous.
 
-![](assets/fishschool.jpg)
+![](assets/fishschool.webp)
 *Fish schools have no leaders*
 
 No matter what you think about Bitcoin, its decentralized nature makes it difficult to control. Bitcoin exists, and there's nothing you can do about it. It's something to be studied, not debated.
@@ -180,7 +180,7 @@ Decentralized systems can be hard to wrap your head around, but there are some m
 <chapterId>0506ba61-16a3-543c-95fa-3f3e2dd64121</chapterId>
 
 
-![](assets/trustlessness-banner.jpg)
+![](assets/trustlessness-banner.webp)
 
 This chapter dissects the concept of trustlessness, what it means from a computer science perspective, and why Bitcoin has to be trustless to retain its value proposition. 
 We then talk about what it means to use Bitcoin in a trustless way, and what kind of guarantees a full node can and cannot give you. 
@@ -230,7 +230,7 @@ Bitcoin's trustlessness is absolutely imperative from a system perspective. In 2
 The essence of that talk is that you can't build trustless systems on top of a trusted system, but you can build trusted systems - for example, a custodial wallet - on top of a trustless system.
 
 
-![width=50%](assets/trust.png)
+![width=50%](assets/trust.webp)
 
 A trustless base layer allows for various trade-offs on higher levels
 
@@ -287,7 +287,7 @@ Without trustlessness, we can't have decentralizaion, because trust inevitebly i
 <chapterId>1b960afe-0008-589b-b2f4-007d60d264c6</chapterId>
 
 
-![](assets/privacy-banner.jpg)
+![](assets/privacy-banner.webp)
 
 This chapter deals with how to keep your private financial information to yourself. It explains what privacy stands for in the context of Bitcoin, why it's important, and what it means to say that Bitcoin is pseudonymous. It also looks into how private data can leak, both on-chain and off-chain. 
 
@@ -344,7 +344,7 @@ Satoshi Nakamoto ponders over on-chain privacy in section 7 of his [Bitcoin whit
 
 The paper summarizes the main problems of blockchain privacy, namely address reuse and address clustering. The first is self-explaining, the latter refers to the ability to decide, with some level of certainty, that a set of different addresses belongs to the same user.
 
-![](assets/address-reuse-clustering.png)
+![](assets/address-reuse-clustering.webp)
 
 Typical privacy leaks on the blockchain
 
@@ -412,7 +412,7 @@ He also mentioned this example, among others, on the [Privacy page](https://en.b
 
 Note how better privacy can be achieved by building systems on top of Bitcoin, as is the case with Lightning Network:
 
-![image](assets/privacy.png)
+![image](assets/privacy.webp)
 
 Layers on top of Bitcoin can add privacy
 
@@ -441,7 +441,7 @@ To get decent privacy in Bitcoin, you have to take active measures, some of whic
 <chapterId>af125ba2-ef98-5905-8895-41a538fe5ea5</chapterId>
 
 
-![](assets/finitesupply-banner.jpg)
+![](assets/finitesupply-banner.webp)
 
 This chapter looks into the bitcoin supply limit of 21 million BTC, or how much is it actually? We talk about how this limit is enforced and what one can do to verify that it's being respected. Moreover, we take a peek into the crystal ball and discuss the dynamics that will come into play when the block reward shifts from subsidy-based to fee-based.
 
@@ -483,7 +483,7 @@ What happens when the block subsidy approaches zero? To keep things simple, let'
 
 Today, it is holders who pay for security (via monetary inflation). Tomorrow it will be the spenders' turn to somehow shoulder this burden, as illustrated below.
 
-![image](assets/finitesupply.png)
+![image](assets/finitesupply.webp)
 
 As time goes by, the bearing of security costs will shift from holders to spenders
 
@@ -520,7 +520,7 @@ Whether the bitcoin supply will grow past 21 million we cannot say today, and th
 <chapterId>3ffa84d1-adfa-5fbc-9b13-384ea783fcdd</chapterId>
 
 
-![](assets/upgrading-banner.jpg)
+![](assets/upgrading-banner.webp)
 
 Upgrading Bitcoin in a safe way can be extremely difficult. Some changes take several years to roll out. In this chapter, we learn about the common vocabulary around upgrading Bitcoin, and explore some examples of historic upgrades to its protocol as well as the insights that we gained from them. Finally, we talk about chain splits and the risks and costs related to them.
 
@@ -692,7 +692,7 @@ To keep Bitcoin in harmony, soft forks have proven to be the way forward, but th
 ## Adversarial thinking
 <chapterId>d4982f3d-4694-51cc-99be-28f54b03a2a2</chapterId>
 
-![](assets/adversarialthinking-banner.jpg)
+![](assets/adversarialthinking-banner.webp)
 
 This chapter addresses *adversarial thinking*, a mindset that focuses on what could go wrong and how adversaries might act. We start out by discussing Bitcoin's security assumptions and security model, after which we explain how ordinary users can improve their self-sovereignty and Bitcoin's full node decentralization by thinking adversarially. Then, we look into some actual threats to Bitcoin as well as into the adversary's mind. Lastly, we talk about the *axiom of resistance* which can help you understand why people are working on Bitcoin in the first place.
 
@@ -744,7 +744,7 @@ The above are examples of real threats that need to be taken care of.
 
 ### Simple Sabotage Field
 
-![](assets/sabotage-manual.png)
+![](assets/sabotage-manual.webp)
 
 Excerpt from the Simple Sabotage Field Manual
 
@@ -779,7 +779,7 @@ To keep Bitcoin safe you need to know its enemies and their incentives. Most of 
 <chapterId>427a160c-f893-5b2c-afba-7b24e71ba899</chapterId>
 
 
-![](assets/opensource-banner.jpg)
+![](assets/opensource-banner.webp)
 
 Bitcoin is built using open source software. In this chapter we analyze what this means, how maintenance of the software works, and how open source software in Bitcoin allows for permissionless development. We dip our toes into *selection cryptography*, which deals with the selection and use of libraries in cryptographic systems. The chapter includes a section about Bitcoin's review process, followed by another one on the ways Bitcoin developers get funded. The last section talks about how Bitcoin's open source culture can look really weird from the outside, and why this perceived weirdness is really a sign of good health.
 
@@ -984,7 +984,7 @@ The development process around Bitcoin is radically open, which can make Bitcoin
 <chapterId>bb3f3924-202c-5cdd-b2e9-e0c1cab0e48e</chapterId>
 
 
-![](assets/scaling-banner.jpg)
+![](assets/scaling-banner.webp)
 
 
 In this chapter, we explore how Bitcoin does and does not scale. We start by looking at how people have reasoned about scaling in the past. Then, the bulk of this chapter explains various approaches to scaling Bitcoin, specifically vertical, horizontal, inward, and layered scaling. Each description is followed by considerations over whether the approach interferes with Bitcoin's value proposition.
@@ -1085,7 +1085,7 @@ An approach that gets far too little appreciation is what we can call *inward sc
 
 The improvements that have been achieved through inward scaling are impressive, to say the least. To give you a general idea of the improvements over the years, Jameson Lopp [has run benchmark tests](https://blog.lopp.net/bitcoin-core-performance-evolution/) on blockchain synchronization, comparing many different versions of Bitcoin Core going back to version 0.8.
 
-![](assets/Bitcoin-Core-Sync-Performance-1.png)
+![](assets/Bitcoin-Core-Sync-Performance-1.webp)
 
 Initial block download performance of various versions of Bitcoin Core. On the Y-axis is the block height synced and on the X-axis is the time it took to sync to that height
 
@@ -1095,7 +1095,7 @@ The improvements could be categorized as either saving space (RAM, disk, bandwid
 
 A good example of computational improvement can be found in the [libsecp256k1](https://github.com/bitcoin-core/secp256k1) library, which, among other things, implements the cryptographic primitives needed to make and verify digital signatures. Pieter Wuille is one of the contributors to this library, and he wrote a [Twitter thread](https://twitter.com/pwuille/status/1450471673321381896) showcasing the performance improvements achieved through various pull requests.
 
-![](assets/libsecp256k1speedups.png)
+![](assets/libsecp256k1speedups.webp)
 
 Performance of signature verification over time, with significant pull requests marked on the timeline
 
@@ -1104,7 +1104,7 @@ The graph shows the trend for two different 64-bit CPU types, namely ARM and x86
 There are also several good examples of space-saving improvements that contributed to performance enhancement. In a
 [Medium blog post](https://murchandamus.medium.com/2-of-3-multisig-inputs-using-pay-to-taproot-d5faf2312ba3) about Taproot's contribution to saving space, user Murch compares how much block space a 2-of-3 threshold signature would require, using Taproot in various ways as well as not using it at all. 
 
-![](assets/murch-taproot.png)
+![](assets/murch-taproot.webp)
 
 Space savings for different spending types, Taproot and legacy versions.
 
@@ -1114,13 +1114,13 @@ Apart from inward scaling in Bitcoin software, there are some ways in which user
 
 The idea with transaction batching is to combine multiple payments into one single transaction, instead of making one transaction per payment. This can save you a lot of fees, and at the same time reduce the block space load.
 
-![](assets/tx-batching.png)
+![](assets/tx-batching.webp)
 
 Transaction batching combines multiple payments into a single transaction to save on fees.
 
 Output consolidation refers to taking advantage of periods of low demand for block space to combine multiple outputs into a single output. This can reduce your fee cost later, when you'll need to make a payment while the demand for block space is high.
 
-![](assets/utxo-consolidation.png)
+![](assets/utxo-consolidation.webp)
 
 Output consolidation: Melt your coins into one big coin when fees are low to save fees later.
 
@@ -1135,7 +1135,7 @@ The most impactful approach to scaling is probably layering. The general idea be
 
 A layered protocol begins with two or more people agreeing on a start transaction that's put on the blockchain, as illustrated in the below figure.
 
-![](assets/scaling-layer.png)
+![](assets/scaling-layer.webp)
 A typical layer 2 protocol on top of Bitcoin, layer 1.
 
 How this start transaction is created varies between protocols, but a common theme is that the participants create an unsigned start transaction and a number of pre-signed punishment transactions, that spend the output of the start transaction in various ways. Subsequently, the start transaction is fully signed and published to the blockchain, and the punishment transactions can be fully signed and published to punish a misbehaving party. This incentivizes the participants to keep their promises so that the protocol can work in a trustless way.
@@ -1172,7 +1172,7 @@ We know today that Bitcoin doesn't scale well vertically ("buy bigger hardware")
 <chapterId>fe39c13c-310f-51fd-84ff-6b92dd01c9e7</chapterId>
 
 
-![](assets/shtf-banner.jpg)
+![](assets/shtf-banner.webp)
  Bitcoin is built by people. People write the software, and people then run this software. When a security vulnerability or a severe bug is discovered - is there really a distinction between the two? - it's always discovered by people, flesh and blood. This chapter contemplates what people do, should, and shouldn't do when shit hits the fan. The first section explains the term *responsible disclosure*, which refers to how someone who discovers a vulnerability can act responsibly to help minimize the damage from it. The rest of the chapter takes you on a tour through some of the most severe vulnerabilities discovered over the years, and how they were handled by developers, miners, and users. Things were not as rigorous in Bitcoin's early childhood as they are today.
 
 ### Responsible disclosure
@@ -1425,7 +1425,7 @@ The full disclosure of this issue was published on July 28 2015 by Pieter Wuille
 
 The email further lays out the details about how the issue got discovered and more exactly what caused it. At the end, he submits a timeline of the events, and we will replay some of the most important ones here. Some of them have, as illustrated by figure above, already been described.
 
-![](assets/bip66-timeline-1.png)
+![](assets/bip66-timeline-1.webp)
 
 Timeline of events surrounding BIP66. Items in black have been explained above.
 
@@ -1453,7 +1453,7 @@ These events might give you the impression that Gregory Maxwell knew about the v
 
 Then, as proposed by Maxwell, BIP66 was created as a subset of BIP62 that specified only strict DER encoding. This BIP was apparently broadly accepted and deployed in July, albeit two blockchain splits ironically occurred due to *validationless mining*. These splits are discussed in the next section.
 
-![](assets/bip66-timeline-2.png)
+![](assets/bip66-timeline-2.webp)
 
 A key takeaway from this is that BIPs should be more or less *atomic*, meaning that they should be complete enough to provide something useful or solve a specific problem, but small enough to allow for broad support among users. The more stuff you put into a BIP, the smaller the chance of acceptance.
 
@@ -1468,7 +1468,7 @@ The alert page instructed people to wait for 30 additional confirmations than th
 
 The split mentioned above occurred on 2015-07-04 at 02:10 UTC after block height [363730](https://mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). This issue got resolved at 03:50 the same day, after 6 invalid blocks had been mined. Unfortunately, the same issue happened again the next day, i.e. on 2015-07-05 at 21:50, but this time the invalid branch only lasted 3 blocks.
 
-![](assets/bip66-timeline-3.png)
+![](assets/bip66-timeline-3.webp)
  The events that led up to BIP66, its deployment, and the aftermath are a very good case study for how careful Bitcoin developers have to be. A few key takeaways from BIP66:
 
 - The balance between openness and not publishing a vulnerability is a delicate one.

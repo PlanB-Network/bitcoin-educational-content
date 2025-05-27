@@ -352,7 +352,7 @@ Cette famille se construit autour du gestionnaire de paquets APT et du format de
 
 ![Image](assets/fr/044.webp)
 
-Ubuntu, dérivée directement de Debian, popularise Linux par sa simplicité d’installation et d'utilisation. Ubuntu possède de nombreuses variantes officielles comme Kubuntu (environnement KDE) et Xubuntu (XFCE). D’autres distributions notables basées sur Debian sont Linux Mint (également dérivée d’Ubuntu), Kali Linux (sécurité informatique), et Raspberry Pi OS pour les micro-ordinateurs Raspberry Pi.
+Ubuntu, dérivée directement de Debian, popularise Linux par sa simplicité d’installation et d'utilisation. Ubuntu possède de nombreuses variantes officielles comme Kubuntu (environnement KDE) et Xubuntu (XFCE). D’autres distributions importantes basées sur Debian sont Linux Mint (également dérivée d’Ubuntu), Kali Linux (sécurité informatique), et Raspberry Pi OS pour les micro-ordinateurs Raspberry Pi.
 
 C’est sur cette famille que nous allons nous concentrer pour la suite, car elle regroupe certaines des distributions Linux les plus cohérentes et les plus populaires pour un usage sur ordinateur personnel.
 
@@ -2535,11 +2535,140 @@ En résumé, ni les SMS classiques, ni les MMS, ni même le RCS standard ne peuv
 
 Au lieu des SMS, je vous conseille plutôt d'utiliser des applications de messagerie dédiées qui utilisent un chiffrement de bout en bout robuste et transparent, qui permettent une communication réellement sécurisée et privée.
 
+### Messageries sécurisées : quelles sont les solutions ?
+
+Face aux limites des SMS, plusieurs applications modernes ont émergé, avec pour certaines, un système de chiffrement de bout en bout. Je vous propose ici un panorama comparatif des principales applications disponibles actuellement, afin d’identifier celles qui correspondent le mieux à vos besoins en matière de sécurité et de confidentialité.
+
+#### Signal
+
+Signal est une application de messagerie instantanée conçue dès l’origine pour offrir une confidentialité et une sécurité maximale. Elle repose sur le *Signal Protocol*, qui assure un chiffrement de bout en bout systématique pour chaque message, appel vocal ou vidéo, ainsi que pour le partage de fichiers. Ce protocole est d’ailleurs réutilisé par de nombreux autres services de messagerie comme WhatsApp, Facebook Messenger, Skype ou encore Google Messages (dans ses implémentations RCS).
+
+Techniquement, chaque conversation sous Signal est protégée grâce à un mécanisme de chiffrement asymétrique et éphémère : les clés de session sont négociées dynamiquement et détruites après utilisation, ce qui limite ainsi les risques de compromission. La transparence de l’application, dont le code est intégralement open source tant côté client que serveur, permet à tout expert ou chercheur en sécurité de vérifier son intégrité et le respect des standards cryptographiques annoncés.
+
+Cependant, Signal présente un point faible sur le plan de l’anonymat : l’application exige la fourniture d’un numéro de téléphone valide pour l’enregistrement et l’identification des utilisateurs. Bien que ce numéro ne soit pas systématiquement visible par vos contacts (il peut être caché sous pseudo), cette exigence introduit une dépendance à l’infrastructure téléphonique, et donc une faille potentielle de traçabilité.
+
+En résumé, Signal est une très bonne solution de messagerie, mais elle requiert hélas une connexion à partir d'un numéro de téléphone.
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+#### WhatsApp
+
+WhatsApp, propriété de Meta (ex-Facebook), utilise également le *Signal Protocol* pour son chiffrement de bout en bout. En théorie, vos conversations WhatsApp sont donc protégées efficacement contre l'interception. Cependant, ce n'est pas forcément la meilleure sur le plan de la confidentialité réelle : l’application collecte énormément de métadonnées (numéros, fréquence d’échanges, localisation approximative, contacts…), qui peuvent être exploitées commercialement par Meta à des fins publicitaires ou analytiques.
+
+Aussi, le chiffrement appliqué par WathsApp ne peut pas être vérifié, car son code source est propriétaire. C’est pourquoi je ne recommande pas l’utilisation de WhatsApp dans un contexte où la confidentialité et la sécurité de vos échanges sont importantes.
+
+#### Telegram
+
+Telegram est une messagerie très populaire grâce à son ergonomie et à ses fonctionnalités (canaux publics, bots, groupes importants...). Toutefois, sa sécurité est nettement plus limitée par défaut : seuls les "échanges secrets" bénéficient d’un chiffrement de bout en bout. Toutes les autres conversations (la majorité des échanges quotidiens des utilisateurs) sont stockées en clair sur les serveurs de Telegram.
+
+Telegram peut ainsi accéder techniquement aux contenus de la majorité des conversations non protégées explicitement. Même si l'entreprise affiche une position ferme vis-à-vis des autorités gouvernementales, Telegram ne constitue pas une solution optimale pour les échanges confidentiels ou sensibles, sauf à utiliser explicitement ses "échanges secrets", nettement moins pratiques au quotidien.
+
+https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+#### Threema
+
+Threema, lancée en 2012 en Suisse, se distingue de la plupart des autres messageries sécurisées par une approche centrée sur la confidentialité par design. Contrairement à Signal, WhatsApp ou Telegram, aucun numéro de téléphone n’est requis pour créer un compte. L’utilisateur se voit attribuer un identifiant aléatoire unique, ce qui permet une inscription entièrement anonyme et sans lien direct avec une identité réelle.
+
+Techniquement, Threema propose un chiffrement de bout en bout sur l’ensemble des communications : messages, appels, fichiers, groupes, et les autres fonctionnalités. Depuis 2020, le code source des applications mobiles est open source, ce qui permet un audit indépendant. En revanche, l’infrastructure serveur reste propriétaire, bien que localisée exclusivement en Suisse, un pays dont la législation est favorable à la protection des données personnelles.
+
+L’application est compatible avec Android et iOS, et propose également une interface web sécurisée, ainsi qu’un client natif pour Windows, Linux et macOS. Toutefois, l’activation initiale doit impérativement passer par un smartphone.
+
+Un autre aspect important de Threema est son modèle économique : l’application est payante à l’achat (environ 5,99 €). Ce choix évite la dépendance à un modèle basé sur la collecte de données ou la publicité. Pour préserver l’anonymat lors de l’achat, des clés d’activation peuvent être achetées en bitcoins ou en cash directement sur le Threema Shop pour Android.
+
+Cette solution de messagerie est excellente selon moi, mais son principal inconvénient réside dans le fait que le code source de ses serveurs reste propriétaire.
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+
+#### SimpleX Chat
+
+SimpleX Chat, lancée en 2021, supprime totalement la notion d’identifiant utilisateur : pas de numéro de téléphone, pas de pseudonyme public, pas de clé publique visible. Chaque utilisateur est identifié uniquement par des liens ou des QR codes éphémères. Cette architecture rend la corrélation entre utilisateurs quasiment impossible, ce qui garantit un haut niveau de confidentialité.
+
+Techniquement, les messages sont chiffrés de bout en bout et transitent via des serveurs relais. Ces relais n’ont jamais connaissance de l’expéditeur, du destinataire, ni de leurs clés. Une fois le message transmis, il est immédiatement effacé du serveur. SimpleX adopte une architecture non fédérée et décentralisée : les serveurs ne partagent aucun répertoire global et chaque utilisateur peut installer son propre relais. Cela contraste avec des solutions comme Matrix, où des serveurs fédérés conservent des traces des échanges.
+
+Le protocole est entièrement open-source : les clients, les serveurs et les protocoles sont publiquement accessibles et audités. SimpleX est disponible sur Android, iOS, Linux, Windows et macOS, avec un stockage local chiffré et portable, ce qui permet de transférer un profil sans serveur central. Chaque utilisateur peut aussi gérer plusieurs profils isolés, chacun disposant de ses propres paramètres, pseudonyme et photo. Cette flexibilité permet de séparer clairement vie privée, professionnelle ou pseudonymat.
+
+L’ajout de contacts se fait via des liens temporaires ou des adresses statiques (des identifiants permanents mais révocables). On peut aussi choisir entre l’échange éphémère ou un mode plus classique, avec des contrôles fins sur la visibilité et les autorisations (par exemple, masquer son nom réel derrière un pseudonyme aléatoire et unique pour chaque contact).
+
+En termes de sécurité et confidentialité, SimpleX va plus loin que la plupart des messageries existantes, en limitant au maximum les métadonnées et en supprimant toute dépendance à un annuaire central ou à un identifiant unique. Cependant, cette architecture impose quelques compromis d’usage : ergonomie parfois moins intuitive, nécessité d’un léger apprentissage initial, et dépendance à la disponibilité des serveurs relais.
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+#### Session
+
+Session, lancée en 2020 par l’Oxen Privacy Tech Foundation, est une application de messagerie conçue pour offrir une confidentialité renforcée et une bonne résilience face à la surveillance. Session ne nécessite aucune information personnelle à l’inscription : pas de numéro de téléphone, pas d’e-mail, mais simplement une paire de clés cryptographiques générées localement. Cela permet une authentification anonyme.
+
+Sur le plan technique, Session implémente un chiffrement de bout en bout pour les messages, fichiers, appels audio et vocaux, ainsi que pour les groupes (jusqu’à 100 membres). Le routage des messages s’effectue via un réseau décentralisé reposant sur des serveurs de nœuds dont la conception est inspirée de l’architecture en oignon de Tor. Ce mécanisme offre une protection avancée contre la surveillance réseau, y compris de la part des fournisseurs d’accès Internet ou des acteurs étatiques.
+
+Le client et le serveur de Session sont open-source. Le logiciel est disponible sur Android, iOS, Windows, macOS et Linux, avec une option de synchronisation entre appareils via la phrase mnémonique semblable à celle utilisée dans les portefeuilles Bitcoin. Cette phrase donne un contrôle exclusif à l’utilisateur sur ses données, mais impose aussi une responsabilité importante en matière de sauvegarde.
+
+https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+
+#### Keet
+
+Keet, lancée en 2022 par Holepunch (une société soutenue par Tether et Bitfinex), se démarque par une approche radicalement décentralisée : toutes les communications (messages, appels audio et vidéo, transferts de fichiers...) se font directement entre les utilisateurs, sans passer par aucun serveur central. Cette architecture P2P élimine les intermédiaires et renforce considérablement la confidentialité et la résilience du système.
+
+Keet chiffre toutes les communications de bout en bout. L’inscription est totalement anonyme : aucun numéro de téléphone, e-mail ou identifiant n’est requis. Cela permet de conserver une confidentialité renforcée dès l’activation du service. Les appels vidéo sont de très haute qualité, et les transferts de fichiers sont sans limite de taille, ce qui le rend adapté à des usages professionnels et personnels.
+
+En revanche, bien que certains composants (cryptographie et réseau) soient publiés en open-source sur GitHub, l’interface cliente de Keet n’était pas entièrement ouverte au moment de la rédaction de SCU 202 (mai 2025). Holepunch a toutefois annoncé son intention de publier l’ensemble du code dans le futur.
+
+Keet est disponible sur Android, iOS, Windows, macOS et Linux, avec une synchronisation possible entre appareils grâce à une phrase mnémonique.
+
+https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+
+#### Olvid
+
+Olvid, lancée en 2019, est une messagerie chiffrée française. Son point fort : une inscription sans aucune donnée personnelle. L’identification repose sur un échange direct de clés cryptographiques entre les utilisateurs.
+
+Techniquement, les messages sur Olvid sont chiffrés de bout en bout, grâce à un protocole propriétaire conçu spécifiquement pour protéger non seulement le contenu des messages, mais aussi les métadonnées : personne, y compris le serveur central, ne peut savoir qui communique avec qui, ni quand. Ce modèle réduit significativement les risques d’espionnage et de surveillance.
+
+Cependant, l’infrastructure serveur reste propriétaire et centralisée, hébergée sur AWS (*Amazon Web Services*). Le code du client est open-source depuis quelques années, mais le code du serveur n’est pas publié, ce qui limite la transparence technique du système.
+
+Olvid propose deux versions :
+- Une version gratuite, qui offre toutes les fonctionnalités sauf l’émission d’appels audio et vidéo (réception uniquement) et la synchronisation multi-appareils ;
+- Une version payante à 4,99 € par mois qui débloque toutes les fonctionnalités.
+
+L’application est certifiée par l’ANSSI (*Agence Nationale de la Sécurité des Systèmes d’Information*).
+
+Olvid est compatible avec Android, iOS, Windows, macOS et Linux. Son ergonomie reste simple et accessible. L’application met également à disposition un système de sauvegarde chiffrée des clés et des contacts pour restaurer un compte sur un nouvel appareil.
+
+https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+
+### Applications de messagerie à éviter
+
+Certaines applications de messagerie très populaires, comme WhatsApp, WeChat, Facebook Messenger, Instagram Direct, Snapchat ou encore LINE, sont largement utilisées au quotidien. Pourtant, d’un point de vue technique, ces plateformes ne respectent pas les standards de sécurité modernes adapté à des communications privées.
+
+De façon générale, les deux critères fondamentaux à considérer lors du choix d’une messagerie sont les suivants : assure-t-elle un chiffrement de bout en bout, et son code est-il open source ? Viennent ensuite d’autres fonctionnalités qui peuvent être intéressantes, comme l’inscription anonyme ou l’utilisation d’une architecture réseau décentralisée, mais ces deux premiers éléments sont la base. Le chiffrement garantit la confidentialité de vos échanges, tandis que l’ouverture du code source permet de vérifier que ce chiffrement est bien implémenté de manière sécurisée.
+
+Utiliser des services qui ne respectent pas ces deux prérequis revient à déléguer entièrement la protection de vos échanges à des acteurs commerciaux dont les intérêts économiques reposent souvent sur leur exploitation.
+
+Voici un tableau récapitulatif des principales applications de messagerie existantes et de leurs caractéristiques, tel qu’il est établi au moment où j’écris cette formation (mai 2025) :
 
 
+| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
+| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2019              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
+| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
 
+*E2EE = Chiffrement de bout en bout.*
 
+La sécurité de vos communications électroniques dépend avant tout du choix d’une application adaptée et de l’adoption de bonnes pratiques. Comprendre les mécanismes de sécurité sous-jacents, identifier les failles des solutions classiques et choisir des alternatives fiables constituent les bases essentielles pour communiquer sans vous faire écouter.
 
+Pour l’instant, nous avons donc exploré comment sécuriser votre smartphone et comment sélectionner une application de messagerie fiable. Dans le chapitre suivant, je vous propose d’élargir cette étude à l’ensemble des grandes familles d’applications mobiles, afin de trouver des alternatives respectueuses de votre vie privée pour remplacer vos applications favorites. Qu’il s’agisse des emails, du stockage de fichiers, de la cartographie, des vidéos ou encore du streaming musical, quelles sont les applications open source qui s’offrent à vous ?
 
 ## Applications open-source : les meilleures alternatives
 <chapterId>9c0e056c-45ce-407c-b4b6-f648bbc1f7d5</chapterId>

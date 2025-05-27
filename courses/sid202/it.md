@@ -66,7 +66,7 @@ Ulteriori informazioni di base su Elements sono disponibili sul sito web del pro
 
 Lanciato nel 2015, Elements riduce i costi interni di sviluppo e ricerca e sfrutta la più recente tecnologia blockchain, aprendo molti nuovi casi d'uso per l'implementazione. Una blockchain basata su Elements può funzionare come blockchain indipendente o essere collegata a un'altra e funzionare come sidechain. L'esecuzione di Elements come Sidechain consente di trasferire in modo verificabile gli asset tra blockchain diverse.
 
-Costruito sulla base del codice di Bitcoin e da esso esteso, consente agli sviluppatori che hanno familiarità con l'API di Bitcoin di creare rapidamente e a costi contenuti blockchain funzionanti e di testare progetti "proof-of-concept" (come prova concettuale). Essendo costruito sulla base del codice di Bitcoin, Elements può anche funzionare come banco di prova per le modifiche al protocollo Bitcoin stesso.
+Costruito sulla base del codice di Bitcoin e da esso esteso, consente agli sviluppatori che hanno familiarità con l'API di Bitcoin di creare rapidamente e a costi contenuti blockchain funzionanti e di testare progetti "proof-of-concept" (la proof-of-concept è una prova ottenuta da un progetto pilota, che viene eseguito per dimostrare che un prodotto, o un progetto, è realizzabile). Essendo costruito sulla base del codice di Bitcoin, Elements può anche funzionare come banco di prova per le modifiche al protocollo Bitcoin stesso.
 
 Di seguito sono elencate alcune delle caratteristiche principali di Elements.
 
@@ -341,7 +341,7 @@ e1-cli gettransaction <txid>
 
 Si vede che con l'importazione della blinding key è possibile visualizzare il valore effettivo di 1 all'interno della transazione.
 
-In questa sezione abbiamo visto che l'uso di una blinding key nasconde l'importo e il tipo di asset di una transazione e che, importando la giusta blinding key, è possibile rivelare tali valori. Nell'uso pratico, una blinding key può essere fornita, ad esempio, a un revisore dei conti, nel caso in cui sia necessario verificare l'importo e il tipo di asset detenuto da una parte. La funzione Confidential Transactions di Elements consente anche di eseguire "range proofs" (prove di intervallo). Le prove di intervallo possono dimostrare che la quantità di un'asset è detenuta all'interno di un determinato intervallo, senza la necessità di esporre l'importo effettivo.
+In questa sezione abbiamo visto che l'uso di una blinding key nasconde l'importo e il tipo di asset di una transazione, e che, importando la giusta blinding key, è possibile rivelare tali valori. Nell'uso pratico, una blinding key può essere fornita, ad esempio, a un revisore dei conti, nel caso in cui sia necessario verificare l'importo e il tipo di asset detenuto da una delle parti. La funzione Confidential Transactions di Elements consente anche di eseguire delle "range proofs", che possono dimostrare che l'ammontare di un'asset si trova all'interno di un determinato intervallo, senza la necessità di esporre l'importo effettivo.
 
 Abbiamo anche visto che le Confidential Transactions sono facoltative, ma vengono attivate di default quando viene generato un nuovo indirizzo.
 
@@ -355,13 +355,13 @@ Per questa lezione è tutto, in bocca al lupo per il quiz e arrivederci alla pro
 
 In questa sezione si spiega come utilizzare la funzione "Issued Assets" di Elements.
 
-Gli asset emessi consentono di emettere e trasferire diversi tipi di asset tra i partecipanti alla rete Elements. Ogni nodo della rete può emettere i propri asset. Le emissioni possono rappresentare la proprietà fungibile di qualsiasi asset, compresi buoni, coupon, valute, depositi, obbligazioni, azioni, ecc. Gli asset emessi aprono la strada alla creazione di scambi, opzioni e altri smart contract avanzati senza fiducia che coinvolgono asset auto-emessi.
+Gli Issued Assets consentono di emettere e scambiare diversi tipi di asset tra i partecipanti alla rete Elements. Ogni nodo della rete può emettere i propri asset. Le emissioni possono rappresentare la proprietà fungibile di qualsiasi asset, compresi voucher, coupon, valute, depositi, obbligazioni, azioni, ecc. Gli asset emessi aprono la strada a scambi "trustless" (non basati sulla fiducia in terze parti), opzioni e altri smart contract avanzati che coinvolgono asset auto-generati.
 
-Un'"Issued Asset" beneficia anche di Confidential Transactions e può essere riemessa da chiunque detenga il token associato.
+Un'"Issued Asset" beneficia anche di Confidential Transactions e può essere riemesso da chiunque detenga il token associato.
 
-Il primo passo è l'accesso a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati sottoposti a un reset della blockchain e la risorsa predefinita è stata divisa tra loro.
+Il primo passo è l'accesso a due nodi Elements, che chiameremo e1 ed e2. I nodi hanno resettato la blockchain e l'asset iniziale è stato diviso tra loro.
 
-I due nodi si trovano sulla stessa rete locale e sono collegati tra loro, quindi condividono le stesse transazioni nella loro _mempool_ di transazioni e blockchain identiche. Sebbene siano in esecuzione sulla stessa macchina, vale la pena notare che non condividono gli stessi file blockchain effettivi. Ogni nodo gestisce la propria copia locale della blockchain, che contiene la stessa cronologia delle transazioni, perché sono in consenso e rispettano le stesse regole del protocollo.
+I due nodi si trovano sulla stessa rete locale e sono collegati tra loro, quindi condividono sia le stesse transazioni nella loro _mempool_, sia blockchain identiche. Sebbene siano in esecuzione sulla stessa macchina, vale la pena notare che non condividono gli stessi file blockchain. Ogni nodo gestisce la propria copia locale della blockchain, che contiene la stessa cronologia delle transazioni, perché sono in consenso e rispettano le stesse regole del protocollo.
 
 Iniziamo controllando la visione di ciascun nodo sulle emissioni di asset esistenti nella rete.
 

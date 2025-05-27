@@ -784,12 +784,12 @@ Dalam bab ini, kita akan membahas cara kerja **invoice** Lightning, yaitu permin
 
 ### Struktur Invoice Lightning
 
-Seperti yang dijelaskan dalam bab tentang HTLCs, setiap pembayaran dimulai dengan pembuatan **invoice** oleh penerima. Invoice ini kemudian ditransmisikan ke pembayar (melalui kode QR atau dengan menyalin dan menempel) untuk memulai pembayaran. Invoice terdiri dari dua bagian utama:
+Seperti yang dijelaskan dalam bab tentang HTLCs, setiap pembayaran dimulai dengan pembuatan **invoice** oleh penerima. Invoice ini kemudian dikirimkan ke pembayar (melalui kode QR atau dengan menyalin dan menempel) untuk memulai pembayaran. Invoice terdiri dari dua bagian utama:
 
 - **Bagian yang Dapat Dibaca Manusia**: bagian ini berisi metadata yang jelas terlihat untuk meningkatkan pengalaman pengguna.
-- **Payload**: bagian ini mencakup informasi yang dimaksudkan untuk mesin dalam memproses pembayaran.
+- **Payload**: bagian ini mencakup informasi yang ditujukan untuk mesin dalam memproses pembayaran.
 
-Struktur tipikal dari sebuah invoice dimulai dengan pengenal `ln` untuk "Lightning", diikuti oleh `bc` untuk Bitcoin, kemudian jumlah invoice. Sebuah pemisah `1` membedakan bagian yang dapat dibaca manusia dari bagian data (payload).
+Struktur umum dari sebuah invoice dimulai dengan `ln` untuk "Lightning", diikuti oleh `bc` untuk Bitcoin, kemudian total dari invoice. Sebuah pemisah `1` membedakan bagian yang dapat dibaca manusia dari bagian data (payload).
 
 Mari kita ambil invoice berikut sebagai contoh:
 
@@ -810,7 +810,7 @@ Kemudian bagian yang dimaksudkan untuk payload:
 p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql
 ```
 
-Dua bagian tersebut dipisahkan oleh `1`. Pemisah ini dipilih alih-alih karakter khusus untuk memudahkan menyalin seluruh faktur dengan mengklik ganda.
+Dua bagian tersebut dipisahkan oleh `1`. Pemisah ini dipilih alih-alih karakter khusus untuk memudahkan menyalin seluruh faktur dengan mengklik dua kali.
 
 Pada bagian pertama, kita dapat melihat bahwa:
 
@@ -820,69 +820,70 @@ Pada bagian pertama, kita dapat melihat bahwa:
 
 Untuk menunjukkan jumlah pembayaran, ini dinyatakan dalam sub-unit bitcoin. Berikut adalah unit yang digunakan:
 
-- **Millibitcoin (ditandai `m`):** Mewakili satu-ribu dari satu bitcoin.
+- **Millibitcoin (ditandai `m`):** Mewakili seperseribu (1/1.000) dari satu bitcoin.
 
   $$
   1 \, \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satoshis}
   $$
 
-- **Microbitcoin (ditandai `u`):** Juga terkadang disebut "bit", mewakili satu-juta dari satu bitcoin.
+- **Microbitcoin (ditandai `u`):** Juga terkadang disebut "bit", mewakili sepersejuta (1/1.000.000) dari satu bitcoin.
 
   $$
   1 \, \mu\text{BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satoshis}
   $$
 
-- **Nanobitcoin (ditandai `n`):** Mewakili satu-miliar dari satu bitcoin.
+- **Nanobitcoin (ditandai `n`):** Mewakili sepermiliar (1/1.000.000.000) dari satu bitcoin.
 
   $$
   1 \, \text{nBTC} = 10^{-9} \, \text{BTC} = 0.1 \, \text{satoshis}
   $$
 
-- **Picobitcoin (ditandai `p`):** Mewakili satu-triliun dari satu bitcoin.
+- **Picobitcoin (ditandai `p`):** Mewakili sepertriliun (1/1.000.000.000.000) dari satu bitcoin.
   $$
   1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshis}
   $$
 
-### Muatan Faktur
+### Muatan Invoice
 
-Muatan faktur mencakup beberapa informasi yang diperlukan untuk memproses pembayaran:
+Muatan invoice mencakup beberapa informasi yang diperlukan untuk memproses pembayaran:
 
-- **Timestamp:** Momen pembuatan faktur, dinyatakan dalam Unix Timestamp (jumlah detik yang telah berlalu sejak 1 Januari 1970).
-- **Meng-hash Rahasia**: Seperti yang kita lihat dalam bagian tentang HTLCs, node penerima harus memberikan node pengirim hash dari preimage. Ini digunakan dalam HTLCs untuk mengamankan transaksi. Kami menyebutnya sebagai "_r_".
-- **Rahasia Pembayaran**: Rahasia lain dihasilkan oleh penerima, tetapi kali ini ditransmisikan ke node pengirim. Ini digunakan dalam onion routing untuk mencegah node-node perantara menebak apakah node berikutnya adalah penerima akhir atau tidak. Ini dengan demikian menjaga bentuk kerahasiaan bagi penerima terhadap node perantara terakhir di rute.
-- **Kunci Publik Penerima**: Menunjukkan kepada pembayar identifier orang yang akan dibayar.
-- **Durasi Kedaluwarsa**: Waktu maksimum untuk faktur dibayar (secara default 1 jam).
+- **Timestamp:** Waktu pembuatan invoice, dinyatakan dalam Unix Timestamp (jumlah detik yang telah berlalu sejak 1 Januari 1970).
+- **Hashing the Secret (Rahasia)**: Seperti yang dibahas dalam bagian tentang HTLCs, node penerima harus memberikan node pengirim hash preimage (rahasia). Ini digunakan dalam HTLCs untuk mengamankan transaksi. Kita menyebutnya sebagai "_r_".
+- **Payment Secret (Rahasia Pembayaran)**: Rahasia lain dihasilkan oleh penerima, tetapi kali ini dikirimkan ke node pengirim. Ini digunakan dalam onion routing untuk mencegah node-node perantara menebak apakah node berikutnya adalah penerima akhir atau bukan. Sehingga menjaga kerahasiaan bagi penerima sebagai node perantara terakhir di rute tersebut.
+- **Kunci Publik Penerima**: Menunjukkan kepada pihak pembayar identitas orang yang akan menerima pembayaran.
+- **Durasi Kedaluwarsa**: Waktu maksimum untuk invoice dibayar (selama 1 jam).
 - **Petunjuk Rute**: Informasi tambahan yang diberikan oleh penerima untuk membantu pengirim mengoptimalkan rute pembayaran.
-- **Tanda Tangan**: Menjamin integritas faktur dengan mengautentikasi semua informasi.
+- **Tanda Tangan**: Menjamin integritas invoice dengan mengautentikasi semua informasi yang tercantum di dalamnya.
 
-Faktur kemudian dikodekan dalam **bech32**, format yang sama seperti untuk alamat Bitcoin SegWit (format dimulai dengan `bc1`).
+Invoice kemudian dikodekan dalam **bech32**, format yang sama seperti untuk alamat Bitcoin SegWit (format dimulai dengan `bc1`).
 
 ### Penarikan LNURL
 
-Dalam transaksi tradisional, seperti pembelian di toko, faktur dihasilkan untuk jumlah total yang harus dibayar. Setelah faktur disajikan (dalam bentuk kode QR atau rangkaian karakter), pelanggan dapat memindainya dan menyelesaikan transaksi. Pembayaran kemudian mengikuti proses tradisional yang telah kita pelajari di bagian sebelumnya. Namun, proses ini terkadang bisa sangat merepotkan untuk pengalaman pengguna, karena memerlukan penerima untuk mengirim informasi ke pengirim melalui faktur.
-Untuk situasi tertentu, seperti menarik bitcoin dari layanan online, proses tradisional terlalu merepotkan. Dalam kasus seperti itu, solusi penarikan **LNURL** menyederhanakan proses ini dengan menampilkan kode QR yang dipindai oleh dompet penerima untuk secara otomatis membuat faktur. Layanan kemudian membayar faktur, dan pengguna hanya melihat penarikan instan.
+Dalam transaksi tradisional, seperti pembelian di toko, invoice dihasilkan untuk jumlah total yang harus dibayar. Setelah invoice diberikan (dalam bentuk kode QR atau rangkaian karakter), pelanggan dapat memindainya dan menyelesaikan transaksi. Pembayaran kemudian mengikuti proses tradisional yang telah kita pelajari di bagian sebelumnya. Namun, proses ini terkadang bisa sangat merepotkan untuk pengalaman pengguna, karena memerlukan penerima untuk mengirim informasi ke pengirim melalui invoice.
+
+Dalam situasi tertentu, seperti menarik bitcoin dari layanan online, proses tradisional terlalu merepotkan. Dalam kasus seperti itu, solusi penarikan **LNURL** menyederhanakan proses ini dengan menampilkan kode QR yang dipindai oleh dompet penerima untuk secara otomatis membuat invoice. Layanan kemudian membayar invoice, dan pengguna dapat langsung melakukan penarikan instan.
 
 ![LNP201](assets/en/69.webp)
 
 LNURL adalah protokol komunikasi yang menentukan serangkaian fungsi yang dirancang untuk menyederhanakan interaksi antara node Lightning dan klien, serta aplikasi pihak ketiga. Penarikan LNURL, seperti yang baru saja kita lihat, hanyalah salah satu contoh di antara fungsi lainnya.
 Protokol ini berbasis HTTP dan memungkinkan pembuatan tautan untuk berbagai operasi, seperti permintaan pembayaran, permintaan penarikan, atau fungsi lain yang meningkatkan pengalaman pengguna. Setiap LNURL adalah URL yang dikodekan bech32 dengan awalan lnurl, yang, setelah dipindai, memicu serangkaian tindakan otomatis pada dompet Lightning.
-Misalnya, fitur LNURL-withdraw (LUD-03) memungkinkan penarikan dana dari layanan dengan memindai kode QR, tanpa perlu menghasilkan faktur secara manual. Demikian pula, LNURL-auth (LUD-04) memungkinkan masuk ke layanan online menggunakan kunci pribadi di dompet Lightning seseorang alih-alih kata sandi.
+Misalnya, fitur LNURL-withdraw (LUD-03) memungkinkan penarikan dana dari layanan dengan memindai kode QR, tanpa perlu menghasilkan invoice secara manual. Sama halnya dengan LNURL-auth (LUD-04) yang memungkinkan masuk ke layanan online menggunakan kunci pribadi di dompet Lightning seseorang alih-alih kata sandi.
 
-### Mengirim Pembayaran Lightning Tanpa Faktur: Keysend
+### Mengirim Pembayaran Lightning Tanpa Invoice: Keysend
 
-Kasus menarik lainnya adalah transfer dana tanpa menerima faktur terlebih dahulu, yang dikenal sebagai "**Keysend**". Protokol ini memungkinkan pengiriman dana dengan menambahkan preimage dalam data pembayaran terenkripsi, yang hanya dapat diakses oleh penerima. Preimage ini memungkinkan penerima untuk membuka HTLC, sehingga mengambil dana tanpa harus menghasilkan faktur terlebih dahulu.
+Kasus menarik lainnya adalah transfer dana tanpa menerima invoice terlebih dahulu, yang dikenal sebagai "**Keysend**". Protokol ini memungkinkan pengiriman dana dengan menambahkan preimage (rahasia) dalam data pembayaran terenkripsi, yang hanya dapat diakses oleh penerima. Preimage (rahasia) ini memungkinkan penerima untuk membuka HTLC, sehingga mengambil dana tanpa harus menghasilkan invoice terlebih dahulu.
 
 Untuk menyederhanakan, dalam protokol ini, pengirim yang menghasilkan rahasia yang digunakan dalam HTLC, bukan penerima. Secara praktis, ini memungkinkan pengirim untuk melakukan pembayaran tanpa harus berinteraksi dengan penerima terlebih dahulu.
 
 ![LNP201](assets/en/70.webp)
 
-**Apa yang harus Anda ambil dari bab ini?**
+**Apa yang bisa Anda dapatkan dari bab ini?**
 
 - **Lightning Invoice** adalah permintaan pembayaran yang terdiri dari bagian yang dapat dibaca manusia dan bagian data mesin.
 - Faktur dikodekan dalam **bech32**, dengan pemisah `1` untuk memudahkan penyalinan dan bagian data yang berisi semua informasi yang diperlukan untuk memproses pembayaran.
-- Proses pembayaran lainnya ada di Lightning, terutama **LNURL-Withdraw** untuk memudahkan penarikan, dan **Keysend** untuk transfer langsung tanpa faktur.
+- Proses pembayaran lainnya berada di Lightning, terutama **LNURL-Withdraw** untuk memudahkan penarikan, dan **Keysend** untuk transfer langsung tanpa invoice.
 
-Di bab berikutnya, kita akan melihat bagaimana operator node dapat mengelola likuiditas di saluran mereka, agar tidak pernah terblokir dan selalu dapat mengirim dan menerima pembayaran di Jaringan Lightning.
+Di bab berikutnya, kita akan melihat bagaimana operator node dapat mengelola likuiditas di saluran mereka, agar tidak pernah terblokir dan selalu dapat mengirim dan menerima pembayaran di Lightning Network (Jaringan Lightning).
 
 ## Mengelola Likuiditas Anda
 

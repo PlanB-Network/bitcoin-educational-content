@@ -5,14 +5,14 @@ timezone: Africa/Douala
 address_city_country: Douala, Cameroon
 name: Conference Bitcoin Afrique 2025
 type: conference
-price_dollars: 20
 description: The largest Bitcoin conference in French speaking Africa
 language: 
   - fr
   - en
 links:
   website: https://afriquebitcoin.org/en
+project_id: 9f567776-dcad-46da-93e9-06c595565bff
 tags: 
-  - Bitcoin
-  - Afrique
-  - Cameroon
+  - adoption
+  - market-trends
+  - future-outlook

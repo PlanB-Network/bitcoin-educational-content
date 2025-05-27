@@ -27,6 +27,7 @@ Přejděte na [oficiální stránku pro stažení Sparrow Wallet](https://sparro
 Před instalací je důležité zkontrolovat integritu a pravost softwaru. Pokud nevíte, jak to udělat, kompletní návod najdete zde :
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Po instalaci aplikace Sparrow můžete přeskočit úvodní vysvětlující obrazovky a přejít rovnou na obrazovku správy připojení.
 
 ![Image](assets/fr/02.webp)
@@ -69,7 +70,9 @@ Upozorňujeme, že pokud použijete ořezaný uzel Bitcoin Core, nebudete moci o
 Konfiguraci uzlu Bitcoin Core můžete provést podle některého z následujících návodů v závislosti na operačním systému:
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+
 V aplikaci Sparrow přejděte na kartu "*Bitcoin Core*".
 
 ![Image](assets/fr/07.webp)
@@ -218,6 +221,7 @@ Můžete ho vyrýt na papír nebo pro větší bezpečnost na nerezovou ocel, kt
 Pro více informací o správném způsobu ukládání a správy fráze Mnemonic vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 **Samozřejmě nesmíte tato slova nikdy sdílet na internetu, jak to dělám v tomto návodu. Tento příklad Wallet bude použit pouze na Testnet a na konci návodu bude odstraněn.**
@@ -225,6 +229,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Kliknutím na pole "*Použít passphrase*" můžete také zvolit možnost přidání passphrase BIP39. Varování: Použití passphrase může být velmi užitečné, ale pokud nerozumíte tomu, jak funguje, může to být velmi riskantní. Proto vám důrazně doporučuji přečíst si tento krátký teoretický článek na toto téma:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Po uložení Mnemonic a passphrase na fyzické médium klikněte na "*Potvrdit zálohu*".
 
 ![Image](assets/fr/27.webp)
@@ -376,6 +381,7 @@ Tím se dostanete na stránku s podrobnými informacemi o transakci Elements. Zk
 Je důležité zachovat výchozí nastavení Sighash. Chcete-li pochopit proč, podívejte se na toto školení, ve kterém vysvětluji vše, co potřebujete vědět o systému Sighash:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Na další obrazovce se možnosti liší podle typu používaného zařízení Wallet:
 
 

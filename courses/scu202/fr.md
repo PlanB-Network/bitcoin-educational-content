@@ -2543,6 +2543,8 @@ Face aux limites des SMS, plusieurs applications modernes ont émergé, avec pou
 
 Signal est une application de messagerie instantanée conçue dès l’origine pour offrir une confidentialité et une sécurité maximale. Elle repose sur le *Signal Protocol*, qui assure un chiffrement de bout en bout systématique pour chaque message, appel vocal ou vidéo, ainsi que pour le partage de fichiers. Ce protocole est d’ailleurs réutilisé par de nombreux autres services de messagerie comme WhatsApp, Facebook Messenger, Skype ou encore Google Messages (dans ses implémentations RCS).
 
+![Image](assets/fr/148.webp)
+
 Techniquement, chaque conversation sous Signal est protégée grâce à un mécanisme de chiffrement asymétrique et éphémère : les clés de session sont négociées dynamiquement et détruites après utilisation, ce qui limite ainsi les risques de compromission. La transparence de l’application, dont le code est intégralement open source tant côté client que serveur, permet à tout expert ou chercheur en sécurité de vérifier son intégrité et le respect des standards cryptographiques annoncés.
 
 Cependant, Signal présente un point faible sur le plan de l’anonymat : l’application exige la fourniture d’un numéro de téléphone valide pour l’enregistrement et l’identification des utilisateurs. Bien que ce numéro ne soit pas systématiquement visible par vos contacts (il peut être caché sous pseudo), cette exigence introduit une dépendance à l’infrastructure téléphonique, et donc une faille potentielle de traçabilité.
@@ -2561,6 +2563,8 @@ Aussi, le chiffrement appliqué par WathsApp ne peut pas être vérifié, car so
 
 Telegram est une messagerie très populaire grâce à son ergonomie et à ses fonctionnalités (canaux publics, bots, groupes importants...). Toutefois, sa sécurité est nettement plus limitée par défaut : seuls les "échanges secrets" bénéficient d’un chiffrement de bout en bout. Toutes les autres conversations (la majorité des échanges quotidiens des utilisateurs) sont stockées en clair sur les serveurs de Telegram.
 
+![Image](assets/fr/149.webp)
+
 Telegram peut ainsi accéder techniquement aux contenus de la majorité des conversations non protégées explicitement. Même si l'entreprise affiche une position ferme vis-à-vis des autorités gouvernementales, Telegram ne constitue pas une solution optimale pour les échanges confidentiels ou sensibles, sauf à utiliser explicitement ses "échanges secrets", nettement moins pratiques au quotidien.
 
 https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
@@ -2568,6 +2572,8 @@ https://planb.network/tutorials/computer-security/communication/telegram-account
 #### Threema
 
 Threema, lancée en 2012 en Suisse, se distingue de la plupart des autres messageries sécurisées par une approche centrée sur la confidentialité par design. Contrairement à Signal, WhatsApp ou Telegram, aucun numéro de téléphone n’est requis pour créer un compte. L’utilisateur se voit attribuer un identifiant aléatoire unique, ce qui permet une inscription entièrement anonyme et sans lien direct avec une identité réelle.
+
+![Image](assets/fr/150.webp)
 
 Techniquement, Threema propose un chiffrement de bout en bout sur l’ensemble des communications : messages, appels, fichiers, groupes, et les autres fonctionnalités. Depuis 2020, le code source des applications mobiles est open source, ce qui permet un audit indépendant. En revanche, l’infrastructure serveur reste propriétaire, bien que localisée exclusivement en Suisse, un pays dont la législation est favorable à la protection des données personnelles.
 
@@ -2583,6 +2589,8 @@ https://planb.network/tutorials/computer-security/communication/threema-24382d25
 
 SimpleX Chat, lancée en 2021, supprime totalement la notion d’identifiant utilisateur : pas de numéro de téléphone, pas de pseudonyme public, pas de clé publique visible. Chaque utilisateur est identifié uniquement par des liens ou des QR codes éphémères. Cette architecture rend la corrélation entre utilisateurs quasiment impossible, ce qui garantit un haut niveau de confidentialité.
 
+![Image](assets/fr/151.webp)
+
 Techniquement, les messages sont chiffrés de bout en bout et transitent via des serveurs relais. Ces relais n’ont jamais connaissance de l’expéditeur, du destinataire, ni de leurs clés. Une fois le message transmis, il est immédiatement effacé du serveur. SimpleX adopte une architecture non fédérée et décentralisée : les serveurs ne partagent aucun répertoire global et chaque utilisateur peut installer son propre relais. Cela contraste avec des solutions comme Matrix, où des serveurs fédérés conservent des traces des échanges.
 
 Le protocole est entièrement open-source : les clients, les serveurs et les protocoles sont publiquement accessibles et audités. SimpleX est disponible sur Android, iOS, Linux, Windows et macOS, avec un stockage local chiffré et portable, ce qui permet de transférer un profil sans serveur central. Chaque utilisateur peut aussi gérer plusieurs profils isolés, chacun disposant de ses propres paramètres, pseudonyme et photo. Cette flexibilité permet de séparer clairement vie privée, professionnelle ou pseudonymat.
@@ -2597,6 +2605,8 @@ https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1
 
 Session, lancée en 2020 par l’Oxen Privacy Tech Foundation, est une application de messagerie conçue pour offrir une confidentialité renforcée et une bonne résilience face à la surveillance. Session ne nécessite aucune information personnelle à l’inscription : pas de numéro de téléphone, pas d’e-mail, mais simplement une paire de clés cryptographiques générées localement. Cela permet une authentification anonyme.
 
+![Image](assets/fr/152.webp)
+
 Sur le plan technique, Session implémente un chiffrement de bout en bout pour les messages, fichiers, appels audio et vocaux, ainsi que pour les groupes (jusqu’à 100 membres). Le routage des messages s’effectue via un réseau décentralisé reposant sur des serveurs de nœuds dont la conception est inspirée de l’architecture en oignon de Tor. Ce mécanisme offre une protection avancée contre la surveillance réseau, y compris de la part des fournisseurs d’accès Internet ou des acteurs étatiques.
 
 Le client et le serveur de Session sont open-source. Le logiciel est disponible sur Android, iOS, Windows, macOS et Linux, avec une option de synchronisation entre appareils via la phrase mnémonique semblable à celle utilisée dans les portefeuilles Bitcoin. Cette phrase donne un contrôle exclusif à l’utilisateur sur ses données, mais impose aussi une responsabilité importante en matière de sauvegarde.
@@ -2606,6 +2616,8 @@ https://planb.network/tutorials/computer-security/communication/session-b0e3193c
 #### Keet
 
 Keet, lancée en 2022 par Holepunch (une société soutenue par Tether et Bitfinex), se démarque par une approche radicalement décentralisée : toutes les communications (messages, appels audio et vidéo, transferts de fichiers...) se font directement entre les utilisateurs, sans passer par aucun serveur central. Cette architecture P2P élimine les intermédiaires et renforce considérablement la confidentialité et la résilience du système.
+
+![Image](assets/fr/153.webp)
 
 Keet chiffre toutes les communications de bout en bout. L’inscription est totalement anonyme : aucun numéro de téléphone, e-mail ou identifiant n’est requis. Cela permet de conserver une confidentialité renforcée dès l’activation du service. Les appels vidéo sont de très haute qualité, et les transferts de fichiers sont sans limite de taille, ce qui le rend adapté à des usages professionnels et personnels.
 
@@ -2618,6 +2630,8 @@ https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e
 #### Olvid
 
 Olvid, lancée en 2019, est une messagerie chiffrée française. Son point fort : une inscription sans aucune donnée personnelle. L’identification repose sur un échange direct de clés cryptographiques entre les utilisateurs.
+
+![Image](assets/fr/154.webp)
 
 Techniquement, les messages sur Olvid sont chiffrés de bout en bout, grâce à un protocole propriétaire conçu spécifiquement pour protéger non seulement le contenu des messages, mais aussi les métadonnées : personne, y compris le serveur central, ne peut savoir qui communique avec qui, ni quand. Ce modèle réduit significativement les risques d’espionnage et de surveillance.
 

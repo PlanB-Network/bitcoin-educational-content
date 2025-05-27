@@ -1914,7 +1914,7 @@ Voici un petit récapitulatif pour vous aider à faire votre choix (gardez toute
 
 | Navigateur      | Confidentialité | Vitesse | Fonctionnalités | Interface | Open source | Consommation ressources |
 | --------------- | --------------- | ------- | --------------- | --------- | ----------- | ----------------------- |
-| Google Chrome   | 🔴              | 🟢      | 🟢              | 🟡        | 🔴          | 🔴                      |
+| Google Chrome   | 🔴              | 🟢      | 🟢              | 🟢        | 🔴          | 🔴                      |
 | Brave           | 🟡              | 🟢      | 🟢              | 🟢        | 🟢          | 🟡                      |
 | Vivaldi         | 🟡              | 🟢      | 🟢              | 🟢        | 🔴          | 🟡                      |
 | Opera           | 🔴              | 🟢      | 🟢              | 🟢        | 🔴          | 🔴                      |
@@ -2534,6 +2534,8 @@ Du côté d’Apple, iMessage (lancé en 2011) propose un chiffrement de bout en
 En résumé, ni les SMS classiques, ni les MMS, ni même le RCS standard ne peuvent être considérés comme des solutions fiables et universelles pour préserver la confidentialité des échanges. Seules l’utilisation de Google Messages, iMessage ou du futur protocole RCS UP 3.0 garantissent une confidentialité satisfaisante, à condition que les deux interlocuteurs adoptent le même protocole de chiffrement. Et c’est précisément là que réside le principal écueil des SMS au sens large : cette application de messagerie préinstallée sur la majorité des téléphones regroupe des protocoles radicalement différents, et si votre interlocuteur ne prend en charge que le protocole SMS, votre message sera transmis en clair, sans forcément que vous ne vous en rendiez compte. C’est pourquoi, tant qu’un standard universel et rigoureux de chiffrement de bout en bout n’est pas mis en place, je vous déconseille fortement d’utiliser les messages classiques, car vous restez bien trop tributaire du choix de protocole de votre interlocuteur pour garantir votre propre sécurité.
 
 Au lieu des SMS, je vous conseille plutôt d'utiliser des applications de messagerie dédiées qui utilisent un chiffrement de bout en bout robuste et transparent, qui permettent une communication réellement sécurisée et privée.
+
+
 
 
 

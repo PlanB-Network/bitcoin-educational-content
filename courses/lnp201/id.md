@@ -652,39 +652,40 @@ Kemudian HTLC dari Alice ke Suzie.
 ![LNP201](assets/en/56.webp)
 Jika urutan kedaluwarsa dibalik, Alice bisa mendapatkan kembali uanganya sebelum Suzie bisa melindungi dirinya dari potensi kecurangan. Memang, jika Bob kembali untuk mengklaim HTLC-nya sementara Alice telah menghapus miliknya, Suzie akan berada dalam posisi yang tidak menguntungkan. Urutan kedaluwarsa HTLC yang berurutan ini memastikan bahwa tidak ada node perantara yang menderita kerugian yang tidak adil.
 
-### Representasi HTLC dalam transaksi komitmen
+### Gambaran HTLC dalam transaksi komitmen
 
-Transaksi komitmen merepresentasikan HTLC sedemikian rupa sehingga kondisi yang mereka terapkan pada Lightning dapat ditransfer ke Bitcoin dalam kejadian penutupan saluran paksa selama masa hidup HTLC. Sebagai pengingat, transaksi komitmen merepresentasikan keadaan saat ini dari saluran antara dua pengguna dan memungkinkan penutupan paksa sepihak ketika terjadi masalah. Dengan setiap keadaan baru dari saluran, 2 transaksi komitmen dibuat: satu untuk setiap pihak. Mari kita kembali ke contoh Alice, Suzie, dan Bob, serta melihat lebih jelas apa yang terjadi di tingkat saluran antara Alice dan Suzie ketika HTLC dibuat.
+Transaksi komitmen menggambarkan HTLC sedemikian rupa sehingga kondisi yang mereka terapkan pada Lightning dapat ditransfer ke Bitcoin dalam kejadian penutupan saluran paksa selama masa hidup HTLC. Sebagai pengingat, transaksi komitmen menggambarkan keadaan saat ini dari saluran antara dua pengguna dan memungkinkan penutupan paksa sepihak ketika terjadi masalah. Dengan setiap keadaan baru dari saluran, 2 transaksi komitmen dibuat: satu untuk setiap pihak. Mari kita kembali ke contoh Alice, Suzie, dan Bob, serta melihat lebih jelas apa yang terjadi di tingkat saluran antara Alice dan Suzie ketika HTLC dibuat.
 ![LNP201](assets/en/57.webp)
 
 Sebelum dimulainya pembayaran 40.000 sats antara Alice dan Bob, Alice memiliki 100.000 sats di salurannya dengan Suzie, sementara Suzie memiliki 30.000. Transaksi komitmen mereka adalah sebagai berikut:
 
 ![LNP201](assets/en/58.webp)
 
-Alice baru saja menerima invoice (permintaan pembayaran) Bob, yang secara khusus berisi _r_, hash dari rahasia. Sehingga, Alice dapat membangun HTLC sebesar 40.000 satoshi dengan Suzie. HTLC ini direpresentasikan dalam transaksi komitmen terbaru sebagai output yang disebut "**_HTLC Out_**" di sisi Alice, karena dana keluar, dan "**_HTLC In_**" di sisi Suzie, karena dana masuk.
+Alice baru saja menerima invoice (permintaan pembayaran) Bob, yang berisi _r_, hash rahasia. Sehingga, Alice dapat membangun HTLC sebesar 40.000 satoshi dengan Suzie. HTLC ini digambarkan dalam transaksi komitmen terbaru sebagai output yang disebut "**_HTLC Out_**" di sisi Alice, karena dana keluar, dan "**_HTLC In_**" di sisi Suzie, karena dana masuk.
 
 ![LNP201](assets/en/59.webp)
 
 Output yang terkait dengan HTLC ini memiliki kondisi yang sama persis, yaitu:
 
-- Jika Suzie mampu menyediakan rahasia _s_, dia dapat membuka output ini segera dan mentransfernya ke alamat yang dia kontrol.
-- Jika Suzie tidak memiliki rahasia _s_, dia tidak dapat membuka output ini, dan Alice akan dapat membukanya setelah timelock untuk mengirimkannya ke alamat yang dia kontrol. Timelock dengan demikian memberikan Suzie periode untuk bereaksi jika dia memperoleh _s_.
+- Jika Suzie mampu menyediakan rahasia _s_, Suzie dapat membuka output ini segera dan mentransfernya ke alamat yang dia kontrol.
+- Jika Suzie tidak memiliki rahasia _s_, Suzie tidak dapat membuka output ini, dan Alice akan dapat membukanya setelah timelock untuk mengirimkannya ke alamat yang dia kontrol. Timelock dengan demikian memberikan Suzie periode untuk bereaksi jika dia memperoleh _s_.
 
-Kondisi ini hanya berlaku jika saluran ditutup (yaitu, transaksi komitmen dipublikasikan on-chain) sementara HTLC masih aktif di Lightning, yang berarti pembayaran antara Alice dan Bob belum diselesaikan, dan HTLC belum kedaluwarsa. Berkat kondisi ini, Suzie dapat memulihkan 40.000 satoshi HTLC yang berhutang kepadanya dengan menyediakan _s_. Jika tidak, Alice memulihkan dana setelah kedaluwarsa timelock, karena jika Suzie tidak tahu _s_, itu berarti dia tidak telah mentransfer 40.000 satoshi ke Bob, dan oleh karena itu, dana Alice tidak berhutang kepadanya.
+Kondisi ini hanya berlaku jika saluran ditutup (yaitu, transaksi komitmen dipublikasikan on-chain) sementara HTLC masih aktif di Lightning, yang berarti pembayaran antara Alice dan Bob belum diselesaikan, dan HTLC belum kedaluwarsa. Berkat kondisi ini, Suzie dapat memulihkan 40.000 satoshi HTLC yang berhutang kepadanya dengan menyediakan _s_. Jika tidak, Alice memulihkan dana setelah kedaluwarsa timelock, karena jika Suzie tidak tahu _s_, itu berarti Suzie belum mentransfer 40.000 satoshi ke Bob, dan oleh karena itu, dana Alice tidak masuk ke Suzie.
 
-Selanjutnya, jika saluran ditutup sementara beberapa HTLC tertunda, akan ada sebanyak output tambahan sebanyak HTLC yang sedang berlangsung.
-Jika saluran tidak ditutup, maka setelah kedaluwarsa atau keberhasilan pembayaran Lightning, transaksi komitmen baru dibuat untuk mencerminkan keadaan baru, sekarang stabil, dari saluran, yaitu, tanpa HTLC yang tertunda. Output yang terkait dengan HTLC dapat dengan demikian dihapus dari transaksi komitmen.
+Selanjutnya, jika saluran ditutup ketika beberapa HTLC masih tertunda, akan ada banyak output tambahan sebanyak HTLC yang sedang berlangsung.
+Jika saluran tidak ditutup, maka setelah kedaluwarsa atau keberhasilan pembayaran Lightning, transaksi komitmen baru dibuat untuk mencerminkan keadaan baru, sekarang stabil, dari saluran, yaitu, tanpa HTLC yang tertunda. Output yang terkait dengan HTLC dapat dihapus dari transaksi komitmen.
 ![LNP201](assets/en/60.webp)
-Akhirnya, dalam kasus penutupan saluran kerjasama sementara HTLC aktif, Alice dan Suzie berhenti menerima pembayaran baru dan menunggu resolusi atau kedaluwarsa dari HTLC yang sedang berlangsung. Ini memungkinkan mereka untuk menerbitkan transaksi penutupan yang lebih ringan, tanpa output yang terkait dengan HTLC, sehingga mengurangi biaya dan menghindari menunggu kemungkinan timelock.
-**Apa yang harus Anda ambil dari bab ini?**
+Akhirnya, dalam kasus *penutupan kooperatif* sementara masih ada HTLC aktif, Alice dan Suzie berhenti menerima pembayaran baru dan menunggu resolusi atau kedaluwarsa dari HTLC yang sedang berlangsung. Ini memungkinkan mereka untuk menerbitkan transaksi penutupan yang lebih ringan, tanpa output yang terkait dengan HTLC, sehingga mengurangi biaya dan menghindari menunggu kemungkinan timelock.
 
-HTLC memungkinkan perutean pembayaran Lightning melalui beberapa node tanpa harus mempercayai mereka. Berikut adalah poin-poin kunci untuk diingat:
+**Apa yang bisa Anda dapatkan dari bab ini?**
 
-- HTLC memastikan keamanan pembayaran melalui rahasia (preimage) dan waktu kedaluwarsa.
-- Resolusi atau kedaluwarsa dari HTLC mengikuti urutan tertentu: kemudian dari tujuan menuju sumber, untuk melindungi setiap node.
-- Selama HTLC tidak diselesaikan atau kedaluwarsa, itu dipertahankan sebagai output dalam transaksi komitmen terbaru.
+HTLC memungkinkan routing (perutean) pembayaran Lightning melalui beberapa node tanpa harus mempercayai mereka. Berikut adalah poin-poin kunci untuk diingat:
 
-Di bab selanjutnya, kita akan menemukan bagaimana sebuah node yang mengeluarkan transaksi Lightning menemukan dan memilih rute untuk pembayarannya mencapai node penerima.
+- HTLC memastikan keamanan pembayaran melalui preimage (rahasi) dan waktu kedaluwarsa.
+- Resolusi atau kedaluwarsa dari HTLC mengikuti urutan tertentu: dimulai dari tujuan (penerima) menuju sumber (pengirim), untuk melindungi setiap node.
+- Selama HTLC tidak diselesaikan atau kedaluwarsa, HTLC dipertahankan sebagai output dalam transaksi komitmen terbaru.
+
+Di bab selanjutnya, kita akan membahas bagaimana sebuah node yang mengeluarkan transaksi Lightning menemukan dan memilih rute untuk pembayarannya mencapai node penerima.
 
 ## Menemukan Jalan Anda
 
@@ -692,24 +693,24 @@ Di bab selanjutnya, kita akan menemukan bagaimana sebuah node yang mengeluarkan 
 :::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
 
 
-Dalam bab-bab sebelumnya, kita melihat bagaimana menggunakan saluran node lain untuk merutekan pembayaran dan mencapai node tanpa harus terhubung langsung dengannya melalui saluran. Kita juga membahas bagaimana memastikan keamanan transfer tanpa mempercayai node perantara. Dalam bab ini, kita akan fokus pada menemukan rute terbaik untuk mencapai node target.
+Dalam bab-bab sebelumnya, kita melihat bagaimana menggunakan saluran node lain untuk merutekan pembayaran dan mencapai node tanpa harus terhubung langsung melalui saluran. Kita juga membahas bagaimana memastikan keamanan transfer tanpa mempercayai node perantara. Dalam bab ini, kita akan fokus pada menemukan rute terbaik untuk mencapai node target.
 
 ### Masalah Perutean di Lightning
 
-Seperti yang telah kita lihat, dalam Lightning, node pengirim pembayaran yang harus menghitung rute lengkap ke penerima, karena kita menggunakan sistem perutean onion. Node perantara tidak mengetahui baik titik asal maupun tujuan akhir. Mereka hanya tahu dari mana pembayaran datang dan ke node mana mereka harus mentransfernya selanjutnya. Ini berarti bahwa node pengirim harus memelihara topologi lokal dinamis dari jaringan, dengan node Lightning yang ada dan saluran di antara masing-masing, dengan mempertimbangkan pembukaan, penutupan, dan pembaruan status.
+Seperti yang telah kita lihat, dalam Lightning, node pengirim pembayaran yang harus menghitung rute lengkap ke penerima, karena kita menggunakan sistem onion routing (perutean onion). Node perantara tidak mengetahui baik titik asal maupun tujuan akhir. Mereka hanya tahu dari mana pembayaran datang dan ke node mana mereka harus mentransfer selanjutnya. Ini berarti bahwa node pengirim harus memelihara topologi lokal dinamis dari jaringan, dengan node Lightning yang ada dan di antara masing-masing saluran, dengan mempertimbangkan pembukaan, penutupan, dan pembaruan status.
 
 ![LNP201](assets/en/61.webp)
-Bahkan dengan topologi Jaringan Lightning ini, ada informasi penting untuk perutean yang tetap tidak dapat diakses oleh node pengirim, yaitu distribusi likuiditas yang tepat di saluran pada setiap saat tertentu. Memang, setiap saluran hanya menampilkan **kapasitas total**nya, tetapi distribusi dana internal hanya diketahui oleh dua node yang berpartisipasi. Ini menimbulkan tantangan untuk perutean yang efisien, karena keberhasilan pembayaran tergantung terutama pada apakah jumlahnya kurang dari likuiditas terendah di rute yang dipilih. Namun, likuiditas tidak semua terlihat oleh node pengirim.
+Bahkan dengan topologi Jaringan Lightning ini, ada informasi penting untuk perutean yang tetap tidak dapat diakses oleh node pengirim, yaitu distribusi likuiditas yang tepat di saluran pada setiap saat tertentu. Memang, setiap saluran hanya menampilkan **kapasitas total**nya, tetapi distribusi dana internal hanya diketahui oleh dua node yang berpartisipasi. Ini menimbulkan tantangan untuk perutean yang efisien, karena keberhasilan pembayaran tergantung terutama pada apakah jumlahnya kurang dari likuiditas terendah di rute yang dipilih. Namun, tidak semua likuiditas terlihat oleh node pengirim.
 ![LNP201](assets/en/62.webp)
 
 ### Pembaruan Peta Jaringan
 
-Untuk menjaga peta jaringan mereka tetap terkini, node secara teratur bertukar pesan melalui algoritma yang disebut "**_gossip_**". Ini adalah algoritma terdistribusi yang digunakan untuk menyebarkan informasi secara epidemi ke semua node dalam jaringan, yang memungkinkan pertukaran dan sinkronisasi dari keadaan global saluran dalam beberapa siklus komunikasi. Setiap node menyebarkan informasi ke satu atau lebih tetangga yang dipilih secara acak atau tidak, mereka, pada gilirannya, menyebarkan informasi ke tetangga lain dan seterusnya sampai keadaan yang disinkronkan secara global tercapai.
+Untuk menjaga peta jaringan mereka tetap aktual, node secara teratur bertukar pesan melalui algoritma yang disebut "**_gossip_**". Ini adalah algoritma terdistribusi yang digunakan untuk menyebarkan informasi secara epidemi ke semua node dalam jaringan, yang memungkinkan pertukaran dan sinkronisasi dari keadaan menyeluruh saluran dalam beberapa siklus komunikasi. Setiap node menyebarkan informasi ke satu atau lebih tetangga yang dipilih secara acak atau tidak, mereka, pada gilirannya, menyebarkan informasi ke tetangga lain dan seterusnya sampai keadaan yang disinkronkan secara menyeluruh tercapai.
 
 2 pesan utama yang ditukar antara node Lightning adalah sebagai berikut:
 
 - "**Pengumuman Saluran**": pesan yang menandakan pembukaan saluran baru.
-- "**Pembaruan Saluran**": pesan pembaruan tentang status sebuah saluran, khususnya tentang evolusi biaya (tetapi tidak tentang distribusi likuiditas).
+- "**Pembaruan Saluran**": pesan pembaruan tentang status sebuah saluran, khususnya tentang perubahan biaya (tetapi tidak tentang distribusi likuiditas).
   Node Lightning juga memantau blockchain Bitcoin untuk mendeteksi transaksi penutupan saluran. Saluran yang ditutup kemudian dihapus dari peta karena tidak lagi dapat digunakan untuk merutekan pembayaran kita.
 
 ### Merutekan Pembayaran
@@ -735,7 +736,7 @@ Untuk melakukan pembayaran 100.000 sats dari Alice ke Bob, opsi rute terbatas ol
 
 ![LNP201](assets/en/65.webp)
 
-Namun, karena Alice tidak mengetahui distribusi dana yang tepat di setiap saluran, dia harus memperkirakan rute optimal secara probabilistik, dengan mempertimbangkan kriteria berikut:
+Namun, karena Alice tidak mengetahui secara pasti distribusi dana di setiap saluran, dia harus memperkirakan rute optimal secara probabilitas, dengan mempertimbangkan kriteria berikut:
 
 - **Probabilitas keberhasilan**: sebuah saluran dengan kapasitas total yang lebih tinggi kemungkinan besar mengandung likuiditas yang cukup. Misalnya, saluran antara node 2 dan node 3 memiliki kapasitas total 110.000 sats, jadi kemungkinan kecil untuk menemukan 100.000 sats atau lebih di sisi node 2, meskipun tetap mungkin.
 - **Biaya transaksi**: dalam memilih rute terbaik, node pengirim juga mempertimbangkan biaya yang diterapkan oleh setiap node perantara dan berusaha meminimalkan total biaya rute.
@@ -749,11 +750,11 @@ Namun, karena Alice tidak mengetahui distribusi dana yang tepat di setiap salura
 
 ### Eksekusi Pembayaran
 
-Alice memutuskan untuk menguji rute pertamanya (`Alice → 1 → 2 → 5 → Bob`). Oleh karena itu, dia mengirimkan HTLC sebesar 100.000 sats ke node 1. Node ini memeriksa bahwa ia memiliki likuiditas yang cukup dengan node 2, dan melanjutkan transmisi. Node 2 kemudian menerima HTLC dari node 1, tetapi menyadari bahwa ia tidak memiliki cukup likuiditas di salurannya dengan node 5 untuk merutekan pembayaran sebesar 100.000 sats. Kemudian, ia mengirimkan pesan kesalahan kembali ke node 1, yang meneruskannya ke Alice. Rute ini telah gagal.
+Alice memutuskan untuk menguji rute pertamanya (`Alice → 1 → 2 → 5 → Bob`). Oleh karena itu, Alice mengirimkan HTLC sebesar 100.000 sats ke node 1. Node ini memeriksa bahwa ia memiliki likuiditas yang cukup dengan node 2, dan melanjutkan transmisi. Node 2 kemudian menerima HTLC dari node 1, tetapi menyadari bahwa node 2 tidak memiliki cukup likuiditas di salurannya dengan node 5 untuk merutekan pembayaran sebesar 100.000 sats. Kemudian, node 2 mengirimkan pesan kesalahan (error message) kembali ke node 1, yang meneruskannya ke Alice. Rute ini telah gagal.
 
 ![LNP201](assets/en/66.webp)
 
-Alice kemudian mencoba merutekan pembayarannya menggunakan rute keduanya (`Alice → 1 → 2 → 4 → 5 → Bob`). Dia mengirimkan HTLC sebesar 100.000 sats ke node 1, yang meneruskannya ke node 2, lalu ke node 4, ke node 5, dan akhirnya ke Bob. Kali ini, likuiditasnya cukup, dan rute berfungsi. Setiap node membuka kunci HTLC-nya secara bertahap menggunakan preimage yang disediakan oleh Bob (rahasia _s_), yang memungkinkan pembayaran Alice ke Bob berhasil diselesaikan.
+Alice kemudian mencoba merutekan pembayarannya menggunakan rute keduanya (`Alice → 1 → 2 → 4 → 5 → Bob`). Alice mengirimkan HTLC sebesar 100.000 sats ke node 1, yang meneruskannya ke node 2, lalu ke node 4, ke node 5, dan akhirnya ke Bob. Kali ini, likuiditasnya cukup, dan rute berfungsi. Setiap node membuka kunci HTLC-nya secara bertahap menggunakan preimage yang disediakan oleh Bob (rahasia _s_), yang memungkinkan pembayaran Alice ke Bob berhasil diselesaikan.
 
 ![LNP201](assets/en/67.webp)
 
@@ -761,13 +762,13 @@ Pencarian rute dilakukan sebagai berikut: node pengirim mulai dengan mengidentif
 
 Penting untuk dicatat bahwa Bob dapat memberikan informasi kepada Alice dalam **invoice** untuk memfasilitasi perutean. Misalnya, dia dapat menunjukkan saluran terdekat dengan likuiditas yang cukup atau mengungkapkan keberadaan saluran privat. Indikasi ini memungkinkan Alice menghindari rute dengan peluang keberhasilan yang kecil dan terlebih dahulu mencoba jalur yang direkomendasikan oleh Bob.
 
-**Apa yang harus Anda ambil dari bab ini?**
+**Apa yang bisa Anda dapatkan dari bab ini?**
 
 - Node mempertahankan peta topologi jaringan melalui pengumuman dan dengan memantau penutupan saluran di blockchain Bitcoin.
-- Pencarian rute optimal untuk pembayaran tetap probabilistik dan bergantung pada banyak kriteria.
+- Pencarian rute optimal untuk pembayaran tetap probabilistik (dengan kemungkinan) dan bergantung pada banyak kriteria.
 - Bob dapat memberikan indikasi dalam **invoice** untuk memandu perutean Alice dan menyelamatkannya dari menguji rute yang tidak mungkin.
 
-Dalam bab berikutnya, kita akan secara khusus mempelajari fungsi invoice, selain beberapa alat lain yang digunakan di Jaringan Lightning.
+Dalam bab berikutnya, kita akan secara khusus mempelajari fungsi invoice, juga beberapa alat lain yang digunakan di Lightning Network (Jaringan Lightning).
 
 # Alat-alat Jaringan Lightning
 
@@ -777,7 +778,8 @@ Dalam bab berikutnya, kita akan secara khusus mempelajari fungsi invoice, selain
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
-Dalam bab ini, kita akan melihat lebih dekat operasi **invoice** Lightning, yaitu permintaan pembayaran yang dikirim oleh node penerima ke node pengirim. Tujuannya adalah untuk memahami cara membayar dan menerima pembayaran di Lightning. Kita juga akan membahas 2 alternatif untuk invoice klasik: LNURL dan Keysend.
+
+Dalam bab ini, kita akan membahas cara kerja **invoice** Lightning, yaitu permintaan pembayaran yang dikirim oleh node penerima ke node pengirim. Tujuannya adalah untuk memahami cara membayar dan menerima pembayaran di Lightning. Kita juga akan membahas 2 alternatif untuk invoice klasik: LNURL dan Keysend.
 ![LNP201](assets/en/68.webp)
 
 ### Struktur Invoice Lightning

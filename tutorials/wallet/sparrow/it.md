@@ -12,7 +12,7 @@ Esistono due modi per utilizzare Sparrow:
 - Come un Hot Wallet, dove le chiavi private sono memorizzate sul PC.
 - Come gestore di un Cold Wallet, in cui le chiavi private sono conservate in un Hardware Wallet. In questa modalità, Sparrow gestisce solo le informazioni pubbliche del Wallet, tiene traccia dei fondi, genera indirizzi e crea transazioni, ma la firma dell'Hardware Wallet è necessaria per rendere valide queste transazioni. Può quindi sostituire applicazioni come Ledger Live o Trezor Suite.
 
-Sparrow supporta wallet a firma singola e multipla e consente una gestione fluida di più wallet. Ad esempio, è possibile controllare simultaneamente un wallet collegato a un Ledger, un altro a un Trezor e anche un Hot Wallet.
+Sparrow supporta Wallet a firma singola e multipla e consente una gestione fluida di più Wallet. Ad esempio, è possibile controllare simultaneamente un Wallet collegato a un Ledger, un altro a un Trezor e anche un Hot Wallet.
 
 Il software offre anche funzioni avanzate di controllo delle monete, consentendo di scegliere con precisione quali UTXO utilizzare nelle transazioni per ottimizzare la riservatezza.
 
@@ -20,7 +20,7 @@ In termini di connessione, Sparrow consente di collegarsi al proprio nodo Bitcoi
 
 ## Installare Sparrow Wallet
 
-Vai sulla [pagina ufficiale di download di Sparrow Wallet](https://sparrowwallet.com/download/) e scegli la versione del software corrispondente al tuo sistema operativo.
+Vai sulla [pagina ufficiale per il download di Sparrow Wallet](https://sparrowwallet.com/download/) e scegli la versione del software corrispondente al tuo sistema operativo.
 
 ![Image](assets/fr/01.webp)
 
@@ -71,7 +71,8 @@ Per configurare un nodo Bitcoin Core, puoi consultare una delle seguenti esercit
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
-Su Sparrow, andare alla scheda "*Bitcoin Core*".
+
+Su Sparrow, vai alla scheda "*Bitcoin Core*".
 
 ![Image](assets/fr/07.webp)
 
@@ -91,7 +92,7 @@ Non dimentica di riavviare il software dopo aver apportato queste modifiche.
 
 ![Image](assets/fr/08.webp)
 
-Torna quindi su Sparrow Wallet e inserisci il percorso del file cookie, solitamente situato nella stessa cartella di `Bitcoin.conf`, a seconda del sistema operativo:
+Torna quindi su Sparrow e inserisci il percorso del file cookie, solitamente situato nella stessa cartella di `Bitcoin.conf`, a seconda del sistema operativo:
 
 | **macOS** | ~/Libreria/Application Support/Bitcoin |
 
@@ -351,7 +352,7 @@ Inserisci l'Address del destinatario nel campo "*Pay to*". Puoi anche scansionar
 
 ![Image](assets/fr/50.webp)
 
-Aggiungi un'etichetta alla tua transazione per ricordarti il suo scopo. Questa etichetta sarà anche associata al tuo eventuale Exchange.
+Aggiungi un'etichetta alla tua transazione per ricordarti da dove proviene. Questa etichetta sarà anche associata al tuo eventuale resto.
 
 ![Image](assets/fr/51.webp)
 

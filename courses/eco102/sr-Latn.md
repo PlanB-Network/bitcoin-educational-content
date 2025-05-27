@@ -99,22 +99,22 @@ Ispostavilo se da je nakon Drugog svetskog rata jedna od njegovih knjiga objavlj
 
 ![image](assets/en/003.webp)
 
-_(Tržnica u Mugronu u Landesu, rodnom mestu Bastijata)_
+_(Tržnica u Mugronu u Landesu, rodnom mestu Bastiata)_
 
 
-Dakle, nepriznati genije, ali i svetlost za naše vreme. Zaista, Frédéric Bastiat, koji je rođen u Bajoni, prvo je deo svog života proveo u Landu gde je upravljao poljoprivrednim imanjem koje je nasledio i vodio je život kao preduzetnik. Zatim se, vrlo rano, zainteresovao za ekonomiju, putovao je u Englesku, upoznao Ričarda Kobdena koji je bio vođa pokreta za slobodnu trgovinu. Bastiat je bio fasciniran ovim pokretom, bio je uveren da je slobodna trgovina rešenje za Francusku i odlučio je da pokuša da širi svoje ideje u Francuskoj. Pisao je članke koji su bili veoma uspešni i preselio se u Pariz da vodi novine koje su se tada zvale Journal des économistes.
+Dakle, nepriznati genije, ali i svetionik za naše vreme. Zaista, Frédéric Bastiat, koji je rođen u Bajoni, prvo je deo svog života proveo u Landu gde je upravljao poljoprivrednim imanjem koje je nasledio i vodio je život kao preduzetnik. Zatim se, vrlo rano, zainteresovao za ekonomiju, putovao je u Englesku, upoznao Ričarda Kobdena koji je bio vođa pokreta za slobodnu trgovinu. Bastiat je bio fasciniran ovim pokretom, bio je uveren da je slobodna trgovina rešenje za Francusku i odlučio je da pokuša da širi svoje ideje u Francuskoj. Pisao je članke koji su bili veoma uspešni i preselio se u Pariz da vodi novine koje su se tada zvale Journal des économistes.
 
 
 ![image](assets/en/004.webp)
 
 
-Bio je takođe filozof i mislilac o društvu, društvenom poretku, pravdi, zakonu, mislilac o pravima. I u tom smislu, možemo reći da je Bastija svetlost za naše vreme. I želeo bih da zaključim s tim. On je neko ko je pokušao da razume funkcionisanje političkog tržišta. Naravno, on je takođe branilac tržišne ekonomije, za koga je na kraju tržišna ekonomija najbolji način za stvaranje bogatstva. Ali pored toga, i tu je neprepoznat, razumeo je mehanizme političkog tržišta.
+Bio je takođe filozof i mislilac o društvu, društvenom poretku, pravdi, zakonu, mislilac o pravima. I u tom smislu, možemo reći da je Bastiat svetionik za naše vreme. I želeo bih da zaključim s tim. On je neko ko je pokušao da razume funkcionisanje političkog tržišta. Naravno, on je takođe branilac tržišne ekonomije, za koju je smatrao da je najbolji način za stvaranje bogatstva. Ali pored toga, i tu je neprepoznat, razumeo je mehanizme političkog tržišta.
 
 
 ![image](assets/en/005.webp)
 
 
-Kada je izabran za poslanika, to je bilo tokom Druge republike, i od tog trenutka nadalje, narod je bio taj koji je donosio zakone. U to vreme, Bastiat je bio svedok svojevrsne inflacije zakona u svim pravcima, uključujući stvaranje javnih službi, socijalnih prava, poreza, itd.
+Kada je izabran za poslanika, to je bilo tokom Druge Republike, i od tog trenutka nadalje, narod je bio taj koji je donosio zakone. U to vreme, Bastiat je bio svedok svojevrsne inflacije zakona u svim pravcima, uključujući stvaranje javnih službi, socijalnih prava, poreza, itd.
 
 
 ![image](assets/en/006.webp)
@@ -149,9 +149,9 @@ Godine 1844, Frédéric Bastiat je otišao na poslovno putovanje u Španiju. Nak
 ![image](assets/en/007.webp)
 
 
-Bilo je to tamo gde će se tok njegovog života radikalno promeniti. On sam priča da je njegova vokacija kao ekonomiste bila odlučena u tom trenutku. Po povratku u Francusku, imao je samo jednu ideju na umu: da učini Francusku svesnom liberalnog pokreta koji se budi u Engleskoj.
+Tamo se njegov život radikalno promenio. Sam je ispričao da je njegova vokacija kao ekonomiste bila odlučena u tom trenutku. Po povratku u Francusku, imao je samo jednu ideju na umu: da učini Francusku svesnom liberalnog pokreta koji se budi u Engleskoj.
 
-Frédéric Bastiat je rođen u Bajoni 30. juna 1801. Ostavši siroče u dobi od 9 godina, nastavio je školovanje na katoličkom koledžu u Sorezu. Bio je nadaren za jezike, naučivši engleski, španski, pa čak i baskijski. Međutim, nije bio motivisan za studije i odlučio je da ne polaže maturu, već je umesto toga izabrao da radi u uvozno-izvoznoj firmi svog ujaka u Bajoni.
+Frédéric Bastiat je rođen u Bajoni 30. juna 1801. Ostao je siroče sa 9 godina, nastavio je školovanje na katoličkom koledžu u Sorezu. Bio je nadaren za jezike, naučio je engleski, španski, pa čak i baskijski. Međutim, nije bio motivisan za studije i odlučio je da ne polaže maturu, već je umesto toga izabrao da radi u uvozno-izvoznoj firmi svog ujaka u Bajoni.
 
 
 Godine 1825. nasledio je poljoprivredno imanje od svog dede, koje je upravljao kao "džentlmen-farmer", kako je sam rekao. Tada se prvi put susreo sa problemima izazvanim nedostatkom jasne definicije vlasničkih prava. Odlučio je da postane mirovni sudija u svom gradu Mugronu, u srcu Landesa, komercijalne i rečne raskrsnice između luka Bordo i Bajon. Kasnije je izabran za člana Generalnog saveta Landesa.

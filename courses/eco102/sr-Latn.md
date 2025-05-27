@@ -160,7 +160,7 @@ Godine 1825. nasledio je poljoprivredno imanje od svog dede, koje je upravljao k
 ![image](assets/en/008.webp)
 
 
-Brzo je razvio strast prema političkoj ekonomiji i proučavao dela Adama Smita, Žan-Batista Seja, Destuta de Trasija, Šarla Dunojera i Šarla Komtea. Čitao je engleske novine i tamo je saznao za postojanje engleske lige za slobodnu trgovinu.
+Brzo je razvio strast prema političkoj ekonomiji i proučavao dela Adam-a Smit-a, Jean-Baptist-a Say-a, Destutt-a de Tracy-ja, Charles-a Dunoyer-a i Charles-a Comte-a. Čitao je engleske novine i tamo je saznao za postojanje engleske lige za slobodnu trgovinu.
 
 
 ![image](assets/en/009.webp)
@@ -168,16 +168,16 @@ Brzo je razvio strast prema političkoj ekonomiji i proučavao dela Adama Smita,
 _(Recimo, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
 
-Po povratku iz Engleske, napisao je članak pod naslovom: "O uticaju engleskih i francuskih tarifa na budućnost dva naroda," koji je poslao časopisu Journal des Économistes u Parizu. Članak se pojavio u izdanju za oktobar 1844. godine i bio je potpuni uspeh. Svi su se divili njegovoj snažnoj i prodornoj argumentaciji, njegovom trezvenom i elegantnom stilu.
+Po povratku iz Engleske, napisao je članak pod naslovom: "O uticaju engleskih i francuskih tarifa na budućnost dva naroda," koji je poslao časopisu Journal des Économistes u Parizu. Članak se pojavio u oktobarskom izdanju 1844. godine i bio je potpuni uspeh. Svi su se divili njegovoj snažnoj i oštroumnoj argumentaciji, kao i njegovom trezvenom i elegantnom stilu.
 
 
 ![image](assets/en/010.webp)
 
 
-Journal des Économistes ga je zatim zamolio za još članaka, a nekoliko članova Društva za političku ekonomiju, posebno Horace Say, sin Jean-Baptiste Saya, i Michel Chevalier, poznati profesor, čestitali su mu, ohrabrujući ga da nastavi s njima u radu na širenju ekonomskih istina. Ovo je označilo početak novog života u Parizu.
+Journal des Économistes ga je zatim zamolio za još članaka, a nekoliko članova Društva za političku ekonomiju, posebno Horace Say, sin Jean-Baptiste Say-a, i Michel Chevalier, poznati profesor, čestitali su mu, ohrabrujući ga da nastavi s njima u radu na širenju ekonomskih istina. Ovo je označilo početak novog života u Parizu.
 
 
-Prvo je objavio početnu seriju Ekonomskih sofizama, u kojoj je napao protekcioniste sa smelošću i ironijom. U Parizu je čak započeo kurs političke ekonomije u privatnoj sobi, kojem je s oduševljenjem prisustvovala studentska elita.
+Prvo je objavio početnu seriju Ekonomskih sofizama, u kojoj je napao protekcioniste sa smelošću i ironijom. U Parizu je čak započeo kurs političke ekonomije u privatnoj sobi, koji je sa velikim interesovanjem pohađala studentska elita.
 
 
 ![image](assets/en/011.webp)
@@ -185,23 +185,23 @@ Prvo je objavio početnu seriju Ekonomskih sofizama, u kojoj je napao protekcion
 
 Naredne godine osnovao je "Udruženje za slobodnu trgovinu" u Francuskoj i uključio se u borbu protiv protekcionizma u Francuskoj. Prikupljao je sredstva, kreirao nedeljni pregled i držao predavanja širom zemlje.
 
-Prvi sastanak održan je u Bordou 23. februara 1846. godine, tokom kojeg je osnovana Bordoška asocijacija za slobodnu trgovinu. Ubrzo se pokret proširio širom Francuske. U Parizu je formirana početna jezgra među članovima Društva ekonomista, kojoj su se pridružili poslanici, industrijalci i trgovci. Značajne grupe su se takođe formirale u Marselju, Lionu i Le Avru.
+Prvi sastanak održan je u Bordou 23. februara 1846. godine, tokom kojeg je osnovana Bordoška asocijacija za slobodnu trgovinu. Ubrzo se pokret proširio širom Francuske. U Parizu je formirano početno jezgro među članovima Društva ekonomista, kojem su se pridružili poslanici, industrijalci i trgovci. Značajne grupe su se takođe formirale u Marselju, Lionu i Le Avru.
 
 ![image](assets/en/005.webp)
 
 
-Februarska revolucija 1848. zbacila je monarhiju Luja-Filipa, poznatu kao Julska monarhija (1830-1848), i donela Drugu republiku. Bastija je tada izabran za člana zakonodavne skupštine kao poslanik za Landes. Sedeo je u centru-levo, sa Aleksisom de Tokvilom, između monarhista i socijalista. Tamo se trudio da brani individualne slobode kao što su građanske slobode i protivio se svim restriktivnim politikama, bilo da dolaze s desna ili s leva. Izabran je za potpredsednika Finansijskog odbora i neprestano se trudio da podseti svoje kolege poslanike na ovu jednostavnu istinu, često zaboravljenu u parlamentima:
+Februarska revolucija 1848. zbacila je monarhiju  Louis-Philippe, poznatu kao Julska monarhija (1830-1848), i donela Drugu Republiku. Bastija je tada izabran za člana zakonodavne skupštine kao poslanik za Landes. Sedeo je u centru-levo, sa Alexis-om de Tocqueville-om, između monarhista i socijalista. Tamo se trudio da brani individualne slobode kao što su građanske slobode i protivio se svim restriktivnim politikama, bilo da dolaze s desna ili s leva. Izabran je za potpredsednika Finansijskog odbora i neprestano se trudio da podseti svoje kolege poslanike na ovu jednostavnu istinu, često zaboravljenu u parlamentima:
 
 
 > Ne može se dati nekima, po zakonu, a da se ne bude obavezan uzeti od drugih po drugom zakonu.
 
-Gotovo sve njegove knjige i eseji napisani su tokom poslednjih šest godina njegovog života, od 1844. do 1850. godine. Godine 1850. Bastija je napisao dva svoja najpoznatija dela: Zakon i seriju pamfleta pod nazivom Šta se vidi i šta se ne vidi. Zakon je preveden na mnoge strane jezike, uključujući engleski, nemački, španski, ruski i italijanski.
+Gotovo sve njegove knjige i eseji napisani su tokom poslednjih šest godina njegovog života, od 1844. do 1850. godine. Godine 1850. Bastija je napisao dva svoja najpoznatija dela: "Zakon"(The Law) i seriju pamfleta pod nazivom "Šta se vidi i šta se ne vidi"(What is Seen and What is Not Seen). "Zakon" je preveden na mnoge strane jezike, uključujući engleski, nemački, španski, ruski i italijanski.
 
 
 ![image](assets/en/012.webp)
 
 
-Umro je u Rimu 1850. godine, od tuberkuloze. Sahranjen je u crkvi Svetog Luja od Francuza u Rimu.
+Umro je u Rimu 1850. godine, od tuberkuloze. Sahranjen je u crkvi Saint Louis des Français u Rimu.
 
 
 ![image](assets/en/013.webp)
@@ -219,7 +219,7 @@ Umro je u Rimu 1850. godine, od tuberkuloze. Sahranjen je u crkvi Svetog Luja od
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
 
-U ekonomiji, Bastiat je uvek priznavao svoj dug Adamu Smithu i Jean-Baptiste Sayu. Sa 26 godina, napisao je jednom od svojih prijatelja, "Nikada nisam čitao o ovim temama osim ova četiri dela, Smith, Say, Destutt i Censor."
+U ekonomiji, Bastiat je uvek priznavao svoj dug Adam-u Smith-u i Jean-Baptiste-u Say-u. Sa 26 godina, napisao je jednom od svojih prijatelja, "Nikada nisam čitao o ovim temama osim ova četiri dela, Smith, Say, Destutt i Censor."
 
 
 ![image](assets/en/014.webp)
@@ -227,7 +227,7 @@ U ekonomiji, Bastiat je uvek priznavao svoj dug Adamu Smithu i Jean-Baptiste Say
 _(Jean-Baptiste Say i Adam Smith)_
 
 
-Politička ekonomija, kako su je zamislili Adam Smit i J.-B. Sej, sažeta je u jednoj reči: sloboda. Sloboda trgovine, individualna sloboda, slobodna trgovina i slobodna inicijativa. Slobodnu trgovinu su prvi branili fiziokrati, kao što su Fransoa Kene i Vensan de Gurne, a zatim Adam Smit koji je sintetizovao njihove ideje sa svojim zapažanjima. Na kraju, krajem 18. veka, Žan-Batist Sej je razjasnio i ispravio neke tačke doktrine svog učitelja Adama Smita u svom majstorskom Traktatu o političkoj ekonomiji.
+Politička ekonomija, kako su je zamislili Adam Smith i J.-B. Say, sažeta je u jednoj reči: sloboda. Sloboda trgovine, individualna sloboda, slobodna trgovina i slobodna inicijativa. Slobodnu trgovinu su prvi branili fiziokrati, kao što su François Quesnay i Vincent de Gournay, a zatim Adam Smith koji je sintetizovao njihove ideje sa svojim sopstvenim zapažanjima. Na kraju, krajem 18. veka, Jean-Baptiste Say je razjasnio i ispravio neke tačke doktrine svog učitelja Adam-a Smith-a u svom majstorskom delu "Traktat o političkoj ekonomiji"(Treatise on Political Economy).
 
 
 ![image](assets/en/015.webp)
@@ -241,10 +241,10 @@ Adam Smith je bio zainteresovan za prosperitet, ne kao cilj sam po sebi, već ka
 ![image](assets/en/016.webp)
 
 
-Velika novina modernih ekonomista na početku 18. veka je da su zainteresovani za svakog pojedinca sa voljom da obnove svoju sposobnost delovanja, dok razmišljaju o tome kako obuzdati strasti i sukobe. Čovek prirodno želi da poboljša svoj položaj i položaj svojih voljenih kroz Exchange dobara i usluga.
+Velika novina modernih ekonomista na početku 18. veka je da su zainteresovani za svakog pojedinca sa voljom da obnove njegovu sposobnost delovanja, dok razmišljaju o tome kako obuzdati strasti i sukobe. Čovek prirodno želi da poboljša svoj položaj i položaj svojih voljenih kroz razmenu dobara i usluga.
 
 
-Ono što Adam Smit pokazuje jeste da se sopstveni interes može zadovoljiti samo služeći interesima drugih:
+Ono što Adam Smith pokazuje jeste da se sopstveni interes može zadovoljiti samo služeći interesima drugih:
 
 
 > Dajte mi ono što mi treba, i dobićete od mene ono što vama treba. (...) Ne očekujemo našu večeru iz dobrote mesara, pivara ili pekara, već iz njihove brige za sopstveni interes.
@@ -259,7 +259,7 @@ Ono što Adam Smit pokazuje jeste da se sopstveni interes može zadovoljiti samo
 
 ---
 
-Exchange je igra sa pozitivnom sumom. Ono što jedan dobije, dobija i drugi. Tako se razlikuje od političke redistribucije gde uvek postoji pobednik i gubitnik. Ako uzmemo u obzir englesku školu, za Smita, za Rikarda i za Loka pre njih, vrednost je povezana sa radom. Za Marksa, isto je.
+Razmena je igra sa pozitivnim ishodom. Ono što jedan dobije, dobija i drugi. Tako se razlikuje od političke redistribucije gde uvek postoji pobednik i gubitnik. Ako uzmemo u obzir englesku školu, za Smith-a, za Ricardo-a i za Locke-a pre njih, vrednost je povezana sa radom. Za Marksa, to je isto.
 
 
 ![image](assets/en/018.webp)
@@ -267,12 +267,12 @@ Exchange je igra sa pozitivnom sumom. Ono što jedan dobije, dobija i drugi. Tak
 _(Marx, Ricardo, Smith, Locke)_
 
 
-S druge strane, Bastiat će priznati sa Jean-Baptiste Sayom da je korisnost pravi temelj vrednosti. Rad ne stvara vrednost. Oskudica takođe ne. Sve proizlazi iz korisnosti. Zaista, niko ne pristaje da plati za uslugu osim ako je ne smatra korisnom. Čovek proizvodi samo korisnost.
+S druge strane, Bastiat će priznati sa Jean-Baptiste Say-om da je korisnost pravi temelj vrednosti. Rad ne stvara vrednost. Oskudica takođe ne. Sve proizlazi iz korisnosti. Zaista, niko ne pristaje da plati za uslugu osim ako je ne smatra korisnom. Čovek proizvodi samo korisnost.
 
-Ali Bastiat je takođe nijansirao Say-a po ovom pitanju. Nije reč o korisnosti koja je u stvarima, već o relativnoj korisnosti usluga. "Vrednost je odnos dve razmenjene usluge," prema njegovim rečima. Dakle, vrednost je subjektivna, a jedini način da se shvate preferencije pojedinaca je posmatranje njihovog ponašanja na slobodnom tržištu. Tržište otkriva individualne preferencije i veliki je regulator društva kroz Exchange.
+Ali Bastiat je takođe nijansirao Say-a po ovom pitanju. Nije reč o korisnosti koja je u stvarima, već o relativnoj korisnosti usluga. "Vrednost je odnos dve razmenjene usluge," prema njegovim rečima. Dakle, vrednost je subjektivna, a jedini način da se shvate preferencije pojedinaca je posmatranje njihovog ponašanja na slobodnom tržištu. Tržište otkriva individualne preferencije i veliki je regulator društva kroz razmenu.
 
 
-Ekonomija se pokorava brojnim jednostavnim zakonima izvedenim iz ljudskog ponašanja. Jedan od njih, nazvan "Sejev zakon", glasi: "Proizvodi i usluge se razmenjuju za proizvode i usluge." Njegova ideja je da nacije i pojedinci imaju koristi od povećanja nivoa proizvodnje jer to nudi povećane mogućnosti za uzajamno korisne razmene.
+Ekonomija se pokorava brojnim jednostavnim zakonima izvedenim iz ljudskog ponašanja. Jedan od njih, nazvan "Say-ev zakon", glasi: "Proizvodi i usluge se razmenjuju za proizvode i usluge." Njegova ideja je da nacije i pojedinci imaju koristi od povećanja nivoa proizvodnje jer to nudi povećane mogućnosti za uzajamno korisne razmene.
 
 
 ![image](assets/en/019.webp)
@@ -283,18 +283,18 @@ Ekonomija se pokorava brojnim jednostavnim zakonima izvedenim iz ljudskog ponaš
 
 ---
 
-Zaista, proizvodi se kupuju samo u očekivanju usluga koje kupac očekuje: Kupujem disk zbog muzike koju ću slušati, kupujem kartu za film koji ću gledati. I u Exchange, svaka strana odlučuje jer procenjuje da može izvući više usluga iz onoga što stiče nego što odustaje. U ovom kontekstu, novac je samo posrednička roba, on nadoknađuje pruženu uslugu i otvara druge usluge.
+Zaista, proizvodi se kupuju samo u očekivanju usluga koje kupac očekuje: Kupujem disk zbog muzike koju ću slušati, kupujem kartu za film koji ću gledati. U razmeni, svaka strana odlučuje jer procenjuje da može izvući više usluga iz onoga što stiče nego iz onoga od čega odustaje. U ovom kontekstu, novac je samo posrednička roba, on nadoknađuje pruženu uslugu i otvara druge usluge.
 
 
-Za Bastijata, ekonomija razmena, odnosno, međusobnih usluga koje se slobodno nude i prihvataju, je ono što podržava mir i prosperitet, omogućavajući harmoniju interesa.
+Za Bastiat-a, ekonomija razmena, odnosno, međusobnih usluga koje se slobodno nude i prihvataju, je ono što podržava mir i prosperitet, omogućavajući harmoniju interesa.
 
 
-Ali od Jean-Baptiste Saya, Frédéric Bastiat takođe nasleđuje ključni koncept, onaj pljačke. Jer, kaže on, odjekujući reči Saya:
+Ali od Jean-Baptiste Say-a, Frédéric Bastiat takođe nasleđuje ključni koncept, koncept pljačke. Jer, kako kaže, cititajući reči Say-a:
 
 
 > Postoje samo dva načina da se steknu stvari neophodne za očuvanje, ulepšavanje i unapređenje života: proizvodnja i pljačka.
 
-Proizvođači pribegavaju ubeđivanju, pregovorima i Contract, dok pljačkaši pribegavaju sili i prevari. Stoga je na zakonu da suzbije pljačku i obezbedi rad kao i imovinu. Kao što je Adam Smit već naveo, obezbeđivanje sigurnosti građana je glavna misija javne vlasti, i to je ono što opravdava ubiranje poreza.
+Proizvođači pribegavaju ubeđivanju, pregovorima i ugovoru, dok pljačkaši pribegavaju sili i prevari. Stoga je na zakonu da suzbije pljačku i obezbedi rad kao i imovinu. Kao što je Adam Smith već naveo, obezbeđivanje bezbednosti građana je glavna misija javne vlasti, i to je ono što opravdava naplatu poreza.
 
 
 ![image](assets/en/020.webp)
@@ -306,10 +306,10 @@ Proizvođači pribegavaju ubeđivanju, pregovorima i Contract, dok pljačkaši p
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
 
-Malo je poznato, ali Destutt de Tracy je imao odlučujući uticaj na budućeg predsednika Sjedinjenih Američkih Država, Tomasa Džefersona, dok je bio ambasador u Parizu 1780-ih.
+Malo je poznato, ali Destutt de Tracy je imao odlučujući uticaj na budućeg predsednika Sjedinjenih Američkih Država, Thomas-a Jefferson-a, dok je bio ambasador u Parizu 1780-ih.
 
 
-> "Za svakog čoveka, prva zemlja je njegova domovina, a druga je Francuska" & "Tiranija je kada se narod boji svoje vlade; sloboda je kada se vlada boji naroda."
+> "Za svakog čoveka, njegova prva zemlja je njegova domovina, a druga je Francuska" & "Tiranija je kada se narod boji svoje vlade; sloboda je kada se vlada boji naroda."
 >
 
 > Thomas Jefferson

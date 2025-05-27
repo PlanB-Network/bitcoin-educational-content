@@ -317,13 +317,13 @@ Malo je poznato, ali Destutt de Tracy je imao odlučujući uticaj na budućeg pr
 ![image](assets/en/021.webp)
 
 
-Zaista, njegov Traktat o političkoj ekonomiji osudio je protekcionizam i Napoleonovu ekspanziju. Stoga ga je Bonaparte zabranio za objavljivanje u Francuskoj. Međutim, preveden je na engleski i objavljen u Sjedinjenim Državama od strane samog Džefersona. On je ovaj tekst učinio prvim udžbenikom političke ekonomije Univerziteta u Virdžiniji, koji je upravo osnovao u Šarlotsvilu. Traktat je u Francuskoj objavljen tek 1819. godine!
+Zaista, njegov Traktat o političkoj ekonomiji osudio je protekcionizam i Napoleonovu ekspanziju. Stoga ga je Bonaparte zabranio za objavljivanje u Francuskoj. Međutim, preveden je na engleski i objavljen u Sjedinjenim Državama od strane Džefersona lično. On je ovaj tekst učinio prvim udžbenikom političke ekonomije na Univerzitetu u Virdžiniji, koji je upravo osnovao u Šarlotsvilu. Traktat je u Francuskoj objavljen tek 1819. godine!
 
 
 ![image](assets/en/022.webp)
 
 
-Destutt de Tracy, filozof i ekonomista, bio je vođa takozvane škole "Ideologa", koja je uključivala ljude poput Cabanisa, Condorceta, Constanta, Daunoua, Saya i Germaine de Staël. Oni su naslednici fiziokrata i direktni učenici Turgota.
+Destutt de Tracy, filozof i ekonomista, bio je vođa takozvane škole "Ideologa", koja je uključivala ljude poput Cabanis-a, Condorcet-a, Constant-a, Daunou-a, Say-a i Germaine de Staël-a. Oni su naslednici fiziokrata i direktni učenici Turgot-a.
 
 
 ![image](assets/en/023.webp)
@@ -332,27 +332,27 @@ Destutt de Tracy, filozof i ekonomista, bio je vođa takozvane škole "Ideologa"
 ![image](assets/en/024.webp)
 
 
-Po ideologiji, Trejsi je jednostavno mislio na nauku koja se bavi proučavanjem ideja, njihovim poreklom, njihovim zakonima, njihovim odnosom sa jezikom, to jest, u savremenijim terminima, epistemologijom. Termin "ideologija" nije imao pežorativnu konotaciju koju će mu kasnije dati Marks kako bi diskreditovao ekonomiste "laissez-faire". Časopis ideološkog pokreta zvao se La Décade philosophique et littéraire.
+Pod ideologijom, Tracy je jednostavno mislio na nauku koja se bavi proučavanjem ideja, njihovim poreklom, njihovim zakonima, njihovim odnosom sa jezikom, to jest, u savremenijim terminima, epistemologijom. Termin "ideologija" nije imao pežorativnu konotaciju koju će mu kasnije dati Marks kako bi diskreditovao ekonomiste "laissez-faire". Časopis ideološkog pokreta zvao se La Décade philosophique et littéraire.
 
 
 ![image](assets/en/025.webp)
 
 
-Dominirao je revolucionarnim periodom i njime je upravljao Jean-Baptiste Say. Destutt de Tracy je izabran za člana Francuske akademije 1808. godine i Akademije moralnih i političkih nauka 1832. godine. Njegova ćerka se udala za Georges Washingtona de La Fayettea (sina prvog američkog predsednika) 1802. godine, što pokazuje blisku povezanost koja je tada još uvek postojala između Francuske i mlade Amerike.
+Dominirao je revolucionarnim periodom i njime je upravljao Jean-Baptiste Say. Destutt de Tracy je izabran za člana Francuske akademije 1808. godine i Akademije moralnih i političkih nauka 1832. godine. Njegova ćerka se udala za Georges Washington-a de La Fayettea (sina prvog američkog predsednika) 1802. godine, što pokazuje blisku povezanost koja je tada još uvek postojala između Francuske i mlade Amerike.
 
 
 ![image](assets/en/026.webp)
 
-Svrha njegovog Traktata o političkoj ekonomiji je da "ispita najbolji način da se uposle sve naše fizičke i intelektualne sposobnosti kako bismo zadovoljili naše različite potrebe." Njegova ideja je da je trgovina izvor sveg ljudskog dobra; ona je civilizirajuća, racionalizirajuća i pacificirajuća sila sveta. Velika maksima političke ekonomije koju je on formulisao glasi: "trgovina je celokupno društvo, baš kao što je rad celokupno bogatstvo." Zaista, on vidi društvo kao "kontinuirani niz razmena u kojima oba ugovarača uvek dobijaju." Stoga, tržište je suprotnost predatorstvu. Ono obogaćuje neke bez osiromašivanja drugih. Kako će kasnije biti rečeno, to nije "igra sa nultim zbirom," već igra sa pozitivnim zbirom.
+Svrha njegovog Traktata o političkoj ekonomiji je da "ispita najbolji način da se uposle sve naše fizičke i intelektualne sposobnosti kako bismo zadovoljili naše različite potrebe." Njegova ideja je da je trgovina izvor svih ljudskih dobara; ona je civilizirajuća, racionalizirajuća i umirujuća sila sveta. Velika maksima političke ekonomije koju je on formulisao glasi: "trgovina je celokupno društvo, baš kao što je rad celokupno bogatstvo." Zaista, on vidi društvo kao "kontinuirani niz razmena u kojima oba ugovarača uvek dobijaju." Stoga, tržište je suprotnost predatorstvu. Ono obogaćuje neke bez osiromašivanja drugih. Kako će kasnije biti rečeno, to nije "igra sa nultim ishodom," već igra sa pozitivnim ishodom.
 
 
-Naš autor ne ide toliko daleko da definiše političku ekonomiju kao nauku o razmenama. Ali ovo isto razmišljanje će preuzeti i sprovesti Bastiat. Prodaja je Exchange objekata, iznajmljivanje je Exchange usluga, a pozajmljivanje je samo odloženi Exchange. Politička ekonomija tako postaje za Bastiata "teorija Exchange."
+Naš autor ne ide toliko daleko da definiše političku ekonomiju kao nauku o razmenama. Ali ovo isto razmišljanje će preuzeti i sprovesti Bastiat. Prodaja je razmena objekata, iznajmljivanje je razmena usluga, a pozajmljivanje je samo odložena razmena. Politička ekonomija tako postaje za Bastiat-a "teorija razmene."
 
 
 ![image](assets/en/027.webp)
 
 
-Prema Destutt de Tracyju, vlasništvo nužno proizlazi iz naše prirode, iz naše sposobnosti želje. Ako čovek ništa ne želi, ne bi imao ni prava ni dužnosti. Da bi zadovoljio svoje potrebe i ispunio svoje dužnosti, čovek mora koristiti sredstva koja stiče svojim radom. A oblik društvene organizacije koji odgovara ovom cilju je privatno vlasništvo. Zato je jedini cilj vlade zaštita vlasništva i omogućavanje mirnog Exchange.
+Prema Destutt de Tracy-ju, vlasništvo nužno proizlazi iz naše prirode, iz naše sposobnosti i želje. Ako čovek ništa ne želi, ne bi imao ni prava ni dužnosti. Da bi zadovoljio svoje potrebe i ispunio svoje dužnosti, čovek mora koristiti sredstva koja stiče svojim radom. A oblik društvene organizacije koji odgovara ovom cilju je privatno vlasništvo. Zato je jedini cilj vlade zaštita vlasništva i omogućavanje mirne razmene.
 
 
 ![image](assets/en/028.webp)

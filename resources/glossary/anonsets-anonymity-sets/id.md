@@ -15,4 +15,4 @@ Himpunan anonimitas retrospektif menunjukkan jumlah kemungkianan asal suatu UTXO
 
 ![](../../dictionnaire/assets/40.webp)
 
-> ► *Dalam bahasa Prancis, istilah "anonset" secara umum digunakan. Namun, istilah ini dapat diterjemahkan sebagai "ensemble d'anonymat" atau "potentiel d'anonymat". Dalam bahasa Inggris dan Prancis, istilah "score" juga terkadang digunakan untuk merujuk pada anonset ("prospective score" dan "retrospective score")*
+> ► *Dalam bahasa Inggris, istilah "score" juga terkadang digunakan untuk merujuk pada anonset ("_prospective score_" dan "_retrospective score_")*

@@ -1,5 +1,5 @@
 ---
-name: The origins of economic Laissez-Faire
+name: The origins of the economics of Laissez-Faire
 goal: exploring the foundations of 18th-century French liberal economic thought, with a focus on the doctrine of laissez-faire, its leading thinkers, and lasting influence.
 objectives: 
 
@@ -17,12 +17,12 @@ In early 18th-century France, a new way of thinking about the economy began to t
 The phrase is said to have come from a conversation between a merchant and Minister Colbert. When the minister asked, "What can the government do to help your business?" the merchant replied, "Just let us do it." That simple answer captured the heart of a growing movement that argued for less government interference in the economy.
 
 
-Thinkers who supported this idea believed the role of government should be limited. It should protect individual rights, but avoid stepping into economic affairs, which they saw as delicate and easily disrupted. First and foremost, they argued, taxes should be collected fairly and equally for everyone (as put forward by Vauban and Boisguilbert). The government should also avoid devaluing money just to fund its own needs cheaply, a warning inspired by past financial crises, like the collapse under John Law and later, the failure of the assignats (highlighted by Cantillon and Dupont de Nemours). They also called for freedom of labor. That meant abolishing old trade guilds and ending the excessive rules that restricted industry and commerce. These outdated systems, they believed, slowed progress and hurt innovation (ideas supported by d'Argenson, Gournay, the Physiocrats, and Turgot).
+Thinkers who supported this idea believed the role of government should be limited. It should protect individual rights, but avoid stepping into economic affairs and disrupting it completely. First and foremost, they argued, taxes should be collected fairly and equally (as put forward by Vauban and Boisguilbert). The government should also avoid playing with money, devaluing it just to fund its own needs at a low cost (some example were highlighted by Richard Cantillon after the collapse under John Law and later, by and Dupont de Nemours after the failure of the assignats money phenomenon). They also called for freedom of labor. That meant abolishing old trade guilds and ending the excessive rules that restricted industry and commerce. These outdated systems hindered economic progress (ideas supported by d'Argenson, Gournay, the Physiocrats, and Turgot).
 
 
-Lastly, they argued for the free transportation and trade of goods(what became the extended phrase *laissez-faire, laissez-passer*) so consumers could benefit from better prices and nations could build peaceful, cooperative relationships through trade (championed by Quesnay, the Physiocrats, and the abbé de Saint-Pierre).
+Lastly, they argued for the free circulation of goods (what became the extended phrase *"laissez-faire", "laissez-passer"*) so consumers could benefit from better prices, and nations could build peaceful, cooperative relationships (championed by Quesnay, the Physiocrats, and the abbé de Saint-Pierre).
 
-By promoting these principles, 18th-century French economists laid the groundwork for modern economic thought. Their ideas not only influenced their own time but continue to shape how we understand economics today.
+By promoting these principles, 18th-century French economists laid the groundwork for economic thought. Their ideas greatly shaped their own time but continue to guide how we understand economics today.
 
 
 +++

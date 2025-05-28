@@ -1786,7 +1786,7 @@ Dovresti abilitare questa opzione se vuoi permettere al mondo esterno di creare 
 - Su ogni pagamento
 - Non aggiungere mai la fee di rete
 
-#### L'invoice scade se l'intero importo non è stato pagato dopo .. Minuti.
+#### L'invoice scade se l'intero importo non è stato pagato dopo "X" Minuti.
 
 Il timer dell'invoice è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo della criptovaluta secondo i tassi di cambio cripto a fiat. Se il cliente non paga l'invoice entro il periodo definito, l'invoice è considerata scaduta. L'invoice è considerata "pagata" non appena la transazione è visibile sulla blockchain (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, da 1 a 6). Il timer è personalizzabile.
 
@@ -1819,11 +1819,11 @@ Nel menu a sinistra, vai su Richiesta di Pagamento e clicca su "Crea Richiesta d
 
 ![immagine](assets/en/94.webp)
 
-Fornisci il Nome della Richiesta, Importo, Denominazione Visualizzata, Negozio Associato, Tempo di Scadenza & Descrizione (Opzionale)
+- Fornisci il Nome della Richiesta, Importo, Denominazione Visualizzata, Negozio Associato, Tempo di Scadenza & Descrizione (Opzionale)
 
-Seleziona l'opzione Consenti al pagante di creare invoice nella loro denominazione se vuoi consentire pagamenti parziali.
+- Seleziona l'opzione Consenti al pagante di creare invoice nella loro denominazione se vuoi consentire pagamenti parziali.
 
-Clicca su Salva & Visualizza per rivedere la richiesta di pagamento.
+- Clicca su Salva & Visualizza per rivedere la richiesta di pagamento.
 
 BTCPay crea un URL per la richiesta di pagamento. Condividi questo URL per visualizzare la tua richiesta di pagamento. Hai bisogno di più richieste uguali? Puoi duplicare le richieste di pagamento utilizzando l'opzione Clona nel menu principale.
 

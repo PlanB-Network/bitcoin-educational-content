@@ -15,4 +15,4 @@ term: OBSOLETE BLOCK (过时区块)
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ► *在英语中，它被称为 “Stale Block”。在法语中，它也可以被称为 “bloc périmé” 或 “bloc abandonné”。虽然我不同意这种用法，但一些比特币爱好者使用 “bloc orphelin” 来指代实际上已经过时的区块*。
+> ► *在英语中，它被称为 “Stale Block”，而它的中文翻译是 “过时区块”*。

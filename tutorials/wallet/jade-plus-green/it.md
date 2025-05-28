@@ -1,12 +1,12 @@
 ---
 name: Jade Plus - Green
-description: Configurare facilmente Jade Plus con Green
+description: Configura facilmente Jade Plus con Green
 ---
 ![cover](assets/cover.webp)
 
-Jade Plus è un Hardware Wallet per soli bitcoin progettato da Blockstream. È il successore del classico Jade, con miglioramenti del software, più opzioni e un'ergonomia ridisegnata per un uso più intuitivo. Questa nuova versione vanta un magnifico schermo LCD da 1,9 pollici, con una gamma di colori più ampia rispetto al suo predecessore. Anche i pulsanti e la navigazione nei menu sono stati ottimizzati.
+Jade Plus è un Hardware Wallet specifico per bitcoin progettato da Blockstream. È il successore del classico Jade, con miglioramenti del software, più opzioni e un'ergonomia ridisegnata per un uso più intuitivo. Questa nuova versione vanta un magnifico schermo LCD da 1,9 pollici, con una gamma di colori più ampia rispetto al suo predecessore. Anche i pulsanti e la navigazione nei menù sono stati ottimizzati.
 
-Jade Plus può essere utilizzato in diversi modi: tramite una connessione cablata USB-C, in modalità "*Air-Gap*" con una scheda micro SD (è necessario un adattatore), tramite Bluetooth o anche scambiando codici QR grazie alla fotocamera integrata. Questo Hardware Wallet è alimentato a batteria.
+Jade Plus può essere utilizzato in diversi modi: tramite una connessione cablata USB-C, in modalità "*Air-Gap*" con una scheda micro SD (è necessario un adattatore), tramite Bluetooth o anche scambiando [codici QR](https://planb.network/resources/glossary/qr-code) grazie alla fotocamera integrata. Questo Hardware Wallet è alimentato a batteria.
 
 È disponibile a partire da 149,99 dollari nella versione nera di base, e il prezzo può salire fino a 20 dollari per le versioni "*Genesis Grey*" o "*Lunar Silver*". Il Jade Plus è quindi una scelta interessante, con funzionalità avanzate paragonabili a quelle degli Hardware Wallet di fascia alta come Coldcard Q o Passport V2, ma ad un prezzo piuttosto basso, vicino ai modelli di fascia media.
 
@@ -34,7 +34,7 @@ electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 |
 
 custode | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🟢 | 🔴 |
 
-In questo tutorial, configuriamo e utilizziamo Jade Plus con l'applicazione mobile Green Wallet di Blockstream tramite una connessione Bluetooth. Questa configurazione è ideale per i principianti. Se sei alla ricerca di un approccio più avanzato, ti consiglio di dare un'occhiata a questo tutorial in cui utilizziamo Jade Plus con Sparrow mediante [Codice QR](https://planb.network/resources/glossary/qr-code):
+In questo tutorial, configuriamo e utilizziamo Jade Plus con l'applicazione mobile Green Wallet di Blockstream tramite una connessione Bluetooth. Questa configurazione è ideale per i principianti. Se sei alla ricerca di un approccio più avanzato, ti consiglio di dare un'occhiata a questo tutorial in cui utilizziamo Jade Plus con Sparrow mediante Codice QR:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
@@ -73,7 +73,7 @@ Il dispositivo dispone di 4 pulsanti di navigazione:
 
 
 - Il pulsante in basso a destra accende il Jade;
-- Il pulsante grande sulla parte anteriore del dispositivo serve a selezionare una voce;
+- Il pulsante grande sulla parte anteriore del dispositivo serve a selezionare una voce di menù;
 - I due piccoli pulsanti in alto consentono di navigare a destra e a sinistra;
 - È possibile selezionare un elemento anche facendo clic contemporaneamente sui due pulsanti nella parte superiore del dispositivo.
 
@@ -151,7 +151,7 @@ L'applicazione sta cercando il tuo Jade Plus.
 
 ![JADE-PLUS-GREEN](assets/fr/17.webp)
 
-Su Jade Plus, fai clic sul menu "*Bluetooth*".
+Su Jade Plus, fai clic sul menù "*Bluetooth*".
 
 ![JADE-PLUS-GREEN](assets/fr/18.webp)
 
@@ -181,7 +181,7 @@ Fai clic sul pulsante "*Continua*" per scegliere il codice PIN di Jade.
 
 ![JADE-PLUS-GREEN](assets/fr/24.webp)
 
-Il codice PIN sblocca il vtuo Jade. È quindi una protezione contro l'accesso fisico non autorizzato. Il codice PIN non partecipa alla creazione delle chiavi crittografiche del Wallet. Pertanto, anche senza accesso a questo codice PIN, il possesso della frase mnemonica di 12 parole ti permetterà di riavere accesso ai tuoi bitcoin. Ti consiglio di scegliere un codice PIN il più possibile casuale. E assicurati di salvare questo codice in un luogo separato da quello in cui è memorizzato il tuo Jade (ad esempio, in un gestore di password).
+Il codice PIN sblocca il tuo Jade. È quindi una protezione contro l'accesso fisico non autorizzato. Il codice PIN non partecipa alla creazione delle chiavi crittografiche del Wallet. Pertanto, anche senza accesso a questo codice PIN, il possesso della frase mnemonica di 12 parole ti permetterà di riavere accesso ai tuoi bitcoin. Ti consiglio di scegliere un codice PIN il più possibile casuale. E assicurati di salvare questo codice in un luogo separato da quello in cui conservi il tuo Jade (ad esempio, in un gestore di password).
 
 Scegli il codice PIN a 6 cifre sul tuo Jade, utilizzando i pulsanti destro e sinistro per scorrere le cifre e il pulsante centrale per confermare l'inserimento di una cifra.
 
@@ -217,7 +217,7 @@ Se desideri personalizzare il tuo Green Wallet, clicca sui tre puntini in alto a
 
 ![JADE-PLUS-GREEN](assets/fr/31.webp)
 
-L'opzione "*Name*" consente di personalizzare il nome del Wallet, particolarmente utile se gestisci diversi Wallet sulla stessa applicazione. Il menu "*Unit*" consente di modificare l'unità di base del Wallet. Ad esempio, puoi scegliere di visualizzarlo in satoshi anziché in bitcoin. Infine, il menù "*Parameters*" consente di accedere ad altre opzioni. Qui, ad esempio, trovi la tua chiave pubblica estesa e il suo descriptor, utile se intendi creare un Wallet di sola lettura sul tuo Jade.
+L'opzione "*Name*" consente di personalizzare il nome del Wallet, particolarmente utile se gestisci diversi Wallet sulla stessa applicazione. Il menù "*Unit*" consente di modificare l'unità di base del Wallet. Ad esempio, puoi scegliere di visualizzarlo in satoshi anziché in bitcoin. Infine, il menù "*Parameters*" consente di accedere ad altre opzioni. Qui, ad esempio, trovi la tua chiave pubblica estesa e il suo descriptor, utile se intendi creare un Wallet di sola lettura sul tuo Jade.
 
 ![JADE-PLUS-GREEN](assets/fr/32.webp)
 
@@ -231,17 +231,17 @@ Inserisci quindi il codice PIN sul tuo Jade e sarai nuovamente connesso.
 
 Il tuo Jade viene sbloccato tramite il "virtual secure element" di Blockstream (vedi la prima sezione di questa guida). Ciò richiede una connessione Bluetooth con l'applicazione Green. Se incontri difficoltà con la connessione Bluetooth durante lo sblocco, prova a dissociare e riassociare i due dispositivi. Se il problema persiste, puoi comunque sbloccare il tuo Jade selezionando l'opzione "*QR Scan*" e seguendo le istruzioni disponibili [sul sito web di Blockstream](https://jadefw.blockstream.com/pinqr/index.html).
 
-Prima di ricevere i primi bitcoin nel Wallet, **consiglio vivamente di eseguire un test di ripristino a vuoto**. Annota alcune informazioni di riferimento, come il tuo indirizzo xpub o il primo indirizzo di ricezione, quindi cancella il vostro Wallet sull'app Green e su Jade Plus mentre è ancora vuoto (`Opzioni -> Dispositivo -> Ripristino dati di fabbrica`). A questo punto provare a ripristinare il Wallet utilizzando i backup cartacei della frase mnemonica. Verifica che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, puoi esser certo che i tuoi backup cartacei sono affidabili. Per saperne di più su come effettuare un ripristino di prova, consulta quest'altro tutorial:
+Prima di ricevere i primi bitcoin nel Wallet, **ti consiglio vivamente di eseguire un test di ripristino con il Wallet ancora vuoto**. Annota alcune informazioni di riferimento, come il tuo indirizzo xpub o il primo indirizzo di ricezione, quindi cancella il tuo Wallet sull'app Green e su Jade Plus mentre è ancora vuoto (`Opzioni -> Dispositivo -> Ripristino dati di fabbrica`). A questo punto prova a ripristinare il Wallet utilizzando i backup cartacei della frase mnemonica. Verifica che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, puoi esser certo che i tuoi backup cartacei sono affidabili. Per saperne di più su come effettuare un ripristino di prova, consulta quest'altro tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ricevere bitcoin
 
-Ora che il tuo Wallet Bitcoin è stato configurato, sei pronti a ricevere i tuoi primi satoshi! Basta cliccare sul pulsante "*Receive*" nell'applicazione Green.
+Ora che il tuo Wallet Bitcoin è stato configurato, sei pronto a ricevere i tuoi primi satoshi! Basta cliccare sul pulsante "*Receive*" nell'applicazione Green.
 
 ![JADE-PLUS-GREEN](assets/fr/35.webp)
 
-Green visualizza un indirizzo di ricezione, ma prima di utilizzarlo è essenziale verificarlo su Jade per confermare che appartenga effettivamente al nostro Wallet. A tal fine, fai clic sul pulsante "*Verify on device*".
+Green visualizza un indirizzo di ricezione, ma prima di utilizzarlo è essenziale verificarlo su Jade per confermare che appartenga effettivamente al tuo Wallet. A tal fine, fai clic sul pulsante "*Verify on device*".
 
 ![JADE-PLUS-GREEN](assets/fr/36.webp)
 
@@ -255,7 +255,7 @@ Ora puoi condividere l'indirizzo con il destinatario per ricevere bitcoin nel tu
 
 ## Inviare bitcoin
 
-Con i bitcoin nel tuo Wallet, ora puoi anche inviare bitcoin. Clicca su "*Send*".
+Con i bitcoin nel tuo Wallet, ora puoi anche inviare bitcoin. Per farlo, clicca su "*Send*".
 
 ![JADE-PLUS-GREEN](assets/fr/39.webp)
 
@@ -267,11 +267,11 @@ Scegli l'importo del pagamento.
 
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
-Nella parte inferiore della schermata è puoi selezionare la fee per questa transazione. Puoi scegliere se seguire le raccomandazioni dell'applicazione o personalizzare le fee. Più alta è la fee rispetto alle altre transazioni in corso, più veloce sarà l'elaborazione della transazione. Per informazioni sull'andamento delle commissioni, visita [Mempool.space](https://mempool.space/) nella sezione "*Transaction Fees*".
+Nella parte inferiore della schermata puoi selezionare la fee per questa transazione. Puoi scegliere se seguire le raccomandazioni dell'applicazione o personalizzare la fee. Più alta è la fee rispetto alle altre transazioni in corso, più veloce sarà l'elaborazione della transazione. Per informazioni sull'andamento delle commissioni, visita [Mempool.space](https://mempool.space/) nella sezione "*Transaction Fees*".
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)
 
-Clicca su "*Avanti*" per accedere alla schermata di riepilogo della transazione. Verifica che l'indirizzo, l'importo e le fee siano corretti.
+Clicca su "*Avanti*" per accedere alla schermata di riepilogo della transazione. Verifica che l'indirizzo, l'importo e la fee siano corretti.
 
 ![JADE-PLUS-GREEN](assets/fr/43.webp)
 
@@ -297,6 +297,6 @@ La transazione è stata firmata e trasmessa da Green.
 
 Congratulazioni, ora sai come configurare e utilizzare Jade Plus con l'applicazione mobile Blockstream Green, tramite connessione Bluetooth. Se questa guida è stata utile, ti sarei grato se lasciassi un pollice verde qui sotto. Sentiti libero di condividere questo articolo sui tuoi social network. Grazie per la condivisione!
 
-Per fare un ulteriore passo avanti, ti consiglio questo tutorial su Jade Plus, in cui lo configuriamo con il software Sparrow usando il QR-Code. Imparerai anche ad utilizzare le impostazioni avanzate del tuo Hardware Wallet:
+Per fare un ulteriore passo avanti, ti consiglio questo tutorial su Jade Plus, in cui lo configuriamo con il software Sparrow usando il codice QR. Imparerai anche ad utilizzare le impostazioni avanzate del tuo Hardware Wallet:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

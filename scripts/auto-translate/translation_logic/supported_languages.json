@@ -31,6 +31,12 @@
       "code_translator": "ET"
     },
     {
+      "code": "fa",
+      "name": "Farsi",
+      "translator": "openai",
+      "code_translator": "FA"
+    },
+    {
       "code": "fi",
       "name": "Finnish",
       "translator": "deepl",
@@ -41,6 +47,12 @@
       "name": "French",
       "translator": "deepl",
       "code_translator": "FR"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "translator": "google",
+      "code_translator": "HI"
     },
     {
       "code": "id",
@@ -61,16 +73,16 @@
       "code_translator": "JA"
     },
     {
-      "code": "ko",
-      "name": "Korean",
-      "translator": "deepl",
-      "code_translator": "ko"
-    },
-    {
       "code": "nb-NO",
       "name": "Norwegian",
       "translator": "deepl",
       "code_translator": "NB"
+    },
+    {
+      "code": "pl",
+      "name": "Polish",
+      "translator": "deepl",
+      "code_translator": "PL"
     },
     {
       "code": "pt",
@@ -91,6 +103,30 @@
       "code_translator": "RU"
     },
     {
+      "code": "si",
+      "name": "Sinhala",
+      "translator": "openai",
+      "code_translator": "si"
+    },
+    {
+      "code": "sr-Latn",
+      "name": "Serbian",
+      "translator": "openai",
+      "code_translator": "SR-LATN"
+    },
+    {
+      "code": "sv",
+      "name": "Swedish",
+      "translator": "deepl",
+      "code_translator": "SV"
+    },
+    {
+      "code": "sw",
+      "name": "Swahili",
+      "translator": "google",
+      "code_translator": "SW"
+    },
+    {
       "code": "th",
       "name": "Thai",
       "translator": "openai",
@@ -108,5 +144,11 @@
       "translator": "deepl",
       "code_translator": "ZH-HANS"
     },
+    {
+      "code": "zh-Hant",
+      "name": "Chinese Traditional",
+      "translator": "deepl",
+      "code_translator": "ZH-HANT"
+    }
   ]
 }

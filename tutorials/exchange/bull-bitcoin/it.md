@@ -22,7 +22,7 @@ Come acquistare Bitcoin in Canada: Bull Bitcoin di BTCsession
 
 Una delle proposte più entusiasmanti delle valute fiduciarie (fiat) è sicuramente quella di poterle scambiare in favore di bitcoin, idealmente senza dover nemmeno identificarsi troppo; un metodo spesso indicato come no-KYC o KYC-free. L'acronimo ['KYC'](https://planb.network/resources/glossary/kyc-know-your-customer) si riferisce al processo di verifica dell'identità di un individuo o di un'entità specifica in conformità con determinate normative emesse a livello governativo.
 
-La maggior parte dei Bitcoin Exchange sono regolamentati e quindi sono tenuti a verificare l'identità dei loro clienti al fine di consentire loro di acquistare bitcoin sulla loro piattaforma. Gli utenti devono quindi fornire diverse informazioni personali come nome, indirizzo, numero di telefono, uno o più documenti di identità, ecc., per ottenere il permesso di effettuare un ordine di acquisto di bitcoin.
+La maggior parte degli Exchange sono regolamentati e quindi tenuti a verificare l'identità dei loro clienti al fine di consentire loro di acquistare bitcoin sulla propria piattaforma. Gli utenti devono quindi fornire diverse informazioni personali come nome, indirizzo, numero di telefono, uno o più documenti di identità, ecc., per ottenere il permesso di effettuare un acquisto di bitcoin.
 
 Questa pratica è senza dubbio un'invasione nella privacy e nella riservatezza dei cittadini che cercano semplicemente di acquisire una valuta, nel caso di bitcoin, completamente separata dal sistema fiduciario controllato dalla volontà di una banca centrale onnisciente.
 
@@ -32,7 +32,7 @@ In Canada, è ora possibile utilizzare uno di questi Exchange per acquistare Bit
 
 ## Come ricaricare l'account tramite Poste Canada
 
-Il metodo di pagamento 'Contanti o Bancomat presso il Canada Post' per acquistare bitcoin al fine di ricaricare l'account si trova nella sezione 'Finanzia il tuo account' del sito web (anche disponibile in versione mobile sul browser web). In questa sezione troverai il metodo di pagamento e le relative istruzioni, nonché il codice QR associato all'account Bull Bitcoin (una volta raggiunto lo stato 'Limitato').
+Il metodo di pagamento 'Contanti o Bancomat presso Poste Canada' per acquistare bitcoin al fine di ricaricare l'account si trova nella sezione 'Finanzia il tuo account' del sito web (anche disponibile in versione mobile sul browser web). In questa sezione troverai il metodo di pagamento e le relative istruzioni, nonché il codice QR associato all'account Bull Bitcoin (una volta raggiunto lo stato 'Limitato').
 
 Il funzionamento è molto semplice: basta che ti rechi in uno dei 5948 sportelli di Poste Canada e presenti il tuo codice QR all'impiegato, il quale dovrà semplicemente scansionarlo con lo scanner regolare di Poste Canada.
 

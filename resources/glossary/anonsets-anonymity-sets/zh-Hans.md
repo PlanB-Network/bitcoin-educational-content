@@ -16,4 +16,4 @@ term: ANONIMITY SET (匿名集)
 
 ![](../../dictionnaire/assets/40.webp)
 
-> ► *在法语中，人们普遍接受使用 “anonset”这一词。不过，也可译为 “ensemble d'anonymat”或 “potentiel d'anonymat”。在英语和法语中，“score”这一词有时也用来指 anonset（预期匿名集评分和回顾匿名集评分）*。
+> ► *在中文中，可以使用“匿名集”这一词来指 ”anonset“*

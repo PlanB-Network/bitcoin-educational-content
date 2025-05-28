@@ -6,4 +6,4 @@ term: BATCHED SPENDING (分批支出)
 
 ![](../../dictionnaire/assets/8.webp)
 
-> ► *在法语中，"分批支出 "可译为 “dépense groupée”*。
+> ► *在中文中，”分批支出“ 可译为 “分批支出”*。

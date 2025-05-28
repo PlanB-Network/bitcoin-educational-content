@@ -1,0 +1,25 @@
+id: 794bdac4-1af4-49d5-9ea5-abb8228ca196
+
+level: beginner
+
+category: mobile
+
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+
+project_id: 47ebede0-74e9-497f-8f91-d122b2d30aa9
+
+tags: 
+  - lightning
+  - wallets
+  - user-friendly
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-24
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0

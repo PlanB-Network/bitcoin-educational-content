@@ -1,0 +1,9 @@
+question: Lightning Network چیست؟
+answer: یک شبکه پرداخت که از پروتکل Bitcoin برای امکان‌پذیر ساختن تراکنش‌های فوق‌العاده سریع استفاده می‌کند.
+wrong_answers:
+  - یک نوع جدید از ارز دیجیتال.
+  - فناوری جدید Blockchain که در آینده جایگزین Bitcoin خواهد شد.
+  - روشی برای Mining Bitcoin.
+explanation: |
+  شبکه پرداخت Lightning Network از پروتکل Bitcoin برای انجام تراکنش‌های سریع استفاده می‌کند. این شبکه یک ارز دیجیتال جداگانه نیست و روشی برای Mining Bitcoin نمی‌باشد.
+reviewed: true

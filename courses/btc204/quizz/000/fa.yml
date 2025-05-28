@@ -1,0 +1,9 @@
+question: UTXO در انگلیسی به چه معناست؟
+answer: خروجی تراکنش خرج‌نشده
+wrong_answers:
+  - خروجی تراکنش یکپارچه
+  - تراکنش کاربر فقط
+  - گزینه Exchange token ابزار
+explanation: |
+  یک UTXO خروجی یک تراکنش است که هنوز خرج نشده است.
+reviewed: false

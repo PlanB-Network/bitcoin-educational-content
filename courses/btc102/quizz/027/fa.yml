@@ -1,0 +1,9 @@
+question: چند نفر نگهدارنده در Bitcoin Core در سال 2025 وجود دارند؟
+answer: ۵
+wrong_answers:
+  - ۷
+  - ۱۲
+  - ۲۳
+explanation: |
+  در سال 2025، پنج نگهدارنده وجود دارند: Hennadii Stepanov، Michael Ford، Ava Chow، Gloria Zhao، و Ryan Ofsky.
+reviewed: false

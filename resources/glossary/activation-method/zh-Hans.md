@@ -6,6 +6,6 @@ term: ACTIVATION METHOD（激活方式）
 
 
 - UASF（User-Activated Soft Fork，用户激活软分叉），由节点强制更新；
-- MASF（矿工激活软分叉），由矿工触发激活。
+- MASF（Miner-Activated Soft Fork，矿工激活软分叉），由矿工触发激活。
 
 随着比特币的发展，有越来越多不同的激活方式经过了测试。在中本聪时代，激活过程还没有正式确立。更改往往是随意的，有时甚至没有提前通知社区。后来，比特币开始采用了"旗帜日"方式。中本聪离开后，出现了其他激活机制，其中较为重要的是 BIP34、BIP9、BIP8，以及最后的“速战速决（Speedy Trial）”。

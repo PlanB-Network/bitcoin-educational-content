@@ -6,4 +6,4 @@ wrong_answers:
   - Perché richiede hardware specializzato
 explanation: |
   È probabile che Satoshi Nakamoto abbia preferito la curva secp256k1, poiché i parametri di secp256r1 potrebbero contenere una vulnerabilità nascosta.
-recensito: false
+reviewed: false

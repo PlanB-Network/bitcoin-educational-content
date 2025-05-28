@@ -906,11 +906,11 @@ Descrivi alcune delle varie opzioni per connettere un wallet Lightning al tuo ne
 
 <chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
 
-BTCPay Server è un pacchetto software modulare. Tuttavia, ci sono standard che ogni istanza di BTCPay Server avrà e con cui interagiranno l'Amministratore/gli utenti. Iniziando dalla Dashboard. Il principale punto di ingresso di ogni BTCPay Server dopo aver effettuato l'accesso. La Dashboard offre una panoramica delle prestazioni del tuo negozio, del saldo attuale del wallet e delle ultime transazioni negli ultimi 7 giorni. Avendo una vista modulare, i Plugin possono utilizzare questa vista a loro vantaggio e creare le loro caselle sulla Dashboard. Per questa parte di corso, parleremo solo dei plugin/app standard e delle loro rispettive viste in tutto BTCPay Server.
+BTCPay Server è un pacchetto software modulare. Tuttavia, ci sono dei standard che ogni istanza di BTCPay Server potrà avrere e con cui ogni Amministratore e/o gli utenti interagiranno. Inizianmo dalla Dashboard, il principale punto di ingresso di ogni BTCPay Server, dopo aver effettuato l'accesso. La Dashboard offre una panoramica delle prestazioni del tuo negozio, del saldo attuale del wallet e delle transazioni relative agli ultimi 7 giorni. Avendo una vista modulare, la Dashboard permette di creare dei pulsanti per usare i plugin. Per questa parte di corso, parleremo solo dei plugin/app standard e delle loro rispettive viste in tutto BTCPay Server.
 
 ### Caselle della Dashboard
 
-All'interno della vista principale della dashboard di BTCPay Server ci sono alcune caselle standard disponibili. Queste caselle sono destinate al proprietario del negozio o all'Amministratore per gestire rapidamente il suo negozio in una panoramica.
+All'interno della pagina principale della dashboard di BTCPay Server ci sono alcuni pulsanti standard disponibili. Questi pulsanti sono destinati al proprietario del negozio o all'Amministratore per gestire rapidamente il suo negozio in una rapida panoramica.
 
 - Saldo del wallet
 - Attività delle transazioni
@@ -929,7 +929,7 @@ Il saldo del wallet offre una rapida panoramica dei fondi e delle prestazioni de
 
 ### Attività delle transazioni
 
-Accanto al Saldo del wallet, BTCPay Server mostra una rapida panoramica dei Pagamenti in sospeso, la quantità di Transazioni negli ultimi 7 giorni e se il tuo negozio ha emesso dei rimborsi. Cliccando sul pulsante Gestisci si accede alla gestione dei pagamenti in sospeso (per saperne di più sui pagamenti in BTCPay Server - capitolo Pagamenti).
+Accanto al saldo del wallet, BTCPay Server mostra una rapida panoramica dei pagamenti in sospeso, la quantità di transazioni negli ultimi 7 giorni e se il tuo negozio ha emesso dei rimborsi. Cliccando sul pulsante "Gestisci" si accede alla gestione dei pagamenti in sospeso (per saperne di più sui pagamenti in BTCPay Server vedi capitolo Pagamenti).
 
 ![immagine](assets/en/41.webp)
 
@@ -937,13 +937,13 @@ Accanto al Saldo del wallet, BTCPay Server mostra una rapida panoramica dei Paga
 
 Questa opzione è visibile solo quando Lightning è attivato.
 
-Quando l'Amministratore ha consentito l'accesso alla rete Lightning, la dashboard di BTCPay Server ora ha una nuova tessera con le informazioni del tuo nodo Lightning. Quanti bitcoin ci sono nei canali, come questi sono bilanciati localmente o in remoto (liquidità in entrata o in uscita), se i canali si stanno chiudendo o aprendo e quanti bitcoin sono detenuti on-chain o sul nodo lightning.
+Quando l'Amministratore ha consentito l'accesso a Lightning Network, la dashboard di BTCPay Server pesenta un nuovo pulsante con le informazioni del tuo nodo Lightning, quanti bitcoin ci sono nei canali, come questi sono bilanciati localmente o in remoto (liquidità in entrata o in uscita), se i canali si stanno chiudendo o aprendo e quanti bitcoin sono detenuti on-chain o sul nodo Lightning.
 
 ![immagine](assets/en/42.webp)
 
 ### Servizi Lightning
 
-Questa opzione è visibile solo quando lightning è attivo.
+Questa opzione è visibile solo quando Lightning è attivo.
 
 Oltre a vedere il tuo saldo Lightning sulla dashboard di BTCPay Server, gli amministratori vedranno anche il componente per i Servizi Lightning. Qui gli amministratori possono trovare pulsanti rapidi per gli strumenti che usano per gestire il loro nodo Lightning; per esempio, Ride the Lightning è uno degli strumenti standard con BTCPay Server per la gestione del nodo Lightning.
 
@@ -951,23 +951,23 @@ Oltre a vedere il tuo saldo Lightning sulla dashboard di BTCPay Server, gli ammi
 
 ### Transazioni recenti
 
-Il componente delle transazioni recenti mostrerà le transazioni più recenti del tuo negozio. Con un clic, l'Amministratore dell'istanza di BTCPay Server può ora vedere l'ultima transazione e vedere se è necessaria dell'attenzione verso di essa.
+Il componente delle transazioni recenti mostrerà le transazioni più recenti del tuo negozio. Con un clic, l'Amministratore dell'istanza di BTCPay Server può ora vedere l'ultima transazione ed evidenziare se è necessario prestarle attenzione.
 
 ![immagine](assets/en/44.webp)
 
-### invoice recenti
+### Invoice recenti
 
-Il componente delle invoice recenti mostra le 6 ultime invoice generate dal tuo BTCPay Server, incluse Stato e importo della fattura. La tessera include anche un pulsante "Visualizza tutto" per accedere facilmente alla panoramica completa delle invoice.
+Il componente delle Invoice recenti mostra le 6 ultime invoice generate dal tuo BTCPay Server, incluso lo stato e l'importo della fattura. La funzione include anche un pulsante "Visualizza tutto" per accedere facilmente alla panoramica completa dell'invoice.
 
 ![immagine](assets/en/45.webp)
 
 ### Punto Vendita e Crowdfunding
 
-Poiché BTCPay Server offre un insieme di plugin o app standard, Punto Vendita e Crowdfunding sono i due principali plugin di BTCPay Server. Con ogni negozio e wallet, un utente di BTCPay Server può generare quanti Punti Vendita o Crowdfunding, desidera. Ognuno creerà un nuovo componente sulla dashboard mostrando le prestazioni dei plugin.
+Poiché BTCPay Server offre un insieme di plugin o app standard, "Punto Vendita" e "Crowdfunding" sono i due principali plugin di BTCPay Server. Tramite ogni negozio e wallet, un utente di BTCPay Server, può generare quanti Punti Vendita o Crowdfunding, desidera. Ognuno creerà un nuovo componente sulla dashboard mostrando le prestazioni dei plugin.
 
 ![immagine](assets/en/46.webp)
 
-Nota la leggera differenza tra un componente Punto Vendita e un componente Crowdfunding. L'Amministratore vede gli articoli più venduti nel componente Punto Vendita. Nella tessera Crowdfunding, questo obiettivo diventa il Perk principale. Entrambi i componenti hanno pulsanti rapidi per gestire la rispettiva app e visualizzare le invoice recenti create dagli articoli principali o dai perk principali.
+Si noti la leggera differenza tra un "Punto di Vendita" e un componente "Crowdfund". L'Amministratore vede i primi articoli venduti nel componente di "Pinto Vendita". Nel pulsante "Crowdfund", questo obiettivo diventa l'obiettivo principale. Entrambi i componenti hanno pulsanti rapidi per gestire la rispettiva app e visualizzare le invoice recenti create dagli articoli principali o dai perk principali.
 
 ![immagine](assets/en/47.webp)
 

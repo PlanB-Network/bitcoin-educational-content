@@ -358,10 +358,10 @@ Prema Destutt de Tracy-ju, vlasništvo nužno proizlazi iz naše prirode, iz na�
 ![image](assets/en/028.webp)
 
 
-Za njega su najbolji porezi oni najumereniji, i želi da državni rashodi budu što je moguće ograničeniji. On osuđuje pljačku bogatstva društva od strane vlade u obliku javnog duga, poreza, bankarskih monopola i rashoda. Još jednom, zakon bi trebalo da služi samo za zaštitu slobode; nikada ne bi trebalo da pljačka.
+Za njega, najbolji porezi su oni najumereniji, i želi da državni rashodi budu što je moguće ograničeniji. On osuđuje pljačku društvenog bogatstva od strane vlade u obliku javnog duga, poreza, bankarskih monopola i rashoda. Još jednom, zakon bi trebalo da služi samo za zaštitu slobode; nikada ne bi trebalo da pljačka.
 
 
-Konačno, dodaje ovu preporuku, koja nije izgubila na aktuelnosti:
+Konačno, dodaje ovu preporuku, koja nije izgubila svoju relevantnost:
 
 
 > Neka vlada ne pravi i ne bude u mogućnosti da pravi dugove koji obavezuju buduće generacije i uvek vode države u njihovu propast.
@@ -375,22 +375,22 @@ Zaključno, ideolozi su imali duboku intuiciju, naime da su proizvodnja i razmen
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
 
 
-Istorija svih civilizacija je priča o borbi između pljačkaških klasa i produktivnih klasa. Ovo je credo dvojice autora o kojima ćemo diskutovati. Oni su začetnici liberalne teorije klasne borbe koja je inspirisala Frédérica Bastijata jednako kao i Karla Marksa, iako ju je potonji iskrivio.
+Istorija svih civilizacija je priča o borbi između pljačkaških klasa i produktivnih klasa. Ovo je verovanje dvojice autora o kojima ćemo diskutovati. Oni su tvorci liberalne teorije klasne borbe koja je inspirisala Frédéric-a Bastiat-a jednako kao i Karl-a Marx-a, iako je potonji izobličio ovu teoriju.
 
 
 ![image](assets/en/029.webp)
 
 
-Za Comtea i Dunoyera, pljačka, što znači svi oblici nasilja koje u društvu sprovode jaki nad slabima, je veliki ključ za razumevanje ljudske istorije. Ona je na izvoru svih fenomena eksploatacije jedne klase od strane druge.
+Za Comte-a i Dunoyer-a, pljačka, što znači svi oblici nasilja koje u društvu sprovode jaki nad slabima, je ključ za razumevanje ljudske istorije. Ona je u osnovi svih fenomena eksploatacije jedne klase od strane druge.
 
 
 ![image](assets/en/030.webp)
 
 
-Ako Frédéric Bastiat duguje svoje ekonomsko obrazovanje Smithu, Destuttu de Tracyju i Sayu, svoje političko obrazovanje duguje vođama časopisa Le Censeur, Charlesu Comteu i Charlesu Dunoyeru.
+Ako Frédéric Bastiat duguje svoje ekonomsko obrazovanje Smith-u, Destutt-u de Tracy-ju i Say-u, svoje političko obrazovanje duguje vođama časopisa Le Censeur, Charles-u Comte-u i Charles-u Dunoyer-u. 
 
 
-Ovaj pregled (1814-1819), preimenovan u Le Censeur européen nakon Sto dana, širio je liberalne ideje koje su trijumfovale 1830. godine sa ustankom Tri slavna dana i dolaskom na vlast vojvode od Orleana, Luja-Filipa I.
+Ovaj časopis (1814-1819), preimenovan u Le Censeur européen nakon Sto dana (the Hundred Days), širio je liberalne ideje koje su trijumfovale 1830. godine sa ustankom Tri slavna dana (Three Glorious Days) i dolaskom na vlast vojvode od Orleana, Louis-Philippe I.
 
 
 ![image](assets/en/031.webp)
@@ -399,10 +399,10 @@ Ovaj pregled (1814-1819), preimenovan u Le Censeur européen nakon Sto dana, ši
 ![image](assets/en/032.webp)
 
 
-Charles Comte, rođak Augustea Comtea i zet Saya, osnivač je časopisa. Ubrzo mu se pridružio Charles Dunoyer, pravnik poput njega, a zatim i mladi istoričar, Augustin Thierry, bivši sekretar Saint Simona. Njihov moto na naslovnoj strani svakog broja časopisa bio je "Mir i Sloboda".
+Charles Comte, rođak Auguste-a Comte-a i zet Say-a, osnivač je recenzije. Ubrzo mu se pridružio Charles Dunoyer, pravnik poput njega, a zatim i mladi istoričar, Augustin Thierry, bivši sekretar Saint Simona. Njihov moto na naslovnoj strani svakog broja časopisa bio je "Mir i Sloboda".
 
 
-Koji je cilj recenzije? Naslov govori sam za sebe: cenzurisati vladu. Boriti se protiv samovolje vlasti prosvetljavanjem javnog mnjenja, braniti slobodu štampe.
+Koji je cilj časopisa? Naslov govori sam za sebe: cenzurisati vladu. Boriti se protiv samovolje vlasti prosvetljavanjem javnog mnjenja, braniti slobodu štampe.
 
 
 ![image](assets/en/033.webp)

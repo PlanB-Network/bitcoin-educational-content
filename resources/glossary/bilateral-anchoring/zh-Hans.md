@@ -9,4 +9,4 @@ term: BILATERAL ANCHORING (双边锚定)
 - 实体联盟；
 - 主链（驱动链）的矿工。
 
-> ► *在英语中，这被称为 “双向挂钩” 或 “2WP”*。
+> ► *在英语中，这被称为 “Bilateral Anchoring” 或 “2WP”*。

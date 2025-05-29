@@ -563,17 +563,67 @@ JDC: Le succès est au rendez-vous dès le début. Durant les premières 24 heur
 
 https://bitcointalk.org/index.php?topic=49445.msg588749#msg588749
 
-### Produits dérivés : MPOE et GLBSE
+### Titres financiers : GLBSE et MPEx
 
-Mircea Popescu, MPOE, avr. 2011 (renommé MPEx en avr. 2012) : https://en.bitcoin.it/wiki/MPEx
+L'absence de besoin d'autorisation de Bitcoin pousse les membres de la communauté à imaginer des utilisations allant plus loin que le simple échange monétaire et la spéculation. Ils envisagent ainsi de libéraliser l'investissement en fournissant un moyen d'émettre des actions et des obligations pour les sociétés de l'écosystème. Il s'agit de contourner des réglementations imposées notamment par la *Securities and Exchange Commission* aux États-Unis (l'équivalent américain de l'AMF), en [profitant](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) du caractère novateur de Bitcoin et du flou juridique qui l'entoure. L'idée est de créer un modèle alternatif au système financier classique, qui pourrait s'autoentrenir dans la démarche agoriste.
 
-bitoptions, mai 2011 : https://bitcointalk.org/index.php?topic=9611.msg138413#msg138413 https://bitcointalk.org/index.php?topic=12572.msg174313#msg174313
+L'un des individus s'impliquant dans ce mouvement est James McCarthy, qui utilise le pseudonyme Nefario sur le forum de Bitcoin (en référence au personnage du même nom dans le film d'animation *Moi, moche et méchant*). Celui-ci est un Irlandais vivant en Chine, qui occupe un poste de professeur d'anglais dans une université. Il s'intéresse à l'école autrichienne et aux idées des cypherpunks, [déclarant](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) lui-même être « en quelque sorte un cypherpunk ». (original: "something of a cypherpunk") Il a [découvert](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) l'existence de Bitcoin au cours de l'année 2010 et en a miné plus d'un millier. Il s'est ensuite impliqué dans plusieurs projets, dont le projet de magazine en ligne Bitcoin Weekly.
 
-GLBSE (*GLobal Bitcoin Stock Exchange*), lancé en avril 2011 par James McCarthy (Nefario sur le forum), première  v2 en mars 2012, fermeture en octobre 2012) https://en.bitcoin.it/wiki/GLBSE https://bitcointalk.org/index.php?topic=6500.msg94943#msg94943 https://bitcoinmagazine.com/markets/global-bitcoin-stock-exchange-shuts-down-for-good-1349879479
+![James McCarthy (Nefario) en février 2012](assets/en/nefario-tedxleeds-feb-2012.webp)
 
-Première « IPO » en bitcoins, [avr. 2011](https://bitcointalk.org/index.php?topic=6584.msg100156#msg100156) : Ubitex, Nathaniel Theis, 1100 BTC récupérés (d'une valeur d'environ 10 000 $), exit scam https://en.bitcoin.it/wiki/Ubitex
+James McCarthy (Nefario) en février 2012 (source : [archive](https://web.archive.org/web/20121008033716/https://www.tedxleeds.com/nefario-james-mccarthy/) de TEDxLeeds)
 
-"Coinabul sells gold and silver for Bitcoin. Coinabul opened its doors on October 10th, 2011. Since then Coinabul has been heavily involved in the Bitcoin community. Coinabul has given away free posters, held Bitcoin-wide community events, and even held the occasional giveaway." https://en.bitcoin.it/wiki/Coinabul
+https://en.bitcoin.it/wiki/GLBSE
+
+En avril 2011, James McCarthy [lance](https://bitcointalk.org/index.php?topic=6500.msg94943#msg94943) GLBSE (prononcé glib-zee), acronyme de *GLobal Bitcoin Stock Exchange*. Les utilisateurs passent par une interface en ligne de commande qui permet d'interagir avec le serveur de la plateforme. Le client est une version modifiée d'un logiciel développé par Amir Taaki. D'après le site web, la plateforme [permet](https://web.archive.org/web/20110427033244/http://glbse.com/) « d'émettre des actions pour lever des capitaux ; de verser des dividendes aux actionnaires ; de soumettre des résolutions aux actionnaires et d'obtenir leur vote ; d'émettre et de vendre des obligations ; d'emprunter et de prêter sur le marché ; d'effectuer et de recevoir des remboursements de prêts ; d'émettre des contrats à terme ; de méta-spéculer sur des sociétés non cotées (sur d'autres places boursières) ; et d'échanger tout ce qui précède avec d'autres tradeurs sur le marché ». (original: "Issue shares to raise capital; Pay dividends to shareholders; Put resolutions to shareholders and get their vote; Issue and sell bonds; Borrow and lend to the market; Make and recieve loan repayments; Issue futures contracts; Meta-trade on non listed companies (on other exchanges); And trade all of the above with other traders on the market")
+
+La première « IPO » (*Initial Public Offering*, usuellement traduit par « introduction en bourse » en français) est [réalisée](https://bitcointalk.org/index.php?topic=6838.msg100170#msg100170) à partir du 30 avril par un projet du nom de Ubitex, une plateforme de change en personne permettant de mettre en relation les acheteurs et les vendeurs présents dans une même région. L'opération consiste à vendre un certain nombre de parts (ici 1000) pour des bitcoins en échange de quoi les actionnaires bénéficieront des profits de l'entreprise. Le service voit le jour, mais son unique développeur [de 14 ans](https://bitcointalk.org/index.php?topic=6584.msg707259#msg707259), Nathaniel Theis alias Cuddlefish sur le forum, disparait brutalement, lorsque son ordinateur [tombe en panne](https://bitcointalk.org/index.php?topic=6584.msg414585#msg414585) en juillet.
+
+1100 BTC récupérés (d'une valeur d'environ 10 000 $) https://en.bitcoin.it/wiki/Ubitex
+
+Au début de l'automne, une trentaine d'actifs est [disponible](https://web.archive.org/web/20110923234458/http://charts.glbse.com/markets/) à l'échange sur la plateforme. En mars 2012, une version 2 de la plateforme [sort](https://bitcointalk.org/index.php?topic=73910.msg817887#msg817887).
+
+![Capture du site web de GLBSE le 17 août 2011](assets/en/glbse-20110817.webp)
+
+Capture du site web de GLBSE le 17 août 2011 (source : [archive](https://web.archive.org/web/20110817072049/http://glbse.com/))
+
+- Nefario refoulé des états-unis en juillet https://web.archive.org/web/20111104183542/http://blog.glbse.com/no-electronic-devices
+
+- bitoptions, mai 2011 : https://bitcointalk.org/index.php?topic=9611.msg138413#msg138413 https://bitcointalk.org/index.php?topic=12572.msg174313#msg174313
+
+- fermeture de GLBSE en octobre 2012
+
+Sources : https://web.archive.org/web/20110514152022/http://bitcoinweekly.com/articles/the-global-bitcoin-stock-exchange-and-why-it-matters https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global https://bitcoinmagazine.com/markets/global-bitcoin-stock-exchange-shuts-down-for-good-1349879479 https://bitcoinmagazine.com/culture/interview-with-glbses-nefario-1350319173
+
+http://trilema.com/2012/scammer-tag-nefario-theymos-others-known-and-unknown/
+
+Un autre projet de ce type voit le jour quelque temps plus tard grâce à un Roumain appelé Mircea Popescu.
+
+https://bitcoinmagazine.com/culture/mircea-popescu-bitcoin-philosopher-dead
+
+Ce Roumain controversé a créé le "Mircea Popescu's BTC Options trading Emporium" (MPOE) qui proposait des options d'achat (call) et de vente (put) de BTC. Devenu MPEx en 2012 pour aussi proposer des actions, il a fermé en 2016. Popescu est mort en 2021.
+
+Mircea Popescu est un personnage controversé. Roumain, originaire de Transylvanie, il est un auteur prolifique sur son blog [Trilema](http://trilema.com/archives-categories/) : il écrit sur tous les sujets (philosophie, politique, sexualité), dans un style volontairement provocateur, en roumain dans un premier temps. Il s'intéresse à Bitcoin à partir de l'été 2011 et commence à en [parler](http://trilema.com/2011/ce-este-bitcoin/) sur son blog. En août, il [ouvre](https://bitcointalk.org/index.php?topic=15672.msg444367#msg444367) le « Mircea Popescu's BTC Options Trading Emporium » (MPOE), qui [propose](https://web.archive.org/web/20110824221522/http://polimedia.us/bitcoin/options.php) des options d'achat (call) et de vente (put) de BTC. La plateforme est globalement rentable, réalisant plus de 140 BTC de bénéfices nets sur six mois. En avril 2012, après une [levée de fonds](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) recueillant plus de 3 000 BTC (par émission d'actions et d'obligations) et une phase bêta, la plateforme [devient](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) une bourse en bitcoins permettant d'émettre diverses actions (dont celle de MPOE) et est renommée MPEx (pour « Mircea Popescu's Exchange »).
+
+![Mircea Popescu, date indéterminée](assets/en/mircea-popescu-wired-2014-bitcoin-baron.webp)
+
+Mircea Popescu, date indéterminée (source: Mircea Popescu pour [Wired](https://web.archive.org/web/20140405150603/https://www.wired.com/2014/01/openbsd/))
+
+https://en.bitcoin.it/wiki/MPEx
+
+« MPOE est globalement rentable, ayant réalisé 140,383524440 BTC de bénéfices nets sur six mois sur la base de 8 172 BTC-mois de capital (en moyenne 1 362 BTC par mois). »
+
+"As you can see, MPOE is overall profitable, having realised 140.383524440 BTC in net profits over six months on the basis of 8 172 BTC-months in capital (on the average 1 362 BTC per month)."
+
+MPEx 11 avril 2012 : https://bitcointalk.org/index.php?topic=76239.0
+
+![Capture de MPEx, août 2012](assets/en/mpex-20120829.webp)
+
+Capture de MPEx, août 2012 (source : [archive](https://web.archive.org/web/20120829092213/http://polimedia.us/bitcoin/mpex.php))
+
+Contrats à terme, déc. 2012 : http://trilema.com/2012/futures-on-mpex/
+
+[Fermeture](http://trilema.com/2016/mpex-smpoe-closing-statement/) en 2016 ; mort de Popescu en 2021.
 
 ### BitInstant, la plaque tournante du change en bitcoins
 
@@ -593,6 +643,8 @@ Charlie Shrem, s'inscrit le 10 juin sur le forum avec le pseudonyme [Yankee](htt
 
 "startup installée à Brooklyn qui propose des crédits temporaires afin d'accélérer les transactions en bitcoins"
 
+Le service est lancé en septembre.
+
 Charlie Shrem dans le Bitcoin Show : [24/11/2011](https://www.youtube.com/watch?v=PxMazut6-0U)
 
 ![Capture du site de BitInstant, 26 janvier 2012](assets/en/bitinstant-howitworks-2012.webp)
@@ -601,7 +653,7 @@ Capture du 26 janvier 2012 (source : [archive de Bitinstant.com](https://web.ar
 
 Investissement de Roger Ver [source](https://londonlovesbusiness.com/meet-bitcoin-jesus-roger-ver-the-millionaire-who-distributes-free-bitcoins/)
 
-En décembre, BitInstant [réalise](https://observer.com/2011/12/brooklyn-based-bitcoin-startup-bitinstant-raises-seed-round/) une levée de fonds auprès d'investisseurs providentiels. Le plus important d'entre eux n'est autre que Roger Ver, qui acquiert 15 % de la société et qui devient assez rapidement son directeur marketing. Roger Ver conseille à Charlie Shrem d'engager Erik Voorhees, qui devient le responsable responsable de la communication et du marketing de la société en février 2012. Ira Miller est également intégré à l'équipe en tant que développeur.
+En décembre, BitInstant [réalise](https://observer.com/2011/12/brooklyn-based-bitcoin-startup-bitinstant-raises-seed-round/) une levée de fonds auprès d'investisseurs providentiels. Le plus important d'entre eux n'est autre que Roger Ver, qui acquiert 15 % de la société et qui devient assez rapidement son directeur marketing. Roger Ver conseille à Charlie Shrem d'engager Erik Voorhees, qui devient le responsable de la communication et du marketing de la société en février 2012. Ira Miller est également intégré à l'équipe en tant que développeur.
 
 EDB : En parallèle se développe un service nommé BitInstant aux États-Unis, cofondé en juin 2011 par Gareth Nelson et Charlie Shrem, dont le rôle est de faciliter les transferts vers et depuis les plateformes de change. L'entreprise sert d'intermédiaire entre les clients et les plateformes et permet de rendre les dépôts (et les retraits) instantanés moyennant une commission. Charlie Shrem, jeune New-Yorkais d'origine juive syrienne, assure le rôle de PDG et devient rapidement la figure principale de l'entreprise. bien que d'autres personnes soient impliquées dans le projet comme Roger Ver et Erik Voorhees. Dès le début de l'année 2012, BitInstant propose diverses méthodes de transfert d'argent (Liberty Reserve, Dwolla, Paxum, dépôts d'espèces) pour interagir avec les principales plateformes de l'écosystème, dont notamment Mt. Gox qui est basée au Japon.
 
@@ -635,19 +687,27 @@ Commerçants : 100 en novembre 2011, 1 100 en octobre 2012 (source : https://
 
 12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666
 
-- Paymium, startup fondée en [juin 2011](https://web.archive.org/web/20111120231150/http://www.paymium.com/) par Gonzague Grandval, David François (davout), Pierre Noizat (Boussac), initialement dans le domaine des paiements, et dont le produit principal est une application de prévention de la fraude par carte bancaire. L'entreprise se tourne progressivement vers Bitcoin, faisant rapidement de Bitcoin-Central son produit phare \[QUAND ?\] mention de Paytunia en mai 2012 (https://web.archive.org/web/20120514233205/https://bitcoin-central.net/), mentions légales en janvier 2013 (https://web.archive.org/web/20130120182340/https://bitcoin-central.net/)\], à tel point que celui-ci [prendra](https://bitcoin.fr/bitcoin-central-devient-paymium/) le nom de Paymium en 2014.
-
 ### Poker et jeu d'argent
 
-Répression contre le poker dans l'année, 15 avril 2011 surnommé « vendredi noir » (original: "Black Friday") ou "Full Tilt Scandal", saisie des sites de PokerStars, Full Tilt Poker et Absolute Poker par le FBI, violation de l'UIGEA https://www.theguardian.com/world/2011/apr/24/online-poker-sites-shut-down-fbi https://www.pokernews.com/news/2022/11/full-tilt-poker-cheating-scandal-42534.htm https://en.wikipedia.org/wiki/United_States_v._Scheinberg https://web.archive.org/web/20110419194619/https://www.nytimes.com/2011/04/16/technology/16poker.html
+Répression contre le poker dans l'année, 15 avril 2011 surnommé « vendredi noir » (original: "Black Friday") ou "Full Tilt Scandal", saisie des sites de PokerStars, Full Tilt Poker et Absolute Poker par le FBI, violation de l'UIGEA, Unlawful Internet Gambling Enforcement Act, forme de censure financière : le poker n'est pas interdit, mais les banques ont pour interdiction d'autoriser des virements vers les plateformes de poker. Pour contourner cette réglementation, les  https://www.theguardian.com/world/2011/apr/24/online-poker-sites-shut-down-fbi https://www.pokernews.com/news/2022/11/full-tilt-poker-cheating-scandal-42534.htm https://en.wikipedia.org/wiki/United_States_v._Scheinberg https://web.archive.org/web/20110419194619/https://www.nytimes.com/2011/04/16/technology/16poker.html
 
-Moonco.in, https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530 https://bitcointalk.org/index.php?topic=31768.0 ; piraté en septembre : https://bitcointalk.org/index.php?topic=83794.0#post_toc_25
+The 2006 Unlawful Internet Gambling Enforcement Act made it a crime for gambling businesses to knowingly accept most forms of payment for illegal Internet gambling. The defendants allegedly tried to circumvent these rules with the help of individual payment processors, also named as defendants, who helped disguise their player payments with phony merchants selling non-existent goods such as jewelry or golf balls.
+
+"Because U.S. banks and credit card issuers were largely unwilling to process their payments, the Poker Companies allegedly used fraudulent methods to circumvent federal law and trick these institutions into processing payments on their behalf. For example, defendants ISAI SCHEINBERG and PAUL TATE of PokerStars, RAYMOND BITAR and NELSON BURTNICK of Full Tilt Poker, and SCOTT TOM and BRENT BECKLEY of Absolute Poker, arranged for the money received from U.S. gamblers to be disguised as payments to hundreds of non-existent online merchants purporting to sell merchandise such as jewelry and golf balls. Of the billions of dollars in payment transactions that the Poker Companies tricked U.S. banks into processing, approximately one-third or more of the funds went directly to the Poker Companies as revenue through the "rake" charged to players on almost every poker hand played online." [15/4](https://web.archive.org/web/20110419230512/http://www.justice.gov/usao/nys/pressreleases/April11/scheinbergetalindictmentpr.pdf)
+
+Bitcoin convient parfaitement. Le jeu d'argent est l'une des possibilités envisagées par Satoshi, lorsqu'il a intégré des fonctions pour une éventuelle application de poker dans la version 0.1 du code du logiciel \[voir HIS201, ch4\].
 
 Betco.in, (hippich), sept. 2010 https://bitcointalk.org/index.php?topic=840.msg9795#msg9795 https://web.archive.org/web/20111128083415/https://bitcointalk.org/index.php?topic=840.0
 
-Seals With Clubs (FreeMoney), 29 août 2011 https://web.archive.org/web/20120328190743/https://bitcointalk.org/index.php?topic=40077.0 [sealswithclubs.eu, 27/3/2012](https://bitcointalk.org/index.php?topic=40077.msg822567#msg822567)
+[Moonco.in](https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530), juin 2011 (mais dérive rapidement vers un site de paris, piraté en septembre)
 
-BTC on Tilt
+BTC on Tilt, [18 juillet 2011](https://web.archive.org/web/20110722145251/http://btcontilt.com/nice-start)
+
+Seals With Clubs (FreeMoney) (littéralement « phoques avec des trèfles »), 29 août 2011 https://web.archive.org/web/20120328190743/https://bitcointalk.org/index.php?topic=40077.0 [sealswithclubs.eu, 27/3/2012](https://bitcointalk.org/index.php?topic=40077.msg822567#msg822567)
+
+![Capture du client de Seals with Clubs en 2013](assets/en/sealswithclubs-table-2013-thepokerbank.webp)
+
+Capture du client de Seals with Clubs en 2013 (source : [ThePokerBank.com](https://www.thepokerbank.com/rooms/sealswithclubs/))
 
 Paris variés : https://web.archive.org/web/20111004131910/http://betwithbtc.com/ ([GoWest](https://bitcointalk.org/index.php?topic=45566.msg543768#msg543768), [vendu en octobre 2013 ?](https://bitcointalk.org/index.php?topic=314256.msg3369154#msg3369154))
 

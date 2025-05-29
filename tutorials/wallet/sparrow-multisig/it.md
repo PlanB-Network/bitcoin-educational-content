@@ -1,12 +1,12 @@
 ---
-Name: Sparrow - Multisig
-Description: Creare un wallet multi-firma su Sparrow
+name: Sparrow - multisig
+description: Creare un wallet multi-firma su Sparrow
 ---
 ![cover](assets/cover.webp)
 
 
 
-Un wallet multi-firma (spesso chiamato "*Multisig*") è un contratto Bitcoin che richiede più firme crittografiche, da chiavi diverse, per autorizzare una spesa. A differenza di un wallet convenzionale ("*singlesig*"), dove una singola chiave privata è sufficiente per sbloccare un [UTXO](https://planb.network/resources/glossary/utxo), il Multisig si basa su un modello **m-di-n**: delle _n_ chiavi associate al wallet, _m_ devono imperativamente co-firmare ogni transazione.
+Un wallet multi-firma (spesso chiamato "*multisig*") è un contratto Bitcoin che richiede più firme crittografiche, da chiavi diverse, per autorizzare una spesa. A differenza di un wallet convenzionale ("*singlesig*"), dove una singola chiave privata è sufficiente per sbloccare un [UTXO](https://planb.network/resources/glossary/utxo), il multisig si basa su un modello **m-di-n**: delle _n_ chiavi associate al wallet, _m_ devono imperativamente co-firmare ogni transazione.
 
 
 
@@ -18,17 +18,17 @@ Questo meccanismo consente di suddividere il controllo di un wallet tra più ent
 
 
 
-Tuttavia, questa maggiore sicurezza comporta una maggiore complessità. La configurazione di un Multisig wallet richiede la protezione di diverse frasi Mnemonic (una per fattore di firma) e di chiavi pubbliche estese ("*xpub*"). Infatti, se si utilizza un wallet Multisig 2-di-3, per recuperare il wallet è necessario disporre di tutte e tre le frasi Mnemonic o di almeno due delle tre frasi. Ma se si dispone solo di due delle tre frasi, è necessario accedere anche alle tre *xpub*, senza le quali sarà impossibile recuperare le chiavi pubbliche necessarie per accedere ai bitcoin che proteggono.
+Tuttavia, questa maggiore sicurezza comporta una maggiore complessità. La configurazione di un multisig wallet richiede la protezione di diverse frasi mnemoniche (una per fattore di firma) e di chiavi pubbliche estese ("*xpub*"). Infatti, se si utilizza un wallet multisig 2-di-3, per recuperare il wallet è necessario disporre di tutte e tre le frasi mnemoniche o di almeno due delle tre frasi. Ma se si dispone solo di due delle tre frasi, è necessario accedere anche alle tre *xpub*, senza le quali sarà impossibile recuperare le chiavi pubbliche necessarie per accedere ai bitcoin che proteggono.
 
 
 
-In sintesi, per recuperare un wallet Multisig, è necessario :
+In sintesi, per recuperare un wallet multisig, è necessario:
 
 
 
 
-- Accedere a tutte le frasi Mnemonic associate a ciascun fattore di firma;
-- Oppure avere il numero minimo di frasi Mnemonic richiesto dalla soglia per poter firmare, e anche avere accesso alle xpub di tutti gli intestatari del wallet per recuperare le chiavi pubbliche necessarie.
+- Accedere a tutte le frasi mnemoniche associate a ciascun fattore di firma;
+- Oppure avere il numero minimo di frasi mnemoniche richiesto dalla soglia per poter firmare, e anche avere accesso alle xpub di tutti gli intestatari del wallet per recuperare le chiavi pubbliche necessarie.
 
 
 
@@ -36,11 +36,11 @@ In sintesi, per recuperare un wallet Multisig, è necessario :
 
 
 
-La gestione dei backup del wallet Multisig è facilitata da *[Output Script Descriptors](https://planb.network/resources/glossary/output-script-descriptors)*, che raggruppano tutti i dati pubblici necessari per accedere ai fondi. Tuttavia, questa funzionalità non è ancora implementata in tutti i software di gestione del wallet.
+La gestione dei backup del wallet multisig è facilitata dagli *[Output Script Descriptors](https://planb.network/resources/glossary/output-script-descriptors)*, che raggruppano tutti i dati pubblici necessari per accedere ai fondi. Tuttavia, questa funzionalità non è ancora implementata in tutti i software di gestione del wallet.
 
 
 
-Un wallet Multisig è particolarmente adatto ai bitcoiners che cercano una maggiore sicurezza o una gestione collettiva dei fondi: aziende, associazioni, famiglie o singoli utenti che detengono una quantità significativa di bitcoin. Può essere utilizzato per creare schemi di governance decentralizzati, ad esempio per distribuire l'autorità di firma tra diversi manager o membri del team.
+Un wallet multisig è particolarmente adatto ai bitcoiners che cercano una maggiore sicurezza o una gestione collettiva dei fondi: aziende, associazioni, famiglie o singoli utenti che detengono una quantità significativa di bitcoin. Può essere utilizzato per creare schemi di governance decentralizzati, ad esempio per distribuire l'autorità di firma tra diversi manager o membri del team.
 
 
 
@@ -54,13 +54,13 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 
 
-In questa esercitazione ti mostrerò come creare un Multisig con [Sparrow](https://sparrowwallet.com/download/). Se non hai ancora installato questo software, fallo subito. Se hai bisogno di aiuto, abbiamo anche un tutorial dettagliato sulla configurazione di Sparrow:
+In questa esercitazione ti mostrerò come creare un multisig con [Sparrow](https://sparrowwallet.com/download/). Se non l'hai ancora installato e ti serve aiuto, abbiamo anche un tutorial dettagliato sulla configurazione di Sparrow:
 
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-Per configurare un wallet multi-firma, sono necessari diversi hardware wallet. Per un Multisig 2-di-3, ad esempio, si possono utilizzare:
+Per configurare un wallet multi-firma, sono necessari diversi hardware wallet. Per un multisig 2-di-3, ad esempio, si possono utilizzare:
 
 
 
@@ -75,7 +75,7 @@ Per configurare un wallet multi-firma, sono necessari diversi hardware wallet. P
 
 
 
-È una buona idea utilizzare diverse marche di Hardware Wallet nella configurazione Multisig. In questo modo hai la garanzia che se un modello specifico presenta un problema grave, questo non influisce sulla sicurezza complessiva del Multisig. Inoltre, ciò ti consente di beneficiare dei vantaggi specifici di ciascun dispositivo. Ad esempio, nella mia configurazione:
+È una buona idea utilizzare diverse marche di Hardware wallet nella configurazione multisig. In questo modo hai la garanzia che se un modello specifico presenta un problema grave, questo non influisce sulla sicurezza complessiva del multisig. Inoltre, ciò ti consente di beneficiare dei vantaggi specifici di ciascun dispositivo. Ad esempio, nella mia configurazione:
 
 
 
@@ -97,7 +97,7 @@ Per configurare un wallet multi-firma, sono necessari diversi hardware wallet. P
 
 
 
-Prima di configurare il Multisig Wallet, assicurati che ogni Hardware Wallet sia configurato correttamente (generazione e salvataggio delle frasi Mnemonic, definizione del PIN). Per istruzioni dettagliate, puoi consultare i nostri tutorial per ogni Hardware Wallet, ad esempio :
+Prima di configurare il multisig wallet, assicurati che ogni Hardware wallet sia configurato correttamente (generazione e salvataggio delle frasi mnemonichehe, definizione del PIN). Per istruzioni dettagliate, puoi consultare i nostri tutorial per ogni Hardware wallet, ad esempio:
 
 
 
@@ -107,15 +107,15 @@ https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-Come vedrai più avanti in questo tutorial, è anche possibile integrare nella configurazione del Multisig un fattore che non è associato a un Hardware Wallet, ma le cui chiavi private sono memorizzate sul tuo PC. Questo metodo è ovviamente meno sicuro dell'uso esclusivo con Hardware Wallet, ma può essere rilevante in alcuni casi. Ad esempio, per un Multisig 2-di-3, si potrebbe optare per due Hardware Wallet e un Software Wallet.
+Come vedrai più avanti in questo tutorial, è anche possibile integrare nella configurazione del multisig un fattore che non è associato a un Hardware wallet, ma le cui chiavi private sono memorizzate sul tuo PC. Questo metodo è ovviamente meno sicuro dell'uso esclusivo con Hardware wallet, ma può essere rilevante in alcuni casi. Ad esempio, per un multisig 2-di-3, si potrebbe optare per due Hardware wallet e un Software wallet.
 
 
 
-## Creare un portafoglio Multisig
+## Creare un portafoglio multisig
 
 
 
-Apri Sparrow, fai clic sulla scheda "*File*", quindi seleziona "*New Wallet*".
+Apri Sparrow, fai clic sulla scheda "*File*", quindi seleziona "*New wallet*".
 
 
 
@@ -123,7 +123,7 @@ Apri Sparrow, fai clic sulla scheda "*File*", quindi seleziona "*New Wallet*".
 
 
 
-Assegna un nome al wallet multisig, quindi clicca su "*Create Wallet*" per confermare.
+Assegna un nome al wallet multisig, quindi clicca su "*Create wallet*" per confermare.
 
 
 
@@ -139,7 +139,7 @@ Nel menu a discesa "*Policy Type*", seleziona l'opzione "*Multi Signature*".
 
 
 
-Nell'angolo in alto a destra puoi definire il numero totale di chiavi nel Multisig e il numero di cofirmatari necessari per autorizzare una transazione. Nel mio esempio, si tratta di uno schema 2 di 3.
+Nell'angolo in alto a destra puoi definire il numero totale di chiavi nel multisig e il numero di cofirmatari necessari per autorizzare una transazione. Nel mio esempio, si tratta di uno schema 2 di 3.
 
 
 
@@ -147,11 +147,11 @@ Nell'angolo in alto a destra puoi definire il numero totale di chiavi nel Multis
 
 
 
-Nella parte inferiore della finestra, Sparrow visualizza tre "*Keystore*". Ognuno di essi rappresenta un set di chiavi. Qui sto usando tre Hardware Wallet, quindi ogni "*Keystore*" corrisponde a uno di essi. Ora li configureremo.
+Nella parte inferiore della finestra, Sparrow visualizza tre "*Keystore*". Ognuno di essi rappresenta un set di chiavi. Qui sto usando tre Hardware wallet, quindi ogni "*Keystore*" corrisponde a uno di essi. Ora li configureremo.
 
 
 
-Inizio con il Coldcard. Nella scheda "*Keystore 1*", scelgo l'opzione "*Airgapped Hardware Wallet*".
+Inizio con il Coldcard. Nella scheda "*Keystore 1*", scelgo l'opzione "*Airgapped Hardware wallet*".
 
 
 
@@ -159,7 +159,7 @@ Inizio con il Coldcard. Nella scheda "*Keystore 1*", scelgo l'opzione "*Airgappe
 
 
 
-Sul Coldcard, una volta sbloccato il dispositivo, vado al menu "*Settings*", quindi a "*Multisig Wallets*".
+Sul Coldcard, una volta sbloccato il dispositivo, vado al menu "*Settings*", quindi a "*multisig wallets*".
 
 
 
@@ -167,7 +167,7 @@ Sul Coldcard, una volta sbloccato il dispositivo, vado al menu "*Settings*", qui
 
 
 
-Questo menù consente di gestire i Multisig Wallet in cui partecipa Coldcard. Se voglio crearne uno nuovo, seleziono "*Esport XPUB*".
+Questo menù consente di gestire i multisig wallet in cui partecipa Coldcard. Se voglio crearne uno nuovo, seleziono "*Esport XPUB*".
 
 
 
@@ -191,7 +191,7 @@ La scheda Coldcard ti mostra quindi un file contenente la tua xpub appena genera
 
 
 
-Inserisci la Micro SD nel computer. Su Sparrow, fai clic sul pulsante "*Import file...*" accanto a "*Coldcard Multisig*", quindi seleziona il file creato dal Coldcard sulla scheda.
+Inserisci la Micro SD nel computer. Su Sparrow, fai clic sul pulsante "*Import file...*" accanto a "*Coldcard multisig*", quindi seleziona il file creato dal Coldcard sulla scheda.
 
 
 
@@ -199,7 +199,7 @@ Inserisci la Micro SD nel computer. Su Sparrow, fai clic sul pulsante "*Import f
 
 
 
-Il tuo xpub è stato importato con successo. Ora ripeti la procedura con gli altri due Hardware Wallet.
+Il tuo xpub è stato importato con successo. Ora ripeti la procedura con gli altri due Hardware wallet.
 
 
 
@@ -207,7 +207,7 @@ Il tuo xpub è stato importato con successo. Ora ripeti la procedura con gli alt
 
 
 
-Per il Ledger Flex, seleziona "*Keystore 2*", quindi fai clic su "*Connected Hardware Wallet*". Assicurati che il Ledger sia collegato al computer, sbloccato e che l'applicazione Bitcoin sia aperta.
+Per il Ledger Flex, seleziona "*Keystore 2*", quindi fai clic su "*Connected Hardware wallet*". Assicurati che il Ledger sia collegato al computer, che sia sbloccato, e che l'applicazione Bitcoin sia aperta.
 
 
 
@@ -223,7 +223,7 @@ Quindi fai clic sul pulsante "*Scan...*".
 
 
 
-Accanto al nome dell'Hardware Wallet, fai clic su "*Import Keystore*".
+Accanto al nome dell'Hardware wallet, fai clic su "*Import Keystore*".
 
 
 
@@ -239,7 +239,7 @@ Il secondo firmatario è ora correttamente registrato su Sparrow.
 
 
 
-Ripeti esattamente la stessa procedura con il Trezor One per finalizzare la configurazione del Multisig.
+Ripeti esattamente la stessa procedura con il Trezor One per finalizzare la configurazione del multisig.
 
 
 
@@ -247,11 +247,11 @@ Ripeti esattamente la stessa procedura con il Trezor One per finalizzare la conf
 
 
 
-Nella mia configurazione non è contemplato questo caso, ma se desideri includere una firma tramite un Software Wallet in Sparrow (Hot Wallet) all'interno del proprio Multisig, è sufficiente fare clic sul pulsante "*New or Imported Software Wallet*".
+Nella mia configurazione non è contemplato questo caso, ma se desideri includere una firma tramite un Software wallet in Sparrow (Hot wallet) all'interno del proprio multisig, è sufficiente fare clic sul pulsante "*New or Imported Software wallet*".
 
 
 
-Ora che tutti i dispositivi di firma sono stati importati su Sparrow, è possibile finalizzare la creazione di Multisig facendo clic su "*Apply*".
+Ora che tutti i dispositivi di firma sono stati importati su Sparrow, è possibile finalizzare la creazione di multisig facendo clic su "*Apply*".
 
 
 
@@ -271,31 +271,31 @@ Ricorda di salvare la password in un luogo sicuro, ad esempio in un gestore di p
 
 
 
-## Backup di un Multisig Wallet
+## Backup di un multisig wallet
 
 
 
-Ora salva il tuo *Output Script Descriptors* sul Coldcard (questo vale solo per gli utenti che hanno un Coldcard nel loro Multisig) e, soprattutto, tieni una copia di backup su un supporto indipendente.
+Ora salva il tuo *Output Script Descriptors* sul Coldcard (questo vale solo per gli utenti che hanno un Coldcard nel loro multisig) e, soprattutto, tieni una copia di backup su un supporto indipendente.
 
 
 
-Il *Descriptor* contiene tutte le xpub del Multisig Wallet, nonché i percorsi di derivazione utilizzati per generate le chiavi. Ricorda quanto visto nella Parte 1: per ripristinare un Multisig Wallet, è necessario avere **tutte** le frasi Mnemonic, oppure solo il numero minimo richiesto per raggiungere la soglia di firma. Tuttavia, in quest'ultimo caso, è essenziale avere anche **gli xpub** dei firmatari mancanti. Il *Descriptor* contiene tutte le xpub del Multisig.
+Il *Descriptor* contiene tutte le xpub del multisig wallet, nonché i percorsi di derivazione utilizzati per generate le chiavi. Ricorda quanto visto nella Parte 1: per ripristinare un multisig wallet, è necessario avere **tutte** le frasi mnemoniche, oppure solo il numero minimo richiesto per raggiungere la soglia di firma. Tuttavia, in quest'ultimo caso, è essenziale avere anche **le xpub** dei firmatari mancanti. Il *Descriptor* contiene tutte le xpub del multisig.
 
 
 
-Se non è chiaro, ricorda solo questo: per recuperare un Multisig, è necessario il numero minimo di frasi Mnemonic per ogni Hardware Wallet utilizzato, a seconda della soglia (nel mio caso: 2 frasi), oltre al *Descriptor*.
+Se non è chiaro, ricorda solo questo: per recuperare un multisig, è necessario il numero minimo di frasi mnemoniche per ogni Hardware wallet utilizzato, a seconda della soglia (nel mio caso: 2 frasi), oltre al *Descriptor*.
 
 
 
-Questo *Descriptor* non contiene chiavi private, ma solo chiavi pubbliche. Ciò significa che non dà accesso ai fondi. Non è quindi critico come le frasi Mnemonic, che danno pieno accesso ai bitcoin. Il rischio del *Descriptor* è legato esclusivamente alla riservatezza: in caso di compromissione, una terza parte potrebbe osservare tutte le tue transazioni, ma non potrebbe spendere i tuoi fondi.
+Questo *Descriptor* non contiene chiavi private, ma solo chiavi pubbliche. Ciò significa che non dà accesso ai fondi. Non è quindi critico come le frasi mnemoniche, che danno pieno accesso ai bitcoin. Il rischio del *Descriptor* è legato esclusivamente alla riservatezza: in caso di compromissione, una terza parte potrebbe osservare tutte le tue transazioni, ma non potrebbe spendere i tuoi fondi.
 
 
 
-Ti consiglio vivamente di creare diverse copie di questo *Descriptor* e di conservarle con ciascun dispositivo di firma del Multisig. Ad esempio, nel mio caso, stampo il *Descriptor* su carta e ne conservo una copia nello stesso luogo dove ripongo il Coldcard, un'altra insieme al Trezor e una insieme al Ledger. Inoltre, salvo questo *Descriptor* in formato PDF su tre chiavette USB, ognuna delle quali viene conservata con uno degli Hardware Wallet. In questo modo, massimizzo le possibilità di non perdere mai questo *Descriptor* e sono sicuro di avere due copie (una fisica e una digitale) con ogni dispositivo.
+Ti consiglio vivamente di creare diverse copie di questo *Descriptor* e di conservarle con ciascun dispositivo di firma del multisig. Ad esempio, nel mio caso, stampo il *Descriptor* su carta e ne conservo una copia nello stesso luogo dove ripongo il Coldcard, un'altra insieme al Trezor e una insieme al Ledger. Inoltre, salvo questo *Descriptor* in formato PDF su tre chiavette USB, ognuna delle quali viene conservata con uno degli Hardware wallet. In questo modo, massimizzo le possibilità di non perdere mai questo *Descriptor* e sono sicuro di avere due copie (una fisica e una digitale) con ogni dispositivo.
 
 
 
-Una volta creato il Multisig Wallet, Sparrow fornisce automaticamente questo *Descriptor*. Fai clic sul pulsante "*SavePDF...*" per salvarlo sia come testo che come codice QR.
+Una volta creato il multisig wallet, Sparrow fornisce automaticamente questo *Descriptor*. Fai clic sul pulsante "*SavePDF...*" per salvarlo sia come testo che come codice QR.
 
 
 
@@ -311,11 +311,10 @@ Una volta creato il Multisig Wallet, Sparrow fornisce automaticamente questo *De
 
 
 
-Registra anche questo *Descriptor* sul Coldcard (se ne usi uno nella tua configurazione). Ciò consentirà al Coldcard di verificare che ogni transazione firmata in seguito corrisponda al Wallet originale: xpub corretto, formato Address corretto, percorso di derivazione corretto... Senza questo *Descriptor* importato, Coldcard non può confermare che gli indirizzi Exchange non siano stati dirottati o che il PSBT (Partially Signed Bitcoin Transaction) non sia stato manomesso.
+Registra anche questo *Descriptor* sul Coldcard (se ne usi uno nella tua configurazione). Ciò consentirà al Coldcard di verificare che ogni transazione firmata in seguito corrisponda al wallet originale: xpub corretto, formato di indirizzo corretto, percorso di derivazione corretto... Se non viene importato il *Descriptor*, Coldcard non può confermare che non sia avvenuta la manomissione degli indirizzi di cambio o della PSBT (Partially Signed Bitcoin Transaction).
 
 
-
-Questo è ciò che rende Coldcard così interessante in un Multisig: offre controlli aggiuntivi contro alcuni attacchi sofisticati, che altri Hardware Wallet non consentono (a condizione, ovviamente, che lo si usi per firmare).
+Questo è ciò che rende Coldcard così interessante nella creazione di un multisig: offre controlli aggiuntivi contro alcuni attacchi sofisticati, che altri Hardware wallet non offrono (a condizione, ovviamente, che lo si usi per firmare).
 
 
 
@@ -327,7 +326,7 @@ In Sparrow, accedi al menu "*Settings*", quindi fai clic su "*Export...*".
 
 
 
-Accanto all'opzione "*Coldcard Multisig*", fai clic su "*Export file...*" e salva il file di testo sulla scheda Micro SD.
+Accanto all'opzione "*Coldcard multisig*", fai clic su "*Export file...*" e salva il file di testo sulla scheda Micro SD.
 
 
 
@@ -335,7 +334,7 @@ Accanto all'opzione "*Coldcard Multisig*", fai clic su "*Export file...*" e salv
 
 
 
-Inserisci quindi la scheda nel Coldcard. Vai al menu "*Settings*", quindi "*Multisig Wallet*" e seleziona "*Import from SD*".
+Inserisci quindi la scheda nel Coldcard. Vai al menu "*Settings*", quindi "*multisig wallet*" e seleziona "*Import from SD*".
 
 
 
@@ -351,7 +350,7 @@ Seleziona il file appropriato e conferma l'importazione.
 
 
 
-Fai clic sul nome del nuovo Multisig importato.
+Fai clic sul nome del nuovo multisig importato.
 
 
 
@@ -359,7 +358,7 @@ Fai clic sul nome del nuovo Multisig importato.
 
 
 
-Controlla i parametri di configurazione del Multisig, quindi conferma la registrazione.
+Controlla i parametri di configurazione del multisig, quindi conferma la registrazione.
 
 
 
@@ -367,17 +366,17 @@ Controlla i parametri di configurazione del Multisig, quindi conferma la registr
 
 
 
-Il Multisig è ora correttamente salvato sul Coldcard. Se disponi di più Coldcard nello stesso Multisig, ripeti questa procedura per ciascuna di esse.
+Il multisig è ora correttamente salvato sul Coldcard. Se disponi di più Coldcard nello stesso multisig, ripeti questa procedura per ciascuna di esse.
 
 
 
-Oltre a salvare il *Descriptor*, non dimenticare di prestare particolare attenzione al salvataggio delle frasi Mnemonic per ciascuno dei tuoi dispositivi di firma. Se sei alle prime armi, ti consiglio di consultare quest'altra guida per imparare a salvarle e gestirle correttamente:
+Oltre a salvare il *Descriptor*, non dimenticare di prestare particolare attenzione al salvataggio delle frasi mnemoniche per ciascuno dei tuoi dispositivi di firma. Se sei alle prime armi, ti consiglio di consultare quest'altra guida per imparare a salvarle e gestirle correttamente:
 
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Quando ancora non hai ricevuto fondi sul Multisig, **ti consiglio vivamente di eseguire un test di ripristino con il wallet vuoto**. Annota alcune informazioni di riferimento, come il primo indirizzo di ricezione, quindi ripristina gli Hardware Wallet mentre il wallet è ancora vuoto. Successivamente, prova a ripristinare il Multisig Wallet sui portafogli Hardware utilizzando i backup cartacei della frase Mnemonic, mentre su Sparrow fai la stessa cosa utilizzando il *Descriptor*. Verifica che il primo indirizzo di ricezione generato dopo il ripristino corrisponda a quello scritto originariamente. Se così fosse, puoi essere certo che i backup cartacei sono affidabili.
+Quando ancora non hai ricevuto fondi sul multisig, **ti consiglio vivamente di eseguire un test di ripristino con il wallet vuoto**. Annota alcune informazioni di riferimento, come il primo indirizzo di ricezione, quindi ripristina gli Hardware wallet mentre il wallet è ancora vuoto. Successivamente, prova a ripristinare il multisig sugli Hardware wallet utilizzando i backup cartacei della frasi mnemoniche, mentre su Sparrow fai la stessa cosa utilizzando il *Descriptor*. Verifica che il primo indirizzo di ricezione generato dopo il ripristino corrisponda a quello scritto originariamente. Se così fosse, puoi essere certo che i backup cartacei sono affidabili.
 
 
 
@@ -387,11 +386,11 @@ Per saperne di più su come eseguire un test di ripristino, ti suggerisco di con
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-## Ricevere bitcoin sul tuo Multisig
+## Ricevere bitcoin sul tuo multisig
 
 
 
-Il tuo Wallet è ora pronto a ricevere bitcoin. In Sparrow, fai clic sulla scheda "*Receive*".
+Il tuo wallet è ora pronto a ricevere bitcoin. In Sparrow, fai clic sulla scheda "*Receive*".
 
 
 
@@ -399,11 +398,11 @@ Il tuo Wallet è ora pronto a ricevere bitcoin. In Sparrow, fai clic sulla sched
 
 
 
-Prima di utilizzare l'Address, ovvero l'indirizzo di ricezione, generato da Sparrow Wallet, prenditi del tempo per verificarlo direttamente sullo schermo dei tuoi Hardware Wallet. Questo ti assicurerà che l'Address non è stato alterato e che i tuoi dispositivi possiedono le chiavi private necessarie per spendere i fondi associati. Questo aiuta a proteggerti da una serie di vettori di attacco.
+Prima di utilizzare l'indirizzo di ricezione generato da Sparrow wallet, prenditi del tempo per verificarlo direttamente sullo schermo dei tuoi Hardware wallet. Questo ti assicurerà che l'indirizzo non sia stato alterato e che i tuoi dispositivi possiedano le chiavi private necessarie per spendere i fondi associati. Questo aiuta a proteggerti da una serie di vettori di attacco.
 
 
 
-A tal fine, fai clic su "*Display Address*" per visualizzare l'Address sul Trezor o sul Ledger, se collegato via cavo.
+A tal fine, fai clic su "*Display address*" per visualizzare l'indirizzo sul Trezor o sul Ledger, se collegato via cavo.
 
 
 
@@ -411,7 +410,7 @@ A tal fine, fai clic su "*Display Address*" per visualizzare l'Address sul Trezo
 
 
 
-Con Coldcard, questa verifica può essere effettuata senza alcuna interazione con Sparrow. Semplicemente apri il menu "*Address Explorer*" e seleziona il tuo Multisig in basso.
+Con Coldcard, questa verifica può essere effettuata senza alcuna interazione con Sparrow. Puoi semplicemente aprire il menu "*address Explorer*" e selezionare il tuo multisig in basso.
 
 
 
@@ -419,7 +418,7 @@ Con Coldcard, questa verifica può essere effettuata senza alcuna interazione co
 
 
 
-Vedrai quindi gli indirizzi di ricezione generati dal Multisig.
+Vedrai quindi gli indirizzi di ricezione generati dal multisig.
 
 
 
@@ -427,11 +426,11 @@ Vedrai quindi gli indirizzi di ricezione generati dal Multisig.
 
 
 
-Verifica che l'Address visualizzato su ogni Hardware Wallet corrisponda esattamente a quello del Wallet di Sparrow. Ti consiglio di eseguire questa operazione prima di condividere l'Address con il pagatore, per essere sicuro della sua integrità.
+Verifica che l'indirizzo visualizzato su ogni Hardware wallet corrisponda esattamente a quello del wallet di Sparrow. Ti consiglio di eseguire questa operazione prima di condividere l'indirizzo con il pagatore, per essere sicuro della sua integrità.
 
 
 
-Puoi quindi assegnare una "Etichetta"  a questo Address, per indicare l'origine dei bitcoin ricevuti. Questo è un buon modo per organizzare la gestione dei tuoi UTXO.
+Puoi quindi assegnare una "Etichetta"  a questo indirizzo, per indicare l'origine dei bitcoin ricevuti. Questo è un buon modo per organizzare e gestire i tuoi UTXO.
 
 
 
@@ -439,7 +438,7 @@ Puoi quindi assegnare una "Etichetta"  a questo Address, per indicare l'origine 
 
 
 
-Una volta verificato, puoi utilizzare l'Address per ricevere bitcoin.
+Una volta verificato, puoi utilizzare l'indirizzo per ricevere bitcoin.
 
 
 
@@ -447,11 +446,11 @@ Una volta verificato, puoi utilizzare l'Address per ricevere bitcoin.
 
 
 
-## Inviare bitcoin con il tuo Multisig
+## Inviare bitcoin con il tuo multisig
 
 
 
-Ora che hai ricevuto i primi Sats sul tuo Multisig Wallet, puoi anche spenderli! Su Sparrow, vai alla scheda "*Send*" per creare una nuova transazione.
+Ora che hai ricevuto i primi Sats sul tuo multisig wallet, puoi anche spenderli! Su Sparrow, vai alla scheda "*Send*" per creare una nuova transazione.
 
 
 
@@ -483,7 +482,7 @@ Aggiungi una "*Etichetta*" per descrivere lo scopo di questa transazione, così 
 
 
 
-Inserisci l'importo da inviare all'Address selezionato.
+Inserisci l'importo da inviare all'indirizzo selezionato.
 
 
 
@@ -491,7 +490,7 @@ Inserisci l'importo da inviare all'Address selezionato.
 
 
 
-Regola la quantità di fees in base alle condizioni attuali della rete. Ad esempio, consulta [Mempool.space](https://Mempool.space/) per selezionare una fee adeguata.
+Regola la quantità di fee in base alle condizioni attuali della rete. Ad esempio, consulta [Mempool.space](https://Mempool.space/) per selezionare una fee adeguata.
 
 
 
@@ -511,7 +510,7 @@ Se sei soddisfatto di tutto, fai clic su "*Finalize Transaction for Signing*".
 
 
 
-Nella parte inferiore dello schermo, vedrai che Sparrow è in attesa di 2 firme. Questo è normale: il Wallet usato qui è un Multisig 2-di-3.
+Nella parte inferiore dello schermo, vedrai che Sparrow è in attesa di 2 firme. Questo è normale: il wallet usato qui è un multisig 2-di-3.
 
 
 
@@ -527,7 +526,7 @@ Inizia a firmare con il tuo Coldcard. A tal fine, inserisci una scheda Micro SD 
 
 
 
-Esistono 3 modi per trasmettere la transazione da firmare all'Hardware Wallet e poi recuperarla da Sparrow. Il primo è utilizzare una scheda Micro SD, come vedrai qui con Coldcard. Il secondo è tramite una connessione via cavo, che utilizzerai per la seconda firma (Ledger e Trezor). Infine, puoi utilizzare la comunicazione tramite codice QR, per i dispositivi dotati di fotocamera come Coldcard Q, Jade Plus o Passport V2.
+Esistono 3 modi per trasmettere la transazione da firmare all'Hardware wallet e poi recuperarla da Sparrow. Il primo è utilizzare una scheda Micro SD, come vedrai qui con Coldcard. Il secondo è tramite una connessione via cavo, che utilizzerai per la seconda firma (Ledger e Trezor). Infine, puoi utilizzare la comunicazione tramite codice QR, per i dispositivi dotati di fotocamera come Coldcard Q, Jade Plus o Passport V2.
 
 
 
@@ -539,7 +538,7 @@ Una volta che hai salvato il PSBT (*Partially Signed Bitcoin Transaction*) sulla
 
 
 
-Sullo schermo dell'Hardware Wallet, controlla attentamente i parametri della transazione: l'Address del destinatario, l'importo inviato e le fees. Una volta confermata la transazione, convalida per procedere alla firma.
+Sullo schermo dell'Hardware wallet, controlla attentamente i parametri della transazione: l'indirizzo del destinatario, l'importo inviato e le fee. Una volta confermata la transazione, convalida per procedere alla firma.
 
 
 
@@ -563,7 +562,7 @@ Puoi vedere che la firma Coldcard è stata aggiunta. Devi ora usare un secondo d
 
 
 
-Fai clic su "*Sign*" accanto al nome del proprio Hardware Wallet.
+Fai clic su "*Sign*" accanto al nome del proprio Hardware wallet.
 
 
 
@@ -571,7 +570,7 @@ Fai clic su "*Sign*" accanto al nome del proprio Hardware Wallet.
 
 
 
-La prima volta che usi Ledger con questo Multisig, Sparrow chiederà di verificare le chiavi pubbliche estese (xpub) dei cofirmatari. Come nel caso di Coldcard, questo passaggio impedisce di firmare alla cieca in seguito. Per convalidare queste informazioni, confronta le xpub visualizzate sullo schermo del Ledger con quelle fornite direttamente dagli altri Hardware Wallet.
+La prima volta che usi Ledger con questo multisig, Sparrow chiederà di verificare le chiavi pubbliche estese (xpub) dei cofirmatari. Come nel caso di Coldcard, questo passaggio impedisce di firmare alla cieca in seguito. Per convalidare queste informazioni, confronta le xpub visualizzate sullo schermo del Ledger con quelle fornite direttamente dagli altri Hardware wallet.
 
 
 
@@ -579,7 +578,7 @@ La prima volta che usi Ledger con questo Multisig, Sparrow chiederà di verifica
 
 
 
-Controlla l'Address del destinatario, l'importo trasferito e la fee della transazione, quindi firma la transazione.
+Controlla l'indirizzo del destinatario, l'importo trasferito e la fee della transazione, quindi firma la transazione.
 
 
 
@@ -595,7 +594,7 @@ Tocca sullo schermo per firmare.
 
 
 
-Sparrow dispone ora delle due firme necessarie per rilasciare i fondi dal portafoglio Multisig. Controlla la transazione un'ultima volta e, se tutto va bene, fai clic su "*Broadcast Transaction*" per trasmetterla in rete.
+Sparrow dispone ora delle due firme necessarie per rilasciare i fondi dal portafoglio multisig. Controlla la transazione un'ultima volta e, se tutto va bene, fai clic su "*Broadcast Transaction*" per trasmetterla in rete.
 
 
 
@@ -603,7 +602,7 @@ Sparrow dispone ora delle due firme necessarie per rilasciare i fondi dal portaf
 
 
 
-Questa transazione si trova nella scheda "*Transactions*" di Sparrow Wallet.
+Questa transazione si trova nella scheda "*Transactions*" di Sparrow wallet.
 
 
 
@@ -611,11 +610,11 @@ Questa transazione si trova nella scheda "*Transactions*" di Sparrow Wallet.
 
 
 
-Congratulazioni, ora sai come impostare e utilizzare un Wallet a firma multipla su Sparrow. Se hai trovato utile questa guida, ti sarei grato se lasciassi un pollice verde qui sotto. Non esitare a condividere questo articolo sui tuoi social network. Grazie per la condivisione!
+Congratulazioni, ora sai come impostare e utilizzare un wallet a firma multipla su Sparrow. Se hai trovato utile questa guida, ti sarei grato se lasciassi un pollice verde qui sotto. Non esitare a condividere questo articolo sui tuoi social network. Grazie per la condivisione!
 
 
 
-Per andare avanti, ti consiglio di consultare questo tutorial su un altro metodo per aumentare la sicurezza del tuo Bitcoin Wallet, il passphrase BIP39:
+Per andare avanti, ti consiglio di consultare questo tutorial su un altro metodo per aumentare la sicurezza del tuo Bitcoin wallet tramite l'uso della passphrase BIP39:
 
 
 

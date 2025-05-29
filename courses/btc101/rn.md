@@ -688,7 +688,6 @@ Amafaranga rero arashobora gushirwa mu miryango yagutse y’ikoreshwa, yama ashi
 
 ### None Bitcoin Wallet ikora gute?
 
-
 Yaba ari "banker" yawe ya Bitcoin canke wewe nyene, igice kinini c'amasakoshi ya Bitcoin akorana n'ubuhinga busa n'ubwo bushingiye ku buhinga bwo gukingira amakuru butagira aho bugarukira, bujanye n'uburyo bw'urufunguzo rubiri: urufunguzo rw'ibanga rwo gukoresha n'urufunguzo rwa bose rwo kwakira.
 
 

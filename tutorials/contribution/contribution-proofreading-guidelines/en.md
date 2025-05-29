@@ -89,6 +89,8 @@ In the markdown language, headers (and paragraph titles) all begin with the hash
 
 Make sure to NEVER delete hash signs before a title, otherwise you will create issues with the structure of the text. At the same time, make sure not to change the chapterID part you can see in the image above: ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>``
 
+
+NON METTERE MAI BOLD NELL'HEADER
 ## The initial section of courses
 
 At the beginning of any content, you will find the following static lowercase words: "name", "description", "objectives". They are used by the website to decode the content itself and are always left in EN. As a consequence, DO NOT translate them, otherwise the content will create synchronization issues. Make sure to only proofread the part after the colon, which is automatically translated by AI.
@@ -138,6 +140,8 @@ If you need to search for specific words inside the text, you can click on CTRL+
 
 When using the "replace all" function, it's important to double-check the results to ensure that links haven't been altered as well. For instance, if you want to change the word "Bitcoin" to "Bitkoin" (which may be necessary in some languages), using the batch replace function can efficiently update all instances in the text. However, be aware that this tool will also modify any links containing the word, potentially leading to redirection issues.
 
+image to insert
+
 
 Another best practice when you finish your proofreading task and send the PR is to go back to the original issue opened by the coordinator, and comment with "Proofreading done". Make sure to insert your PR link there as well.
 
@@ -147,3 +151,9 @@ Another best practice when you finish your proofreading task and send the PR is 
 To sum up, being aware of the common mistakes proofreaders make can really help you improve your skills when checking content. It's easy to overlook things like context or consistency, so, catching these mistakes can make a big difference. Always keep in mind that a beginner may read these courses and tutorials, so it's our responsibility to ensure that they understand fully.
 
 Thank you for reading through this tutorial and enjoy your proofreading journey!
+
+ADD: 
+:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
+
+Loic, inserisci di mettere lo speazio prima e dopo il link dei corsi o tutorial
+aggiungere parte sui quiz = mettere review = true e fare attenzione alle domande sbagliate

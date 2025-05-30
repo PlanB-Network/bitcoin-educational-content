@@ -563,24 +563,25 @@ Oleh karena itu, tantangan pada periode ini adalah mempromosikan Bitcoin untuk m
 Dalam bab ini, kita akan membahas pola pemikiran yang muncul dari upaya komunikasi Satoshi, seperti ketidakpercayaan terhadap sistem perbankan dan batas 21 juta koin. Kita juga akan mengomentari percakapan yang dilakukan Satoshi dengan para pengkritiknya untuk membela penemuannya. Terakhir, kita akan membahas bantuan yang ia terima dari orang lain, terutama bantuan penting dari Martti Malmi, tangan kanan pertamanya.
 
 ### Blok Genesis
-Peluncuran pada Januari 2009 memberikan Satoshi Nakamoto kesempatan untuk menetapkan parameter tetap dari sistemnya. Seperti yang akan ia [tulis](https://Bitcointalk.org/index.php?topic=195.msg1611#msg1611) kemudian, sifat dari Bitcoin adalah sedemikian rupa sehingga, "setelah versi 0.1 dirilis," operasi dasarnya "ditetapkan dalam batu untuk sisa eksistensinya," membuatnya perlu untuk mendapatkan hal-hal yang benar sebelum sistem berkembang. (*asli: "once version 0.1 was released, the core design was set in stone for the rest of its lifetime"*) Secara khusus, dua elemen dasar memiliki signifikansi budaya yang penting: isi dari blok genesis dan batas 21 juta unit.
 
-Blok genesis adalah blok dasar dari blockchain Bitcoin, dari mana harus diperluas. Oleh karena itu, ini di-hardcode ke dalam perangkat lunak. Sebelum meluncurkan jaringan, Satoshi membangun tautan pertama ini dengan menghasilkan bukti kerja yang diperlukan dan menandai waktu pada 3 Januari 2009, pukul 18:15:05 UTC. Dalam blok ini (dan khususnya dalam transaksi hadiah), ia menuliskan pesan berikut:
+Peluncuran pada Januari 2009 memberikan kesempatan bagi Satoshi Nakamoto untuk menetapkan parameter tetap pada sistemnya. Seperti yang ia [tulis](https://Bitcointalk.org/index.php?topic=195.msg1611#msg1611) kemudian, sifat Bitcoin sedemikian rupa sehingga, "setelah versi 0.1 dirilis," operasi dasarnya "sudah ditetapkan selamanya," (*asli: "once version 0.1 was released, the core design was set in stone for the rest of its lifetime"*) sehingga perlu untuk melakukannya dengan benar sebelum sistem berkembang. Secara khusus, dua elemen fundamental memiliki kepentingan dasar yang signifikan: konten blok genesis dan batas 21 juta unit.
+
+Blok genesis adalah blok dasar dari blockchain Bitcoin, dari mana semua blok selanjutnya harus diperluas. Oleh karena itu, blok ini sudah tertanam (hardcoded) dalam perangkat lunak. Sebelum meluncurkan jaringan, Satoshi membuat tautan pertama ini dengan menghasilkan proof of work yang diperlukan dan memberikan stempel waktu pada tanggal 3 Januari 2009, pukul 18:15:05 UTC. Di dalam blok ini (dan secara khusus dalam transaksi hadiahnya), ia menuliskan pesan berikut:
 
 ```
 The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 ```
 
-Ini adalah judul dari surat kabar Inggris *The Times* pada hari itu, menunjukkan bahwa Menteri Keuangan Inggris (yaitu, menteri keuangan Inggris) berada di ambang memberikan bailout kedua untuk bank-bank. Kehadiran judul ini dalam blok berfungsi ganda:
+  Ini adalah berita utama dari surat kabar Inggris The Times pada hari itu, yang menunjukkan bahwa Menteri Keuangan (Chancellor of the Exchequer) (yaitu, menteri keuangan Inggris) berada di ambang untuk menyelamatkan bank-bank untuk kedua kalinya. Kehadiran berita utama ini dalam blok tersebut memiliki peran ganda:
 
-- Di satu sisi, ini mencegah pendahuluan peluncuran jaringan dengan membuktikan bahwa sistem tidak mungkin dimulai sebelum 3 Januari, karena Satoshi tidak mungkin mengetahui tentang judul berita sebelum surat kabar diterbitkan;
-- Di sisi lain, secara simbolis menunjukkan apa yang ditentang oleh Bitcoin dengan merujuk pada konteks moneter dan keuangan saat itu.
+- Di satu sisi, ini mencegah pemalsuan tanggal peluncuran jaringan dengan membuktikan bahwa sistem tidak mungkin dimulai sebelum 3 Januari, karena Satoshi tidak mungkin mengetahui berita utama tersebut sebelum surat kabar diterbitkan;
+- Di sisi lain, ini secara simbolis menunjukkan apa yang dilawan oleh Bitcoin dengan merujuk pada konteks moneter dan keuangan pada waktu itu.
 
 ![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
 
-Pada saat itu, dunia memang merasakan dampak penuh dari krisis keuangan yang dimulai pada tahun 2007 dengan pecahnya gelembung subprime di Amerika Serikat. Pemerintah menyelamatkan lembaga keuangan untuk mencegah kebangkrutan lebih lanjut setelah jatuhnya bank investasi Lehman Brothers pada 15 September 2008, dan bank sentral terlibat dalam pelonggaran kuantitatif dengan menyuntikkan likuiditas ke pasar keuangan. Penggunaan uang publik yang diciptakan untuk kesempatan itu memiliki efek mengganggu sejumlah warga yang menyadari bahwa sistem perbankan sebenarnya adalah salah satu keuntungan pribadi dan kerugian yang disosialisasikan.
+Pada masa itu, dunia memang sedang merasakan dampak penuh dari krisis keuangan yang dimulai pada tahun 2007 dengan pecahnya gelembung subprime di Amerika Serikat. Pemerintah menyelamatkan lembaga keuangan untuk mencegah kebangkrutan lebih lanjut setelah jatuhnya bank investasi Lehman Brothers pada 15 September 2008, dan bank-bank sentral terlibat dalam pelonggaran kuantitatif dengan menyuntikkan likuiditas ke pasar keuangan. Penggunaan uang publik yang diciptakan untuk tujuan ini membuat sejumlah warga gelisah yang menyadari bahwa sistem perbankan sebenarnya adalah salah satu keuntungan pribadi dan kerugian yang ditanggung bersama.
 
-Di sisi lain, Bitcoin tidak bergantung pada pihak ketiga yang dipercaya, dan oleh karena itu tidak tunduk pada keinginan bank sentral. Ini berkontras dengan mata uang negara, seperti dolar atau euro, yang jumlahnya dapat diubah secara sewenang-wenang oleh mereka yang mengontrol penciptaan uang; Kebijakan moneter Bitcoin memang diprogram sebelumnya, ditulis ke dalam protokol, untuk teoritis tidak pernah diubah.
+Bitcoin, di sisi lain, tidak bergantung pada pihak ketiga yang tepercaya, dan oleh karena itu tidak tunduk pada keinginan bank sentral. Dengan demikian, Bitcoin kontras dengan mata uang negara, seperti dolar atau euro, yang jumlahnya dapat diubah secara sewenang-wenang oleh mereka yang mengendalikan penciptaan uang; kebijakan moneter Bitcoin memang diprogram sebelumnya, tertulis dalam protokol, untuk secara teoretis tidak pernah diubah.
 
 ### Batas 21 Juta
 

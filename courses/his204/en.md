@@ -1,10 +1,10 @@
 ---
-name: The origins of economic Laissez-Faire
-goal: exploring the foundations of 18th-century French liberal economic thought, with a focus on the doctrine of laissez-faire, its leading thinkers, and lasting influence.
+name: The origins of Laissez-Faire economics
+goal: explore the foundations of 18th-century French liberal economic thought, with a focus on the doctrine of laissez-faire, its leading thinkers, and lasting influence.
 objectives: 
 
   - Gain a solid understanding of the key concepts behind the thought of French liberal economic and how they evolved during the 18th century
-  - Understand the arguments French thinkers developed against state interventionism
+  - Understand the arguments French thinkers developed against State interventionism
   - Evaluate the impact of this French school of thought and its role in shaping the development of global political economy
   - Develop a critical understanding of the historical continuity between different thinkers and their theories
 
@@ -13,14 +13,13 @@ objectives:
 # A Journey into the Economic History of Freedom
 
 
-In early 18th-century France, a new way of thinking about the economy began to take shape. It emerged as a response to the heavy-handed control of the Ancien Régime and centered around one powerful idea: *laissez-faire* - "let us do". 
-The phrase is said to have come from a conversation between a merchant and Minister Colbert. When the minister asked, "What can the government do to help your business?" the merchant replied, "Just let us do it." That simple answer captured the heart of a growing movement that argued for less government interference in the economy.
+In early 18th-century France, a new way of thinking about the economy began to take shape. It emerged as a response to the heavy-handed control of the Ancien Régime and centered around one powerful idea: *laissez-faire* - "let it happen". 
+The phrase is said to have come from a conversation between a merchant and Minister Colbert. When the minister asked, "What can the government do to help your business?" the merchant replied, "Just let us do it".
+
+Since then, many thinkers started supporting this idea, believing the role of government should be limited. It should protect individual rights, but avoid stepping into economic affairs, for fear of disrupting and destroying everything. First, it must collect taxes in a fair and equal manner (Vauban, Boisguilbert). Then, it must refrain from manipulating the currency, by devaluing its value to finance itself at a low cost (Cantillon after the John Law disaster; Dupont de Nemours before that of the Assignats). It must guarantee the freedom to work, abolish guilds and burdensome regulations on industry and commerce, which hinder economic progress (ideas supported by d'Argenson, Gournay, the Physiocrats, and Turgot).
 
 
-Thinkers who supported this idea believed the role of government should be limited. It should protect individual rights, but avoid stepping into economic affairs,  for fear of disrupting and destroying everything.First, it must collect taxes in a fair and equal manner (Vauban, Boisguilbert). Then, it must refrain from manipulating the currency by devaluing it to finance itself cheaply (Cantillon after the John Law disaster; Dupont de Nemours before that of the Assignats). It must guarantee the freedom to work, abolish guilds and burdensome regulations on industry and commerce, which hinder economic progress (ideas supported by d'Argenson, Gournay, the Physiocrats, and Turgot).
-
-
-Finally, the State must allow the free movement of goods,  which led some to add laissez-passer to laissez-faire, enabling consumers to buy at the best price and promoting peace and brotherhood among nations (Quesnay and the Physiocrats, Abbé de Saint-Pierre). In defending this ideal of laissez-faire, the French economists of the 18th century laid the foundations of economic science. Having dominated their own time, they still have the power to guide ours.
+Finally, the State must allow the free circulation of goods, which led some to add the phrase "laissez-passer" to laissez-faire, enabling consumers to buy at the best price and promoting peace and brotherhood among nations (Quesnay and the Physiocrats, Abbé de Saint-Pierre). In defending this ideal of laissez-faire, the French economists of the 18th century laid the foundations of economic science. Having dominated their own time, they still have the power to guide ours.
 
 
 +++
@@ -35,37 +34,27 @@ Finally, the State must allow the free movement of goods,  which led some to add
 
 <chapterId>202db3c6-0320-494d-8057-adc6f6563048</chapterId>
 
-
 Welcome to HIS204!
 
-
-this course is designed to explore the French origins of concept of *laissez-faire*-"let us do"-, as it developed in the 18th century through a rich intellectual tradition. By tracing the thoughts of early French economic thinkers, we'll uncover the foundations of a political philosophy built on economic freedom, marked by a mistrust of state interference and a belief in a natural order that favors growth and prosperity.
-
+This course is designed to explore the French origins of concept of *laissez-faire*-"let it happen"-, as it developed in the 18th century through a rich intellectual tradition. By tracing the thoughts of early French economic thinkers, we'll uncover the foundations of a political economy built on economic freedom, marked by a mistrust of State interference and a belief in a natural order that favors growth and prosperity.
 
 **Section 2: The Forerunners** 
 
 In this section we begin at the turn of the 17th and 18th centuries, a time shaped by the excessive rule of absolute monarchy and the first calls for a more rational and fair way to govern public affairs. Through the figures of Vauban, Boisguilbert and Cantillon, we discover early criticisms of state interventionism and a first outline of what would later become liberal political economy.
 
-
 **Section 3: Reformers and Thinkers of the Early 18th Century**
 
-This section focuses on those who, in the first decades of the 18th century, a new generation of reformers attempted to reform the French economy in the light of new principles. Thinkers like the abbé de Saint-Pierre, the marquis d'Argenson, and Gournay (along with his followers) called for dismantling corporatist obstacles, liberalizing trade, and encouraging competition as a driver of development. Their often bold proposals paved the way for great Physiocratic ideas.
-
-
-
+This section focuses on those who, in the first decades of the 18th century, attempted to reform the French economy in the light of new principles. Thinkers like the abbot of Saint-Pierre, the marquis d'Argenson, and Gournay (along with his followers) called for dismantling corporatist obstacles, liberalizing trade, and encouraging competition as the driver of development. Their often bold proposals foreshadowed the great Physiocratic ideas.
 
 **Section 4: The Physiocratic School** 
 
-This section explores one of the most important moments in French economic thought: the Physiocratic school. We'll examine its origins, doctrinal foundations and main achievements, focusing on key figures like Quesnay and Dupont de Nemours. The idea of laissez-faire becomes a coherent system, rooted in the idea of a natural order to which the state must submit to guarantee prosperity for all.
-
+This section explores one of the most important moments in French economic thought: the Physiocratic school. We'll examine its origins, doctrinal foundations and main achievements, focusing on key figures like Quesnay and Dupont de Nemours. The idea of laissez-faire becomes a coherent system right in this school, rooted in the idea of a natural order to which the State must submit to guarantee prosperity for all.
 
 **Section 5: The Enlightenment and Political Economy** 
 
-Finally, we'll see how liberal economic thinking spread  within the broader Enlightenment movement. Figures like Voltaire, Turgot, Condillac, and Condorcet expanded and enriched the laissez-faire tradition, their writings helped carry the laissez-faire tradition into the revolutionary period and beyond, where liberal ideas found new resonance.
+Finally, we'll see how liberal economic thinking spread within the broader Enlightenment movement. Figures like Voltaire, Turgot, Condillac, and Condorcet expanded and enriched the laissez-faire tradition, their writings created a bridge for the laissez-faire tradition to cross into the revolutionary period and beyond, where liberal ideas found new resonance.
 
-
-**Ready to rediscover the French roots of economic liberalism? Let's go!**
-
+Ready to rediscover the French roots of economic liberalism? Let's go!
 
 # The Forerunners
 
@@ -75,209 +64,146 @@ Finally, we'll see how liberal economic thinking spread  within the broader Enli
 
 <chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
 
-
-
-
 At the dawn of the 18th century, France was in a worrying state. Rural populations were barely producing enough to survive and were heavily taxed.
-
 
 ![image](assets/fr/001.webp)
 
 
-Urban artisans, locked into rigid guilds, struggled to innovate or even support one another. Meanwhile, Other European nations soon surpassed France on every front, outcompeting its products and leaving it struggling to keep pace. The commercial successes of England and Holland were on everyone's mind.
+Urban artisans, locked into rigid guilds, struggled to innovate or even support one another. Meanwhile, other European nations soon surpassed France on every front, outcompeting its products. The commercial successes of England and Holland were on everyone's mind.
 
-
-But how could we find a solution to the illness of the era? There was, as yet, no science of economics and therefore no special medicine to apply. The principles of economic policy were still applied haphazardly, shifting between restrictive phases and more liberal periods. Certainly, we have models, historical references to follow. Among them was *Sully*, Henri IV's minister, who advocated agriculture and promoted greater freedom trade within France.
-
+But how could we find a solution to the illness of the era? There was, as yet, no science of economics and therefore no special medicine to apply. The principles of economic policy were still applied haphazardly, shifting between restrictive phases and more liberal periods. Certainly, we have models, historical references to follow. Among them was *Sully*, Henri IV's minister, who advocated for agriculture and promoted greater freedom of trade within France.
 
 ![image](assets/fr/002.webp)
 
-
 ![image](assets/fr/003.webp)
 
-
-But then came Colbert, Louis XIV's minister, who wavered between advocating regulation and freedom, yet ultimately enforced strict regulation. At the end of the 17th century, Colbert has overtaken Sully: ministers now invoked his legacy and try to apply what they claimed were his maxims.
-
+But then came Colbert, Louis XIV's minister, who wavered between regulation and freedom, yet ultimately enforced regulation. At the very end of the 17th century, Colbert overtook Sully: ministers now invoked his legacy and try to apply what they claimed were his maxims.
 
 ![image](assets/fr/004.webp)
-
 
 In the minds of statesmen at the end of the 17th century, Colbert's maxims were four.
 
 (1) **Industry Must Be Regulated and Bound Within Guilds**. These regulations specify, for example, how sheets and cloths should be made, their size and weight.
 There were hundreds of such rules, compiled in dedicated volumes for each type of industry. Yet in the eyes of Colbert's followers, this was still insufficient: industry, they believed, also needed to be supervised by corporations.
 
-
 ![image](assets/fr/005.webp)
 
+Anyone wishing to practice a trade had to first spend several years as an apprentice, then as a journeyman, before attempting to attain the status of master by producing a "masterpiece" and paying a substantial amount to the guild. Competition within each trade was therefore strictly limited.
 
-Anyone wishing to practice a trade must first spend several years as an apprentice, then as a journeyman, before attempting to attain the status of master by producing a "masterpiece" and paying a substantial fee to the guild. Competition within each trade is therefore strictly limited.
 
-
-(2) **Trade Is a Zero-Sum Game**. When it comes to commerce, Colbert's disciples shared the same prejudices as the barbarian people of Antiquity. According to Louis XIV's minister, trade is "a perpetual war." Why? The reason is simple: for Colbert and his successors, any increase in wealth for one country meant the impoverishment of another. The English or the Dutch could not be allowed to grow rich, because, in their view, that would mean they were stealing France's prosperity.
-
+(2) **Trade Is a Zero-Sum Game**. When it comes to commerce, Colbert's disciples shared the same prejudices as the barbarian people of Antiquity. According to Louis XIV's minister, trade is "a perpetual war". Why? The reason is simple: for Colbert and his successors, any increase in wealth for one country meant the impoverishment of another. In their view, the English or the Dutch could not be allowed to grow rich, because that would mean they were stealing France's prosperity.
 
 ![image](assets/fr/006.webp)
 
+These countries' products, therefore, had to be banned or heavily taxed, and without scruples, because trade is a war in which we can only wish for the ruin of our enemies.
 
-These countries' products must therefore be banned or heavily taxed, and without hesitation, because trade is a war in which we can only wish for the ruin of our enemies.
-
-
-> **"The French can only increase their commerce by crushing the Dutch."**
+> "The French can only increase their commerce by crushing the Dutch".
 > -*Colbert*
 
-(3) **When the State is short of money, Raise More Taxes**. Colbert and his disciples were far from believing that taxpayers' wealth was a limited resource. In their view, public spending could never be a problem, as long as enough was collected. And if the people revolted, it was merely because the ministers had gone about it poorly, for, as Colbert is said to have cynically remarked, "the art of taxation consists in plucking the geese without making them scream too much."
-
-
-
+(3) **When the State is short of money, Raise More Taxes**. Colbert and his disciples were far from believing that taxpayers' wealth was a limited resource. In their view, public spending could never be a problem, as long as enough was collected. And if the people revolted, it was merely because the ministers had gone about it poorly, for, as Colbert cynically remarked, "the art of taxation consists in plucking the geese without making them scream too much".
 
 ![image](assets/fr/007.webp)
 
-
-(4) **Wealth is, above all, gold and silver.**. Before the birth of economic science, many writers followed one dominant belief about the nature of wealth, what came to be known as **mercantilism**. Colbert and his successors continued along this path. In short, mercantilists believed that the true sign of a nation's prosperity was the accumulation of precious metals, silver and gold.
-
+(4) **Wealth is, above all, gold and silver.**. Before the birth of economic science, many writers followed one dominant dogma about the nature of wealth, what came to be known as *mercantilism*. Colbert and his successors continued along this path. In short, mercantilists believed that the true sign of a nation's prosperity was the accumulation of precious metals, silver and gold.
 
 ![image](assets/fr/008.webp)
 
 
-> **"Only the abundance of money within the state makes the difference to its greatness and power."**
+> "Only the abundance of money within the state makes the difference to its greatness and power".
 > -Colbert
 
-The consequence of this is to favor exports at all costs, which brought in foreign gold and silver, and to limit imports to a minimum, to avoid sending them abroad.
+The consequence of this idea is to favor exports at all costs, which brought in foreign gold and silver, and to limit imports to a minimum, to avoid sending them abroad.
 
-
-These, then, are the four principles that have guided the French government for several decades as the country enters the 18th century. However, they are soon to be profoundly challenged. Between 1690 and 1710, several writers were deeply struck by the disastrous state of France. In seeking its causes, they concluded that the very maxims inherited from Colbert were to blame, viewing them as nothing more than harmful fallacies. In doing so, they laid the foundations of economic science.
-
-
+These are the four principles that guided the French government for several decades, as the country entered the 18th century. However, they were soon to be profoundly challenged. Between 1690 and 1710, several writers were deeply struck by the disastrous State of France. In seeking its causes, they concluded that the very maxims inherited from Colbert were to blame, viewing them as than fallacious arguments. In doing so, they laid the foundations of economic science.
 
 ## Vauban
 
 <chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
 
-
-
-
 Today, as the tax pressure in our country continues to grow, threatening to suffocate national economic forces, voices are rising in favor of change. Whether consciously or not, these calls for reform often echo the work of French economists who, since the 17th century, have criticized the nation's tax system as chaotic, despotic, excessive.
 
-
 First in the chronological order of these tax reformers, and no less in that of merit, is the great marshal Sébastien Le Prestre Vauban, famous builder of strongholds and citadels.
-
 
 ![image](assets/fr/009.webp)
 
 ![image](assets/fr/010.webp)
 
-
-Though we have sadly forgotten it, Vauban was more than a military man; he was also an economist. He took a interest in the fate of the peasants, he proposed bold tax reforms in 1695 (the Project for a Capitation) and again in 1707 (the Royal Tithe): to replace most existing taxes with a tax proportional to income, a flat tax before its time.
-
+Though we have sadly forgotten it, Vauban was more than a military man; he was also an economist. He took a interest in the fate of the peasants, he proposed bold tax reforms in 1695 (Projet de capitation - "the Project for a Capitation") and again in 1707 (Projet d'une Dime Royale - "the Royal Tithe"): to replace most existing taxes with a tax proportional to income, a flat tax before its time.
 
 ![image](assets/fr/011.webp)
 
-
 Vauban arrived at these ideas through curiosity. He was a keen observer, striving to study social life and economic reality rigorously, almost scientifically. he insisted particularly on the need to count, through censuses.
-
 
 ![image](assets/fr/012.webp)
 
-
-His second great merit was his moving and honest description of the misery endured by the masses. He wrote: "**Let us not be deceived; the heart of the kingdom is ruined. Everything suffers, everything endures, everything groans. You only have to look and examine the heart of the provinces, what you'll find is even worse than what I'm saying.**". Far from exaggeration, Vauban's gloomy observations were a painfully accurate reflection of early 18th-century life. Alexis de Tocqueville would later describe Vauban's *Royal Tithe* as "frightening", because it was true.
-
+His second great merit was his moving and honest description of the misery endured by the masses. He wrote: "Let us not be deceived; the heart of the kingdom is ruined. Everything suffers, everything endures, everything groans. You only have to look and examine the heart of the provinces, what you'll find is even worse than what I'm saying". Far from exaggeration, Vauban's gloomy observations were an accurate reflection of early 18th-century life. Alexis de Tocqueville was wella aware of these ideas, and would later describe Vauban's *Royal Tithe* as "frightening", because it was true.
 
 ![image](assets/fr/013.webp)
 
+Vauban's other great merit as an economist was proposing a far-reaching tax reform aimed at eradicating, or at least reducing the intensity of the evil he observed and described. He was right to do so; the French economy under the Ancien Régime was paralyzed by taxation, which was unequal, unstable and illegible.
 
-Vauban's other great merit was proposing a far-reaching tax reform aimed at eradicating, or at least reducing the intensity of the evil he observed and described. He was right to do so; the French economy under the Ancien Régime was paralyzed by taxation, which was unequal, unstable and illegible.
 
-
-Across his various political and economic writings, Vauban's overarching ambition was to relieve the suffering of what he called "the lower part of the people, who by their labor sustain and support the upper."
+Across his various political and economic writings, Vauban's overarching ambition was to relieve the suffering of what he called "the lower part of the people, who, by their labor, sustain and support the upper".
 
 
 ![image](assets/fr/014.webp)
 
 
-He understood that oppressive and disincentivizing taxation was overwhelming peasants.  and he expressed something with clear-sightedness that we still observe perfectly in our time:
+He understood that oppressive and disincentivizing taxation was overwhelming peasants, and he expressed with clear-sightedness a concept that we can still observe perfectly in our time:
 
-
-> "The farmer lets the little land he has wither away, working it only half-heartedly, for fear that if it produced what it could with proper care and fertilization, it would be taxed even more heavily."
-
+> "The farmer lets the little land he has wither away, working it only half-heartedly, for fear that if it produced what it could with proper manure and cultivation, it would be taxed even more heavily".
 
 Vauban saw the truth: taxation under the Ancien Régime was not only irrational but also cruelly strict. It was this tax system, unjust in its distribution, therefore abusive that he sought to overcome.
 
-
-His proposed solution, a flat, proportional tax on all incomes, would have allowed the tax burden to be shared fairly among all social classes. Grounded in a theory of the state that saw public authority as necessary to protect individual rights and property, Vauban's tax reform demanded that all citizens contribute in strict proportion to what they earn, for instance, 10% of their income
-
+His proposed solution, a flat, proportional tax on all incomes, would have allowed the tax burden to be shared fairly among all social classes. Grounded in a theory of the State that saw public authority as necessary to protect individual rights and property, Vauban's tax reform demanded that all citizens contribute in strict proportion to what they earn, for instance, 10% of their income
 
 In The Royal Tithe, the only one of his economic works printed in his lifetime, Vauban stated clearly:
 
-
-> "**Since everyone in a state needs its protection to survive, it is only right that all contribute, according to their income, to its upkeep and expenses... Nothing is more unjust than exempting those most able to pay, and shifting the burden onto those least able, who collapse beneath the weight, weight that would be quite light if borne proportionally by all. Therefore, every exemption from taxation is a disorder that must be corrected.**"
+> "Since everyone in a State needs its protection to survive, it is only right that all contribute, according to their income, to its upkeep and expenses [...]. Nothing is more unjust than exempting those most able to pay, and shifting the burden onto those least able, who collapse beneath the weight; weight that would be quite light if borne proportionally by all according to their own strenght. Therefore, every exemption from taxation is a disorder that must be corrected."
 
 Shortly before his death, Vauban's idea was adopted by Louis XIV's ministers. However, Vauban had called for a proportional tax to replace all, or nearly all, existing taxes. Instead, as so often happens, his tax was implemented, but all the others were kept as well.
-
-
-
-
-
-
-
-
-
 
 ## Boisguilbert
 
 <chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
 
-
-
-
 Few French economists from the past enjoy recognition in their homeland today that matches their contributions, and Boisguilbert is no exception.
-
 
 ![image](assets/fr/015.webp)
 
+Unappreciated by the readers of his time, distanced from power circles due to his eccentric nature and overwhelming passion, Boisguilbert left little mark on the 18th century. Yet, at the beginning of the last century, there has been a slow rediscovery of his work.
 
-Unappreciated by the readers of his time, distanced from power circles due to his eccentric nature and overwhelming passion, Boisguilbert left little mark on the 18th century. Yet, the beginning of the last century, there has been a slow rediscovery of his work.
-
-
-However, this rediscovery has led us into a kind of dead end. Boisguilbert's true merit has been lost by presenting him as the pioneer of numerous theories and the forerunner of many thinkers. He is said to have grasped the concept of underemployment later defended by Keynes, anticipated Say's law, paved the way for Walras's general equilibrium theory, and even foreshadowed the class analysis of the Marxists. 'Who or what could Boisguilbert not be the precursor of?' one commentator ultimately asked.
+However, this rediscovery shows that we are getting into a kind of dead end. Boisguilbert's true merit has been lost by presenting him as the pioneer of numerous theories and the forerunner of many thinkers. He is said to have grasped the concept of underemployment later defended by Keynes, anticipated Say's law, paved the way for Walras's general equilibrium theory, and even foreshadowed the class analysis of the Marxists. 'Who or what could Boisguilbert not be the precursor of?' one commentator ultimately asked.
 
 
-Born in Rouen in 1646, educated at Port-Royal in Paris, Boisguilbert began an unsuccessful literary career before taking on various roles, including that of Lieutenant-General of Rouen. It was during this time that he wrote several books to advocate for his ideas, among them Détail de la France in 1695, which he republished the following year under a much more explicit title: *France Ruined under the Reign of Louis XIV, by Whom and How, with the Means to Restore It.*
-
+(Pierre Le Pesant de) Boisguilbert was born in Rouen in 1646. Educated at Port-Royal in Paris, Boisguilbert began an unsuccessful literary career before taking on various roles, including that of Lieutenant-General of Rouen. It was during this time that he wrote several books to advocate for his ideas, among them "Détail de la France" in 1695, which he republished the following year under a much more explicit title: [*France Ruined under the Reign of Louis XIV, by Whom and How, with the Means to Restore It](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 ![image](assets/fr/016.webp)
 
 ![image](assets/fr/017.webp)
 
-
 And this is the basis of Boisguilbert's books: French poverty and its causes.
-
 
 Boisguilbert, like Vauban, describes the misery of the French people at the end of the 18th century by detail. He writes:
 
-> "The barren or poorly cultivated lands, visible to all, are the corpse of France."
+> "The barren or poorly cultivated lands, visible to all, are the corpse of France".
 
-He described uprooted vineyards, abandoned fields, and recurring famines. 
+He described uprooted vineyards, peasants who abandoned fields, and recurring famines. 
 
-Boisguilbert finds two main causes for this misfortune. For if the people live in destitution, it is because they are prevented from consuming what is necessary, and the ruin of consumption has two causes:
+Boisguilbert finds two main causes for this misfortune. For if the people live in destitution, it is because they are prevented from consuming what is necessary, and the ruin of consumption has two causes.
 
-1. **Oppressive Taxation**
-First, the people could no longer afford to consume basic necessities due to arbitrary taxation. The taille, a personal tax, was calculated blindly for each individual, rising or falling without reason. Because of the numerous privileges, the burden fell on the poor peasants, who found themselves ruined. To correct this, Boisguilbert recommended a proportional tax on all incomes, much like Vauban's proposal.
+First, the people could no longer afford to consume basic necessities due to arbitrary taxation. The taille, a personal tax of that time, was calculated blindly for each individual, rising or falling without reason. Because of the numerous privileges, the burden fell on the poor peasants, who found themselves ruined. To correct this, Boisguilbert recommended a proportional tax on all incomes, much like Vauban's proposal.
 
-2. **Barriers to Free Trade**
-The second reason for France's misery is that too many obstacles prevent the free trade of goods, especially agricultural ones. There are customs duties at the borders and even within the country, between different regions, which paralyze all commerce. These restrictions prevent the establishment of an equilibrium price and limit market opportunities. As a result, peasants cannot make a living from their production, because they are unable to sell profitably and suffer from unremunerative agricultural prices, a concern that remains highly relevant today and lies at the heart of Boisguilbert's theory. On the matter of trade restrictions, Boisguilbert advocates for clearing the roads, in other words, establishing free trade.
-
+The second reason for France's misery is that too many obstacles prevented the free trade of goods, especially agricultural ones. There were customs duties at the borders and even within the country, between different regions, which paralyzed all commerce. These restrictions prevented the establishment of an equilibrium price and limited market opportunities. As a result, peasants could not make a living from their production, because they were unable to sell profitably and suffer from unremunerative agricultural prices, a concern that remains highly relevant today and lies at the heart of Boisguilbert's theory. On the matter of trade restrictions, Boisguilbert advocated for clearing the roads, in other words, establishing free trade.
 
 ![image](assets/fr/018.webp)
 
+And freedom is indeed his final conclusion. "It is not a matter of acting", he says, "but simply of ceasing to act like we so violently do against nature, which always tends toward liberty and perfection". Everything will be well, he repeats tirelessly, "as long as we let nature take its course, that is, give it its freedom, and that no one interferes in this commerce except to offer protection to all and to prevent violence".
 
-And freedom is indeed his final conclusion. "It is not a matter of acting," he says, "but simply of ceasing to act with the great violence we do to nature, which always tends toward liberty and perfection." Everything will be well, he repeats tirelessly, "as long as we let nature take its course, that is, give it its freedom, and that no one interferes in this commerce except to offer protection to all and to prevent violence."
-
-
-This last passage is essential. Boisguilbert was the first to clearly demand a laissez-faire economic policy, to make it his credo, and to build a real system around this. According to him, there is a natural order of things, and it should not be corrupted, not destroyed, by untimely public interventions. The state, in his view, should not act in economic matters, but rather, let things act naturally. Otherwise, it will cause misery.
+This last passage is essential. Boisguilbert was the first to clearly demand a laissez-faire economic policy, to make it his credo, and to build a real system around it. According to him, there is a natural order of things, and it should not be corrupted, not destroyed, by untimely public interventions. The State, in his view, must not act in economic matters, but rather, let things act naturally. Otherwise, it will cause misery.
 
 
-Boisguilbert even criticized the "*good souls*," as he called them, those who meant well but did great harm. They wanted cheap bread for the people, but by forcing down prices, they ruined farmers, who couldn't survive on such margins. These farmers then abandoned their lands, plunging deeper into poverty. As we all know, **hell is often paved with good intentions**.
+Boisguilbert even criticized the "*good souls*", as he called them, those who meant well but did great harm. They wanted cheap bread for the people, but by forcing down prices, they ruined farmers, who couldn't survive on such margins. These farmers then abandoned their lands, plunging deeper into poverty. As we all know, 'hell is often paved with good intentions'.
 
 
 ## Cantillon
@@ -327,9 +253,9 @@ As a response to the **John Law's experience**, Cantillon explained what happens
 
 ![image](assets/fr/022.webp)
 
-He sees two main consequences of substituting a money without real value like paper money for a metallic one, The first consequence is what he calls "popular rejection," which means a growing distrust of worthless money. The second consequence is inflation. Monetary weakening makes goods more expensive.
+He sees two main consequences of substituting a money without real value like paper money for a metallic one, The first consequence is what he calls "popular rejection", which means a growing distrust of worthless money. The second consequence is inflation. Monetary weakening makes goods more expensive.
 
-The first consequence is what he calls "popular rejection," which means a growing distrust of worthless money. The second consequence is inflation. Monetary weakening makes goods more expensive.
+The first consequence is what he calls "popular rejection", which means a growing distrust of worthless money. The second consequence is inflation. Monetary weakening makes goods more expensive.
 
 In his analysis of inflation, Cantillon goes further than his contemporaries, and this is our **Fourth**, Having Observed the collapse of Law's system, Cantillon realized that **monetary inflation doesn't affect everyone equally**. On the contrary, it enriches some while impoverishing others. He concluded that inflation has **redistributive effect**: depending on ***how and where the newly issued money enters the economy***, those who receive it early benefit from increased purchasing power, while those who receive it later, once prices have already risen, become poorer as a result of the new money being issued
 
@@ -338,7 +264,7 @@ In his analysis of inflation, Cantillon goes further than his contemporaries, an
 
 
 Among these five major ideas in his Essay, the most important is undoubtedly the one that now bears his name: the **Cantillon Effect**.
-With this theory of the **effects of inflation**, Cantillon provides us with answers to a number of contemporary ills. It helps us understand the consequences of recent **expansionary and inflationary monetary policies**, which have **impoverishment of the middle class and rural world, while enriching financial market operators and state, its agencies and its officials**, due to their joint proximity to the source of the new issue **central banks and commercial banks**.
+With this theory of the **effects of inflation**, Cantillon provides us with answers to a number of contemporary ills. It helps us understand the consequences of recent **expansionary and inflationary monetary policies**, which have **impoverishment of the middle class and rural world, while enriching financial market operators and State, its agencies and its officials**, due to their joint proximity to the source of the new issue **central banks and commercial banks**.
 
 
 # Reformers and Thinkers of the Early 18th Century
@@ -385,13 +311,13 @@ There's also an episode in Abbé de Saint-Pierre's life that perfectly illustrat
 ![image](assets/fr/027.webp)
 
 
-Saint-Pierre argued that the reign of Louis XIV, with its luxurious court and obsession with military conquest, was not the mark of a virtuous king. He refused to accept that Louis XIV deserved the title "**Louis the Great**."
+Saint-Pierre argued that the reign of Louis XIV, with its luxurious court and obsession with military conquest, was not the mark of a virtuous king. He refused to accept that Louis XIV deserved the title "**Louis the Great**".
 
 
 ![image](assets/fr/028.webp)
 
 
-"You can't call it greatness," he said, "when a ruler ruins both his neighbors and his own people." This position deeply offended the Académie Française, which had long been preoccupied with glorifying the king in every literary form possible. They voted almost unanimously to expel him.
+"You can't call it greatness", he said, "when a ruler ruins both his neighbors and his own people". This position deeply offended the Académie Française, which had long been preoccupied with glorifying the king in every literary form possible. They voted almost unanimously to expel him.
 
 
 ![image](assets/fr/029.webp)
@@ -403,13 +329,13 @@ In terms of economic thinking, Saint-Pierre consistently applied the principle o
 Still, Saint-Pierre made some strikingly modern observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 Project for Improving France's Trade, where he wrote:
 
 
-> "When a sale is made between merchants, the seller gains, and so does the buyer; for if there weren't some real or perceived benefit on both sides, neither would agree to the transaction."
+> "When a sale is made between merchants, the seller gains, and so does the buyer; for if there weren't some real or perceived benefit on both sides, neither would agree to the transaction".
 
 ![image](assets/fr/030.webp)
 
 
 
-He also emphasized, before Vincent de Gournay did, the value of labor and the importance of keeping it appealing. "All labor is difficult," he wrote. "And when a man sees that his work brings him nothing, or not enough, he becomes idle and won't bother with unnecessary effort." This very argument would later be echoed by the Marquis d'Argenson, Vincent de Gournay, and the physiocrats as they criticized burdensome regulations and guild systems. They argued that such restrictions discouraged workers, caused needless difficulty, and eventually made idleness seem more appealing than productive effort under such conditions.
+He also emphasized, before Vincent de Gournay did, the value of labor and the importance of keeping it appealing. "All labor is difficult", he wrote. "And when a man sees that his work brings him nothing, or not enough, he becomes idle and won't bother with unnecessary effort". This very argument would later be echoed by the Marquis d'Argenson, Vincent de Gournay, and the physiocrats as they criticized burdensome regulations and guild systems. They argued that such restrictions discouraged workers, caused needless difficulty, and eventually made idleness seem more appealing than productive effort under such conditions.
 
 
 ## The Marquis d'Argenson
@@ -443,7 +369,7 @@ He strongly criticized regulations that, as he saw it, tried to change the natur
 > "Each place must be allowed to choose its own factories. Freedom! Freedom!"
 
 
-He also recognized another another of Smith's central principles: the idea that social order arises spontaneously from the pursuit of self-interest. D'Argenson believed that immediate personal interest was what drove human energy. He wrote that poor craftsmanship and fraud would discredit a producer, while diligence and honesty would lead to prosperity. The best judge of what's useful, he argued, was the individual, the public at large, who buy goods and care about value."Everyone senses their own interest," he said, "everyone takes the measures that are profitable to him, and it is in this general agreement that we discover the truth."
+He also recognized another another of Smith's central principles: the idea that social order arises spontaneously from the pursuit of self-interest. D'Argenson believed that immediate personal interest was what drove human energy. He wrote that poor craftsmanship and fraud would discredit a producer, while diligence and honesty would lead to prosperity. The best judge of what's useful, he argued, was the individual, the public at large, who buy goods and care about value".Everyone senses their own interest", he said, "everyone takes the measures that are profitable to him, and it is in this general agreement that we discover the truth".
 
 
 Even before Adam Smith, he understood self-interest leads to general interest through the construction of a spontaneous natural order.
@@ -452,30 +378,30 @@ Even before Adam Smith, he understood self-interest leads to general interest th
 ![image](assets/fr/034.webp)
 
 
-He compared society to a hive of bees where every insect follows its instinct, "From their actions," he said precisely, "resulted a great accumulation for the needs of the small society; but this was not brought about by orders, or by generals, who obliged each individual to follow the views of their leader." This is perhaps the closest expression in French economic thought to Adam Smith's famous concept of the "**invisible hand**."
+He compared society to a hive of bees where every insect follows its instinct, "From their actions", he said precisely, "resulted a great accumulation for the needs of the small society; but this was not brought about by orders, or by generals, who obliged each individual to follow the views of their leader". This is perhaps the closest expression in French economic thought to Adam Smith's famous concept of the "**invisible hand**".
 
 
 D'Argenson was always outraged by the ideas of the ministers of his time. The only question they asked was, "Should we regulate this way or that? Should we direct the economy toward this or that?" To which d'Argenson replied: "Shouldn't we first ask whether it's appropriate to direct any of it at all, or whether things should be left to operate on their own?"
 
 
-To tell the truth, he was amazed that people found it so hard to understand, or rather, to see, the harmful effects of excessive regulation. In his view, it was enough to simply open one's eyes. "So many things are working reasonably well today," he wrote bitterly, "simply because they've managed to escape the reach of the law."
+To tell the truth, he was amazed that people found it so hard to understand, or rather, to see, the harmful effects of excessive regulation. In his view, it was enough to simply open one's eyes. "So many things are working reasonably well today", he wrote bitterly, "simply because they've managed to escape the reach of the law".
 Sometimes, he despaired at how little his ideas were understood.
 
 
 ![image](assets/fr/035.webp)
 
 
-The ideal of economic policy that he defended was therefore contrary to the trends of his time.His ideal defined an essentially negative role for the State. "All commerce needs is the removal of obstacles. It asks only for good judges, punishment of monopolies, equal protection for all citizens, stable currencies, and roads and canals." This was the blueprint for a minimal state, which would become one of the foundations of the French tradition in political economy.
+The ideal of economic policy that he defended was therefore contrary to the trends of his time.His ideal defined an essentially negative role for the State. "All commerce needs is the removal of obstacles. It asks only for good judges, punishment of monopolies, equal protection for all citizens, stable currencies, and roads and canals". This was the blueprint for a minimal State, which would become one of the foundations of the French tradition in political economy.
 
-This vision of the role of the state in economic activity was naturally illustrated by the study of two major issues that stirred the economists and social thinkers of his time: the **regulation of industry** and the **the wheat trade**.
+This vision of the role of the State in economic activity was naturally illustrated by the study of two major issues that stirred the economists and social thinkers of his time: the **regulation of industry** and the **the wheat trade**.
 
 
-The regulations on industry, first of all, aroused all his resentment, because they were privileges for some at the expense of others. "The real cause of the decline of our factories," he wrote, "is the excessive protection given to them." And it was with a no less lively credo that he expressed his criticism of the dirigiste zeal of the statesmen of his time:
+The regulations on industry, first of all, aroused all his resentment, because they were privileges for some at the expense of others. "The real cause of the decline of our factories", he wrote, "is the excessive protection given to them". And it was with a no less lively credo that he expressed his criticism of the dirigiste zeal of the statesmen of his time:
 
 
 > To run the industry against its will is to want its ruin.
 
-On the question of trade in subsistence, d'Argenson had no other answer than freedom. According to him, the wheat shortages came from the monopoly and the excessive precautions taken by the government. All we had to do was let it be, and there would never be a wheat shortage in a country where the ports were open. foreigners, attracted like all other men by the lure of gain, would provide us with what we need and take away our surplus. "Let it be," he said, "and all will be well."
+On the question of trade in subsistence, d'Argenson had no other answer than freedom. According to him, the wheat shortages came from the monopoly and the excessive precautions taken by the government. All we had to do was let it be, and there would never be a wheat shortage in a country where the ports were open. foreigners, attracted like all other men by the lure of gain, would provide us with what we need and take away our surplus. "Let it be", he said, "and all will be well".
 
 
 
@@ -510,7 +436,7 @@ What we do have includes:
 ![image](assets/fr/038.webp)
 
 
-3. "Observations on the East India Company," appended by Abbé Morellet to his Memoir on the Current State of the East India Company (1769);
+3. "Observations on the East India Company", appended by Abbé Morellet to his Memoir on the Current State of the East India Company (1769);
 
 
 ![image](assets/fr/039.webp)
@@ -532,7 +458,7 @@ First, he believed labor needed to be protected and encouraged. At the time, Fre
 Secondly, he criticized the restrictive system of guilds that confined manufacturers. participating in a trade was both expensive and time-consuming and Each new worker must then scrupulously follow the routine verified by the statutes of his guild. Such a system left no room for excellence, innovation, or progress.
 
 
-Third, trade was restricted and limited in France by restrictive laws. In Gournay's view, consumers would benefit greatly if ports could compete freely and all goods, such as grain and printed canvases, were allowed to be imported without restriction. He was one of the first to point out the true origin of smuggling: it only existed because the government had banned commerce that was otherwise beneficial and legitimate. He added a sharp observation: smuggling, for all its illegality, was a "**free**" profession, no regulations, no guilds, no confiscatory taxes. Yet it was the state's overwhelming regulation that drove many honest workers into illegality.
+Third, trade was restricted and limited in France by restrictive laws. In Gournay's view, consumers would benefit greatly if ports could compete freely and all goods, such as grain and printed canvases, were allowed to be imported without restriction. He was one of the first to point out the true origin of smuggling: it only existed because the government had banned commerce that was otherwise beneficial and legitimate. He added a sharp observation: smuggling, for all its illegality, was a "**free**" profession, no regulations, no guilds, no confiscatory taxes. Yet it was the State's overwhelming regulation that drove many honest workers into illegality.
 
 
 Finally, Gournay noted that interest rates were lower in England and Netherlands, countries more prosperous than France. He advocated for lower interest rates in France as well, so that economic activity could be financed there on conditions as advantageous as elsewhere. Gournay did not, however, seek coercive, legislative methods; rather, he emphasized the need to legalize lending, which was still condemned by the Catholic Church.
@@ -615,9 +541,9 @@ To spread the taste of economic discussions among the French population, Gournay
 The story follows the main character, Chinki, who is forced to leave his land due to excessive taxation and tries to find craft work for his children in the city.  But all trades are closed to them because of abusive guild regulations, and the story humorously portrays his growing disappointment.
 
 
-Gournay's circle was therefore at the origin of an intense wave of publications. While this major contribution has been forgotten by historians of economic thought, it was very clear to contemporaries. The Physiocrats, who organized their school in the 1760s, would later present Gournay's group as their direct forerunners. In 1767, the economist Jacques Accarias de Serionne expressed this even more clearly in his tribute. He wrote: "A small number of Frenchmen, both philosophers and citizens, began a few years ago to imitate English writers. They first translated their models and soon surpassed them in many respects. They brought all the charm and richness of literature to the treatment of useful subjects; they sparked and spread the taste for the sciences most essential to the prosperity of the State."
+Gournay's circle was therefore at the origin of an intense wave of publications. While this major contribution has been forgotten by historians of economic thought, it was very clear to contemporaries. The Physiocrats, who organized their school in the 1760s, would later present Gournay's group as their direct forerunners. In 1767, the economist Jacques Accarias de Serionne expressed this even more clearly in his tribute. He wrote: "A small number of Frenchmen, both philosophers and citizens, began a few years ago to imitate English writers. They first translated their models and soon surpassed them in many respects. They brought all the charm and richness of literature to the treatment of useful subjects; they sparked and spread the taste for the sciences most essential to the prosperity of the State".
 
-And indeed, in the 1750s, economic questions became fashionable. Voltaire famously remarked that around 1750, the French gave up novels to discuss the freedom of the grain trade. This trend was also noted by the Mercure de France, which wrote in an issue from 1758, a few months before Gournay's death: "Political economy is now the science in fashion. Books dealing with agriculture, population, industry, commerce, and finance are now in the hands of countless people who, not long ago, read nothing but novels." One could hardly pay a better tribute to Gournay and the work of his circle of economists.
+And indeed, in the 1750s, economic questions became fashionable. Voltaire famously remarked that around 1750, the French gave up novels to discuss the freedom of the grain trade. This trend was also noted by the Mercure de France, which wrote in an issue from 1758, a few months before Gournay's death: "Political economy is now the science in fashion. Books dealing with agriculture, population, industry, commerce, and finance are now in the hands of countless people who, not long ago, read nothing but novels". One could hardly pay a better tribute to Gournay and the work of his circle of economists.
 
 
 ## Mirabeau
@@ -753,7 +679,7 @@ In 1740, he became secretary of the Academy of Surgery. In 1748, at age 54, he b
 
 
 He was very close to Madame de Pompadour. Quesnay even said, at the time when the favorite's disgrace was announced, that he would not want to remain a doctor at Versailles without her:
-"I was attached to Madame de Pompadour in her prosperity; I will be so in her disgrace."
+"I was attached to Madame de Pompadour in her prosperity; I will be so in her disgrace".
 
 
 Then he published several medical books: Treatise on Suppuration (1749), Treatise on Gangrene (1749), and Treatise on Continuous Fevers (1753), all of which were reprinted several times during his lifetime. 
@@ -775,9 +701,9 @@ Censorship soon struck. Mirabeau was imprisoned, and Quesnay was reprimanded. Af
 He quickly found them: Baudeau, Dupont de Nemours, Le Trosne, Mercier de la Rivière, and others. These are the men who will spread and popularize the thought of Quesnay. However, Quesnay, who needed disciples, was not entirely satisfied with the sectarian aspect of his group. Witness his letters to Mirabeau, in which he tells him:
 
 
-> "Think for yourselves. I've realized that my miserable drafts make you lazy. Now it's your turn to think. You know as much as I do."
+> "Think for yourselves. I've realized that my miserable drafts make you lazy. Now it's your turn to think. You know as much as I do".
 
-Still, his disciples were deeply devoted and contributed greatly to Quesnay's popularity. Upon his death, Mirabeau gave his eulogy, saying, "We have lost our father, for we owed him everything." In truth, it was Quesnay who owed them everything, for without them, he remained stuck at Versailles, where his thinking had much to seduce or worry, but which interested few.
+Still, his disciples were deeply devoted and contributed greatly to Quesnay's popularity. Upon his death, Mirabeau gave his eulogy, saying, "We have lost our father, for we owed him everything". In truth, it was Quesnay who owed them everything, for without them, he remained stuck at Versailles, where his thinking had much to seduce or worry, but which interested few.
 
 
 Thanks to the work of his collaborators, his ideas found a platform: first through newspapers such as the Journal of Agriculture and the Ephémérides du Citoyen.
@@ -842,7 +768,7 @@ By the end of their conversation, Mirabeau agreed with Quesnay's ideas. From the
 ![image](assets/fr/068.webp)
 
 
-Their efforts were not warmly welcomed. At court, the prevailing reaction was indifference. The King acknowledged Quesnay's fondness for theory and affectionately called him "my thinker." But apart from that compliment, their work was mostly ignored. In fact, their Theory of Taxation offended the tax administrators it criticized, so much so that they demanded and secured Mirabeau's imprisonment. Madame de Pompadour eventually had him released, but he continued living in exile at his estate in Bignon for a few weeks.
+Their efforts were not warmly welcomed. At court, the prevailing reaction was indifference. The King acknowledged Quesnay's fondness for theory and affectionately called him "my thinker". But apart from that compliment, their work was mostly ignored. In fact, their Theory of Taxation offended the tax administrators it criticized, so much so that they demanded and secured Mirabeau's imprisonment. Madame de Pompadour eventually had him released, but he continued living in exile at his estate in Bignon for a few weeks.
 
 
 ![image](assets/fr/069.webp)
@@ -856,7 +782,7 @@ After this brief silence, the two economists began recruiting disciples: this wa
 ![image](assets/fr/070.webp)
 
 
-Between 1765 and 1775, the Physiocrats stood at the peak of their fame. Gathered as a cohesive intellectual circle, they dominated the public discourse. The literary and philosophical world had eyes only for them, allowing their ideas to spread widely and rapidly. People called them "the economists," or, more mockingly, "the sect of economists." Regardless of the tone, their notoriety was absolute. In 1774, after a trip to Metz, M. de Vaublanc wrote in his memoirs of his astonishment: everyone around him was talking economics and reasoning like Quesnay's disciples. "It was fashionable," he noted. "Everyone was an economist."
+Between 1765 and 1775, the Physiocrats stood at the peak of their fame. Gathered as a cohesive intellectual circle, they dominated the public discourse. The literary and philosophical world had eyes only for them, allowing their ideas to spread widely and rapidly. People called them "the economists", or, more mockingly, "the sect of economists". Regardless of the tone, their notoriety was absolute. In 1774, after a trip to Metz, M. de Vaublanc wrote in his memoirs of his astonishment: everyone around him was talking economics and reasoning like Quesnay's disciples. "It was fashionable", he noted. "Everyone was an economist".
 
 
 However, by 1770, their popularity began to wane. The group experienced its first defections, and their ability to withstand criticism weakened. And the critics were many, Condillac, Mably, Voltaire, Galiani, Linguet, Graslin, and even Adam Smith in Scotland, all challenged their views.
@@ -916,7 +842,7 @@ Tocqueville insisted on this idea:
 
 > The Physiocrats were indeed very favorable to free trade of goods, to laissez-faire or laissez-passer in commerce and industry; but as for political freedoms proper, they did not consider them, and even when such ideas happened to cross their minds, they initially rejected them.
 
-Liberal in economics, the Physiocrats were therefore not liberal in political matters. Quesnay writes in his Maxims: 'Let the sovereign authority be unique and superior to all individuals of society and to all unjust enterprises of private interests.' And later, in the same maxim: "The system of checks and balances in government is a fatal notion, which only reveals discord among the great and oppression of the small."
+Liberal in economics, the Physiocrats were therefore not liberal in political matters. Quesnay writes in his Maxims: 'Let the sovereign authority be unique and superior to all individuals of society and to all unjust enterprises of private interests.' And later, in the same maxim: "The system of checks and balances in government is a fatal notion, which only reveals discord among the great and oppression of the small".
 
 ![image](assets/fr/075.webp)
 
@@ -928,7 +854,7 @@ Tocqueville noted well that the Physiocrats rejected democracy as soon as they s
 
 
 
-The Physiocrats believed that people needed to own and keep the results of their labor. In their view, property rights were the very foundation of a healthy society. They thought the state had one main job: to protect people's property. When ownership is secure, people are more willing to work hard, invest, and take care of what they have. That, in turn, drives progress.
+The Physiocrats believed that people needed to own and keep the results of their labor. In their view, property rights were the very foundation of a healthy society. They thought the State had one main job: to protect people's property. When ownership is secure, people are more willing to work hard, invest, and take care of what they have. That, in turn, drives progress.
 
 
 ![image](assets/fr/076.webp)
@@ -945,13 +871,13 @@ Quesnay put it simply:
 
 In his previously cited maxims, Quesnay states:
 
-> Let there be complete freedom of commerce, for the most reliable, precise, and beneficial regulation of both domestic and foreign trade for the nation and the state lies in full freedom of competition.
+> Let there be complete freedom of commerce, for the most reliable, precise, and beneficial regulation of both domestic and foreign trade for the nation and the State lies in full freedom of competition.
 
 
 ![image](assets/fr/077.webp)
 
 
-The Physiocrats had seen the damage caused by government interference, especially in the grain trade. Governments simply couldn't keep up with local needs and shifts in supply and demand. It was unrealistic to expect the state to manage every detail better than local farmers or merchants could themselves.
+The Physiocrats had seen the damage caused by government interference, especially in the grain trade. Governments simply couldn't keep up with local needs and shifts in supply and demand. It was unrealistic to expect the State to manage every detail better than local farmers or merchants could themselves.
 
 
 Trade, they believed, naturally brought benefit to society, and only full freedom could unlock that potential. One of their members, Le Trosne, even wrote a pamphlet titled, The Freedom of the Grain Trade: Always Useful, Never Harmful.
@@ -960,7 +886,7 @@ Trade, they believed, naturally brought benefit to society, and only full freedo
 ### Fifth principle: All men are brothers
 
 
-Fierce opponents of slavery, the Physiocrats were also great pacifists. "Our foreign policy is called peace," Mirabeau simply said. And in 1790, at the Constituent Assembly, Dupont de Nemours continued this pacifist stance when he proposed a bill banning offensive wars.
+Fierce opponents of slavery, the Physiocrats were also great pacifists. "Our foreign policy is called peace", Mirabeau simply said. And in 1790, at the Constituent Assembly, Dupont de Nemours continued this pacifist stance when he proposed a bill banning offensive wars.
 
 
 ## The Physiocrats' achievements and influences
@@ -972,7 +898,7 @@ Fierce opponents of slavery, the Physiocrats were also great pacifists. "Our for
 
 As we saw in the first of the three chapters devoted to the Physiocrats, Quesnay's followers were all the rage in France for about a decade. This enthusiasm for their ideas took shape both in their time and up until the end of the century. Here, we will look at some of their achievements and the influence they exerted on their successors in the field of economic thought.
 
-Their greatest accomplishment, following the Gournay group, was to popularize economic ideas. Voltaire's famous saying is well known: around 1750, the nation, satiated with poetry and novels, began to reason about grain. The Physiocrats took part in this movement, publishing literally hundreds of articles, pamphlets, and books about the freedom of grain trade. The strong momentum given by the Physiocrats to economic discussions is also evident in the impressive number of economic works and pamphlets published in France from 1760 to 1775. As further evidence of the spread of economic ideas in France, one recalls the remark of M. de Vaublanc, cited in a previous lecture, who said in Metz in 1774 that people spoke of nothing but economics. "It was the fashion," he said. "Everyone was an economist."
+Their greatest accomplishment, following the Gournay group, was to popularize economic ideas. Voltaire's famous saying is well known: around 1750, the nation, satiated with poetry and novels, began to reason about grain. The Physiocrats took part in this movement, publishing literally hundreds of articles, pamphlets, and books about the freedom of grain trade. The strong momentum given by the Physiocrats to economic discussions is also evident in the impressive number of economic works and pamphlets published in France from 1760 to 1775. As further evidence of the spread of economic ideas in France, one recalls the remark of M. de Vaublanc, cited in a previous lecture, who said in Metz in 1774 that people spoke of nothing but economics. "It was the fashion", he said. "Everyone was an economist".
 
 The defense of their ideas, in books, pamphlets, and in their journal Les Éphémérides du Citoyen, quickly had repercussions in France's economic policy. In 1763, an edict granted freedom of the grain trade, which Quesnay and Mirabeau had strongly demanded. On several occasions, authorities also eased the regulations governing trade guilds to guarantee greater freedom to work.
 
@@ -1044,7 +970,7 @@ Although Smith didn't agree with their idea that only agriculture was productive
 
 
 
-In the United States, we are familiar with the DuPont company, also known as "E.I. du Pont de Nemours and Company," a multinational firm in the field of chemistry and biology.
+In the United States, we are familiar with the DuPont company, also known as "E.I. du Pont de Nemours and Company", a multinational firm in the field of chemistry and biology.
 
 
 ![image](assets/fr/086.webp)
@@ -1072,7 +998,7 @@ In 1765, Dupont was offered the position of editor of the Journal de l'agricultu
 There were two reasons for this: Mirabeau and Quesnay had to remain silent, and Dupont was seen as their rising star.
 
 
-members of the Physiocratic school agree that Dupont de Nemours quickly became Quesnay's favorite. Quesnay once said, "Take care of this young man, he'll be the one to speak when we're gone." One fellow Physiocrat, Abeille, even grew jealous of the attention Dupont received and distanced himself from Quesnay's school.
+members of the Physiocratic school agree that Dupont de Nemours quickly became Quesnay's favorite. Quesnay once said, "Take care of this young man, he'll be the one to speak when we're gone". One fellow Physiocrat, Abeille, even grew jealous of the attention Dupont received and distanced himself from Quesnay's school.
 
 
 Dupont de Nemours always maintained his high regard for Quesnay.
@@ -1081,14 +1007,14 @@ Dupont de Nemours always maintained his high regard for Quesnay.
 ![image](assets/fr/090.webp)
 
 
-He would later say, "I was just a boy when Quesnay held out his arms to me - he made me a man." It was Quesnay who helped a major economist on the literary scene of the time.
+He would later say, "I was just a boy when Quesnay held out his arms to me - he made me a man". It was Quesnay who helped a major economist on the literary scene of the time.
 After the Journal of Agriculture, Dupont was appointed editor of Les Éphémérides du Citoyen, hich became the official organ of the Physiocrats.
 
 
 ![image](assets/fr/091.webp)
 
 
-He made this periodical collection a major center for economic theory, supporting it even during the decline of the Physiocrats by personally writing nearly all of the later volumes. It was Dupont de Nemours, moreover, who coined the term "physiocracy," derived from two Greek words meaning "government of nature." He used this term to title a collection of Quesnay's articles published in 1768, and the term ultimately became established in history. It is known that among themselves, the Physiocrats called each other "economists," and they were still referred to as such during the Revolution.
+He made this periodical collection a major center for economic theory, supporting it even during the decline of the Physiocrats by personally writing nearly all of the later volumes. It was Dupont de Nemours, moreover, who coined the term "physiocracy", derived from two Greek words meaning "government of nature". He used this term to title a collection of Quesnay's articles published in 1768, and the term ultimately became established in history. It is known that among themselves, the Physiocrats called each other "economists", and they were still referred to as such during the Revolution.
 
 
 ![image](assets/fr/092.webp)
@@ -1115,7 +1041,7 @@ The King said to him: "Monsieur Dupont, we always find you where you are needed!
 ![image](assets/fr/095.webp)
 
 
-Despite this eventful life, during which he published dozens of articles, brochures, and books, he remains relatively little known to this day. Perhaps this is because he remained a convinced Physiocrat at a time when the doctrine had completely gone out of fashion. Indeed, as Schumpeter wrote, Dupont de Nemours stayed faithful to Physiocracy "throughout a career during which he had many opportunities to renounce it." He was a man of conviction.
+Despite this eventful life, during which he published dozens of articles, brochures, and books, he remains relatively little known to this day. Perhaps this is because he remained a convinced Physiocrat at a time when the doctrine had completely gone out of fashion. Indeed, as Schumpeter wrote, Dupont de Nemours stayed faithful to Physiocracy "throughout a career during which he had many opportunities to renounce it". He was a man of conviction.
 
 
 
@@ -1166,7 +1092,7 @@ Diderot's path in economic theory is a curious one. In the Encyclopédie, he was
 
 This book would become the fiercest attack ever made against Physiocratic ideas, delivering a major blow to the movement. Later, Diderot defended Galiani against Abbé Morellet, a close ally of the Physiocrats, in his Apology of Galiani. A few years later, during Turgot's ministry, Diderot supported the abolition of guilds and the establishment of freedom of labor. At this point, Diderot-the artisan's son-found himself in agreement with the liberal economists and wrote a scathing letter to Galiani, who claimed that labor freedom would ruin French industry within twenty or thirty years. In light of the Industrial Revolution, history suggests otherwise. Having returned to the liberal economists' camp, Diderot no longer enjoyed their trust and remained isolated. A very telling moment is a letter he sent to Dupont de Nemours in 1774, where he writes:
 
-> "You once had affection for me; now you no longer do, because you are so busy that you no longer have time to love anyone."
+> "You once had affection for me; now you no longer do, because you are so busy that you no longer have time to love anyone".
 
 
 ![image](assets/fr/101.webp)
@@ -1210,12 +1136,12 @@ How did Turgot rise to such prominence? It came down to a combination of three k
 He was a contemporary of the Physiocrats, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet, and others.**Third**, his intellectual precocity. While a student at the Sorbonne, he wrote a letter on paper money at the age of 22, delivered remarkable speeches, and at 24 composed a list of 52 works to write.
 
 
-Despite his youth, Turgot contributed to Encyclopédie, authoring articles on topics like "Etymology," "Existence," "Expansibility," "Fairs," and "Foundations." Only one article touched directly on economics-his piece on "Fairs," which detailed the origins of fairs and markets, and criticized the growing state interference that disrupted and paralyzed them.
+Despite his youth, Turgot contributed to Encyclopédie, authoring articles on topics like "Etymology", "Existence", "Expansibility", "Fairs", and "Foundations". Only one article touched directly on economics-his piece on "Fairs", which detailed the origins of fairs and markets, and criticized the growing state interference that disrupted and paralyzed them.
 
 
 During these early years, he was mentored by Vincent de Gournay, who took him under his wing and formed a close friendship with him. Upon Gournay's death in 1759, Turgot composed a eulogy in which he offered a superb summary of the doctrine of laissez-faire. He notably wrote:
 
-"From every perspective in which commerce may concern the state, individual interest left to itself will always more surely produce the general good than the operations of the government, which are always flawed and necessarily guided by vague and uncertain theory."
+"From every perspective in which commerce may concern the State, individual interest left to itself will always more surely produce the general good than the operations of the government, which are always flawed and necessarily guided by vague and uncertain theory".
 
 
 ![image](assets/fr/107.webp)
@@ -1243,7 +1169,7 @@ Turgot defended the freedom of the grain trade in letters to Abbé Terray, later
 ![image](assets/fr/110.webp)
 
 
-In 1769, Turgot wrote the article Value and Money for Abbé Morellet's Dictionnaire de Commerce, which ultimately was never published. Galiani had already noted that "man is the common measure of all things," anticipating the subjective analysis that Turgot would develop thirty years later in this article, where he expands on and proves this proposition.
+In 1769, Turgot wrote the article Value and Money for Abbé Morellet's Dictionnaire de Commerce, which ultimately was never published. Galiani had already noted that "man is the common measure of all things", anticipating the subjective analysis that Turgot would develop thirty years later in this article, where he expands on and proves this proposition.
 
 In 1770, well before Bentham, Turgot wrote a memorandum advocating for the freedom of interest rates and usury.
 
@@ -1251,14 +1177,14 @@ In 1770, well before Bentham, Turgot wrote a memorandum advocating for the freed
 ![image](assets/fr/111.webp)
 
 
-"It is a mistake to believe that the interest on money in commerce should be fixed by the laws of princes," he says, "It is a current price which regulates itself, like that of all other goods", In defense of this position, he refutes the opposition of Aristotle and the Church Fathers.
+"It is a mistake to believe that the interest on money in commerce should be fixed by the laws of princes", he says, "It is a current price which regulates itself, like that of all other goods", In defense of this position, he refutes the opposition of Aristotle and the Church Fathers.
 
 A remarkable summary of Turgot's laissez-faire doctrine can be found in a forgotten 1773 letter to Abbé Terray on the marking of irons:
 
 
 > What politics must do is to yield to the course of nature and to the course of commerce, which is no less necessary and no less irresistible than the course of nature itself, without attempting to direct it; for to direct it without disrupting it and without harming oneself, one would need to be able to follow all the variations in human needs, interests, and industry; one would need to know them in a level of detail that is physically impossible to obtain, and in which even the most skillful, active, and meticulous government will always risk being wrong,at least by half.
 
-Here we find a very clear statement of the doctrine of laissez-faire, as well as a foreshadowing of Friedrich Hayek's analysis of the pretense of knowledge,that is, the impossibility for a state to fully grasp economic forces in order to control them.
+Here we find a very clear statement of the doctrine of laissez-faire, as well as a foreshadowing of Friedrich Hayek's analysis of the pretense of knowledge,that is, the impossibility for a State to fully grasp economic forces in order to control them.
 
 
 
@@ -1306,14 +1232,14 @@ Because the region was so poor, it was of no interest to the ministers. This gav
 This was done by drawing lots, which led to fear and violence because of runaways. Turgot replaced these mandatory levies with paid volunteers.
 
 
-These reforms were undeniably successful, as in July 1774, Turgot was appointed minister. Due to his lack of experience, the King first placed him at the Ministry of the Navy. The appointment amused many. Turgot himself admitted, "I know nothing about the Navy," and Voltaire remarked, "I don't think Turgot is any more of a sailor than I am."
+These reforms were undeniably successful, as in July 1774, Turgot was appointed minister. Due to his lack of experience, the King first placed him at the Ministry of the Navy. The appointment amused many. Turgot himself admitted, "I know nothing about the Navy", and Voltaire remarked, "I don't think Turgot is any more of a sailor than I am".
 
 
 Just a month later, however, Turgot was appointed Controller-General of Finances, effectively becoming France's economy and finance minister.
 
 
 We know the letter in which he outlined his principles to Louis XVI: 
-"No bankruptcy. No tax increases. No new loans."
+"No bankruptcy. No tax increases. No new loans".
 This philosophy, which critics today might label as pointless "rigor", was intended to save the monarchy.
 
 ![image](assets/fr/116.webp)
@@ -1326,7 +1252,7 @@ Turgot prepared six royal edicts to reform the French economy.
 
 It was the first - and one of the very last - that an economic expert was granted the freedom to reform his country's economy. Three of Turgot's edicts stand out: one abolished forced labor (corvées), another dissolved the trade guilds (corporations), and the third established free trade in grain.
 
-Upon entering the ministry, Turgot knew he would face resistance from the privileged classes. "I will be feared, even hated, by most of the court and by all who seek favors," he told the King. The privileged soon united against him and brought about his dismissal from the office of Controller-General of Finances. Voltaire, who fully supported Turgot's reforms, wrote in his correspondence:
+Upon entering the ministry, Turgot knew he would face resistance from the privileged classes. "I will be feared, even hated, by most of the court and by all who seek favors", he told the King. The privileged soon united against him and brought about his dismissal from the office of Controller-General of Finances. Voltaire, who fully supported Turgot's reforms, wrote in his correspondence:
 
 > Ah! What dreadful news I've heard!
 What will become of us? I am devastated! 
@@ -1443,7 +1369,7 @@ He was thus prepared to defend liberty when his friend Turgot rose to the positi
 ![image](assets/fr/126.webp)
 
 
-From then on, Condorcet's career took a turn as he entered the economic debate, tirelessly supporting the liberal reforms of the new minister. Favoring competition and freedom of commerce, Condorcet also called for the abolition of corvées (forced labor), guilds, and for fair taxation. He voiced these convictions publicly whenever opportunity arose, doing so with obvious enthusiasm , he wrote extensively and once declared in his writings: "Allow me to speak again of the liberty of commerce, I enjoy engaging with this subject."
+From then on, Condorcet's career took a turn as he entered the economic debate, tirelessly supporting the liberal reforms of the new minister. Favoring competition and freedom of commerce, Condorcet also called for the abolition of corvées (forced labor), guilds, and for fair taxation. He voiced these convictions publicly whenever opportunity arose, doing so with obvious enthusiasm , he wrote extensively and once declared in his writings: "Allow me to speak again of the liberty of commerce, I enjoy engaging with this subject".
 
 Between 1774 and 1776, during Turgot's ministry, Condorcet made numerous interventions, all marked by his commitment to laissez-faire. His works include Letters from a Farmer of Picardy to Mr. Necker, defending free trade; Monopolies and Monopolists, advocating free competition; Reflections on Corvées, calling for their abolition; and Reflections on the Grain Trade, which again praises free trade and critiques Necker's book on the same subject.
 
@@ -1454,7 +1380,7 @@ In his Letters on the Grain Trade, Condorcet makes several key points.
 ![image](assets/fr/127.webp)
 
 
-First, the high grain prices at the time were not the result of free trade, but rather of poor harvests, and Condorcet demonstrates this clearly. He then explains why laissez-faire is not only appropriate but the only suitable policy, despite popular prejudice. He notes, "We are so used to seeing the government intervene in the grain trade that doing nothing seems like something extraordinary and new." Later, he adds, "Almost everyone, especially those holding public office, believe that nothing happens on its own and that everything is lost if the government doesn't intervene in everything." Condorcet thus revives the arguments of the Physiocrats and Turgot, showing the superiority of free trade over all forms of interventionism.
+First, the high grain prices at the time were not the result of free trade, but rather of poor harvests, and Condorcet demonstrates this clearly. He then explains why laissez-faire is not only appropriate but the only suitable policy, despite popular prejudice. He notes, "We are so used to seeing the government intervene in the grain trade that doing nothing seems like something extraordinary and new". Later, he adds, "Almost everyone, especially those holding public office, believe that nothing happens on its own and that everything is lost if the government doesn't intervene in everything". Condorcet thus revives the arguments of the Physiocrats and Turgot, showing the superiority of free trade over all forms of interventionism.
 
 
 Promoting Turgot's liberal economic agenda was a courageous act, as Condorcet knew he would quickly face censorship. Indeed, this happened and his pamphlet on the abolition of forced labor was destroyed and banned in 1776.
@@ -1463,7 +1389,7 @@ Promoting Turgot's liberal economic agenda was a courageous act, as Condorcet kn
 Turgot, appreciating Condorcet's loyal defense of his ideas, appointed him Inspector of Coinage. Condorcet resigned as soon as his friend left the ministry.
 
 
-Although he devoted all his energy to defending Turgot, Condorcet had no illusions about the outcome of his friend's tenure. Turgot himself admitted late in life that he lived with regret , as he wrote in a letter, "for not having been able to do my nation and humanity a good I believed very easy." Condorcet, more realistic, pointed out the many adversaries Turgot would face: the king's favorites, the parliaments, the clergy, the nobility, the guilds, and so on. These groups expected flattery, not reform. Condorcet told Turgot, "You are by no means a charlatan, and that is a flaw, given how things are in Paris." He was perfectly right, for in 1776, barely two years after his arrival, Turgot was already forced to leave the Controller-Generalship.
+Although he devoted all his energy to defending Turgot, Condorcet had no illusions about the outcome of his friend's tenure. Turgot himself admitted late in life that he lived with regret , as he wrote in a letter, "for not having been able to do my nation and humanity a good I believed very easy". Condorcet, more realistic, pointed out the many adversaries Turgot would face: the king's favorites, the parliaments, the clergy, the nobility, the guilds, and so on. These groups expected flattery, not reform. Condorcet told Turgot, "You are by no means a charlatan, and that is a flaw, given how things are in Paris". He was perfectly right, for in 1776, barely two years after his arrival, Turgot was already forced to leave the Controller-Generalship.
 
 
 
@@ -1474,7 +1400,7 @@ Although he devoted all his energy to defending Turgot, Condorcet had no illusio
 
 
 
-Dupont de Nemours was the youngest disciple of François Quesnay, who once said of him: "We must take care of this young man, for he will speak when we are dead." When the French Revolution began, nearly all the great Physiocrats, including the Marquis de Mirabeau, were already gone, Mirabeau himself had passed away on July 13, 1789.
+Dupont de Nemours was the youngest disciple of François Quesnay, who once said of him: "We must take care of this young man, for he will speak when we are dead". When the French Revolution began, nearly all the great Physiocrats, including the Marquis de Mirabeau, were already gone, Mirabeau himself had passed away on July 13, 1789.
 
 
 Dupont de Nemours wrote the grievance petition (cahier de doléance) for the district of Nemours.
@@ -1498,15 +1424,15 @@ As early as November 1789, when there was talk of granting a monopoly to the Cai
 ![image](assets/fr/130.webp)
 
 
-It would be better," he says, "to leave the banking business to the laws of free trade.  And he adds:
+It would be better", he says, "to leave the banking business to the laws of free trade.  And he adds:
 
 here
-> "I do not understand what the minister meant when he spoke of granting a privilege to the Caisse d'Escompte. If this privilege includes exclusivity, you must reject it, for you have come here to destroy exclusive privileges, not to create new ones."
+> "I do not understand what the minister meant when he spoke of granting a privilege to the Caisse d'Escompte. If this privilege includes exclusivity, you must reject it, for you have come here to destroy exclusive privileges, not to create new ones".
 
 Despite his warnings, the Assembly ignored his objections and took another step toward establishing a central bank and a banking monopoly.
 
 
-In 1790, at the Constituent Assembly, Dupont de Nemours followed the pacifist tradition of his Physiocrat friends and proposed a law forbidding offensive wars. The first article read: "The French Nation shall not permit itself to engage in any offensive war to seize the territory of others or to infringe upon the rights or liberty of any Nation." 
+In 1790, at the Constituent Assembly, Dupont de Nemours followed the pacifist tradition of his Physiocrat friends and proposed a law forbidding offensive wars. The first article read: "The French Nation shall not permit itself to engage in any offensive war to seize the territory of others or to infringe upon the rights or liberty of any Nation". 
 
 This proposal was rejected.
 
@@ -1520,7 +1446,7 @@ Dupont de Nemours firmly opposed this and published a pamphlet titled Effects of
 ![image](assets/fr/131.webp)
 
 
-He signed the pamphlet as "a friend of the people." The piece caused quite a stir, as the Assembly was asked who had written it. Dupont de Nemours then stood up and admitted it was his work, saying he was not ashamed to use the title "friend of the people" because fighting against the assignats was truly serving the people.
+He signed the pamphlet as "a friend of the people". The piece caused quite a stir, as the Assembly was asked who had written it. Dupont de Nemours then stood up and admitted it was his work, saying he was not ashamed to use the title "friend of the people" because fighting against the assignats was truly serving the people.
 
 
 Once again, his advice was ignored, and the assignats were issued.

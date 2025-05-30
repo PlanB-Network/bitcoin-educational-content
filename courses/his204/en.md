@@ -202,132 +202,92 @@ And freedom is indeed his final conclusion. "It is not a matter of acting", he s
 
 This last passage is essential. Boisguilbert was the first to clearly demand a laissez-faire economic policy, to make it his credo, and to build a real system around it. According to him, there is a natural order of things, and it should not be corrupted, not destroyed, by untimely public interventions. The State, in his view, must not act in economic matters, but rather, let things act naturally. Otherwise, it will cause misery.
 
-
 Boisguilbert even criticized the "*good souls*", as he called them, those who meant well but did great harm. They wanted cheap bread for the people, but by forcing down prices, they ruined farmers, who couldn't survive on such margins. These farmers then abandoned their lands, plunging deeper into poverty. As we all know, 'hell is often paved with good intentions'.
-
 
 ## Cantillon
 
 <chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
 
-
-
-
-Author of the Essay on the Nature of Trade in General (written around 1730, published in 1755), Richard Cantillon is regarded as one of the pioneers of modern economic science. In his History of Economic Thought, economist Murray Rothbard even refers to Cantillon as the founder of modern economics.
-
+Author of the "Essay on the Nature of Trade in General" (written around 1730, published in 1755), Richard Cantillon is regarded as one of the pioneers of modern economic science. In his History of Economic Thought, economist Murray Rothbard even refers to Cantillon as the founder of modern economics.
 
 ![image](assets/fr/019.webp)
 
-
-Born in Ireland, Cantillon moved to Paris as a young man and acquired French nationality.
-He worked as a banker, made a fortune during the John Law era.
-
+Born in Ireland, Cantillon moved to Paris as a young man and acquired French nationality. He worked as a banker, made a fortune during the John Law era.
 
 ![image](assets/fr/020.webp)
 
-
 It was also on this occasion that he began to study economic theory. Around 1730, Cantillon composed his Essay on the Nature of Commerce in General.
-
 
 ![image](assets/fr/021.webp)
 
+This book can be seen as one of the first attempts at creating a general theory of economics. Cantillon is careful to identify what he calls "general laws of the economy", those which are in the nature of things, and not in the particular facts of this or that country. This approach was revolutionary.
 
-This book can be seen as one of the first attempts at creating a general theory of economics. Cantillon is careful to identify what should be called "general laws of the economy", those which are in the nature of things, and not in the particular facts of this or that country. This approach was revolutionary.
+The Essay by Cantillon stands out for five major contributions: his **theory of wealth**, the **concept of the entrepreneur**, his **critique of worthless currencies**, the idea known as the “**Cantillon Effects**,” and his **defense of liberty**.
 
-The Essay by Cantillon stands out for five major contributions: his **theory of wealth**, the **concept of the entrepreneur**, his **critique of valueless currencies**, the idea known as the “**Cantillon Effects**,” and his **defense of economic liberty**.
+First, his **theory of wealth**.
+Unlike the mercantilist view dominant at the time, Cantillon based his analysis on the recognition that wealth is formed by the products that are proper to the enjoyment of man. This wealth, he argued, comes from nature and is produced through human labor. His ideas on the nature of wealth had a strong influence on Beccaria and Adam Smith, and, through Smith, on the entire English classical school of thought.
 
+Second, **the entrepreneur**.
+Although he didn't define it clearly, Cantillon viewed the entrepreneur as a main and central player in economic activity. For Cantillon, what characterizes the entrepreneur is that he takes on risk and acts in uncertainty. These ideas would later be expanded by Turgot and, more significantly, by Say, to finally recognize the entrepreneur's special place in the economy, contrary this time to the assertions of the English school.
 
-
-
-**First**, his **theory of wealth.**
-Unlike the **mercantilist** view dominant at the time, Cantillon based his analysis on the recognition that **the products proper to the enjoyment of man form wealth.**. This wealth, he argued, comes from nature and is produced through **human labor**. His ideas on the nature of wealth had a strong influence on **Beccaria, Adam Smith**, and through Smith, on the **entire classical school of English**.
-
-
-**Second**, the **entrepreneur.**
-Although he didn't define it in modern terms, Cantillon viewed the entrepreneur as a **main and central player in economic activity**. For Cantillon, what characterizes the entrepreneur is that he **takes on risk and acts in uncertainty**. These ideas would later be expanded by **Turgot** and, more significantly, by **Say**, to finally recognize the entrepreneur's special place in the economy, contrary this time to the assertions of the English school.
-
-
-**Third**, his views on **currency**.
-As a response to the **John Law's experience**, Cantillon explained what happens or must happen when currency has no real value.
-
+Third, his views on **currency**.
+As a response to the John Law's experience, Cantillon explained what happens or must happen when currency has no real value.
 
 ![image](assets/fr/022.webp)
 
-He sees two main consequences of substituting a money without real value like paper money for a metallic one, The first consequence is what he calls "popular rejection", which means a growing distrust of worthless money. The second consequence is inflation. Monetary weakening makes goods more expensive.
+He sees two main consequences of substituting a currency without real value like paper money for a metallic one, The first consequence is what he calls "popular rejection", which means a growing distrust of worthless money. The second consequence is inflation: monetary weakening makes goods more expensive.
 
-The first consequence is what he calls "popular rejection", which means a growing distrust of worthless money. The second consequence is inflation. Monetary weakening makes goods more expensive.
+Fourth, in his analysis of **inflation**, Cantillon went further than his contemporaries. Having observed the collapse of Law's system, Cantillon realized that monetary inflation doesn't affect everyone equally. On the contrary, it enriches some while impoverishing others. He concluded that inflation has redistributive effect: those who receive newly issued money first benefit from increased purchasing power, while those who receive it later become poorer as a result of the new money being issued due to the rise of inflation rates.
 
-In his analysis of inflation, Cantillon goes further than his contemporaries, and this is our **Fourth**, Having Observed the collapse of Law's system, Cantillon realized that **monetary inflation doesn't affect everyone equally**. On the contrary, it enriches some while impoverishing others. He concluded that inflation has **redistributive effect**: depending on ***how and where the newly issued money enters the economy***, those who receive it early benefit from increased purchasing power, while those who receive it later, once prices have already risen, become poorer as a result of the new money being issued
-
-
-**Fifth**, despite a few remnants of mercantilist thought, Cantillon's overall perspective was **fully liberal**.He defended **private property** as a fundamental pillar of civilization, arguing that no society can function without private ownership of land and the products of labor. He also saw **material inequality** between people as **natural and legitimate**. According to Cantillon, there's nothing wrong with an **efficient and courageous worker, or an exceptionally gifted one** earning more than someone who is **incompetent or lazy**.  Finally, Cantillon believed that **prices should always be determined freely**, by the play of **supply and demand**, without intervention by public authorities.
-
+Fifth, despite a few remnants of mercantilist thought, Cantillon's overall perspective was **fully liberal**.He defended private property as a fundamental pillar of civilization, arguing that no society can function without private ownership of land and the products of labor. He also saw material inequality between people as natural and legitimate. According to Cantillon, there's nothing wrong with an efficient and courageous worker, or an exceptionally gifted one earning more than someone who is incompetent or lazy.  Finally, Cantillon believed that prices should always be determined freely, by the play of supply and demand, without intervention by public authorities.
 
 Among these five major ideas in his Essay, the most important is undoubtedly the one that now bears his name: the **Cantillon Effect**.
-With this theory of the **effects of inflation**, Cantillon provides us with answers to a number of contemporary ills. It helps us understand the consequences of recent **expansionary and inflationary monetary policies**, which have **impoverishment of the middle class and rural world, while enriching financial market operators and State, its agencies and its officials**, due to their joint proximity to the source of the new issue **central banks and commercial banks**.
+With this theory about the effects of inflation, Cantillon provides us with answers to a number of contemporary ills. It helps us understand the consequences of recent expansionary and inflationary monetary policies, which have impoverished the middle class and rural world, while enriching financial market operators and the State, its agencies and its officials, due to their joint proximity to the source of the new issue: central banks and commercial banks.
 
 
 # Reformers and Thinkers of the Early 18th Century
 
 <partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
 
-## Abbé de Saint-Pierre
+## The abbot of Saint-Pierre
 
 <chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
 
-
-
-
-Of all the authors we've chosen to include in the pantheon of 18th-century French laissez-faire thinkers, Abbé de Saint-Pierre is undoubtedly the least known.
-
-
-
+Of all the authors we've chosen to include in the pantheon of 18th-century French laissez-faire thinkers, Abbé de Saint-Pierre is undoubtedly the most overlooked.
 
 ![image](assets/fr/023.webp)
 
-
-And to be fair, it's partly his own fault, he wrote a great deal, and his style is hard to read, with frequent repetition. Even Jean-Jacques Rousseau tried to summarize his work, He began to do so, but soon abandoned the task, as he realized that it was beyond his strength. In the mid-19th century, Gustave de Molinari honored him with publishing a comprehensive work on him, in which he paid tribute to the pacifist and economist that the abbé de Saint-Pierre was. But this was not enough to bring him out of oblivion, as he is still remains in it today
-
+To be fair, it's partly his own fault. He wrote a great deal, but his style is hard to read and is full of repetitions. Even Jean-Jacques Rousseau tried to summarize his work: he began to do so, but soon abandoned the task, as he realized that it was beyond his strength. In the mid-19th century, Gustave de Molinari honored him with publishing a comprehensive work on him, in which he paid tribute to the pacifist and economist that the abbot of Saint-Pierre was. But this was not enough to bring him out of oblivion, as he is still remains in it today.
 
 ![image](assets/fr/024.webp)
 
 ![image](assets/fr/025.webp)
 
-
-While Abbé de Saint-Pierre wrote about economics, he's usually remembered for his ideas on peace. He authored a Project for Perpetual Peace, a work that predates the better-known version by Immanuel Kant.
-
+While Abbé de Saint-Pierre wrote about economics, he's usually remembered for his pacifist ideas. He authored a Project for Perpetual Peace, a work that predates the better-known version by Immanuel Kant.
 
 ![image](assets/fr/026.webp)
 
+In this work, he argued that war is destructive, not only for those who lose it, but also for the winners, and even for those who don't take part in them, since their commerce is effected.
 
-In it, he argued that war is destructive, not only for those who lose it, but also for the winners, and even for those who don't take part in them, since **their commerce is effected**.
+To combat the scourge of war, he recommended the creation of a kind of European League of Nations. A European council would be formed to resolve the problems of each nation. Nations would therefore resort to arbitration, in order to avoid resorting to arms. If a nation was not wise enough to embrace peace, if it threatened the other European nations, European league of nation would have something to respond to. Facing such events, a European army would be formed, with forces provided by the various countries.
 
-
-To combat the scourge of war, he recommended the creation of a kind of European League of Nations. A European council would be formed to resolve the problems of each nation, We would therefore resort to arbitration, in order to avoid resorting to arms.If a nation were not wise enough to adopt peace, if it threatened the other European nations, European league of nation would have something to respond to. facing such events, a European army would be formed, with forces provided by the various countries.
-
-There's also an episode in Abbé de Saint-Pierre's life that perfectly illustrates the critical mindset behind the French laissez-faire movement. He joined the Académie Française in 1695, but was expelled in 1718 for daring to criticize the reign of Louis XIV. In that, he aligned with figures like Vauban and Boisguilbert, who had also dared to speak out against the hidden misery behind the Sun King's glittering court.
-
+There's also an episode in the life of the abbot of Saint-Pierre's that perfectly illustrates the critical mindset behind the French laissez-faire movement. He joined the Académie Française in 1695, but was expelled in 1718 for daring to criticize the reign of Louis XIV. In that, he aligned with figures like Vauban and Boisguilbert, who had also dared to speak out against the hidden beneath the splendor the Sun King's reign.
 
 ![image](assets/fr/027.webp)
 
-
-Saint-Pierre argued that the reign of Louis XIV, with its luxurious court and obsession with military conquest, was not the mark of a virtuous king. He refused to accept that Louis XIV deserved the title "**Louis the Great**".
+The Abbot of Saint-Pierre argued that the reign of Louis XIV, with its luxurious court and obsession with military conquest, was not the mark of a virtuous king. He refused to accept that Louis XIV deserved the title "**Louis the Great**".
 
 
 ![image](assets/fr/028.webp)
 
 
-"You can't call it greatness", he said, "when a ruler ruins both his neighbors and his own people". This position deeply offended the Académie Française, which had long been preoccupied with glorifying the king in every literary form possible. They voted almost unanimously to expel him.
-
+"To ruin one's neighbors and one's people at the same time is not greatness", he said. This position deeply offended the Académie Française, which had long been preoccupied with glorifying the king in every literary form possible. As a result, they voted almost unanimously to expel him.
 
 ![image](assets/fr/029.webp)
 
+In terms of economic thinking, he consistently applied the principle of utility, much like Jeremy Bentham would do later, and often offered sound insights. To be fair, he was still influenced by mercantilist ideas, which no one had fully shed at that time.
 
-In terms of economic thinking, Saint-Pierre consistently applied the principle of utility, much like Jeremy Bentham would do later, and often offered sound insights. Admittedly, he was still influenced by mercantilist ideas, which no one had fully shed at that time.
-
-
-Still, Saint-Pierre made some strikingly modern observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 Project for Improving France's Trade, where he wrote:
-
+Still, the abbot of Saint-Pierre made some accurate observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 Project for Improving France's Trade, where he wrote:
 
 > "When a sale is made between merchants, the seller gains, and so does the buyer; for if there weren't some real or perceived benefit on both sides, neither would agree to the transaction".
 

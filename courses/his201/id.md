@@ -585,20 +585,21 @@ Bitcoin, di sisi lain, tidak bergantung pada pihak ketiga yang tepercaya, dan ol
 
 ### Batas 21 Juta
 
-Ini membawa kita ke elemen kedua yang disajikan oleh Satoshi pada hari peluncuran jaringan: batas 21 juta. Pada 8 Januari, dalam [email pengenalan](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html)nya, ia menggambarkan kebijakan moneter ini sebagai berikut:
+Ini membawa kita pada elemen kedua yang disajikan oleh Satoshi pada hari peluncuran jaringan: batas 21 juta. Pada tanggal 8 Januari, dalam [email pengenalannya](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html), ia menjelaskan kebijakan moneter ini sebagai berikut:
 
-> "Total peredaran akan menjadi 21.000.000 unit. &nbsp;Mereka akan didistribusikan ke node jaringan saat mereka membuat blok, dengan jumlah yang dikeluarkan dibagi dua setiap 4 tahun.
->
-> empat tahun pertama: 10.500.000 unit
-4 tahun ke depan: 5.250.000 unit > 4 tahun ke depan: 2.625.000 unit
-4 tahun ke depan: 1.312.500 unit
-dll.
+>"Total sirkulasi akan menjadi 21.000.000 unit. Unit-unit ini akan didistribusikan ke node jaringan saat mereka membuat blok, dengan jumlah yang diterbitkan dibagi dua setiap 4 tahun.
 
-Ketika itu terpakai habis, sistem dapat mendukung biaya transaksi jika diperlukan. Ini berdasarkan kompetisi pasar terbuka, dan kemungkinan akan selalu ada node yang bersedia memproses transaksi secara gratis."
+>4 tahun pertama: 10.500.000 unit
+4 tahun berikutnya: 5.250.000 unit
+4 tahun berikutnya: 2.625.000 unit
+4 tahun berikutnya: 1.312.500 unit
+dst.
 
-Beberapa hari kemudian, Hal Finney [bereaksi](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) secara positif terhadap kebijakan moneter ini di milis, tergugah oleh fakta bahwa "sistem dapat dikonfigurasi untuk hanya mengizinkan jumlah unit maksimum tertentu yang dapat dihasilkan." Dalam emailnya, dia memperkirakan bahwa jika Bitcoin menjadi "sistem pembayaran dominan yang digunakan di seluruh dunia," setiap unitnya kemudian akan memiliki "nilai sekitar $10 juta." Dia menyimpulkan dengan menulis bahwa "kemungkinan menghasilkan unit hari ini dengan beberapa sen waktu komputasi" bisa menjadi "taruhan yang sangat baik." Meskipun perkiraan ini dapat diperdebatkan (karena didasarkan pada penilaian Bitcoin yang akan setara dengan total kekayaan global), penalarannya masuk akal.
+>Ketika jumlah itu habis, sistem dapat mengenakan biaya transaksi jika diperlukan. Ini didasarkan pada kompetisi pasar terbuka, dan mungkin akan selalu ada node yang bersedia memproses transaksi secara gratis."
 
-Pada tanggal 16 Januari, Satoshi mengunjungi kembali ide ini tentang "investasi jangka panjang" dalam sebuah email yang dia bagikan dengan milis, di mana dia menggambarkan kasus penggunaan potensial. Dia [menyatakan](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) kemudian bahwa itu "mungkin masuk akal hanya untuk mendapatkan beberapa jika itu menangkap. Jika cukup banyak orang berpikir dengan cara yang sama, itu menjadi ramalan yang memenuhi diri sendiri." Dia [mengulangi](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) klaim ini sebulan kemudian, menjelaskan bahwa jumlah unit yang terbatas kemungkinan akan menciptakan "lingkaran umpan balik positif" dalam arti bahwa "semakin banyak pengguna ada, semakin nilai meningkat, yang bisa menarik lebih banyak pengguna yang ingin mendapatkan keuntungan dari peningkatan nilai." Jadi, elemen spekulatif hadir dari awal, dengan tujuan untuk memulai sistem.
+Beberapa hari kemudian, Hal Finney [bereaksi](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) positif terhadap kebijakan moneter ini di milis, bersemangat dengan fakta bahwa "sistem dapat dikonfigurasi untuk hanya mengizinkan jumlah unit maksimum tertentu untuk dihasilkan." Dalam email-nya, ia memperkirakan bahwa jika Bitcoin menjadi "sistem pembayaran dominan yang digunakan di seluruh dunia," setiap unit akan memiliki "nilai sekitar $10 juta." Ia menyimpulkan dengan menulis bahwa "kemungkinan menghasilkan unit hari ini dengan beberapa sen waktu komputasi" bisa menjadi "taruhan yang sangat bagus." Meskipun perkiraan tersebut dapat diperdebatkan (karena didasarkan pada valuasi bitcoin yang akan setara dengan total kekayaan global), penalaran tersebut masuk akal.
+
+Pada tanggal 16 Januari, Satoshi kembali membahas gagasan "investasi jangka panjang" ini dalam email yang ia bagikan di milis, di mana ia menjelaskan kasus penggunaan secara potensial. Ia [menyatakan](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) bahwa "mungkin masuk akal untuk memiliki beberapa Bitcoin jika populer. Jika cukup banyak orang berpikir dengan cara yang sama, itu akan menjadi ramalan yang terwujud dengan sendirinya." Ia [menegaskan](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) kembali klaim ini sebulan kemudian, menjelaskan bahwa jumlah unit yang terbatas kemungkinan akan menciptakan "lingkaran umpan balik positif" dalam artian bahwa "semakin banyak pengguna, semakin meningkat nilainya, yang dapat menarik lebih banyak pengguna yang ingin mendapatkan keuntungan dari nilai yang meningkat." Dengan demikian, unsur spekulatif sudah ada sejak awal, dengan tujuan untuk memulai sistem.
 
 ### Regulasi, Jaringan Zombie, dan Ekologi
 

@@ -287,7 +287,7 @@ The Abbot of Saint-Pierre argued that the reign of Louis XIV, with its luxurious
 
 In terms of economic thinking, he consistently applied the principle of utility, much like Jeremy Bentham would do later, and often offered sound insights. To be fair, he was still influenced by mercantilist ideas, which no one had fully shed at that time.
 
-Still, the abbot of Saint-Pierre made some accurate observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 Project for Improving France's Trade, where he wrote:
+Still, the abbot of Saint-Pierre made some accurate observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), where he wrote:
 
 > "When a sale is made between merchants, the seller gains, and so does the buyer; for if there weren't some real or perceived benefit on both sides, neither would agree to the transaction".
 

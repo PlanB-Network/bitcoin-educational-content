@@ -1,5 +1,5 @@
 ---
-name: Passport - Nadace
+name: Passport Core
 description: Konfigurace a používání hardwarové peněženky Passport v ručním režimu
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Konfigurace a používání hardwarové peněženky Passport v ruč
 Passport je hardwarová peněženka pouze pro bitcoiny, kterou navrhla americká společnost Foundation Devices založená v dubnu 2020 v Bostonu.
 
 Passport "*Batch 2*", který představujeme v tomto tutoriálu, je nástupcem edice "*Founder's Edition*". Vyniká prémiovým designem, vysoce kvalitním barevným displejem a ergonomickou fyzickou klávesnicí. Funguje v režimu "*Air-Gap*", což zajišťuje, že soukromé klíče vaší peněženky zůstanou zcela izolované, přičemž komunikace probíhá prostřednictvím karty MicroSD nebo QR kódů. Zařízení je vybaveno vyměnitelnou dobíjecí baterií Nokia BL-5C s kapacitou 1200 mAh. Tato běžně dostupná baterie může být snadno nahrazena, protože model BL-5C lze snadno najít v obchodech.
+
+💡 **Aktualizace:** Od března 2025 se tento hardware peněženka již nejmenuje "Passport" ani "Passport V2", ale "Passport Core".
 
 Co se týče konektivity, je Passport vybaven portem MicroSD, portem USB-C pro nabíjení a zadní kamerou pro snímání QR kódů.
 
@@ -483,3 +485,4 @@ Gratulujeme, nyní víte, jak nakonfigurovat a používat aplikaci Passport. Pok
 Další informace naleznete v našem návodu k softwaru Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

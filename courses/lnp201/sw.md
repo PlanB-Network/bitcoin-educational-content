@@ -2,7 +2,6 @@
 name: Utangulizi wa Kinadharia kwa Lightning Network
 goal: Gundua Lightning Network kutoka kwa mtazamo wa kiufundi
 objectives: 
-
   - Kuelewa uendeshaji wa njia za mtandao.
   - Jifahamishe na masharti HTLC, LNURL, na UTXO.
   - Kusasisha usimamizi wa ukwasi na ada za LNN.
@@ -21,6 +20,33 @@ Iwe wewe ni mwanzilishi wa Bitcoin au mtumiaji mwenye uzoefu zaidi, kozi hii ita
 Furahia ugunduzi wako!
 
 +++
+# Utangulizi
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Muhtasari wa Kozi
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Karibu kwenye kozi ya LNP201!
+
+Mafunzo haya yanalenga kukupa ufahamu wa kina wa kiufundi wa Mtandao wa Umeme, mtandao wa kuwekelea ulioundwa kuwezesha miamala ya haraka na mara nyingi ya bei nafuu ya Bitcoin. Utagundua hatua kwa hatua dhana za kimsingi zinazotawala mfumo huu, kuanzia kufungua njia za malipo hadi mbinu za uelekezaji na usimamizi wa ukwasi.
+
+**Sehemu ya 1: Misingi**
+Tutaanza na utangulizi wa jumla wa Mtandao wa Umeme, tukianzisha misingi muhimu kuhusu Bitcoin, anwani zake, UTXO, na jinsi miamala inavyofanya kazi. Uhakiki huu wa kimsingi ni muhimu ili kuelewa jinsi Mtandao wa Umeme unategemea mifumo ya msingi ya blockchain kufanya kazi kwa usalama.
+
+**Sehemu ya 2: Kufungua na Kufunga Chaneli**
+Katika sehemu hii, tutachunguza mchakato wa kufungua chaneli, ambayo ni msingi wa Mtandao wa Umeme. Utajifunza jinsi miamala ya malipo inavyoundwa, jukumu la funguo za kubatilisha usalama, na jinsi vituo vinaweza kufungwa kwa ushirikiano au upande mmoja. Kila hatua itaelezewa kwa usahihi na kiufundi ili kukusaidia kufahamu hila zote.
+
+**Sehemu ya 3: Mtandao wa Ukwasi**
+Mtandao wa Umeme sio mdogo kwa njia za mtu binafsi; ni mtandao halisi wa malipo. Tutaona jinsi miamala inaweza kupitishwa kupitia nodi za kati kwa kutumia HTLC. Sehemu hii pia itakujulisha changamoto za ukwasi unaoingia na kutoka nje.
+
+**Sehemu ya 4: Zana za Mtandao wa Umeme**
+Sehemu hii inawasilisha zana za vitendo za Mtandao wa Umeme, kama vile *Ankara*, *LNURL*, na *Utumaji Muhimu*. Pia utajifunza jinsi ya kudhibiti ukwasi wa vituo vyako, jambo muhimu ili kuhakikisha malipo mepesi na kuongeza ufanisi wa miamala yako kwenye Umeme.
+
+**Sehemu ya 5: Kwenda Zaidi**
+Hatimaye, tutahitimisha mafunzo kwa kurejea dhana zilizoshughulikiwa na kuweka njia ya mada za juu zaidi kwa wale wanaotaka kuongeza ujuzi wao wa Mtandao wa Umeme.
+
+Je, uko tayari kufichua mbinu za kiufundi za Mtandao wa Umeme? Hebu tuzame ndani!
+
 # Misingi
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

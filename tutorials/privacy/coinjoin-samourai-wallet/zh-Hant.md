@@ -487,7 +487,7 @@ Samourai 接著會廣播您的 Tx0。
 ![samourai](assets/notext/34.webp)
 
 
-通過檢查與 **Postmix** 帳戶相對應的 "Remixing "標籤，您可以觀察到初始混合產生的 UTXO。這些錢幣將繼續為後續的混幣做好準備，混幣不會產生任何額外費用。我建議參考這篇其他文章，以瞭解更多關於重新混合過程和 CoinJoin 循環的效率：[REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+通過檢查與 **Postmix** 帳戶相對應的 "Remixing "標籤，您可以觀察到初始混合產生的 UTXO。這些錢幣將繼續為後續的混幣做好準備，混幣不會產生任何額外費用。我建議參考這篇其他文章，以瞭解更多關於重新混合過程和 CoinJoin 循環的效率：[REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 ![samourai](assets/notext/35.webp)
@@ -547,7 +547,7 @@ Samourai 接著會廣播您的 Tx0。
 在下一步中，您可以選擇修改與交易相關的費率。您也可以通過勾選相應的方塊來啟用 「石牆 」選項。如果 「石牆 」選項無法選擇，則表示您的 **Postmix** 帳戶中沒有足夠大小的 UTXO 來支援此特定交易結構。
 
 
-[-> 進一步瞭解石牆交易](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> 進一步瞭解石牆交易](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 如果一切都令您滿意，請按 Green `SEND ... BTC` 按鈕。
@@ -645,7 +645,7 @@ PlanB Network 即將提供實施這些不同技術的詳細教學。
 
 **其他資源：**
 
-[Samourai Wallet video tutorial](https://planb.network/tutorials/Wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Samourai Wallet Documentation - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts)；

@@ -1,5 +1,5 @@
 question: Perché gli UTXO vengono spesso paragonati a banconote?
-answer: Devono essere spesi nella loro interezza
+answer: Perchè devono essere spesi nella loro interezza
 wrong_answers:
   - Possono essere utilizzati più volte fino all'esaurimento
   - Sono utilizzabili solo in certe transazioni specifiche

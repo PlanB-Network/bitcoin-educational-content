@@ -1,0 +1,8 @@
+question: Qu'est ce que La politique mercantiliste recommande ?
+answer: les exportations, pour amasser l’or et l’argent reçu en paiement
+wrong_answers:
+  - les importations, pour amasser des marchandises étrangères
+  - ni l’un ni l’autre, le commerce étant stérile et sans intérêt
+  - l'équilibre entre importations et exportations
+explanation: |
+  Le mercantilisme est une doctrine économique qui prône l'intervention de l'État pour favoriser l'enrichissement national. L'objectif principal est d'accumuler des métaux précieux (or et argent) en ayant une balance commerciale excédentaire, c'est-à-dire en exportant plus qu'en important.

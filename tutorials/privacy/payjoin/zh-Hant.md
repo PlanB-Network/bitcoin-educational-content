@@ -69,10 +69,10 @@ PayJoin 交易有兩個目的，可讓使用者提高付款的隱私性。
 如果您想分析真正的 PayJoin 交易，以下是我在 Testnet 上執行的交易：[8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://Mempool.space/fr/Testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 
-[**-> 探索我們如何用 Samourai Wallet 製作 PayJoin 的教學**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-samourai-Wallet-48a5c711-ee3d-44db-b812-c55913080eab)
+[**-> 探索我們如何用 Samourai Wallet 製作 PayJoin 的教學**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
 
-[**-> 探索我們如何使用 Sparrow Wallet 製作 PayJoin 的教學**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-sparrow-Wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
+[**-> 探索我們如何使用 Sparrow Wallet 製作 PayJoin 的教學**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 

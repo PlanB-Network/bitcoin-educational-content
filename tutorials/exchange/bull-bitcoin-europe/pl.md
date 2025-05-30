@@ -186,7 +186,7 @@ Jeśli nie jesteś zaznajomiony z korzystaniem z portfeli Bitcoin, Lightning lub
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Możesz również zapoznać się z [naszymi szczegółowymi samouczkami na temat najlepszych portfeli Bitcoin] (https://planb.network/tutorials/Wallet).
+Możesz również zapoznać się z [naszymi szczegółowymi samouczkami na temat najlepszych portfeli Bitcoin] (https://planb.network/tutorials/wallet).
 
 
 Następnie potwierdź zakup, klikając przycisk "*Potwierdź zakup*".

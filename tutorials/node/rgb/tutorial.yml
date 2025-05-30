@@ -87,6 +87,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 12.15
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.19
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.15
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.15
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.15
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 15.17
 tags:
   - protocols
   - smart-contracts

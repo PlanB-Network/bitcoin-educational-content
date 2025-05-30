@@ -32,10 +32,11 @@ proofreading:
     contributor_names:
     reward: 17.57
   - language: es
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 17.57
+      - lutxoitalico
+    reward: 8.79
   - language: et
     last_contribution_date:
     urgency: 1
@@ -47,30 +48,34 @@ proofreading:
     contributor_names:
     reward: 23.4
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 17.57
+      - Sosylos
+    reward: 8.79
   - language: id
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 29.22
+      - bitcoinindo21
+    reward: 14.62
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 17.57
+      - AlbertoMagno21
+    reward: 8.79
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 35.04
   - language: nb-NO
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 23.4
+      - turdsferguson
+    reward: 11.71
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -87,15 +92,38 @@ proofreading:
     contributor_names:
     reward: 35.07
   - language: zh-Hans
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 29.24
+      - MilankovicProtocol
+    reward: 14.62
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 23.41
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.9
+  - language: sr-Latn
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - Sanja993
+    reward: 11.70
+  - language: sw
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - Tinnah924
+    reward: 11.71
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.24
 tags:
   - business
   - adoption

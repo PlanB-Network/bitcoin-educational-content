@@ -1,4 +1,4 @@
-question: Qual è il ruolo principale del nodo mittente nel routing sulla Lightning Network?
+question: Qual è il ruolo principale del nodo mittente nel routing su Lightning Network?
 answer: Calcolare l'intero percorso fino al destinatario
 wrong_answers:
   - Memorizzare le informazioni sulla liquidità di tutti i canali della rete

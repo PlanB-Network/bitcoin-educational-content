@@ -49,7 +49,7 @@ Ne morate biti GitHub stručnjak da biste pregledali sadržaj. Iako je uvek bolj
 Međutim, ako niste upoznati sa Git-om i GitHub-om i želite da saznate više, možete pogledati naš uvodni članak o ovim alatima:
 
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Kreiraj nalog
 

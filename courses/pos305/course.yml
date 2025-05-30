@@ -67,10 +67,11 @@ proofreading:
     contributor_names:
     reward: 81.8
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 61.37
+      - Sosylos
+    reward: 31.08
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
@@ -124,6 +125,27 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 82.84
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 144.9
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.84
+  - language: sw
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - monyangi10
+    reward: 41.42
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 103.53
 tags:
   - guides
   - business

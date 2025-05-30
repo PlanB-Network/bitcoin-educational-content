@@ -1,0 +1,9 @@
+question: نام حسابی که برای UTXOهایی استفاده می‌شود که نمی‌توانند وارد استخر Whirlpool CoinJoin شوند چیست؟
+answer: تغییر حساب Doxxic.
+wrong_answers:
+  - حساب Postmix.
+  - حساب Premix.
+  - حساب سپرده.
+explanation: |
+  تغییری که نتوانست به استخر بپیوندد، در "حساب تغییر داکسیک" جدا شده است تا جدایی دقیقی از سایر UTXOها در Wallet تضمین شود.
+reviewed: false

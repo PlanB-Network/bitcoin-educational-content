@@ -107,7 +107,7 @@ These modern currency networks came with a significant drawback: a **lack of aud
 
 **From Centralized to Decentralized Currency: Enhancing Trust and Sovereignty**
 
-Today, the emergence the Bitcoin decentralized currency represents the next leap in currency networks. Traditional electronic money relies on centralized authorities, such as banks or governments, to manage and verify transactions. While effective, these systems are vulnerable to inefficiencies, censorship, and single points of failure. Decentralized currencies improve on these network properties by **distributing trust and removing intermediaries**. It also means that money can move a lot **faster** and **cheaper**, because there are no authorizations steps. Finally no human can be tempted to change the Bitcoin currency supply schedule, it's enforced the software.
+Today, the emergence of Bitcoin as a decentralized currency represents the next leap in currency networks. Traditional electronic money relies on centralized authorities, such as banks or governments, to manage and verify transactions. While effective, these systems are vulnerable to inefficiencies, censorship, and single points of failure. Decentralized currencies improve on these network properties by **distributing trust and removing intermediaries**. It also means that money can move a lot **faster** and **cheaper**, because there are no authorizations steps. Finally, no human can be tempted to change the Bitcoin currency supply schedule, which is enforced by the software.
 
 In decentralized systems, transactions are verified by a global network of participants using blockchain technology, ensuring security, transparency, and resilience. This structure minimizes the risk of fraud, reduces dependence on central authorities, and empowers individuals to have greater control over their finances. By eliminating geographical and institutional barriers, decentralized currencies offer a truly global and inclusive monetary system.
 
@@ -571,7 +571,7 @@ Since Bitcoin functions as a medium of exchange, it’s possible to envision a c
 - **Mining Bitcoin:**
 This involves earning rewards from operating mining machines. For non-specialized businesses, this remains relatively marginal. You can participate through intermediaries which will sell or rent you the compute, network and maintenance. If you own the machines, you can account for them as depreciable assets. On a large scale, you’ll need to carefully calculate return on investment because the market is highly competitive and requires a good anticipation of costs, particularly electricity.
 
-To learn mor about mining methods, you can [consult the "mining" section in our tutorials](https://planb.network/tutorials/mining).
+To learn more about mining methods, you can [consult the "mining" section in our tutorials](https://planb.network/tutorials/mining).
 
 - **Buying Bitcoin:**
 This is by far the most common method, done either via peer-to-peer exchanges or, more typically, on specialized trading platforms. But when acquiring Bitcoin as a corporate treasury asset, companies must comply with robust regulatory standards and Know-Your-Customer (KYC) procedures. When they buy it on specialized trading platforms, businesses are typically required to provide detailed company information, including identification documents, financial statements, and proof of address, to satisfy KYC and anti-money laundering (AML) requirements.
@@ -753,7 +753,7 @@ To simplify the decision-making process, we have defined four distinct business 
 | **Business Type Examples**       | E-commerce sites with moderate volume, small marketplaces, groups of physical stores (e.g., Click & Collect), SME operations                           |
 | **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred; no set payment size limit; less than 250,000 per year                                     |
 | **Settings Complexity**          | Light to fully featured (local or cloud hosting), often requires an e-commerce storefront                                                              |
-| **Example Recommended Solution** | BTC Pay Server for e-commerce and/or physical environments; ZapRite, Musqet or PayWithFlash for checkout, Be-BOP for an integrated e-store             |
+| **Example Recommended Solution** | BTCPay Server for e-commerce and/or physical environments; ZapRite, Musqet or PayWithFlash for checkout, Be-BOP for an integrated e-store             |
 | **Merchant Interface**           | Website (mobile and desktop) with invoice editing, shopping cart options, and payment button creation; automated invoicing with e-commerce integration |
 | **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                                    |
 | **Fees**                         | Mix of free open-source backend and paid Lightning hosting/service fees; front-end fees include Bitcoin Lightning fees and <1.5% conversion fees       |
@@ -814,7 +814,7 @@ For detailed tutorials on the recommended wallets and basic setup, please consul
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -888,7 +888,7 @@ A restaurant group, for instance, may have staff members dedicated to invoicing 
 
 ![BIZ101-profiles](assets/en/26.webp)
 
-Regarding technology and tools, solutions like **BTC Pay Server** often form the core of a Professional setup. BTC Pay Server is an open-source platform that can be deployed either on-premises or via cloud hosting and that offers extensive integration options for websites and e-commerce platforms. By running their own instance, businesses retain a high degree of control over every aspect of the payment flow, from automatically generated checkout pages to notifications that trigger internal processes once a payment is confirmed.
+Regarding technology and tools, solutions like **BTCPay Server** often form the core of a Professional setup. BTCPay Server is an open-source platform that can be deployed either on-premises or via cloud hosting and that offers extensive integration options for websites and e-commerce platforms. By running their own instance, businesses retain a high degree of control over every aspect of the payment flow, from automatically generated checkout pages to notifications that trigger internal processes once a payment is confirmed.
 
 ![BIZ101-profiles](assets/en/27.webp)
 
@@ -900,13 +900,13 @@ Implementing these technologies within a professional setting means paying close
 
 Security and role management constitute another pivotal consideration for Professional users. As daily Bitcoin transactions accumulate, controlling access to administrative functions becomes an essential risk-mitigation measure. In many solutions, administrators can assign varying levels of permission (perhaps restricting some employees to viewing transaction histories and generating invoices, while granting others authority to manage inventory or configure system-wide settings...). This hierarchical structure not only safeguards sensitive data but also streamlines operations by clarifying which staff members have responsibility for each segment of the payment infrastructure.
 
-When it comes to real-world examples, consider a mid-sized e-commerce store specializing in technology accessories. The company could integrate BTC Pay Server into its existing online storefront, automatically generating Bitcoin payment addresses during checkout. Customers complete their purchases by scanning a Lightning or on-chain address, and the store’s platform instantly confirms the payment. At the same time, an internal system updates order status and triggers shipping notifications. Thanks to the advanced reporting features, the finance team can easily review daily Bitcoin sales, export a consolidated ledger for auditing, and track the value of any BTC holdings the company decides to retain.
+When it comes to real-world examples, consider a mid-sized e-commerce store specializing in technology accessories. The company could integrate BTCPay Server into its existing online storefront, automatically generating Bitcoin payment addresses during checkout. Customers complete their purchases by scanning a Lightning or on-chain address, and the store’s platform instantly confirms the payment. At the same time, an internal system updates order status and triggers shipping notifications. Thanks to the advanced reporting features, the finance team can easily review daily Bitcoin sales, export a consolidated ledger for auditing, and track the value of any BTC holdings the company decides to retain.
 
 ![BIZ101-profiles](assets/en/29.webp)
 
 *[Credit: Bitcoin Bazar shop in Paris, France.](https://bitcoinbazar.fr/)*
 
-To delve deeper into implementation specifics and to explore hands-on configurations of BTC Pay Server, refer to the following course:
+To delve deeper into implementation specifics and to explore hands-on configurations of BTCPay Server, refer to the following course:
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
@@ -949,7 +949,7 @@ If you're starting from scratch—no store, no product management software, and 
     - Suitable for seasonal businesses, events, restaurants, or retail shops.
     - Defining and managing products for both physical and online sales.
     - Fiat payment processing (e.g., euros, dollars) via your own Stripe account.
-    - Bitcoin payment processing via your own SwissBitcoinPay account.
+    - Bitcoin payment processing via your own Swiss Bitcoin Pay account.
 
 ### How Is Lightning Payment Adoption Progressing ?
 
@@ -966,7 +966,7 @@ New infrastructures succeed because they are more efficient, and early adopters 
 
 - **Improved User Experience:** Mobile apps for individual users have significantly improved. Features like splicing, static Bolt12 invoices, and zero-confirmation payments (0-conf) are widely available, making interactions seamless. Interoperability issues (e.g., force-closes) are no longer major concerns.
 
-- **Enhanced Node and Channel Management:** Both individual and professional solutions have advanced. For example, BTC Pay Server now supports numerous plugins for connecting with other providers (PSPs, on/off ramps, etc.). New infrastructure providers, such as LightSpark and Alby Hub, are also entering production.
+- **Enhanced Node and Channel Management:** Both individual and professional solutions have advanced. For example, BTCPay Server now supports numerous plugins for connecting with other providers (PSPs, on/off ramps, etc.). New infrastructure providers, such as LightSpark and Alby Hub, are also entering production.
 
 - **Merchant Adoption Growth:** Merchants like BitRefill are reporting an increase in Bitcoin payments among their active users, with a clear shift toward Bitcoin over Lightning. Additionally, Lightning's ultra-low fees make it the preferred choice for small payments (average of €32 per transaction).
 
@@ -1137,7 +1137,7 @@ They are often a wise complement for large organizations with multiple wallets a
 
 ![BIZ101](assets/en/31.webp)
 
-However, a simple `.csv` file containing the transaction history is often sufficient for most small businesses. The goal is to document, for each payment, the date, amount, equivalent value in euros/dollars, and the relevant Bitcoin addresses. The vast majority of Bitcoin payment solutions (BTC Pay Server, Swiss Bitcoin Pay, etc.) or exchange platforms (Bitfinex, Kraken, Coinbase, etc.) already offer a mechanism to export transaction histories. By providing this file to an accountant, it becomes possible to streamline data entry and clearly distinguish incoming and outgoing flows related to Bitcoin.
+However, a simple `.csv` file containing the transaction history is often sufficient for most small businesses. The goal is to document, for each payment, the date, amount, equivalent value in euros/dollars, and the relevant Bitcoin addresses. The vast majority of Bitcoin payment solutions (BTCPay Server, Swiss Bitcoin Pay, etc.) or exchange platforms (Bitfinex, Kraken, Coinbase, etc.) already offer a mechanism to export transaction histories. By providing this file to an accountant, it becomes possible to streamline data entry and clearly distinguish incoming and outgoing flows related to Bitcoin.
 
 For those who self-custody their Bitcoin, managing UTXOs (*Unspent Transaction Outputs*) is an important step. Proper UTXO labelling helps trace the origin of each BTC fragment, differentiate transactions related to professional activity from those for personal expenses, and facilitate traceability for legal or tax purposes. Most good Bitcoin wallet software allows you to import your wallet using your backup file (or your xpub, depending on your setup) and tag UTXOs based on their origin or destination. To assist you, here is a complete tutorial dedicated to this practice:
 
@@ -1162,7 +1162,7 @@ Finally, whether you are a small merchant or a more established business, it is 
 - **Transaction 2**: Customer purchases coffee for €5.
     - Bitcoin equivalent: (5 / 40,000) = 0.000125 Bitcoin = 12,500 Satoshis.
     - Conversion fee: 1.5% (€5 × 0.015) = €0.075.
-    - Net received: €5 - €0.075 = €4.93.
+    - Net received: €5 - €0.075 = €4.925.
 
 
 **Summary of Transactions**:
@@ -1190,7 +1190,7 @@ Finally, whether you are a small merchant or a more established business, it is 
     - Retained in Bitcoin (50%): 62,500 Satoshis = 0.000625 Bitcoin.
 
 
-**Summary**:
+**Summary of Transactions**:
 - **Total Sales**: €50.
 - **Fees**: €0.375.
 - **Net Euros Received**: €24.625.
@@ -1215,7 +1215,7 @@ Finally, whether you are a small merchant or a more established business, it is 
     - Valuation of Bitcoin Holding: 0.1 Bitcoin × €35,000 = €3,500.
     - Unrealized Gain: €3,500 - €3,000 = €500.
 
-**Summary**:
+**Summary of Transactions**:
 - **Total Revenue Recognized**: €3,000.
 - **Bitcoin Holding**: 0.1 Bitcoin valued at €3,500 on the balance sheet.
 - **Unrealized Gain**: €500 disclosed in financial notes but not realized as income.
@@ -1251,7 +1251,7 @@ Finally, whether you are a small merchant or a more established business, it is 
         - Cost of Bitcoin Sold: 0.19335 Bitcoin × €25,850 = €4,999.
     - Realized Gain: €7,734 - €4,999 = €2,735.
 
-**Summary**:
+**Summary of Transactions**:
 - **Bitcoin Remaining**: 0.19335 Bitcoin valued at €7,734 (at €40,000/BTC).  
 - **Realized Gain**: €2,735 included in income statement.
 - **Unrealized Gain**: €5,468 disclosed in financial notes (including unrealized value of remaining Bitcoin).

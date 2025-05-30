@@ -186,7 +186,7 @@ Ako niste upoznati sa korišćenjem Bitcoin, Lightning ili Liquid novčanika, pr
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Možete takođe istražiti [naše detaljne tutorijale o najboljim Bitcoin novčanicima](https://planb.network/tutorials/Wallet).
+Možete takođe istražiti [naše detaljne tutorijale o najboljim Bitcoin novčanicima](https://planb.network/tutorials/wallet).
 
 
 Zatim potvrdite kupovinu klikom na "*Confirm Buy*".

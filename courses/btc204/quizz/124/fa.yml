@@ -1,0 +1,9 @@
+question: کدام گزینه اجازه می‌دهد تا P2P transport V2 را در فایل پیکربندی Bitcoin Core فعال یا غیرفعال کنید؟
+answer: v2transport=
+wrong_answers:
+  - p2penable=
+  - شبکهv2=
+  - enablev2=
+explanation: |
+  P2P V2 transport را می‌توان با استفاده از گزینه v2transport= در فایل پیکربندی یک گره Core تغییر داد.
+reviewed: false

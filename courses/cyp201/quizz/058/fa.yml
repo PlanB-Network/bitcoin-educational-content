@@ -1,0 +1,9 @@
+question: کدام تابع برای استخراج seed از عبارت Mnemonic استفاده می‌شود؟
+answer: PBKDF2 با HMAC-SHA512
+wrong_answers:
+  - SHA256 به تنهایی
+  - دو بار SHA256
+  - AES-256
+explanation: |
+  seed با استفاده از تابع PBKDF2 با HMAC-SHA512 و 2048 تکرار، از عبارت Mnemonic و passphrase تولید می‌شود.
+reviewed: false

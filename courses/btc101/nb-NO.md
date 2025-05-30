@@ -1135,7 +1135,7 @@ En gradvis strategi innebærer gjentatte kjøp, det vil si å kjøpe små mengde
 
 **Pass deg for UTXO-er**: Husk å konsolidere UTXO-er i lommebøkene dine fra tid til annen. Denne praksisen er viktig for å administrere bitcoinsene dine effektivt og unngå unødvendige gebyrer under transaksjoner.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) er en utgang fra en transaksjon som ennå ikke er brukt, noe som betyr at den ikke har blitt brukt som en inngang for en ny transaksjon. Å konsolidere UTXOer betyr å kombinere flere små UTXOer til én større, for å redusere "vekten" av transaksjonen og dermed betale lavere gebyrer.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) er en utgang fra en transaksjon som ennå ikke er brukt, noe som betyr at den ikke har blitt brukt som en inngang for en ny transaksjon. Å konsolidere UTXOer betyr å kombinere flere små UTXOer til én større, for å redusere "vekten" av transaksjonen og dermed betale lavere gebyrer.
 
 - Spontankjøp
 

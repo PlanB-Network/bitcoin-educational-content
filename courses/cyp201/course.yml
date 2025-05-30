@@ -25,15 +25,17 @@ proofreading:
     contributor_names:
     reward: 47.85
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 47.85
+      - xor3d
+    reward: 23.91
   - language: es
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 47.85
+      - lutxoitalico
+    reward: 23.91
   - language: fi
     last_contribution_date:
     urgency: 1
@@ -96,6 +98,27 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 63.73
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 111.45
+  - language: sr-Latn
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - Sanja22B
+    reward: 31.86
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 63.73
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 79.64
 tags:
   - keys
   - wallets

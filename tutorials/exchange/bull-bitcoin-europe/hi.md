@@ -186,7 +186,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-आप [सर्वश्रेष्ठ Bitcoin वॉलेट पर हमारे विस्तृत ट्यूटोरियल](https://planb.network/tutorials/Wallet) भी देख सकते हैं।
+आप [सर्वश्रेष्ठ Bitcoin वॉलेट पर हमारे विस्तृत ट्यूटोरियल](https://planb.network/tutorials/wallet) भी देख सकते हैं।
 
 
 फिर "खरीद की पुष्टि करें" पर क्लिक करके अपनी खरीद की पुष्टि करें।

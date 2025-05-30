@@ -1,0 +1,9 @@
+question: چگونه ابزار RGB را از طریق Cargo نصب کنم؟
+answer: نصب بارگیری RGB-contracts --all-features
+wrong_answers:
+  - نصب بارگیری RGB --features all
+  - نصب بار RGB-Bitcoin --همه
+  - cargo build RGB-lightning --release
+explanation: |
+  نصب با فرمان "cargo install RGB-contracts --all-features" انجام می‌شود، که crate با نام "RGB-contracts" است و ابزار RGB را نصب می‌کند.
+reviewed: false

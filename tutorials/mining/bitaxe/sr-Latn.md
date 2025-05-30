@@ -69,7 +69,7 @@ Stoga, navedite SSID Wi-Fi mreže, odnosno ime vaše mreže, lozinku, kao i info
 Kao što možete videti na ekranu, potrebno je ukloniti delove `stratum+tcp://` i `:3333`, ostavljajući samo `eu.stratum.braiins.com`. Zatim, u polje `Port`, unesite 4 cifre na kraju URL-a datog od strane pool-a, ali bez `:`. Ovde je to dakle `3333`.
 
 
-U ovom vodiču koristimo Braiins Mining pool, ali slobodno možete odabrati drugi. Naše vodiče o Mining bazenima možete pronaći [na PlanB Network sajtu](https://planb.network/en/tutorials/Mining).
+U ovom vodiču koristimo Braiins Mining pool, ali slobodno možete odabrati drugi. Naše vodiče o Mining bazenima možete pronaći [na PlanB Network sajtu](https://planb.network/en/tutorials/mining).
 
 
 Dalje, u `User`, unesite svoj identifikator, a zatim `Password`, obično je to `"x"` ili `"Anything123"`.

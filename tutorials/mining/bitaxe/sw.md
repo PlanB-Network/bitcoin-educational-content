@@ -69,7 +69,7 @@ Kwa hiyo, onyesha SSID ya Wi-Fi, yaani, jina la mtandao wako, nenosiri, pamoja n
 Kama unavyoona kwenye skrini, unahitaji kuondoa sehemu za `stratum+tcp://` na `:3333`, ukiacha `eu.stratum.braiins.com` pekee. Kisha, katika sehemu ya `Bandari`, weka tarakimu 4 mwishoni mwa URL iliyotolewa na dimbwi, lakini bila `:`. Hapa, kwa hiyo ni `3333`.
 
 
-Katika somo hili, tunatumia Braiins Mining pool, lakini uko huru kuchagua jingine. Unaweza kupata mafunzo yetu kwenye mabwawa ya Mining [kwenye tovuti ya PlanB Network](https://planb.network/en/tutorials/Mining).
+Katika somo hili, tunatumia Braiins Mining pool, lakini uko huru kuchagua jingine. Unaweza kupata mafunzo yetu kwenye mabwawa ya Mining [kwenye tovuti ya PlanB Network](https://planb.network/en/tutorials/mining).
 
 
 Ifuatayo, katika `Mtumiaji`, weka kitambulisho chako kisha `Nenosiri`, kwa kawaida, ni `"x"` au `"Chochote123"`.

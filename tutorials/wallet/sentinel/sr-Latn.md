@@ -84,7 +84,7 @@ Po prvom otvaranju aplikacije, imate izbor između:
 Dojo, razvijen od strane Samourai tima, je puna Bitcoin nod verzija koja se može instalirati samostalno ili dodati jednim klikom na node-in-box rešenja kao što su [Umbrel](https://umbrel.com/) i [RoninDojo](https://ronindojo.io/).
 
 
-[**-> Otkrijte kako instalirati RoninDojo v2 na Raspberry Pi.**](https://planb.network/tutorials/node/Bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> Otkrijte kako instalirati RoninDojo v2 na Raspberry Pi.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
 Ako imate svoj Dojo, možete ga povezati u ovoj fazi. Time ćete ostvariti najviši nivo privatnosti prilikom provere informacija o transakcijama na vašoj Bitcoin mreži.

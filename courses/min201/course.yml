@@ -38,11 +38,12 @@ proofreading:
     contributor_names:
     reward: 33.73
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 12.66
+      - Sosylos
+    reward: 6.33
   - language: it
     last_contribution_date: 2024-07-18
     urgency: 1
@@ -96,6 +97,26 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 34.18
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 58.97
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 33.74
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 33.74
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 42.15
 tags:
   - mining
   - DIY

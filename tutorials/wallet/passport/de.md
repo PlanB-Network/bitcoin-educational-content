@@ -1,5 +1,5 @@
 ---
-name: Reisepass - Stiftung
+name: Passport Core
 description: Konfigurieren und Verwenden der Passport-Hardware-Geldbörse im manuellen Modus
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Konfigurieren und Verwenden der Passport-Hardware-Geldbörse im man
 Der Passport ist eine reine Bitcoin-Hardware-Wallet, entwickelt von Foundation Devices, einem amerikanischen Unternehmen, das im April 2020 in Boston gegründet wurde.
 
 Der Passport "*Batch 2*", den wir in diesem Tutorial vorstellen, ist der Nachfolger der "*Founder's Edition*". Er zeichnet sich durch ein hochwertiges Design, ein hochauflösendes Farbdisplay und eine ergonomische physische Tastatur aus. Er arbeitet im "*Air-Gap*"-Modus, wodurch die privaten Schlüssel Ihrer Wallet vollständig isoliert bleiben, mit Datenaustausch über eine MicroSD-Karte oder QR-Codes. Das Gerät ist mit einem herausnehmbaren, wiederaufladbaren Nokia BL-5C-Akku mit 1200 mAh ausgestattet. Diese handelsübliche Batterie kann leicht ersetzt werden, da das BL-5C-Modell weit verbreitet ist.
+
+💡 **Aktualisierung:** Seit März 2025 heißt diese Hardware-Wallet nicht mehr "Passport" oder "Passport V2", sondern "Passport Core".
 
 Was die Konnektivität betrifft, so ist das Passport mit einem MicroSD-Anschluss, einem USB-C-Anschluss zum Aufladen und einer Rückkamera zum Scannen von QR-Codes ausgestattet.
 
@@ -483,3 +485,4 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie Passport konfigurieren und ve
 Weitere Informationen finden Sie in unserem Tutorium zur Liana-Software:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

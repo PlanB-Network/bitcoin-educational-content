@@ -1,91 +1,20 @@
 id: 8715e454-1720-4a7f-8c1d-3da02cf67312
-
 level: beginner
-
 category: mobile
-
-project_id: ea84df86-4dfe-48fa-a763-3e414ce7c791
-original_language: en
-
-
-proofreading:
-  - language: en
-    last_contribution_date: 2025-02-04
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 0.07
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.13
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.13
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.13
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.16
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.13
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.17
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.13
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.14
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.17
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.16
 tags:
   - wallets
   - lightning
   - user-friendly
+project_id: ea84df86-4dfe-48fa-a763-3e414ce7c791
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+original_language: fr
+
+# Proofreading metadata
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-19
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0

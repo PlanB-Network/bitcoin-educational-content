@@ -745,7 +745,7 @@ Co jeśli ktoś przypadkowo odgadnie naszą listę 12 lub 24 słów? Krótka odp
 Tak więc prawdopodobieństwo włamania się do Bitcoin Wallet jest astronomicznie niskie, jeśli przestrzegasz dobrych praktyk bezpieczeństwa, które szczegółowo omówimy w następnej sekcji.
 
 
-Pamiętaj, aby wybrać odpowiedni Wallet do swoich potrzeb i zastosowań: szczegółowe samouczki dotyczące zarządzania i zabezpieczania różnych portfeli są dostępne w [sekcji samouczków na naszym uniwersytecie] (https://planb.network/tutorials/Wallet).
+Pamiętaj, aby wybrać odpowiedni Wallet do swoich potrzeb i zastosowań: szczegółowe samouczki dotyczące zarządzania i zabezpieczania różnych portfeli są dostępne w [sekcji samouczków na naszym uniwersytecie] (https://planb.network/tutorials/wallet).
 
 
 Jeśli podczas swojej podróży w dół króliczej nory chcesz dowiedzieć się więcej o budowaniu Bitcoin Wallet, od entropii po odbieranie adresów, polecamy kurs CYP 201 poświęcony temu tematowi:
@@ -929,7 +929,7 @@ Jak każda forma bogactwa, bitcoiny muszą być chronione przed utratą, kradzie
 Jedną z metod długoterminowego zabezpieczenia bitcoinów jest wygrawerowanie frazy Mnemonic na niezwykle trwałym materiale, takim jak stal. Tworzy to fizyczną kopię zapasową kluczy, która jest odporna zarówno na wodę, jak i ogień.
 
 
-Dostępne są różne rozwiązania: niektóre z nich są niedrogie, takie jak "Blockmit", podczas gdy inne mogą wymagać bardziej specjalistycznego sprzętu. Więcej informacji na ten temat można znaleźć w sekcji [samouczki](https://planb.network/en/tutorials/Wallet) naszej akademii.
+Dostępne są różne rozwiązania: niektóre z nich są niedrogie, takie jak "Blockmit", podczas gdy inne mogą wymagać bardziej specjalistycznego sprzętu. Więcej informacji na ten temat można znaleźć w sekcji [samouczki](https://planb.network/en/tutorials/wallet) naszej akademii.
 
 
 ![image](assets/en/37.webp)
@@ -1655,7 +1655,7 @@ Ta stopniowa strategia obejmuje powtarzające się zakupy, co oznacza kupowanie 
 **Uważaj na UTXO**: Pamiętaj, aby od czasu do czasu konsolidować swoje UTXO w portfelach. Praktyka ta jest niezbędna do efektywnego zarządzania bitcoinami i unikania niepotrzebnych opłat podczas transakcji.
 
 
-UTXO](https://planb.network/en/resources/glossary/UTXO) to wynik transakcji, który nie został jeszcze wydany, co oznacza, że nie został użyty jako wkład do nowej transakcji. Konsolidacja oznacza połączenie kilku małych UTXO w jeden większy, aby zmniejszyć "wagę" transakcji, a tym samym płacić niższe opłaty.
+UTXO](https://planb.network/en/resources/glossary/utxo) to wynik transakcji, który nie został jeszcze wydany, co oznacza, że nie został użyty jako wkład do nowej transakcji. Konsolidacja oznacza połączenie kilku małych UTXO w jeden większy, aby zmniejszyć "wagę" transakcji, a tym samym płacić niższe opłaty.
 
 
 
@@ -1678,7 +1678,7 @@ Istnieje kilka sposobów nabywania bitcoinów, z których każdy podlega własne
 - Platformy DCA
 
 
-Jak wspomnieliśmy powyżej, powszechną metodą gromadzenia bitcoinów jest uśrednianie kosztu dolara (DCA), które polega na regularnym kupowaniu niewielkich kwot. Kilka platform oferuje tę usługę, na przykład te wymienione na naszej [dedykowanej stronie](https://planb.network/tutorials/Exchange). Oprócz prostoty konfiguracji DCA, wypłaty na Wallet są zazwyczaj automatyczne, co oznacza, że zawsze będziesz mieć kontrolę nad swoimi aktywami.
+Jak wspomnieliśmy powyżej, powszechną metodą gromadzenia bitcoinów jest uśrednianie kosztu dolara (DCA), które polega na regularnym kupowaniu niewielkich kwot. Kilka platform oferuje tę usługę, na przykład te wymienione na naszej [dedykowanej stronie](https://planb.network/tutorials/exchange). Oprócz prostoty konfiguracji DCA, wypłaty na Wallet są zazwyczaj automatyczne, co oznacza, że zawsze będziesz mieć kontrolę nad swoimi aktywami.
 
 
 Obecnie prawie wszystkie rozwiązania DCA są stosunkowo wydajne i mają prawie podobne opłaty, więc wybór będzie zależał bardziej od dostępności w danym kraju.
@@ -1718,7 +1718,7 @@ Ważne jest, aby zdać sobie sprawę, że KYC jest istotnym tematem dyskusji w b
 ### Rozwiązania inne niż KYC
 
 
-Ponadto istnieje kilka [rynków] (https://planb.network/tutorials/Exchange), na których można kupować i sprzedawać bitcoiny w systemie peer-to-peer Exchange. Ogólnie rzecz biorąc, można rozważyć następujące opcje:
+Ponadto istnieje kilka [rynków] (https://planb.network/tutorials/exchange), na których można kupować i sprzedawać bitcoiny w systemie peer-to-peer Exchange. Ogólnie rzecz biorąc, można rozważyć następujące opcje:
 
 
 

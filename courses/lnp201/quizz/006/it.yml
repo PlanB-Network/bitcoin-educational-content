@@ -1,5 +1,5 @@
 question: Cos'è un UTXO nel contesto di Bitcoin?
-answer: Un pezzo di bitcoin non speso associato a uno script
+answer: Un quantità di bitcoin non spesi associati a uno script
 wrong_answers:
   - Una transazione completamente confermata sulla blockchain
   - Una chiave pubblica che genera indirizzi Bitcoin

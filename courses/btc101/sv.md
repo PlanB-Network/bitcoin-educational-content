@@ -1,8 +1,7 @@
 ---
 name: Bitcoin-resan
-description: Upptäck grunderna av Bitcoin, inklusive dess monetära värde, miners, transaktioner och bitcoin-plånböcker.
+goal: Upptäck grunderna av Bitcoin, inklusive dess monetära värde, miners, transaktioner och bitcoin-plånböcker.
 objectives: 
-
   - Få en allmän förståelse för Bitcoin-tekniken
   - Förstå hur man köper och säkrar bitcoins
   - Få en allmän förståelse för Blockchain-tekniken
@@ -74,6 +73,7 @@ Det är viktigt att förstå att Bitcoin är ett nytt monetärt system som helt 
     Kapitel 19 - Hyperbitcoinisering
 
 **Avsnitt 6 - Framtiden för Bitcoin: Lightning Network**
+
 
     Kapitel 20 - En Kort Introduktion till Lightning Network
     Kapitel 21 - Användningsfall för Lightning Network

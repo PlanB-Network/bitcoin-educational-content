@@ -1,0 +1,24 @@
+id: d2cb23bd-6891-4602-8d5c-eda3b8998d9b
+start_date: 2025-05-19 07:00:00
+end_date: 2025-05-25 16:00:00
+timezone: Europe/Paris
+address_city_country: Paris , France
+name: Bitcoin Week France 2025
+type: meetup
+description: "Bitcoin Week France 2025, from May 19 to 25, is a decentralized,
+  participatory event celebrated throughout France (and beyond) on the occasion
+  of Bitcoin Pizza Day week (May 22). It invites businesses, individuals,
+  activists, companies and institutions to promote the use of Bitcoin through
+  workshops, conferences, meetings, BTC payments and much more.\r
+
+  Each initiative, large or small, helps to promote the concrete adoption of
+  Bitcoin, while highlighting local players who already accept it or wish to
+  discover it."
+language:
+  - fr
+links:
+  website: https://france.bitcoinweek.eu/
+tags:
+  - adoption
+  - community
+  - education

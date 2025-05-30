@@ -72,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 34.49
+    reward: 34.78
   - language: et
     last_contribution_date:
     urgency: 1
@@ -92,12 +92,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 28.75
+    reward: 29.0
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 23.02
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.22
 tags:
   - finance
   - historical

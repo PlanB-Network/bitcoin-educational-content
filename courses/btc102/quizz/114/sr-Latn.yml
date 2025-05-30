@@ -1,9 +1,0 @@
-question: Koja je svrha plana nasledstva u Bitcoin?
-answer: Da biste osigurali da vaši voljeni mogu pristupiti vašim Bitcoinima nakon vaše smrti.
-wrong_answers:
-  - Da se iskopaju novi Bitcoini.
-  - Da trgujete Bitcoinima.
-  - Da konvertujete Bitcoine u druge kriptovalute.
-explanation: |
-  Plan nasledstva u Bitcoin je plan koji osigurava da vaši voljeni mogu pristupiti vašim Bitcoinima nakon vaše smrti. Ne koristi se za Mining nove Bitcoine, trgovanje Bitcoinima ili konvertovanje Bitcoina u druge kriptovalute.
-reviewed: false

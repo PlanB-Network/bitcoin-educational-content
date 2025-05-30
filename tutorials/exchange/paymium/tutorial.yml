@@ -45,10 +45,11 @@ proofreading:
     contributor_names:
     reward: 0.27
   - language: ja
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 0.43
+      - yutaro21jp
+    reward: 0.22
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -84,6 +85,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.32
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.49
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.32
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.32
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.32
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.38
 tags:
   - guides
   - user-friendly

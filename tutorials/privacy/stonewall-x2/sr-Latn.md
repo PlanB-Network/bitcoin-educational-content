@@ -73,7 +73,7 @@ Stoga, logika bi trebala biti sledeća kada se koristi Samourai alat za trošenj
 Ako želite pronaći saradnika koji je voljan da vam pomogne u Stonewall X2 transakciji, možete posetiti ovu Telegram grupu (nezvaničnu) koju održavaju korisnici Samourai-a kako biste se povezali sa pošiljaocima i saradnicima: [Make Every Spend a CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> Saznajte više o Stonewall transakcijama**](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> Saznajte više o Stonewall transakcijama**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## Koja je svrha Stonewall x2 transakcije?

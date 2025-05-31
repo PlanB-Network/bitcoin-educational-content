@@ -665,25 +665,30 @@ Setelah menghubungi Satoshi, Mike Hearn mulai menggunakan perangkat lunak di kom
 
 Komunikasi Satoshi juga menarik perhatian seorang mahasiswa ilmu komputer Finlandia muda bernama Martti Malmi. Dia menemukan Bitcoin pada awal April, melalui teks di forum P2P Foundation. Pada tanggal 9, dia mulai menggunakan perangkat lunak tersebut dan menambang blok pertamanya (blok 10,351). Di malam hari, dia menulis presentasi singkat tentang Bitcoin di mana dia mendukung hipotesis anarkis bahwa "Mata Uang P2P bisa membuat pemerintah punah?" Dia mempublikasikan teksnya dengan pseudonim Trickster(n) di dua forum libertarian dengan sensitivitas yang berbeda: anti-state.com (ASC) dan forum Freedomain Radio (media anarko-kapitalis Stefan Molyneux). Martti menulis:
 
-> "Sistem ini anonim, dan tidak ada pemerintah yang mungkin bisa memajaki atau mencegah transaksi. Tidak ada bank sentral yang bisa merusak mata uang dengan penciptaan uang baru tanpa batas. Adopsi luas dari sistem seperti ini tampaknya seperti sesuatu yang bisa memiliki efek yang menghancurkan pada kemampuan negara untuk memanfaatkan warganya."
+> "Sistem ini anonim, dan tidak ada pemerintah yang dapat memungut pajak atau mencegah transaksi. Tidak ada bank sentral yang dapat mendevaluasi mata uang dengan penciptaan uang baru tanpa batas. Adopsi luas sistem semacam itu tampaknya dapat memiliki efek merusak pada kemampuan negara untuk memeras warganya."
 
 ![Martti Malmi pada tahun 2013](assets/en/28.webp)
+
 Martti Malmi pada tahun 2013 (sumber: [Business Insider](https://www.businessinsider.com/Bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
-Martti kemudian mengirimkan sebuah [email](https://mmalmi.github.io/satoshi/#email-1) kepada Satoshi menyatakan bahwa dia adalah penulis teks ini, di mana dia menulis bahwa dia "ingin membantu dengan Bitcoin" meskipun dia "belum memiliki banyak pengalaman dalam pengembangan." Satoshi Nakamoto membalas pada 2 Mei, memberitahunya bahwa "pemahamannya tentang Bitcoin" adalah "tepat sasaran."
+Martti kemudian mengirimkan [email](https://mmalmi.github.io/satoshi/#email-1) kepada Satoshi yang menyatakan bahwa dialah penulis teks ini, di mana ia menulis bahwa ia "ingin membantu Bitcoin" meskipun ia "belum memiliki banyak pengalaman dalam pengembangan." Satoshi Nakamoto membalas pada tanggal 2 Mei, memberitahunya bahwa "pemahamannya tentang Bitcoin" sangat tepat.
 
-Pencipta Bitcoin merekrutnya untuk berkontribusi pada [halaman web](https://web.archive.org/web/20090511173000/http://Bitcoin.sourceforge.net/) di SourceForge, platform tempat proyek tersebut dihosting, terutama dengan menulis bagian [Frequently Asked Questions](https://mmalmi.github.io/satoshi/#email-4) (FAQ). Di halaman utama (Bitcoin.sourceforge.net), dia memperkenalkan Bitcoin sebagai "mata uang digital anonim berbasis jaringan peer-to-peer" yang tidak bergantung pada "otoritas pusat apa pun untuk mengeluarkan uang baru atau memantau transaksi." Dia menyoroti keuntungan berikut:
+Pencipta Bitcoin merekrutnya untuk berkontribusi pada [halaman web](https://web.archive.org/web/20090511173000/http://Bitcoin.sourceforge.net/) di SourceForge, platform tempat proyek tersebut di-hosting, terutama dengan menulis bagian Pertanyaan yang Sering Diajukan (FAQ). Di halaman utama (bitcoin.sourceforge.net), ia menyajikan Bitcoin sebagai "mata uang digital anonim yang berbasis pada jaringan peer-to-peer" yang tidak bergantung pada "otoritas pusat mana pun untuk menerbitkan uang baru atau memantau transaksi." Ia menyoroti keuntungan-keuntungan berikut:
 
-- "Transfer uang dengan mudah melalui internet, tanpa harus mempercayai pihak ketiga."
-- "Tidak ada pihak ketiga yang dapat mencegah atau mengontrol transaksi Anda."
-- "Lindungi diri Anda dari ketidakstabilan yang disebabkan oleh perbankan cadangan fraksional dan kebijakan buruk bank sentral. Inflasi terbatas dari pasokan uang sistem Bitcoin didistribusikan secara merata (oleh kekuatan komputasi) di seluruh jaringan, bukan dimonopoli oleh bank-bank."
-- "Nilai Bitcoin kemungkinan akan meningkat seiring pertumbuhan ekonomi Bitcoin yang melebihi tingkat inflasi - pertimbangkan Bitcoin sebagai investasi dan mulai menjalankan node hari ini!"
-Satoshi [menyetujui](https://mmalmi.github.io/satoshi/#email-5) presentasi ini secara keseluruhan, meskipun dia memiliki beberapa keberatan. Dia [merasa](https://mmalmi.github.io/satoshi/#email-19) "tidak nyaman" dengan menyatakan Bitcoin sebagai "investasi," kemungkinan karena takut akan implikasi hukum dari pernyataan tersebut. Halaman tersebut [dipublikasikan](https://mmalmi.github.io/satoshi/#email-9) pada 6 Mei, dan dua hari kemudian, Martti Malmi mempromosikannya dengan membagikan tautan di platform [Hackernews](https://news.ycombinator.com/item?id=599852) dan [Reddit](https://www.reddit.com/r/business/comments/8itlf/Bitcoin_a_peertopeer_network_based_anonymous/). Versi deskripsi yang sedikit dimodifikasi [ditemukan](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/) di situs web utama pada akhir tahun 2009.
+"Mentransfer uang dengan mudah melalui internet, tanpa harus mempercayai pihak ketiga."
+"Tidak ada pihak ketiga yang dapat mencegah atau mengontrol transaksi Anda."
+"Lindungi diri Anda dari ketidakstabilan yang disebabkan oleh perbankan cadangan fraksional dan kebijakan buruk bank sentral. Inflasi terbatas pasokan uang sistem Bitcoin didistribusikan secara merata (berdasarkan kekuatan komputasi) ke seluruh jaringan, daripada dimonopoli oleh bank."
+"Nilai Bitcoin kemungkinan akan meningkat seiring pertumbuhan ekonomi Bitcoin melampaui tingkat inflasi - pertimbangkan Bitcoin sebagai investasi dan mulailah menjalankan node hari ini!"
+
+Satoshi [menyetujui](https://mmalmi.github.io/satoshi/#email-5) presentasi ini secara keseluruhan, meskipun ia memiliki beberapa keberatan. Ia secara khusus [merasa](https://mmalmi.github.io/satoshi/#email-19) "tidak nyaman" dengan menyatakan Bitcoin sebagai "investasi," kemungkinan takut akan implikasi hukum dari pernyataan tersebut. Halaman tersebut [dipublikasikan](https://mmalmi.github.io/satoshi/#email-9) pada 6 Mei, dan dua hari kemudian, Martti Malmi mempromosikannya dengan membagikan tautan di platform [Hackernews](https://news.ycombinator.com/item?id=599852) dan Reddit. Versi deskripsi yang sedikit dimodifikasi ditemukan di situs web utama pada akhir tahun 2009.
+
 Musim semi 2009 juga melihat munculnya kata "cryptocurrency" yang awalnya digunakan untuk merujuk pada Bitcoin. Pada 11 Mei, Satoshi [menulis](https://mmalmi.github.io/satoshi/#email-19) kepada Martti Malmi:
+
+Musim semi 2009 juga menjadi saksi munculnya kata "cryptocurrency" yang awalnya digunakan untuk merujuk pada Bitcoin. Pada tanggal 11 Mei, Satoshi [menulis](https://mmalmi.github.io/satoshi/#email-19) kepada Martti Malmi:
 
 > "Seseorang mencetuskan kata 'cryptocurrency'... mungkin itu adalah kata yang harus kita gunakan untuk mendeskripsikan Bitcoin, apakah kamu menyukainya?"
 
-Pemuda Finlandia itu setuju dan menyarankan bahwa "The P2P Cryptocurrency" bisa menjadi slogan untuk Bitcoin. Saran ini akan diimplementasikan: judul halaman pengantar akan menjadi "Bitcoin P2P Cryptocurrency" dan pengumuman versi 0.3 pada Juli 2010 akan mendeskripsikan proyek tersebut sebagai "Bitcoin, the P2P cryptocurrency".
+Pemuda Finlandia itu setuju dan menyarankan agar "The P2P Cryptocurrency" bisa menjadi slogan untuk Bitcoin. Saran ini akan diimplementasikan: judul halaman pengantar akan menjadi "Bitcoin P2P Cryptocurrency" dan pengumuman versi 0.3 pada Juli 2010 akan menggambarkan proyek ini sebagai "Bitcoin, the P2P cryptocurrency".
 
 ### Dua Forum yang Didedikasikan untuk Bitcoin
 

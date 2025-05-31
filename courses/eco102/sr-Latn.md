@@ -410,10 +410,10 @@ Koji je cilj časopisa? Naslov govori sam za sebe: cenzurisati vladu. Boriti se 
 _(Benjamin Constant)_
 
 
-Oni usvajaju od Benjamina Constanta razliku između Starih i Modernih, karakterisanih s jedne strane ratom, a s druge strane trgovinom i industrijom. Ali dodaju sa Sayom da politička ekonomija pruža najbolje objašnjenje društvenih fenomena. Posebno razumeju da nacije postižu mir i prosperitet kada se poštuju vlasnička prava i slobodna trgovina. Od sada, za njih, politička ekonomija je pravi i jedini temelj politike. Filozofiji, koja se ograničava na apstraktnu kritiku oblika vladavine, mora se zameniti teorijom zasnovanom na poznavanju ekonomskih interesa.
+Oni usvajaju od Benjamin-a Constant-a razliku između Starog i Modernog, karakterisanu s jedne strane ratom, a s druge strane trgovinom i industrijom. Ali dodaju sa Say-om da politička ekonomija pruža najbolje objašnjenje društvenih fenomena. Posebno razumeju da nacije postižu mir i prosperitet kada se poštuju vlasnička prava i slobodna trgovina. Od sada, za njih, politička ekonomija je pravi i jedini temelj politike. Filozofija, koja se ograničava na apstraktnu kritiku oblika vladavine, mora se zameniti teorijom zasnovanom na poznavanju ekonomskih interesa.
 
 
-> Politička ekonomija, pokazujući kako narodi napreduju i propadaju, postavila je prave temelje politike.
+> Politička ekonomija, pokazujući kako narodi prosperiraju i propadaju, postavila je prave temelje politike.
 >
 
 > Dunoyer
@@ -421,22 +421,22 @@ Oni usvajaju od Benjamina Constanta razliku između Starih i Modernih, karakteri
 ![image](assets/en/034.webp)
 
 
-Ova nova društvena teorija sadrži jedan od Elements koji bi postao kamen temeljac naučnog socijalizma Marksa i Engelsa: klasna borba. Ali od čega se sastoji liberalna teorija klasne borbe i po čemu se razlikuje od marksizma?
+Ova nova društvena teorija sadrži jedan od elemenata koji će postati kamen temeljac naučnog socijalizma Marx-a i Engels-a: klasna borba. Ali od čega se sastoji liberalna teorija klasne borbe i po čemu se razlikuje od marksizma?
 
 
-Počinje sa pojedincem koji deluje kako bi zadovoljio svoje potrebe i želje. Od trenutka kada neko stvara, to jest, povećava korisnost stvari, poboljšavajući njihovu vrednost, on se bavi industrijom. Ovde, industrijalac nije vlasnik industrije, kao što bi trenutni jezik mogao sugerisati, već proizvođač, bez obzira na oblast u kojoj radi. Zato se njihova teorija naziva industrijalizam. Ona postavlja da je cilj društva stvaranje korisnosti u širem smislu, to jest, dobara i usluga korisnih za ljude.
+Počinje od pojedinca koji deluje kako bi zadovoljio svoje potrebe i želje. Od trenutka kada neko stvara, to jest, povećava korisnost stvari, poboljšavajući njihovu vrednost, on se bavi industrijom. Ovde, industrijalac nije vlasnik industrije, kao što bi trenutni jezik mogao sugerisati, već proizvođač, bez obzira na oblast u kojoj radi. Zato se njihova teorija naziva industrijalizam. Ona postavlja da je cilj društva stvaranje korisnosti u širem smislu, to jest, dobara i usluga korisnih za ljude.
 
 
-Na ovoj tački, pojedinci se suočavaju sa dve osnovne alternative: mogu pljačkati bogatstvo koje su proizveli drugi, ili mogu raditi na proizvodnji bogatstva sami. U bilo kojem društvu, može se jasno razlikovati one koji žive od pljačke od onih koji žive od proizvodnje. Pod Ancien Régime-om, plemstvo je direktno napadalo najvrednije kako bi živelo od novog oblika danka: poreza. Pohlepno plemstvo nasledile su horde birokrata, ništa manje pohlepne.
+Na ovoj tački, pojedinci se suočavaju sa dve osnovne alternative: mogu pljačkati bogatstvo koje su proizveli drugi, ili mogu raditi na proizvodnji bogatstva sami. U bilo kojem društvu, može se jasno razlikovati one koji žive od pljačke od onih koji žive od proizvodnje. Pod starim režimom, plemstvo je direktno napadalo najvrednije kako bi živelo od novog oblika danka: poreza. Pohlepno plemstvo nasledile su horde birokrata, ništa manje pohlepne.
 
 
 ![image](assets/en/035.webp)
 
 
-Dok je za Marksa klasni antagonizam smešten unutar same proizvodne aktivnosti, između zaposlenih i poslodavaca, za Komtea i Dunojera, sukobljene klase su, s jedne strane, proizvođači društva, koji plaćaju poreze (uključujući kapitaliste, radnike, seljake, naučnike, itd.) i s druge strane, neproizvođači, koji žive od renti finansiranih porezima, "besposlena i proždrljiva klasa" (birokrate, zvaničnici, političari, korisnici subvencija ili zaštita).
+Dok je za Marxa- klasni antagonizam smešten unutar same proizvodne aktivnosti, između zaposlenih i poslodavaca, za Comte-a i Dunoyer-a, sukobljene klase su, s jedne strane, proizvođači društva, koji plaćaju poreze (uključujući kapitaliste, radnike, seljake, naučnike, itd.) i s druge strane, neproizvođači, koji žive od renti finansiranih porezima, "besposlena i proždrljiva klasa" (birokrate, zvaničnici, političari, korisnici subvencija ili zaštita).
 
 
-Zatim, za razliku od Marksa, autori Censeur Européen ne zalažu se za klasni rat. Umesto toga, oni se zalažu za socijalni mir. A to, prema njima, može biti postignuto samo depolitizacijom društva. U tu svrhu, važno je prvo smanjiti prestiž i beneficije javnih funkcija. Zatim je važno dati uticaj u političkom telu proizvođačima.
+Zatim, za razliku od Marx-a, autori Censeur Européen ne zalažu se za klasni rat. Umesto toga, oni se zalažu za socijalni mir. A to, prema njima, može biti postignuto samo depolitizacijom društva. U tu svrhu, važno je prvo smanjiti prestiž i beneficije javnih funkcija. Zatim je važno dati uticaj u političkom telu proizvođačima.
 
 
 ![image](assets/en/036.webp)
@@ -444,39 +444,39 @@ Zatim, za razliku od Marksa, autori Censeur Européen ne zalažu se za klasni ra
 Konačno, jedini način da se svet oslobodi eksploatacije jedne klase od strane druge jeste uništavanje samog mehanizma koji ovu eksploataciju čini mogućom: moć države da distribuira i kontroliše imovinu i raspodelu beneficija povezanih s njom (tzv. "pozicije").
 
 
-Njihove ideje, duboko inovativne, zauvek će obeležiti Frédérica Bastiata, koji će i sam postati dubok mislilac o političkim krizama.
+Njihove ideje, duboko inovativne, zauvek će obeležiti Frédéric-a Bastiat-a, koji će i sam postati dubok mislilac o političkim krizama.
 
 
-## Cobden i Liga
+## Cobden i League
 
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
 
 
-Godine je 1838, u Mančesteru, mali broj muškaraca, do tada malo poznatih, okuplja se kako bi pronašli način da legalnim sredstvima svrgnu monopol vlasnika zemljišta za uzgoj pšenice i postignu, kako će Bastija kasnije ispričati,
+Godine 1838., u Mančesteru, mali broj muškaraca, do tada malo poznatih, okuplja se kako bi pronašli način da legalnim sredstvima sruše monopol vlasnika zemljišta za uzgoj pšenice i postignu, kako će Bastiat kasnije ispričati,
 
 
 ![image](assets/en/037.webp)
 
 
-> Bez krvoprolića, snagom samog mišljenja, revolucija jednako duboka, možda i dublja od one koju su naši očevi sproveli 1789. godine.
+> Bez krvoprolića, samo snagom mišljenja, revoluciju tako duboku, možda i dublju od one koju su naši očevi sproveli 1789. godine.
 
-Sa ovog sastanka bi proizašla Liga protiv zakona o kukuruzu, ili zakona o žitu, kako bi ih Bastiat nazvao. Ali vrlo brzo, ovaj cilj bi postao cilj potpune i jednostrane abolicije protekcionizma.
+Sa ovog sastanka će proizaći Liga protiv zakona o kukuruzu, ili zakona o žitaricama, kako bi ih Bastiat nazvao. Ali vrlo brzo, ovaj cilj bi postao cilj potpune i jednostrane abolicije protekcionizma.
 
 
 ![image](assets/en/038.webp)
 
 
-Ova ekonomska borba za slobodnu trgovinu okupirala bi celu Englesku do 1846. godine. U Francuskoj, van malog broja upućenih, postojanje ovog velikog pokreta bilo je potpuno nepoznato. Frédéric Bastiat je saznao za postojanje Lige 1843. godine čitajući engleske novine na koje se slučajno pretplatio. Oduševljen, preveo je govore Cobdena, Foxa i Brighta. Zatim je dopisivao sa Cobdenom i konačno, 1845. godine, otišao u London da prisustvuje gigantskim sastancima Lige.
+Ova ekonomska borba za slobodnu trgovinu okupirala bi celu Englesku do 1846. godine. U Francuskoj, van malog broja upućenih, postojanje ovog velikog pokreta bilo je potpuno nepoznato. Frédéric Bastiat je saznao za postojanje Lige 1843. godine čitajući engleske novine na koje se slučajno pretplatio. Oduševljen, preveo je govore Cobden-a, Fox-a i Bright-a. Zatim je dopisivao sa Cobden-om i konačno, 1845. godine, otišao u London da prisustvuje gigantskim sastancima Lige.
 
 
 ![image](assets/en/039.webp)
 
 
-To je bila kampanja agitacije za slobodnu trgovinu, širom kraljevstva, sa desetinama hiljada članova, koja je zapalila Bastiatovo pero i radikalno i definitivno promenila tok njegovog života.
+To je bila kampanja agitacije za slobodnu trgovinu, širom kraljevstva, sa desetinama hiljada članova, koja je zapalila Bastiat-ovo pero i radikalno i definitivno promenila tok njegovog života.
 
 
-Liga se može uporediti sa putujućim univerzitetom, ekonomski obrazujući one koji su prisustvovali njenim sastancima širom zemlje—obične ljude, industrijalce, uzgajivače i farmere, sve one koje je Liga uzela pod svoje okrilje i čije interese su zakoni o žitu ugnjetavali. Ričard Kobden je bio duša pokreta i izvanredan agitator.
+Liga se može uporediti sa putujućim univerzitetom, ekonomski obrazujući one koji su prisustvovali njenim sastancima širom zemlje—obične ljude, industrijalce, uzgajivače i farmere, sve one koje je Liga uzela pod svoje okrilje i čije interese su zakoni o žitaricama ugnjetavali. Ričard Kobden je bio duša pokreta i izvanredan agitator.
 
 
 ![image](assets/en/040.webp)
@@ -490,7 +490,7 @@ Fascinantan i zastrašujuć govornik, imao je izvanredan dar za izmišljanje upe
 ![image](assets/en/041.webp)
 
 
-Godine 1845, Bastija je objavio u Parizu svoju knjigu Cobden i Liga, sa svojim prevodima praćenim komentarima. Knjiga počinje uvodom o ekonomskoj situaciji Engleske, o istoriji porekla i napretka Lige. Od 1815. godine, protekcionizam je bio veoma razvijen u Engleskoj. Postojali su, posebno, zakoni koji su ograničavali uvoz žitarica, što je imalo veoma teške posledice po narod. Naime, pšenica je bila neophodna za pravljenje hleba, osnovne životne namirnice u to vreme. Štaviše, ovaj sistem je pogodovao aristokratiji, odnosno velikim zemljoposednicima, koji su od toga ostvarivali prihode.
+Godine 1845., Bastiat je objavio u Parizu svoju knjigu Cobden i Liga (Cobden and the League), sa svojim prevodima praćenim komentarima. Knjiga počinje uvodom o ekonomskoj situaciji u Engleskoj, o istoriji porekla i napretka Lige. Od 1815. godine, protekcionizam je bio veoma razvijen u Engleskoj. Postojali su, posebno, zakoni koji su ograničavali uvoz žitarica, što je imalo veoma teške posledice po narod. Naime, pšenica je bila neophodna za pravljenje hleba, osnovne životne namirnice u to vreme. Štaviše, ovaj sistem je pogodovao aristokratiji, odnosno velikim zemljoposednicima, koji su od toga ostvarivali prihode.
 
 
 ![image](assets/en/042.webp)
@@ -498,13 +498,13 @@ Godine 1845, Bastija je objavio u Parizu svoju knjigu Cobden i Liga, sa svojim p
 
 > Ono što koegzistira u Engleskoj, napisao je Bastiat, jeste mali broj pljačkaša i veliki broj opljačkanih, i ne treba biti veliki ekonomista da bi se zaključilo o bogatstvu prvih i bedi drugih.
 
-Cilj Lige bio je da mobiliše javno mnjenje kako bi izvršili pritisak na parlament da ukine zakon o žitu. Dugoročno, Cobden i njegovi prijatelji su se nadali da će:
+Cilj Lige bio je da mobiliše javno mnjenje kako bi izvršili pritisak na parlament da ukine zakon o žitaricama. Dugoročno, Cobden i njegovi prijatelji su se nadali da će doći do:
 
 
 
-- Povećanje industrijskih prodajnih mesta
-- Povećati zapošljavanje
-- Smanjite cenu hleba
+- Povećanja industrijskih prodajnih mesta
+- Povećanja zapošljavanja
+- Smanjenja cene hleba
 - Učinite poljoprivredu i industriju efikasnijim kroz konkurenciju
 - Promoviši mir među narodima
 
@@ -514,17 +514,17 @@ Cilj Lige bio je da mobiliše javno mnjenje kako bi izvršili pritisak na parlam
 _(Jeremy Bentham)_
 
 
-Učenik Bentamovog utilitarizma, Kobdenovo uverenje je bilo da sloboda rada i trgovine direktno služi interesima najbrojnijih, najsiromašnijih i najugroženijih slojeva društva. Suprotno tome, carine kao instrument proizvoljnih zabrana i privilegija mogle su koristiti samo određenim najmoćnijim industrijama.
+Učenik Bentam-ovog utilitarizma, Cobden je bio uveren da sloboda rada i trgovine direktno služi interesima najbrojnijih, najsiromašnijih i najugroženijih slojeva društva. Suprotno tome, carine kao instrument proizvoljnih zabrana i privilegija mogle su koristiti samo određenim najmoćnijim industrijama.
 
 
-Na izborima 1841. godine, pet članova lige, uključujući Cobdena, izabrano je u parlament. Dana 26. maja 1846. jednostrana slobodna trgovina postala je zakon kraljevstva. Od tada, Ujedinjeno Kraljevstvo će doživeti briljantan period slobode i prosperiteta.
+Na izborima 1841. godine, pet članova lige, uključujući Cobden-a, izabrano je u parlament. Dana 26. maja 1846. jednostrana slobodna trgovina postala je zakon kraljevstva. Od tada, Ujedinjeno Kraljevstvo će doživeti briljantan period slobode i prosperiteta.
 
-Zanimljivo je da je Bastiat prisvojio deo njihove metode; asimilovao je njihov jezik i transponovao ga u francuski kontekst. Knjiga o Cobdenu i Ligi brzo je postala uspeh, a Bastiat je napravio senzacionalan ulazak u svet ekonomista. Osnovao je udruženje u Bordou u korist slobodne trgovine, a zatim ga preselio u Pariz. Ponuđeno mu je vođstvo Journal des Économistes. Pokret je rođen i nastavio se do 1848. godine.
+Zanimljivo je da je Bastiat prisvojio deo njihove metode; asimilovao je njihov jezik i preneo ga u francuski kontekst. Knjiga o Cobden-u i Ligi brzo je postala uspeh, a Bastiat je napravio senzacionalan ulazak u svet ekonomista. Osnovao je udruženje u Bordou u korist slobodne trgovine, a zatim ga preselio u Pariz. Ponuđeno mu je vođstvo Journal des Économistes. Pokret je rođen i nastavio se do 1848. godine.
 
 ![image](assets/en/044.webp)
 
 
-Tek nakon Bastiatove smrti, 1866. godine, Napoleon III bi potpisao sporazum o slobodnoj trgovini sa Engleskom, svojevrsnu posthumnu pobedu za čoveka koji je poslednjih šest godina svog kratkog života posvetio ovoj velikoj ideji.
+Tek nakon Bastiatove smrti, 1866. godine, Napoleon III je potpisao Sporazum o slobodnoj trgovini sa Engleskom, što je bila neka vrsta posthumne pobede za čoveka koji je poslednjih šest godina svog kratkog života posvetio ovoj velikoj ideji.
 
 
 ![image](assets/en/045.webp)
@@ -532,7 +532,7 @@ Tek nakon Bastiatove smrti, 1866. godine, Napoleon III bi potpisao sporazum o sl
 _(Michel Chevalier)_
 
 
-Pitanje slobodne trgovine i dalje je relevantno danas. Geografski udžbenici u školama tvrde da je globalizacija kriva i da siromašne zemlje trebaju zapadnu pomoć da bi preživele. Ipak, ekstremno siromaštvo je prepolovljeno u poslednjih 20 godina. Odabirom otvorenosti, zemlje poput Indije, Kine ili Tajvana uspele su da pobegnu od siromaštva, dok stagnacija karakteriše zatvorene zemlje poput Severne Koreje ili Venecuele. Prema UN-u, 36% čovečanstva živelo je u potpunoj oskudici 1990. godine. Sada ih je "samo" 18% u 2010. Ekstremno siromaštvo ostaje veliki izazov, ali se povlači.
+Pitanje slobodne trgovine aktuelno je i danas. Geografski udžbenici u školama tvrde da je globalizacija kriva i da siromašne zemlje trebaju zapadnu pomoć da bi preživele. Ipak, ekstremno siromaštvo je prepolovljeno u poslednjih 20 godina. Birajući otvorenost, zemlje poput Indije, Kine ili Tajvana uspele su da pobegnu od siromaštva, dok stagnacija karakteriše zatvorene zemlje poput Severne Koreje ili Venecuele. Prema UN-u, 36% čovečanstva živelo je u potpunoj oskudici 1990. godine. Sada ih je "samo" 18% u 2010. Ekstremno siromaštvo ostaje veliki izazov, ali se povlači.
 
 
 # Protivnici
@@ -547,10 +547,10 @@ Pitanje slobodne trgovine i dalje je relevantno danas. Geografski udžbenici u �
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
 
-Frédéric Bastiat, koji se izražavao 1840-ih, naslednik je generacije prosvetiteljskih filozofa koji su se borili protiv cenzure i za slobodu debate. Pomislite na Montesquieua, Diderota, Voltairea, Condorceta, ali i Rousseaua.
+Frédéric Bastiat, koji se izražavao 1840-ih, naslednik je generacije prosvetiteljskih filozofa koji su se borili protiv cenzure i za slobodu debate. Pomislite na Montesquieu-a, Diderot-a, Voltaire-a, Condorcet-a, ali i Rousseau-a.
 
 
-Za njih je ideja bila jednostavna: što se više ideja dozvoli da budu izražene, to istina više napreduje i greške se lakše pobijaju. Nauka uvek napreduje na ovaj način.
+Za njih je ideja bila jednostavna: što više ideja bude izraženo, to istina više napreduje i greške se lakše pobijaju. Nauka uvek napreduje na ovaj način.
 
 
 ![image](assets/en/046.webp)
@@ -558,30 +558,30 @@ Za njih je ideja bila jednostavna: što se više ideja dozvoli da budu izražene
 _(Montesquieu, Diderot, Voltaire, Condorcet, Rousseau)_
 
 
-Naprotiv, malo ko je razumeo da ono što je važilo za ideje, važilo je i za robu i usluge. Sloboda trgovine sa drugima zaista ima dve vrline: efikasnost i vođenje ka pravednijoj distribuciji. Ne samo da Ruso to nije razumeo, već se i borio protiv te slobode u ime lažne ideje zakona i prava. Jedan od glavnih izvora socijalizma, primećuje Bastija, jeste Rusovo mišljenje da čitav društveni poredak proizilazi iz zakona.
+Naprotiv, malo ko je razumeo da ono što je važilo za ideje, važilo je i za robu i usluge. Sloboda trgovine sa drugima zaista ima dve vrline: efikasnost i pravedniju raspodelu. Ne samo da Ruso to nije razumeo, već se i borio protiv te slobode u ime lažne ideje zakona i prava. Jedan od glavnih izvora socijalizma, primećuje Bastiat, jeste Rousseau-vo mišljenje da čitav društveni poredak proizilazi iz zakona.
 
 
-Bastiat zaista smatra da je Rousseau pravi preteča socijalizma i kolektivizma. U autoru Društvenog UG-9, postoji fraza koja prilično dobro sažima njegovu filozofiju: "tek počinjemo da postajemo ljudi nakon što postanemo građani."
+Bastiat zaista smatra da je Rousseau-a pravi preteča socijalizma i kolektivizma. U autoru Društvenog ugovora, postoji fraza koja prilično dobro sažima njegovu filozofiju: "tek počinjemo da postajemo ljudi nakon što postanemo građani."
 
 
 ![image](assets/en/047.webp)
 
 
-U početku, čovek je samo buržuj. Ali buržuj je kalkulator; on želi svoje neposredno zadovoljstvo, on je rob svojih čula, svojih želja, svog posebnog interesa. Ukratko, on nije racionalan, stoga nije slobodan. Potrebno mu je obrazovanje, da razume da je njegov pravi interes opšti interes. Zato je Ruso napisao u Društvenom UG-10:
+U početku, čovek je samo buržuj. Ali buržuj je kalkulator; on želi samo trenutno zadovoljstvo, on je rob svojih čula, svojih želja, svog posebnog interesa. Ukratko, on nije racionalan, stoga nije slobodan. Potrebno mu je obrazovanje, da razume da je njegov pravi interes opšti interes. Zato je Rousseau napisao u Društvenom ugovoru:
 
 ![image](assets/en/048.webp)
 
 ---
 
->Ko god odbije da se pokori opštoj volji, biće primoran od strane celog tela: što ne znači ništa drugo do da će biti prisiljen da bude slobodan.  
->(Žan-Žak Ruso)
+>Ko god odbije da se pokori opštoj volji, biće primoran da to učini od strane celog tela: što ne znači ništa drugo do da će biti prisiljen da bude slobodan.  
+>(Jean-Jacques Rousseau)
 
 ---
 
 Prema ovoj doktrini, čovek ima dve volje u sebi: volju koja teži ka ličnom interesu, onu buržoasku, i volju koja teži ka opštem interesu, onu građansku. Voditi ljude, čak i silom, ka želji za racionalnim ciljem, opštim interesom, znači voditi ljude ka slobodi. Ono što oni zaista žele je racionalan cilj, čak i ako to ne znaju.
 
 
-Stoga je sasvim legitimno, prema Rousseauu, prisiliti ljude u ime cilja koji bi oni sami, da su bili prosvetljeniji, sledili, ali koji ne slede jer su slepi, neuki ili korumpirani. Društvo je osnovano da ih prisili da rade ono što bi spontano želeli da su prosvetljeni. I time im se ne čini nasilje jer ih se vodi ka tome da budu "slobodni," odnosno da donose ispravne odluke, odluke koje su u skladu s njihovim pravim ja.
+Stoga je sasvim legitimno, prema Rousseauu, prisiliti ljude u ime cilja koji bi oni sami, da su bili prosvetljeniji, sledili, ali koji ne slede jer su slepi, neuki ili korumpirani. Društvo je osnovano da ih prisili da rade ono što bi spontano želeli da rade ako bi bili prosvetljeni. I time im se ne čini nasilje, jer ih se vodi ka tome da budu "slobodni," odnosno da donose ispravne odluke, odluke koje su u skladu s njihovim pravim ja.
 
 
 ![image](assets/en/049.webp)

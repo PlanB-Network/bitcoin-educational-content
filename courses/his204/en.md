@@ -289,72 +289,59 @@ In terms of economic thinking, he consistently applied the principle of utility,
 
 Still, the abbot of Saint-Pierre made some accurate observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), where he wrote:
 
-> "When a sale is made between merchants, the seller gains, and so does the buyer; for if there weren't some real or perceived benefit on both sides, neither would agree to the transaction".
+> "When a sale is made between merchants, the seller gains, and so does the buyer; for if there weren't some real or perceived benefit on both sides, neither the seller would sell at such and such a price, nor the buyer, for his part, would buy at such a price".
 
 ![image](assets/fr/030.webp)
 
-
-
-He also emphasized, before Vincent de Gournay did, the value of labor and the importance of keeping it appealing. "All labor is difficult", he wrote. "And when a man sees that his work brings him nothing, or not enough, he becomes idle and won't bother with unnecessary effort". This very argument would later be echoed by the Marquis d'Argenson, Vincent de Gournay, and the physiocrats as they criticized burdensome regulations and guild systems. They argued that such restrictions discouraged workers, caused needless difficulty, and eventually made idleness seem more appealing than productive effort under such conditions.
+He also emphasized, before Vincent de Gournay did, the value of labor and the importance of keeping it appealing. "All labor is difficult", he wrote. "And when a man sees that his work pays him nothing, or not enough, he becomes idle and won't bother with unnecessary effort". This very argument would later be echoed by the Marquis d'Argenson, Vincent de Gournay, and the physiocrats as they criticized burdensome regulations and guild systems. They argued that such restrictions discouraged workers, caused needless difficulty, and eventually made idleness seem more appealing than productive effort under such conditions.
 
 
 ## The Marquis d'Argenson
 
 <chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
 
-
-
-
 The Marquis d'Argenson is a forgotten founder of the doctrine of laissez-faire.
 
 ![image](assets/fr/031.webp)
 
-
 It was rediscovered by August Oncken, author of a book on the laissez-faire laissez-passer doctrine, who concludes that d'Argenson played a major role in the birth of this idea.
 
-
 ![image](assets/fr/032.webp)
-
 
 René-Louis Voyer, Marquis d'Argenson, was born in 1694. He began his political career as a parliamentary advisor, then served on the Council of State.
 
 Thirty years before Adam Smith, d'Argenson was already defending the benefits of the division of labor and specialization.
 
-
 ![image](assets/fr/033.webp)
 
-
-He strongly criticized regulations that, as he saw it, tried to change the natural preferences of different regions. For instance, he was baffled that the government wanted to produce fabrics and velvets in Tours, a poor city at the time, that matched the quality of those made in prosperous Genoa, which was famed for its luxury goods. He concluded:
+He strongly criticized regulations that, as he saw it, tried to change the natural preferences of different regions. For instance, he was baffled that the government wanted to produce fabrics and velvets in Tours, a poor city at the time, to match the quality of those made in prosperous Genoa, which was famed for its luxury goods. He concluded:
 
 > "Each place must be allowed to choose its own factories. Freedom! Freedom!"
 
+He also recognized another of Smith's central principles: the idea that spontaneous order arises from the pursuit of self-interest. The Marquis D'Argenson believed that immediate personal interest was what drove human energy. He wrote that poor craftsmanship and fraud would discredit a manufacturer, while diligence and good intentions would lead to prosperity. The best judge of utility, he argued, was the individual, the public at large, who buy goods and care about making a good deal".Everyone senses their own interest", he said, "everyone takes the measures that are profitable to him, and it is in this general agreement that we discover the truth".
 
-He also recognized another another of Smith's central principles: the idea that social order arises spontaneously from the pursuit of self-interest. D'Argenson believed that immediate personal interest was what drove human energy. He wrote that poor craftsmanship and fraud would discredit a producer, while diligence and honesty would lead to prosperity. The best judge of what's useful, he argued, was the individual, the public at large, who buy goods and care about value".Everyone senses their own interest", he said, "everyone takes the measures that are profitable to him, and it is in this general agreement that we discover the truth".
 
-
-Even before Adam Smith, he understood self-interest leads to general interest through the construction of a spontaneous natural order.
+Even before Adam Smith, he understood that self-interest leads to general interest through the construction of a spontaneous natural order.
 
 
 ![image](assets/fr/034.webp)
 
 
-He compared society to a hive of bees where every insect follows its instinct, "From their actions", he said precisely, "resulted a great accumulation for the needs of the small society; but this was not brought about by orders, or by generals, who obliged each individual to follow the views of their leader". This is perhaps the closest expression in French economic thought to Adam Smith's famous concept of the "**invisible hand**".
+He compared society to a hive of bees where every insect follows its instinct, "From their actions", he said precisely, "resulted a great accumulation for the needs of the small society; but this was not brought about by orders, or by generals, who obliged each individual to follow the views of their leader". This is perhaps the closest expression in French economic thought to Adam Smith's famous concept of the "invisible hand".
+
+The Marquis d'Argenson was always outraged by the ideas of the ministers of his time. The only question they asked was, "Should we regulate this way or that? Should we direct the economy toward this or that?" To which d'Argenson replied: "Shouldn't we first ask whether it's appropriate to direct any of it at all, or whether things should be left to operate on their own?"
 
 
-D'Argenson was always outraged by the ideas of the ministers of his time. The only question they asked was, "Should we regulate this way or that? Should we direct the economy toward this or that?" To which d'Argenson replied: "Shouldn't we first ask whether it's appropriate to direct any of it at all, or whether things should be left to operate on their own?"
-
-
-To tell the truth, he was amazed that people found it so hard to understand, or rather, to see, the harmful effects of excessive regulation. In his view, it was enough to simply open one's eyes. "So many things are working reasonably well today", he wrote bitterly, "simply because they've managed to escape the reach of the law".
+To tell the truth, he was astonished that people found it so hard to understand, or rather, to see, the harmful effects of excessive regulation of all kinds on the economy. In his view, it was enough to simply open one's eyes. "So many things are working reasonably well today", he wrote bitterly, "simply because they've managed to escape the reach of the law".
 Sometimes, he despaired at how little his ideas were understood.
 
 
 ![image](assets/fr/035.webp)
 
 
-The ideal of economic policy that he defended was therefore contrary to the trends of his time.His ideal defined an essentially negative role for the State. "All commerce needs is the removal of obstacles. It asks only for good judges, punishment of monopolies, equal protection for all citizens, stable currencies, and roads and canals". This was the blueprint for a minimal State, which would become one of the foundations of the French tradition in political economy.
+The ideal of economic policy that he defended was therefore contrary to the trends of his time. His ideal defined an essentially negative role for the State. "All commerce needs is the removal of obstacles. It asks only for good judges, punishment of monopolies, equal protection for all citizens, stable currencies, and roads and canals". This was the definition for a minimal State, which would become one of the foundations of the French tradition in political economy.
 
-This vision of the role of the State in economic activity was naturally illustrated by the study of two major issues that stirred the economists and social thinkers of his time: the **regulation of industry** and the **the wheat trade**.
-
+This vision of the role of the State in economic activity was naturally illustrated by the study of two major issues that stirred the economists and social thinkers of his time: the regulation of industry and the the wheat trade.
 
 The regulations on industry, first of all, aroused all his resentment, because they were privileges for some at the expense of others. "The real cause of the decline of our factories", he wrote, "is the excessive protection given to them". And it was with a no less lively credo that he expressed his criticism of the dirigiste zeal of the statesmen of his time:
 
@@ -363,76 +350,51 @@ The regulations on industry, first of all, aroused all his resentment, because t
 
 On the question of trade in subsistence, d'Argenson had no other answer than freedom. According to him, the wheat shortages came from the monopoly and the excessive precautions taken by the government. All we had to do was let it be, and there would never be a wheat shortage in a country where the ports were open. foreigners, attracted like all other men by the lure of gain, would provide us with what we need and take away our surplus. "Let it be", he said, "and all will be well".
 
-
-
-
 ## Vincent de Gournay
 
 <chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
 
-
-
-
-Vincent de Gournay was one of the earliest advocates of laissez-faire in France, both in public administration and intellectual circles. For that reason, he deserves far more recognition in the history of economic thought than he usually receives. I've tried to highlight his contributions in a recent book.
-
+Vincent de Gournay was one of the first representatives of laissez-faire in France, and one of its earliest advocates in public administration and intellectual circles. For that reason, he deserves far more recognition in the history of economic thought than he usually receives. I've tried to highlight his contributions in a recent book.
 
 ![image](assets/fr/036.webp)
 
+Born into a merchant family, Gournay became a successful merchant himself, amassing considerable wealth before securing a position in the French administration. Within the Bureau of Commerce, he was a fervent advocate of free labor and free trade.
 
-Born into a merchant family, Gournay became a successful merchant himself, amassing considerable wealth before securing a position in the French administration. Within the Bureau of Commerce, he passionately championed freedom of labor and trade.
-
-Though he was well-connected with the leading economists of his time, Gournay wrote little or published less. He wrote mainly administrative letters and memoirs, either unpublished or published by other authors after some editing
+Though he was well inserted in the context of the leading economists of his time, Gournay wrote little or, rather, published little. He wrote mainly administrative letters and memoirs, either unpublished or published by other authors after some editing
 
 What we do have includes:
-1. Remarks on a French translation of a book by English economist Josiah Child;
 
+1. [The remarks](https://archive.org/details/traitessurlecomm0000chil) on a translation of a book by the English economist Josiah Child;
 
 ![image](assets/fr/037.webp)
 
-
 2. "Observations" included in the Examination of the Advantages and Disadvantages of the Prohibition of Printed Fabrics;
-
 
 ![image](assets/fr/038.webp)
 
-
 3. "Observations on the East India Company", appended by Abbé Morellet to his Memoir on the Current State of the East India Company (1769);
-
 
 ![image](assets/fr/039.webp)
 
+4. And above all, various memoirs from his role as Intendant of Commerce.
 
-4. And above all, various reports from his role as Intendant of Commerce.
-
-
-These writings show a clear foreign influence and the presence of some great structuring ideas.
-
-These writings demonstrate a clear foreign influence and the presence of some major structuring ideas. The foreign influence, in Gournay, is the recognition of English and Dutch superiority. He was convinced that these two nations understood economics far better than France, and that France should follow their example. Unlike France, which restricted imports and burdened economic life with rigid regulations, England and Netherlands thrived under more liberal policies. If they were doing better, Gournay concluded, it was because France was guided by faulty principles.
-
+These writings demonstrate a clear foreign influence and the presence of some major structuring ideas. The foreign influence, in Gournay, is the recognition of English and Dutch superiority. Gournay was convinced that these two nations understood economics far better than France, and that France must follow their example. "These two nations are the most prosperous", he sayd, "and they follow a completely different system than we do. We prohibit the entry of foreign goods, we confine economic activity within draconian regulations, while they proceed in the opposite manner. If they are doing better", Gournay concluded, "it is because France is guided by faulty principles".
 
 His reform proposals centered around several key points.
 
-First, he believed labor needed to be protected and encouraged. At the time, French workers were treated almost like criminals, constantly monitored, burdened by a maze of regulations, and kept in a state of fear. This excessive red tape discouraged people from working, pushing them instead toward idleness. Yet, Gournay argued, work was noble and the only true source of national wealth.
+First, he believed labor needed to be protected and encouraged. At the time, French workers were treated like criminals, constantly monitored, and kept in the fear of not having complied with one of the thousands of regulations. This excessive annoyance discouraged people from working, pushing them instead toward idleness. Yet, Gournay argued, "work is noble and the only way to enrich a nation".
 
+Secondly, he criticized the restrictive system of guilds that confined manufacturers. Participating in a trade was both time-consuming and expensive, and each new worker must then scrupulously follow the routine established by the statutes of his guild. Such a system left no room for excellence, innovation, or progress.
 
-Secondly, he criticized the restrictive system of guilds that confined manufacturers. participating in a trade was both expensive and time-consuming and Each new worker must then scrupulously follow the routine verified by the statutes of his guild. Such a system left no room for excellence, innovation, or progress.
+Third, trade in France was limited by restrictive laws. In Gournay's view, consumers would benefit greatly if ports could compete freely and all goods, such as grain and printed canvases, were allowed to be imported without restriction. He was one of the first to point out the true origin of smuggling: it existed solely because a beneficial and useful trade was prohibited. He added a sharp observation: smuggling was a "free" profession, with no regulations, no guilds, no confiscatory taxes. Yet it was the State's overwhelming regulation that drove many honest workers into illegality.
 
-
-Third, trade was restricted and limited in France by restrictive laws. In Gournay's view, consumers would benefit greatly if ports could compete freely and all goods, such as grain and printed canvases, were allowed to be imported without restriction. He was one of the first to point out the true origin of smuggling: it only existed because the government had banned commerce that was otherwise beneficial and legitimate. He added a sharp observation: smuggling, for all its illegality, was a "**free**" profession, no regulations, no guilds, no confiscatory taxes. Yet it was the State's overwhelming regulation that drove many honest workers into illegality.
-
-
-Finally, Gournay noted that interest rates were lower in England and Netherlands, countries more prosperous than France. He advocated for lower interest rates in France as well, so that economic activity could be financed there on conditions as advantageous as elsewhere. Gournay did not, however, seek coercive, legislative methods; rather, he emphasized the need to legalize lending, which was still condemned by the Catholic Church.
-
-
+Finally, Gournay noted that interest rates were lower in England and Netherlands, countries more prosperous than France. He advocated for lower interest rates in France as well, so that economic activity could be financed there on conditions as advantageous as elsewhere. Gournay did not, however, seek coercive, legislative methods; rather, he emphasized the need to legalize money lending, which was still condemned by the Catholic Church.
 
 On all these points,, Gournay played a key role in the intellectual debates of the mid-18th century. His defense of economic liberty predated the Physiocrats by a decade and Adam Smith by twenty years. But his most lasting influence was on Turgot. Gournay took the young Turgot under his wing and trained him with his ideas.
 
-
 ![image](assets/fr/040.webp)
 
-
-Years later, Turgot, then a minister under Louis XVI, wrote an Éloge (eulogy) in honor of his late friend and mentor. And if Turgot never completely put away the physiocracy of François Quesnay, it was because he preserved an invincible attachment to his first master, Vincent de Gournay.
-
+Years later, Turgot, a future minister under Louis XVI, wrote an Éloge (eulogy) in honor of his friend after his death. And if Turgot never completely embraced the physiocracy of François Quesnay, it was because he preserved an invincible attachment to his first master, Vincent de Gournay.
 
 ## The Gournay Circle
 

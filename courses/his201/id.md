@@ -692,23 +692,31 @@ Pemuda Finlandia itu setuju dan menyarankan agar "The P2P Cryptocurrency" bisa m
 
 ### Dua Forum yang Didedikasikan untuk Bitcoin
 
-Martti Malmi juga mendirikan sebuah forum dan wiki, masih di halaman SourceForge. Elemen-elemen ini [dibuka](https://mmalmi.github.io/satoshi/#email-17) pada 9 Juni. Pada tanggal 13, Malmi [mengumumkan](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200906) keberadaan halaman SourceForge, forum, dan wiki di milis Bitcoin:
+Martti Malmi juga mendirikan sebuah forum dan wiki, masih di halaman SourceForge. Elemen-elemen ini [dibuka](https://mmalmi.github.io/satoshi/#email-17) pada tanggal 9 Juni. Pada tanggal 13 Juni, Malmi [mengumumkan](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200906) keberadaan halaman SourceForge, forum, dan wiki di milis Bitcoin:
 
 > "Situs web/portal Bitcoin baru sudah ada di Bitcoin.sourceforge.net. Forum dan wiki termasuk, jadi Anda dipersilakan untuk bergabung dalam diskusi dan dokumentasi wiki."
 
-Forum ini menemukan audiensnya. Sepertinya bahkan [mengarah](https://mmalmi.github.io/satoshi/#email-27) pada pembuatan saluran IRC khusus untuk pengembangan (#Bitcoin-dev) pada Agustus. Namun, kami tidak memiliki arsip karena hanya dapat diakses oleh anggotanya.
+Forum ini menemukan audiensnya. Bahkan tampaknya [mengarah](https://mmalmi.github.io/satoshi/#email-27) pada pembuatan saluran IRC khusus untuk pengembangan (#Bitcoin-dev) pada bulan Agustus. Namun, kami tidak memiliki arsip karena hanya dapat diakses oleh anggotanya.
 
-Selama berbulan-bulan, semakin banyak orang mendaftar dan berpartisipasi di forum pertama ini, membuat Satoshi menyadari bahwa infrastruktur perangkat lunak yang disiapkan oleh Malmi tidak cukup. Pada 5 November, dia menulis kepada pemuda Finlandia itu untuk menyarankan pembuatan forum baru yang dapat menangani lalu lintas yang lebih tinggi:
+Selama berbulan-bulan, semakin banyak orang mendaftar dan berpartisipasi dalam forum pertama ini, membuat Satoshi menyadari bahwa infrastruktur perangkat lunak yang disiapkan oleh Malmi tidak mencukupi. Pada tanggal 5 November, ia menulis kepada pemuda Finlandia itu untuk menyarankan pembuatan forum baru yang dapat menangani lalu lintas yang lebih tinggi:
 
-> "Sekarang forum di Bitcoin.sourceforge.net mulai populer, kita benar-benar harus mencari tempat yang menyediakan perangkat lunak forum lengkap secara gratis."
+> "Karena forum di bitcoin.sourceforge.net mulai populer, kita harus benar-benar mencari tempat yang menyediakan software forum lengkap secara gratis."
+
 Setelah beberapa diskusi mengenai solusi teknis yang akan diadopsi, Martti Malmi [memasang](https://mmalmi.github.io/satoshi/#email-93) forum di servernya pada 17 November, dan Satoshi mulai [mengonfigurasi](https://mmalmi.github.io/satoshi/#email-99) forum tersebut pada 19 November. Mulai dari tanggal 22, pencipta Bitcoin mentransfer beberapa Q&A dari forum lama yang mencakup topik seperti privasi, penambangan, dan Linux. Dia juga mempublikasikan sebuah [pesan selamat datang](https://Bitcointalk.org/index.php?topic=5.msg28#msg28). Pada tanggal 25, forum tersebut [diluncurkan](https://mmalmi.github.io/satoshi/#email-110) di alamat Bitcoin.org/smf.
+
+Setelah beberapa diskusi tentang solusi teknis yang akan diadopsi, Martti Malmi [menginstal](https://mmalmi.github.io/satoshi/#email-93) forum di servernya pada 17 November, dan Satoshi mulai [mengonfigurasi](https://mmalmi.github.io/satoshi/#email-99) itu pada 19 November. Mulai tanggal 22, pencipta Bitcoin mentransfer beberapa Tanya Jawab dari forum lama yang mencakup topik seperti privasi, penambangan, dan Linux. Dia juga menerbitkan [pesan selamat datang](https://Bitcointalk.org/index.php?topic=5.msg28#msg28). Pada tanggal 25, forum tersebut [diluncurkan](https://mmalmi.github.io/satoshi/#email-110) di alamat bitcoin.org/smf.
+
 Pengguna pertama mulai mendaftar di awal bulan berikutnya. Pada 9 Desember, [pesan pertama](https://Bitcointalk.org/index.php?topic=12.msg40#msg40) yang diposting oleh seseorang selain Satoshi muncul, yang benar-benar memulai diskusi. Sebagai ilustrasi, berikut ini adalah [tangkapan layar](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/) forum pada 29 Mei 2010:
+
+Pengguna pertama mulai mendaftar pada awal bulan berikutnya. Pada tanggal 9 Desember, [pesan pertama](https://Bitcointalk.org/index.php?topic=12.msg40#msg40) yang diposting oleh orang selain Satoshi muncul, yang benar-benar memulai diskusi. Sebagai ilustrasi, berikut adalah [tangkapan layar](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/) forum pada tanggal 29 Mei 2010:
 
 ![Tangkapan layar forum Bitcoin dari 29 Mei 2010](assets/en/29.webp)
 
 Peluncuran forum baru ini menjadi kesempatan untuk merilis [versi 0.2](https://Bitcointalk.org/index.php?topic=16.msg73#msg73) dari perangkat lunak, yang telah dikerjakan oleh Satoshi Nakamoto dan Martti Malmi selama berbulan-bulan, yang dilakukan pada 16 Desember. Versi ini mencakup peningkatan seperti minimisasi ke taskbar, startup otomatis saat peluncuran, atau multithreading untuk produksi penambangan. Perangkat lunak juga disesuaikan untuk Linux, berkat kontribusi Malmi dan pengujian yang dilakukan oleh NewLibertyStandard yang baru tiba (yang kasusnya akan dibahas di bab berikutnya).
 
-Di forum ini, yang kemudian akan menjadi BitcoinTalk pada Agustus 2011, Satoshi menulis total 539 pesan. Melalui sarana ini, dia dapat memberikan klarifikasi teknis, menjelaskan berbagai mekanisme ekonomi, dan secara umum berbagi pandangannya tentang Bitcoin. Kumpulan pesan ini akan membentuk sebagian besar korpus yang dia tinggalkan.
+Peluncuran forum baru adalah kesempatan untuk merilis[versi 0.2](https://Bitcointalk.org/index.php?topic=16.msg73#msg73) dari perangkat lunak, yang telah dikerjakan oleh Satoshi Nakamoto dan Martti Malmi selama berbulan-bulan, yang dilakukan pada tanggal 16 Desember. Versi ini mencakup peningkatan seperti minimalisasi ke taskbar, startup otomatis saat diluncurkan, atau multithreading untuk produksi penambangan. Perangkat lunak ini juga diadaptasi untuk Linux, berkat kontribusi Malmi dan tes yang dilakukan oleh NewLibertyStandard yang baru tiba (kasusnya akan dibahas di bab berikutnya).
+
+Di forum ini, yang kemudian menjadi BitcoinTalk pada Agustus 2011, Satoshi akan menulis total 539 pesan. Melalui sarana ini, ia dapat memberikan klarifikasi teknis, menjelaskan berbagai mekanisme ekonomi, dan secara umum membagikan pandangannya tentang Bitcoin. Kumpulan pesan ini akan menjadi bagian terbesar dari korpus yang ia tinggalkan.
 
 ### Komunikasi dalam Tahapan
 

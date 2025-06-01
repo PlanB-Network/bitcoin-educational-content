@@ -1,0 +1,25 @@
+id: 62b5a4c6-a221-4d41-9a62-4618c53d8223
+
+project_id: 45198444-27c2-4fc1-a761-eb321093642f
+
+category: wallets
+
+level: intermediate
+
+credits:
+    professor: f205sats
+
+tags: 
+- onchain
+- DIY
+- good-practice
+
+# Proofreading metadata
+original_language: it
+proofreading:
+  - language: it
+  last_contribution_date: 2025-03-24
+  urgency:
+  contributors_id: 
+    - f205sats
+reward:

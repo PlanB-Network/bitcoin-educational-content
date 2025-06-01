@@ -895,17 +895,21 @@ Penambangan Satoshi karenanya bersifat altruistik, seperti yang ditunjukkan oleh
 
 ### Hari Pizza Bitcoin
 
-Mei 2010 juga ditandai oleh sebuah peristiwa penting: pembelian barang fisik pertama dengan Bitcoin. Laszlo Hanyecz mengambil langkah pertama. Setelah mengumpulkan lebih dari 20,000 Bitcoin melalui algoritmanya, ia berusaha menyuntikkannya kembali ke dalam ekonomi dengan mendapatkan pizza. Pada tanggal 18 Mei, ia menulis pengumuman berikut [announcement](https://Bitcointalk.org/index.php?topic=137.msg1141#msg1141) di forum:
-"Saya akan membayar 10.000 Bitcoin untuk beberapa pizza... mungkin 2 pizza besar sehingga saya memiliki beberapa sisa untuk hari berikutnya. Saya suka memiliki sisa pizza untuk dinikmati nanti. Anda bisa membuat pizza itu sendiri dan membawanya ke rumah saya atau memesannya untuk saya dari tempat pengiriman, tetapi yang saya tuju adalah mendapatkan makanan yang dikirimkan dengan imbalan Bitcoin di mana saya tidak perlu memesan atau menyiapkannya sendiri, seperti memesan 'piring sarapan' di hotel atau sesuatu, mereka hanya membawa Anda sesuatu untuk dimakan dan Anda senang! (...) Jika Anda tertarik, silakan beri tahu saya dan kita dapat membuat kesepakatan."
+Mei 2010 juga ditandai dengan peristiwa penting: pembelian barang fisik pertama dengan bitcoin. Laszlo Hanyecz mengambil langkah pertama. Setelah mengumpulkan lebih dari 20.000 bitcoin melalui algoritmanya, ia berusaha menyuntikkannya kembali ke dalam ekonomi dengan mendapatkan pizza. Pada 18 Mei, ia menulis [announcement](https://Bitcointalk.org/index.php?topic=137.msg1141#msg1141) berikut di forum:
 
-Penawaran ini diterima setelah empat hari. Seorang pemuda dari California bernama Jeremy Sturdivant yang menerima pertukaran tersebut melalui layanan pesan instan IRC.
+"Saya akan membayar 10.000 bitcoin untuk sepasang pizza... mungkin 2 yang besar agar saya punya sisa untuk keesokan harinya. Saya suka punya sisa pizza untuk dimakan nanti. Anda bisa membuat pizzanya sendiri dan membawanya ke rumah saya atau memesankannya untuk saya dari tempat pengiriman, tapi yang saya inginkan adalah mendapatkan makanan yang diantar sebagai ganti bitcoin di mana saya tidak perlu memesan atau menyiapkannya sendiri, seperti memesan 'hidangan sarapan' di hotel atau semacamnya, mereka hanya membawakan Anda sesuatu untuk dimakan dan Anda senang! (...) Jika Anda tertarik, tolong beritahu saya dan kita bisa membuat kesepakatan."
+
+Penawaran ini disetujui empat hari kemudian. Seorang pemuda California bernama Jeremy Sturdivant yang menerima pertukaran tersebut di layanan pesan instan IRC.
 
 ![Jeremy Sturdivant pada Mei 2018](assets/en/40.webp)
+
 Jeremy Sturdivant pada Mei 2018 (sumber: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
-Pada 22 Mei, dia memesan dua pizza dari Papa John's yang dikirimkan ke Laszlo di Jacksonville, Florida. Dia [menerima](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10.000 Bitcoin sebagai imbalannya, senilai sekitar $44 pada tingkat Pasar Bitcoin. Berikut ini adalah foto kedua pizza tersebut, [dibagikan](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/) oleh Laszlo sendiri:
+Pada 22 Mei, ia memesan dua pizza dari Papa John's yang diantar ke Laszlo di Jacksonville, Florida. Ia [menerima](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10.000 bitcoin sebagai imbalan, senilai sekitar $44 menurut nilai tukar Bitcoin Market. Berikut adalah foto kedua pizza tersebut, yang [dibagikan](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/)  oleh Laszlo sendiri:
 
 ![Pizza dari Papa John's yang dikirimkan ke Laszlo Hanyecz pada 22 Mei 2010](assets/en/41.webp)
+
+???
 
 Ini menandai pembelian barang fisik pertama dengan Bitcoin, meskipun pembelian ini tidak langsung. Laszlo mendapat ucapan selamat dari [Martti Malmi](https://Bitcointalk.org/index.php?topic=137.msg1196#msg1196) yang menulis bahwa "langkah besar telah diambil." NLS juga menambahkan komentar [positif](https://Bitcointalk.org/index.php?topic=137.msg1197#msg1197) mengenai hal ini.
 

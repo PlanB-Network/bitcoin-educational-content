@@ -834,16 +834,10 @@ Namun, pertanyaan ini tidak pernah mengganggu Satoshi, yang melihat bootstrappin
 > - Bukan konduktor listrik yang baik
 > - Tidak terlalu kuat, tetapi juga tidak ulet atau mudah dibentuk
 > - Tidak berguna untuk tujuan praktis atau hiasan dan dengan satu sifat ajaib khusus:
-> - Dapat ditransfer melalui saluran komunikasi
+>   Dapat ditransfer melalui saluran komunikasi
 >
 > Jika, karena satu dan lain hal, logam ini memperoleh nilai sama sekali, maka siapa pun yang ingin mentransfer kekayaan jarak jauh dapat membeli sebagian, mengirimkannya, dan meminta penerima menjualnya.
 > Mungkin ia bisa mendapatkan nilai awal secara sirkuler seperti yang Anda sarankan, dengan orang-orang yang melihat potensi kegunaannya untuk pertukaran. (Saya pasti akan menginginkan beberapa) Mungkin kolektor, atau alasan acak apa pun, bisa memicunya."
-
-Berwarna abu-abu membosankan
-Bukan konduktor listrik yang baik
-Tidak terlalu kuat, tetapi juga tidak ulet atau mudah dibentuk
-Tidak berguna untuk tujuan praktis atau hiasan dan dengan satu sifat ajaib khusus:
-Dapat ditransfer melalui saluran komunikasi
 
 # Kenaikan Pertama Bitcoin
 <partId>557d792d-34d5-4a10-8977-82afdcfe402b</partId>

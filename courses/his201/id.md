@@ -823,24 +823,27 @@ Pada saat itu, dompet ringan - Lightweight Wallets (dikenal sebagai "SPV") belum
 Terakhir, pada 19 Mei, seorang pengguna dengan nama Teppy mulai [menerima](https://Bitcointalk.org/index.php?topic=30.msg1159#msg1159) bitcoin untuk permainan multipemain masif yang ia kelola, *A Tale in the Desert*.
 
 ### Asal Usul Nilai Bitcoin
-Pada musim semi tahun 2010, Bitcoin tampaknya memang telah memperoleh nilai dalam pikiran banyak orang. Meskipun penggunaan sistem masih dalam tahap awal, permintaan terhadap Bitcoin sudah ada, baik dari perspektif penambangan, pertukaran dengan dolar, atau penjualan jasa. Pemulaian ekonomi ini secara definitif disegel oleh sebuah peristiwa simbolis yang terjadi pada 22 Mei: pembelian barang fisik pertama dengan Bitcoin, khususnya sebuah pizza, yang akan kami ceritakan di bab berikutnya.
+Pada musim semi 2010, bitcoin tampaknya memang telah memperoleh nilai di benak banyak orang. Meskipun penggunaan sistem masih dalam tahap awal, permintaan terhadap bitcoin sudah ada, baik dari perspektif penambangan, pertukaran dengan dolar, maupun penjualan layanan. Bootstrapping ekonomi ini secara definitif disegel oleh peristiwa simbolis yang terjadi pada 22 Mei: pembelian barang fisik pertama dengan bitcoin, khususnya pizza, yang akan kita ceritakan di bab berikutnya.
 
-Pertanyaan tentang asal-usul nilai Bitcoin tetap menjadi sesuatu yang banyak orang kesulitan untuk menjelaskan. Kemunculan nilai ini khususnya mengganggu para pendukung sekolah Austria yang memiliki interpretasi sempit terhadap teorema regresi Ludwig von Mises. Ini adalah kasus bagi seorang individu, xc, yang di forum [mencari](https://Bitcointalk.org/index.php?topic=583.msg5984#msg5984) untuk mendasarkan transmisi nilai dalam konversi dengan dolar.
+Pertanyaan tentang asal-usul nilai Bitcoin tetap menjadi sesuatu yang sulit dijelaskan oleh banyak orang. Munculnya nilai ini secara khusus mengganggu para penganut aliran Austria yang memiliki interpretasi sempit terhadap teorema regresi Ludwig von Mises. Ini adalah kasus seorang individu tertentu, XC, yang di forum berusaha [mendasarkan](https://Bitcointalk.org/index.php?topic=583.msg5984#msg5984) transmisi nilai dalam konversi dengan dolar.
 
-Namun, pertanyaan ini tidak pernah mengganggu Satoshi, yang melihat pemulaian mata uang baru sebagai tantangan yang memang sulit untuk diatasi tetapi tidak mustahil. Dia dengan demikian [menyatakan](https://Bitcointalk.org/index.php?topic=583.msg11405#msg11405) pandangannya di forum pada 27 Agustus 2010, sebagai tanggapan kepada xc:
+Namun, pertanyaan ini tidak pernah mengganggu Satoshi, yang melihat bootstrapping mata uang baru sebagai tantangan yang tentu saja sulit diatasi tetapi bukan tidak mungkin. Ia kemudian [menyatakan](https://Bitcointalk.org/index.php?topic=583.msg11405#msg11405) pandangannya di forum pada 27 Agustus 2010, sebagai tanggapan kepada XC:
 
-> "Sebagai eksperimen pemikiran, bayangkan ada logam dasar yang sejarang emas tetapi dengan sifat-sifat berikut:
-> \- warna abu-abu yang membosankan
-> \- bukan konduktor listrik yang baik
-> \- tidak terlalu kuat, tetapi tidak lentur atau mudah dibentuk juga
-> \- tidak berguna untuk tujuan praktis atau hiasan
+> "Sebagai eksperimen pemikiran, bayangkan ada logam dasar yang langka seperti emas tetapi dengan sifat-sifat berikut:
+> - Berwarna abu-abu membosankan
+> - Bukan konduktor listrik yang baik
+> - Tidak terlalu kuat, tetapi juga tidak ulet atau mudah dibentuk
+> - Tidak berguna untuk tujuan praktis atau hiasan dan dengan satu sifat ajaib khusus:
+> - Dapat ditransfer melalui saluran komunikasi
 >
-> dan dengan satu sifat ajaib khusus:
-> \- dapat ditransportasikan melalui saluran komunikasi
->
-> Jika, karena satu dan lain hal, logam ini memperoleh nilai sama sekali, maka siapa pun yang ingin mentransfer kekayaan jarak jauh bisa membelinya, mentransmisikannya, dan membuat penerima menjualnya.
->
-> Mungkin bisa mendapatkan nilai awal secara sirkuler seperti yang Anda usulkan, dengan orang-orang yang memprediksi potensi kegunaannya untuk pertukaran. (Saya pasti ingin beberapa) Mungkin kolektor, atau alasan acak apa pun, bisa memicunya."
+> Jika, karena satu dan lain hal, logam ini memperoleh nilai sama sekali, maka siapa pun yang ingin mentransfer kekayaan jarak jauh dapat membeli sebagian, mengirimkannya, dan meminta penerima menjualnya.
+> Mungkin ia bisa mendapatkan nilai awal secara sirkuler seperti yang Anda sarankan, dengan orang-orang yang melihat potensi kegunaannya untuk pertukaran. (Saya pasti akan menginginkan beberapa) Mungkin kolektor, atau alasan acak apa pun, bisa memicunya."
+
+Berwarna abu-abu membosankan
+Bukan konduktor listrik yang baik
+Tidak terlalu kuat, tetapi juga tidak ulet atau mudah dibentuk
+Tidak berguna untuk tujuan praktis atau hiasan dan dengan satu sifat ajaib khusus:
+Dapat ditransfer melalui saluran komunikasi
 
 # Kenaikan Pertama Bitcoin
 <partId>557d792d-34d5-4a10-8977-82afdcfe402b</partId>

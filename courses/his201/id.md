@@ -873,15 +873,17 @@ Laszlo tidak terlalu mengindahkan peringatan ini dan terus menambang blok dengan
 
 ### Bitcoin Satoshi
 
-Kenaikan dalam penambangan ini juga memiliki konsekuensi signifikan: Satoshi berhenti memproduksi blok. Sejak peluncuran jaringan, dia memang telah menambang untuk memastikan kecepatan konfirmasi yang cukup dan tingkat keamanan yang dapat diterima. Dengan kekuatan baru yang dikerahkan, dia bisa meninggalkan tugas ini dan membiarkan anggota jaringan lainnya mendapatkan keuntungan dari keseluruhan Bitcoin yang diciptakan.
+Peningkatan dalam penambangan ini juga memiliki konsekuensi penting: Satoshi berhenti memproduksi blok. Sejak peluncuran jaringan, ia memang telah menambang untuk memastikan kecepatan konfirmasi yang memadai dan tingkat keamanan yang dapat diterima. Dengan kekuatan baru yang dikerahkan, ia dapat meninggalkan tugas ini dan membiarkan anggota jaringan lainnya mendapatkan seluruh bitcoin yang dibuat.
 
-Aktivitas penambangan Satoshi memiliki pola yang khas, membuatnya mungkin untuk mengidentifikasi blok yang kemungkinan dia temukan, dengan beberapa positif palsu. Pola penambangan ini ditekankan oleh pengembang Sergio Lerner pada tahun 2013 dan telah dinamakan Pola Patoshi.
+Aktivitas penambangan Satoshi memiliki pola yang berbeda, memungkinkan untuk mengidentifikasi blok-blok yang kemungkinan besar ia temukan, dengan beberapa false positive. Pola penambangan ini disorot oleh pengembang Sergio Lerner pada tahun 2013 dan telah dinamai Patoshi Pattern.
 
 ![Pola Patoshi antara blok 0 dan 50,000](assets/en/37.webp)
 
-Pola Patoshi antara blok 0 dan 50,000 seperti yang diamati di situs web [satoshiblocks.info](http://satoshiblocks.info/): setiap titik sesuai dengan sebuah blok, garis biru terbentuk dari blok Satoshi, garis lainnya mewakili output dari penambang lain.
-Menurut sebuah studi oleh Whale Alert yang dipublikasikan pada tahun 2020, Satoshi menambang sekitar 22,500 blok dan dengan demikian mengumpulkan 1,122,693 Bitcoin, yang merupakan lebih dari 5% dari total 21 juta unit yang direncanakan. Selama sebagian besar tahun 2009, jaringan bergantung pada kekuatan komputasi pendirinya. Ketergantungan ini digambarkan pada Agustus 2009, yang merupakan periode terburuk dalam hal aktivitas penambangan dan bertepatan dengan masa "jeda" bagi Satoshi, di mana ia kemungkinan memantau mesinnya lebih sedikit. Memang, selama Agustus ini, hanya 1,564 blok yang diproduksi dari 4,464 yang diharapkan, sesuai dengan waktu rata-rata 28 menit dan 30 detik.
-Dengan peningkatan kekuatan komputasi pada musim gugur 2009, proporsi kekuatan komputasi Satoshi relatif terhadap total kekuatan jaringan secara bertahap menurun. Ini berubah dari 75% pada Maret 2009 menjadi 60% pada September, kemudian turun menjadi 15% pada Desember, dan mencapai 0% pada Mei. Berikut adalah grafik yang dibuat oleh [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html) pada tahun 2014:
+Pola Patoshi antara blok 0 dan 50.000 seperti yang diamati di situs web [satoshiblocks.info](http://satoshiblocks.info/): setiap titik berhubungan dengan blok, garis biru terbentuk dari blok Satoshi, garis lainnya mewakili keluaran penambang lain.
+
+Menurut studi oleh Whale Alert yang diterbitkan pada tahun 2020, Satoshi menambang sekitar 22.500 blok dan dengan demikian mengumpulkan 1.122.693 bitcoin, yang lebih dari 5% dari 21 juta unit yang direncanakan. Selama sebagian besar tahun 2009, jaringan mengandalkan daya komputasi pendirinya. Ketergantungan ini diilustrasikan pada Agustus 2009, yang merupakan periode terburuk dalam hal aktivitas penambangan dan bertepatan dengan waktu "jeda" bagi Satoshi, di mana ia kemungkinan kurang memantau mesinnya. Memang, selama Agustus ini, hanya 1.564 blok yang diproduksi dari 4.464 yang diharapkan, sesuai dengan waktu rata-rata 28 menit 30 detik.
+
+Dengan peningkatan daya komputasi pada musim gugur 2009, proporsi daya komputasi Satoshi relatif terhadap total daya jaringan secara bertahap menurun. Itu turun dari 75% pada Maret 2009 menjadi 60% pada September, kemudian turun menjadi 15% pada Desember, dan mencapai 0% pada Mei. Di bawah ini adalah grafik yang dibuat oleh [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)  pada tahun 2014:
 
 ![Estimasi proporsi kekuatan komputasi Satoshi relatif terhadap total kekuatan antara Januari 2009 dan Juli 2010](assets/en/38.webp)
 
@@ -889,7 +891,7 @@ Selain itu, penurunan dominasi penambangan Satoshi bukan hanya pasif: ia sendiri
 
 ![Estimasi hash rate Satoshi antara Januari 2009 dan Mei 2010](assets/en/39.webp)
 
-Penambangan Satoshi oleh karena itu benar-benar altruistik, seperti yang [Jameson Lopp tunjukkan](https://blog.lopp.net/was-satoshi-a-greedy-miner/). Ketika ia berhenti menambang pada 3 Mei 2010 (blok terakhirnya adalah [blok 54,316](https://mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), ini merupakan pencapaian lain dalam pengembangan Bitcoin yang lambat: pengambilalihan konfirmasi transaksi oleh aktor ekonomi.
+Penambangan Satoshi karenanya bersifat altruistik, seperti yang ditunjukkan oleh [Jameson Lopp tunjukkan](https://blog.lopp.net/was-satoshi-a-greedy-miner/).. Ketika dia berhenti menambang pada 3 Mei 2010 (blok terakhirnya adalah [blok 54,316](https://mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), itu merupakan pencapaian lain dalam perkembangan Bitcoin yang lambat: pengambilalihan konfirmasi transaksi oleh pelaku ekonomi.
 
 ### Hari Pizza Bitcoin
 

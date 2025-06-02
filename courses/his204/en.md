@@ -389,64 +389,56 @@ Years later, Turgot, a future minister under Louis XVI, wrote an Éloge (eulogy)
 
 <chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
 
-When it comes to the early days of economic science, history tends to highlight the first recognized school: the Physiocrats, led by François Quesnay and his followers. However, nearly a decade before their rise, there was another, less formal but equally influential group centered around the economist Vincent de Gournay.
+When it comes to the early days of economic science, history tends to highlight a first school of thought: the Physiocrats, led by François Quesnay and his disciples. However, nearly a decade before their rise, there was another, less formal but equally important group centered around the economist Vincent de Gournay.
 
 ![image](assets/fr/041.webp)
 
-
-As we saw in the previous lesson, Gournay was fascinated by the example of foreign nations like England and Holland. He admired their economists—figures such as Josiah Child, Johan de Witt, and David Hume—just as much.
+As we saw in the previous part, Gournay was fascinated by the example of foreign nations like England and Holland. He admired their economists—figures such as Josiah Child, Johan de Witt, and David Hume—just as much.
 
 ![image](assets/fr/042.webp)
 
-
-This admiration led him to translate, and commission translations of, their economic writings.
-
+This admiration led him to translate, and assign translations of, their economic writings.
 
 It turned out that his position in the senior administration allowed Gournay to come into contact with all the economic specialists known in France at the time. In this way, he assembled a group of extremely capable translators. He personally translated the works of Child and Culpeper. Abbé Le Blanc translated David Hume's Political Discourses. Véron de Forbonnais translated the Spanish economist Geronymo de Uztariz. Turgot worked on Josiah Tucker's writings, and Montesquieu's son translated Joshua Gee.
 
-
 Thanks to the collaboration of several members of Gournay's circle, many authors were able to publish original works under their own names. These books, along with the translations, achieved remarkable success. Some notable examples include:
 
-- Herbert's Essay on the General Police of Grain (6 editions in 4 years)
-
+- Herbert's Essay on the [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 editions in 4 years)
 
 ![image](assets/fr/043.webp)
 
-- Coyer's The Trading Nobility (5 editions in 2 years)
+- Coyer's [Noblesse commerçante](https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (5 editions in 2 years)
 
 ![image](assets/fr/044.webp)
 
-- Plumard de Dangeul's Remarks on the Advantages and Disadvantages of France and Great Britain (3 editions in its first year)
-- Memoir on the Trades by Cliquot-Blervache and Gournay (2 editions in 1758)
+- Plumard de Dangeul's [Remarks on the Advantages and Disadvantages of France and Great Britain](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 editions in its first year)
+- Cliquot-Blervache and Gournay's [Memoir on the Trades](https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 editions in 1758)
 The group also played a pivotal role in the publication of 
-- *Essay on the Nature of Trade in General* by Richard Cantillon.
-
+- [Essay on the Nature of Trade in General](https://archive.org/details/essayonnatureofc0000cant) by Richard Cantillon.
 
 ![image](assets/fr/045.webp)
 
-This book, written around 1730, remained in manuscript after the author's death. Gournay, with the help of his economist friends, published it in 1755. According to Abbé Morellet, a member of the circle, Gournay recommended it to every economist he knew.
+This last book, written around 1730, remained in manuscript after the author's death. Gournay, with the help of his economist friends, published it in 1755. According to the abbot Morellet, a member of the circle, Gournay recommended it to every economist he knew.
 
-
-The intellectual output of the Gournay circle had a major impact on the history of ideas. In this sense, they truly belong among the founders of economic science in France. Christine Théré of INED, who has studied the history of economic publications, found that between 1750 and 1759, no fewer than **349 economic works** were published, compared to only **83** in the entire previous decade (1740–1749). This revolution in the 1750s is largely due to the Gournay circle.
-
+The intellectual output of the Gournay circle had a major impact on the history of ideas. In this sense, they can be considered the founders of economic science in France. Christine Théré of INED, who has studied the history of economic publications, found that between 1750 and 1759, no fewer than **349** works on economics were published, compared to only **83** in the entire previous decade (1740–1749). This revolution in the 1750s is largely due to the Gournay circle.
 
 ![image](assets/fr/046.webp)
 
-To spread a taste for economic discussions among the French population, Gournay and his friends worked to make them accessible through novels. After the *Memoir on the Trades*, which criticized guilds, Gournay and Cliquot-Blervache helped Abbé Coyer write a short satirical novel called Chinki: A Cochinchinese Tale Applicable to Other Nations.
+To spread a taste for economic discussions among the French population, Gournay and his friends worked to make them accessible through novels. After the *Memoir on the Trades*, which criticized guilds, Gournay and Cliquot-Blervache helped Gabriel-François Coyer write a short satirical novel called Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 ![image](assets/fr/047.webp)
 
-The story follows the main character, Chinki, who is forced to leave his land due to excessive taxation and tries to find craft work for his children in the city. But all trades are closed to them because of abusive guild regulations, and the story humorously portrays his growing disappointment.
+The story follows the main character, Chinki, who is forced to leave his land due to excessive taxation and tries to find craft work for his children in the city. But all trades are closed to them because of abusive guild regulations, so the story portrays his growing disappointment through humorous tones.
 
-Gournay's circle was therefore at the origin of an intense wave of publications. While this major contribution has been forgotten by historians of economic thought, it was very clear to contemporaries. The Physiocrats, who organized their school in the 1760s, would later present Gournay's group as their direct forerunners. In 1767, the economist Jacques Accarias de Serionne expressed this even more clearly in his tribute. He wrote: "A small number of Frenchmen, both philosophers and citizens, began a few years ago to imitate English writers. They first translated their models and soon surpassed them in many respects. They brought all the charm and richness of literature to the treatment of useful subjects; they sparked and spread the taste for the sciences most essential to the prosperity of the State".
+Gournay's circle was therefore at the origin of an intense wave of publications. While this major contribution has been forgotten by historians of economic thought, it was very clear to contemporaries. The Physiocrats, who organized their school in the 1760s, would later present Gournay's group as their direct forerunners. In 1767, the economist Jacques Accarias de Serionne expressed this even more clearly in his tribute. He wrote: "A small number of Frenchmen, both philosophers and citizens, began a few years ago to imitate English writers. They first translated their models and soon surpassed them in many respects. They brought all the charm and richness of literature to the treatment of useful subjects; they sparked and spread the taste for the sciences that were most essential to the prosperity of the State".
 
-And indeed, in the 1750s, economic questions became fashionable. Voltaire famously remarked that around 1750, the French gave up novels to discuss the freedom of the grain trade. This trend was also noted by the Mercure de France, which wrote in an issue from 1758, a few months before Gournay's death: "Political economy is now the science in fashion. Books dealing with agriculture, population, industry, commerce, and finance are now in the hands of countless people who, not long ago, read nothing but novels". One could hardly pay a better tribute to Gournay and the work of his circle of economists.
+And indeed, in the 1750s, economic questions became fashionable. Voltaire famously remarked that around 1750, the French gave up novels to discuss the freedom of the grain trade. This trend was also noted by the Mercure de France, which wrote in an issue from 1758, a few months before Gournay's death: "Political economy is now the science in fashion. Books dealing with agriculture, population, industry, commerce, and finance are now in the hands of countless people who, not long ago, only superficially read novels". One could hardly pay a better tribute to Gournay and the work of his circle of economists.
 
 ## Mirabeau
 
 <chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
 
-France has known two famous men named Mirabeau, a father and a son, but it was the son who truly made history. A revolutionary tribune and one of the central figures in the events of the French Revolution, remained famous.
+France has known two famous men named Mirabeau, a father and a son, but it was the son who truly made history. A revolutionary tribune and one of the central figures in the events of the French Revolution, he remained famous.
 
 ![image](assets/fr/048.webp)
 
@@ -454,27 +446,21 @@ Through his talent and his place in French history, he overshadowed his father, 
 
 ![image](assets/fr/049.webp)
 
-The Marquis de Mirabeau had, in fact, already achieved immense fame even before his adoption of Physiocracy. In 1757, a year before his meeting with Quesnay, thanks to a book entitled L'Ami des Hommes. Traité de la population (The Friend of Mankind. Treatise on Population).
+The Marquis de Mirabeau had, in fact, already achieved immense fame even before his adoption of Physiocracy thanks to a book entitled "The Friend of Mankind. Treatise on Population [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Even though the first edition was published in 1756, it became famous around 1757, a year before his meeting with Quesnay.
 
 ![image](assets/fr/050.webp)
 
-It went through 20 editions in just three years, an extraordinary achievement for an economics book. Some readers even thought the book had been written by Montesquieu because of its sharp reasoning and eloquent style. The Dauphin, father of the future King Louis XVI, was so fond of it that he claimed to have memorized it. For a time, it was the book everyone at Versailles was reading.
+More than 20 editions were published between 1757 and 1760, which probably makes it the most successful economics book in history. Some readers even thought the book had been written by Montesquieu because of its sharp reasoning. The Dauphin, father King Louis XVI, even claimed to have memorized it. For a time, it was the book everyone at Versailles was reading.
 
 Today it's a book that's no longer read, but many still reference it. Even by the 19th century, Edmond Roussel said:
-
 
 > L'Ami des Hommes is one of those books everyone talks about, that hardly anyone knows about. In every generation, one brave citizen should read it; so that everyone else doesn't have to.
 
 At the start of his career as an economist, Mirabeau drew inspiration from Richard Cantillon. He had owned a manuscript of Cantillon's Essay on the Nature of Commerce in General for 15 years and had patiently analyzed and commented on it.
 
-
-
 ![image](assets/fr/051.webp)
 
 L'Ami des Hommes was originally conceived as a simple commentary on Cantillon's Essay. But since Mirabeau had a somewhat eclectic mind, which is to say, frankly, a bit mad, he quickly strayed from his original plan. The book simply discusses all the economic questions he knew, occasionally moving away from Cantillon. It is a difficult book to read, with a bizarre plan and digressions in every chapter. Mirabeau himself admitted that it was chaos and that his style was apocalyptic.
-
-
-
 
 ![image](assets/fr/052.webp)
 
@@ -485,71 +471,56 @@ Despite the chaos that it is, some ideas are worth noting:
 - He complains about the condition of the people, especially the peasants.
 - Finally, he defends the freedom of trade and the brotherhood of nations in peace.
 
-
 ![image](assets/fr/053.webp)
 
-It's hard to label Mirabeau's views as clearly liberal or anti-liberal. He often drifted back and forth, sometimes without realizing it. Still, liberal ideas frequently dominated his writing. One of his most famous lines was:
-
+It's hard to label Mirabeau's views as either liberal or anti-liberal. He often drifted back and forth, sometimes without realizing it, between one vision and the other. Still, liberal ideas frequently dominated his writing. One of his most famous lines was:
 
 > The true and only principle of political economy is to let everything be free.
 
 With his greatest success behind him, Mirabeau was courted. François Quesnay, who had just taken an interest in economics, invited him to his entresol at Versailles.
 
-
 ![image](assets/fr/054.webp)
 
-They debated furiously and finally, something that normally never happens in debates happened: Mirabeau flatly admitted that he had been wrong. He agreed with Quesnay's ideas and said he was ready to spread them.
+They debated furiously and finally, something that normally never happens in debates, happened: Mirabeau flatly admitted that he had been wrong. He agreed with Quesnay's ideas and said he was ready to spread them.
 
-
-Together, they formed the core of what would become the Physiocratic school, strengthened by the regular recruits they brought in. Shortly after Mirabeau's conversion, Quesnay enlisted him to defend his fiscal ideas. This led to the *Theory of Taxation*, for which Mirabeau was sent for a few days to the Vincennes prison and then exiled to Bignon.
-
+Together, they formed the core of what would become the Physiocratic school, strengthened by the regular recruits they brought in. Shortly after Mirabeau's conversion, Quesnay enlisted him to defend his his ideas on taxation. This led to the ["Theory of Taxation"](https://archive.org/details/thoriedelimpot00mira), for which Mirabeau was sent for a few days to the Vincennes prison and then exiled to Bignon.
 
 ![image](assets/fr/055.webp)
 
 Mirabeau also played a crucial role in recruiting new members for Quesnay's school. He even convinced the young Dupont de Nemours.
 
-
 ![image](assets/fr/056.webp)
 
 It was also at Mirabeau's house that the Physiocrats met every Tuesday. Personalities such as Turgot and Adam Smith appear to have attended these meetings once or several times.
 
-
 Throughout his life, Mirabeau remained a tireless writer. He authored numerous economic works defending Quesnay's doctrine. However, toward the end of his life, his influence waned. His writing style deteriorated to the point that his own brother wrote to him saying he could no longer understand his prose. His ideas, having become fully liberal, clashed with the socialist or proto-communist reaction of thinkers like Mably and even Rousseau. He struggled to find readers and publishers, and died largely unnoticed in 1789, on the eve of the storming of the Bastille.
-
 
 ## Quesnay
 
 <chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
+
 François Quesnay is one of the most famous French economists.
-
-
 
 ![image](assets/fr/057.webp)
 
-His name appears in every textbook on economics and the history of economic thought. They state that he created the Tableau Économique to schematically represent the economy, that he was the leader of the Physiocratic school, and that he was mistaken in believing that only land is productive, and finally, that Adam Smith came to set the record straight. This, more or less, is how textbooks tend to summarize François Quesnay.
-
+His name appears in every textbook on economics and the history of economic thought. It is stated that he created the "Tableau Économique" to schematically represent the economy, that he was the leader of the Physiocratic school, and that he was mistaken in believing that only land is productive, and finally, that Adam Smith came to set the record straight. This, more or less, is how textbooks tend to summarize François Quesnay.
 
 ![image](assets/fr/058.webp)
 
-Reducing him to this is a shame, because Quesnay was also the first economist to attempt to base the defense of economic freedom on scientific principles. He was one of the most listened to and influential economists of his time. Moreover, he founded Physiocracy, a much richer doctrine than the simplistic idea that only nature produces wealth, a notion that is often misrepresented.
-
+Reducing him to this is a shame, because Quesnay was also the first economist to attempt to base the defense of economic freedom on scientific principles. He was one of the most listened-to and influential economists of his time. Moreover, he founded Physiocracy, a much richer doctrine than the simplistic idea that only nature produces wealth, a notion that is often misrepresented.
 
 We'll discuss Physiocracy in more detail over the next three chapters. First, let's take a closer look at François Quesnay himself.
 
-
-Born in 1694 in Méré to a peasant family, Quesnay initially did not learn to read. He was trained by a local man and eventually went on to study at the College of Surgery and then the Faculty of Medicine. At the age of 24, he became a surgeon in Mantes.
-
+Born in 1694 in Méré to a peasant family that couldn't teach Quesnay to read. He was trained by a local man and eventually went on to study at the College of Surgery and then the Faculty of Medicine. At the age of 24, he became a surgeon in Mantes.
 
 He gained fame in 1730, at age 36, for opposing the common practice of bloodletting, which he believed was based on flawed theories and prejudices. He also dared to challenge the system of guilds, which dictated that only surgeons could perform operations and only doctors could prescribe medication. This often forced the poor to pay twice and bring in two people, a situation Quesnay found revolting.
 
 In 1740, he became secretary of the Academy of Surgery. In 1748, at age 54, he became the personal physician to Madame de Pompadour and moved to Versailles.
 
-
 ![image](assets/fr/059.webp)
 
 He was very close to Madame de Pompadour. Quesnay even said, at the time when the favorite's disgrace was announced, that he would not want to remain a doctor at Versailles without her:
 "I was attached to Madame de Pompadour in her prosperity; I will be so in her disgrace".
-
 
 Then he published several medical books: Treatise on Suppuration (1749), Treatise on Gangrene (1749), and Treatise on Continuous Fevers (1753), all of which were reprinted several times during his lifetime. 
 
@@ -569,7 +540,6 @@ He quickly found them: Baudeau, Dupont de Nemours, Le Trosne, Mercier de la Rivi
 
 Still, his disciples were deeply devoted and contributed greatly to Quesnay's popularity. Upon his death, Mirabeau gave his eulogy, saying, "We have lost our father, for we owed him everything". In truth, it was Quesnay who owed them everything, for without them, he would have remained stuck at Versailles, where his thinking, though it had much to seduce or worry, interested few.
 
-
 Thanks to the work of his collaborators, his ideas found a platform: first through newspapers such as the *Journal of Agriculture* and the *Ephémérides du Citoyen*.
 
 ![image](assets/fr/062.webp)
@@ -578,46 +548,33 @@ Then through books, not only those of his disciples but also an important anthol
 
 ![image](assets/fr/063.webp)
 
-This book gathered Quesnay's main contributions. It laid out the economic ideal of the Physiocrats' leader—a model of agricultural economy where the law guarantees everyone the right to own property and the freedom to trade.
-
-
+This book gathered Quesnay's main contributions. It laid out the economic ideal of the Physiocrats' leader: a model of agricultural economy where the law guarantees everyone the right to own property and the freedom to trade.
 
 # The Physiocratic School
 
 <partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
 
-
 ## History of the Physiocrats
 
 <chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
 
-
-
-
 Physiocracy became fashionable in France, and even across Europe, for barely a decade. After a long period of development, it gained prominence in the mid-1760s. By the time Turgot came to power in 1776, the movement had already lost its popularity, and the minister kept his support for Quesnay's school mostly hidden.
 
-
-Its origins lie in the evolution of economic ideas during the 1750s. Several authors helped bridge the gap between Boisguilbert and what would later become known as Physiocracy. As previously discussed, Vincent de Gournay and his circle of economists were behind many publications that introduced French readers to foreign economic thought and helped ignite their passion for economics. The foundations of Physiocracy were already present in books like Détail de la France by Boisguilbert and Essay on the Nature of Trade in General by Cantillon.
-
+Its origins lie in the evolution of economic ideas during the 1750s. Several authors helped bridge the gap between Boisguilbert and what would later become known as Physiocracy. As previously discussed, Vincent de Gournay and his circle of economists were behind many publications that introduced French readers to foreign economic thought and helped ignite their passion for economics. The foundations of Physiocracy were already present in books like "Détail de la France" by Boisguilbert and ["Essay on the Nature of Trade in General"](https://archive.org/details/essaisurlanature0000cant) by Cantillon.
 
 ![image](assets/fr/064.webp)
 
 ![image](assets/fr/065.webp)
 
+The concept of laissez-faire had several advocates since Boisguilbert, especially Vincent de Gournay and the Marquis d'Argenson.
 
-The concept of laissez-faire had several champions since Boisguilbert, especially Vincent de Gournay and the Marquis d'Argenson.
+What remained was to turn this body of ideas into a coherent, complete doctrine, and the Marquis de Mirabeau was the first to try. Inspired by Cantillon's Essay, he began writing a comprehensive treatise on economic matters titled "L'Ami des Hommes", which was very successful.
 
-
-What remained was to turn this body of ideas into a coherent, complete doctrine. The Marquis de Mirabeau was the first to try. Inspired by Cantillon's Essay, he began writing a comprehensive treatise on economic matters titled L'Ami des Hommes, which was very successful.
-
-
-This was in 1756, and the story of Physiocracy could begin. François Quesnay, then a surgeon turned personal physician to Madame de Pompadour, invited Mirabeau to Versailles to discuss economic ideas.
-
+Thus, in 1756, the story of Physiocracy could begin. François Quesnay, then a surgeon turned personal physician to Madame de Pompadour, invited Mirabeau to Versailles to discuss economic ideas.
 
 ![image](assets/fr/066.webp)
 
-
-By the end of their conversation, Mirabeau agreed with Quesnay's ideas. From then on, they wrote: Quesnay created the *Tableau économique* (1758) to illustrate the flow of wealth in the economy, and together they published *Théorie de l'impôt* (1759).
+By the end of their conversation, Mirabeau agreed with Quesnay's ideas. From then on, they wrote: Quesnay created the *Tableau économique* (1758) to illustrate the flow of wealth in the economy, and together they published the Theory of Taxation (1759).
 
 ![image](assets/fr/067.webp)
 

@@ -186,7 +186,7 @@ Om du inte är bekant med att använda Bitcoin-, Lightning- eller Liquid-plånb�
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Du kan också utforska [våra detaljerade handledningar om de bästa Bitcoin-plånböckerna] (https://planb.network/tutorials/Wallet).
+Du kan också utforska [våra detaljerade handledningar om de bästa Bitcoin-plånböckerna] (https://planb.network/tutorials/wallet).
 
 
 Bekräfta sedan ditt köp genom att klicka på "*Bekräfta köp*".

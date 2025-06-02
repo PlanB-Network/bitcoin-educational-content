@@ -283,7 +283,7 @@ Att använda Sparrow har fördelen att det är ganska enkelt att komma igång me
 För att börja behöver du naturligtvis programvaran Sparrow Wallet. Du kan ladda ner den direkt från [den officiella webbplatsen] (https://sparrowwallet.com/download/) eller på [deras GitHub] (https://github.com/sparrowwallet/sparrow/releases).
 
 
-Innan du installerar programvaran är det viktigt att verifiera signaturen och integriteten för den körbara filen som du just har laddat ner. Om du vill ha mer information om installationsprocessen och verifiering av Sparrow-programvara rekommenderar jag att du läser den här andra handledningen: *[The Sparrow Wallet Guides](https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
+Innan du installerar programvaran är det viktigt att verifiera signaturen och integriteten för den körbara filen som du just har laddat ner. Om du vill ha mer information om installationsprocessen och verifiering av Sparrow-programvara rekommenderar jag att du läser den här andra handledningen: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 
 ### Skapa en Software Wallet
@@ -468,7 +468,7 @@ I det här avsnittet har du möjlighet att ange destinationen Address, beloppet 
 ![sparrow](assets/notext/33.webp)
 
 
-[-> Läs mer om Stonewall-transaktioner] (https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[-> Läs mer om Stonewall-transaktioner] (https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 Om du vill göra ett mer exakt urval av dina mynt att spendera, gå till fliken `UTXOs`. Välj de UTXO:er som du specifikt vill konsumera och tryck sedan på knappen `Send Selected` för att initiera transaktionen.
@@ -496,7 +496,7 @@ Ett fönster öppnas, börja med att välja destination Wallet från rullgardins
 ![sparrow](assets/notext/37.webp)
 
 
-Välj CoinJoin-tröskeln bortom vilken uttaget kommer att göras automatiskt. Jag kan inte ge dig ett exakt antal remixer att utföra, eftersom detta varierar beroende på din personliga situation och dina integritetsmål, men undvik att välja en tröskel som är för låg. Jag rekommenderar att du läser den här andra artikeln för att lära dig mer om remixningsprocessen: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-Whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
+Välj CoinJoin-tröskeln bortom vilken uttaget kommer att göras automatiskt. Jag kan inte ge dig ett exakt antal remixer att utföra, eftersom detta varierar beroende på din personliga situation och dina integritetsmål, men undvik att välja en tröskel som är för låg. Jag rekommenderar att du läser den här andra artikeln för att lära dig mer om remixningsprocessen: [REMIX - Whirlpool](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 
 Du kan låta alternativet `Indexintervall` vara kvar på standardvärdet `Full`. Denna funktion gör det möjligt att mixa samtidigt från olika klienter, men det är inte vad vi vill göra i denna handledning. För att slutföra och aktivera alternativet `Mix to...`, tryck på `Restart Whirlpool`.
@@ -554,9 +554,9 @@ Detaljerade handledningar om hur man implementerar dessa olika tekniker kommer s
 
 **Ytterligare resurser:**
 
-[Sparrow Wallet Video Tutorial] (https://planb.network/tutorials/Wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+[Sparrow Wallet Video Tutorial] (https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-[Samourai Wallet Video Tutorial](https://planb.network/tutorials/Wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 
 
 - [Samourai Wallet Dokumentation - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

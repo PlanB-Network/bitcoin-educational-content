@@ -57,7 +57,7 @@ Za potpuni teorijski uvod u Lightning Network, preporučujemo da pohađate naš 
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Ovaj kurs će vam pružiti temeljno razumevanje osnovnih pojmova Lightning Network, pre nego što pređete na vežbanje sa vašim LND čvorom.
 

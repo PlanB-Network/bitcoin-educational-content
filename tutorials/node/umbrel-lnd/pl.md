@@ -57,7 +57,7 @@ Aby uzyskać pełne teoretyczne wprowadzenie do Lightning Network, zalecamy skor
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Ten kurs zapewni ci gruntowne podstawy podstawowych koncepcji Lightning Network, zanim przejdziesz do praktyki z węzłem LND.
 

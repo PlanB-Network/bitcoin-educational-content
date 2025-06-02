@@ -44,7 +44,7 @@ To operate, a Lightning node must be permanently connected to the network and in
 For a complete theoretical introduction to Lightning Network, we recommend that you take our dedicated course :
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 This course will give you a thorough grounding in the fundamental concepts of Lightning Network, before moving on to practice with your LND node.
 

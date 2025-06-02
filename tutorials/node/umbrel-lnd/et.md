@@ -57,7 +57,7 @@ Lightning Network täieliku teoreetilise sissejuhatuse saamiseks soovitame teil 
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 See kursus annab teile põhjaliku ülevaate Lightning Network põhimõistetest, enne kui liigute edasi LND sõlme kasutamise praktikasse.
 

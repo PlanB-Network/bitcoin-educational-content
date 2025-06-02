@@ -1,6 +1,6 @@
 ---
 name: Blink
-description: Complete Blink Wallet Tutorial: Send, Receive, and Use Bitcoin with Ease
+description: Complete Blink Wallet Tutorial - Send, Receive, and Use Bitcoin with Ease
 ---
 
 ![cover](assets/cover.webp)

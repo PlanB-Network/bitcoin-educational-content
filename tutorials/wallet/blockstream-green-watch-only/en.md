@@ -94,7 +94,7 @@ You will be asked to provide either an extended public key (`xpub`, `zpub`, etc.
 
 ![GREEN-WATCH-ONLY](assets/fr/16.webp)
 
-You will therefore need to retrieve this information from the wallet you wish to track via your watch-only wallet. The extended public key is not sensitive in terms of security, as it does not allow access to private keys, but it is sensitive for your confidentiality, as it reveals all your public keys and therefore all your Bitcoin transactions.
+You will therefore need to retrieve this information from the wallet you wish to track via your watch-only wallet. The extended public key is not sensitive in terms of security, as it does not allow access to private keys, but it is sensitive for your privacy, as it reveals all your public keys and therefore all your Bitcoin transactions.
 
 Let's say you're using Sparrow Wallet to manage your wallet on a hardware wallet, you'll find this information in the "*Settings*" section. Finding this information will depend on the wallet management software you use, but it's usually in the settings.
 

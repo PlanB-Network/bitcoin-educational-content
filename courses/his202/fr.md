@@ -688,33 +688,31 @@ Commerçants : 100 en novembre 2011, 1 100 en octobre 2012 (source : https://
 
 12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666
 
-### Poker et jeu d'argent
+### Le poker et le jeu d'argent en ligne
 
-Répression contre le poker dans l'année, 15 avril 2011 surnommé « vendredi noir » (original: "Black Friday") ou "Full Tilt Scandal", saisie des sites de PokerStars, Full Tilt Poker et Absolute Poker par le FBI, violation de l'UIGEA, Unlawful Internet Gambling Enforcement Act, forme de censure financière : le poker n'est pas interdit, mais les banques ont pour interdiction d'autoriser des virements vers les plateformes de poker. Pour contourner cette réglementation, les  https://www.theguardian.com/world/2011/apr/24/online-poker-sites-shut-down-fbi https://www.pokernews.com/news/2022/11/full-tilt-poker-cheating-scandal-42534.htm https://en.wikipedia.org/wiki/United_States_v._Scheinberg https://web.archive.org/web/20110419194619/https://www.nytimes.com/2011/04/16/technology/16poker.html
+L'année 2011 est marquée par un mouvement de répression contre le poker en ligne. Le 15 avril a lieu un évènement qui sera surnommé le « vendredi noir » (original: "Black Friday") par les joueurs de poker : les sites de PokerStars, Full Tilt Poker et Absolute Poker (les trois principales plateformes aux États-Unis) sont fermés par le FBI. Elles sont accusés de contourner l'*Unlawful Internet Gambling Enforcement Act*, qui interdit aux banques d'autoriser des virements vers les plateformes de jeu d'argent en ligne. Pour ce faire, elles se [font](https://web.archive.org/web/20110419230512/http://www.justice.gov/usao/nys/pressreleases/April11/scheinbergetalindictmentpr.pdf) passer pour des commerçants qui vendent « des marchandises telles que des bijoux et des balles de golf » aux joueurs, afin de ne pas attirer les soucis de leurs banques. Cette fermeture est désastreuse pour le milieu du poker, qui régresse de plusieurs années en ce qui concerne l'activité en ligne.
 
-The 2006 Unlawful Internet Gambling Enforcement Act made it a crime for gambling businesses to knowingly accept most forms of payment for illegal Internet gambling. The defendants allegedly tried to circumvent these rules with the help of individual payment processors, also named as defendants, who helped disguise their player payments with phony merchants selling non-existent goods such as jewelry or golf balls.
+https://www.theguardian.com/world/2011/apr/24/online-poker-sites-shut-down-fbi https://www.pokernews.com/news/2022/11/full-tilt-poker-cheating-scandal-42534.htm https://en.wikipedia.org/wiki/United_States_v._Scheinberg https://web.archive.org/web/20110419194619/https://www.nytimes.com/2011/04/16/technology/16poker.html
 
-"Because U.S. banks and credit card issuers were largely unwilling to process their payments, the Poker Companies allegedly used fraudulent methods to circumvent federal law and trick these institutions into processing payments on their behalf. For example, defendants ISAI SCHEINBERG and PAUL TATE of PokerStars, RAYMOND BITAR and NELSON BURTNICK of Full Tilt Poker, and SCOTT TOM and BRENT BECKLEY of Absolute Poker, arranged for the money received from U.S. gamblers to be disguised as payments to hundreds of non-existent online merchants purporting to sell merchandise such as jewelry and golf balls. Of the billions of dollars in payment transactions that the Poker Companies tricked U.S. banks into processing, approximately one-third or more of the funds went directly to the Poker Companies as revenue through the "rake" charged to players on almost every poker hand played online." [15/4](https://web.archive.org/web/20110419230512/http://www.justice.gov/usao/nys/pressreleases/April11/scheinbergetalindictmentpr.pdf)
+Bitcoin convient parfaitement. Le jeu d'argent est l'une des possibilités envisagées par Satoshi, lorsqu'il a intégré des fonctions pour une éventuelle application de poker dans la version 0.1 du code du logiciel \[voir HIS201, ch4\]. Bitcoin permet de [résoudre](https://web.archive.org/web/20110429052748/http://bitcoinweekly.com/articles/bitcoin-poker) le problème « en réduisant les risques de rétrofacturation et en limitant la capacité des États à bloquer les paiements ». (original: "Bitcoin seems to resolve many of those issues by reducing the issue of chargebacks and reducing the ability of governments to shut down payments.")
 
-Bitcoin convient parfaitement. Le jeu d'argent est l'une des possibilités envisagées par Satoshi, lorsqu'il a intégré des fonctions pour une éventuelle application de poker dans la version 0.1 du code du logiciel \[voir HIS201, ch4\].
+Une plateforme de poker en ligne en bitcoins existe déjà : il s'agit de Betco.in, [lancée](https://bitcointalk.org/index.php?topic=840.msg9795#msg9795) en août 2010 par Pavel Karoukin, un développeur biélorusse alors installé aux États-Unis et utilisant le pseudonyme Hippich. L'interface est rudimentaire, mais fonctionnelle.
 
-Betco.in, (hippich), sept. 2010 https://bitcointalk.org/index.php?topic=840.msg9795#msg9795 https://web.archive.org/web/20111128083415/https://bitcointalk.org/index.php?topic=840.0
+![Capture du client de Seals with Clubs en 2013](assets/en/betcoin-screenshot-20110623.webp)
 
-[Moonco.in](https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530), juin 2011 (mais dérive rapidement vers un site de paris, piraté en septembre)
+Capture du client de Betco.in en 2011 (source : [Hippich](https://www.youtube.com/watch?v=N6SjCgOY61E) sur Youtube)
 
-BTC on Tilt, [18 juillet 2011](https://web.archive.org/web/20110722145251/http://btcontilt.com/nice-start)
+En 2011, avec le « vendredi noir », les plateformes se mutliplient : Moonco.in [ouvre](https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530) en juin (mais dérive rapidement vers un site de paris et est piratée en septembre) et BTC on Tilt [ouvre](https://web.archive.org/web/20110722145251/http://btcontilt.com/nice-start) en juillet.
 
-Seals With Clubs (FreeMoney) (littéralement « phoques avec des trèfles »), 29 août 2011 https://web.archive.org/web/20120328190743/https://bitcointalk.org/index.php?topic=40077.0 [sealswithclubs.eu, 27/3/2012](https://bitcointalk.org/index.php?topic=40077.msg822567#msg822567)
+La plateforme la plus emblématique [ouvre ses portes](https://web.archive.org/web/20111128155416/https://bitcointalk.org/index.php?topic=40077.0) à la fin du mois d'août. Il s'agit de Seals With Clubs (littéralement « phoques avec des trèfles »). Elle est lancée par un développeur anonyme, FreeMoney, qui a découvert Bitcoin lors du slashdotting de juillet 2010.
 
 ![Capture du client de Seals with Clubs en 2013](assets/en/sealswithclubs-table-2013-thepokerbank.webp)
 
 Capture du client de Seals with Clubs en 2013 (source : [ThePokerBank.com](https://www.thepokerbank.com/rooms/sealswithclubs/))
 
-Paris variés : https://web.archive.org/web/20111004131910/http://betwithbtc.com/ ([GoWest](https://bitcointalk.org/index.php?topic=45566.msg543768#msg543768), [vendu en octobre 2013 ?](https://bitcointalk.org/index.php?topic=314256.msg3369154#msg3369154))
+[évoquée](https://forumserver.twoplustwo.com/28/discussion-poker-sites/seals-clubs-closed-see-new-swcpoker-thread-1248197/) sur le forum de TwoPlusTwo. [mise en avant](https://web.archive.org/web/20120308103542/https://www.youtube.com/watch?v=QXNb9h12AE8) par le joueur professionnel Bryan Micon, qui [déclare](https://bitcointalk.org/index.php?topic=11941.msg167263#msg167263) être « totalement fasciné par les bitcoins » (original: "totally enthralled with bitcoins"). (à partir de janvier 2012 https://bitcointalk.org/index.php?topic=56706.msg684747#msg684747 https://bitcointalk.org/index.php?topic=40077.msg704795#msg704795) (Reprise par Bryan Micon ? https://x.com/BryanMicon https://bitcointalk.org/index.php?action=profile;u=18106), devient [sealswithclubs.eu](https://bitcointalk.org/index.php?topic=40077.msg822567#msg822567) en mars 2012
 
-"Bitcoin for Poker Home Games" https://bitcointalk.org/index.php?topic=29024.msg365482#msg365482
-
-http://betsofbitco.in/
+Le jeu d'argent en ligne avec Bitcoin se développe énormément à ce moment-là. Les casinos virtuels se multiplient, à tel point qu'un sous-forum consacé au domaine est obligé d'[ouvrir](https://bitcointalk.org/index.php?topic=39621.msg483368#msg483368) sur Bitcointalk en août. Une page de recensement (betwithbtc.com) est [créée](https://bitcointalk.org/index.php?topic=45566.msg543768#msg543768) par GoWest en septembre. Outre le poker, il y a du blackjack, de la roulette, des machines à sous, de la loterie, des paris sportifs et d'autres jeux originaux.
 
 ## L'amélioration de l'utilisation (mars 2011–nov. 2011)
 

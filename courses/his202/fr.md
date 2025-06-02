@@ -738,6 +738,10 @@ http://betsofbitco.in/
 
 ## La légitimisation (mai 2013–janv. 2014)
 
+## La fin du Far West (juil. 2013–févr. 2014)
+
+Poursuites contre Erik Voorhees, arrestation de Ross Ulbricht et fermeture de Silk Road, arrêt de la frappe des bitcoins de Casascius, censure bancaire des différentes plateformes, fin de BitInstant et arrestation de Charlie Shrem
+
 # 2014
 
 ## La chute de Mt. Gox

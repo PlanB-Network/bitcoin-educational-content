@@ -6,6 +6,8 @@ description: The bowless Lightning wallet.
 ![misty-breez-cover](assets/cover.webp)
 
 
+![video](https://youtu.be/mibKrTvtlyQ)
+
 Misty Breez is a Lightning self-holding wallet developed by Breez based on their Software Development Kit and the **Liquid** network developed by BlockStream.
 
 It comes with a completely new approach to operating without a Lightning node: a potential **GAME CHANGER** in Bitcoin inter-network transfers.

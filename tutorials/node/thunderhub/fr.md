@@ -1,6 +1,6 @@
 ---
-name: Tutoriel ThunderHub
-description: Interface web de gestion d'un nœud Lightning LND 
+name: ThunderHub
+description: Interface web de gestion d'un nœud Lightning LND
 ---
 ![cover](assets/cover.webp)
 

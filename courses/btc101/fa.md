@@ -562,7 +562,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 برای مثال، شما می‌توانید از کیف پول Sparrow به عنوان یک کیف پول داغ استفاده کنید:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **سطح 2**، شما از یک کیف پول فیزیکی استفاده می کنید و لیست 12/24 کلمه خود را امن کرده اید. اغلب به آن "کیف پول سرد" می گویند زیرا کلیدهای شما در یک دستگاه ذخیره شده است که به اینترنت متصل نیست. در این حالت، شما همیشه باید هر معامله را با دستگاه خود امضا کنید، که این باعث می شود دارایی های شما در هر روز کمتر قابل دسترسی باشد.
 
@@ -1087,11 +1087,11 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 - راه حل آنلاین ساده: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - راه حل برای تاجران آماتور: پرداخت بیت کوین سوئیس
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - راه حل برای ساختمان های بزرگ یا افرادی که به بیت کوین علاقه مند هستند: سرور BTCpay
 
@@ -1393,3 +1393,4 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>درست</isCourseConclusion>
+

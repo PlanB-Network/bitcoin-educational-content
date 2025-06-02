@@ -909,15 +909,17 @@ Pada 22 Mei, ia memesan dua pizza dari Papa John's yang diantar ke Laszlo di Jac
 
 ![Pizza dari Papa John's yang dikirimkan ke Laszlo Hanyecz pada 22 Mei 2010](assets/en/41.webp)
 
-???
-
 Ini menandai pembelian barang fisik pertama dengan Bitcoin, meskipun pembelian ini tidak langsung. Laszlo mendapat ucapan selamat dari [Martti Malmi](https://Bitcointalk.org/index.php?topic=137.msg1196#msg1196) yang menulis bahwa "langkah besar telah diambil." NLS juga menambahkan komentar [positif](https://Bitcointalk.org/index.php?topic=137.msg1197#msg1197) mengenai hal ini.
+
+Ini menandai pembelian pertama barang fisik dengan bitcoin, meskipun pembelian ini tidak langsung. Laszlo diberi selamat oleh [Martti Malmi](https://Bitcointalk.org/index.php?topic=137.msg1196#msg1196) yang menulis bahwa "langkah besar telah diambil." NLS juga menambahkan [komentar](https://Bitcointalk.org/index.php?topic=137.msg1197#msg1197) positif mengenai hal ini.
 
 Pada 12 Juni, Laszlo Hanyecz [mengulangi](https://Bitcointalk.org/index.php?topic=137.msg1526#msg1526) penawarannya dengan menulis di forum:
 
-> "Ini adalah penawaran terbuka dengan cara... Saya akan menukar 10.000 BTC untuk 2 pizza ini kapan saja selama saya memiliki dana."
-Dia pun melakukan beberapa transaksi lain dari jenis yang sama, hingga tanggal 4 Agustus ketika dia [menulis](https://Bitcointalk.org/index.php?topic=137.msg7544#msg7544) bahwa dia tidak benar-benar "mampu untuk terus melakukan ini" karena dia tidak lagi bisa "menghasilkan ribuan unit per hari." Alasannya: kenaikan harga yang disebabkan oleh arus masuk dari Slashdot pada tanggal 11 Juli, yang juga membuatnya mendapatkan ejekan dari anggota forum, yang menyiratkan bahwa dia akan lebih baik jika menyimpan Bitcoinnya. Beberapa bulan kemudian pada bulan November, ketika harga Bitcoin berada di sekitar 25 sen, pengguna ribuck [menulis](https://Bitcointalk.org/index.php?topic=137.msg25352#msg25352) dengan cara yang hampir bersifat nubuat: "Apakah ini pada akhirnya akan menjadi pizza seharga jutaan dolar pertama di dunia?"
-Namun, peningkatan daya beli cryptocurrency ini tidak mengurangi simbolisme dari peristiwa ini, yang diperingati setiap tahun pada tanggal tersebut sebagai Hari Pizza Bitcoin oleh komunitas Bitcoin.
+> "Ini adalah penawaran terbuka, omong-omong... Saya akan menukar 10.000 BTC dengan 2 pizza ini kapan saja selama saya memiliki dana."
+
+Ia kemudian melakukan beberapa transaksi lain dengan jenis yang sama, hingga 4 Agustus ketika ia [menulis](https://Bitcointalk.org/index.php?topic=137.msg7544#msg7544) bahwa ia tidak bisa lagi "mampu terus melakukan ini" karena ia tidak bisa lagi "menghasilkan ribuan unit per hari." Alasannya: kenaikan harga yang disebabkan oleh masuknya pengunjung dari Slashdot pada 11 Juli, yang juga membuatnya mendapat ejekan dari anggota forum, yang menyiratkan bahwa ia akan lebih baik menyimpan bitcoinnya. Beberapa bulan kemudian pada November, ketika harga bitcoin berkisar 25 sen, pengguna ribuck [menulis](https://Bitcointalk.org/index.php?topic=137.msg25352#msg25352) dengan cara yang hampir profetik: "Akankah ini akhirnya menjadi pizza sejuta dolar pertama di dunia?"
+
+Meskipun demikian, peningkatan daya beli mata uang kripto tidak mengurangi simbolisme peristiwa ini, yang diperingati setiap tahun pada tanggal ini sebagai Bitcoin Pizza Day oleh komunitas Bitcoin.
 
 ### Gavin Andresen dan Bitcoin Faucet
 

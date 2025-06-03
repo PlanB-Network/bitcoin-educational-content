@@ -505,8 +505,8 @@ Cilj Lige bio je da mobiliše javno mnjenje kako bi izvršili pritisak na parlam
 - Povećanja industrijskih prodajnih mesta
 - Povećanja zapošljavanja
 - Smanjenja cene hleba
-- Učinite poljoprivredu i industriju efikasnijim kroz konkurenciju
-- Promoviši mir među narodima
+- Poboljšanja efikasnosti poljoprivrede i industrije kroz konkurenciju
+- Promovisanja mira među narodima
 
 
 ![image](assets/en/043.webp)
@@ -541,7 +541,7 @@ Pitanje slobodne trgovine aktuelno je i danas. Geografski udžbenici u školama 
 <partId>f902ed30-269e-5e44-a76d-8efd1a4e4085</partId>
 
 
-## Ruso
+## Rousseau
 
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
@@ -587,26 +587,26 @@ Stoga je sasvim legitimno, prema Rousseauu, prisiliti ljude u ime cilja koji bi 
 ![image](assets/en/049.webp)
 
 
-Uveren da je dobro društvo tvorevina zakona, Ruso tako daje neograničenu moć zakonodavcu. Na njemu je da transformiše pojedince u ostvarene ljude, u građane.
+Uveren da je dobro društvo tvorevina zakona, Rousseau tako daje neograničenu moć zakonodavcu. Na njemu je da transformiše pojedince u ostvarene ljude, u građane.
 
-Ali, takođe je na zakonu da učini da imovina postoji. Prema Rousseauu, imovina može biti legitimna samo ako je regulisana od strane zakonodavca. Zaista, zlo leži u nejednakosti i ropstvu, od kojih oba proizlaze iz imovine. To je izum jakih koji je doveo do lošeg društva, do buržoaskog društva, do odnosa dominacije. U svom Delu o poreklu i osnovama nejednakosti, on piše ovaj čuveni odlomak:
+Ali, takođe je na zakonu da učini da imovina postoji. Prema Rousseauu, imovina može biti legitimna samo ako je regulisana od strane zakonodavca. Zaista, zlo leži u nejednakosti i ropstvu, od kojih oba proizlaze iz imovine. To je izum jakih koji je doveo do lošeg društva, do buržoaskog društva, do odnosa dominacije. U svom delu "Rasprava o poreklu i osnovama nejednakosti" (Discourse on the Origin and Foundations of Inequality), on piše ovaj čuveni odlomak:
 
 
-> Prva osoba koja je, ogradivši komad zemlje, rekla: Ovo je moje, i našla ljude dovoljno prostodušne da joj poveruju, bila je pravi osnivač građanskog društva. Koliko bi zločina, ratova, ubistava, koliko bi bede i užasa bilo pošteđeno ljudskom rodu od strane onoga koji bi, iščupavši kolce ili zatrpavši jarak, povikao svojim bližnjima: "Čuvajte se da slušate ovog varalicu; izgubljeni ste ako zaboravite da plodovi pripadaju svima, a zemlja nikome!"
+> Prva osoba koja je, ogradivši komad zemlje, rekla: Ovo je moje, i našla ljude dovoljno prostodušne da joj poveruju, bila je pravi osnivač građanskog društva. Koliko bi zločina, ratova, ubistava, koliko bi bede i užasa bilo pošteđeno ljudskom rodu od strane onoga koji bi, podignuvši ulog ili izaći iz jarka, povikao svojim bližnjima: "Čuvajte se da slušate ovog prevaranta; izgubljeni ste ako zaboravite da plodovi pripadaju svima, a zemlja nikome!"
 
 ![image](assets/en/050.webp)
 
 
-Dakle, prirodna svojina je izvor zla. I Marks, veliki čitalac Rusoa, bi se toga setio. Kako se boriti protiv ovog zla? Kroz društveni Contract, odgovara Ruso. Zaista, dobro društvo je ono koje proizilazi iz Contract koji propisuje otuđenje pojedinca sa svim njegovim pravima zajednici. Od tada, na zajednici je da dodeljuje prava pojedincu putem zakona.
+Dakle, prirodna svojina je izvor zla. I Marx, veliki čitalac Rousseau-a, bi se toga setio. Kako se boriti protiv ovog zla? Kroz društveni ugovor, odgovara Rousseau. Zaista, dobro društvo je ono koje proizilazi iz ugovora koji propisuje otuđenje pojedinca sa svim njegovim pravima zajednici. Od tada, na zajednici je da dodeljuje prava pojedincu putem zakona.
 
 
-Suprotno od Rusoovog mišljenja, Frederik Bastija kaže da je "čovek rođen kao vlasnik imovine." Za njega je imovina neophodna posledica prirode čoveka, njegove konstitucije. On piše da je "čovek rođen kao vlasnik imovine, jer je rođen sa potrebama čije je zadovoljenje neophodno za život, sa organima i sposobnostima čije je korišćenje neophodno za zadovoljenje tih potreba". Ali sposobnosti su samo produžetak osobe, a imovina je samo produžetak sposobnosti. Drugim rečima, korišćenje naših sposobnosti u radu je ono što legitimizuje imovinu.
+Suprotno od Rousseau-ovog mišljenja, Frédéric Bastiat kaže da je "čovek rođen kao vlasnik imovine." Za njega imovina je neophodna posledica prirode čoveka, njegove konstitucije. On piše da je "čovek rođen kao vlasnik imovine, jer je rođen sa potrebama čije je zadovoljenje neophodno za život, sa organima i sposobnostima čije je korišćenje neophodno za zadovoljenje tih potreba". Ali sposobnosti su samo produžetak osobe, a imovina je samo produžetak sposobnosti. Drugim rečima, korišćenje naših sposobnosti u radu je ono što legitimizuje imovinu.
 
 
 ![image](assets/en/051.webp)
 
 
-Prema Bastijatu, društvo, ljudi i imovina postoje pre zakona, i on ima ovu poznatu frazu: "Nije zbog toga što postoje zakoni da postoji imovina, već zbog toga što postoji imovina da postoje zakoni". Zato zakon mora biti negativan: mora sprečiti zadiranje u ljude i njihovu imovinu. Imovina je _raison d'être_ zakona, a ne obrnuto.
+Prema Bastiat-u, društvo, ljudi i imovina postoje pre zakona, i on ima ovu poznatu frazu: "Nije zbog toga što postoje zakoni da postoji imovina, već zbog toga što postoji imovina da postoje zakoni". Zato zakon mora biti negativan: mora sprečiti zadiranje u ljude i njihovu imovinu. Imovina je _raison d'être_ zakona, a ne obrnuto.
 
 
 ## Klasično obrazovanje
@@ -614,13 +614,13 @@ Prema Bastijatu, društvo, ljudi i imovina postoje pre zakona, i on ima ovu pozn
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
-Dana 24. februara 1848, nakon trodnevnih nereda u Parizu, kralj Luj-Filip I abdicirao je sa vlasti. Ovo je označilo rođenje Druge republike.
+Dana 24. februara 1848., nakon trodnevnih nereda u Parizu, kralj Louis-Philippe I abdicirao je sa vlasti. Ovo je označilo rođenje Druge Republike.
 
 
 ![image](assets/en/052.webp)
 
 
-Bastiat je bio u Parizu, svedočio je događajima iz prve ruke. Kasnije će napisati:
+Bastiat je bio u Parizu, svedočio je događajima iz prve ruke. Kasnije je napisao:
 
 
 > Dana 24. februara, ja sam, kao i mnogi drugi, strahovao da nacija nije spremna da sama sobom upravlja. Moram priznati, plašio sam se uticaja grčkih i rimskih ideja koje nam nameće akademski monopol.
@@ -631,32 +631,32 @@ Ovaj odlomak je iznenađujući. Kakve veze imaju grčka i rimska antika s tim?
 ![image](assets/en/053.webp)
 
 
-Bastiat se poziva na Platonovu Republiku i njegovu teoriju filozofa-kralja, ali i na Spartu, koju je Ruso toliko obožavao, na Rimsko carstvo, za kojim je Napoleon bio toliko nostalgičan. Nažalost, prema Bastijatu, ove grčke i rimske ideje zasnovane su na lažnoj pretpostavci: ideji o svemoći zakonodavca, o apsolutnoj suverenosti zakona.
+Bastiat se poziva na Platonovu Republiku i njegovu teoriju filozofa-kralja, ali i na Spartu, koju je Rousseau toliko obožavao, kao i na Rimsko carstvo, za kojim je Napoleon bio toliko nostalgičan. Nažalost, prema Bastiat-u, ove grčke i rimske ideje zasnovane su na lažnoj pretpostavci: ideji o svemoći zakonodavca, o apsolutnoj suverenosti zakona.
 
 
-Dovoljno je nasumično otvoriti gotovo bilo koju knjigu o filozofiji, politici ili istoriji da bi se pronašla ova ideja, ukorenjena u našoj kulturi, da je čovečanstvo inertna materija koja prima život, organizaciju, moralnost i prosperitet od političke moći. Prepušteno samo sebi, čovečanstvo bi težilo anarhiji i bilo bi spašeno od ove katastrofe samo misterioznom i svemoćnom rukom Zakonodavca. Međutim, kaže Bastija, ova ideja je dugo sazrevala i pripremana kroz vekove klasičnog obrazovanja.
+Dovoljno je nasumično otvoriti gotovo bilo koju knjigu o filozofiji, politici ili istoriji da bi se pronašla ova ideja, ukorenjena u našoj kulturi, da je čovečanstvo inertna materija koja prima život, organizaciju, moralnost i prosperitet od političke moći. Prepušteno samo sebi, čovečanstvo bi težilo anarhiji i bilo bi spašeno od ove katastrofe samo misterioznom i svemoćnom rukom Zakonodavca. Međutim, kaže Bastiat, ova ideja je dugo sazrevala i pripremana kroz vekove klasičnog obrazovanja.
 
 
 ![image](assets/en/054.webp)
 
 
-Prvo, kaže on, Rimljani su smatrali vlasništvo isključivo konvencionalnom činjenicom, kao veštačkom tvorevinom pisanog zakona. Zašto? Jednostavno, objašnjava Bastija, zato što su živeli od ropstva i pljačke. Za njih su sva vlasništva bila plod eksploatacije. Stoga nisu mogli uvesti u zakonodavstvo ideju da je osnova legitimnog vlasništva rad, a da ne unište temelje svog društva.
+Prvo, kaže on, Rimljani su smatrali vlasništvo isključivo konvencionalnom činjenicom, kao veštačkom tvorevinom pisanog zakona. Zašto? Jednostavno, objašnjava Bastiat, zato što su živeli od ropstva i pljačke. Za njih je sva imovina bila plod otimačine. Stoga nisu mogli uvesti u zakonodavstvo ideju da je osnova legitimnog vlasništva rad, a da ne unište temelje svog društva.
 
-Zaista su imali empirijsku definiciju svojine, "jus utendi et abutendi" (pravo korišćenja i zloupotrebe). Međutim, ova definicija se bavila samo posledicama, a ne uzrocima, drugim rečima, etičkim poreklom svojine. Da bi se svojina pravilno ustanovila, potrebno je vratiti se na samu konstituciju čoveka i razumeti odnos i neophodnu povezanost koja postoji između potreba, sposobnosti, rada i svojine. Rimljani, koji su bili vlasnici robova, da li su mogli zamisliti ideju da "svaki čovek poseduje sebe, a samim tim i svoj rad, i, posledično, proizvod svog rada"? Bastija se pita.
+Zaista su imali empirijsku definiciju svojine, "jus utendi et abutendi" (pravo korišćenja i zloupotrebe). Međutim, ova definicija se bavila samo posledicama, a ne uzrocima, drugim rečima, etičkim poreklom svojine. Da bi se svojina pravilno ustanovila, potrebno je vratiti se na samu konstituciju čoveka i razumeti odnos i neophodnu povezanost koja postoji između potreba, sposobnosti, rada i imovine. Rimljani, koji su bili vlasnici robova, da li su mogli zamisliti ideju da "svaki čovek poseduje sebe, a samim tim i svoj rad, i, posledično, proizvod svog rada"? pita se Bastiat.
 
 
-> Stoga, nemojmo se iznenaditi, zaključuje Bastiat, kada vidimo da se rimska ideja da je vlasništvo konvencionalna činjenica i pravna institucija ponovo pojavljuje u osamnaestom veku; da, daleko od toga da je Zakon korolar vlasništva, vlasništvo je korolar Zakona.
+> Stoga, nemojmo se iznenaditi, zaključuje Bastiat, kada vidimo da se rimska ideja da je vlasništvo konvencionalna činjenica i pravna institucija ponovo pojavljuje u osamnaestom veku; da, daleko od toga da je Zakon prirodna posledica vlasništva, vlasništvo je prirodna posledica Zakona.
 
-Zaista, Ruso deli ovu zajedničku pravnu ideju o zasnivanju vlasništva na zakonu. Ruso pripisuje zakonu, a samim tim i narodu, apsolutnu moć nad pojedincima i vlasništvom. I u ovoj koncepciji, koja čini samu ideju republike još od Francuske revolucije, zakonodavac mora organizovati društvo, poput socijalnog arhitekte, poput mehaničara koji izmišlja mašinu od inertne materije, ili poput lončara koji oblikuje glinu. Zakonodavac se tako postavlja izvan čovečanstva, iznad njega, da ga uređuje po volji, prema planovima koje je osmislila njegova blistava inteligencija.
+Zaista, Rousseau deli ovu zajedničku pravnu ideju o zasnivanju vlasništva na zakonu. Rousseau pripisuje zakonu, a samim tim i narodu, apsolutnu moć nad pojedincima i imovinom. I u ovoj koncepciji, koja čini samu ideju republike još od Francuske revolucije, zakonodavac mora organizovati društvo, poput socijalnog arhitekte, poput mehaničara koji izmišlja mašinu od inertne materije, ili poput grnčara koji oblikuje glinu. Zakonodavac se tako postavlja izvan čovečanstva, iznad njega, da ga uređuje po svojoj volji, prema planovima koje je osmislila njegova blistava inteligencija.
 
 
 ![image](assets/en/055.webp)
 
 
-Naprotiv, za Bastijata, pravo svojine je pre zakona. To je ono što on naziva principom ekonomista, za razliku od principa pravnika. Dok "princip pravnika praktično sadrži ropstvo, kaže Bastijat, princip ekonomista sadrži slobodu.
+Naprotiv, za Bastiat-a, pravo svojine je pre zakona. To je ono što on naziva principom ekonomista, za razliku od principa pravnika. Dok "princip pravnika" praktično sadrži ropstvo, kaže Bastiat, princip ekonomista sadrži slobodu.
 
 
-Šta je onda sloboda? To je vlasništvo, pravo da se uživaju plodovi nečijeg rada, pravo na rad, na razvoj, na korišćenje svojih sposobnosti, kako neko smatra da je prikladno, bez da se država meša drugačije osim kroz svoju zaštitnu akciju.
+Šta je onda sloboda? To je vlasništvo, pravo da se uživaju plodovi nečijeg rada, pravo na rad, na razvoj, na korišćenje svojih sposobnosti, kako se smatra prikladnim, bez da se država meša drugačije osim kroz svoju zaštitnu akciju.
 
 
 Tužno je misliti da je naša socijalna i politička filozofija ostala zaglavljena na ideji da rešenje svih naših problema mora doći odozgo, iz zakona, od države. Ali ovo je objašnjivo. Ove ideje se svakodnevno usađuju mladima u školama i univerzitetima, kroz monopol obrazovanja.

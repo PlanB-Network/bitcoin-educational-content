@@ -581,7 +581,7 @@ By the end of their conversation, Mirabeau agreed with Quesnay's ideas. From the
 
 ![image](assets/fr/068.webp)
 
-Their efforts were not warmly welcomed. At court, the prevailing reaction was indifference. The King acknowledged Quesnay's fondness for theory and affectionately called him "my thinker". But apart from that compliment, their work was mostly ignored. In fact, their Theory of Taxation offended the tax administrators it criticized, so much so that they demanded and secured Mirabeau's imprisonment. Madame de Pompadour eventually had him released, but he continued living in exile at his estate in Bignon for a few weeks.
+Their efforts were not warmly welcomed. At court, the prevailing reaction was indifference. The King acknowledged Quesnay's inclination for theory and affectionately called him "my thinker". But apart from that compliment, their work didn't obtain any result. In fact, their Theory of Taxation offended the tax administrators it criticized, so much so that they demanded and secured Mirabeau's imprisonment. Madame de Pompadour eventually had him released, but he continued living in exile at his estate in Bignon for a few weeks.
 
 
 ![image](assets/fr/069.webp)

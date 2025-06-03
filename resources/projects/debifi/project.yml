@@ -1,0 +1,23 @@
+id: 26d603ee-4b5a-4695-86c1-fe7658294413
+name: Debifi
+category: service
+
+links:
+  website: https://debifi.com/
+  twitter: https://twitter.com/debificom
+  Github: https://gitlab.com/debifi-public
+  youtube: https://www.youtube.com/channel/UCwMPBMTxxPyYtcCn5pp0tDw
+
+tags:
+  - finance
+  - investment
+  - risks
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-03
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

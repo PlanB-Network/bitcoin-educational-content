@@ -1,0 +1,22 @@
+id: 8a5e01cd-8a8a-4463-b887-5319a4ae8c74
+name: KaleidoSwap
+category: exchange
+
+links:
+  website: https://kaleidoswap.com/
+  twitter: https://x.com/kaleidoswap
+  Github: https://github.com/kaleidoswap
+
+tags:
+  - layers
+  - investment
+  - lightning
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-03
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 0

@@ -14,25 +14,16 @@ It is available from $149.99 in the basic black version, and the price can rise 
 
 Jade Plus is compatible with most wallet management software. Here is a summary of compatibility at the time of writing (January 2025):
 
-| Desktop | Mobile | USB | Bluetooth | QR | JadeLink | Management software
-
-| ------------------- | ------- | ------ | --- | ----------- | --- | -------- |
-
-| Blockstream Green | 🟢 | 🟢 | 🟢 (Mobile) | 🟢 | 🔴 |
-
-| Liana | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 |
-
-| Sparrow | 🟢 | 🔴 | 🟢 | 🔴 | 🟢 | 🟢 |
-
-| Nunchuk | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-
-| Specter | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-
-| BlueWallet | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-
-| Electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 |
-
-| Keeper | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
+| Management Software  | Desktop | Mobile | USB | Bluetooth   | QR  | JadeLink |
+| -------------------- | ------- | ------ | --- | ----------- | --- | -------- |
+| Blockstream Green    | 🟢      | 🟢     | 🟢  | 🟢 (Mobile) | 🟢  | 🔴       |
+| Liana                | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Sparrow              | 🟢      | 🔴     | 🟢  | 🔴          | 🟢  | 🟢       |
+| Nunchuk              | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Specter              | 🟢      | 🔴     | 🔴  | 🔴          | 🟢  | 🟢       |
+| BlueWallet           | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Electrum             | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Keeper               | 🔴      | 🟢     | 🔴  | 🔴          | 🟢  | 🔴       |
 
 In this tutorial, we'll set up an advanced configuration of the Jade Plus with the desktop Sparrow Wallet software in QR codes mode. This configuration is ideal for intermediate or experienced users. If you're looking for a simpler approach for beginners, I recommend you take a look at this tutorial where we use the Jade Plus with Green Wallet over a Bluetooth connection:
 

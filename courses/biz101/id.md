@@ -1,37 +1,40 @@
 ---
 name: Bitcoin untuk Bisnis
-goal: Pelajari dasar-dasar pembayaran dan perbendaharaan untuk membawa perusahaan Anda ke bitcoin
+goal: Pelajari dasar-dasar pembayaran dan pengelolaan keuangan untuk mulai membawa perusahaan Anda ke Bitcoin.
 objectives: 
 
-  - Bitcoin sebagai mata uang yang sedang berkembang dan alat bisnis
-  - Memahami mengapa dan bagaimana sebuah bisnis dapat menyimpan bitcoin dalam bentuk treasury atau menggunakannya untuk pembayaran
-  - Memiliki gambaran konkret tentang cara menerima pembayaran bitcoin dalam praktiknya
-  - Bersiaplah untuk mengelola persyaratan fiskal dan akuntansi
+  - Memahami Bitcoin sebagai mata uang yang sedang berkembang dan alat bantu dalam dunia bisnis
+  - Mengetahui alasan dan cara sebuah bisnis bisa menyimpan Bitcoin sebagai bagian dari kas perusahaan (treasury) atau menggunakannya untuk pembayaran
+  - Mendapat gambaran nyata tentang bagaimana menerima pembayaran Bitcoin secara praktis
+  - Siap mengelola kewajiban fiskal dan pencatatan akuntansinya
 
 ---
 # Memulai perjalanan perusahaan Anda di jaringan bitcoin
 
-Temukan kemampuan praktis Bitcoin dan Lightning Network, dan jelajahi bagaimana, seperti halnya internet, keduanya dapat **mengubah operasi bisnis Anda**. Dari modal digital hingga pembayaran yang cepat, ekonomis, dan terukur, Bitcoin menawarkan spektrum yang luas untuk berbagai macam kasus penggunaan untuk bisnis.
+Temukan kemampuan praktis Bitcoin dan Lightning Network, dan jelajahi bagaimana, seperti halnya internet, keduanya dapat **mengubah operasi bisnis Anda**. Dari penyimpanan modal digital hingga pembayaran yang cepat, hemat biaya, dan mudah diskalakan, Bitcoin menawarkan spektrum luas untuk berbagai kasus penggunaan bisnis.
 
-Dalam panduan ini, Anda akan belajar bagaimana memahami Bitcoin sebagai jaringan keuangan global, universal, dan jaringan internet. Dengan karakteristik fundamentalnya yang unik, **Bitcoin memberikan peningkatan yang signifikan dibandingkan jaringan mata uang tradisional**. Anda akan menemukan mengapa dan bagaimana cara memanfaatkan Bitcoin untuk kasus-kasus keuangan klasik seperti penyimpanan modal dan sistem pembayaran. Selain itu, panduan ini akan membahas cara memperoleh dan menyimpan Bitcoin, termasuk persyaratan akuntansi dan fiskal yang terkait, serta mengimplementasikan solusi pembayaran Bitcoin sederhana atau skala besar.
+Dalam panduan ini, Anda akan mempelajari bagaimana memahami Bitcoin sebagai jaringan keuangan global, universal, dan berbasis internet. Dengan karakteristik fundamental yang unik, **Bitcoin memberikan peningkatan signifikan dibandingkan jaringan mata uang tradisional**. Anda akan menemukan alasan dan cara memanfaatkan Bitcoin untuk kebutuhan keuangan klasik seperti penyimpanan aset dan sistem pembayaran. Selain itu, panduan ini juga membahas cara memperoleh dan menyimpan Bitcoin, termasuk persyaratan akuntansi dan fiskal yang perlu diperhatikan, serta mengimplementasikan solusi pembayaran Bitcoin—baik yang sederhana maupun berskala besar.
 
-Entah Anda seorang **bisnis kecil atau perusahaan besar**, mengintegrasikan Bitcoin ke dalam operasi harian Anda dapat membuat perusahaan Anda lebih **tahan banting, produktif, dan kompetitif**. Setiap perusahaan berbasis internet akan menjadi perusahaan yang berorientasi pada Bitcoin, dan kursus ini memastikan Anda siap. Bagian awal kursus ini merangkum dasar-dasar operasi Bitcoin, jadi meskipun Anda seorang pemula, Anda akan mendapatkan pengetahuan dasar yang diperlukan untuk melanjutkan. Mempelajari dasar-dasar penemuan Satoshi selalu merupakan ide yang bagus, baik sebelum atau sesudah mempelajari BIZ101.
+Entah Anda seorang **pelaku bisnis kecil atau pemimpin perusahaan besar**, mengintegrasikan Bitcoin ke dalam operasi harian dapat membuat bisnis Anda lebih tahan banting, efisien, dan kompetitif. Setiap perusahaan yang beroperasi di internet pada akhirnya akan menjadi perusahaan yang berorientasi pada Bitcoin—dan kursus ini akan mempersiapkan Anda untuk itu. Bagian awal kursus ini merangkum dasar-dasar cara kerja Bitcoin. Jadi, meskipun Anda pemula, Anda akan mendapatkan fondasi pengetahuan yang dibutuhkan untuk melangkah lebih jauh. Mempelajari dasar-dasar penemuan Satoshi selalu merupakan ide bagus—baik sebelum maupun setelah mempelajari “BIZ101”.
 
 +++
 # Pendahuluan
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Ikhtisar Kursus
+## Sekilas tentang Kursus Ini
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Selamat datang di kursus BIZ101! Mulailah perjalanan perusahaan Anda di jaringan Bitcoin dengan kursus pelatihan komprehensif ini - pintu gerbang untuk memahami bagaimana Bitcoin dan Lightning Network dapat merevolusi operasi bisnis tradisional. Kursus ini dirancang untuk pengecer, pengusaha, manajer, dan pengambil keputusan perusahaan yang ingin mengeksplorasi kemampuan praktis Bitcoin sebagai jaringan moneter global yang berasal dari internet dan sarana pertukaran nilai yang kuat.
+Selamat datang di kursus BIZ101! Mulailah perjalanan perusahaan Anda di jaringan Bitcoin lewat kursus pelatihan komprehensif ini—pintu gerbang untuk memahami bagaimana Bitcoin dan Lightning Network bisa mengubah cara kerja bisnis tradisional. Kursus ini dibuat untuk para pengecer, pengusaha, manajer, dan pengambil keputusan di perusahaan yang ingin mengenal lebih jauh kemampuan praktis Bitcoin sebagai jaringan keuangan global yang lahir dari internet dan jadi alat tukar yang kuat.
 
-Selama kursus ini, Anda akan diperkenalkan dengan prinsip-prinsip dasar yang membuat Bitcoin dan Lightning Network menjadi sangat transformatif. Anda akan belajar bagaimana teknologi ini menawarkan spektrum kasus penggunaan, mulai dari penyimpanan modal digital hingga pembayaran yang cepat, ekonomis, dan dapat diskalakan, dan bagaimana teknologi ini memberikan peningkatan penting atas mata uang tradisional dan sistem pembayaran. Kursus BIZ101 menghubungkan teori ekonomi dengan aplikasi dunia nyata, mengklarifikasi bagaimana desentralisasi dapat mengurangi ketergantungan pada perantara dan mengatasi keterbatasan yang melekat pada sistem lama.
+Selama kursus ini, Anda akan dikenalkan pada prinsip-prinsip dasar yang membuat Bitcoin dan Lightning Network begitu revolusioner. Anda akan belajar bagaimana teknologi ini membuka berbagai peluang—mulai dari penyimpanan aset digital, pembayaran cepat, biaya rendah, hingga sistem yang bisa diskalakan. Semua ini menjadi alternatif yang lebih baik dibandingkan mata uang dan sistem pembayaran tradisional.
+Kursus BIZ101 menyambungkan teori ekonomi dengan penerapannya di dunia nyata, sambil menjelaskan bagaimana sistem desentralisasi bisa mengurangi ketergantungan pada pihak ketiga dan mengatasi berbagai batasan dari sistem lama.
 
-Kursus ini dimulai dengan pemeriksaan terperinci tentang mata uang konvensional dan mekanisme pembayaran, meletakkan dasar dengan mengeksplorasi bagaimana mata uang berfungsi sebagai jaringan untuk memungkinkan perdagangan, tabungan, dan spesialisasi ekonomi. Selanjutnya, kita akan mempelajari teknologi di balik Bitcoin dan inovasi yang diperkenalkan oleh Lightning Network, mengungkapkan peran mereka dalam memfasilitasi transaksi yang mulus, aman, dan hampir seketika yang dapat melayani bisnis dari semua ukuran. Kemudian kita akan masuk ke bagian praktis dari kursus ini, dimulai dengan bagian tentang menyimpan bitcoin sebagai perbendaharaan, diikuti dengan bagian terakhir tentang menerima bitcoin sebagai alat pembayaran.
+Kursus ini dimulai dengan mengulas secara menyeluruh soal mata uang konvensional dan cara kerja sistem pembayaran, sebagai fondasi untuk memahami bagaimana uang sebenarnya berfungsi sebagai jaringan—untuk berdagang, menabung, dan menciptakan spesialisasi ekonomi. Setelah itu, kita akan bahas teknologi di balik Bitcoin dan terobosan yang dibawa oleh Lightning Network. Anda akan melihat bagaimana keduanya bisa memfasilitasi transaksi yang mulus, aman, dan hampir seketika—cocok untuk bisnis dari segala skala.
+Bagian praktis dari kursus ini dimulai dengan topik menyimpan Bitcoin sebagai perbendaharaan, lalu ditutup dengan cara menerima Bitcoin sebagai alat pembayaran.
 
-Baik Anda mewakili perusahaan kecil maupun perusahaan besar, kursus ini bertujuan untuk membekali Anda dengan pengetahuan untuk mengintegrasikan Bitcoin ke dalam operasi harian Anda, sehingga meningkatkan ketahanan, efisiensi, dan daya saing perusahaan Anda. Karena Bitcoin terus membentuk kembali lanskap ekonomi, memahami teknologi terobosan ini bukan hanya sebuah pilihan, tetapi juga kebutuhan strategis. Bersiaplah untuk terlibat dengan konten yang penuh wawasan, contoh-contoh praktis, dan panduan strategis yang akan membantu Anda menavigasi dan memanfaatkan dunia Bitcoin yang terus berkembang!
+Baik Anda dari bisnis kecil maupun perusahaan besar, kursus ini dirancang untuk membekali Anda dengan pengetahuan yang dibutuhkan agar bisa mengintegrasikan Bitcoin ke dalam kegiatan operasional sehari-hari. Dengan begitu, perusahaan Anda bisa jadi lebih tangguh, efisien, dan kompetitif. Di tengah dunia yang terus berubah karena hadirnya Bitcoin, memahami teknologi ini bukan lagi sekadar pilihan—tapi jadi langkah strategis.
+Bersiaplah untuk menyelami konten yang penuh wawasan, contoh nyata, dan panduan praktis yang akan membantu Anda menjelajahi dunia Bitcoin yang terus berkembang!
 
 Siap menyelami dunia Bitcoin untuk bisnis? Ayo mulai!
 

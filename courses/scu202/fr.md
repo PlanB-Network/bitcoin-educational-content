@@ -1791,6 +1791,24 @@ Même si de nombreux navigateurs (y compris Brave) se basent sur Chromium tout e
 
 Bien que Brave ait depuis désactivé cette API, cette affaire illustre clairement la dépendance structurelle de ces navigateurs à Chromium, qui reste un projet profondément lié à l’écosystème Google. Ainsi, même les variantes de Chromium orientées vers la protection de la vie privée ne peuvent garantir une indépendance totale ni une protection complète des données utilisateur.
 
+→ Le "***fingerprinting***" dans le cadre de la navigation sur internet désigne l'ensemble des techniques qui consistent à collecter et à analyser des informations spécifiques et parfois uniques sur votre environnement de navigation, afin de vous reconnaître et de vous suivre sur différents sites web, sans avoir recours à des identifiants explicites comme les cookies. Ces informations incluent notamment :
+- Votre adresse IP,
+- Votre fournisseur d'accès à internet,
+- Votre géolocalisation,
+- Votre navigateur et ses propriétés,
+- Votre système d'exploitation,
+- La version de vos logiciels,
+- Les polices installés,
+- Votre résolution et taille d'écran,
+- La profondeur des couleurs,
+- Votre fuseau horaire et votre langue,
+- Les canvas HTML5,
+- L'analyse du rendu graphique,
+- Vos extensions de navigateur,
+- etc...
+
+Pour vérifier si vous êtes fondus dans la masse ou non via votre *fingerprint*, vous pouvez utiliser le site suivant : https://amiunique.org/
+
 #### Vivaldi
 
 [Vivaldi](https://vivaldi.com/), fondé par l’ancien CEO d’Opera, s'adresse aux utilisateurs avancés à la recherche d’une personnalisation poussée et de fonctionnalités avancées comme les panneaux latéraux, le gestionnaire d’onglets avancé ou encore la prise de notes intégrée.
@@ -2027,7 +2045,7 @@ Un nettoyage régulier de ces données locales est donc une mesure simple mais e
 
 Par exemple, dans Firefox, vous pouvez configurer la suppression automatique via `Settings > Privacy & Security`.
 
-Cependant, gardez à l’esprit qu’une simple suppression des cookies ne suffit pas à garantir votre confidentialité : d'autres techniques de suivi plus avancées existent, comme le fingerprinting (empreinte unique de votre navigateur), qui nécessitent des mesures complémentaires pour être contournées :
+Cependant, gardez à l’esprit qu’une simple suppression des cookies ne suffit pas à garantir votre confidentialité : d'autres techniques de suivi plus avancées existent, comme le fingerprinting (empreinte unique de votre navigateur, votre matériel, votre IP, votre utilisation...), qui nécessitent des mesures complémentaires pour être contournées :
 - Utiliser un navigateur offrant une résistance native au fingerprinting : Tor Browser et Mullvad Browser sont les meilleurs pour cela, sinon, les autres solutions plutôt bonnes sont LibreWolf, Brave ou Firefox avec un durcissement manuel ;
 - Limiter ou bloquer JavaScript lorsque c’est possible ;
 - Éviter les extensions non essentielles ;

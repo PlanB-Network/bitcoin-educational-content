@@ -664,10 +664,10 @@ Tužno je misliti da je naša socijalna i politička filozofija ostala zaglavlje
 
 ![image](assets/en/056.webp)
 
-_primer takvog monopolističkog agenta mogla bi biti vladina institucija_
+_primer takvog monopolističkog agenta mogla bi biti državna institucija_
 
 
-Međutim, kako nas Bastija podseća, monopol isključuje napredak.
+Međutim, kako nas Bastiat podseća, monopol isključuje napredak.
 
 
 ## Protekcionizam i socijalizam
@@ -681,10 +681,10 @@ Međutim, kako nas Bastija podseća, monopol isključuje napredak.
 _(Richard Cobden)_
 
 
-Kao što smo već videli, upravo je Cobdenova borba protiv protekcionizma sa engleskom ligom za ukidanje Zakona o žitu bila ta koja je navela Bastijata da piše članke, a potom i knjige.
+Kao što smo već videli, upravo je Cobden-ova borba protiv protekcionizma sa engleskom ligom za ukidanje Zakona o žitu bila ta koja je navela Bastia-ta da piše članke, a potom i knjige.
 
 
-Protecionizam je, u stvarnosti, oblik ekonomskog nacionalizma. Cilj mu je eliminisati stranu konkurenciju dok se pretvara da "brani nacionalne interese." Zatim pokušavaju da navedu javne vlasti da prihvate skup čisto demagoških neistina, predstavljenih kao vrlina: odbrana radnih mesta, konkurentnost, itd. Naravno, izabrani zvaničnici popuštaju pod pritiskom proizvođača, jer je to za njih zlatna prilika da učvrste svoju klijentelu i prošire svoju moć.
+Protecionizam je, u stvarnosti, oblik ekonomskog nacionalizma. Cilj mu je eliminisanje strane konkurencije dok se pretvara da "brani nacionalne interese." Zatim pokušavaju da navedu javne vlasti da prihvate skup čisto demagoških neistina, predstavljenih kao vrlina: odbrana radnih mesta, konkurentnost, itd. Naravno, izabrani zvaničnici popuštaju pod pritiskom proizvođača, jer je to za njih zlatna prilika da učvrste svoju klijentelu i prošire svoju moć.
 
 
 ![image](assets/en/058.webp)
@@ -693,16 +693,16 @@ _primer promotivne reklame za blender proizveden u Francuskoj_
 
 ---
 
->Naš susret sa Arnaudom Montebourgom  
->Made in France,  
+>Naš susret sa Arnaud-om Montebourg-om
+>Proizvedeno u Francuskoj,  
 >on veruje u to, mi smo ga testirali
 
 ---
 
-Argument za zaštitu radnih mesta je ono što Bastija naziva zabludom. Jer u stvarnosti, to je ekvivalent porezu. Ima efekat da proizvode čini skupljim. Uzmimo primer koji je dao sam Bastija.
+Argument za zaštitu radnih mesta je ono što Bastiat naziva zabludom. Jer u stvarnosti, to je ekvivalent porezu. Ima efekat da proizvode čini skupljim. Uzmimo primer koji je dao sam Bastiat.
 
 
-Zamislite engleski nož koji se u našoj zemlji prodaje za 2 evra, a nož proizveden u Francuskoj košta € 3. Ako potrošaču dozvolimo da slobodno kupi nož koji želi, uštedeće 1 evro, koji može uložiti negde drugde (u knjigu, ili olovku).
+Zamislite engleski nož koji se u našoj zemlji prodaje za 2€, a nož proizveden u Francuskoj košta 3€. Ako potrošaču dozvolimo da slobodno kupi nož koji želi, uštedeće 1 evro, koji može uložiti negde drugde (u knjigu, ili olovku).
 
 
 Ako zabranimo engleski proizvod, potrošač će platiti jednu jedinicu više za svoj nož. Protekcionizam tako rezultira profitom za nacionalnu industriju i dva gubitka, jedan za drugu industriju (onu olovaka) i drugi za potrošača. Suprotno tome, slobodna trgovina čini dva srećna pobednika.
@@ -711,16 +711,16 @@ Ako zabranimo engleski proizvod, potrošač će platiti jednu jedinicu više za 
 ![image](assets/en/059.webp)
 
 
-Protecionizam je takođe oblik klasne borbe. Prema Bastijatu, to je sistem zasnovan na sebičnosti i pohlepi proizvođača. Da bi povećali svoje prihode, poljoprivrednici ili industrijalci zahtevaju poreze kako bi zatvorili tržište za strane proizvode, prisiljavajući tako potrošače da plaćaju više za njihove proizvode.
+Protecionizam je takođe oblik klasne borbe. Prema Bastiat-u, to je sistem zasnovan na sebičnosti i pohlepi proizvođača. Da bi povećali svoje prihode, poljoprivrednici ili industrijalci zahtevaju poreze kako bi zatvorili tržište za strane proizvode, prisiljavajući tako potrošače da plaćaju više za njihove proizvode.
 
 
 ![image](assets/en/060.webp)
 
 
-Bastiat čvrsto staje na stranu potrošača. Protiv klasnog interesa, on postavlja opšti interes, koji je interes potrošača, odnosno interes svih. Uvek iz perspektive potrošača država treba da se pozicionira kada deluje.
+Bastiat čvrsto staje na stranu potrošača. Protiv klasnog interesa, on postavlja opšti interes, koji je interes potrošača, odnosno interes svih. Država bi uvek trebalo da se pozicionira sa stanovišta potrošača kada deluje.
 
 
-Sa revolucijom u februaru 1848. i njenim barikadama, pojavio bi se strašniji neprijatelj od protekcionizma, onaj s kojim deli mnoge sličnosti: socijalizam.
+Sa revolucijom u februaru 1848. godine i njenim barikadama, pojaviće se strašniji neprijatelj od protekcionizma, onaj s kojim deli mnoge sličnosti: socijalizam.
 
 
 ![image](assets/en/061.webp)
@@ -729,7 +729,7 @@ Sa revolucijom u februaru 1848. i njenim barikadama, pojavio bi se strašniji ne
 Šta je to? To je politički pokret koji zahteva organizaciju rada zakonom, nacionalizaciju industrija i banaka, i preraspodelu bogatstva putem oporezivanja. Bastiat bi sada posvetio svu svoju energiju, talenat i pisanje protiv ove nove doktrine, koja bi mogla samo dovesti do eksponencijalnog rasta moći i večite klasne borbe. Tako je, od prvih dana revolucije, doprinosio kratkotrajnom listu pod nazivom "La République Française," koji je brzo postao poznat kao kontrarevolucionarni časopis. To je bilo vreme kada je pisao svoje pamflete o svojini, državi, pljački i zakonu.
 
 
-Dana 27. juna 1848, dan nakon krvave nove pobune u Parizu, u opširnom pismu Richardu Cobdenu, razmatrao je uzroke koji su mogli dovesti do ovih događaja.
+Dana 27. juna 1848., dan nakon krvave nove pobune u Parizu, u opširnom pismu Richard-u Cobden-u, Bastiat se osvrnuo na uzroke koji su mogli dovesti do ovih događaja.
 
 
 
@@ -743,7 +743,7 @@ Dana 27. juna 1848, dan nakon krvave nove pobune u Parizu, u opširnom pismu Ric
 ![image](assets/en/062.webp)
 
 
-I nastavio bi da analizira njegove perverzne efekte i nakon toga. Evo jednog primera, navedenog u pismu Cobdenu:
+I nastavio bi da analizira njegove štetne posledice i nakon toga. Evo jednog primera, navedenog u pismu Cobden-u:
 
 
 > Na osnovu prirodnih sklonosti ljudskog srca, svi su počeli da zahtevaju od države, za sebe, veći deo blagostanja. To jest, država ili javna blagajna bila je izložena pljački. Sve klase su zahtevale od države, kao po pravu, sredstva za egzistenciju. Napori koje je država činila u tom pravcu samo su doveli do poreza i prepreka, i do povećanja bede.
@@ -756,12 +756,12 @@ I nastavio bi da analizira njegove perverzne efekte i nakon toga. Evo jednog pri
 
 ---
 
->DA BISTE USPELI  
->GLASAJTE ZA SOCIJALISTIČKI SFIO
+>DA USPEMO  
+>GLASAJTE ZA SOCIJALISTE SFIO
 
 ---
 
-Zaključno, protekcionisti i socijalisti dele zajedničku tačku, prema Bastijatu: ono što traže od zakona nije da osigura svima slobodno korišćenje svojih sposobnosti i poštenu nagradu za njihov trud, već da favorizuje više ili manje potpunu eksploataciju jedne klase građana od strane druge. Sa protekcionizmom, manjina eksploatiše većinu. Sa socijalizmom, većina eksploatiše manjinu. U oba slučaja, pravda je narušena i opšti interes je ugrožen. Bastijat ih suprotstavlja jedno drugom.
+Zaključno, protekcionisti i socijalisti dele zajedničku tačku, prema Bastiat-u: ono što traže od zakona nije da osigura svima slobodno korišćenje svojih sposobnosti i poštenu nagradu za njihov trud, već da favorizuje više ili manje potpunu eksploataciju jedne klase građana od strane druge. Sa protekcionizmom, manjina eksploatiše većinu. Sa socijalizmom, većina eksploatiše manjinu. U oba slučaja, pravda je narušena i opšti interes je ugrožen. Bastijat ih suprotstavlja jedno drugom.
 
 
 > Država je velika fikcija kroz koju svako nastoji da živi na račun svih ostalih.
@@ -772,7 +772,7 @@ Zaključno, protekcionisti i socijalisti dele zajedničku tačku, prema Bastijat
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
 
-Pierre-Joseph Proudhon je jedan od glavnih predstavnika francuskog socijalizma sredinom 19. veka. Posebno je poznat po izjavi: "Svojina je krađa" u "Šta je svojina?" iz 1840. godine.
+Pierre-Joseph Proudhon je jedan od glavnih predstavnika francuskog socijalizma sredinom 19. veka. Posebno je poznat po izjavi: "Svojina je krađa" u "Šta je svojina?"(What is Property?) iz 1840. godine.
 
 
 ![image](assets/en/064.webp)
@@ -792,18 +792,18 @@ Ali Proudhon je individualistički anarhista. On ne vidi proletarijat, niti drž
 ![image](assets/en/067.webp)
 
 
-S druge strane, dobro je poznato da bi u "Bedu filozofije" Marks žestoko napao Prudona i njegov socijalizam, koji je nazvao "utopijskim", u korist takozvanog "naučnog" socijalizma.
+S druge strane, dobro je poznato da bi u "Bedu filozofije"(The Poverty of Philosophy) Marx žestoko napao Proudhon-a i njegov socijalizam, koji je nazvao "utopijskim", u korist takozvanog "naučnog" socijalizma.
 
 
 ![image](assets/en/068.webp)
 
-U junu 1848. godine, Prudon je izabran u Nacionalnu skupštinu, zajedno sa Bastijatom. Bili su poznanici i međusobno su se visoko cenili. Međutim, 1849. godine, u snažnoj kontroverzi, Bastijat je razmenio četrnaest pisama sa njim u kolumnama La Voix du Peuple. U ovom energičnom Exchange, razjasnio je svoj stav o monetarnim i bankarskim pitanjima. Spor se sveo na sledeću alternativu: slobodan kredit ili sloboda kredita?
+U junu 1848. godine, Proudhon je izabran u Nacionalnu skupštinu, zajedno sa Bastiat-om. Bili su poznanici i međusobno su se visoko cenili. Međutim, 1849. godine, u snažnoj polemici, Bastiat je razmenio četrnaest pisama sa njim u kolumnama "La Voix du Peuple". U ovoj žustroj razmeni, razjasnio je svoj stav o monetarnim i bankarskim pitanjima. Spor se sveo na sledeću alternativu: slobodan kredit ili sloboda kredita?
 
 
 ![image](assets/en/069.webp)
 
 
-Proudhon je video kamatu na kapital kao početni uzrok siromaštva i nejednakosti uslova. Zalagao se za neograničeno stvaranje novca od strane državne banke (Exchange Banka ili Narodna Banka), i video je u "slobodnom kreditu" rešenje za socijalni problem. S druge strane, Bastiat je bio zagovornik slobode banaka, što znači regulisanje monetarne cirkulacije kroz slobodu pristupa profesiji, u kombinaciji sa neophodnom odgovornošću za sopstvena sredstva, i slobodom konkurencije.
+Proudhon je video kamatu na kapital kao početni uzrok siromaštva i nejednakosti uslova. Zalagao se za neograničeno stvaranje novca od strane državne banke (Berzanska Banka ili Narodna Banka), i video je u "slobodnom kreditu" rešenje za socijalni problem. S druge strane, Bastiat je bio zagovornik slobode banaka, što znači regulisanje monetarne cirkulacije kroz slobodan pristup profesiji, u kombinaciji sa neophodnom odgovornošću za sopstvena sredstva, i slobodom konkurencije.
 
 
 ![image](assets/en/070.webp)
@@ -818,13 +818,13 @@ Bastiat je opovrgao svog protivnika u nekoliko faza. Prvo je analizirao izopače
 Politika niskih kamatnih stopa koju praktikuju centralne banke je način da se veštački stvori novac. A uzastopne krize finansijskog sistema tokom poslednjeg veka, sa zaduživanjem država, su njene direktne posledice.
 
 
-Zatim Bastiat pokazuje da je moguće poboljšati kupovnu moć radničke klase, ali drugim sredstvima, pravednijim i efikasnijim. Za njega je smanjenje kamatnih stopa takođe cilj liberalne politike. Ali to se postiže oslobađanjem i akumulacijom kapitala, a ne ukidanjem kamata, odnosno slobodnim kreditom.
+Zatim Bastiat pokazuje da je moguće poboljšati kupovnu moć radničke klase, ali na druge načine, pravednije i efikasnije. Za njega je smanjenje kamatnih stopa takođe cilj liberalne politike. Ali to se postiže oslobađanjem i akumulacijom kapitala, a ne ukidanjem kamata, odnosno besplatnim kreditom.
 
 
 ![image](assets/en/072.webp)
 
 
-Zaista, prema Bastijatu, napredak čovečanstva poklapa se sa formiranjem kapitala. U svom pamfletu pod nazivom Kapital i renta, Bastijat nam to objašnjava sa Robinzon Krusoom na njegovom ostrvu.
+Zaista, prema Bastiat-u, napredak čovečanstva poklapa se sa formiranjem kapitala. U svom pamfletu pod nazivom Kapital i renta, Bastiat nam to objašnjava sa Robinzon Krusoom na njegovom ostrvu.
 
 
 ![image](assets/en/073.webp)
@@ -833,7 +833,7 @@ Bez akumuliranog kapitala ili materijala, Robinson bi bio osuđen na smrt. On za
 
 
 
-- Povećava proizvodnju, čime smanjuje cenu robe za potrošnju;
+- Povećava proizvodnju,  čime se smanjuje cena robe za potrošnju;
 - što ima efekat povećanja plata.
 
 
@@ -842,10 +842,10 @@ U modernom društvu, kapital deluje kao izjednačavajuća sila. Zaista, Bastiat 
 
 > Kada kapital raste, on se takmiči sam sa sobom; njegova naknada se smanjuje, ili, drugim rečima, kamatna stopa opada.
 
-U zaključku, i Proudhon i Bastiat su prepoznali važnost akumulacije kapitala i sklonost nekih ljudi da eksploatišu druge. Međutim, nisu izvukli iste zaključke. Proudhon je, poput Marxa, predviđao sve veće osiromašenje masa u kapitalističkim zemljama. Bastiat je verovao da će kapitalizam dovesti do neviđenog prosperiteta u svim klasama i razvoja sve značajnije srednje klase. To je zaista i dogodilo.
+U zaključku, i Proudhon i Bastiat su prepoznali važnost akumulacije kapitala i sklonost nekih ljudi da eksploatišu druge. Međutim, nisu izvukli iste zaključke. Proudhon je, poput Marx-a, predviđao sve veće osiromašenje masa u kapitalističkim zemljama. Bastiat je verovao da će kapitalizam dovesti do neviđenog prosperiteta svih klasa i razvoja sve značajnije srednje klase. To je zaista i dogodilo.
 
 
-# Ekonomske Sofizme
+# Ekonomski Sofizmi
 
 
 <partId>59686d1d-58c6-59a8-9fc4-74a10d24cdbe</partId>
@@ -857,7 +857,7 @@ U zaključku, i Proudhon i Bastiat su prepoznali važnost akumulacije kapitala i
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
 
-U ovom poglavlju ću otkriti potpuno novu tehnologiju, revolucionarnu tehnologiju. Istraživač je razvio par bioničkih naočara sa ultra-snažnom mini-kamerom ugrađenom napred. Ova tehnologija omogućava viđenje detalja nemogućih za videti golim okom. U ručkama se nalazi elektronski čip koji prenosi slike direktno na oblak putem mog pametnog telefona.
+U ovom poglavlju ću otkriti potpuno novu tehnologiju, revolucionarnu tehnologiju. Istraživač je razvio par bioničkih naočara sa ultra-snažnom mini-kamerom ugrađenom u prednji deo. Ova tehnologija omogućava viđenje detalja nemogućih za videti golim okom. U ručkama se nalazi elektronski čip koji prenosi slike direktno na oblak putem mog pametnog telefona.
 
 
 ![image](assets/en/074.webp)
@@ -865,7 +865,7 @@ U ovom poglavlju ću otkriti potpuno novu tehnologiju, revolucionarnu tehnologij
 
 Pronalažac prvog prototipa ovih naočara bio je Frédéric Bastiat 1850. godine u čuvenom pamfletu: _Ce qu’on voit et ce qu’on ne voit pas_. Ove naočare su naočare ekonomiste. One omogućavaju merenje posledica odluka koje vlasti donose na naše živote. To su naočare koje "omogućavaju da vidimo ono što ne vidimo": uništenje izazvano klijentelističkim politikama i lažnim ekonomskim teorijama. Često ne vidimo njihove žrtve, niti njihove korisnike, ukratko, njihove stvarne efekte nasuprot tvrdnjama iznetim u zvaničnim govorima, ono što Bastiat naziva "Ekonomski Sofizmi."
 
-Dobar ekonomista, prema Bastijatu, mora opisati efekte političkih odluka na društvo. Međutim, oni moraju biti pažljivi, ne prema njihovim kratkoročnim efektima na određenu grupu, već prema njihovim dugoročnim posledicama za društvo u celini. Ko su žrtve, a ko su korisnici ovih politika? Koji su skriveni troškovi određenog zakona ili političke odluke? Šta bi poreski obveznici uradili umesto vlade sa novcem koji im je uzet kroz poreze? Ovo su pitanja koja postavlja dobar ekonomista prema Bastijatu.
+Dobar ekonomista, prema Bastiat-u, mora opisati efekte političkih odluka na društvo. Međutim, oni moraju biti pažljivi, ne prema njihovim kratkoročnim efektima na određenu grupu, već prema njihovim dugoročnim posledicama za društvo u celini. Ko su žrtve, a ko su korisnici ovih politika? Koji su skriveni troškovi određenog zakona ili političke odluke? Šta bi poreski obveznici uradili umesto vlade sa novcem koji im je uzet kroz poreze? Ovo su pitanja koja postavlja dobar ekonomista prema Bastiat-u.
 
 
 Dakle, u Javnim radovima, Bastiat piše:
@@ -873,12 +873,12 @@ Dakle, u Javnim radovima, Bastiat piše:
 
 > Država otvara put, gradi palatu, ispravlja ulicu, kopa kanal; time daje posao određenim radnicima, to je ono što se vidi; ali oduzima posao od određenih drugih, to je ono što se ne vidi.
 
-Jedan od najpoznatijih sofizama je sofizam razbijenog prozora. Neki tvrde da razbijanje prozora u kući ne šteti ekonomiji jer koristi staklaru. Ali Bastija će pokazati da uništavanje nije u našem interesu jer ne stvara bogatstvo. Košta više nego što donosi. Mladić koji razbije prozor komšije daje posao staklaru. Ali evo kako ga prijatelji teše:
+Jedan od najpoznatijih sofizama je zabluda o razbijenom prozoru. Neki tvrde da razbijanje prozora u kući ne šteti ekonomiji jer koristi staklorescu. Ali Bastiat će pokazati da uništavanje nije u našem interesu jer ne stvara bogatstvo. Košta više nego što donosi. Mladić koji razbije prozor komšiji daje posao staklorescu. Ali evo kako ga prijatelji teše:
 
 
-> Svaki oblak ima srebrnu liniju. Takve nesreće održavaju industriju. Svi moraju živeti. Šta bi bilo sa staklarima ako se prozori nikada ne bi razbijali?
+> Svaka nesreća ima svoju srećnu stranu. Takve nesreće održavaju industriju. Svi moraju živeti. Šta bi bilo sa staklarima ako se prozori nikada ne bi razbijali?
 
-Dakle, prema Keynesu, uništavanje imovine, prisiljavanjem na potrošnju, stimulisalo bi ekonomiju i imalo "multiplikativni efekat" koji oživljava proizvodnju i zapošljavanje. Ovo je samo ono što se vidi.
+Dakle, prema Keynes-u, uništavanje imovine, prisiljavanjem na potrošnju, stimulisalo bi ekonomiju i imalo "multiplikativni efekat" koji oživljava proizvodnju i zapošljavanje. Ovo je samo ono što se vidi.
 
 
 Ali ono što se ne vidi je šta bi vlasnik kupio tim novcem, ali čega sada mora da se odrekne, zbog toga što mora da potroši na popravku svog prozora. Ono što se ne vidi je izgubljena prilika vlasnika razbijenog prozora. On je mogao da dodeli sumu datu staklorescu za nešto drugo. Da nije morao da potroši na popravku prozora, mogao je da potroši novac za sopstvenu potrošnju, čime bi zaposlio ljude za proizvodnju.
@@ -889,25 +889,25 @@ Dakle, neće biti više "stimulacije" ekonomije razbijanjem prozora nego bez tog
 
 ![image](assets/en/075.webp)
 
-Prva lekcija koju treba naučiti je da je "dobra" odluka ili "dobra" politika ona koja društvo košta manje nego što bi koštala neka druga raspodela resursa. Efikasnost politike treba oceniti ne samo na osnovu njenih efekata već i na osnovu alternativa koje su mogle da se dogode. Ovo je koncept "troška propuštene prilike," drag Bastijatu.
+Prva lekcija koju treba naučiti je da je "dobra" odluka ili "dobra" politika ona koja društvo košta manje nego što bi koštala neka druga raspodela resursa. Efikasnost politike treba oceniti ne samo na osnovu njenih efekata već i na osnovu alternativa koje su mogle da se dogode. Ovo je koncept "troška propuštene prilike," drag Bastiat-u.
 
 
-Druga lekcija je da uništavanje ne stimuliše ekonomiju kao što kejnzijanci misle, već vodi ka osiromašenju. Uništavanje materijalnih dobara nema pozitivan efekat na ekonomiju, suprotno popularnom verovanju. Da upotrebimo završne reči teksta Frédérica Bastiata: "društvo gubi vrednost objekata koji su nepotrebno uništeni."
+Druga lekcija je da uništavanje ne stimuliše ekonomiju kao što kejnzijanci misle, već vodi ka osiromašenju. Uništavanje materijalnih dobara nema pozitivan efekat na ekonomiju, suprotno popularnom verovanju. Da upotrebimo završne reči teksta Frédéric-a Bastiat-a: "društvo gubi vrednost objekata koji su nepotrebno uništeni."
 
 
-Uzmimo trenutni primer. Čim se automobilska industrija bori, donosioci politika zamišljaju šeme za otkup starih vozila kako bi je "ponovo pokrenuli". Ono što vidimo je porast prodaje Renault-a i Peugeot-a. Ono što ne vidimo je gubitak za druge ekonomske sektore i da se automobili u savršenom radnom stanju uništavaju.
+Uzmimo trenutni primer. Čim se automobilska industrija ima problema, donosioci politika zamišljaju šeme za otkup starih vozila kako bi je "ponovo pokrenuli". Ono što vidimo je porast prodaje Renault-a i Peugeot-a. Ono što ne vidimo je gubitak za druge ekonomske sektore i da se automobili u savršenom radnom stanju uništavaju.
 
 
 Ali postoje i drugi načini za podsticanje ekonomije. Ako država pokrene velike projekte ili investira sredstva u određene industrijske sektore kako bi podržala zapošljavanje, zar to nije dobra vest za rast? Ne više, odgovorio bi Bastiat. Jer čime bi se finansirala javna potrošnja? Povećanjem poreza ili zaduživanjem, to jest, nevidljivim ali vrlo stvarnim troškovima, koji će uticati na rast. Štaviše, vlada ne proizvodi ništa; ona jednostavno preusmerava resurse iz njihove privatne upotrebe. A ono što ne vidimo su mnoge stvari koje su mogle biti proizvedene da kapital nije bio povučen iz privatnog sektora za finansiranje vladinih programa.
 
 
-Konačno, skoro vek pre Kejnza, možemo reći da je Bastija opovrgao kejnzijanske sofizme koji tvrde da zaduženost države podstiče ekonomiju i da javna potrošnja proizvodi rast.
+Konačno, skoro vek pre Keynes-a, možemo reći da je Bastiat opovrgao kejnzijanske sofizme koji tvrde da zaduženost države podstiče ekonomiju i da javna potrošnja proizvodi rast.
 
 
 ![image](assets/en/076.webp)
 
 
-Velika lekcija iz ove serije tekstova je da državna intervencija ima perverzne efekte koji nisu vidljivi. Samo dobar ekonomista je sposoban da ih predvidi. Politika je ono što vidimo. Ekonomija je ono što ne vidimo.
+Velika lekcija iz ove serije tekstova je da državna intervencija ima izopačene efekte koji nisu vidljivi. Samo dobar ekonomista je sposoban da ih predvidi. Politika je ono što vidimo. Ekonomija je ono što ne vidimo.
 
 
 ## Peticija proizvođača sveća
@@ -926,7 +926,7 @@ _iznad: Marine Le Pen, francuska političarka_
 ![image](assets/en/078.webp)
 
 
-Bastiat je zatim sastavio satirični tekst koji je kasnije postao jedno od njegovih najpoznatijih dela: "peticija proizvođača sveća". Ilustruje kako određene dobro organizovane interesne grupe proizvođača dobijaju nezaslužene privilegije od države, na štetu građana. Istovremeno, pokazuje apsurdnu i destruktivnu prirodu protekcionističkog zakonodavstva.
+Bastiat je zatim sastavio satirični tekst koji je kasnije postao jedno od njegovih najpoznatijih dela: "peticija proizvođača sveća"(the petition of the candle makers). Ilustruje kako određene dobro organizovane interesne grupe proizvođača dobijaju nezaslužene privilegije od države, na štetu građana. Istovremeno, pokazuje apsurdnu i destruktivnu prirodu protekcionističkog zakonodavstva.
 
 
 ![image](assets/en/079.webp)
@@ -952,9 +952,9 @@ Drugim rečima, proizvođači sveća pokušavaju da pokažu štetne efekte "stra
 ![image](assets/en/080.webp)
 
 
-Bastiatov pravi protivnik u ovoj fikciji je politički i izborni protekcionizam, koji se oslanja isključivo na pohlepu proizvođača i naivnost potrošača. On razotkriva dosluh između lošeg kapitaliste tog vremena i države. Umesto da inovira i prilagođava se tržištu, loš kapitalista je onaj koji nastoji da stekne političku prednost kroz protekcionizam. Ovo uvek rezultira pljačkom potrošača, odnosno nepravdom.
+Bastiat-ov pravi protivnik u ovoj fikciji je politički i izborni protekcionizam, koji se oslanja isključivo na pohlepu proizvođača i naivnost potrošača. On razotkriva dosluh između lošeg kapitaliste tog vremena i države. Umesto da inovira i prilagođava se tržištu, loš kapitalista je onaj koji nastoji da stekne političku prednost kroz protekcionizam. Ovo uvek rezultira pljačkom potrošača, odnosno nepravdom.
 
-Ukratko, protekcionizam je namerna politika u korist proizvođača na štetu potrošača. Međutim, prema Bastijatu, pravi predstavnici opšteg interesa su potrošači, jer smo svi mi potrošači.
+Ukratko, protekcionizam je namerna politika u korist proizvođača na štetu potrošača. Međutim, prema Bastiat-u, pravi predstavnici opšteg interesa su potrošači, jer smo svi mi potrošači.
 
 
 Proteksionizam se takođe zasniva na skrivenom silogizmu koji se ispostavlja kao greška:

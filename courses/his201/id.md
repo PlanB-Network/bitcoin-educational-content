@@ -988,14 +988,15 @@ Selanjutnya, Teppy memperbarui presentasi dengan mempertimbangkan saran-saran te
 
 Pada 11 Juli 2010, versi revisi dari presentasi Bitcoin yang ditulis oleh Teppy diterbitkan di Slashdot. Isinya sebagai berikut:
 
-> "Bagaimana ini untuk teknologi disruptif? Bitcoin adalah mata uang digital berbasis jaringan peer-to-peer tanpa bank sentral, dan tanpa biaya transaksi. Menggunakan konsep proof-of-work, node-node membakar siklus CPU mencari bundel koin, menyiarkan temuan mereka ke jaringan. Analisis penggunaan energi menunjukkan bahwa nilai pasar Bitcoin sudah di atas nilai energi yang diperlukan untuk menghasilkannya, menunjukkan permintaan yang sehat. Komunitas berharap mata uang ini akan tetap di luar jangkauan pemerintah mana pun."
+> "Bagaimana dengan teknologi disruptif ini? Bitcoin adalah mata uang digital berbasis jaringan peer-to-peer tanpa bank sentral, dan tanpa biaya transaksi. Menggunakan konsep proof-of-work, node mengoperasikan CPU mencari paket koin, menyiarkan temuan mereka ke jaringan. Analisis penggunaan energi menunjukkan bahwa nilai pasar Bitcoin sudah di atas nilai energi yang dibutuhkan untuk menghasilkannya, menunjukkan permintaan yang sehat. Komunitas berharap mata uang ini akan tetap berada di luar jangkauan pemerintah mana pun."
 
 ![Logo Slashdot pada tahun 2010](assets/en/43.webp)
 
-Publikasi tersebut diperhatikan, dan hampir 500 komentar diposting dalam beberapa hari. Untuk Bitcoin, kesuksesan ini mengarah pada aliran masuk pengunjung yang besar ke situs dan forum. Penggunaan blockchain melonjak: jumlah transaksi yang dilakukan di jaringan meningkat dari 42 pada 10 Juli menjadi 1,641 pada tanggal 12, mencapai 5,554 pada tanggal 14, rekor tertinggi sepanjang waktu. Sistem bertahan meskipun beban meningkat. Pada tanggal 14, pengembang Gavin Andresen menulis di forum:
+Publikasi itu menarik perhatian, dan hampir 500 komentar diposting dalam beberapa hari. Bagi Bitcoin, kesuksesan ini menyebabkan masuknya pengunjung secara massal ke situs dan forum. Penggunaan blockchain melonjak: jumlah transaksi yang dilakukan di jaringan meningkat dari 42 pada 10 Juli menjadi 1.641 pada tanggal 12, mencapai 5.554 pada tanggal 14, sebuah rekor tertinggi sepanjang masa. Sistem ini bertahan meskipun beban meningkat. Pada tanggal 14, pengembang Gavin Andresen menulis di forum:
 
-> "Saya pikir Satoshi telah melakukan pekerjaan yang fantastis: dalam dua hari terakhir ketika Bitcoin 'slashdotted', saya tidak mendengar MASALAH apa pun dengan kehilangan transaksi Bitcoin, atau downtime jaringan karena beban, atau masalah apa pun mengenai fungsionalitas dasar."
-Konsekuensi pertama dari arus masuk ini adalah harga Bitcoin mengalami kenaikan meteorik, dari $0,008 menjadi $0,08 dalam satu minggu, yang merupakan peningkatan sepuluh kali lipat! Efek lain dari arus masuk orang dari Slashdot adalah peningkatan kekuatan komputasi yang dikerahkan di jaringan. Banyak orang mulai menjalankan perangkat lunak dan memproduksi blok dengan prosesor pusat mereka. Antara 11 Juli dan 17 Juli, tingkat hash meningkat dari 0,22 GH/s menjadi 2,78 GH/s.
+"Saya pikir Satoshi melakukan pekerjaan yang fantastis: dalam dua hari terakhir ketika Bitcoin 'di-slashdot', saya tidak mendengar ada MASALAH dengan kerugian transaksi Bitcoin, atau down time jaringan karena beban, atau masalah apa pun terkait fungsionalitas dasar."
+
+Konsekuensi pertama dari masuknya pengunjung ini adalah harga Bitcoin mengalami kenaikan yang sangat pesat, naik dari $0,008 menjadi $0,08 dalam satu minggu, yaitu kenaikan sepuluh kali lipat! Efek lain dari masuknya orang-orang dari Slashdot adalah peningkatan daya komputasi yang dikerahkan di jaringan. Banyak orang memulai perangkat lunak dan menghasilkan blok dengan prosesor pusat mereka. Antara 11 Juli dan 17 Juli, hash rate meningkat dari 0,22 GH/s menjadi 2,78 GH/s.
 
 ### Pembuatan Mt. Gox
 

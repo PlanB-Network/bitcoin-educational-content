@@ -4,7 +4,7 @@ description: Installazione, configurazione e utilizzo di Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
 
-Sparrow Wallet è un software di gestione del wallet Bitcoin in autocustodia sviluppato da Craig Raw. Questo software open-source è apprezzato dai bitcoiners per le sue numerose funzioni e per l'intuitività dell'interfaccia.
+Sparrow è un software wallet di gestione Bitcoin in autocustodia sviluppato da Craig Raw. Questo software open-source è apprezzato dai bitcoiners per le sue numerose funzioni e per l'intuitività dell'interfaccia.
 
 Esistono due modi per utilizzare Sparrow:
 
@@ -16,9 +16,9 @@ Sparrow supporta wallet a firma singola e multipla e consente una gestione fluid
 
 Il software offre anche funzioni avanzate di controllo dei sats, consentendo di scegliere con precisione quali UTXO utilizzare nelle transazioni per ottimizzare la riservatezza.
 
-In termini di connessione, Sparrow consente di collegarsi al proprio nodo Bitcoin, sia in remoto tramite un server Electrum, sia con Bitcoin Core. È anche possibile utilizzare un nodo pubblico se non hai ancora il proprio. Le connessioni remote vengono effettuate tramite Tor.
+In termini di connessione, Sparrow consente di collegarsi al proprio nodo Bitcoin, sia in remoto tramite un server Electrum, sia con Bitcoin Core. È anche possibile utilizzare un nodo pubblico se non hai ancora il tuo. Le connessioni remote vengono effettuate tramite Tor.
 
-## Installare Sparrow Wallet
+## Installare Sparrow
 
 Vai sulla [pagina ufficiale per il download di Sparrow Wallet](https://sparrowwallet.com/download/) e scegli la versione del software corrispondente al tuo sistema operativo.
 
@@ -38,7 +38,7 @@ Per interagire con la rete Bitcoin e trasmettere le tue transazioni, Sparrow dev
 
 
 - 🟡 Utilizzando un nodo pubblico, cioè collegandosi a un nodo di terze parti che consente tali connessioni. Se non disponi di un tuo nodo Bitcoin, questa opzione consente di iniziare rapidamente a utilizzare Sparrow. Tuttavia, il nodo a cui ti connetti vedrà tutte le tue transazioni, il che potrebbe compromettere la tua riservatezza. Avere il controllo sulle tue chiavi è essenziale, ma avere un tuo nodo è ancora meglio. Utilizza quindi questa opzione solo se sei agli inizi, consapevole dei rischi per la tua privacy.
-- 🟢 Connessione a un nodo Bitcoin Core. Se disponi di un nodo Bitcoin Core, puoi collegarlo a Sparrow Wallet, sia localmente se Bitcoin Core è installato sulla stessa macchina, sia in remoto.
+- 🟢 Connessione a un nodo Bitcoin Core. Se disponi di un nodo Bitcoin Core, puoi collegarlo a Sparrow, sia localmente se Bitcoin Core è installato sulla stessa macchina, sia in remoto.
 - 🔵 Connessione tramite un server Electrum. Se il nodo Bitcoin è dotato di Electrum, come nel caso di soluzioni node-in-a-box come Umbrel o Start9, è possibile collegarsi ad esso in remoto da Sparrow.
 
 **È preferibile utilizzare una connessione tramite Electrs o Bitcoin Core sul tuo nodo per ridurre la necessità di affidarsi a terzi e migliorare la tua privacy**
@@ -57,7 +57,7 @@ Quindi fai clic su "*Test Connection*".
 
 ![Image](assets/fr/05.webp)
 
-Una volta collegato, Sparrow Wallet ti mostrerà una spunta gialla nell'angolo inferiore destro dell'interfaccia per indicare che sei connesso a un nodo pubblico.
+Una volta collegato, Sparrow ti mostrerà una spunta gialla nell'angolo inferiore destro dell'interfaccia per indicare che sei connesso a un nodo pubblico.
 
 ![Image](assets/fr/06.webp)
 
@@ -88,7 +88,7 @@ Quindi salva le modifiche.
 
 Puoi farlo anche tramite l'interfaccia grafica di Bitcoin-QT, andando su "*Settings*" > "*Options...*" e attivando l'opzione "*Enable RPC server*".
 
-Non dimentica di riavviare il software dopo aver apportato queste modifiche.
+Non dimenticare di riavviare il software dopo aver apportato queste modifiche.
 
 ![Image](assets/fr/08.webp)
 
@@ -112,7 +112,7 @@ La connessione è stabilita. Nell'angolo in basso a destra apparirà un segno di
 
 **Con Bitcoin Core remoto:**
 
-Se Bitcoin Core è installato su un'altra macchina collegata alla stessa rete, individua innanzitutto il file `Bitcoin.conf` tra i file del software. Se questo file non esiste ancora, puoi crearlo. Apri questo file con un editor di testo e aggiungere la seguente riga:
+Se Bitcoin Core è installato su un'altra macchina collegata alla stessa rete, individua innanzitutto il file `Bitcoin.conf` tra i file del software. Se questo file non esiste ancora, puoi crearlo. Apri questo file con un editor di testo e aggiungi la seguente riga:
 
 ```ini
 server=1
@@ -126,7 +126,7 @@ Dopo aver modificato il file, assicurati di salvarlo nella cartella appropriata 
 | Windows | %APPDATA%\Bitcoin                     |
 | Linux   | ~/.bitcoin                            |
 
-Questa operazione può essere eseguita anche tramite l'interfaccia grafica Bitcoin-QT. Accedi al menu "*Settings*", poi "*Options...*" e attiva l'opzione "*Enable RPC server*" selezionando la casella corrispondente. Se il file `Bitcoin.conf` non esiste, puoi crearlo direttamente da questa schermata facendo clic su "*Apri file di configurazione*".
+Questa operazione può essere eseguita anche tramite l'interfaccia grafica Bitcoin-QT. Accedi al menù "*Settings*", poi "*Options...*" e attiva l'opzione "*Enable RPC server*" selezionando la casella corrispondente. Se il file `Bitcoin.conf` non esiste, puoi crearlo direttamente da questa schermata facendo clic su "*Open Configuration File*".
 
 ![Image](assets/fr/12.webp)
 
@@ -155,7 +155,7 @@ rpcpassword=my_password
 
 Dopo aver modificato e salvato il file, riavvia il software Bitcoin-QT.
 
-Ora puoi tornare a Sparrow Wallet. Vai sulla scheda "*User / Pass*". Inserisci il nome utente e la password configurati nel file `Bitcoin.conf`. Lascia gli altri parametri come predefiniti, ossia l'URL `127.0.0.1` e la porta `8332`. Quindi fai clic su "*Test Connection*".
+Ora puoi tornare a Sparrow. Vai sulla scheda "*User / Pass*". Inserisci il nome utente e la password configurati nel file `Bitcoin.conf`. Lascia gli altri parametri come predefiniti, ossia l'URL `127.0.0.1` e la porta `8332`. Quindi fai clic su "*Test Connection*".
 
 ![Image](assets/fr/15.webp)
 
@@ -171,7 +171,7 @@ Per farlo, procurati il Tor `.onion' Address del tuo server Electrum. Con Umbrel
 
 ![Image](assets/fr/17.webp)
 
-Su Sparrow Wallet, accedi alla scheda "*Private Electrum*".
+Su Sparrow, accedi alla scheda "*Private Electrum*".
 
 ![Image](assets/fr/18.webp)
 
@@ -187,7 +187,7 @@ La connessione è confermata. Se chiudi questa finestra, nell'angolo in basso a 
 
 Ora che Sparrow è configurato per comunicare con la rete Bitcoin, sei pronto a creare il tuo primo wallet. Questa sezione ti guida nella creazione di un Hot wallet, ovvero un wallet le cui chiavi private sono memorizzate sul tuo computer. Poiché il computer è una macchina complessa connessa a Internet, presenta una superficie di attacco molto ampia. Di conseguenza, un Hot wallet dovrebbe essere utilizzato solo per quantità limitate di bitcoin. Per gestire quantità più consistenti, è meglio optare per un wallet sicuro in un Hardware wallet. Se questo è ciò che stai cercando, puoi passare alla sezione successiva.
 
-Per creare un Hot wallet, dalla schermata iniziale di Sparrow Wallet, fai clic sulla scheda "*File*" e quindi su "*New wallet*".
+Per creare un Hot wallet, dalla schermata iniziale di Sparrow, fai clic sulla scheda "*File*" e quindi su "*New wallet*".
 
 ![Image](assets/fr/21.webp)
 
@@ -195,7 +195,7 @@ Inserisci un nome per il wallet e clicca su "*Create wallet*".
 
 ![Image](assets/fr/22.webp)
 
-Nella parte superiore della schermata puoi scegliere se creare un wallet "*Single Signature*" o "*Multi Signature*". Subito sotto, seleziona il tipo di script per bloccare i tuoi UTXO. Ti consiglio di utilizzare lo standard più recente: "*Taproot (P2TR)*".
+Nella parte superiore dell'interfaccia puoi scegliere se creare un wallet "*Single Signature*" o "*Multi Signature*". Subito sotto, seleziona il tipo di script per bloccare i tuoi UTXO. Ti consiglio di utilizzare lo standard più recente: "*Taproot (P2TR)*".
 
 ![Image](assets/fr/23.webp)
 
@@ -203,7 +203,7 @@ Quindi fai clic su "*New or Imported Software wallet*".
 
 ![Image](assets/fr/24.webp)
 
-Scegli lo standard BIP39, in quanto è supportato da quasi tutti i software del wallet Bitcoin. Scegli quindi la lunghezza della [recovery phrase](https://planb.network/resources/glossary/recovery-phrase). Attualmente è sufficiente una frase di 12 parole, poiché entrambe offrono una sicurezza simile, ma la frase di 12 parole è più semplice da salvare.
+Scegli lo standard BIP39, in quanto è supportato da quasi tutti i software wallet Bitcoin. Scegli quindi la lunghezza della [recovery phrase](https://planb.network/resources/glossary/recovery-phrase). Attualmente è sufficiente una frase di 12 parole, poiché entrambe offrono una sicurezza simile, ma la frase di 12 parole è più semplice da salvare.
 
 ![Image](assets/fr/25.webp)
 
@@ -211,7 +211,7 @@ Fai clic sul pulsante "*generate New*" per inserire la frase generata del propri
 
 La frase di 12 parole ripristina l'accesso ai bitcoin in caso di perdita, furto o rottura del computer. È quindi molto importante salvarla con cura e conservarla in un luogo sicuro.
 
-È possibile scriverlo su carta o, per maggiore sicurezza, inciderlo su acciaio inossidabile per proteggerlo da incendi, inondazioni o il crollo dell'edificio. La scelta del supporto per la frase mnemonica dipenderà dalla tua strategia di sicurezza, ma se stai usando Sparrow come wallet per le spese quotidiane con quantità moderate di bitcoin, usare un supporto di carta dovrebbe essere sufficiente.
+È possibile scriverla su carta o, per maggiore sicurezza, inciderla su acciaio inossidabile per proteggerla da incendi, inondazioni o dal crollo dell'edificio. La scelta del supporto per la frase mnemonica dipenderà dalla tua strategia di sicurezza, ma se stai usando Sparrow come wallet per le spese quotidiane con quantità moderate di bitcoin, usare un supporto di carta dovrebbe essere sufficiente.
 
 Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemonica, ti consiglio di seguire quest'altro tutorial, soprattutto se sei principiante:
 
@@ -225,7 +225,7 @@ Puoi anche scegliere di aggiungere una passphrase BIP39 facendo clic sulla casel
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-Dopo aver salvato la frase mnemonica e qualsiasi passphrase su un supporto fisico, fai clic su "*Confirm Backup*".
+Dopo aver salvato la frase mnemonica e l'eventuale passphrase su un supporto fisico, fai clic su "*Confirm Backup*".
 
 ![Image](assets/fr/27.webp)
 
@@ -241,7 +241,7 @@ Clicca su "*Apply*" per finalizzare la creazione del wallet.
 
 ![Image](assets/fr/30.webp)
 
-Imposta una password forte per proteggere l'accesso al tuo wallet Sparrow. È buona norma conservare questa password in un gestore di password, in modo da non dimenticarla. Nota che questa password non deriva dalle tue chiavi private. Viene utilizzata solo per accedere al tuo wallet tramite Sparrow Wallet. Quindi, anche senza questa password, la frase mnemonica sarà sufficiente per accedere ai bitcoin da qualsiasi applicazione compatibile con BIP39.
+Imposta una password forte per proteggere l'accesso al tuo Sparrow. È buona norma conservare questa password in un gestore di password, in modo da non dimenticarla. Nota che questa password non deriva dalle tue chiavi private. Viene utilizzata solo per accedere al tuo wallet tramite Sparrow. Quindi, anche senza questa password, la frase mnemonica sarà sufficiente per accedere ai bitcoin da qualsiasi applicazione compatibile con BIP39.
 
 ![Image](assets/fr/31.webp)
 
@@ -249,17 +249,17 @@ Il tuo Hot wallet è ora creato. Puoi passare alla sezione *Receiving Bitcoins* 
 
 ## Gestione di un Cold wallet
 
-Il secondo modo di utilizzare Sparrow Wallet è di configurarlo come coordinatore con un Hardware wallet. In questa configurazione, le chiavi private del wallet rimangono esclusivamente sull'Hardware wallet, mentre Sparrow accede solo alle informazioni pubbliche. Questo approccio offre un livello di sicurezza più elevato rispetto agli Hot wallet discussi in precedenza. Questo perchè le chiavi private sono conservate su un dispositivo dedicato, spesso dotato di un Secure Element, che non è connesso a Internet e presenta quindi una superficie di attacco molto più ridotta rispetto a un computer tradizionale.
+Il secondo modo di utilizzare Sparrow è di configurarlo come coordinatore con un Hardware wallet. In questa configurazione, le chiavi private del wallet rimangono esclusivamente sull'Hardware wallet, mentre Sparrow accede solo alle informazioni pubbliche. Questo approccio offre un livello di sicurezza più elevato rispetto agli Hot wallet discussi in precedenza. Questo perchè le chiavi private sono conservate su un dispositivo dedicato, spesso dotato di un Secure Element, che non è connesso a Internet e presenta quindi una superficie di attacco molto più ridotta rispetto a un computer tradizionale.
 
 Esistono due modi principali per collegare l'Hardware wallet a Sparrow:
 
 
 - Con cavo, comunemente utilizzato con modelli entry-level come Trezor Safe 3 o Ledger Nano S Plus;
-- In modalità Air-Gap, cioè senza una connessione diretta via cavo, tramite una scheda MicroSD o il codice QR.
+- In modalità Air-Gap, cioè senza una connessione diretta via cavo, tramite una scheda MicroSD o con codice QR.
 
 Sparrow supporta tutti questi metodi di comunicazione ed è compatibile con la maggior parte degli Hardware wallet presenti sul mercato.
 
-Per questa esercitazione, utilizzerò un Ledger Nano S con cavo, ma la procedura è simile in modalità Air-Gap, ovvero senza cavo. Trovi più dettagli specifici sugli Hardware wallet nei tutorial dedicati sul sito di Plan ₿ Network.
+Per questo tutorial, utilizzerò un Ledger Nano S con cavo, ma la procedura è simile in modalità Air-Gap, ovvero senza cavo. Trovi più dettagli specifici sugli Hardware wallet nei tutorial dedicati sul sito di Plan ₿ Network.
 
 Prima di iniziare, accertati che il wallet sia già configurato sull'Hardware wallet. Se utilizzi una connessione via cavo, collegalo al computer tramite il cavo.
 
@@ -271,7 +271,7 @@ Assegna un nome al wallet e fai clic su "*Create wallet*". Ti consiglio di inser
 
 ![Image](assets/fr/33.webp)
 
-Nella parte superiore della schermata, scegli tra un wallet "*Single Signature*" o "*Multi Signature*". Per il nostro esempio, configureremo un wallet a firma singola.
+Nella parte superiore dell'interfaccia, scegli tra un wallet "*Single Signature*" o "*Multi Signature*". Per il nostro esempio, configureremo un wallet a firma singola.
 
 In basso, seleziona il tipo di script per bloccare gli UTXO. Se il tuo Hardware wallet lo supporta, ti suggerisco di scegliere "*Taproot (P2TR)*".
 
@@ -307,7 +307,7 @@ Il wallet di visualizzazione è ora configurato su Sparrow.
 
 ## Ricevere Bitcoin
 
-Ora che il wallet è impostato su Sparrow, puoi ricevere bitcoin. È sufficiente accedere al menu "*Receive*".
+Ora che il wallet è impostato su Sparrow, puoi ricevere bitcoin. È sufficiente accedere al menù "*Receive*".
 
 ![Image](assets/fr/42.webp)
 
@@ -327,7 +327,7 @@ Una volta che la transazione è stata propagata da chi ti invia i fondi, la si v
 
 ![Image](assets/fr/45.webp)
 
-Nella scheda "*Addresses*" trovi un elenco di tutti gli indirizzi della posta in arrivo. Puoi vedere se sono già stati utilizzati e se è stata aggiunta un'etichetta. "*Gli indirizzi di ricezione*" sono quelli che Sparrow mostra quando fai clic su "*Receive*" e sono destinati ai pagamenti in arrivo. Gli indirizzi "*Change*" sono utilizzati per i resti nelle transazioni, cioè per recuperare la parte inutilizzata dei tuoi UTXO in entrata.
+Nella scheda "*Addresses*" trovi un elenco di tutti gli indirizzi in entrata. Puoi vedere se sono già stati utilizzati e se è stata aggiunta un'etichetta. I "*Receive Adresses*" sono quelli che Sparrow mostra quando fai clic su "*Receive*" e sono destinati ai pagamenti in arrivo. Gli indirizzi "*Change*" sono utilizzati per i resti nelle transazioni, cioè per recuperare la parte inutilizzata dei tuoi UTXO in entrata.
 
 ![Image](assets/fr/46.webp)
 
@@ -410,11 +410,11 @@ Nella scheda "*Settings*" si trovano informazioni dettagliate sul wallet, come:
 
 ![Image](assets/fr/60.webp)
 
-Il pulsante "*Export*" consente di esportare le informazioni del wallet in modo da poterle utilizzare in altri software mantenendo le informazioni impostate in Sparrow.
+Il pulsante "*Export*" consente di esportare le informazioni del wallet in modo da poterle utilizzare in altri software mantenendo le informazioni impostate su Sparrow.
 
-Il pulsante "*Add account*" consente di aggiungere un altro account al wallet. Un account corrisponde a un insieme separato di indirizzi di posta elettronica. Questa funzione può essere utile, ad esempio, se desideri separare un account personale da uno aziendale, con una singola frase mnemonica.
+Il pulsante "*Add account*" consente di aggiungere un altro account al wallet. Un account corrisponde a un insieme separato di indirizzi di indirizzi in entrata. Questa funzione può essere utile, ad esempio, se desideri separare un account personale da uno aziendale, con una singola frase mnemonica.
 
-Il pulsante "*Advanced*" consente di accedere alle impostazioni avanzate, come la personalizzazione della ricerca Address di Sparrow e la modifica della password del wallet.
+Il pulsante "*Advanced*" consente di accedere alle impostazioni avanzate, come la personalizzazione della ricerca indirizzi di Sparrow e la modifica della password del wallet.
 
 ![Image](assets/fr/61.webp)
 
@@ -430,7 +430,7 @@ In questo modo si aprirà il File Manager nella cartella in cui Sparrow memorizz
 
 ![Image](assets/fr/64.webp)
 
-Nel menu "*File*", alla voce "*Settings*", si trovano i parametri di connessione alla rete Bitcoin già esplorati nelle sezioni precedenti. Puoi inoltre regolare vari parametri come l'unità di misura utilizzata, la valuta fiat per le conversioni e le fonti di informazione.
+Nel menù "*File*", alla voce "*Settings*", si trovano i parametri di connessione alla rete Bitcoin già esplorati nelle sezioni precedenti. Puoi inoltre regolare vari parametri come l'unità di misura utilizzata, la valuta fiat per le conversioni e le fonti di informazione.
 
 ![Image](assets/fr/65.webp)
 
@@ -441,11 +441,11 @@ La scheda "*View*" offre opzioni di personalizzazione e l'accesso ad alcuni coma
 La scheda "*Tools*" raggruppa diversi strumenti avanzati, tra cui:
 
 
-- "*Sign/Verify message*" consente di dimostrare il possesso di un Address ricevente o di verificare una firma.
-- "*Send To Many*" offre una interfaccia semplificata per l'esecuzione di transazioni a più indirizzi di ricezione contemporaneamente, comodo per le spese in batch.
-- "*Sweep Private Key*" consente di recuperare i bitcoin protetti da una semplice chiave privata e di trasferirli al proprio Sparrow. Questo può essere particolarmente utile per chi possiede bitcoin risalenti ai primi anni 2010, prima dell'era dei wallet HD.
+- "*Sign/Verify message*" consente di dimostrare il possesso di un indirizzo di ricezione o di verificare una firma.
+- "*Send To Many*" offre una interfaccia semplificata per l'esecuzione di transazioni a più indirizzi di ricezione contemporaneamente, che è comodo per fare più pagamenti a destinatari diversi all'interno di un'unica transazione.
+- "*Sweep Private Key*" consente di recuperare i bitcoin protetti da una semplice chiave privata e di trasferirli al proprio Sparrow. Questo può essere particolarmente utile per chi possiede bitcoin risalenti ai primi anni 2010, prima dell'era degli Hardware wallet.
 - "Verify Download" verifica l'integrità e l'autenticità del software scaricato prima di installarlo sul dispositivo.
-- "*Restart In*" consente di passare ai wallet sulle reti Testnet o Signet. Questo può essere utile se desideri accedere a reti di test con coin di nessun valore.
+- "*Restart In*" consente di passare ai wallet sulle reti Testnet o Signet. Questo può essere utile se desideri accedere a reti di test con sats di nessun valore.
 
 ![Image](assets/fr/67.webp)
 

@@ -1,0 +1,11 @@
+question: 在 Satoshi Nakamoto 之後，誰是第一個加入 Bitcoin 網路的人？
+answer: Hal Finney
+wrong_answers:
+  - Laszlo Hanyecz.
+  - Phil Champagne
+  - Rogzy.
+explanation: |
+  Hal Finney 是第一個加入 Bitcoin 網路的人
+  繼 Satoshi Nakamoto 本人之後。他甚至發推文 Running
+  Bitcoin 來紀念。
+reviewed: true

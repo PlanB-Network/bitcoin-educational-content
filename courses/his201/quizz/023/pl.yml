@@ -1,0 +1,9 @@
+question: Gdzie Satoshi Nakamoto opublikował białą księgę Bitcoin 31 października 2008 roku?
+answer: Lista mailingowa Cryptography
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Jako następca listy mailingowej cypherpunks, ta lista mailingowa była zarządzana przez programistę Perry'ego Metzgera od 1996 roku.
+reviewed: false

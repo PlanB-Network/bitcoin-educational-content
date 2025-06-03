@@ -1,0 +1,9 @@
+question: U Bitcoin transakciji, šta radi skripta za zaključavanje?
+answer: Namenjuje specifične uslove za trošenje povezanih sredstava
+wrong_answers:
+  - Automatski šalje sredstva na više adresa
+  - Određuje vrednost UTXO koji će biti kreiran
+  - Privremeno zaključava sredstva kako bi se sprečila prekomerna potrošnja
+explanation: |
+  Skripta zaključavanja nameće uslove, kao što je potpisivanje privatnim ključem, za otključavanje i korišćenje sredstava u transakciji.
+reviewed: false

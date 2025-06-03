@@ -1,0 +1,9 @@
+question: در میان این ۳ پروتکل، کدام یک پیاده‌سازی CoinJoin نیست؟
+answer: چینالیسیس.
+wrong_answers:
+  - JoinMarket.
+  - وابیسابی.
+  - Whirlpool.
+explanation: |
+  چینالیسیس به هیچ وجه یک پیاده‌سازی از CoinJoin نیست، زیرا یک شرکت تحلیل Blockchain است.
+reviewed: false

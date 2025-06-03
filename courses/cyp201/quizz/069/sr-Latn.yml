@@ -1,0 +1,9 @@
+question: Koja je glavna uloga lanca koda u izvođenju dečijih ključeva?
+answer: Uvedite dodatni izvor entropije
+wrong_answers:
+  - Identifikujte hijerarhijsku dubinu
+  - Skladišti indekse dečijih ključeva
+  - Osigurajte kompatibilnost sa Bitcoin protokolom
+explanation: |
+  Lanac kod se koristi za uvođenje dodatnog i jedinstvenog izvora entropije za svaki izvedeni ključ.
+reviewed: false

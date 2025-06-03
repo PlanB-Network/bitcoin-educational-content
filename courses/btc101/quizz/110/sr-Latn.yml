@@ -1,0 +1,11 @@
+question: Šta je Blockmit u kontekstu Bitcoin bezbednosti?
+answer: Rešenje niske cene za graviranje vaše Mnemonic fraze na komad čelika.
+wrong_answers:
+  - Tip Bitcoin Wallet za potpisivanje više transakcija odjednom.
+  - Jeftino rešenje za rudarenje bitkoina kod kuće.
+  - Tip Bitcoin Wallet koji zahteva više potpisa za trošenje UTXO-a.
+explanation: |
+  Blockmit je niskobudžetno rešenje za graviranje vaše
+  Mnemonic fraze na otpornom materijalu poput čelika, čime
+  dugoročno osiguravate vaše bitkoine.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između Bitcoin i alt-coina u smislu decentralizacije?
+answer: Bitcoin je decentralizovan dok većina alt-kovanica nije.
+wrong_answers:
+  - I Bitcoin i alt-coins su decentralizovani
+  - I Bitcoin i alt-coins nisu decentralizovani
+  - Alt-coins su decentralizovani dok Bitcoin nije
+explanation: |
+  Sadržaj poglavlja jasno navodi da je Bitcoin decentralizovan dok većina alt-kovanica nije. Ovo je ključna karakteristika koja izdvaja Bitcoin od ostalih kriptovaluta.
+reviewed: false

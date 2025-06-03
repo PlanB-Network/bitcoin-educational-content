@@ -1,0 +1,9 @@
+question: Koja od sledećih opcija NIJE jedna od tri osnovne funkcije novca?
+answer: Izvor energije
+wrong_answers:
+  - Čuvar Vrednosti
+  - Srednji Exchange
+  - Jedinica obračuna
+explanation: |
+  Tri osnovne funkcije novca su čuvar vrednosti, sredstvo Exchange, i obračunska jedinica. Izvor energije nije funkcija novca.
+reviewed: true

@@ -519,7 +519,7 @@ Od roku 2017 lze naštěstí soukromý klíč reprezentovat jednoduchým sezname
 
 ### A co hackeři?
 
-Co když někdo náhodou uhodne náš seznam 12 nebo 24 slov? Stručná odpověď zní, že je to velmi nepravděpodobné díky kryptografii použité k vytvoření peněženky. Abychom to uvedli na pravou míru, náhodné objevení stejné mnemotechnické fráze se podobá nalezení "správného" čísla mezi 1 a $2^256$, což je téměř ekvivalentní nalezení "správného" atomu ve vesmíru. Pokud však nejste s tímto výchozím zabezpečením spokojeni, můžete ho vždy zvýšit přidáním heslové fráze (dalšího slova) do své bitcoinové peněženky.
+Co když někdo náhodou uhodne náš seznam 12 nebo 24 slov? Stručná odpověď zní, že je to velmi nepravděpodobné díky kryptografii použité k vytvoření peněženky. Abychom to uvedli na pravou míru, náhodné objevení stejné mnemotechnické fráze se podobá nalezení "správného" čísla mezi 1 a 2 na 256, což je téměř ekvivalentní nalezení "správného" atomu ve vesmíru. Pokud však nejste s tímto výchozím zabezpečením spokojeni, můžete ho vždy zvýšit přidáním heslové fráze (dalšího slova) do své bitcoinové peněženky.
 
 ![image](assets/en/29.webp)
 
@@ -1136,7 +1136,7 @@ Postupná strategie zahrnuje opakované nákupy, což znamená nákup malých mn
 
 **Pozor na UTXO**: Nezapomeňte čas od času konsolidovat své UTXO v peněženkách. Tento postup je nezbytný pro efektivní správu vašich bitcoinů a vyhnutí se zbytečným poplatkům při transakcích.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) je výstup transakce, který dosud nebyl utracen, což znamená, že nebyl použit jako vstup pro novou transakci. Konsolidace UTXO znamená sloučení několika malých UTXO do jednoho většího, aby se snížila "hmotnost" transakce a tím se platily nižší poplatky.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) je výstup transakce, který dosud nebyl utracen, což znamená, že nebyl použit jako vstup pro novou transakci. Konsolidace UTXO znamená sloučení několika malých UTXO do jednoho většího, aby se snížila "hmotnost" transakce a tím se platily nižší poplatky.
 
 - Spontánní nákup
 

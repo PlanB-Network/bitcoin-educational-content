@@ -1,0 +1,10 @@
+question: CoinJoin 和保管混合器之間的主要差異是什麼？
+answer: CoinJoin 讓您保持對資金的完全控制。
+wrong_answers:
+  - CoinJoin 要求暫時放棄對資金的保管。
+  - 混合器比同軸接合更安全。
+  - 攪拌器可提供更優質的攪拌效果。
+explanation: |
+  與硬幣兌換器相比，混合器的主要缺點是需要用戶在混合過程中放棄對其資金的保管，這會使用戶面臨盜竊風險。
+  
+reviewed: false

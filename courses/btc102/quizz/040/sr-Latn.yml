@@ -1,0 +1,9 @@
+question: Koja je glavna prednost Bitcoin u odnosu na tradicionalne bankovne račune?
+answer: Potpuna kontrola nad vašim novcem
+wrong_answers:
+  - Više kamatne stope
+  - Niže transakcione naknade
+  - Brže vreme transakcija
+explanation: |
+  Poglavlje objašnjava da Bitcoin nudi moćnu alternativu tradicionalnim finansijskim sistemima. Omogućava svima da sačuvaju svoju privatnost, zaštite se od inflacije i devalvacije valute, zaobiđu autoritarne režime i povrate suverenitet nad svojim novcem.
+reviewed: false

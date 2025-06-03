@@ -1,8 +1,9 @@
-question: Mida tähendab DCA Bitcoin'i investeeringute kontekstis?
-answer: Dollar Cost Averaging
+question: Millist omandamismeetodit paranoiline kasutaja väldib?
+answer: Tsentraliseeritud platvormid koos KYCiga
 wrong_answers:
-  - Otsene Valuuta Omandamine
-  - Digitaalse Mündi Jaotus
-  - Detsentraliseeritud Krüpto Vara
+  - P2P matchi platvormid
+  - Bitcoin sularahaautomaadid
+  - Otsene sularaha ostmine kohtumistel
 explanation: |
-  Dollar Cost Averaging (DCA) on strateegia, kus jagate kogu investeerimiseks soovitud summa perioodiliste ostude vahel, et vähendada volatiilsuse mõju.
+  Anonüümsuse säilitamiseks väldib paranoiline kasutaja platvorme, mis nõuavad identiteedi kontrollimist.
+reviewed: false

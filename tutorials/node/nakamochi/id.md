@@ -50,7 +50,7 @@ mengatur dompet baru di Tab Lightning_
 
 pindai Kode QR dengan Aplikasi Manajemen Node_
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 
 untuk keamanan tambahan, tetapkan kode PIN_
 
@@ -86,7 +86,7 @@ Setelah Nakamochi Anda diatur dan terhubung ke aplikasi manajemen node, Anda dap
 
 5. Klik **"Buka Saluran "**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 
 tangkapan Layar _ZEUS_
 
@@ -104,7 +104,7 @@ Untuk informasi lebih lanjut: [Saluran | Dokumentasi Zeus](https://docs.zeusln.a
 
 5. Masukkan jumlah yang dikunci (pilih dengan rekan Anda atau gunakan jumlah tetap minimum untuk node yang terkenal).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 
 tangkapan Layar Bitbanana
 

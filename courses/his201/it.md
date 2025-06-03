@@ -357,7 +357,7 @@ Il concetto di Ripple si basava sull'idea che il denaro fosse essenzialmente com
 
 Ecco un video introduttivo di Ripple realizzato nel 2011:
 
-![Video (Youtube) della presentazione di Ripple nel 2011](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 Nonostante l'entusiasmo della sua comunità e qualche migliaio di utenti, Ripple aveva gravi difetti che ne impedivano il successo. In particolare, [soffriva](https://fiatjaf.com/3cb7c325.html) del "problema dell'impegno decentralizzato": durante un pagamento, i partecipanti non potevano impegnarsi in modo sicuro per garantire la catena di prestiti, un problema che sarebbe stato risolto in seguito da Lightning. (*originale: "the problem of the decentralized commit"*)
 
@@ -1100,7 +1100,7 @@ Due settimane dopo, in assenza di una risposta, un secondo membro del forum venn
 L'EFF ha impiegato un po' di tempo prima di iniziare ad accettare donazioni pubbliche. Dopo una negoziazione, la comunità li ha convinti a pubblicare un indirizzo per le donazioni sul loro sito web. Il 9 novembre, l'indirizzo è apparso sulla [pagina delle donazioni](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Gli utenti di Bitcoin hanno [iniziato](https://mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) a trasferire fondi.
 Pochi giorni dopo, un [post](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) scritto sull'argomento dal blogger jimbobway, ha attirato l'attenzione su Bitcoin. Questo articolo è stato [condiviso](https://news.ycombinator.com/item?id=1905522) su HackerNews. È stato anche trascritto in video da BitcoinMedia usando Xtranormal:
 
-![Video "Bitcoin and the EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 Questa è una notizia molto positiva per Bitcoin poiché entrambe le iniziative condividono valori comuni. Inoltre, l'EFF è rinomata per fornire protezione legale a progetti di conservazione della privacy e condivisione dei dati come Tor e BitTorrent. Lo stesso Satoshi Nakamoto ne è consapevole ed è particolarmente sostenitore delle azioni dell'organizzazione, come mostrato nel suo [commento](https://mmalmi.github.io/satoshi/#email-254) fatto in una delle sue email indirizzate a Gavin Andresen il 6 gennaio 2011:
 > "L'EFF è davvero importante. &nbsp;Vogliamo mantenere buone relazioni con loro. &nbsp;Siamo il tipo di progetto che apprezzano; hanno aiutato il progetto TOR e hanno fatto molto per proteggere la condivisione di file P2P."
@@ -1285,7 +1285,7 @@ I primi incontri tra utenti di Bitcoin furono iniziati da Bruce Wagner, il condu
 
 Febbraio segna anche la [prima presentazione filmata](https://www.youtube.com/watch?v=koIq58UoNfE) di Bitcoin, condotta da Gavin Andresen l'8 durante un evento organizzato nella sua città natale di Amherst, Massachusetts. Intitolata "Making Money", la presentazione del nuovo principale manutentore del progetto include numerosi elementi linguistici che caratterizzeranno il modo in cui la criptovaluta viene presentata negli anni successivi.
 
-![Video (Youtube) del discorso di Gavin ad Amherst nel febbraio 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 Anche se i primi eventi si svolsero negli Stati Uniti, la comunità francese non rimase indietro. Il 25 maggio, per segnare la visita di Gavin Andresen a Parigi, fu organizzato un pranzo nel quartiere de La Défense, al quale parteciparono figure di spicco come Lucien Grondin, David François e Jon Matonis (che era anche in visita).
 
@@ -1299,7 +1299,7 @@ Presentazione di Bitcoin da parte di Renaud Lifchitz il 15 giugno 2011 (fonte: [
 
 In seguito a questa esperienza, la comunità parigina [organizzò](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) un raduno sociale, che si svolse l'11 luglio. Questo evento riunì individui come Pierre Noizat o Émilien Dutang.
 Sul fronte internazionale, la prima conferenza collettiva su Bitcoin si è svolta dal 19 al 21 agosto a New York. Questo incontro, organizzato da Bruce Wagner, ha riunito personalità come Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès e Charlie Lee. Sebbene Wagner avesse promesso tre giorni di eventi, si sono tenute solo quattro presentazioni: la sua e quelle di Gavin Andresen, Jeff Garzik e Stefan Thomas.
-![Video (Youtube) dell'intervento di Gavin il 20 agosto 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 Più avanti nell'anno, a novembre, si terrà una conferenza europea [a Praga](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901). Tra i relatori notevoli ci saranno lo sviluppatore Amir Taaki, il fondatore del Partito Pirata svedese Rick Falkvinge e il presentatore Max Keiser. L'anno seguente, un evento simile sarà [organizzato a Londra](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
@@ -1309,7 +1309,7 @@ Anche l'anno 2011 è stato un anno in cui la copertura mediatica si è notevolme
 
 In primo luogo, i video sull'argomento hanno iniziato a proliferare su Youtube. Il 22 marzo è apparso il primo video di alta qualità su Bitcoin. Questo video, semplicemente intitolato "Cos'è Bitcoin?", è stato prodotto da Stefan Thomas (justmoon) grazie al [crowdfunding](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001) della comunità. È stato pubblicato sul portale WeUseCoins dedicato all'educazione e alla popolarizzazione della criptovaluta. Sono seguiti altri video introduttivi prodotti in modo indipendente, come [quello di howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) ad aprile, [quello di Reason](https://www.youtube.com/watch?v=yYTqvYqXRbY), o [quello di Rocketboom](https://www.youtube.com/watch?v=9LaSrxtWfgc) a giugno.
 
-![Cos'è Bitcoin?](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 Ad aprile, il tema della valuta digitale è stato trattato da importanti testate giornalistiche mainstream come [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), e [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). A maggio, il movimento ha guadagnato slancio, e Bitcoin è stato menzionato quasi ovunque, in particolare su [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), su [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), su [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124), e su [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 ![Gavin Andresen su Forbes ad aprile 2011](assets/en/68.webp)
 Gavin Andresen su Forbes ad aprile 2011 (fonte: [archivio Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))

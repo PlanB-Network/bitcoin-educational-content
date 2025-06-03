@@ -1,0 +1,5 @@
+---
+term: SZKOŁA AUSTRIACKA
+---
+
+Szkoła ekonomiczna, która teoretyzuje rynek jako zbiór dobrowolnych indywidualnych interakcji, podkreśla spontaniczność porządku gospodarczego i krytykuje interwencje państwa. Szkoła austriacka opowiada się za rolą własności prywatnej, swobodą zawierania umów i wolnym handlem, krytykując jednocześnie destrukcyjny wpływ kreacji pieniądza na gospodarkę. Jej współtwórcy, tacy jak Carl Menger, Ludwig von Mises i Friedrich Hayek, opracowali koncepcje takie jak kształtowanie się cen, funkcja pieniądza, dynamika kapitału i subiektywna teoria wartości. Szkoła austriacka krytykuje socjalizm za jego niezdolność do wykonywania efektywnych obliczeń ekonomicznych i faworyzuje podejście liberalne. Ceni wolny rynek i postrzega interwencjonizm państwowy jako źródło nierównowagi gospodarczej. Wielu entuzjastów Bitcoin wyznaje te idee, wierząc, że Bitcoin stanowi narzędzie zgodne z tą filozofią ze względu na jego rozproszoną naturę, ograniczenie jego kreacji monetarnej i zdolność do działania niezależnie od interwencji państwa.

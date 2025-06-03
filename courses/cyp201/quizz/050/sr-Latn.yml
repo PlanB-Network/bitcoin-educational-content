@@ -1,0 +1,9 @@
+question: Koja je dobra praksa za osiguranje passphrase?
+answer: Sačuvaj to na posebnom fizičkom mediju od Mnemonic fraze
+wrong_answers:
+  - Zapamti to samo napamet bez zapisivanja.
+  - Sačuvaj to na istom fizičkom medijumu kao Mnemonic frazu
+  - Snimite to na digitalni medij kao što je Google Drive
+explanation: |
+  passphrase mora biti sačuvan fizički i odvojeno od Mnemonic fraze kako bi se sprečila istovremena krađa oba.
+reviewed: false

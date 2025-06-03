@@ -1,0 +1,10 @@
+question: Jaki procent całkowitego wolumenu transakcji Bitcoin został wykorzystany do nielegalnej działalności?
+answer: Mniej niż 1%
+wrong_answers:
+  - 2-4%
+  - Ponad 5%
+  - Nie wiadomo
+explanation: |
+  Według raportu Chainalysis z 2020 r., nielegalna działalność stanowi jedynie
+  stanowi około 0,34% wszystkich transakcji Bitcoin.
+reviewed: true

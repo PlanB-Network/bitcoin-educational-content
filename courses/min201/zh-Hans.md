@@ -192,7 +192,7 @@ Attakai 项目源于两个朋友在家中进行的一次比特币挖矿实验，
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![谁掌握了权力？比特币、能源和制造商](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 在比特币网络中，矿工的角色仍然是区块大小战争期间激烈辩论的主题。尽管矿工对网络的安全和功能至关重要，但他们并不一定拥有比特币生态系统中的最终权力。矿工、节点和终端用户之间的平衡确保了网络的完整性和分布。
 
 ### 区块大小战争
@@ -234,7 +234,7 @@ Attakai 项目源于两个朋友在家中进行的一次比特币挖矿实验，
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![如何获得一个干净且未经触动的比特币？](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### 哈希率、价格和盈利能力
 
@@ -303,7 +303,7 @@ Attakai 项目源于两个朋友在家中进行的一次比特币挖矿实验，
 
 ### 工业挖矿幕后 - Sebastien Gouspillou
 
-![工业采矿幕后 - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # 家庭挖矿与热量回收
 

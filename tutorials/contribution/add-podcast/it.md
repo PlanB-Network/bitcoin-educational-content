@@ -63,7 +63,7 @@ Ecco i dettagli da compilare per ogni campo:
     - `economia`
     - `educazione`...
 
-- **`contributors`**: Menciona il tuo ID di contributore se ne possiedi uno.
+- **`contributors`**: Menziona il tuo ID di contributore se ne possiedi uno.
 
 Ad esempio, il tuo file YAML potrebbe apparire così:
 

@@ -1,0 +1,9 @@
+question: Dlaczego ręczna entropia generate dla HD Wallet jest ryzykowna?
+answer: Może wprowadzać ludzkie słabości lub przewidywalne uprzedzenia
+wrong_answers:
+  - Skutkuje to nieprawidłowymi kluczami publicznymi
+  - Blokuje wyprowadzanie kluczy prywatnych
+  - Ogranicza to rozmiar generowanych fraz Mnemonic
+explanation: |
+  Ręczne generowanie entropii może wprowadzać odchylenia lub błędy, czyniąc klucze bardziej podatnymi na ataki.
+reviewed: false

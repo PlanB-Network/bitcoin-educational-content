@@ -1,0 +1,9 @@
+question: Koji problem nastaje ako Jim's Sporting Goods koristi isti par ključeva za sve kupce?
+answer: Bilo koji korisnik mogao je pristupiti komunikacijama drugih.
+wrong_answers:
+  - Ključ bi postao prevelik
+  - Komunikacije bi bile usporene
+  - Kupci bi morali menjati ključeve pri svakoj kupovini
+explanation: |
+  Korišćenjem istog ključa za sve, Jim's Sporting Goods bi ugrozio poverljivost i integritet, jer bi svaki kupac mogao potencijalno pristupiti podacima drugih kupaca.
+reviewed: false

@@ -1,89 +1,92 @@
 ---
 name: Bitcoin-resan
-goal: Upptäck grundläggande Bitcoin, inklusive dess monetära värdeförslag, gruvarbetare, transaktioner och plånböcker.
+goal: Upptäck grunderna av Bitcoin, inklusive dess monetära värde, miners, transaktioner och bitcoin-plånböcker.
 objectives: 
-
   - Få en allmän förståelse för Bitcoin-tekniken
   - Förstå hur man köper och säkrar bitcoins
-  - Ha en allmän förståelse för Blockchain-tekniken
+  - Få en allmän förståelse för Blockchain-tekniken
   - Bekanta dig med konceptet Lightning Network
   - Inse den geopolitiska och sociala effekten av Bitcoin
 
 ---
 # Ditt första Bitcoin-äventyr
 
-I den här kursen förklarar vi grunderna i Bitcoin i 25 kapitel, så att du kan förstå den här tekniken på ett enkelt och effektivt sätt. Kursen utforskar grunderna i branschen som helhet, inklusive ämnen som gruvdrift, plånböcker, köp- och säljplattformar och mer. Ytterligare utbildningsmaterial kommer att finnas tillgängligt under hela resan, och vi uppmanar dig också att kolla in "21 affischer" i resursavsnittet efter att du har avslutat den här kursen.
+I den här kursen kommer vi att förklara grunderna i Bitcoin i 25 kapitel, så att du kan förstå denna teknologi på ett enkelt och effektivt sätt. Kursen utforskar grunderna i branschen som helhet, inklusive ämnen som mining, plånböcker, köp-/försäljningsplattformar och mer. Ytterligare utbildningsmaterial kommer att finnas tillgängligt under resan, och vi inbjuder dig också att kolla in "21 Posters" i resursavsnittet efter att du har avslutat denna kurs.
 
-Du behöver inte ha några särskilda förkunskaper för att komma igång. Faktum är att följande innehåll är tillgängligt för studenter på alla nivåer, och det bör ta cirka 15 timmar att slutföra.
+Du behöver ingen specifik kunskap för att komma igång. Faktum är att följande innehåll är tillgängligt för studenter på alla nivåer, och det bör ta ungefär 15 timmar att avsluta.
 
 +++
-# Inledning
+# Introduktion
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Ett språng in i det okända
+## Kursöversikt
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Välkommen till ett nytt monetärt och tekniskt paradigm.
+Välkommen till BTC101-kursen!
 
-Bitcoin är en teknisk och monetär revolution som kan få oss att ifrågasätta vårt förhållande till pengar och samhälle. Faktum är att Bitcoin (BTC) är en **neutral** och **decentraliserad** valuta, vilket innebär att den inte kontrolleras av någon enhet eller institution. Det är en innovation som går längre än bara en "internetvaluta": det är både ett datorprotokoll (Bitcoin) och en monetär enhet (bitcoin).
+Bitcoin är en teknologisk och monetär revolution, kapabel att få oss att ifrågasätta vår relation till pengar och samhälle. Faktum är att Bitcoin (som kallas BTC) är en neutral och decentraliserad valuta, vilket betyder att den inte kontrolleras av någon enhet eller institution. Det är en innovation som går bortom enbart en "internetvaluta": det är både ett datorprotokoll (Bitcoin) och en monetär enhet (bitcoin).
 
-Protokollet använder underliggande tekniker som kryptografi, nätverkskommunikation och den berömda "blockkedjan", medan bitcoin-enheten fungerar som den nödvändiga valutan för att protokollet ska fungera korrekt. I vardagen använder salvadoraner och bitcoinare runt om i världen bitcoinvalutan för att köpa och sälja varor och tjänster och förlitar sig på att denna teknik ska göra deras liv bättre.
+Bitcoin-protokollet använder underliggande teknologier som kryptografi, nätverkskommunikation och den berömda "blockchain", medan bitcoin-enheten fungerar som den nödvändiga valutan för att detta protokoll ska fungera korrekt. I vardagen använder salvadoraner och bitcoin-användare runt om i världen bitcoin-valutan för att köpa och sälja varor och tjänster, och förlitar sig på denna teknologi för att förbättra sina liv.
 
 ### En omfattande men ändå lättillgänglig läroplan
 
-I den här kursen kommer vi att diskutera några monetära aspekter av Bitcoin, inklusive hur man köper och säljer bitcoins, lagrar dem säkert i digitala plånböcker och använder dem för transaktioner. Vi kommer också att undersöka miners roll, som är avgörande för att skapa nya bitcoins och säkra Bitcoin-nätverket. Slutligen kommer vi att utforska framtiden för Bitcoin och hur Lightning Network-tekniken kan förbättra Bitcoin-transaktioner.
+I den här kursen kommer vi att diskutera några monetära aspekter av Bitcoin, inklusive hur man köper och säljer bitcoins, förvarar dem säkert i digitala plånböcker och använder dem för transaktioner. Vi kommer också att undersöka miners roll, som är avgörande för att skapa nya bitcoins och säkra Bitcoin-nätverket. Slutligen kommer vi att utforska framtiden för Bitcoin och hur Lightning Network-tekniken kan förbättra Bitcoin-transaktioner.
 
 ![image](assets/en/01.webp)
 
-Det är viktigt att förstå att Bitcoin är ett nytt monetärt system som helt förändrar vårt förhållande till pengar, så att lära sig hur man använder det är en nödvändig färdighet för alla som vill ha kontroll över sina egna medel.
+Det är viktigt att förstå att Bitcoin är ett nytt monetärt system som helt förändrar vår relation till pengar, så att lära sig hur man använder det är en nödvändig färdighet för alla som vill ha kontroll över sina egna medel.
 
-**Avsnitt 1 - Pengar**
+**Avsnitt 1 - Introduktion**
 
+    Kapitel 1 - Kursöversikt
+    Kapitel 2 - Bitcoins Förhistoria
 
-- Kapitel 1 - Vad är pengar?
-- Kapitel 2 - Fiatpengar
-- Kapitel 3 - Hyperinflation
-- Kapitel 4 - Bitcoins penningpolitik
+**Avsnitt 2 - Pengar**
 
-**Avsnitt 2 - Bitcoin-plånböcker**
+    Kapitel 3 - Pengar Genom Historien
+    Kapitel 4 - Fiat-valutor
+    Kapitel 5 - Hyperinflation
+    Kapitel 6 - 21 Miljoner Bitcoins
 
+**Avsnitt 3 - Bitcoin-plånböcker**
 
-- Kapitel 5 - Hur fungerar Bitcoin-plånböcker?
-- Kapitel 6 - Att välja säkerhet
-- Kapitel 7 - Konfigurera din plånbok
-- Kapitel 8 - Att skydda sig mot tiden
+    Kapitel 7 - Vad är en Bitcoin-plånbok?
+    Kapitel 8 - Bitcoin-plånböcker och Säkerhet
+    Kapitel 9 - Ställa in en Plånbok
+    Kapitel 10 - Stå Tidens Prov
 
-**Avsnitt 3 - Tekniska egenskaper hos Bitcoin**
+**Avsnitt 4 - De Tekniska Aspekterna av Bitcoin**
 
+    Kapitel 11 - Lansera Bitcoin
+    Kapitel 12 - Bitcoin-transaktioner
+    Kapitel 13 - Bitcoin-noder
+    Kapitel 14 - Miners
+    Kapitel 15 - Bitcoin och Ekologi
 
-- Kapitel 9 - Vad är en transaktion?
-- Kapitel 10 - Bitcoin-noder
-- Kapitel 11 - Gruvarbetare
-- Kapitel 12 - Gruvarbetare och ekologi
+**Avsnitt 5 - Hur Ska Man Skaffa Bitcoins?**
 
-**Avsnitt 4 - Sparande i Bitcoin**
+    Kapitel 16 - Bitcoin Sover Aldrig!
+    Kapitel 17 - Tjäna Bitcoins Genom Arbete
+    Kapitel 18 - Spara med Bitcoin
+    Kapitel 19 - Hyperbitcoinisering
 
+**Avsnitt 6 - Framtiden för Bitcoin: Lightning Network**
 
-- Kapitel 13 - Bitcoins pris
-- Kapitel 14 - Hur köper man Bitcoin?
-- Kapitel 15 - Att arbeta för Bitcoin
-- Kapitel 16 - Hyper-bitcoinisering
-
-**Avsnitt 5 - Blixtnätverk**
-
-
-- Kapitel 17 - Introduktion till Lightning Network
-- Kapitel 18 - Användningsområden för Lightning Network
+    Kapitel 20 - En Kort Introduktion till Lightning Network
+    Kapitel 21 - Användningsfall för Lightning Network
+    Kapitel 22 - Röd Piller eller Blå Piller?
 
 Innan vi introducerar definitionen av pengar och dess funktion i samhället (kapitel 1) bör vi börja med uppkomsten av Bitcoin. Bitcoin lanserades 2009 och är en relativt ny teknik som skiljer sig från allt annat. Det är därför normalt att inte förstå allt om den, allt på en gång. Precis som när man lär sig använda internet eller köra bil behöver man inte kunna alla tekniska detaljer på en gång: man kan börja med att lära sig hur man tar emot, betalar och säkrar sina pengar och sedan ta små steg för att fördjupa sig.
 
-När allt kommer omkring befinner vi oss bara i början av införandet, eftersom vi har passerat startfasen: du är precis i tid för att skaffa dig så mycket kunskap som du vill om denna viktiga innovation.
+Trots allt befinner vi oss bara i början av adoptionen, då vi har passerat startfasen: du är precis i tid för att skaffa dig så mycket kunskap som du vill om denna viktiga innovation.
 
 ![image](assets/en/02.webp)
 
 Det viktiga här är att förstå denna nya teknik på ett allmänt sätt, så vi hoppas att du tycker om den här kursen och fortsätter att göra framsteg i detta nya globala monetära paradigm.
+
+Redo att dyka ner i den fascinerande världen av Bitcoin och förstå alla dess inre funktioner? Låt oss gå!
 
 ## Bitcoins förhistoria
 
@@ -95,9 +98,9 @@ Innan termen "Bitcoin" blev synonymt med digital valuta och finansiell omvandlin
 
 ![image](assets/en/03.webp)
 
-Mitt under den tekniska utvecklingen på 1980- och 1990-talen började en grupp människor på allvar ifrågasätta den roll som integritet och frihet spelar i den digitala tidsåldern. Dessa personer, som senare skulle bli kända som "cypherpunks", var övertygade om att kryptografi kunde fungera som ett verktyg för att skydda individuella rättigheter mot inblandning från regeringar och stora företag.
+Mitt under den tekniska utvecklingen på 1980- och 1990-talen började en grupp människor på allvar ifrågasätta den roll som integritet och frihet spelar i den digitala tidsåldern. Dessa personer, som senare skulle bli kända som "cypherpunks", var övertygade om att kryptografi kunde fungera som ett verktyg för att skydda individuella rättigheter mot inblandning av regeringar och stora företag.
 
-Ikoniska personer som Julian Assange, Wei Dai, Tim May och David Chaum spelade en central roll i utformningen av rörelsens filosofi och vision. Dessa tänkare delade med sig av sina idéer på en inflytelserik e-postlista, där deltagare från hela världen deltog i debatter om de bästa sätten att utnyttja tekniken för att öka den individuella friheten.
+Ikoniska personer som Julian Assange, Wei Dai, Tim May och David Chaum spelade en central roll i utformningen av rörelsens filosofi och vision. Dessa tänkare delade med sig av sina idéer med hjälp av en inflytelserik e-postlista, där deltagare från hela världen deltog i debatter om de bästa sätten att använda teknik för att öka den individuella friheten.
 
 ### De tre grundläggande dokumenten för Cypherpunks
 
@@ -108,17 +111,17 @@ Cypherpunk-rörelsen, som är djupt rotad i digital aktivism och kryptografi, an
 
 - "Cypherpunk-manifestet":
 
-"Cypherpunk Manifesto", som skrevs av Eric Hughes 1993, hävdar att privatlivet är en grundläggande rättighet. Författaren menar att möjligheten att kommunicera fritt och konfidentiellt är avgörande för ett fritt samhälle. I manifestet sägs följande: "Vi kan inte förvänta oss att regeringar, företag eller andra stora, ansiktslösa organisationer ska ge oss integritet [...]. Vi måste försvara vår egen integritet om vi ska kunna förvänta oss att ha någon".
+"Cypherpunk Manifesto", som skrevs av Eric Hughes 1993, hävdar att integritet är en grundläggande rättighet. Författaren menar att möjligheten att kommunicera fritt och konfidentiellt är avgörande för ett fritt samhälle. I manifestet sägs följande: "Vi kan inte förvänta oss att regeringar, företag eller andra stora, ansiktslösa organisationer ska ge oss integritet [...]. Vi måste försvara vår egen integritet om vi ska kunna förvänta oss att ha någon".
 
 
 - Det "kryptoanarkistiska manifestet":
 
-skrivet av Timothy C. May 1992, förklarar detta dokument hur användningen av kryptografi kan leda till en era av kryptografisk anarki där regeringar skulle vara maktlösa att ingripa i medborgarnas privata angelägenheter. May föreställde sig en framtid där människor anonymt utbyter information och pengar utan inblandning av en tredje part.
+skrivet av Timothy C. May år 1992, förklarar detta dokument hur användningen av kryptografi kan leda till en era av kryptografisk anarki där regeringar skulle vara maktlösa att ingripa i medborgarnas privata angelägenheter. May föreställde sig en framtid där människor anonymt uyter information och pengar utan inblandning av en tredje part.
 
 
 - "Deklaration om cyberrymdens självständighet":
 
-även om den inte är uteslutande cypherpunk, återspeglar denna text känslorna hos många deltagare i rörelsen. Den skrevs 1996 av John Perry Barlow och är ett svar på regeringarnas ökande reglering av Internet. I deklarationen hävdas att cyberspace är en annan sfär än den fysiska och inte bör omfattas av samma lagar. Som det står: "Vi har ingen vald regering, och det är inte heller troligt att vi kommer att få någon".
+även om den inte är uteslutande cypherpunk, återspeglar denna text känslorna hos många deltagare i rörelsen. Den skrevs 1996 av John Perry Barlow och är ett svar på regeringarnas ökande reglering av Internet. I deklarationen hävdas att cyberspace är en annan sfär än den fysiska och inte bör omfattas av samma lagar. Som det står: "Vi har ingen vald regering, och det är inte heller troligt att vi kommer att ha någon".
 
 ### Föregångarna till Bitcoin
 
@@ -157,9 +160,9 @@ Pengarnas utveckling är en fascinerande aspekt av mänsklighetens historia som 
 
 ![image](assets/en/06.webp)
 
-### Från snäckskal till bankkonton
+### Från snäckor till bankkonton
 
-Ursprungligen var valuta en materiell tillgång, som spannmål, boskap eller någon annan råvara. Dessa varor hade dock den stora nackdelen att de var förgängliga, vilket gjorde det svårt att använda dem som ett långsiktigt sparmedel. Till exempel kunde dåliga skördar eller djursjukdomar förstöra en individs förmögenhet över en natt.
+Ursprungligen var valuta en materiell tillgång, som spannmål, boskap eller någon annan råvara. Dessa varor hade dock den stora nackdelen att de var ömtåliga, vilket gjorde det svårt att använda dem som ett långsiktigt sparmedel. Till exempel kunde dåliga skördar eller djursjukdomar förstöra en individs förmögenhet över en natt.
 
 I takt med att civilisationerna utvecklades och handeln expanderade till nya regioner uppstod behovet av ett universellt bytesmedel. Människor experimenterade först med föremål som snäckor och ädelstenar, men de var inte så hållbara eller sällsynta som de trodde. Så småningom blev guld standard, på grund av dess sällsynthet, hållbarhet och delbarhet. Det var, och är än idag, en symbol för rikedom och makt.
 
@@ -171,16 +174,16 @@ Pengar är ett mycket sofistikerat kommunikationsverktyg:
 
 
 - Den möjliggör kommunikation mellan nutid och framtid, eftersom den omvandlar vår tid och energi till en tillgång som kan återanvändas i framtiden utan risk för devalvering.
-- Det underlättar kommunikation på ett universellt språk: utan att känna varandra eller tala samma språk kan två främlingar utbyta, handla och komma överens om värdet på saker och ting.
+- Det underlättar kommunikation på ett universellt språk: utan att känna varandra eller tala samma språk kan två främlingar uyta, handla och komma överens om värdet på saker och ting.
 
-Dess funktion i vår värld är svår att återskapa på konstgjord väg. Faktum är att ingen individ eller grupp kan skapa pengar, eftersom det är ett naturligt fenomen som måste uppstå på marknaden och genom frivilligt samförstånd. På så sätt fungerar priser som signaler och information som vägleder samhället i dess resursfördelning.
+Dess funktion i vår värld är svår att återskapa på konstgjord väg. Faktum är att ingen individ eller grupp kan skapa pengar, eftersom det är ett naturligt fenomen som måste uppstå på marknaden och genom frivilligt konsensus. På så sätt fungerar priser som signaler och information som vägleder samhället i dess resursfördelning.
 
 Av dessa skäl är guld som pengar resultatet av 4 000 år av monetär darwinism baserad på följande aristoteliska funktioner:
 
 
-- Värdebevarare**: Pengar kan användas för att överföra köpkraft till framtiden, så de måste vara ett hållbart material;
-- Bytesmedel**: Pengar kan användas i utbyte mot varor och tjänster i stället för byteshandel, vilket gör att man undviker sammanfallande behov mellan handlare;
-- Räkneenhet**: Pengar gör det också möjligt för oss att jämföra värdet på olika varor för att bättre förstå deras relativa bekvämlighet.
+- **Värdebevaring**: Pengar kan användas för att överföra köpkraft till framtiden, så de måste vara ett hållbart material;
+- **Betalningsmedel**: Pengar kan användas i uyte mot varor och tjänster i stället för byteshandel, vilket gör att man undviker sammanträffande behov mellan handlare;
+- **En enda beräkningsenhet**: Pengar gör det också möjligt för oss att jämföra värdet på olika varor för att bättre förstå deras relativa förmån.
 
 ![image](assets/en/08.webp)
 
@@ -190,7 +193,7 @@ Av dessa skäl är guld som pengar resultatet av 4 000 år av monetär darwinism
 
 ### Pengarnas egenskaper
 
-Guld uppfyller alla kriterier för en effektiv valuta: dess naturliga sällsynthet gör det värdefullt, samtidigt som dess kemiska egenskaper gör att det inte eroderar med tiden. Dessa egenskaper har gjort guld till en utmärkt **värdebevarare**, men inte till en vanlig valuta, eftersom denna form av pengar inte är lätt att dela upp eller transportera över långa avstånd. I en globaliserad och digital värld har guld svårt att hänga med och kräver en central enhet som gör det delbart och lätt att växla in (t.ex. genom att prägla mynt).
+Guld uppfyller alla kriterier för en effektiv valuta: dess naturliga sällsynthet gör det värdefullt, samtidigt som dess kemiska egenskaper gör att det inte eroderar med tiden. Dessa egenskaper har gjort guld till en utmärkt **värdebevarare**, men inte till en vanlig valuta, eftersom denna form av pengar inte är lätt att dela upp eller transportera över långa avstånd. I en globaliserad och digital värld har guld svårt att hänga med och kräver en central enhet som gör det delbart och lätt att växla in (t.ex. genom att skapa mynt).
 
 På motsatt sida är statliga fiduciära valutor (fiat) lättanvända, men devalveras ständigt av de enheter som kontrollerar dem (kungar, centralbanker, kejsare, diktatorer).
 
@@ -199,53 +202,53 @@ För att förklara detta begrepp bättre ska vi undersöka vad som kännetecknar
 ![image](assets/en/11.webp)
 
 
-- Fungibilitet**, vilket innebär att den kan bytas ut mot en annan enhet av samma slag utan värdeförlust;
-- Delbarhet**, eftersom den kan delas upp i mindre enheter för att underlätta transaktioner av varierande volym;
-- Likviditet**, vilket innebär att den lätt kan omvandlas till varor eller tjänster.
+- **Fungibilitet**, vilket innebär att den kan bytas ut mot en annan enhet av samma slag utan värdeförlust;
+- **Delbarhet**, eftersom den kan delas upp i mindre enheter för att underlätta transaktioner av varierande volym;
+- **Likviditet**, vilket innebär att den lätt kan omvandlas till varor eller tjänster.
 
-För att uppfylla dessa kriterier har valutan historiskt sett utvecklats genom olika steg:
+För att uppfylla dessa kriterier har valutor historiskt sett utvecklats genom olika steg:
 
 
 - Rå sten -> Mynt
 - Sedel -> Bankkort
-- Blockchain -> Blixtnätverk
+- Blockchain -> Lightning Network
 
-Valutorna utvecklas än idag och anpassar sina former för att möta olika användningsområden. Guld är som sagt en utmärkt värdebevarare, men passar inte längre i dagens globaliserade ekonomi. På samma sätt är förvaltningsvalutor som dollar och euro mycket likvida och lätta att transportera eftersom de nu till största delen är digitala, men deras värde sänks ständigt av monetär inflation.
+Valutorna utvecklas än idag och anpassar sina former för att möta olika användningsområden. Guld är som sagt en utmärkt värdebevarare, men passar inte längre i dagens globaliserade ekonomi. På samma sätt är fiduciära valutor som dollar och euro mycket likvida och lätta att transportera eftersom de nu till största delen är digitala, men deras värde sänks ständigt av monetär inflation.
 
-Å andra sidan erbjuder Bitcoin nya möjligheter. Dess egenskaper, t.ex. den strikt begränsade tillgången, gör den till en utmärkt värdebevarare. Som en neutral internetvaluta fungerar den dessutom som ett livskraftigt **utbytesmedium** som överskrider gränser. Den är dock fortfarande inte allmänt accepterad i handeln idag, trots att den [ständigt används] (https://btcmap.org/map).
+Å andra sidan erbjuder Bitcoin nya möjligheter. Dess egenskaper, t.ex. den strikt begränsade tillgången, gör den till en utmärkt värdebevarare. Som en neutral internetvaluta fungerar den dessutom som ett livskraftigt **betalningsmedel** som överskrider gränser. Den är dock fortfarande inte allmänt accepterad i handeln idag, trots att den [ständigt används] (https://btcmap.org/map).
 
-## Förvaltningsvalutor
+## Fiduciära valutor
 
 <chapterId>25151d46-7db1-5b48-8bba-cbde1944555a</chapterId>
 
 > "De som inte kan minnas det förflutna är dömda att upprepa det", sa George Santayana.
 En sanning som stämmer väl när det gäller det nuvarande monetära systemet.
 
-### Förvaltare = Förtroende
+### Fiduciär = förtroende
 
-I dag betraktas stora valutor som euron och dollarn som fiduciära. Det innebär att de saknar egenvärde och är helt beroende av den tillit och det förtroende vi har för de institutioner som styr dem.
+I dag betraktas stora valutor som euron och dollarn som fiduciära. Det innebär att de saknar egentligt värde och är helt beroende av den tillit och det förtroende vi har för de institutioner som styr dem.
 
-En förvaltarvaluta är en form av pengar som har fastställts som sådan av en institution, dvs. en stat, som Kina med yuanen, eller en politisk-ekonomisk union, som Europeiska unionen med euron. Den enhet som ansvarar för dess utgivning är centralbanken (vi kan till exempel nämna People's Bank of China, Federal Reserve i USA eller Central Bank of the Republic of Guinea). Det är just dessa enheter som ansvarar för att utforma penningpolitiken och därmed hur mycket pengar som ska sättas i omlopp eller tryckas.
+En fiduciär valuta är en form av pengar som har fastställts som sådan av en institution, dvs. en stat, som Kina med yuan, eller en politisk-ekonomisk union, som Europeiska unionen med euron. Den enhet som ansvarar för dess utgivning är centralbanken (vi kan till exempel nämna People's Bank of China, Federal Reserve i USA eller Central Bank of the Republic of Guinea). Det är just dessa enheter som ansvarar för att utforma penningpolitiken och därmed hur mycket pengar som ska sättas i omlopp eller skapas.
 
 ![image](assets/en/12.webp)
 
 ### Monetär devalvering: en strategi lika gammal som romarriket
 
-Sedan antiken har guld fungerat som en monetär referens, men dess stelhet har ofta lett till att ledare, vare sig romerska kejsare eller moderna regeringar, har antagit alternativa valutor, ofta fiduciära.
+Sedan antiken har guld fungerat som en monetär referens, men dess fasthet har ofta lett till att ledare, vare sig romerska kejsare eller moderna regeringar, har antagit alternativa valutor, ofta fiduciära.
 
-Mekanismen är enkel och inspirerad av metoder som har funnits sedan civilisationens begynnelse. Ledare som är angelägna om att utöva kontroll över rikedomar börjar med att centralisera guld, ofta genom att utnyttja sin makt och lova skydd och säkerhet. Med denna dyrbara reserv i sina händer inför de en ny valuta, som motsvarar guldets värde, men som präglas till deras avbild. Denna valuta börjar sedan cirkulera, och människor anpassar sig snabbt till bekvämligheten med dess enkla användning.
+Mekanismen är enkel och inspirerad av metoder som har funnits sedan civilisationens begynnelse. Ledare som är angelägna om att utöva kontroll över rikedomar börjar med att centralisera guld, ofta genom att utnyttja sin makt och lova skydd och säkerhet. Med denna dyrbara reserv i sina händer inför de en ny valuta, som motsvarar guldets värde, men som skapas till deras avbild. Denna valuta börjar sedan cirkulera, och människor anpassar sig snabbt till bekvämligheten med dess enkla användning.
 
-Dessa ledare börjar dock sedan gradvis devalvera den nya valutan och minskar i praktiken dess värde med några procent varje år jämfört med det ursprungliga guldpriset. Denna tysta devalvering motiveras ofta med att den ligger i folkets intresse. I själva verket ser de som sparar i denna förtroendevaluta värdet på sina besparingar minska, medan staten finansierar sina projekt genom inflation. Dessutom gör denna devalvering att skulder blir lättare att betala tillbaka.
+Dessa ledare börjar dock sedan gradvis devalvera den nya valutan och i praktiken minskar dess värde med några procent varje år jämfört med det ursprungliga guldpriset. Denna tysta devalvering motiveras ofta med att den ligger i folkets intresse. De som sparar i denna fiduciära valuta ser i själva verket hur värdet på deras besparingar gradvis minskar, medan staten finansierar sina projekt genom inflation. Dessutom gör denna devalvering att skulder blir lättare att betala tillbaka.
 
 ![image](assets/en/13.webp)
 
-I ett kritiskt ögonblick gör ledaren tillkännagivandet: valutan är inte längre uppbackad av guld. Allmänheten, som nu är van vid förvaltarvalutan och ofta är felinformerad om finansiella frågor, accepterar denna verklighet, vilket gör att staten fritt kan manipulera penningmängden och trycka enorma summor pengar nästan utan kostnad.
+I ett kritiskt ögonblick gör ledaren tillkännagivandet: valutan är inte längre uppbackad av guld. Allmänheten, som nu är van vid den fiduciära valutan och som ofta är felinformerad om finansiella frågor, accepterar denna verklighet, vilket gör att staten fritt kan manipulera penningmängden och trycka enorma summor pengar nästan utan bekostnad.
 
-Penningtrycket leder sedan till inflation och utarmar gradvis befolkningen. Dessutom regleras och begränsas det finansiella systemet för att undvika att det kollapsar, eftersom varje störning skulle kunna orsaka en stor ekonomisk kris. I motsats till massorna drar finansinstitut och rika individer stor nytta av detta system, vilket skapar en ojämlikhet och gynnar auktoritära system. I detta sammanhang är de inte motiverade att göra radikala förändringar, vilket gör att systemet kan fortsätta sin kurs fram till en eventuell implosion.
+Penningskapandet leder sedan till inflation och utarmar gradvis befolkningen. Dessutom regleras och begränsas det finansiella systemet för att undvika att det kollapsar, eftersom varje störning skulle kunna orsaka en stor ekonomisk kris. I motsats till massorna drar finansiella institut och rika individer stor nytta av detta system, vilket skapar en ojämlikhet och gynnar auktoritära system. I detta sammanhang är de inte motiverade att göra radikala förändringar, vilket gör att systemet kan fortsätta sin kurs fram till en eventuell implosion.
 
-Väl genomförd kan denna strategi hålla i decennier. Det är dock viktigt att notera att en mycket snabb devalvering eller förlust av förtroende kan leda till hyperinflation (se nästa kapitel). Historien visar att dollarn har förlorat 98% av sitt värde på 100 år, euron 30% på 20 år och pundet 99% sedan det skapades.
+Denna strategi hålla i decennier när den är väl genomförd. Det är dock viktigt att notera att en mycket snabb devalvering eller förlust av förtroende kan leda till hyperinflation (se nästa kapitel). Historien visar att dollarn har förlorat 98% av sitt värde på 100 år, euron 30% på 20 år och pundet 99% sedan det skapades.
 
-I slutändan kanske valutan inte längre har någon koppling till guld, på samma sätt som romerska mynt i slutet av imperiet, eller till och med reduceras till ett enkelt numeriskt värde, frikopplat från den konkreta verkligheten.
+I slutändan kanske valutan inte längre har någon koppling till guld, på samma sätt som romerska mynt i slutet av imperiet, eller till och med reduceras till ett enkelt numeriskt värde, skiljt från den konkreta verkligheten.
 
 I dag bevittnar vi en historisk vändpunkt. Dollarn, som länge har dominerat, verkar vara på tillbakagång, samtidigt som guldet har förlorat sin centrala roll. Vi står på tröskeln till en ny monetär cykel, som påminner oss om att historiens lärdomar ofta glöms bort
 
@@ -253,27 +256,27 @@ I dag bevittnar vi en historisk vändpunkt. Dollarn, som länge har dominerat, v
 
 ### Är Bitcoin en lösning?
 
-På grund av dessa förutsättningar tar Bitcoin-revolutionen fart. I motsats till tidigare valutor kräver den **ingen betrodd tredje part** och syftar till att skilja staten från pengar.
+På grund av dessa premisser tar Bitcoin-revolutionen fart. I motsats till tidigare valutor kräver den **ingen betrodd tredje part** och syftar till att skilja staten från pengar.
 
 ![image](assets/en/15.webp)
 
-Faktum är att Bitcoin presenterar sig själv som ett svar på dessa systemutmaningar genom att föreslå en decentraliserad lösning och ett nytt parallellt monetärt system. Historiskt sett har guld gynnats som valuta på grund av dess motståndskraft mot förfalskning, och Bitcoin kan inte heller förfalskas. Dessutom är den begränsad till 21 miljoner enheter, tack vare dess decentraliserade och kryptografiska natur. Bitcoin är en valuta som bygger på transparens och neutralitet och som erbjuder ett attraktivt alternativ till det nuvarande centraliserade monetära systemet.
+Faktum är att Bitcoin presenterar sig själv som ett svar på systemets utmaningar genom att föreslå en decentraliserad lösning och ett nytt parallellt monetärt system. Historiskt sett har guld gynnats som valuta på grund av dess motståndskraft mot förfalskning, och Bitcoin kan inte heller förfalskas. Dessutom är den begränsad till 21 miljoner enheter, tack vare dess decentraliserade och kryptografiska natur. Bitcoin är en valuta som bygger på transparens och neutralitet och som erbjuder ett attraktivt alternativ till det nuvarande centraliserade monetära systemet.
 
 ![image](assets/en/16.webp)
 
-En annan anledning till att Bitcoin har fått uppmärksamhet är uppkomsten av digitala centralbanksvalutor, CBDC, som verkar oundviklig. Denna nya form av pengar skulle utveckla en mer centralt planerad ekonomi och skulle både kunna hindra individers finansiella frihet och underlätta auktoritära övergrepp.
+En annan anledning till att Bitcoin har fått uppmärksamhet är uppkomsten av digitala centralbanksvalutor, CBDC, som verkar oundviklig. Denna nya form av pengar skulle utveckla en mer central planerad ekonomi och skulle både kunna hindra individers finansiella frihet och underlätta auktoritära övergrepp.
 
 Vi kan avsluta detta kapitel med ett citat från Nobelpristagaren F.A Hayek 1984:
 
-> "Jag tror inte att vi någonsin ska ha bra pengar igen, innan vi tar saken ur händerna på regeringen. Om vi inte kan ta dem våldsamt ur regeringens händer, är allt vi kan göra att på något listigt eller omständligt sätt införa något de inte kan stoppa."
-För att lära dig mer om ekonomiska villfarelser och frihet inbjuder vi dig att upptäcka vår ECO 102-kurs, som spårar livet och idéerna hos Frédéric Bastiat, en fransk 1800-talstänkare som säkert skulle ha uppskattat uppkomsten av Bitcoin:
+> "Jag tror inte att vi någonsin kommer att ha bra pengar igen, innan vi tar saken ur händerna på regeringen. Om vi inte kan ta det våldsamt ur regeringens händer, är allt vi kan göra att på något listigt eller omständigt sätt införa något de inte kan stoppa."
+För att lära dig mer om ekonomiska felaktigheter och frihet inbjuder vi dig att upptäcka vår ECO 102-kurs, som följer livet och idéerna hos Frédéric Bastiat, en fransk 1800-talstänkare som säkerligen skulle ha uppskattat uppkomsten av Bitcoin:
 
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## Hyperinflation
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hyperinflation är ett monetärt fenomen som är specifikt för fiatvalutor: det kännetecknas av en fullständig förlust av förtroendet för en valuta och en drastisk ökning av inflationen på grund av myndigheternas penningtryckande. Som ett resultat kan de besparingar som ackumulerats av individer försvinna på en relativt kort tidsperiod, vilket driver landet på randen till ekonomisk, social och politisk kollaps.
+Hyperinflation är ett monetärt fenomen som är specifikt för fiatvalutor: det kännetecknas av en fullständig förlust av förtroendet för en valuta och en drastisk ökning av inflation på grund av myndigheternas penningskapande. Som ett resultat kan de besparingar som ackumulerats av individer försvinna på en relativt kort tidsperiod, vilket driver landet på gränsen till ekonomisk, social och politisk kollaps.
 
 ### Inflationen skenar iväg!
 
@@ -286,7 +289,7 @@ För att förstå inflationens inverkan på sparandet måste vi ta hänsyn till 
 
 När hyperinflation uppstår talar vi inte längre om 20 procent per år, utan snarare om 20 procent per månad eller, när det är som värst, till och med per DAG. Att uppleva en inflation på 100 % per dag under tre dagar är ett realistiskt scenario som har inträffat och fortsätter att inträffa i vår värld.
 
-Det är viktigt att förstå att hyperinflation inte uppstår av en slump, på grund av kapitalism eller politiska attacker från motståndare. Hyperinflation är den direkta konsekvensen av dåliga monetära beslut som fattas av centralbanker och politiker. Dess efterverkningar påverkar varje medborgare och även kommande generationer. Vi ber er vänligen att ägna fem minuter åt att läsa följande tabell för att fullt ut inse den verkliga effekten av detta fenomen (kursen ECO204 fördjupar sig ytterligare i detta ämne). Som du kan se är inget land eller valuta potentiellt säkert.
+Det är viktigt att förstå att hyperinflation inte uppstår av en slump, på grund av kapitalism eller politiska attacker från motståndare. Hyperinflation är den direkta konsekvensen av dåliga monetära beslut som fattas av centralbanker och politiker. Dess efterdyningar påverkar varje medborgare och även kommande generationer. Vi ber er vänligen att ägna fem minuter åt att läsa följande tabell för att fullt ut inse den verkliga effekten av detta fenomen (kursen ECO204 fördjupar sig ytterligare i detta ämne). Som du kan se är inget land eller valuta potentiellt säkert.
 
 ![image](assets/en/17.webp)
 
@@ -304,12 +307,12 @@ Fas 1 - Förlorat förtroende
 Fas 2 - Valutakollaps och prishöjning
 
 
-- När regeringar tappar kontrollen över förtroendet börjar individer byta ut sin valuta mot en mer stabil, som det som hände i Venezuela med den amerikanska dollarn. Detta leder till stigande priser, vilket skapar en ond cirkel där varor och tjänster blir allt dyrare. För att möta dessa behov och korrigera penningpolitiken trycker staten mer pengar, vilket resulterar i exponentiell inflation.
+- När regeringar tappar kontrollen över förtroendet börjar individer byta ut sin valuta mot en mer stabil, likt det som hände i Venezuela med den amerikanska dollarn. Detta leder till stigande priser, vilket skapar en ond cirkel där varor och tjänster blir allt dyrare. För att möta dessa behov och korrigera penningpolitiken skapar staten mer pengar, vilket resulterar i exponentiell inflation.
 
-Fas 3 - Penningtryckandets onda cirkel
+Fas 3 - Penningskapandets onda cirkel
 
 
-- Allt fler sedlar behövs därför för att köpa varor, vilket leder till att det blir ont om papperspengar. Som svar på detta trycker regeringarna fler sedlar, vilket spär på inflationen ytterligare.
+- Allt fler sedlar behövs därför för att köpa varor, vilket leder till att det blir ont om papperspengar. Som svar på detta trycker regeringarna upp fler sedlar, vilket driver på inflationen ytterligare.
 
 ![image](assets/en/19.webp)
 
@@ -359,7 +362,7 @@ I april 2009 meddelade finansministern att den zimbabwiska dollarn skulle dras i
 
 ![image](assets/en/15.webp)
 
-Sammanfattningsvis leder hyperinflation till att valutans värde snabbt degraderas, vilket leder till att sparandet urholkas och förtroendet för det monetära systemet försvinner. Som Voltaire en gång föreslog kommer en fiatvaluta alltid till slut att förlora sitt inneboende värde och konvergera mot noll.
+Sammanfattningsvis leder hyperinflation till att valutans värde snabbt degraderas, vilket leder till att sparandet urholkas och förtroendet för det monetära systemet försvinner. Som Voltaire en gång föreslog kommer en fiatvaluta alltid till slut att förlora sitt egentliga värde och gå mot noll.
 
 En valuta som förlitar sig på en betrodd tredje part som ett finansinstitut är i praktiken och på lång sikt en defekt valuta, eftersom den inte kan garantera köpkraft eller bevara sparande.
 
@@ -372,19 +375,19 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ### Bitcoins penningpolitik
 
-Bitcoin är en decentraliserad digital valuta med en fördefinierad maximal kvantitet på **21 miljoner enheter**. Denna inneboende egenskap av knapphet bestäms av dess datorkod och förstärks av samförståndet mellan alla användare som deltar i protokollet.
+Bitcoin är en decentraliserad digital valuta med en fördefinierad maximal mängd på **21 miljoner enheter**. Denna egenskap av knapphet bestäms av dess datorkod och förstärks av ett konsensus mellan alla användare som deltar i protokollet.
 
 ![image](assets/en/22.webp)
 
-Dess monetära utgivning kan illustreras med en kurva som representerar mängden bitcoins som skapas över tid. År 2022 var till exempel cirka 18,5 miljoner bitcoins i omlopp. Prognoser visar att det 2025 kommer att finnas cirka 19,5 miljoner bitcoins, vilket motsvarar cirka 93% av det totala utbudet, och 2037 kommer denna siffra att nå 20,4 miljoner.
+Dess monetära skapande kan illustreras med en kurva som representerar mängden bitcoins som skapas över tid. År 2022 var till exempel cirka 18,5 miljoner bitcoins i omlopp. Prognoser visar att det 2025 kommer att finnas cirka 19,5 miljoner bitcoins, vilket motsvarar cirka 93% av det totala uudet, och 2037 kommer denna siffra att nå 20,4 miljoner.
 
 ### Hur skapas nya bitcoins?
 
-Skapandet av nya bitcoins är resultatet av gruvprocessen. I ett nötskal använder miners kraftfulla datorer som löser komplexa matematiska problem, vilket validerar och säkrar transaktioner. När ett problem har lösts lägger minern till ett nytt block med transaktioner i blockkedjan, en decentraliserad och distribuerad huvudbok som registrerar alla transaktioner som görs i nätverket. Blockkedjan garanterar transparens och säkerhet, eftersom varje block är länkat till det föregående, vilket gör det nästan omöjligt att ändra tidigare data utan samtycke från nätverket.
+Skapandet av nya bitcoins är resultatet av mining-processen. I ett nötskal använder miners kraftfulla datorer som löser komplexa matematiska problem, vilket validerar och säkrar transaktioner. När ett problem har lösts lägger minern till ett nytt block med transaktioner i blockkedjan, ett decentraliserat och distribuerat register som registrerar alla transaktioner som görs i nätverket. Blockkedjan garanterar transparens och säkerhet, eftersom varje block är länkat till det föregående, vilket gör det nästan omöjligt att ändra tidigare data utan samtycke från nätverket.
 
 ![image](assets/en/23.webp)
 
-Efter att framgångsrikt ha utfört denna uppgift belönas miners med utgivning av nya bitcoins var tionde minut. Denna belöning är programmerad att halveras var 210 000:e block, vilket är ungefär vart fjärde år (en händelse som kallas "halvering"), vilket ger den monetära utgivningskurvan en trappliknande form. På grund av denna mekanism kan det matematiskt förutsägas att skapandet av nya bitcoins kommer att upphöra omkring år 2140, när det totala antalet når sin gräns på 21 miljoner.
+Efter att framgångsrikt ha utfört denna uppgift belönas miners med skapandet av nya bitcoins var tionde minut. Denna belöning är programmerad att halveras var 210 000:e block, vilket är ungefär vart fjärde år (en händelse som kallas "halvering"), vilket ger kurvan av det monetära skapandet en trappliknande form. På grund av denna mekanism kan det matematiskt förutsägas att skapandet av nya bitcoins kommer att upphöra omkring år 2140, när det totala antalet når sin gräns på 21 miljoner.
 
 | Halveringsnummer | Blockhöjd | BTC-belöning efter halvering | Beräknad BTC i omlopp efter halvering |
 
@@ -434,18 +437,18 @@ Vi kommer att återkomma till begreppet mining i mer detalj i [miner-kapitlet] (
 
 ### Garantera digital knapphet
 
-Gränsen på 21 miljoner är grunden för Bitcoins knapphet och garanteras av två viktiga mekanismer: justeringen av brytningssvårigheter och spelteorin.
+Gränsen på 21 miljoner är grunden för Bitcoins knapphet och garanteras av två viktiga mekanismer: justeringen av svårigheten av mining och spelteorin.
 
 
-- Justeringen av brytningssvårigheten är en process som sker vart 2016:e block, eller cirka två veckor, för att säkerställa att ett nytt block läggs till i blockkedjan var tionde minut i genomsnitt. Denna frekvens av blockskapande och den totala mängden bitcoins är båda fasta aspekter av Bitcoin-protokollet och kan inte ändras utan ett allmänt samförstånd, till skillnad från de godtyckliga beslut som fattas i traditionella monetära system.
+- Justeringen av svårigheten av mining är en process som sker vart 2016:e block, eller cirka två veckor, för att säkerställa att ett nytt block läggs till i blockkedjan var tionde minut i genomsnitt. Denna frekvens av blockskapande och den totala mängden bitcoins är båda fasta aspekter av Bitcoin-protokollet och kan inte ändras utan ett allmänt samförstånd, till skillnad från de godtyckliga beslut som fattas i traditionella monetära system.
 
 Svårigheten att hitta en giltig hash följer ett slags cykel: om antalet miners ökar innebär det att antalet block de hittar är högre, vilket leder till att den genomsnittliga tiden för att hitta ett block minskar. På grund av detta ökar svårighetsgraden. Som en följd av detta sänks antalet block som miners hittar, vilket innebär att mekanismen går tillbaka till genomsnittet på 10 minuter per block. Vänligen se bilden nedan för en visuell visning.
 
 ![image](assets/en/24.webp)
 
-Visste du att gruvarbetare har incitament att bryta ett block för att tjäna nya bitcoins genom blocksubventionen samt transaktionsavgifter från de transaktioner de inkluderar i det blocket?
+Visste du att miners har incitament att mina ett block för att tjäna nya bitcoins genom blocksubventionen samt transaktionsavgifter från de transaktioner de inkluderar i det blocket?
 
-När antalet utgivna bitcoins närmar sig gränsen på 21 miljoner kommer miners således att ersättas mer genom sina transaktionsavgifter än genom blocksubventionen.
+När antalet skapade bitcoins närmar sig gränsen på 21 miljoner kommer miners således att ersättas mer genom sina transaktionsavgifter än genom blocksubventionen.
 
 
 - Spelteori är ett matematiskt koncept som bygger på mänsklig rationalitet. Det förutsätter att individer agerar logiskt och försöker maximera sina egna fördelar samtidigt som de beaktar andras potentiella beslut. I Bitcoin bidrar spelteorin till att säkerställa att majoriteten av miners och användare agerar i nätverkets bästa intresse. Eftersom protokolländringar röstas fram av användarna skulle faktiskt varje ändring av Bitcoin-protokollet kräva att hela användargruppen samtycker, vilket är mycket komplext. Så om någon ville skapa en bitcoin på 22 miljoner skulle de behöva övertyga alla användare att frivilligt devalvera sina egna besparingar, vilket är osannolikt eftersom Bitcoin är globalt och inte styrs av en central grupp.
@@ -454,7 +457,7 @@ När antalet utgivna bitcoins närmar sig gränsen på 21 miljoner kommer miners
 
 Idén om att devalvera valutan går emot den grundläggande filosofin för Bitcoin, så en förändring i dess totala kvantitet är mycket osannolik att hända.
 
-### En granskningsbar monetär molicy: varje sekund, från början och för alltid!
+### En granskningsbar monetär policy: varje sekund, från början och för alltid!
 
 Bitcoins knapphet är en stor tillgång, och den maximala mängden på 21 miljoner bitcoins i omlopp är offentlig och kan verifieras av vem som helst.
 
@@ -463,7 +466,7 @@ Faktum är att vem som helst kan göra detta via en Bitcoin-nod (dvs. en transak
 ```json
 {
 "height": 710560,
-"bestblock": "0000000000000000000887384d67103412ea7f18a43953e65c8c4ac36bf42e54",
+"beslock": "0000000000000000000887384d67103412ea7f18a43953e65c8c4ac36bf42e54",
 "transactions": 473244,
 "txouts": 1018917,
 "bogosize": 2183872374,
@@ -473,13 +476,13 @@ Faktum är att vem som helst kan göra detta via en Bitcoin-nod (dvs. en transak
 }
 ```
 
-Bitcoin garanterar en sund monetär förvaltning genom att begränsa dess skapande genom design, vilket gör den mycket annorlunda än andra valutor eftersom den kan skydda användarnas besparingar. I linje med principerna för österrikisk ekonomi skyddar dess stabila kvantitet och förutsägbara distribution den från de inneboende riskerna för inflation som traditionella valutor måste möta (se ECO201-kursen för att få veta mer).
+Bitcoin garanterar en sund monetär hantering genom att begränsa dess skapande avsiktligt, vilket gör den mycket annorlunda än andra valutor eftersom den kan skydda användarnas besparingar. I enlighet med principerna för österrikisk ekonomi säkerställer dess stabila mängd och förutsägbara distribution ett starkt skydd mot de inneboende inflationsrisker som traditionella valutor ständigt står inför (se ECO201-kursen för att få veta mer).
 
-Sammanfattningsvis erbjuder Bitcoin, med sin decentraliserade natur, programmerade knapphet och transparens, ett unikt alternativ till traditionella monetära system. Det illustrerar hur teknik kan användas för att skapa en valuta som inte bara är användbar och verifierbar, utan också bevarar värdet på användarnas besparingar genom att strikt begränsa tillgången.
+Sammanfattningsvis erbjuder Bitcoin, med sin decentraliserade natur, programmerade knapphet och transparens, ett unikt alternativ till traditionella monetära system. Den illustrerar hur teknik kan användas för att skapa en valuta som inte bara är användbar och verifierbar, utan också bevarar värdet på användarnas besparingar genom att strikt begränsa tillgången.
 
 ### Slutsats av avsnitt 1!
 
-# Bitcoin plånböcker
+# Bitcoin-plånböcker
 
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
@@ -487,38 +490,38 @@ Sammanfattningsvis erbjuder Bitcoin, med sin decentraliserade natur, programmera
 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
-I avsnitt 2 kommer vi att utforska lagring och säkerhet för Bitcoin genom användning av plånböcker, för att förstå var dessa berömda bitcoins finns och hur man interagerar med dem!
+I avsnitt 2 kommer vi att utforska Bitcoins förvaring och säkerhet genom användning av digitala plånböcker, för att förstå var dessa berömda bitcoins finns och hur man interagerar med dem!
 
 ### Avmystifiering av Bitcoin-plånböcker
 
-Vi använder plånböcker för att interagera med Bitcoin-nätverket på tre huvudsakliga sätt:
+Vi använder digitala plånböcker för att interagera med Bitcoin-nätverket på tre huvudsakliga sätt:
 
 
 - För att ta emot bitcoins
 - För att skicka bitcoins
 - För att skydda dem mot hackning och stöldförsök
 
-En Bitcoin-plånbok kan ha många olika former: en programvara på din dator, en applikation på din smartphone, en fysisk enhet som en USB-nyckel eller till och med ett papper. Var och en av dem tjänar olika användningsfall. Faktum är att vissa är utformade för stora transaktioner med betoning på säkerhet, medan andra prioriterar integritet, eller så är de avsedda för dagliga betalningar av små belopp.
+En Bitcoin-plånbok kan ha många olika former: en programvara på din dator, en applikation på din smartphone, en fysisk enhet som en USB-nyckel eller till och med ett papper. Var och en av dem tjänar olika användning. Faktum är att vissa är utformade för stora transaktioner med betoning på säkerhet, medan andra prioriterar integritet, eller så är de avsedda för dagliga betalningar av små belopp.
 
-Portföljer kan således kategoriseras i breda användningsområden, som alltid kretsar kring en nyckelfråga: är du ägare till pengarna eller lämnar du över kontrollen över dina pengar till en tredje part? Vi kommer att utforska detta ämne i detalj i nästa kapitel, men frågan är fortfarande enkel: ligger pengarna i din ficka eller i din bankmans ficka?
+Portföljer kan således kategoriseras i breda användningsområden, som alltid kretsar kring en nyckelfråga: är du ägare till pengarna eller lämnar du över kontrollen av dina pengar till en tredje part? Vi kommer att utforska detta ämne i detalj i nästa kapitel, men frågan är fortfarande enkel: ligger pengarna i din ficka eller i din bankmans ficka?
 
 ![image](assets/en/26.webp)
 
 ### Hur fungerar en Bitcoin-plånbok?
 
-Oavsett om det är din Bitcoin-"bankir" eller du själv, arbetar de allra flesta Bitcoin-plånböcker med en liknande teknik baserad på asymmetrisk kryptografi, vilket innebär ett system med nyckelpar: en privat nyckel för utgifter och en offentlig nyckel för mottagande.
+Oavsett om det är din Bitcoin-"bankman" eller du själv, arbetar de allra flesta Bitcoin-plånböcker med en liknande teknik baserad på asymmetrisk kryptografi, vilket innebär ett system med nyckelpar: en privat nyckel för spenderande och en offentlig nyckel för mottagande.
 
 
 - Privat nyckel
 
-När du initierar en plånbok genereras en hemlig återställningsfras (privat nyckel) som presenteras för dig i form av 12 eller 24 ord.
+När du initierar en digital plånbok genereras en hemlig återställningsfras (privat nyckel) som presenteras för dig i form av 12 eller 24 ord.
 
 Den privata nyckeln är grundläggande eftersom den utgör äganderätten till bitcoins och därmed rätten att använda eller skicka dem. Därför är innehavaren av den privata nyckeln den verkliga ägaren av bitcoins.
 
 Denna nyckel måste hållas hemlig och väl skyddad, eftersom den låser upp din förmögenhet!
 
 
-- Offentlig nyckel & adress
+- Offentlig nyckel och adress
 
 Den publika nyckeln genereras från den privata nyckeln och är kopplad till den. Att dela den publika nyckeln innebär risker för integriteten (eftersom andra användare kan se ditt saldo) men inte för säkerheten (eftersom de inte kan spendera dina pengar utan att ha den privata nyckeln). Den publika nyckeln används i sin tur för att skapa Bitcoin-adresser och därmed ta emot pengar.
 
@@ -530,7 +533,7 @@ Sammanfattningsvis gör den här tekniken det möjligt för oss att ta emot bitc
 
 ### Finns bitcoins i plånboken?
 
-Även om dina nycklar lagras i din plånbok "lagras" själva bitcoins faktiskt i Bitcoin-blockkedjan, som är en offentlig distribuerad huvudbok inom Bitcoin peer-to-peer-nätverket (vi kommer att fördjupa oss i det i avsnitt 3). Detta innebär att om du förlorar enheten som innehåller din plånbok behöver det inte nödvändigtvis leda till att du förlorar dina bitcoins. Det som gör att du kan återskapa din plånbok och spendera dina bitcoin är faktiskt den privata nyckeln, så kom alltid ihåg att säkra den ordentligt!
+Även om dina nycklar lagras i din plånbok "lagras" själva bitcoins faktiskt på Bitcoin-blockkedjan, som är ett offentligt distribuerat register inom Bitcoin peer-to-peer-nätverket (vi kommer att fördjupa oss i det i avsnitt 3). Detta innebär att om du förlorar enheten som innehåller din plånbok behöver det inte nödvändigtvis leda till att du förlorar dina bitcoins. Det som gör att du kan återskapa din plånbok och spendera dina bitcoin är faktiskt den privata nyckeln, så kom alltid ihåg att säkra den ordentligt!
 
 ![image](assets/en/28.webp)
 
@@ -538,7 +541,7 @@ Lyckligtvis kan den privata nyckeln sedan 2017 representeras av en enkel lista m
 
 ### Hur är det med hackare?
 
-Vad händer om någon av misstag gissar vår lista med 12 eller 24 ord? Det korta svaret är att det är mycket osannolikt, tack vare den kryptografi som används för att skapa plånboken. För att sätta det i perspektiv, att av misstag upptäcka samma minnesfras är som att hitta "rätt" nummer mellan 1 och $2^256$, vilket nästan är likvärdigt med att hitta "rätt" atom i universum. Men om du inte är nöjd med denna standardsäkerhet kan du alltid förbättra den genom att lägga till en lösenfras (ett extra ord) i din Bitcoin-plånbok.
+Vad händer om någon av misstag gissar vår lista med 12 eller 24 ord? Det korta svaret är att det är mycket osannolikt, tack vare den kryptografi som används för att skapa plånboken. För att sätta det i perspektiv, att av misstag upptäcka samma minnesfras är som att hitta "rätt" nummer mellan 1 och $2^256$, vilket nästan är likvärdigt med att hitta "rätt" atom i universum. Men om du inte är nöjd med denna standardsäkerhet kan du alltid förbättra den genom att lägga till en lösenordsfras (ett extra ord) till din Bitcoin-plånbok.
 
 ![image](assets/en/29.webp)
 
@@ -555,10 +558,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Ställ rätt frågor innan du börjar
 
-När du äger bitcoins är säkerheten för dina medel ett stort bekymmer. Det bästa sättet att definiera en säkerhetsnivå som är lämplig för din situation är att ställa dig själv en rad frågor:
+När du äger bitcoins är säkerheten för dina tillgångar ett stort bekymmer. Det bästa sättet att definiera en säkerhetsnivå som är lämplig för din situation är att ställa dig själv en rad frågor:
 
 
-- Vem kan få tillgång till dina medel? Med andra ord, har du ensam tillgång till dina bitcoins, eller ger en tredje part (t.ex. ett företag) dig tillgång till dina medel?
+- Vem kan få tillgång till dina pengar? Med andra ord, har du ensam tillgång till dina bitcoins, eller ger en tredje part (t.ex. ett företag) dig tillgång till dina pengar?
 - Hur planerar du att använda bitcoins i den specifika plånboken? Regelbundet? För sparande på medellång eller lång sikt?
 - Vilka är dina tekniska färdigheter?
 - Vad är din säkerhetsbudget?
@@ -572,18 +575,18 @@ Det finns faktiskt inget universellt svar eller lösning, så ta dig tid att sva
 Här nedan kommer vi att definiera flera säkerhetsnivåer:
 
 
-- Nivå 0**, du använder en så kallad "custodial service" där du inte är den enda innehavaren av dina bitcoins. Var medveten om att denna betrodda tredje part när som helst kan begränsa din tillgång till dina medel. I det här fallet liknar din nivå av finansiell suveränitet den som gäller för ett traditionellt banksystem med ett bankkonto.
+- **Nivå 0**, du använder en så kallad "custodial service" där du inte är den enda innehavaren av dina bitcoins. Var medveten om att denna betrodda tredje part när som helst kan begränsa din tillgång till dina pengar. I det här fallet liknar din nivå av finansiell suveränitet det som gäller för ett traditionellt banksystem med ett bankkonto.
 
 ![image](assets/en/31.webp)
 
 
-- Nivå 1**, du använder en Bitcoin-plånbok på din telefon eller dator, där du är den enda innehavaren av dina bitcoins och du enkelt kan utföra dina transaktioner. Det ovan nämnda verktyget kallas "hot wallet", eftersom den privata nyckeln lagras på en enhet med internetåtkomst. I det här fallet är det viktigt att säkerhetskopiera din minnesfras för att återfå tillgång till dina pengar om du tappar bort din telefon eller dator.
+- **Nivå 1**, du använder en Bitcoin-plånbok på din telefon eller dator, där du är den enda innehavaren av dina bitcoins och du kan enkelt utföra dina transaktioner. Det ovan nämnda verktyget kallas "varm plånbok", eftersom den privata nyckeln lagras på en enhet med internetåtkomst. I det här fallet är det viktigt att säkerhetskopiera din minnesfras för att återfå tillgång till dina pengar om du tappar bort din telefon eller dator.
 
 Du kan till exempel använda Sparrow Wallet som en varm plånbok:
 
 https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
 
-- Nivå 2**, du använder en fysisk plånbok och du har säkrat din lista med 12/24 ord. Det kallas ofta för "cold Wallet" eftersom dina nycklar lagras på en enhet som inte är ansluten till internet. I det här fallet måste du alltid signera varje transaktion med din enhet, vilket gör dina pengar mindre tillgängliga på daglig basis.
+- **Nivå 2**, du använder en fysisk digital plånbok och du har säkrat din lista med 12/24 ord. Det kallas ofta för "kall plånbok" eftersom dina nycklar lagras på en enhet som inte är ansluten till internet. I det här fallet måste du alltid signera varje transaktion med din enhet, vilket gör dina pengar mindre tillgängliga på daglig basis.
 
 Du kan till exempel använda en Ledger, en Satochip eller en Tapsigner:
 
@@ -593,25 +596,25 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 ![image](assets/en/32.webp)
 
 
-- Nivå 3**, du använder en plånbok på nivå 1 eller 2, men du har lagt till ytterligare en lösenfras. I det här fallet måste du vara medveten om att du måste säkerhetskopiera både listan med 12/24 ord **och** din lösenfras. Helst ska dessa två delar av informationen lagras på två olika platser.
+- **Nivå 3**, du använder en plånbok på nivå 1 eller 2, men du har lagt till ytterligare en lösenordsfras. I det här fallet måste du vara medveten om att du måste säkerhetskopiera både listan med 12/24 ord **och** din lösenordsfras. Helst ska dessa två delar av informationen lagras på två olika platser.
 
-För att lära dig mer om hur BIP39-passfras används och fungerar:
+För att lära dig mer om hur BIP39-lösenordsfras används och fungerar:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 ![image](assets/en/33.webp)
 
 
-- Nivå 4**, du använder en uppsättning plånböcker för att skapa en "multisig"-plånbok, vilket innebär att flera signaturer krävs för att genomföra en transaktion. I det här fallet bör du vara medveten om att varje del av multisignaturen ska lagras på olika platser. Detta tillvägagångssätt anses ofta vara en avancerad användning av Bitcoin, främst för att hantera stora belopp och för företagsändamål.
+- **Nivå 4**, du använder ett set av plånböcker för att skapa en "multisig"-plånbok, vilket innebär att flera signaturer krävs för att genomföra en transaktion. I det här fallet bör du vara medveten om att varje del av multisignaturen ska lagras på olika platser. Detta tillvägagångssätt anses ofta vara en avancerad användning av Bitcoin, främst för att hantera stora belopp och för företagsändamål.
 
 ![image](assets/en/34.webp)
 
-Naturligtvis kräver olika användningsfall också olika Bitcoin-plånböcker, och det finns ingen lösning som passar alla.
+Naturligtvis kräver olika användningar också olika Bitcoin-plånböcker, och det finns ingen lösning som passar alla.
 
 ### Säkerheten måste anpassas
 
-Hur mycket man är villig att lämna på en specifik säkerhetsnivå beror på varje individ. För vissa är det rimligt att lämna 1 BTC på en varm plånbok, medan det för andra är det motsatta. I vilket fall som helst, när du vill säkra en liten summa, rekommenderar vi att du inte spenderar för mycket på säkerhet genom att köpa en fysisk plånbok. Tänk dessutom på att det kan vara skadligt att överkomplicera säkerheten och tillgängligheten för dina bitcoins, särskilt om du misshandlar säkerhetskopiorna av dina plånböcker.
+Beloppet man är villig att lämna på en specifik säkerhetsnivå beror på varje individ. För vissa är det rimligt att lämna 1 BTC på en varm plånbok, medan det för andra är det motsatta. I vilket fall som helst, när du vill säkra en liten summa rekommenderar vi att du inte spenderar för mycket på säkerhet genom att köpa en fysisk plånbok. Tänk dessutom på att det kan vara skadligt att överkomplicera säkerheten och tillgängligheten för dina bitcoins, särskilt om du misssköter backups av dina plånböcker.
 
-Sammanfattningsvis är direkt ägande av ens bitcoins ett viktigt element för att säkerställa finansiell suveränitet. Det rekommenderas att använda en mobil plånbok för dagliga utgifter och en offline, eller "kall", fysisk plånbok för att lagra större belopp. Företag bör å andra sidan överväga att använda system med flera signaturer, eller "multisig", för ökad och delad säkerhet. Det är också viktigt att undvika depåtjänster, som kan återskapa vissa sårbarheter i det traditionella finansiella systemet.
+Sammanfattningsvis är direkt ägande av ens bitcoins ett viktigt element för att säkerställa finansiell suveränitet. Det rekommenderas att använda en mobil plånbok för dagliga utgifter och en offline, eller "kall", fysisk plånbok för att lagra större belopp. Företag bör å andra sidan överväga att använda system med flera signaturer, eller "multisig", för ökad och delad säkerhet. Det är också viktigt att undvika custodial services, som kan återskapa vissa sårbarheter som i det traditionella finansiella systemet.
 
 Med detta i åtanke kan vi nu gå vidare till nästa avsnitt där vi beskriver hur man skapar en Bitcoin-plånbok. Men om du vill utforska ämnet säkerhet ytterligare kan du läsa den här [artikeln av DarthCoin] (https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
@@ -626,7 +629,7 @@ Observera att BTC102-kursen kommer att vägleda dig genom detta steg.
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ### Det här steget är inget skämt!
 
-När du skapar en plånbok skapar programvaran vanligtvis din privata nyckel, som vanligtvis representeras av en lista med 12/24 ord (ofta kallad "seed phrase" eller "mnemonic phrase"): dessa ord utgör tillgången till dina medel. Om den här nyckeln någonsin avslöjas för en tredje part bör du anse att de tillhörande medlen har äventyrats. När du konfigurerar din plånbok är det därför viktigt att följa dessa regler:
+När du skapar en plånbok skapar programvaran vanligtvis din privata nyckel, som vanligtvis representeras av en lista med 12/24 ord (ofta kallad "återställningsfras" eller "mnemonisk fras"): dessa ord ger tillgången till dina pengar. Om den här nyckeln någonsin avslöjas för en tredje part bör du antaga att de tillhörande pengarna har äventyrats. När du konfigurerar din plånbok är det därför viktigt att följa dessa regler:
 
 
 - Täck alla kameror.
@@ -644,7 +647,7 @@ Här nedan hittar du ett exempel på hur du sammanställer papperet: orden är f
 
 ### Våra tips för att göra det rätt
 
-Se dessutom till att inte göra något misstag under kopian, annars kan dina arvingar kämpa för att läsa den och kanske inte kunna återfå pengarna. När du har sparat orden är det dessutom tillrådligt att skapa en andra kopia och lagra den på en annan plats än den första. Detta säkerställer att du har en säkerhetskopia om originalet går förlorat eller skadas.
+Se dessutom till att inte göra något misstag under skrivningen, annars kan dina arvtagare ha det svårt att läsa den och kanske inte kunna återfå pengarna. När du har sparat orden är det dessutom rekommenderat att skapa en andra kopia och lagra den på en annan plats än den första. Detta säkerställer att du har en backup om originalet går förlorat eller skadas.
 
 ![image](assets/en/36.webp)
 
@@ -652,22 +655,22 @@ Ordlistorna bör förvaras på ett säkert ställe som du lätt kan komma ihåg.
 
 **Dina ord = dina pengar.**
 
-Både "kalla" och "varma" plånböcker använder ordlistmetoden som standard för säkerhetskopiering av privata nycklar. Det innebär att du kan ange din minnesfras i vilken kompatibel plånboksprogramvara eller enhet som helst för att återställa din åtkomst. Å andra sidan avråder vi starkt från att använda plånböcker som inte tillhandahåller en fröfras, eftersom de kan kräva att du uppger ett konto, en e-postadress eller, ännu värre, ett ID.
+Både "kalla" och "varma" plånböcker använder ordlistmetoden som standard för backup av privata nycklar. Det innebär att du kan ange din mnemoniska fras i vilken kompatibel plånboksprogramvara eller enhet som helst för att återställa din åtkomst. Å andra sidan avråder vi starkt från att använda plånböcker som inte tillhandahåller en återställningsfras, eftersom de kan kräva att du uppger ett konto, en e-postadress eller, ännu värre, ett ID.
 
-**OBS: Avsaknaden av en lista med 12/24 ord bör göra dig uppmärksam
+**OBS: Avsaknaden av en lista med 12/24 ord bör göra dig uppmärksam**
 
 Om du sedan vill upptäcka, steg för steg, hur du ställer in din egen plånbok och får dina första bitcoins, rekommenderar vi också att du tar den här andra kursen:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
-## Klarar tidens test
+## Att klara tidens test
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
-Som alla former av rikedom måste dina bitcoins skyddas mot förlust, stöld och nedbrytning, särskilt på lång sikt. För att skydda dina bitcoins krävs viss teknisk kunskap och en förståelse för de risker som är förknippade med dem, vilket öppnar vägen för två huvudstrategier: att gravera dina bitcoins på en stålplatta och att upprätta en arvsplan.
+Som alla former av rikedom måste dina bitcoins skyddas mot förlust, stöld och förfall, särskilt på lång sikt. För att skydda dina bitcoins krävs viss teknisk kunskap och en förståelse för de risker som är förknippade med dem, vilket öppnar vägen för två huvudstrategier: att gravera dina bitcoins på en stålplatta och att upprätta en arvsplan.
 
 ### Gravyr i stål
 
-En metod för att säkra dina bitcoins på lång sikt är att gravera din mnemoniska fras på ett motståndskraftigt material som stål, genom att skapa en fysisk säkerhetskopia av dina nycklar som är resistent mot både vatten- och brandskador.
+En metod för att säkra dina bitcoins på lång sikt är att gravera din mnemoniska fras på ett motståndskraftigt material som stål, genom att skapa en fysisk backup av dina nycklar som är resistent mot både vatten- och brandskador.
 
 Det finns olika lösningar: vissa av dem är billiga, t.ex. "Blockmit", medan andra kan kräva mer specialiserad utrustning. Du kan utforska detta ämne ytterligare i avsnittet [tutorials](https://planb.network/en/tutorials/wallet) i vår akademi.
 
@@ -675,7 +678,7 @@ Det finns olika lösningar: vissa av dem är billiga, t.ex. "Blockmit", medan an
 
 ### Tänk på nästa generation!
 
-Vid sidan av denna första praxis är det ett avgörande steg att skapa en arvsplan för att säkerställa att dina bitcoins hanteras korrekt efter din död. Denna plan innebär att du skriver ett handskrivet brev där du beskriver dina tillgångar, deras åtkomstmetoder och kontaktinformationen till de betrodda personer som har ansvar för dem. Det är också viktigt att diskutera arvet av bitcoins med en notarie för att säkerställa skatteöverensstämmelse, även om den här personen aldrig bör anförtros direkt med förvaltningen av dina bitcoins.
+Vid sidan av denna första praxis är det ett avgörande steg att skapa en arvsplan för att säkerställa att dina bitcoins hanteras korrekt efter din död. Denna plan innebär att du skriver ett handskrivet brev där du beskriver dina tillgångar, deras åtkomstmetoder och kontaktinformationen till de betrodda personer som har ansvar för dem. Det är också viktigt att diskutera arvet av bitcoins med en notarie för att säkerställa skatteöverensstämmelse, även om den här personen aldrig bör anförtros direkt med hanteringen av dina bitcoins.
 
 Om du vill utforska ämnet arvsplan för dina bitcoins ytterligare rekommenderar vi att du läser Pamela Morgans bok [Cryptoasset Inheritance Plan] (https://planb.network/resources/books/28) eller anmäler dig till BTC102-kursen, där vi ger vägledning om hur du skapar din plan.
 
@@ -683,7 +686,7 @@ Om du vill utforska ämnet arvsplan för dina bitcoins ytterligare rekommenderar
 
 ### Integritet är viktigt
 
-Förutom att skapa fysiska säkerhetskopior eller utveckla en arvsplan är integritet ett annat viktigt ämne när det gäller den långsiktiga säkerheten för dina bitcoins. Det är till exempel att föredra att köpa bitcoins utan att identifiera sig för att minimera riskerna för identitetsstöld eller spårning av dina medel av de enheter som har rätt verktyg.
+Förutom att skapa fysiska backups eller utveckla en arvsplan är integritet ett annat viktigt ämne när det gäller den långsiktiga säkerheten för dina bitcoins. Det är till exempel att föredra att köpa bitcoins utan att identifiera sig för att minimera riskerna för identitetsstöld eller spårning av dina tillgångar av de enheter som har rätt verktyg.
 
 När det gäller integritet är det viktigt att undvika att prata med alla om dina bitcoins. Vi kan inte förutsäga hur denna teknik kommer att uppfattas i framtiden, så att upprätthålla diskretion om ditt ägande är ett klokt val: du vill inte dra uppmärksamhet till dig själv eller din plånbok.
 
@@ -696,18 +699,18 @@ Bitcoin-plånböcker är mjukvara som gör att du kan lagra bitcoins och göra t
 
 - mobil- eller datorplånböcker, praktiska för små belopp och/eller regelbundna utgifter;
 - fysiska plånböcker, mer lämpade för lagring av bitcoins på medellång och lång sikt;
-- plånböcker med flera signaturer, som är mer komplexa att hantera och kräver flera signaturer för att utföra transaktioner.
+- plånböcker med multisig, som är mer komplexa att hantera och kräver flera signaturer för att utföra transaktioner.
 
-När du skapar en plånbok måste du först säkerhetskopiera din lista med 12 eller 24 ord på ett papper eller en metallplatta. Denna så kallade mnemoniska fras gör att du kan återställa din plånbok genom vilken Bitcoin-plånboksapplikation som helst. Tänk på att den som får tillgång till den här listan också får tillgång till dina pengar.
+När du skapar en plånbok måste du först göra en backup av din lista med 12 eller 24 ord på ett papper eller en metallplatta. Denna så kallade mnemoniska fras gör att du kan återställa din plånbok genom vilken Bitcoin-plånboksapplikation som helst. Tänk på att den som får tillgång till den här listan också får tillgång till dina pengar.
 
-I Bitcoin-världen är ekonomisk suveränitet nära kopplad till individuellt ansvar, vilket gör det viktigt att säkra tillgången till dina plånböcker och säkerhetskopior. För att uppnå detta är det viktigt att följa vissa riktlinjer:
+I Bitcoin-världen är ekonomisk suveränitet nära kopplad till individuellt ansvar, vilket gör det viktigt att säkra tillgången till dina plånböcker och backups. För att uppnå detta är det viktigt att följa vissa riktlinjer:
 
 
 - Skapa en arvsplan för att säkerställa att dina nära och kära kan hämta ut pengarna om det skulle uppstå problem.
-- Undvik att lämna dina Bitcoins på utbytesplattformar eftersom de kan vara mottagliga för hackerattacker.
-- Anpassa din säkerhetsnivå till dina behov och användningsfall för att kunna välja bra bland de olika Bitcoin-plånböcker som finns tillgängliga.
+- Undvik att lämna dina Bitcoins på köp- och säljplattformar eftersom de kan vara mottagliga för hackerattacker.
+- Anpassa din säkerhetsnivå till dina behov och användningar för att kunna göra ett bra val bland de olika Bitcoin-plånböcker som finns tillgängliga.
 
-Nu när vi har gått igenom grunderna i Bitcoin-plånböcker och de bästa metoderna för att säkra dem, kommer vi i nästa kapitel att utforska de tekniska funktionerna i Bitcoin. Återigen kommer en förståelse för grunderna i Bitcoin-protokollet att förbättra din förståelse för hur det fungerar, vilket ger dig möjlighet att använda det bättre.
+Nu när vi har gått igenom grunderna inom Bitcoin-plånböcker och de bästa metoderna för att säkra dem, kommer vi i nästa kapitel att utforska de tekniska funktionerna inom Bitcoin. Återigen kommer en förståelse för grunderna av Bitcoin-protokollet att förbättra din förståelse för hur det fungerar, vilket ger dig möjlighet att använda det bättre.
 
 # De tekniska aspekterna av Bitcoin.
 
@@ -723,39 +726,36 @@ Nu när vi har gått igenom grunderna i Bitcoin-plånböcker och de bästa metod
 
 Den 31 oktober 2008 föddes den nya finansiella tekniken som är Bitcoin. Den här dagen presenterade den anonyme Satoshi Nakamoto sin innovation för världen genom ett e-postmeddelande som skickades till cypherpunks e-postlista, en grupp kryptografientusiaster som arbetar för att främja integritet på internet. E-postmeddelandet innehöll ett dokument kallat "White Paper", som beskrev hur Bitcoin fungerade.
 
-Initiativet väckte inte omedelbart entusiasm, förmodligen på grund av de tidigare misslyckandena i försöken att skapa ett digitalt kontantsystem. Trots detta blev vitboken så småningom en referens för Bitcoin-användare och har varit föremål för många debatter i Bitcoin-ekosystemet genom åren.
+Initiativet väckte inte omedelbart entusiasm, förmodligen på grund av de tidigare misslyckandena av försöken att skapa ett digitalt kontantsystem. Trots detta blev White Paper så småningom en referens för Bitcoin-användare och har varit föremål för många debatter i Bitcoin-ekosystemet genom åren.
 
 ![image](assets/en/40.webp)
 
-Den 3 januari 2009 invigde Satoshi officiellt Bitcoin-nätverket genom att skapa det första blocket, även känt som "Genesis-blocket", som markerade lanseringen av Bitcoin-blockkedjan. Detta block innehåller ett avslöjande meddelande som speglar Bitcoins mission: "03/jan/2009 Chancellor on brink of second bailout for banks."
+Den 3 januari 2009 invigde Satoshi officiellt Bitcoin-nätverket genom att skapa det första blocket, även känt som "Genesis-blocket", som markerade lanseringen av Bitcoin-blockkedjan. Detta block innehåller ett avslöjande meddelande som speglar Bitcoins uppdrag: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 ![image](assets/en/41.webp)
 
-> "Vi kan vinna en viktig strid i kapprustningen och få en
-> nya territorium av frihet i flera år." - Satoshi Nakamoto
+> "Vi kan vinna en viktig strid i kapprustningen och få nya territorium av frihet i flera år." - Satoshi Nakamoto
 ![image](assets/en/42.webp)
 
 ### Bitcoin-protokollet vaknar till liv
 
-Den 9 januari 2009 tillkännagav Satoshi lanseringen av Bitcoin 0.1.0-versionen. Strax därefter tog Hal Finney tag i programvaran och gick med i nätverket, vilket markerade närvaron av två noder och därmed två gruvarbetare i nätverket. Finney förevigade till och med detta steg genom att twittra: "Running Bitcoin". Den 12 januari 2009 gjordes den första Bitcoin-transaktionen på 10 BTC mellan Satoshi och Hal Finney, och du kan enkelt hitta den om du går tillbaka till block 170.
+Den 9 januari 2009 tillkännagav Satoshi lanseringen av Bitcoin 0.1.0-versionen. Strax därefter tog Hal Finney tag i programvaran och gick med i nätverket, vilket markerade närvaron av två noder och därmed två miners i nätverket. Finney förevigde till och med detta steg genom att twittra: "Running Bitcoin". Den 12 januari 2009 gjordes den första Bitcoin-transaktionen på 10 BTC mellan Satoshi och Hal Finney, och du kan enkelt hitta den om du går tillbaka till block 170.
 
 ![image](assets/en/43.webp)
 
-Intresset för Bitcoin växte snabbt, vilket ledde till att många människor testade den, deltog i debatter, löste buggar och reflekterade över dess etiska, ekonomiska och filosofiska aspekter. Folk var så fängslade att Satoshi skapade forumet BitcoinTalk den 22 november 2009 för att underlätta den här typen av konfrontationer.
+Intresset för Bitcoin växte snabbt, vilket ledde till att många människor testade den, deltog i debatter, löste buggar och reflekterade över dess etiska, ekonomiska och filosofiska aspekter. Folk var så fängslade att Satoshi skapade forumet BitcoinTalk den 22 november 2009 för att underlätta den här typen av diskussioner.
 
 Forumet blev snabbt den föredragna platsen för diskussion för Bitcoin-användare, så mycket att kända memes och symboler som är förknippade med Bitcoin föddes ur det, till exempel [Bitcoin-logotypen] (https://bitcointalk.org/index.php?topic=64.0), den berömda [Hodl] (https://bitcointalk.org/index.php?topic=375643.0) eller till och med [Pizza day] (https://bitcointalk.org/index.php?topic=137.msg1195).
 
-**Den 22 maj 2010 skrev Laszlo Hanyecz historia genom att erbjuda sig att köpa två pizzor för 10 000 BTC: det var första gången som Bitcoin användes för att köpa fysiska varor.
+**visste du det?** Den 22 maj 2010 skrev Laszlo Hanyecz historia genom att erbjuda sig att köpa två pizzor för 10 000 BTC: det var första gången som Bitcoin användes för att köpa fysiska varor.
 
 ![image](assets/en/44.webp)
 
 ### Satoshi Nakamotos försvinnande
 
-Under 2010, när Bitcoin började uppmärksammas i media, bestämde sig Satoshi för att ta avstånd från sig själv genom att meddela sin avgång i ett foruminlägg den 12 december 2010. Den 23 april 2011 gjorde han sitt sista kända privata utbyte via e-post, försvann sedan och lämnade sin skapelse i händerna på samhället.
+Under 2010, när Bitcoin började uppmärksammas i media, bestämde sig Satoshi för att ta avstånd från sig själv genom att meddela sin avgång i ett foruminlägg den 12 december 2010. Den 23 april 2011 gjorde han sitt sista kända privata uyte via e-post, försvann sedan och lämnade sin skapelse i händerna på samhället.
 
-> "Regeringar är bra på att hugga av huvudena på en centralstyrd
-> kontrollerade nätverk som Napster, men rena P2P-nätverk som
-> Gnutella och Tor verkar hålla ställningarna." - Satoshi Nakamoto
+> "Regeringar är bra på att hugga av huvudena på ett centralstyrd kontrollerat nätverk som Napster, men rena P2P-nätverk som Gnutella och Tor verkar hålla ställningarna." - Satoshi Nakamoto
 Trots Satoshis frånvaro fortsatte Bitcoin att utvecklas: Bitcoins historia skrivs var tionde minut, och protokollet fortsätter att fungera som avsett än idag. Oavsett rädsla, osäkerhet eller tvivel fortsätter Bitcoin att gå framåt, med en mycket stark online-tillgänglighet. Enligt den här [webbplatsen] (https://bitcoinuptime.com/) har Bitcoin faktiskt varit funktionellt och kört utan massiva problem under 99,988% av tiden sedan det skapades.
 
 För vissa definieras Bitcoin som en svampliknande enhet som ett [mycelium] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), medan andra beskriver det som ett [svart hål] (https://dergigi.com/). Vare sig man älskar eller hatar den fortsätter Bitcoin att existera, med sin konstanta rytm på 10 minuter per block, som hjärtslaget i ett nytt monetärt system.
@@ -764,28 +764,28 @@ För att lära dig mer om Satoshi Nakamotos skrifter rekommenderar vi att du lä
 
 ![image](assets/en/45.webp)
 
-> "Grundproblemet med konventionell valuta är allt det förtroende som krävs för att få den att fungera. Man måste lita på att centralbanken inte förfalskar valutan, men fiatvalutornas historia är full av brott mot det förtroendet. Bankerna måste vara betrodda att hålla våra pengar och överföra dem elektroniskt, men de lånar ut dem i vågor av kreditbubblor med knappt en bråkdel i reserv" - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
+> "Grundproblemet med konventionell valuta är allt det förtroende som krävs för att få den att fungera. Man måste lita på att centralbanken inte förfalskar valutan, men fiatvalutornas historia är full av brott mot det förtroendet. Bankerna måste vara betrodda att bevara våra pengar och överföra dem elektroniskt, men de lånar ut dem i vågor av krediubblor med knappt en bråkdel i reserv" - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 Nu när vi har lite bakgrund ska vi undersöka hur en Bitcoin-transaktion fungerar i allmänhet.
 
 ## Bitcoin-transaktioner
 
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 
-En Bitcoin-transaktion är helt enkelt en överföring av äganderätten till bitcoins genom användning av en Bitcoin-adress. För att beskriva denna process, låt oss introducera två huvudpersoner: Alice och Bob. Alice vill förvärva bitcoins, medan Bob redan äger några.
+En Bitcoin-transaktion är helt enkelt en överföring av äganderätten till bitcoins genom användning av en Bitcoin-adress. För att beskriva denna process, låt oss introducera två huvudpersoner: Alice och Bob. Alice vill skaffa sig bitcoins, medan Bob redan äger några.
 
 ### Steg 1 - Skapa transaktionen via plånboken
 
 För att Bob ska kunna överföra bitcoins till Alice måste hon förse honom med en av sina Bitcoin-adresser, som är unika för hennes Bitcoin-plånbok. Precis som den privata nyckeln används för att generera den publika nyckeln, används den senare för att generera adresser.
 
-Konkret innebär det att när Alice öppnar sin plånbok och trycker på "receive" visas en QR-kod eller en adress (som denna bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr). Detta fungerar som hennes "Bitcoin IBAN", som hon sedan ger till Bob.
+Konkret innebär det att när Alice öppnar sin plånbok och klickar på "ta emot" visas en QR-kod eller en adress (som denna bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr). Detta fungerar som hennes "Bitcoin IBAN", som hon sedan ger till Bob.
 
-Efteråt gör Bob transaktionen genom att öppna sin Bitcoin-plånbok och trycka på "skicka". Han kopierar och klistrar sedan in Alices adress i det obligatoriska fältet, lägger till det belopp han vill skicka och beslutar om transaktionsavgifterna, som fungerar som ett incitament för miners att inkludera transaktionen i nästa block. Faktum är att ju högre avgifter Bob betalar, desto större är chansen att transaktionen inkluderas i nästa block som läggs till i blockkedjan, dvs. en offentlig och oföränderlig huvudbok som registrerar alla Bitcoin-transaktioner.
+Efteråt gör Bob transaktionen genom att öppna sin Bitcoin-plånbok och klicka på "skicka". Han kopierar och klistrar sedan in Alices adress i det obligatoriska fältet, lägger till det belopp han vill skicka och beslutar om transaktionsavgifterna, som fungerar som ett incitament för miners att inkludera transaktionen i nästa block. Faktum är att ju högre avgifter Bob betalar, desto större är chansen att transaktionen inkluderas i nästa block som läggs till i blockkedjan, dvs. ett offentligt och oföränderligt register som registrerar alla Bitcoin-transaktioner.
 
 För att slutföra transaktionen måste Bob signera den med sin privata nyckel för att verifiera att han är ägare till de bitcoins han vill överföra. Detta steg är vanligtvis automatiskt i mobila plånböcker, eller så sker det i form av en bekräftelse i din fysiska plånbok: "Är du säker på att du vill skicka X till Y? Ja eller nej".
 
 ![image](assets/en/46.webp)
 
-**Varför betalar vi avgifter? ** Avgifter är nödvändiga för att skapa en fri marknad för att inkludera transaktioner i block. Faktum är att ett block har en storlek på 1 MB (som utökades till 4 MB efter Segwit-uppdateringen), så antalet transaktioner som kan "infogas" i ett block är begränsat till några tusen transaktioner per block. Storleken på en transaktion beror på dess komplexitet. Därför medför mer komplexa transaktioner vanligtvis högre avgifter.
+**Varför betalar vi avgifter?** Avgifter är nödvändiga för att skapa en fri marknad för att inkludera transaktioner i block. Faktum är att ett block har en storlek på 1 MB (som utökades till 4 MB efter Segwit-uppdateringen), så antalet transaktioner som kan "infogas" i ett block är begränsat till några tusen transaktioner per block. Storleken på en transaktion beror på dess komplexitet. Därför medför mer komplexa transaktioner vanligtvis högre avgifter.
 
 ### Steg 2: Spridning av transaktionen genom noderna
 
@@ -801,25 +801,25 @@ I själva verket har miners rollen att samla in giltiga och obekräftade transak
 
 ### Steg 3: Transaktionen minas i ett block av en miner.
 
-Proof of work-systemet kräver att man hittar en giltig "hash" för blocket i fråga: tänk på det som ett unikt fingeravtryck som är associerat med blocket och som består av 256 tecken. Giltigheten för denna hash beror på svårighetsgraden i Bitcoin-nätverket (vi kommer att gå in på mer detaljer senare). För tillfället kan vi tänka oss att en gruvarbetare har hittat ett giltigt block och att Bobs transaktion till Alice ingår i det. Därefter läggs det nya giltiga blocket till i blockkedjan, den gemensamma huvudboken för alla Bitcoin-användare.
+Proof of work-systemet kräver att man hittar en giltig "hash" för blocket i fråga: tänk på det som ett unikt fingeravtryck som är associerat med blocket och som består av 256 tecken. Giltigheten för denna hash beror på svårighetsgraden i Bitcoin-nätverket (vi kommer att gå in på mer detaljer senare). För tillfället kan vi tänka oss att en miner har hittat ett giltigt block och att Bobs transaktion till Alice ingår i det. Därefter läggs det nya giltiga blocket till i blockkedjan, det gemensamma registret för alla Bitcoin-användare.
 
 ![image](assets/en/49.webp)
 
 ### Steg 4: Blocket är giltigt och verifieras av Alices referentnod.
 
-I det här skedet anses transaktionen vara giltig: utvinnaren sprider sedan det nya blocket till nätverket via sin nod, och Alices plånbok uppdateras.
+I det här skedet anses transaktionen vara giltig: minern sprider sedan det nya blocket till nätverket via sin nod, och Alices plånbok uppdateras.
 
 ![image](assets/en/50.webp)
 
-**Även om Alice får ett meddelande om att hon har tagit emot bitcoins på en av sina adresser är det lämpligt att betrakta transaktionen som oföränderlig först efter att den har fått **sex** bekräftelser. Detta innebär att ytterligare sex block måste brytas ovanpå det block som innehåller Bobs transaktion. Med andra ord, ju äldre en transaktion är i blockkedjan, desto mer oföränderlig blir den.
+**Observera** Även om Alice får ett meddelande om att hon har tagit emot bitcoins på en av sina adresser är det lämpligt att betrakta transaktionen som oföränderlig först efter att den har fått **sex** bekräftelser. Detta innebär att ytterligare sex block måste minas ovanpå det block som innehåller Bobs transaktion. Med andra ord, ju äldre en transaktion är i blockkedjan, desto mer oföränderlig blir den.
 
 ### Vilken betydelse har denna process?
 
 Bitcoins transaktionssystem är decentraliserat och fungerar peer-to-peer, utan några betrodda mellanhänder.
 
-Bob skickar sin transaktion till Bitcoin-nätverket, och när en miner publicerar ett giltigt block som innehåller Bobs transaktion kan Alice börja anse att bitcoins tillhör henne. Förtroende krävs inte i något steg av överföringen av bitcoinägande: enbart protokollreglerna och de ekonomiska incitamenten gör det oöverkomligt kostsamt att agera illvilligt inom Bitcoinsystemet.
+Bob skickar sin transaktion till Bitcoin-nätverket, och när en miner publicerar ett giltigt block som innehåller Bobs transaktion kan Alice börja antaga att bitcoins tillhör henne. Förtroende krävs inte i något steg av överföringen av bitcoinägande: enbart protokollreglerna och de ekonomiska incitamenten gör det oöverkomligt kostsamt att agera illvilligt inom Bitcoinsystemet.
 
-Faktum är att användarna överför äganderätten till sina medel genom att digitalt signera transaktioner med sina egna privata nycklar. Å andra sidan har miners begränsad makt och användarna behåller en betydande kontroll genom att använda Bitcoin-noder för att validera de nya blocken och de inkluderade transaktionerna. Varje nod har antingen en fullständig eller en partiell kopia av huvudboken, så det nätverk som bildas av Bitcoin-noderna gör systemet verkligt decentraliserat.
+Faktum är att användarna överför äganderätten till sina tillgångar genom att digitalt signera transaktioner med sina egna privata nycklar. Å andra sidan har miners begränsad makt och användarna behåller en betydande kontroll genom att använda Bitcoin-noder för att validera de nya blocken och de inkluderade transaktionerna. Varje nod har antingen en fullständig eller en partiell kopia av registret, så det nätverk som bildas av Bitcoin-noderna gör systemet verkligt decentraliserat.
 
 För att Bitcoin-nätverket ska kunna förstöras helt måste följaktligen varje kopia av blockkedjan på alla Bitcoin-noder elimineras, vilket är en praktiskt taget omöjlig uppgift på grund av den geografiska fördelningen av dessa noder och svårigheten att fysiskt beslagta dem.
 
@@ -832,7 +832,7 @@ Låt oss ta en närmare titt på hur en Bitcoin-nod fungerar.
 Noder är en grundläggande del av Bitcoins nätverksarkitektur, eftersom de utför olika viktiga funktioner:
 
 
-- Behålla en kopia av Bitcoin-blockkedjan
+- Förvara en kopia av Bitcoin-blockkedjan
 - Validering av transaktioner
 - Överföring av information till andra noder
 - Tillämpning av reglerna i Bitcoin-protokollet.
@@ -843,21 +843,21 @@ Därför bidrar alla enheter som kör en del av Bitcoins programvara, kallad Bit
 
 ### Noder är den centrala kärnan i Bitcoin.
 
-Varje nod har en kopia av blockkedjan, vilket möjliggör verifiering av transaktioner och förhindrar bedrägeriförsök. Nätverkets decentraliserade natur ger Bitcoin en exceptionell motståndskraft och robusthet. Faktum är att för att stoppa Bitcoin-protokollet skulle alla noder runt om i världen behöva stängas av. För din information, i september 2023 fanns det ungefär [45 000 noder] (https://bitnodes.io/nodes/all/) fördelade över hela världen.
+Varje nod har en kopia av blockkedjan, vilket möjliggör verifiering av transaktioner och förhindrar bedrägeriförsök. Nätverkets decentraliserade natur ger Bitcoin en exceptionell motståndskraft och robusthet. För att stoppa Bitcoin-protokollet skulle alla noder runt om i världen behöva stängas ned. Det kan vara bra att veta att i september 2023 fanns det ungefär [45 000 noder] (https://bitnodes.io/nodes/all/) fördelade över hela världen.
 
 Noder kan verifiera giltigheten av block och transaktioner eftersom de följer reglerna för Bitcoins konsensus. Dessa regler fastställer Bitcoins penningpolitik, t.ex. beloppet för miners belöning (som vi kommer att diskutera mer i detalj i nästa avsnitt) och mängden bitcoin i omlopp. På sätt och vis fungerar noder som nätverkets rättssystem eftersom alla nätverksdeltagare följer samma regler på grund av dem, så de säkerställer neutraliteten i Bitcoin-protokollet. Konsensusreglerna varierar knappast, om ens alls, eftersom det krävs godkännande från alla noder för att göra ändringar.
 
 ![image](assets/en/52.webp)
 
-Styrning inom protokollet ligger utanför ramen för denna grundkurs, men det är viktigt att notera att varje användare som driver en Bitcoin-nod kan bestämma vilka regler som ska följas. En användare kan välja att följa andra regler (d.v.s. göra ändringar i koden), men om dessa ändringar ogiltigförklarar de nuvarande konsensusreglerna kommer den noden inte längre att vara en del av Bitcoin-nätverket. Följaktligen är större ändringar sällsynta och kräver betydande samordning mellan tusentals deltagare med olika ideologier och intressen, vilket tvingar dem att tillhandahålla uppdateringar som anses vara "bättre" av alla Bitcoin-användare.
+Styrning inom protokollet ligger utanför ramen för denna grundkurs, men det är viktigt att notera att varje användare som driver en Bitcoin-nod kan bestämma vilka regler som ska följas. En användare kan välja att följa andra regler (d.v.s. göra ändringar i koden), men om dessa ändringar ogiltigförklarar de nuvarande konsensusreglerna kommer den noden inte längre att vara en del av Bitcoin-nätverket. Följaktligen är större ändringar sällsynta och kräver betydande samordning mellan tusentals deltagare med olika ideologier och intressen, vilket tvingar dem att göra uppdateringar som anses vara "bättre" av alla Bitcoin-användare.
 
 ### Hur ser en nod ut?
 
-Det finns flera alternativ tillgängliga när du vill installera din egen nod, med olika underhållskostnader. Du kan helt enkelt köra Bitcoin Core-programvaran på din dator, men det kommer att kräva en betydande mängd lagringsutrymme, eftersom blockkedjan är cirka ~ 500 GB. För att övervinna denna begränsning kan du välja att bara behålla de senaste N blocken i minnet genom att skapa en "beskuren nod". För den här andra lösningen är kostnaden försumbar eftersom noden bara är aktiv när du behöver den.
+Det finns flera alternativ tillgängliga när du vill installera din egen nod, med olika underhållskostnader. Du kan helt enkelt köra Bitcoin Core-programvaran på din dator, men det kommer att kräva en betydande mängd lagringsutrymme, eftersom blockkedjan är cirka ~ 500 GB. För att övervinna denna begränsning kan du välja att bara behålla de senaste N-blocken i minnet genom att skapa en "beskuren nod". För den här andra lösningen är kostnaden obetydlig eftersom noden bara är aktiv när du behöver den.
 
 ![image](assets/en/53.webp)
 
-Ett annat alternativ är att använda en särskild hårdvara för detta ändamål, t.ex. en Raspberry Pi 4 med en tillräckligt stor SSD-enhet (ca ~1 TB). Detta andra alternativ är dyrare om du måste köpa hårdvaran, men det motsvarar lite mindre än 10,00 euro per år när det gäller elförbrukning.
+Ett annat alternativ är att använda en särskild hårdvara för detta ändamål, t.ex. en Raspberry Pi 4 med en tillräckligt stor SSD-enhet (ca ~2 TB). Detta andra alternativ är dyrare om du måste köpa hårdvaran, men det motsvarar lite mindre än 10,00 euro per år när det gäller elförbrukning.
 
 Ur ett bandbreddsperspektiv, med tanke på 1 block på 1 MB var 10:e minut, motsvarar det ungefär 5 GB per månad.
 
@@ -865,25 +865,25 @@ Ur ett bandbreddsperspektiv, med tanke på 1 block på 1 MB var 10:e minut, mots
 
 Den överkomliga kostnaden och tillgängligheten för en Bitcoin-nod när det gäller hårdvaruresurser, lagring och bandbredd är en mycket viktig egenskap, eftersom det underlättar decentraliseringen av nätverket.
 
-Alla har faktiskt en bra anledning att driva en nod! Kostnaderna och ansträngningarna är minimala jämfört med de fördelar som erhålls. Du behöver bara ge dig ut på äventyret och ansluta dig till tusentals andra bitcoinare för att bilda Bitcoin-nätverket tillsammans.
+Alla har faktiskt en bra anledning att driva en nod! Kostnaderna och ansträngningarna är minimala jämfört med de fördelar som erhålls. Du behöver bara ge dig ut på äventyret och ansluta dig till tusentals andra bitcoiners för att bilda Bitcoin-nätverket tillsammans.
 
 ![image](assets/en/54.webp)
 
-Tvärtom, om blocken var 100 gånger tyngre skulle vi säkert kunna göra 100 gånger fler transaktioner var 10:e minut, men för att driva en Bitcoin-nod skulle det krävas en 50 TB hårddisk, en bandbredd på över 500 GB/månad och en hårdvara som kan validera hundratusentals transaktioner på mindre än 10 minuter. I den här hypotetiska situationen med 100 gånger större block skulle det inte vara tillgängligt för gemene man att driva en Bitcoin-nod, vilket skulle äventyra både protokollets decentralisering och oföränderligheten i transaktioner och konsensusregler.
+Å andra sidan, om blocken var 100 gånger tyngre skulle vi säkert kunna göra 100 gånger fler transaktioner var 10:e minut, men för att driva en Bitcoin-nod skulle det krävas en 50 TB hårddisk, en bandbredd på över 500 GB/månad och en hårdvara som kan validera hundratusentals transaktioner på mindre än 10 minuter. I den här hypotetiska situationen med 100 gånger större block skulle det inte vara tillgängligt för gemene man att driva en Bitcoin-nod, vilket skulle äventyra både protokollets decentralisering och oföränderligheten i transaktioner och konsensusregler.
 
-Således har protokollbegränsningarna utformats för att göra det möjligt för så många människor som möjligt att driva sina egna Bitcoin-noder. Faktum är att år 2017 präglades av en intensiv kontrovers känd som "blockstorlekskriget". I denna konflikt stod de som ville modifiera Bitcoin genom att öka blockstorleken för att förbättra transaktionskapaciteten (miners, utbytesplattformar och institutioner) mot de som ville bevara användarnas oberoende och makt (noder och användare). I slutändan segrade den andra parten.
+Således har protokollbegränsningarna utformats för att göra det möjligt för så många människor som möjligt att driva sina egna Bitcoin-noder. Faktum är att år 2017 präglades av en intensiv kontrovers känd som "kriget om blockstorlek". I denna konflikt stod de som ville modifiera Bitcoin genom att öka blockstorleken för att förbättra transaktionskapaciteten (miners, utbytesplattformar och institutioner) mot de som ville bevara användarnas oberoende och makt (noder och användare). I slutändan segrade den andra parten.
 
 Efter denna seger aktiverade noderna en uppdatering kallad SegWit, vilket banade väg för implementeringen av Lightning Network, ett omedelbart Bitcoin-betalningsnätverk byggt som ett andra lager av Bitcoin-blockkedjan. Den här situationen visar att användarna, genom sina noder, har verklig makt inom Bitcoin, vilket gör att de kan stå upp mot stora institutioner i tider av oenighet.
 
-## Gruvarbetare
+## Miners
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners säkrar nätverket och lägger till transaktioner i blocken. De använder elektricitet genom ASIC-maskiner för att lösa Bitcoin proof of work.**
+**Miners säkrar nätverket och lägger till transaktioner i blocken. De använder elektricitet genom ASIC-maskiner för att lösa Bitcoins proof of work.**
 
 ![image](assets/en/55.webp)
 
-### Förklaring av bevis på arbete
+### Förklaring av Proof of Work
 
 "Proof of Work" (POW) är säkerhetsmekanismen för konsensus i Bitcoin-protokollet. Den är grunden för allt och spelar en avgörande roll i Bitcoins spelteori.
 
@@ -893,39 +893,39 @@ Om det valda numret är korrekt: Jackpot! Annars fortsätter sökningen.
 
 För att optimera antalet försök används särskilda maskiner, s.k. ASICs, som har som enda uppgift att beräkna miljarder möjligheter per sekund (det totala antalet försök kallas "HashRate"). För att driva dessa maskiner måste stora mängder el förbrukas. POW omvandlar därför energi till valuta och kopplar samman den verkliga och den digitala världen för att skapa den första energibaserade valutan.
 
-Maskinerna arbetar kontinuerligt och efter i genomsnitt 10 minuter utses en vinnare: den här deltagaren har lyckats hitta rätt hash som faller under svårighetströskeln. Den stora och enda vinnaren kommer sedan att signera det nya blocket på timestamp-servern och lägga till det i blockkedjan. De får sina belöningar och återvänder för att pröva lyckan med att bryta nästa block. Denna process har pågått i mer än tio år, med en vinnare som bekräftar Bitcoin-transaktioner var tionde minut samtidigt som tidigare transaktioner säkras, vilket gör Bitcoin-blockkedjan mer robust och säker.
+Maskinerna arbetar kontinuerligt och efter i genomsnitt 10 minuter utses en vinnare: den här deltagaren har lyckats hitta rätt hash som faller under svårighetströskeln. Den stora och enda vinnaren kommer sedan att signera det nya blocket på timestamp-servern och lägga till det i blockkedjan. De får sina belöningar och återvänder för att pröva lyckan genom att mina nästa block. Denna process har pågått i mer än tio år, med en vinnare som bekräftar Bitcoin-transaktioner var tionde minut samtidigt som tidigare transaktioner säkras, vilket gör Bitcoin-blockkedjan mer robust och säker.
 
-Vart 2016:e block (ungefär varannan vecka) ombalanserar **difficulty adjustment** det globala gruvspelet baserat på antalet deltagare. Denna justering är nödvändig eftersom antalet miners och deras kombinerade datorkraft kan variera avsevärt över tid. För att bibehålla målblocktiden omkalibrerar nätverket svårighetsgraden baserat på hur snabbt de senaste blocken från 2016 utvanns. Om de utvanns för snabbt ökar svårighetsgraden, vilket gör det svårare att hitta rätt hash. Om de tvärtom bryts för långsamt minskar svårighetsgraden, vilket gör det enklare.
+Vart 2016:e block (ungefär varannan vecka) ombalanserar **svårighetsjusteringen** det globala miningspelet baserat på antalet deltagare. Denna justering är nödvändig eftersom antalet miners och deras kombinerade datorkraft kan variera avsevärt över tid. För att bibehålla blocktiden omkalibrerar nätverket svårighetsgraden baserat på hur snabbt de senaste blocken från 2016 minades. Om de minades för snabbt ökar svårighetsgraden, vilket gör det svårare att hitta rätt hash. Om de tvärtom minades för långsamt minskar svårighetsgraden, vilket gör det enklare.
 
 ![image](assets/en/24.webp)
 
-### Gruvdrift är under ständig utveckling
+### Mining är under ständig utveckling
 
-Under årens lopp har miners utrustat sig med allt effektivare datorhårdvara för att kunna producera så många hashes som möjligt per sekund (HashRate) samtidigt som de förbrukar så lite energi som möjligt på ett så kostnadseffektivt sätt som möjligt. De tidiga miners som Satoshi eller Hal Finney använde bara sin CPU, sedan började andra minera med sina grafikkort. Numera använder miners ASIC (Application-Specific Integrated Circuit): maskiner som enbart är utformade för att tillämpa SHA256-algoritmen.
+Under årens lopp har miners utrustat sig med allt effektivare datorhårdvara för att kunna producera så många hashes som möjligt per sekund (HashRate) samtidigt som de förbrukar så lite energi som möjligt på ett så kostnadseffektivt sätt som möjligt. De tidiga miners som Satoshi eller Hal Finney använde bara sin CPU, sedan började andra mina med sina grafikkort. Numera använder miners ASIC (Application-Specific Integrated Circuit): maskiner som enbart är utformade för att tillämpa SHA256-algoritmen.
 
 ![image](assets/en/56.webp)
 
-Hashrate i Bitcoin-nätverket representerar antalet försök som görs per sekund för att hitta nästa block. Idag översteg den till och med 500 TH/s, vilket är 500 000 miljarder försök per sekund! Ju högre den globala hashhastigheten är, desto svårare är det för en illvillig aktör att monopolisera de resurser som behövs för att få majoriteten av gruvkraften och spendera sina medel mer än en gång (dubbelutgiftsproblem). Det är därför mer ekonomiskt lönsamt att följa reglerna i Bitcoin-protokollet än att agera mot dem.
+Hashrate i Bitcoin-nätverket representerar antalet försök som görs per sekund för att hitta nästa block. Idag översteg den till och med 500 TH/s, vilket är 500 000 miljarder försök per sekund! Ju högre den globala hash-hastigheten är, desto svårare är det för en illvillig aktör att monopolisera de resurser som behövs för att få majoriteten av mining-kraften och spendera sina pengar mer än en gång (problem med dubbelspendering). Det är därför mer ekonomiskt lönsamt att följa reglerna i Bitcoin-protokollet än att agera mot dem.
 
 ![image](assets/en/57.webp)
 
 ### Vad kan man hitta i ett block?
 
-Blockhuvudet innehåller flera element, t.ex. tid, svårighetsmål, det senaste blockets nummer, den version som används och Merkle-roten för de tidigare transaktionerna.
+Block header innehåller flera element, t.ex. tid, svårighetsgrad, det senaste blockets nummer, den version som används och Merkle-roten för de tidigare transaktionerna.
 
-**coinbase-transaktionen** är alltid den första som ingår i blocket: den innehåller gruvarbetarens belöning för att ha utfört validerarens arbete. Därefter kommer de validerade transaktionerna. Utvinnarna väljer att infoga de transaktioner som ger dem mest vinst, det vill säga små transaktioner med maximala avgifter.
+**coinbase-transaktionen** är alltid den första som ingår i blocket: den innehåller minerns belöning för att ha utfört validerarens arbete. Därefter kommer de validerade transaktionerna. Miners väljer att inkludera de transaktioner som ger dem mest vinst, det vill säga små transaktioner med maximala avgifter.
 
-### Ersättning till gruvarbetare
+### Ersättning till miners
 
-Inledningsvis kompenseras en gruvarbetare när han eller hon hittar ett giltigt block. Mer exakt belönas de på två sätt:
+Inledningsvis kompenseras en miner när han eller hon hittar ett giltigt block. Mer specifikt belönas de på två sätt:
 
 
-- genom den subvention (nypräglade bitcoins) som ingår i blocket;
+- genom den subvention (nyskapade bitcoins) som ingår i blocket;
 - genom transaktionsavgifter från de transaktioner som ingår i blocket.
 
 Subventionens storlek definieras av konsensusreglerna och beror på epoken: **blockbelöning = blocksubvention + transaktionsavgifter**.
 
-För de första blocken var blocksubventionen faktiskt 50 bitcoins. Varje 210 000 block (ungefär vart fjärde år) halveras detta belopp. Idag (2024) befinner vi oss i den femte epoken, vilket innebär att subventionen är 3,125 bitcoins. Kort sagt är detta den automatiska mekanismen som frigör nya bitcoins i systemet. Subventionen minskar över tiden tills den når gränsen för utfärdande av 21 miljoner bitcoins. Det finns redan över 19,4 miljoner bitcoins i omlopp, vilket är över 92%.
+För de första blocken var blocksubventionen faktiskt 50 bitcoins. Varje 210 000 block (ungefär vart fjärde år) halveras detta belopp. Idag (2024) befinner vi oss i den femte epoken, vilket innebär att subventionen är 3,125 bitcoins. Kort sagt är detta den automatiska mekanismen som frigör nya bitcoins i systemet. Subventionen minskar över tiden tills den når gränsen för utfärdandet av 21 miljoner bitcoins. Det finns redan över 19,4 miljoner bitcoins i omlopp, vilket är över 92%.
 
 ![image](assets/en/58.webp)
 
@@ -937,44 +937,44 @@ För att stabilisera sin affärsmodell, som är beroende av de belöningar de f�
 
 ### Varför bry sig om att göra allt detta?
 
-Kort sagt är innovationen med Bitcoin att föreslå en lösning på problemet med dubbla utgifter genom att använda en blockkedja baserad på Proof of Work med en flytande svårighet. I den digitala världen skiljer sig ägandebegreppet från den fysiska världen. I själva verket kan allt kopieras och klistras in i den digitala världen, vilket skapar en risk för att digitala tillgångar av värde används flera gånger. Betrodda mellanhänder, t.ex. banker, har skapats för att lösa detta tekniska problem och säkerställa att en tillgång inte längre tillhör avsändaren när den överförs.
+Kort sagt är innovationen med Bitcoin att föreslå en lösning på problemet med dubbelspendering genom att använda en blockkedja baserad på Proof of Work med en varierande svårighet. I den digitala världen skiljer sig konceptet om ägande från den fysiska världen. I själva verket kan allt kopieras och klistras in i den digitala världen, vilket skapar en risk för att digitala tillgångar av värde används flera gånger. Betrodda mellanhänder, t.ex. banker, har skapats för att lösa detta tekniska problem och säkerställa att en tillgång inte längre tillhör avsändaren när den överförs.
 
-Men hur kan detta göras utan en betrodd mellanhand? Detta problem beskrivs väl genom de bysantinska generalernas paradox, ett problem med att samordna information i ett system där olika aktörer inte går att lita på. I Byzantine Generals Problem måste en grupp generaler samordna en attack mot en stad, men vissa kan vara förrädare som försöker störa planen. Utmaningen är att de lojala generalerna ska nå konsensus om huruvida de ska anfalla eller retirera, trots att de får potentiellt vilseledande meddelanden från förrädarna.
+Men hur kan detta göras utan en betrodd mellanhand? Detta problem beskrivs väl genom de bysantinska generalernas paradox, ett problem med att samordna information i ett system där olika aktörer inte går att lita på. I de bysantinska generalernas problem måste en grupp generaler samordna en attack mot en stad, men vissa kan vara förrädare som försöker störa planen. Utmaningen är att de lojala generalerna ska nå konsensus om huruvida de ska anfalla eller retirera, trots att de får potentiellt vilseledande meddelanden från förrädarna.
 
 ![image](assets/en/60.webp)
 
 Bitcoin är därför en slags lösning för att lösa detta problem, eller åtminstone för att komma runt det. Bitcoins "generaler", eller miners, producerar block (med information) och Bitcoin-noder verifierar finansiella transaktioner med hjälp av konsensusregler för att säkerställa informationens äkthet. Asymmetrin i energikostnaden mellan informationsproduktion och verifiering säkerställer informationens tillförlitlighet, utan en betrodd tredje part.
 
-Miners är de som bygger upp säkerheten i Bitcoin-nätverket. Genom att spendera energi på att producera hashes bygger de en mur som gör det extremt kostsamt för en illasinnad agent att skriva om transaktionshistoriken, och denna ekonomiska avskräckande effekt avskräcker andra från att bete sig oärligt.
+Miners är de som bygger upp säkerheten i Bitcoin-nätverket. Genom att spendera energi på att producera hashes bygger de en mur som gör det extremt kostsamt för en illasinnad agent att skriva om transaktionshistoriken, och denna ekonomiska negativa effekt avskräcker andra från att bete sig oärligt.
 
 Även vid en 51%-attack, där en agent skulle inneha mer än hälften av hashraten, skulle nätverket förbli säkert eftersom angriparen måste spendera lika mycket energi som alla miners tillsammans för att försöka modifiera blockkedjan. Denna energikrävande proof-of-work-mekanism är det som garanterar nätverkets säkerhet.
 
 ### Sammanfattningsvis
 
-Den spelteori som tillämpas på Bitcoin eliminerar oärliga miners, som använder ASIC-maskiner för att bryta och får en belöning om de lyckas. Dessutom går de ofta med i miningpooler för att dela med sig av sin datorkraft och få mindre men mer regelbundna belöningar. Bitcoin-mining medför höga energikostnader, men är avgörande för driften och säkerheten i Bitcoin-nätverket. Proof-of-work-mekanismen och blockkedjetekniken löser problemet med dubbelspendering och säkerställer informationens integritet utan att förlita sig på en betrodd tredje part. Att producera information kräver en betydande energiförbrukning, men att verifiera informationen medför en försumbar kostnad. Denna asymmetri förstärker nätverkets säkerhet och gör det mer ekonomiskt lönsamt att följa konsensusreglerna än att försöka bryta mot dem.
+Den spelteori som tillämpas på Bitcoin eliminerar oärliga miners, som använder ASIC-maskiner för att mina och får en belöning om de lyckas. Dessutom går de ofta med i miningpooler för att dela med sig av sin datorkraft och få mindre men mer regelbundna belöningar. Bitcoin-mining medför höga energikostnader, men är avgörande för driften och säkerheten av Bitcoin-nätverket. Proof-of-work-mekanismen och blockkedjetekniken löser problemet med dubbelspendering och säkerställer informationens integritet utan att förlita sig på en betrodd tredje part. Att producera information kräver en betydande energiförbrukning, men att verifiera informationen medför en försumbar kostnad. Denna asymmetri förstärker nätverkets säkerhet och gör det mer ekonomiskt lönsamt att följa konsensusreglerna än att försöka bryta dem.
 
-Om du vill fördjupa dig i det specifika ämnet Bitcoin-gruvdrift kan du konsultera vår MIN 201-kurs. Du kommer att upptäcka hur Proof-of-Work fungerar och vilken roll det har, samt mekaniken i gruvindustrin. Vi förklarar också hur man konverterar en ASIC till en värmare, så att du kan bryta dina första satoshis samtidigt som du värmer upp ditt hem!
+Om du vill fördjupa dig i det specifika ämnet Bitcoin-mining kan du konsultera vår MIN 201-kurs. Du kommer att upptäcka hur Proof-of-Work fungerar och vilken roll det har, samt mekaniken inom mining. Vi förklarar också hur man konverterar en ASIC till en värmare, så att du kan mina dina första satoshis samtidigt som du värmer upp ditt hem!
 
 https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 ## Bitcoin och ekologi
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
-I föregående avsnitt förstod vi att säkerheten i Bitcoin-protokollet bygger på hög energiförbrukning för att producera en offentlig huvudbok med transaktioner utan en betrodd tredje part. I mainstream media jämförs ofta den totala energikostnaden med elanvändningen i ett litet land. Men är denna jämförelse rimlig? Är det relevant att förstå orsakerna bakom sådana kostnader?
+I föregående avsnitt förstod vi att säkerheten i Bitcoin-protokollet bygger på hög energiförbrukning för att skapa ett offentligt register med transaktioner utan en betrodd tredje part. I mainstream media jämförs ofta den totala energikostnaden med elanvändningen i ett litet land. Men är denna jämförelse rimlig? Är det relevant att förstå orsakerna bakom sådana kostnader?
 
 ### Energikostnaderna för Bitcoin.
 
-Låt oss först göra en kvalitativ bedömning av miljökostnaden för gruvdrift. En gruvarbetare måste ha en maskin som en ASIC och en energikälla i form av elektricitet för att driva dessa maskiner. ASIC:ar är oftast tillverkade av aluminium och kan antingen återvinnas eller återanvändas för ett annat ändamål (vilket demonstreras av Attakaï-projektet som beskrivs i vår kurs MIN201), som omvandlar en Antminer S9 till en rumsvärmare). Det största problemet är därför energiförbrukningen.
+Låt oss först göra en kvalitativ bedömning av miljökostnaden för mining. En miner måste ha en maskin som en ASIC och en energikälla i form av elektricitet för att driva dessa maskiner. ASICs är oftast tillverkade av aluminium och kan antingen återvinnas eller återanvändas för ett annat ändamål (vilket demonstreras av Attakaï-projektet som beskrivs i vår kurs MIN201), som omvandlar en Antminer S9 till en rumsvärmare). Det största problemet är därför energiförbrukningen.
 
 ![image](assets/en/61.webp)
 
-Elförbrukningen står för nästan alla kostnader för en gruvarbetare. Därför uppmuntras de att hitta en billig elkälla, så att de kan åka till platser där kraftverk har installerats men ännu inte anslutits till områdets elnät. I det här fallet fungerar gruvarbetarna som en sista utvägsköpare, vilket gör att kraftverken kan säkra finansieringen redan innan de ansluts till elnätet. När de väl är anslutna kommer efterfrågan på el att öka, vilket höjer priset och gör det mindre lönsamt för gruvarbetarna att skaffa el på dessa platser. Eftersom maskinerna lätt kan flyttas kommer gruvarbetarna då att välja att ta med sig sin anläggning och bosätta sig längre bort där efterfrågan är låg och priset likaså, oftast i områden där de kan få energi från gröna kraftverk.
+Elförbrukningen står för nästan alla kostnader för en miner. Därför uppmuntras de att hitta en billig elkälla, så att de kan åka till platser där kraftverk har installerats men ännu inte anslutits till områdets elnät. I det här fallet fungerar miners som en köpare av sista utväg, vilket gör att kraftverken kan säkra finansieringen redan innan de ansluts till elnätet. När de väl är anslutna kommer efterfrågan på el att öka, vilket höjer priset och gör det mindre lönsamt för miners att skaffa el på dessa platser. Eftersom maskinerna lätt kan flyttas kommer miners då att välja att ta med sig sin installation och bosätta sig längre bort där efterfrågan är låg och priset likaså, oftast i områden där de kan få energi från gröna kraftverk.
 
 ### En oändlig debatt
 
-Debatten om Bitcoins ekologiska påverkan är därför ofta missriktad, främst på grund av en otillräcklig förståelse för dess användbarhet. Bitcoin kan inte utvärderas enbart utifrån energikostnader per transaktion, eftersom miners säkrar både det nuvarande och det historiska nätverket, och transaktioner är grupperade och inte alla likvärdiga. Dessutom tas inte ens Lightning Networks inverkan med i beräkningen. De som hävdar att Bitcoin förbrukar för mycket energi kan ha politiska motiv eller försöka sälja sin egen blockkedjelösning. Många gånger används den ekologiska förevändningen för att motivera förbudet mot Bitcoin.
+Debatten om Bitcoins ekologiska påverkan är därför ofta missvisande, främst på grund av en otillräcklig förståelse för dess användbarhet. Bitcoin kan inte utvärderas enbart utifrån energikostnader per transaktion, eftersom miners säkrar både det nuvarande och det historiska nätverket, och transaktioner är grupperade och inte alla likvärdiga. Dessutom tas inte ens Lightning Networks inverkan med i beräkningen. De som hävdar att Bitcoin förbrukar för mycket energi kan ha politiska motiv eller försöka sälja sin egen blockkedjelösning. Många gånger används den ekologiska ursäkten för att motivera förbudet mot Bitcoin.
 
-Det är viktigt att betona att Bitcoin, som en revolutionerande uppfinning, ger ett sätt för individer som lever under ekonomiskt förtryck eller diktatoriska regimer att kämpa för sin frihet. Som en sista utväg erbjuder Bitcoin en väg till ekonomiskt oberoende genom att kringgå censur och bankrestriktioner. Mer än bara en valuta fungerar Bitcoin som en form av kommunikation och en symbol för frihet, och den energi som spenderas av gruvarbetare spelar en avgörande roll för att försvara denna frihet, vilket möjliggör frigörelse från ett finansiellt system som domineras av skuld och överdrivet monetärt skapande av centralbanker.
+Det är viktigt att betona att Bitcoin, som en revolutionerande uppfinning, ger ett sätt för individer som lever under ekonomiskt förtryck eller diktatoriska regimer att kämpa för sin frihet. Som en sista utväg erbjuder Bitcoin en väg till ekonomiskt oberoende genom att kringgå censur och bankrestriktioner. Mer än bara en valuta fungerar Bitcoin som en form av kommunikation och en symbol för frihet, och den energi som spenderas av miners spelar en avgörande roll för att försvara denna frihet, vilket möjliggör frigörelse från ett finansiellt system som domineras av skuld och överdrivet monetärt skapande av centralbanker.
 
 ![image](assets/en/62.webp)
 
@@ -982,13 +982,13 @@ Det är viktigt att betona att Bitcoin, som en revolutionerande uppfinning, ger 
 
 ![image](assets/en/64.webp)
 
-För dem som bor i länder med hög inflation är Bitcoin en överlevnadsfråga. Det ger ett sätt att överleva i prekära ekonomiska situationer. Dessutom erbjuder Bitcoin ett mer rättvist och opartiskt finansiellt system, vilket ger miljarder människor världen över tillgång till finansiella resurser. Med tanke på detta perspektiv, är energiförbrukningen berättigad?
+För dem som bor i länder med hög inflation är Bitcoin en överlevnadsfråga. Det ger ett sätt att överleva i osäkra ekonomiska situationer. Dessutom erbjuder Bitcoin ett mer rättvist och opartiskt finansiellt system, vilket ger miljarder människor världen över tillgång till finansiella resurser. Med tanke på detta perspektiv, är energiförbrukningen rättfärdigad?
 
-### Bitcoin kan vara ett positivt netto för miljön
+### Bitcoin kan vara nettopositivt för miljön
 
-Slutligen är det viktigt att diskutera de ekonomiska och miljömässiga konsekvenserna av Bitcoin-användningen.
+Slutligen är det viktigt att diskutera de ekonomiska och miljömässiga konsekvenserna av Bitcoin-adoptionen.
 
-Om man jämför med det nuvarande finansiella systemet innebär det senare allvarliga problem på grund av att det uppmuntrar till överkonsumtion och skuldsättning. Faktorer som lätt tillgång till krediter, bankernas utgivning av pengar och bruket av fraktionella reserver bidrar alla till överskuldsättning och, som en följd av detta, överdriven konsumtion.
+Om man jämför med det nuvarande finansiella systemet innebär det senare allvarliga problem på grund av att det uppmuntrar till överkonsumtion och skuldsättning. Faktorer såsom lätt tillgång till krediter, bankernas utgivning av pengar och bruket av fraktionella reserver bidrar alla till överskuldsättning och, som en följd av detta, överdriven konsumtion.
 
 ![image](assets/en/65.webp)
 
@@ -1000,19 +1000,19 @@ Det nuvarande finansiella systemet ligger i linje med den keynesianska ekonomins
 
 Å andra sidan har politiker oftast en kortsiktig vision och de behöver ekonomisk tillväxt för att bli omvalda, så de kan inte lösa ekologiska problem på lång sikt. Omvänt är antagandet av en sund valuta som Bitcoin ett potentiellt alternativ som kan ge människor ekonomisk styrka.
 
-De känner inte till att Bitcoin främjar användningen av grön energi. Till exempel kan lågorna som tänds i oljekällor för att bränna metan och förhindra föroreningar släckas av Bitcoin-gruvarbetare, eftersom metan kan omvandlas till elektricitet för att driva gruvmaskiner, vilket är fördelaktigt för miljön.
+De känner inte till att Bitcoin främjar användningen av grön energi. Till exempel kan lågorna som tänds i oljekällor för att bränna metan och förhindra föroreningar släckas av Bitcoin-miners, eftersom metan kan omvandlas till elektricitet för att driva mining-maskiner, vilket är fördelaktigt för miljön.
 
 **Följ en av Bitcoins maximer: Lita inte på, verifiera själv!**
 
 ### Kort sammanfattning av de tekniska egenskaperna hos Bitcoin
 
-Satoshi Nakamoto släppte Bitcoin-protokollet i januari 2009, som sedan dess har utvecklats tack vare en växande gemenskap av utvecklare, miners och användare med Bitcoin-noder. Genom att hålla sin egen kopia av Bitcoin-blockkedjan, en offentlig huvudbok över alla Bitcoin-transaktioner, kan dessa noder säkerställa transaktionernas giltighet enligt Bitcoins konsensusregler. Detta inkluderar att se till att miners producerar giltiga block, som innehåller tusentals väntande transaktioner.
+Satoshi Nakamoto släppte Bitcoin-protokollet i januari 2009, som sedan dess har utvecklats tack vare en växande gemenskap av utvecklare, miners och användare med Bitcoin-noder. Genom att behålla sin egen kopia av Bitcoin-blockkedjan, ett offentligt register över alla Bitcoin-transaktioner, kan dessa noder säkerställa transaktionernas giltighet enligt Bitcoins konsensusregler. Detta inkluderar att se till att miners producerar giltiga block, som innehåller tusentals väntande transaktioner.
 
 I genomsnitt skapas ett block var 10:e minut och den miner som hittar en giltig hash för nästa block belönas av protokollet med både ett belopp som definieras av konsensusreglerna samt transaktionsavgifterna från alla transaktioner som ingår i det giltiga blocket. Eftersom resultatet av hash-algoritmen (SHA256) för en given input anses vara oförutsägbart, innebär miningprocessen att man bygger många kandidatblock och testar om deras hash är giltig eller inte. För att säkerställa att den genomsnittliga tiden mellan två block förblir konstant (~10 minuter) oavsett antalet miners och deras datorkraft, justeras svårigheten att hitta en giltig hash var 2016:e block, ungefär varannan vecka. Miners har med tiden utvecklat specialiserade SHA256-maskiner, så kallade ASICS, för att öka hashfrekvensen per joule, vilket innebär antalet försök per sekund och per förbrukad energi.
 
-För att gruvarbetarna ska kunna vara så lönsamma som möjligt i sin verksamhet måste de skaffa billigast möjliga el, vilket ofta sker på avlägsna platser, i kraftverk som ännu inte är anslutna till elnätet. Gruvarbetaren fungerar då som en sista utvägsköpare, och så snart elpriset stiger på grund av ökad efterfrågan tenderar gruvarbetaren att flytta sin verksamhet någon annanstans.
+För att miners ska kunna vara så lönsamma som möjligt i sin verksamhet måste de skaffa billigast möjliga el, vilket ofta sker på avlägsna platser, i kraftverk som ännu inte är anslutna till elnätet. Miners fungerar då som en köpare av sista utväg, och så snart elpriset stiger på grund av ökad efterfrågan tenderar minern att flytta sin verksamhet någon annanstans.
 
-Bitcoin-protokollet är således ett ocensoriserbart och ostoppbart monetärt system eftersom varje komponent i protokollet är geografiskt distribuerad över hela världen. Det finns t.ex. mer än 40 000 Bitcoin-noder över alla kontinenter. Bitcoins konsensusregler är sådana att det är ekonomiskt mer lönsamt att följa dem än att försöka bryta mot dem, och därför krävs inget förtroende mellan aktörerna. Bitcoin har ingen ledare och kan inte stoppas. Även om det är möjligt att reglera handelsplattformar för att begränsa Bitcoin, har detta tillvägagångssätt en marginell inverkan på systemet. Kort sagt, ingen domare eller stat kan censurera eller stoppa Bitcoin.
+Bitcoin-protokollet är således ett ocensurerbart och ostoppbart monetärt system eftersom varje komponent i protokollet är geografiskt distribuerad över hela världen. Det finns t.ex. mer än 40 000 Bitcoin-noder över alla kontinenter. Bitcoins konsensusregler är sådana att det är ekonomiskt mer lönsamt att följa dem än att försöka bryta mot dem, och därför krävs inget förtroende mellan aktörerna. Bitcoin har ingen ledare och kan inte stoppas. Även om det är möjligt att reglera växelplattformar för att begränsa Bitcoin, har detta tillvägagångssätt en marginell inverkan på systemet. Kort sagt, ingen domare eller stat kan censurera eller stoppa Bitcoin.
 
 # Hur får du tag på Bitcoin?
 
@@ -1026,26 +1026,26 @@ Priset på Bitcoin kännetecknas ofta av betydande volatilitet. Dess värde kan 
 
 ![image](assets/en/67.webp)
 
-Enkelt uttryckt tenderar människor att köpa allt på en gång och sälja allt på en gång. **Bitcoin är inte immunt mot den mänskliga naturen
+Enkelt uttryckt tenderar människor att köpa allt på en gång och sälja allt på en gång. **Bitcoin är inte immunt mot den mänskliga naturen.**
 
 ### Förståelse för adoptionsvågor
 
-Både utvecklingen av Bitcoin och dess utveckling är till stor del kopplad till de olika grupper av aktörer som gradvis har integrerat dess ekosystem.
+Både utvecklingen av Bitcoin och dess evolution är till stor del kopplad till de olika grupper av aktörer som gradvis har integrerat dess ekosystem.
 
 ![image](assets/en/68.webp)
 
 
 - De troende:
 
-De tidiga användarna av Bitcoin var främst teknofiler, cypherpunks, libertarianer och guldentusiaster. Dessa grupper attraherades av Bitcoin på grund av dess värde som tillförlitliga elektroniska kontanter, dess motståndskraft mot censur och dess transparenta och oföränderliga penningpolitik.
+De tidiga användarna av Bitcoin var främst teknofiler, cypherpunks, libertarianer och guldentusiaster. Dessa grupper attraherades av Bitcoin på grund av dess värde som förtroendelösa elektroniska kontanter, dess motståndskraft mot censur och dess transparenta och oföränderliga penningpolitik.
 
 
-- Den mörka webben & brottslingar
+- Dark Web och brottslingar
 
-Sedan utvidgades användningen av Bitcoin till marknadsplatser på den mörka webben som Silk Road, till stor del på grund av dess okontrollerbara och pseudonyma natur, vilket också lockade individer bortom den plattformen, inklusive vissa personer som bedriver kriminell verksamhet. Det är dock viktigt att understryka att det är tillämpningen av ett verktyg, snarare än verktyget i sig, som avgör lagligheten. Den olagliga användningen av Bitcoin gör inte någon till en brottsling i sig, utan det är snarare de specifika handlingarna som kan klassificeras som olagliga. Att till exempel använda Bitcoin för att köpa vissa droger kan vara lagligt eller olagligt beroende på de regler som styr det territorium där transaktionen sker.
+Sedan spreds användningen av Bitcoin till marknadsplatser på Dark Web, såsom Silk Road, främst på grund av dess decentraliserade och pseudonyma natur. Detta lockade inte bara användare på plattformen utan även individer utanför den, inklusive vissa som ägnade sig åt olaglig verksamhet. Det är dock viktigt att understryka att det är tillämpningen av ett verktyg, snarare än verktyget i sig, som avgör lagligheten. Den olagliga användningen av Bitcoin gör inte någon till en brottsling i sig, utan det är snarare de specifika handlingarna som kan klassificeras som olagliga. Att till exempel använda Bitcoin för att köpa vissa droger kan vara lagligt eller olagligt beroende på de regler som styr det territorium där transaktionen sker.
 
 
-- ICO-frossan och allmänhetens ankomst.
+- ICO-hysterin och allmänhetens ankomst
 
 År 2017 präglades av en betydande spekulationsbubbla i kryptovalutavärlden, särskilt med lanseringen av tusentals ICO:er (Initial Coin Offerings). Många av dessa nya kryptovalutor hade dock ingen konkret utveckling eller nytta, och försvann snabbt. Bubblan 2017 följdes av en kraftig korrigering 2018-2019.
 
@@ -1058,13 +1058,13 @@ Sedan utvidgades användningen av Bitcoin till marknadsplatser på den mörka we
 
 Baserat på tidigare cykler verkar det som om periodiciteten i Bitcoins ekonomiska cykler motsvarar varaktigheten mellan två halveringar, kanske för att halveringshändelsen fungerar som en utlösande faktor genom att halvera utsläppet av nya bitcoins.
 
-Dessa betydande fluktuationer har gett Bitcoin ett rykte som en mycket volatil tillgång, vilket ofta leder till betydande förluster för dess användare. Även om priset kan sjunka med 10 %, 20 % eller till och med 50 % på några dagar är det viktigt att förstå att Bitcoin-protokollet i sig inte påverkas av prisförändringar.
+Dessa betydande fluktuationer har givit Bitcoin ett rykte som en mycket volatil tillgång, vilket ofta leder till betydande förluster för dess användare. Även om priset kan sjunka med 10 %, 20 % eller till och med 50 % på några dagar är det viktigt att förstå att Bitcoin-protokollet i sig inte påverkas av prisförändringar.
 
-Denna betydande volatilitet är idag helt accepterad av Bitcoin-aktörer och kan mildras genom flera lösningar såsom finansiella säkringar (stablecoins), en stark långsiktig tro (hodling) eller helt enkelt undvika risken att investera 100% av sina medel i Bitcoin utan en solid förståelse. Att förstå varför priset på Bitcoin fluktuerar så mycket är därför viktigt för att göra framsteg i denna bransch, eftersom det i slutändan är prisrörelserna och cyklerna som hjälper till att temperera och reglera marknaden i viss utsträckning. Det är dock viktigt att notera att när Bitcoin växer och mognar blir volatiliteten mindre betydelsefull.
+Denna betydande volatilitet är idag helt accepterad av Bitcoin-aktörer och kan mildras genom flera lösningar såsom finansiella säkringar (stablecoins), en stark långsiktig övertygelse (hodling) eller helt enkelt undvika risken att investera 100% av sina tillgångar i Bitcoin utan en gedigen förståelse. Att förstå varför priset på Bitcoin fluktuerar så mycket är därför viktigt för att göra framsteg i denna industri, eftersom det i slutändan är prisrörelserna och cyklerna som hjälper till att dämpa och reglera marknaden i viss utsträckning. Det är dock viktigt att notera att när Bitcoin växer och mognar blir volatiliteten mindre effektfull.
 
 ![image](assets/en/69.webp)
 
-Även om btc/dollar-paret fluktuerar på kort sikt följer bitcoin, på grund av sin begränsade kvantitet på 21 miljoner bitcoins och sin halveringsprocess (halvering av den monetära skapelsen vart fjärde år i genomsnitt), en allmän uppåtgående trend på ett kvasimekaniskt sätt. Precis som alla andra finansiella tillgångar är bitcoin naturligtvis föremål för ekonomiska cykler, inklusive perioder av eufori, spekulationsbubblor och korrigeringar. Detta fenomen är ganska vanligt inom nya teknologier, där marknaden inte alltid är rationell eller effektiv.
+Även om btc/dollar-valutaparet fluktuerar på kort sikt följer bitcoin, på grund av sin begränsade kvantitet på 21 miljoner bitcoins och sin halveringsprocess (halvering av den monetära skapelsen vart fjärde år i genomsnitt), en allmän uppåtgående trend på ett kvasimekaniskt sätt. Precis som alla andra finansiella tillgångar är bitcoin naturligtvis föremål för ekonomiska cykler, inklusive perioder av eufori, spekulationsbubblor och korrigeringar. Detta fenomen är ganska vanligt inom nya teknologier, där marknaden inte alltid är rationell eller effektiv.
 
 ### En unik marknad
 
@@ -1072,7 +1072,7 @@ Dessa cykler av spekulativa bubblor är ganska unika i världen, eftersom det ä
 
 ![image](assets/en/70.webp)
 
-Idag fortsätter Bitcoin att överleva och växa ännu mer genom att integreras mer och mer i den traditionella marknaden, och införandet av Bitcoin ETF: er, tydligare regler och förbättrade verktyg för förvärv och lagring bidrar alla till detta positiva momentum. Bitcoin har ÄNNU EN GÅNG överlevt sin spekulativa bubbla, så kanske är det inte bara varm luft trots allt!
+Idag fortsätter Bitcoin att överleva och växa ännu mer genom att integreras mer och mer i den traditionella marknaden, och införandet av Bitcoin ETF:er, tydligare regler och förbättrade verktyg för förvärv och förvaring bidrar alla till detta positiva momentum. Bitcoin har ÅTERIGEN överlevt sin spekulativa bubbla, så kanske är det inte bara en massa varm luft trots allt!
 
 ![image](assets/en/71.webp)
 
@@ -1088,19 +1088,19 @@ Bitcoin-ekonomin finns och utvecklas i vissa regioner i världen, som i El Salva
 
 ![image](assets/en/72.webp)
 
-Dessutom har ett open source- och samarbetsprojekt lanserats, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), för att underlätta användningen av Bitcoin i vardagliga transaktioner. Denna plattform listar alla handlare som accepterar Bitcoin, liksom de olika Bitcoin-samhällena runt om i världen, så du kan besöka deras webbplats för att upptäcka Bitcoin-ekosystemet runt omkring dig. Trots svårigheter och tveksamheter finns det alltså initiativ som BTCMap som bidrar till att göra Bitcoin-ekonomin mer tillgänglig och bekväm för alla.
+Dessutom har ett open source- och samarbetsprojekt lanserats, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), för att underlätta användningen av Bitcoin i vardagliga transaktioner. Denna plattform listar alla handlare som accepterar Bitcoin, liksom de olika Bitcoin-samhällena runt om i världen, så att du kan besöka deras webbplats för att upptäcka Bitcoin-ekosystemet runt omkring dig. Trots svårigheter och tveksamheter finns det alltså initiativ som BTCMap som bidrar till att göra Bitcoin-ekonomin mer tillgänglig och bekväm för alla.
 
 ### Varför ska vi acceptera Bitcoin istället för att köpa dem?
 
 För att få bitcoins kan du köpa dem på plattformar som regleras av organisationer som AMF (Autorité des Marchés Financiers) i Frankrike eller Securities & Exchange Commission (SEC) i USA, men den här lösningen medför spårbarhet för dina transaktioner. En annan metod för att få bitcoins är att acceptera dem som betalningsmedel för de produkter eller tjänster du erbjuder, så att du kan förvärva bitcoins genom ditt arbete utan att ständigt oroa dig för priset på Bitcoin.
 
-Att acceptera Bitcoin som handelsvara har dessutom flera fördelar, bland annat motståndskraft mot censur, lägre transaktionsavgifter, ökad effektivitet, skydd mot inflation samt finansiell frihet och suveränitet.
+Att acceptera Bitcoin som handlare har dessutom flera fördelar, bland annat motståndskraft mot censur, lägre transaktionsavgifter, ökad effektivitet, skydd mot inflation samt finansiell frihet och suveränitet.
 
 ![image](assets/en/73.webp)
 
 ### Hur kan du gå vidare?
 
-För att acceptera Bitcoin är det nödvändigt att studera de olika tillgängliga lösningarna och välja den som passar ditt företag bäst. Det finns ingen perfekt lösning, och flera faktorer måste beaktas för att göra ditt val, till exempel den förväntade transaktionsvolymen, tilldelad budget och typ av verksamhet (online eller fysisk).
+För att acceptera Bitcoin är det nödvändigt att studera de olika tillgängliga lösningarna och välja den som passar ditt företag bäst. Det finns ingen perfekt lösning, och flera faktorer måste beaktas för att göra ditt val, till exempel den förväntade transaktionsvolymen, fördelad budget och typ av verksamhet (online eller fysisk).
 
 Vi kommer att behandla detta ämne i detalj i en annan kurs, men för att hålla det enkelt kan vi tänka oss flera kategorier av företag och därmed relaterade lösningar.
 
@@ -1113,7 +1113,7 @@ https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8
 
 https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-- Lösning för stora strukturer eller passionerade bitcoinare: BTCpay-server
+- Lösning för stora strukturer eller passionerade bitcoiners: BTCpay Server
 
 ## Spara med Bitcoin
 
@@ -1121,7 +1121,7 @@ https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-e
 
 ### En varning innan vi sätter igång!
 
-Bitcoin har blivit en viktig finansiell tillgång, främst på grund av dess begränsade utbud och ökande efterfrågan. Att köpa Bitcoin medför dock risker som kräver särskild uppmärksamhet. Det rekommenderas därför att du gör egna efterforskningar och lär dig mer om ämnet för att bli bekant med tekniken innan du investerar några medel.
+Bitcoin har blivit en viktig finansiell tillgång, främst på grund av dess begränsade utbud och ökande efterfrågan. Att köpa Bitcoin medför dock risker som kräver särskild uppmärksamhet. Det rekommenderas därför att du gör egna efterforskningar och lär dig mer om ämnet för att bli bekant med tekniken innan du investerar några pengar.
 
 
 - Investera bara det du har råd att förlora.
@@ -1131,7 +1131,7 @@ Bitcoin har blivit en viktig finansiell tillgång, främst på grund av dess beg
 
 **Plan ₿ Network ger ingen investeringsrådgivning, och inget som sägs här ska betraktas som sådan**
 
-### Mini checklista innan du tar steget fullt ut
+### Mini-checklista innan du tar steget fullt ut
 
 Innan du dyker in i att köpa Bitcoin, se till att du har:
 
@@ -1141,13 +1141,13 @@ Innan du dyker in i att köpa Bitcoin, se till att du har:
 - En sparplan att följa.
 - En långsiktig vision.
 
-Om ämnet fortfarande är oklart, var medveten om att BTC102-kursen kommer att vägleda dig i att säkra och förvärva dina första bitcoins. Här kommer vi bara att skumma ytan på ämnet.
+Om ämnet fortfarande är oklart, var medveten om att BTC102-kursen kommer att vägleda dig i att säkra och skaffa dina första bitcoins. Här kommer vi bara att skrapa på ytan av ämnet.
 
 Konkret finns det två frågor att ställa sig:
 
 
-- Bör du anta en gradvis eller en heltäckande förvärvsstrategi?
-- Ska du använda en reglerad eller en oreglerad plattform?
+- Bör du anta en gradvis eller en omedelbar förvärvsstrategi?
+- Bör du använda en reglerad eller en oreglerad plattform?
 
 ### Förvärvsstrategier
 
@@ -1158,8 +1158,9 @@ En gradvis strategi innebär återkommande köp, vilket innebär att man köper 
 
 ![image](assets/en/74.webp)
 
-** Akta dig för UTXO**: Kom ihåg att konsolidera dina UTXO:er i dina plånböcker då och då. Denna praxis är viktig för att effektivt hantera dina bitcoins och undvika onödiga avgifter under transaktioner.
+** Var försiktig med UTXO**: Kom ihåg att konsolidera dina UTXO:er i dina plånböcker då och då. Denna praxis är viktig för att effektivt hantera dina bitcoins och undvika onödiga avgifter under transaktioner.
 
+Ett [UTXO](https://planb.network/en/resources/glossary/utxo) är en utgång från en transaktion som ännu inte har spenderats, det vill säga som inte har använts som ingång för en ny transaktion. Att konsolidera dem innebär att sammanfoga flera små UTXO till en större, för att minska "vikten" av transaktionen och därmed betala mindre avgifter.
 
 - Spontant köp
 
@@ -1169,7 +1170,7 @@ I det här fallet bör du vara försiktig och kontrollera dina känslor, efterso
 
 ### Vem ska vi köpa våra bitcoin av?
 
-Det finns flera sätt att förvärva bitcoins, var och en omfattas av sin egen uppsättning regler som kan variera beroende på jurisdiktion. Vissa plattformar kräver identifiering för verifiering (KYC), medan andra inte gör det. Därför är det viktigt att förstå de regler som är kopplade till varje plattform.
+Det finns flera sätt att skaffa bitcoins, var och en omfattas av sin egen uppsättning regler som kan variera beroende på jurisdiktion. Vissa plattformar kräver identifiering för verifiering (KYC), medan andra inte gör det. Därför är det viktigt att förstå de regler som är kopplade till varje plattform.
 
 
 - DCA-plattformar
@@ -1179,15 +1180,15 @@ Som vi introducerade ovan är en vanlig metod för att ackumulera bitcoins Dolla
 Idag är nästan alla DCA-lösningar relativt effektiva och har nästan liknande avgifter, så valet beror mer på tillgängligheten i ditt land.
 
 
-- Plattformar för mäklare
+- Handelsplattformar
 
 För storskaliga investeringar rekommenderas reglerade och erkända plattformar som Kraken, Bitstamp och Paymium. De erbjuder en trygg och säker miljö för transaktioner med stora volymer.
 
 De är enkla att använda och tillgängliga för alla:
 
-1. Skapa ett KYC/\*-konto
+1. Skapa ett KYC/*-konto
 
-2. Överföra pengar till ditt konto
+2. Överför pengar till ditt konto
 
 3. Köp bitcoin
 
@@ -1195,15 +1196,15 @@ De är enkla att använda och tillgängliga för alla:
 
 ![image](assets/en/75.webp)
 
-Efter köpet är det tillrådligt att omedelbart ta ut bitcoins från utbytesplattformarna för att minimera riskerna för hackning och fondblockering. Var medveten om att uttagsavgifterna kan vara höga, ibland upp till 25 euro beroende på plattform.
+Efter köpet är det rekommenderat att omedelbart ta ut bitcoins från handelsplattformarna för att minimera riskerna för hackning och blockering. Var medveten om att uttagsavgifterna kan vara höga, ibland upp till 25 euro beroende på plattform.
 
-**KYC-bestämmelser (Know Your Customer) kräver att användare identifierar sig för att bekämpa finansiering av terrorism, skatteflykt och penningtvätt
+**KYC-bestämmelser** (Know Your Customer) kräver att användare identifierar sig för att bekämpa finansiering av terrorism, skatteflykt och penningtvätt.
 
 Det är viktigt att erkänna att KYC är ett viktigt diskussionsämne i Bitcoin-industrin. Medan många människor debatterar dess effektivitet finns det många problem förknippade med det. I många av vår akademis utbildningsprogram och innehåll råder vi avancerade användare att undvika plattformar som kräver KYC, eftersom det ofta finns mer integritetsfokuserade alternativ tillgängliga.
 
-### Icke-KYC-lösningar
+### Lösningar med icke-KYC
 
-Dessutom finns det flera [marknadsplatser] (https://planb.network/tutorials/exchange) där man kan köpa och sälja bitcoins i ett peer-to-peer-utbyte. I allmänhet måste du överväga följande:
+Dessutom finns det flera [marknadsplatser] (https://planb.network/tutorials/exchange) där man kan köpa och sälja bitcoins i ett peer-to-peer-utbyte. I allmänhet kan du överväga följande:
 
 
 - Uttagsautomater för Bitcoin
@@ -1214,7 +1215,7 @@ Dessutom finns det flera [marknadsplatser] (https://planb.network/tutorials/exch
 
 ![image](assets/en/76.webp)
 
-Slutligen är det viktigt att notera att skattskyldigheter kan variera beroende på jurisdiktion, så vi rekommenderar starkt att du konsulterar bestämmelserna i ditt land innan du vidtar några åtgärder som kan innebära en risk för dig.
+Slutligen är det viktigt att notera att skatteskyldigheter kan variera beroende på jurisdiktion, så vi rekommenderar starkt att du konsulterar bestämmelserna i ditt land innan du vidtar några åtgärder som kan innebära en risk för dig.
 
 ## Hyper-bitcoinisering
 
@@ -1222,24 +1223,24 @@ Slutligen är det viktigt att notera att skattskyldigheter kan variera beroende 
 
 ### Den vilda kapplöpningen har bara börjat!
 
-Liksom all ny teknik följer antagandet av Bitcoin en S-kurva, som illustrerar utvecklingen från tidiga användare till bredare acceptans. Vi har lämnat de tidiga användarnas era bakom oss och indikatorer tyder på en potentiell demokratisering av Bitcoin. Det är trots allt en viral teknik som inte lätt kan stoppas. Å ena sidan har El Salvador tagit det djärva steget att fullt ut anta Bitcoin som lagligt betalningsmedel. Å andra sidan har andra länder reagerat genom att förbjuda och kriminalisera användningen, vilket visar att antagandet av Bitcoin är komplext och påverkas av kulturella, historiska och nationella faktorer.
+Liksom all ny teknik följer adoption av Bitcoin en S-kurva, som illustrerar utvecklingen från tidiga användare till bredare acceptans. Vi har lämnat de tidiga användarnas era bakom oss och indikatorer tyder på en potentiell demokratisering av Bitcoin. Det är trots allt en viral teknik som inte lätt kan stoppas. Å ena sidan har El Salvador tagit det djärva steget att fullt ut anta Bitcoin som lagligt betalningsmedel. Å andra sidan har andra länder reagerat genom att förbjuda och kriminalisera användningen, vilket visar att adoptionen av Bitcoin är komplext och påverkas av kulturella, historiska och nationella faktorer.
 
 ![image](assets/en/02.webp)
 
-Bitcoins uppgång tvingar företag, universitet, tillsynsmyndigheter och privatpersoner att ta hänsyn till denna nya teknik. Nya verktyg måste skapas, tjänster måste anpassas och innovation måste fortsätta för att säkerställa deras överlevnad. Detta sammanhang väcker många frågor som rör olika områden, bland annat kryptografi, spelteori, ekonomi och penningpolitik, datavetenskap, filosofi, energi, lagar och regler. Bitcoin är kort sagt ett tvärvetenskapligt ämne.
+Bitcoins framfart tvingar företag, universitet, myndigheter och privatpersoner att ta hänsyn till denna nya teknik. Nya verktyg måste skapas, tjänster måste anpassas och innovation måste fortsätta för att säkerställa deras överlevnad. Detta sammanhang väcker många frågor som rör olika områden, bland annat kryptografi, spelteori, ekonomi och penningpolitik, datavetenskap, filosofi, energi, lagar och regler. Bitcoin är kort sagt ett tvärvetenskapligt ämne.
 
 ![image](assets/en/01.webp)
 
-### Bitcoin är en 0 till 1
+### Bitcoin är 0 till 1
 
 I slutändan uppmanar vi dig att reflektera över denna nya monetära revolution. Det finns så mycket att utforska med Bitcoin att det är komplicerat att assimilera allt på en gång. Ta din tid, Bitcoin kommer inte att försvinna. Tvärtom, revolutionen har bara börjat. Vi tror att vi är kapabla att skapa den värld som vi vill anförtro våra barn: en värld där mänsklig suveränitet är en rättighet, där integritet respekteras som standard och där pengar inte manipuleras. Vi hoppas att vi tillsammans kommer att uppnå detta.
 
 ![image](assets/en/77.webp)
 
-Om du vill bredda din kunskap om Bitcoin är det här rätt tid: ett stort antal författare, tänkare och essäister har skapat pedagogiskt innehåll om Bitcoin. Under de senaste åren har vi listat och kategoriserat dessa verk för att erbjuda ett [resursbibliotek](https://planb.network/resources) till de mest nyfikna bland er. I det avsnittet hittar du de bästa podcasterna, webbplatserna, artiklarna, handledningarna, böckerna och annat innehåll.
+Om du vill bredda din kunskap om Bitcoin är det här rätt tid: ett stort antal författare, tänkare och essäister har skapat pedagogiskt innehåll om Bitcoin. Under de senaste åren har vi listat och kategoriserat dessa verk för att erbjuda ett [resursbibliotek](https://planb.network/resources) till de mest nyfikna bland er. I det avsnittet hittar du de bästa podcasts, webbplatserna, artiklarna, tutorials, böckerna och annat innehåll.
 
 > "Jag tror att Internet kommer att bli en av de stora krafterna för att minska statens roll. Det enda som saknas, men som snart kommer att utvecklas, är en tillförlitlig e-cash - en metod där man på Internet kan överföra pengar från A till B utan att A känner till B eller B känner till A." - Milton Friedmans förutsägelse 1999
-# Bitcoins framtid: Blixtnätverket
+# Bitcoins framtid: Lightning Network
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
@@ -1247,15 +1248,15 @@ Om du vill bredda din kunskap om Bitcoin är det här rätt tid: ett stort antal
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Nu när vi har grunderna i Bitcoin-protokollet kommer vi att presentera ett betalningsnätverk som använder Bitcoin-protokollet för att möjliggöra blixtsnabba transaktioner: Lightning Network!
+Nu när vi har kunskap om grunderna i Bitcoin-protokollet kommer vi att presentera ett betalningsnätverk som använder Bitcoin-protokollet för att möjliggöra blixtsnabba transaktioner: Lightning Network!
 
-Var medveten om att följande endast är en allmän beskrivning, så om du vill förstå det i djupare detaljer inbjuder vi dig att kolla vår LNP201-kurs.
+Var medveten om att följande endast är en allmän beskrivning, så om du vill förstå det i djupare detaljer rekommenderar vi dig att kolla vår LNP201-kurs.
 
 ### I ett nötskal
 
 Lightning Network är en revolutionerande teknik som på ett genomgripande sätt har förändrat vår uppfattning om Bitcoin, eftersom den löser problemet med Bitcoins skalbarhet.
 
-För att fullt ut förstå Lightning Network är det viktigt att förstå hur Bitcoin utvecklas och utvecklas i infrastrukturlager: det första lagret är blockkedjan och det andra är Lightning Network.
+För att fullt ut förstå Lightning Network är det viktigt att förstå hur Bitcoin växer och utvecklas i infrastrukturlager: det första lagret är blockkedjan och det andra är Lightning Network.
 
 ![image](assets/en/78.webp)
 
@@ -1267,26 +1268,26 @@ Skalbarhetsproblemet avser utmaningen att implementera ett monetärt system som 
 
 ![image](assets/en/79.webp)
 
-Enligt den kan ett protokoll som baseras på en blockkedja bara uppfylla två av dessa tre funktioner. Inom Bitcoin-protokollet har utvecklare gjort val för att gynna decentralisering och säkerhet. Å ena sidan gör blockstorleken på 1 MB och tiden mellan två block (i genomsnitt 10 minuter) det möjligt att driva en Bitcoin-nod till en lägre kostnad, vilket gynnar decentralisering. Å andra sidan gör produktionen av block genom Proof-of-Work bedrägeri inom protokollet extremt kostsamt, samtidigt som det underlättar verifiering av nätverksnoder och gynnar säkerhet. Dessa val innebär dock en begränsning av det genomsnittliga antalet transaktioner i ett block, vilket ungefär motsvarar några transaktioner per sekund. Detta antal är löjligt jämfört med beräkningskapaciteten hos betalningsprocessorer som VISA (1700/s), men denna gräns är nödvändig för att kunna göra transaktioner med Bitcoin på ett censurresistent och förtroendefritt sätt. Trots detta har de som utvecklar Bitcoin tänkt på detta problem sedan början.
+Enligt den kan ett protokoll som baseras på en blockkedja bara uppfylla två av dessa tre funktioner. Inom Bitcoin-protokollet har utvecklare gjort val för att gynna decentralisering och säkerhet. Å ena sidan gör blockstorleken på 1 MB och tiden mellan två block (i genomsnitt 10 minuter) det möjligt att driva en Bitcoin-nod till en lägre kostnad, vilket gynnar decentralisering. Å andra sidan gör produktionen av block genom Proof-of-Work-metoden det oerhört kostsamt och resurskrävande att genomföra bedrägerier inom protokollet, samtidigt som det underlättar verifiering av nätverksnoder och gynnar säkerhet. Dessa val innebär dock en begränsning av det genomsnittliga antalet transaktioner i ett block, vilket ungefär motsvarar några transaktioner per sekund. Detta antal är löjligt jämfört med beräkningskapaciteten hos betalningsprocessorer som VISA (1700/s), men denna gräns är nödvändig för att kunna göra transaktioner med Bitcoin på ett censurresistent och förtroendefritt sätt. Trots detta har de som utvecklar Bitcoin tänkt på detta problem sedan början.
 
-### Blixten som ett lager ovanpå
+### Lightning som ett andra lager ovanpå
 
 Efter år av överväganden och flera försök uppstod Lightning-protokollet. Med hjälp av ett visst antal specifikationer konstruerar detta protokoll ett peer-to-peer-betalningsnätverk genom att utnyttja säkerheten och programmerbarheten i Bitcoins transaktionsprotokoll. Lightning Network fungerar som ett nätverk av betalningskanaler, vilket möjliggör omedelbara transaktioner med låga avgifter för avsändaren, och det skapar även utbytesvägar mellan individer som inte har en direkt kanalanslutning.
 
 ![image](assets/en/80.webp)
 
-Traditionella penningöverföringstjänster som Western Union, centralbanker, Visa och Mastercard kan försvinna om de inte antar Lightning Network-tekniken, som är mer effektiv och kostnadseffektiv än nuvarande betalningssystem. Lightning Network möjliggör i själva verket nästan obegränsade transaktioner mellan två peers som delar en kanal, där endast energikostnaderna för att meddela att kanalen har skapats uppstår i samband med transaktionen, snarare än för varje enskild transaktion.
+Traditionella överföringstjänster som Western Union, centralbanker, Visa och Mastercard kan försvinna om de inte antar Lightning Network-tekniken, som är mer effektiv och kostnadseffektiv än nuvarande betalningssystem. Lightning Network möjliggör i själva verket nästan obegränsade transaktioner mellan två peers som delar en kanal, där endast energikostnaderna för att meddela att kanalen har skapats uppstår i samband med transaktionen, snarare än för varje enskild transaktion.
 
 ![image](assets/en/81.webp)
 
 Transaktioner säkras genom kryptografi och indirekt genom den energi som förbrukas av miners på Bitcoin. De kan göras direkt, utan geografiska begränsningar och med extremt låga avgifter (ofta mindre än 0,5%).
 
-Sammanfattningsvis är Lightning Network ett lovande försök att distribuera ett effektivt betalningssystem för att köpa och sälja i Bitcoin. Det finns redan många Lightning-plånböcker tillgängliga, som du kan upptäcka i vårt handledningsavsnitt eller genom våra Lightning Network-kurser.
+Sammanfattningsvis är Lightning Network ett lovande försök att sprida ett effektivt betalningssystem för att köpa och sälja i Bitcoin. Det finns redan många Lightning-plånböcker tillgängliga, som du kan upptäcka i vår tutorial-sektion eller genom våra Lightning Network-kurser.
 
 Om du vill gå längre än den här introduktionen och förstå hur Lightning Network fungerar rekommenderar vi att du tar den här utmärkta kursen av Fanis Michalakis i ämnet:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
-## Användningsfall för blixtnätverk
+## Användning av Lightning Network
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
@@ -1294,18 +1295,18 @@ Som vi just har sett står Bitcoin-protokollet, även om det är revolutionerand
 
 
 - Core-lightning av Blockstream
-- Eclair från Acinq
-- LND genom blixtnedslag
+- Eclair av Acinq
+- LND av Lightning Strike
 
-Detta peer-to-peer-nätverk syftar till att underlätta mikrotransaktioner (med mycket lågt värde) som annars skulle vara opraktiska på grund av höga avgifter och långa bekräftelsetider på Bitcoin-blockkedjan.
+Detta peer-to-peer-nätverk syftar till att underlätta mikrotransaktioner (med mycket låga belopp) som annars skulle vara opraktiska på grund av höga avgifter och långa bekräftelsetider på Bitcoin-blockkedjan.
 
 ### Vilka är användningsområdena för nätverket?
 
-Den här tekniken öppnar dörren för ett brett spektrum av potentiella tillämpningar för Bitcoin som tidigare var utom räckhåll på grund av de nödvändiga begränsningarna för att säkerställa säkerheten och decentraliseringen av Bitcoin. Bland dessa vardagliga användningsområden kan vi nämna omedelbar fakturering inom både fysisk handel och onlinehandel, strömmande pengar för realtidsbetalningar och mikrodonationer för innehållsskapare. Genom att möjliggöra ett nätverk av nästan omedelbara, säkra och billiga transaktioner (i genomsnitt mindre än 0,5%) kan många tidigare otänkbara affärsmodeller förverkligas. Detta möjliggörs genom att Lightning Network använder satoshis (sats), den minsta enheten av Bitcoin.
+Den här tekniken öppnar dörren för ett brett spektrum av potentiella tillämpningar för Bitcoin som tidigare var utom räckhåll på grund av de nödvändiga begränsningarna för att säkerställa säkerheten och decentraliseringen av Bitcoin. Bland dessa vardagliga användningsområden kan vi nämna omedelbara transaktioner inom både fysisk handel och onlinehandel, pengar för realtidsbetalningar och mikrodonationer för innehållsskapare. Genom att möjliggöra ett nätverk av nästan omedelbara, säkra och billiga transaktioner (i genomsnitt mindre än 0,5%) kan många tidigare otänkbara affärsmodeller förverkligas. Detta möjliggörs genom att Lightning Network använder satoshis (sats), den minsta enheten av Bitcoin.
 
 ![image](assets/en/82.webp)
 
-Videospelsbranschen är ett särskilt intressant exempel på hur Lightning Network kan användas för att förändra befintliga affärsmodeller. Begreppet "skin in the game" är en idé som nyligen har blivit populär i detta sammanhang. Det innebär i princip att man har en ekonomisk andel i utfallet av ett spel. Lightning Network gör det faktiskt möjligt för spelare att satsa mycket små summor pengar när de spelar spel, till exempel några satoshis (ungefär en bråkdel av en eurocent) för att skapa en insats som stimulerar konkurrensen samtidigt som kostnaden för att använda botar ökar avsevärt.
+Videospelsbranschen är ett särskilt intressant exempel på hur Lightning Network kan användas för att förändra befintliga affärsmodeller. Begreppet "skin in the game" är en idé som nyligen har blivit populär i detta sammanhang. Det innebär i princip att man har en ekonomisk andel i utfallet av ett spel. Lightning Network gör det faktiskt möjligt för spelare att satsa mycket små summor pengar när de spelar spel, till exempel några satoshis (ungefär en bråkdel av en euro-cent) för att skapa en insats som stimulerar konkurrensen samtidigt som kostnaden för att använda bots ökar avsevärt.
 
 ![image](assets/en/83.webp)
 
@@ -1313,13 +1314,13 @@ Sammanfattningsvis ser framtiden för mikrotransaktioner med Bitcoin lovande ut 
 
 ![image](assets/en/84.webp)
 
-Ett annat exempel skulle kunna vara "money streaming": genom Lightning Network kan vi göra mikrotransaktioner varje minut (eventuellt utan en betrodd tredje part), vilket öppnar dörren för att experimentera med ekonomiska modeller där konsumenterna betalar för innehåll baserat på deras faktiska konsumtion. Det är till och med tänkbart att använda detta system för att hyra varor. I ett sådant system delas pengarna automatiskt, baserat på en fördefinierad procentsats, mellan de olika bidragsgivarna till en tjänst eller produkt. Detta skulle kunna revolutionera vårt sätt att tänka kring betalningsmodeller: istället för att betala ett månadsabonnemang för en tjänst skulle användarna kunna debiteras per minut, eller till och med per sekund, för den tid de spenderar med att använda tjänsten. En sådan ekonomisk modell skulle kunna få djupgående konsekvenser för innehållsskapare, som skulle få incitament att producera kvalitetsinnehåll för att behålla användarnas uppmärksamhet.
+Ett annat exempel skulle kunna vara "pengaflöde": genom Lightning Network kan vi göra mikrotransaktioner varje minut (eventuellt utan en betrodd tredje part), vilket öppnar dörren för att experimentera med ekonomiska modeller där konsumenterna betalar för innehåll baserat på deras faktiska konsumtion. Det är till och med tänkbart att använda detta system för att hyra varor. I ett sådant system delas pengarna automatiskt, baserat på en fördefinierad procentsats, mellan de olika bidragsgivarna till en tjänst eller produkt. Detta skulle kunna revolutionera vårt sätt att tänka kring betalningsmodeller: istället för att betala ett månadsabonnemang för en tjänst skulle användarna kunna debiteras per minut, eller till och med per sekund, för den tid de spenderar med att använda tjänsten. En sådan ekonomisk modell skulle kunna få djupgående konsekvenser för innehållsskapare, som skulle få incitament att producera kvalitetsinnehåll för att behålla användarnas uppmärksamhet.
 
 ![image](assets/en/85.webp)
 
-Sammanfattningsvis öppnar Lightning Network upp för en mängd spännande användningsfall för Bitcoin-användare. De resulterande ekonomiska modellerna och affärsmöjligheterna är många och varierade, och vi uppmuntrar dig att kontrollera själv genom att prova podcastapplikationen [Fountain] (https://www.fountain.fm/), som gör att du kan belönas med några sats för att lyssna på dina favoritpodcasts!
+Sammanfattningsvis öppnar Lightning Network upp för en mängd spännande användningsområden för Bitcoin-användare. De resulterande ekonomiska modellerna och affärsmöjligheterna är många och varierade, och vi uppmuntrar dig att ta reda på det själv genom att prova podcastapplikationen [Fountain] (https://www.fountain.fm/), som gör att du kan belönas med några sats för att lyssna på dina favoritpodcasts!
 
-## Rödpiller eller blåpiller?
+## Red pill eller blue pill?
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
 
@@ -1339,11 +1340,11 @@ Vi har några viktiga frågor att ställa oss själva:
 - Finns det behov av lika många lärare?
 - De geopolitiska, politiska och mänskliga konsekvenserna av automatisering diskuteras inte tillräckligt.
 
-Datorer, internet, streaming och VR kommer att förändra utbildningen. Vi skulle kunna ha en allmän kurs för alla franska studenter som sköts av regeringen och lärare som inte längre håller föreläsningar utan direkt följer med studenterna. Barn skulle kunna gå in i en virtuell värld och få hjälp med att lära sig historia.
+Datorer, internet, streaming och VR kommer att förändra utbildningen. Vi skulle kunna ha en allmän kurs för alla franska studenter som hanteras av regeringen och lärare som inte längre håller föreläsningar utan direkt följer studenterna. Barn skulle kunna gå in i en virtuell värld och få hjälp med att lära sig historia.
 
 
 - Var går gränsen mellan en lärare och en personifierad AI?
-- Hur kan vi garantera ett samhälle som lever i välstånd?
+- Hur kan vi garantera ett samhälle som lever i framgång?
 
 Dessa grundläggande frågor för vår framtid måste debatteras och beslutas kollektivt.
 
@@ -1351,7 +1352,7 @@ Vad är kopplingen till Bitcoin? Precis som Internet revolutionerade kommunikati
 
 ### Hur ser framtidens finansmarknad ut?
 
-Dessa överväganden väcker också frågor om vem som ska inneha, auktorisera och spåra de pengar vi använder. Målet är att välja mellan ett slutet system med icke valda ledare eller ett öppet system utan betrodda tredje parter, där neutralitet råder.
+Dessa överväganden väcker också frågor om vem som ska bevara, auktorisera och spåra de pengar vi använder. Målet är att välja mellan ett slutet system med icke valda ledare eller ett öppet system utan betrodda tredje parter, där neutralitet råder.
 
 
 - Är valuta en form av privat egendom?
@@ -1360,9 +1361,9 @@ Dessa överväganden väcker också frågor om vem som ska inneha, auktorisera o
 - Hur kan en individ vara suverän över sina pengar och samtidigt förlita sig på en betrodd tredje part?
 - Kan pengar skickas till andra sidan jordklotet utan avgifter eller mellanhänder?
 
-Att acceptera dessa nya tekniker skulle kunna generera enorma stordriftsfördelar över hela världen. Bör vi tillåta fri rörlighet för kapitalflöden? Internationella blockader får ekonomiska och politiska konsekvenser. Är det etiskt att använda sig av finansiella mellanhänder som Western Union, som ibland tar ut upp till 25 procent i avgifter? Vi anser att pengar i en alltmer digitaliserad värld bör demokratiseras och betraktas som en gemensam nyttighet som tillhör folket snarare än staten eller ogenomskinliga finansinstitut.
+Att acceptera dessa nya tekniker skulle kunna generera enorma stordriftsfördelar över hela världen. Bör vi tillåta fri rörlighet för kapitalflöden? Internationella blockeringar får ekonomiska och politiska konsekvenser. Är det etiskt att använda sig av finansiella mellanhänder som Western Union, som ibland tar ut upp till 25 procent i avgifter? Vi anser att pengar i en alltmer digitaliserad värld bör demokratiseras och betraktas som ett gemensamt intresse som tillhör folket snarare än staten eller oklara finansinstitut.
 
-Frågan om vem som ska kontrollera banksystemet är avgörande eftersom reglerna för bankspelet inte är transparenta och begripliga för alla, vilket gör det möjligt för en kast av politiker och tillsynsmyndigheter att behålla sitt grepp om systemet, så det är viktigt att fråga sig om den fria marknaden eller en grupp intellektuella ska ha makten över den.
+Frågan om vem som ska kontrollera banksystemet är avgörande eftersom reglerna för bankspelet inte är transparenta och begripliga för alla, vilket gör det möjligt för politiker och tillsynsmyndigheter att behålla sitt grepp om systemet, så det är viktigt att fråga sig om den fria marknaden eller en grupp intellektuella personer ska ha makten över den.
 
 ### Vår frihet står på spel.
 
@@ -1374,25 +1375,25 @@ Censuren måste också ifrågasättas: vem har kunskapen att avgöra vad som ska
 
 Vi är övertygade om att tolerans av censur kan förstöra yttrandefriheten och rätten till sammankomster, eftersom det kan ha en negativ inverkan på innovation och fri vilja. Det är tekniskt svårt att införa censur utan att skapa en fullständig dystopi. Så vilken enhet ska ha makten över censuren? Frågan är komplicerad, och det är också svårt att avgöra vem som ska begränsas eller inte.
 
-Det finns 2,4 miljarder människor i världen som saknar bankkonto, vilket med nödvändighet skapar geografiska ojämlikheter. Å andra sidan ger Bitcoin transaktioner jämlikhet, oavsett din sociala status eller politiska ställning. Protokollet är opolitiskt och ger inte specifika privilegier till ledare eller andra inflytelserika personer, vilket säkerställer att alla har samma möjligheter att driva utvecklingen framåt, snarare än att låta ett fåtal stanna kvar på toppen medan andra hamnar på efterkälken. Ska alla ha tillgång till samma valuta, oavsett social status? Det är viktigt att fundera över vilken värld vi vill lämna över till våra barn, och vi strävar efter att skapa en öppen värld där de är fria att hantera sina pengar som de vill.
+Det finns 2,4 miljarder människor i världen som saknar bankkonto, vilket med nödvändighet skapar geografiska ojämlikheter. Å andra sidan ger Bitcoin jämlikhet till transaktioner, oavsett din sociala status eller politiska ställning. Protokollet är opolitiskt och ger inte specifika privilegier till ledare eller andra inflytelserika personer, vilket säkerställer att alla har samma möjligheter att driva utvecklingen framåt, snarare än att låta ett fåtal stanna kvar på toppen medan andra hamnar på efterkälken. Ska alla ha tillgång till samma valuta, oavsett social status? Det är viktigt att fundera över vilken värld vi vill lämna över till våra barn, och vi strävar efter att skapa en öppen värld där de är fria att hantera sina pengar som de vill.
 
-Bitcoin är viktigt och bör inte bara betraktas som ett hasardspel, så det är viktigt att fortsätta ställa frågor om Bitcoin och dess konsekvenser för världen.
+Bitcoin är viktigt och bör inte bara betraktas som ett slumpspel, så det är viktigt att fortsätta ställa frågor om Bitcoin och dess konsekvenser för världen.
 
 ### Bitcoin: ett revolutionerande protokoll
 
-Som vi har sett i föregående kapitel är Bitcoinprotokollet neutralt gentemot alla sina användare. Tack vare konsensusregler och kryptografi kan vi på ett oföränderligt sätt registrera transaktioner i en global offentlig liggare, vilket garanterar överföringar av penningvärde utan någon betrodd tredje part. Infrastrukturen i det andra lagret (och snart i det tredje lagret med RGB) används för nätverksskalbarhet och utveckling av nya funktioner.
+Som vi har sett i föregående kapitel är Bitcoinprotokollet neutralt gentemot alla sina användare. Tack vare konsensusregler och kryptografi kan vi på ett oföränderligt sätt registrera transaktioner i ett globalt offentligt register, vilket garanterar överföringar av penningvärde utan någon betrodd tredje part. Infrastrukturen i det andra lagret (och snart i det tredje lagret med RGB) används för skalbarhet av nätverket och utveckling av nya funktioner.
 
-Bitcoin har alla nödvändiga egenskaper för att vara en effektiv och sund valuta: delbar, omedelbart transporterbar, ocensoriserbar, försumbara verifieringskostnader och med en penningpolitik som redan är inställd på 21 miljoner enheter i århundraden framöver. Bitcoin är pseudonymt och kan växlas var som helst i världen utan något tillstånd från någon enhet. Du behöver bara ha dina egna privata nycklar och komma ihåg talesättet "Inte dina nycklar, inte dina bitcoins".
+Bitcoin har alla nödvändiga egenskaper för att vara en effektiv och sund valuta: delbar, omedelbart transporterbar, ocensurerbar, obetydliga verifieringskostnader och med en penningpolitik som redan är inställd på 21 miljoner enheter i århundraden framöver. Bitcoin är pseudonymt och kan växlas var som helst i världen utan något tillstånd från någon enhet. Du behöver bara ha dina egna privata nycklar och komma ihåg talesättet "Inte dina nycklar, inte dina bitcoins".
 
 Den används av olika grupper av människor, från kryptografer och libertarianer till traditionella företag och till och med hela länder. Bitcoin är dock till för alla, och i takt med att antalet användare växer, växer också antalet Bitcoin-noder som fungerar som väktare av transaktionshistoriken och säkerställer dess decentralisering.
 
-Bitcoin kan inte stoppas och kan inte censureras längre. Det är en fredlig revolution som förändrar det monetära systemet och möjliggör finansiell inkludering. Användare kan få tag på bitcoins genom att acceptera dem för sin handel eller genom att köpa dem via reglerade eller oreglerade plattformar. De kan lagra medel i sina plånböcker, mobila applikationer eller fysiska enheter utan behov av betrodda mellanhänder. Bitcoin förespråkar transparens, frihet och individuellt ansvar: som ordspråket säger "Lita inte, verifiera".
+Bitcoin kan inte stoppas och kan inte censureras längre. Det är en fredlig revolution som förändrar det monetära systemet och möjliggör finansiell inkludering. Användare kan få tag på bitcoins genom att acceptera dem för sin handel eller genom att köpa dem via reglerade eller oreglerade plattformar. De kan förvara tillgångar i sina plånböcker, mobila applikationer eller fysiska enheter utan behov av betrodda mellanhänder. Bitcoin förespråkar transparens, frihet och individuellt ansvar: som ordspråket säger "Lita inte på, verifiera".
 
 Satoshi skapade Bitcoin 2008 för att föreslå en förändring av det finansiella systemet genom att byta valuta, eftersom han visste att tillgång till enkla och "magiska" pengar lätt leder till korruption. Bitcoin är därför ett alternativ för att bygga ett nytt neutralt monetärt system, eftersom det gör det möjligt att frigöra sig från banksystemet. I slutändan är det ett socialt fenomen som uppmuntrar oss att delta i en fredlig revolution.
 
 Är du redo att gå med?
 
-# Slutsats
+# Slutavsnitt
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

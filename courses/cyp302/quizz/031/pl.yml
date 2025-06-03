@@ -1,0 +1,9 @@
+question: Jak zdefiniowany jest losowy ciąg znaków w tym rozdziale?
+answer: Jako ciąg wybrany równomiernie spośród wszystkich ciągów o tej samej długości
+wrong_answers:
+  - Jako ciąg znaków utworzony tylko z bitów 0 i 1
+  - Jako ciąg znaków uzyskany w wyniku ręcznego wyboru
+  - Jako ciąg znaków o zmiennej długości będący wynikiem procesu szyfrowania
+explanation: |
+  Losowy ciąg jest zdefiniowany jako pochodzący z jednolitego wyboru spośród wszystkich możliwych ciągów o tej samej długości.
+reviewed: false

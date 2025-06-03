@@ -1,0 +1,9 @@
+question: Koja je glavna ranjivost slabih lozinki kada su heširane?
+answer: Oni su ranjivi na napade rečnikom
+wrong_answers:
+  - Ne mogu se verifikovati heširanjem
+  - Oni uvek generate sudari
+  - Oni zahtevaju duže heširanje za veću sigurnost
+explanation: |
+  Slabe lozinke se lako mogu povratiti iz njihovog Hash korišćenjem napada rečnikom, što čini njihov izbor važnim za osiguranje bezbednosti.
+reviewed: false

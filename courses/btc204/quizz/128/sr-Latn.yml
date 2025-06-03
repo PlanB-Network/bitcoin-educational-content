@@ -1,0 +1,9 @@
+question: Koja je korisnost Smart contract u tajnom vlasništvu Exchange?
+answer: Da se istovremeno i sistematski otkrije informacija koja omogućava obe strane da povrate sredstva one druge.
+wrong_answers:
+  - Osigurajte poverljivost šifrovanjem informacija o nekretnini tako da ih samo legitimni primalac može dešifrovati.
+  - Automatizujte proces prenosa kako biste minimizirali ljudske interakcije i smanjili greške.
+  - Olakšajte rešavanje sporova držanjem bitkoina obe strane u slučaju pokušaja varanja.
+explanation: |
+  Da bi se omogućile razmene između strana koje ne veruju jedna drugoj, koriste se Smart contract sistemi. Smart contract je program koji se automatski izvršava kada su ispunjeni unapred definisani uslovi, što, u našem slučaju, osigurava da se svojstvo Exchange sprovede automatski bez potrebe za međusobnim poverenjem. Smart contract omogućava simultano otkrivanje dve osetljive informacije između učesnika. Ili se izvršava normalno, i svaka strana preuzima sredstva druge strane, ili ne uspeva, i svi zadržavaju svoja originalna sredstva.
+reviewed: false

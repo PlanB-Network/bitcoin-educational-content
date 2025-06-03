@@ -1,0 +1,9 @@
+question: Šta je rikošet u kontekstu Bitcoin?
+answer: Tehnika koja uključuje obavljanje više transakcija samom sebi
+wrong_answers:
+  - Kolaborativna transakcija koja uključuje više učesnika
+  - Metoda mešanja bitkoina za povećanje potencijalne anonimnosti
+  - Vrsta CoinJoin specifična za određene Exchange platforme
+explanation: |
+  Rikošet je tehnika koja uključuje pravljenje nekoliko fiktivnih transakcija sebi (čišćenje).
+reviewed: false

@@ -1,11 +1,9 @@
-question: Quelle est la fonction principale d'un gestionnaire de mots de passe ?
-answer: Stocker et gérer vos mots de passe
+question: Pourquoi la sécurité en ligne est-elle primordiale pour les utilisateurs de Bitcoin ?
+answer: Parce que le piratage entraîne une perte irrémédiable des bitcoins
 wrong_answers:
-  - Générer des mots de passe aléatoires
-  - Mémoriser vos noms d'utilisateur
-  - Protéger votre ordinateur contre les virus
+  - Parce que les banques assurent les fonds en cas de perte totale des bitcoins
+  - Parce qu'on peut aller en prison pour avoir perdu des bitcoins
+  - Parce que les attaques entrainent des contraintes admnistratives très lourdes
 explanation: |
-  Un gestionnaire de mots de passe est un logiciel qui stocke et gère vos mots de passe.
-  Il vous aide à ne jamais utiliser le même mot de passe deux fois, à choisir des mots de passe complexes et sécurisés,
-  et facilite la gestion de votre sécurité en ligne.
+  Sans intermédiaire, un piratage signifie une perte définitive des bitcoins.
 reviewed: false

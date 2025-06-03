@@ -1,5 +1,5 @@
 ---
-name: Pasaporte - Fundación
+name: Passport Core
 description: Configuración y uso del monedero electrónico Passport en modo manual
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Configuración y uso del monedero electrónico Passport en modo man
 El Passport es un monedero de hardware solo para Bitcoin, diseñado por Foundation Devices, una empresa estadounidense fundada en abril de 2020 en Boston.
 
 El Passport "*Batch 2*" que presentamos en este tutorial es el sucesor de la edición "*Founder's Edition*". Se distingue por su diseño premium, una pantalla a color de alta definición y un teclado físico ergonómico. Funciona en modo "*Air-Gap*", lo que garantiza que las claves privadas de su monedero permanezcan completamente aisladas, con intercambios posibles a través de una tarjeta MicroSD o códigos QR. El dispositivo está equipado con una batería recargable extraíble Nokia BL-5C de 1200 mAh. Esta batería no propietaria se puede reemplazar fácilmente, ya que el modelo BL-5C es de fácil acceso en el mercado.
+
+💡 **Actualización:** Desde marzo de 2025, este monedero físico ya no se llama "Passport" ni "Passport V2", sino "Passport Core".
 
 En cuanto a la conectividad, el Passport está equipado con un puerto MicroSD, un puerto USB-C para la carga y una cámara trasera para escanear códigos QR.
 
@@ -483,3 +485,4 @@ Enhorabuena, ya sabes cómo configurar y utilizar Passport. Si este tutorial te 
 Para más información, consulte nuestro tutorial sobre el software Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

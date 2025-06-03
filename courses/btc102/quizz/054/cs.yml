@@ -1,10 +1,9 @@
-question: Kdo představil myšlenku Bitcoinové dálnice?
-answer: Andreas Antonopoulos
+question: Jaký je hlavní cíl aktivního uživatele?
+answer: Použití Bitcoin jako denní platební metody
 wrong_answers:
-  - Satoshi Nakamoto
-  - Elon Musk
-  - Vitalik Buterin
+  - Dlouhodobé investice do Bitcoin
+  - Postupně hromadit satoši
+  - Spekulovat o trhu
 explanation: |
-  Andreas Antonopoulos, známý propagátor a vzdělavatel v oblasti Bitcoinu, představil
-  myšlenku Bitcoinové dálnice.
+  Aktivní uživatel začleňuje Bitcoin do svého každodenního života, aby mohl provádět transakce a podporovat jeho přijetí.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Jaki jest jeden z powodów, dla których warto od czasu do czasu konsolidować swoje UTXO w portfelach?
+answer: Aby uniknąć niepotrzebnych opłat podczas transakcji.
+wrong_answers:
+  - Aby zwiększyć wartość swoich bitcoinów.
+  - Aby zapobiec kradzieży bitcoinów.
+  - Aby zapewnić stałą dostępność bitcoinów.
+explanation: >-
+reviewed: true

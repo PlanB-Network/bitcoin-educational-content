@@ -1,12 +1,9 @@
-question: What is the main characteristic of Bitcoin that sets it apart from other cryptocurrencies?
-answer: Bitcoin is the only truly decentralized, censorship-resistant, free, and serious cryptocurrency
+question: What solution is recommended for making low-cost Bitcoin payments?
+answer: Lightning Network
 wrong_answers:
-  - Bitcoin is the only cryptocurrency that can be mined
-  - Bitcoin is the only cryptocurrency that can be bought or sold on exchange platforms
-  - Bitcoin is the only cryptocurrency that can be stored in a wallet
+  - Hardware wallet
+  - Bank account
+  - RGB layer
 explanation: |
-  The chapter content states that Bitcoin is the only truly decentralized,
-  censorship-resistant, free, and serious cryptocurrency that justifies thousands
-  of hours of work. This is a key characteristic that sets Bitcoin apart from other
-  cryptocurrencies.
+  Lightning enables fast and low-cost transactions for daily purchases. It is the ideal tool for the active user.
 reviewed: false

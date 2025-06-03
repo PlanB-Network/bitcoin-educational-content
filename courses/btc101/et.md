@@ -521,7 +521,7 @@ Kuigi teie võtmeid hoitakse teie rahakotis, on bitcoinid ise tegelikult "salves
 
 ### Kuidas on lood häkkeritega?
 
-Mis siis, kui keegi arvab kogemata ära meie 12 või 24 sõna nimekirja? Lühike vastus on, et tänu rahakoti loomiseks kasutatud krüptograafiale on see väga ebatõenäoline. Kui panna see perspektiivi, siis on sama mnemoonilise fraasi juhuslik avastamine võrreldav "õige" arvu leidmisega 1 ja $2^256$ vahel, mis on peaaegu samaväärne "õige" aatomi leidmisega Universumis. Kui te siiski ei ole selle vaikimisi turvalisusega rahul, saate seda alati suurendada, lisades oma Bitcoini rahakotile paroolfraasi (täiendava sõna).
+Mis siis, kui keegi arvab kogemata ära meie 12 või 24 sõna nimekirja? Lühike vastus on, et tänu rahakoti loomiseks kasutatud krüptograafiale on see väga ebatõenäoline. Kui panna see perspektiivi, siis on sama mnemoonilise fraasi juhuslik avastamine võrreldav "õige" arvu leidmisega 1 ja 2 astmes 256 vahel, mis on peaaegu samaväärne "õige" aatomi leidmisega Universumis. Kui te siiski ei ole selle vaikimisi turvalisusega rahul, saate seda alati suurendada, lisades oma Bitcoini rahakotile paroolfraasi (täiendava sõna).
 
 ![image](assets/en/29.webp)
 
@@ -1137,7 +1137,7 @@ Järkjärguline strateegia hõlmab korduvaid oste, mis tähendab, et regulaarsel
 
 **Vältige UTXOsid**: Ärge unustage aeg-ajalt oma UTXO-d oma rahakotis konsolideerida. See tava on oluline oma bitcoinide tõhusaks haldamiseks ja tarbetute tasude vältimiseks tehingute ajal.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) on tehingu väljund, mida ei ole veel kulutatud, mis tähendab, et seda ei ole kasutatud uue tehingu sisendina. UTXOde konsolideerimine tähendab mitme väikese UTXO ühendamist üheks suuremaks, et vähendada tehingu "kaalu" ja seega maksta madalamaid tasusid.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) on tehingu väljund, mida ei ole veel kulutatud, mis tähendab, et seda ei ole kasutatud uue tehingu sisendina. UTXOde konsolideerimine tähendab mitme väikese UTXO ühendamist üheks suuremaks, et vähendada tehingu "kaalu" ja seega maksta madalamaid tasusid.
 
 - Spontaanne ostmine
 

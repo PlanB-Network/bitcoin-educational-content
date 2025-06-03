@@ -194,7 +194,7 @@ Spekulasi mengelilingi penggunaan ruang blok di masa depan, tetapi umumnya diter
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Siapa yang Memegang Kekuatan? Bitcoin, Energi, dan Produsen](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Peran penambang dalam jaringan Bitcoin telah menjadi subjek perdebatan intens selama perang ukuran blok. Meskipun esensial untuk keamanan dan fungsionalitas jaringan, penambang tidak selalu memegang kekuatan utama dalam ekosistem Bitcoin. Keseimbangan antara penambang, node, dan pengguna akhir memastikan integritas dan distribusi jaringan.
 
 ### Perang Ukuran Blok
@@ -234,7 +234,7 @@ Untuk merangkum, penambang memperkuat jaringan Bitcoin terhadap sensor dengan me
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Bagaimana mendapatkan bitcoin yang bersih dan tidak tersentuh?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, Harga, dan Profitabilitas
 
@@ -299,7 +299,7 @@ Kesimpulannya, meskipun ada risiko regulasi dan kemungkinan larangan penambangan
 
 ### Di Balik Layar Penambangan Industri - Sebastien Gouspillou
 
-![Di Balik Layar Pertambangan Industri - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Penambangan di Rumah dan Pemanfaatan Ulang Panas
 

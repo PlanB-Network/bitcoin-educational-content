@@ -1,0 +1,10 @@
+question: Ni ufunguo gani wa kriptografia wa Exchange ulio moyoni mwa utendakazi wa BIP47?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+explanation: |
+  Algorithm inayotumika ni ECDH (Elliptic Curve Diffie-Hellman). Ni lahaja ya algoriti ya kawaida ya Diffie-Hellman inayotumia mikondo ya duaradufu.
+  
+reviewed: false

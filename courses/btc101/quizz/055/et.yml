@@ -1,10 +1,9 @@
-question: Mis oli Saksamaa inflatsioonimäär oktoobris 1923?
-answer: 29,50%.
+question: Kui kõrge oli ligikaudne inflatsioonimäär Saksamaal 1923. aasta oktoobris hüperinflatsiooni haripunktis?
+answer: 29 500 %
 wrong_answers:
-  - 200.9%.
-  - 50.51%.
-  - 25.98%.
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  Kuu, mil Saksamaal oli kõrgeim inflatsioonimäär, oli oktoober 1923, tippudes
-  29,50% peal.
-reviewed: true
+  Kõrgeima inflatsioonimääraga kuu Saksamaal oli 1923. aasta oktoober, mil inflatsioon saavutas 29 500 % tipu.
+reviewed: false

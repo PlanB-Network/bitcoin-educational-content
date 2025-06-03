@@ -519,7 +519,7 @@ Siden 2017 kan den private nøkkelen heldigvis representeres av en enkel liste m
 
 ### Hva med hackere?
 
-Hva om noen ved et uhell gjetter listen vår med 12 eller 24 ord? Det korte svaret er at det er svært usannsynlig, takket være kryptografien som brukes til å lage lommeboken. For å sette det i perspektiv, er det å oppdage den samme mnemoniske frasen ved et uhell det samme som å finne det "riktige" tallet mellom 1 og $2^256$, noe som nesten tilsvarer å finne det "riktige" atomet i universet. Hvis du ikke er fornøyd med denne standardsikkerheten, kan du imidlertid alltid forbedre den ved å legge til en passordfrase (et ekstra ord) i Bitcoin-lommeboken din.
+Hva om noen ved et uhell gjetter listen vår med 12 eller 24 ord? Det korte svaret er at det er svært usannsynlig, takket være kryptografien som brukes til å lage lommeboken. For å sette det i perspektiv, er det å oppdage den samme mnemoniske frasen ved et uhell det samme som å finne det "riktige" tallet mellom 1 og 2 opphøyd i 256, noe som nesten tilsvarer å finne det "riktige" atomet i universet. Hvis du ikke er fornøyd med denne standardsikkerheten, kan du imidlertid alltid forbedre den ved å legge til en passordfrase (et ekstra ord) i Bitcoin-lommeboken din.
 
 ![image](assets/en/29.webp)
 
@@ -1135,7 +1135,7 @@ En gradvis strategi innebærer gjentatte kjøp, det vil si å kjøpe små mengde
 
 **Pass deg for UTXO-er**: Husk å konsolidere UTXO-er i lommebøkene dine fra tid til annen. Denne praksisen er viktig for å administrere bitcoinsene dine effektivt og unngå unødvendige gebyrer under transaksjoner.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) er en utgang fra en transaksjon som ennå ikke er brukt, noe som betyr at den ikke har blitt brukt som en inngang for en ny transaksjon. Å konsolidere UTXOer betyr å kombinere flere små UTXOer til én større, for å redusere "vekten" av transaksjonen og dermed betale lavere gebyrer.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) er en utgang fra en transaksjon som ennå ikke er brukt, noe som betyr at den ikke har blitt brukt som en inngang for en ny transaksjon. Å konsolidere UTXOer betyr å kombinere flere små UTXOer til én større, for å redusere "vekten" av transaksjonen og dermed betale lavere gebyrer.
 
 - Spontankjøp
 

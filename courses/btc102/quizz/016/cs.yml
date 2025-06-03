@@ -1,12 +1,9 @@
-question: Jaké je jedno z opatření pro udržení vašeho počítače v optimálním pracovním stavu?
-answer: Pravidelně zálohujte svá data
+question: Na kolik desetinných míst lze dělit číslo Bitcoin?
+answer: Osm
 wrong_answers:
-  - Sdílejte svá hesla
-  - Používejte pro všechny účty stejné heslo
-  - Zanedbávejte aktualizaci vašeho počítače
+  - Šest
+  - Dvanáct
+  - Sedm
 explanation: |
-  Pravidelná záloha dat je jedním z opatření pro udržení vašeho počítače
-
-  v optimálním pracovním stavu. Je to také základní opatření pro zlepšení
-
-  návyků v oblasti online bezpečnosti.
+  Jednotku Bitcoin lze dělit až na osmé desetinné místo, přičemž jedna jednotka se nazývá Satoshi nebo sat.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je uloga transakcije obaveštenja u BIP47?
+answer: Da prenesete kod za plaćanje primaocu i signalizirate da su uplate na putu.
+wrong_answers:
+  - Potvrdite Bitcoin primanje Address za buduće transakcije putem kodova plaćanja.
+  - Potvrdite prijem bitkoina od strane primaoca sa BIP47.
+  - Pošaljite efemerne privatne ključeve pošiljaoca primaocu kako bi mogli potrošiti bitkoine.
+explanation: |
+  Transakcija obaveštenja omogućava prenos koda plaćanja od pošiljaoca do primaoca, tako da potonji može da ga zna i kasnije pronađe samo sa svog seed u slučaju oporavka Wallet. Kao što ime sugeriše, ona takođe igra ulogu obaveštenja.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Koja je funkcija prilagođavanja težine u Bitcoin mreži?
+answer: Osigurava da se blok dodaje u Blockchain otprilike svakih deset minuta.
+wrong_answers:
+  - Određuje cenu Bitcoin.
+  - Reguliše broj bitkoina koji se mogu iskopati u Blockchain.
+  - Određuje veličinu bloka.
+explanation: >-
+reviewed: true

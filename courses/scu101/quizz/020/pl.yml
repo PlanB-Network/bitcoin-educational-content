@@ -1,0 +1,11 @@
+question: Czym jest wbudowany program antywirusowy w systemie Windows?
+answer: Windows Defender
+wrong_answers:
+  - Kaspersky
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender to wbudowany w system Windows program antywirusowy. Jest to
+  jest bezpiecznym i skutecznym rozwiązaniem do ochrony systemu
+  przed zagrożeniami.
+reviewed: true

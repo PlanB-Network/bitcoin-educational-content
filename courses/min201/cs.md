@@ -191,7 +191,7 @@ Spekulace obklopují budoucí využití prostoru v blocích, ale obecně je při
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Kdo má moc? Bitcoin, energie a výrobci](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Role těžařů v síti Bitcoin byla předmětem intenzivní debaty během tzv. "válek o velikost bloku". Ačkoliv jsou pro bezpečnost a funkčnost sítě nezbytní, těžaři nutně nevlastní konečnou moc v ekosystému Bitcoinu. Rovnováha mezi těžaři, uzly a koncovými uživateli zajišťuje integritu a distribuci sítě.
 
 ### Války o velikost bloku
@@ -232,7 +232,7 @@ Shrnutí, těžaři posilují síť Bitcoin proti cenzuře používáním elektr
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Jak získat čistý a nedotčený bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, cena a ziskovost
 
@@ -296,7 +296,7 @@ Závěrem, navzdory regulačnímu riziku a možnosti zákazu těžby v Evropě, 
 
 ### Za scénou průmyslové těžby - Sebastien Gouspillou
 
-![Za kulisami průmyslového těžení - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Domácí těžba a opětovné využití tepla
 

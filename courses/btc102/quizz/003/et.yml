@@ -1,11 +1,9 @@
-question: Mis on krüptoinfluencerite või -gurude levinud taktika?
-answer: Ebakindlate krüptovaluutade reklaamimine.
+question: Millest koosneb Pump and Dump krüptovaluutaruumis?
+answer: Varade manipuleerimine kampaania kaudu, et müüa tipptasemel
 wrong_answers:
-  - Füüsiliste varade reklaamimine.
-  - Fiat-valuutade reklaamimine.
-  - Tarkvaratoodete reklaamimine.
+  - Varade massiline ostmine, et toetada nende hinda, ilma et nad kunagi müüksid
+  - Turu stabiliseerimine pikemas perspektiivis vastandlike tehingute kaudu
+  - Korduvate ostude tegemine, et saada pikaajaline riskipositsioon varaga seoses
 explanation: |
-  Krüptoinfluencerid või -gurud võivad tihti omada isiklikke eesmärke ja võivad olla seotud
-  arvukate projektidega, mida nad soovivad reklaamida, isegi kui need ei pruugi alati olla
-  investorite huvides. Need influencerid võivad üritada reklaamida ebakindlaid krüptovaluutasid ehk shitcoine.
+  See pettuse meetod hõlmab hinna kunstlikku ülespuhumist, et müüa kriitilisel hetkel ja põhjustada väärtuse krahhi.
 reviewed: false

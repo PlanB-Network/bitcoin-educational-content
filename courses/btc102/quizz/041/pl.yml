@@ -1,0 +1,9 @@
+question: Jaki jest przybliżony maksymalny Supply bitcoinów w obiegu?
+answer: 21 milionów
+wrong_answers:
+  - 10 milionów
+  - 47 milionów
+  - 150 milionów
+explanation: |
+  Bitcoin jest zaprogramowany tak, aby mieć ograniczony Supply wynoszący około 21 milionów bitcoinów.
+reviewed: false

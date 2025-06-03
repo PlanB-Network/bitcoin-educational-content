@@ -1,0 +1,9 @@
+question: W którym roku powstał blok Genesis w Bitcoin?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Blok Genesis, pierwszy blok Blockchain, został wydobyty w styczniu 2009 roku.
+reviewed: false

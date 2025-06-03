@@ -1,91 +1,26 @@
-id: fc1b553f-5298-4e75-9f34-8af19025f1b1
+id: 6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-level: advanced
+project_id: 8df1bcbb-0521-4288-b98e-58ec245d5742
+
+level: intermediate
 
 category: mobile
 
-project_id: 8df1bcbb-0521-4288-b98e-58ec245d5742
-original_language: en
-proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.14
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.88
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 0.44
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.88
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.14
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.88
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.88
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.66
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.88
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.14
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.66
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.4
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.4
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.14
+professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
 
-
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.14
 tags:
-  - guides
   - wallets
-  - user-friendly
+  - guides
+  - onchain
+
+#credit_link:
+
+# Proofreading metadata
+original_language: it
+proofreading:
+  - language: it
+    last_contribution_date: 2025-04-16
+    urgency:
+    contributor_names:
+      - f205sats
+    reward:

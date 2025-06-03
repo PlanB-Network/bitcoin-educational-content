@@ -192,7 +192,7 @@ La speculazione circonda l'uso futuro dello spazio dei blocchi, ma è generalmen
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Chi ha il potere? Bitcoin, energia e produttori](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 Il ruolo dei minatori nella rete Bitcoin è stato un argomento di intenso dibattito durante la guerra dei blocchi. Sebbene siano essenziali per la sicurezza e la funzionalità della rete, i minatori non detengono necessariamente il potere ultimo nell'ecosistema Bitcoin. L'equilibrio tra i minatori, i nodi e gli utenti finali garantisce l'integrità e la distribuzione della rete.
 
@@ -234,7 +234,7 @@ Per riassumere, i minatori rafforzano la rete Bitcoin contro la censura utilizza
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Come ottenere un bitcoin bianco e immacolato?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, prezzo e redditività
 
@@ -302,7 +302,7 @@ In conclusione, nonostante il rischio normativo e la possibilità di un divieto 
 
 ### Dietro le quinte del mining industriale - Sebastien Gouspillou
 
-![Dietro le quinte del mining industriale - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Home-mining e riutilizzo del calore
 

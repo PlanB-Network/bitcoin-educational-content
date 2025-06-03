@@ -1,0 +1,9 @@
+question: Koja od ovih opcija je netačna u vezi sa gubitkom uređaja na kojem imate svoj Bitcoin Wallet?
+answer: Možete ponovo kreirati svoj Wallet i potrošiti svoj Bitcoin resetovanjem lozinke.
+wrong_answers:
+  - Izgubićete sve svoje Bitcoine ako nemate Mnemonic frazu.
+  - Možete proveriti sa svojim javnim ključevima da vaši bitkoini nisu potrošeni.
+  - Možete ponovo kreirati svoj Wallet i potrošiti svoj Bitcoin koristeći Mnemonic frazu.
+explanation: |
+  Gubljenje uređaja na kojem imate svoj Wallet ne znači nužno gubitak vaših Bitcoina. Ono što vam omogućava da ponovo kreirate svoj Wallet i potrošite svoj Bitcoin je Mnemonic fraza.
+reviewed: true

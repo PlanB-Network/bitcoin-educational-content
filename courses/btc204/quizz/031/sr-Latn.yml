@@ -1,0 +1,9 @@
+question: Ako se u jednostavnoj transakciji plaćanja isti Address koristi u ulazu i na jednom od 2 izlaza, koji izlaz verovatno predstavlja kusur?
+answer: Onaj sa istim Address kao ulaz.
+wrong_answers:
+  - Onaj sa najnovijim Address.
+  - Onaj sa drugačijim Address od ulaza.
+  - Onaj sa nepoznatim Address.
+explanation: |
+  Ako se Address ponovo koristi unutar iste transakcije, razumno je pretpostaviti da korisnik i dalje poseduje povezani UTXO. Stoga, izlaz sa istim Address kao ulaz verovatno predstavlja kusur.
+reviewed: false

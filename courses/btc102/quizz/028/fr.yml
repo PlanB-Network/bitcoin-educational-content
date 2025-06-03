@@ -1,9 +1,9 @@
-question: Qu'est-ce que cela signifie que Bitcoin est open source ?
-answer: Tout le monde peut examiner le fonctionnement de Bitcoin, il est transparent et donc vérifiable.
+question: Quelles plateformes sont recommandées pour éviter le KYC lors de l'achat de bitcoins ?
+answer: Plateformes d'échange en pair-à-pair
 wrong_answers:
-  - Tout le monde peut créer sa propre version de Bitcoin
-  - Bitcoin est gratuit à utiliser
-  - Le code de Bitcoin est publiquement disponible pour être modifié
+  - Plateformes d'échange généralistes
+  - Plateformes d'échange Bitcoin-only
+  - Plateformes d'échange orientées trading
 explanation: |
-  Être open source signifie que le code de Bitcoin est publiquement disponible pour que tout le monde puisse le revoir. Cela le rend transparent et vérifiable, garantissant que le protocole est égal pour tous.
+  Les plateformes P2P permettent d'acheter des bitcoins directement entre utilisateurs sans recourir au KYC.
 reviewed: false

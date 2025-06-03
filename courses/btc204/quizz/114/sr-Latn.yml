@@ -1,0 +1,9 @@
+question: Zašto analitičar neće primeniti CoinJoin na transakciju tipa Stonewall?
+answer: Zato što postoje 2 izlaza istih iznosa
+wrong_answers:
+  - Zato što postoje samo 2 ulaza
+  - Zato što nisu upoznati sa ovim obrascem
+  - Zato što ima više izlaza nego ulaza
+explanation: |
+  Analiziranje Stonewall transakcije spolja ne dovodi do primene CoinJoin, jer prisustvo dva izlaza iste vrednosti sugeriše CoinJoin obrazac. Iz spoljašnje perspektive, CoinJoin stoga nije primenljiv u ovom konkretnom slučaju.
+reviewed: false

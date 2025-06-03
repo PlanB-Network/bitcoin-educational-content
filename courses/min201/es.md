@@ -194,7 +194,7 @@ La especulación rodea el uso futuro del espacio de bloques, pero generalmente s
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![¿Quién tiene el poder? Bitcoin, energía y fabricantes](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 El papel de los mineros en la red Bitcoin ha sido un tema de debate intenso durante la guerra de los bloques. Aunque son esenciales para la seguridad y la funcionalidad de la red, los mineros no necesariamente poseen el poder último en el ecosistema Bitcoin. El equilibrio entre los mineros, los nodos y los usuarios finales garantiza la integridad y la distribución de la red.
 
@@ -236,7 +236,7 @@ En resumen, los mineros fortalecen la red de Bitcoin contra la censura al utiliz
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![¿Cómo obtener un bitcoin blanco y puro?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, precio y rentabilidad
 
@@ -310,7 +310,7 @@ En conclusión, a pesar de los riesgos regulatorios y la posibilidad de una proh
 
 ### Los entresijos de la minería industrial - Sebastien Gouspillou
 
-![Los entresijos de la minería industrial - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Minería en casa y reutilización del calor
 

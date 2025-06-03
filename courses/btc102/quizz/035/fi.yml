@@ -1,9 +1,9 @@
-question: Kuka kuvasi Bitcoinia sveitsiläisenä pankkina taskussasi?
-answer: Barack Obama
+question: Mitä säilytysratkaisua suositellaan hodlerille?
+answer: A Hardware Wallet
 wrong_answers:
-  - Donald Trump
-  - Bill Gates
-  - Elon Musk
+  - A Hot Wallet
+  - Huoltopalvelu
+  - Paperi Wallet
 explanation: |
-  Luvussa mainitaan, että Barack Obama on kuvannut Bitcoinia sveitsiläisenä pankkina taskussasi.
+  Hodlerin, joka pitää bitcoineja hallussaan pitkällä aikavälillä, tulisi käyttää Hardware Wallet:ää turvallisuuden maksimoimiseksi.
 reviewed: false

@@ -1,0 +1,10 @@
+question: 標籤上應標示哪些資訊？
+answer: UTXO 的起源。
+wrong_answers:
+  - UTXO 的建立日期。
+  - UTXO 的大小。
+  - 與建立 UTXO 相關的費用金額。
+explanation: |
+  標籤是一種良好的做法，有助於記住 UTXO 的來源。
+  
+reviewed: false

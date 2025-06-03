@@ -1,9 +1,9 @@
-question: Que signifie-t-il si vous ne possédez pas la clé privée de votre portefeuille Bitcoin ?
-answer: Un tiers est responsable de la sécurité de vos bitcoins
+question: Quelle solution de stockage à froid est recommandée pour le paranoïaque ?
+answer: Hardware wallet air-gapped ou DIY
 wrong_answers:
-  - Vous avez perdu tous vos bitcoins
-  - Vous ne pouvez plus effectuer de transactions avec vos bitcoins
-  - Vos bitcoins sont automatiquement convertis en une autre cryptomonnaie
+  - Hot wallet sur mobile
+  - Service custodial sur une plateforme d'échange
+  - Hardware wallet closed-source généraliste
 explanation: |
-  Si vous ne possédez pas la clé privée de votre portefeuille Bitcoin, cela signifie qu'un tiers est responsable de la sécurité de vos bitcoins. Ils sont soumis aux mêmes risques que les plateformes d'échange, tels que le piratage, la saisie, la réglementation ou la faillite.
+  Le paranoïaque privilégie un stockage hors ligne avec des solutions open-source pour limiter les risques d'exposition.
 reviewed: false

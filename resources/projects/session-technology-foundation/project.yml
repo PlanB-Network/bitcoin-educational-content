@@ -1,0 +1,26 @@
+id: ed6fd6e2-0b96-4ee7-9d19-19ff37f4aceb
+name: Session Technology Foundation
+
+links:
+  website: https://session.foundation/
+  twitter: https://x.com/SessionTechFND
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - privacy
+  - software
+  - personal-security
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-02
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

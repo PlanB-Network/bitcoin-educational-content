@@ -1,0 +1,12 @@
+question: Zašto je važno postepeno zameniti stare lozinke onima koje generiše menadžer lozinki?
+answer: Lozinke generisane od strane menadžera lozinki su jače i duže, nudeći veću sigurnost.
+wrong_answers:
+  - Stare lozinke automatski briše menadžer lozinki.
+  - Menadžeri lozinki mogu da čuvaju samo ograničen broj lozinki.
+  - Menadžeri lozinki zahtevaju da sve lozinke budu generisane od strane njih.
+explanation: |
+  Lozinke generisane od strane menadžera lozinki su jače i
+  duže, nudeći veću sigurnost. Postepenom zamenom vaših
+  starih lozinki ovima, možete poboljšati sigurnost vaših
+  online naloga.
+reviewed: true

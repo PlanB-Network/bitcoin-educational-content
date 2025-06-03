@@ -1,178 +1,252 @@
 ---
-name: Satoshi:n Wallet (WoS)
-description: Yksinkertaisin Wallet (huoltajuus), josta aloittaa
+name: Wallet ja Satoshi
+description: Yksinkertaisin huoltajien Wallet, jolla pääsee alkuun
 ---
 ![cover](assets/cover.webp)
 
 _Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Lataa, määritä ja käytä Satoshi:n Wallet:tä
 
-Wallet Satoshi on Wallet Lightning Network, huoltajuus, erittäin helppokäyttöinen.
+## Satoshi:n Wallet:n lataaminen, käyttöönotto ja käyttö
 
-Kurssilla [BTC105 - Finding Yourself Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) sitä käytetään Redeem Lightning Network-seteliin.
 
-**muistakaa aina**: ei avaimia, ei kolikoita
+Satoshi:n Wallet on Lightning Network Wallet, huoltajuus, ja se on hyvin helppokäyttöinen.
 
-Wallet säilytyspalvelut, eivät anna käyttäjille mahdollisuutta luovuttaa varojaan kokonaan. Niitä ei yleensä suositella, paitsi niille, jotka aloittavat tyhjästä. WoS:ää tulisi käyttää Wallet:n yhdyskäytävänä tai taskurahojen säilyttämiseen, ei varojen keräämiseen pitkällä aikavälillä.
+Kurssilla [BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) sitä käytetään Redeem Lightning Network-seteliin.
+
+
+**Aina muista**: ei avaimia, ei kolikoita
+
+
+Säilytettävät lompakot eivät anna käyttäjille täyttä määräysvaltaa varoihinsa. Niitä ei yleensä suositella, paitsi aloittelijoille. WoS:ää tulisi käyttää siirtymäkauden Wallet:nä tai taskurahojen säilyttämiseen, ei pitkäaikaiseen rahastojen kartuttamiseen.
+
 
 ---
-Satoshi:n Wallet (WoS) on säilytyspalvelu, mutta sillä on tietty maine. Voimme kohtuullisesti turvautua esimerkiksi WoS:n kaltaiseen välineeseen lisätaksemme kykyämme saada likviditeettiä. Delegoimme WoS:lle väliaikaisesti "likaisen työn", eli kanavien likviditeetin hallinnan puolestamme. Kun saavutamme tietyn määrän, tyhjennämme WoSin On-Chain:n Wallet:n ei-vartioimallamme Wallet:llä.
 
-**ATTENZIONE⚠️: On suositeltavaa, että luet ohjeen kokonaisuudessaan ennen kuin jatkat****
+Satoshi:n Wallet (WoS) on säilytyspalvelu, mutta sillä on tietty maine. Voimme kohtuullisesti turvautua esimerkiksi WoS:n kaltaiseen välineeseen lisätaksemme kykyämme saada likviditeettiä. Delegoimme WoS:lle tilapäisesti "likaisen työn" eli kanavien likviditeetin hallinnan puolestamme. Kun tietty määrä on saavutettu, tyhjennämme WoS:n On-Chain:n ei-vartioitavaan Wallet:ään.
 
-## Satoshi:n Wallet:n lataaminen
 
-Mennään Playstore ja lataa WoS
+**WARNING⚠️: On suositeltavaa lukea opetusohjelma kokonaisuudessaan ennen kuin jatkat****
+
+
+### Satoshi:n Wallet:n lataaminen
+
+
+Mene Play Storeen ja lataa WoS
+
 
 ![image](assets/it/01.webp)
 
-**Huomaa:** WoS ladataan vain virallisista kaupoista. Jos laitteen käyttöjärjestelmä on ohjelmoitu, ennen WoSin avaamista suoritetaan käyttöjärjestelmän itsensä suorittama varmennusosa. Kun varmennusvaihe on ohi, valitse _Open_.
+
+**Huomaa:** WoS ladataan vain virallisista kaupoista. Jos laitteen käyttöjärjestelmä on ohjelmoitu, ennen WoS:n avaamista käyttöjärjestelmä suorittaa tarkistuksen. Vahvistusvaiheen jälkeen valitse _Open_.
+
 
 ![image](assets/it/02.webp)
 
-Satoshi:n Wallet avautuu seuraavaan näyttöön, ja sinun on napsautettava _Start_
+
+Satoshi:n Wallet avautuu seuraavaan näyttöön, ja on napsautettava _Start_
+
 
 ![image](assets/it/03.webp)
 
-## Tilin rekisteröiminen WoS:iin
 
-Tässä vaiheessa Wallet on toiminnassa, mutta turvallisuuden lisäämiseksi asetetaan kirjautumistunnus: tätä käytetään varojen palauttamiseen, jos laite vioittuu tai katoaa. Valitse sitten vasemmassa yläkulmassa oleva valikko.
+### WoS-tilin rekisteröinti
+
+
+Tässä vaiheessa Wallet on jo toiminnassa, mutta turvallisuuden lisäämiseksi asetamme kirjautumistunnuksen: sitä tarvitaan varojen palauttamiseen, jos laitteeseen tulee toimintahäiriö tai se katoaa. Valitse siksi vasemmassa yläkulmassa oleva valikko.
+
 
 ![image](assets/it/04.webp)
 
-Koko valikkoikkuna avautuu, jossa sinun tarvitsee vain asettaa valuutta (Wallet Satoshi:n oletusarvoisesti esittää Yhdysvaltain dollaria viitevaluuttana) ja teemaväri (vaalea/tumma) makusi mukaan. Älä käytä muita säätimiä.
 
-Koska WoS on säilytysväline, emme voi varmuuskopioida Wallet:a Mnemonic-lauseella, mutta voimme kuitenkin antaa WoS:lle mahdollisuuden hakea varojamme, jos mobiililaite on kadonnut tai sitä ei ole käytetty, klikkaamalla _Login/Register_
+Koko valikkoikkuna avautuu, jossa sinun on asetettava yksinomaan valuutta (Wallet Satoshi:n oletusarvoisesti esittää Yhdysvaltain dollaria viitevaluuttana) ja teemaväri (vaalea/tumma), maun mukaan. Älä käytä muita komentoja.
 
-![image](assets/it/07.webp)
 
-Näyttöön tulee ikkuna, jossa meitä pyydetään antamaan sähköpostiosoite Address. Se voi olla **Proton-sähköposti** (suositellaan), mutta se toimii, koska sen avulla voimme palauttaa Wallet-varat, jos kännykkä on kadonnut/varastettu tai rikkoutunut
+Koska WoS on säilytysväline, emme voi varmuuskopioida Wallet:a Mnemonic-lauseella, mutta voimme antaa WoS:lle mahdollisuuden periä varojamme takaisin, jos mobiililaite katoaa tai sitä ei käytetä, klikkaamalla _Login/Register_
+
+Näyttöön tulee ikkuna, jossa meitä pyydetään syöttämään sähköpostiosoite Address. Se voi olla **Proton-sähköposti** (suositellaan), mutta sen on oltava toimiva, sillä sen avulla voimme saada Wallet:ssä olevat varat takaisin, jos matkapuhelin katoaa, varastetaan tai vahingoittuu.
+
 
 ![image](assets/it/08.webp)
 
-Satoshi:n Wallet lähetti viestin ilmoitettuun sähköpostilaatikkoon
+
+Satoshi:n Wallet on lähettänyt viestin ilmoitettuun sähköpostilaatikkoon.
+
 
 ![image](assets/it/09.webp)
 
-Saapuneissa viesteissä on kaksi sanaa, jotka meidän on syötettävä ja kirjoitettava uudelleen sovelluksen tarjoamaan tilaan
+
+Postilaatikossa on kaksi sanaa, jotka meidän on kirjoitettava uudelleen sovelluksen osoittamaan tilaan.
 
 
-- älä aktivoi kääntäjää: sanat ovat ja niiden pitäisi pysyä englanniksi**
-- kirjoita kaksi sanaa uudelleen kiinnittäen huomiota isoihin ja pieniin kirjaimiin**
+- älä aktivoi kääntäjää: sanat ovat ja niiden on pysyttävä englanniksi**
+- kirjoita nämä kaksi sanaa uudelleen kiinnittäen huomiota isoihin ja pieniin kirjaimiin**
+
 
 ![image](assets/it/10.webp)
 
-Kun olet kirjoittanut kaksi sanaa, napsauta _OK_
+
+Kun olet kirjoittanut kaksi sanaa, napsauta _OK_.
+
 
 ![image](assets/it/11.webp)
 
-Tuloksena on, että ylhäällä näkyy luku, jossa on tarkistusmerkki tarkistusta varten
+
+Tuloksena pitäisi olla kuva, joka näkyy yläreunassa ja jossa on tarkistusmerkki tarkistusta varten.
+
 
 ![image](assets/it/12.webp)
 
-kun taas asetukset-osiossa _Login/Register_-kohdan punainen kaistale näyttää nyt käyttäjän Address-sähköpostin.
+
+kun asetukset-osiossa punainen _Login/Register_-palkki näyttää nyt käyttäjän Address-sähköpostin.
+
 
 ![image](assets/it/13.webp)
 
-## Maksujen vastaanottaminen
 
-Voit vastaanottaa WoS:lla napsauttamalla _Vastaanottaa_, jolloin näyttöön tulee joukko komentoja.
+### Maksujen vastaanottaminen
+
+
+Jos haluat vastaanottaa WoS:lla, napsauta _Vastaanottaa_, jolloin näyttöön tulee joukko komentoja.
+
 
 ![image](assets/it/14.webp)
+
 
 Voit saada
 
 
 - gW-30-Address kautta **a**
-- gW-32:n kautta, asetus Invoice **b**
+- gW-32:n kautta asettamalla Invoice:n **b**
 - on chain (WoS tukee Bitcoin-verkkoa, mutta maksullisilla sukellusvenevaihdoilla) **c**
-- lNurl-p:n QR-koodin kehystäminen **d**
+- skannaamalla LNurl-p **d** QR-koodi
+
 
 ![image](assets/it/15.webp)
 
-## Invoice luominen
 
-Napsauta _Vastaanottaa_ ja valitse komento, jonka symboli on Lightning Network
+### Invoice:n luominen
+
+
+Napsauta _Vastaanottaa_ ja valitse komento, jossa on Lightning Network-symboli.
+
 
 ![image](assets/it/16.webp)
 
-Näyttöön tulee vain Invoice:n luomisvalikko, jossa klikataan _Add Amount_ (Lisää summa), jolloin voidaan kirjoittaa tarkka summa ja lisätä kuvaus, tässä esimerkissä "Ensimmäinen Invoice:ni"
+
+Näyttöön tulee Invoice:n luomisvalikko, jossa napsautetaan _Add Amount_ (Lisää summa), jolloin voidaan kirjoittaa tarkka summa ja lisätä kuvaus, tässä esimerkissä "My first Invoice" (Ensimmäinen Invoice).
+
 
 ![image](assets/it/17.webp)
 
-Näppäimistön avulla asetamme määrän
+
+Näppäimistöllä asetamme summan.
+
 
 ![image](assets/it/18.webp)
 
-ja saat sitten Invoice:n maksun. Saatu maksu näyttää tältä:
+
+ja saada sitten maksun Invoice:lle. Saatu maksu näyttää tältä:
+
 
 ![image](assets/it/19.webp)
 
-## Keräys POS-asemalta
 
-Satoshi:n Wallet:ssä on oletusarvoisesti mielenkiintoinen ominaisuus, joka tekee siitä erityisen sopivan kauppiaille: POS. Katsotaanpa, miten se aktivoidaan.
+### Keräys POS-asemalta
 
-Valitse päänäytöstä oikeassa yläkulmassa oleva valikko
+
+Satoshi:n Wallet:ssä on oletusominaisuus, joka tekee siitä erityisen sopivan kauppiaille: POS. Katsotaanpa, miten se aktivoidaan.
+
+
+Valitse päänäytöstä oikeassa yläkulmassa oleva valikko.
+
 
 ![image](assets/it/20.webp)
 
-Valitse sen jälkeen _Myyntipiste_
+
+Valitse sitten _Myyntipiste_.
+
 
 ![image](assets/it/21.webp)
 
-WoS:n viimeisimmässä versiossa on kiinnitettävä huomiota siihen, että valitset _Keypad_:n
+
+WoS:n uusimmassa versiossa varmista, että valitset _Keypad_.
+
 
 ![image](assets/it/22.webp)
 
-ja kirjoita sitten määrä näppäimistölle, seuraavassa esimerkissä 18 senttiä / 118 Sats. Lisää keräyksen kuvaus, tässä tapauksessa "toinen kassalla" Suuri Green-painike syttyy, ja sitä on napsauttaa
+ja kirjoita sitten määrä näppäimistöllä, seuraavassa esimerkissä 10 senttiä / 118 Sats. Lisää keräyksen kuvaus, tässä tapauksessa "toinen kassalla". Suuri Green-painike syttyy, ja sitä on napsautettava
 
 ![image](assets/it/23.webp)
 
-gW-43:n Invoice:ää ja näyttää sen esimerkiksi asiakkaalle.
+
+gW-43 Invoice:n ja näyttää sen esimerkiksi asiakkaalle.
+
 
 ![image](assets/it/24.webp)
 
+
 Myös tämä maksu peritään!
+
 
 ![image](assets/it/25.webp)
 
-## Maksujen lähettäminen
 
-Yksinkertaisuus on WoS:n päänäytön vahvuus. Voit maksaa Invoice:n klikkaamalla _Send_
+### Maksujen lähettäminen
+
+
+Yksinkertaisuus on WoS:n päänäytön vahvuus. Jos haluat maksaa Invoice:n, klikkaa _Send_
+
 
 ![image](assets/it/26.webp)
 
-Ensimmäisellä käyttökerralla WoS kysyy käyttöoikeuksia kameraa varten
+
+Ensimmäisellä käyttökerralla WoS pyytää lupaa käyttää kameraa
+
 
 ![image](assets/it/27.webp)
 
+
 Tästä hetkestä lähtien kamera aktivoituu
+
 
 ![image](assets/it/28.webp)
 
-Invoice:n kehyksen perusteella näemme, että 210 Sats:n maksua on pyydetty. Siinä lukee myös kuvaus, jos pyytäjä on asettanut sellaisen. Tämä ruutu on yhteenveto ja myös vahvistuspyyntö: WoS "pyytää lupaa" maksun lähettämiseen, joka myönnetään napsauttamalla Green _Send_-painiketta
+
+Invoice:n kehystäminen osoittaa, että maksua on pyydetty 210 Sats:n suuruisena. Lisäksi luetaan kuvaus, jos pyynnön esittäjä on antanut sellaisen. Tämä ruutu on yhteenveto ja myös vahvistuspyyntö: WoS "pyytää valtuutusta" maksun lähettämiseen, joka myönnetään klikkaamalla Green _Send_-painiketta
+
 
 ![image](assets/it/29.webp)
 
-Kun maksu saapuu määränpäähänsä, WoS ilmoittaa tästä näytöllä
+
+Kun maksu saapuu määränpäähänsä, WoS ilmoittaa siitä tällä näytöllä
+
 
 ![image](assets/it/30.webp)
 
-Kun klikkaat pääkuvassa _Historiaa_ (saldon alapuolella), saat näkyviin luettelon tapahtumista
+
+Klikkaamalla päänäytöltä _Historiaa_ (aivan saldon alapuolella) saat näkyviin luettelon tapahtumista
+
 
 ![image](assets/it/31.webp)
 
-### WoS-tilin palautus
 
-Nyt katsotaan, miten WoS asennetaan uuteen laitteeseen; tästä on hyötyä myös silloin, kun Wallet on varastettu, kadonnut tai kännykkä, johon Wallet oli aiemmin asennettu, ei toimi. Kun olet asentanut sen uudelleen, sinun on tehtävä juuri selitetty tilin rekisteröintimenettely uudelleen, yhdellä muunnelmalla: aiemmin asetetulla sähköpostilla tehdyn kirjautumispyynnön lopussa WoS näkyy seuraavasti:
+#### WoS-tilin palauttaminen
+
+
+Nyt katsotaan, miten WoS asennetaan uuteen laitteeseen; tämä on hyödyllistä myös silloin, kun Wallet on varastettu tai kadonnut tai kun matkapuhelinta, johon Wallet oli aiemmin asennettu, ei voida käyttää. Kun olet asentanut sen uudelleen, sinun on toistettava äsken selostettu tilin rekisteröintimenettely yhdellä muunnelmalla: aiemmin määritetyllä sähköpostilla kirjautumista koskevan pyynnön lopussa WoS tulee näkyviin seuraavasti:
+
 
 ![image](assets/it/33.webp)
 
-Viestissä ilmoitetaan, että tilin uudelleenaktivointimenettely on lähetetty sähköpostitse. Postilaatikko on avattava.
 
-**TÄRKEÄÄ**: avaa sähköposti tietokoneelta tai ainakin muulta laitteelta kuin siltä, jolla aiot hakea WoS-tilin. Saapuneista sähköposteista löytyy viesti, jossa näytetään QR-koodi, jonka voi kehystää..
+Viesti varoittaa meitä siitä, että sähköpostiviesti on lähetetty, jossa kerrotaan, miten tili aktivoidaan uudelleen. Sinun on avattava sähköpostilaatikkosi.
+
+
+**TÄRKEÄÄ**: avaa sähköposti tietokoneelta tai joka tapauksessa muulta laitteelta kuin siltä, jolla aiot palauttaa WoS-tilin. Saapuneista sähköposteista löytyy viesti, jossa näytetään QR-koodi, jota kehystetään
+
 
 ![image](assets/it/34.webp)
 
-Kun QR-koodi on kehystetty, haettu tili näkyy WoS:n pääsivulla saldon ja historian kanssa.
+
+Kun QR-koodi on kehystetty, WoS:n pääsivulla näkyy palautettu tili, saldo ja historia.

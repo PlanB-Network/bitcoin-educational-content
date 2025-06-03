@@ -1,0 +1,9 @@
+question: Koja je uloga čvorova u Bitcoin mreži?
+answer: Čvorovi održavaju integritet verifikacijom i validacijom transakcija i blokova.
+wrong_answers:
+  - Čvorovi kreiraju i validiraju blokove.
+  - Čvorovi samo verifikuju transakcije.
+  - Čvorovi nemaju ulogu u Bitcoin mreži.
+explanation: |
+  U Bitcoin mreži, čvorovi održavaju integritet mreže verifikovanjem i validacijom transakcija i blokova. Neispravan ili lažan blok će biti odbijen od strane čvorova, čime se očuva sigurnost mreže.
+reviewed: true

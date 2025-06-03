@@ -1,0 +1,9 @@
+question: Prema Lafferovoj teoriji, kada se poreske stope prekomerno povećaju, poreski prihodi mogu zapravo opasti.
+answer: Oni smanjuju
+wrong_answers:
+  - Oni povećavaju
+  - Oni ostaju stabilni
+  - Oni fluktuiraju nepredvidivo
+explanation: |
+  Prema Lafferovoj krivoj, prekomerno povećanje poreskih stopa dovodi do smanjenja poreskih prihoda jer obeshrabruje rad, investicije i proizvodnju.
+reviewed: false

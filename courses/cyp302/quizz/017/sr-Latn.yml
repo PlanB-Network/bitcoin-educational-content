@@ -1,0 +1,9 @@
+question: Koja je razlika između diskretne slučajne promenljive i kontinuirane?
+answer: Diskretna promenljiva ima konačan broj mogućih ishoda, dok kontinuirana promenljiva može imati beskonačan broj vrednosti unutar intervala.
+wrong_answers:
+  - Diskretna promenljiva stalno menja vrednost, dok kontinuirana promenljiva ostaje stabilna.
+  - Diskretna promenljiva je specifična za sprovedene fizičke eksperimente, kontinuirana promenljiva je apstraktna u svom intervalu.
+  - Diskretne varijable ne postoje u modernoj kriptografiji, koriste se samo kontinuirane varijable.
+explanation: |
+  Diskretne varijable imaju konačan skup ishoda, dok kontinuirane varijable mogu imati bilo koju vrednost unutar intervala, kao što su realni brojevi između 0 i 1.
+reviewed: false

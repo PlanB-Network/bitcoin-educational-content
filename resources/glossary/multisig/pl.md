@@ -1,0 +1,8 @@
+---
+term: Multisig
+---
+
+Portfele z wieloma podpisami, często określane skrótem "Multisig", zostały zaprojektowane w celu zwiększenia bezpieczeństwa bitcoinów poprzez wymaganie wielu podpisów z różnych kluczy prywatnych w celu autoryzacji wydatków. Metoda ta rozkłada ryzyko na kilka kluczy, co pomaga zmniejszyć zarówno ryzyko utraty, jak i kradzieży (w zależności od konfiguracji Multisig). Portfele Multisig działają w modelu "m-of-n", gdzie `m` reprezentuje minimalną liczbę podpisów wymaganych do zatwierdzenia transakcji, a `n` to całkowita liczba zaangażowanych kluczy. Na przykład, konfiguracja 2-of-3 wymaga dwóch z trzech możliwych podpisów do zatwierdzenia transakcji. Takie podejście zapewnia lepsze bezpieczeństwo w porównaniu do portfeli z jednym kluczem, ale wprowadza również większą złożoność w zakresie zarządzania i tworzenia kopii zapasowych. Co więcej, transakcje wykorzystujące starsze standardy Multisig są mniej prywatne i droższe w opłatach niż tradycyjne transakcje singlesig. Oczekuje się jednak, że ostatnie innowacje, takie jak Taproot i wykorzystanie deskryptorów, zminimalizują, jeśli nie wyeliminują, te wady multisigów.
+
+
+> niektórzy bitcoinerzy rozróżniają terminy "Multisig" i "progowy Multisig" Rzeczywiście, niektórzy twierdzą, że Multisig jest koniecznie n-of-n, podczas gdy progowy Multisig jest m-of-n. Jednak w języku potocznym akceptowane jest odnoszenie się do "Multisig" nawet w przypadku m-of-n*

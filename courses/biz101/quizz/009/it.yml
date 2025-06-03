@@ -5,5 +5,5 @@ wrong_answers:
   - Per fornire una rete autorizzata controllata da un'unica entità.
   - Rallentare le transazioni per garantire la piena tracciabilità da parte dei governi.
 explanation: |
-  La Lightning Network è un protocollo di "secondo livello" che consente ai partecipanti di creare canali di pagamento, di effettuare transazioni fuori dalla catena e di regolare solo il saldo netto finale sulla blockchain Bitcoin. Questo progetto consente di raggiungere velocità maggiori e costi inferiori.
+  Lightning Network è un protocollo di "secondo livello" che consente ai partecipanti di creare canali di pagamento, di effettuare transazioni fuori dalla catena e di regolare solo il saldo netto finale sulla blockchain Bitcoin. Questo progetto consente di raggiungere velocità maggiori e costi inferiori.
 reviewed: false

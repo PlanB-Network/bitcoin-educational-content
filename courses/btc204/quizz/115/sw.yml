@@ -1,0 +1,10 @@
+question: Ricochet ni nini katika muktadha wa Bitcoin?
+answer: Mbinu inayohusisha kufanya miamala mingi kwako mwenyewe
+wrong_answers:
+  - Muamala shirikishi unaohusisha washiriki wengi
+  - Njia ya kuchanganya bitcoins ili kuongeza kutokujulikana
+  - Aina ya CoinJoin mahususi kwa majukwaa fulani ya Exchange
+explanation: |
+  Ricochet ni mbinu ambayo inajumuisha kufanya miamala kadhaa ya uwongo kwako mwenyewe (kufagia).
+  
+reviewed: false

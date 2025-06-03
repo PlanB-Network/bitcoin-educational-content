@@ -1,0 +1,12 @@
+question: Koja je bila posledica toga što je Banka Engleske relegirala privatne banke na sekundarnu poziciju u monetarnom sistemu?
+answer: Treći Layer valute je kreiran
+wrong_answers:
+  - Banka Engleske je bankrotirala
+  - Vrednost zlata je porasla
+  - Banka Amsterdama postala je globalni ekonomski centar
+explanation: |
+  Kada je Banka Engleske relegirala privatne banke na sekundarnu poziciju
+  u monetarnom sistemu, stvorena je treća Layer valuta. Novčanice koje su izdavale
+  privatne banke više nisu bile konvertibilne u zlato, već u papirnu valutu iz
+  Banke Engleske, koja je sama po sebi bila konvertibilna u zlato.
+reviewed: false

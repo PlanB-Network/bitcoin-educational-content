@@ -1,0 +1,9 @@
+question: Koji je glavni cilj Bitcoin revolucije prema ovom kursu?
+answer: Stvaranje sveta u kojem je suverenitet čoveka pravo, privatnost se po defaultu poštuje, a novac nije manipulisan.
+wrong_answers:
+  - Stvaranje sveta u kojem privatnost nije ljudsko pravo, a novcem manipulišu banke.
+  - Stvaranje sveta u kojem vlade nemaju moć, a društvo je haotično.
+  - Stvaranje sveta u kojem je fizički novac zastareo.
+explanation: |
+  Ovaj tekst kursa sugeriše da je glavni cilj Bitcoin revolucije stvaranje sveta u kojem je ljudski suverenitet pravo, privatnost se po defaultu poštuje, a novac nije manipulisan.
+reviewed: true

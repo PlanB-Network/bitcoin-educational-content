@@ -1,0 +1,9 @@
+question: چه آسیب‌پذیری امضای ECDSA توسط SegWit اصلاح شد؟
+answer: نرمی
+wrong_answers:
+  - تأیید دسته‌ای
+  - عدم تجمیع
+  - اندازه بیش از حد امضاها
+explanation: |
+  SegWit قابلیت تغییرپذیری امضاهای ECDSA را اصلاح کرد و استفاده‌هایی مانند Lightning Network را ممکن ساخت.
+reviewed: false

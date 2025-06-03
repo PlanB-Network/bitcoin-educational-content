@@ -540,7 +540,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ### 駭客能破解助記詞嗎？
 
-如果有人不小心猜中了我們的 12 或 24 個詞彙清單怎麼辦？簡短的答案是可能性極低，這要歸功於用來創建錢包的密碼技術。換個角度來看，不小心發現您相同的助記詞組，就等於在 1 和 $2^256$ 之間找到「正確」的數字，幾乎等同於在宇宙中找到「正確」的原子。但是，如果您不滿意這種預設的安全性，您可以隨時透過在您的比特幣錢包中添加一個「額外密碼」來增強它。
+如果有人不小心猜中了我們的 12 或 24 個詞彙清單怎麼辦？簡短的答案是可能性極低，這要歸功於用來創建錢包的密碼技術。換個角度來看，不小心發現您相同的助記詞組，就等於在 1 和 2 的 256 次方 之間找到「正確」的數字，幾乎等同於在宇宙中找到「正確」的原子。但是，如果您不滿意這種預設的安全性，您可以隨時透過在您的比特幣錢包中添加一個「額外密碼」來增強它。
 
 ![image](assets/en/29.webp)
 
@@ -582,7 +582,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 例如，您可以使用 Sparrow Wallet 作為熱錢包：
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **第 2 級**，您使用實體硬體錢包，並已保護您的 12/24 個詞彙清單。它通常被稱為「冷錢包」，因為您的金鑰被儲存在未連接至網際網路的裝置上。在這種情況下，您總是需要用您的裝置簽署每筆交易，這使得您的資金在日常使用中較難存取。
 
@@ -1100,11 +1100,11 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 - 簡單的線上解決方案：OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - 業餘商家的解決方案：Swiss Bitcoin Pay 瑞士比特幣支付
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 適用於大型企業或比特幣愛好者的解決方案：BTCpay Server 伺服器
 
@@ -1403,3 +1403,4 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>。
+

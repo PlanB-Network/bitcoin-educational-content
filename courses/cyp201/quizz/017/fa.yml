@@ -1,0 +1,9 @@
+question: کدام منحنی بیضوی در پروتکل Bitcoin استفاده می‌شود؟
+answer: secp256k1
+wrong_answers:
+  - secp256r1
+  - ed25519
+  - P-384
+explanation: |
+  ‏Bitcoin از منحنی secp256k1، که با معادله y² = x³ + 7 تعریف شده است، برای عملیات رمزنگاری خود استفاده می‌کند.
+reviewed: false

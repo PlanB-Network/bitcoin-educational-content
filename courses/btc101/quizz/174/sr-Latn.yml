@@ -1,0 +1,8 @@
+question: Koji su tipični troškovi za Miner?
+answer: Potrošnja električne energije i kupovina hardvera.
+wrong_answers:
+  - Samo kupovina hardvera.
+  - Naknade za transakcije.
+  - Potrošnja električne energije i naknade za transakcije.
+explanation: >-
+reviewed: false

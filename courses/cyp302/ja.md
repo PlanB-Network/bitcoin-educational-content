@@ -29,7 +29,9 @@ CYP302コースへようこそ！
 
 本書は暗号の科学と実践について深く掘り下げた入門書である。可能な限り、形式的な説明よりも概念的な説明に重点を置いている。
 
-> このコースは[JWBurgersのレポ](https://github.com/JWBurgers/An_Introduction_to_Cryptography)に基づいています。JWBurgersの了解を得ています。コンテンツはまだ完成しておらず、JWBurgerの同意が得られればどのように統合できるかを紹介するためだけにここにあります。
+
+この教育コンテンツは、書籍とrepo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography)から適応されています。著者は教育利用を快く許可していますが、すべての知的財産権は原作者に帰属します。
+
 **動機と目的**
 
 暗号教育において、良い中間点を提供する教材を多く見つけるのは難しい。

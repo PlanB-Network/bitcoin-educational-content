@@ -1,9 +1,9 @@
-question: Qual é um exemplo notável de um hard fork do Bitcoin?
-answer: Bitcoin Cash (BCH)
+question: Que precauções devem ser tomadas em relação a esquemas de donativos e lotarias fraudulentas?
+answer: Nunca enviar dinheiro para receber bitcoins
 wrong_answers:
-  - Ethereum (ETH)
-  - Litecoin (LTC)
-  - Ripple (XRP)
+  - Envie sempre uma pequena quantidade para testar a oferta
+  - Investir para obter um lucro rápido e sem esforço
+  - Partilhar informações pessoais para proteger a transação
 explanation: |
-  O Bitcoin passou por vários hard forks ao longo do tempo, dando origem a várias versões alternativas da moeda original. Exemplos notáveis dessas variações incluem o Bitcoin Cash (BCH) e o Bitcoin Satoshi Vision (BSV).
+  O pedido de um pagamento adiantado é um sinal comum de fraude neste tipo de esquema.
 reviewed: false

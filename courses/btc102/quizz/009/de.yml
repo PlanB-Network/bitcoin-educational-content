@@ -1,11 +1,9 @@
-question: Was ist die Hauptfunktion eines Passwort-Managers?
-answer: Um Ihre Passwörter zu speichern und zu verwalten
+question: Warum ist die Online-Sicherheit für Bitcoin-Nutzer so wichtig?
+answer: Weil Hacken zum unwiderruflichen Verlust von Bitcoins führt
 wrong_answers:
-  - Um zufällige Passwörter zu generieren
-  - Um sich an Ihre Benutzernamen zu erinnern
-  - Um Ihren Computer vor Viren zu schützen
+  - Weil Banken Gelder für den Fall eines Totalverlustes von Bitcoin versichern
+  - Weil man für den Verlust von Bitcoins ins Gefängnis kommen kann
+  - Weil Angriffe zu einem sehr hohen Verwaltungsaufwand führen
 explanation: |
-  Ein Passwort-Manager ist eine Software, die Ihre Passwörter speichert und verwaltet.
-  Er hilft Ihnen dabei, niemals dasselbe Passwort zweimal zu verwenden, komplexe und sichere Passwörter zu wählen,
-  und erleichtert die Verwaltung Ihrer Online-Sicherheit.
+  Ohne Mittelsmänner bedeutet ein Hack den endgültigen Verlust von Bitcoins.
 reviewed: false

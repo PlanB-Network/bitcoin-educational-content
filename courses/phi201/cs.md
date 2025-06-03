@@ -48,37 +48,6 @@ Budeme pokračovat studiem změn v 19. a 20. století, přičemž se zaměříme
 Na závěr tato část zkoumá, jak sociální stát postupně převládl nad myšlenkami ekonomické svobody, zejména analýzou triumfu Keynese a opuštění zlatého standardu. Ukončíme důrazem na důležitost myšlenek při ovlivňování běhu dějin a na roli, kterou svoboda stále hraje v našich moderních společnostech.
 
 Připraveny ponořit se do tohoto jedinečného filozofického putování za hledáním svobody? Pojďme na to!
-# Úvod
-
-<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
-
-## Přehled kurzu
-
-<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
-
-Vítejte v kurzu PHI201!
-
-Tento kurz vás zve k prozkoumání vývoje svobody v dějinách prostřednictvím analýzy hlavních myšlenkových proudů, které ji formovaly. Zjistíte, jak se pojem svobody utvářel během staletí, ať už ve spolupráci či v opozici vůči moci, při historickém putování od antiky po současné debaty.
-
-**Sekce 1: Svoboda nebo moc**  
-Začneme přehledem dvou hlavních politických filozofií, které formovaly dějiny: svoboda a moc. Tato část zkoumá názory myslitelů jako Frédéric Bastiat na produkci versus loupež, Lord Acton, který vnímá svobodu jako hybnou sílu historie, Karl Marx s jeho teorií třídního boje a Murray Rothbard, který staví stát proti společnosti. Tento konceptuální úvod poskytne analytický rámec pro historická období.
-
-**Sekce 2: Původ svobody: Antika**  
-Zde se vrátíme ke kořenům filozofického myšlení s Řeky, kteří vynalezli kritickou racionalitu, a Římany, kteří položili základy moderního práva. Také prozkoumáme pád Říma jako klíčový moment, který redefinoval politickou a sociální organizaci kolem pojmu svobody.
-
-**Sekce 3: Původ svobody: Středověk**  
-Středověk je často vnímán jako temné období, ale zjistíme, že ve skutečnosti položil základy moderní svobody. Budeme zkoumat potvrzení lidské svobody, debaty mezi rozumem a vírou, zrod suverénního státu, biblickou etiku zdůrazňující jednotlivce a první náznaky kapitalismu, které se v této době objevují.
-
-**Sekce 4: Vzestup svobody: Od renesance po osvícenství**  
-Tato část se bude zabývat vznikem náboženské tolerance a ekonomické svobody, které se začaly rozvíjet během renesance a osvícenství. Také budeme analyzovat význam roku 1776, který znamenal zásadní zlom s klíčovými událostmi pro svobodný svět, předtím než se ponoříme do éry revolucí, které předefinovaly samotný pojem svobody.
-
-**Sekce 5: Vrchol a úpadek: Od 19. do 20. století**  
-Budeme pokračovat studiem změn v 19. a 20. století, přičemž se zaměříme na silné a slabé stránky demokracie, marxistickou kritiku kapitalismu a rakouskou odpověď na tyto kritiky. Také prozkoumáme varování před nebezpečím kolektivismu prostřednictvím významných děl, jako je "Cesta do nevolnictví".
-
-**Sekce 6: Vzestup sociálního státu ve 20. století**  
-Na závěr tato část zkoumá, jak sociální stát postupně převládl nad myšlenkami ekonomické svobody, zejména analýzou triumfu Keynese a opuštění zlatého standardu. Ukončíme důrazem na důležitost myšlenek při ovlivňování běhu dějin a na roli, kterou svoboda stále hraje v našich moderních společnostech.
-
-Připraveny ponořit se do tohoto jedinečného filozofického putování za hledáním svobody? Pojďme na to!
 
 # Svoboda nebo moc
 

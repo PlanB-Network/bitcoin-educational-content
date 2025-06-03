@@ -1,0 +1,9 @@
+question: Jakie rozwiązanie pamięci masowej Cold jest zalecane dla paranoicznego użytkownika?
+answer: Hardware Wallet z przepustem powietrznym lub DIY
+wrong_answers:
+  - Mobilny Hot Wallet
+  - Usługa dozoru na platformie Exchange
+  - Hardware Wallet o zamkniętym kodzie źródłowym ogólnego przeznaczenia
+explanation: |
+  Paranoiczny użytkownik preferuje przechowywanie offline z rozwiązaniami open-source, aby zminimalizować ryzyko narażenia.
+reviewed: false

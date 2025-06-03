@@ -28,7 +28,7 @@ Liitu meiega, et tõsta oma oskusi, avada Liquid'i ja Elements'i täielik potent
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
-![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
+:::video id=e0166470-5561-4b3b-9d0d-4edee69b64d8:::
 
 Tere tulemast kursusele SID202!
 
@@ -55,7 +55,7 @@ Oled valmis avastama Elements'i ja Liquid sidechain'i potentsiaali? Alustame!
 
 <chapterId>7a7f2712-5300-4a6d-b1ed-05eab731bc35</chapterId>
 
-![Video](https://youtu.be/ns-JLGdkNig?si=fmWye_boRSvVF1Bt)
+:::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
 Elements on avatud lähtekoodiga, sidechain-võimeline plokiahela platvorm, mis pakub juurdepääsu kogukonna liikmete poolt välja töötatud võimsatele funktsioonidele, nagu Confidential Transactions ja Issued Assets.
 
@@ -97,7 +97,7 @@ Elements lisab kõik need funktsioonid Bitcoin Core'i koodibaasi peale, laiendad
 
 <chapterId>05d88877-58b0-455b-9ae6-a72d19070525</chapterId>
 
-![Video](https://youtu.be/v0lzmfH81AY?si=V-xDWfmDLKyBcdPs)
+:::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
 Elements pakub tehnilise lahenduse probleemidele, millega plokiahela kasutajad igapäevaselt silmitsi seisavad: tehingute hilinemine, privaatsuse puudumine ja asendatavuse oht.
 
@@ -158,7 +158,7 @@ Selleks, et kanda varasid tagasi peahelasse, teeb kasutaja spetsiaalse peg-out-t
 
 <chapterId>cc806e5a-81ab-457b-9531-9f863120a019</chapterId>
 
-![Video](https://youtu.be/Frr_OjTEPAM?si=iq5XonJyQk8S5OAu)
+:::video id=1f73dfee-3623-483b-ab42-07d9286ed999:::
 
 Kuna Elements põhineb Bitcoini koodibaasil, on toimiva võrgu komponendid väga sarnased.
 
@@ -239,7 +239,7 @@ See võimaldab meil teostada igasuguseid toiminguid, nagu näiteks varade vaheta
 
 <chapterId>263b1c5b-59ed-49e7-b811-95c354f41eae</chapterId>
 
-![Video](https://youtu.be/-by2xBtXQeE?si=7bLo_geGn3qh7MXN)
+:::video id=ea2121b6-24a8-458d-91e6-0c92eaf4dc65:::
 
 Selles jaotises saate teada, kuidas kasutada Elementide funktsiooni Konfidentsiaalsed tehingud.
 
@@ -351,7 +351,7 @@ See on kõik selle tunni jaoks; palju õnne viktoriinis ja kohtumiseni järgmise
 
 <chapterId>c33c7020-5975-457a-99db-4f8b90d1fa1c</chapterId>
 
-![Video](https://youtu.be/XnY4WZUNSs4?si=dG8I5OoSh_0EBdvL)
+:::video id=7ac63148-d730-496d-85d4-0032aaf09be1:::
 
 Selles jaotises saate teada, kuidas kasutada Elements'i funktsiooni "Väljastatud varad".
 
@@ -530,7 +530,7 @@ Selles jaotises nägime, kuidas varasid välja anda ja märgistada. Järgmises j
 
 <chapterId>78751b21-1dc8-4877-a406-e71bc80a95b0</chapterId>
 
-![Video](https://youtu.be/5em79YHtYk0?si=rhponm6Hw9AB6RJp)
+:::video id=7df967b0-ffff-42e1-b1d5-868e76289faf:::
 
 Selles jaotises saate teada, kuidas emiteerida rohkem juba emiteeritud vara ja kuidas hävitada teatud kogus emiteeritud vara.
 
@@ -678,7 +678,7 @@ Selles jaotises nägime, kuidas vara välja anda ja kuidas kasutada vara väljaa
 
 <chapterId>c47b217e-db14-4843-a66f-3e5f3a00a808</chapterId>
 
-![Video](https://youtu.be/kxWX91fCnus?si=KItm_Am3_RrBcLBN)
+:::video id=c5a81820-77d7-4a0c-9a4e-9323386a74ac:::
 
 Elements toetab föderaalset allkirjastamismudelit, mis võimaldab teil määrata, kui palju tugevaid föderatsiooni liikmeid peab pakutud plokki allkirjastama, et saada kehtiv plokk.
 
@@ -837,7 +837,7 @@ Kui kavandatavale plokile on alla kirjutanud teatav arv allakirjutanuid, ühenda
 
 <chapterId>432d7a65-255f-44a3-8b38-78508202cb37</chapterId>
 
-![Video](https://youtu.be/egYzj4N8CB8?si=v7_-IXsjHPE-ARDe)
+:::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
 Elements on avatud lähtekoodiga, üldotstarbeline plokiahela platvorm, mida saab ka olemasoleva plokiahela, näiteks Bitcoini külge liita. Kui Elements on seotud teise plokiahelaga, siis nimetatakse seda "kõrvalahelaks". Sidechainid võimaldavad varade kahesuunalist ülekandmist ühest ahelast teise. Elements'i rakendamine sidechain'ina võimaldab vältida mõningaid peahelale omaseid piiranguid, säilitades samal ajal suure osa peahelas kindlustatud varade turvalisusest.
 
@@ -1040,7 +1040,7 @@ Peg-out toimub siis, kui Elements'i sõlmpunkt kutsub käsku `sendtomainchain`, 
 
 <chapterId>50dff39b-2702-47d7-9c15-0b54b845e99f</chapterId>
 
-![Video](https://youtu.be/u-3rV7DGtD0?si=G1__H0Uelf4sTUDM)
+:::video id=4955306b-4be3-429c-9d30-068f7644ea73:::
 
 Siiani oleme vaadelnud, kuidas Elements'i külgahelana käivitada. Siiski võib see toimida ka iseseisva plokiahela lahendusena, millel on oma vaikimisi emakeelne vara. Sellise seadistuse puhul säilitab Elements blockchain endiselt kõik sidechaini rakendamise funktsioonid, näiteks konfidentsiaalsed tehingud ja emiteeritud varad, kuid ei vaja peg-in või peg-out'i, et lisada või eemaldada ringlusse vaikimisi varade koguseid.
 
@@ -1226,7 +1226,7 @@ Kasutades ülaltoodud parameetreid, saate kasutada Elements'i iseseisva plokiahe
 
 <chapterId>7e2c916d-8114-424c-97f5-cbff9d73b8e3</chapterId>
 
-![Video](https://youtu.be/CTMdamTZBBM?si=16LBcXvN4pBfC7lr)
+:::video id=bd5167d5-edba-40b0-a8b1-ba8b74493a08:::
 
 Sellel kursusel oleme õppinud, et Elements on avatud lähtekoodiga võrguprotokoll, mida saab rakendada teise plokiahela kõrvalahelana või iseseisva plokiahela lahendusena.
 

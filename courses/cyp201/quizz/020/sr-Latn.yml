@@ -1,0 +1,9 @@
+question: Koja je razlika između kompresovanog i nekompresovanog javnog ključa?
+answer: Kompresovani javni ključ koristi samo x-koordinatu i paritet y
+wrong_answers:
+  - Kompresovani javni ključ je sigurniji
+  - Kompresovani javni ključ koristi samo y-koordinatu i paritet x
+  - Kompresovani javni ključ zahteva veći privatni ključ
+explanation: |
+  Kompresovani javni ključ zadržava samo x-koordinatu i bit za paritet y, čime se njegova veličina smanjuje na 33 bajta.
+reviewed: false

@@ -362,7 +362,7 @@ Lyhyesti sanottuna, **mahdollisuudet ovat rajattomat ja riippuvat tarpeistasi, m
 
 Jotta voisit tutustua tarkemmin, tarjoamme alla olevan, ei-tyhjentävän video-oppaan, jossa esitellään joitakin mahdollisuuksia:
 
-![Tutorial Canva](https://www.youtube.com/watch?v=sgloI_v-nAk)
+:::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
 ####
 
@@ -509,7 +509,7 @@ Näemme myöhemmin, mutta **on erittäin suositeltavaa, että valitset "Telegram
 
 Seuraavissa ohjeissa käytämme "Telegram+" APK-sovellusta; sovellus, joka mahdollistaa Telegramin edistyneemmän konfiguroinnin. Tämä ei kuitenkaan ole välttämätöntä, sillä ryhmän tai superryhmän luominen Telegramissa onnistuu nyt hyvin helposti puhelimella:
 
-![Tutorial Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw)
+:::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
 ### Telegram-kanavan luominen
 
@@ -527,7 +527,7 @@ On kuitenkin mahdollista lisätä kanavan jäsenten mahdollisuus kommentoida jok
 
 Ohje Telegram-kanavan luomiseen:
 
-![Tutorial Canale Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U)
+:::video id=98be4709-d221-4030-8c31-e10113482515:::
 
 ### Luo Telegram-ryhmä
 
@@ -551,7 +551,7 @@ Tämän kanavan ylläpitäjät voivat sitten:
 
 Ohje Telegram-ryhmän luomiseen:
 
-![Tutorial canale Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA)
+:::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
 Huomautus: kuten aiemmin mainittiin, yllä oleva opetusohjelma tehtiin tietokoneella, jossa oli "Telegram+" APK. Telegram-ryhmän luominen puhelimella on nyt kuitenkin erittäin helppoa.
 
@@ -591,7 +591,7 @@ Yleisesti ottaen ei ole olemassa tiettyä jäsenmäärää, jonka saavuttamisen 
 
 Ohje Telegramin superryhmän luomiseen:
 
-![Tutorial supergruppo Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
+:::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
 Huomautus: Kuten edellä mainittiin, yllä oleva opetusohjelma tehtiin tietokoneella, jossa oli "Telegram+" APK. Nyt on kuitenkin hyvin helppoa luoda Telegram-superryhmä puhelimella.
 
@@ -669,7 +669,7 @@ Käytettävissäsi on myös lukuisia lisävaihtoehtoja. Yksi neuvo kuitenkin vie
 
 Ohje monikäyttöisen botin lisäämisestä Telegramin ryhmään tai superryhmään:
 
-![Tutorial bot Telegram multifunzione](https://www.youtube.com/watch?v=l72GZcEFDtU)
+:::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
 Pieni huomautus: kuten aiemmin mainittiin, nyt kaikki tämä menettely voidaan tehdä puhelimella.
 
@@ -687,7 +687,7 @@ Telegramin ja Twitterin lisäksi tämä vaatii tietenkin vielä enemmän aikaa h
 
 Helpottaaksemme asioita sinulle, **jaamme [valmiiksi tehdyn, monistettavan ja muokattavan Discord-palvelimen](https://discord.com/template/bDY4eXXJk2C8), jota voit muokata haluamallasi tavalla**:
 
-![Tutorial server Discord duplicabile](https://www.youtube.com/watch?v=i3V6_359Ajw)
+:::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 ####
 
@@ -699,7 +699,7 @@ On kuitenkin tärkeää huomata, että sen asennus ei ole kovin helppoa, että *
 
 Tavoitteena säästää aikaasi, tässä on ohje siitä, miten lisätä monitoiminen robotti Telegram-ryhmään tai superryhmään:
 
-![Tutorial bot TediCross Discord - Telegram](https://www.youtube.com/watch?v=e4YAPG0ITF8)
+:::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
 ## Harkitse muita, yksityisiä ja turvallisempia viestintäkanavia
 
@@ -813,7 +813,7 @@ Lopuksi, vaikka "@Bitcoin[CITY]" -käyttäjätunnuksesi on ainutlaatuinen ja kuu
 
 Ohje Twitter-tilin luomiseen:
 
-![Tutorial account Twitter](https://www.youtube.com/watch?v=pp3DDakV0bA)
+:::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
 ## Yhteyden luominen läheisiin tapaamisiin
 
@@ -1441,7 +1441,7 @@ Tämän luomistehtävän yksinkertaistamiseksi alla oleva opetusohjelma näyttä
 
 Myöhemmin voit ostaa oman verkkotunnuksen ja halutessasi jopa isännöidä sitä omalla palvelimellasi.
 
-![Tutorial per creare un sito web WordPress gratuito](https://www.youtube.com/watch?v=cZzH4gj_kZY)
+:::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
 ####
 
@@ -1511,7 +1511,7 @@ Jos haluat **nauhoittaa tietokoneellasi, ilmainen ohjelmisto, kuten ["Audacity"]
 
 Tässä on lyhyt opetusohjelma, joka esittelee 10 minuutissa tärkeimmät ominaisuudet, jotka sinun on tiedettävä podcastin tekemisestä Audacityllä.
 
-![Tutorial per creare un podcast con Audacity](https://www.youtube.com/watch?v=z471_Ye6Y0I)
+:::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
 Huomautus: Kuten aiemmin mainittiin, jos Bitcoin jonain päivänä kielletään tai sensuroidaan, voi olla tärkeää **pitää aina kiintolevyllä paikallinen kopio julkaisemistasi podcasteista**.
 
@@ -1842,7 +1842,7 @@ Vihdoinkin:
 
 Hieman vähemmän yksityiskohtaisesti, 21-minuuttisella videolla, se näyttää tältä:
 
-![Tutorial Comunità Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8)
+:::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
 Joka tapauksessa **muista, ettet ole yksin ja että olemassa olevat yhteisöt auttavat sinua**.
 

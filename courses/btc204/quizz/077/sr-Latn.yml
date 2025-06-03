@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između CoinJoin i kustodijalnog miksera?
+answer: CoinJoin vam omogućava da zadržite potpunu kontrolu nad svojim sredstvima.
+wrong_answers:
+  - CoinJoin zahteva privremeno odricanje od starateljstva nad sredstvima.
+  - Mikseri su sigurniji od coinjoin-a.
+  - Mikseri obezbeđuju kvalitetnije mešanje.
+explanation: |
+  Glavni nedostatak miksera u poređenju sa coinjoin-ovima je taj što zahtevaju od korisnika da se odrekne starateljstva nad svojim sredstvima tokom procesa mešanja, što ih izlaže riziku od krađe.
+reviewed: false

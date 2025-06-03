@@ -1,11 +1,9 @@
-question: What is the golden rule of Bitcoin investment?
-answer: Not your key, not your Bitcoins.
+question: What term refers to the programmed division of the mining subsidy?
+answer: Halving
 wrong_answers:
-  - Never invest more than you can afford to lose.
-  - Avoid what is trendy.
-  - Planning and having a long-term vision are essential for success in finance.
+  - Fork
+  - Bisection
+  - Coinbase
 explanation: |
-  The golden rule of Bitcoin investment is Not your key, not your Bitcoins.
-  This means that if you don't have control over your private key, you don't truly
-  own your Bitcoins.
+  Halving refers to the halving of the mining subsidy every 210,000 blocks.
 reviewed: false

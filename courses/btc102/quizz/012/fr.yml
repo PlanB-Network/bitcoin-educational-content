@@ -1,9 +1,9 @@
-question: Quelle est la principale raison de la perte de bitcoins selon le chapitre ?
-answer: Mauvaise gestion de la sécurité en ligne
+question: Que signifie la notion de self-custody dans l'univers de Bitcoin ?
+answer: Conserver soi-même ses clés privées
 wrong_answers:
-  - Escroqueries liées aux cryptomonnaies
-  - Escroqueries financières
-  - Défaillance de l'ordinateur
+  - Confier ses clés à une plateforme d'échange spécialisée
+  - Confier ses clés à une banque d'affaires
+  - Conserver soi-même ses clés publiques
 explanation: |
-  Le chapitre mentionne que, en plus des escroqueries liées aux cryptomonnaies et des escroqueries financières, la principale raison de la perte de bitcoins est liée à une mauvaise gestion de la sécurité en ligne.
+  La self-custody garantit que l'utilisateur garde le contrôle total de ses bitcoins via ses propres clés privées.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Šta je izazvalo nagli odlazak Satoshi Nakamota u decembru 2010?
+answer: Objavljivanje članka koji povezuje Bitcoin i WikiLeaks
+wrong_answers:
+  - Prihvatanje Bitcoin od strane WikiLeaksa
+  - Gavin Andresen preuzima kontrolu nad kodom
+  - Povećanje jedinične cene Bitcoin
+explanation: |
+  Naslovljen Could the Wikileaks Scandal Lead to New Virtual Currency?, ovaj [članak](https: //www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) objavljen je na PC World, jednom od najvećih američkih sajtova posvećenih računarstvu.
+reviewed: false

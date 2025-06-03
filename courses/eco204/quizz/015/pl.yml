@@ -1,0 +1,11 @@
+question: Jaka jest definicja hiperinflacji według Bernholza?
+answer: Hiperinflacja jest rozszerzeniem wysokiej inflacji, charakteryzującym się dużymi deficytami budżetowymi finansowanymi przez kreację pieniądza.
+wrong_answers:
+  - Hiperinflacja to spadek wartości pieniądza Supply.
+  - Hiperinflacja to umiarkowany wzrost wartości pieniądza Supply.
+  - Hiperinflacja to spadek produkcji.
+explanation: |
+  Rozdział ten wyjaśnia, że według Bernholza hiperinflacja jest rozszerzeniem wysokiej inflacji
+  rozszerzeniem wysokiej inflacji, charakteryzującym się dużymi deficytami budżetowymi finansowanymi przez
+  kreacją pieniądza.
+reviewed: false

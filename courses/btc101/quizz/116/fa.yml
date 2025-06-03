@@ -1,0 +1,10 @@
+question: اولین تراکنش Bitcoin ثبت شده چیست؟
+answer: تراکنش 10 BTC بین Satoshi Nakamoto و Hal Finney.
+wrong_answers:
+  - تراکنش ۱۰,۰۰۰ بیت‌کوین برای ۲ پیتزا.
+  - تراکنش 1 BTC بین Satoshi Nakamoto و Hal Finney.
+  - تراکنش 10,000 BTC بین لازلو هانیچ و هال فینی.
+explanation: |
+  اولین تراکنش Bitcoin ثبت شده، تراکنشی بود از
+  10 BTC بین Satoshi ناکاموتو و هال فینی.
+reviewed: true

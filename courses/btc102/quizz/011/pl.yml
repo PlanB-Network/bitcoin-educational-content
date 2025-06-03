@@ -1,0 +1,9 @@
+question: Dlaczego ochrona frazy Mnemonic jest ważna?
+answer: Ponieważ jego utrata skutkuje trwałą utratą bitcoinów
+wrong_answers:
+  - Ponieważ Blockchain jest zbyt długi, aby go zregenerować
+  - Ponieważ jego utrata prowadzi do wycieku danych osobowych
+  - Ponieważ platformy Exchange wymagają wielu dokumentów do regeneracji
+explanation: |
+  Fraza Mnemonic umożliwia odzyskanie dostępu. Jeśli zostanie utracony, a Wallet nie będzie już dostępny na jego urządzeniu, bitcoiny zostaną trwale utracone.
+reviewed: false

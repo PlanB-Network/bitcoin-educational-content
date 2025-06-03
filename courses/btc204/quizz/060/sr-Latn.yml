@@ -1,0 +1,9 @@
+question: Koje informacije treba navesti na etiketi?
+answer: Poreklo UTXO.
+wrong_answers:
+  - Datum kreiranja UTXO.
+  - Veličina UTXO.
+  - Iznos naknada povezanih sa kreiranjem UTXO.
+explanation: |
+  Označavanje je dobra praksa koja pomaže da se zapamti poreklo UTXO.
+reviewed: false

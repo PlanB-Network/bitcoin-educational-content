@@ -43,7 +43,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.15
+    reward: 0.14
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -58,24 +58,48 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.15
+    reward: 0.14
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.13
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.14
+    reward: 0.13
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:

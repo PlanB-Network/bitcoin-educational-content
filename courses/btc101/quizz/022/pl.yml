@@ -1,0 +1,13 @@
+question: Dlaczego złoto stało się standardowym środkiem Exchange?
+answer: Ze względu na swoją rzadkość, trwałość i podzielność.
+wrong_answers:
+  - Ze względu na swoją obfitość, trwałość i niepodzielność.
+  - Ze względu na swoją rzadkość, nietrwałość i podzielność.
+  - Ze względu na jego obfitość, nietrwałość i niepodzielność.
+explanation: |
+  Złoto stało się standardowym środkiem Exchange ze względu na jego
+  rzadkość, trwałość i podzielność: jego rzadkość zapobiegła
+  dewaluacji spowodowanej produkcją; jego trwałość
+  zapewniła, że nie ulegnie erozji w czasie, a jego podzielność
+  pozwoliła na wykorzystanie go w transakcjach o różnej wielkości.
+reviewed: true

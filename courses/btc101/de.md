@@ -519,7 +519,7 @@ Glücklicherweise kann der private Schlüssel seit 2017 durch eine einfache List
 
 ### Was ist mit Hackern?
 
-Was ist, wenn jemand versehentlich unsere Liste mit 12 oder 24 Wörtern errät? Die kurze Antwort lautet, dass dies dank der Kryptographie, die zur Erstellung der Brieftasche verwendet wird, höchst unwahrscheinlich ist. Um es ins rechte Licht zu rücken: Die zufällige Entdeckung des gleichen mnemonischen Satzes ist vergleichbar mit der Suche nach der "richtigen" Zahl zwischen 1 und $2^256$, was fast der Suche nach dem "richtigen" Atom im Universum entspricht. Wenn Sie jedoch mit dieser Standardsicherheit nicht zufrieden sind, können Sie sie jederzeit erhöhen, indem Sie eine Passphrase (ein zusätzliches Wort) zu Ihrer Bitcoin-Brieftasche hinzufügen.
+Was ist, wenn jemand versehentlich unsere Liste mit 12 oder 24 Wörtern errät? Die kurze Antwort lautet, dass dies dank der Kryptographie, die zur Erstellung der Brieftasche verwendet wird, höchst unwahrscheinlich ist. Um es ins rechte Licht zu rücken: Die zufällige Entdeckung des gleichen mnemonischen Satzes ist vergleichbar mit der Suche nach der "richtigen" Zahl zwischen 1 und 2 hoch 256, was fast der Suche nach dem "richtigen" Atom im Universum entspricht. Wenn Sie jedoch mit dieser Standardsicherheit nicht zufrieden sind, können Sie sie jederzeit erhöhen, indem Sie eine Passphrase (ein zusätzliches Wort) zu Ihrer Bitcoin-Brieftasche hinzufügen.
 
 ![image](assets/en/29.webp)
 
@@ -1136,7 +1136,7 @@ Eine schrittweise Strategie beinhaltet wiederkehrende Käufe, d. h. den Kauf kle
 
 **Vorsicht vor UTXOs**: Denken Sie daran, Ihre UTXOs von Zeit zu Zeit in Ihren Geldbörsen zu konsolidieren. Diese Praxis ist wichtig, um Ihre Bitcoins effektiv zu verwalten und unnötige Gebühren bei Transaktionen zu vermeiden.
 
-Ein [UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
+Ein [UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
 
 - Spontankauf
 

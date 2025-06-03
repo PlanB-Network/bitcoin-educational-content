@@ -1,0 +1,5 @@
+---
+term: ZNAK ŚLEPY
+---
+
+Proces, w którym użytkownik podpisuje transakcję Bitcoin bez możliwości sprawdzenia dokładnych szczegółów tego, co podpisuje. W przypadku portfeli sprzętowych podpisywanie na ślepo jest niebezpieczne, ponieważ użytkownik musi polegać na podłączonym komputerze, aby wyświetlić informacje (odbiorcy, opłaty, kwoty itp.). Naraża ich to na luki w zabezpieczeniach, ponieważ komputer jest podłączony do Internetu i ma znacznie większą powierzchnię ataku niż urządzenie podpisujące. Jeśli komputer zostanie przejęty, może manipulować wyświetlanymi szczegółami i wysłać złośliwą transakcję do podpisania bez wiedzy użytkownika. Aby uniknąć tego ryzyka, zalecamy korzystanie z portfeli sprzętowych ze zintegrowanym ekranem i sprawdzanie informacji na nim przed podpisaniem transakcji.

@@ -1,0 +1,9 @@
+question: Alice (فرستنده) پس از دریافت Invoice از Bob چه کاری باید انجام دهد؟
+answer: یک PSBT با UTXO و generate آن بسازید، سپس به ترمینال انتقال Consignment منتقل کنید.
+wrong_answers:
+  - Bitcoin تراکنشی را امضا کنید که UTXO خود را که حاوی Single-Use Seal است خرج می‌کند.
+  - Consignment را به Wallet خود وارد کنید تا جزئیات Contract را دریافت کنید.
+  - صدور Invoice جدید برای مشکل دارایی
+explanation: |
+  Alice باید یک PSBT ایجاد کند تا UTXO مرتبط با دارایی را خرج کند، سپس generate یک Terminal Consignment که شامل انتقال جدید به Bob است.
+reviewed: false

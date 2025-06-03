@@ -1,0 +1,9 @@
+question: U kojoj jedinici je merena stopa Hash mreže tokom druge polovine 2010. godine?
+answer: U GH/s
+wrong_answers:
+  - U MH/s
+  - U TH/s
+  - U PH/s
+explanation: |
+  Stopa Hash porasla je sa 1.35 GH/s 13. jula na 120 GH/s 31. decembra 2010.
+reviewed: false

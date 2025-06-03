@@ -1,0 +1,9 @@
+question: Koja je uloga LNURL-a u Lightning transakcijama?
+answer: Da pojednostavi interakciju između čvorova i Lightning aplikacija
+wrong_answers:
+  - Olakšajte kreiranje kanala za svaku uplatu
+  - Osigurajte poverljivost informacija o plaćanju
+  - Automatski izračunajte naknade za transakcije
+explanation: |
+  LNURL je komunikacioni protokol dizajniran da pojednostavi interakcije, kao što su povlačenja i plaćanja, između čvorova i Lightning aplikacija.
+reviewed: false

@@ -23,7 +23,7 @@ Nautige!
 ## Sissejuhatus CUBO+ kursustesse
 <chapterId>dcf2d37e-b32a-5eb8-aaa3-41ac92475ba9</chapterId>
 
-![Video](https://youtu.be/4VuI9we_XYM)
+:::video id=9b6aa5cf-245e-4a66-b3b8-c4860ab51e90:::
 
 Filippo ja Mario annavad sissejuhatava ettekande CUBO+ kohta, seades lava põhjalikuks õppereisiks, mis ees ootab. Nad arutlevad kursuste struktuuri, õpitulemuste ja selle üle, kuidas need õpilasi Bitcoin'i arendusruumis võimestavad.
 
@@ -40,7 +40,7 @@ Osalejatelt oodatakse tugevat uudishimu, professionaalsel tasemel õppimise soov
 
 ### Miks El Salvador vajab Bitcoin'i
 
-![video](https://youtu.be/VExfKFrGuYw)
+:::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
 Esimene loeng ‘Miks El Salvador vajab Bitcoin’i’ annab ülevaate: Bitcoin'i protokollist ja selle juurtest, küberpunk liikumisest ja Bitcoin'i tähtsusest vabaduse tööriistana (tsenseerimata raha, finantsiline kaasatus ja muud seotud teemad).
 
@@ -59,13 +59,13 @@ On oluline märkida, et esimene moodul, 'Miks Bitcoin', oli vajalik juurte ja ee
 
 ### Bitcoini Tehnoloogiline Virn
 
-![video](https://youtu.be/5UkjQomJsHU)
+:::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
 'Kuidas Bitcoin' kursuse esimeses loengus hakkasime uurima tehnoloogilist virna, mis toetab Bitcoini võrku. Käsitlesime mitmeid teemasid, sealhulgas Hashcash, tehingud, plokiahel, Lightning Network ja teised Bitcoini protokolli võtmekomponendid.
 
 ### Bitcoini Tehnoloogiline Virn
 
-![video](https://youtu.be/UkwbPVhLeIk)
+:::video id=752343b8-aa78-4bd3-9320-efe2a7e9d88f:::
 'Kuidas Bitcoin' teise loengu jooksul viisime läbi Bitcoini tehnoloogilise virna põhjalikuma uurimise.
 
 ## Debunk Bitcoin
@@ -73,7 +73,7 @@ On oluline märkida, et esimene moodul, 'Miks Bitcoin', oli vajalik juurte ja ee
 
 ### Lõika läbi FUD
 
-![video](https://youtu.be/f0Pf0u1y5F4)
+:::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
 Plokiahelate ja shitcoinide ümberlükkamine ning müütide ja väärarusaamade ümberlükkamine Bitcoini energiakulu ja kuritegeliku kasutamise kohta
 
@@ -82,19 +82,19 @@ Plokiahelate ja shitcoinide ümberlükkamine ning müütide ja väärarusaamade 
 
 ### Bitcoini Core Installeerimine
 
-![Video](https://youtu.be/fIUU2sRCEj0)
+:::video id=4a5253cf-b863-466a-8506-0506b28a28de:::
 
 Neljanda mooduli esimeses loengus uurisime Bitcoini arhitektuuri ja Bitcoini Core sõlme installeerimist
 
 ### C-lightningu Installeerimine
 
-![video](https://youtu.be/zrB1Kc4BqvY)
+:::video id=e13a1407-46e3-4b03-9a7a-b0f4a338c3c7:::
 
 Teise loengu jooksul süvenesime c-lightningu installeerimise protsessi
 
 ### Turvalisus ja Riistvaraseadmed
 
-![video](https://youtu.be/oVaI9WuLkgk)
+:::video id=8b4baf24-1350-46b8-a87b-18678ed219ed:::
 
 Kolmandas loengus käsitlesime teemasid, mis on seotud turvalisuse, riistvaraseadmete ja Specteri seadistamisega
 
@@ -103,7 +103,7 @@ Kolmandas loengus käsitlesime teemasid, mis on seotud turvalisuse, riistvarasea
 
 ### Avatud Probleemid Bitcoini Ökosüsteemis
 
-![video](https://youtu.be/Vlm2ZdxcidA)
+:::video id=6d771eca-3f53-493d-8937-db6ddb2cf172:::
 Hei, siin on link viimasele loengule ettevalmistusperioodist Bitcoini probleemide ja potentsiaalsete lahenduste kohta
 
 # Bitcoini Alused
@@ -112,27 +112,27 @@ Hei, siin on link viimasele loengule ettevalmistusperioodist Bitcoini probleemid
 ## Turvamõtlemine Bitcoinis
 <chapterId>0b97af0c-015a-54e3-a7f0-0f62ceb96c07</chapterId>
 
-![Video](https://youtu.be/2f_rK74MB3U)
+:::video id=08101af2-1ded-4f3a-b1db-d4477c6ab63e:::
 
 Peter Todd sukeldub Bitcoini ainulaadsetesse turvakaalutlustesse, õpetades arendajaid omaks võtma turvalisusele keskendunud mõtteviisi. Loengu eesmärk on sisendada tugev alus potentsiaalsete ohtude äratundmiseks ja leevendamiseks Bitcoinis arendamisel, põhinedes praktilisel harjutusel tarkvara ohumudeli selgitamisel valimiste ajatemplite jaoks.
 
 ## Vaba ja Avatud Lähtekoodiga Tarkvara (FLOSS) Bitcoinis
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
-![Video](https://youtu.be/ln-FYziKqNY)
+:::video id=4544ef7a-685e-4aaf-98a0-8a10dce06172:::
 
 Vaba ja Avatud Lähtekoodiga Tarkvara (FLOSS) kasutamine on Bitcoini ökosüsteemis kriitilise tähtsusega. Peter Todd uurib FLOSSi tähtsust Bitcoinile, vaadeldes FLOSSi ajalugu ja uurides, kuidas Github võimaldab meil koostööd teha avatud lähtekoodiga tarkvara, nagu Bitcoin, arendamisel.
 
 ## Krüptograafia Bitcoinis
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
 
-![Video](https://youtu.be/QcK-Cl8B9QU)
+:::video id=b482b0f0-4468-4eaf-bcd6-eb4748bdfa3a:::
 
 Adam Gibson viib osalejad läbi Bitcoini krüptograafiliste aluste matemaatilisest perspektiivist. Sessioon katab Bitcoini esmased krüptograafilised funktsioonid, nagu hashid ja nende turvalisus, Merkle'i puud, identiteediprotokollid ja allkirjastamine, diskreetsed logaritmid ja elliptilised kõverad.
 
 ## Bitcoini Valitsemismudel
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
 
-![Video](https://youtu.be/g_BcT5YkZUQ)
+:::video id=91a38c17-5801-4a5c-baf2-c9e4cc24fd84:::
 
 Peter Todd arutleb Bitcoini valitsemismudeli üle, pakkudes ülevaadet sellest, kuidas otsused Bitcoini kogukonnas tehakse ja kuidas see detsentraliseeritud lähenemine mõjutab protokolli arengut ja stabiilsust. Eriti uurib ta, kuidas erinevat tüüpi muudatused võivad viia pehmete või kõvade kahvliteni, kuidas valitsemise erinevus poliitikamuutuste ja konsensuse reeglite vahel ning mis on Bitcoini muudatuste poliitikamäng.
 
@@ -142,21 +142,21 @@ Peter Todd arutleb Bitcoini valitsemismudeli üle, pakkudes ülevaadet sellest, 
 ## Sõlme Komponendid Bitcoinis
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
 
-![Video](https://youtu.be/hGS8Cuj5Zb4)
+:::video id=6fae79f6-da81-4870-927b-923bd1672176:::
 
 Adam Gibson analüüsib Bitcoini sõlme erinevaid komponente. Peatükk keskendub iga komponendi rollile võrgu funktsionaalsuse ja terviklikkuse säilitamisel. Eriti keskendub ta sellele, miks me peaksime jooksutama Bitcoini sõlme, mida Bitcoini sõlm teeb ja kuidas Bitcoini sõlme erinevad komponendid toimivad.
 
 ## Bitcoini Andmestruktuurid
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
 
-![video](https://youtu.be/okvV9hqDOtM)
+:::video id=1790e5fb-33f5-4e0e-982e-41589cd02965:::
 
 Alekos Filini tutvustab põhjalikult Bitcoini andmestruktuure. See hõlmab andmete korraldust plokiahelas ja kuidas see tagab võrgu robustsuse ja efektiivsuse.
 
 ## Bitcoini L1 Tarkvarapakk
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
 
-![Video](https://youtu.be/xOdz9GEiShM)
+:::video id=1d148008-9197-446f-afb5-628d4c3a5015:::
 
 Daniela Brozzoni pakub põhjalikku ülevaadet Bitcoini esimese kihi tarkvarapakist, selgitades kihte, mis moodustavad Bitcoini protokolli aluse (st Bitcoini sõlmed ja Bitcoini rahakotid) ja kuidas ehitada Bitcoini tarkvara, tutvustades Bitcoini teekidele ja süvenedes Bitcoini Arenduskomplekti (BDK).
 
@@ -165,28 +165,28 @@ Daniela Brozzoni pakub põhjalikku ülevaadet Bitcoini esimese kihi tarkvarapaki
 
 ## Maksekanalite Ajalugu
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
-![Video](https://youtu.be/VtpbCspK5T4)
+:::video id=b90f19a3-a95e-4cd1-8c55-41016f3339cb:::
 
 Gabriel Comte annab ajaloolise perspektiivi maksekanalite arengule, mis on Lightning Network'i jaoks fundamentaalsed. See peatükk uurib maksekanalite evolutsiooni ja nende tähtsust Bitcoin'i tehingute skaleerimisel, alates Satoshi maksekanalitest kuni kahepoolsete maksekanalite lahendusteni nagu Duplex Micropayment Channels või Lightning maksekanalid.
 
 ## Aatomite Marsruutimise Ajalugu
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
 
-![Video](https://youtu.be/5OUgGHH6jPY)
+:::video id=059a714b-4fe9-4266-acb0-6fe5af491662:::
 
 Gabriel Comte jutustab aatomite marsruutimise ajaloost, kirjeldades mitmeid tehnikaid, mis on olnud Lightning Network'i marsruutimiskihi aluseks, nagu Hub-and-Spokes mudel, Ripple mudel ja Hashed TimeLocked Contracts (HTLCs). See ajalugu on olnud määrava tähtsusega turvaliste, usalduseta tehingute võimaldamiseks Lightning Network'is.
 
 ## BOLT Ülevaade
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
 
-![Video](https://youtu.be/1aIuKBkPlkg)
+:::video id=f0d17fe4-d793-4b90-924e-b551db501fbb:::
 
 asi0 vaatab üle BOLT-i, Lightning Technology aluse, selgitades spetsifikatsioone, mida iga Lightning Network'i rakendus peab järgima. See saab olema esimene süvitsi minek Lightning Network'i erinevatesse kihtidesse.
 
 ## Peamised LN Kliendid
 <chapterId>a2ad8db4-aea2-5231-927c-616c53db31bf</chapterId>
 
-![Video](https://youtu.be/a0Q_5dzpqKw)
+:::video id=90240cb6-a942-4015-b0c2-b721c48309ec:::
 
 asi0 tutvustab peamisi Lightning Network (LN) kliente, pakkudes analüüsi nende omadustest, tugevustest põhinedes 2x2 maatriksil, mis hindab kasutaja käsutuses oleva hoolduse ja likviidsuse haldamise taset LN klientidega.
 
@@ -203,14 +203,14 @@ asi0 käsitleb praktilisi väljakutseid, millega Lightning Network'i kasutamisel
 ## LN Tuleviku Areng
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
 
-![Video](https://youtu.be/VXMON_nD650)
+:::video id=ab5f65f1-0b0d-4ca9-8ff7-d42764c1e915:::
 
 Gabriel Comte spekuleerib Lightning Network'i tuleviku arengu üle, uurides potentsiaalseid arenguid -- nagu kahepoolse rahastamisega kanalid, eltoo, BOLT 12, PTLCs, Watchtowers ja LSP standardid -- ja kuidas need võiksid muuta Bitcoin'i tehingute maastikku.
 
 ## Protokollid LN'i Peal
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
 
-![Video](https://youtu.be/KqBfPaXqU2U)
+:::video id=ffee9682-1bfa-4717-9f22-9bc1baff0722:::
 Alekos Filini uurib protokolle, mis on loodud Lightning Network'i peale, selgitades, kuidas need aitavad kaasa Bitcoini skaleeritavusele ja funktsionaalsusele.
 # Boonus
 <partId>4c5c74d7-40a9-5292-9b82-e3f3d79875e1</partId>
@@ -218,14 +218,14 @@ Alekos Filini uurib protokolle, mis on loodud Lightning Network'i peale, selgita
 ## Bitcoini kaevandamise alused
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-![Video](https://youtu.be/W3Ra0cdG02I)
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
 
 Ajelex keskendub Bitcoini kaevandamise ärilisele aspektile, uurides strateegiaid kasumlikkuse säilitamiseks konkurentsirikkal turul. Arutelu hõlmab operatsioonikulude analüüsi, efektiivsuse meetmeid ja kaevandamistööstust ajendavaid majandustegureid.
 
 ## Joinmarketi mõistmine
 <chapterId>f109f64f-9b73-5fbf-8870-5d34d5b69df8</chapterId>
 
-![Video](https://youtu.be/VFjccozVwc8)
+:::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
 Adam Gibson pakub ülevaadet Joinmarketist, selgitades, kuidas see CoinJoini rakendus parandab Bitcoini privaatsust ja vahetatavust. Ta arutleb, kuidas Joinmarket võimaldab koostööl põhinevaid, usalduseta ja anonüümseid tehinguid Bitcoini ökosüsteemis. Teises osas näitab ta, kuidas käivitada Joinmarketi Signetis.
 
@@ -234,31 +234,31 @@ Adam Gibson pakub ülevaadet Joinmarketist, selgitades, kuidas see CoinJoini rak
 
 ### Groupe 1 Häkaton - Satoshi Pärand
 
-![Video](https://youtu.be/NiaahH57N1w)
+:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
 
 Satoshi Pärandi grupp esitleb oma tööd Lightning e-kaubanduse loomisel Shopify, React JS ja Hydrogeni ning IBEX maksevärava abil.
 
 ### Groupe 2 Häkaton - Honey Badger
 
-![Video](https://youtu.be/dds0-SV8ltE)
+:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
 
 Honey Badgeri grupp esitleb oma lahendust blogile, milles on integreeritud Lightningi mikromaksed, kasutades LnBitsi ja Next.js, Node.js ning Hydrogeni.
 
 ### Groupe 3 Häkaton
 
-![Video](https://youtu.be/2YjrrDMGU9c)
+:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
 
 Kolmas grupp esitleb Lightning Network Node'i armatuurlauda kohandatud API, LND, vue.js, node.js, Bootstrapi abil.
 
 ### Groupe 4 Häkaton - Satoshi Fellowship
 
-![Video](https://youtu.be/mxLKiHa0mes#)
+:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
 
 Satoshi Fellowshipi grupp esitleb LN mängurakendust, kasutades LnBitsi ja MongoDB, Poetry, Node.js.
 
 ### Groupe 5 Häkaton - Lighting Walker
 
-![Video](https://youtu.be/IiY5PmkGNVo)
+:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
 
 Lightning Walkeri grupp esitleb oma lahendust rahaülekannete teenusele, kasutades MySQL, JavaScripti ja ZDB API.
 

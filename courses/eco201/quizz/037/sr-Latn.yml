@@ -1,0 +1,9 @@
+question: Koja su trenutna dejstva smanjenja kamatnih stopa usled povećanja kredita prema Austrijskoj teoriji poslovnog ciklusa?
+answer: Preduzetnici mogu pozajmiti više resursa i tako stvoriti proizvodne faze višeg reda. Ovo proširenje proizvodne strukture neće rezultirati smanjenom potrošnjom jer nije došlo do odlaganja trenutne potrošnje od strane potrošača. Drugim rečima, BDP raste.
+wrong_answers:
+  - Preduzetnici mogu pozajmiti manje resursa i tako stvoriti niže faze proizvodnje. Ovo proširenje proizvodne strukture će rezultirati povećanom potrošnjom jer je došlo do odlaganja trenutne potrošnje od strane potrošača. Drugim rečima, BDP se smanjuje.
+  - Preduzetnici mogu pozajmiti više resursa i tako stvoriti niže redove proizvodnih faza. Ovo proširenje proizvodne strukture rezultiraće smanjenom potrošnjom jer nije došlo do odlaganja trenutne potrošnje od strane potrošača. Drugim rečima, BDP se smanjuje.
+  - Preduzetnici mogu pozajmiti manje resursa i tako stvoriti proizvodne faze višeg reda. Ovo proširenje proizvodne strukture će rezultirati povećanom potrošnjom jer je došlo do odlaganja trenutne potrošnje od strane potrošača. Drugim rečima, BDP raste.
+explanation: |
+  Prema Austrijskoj teoriji poslovnog ciklusa, kada dođe do smanjenja kamatnih stopa usled povećanja kredita, preduzetnici mogu pozajmiti više resursa i tako stvoriti proizvodne faze višeg reda. Ovo proširenje proizvodne strukture neće rezultirati smanjenjem potrošnje jer nije došlo do odlaganja trenutne potrošnje od strane potrošača. Drugim rečima, BDP raste.
+reviewed: true

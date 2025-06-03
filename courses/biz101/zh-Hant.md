@@ -620,7 +620,7 @@ Bitcoin 在美國日益普及，也影響了世界其他地方的心態，尤其
 
 這涉及從操作 Mining 機器賺取報酬。對於非專業企業而言，這仍是相對邊緣的。您可以透過中間人參與，他們會向您出售或出租計算機、網路和維護。如果您擁有這些機器，您可以將它們列為折舊資產。在大規模的情況下，您需要仔細計算投資報酬率，因為市場競爭激烈，需要很好地預測成本，尤其是電費。
 
-若要進一步瞭解 Mining 方法，您可以 [參考我們教學中的 "Mining" 章節](https://planb.network/tutorials/Mining)。
+若要進一步瞭解 Mining 方法，您可以 [參考我們教學中的 "Mining" 章節](https://planb.network/tutorials/mining)。
 
 
 - 購買 Bitcoin:**
@@ -631,7 +631,7 @@ Bitcoin 在美國日益普及，也影響了世界其他地方的心態，尤其
 
 https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-要瞭解更多關於透過 Exchange 或點對點取得比特幣的方法，您可以 [參考我們教學中的 "Exchange" 章節](https://planb.network/tutorials/Exchange)。
+要瞭解更多關於透過 Exchange 或點對點取得比特幣的方法，您可以 [參考我們教學中的 "Exchange" 章節](https://planb.network/tutorials/exchange)。
 
 ![BIZ101](assets/en/16.webp)
 
@@ -943,7 +943,7 @@ Starter 解決方案兼顧使用者友善的工具、最低的硬體需求，以
 **自保管 LN 錢包/節點：**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b

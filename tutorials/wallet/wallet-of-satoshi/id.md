@@ -1,178 +1,252 @@
 ---
-name: Wallet dari Satoshi (WoS)
-description: Wallet (kustodian) yang paling sederhana untuk memulai
+name: Wallet dari Satoshi
+description: Kustodian Wallet paling sederhana untuk memulai
 ---
 ![cover](assets/cover.webp)
 
 tutorial ini ditulis oleh_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Unduh, konfigurasikan, dan gunakan Wallet dari Satoshi
 
-Wallet dari Satoshi adalah Wallet Lightning Network, kustodian, sangat mudah digunakan.
+## Mengunduh, Menyiapkan, dan Menggunakan Wallet dari Satoshi
 
-Untuk keperluan kursus [BTC105 - Menemukan Diri Anda Sekarang] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), voucher ini digunakan untuk Redeem Lightning Network.
 
-**selalu ingat**: _bukan kunci Anda, bukan koin Anda_
+Wallet dari Satoshi adalah Lightning Network Wallet, kustodian, dan sangat mudah digunakan.
 
-Kustodian Wallet, tidak mengizinkan pengguna untuk membuang dana mereka sepenuhnya. Hal ini biasanya tidak disarankan, kecuali bagi mereka yang baru memulai. WoS harus digunakan sebagai gerbang Wallet atau untuk menyimpan uang saku, bukan untuk mengumpulkan dana dalam jangka panjang.
+Untuk keperluan kursus [BTC105 - Menemukan Sekarang] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), voucher ini digunakan untuk Redeem Lightning Network.
+
+
+**Selalu ingat**: _bukan kunci Anda, bukan koin Anda_
+
+
+Dompet kustodian tidak mengizinkan pengguna untuk mengontrol penuh dana mereka. Dompet ini biasanya tidak direkomendasikan, kecuali untuk pemula. WoS sebaiknya digunakan sebagai Wallet transisi atau untuk menyimpan uang saku, bukan untuk akumulasi dana jangka panjang.
+
 
 ---
-Wallet dari Satoshi (WoS) adalah produk kustodian, tetapi memiliki reputasi tertentu. Kami dapat menggunakan alat seperti WoS, misalnya, untuk meningkatkan kemampuan kami dalam menerima likuiditas. Kita mendelegasikan sementara kepada WoS "pekerjaan kotor" dalam mengelola likuiditas saluran untuk kita. Setelah mencapai jumlah tertentu, kami akan mengosongkan WoS On-Chain pada Wallet non-kustodian kami.
 
-**ATTENZIONE⚠️: Anda disarankan untuk membaca tutorial ini secara keseluruhan sebelum melanjutkan**
+Wallet dari Satoshi (WoS) adalah produk kustodian, tetapi memiliki reputasi tertentu. Kami dapat menggunakan alat seperti WoS, misalnya, untuk meningkatkan kemampuan kami dalam menerima likuiditas. Kita mendelegasikan sementara kepada WoS "pekerjaan kotor" mengelola likuiditas saluran untuk kita. Setelah jumlah tertentu tercapai, kami akan mengosongkan WoS On-Chain ke Wallet non-kustodian kami.
 
-## Mengunduh Wallet dari Satoshi
 
-Ayo pergi ke playstore dan unduh WoS
+**WARNING⚠️: Dianjurkan untuk membaca tutorial secara keseluruhan sebelum melanjutkan**
+
+
+### Mengunduh Wallet dari Satoshi
+
+
+Buka Play Store dan unduh WoS
+
 
 ![image](assets/it/01.webp)
 
-**Catatan:** WoS hanya dapat diunduh dari toko resmi. Jika sistem operasi perangkat diprogram, bagian verifikasi oleh OS itu sendiri akan dilakukan sebelum membuka WoS. Setelah tahap verifikasi selesai, pilih _Buka_.
+
+**Catatan:** WoS hanya dapat diunduh dari toko resmi. Jika sistem operasi perangkat diprogram, sebelum membuka WoS, ada bagian verifikasi oleh OS itu sendiri. Setelah tahap verifikasi, pilih _Open_.
+
 
 ![image](assets/it/02.webp)
 
-Wallet dari Satoshi terbuka dengan layar berikut dan Anda perlu mengklik _Start_
+
+Wallet dari Satoshi terbuka dengan layar berikut ini, dan Anda perlu mengklik _Start_
+
 
 ![image](assets/it/03.webp)
 
-## Mendaftarkan akun untuk WoS
 
-Pada titik ini Wallet sudah aktif dan berjalan, tetapi untuk keamanan tambahan, mari kita siapkan login: ini akan digunakan untuk memulihkan dana jika terjadi kegagalan atau kehilangan perangkat. Kemudian pilih menu di bagian kiri atas.
+### Mendaftarkan Akun untuk WoS
+
+
+Pada titik ini, Wallet sudah beroperasi, tetapi untuk keamanan yang lebih baik, kami melanjutkan untuk menyiapkan login: ini akan diperlukan untuk memulihkan dana jika terjadi kerusakan atau kehilangan perangkat. Oleh karena itu, pilih menu di kiri atas.
+
 
 ![image](assets/it/04.webp)
 
-Seluruh jendela menu terbuka, dan Anda hanya perlu menetapkan mata uang (Wallet pada Satoshi secara default menampilkan dolar A.S. sebagai mata uang referensi) dan warna tema (terang/gelap), tergantung selera Anda. Jangan gunakan kontrol lainnya.
 
-Karena WoS adalah alat kustodian, kami tidak dapat mencadangkan Wallet dengan frasa Mnemonic. Namun, kami dapat mengaktifkan WoS untuk mengambil dana kami, jika perangkat seluler hilang atau tidak digunakan, dengan mengeklik _Login/Daftar_
+Seluruh jendela menu akan terbuka, di mana Anda harus secara eksklusif menetapkan mata uang (Wallet pada Satoshi secara default menampilkan dolar AS sebagai mata uang referensi) dan warna tema (terang/gelap), sesuai selera. Jangan gunakan perintah lainnya.
 
-![image](assets/it/07.webp)
 
-Sebuah jendela muncul dan kita diminta untuk memasukkan email Address. Ini bisa berupa **email Proton** (disarankan), namun berfungsi, karena ini adalah email yang akan memungkinkan kami memulihkan dana Wallet, jika ponsel hilang/dicuri atau rusak
+Karena WoS adalah alat kustodian, kita tidak dapat mencadangkan Wallet dengan frasa Mnemonic, tetapi kita dapat mengaktifkan WoS untuk memulihkan dana kita, jika terjadi kehilangan atau tidak digunakannya perangkat seluler, dengan mengeklik _Login/Daftar_
+
+Sebuah jendela muncul meminta kita memasukkan email Address. Email ini dapat berupa email Proton (disarankan), tetapi harus berfungsi, karena ini akan memungkinkan kami untuk memulihkan dana di Wallet jika terjadi kehilangan/pencurian atau kerusakan pada ponsel.
+
 
 ![image](assets/it/08.webp)
 
-Wallet dari Satoshi mengirim pesan ke kotak email yang dilaporkan
+
+Wallet dari Satoshi telah mengirim pesan ke kotak masuk email yang ditunjukkan.
+
 
 ![image](assets/it/09.webp)
 
-Di kotak masuk kita akan menemukan dua kata, kita harus memasukkannya, menulis ulang, di ruang yang disajikan aplikasi kepada kita
+
+Di kotak surat, kita akan menemukan dua kata, yang harus kita masukkan, menulis ulang, di tempat yang disediakan oleh aplikasi.
 
 
-- jangan aktifkan penerjemah: kata-kata tersebut dan harus tetap dalam bahasa Inggris**
-- tulis ulang kedua kata tersebut dengan memperhatikan huruf besar/kecil**
+- jangan aktifkan penerjemah: kata-kata harus tetap dalam bahasa Inggris**
+- tulis ulang kedua kata tersebut dengan memperhatikan huruf besar/huruf kecil**
+
 
 ![image](assets/it/10.webp)
 
-Setelah menyalin kedua kata tersebut, klik _OK_
+
+Setelah menyalin kedua kata tersebut, klik _OK_.
+
 
 ![image](assets/it/11.webp)
 
-Hasilnya, sebuah gambar akan muncul di bagian atas, dengan simbol tanda centang untuk verifikasi
+
+Hasilnya akan berupa gambar yang muncul di bagian atas, dengan simbol tanda centang untuk verifikasi.
+
 
 ![image](assets/it/12.webp)
 
-sementara di bagian pengaturan, pita merah _Login/Register_ sekarang menampilkan email pengguna Address.
+
+sementara di bagian pengaturan, bilah _Login/Register_ berwarna merah sekarang menampilkan email pengguna Address.
+
 
 ![image](assets/it/13.webp)
 
-## Menerima pembayaran
+
+### Menerima Pembayaran
+
 
 Untuk menerima di WoS, klik _Receive_ dan serangkaian perintah akan muncul.
 
+
 ![image](assets/it/14.webp)
+
 
 Anda dapat menerima
 
 
 - melalui LN-Address **a**
-- melalui LN, pengaturan Invoice **b**
-- on chain (WoS mendukung jaringan Bitcoin tetapi dengan pertukaran kapal selam dengan biaya tertentu) **c**
-- membingkai kode QR dari LNurl-p **d**
+- melalui LN, dengan mengatur Invoice **b**
+- on chain (WoS mendukung jaringan Bitcoin tetapi dengan swap kapal selam berbayar) **c**
+- dengan memindai kode QR dari LNurl-p **d**
+
 
 ![image](assets/it/15.webp)
 
-## Penciptaan Invoice
 
-Klik _Receive_ dan pilih perintah dengan simbol Lightning Network
+### Membuat Invoice
+
+
+Klik _Receive_ dan pilih perintah dengan simbol Lightning Network.
+
 
 ![image](assets/it/16.webp)
 
-Hanya menu pembuatan Invoice yang muncul, di mana kita klik _Addend Amount_ untuk menulis jumlah yang tepat dan menambahkan deskripsi, dalam contoh ini, "Invoice pertama saya."
+
+Menu pembuatan Invoice muncul, dan kita klik _Tambahkan Jumlah_ untuk menulis jumlah yang tepat dan menambahkan deskripsi, dalam contoh ini, "Invoice pertama saya".
+
 
 ![image](assets/it/17.webp)
 
-Dengan menggunakan keyboard, kami mengatur jumlahnya
+
+Dengan keyboard, kami menetapkan jumlahnya.
+
 
 ![image](assets/it/18.webp)
 
-dan kemudian mendapatkan pembayaran Invoice. Pembayaran yang diterima akan terlihat seperti ini:
+
+untuk kemudian mendapatkan pembayaran Invoice. Pembayaran yang diterima akan muncul seperti ini:
+
 
 ![image](assets/it/19.webp)
 
-## Pengambilan dari POS
 
-Wallet dari Satoshi memiliki fitur yang menarik secara default, membuatnya sangat cocok untuk pedagang: POS. Mari kita lihat cara mengaktifkannya.
+### Pengambilan dari POS
 
-Dari layar utama, pilih menu di sudut kanan atas
+
+Wallet dari Satoshi memiliki fitur default, yang membuatnya sangat cocok untuk pedagang: POS. Mari kita lihat cara mengaktifkannya.
+
+
+Dari layar utama, pilih menu di kanan atas.
+
 
 ![image](assets/it/20.webp)
 
-Setelah itu, pilih _Point of Sale_
+
+Kemudian pilih _Point of Sale_.
+
 
 ![image](assets/it/21.webp)
 
-Dengan rilis terbaru WoS, perhatikan untuk memilih _Keypad_
+
+Dengan rilis terbaru WoS, pastikan untuk memilih _Keypad_.
+
 
 ![image](assets/it/22.webp)
 
-lalu ketik jumlahnya pada keypad, dalam contoh berikut ini sama dengan 18 sen / 118 Sats. Tambahkan deskripsi untuk koleksi, dalam hal ini "kedua saya dengan POS." Tombol Green yang besar akan menyala, dan Anda harus mengklik
+lalu ketik jumlahnya pada keypad, dalam contoh berikut ini sama dengan 10 sen / 118 Sats. Tambahkan deskripsi untuk koleksi, dalam hal ini "koleksi saya yang kedua dengan POS". Tombol Green yang besar akan menyala, dan harus diklik
 
 ![image](assets/it/23.webp)
 
-untuk generate Invoice dan menunjukkannya-misalnya-kepada klien.
+
+ke generate ke Invoice dan menunjukkannya - misalnya - kepada pelanggan.
+
 
 ![image](assets/it/24.webp)
 
+
 Pembayaran ini juga ditagih!
+
 
 ![image](assets/it/25.webp)
 
-## Mengirim pembayaran
+
+### Mengirim pembayaran
+
 
 Kesederhanaan adalah kekuatan layar utama WoS. Untuk membayar Invoice, klik _Kirim_
 
+
 ![image](assets/it/26.webp)
+
 
 Pada penggunaan pertama kali, WoS meminta izin untuk mengakses kamera
 
+
 ![image](assets/it/27.webp)
 
-Mulai saat ini, kamera diaktifkan
+
+Mulai saat ini, kamera akan aktif
+
 
 ![image](assets/it/28.webp)
 
-Dengan membingkai Invoice, kami melihat bahwa pembayaran sebesar 210 Sats telah diminta. Layar ini juga menampilkan deskripsi, jika pemohon telah menetapkannya. Layar ini adalah ringkasan dan juga permintaan konfirmasi: WoS "meminta izin" untuk mengirim pembayaran, yang diberikan dengan mengklik tombol Green _Send_
+
+Dengan membingkai Invoice, kami melihat bahwa pembayaran sebesar 210 Sats telah diminta. Deskripsi juga terbaca, jika pemohon telah menetapkannya. Layar ini adalah ringkasan dan juga permintaan konfirmasi: WoS "meminta otorisasi" untuk mengirim pembayaran, yang diberikan dengan mengklik tombol Green _Send_
+
 
 ![image](assets/it/29.webp)
 
-Ketika pembayaran tiba di tempat tujuan, WoS akan memberi tahu dengan layar ini
+
+Ketika pembayaran mencapai tujuannya, WoS akan memberi tahu dengan layar ini
+
 
 ![image](assets/it/30.webp)
 
-Dari layar princicpal, klik _History_ (tepat di bawah saldo) untuk menampilkan daftar transaksi
+
+Dari layar utama, klik _History_ (tepat di bawah saldo), daftar transaksi akan muncul
+
 
 ![image](assets/it/31.webp)
 
-### Pemulihan akun WoS
 
-Sekarang, kita akan melihat bagaimana cara menginstal WoS pada perangkat baru; ini juga akan berguna jika terjadi pencurian, kehilangan, atau ketidakmampuan untuk mengoperasikan ponsel yang sebelumnya telah diinstal Wallet. Setelah terinstal ulang, Anda harus mengulangi prosedur pendaftaran akun yang baru saja dijelaskan, dengan satu variasi: di akhir permintaan login dengan email yang telah ditetapkan sebelumnya, WoS akan muncul seperti ini:
+#### Memulihkan akun WoS
+
+
+Sekarang, kita akan melihat bagaimana cara menginstal WoS pada perangkat baru; ini juga akan berguna jika terjadi pencurian, kehilangan, atau ketidakmampuan untuk mengoperasikan ponsel tempat Wallet diinstal sebelumnya. Setelah terinstal ulang, Anda harus mengulangi prosedur pendaftaran akun yang baru saja dijelaskan, dengan satu varian: di akhir permintaan untuk masuk dengan email yang telah ditetapkan sebelumnya, WoS akan muncul seperti ini:
+
 
 ![image](assets/it/33.webp)
 
-Sebuah pesan memberitahukan bahwa prosedur untuk mengaktifkan kembali akun telah dikirim melalui email. Kita harus membuka kotak surat.
 
-**PENTING**: buka email dari PC atau, bagaimanapun juga, dari perangkat lain selain dari perangkat yang akan digunakan untuk mengambil akun WoS. Di kotak masuk kami menemukan pesan yang menunjukkan kepada kami kode QR untuk dibingkai
+Sebuah pesan memperingatkan kita bahwa sebuah email telah dikirim dengan prosedur untuk mengaktifkan kembali akun. Anda harus membuka kotak masuk email Anda.
+
+
+**PENTING**: buka email dari PC atau, dalam hal apa pun, dari perangkat yang berbeda dari perangkat yang akan Anda gunakan untuk memulihkan akun WoS. Di kotak masuk, kami menemukan pesan yang menunjukkan kepada kami kode QR untuk dibingkai
+
 
 ![image](assets/it/34.webp)
 
-Setelah kode QR dibingkai, akun yang diambil akan muncul di halaman utama WoS, dengan saldo dan riwayatnya.
+
+Setelah kode QR dibingkai, pada halaman utama WoS, akun yang dipulihkan akan muncul, dengan saldo dan riwayat.

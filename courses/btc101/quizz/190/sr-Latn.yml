@@ -1,0 +1,11 @@
+question: Šta je AMF?
+answer: Autorité des Marchés Financiers.
+wrong_answers:
+  - Američki monetarni fond.
+  - Asocijacija Mining objekata.
+  - Automatizovani Tok Novca.
+explanation: |
+  AMF, ili Autorité des Marchés Financiers, je francuska
+  organizacija koja reguliše platforme na kojima se bitkoini mogu
+  kupovati.
+reviewed: true

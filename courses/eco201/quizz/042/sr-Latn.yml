@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između austrijske analize i one monetarista i kejnzijanaca?
+answer: Austrijska analiza posvećuje posebnu pažnju različitim fazama proizvodnje i strukturi relativnih cena, dok se monetaristi i kejnzijanci zaustavljaju na agregiranim varijablama kao što su nivoi zaposlenosti, BDP ili indeks potrošačkih cena.
+wrong_answers:
+  - Austrijska analiza se zaustavlja na agregiranim varijablama kao što su nivoi zaposlenosti, BDP ili indeks potrošačkih cena, dok monetaristi i kejnzijanci posvećuju posebnu pažnju različitim fazama proizvodnje i strukturi relativnih cena.
+  - Austrijska analiza i analiza monetarista i kejnzijanaca su suštinski iste.
+  - Austrijska analiza se fokusira na spoljne događaje i animal spirits, dok se monetaristi i kejnzijanci fokusiraju na endogene dinamike sistema frakcionalnog rezervnog bankarstva.
+explanation: |
+  Glavna razlika između austrijske analize i one monetarista i kejnzijanaca je u tome što prva posvećuje posebnu pažnju različitim fazama proizvodnje i strukturi relativnih cena, dok se druga zaustavlja na agregiranim varijablama kao što su nivoi zaposlenosti, BDP ili indeks potrošačkih cena.
+reviewed: true

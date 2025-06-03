@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između poboljšanog rikošeta i klasičnog rikošeta?
+answer: Distribucija transakcija tokom vremena
+wrong_answers:
+  - Broj korišćenih transakcija
+  - Tip Address koji se koristi
+  - Broj izlaza u transakcijama
+explanation: |
+  Poboljšani rikocet osigurava da se svaka transakcija emituje u različito vreme i zabeleži u različitom bloku, dok klasični rikocet emituje sve transakcije u kratkom vremenskom periodu.
+reviewed: false

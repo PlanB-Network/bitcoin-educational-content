@@ -1,0 +1,8 @@
+question: Lightning Network 的主要用途是什麼？
+answer: 方便進行微交易。
+wrong_answers:
+  - 要增加 Bitcoin 的值。
+  - 取代 Bitcoin 通訊協定。
+  - 建立新的加密貨幣。
+explanation: >-
+reviewed: true

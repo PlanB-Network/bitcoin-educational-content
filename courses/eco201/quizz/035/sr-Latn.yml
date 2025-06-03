@@ -1,0 +1,9 @@
+question: Šta se dešava kada dođe do smanjenja kamatnih stopa usled povećanja štednje prema Austrijskoj teoriji poslovnog ciklusa?
+answer: Količina konačnih dobara koja se konzumiraju će se smanjiti, kamatne stope će pasti, preduzetnici će iskoristiti ovaj priliv kapitala za stvaranje novih investicionih dobara i na taj način produžiti strukturu proizvodnje.
+wrong_answers:
+  - Količina konačnih dobara koja se konzumira će se povećati, kamatne stope će porasti, preduzetnici će koristiti ovaj priliv kapitala za stvaranje novih investicionih dobara i time skratiti proizvodnu strukturu.
+  - Količina konačnih dobara koja se konzumira će se smanjiti, kamatne stope će porasti, preduzetnici će koristiti ovaj priliv kapitala za stvaranje novih investicionih dobara i time skratiti proizvodnu strukturu.
+  - Količina konačnih dobara koja se konzumira će se povećati, kamatne stope će pasti, preduzetnici će iskoristiti ovaj priliv kapitala za stvaranje novih investicionih dobara i time skratiti proizvodnu strukturu.
+explanation: |
+  Prema Austrijskoj teoriji poslovnog ciklusa, kada dođe do smanjenja kamatnih stopa zbog povećanja štednje, količina konačnih dobara koja se konzumiraju će se smanjiti jer štednja podrazumeva odlaganje dela potrošnje za kasniji datum. Kao rezultat toga, kamatne stope će pasti jer Supply kapitala raste. Ovo omogućava preduzetnicima da iskoriste ovaj priliv kapitala za stvaranje novih investicionih dobara i time produže strukturu proizvodnje.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaką główną zaletę oferuje podejście warstwowe dla Bitcoin?
+answer: Utrzymanie bezpieczeństwa protokołu bazowego
+wrong_answers:
+  - Rosnąca centralizacja głównej sieci
+  - Szybkie innowacje w protokole podstawowym
+  - Posiadanie tych samych funkcji w warstwach, co w protokole podstawowym
+explanation: |
+  Podejście warstwowe pozwala na dodawanie funkcjonalności bez uszczerbku dla bezpieczeństwa i prostoty protokołu bazowego.
+reviewed: false

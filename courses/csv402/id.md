@@ -80,7 +80,7 @@ Siap menyelami dunia RGB yang kompleks dan menarik? Ayo mulai!
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
-![video](https://youtu.be/AF2XbifPGXM)
+:::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 RGB adalah sebuah protokol yang didesain untuk menerapkan dan menegakkan hak-hak digital (dalam bentuk kontrak dan aset) dengan cara yang terukur dan rahasia, berdasarkan aturan konsensus dan operasi blockchain Bitcoin. Tujuan dari bab pertama ini adalah untuk menyajikan konsep dasar dan terminologi seputar protokol RGB, menyoroti secara khusus hubungan eratnya dengan konsep komputasi terdistribusi dasar seperti Validasi Sisi Klien dan Segel Sekali Pakai.
 
@@ -424,7 +424,7 @@ Sebelum masuk ke dalam detail yang lebih teknis pada bab kedua, jangan ragu untu
 
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
-![video](https://youtu.be/FS6PDprWl5Q)
+:::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 Pada bab ini, kita akan melihat implementasi Validasi Sisi Klien dan Segel Sekali Pakai di dalam blockchain Bitcoin. Kami akan menyajikan prinsip-prinsip utama dari **lapisan komitmen** (lapisan 1) RGB, dengan fokus khusus pada skema **TxO2**, yang digunakan RGB untuk mendefinisikan dan menutup segel dalam transaksi Bitcoin. Selanjutnya, kita akan membahas dua poin penting yang belum dibahas secara mendetail:
 
@@ -1012,7 +1012,7 @@ Pada bab selanjutnya, kita akan melihat komponen off-chain murni dari RGB, yaitu
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
-![video](https://youtu.be/tmAVdyXGmj4)
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
 Pada bab ini dan bab berikutnya, kita akan melihat gagasan **kontrak pintar** dalam lingkungan RGB dan mengeksplorasi berbagai cara di mana kontrak ini dapat mendefinisikan dan mengembangkan *state* mereka. Kita akan melihat mengapa arsitektur RGB, dengan menggunakan urutan yang teratur dari Segel Sekali Pakai, memungkinkan untuk mengeksekusi berbagai jenis ***Operasi Kontrak*** dengan cara yang dapat diskalakan dan tanpa melalui registri terpusat. Kita juga akan melihat peran mendasar dari ***Business Logic*** dalam membingkai evolusi status kontrak.
 
@@ -1104,7 +1104,7 @@ Pada bab selanjutnya, kita akan membahas lebih detail mengenai representasi konk
 
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
-![video](https://youtu.be/lUTjeuM0oTA)
+:::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
 Pada bab ini, kita akan melihat bagaimana operasi dalam smart contract dan transisi state bekerja, sekali lagi dalam protokol RGB. Tujuannya juga untuk memahami bagaimana beberapa peserta bekerja sama untuk mentransfer kepemilikan aset.
 
@@ -1927,7 +1927,7 @@ Transaksi Saksi adalah transaksi Bitcoin yang menutup Segel Sekali Pakai di seki
 
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
-![video](https://youtu.be/Uo1UoxiImsI)
+:::video id=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
 
 Pada bab ini, kita akan melihat lebih dekat bagaimana kontrak RGB didefinisikan dan diimplementasikan. Kita akan melihat apa saja komponen-komponen dari kontrak RGB, apa saja perannya, dan bagaimana cara membuatnya.
 
@@ -2615,7 +2615,7 @@ Pada bab berikutnya, kita akan melihat cara kerja transfer kontrak, dan bagaiman
 
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
-![video](https://youtu.be/sVoKIi-1XbY)
+:::video id=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
 
 Pada bab ini, kita akan menganalisis proses transfer kontrak dalam ekosistem RGB. Untuk mengilustrasikan hal ini, kita akan melihat Alice dan Bob, tokoh protagonis yang biasa kita temui, yang ingin menukarkan aset RGB. Kita juga akan menunjukkan beberapa kutipan perintah dari alat bantu baris perintah `rgb`, untuk melihat bagaimana cara kerjanya dalam praktik.
 
@@ -2909,7 +2909,7 @@ Sekarang, setelah kita melihat elemen utama pemrograman RGB, saya akan mengajak 
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
-![video](https://youtu.be/GRwS-NvWF3I)
+:::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
 Pada bab ini, kita akan melakukan pendekatan langkah demi langkah untuk menulis kontrak, menggunakan alat bantu baris perintah `rgb`. Tujuannya adalah untuk menunjukkan cara menginstal dan memanipulasi CLI, mengkompilasi **Skema**, mengimpor **Interface** dan **Implementasi Antarmuka**, kemudian menerbitkan (*issue*) aset. Kita juga akan melihat logika yang mendasarinya, termasuk kompilasi dan validasi state. Pada akhir bab ini, Anda seharusnya dapat mereproduksi proses tersebut dan membuat kontrak RGB Anda sendiri.
 
@@ -3208,7 +3208,7 @@ Dalam bab berikutnya, kita akan melihat lebih dekat pada pengintegrasian RGB ke 
 
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
-![video](https://youtu.be/mqCupTlDbA0)
+:::video id=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 Dalam bab ini, saya mengusulkan untuk memeriksa bagaimana RGB dapat digunakan dalam Lightning Network, untuk mengintegrasikan dan memindahkan aset RGB (token, NFT, dll.) melalui saluran pembayaran off-chain.
 
@@ -3363,7 +3363,7 @@ Ekosistem yang terkait dengan pengembangan deterministik sumber terbuka.
 
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
-![video](https://youtu.be/nbUtV8GOR_U)
+:::video id=2ec9a181-a8b0-4da2-b7b5-9dfaaaeb10ba:::
 
 Bagian terakhir dari kursus ini didasarkan pada presentasi yang dibuat oleh berbagai pembicara pada pelatihan RGB. Bagian ini mencakup testimoni dan refleksi tentang RGB dan ekosistemnya, serta presentasi alat dan proyek berdasarkan protokol. Bab pertama ini dimoderatori oleh Hunter Beast, dan dua bab berikutnya oleh Frederico Tenga.
 
@@ -3429,7 +3429,7 @@ Dompet **Bitmask** adalah bagian dari pendekatan ini: di sisi blockchain, yang A
 
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
-![vidéo](https://youtu.be/5iAhsgCSL3U)
+:::video id=04555813-516f-4eea-9767-7082c2ea6f01:::
 
 Dalam bab ini, berdasarkan presentasi oleh Frederico Tenga, kita akan melihat seperangkat alat dan proyek yang dibuat oleh tim Bitfinex yang didedikasikan untuk RGB, dengan tujuan untuk mendorong munculnya ekosistem yang kaya dan beragam di sekitar protokol ini. Tujuan awal tim ini bukan untuk merilis produk komersial tertentu, melainkan untuk menyediakan blok bangunan perangkat lunak, berkontribusi pada protokol RGB itu sendiri, dan mengusulkan referensi implementasi konkret seperti dompet seluler (*Iris Wallet *) atau simpul Lightning yang kompatibel dengan RGB.
 
@@ -3543,7 +3543,7 @@ Dalam bab berikutnya, kita akan melihat lebih dekat pada cara meluncurkan node R
 
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
-![vidéo](https://youtu.be/piQQH4Q2nr0)
+:::video id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::
 
 Dalam bab terakhir ini, Frederico Tenga akan memandu Anda langkah demi langkah dalam menyiapkan node Lightning RGB di lingkungan Regtest, dan menunjukkan kepada Anda cara membuat token RGB di dalamnya. Dengan meluncurkan dua node terpisah, Anda juga akan menemukan cara membuka saluran Lightning di antara keduanya dan bertukar aset RGB.
 

@@ -1,0 +1,120 @@
+id: 41d2939e-69b9-4c2e-b836-a2b09de58051
+
+project_id: 4595235a-f943-4976-9c16-0518dd372511
+
+tags:
+  - personal-security
+  - keys
+  - hardware
+
+category: authentication
+
+level: advanced
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-04-16
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 2.65
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.04
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.31
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.31
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.31
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.04
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.04
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.25
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.31
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.52
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.04
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.04
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.31
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.04
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.04
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.04
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.52
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.78

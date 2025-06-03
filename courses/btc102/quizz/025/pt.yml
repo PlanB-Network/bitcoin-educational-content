@@ -1,9 +1,9 @@
-question: Qual é o papel dos mineradores na rede Bitcoin?
-answer: Para registrar as transações propagadas na blockchain do Bitcoin.
+question: Qual é a principal caraterística que distingue o Bitcoin das altcoins?
+answer: Descentralização
 wrong_answers:
-  - Para criar novos bitcoins
-  - Para regular o valor dos bitcoins
-  - Para verificar a identidade dos usuários do Bitcoin
+  - Liquidez
+  - Reputação
+  - Privacidade
 explanation: |
-  Os mineradores na rede Bitcoin são responsáveis por registrar as transações que foram propagadas pela rede na blockchain do Bitcoin. Isso garante a finalidade das transações.
+  O Bitcoin é conhecido por sua descentralização, ao contrário da maioria das altcoins que são mais ou menos centralizadas.
 reviewed: false

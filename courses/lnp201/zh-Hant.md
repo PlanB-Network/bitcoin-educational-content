@@ -2,7 +2,6 @@
 name: Lightning Network 理論介紹
 goal: 從技術角度探索 Lightning Network
 objectives: 
-
   - 瞭解網路頻道的運作。
   - 熟悉詞彙 HTLC、LNURL 和 UTXO。
   - 同化流動資金的管理和 LNN 的費用。
@@ -21,6 +20,34 @@ objectives:
 享受您的發現！
 
 +++
+
+# 介紹
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## 課程概述
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+歡迎參加 LNP201 課程！
+
+本次培訓旨在讓您深入了解閃電網路的技術，閃電網路是一種旨在促進快速且通常低成本的比特幣交易的覆蓋網路。您將逐漸發現管理該系統的基本概念，從開放支付管道到路由技術和流動性管理。
+
+**第 1 部分：基礎知識**
+我們將首先對閃電網路進行概述，建立有關比特幣、其地址、UTXO 以及交易如何運作的基本基礎知識。為了理解閃電網路如何依賴底層區塊鏈機制安全運行，進行這項基本審查是必要的。
+
+**第二部分：開啟和關閉 Channels**
+在本節中，我們將探索通道開通過程，這是閃電網路的基石。您將了解如何建立承諾交易、撤銷金鑰在安全方面的作用以及如何以協作或單方面的方式關閉管道。每個步驟都會得到精確且專業的解釋，以幫助您掌握所有細節。
+
+**第三部分：流動性網絡**
+閃電網路並不局限於單一通道；它是一個真正的支付網路。我們將看到如何使用 HTLC 透過中間節點路由交易。本節也將向您介紹流入和流出流動性的挑戰。
+
+第四部分：閃電網路工具
+本節介紹閃電網路的實用工具，例如*Invoices*、*LNURL*和*Keysend*。您還將學習如何管理管道的流動性，這是確保順​​利付款和最大限度提高 Lightning 交易效率的重要方面。
+
+**第五部分：進一步了解**
+最後，我們將透過回顧所涵蓋的概念並為那些希望加深對閃電網路了解的人鋪平更高級的主題來結束培訓。
+
+準備好揭開閃電網路的技術機制了嗎？讓我們開始吧！ 介紹
+
 # 基本原理
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -29,7 +56,7 @@ objectives:
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![video en](https://youtu.be/QDQ8NG0l3hk)
+:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
 
 歡迎來到 LNP201 課程，此課程旨在說明 Lightning Network 的技術功能。
 
@@ -88,7 +115,7 @@ Lightning Network 是建構在 Bitcoin 通訊協定之上的付款通道網路�
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![video en](https://youtu.be/U9l5IVriCss)
+:::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
 本章有點特別，因為它不會直接介紹「閃電」，而是介紹 Bitcoin。事實上，Lightning Network 是 Bitcoin 上的 Layer。因此，理解 Bitcoin 的某些基本概念對於在接下來的章節中正確掌握 Lightning 的運作是非常重要的。在本章中，我們將回顧 Bitcoin 接收位址、UTXOs 以及 Bitcoin 交易功能的基本知識。
 
@@ -157,7 +184,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![video en](https://youtu.be/Ty80WuN5X-g)
+:::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 在本章中，我們將更精確地了解如何在 Lightning Network 上開啟付款通道，並理解此操作與底層 Bitcoin 系統之間的聯繫。
 
@@ -229,7 +256,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![video en](https://youtu.be/dzPMGiR_JSE)
+:::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 在本章中，我們將發現 Lightning Network 上通道內交易的技術功能，也就是當資金從通道的一邊移到另一邊時。
 
@@ -292,7 +319,7 @@ UTXO 不能分割。每次使用它們來花費它們所代表的比特幣金額
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
-![video en](https://youtu.be/veCs39uVFUk)
+:::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
 
 在本章中，我們將透過討論防止作弊的機制，深入探討 Lightning Network 上的交易是如何運作的，以確保每一方都遵守通道內的規則。
 
@@ -379,7 +406,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-![video en](https://youtu.be/zmAa2fj_V7w)
+:::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 在本章中，我們將討論在 Lightning Network 上**關閉通道**，這是透過 Bitcoin 交易完成的，就像開啟通道一樣。在了解通道內的交易如何運作後，現在該看看如何在 Bitcoin Blockchain 上關閉通道並收回資金。
 
@@ -473,7 +500,7 @@ Lightning Network 上的**Commitment 交易**包含安全機制，可降低作�
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
-![video en](https://youtu.be/44oBdNdXtEQ)
+:::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 在本章中，我們將探討在Lightning Network上的付款如何能到達收款人，即使他們之間沒有直接的付款通道連接。事實上，Lightning 是一個**支付通道的網路，它允許透過其他參與者的通道將資金傳送至遠方的節點。我們將發現支付如何在整個網路中傳遞、流動資金如何在通道之間移動，以及交易費用是如何計算的。
 
@@ -609,7 +636,7 @@ $$ f*{text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \ap
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![video en](https://youtu.be/jI4nM297aHA)
+:::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 在本章中，我們將發現 Lightning 如何允許付款通過中介節點而無需信任它們，這要歸功於 **HTLC**（_Hashed Time-Locked Contracts_）。這些智能合約確保每個中介節點只有在轉發付款給最終收款人時，才會從其通道收到資金，否則，付款將不被驗證。
 
@@ -738,7 +765,7 @@ HTLC 可使 Lightning 付款通過多個節點進行路由，而無需信任這�
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![video en](https://youtu.be/CqetCElRjUQ)
+:::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
 
 在前面的章節中，我們看到了如何使用其他節點的通道來路由付款，並在不透過通道直接連接到節點的情況下到達該節點。我們也討論了如何在不信任中介節點的情況下，確保轉帳的安全性。在本章中，我們將專注於尋找到達目標節點的最佳路徑。
 
@@ -834,7 +861,7 @@ Alice 決定測試她的第一條路線 (`Alice→1→2→5→Bob`)。因此，�
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
-![video en](https://youtu.be/XANzf1Qqp9I)
+:::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 在本章中，我們將進一步了解 Lightning **發票**的操作，也就是收款節點發送給發款節點的付款請求。我們的目標是了解如何在Lightning上付款和收款。我們還將討論經典發票的兩個替代方案：LNURL 和 Keysend。
 
@@ -957,7 +984,7 @@ LNURL 是一種通訊協定，它指定了一系列功能，旨在簡化 Lightni
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![video en](https://youtu.be/MIbej28La7Y)
+:::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
 
 在本章中，我們將探討在 Lightning Network 上有效管理流動性的策略。流動性管理因使用者類型和環境而異。我們將探討主要原則和現有技術，以便更好地瞭解如何優化這種管理。
 
@@ -1034,7 +1061,7 @@ Lightning 上有三種主要的用戶類型，每種類型都有特定的流動�
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
-![video en](https://youtu.be/coaskEGRjiU)
+:::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
 
 在標誌著 LNP201 訓練結束的最後一章中，我建議重溫我們一起涵蓋過的重要概念。
 

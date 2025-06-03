@@ -1,0 +1,9 @@
+question: Na šta se odnosi Bitcoin?
+answer: Internet
+wrong_answers:
+  - Blockchain
+  - Bankarski sistem
+  - Tržište akcija
+explanation: |
+  Poglavlje navodi da je Bitcoin izvorno za internet, što ga čini dostupnim svakome ko ima pristup internetu.
+reviewed: false

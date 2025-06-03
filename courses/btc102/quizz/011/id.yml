@@ -1,13 +1,9 @@
-question: Apa manfaat utama menggunakan VPN?
-answer: Ini melindungi privasi Anda dengan menyembunyikan alamat IP Anda
+question: Mengapa penting untuk melindungi frasa Mnemonic Anda?
+answer: Karena kehilangannya mengakibatkan hilangnya bitcoin secara permanen
 wrong_answers:
-  - Ini mempercepat koneksi internet Anda
-  - Ini memberikan akses gratis ke layanan berbayar
-  - Ini melindungi komputer Anda dari virus
+  - Karena Blockchain terlalu lama untuk meregenerasinya
+  - Karena kehilangannya dapat menyebabkan kebocoran data pribadi
+  - Karena platform Exchange membutuhkan banyak dokumen untuk meregenerasinya
 explanation: |
-  VPN, atau Jaringan Pribadi Virtual, melindungi privasi Anda dengan menyembunyikan
-  
-  alamat IP Anda. Meskipun ini tidak membuat Anda sepenuhnya anonim, ini masih merupakan langkah sederhana
-  
-  dan efektif untuk meningkatkan privasi online Anda.
+  Frasa Mnemonic memungkinkan akses untuk dipulihkan. Jika hilang dan Wallet tidak lagi dapat diakses di perangkatnya, maka bitcoin akan hilang secara permanen.
 reviewed: false

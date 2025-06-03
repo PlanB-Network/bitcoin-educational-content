@@ -1,6 +1,6 @@
 ---
 name: Configurando um BitAxe
-Description: Como configurar um BitAxe?
+description: Como configurar um BitAxe?
 ---
 
 ### Introdução

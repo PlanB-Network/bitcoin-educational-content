@@ -519,7 +519,7 @@ Felizmente, desde 2017, a chave privada pode ser representada por uma lista simp
 
 ### E os piratas informáticos?
 
-E se alguém adivinhar acidentalmente a nossa lista de 12 ou 24 palavras? A resposta curta é que é altamente improvável, graças à criptografia utilizada para criar a carteira. Para colocar isto em perspetiva, descobrir acidentalmente a sua mesma frase mnemónica é semelhante a encontrar o número "certo" entre 1 e $2^256$, o que é quase equivalente a encontrar o átomo "certo" no Universo. No entanto, se não estiver satisfeito com esta segurança por defeito, pode sempre melhorá-la adicionando uma frase-chave (uma palavra extra) à sua carteira Bitcoin.
+E se alguém adivinhar acidentalmente a nossa lista de 12 ou 24 palavras? A resposta curta é que é altamente improvável, graças à criptografia utilizada para criar a carteira. Para colocar isto em perspetiva, descobrir acidentalmente a sua mesma frase mnemónica é semelhante a encontrar o número "certo" entre 1 e 2 elevado à potência de 256, o que é quase equivalente a encontrar o átomo "certo" no Universo. No entanto, se não estiver satisfeito com esta segurança por defeito, pode sempre melhorá-la adicionando uma frase-chave (uma palavra extra) à sua carteira Bitcoin.
 
 ![image](assets/en/29.webp)
 
@@ -1135,7 +1135,7 @@ Uma estratégia gradual envolve compras recorrentes, o que significa comprar peq
 
 **Cuidado com os UTXOs**: Lembre-se de consolidar os seus UTXOs nas suas carteiras de tempos a tempos. Esta prática é essencial para gerir eficazmente os seus bitcoins e evitar taxas desnecessárias durante as transacções.
 
-Um [UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) é uma saída de uma transação que ainda não foi gasta, o que significa que não foi utilizada como entrada para uma nova transação. Consolidar UTXOs significa combinar vários UTXOs pequenos em um maior, a fim de diminuir o "peso" da transação e, assim, pagar taxas mais baixas.
+Um [UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) é uma saída de uma transação que ainda não foi gasta, o que significa que não foi utilizada como entrada para uma nova transação. Consolidar UTXOs significa combinar vários UTXOs pequenos em um maior, a fim de diminuir o "peso" da transação e, assim, pagar taxas mais baixas.
 
 - Compra espontânea
 

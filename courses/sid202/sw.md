@@ -28,7 +28,7 @@ Jiunge nasi ili kuinua ujuzi wako, kufungua uwezo kamili wa Liquid na Elements, 
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
-![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
+:::video id=e0166470-5561-4b3b-9d0d-4edee69b64d8:::
 
 Madhumuni ya Elements Academy ni kutambulisha na kueleza dhana muhimu za Elements, jukwaa la programu huria ambalo Liquid imejengwa juu yake. Kufikia mwisho wa kozi, unapaswa kuwa na ufahamu mzuri wa sifa kuu za Elements, kama vile Confidential Transactions na Issued Assets, na michakato inayohusika katika kuendesha Elements Core.
 
@@ -40,7 +40,7 @@ Maswali yoyote, maombi ya maelezo ya ziada au maswali juu ya majibu ya chemsha b
 
 <chapterId>7a7f2712-5300-4a6d-b1ed-05eab731bc35</chapterId>
 
-![Video](https://youtu.be/ns-JLGdkNig?si=fmWye_boRSvVF1Bt)
+:::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
 Elements ni chanzo huria, jukwaa la Blockchain lenye uwezo wa Sidechain, linalotoa ufikiaji wa vipengele muhimu vilivyotengenezwa na wanajamii, kama vile Confidential Transactions na Issued Assets.
 
@@ -82,7 +82,7 @@ Elements inaongeza vipengele hivi vyote juu ya Bitcoin Core codebase, kupanua uw
 
 <chapterId>05d88877-58b0-455b-9ae6-a72d19070525</chapterId>
 
-![Video](https://youtu.be/v0lzmfH81AY?si=V-xDWfmDLKyBcdPs)
+:::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
 Elements hutoa suluhisho la kiufundi kwa matatizo ya watumiaji wa Blockchain kila siku; ucheleweshaji wa shughuli, ukosefu wa faragha, na hatari ya kugundulika.
 
@@ -143,7 +143,7 @@ Ili kuhamisha mali kurudi kwa mainchain, mtumiaji hufanya shughuli maalum ya peg
 
 <chapterId>cc806e5a-81ab-457b-9531-9f863120a019</chapterId>
 
-![Video](https://youtu.be/Frr_OjTEPAM?si=iq5XonJyQk8S5OAu)
+:::video id=1f73dfee-3623-483b-ab42-07d9286ed999:::
 
 Kwa vile Elements inategemea Bitcoin codebase, vipengele vinavyounda mtandao unaofanya kazi vinafanana sana.
 
@@ -224,7 +224,7 @@ Hii itaturuhusu kufanya shughuli za kila aina kama vile kufanya shughuli za mali
 
 <chapterId>263b1c5b-59ed-49e7-b811-95c354f41eae</chapterId>
 
-![Video](https://youtu.be/-by2xBtXQeE?si=7bLo_geGn3qh7MXN)
+:::video id=ea2121b6-24a8-458d-91e6-0c92eaf4dc65:::
 
 Katika sehemu hii utajifunza jinsi ya kutumia kipengele cha Confidential Transactions cha Elements.
 
@@ -336,7 +336,7 @@ Ni hayo tu kwa somo hili; bahati nzuri kwenye jaribio na tuonane katika ijayo!
 
 <chapterId>c33c7020-5975-457a-99db-4f8b90d1fa1c</chapterId>
 
-![Video](https://youtu.be/XnY4WZUNSs4?si=dG8I5OoSh_0EBdvL)
+:::video id=7ac63148-d730-496d-85d4-0032aaf09be1:::
 
 Katika sehemu hii utajifunza jinsi ya kutumia kipengele cha Issued Assets cha Elements.
 
@@ -515,7 +515,7 @@ Katika sehemu hii tumeona jinsi ya kutoa na kuweka lebo ya mali. Katika sehemu i
 
 <chapterId>78751b21-1dc8-4877-a406-e71bc80a95b0</chapterId>
 
-![Video](https://youtu.be/5em79YHtYk0?si=rhponm6Hw9AB6RJp)
+:::video id=7df967b0-ffff-42e1-b1d5-868e76289faf:::
 
 Katika sehemu hii utajifunza jinsi ya kutoa zaidi ya mali ambayo tayari imetolewa na pia jinsi ya kuharibu kiasi fulani cha mali iliyotolewa.
 
@@ -663,7 +663,7 @@ Katika sehemu hii tumeona jinsi ya kutoa mali, pamoja na jinsi ya kutumia reissu
 
 <chapterId>c47b217e-db14-4843-a66f-3e5f3a00a808</chapterId>
 
-![Video](https://youtu.be/kxWX91fCnus?si=KItm_Am3_RrBcLBN)
+:::video id=c5a81820-77d7-4a0c-9a4e-9323386a74ac:::
 
 Elements inaauni muundo wa shirikisho wa kutia saini ambao hukuruhusu kubainisha idadi ya wanachama wa Strong Federation ambao lazima watie sahihi kizuizi kilichopendekezwa ili kutoa kizuizi halali.
 
@@ -822,7 +822,7 @@ Mara tu idadi ya watia saini imetia saini kizuizi kilichopendekezwa inaunganishw
 
 <chapterId>432d7a65-255f-44a3-8b38-78508202cb37</chapterId>
 
-![Video](https://youtu.be/egYzj4N8CB8?si=v7_-IXsjHPE-ARDe)
+:::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
 Elements ni chanzo huria, jukwaa la madhumuni ya jumla la Blockchain ambalo linaweza pia `kupachikwa` kwa Blockchain iliyopo, kama vile Bitcoin. Inapowekwa kwenye Blockchain nyingine, Elements inasemekana kufanya kazi kama `Sidechain`. Minyororo ya kando huwezesha uhamishaji wa mali wa njia mbili kutoka mnyororo mmoja hadi mwingine. Utekelezaji wa Elements kama Sidechain hukuruhusu kushughulikia baadhi ya vikwazo vya asili vya mainchain, huku ukihifadhi kiwango kizuri cha usalama unaotolewa na mali iliyohifadhiwa kwenye mainchain.
 
@@ -1025,7 +1025,7 @@ Peg-out hutokea wakati nodi ya Elements inapoita amri ya `sendtomainchain`, amba
 
 <chapterId>50dff39b-2702-47d7-9c15-0b54b845e99f</chapterId>
 
-![Video](https://youtu.be/u-3rV7DGtD0?si=G1__H0Uelf4sTUDM)
+:::video id=4955306b-4be3-429c-9d30-068f7644ea73:::
 
 Kufikia sasa, tumeangalia jinsi ya kuendesha Elements kama Sidechain. Hata hivyo, inaweza pia kufanya kazi kama suluhu iliyojitegemea ya Blockchain na mali yake ya asili chaguomsingi. Katika usanidi huu Elements Blockchain bado inabaki na vipengele vyote vya utekelezaji wa Sidechain, kama vile Confidential Transactions na Issued Assets, lakini haihitaji peg-in au peg-out ili kuongeza au kuondoa kiasi cha default asset kutoka kwa mzunguko.
 
@@ -1211,7 +1211,7 @@ Kwa kutumia vigezo vilivyo hapo juu unaweza kutumia Elements kama Blockchain ina
 
 <chapterId>7e2c916d-8114-424c-97f5-cbff9d73b8e3</chapterId>
 
-![Video](https://youtu.be/CTMdamTZBBM?si=16LBcXvN4pBfC7lr)
+:::video id=bd5167d5-edba-40b0-a8b1-ba8b74493a08:::
 
 Katika kozi hii tumejifunza kwamba Elements ni itifaki ya mtandao wa chanzo huria ambayo inaweza kutekelezwa kama Sidechain hadi Blockchain nyingine, au kama suluhu ya Blockchain inayojitegemea.
 

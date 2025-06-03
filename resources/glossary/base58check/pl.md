@@ -1,0 +1,8 @@
+---
+term: BASE58CHECK
+---
+
+`Base58Check` to kodowanie używane w systemie Bitcoin do reprezentowania adresów odbiorczych Legacy i niektórych innych danych, takich jak klucze rozszerzone, w postaci czytelnych dla człowieka ciągów znaków. Jest to wariant systemu `Base58`, pozycyjnej reprezentacji podstawy 58 zaprojektowanej w celu zminimalizowania ludzkich błędów transkrypcji. Używa zestawu 58 znaków alfanumerycznych, składających się z cyfr od `1` do `9`, wielkich liter od `A` do `Z` (z wyłączeniem liter `I` i `O`, aby uniknąć pomyłki z cyframi `1` i `0`), oraz małych liter od `a` do `z` (z wyłączeniem litery `l`, aby uniknąć pomyłki z cyfrą `1`). `Base58Check` różni się od `Base58` dodaniem sumy kontrolnej. Jest ona reprezentowana przez zredukowaną wersję podwójnego `SHA256` Hash oryginalnych danych (`SHA256d` lub `HASH256`), na końcu danych zakodowanych w `Base58`. Podczas weryfikacji, suma kontrolna jest ponownie obliczana i porównywana z tą, która została dodana podczas kodowania. Jeśli oba skróty są zgodne, dane są uznawane za prawidłowe; w przeciwnym razie zgłaszany jest błąd uszkodzenia lub transkrypcji.
+
+
+Użycie `Base58Check` w adresach i kluczach Bitcoin oferuje kilka korzyści. Po pierwsze, redukuje ludzkie błędy w transkrypcji i odczycie poprzez unikanie niejednoznacznych znaków. Po drugie, chroni przed błędami wpisywania poprzez wykrywanie i raportowanie błędów za pomocą sumy kontrolnej. Po trzecie, kompaktowa reprezentacja danych w `Base58Check` zmniejsza przestrzeń wymaganą do przechowywania i udostępniania adresów i kluczy. Najnowsze adresy odbiorcze (po SegWit) porzuciły kodowanie `Base58Check` na rzecz kodowania `Bech32` i `Bech32m`, które mają bardziej zaawansowaną sumę kontrolną (z kodami BCH).

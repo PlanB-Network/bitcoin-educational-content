@@ -1,0 +1,9 @@
+question: Koje alternativno rešenje se pominje za preduzeća koja preferiraju sve-u-jednom onlajn maloprodajno okruženje?
+answer: Be-BOP
+wrong_answers:
+  - Feniks
+  - Otvoreni Čvor
+  - Swiss Bitcoin Pay
+explanation: |
+  Be-BOP je opcija za one koji žele integrisanu online prodavnicu koja omogućava Bitcoin plaćanja.
+reviewed: false

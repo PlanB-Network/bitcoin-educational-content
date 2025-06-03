@@ -29,7 +29,9 @@ Tervetuloa CYP302-kurssille!
 
 Tämä kirja tarjoaa syvällisen johdatuksen salakirjoituksen tieteeseen ja käytäntöön. Siinä keskitytään mahdollisuuksien mukaan pikemminkin käsitteelliseen kuin muodolliseen esittelyyn.
 
-> Tämä kurssi perustuu [JWBurgersin repoon](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Kaikki oikein hänelle. Sisältö ei ole vielä valmis ja vain täällä esittelemässä, miten voisimme integroida sen, jos JWburgerin suostuu.
+
+Tämä opetussisältö on mukautettu kirjasta ja repo [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Vaikka tekijä on ystävällisesti antanut luvan sen opetuskäyttöön, kaikki immateriaalioikeudet säilyvät alkuperäisellä tekijällä.
+
 **Motivaatio ja tavoitteet**
 
 On vaikea löytää monia materiaaleja, jotka tarjoaisivat hyvän keskitason kryptografian opetuksessa.

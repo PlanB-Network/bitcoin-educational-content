@@ -1,0 +1,9 @@
+question: U YAML datoteci koja se koristi za izdavanje sredstva, koje polje definiše ukupan broj izdatih tokena?
+answer: izdataPonuda
+wrong_answers:
+  - vlasnikImovine
+  - specifikacija
+  - iznos
+explanation: |
+  Polje "issuedSupply" u YAML datoteci definiše ukupan broj tokena izdatih za Contract.
+reviewed: false

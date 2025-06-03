@@ -1,11 +1,9 @@
-question: Hva er et vanlig kjennetegn ved Ponzi-svindler i kryptovalutaområdet?
-answer: De bruker nye investorers penger til å betale eldre deltakere.
+question: Hva er de typiske kjennetegnene ved et pyramidespill i kryptoøkosystemet?
+answer: Garantert avkastning, vanskelige uttak og henvisninger
 wrong_answers:
-  - De involverer alltid Bitcoin.
-  - De er alltid lovlige og regulerte.
-  - De involverer alltid fysiske eiendeler.
+  - Lav avkastning, vanskelige uttak og full åpenhet
+  - Garantert avkastning, vanskelige uttak og ingen henvisningssystem
+  - Garantert avkastning, enkle uttak og ingen henvisningssystem
 explanation: |
-  Ponzi-svindler i kryptovalutaområdet opererer ofte ved å bruke nye
-  investorers penger til å betale eldre deltakere. Denne uholdbare naturen og avhengigheten
-  av nye ankomster gjør dem sannsynlig til å uunngåelig kollapse.
+  Disse kjennetegnene kan tyde på et pyramidespill. Hvis du observerer dem i et prosjekt, bør du være svært forsiktig.
 reviewed: false

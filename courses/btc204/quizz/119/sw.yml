@@ -1,0 +1,10 @@
+question: Ni tofauti gani kuu kati ya ricochet iliyoimarishwa na ricochet ya classic?
+answer: Usambazaji wa miamala kwa wakati
+wrong_answers:
+  - Idadi ya miamala iliyotumika
+  - Aina ya Address iliyotumiwa
+  - Idadi ya matokeo katika miamala
+explanation: |
+  Ricochet iliyoimarishwa huhakikisha kwamba kila shughuli inatangazwa kwa wakati mahususi na kurekodiwa katika eneo tofauti, ilhali rikochi ya kawaida hutangaza shughuli zote ndani ya muda mfupi.
+  
+reviewed: false

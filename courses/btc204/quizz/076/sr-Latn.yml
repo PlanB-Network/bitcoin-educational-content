@@ -1,0 +1,9 @@
+question: Šta je CoinJoin transakcija?
+answer: Kolaborativna transakcija gde više korisnika spajaju svoje UTXO-e.
+wrong_answers:
+  - Kolaborativna transakcija između samo dva korisnika.
+  - Transakcija u kojoj jedan korisnik šalje sredstva na više adresa.
+  - Transakcija gde centralni akter meša bitkoine svojih klijenata.
+explanation: |
+  CoinJoin transakcija je kolaborativna transakcija u kojoj više korisnika meša svoje novčiće.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Czy dla Bastiata prawo własności jest tworzone przez ustawodawstwo, czy też je poprzedza?
+answer: poprzedza prawodawstwo
+wrong_answers:
+  - utworzony przez ustawodawstwo
+  - stworzony przez społeczny Contract
+  - zależne od ogólnej woli
+explanation: |
+  Bastiat uważa prawo własności za prawo naturalne, które poprzedza prawo, które powinno jedynie zapewnić jego obronę.

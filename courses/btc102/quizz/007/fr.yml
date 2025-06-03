@@ -1,9 +1,9 @@
-question: Quelle est une arnaque courante liée aux dons en ligne dans le secteur de la cryptomonnaie ?
-answer: Des offres prétendant doubler ou multiplier les bitcoins que vous envoyez.
+question: Que signifie la règle du 3-2-1 en matière de sauvegarde de données ?
+answer: 3 copies sur 2 supports dont 1 hors site
 wrong_answers:
-  - Des offres prétendant doubler ou multiplier vos biens physiques.
-  - Des offres prétendant doubler ou multiplier votre monnaie fiduciaire.
-  - Des offres prétendant doubler ou multiplier vos produits logiciels.
+  - 3 copies sur 2 support en ligne et 1 support physique
+  - 3 supports avec 2 copies dont 1 hors site
+  - 3 copies dont 2 chiffrées et 1 hors site
 explanation: |
-  Un exemple classique de ce type d'arnaque est une offre prétendant doubler ou multiplier les bitcoins que vous envoyez. Il est important de comprendre qu'il n'y a pas de solution magique pour devenir instantanément riche.
+  Cette règle préconise 3 copies de données sur 2 supports différents avec 1 copie stockée hors site pour plus de résilience.
 reviewed: false

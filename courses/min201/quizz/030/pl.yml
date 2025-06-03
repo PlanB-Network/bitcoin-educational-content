@@ -1,0 +1,12 @@
+question: Jakie jest potencjalne zagrożenie Proof of Stake w sieci Bitcoin?
+answer: Ci, którzy już posiadają dużą ilość waluty, mają nieproporcjonalną władzę, odzwierciedlającą istniejące nierówności władzy.
+wrong_answers:
+  - Stanowiłoby to znaczącą barierę dla walidatorów posiadających dużą ilość waluty.
+  - Nie pozwala na uczestnictwo na małą skalę.
+  - Nie wymaga materialnych zasobów.
+explanation: |
+  W sieci Proof of Stake ci, którzy już posiadają dużą ilość waluty, mają nieproporcjonalną władzę
+  ilość waluty mają nieproporcjonalną władzę. Ta
+  dynamika może potencjalnie utrwalić centralizację i
+  koncentrację władzy w rękach nielicznych.
+reviewed: true

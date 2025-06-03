@@ -519,7 +519,7 @@ Onneksi vuodesta 2017 lähtien yksityinen avain voidaan esittää yksinkertaisel
 
 ### Entä hakkerit?
 
-Entä jos joku vahingossa arvaa 12 tai 24 sanan listamme? Lyhyt vastaus on, että se on erittäin epätodennäköistä lompakon luomisessa käytetyn salauksen ansiosta. Jos asiaa tarkastellaan oikeassa mittasuhteessa, saman muistisäännön löytäminen vahingossa on sama asia kuin "oikean" luvun löytäminen 1:n ja $2^256$:n väliltä, mikä vastaa melkeinpä "oikean" atomin löytämistä maailmankaikkeudesta. Jos et kuitenkaan ole tyytyväinen tähän oletusturvaan, voit aina parantaa sitä lisäämällä Bitcoin-lompakkoosi tunnuslauseen (ylimääräisen sanan).
+Entä jos joku vahingossa arvaa 12 tai 24 sanan listamme? Lyhyt vastaus on, että se on erittäin epätodennäköistä lompakon luomisessa käytetyn salauksen ansiosta. Jos asiaa tarkastellaan oikeassa mittasuhteessa, saman muistisäännön löytäminen vahingossa on sama asia kuin "oikean" luvun löytäminen 1:n ja 2 potenssiin 256:n väliltä, mikä vastaa melkeinpä "oikean" atomin löytämistä maailmankaikkeudesta. Jos et kuitenkaan ole tyytyväinen tähän oletusturvaan, voit aina parantaa sitä lisäämällä Bitcoin-lompakkoosi tunnuslauseen (ylimääräisen sanan).
 
 ![image](assets/en/29.webp)
 
@@ -1136,7 +1136,7 @@ Asteittaiseen strategiaan kuuluu toistuvat ostot, eli pienten Bitcoin-määrien 
 
 **Varokaa UTXO:ta**: Muista aika ajoin konsolidoida UTXO:t lompakkoihisi. Tämä käytäntö on välttämätön, jotta voit hallita bitcoinejasi tehokkaasti ja välttää turhat maksut transaktioiden aikana.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) on transaktion ulosmeno, jota ei ole vielä käytetty, mikä tarkoittaa, että sitä ei ole käytetty uuden transaktion sisäänmenona. UTXOjen konsolidointi tarkoittaa useiden pienten UTXOjen yhdistämistä yhdeksi suuremmaksi, jotta transaktion "painoa" voidaan vähentää ja siten maksaa alhaisempia maksuja.
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) on transaktion ulosmeno, jota ei ole vielä käytetty, mikä tarkoittaa, että sitä ei ole käytetty uuden transaktion sisäänmenona. UTXOjen konsolidointi tarkoittaa useiden pienten UTXOjen yhdistämistä yhdeksi suuremmaksi, jotta transaktion "painoa" voidaan vähentää ja siten maksaa alhaisempia maksuja.
 
 - Spontaani osto
 

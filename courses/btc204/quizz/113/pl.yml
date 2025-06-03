@@ -1,0 +1,10 @@
+question: Jaki element uniemożliwia zewnętrznemu obserwatorowi rozróżnienie transakcji Stonewall i Stonewall x2?
+answer: Schemat transakcji jest taki sam
+wrong_answers:
+  - Transakcje są szyfrowane
+  - Kwoty transakcji są zawsze identyczne
+  - Podpisy cyfrowe transakcji są generowane przez ten sam algorytm
+explanation: |
+  Z zewnętrznego punktu widzenia wzorzec transakcji jest dokładnie taki sam. Bez dodatkowych informacji kontekstowych niemożliwe jest zatem odróżnienie transakcji Stonewall od transakcji Stonewall x2, ponieważ przyjmują one ten sam wzorzec.
+  
+reviewed: false

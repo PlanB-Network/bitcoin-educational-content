@@ -1,0 +1,11 @@
+question: Schema का मुख्य रोल RGB और Contract में क्या है?
+answer: Business Logic और Contract के डेटा स्ट्रक्चर के बारे में बताओ।  
+
+(Note: Since the terms "Business Logic" and "Contract" seem technical/specific, a direct translation isn't possible without context. If these refer to models, projects, or software versions, please provide additional details for a more accurate translation.)
+wrong_answers:
+  - Interface को RGB वॉलेट्स के लिए परिभाषित करना
+  - Blockchain पर स्क्रिप्ट्स को कंपाइल करने का प्रबंधन करना
+  - जीडब्ल्यू-8 क्रिप्टोग्राफिक वैलिडेशन
+explanation: |
+  Schema, Contract की घोषणात्मक संरचना, डेटा प्रकार और वैधता नियमों को परिभाषित करता है, जिससे आप ग्राहक की तरफ से Business Logic को मैनेज कर पाते हैं।
+reviewed: false

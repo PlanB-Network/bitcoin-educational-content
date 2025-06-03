@@ -41,7 +41,7 @@ Mergulhe no universo da sidechain Liquid e revele todo o seu potencial agora mes
 
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 
-![Video](https://youtu.be/QCyWXVWkcAM)
+:::video id=ff6899d2-b47f-4c3d-983d-3bd66d2be59d:::
 
 Pablo apresenta a arquitetura da Liquid Network, enfatizando seu papel como uma sidechain federada para o Bitcoin. São abordadas as principais caraterísticas, como as Transacções Confidenciais, o modelo de federação e a sua função como uma caixa de areia para a inovação. Os participantes terão uma visão de como o Liquid complementa o Bitcoin, oferecendo transações mais rápidas e privadas.
 
@@ -49,7 +49,7 @@ Pablo apresenta a arquitetura da Liquid Network, enfatizando seu papel como uma 
 
 <chapterId>1e9cfbed-108e-4067-afb9-4cf950cb43d3</chapterId>
 
-![Video](https://youtu.be/9Yu0dPAJSek)
+:::video id=5652dcb2-4303-484c-8be5-d98063b39c1c:::
 
 James apresenta o software Elements e sua integração com a Liquid Network. Esta sessão inclui um guia prático para executar um nó Liquid, configurar o Elements localmente e gerenciar transações usando comandos CLI e RPC.
 
@@ -57,7 +57,7 @@ James apresenta o software Elements e sua integração com a Liquid Network. Est
 
 <chapterId>3ff2df4a-8995-4d5e-9b8a-cd114880e666</chapterId>
 
-![Video](https://youtu.be/zFvv0bn4ZWY)
+:::video id=31368c02-b979-44d7-b217-ceed96c7ca5c:::
 
 Michael discute como as tecnologias multicamadas, incluindo Liquid, Lightning e Bitcoin, melhoram a eficiência e a confiabilidade das transações. Os principais tópicos incluem HTLCs para transações seguras entre camadas e recursos avançados de script que otimizam o ecossistema Bitcoin.
 
@@ -65,7 +65,7 @@ Michael discute como as tecnologias multicamadas, incluindo Liquid, Lightning e 
 
 <chapterId>1968db03-2364-46c0-9670-9e9844289ca1</chapterId>
 
-![Video](https://youtu.be/6wNeHQBlhA4)
+:::video id=0bac0a62-90f2-41da-ac7c-330c0604bc61:::
 
 Bozza aborda a estrutura federada da Liquid Network e seus componentes técnicos. Os tópicos incluem inovações testadas no Liquid, como assinaturas Schnorr e scripts Simplicity, e as compensações envolvidas no uso de soluções da Camada Dois.
 
@@ -73,7 +73,7 @@ Bozza aborda a estrutura federada da Liquid Network e seus componentes técnicos
 
 <chapterId>5f4c0e50-b435-4b6c-b8b7-c55cc1a35431</chapterId>
 
-![Video](https://youtu.be/IAdOxZyx7-Y)
+:::video id=07e0b82f-2d60-4eb3-9b5d-2ccb7ad06e8a:::
 
 Chase destaca o ecossistema da Liquid e suas aplicações nos mercados de capitais. Ele discute tokenização, recursos da comunidade e ferramentas como Sid Swap e Stokr para gerenciamento de ativos, bem como a crescente adoção do Liquid em ambientes de negócios.
 
@@ -81,7 +81,7 @@ Chase destaca o ecossistema da Liquid e suas aplicações nos mercados de capita
 
 <chapterId>4f21a0a7-0dc0-44cf-8a3a-d9e2f8a3f05f</chapterId>
 
-![Video](https://youtu.be/AnMiD9amSUg)
+:::video id=f00822b4-dc1a-46ff-adfc-ff7c97a0024d:::
 
 Nardo fornece uma visão geral do Blockstream AMP, uma plataforma para gerenciar ativos digitais no Liquid. Ele explora a arquitetura do AMP, sua capacidade de controlar transferências de ativos e suas aplicações práticas para desenvolvedores. Desafios e melhorias futuras para AMP também são destacados.
 
@@ -95,7 +95,7 @@ Nardo fornece uma visão geral do Blockstream AMP, uma plataforma para gerenciar
 
 <chapterId>fb77442c-3d1e-427e-b2f5-16668ce4c643</chapterId>
 
-![Video](https://youtu.be/ucc3a-udbgo)
+:::video id=1a6289b5-fdae-4320-b5b1-41925150108c:::
 
 Antonio apresenta o Breeze, um SDK de código aberto projetado para transações descentralizadas na Liquid Network. Ele cobre seus recursos, incluindo suporte para ligações em vários idiomas e processos de transação seguros, enquanto enfatiza seu objetivo de simplificar a tecnologia financeira para os desenvolvedores
 

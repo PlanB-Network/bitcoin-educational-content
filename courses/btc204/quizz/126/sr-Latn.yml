@@ -1,0 +1,9 @@
+question: Koji kriptografski metod se može koristiti u coinswaps da se osigura bezbednost Exchange bez potrebe za poverenjem?
+answer: Adaptorske Potpise
+wrong_answers:
+  - Simetrična enkripcija
+  - ECDH
+  - Asimetrično šifrovanje
+explanation: |
+  Da biste izvršili coinswap, možete koristiti HTLC-ove ili PTLC-ove. Ova dva protokola funkcionišu na sličan način koristeći sistem vremenskog zaključavanja koji osigurava da se Exchange ili uspešno završi ili potpuno otkaže, što štiti integritet sredstava obe strane. Glavna razlika između HTLC-ova i PTLC-ova je u tome što HTLC-ovi koriste hešove i preimage za osiguranje transakcije, dok PTLC-ovi koriste Adaptor Signatures.
+reviewed: false

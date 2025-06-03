@@ -1,0 +1,11 @@
+question: Jaki jest jeden powód, dla którego ważne jest przeprowadzenie dokładnych badań przed zaufaniem stablecoinowi?
+answer: Niektórym stablecoinom brakuje przejrzystości i staranności
+wrong_answers:
+  - Stablecoiny nie wiążą się z żadnym ryzykiem
+  - Stablecoiny są zawsze w pełni zabezpieczone rezerwami
+  - Niektóre stablecoiny są regulowane przez rząd
+explanation: |
+  Nie wszystkie stablecoiny oferują taki sam poziom przejrzystości.
+  Dlatego ważne jest, aby przeprowadzić dokładne badania
+  przed powierzeniem znacznego majątku jakiemukolwiek konkretnemu stablecoinowi.
+reviewed: true

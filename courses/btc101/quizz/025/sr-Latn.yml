@@ -1,0 +1,12 @@
+question: Koja je glavna prednost Bitcoin u odnosu na druge oblike valute?
+answer: Nudi odličnu vrednost zbog strogo ograničenog Supply i neutralnosti.
+wrong_answers:
+  - To je nedeljivo i ne može se preneti.
+  - To je odličan primer valute koja trpi monetarnu inflaciju.
+  - To je široko prihvaćeno u trgovini od strane svih trgovaca na svetu.
+explanation: |
+  Glavna prednost Bitcoin u odnosu na druge oblike valute
+  je što nudi odličnu čuvanje vrednosti zahvaljujući svom
+  strogo ograničenom Supply i nedostatku poverljive strane. Ovo
+  ga čini dobrim izborom za dugoročne uštede.
+reviewed: true

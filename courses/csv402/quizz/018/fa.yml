@@ -1,0 +1,9 @@
+question: چه عملیاتی تکامل Smart contract در RGB را تعریف می‌کند؟
+answer: State Transition، Genesis، و State Extension
+wrong_answers:
+  - Seal ایجاد، Contract رعایت، و اعتبارسنجی نهایی
+  - انتقال UTXO، تولید اثبات، و Hash Commitment
+  - بسته‌های انتقال، مهر و موم‌های یکبار مصرف، و ایجاد Valency
+explanation: |
+  این عملیات‌ها وضعیت Contract را ایجاد یا تغییر می‌دهند، در حالی که اعتبار آن را از طریق لنگرهای Bitcoin تضمین می‌کنند.
+reviewed: false

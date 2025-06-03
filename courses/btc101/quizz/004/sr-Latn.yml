@@ -1,0 +1,11 @@
+question: Koje su dve glavne karakteristike Bitcoin?
+answer: Bitcoin je i kompjuterski protokol i novčana jedinica.
+wrong_answers:
+  - Bitcoin je i fizička valuta i digitalni Wallet.
+  - Bitcoin je i vrsta akcije i vrsta obveznice.
+  - Bitcoin je i centralizovana i decentralizovana valuta.
+explanation: |
+  Bitcoin je i kompjuterski protokol koji koristi tehnologije
+  kao što su kriptografija i Blockchain, a takođe i monetarna
+  jedinica koja se koristi za transakcije.
+reviewed: true

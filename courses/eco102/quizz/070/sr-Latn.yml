@@ -1,0 +1,9 @@
+question: Koja je pokretačka snaga društvene organizacije prema Bastijatu?
+answer: Tržište
+wrong_answers:
+  - Država
+  - Religija
+  - Tradicija
+explanation: |
+  Bastiat veruje da je slobodno tržište prava pokretačka snaga društvene organizacije jer omogućava spontanu i efikasnu koordinaciju među pojedincima.
+reviewed: false

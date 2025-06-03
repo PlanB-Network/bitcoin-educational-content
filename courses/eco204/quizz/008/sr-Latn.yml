@@ -1,0 +1,13 @@
+question: Kakav je uticaj povećanja novca Supply na inflaciju i deflaciju u sistemu sa fiksnim novcem Supply?
+answer: Povećanje novca Supply poništava potencijalnu deflaciju uzrokovanu povećanjem proizvodnje.
+wrong_answers:
+  - Povećanje novca Supply dovodi do deflacije.
+  - Povećanje novca Supply nema uticaja na inflaciju ili deflaciju.
+  - Povećanje novca Supply dovodi do smanjenja proizvodnje.
+explanation: |
+  Poglavlje objašnjava da u fiksnom novčanom sistemu Supply, povećanje
+  proizvodnje teoretski treba da dovede do deflacije, tj. smanjenja cena,
+  jer bi bilo više dostupnih dobara i usluga. Međutim, u trenutnom fiat
+  monetarnom sistemu, povećanje novca Supply poništava potencijalnu deflaciju
+  izazvanu povećanjem proizvodnje.
+reviewed: false

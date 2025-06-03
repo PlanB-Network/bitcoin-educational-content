@@ -1,0 +1,10 @@
+question: CoinJoin 協調員的角色是什麼？
+answer: 連接參與者並建構交易。
+wrong_answers:
+  - 為交易機密性加密參與者資料。
+  - 保留過往的硬幣接合記錄，以便進行安全稽核。
+  - 從參與者處接收比特幣以進行混合。
+explanation: |
+  協調員的角色是連接不同的使用者，建構並廣播協作交易。
+  
+reviewed: false

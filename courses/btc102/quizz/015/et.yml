@@ -1,12 +1,9 @@
-question: Mis on peamine kasu paroolihalduri kasutamisest vastavalt peatükile?
-answer: See aitab sul mitte kunagi kasutada sama parooli kaks korda
+question: Milline süsteem võimaldab kiireid ja odavaid tehinguid Bitcoin-l?
+answer: Lightning Network
 wrong_answers:
-  - See aitab sul meeles pidada oma kasutajatunnuseid
-  - See kaitseb su arvutit viiruste eest
-  - See genereerib juhuslikke paroole
+  - SegWit
+  - Ripple Network
+  - RGB
 explanation: |
-  Peatüki kohaselt aitab paroolihaldur sul mitte kunagi kasutada
-
-  sama parooli kaks korda, valida keerukaid ja turvalisi paroole ning hõlbustab sinu veebiturvalisuse
-
-  haldamist.
+  Lightning Network on teine Layer lahendus, mis võimaldab kiireid arveldusi ja vähendab BTC tehingute kulusid.
+reviewed: false

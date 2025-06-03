@@ -2179,6 +2179,7 @@ Donc un moteur comme Google vous donne des résultats rapides et pertinents (quo
 
 Pour limiter ce traçage, il est recommandé d’opter pour des moteurs de recherche respectueux de la vie privée, qui ne conservent aucun identifiant personnel ni historique de vos requêtes :
 - [Startpage](https://www.startpage.com/) ;
+- [Kagi Search](https://kagi.com/) ;
 - [Qwant](https://www.qwant.com/) ;
 - [Mojeek](https://www.mojeek.com/) ;
 - [SearXNG](https://docs.searxng.org/) (qui peut être auto-hébergé).

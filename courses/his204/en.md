@@ -361,7 +361,7 @@ What we do have includes:
 
 ![image](assets/fr/038.webp)
 
-3. "Observations on the East India Company", appended by Abbé Morellet to his Memoir on the Current State of the East India Company (1769);
+3. "Observations on the East India Company", appended by abbot Morellet to his Memoir on the Current State of the East India Company (1769);
 
 ![image](assets/fr/039.webp)
 
@@ -593,11 +593,9 @@ After this brief silence, the two economists began recruiting disciples: this wa
 
 ![image](assets/fr/070.webp)
 
-Between 1765 and 1775, the Physiocrats stood at the peak of their fame. Gathered as a cohesive intellectual circle, they dominated the public discourse. The literary and philosophical world had eyes only for them, allowing their ideas to spread widely and rapidly. People called them "the economists", or, more mockingly, "the sect of economists". Regardless of the tone, their notoriety was absolute. In 1774, after a trip to Metz, M. de Vaublanc wrote in his memoirs of his astonishment: everyone around him was talking economics and reasoning like Quesnay's disciples. "It was fashionable", he noted. "Everyone was an economist".
-
+Between 1765 and 1775, the united group of Physiocrats stood at the peak of their fame. The literary and philosophical world had eyes only for them, allowing their ideas to spread widely and rapidly. People called them "the economists", or, more mockingly, "the sect of economists". Regardless of the tone, their notoriety was absolute. In 1774, after a trip to Metz, M. de Vaublanc wrote of his astonishment in his memoirs: everyone around him was talking economics and reasoning like Quesnay's disciples. "It was fashionable", he noted. "Everyone was an economist".
 
 However, by 1770, their popularity began to wane. The group experienced its first defections, and their ability to withstand criticism weakened. And the critics were many, Condillac, Mably, Voltaire, Galiani, Linguet, Graslin, and even Adam Smith in Scotland, all challenged their views.
-
 
 ![image](assets/fr/071.webp)
 
@@ -627,16 +625,13 @@ However, it is unfair to criticize the Physiocrats for placing disproportionate 
 
 ![image](assets/fr/073.webp)
 
-The Physiocrats' idea is actually subtle. According to them, there is a difference between production and gain. The industrialist and the merchant may earn profits, but only the farmer truly produces, because production means creating useful material, rather than merely adding value to pre-existing material.
+The Physiocrats' idea is actually subtle. According to them, there is a difference between production and gain. The industrialist and the merchant may earn profits, but only the farmer truly produces, because production is the creation of useful material, rather than the addition of utility to pre-existing material.
 
 We should also try to understand why they rejected industry and crafts as unproductive. At the time, these trades were locked within the guild system, which banned innovation, investment, and progress.
 
-
 ### Second principle: legal despotism rather than democracy
 
-
-Unlike modern views that favor democracy, while historians forgive the Physiocrats their strict view on agricultural productivity, they do not forgive their opposition to democracy, especially since they lived during the height of Enlightenment ideas. From the mid-18th century to just before the Revolution, the Physiocrats were seen as enemies of progress.
-
+Today, to insult someone, we say he's not a democrat. While historians forgive the Physiocrats their strict view on agricultural productivity, they do not forgive their opposition to democracy, especially since they lived during the height of Enlightenment ideas. From the mid-18th century to just before the Revolution, the Physiocrats were seen as enemies of progress.
 
 ![image](assets/fr/074.webp)
 
@@ -644,23 +639,21 @@ Tocqueville insisted on this idea:
 
 > The Physiocrats were indeed very favorable to free trade of goods, to laissez-faire or laissez-passer in commerce and industry; but as for political freedoms proper, they did not consider them, and even when such ideas happened to cross their minds, they initially rejected them.
 
-Liberal in economics, the Physiocrats were therefore not liberal in political matters. Quesnay writes in his *Maxims*: "Let the sovereign authority be unique and superior to all individuals of society and to all unjust enterprises of private interests." And later, in the same maxim: "The system of checks and balances in government is a fatal notion, which only reveals discord among the great and oppression of the small".
+Liberal in economics, the Physiocrats were therefore not liberal in political matters. Quesnay writes in his *maxims*: "Let the sovereign authority be unique and superior to all individuals of society and to all unjust enterprises of private interests." And later, in the same maxim: "The system of checks and balances in government is a fatal notion, which only reveals discord among the great and oppression of the small".
 
 ![image](assets/fr/075.webp)
 
-Tocqueville aptly noted that the Physiocrats rejected democracy as soon as they saw its forms. They were skeptical of democracy, a constant in French political economy, because democracy is far from a perfect system: it potentially allows the oppression of minorities by the majority, and it can become a tool for usurpation, tyranny, and despoilment.
-
+Tocqueville aptly noted that the Physiocrats rejected democracy as soon as they saw its forms. They were skeptical of democracy, which would become a constant in French political economy, because democracy is far from a perfect system: it potentially allows the oppression of minorities by the majority, and it can become a tool for usurpation, tyranny, and despoilment.
 
 ### Third principle: absolute respect for private property
 
-The Physiocrats believed that people needed to own and keep the results of their labor. In their view, property rights were the very foundation of a healthy society. They thought the State had one main job: to protect people's property. When ownership is secure, people are more willing to work hard, invest, and take care of what they have. That, in turn, drives progress.
-
+The Physiocrats believed that people needed to own and keep the results of their labor. In their view, property rights were the very foundation of a society. They thought the State had one main job: to protect people's property. Furthermore, from an economic standpoint, the Physiocrats assert that the inviolability of property encourages work and effort and is a condition for economic progress.
 
 ![image](assets/fr/076.webp)
 
 Quesnay put it simply:
 
-> Let the ownership of land and movable wealth be assured to those who are their legitimate possessors, for the security of property is the essential foundation of economic order and social safety; it is the certainty of permanent possession that encourages labor and the use of wealth in improving and cultivating the land, as well as in commercial and industrial enterprises.
+> Let the ownership of land and movable wealth be assured to those who are their legitimate possessors, for the security of property is the essential foundation of economic order and the security of society; it is the certainty of permanent possession that encourages labor and the use of wealth in improving and cultivating the land, as well as in commercial and industrial enterprises.
 
 
 ### Fourth principle: absolute freedom of commerce
@@ -672,11 +665,9 @@ In his previously cited *Maxims*, Quesnay states:
 
 ![image](assets/fr/077.webp)
 
-The Physiocrats had seen the damage caused by government interference, especially in the grain trade. Governments simply couldn't keep up with local needs and shifts in supply and demand. It was unrealistic to expect the State to manage every detail better than local farmers or merchants could themselves.
+The Physiocrats had seen the damage caused by government interference, especially in the grain trade. One must acknowledge, they say, that the authority will never be able to manage commerce as well as individuals do, because it would need to respond to every need and react to every change in demand or supply. All of this is far beyond the capabilities of even the wisest government one can conceive. Therefore, it is necessary to let things be and to let them flow.
 
-
-Trade, they believed, naturally brought benefit to society, and only full freedom could unlock that potential. One of their members, Le Trosne, even wrote a pamphlet titled *The Freedom of the Grain Trade: Always Useful, Never Harmful*.
-
+Beneficial by nature, trade must be entirely and perfectly free. One of their members, Le Trosne, even wrote a pamphlet titled [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
 
 ### Fifth principle: All men are brothers
 
@@ -686,6 +677,7 @@ Fierce opponents of slavery, the Physiocrats were also great pacifists. "Our for
 ## The Physiocrats' achievements and influences
 
 <chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
+
 As we saw in the first of the three chapters devoted to the Physiocrats, Quesnay's followers were all the rage in France for about a decade. This enthusiasm for their ideas took shape both in their time and continued until the end of the century. Here, we will look at some of their achievements and the influence they exerted on their successors in the field of economic thought.
 
 Their greatest accomplishment, following the Gournay group, was to popularize economic ideas. Voltaire's famous saying is well known: around 1750, the nation, satiated with poetry and novels, began to reason about grain. The Physiocrats took part in this movement, publishing literally hundreds of articles, pamphlets, and books about the freedom of the grain trade. The strong momentum given by the Physiocrats to economic discussions is also evident in the impressive number of economic works and pamphlets published in France from 1760 to 1775. As further evidence of the spread of economic ideas in France, one recalls the remark by M. de Vaublanc, cited in a previous lecture, who said in Metz in 1774 that people spoke of nothing but economics. "It was the fashion", he said. "Everyone was an economist".
@@ -696,56 +688,44 @@ Abroad, success came very early. In Germany, the Margrave of Baden took an inter
 
 ![image](assets/fr/078.webp)
 
-He tasked the economist Johann August Schlettwein, a convinced physiocrat, with implementing a tax reform and the liberalization of the grain trade. In April 1770, a first trial took place in the small village of Dietlingen. The villagers seemed to have welcomed the measures enthusiastically, but the officials in charge were not very supportive, which delayed the wider implementation.
-
+He tasked the economist Johann August Schlettwein, a convinced physiocrat, with implementing a tax reform and liberalize the grain trade. In April 1770, a first trial took place in the small village of Dietlingen. The villagers seemed to have welcomed the measures enthusiastically, but the officials in charge were not very supportive, which delayed the wider implementation.
 
 In Russia, Catherine II was preparing a legislative reform and asked Diderot to send her a brilliant mind to assist her.
 
-
 ![image](assets/fr/079.webp)
 
-Impressed by the reading of *The Natural and Essential Order of Political Societies*, published in 1767, he sent her its author, the physiocrat Mercier de la Rivière.
+Impressed by the reading of [*The Natural and Essential Order of Political Societies*](https://archive.org/details/lordrenaturelete00mercuoft), published in 1767, he sent her its author, the physiocrat Mercier de la Rivière.
 
 ![image](assets/fr/080.webp)
 
 
 Although he left France celebrated, his reception in Saint Petersburg was cool (climate aside), and the Empress was disappointed in him.
 
-
 In Sweden, with Gustav III, and in Italy, with Leopold of Tuscany, the Physiocrats also found followers ready to put their ideas into practice.
 
 In France, the Physiocrats enjoyed spectacular success with the appointment of Turgot as Controller-General of Finances in 1774.
 
-
 ![image](assets/fr/081.webp)
 
-Conscious of the decline in their reputation, Turgot never presented himself as a loyal disciple of the Physiocrats, nor, for that matter, as an encyclopedist, although he was one, and since they were despised by the members of the Clergy. Once in power, Turgot issued six famous edicts that constituted the beginning of a practical application of the Physiocratic program: freedom of commerce, freedom of labor, and the end of monopolies.
+Conscious of the decline in their fame, Turgot never presented himself as a loyal disciple of the Physiocrats, nor, for that matter, as an encyclopedist, although he was one, and since they were despised by the members of the Clergy. Once in power, Turgot issued six famous edicts that constituted the beginning of a practical application of the Physiocratic program: freedom of commerce, freedom of labor, and the end of monopolies.
 
 
 ![image](assets/fr/082.webp)
 
-
-By the time of the French Revolution, the Physiocrats had fewer followers. Mirabeau died on July 13, 1789—quite a symbol. Abeille had moved on, but Dupont de Nemours remained faithful. Appointed to the Assembly, Dupont de Nemours carried the voice of Physiocracy and called for economic reforms in favor of property ownership and free trade.
-
+By the time of the French Revolution, the Physiocrats had fewer followers. The marquis of Mirabeau died on July 13, 1789—quite a symbol. Abeille had moved on, but Dupont de Nemours remained faithful. Appointed to the Assembly, Dupont de Nemours carried the voice of Physiocracy and called for economic reforms in favor of property ownership and free trade.
 
 ![image](assets/fr/083.webp)
 
-
-He also fought, unsuccessfully, against the assignats. Despite this failure, Physiocratic thought remained very present in the intellectual debate and influenced the early achievements of the Revolution. As Joseph Rambaud said, everything the Revolution did in favor of freedoms was due to the Physiocrats.
-
+He also fought, unsuccessfully, against the assignats. Despite this failure, Physiocratic thought remained very present in the intellectual debate and influenced the early achievements of the Revolution. As Joseph Rambaud said, everything the Revolution did in favor of liberties was due to the Physiocrats.
 
 ![image](assets/fr/084.webp)
 
 
-The Physiocrats also helped shape modern economics. Adam Smith, who visited France and met many of them, was deeply influenced by their work. 
-He even considered dedicating *The Wealth of Nations* to Quesnay.
-
+The Physiocrats also had a major influence on the history of economic thought. Adam Smith, who visited France and met many of them, was deeply influenced by their work. He even considered dedicating *The Wealth of Nations* to Quesnay.
 
 ![image](assets/fr/085.webp)
 
-
-Sadly, Quesnay died two years before Smith's book was published, and the dedication was removed.
-Although Smith didn't agree with their idea that only agriculture was productive, he embraced many of their arguments for free markets and carried them forward in his own work.
+Sadly, Quesnay died two years before Smith's book was published, and Smith removed the dedication. Although Smith didn't agree with their idea that only agriculture was productive, he embraced many of their arguments for free markets and carried them forward in his own work.
 
 
 ## Dupont de Nemours
@@ -765,12 +745,12 @@ Today, it has sales of over $35,000 billion and employs nearly 65,000 people wor
 
 ![image](assets/fr/087.webp)
 
-Born in 1739, Dupont de Nemours approached Physiocrats at the age of 24. At the time, he was still finding his path in life. One day, he came across a short pamphlet titled The Wealth of the State. He found its economic ideas absurd and wrote a critical response called Reflections on the Wealth of the State, published in 1763. The piece was well-received, and readers praised it, saying things like, "You must be a disciple of Mirabeau!" Ironically, Dupont didn't even know who Mirabeau was.
+Born in 1739, Dupont de Nemours approached Physiocrats at the age of 24. At the time, he was still finding his path in life. One day, he came across a short pamphlet titled The Wealth of the State. He found its economic ideas were nonsense and wrote a critical response called Reflections on the Wealth of the State, published in 1763. The piece was well-received, and readers praised it, saying things like, "You must be a disciple of Mirabeau!" Ironically, Dupont didn't even know who Mirabeau was.
 
 
 ![image](assets/fr/088.webp)
 
-Curious, he began reading Mirabeau's work, *Friend of the People* and *Theory of Taxation*, and met Mirabeau and then François Quesnay, and joined their school.
+Curious, he began reading Mirabeau's work, *Friend of the People* and *Theory of Taxation*. He met Mirabeau and François Quesnay, then joined their school.
 In 1765, Dupont was offered the position of editor of the *Journal de l'agriculture, du commerce et des finances*, the leading periodical of its time in the field of economic thought.
 
 
@@ -778,18 +758,14 @@ In 1765, Dupont was offered the position of editor of the *Journal de l'agricult
 
 There were two reasons for this: Mirabeau and Quesnay had to remain silent, and Dupont was seen as their rising star.
 
-
-Members of the Physiocratic school agree that Dupont de Nemours quickly became Quesnay's favorite. Quesnay once said, "Take care of this young man, he'll be the one to speak when we're gone". One fellow Physiocrat, Abeille, even grew jealous of the attention Dupont received and distanced himself from Quesnay's school.
-
+Members of the Physiocratic school agree that Dupont de Nemours quickly became Quesnay's favorite. Quesnay once said, "Take care of this young man, he'll be the one to speak when we're dead". One fellow Physiocrat, Abeille, even grew jealous of the attention Dupont received and distanced himself from Quesnay's school.
 
 Dupont de Nemours always maintained his high regard for Quesnay.
 
-
 ![image](assets/fr/090.webp)
 
-He would later say, "I was just a boy when Quesnay held out his arms to me—he made me a man." It was Quesnay who helped establish him as a major economist on the literary scene of the time.
+He would later say, "I was just a boy when Quesnay held out his arms to me—he made me a man." It was Quesnay who made him a major economist on the literary scene of the time.
 After the *Journal de l'agriculture, du commerce et des finances*, Dupont was appointed editor of *Les Éphémérides du Citoyen*, which became the official organ of the Physiocrats.
-
 
 ![image](assets/fr/091.webp)
 
@@ -800,33 +776,30 @@ He made this periodical collection a major center for economic theory, supportin
 
 When Turgot briefly served as France's finance minister, Dupont became his close advisor, the only Physiocrat with access to him, as Turgot kept his distance from the others.
 
-
 ![image](assets/fr/093.webp)
 
-At the time of the Revolution, he was elected from the bailiwick of Nemours and found himself at the Assembly, where another Monsieur Dupont was also seated. He was then called Dupont de Nemours, not because he was nobility, but simply to distinguish the two. The name, of course, remained.
-
+At the time of the Revolution, he was elected from the bailiwick of Nemours and found himself at the Assembly, where another Monsieur Dupont was also seated. He was then called Dupont de Nemours, not because he was a noble, but simply to distinguish the two. The name, of course, remained.
 
 During the Revolution, in August 1792, he took up arms to defend the King at the Tuileries Palace against the crowd.
 
-
 ![image](assets/fr/094.webp)
 
-The King said to him: "Monsieur Dupont, we always find you where you are needed!" After miraculously escaping the Terror, condemned and awaiting execution but saved by Robespierre's fall, he was pushed into exile under Napoleon and found happiness in the United States, where one of his sons founded, with his father's assistance, the Dupont company.
+The King said to him: "Monsieur Dupont, we always find you where you are needed!" After miraculously escaping the Terror, condemned and awaiting the guillotine but saved by Robespierre's fall, he was pushed into exile under Napoleon and found happiness in the United States, where one of his sons founded, with his father's assistance, the Dupont company.
 
 
 ![image](assets/fr/095.webp)
 
 Despite this eventful life, during which he published dozens of articles, brochures, and books, he remains relatively little known to this day. Perhaps this was because he remained a staunch Physiocrat when the doctrine had fallen out of fashion. Indeed, as Schumpeter wrote, Dupont de Nemours stayed faithful to Physiocracy "throughout a career during which he had many opportunities to renounce it". He was a man of conviction.
+
 # The Enlightenment and Political Economy
 
 <partId>d1c885ad-7cb1-5f81-816c-be312719d9f8</partId>
-
 
 ## Voltaire and the philosophers
 
 <chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
 
-The 18th century in France saw the emergence of economics as a science and the first school of economic thought: Physiocracy. Adam Smith trained in economics during this period, and French economists were recognized globally as authorities. However, this century is remembered more as the century of philosophy than of economics. While the Physiocratic movement aligned, in its ambitions, with Enlightenment philosophy, the attitudes of the philosophes—especially Diderot and Voltaire—deserve close examination. We will see that the Enlightenment thinkers significantly contributed to spreading the idea of laissez-faire in France.
+The 18th century in France saw the emergence of economics as a science and the first school of economic thought: Physiocracy. Adam Smith trained in economics during this period, and French economists were recognized globally as leaders. However, this century is remembered more as the century of philosophy than of economics. While the Physiocratic movement aligned, in its ambitions, with Enlightenment philosophy, the attitudes of the philosophes—especially Diderot and Voltaire—deserve close examination. We will see that the Enlightenment thinkers significantly contributed to spreading the idea of laissez-faire in France.
 
 
 ![image](assets/fr/096.webp)
@@ -838,30 +811,26 @@ The most famous achievement of Enlightenment philosophy is without a doubt the *
 
 Naturally, the economic articles were written by economists. For the early volumes, Diderot turned to Forbonnais, then enlisted liberal economists: first François Quesnay (who contributed articles like "Grains", "Fermiers", "Hommes"—the last one unpublished), then Turgot (who wrote "Foires et marchés"). These writings are of great importance. In his articles, Quesnay laid the groundwork for what would become Physiocratic doctrine. Along with his *Tableau économique*, these remain his most famous works. Turgot, still young at the time, developed the idea of laissez-faire in his article, criticizing state intervention in market organization.
 
-
 In many other articles of the *Encyclopédie*, philosophes, especially Diderot, defend the ideal of liberty in all areas: religion, politics, and economics.
-
 
 ![image](assets/fr/098.webp)
 
-Economic freedom, especially in opposition to the guild system, was a recurring theme in various entries such as Arts, Métier, and Communauté.
+Freedom of labor, especially in opposition to the guild system, was a recurring theme in various entries such as Arts, Métier, and Communauté.
 
-
-Diderot's path in economic theory is a curious one. In the Encyclopédie, he was a staunch advocate for economic freedom and was the one who invited liberal economists to contribute, as confirmed by a letter outlining the articles Turgot might write for him. In the early years of Physiocracy, he was both a supporter and a promoter of Quesnay's school. In 1769 and 1770, he wrote for *Les Ephémérides du Citoyen*, to the great dismay of his anti-liberal philosopher friends, like Melchior Grimm; however, he soon distanced himself from the group. Enthralled by the vibrant intellect of Abbé Galiani, he helped him publish his book on the grain trade in French, just as Galiani was about to return to Italy.
+Diderot's path in economic theory is a curious one. In the Encyclopédie, he was a staunch advocate for economic freedom and was the one who sought the collaboration of liberal economists, as confirmed by a letter outlining the articles Turgot might write for him. In the early years of Physiocracy, he was both a supporter and a promoter of Quesnay's school. In 1769 and 1770, he wrote for *Les Ephémérides du Citoyen*, to the great dismay of his anti-liberal philosopher friends, like Melchior Grimm; however, he soon distanced himself from the group. Enthralled by the vibrant intellect of abbot Galiani, he helped him publish his book on the grain trade in French, just as Galiani was about to return to Italy.
 
 
 ![image](assets/fr/099.webp)
 
 ![image](assets/fr/100.webp)
 
-This book would become the fiercest attack ever made against Physiocratic ideas, delivering a major blow to the movement. Later, Diderot defended Galiani against Abbé Morellet, a close ally of the Physiocrats, in his *Apology of Galiani*. A few years later, during Turgot's ministry, Diderot supported the abolition of guilds and the establishment of freedom of labor. At this point, Diderot-the artisan's son-found himself in agreement with the liberal economists and wrote a scathing letter to Galiani, who claimed that labor freedom would ruin French industry within twenty or thirty years. In light of the Industrial Revolution, history suggests otherwise. Having returned to the liberal economists' camp, Diderot no longer enjoyed their trust and remained isolated. A very telling moment is a letter he sent to Dupont de Nemours in 1774, where he writes:
+This book would become the fiercest attack ever made against Physiocratic ideas, delivering a major blow to the movement. Later, Diderot defended Galiani against abbot Morellet, a close ally of the Physiocrats, in his *Apology of Galiani*. A few years later, during Turgot's ministry, Diderot was seen applauding the establishment of freedom of labor through the abolition of guilds. At this point, Diderot, an artisan's son, found himself in agreement with the liberal economists and wrote a scathing letter to Galiani, who claimed that freedom of labor would ruin French industry within twenty or thirty years. In light of the Industrial Revolution, history suggests otherwise. Having returned to the liberal economists' side, Diderot no longer enjoyed their trust and remained isolated. A very telling moment is a letter he sent to Dupont de Nemours in 1774, where he writes:
 
-> "You once had affection for me; now you no longer do, because you are so busy that you no longer have time to love anyone".
-
+> "You once had friendship for me; now you no longer do, because you are so busy that you no longer have time to love anyone".
 
 ![image](assets/fr/101.webp)
 
-Voltaire followed a similar path, marked by a lack of consistency in his economic views. He admired Vincent de Gournay, corresponded with economists (including Dupont de Nemours and Turgot), and appreciated the Physiocrats-especially for their praise of agriculture. He extolled them in a *Diatribe to the Author of the Ephémérides*. However, he later criticized their idea of a single land tax in his satirical work *The Man of Forty Crowns*, which also stirred significant controversy. Finally, like Diderot, he celebrated Turgot's ministry, calling it a golden age and praising his two great decrees on labor freedom and free trade.
+Voltaire followed a similar path, marked by a lack of consistency in his economic views. He admired Vincent de Gournay, corresponded with economists (including Dupont de Nemours and Turgot), and appreciated the Physiocrats-especially for their praise of agriculture. He extolled them in a *Diatribe to the Author of the Ephémérides*. However, he later criticized their idea of a single land tax in his satirical work *The Man of Forty Crowns*, which also stirred significant controversy. Finally, like Diderot, he celebrated Turgot's ministry, calling it a golden age and praising his two great decrees on freedom of labor and free trade.
 
 ![image](assets/fr/102.webp)
 
@@ -918,7 +887,7 @@ Turgot defended the freedom of the grain trade in letters to Abbé Terray, later
 
 ![image](assets/fr/110.webp)
 
-In 1769, Turgot wrote the article Value and Money for Abbé Morellet's *Dictionnaire de Commerce*, which ultimately was never published. Galiani had already noted that "man is the common measure of all things", anticipating the subjective analysis that Turgot would develop thirty years later in this article, where he expands on and proves this proposition.
+In 1769, Turgot wrote the article Value and Money for abbot Morellet's *Dictionnaire de Commerce*, which ultimately was never published. Galiani had already noted that "man is the common measure of all things", anticipating the subjective analysis that Turgot would develop thirty years later in this article, where he expands on and proves this proposition.
 
 In 1770, well before Bentham, Turgot wrote a memorandum advocating for the freedom of interest rates and usury.
 

@@ -1968,27 +1968,27 @@ Il server BTCPay viene fornito con un insieme standard di Plugin (App) che posso
 
 ### Punto Vendita
 
-Uno dei Plugin standard di BTCPay Server è il Punto Vendita (PoS). Con il plugin PoS, un proprietario di negozio può creare un Webshop direttamente da BTCPay Server, senza la necessità di soluzioni di e-commerce di terze parti per gestire un Webshop. L'app PoS basata sul web consente agli utenti con negozi fisici di accettare facilmente Bitcoin, senza commissioni o coinvolgimento di terze parti, direttamente nel loro wallet. Il PoS può essere facilmente visualizzato su tablet o altri dispositivi che supportano la navigazione web. Gli utenti possono facilmente creare una scorciatoia sulla schermata home per accedere rapidamente all'app web.
+Uno dei Plugin standard di BTCPay Server è il Punto Vendita (PoS). Con il plugin PoS, un proprietario di negozio può creare un Webshop direttamente da BTCPay Server, senza la necessità di soluzioni di e-commerce di terze parti per gestire un Webshop. L'app PoS basata sul web consente agli utenti con negozi fisici di accettare facilmente Bitcoin, senza commissioni o coinvolgimento di terze parti, direttamente nel loro wallet. Il PoS può essere facilmente visualizzato su un tablet o su altri dispositivi che supportano la navigazione web. Gli utenti possono facilmente creare una scorciatoia sulla schermata home per accedere rapidamente all'app web.
 
 #### Come creare un nuovo Punto Vendita
 
-BTCPay Server consente ai proprietari di negozi di creare rapidamente un Punto Vendita in più layout. BTCPay Server riconosce che non tutti i negozi sono e-commerce, e non tutti i negozi sono un bar o ristoranti, e viene fornito con più configurazioni standard per il tuo PoS.
+BTCPay Server consente ai proprietari di negozi di creare rapidamente un Punto Vendita in più layout. BTCPay Server riconosce che non tutti i negozi sono e-commerce, e non tutti i negozi sono un bar o un ristorante, e viene quindi fornito con più configurazioni standard per il tuo PoS.
 
-Quando il proprietario del negozio clicca su "Punto Vendita" nella sua barra del menu a sinistra, BTCPay Server chiederà ora un nome; questo nome sarà visibile nella barra del menu a sinistra. Clicca su Crea per creare il PoS.
+Quando il proprietario del negozio clicca su "Punto Vendita" nella sua barra del menu a sinistra, BTCPay Server chiederà ora di creare un nome e questo sarà quindi visibile nella barra del menu a sinistra. Clicca su Crea per creare il PoS.
 
 ![immagine](assets/en/97.webp)
 
 #### Aggiornare il nuovo Punto Vendita creato
 
-Dopo aver creato un nuovo PoS, la schermata successiva sarà per aggiornare il tuo Punto Vendita e aggiungere articoli per il tuo negozio.
+Dopo aver creato un nuovo PoS, la schermata successiva servirà per aggiornare il tuo Punto Vendita e per aggiungere articoli al tuo negozio.
 
 ##### Nome dell'app
 
-Il nome dato qui al tuo Punto Vendita sarà visibile nel menu principale del BTCPay Server.
+Il nome dato qui al tuo Punto Vendita sarà visibile nel menu principale di BTCPay Server.
 
 ##### Titolo visualizzato
 
-Il pubblico vedrà il titolo pubblico o il nome quando visita il tuo negozio. BTCPay Server come nome standard del tuo negozio “Tea shop” Sostituiscilo con il nome del tuo negozio.
+Il pubblico vedrà il titolo o il nome pubblico quando visita il tuo negozio. BTCPay Server come standard nominerà il tuo negozio come “Tea shop”. Sostituiscilo con il nome da te scelto per il tuo negozio.
 
 ![immagine](assets/en/98.webp)
 
@@ -2003,7 +2003,7 @@ BTCPay Server è in grado di visualizzare il suo Punto Vendita in più modi.
 - Solo tastierino
   - Nessuna lista prodotti, solo un tastierino per la fatturazione diretta.
 - Display stampabile (Lista prodotti stampabile con QR)
-  - Se non puoi sempre visualizzare la tua lista prodotti digitalmente, hai bisogno di una soluzione "offline" per i prodotti; BTCPay Server ha una funzione di display stampabile per funzionare come un negozio Offline.
+  - Se non puoi sempre visualizzare la tua lista prodotti digitalmente, hai bisogno di una soluzione "offline" per i prodotti; BTCPay Server ha una funzione di  visualizzazione su display per poter funzionare come un negozio offline.
 
 ![immagine](assets/en/99.webp)
 
@@ -2025,19 +2025,19 @@ BTCPay Server è in grado di visualizzare il suo Punto Vendita in più modi.
 
 #### Valuta
 
-Il proprietario del negozio può impostare una valuta diversa per il suo Punto Vendita rispetto alla sua valuta predefinita. La valuta predefinita del negozio popolerà automaticamente questo campo.
+Il proprietario del negozio può impostare una valuta diversa per il suo Punto Vendita rispetto alla sua valuta predefinita. La valuta predefinita del negozio riempirà automaticamente questo campo.
 
 #### Descrizione
 
-Racconta al mondo del tuo negozio; cosa stai vendendo e a quanto? Tutto ciò che descrive il tuo negozio va qui.
+Racconta al mondo del tuo negozio, cosa stai vendendo e a quanto? Tutto ciò che descrive il tuo negozio va qui.
 
 ![image](assets/en/104.webp)
 
 #### Prodotti
 
-Quando viene creato un Punto Vendita, un server BTCPay standard aggiunge alcuni articoli al negozio come riferimento. Clicca sul pulsante Modifica su uno degli articoli standard per comprendere meglio ogni possibile opzione per un articolo.
+Quando viene creato un Punto Vendita, un server BTCPay aggiunge alcuni articoli standard al negozio, come riferimento. Clicca sul pulsante "Modifica" su uno degli articoli standard per comprendere meglio ogni possibile opzione per ogni articolo.
 
-Creare un nuovo prodotto nel tuo negozio prevede i seguenti campi:
+Creare un nuovo prodotto nel tuo negozio, presenta i seguenti campi da completare:
 
 - Titolo
 - Prezzo (fisso, minimo o personalizzato)
@@ -2048,7 +2048,7 @@ Creare un nuovo prodotto nel tuo negozio prevede i seguenti campi:
 - Testo del pulsante di acquisto
 - Abilita/Disabilita
 
-Una volta che il proprietario del negozio ha compilato tutti i campi del nuovo prodotto, clicca su salva e noterai che la sezione Prodotti nel Punto Vendita sta iniziando a popolarsi. Assicurati sempre di salvare in alto a destra dello schermo per evitare che i proprietari dei negozi possano perdere i progressi già fatti nell'aggiunta di prodotti.
+Una volta che come proprietario del negozio hai compilato tutti i campi del nuovo prodotto, clicca su salva e noterai che la sezione "Prodotti" nel "Punto Vendita" inizia a popolarsi. Assicurati sempre di salvare in alto a destra dello schermo per evitare che come proprietario dei negozi possa perdere i progressi già fatti nell'aggiunta di prodotti.
 
 I proprietari dei negozi possono anche utilizzare l'"Editor Raw" per configurare i loro prodotti. L'editor raw richiede una conoscenza di base delle strutture JSON.
 
@@ -2056,19 +2056,19 @@ I proprietari dei negozi possono anche utilizzare l'"Editor Raw" per configurare
 
 #### Checkout
 
-BTCPay Server consente una piccola personalizzazione del checkout specifica per i PoS. Il proprietario del negozio può impostare il testo "Compra per x" o richiedere dati specifici del cliente aggiungendo moduli.
+BTCPay Server consente una piccola personalizzazione del checkout specifica per i PoS. Il proprietario del negozio può impostare il testo "Compra per x" o richiedere dati specifici del cliente aggiungendo dei moduli.
 
 #### Mance
 
-Non tutti i negozi necessitano dell'opzione per le mance sulle loro vendite. I proprietari dei negozi possono attivarla o disattivarla a seconda delle loro necessità. Se il negozio utilizza le mance, il proprietario del negozio può impostare il testo nel campo per le mance che preferisce. Le mance su BTCPay Server funzionano in base a una percentuale. I proprietari dei negozi possono aggiungere più percentuali con separazione tramite virgola.
+Non tutti i negozi necessitano dell'opzione per le mance sulle loro vendite. I proprietari dei negozi possono attivarla o disattivarla a seconda delle loro necessità. Se il negozio utilizza le mance, il proprietario del negozio può impostare il testo nel campo per le mance che preferisce. Le mance su BTCPay Server funzionano in base a una percentuale ei proprietari dei negozi possono aggiungerne più di una separandole tramite la virgola.
 
 #### Sconti
 
-Come proprietario di un negozio, potresti voler offrire al cliente uno sconto personalizzato al momento del pagamento; l'interruttore per gli Sconti diventa disponibile al checkout del tuo negozio. Tuttavia, ciò è molto sconsigliato per i sistemi di self-checkout.
+Come proprietario di un negozio, potresti voler offrire al cliente uno sconto personalizzato al momento del pagamento e questo e possibile tramite l'interruttore per gli "Sconti" che diventa disponibile al checkout del tuo negozio. Tuttavia, ciò è molto sconsigliato per i sistemi di self-checkout.
 
 #### Pagamenti Personalizzati
 
-Quando l'opzione Pagamenti Personalizzati è attivata, al cliente viene permesso di inserire il prezzo che ha stabilito, uguale o superiore all'invoice originale generata dal negozio.
+Quando l'opzione "Pagamenti Personalizzati" è attivata, al cliente viene permesso di inserire il prezzo che ha stabilito, uguale o superiore all'invoice originale generata dal negozio.
 
 #### Opzioni Aggiuntive
 
@@ -2076,21 +2076,21 @@ Dopo aver impostato tutto per il tuo Punto Vendita, rimangono alcune opzioni ext
 
 #### Elimina questa app
 
-Se il proprietario del negozio desidera eliminare completamente il Punto Vendita dal suo server BTCPay, in fondo all'aggiornamento del PoS, i proprietari dei negozi possono cliccare sul pulsante Elimina questa app per distruggere completamente la loro app PoS. Cliccando su "Elimina questa app", BTCPay Server chiederà una conferma digitando `DELETE` e confermando con il clic sul pulsante Elimina. Dopo l'eliminazione, il proprietario del negozio ritorna alla dashboard di BTCPay Server.
+Se il proprietario del negozio desidera eliminare completamente il "Punto Vendita" dal suo server BTCPay, nella parte inferiore all'aggiornamento del PoS, i proprietari degli stessi negozi, possono cliccare sul pulsante "Elimina" per eliminare completamente la propria app PoS. Cliccando su "Elimina questa app", BTCPay Server chiederà una conferma digitando `DELETE` e confermando con un clic sul pulsante "Elimina". Dopo l'eliminazione, il proprietario del negozio verrà riportato alla dashboard di BTCPay Server.
 
-### BTCPay Server - Crowdfund
+### BTCPay Server - Crowdfund (_finanziamento collettivo_)
 
-Accanto al plugin Punto Vendita, BTCPay Server offre l'opzione di creare un crowdfund. Proprio come qualsiasi altra piattaforma di Crowdfund, i proprietari dei negozi possono impostare un obiettivo, creare vantaggi per coloro i quali contribuiscono e personalizzarlo secondo le loro necessità.
+Accanto al plugin Punto Vendita, BTCPay Server offre l'opzione di creare un "Crowdfund". Proprio come qualsiasi altra piattaforma di Crowdfund, i proprietari dei negozi possono impostare un obiettivo, creare vantaggi per coloro i quali contribuiscono e personalizzare tale funzione secondo le loro necessità.
 
 #### Come impostare un nuovo crowdfund
 
-Clicca sul plugin Crowdfund attraverso il menu principale sulla sinistra del tuo BTCPay Server, sotto la sezione Plugin. BTCPay Server ora richiederà un nome per il Crowdfund; questo nome sarà anche visualizzato nella barra del menu a sinistra.
+Clicca sul plugin "Crowdfund" attraverso il menu principale sulla sinistra del tuo BTCPay Server, sotto la sezione Plugin. BTCPay Server ora richiederà di dare un nome al Crowdfund, poi questo nome sarà visualizzato nella barra del menu a sinistra.
 
 ![image](assets/en/106.webp)
 
 #### Aggiorna il nuovo Punto Vendita creato
 
-Una volta dato un nome all'App, la prossima schermata sarà per aggiornare l'App.
+Una volta dato un nome all'App, la prossima schermata servirà per aggiornare l'App contestualizzandola.
 
 #### Nome App
 
@@ -2098,7 +2098,7 @@ Il nome dato al tuo Crowdfund sarà visibile nel menu principale di BTCPay Serve
 
 #### Titolo Visualizzato
 
-Il titolo è dato al Crowdfund per il pubblico.
+Il titolo che è stato dato al Crowdfund ora è pubblico.
 
 #### Slogan
 
@@ -2108,29 +2108,29 @@ Dai al crowdfund uno slogan per riconoscere di cosa tratta la raccolta fondi.
 
 #### URL Immagine in Evidenza
 
-Ogni crowdfund ha la sua immagine principale, quel banner che riconosci direttamente. Questa immagine può essere memorizzata sul tuo server se hai diritti amministrativi, gli amministratori possono caricarla nelle impostazioni del server BTCPay Server - File. Quando sei un proprietario di negozio, l'immagine deve essere caricata sul web tramite un host di terze parti (ad esempio imgur)
+Ogni crowdfund ha la sua immagine principale, quel banner che riconosci direttamente. Questa immagine può essere memorizzata sul tuo server se hai i diritti da amministratore, gli amministratori possono caricarla nelle impostazioni del server BTCPay Server - File. Quando sei un proprietario di negozio, l'immagine deve essere caricata sul web tramite un host di terze parti (ad esempio ["Imgur"](https://imgur.com/))
 
 #### Rendi il Crowdfund Pubblico
 
-Questo interruttore rende il tuo Crowdfund pubblico e quindi visibile al mondo esterno. Per scopi di test o per vedere se il tuo tema è applicato correttamente, si potrebbe voler mantenere questa impostazione su OFF per il periodo di creazione del crowdfund.
+Questo pulsante rende il tuo Crowdfund pubblico e quindi visibile al mondo esterno. Per scopi di test o per vedere se il tuo tema è applicato correttamente, si potrebbe voler mantenere questa impostazione su OFF per tutto il periodo di creazione del crowdfund.
 
 #### Descrizione
 
-Racconta al mondo del tuo Crowdfund, per cosa stai raccogliendo fondi? Tutto ciò che spiega il tuo crowdfund va qui.
+Racconta al mondo del tuo Crowdfund, per cosa stai raccogliendo fondi? Tutto ciò che descrive il tuo crowdfund va qui.
 
 ![immagine](assets/en/108.webp)
 
 #### Obiettivo del Crowdfund
 
-Imposta un obiettivo target per quanto la raccolta fondi dovrebbe guadagnare per il progetto e in quale valuta l'obiettivo dovrebbe essere denominato. Assicurati che, se i tuoi obiettivi sono fissati con un orizzonte temporale, includi date di inizio e fine sotto Obiettivi nel crowdfund.
+Imposta un obiettivo target per la realizzazione del progetto e quindi il totale dei fondi che tale raccolta dovrebbe guadagnare perchè il progetto possa definirsi concluso e in quale valuta l'obiettivo dovrebbe essere denominato. Assicurati che, se i tuoi obiettivi sono fissati con un orizzonte temporale, dovrai includere le date di inizio e di fine sotto il pulsante "Obiettivi" nel crowdfund.
 
 ![immagine](assets/en/109.webp)
 
-#### Vantaggi
+#### Perks (_benefici_)
 
-I vantaggi aiutano molto con il tuo crowdfunding. Questo perché i vantaggi danno alle persone un modo per partecipare alla tua campagna. Si appellano sia alle motivazioni egoistiche che a quelle benevolenti. E ti permettono di accedere alle spese dei tuoi sostenitori, non solo al loro wallet filantropico -- puoi indovinare quale è più significativo.
+I Perks aiutano molto con il tuo crowdfunding. Questo perché i Perks danno alle persone una modalità per partecipare alla tua campagna. Si appellano sia alle motivazioni egoistiche sia a quelle caritatevoli. E ti permettono di accedere alle offerte dei tuoi sostenitori, non solo al loro _wallet filantropico_ puoi intuire qual è il più significativo.
 
-La creazione di un nuovo vantaggio consiste nei seguenti campi;
+La creazione di un nuovo Perks presenta i seguenti campi da completare:
 
 - Titolo
 - Prezzo (fisso, minimo o personalizzato)
@@ -2141,7 +2141,7 @@ La creazione di un nuovo vantaggio consiste nei seguenti campi;
 - Testo del Pulsante di Acquisto.
 - Abilita/Disabilita
 
-Una volta che il proprietario del negozio ha compilato tutti i campi del nuovo vantaggio da creare, clicca su salva e noterai che la sezione Vantaggi nei crowdfunds viene popolata.
+Una volta che il proprietario del negozio ha compilato tutti i campi del nuovo Perks creato, clicca su salva e noterà che la sezione Perks (_Benefici_) nei crowdfunds viene popolata.
 
 ![immagine](assets/en/110.webp)
 
@@ -2149,23 +2149,23 @@ Una volta che il proprietario del negozio ha compilato tutti i campi del nuovo v
 
 #### Contributi
 
-I proprietari dei negozi possono scegliere come visualizzare i Vantaggi, come sono ordinati o anche classificati rispetto agli altri vantaggi. Tuttavia, una volta raggiunti gli obiettivi del Crowdfund, i proprietari dei negozi potrebbero voler fermare l'afflusso di donazioni verso questa raccolta fondi. Pertanto, può attivare l'opzione "Non permettere ulteriori contributi dopo aver raggiunto l'obiettivo". Questo fermerà il Crowdfund dall'accettare donazioni.
+I proprietari dei negozi possono scegliere come visualizzare i Perks, come sono ordinati o anche classificati rispetto agli altri Perks. Tuttavia, una volta raggiunti gli obiettivi del Crowdfund, i proprietari dei negozi potrebbero voler sospendere l'afflusso di donazioni verso questa raccolta fondi. Pertanto, possono attivare l'opzione "Non permettere ulteriori contributi dopo aver raggiunto l'obiettivo". Questo bloccherà il Crowdfund dall'accettare donazioni.
 
 ##### Comportamento del Crowdfund
 
-Lo standard del Crowdfund conta solo le invoice create con il Crowdfund verso l'obiettivo. Tuttavia, potrebbero esserci casi in cui il proprietario del negozio vuole che tutte le invoice fatte in questo negozio contino verso il crowdfund.
+Come standard, il Crowdfund conta solo le invoice create con la funzione Crowdfund in relazione all'obiettivo. Tuttavia, potrebbero esserci casi in cui il proprietario del negozio vorrebbe che tutte le invoice fatte con l'intero negozio contino per il crowdfund.
 
 #### Opzioni Aggiuntive per la personalizzazione
 
-BTCPay Server offre un paio di personalizzazioni extra. Aggiungi suoni, animazioni o persino thread di discussione al Crowdfund. I proprietari dei negozi potrebbero anche cambiare l'aspetto del Crowdfund inserendo il proprio CSS personalizzato.
+BTCPay Server offre un paio di personalizzazioni extra. Puoi aggiungere suoni, animazioni o persino thread di discussione al Crowdfund. I proprietari dei negozi potrebbero anche cambiare l'aspetto del Crowdfund inserendo il proprio CSS personalizzato (_il CSS è un linguaggio usato per definire la formattazione di documenti HTML, XHTML e XML, ad esempio i siti web e relative pagine web_).
 
 #### Elimina questa app
 
-Se il proprietario del negozio vuole eliminare completamente il Crowdfund dal suo BTCPay Server, in fondo all'aggiornamento del Crowdfund i proprietari dei negozi possono cliccare sul pulsante "Elimina questa app" per distruggere completamente la loro app Crowdfund. Cliccando su "Elimina questa app", BTCPay Server chiederà conferma digitando `DELETE` e cliccando sul pulsante Elimina. Dopo l'eliminazione, il proprietario del negozio ritorna alla dashboard di BTCPay Server.
+Se il proprietario del negozio vuole eliminare completamente il Crowdfund dal suo BTCPay Server, nella parte inferiore all'aggiornamento del Crowdfund, i proprietari dei negozi possono cliccare sul pulsante "Elimina questa app" per distruggere completamente la loro app Crowdfund. Cliccando su "Elimina questa app", BTCPay Server chiederà conferma digitando `DELETE` e cliccando sul pulsante Elimina. Dopo l'eliminazione, il proprietario del negozio verrà riportato alla dashboard di BTCPay Server.
 
 ### BTCPay Server - Pulsante di Pagamento
 
-I pulsanti di pagamento HTML facilmente integrabili e altamente personalizzabili permettono ai proprietari di negozi di ricevere mance e donazioni. Nella barra del menu a sinistra di BTCPay Server, sotto la sezione Plugins, i proprietari di negozi possono cliccare su "Pay Button" e cliccare su Enable per creare un pulsante di pagamento.
+I pulsanti di pagamento HTML facilmente integrabili e altamente personalizzabili permettono ai proprietari di negozi di ricevere mance e donazioni. Nella barra del menu a sinistra di BTCPay Server, sotto la sezione Plugins, i proprietari di negozi possono cliccare su "Pay Button" e cliccare su "Enable"(_abilita_) per creare un pulsante di pagamento.
 
 #### Impostazioni Generali
 
@@ -2174,7 +2174,7 @@ All'interno delle Impostazioni Generali per il Pulsante di Pagamento, i propriet
 - Prezzo standard
 - Valuta predefinita
 - Metodo di pagamento predefinito
-  - Usa il predefinito del negozio
+  - Usa lo standard predefinito del negozio
   - BTC on-chain
   - BTC Off-chain (Lightning)
   - BTC Off-chain (LNURL-pay)
@@ -2183,21 +2183,21 @@ All'interno delle Impostazioni Generali per il Pulsante di Pagamento, i propriet
 
 #### Opzioni di visualizzazione
 
-Il pulsante di pagamento di BTCPay Server può essere configurato per adattarsi a diversi stili. I pulsanti possono avere un importo fisso o personalizzato, mostrato sia con uno slider sia con i toggle più e meno.
+Il pulsante di pagamento di BTCPay Server può essere configurato per adattarsi a diversi stili. I pulsanti possono avere un importo fisso o personalizzato,e possono essere mostrati sia con uno slider sia con i toggle più e meno.
 
-#### Utilizzo del Modale
+#### Utilizzo della funzione Modale
 
-Quando si crea il pulsante di pagamento, i proprietari di negozi possono definirne il comportamento quando un cliente lo clicca e mostrarlo in modale o come una nuova pagina.
+Quando si crea il pulsante di pagamento, i proprietari dei negozi possono definirne il comportamento quando un cliente clicca il pulsante per mostrare una finestra modale o una nuova pagina.
 
 **!Nota!**
 
 Attenzione: Il pulsante di pagamento dovrebbe essere utilizzato solo per mance e donazioni
 
-L'utilizzo del pulsante di pagamento per integrazioni di e-commerce non è raccomandato poiché le informazioni rilevanti per l'ordine possono essere modificate dall'utente. Per l'e-commerce, dovresti usare la nostra API Greenfield. Se questo negozio elabora transazioni commerciali, ti consigliamo di creare un negozio separato prima di utilizzare il pulsante di pagamento.
+L'utilizzo del pulsante di pagamento per integrazioni di e-commerce non è raccomandato poiché le informazioni rilevanti per l'ordine possono essere modificate dall'utente. Per l'e-commerce, dovresti usare la nostra [API Greenfield](https://docs.btcpayserver.org/Development/GreenFieldExample/). Se questo negozio elabora transazioni commerciali, ti consigliamo di creare un negozio separato prima di utilizzare il pulsante di pagamento.
 
 #### Personalizza il testo del pulsante di pagamento
 
-Per impostazione predefinita, il pulsante di pagamento di BTCPay Server indica "Paga con BTCPay". I proprietari di negozi possono impostare questo testo a loro piacimento e cambiare il logo di BTCPay Server con il proprio. Imposta il testo utilizzando "Pay Button Text" e incolla l'URL dell'immagine sotto "Pay Button Image URL".
+Per impostazione predefinita, il pulsante di pagamento di BTCPay Server indica "Paga con BTCPay". I proprietari di negozi possono sostituire questo testo a loro piacimento e cambiare il logo di BTCPay Server con il proprio. Imposta il testo utilizzando "Pay Button Text" e incolla l'URL dell'immagine sotto "Pay Button Image URL".
 
 ##### Dimensione dell'immagine
 
@@ -2215,12 +2215,12 @@ BTCPay Server conosce tre stati per il Pulsante di Pagamento.
   - Il prezzo precedentemente impostato si trova nelle impostazioni generali del pulsante.
 - Importo Personalizzato
   - Il pulsante di pagamento di BTCPay Server ha i toggle + e - per impostare un prezzo personalizzato.
-  - Quando si utilizza l'importo personalizzato, BTCPay Server richiederà un Min, un Max e quanto dovrebbe aumentare gradualmente.
+  - Quando si utilizza l'importo personalizzato, BTCPay Server richiederà un Min, un Max e di quanto dovrebbe aumentare gradualmente.
   - I pulsanti possono essere impostati su "Usa stile di input semplice". Questo elimina i toggle +/-.
   - Adatta il pulsante in linea dove pulsante e toggle appaiono in linea.
 - Slider
   - Simile all'importo personalizzato, tuttavia, visivamente diverso poiché ha uno slider invece dei toggle +/-.
-  - Quando si utilizza lo Slider, BTCPay Server richiederà un Min, un Max e quanto dovrebbe aumentare gradualmente.
+  - Quando si utilizza lo Slider, BTCPay Server richiederà un Min, un Max e di quanto dovrebbe aumentare gradualmente.
 
 **!Nota!**
 
@@ -2228,11 +2228,11 @@ La cancellazione del Pulsante di Pagamento può essere effettuata in alto nella 
 
 #### Notifiche di Pagamento
 
-L'IPN del Server (Notifica di Pagamento Istantaneo) è destinata ai webhook e può essere compilata con un URL per postare i dati post-acquisto.
+L'IPN del Server (Instant Payment Notification - Notifica di Pagamento Istantaneo) è destinata ai webhook e può essere compilata con un URL per postare i dati post-acquisto.
 
 #### Notifiche Email
 
-Ogni volta che avviene un pagamento, BTCPay Server può notificare il proprietario del negozio.
+Ogni volta che avviene un pagamento, BTCPay Server può notificarlo al proprietario del negozio.
 
 #### Reindirizzamento del browser
 
@@ -2240,7 +2240,7 @@ Quando il cliente completa l'acquisto, verrà reindirizzato a questo link se imp
 
 #### Opzioni Avanzate del Pulsante di Pagamento
 
-Specifica ulteriori parametri della stringa di query che dovrebbero essere aggiunti alla pagina di checkout una volta creato la invoice. Ad esempio, `lang=da-DK` caricerebbe la pagina di checkout in danese per impostazione predefinita.
+Specifica ulteriori parametri della stringa di query che dovrebbero essere aggiunti alla pagina di checkout una volta creata la invoice. Ad esempio, `lang=da-DK` caricerebbe la pagina di checkout in danese per impostazione predefinita.
 
 #### Utilizza App come Endpoint
 
@@ -2248,7 +2248,7 @@ Collega direttamente il pulsante di pagamento ad un articolo in una delle app Po
 
 #### Codice Generato
 
-Poiché il pulsante di pagamento di BTCPay Server è HTML facilmente incorporabile, BTCPay Server mostra il codice generato da copiare in un sito web in fondo dopo aver configurato il pulsante di pagamento.
+Poiché il pulsante di pagamento di BTCPay Server è in linguaggio HTML facilmente incorporabile, BTCPay Server mostra il codice generato da copiare in un sito web in basso dopo aver configurato il pulsante di pagamento.
 
 I proprietari di negozi possono copiare il codice generato nel loro sito web, e il pulsante di pagamento di BTCPay Server è direttamente attivo sul loro sito web.
 

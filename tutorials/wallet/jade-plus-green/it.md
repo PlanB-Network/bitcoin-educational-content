@@ -14,25 +14,16 @@ Jade Plus può essere utilizzato in diversi modi: tramite una connessione cablat
 
 Jade Plus è compatibile con la maggior parte dei software di gestione dei Wallet. Ecco un riepilogo della compatibilità al momento della stesura del presente documento (gennaio 2025):
 
-| Desktop | Mobile | USB | Bluetooth | QR | JadeLink | Software di gestione
-
-| ------------------- | ------- | ------ | --- | ----------- | --- | -------- |
-
-| Blockstream Green | 🟢 | 🟢 | 🟢 (Mobile) | 🟢 | 🔴 |
-
-| Liana | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 | 🔴 |
-
-Sparrow | 🟢 | 🔴 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢
-
-Nunchuk | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢 |
-
-Specter | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢
-
-BlueWallet | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 |
-
-Electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴
-
-Keeper | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🟢 | 🔴 |
+| Management Software  | Desktop | Mobile | USB | Bluetooth   | QR  | JadeLink |
+| -------------------- | ------- | ------ | --- | ----------- | --- | -------- |
+| Blockstream Green    | 🟢      | 🟢     | 🟢  | 🟢 (Mobile) | 🟢  | 🔴       |
+| Liana                | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Sparrow              | 🟢      | 🔴     | 🟢  | 🔴          | 🟢  | 🟢       |
+| Nunchuk              | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Specter              | 🟢      | 🔴     | 🔴  | 🔴          | 🟢  | 🟢       |
+| BlueWallet           | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Electrum             | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Keeper               | 🔴      | 🟢     | 🔴  | 🔴          | 🟢  | 🔴       |
 
 In questo tutorial, configuriamo e utilizziamo Jade Plus con l'applicazione mobile Green Wallet di Blockstream tramite una connessione Bluetooth. Questa configurazione è ideale per i principianti. Se sei alla ricerca di un approccio più avanzato, ti consiglio di dare un'occhiata a quest'altro tutorial in cui utilizziamo Jade Plus con Sparrow mediante Codice QR:
 

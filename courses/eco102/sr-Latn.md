@@ -1237,23 +1237,23 @@ Friedrich Hayek, u svom eseju "Upotreba znanja u društvu" (The Use of Knowledge
 Ekonomsko planiranje, koje tvrdi da je bolje od tržišta, ne vodi samo lošoj raspodeli resursa već i hegemoniji jedne klase nad drugom. Zato socijalizam nije samo intelektualna greška već greška koja na kraju stvara ogromnu nepravdu.
 
 
-## Sloboda i Odgovornost su Ključ za Socijalni Problem
+## Sloboda i Odgovornost su Ključ Društvenog Problema
 
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
 
-U pismu Alphonseu de Lamartinu 1845. godine, Bastiat je napisao da je cela njegova filozofija sadržana u jednom principu:
+U pismu Alphonse-u de Lamartine-u 1845. godine, Bastiat je napisao da je cela njegova filozofija sadržana u jednom principu:
 
 
 > Sloboda je najbolji oblik društvene organizacije.
 
 ![image](assets/en/100.webp)
 
-Međutim, dodaje uslov:
+Međutim, dodaje jedan uslov:
 
 
-> Da zakon ne bi trebalo da eliminiše posledice, pozitivne ili negativne, nečijih postupaka. Ovo je posledični princip odgovornosti.
+> Da zakon ne bi trebalo da eliminiše posledice, pozitivne ili negativne, nečijih postupaka. Ovo je korelativni princip odgovornosti.
 
 Drugim rečima, sloboda i odgovornost ne mogu biti odvojene; one su nerazdvojive. Za njega se liberalizam razlikuje od socijalizma po verovanju da sloboda ne može postojati bez odgovornosti. Ali koje stvarnosti tačno pokrivaju reči sloboda i odgovornost?
 
@@ -1276,7 +1276,7 @@ Kada neko troši svoj novac, pazi da se previše ne zaduži, da proveri kvalitet
 Ali odakle dolazi fenomen neodgovornosti ili desponsibilizacije? Frédéric Bastiat nam daje odgovor na ovo pitanje, politički odgovor. On kaže, citiram:
 
 
-> Intervencija države oduzima upravljanje nama samima.
+> Intervencija države oduzima nam upravljanje sobom.
 
 Zaista, statizam kontinuirano smanjuje privatnu inicijativu i slobodan izbor ljudi. Radi za njih ono što bi oni sami mogli učiniti i bolje. Tako oduzima pojedincima posledice njihovih dela. Uništava odgovornost.
 
@@ -1284,12 +1284,12 @@ Zaista, statizam kontinuirano smanjuje privatnu inicijativu i slobodan izbor lju
 ![image](assets/en/102.webp)
 
 
-Prema Bastijatu, hipertrofija zakona i prekomerna intervencija države imaju za posledicu izazivanje borbe za moć, pljačke, privilegije, monopole, ratove, ukratko, sve što ometa napredak civilizacije.
+Prema Bastijat-u, hipertrofija zakona i prekomerna intervencija države imaju za posledicu stvaranje borbe za moć, pljačke, privilegije, monopole, ratove, ukratko, sve što ometa napredak civilizacije.
 
-Rizik preteranog favorizovanja puta zakona ili birokratske kontrole je taj što obeshrabruje svaku motivaciju namećući poplavu ograničenja, čime nas lišava brojnih napredaka koje privatna inicijativa i slobodan izbor omogućavaju.
+Rizik preteranog favorizovanja puta zakona ili birokratske kontrole je taj što obeshrabruje svaku motivaciju namećući bujicu ograničenja, čime nas lišava brojnih napredaka koje privatna inicijativa i slobodan izbor omogućavaju.
 
 
-Hajde da ilustrujemo ovo pitanje sa nekoliko glavnih aktuelnih tema. Prvi primer, kriza iz 2008. godine.
+Hajde da ilustrujemo ovaj problem sa nekoliko glavnih aktuelnih tema. Prvi primer, kriza iz 2008. godine.
 
 
 ![image](assets/en/103.webp)
@@ -1297,13 +1297,13 @@ Hajde da ilustrujemo ovo pitanje sa nekoliko glavnih aktuelnih tema. Prvi primer
 _(Alan Greenspan, predsednik FED-a, američke centralne banke, od 1987. do 2006.)_
 
 
-Godinama su lideri monetarne politike objašnjavali da ako se profiti privatizuju kada sve ide dobro, gubici će biti mutualizovani u slučaju bankrota (bailouti, planovi spasavanja, manipulacija kamatnim stopama, štampanje novca, itd.). Time su stvorili moralni hazard, olakšali preuzimanje nerazumnih rizika i podstakli finansijski svet da se ponaša neodgovorno. Tako su ubrzali finansijsku krizu koju smo iskusili.
+Godinama su lideri monetarne politike objašnjavali da ako se profiti privatizuju kada sve ide dobro, gubici će biti mutualizovani u slučaju bankrota (bailout-i, planovi spasavanja, manipulacija kamatnim stopama, štampanje novca, itd.). Time su stvorili moralni hazard, olakšali preuzimanje nerazumnih rizika i podstakli finansijski svet da se ponaša neodgovorno. Tako su ubrzali finansijsku krizu koju smo doživeli.
 
 
 ![image](assets/en/104.webp)
 
 
-A fenomen će se ponavljati beskonačno sve dok banke ostanu pod dominacijom centralnih vlasti koje bi ih trebale štititi uklanjanjem sve autonomije odlučivanja i poslovanja.
+A fenomen će se ponavljati beskonačno sve dok banke ostanu pod dominacijom centralnih vlasti koje bi ih trebale štititi uklanjanjem svake autonomije odlučivanja i poslovanja.
 
 
 Još jedan primer: javne usluge
@@ -1312,7 +1312,7 @@ Još jedan primer: javne usluge
 ![image](assets/en/105.webp)
 
 
-Svaka javna služba nameće preferencije birokratske elite, na štetu individualnog slobodnog izbora. To vodi do dve posledice prema Bastijatu: Građanin "prestaje da vrši slobodnu kontrolu nad svojim zadovoljstvima, i, više ne snoseći odgovornost, prirodno prestaje da ima inteligenciju." Razlog je jednostavan: svaki pisani zakon je prinudan i isti je za sve, ne uzima u obzir posebne situacije, potrebe i preferencije građana.
+Svaka javna služba nameće preferencije birokratske elite, na štetu individualnog slobodnog izbora. To vodi do dve posledice prema Bastiat-u: Građanin "prestaje da vrši slobodnu kontrolu nad svojim zadovoljstvima, i, više nemajući odgovornost, prirodno prestaje da ima inteligenciju." Razlog je jednostavan: svaki pisani zakon je prinudan i isti je za sve, ne uzima u obzir posebne situacije, potrebe i preferencije građana.
 
 
 Konačno, javna služba je uzrok nepokretnosti. Zaista, kada privatne usluge postanu javne, one izbegavaju konkurenciju. Shodno tome, kaže Bastiat, citiram: "službenik je lišen tog podstreka koji gura ka napretku."
@@ -1326,7 +1326,7 @@ Kada posmatramo javnu službu nacionalnog obrazovanja, razumemo šta Bastiat mis
 
 ![image](assets/en/107.webp)
 
-Videćemo u drugom kursu, prema Bastijatu, jedine legitimne javne službe države su trostruke: vojska, policija i pravosuđe. Ali da zaključimo o odgovornosti, problem sa državnom intervencijom je što oni koji donose odluke nisu oni koji trpe posledice.
+Videćemo u drugom kursu, prema Bastiat-u, da su jedine legitimne javne službe države  trostruke: vojska, policija i pravosuđe. Ali da zaključimo o odgovornosti, problem sa državnom intervencijom je što oni koji donose odluke nisu oni koji trpe posledice.
 
 Drugim rečima, kolektivni izbori nisu odgovorni izbori jer, s jedne strane, ne podrazumevaju preuzimanje rizika za donosioca odluka, a s druge strane, prisiljavaju druge da trpe određene posledice, što je jednako katastrofalno koliko i nemoralno.
 
@@ -1337,13 +1337,13 @@ Drugim rečima, kolektivni izbori nisu odgovorni izbori jer, s jedne strane, ne 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
 
-U prethodnom kursu smo videli zašto su sloboda i odgovornost ključni za društveni problem. Sada ćemo se dublje upustiti u ovu tačku pokazujući kako Frédéric Bastiat vidi zla koja pogađaju društva i njihovo rešenje.
+U prethodnom kursu smo videli zašto su sloboda i odgovornost ključni društvenog problema. Sada ćemo se dublje upustiti u ovu tačku pokazujući kako Frédéric Bastiat vidi zla koja pogađaju društva i njihovo rešenje.
 
 
 Liberali su ponekad kritikovani zbog ignorisanja zla i konstruisanja utopije čiste i savršene slobode u idealnom svetu. Ova kritika je apsolutno neosnovana u vezi sa našim autorom.
 
 
-Niko ne može ignorisati zlo koje vlada u istoriji ljudskih društava: nepravde, ratove i patnje. Voleli bismo da možemo eliminisati ta zla. To je, štaviše, predmet velikog dela modernih filozofija, od Rusoa do Hajdegera, preko Hegela i Marksa.
+Niko ne može ignorisati zlo koje vlada u istoriji ljudskih društava: nepravde, ratove i patnje. Voleli bismo da možemo eliminisati ta zla. To je, štaviše, predmet velikog dela modernih filozofija, od Rousseau-a do Heidegger-a, preko Hegel-a i Marxa.
 
 
 Zlo nije samo definitivna stvarnost već ima i ulogu u istoriji i ljudskom delovanju, kaže Frédéric Bastiat. Može se smanjiti, ali sigurno ne i potpuno iskoreniti jer bi to značilo ubijanje slobode i odgovornosti. Dakle, odakle dolazi zlo, koja je njegova uloga i kako se može sprečiti?
@@ -1360,7 +1360,7 @@ Zlo prvo proizilazi iz naše nesavršenosti. Slobodno birati znači rizikovati d
 
 Stoga, nesavršenost razuma je glavna granica ljudi i ostaje na izvoru naših patnji.
 
-Ako zlo proizlazi iz ljudske slabosti, a ne iz same slobode, niti iz slobodne trgovine, lek nije u suzbijanju slobode ili Exchange, već u samoj odgovornosti, jer je ona izvor celokupnog iskustva. Ovo načelo odgovornosti je sledeće, citiram Bastijata:
+Ako zlo proizlazi iz ljudske slabosti, a ne iz same slobode, niti iz slobodne trgovine, lek nije u suzbijanju slobode ili razmene, već u samoj odgovornosti, jer je ona izvor celokupnog iskustva. Ovaj princip  odgovornosti je sledeći, citiram Bastiat-a:
 
 
 > Svaki čovek koji deluje prima nagradu ili kaznu za svoja dela.
@@ -1371,10 +1371,10 @@ Kroz ovu prirodnu sankciju, čovek uči, otkriva, ispravlja se, napreduje i pobo
 ![image](assets/en/109.webp)
 
 
-Ako čovek snosi posledice, dobre ili loše, svojih odluka, težiće da se poboljša učenjem iz iskustva. Stoga, individualna odgovornost, koja je prema Bastijatu veliki učitelj naroda, osnovni princip svih regulacija ponašanja i društava, mora biti dozvoljena da deluje.
+Ako čovek snosi posledice, dobre ili loše, svojih odluka, težiće da se poboljša učenjem iz iskustva. Stoga, individualna odgovornost, koja je prema Bastiat-u veliki učitelj naroda, osnovni princip svih regulacija ponašanja i društava, mora biti dozvoljena da deluje.
 
 
-Zlo stvara patnju, a patnja nam pomaže da shvatimo grešku ili zabludu, vraća nas na pravi put. Kroz spoznaju zla napredujemo.
+Zlo stvara patnju, a patnja nam pomaže da shvatimo grešku ili zabludu, vraća nas na pravi put. Kroz znanje o zlu napredujemo.
 
 
 To je zato što čovek rizikuje da napravi greške ili postupi pogrešno i pretrpi posledice, što ga podstiče da bude odgovoran. Tada će se truditi da predvidi opasnosti koje bi ga mogle zadesiti kako bi se zaštitio.
@@ -1388,23 +1388,23 @@ To je zato što čovek rizikuje da napravi greške ili postupi pogrešno i pretr
 
 ---
 
-Dakle, jasno je da Bastiat nije slep. On ne poriče postojanje zla. Čovek je slab, sklon greškama i manama. Nigda nećete videti da Bastiat poriče činjenicu da je vežbanje individualne slobode povezano s mogućnošću greške, mogućnošću nerazumne ili besmislene odluke.
+Dakle, jasno je da Bastiat nije slep. On ne poriče postojanje zla. Čovek je slab, sklon greškama i zabludama. Nigde nećete videti da Bastiat poriče činjenicu da je vežbanje individualne slobode povezano s mogućnošću greške, mogućnošću nerazumne ili besmislene odluke.
 
 
-On jednostavno tvrdi da, ako izvor zla leži u odsustvu slobode, lek je u samoj slobodi, a tačnije u potpunom i celokupnom ostvarivanju lične odgovornosti.
+On jednostavno tvrdi da, ako izvor zla leži u odsustvu slobode, lek je u samoj slobodi, a posebno u potpunom i celokupnom ostvarivanju lične odgovornosti.
 
 
 ![image](assets/en/111.webp)
 
 
-Ali ako je zloupotreba slobode na izvoru naših nevolja, njena pravilna upotreba je lek, to jest, potpuno i celovito ostvarivanje lične odgovornosti, zasnovano na pravu vlasništva. Socijalna regulacija, dakle, prolazi kroz odgovornost, a ne kroz intervenciju države u svim oblastima, što je jedan od velikih izvora pljačke, a time i zala.
+Ali ako je zloupotreba slobode na izvoru naših nevolja, njena pravilna upotreba je lek, to jest, potpuno i celovito ostvarivanje lične odgovornosti, zasnovano na pravu vlasništva. Društvena regulacija, dakle, prolazi kroz odgovornost, a ne kroz intervenciju države u svim oblastima, što je jedan od velikih izvora pljačke, a time i zla.
 
 
 ![image](assets/en/112.webp)
 
-Suprotno Rusoou, koji nastoji da iskoreni zlo kroz kolektivne institucije, Frédéric Bastiat brani mogućnost zla i greške, bez kojih nema slobode ili individualne odgovornosti. Jer upravo to omogućava, kroz proces otkrivanja, napredak i smanjenje društvenih zala.
+Suprotno Rousseau-u, koji nastoji da iskoreni zlo kroz kolektivne institucije, Frédéric Bastiat brani mogućnost zla i greške, bez kojih nema slobode niti individualne odgovornosti. Jer upravo to omogućava, kroz proces otkrivanja, napredak i smanjenje društvenih zala.
 
-Mora se pojasniti da ovaj razvoj napretka kroz odgovornost ni u kom slučaju nije automatski. Nije uopšte, kao kod Hegela ili Marksa, neka vrsta prirodnog ili istorijskog determinizma, koji bi čudesno ili mehanički vodio ka harmoniji i napretku. Radi se o postepenom i neodređenom smanjenju zla i nikada o njegovom konačnom eliminisanju.
+Mora se pojasniti da ovaj razvoj napretka kroz odgovornost ni u kom slučaju nije automatski. Nije uopšte, kao kod Hegel-a ili Marx-a, neka vrsta prirodnog ili istorijskog determinizma, koji bi čudesno ili mehanički vodio ka harmoniji i napretku. Radi se o postepenom i neodređenom smanjenju zla i nikada o njegovom konačnom iskorenjivanju.
 
 
 ## Prava i lažna solidarnost
@@ -1416,13 +1416,13 @@ Mora se pojasniti da ovaj razvoj napretka kroz odgovornost ni u kom slučaju nij
 ![image](assets/en/113.webp)
 
 
-Frédéric Bastiat, u svom čuvenom pamfletu "Zakon," osuđuje izopačenje zakona koje se sastoji u legalizaciji, pod imenom "solidarnost," onoga što se zaista mora nazvati pljačkom. Zaista, postoji kontradikcija u želji da se bratstvo nametne zakonom, što bismo danas nazvali "socijalna pravda" ili solidarnost.
+Frédéric Bastiat, u svom čuvenom pamfletu "Zakon" (The Law), osuđuje izopačenje zakona koje se sastoji u legalizaciji, pod imenom "solidarnost," onoga što se zaista mora nazvati pljačkom. Zaista, postoji kontradikcija u želji da se bratstvo nametne zakonom, što bismo danas nazvali "socijalna pravda" ili solidarnost.
 
 
 ![image](assets/en/114.webp)
 
 
-Jer se moralnost definiše kao dobrovoljno ponašanje. Kada je pojedinac prisiljen da da nešto što ne želi da da, uvek je žrtva krađe.
+Moralnost se definiše kao dobrovoljno ponašanje. Kada je pojedinac prisiljen da da nešto što ne želi da da, uvek je žrtva krađe.
 
 
 ![image](assets/en/115.webp)
@@ -1434,13 +1434,13 @@ Zaista, kada je donacija zakonom obavezna, ona više nije moralni stav. Moralni 
 Ovo je ono što Bastiat naziva "sofizam pravnog bratstva." Citirajmo ga po ovom pitanju:
 
 
-> Bratstvo je spontano, ili ga nema. Dekretisati ga znači uništiti ga.
+> Bratstvo je spontano, ili ga nema. Dekretovati ga znači uništiti ga.
 
 I opet:
 
 
-> Vlade samo ikada sprovode akciju koja je sankcionisana Silom. Sada je dozvoljeno prisiliti nekoga da bude pravedan, ali ne i da bude milosrdan. Zakon, kada pokušava silom postići ono što moral postiže ubeđivanjem, umesto da se uzdigne u sferu Milosrđa, pada u domen Pljačke.
-> Ipak, ovo izopačenje zakona ima ime, to je socijalizam, odnosno ideologija prisilne preraspodele bogatstva od strane države. Socijalizam, prema Bastijatu, karakteriše ideologija legalne pljačke. Ali lukavstvo ove ideologije je u tome što prikriva svoje nasilje zloupotrebom jezika: pozivom na solidarnost ili bratstvo.
+> Vlade samo sprovode akciju koja je uvek sankcionisana silom. Sada, dozvoljeno je prisiliti nekoga da bude pravedan, ali ne i da bude milosrdan. Zakon, kada pokušava silom postići ono što moral postiže ubeđivanjem, umesto da se uzdigne u sferu Milosrđa, pada u domen Pljačke.
+> Ipak, ovo izopačenje zakona ima ime, to je socijalizam, odnosno ideologija prisilne preraspodele bogatstva od strane države. Socijalizam, prema Bastiat-u, karakteriše ideologija legalne pljačke. Ali lukavstvo ove ideologije je u tome što prikriva svoje nasilje zloupotrebom jezika: pozivom na solidarnost ili bratstvo.
 
 ![image](assets/en/116.webp)
 
@@ -1453,7 +1453,7 @@ GUISY
 
 ---
 
-Međutim, prema Bastijatu, postoji alternativa obaveznoj državnoj solidarnosti: "društvo uzajamne pomoći", međusobna i spontana pomoć ljudi među sobom zahvaljujući društvima uzajamne pomoći. Ali je takođe predvideo da će država na kraju preuzeti ove uzajamne organizacije kako bi ih pretvorila u jedinstveno i centralizovano telo, podstičući trošenje i rasipanje.
+Međutim, prema Bastiat-u, postoji alternativa obaveznoj državnoj solidarnosti: "društvo uzajamne pomoći", međusobna i spontana pomoć ljudi među sobom zahvaljujući društvima uzajamne pomoći. Ali je takođe predvideo da će država na kraju preuzeti ove uzajamne organizacije kako bi ih pretvorila u jedinstveno i centralizovano telo, podstičući trošenje i rasipanje.
 
 
 ![image](assets/en/117.webp)

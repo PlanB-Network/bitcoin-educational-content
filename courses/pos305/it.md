@@ -2415,28 +2415,28 @@ Dopo che il tuo nodo Umbrel ha completato la sincronizzazione con la blockchain 
 
 ![immagine](assets/en/122.webp)
 
-Clicca su BTCPay Server per vedere i dettagli dell'App. Quando i dettagli di BTCPay Server sono aperti, in basso a destra mostra i requisiti affinché l'App funzioni correttamente. Indica che richiede il nodo Bitcoin e Lightning. Se non hai installato il Nodo Lightning sul tuo Umbrel, clicca su Installa. Questo processo può richiedere un paio di minuti.
+Clicca su BTCPay Server per vedere i dettagli dell'App e quando questi sono aperti, in basso a destra vengono mostra i requisiti affinché l'App funzioni correttamente. Viene evidenziata la necessitàdi avere un nodo Bitcoin e un nodo Lightning. Se non hai installato il Nodo Lightning sul tuo Umbrel, clicca su Installa. Questo processo può richiedere un paio di minuti.
 
 ![immagine](assets/en/123.webp)
 
 Dopo aver installato il tuo Nodo Lightning:
 
-1. Clicca su apri nei dettagli dell'app o sull'App nel cruscotto di Umbrel.
-2. Clicca su imposta un nuovo nodo; ti verranno mostrate 24 parole per il recupero del tuo nodo lightning.
-3. Scrivile.
+1. Clicca su apri nei dettagli dell'app o sull'App nella dashboard di Umbrel.
+2. Clicca su imposta un nuovo nodo e poi ti verranno mostrate 24 parole per il recupero del tuo nodo lightning.
+3. Scrivile a parte.
 
 ![immagine](assets/en/124.webp)
 
-Umbrel richiederà la verifica delle parole appena annotate. Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che BTCPay Server richiede l'accesso a questi componenti. Dopo l'installazione, clicca su Apri in alto a destra nei dettagli dell'App o apri BTCPay Server tramite la dashboard di Umbrel.
+Umbrel richiederà la verifica delle parole appena annotate. Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che BTCPay Server richiederà l'accesso a questi componenti. Dopo l'installazione, clicca su Apri in alto a destra nei dettagli dell'App o apri BTCPay Server tramite la dashboard di Umbrel.
 Umbrel richiederà la verifica delle parole appena annotate.
 
 ![immagine](assets/en/125.webp)
 
 **!Nota!**
 
-Assicurati di conservarle in un luogo appropriato, come precedentemente appreso con la conservazione delle chiavi.
+Assicurati di conservare le parole in un luogo appropriato, come precedentemente appreso con la conservazione delle chiavi.
 
-Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che BTCPay Server richiede l'accesso a questi componenti.
+Dopo aver configurato il nodo Lightning, torna all'App Store di Umbrel e trova BTCPay Server. Clicca sul pulsante di installazione, e Umbrel mostrerà se i componenti richiesti sono installati e che anche BTCPay Server richiederà l'accesso a questi.
 
 ![immagine](assets/en/126.webp)
 

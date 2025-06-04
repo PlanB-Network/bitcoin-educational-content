@@ -1889,7 +1889,24 @@ LibreWolf active par défaut les paramètres de sécurité avancés de Firefox (
 
 ![Image](assets/fr/115.webp)
 
+#### Zen Browser
+
+[Zen Browser](https://zen-browser.app/) est un navigateur libre et open source basé sur Firefox (moteur Gecko), lancé en 2024. Son objectif est de proposer une expérience de navigation moderne, élégante, très personnalisable, et surtout centrée sur la vie privée, sans dépendance à Chromium.
+
+Zen se distingue par une approche radicale de l’interface et de l’ergonomie, largement inspirée du navigateur Arc, tout en s’en émancipant par sa nature libre et son moteur Gecko. Il inclut notamment :
+- Une interface minimaliste et modulaire, avec barre latérale verticale pour les onglets, vue fractionnée, et système de *workspaces* pour regrouper des ensembles d’onglets par projet ;
+- Un système de modèles d’interface personnalisables (*Zen Mods*) permettant de modifier profondément l’apparence du navigateur ;
+- Une fonction originale nommée *Glance*, qui permet d’ouvrir un lien dans une fenêtre temporaire légère, pour éviter l'encombrement des onglets...
+
+Zen prend également en charge les extensions Firefox, ainsi que la synchronisation via un compte Mozilla.
+
+D’un point de vue sécurité et vie privée, Zen intègre un blocage natif des traqueurs tiers. Le navigateur ne collecte aucune donnée lui-même, et il permet également de désactiver la télémétrie Mozilla. Aussi, il rejette automatiquement les certificats SSL obsolètes ou non conformes.
+
+Zen Browser est donc une alternative intéressante si vous êtes à la recherche d’un environnement de navigation Gecko à la fois libre, innovant, épuré et respectueux de leur vie privée.
+
 ### Navigateurs basés sur WebKit
+
+#### Safari
 
 Le principal navigateur actuel qui utilise le moteur de rendu WebKit (et non pas un dérivé comme Blink) est Safari. [Safari](https://www.apple.com/safari/) est le navigateur exclusif d’Apple sur macOS. Il offre une excellente intégration avec l’écosystème Apple, des performances élevées, et inclut désormais des protections renforcées contre le pistage et le fingerprinting.
 
@@ -1898,6 +1915,18 @@ Toutefois, Safari reste fermé, limité à macOS pour sa version desktop, et dé
 Ici, nous nous concentrons sur les navigateurs desktop, mais il est important de noter que sur iOS, Apple impose à tous les navigateurs d’utiliser le moteur de rendu WebKit (une contrainte qui pourrait toutefois évoluer prochainement sous l’effet de certaines réglementations européennes). Cela signifie que les navigateurs comme Chrome, Firefox ou Brave doivent, sur iOS, proposer une application reposant sur WebKit, et non sur leur moteur de rendu habituel.
 
 ![Image](assets/fr/120.webp)
+
+#### Orion
+
+Une alternative intéressante à Safari est [Orion](https://kagi.com/orion/), un navigateur moderne, conçu exclusivement pour l’écosystème Apple, et qui repose également sur WebKit. Son objectif est d'offrir une alternative rapide, légère et profondément respectueuse de la vie privée, sans compromis sur les fonctionnalités avancées.
+
+Orion se distingue de Safari par plusieurs éléments techniques :
+- Il adopte une politique zéro télémétrie stricte : aucune donnée n’est collectée ou transmise par défaut, y compris lors de l’installation initiale ;
+- Il embarque un bloqueur de publicités et de traqueurs activé par défaut, d’une efficacité comparable à celle de *uBlock Origin* dans la majorité des cas ;
+- Il permet d’installer et d’utiliser nativement les extensions Chrome et Firefox sur macOS ;
+- Il intègre des fonctions intéressantes comme le mode *Focus* (navigation sans interface), le mode basse consommation, ou encore la gestion verticale des onglets.
+
+Orion est entièrement développé par l’équipe de Kagi (connue pour son moteur de recherche sans publicité). Son développement est financé uniquement par ses utilisateurs via l’offre *Orion+* qui donne accès à quelques avantages.
 
 ### Navigateurs sans moteur de rendu
 
@@ -1938,12 +1967,14 @@ Voici un petit récapitulatif pour vous aider à faire votre choix (gardez toute
 | Opera           | 🔴              | 🟢      | 🟢              | 🟢        | 🔴          | 🔴                      |
 | Arc             | 🔴              | 🟢      | 🟢              | 🟢        | 🔴          | 🟡                      |
 | Polypane        | 🟡              | 🟡      | 🟢              | 🟡        | 🔴          | 🔴                      |
-| Mozilla Firefox | 🟢              | 🟡      | 🟢              | 🟢        | 🟢          | 🟡                      |
+| Mozilla Firefox | 🟡              | 🟡      | 🟢              | 🟢        | 🟢          | 🟡                      |
 | Tor Browser     | 🟢              | 🔴      | 🟢              | 🟡        | 🟢          | 🔴                      |
 | Mullvad Browser | 🟢              | 🟡      | 🟢              | 🟡        | 🟢          | 🟡                      |
 | Safari          | 🟡              | 🟢      | 🟢              | 🟢        | 🔴          | 🟡                      |
 | Lynx            | 🟢              | 🟢      | 🔴              | 🔴        | 🟢          | 🟢                      |
 | LibreWolf       | 🟢              | 🟡      | 🟢              | 🟡        | 🟢          | 🟡                      |
+| Orion           | 🟡              | 🟢      | 🟢              | 🟢        | 🔴          | 🟢                      |
+| Zen Browser     | 🟢              | 🟡      | 🟢              | 🟢        | 🟢          | 🟡                      |
 
 Dans le prochain chapitre, nous découvrirons les bonnes pratiques à adopter pour naviguer sur le web en toute sécurité, tout en minimisant l’exposition de votre vie privée.
 

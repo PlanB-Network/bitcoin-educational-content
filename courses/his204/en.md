@@ -870,15 +870,13 @@ During these early years, he was mentored by Vincent de Gournay, who took him un
 
 In 1767, while an intendant, he composed a compendium of economics under the title of *Reflections on the Formation and Distribution of Wealth*.
 
-
 ![image](assets/fr/108.webp)
 
 Division of labor, consumer sovereignty, private property, the role of capital, virtually all the major economic themes are addressed. Many historians, the most recent being historian Anne-Claire Hoyng, have pointed out the similarities between this work by Turgot and Adam Smith's *The Wealth of Nations*, published nine years later.
 
-
 ![image](assets/fr/109.webp)
 
-Turgot defended the freedom of the grain trade in letters to Abbé Terray, later communicated to the King, but half of which are now lost. He wrote:
+Turgot defended the freedom of the grain trade in letters to abbot Terray, later communicated to the King, but half of which are now lost. He wrote:
 
 
 > Sir, if anything is urgent, it is not to impose new restrictions on the most essential of all trades, but to remove those which, unfortunately, have been allowed to remain. 
@@ -896,7 +894,7 @@ In 1770, well before Bentham, Turgot wrote a memorandum advocating for the freed
 
 "It is a mistake to believe that the interest on money in commerce should be fixed by the laws of princes", he says, "It is a current price which regulates itself, like that of all other goods", In defense of this position, he refutes the opposition of Aristotle and the Church Fathers.
 
-A remarkable summary of Turgot's laissez-faire doctrine can be found in a forgotten 1773 letter to Abbé Terray on the marking of irons:
+A remarkable summary of Turgot's laissez-faire doctrine can be found in a forgotten 1773 letter to abbot Terray on the marking of irons:
 
 
 > What politics must do is to yield to the course of nature and to the course of commerce, which is no less necessary and no less irresistible than the course of nature itself, without attempting to direct it; for to direct it without disrupting it and without harming oneself, one would need to be able to follow all the variations in human needs, interests, and industry; one would need to know them in a level of detail that is physically impossible to obtain, and in which even the most skillful, active, and meticulous government will always risk being wrong,at least by half.
@@ -917,7 +915,7 @@ As we briefly recalled in the previous chapter, Turgot was the son of a prominen
 
 ![image](assets/fr/113.webp)
 
-His father had been the provost of the merchants of Paris and his grandfather an intendant. After excelling in his studies, the youngest of the Turgot family aimed to reach at least those same heights. He first served for a time as maître des requêtes, acting as a liaison between the intendants and Versailles. It was a prestigious position, one for which he had to obtain a special age exemption, but Turgot aspired to more. The death of his mentor, Gournay, further encouraged him to aim higher, and he requested an appointment as intendant.
+His father had been the provost of the merchants of Paris and his grandfather an intendant. After excelling in his studies, the youngest of the Turgot family aimed to reach at least those same heights. He first served for a time as maître des requêtes, meaning he was a liaison between the intendants and Versailles. It was a prestigious position, one for which he had to obtain a special age exemption, but Turgot aspired to more. The death of his mentor, Gournay, further encouraged him to aim higher, and he requested an appointment as intendant.
 
 
 In 1759, he first applied for the intendancy of Grenoble, but it was denied. He was then offered the post of provost of the merchants in Lyon, which he declined. He requested the intendancy of Brittany, but that too was refused. Finally, in 1761, he was offered the intendancy of Limousin and, somewhat reluctantly, accepted. He wrote to Voltaire: "I have the misfortune of being an intendant", perhaps meaning: I have the misfortune of being intendant in Limousin.
@@ -932,8 +930,7 @@ Because the region was so poor, it was of no interest to the ministers. This gav
 
 - **The redistribution of the taille**, the personal tax (Turgot aimed to introduce as much objectivity as possible in its assessment).
 - **The corvée**, a form of tax paid in labor, where peasants were forced to work on road construction. Upon touring the region, Turgot quickly noticed the poor condition of the roads. He replaced the corvée with a monetary tax.
-- **The recruitment of militias, peasant armies mobilized during times of war.**
-
+- **The recruitment of militias**, peasant armies mobilized during times of war.
 
 ![image](assets/fr/115.webp)
 
@@ -944,10 +941,7 @@ These reforms were undeniably successful, and in July 1774, Turgot was appointed
 
 Just a month later, however, Turgot was appointed Controller-General of Finances, effectively becoming France's economy and finance minister.
 
-
-We know the letter in which he outlined his principles to Louis XVI: 
-"No bankruptcy. No tax increases. No new loans".
-This philosophy, which critics today might label as pointless "rigor", was intended to save the monarchy.
+We know the letter in which he outlined his principles to Louis XVI: "No bankruptcy. No tax increases. No new loans". This philosophy, which critics today might label as pointless "rigor", was intended to save the monarchy.
 
 ![image](assets/fr/116.webp)
 
@@ -959,13 +953,11 @@ It was the first—and one of the very last—times an economic expert was grant
 
 Upon entering the ministry, Turgot knew he would face resistance from the privileged classes. "I will be feared, even hated, by most of the court and by all who seek favors", he told the King. The privileged soon united against him and brought about his dismissal from the office of Controller-General of Finances. Voltaire, who fully supported Turgot's reforms, wrote in his correspondence:
 
-> Ah! What dreadful news I've heard!
-What will become of us? I am devastated! 
-We will never recover from having witnessed the birth and death of the golden age! This thunderbolt has struck both my mind and my heart.
+> Ah! What dreadful news I've heard! What will become of us? I am devastated! We will never recover from having witnessed the birth and death of the golden age! This thunderbolt has struck both my mind and my heart.
 
 ![image](assets/fr/118.webp)
 
-Since then, many have argued that France is a country resistant to reform. Turgot's failure seemed to confirm it: He had been prepared by half a century of liberal economic thought; he had the backing of Enlightenment philosophers; and the King himself, with absolute power, supported him.
+Since then, many have argued that France is a country impossible to reform. Turgot's failure seemed to confirm it: He had been prepared by half a century of liberal economic thought; he had the backing of Enlightenment philosophers; and the King himself, with absolute power, supported him.
 ![image](assets/fr/119.webp)
 
 In the end, the parlements and the privileged classes won out. All the King could do was privately lament: "I see now that only Monsieur Turgot and I care about the people."
@@ -978,20 +970,19 @@ Just like mercantilism, which is its most obvious practical manifestation, Monta
 
 ![image](assets/fr/120.webp)
 
-**That sophism is the idea that trade and exchange are zero-sum games**. Whatever one party gains in a transaction is necessarily lost by the other party. Its supporters argue that this holds true both between individuals and between nations.
+That sophism is the idea that trade and exchange are zero-sum games. Whatever one party gains in a transaction is necessarily lost by the other party. Its supporters argue that this holds true both between individuals and between nations.
 
-**Abbé de Condillac played a major role in definitively dismantling this false idea.**
+Abbot of Condillac played a major role in definitively dismantling this false idea.
 
 ![image](assets/fr/121.webp)
 
 "Definitively" is perhaps an exaggeration, because in public debate, this sophism frequently reappears. This is perhaps why, moreover, Condillac remains a little-known economist. Apart from Austrian economists, few have understood the importance of his theory of exchange, no one takes interest in him anymore.
 
-For most historians of economic thought, the year 1776 is marked by the publication of *The Wealth of Nations*, which founded economic science. The fifteen lessons we have just completed, in which we have studied French economic science before Adam Smith, are enough to prove the error of this conception. In that same year 1776, moreover, another book perhaps deserves more praise from historians than Adam Smith's book: it was written by Condillac and is simply titled *Commerce and Government Considered in Relation to Each Other*.
+For most historians of economic thought, the year 1776 is marked by the publication of *The Wealth of Nations*, which founded economic science. The fifteen lessons we have just completed, in which we have studied French economic science before Adam Smith, are enough to prove the error of this conception. In that same year 1776, moreover, another book perhaps deserves more praise from historians than Adam Smith's book: it was written by Condillac and is simply titled [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond).
 
 ![image](assets/fr/122.webp)
 
 For Condillac, if the sophism of exchange seen as a zero-sum game persists, the Physiocrats are partly to blame, because they maintain that exchange is a relationship of equality. According to Condillac, this is false: exchange is an unequal relationship, where one always gives less to obtain more.
-
 
 Between the ideas of the Physiocrats and those of Condillac, one could not dream of a more perfect opposition. The Physiocrat economist Le Trosne wrote:
 
@@ -1003,12 +994,9 @@ Condillac, on the other hand, wrote:
 
 However, the opposition is largely one of words. Both agree that when one exchanges a franc for a book, the book is worth a franc, or the price of the book is a franc.
 
-
 ![image](assets/fr/123.webp)
 
 The difference lies in the fact that Condillac asserts that since we exchange a franc for the book, it means that for us, the value of the book is higher than that of our one-franc coin. We prefer the book to the coin, and that is why we make the exchange.
-
-
 
 Condillac's theory is not fundamentally contradictory with that of the Physiocrats, but they are not speaking the same language, so to speak. Le Trosne speaks of price while Condillac speaks of value, and vice versa.
 
@@ -1016,18 +1004,17 @@ Where Condillac is correct is that if prices are equal between the two exchanged
 
 To summarize Condillac's theory, three propositions can be listed:
 
-First proposition: We seek goods for their utility. This seems obvious, but it is a central tenet of economic science that men exchange to acquire utilities, a point that Jean-Baptiste Say also developed perfectly.
-
+First proposition: we seek goods for their utility. This seems obvious, but it is a central tenet of economic science that men exchange to acquire utilities, a point that Jean-Baptiste Say also developed perfectly.
 
 ![image](assets/fr/124.webp)
 
-Second proposition: Value preexists and motivates exchanges. The subjective judgment each person makes about goods and services implies that these same goods and services have a value for them, worth more or less according to the utility they seem to provide. Naturally, each individual judges differently from another, and value varies from person to person.
+Second proposition: value preexists and motivates exchanges. The subjective judgment each person makes about goods and services implies that these same goods and services have a value for them, worth more or less according to the utility they seem to provide. Naturally, each individual judges differently from another, and value varies from person to person.
 
-Finally, third proposition: Price is the consequence of the exchange process. Products do not exchange at the value I attribute to them because the conditions of exchange also depend on the subjective value the seller attributes to those products. The relationship between buyer and seller, or between the buyer's subjective appreciation and the seller's subjective appreciation, establishes a price.
+Finally, third proposition: price is the consequence of the exchange process. Products do not exchange at the value I attribute to them because the conditions of exchange also depend on the subjective value the seller attributes to those products. The relationship between buyer and seller, or between the buyer's subjective appreciation and the seller's subjective appreciation, establishes a price.
 
 These ideas of Condillac are fundamental. They allow us to understand why every exchange is always mutually beneficial.
 
-They therefore entirely destroy criticisms of free trade, since protectionism appears only as a mechanism that prevents populations from mutually benefiting each other. Laissez-faire is also the conclusion of Condillac's work. Let men be free, for if the public power protects liberty and property, men will always enrich one another by exchanging together.
+They therefore entirely destroy criticisms of free trade, since protectionism appears only as a mechanism that prevents populations from mutually benefiting each other. Laissez-faire is also the conclusion of Condillac's work. Let people do as they please, for if the public power protects liberty and property, men will always enrich one another by exchanging together.
 
 ## Condorcet
 
@@ -1049,13 +1036,11 @@ He was thus prepared to defend liberty when his friend Turgot rose to the positi
 
 ![image](assets/fr/126.webp)
 
-From then on, Condorcet's career took a turn as he entered the economic debate, tirelessly supporting the liberal reforms of the new minister. Favoring competition and freedom of commerce, Condorcet also called for the abolition of corvées (forced labor), guilds, and for fair taxation. He voiced these convictions publicly whenever opportunity arose, doing so with obvious enthusiasm; he wrote extensively and once declared in his writings: "Allow me to speak again of the liberty of commerce; I enjoy engaging with this subject."
+From then on, Condorcet's career took a turn as he entered the economic debate, tirelessly supporting the liberal reforms of the new minister. Favoring competition and freedom of commerce, Condorcet also called for the abolition of corvées (forced labor), guilds, and for fair taxation. He voiced these convictions publicly whenever opportunity arose, doing so with obvious enthusiasm; he wrote extensively and once declared in his writings: "Allow me to speak again of the freedom of commerce; I enjoy engaging with this subject."
 
 Between 1774 and 1776, during Turgot's ministry, Condorcet made numerous interventions, all marked by his commitment to laissez-faire. His works include *Letters from a Farmer of Picardy to Mr. Necker*, defending free trade; *Monopolies and Monopolists*, advocating free competition; *Reflections on Corvées*, calling for their abolition; and *Reflections on the Grain Trade*, which again praises free trade and critiques Necker's book on the same subject.
 
-
-In his *Letters on the Grain Trade*, Condorcet makes several key points.
-
+In his [*Letters on the Grain Trade*](https://archive.org/details/bub_gb_hg8jFw-y6bwC), Condorcet makes several key points.
 
 ![image](assets/fr/127.webp)
 
@@ -1077,7 +1062,7 @@ Although he devoted all his energy to defending Turgot, Condorcet had no illusio
 <chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
 
 Dupont de Nemours was the youngest disciple of François Quesnay, who once said of him: "We must take care of this young man, for he will speak when we are dead". When the French Revolution began, nearly all the great Physiocrats, including the Marquis de Mirabeau, were already gone; Mirabeau himself had passed away on July 13, 1789.
-Dupont de Nemours wrote the grievance petition (cahier de doléance) for the district of Nemours.
+Dupont de Nemours wrote the list of grievances for the bailiwick of Nemours.
 
 ![image](assets/fr/128.webp)
 
@@ -1101,7 +1086,7 @@ In 1790, at the Constituent Assembly, Dupont de Nemours followed the pacifist tr
 This proposal was rejected.
 
 That same year, 1790, debates began about issuing new paper currency to cover government expenses.
-Dupont de Nemours firmly opposed this and published a pamphlet titled *Effects of Assignats on the Price of Bread*. The title was accurate, as he explained that issuing assignats would inevitably lead to inflation, an increase in the prices of commodities, including bread.
+Dupont de Nemours firmly opposed this and published a pamphlet titled [*Effects of Assignats on the Price of Bread*](https://archive.org/details/effetdesassignat00dupo). The title was accurate, as he explained that issuing assignats would inevitably lead to inflation, an increase in the prices of commodities, including bread.
 
 
 ![image](assets/fr/131.webp)
@@ -1118,7 +1103,7 @@ A few years later, the Assembly turned its attention to the idea of creating an 
 Dupont de Nemours, still firmly opposed to the idea of a public bank, seeing it as nothing more than a monopoly, reminded the Assembly of the assignats' disastrous experience. He told them:
 
 
-> "Do not prepare yourselves for regrets like those that tormented my colleagues in the Constituent Assembly. At the time, my proposal to limit assignats only to the payment for national assets and not to make them a circulating currency was rejected. Today, they say: 'Ah, if only we had listened to Dupont de Nemours!'"
+> "Do not prepare yourselves for regrets like those that tormented my colleagues in the Constituent Assembly. At the time, my proposal to limit assignats only to the payment for national goods and not to make them a circulating currency was rejected. Today, they say: 'Ah, if only we had listened to Dupont de Nemours!'"
 
 But once again, no one listened to him.
 
@@ -1151,13 +1136,9 @@ The Marquis d'Argenson asserts that no government is capable of foreseeing and m
 
 Quesnay and the Physiocrats assert that private property is the foundation of human societies. Without private property, man loses the motivation to make an effort, to work, since he cannot enjoy the fruits of his labor or accumulate anything.
 
-
-
 ![image](assets/fr/137.webp)
 
 Condillac asserts that exchange is always mutually beneficial and should therefore, without exception, always be free. The sole mission of the State must be to protect liberty and property.
-
-
 
 ![image](assets/fr/138.webp)
 
@@ -1167,86 +1148,56 @@ All of these ideas would be taken up by the economists of the 19th century. Some
 
 <chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
 
-SELECTIVE BIBLIOGRAPHY
-Here you'll find a selection of over thirty writings:
+**SELECTIVE BIBLIOGRAPHY**
+
+Here below, you'll find a selection of over thirty writings:
+
 1. Pierre Clément, Histoire de Colbert et de son administration, Paris, 1874
-Eli Heckscher, Mercantilism, 2 vols. London: Allen and Unwin. 1935
 2. Vauban, Projet d'une dîme royale, 1707; reprint Institut Coppet, 2014; Anne Blanchard, Vauban, Fayard, 1996
-
 3.	Boisguilbert, Détail de la France, 1695; republished by Institut Coppet, 2014
-
 4. Félix Cadet, Pierre de Boisguilbert: precursor of the economists, Institut Coppet, 2014
-
 5. Pierre de Boisguilbert ou la naissance de l'économie politique, Paris, INED, 1966
-
 6. Richard Cantillon, Essai sur la nature du commerce en général, 1755; reprinted by Institut Coppet, 2015
-
 7. Antoin Murphy, Richard Cantillon, banker and economist, Oxford, 1986
-
 8. Gustave de Molinari, L'abbé de Saint-Pierre, Paris, 1859
-
 9. Abbé de Saint-Pierre, Abrégé du projet de paix perpétuelle, Rotterdam, 1729
-
 10. Abbé de Saint-Pierre, "Projet pour perfectionner le commerce de la France", in Les rêves d'un homme de bien, Paris, 1775, p.199
-
 11. André Alem, Le marquis d'Argenson et l'économie politique au début du XVIIIe siècle, Institut Coppet, 2015
-
 12. Journal et mémoires du marquis d'Argenson, Rathery edition, 9 vols, Paris, 1859-1867
-
 13. Benoît Malbranque, Vincent de Gournay: the political economy of laissez-faire, Institut Coppet, 2016
-
 14. Vincent de Gournay, Remarques sur la traduction de Josiah Child, L'Harmattan, 2008
-
 15. Christine Théré & Loïc Charles (eds.), Le cercle de Gournay, INED, 2005
-
 16. Antoin Murphy, "Le développement des idées économiques en France (1750-1756)", Revue d'histoire moderne et contemporaine, tome XXXIII, October-December 1986
-
 17. Henri Ripert, Le marquis de Mirabeau: ses théories politiques et économiques, Paris, 1901
-
 18. Lucien Brocard, Les doctrines économiques et sociales du marquis de Mirabeau in L'Ami des Hommes, Paris, 1902
-
 19. Humbert de Montlaur, Mirabeau, l'Ami des Hommes, Perrin, 1992
-
 20. Yves Guyot, François Quesnay et la Physiocratie, Institut Coppet, 2014
-
 21. François Quesnay, Œuvres économiques complètes et autres textes, 2 vols, INED, 2005
-
 22. Georges Weulersse, Le mouvement physiocratique en France (de 1756 à 1770), 2 vols, Paris, 1910
-
 23. Georges Weulersse, La Physiocratie à la fin du règne de Louis XV (1770-1774), P.U.F., 1959
-
 24. Georges Weulersse, La Physiocratie sous les ministères de Turgot et de Necker (1774-1781), P.U.F., 1950
-
 25. Georges Weulersse, La physiocratie à l'aube de la révolution (1781-1792), EHESS, 1985
-
 26. P. Jolly, Du Pont de Nemours, soldat de la liberté, Paris, P.U.F., 1956
-
 27. Voltaire's economic writings, Institut Coppet, 2013
-
 28. Gustave Schelle (ed.), Œuvres de Turgot et documents le concernant, Paris, 1913-1924
-
 29. Benoît Malbranque, Le libéralisme à l'essai : Turgot intendant du Limousin (1761-1774), Institut Coppet, 2015
-
 30. Pierre Foncin, Essai sur le ministère de Turgot, Paris, 1877
-
 31. Auguste Lebeau, Condillac économiste, Paris, 1903
-
 32. Condillac, Le commerce et le gouvernement considérés relativement l'un avec l'autre, 1776
-
 33. Condorcet, Mélanges d'économie politique, in Eugène Daire (ed.), Mélanges d'économie politique, Paris, 1847
-
 34. P. Jolly, Du Pont de Nemours, soldat de la liberté, Paris, P.U.F., 1956
+35. Eli Heckscher, Mercantilism, 2 vols. London: Allen and Unwin. 1935
 
 # Final section
 
 <partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
+
 ## Reviews & Ratings
 
 <chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
 <isCourseReview>true</isCourseReview>
 
 ## Final examination
-
 
 <chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
 <isCourseExam>true</isCourseExam>

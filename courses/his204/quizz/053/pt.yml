@@ -1,0 +1,8 @@
+question: Qual é o nome do jornal de Fisiocrates?
+answer: As Efémérides do Cidadão
+wrong_answers:
+  - Os Efémérides do Povo
+  - O Novo Cidadão
+  - O Jornal dos Economistas
+explanation: |
+  O jornal dos fisiocratas era "Les Éphémérides du Citoyen", um periódico no qual divulgavam as suas ideias e análises económicas.

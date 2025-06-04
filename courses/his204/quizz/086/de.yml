@@ -1,0 +1,8 @@
+question: Welche Idee wurde als Montaignes Sophismus bezeichnet?
+answer: Exchange ist ein Nullsummenspiel
+wrong_answers:
+  - Exchange ist ein Positivsummenspiel
+  - Je nach Zeit und Ort ist Exchange manchmal ein Nullsummenspiel, manchmal ein Positivsummenspiel
+  - Exchange ist immer ungünstig für die schwächere Partei
+explanation: |
+  Montaignes Trugschluss ist die Vorstellung, dass Exchange ein Nullsummenspiel ist, d.h. was der eine gewinnt, verliert der andere. Diese Vorstellung ist falsch, denn freiwillige Exchange sind für beide Seiten von Vorteil.

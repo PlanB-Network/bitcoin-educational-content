@@ -1,0 +1,8 @@
+question: Pre nego što se bavio ekonomijom, Quesnay je bio lekar.
+answer: Hirurg
+wrong_answers:
+  - Stomatolog
+  - Medicinska sestra
+  - Farmaceut
+explanation: |
+  François Quesnay je bio hirurg pre nego što je postao ekonomista. Čak je bio i hirurg Madame de Pompadour.

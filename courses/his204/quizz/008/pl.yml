@@ -1,0 +1,8 @@
+question: Za jakim rodzajem podatku opowiadał się Vauban w swoich pismach?
+answer: Podatek proporcjonalny: każdy musi oddawać państwu taki sam procent swoich dochodów
+wrong_answers:
+  - Progresywne opodatkowanie: stawka podatkowa dla bogatych musi być wyższa niż dla biednych
+  - Podatek zryczałtowany - niezależnie od dochodu, co roku płacisz rządowi taką samą kwotę
+  - Regresywne stawki podatkowe dla biednych muszą być wyższe niż dla bogatych
+explanation: |
+  Vauban opowiadał się za podatkiem proporcjonalnym, "dziesięciną królewską", który polegał na pobieraniu dziesiątej części (10%) dochodów wszystkich Francuzów, niezależnie od ich statusu społecznego. Wierzył, że podatek ten będzie bardziej sprawiedliwy i wydajny niż istniejący system podatkowy.

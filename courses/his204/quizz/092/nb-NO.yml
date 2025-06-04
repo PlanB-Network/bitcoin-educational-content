@@ -1,0 +1,8 @@
+question: Hvilket emne skrev Condorcet ikke om?
+answer: Bankene
+wrong_answers:
+  - Fri handel med korn
+  - Arbeidsoppgaver
+  - Slaveri
+explanation: |
+  Condorcet skrev om fri kornhandel, corvée og slaveri, men han skrev ikke om banker.

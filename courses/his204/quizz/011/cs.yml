@@ -1,0 +1,8 @@
+question: Co má Boisguilbert společného s Vaubanem?
+answer: Za to, že obšírně popsal bídu venkovského lidu a navrhl poměrnou daň pro všechny
+wrong_answers:
+  - Za to, že obšírně popsal bídu venkovského lidu a zahájil svou spisovatelskou kariéru, mu patří velký dík
+  - Za to, že navrhl poměrnou daň pro všechny a že byl ministrem financí
+  - Být ministrem financí a začít literární kariéru
+explanation: |
+  Pierre Le Pesant, sieur de Boisguilbert, byl stejně jako Vauban nadšeným pozorovatelem rolnické bídy a navrhl daňovou reformu založenou na poměrné dani. Na rozdíl od Colberta však Boisguilbert ani Vauban nebyli ministry financí.

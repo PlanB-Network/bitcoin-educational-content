@@ -2270,78 +2270,72 @@ Quali sono i tre plugin integrati che vengono forniti standard con BTCPay Server
 
 <partId>ff38596c-7de3-5e5c-ba50-9b9edbbbb5eb</partId>
 
-## Comprensione di base dell'installazione di BTCPay Server su un ambiente LunaNode
+## Conoscenza di base dell'installazione di BTCPay Server su un ambiente LunaNode
 
 <chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
 
 ### Installazione di BTCPay Server su Ambiente Hostato (LunaNode)
 
-Questi passaggi forniranno tutte le informazioni necessarie per iniziare a utilizzare BTCPay Server su LunaNode. Ci sono molte opzioni su come distribuire il software.
-Puoi trovare tutti i dettagli di BTCPay Server su https://docs.btcpayserver.org.
+Questi passaggi forniranno tutte le informazioni necessarie per iniziare a utilizzare BTCPay Server su LunaNode. Ci sono molte opzioni su come distribuire il software, puoi trovare tutti i dettagli per BTCPay Server su https://docs.btcpayserver.org/Deployment/LunaNode/.
 
 #### Da dove iniziamo?
 
-In questa parte, familiarizzerai con LunaNode come provider di hosting, farai i primi passi per utilizzare il tuo BTCPay Server e capirai come procedere con Lightning Network. Dopo aver esaminato tutti i passaggi, potrai gestire un negozio online o una piattaforma di crowdfunding che accetta Bitcoin!
-
-Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli,
-
-https://docs.btcpayserver.org.
+In questa sezione, familiarizzerai con LunaNode come provider di hosting, farai i primi passi per utilizzare il tuo BTCPay Server e capirai come procedere con Lightning Network. Dopo aver esaminato tutti i passaggi, potrai gestire un negozio online o una piattaforma di crowdfunding che accetta Bitcoin!
+Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org.
 
 ### BTCPay Server - Distribuzione su LunaNode
 
 #### Distribuzione su LunaNode
 
-Prima, vai sul sito di LunaNode.com, dove creeremo un nuovo account. Clicca su "Sign Up" in alto a destra o usa la procedura guidata "Get Started" sulla loro homepage.
+Per prima cosa, vai sul sito di [LunaNode.com](https://www.lunanode.com/), dove creeremo un nuovo account. Clicca su "Sign Up" in alto a destra o usa la procedura guidata "Get Started" sulla loro homepage.
 
 ![image](assets/en/111.webp)
 
-Dopo aver creato il tuo nuovo account, LunaNode invia una email di verifica. Una volta verificato l'account, a differenza di Voltage, ti viene immediatamente presentata la possibilità di ricaricare il saldo del tuo account. Questo saldo è necessario per pagare lo spazio server e i costi di hosting.
+Dopo aver creato il tuo nuovo account, LunaNode invia una email di verifica. Una volta verificato l'account, a differenza di Voltage, ti viene immediatamente presentata la possibilità di ricaricare il saldo del tuo account per pagare necessariamente lo spazio server e i costi di hosting.
 
 ![image](assets/en/112.webp)
 
 #### Aggiungi credito al tuo account LunaNode
 
-Una volta cliccato su "Deposit credit", puoi impostare quanto vuoi ricaricare sul tuo account e come vuoi pagarlo. LunaNode e BTCPay Server costeranno tra 10$USD e 20$USD al mese.
-A differenza di Voltage.cloud, ottieni pieno accesso al tuo Virtual Private Server (VPS da qui in poi) e quindi hai più controllo sul tuo server. Dopo aver creato il tuo nuovo account, LunaNode invia una email di verifica.
+Una volta cliccato su "Deposit credit", puoi impostare quanto vuoi ricaricare sul tuo account e come vuoi pagarlo. LunaNode e BTCPay Server costeranno tra 10$USD e 20$USD al mese. A differenza di Voltage.cloud (vedi prossimo capitolo), ottieni pieno accesso al tuo Virtual Private Server (VPS da qui in poi) e quindi hai più controllo sul tuo server. Dopo aver creato il tuo nuovo account, LunaNode invia una email di verifica.
 
 #### Come distribuire un nuovo server?
 
-In questa guida, procederemo alla configurazione creando un set di chiavi API e utilizzando il lanciatore di BTCPay Server creato da LunaNode.
+In questa guida, procederemo alla configurazione creando un set di chiavi API e utilizzando il launcher (schermata iniziale di avvio) di BTCPay Server creato da LunaNode.
 
-Nella tua dashboard di LunaNode, clicca su API in alto a destra. Questo aprirà una nuova pagina. Dobbiamo solo impostare un Nome per la chiave API. Il resto sarà gestito da LunaNode e non sarà coperto in questa guida. Clicca sul pulsante "Create API Credential".
-Dopo aver creato le credenziali API, riceverai una lunga stringa di lettere e caratteri. Questa è la tua chiave API.
+Nella tua dashboard di LunaNode, clicca su API in alto a destra per aprire una nuova pagina. Dobbiamo solo impostare un nome per la chiave API e il resto sarà gestito da LunaNode e non sarà trattato in questa guida. Clicca poi sul pulsante "Create API Credential".
+Dopo aver creato le credenziali API, riceverai una lunga stringa di lettere e caratteri e questa è la tua chiave API.
 
 ![image](assets/en/113.webp)
 
-#### Come distribuire un nuovo server?
+#### Come implementare un nuovo server?
 
-Ci sono 2 parti in queste credenziali, chiave API e ID API; avremo bisogno di entrambi. Prima di passare al punto successivo, apriamo una seconda scheda nel browser e andiamo su https://launchbtcpay.lunanode.com/
+Ci sono due componenti per queste credenziali, la chiave API e l'ID API e avremo bisogno di entrambi. Prima di passare al punto successivo, apriamo una seconda scheda nel browser e andiamo su https://launchbtcpay.lunanode.com/
 
-Qui ti verrà chiesto di fornire la tua chiave API e ID API. Questo serve per verificare la tua identità per la creazione di questo nuovo server. La chiave API dovrebbe essere ancora aperta nella tua scheda precedente; se scorri in basso nella tabella qui sotto, troverai l'ID API.
+Qui ti verrà chiesto di fornire la tua chiave API e l'ID API. Questo serve per verificare la tua identità per la creazione di questo nuovo server. La chiave API dovrebbe essere ancora aperta nella tua scheda precedente e se scorri in basso nella tabella lì sotto, troverai l'ID API.
 
-Torna alla pagina con il Launcher, compila i campi con la tua chiave API e ID, e clicca su continua.
+Torna alla pagina con il Launcher, compila i campi con la tua chiave API e l'ID, e clicca su continua.
 
 ![image](assets/en/114.webp)
 
-Nel passo successivo, puoi fornire un nome di dominio. Se possiedi già un dominio e vuoi usarlo per BTCPay Server, assicurati di aggiungere anche il record DNS (chiamato record `A`) sul tuo dominio. Se non possiedi un dominio, usa il dominio fornito da LunaNode invece (puoi cambiarlo in seguito nelle impostazioni di BTCPay Server) e clicca su Continua.
-
-Per saperne di più su come impostare o cambiare un record DNS per BTCPay Server; https://docs.btcpayserver.org/FAQ/Deployment/#how-to-change-your-btcpay-server-domain-name
+Nel passo successivo, puoi fornire un nome di dominio. Se possiedi già un dominio e vuoi usarlo per BTCPay Server, assicurati di aggiungere anche il record DNS (chiamato record `A`) sul tuo dominio. Se non possiedi un dominio, usa il dominio fornito da LunaNode invece (puoi cambiarlo in seguito nelle impostazioni di BTCPay Server) e clicca su continua.
+Per saperne di più su come impostare o cambiare un record DNS per BTCPay Server leggi https://docs.btcpayserver.org/FAQ/Deployment/#how-to-change-your-btcpay-server-domain-name
 
 #### Lancia BTCPay Server su LunaNode
 
-Dopo aver compiuto i passi precedenti, possiamo impostare tutte le opzioni per il nostro nuovo server. Qui selezioneremo Bitcoin (BTC) come valuta supportata; possiamo impostare un'email per ricevere notifiche riguardo al rinnovo dei certificati di crittografia; questo non è obbligatorio.
-Questa guida mira a configurare un ambiente Mainnet; tuttavia, LunaNode permette anche di impostare Testnet o Regtest per scopi di sviluppo. Lascieremo l'opzione Mainnet per questa guida.
-Scegli la tua implementazione di Lightning. LunaNode offre due diverse implementazioni, LND e Core Lightning. Per questa guida, sceglieremo LND. Ci sono piccole, ma significative differenze tra le implementazioni; per maggiori informazioni su questo, si raccomanda di leggere la documentazione estesa; https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
+Dopo aver compiuto i passi precedenti, possiamo impostare tutte le opzioni per il nostro nuovo server. Qui selezioneremo Bitcoin (BTC) come valuta supportata; possiamo impostare un'email per ricevere notifiche riguardo al rinnovo dei certificati di crittografia anche se questo non è obbligatorio.
+Questa guida mira a configurare un ambiente Mainnet, tuttavia, LunaNode permette anche di impostare Testnet o Regtest per scopi di sviluppo. Lascieremo l'opzione Mainnet per questa guida.
+Scegli anche la tua implementazione di Lightning. LunaNode offre due diverse implementazioni, LND e Core Lightning. Per questa guida, sceglieremo LND. Ci sono piccole, ma significative differenze tra le implementazioni; per maggiori informazioni su questo, si raccomanda di leggere la documentazione estesa su https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
 ![immagine](assets/en/115.webp)
 
-LunaNode offre diversi piani di Macchine Virtuali (VM). Questi variano in fasce di prezzo e specifiche del server. Per questa guida sarà sufficiente un piano m2; tuttavia, se hai selezionato altre valute oltre a Bitcoin, considera di usare almeno un m4.
+LunaNode offre diversi piani di Macchine Virtuali (VM). Questi variano in fasce di prezzo e specifiche del server. Per questa guida sarà sufficiente un piano "m2"; tuttavia, se hai selezionato altre valute oltre a Bitcoin, considera di usare almeno una configurazione "m4".
 
-Accelerare la sincronizzazione iniziale della blockchain; questa è un'opzione facoltativa e dipende dalle tue necessità. Ci sono opzioni avanzate come impostare un Alias Lightning, puntare a una specifica release di GitHub, o impostare chiavi SSH; nessuna di queste sarà trattata in questa guida.
+Un opzione facoltativa consiste nel velocizzare la sincronizzazione iniziale della blockchain e questo dipende dalle tue necessità. Ci sono opzioni avanzate come impostare un Alias Lightning, puntare a una specifica release di GitHub, o impostare chiavi SSH; nessuna di queste opzioni sarà trattata in questa guida.
 
-Dopo aver compilato il modulo, devi cliccare su Launch VM, e LunaNode inizierà a creare la tua nuova VM, includendo BTCPay Server installato su di essa. Questo processo richiede un paio di minuti; una volta che il tuo server è pronto, LunaNode ti fornirà il link al tuo nuovo BTCPay Server.
+Dopo aver compilato il modulo, devi cliccare su Launch VM, e LunaNode inizierà a creare la tua nuova VM, includendo l'installazione di BTCPay Server. Questo processo richiede un paio di minuti; una volta che il tuo server è pronto, LunaNode ti fornirà il link al tuo nuovo BTCPay Server.
 
-Dopo il processo di creazione, clicca sul link al tuo BTCPay Server; qui, ti verrà chiesto di creare un account Amministratore.
+Dopo il processo di creazione, clicca sul link del tuo BTCPay Server e poi ti verrà chiesto di creare un account Amministratore.
 
 ![immagine](assets/en/116.webp)
 
@@ -2349,14 +2343,14 @@ Dopo il processo di creazione, clicca sul link al tuo BTCPay Server; qui, ti ver
 
 In questa sezione hai imparato:
 
-- Creare e finanziare un account su LunaNode
-- Usare il BTCPay Server Launcher per creare il tuo server
+- Creare e finanziare un account su LunaNode;
+- Usare il BTCPay Server Launcher per creare il tuo server.
 
 ### Valutazione delle Conoscenze
 
 #### Revisione Concettuale KA
 
-Descrivi alcune delle differenze tra eseguire un'istanza di BTCPay Server su un VPS rispetto alla creazione di un account su un'istanza ospitata.
+Descrivi alcune delle differenze tra eseguire un'istanza di BTCPay Server su un VPS rispetto alla creazione di un account su un'hosted instance.
 
 ## Installazione di BTCPay Server su un ambiente Voltage
 

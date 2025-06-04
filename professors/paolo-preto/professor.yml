@@ -4,12 +4,10 @@ name: Paolo Foti
 contributor_id: hunt-wood
 
 links:
-  twitter: 
-
-tags:
-  - bitcoin
-  - education
-  - economy
-
+  twitter:
 tips:
-  lightning_address: 
+  lightning_address:
+tags:
+  - user-friendly
+  - adoption
+  - self-sovereignty

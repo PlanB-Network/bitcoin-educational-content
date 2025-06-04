@@ -30,22 +30,31 @@ Nakamochi 是一个仅支持比特币的全节点，同时支持比特币和闪�
 
 3.使用节点管理应用程序（Zeus 或 BitBanana）连接 Nakamochi：
 
+4.打开应用程序，扫描 Nakamochi 上显示的 QR 码。
 
-   - 打开应用程序，扫描 Nakamochi 上显示的 QR 码。
+5.为提高安全性，请在设备上设置 PIN 码。
 
-4.为提高安全性，请在设备上设置 PIN 码。
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+![image](assets/en/02.webp)
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+等到区块链跟上时代的步伐_
 
-![For additional safety set a PIN code](asset/en/05.webp)
+![image](assets/en/03.webp)
 
-注意：让您的 Nakamochi 节点与区块链同步。此过程可能需要一些时间，具体取决于您的网络连接。
+在 "闪电标签 "中设置新钱包_
+
+![image](assets/en/04.webp)
+
+
+
+![image](asset/en/05.webp)
+
+
+
+**注意：** _允许您的中脉节点与区块链同步。这个过程可能需要一些时间，具体取决于您的网络连接。
 
 ## 关于闪电网络
 
@@ -57,7 +66,7 @@ Nakamochi 是一个仅支持比特币的全节点，同时支持比特币和闪�
 
 #### 支付渠道说明
 
-闪电网络通过支付通道运行，这种通道是双方之间的连接，允许进行多笔交易，而无需直接与区块链交互。当通道打开时，每笔交易的双方余额都会在第二层闪电解决方案中更新，从而确保快速、低成本的支付。只有通道的打开和关闭才会被记录在链上，从而减少了比特币区块链的拥堵。这种设计确保了可扩展性和隐私性，因为单个交易不会被记录在公共分类账上。
+闪电网络通过支付通道运行，这种通道是双方之间的连接，允许进行多项交易，而无需直接与区块链交互。当通道打开时，每笔交易的双方余额都会在第二层闪电解决方案中更新，从而确保快速、低成本的支付。只有通道的打开和关闭才会被记录在链上，从而减少了比特币区块链的拥堵。这种设计确保了可扩展性和隐私性，因为单个交易不会被记录在公共分类账上。
 
 **举例说明：** Alice 和 Bob 通过投入比特币打开了一个通道。爱丽丝将比特币发送给鲍勃，他们的链下余额会立即更新，而不需要链上记录。如果爱丽丝向查理付款，而爱丽丝与查理没有直接的通道，则付款可以通过鲍勃的通道到达查理。通过中间节点进行路由，即使没有直接连接也能确保支付，从而使网络变得非常高效。
 
@@ -77,9 +86,11 @@ Nakamochi 是一个仅支持比特币的全节点，同时支持比特币和闪�
 
 5.点击 **"打开通道 "**。
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-更多信息：[Channel | Zeus Documentation](https://zeusln.app)
+_ZEUS屏幕截图_
+
+更多信息：[Channel | Zeus Documentation](https://docs.zeusln.app/)
 
 ### 在 BitBanana（安卓）上打开频道：
 
@@ -93,7 +104,9 @@ Nakamochi 是一个仅支持比特币的全节点，同时支持比特币和闪�
 
 5.输入锁定金额（与同行一起选择，或使用知名节点的最低固定金额）。
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+_Bitbanana Screenshot_比特香蕉截图
 
 欲了解更多信息：[BitBanana](https://bitbanana.com)
 
@@ -107,4 +120,4 @@ Nakamochi 是一个仅支持比特币的全节点，同时支持比特币和闪�
 
 
 - [关于 Nakamochi](https://nakamochi.io/)
-- [订阅我们的时事通讯](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [订阅 Nakamochi 时事通讯](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

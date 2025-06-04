@@ -1225,14 +1225,6 @@ Questo aspetto misterioso che circonda il creatore di Bitcoin è stato ben riass
 >
 > Cosa rappresenta la S?"
 
-## Recensioni & Valutazioni
-<chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Esame Finale
-<chapterId>39e43ec2-5b38-5174-882a-c1f7d284b9e6</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Il Passaggio alla Comunità
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 

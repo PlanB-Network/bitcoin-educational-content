@@ -1,17 +1,10 @@
 id: 84def86d-faf5-4589-807a-83be60720c8b
-builder: Sparrow
-
-tags:
-  - privacy
-  - coinjoin
-  - mix
 
 category: on-chain
 
 level: intermediate
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: 9b3cac51-1dd2-4333-83dc-dc1d3a972595
@@ -20,79 +13,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 15.48
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 7.79
+    contributor_names:
+    reward: 11.63
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 7.79
+    contributor_names:
+    reward: 11.63
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 11.63
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 15.48
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 3.89
+    reward: 5.82
   - language: it
     last_contribution_date: 2024-09-09
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Tinf0ilHat1
     reward: 5.82
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 23.17
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 7.79
+    contributor_names:
+    reward: 11.63
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 15.48
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 23.17
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 15.48
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 19.32
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 19.32
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 15.48
+tags:
+  - wallets
+  - guides
+  - privacy

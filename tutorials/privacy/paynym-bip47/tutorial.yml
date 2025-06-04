@@ -1,17 +1,11 @@
 id: a492a70b-50eb-4f95-a766-bae2c5535093
-builder: Samourai
-
-tags:
-  - privacy
-  - BIP
 
 category: on-chain
 
 level: advanced
 
-credits:
-  professor: pretty-private
-  link: https://www.pandul.fr/post/bip47-paynym-et-code-de-paiement-r%C3%A9utilisable#viewer-1cdv8
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+credit_link: https://www.pandul.fr/post/bip47-paynym-et-code-de-paiement-r%C3%A9utilisable#viewer-1cdv8
 
 # Proofreading metadata
 project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
@@ -20,79 +14,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 44.11
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 22.11
+    contributor_names:
+    reward: 33.11
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 22.11
+    contributor_names:
+    reward: 33.11
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 33.11
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 44.11
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 11.05
+    reward: 16.56
   - language: it
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 16.56
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 66.12
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 22.11
+    contributor_names:
+    reward: 33.11
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 44.11
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 66.12
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 44.11
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 55.12
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 55.12
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 44.11
+tags:
+  - privacy
+  - wallets
+  - protocols

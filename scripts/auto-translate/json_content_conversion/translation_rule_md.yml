@@ -4,6 +4,9 @@ non_translatable:
   - yml_properties
   - partId
   - chapterId
+  - isCourseExam
+  - isCourseReview
+  - isCourseConclusion
   - embeb_links
   - equation
   - snippet

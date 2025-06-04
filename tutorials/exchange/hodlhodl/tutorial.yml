@@ -1,94 +1,91 @@
 id: d7344cd5-6b18-40f5-8e78-2574a93a3879
-builder: Hodl Hodl
 
 level: intermediate
 
 category: peer-to-peer
 
-tags:
-  - multi-coin
-  - peer-to-peer
-  - light-KYC
-
-# Proofreading metadata
 project_id: 120557b9-b1e6-4969-aff4-5bf46fff9869
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.82
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.46
+    contributor_names:
+    reward: 3.64
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1.23
+    reward: 1.82
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.64
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.82
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.46
+    contributor_names:
+    reward: 3.64
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.64
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.18
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.46
+    contributor_names:
+    reward: 3.64
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.82
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.18
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.82
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.0
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.0
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.82
+tags:
+  - guides
+  - user-friendly
+  - wallets

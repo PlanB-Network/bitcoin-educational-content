@@ -1,19 +1,11 @@
 id: 5a75db51-a6a1-4338-a02a-164a8d91b895
 
-builder: Plan ₿ Network
-
-tags:
-  - wallets
-  - software
-  - backup
-  - good-practice
 
 category: backup
 
 level: beginner
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 
@@ -23,90 +15,94 @@ proofreading:
   - language: fr
     last_contribution_date: 2024-10-14
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 0.43
+    reward: 0.61
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.6
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.85
+    contributor_names:
+    reward: 1.23
 
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.85
+    contributor_names:
+    reward: 1.23
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.23
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.6
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.6
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.98
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.23
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.35
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.85
+    contributor_names:
+    reward: 1.23
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.6
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.35
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.98
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.6
+tags:
+  - backup
+  - good-practice
+  - personal-security

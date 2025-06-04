@@ -30,22 +30,31 @@ Nakamochi-solmua hallitaan mobiilisovelluksella [BitBanana (Android)](https://bi
 
 3. Käytä solmujen hallintasovellusta (Zeus tai BitBanana) yhteyden muodostamiseen Nakamochiisi:
 
+4. Avaa sovellus ja skannaa Nakamochissa näkyvä QR-koodi.
 
-   - Avaa sovellus ja skannaa Nakamochissa näkyvä QR-koodi.
+5. Lisäturvaksi voit asettaa laitteeseen PIN-koodin.
 
-4. Lisäturvaksi voit asettaa laitteeseen PIN-koodin.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+_Kytke virta ja kirjoita 24-sanainen siemenlauseesi_
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+odota, kunnes lohkoketju on saanut meidät kiinni_
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+_Uuden lompakon perustaminen Lightning-välilehdelle_
 
-_Huomautus: Anna Nakamochi-solmun synkronoitua lohkoketjun kanssa. Tämä prosessi voi kestää jonkin aikaa riippuen internetyhteydestäsi._
+![image](assets/en/04.webp)
+
+_Scannaa QR-koodi Node Management -sovelluksella_
+
+![image](asset/en/05.webp)
+
+_Lisäturvallisuuden lisäämiseksi aseta PIN-koodi_
+
+**Huomautus:** _Salli Nakamochi-solmun synkronoitua lohkoketjun kanssa. Tämä prosessi voi kestää jonkin aikaa riippuen internetyhteydestäsi._
 
 ## Tietoja Lightning Networkista
 
@@ -77,9 +86,11 @@ Kun Nakamochi on asennettu ja yhdistetty solmunhallintasovellukseen, voit aloitt
 
 5. Napsauta **"Avaa kanava "**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-Lisätietoja: [Channels | Zeus Documentation](https://zeusln.app)
+_ZEUS Kuvakaappaus_
+
+Lisätietoja: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 
 ### Kanavien avaaminen BitBanana (Android):
 
@@ -93,11 +104,13 @@ Lisätietoja: [Channels | Zeus Documentation](https://zeusln.app)
 
 5. 
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+_Bitbanana Kuvakaappaus_
 
 Lisätietoja: [BitBanana](https://bitbanana.com)
 
-Kun kanavasi on avattu, maksut voidaan ohjata sen kautta muille verkon osallistujille. Saldot mukautuvat ketjun ulkopuolella, joten maksutapahtumat ovat lähes välittömiä ja niistä peritään vain vähän maksuja.
+Kun kanavasi on avattu, maksut voidaan ohjata sen kautta muille verkoston osallistujille. Saldot mukautuvat ketjun ulkopuolella, joten maksutapahtumat ovat lähes välittömiä ja niistä peritään vain vähän maksuja.
 
 Jos et enää tarvitse kanavaa, voit sulkea sen. Tämä toimenpide ratkaisee sinun ja vertaisesi välisen loppusaldon ja kirjaa sen ketjuun. 
 
@@ -107,4 +120,4 @@ Yleisesti ottaen suosittelemme kanavien jättämistä auki kustannusten vähent�
 
 
 - [Tietoa Nakamochista](https://nakamochi.io/)
-- [Tilaa uutiskirjeemme](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Tilaa Nakamochin uutiskirje](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

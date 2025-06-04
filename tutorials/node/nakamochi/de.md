@@ -14,7 +14,6 @@ Mit Nakamochi kann jeder eine Node von zu Hause aus einrichten und betreiben, un
 - Kanäle/Channels eröffnen und erste Transaktionen im Lightning Netzwerk machen
 
 
-
 ## Was ist Nakamochi und wie funktioniert es?
 
 Nakamochi ist eine Bitcoin-only Full Node, die sowohl das Bitcoin- als auch das Lightning-Netzwerk unterstützt. Sie umfasst eine integrierte Bitcoin- und Lightning-Wallet, die es den Nutzern ermöglicht, eine eigene, sichere Bitcoin-Node zu betreiben und gleichzeitig von der Geschwindigkeit und den niedrigen Transaktionskosten des Lightning-Netzwerks zu profitieren.
@@ -24,25 +23,29 @@ Die Nakamochi Node wird über eine mobile Node Management App verwaltet, [BitBan
 
 ## Nakamochi Einrichten in nur 5 Minuten
 
-### 1. Schritt: 
+### 1. Schritt:
 
 1. Nakamochi einstecken und mit dem WLAN verbinden.
 2. Auf **"Setup New Wallet"** klicken und die 24-Wörter Seed Phrase notieren.
 3. Nakamochi mit einem Mobile Gerät verbinden, dazu einfach den QR Code in der Node Management App (Zeus or BitBanana) scannen.
 4. Für mehr Sicherheit kann ein Bildschirm Pin eingerichtet werden.
 
-![Gerät einstecken und Seed Phrase notieren](assets/de/01.webp)
+![image](assets/de/01.webp)
+_Gerät einstecken und Seed Phrase notieren_
 
-![Warten, bis die Blockchain aufgeholt hat](assets/de/02.webp)
+![image](assets/de/02.webp)
+_Warten, bis die Blockchain aufgeholt hat_
 
-![Neue Lightning Wallet aufsetzen](assets/de/03.webp)
+![image](assets/de/03.webp)
+_Neue Lightning Wallet aufsetzen_
 
-![QR Code mit Node Management App scannen](assets/de/04.webp)
+![image](assets/de/04.webp)
+_QR Code mit Node Management App scannen_
 
-![Für mehr Sicherheit Bildschirm Pin einrichten](asset/de/05.webp)
+![image](asset/de/05.webp)
+_Für mehr Sicherheit Bildschirm Pin einrichten_
 
-_Hinweis: Warten, bis die Nakamochi-Node die Blockchain synchronisiert hat. Dieser Prozess kann je nach Internetverbindung ein wenig Zeit in Anspruch nehmen._
-
+**Hinweis:** _Warten, bis die Nakamochi-Node die Blockchain synchronisiert hat. Dieser Prozess kann je nach Internetverbindung ein wenig Zeit in Anspruch nehmen._
 
 
 ## Über das Lightning Netzwerk
@@ -52,13 +55,11 @@ Durch den Betrieb außerhalb der Bitcoin-Blockchain ist Lightning skalierbar und
 Ein weiterer Vorteil ist der Schutz der Privatsphäre, da Transaktionen auf Lightning über private Zahlungskanäle, den Channels, geleitet werden, anstatt direkt auf der Blockchain aufgezeichnet zu werden. Dies gewährleistet eine diskretere Art und Weise, Transaktionen zu tätigen, während die robuste Sicherheit von Bitcoin erhalten bleibt.
 
 
-
 #### Zahlungskanäle erklärt
 
 Das Lightning Network funktioniert über Zahlungskanäle, d. h. über Verbindungen zwischen zwei Parteien, die mehrere Transaktionen ermöglichen, ohne direkt mit der Blockchain zu interagieren. Wenn ein Kanal geöffnet ist, wird der Saldo zwischen den beiden Parteien bei jeder Transaktion auf dieser Lightning-Lösung der zweiten Schicht aktualisiert, was schnelle und kostengünstige Zahlungen gewährleistet. Nur das Öffnen und Schließen des Kanals wird auf der Blockchain aufgezeichnet, wodurch die Überlastung der Bitcoin-Blockchain verringert wird. Dieses gewährleistet Skalierbarkeit und Datenschutz, da einzelne Transaktionen nicht im öffentlichen Hauptbuch aufgezeichnet werden.
 
 **Beispiel:** Alice und Bob öffnen einen Kanal, in den sie Bitcoin einzahlen. Alice sendet Bitcoin an Bob, und ihre Off-Chain-Bilanz wird sofort aktualisiert, ohne dass ein On-Chain-Eintrag erforderlich ist. Wenn Alice dann Charlie bezahlt und Alice keinen direkten Kanal zu Charlie hat, kann die Zahlung über Bobs Kanal zu Charlie weitergeleitet werden. Das Routing über Zwischen-Nodes gewährleistet Zahlungen auch ohne direkte Verbindungen, wodurch das Netzwerk hochgradig effizient wird.
-
 
 
 ## Channels eröffnen und erste Transaktionen im Lightning Netzwerk machen
@@ -73,10 +74,10 @@ Sobald dein Nakamochi eingerichtet und mit einer Node-Management-App verbunden i
 4. Einen Betrag eingeben (mit einem Peer frei wählbar, oder den Minimalbetrag für eine öffentliche Node eingeben).
 5. Auf **“Open Channel”** drücken.
 
-![ZEUS Screenshot](asset/de/06.webp)
+![image](asset/de/06.webp)
+_ZEUS Screenshot_
 
-
-Mehr Informationen: [Channels | Zeus Documentation](https://zeusln.app)
+Mehr Informationen: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 
 ### Channels mit BitBanana (Android) öffnen:
 
@@ -86,7 +87,8 @@ Mehr Informationen: [Channels | Zeus Documentation](https://zeusln.app)
 4. Pubkey scannen oder einfügen.
 5. Einen Betrag eingeben (mit einem Peer frei wählbar, oder den Minimalbetrag für eine öffentliche Node eingeben).
 
-![Bitbanana Screenshot](asset/de/07.webp)
+![image](asset/de/07.webp)
+_BitBanana Screenshot_
 
 Mehr Informationen: [BitBanana](https://bitbanana.com)
 

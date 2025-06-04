@@ -15,6 +15,7 @@ Ein RGB-Vertrag ist wie eine evolutionäre Zustandsmaschine aufgebaut. Er beginn
 Um mehr über die Funktionsweise des RGB-Protokolls zu erfahren, empfehle ich Ihnen diesen umfassenden Schulungskurs:
 
 https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
 Die interne Logik von RGB basiert auf Rust-Bibliotheken, die Sie als Entwickler in Ihre Projekte importieren können, um den Teil der *Client-side Validation* zu verwalten. Darüber hinaus arbeitet das LNP/BP-Team an Bindungen für andere Sprachen, was aber noch nicht abgeschlossen ist. Darüber hinaus entwickeln andere Unternehmen wie Bitfinex ihre eigenen Integrationsstacks, aber darüber werden wir in einem anderen Tutorial sprechen. Für den Moment ist das `rgb` CLI die offizielle Referenz, auch wenn es noch relativ unausgereift ist.
 
 ## Installation und Vorstellung des CLI-Tools rgb
@@ -308,4 +309,4 @@ Sie wissen nun, wie man einen RGB-Vertrag ausstellt und überträgt. Wenn Sie di
 
 Ich empfehle auch dieses andere Tutorial, in dem ich erkläre, wie man einen RGB-kompatiblen Lightning-Knoten startet, um Token fast sofort auszutauschen:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

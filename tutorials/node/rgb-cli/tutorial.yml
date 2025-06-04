@@ -1,18 +1,11 @@
 id: 1f8a28d4-fa99-4261-9d80-48275b496fd4
 
-builder: LNP BP
 
-tags:
-  - offchain
-  - layers
-  - protocols
-
-category: rgb
+category: others
 
 level: advanced
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 
@@ -22,90 +15,94 @@ proofreading:
   - language: fr
     last_contribution_date: 2025-01-17
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 2.01
+    reward: 2.99
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.95
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.03
+    contributor_names:
+    reward: 5.99
 
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.03
+    contributor_names:
+    reward: 5.99
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.99
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.95
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.95
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.91
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.99
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 11.88
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.95
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.03
+    contributor_names:
+    reward: 5.99
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.95
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 11.88
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.91
+tags:
+  - smart-contracts
+  - guides
+  - experimental

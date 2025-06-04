@@ -1,0 +1,9 @@
+question: Mitkä ovat salasanojen hallintaohjelman pääominaisuudet?
+answer: Salasanojen tallentaminen, luominen ja järjestäminen.
+wrong_answers:
+  - Virusten analysointi ja poistaminen.
+  - Henkilökohtaisten asiakirjojen varmuuskopiointi ja järjestäminen.
+  - Yhteyden nopeuden optimointi.
+explanation: |
+  Keskeisiin toimintoihin kuuluu salasanojen tallentaminen, luominen ja järjestäminen.
+reviewed: false

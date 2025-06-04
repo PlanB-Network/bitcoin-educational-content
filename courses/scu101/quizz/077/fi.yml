@@ -1,0 +1,9 @@
+question: Miksi on välttämätöntä suojata sähköpostitiliä?
+answer: Koska se mahdollistaa salasanoiden nollaamisen
+wrong_answers:
+- Koska se käytetään vastaanottamaan uutiskirjeitä
+- Koska se sisältää kaikki salasanasi
+- Koska siinä on pankkiasi tiedot
+explanation: Posti-laatikko on keskeinen pääsy kohta salausavain päätteiden ja useiden
+  tilin hakkeroinnin tapauksessa.
+reviewed: false

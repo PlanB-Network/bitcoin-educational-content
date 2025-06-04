@@ -50,7 +50,7 @@ Khi mở ra, bạn nên tìm thấy các mục sau trong hộp:
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Đối với hai chương trình phần mềm này, tôi khuyên bạn nên kiểm tra cả tính xác thực (với GnuPG) và tính toàn vẹn (qua hash) trước khi cài đặt chúng vào máy của bạn. Nếu bạn không chắc cách làm thế nào, bạn có thể theo dõi hướng dẫn khác này:
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Làm thế nào để Khởi tạo một Ledger Nano?
 

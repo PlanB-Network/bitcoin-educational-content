@@ -1,11 +1,10 @@
 id: 68a35093-761a-41a6-9171-bcd7ca3251dc
 start_date: 2024-08-23
 end_date: 2024-08-24
-address_line_1: Riga, Latvia
+address_city_country: Riga, Latvia
 address_line_2:
 address_line_3:
 name: NOSTRIGA 2024
-builder: Nostr.World
 type: conference
 book_online: false
 book_in_person: false
@@ -17,9 +16,9 @@ links:
   website: https://nostr.world/
 
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - general
-
+  live_url:
 project_id: d0db0105-c5ea-4d2c-9559-80be9246d935
+tags:
+  - offchain
+  - protocols
+  - adoption

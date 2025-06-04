@@ -557,15 +557,18 @@ Níže definujeme několik úrovní zabezpečení:
 
 Například peněženku Sparrow Wallet můžete používat jako horkou peněženku:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Na úrovni 2\*\* používáte fyzickou peněženku a máte zajištěn seznam 12/24 slov. Často se označuje jako "studená peněženka", protože vaše klíče jsou uloženy v zařízení, které není připojeno k internetu. V tomto případě musíte každou transakci vždy podepisovat svým zařízením, což zhoršuje každodenní dostupnost vašich prostředků.
 
 Můžete například použít Ledger, Satochip nebo Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Úroveň 3**, používáte peněženku úrovně 1 nebo 2, ale přidali jste další přístupovou frázi. V takovém případě si uvědomte, že je třeba zálohovat jak seznam 12/24 slov **a\*\* vaši přístupovou frázi. V ideálním případě jsou tyto dvě informace uloženy na dvou různých místech.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Další informace o používání a fungování hesla BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Na úrovni 4\*\* vytvoříte pomocí sady peněženek "multisig peněženku", což znamená, že k provedení transakce je zapotřebí více podpisů. V tomto případě mějte na paměti, že každá část multisig by měla být uložena na jiném místě. Tento přístup je často považován za pokročilé využití Bitcoinu, především pro správu velkých částek a pro firemní účely.
@@ -829,7 +833,7 @@ Pokud si chcete nainstalovat vlastní uzel, máte k dispozici několik možnost�
 
 ![image](assets/en/53.webp)
 
-Druhou možností je použít k tomuto účelu specializovaný hardware, například Raspberry Pi 4 s dostatečně velkým SSD (asi ~1TB). Tato druhá možnost je sice dražší, pokud si musíte hardware koupit, ale z hlediska spotřeby elektřiny představuje o něco méně než 10,00 EUR ročně.
+Druhou možností je použít k tomuto účelu specializovaný hardware, například Raspberry Pi 4 s dostatečně velkým SSD (asi ~2TB). Tato druhá možnost je sice dražší, pokud si musíte hardware koupit, ale z hlediska spotřeby elektřiny představuje o něco méně než 10,00 EUR ročně.
 
 Z hlediska šířky pásma, pokud vezmeme v úvahu 1 blok o velikosti 1 MB každých 10 minut, to odpovídá přibližně 5 GB měsíčně.
 
@@ -1074,11 +1078,11 @@ Podrobně se tomuto tématu budeme věnovat v jiném kurzu, ale abychom to zjedn
 
 - Jednoduché online řešení: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Řešení pro amatérské obchodníky: Švýcarský Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Řešení pro velké struktury nebo vášnivé bitcoinery: BTCpay Server
 
@@ -1356,7 +1360,7 @@ Jste připraveni se připojit?
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
@@ -1368,4 +1372,4 @@ Jste připraveni se připojit?
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-<isCourseConclusion>pravdivý</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

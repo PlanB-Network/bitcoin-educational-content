@@ -1,7 +1,7 @@
 ---
 name: Introdução à criptografia formal
 goal: Uma introdução aprofundada à ciência e à prática da criptografia.
-objectives: 
+objectives:
 
   - Explorar as cifras de Beale e os métodos criptográficos modernos para compreender os conceitos básicos e históricos da criptografia.
   - Aprofunde-se na teoria dos números, grupos e campos para dominar os principais conceitos matemáticos subjacentes à criptografia.
@@ -291,7 +291,7 @@ Na expressão "variável aleatória", o termo "aleatório" significa apenas "pro
 
 Uma **variável uniforme** é um caso especial de uma variável aleatória. Pode assumir dois ou mais valores, todos com a mesma probabilidade. A variável aleatória $X$ representada na *Figura 1* é claramente uma variável uniforme, uma vez que ambos os resultados possíveis ocorrem com uma probabilidade de $0,5$. Existem, no entanto, muitas variáveis aleatórias que não são instâncias de variáveis uniformes.
 
-Considere, por exemplo, a variável aleatória $Y$. Tem um conjunto de resultados $\{1, 2, 3, 8, 10\}$ e a seguinte distribuição de probabilidade:
+Considere, por exemplo, a variável aleatória $Y$. Tem um conjunto de resultados $\{1, 2, 3, 8, 10}$ e a seguinte distribuição de probabilidade:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -2295,7 +2295,7 @@ No entanto, com a adição de um pouco de complexidade inteligente, o problema R
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Exame Final
 
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

@@ -3,5 +3,3 @@ description: |
 
   Users can send and receive Bitcoin on any website that supports Bitcoin payments, make payments using LNurl, LN invoice, or LN address, and secure their account with two-factor authentication. 
   Integrating USDT stablecoin and bitrefill.
-contributors:
-  - rabbit-hole

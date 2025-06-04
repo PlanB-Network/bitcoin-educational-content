@@ -8,5 +8,3 @@ description: |
   Các tính năng của chúng tôi bao gồm lựa chọn giữa các giao thức WireGuard, OpenVPN hoặc IPSec, AntiTracker chặn quảng cáo và theo dõi, tùy chọn Killswitch/Firewall, máy chủ DNS riêng không lưu trữ log, đường truyền VPN đa hợp, chuyển tiếp cổng, và Obfsproxy để vượt qua kiểm duyệt.
 
   Trong khi chúng tôi làm rõ rằng VPN không thể đạt được sự ẩn danh hoặc ngăn chặn việc thu thập dữ liệu bởi các gã khổng lồ như Google hay Facebook, chúng tôi đảm bảo rằng một VPN đáng tin cậy như của chúng tôi có thể hiệu quả mã hóa dữ liệu và yêu cầu DNS của bạn, tăng cường an toàn trên các mạng công cộng không đáng tin, che giấu địa chỉ IP của bạn, và vượt qua kiểm duyệt hoặc các rào cản địa lý. Chúng tôi là một phần đáng tin cậy trong chiến lược bảo vệ quyền riêng tư của bạn, miễn là bạn tin tưởng chúng tôi hơn ISP của bạn.
-contributors:
-  - rabbit-hole

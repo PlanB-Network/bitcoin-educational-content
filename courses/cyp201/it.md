@@ -85,7 +85,7 @@ Queste funzioni hash crittografiche hanno diverse caratteristiche essenziali che
 
 #### 1. Irreversibilità (resistenza alla preimmagine):
 
-L'irreversibilità significa che è facile calcolare l'hash dalle informazioni di input, ma il calcolo inverso, cioè trovare l'input dall'hash, è praticamente impossibile. Questa proprietà rende le funzioni hash perfette per creare impronte digitali uniche senza compromettere le informazioni originali. Questa caratteristica è spesso definita come una funzione unidirezionale o una "_funzione trappola_".
+L'irreversibilità significa che è facile calcolare l'hash a partire dalle informazioni in ingresso, ma il calcolo inverso, ovvero trovare l'ingresso a partire dall'hash, è praticamente impossibile. Questa proprietà rende le funzioni di hash perfette per creare impronte digitali uniche senza compromettere le informazioni originali.
 
 Nell'esempio dato, ottenere l'hash `24f1b9…` conoscendo l'input "_PlanB_" è semplice e veloce. Tuttavia, trovare il messaggio "_PlanB_" conoscendo solo `24f1b9…` è impossibile.
 
@@ -1267,6 +1267,7 @@ Una frase di 12 parole, che offre quindi 128 bit di sicurezza, è attualmente su
 Per approfondire e imparare concretamente come generare manualmente una frase mnemonica di prova, ti consiglio di scoprire questo tutorial:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Prima di continuare con la derivazione del portafoglio da questa frase mnemonica, ti presenterò, nel capitolo seguente, la passphrase BIP39, poiché gioca un ruolo nel processo di derivazione, ed è allo stesso livello della frase mnemonica.
 ## La passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
@@ -2128,13 +2129,13 @@ Per convertire un valore in un carattere _bech32_ utilizzando questa tabella, è
 Mappando tutti i nostri valori, otteniamo il seguente indirizzo:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Tutto ciò che rimane da fare è aggiungere l'HRP `bc`, che indica che si tratta di un indirizzo per il mainnet di Bitcoin, così come il separatore `1`, per ottenere l'indirizzo completo di ricezione:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 La particolarità di questo alfabeto _bech32_ è che include tutti i caratteri alfanumerici tranne `1`, `b`, `i` e `o` per evitare confusione visiva tra caratteri simili, specialmente durante la loro digitazione o lettura da parte degli umani.

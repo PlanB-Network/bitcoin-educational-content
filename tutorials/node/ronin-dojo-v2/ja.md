@@ -321,6 +321,7 @@ Samourai WalletとRoninDojo v2を使用してコインジョインを行うプ�
 ビットコインでのコインジョインとその使用についてのより深い理解のために、この他の記事も参照してください：ビットコインでのコインジョインの理解と使用、ここではこの技術について知っておくべきすべてのことを詳しく説明しています。
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ### Whirlpool Stat Tool (WST)の使用
 
 Whirlpoolでコインジョインを実行した後、ミックスされたUTXOの達成したプライバシーレベルを正確に評価することが役立ちます。これを行うには、Pythonツールである*Whirlpool Stat Tool*を使用できます。このツールを使用すると、UTXOの見込みスコアと遡及スコアの両方を測定し、プール内での拡散率を分析することができます。

@@ -4,9 +4,8 @@ subtopic: history
 level: intermediate
 hours: 15
 
-professors:
-  - satoshi-brother
-
+professors_id:
+  - 81e18c30-579e-46c1-a197-98cd32cb37ae
 published_at: 2024-09-03
 
 original_language: fr
@@ -14,89 +13,93 @@ proofreading:
   - language: fr
     last_contribution_date: 2024-08-20
     urgency: 1
-    contributors_id:
+    contributor_names:
       - lugaxker
-    reward: 24.39
+    reward: 36.55
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 48.78
+    contributor_names:
+    reward: 73.1
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 97.45
+    contributor_names:
+    reward: 97.43
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 48.78
+    contributor_names:
+    reward: 73.1
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 73.12
+    contributor_names:
+    reward: 73.1
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 97.45
+    contributor_names:
+    reward: 97.43
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 97.45
+    contributor_names:
+    reward: 97.43
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 121.79
+    contributor_names:
+    reward: 121.76
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 73.12
+    contributor_names:
+    reward: 73.1
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 146.13
+    contributor_names:
+    reward: 146.09
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 97.45
+    contributor_names:
+    reward: 97.43
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 48.78
+    contributor_names:
+    reward: 73.1
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 97.45
+    contributor_names:
+    reward: 97.43
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 146.13
+    contributor_names:
+    reward: 146.09
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 121.79
+    contributor_names:
+    reward: 121.76
+tags:
+  - historical
+  - protocols
+  - decentralization

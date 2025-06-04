@@ -1,0 +1,9 @@
+question: Why is it recommended to use randomly generated passwords?
+answer: To resist brute-force attacks.
+wrong_answers:
+  - To make them easier to remember.
+  - To reduce their complexity.
+  - To resist Sybil attacks.
+explanation: |
+  Randomness makes passwords harder to guess through trial and error, thereby strengthening their security against brute-force attacks.
+reviewed: false

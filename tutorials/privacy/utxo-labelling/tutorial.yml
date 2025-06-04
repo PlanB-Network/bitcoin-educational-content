@@ -1,17 +1,10 @@
 id: d997f80f-8a96-45b5-8a4e-a3e1b7788c52
-builder: Plan ₿ Network
-
-tags:
-  - privacy
-  - education
-  - coin control
 
 category: on-chain
 
 level: intermediate
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: cd62a137-baad-4133-b90d-711963e510c7
@@ -20,79 +13,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.48
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.79
+    contributor_names:
+    reward: 2.63
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.79
+    contributor_names:
+    reward: 2.63
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.63
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.48
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.89
+    reward: 1.32
   - language: it
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 1.32
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.17
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.79
+    contributor_names:
+    reward: 2.63
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.48
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.17
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.32
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.32
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.48
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.48
+tags:
+  - wallets
+  - good-practice
+  - onchain

@@ -1,5 +1,5 @@
 id: f11a148f-63d8-4b02-8fb4-ac6130c41cb1
-name: alevand 
+name: alevand
 
 contributor_id: green-day
 
@@ -8,12 +8,10 @@ links:
   nostr: alevand@nostr.red
 
 affiliations:
-  - BitPolito
-
-tags:
-  - communicator
-  - bitcoin
-  - accountability
-
+  - fe9e6942-1c42-4e4d-a32c-819f6070a748
 tips:
   lightning_address: alevand@getalby.com
+tags:
+  - finance
+  - business
+  - good-practice

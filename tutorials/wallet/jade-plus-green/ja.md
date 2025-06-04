@@ -37,6 +37,7 @@ Jade Plusは、USB-Cによる有線接続、マイクロSDカード（要アダ�
 このチュートリアルでは、Bluetooth接続を介してBlockstreamのGreen WalletモバイルアプリでJade Plusをセットアップして使用します。このセットアップは初心者に最適です。より高度なアプローチをお探しなら、このチュートリアルをご覧になることをお勧めします。このチュートリアルでは、Jade PlusとSparrow WalletをQRコードモードで使用します：
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 ## ジェイド・プラス安全モデル
 
 Jade Plusは、「ブラインド・オラクル」によって実現される「仮想セキュア・エレメン ト」に基づくセキュリティ・モデルを採用している。具体的には、ユーザーが選択した暗証番号、Jadeにホストされている秘密鍵、オラクル（Blockstreamが管理するサーバー）が保持する秘密鍵を組み合わせて、2つのエンティティに分散されたAES-256鍵を作成する仕組みである。開始時に、ECDH交換がオラクルとの通信を保護し、ハードウェア・ウォレット上のリカバリ・フレーズを暗号化する。実用的には、トランザクションに署名するためにシードにアクセスしたい場合、.NET Frameworkにアクセスする必要がある：
@@ -109,6 +110,7 @@ Continue*」ボタンをクリックして、新しいリカバリーフレー�
 ニモニックフレーズの保存と管理の適切な方法については、特に初心者の方には、この他のチュートリアルをご覧になることを強くお勧めします：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ***このチュートリアルで私がしているように、これらの言葉をインターネット上で決して共有してはなりません。このサンプルポートフォリオはTestnet上でのみ使用され、チュートリアルが終了した時点で削除されます。
 
 画面右の矢印をクリックすると、以下の言葉が表示される。
@@ -124,9 +126,11 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 このチュートリアルでは、Green Walletアプリケーションを使用して、Jade Plus上でホストされているウォレットを管理します。この方法は特に初心者に適しています。より詳細にビットコインウォレットを管理したい場合は、別のチュートリアルで取り上げる Sparrow Wallet を使用することもできます：
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 Blockstream Greenアプリケーションのインストールと設定については、このチュートリアルの最初の部分を参照してください：
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 ブロックストリーム・グリーンのアプリケーションで、"*Configure a new portfolio*"ボタンをクリックします。
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
@@ -204,6 +208,7 @@ PINコードはジェイドのロックを解除します。したがって、�
 2FA*」オプションの詳細については、こちらのチュートリアルを参照してください：
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+
 アカウントが作成されました。
 
 ![JADE-PLUS-GREEN](assets/fr/30.webp)
@@ -229,6 +234,7 @@ JadeはBlockstreamの「バーチャル・セキュア・エレメント」を�
 ウォレットに最初のビットコインを受け取る前に、**空のリカバリーテスト**を行うことを強くお勧めします。あなたのxpubや最初の受け取りアドレスなど、いくつかの参照情報をメモしておき、まだ空の状態でGreenアプリとJade Plus上でウォレットを削除します（`オプション -> デバイス -> 工場出荷時のリセット`）。その後、ニーモニックフレーズの紙のバックアップを使用してウォレットを復元してみてください。リストア後に生成されたクッキー情報が、最初にメモしたものと一致しているか確認してください。一致していれば、紙のバックアップが信頼できるものであることが確認できます。テスト復元を実行する方法の詳細については、この他のチュートリアルを参照してください：
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## ビットコインを受け取る
 
 ビットコイン・ウォレットがセットアップされたら、最初のサットを受け取る準備ができました！Greenアプリケーションの "*Receive*"ボタンをクリックしてください。

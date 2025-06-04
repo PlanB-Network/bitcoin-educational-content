@@ -46,6 +46,7 @@ Den siste delen ledes av andre foredragsholdere som presenterer konkrete RGB-bas
 Dette kurset sprang opprinnelig ut av en to ukers bootcamp for avansert utvikling i Viareggio i Toscana, arrangert av [Fulgur'Ventures] (https://fulgur.ventures/). Den første uken, som fokuserte på Rust og SDK-er, finner du i dette andre kurset:
 
 https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 I dette kurset fokuserer vi på den andre uken av bootcampen, som fokuserer på RGB.
 
 **Uke 1 - LNP402:**
@@ -310,15 +311,12 @@ Følgende sammenligning hjelper deg med å forstå dette prinsippet:
 - Tidsstempel (blokkjede)**: Ved å sette inn denne hashen i blokkjeden beviser vi også at vi kjente til den på et bestemt tidspunkt (da den ble inkludert i en blokk);
 - Engangsforsegling**: Med engangsplomber går vi et skritt videre ved å gjøre forpliktelsen unik. Med en enkelt hash kan du opprette flere motstridende forpliktelser parallelt (problemet med legen som kunngjør "*Det er en gutt*" til familien og "*Det er en jente*" i sin personlige dagbok). Single-use Seal eliminerer denne muligheten ved å koble forpliktelsen til et bevis på publisering, for eksempel Bitcoin-blokkjeden, slik at et forbruk av UTXO definitivt forsegler forpliktelsen. Når UTXO er brukt, kan de samme UTXO ikke brukes på nytt for å erstatte forpliktelsen.
 
-| Engangsforseglinger | Tidsstempler | Enkel forpliktelse (digest/hash) | Engangsforseglinger | Tidsstempler
+|                                                                                  | Enkel forpliktelse (digest/hash) | Tidsstempler | Engangssegl |
+| -------------------------------------------------------------------------------- | -------------------------------- | ------------ | ---------- |
+| Publisering av forpliktelsen avslører ikke meldingen                            | Ja                               | Ja           | Ja        |
+| Bevis på forpliktelsesdato / meldingens eksistens før en bestemt dato          | Umulig                           | Mulig        | Mulig     |
+| Bevis på at ingen alternativ forpliktelse kan eksistere                        | Umulig                           | Umulig       | Mulig     |
 
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-offentliggjøring av forpliktelsen avslører ikke budskapet | Ja | Ja | Ja | Ja | Ja
-
-bevis på dato for forpliktelse / eksistens av melding før en bestemt dato | Umulig | Mulig | Mulig | Mulig | Mulig
-
-| Bevis for at det ikke finnes noen annen alternativ forpliktelse Umulig | Mulig |
 
 Single-use Seals fungerer i tre hovedfaser:
 
@@ -460,23 +458,17 @@ Under arbeidet med RGB identifiserte vi minst fire ulike måter å implementere 
 - Definer forseglingen via verdien av en offentlig nøkkel, og lukk den i en _input_ ;
 - Definer forseglingen via et _outpoint_, og lukk den i et _input_.
 
-| Forseglingsdefinisjon | Forseglingslukking | Ytterligere krav | Hovedapplikasjon | Mulige engasjementsordninger
-
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-p2(W)PKH | Ingen for øyeblikket | Keytweak, taptweak, opret | P2(W)PKH | Ingen for øyeblikket
-
-| TxO2 | Transaksjonsutgang | Transaksjonsutgang | Krever deterministiske forpliktelser på Bitcoin | RGBv1 (universal) | Keytweak, tapret, opret |
-
-| PkI | Offentlig nøkkelverdi | Transaksjonsoppføring | Kun Taproot og ikke kompatibel med eldre lommebøker | Bitcoin-baserte identiteter | Sigtweak, witweak
-
-| TxO1 | Transaksjonsutgang | Transaksjonsinngang | Kun Taproot og ikke kompatibel med eldre lommebøker | Ingen for øyeblikket | Sigtweak, witweak |
+| Skjemanavn  | Tetningsdefinisjon        | Tetningslukking         | Tilleggskrav                                                    | Hovedapplikasjon           | Mulige forpliktelsesordninger     |
+| ----------- | ------------------------- | ----------------------- | -------------------------------------------------------------- | -------------------------- | ---------------------------------- |
+| PkO         | Offentlig nøkkelverdi     | Transaksjonsutgang      | P2(W)PKH                                                        | Ingen foreløpig            | Keytweak, taptweak, opret         |
+| TxO2        | Transaksjonsutgang        | Transaksjonsutgang      | Krever deterministiske forpliktelser på Bitcoin                 | RGBv1 (universell)         | Keytweak, tapret, opret           |
+| PkI         | Offentlig nøkkelverdi     | Transaksjonsinngang     | Kun Taproot & ikke kompatibel med eldre lommebøker              | Bitcoin-baserte identiteter | Sigtweak, witweak                 |
+| TxO1        | Transaksjonsutgang        | Transaksjonsinngang     | Kun Taproot & ikke kompatibel med eldre lommebøker              | Ingen foreløpig            | Sigtweak, witweak                 |
 
 Vi skal ikke gå i detalj om hver av disse konfigurasjonene, ettersom vi i RGB har valgt å bruke **et _utpunkt_ som definisjon av forseglingen**, og å plassere _commitment_ i utgangen av transaksjonen som bruker dette _utpunktet_. Vi kan derfor introdusere følgende begreper for fortsettelsen:
 
-
-- "Seal-definisjon"** : Et gitt _utgangspunkt_ (identifisert av TXID + utgangsnr.) ;
-- "Seal closing"**: Transaksjonen som bruker dette _outpoint_, der en _commitment_ legges til en melding.
+- **"Seal-definisjon"** : Et gitt _utgangspunkt_ (identifisert av TXID + utgangsnr.) ;
+- **"Seal closing"**: Transaksjonen som bruker dette _outpoint_, der en _commitment_ legges til en melding.
 
 Dette skjemaet er valgt fordi det er kompatibelt med RGB-arkitektur, men andre konfigurasjoner kan være nyttige for ulike bruksområder.
 
@@ -740,79 +732,54 @@ Da vi startet RGB, gikk vi gjennom alle disse metodene for å finne ut hvor og h
 - Vanskelig implementering og vedlikehold ;
 - Konfidensialitet og motstand mot sensur.
 
-| Trace- og on-chain-dimensjonering | Dimensjonering på klientsiden | Porteføljeintegrasjon | Maskinvarekompatibilitet | Lightning-kompatibilitet | Taproot-kompatibilitet
+| Metode                                           | Spor og størrelse on-chain | Størrelse på klientsiden | Wallet-integrasjon | Maskinvarekompatibilitet | Lightning-kompatibilitet | Taproot-kompatibilitet |
+| ------------------------------------------------ | ---------------------- | ---------------- | ----------------- | ------------------ | ------------------ | ------------------ |
+| Keytweak (deterministisk P2C)                    | 🟢                     | 🟡                 | 🔴                   | 🟠                     | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+| Sigtweak (deterministisk S2C)                    | 🟢                     | 🟢                 | 🟠                   | 🔴                     | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
+| Opret (OP_RETURN)                                | 🔴                     | 🟢                 | 🟢                   | 🟠                     | 🔴 BOLT, 🟠 Bifrost | -                     |
+| Tapret-algoritme: øverste venstre node           | 🟠                     | 🔴                 | 🟠                   | 🟢                     | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
+| Tapret-algoritme #4: hvilken som helst node + bevis | 🟢                     | 🟠                 | 🟠                   | 🟢                     | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
 
-| Keytweak (deterministisk P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig | 🔴 🟢 Taproot, 🟢 MuSig
+| Deterministisk forpliktelsesskjema                 | Standard       | On-chain-kostnad                                                                                                     | Størrelse på bevis på klientsiden                                                                               |
+| ------------------------------------------------- | -------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Keytweak (deterministisk P2C)                     | LNPBP-1, 2     | 0 byte                                                                                                              | 33 byte (ikke-endret nøkkel)                                                                                     |
+| Sigtweak (deterministisk S2C)                     | WIP (LNPBP-39) | 0 byte                                                                                                              | 0 byte                                                                                                          |
+| Opret (OP_RETURN)                                 | -              | 36 (v)byte (ekstra TxOut)                                                                                           | 0 byte                                                                                                          |
+| Tapret-algoritme: øverste venstre node            | LNPBP-6        | 32 byte i witness (8 vbyte) for enhver n-of-m multisig og utgifter gjennom skriptsti                               | 0 byte på scriptless scripts taproot ~270 byte for et enkelt skript, ~128 byte hvis flere skript                |
+| Tapret-algoritme #4: hvilken som helst node + bevis | LNPBP-6        | 32 byte i witness (8 vbyte) for enkeltskript-tilfeller, 0 byte i witness i de fleste andre tilfeller                | 0 byte på scriptless scripts taproot, 65 byte inntil Taptree inneholder et dusin skript                         |
 
-| Sigtweak (deterministisk S2C) | 🟢 | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
+| Lag                           | On-chain-kostnad (bytes/vbytes) | On-chain-kostnad (bytes/vbytes) | On-chain-kostnad (bytes/vbytes) | On-chain-kostnad (bytes/vbytes) | On-chain-kostnad (bytes/vbytes) | Klientkostnad (bytes) | Klientkostnad (bytes) | Klientkostnad (bytes) | Klientkostnad (bytes) | Klientkostnad (bytes) |
+| ----------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+| **Type**                      | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**          | **Tapret #4**       | **Keytweak**        | **Sigtweak**        | **Opret**           |
+| Single-sig                    | 0                            | 0                            | 0                            | 0                            | 32                           | 0                   | 0                   | 32                  | 0?                  | 0                   |
+| MuSig (n-of-n)                | 0                            | 0                            | 0                            | 0                            | 32                           | 0                   | 0                   | 32                  | ? > 0               | 0                   |
+| Multi-sig 2-of-3              | 32/8                         | 32/8 eller 0                 | 0                            | n/a                          | 32                           | ~270                | 65                  | 32                  | n/a                 | 0                   |
+| Multi-sig 3-of-5              | 32/8                         | 32/8 eller 0                 | 0                            | n/a                          | 32                           | ~340                | 65                  | 32                  | n/a                 | 0                   |
+| Multi-sig 2-of-3 med tidsavbrudd | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                  | 65                  | 32                  | n/a                 | 0                   |
 
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - | |
 
-tapret-algoritme: øverste venstre node | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig | 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig
+| Lag                            | On-chain-kostnad (vbytes) | On-chain-kostnad (vbytes) | On-chain-kostnad (vbytes) | Klientkostnad (bytes) | Klientkostnad (bytes) |
+| ------------------------------ | ---------------------- | ---------------------- | ---------------------- | ------------------ | ------------------ |
+| **Type**                        | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**       | **Tapret #4**       |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                   | 0                   |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                   | 0                   |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m              | 65                  |
+| Gren MuSig / Multi_a (n-of-m)     | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                  | 65                  |
+| Med tidsavbrudd (n-of-m)          | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                  | 65                  |
 
-tapret-algoritme #4: hvilken som helst node + bevis | 🟢 | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig
+| Metode                                   | Personvern og skalerbarhet | Interoperabilitet | Kompatibilitet | Portabilitet | Kompleksitet |
+| ---------------------------------------- | --------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (deterministisk P2C)            | 🟢                     | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (deterministisk S2C)            | 🟢                     | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                     | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Øverste venstre node         | 🟠                     | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Enhver node + bevis       | 🟢                     | 🟢               | 🟢            | 🟠          | 🔴         |
 
-| Deterministisk forpliktelsesordning | Standard | Kostnad i kjeden | Størrelse på bevis på kundesiden | Standard
 
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 
-| Nøkkelvekking (deterministisk P2C) | LNPBP-1, 2 | 0 byte | 33 byte (uvektet nøkkel) |
 
-sigtweak (deterministisk S2C) | WIP (LNPBP-39) | 0 byte | 0 byte | 0 byte | Sigtweak (deterministisk S2C) | WIP (LNPBP-39)
 
-| Opret (OP_RETURN) | - | 36 (v)bytes (TxOut additional) | 0 bytes | | 36 (v)bytes (TxOut additional) | 0 bytes |
-
-| Tapret-algoritme: øverste venstre node | LNPBP-6 | 32 byte i vitne (8 vbytes) på en hvilken som helst n-av-m multisig og bruk per skriptsti | 0 byte på taproot-skript uten skript ~270 byte i et enkelt skripttilfelle, ~128 byte hvis mer enn ett skript |
-
-| Tapret-algoritme nr. 4: hvilken som helst node + bevis på unikhet | LNPBP-6 | 32 byte i vitnet (8 vbytes) for enkeltskript-tilfeller, 0 byte i vitnet i de fleste andre tilfeller | 0 byte på taproot-skript uten skript, 65 byte til Taptree har et dusin skript |
-
-| Lag | Kostnad på kjeden (byte/vbyte) | Kostnad på kjeden (byte/vbyte) | Kostnad på kjeden (byte/vbyte) | Kostnad på kjeden (byte/vbyte) | Kostnad på kjeden (byte/vbyte) | Kostnad på klientsiden (byte) | Kostnad på klientsiden (byte) | Kostnad på klientsiden (byte) | Kostnad på klientsiden (byte) | Kostnad på klientsiden (byte) | Kostnad på klientsiden (byte) | Kostnad på klientsiden (byte) | Kostnad
-
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Type** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
-
-| Single-sig | 0 | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-av-n) | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-av-3 | 32/8 | 32/8 eller 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3-av-5 | 32/8 | 32/8 eller 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-av-3 med tidsavbrudd | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0
-
-lag | Kostnad på kjeden (vbytes) | Kostnad på kjeden (vbytes) | Kostnad på kjeden (vbytes) | Kostnad på klientsiden (byte) | Kostnad på klientsiden (byte) | Kostnad på klientsiden (byte) | Kostnad på klientsiden (byte) | Kostnad på klientsiden (byte)
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Type** | **Base** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** | **Tapret #4** | **Tapret #2** | **Tapret #4** | **Tapret #4
-
-| MuSig (n-av-n) | 16,5 | 0 | 0 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-av-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-av-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 | 8
-
-| MuSig-gren / Multi_a (n-av-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Med tidsavbrudd (n-av-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Metode | Konfidensialitet og skalerbarhet | Interoperabilitet | Kompatibilitet | Portabilitet | Kompleksitet | Kompleksitet
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (deterministisk P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 | 🟡 |
-
-sigtweak (deterministisk S2C) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 | 🟢 |
-
-| Algo Tapret: øverste venstre node | 🟠 | 🟢 | 🔴 | 🟠 | 🔴 | 🟠 |
-
-| Algo Tapret #4: Enhver node + bevis | 🟢 | 🟢 | 🟢 | 🟠 | 🔴 | |
 
 I løpet av studien ble det klart at ingen av forpliktelsesordningene var fullt ut kompatible med den nåværende Lightning-standarden (som ikke bruker Taproot, _muSig2_ eller ytterligere _commitment_-støtte). Det arbeides med å endre Lightnings kanalkonstruksjon (*BiFrost*) for å gjøre det mulig å legge inn RGB-forpliktelser. Dette er et annet område der vi må gjennomgå transaksjonsstrukturen, nøklene og måten kanaloppdateringer signeres på.
 
@@ -1400,35 +1367,27 @@ Hvis et tilstandselement i kontrakten ikke er definert som muterbart eller kumul
 
 Tabellen nedenfor illustrerer hvordan hver type kontraktsoperasjon kan manipulere (eller ikke manipulere) den globale tilstanden og den eide tilstanden:
 
-| Genesis | State Extension | State Transition | State Transition
+|                              | Genesis | Tilstandsutvidelse | Tilstandsovergang |
+| ---------------------------- | :-----: | :---------------: | :--------------: |
+| **Legge til Global State**   |    +    |        -        |        +        |
+| **Mutasjon av Global State** |   n/a   |        -        |        +        |
+| **Legge til Owned State**    |    +    |        -        |        +        |
+| **Mutasjon av Owned State**  |   n/a   |       Nei       |        +        |
+| **Legge til Valencies**      |    +    |        +        |        +        |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Legg til global tilstand** | + | - | + | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-
-| n/a | - | + | **Mutasjon av global tilstand** | - | + | | | **Mutasjon av global tilstand
-
-| **Legg til eid tilstand** | + | - | + | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-
-| **Mutasjon av eid tilstand** | n/a | Nei | + | | | **Mutasjon av eid tilstand
-
-| **Legg til valenser** | + | + | + | + | + | | + | | | +
 
 **`+`** : handling mulig hvis kontraktens skjema tillater det.
 
-**`-``**: Operasjonen må bekreftes av en påfølgende tilstandsovergang (tilstandsutvidelsen alene lukker ikke engangsforseglingen).
+**`-`**: Operasjonen må bekreftes av en påfølgende tilstandsovergang (tilstandsutvidelsen alene lukker ikke engangsforseglingen).
 
 I tillegg kan det skilles mellom det tidsmessige omfanget og oppdateringsrettighetene for hver type data i tabellen nedenfor:
 
-metadata | Global State | Owned State | Global State | Owned State
+|                                 | Metadata                                | Global Tilstand                           | Eiet Tilstand                                                                                         |
+| ------------------------------- | -------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Omfang**                      | Definert for en enkelt kontraktsoperasjon | Definert globalt for kontrakten         | Definert for hver segl (*Assignment*)                                                             |
+| **Hvem kan oppdatere det?**     | Ikke oppdaterbart (midlertidige data)  | Operasjon utstedt av aktører (utsteder, osv.) | Avhenger av den legitime eieren som eier seglet (den som kan bruke det i en påfølgende transaksjon) |
+| **Tidsomfang**                  | Bare for gjeldende operasjon           | Tilstanden fastsettes ved operasjonens slutt | Tilstanden er definert før operasjonen (av *Seal Definition* fra forrige operasjon)                |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Definert for en enkelt kontraktsoperasjon | Definert globalt for kontrakten | Definert for hvert segl (*Assignment*) | Definert for en enkelt kontraktsoperasjon | Definert globalt for kontrakten | Definert for hvert segl (*Assignment*) | Definert for hvert segl (*Assignment*) | Definert for hver kontrakt
-
-| Ikke-aktualiserbar (flyktige data) | Transaksjon utstedt av aktører (utsteder osv.) | Avhenger av den rettmessige innehaveren av seglet (den som kan bruke det i en påfølgende transaksjon) | Ikke-aktualiserbar (flyktige data) | Avhenger av den rettmessige innehaveren av seglet (den som kan bruke det i en påfølgende transaksjon)
-
-| Tilstanden er definert før operasjonen (av *Seal Definition* fra forrige operasjon) | Tilstanden er etablert ved slutten av operasjonen | Tilstanden er etablert ved slutten av operasjonen | Tilstanden er definert før operasjonen (av *Seal Definition* fra forrige operasjon) | Tilstanden er etablert ved slutten av operasjonen | Tilstanden er definert før operasjonen (av *Seal Definition* fra forrige operasjon)
 
 ### Global stat
 
@@ -1544,17 +1503,14 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Deklarativ** | **Fungibel** | **Strukturert** | **Bilag** | **Bilag
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
+| **Element**        | **Deklarativ** | **Fungibel**                         | **Strukturert**                 | **Vedlegg**                     |
+| ------------------ | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Data**          | Ingen          | Signert eller usignert 64-bit heltall | Enhver streng datatype         | Enhver fil                     |
+| **Infotype**      | Ingen          | Signert eller usignert                | Strenge typer                  | MIME-type                      |
+| **Personvern**    | Ikke påkrevd   | Pedersen commitment                   | Hash med blinding              | Hash-basert filidentifikator   |
+| **Størrelsesgrenser** | N/A        | 256 byte                             | Opptil 64 KB                    | Opptil ~500 GB                 |
 
-| Ingen | 64-biters heltall med eller uten fortegn | Alle strenge datatyper | Alle filer | Alle filer
-
-| Info type** | Ingen | Signerte eller usignerte | Strenge typer | MIME-type | MIME-type
-
-| Pedersen-forpliktelse | Hashing med blinding | Hashet fil-ID
-
-størrelsesbegrensninger** | N/A | 256 byte | Opptil 64 KB | Opptil ~500 Gb | | 256 byte
 
 ### Innganger
 
@@ -1866,6 +1822,7 @@ Lightning Network er et desentralisert nettverk av betalingskanaler (eller _stat
 Hvis du vil ha mer informasjon om hvordan Lightning fungerer, anbefaler jeg at du tar dette andre kurset:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### Multiprotokollforpliktelse - MPC
 
 Multi Protocol Commitment (MPC) refererer til Merkle-tre-strukturen som brukes i RGB for å inkludere flere **Transition Bundles** fra ulike kontrakter i en enkelt Bitcoin-transaksjon. Tanken er å gruppere flere forpliktelser (som potensielt tilsvarer ulike kontrakter eller ulike aktiva) i ett enkelt ankerpunkt for å optimalisere opptaket av blokkplass.
@@ -1998,17 +1955,13 @@ Det er viktig å merke seg at for at en lommebok skal kunne administrere en RGB-
 
 For å klargjøre disse begrepene, følger her en oppsummeringstabell som sammenligner komponentene i en RGB-kontrakt med begreper som allerede er kjent enten i objektorientert programmering (OOP) eller i Ethereums økosystem:
 
-| RGB-kontraktskomponent | Betydning | OOP-ekvivalent | Ethereum-ekvivalent | OOP-ekvivalent
+| RGB-kontraktkomponent        | Betydning                          | OOP-ekvivalent                        | Ethereum-ekvivalent               |
+| ---------------------------- | --------------------------------- | ------------------------------------ | --------------------------------- |
+| **Genesis**                  | Kontraktens opprinnelige tilstand | Klassekonstruktør                     | Kontraktskonstruktør              |
+| **Schema**                   | Forretningslogikken i kontrakten  | Klasse                               | Kontrakt                         |
+| **Interface**                | Semantikken til kontrakten        | Grensesnitt (Java) / Trait (Rust) / Protokoll (Swift) | ERC-standard                     |
+| **Interface Implementation** | Kartlegging av semantikk og logikk | Impl (Rust) / Implements (Java)     | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Klassekonstruktør | Kontraktskonstruktør | Kontraktens opprinnelige tilstand
-
-| Klasse | Kontraktens forretningslogikk
-
-| Kontraktsemantikk | Grensesnitt (Java) / egenskap (Rust) / protokoll (Swift) | ERC-standard | ERC
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Mapping av semantikk og logikk
 
 Den venstre kolonnen viser elementene som er spesifikke for RGB-protokollen. Den midterste kolonnen viser den konkrete funksjonen til hver komponent. I kolonnen "OOP-ekvivalent" finner vi den tilsvarende termen i objektorientert programmering:
 
@@ -3306,6 +3259,7 @@ I virkeligheten gjør Lightning Network det mulig å dirigere betalinger via fle
 Driften av RGB på Lightning må derfor vurderes parallelt med driften av selve Lightning-nettverket. Hvis du ønsker å fordype deg i dette emnet, anbefaler jeg at du tar en titt på dette andre omfattende kurset:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### RGB-kodekart
 
 Før jeg går videre til neste avsnitt, vil jeg til slutt gi deg en oversikt over koden som brukes i RGB. Protokollen er basert på et sett med Rust-biblioteker og spesifikasjoner med åpen kildekode. Her er en oversikt over de viktigste repositoriene og crates:

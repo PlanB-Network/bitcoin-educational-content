@@ -30,22 +30,31 @@ Nakamochi-noden din administreres via en mobilapp, [BitBanana (Android)] (https:
 
 3. Bruk en nodeadministrasjonsapp (Zeus eller BitBanana) for å koble deg til Nakamochi:
 
+4. Åpne appen og skann QR-koden som vises på Nakamochi.
 
-   - Åpne appen og skann QR-koden som vises på Nakamochi.
+5. For ekstra sikkerhet kan du angi en PIN-kode på enheten.
 
-4. For ekstra sikkerhet kan du angi en PIN-kode på enheten.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+_Connect to power and write down your 24-word seed phrase__
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+_Vent til blokkjeden har tatt oss igjen_ _Vent til blokkjeden har tatt oss igjen
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+_Sett opp en ny lommebok i Lightning Tab_
 
-merk: La Nakamochi-noden synkronisere med blokkjeden. Denne prosessen kan ta litt tid, avhengig av internettforbindelsen din
+![image](assets/en/04.webp)
+
+_Skann QR-kode med Node Management App_
+
+![image](asset/en/05.webp)
+
+_For ekstra sikkerhet, angi en PIN-kode_
+
+**Merk:** _Gjør det mulig for Nakamochi-noden din å synkronisere med blokkjeden. Denne prosessen kan ta litt tid avhengig av internettforbindelsen din
 
 ## Om Lightning Network
 
@@ -77,9 +86,11 @@ Når Nakamochi er satt opp og koblet til en nodeadministrasjonsapp, kan du begyn
 
 5. Klikk på **"Åpne kanal"**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-For mer informasjon: [Kanaler | Zeus-dokumentasjon](https://zeusln.app)
+_ZEUS Skjermbilde_ _ZEUS
+
+For mer informasjon: [Kanaler | Zeus-dokumentasjon](https://docs.zeusln.app/)
 
 ### Åpne kanaler på BitBanana (Android):
 
@@ -93,11 +104,13 @@ For mer informasjon: [Kanaler | Zeus-dokumentasjon](https://zeusln.app)
 
 5. Angi det låste beløpet (velg sammen med kollegaen din eller bruk det faste minimumsbeløpet for kjente noder).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+_Bitbanana Skjermbilde
 
 For mer informasjon: [BitBanana](https://bitbanana.com)
 
-Når kanalen din er åpen, kan betalinger dirigeres gjennom den til andre deltakere i nettverket. Saldoen justeres utenfor kjeden, noe som sikrer at transaksjonene skjer nesten umiddelbart og med minimale gebyrer.
+Når kanalen din er åpen, kan betalinger dirigeres gjennom den til andre deltakere i nettverket. Saldoen justeres utenfor kjeden, slik at transaksjonene skjer nesten umiddelbart og med minimale gebyrer.
 
 Hvis du ikke lenger trenger en kanal, kan du stenge den. Denne handlingen gjør opp den endelige saldoen mellom deg og motparten din og registrerer den i kjeden. Ideelt sett er begge parter enige og er online for en "kooperativ avslutning" (raskere og med lavere gebyrer enn en "tvungen avslutning" med en motpart som ikke svarer eller er offline).
 
@@ -107,4 +120,4 @@ Generelt anbefaler vi å la kanalene være åpne for å redusere kostnadene og �
 
 
 - [Om Nakamochi](https://nakamochi.io/)
-- [Abonner på vårt nyhetsbrev] (https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Abonner på Nakamochis nyhetsbrev](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

@@ -48,7 +48,7 @@ Saat pertama kali membuka aplikasi, Anda diberi pilihan antara:
 
 Dojo, dikembangkan oleh tim Samourai, adalah versi node Bitcoin penuh yang dapat diinstal secara mandiri atau ditambahkan dalam satu klik ke solusi node-in-box seperti [Umbrel](https://umbrel.com/) dan [RoninDojo](https://ronindojo.io/).
 
-[**-> Temukan cara menginstal RoninDojo v2 di Raspberry Pi.**](https://planb.network/fr/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> Temukan cara menginstal RoninDojo v2 di Raspberry Pi.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 Jika Anda memiliki Dojo sendiri, Anda dapat menghubungkannya pada tahap ini. Dengan melakukan ini, Anda akan mendapatkan tingkat privasi tertinggi saat memeriksa informasi transaksi jaringan Bitcoin Anda.
 

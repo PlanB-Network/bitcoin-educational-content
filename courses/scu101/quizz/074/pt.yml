@@ -1,0 +1,9 @@
+question: Quais são as principais funcionalidades de um gerenciador de senhas?
+answer: Armazenar, gerar e organizar senhas.
+wrong_answers:
+  - Analisar e remover vírus.
+  - Fazer backup e organizar documentos pessoais.
+  - Otimizar a velocidade da conexão.
+explanation: |
+  As funções essenciais incluem armazenar, gerar e organizar senhas.
+reviewed: false

@@ -22,11 +22,11 @@ description: |
   This a description of this fake awesome book. The description can be as long as you want. 
   It can also be on multiple lines, like I'm doing right now. 
   Awesome, isn't?
-  
+
 # contributors
 # List who is/are the contributors who help format, review,
 # translate the course.
 # They are identified by their UUID
 # Currently, there are no shared record of these UUIDs
-contributors:
-  - another-satoshi
+contributor_names:
+  - Asi0Flammeus

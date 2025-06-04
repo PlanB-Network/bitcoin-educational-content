@@ -85,9 +85,11 @@ Voit myös rikastuttaa varmuuskopiotasi lompakkotukeen liittyvillä lisätiedoil
 Toisaalta, jos käytät salasanaa, varmista, ettet kirjoita sitä samalle välineelle kuin muistilauseesi. Tunnuslauseen tarkoituksena on suojata lompakkoasi varkaustapauksissa. Jos haluat lisätietoja tunnuslauseen käytöstä, tutustu tähän täydentävään ohjeeseen:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Kun olet tallentanut muistilauseen fyysiselle tietovälineelle, on erittäin suositeltavaa, että teet palautustestin, kun juuri luotu lompakko on vielä tyhjä. Testi koostuu siitä, että kirjoitat ylös esimerkkitiedon, poistat tyhjän lompakon tarkoituksellisesti ja yrität sitten palauttaa sen käyttämällä vain muistilauseen fyysistä varmuuskopiota. Näin voit tarkistaa, että varmuuskopiosi on täydellinen ja ettei siinä ole syöttövirheitä. Sen avulla voit myös tutustua palautusprosessiin. Näin, jos joudut palauttamaan tulevaisuudessa, olet paremmin valmistautunut ja vältät stressin, joka aiheutuu ensimmäisestä yrityksestä tosielämän tilanteessa. Jos haluat lisätietoja tämän testin suorittamisesta, katso tämä toinen opetusohjelma :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 Lopuksi on vielä kysymys varmuuskopioiden määrästä. Tämä valinta riippuu täysin henkilökohtaisesta tilanteestasi. Kopioiden lukumäärän rajoittaminen esimerkiksi kirjoittamalla muistilauseesi vain kerran tietovälineelle vähentää varkausriskiä, mutta lisää häviämisriskiä. Sitä vastoin useiden kopioiden tekeminen vähentää häviämisriskiä, mutta lisää varkausriskiä. Sinun on siis löydettävä tarpeisiisi sopiva tasapaino ja määritettävä sopivaksi katsomasi kopiomäärä.
 
 ## Varastointi
@@ -117,4 +119,5 @@ Jos haluat mennä askeleen pidemmälle ja vahvistaa turvallisuusstrategiaasi ent
 Siksi kutsun sinut osallistumaan Plan ₿ Networkin tarjoamaan ilmaiseen CYP201-koulutukseen. Tällä kurssilla selitetään yksityiskohtaisesti kaikki Bitcoin-lompakoiden toiminta, jotta voit hallita tekniset näkökohdat, jotka ovat välttämättömiä varojen tehokkaan turvaamisen kannalta:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit vihreän peukalon alle. Voit vapaasti jakaa tämän artikkelin sosiaalisissa verkostoissa. Kiitos paljon!

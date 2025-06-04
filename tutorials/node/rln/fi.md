@@ -32,6 +32,7 @@ RGB-sopimus on rakenteeltaan kuin evolutiivinen tilakone. Se alkaa Genesiksellä
 Jos haluat lisätietoja RGB-protokollan toiminnasta, suosittelen, että osallistut tälle kattavalle koulutuskurssille:
 
 https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
 ## RGB-yhteensopiva Lightning-solmun asennus
 
 Kääntääksemme ja asentaaksemme `rgb-lightning-node`-binäärin aloitamme kloonaamalla arkiston ja sen alamoduulit, sitten ajamme :
@@ -371,4 +372,4 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin hyvin kiitollinen, jos laittai
 
 Suosittelen myös tätä toista opetusohjelmaa, jossa selitän, miten LNP/BP-yhdistyksen kehittämää RGB CLI -työkalua käytetään RGB-sopimuksen luomiseen:
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

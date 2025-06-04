@@ -1,17 +1,11 @@
 id: 8c588412-1bfc-465b-9bca-e647a647fbc1
 
-builder: Bitrefill
-
-tags:
-  - no-KYC
-  - trade
 
 category: centralized
 
 level: beginner
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 project_id: ad84efb0-f720-46a4-92ff-98b14d208a22
 original_language: fr
@@ -19,78 +13,82 @@ proofreading:
   - language: fr
     last_contribution_date: 2024-09-07
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 0.38
+    reward: 0.54
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.41
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.76
+    contributor_names:
+    reward: 1.08
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.07
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.41
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.74
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.41
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.41
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.76
+    contributor_names:
+    reward: 1.08
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.76
+    contributor_names:
+    reward: 1.08
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.08
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.74
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.08
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.07
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.41
+tags:
+  - user-friendly
+  - adoption
+  - guides

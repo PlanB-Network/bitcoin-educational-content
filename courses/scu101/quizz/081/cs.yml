@@ -1,0 +1,9 @@
+question: Co umožňuje web Have I Been Pwned?
+answer: Ověřit, zda byla e-mailová adresa kompromitována.
+wrong_answers:
+  - Generovat nová silná a náhodná hesla.
+  - Vytvořit zabezpečenou e-mailovou schránku.
+  - Synchronizovat e-mailové účty pro snadnější použití.
+explanation: |
+  Tento web umožňuje detekovat úniky dat a ověřit bezpečnost své e-mailové adresy.
+reviewed: false

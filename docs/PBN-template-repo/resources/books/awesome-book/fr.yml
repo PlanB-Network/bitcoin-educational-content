@@ -28,5 +28,5 @@ description: |
 # traduire le cours.
 # Ils sont identifiés par leur UUID
 # Actuellement, il n'y a pas d'enregistrement partagé de ces UUIDs
-contributors:
-  - another-satoshi
+contributor_names:
+  - Asi0Flammeus

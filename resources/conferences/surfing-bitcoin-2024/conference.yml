@@ -1,22 +1,21 @@
 id: d3a523fd-3f2f-4f26-a62c-da77fbb8db6d
 year: 2024-08
 name: Surfin' Bitcoin 2024
-builder: StackinSat
 location: Bordeaux, France
 language:
   - fr
 links:
   twitter: https://x.com/SurfinBitcoin
   website: https://surfinbitcoin.com/
-tags:
-  - self-sovereignty
-#proofreading_metadata
 project_id: 3ba103b8-4537-48d5-9b29-525a5d15a5a2
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: "2024-12-18"
     urgency: 0
-    contributors_id:
+    contributor_names:
       - jramos0
     reward: 0.05
+tags:
+  - adoption
+  - user-friendly

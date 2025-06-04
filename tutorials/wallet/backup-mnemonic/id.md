@@ -85,9 +85,11 @@ Anda juga bisa memperkaya cadangan Anda dengan informasi tambahan yang berhubung
 Di sisi lain, jika Anda menggunakan kata sandi, pastikan Anda tidak menuliskannya di media yang sama dengan frasa mnemonik Anda. Tujuan frasa sandi adalah untuk melindungi dompet Anda jika terjadi pencurian. Untuk mengetahui lebih lanjut tentang cara menggunakan kata sandi, lihat tutorial pelengkap ini:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Setelah Anda menyimpan frasa mnemonik Anda di media fisik, sangat disarankan agar Anda melakukan tes pemulihan ketika dompet yang baru Anda buat masih kosong. Tes ini terdiri dari menuliskan sebuah contoh informasi, dengan sengaja menghapus dompet yang kosong, kemudian mencoba memulihkannya hanya dengan menggunakan cadangan fisik dari frasa mnemonik. Hal ini akan memungkinkan Anda untuk memeriksa apakah cadangan Anda sudah lengkap dan bebas dari kesalahan input. Hal ini juga memungkinkan Anda untuk membiasakan diri dengan proses pemulihan. Dengan cara ini, jika Anda perlu memulihkannya di kemudian hari, Anda akan lebih siap dan terhindar dari stres saat pertama kali mencoba dalam situasi yang sesungguhnya. Untuk mengetahui lebih lanjut mengenai cara melaksanakan tes ini, bacalah tutorial lainnya:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 Terakhir, ada pertanyaan tentang jumlah cadangan. Pilihan ini sepenuhnya tergantung pada situasi pribadi Anda. Membatasi jumlah salinan, misalnya dengan menulis frasa mnemonik Anda hanya sekali pada sebuah media, akan mengurangi risiko pencurian, tetapi meningkatkan risiko kehilangan. Sebaliknya, membuat beberapa salinan akan mengurangi risiko kehilangan, tetapi meningkatkan risiko pencurian. Jadi, terserah Anda untuk menemukan keseimbangan yang tepat untuk kebutuhan Anda, dan menentukan jumlah salinan yang menurut Anda paling tepat.
 
 ## Penyimpanan
@@ -117,4 +119,5 @@ Untuk melangkah lebih jauh dan memperkuat strategi keamanan Anda, saya sarankan 
 Itulah mengapa saya mengundang Anda untuk mengikuti kursus pelatihan CYP201 gratis yang ditawarkan oleh Plan ₿ Network. Kursus pelatihan ini menjelaskan secara rinci semua cara kerja dompet Bitcoin, sehingga Anda dapat menguasai aspek-aspek teknis yang penting untuk mengamankan dana Anda secara efektif:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!

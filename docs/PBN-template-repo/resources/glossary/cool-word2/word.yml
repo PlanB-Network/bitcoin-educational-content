@@ -34,13 +34,13 @@ original_language: en
 # - language: language to review
 # - last_contribution_date: the date when last contribution has been received
 # - urgency: level of urgency from 1 (low urgency) to X(high urgency)
-# - contributors_id: list of contributors PBN ids
+# - contributor_names: list of contributors PBN ids
 # - reward: amount of sats available for reward
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: YYYY-MM-DD
     urgency: # leave as empty
-    contributors_id:
+    contributor_names:
     - author_github_id #insert your github ID
     reward: # leave as empty

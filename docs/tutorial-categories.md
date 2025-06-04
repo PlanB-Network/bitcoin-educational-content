@@ -1,9 +1,8 @@
-# Introduction 
+# Introduction
 
-Every tutorial belongs to a specific category, to make easier for users to browse all available content in the PlanB Nework website.
+Every tutorial belongs to a specific category, to make easier for users to browse all available content in the Plan ₿ Nework website.
 
 The current category tree is the following:
-
 
 ````
 Tutorials/
@@ -15,19 +14,26 @@ Tutorials/
 ├── NODE/
 │   ├── Bitcoin
 │   ├── Lightning Network
-│   └── RGB
+│   └── Others
 ├── MINING/
 │   ├── Hardware
-│   └── Pools
-├── MERCHANT/
-│   └── Merchant
+│   └── Pool
+├── BUSINESS/
+│   ├── Point-of-Sale
+│   └── Others
 ├── EXCHANGE/
 │   ├── Peer-to-Peer
 │   └── Centralized
 ├── PRIVACY/
-│   ├── Bitcoin
+│   ├── On-Chain
 │   └── Analysis
-└── OTHERS/
-    ├── General
-    └── Contribution
+├── COMPUTER SECURITY/
+│   ├── Authentication
+│   ├── Communication
+│   ├── Operating System
+│   └── Data
+└── CONTRIBUTION/
+    ├── Tutorial
+    ├── Resource
+    └── Others
 ````

@@ -29,7 +29,9 @@ Trong hướng dẫn này, tôi sẽ sử dụng Ledger Flex làm ví dụ. Tuy 
 Trước khi bắt đầu hướng dẫn này, hãy chắc chắn bạn đã khởi tạo Ledger của mình và tạo ra cụm từ ghi nhớ của bạn. Nếu điều này chưa được thực hiện và Ledger của bạn là mới, hãy theo dõi hướng dẫn cụ thể cho mẫu của bạn có sẵn trên PlanB Network. Một khi bước này hoàn thành, bạn có thể quay lại hướng dẫn này.
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Làm thế nào để thiết lập cụm từ bí mật tạm thời với Ledger?

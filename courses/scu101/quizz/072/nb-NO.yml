@@ -1,0 +1,9 @@
+question: Hva er en passordbehandler?
+answer: Et verktøy som lagrer, genererer og administrerer passord.
+wrong_answers:
+  - Et antivirusprogram mot hackerangrep.
+  - En sikker e-posttjeneste.
+  - Et verktøy for sikkerhetskopiering av personlige identitetsdata.
+explanation: |
+  Passordbehandleren sentraliserer lagring og oppretting av passord.
+reviewed: false

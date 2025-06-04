@@ -1,0 +1,9 @@
+question: 为什么建议使用随机生成的密码？
+answer: 以抵御暴力破解攻击。
+wrong_answers:
+  - 以便于记忆。
+  - 以降低复杂性。
+  - 以抵御 Sybil 攻击。
+explanation: |
+  随机性使密码更难以通过试错方式猜测，从而增强其抵御暴力破解攻击的安全性。
+reviewed: false

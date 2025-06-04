@@ -30,7 +30,9 @@ En este tutorial, usaré el Ledger Flex como ejemplo. Sin embargo, si estás usa
 Antes de comenzar este tutorial, asegúrate de haber inicializado tu Ledger y generado tu frase mnemotécnica. Si este no es el caso y tu Ledger es nuevo, sigue el tutorial específico para tu modelo disponible en PlanB Network. Una vez completado este paso, puedes volver a este tutorial.
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## ¿Cómo configurar una frase de paso temporal con un Ledger?

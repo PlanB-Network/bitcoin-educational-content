@@ -5,123 +5,47 @@ description: Bitcoiners and feature hard-hitting keynotes and panels from the bi
 
 # Main Stage
 
-## Miniscript: Bitcoin Inheritance Planning - Bitcoin Asia
-
-![video](https://youtu.be/76lVeHxGh_A)
-
-## Cashu - Bitcoin Asia
-
-![video](https://youtu.be/YiPPSkFJVQ4)
-
-## Bitcoin Prediction Markets - Bitcoin Asia
-
-![video](https://youtu.be/VHT3pJEKIck)
-
-## Bitcoin & Money Laundering - Bitcoin Asia
-
-![video](https://youtu.be/_IKgNSp2-FM)
-
-## Scaling Bitcoin with Client Side Validation L2: RGB & Ultraviolet - Bitcoin Asia
-
-![video](https://youtu.be/VExh0xOoGTI)
-
-## Blockchain Surveillance State: The Disturbing Prosecution of Roman Sterlingov - Bitcoin Asia
-
-![video](https://youtu.be/Ue8RyPVYxtg)
-
-## ZK Rollups - Bitcoin Asia
-
-![video](https://youtu.be/cdPFKJx5w70)
-
-## Bitcoin Adoption Trends: Asian Market - Bitcoin Asia
-
-![video](https://youtu.be/PqnWVCebzO0)
-
-## Leading A New Era in Proof of Work Mining - Bitcoin Asia
+## Leading A New Era in Proof of Work Mining
 
 ![video](https://youtu.be/Wd0oQUAzA48)
 
-## Bitcoin In A Multichain World - Bitcoin Asia
+## Bitcoin In A Multichain World
 
 ![video](https://youtu.be/pwoz9GOXc6U)
 
-## Bitcoin DeFi: App Layer - Bitcoin Asia
-
-![video](https://youtu.be/ZiyGdRFHnik)
-
-## Macro State of the Bitcoin Market - Bitcoin Asia
+## Macro State of the Bitcoin Market
 
 ![video](https://youtu.be/08QavKkNN3A)
 
-## Mining Geopolitics - Bitcoin Asia
+## Mining Geopolitics
 
 ![video](https://youtu.be/wphulS938x8)
 
-## There Will be Upgrades - Bitcoin Asia
-
-![video](https://youtu.be/noBmYlxAfzw)
-
-## Streamlining Bitcoin Mining: Fast, Easy, and Secure Deployment Strategies - Bitcoin Asia
+## Streamlining Bitcoin Mining: Fast, Easy, and Secure Deployment Strategies
 
 ![video](https://youtu.be/ZUomTA1n__o)
 
-## Decentralizing Pools & Hashrate - Bitcoin Asia
+## Decentralizing Pools & Hashrate
 
 ![video](https://youtu.be/4vJIZXSGrcc)
 
-## Growing Bitcoin in Asia Mandarin - Bitcoin Asia
-
-![video](https://youtu.be/xESLogCCRME)
-
-## NOSTR Opportunities
-
-![video](https://youtu.be/6gXXS638lHs)
-
-## Building Scalable Assets on Bitcoin and Lightning - Bitcoin Asia
-
-![video](https://youtu.be/bujQEZPGB9Q)
-
-## BitVM - Bitcoin Asia
-
-![video](https://youtu.be/LEvWi6IjGsU)
-
-## Gamifying Bitcoin - Bitcoin Asia
-
-![video](https://youtu.be/4B1_buHwe8A)
-
-## Relay Policy Revolt: How Miners Ignore Bitcoin Core To Maximize Profit - Bitcoin Asia
-
-![video](https://youtu.be/_bM0SNtNTQs)
-
-## Layering Success: Innovation on Bitcoin
-
-![video](https://youtu.be/ACO97_3jeXc)
-
-## Designing For Ecash - Bitcoin Asia
-
-![video](https://youtu.be/SM5t3JULg_0)
-
-## Immutable Art - Bitcoin Asia
-
-![video](https://youtu.be/AIs0JJY0RVw)
-
-## Retire With Bitcoin - Bitcoin Asia
+## Retire With Bitcoin
 
 ![video](https://youtu.be/t-fHcsLsk-Y)
 
-## Where are the Layer 2 Cypherpunks - Bitcoin Asia
+## Where are the Layer 2 Cypherpunks
 
 ![video](https://youtu.be/tnm-noyWikA)
 
-## Mining Incentives & Network Security - Bitcoin Asia
+## Mining Incentives & Network Security
 
 ![video](https://youtu.be/ACWXDvJuAis)
 
-## The Future of Trustless Exchange: Atomic swap of UTXOs and PSBTS - Bitcoin Asia
+## The Future of Trustless Exchange: Atomic swap of UTXOs and PSBTS
 
 ![video](https://youtu.be/xKrv8IP8xBQ)
 
-## Metaplanet Bitcoin Strategy - Bitcoin Asia
+## Metaplanet Bitcoin Strategy
 
 ![video](https://youtu.be/JbfFWO2xXb0)
 
@@ -129,31 +53,31 @@ description: Bitcoiners and feature hard-hitting keynotes and panels from the bi
 
 ![video](https://youtu.be/JQZIQxpgWHE)
 
-## All Roads Lead to Lightning - Bitcoin Asia
+## All Roads Lead to Lightning
 
 ![video](https://youtu.be/omamm4XoUfo)
 
-## Easy Bitcoin - Bitcoin Asia
+## Easy Bitcoin
 
 ![video](https://youtu.be/yE4bUhO7KOc)
 
-## Bitcoin Season 2 Layer 2 - Bitcoin Asia
+## Bitcoin Season 2 Layer 2
 
 ![video](https://youtu.be/cOLB1N1-tPw)
 
-## The Energy Behind Ordinals - Bitcoin Asia
+## The Energy Behind Ordinals
 
 ![video](https://youtu.be/eYu0wvAq4rE)
 
-## Exploring Bitcoin Use Cases Mortgages, Payroll, Identity, and Beyond - Bitcoin Asia
+## Exploring Bitcoin Use Cases Mortgages, Payroll, Identity, and Beyond
 
 ![video](https://youtu.be/YkYjp_bdZwo)
 
-## Mining Bitcoin Around The Globe - Bitcoin Asia
+## Mining Bitcoin Around The Globe
 
 ![video](https://youtu.be/PV-7z-JrGkw)
 
-## Back to Bitcoin - Bitcoin Asia
+## Back to Bitcoin
 
 ![video](https://youtu.be/LFWr3v2F2HM)
 
@@ -165,23 +89,15 @@ description: Bitcoiners and feature hard-hitting keynotes and panels from the bi
 
 ![video](https://youtu.be/kznSgWa7EDQ)
 
-## Runes Launch - Bitcoin Asia
+## Runes Launch
 
 ![video](https://youtu.be/6FNiMHBsNW0)
 
-## Bitcoin Asia Pitch Day
-
-![video](https://youtu.be/JdMxSPjAaUA)
-
-## Anduro A New Option For Sidechains Apps and Bitcoin Adoption
-
-![video](https://youtu.be/hwa5amrLdwM)
-
-## Ethereum Was A Testnet - Bitcoin Asia
+## Ethereum Was A Testnet
 
 ![video](https://youtu.be/LIuwf0TvDzE)
 
-## Why Ecash on Bitcoin? - Bitcoin Asia
+## Why Ecash on Bitcoin?
 
 ![video](https://youtu.be/-alBWA3vugo)
 
@@ -189,38 +105,126 @@ description: Bitcoiners and feature hard-hitting keynotes and panels from the bi
 
 ![video](https://youtu.be/lG6mS0XatyA)
 
-## Safer Self Custody - Bitcoin Asia
-
-![video](https://youtu.be/RNIvC0FI1nQ)
-
-## The War for Bitcoin Blockspace - Bitcoin Asia
+## The War for Bitcoin Blockspace
 
 ![video](https://youtu.be/-W521Y8C5Sw)
 
-## Evolving APAC Regulation - Bitcoin Asia
+## Evolving APAC Regulation
 
 ![video](https://youtu.be/KRFyNYEz2O0)
 
-## From Ordinal to Market - Bitcoin Asia
+## From Ordinal to Market
 
 ![video](https://youtu.be/1opfuFtIrpc)
 
-## Layer 2 Venture Capital - Bitcoin Asia
+## Layer 2 Venture Capital
 
 ![video](https://youtu.be/TegHBcj_2Yc)
 
-## Bitcoin Financialization in Hong Kong - Bitcoin Asia
+## Bitcoin Financialization in Hong Kong
 
 ![video](https://youtu.be/iXbseaj7t4I)
 
-## Empowering Hong Kong Bitcoin Spot ETF - Bitcoin Asia
+## Empowering Hong Kong Bitcoin Spot ETF
 
 ![video](https://youtu.be/7WxmxmFKkX0)
 
-## The Bitcoin Frontier In Asia - Bitcoin Asia
+## The Bitcoin Frontier In Asia
 
 ![video](https://youtu.be/Gqtsz9eHZYE)
 
-## Opening Remarks - Bitcoin Asia
+## Opening Remarks
 
 ![video](https://youtu.be/PmxuaumGuCE)
+
+
+
+# Secondary Stage
+
+## Safer Self Custody
+
+![video](https://youtu.be/RNIvC0FI1nQ)
+
+## Anduro A New Option For Sidechains Apps and Bitcoin Adoption
+
+![video](https://youtu.be/hwa5amrLdwM)
+
+## Bitcoin Asia Pitch Day
+
+![video](https://youtu.be/JdMxSPjAaUA)
+
+## Immutable Art
+
+![video](https://youtu.be/AIs0JJY0RVw)
+
+## Designing For Ecash
+
+![video](https://youtu.be/SM5t3JULg_0)
+
+## Layering Success: Innovation on Bitcoin
+
+![video](https://youtu.be/ACO97_3jeXc)
+
+## Relay Policy Revolt: How Miners Ignore Bitcoin Core To Maximize Profit
+
+![video](https://youtu.be/_bM0SNtNTQs)
+
+## Gamifying Bitcoin
+
+![video](https://youtu.be/4B1_buHwe8A)
+
+## BitVM
+
+![video](https://youtu.be/LEvWi6IjGsU)
+
+## Building Scalable Assets on Bitcoin and Lightning
+
+![video](https://youtu.be/bujQEZPGB9Q)
+
+## NOSTR Opportunities
+
+![video](https://youtu.be/6gXXS638lHs)
+
+## Growing Bitcoin in Asia Mandarin
+
+![video](https://youtu.be/xESLogCCRME)
+
+## There Will be Upgrades
+
+![video](https://youtu.be/noBmYlxAfzw)
+
+## Bitcoin DeFi: App Layer
+
+![video](https://youtu.be/ZiyGdRFHnik)
+
+## Bitcoin Adoption Trends: Asian Market
+
+![video](https://youtu.be/PqnWVCebzO0)
+
+## ZK Rollups
+
+![video](https://youtu.be/cdPFKJx5w70)
+
+## Blockchain Surveillance State: The Disturbing Prosecution of Roman Sterlingov
+
+![video](https://youtu.be/Ue8RyPVYxtg)
+
+## Scaling Bitcoin with Client Side Validation L2: RGB & Ultraviolet
+
+![video](https://youtu.be/VExh0xOoGTI)
+
+## Bitcoin & Money Laundering
+
+![video](https://youtu.be/_IKgNSp2-FM)
+
+## Bitcoin Prediction Markets
+
+![video](https://youtu.be/VHT3pJEKIck)
+
+## Cashu
+
+![video](https://youtu.be/YiPPSkFJVQ4)
+
+## Miniscript: Bitcoin Inheritance Planning
+
+![video](https://youtu.be/76lVeHxGh_A)

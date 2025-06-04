@@ -29,7 +29,9 @@ Green on erittäin helppokäyttöinen sovellus, joten se sopii erityisesti aloit
 Tässä oppaassa keskitymme pelkästään pelkän kellosalkun luomiseen. Jos haluat tutustua Greenin muihin käyttötapoihin, tutustu muihin aiheeseen erikoistuneisiin opetusohjelmiimme:
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 ## Blockstream Green -sovelluksen asentaminen ja määrittäminen
 
 Ensimmäinen vaihe on tietenkin Green-sovelluksen lataaminen. Mene sovelluskauppaan:

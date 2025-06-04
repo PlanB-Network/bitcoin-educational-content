@@ -1,0 +1,9 @@
+question: Why is it essential to secure your email?
+answer: Because it allows you to reset your passwords
+wrong_answers:
+- Because it is used to receive newsletters
+- Because it contains all of your passwords
+- Because it contains your banking information
+explanation: The mailbox is the central access point for retrieving passwords and
+  compromising multiple accounts in case of a breach.
+reviewed: false

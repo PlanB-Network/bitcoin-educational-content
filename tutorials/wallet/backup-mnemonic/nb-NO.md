@@ -85,9 +85,11 @@ Du kan også berike sikkerhetskopien med tilleggsinformasjon relatert til lommeb
 Hvis du derimot bruker en passordfrase, må du passe på at du ikke skriver den ned på samme medium som minnefrasen din. Formålet med passordfrasen er å beskytte lommeboken din i tilfelle tyveri. Hvis du vil vite mer om hvordan du bruker en passordfrase, kan du ta en titt på denne utfyllende veiledningen:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Når du har lagret minnefrasen på et fysisk medium, anbefales det på det sterkeste at du utfører en gjenopprettingstest mens den nyopprettede lommeboken fortsatt er tom. Denne testen består i å skrive ned et eksempel på informasjon, slette den tomme lommeboken med vilje, og deretter prøve å gjenopprette den ved hjelp av kun den fysiske sikkerhetskopien av minnefrasen. På denne måten kan du kontrollere at sikkerhetskopien er fullstendig og fri for inntastingsfeil. Det lar deg også gjøre deg kjent med gjenopprettingsprosessen. På denne måten er du bedre forberedt hvis du trenger å gjenopprette i fremtiden, og du unngår stresset ved et første forsøk i en reell situasjon. Hvis du vil vite mer om hvordan du utfører denne testen, kan du se denne andre veiledningen :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 Til slutt er det spørsmålet om antall sikkerhetskopier. Dette valget avhenger helt og holdent av din personlige situasjon. Hvis du begrenser antallet kopier, for eksempel ved å skrive minnefrasen din bare én gang på et medium, reduseres risikoen for tyveri, men risikoen for tap øker. Hvis du derimot lager flere kopier, reduseres risikoen for tap, men risikoen for tyveri øker. Det er altså opp til deg å finne den rette balansen for dine behov, og bestemme hvor mange kopier du mener er mest hensiktsmessig.
 
 ## Lagring
@@ -117,4 +119,5 @@ For å gå et skritt videre og styrke sikkerhetsstrategien din ytterligere, anbe
 Derfor inviterer jeg deg til å ta det gratis CYP201-opplæringskurset som tilbys av Plan ₿ Network. Dette kurset forklarer i detalj alle funksjonene til Bitcoin-lommebøker, slik at du kan mestre de tekniske aspektene som er viktige for å sikre pengene dine effektivt:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legger igjen en grønn tommel nedenfor. Del gjerne denne artikkelen på dine sosiale nettverk. Tusen takk skal du ha!

@@ -51,7 +51,7 @@ Ledger Nano S Plus可以在[官方网站](https://shop.ledger.com/products/ledge
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 对于这两个软件程序，我强烈建议在将它们安装到你的机器上之前，检查它们的真实性（通过GnuPG）和完整性（通过哈希）。如果你不确定如何做，你可以跟随这个其他教程：
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## 如何初始化一个Ledger Nano？
 

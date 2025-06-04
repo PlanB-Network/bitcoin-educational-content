@@ -1,0 +1,9 @@
+question: Mis on paroolihaldur?
+answer: Tööriist, mis salvestab, genereerib ja haldab paroole.
+wrong_answers:
+  - Viirusetõrjetarkvara häkkerite rünnakute vastu.
+  - Turvaline e-posti teenus.
+  - Isikuandmete varundamise tööriist.
+explanation: |
+  Paroolihaldur tsentraliseerib paroolide salvestamise ja loomise.
+reviewed: false

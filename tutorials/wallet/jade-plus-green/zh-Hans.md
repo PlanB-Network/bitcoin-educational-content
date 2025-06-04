@@ -37,6 +37,7 @@ Nunchuk | | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢
 在本教程中，我们将通过蓝牙连接设置并使用 Jade Plus 与 Blockstream 的 Green Wallet 移动应用程序。这种设置非常适合初学者。如果您正在寻找更高级的方法，我建议您看看本教程，我们将在二维码模式下使用 Jade Plus 和麻雀钱包：
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 ## Jade Plus 安全模式
 
 Jade Plus 采用一种基于 "虚拟安全元素 "的安全模式，由 "盲谕 "实现。具体而言，该机制将用户选择的 PIN 码、Jade 上的一个秘密和 Oracle（由 Blockstream 维护的服务器）持有的一个秘密结合起来，创建一个分布在两个实体上的 AES-256 密钥。在启动过程中，ECDH 交换会确保与 Oracle 的通信安全，并对硬件钱包上的恢复短语进行加密。在实际操作中，如果要访问种子来签署交易，就需要访问.NET Framework：
@@ -109,6 +110,7 @@ Jade Plus 采用一种基于 "虚拟安全元素 "的安全模式，由 "盲谕 
 有关保存和管理记忆短语的正确方法的更多信息，我强烈推荐大家阅读另一篇教程，尤其是初学者：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ***很明显，你绝对不能在互联网上分享这些文字，就像我在本教程中所做的那样。本作品集样本将仅在 Testnet 上使用，并将在教程结束时删除。
 
 点击屏幕右侧的箭头，显示以下单词。
@@ -124,9 +126,11 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 在本教程中，我们将使用 Green Wallet 应用程序来管理 Jade Plus 上托管的钱包。这种方法特别适合初学者。如果你想更详细地管理比特币钱包，也可以使用麻雀钱包，我们将在另一篇教程中介绍：
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 有关安装和设置 Blockstream Green 应用程序的说明，请参阅本教程的第一部分：
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 进入 Blockstream Green 应用程序后，点击 "*配置新投资组合*"按钮。
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
@@ -204,6 +208,7 @@ PIN 码可以解锁您的翡翠。因此，它可以防止未经授权的物理�
 有关 "*2FA*"选项的更多信息，请参阅本教程：
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+
 您的账户已创建。
 
 ![JADE-PLUS-GREEN](assets/fr/30.webp)
@@ -229,6 +234,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c2
 在您收到钱包中的第一枚比特币之前，**我强烈建议您进行一次清空恢复测试**。记下一些参考信息，例如您的 xpub 或第一个接收地址，然后在绿色应用程序和翡翠增强版上删除您的钱包，此时钱包还是空的（"选项 -> 设备 -> 出厂重置"）。然后尝试使用记忆短语的纸质备份恢复钱包。检查还原后生成的 cookie 信息是否与您最初写下的信息一致。如果吻合，您就可以放心，您的纸质备份是可靠的。要了解有关如何进行测试恢复的更多信息，请参阅本教程 ：
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## 接收比特币
 
 现在，您的比特币钱包已经设置好了，您已经准备好接收您的第一枚比特币了！只需点击绿色应用程序上的 "*接收*"按钮即可。

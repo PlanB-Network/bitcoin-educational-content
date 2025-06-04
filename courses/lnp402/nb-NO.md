@@ -59,7 +59,7 @@ Lykke til med studiene.
 ## Introduksjon til Rust (1/7)
 
 <chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ![video](https://www.youtube.com/watch?v=aZYhDXE_Gas)
 

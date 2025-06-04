@@ -12,7 +12,7 @@ It is available from $149.99 in the basic black version, and the price can rise 
 
 ![JADE-PLUS-SPARROW](assets/fr/01.webp)
 
-Jade Plus is compatible with most portfolio management software. Here is a summary of compatibility at the time of writing (January 2025):
+Jade Plus is compatible with most wallet management software. Here is a summary of compatibility at the time of writing (January 2025):
 
 | Desktop | Mobile | USB | Bluetooth | QR | JadeLink | Management software
 
@@ -37,6 +37,7 @@ Jade Plus is compatible with most portfolio management software. Here is a summa
 In this tutorial, we'll set up an advanced configuration of the Jade Plus with the desktop Sparrow Wallet software in QR codes mode. This configuration is ideal for intermediate or experienced users. If you're looking for a simpler approach for beginners, I recommend you take a look at this tutorial where we use the Jade Plus with Green Wallet over a Bluetooth connection:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+
 ## The Jade Plus safety model
 
 The Jade Plus uses a security model based on a "virtual secure element", materialized by a "blind oracle". In concrete terms, this mechanism combines the PIN chosen by the user, a secret hosted on the Jade and a secret held by the oracle (a server maintained by Blockstream), to create an AES-256 key distributed over two entities. During initiation, an ECDH exchange secures communication with the oracle, and encrypts the recovery phrase on the hardware wallet. In practical terms, when you want to access the seed to sign transactions, you need access to :
@@ -111,7 +112,8 @@ You can write it on the cardboard supplied in the box, or for added security, I 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
-of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial.**_
+
+of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.**_
 
 Click on the arrow on the right of the screen to display the following words.
 
@@ -177,7 +179,7 @@ Scan the QR code now visible on the website to retrieve the secret of the oracle
 
 ![Image](assets/fr/35.webp)
 
-Now that your portfolio has been created, you can proceed to the next steps and skip sub-section "*Option 2: CompactSeedQR*".
+Now that your wallet has been created, you can proceed to the next steps and skip sub-section "*Option 2: CompactSeedQR*".
 
 ![Image](assets/fr/36.webp)
 
@@ -245,7 +247,7 @@ If you prefer to continue with CompactSeedQR only, select "*SeedQR*".
 
 ![Image](assets/fr/22.webp)
 
-Now that your portfolio has been created, you can move on to the next steps.
+Now that your wallet has been created, you can move on to the next steps.
 
 ![Image](assets/fr/23.webp)
 
@@ -268,6 +270,7 @@ A BIP39 passphrase is an optional password that you can choose freely, and which
 Before configuring this option on your Jade Plus, it is strongly recommended that you read this article to fully understand the theoretical operation of the passphrase and avoid errors that could lead to the loss of your bitcoins :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 With your Jade still locked (the passphrase can only be entered when the device is not unlocked), access the "*Options*" menu.
 
 ![Image](assets/fr/42.webp)
@@ -293,7 +296,7 @@ You can then choose between two methods for entering your passphrase:
 - "*Manual*: A virtual keyboard lets you enter letters (upper and lower case), numbers and symbols, character by character. This is the standard method for all hardware wallets;
 - "*WordList*": Specific method designed by Blockstream for Jade, which speeds up passphrase entry and increases its entropy. During input, the system suggests words from the BIP39 list, making unlocking easier. This method automatically generates a sentence by concatenating the chosen words, separated by spaces (example: `abandon ability able`).
 
-Personally, I advise you to use the first method, as it's the standard you'll find on all other portfolio supports.
+Personally, I advise you to use the first method, as it's the standard you'll find on all other wallet supports.
 
 ![Image](assets/fr/45.webp)
 
@@ -309,7 +312,7 @@ If your passphrase is valid, confirm.
 
 ![Image](assets/fr/48.webp)
 
-Please note that BIP39 passphrases are case- and typo-sensitive. If you enter a passphrase slightly different from the one initially configured, Jade will not report an error but will derive another set of cryptographic keys that will not be those in your initial portfolio.
+Please note that BIP39 passphrases are case- and typo-sensitive. If you enter a passphrase slightly different from the one initially configured, Jade will not report an error but will derive another set of cryptographic keys that will not be those in your initial wallet.
 
 It's therefore important, when configuring, to make a note of your master key fingerprint, which can be found in the bottom right-hand corner of the screen. For example, with my passphrase `PBN`, my master key fingerprint is `3AD1AE65`.
 
@@ -320,6 +323,7 @@ Each time you unlock your Jade with your passphrase, check that the fingerprint 
 Before you receive your first bitcoins in your wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Jade Plus while it's still empty (`Options -> Device -> Factory Reset`). Then try to restore your wallet using your paper backups of the mnemonic phrase and any passphrase. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, take a look at this other tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Configuring the wallet on Sparrow Wallet
 
 In this tutorial, I present an advanced use of Jade Plus using Sparrow Wallet. However, this hardware wallet is compatible with many other programs, such as Liana, Nunchuk, Specter, Green and Keeper. These compatibilities vary in terms of connections: USB, Bluetooth or QR code (see table in introduction for details).
@@ -330,7 +334,8 @@ Start by downloading and installing Sparrow Wallet [from the official website](h
 
 Be sure to check the authenticity and integrity of the software before installation. If you don't know how to do this, please consult this tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Once Sparrow Wallet is open, click on the "*File*" tab, then on "*New Wallet*".
 
 ![Image](assets/fr/51.webp)
@@ -363,7 +368,7 @@ Set a strong password to secure access to your Sparrow Wallet. This password wil
 
 ![Image](assets/fr/58.webp)
 
-Your portfolio is now correctly configured on Sparrow.
+Your wallet is now correctly configured on Sparrow.
 
 ![Image](assets/fr/59.webp)
 
@@ -373,7 +378,7 @@ Now that your Jade Plus is configured, you're ready to receive your first sats o
 
 ![Image](assets/fr/60.webp)
 
-Sparrow will display the first blank reception address in your portfolio.
+Sparrow will display the first blank reception address in your wallet.
 
 ![Image](assets/fr/61.webp)
 

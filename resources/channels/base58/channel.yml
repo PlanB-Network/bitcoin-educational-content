@@ -8,9 +8,9 @@ description: |
   Base58⛓️🔓 is a software engineering school built on a bitcoin standard.  We offer online and in-person classes on the bitcoin protocol.  Check our our website for upcoming classes: https://base58.school
 
   Check out our sister project, the bitcoin++! dev-conf series! Next up in Buenos Aires +  Austin, TX. We're proudly homed in Austin Texas, at the PlebLab.
+contributor_names:
+  - PaoloFoti
 tags:
-  - node
+  - software
   - development
-  - technical-analysis
-contributors:
-  - hunt-wood
+  - guides

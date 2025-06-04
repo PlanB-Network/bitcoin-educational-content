@@ -49,7 +49,7 @@ Ledger Nano S Plus доступен для продажи [на официаль
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Для этих двух программных приложений я настоятельно рекомендую проверить их подлинность (с помощью GnuPG) и целостность (через хеш) перед установкой их на ваш компьютер. Если вы не уверены, как это сделать, вы можете следовать этому другому уроку:
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Как инициализировать Ledger Nano?
 

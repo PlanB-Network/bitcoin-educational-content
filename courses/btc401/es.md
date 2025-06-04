@@ -756,7 +756,7 @@ En conclusión, abordar continuamente estos problemas abiertos e innovar dentro 
 ## Pensamiento de Seguridad en Bitcoin
 
 <chapterId>0b97af0c-015a-54e3-a7f0-0f62ceb96c07</chapterId>
-<professor>because-drama</professor>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 ![Video](https://youtu.be/2f_rK74MB3U)
 

@@ -46,13 +46,13 @@ Launch the application, then check the "*I have read and agreed to the Terms of 
 
 ![AQUA](assets/fr/06.webp)
 
-## Create your portfolio on Aqua
+## Create your wallet on Aqua
 
 Click on the "*Create Wallet*" button.
 
 ![AQUA](assets/fr/07.webp)
 
-And voilà, your portfolio is already created!
+And voilà, your wallet is already created!
 
 ![AQUA](assets/fr/08.webp)
 
@@ -154,7 +154,7 @@ Your swap is now confirmed.
 
 ![AQUA](assets/fr/29.webp)
 
-Looking back at our portfolio, we can see that we now have USDT on Liquid.
+Looking back at our wallet, we can see that we now have USDT on Liquid.
 
 ![AQUA](assets/fr/30.webp)
 

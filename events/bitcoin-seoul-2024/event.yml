@@ -1,11 +1,10 @@
 id: 16c8c175-773f-4510-8200-8f64f6aef46d
 start_date: 2024-05-29
 end_date: 2024-05-31
-address_line_1: Seoul, korea
+address_city_country: Seoul, korea
 address_line_2:
 address_line_3:
 name: Bitcoin Seoul 2024
-builder: BitcoinSeoul
 type: conference
 book_online: false
 book_in_person: false
@@ -16,9 +15,9 @@ language:
 links:
   website: https://www.bitcoinseoul.kr/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - General
-
+  live_url:
 project_id: 7bcd003b-a4ec-4369-826e-d97d33ad8a15
+tags:
+  - business
+  - case-studies
+  - adoption

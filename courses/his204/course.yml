@@ -4,12 +4,11 @@ subtopic: history
 level: intermediate
 hours: 5
 
-professors:
-  - peace-advice
-
-contributors:
-  - rabbit-hole
-  - another-satoshi
+professors_id:
+  - 28add585-0683-4574-9221-16b331cbd37a
+contributor_names:
+  - Rogzy-DB
+  - Asi0Flammeus
 
 published_at: 2025-02-18
 test_only: true
@@ -20,6 +19,6 @@ proofreading:
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    - Asi0Flammeus
-    reward: 0
+    contributor_names:
+      - Asi0Flammeus
+    reward: 15.16

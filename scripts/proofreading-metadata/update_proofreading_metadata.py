@@ -149,7 +149,7 @@ def update_proofreading(root_dir, specific_files):
                         file.write(f"\nproofreading:\n  - language: {original_language}\n")
                         file.write(f"    last_contribution_date: {datetime.now().date()}\n")
                         file.write("    urgency: 1\n")
-                        file.write("    contributors_id:\n    - Asi0Flammeus\n")
+                        file.write("    contributor_names:\n    - Asi0Flammeus\n")
                         file.write("    reward: 0\n")
                     
                     # Reload the data after adding the section
@@ -177,7 +177,7 @@ def update_proofreading(root_dir, specific_files):
                                 f"\n  - language: {language}\n"
                                 f"    last_contribution_date:\n"
                                 f"    urgency: 1\n"
-                                f"    contributors_id:\n"
+                                f"    contributor_names:\n"
                                 f"    reward:\n"
                             )
 

@@ -2,11 +2,10 @@ id: 49be0f03-e583-4837-b3ef-41b3e793846e
 start_date: 2025-06-19 08:00:00
 end_date: 2025-06-21 17:00:00
 timezone: Europe/Prague
-address_line_1: Prague, Czech Republic
+address_city_country: Prague, Czech Republic
 address_line_2:
 address_line_3:
 name: BTC Prague 2025
-builder: BTCprague
 type: conference
 book_online: false
 book_in_person: false
@@ -19,8 +18,8 @@ links:
   website: https://www.btcprague.com/#
   replay_url:
   live_url:
-tags:
-  - decentralization
-  - finance
-  - protocols
 project_id: 0726adb9-4d45-4e5c-af2c-0a26db29d9b3
+tags:
+  - business
+  - adoption
+  - future-outlook

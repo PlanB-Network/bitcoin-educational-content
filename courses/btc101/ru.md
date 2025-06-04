@@ -557,15 +557,18 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Например, вы можете использовать Sparrow Wallet в качестве горячего кошелька:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Уровень 2\*\*, вы используете физический кошелек и защитили свой список из 12/24 слов. Его часто называют "холодным кошельком", поскольку ваши ключи хранятся на устройстве, не подключенном к интернету. В этом случае вам придется подписывать каждую транзакцию с помощью своего устройства, что делает ваши средства менее доступными на ежедневной основе.
 
 Например, вы можете использовать Ledger, Satochip или Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Уровень 3\*\*, вы используете кошелек уровня 1 или 2, но добавили дополнительную ключевую фразу. В этом случае помните, что вам нужно сделать резервную копию как списка 12/24 слов, так и парольной фразы. В идеале эти две части информации должны храниться в двух разных местах.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Чтобы узнать больше об использовании и функционировании парольной фразы BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Уровень 4\*\*, вы используете набор кошельков для создания "мультисиг" кошелька, что означает, что для проведения транзакции требуется несколько подписей. В этом случае следует помнить, что каждая часть мультисигмы должна храниться в разных местах. Такой подход часто считается продвинутым использованием Биткойна, в первую очередь для управления большими суммами и в корпоративных целях.
@@ -829,7 +833,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ![image](assets/en/53.webp)
 
-Второй вариант - использовать для этой цели специализированное оборудование, например Raspberry Pi 4 с достаточно большим SSD (около ~1 ТБ). Этот вариант более дорогой, если вам придется покупать оборудование, но с точки зрения потребления электроэнергии он составляет чуть менее €10,00 в год.
+Второй вариант - использовать для этой цели специализированное оборудование, например Raspberry Pi 4 с достаточно большим SSD (около ~2 ТБ). Этот вариант более дорогой, если вам придется покупать оборудование, но с точки зрения потребления электроэнергии он составляет чуть менее €10,00 в год.
 
 С точки зрения пропускной способности, если учесть, что 1 блок размером 1 МБ появляется каждые 10 минут, это соответствует примерно 5 ГБ в месяц.
 
@@ -1074,11 +1078,11 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 - Простое онлайн-решение: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Решение для торговцев-любителей: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Решение для крупных структур или увлеченных биткоинщиков: Сервер BTCpay
 
@@ -1356,13 +1360,13 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 
-<isCourseReview>true</isCourseReview
+<isCourseReview>true</isCourseReview>
 
 ## Итоговый экзамен
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 
-<isCourseExam>true</isCourseExam
+<isCourseExam>true</isCourseExam>
 
 ## Заключение
 

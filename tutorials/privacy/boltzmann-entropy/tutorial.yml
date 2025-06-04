@@ -1,17 +1,10 @@
 id: 738e45af-18a6-4ce6-af1a-1bf58e15f1fe
-builder: Samourai
-
-tags:
-  - privacy
-  - entropy
-  - Boltzmann
 
 category: analysis
 
 level: advanced
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
@@ -20,79 +13,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.21
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.16
+    contributor_names:
+    reward: 6.19
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.16
+    contributor_names:
+    reward: 6.19
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.19
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.21
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 2.08
+    reward: 3.09
   - language: it
     last_contribution_date: 2024-09-09
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 3.09
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.27
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.16
+    contributor_names:
+    reward: 6.19
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.21
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.27
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.21
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.24
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.24
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.21
+tags:
+  - privacy
+  - technical-analysis
+  - deep-dive

@@ -957,7 +957,7 @@ Bastiat-ov pravi protivnik u ovoj fikciji je politički i izborni protekcionizam
 Ukratko, protekcionizam je namerna politika u korist proizvođača na štetu potrošača. Međutim, prema Bastiat-u, pravi predstavnici opšteg interesa su potrošači, jer smo svi mi potrošači.
 
 
-Proteksionizam se takođe zasniva na skrivenom silogizmu koji se ispostavlja kao greška:
+Proteksionizam se takođe zasniva na skrivenom silogizmu koji se ispostavlja kao zabluda:
 
 
 
@@ -966,16 +966,16 @@ Proteksionizam se takođe zasniva na skrivenom silogizmu koji se ispostavlja kao
 - Dakle, što više poteškoća moramo prevazići, to smo bogatiji.
 
 
-Ilustrujmo ovu apsurdnost sa nekoliko kratkih priča koje priča Bastiat. U Poglavlju III druge serije Ekonomskih sofizama, on zamišlja stolara koji piše ministru peticiju tražeći protekcionističko zakonodavstvo. Stolar ovako formuliše svoj zahtev: Gospodine Ministre, donesite zakon koji propisuje da "Niko neće moći koristiti ništa osim greda i nosača proizvedenih tupim sekirama." Drugim rečima, donesite zakon koji zabranjuje upotrebu oštrih sekira u Francuskoj. Tako će, gde se inače daje 100 udaraca sekirom, biti potrebno dati 300. Stolari će biti na velikoj potražnji i stoga bolje plaćeni.
+Ilustrujmo ovu apsurdnost sa nekoliko kratkih priča koje priča Bastiat. U Poglavlju III druge serije Ekonomskih sofizama, on zamišlja stolara koji piše ministru peticiju tražeći protekcionističko zakonodavstvo. Stolar ovako formuliše svoj zahtev: Gospodine Ministre, donesite zakon koji propisuje da "Niko neće moći koristiti ništa osim greda i nosača proizvedenih tupim sekirama." Drugim rečima, donesite zakon koji zabranjuje upotrebu oštrih sekira u Francuskoj. Tako će, gde se inače daje 100 udaraca sekirom, biti potrebno dati 300. Stolari će biti veoma traženi i stoga bolje plaćeni.
 
 
 ![image](assets/en/081.webp)
 
 
-U Poglavlju XVI nalazi se još jedan veoma ironičan tekst pod naslovom: Desna Ruka i Leva Ruka. Nakon istrage, kraljevski izaslanik sastavlja izveštaj u kojem predlaže kralju da odseče, ili barem veže, sve desne ruke radnika. Tako će, nastavlja on, rad i posledično bogatstvo porasti. Proizvodnja će postati mnogo teža, što će zahtevati masovno zapošljavanje dodatne radne snage i povećanje plata. Siromaštvo će nestati iz zemlje.
+U Poglavlju XVI nalazi se još jedan veoma ironičan tekst pod naslovom: Desna ruka i reva ruka (The Right Hand and the Left Hand). Nakon istrage, kraljevski izaslanik sastavlja izveštaj u kojem predlaže kralju da odseče, ili barem veže, sve desne ruke radnika. Tako će, nastavlja on, rad i posledično bogatstvo porasti. Proizvodnja će postati mnogo teža, što će zahtevati masovno zapošljavanje dodatne radne snage i povećanje plata. Siromaštvo će nestati iz zemlje.
 
 
-Prateći ovu logiku stvaranja poslova po svaku cenu, zašto ne bismo takođe zamenili kamione kolicima, a lopate kašičicama? Svi ovi sofizmi imaju jednu zajedničku stvar: mešaju sredstva sa ciljem. Za Bastijata, cilj ekonomije nije očuvanje poslova. Ne treba da sudimo o korisnosti rada po njegovom trajanju i intenzitetu, već po njegovim rezultatima: zadovoljenju potreba, korisnosti.
+Prateći ovu logiku stvaranja poslova po svaku cenu, zašto ne bismo takođe zamenili kamione kolicima, a lopate kašičicama? Svi ovi sofizmi imaju jednu zajedničku stvar: mešaju sredstva sa ciljem. Za Bastiat-a, cilj ekonomije nije očuvanje poslova. Ne treba da sudimo o korisnosti rada po njegovom trajanju i intenzitetu, već po njegovim rezultatima: zadovoljenju potreba, korisnosti.
 
 
 Ova zbrka sredstava i cilja nalazi se u sloganu "novac je bogatstvo."
@@ -986,35 +986,35 @@ Ovo je aksiom koji upravlja monetarnom politikom većine država. Zaista, vešta
 ![image](assets/en/082.webp)
 
 
-Pravo bogatstvo, prema Bastijatu, je dakle skup korisnih stvari koje proizvodimo radom kako bismo zadovoljili svoje potrebe. Novac je stoga samo uobičajeno sredstvo Exchange, on igra samo ulogu posrednika.
+Pravo bogatstvo, prema Bastiat-u, je dakle skup korisnih stvari koje proizvodimo radom kako bismo zadovoljili svoje potrebe. Novac je stoga samo uobičajeno sredstvo razmene, on igra samo ulogu posrednika.
 
 
-## Pljačka putem oporezivanja
+## Pljačka kroz oporezivanje
 
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
 
-> Kad bogati smršaju, siromašni umiru.
+> Kad bogati izgube na težini, siromašni umiru.
 
 ![image](assets/en/083.webp)
 
 
-Ovaj citat, koji se pripisuje Lao-Cu, opisuje neizbežnu posledicu poreskog sistema koji ima za cilj da bogate pogodi jače od drugih.
+Ovaj citat, koji se pripisuje Lao-Tzu-u, opisuje neizbežnu posledicu poreskog sistema koji ima za cilj da bogate pogodi jače od drugih.
 
 
 Ipak, da li ste ikada čuli da se kaže:
 
 
-> Oporezivanje je najbolja investicija: to je đubrivo! Pogledajte koliko porodica podržava, i pratite, u mislima, njegove rikošete na industriju: to je beskonačno, to je život.
+> Oporezivanje je najbolja investicija: to je đubrivo! Pogledajte koliko porodica podržava, i pratite, u mislima, njegove odjeke na industriju: to je beskonačno, to je život.
 
-U Francuskoj, gde se javna potrošnja smatra koristi, porezi su viši nego u drugim zemljama. Ali Bastiat nas odmah upozorava: "U svakoj javnoj potrošnji, iza prividnog dobra postoji teže uočljivo zlo."
+U Francuskoj, gde se javna potrošnja smatra korisnom, porezi su viši nego u drugim zemljama. Ali Bastiat nas odmah upozorava: "U svakoj javnoj potrošnji, iza prividnog dobra postoji teže uočljivo zlo."
 
 
 O čemu se radi?
 
 
-Ekonomija opisuje dobre ili loše efekte političkih odluka na naše živote. Međutim, prema Bastijatu, ekonomista mora biti pažljiv, ne samo na njihove kratkoročne efekte na određenu grupu, već i na njihove dugoročne posledice za društvo u celini.
+Ekonomija opisuje dobre ili loše efekte političkih odluka na naše živote. Međutim, prema Bastiat-u, ekonomista mora biti pažljiv, ne samo na njihove kratkoročne efekte na određenu grupu, već i na njihove dugoročne posledice za društvo u celini.
 
 
 > Ono što vidimo je rad i profit omogućeni društvenim doprinosom. Ono što ne vidimo su dela koja bi bila generisana istim doprinosom ako bi bila prepuštena poreskim obveznicima. Ono što vidimo je rad i profit omogućeni društvenim doprinosom. Ono što ne vidimo su dela koja bi bila generisana istim doprinosom ako bi bila prepuštena poreskim obveznicima.
@@ -1027,16 +1027,16 @@ Ekonomija opisuje dobre ili loše efekte političkih odluka na naše živote. Me
 Od samog početka, on odbacuje još uvek prisutan argument da javna potrošnja finansirana porezima stvara radna mesta. Zaista, porezi ne stvaraju ništa jer ono što država potroši više ne troše poreski obveznici.
 
 
-Štaviše, država je rasipnija od pojedinaca. Zaista, podseća nas, država ne poseduje ništa; ne proizvodi bogatstvo. Javni troškovi su često izvor rasipanja jer ogromne sume konfiskovane od pojedinaca izmiču odgovornosti njihovih vlasnika i umesto njih ih troše birokrate, podložne pritiscima interesnih grupa.
+Štaviše, država je rasipnija od pojedinaca. Zaista, podseća nas, država ne poseduje ništa; ne proizvodi bogatstvo. Javna potrošnja su često izvor rasipanja jer ogromne sume konfiskovane od pojedinaca izmiču odgovornosti njihovih vlasnika i umesto njih ih troše birokrate, podložne pritiscima interesnih grupa.
 
 
 ![image](assets/en/085.webp)
 
 
-Naravno, kao plaćanje za ekvivalentnu javnu uslugu primljenu u Exchange, oporezivanje je potpuno opravdano. Ali u Francuskoj, država je dodelila nekoliko uloga porezima.
+Naravno, kao plaćanje za ekvivalentnu javnu uslugu primljenu zauzvrat, oporezivanje je potpuno opravdano. Ali u Francuskoj, država je dodelila nekoliko uloga porezima.
 
 
-U početku, trebalo je da pokriva zajedničke troškove. Zatim, porezima je takođe data uloga u regulisanju ekonomije. U ovom slučaju, političari i birokrate imaju moć koja je ograničena samo njihovom dobrom voljom. Zadubljeni u svoje veštačke konstrukte, oblikuju ekonomiju oporezivanjem i regulisanjem sektora više ili manje prema svojim hirovima kako bi ih favorizovali ili ne.
+U početku, trebalo je da pokriva zajedničke troškove. Zatim, porezima je takođe data uloga u regulisanju ekonomije. U ovom slučaju, političari i birokrate imaju moć koja je ograničena samo njihovom dobrom voljom. Zaokupljeni svojim veštačkim konstrukcijama, oblikuju ekonomiju oporezivanjem i regulisanjem sektora više ili manje prema svojim hirovima kako bi ih favorizovali ili ne.
 
 
 Konačno, porezima je dodeljena društvena uloga. Oni su postali instrument socijalne pravde. Dakle, porezi ne bi trebalo da pogađaju sve na isti način. Porezi moraju biti redistributivni, od onih "koji imaju više" ka onima "koji imaju manje."
@@ -1045,7 +1045,7 @@ Konačno, porezima je dodeljena društvena uloga. Oni su postali instrument soci
 ![image](assets/en/086.webp)
 
 
-Problem je što su porezi, kako su zamišljeni, podložni samovolji onih na vlasti. Oni favorizuju ili ne favorizuju određene društvene kategorije u zavisnosti od toga da li vlast očekuje glasove od njih ili ne. Štaviše, progresivne stope donose malo u javnu blagajnu. Međutim, omogućavaju većini da ekspropriše manjinu i prirodno postaju konfiskatorni.
+Problem je što su porezi, kako su zamišljeni, podložni samovolji onih na vlasti. Oni favorizuju ili ne favorizuju određene društvene kategorije u zavisnosti od toga da li vlast očekuje glasove od njih ili ne. Štaviše, progresivne stope donose malo u državnu blagajnu. Međutim, omogućavaju većini da ekspropriše manjinu i prirodno postaju konfiskatorni.
 
 
 Zato je Bastiat već razumeo Lafferovu krivu. Arthur Laffer je američki ekonomista poznat po svojoj čuvenoj "krivi" (elipsi), objavljenoj 1974. godine, koja pokazuje da prihod od poreza raste sa smanjenjem poreske stope. Ovo je teorija opadajućeg prinosa prekomernog oporezivanja.
@@ -1056,7 +1056,7 @@ Zato je Bastiat već razumeo Lafferovu krivu. Arthur Laffer je američki ekonomi
 ---
 
 >„Previše poreza ubija porez“  
->Artur Lafer
+>Arthur Laffer
 
 ---
 
@@ -1067,10 +1067,10 @@ Političari naivno pretpostavljaju da postoji automatska i fiksna veza između p
 ![image](assets/en/088.webp)
 
 
-Lafferova kriva pokazuje da vlada ne prikuplja prihode kada su poreske stope na 100%. Suprotno tome, svako smanjenje poreza služi za stimulisanje ekonomske aktivnosti i time državnih prihoda. Zaista, smanjenje graničnih poreskih stopa podstiče investicije, rad, kreativnost i time promoviše ekonomski rast. Dovoljno smanjenje moglo bi proizvesti dovoljno ekonomskog stimulansa da poveća javne prihode značajnim proširenjem poreske osnovice.
+Lafferova kriva pokazuje da vlada ne prikuplja prihode kada su poreske stope na 100%. Suprotno tome, svako smanjenje poreza služi za stimulisanje ekonomske aktivnosti i time državnih prihoda. Zaista, smanjenje marginalnih poreskih stopa podstiče investicije, rad, kreativnost i time promoviše ekonomski rast. Dovoljno smanjenje moglo bi proizvesti dovoljno ekonomskog stimulansa da poveća javne prihode značajnim proširenjem poreske osnovice.
 
 
-Bastiat bi mogao dodati da bi se jednaka važnost trebala pridavati smanjenju državnih rashoda kao i smanjenju poreza. Ipak, kako je Margaret Thatcher, učenica Frédérica Bastiata, tako prikladno rekla:
+Bastiat bi mogao dodati da bi se jednaka važnost trebala pridavati smanjenju državnih rashoda kao i smanjenju poreza. Ipak, kako je Margaret Thatcher, učenica Frédérica Bastiat-a, tako prikladno rekla:
 
 
 ![image](assets/en/089.webp)
@@ -1087,19 +1087,19 @@ I rekla je to dok se obraćala socijalistima.
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
 
-Mnogi ljudi znaju "Tartif ili Varalica", komediju Molijera u kojoj lukavi pobožnjak pokušava da zavede Elmire i prevari njenog muža Orgona. Kako se može zaštititi od obmana takvog licemera koji se pretvara da vam čini dobro dok kuje zavere protiv vas?
+Mnogi ljudi znaju za "Tartifa ili varalicu" (Tartuffe or the Impostor), komediju Molijera u kojoj lukavi pobožnjak pokušava da zavede Elmire i prevari njenog muža Orgon-a. Kako se može zaštititi od obmana takvog licemera koji se pretvara da vam čini dobro dok kuje zavere protiv vas?
 
 
 ![image](assets/en/090.webp)
 
 
-Bastiat primećuje da postoje dva načina da se stane na kraj ovoj vrsti obmane: ispraviti Tartifa ili prosvetliti Orgona. Naravno, uvek će biti Tartifa, ali njihova moć da nanesu štetu bila bi znatno smanjena kada bi bilo manje Orgona koji ih slušaju.
+Bastiat primećuje da postoje dva načina da se stane na kraj ovoj vrsti obmane: ispraviti Tartuffe-a ili prosvetliti Orgon-a. Naravno, uvek će biti Tartuffe-a, ali njihova moć da nanesu štetu bila bi znatno smanjena kada bi bilo manje Orgon-a koji ih slušaju.
 
 
 Slabost ljudskog razuma je u korenu zloupotrebe slobode. To je glavna ograničenost ljudi i uzrok mnogih zala. Stoga je potrebno prosvetliti savesti o korisnoj ili štetnoj, a time i pravednoj ili nepravednoj prirodi ljudskih dela, bilo pojedinačnih ili kolektivnih.
 
 
-Međutim, postoje dva komplementarna načina da se prosvetli sud građana, kako Bastija ističe u poglavlju druge serije Ekonomskih sofizama pod nazivom "Dve moralnosti".
+Međutim, postoje dva komplementarna načina da se prosvetli sud građana, kako Bastiat ističe u poglavlju druge serije Ekonomskih sofizama pod nazivom "Dve moralnosti" (The Two Moralities).
 
 
 ![image](assets/en/091.webp)
@@ -1107,27 +1107,27 @@ Međutim, postoje dva komplementarna načina da se prosvetli sud građana, kako 
 
 
 - Prvo, postoji "filozofska ili religijska moralnost" koja deluje pročišćavanjem i ispravljanjem ljudskog delovanja (čovek kao agent);
-- onda, postoji "ekonomski moral", koji deluje pokazujući čoveku "neophodne posledice njegovih dela" (čovek kao pacijent).
+- onda, postoji "ekonomska moralnost", koji deluje pokazujući čoveku "neophodne posledice njegovih dela" (čovek kao pacijent).
 
 
 Zapravo, ovo su dva savršeno komplementarna moralna okvira.
 
 
-1. Prva se obraća srcu i ohrabruje pojedince da čine dobro; to je religijska ili filozofska moralnost. Ona je najplemenitija. U korenu srca čoveka usađuje svest o njegovoj dužnosti. Govori mu:
+1. Prvi se obraća srcu i ohrabruje pojedince da čine dobro; to je religijska ili filozofska moralnost. Ona je najplemenitija. U korenu srca čoveka usađuje svest o njegovoj dužnosti. Govori mu:
 
 
-> Poboljšaj se; pročisti se; prestani činiti zlo; čini dobro, obuzdaj svoje strasti; žrtvuj svoje interese; ne tlači svog suseda kojeg je tvoja dužnost voleti i pomoći; budi pravedan prvo, a zatim milosrdan.
+> Poboljšaj se; pročisti se; prestani činiti zlo; čini dobro, obuzdaj svoje strasti; žrtvuj svoje interese; ne tlači svog bližnjeg kojeg je tvoja dužnost voleti i pomoći; budi pravedan prvo, a zatim i milosrdan.
 
-Ukratko, to uči vrlini, nesebičnom činu. Ovaj moral, kaže Bastiat, biće večno najlepši i najdirljiviji, jer pokazuje ono što je najbolje u čoveku.
+Ukratko, on uči vrlini, nesebičnom činu. Ova moralnost, kaže Bastiat, biće večno najlepša i najdirljivija, jer pokazuje ono što je najbolje u čoveku.
 
 
 ![image](assets/en/092.webp)
 
 
-2. Drugi pomaže da se zlo osudi i suzbije kroz poznavanje njegovih posledica, to je ekonomski moral. Obraća se intelektu, a ne srcu, s ciljem da prosvetli žrtvu o negativnim efektima nekog ponašanja. On pojačava lekcije iskustva. Nastoji da širi zdrav razum, znanje i nepoverenje među potlačenim masama, čineći ugnjetavanje težim.
+2. Druga pomaže da se zlo osudi i suzbije kroz poznavanje njegovih posledica, to je ekonomski moral. Obraća se intelektu, a ne srcu, s ciljem da prosvetli žrtvu o negativnim efektima nekog ponašanja. On pojačava lekcije iskustva. Nastoji da širi zdrav razum, znanje i nepoverenje među potlačenim masama, čineći ugnjetavanje težim.
 
 
-Ova ekonomska moralnost teži istom rezultatu kao i religijska moralnost, ali polazeći od efekata ljudskih dela. Ona nas uči da reagujemo protiv nepravednih ili štetnih dela i da branimo ona koja su pravedna ili korisna.
+Ova ekonomska moralnost teži istom cilju kao i religijska moralnost, ali polazeći od efekata ljudskih dela. Ona nas uči da reagujemo protiv nepravednih ili štetnih dela i da branimo ona koja su pravedna ili korisna.
 
 
 ![image](assets/en/093.webp)
@@ -1142,13 +1142,13 @@ Konkretno, ekonomska nauka, koju Bastiat opisuje kao defanzivnu moralnost, sasto
 Politička ekonomija, dakle, ima očiglednu praktičnu korisnost. Ona otkriva pljačku u skrivenim troškovima, prepreke konkurenciji i sve oblike protekcionizma.
 
 
-Još jednom, bilo bi manje Tartifa kada bi bilo manje Orgona koji ih slušaju. Evo šta Bastija kaže o ovom pitanju:
+Još jednom, bilo bi manje Tartuffes-a kada bi bilo manje Orgon-a koji ih slušaju. Evo šta Bastiat kaže o ovom pitanju:
 
 
 ![image](assets/en/094.webp)
 
 
-> Neka religiozni moral, dakle, dotakne srca Tartifa ako može. Zadatak političke ekonomije je da prosvetli njihove prevarene. Od ova dva pristupa, koji najefikasnije deluje za društveni napredak? Mora li se reći? Verujem da je to drugi. Bojim se da čovečanstvo ne može izbeći potrebu da prvo nauči odbrambeni moral.
+> Neka religiozni moral, dakle, dotakne srca Tartuffes-a ako može. Zadatak političke ekonomije je da prosvetli njihove prevarene. Od ova dva pristupa, koji najefikasnije deluje za društveni napredak? Mora li se reći? Verujem da je to drugi. Bojim se da čovečanstvo ne može izbeći potrebu da prvo nauči odbrambeni moral.
 
 Naravno, politička ekonomija nije univerzalna nauka; ne isključuje filozofske i religijske pristupe. "Ali ko je ikada izneo tako preteran zahtev u njeno ime?" pita se Bastiat.
 
@@ -1168,7 +1168,7 @@ Jedna stvar je sigurna, nije politika ta koja može promeniti tok stvari i usavr
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
 
-Može li harmonično društvo funkcionisati bez pisanih zakona, pravila, represivnih mera? Ako se ljudima ostavi sloboda, zar nećemo svedočiti neredu, anarhiji, dezorganizaciji? Kako izbeći stvaranje puke juxtapozicije pojedinaca koji deluju van svakog koncerta, ako ne kroz zakone i centralizovanu političku organizaciju?
+Može li harmonično društvo funkcionisati bez pisanih zakona, pravila, represivnih mera? Ako se ljudima ostavi sloboda, zar nećemo svedočiti neredu, anarhiji, dezorganizaciji? Kako izbeći stvaranje puke jukstapozicije pojedinaca koji deluju van svakog dogovora, ako ne kroz zakone i centralizovanu političku organizaciju?
 
 
 Ovo je argument koji često koriste oni koji zahtevaju regulaciju tržišta ili društvo koje je samo sposobno da koordinira pojedince u koherentnu i harmoničnu celinu.
@@ -1177,10 +1177,10 @@ Ovo je argument koji često koriste oni koji zahtevaju regulaciju tržišta ili 
 ![image](assets/en/095.webp)
 
 
-Ovo nije Bastiatov stav. Prema njemu, društveni mehanizam, poput nebeskog mehanizma ili mehanizma ljudskog tela, pokorava se opštim zakonima. Drugim rečima, to je već harmonično organizovana celina. A motor ove organizacije je slobodno tržište.
+Ovo nije Bastiat-ovo mišljenje. Prema njemu, društveni mehanizam, poput nebeskog mehanizma ili mehanizma ljudskog tela, pokorava se opštim zakonima. Drugim rečima, to je već harmonično organizovana celina. A motor ove organizacije je slobodno tržište.
 
 
-Čudo slobodnog tržišta, kaže nam, jeste to što koristi znanje koje nijedna osoba ne može posedovati sama i što pruža zadovoljenja daleko superiornija od bilo čega što bi veštačka organizacija mogla učiniti.
+Čudo slobodnog tržišta, kaže nam Bastiat, jeste to što koristi znanje koje nijedna osoba ne može posedovati sama i što pruža zadovoljenja daleko superiornija od bilo čega što bi veštačka organizacija mogla učiniti.
 
 
 Bastiat daje nekoliko primera kako bi ilustrovao prednosti ovog tržišta. Toliko smo se navikli na ovaj fenomen da mu više ne obraćamo pažnju.
@@ -1188,47 +1188,47 @@ Bastiat daje nekoliko primera kako bi ilustrovao prednosti ovog tržišta. Tolik
 Hajde da razmotrimo stolara u selu, kaže on, i posmatrajmo sve usluge koje pruža društvu i sve one koje prima:
 
 
-> Svakog dana, kada se probudi, on se oblači, a nijednu od svojih odeća nije lično napravio. Ipak, da bi mu ta odeća bila dostupna, ogroman rad, industrija, transport i genijalni izumi morali su biti ostvareni širom sveta.
+> Svakog dana, kada se probudi, on se oblači, a nijedan od svojih odevnih predmeta nije lično napravio. Ipak, da bi mu ta odeća bila dostupna, ogroman rad, industrija, transport i genijalni izumi morali su biti ostvareni širom sveta.
 >
 
-> Zatim doručkuje. Da bi hleb koji jede stigao na njegov sto svako jutro, zemljišta su morala biti očišćena, orana; gvožđe, čelik, drvo, kamen morali su biti pretvoreni u radne alate; sve stvari koje svaka, uzeta zasebno, pretpostavljaju neizmernu masu rada stavljenu u igru, ne samo u prostoru već i u vremenu.
+> Zatim doručkuje. Da bi hleb koji jede stigao na njegov sto svako jutro, zemljišta su morala biti očišćena, orana; gvožđe, čelik, drvo, kamen morali su biti pretvoreni u radne alate; sve stvari koje, uzete pojedinačno, pretpostavljaju neizmernu masu rada uloženog u igru, ne samo u prostoru već i u vremenu.
 >
 
 > Ovaj čovek će poslati svog sina u školu, da dobije obrazovanje koje pretpostavlja istraživanje, mnogo godina prethodnog učenja.
 > On izlazi napolje: pronalazi popločanu i osvetljenu ulicu.
 >
 
-> Njegova imovina je osporena: naći će advokate da brane njegova prava, sudije da ih održe, pravosudne službenike da izvrše presudu; sve stvari koje i dalje pretpostavljaju stečeno znanje, dakle prosvetljenje i sredstva za život.
+> Njegova imovina je osporena: naći će advokate da brane njegova prava, sudije da ih održe, pravosudne izvršitelje da izvrše presudu; sve stvari koje i dalje pretpostavljaju stečeno znanje, dakle prosvetljenje i sredstva za život.
 
-Bastiat opisuje tržište kao decentralizovani i nevidljivi alat saradnje. Kroz sistem cena, ono prenosi informacije o potrebama i veštinama svih, povezuje ljude koji žele da sarađuju kako bi poboljšali svoje postojanje.
+Bastiat opisuje tržište kao decentralizovani i nevidljivi alat saradnje. Kroz sistem cena, ono prenosi informacije o potrebama i veštinama svih, povezuje ljude koji žele da sarađuju kako bi poboljšali svoj život.
 
 
-Ono što je upečatljivo, zaključuje Bastiat, jeste ogromna nesrazmera koja postoji između koristi koje ovaj čovek crpi iz društva i onih koje bi sebi obezbedio kada bi bio sveden na sopstvene resurse. U jednom danu, on troši dobra koja ne bi mogao sam da proizvede.
+Ono što je upečatljivo, zaključuje Bastiat, jeste ogromna nesrazmera koja postoji između koristi koje ovaj čovek crpi iz društva i onih koje bi sebi obezbedio kada bi bio sveden na sopstvene resurse. U jednom danu, on konzumira dobra koja ne bi mogao sam da proizvede.
 
 
 ![image](assets/en/096.webp)
 
 
-Godine 1958, američki pisac Leonard Read (Fondacija za ekonomsko obrazovanje) objavio je kratak esej u časopisu The Freeman, napisan u maniru Bastijata, koji je postao veoma poznat: "Ja, olovka". Ovaj tekst je metafora za ono što je slobodno tržište. Počinje ovako:
+Godine 1958., američki pisac Leonard Read (Fondacija za ekonomsko obrazovanje) objavio je kratak esej u časopisu "The Freeman", napisan u maniru Bastiat-a, koji je postao veoma poznat: "Ja, olovka" (I, Pencil). Ovaj tekst je metafora za ono što je slobodno tržište. Počinje ovako:
 
 
-> Ja sam olovka, obična drvena olovka poznata svim dečacima, devojčicama i odraslima koji znaju da čitaju i pišu. To je jedan od najjednostavnijih predmeta u ljudskoj civilizaciji. Ipak, nijedna osoba na ovoj zemlji ne zna kako da me proizvede.
+> Ja sam grafitna olovka, obična drvena olovka poznata svim dečacima, devojčicama i odraslima koji znaju da čitaju i pišu. To je jedan od najjednostavnijih predmeta u ljudskoj civilizaciji. Ipak, nijedna osoba na ovoj zemlji ne zna kako da me proizvede.
 
 ![image](assets/en/097.webp)
 
-Ponovo razmatra Bastiatovu ideju o nevidljivoj saradnji među milionima pojedinaca koji se međusobno ne poznaju, što dovodi do izgradnje nečega tako svakodnevnog kao što je olovka. Niko ne zna kako da sam napravi olovku. Ipak, milioni ljudi nesvesno učestvuju u stvaranju ove jednostavne olovke, razmenjujući i koordinirajući svoja znanja i veštine unutar sistema cena bez ikakvog nadređenog autoriteta koji diktira njihovo ponašanje. Ova priča pokazuje da slobodni pojedinci koji rade u potrazi za svojim legitimnim interesom deluju više u korist društva nego bilo koja planirana i centralizovana ekonomska strategija.
+Ovaj tekst ponovo razmatra Bastiat-ovu ideju o nevidljivoj saradnji među milionima pojedinaca koji se međusobno ne poznaju, što dovodi do izgradnje nečega tako svakodnevnog kao što je olovka. Niko ne zna kako da sam napravi olovku. Ipak, milioni ljudi nesvesno učestvuju u stvaranju ove jednostavne olovke, razmenjujući i koordinirajući svoja znanja i veštine unutar sistema cena bez ikakvog nadređenog autoriteta koji diktira njihovo ponašanje. Ova priča pokazuje da slobodni pojedinci koji rade u potrazi za svojim legitimnim interesom deluju više u korist društva nego bilo koja planirana i centralizovana ekonomska strategija.
 
 
-Nobelova nagrada za ekonomiju 1976. godine, Milton Friedman, takođe je ponovo ispričao ovu priču o olovci kako bi objasnio široj javnosti kako funkcioniše tržišna ekonomija.
+Dobitnik Nobelove nagrade za ekonomiju 1976. godine, Milton Friedman, takođe je ponovo ispričao ovu priču o olovci kako bi objasnio široj javnosti kako funkcioniše tržišna ekonomija.
 
 
-U jednoj epizodi svoje televizijske serije Free to Choose, on analizira različite komponente nečega tako svakodnevnog i jednostavnog kao što je olovka i ističe čudo spontanog reda, generisanog hiljadama ekonomskih interakcija širom sveta. Ljudi koji se ne poznaju, koji ne dele istu religiju ili običaje, ipak uspevaju da se usklade kako bi proizveli ovaj predmet. Zaključuje da je slobodno tržište ključno za obezbeđivanje ne samo prosperiteta već i harmonije i mira.
+U jednoj epizodi svoje televizijske serije "Free to Choose", on analizira različite komponente nečega tako svakodnevnog i jednostavnog kao što je olovka i ističe čudo spontanog reda, generisanog hiljadama ekonomskih interakcija širom sveta. Ljudi koji se ne poznaju, koji ne dele istu religiju ili običaje, ipak uspevaju da se usklade kako bi proizveli ovaj predmet. Zaključuje da je slobodno tržište ključno za obezbeđivanje ne samo prosperiteta već i harmonije i mira.
 
 
 ![image](assets/en/098.webp)
 
 
-Friedrich Hayek, u svom eseju "Upotreba znanja u društvu" iz 1945. godine, već je objasnio zašto su tržišna ekonomija i decentralizacija odluka ključne za prosperitet. Prema Hayeku, nijedan centralni planer ili birokrata nikada ne bi mogao imati dovoljno znanja da uspešno usmerava celokupne ekonomske akcije. Samo cenovni sistem u slobodnom tržištu omogućava milionima nezavisnih aktera da sami odluče kako efikasno raspodeliti resurse.
+Friedrich Hayek, u svom eseju "Upotreba znanja u društvu" (The Use of Knowledge in Society) iz 1945. godine, već je objasnio zašto su tržišna ekonomija i decentralizacija odluka ključne za prosperitet. Prema Hayek-u, nijedan centralni planer ili birokrata nikada ne bi mogao imati dovoljno znanja da uspešno usmerava celokupne ekonomske akcije. Samo cenovni sistem u slobodnom tržištu omogućava milionima nezavisnih aktera da sami odluče kako efikasno raspodeliti resurse.
 
 
 ![image](assets/en/099.webp)

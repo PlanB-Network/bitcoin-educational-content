@@ -31,7 +31,7 @@ Vai nel tuo store di applicazioni e installa Phoenix :
 
 ![Image](assets/fr/02.webp)
 
-È anche possibile installare l'applicazione [con il file apk sul loro repository GitHub](https://github.com/ACINQ/phoenix/releases).
+Puoi anche installare l'applicazione [con il file apk sul loro repository GitHub](https://github.com/ACINQ/phoenix/releases).
 
 ![Image](assets/fr/03.webp)
 
@@ -51,11 +51,11 @@ Ecco fatto: il wallet e il nodo Lightning sono stati creati.
 
 ## Salva la frase mnemonica
 
-Prima di iniziare, dobbiamo salvare la nostra frase mnemonica di 12 parole. Questa frase dà accesso completo e illimitato a tutti i tuoi bitcoin. Chiunque sia in possesso di questa frase può rubare i tuoi fondi, anche senza accedere fisicamente al tuo telefono.
+Prima di iniziare, devi salvare la tua frase mnemonica di 12 parole. Questa frase dà accesso completo e illimitato a tutti i tuoi bitcoin. Chiunque sia in possesso di questa frase può rubare i tuoi fondi, anche senza accedere fisicamente al tuo telefono.
 
 La frase di 12 parole ripristina l'accesso ai bitcoin in caso di perdita, furto o rottura del telefono. È quindi molto importante salvarla con cura e conservarla in un luogo sicuro.
 
-Puoi scriverlo su carta o, per maggiore sicurezza, inciderlo su acciaio inossidabile per proteggerlo da incendi, inondazioni o crolli. La scelta del supporto per la tua mnemonica dipenderà dalla tue strategie di sicurezza, ma se utilizzi Phoenix come wallet di spesa contenente importi moderati, la carta dovrebbe essere sufficiente.
+Puoi scriverla su carta o, per maggiore sicurezza, inciderla su acciaio inossidabile per proteggerla da incendi, inondazioni o crolli. La scelta del supporto per la tua mnemonica dipenderà dalla tue strategie di sicurezza, ma se utilizzi Phoenix come wallet di spesa contenente importi moderati, la carta dovrebbe essere sufficiente.
 
 Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemonica, ti consiglio di seguire quest'altro tutorial, soprattutto se sei principiante:
 
@@ -87,7 +87,7 @@ Nel menù "*Display*" puoi scegliere il tema dell'applicazione, la denominazione
 
 ![Image](assets/fr/12.webp)
 
-In "*Payment options*" torvi varie impostazioni avanzate per i pagamenti Lightning. Puoi mantenere le impostazioni predefinite.
+In "*Payment options*" trovi varie impostazioni avanzate per i pagamenti Lightning. Puoi mantenere le impostazioni predefinite.
 
 ![Image](assets/fr/13.webp)
 
@@ -109,13 +109,13 @@ Per migliorare la riservatezza delle tue connessioni, attiva le connessioni via 
 
 ## Ricevi bitcoin on-chain
 
-Al primo utilizzo, hai la possibilità di caricare il vostro wallet Phoenix con i fondi on-chain. Puoi anche effettuare questo primo deposito direttamente da Lightning (vedi sezione successiva), ma in entrambi i casi verranno applicate delle commissioni aggiuntive per l'apertura del primo canale.
+Al primo utilizzo, hai la possibilità di caricare il tuo wallet Phoenix con i fondi on-chain. Puoi anche effettuare questo primo deposito direttamente da Lightning (vedi sezione successiva), ma in entrambi i casi verranno applicate delle commissioni aggiuntive per l'apertura del primo canale.
 
 Fai clic sul pulsante "*Receive*".
 
 ![Image](assets/fr/18.webp)
 
-Fai scorrere il codice QR verso sinistra per scoprire un indirizzo di ricezione di Bitcoin. Invia l'importo che desideri depositare con Phoenix.
+Fai scorrere il codice QR verso sinistra per scoprire un indirizzo di ricezione Bitcoin. Invia l'importo che desideri depositare con Phoenix.
 
 ![Image](assets/fr/19.webp)
 
@@ -163,7 +163,7 @@ Puoi inserire queste informazioni anche manualmente tramite la tastiera nel camp
 
 ![Image](assets/fr/29.webp)
 
-In questo esempio, ho scansionato una invoice per 10.000 sats. Per effettuare il pagamento, basta cliccare su "*Pay*".
+In questo esempio, ho scansionato una invoice di 10.000 sats. Per effettuare il pagamento, basta cliccare su "*Pay*".
 
 ![Image](assets/fr/30.webp)
 

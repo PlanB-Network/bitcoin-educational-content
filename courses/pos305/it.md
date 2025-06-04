@@ -2274,7 +2274,7 @@ Quali sono i tre plugin integrati che vengono forniti standard con BTCPay Server
 
 <chapterId>d0a28514-ffcf-529b-9156-29141f0b060a</chapterId>
 
-### Installazione di BTCPay Server su Ambiente Hostato (LunaNode)
+### Installazione di BTCPay Server su Ambiente Hosted (LunaNode)
 
 Questi passaggi forniranno tutte le informazioni necessarie per iniziare a utilizzare BTCPay Server su LunaNode. Ci sono molte opzioni su come distribuire il software, puoi trovare tutti i dettagli per BTCPay Server su https://docs.btcpayserver.org/Deployment/LunaNode/.
 
@@ -2358,31 +2358,31 @@ Descrivi alcune delle differenze tra eseguire un'istanza di BTCPay Server su un 
 
 Familiarizzerai con Voltage.cloud come provider di hosting, farai i primi passi per usare il tuo BTCPay Server e capirai come procedere con Lightning Network. Dopo aver seguito tutti i passaggi, potrai gestire un negozio online o una piattaforma di crowdfunding che accetta Bitcoin!
 
-Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org.
+Questo è uno dei tanti modi per distribuire BTCPay Server. Leggi la nostra documentazione per maggiori dettagli, https://docs.btcpayserver.org/Deployment/voltagecloud/
 
 ### Distribuzione di BTCPay Server - Voltage.cloud
 
-Prima di tutto, vai sul sito web Voltage.cloud e registrati per un nuovo account. Quando crei un account puoi iscriverti per una prova gratuita di 7 giorni. Clicca su Sign Up in alto a destra o usa l'opzione "Try a free 7 day trial" sulla loro homepage.
+Prima di tutto, vai sul sito web [Voltage.cloud](https://www.voltage.cloud/) e registrati per avere un nuovo account. Quando crei un account puoi iscriverti per una prova gratuita di 7 giorni. Clicca su Sign Up in alto a destra o usa l'opzione "Try a free 7 day trial" sulla loro homepage.
 
 ![immagine](assets/en/117.webp)
 
-Dopo aver creato un account, clicca sul pulsante `NODES` sulla tua dashboard. Una volta selezionati i Nodi e creato un nuovo nodo, ci verranno presentate le possibili offerte di nodi da Voltage. Poiché questa guida tratterà anche Lightning Network, su Voltage, dobbiamo prima scegliere la nostra implementazione di Lightning prima di creare un BTCPay Server. Clicca su Lightning Node.
+Dopo aver creato un account, clicca sul pulsante `NODES` sulla tua dashboard. Una volta selezionati i Nodi e creato un nuovo nodo, ci verranno presentate le possibili offerte di nodi da Voltage. Poiché questa guida tratterà anche Lightning Network, su Voltage, dobbiamo prima scegliere la nostra implementazione di Lightning prima di creare un BTCPay Server, quindi clicca su Lightning Node.
 
 ![immagine](assets/en/118.webp)
 
-Qui dovrai selezionare quale tipo di nodo Lightning desideri. Voltage offre una varietà di opzioni per la configurazione di lightning. Questo è diverso quando si effettua il deploy con, ad esempio, LunaNode. Ai fini di questa guida, un Lite Node sarà sufficiente. Leggi di più sulle differenze su Voltage.cloud.
+Qui dovrai selezionare quale tipo di nodo Lightning desideri. Voltage offre una varietà di opzioni per la configurazione di Lightning. In maniera diversa rispetto a come si effettua la distribuzione con, ad esempio, LunaNode. Ai fini di questa guida, un Lite Node sarà sufficiente. Leggi di più sulle differenze su Voltage.cloud.
 
 ![immagine](assets/en/119.webp)
 
-Dai un Nome al tuo nodo, imposta una password e proteggi questa password. Se questa password viene persa, perderai l'accesso ai tuoi backup e Voltage non può recuperarla. Crea il nodo e Voltage ti mostrerà il progresso. Voltage ha creato il tuo Nodo Lightning. Ora possiamo creare l'istanza di BTCPay Server e accedere direttamente a Lightning Network.
+Dai un Nome al tuo nodo, imposta una password e metti in sicurezza questa password. Se questa password viene persa, perderai l'accesso ai tuoi backup e Voltage non può recuperarla. Crea il nodo e Voltage ti mostrerà il progresso, fino alla creazione del tuo Nodo Lightning. Ora possiamo creare l'istanza di BTCPay Server e accedere direttamente a Lightning Network.
 
-Clicca su Nodi nell'angolo in alto a sinistra del tuo cruscotto. Qui puoi configurare la prossima parte della tua istanza di BTCPay Server. Clicca su "crea nuovo" una volta che sei nella panoramica dei nodi. Ti verrà mostrata una schermata simile a quella precedente. Ora invece di Nodo Lightning, scegliamo BTCPay Server.
+Clicca su Nodi nell'angolo in alto a sinistra della tua dashboard. Qui puoi configurare il prossimo step della tua istanza di BTCPay Server. Clicca su "crea nuovo" una volta che sei nella panoramica dei nodi. Ti verrà mostrata una schermata simile a quella precedente. Ora invece di Nodo Lightning, scegliamo BTCPay Server.
 
-Voltage ti mostra la geolocalizzazione del tuo BTCPay Server, Voltage hosta negli Stati Uniti. Qui vedrai anche il costo dell'hosting del server. Clicca su Crea e dai un nome al tuo BTCPay Server. Abilita Lightning e Voltage ti mostra il nodo Lightning creato nel passaggio precedente. Clicca su Crea e Voltage creerà un'istanza di BTCPay Server.
+Voltage ti mostra la geolocalizzazione del tuo BTCPay Server che si trova nella regione a ovest degli Stati Uniti. Qui vedrai anche il costo dell'hosting del server. Clicca su Crea e dai un nome al tuo BTCPay Server. Abilita Lightning e Voltage ti mostrerà il nodo Lightning creato nel passaggio precedente. Clicca su Crea e Voltage creerà un'istanza di BTCPay Server.
 
 ![immagine](assets/en/120.webp)
 
-Dopo aver cliccato su crea, Voltage ti fornisce nome utente e password predefiniti. Questi sono simili alla password che hai impostato precedentemente in Voltage. Clicca sul pulsante Accedi al Conto per essere reindirizzato al tuo BTCPay Server.
+Dopo aver cliccato su crea, Voltage ti fornisce nome utente e password predefiniti. Questi sono simili alla password che hai impostato precedentemente su Voltage. Clicca sul pulsante Accedi al Conto per essere reindirizzato al tuo BTCPay Server.
 
 Benvenuto nella tua nuova istanza di BTCPay Server. Poiché abbiamo già configurato Lightning nel processo di creazione, ti mostra che Lightning è già abilitato!
 

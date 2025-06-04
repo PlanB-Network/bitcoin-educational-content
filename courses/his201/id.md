@@ -1086,23 +1086,28 @@ Diskusi ini menandai awal mula perdebatan mengenai skalabilitas, yang pada akhir
 
 ### Pola Skrip Standar
 
-Pada bulan September, Satoshi juga memperkenalkan konsep baru dalam kode: yaitu transaksi non-standar. Ini adalah transaksi yang tidak diteruskan oleh node yang dikonfigurasi default, tidak disimpan dalam mempool mereka, dan tidak dimasukkan dalam blok yang mereka produksi. Namun, transaksi ini tetap valid sepenuhnya, dan blok yang mengandungnya diterima oleh seluruh jaringan.
+Pada bulan September, Satoshi Nakamoto juga memperkenalkan konsep baru dalam kode Bitcoin: transaksi non-standar. Ini adalah jenis transaksi yang, secara default, tidak diteruskan oleh node yang dikonfigurasi, tidak disimpan dalam mempool mereka, dan tidak dimasukkan ke dalam blok yang mereka produksi. Meskipun demikian, transaksi ini tetap sepenuhnya valid, dan blok yang mengandungnya diterima oleh seluruh jaringan.
 
-Pembedaan normatif ini membantu untuk membatasi eksploitasi potensi kerentanan dalam sistem skrip Bitcoin, yang cukup kaya dan belum cukup diperiksa, dengan biaya pembatasan sementara pada pemrograman. Pada saat ini, dua jenis skrip output diidentifikasi sebagai standar oleh jaringan:
+Pembedaan normatif ini bertujuan untuk membatasi eksploitasi potensi kerentanan dalam sistem scripting Bitcoin yang cukup kaya dan belum sepenuhnya diperiksa, dengan mengorbankan pembatasan sementara pada kemampuan pemrograman. Pada saat itu, ada dua jenis output script yang diidentifikasi sebagai standar oleh jaringan:
 
-- Penerimaan melalui kunci publik (*pubkey*), digunakan oleh penambang dan untuk transfer melalui alamat IP;
-- Penerimaan melalui sidik jari kunci publik (*pubkey hash*), digunakan untuk transfer melalui alamat Bitcoin.
-Pada tanggal 7 September, dalam versi 0.3.12, Satoshi [menyertakan](https://Bitcointalk.org/index.php?topic=999.msg12240#msg12240) batasan yang mengharuskan transaksi untuk tidak terlalu besar, atau mengandung terlalu banyak operator tanda tangan. Ini, seperti yang dijelaskannya, adalah aplikasi kasar dari pembedaan tersebut. Ini [diformalisasi](https://Bitcointalk.org/index.php?topic=2129.msg27744#msg27744) tiga bulan kemudian oleh Gavin Andresen, yang menambahkan ke kode fungsi `IsStandard`, sebuah fungsi yang memverifikasi sifat standar dari sebuah transaksi. Akses ke pemrograman diperkenalkan kembali pada tahun 2012 melalui integrasi P2SH ke dalam protokol.
+- Penerimaan dengan kunci publik (pubkey), yang digunakan oleh penambang dan untuk transfer melalui alamat IP.
+- Penerimaan melalui fingerprint kunci publik (*pubkey hash*), yang digunakan untuk transfer melalui alamat Bitcoin.
+
+Pada 7 September, dalam versi 0.3.12, Satoshi [menyertakan](https://Bitcointalk.org/index.php?topic=999.msg12240#msg12240) batasan yang mengharuskan transaksi tidak terlalu besar, maupun tidak mengandung terlalu banyak operator tanda tangan. Ini, seperti yang dia jelaskan, adalah aplikasi rudimenter dari pembedaan tersebut. [Formalisasi](https://Bitcointalk.org/index.php?topic=2129.msg27744#msg27744)  ini dilakukan tiga bulan kemudian oleh Gavin Andresen, yang menambahkan fungsi 'IsStandard' ke dalam kode, sebuah fungsi yang memverifikasi sifat standar dari suatu transaksi. Akses ke kemampuan pemrograman kemudian diperkenalkan kembali pada tahun 2012 melalui integrasi P2SH ke dalam protokol.
 
 ### Musim Panas Pengembangan
-Selama musim panas tahun 2010, sebuah periode yang kaya akan peristiwa, Satoshi mendedikasikan dirinya untuk pengembangan perangkat lunak Bitcoin. Publikasi teks pengantar Bitcoin di Slashdot mengakibatkan masuknya pengguna baru yang belum pernah terjadi sebelumnya, yang juga menempatkan sistem tersebut dalam risiko. Akibatnya, pendiri dan mereka yang membantunya (termasuk secara khusus Gavin Andresen) berusaha sebaik mungkin untuk memperbaiki kerentanan. Namun, jaringan tidak luput dari insiden besar, insiden overflow nilai, yang mengakibatkan penciptaan sistem peringatan yang dikelola oleh Satoshi dalam perangkat lunak. Akhirnya, periode ini juga ditandai dengan penambahan batas ukuran blok, sebuah elemen fundamental dalam sejarah Bitcoin.
-Dalam bulan-bulan yang mengikuti, perbaikan teknis, ekonomi, dan penambangan terus muncul, secara bertahap mengubah Bitcoin menjadi proyek kolektif. "Komunitas Bitcoin" akhirnya muncul sebagai entitas otonom. Inilah yang akan kita pelajari dalam bagian selanjutnya dari kursus ini.
+
+Musim panas 2010 adalah periode krusial bagi Bitcoin. Selama waktu yang penuh peristiwa ini, Satoshi Nakamoto mendedikasikan dirinya pada pengembangan perangkat lunak Bitcoin. Publikasi teks pengantar Bitcoin di Slashdot membawa gelombang pengguna baru yang belum pernah terjadi sebelumnya. Meskipun positif, hal ini juga menempatkan sistem dalam risiko. Akibatnya, sang pendiri dan para pembantunya (termasuk secara khusus Gavin Andresen) berusaha sekuat tenaga untuk memperbaiki kerentanan yang ada. Namun, jaringan tidak luput dari insiden besar: insiden value overflow. Peristiwa ini memicu terciptanya sistem peringatan yang dikelola oleh Satoshi di dalam perangkat lunak. Akhirnya, periode ini juga ditandai dengan penambahan batas ukuran blok, sebuah elemen fundamental dalam sejarah Bitcoin yang akan memiliki implikasi besar di masa depan.
+
+Dalam bulan-bulan berikutnya, perbaikan teknis, ekonomi, dan penambangan terus bermunculan. Perbaikan ini secara bertahap mengubah Bitcoin dari proyek individu menjadi proyek kolektif. "Komunitas Bitcoin" akhirnya hidup sebagai entitas otonom. Inilah yang akan kita pelajari di bagian selanjutnya dari kursus ini.
 
 # Komunitas Bitcoin
 <partId>811e7c15-497a-46df-b67b-27eefbc73a63</partId>
 
 ## Demam Emas Digital
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
+
+???
 
 Dalam bagian sebelumnya, kita telah mempelajari efek dari publikasi presentasi Bitcoin di Slashdot (slashdotting) dan bagaimana masalah teknis awal dikelola oleh Satoshi dan para pembantunya. Pada akhir musim panas, proyek tersebut telah melewati badai dan siap menyambut jumlah orang yang semakin meningkat. Musim gugur tahun 2010 menandai periode kesuksesan bagi Bitcoin.
 Periode ini secara khusus merupakan era emas untuk penambangan, yang melihat peningkatan signifikan dengan munculnya pertanian GPU pertama dan koperasi pertama. Sumber daya yang dikerahkan meningkat, dan kinerja algoritma khusus meningkat. Ini agaknya sebuah "demam emas digital," seperti yang ditulis oleh seorang blogger saat itu (menggunakan pseudonim jimbobway), mencatat bahwa "ribuan pengguna internet" menambang Bitcoin "dengan harapan keberuntungan" dan bahwa banyak dari mereka berusaha "mengembangkan perangkat lunak dan perangkat keras untuk menambang Bitcoin lebih efisien" dengan harapan menjadi sangat kaya. (*asli: "Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for Bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for Bitcoins more efficiently in hopes of becoming filthy rich."*)

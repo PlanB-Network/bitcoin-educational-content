@@ -1459,7 +1459,7 @@ Međutim, prema Bastiat-u, postoji alternativa obaveznoj državnoj solidarnosti:
 ![image](assets/en/117.webp)
 
 
-U pamfletu pod nazivom "Pravda i Bratstvo", Bastiat takođe istražuje ideju pojednostavljenog i pravednog poreskog sistema za finansiranje kolektivnih potreba (policija, pravda, vojska): prihodi i profiti bi bili podložni jedinstvenoj i proporcionalnoj poreskoj stopi. Ovo je danas poznato kao "Ravni Porez".
+U pamfletu pod nazivom "Pravda i Bratstvo" (Justice and Fraternity), Bastiat takođe istražuje ideju pojednostavljenog i pravednog poreskog sistema za finansiranje kolektivnih potreba (policija, pravosuđe, vojska): prihodi i profiti bi bili podložni jedinstvenoj i proporcionalnoj poreskoj stopi. Ovo je danas poznato kao "Ravni Porez" (Flat Tax).
 
 
 ![image](assets/en/118.webp)
@@ -1483,7 +1483,7 @@ Zaista, solidarnost unutar porodice, lokalna solidarnost ili organizovana filant
 ![image](assets/en/119.webp)
 
 
-U stvarnosti, slobodno građansko društvo ne počiva na sebičnosti: tržišna ekonomija funkcioniše na osnovu služenja bližnjem i reciprociteta. Čovek može služiti sopstvenom interesu samo služeći interesu drugog, nudeći drugome protivuslugu koja vodi ka obostrano korisnom Exchange. Drugim rečima, dobrovoljni Exchange je taj koji stvara pravu solidarnost.
+U stvarnosti, slobodno građansko društvo ne počiva na sebičnosti: tržišna ekonomija funkcioniše na osnovu služenja bližnjem i reciprociteta. Čovek može služiti sopstvenom interesu samo služeći interesu drugog, nudeći drugome protivvrednost koja vodi ka obostrano korisnoj razmeni. Drugim rečima, dobrovoljna razmena stvara pravu solidarnost.
 
 
 Prinudna preraspodela nema nikakve veze sa autentičnom ljudskom solidarnošću, koja je privatne ili dobrovoljne prirode i koja se vidi unutar porodica, ili između članova udruženja.
@@ -1506,7 +1506,7 @@ Zakon može primorati čoveka da bude pravedan, ali ga ne može naterati da bude
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
 
-Pod imovinom, ovde ne treba razumeti zemlju. To znači "pravo radnika na vrednost koju je stvorio svojim radom." Bastiat precizira:
+Pod imovinom, ovde ne treba svrstati zemlju. To znači "pravo radnika na vrednost koju je stvorio svojim radom." Bastiat precizira:
 
 
 > Smatram da pravo na imovinu podrazumeva slobodu da se prvo raspolaže sopstvenom osobom, zatim svojim radom, i na kraju, proizvodima svog rada - što dokazuje, štaviše, da se, iz određenog ugla gledano, sloboda i pravo na imovinu ne mogu razlikovati jedno od drugog.
@@ -1516,7 +1516,7 @@ Nakon što je utvrdio ovu tačku, da bi razumeo moralni temelj svojine, Bastiat 
 
 > Ličnost, Sloboda, Svojina, — to je čovek. O ovim trima stvarima se može reći, bez ikakve demagoške suptilnosti, da su one pre bilo kakvog ljudskog zakonodavstva i iznad njega.
 
-Razumeno u ovom smislu, pravo na vlasništvo je među onim pravima koja ne proizlaze iz pozitivnog prava, već mu prethode i predstavljaju njegov raison d'être. Zaista,
+Shvaćeno u ovom smislu, pravo na vlasništvo je među onim pravima koja ne proizlaze iz pozitivnog prava, već mu prethode i predstavljaju njegov raison d'être. Zaista,
 
 
 > Zakon je kolektivna organizacija individualnog prava na legitimnu odbranu.
@@ -1533,15 +1533,15 @@ _(François Quesnay, vođa fiziokrata)_
 Dakle, pravo nije isto što i zakon. Pravo se ne poistovećuje sa rečju suverena, niti zavisi isključivo od njegove legitimnosti. To je proizvod tradicije, pravnog poretka koji je prethodio zakonu i koji je iznad zakona, a koji se nameće zakonodavcu isto koliko i bilo kojem običnom građaninu.
 
 
-Pravo "nije stvoreno". Nije izmišljeno iz idealne vizije o tome kakvi bi zakoni društva trebali biti; ono je otkriveno u prirodi čoveka i u pravilima uljudnosti, preneto mudrošću običaja.
+Pravo "nije stvoreno". Nije izmišljeno iz idealne vizije o tome kakvi bi zakoni društva trebali biti; ono je otkriveno u prirodi čoveka i u pravilima civilizovanosti, preneto mudrošću običaja.
 
-Pojedinci imaju prirodna prava koja prethode zakonu: Vlasništvo, Sloboda, Ličnost. Uloga Zakona treba da bude očuvanje ovih prirodnih prava pojedinca. Shodno tome, Država mora biti ograničena. Danas bismo rekli da je Bastija zagovornik minimalne države.
+Pojedinci imaju prirodna prava koja prethode zakonu: Vlasništvo, Sloboda, Ličnost. Uloga Zakona treba da bude očuvanje ovih prirodnih prava pojedinca. Shodno tome, država mora biti ograničena. Danas bismo rekli da je Bastiat zagovornik minimalne države.
 
 
 ![image](assets/en/121.webp)
 
 
-U Rusoovom sistemu, koji smo diskutovali na prethodnom kursu, misija zakonodavca je da organizuje, modifikuje, čak i ukine vlasništvo ako se to smatra prikladnim. Za Rusoa, vlasništvo nije prirodno već konvencionalno, baš kao i društvo samo. Ova ideja potiče iz rimskog prava, sa kojim je Ruso bio duboko upoznat.
+U Rousseau-ovom sistemu, o kom smo govorili na prethodnom kursu, misija zakonodavca je da organizuje, modifikuje, čak i ukine vlasništvo ako se to smatra prikladnim. Za Rousseau-a, vlasništvo nije prirodno već konvencionalno, baš kao i društvo samo. Ova ideja potiče iz rimskog prava, sa kojim je Rousseau bio duboko upoznat.
 
 
 ![image](assets/en/122.webp)
@@ -1550,7 +1550,7 @@ U Rusoovom sistemu, koji smo diskutovali na prethodnom kursu, misija zakonodavca
 Robespierre, zauzvrat, postavlja princip da je "Svojina pravo svakog građanina da uživa i raspolaže delom dobara koja su mu zagarantovana zakonom."
 
 
-Za Rusoa, vlasništvo nije pre zakona; to je samo konvencija uspostavljena opštom voljom i unutar granica koje ona određuje. Kao rezultat toga, ne postoji sloboda ili pravo nezavisno od društva i dobre volje zakonodavaca. Ali ako se pravo na vlasništvo razdvoji, lako opravdava lažna prava, koja se stiču samo kršenjem prava drugih.
+Za Rousseau-a, vlasništvo nije pre zakona; to je samo konvencija uspostavljena opštom voljom i unutar granica koje ona određuje. Kao rezultat toga, ne postoji sloboda ili pravo nezavisno od društva i dobre volje zakonodavaca. Ali ako se pravo na vlasništvo razdvoji, lako opravdava lažna prava, koja se stiču samo kršenjem prava drugih.
 
 
 Na primer: pravo na rad ili pravo na stanovanje.
@@ -1562,15 +1562,15 @@ Na primer: pravo na rad ili pravo na stanovanje.
 Da bih ja nešto dobio besplatno, neko mora platiti u moje ime. A ako plaća država, pošto ona ne proizvodi bogatstvo, to može učiniti samo tako što će nekome uzeti dom, ili njegov ekvivalent, da bi ga dala meni.
 
 
-Ova ideja da je pravo na imovinu tvorevina zakona, prema Bastijatu, vodi ka otvaranju neograničenog polja za utopiste koji žele da oblikuju društvo prema svojim planovima.
+Ova ideja da je pravo na imovinu tvorevina zakona, prema Bastiat-u, vodi ka otvaranju neograničenog polja za utopiste koji žele da oblikuju društvo prema svojim planovima.
 
 
-U sistemu prirodne slobode, postoji prirodni zakon, nezavisan od hirova zakonodavaca. On je važeći za sve ljude i prethodi bilo kojem društvu. Dužnost vlade je da osigura prirodna prava svakog pojedinca. Pravedno društvo je ono u kojem su prava vlasništva u potpunosti poštovana, što znači zaštićena od bilo kakvog uplitanja drugih.
+U sistemu prirodne slobode, postoji prirodni zakon, nezavisan od hirova zakonodavaca. On važi za sve ljude i prethodi bilo kojem društvu. Dužnost vlade je da osigura prirodna prava svakog pojedinca. Pravedno društvo je ono u kojem su prava vlasništva u potpunosti poštovana, što znači zaštićena od bilo kakvog uplitanja drugih.
 
 
 ![image](assets/en/120.webp)
 
-Ovde se Bastija svrstava uz nasleđe fiziokrata, a dalje od toga, uz tradiciju filozofije prava Cicerona i Aristotela. Zakon ne stvara prava. Njegova misija je da ih brani i tako brani imovinu, kako imovinu samog sebe, integritet osobe, tako i imovinu plodova nečijeg rada.
+Ovde se Bastiat svrstava uz nasleđe fiziokrata, a šire gledano, sa tradicijom filozofije prava Cicerona i Aristotela. Zakon ne stvara prava. Njegova misija je da ih brani i tako brani imovinu, kako imovinu samog sebe, integritet osobe, tako i imovinu plodova nečijeg rada.
 
 
 ![image](assets/en/124.webp)
@@ -1578,13 +1578,13 @@ Ovde se Bastija svrstava uz nasleđe fiziokrata, a dalje od toga, uz tradiciju f
 _(Cicero)_
 
 
-## Pravno pljačkanje: Izopačenje zakona
+## Pravno pljačkanje: Izopačenost zakona
 
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
 
-Glavna ideja Bastijata u "Zakonu", njegovom poznatom pamfletu iz 1850. godine, jeste da pokaže zašto i kako je zakon postao pljačkaški, to jest, izvor privilegija, situacionih renti i fiskalne proizvoljnosti.
+Glavna ideja Bastiat-a u "Zakonu" (The Law), njegovom poznatom pamfletu iz 1850. godine, jeste da pokaže zašto i kako je zakon postao sredstvo pljačke, to jest, izvor privilegija, situacionih renti i fiskalne proizvoljnosti.
 
 
 ![image](assets/en/125.webp)
@@ -1599,8 +1599,8 @@ Bastiat počinje postavljanjem prirodnih antropoloških temelja zakona: život, 
 Institucionalni sistem prirodne slobode je onaj za koji društvo, pojedinci i svojine postoje pre zakona. U ovom sistemu, Bastiat dodaje:
 
 
-> Nije zato što postoje zakoni da postoje svojstva, već zato što postoje svojstva da postoje zakoni.
-> Svojina i zakon
+> Nije zato što postoje zakoni da postoji imovina, već zato što postoji imovina da postoje zakoni.
+> Imovina i zakon
 
 ![image](assets/en/126.webp)
 
@@ -1608,7 +1608,7 @@ Institucionalni sistem prirodne slobode je onaj za koji društvo, pojedinci i sv
 Svaki čovek ima pravo da brani svoj život i da koristi svoje sposobnosti. A zakon je kolektivna organizacija ove legitimne odbrane. Zakon brani pravdu. Ne pozitivnu pravdu koja bi organizovala bratstvo i solidarnost, već negativnu pravdu koja se ograničava na sprečavanje da prava jedne osobe uzurpiraju prava druge.
 
 
-Međutim, kada zakon prestane da bude negativan i postane pozitivan, osećaj nejednakosti u društvu se povećava i stvara sukobe. Ako neograničeno proširimo domen Zakona, odnosno odgovornost vlade, otvaramo vrata za "beskrajni niz pritužbi, mržnji, nemira i pobuna," piše on.
+Međutim, kada zakon prestane da bude negativan i postane pozitivan, osećaj nejednakosti u društvu se povećava i stvara sukobe. Ako neograničeno proširimo domen Zakona, odnosno odgovornost Vlade, otvaramo vrata za "beskrajni niz pritužbi, mržnji, nemira i pobuna," piše on.
 
 
 Lažna filantropija, kaže Bastiat, jedan je od glavnih uzroka izopačenja zakona. Neki ljudi sebe smatraju iznad ostatka čovečanstva i sposobnim da donose bolje odluke od drugih.
@@ -1619,7 +1619,7 @@ Lažna filantropija, kaže Bastiat, jedan je od glavnih uzroka izopačenja zakon
 Oni bolje znaju šta je dobro za druge i nametnuće svoju predstavu o dobru svima; to su filantropi. Oni su stvorili lažna prava koja se danas nazivaju socijalnim pravima. Socijalna prava nisu ništa drugo do prava nad radom drugih, prava da se raspolaže tuđom imovinom, plodom tuđeg rada: pravo na stanovanje, pravo na zdravlje, na obrazovanje, na rad, na minimalnu zaradu, itd.
 
 
-Šta je pljačka? To je tačno suprotno od svojine, kaže nam Bastiat. Pljačkati dolazi od latinskog _spoliare_, što znači ogoliti. Videli smo da čovek može živeti samo prisvajanjem stvari, primenom svojih sposobnosti na stvari, to jest, radom. Nažalost, on takođe može prisvojiti proizvod sposobnosti svog bližnjeg, to jest, da ga opljačka.
+Šta je pljačka? To je tačno suprotno od svojine, kaže nam Bastiat. Pljačkati dolazi od latinskog _spoliare_, što znači ogoliti. Videli smo da čovek može živeti samo prisvajanjem stvari, primenom svojih sposobnosti na stvari, to jest, radom. Nažalost, on takođe može prisvojiti proizvod sposobnosti svog bližnjeg, to jest, opljačkati ga.
 
 
 ![image](assets/en/128.webp)
@@ -1628,25 +1628,25 @@ Oni bolje znaju šta je dobro za druge i nametnuće svoju predstavu o dobru svim
 Cela misija zakona je da spreči ovu vanzakonsku pljačku, to jest, da brani imovinu i slobodu, dve nerazdvojive stvari.
 
 
-Čim se u principu prizna da zakon može biti skrenut sa svoje prave misije, da može kršiti svojine umesto da ih garantuje, nužno sledi klasna borba, bilo da se brani od pljačke ili da se ona organizuje i u svoju korist.
+Čim se u principu prizna da zakon može biti skrenut sa svoje prave misije, da može kršiti pravo svojine umesto da ga garantuje, nužno sledi klasna borba, bilo da se brani od pljačke ili da se ona organizuje i u svoju korist.
 
 
 ![image](assets/en/129.webp)
 
 
-Umesto da brani prirodna prava, zakon se transformiše u zaštitu korporativnih i kategorijalnih interesa. Pljačka je organizovana zakonom, u korist klasa koje ga donose i njihovih prijatelja ili klijenata. Bastija tako anticipira školu javnog izbora u 20. veku za koju je zakon rezultat "političkog tržišta" putem kojeg grupe pojedinaca nastoje da zadovolje svoje interese na račun drugih.
+Umesto da brani prirodna prava, zakon se transformiše u zaštitu korporativnih i kategorijalnih interesa. Pljačka je organizovana zakonom, u korist klasa koje ga donose i njihovih prijatelja ili klijenata. Bastiat tako predviđa školu javnog izbora u 20. veku za koju je zakon rezultat "političkog tržišta" putem kojeg grupe pojedinaca nastoje da zadovolje svoje interese na račun drugih.
 
 
 ![image](assets/en/130.webp)
 
 
-Za njega, svrha Zakona mora jednostavno biti da "okonča sve pljačke." Ako se Država ne meša u privatni život, pojedinci su efikasno vlasnici i odgovorni za svoje živote. Oni sami stvaraju svoju sreću. Snose dobre ili loše posledice svojih dela.
+Za njega, svrha Zakona mora jednostavno biti da "okonča sve pljačke." Ako se država ne meša u privatni život, pojedinci su efektivni vlasnici i odgovorni za svoje živote. Oni sami stvaraju svoju sreću. Snose dobre ili loše posledice svojih dela.
 
 
 Oni su sigurni da su njihova prirodna prava zagarantovana i nedodirljiva. Sigurna imovinska prava daju ljudima mogućnost da prave dugoročne planove jer znaju da je njihova imovina sigurna od pljačke.
 
 
-> Odsustvo pljačke, — to je princip pravde, mira, reda, stabilnosti, pomirenja, zdravog razuma koji ću proklamovati svom snagom, avaj! nedovoljnom, svojih pluća, do poslednjeg daha.
+> Odsustvo pljačke, — to je princip pravde, mira, reda, stabilnosti, pomirenja, zdravog razuma koji ću proklamovati svom snagom, nažalost! nedovoljnom, svojih pluća, do poslednjeg daha.
 
 Bastiat je napisao gornju rečenicu u Zakonu, neko vreme pre nego što je umro.
 
@@ -1654,7 +1654,7 @@ Bastiat je napisao gornju rečenicu u Zakonu, neko vreme pre nego što je umro.
 ![image](assets/en/131.webp)
 
 
-Vek nakon smrti Frédérica Bastiata, pravno pljačkanje je jasno evidentno u Univerzalnoj deklaraciji o ljudskim pravima iz 1948. godine, posebno u njenim članovima 22 ("svako ima pravo na socijalno osiguranje"), 23 ("svako ima pravo na rad"), 24 ("svako ima pravo na odmor i slobodno vreme"), 25 ("svako ima pravo na životni standard adekvatan za zdravlje i blagostanje"), 26 ("svako ima pravo na obrazovanje").
+Vek nakon smrti Frédéric-a Bastiat-a, pravno pljačkanje je jasno vidljivo u Univerzalnoj deklaraciji o ljudskim pravima iz 1948. godine, posebno u njenim članovima 22 ("svako ima pravo na socijalnu sigurnost"), 23 ("svako ima pravo na rad"), 24 ("svako ima pravo na odmor i slobodno vreme"), 25 ("svako ima pravo na životni standard adekvatan za zdravlje i blagostanje"), 26 ("svako ima pravo na obrazovanje").
 
 
 ## Uloga prava i države
@@ -1663,10 +1663,10 @@ Vek nakon smrti Frédérica Bastiata, pravno pljačkanje je jasno evidentno u Un
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
 
-Godine 1848, Bastija je bio poslanik. Imenovan je za potpredsednika finansijske komisije. Bio je, dakle, posebno dobro pozicioniran da odgovori na ovo pitanje: šta je država? Obraćamo se državi kako bismo osigurali svoju dobrobit. Ali Bastija nas podseća da država ne može dati građanima ništa što im prethodno nije uzela.
+Godine 1848., Bastiat je bio poslanik. Imenovan je za potpredsednika finansijske komisije. Bio je, dakle, posebno dobro pozicioniran da odgovori na ovo pitanje: šta je država? Obraćamo se državi kako bismo osigurali svoju dobrobit. Ali Bastiat nas podseća da država ne može dati građanima ništa što im prethodno nije uzela.
 
 
-Bastiat počinje preokretanjem opšteprihvaćene jednačine: država je ta koja održava naciju. Međutim, država ne može održavati građane jer ne proizvodi bogatstvo; ona ga samo premešta, preraspodeljuje. Naprotiv, građani su ti koji održavaju državu kroz stvaranje bogatstva.
+Bastiat počinje preokretanjem opšteprihvaćene jednačine: država je ta koja održava naciju. Međutim, država ne može održavati građane, jer ne proizvodi bogatstvo; ona ga samo premešta, preraspodeljuje. Naprotiv, građani su ti koji održavaju državu kroz stvaranje bogatstva.
 
 
 ![image](assets/en/132.webp)
@@ -1678,25 +1678,25 @@ Bastiat počinje preokretanjem opšteprihvaćene jednačine: država je ta koja 
 ![image](assets/en/133.webp)
 
 
-A pošto je delovanje države isključivo redistributivno, podložno je pritisku grupa sa posebnim interesima. Zaista, određene grupe sa posebnim interesima su shvatile da je lakše zarađivati novac kroz političko angažovanje nego kroz produktivna ponašanja. One nastoje da ukradu novac drugih pod okriljem države, potkopavajući proizvodne kapacitete tržišta kroz umnožavanje zakona, poreza i birokratskih ograničenja.
+A pošto je delovanje države isključivo redistributivno, podložno je pritisku grupa sa posebnim interesima. Zaista, određene interesne grupe su shvatile da je lakše zarađivati novac kroz političko angažovanje nego kroz produktivno ponašanje. One nastoje da ukradu novac drugih pod okriljem države, potkopavajući proizvodne kapacitete tržišta kroz umnožavanje zakona, poreza i birokratskih ograničenja.
 
 
 ![image](assets/en/134.webp)
 
 
-Drugim rečima, država sledi samo klijentelističke ciljeve, a pojam opšteg interesa je lišen značenja. Svaka dobit koju neki ostvare ide na štetu drugih: to nije igra sa nultim zbirom, već igra sa negativnim zbirom.
+Drugim rečima, država sledi samo klijentelističke ciljeve, a pojam opšteg interesa je lišen značenja. Svaka dobit koju neki ostvare ide na štetu drugih: to nije igra sa nultim rezultatom, već igra sa negativnim rezultatom.
 
-Bastiat tako anticipira, vek unapred, analize funkcionisanja političkog tržišta koje će se pojaviti krajem 1950-ih sa takozvanom školom Javnog izbora Džejmsa Bjukena, dobitnika Nobelove nagrade za ekonomiju, i njegovog kolege Gordona Taloka.
+Bastiat tako anticipira, vek unapred, analize funkcionisanja političkog tržišta koje će se pojaviti krajem 1950-ih sa takozvanom školom Javnog izbora Džejmsa Bjukena, dobitnika Nobelove nagrade za ekonomiju, i njegovog kolege Gordon-a Tullock-a.
 
 ![image](assets/en/135.webp)
 
 ![image](assets/en/136.webp)
 
 
-Štaviše, Bastiat tvrdi, država nema prava koja prethodno ne postoje u pojedincu. Zašto država ima pravo da garantuje, čak i silom, imovinu svakog pojedinca? Jednostavno zato što ovo pravo prethodno postoji u pojedincu. Ne može se pojedincima uskratiti pravo na samoodbranu, pravo na upotrebu sile ako je potrebno da odbiju napade na njihove osobe, njihove sposobnosti i njihovu imovinu. Ovo prirodno pravo na samoodbranu, koje postoji u svim građanima, može poprimiti kolektivni oblik i legitimizovati zajedničku silu.
+Štaviše, Bastiat tvrdi, država nema prava koja prethodno ne postoje u pojedincu. Zašto država ima pravo da garantuje, čak i silom, imovinu svakog pojedinca? Jednostavno zato što ovo pravo prethodno postoji u pojedincu. Ne može se pojedincima uskratiti pravo na samoodbranu, pravo na upotrebu sile ako je potrebno da odbiju napade na svoje osobe, svoje sposobnosti i svoju imovinu. Ovo prirodno pravo na samoodbranu, koje postoji u svim građanima, može poprimiti kolektivni oblik i legitimizovati zajedničku silu.
 
 
-Dakle, da bi se znalo da li je država legitimno obdarena pravom, treba pitati da li to pravo pripada pojedincu na osnovu njihove organizacije i u odsustvu bilo kakve vlade.
+Dakle, da bi se znalo da li je država legitimno  ovlašćena za neko pravo, treba pitati da li to pravo pripada pojedincu na osnovu njihove organizacije i u odsustvu bilo kakve vlade.
 
 
 Zato država ni u kom slučaju ne može narušiti prirodna prava; naprotiv, mora ih garantovati.
@@ -1705,16 +1705,16 @@ Zato država ni u kom slučaju ne može narušiti prirodna prava; naprotiv, mora
 ![image](assets/en/137.webp)
 
 
-Osigurava bezbednost, kako unutrašnju tako i spoljašnju, i pravdu. Može biti snažan i efikasan u svojoj oblasti. Ali zakon ne može izaći iz ove veoma stroge uloge jer tada postaje instrument pljačke od nekih za korist drugih. Kada je zakon izopačen, deluje kao instrument nepravde. Izopačenje zakona uvek vodi ka pljački, kao što smo videli u prethodnom kursu. To je trenutno, automatsko, neizbežno i sigurno. Izvođenje zakona izvan njegove oblasti može samo narušiti prirodna prava. Građansko društvo je tada lišeno svoje moći (prirodne institucije, ugovori, razmene, udruženja) u korist državnog upravljanja, to jest, tehnokratskog i birokratskog.
+Ona osigurava bezbednost, kako unutrašnju tako i spoljašnju, i pravdu. Može biti jaka i efikasna u svojoj oblasti. Ali zakon ne može izaći iz ove veoma stroge uloge jer tada postaje instrument pljačke nekih u korist drugih. Kada je zakon izopačen, deluje kao instrument nepravde. Izopačenje zakona uvek vodi ka pljački, kao što smo videli u prethodnom kursu. To je trenutno, automatsko, neizbežno i sigurno. Izvođenje zakona izvan njegove oblasti može samo narušiti prirodna prava. Građansko društvo je tada lišeno svoje moći (prirodne institucije, ugovori, razmene, udruženja) u korist državnog upravljanja, to jest, tehnokratskog i birokratskog.
 
 
 ![image](assets/en/107.webp)
 
 
-Kao rezultat toga, jedine legitimne javne službe države prema Bastijatu su tri: vojska, policija i pravosuđe. Drugim rečima, država mora osigurati unutrašnju i spoljašnju zaštitu pojedinaca, njihovu slobodu i njihovu imovinu. Stoga je normalno da svi doprinesu ovoj zaštiti. Međutim, izvan ovih legitimnih funkcija, svaki drugi doprinos drugoj usluzi koju pruža država podložan je preispitivanju. Izvan ovog kruga, Bastijat piše:
+Kao rezultat toga, jedine legitimne javne službe države prema Bastiat-u su tri: vojska, policija i pravosuđe. Drugim rečima, država mora osigurati unutrašnju i spoljašnju zaštitu pojedinaca, njihovu slobodu i njihovu imovinu. Stoga je normalno da svi doprinesu ovoj zaštiti. Međutim, izvan ovih legitimnih funkcija, svaki drugi doprinos nekoj drugoj usluzi koju pruža država podložan je preispitivanju. Izvan ovog kruga, Bastiat piše:
 
 
-> Religija, obrazovanje, udruživanje, rad, razmene, sve pripada domenu privatne aktivnosti, pod okom javne vlasti, koja bi trebalo da ima samo misiju nadzora i represije.
+> Religija, obrazovanje, udruživanje, rad, razmene, sve pripada domenu privatne aktivnosti, pod nadzorom javne vlasti, koja bi trebalo da ima samo misiju nadzora i represije.
 
 Što se tiče javnih usluga, on navodi jednostavan princip:
 
@@ -1726,35 +1726,35 @@ Ukratko, kada vlada prekorači svoju misiju odbrane ljudi i imovine, podstiče i
 
 > Država je velika fikcija kroz koju svako nastoji da živi na račun svih ostalih.
 
-Napisao Frédéric Bastiat u kratkom pamfletu pod nazivom Država.
+Napisao Frédéric Bastiat u kratkom pamfletu pod nazivom "Država".
 
 
 ![image](assets/en/138.webp)
 
 
-## Legat Frédérica Bastiata
+## Nasleđe Frédérica Bastiata
 
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
 
-Uticaj Bastijata počeo je da opada krajem 19. veka, sa porastom socijalizma i posebno marksizma unutar univerziteta i istraživačkih instituta, finansiranih javnim novcem.
+Uticaj Bastiat-a počeo je da opada krajem 19. veka, sa porastom socijalizma i posebno marksizma unutar univerziteta i istraživačkih instituta, finansiranih javnim novcem.
 
 
-Sa 20. vekom, znanje i popularnost Bastijata su nestali. Više se nije pominjao u udžbenicima ekonomije. Tek krajem Drugog svetskog rata ponovo će se javiti interesovanje za ideje slobode, koje su očigledno bile zaboravljene sa Ruzveltom i totalitarnim režimima u Evropi. Jedan od arhitekata ovog preporoda bio je austrijski ekonomista Ludvig fon Mizes, jedan od mnogih evropskih intelektualaca koji su pobegli iz Evrope preko Španije i Portugala kako bi stigli u Ameriku.
+Sa 20. vekom, znanje i popularnost Bastiat-a su nestali. Više se nije pominjao u udžbenicima ekonomije. Tek krajem Drugog svetskog rata ponovo će se javiti interesovanje za ideje slobode, koje su očigledno bile zaboravljene sa Roosevelt-om i totalitarnim režimima u Evropi. Jedan od arhitekata ovog preporoda bio je austrijski ekonomista Ludwig von Mises, jedan od mnogih evropskih intelektualaca koji su pobegli iz Evrope preko Španije i Portugala kako bi stigli u Ameriku.
 
 
-Nastanjen u Njujorku 1943. godine, Mises je organizovao seminare koji su privukli izuzetne umove: Džordža Stiglera, Miltona Fridmana, oba buduća dobitnika Nobelove nagrade, i Mareja Rotbarda, tada studenta na Kolumbiji. Tokom ovih seminara, prvi put je govorio o Bastijatu kao jednom od glavnih referenci klasičnog liberalizma. Predstavio je svojim slušaocima Bastijatove pamflete, Zakon i Država, koji još nisu bili prevedeni na engleski. Godine 1953, jedan od učesnika seminara, Leonard Rid, preveo bi Bastijatov "Zakon" na engleski i preuzeo zadatak distribucije knjige širom zemlje preko svoje fondacije: Fondacija za ekonomsko obrazovanje.
+Nastanjen u Njujorku 1943. godine, Mises je organizovao seminare koji su privukli izuzetne umove: George Stigler-a, Milton Friedman-a, oba buduća dobitnika Nobelove nagrade, i Murray Rothbard-a, tada studenta na Kolumbiji. Tokom ovih seminara, prvi put je govorio o Bastiat-u kao jednom od glavnih referenci klasičnog liberalizma. Predstavio je svojim slušaocima Bastiat-ove pamflete, Zakon i Država (The Law, and The State), koji još nisu bili prevedeni na engleski. Godine 1953., jedan od učesnika seminara, Leonard Read, preveo bi Bastiat-ov "Zakon" (The Law) na engleski i preuzeo zadatak distribucije knjige širom zemlje preko svoje fondacije: Fondacija za ekonomsko obrazovanje.
 
 
 ![image](assets/en/139.webp)
 
-Ali onaj koji bi takođe popularizovao teze Frédérica Bastiata bio je ekonomski kolumnista za New York Times, Henry Hazlitt, u maloj knjizi pod nazivom: "Ekonomija u jednoj lekciji," objavljenoj 1946. godine. Izričito se oslanjajući na Bastiatove ideje, on ima za cilj da pokaže da je problem sa statističkim ekonomskim rešenjima njihova nesposobnost da uzmu u obzir njihove katastrofalne dugoročne posledice.
+Ali onaj koji bi takođe popularizovao teze Frédéric-a Bastiat-a bio je ekonomski kolumnista za New York Times, Henry Hazlitt, u maloj knjizi pod nazivom: "Ekonomija u jednoj lekciji" (Economics in One Lesson), objavljenoj 1946. godine. Izričito se oslanjajući na Bastiat-ove ideje, on ima za cilj da pokaže da je problem sa državnim ekonomskim rešenjima njihova nesposobnost da uzmu u obzir njihove katastrofalne dugoročne posledice.
 
 ![image](assets/en/140.webp)
 
 
-Hazlitt započinje svoju knjigu prepričavanjem Bastiatove priče o razbijenom prozoru. On rezimira priču u jednostavnu i jedinstvenu lekciju:
+Hazlitt započinje svoju knjigu prepričavanjem Bastiat-ove priče o razbijenom prozoru. On rezimira priču u jednostavnu i jedinstvenu lekciju:
 
 
 > Umetnost ekonomije sastoji se u tome da se ne gleda samo na neposredne, već i na dugoročne efekte bilo kojeg čina ili politike; sastoji se u praćenju posledica te politike ne samo za jednu grupu, već za sve grupe.
@@ -1762,7 +1762,7 @@ Hazlitt započinje svoju knjigu prepričavanjem Bastiatove priče o razbijenom p
 Hazlitt zatim primenjuje ovu lekciju na širok spektar ekonomskih problema: kontrolu rente, zakone o minimalnoj zaradi, pretpostavljene koristi rata, javne radove i budžetski deficit, monetarnu inflaciju, tarife i na kraju štednju.
 
 
-Bastiat je bio jedan od omiljenih ekonomista Ronalda Reagana, mnogo pre nego što je izabran za predsednika. Manje je poznato, ali Reagan je osam godina radio za kompaniju General Electric kao voditelj njene televizijske emisije na CBS-u i kao odgovoran za obuku osoblja kompanije. Njegov program obuke bio je zasnovan na uvodnim tekstovima o tržišnoj ekonomiji. Odabrana dela bila su ona dvojice Austrijanaca, Hayeka i Misesa, dvojice Engleza, Cobdena i Brighta, i jednog Francuza, Frédérica Bastiata.
+Bastiat je bio jedan od omiljenih ekonomista Ronald-a Reagan-a, mnogo pre nego što je izabran za predsednika. Manje je poznato, ali Reagan je osam godina radio za kompaniju General Electric kao voditelj njene televizijske emisije na CBS-u i kao odgovoran za obuku osoblja kompanije. Njegov program obuke bio je zasnovan na uvodnim tekstovima o tržišnoj ekonomiji. Odabrana dela bila su ona dvojice Austrijanaca, Hayek-a i Mises-a, dvojice Engleza, Cobden-a i Bright-a, i jednog Francuza, Frédéric-a Bastiat-a.
 
 
 Lekcija koju je Reagan naučio svoje zaposlene, prateći Bastijata, jeste da ne postoji veći mit od onog o stimulisanju rasta i zapošljavanja putem javne potrošnje.
@@ -1770,7 +1770,7 @@ Lekcija koju je Reagan naučio svoje zaposlene, prateći Bastijata, jeste da ne 
 ![image](assets/en/141.webp)
 
 
-Posebno je Džon Majnard Kejnz sugerisao da javna potrošnja povećava proizvodnju zahvaljujući multiplikatoru: ako vlada izgradi most, radnici tog mosta će moći da kupe hleb, zatim pekar može da kupi cipele, i tako dalje. Ako je privatna industrija u padu, to se može rešiti velikim radovima. Ako postoji nezaposlenost, država može stvoriti javne poslove.
+Posebno je John Maynard KeyneS sugerisao da javna potrošnja povećava proizvodnju zahvaljujući multiplikatoru: ako vlada izgradi most, radnici tog mosta će moći da kupe hleb, zatim pekar može da kupi cipele, i tako dalje. Ako je privatna industrija u padu, to se može rešiti velikim radovima. Ako postoji nezaposlenost, država može stvoriti javne poslove.
 
 
 Ali kao što je Bastiat prikladno pokazao, državna intervencija ima perverzne efekte koji nisu vidljivi. Samo dobar ekonomista je sposoban da ih predvidi. Uzmimo primer: Iluzija je verovati da vlada može "stvoriti radna mesta" jer za svako javno radno mesto koje se stvori, uništava se jedno radno mesto na tržištu. Naime, javna radna mesta se plaćaju porezima. Javna radna mesta nisu stvorena; ona su percipirana. Svaki peni koji država potroši mora nužno biti dobijen kroz peni poreza ili duga.
@@ -1778,12 +1778,12 @@ Ali kao što je Bastiat prikladno pokazao, državna intervencija ima perverzne e
 ![image](assets/en/142.webp)
 
 
-Ako posmatramo stvari iz ovog ugla, objasnio je Reagan zaposlenima u GE, takozvana čuda državne potrošnje pojavljuju se u potpuno drugačijem svetlu. Jer porezi obeshrabruju proizvodnju, a bogatstvo stvoreno javnom potrošnjom ne može u potpunosti nadoknaditi ono koje je sprečeno da se rodi zbog poreza uvedenih za plaćanje ovih troškova.
+Ako posmatramo stvari iz ovog ugla, objasnio je Reagan zaposlenima u GE, takozvana čuda državne potrošnje izgledaju potpuno drugačije. Jer porezi obeshrabruju proizvodnju, a bogatstvo stvoreno javnom potrošnjom ne može u potpunosti nadoknaditi ono koje je sprečeno da se rodi zbog poreza uvedenih za plaćanje ovih troškova.
 
 
 ![image](assets/en/138.webp)
 
-U suštini, Regan je preuzeo od Bastijata nekoliko ključnih Elements liberalne vizije društva i čoveka: primat civilnog društva nad državom, vrednost izbora i individualne odgovornosti, važnost preduzetnika u stvaranju bogatstva, važnost fleksibilnog i minimalnog pravnog okvira, koji omogućava poverenje i poštovanje ugovora, fundamentalni zakon da bogatstvo mora biti stvoreno pre nego što može biti raspodeljeno, želju da se svima pruži šansa na konkurentnim tržištima…
+U suštini, Reagan je preuzeo od Bastiat-a nekoliko ključnih elemenata liberalne vizije društva i čoveka: primat civilnog društva nad državom, vrednost izbora i individualne odgovornosti, važnost preduzetnika u stvaranju bogatstva, važnost fleksibilnog i minimalnog pravnog okvira, koji omogućava poverenje i poštovanje ugovora, fundamentalni zakon da bogatstvo mora biti stvoreno pre nego što može biti raspodeljeno, želju da se svima pruži šansa na konkurentnim tržištima…
 
 
 # Konačna Sekcija

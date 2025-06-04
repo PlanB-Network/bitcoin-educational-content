@@ -19,7 +19,7 @@ The phrase is said to have come from a conversation between a merchant and Minis
 Since then, many thinkers started supporting this idea, believing the role of government should be limited. It should protect individual rights, but avoid stepping into economic affairs, for fear of disrupting and destroying everything. First, it must collect taxes in a fair and equal manner (Vauban, Boisguilbert). Then, it must refrain from manipulating the currency, by devaluing its value to finance itself at a low cost (Cantillon after the John Law disaster; Dupont de Nemours before that of the Assignats). It must guarantee the freedom to work, abolish guilds and burdensome regulations on industry and commerce, which hinder economic progress (ideas supported by d'Argenson, Gournay, the Physiocrats, and Turgot).
 
 
-Finally, the State must allow the free circulation of goods, which led some to add the phrase "laissez-passer" to laissez-faire, enabling consumers to buy at the best price and promoting peace and brotherhood among nations (Quesnay and the Physiocrats, Abbé de Saint-Pierre). In defending this ideal of laissez-faire, the French economists of the 18th century laid the foundations of economic science. Having dominated their own time, they still have the power to guide ours.
+Finally, the State must allow the free circulation of goods, which led some to add the phrase "laissez-passer" to laissez-faire, enabling consumers to buy at the best price and promoting peace and brotherhood among nations (Quesnay and the Physiocrats, Abbot of Saint-Pierre). In defending this ideal of laissez-faire, the French economists of the 18th century laid the foundations of economic science. Having dominated their own time, they still have the power to guide ours.
 
 +++
 
@@ -39,7 +39,7 @@ In this section we begin at the turn of the 17th and 18th centuries, a time shap
 
 **Section 3: Reformers and Thinkers of the Early 18th Century**
 
-This section focuses on those who, in the first decades of the 18th century, attempted to reform the French economy in the light of new principles. Thinkers like the Abbé de Saint-Pierre, the Marquis d'Argenson, and Gournay (along with his followers) called for dismantling corporatist obstacles, liberalizing trade, and encouraging competition as the driver of development. Their often bold proposals foreshadowed the great Physiocratic ideas.
+This section focuses on those who, in the first decades of the 18th century, attempted to reform the French economy in the light of new principles. Thinkers like the Abbot of Saint-Pierre, the Marquis d'Argenson, and Gournay (along with his followers) called for dismantling corporatist obstacles, liberalizing trade, and encouraging competition as the driver of development. Their often bold proposals foreshadowed the great Physiocratic ideas.
 
 **Section 4: The Physiocratic School** 
 
@@ -244,21 +244,21 @@ With this theory about the effects of inflation, Cantillon provides us with answ
 
 <partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
 
-## The abbot of Saint-Pierre
+## The Abbot of Saint-Pierre
 
 <chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
 
-Of all the authors we've chosen to include in the pantheon of 18th-century French laissez-faire thinkers, Abbé de Saint-Pierre is undoubtedly the most overlooked.
+Of all the authors we've chosen to include in the pantheon of 18th-century French laissez-faire thinkers, Abbot of Saint-Pierre is undoubtedly the most overlooked.
 
 ![image](assets/fr/023.webp)
 
-To be fair, it's partly his own fault. He wrote a great deal, but his style is hard to read and is full of repetitions. Even Jean-Jacques Rousseau tried to summarize his work: he began to do so, but soon abandoned the task, as he realized that it was beyond his strength. In the mid-19th century, Gustave de Molinari honored him by publishing a comprehensive work on him, in which he paid tribute to the pacifist and economist that the Abbé de Saint-Pierre was. But this was not enough to bring him out of oblivion, as he still remains in it today.
+To be fair, it's partly his own fault. He wrote a great deal, but his style is hard to read and is full of repetitions. Even Jean-Jacques Rousseau tried to summarize his work: he began to do so, but soon abandoned the task, as he realized that it was beyond his strength. In the mid-19th century, Gustave de Molinari honored him by publishing a comprehensive work on him, in which he paid tribute to the pacifist and economist that the Abbot of Saint-Pierre was. But this was not enough to bring him out of oblivion, as he still remains in it today.
 
 ![image](assets/fr/024.webp)
 
 ![image](assets/fr/025.webp)
 
-The Abbé de Saint-Pierre wrote about economics, but it's rather as a pacifist that he is usually of interest. He is the author of a Project for Perpetual Peace, which predates the well-known one by Emmanuel Kant.
+The Abbot of Saint-Pierre wrote about economics, but it's rather as a pacifist that he is usually of interest. He is the author of a Project for Perpetual Peace, which predates the well-known one by Emmanuel Kant.
 
 ![image](assets/fr/026.webp)
 
@@ -266,7 +266,7 @@ In this work, he argued that war is destructive, not only for those who lose it,
 
 To combat the scourge of war, he recommended the creation of a kind of European League of Nations. A European council would be formed to resolve the problems of each nation. Nations would therefore resort to arbitration, in order to avoid resorting to arms. If a nation was not wise enough to embrace peace, if it threatened the other European nations, the European league of nations would have a means to respond. Facing such events, a European army would be formed, with forces provided by the various countries.
 
-There's also an episode in the life of the Abbé de Saint-Pierre that perfectly illustrates the critical mindset behind the French laissez-faire movement. He joined the Académie Française in 1695, but was expelled in 1718 for daring to criticize the reign of Louis XIV. In that, he aligned with figures like Vauban and Boisguilbert, who had also dared to speak out against the miseries hidden beneath the splendor of the Sun King's reign.
+There's also an episode in the life of the Abbot of Saint-Pierre that perfectly illustrates the critical mindset behind the French laissez-faire movement. He joined the Académie Française in 1695, but was expelled in 1718 for daring to criticize the reign of Louis XIV. In that, he aligned with figures like Vauban and Boisguilbert, who had also dared to speak out against the myseries hidden beneath the splendor of the Sun King's reign.
 
 ![image](assets/fr/027.webp)
 
@@ -280,7 +280,7 @@ The Abbot of Saint-Pierre argued that the reign of Louis XIV, with its luxurious
 
 In terms of economic thinking, he consistently applied the principle of utility, much like Jeremy Bentham would do later, and often offered sound insights. To be fair, he was still influenced by mercantilist ideas, which no one had fully shed at that time.
 
-Still, the abbot of Saint-Pierre made some accurate observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), where he wrote:
+Still, the Abbot of Saint-Pierre made some accurate observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), where he wrote:
 
 > "When a sale is made between merchants, the seller gains, and so does the buyer; for if there weren't some real or perceived benefit on both sides, neither the seller would sell at such and such a price, nor the buyer, for his part, would buy at such a price".
 
@@ -361,7 +361,7 @@ What we do have includes:
 
 ![image](assets/fr/038.webp)
 
-3. "Observations on the East India Company", appended by abbot Morellet to his Memoir on the Current State of the East India Company (1769);
+3. "Observations on the East India Company", appended by Abbot Morellet to his Memoir on the Current State of the East India Company (1769);
 
 ![image](assets/fr/039.webp)
 
@@ -399,7 +399,7 @@ As we saw in the previous part, Gournay was fascinated by the example of foreign
 
 This admiration led him to translate, and assign translations of, their economic writings.
 
-It turned out that his position in the senior administration allowed Gournay to come into contact with all the economic specialists known in France at the time. In this way, he assembled a group of extremely capable translators. He personally translated the works of Child and Culpeper. Abbé Le Blanc translated David Hume's Political Discourses. Véron de Forbonnais translated the Spanish economist Geronymo de Uztariz. Turgot worked on Josiah Tucker's writings, and Montesquieu's son translated Joshua Gee.
+It turned out that his position in the senior administration allowed Gournay to come into contact with all the economic specialists known in France at the time. In this way, he assembled a group of extremely capable translators. He personally translated the works of Child and Culpeper. Abbot Le Blanc translated David Hume's Political Discourses. Véron de Forbonnais translated the Spanish economist Geronymo de Uztariz. Turgot worked on Josiah Tucker's writings, and Montesquieu's son translated Joshua Gee.
 
 Thanks to the collaboration of several members of Gournay's circle, many authors were able to publish original works under their own names. These books, along with the translations, achieved remarkable success. Some notable examples include:
 
@@ -418,7 +418,7 @@ The group also played a pivotal role in the publication of
 
 ![image](assets/fr/045.webp)
 
-This last book, written around 1730, remained in manuscript after the author's death. Gournay, with the help of his economist friends, published it in 1755. According to the abbot Morellet, a member of the circle, Gournay recommended it to every economist he knew.
+This last book, written around 1730, remained in manuscript after the author's death. Gournay, with the help of his economist friends, published it in 1755. According to the Abbot Morellet, a member of the circle, Gournay recommended it to every economist he knew.
 
 The intellectual output of the Gournay circle had a major impact on the history of ideas. In this sense, they can be considered the founders of economic science in France. Christine Théré of INED, who has studied the history of economic publications, found that between 1750 and 1759, no fewer than **349** works on economics were published, compared to only **83** in the entire previous decade (1740–1749). This revolution in the 1750s is largely due to the Gournay circle.
 
@@ -817,14 +817,14 @@ In many other articles of the *Encyclopédie*, philosophes, especially Diderot, 
 
 Freedom of labor, especially in opposition to the guild system, was a recurring theme in various entries such as Arts, Métier, and Communauté.
 
-Diderot's path in economic theory is a curious one. In the Encyclopédie, he was a staunch advocate for economic freedom and was the one who sought the collaboration of liberal economists, as confirmed by a letter outlining the articles Turgot might write for him. In the early years of Physiocracy, he was both a supporter and a promoter of Quesnay's school. In 1769 and 1770, he wrote for *Les Ephémérides du Citoyen*, to the great dismay of his anti-liberal philosopher friends, like Melchior Grimm; however, he soon distanced himself from the group. Enthralled by the vibrant intellect of abbot Galiani, he helped him publish his book on the grain trade in French, just as Galiani was about to return to Italy.
+Diderot's path in economic theory is a curious one. In the Encyclopédie, he was a staunch advocate for economic freedom and was the one who sought the collaboration of liberal economists, as confirmed by a letter outlining the articles Turgot might write for him. In the early years of Physiocracy, he was both a supporter and a promoter of Quesnay's school. In 1769 and 1770, he wrote for *Les Ephémérides du Citoyen*, to the great dismay of his anti-liberal philosopher friends, like Melchior Grimm; however, he soon distanced himself from the group. Enthralled by the vibrant intellect of Abbot Galiani, he helped him publish his book on the grain trade in French, just as Galiani was about to return to Italy.
 
 
 ![image](assets/fr/099.webp)
 
 ![image](assets/fr/100.webp)
 
-This book would become the fiercest attack ever made against Physiocratic ideas, delivering a major blow to the movement. Later, Diderot defended Galiani against abbot Morellet, a close ally of the Physiocrats, in his *Apology of Galiani*. A few years later, during Turgot's ministry, Diderot was seen applauding the establishment of freedom of labor through the abolition of guilds. At this point, Diderot, an artisan's son, found himself in agreement with the liberal economists and wrote a scathing letter to Galiani, who claimed that freedom of labor would ruin French industry within twenty or thirty years. In light of the Industrial Revolution, history suggests otherwise. Having returned to the liberal economists' side, Diderot no longer enjoyed their trust and remained isolated. A very telling moment is a letter he sent to Dupont de Nemours in 1774, where he writes:
+This book would become the fiercest attack ever made against Physiocratic ideas, delivering a major blow to the movement. Later, Diderot defended Galiani against Abbot Morellet, a close ally of the Physiocrats, in his *Apology of Galiani*. A few years later, during Turgot's ministry, Diderot was seen applauding the establishment of freedom of labor through the abolition of guilds. At this point, Diderot, an artisan's son, found himself in agreement with the liberal economists and wrote a scathing letter to Galiani, who claimed that freedom of labor would ruin French industry within twenty or thirty years. In light of the Industrial Revolution, history suggests otherwise. Having returned to the liberal economists' side, Diderot no longer enjoyed their trust and remained isolated. A very telling moment is a letter he sent to Dupont de Nemours in 1774, where he writes:
 
 > "You once had friendship for me; now you no longer do, because you are so busy that you no longer have time to love anyone".
 
@@ -876,7 +876,7 @@ Division of labor, consumer sovereignty, private property, the role of capital, 
 
 ![image](assets/fr/109.webp)
 
-Turgot defended the freedom of the grain trade in letters to abbot Terray, later communicated to the King, but half of which are now lost. He wrote:
+Turgot defended the freedom of the grain trade in letters to Abbot Terray, later communicated to the King, but half of which are now lost. He wrote:
 
 
 > Sir, if anything is urgent, it is not to impose new restrictions on the most essential of all trades, but to remove those which, unfortunately, have been allowed to remain. 
@@ -885,7 +885,7 @@ Turgot defended the freedom of the grain trade in letters to abbot Terray, later
 
 ![image](assets/fr/110.webp)
 
-In 1769, Turgot wrote the article Value and Money for abbot Morellet's *Dictionnaire de Commerce*, which ultimately was never published. Galiani had already noted that "man is the common measure of all things", anticipating the subjective analysis that Turgot would develop thirty years later in this article, where he expands on and proves this proposition.
+In 1769, Turgot wrote the article Value and Money for Abbot Morellet's *Dictionnaire de Commerce*, which ultimately was never published. Galiani had already noted that "man is the common measure of all things", anticipating the subjective analysis that Turgot would develop thirty years later in this article, where he expands on and proves this proposition.
 
 In 1770, well before Bentham, Turgot wrote a memorandum advocating for the freedom of interest rates and usury.
 
@@ -894,7 +894,7 @@ In 1770, well before Bentham, Turgot wrote a memorandum advocating for the freed
 
 "It is a mistake to believe that the interest on money in commerce should be fixed by the laws of princes", he says, "It is a current price which regulates itself, like that of all other goods", In defense of this position, he refutes the opposition of Aristotle and the Church Fathers.
 
-A remarkable summary of Turgot's laissez-faire doctrine can be found in a forgotten 1773 letter to abbot Terray on the marking of irons:
+A remarkable summary of Turgot's laissez-faire doctrine can be found in a forgotten 1773 letter to Abbot Terray on the marking of irons:
 
 
 > What politics must do is to yield to the course of nature and to the course of commerce, which is no less necessary and no less irresistible than the course of nature itself, without attempting to direct it; for to direct it without disrupting it and without harming oneself, one would need to be able to follow all the variations in human needs, interests, and industry; one would need to know them in a level of detail that is physically impossible to obtain, and in which even the most skillful, active, and meticulous government will always risk being wrong,at least by half.
@@ -1159,9 +1159,9 @@ Here below, you'll find a selection of over thirty writings:
 5. Pierre de Boisguilbert ou la naissance de l'économie politique, Paris, INED, 1966
 6. Richard Cantillon, Essai sur la nature du commerce en général, 1755; reprinted by Institut Coppet, 2015
 7. Antoin Murphy, Richard Cantillon, banker and economist, Oxford, 1986
-8. Gustave de Molinari, L'abbé de Saint-Pierre, Paris, 1859
-9. Abbé de Saint-Pierre, Abrégé du projet de paix perpétuelle, Rotterdam, 1729
-10. Abbé de Saint-Pierre, "Projet pour perfectionner le commerce de la France", in Les rêves d'un homme de bien, Paris, 1775, p.199
+8. Gustave de Molinari, L'Abbot of Saint-Pierre, Paris, 1859
+9. Abbot of Saint-Pierre, Abrégé du projet de paix perpétuelle, Rotterdam, 1729
+10. Abbot of Saint-Pierre, "Projet pour perfectionner le commerce de la France", in Les rêves d'un homme de bien, Paris, 1775, p.199
 11. André Alem, Le marquis d'Argenson et l'économie politique au début du XVIIIe siècle, Institut Coppet, 2015
 12. Journal et mémoires du marquis d'Argenson, Rathery edition, 9 vols, Paris, 1859-1867
 13. Benoît Malbranque, Vincent de Gournay: the political economy of laissez-faire, Institut Coppet, 2016

@@ -1,0 +1,9 @@
+question: تابع Hash که توسط HMAC در زمینه Bitcoin استفاده می‌شود چیست؟
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - هش160
+explanation: |
+  HMAC از SHA512 برای تولید یک Hash امن ۵۱۲ بیتی استفاده می‌کند.
+reviewed: false

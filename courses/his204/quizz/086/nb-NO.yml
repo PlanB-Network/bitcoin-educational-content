@@ -1,0 +1,8 @@
+question: Hvilken idé har blitt kalt Montaignes sofisme?
+answer: Exchange er et nullsumspill
+wrong_answers:
+  - Exchange er et spill med positiv sum
+  - Avhengig av tid og sted er Exchange noen ganger et nullsumspill, andre ganger et plussumspill
+  - Exchange er alltid ugunstig for den svakeste parten
+explanation: |
+  Montaignes feilslutning er ideen om at Exchange er et nullsumspill, dvs. at det den ene vinner, taper den andre. Denne ideen er feil, fordi frivillig Exchange er gjensidig fordelaktig.

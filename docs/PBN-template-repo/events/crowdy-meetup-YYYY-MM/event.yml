@@ -1,0 +1,59 @@
+# generate a random uuid v4
+id: 6e3eb0cd-465f-4902-a2d9-2520dc627eb9
+
+# date in the following format:
+# YYYY-MM-DD hh:mm:ss
+start_date: 2025-06-16 18:00:00
+# same as end_date
+end_date: 2025-06-16 22:30:00
+# this is mandatory, otherwise both
+# the starting and ending dates will be messed up
+timezone: Europe/Zurich
+
+# event location
+# this line is the most important
+# if this contain an error the event location is wrongly displayed on the map
+address_city_country: Dummy Road 7, Lugano, 6900, Switzerland
+# additional location lines
+address_line_2: 21st floor
+address_line_3: Room No. 2009
+
+# Complete name of the content
+# with year (at the end) to avoid duplication
+name: Satoshi Spritz Lugano Special Edition
+
+# define the event category, 5 options:
+# - workshop
+# - course
+# - conference
+# - lecture
+# - meetup
+type: meetup
+
+# Description
+# Write the main description of the content
+description: A Satoshi Spritz is a public event open to everyone, allowing for anonymous participation, where discussions are exclusively focused on Bitcoin, encouraging presentations on complex topics in a flexible format.
+
+# Event Language
+# the main language spoken during the event
+# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
+language:
+  - en
+  - it
+
+# links
+# list related to content visibility such as website, streaming and recording links
+links:
+  website:
+
+# Associate to a project
+# copy here the id of the project that organizes this event
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+tags:
+  - adoption
+  - easy-explain
+  - use-case

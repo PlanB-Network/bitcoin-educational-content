@@ -1,0 +1,9 @@
+question: Commitment Transaction در یک کانال Lightning به چه معناست؟
+answer: توزیع جدید بودجه بین دو حزب
+wrong_answers:
+  - مجموع تعداد تراکنش‌های انجام‌شده
+  - مبلغ کارمزد قابل پرداخت برای تراکنش
+  - افتتاح یک کانال پرداخت جدید
+explanation: |
+  یک Commitment Transaction نمایانگر توزیع فعلی وجوه در کانال پس از هر تراکنش لایتنینگ است، اما تا زمانی که کانال باز بماند، در Blockchain منتشر نمی‌شود.
+reviewed: false

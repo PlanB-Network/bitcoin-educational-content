@@ -2060,7 +2060,7 @@ Um einen Coinjoin über Whirlpool zu erstellen, muss die Wallet mehrere separate
 
 ![BTC204](assets/fr/143.webp)
 
-Eine HD-Wallet kann theoretisch bis zu 2^(32/2)` verschiedene Konten ableiten. Das erste Konto, das standardmäßig bei allen Bitcoin-Wallets verwendet wird, entspricht dem Index "0".
+Eine HD-Wallet kann theoretisch bis zu `2^(31)` verschiedene Konten ableiten. Das erste Konto, das standardmäßig bei allen Bitcoin-Wallets verwendet wird, entspricht dem Index "0".
 
 Für Portfolios, die an Whirlpool angepasst sind, werden 4 Konten verwendet, um den Anforderungen des ZeroLink-Prozesses gerecht zu werden:
 
@@ -2525,8 +2525,7 @@ Es wäre jedoch interessant, über Transaktionsstrukturen zu verfügen, die es e
 
 Payjoin ist eine spezielle Bitcoin-Transaktionsstruktur, die die Privatsphäre des Nutzers beim Ausgeben von Geld erhöht, indem sie mit dem Zahlungsempfänger zusammenarbeitet.
 
-LaurentMT bezeichnete diese Methode erstmals 2015 als "*steganografische Transaktionen*", wie aus einem [hier] zugänglichen Dokument hervorgeht (https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Die Technik wurde anschließend von Samourai Wallet übernommen, das sie 2018 als erster Kunde mit dem Stowaway-Tool implementierte. Das Konzept des Payjoin findet sich auch in [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) und [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Es werden mehrere Begriffe zur Bezeichnung eines Payjoin verwendet:
-
+Im Jahr 2015 sprach LaurentMT erstmals über diese Methode unter dem Begriff "*steganographic transactions*", wie in einem Dokument [hier](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) einsehbar. Diese Technik wurde später von der Wallet Samourai übernommen, die 2018 als erster Client das Verfahren mit dem Tool Stowaway implementierte. Das Konzept von Payjoin findet sich auch im [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) und [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Für Payjoin werden mehrere Begriffe verwendet:
 
 - Payjoin ;
 - Blinder Passagier;

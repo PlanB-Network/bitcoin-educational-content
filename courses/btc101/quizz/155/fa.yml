@@ -1,0 +1,8 @@
+question: Coinbase Transaction چیست؟
+answer: اولین تراکنش بلوکی که شامل پاداش Miner است.
+wrong_answers:
+  - یک تراکنش انجام شده در Exchange Coinbase.
+  - دومین تراکنش از بلوکی که شامل بالاترین کارمزدها است.
+  - تراکنشی که توسط Miner پس از دریافت پاداش انجام می‌شود.
+explanation: >-
+reviewed: true

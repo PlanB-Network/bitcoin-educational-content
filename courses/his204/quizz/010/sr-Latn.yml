@@ -1,0 +1,8 @@
+question: Zašto je, prema Vaubanu, ispravno i prirodno da svi plaćaju poreze?
+answer: Zato što Država nudi svoje usluge svima, pošteno je da svi treba da doprinesu njihovom plaćanju.
+wrong_answers:
+  - Zato što država može prikupiti više oporezivanjem celokupne populacije odjednom
+  - Zato što je svako ponekad bogat, a ponekad siromašan tokom svog života, bolje je oporezovati sve jednako.
+  - Jer pomaže u finansiranju ratova i osigurava veličinu kraljevstva
+explanation: |
+  Vauban je verovao da oporezivanje treba da bude univerzalno, jer svi građani imaju koristi od državnih usluga kao što su bezbednost, pravda i infrastruktura. Stoga je smatrao da je pošteno da svi doprinesu njihovom finansiranju prema svojim mogućnostima.

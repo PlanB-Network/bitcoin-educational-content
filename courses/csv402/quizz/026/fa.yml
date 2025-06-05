@@ -1,0 +1,9 @@
+question: هدف Interface Implementation در معماری RGB چیست؟
+answer: نقشه فیلدهای Schema به نام‌های تعریف‌شده در Interface
+wrong_answers:
+  - اسکریپت‌های AluVM را برای اعتبارسنجی کامپایل کنید
+  - برای تعریف وضعیت‌های جهانی و وضعیت‌های متعلق به Contract
+  - برای ذخیره اثبات‌های رمزنگاری سمت کلاینت
+explanation: |
+  Interface Implementation ارتباط بین Schema's Business Logic و ارائه قابل خواندن توسط Interface را برقرار می‌کند.
+reviewed: false

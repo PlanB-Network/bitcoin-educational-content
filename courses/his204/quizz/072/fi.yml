@@ -1,0 +1,8 @@
+question: Missä kirjallisessa muodossa Abbé Galiani hyökkäsi fysiokraatteja ja heidän viljakaupan vapautta koskevia teesejään vastaan?
+answer: Dialogi
+wrong_answers:
+  - Romaani
+  - Runous
+  - Testi
+explanation: |
+  Galiani kritisoi fysiokraatteja teoksessaan "Dialogues sur le commerce des blés", joka on kirjoitettu eri henkilöiden välisten dialogien muodossa.

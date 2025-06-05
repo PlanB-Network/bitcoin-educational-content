@@ -1,9 +1,0 @@
-question: Koji je uobičajeni pristup koji Bitcoin stacker koristi za korišćenje Bitcoin?
-answer: Na način od osobe do osobe
-wrong_answers:
-  - Kroz brokera
-  - Prodajom robe ili usluga
-  - Uključivanjem u Bitcoin ekosistem
-explanation: |
-  Uobičajen pristup za Bitcoin stacker-a da koristi Bitcoin je na peer-to-peer način. To znači da mogu kupiti Bitcoin direktno u gotovini sa prijateljima ili članovima Bitcoin zajednice.
-reviewed: false

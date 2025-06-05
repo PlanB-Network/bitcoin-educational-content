@@ -1,4 +1,4 @@
-question: Qual è il principale rischio nelle transazioni di impegno sulla Lightning Network?
+question: Qual è il principale rischio nelle transazioni di impegno su Lightning Network?
 answer: Pubblicare una vecchia transazione per recuperare più fondi
 wrong_answers:
   - Dimenticare di firmare la transazione di impegno

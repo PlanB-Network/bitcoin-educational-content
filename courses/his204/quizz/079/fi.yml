@@ -1,0 +1,8 @@
+question: Turgot ilmaisee kirjassaan lettre sur la marque des fers ajatuksen siitä, että on mahdotonta tietää paremmin kuin markkinat tietävät. Kuka itävaltalainen taloustieteilijä kehitti sen 1900-luvulla?
+answer: Friedrich Hayek
+wrong_answers:
+  - Carl Menger
+  - Murray Rothbard
+  - Ludwig von Mises
+explanation: |
+  Hayek kehitti ajatuksen markkinoiden "hinnanmuodostuksesta", jonka mukaan markkinat ovat tiedonmuodostusprosessi ja hinnat ovat Supply:n ja kysynnän vuorovaikutuksen tulos.

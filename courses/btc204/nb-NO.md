@@ -2060,7 +2060,7 @@ For å opprette en coinjoin via Whirlpool må lommeboken generere flere separate
 
 ![BTC204](assets/fr/143.webp)
 
-En HD-lommebok kan teoretisk sett utlede opptil `2^(32/2)` forskjellige kontoer. Den første kontoen, som brukes som standard på alle Bitcoin-lommebøker, tilsvarer indeksen `0'.
+En HD-lommebok kan teoretisk sett utlede opptil `2^(31)` forskjellige kontoer. Den første kontoen, som brukes som standard på alle Bitcoin-lommebøker, tilsvarer indeksen `0'.
 
 For porteføljer tilpasset Whirlpool brukes 4 kontoer for å dekke behovene i ZeroLink-prosessen:
 
@@ -2525,8 +2525,7 @@ Det ville imidlertid være interessant å ha transaksjonsstrukturer som gjør de
 
 Payjoin er en spesifikk Bitcoin-transaksjonsstruktur som forbedrer brukernes personvern når de bruker penger ved å samarbeide med betalingsmottakeren.
 
-LaurentMT refererte først til denne metoden som "*steganografiske transaksjoner*" i 2015, ifølge et dokument som er tilgjengelig [her] (https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Teknikken ble deretter tatt i bruk av Samourai Wallet, som i 2018 ble den første kunden til å implementere den med Stowaway-verktøyet. Konseptet payjoin finnes også i [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) og [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Det brukes flere begreper for å betegne en payjoin:
-
+Det var i 2015 at LaurentMT først omtalte denne metoden under navnet "*steganographic transactions*", ifølge et dokument tilgjengelig [her](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Denne teknikken ble senere tatt i bruk av lommeboken Samourai Wallet, som i 2018 ble den første klienten til å implementere den ved hjelp av verktøyet Stowaway. Konseptet payjoin finnes også i [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) og [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Flere begreper brukes dermed for å referere til en payjoin:
 
 - Payjoin ;
 - Blindpassasjer;

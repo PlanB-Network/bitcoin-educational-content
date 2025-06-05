@@ -1,15 +1,13 @@
 id: 9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 topic: social studies
 subtopic: philosophy
-level: intermediate
+level: advanced
 hours: 11
 
 professors_id:
   - 1a2d2e86-4f52-4b7c-b2c6-17f165a3d5d7
 contributor_names:
-  - Rogzy-DB
   - Asi0Flammeus
-  - LoicPandul
 
 published_at: 2024-07-23
 # Proofreading metadata

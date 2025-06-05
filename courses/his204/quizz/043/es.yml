@@ -1,0 +1,8 @@
+question: ¿Por qué libro fue encarcelado Mirabeau?
+answer: Teoría de la fiscalidad
+wrong_answers:
+  - El Amigo de los Hombres
+  - Ensayo sobre la naturaleza del comercio en general
+  - El Contract social
+explanation: |
+  Mirabeau fue encarcelado por "La Théorie de l'Impôt", obra en la que criticaba el sistema fiscal francés.

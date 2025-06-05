@@ -1,9 +1,9 @@
-question: U kojoj popularnoj ekonomskoj knjizi Henri Hazlitt ponovo razmatra Bastiatov primer razbijenog prozora?
+question: U kojoj popularnoj ekonomskoj knjizi Henri Hazlitt ponovo razmatra Bastiat-ov primer razbijenog prozora?
 answer: Ekonomija u Jednoj Lekciji
 wrong_answers:
-  - 49 Lekcija iz Ekonomije
+  - 49 Lekcija iz ekonomije
   - Freakonomics
   - Umetnost ekonomije
 explanation: |
-  Henri Hazlitt, u Ekonomiji u jednoj lekciji, koristi primer razbijenog prozora da ilustruje skrivene posledice ekonomskih politika.
+  Henri Hazlitt, u "Ekonomija u jednoj lekciji", koristi primer razbijenog prozora da ilustruje skrivene posledice ekonomskih politika.
 reviewed: false

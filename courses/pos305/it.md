@@ -139,7 +139,7 @@ Il cliente acquista un prodotto dal negozio tramite il Network di Bitcoin.
   - La quantità appropriata è stata inviata se i contenuti erano validi.
 - Questa è la sequenza degli eventi:
   - Il Cliente - naviga nel negozio online e trova un articolo a $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo.
-  - Il Commerciante - chiede il pagamento inviando al cliente una fattura/indirizzo dal proprio wallet.
+  - Il Commerciante - chiede il pagamento inviando al cliente un'invoice/indirizzo dal proprio wallet.
   - Il Cliente - costruisce una transazione (inviando $25 in BTC a un indirizzo fornito dal Commerciante) e la trasmette alla Rete Bitcoin.
 - I Computer - ricevono la transazione e verificano:
   - Che ci siano almeno $25 di BTC nell'indirizzo da cui viene inviata la transazione.
@@ -957,7 +957,7 @@ Il componente delle transazioni recenti mostrerà le transazioni più recenti de
 
 ### Invoice recenti
 
-Il componente delle Invoice recenti mostra le 6 ultime invoice generate dal tuo BTCPay Server, incluso lo stato e l'importo della fattura. La funzione include anche un pulsante "Visualizza tutto" per accedere facilmente alla panoramica completa dell'invoice.
+Il componente delle Invoice recenti mostra le 6 ultime invoice generate dal tuo BTCPay Server, incluso lo stato e l'importo dell'invoice. La funzione include anche un pulsante "Visualizza tutto" per accedere facilmente alla panoramica completa dell'invoice.
 
 ![immagine](assets/en/45.webp)
 
@@ -1267,7 +1267,7 @@ BTCPay Server consente anche di costruire moduli in codice, in paricolare in fom
 | .fields.options.text  | Il testo visualizzato per questa opzione                                                                                                                                                  |
 | .fields.options.value | Il valore del campo se questa opzione è selezionata                                                                                                                                       |
 | .fields.type=fieldset | Crea un fieldset HTML intorno ai .fields.fields figli (vedi sotto)                                                                                                                        |
-| .fields.name          | Il nome della proprietà JSON del campo come apparirà nei metadati della fattura                                                                                                           |
+| .fields.name          | Il nome della proprietà JSON del campo come apparirà nei metadati dell'invoice                                                                                                           |
 | .fields.value         | Il valore predefinito del campo                                                                                                                                                           |
 | .fields.required      | se vero, il campo sarà obbligatorio                                                                                                                                                       |
 | .fields.label         | L'etichetta del campo                                                                                                                                                                     |
@@ -2001,7 +2001,7 @@ BTCPay Server è in grado di visualizzare il suo Punto Vendita in più modi.
 - Lista prodotti con carrello.
   - Una vista negozio dove i clienti possono acquistare più articoli contemporaneamente e ottenere una panoramica del carrello della spesa a destra dello schermo.
 - Solo tastierino
-  - Nessuna lista prodotti, solo un tastierino per la fatturazione diretta.
+  - Nessuna lista prodotti, solo un tastierino per l'invoice diretta.
 - Display stampabile (Lista prodotti stampabile con QR)
   - Se non puoi sempre visualizzare la tua lista prodotti digitalmente, hai bisogno di una soluzione "offline" per i prodotti; BTCPay Server ha una funzione di  visualizzazione su display per poter funzionare come un negozio offline.
 

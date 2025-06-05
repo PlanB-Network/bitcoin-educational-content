@@ -466,7 +466,7 @@ openSUSE est une distribution disponible en rolling release ou stable. Elle prop
 
 - **Debian** :
 
-Debian existe en plusieurs branches, dont _Stable_ (très fiable, mais logiciels plus anciens) et _Testing_ (plus à jour, mais légèrement moins éprouvée). Elle utilise `apt` et est connue pour sa rigueur, sa philosophie libre et sa grande compatibilité. Debian est un bon choix pour les utilisateurs qui recherchent la stabilité, les administrateurs système...
+Debian existe en plusieurs branches, dont *Stable* (très fiable, mais logiciels plus anciens) et *Testing* (plus à jour, mais légèrement moins éprouvée). Elle utilise `apt` et est connue pour sa rigueur, sa philosophie libre et sa grande compatibilité. Debian est un bon choix pour les utilisateurs qui recherchent la stabilité, les administrateurs système...
 
 ![Image](assets/fr/027.webp)
 
@@ -1228,7 +1228,7 @@ Maintenir votre système et vos logiciels à jour est un réflexe essentiel en s
 
 Un pare-feu est un outil de sécurité qui contrôle les connexions réseau entrantes et sortantes d’un ordinateur. Sur Ubuntu, il va vous servir à filtrer le trafic afin d’autoriser uniquement les communications légitimes et de bloquer celles qui pourraient être malveillantes. Cela permet par exemple d’empêcher des intrusions extérieures non sollicitées, afin de renforcer la protection de vos données et de votre système, même si vous n’êtes pas un utilisateur avancé.
 
-Dès l’installation, sécuriser les communications réseau de votre machine est donc une étape importante. Ubuntu intègre un pare-feu standard : UFW (_Uncomplicated Firewall_). Il permet de gérer finement les connexions entrantes et sortantes, sans devoir écrire manuellement des règles complexes.
+Dès l’installation, sécuriser les communications réseau de votre machine est donc une étape importante. Ubuntu intègre un pare-feu standard : UFW (*Uncomplicated Firewall*). Il permet de gérer finement les connexions entrantes et sortantes, sans devoir écrire manuellement des règles complexes.
 
 #### Activer le pare-feu
 
@@ -1668,7 +1668,7 @@ Concrètement, lorsque vous saisissez une URL dans la barre d’adresse :
 - Le navigateur envoie une requête HTTP au serveur distant ;
 - Le serveur répond avec un document HTML ;
 - Le moteur de rendu analyse ce HTML, télécharge les fichiers liés (CSS, JavaScript, images…) ;
-- Il construit un "DOM" (_Document Object Model_) qui représente la structure du document ;
+- Il construit un "DOM" (*Document Object Model*) qui représente la structure du document ;
 - Il applique les règles CSS pour calculer la présentation de chaque élément (*layout*) ;
 - Il effectue le rendu graphique à l’aide de la carte graphique et du système de fenêtrage.
 
@@ -2737,8 +2737,414 @@ Pour l’instant, nous avons donc exploré comment sécuriser votre smartphone e
 ## Applications open-source : les meilleures alternatives
 <chapterId>9c0e056c-45ce-407c-b4b6-f648bbc1f7d5</chapterId>
 
-Présentation d'apps open-source pour remplacer les apps principales : Firefox, Organic Maps, FairEmail, Etar, Nextcloud, etc.
+Au delà des applications de messagerie instantanées, il est important de se rappeler que les autres applications de votre smartphones peuvent exploiter vos données à des fins commerciales. Heureusement, des alternatives open-source et respectueuses de votre vie privée existent. C'est ce que je souhaite vous présenter dans ce chapitre.
 
+Je ne vais pas revenir ici sur les alternatives pour les navigateurs et les messageries instantanées, car nous en avons déjà parlé en détails dans les chapitres précédents.
+
+### Client emails
+
+L’email reste un outil de communication incontournable, mais les applications les plus populaires, comme Gmail ou Outlook, posent de nombreux problèmes en matière de confidentialité. Ces services analysent souvent vos messages, stockent les métadonnées et participent à la création de profils publicitaires.
+
+**Les alternatives :**
+
+- [FairEmail](https://email.faircode.eu/)
+
+FairEmail est une application Android complète et orientée sécurité. Elle prend en charge tous les fournisseurs IMAP/SMTP, permet le chiffrement des messages via OpenPGP, bloque les images distantes (utilisées comme traqueurs), et n’utilise aucun service tiers. Elle vous laisse un contrôle fin sur les connexions, les notifications et le comportement de synchronisation.
+
+- [K-9 Mail](https://k9mail.app)
+
+K-9 Mail est un client mail open-source Android, récemment intégré à l’écosystème Thunderbird de Mozilla. Il gère les comptes multiples, le chiffrement PGP via OpenKeychain, et fonctionne sans serveur intermédiaire.
+
+- [Thunderbird Mobile](https://www.thunderbird.net/mobile/)
+
+Thunderbird Mobile est la version mobile du célèbre client de messagerie open source développé par la Mozilla Foundation. Fidèle à la philosophie du projet, l'application met l'accent sur la confidentialité, la transparence du code et l'absence de télémétrie intrusive. Thunderbird Mobile est basée sur l'application K-9 Mail, dont elle est le successeur officiel sur Android. Elle permet une gestion avancée des comptes IMAP et POP, le chiffrement des courriels (via OpenPGP), et dispose d'une interface sobre et efficace.
+
+- [Tuta](https://tuta.com/)
+
+Tuta (anciennement "*Tutanota*") propose une solution complète d’email chiffré de bout en bout, mais son client mobile ne prend en charge que les comptes Tuta. Il ne fonctionne pas avec d’autres fournisseurs. L’interface est moderne et épurée, et l’inscription ne requiert aucune donnée personnelle.
+
+### Cartographie et navigation
+
+La plupart des applications de cartographie classiques, comme Google Maps, Waze ou Citymapper, collectent une grande quantité de données personnelles. Elles enregistrent vos déplacements, vos recherches et vos habitudes pour les exploiter à des fins commerciales.
+
+**Les alternatives :**
+
+- [Organic Maps](https://organicmaps.app/)
+
+Organic Maps est une application de navigation entièrement gratuite et fonctionnant hors ligne. Elle repose sur les données d’[OpenStreetMap](https://www.openstreetmap.org), une base de données collaborative et ouverte. Vous téléchargez les cartes des régions qui vous intéressent, puis vous pouvez naviguer sans réseau.
+
+Elle ne contient ni publicité, ni suivi, ni collecte de données. L’application est particulièrement adaptée aux trajets à pied, à vélo ou en voiture, avec une interface simple, rapide et sans distraction.
+
+- [OsmAnd](https://osmand.net/)
+
+OsmAnd (*OpenStreetMap Automated Navigation Directions*) est une autre application de cartographie open-source très complète. Elle propose la navigation GPS hors ligne, des cartes détaillées (y compris les sentiers, pistes cyclables ou reliefs), et une personnalisation très poussée.
+
+Vous pouvez y activer différents calques (zones piétonnes, transports publics, etc.), définir des alertes de vitesse ou encore intégrer des cartes spécialisées comme celles pour la randonnée ou les itinéraires nautiques.
+
+La version gratuite est déjà très riche, et la version payante permet de débloquer davantage de fonctionnalités et de soutenir le projet.
+
+### Bureautique et documents
+
+Les outils bureautiques classiques comme Google Docs ou Microsoft Office sont très pratiques, mais posent de sérieux problèmes de confidentialité. Les documents sont stockés sur leurs serveurs, analysés, et parfois utilisés à des fins marketing ou pour l'entraînement de modèles d’IA.
+
+**Les alternatives :**
+
+- [Collabora Office](https://www.collaboraoffice.com/)
+
+Collabora Office est une version mobile de LibreOffice, pensée pour les smartphones et tablettes Android et iOS. Elle permet de créer, modifier et partager des documents bureautiques sans jamais sortir de votre appareil ou de votre cloud personnel.
+
+L’application prend en charge l’édition collaborative lorsqu’elle est connectée à une instance Nextcloud avec l’extension Collabora Online. Cela permet de reproduire une expérience proche de Google Docs, mais en hébergeant vous-même vos fichiers.
+
+- [ONLYOFFICE](https://www.onlyoffice.com/)
+
+ONLYOFFICE est une suite bureautique open-source. Elle permet d’ouvrir et modifier des documents Word, Excel et PowerPoint directement sur mobile, même en local. Vous pouvez aussi la connecter à divers services cloud pour la synchronisation automatique, comme Nextcloud.
+
+### Gestionnaire de fichiers et cloud
+
+Les services comme Google Drive ou Dropbox stockent vos fichiers sur des serveurs distants appartenant à des entreprises privées. Vos données peuvent y être scannées et exploitées à des fins publicitaires ou statistiques. De plus, vous restez dépendant d’une connexion internet et d’un compte tiers pour y accéder.
+
+**Les alternatives :**
+
+- [Nextcloud](https://nextcloud.com/)
+
+Nextcloud est une solution de cloud personnel open-source que vous pouvez héberger vous-même ou utiliser via un fournisseur de confiance. Elle permet de synchroniser, partager et éditer vos fichiers depuis votre smartphone, tout en conservant un contrôle total sur leur stockage.
+
+Sur Android, vous pouvez installer l'application officielle Nextcloud mobile pour accéder à votre cloud personnel depuis n’importe où. Il est également possible d’y ajouter des fonctions comme la gestion de photos, la bureautique, le calendrier ou encore la messagerie.
+
+- [Material Files](https://github.com/zhanghai/MaterialFiles)
+
+Material Files est un gestionnaire de fichiers open-source, léger et épuré. Il permet de parcourir, déplacer, copier ou supprimer des fichiers localement sur votre appareil Android.
+
+L'application ne contient ni publicité ni pisteurs, et ne demande aucune permission abusive. C'est donc une alternative intéressante à l’explorateur de fichiers fourni par Google, souvent intégré à d'autres services cloud propriétaires.
+
+### Calendrier / Agenda
+
+De nombreuses personnes utilisent des applications comme Google Calendar ou Outlook Calendar pour gérer leurs rendez-vous. Pourtant, ces services sont connectés à des comptes en ligne centralisés qui collectent des données sur vos habitudes, vos lieux de réunion, et vos interactions.
+
+**Les alternatives :**
+
+- [Etar](https://github.com/Etar-Group/Etar-Calendar)
+
+Etar est un calendrier simple et efficace, entièrement open-source. Il peut fonctionner en local, mais permet aussi la synchronisation via CalDAV, un protocole standard pour synchroniser des agendas avec des services respectueux de la vie privée (comme Nextcloud ou EteSync).
+
+- [Simple Calendar](https://simplemobiletools.com/simplecalendar/)
+
+Cette application fait partie de la suite "*Simple Mobile Tools*". Elle ne nécessite aucun compte ni accès réseau, ce qui en fait une solution idéale pour une utilisation entièrement hors ligne. Vous pouvez y ajouter vos événements, définir des rappels, organiser des vues par jour, semaine ou mois. Comme le reste de la suite, l'application Simple Calendar est sans publicité, sans tracker, et 100 % open-source.
+
+### Prise de notes
+
+Les applications comme Evernote, Google Keep ou OneNote sont utilisées pour capturer des idées, organiser des tâches ou enregistrer des listes. Cependant, elles reposent toutes sur des services en ligne propriétaires, qui centralisent vos données sur leurs serveurs et analysent souvent vos contenus à des fins commerciales.
+
+**Les alternatives :**
+
+- [Quillpad](https://quillpad.github.io/)
+
+Quillpad est une application légère conçue spécifiquement pour la prise de notes en markdown. Elle permet de chiffrer en option vos notes, d’organiser vos contenus par balises et couleurs, et d’y ajouter des rappels. Tout fonctionne sans compte ni connexion, et les données restent stockées sur votre appareil. Elles peuvent également être enregistrées chiffrées sur pCloud.
+
+- [Joplin](https://joplinapp.org/)
+
+Joplin est une solution plus complète, qui propose la synchronisation des notes chiffrées via des services compatibles comme Nextcloud, Dropbox ou WebDAV. Vous pouvez y gérer des notes simples ou structurées (en Markdown), classer vos documents, et même importer des fichiers joints.
+
+Son interface est un peu plus complexe que celle de QuillNote, mais elle reste parfaitement utilisable sur mobile et s’adapte à des usages personnels et professionnels.
+
+### Gestionnaire de mots de passe
+
+De nombreux utilisateurs laissent leur navigateur stocker leurs mots de passe via des solutions comme Google Password Manager. Bien que pratique, ce type de gestion centralisée n’offre pas de chiffrement de bout en bout contrôlé par l’utilisateur, et expose vos identifiants à des risques en cas de compromission de votre compte Google. Pour une gestion plus sûre et souveraine de vos mots de passe, plusieurs alternatives open-source sont disponibles.
+
+**Les alternatives :**
+
+- [Bitwarden](https://bitwarden.com/)
+
+Bitwarden est l’un des gestionnaires de mots de passe open-source les plus complets. Il chiffre tous vos identifiants localement, permet de générer des mots de passe forts, et propose une synchronisation chiffrée entre appareils.
+
+Vous pouvez utiliser les serveurs de Bitwarden, ou bien l’auto-héberger si vous le souhaitez pour un contrôle total. Son interface mobile est claire et fluide, avec une intégration parfaite dans le système Android ou iOS.
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+- [KeePassDX](https://www.keepassdx.com/)
+
+KeePass est un logiciel historique gestionnaire de mots de passe, basé sur des fichiers locaux chiffrés. Sur mobile, KeePassDX est une excellente implémentation Android, compatible avec toutes les bases KeePass. Elle fonctionne hors-ligne, sans cloud, ce qui en fait une bonne solution pour ceux qui veulent garder leurs données 100 % locales.
+
+Il existe également [KeePassium](https://keepassium.com/) pour iOS, une application bien intégrée à l’écosystème Apple, compatible avec le format KeePass et open source. Une autre alternative iOS pour un client KeePass est Strongbox, mais ce logiciel n’est plus open source depuis quelques années.
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
+- [Proton Pass](https://proton.me/pass)
+
+Lancé par l’équipe de Proton (connue pour Proton Mail et Proton Drive notamment), Proton Pass combine simplicité d’usage, chiffrement de bout en bout, et infrastructure suisse respectueuse de la vie privée. L’application mobile est intuitive, permet d’ajouter des notes sécurisées, et prend en charge l’auto-remplissage. C’est une excellente alternative pour ceux qui veulent une solution clé en main, sans se soucier de la gestion technique.
+
+### VPN
+
+Les VPN (*Virtual Private Network*) permettent de chiffrer votre trafic Internet et de le faire transiter par un serveur distant intermédiaire. Cela masque votre adresse IP, sécurise vos connexions sur les réseaux publics (Wi-Fi d’aéroport, cafés...) et vous protège contre certaines formes de surveillance.
+
+Cependant, tous les VPN ne se valent pas. Des services populaires comme NordVPN ou ExpressVPN fonctionnent bien, mais leur approche reste commerciale, avec un modèle basé sur le suivi utilisateur pour l’optimisation marketing. Ils exigent également une création de compte et recueillent souvent plus de données qu’ils ne le laissent entendre.
+
+**Les alternatives :**
+
+- [Mullvad VPN](https://mullvad.net/)
+
+Mullvad est l’un des meilleurs VPN en termes de protection de la vie privée. Il ne demande aucun email, ni mot de passe : votre compte est lié à un simple numéro aléatoire. Le paiement peut se faire en bitcoins ou en espèces. Le client mobile est open-source, simple à utiliser et performant. Mullvad ne garde aucun log, ne suit pas ses utilisateurs, et publie régulièrement des audits de sécurité indépendants.
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+- [IVPN](https://www.ivpn.net/)
+
+IVPN est une autre excellente alternative axée sur la confidentialité. Il propose une interface mobile sobre et efficace, aucune collecte de logs, et permet de s’inscrire anonymement. Vous pouvez aussi payer en bitcoins. L’application intègre un pare-feu bloquant tout trafic hors VPN, ce qui peut être très utile sur smartphone. Les clients sont open-source.
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+- [Proton VPN](https://protonvpn.com/)
+
+Développé par l’équipe de Proton, ce VPN offre un plan gratuit sans publicité. Proton VPN est basé en Suisse, soumis à des lois strictes sur la vie privée, et publie régulièrement des audits. LEs clients sont également open-source.
+
+### Authentification 2FA
+
+L’authentification à deux facteurs (2FA) est une couche de sécurité supplémentaire qui s’ajoute à votre mot de passe. Elle repose souvent sur un code à usage unique généré toutes les 30 secondes par une application d’authentification. Ce code est basé sur un secret partagé entre votre appareil et le service en ligne, selon le protocole TOTP (*Time-based One-Time Password*). L’application la plus connue est Google Authenticator, mais elle n'est pas open-source et vous rend dépendant à l’écosystème Google.
+
+**Les alternatives :**
+
+- [Aegis Authenticator](https://getaegis.app/)
+
+Aegis est une application open-source très complète. Elle chiffre votre base de données 2FA avec un mot de passe, propose des sauvegardes exportables (également chiffrées), et permet de trier vos comptes par dossier. L’interface est claire, moderne, et la restauration sur un nouvel appareil est simple, tant que vous disposez du fichier de sauvegarde et du mot de passe associé.
+
+- [Ente Auth](https://ente.io/auth/)
+
+Ente Auth est une solution moderne, open-source, multiplateforme et dotée de sauvegardes chiffrées de bout en bout. Elle permet de synchroniser vos codes 2FA sur mobile, desktop et web de manière sécurisée. Vous pouvez également l’utiliser en mode hors ligne, sans sauvegarde cloud, ni création de compte.
+
+Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation par tags, icônes personnalisées pour chaque service, notes, favoris, recherche intégrée, partage sécurisé de codes en équipe...
+
+- [Authy](https://www.authy.com/)
+
+Authy propose la synchronisation 2FA sur plusieurs appareils, ce qui peut être pratique, mais l’application n’est pas open-source et nécessite un numéro de téléphone à l’inscription. Elle reste toutefois plus complète que Google Authenticator pour les débutants, notamment grâce à sa fonction de sauvegarde cloud.
+
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+Si vous souhaitez en savoir plus sur les gestionnaires de mots de passe, l'authentification 2FA et les VPN, je vous conseille de lire les chapitres dédiés dans la formation SCU 101 :
+
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+
+### Météo
+
+Les applications météo classiques comme AccuWeather ou Météo France collectent souvent des données personnelles, notamment votre localisation précise, vos habitudes d’usage et parfois même des identifiants de votre appareil, à des fins commerciales ou publicitaires. Ces services reposent aussi sur des API propriétaires centralisées, ce qui limite votre contrôle sur les données affichées ou transmises.
+
+**Les alternatives :**
+
+- [Geometric Weather](https://github.com/WangDaYeeeeee/GeometricWeather)
+
+Geometric Weather propose des prévisions détaillées, des widgets personnalisables, le tout sans publicité ni collecte intrusive. Son code est open-source. L'application prend en charge plusieurs fournisseurs météo.
+
+- [Prognoza](https://github.com/davidtakac/prognoza)
+
+Prognoza est une application minimaliste qui va droit à l'essentiel : afficher la météo actuelle et les prévisions. Elle propose plusieurs widgets. Prognoza fonctionne sans publicité, sans pisteur, et ne demande aucune autorisation inutile.
+
+- [Forecastie](https://github.com/martykan/forecastie)
+
+Application de météo simple, basée sur OpenWeatherMap, open-source, configurable, avec des widgets.
+
+De manière plus générale, sur les applications de météo, préférez configurer manuellement les localisations qui vous intéressent plutôt que d’activer la géolocalisation automatique.
+
+### Streaming audio/vidéo
+
+Les plateformes populaires comme Spotify ou YouTube offrent une expérience utilisateur fluide, mais en contrepartie d’un important compromis sur la vie privée. Ces services collectent en permanence des données comportementales : historique de visionnage ou d’écoute, temps passé, préférences de contenu, appareil utilisé... Ces informations sont souvent exploitées à des fins de profilage ou de ciblage publicitaire.
+
+**Les alternatives :**
+
+- [LibreTube](https://libretube.dev/)
+
+LibreTube est une application Android qui permet de visionner des vidéos YouTube sans que Google ne puisse vous suivre. Toutes les requêtes sont redirigées via un serveur proxy Piped, ce qui anonymise l'accès aux vidéos. L'interface est moderne, rapide et sans publicité. L'application ne nécessite aucun compte Google, et permet de s’abonner anonymement à des chaînes ou de créer des listes de lecture locales.
+
+- [NewPipe](https://newpipe.net/)
+
+NewPipe est un autre client YouTube alternatif. Léger, sans publicité, sans pisteur, et entièrement open-source, il permet de visionner, télécharger ou écouter en arrière-plan des vidéos issues de YouTube (et d’autres plateformes comme SoundCloud ou PeerTube). Aucune connexion à Google n’est requise. NewPipe fonctionne de manière totalement indépendante de l’application YouTube officielle, et ne nécessite aucun service Google pour fonctionner.
+
+- [VLC Android](https://www.videolan.org/vlc/download-android.html)
+
+Le célèbre lecteur multimédia VLC est également disponible sur Android. Il prend en charge un grand nombre de formats audio et vidéo, permet la lecture de fichiers en local ou en réseau, le tout sans publicité ni collecte de données. C’est une excellente solution pour gérer votre propre bibliothèque multimédia en local, sans connexion à un service tiers.
+
+- [Funkwhale](https://funkwhale.audio/) :
+
+Funkwhale est une plateforme décentralisée pour le partage et l’écoute de musique, avec clients compatibles.
+
+### Clavier
+
+Les claviers virtuels comme Gboard de Google ou SwiftKey de Microsoft sont omniprésents sur les smartphones. Cependant, ils posent des risques majeurs pour la vie privée : chaque caractère tapé peut théoriquement être enregistré, analysé ou transmis à des serveurs distants. Même si ces entreprises affirment anonymiser les données, la collecte reste possible.
+
+**Les alternatives :**
+
+- [OpenBoard](https://github.com/dslul/openboard)
+
+OpenBoard est un clavier Android minimaliste, open-source, basé sur le clavier AOSP (*Android Open Source Project*). Il ne contient aucun composant propriétaire ni traqueur, et ne communique jamais avec des serveurs distants. L'autocorrection, la saisie prédictive et le dictionnaire personnel fonctionnent en local uniquement.
+
+- [FlorisBoard](https://florisboard.org/)
+
+FlorisBoard propose une approche plus moderne et modulaire. Également open-source, il intègre des fonctionnalités avancées comme la saisie gestuelle, la disposition personnalisée des touches, ou encore la gestion multilingue. Tout le traitement des données se fait localement, sans connexion à des serveurs extérieurs. FlorisBoard est encore en développement, mais déjà tout à fait utilisable au quotidien pour celles et ceux qui souhaitent un clavier puissant, sans sacrifier leur vie privée.
+
+### Calculatrice
+
+L’application Google Calculator, bien qu’efficace, reste un produit Google et s’accompagne des risques habituels liés à la collecte de données et à la dépendance à un écosystème centralisé.
+
+**Les alternatives :**
+
+- [OpenCalc](https://github.com/Darkempire78/OpenCalc)
+
+OpenCalc est une calculatrice open-source simple et rapide, parfaitement adaptée aux besoins du quotidien. Elle ne collecte aucune donnée et fonctionne entièrement hors ligne, sans publicité ni dépendance à un quelconque service externe.
+
+### Magasin d’applications
+
+Le Google Play Store est la source par défaut d’applications sur la majorité des smartphones Android. Toutefois, il est profondément intégré aux services Google et implique une collecte systématique de données, même lors de simples recherches ou mises à jour.
+
+**Les alternatives :**
+
+- [F-Droid](https://f-droid.org/)
+
+F-Droid est un catalogue d'applications exclusivement open-source. Chaque logiciel disponible y est librement auditable et téléchargeable, sans publicité, ni suivi, ni dépendance aux services Google. L'application F-Droid elle-même ne nécessite pas de compte utilisateur.
+
+- [Aurora Store](https://auroraoss.com/)
+
+Aurora Store permet d’accéder anonymement au catalogue du Google Play Store, sans compte Google. Il s’agit d’un client libre qui interagit directement avec les serveurs de Google, tout en masquant votre identité via un compte générique. C’est une solution précieuse pour continuer à utiliser certaines applications propriétaires nécessaires, tout en évitant la télémétrie de Google Play.
+
+### Actualités
+
+L’application Google News, bien que pratique et personnalisée, repose sur une analyse systématique de vos centres d’intérêt, de votre historique de navigation et de vos lectures pour affiner ses recommandations. Ce fonctionnement implique une collecte étendue de données personnelles, souvent utilisée à des fins publicitaires.
+
+**Les alternatives :**
+
+- [News](https://github.com/bubelov/news)
+
+L’application *News*, développée par Bubelov, propose une approche radicalement différente. Il s’agit d’un lecteur RSS minimaliste, conçu pour consulter les actualités sans traqueurs, sans publicité et sans algorithme de recommandation opaque. Vous pouvez y choisir manuellement vos sources (presse, blogs, podcasts, médias indépendants…), ce qui vous garantit une expérience de lecture neutre et privée. Le design est épuré, les flux sont mis à jour automatiquement, et aucune donnée n’est transmise à des tiers.
+
+### Contacts
+
+Google Contacts, comme beaucoup d’applications par défaut sur Android, synchronise en permanence vos carnets d’adresses avec les serveurs de Google. Cela signifie que toutes les informations sur vos correspondants (noms, numéros, e-mails, parfois adresses postales ou photos) sont stockées en ligne et associées à votre compte. Cette centralisation facilite les sauvegardes et les synchronisations, mais soulève des enjeux de confidentialité majeurs.
+
+**Les alternatives :**
+
+- [Connect You](https://github.com/you-apps/ConnectYou)
+
+Connect You est une alternative open-source légère et sobre, pensée pour ceux qui souhaitent gérer leurs contacts localement, sans collecte de données ni synchronisation forcée avec un cloud tiers. Elle offre une interface intuitive, permet de trier, rechercher et modifier facilement vos entrées, et peut s'intégrer à des services CalDAV si vous utilisez un serveur de contacts auto-hébergé (par exemple via Nextcloud).
+
+### Gestion de photos
+
+Google Photos est très pratique pour sauvegarder automatiquement ses images dans le cloud, les organiser ou les retrouver par reconnaissance faciale. Mais cette simplicité cache un traitement systématique de vos données : chaque image est analysée, indexée, et peut être croisée avec vos autres données Google. Vos photos peuvent devenir une source d’information supplémentaire exploitée à des fins commerciales.
+
+**Les alternatives :**
+
+- [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
+
+Simple Gallery est une application open-source minimaliste qui fonctionne entièrement hors ligne. Elle fait partie de la suite *Simple Mobile Tools*. Elle vous permet de gérer, trier, afficher et éditer vos images sans qu’aucune donnée ne quitte votre appareil. Elle intègre aussi des fonctions de retouche, de protection par mot de passe, et une corbeille pour récupérer les éléments supprimés. Aucun traqueur, aucune synchronisation forcée : vos photos restent chez vous.
+
+- [Aves](https://github.com/deckerst/aves)
+
+Aves est une alternative avec une interface plus moderne. Elle prend permet une navigation fluide dans vos albums, et offre une organisation avancée (tags, filtres, tri...). Elle ne nécessite aucune connexion internet pour fonctionner et ne collecte aucune donnée utilisateur.
+
+### Lecteur PDF
+
+**Les alternatives :**
+
+Adobe Acrobat Reader, très utilisé pour lire ou annoter des documents PDF, s'accompagne de nombreuses fonctions en ligne qui peuvent exposer vos données : télémétrie active, synchronisation cloud et collecte d’informations sur vos fichiers ou habitudes de lecture.
+
+- [MuPDF Viewer](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
+
+MuPDF Viewer est un lecteur PDF ultra-léger, rapide et totalement open-source. Il consomme très peu de ressources. Bien qu’il ne dispose pas de fonctions avancées comme l’annotation ou la signature, il remplit parfaitement sa mission : afficher vos documents, sans espionnage.
+
+- [MJ PDF Reader](https://gitlab.com/mudlej_android/mj_pdf_reader)
+
+MJ PDF Reader est une application simple et open-source qui permet de lire des fichiers PDF sans publicité ni connexion à un compte en ligne.
+
+### Téléphone
+
+L’application Téléphone de Google, installée par défaut sur de nombreux smartphones Android, fonctionne efficacement mais collecte une quantité importante de données d’usage.
+
+**Les alternatives :**
+
+- [Koler](https://github.com/Chooloo/koler)
+
+Koler est une application de téléphonie open-source, conçue pour être à la fois jolie, simple à utiliser et respectueuse de la vie privée. Elle propose une interface fluide et intuitive pour gérer vos appels, sans traqueurs ni analyse de données personnelles. En revanche, elle n'inclut pour le moment pas de filtrage d’appels avancé, ni d’intégration avec des services tiers.
+
+### Traduction
+
+Google Translate est la référence en matière de traduction automatique, mais son utilisation implique systématiquement l’envoi de toutes vos requêtes à Google, avec un suivi intégré et une collecte possible de données sensibles (textes traduits, historique...).
+
+**Les alternatives :**
+
+- [TranslateYou](https://github.com/you-apps/TranslateYou)
+
+TranslateYou est une application de traduction open-source qui respecte la vie privée de ses utilisateurs. Elle fonctionne comme une interface pour différents moteurs de traduction (LibreTranslate, LingvaTranslate, Mozhi, DeepL...), et permet de choisir un service qui n’exploite pas vos données.
+
+Aucune publicité, pas de traqueurs, et une interface simple à utiliser font de TranslateYou une alternative pratique à Google Translate.
+
+### Scanneur de produits
+
+Yuka est largement utilisée pour scanner des produits alimentaires et cosmétiques et évaluer leur qualité, mais elle repose sur un modèle opaque, avec des critères de notation discutables, une base de données partiellement propriétaire et une application non open-source. De plus, son fonctionnement nécessite une connexion à un serveur centralisé, avec collecte potentielle de données d’usage.
+
+**Les alternatives :**
+
+- [OpenFoodFacts](https://world.openfoodfacts.org/open-food-facts-mobile-app)
+
+OpenFoodFacts constitue une alternative bien plus transparente et respectueuse de la vie privée. Ce projet collaboratif open-source propose une base de données mondiale, alimentée par les contributions des utilisateurs. Les informations nutritionnelles, les ingrédients et les labels sont accessibles en toute transparence, sans collecte abusive de données.
+
+L’application mobile permet de scanner les codes-barres, d’accéder immédiatement aux fiches produits, et de contribuer soi-même à enrichir la base. Son fonctionnement est totalement libre, sans publicité ni traqueur.
+
+### Partage à proximité
+
+Les fonctions comme Quick Share (Android) ou AirDrop (iOS/macOS) permettent d’envoyer des fichiers entre appareils proches via Bluetooth et Wi-Fi direct, sans connexion Internet. Elles sont pratiques, mais reposent sur des systèmes fermés, parfois liés à des comptes Google, Samsung ou Apple.
+
+Quick Share est désormais la norme sur Android. Ce logiciel, à l’origine développé par Samsung, a été unifié en 2024 avec Nearby Share par Google, ce qui a donné naissance à une application unique pour le partage de fichiers sur Android.
+
+**Les alternatives :**
+
+- [Snapdrop](https://github.com/SnapDrop/snapdrop)
+
+Snapdrop est une alternative libre et open-source, sans installation nécessaire. Il permet le partage de fichiers entre appareils connectés au même réseau local, simplement via un navigateur web. Le transfert est direct (en pair-à-pair) et les données ne transitent jamais par un serveur distant.
+
+Une alternative intéressante est [PairDrop](https://github.com/schlagmichdoch/pairdrop) (un fork de Snapdrop) qui propose quelques fonctionnalités supplémentaires.
+
+- [Warpinator](https://github.com/linuxmint/warpinator)
+
+Warpinator, développé par Linux Mint, facilite le transfert de fichiers entre appareils connectés au même réseau Wi-Fi. Il fonctionne en pair-à-pair, sans cloud ni serveur tiers, avec une interface simple. Des portages existent pour Android, ce qui permet de transférer des fichiers entre téléphone et ordinateur.
+
+- [LocalSend](https://localsend.org/)
+
+LocalSend est une autre alternative libre, complète et avec une interface soignée. Entièrement open-source, cette application permet de transférer des fichiers de manière décentralisée et chiffrée de bout en bout entre appareils connectés au même réseau local. Aucun serveur intermédiaire n’est utilisé, ce qui garantit que vos données ne quittent jamais votre réseau domestique.
+
+### Livres
+
+Les applications comme Goodreads, bien que largement utilisées, posent de sérieuses questions en matière de confidentialité. Cette plateforme appartient à Amazon, qui collecte un grand nombre de données sur vos lectures, vos préférences, vos notes et vos commentaires. De plus, l’interface repose fortement sur le suivi des utilisateurs et l’analyse comportementale à des fins commerciales.
+
+**Les alternatives :**
+
+- [Openreads](https://github.com/mateusz-bak/openreads)
+
+Openreads constitue une alternative open-source pour vous offrir un suivi de lecture respectueux de la vie privée. Cette application vous permet de créer une bibliothèque numérique personnelle, de suivre votre progression dans vos lectures, de noter et commenter les ouvrages, et d’accéder à des recommandations basées sur vos propres critères, sans analyse centralisée ni tracking. Toutes les données restent sur votre appareil ou sont synchronisées via des services auto-hébergés.
+
+### Explorateur de fichiers
+
+L'application Google Files, très répandue sur les smartphones Android, propose des fonctionnalités utiles comme le nettoyage de stockage ou la navigation dans les fichiers. Toutefois, elle envoie également des données d'utilisation à Google et intègre des éléments de télémétrie.
+
+**Les alternatives :**
+
+- [Material Files](https://github.com/zhanghai/MaterialFiles)
+
+Material Files est un explorateur de fichiers open-source, sobre et sans publicité. L'application repose sur le design "Material" d'Android pour offrir une navigation claire et intuitive, sans superflu. Elle permet de gérer les fichiers locaux.
+
+
+### Horloge, alarmes et minuteurs
+
+**Les alternatives :**
+
+- [Chrono](https://github.com/vicolo-dev/chrono)
+
+Disponible sur F-Droid et entièrement open-source, Chrono propose une interface moderne et épurée, sans publicité ni collecte de données. Elle permet de créer des alarmes personnalisables : répétition selon des jours précis ou des plages de dates, choix du son, intensité progressive, vibreur, ou encore tâches à réaliser pour désactiver l’alarme (résolution d’un calcul, relecture d’un texte...).
+
+L'application intègre également un minuteur et un chronomètre, avec enregistrement des tours (laps), statistiques, comparaisons de temps, et une gestion multi-timers. Vous pouvez configurer plusieurs fuseaux horaires, personnaliser le thème (couleurs, styles, animations), et même organiser vos alarmes et minuteurs avec des étiquettes.
+
+___
+
+⚠️ ***Attention** : bien que les alternatives présentées dans ce chapitre soient majoritairement open source et orientées protection de la vie privée, elles ne sont pas sans limites ou sans risques. Certaines peuvent cesser d’être maintenues, comporter des vulnérabilités non corrigées, devenir propriétaires ou même, potentiellement, être des logiciels malveillants. Certaines peuvent également être illégales selon votre juridiction locale. J’ai rédigé ce chapitre en juin 2025, mais il est possible que la situation de ces applications ait évolué depuis.*
+
+*Par ailleurs, je n’ai pas personnellement audité le code de l’ensemble des outils mentionnés, et mes recommandations ne doivent en aucun cas être perçues comme des garanties absolues. Il est donc important que chacun mène ses propres recherches avant d’utiliser ces applications.*
+
+___
 
 
 

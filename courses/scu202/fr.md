@@ -2763,6 +2763,21 @@ Thunderbird Mobile est la version mobile du célèbre client de messagerie open 
 
 Tuta (anciennement "*Tutanota*") propose une solution complète d’email chiffré de bout en bout, mais son client mobile ne prend en charge que les comptes Tuta. Il ne fonctionne pas avec d’autres fournisseurs. L’interface est moderne et épurée, et l’inscription ne requiert aucune donnée personnelle.
 
+- [Proton Mail](https://proton.me/mail)
+
+Proton Mail est un service de messagerie sécurisé basé en Suisse, qui propose un chiffrement de bout en bout natif entre utilisateurs Proton. L’application mobile est open-source, sans publicité, et ne collecte aucune donnée personnelle lors de l’inscription. Proton Mail ne prend en charge que les comptes Proton, mais permet l’envoi chiffré même vers des adresses externes via un mot de passe.
+
+→ Un système d'email repose sur 2 composants distincts : le fournisseur d’email (comme Gmail, Tuta ou Proton Mail) qui gère la réception, l’envoi et le stockage des messages via des serveurs ; et le client email, qui est l’application utilisée pour consulter et rédiger vos emails (comme Gmail l'application, Outlook, K-9 Mail ou Thunderbird). Le client peut se connecter à différents fournisseurs via des protocoles standard comme IMAP ou SMTP.
+
+Il est donc possible d’utiliser un client open-source respectueux de la vie privée tout en conservant, dans un premier temps, un compte chez un fournisseur plus classique. Certaines applications, comme Gmail, Proton Mail ou Tuta, proposent des clients email qui font également office de fournisseur de messagerie, et offrent donc une solution complète intégrant à la fois l’interface de lecture et le service d’envoi/réception des emails.
+
+Pour le choix de votre fournisseur d'email, voici quelques suggestions :
+- [Proton Mail](https://proton.me/mail),
+- [Tuta](https://tuta.com/),
+- [Mailbox](https://mailbox.org/),
+- [Disroot](https://disroot.org/),
+- [Mailfence](https://mailfence.com/). 
+
 ### Cartographie et navigation
 
 La plupart des applications de cartographie classiques, comme Google Maps, Waze ou Citymapper, collectent une grande quantité de données personnelles. Elles enregistrent vos déplacements, vos recherches et vos habitudes pour les exploiter à des fins commerciales.
@@ -2830,6 +2845,14 @@ Etar est un calendrier simple et efficace, entièrement open-source. Il peut fon
 - [Simple Calendar](https://simplemobiletools.com/simplecalendar/)
 
 Cette application fait partie de la suite "*Simple Mobile Tools*". Elle ne nécessite aucun compte ni accès réseau, ce qui en fait une solution idéale pour une utilisation entièrement hors ligne. Vous pouvez y ajouter vos événements, définir des rappels, organiser des vues par jour, semaine ou mois. Comme le reste de la suite, l'application Simple Calendar est sans publicité, sans tracker, et 100 % open-source.
+
+- [Tuta Calendar](https://tuta.com/calendar)  
+
+Tuta Calendar, développé par l'équipe derrière Tuta Mail, est un calendrier entièrement chiffré de bout en bout, conçu pour préserver la confidentialité de vos événements. Il fonctionne sur Android, iOS et via un client web. Même les titres, les descriptions et les métadonnées de vos événements sont chiffrés, ce qui garantit qu'aucun tiers, y compris Tuta, ne peut accéder à vos données.
+
+- [Proton Calendar](https://proton.me/calendar)
+
+Proton Calendar offre également un chiffrement de bout en bout natif pour vos événements et leurs métadonnées. Il est accessible sur mobile (Android, iOS) et via un client web, avec une interface claire et intuitive. Le service permet la création de plusieurs calendriers, l’import/export d’événements et des options de partage. Le client web est open-source, mais les applications mobiles ne le sont pas encore totalement.
 
 ### Prise de notes
 
@@ -3036,6 +3059,14 @@ Simple Gallery est une application open-source minimaliste qui fonctionne entiè
 - [Aves](https://github.com/deckerst/aves)
 
 Aves est une alternative avec une interface plus moderne. Elle prend permet une navigation fluide dans vos albums, et offre une organisation avancée (tags, filtres, tri...). Elle ne nécessite aucune connexion internet pour fonctionner et ne collecte aucune donnée utilisateur.
+
+- [Ente Photos](https://ente.io/)
+
+Ente Photos est un service open-source (clients + serveurs) de sauvegarde automatique de photos avec chiffrement de bout en bout. Vos images sont chiffrées sur l’appareil avant d’être envoyées, ce qui garantit que même les serveurs Ente ne peuvent y accéder. Ente propose aussi une version auto-hébergeable pour les utilisateurs avancés.
+
+- [Stingle Photos](https://stingle.org/)
+
+Stingle est à la fois une galerie photo et une application de caméra, combinée à un service de sauvegarde chiffrée. Tout comme Ente, les photos sont protégées par un chiffrement de bout en bout. Vous pouvez utiliser leur service cloud (1 Go gratuit) ou auto-héberger le serveur Stingle pour garder un contrôle total. L’interface est sobre, sans publicité ni traqueur.
 
 ### Lecteur PDF
 

@@ -1,8 +1,8 @@
-question: Kada se dogodio block size war?
-answer: U 2017.
+question: Kada se dogodio rat oko veličine bloka(block size war)?
+answer: 2017.god.
 wrong_answers:
-  - U 2008.
-  - U 2010.
-  - U 2019.
+  - 2008.god.
+  - 2010.god.
+  - 2019.god.
 explanation: >-
 reviewed: true

@@ -1,6 +1,6 @@
 ---
 name: Trezor Safe 3
-description: Configurazione e utilizzo di Hardware Wallet Safe 3
+description: Configurazione e utilizzo dell'Hardware Wallet Safe 3
 ---
 ![cover](assets/cover.webp)
 
@@ -10,7 +10,7 @@ description: Configurazione e utilizzo di Hardware Wallet Safe 3
 
 
 
-Il Trezor Safe 3 è un Hardware Wallet progettato da SatoshiLabs e creato nel 2023. È un modello molto compatto e leggero (14 grammi) progettato sia per i principianti che per gli utenti intermedi. È il successore del famoso Model One, con aggiunte significative, pur mantenendo l'approccio open-source del marchio che lo distingue dal suo principale concorrente, il Ledger. Il Safe 3 ha un prezzo di 79 euro. Si posiziona quindi nel segmento medio del Hardware Wallet, in diretta concorrenza con il Ledger Nano S Plus.
+Il Trezor Safe 3 è un Hardware Wallet progettato da SatoshiLabs e creato nel 2023. È un modello molto compatto e leggero (14 grammi) progettato sia per i principianti che per gli utenti intermedi. È il successore del famoso Model One, con aggiunte significative, pur mantenendo l'approccio open-source del marchio che lo distingue dal suo principale concorrente, il Ledger. Il Safe 3 ha un prezzo di 79 euro. Si posiziona quindi nel segmento medio degli Hardware Wallet, in diretta concorrenza con il Ledger Nano S Plus.
 
 
 
@@ -22,23 +22,23 @@ Il Safe 3 non ha una batteria e funziona esclusivamente tramite una connessione 
 
 
 
-Safe 3 offre tutte le caratteristiche essenziali che ci si aspetta da un buon Hardware Wallet, compresa un'eccellente integrazione del passphrase BIP39. Tuttavia, non supporta ancora Miniscript.
+Safe 3 offre tutte le caratteristiche essenziali che ci si aspetta da un buon Hardware Wallet, compresa un'eccellente integrazione della passphrase BIP39. Tuttavia, non supporta ancora [Miniscript](https://planb.network/resources/glossary/miniscript).
 
 
 
-Questo modello è particolarmente adatto ai principianti e potrebbe addirittura essere il Hardware Wallet che consiglierei a un nuovo utente. È adatto anche agli utenti intermedi. D'altra parte, potrebbe non soddisfare tutte le aspettative degli utenti avanzati che cercano funzioni più specifiche, disponibili su dispositivi come la Coldcard. Tuttavia, se non avete bisogno di queste opzioni avanzate, il Trezor Safe 3 può essere una scelta eccellente.
+Questo modello è particolarmente adatto ai principianti e potrebbe addirittura essere l'Hardware Wallet che consiglierei a un nuovo utente. È adatto anche agli utenti intermedi. D'altra parte, potrebbe non soddisfare tutte le aspettative degli utenti avanzati che cercano funzioni più specifiche, disponibili su dispositivi come Coldcard. Tuttavia, se non hai bisogno di queste opzioni avanzate, Trezor Safe 3 può essere una scelta eccellente.
 
 
 
-## Il modello di sicurezza Trezor Safe 3
+## Il modello di sicurezza di Trezor Safe 3
 
 
 
-Il Trezor Safe 3 è ora dotato di un **Secure Element** certificato EAL6+, un progresso significativo rispetto ai modelli precedenti come il Model One e il Model T. Si tratta del chip OPTIGA Trust M V3, che non memorizza direttamente il seed, ma agisce come componente crittografico per proteggerne l'accesso. Il Secure Element conserva un segreto a cui si può accedere solo dopo che l'utente ha inserito correttamente il PIN. Questo segreto viene quindi utilizzato per decifrare il seed, che viene memorizzato in modo criptato nella memoria principale del dispositivo.
+Trezor Safe 3 è ora dotato di un **Secure Element** certificato EAL6+, un progresso significativo rispetto ai modelli precedenti come il Model One e il Model T. Si tratta del chip OPTIGA Trust M V3, che non memorizza direttamente il seed, ma agisce come componente crittografico per proteggerne l'accesso. Il Secure Element conserva un segreto a cui si può accedere solo dopo che l'utente ha inserito correttamente il PIN. Questo segreto viene quindi utilizzato per decifrare il seed, che viene memorizzato in modo criptato nella memoria principale del dispositivo.
 
 
 
-Questo sistema di sicurezza ibrido offre una migliore protezione fisica, in particolare contro gli attacchi di estrazione o di analisi invasiva, problemi a cui il Model One era soggetto, in particolare nella gestione dei PIN. Queste vulnerabilità sono ora aggirate grazie all'utilizzo del Secure Element. Questo modello mantiene inoltre un'architettura software open-source: il codice che gestisce la generazione e l'utilizzo delle chiavi private rimane completamente accessibile e verificabile. Il chip OPTIGA gestisce soltanto il codice PIN, un elemento esterno alla gestione delle chiavi Bitcoin Wallet. Rilascia solo un segreto che può essere utilizzato per decifrare il seed. Inoltre, il chip OPTIGA Trust M V3 beneficia di una licenza relativamente libera, che autorizza SatoshiLabs a pubblicare liberamente le potenziali vulnerabilità.
+Questo sistema di sicurezza ibrido offre una migliore protezione fisica, in particolare contro gli attacchi di estrazione o di analisi invasiva, problemi a cui il Model One era soggetto, in particolare nella gestione dei PIN. Queste vulnerabilità sono ora aggirate grazie all'utilizzo del Secure Element. Questo modello mantiene inoltre un'architettura software open-source: il codice che gestisce la generazione e l'utilizzo delle chiavi private rimane completamente accessibile e verificabile. Il chip OPTIGA gestisce soltanto il codice PIN, un elemento esterno alla gestione delle chiavi bitcoin. Rilascia solo un segreto che può essere utilizzato per decifrare il seed. Inoltre, il chip OPTIGA Trust M V3 beneficia di una licenza relativamente libera, che autorizza SatoshiLabs a pubblicare liberamente le potenziali vulnerabilità.
 
 
 
@@ -46,15 +46,15 @@ Questo modello di sicurezza rappresenta, a mio avviso, uno dei migliori comprome
 
 
 
-In questa guida vi mostreremo come configurare e utilizzare il vostro Trezor Safe 3 in modo sicuro.
+In questa guida ti mostro come configurare e utilizzare il tuo Trezor Safe 3 in modo sicuro.
 
 
 
-## Unboxing del Trezor Safe 3
+## Unboxing di Trezor Safe 3
 
 
 
-Quando si riceve il Safe 3, assicurarsi che la scatola e il Seal siano intatti per confermare che la confezione non è stata aperta. In seguito, al momento della configurazione, verrà effettuata una verifica software dell'autenticità e dell'integrità del dispositivo.
+Quando si riceve il Safe 3, assicurati che la scatola e il Seal siano intatti per confermare che la confezione non è stata aperta. In seguito, al momento della configurazione, verrà effettuata una verifica software dell'autenticità e dell'integrità del dispositivo.
 
 
 
@@ -64,7 +64,7 @@ Il contenuto della scatola comprende :
 
 
 - Trezor Safe 3;
-- Un astuccio contenente cartoncini per registrare la frase Mnemonic, adesivi e istruzioni;
+- Un astuccio contenente cartoncini per registrare la frase Mnemonica, adesivi e istruzioni;
 - Cavo da USB-C a USB-C.
 
 
@@ -73,7 +73,7 @@ Il contenuto della scatola comprende :
 
 
 
-Una volta aperto, il Trezor Safe 3 dovrebbe essere protetto da una plastica protettiva e la porta USB-C dovrebbe essere protetta da un Seal olografico. Assicurarsi che sia presente.
+Una volta aperto, Trezor Safe 3 dovrebbe essere protetto da una plastica protettiva e la porta USB-C dovrebbe essere protetta da un Seal olografico. Assicurati che sia presente.
 
 
 
@@ -81,7 +81,7 @@ Una volta aperto, il Trezor Safe 3 dovrebbe essere protetto da una plastica prot
 
 
 
-La navigazione sul dispositivo è semplice: utilizzare il pulsante destro per scorrere verso destra e il pulsante sinistro per scorrere verso sinistra. Premere entrambi i pulsanti contemporaneamente per confermare un'azione.
+La navigazione sul dispositivo è semplice: utilizza il pulsante destro per scorrere verso destra e il pulsante sinistro per scorrere verso sinistra. Premi entrambi i pulsanti contemporaneamente per confermare un'azione.
 
 
 
@@ -93,13 +93,13 @@ La navigazione sul dispositivo è semplice: utilizzare il pulsante destro per sc
 
 
 
-In questa esercitazione vi mostrerò come utilizzare Trezor Safe 3 con [Sparrow Wallet portfolio management software](https://sparrowwallet.com/download/). Se non avete ancora installato questo software, fatelo subito. Se avete bisogno di aiuto, abbiamo anche un tutorial dettagliato sulla configurazione di Sparrow Wallet :
+In questo tutorial ti mostrerò come utilizzare Trezor Safe 3 con [Sparrow](https://sparrowwallet.com/download/). Se non hai ancora installato questo software, fallo subito. Se hai bisogno di aiuto, abbiamo anche un tutorial dettagliato sulla configurazione di Sparrow:
 
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-È inoltre necessario il software Trezor Suite per configurare il Safe 3, verificarne l'autenticità e installare il firmware. Utilizzeremo questo software solo per questo, e in seguito sarà necessario solo per gli aggiornamenti del firmware. Per la gestione quotidiana del Wallet, utilizzeremo esclusivamente Sparrow Wallet, in quanto è ottimizzato per il Bitcoin e facile da usare, anche per i principianti (Sparrow supporta solo il Bitcoin, non le altcoin).
+È inoltre necessario il software Trezor Suite per configurare il Safe 3, verificarne l'autenticità e installare il firmware. Utilizzeremo questo software solo per questo, e in seguito sarà necessario solo per gli aggiornamenti del firmware. Per la gestione quotidiana del Wallet, utilizzeremo esclusivamente Sparrow, in quanto è ottimizzato per bitcoin e facile da usare, anche per i principianti (Sparrow supporta solo bitcoin, non le altcoin).
 
 
 
@@ -111,7 +111,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-Per entrambi i programmi, consiglio vivamente di verificarne l'autenticità (con GnuPG) e l'integrità (tramite Hash) prima di installarli sul computer. Se non sapete come fare, potete seguire quest'altra guida:
+Per entrambi i programmi, consiglio vivamente di verificarne l'autenticità (con GnuPG) e l'integrità (tramite Hash) prima di installarli sul computer. Se non sai come fare, puoi seguire quest'altra guida:
 
 
 
@@ -121,7 +121,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 
 
-Collegare il Safe 3 al computer dove sono già installati Trezor Suite e Sparrow Wallet.
+Collega il Safe 3 al computer dove sono già installati Trezor Suite e Sparrow.
 
 
 
@@ -129,7 +129,7 @@ Collegare il Safe 3 al computer dove sono già installati Trezor Suite e Sparrow
 
 
 
-Aprire Trezor Suite, quindi fare clic su "*Impostare il mio Trezor*".
+Apri Trezor Suite, quindi fai clic su "*Set up my Trezor*".
 
 
 
@@ -137,7 +137,7 @@ Aprire Trezor Suite, quindi fare clic su "*Impostare il mio Trezor*".
 
 
 
-Selezionare "*Firmware solo Bitcoin*", quindi fare clic su "*Installa Bitcoin*".
+Seleziona "*Bitcoin-only firmware*", quindi fai clic su "*Install Bitcoin-only*".
 
 
 
@@ -145,7 +145,7 @@ Selezionare "*Firmware solo Bitcoin*", quindi fare clic su "*Installa Bitcoin*".
 
 
 
-Trezor Suite installerà quindi il firmware sul Safe 3. Attendere durante l'installazione.
+Trezor Suite installerà quindi il firmware su Safe 3. Attendi durante l'installazione.
 
 
 
@@ -153,7 +153,7 @@ Trezor Suite installerà quindi il firmware sul Safe 3. Attendere durante l'inst
 
 
 
-Fare clic su "*Continua*".
+Fai clic su "*Continue*".
 
 
 
@@ -161,7 +161,7 @@ Fare clic su "*Continua*".
 
 
 
-Procedere quindi al test di autenticità per assicurarsi che il Hardware Wallet non sia falso o compromesso.
+Procedi quindi al test di autenticità per assicurarti che l'Hardware Wallet non sia falso o compromesso.
 
 
 
@@ -169,7 +169,7 @@ Procedere quindi al test di autenticità per assicurarsi che il Hardware Wallet 
 
 
 
-Sul Safe 3, premere il pulsante destro per confermare.
+Sul Safe 3, premi il pulsante destro per confermare.
 
 
 
@@ -177,7 +177,7 @@ Sul Safe 3, premere il pulsante destro per confermare.
 
 
 
-Se il Trezor è autentico, in Trezor Suite apparirà un messaggio di conferma.
+Se Trezor è autentico, in Trezor Suite apparirà un messaggio di conferma.
 
 
 
@@ -193,11 +193,11 @@ Se il Trezor è autentico, in Trezor Suite apparirà un messaggio di conferma.
 
 
 
-## Creare un portafoglio Bitcoin
+## Creare un Wallet Bitcoin
 
 
 
-Su Trezor Suite, fare clic sul pulsante "*Crea nuovo Wallet*".
+Su Trezor Suite, fai clic sul pulsante "*Create new Wallet*".
 
 
 
@@ -205,11 +205,11 @@ Su Trezor Suite, fare clic sul pulsante "*Crea nuovo Wallet*".
 
 
 
-Per un portafoglio standard, si può optare per il tipo di backup predefinito. In questo modo si crea un portafoglio classico a sigla singola con una frase Mnemonic di 12 parole. Fare clic su "*Crea Wallet*".
+Per un Wallet standard, si può optare per il tipo di backup predefinito. In questo modo creai un Wallet classico a sigla singola con una frase Mnemonic di 12 parole. Fai clic su "*Create Wallet*".
 
 
 
-Se volete saperne di più sulle altre opzioni di backup disponibili su Trezor, tra cui *Multi-share Backup*, vi consiglio di consultare anche questo tutorial:
+Se vuoi saperne di più sulle altre opzioni di backup disponibili su Trezor, tra cui *Multi-share Backup*, ti consiglio di consultare anche questo tutorial:
 
 
 
@@ -219,7 +219,7 @@ https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face
 
 
 
-Accettare le condizioni di utilizzo del Hardware Wallet.
+Accetta le condizioni di utilizzo dell'Hardware Wallet.
 
 
 
@@ -227,7 +227,7 @@ Accettare le condizioni di utilizzo del Hardware Wallet.
 
 
 
-Premere nuovamente il pulsante destro per creare un nuovo portafoglio.
+Premi nuovamente il pulsante destro per creare un nuovo Wallet.
 
 
 
@@ -235,7 +235,7 @@ Premere nuovamente il pulsante destro per creare un nuovo portafoglio.
 
 
 
-In Trezor Suite, fare clic su "*Continua il backup*".
+In Trezor Suite, fai clic su "*Continue to backup*".
 
 
 
@@ -243,23 +243,23 @@ In Trezor Suite, fare clic su "*Continua il backup*".
 
 
 
-Il software fornisce istruzioni su come gestire la frase Mnemonic.
+Il software fornisce istruzioni su come gestire la frase Mnemonica.
 
 
 
-Questo Mnemonic vi dà accesso completo e illimitato a tutti i vostri bitcoin. Chiunque sia in possesso di questa frase può rubare i vostri fondi, anche senza avere accesso fisico alla vostra Trezor Safe 3.
+Questa Mnemonica ti dà accesso completo e illimitato a tutti i tuoi bitcoin. Chiunque sia in possesso di questa frase può rubare i tuoi fondi, anche senza avere accesso fisico al tuo Trezor Safe 3.
 
 
 
-La frase di 12 parole ripristina l'accesso ai vostri bitcoin in caso di smarrimento, furto o rottura del vostro Hardware Wallet. È quindi molto importante salvarla con cura e conservarla in un luogo sicuro.
+La frase di 12 parole ripristina l'accesso ai tuoi bitcoin in caso di smarrimento, furto o rottura del tuo Hardware Wallet. È quindi molto importante salvarla con cura e conservarla in un luogo sicuro.
 
 
 
-Potete scriverlo sul cartoncino fornito nella scatola, oppure, per maggiore sicurezza, vi consiglio di inciderlo su una base in acciaio inossidabile per proteggerlo da incendi, allagamenti o crolli.
+Puoi scriverla sul cartoncino fornito nella scatola, oppure, per maggiore sicurezza, ti consiglio di inciderla su una base in acciaio inossidabile per proteggerla da incendi, allagamenti o crolli.
 
 
 
-Confermare le istruzioni, quindi fare clic sul pulsante "*Crea backup Wallet*".
+Conferma le istruzioni, quindi fai clic sul pulsante "*Create Wallet backup*".
 
 
 
@@ -267,15 +267,15 @@ Confermare le istruzioni, quindi fare clic sul pulsante "*Crea backup Wallet*".
 
 
 
-Safe 3 creerà la vostra frase Mnemonic utilizzando il suo generatore di numeri casuali. Assicuratevi di non essere osservati durante questa operazione. Scrivete le parole fornite sullo schermo su un supporto fisico di vostra scelta. A seconda della vostra strategia di sicurezza, potete pensare di fare diverse copie fisiche complete della frase (ma soprattutto non dividetela). È importante che le parole siano numerate e in ordine sequenziale.
+Safe 3 creerà la tua frase Mnemonica utilizzando il suo generatore di numeri casuali. Assicurati di non essere osservato durante questa operazione. Scrivi le parole fornite sullo schermo su un supporto fisico di tua scelta. A seconda della tua strategia di sicurezza, puoi pensare di fare diverse copie fisiche complete della frase (ma, cosa importante, non dividerla). È importante che le parole siano numerate e in ordine sequenziale.
 
 
 
-***Ovviamente, non dovete mai condividere queste parole su Internet, come faccio io in questa esercitazione. Questo esempio di Wallet sarà utilizzato solo sul Testnet e sarà cancellato alla fine del tutorial
+***Ovviamente, non devi mai condividere queste parole su Internet, come faccio io in questo tutorial. Questo Wallet di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial.***
 
 
 
-Per ulteriori informazioni sul modo corretto di salvare e gestire la frase Mnemonic, vi consiglio di seguire quest'altra guida, soprattutto se siete principianti:
+Per ulteriori informazioni sul modo corretto di salvare e gestire la frase Mnemonica, ti consiglio di seguire quest'altro tutorial, soprattutto se sei principiante:
 
 
 
@@ -285,7 +285,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Per passare alle parole successive, fare clic con il tasto destro del mouse. È possibile andare indietro facendo clic sul pulsante sinistro. Una volta scritte tutte le parole, tenere premuto il tasto destro per passare alla fase successiva.
+Per passare alle parole successive, fai clic con il tasto destro del mouse. È possibile andare indietro facendo clic sul pulsante sinistro. Una volta scritte tutte le parole, tieni premuto il tasto destro per passare alla fase successiva.
 
 
 
@@ -293,7 +293,7 @@ Per passare alle parole successive, fare clic con il tasto destro del mouse. È 
 
 
 
-Selezionare le parole della frase Mnemonic in base al loro ordine per confermare che sono state scritte correttamente. Utilizzare i pulsanti destro e sinistro per spostarsi tra le proposte, quindi selezionare la parola corretta facendo clic contemporaneamente sui due pulsanti.
+Seleziona le parole della frase Mnemonica in base al loro ordine per confermare che sono state scritte correttamente. Utilizza i pulsanti destro e sinistro per spostarsi tra le proposte, quindi seleziona la parola corretta facendo clic contemporaneamente sui due pulsanti.
 
 
 
@@ -301,7 +301,7 @@ Selezionare le parole della frase Mnemonic in base al loro ordine per confermare
 
 
 
-Una volta completata la procedura di verifica, fare clic sul pulsante a destra.
+Una volta completata la procedura di verifica, fai clic sul pulsante a destra.
 
 
 
@@ -313,11 +313,11 @@ Una volta completata la procedura di verifica, fare clic sul pulsante a destra.
 
 
 
-Poi si passa alla fase del codice PIN. Il codice PIN sblocca il Trezor. Pertanto, fornisce una protezione contro l'accesso fisico non autorizzato. Il codice PIN non partecipa alla creazione delle chiavi crittografiche del Wallet. Pertanto, anche in assenza di accesso al codice PIN, il possesso della frase Mnemonic di 12 parole consentirà al Trezor di accedere al dispositivo. Quindi, anche senza accesso al codice PIN, il possesso della frase Mnemonic di 12 parole vi permetterà di riavere accesso ai vostri bitcoin.
+Ora passiamo alla fase del codice PIN. Il codice PIN sblocca Trezor. Pertanto, fornisce una protezione contro l'accesso fisico non autorizzato. Il codice PIN non partecipa alla creazione delle chiavi crittografiche del Wallet. Pertanto, anche in assenza di accesso al codice PIN, il possesso della frase Mnemonica di 12 parole consentirà a Trezor di accedere al dispositivo. Quindi, anche senza accesso al codice PIN, il possesso della frase Mnemonica di 12 parole ti permetterà di riavere accesso ai tuoi bitcoin.
 
 
 
-Su Trezor Suite, fare clic su "*Continua a PIN*", quindi sul pulsante "*Imposta PIN*".
+Su Trezor Suite, fai clic su "*Continue to PIN*", quindi sul pulsante "*Set PIN*".
 
 
 
@@ -325,7 +325,7 @@ Su Trezor Suite, fare clic su "*Continua a PIN*", quindi sul pulsante "*Imposta 
 
 
 
-Confermare con Safe 3.
+Conferma con Safe 3.
 
 
 
@@ -333,11 +333,11 @@ Confermare con Safe 3.
 
 
 
-Si consiglia di scegliere un codice PIN il più possibile casuale. Assicurarsi di salvare questo codice in un luogo diverso da quello in cui è memorizzato il Trezor (ad esempio, in un gestore di password). È possibile definire un codice PIN di un numero compreso tra 8 e 50 cifre. Si consiglia di scegliere un codice PIN il più lungo possibile per aumentare la sicurezza.
+Si consiglia di scegliere un codice PIN il più possibile casuale. Assicurati di salvare questo codice in un luogo diverso da quello in cui è memorizzato Trezor (ad esempio, in un gestore di password). È possibile definire un codice PIN con un numero compreso tra 8 e 50 cifre. Si consiglia di scegliere un codice PIN il più lungo possibile per aumentare la sicurezza.
 
 
 
-Utilizzare i pulsanti destro e sinistro per selezionare ogni cifra. Per confermare la scelta e passare alla cifra successiva, premere entrambi i pulsanti contemporaneamente.
+Utilizzare i pulsanti destro e sinistro per selezionare ogni cifra. Per confermare la scelta e passare alla cifra successiva, premi entrambi i pulsanti contemporaneamente.
 
 
 
@@ -345,7 +345,7 @@ Utilizzare i pulsanti destro e sinistro per selezionare ogni cifra. Per conferma
 
 
 
-Al termine, fare clic sul segno di spunta "*INVIO*" all'inizio delle cifre, quindi confermare il PIN una seconda volta.
+Al termine, fai clic sul segno di spunta "*ENTER*" all'inizio delle cifre, quindi conferma il PIN una seconda volta.
 
 
 
@@ -361,7 +361,7 @@ Il codice PIN è stato registrato.
 
 
 
-Su Trezor Suite, fare clic sul pulsante "*Completa la configurazione*".
+Su Trezor Suite, faI clic sul pulsante "*Complete setup*".
 
 
 
@@ -369,7 +369,7 @@ Su Trezor Suite, fare clic sul pulsante "*Completa la configurazione*".
 
 
 
-La configurazione del Safe 3 è ora completa. Se lo si desidera, è possibile modificare il nome e la pagina iniziale del Hardware Wallet.
+La configurazione del Safe 3 è ora completa. Se lo desideri, è possibile modificare il nome e la pagina iniziale dell'Hardware Wallet.
 
 
 
@@ -377,25 +377,25 @@ La configurazione del Safe 3 è ora completa. Se lo si desidera, è possibile mo
 
 
 
-Non avremo più bisogno del software Trezor Suite, se non per eseguire gli aggiornamenti regolari del firmware sul Hardware Wallet o per eseguire un test di ripristino. Ora utilizzeremo Sparrow per gestire il portafoglio, poiché questo software è perfettamente adatto all'uso esclusivo del Bitcoin.
+Non avremo più bisogno del software Trezor Suite, se non per eseguire gli aggiornamenti regolari del firmware sull'Hardware Wallet o per eseguire un test di ripristino. Ora utilizzeremo Sparrow per gestire il Wallet, poiché questo software è perfettamente adatto all'uso esclusivo di bitcoin.
 
 
 
-## Impostazione del portafoglio su Sparrow Wallet
+## Impostazione del Wallet su Sparrow
 
 
 
-Iniziate scaricando e installando Sparrow Wallet [dal sito ufficiale](https://sparrowwallet.com/) sul vostro computer, se non l'avete ancora fatto.
+Inizia scaricando e installando Sparrow [dal sito ufficiale](https://sparrowwallet.com/) sul tuo computer, se non l'hai ancora fatto.
 
 
 
-Una volta aperto Sparrow Wallet, assicuratevi che il software sia collegato a un nodo Bitcoin, indicato dal segno di spunta nell'angolo in basso a destra del Interface. Se avete problemi a collegare Sparrow, vi consiglio di leggere l'inizio di questa guida:
+Una volta aperto Sparrow, assicurati che il software sia collegato a un nodo Bitcoin, indicato dal segno di spunta nell'angolo in basso a destra dell'interfaccia. Se hai problemi a collegare Sparrow, ti consiglio di leggere l'inizio di questa guida:
 
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-Fare clic sulla scheda "*File*", quindi su "*Nuovo Wallet*".
+Fai clic sulla scheda "*File*", quindi su "*New Wallet*".
 
 
 
@@ -403,7 +403,7 @@ Fare clic sulla scheda "*File*", quindi su "*Nuovo Wallet*".
 
 
 
-Assegnare un nome al portafoglio, quindi fare clic su "*Crea Wallet*".
+Assegna un nome al Wallet, quindi fai clic su "*Create Wallet*".
 
 
 
@@ -411,7 +411,7 @@ Assegnare un nome al portafoglio, quindi fare clic su "*Crea Wallet*".
 
 
 
-Nel menu a discesa "*Tipo di script*", selezionare il tipo di script che verrà utilizzato per proteggere i bitcoin. Io consiglio "*Taproot*" o, in mancanza, "*Native SegWit*".
+Nel menù a discesa "*Script Type*", seleziona il tipo di script che verrà utilizzato per proteggere i bitcoin. Io consiglio "*Taproot*" o, in mancanza, "*Native SegWit*".
 
 
 
@@ -419,7 +419,7 @@ Nel menu a discesa "*Tipo di script*", selezionare il tipo di script che verrà 
 
 
 
-Fare clic sul pulsante "*Connected Hardware Wallet*". Il Safe 3 deve ovviamente essere collegato al computer e sbloccato.
+Fai clic sul pulsante "*Connected Hardware Wallet*". Il Safe 3 deve ovviamente essere collegato al computer e sbloccato.
 
 
 
@@ -427,7 +427,7 @@ Fare clic sul pulsante "*Connected Hardware Wallet*". Il Safe 3 deve ovviamente 
 
 
 
-Fare clic sul pulsante "*Scan*". Dovrebbe apparire il vostro Safe 3. Fare clic su "*Importa Keystore*".
+Fare clic sul pulsante "*Scan*". Dovrebbe apparire il tuo Safe 3. Fai clic su "*Import Keystore*".
 
 
 
@@ -435,7 +435,7 @@ Fare clic sul pulsante "*Scan*". Dovrebbe apparire il vostro Safe 3. Fare clic s
 
 
 
-Ora è possibile visualizzare i dettagli del proprio Wallet, compresa la chiave pubblica estesa del primo account. Fare clic sul pulsante "*Apply*" per completare la creazione del Wallet.
+Ora è possibile visualizzare i dettagli del proprio Wallet, compresa la chiave pubblica estesa del primo account. Fai clic sul pulsante "*Apply*" per completare la creazione del Wallet.
 
 
 
@@ -443,11 +443,11 @@ Ora è possibile visualizzare i dettagli del proprio Wallet, compresa la chiave 
 
 
 
-Scegliete una password forte per proteggere l'accesso a Sparrow Wallet. Questa password garantirà un accesso sicuro ai dati di Sparrow Wallet, proteggendo le chiavi pubbliche, gli indirizzi, le etichette e la cronologia delle transazioni da accessi non autorizzati.
+Scegli una password forte per proteggere l'accesso a Sparrow. Questa password garantirà un accesso sicuro ai dati di Sparrow, proteggendo le chiavi pubbliche, gli indirizzi, le etichette e la cronologia delle transazioni da accessi non autorizzati.
 
 
 
-Vi consiglio di salvare questa password in un gestore di password per non dimenticarla.
+Ti consiglio di salvare questa password in un gestore di password per non dimenticarla.
 
 
 
@@ -455,7 +455,7 @@ Vi consiglio di salvare questa password in un gestore di password per non diment
 
 
 
-E ora il vostro portafoglio è stato importato in Sparrow Wallet!
+E ora il tuo Wallet è stato importato su Sparrow!
 
 
 
@@ -463,11 +463,11 @@ E ora il vostro portafoglio è stato importato in Sparrow Wallet!
 
 
 
-Prima di ricevere i primi bitcoin nel Wallet, **consiglio vivamente di eseguire un test di ripristino a vuoto**. Annota alcune informazioni di riferimento, come il tuo xpub, quindi resetta il tuo Trezor Safe 3 mentre il Wallet è ancora vuoto. Quindi provare a ripristinare il Wallet sul Trezor utilizzando i backup cartacei. Verificare che l'xpub generato dopo il ripristino corrisponda a quello scritto in origine. Se così fosse, si può essere certi che i backup cartacei sono affidabili.
+Prima di ricevere i primi bitcoin nel Wallet, **consiglio vivamente di eseguire un test di ripristino del Wallet ora che è ancora vuoto**. Annota alcune informazioni di riferimento, come il tuo xpub, quindi resetta il tuo Trezor Safe 3 mentre il Wallet è ancora vuoto. Quindi prova a ripristinare il Wallet su Trezor utilizzando i backup cartacei. Verifica che l'xpub generato dopo il ripristino corrisponda a quello scritto in origine. Se così fosse, si può essere certi che i backup cartacei sono affidabili.
 
 
 
-Per saperne di più su come eseguire un test di ripristino, vi suggerisco di consultare quest'altra guida:
+Per saperne di più su come eseguire un test di ripristino, ti suggerisco di consultare quest'altra guida:
 
 
 
@@ -477,7 +477,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-Su Sparrow, fare clic sulla scheda "*Receive*".
+Su Sparrow, fai clic sulla scheda "*Receive*".
 
 
 
@@ -485,11 +485,11 @@ Su Sparrow, fare clic sulla scheda "*Receive*".
 
 
 
-Prima di utilizzare il Address proposto da Sparrow Wallet, verificatelo sullo schermo del vostro Trezor. Questa pratica consente di confermare che il Address visualizzato su Sparrow non è fraudolento e che il Hardware Wallet contiene effettivamente la chiave privata necessaria per spendere successivamente i bitcoin garantiti con questo Address. Ciò consente di evitare diversi tipi di attacco.
+Prima di utilizzare l'indirizzo proposto da Sparrow, verificalo sullo schermo del tuo Trezor. Questa pratica consente di confermare che l'indirizzo visualizzato su Sparrow non è fraudolento e che l'Hardware Wallet contiene effettivamente la chiave privata necessaria per spendere successivamente i bitcoin garantiti con questo indirizzo. Ciò consente di evitare diversi tipi di attacco.
 
 
 
-Per eseguire questo controllo, fare clic sul pulsante "*Visualizza Address*".
+Per eseguire questo controllo, fai clic sul pulsante "*Display Address*".
 
 
 
@@ -497,7 +497,7 @@ Per eseguire questo controllo, fare clic sul pulsante "*Visualizza Address*".
 
 
 
-Verificare che il Address visualizzato sul Trezor corrisponda a quello del Wallet di Sparrow. È consigliabile effettuare questo controllo anche prima di comunicare il Address al mittente, per essere sicuri della sua validità. È possibile utilizzare i pulsanti per confermare.
+Verifica che l'indirizzo visualizzato su Trezor corrisponda a quello del Wallet di Sparrow. È consigliabile effettuare questo controllo anche prima di comunicare l'indirizzo al mittente, per essere sicuri della sua validità. Puoi utilizzare i pulsanti per confermare.
 
 
 
@@ -505,7 +505,7 @@ Verificare che il Address visualizzato sul Trezor corrisponda a quello del Walle
 
 
 
-È quindi possibile aggiungere una "*Etichetta*" per descrivere la fonte di bitcoin che verrà assicurata con questo Address. Questa è una buona pratica che consente di gestire meglio gli UTXO.
+È quindi possibile aggiungere una "*Label*" (Etichetta) per descrivere la fonte di bitcoin che verrà assicurata con questo indirizzo. Questa è una buona pratica che consente di gestire meglio gli UTXO.
 
 
 
@@ -513,7 +513,7 @@ Verificare che il Address visualizzato sul Trezor corrisponda a quello del Walle
 
 
 
-È quindi possibile utilizzare questo Address per ricevere bitcoin.
+A questo punto puoi utilizzare questo indirizzo per ricevere bitcoin.
 
 
 
@@ -525,7 +525,7 @@ Verificare che il Address visualizzato sul Trezor corrisponda a quello del Walle
 
 
 
-Ora che avete ricevuto i vostri primi Satss sul vostro Safe 3-secured Wallet, potete anche spenderli! Collegate il vostro Trezor al computer, sbloccatelo con il codice PIN, lanciate Sparrow Wallet, quindi andate alla scheda "*Invio*" per creare una nuova transazione.
+Ora che hai ricevuto i tuoi primi sats sul tuo Safe 3, puoi anche spenderli! Collega il tuo Trezor al computer, sbloccalo con il codice PIN, lancia Sparrow, quindi vai alla scheda "*Send*" per creare una nuova transazione.
 
 
 
@@ -533,7 +533,7 @@ Ora che avete ricevuto i vostri primi Satss sul vostro Safe 3-secured Wallet, po
 
 
 
-Se si desidera *controllare le monete*, ossia scegliere specificamente quali UTXO consumare nella transazione, andare alla scheda "*UTXO*". Selezionare gli UTXO che si desidera spendere, quindi fare clic su "*Invia selezionati*". Si verrà reindirizzati alla stessa schermata della scheda "*Invio*", ma con gli UTXO già selezionati per la transazione.
+Se desideri *controllare le monete*, ossia scegliere specificamente quali [UTXO](https://planb.network/resources/glossary/utxo) utilizzare nella transazione, vai alla scheda "*UTXO*". Seleziona gli UTXO che desideri spendere, quindi fai clic su "*Send Selected*". Si verrà reindirizzati alla stessa schermata della scheda "*Send*", ma con gli UTXO già selezionati per la transazione.
 
 
 
@@ -541,7 +541,7 @@ Se si desidera *controllare le monete*, ossia scegliere specificamente quali UTX
 
 
 
-Inserire la destinazione Address. È possibile inserire più indirizzi facendo clic sul pulsante "*+ Aggiungi*".
+Inserisci l'indirizzo di destinazione. È possibile inserire più indirizzi facendo clic sul pulsante "*+ Add*".
 
 
 
@@ -549,7 +549,7 @@ Inserire la destinazione Address. È possibile inserire più indirizzi facendo c
 
 
 
-Scrivete una "*Etichetta*" per ricordare lo scopo di questa spesa.
+Scrivi un "*Label*" (Etichetta) per ricordare lo scopo di questa spesa.
 
 
 
@@ -557,7 +557,7 @@ Scrivete una "*Etichetta*" per ricordare lo scopo di questa spesa.
 
 
 
-Selezionare l'importo da inviare a questo Address.
+Seleziona l'importo da inviare a questo indirizzo.
 
 
 
@@ -565,11 +565,11 @@ Selezionare l'importo da inviare a questo Address.
 
 
 
-Regolate il tasso di commissione della vostra transazione in base al mercato attuale. Ad esempio, è possibile utilizzare [Mempool.space](https://Mempool.space/) per scegliere una tariffa adeguata.
+Regola il tasso di commissione della tua transazione in base al mercato attuale. Ad esempio, è possibile utilizzare [Mempool.space](https://Mempool.space/) per scegliere una tariffa adeguata.
 
 
 
-Assicurarsi che tutti i parametri della transazione siano corretti, quindi fare clic su "*Crea transazione*".
+Assicurati che tutti i parametri della transazione siano corretti, quindi fai clic su "*Create Transaction*".
 
 
 
@@ -577,7 +577,7 @@ Assicurarsi che tutti i parametri della transazione siano corretti, quindi fare 
 
 
 
-Se tutto è di vostro gradimento, cliccate su "*Finalizza la transazione per la firma*".
+Se tutto è di tuo gradimento, clicca su "*Finalize Transaction for Signing*".
 
 
 
@@ -585,7 +585,7 @@ Se tutto è di vostro gradimento, cliccate su "*Finalizza la transazione per la 
 
 
 
-Fare clic su "*Firma*".
+Fai clic su "*Sign*".
 
 
 
@@ -593,7 +593,7 @@ Fare clic su "*Firma*".
 
 
 
-Fare clic su "*Sign*" accanto al proprio Trezor Safe 3.
+Fai clic su "*Sign*" accanto al tuo Trezor Safe 3.
 
 
 
@@ -601,7 +601,7 @@ Fare clic su "*Sign*" accanto al proprio Trezor Safe 3.
 
 
 
-Controllare i parametri della transazione sullo schermo del Hardware Wallet, compresi il Address ricevente del destinatario, l'importo inviato e l'addebito. Una volta verificata la transazione sul Trezor, fare clic su entrambi i pulsanti contemporaneamente per firmarla.
+Controlla i parametri della transazione sullo schermo dell'Hardware Wallet, compresi l'indirizzo ricevente del destinatario, l'importo inviato e l'addebito. Una volta verificata la transazione su Trezor, fai clic su entrambi i pulsanti contemporaneamente per firmarla.
 
 
 
@@ -609,7 +609,7 @@ Controllare i parametri della transazione sullo schermo del Hardware Wallet, com
 
 
 
-La transazione è ora firmata. Verificate un'ultima volta che tutto sia a posto, quindi fate clic su "*Diffusione della transazione*" per trasmetterla sulla rete Bitcoin.
+La transazione è ora firmata. Verifica un'ultima volta che tutto sia a posto, quindi fai clic su "*Broadcast Transaction*" per trasmetterla sulla rete Bitcoin.
 
 
 
@@ -617,7 +617,7 @@ La transazione è ora firmata. Verificate un'ultima volta che tutto sia a posto,
 
 
 
-Si trova nella scheda "*Transazioni*" di Sparrow Wallet.
+Si trova nella scheda "*Transactions*" di Sparrow.
 
 
 
@@ -625,10 +625,10 @@ Si trova nella scheda "*Transazioni*" di Sparrow Wallet.
 
 
 
-Congratulazioni, ora siete al corrente dell'uso di base del Trezor Safe 3 con Sparrow Wallet! Per fare un ulteriore passo avanti, vi consiglio questo tutorial completo sull'uso di un Trezor Hardware Wallet con un BIP39 passphrase per aumentare la vostra sicurezza:
+Congratulazioni, ora sei al corrente dell'uso di base di Trezor Safe 3 con Sparrow! Per fare un ulteriore passo avanti, ti consiglio questo tutorial completo sull'uso di Trezor con [passphrase BIP39]/https://planb.network/resources/glossary/passphrase-bip39) per aumentare la tua sicurezza:
 
 
 
 https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
-Se questa esercitazione vi è stata utile, vi sarei grato se lasciaste un pollice Green qui sotto. Sentitevi liberi di condividere questo articolo sui vostri social network. Grazie mille!
+Se questa esercitazione è stata utile, ti sarei grato se lasciassi un pollice verde qui sotto. Sentiti libero di condividere questo articolo sui tuoi social network. Grazie mille!

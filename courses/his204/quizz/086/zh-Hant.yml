@@ -1,0 +1,8 @@
+question: 什麼思想被稱為蒙田的詭辯論？
+answer: Exchange 是零和遊戲
+wrong_answers:
+  - Exchange 是正和遊戲
+  - 根據時間和地點的不同，Exchange 有時是零和遊戲，有時是正和遊戲。
+  - Exchange 總是對弱勢一方不利
+explanation: |
+  Montaigne 的謬誤是認為 Exchange 是零和遊戲，即一方獲利，另一方失利。這種想法是錯誤的，因為自願 Exchange 是互惠互利的。

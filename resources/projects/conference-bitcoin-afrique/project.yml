@@ -8,11 +8,13 @@ links:
 
 original_language: fr
 proofreading:
-  - language: en
+  - language: fr
     last_contribution_date: 2025-05-20
+    urgency: 1
+    contributor_names: 
+      - AlphonseMehounme
+    reward: 0.14
 tags:  
   - adoption
   - decentralization
   - market-trends
-contributor_names:
-  - AlphonseMehounme

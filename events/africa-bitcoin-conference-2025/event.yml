@@ -1,6 +1,6 @@
 id: 230602a1-4861-43c3-9f16-c4d910aa08a0
-start_date: 2025-12-01 08:00:00
-end_date: 2025-12-01 16:00:00
+start_date: 2025-12-01
+end_date: 2025-12-01 
 timezone: Africa/Cairo
 address_city_country: Port Louis, Mauritius
 address_line_2: Caudan Arts Centre
@@ -12,7 +12,6 @@ language:
   - en
 links:
   website: https://afrobitcoin.org/
-project_id: db0f0b26-3fd8-4d3b-94cc-1f55f30fe768
 tags:
   - adoption
   - market-trends

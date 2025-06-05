@@ -1,0 +1,8 @@
+question: Mitä La politique mercantiliste suosittelee?
+answer: vientiin, varastoimaan maksuna saatua kultaa ja hopeaa
+wrong_answers:
+  - tuonti, ulkomaisten tavaroiden kerääminen
+  - ei kumpaakaan, koska kauppa on hedelmätöntä ja turhaa
+  - tuonnin ja viennin välinen tasapaino
+explanation: |
+  Merkantilismi on talousoppi, jossa kannatetaan valtion väliintuloa kansallisen rikastumisen edistämiseksi. Päätavoitteena on jalometallien (kullan ja hopean) kerääminen kauppataseen ylijäämän avulla eli viemällä enemmän kuin tuomalla.

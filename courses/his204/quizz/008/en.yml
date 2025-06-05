@@ -1,8 +1,8 @@
 question: What type of tax did Vauban advocate in his writings?
-answer: Proportional tax: everyone must give the same percentage of their income to the State
+answer: Proportional tax everyone must give the same percentage of their income to the State
 wrong_answers:
-  - Progressive taxation: the tax rate for the rich must be higher than that for the poor
-  - The flat-rate tax: regardless of your income, you pay the same amount each year to the government
-  - Regressive taxation: tax rates for the poor must be higher than those for the rich
+  - Progressive taxation the tax rate for the rich must be higher than that for the poor
+  - The flat-rate tax regardless of your income, you pay the same amount each year to the government
+  - Regressive taxation tax rates for the poor must be higher than those for the rich
 explanation: |
   Vauban advocated a proportional tax, the "royal tithe", which consisted in levying a tenth (10%) of the income of all French people, regardless of their social status. He believed this tax would be fairer and more efficient than the existing tax system.

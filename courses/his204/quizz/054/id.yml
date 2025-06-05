@@ -1,0 +1,8 @@
+question: Siapa di antara para penulis ini yang tidak mengkritik kaum Fisiokrat?
+answer: Condorcet
+wrong_answers:
+  - Voltaire
+  - Condillac
+  - Adam Smith
+explanation: |
+  Condorcet cukup bersimpati pada gagasan kaum Fisiokrat, dan bahkan berkolaborasi dengan mereka dalam proyek-proyek tertentu.

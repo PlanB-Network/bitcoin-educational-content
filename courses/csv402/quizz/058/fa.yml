@@ -1,4 +1,4 @@
-question: "curl -X POST /issueassetnia" می‌تواند در RLN چه کاری انجام دهد؟
+question: curl -X POST /issueassetnia می‌تواند در RLN چه کاری انجام دهد؟
 answer: ایجاد یک دارایی RGB قابل تعویض و غیر تورمی
 wrong_answers:
   - ایجاد یک دارایی غیرقابل تعویض RGB جدید

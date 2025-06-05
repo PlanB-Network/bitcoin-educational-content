@@ -3117,17 +3117,6 @@ Les applications comme Goodreads, bien que largement utilisées, posent de séri
 
 Openreads constitue une alternative open-source pour vous offrir un suivi de lecture respectueux de la vie privée. Cette application vous permet de créer une bibliothèque numérique personnelle, de suivre votre progression dans vos lectures, de noter et commenter les ouvrages, et d’accéder à des recommandations basées sur vos propres critères, sans analyse centralisée ni tracking. Toutes les données restent sur votre appareil ou sont synchronisées via des services auto-hébergés.
 
-### Explorateur de fichiers
-
-L'application Google Files, très répandue sur les smartphones Android, propose des fonctionnalités utiles comme le nettoyage de stockage ou la navigation dans les fichiers. Toutefois, elle envoie également des données d'utilisation à Google et intègre des éléments de télémétrie.
-
-**Les alternatives :**
-
-- [Material Files](https://github.com/zhanghai/MaterialFiles)
-
-Material Files est un explorateur de fichiers open-source, sobre et sans publicité. L'application repose sur le design "Material" d'Android pour offrir une navigation claire et intuitive, sans superflu. Elle permet de gérer les fichiers locaux.
-
-
 ### Horloge, alarmes et minuteurs
 
 **Les alternatives :**

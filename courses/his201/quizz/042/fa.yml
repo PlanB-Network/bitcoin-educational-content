@@ -1,0 +1,9 @@
+question: گاوین آندرسن، که اولین Bitcoin Faucet را در ژوئن 2010 ایجاد کرد و در توسعه نرم‌افزار Satoshi کمک کرد، اصالتاً اهل کدام کشور است؟
+answer: استرالیا
+wrong_answers:
+  - ایالات متحده
+  - فرانسه
+  - هلند
+explanation: |
+  او [در استرالیا متولد شد](https: //gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) اما در سال 2004 تابعیت آمریکایی گرفت.
+reviewed: false

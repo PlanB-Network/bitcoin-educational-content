@@ -27,6 +27,7 @@ Siirry [Sparrow Wallet:n viralliselle lataussivulle] (https://sparrowwallet.com/
 On tärkeää tarkistaa ohjelmiston eheys ja aitous ennen sen asentamista. Jos et tiedä, miten tämä tehdään, löydät täydellisen ohjeen täältä :
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Kun Sparrow on asennettu, voit ohittaa ensimmäiset selittävät näytöt ja siirtyä suoraan yhteydenhallintanäyttöön.
 
 ![Image](assets/fr/02.webp)
@@ -69,7 +70,9 @@ Huomaa, että jos käytät karsittua Bitcoin Core-solmua, et voi palauttaa Walle
 Bitcoin Core -solmun konfiguroimiseksi voit tutustua johonkin seuraavista ohjeista käyttöjärjestelmästäsi riippuen:
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+
 Siirry Sparrow'ssa välilehdelle "*Bitcoin Core*".
 
 ![Image](assets/fr/07.webp)
@@ -218,6 +221,7 @@ Voit kaivertaa sen paperille tai, jos haluat lisätä turvallisuutta, kaiverrutt
 Jos haluat lisätietoja oikeasta tavasta tallentaa ja hallita Mnemonic-lauseesi, suosittelen lämpimästi seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 **Ei näitä sanoja saa tietenkään koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet käytetään vain Testnet:lla ja se poistetaan opetusohjelman lopussa.**
@@ -225,6 +229,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Voit myös lisätä passphrase BIP39:n napsauttamalla "*Käytä passphrase:tä*"-ruutua. Varoitus: passphrase:n käyttäminen voi olla erittäin hyödyllistä, mutta jos et ymmärrä, miten se toimii, se voi olla hyvin riskialtista. Siksi kehotan sinua lukemaan tämän lyhyen teoreettisen artikkelin aiheesta:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Kun olet tallentanut Mnemonic:n ja kaikki passphrase:t fyysiselle tietovälineelle, napsauta "*Vahvista varmuuskopiointi*".
 
 ![Image](assets/fr/27.webp)
@@ -376,6 +381,7 @@ Tämä vie sinut sivulle, jossa kerrotaan yksityiskohtaisesti tapahtuman Element
 On tärkeää säilyttää oletusarvoinen Sighash. Jos haluat ymmärtää, miksi, katso tätä koulutusta, jossa selitän kaiken, mitä sinun on tiedettävä Sighashista:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Seuraavassa näytössä vaihtoehdot vaihtelevat käyttämäsi Wallet:n tyypin mukaan:
 
 

@@ -1,0 +1,9 @@
+question: برای نمایش آدرس‌های SegWit v0 از چه کدگذاری استفاده می‌شود؟
+answer: بچ۳۲
+wrong_answers:
+  - بیس58چک
+  - بچ۳۲م
+  - YmFzZTY0
+explanation: |
+  آدرس‌های SegWit v0، مانند آن‌هایی که برای P2WPKH و P2WSH هستند، از کدگذاری bech32 که با SegWit معرفی شده است، استفاده می‌کنند.
+reviewed: false

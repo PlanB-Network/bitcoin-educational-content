@@ -1,0 +1,9 @@
+question: AMF چیست؟
+answer: مرجع بازارهای مالی.
+wrong_answers:
+  - صندوق پولی آمریکا.
+  - انجمن تأسیسات Mining.
+  - جریان خودکار پول.
+explanation: |
+  AMF، یا Autorité des Marchés Financiers، یک سازمان فرانسوی است که پلتفرم‌هایی را که در آن‌ها می‌توان بیت‌کوین خریداری کرد، تنظیم می‌کند.
+reviewed: true

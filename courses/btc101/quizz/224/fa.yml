@@ -1,0 +1,8 @@
+question: Lightning Network چه چیزی را امکان‌پذیر می‌کند؟
+answer: تراکنش‌های Bitcoin فوری و کم‌هزینه.
+wrong_answers:
+  - تراکنش‌های فوری و پرهزینه Bitcoin.
+  - تراکنش‌های Bitcoin با تأخیر و کم‌هزینه.
+  - تراکنش‌های Bitcoin با تأخیر و هزینه بالا.
+explanation: >-
+reviewed: true

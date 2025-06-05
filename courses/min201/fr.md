@@ -306,7 +306,7 @@ Face à des campagnes comme celles de Greenpeace et aux chiffres souvent trompeu
 
 En conclusion, malgré le risque réglementaire et la possibilité d'une interdiction du minage en Europe, l'arme la plus puissante reste l'éducation et l'information. La compréhension claire et précise du minage, son fonctionnement, et son impact peut aider à démystifier l'industrie et à lutter contre la désinformation, offrant ainsi une meilleure résistance aux législations potentiellement dommageables. L'initiative de former et d'informer les gens sur le minage, comme le fait cette discussion, est un pas dans la bonne direction pour garantir la pérennité et la croissance du minage en Europe, et partout dans le monde. Les efforts continus pour éduquer et informer sont essentiels pour assurer un avenir sûr et prospère pour l'industrie du minage de Bitcoin.
 
-### Interview d'un professionnel de l'industrie du minage
+## Interview d'un professionnel de l'industrie du minage
 
 <chapterId>4d613261-d1a8-5ffe-a50c-047a3d77d6c5</chapterId>
 

@@ -1,0 +1,9 @@
+question: تعدیل‌کننده‌ای که می‌تواند با پرچم‌های پایه sighash ترکیب شود چیست؟
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY پرچم‌های sighash را تغییر می‌دهد تا فقط یک ورودی را پوشش دهد و بقیه را قابل تغییر باقی بگذارد.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Koliki je maksimalan broj Bitcoin jedinica koje ikada mogu postojati?
-answer: 21 miliona.
+question: Koliki je maksimalan broj bitkoin jedinica koje ikada mogu postojati?
+answer: 21 milion.
 wrong_answers:
   - 3 triliona.
   - 100 miliona.
   - Nema ograničenja.
 explanation: |
-  Ukupni Supply od Bitcoin je ograničen na 21 milion jedinica. Ovo je ključna karakteristika Bitcoin koja ga razlikuje od fiducijarnih valuta, koje centralne banke mogu štampati u neograničenim količinama.
+  Ukupna ponuda od bitkoina je ograničena na 21 milion jedinica. Ovo je ključna karakteristika Bitkoina koja ga razlikuje od fiducijarnih valuta, koje centralne banke mogu štampati u neograničenim količinama.
 reviewed: true

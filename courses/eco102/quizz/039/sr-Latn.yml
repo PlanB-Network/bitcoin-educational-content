@@ -1,9 +1,9 @@
-question: Koji je princip pravnika prema Bastijatu?
+question: Koji je princip pravnika prema Bastiat-u?
 answer: To je princip prvenstva zakona nad imovinom
 wrong_answers:
   - To je princip prvenstva svojine nad zakonom
   - To je princip jednakosti pred zakonom
   - To je pravo na imovinu bez intervencije države
 explanation: |
-  Za Bastijata, princip pravnika, u suprotnosti sa ekonomistima, postavlja zakon kao prethodeći vlasništvu, što je pozicija koju on kritikuje zbog njenog potencijala da uspostavi nepravde.
+  Za Bastiat-a, princip pravnika, u suprotnosti sa ekonomistima, postavlja zakon kao prethodeći vlasništvu, što je pozicija koju on kritikuje zbog njenog potencijala da uspostavi nepravde.
 reviewed: false

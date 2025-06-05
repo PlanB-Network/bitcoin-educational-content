@@ -1084,7 +1084,9 @@ Leo, Bitcoin inaendelea kudumu na kukua zaidi kwa kuunganishwa zaidi na zaidi ka
 
 Bitcoin inaweza kuonekana kama chombo cha kuunda uchumi sambamba na sarafu ya serikali,kwa sababu inawezekana kuuza bidhaa au huduma na kulipwa katika Bitcoin. Shughuli zinaweza kufanywa moja kwa moja katika Bitcoin, bila ya haja ya kupitia jukwaa la kubadilishana, lakini tu kwenda kutoka pochi la Bitcoin hadi nyingine.
 
-Uchumi wa Bitcoin upo na unaendelea katika maeneo fulani ya dunia, kama vile El Salvador, ambapo Bitcoin imekuwa zabuni ya kisheria tangu 2021. Kuzunguka kwetu kuna baadhi ya watu binafsi, biashara na mashirika ambayo tayari yanakubali Bitcoin kama njia ya malipo ya bidhaa au huduma zao.
+Uchumi wa Bitcoin upo na unakua katika maeneo fulani ya dunia, kama vile El Salvador, ambapo Bitcoin ilikua fedha halali mwaka 2021. Kwa bahati mbaya, mnamo Januari 2025, bunge lilipitisha sheria mpya ambayo ilimnyang'anya Bitcoin cheo cha "fedha halali", kwa madai ya kupokea shinikizo kutoka kwa Mfuko wa Fedha wa Kimataifa. Kulingana na sheria mpya, watu hawana tena wajibu wa kukubali Bitcoin katika biashara zao, na hawawezi tena kulipa kodi kwa kutumia Bitcoin. Kukubali kunabaki kuwa hiari.
+
+Hata hivyo, katika El Salvador na sehemu nyingine za dunia, kuna idadi inayoongezeka ya watu binafsi, biashara, na mashirika yanayokubali Bitcoin kama njia ya malipo kwa bidhaa au huduma zao.
 
 ![image](assets/en/72.webp)
 

@@ -142,7 +142,7 @@ Hagati na hagati mugihe c'iterambere ry'ubuhinga yo mumyaka y'1980 hamwe n'1990,
 Barurangiranwa bazwi cane nka Julian Assange, Wei Dai, Tim May na David Chaum baragize uruhara rukomeye mugushiraho ivyiyumviro hamwe n'imbono vy'umuhari. Abo biyumvira barasabikanije ivyiyumviro vyabo bakoresheje uruntonde rwabarungikirwa ubutumwa bwa emeyiri, aho abitabira akamo bava mumihingo y'isi itandukanye bahanye ivyiyumviro kuvyerekeye uburyo bwiza bwogukoresha ubuhinga bwanone mu gukingira agateka kakiremwa muntu.
 
 
-### Impapuro zitatu z’ishimikiro z’aba Cypherpunks .
+### Impapuro zitatu z’ishimikiro z’aba Cypherpunks.
 
 
 ![image](assets/en/04.webp)

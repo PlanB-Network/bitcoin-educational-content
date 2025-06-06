@@ -1,9 +1,9 @@
-question: Koja je komanda za proveru količine bitkoina u opticaju na Bitcoin čvoru?
+question: Koja je komanda za proveru količine bitkoina u opticaju na Bitkoin čvoru?
 answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
   - bitcoin-cli getblockchaininfo.
   - bitcoin-cli getwalletinfo.
   - bitcoin-cli getnetworkinfo.
 explanation: |
-  Komanda za proveru količine bitkoina u opticaju na Bitcoin čvoru je bitcoin-cli gettxoutsetinfo. Ova komanda pruža transparentnost i proverljivost, jačajući poverenje u Bitcoin sistem.
+  Komanda za proveru količine bitkoina u opticaju na Bitkoin čvoru je bitcoin-cli gettxoutsetinfo. Ova komanda pruža transparentnost i proverljivost, jačajući poverenje u Bitkoin sistem.
 reviewed: true

@@ -1,0 +1,22 @@
+name: Hashlabs
+
+address_line_1: Ethiopia
+address_line_2:
+address_line_3: 
+
+language:
+  - en
+
+links:
+  website: https://www.hashlabs.io/
+  twitter: https://x.com/hashlabsmining
+  Github:
+  youtube:
+  nostr:
+
+tags:
+  - bitcoin
+  - energy
+  - mining
+
+category: mining

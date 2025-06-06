@@ -1,0 +1,23 @@
+name: QRB Labs
+
+address_line_1: Addis Ababa, Ethiopia
+address_line_2:
+address_line_3: 
+
+language:
+  - fr
+  - en
+
+links:
+  website: https://www.qrb-labs.com/
+  twitter: https://x.com/qrb_labs
+  Github:
+  youtube:
+  nostr:
+
+tags:
+  - bitcoin
+  - mining
+  - energy
+
+category: mining

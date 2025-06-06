@@ -1,10 +1,10 @@
-question: Koja je prva Bitcoin transakcija zabeležena?
-answer: Transakcija od 10 BTC između Satoshi Nakamoto i Hal Finney.
+question: Koja je prva Bitkoin transakcija zabeležena?
+answer: Transakcija od 10 BTC između Satoshi Nakamoto-a i Hal Finney-a.
 wrong_answers:
   - Transakcija od 10.000 BTC za 2 pice.
-  - Transakcija od 1 BTC između Satoshi Nakamoto i Hal Finney.
-  - Transakcija od 10,000 BTC između Laszlo Hanyecz i Hal Finney.
+  - Transakcija od 1 BTC između Satoshi Nakamoto-a i Hal Finney-a.
+  - Transakcija od 10,000 BTC između Laszlo Hanyecz-a i Hal Finney-a.
 explanation: |
-  Prva Bitcoin transakcija zabeležena je bila transakcija od
-  10 BTC između Satoshi Nakamoto i Hal Finney.
+  Prva Bitkoin transakcija zabeležena je bila transakcija od
+  10 BTC između Satoshi Nakamoto-a i Hal Finney-a.
 reviewed: true

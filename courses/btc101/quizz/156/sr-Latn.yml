@@ -1,8 +1,8 @@
-question: Koja je svrha Mining bazena?
-answer: Mining bazeni omogućavaju rudarima da udruže svoje računarske resurse i dobiju manje, ali redovnije nagrade.
+question: Koja je svrha Mining pool-a (Rudarskog bazena)?
+answer: Mining pools omogućavaju rudarima da udruže svoje računarske resurse i dobiju manje, ali redovnije nagrade.
 wrong_answers:
-  - Mining bazeni se koriste za povećanje Hashrate celokupne Bitcoin mreže.
-  - Mining bazeni se koriste za smanjenje težine Mining.
-  - Mining bazeni se koriste za povećanje nagrade za Mining.
+  - Mining pools se koriste za povećanje Hashrate celokupne Bitkoin mreže.
+  - Mining pools se koriste za smanjenje težine rudarenja.
+  - Mining pools se koriste za povećanje nagrade za rudarenje.
 explanation: >-
 reviewed: true

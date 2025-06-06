@@ -1,4 +1,4 @@
-question: Koliko je prosečno vreme između kreiranja dva bloka u Bitcoin protokolu?
+question: Koliko je prosečno vreme između kreiranja dva bloka u Bitkoin protokolu?
 answer: 10 minuta.
 wrong_answers:
   - 5 minuta.

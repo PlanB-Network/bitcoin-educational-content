@@ -1,8 +1,8 @@
-question: Koja je uloga rudara u Bitcoin mreži?
+question: Koja je uloga rudara u Bitkoin mreži?
 answer: Rudari osiguravaju mrežu i dodaju transakcije u blokove.
 wrong_answers:
   - Rudari stvaraju nove bitkoine.
-  - Rudari verifikuju identitet korisnika Bitcoin.
-  - Rudari postavljaju cenu Bitcoin.
+  - Rudari verifikuju identitet korisnika Bitkoina.
+  - Rudari postavljaju cenu Bitkoina.
 explanation: >-
 reviewed: true

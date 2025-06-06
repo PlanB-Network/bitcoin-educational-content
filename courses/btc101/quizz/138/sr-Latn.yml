@@ -1,8 +1,8 @@
-question: Koja je primarna funkcija čvorova u Bitcoin mreži?
-answer: Održavanje kopije Bitcoin Blockchain, validacija transakcija, prenos informacija drugim čvorovima i sprovođenje pravila Bitcoin protokola.
+question: Koja je primarna funkcija čvorova u Bitkoin mreži?
+answer: Održavanje kopije Bitkoin Blockchain-a, validacija transakcija, prenos informacija drugim čvorovima i sprovođenje pravila Bitkoin protokola.
 wrong_answers:
-  - Održavanje kopije Bitcoin Blockchain, validacija transakcija, prenos informacija vladi i promena pravila Bitcoin protokola.
-  - Samo održavanje kopije Bitcoin Blockchain.
+  - Održavanje kopije Bitkoin Blockchain-a, validacija transakcija, prenos informacija vladi i promena pravila Bitkoin protokola.
+  - Samo održavanje kopije Bitkoin Blockchain-a.
   - Samo prenos informacija drugim čvorovima.
 explanation: >-
 reviewed: true

@@ -1,12 +1,12 @@
 question: Gde su bitkoini uskladišteni?
-answer: U Bitcoin Blockchain.
+answer: U Bitkoin Blockchainu.
 wrong_answers:
-  - U Bitcoin Wallet.
-  - Na uređaju gde je instaliran Wallet.
+  - U Bitkoin novčaniku.
+  - Na uređaju gde je instaliran novčanik.
   - U trezoru Federalnih rezervi.
 explanation: |
-  Iako su vaši privatni ključevi sačuvani u vašem Wallet, sami
-  bitkoini su zapravo sačuvani u Bitcoin
-  Blockchain, koji je javni distribuirani Ledger unutar
+  Iako su vaši privatni ključevi sačuvani u vašem novčaniku, sami
+  bitkoini su zapravo sačuvani na Bitkoin
+  Blockchainu, koji je javni distribuirani Ledger unutar
   Bitcoin peer-to-peer mreže.
 reviewed: true

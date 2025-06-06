@@ -1,0 +1,23 @@
+name: Gridless
+
+address_line_1: Nairobi, Kenya
+address_line_2:
+address_line_3: 
+
+language:
+  - fr
+  - en
+
+links:
+  website: https://gridlesscompute.com/
+  twitter: https://x.com/GridlessCompute
+  Github:
+  youtube:
+  nostr:
+
+tags:
+  - bitcoin
+  - energy
+  - mining
+
+category: mining

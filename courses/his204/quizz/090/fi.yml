@@ -1,0 +1,8 @@
+question: Miksi sanomme, että Exchange:ssa annamme aina vähemmän saadaksemme enemmän?
+answer: Koska me aina luovumme jostain vähemmän arvostamastamme jostakin enemmän arvostamastamme
+wrong_answers:
+  - Koska se on hölmöläisten peliä, jossa myymme tuotteitamme kalliimmalla kuin ne ovat arvokkaita
+  - Koska rahalla on arvoa, jokainen myynti on rikastumista
+  - Koska myyjät ovat aina fiksumpia kuin ostajat
+explanation: |
+  Annamme sen, mitä arvostamme vähemmän, saadaksemme sen, mitä arvostamme enemmän, jolloin Exchange hyödyttää molempia osapuolia.

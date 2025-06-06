@@ -1,0 +1,8 @@
+question: Hvilken bok ble Mirabeau fengslet for?
+answer: Teorien om beskatning
+wrong_answers:
+  - L'Ami des Hommes
+  - Essay om handelens natur generelt
+  - Den sosiale Contract
+explanation: |
+  Mirabeau ble fengslet for "La Théorie de l'Impôt", et verk der han kritiserte det franske skattesystemet.

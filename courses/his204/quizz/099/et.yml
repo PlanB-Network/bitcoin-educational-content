@@ -1,0 +1,8 @@
+question: Milline oli tema kriitika 1789. aasta novembri Caisse d'Escompte'i seaduse suhtes?
+answer: Tegemist on monopoolse asutusega, mis peab järgima vaba konkurentsi reegleid
+wrong_answers:
+  - Sellega luuakse institutsioon, mis soodustab ründesõdade rahastamist
+  - See häirib assignatide väljaandmist
+  - See soosib rikaste
+explanation: |
+  Dupont de Nemours kritiseeris Caisse d'Escompte'ile antud monopoli, kuna ta arvas, et see takistab vaba konkurentsi ja kahjustab majandust.

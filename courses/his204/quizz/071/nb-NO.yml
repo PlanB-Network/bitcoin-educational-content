@@ -1,0 +1,8 @@
+question: Hvilken filosof skrev i Ephémérides du Citoyen, fysiokratenes tidsskrift?
+answer: Diderot
+wrong_answers:
+  - Voltaire
+  - Condorcet
+  - Rousseau
+explanation: |
+  Diderot bidro til fysiokratenes tidsskrift "Éphémérides du Citoyen", der han skrev artikler om økonomiske og sosiale emner.

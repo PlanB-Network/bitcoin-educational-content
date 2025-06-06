@@ -1,0 +1,8 @@
+question: Kterého slavného odsouzence Condorcet obhajoval?
+answer: Le chevalier de la Barre
+wrong_answers:
+  - Jean Calas
+  - Louis Mandrin
+  - Hrabě Lally
+explanation: |
+  Condorcet obhajoval Chevaliera de la Barre, mladého muže odsouzeného k smrti za rouhání.

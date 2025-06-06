@@ -7,6 +7,7 @@ description: Configuring and using Hardware Wallet Safe 5
 
 *Image credit: [Trezor.io](https://trezor.io/)*
 
+![video](https://youtu.be/LI_EMXn6_Ss)
 
 The Trezor Safe 5 is a latest-generation Hardware Wallet designed by SatoshiLabs and launched in 2024. It is positioned as a high-end version of the Safe 3, with a focus on ergonomics and durability. It benefits from the same safety advances as its predecessor, the Safe 3, compared with the Model One and Model T.
 

@@ -1,0 +1,8 @@
+question: Que tipo de imposto defendia Vauban nos seus escritos?
+answer: Imposto proporcional todos devem entregar ao Estado a mesma percentagem do seu rendimento
+wrong_answers:
+  - Tributação progressiva - a taxa de imposto para os ricos deve ser mais elevada do que para os pobres
+  - O imposto de taxa fixa independentemente do seu rendimento, paga o mesmo montante todos os anos ao governo
+  - Tributação regressiva as taxas de imposto para os pobres devem ser mais elevadas do que para os ricos
+explanation: |
+  Vauban defendia um imposto proporcional, o "dízimo real", que consistia na cobrança de um décimo (10%) do rendimento de todos os franceses, independentemente do seu estatuto social. Para ele, este imposto seria mais justo e mais eficaz do que o sistema fiscal existente.

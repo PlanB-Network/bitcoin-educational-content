@@ -1,0 +1,8 @@
+question: ¿Por qué, según Vauban, es justo y natural que todo el mundo pague impuestos?
+answer: Porque el Estado ofrece sus servicios a todos, es justo que todos contribuyan a pagarlos
+wrong_answers:
+  - Porque el Estado puede recaudar más gravando a toda la población a la vez
+  - Como todo el mundo es a veces rico y a veces pobre a lo largo de su vida, es mejor gravar a todo el mundo de manera uniforme
+  - Porque ayuda a financiar guerras y asegurar la grandeza del reino
+explanation: |
+  Vauban creía que la fiscalidad debía ser universal, ya que todos los ciudadanos se beneficiaban de servicios estatales como la seguridad, la justicia y las infraestructuras. Por ello, consideraba justo que cada cual contribuyera a su financiación en función de sus posibilidades.

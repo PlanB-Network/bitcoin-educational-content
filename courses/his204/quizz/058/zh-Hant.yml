@@ -1,0 +1,8 @@
+question: 根據 Le Trosne 的書名，如何描述貿易自由？
+answer: 永遠有用，永遠無害
+wrong_answers:
+  - 永遠有利可圖，永遠有用
+  - 經常有利可圖，總是合乎道德
+  - 有時有利，有時有害
+explanation: |
+  Le Trosne 著有《De l'intérêt social, par rapport à la valeur, à la circulation, à l'industrie et au commerce intérieur et extérieur》一文，他在文中為自由貿易辯護，認為自由貿易始終對社會有益，從未對社會有害。

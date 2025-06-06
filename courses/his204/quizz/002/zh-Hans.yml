@@ -1,0 +1,8 @@
+question: 哪个国王是苏利的大臣？
+answer: 亨利四世
+wrong_answers:
+  - 路易十四
+  - 路易十五
+  - 路易十三
+explanation: |
+  苏利公爵马克西米利安-德-贝松（Maximilien de Béthune）是亨利四世的主要大臣。他在宗教战争后恢复王室财政和王国经济复苏方面发挥了关键作用。

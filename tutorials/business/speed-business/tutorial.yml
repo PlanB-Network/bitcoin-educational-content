@@ -1,0 +1,27 @@
+id: ef8625b8-61d6-4994-ae8c-b30797f76357
+
+project_id : ea84df86-4dfe-48fa-a763-3e414ce7c791
+
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+
+level: beginner
+
+category: point-of-sale
+
+tags:
+  - business
+  - user-friendly
+  - adoption
+
+original_language: fr
+
+#proofreading metadata
+
+proofreading: 
+  - language: fr
+    last_contribution_date: 2025-05-30
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0
+

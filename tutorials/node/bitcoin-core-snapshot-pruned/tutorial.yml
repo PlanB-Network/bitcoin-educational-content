@@ -1,0 +1,23 @@
+id: 82820c66-42f4-11f0-912c-3fbb42d38910
+
+
+professor_id: aa19b8be-5958-4c45-8be8-a1582dd5a90b
+
+category: bitcoin
+
+level: intermediate
+
+# Proofreading metadata
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+original_language: fr
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-06
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 1
+tags:
+  - node
+  - guides
+  - software

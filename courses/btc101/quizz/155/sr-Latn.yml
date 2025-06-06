@@ -1,8 +1,8 @@
-question: Šta je Coinbase Transaction?
-answer: Prva transakcija bloka koja uključuje nagradu Miner.
+question: Šta je Coinbase transakcija?
+answer: Prva transakcija bloka koja uključuje nagradu rudaru.
 wrong_answers:
-  - Transakcija izvršena na Exchange Coinbase.
+  - Transakcija izvršena na menjačnici Coinbase.
   - Druga transakcija bloka koja uključuje najviše naknade.
-  - Transakcija koju obavlja Miner nakon što primi nagradu.
+  - Transakcija koju obavlja rudar nakon što primi nagradu.
 explanation: >-
 reviewed: true

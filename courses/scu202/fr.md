@@ -2751,21 +2751,31 @@ L’email reste un outil de communication incontournable, mais les applications 
 
 FairEmail est une application Android complète et orientée sécurité. Elle prend en charge tous les fournisseurs IMAP/SMTP, permet le chiffrement des messages via OpenPGP, bloque les images distantes (utilisées comme traqueurs), et n’utilise aucun service tiers. Elle vous laisse un contrôle fin sur les connexions, les notifications et le comportement de synchronisation.
 
+![Image](assets/fr/155.webp)
+
 - [K-9 Mail](https://k9mail.app)
 
 K-9 Mail est un client mail open-source Android, récemment intégré à l’écosystème Thunderbird de Mozilla. Il gère les comptes multiples, le chiffrement PGP via OpenKeychain, et fonctionne sans serveur intermédiaire.
+
+![Image](assets/fr/156.webp)
 
 - [Thunderbird Mobile](https://www.thunderbird.net/mobile/)
 
 Thunderbird Mobile est la version mobile du célèbre client de messagerie open source développé par la Mozilla Foundation. Fidèle à la philosophie du projet, l'application met l'accent sur la confidentialité, la transparence du code et l'absence de télémétrie intrusive. Thunderbird Mobile est basée sur l'application K-9 Mail, dont elle est le successeur officiel sur Android. Elle permet une gestion avancée des comptes IMAP et POP, le chiffrement des courriels (via OpenPGP), et dispose d'une interface sobre et efficace.
 
+![Image](assets/fr/157.webp)
+
 - [Tuta](https://tuta.com/)
 
 Tuta (anciennement "*Tutanota*") propose une solution complète d’email chiffré de bout en bout, mais son client mobile ne prend en charge que les comptes Tuta. Il ne fonctionne pas avec d’autres fournisseurs. L’interface est moderne et épurée, et l’inscription ne requiert aucune donnée personnelle.
 
+![Image](assets/fr/158.webp)
+
 - [Proton Mail](https://proton.me/mail)
 
 Proton Mail est un service de messagerie sécurisé basé en Suisse, qui propose un chiffrement de bout en bout natif entre utilisateurs Proton. L’application mobile est open-source, sans publicité, et ne collecte aucune donnée personnelle lors de l’inscription. Proton Mail ne prend en charge que les comptes Proton, mais permet l’envoi chiffré même vers des adresses externes via un mot de passe.
+
+![Image](assets/fr/159.webp)
 
 → Un système d'email repose sur 2 composants distincts : le fournisseur d’email (comme Gmail, Tuta ou Proton Mail) qui gère la réception, l’envoi et le stockage des messages via des serveurs ; et le client email, qui est l’application utilisée pour consulter et rédiger vos emails (comme Gmail l'application, Outlook, K-9 Mail ou Thunderbird). Le client peut se connecter à différents fournisseurs via des protocoles standard comme IMAP ou SMTP.
 
@@ -2790,6 +2800,8 @@ Organic Maps est une application de navigation entièrement gratuite et fonction
 
 Elle ne contient ni publicité, ni suivi, ni collecte de données. L’application est particulièrement adaptée aux trajets à pied, à vélo ou en voiture, avec une interface simple, rapide et sans distraction.
 
+![Image](assets/fr/160.webp)
+
 - [OsmAnd](https://osmand.net/)
 
 OsmAnd (*OpenStreetMap Automated Navigation Directions*) est une autre application de cartographie open-source très complète. Elle propose la navigation GPS hors ligne, des cartes détaillées (y compris les sentiers, pistes cyclables ou reliefs), et une personnalisation très poussée.
@@ -2797,6 +2809,8 @@ OsmAnd (*OpenStreetMap Automated Navigation Directions*) est une autre applicati
 Vous pouvez y activer différents calques (zones piétonnes, transports publics, etc.), définir des alertes de vitesse ou encore intégrer des cartes spécialisées comme celles pour la randonnée ou les itinéraires nautiques.
 
 La version gratuite est déjà très riche, et la version payante permet de débloquer davantage de fonctionnalités et de soutenir le projet.
+
+![Image](assets/fr/161.webp)
 
 ### Bureautique et documents
 
@@ -2810,9 +2824,13 @@ Collabora Office est une version mobile de LibreOffice, pensée pour les smartph
 
 L’application prend en charge l’édition collaborative lorsqu’elle est connectée à une instance Nextcloud avec l’extension Collabora Online. Cela permet de reproduire une expérience proche de Google Docs, mais en hébergeant vous-même vos fichiers.
 
+![Image](assets/fr/162.webp)
+
 - [ONLYOFFICE](https://www.onlyoffice.com/)
 
 ONLYOFFICE est une suite bureautique open-source. Elle permet d’ouvrir et modifier des documents Word, Excel et PowerPoint directement sur mobile, même en local. Vous pouvez aussi la connecter à divers services cloud pour la synchronisation automatique, comme Nextcloud.
+
+![Image](assets/fr/163.webp)
 
 ### Gestionnaire de fichiers et cloud
 
@@ -2826,11 +2844,15 @@ Nextcloud est une solution de cloud personnel open-source que vous pouvez héber
 
 Sur Android, vous pouvez installer l'application officielle Nextcloud mobile pour accéder à votre cloud personnel depuis n’importe où. Il est également possible d’y ajouter des fonctions comme la gestion de photos, la bureautique, le calendrier ou encore la messagerie.
 
+![Image](assets/fr/164.webp)
+
 - [Material Files](https://github.com/zhanghai/MaterialFiles)
 
 Material Files est un gestionnaire de fichiers open-source, léger et épuré. Il permet de parcourir, déplacer, copier ou supprimer des fichiers localement sur votre appareil Android.
 
 L'application ne contient ni publicité ni pisteurs, et ne demande aucune permission abusive. C'est donc une alternative intéressante à l’explorateur de fichiers fourni par Google, souvent intégré à d'autres services cloud propriétaires.
+
+![Image](assets/fr/165.webp)
 
 ### Calendrier / Agenda
 
@@ -2842,17 +2864,25 @@ De nombreuses personnes utilisent des applications comme Google Calendar ou Outl
 
 Etar est un calendrier simple et efficace, entièrement open-source. Il peut fonctionner en local, mais permet aussi la synchronisation via CalDAV, un protocole standard pour synchroniser des agendas avec des services respectueux de la vie privée (comme Nextcloud ou EteSync).
 
+![Image](assets/fr/166.webp)
+
 - [Simple Calendar](https://simplemobiletools.com/simplecalendar/)
 
 Cette application fait partie de la suite "*Simple Mobile Tools*". Elle ne nécessite aucun compte ni accès réseau, ce qui en fait une solution idéale pour une utilisation entièrement hors ligne. Vous pouvez y ajouter vos événements, définir des rappels, organiser des vues par jour, semaine ou mois. Comme le reste de la suite, l'application Simple Calendar est sans publicité, sans tracker, et 100 % open-source.
+
+![Image](assets/fr/167.webp)
 
 - [Tuta Calendar](https://tuta.com/calendar)  
 
 Tuta Calendar, développé par l'équipe derrière Tuta Mail, est un calendrier entièrement chiffré de bout en bout, conçu pour préserver la confidentialité de vos événements. Il fonctionne sur Android, iOS et via un client web. Même les titres, les descriptions et les métadonnées de vos événements sont chiffrés, ce qui garantit qu'aucun tiers, y compris Tuta, ne peut accéder à vos données.
 
+![Image](assets/fr/168.webp)
+
 - [Proton Calendar](https://proton.me/calendar)
 
 Proton Calendar offre également un chiffrement de bout en bout natif pour vos événements et leurs métadonnées. Il est accessible sur mobile (Android, iOS) et via un client web, avec une interface claire et intuitive. Le service permet la création de plusieurs calendriers, l’import/export d’événements et des options de partage. Le client web est open-source, mais les applications mobiles ne le sont pas encore totalement.
+
+![Image](assets/fr/169.webp)
 
 ### Prise de notes
 
@@ -2864,11 +2894,15 @@ Les applications comme Evernote, Google Keep ou OneNote sont utilisées pour cap
 
 Quillpad est une application légère conçue spécifiquement pour la prise de notes en markdown. Elle permet de chiffrer en option vos notes, d’organiser vos contenus par balises et couleurs, et d’y ajouter des rappels. Tout fonctionne sans compte ni connexion, et les données restent stockées sur votre appareil. Elles peuvent également être enregistrées chiffrées sur pCloud.
 
+![Image](assets/fr/170.webp)
+
 - [Joplin](https://joplinapp.org/)
 
 Joplin est une solution plus complète, qui propose la synchronisation des notes chiffrées via des services compatibles comme Nextcloud, Dropbox ou WebDAV. Vous pouvez y gérer des notes simples ou structurées (en Markdown), classer vos documents, et même importer des fichiers joints.
 
 Son interface est un peu plus complexe que celle de QuillNote, mais elle reste parfaitement utilisable sur mobile et s’adapte à des usages personnels et professionnels.
+
+![Image](assets/fr/171.webp)
 
 ### Gestionnaire de mots de passe
 
@@ -2888,6 +2922,8 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 KeePass est un logiciel historique gestionnaire de mots de passe, basé sur des fichiers locaux chiffrés. Sur mobile, KeePassDX est une excellente implémentation Android, compatible avec toutes les bases KeePass. Elle fonctionne hors-ligne, sans cloud, ce qui en fait une bonne solution pour ceux qui veulent garder leurs données 100 % locales.
 
+![Image](assets/fr/172.webp)
+
 Il existe également [KeePassium](https://keepassium.com/) pour iOS, une application bien intégrée à l’écosystème Apple, compatible avec le format KeePass et open source. Une autre alternative iOS pour un client KeePass est Strongbox, mais ce logiciel n’est plus open source depuis quelques années.
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
@@ -2895,6 +2931,8 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 - [Proton Pass](https://proton.me/pass)
 
 Lancé par l’équipe de Proton (connue pour Proton Mail et Proton Drive notamment), Proton Pass combine simplicité d’usage, chiffrement de bout en bout, et infrastructure suisse respectueuse de la vie privée. L’application mobile est intuitive, permet d’ajouter des notes sécurisées, et prend en charge l’auto-remplissage. C’est une excellente alternative pour ceux qui veulent une solution clé en main, sans se soucier de la gestion technique.
+
+![Image](assets/fr/173.webp)
 
 ### VPN
 
@@ -2920,6 +2958,8 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 Développé par l’équipe de Proton, ce VPN offre un plan gratuit sans publicité. Proton VPN est basé en Suisse, soumis à des lois strictes sur la vie privée, et publie régulièrement des audits. LEs clients sont également open-source.
 
+![Image](assets/fr/174.webp)
+
 ### Authentification 2FA
 
 L’authentification à deux facteurs (2FA) est une couche de sécurité supplémentaire qui s’ajoute à votre mot de passe. Elle repose souvent sur un code à usage unique généré toutes les 30 secondes par une application d’authentification. Ce code est basé sur un secret partagé entre votre appareil et le service en ligne, selon le protocole TOTP (*Time-based One-Time Password*). L’application la plus connue est Google Authenticator, mais elle n'est pas open-source et vous rend dépendant à l’écosystème Google.
@@ -2930,11 +2970,15 @@ L’authentification à deux facteurs (2FA) est une couche de sécurité supplé
 
 Aegis est une application open-source très complète. Elle chiffre votre base de données 2FA avec un mot de passe, propose des sauvegardes exportables (également chiffrées), et permet de trier vos comptes par dossier. L’interface est claire, moderne, et la restauration sur un nouvel appareil est simple, tant que vous disposez du fichier de sauvegarde et du mot de passe associé.
 
+![Image](assets/fr/175.webp)
+
 - [Ente Auth](https://ente.io/auth/)
 
 Ente Auth est une solution moderne, open-source, multiplateforme et dotée de sauvegardes chiffrées de bout en bout. Elle permet de synchroniser vos codes 2FA sur mobile, desktop et web de manière sécurisée. Vous pouvez également l’utiliser en mode hors ligne, sans sauvegarde cloud, ni création de compte.
 
 Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation par tags, icônes personnalisées pour chaque service, notes, favoris, recherche intégrée, partage sécurisé de codes en équipe...
+
+![Image](assets/fr/176.webp)
 
 - [Authy](https://www.authy.com/)
 
@@ -2956,13 +3000,19 @@ Les applications météo classiques comme AccuWeather ou Météo France collecte
 
 Geometric Weather propose des prévisions détaillées, des widgets personnalisables, le tout sans publicité ni collecte intrusive. Son code est open-source. L'application prend en charge plusieurs fournisseurs météo.
 
+![Image](assets/fr/177.webp)
+
 - [Prognoza](https://github.com/davidtakac/prognoza)
 
 Prognoza est une application minimaliste qui va droit à l'essentiel : afficher la météo actuelle et les prévisions. Elle propose plusieurs widgets. Prognoza fonctionne sans publicité, sans pisteur, et ne demande aucune autorisation inutile.
 
+![Image](assets/fr/178.webp)
+
 - [Forecastie](https://github.com/martykan/forecastie)
 
 Application de météo simple, basée sur OpenWeatherMap, open-source, configurable, avec des widgets.
+
+![Image](assets/fr/179.webp)
 
 De manière plus générale, sur les applications de météo, préférez configurer manuellement les localisations qui vous intéressent plutôt que d’activer la géolocalisation automatique.
 
@@ -2976,6 +3026,8 @@ Les plateformes populaires comme Spotify ou YouTube offrent une expérience util
 
 LibreTube est une application Android qui permet de visionner des vidéos YouTube sans que Google ne puisse vous suivre. Toutes les requêtes sont redirigées via un serveur proxy Piped, ce qui anonymise l'accès aux vidéos. L'interface est moderne, rapide et sans publicité. L'application ne nécessite aucun compte Google, et permet de s’abonner anonymement à des chaînes ou de créer des listes de lecture locales.
 
+![Image](assets/fr/180.webp)
+
 - [NewPipe](https://newpipe.net/)
 
 NewPipe est un autre client YouTube alternatif. Léger, sans publicité, sans pisteur, et entièrement open-source, il permet de visionner, télécharger ou écouter en arrière-plan des vidéos issues de YouTube (et d’autres plateformes comme SoundCloud ou PeerTube). Aucune connexion à Google n’est requise. NewPipe fonctionne de manière totalement indépendante de l’application YouTube officielle, et ne nécessite aucun service Google pour fonctionner.
@@ -2983,6 +3035,8 @@ NewPipe est un autre client YouTube alternatif. Léger, sans publicité, sans pi
 - [VLC Android](https://www.videolan.org/vlc/download-android.html)
 
 Le célèbre lecteur multimédia VLC est également disponible sur Android. Il prend en charge un grand nombre de formats audio et vidéo, permet la lecture de fichiers en local ou en réseau, le tout sans publicité ni collecte de données. C’est une excellente solution pour gérer votre propre bibliothèque multimédia en local, sans connexion à un service tiers.
+
+![Image](assets/fr/181.webp)
 
 - [Funkwhale](https://funkwhale.audio/) :
 
@@ -3002,6 +3056,8 @@ OpenBoard est un clavier Android minimaliste, open-source, basé sur le clavier 
 
 FlorisBoard propose une approche plus moderne et modulaire. Également open-source, il intègre des fonctionnalités avancées comme la saisie gestuelle, la disposition personnalisée des touches, ou encore la gestion multilingue. Tout le traitement des données se fait localement, sans connexion à des serveurs extérieurs. FlorisBoard est encore en développement, mais déjà tout à fait utilisable au quotidien pour celles et ceux qui souhaitent un clavier puissant, sans sacrifier leur vie privée.
 
+![Image](assets/fr/182.webp)
+
 ### Calculatrice
 
 L’application Google Calculator, bien qu’efficace, reste un produit Google et s’accompagne des risques habituels liés à la collecte de données et à la dépendance à un écosystème centralisé.
@@ -3012,6 +3068,8 @@ L’application Google Calculator, bien qu’efficace, reste un produit Google e
 
 OpenCalc est une calculatrice open-source simple et rapide, parfaitement adaptée aux besoins du quotidien. Elle ne collecte aucune donnée et fonctionne entièrement hors ligne, sans publicité ni dépendance à un quelconque service externe.
 
+![Image](assets/fr/183.webp)
+
 ### Magasin d’applications
 
 Le Google Play Store est la source par défaut d’applications sur la majorité des smartphones Android. Toutefois, il est profondément intégré aux services Google et implique une collecte systématique de données, même lors de simples recherches ou mises à jour.
@@ -3021,6 +3079,8 @@ Le Google Play Store est la source par défaut d’applications sur la majorité
 - [F-Droid](https://f-droid.org/)
 
 F-Droid est un catalogue d'applications exclusivement open-source. Chaque logiciel disponible y est librement auditable et téléchargeable, sans publicité, ni suivi, ni dépendance aux services Google. L'application F-Droid elle-même ne nécessite pas de compte utilisateur.
+
+![Image](assets/fr/184.webp)
 
 - [Aurora Store](https://auroraoss.com/)
 
@@ -3060,13 +3120,19 @@ Simple Gallery est une application open-source minimaliste qui fonctionne entiè
 
 Aves est une alternative avec une interface plus moderne. Elle prend permet une navigation fluide dans vos albums, et offre une organisation avancée (tags, filtres, tri...). Elle ne nécessite aucune connexion internet pour fonctionner et ne collecte aucune donnée utilisateur.
 
+![Image](assets/fr/185.webp)
+
 - [Ente Photos](https://ente.io/)
 
 Ente Photos est un service open-source (clients + serveurs) de sauvegarde automatique de photos avec chiffrement de bout en bout. Vos images sont chiffrées sur l’appareil avant d’être envoyées, ce qui garantit que même les serveurs Ente ne peuvent y accéder. Ente propose aussi une version auto-hébergeable pour les utilisateurs avancés.
 
+![Image](assets/fr/186.webp)
+
 - [Stingle Photos](https://stingle.org/)
 
 Stingle est à la fois une galerie photo et une application de caméra, combinée à un service de sauvegarde chiffrée. Tout comme Ente, les photos sont protégées par un chiffrement de bout en bout. Vous pouvez utiliser leur service cloud (1 Go gratuit) ou auto-héberger le serveur Stingle pour garder un contrôle total. L’interface est sobre, sans publicité ni traqueur.
+
+![Image](assets/fr/187.webp)
 
 ### Lecteur PDF
 
@@ -3092,6 +3158,8 @@ L’application Téléphone de Google, installée par défaut sur de nombreux sm
 
 Koler est une application de téléphonie open-source, conçue pour être à la fois jolie, simple à utiliser et respectueuse de la vie privée. Elle propose une interface fluide et intuitive pour gérer vos appels, sans traqueurs ni analyse de données personnelles. En revanche, elle n'inclut pour le moment pas de filtrage d’appels avancé, ni d’intégration avec des services tiers.
 
+![Image](assets/fr/188.webp)
+
 ### Traduction
 
 Google Translate est la référence en matière de traduction automatique, mais son utilisation implique systématiquement l’envoi de toutes vos requêtes à Google, avec un suivi intégré et une collecte possible de données sensibles (textes traduits, historique...).
@@ -3103,6 +3171,8 @@ Google Translate est la référence en matière de traduction automatique, mais 
 TranslateYou est une application de traduction open-source qui respecte la vie privée de ses utilisateurs. Elle fonctionne comme une interface pour différents moteurs de traduction (LibreTranslate, LingvaTranslate, Mozhi, DeepL...), et permet de choisir un service qui n’exploite pas vos données.
 
 Aucune publicité, pas de traqueurs, et une interface simple à utiliser font de TranslateYou une alternative pratique à Google Translate.
+
+![Image](assets/fr/189.webp)
 
 ### Scanneur de produits
 
@@ -3137,6 +3207,8 @@ Warpinator, développé par Linux Mint, facilite le transfert de fichiers entre 
 - [LocalSend](https://localsend.org/)
 
 LocalSend est une autre alternative libre, complète et avec une interface soignée. Entièrement open-source, cette application permet de transférer des fichiers de manière décentralisée et chiffrée de bout en bout entre appareils connectés au même réseau local. Aucun serveur intermédiaire n’est utilisé, ce qui garantit que vos données ne quittent jamais votre réseau domestique.
+
+![Image](assets/fr/190.webp)
 
 ### Livres
 

@@ -8,7 +8,7 @@ explanation: |
   Problem Vizantijskih generala je klasičan problem u
   distribuiranom računarstvu, koji uključuje postizanje konsenzusa
   u mreži gde neki od čvorova mogu biti neispravni ili
-  zlonamerni. Bitcoin rešava ovaj problem korišćenjem
+  zlonamerni. Bitkoin rešava ovaj problem korišćenjem
   Blockchain zasnovanog na Proof of Work, što osigurava da svi
   čvorovi postignu saglasnost o stanju istorije transakcija.
 reviewed: true

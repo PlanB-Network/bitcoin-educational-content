@@ -1,0 +1,23 @@
+name: Trojan Mining
+
+address_line_1: Abuja, Nigeria
+address_line_2:
+address_line_3: 
+
+language:
+  - fr
+  - en
+
+links:
+  website: https://www.trojanmining.com/
+  twitter: https://x.com/TrojanMining
+  Github:
+  youtube:
+  nostr:
+
+tags:
+  - bitcoin
+  - mining
+  - energy
+
+category: mining

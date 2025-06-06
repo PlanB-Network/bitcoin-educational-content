@@ -11,6 +11,7 @@ I portafogli Lightning, come tutti i portafogli mobili, sono considerati portafo
 Se volete saperne di più sulla rete Lightning e capire come funziona tecnicamente, vi consiglio di seguire questo corso:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 In questo tutorial daremo un'occhiata a **Lipa**, un portafoglio Lightning semplice ed efficace sviluppato in Svizzera.
 
 ## Presentazione di Lipa
@@ -91,6 +92,7 @@ Per eseguire il backup del portafoglio, accedere alla scheda "Impostazioni" e se
 Per ulteriori informazioni su come eseguire correttamente il backup e gestire la frase di ripristino, vi consiglio di seguire quest'altra guida, soprattutto se siete principianti:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ## Ricevere bitcoin
 
 Per ricevere bitcoin, sono disponibili due opzioni. Per accedere a queste opzioni, tornare alla schermata iniziale e abbassare lo schermo. A questo punto è possibile scegliere tra :

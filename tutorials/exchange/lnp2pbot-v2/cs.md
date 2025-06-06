@@ -9,6 +9,7 @@ description: Kompletní průvodce LNP2PBot a P2P obchodování s bitcoiny
 Pro zachování důvěrnosti a finanční nezávislosti uživatelů jsou zásadní výměnné burzy P2P (peer-to-peer) bez nutnosti KYC. Umožňují přímé transakce mezi jednotlivci bez nutnosti ověřování totožnosti, což je zásadní pro ty, kteří si cení soukromí. Chcete-li teoretickým konceptům porozumět hlouběji, podívejte se na kurz BTC204:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 Nákup a prodej bitcoinů peer-to-peer (P2P) je jedním z nejprivátnějších způsobů získávání bitcoinů nebo nakládání s nimi. LNP2PBot je open source bot pro Telegram, který usnadňuje P2P výměny v síti Lightning a umožňuje rychlé, levné transakce bez KYC.
 
 ### Proč používat Lnp2pbot?
@@ -74,6 +75,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 Níže naleznete odkaz na výukový program pro tuto peněženku:
 
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 **Důležité poznámky k ostatním portfoliím**
 
 ⚠️ **Důležité**: Před prodejem satelitů se ujistěte, že vaše portfolio podporuje faktury "hold", které bot používá jako systém úschovy.

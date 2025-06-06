@@ -557,15 +557,18 @@ Di seguito definiremo diversi livelli di sicurezza:
 
 Ad esempio, è possibile utilizzare Sparrow Wallet come portafoglio caldo:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Livello 2\*\*, si utilizza un portafoglio fisico e si è protetto l'elenco di 12/24 parole. Viene spesso definito "portafoglio freddo" perché le chiavi sono memorizzate su un dispositivo non connesso a Internet. In questo caso, dovrete sempre firmare ogni transazione con il vostro dispositivo, il che rende i vostri fondi meno accessibili su base giornaliera.
 
 Ad esempio, si può utilizzare un Ledger, un Satochip o un Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Livello 3**, si utilizza un portafoglio di livello 1 o 2, ma si aggiunge una passphrase supplementare. In questo caso, è necessario eseguire il backup sia dell'elenco di 12/24 parole **che\*\* della passphrase. Idealmente, queste due informazioni sono memorizzate in due luoghi diversi.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Per saperne di più sull'uso e sul funzionamento della passphrase BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Livello 4\*\*, si utilizza un insieme di portafogli per creare un portafoglio "multisig", il che significa che sono necessarie più firme per condurre una transazione. In questo caso, occorre tenere presente che ogni parte del multisig deve essere memorizzata in luoghi diversi. Questo approccio è spesso considerato un uso avanzato di Bitcoin, principalmente per la gestione di grandi quantità e per scopi aziendali.
@@ -1074,11 +1078,11 @@ Tratteremo questo argomento in dettaglio in un altro corso, ma per non complicar
 
 - Una semplice soluzione online: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Soluzione per commercianti dilettanti: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Soluzione per grandi strutture o appassionati di bitcoiners: Server BTCpay
 
@@ -1362,7 +1366,7 @@ Siete pronti a partecipare?
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 
-<isCourseExam>vero</isCourseExam>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusione
 

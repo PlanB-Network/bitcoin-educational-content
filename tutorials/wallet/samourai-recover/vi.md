@@ -146,7 +146,7 @@ Nếu bạn sử dụng phần mềm khác ngoài Sparrow, như Electrum, để 
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Bây giờ bạn đã có quyền truy cập vào bitcoin của mình trên Sparrow. Nếu bạn cần trợ giúp sử dụng Sparrow Wallet, bạn cũng có thể xem [hướng dẫn chuyên dụng của chúng tôi](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Bây giờ bạn đã có quyền truy cập vào bitcoin của mình trên Sparrow. Nếu bạn cần trợ giúp sử dụng Sparrow Wallet, bạn cũng có thể xem [hướng dẫn chuyên dụng của chúng tôi](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Tôi cũng khuyên bạn nên nhập thủ công lại các nhãn bạn đã liên kết với các UTXO trên Samourai. Điều này sẽ cho phép bạn kiểm soát coin của mình hiệu quả trên Sparrow sau này.
 
@@ -202,7 +202,7 @@ Nếu bạn đang sử dụng phần mềm khác như Electrum để khôi phụ
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Bây giờ bạn đã có quyền truy cập vào bitcoin của mình trên Sparrow. Nếu bạn cần trợ giúp sử dụng Sparrow Wallet, bạn cũng có thể tham khảo [hướng dẫn dành riêng của chúng tôi](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Bây giờ bạn đã có quyền truy cập vào bitcoin của mình trên Sparrow. Nếu bạn cần trợ giúp sử dụng Sparrow Wallet, bạn cũng có thể tham khảo [hướng dẫn dành riêng của chúng tôi](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Tôi cũng khuyên bạn nên nhập thủ công lại các nhãn bạn đã liên kết với các UTXO của mình trên Samourai. Điều này sẽ giúp bạn kiểm soát coin của mình hiệu quả trên Sparrow sau này.
 

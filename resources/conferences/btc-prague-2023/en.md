@@ -5,25 +5,25 @@ description: Biggest conference of Europe
 
 # Expo Stage
 
-## European Bitcoiners 
+## European Bitcoiners
 
 ![video](https://youtu.be/iD6Rx9DT824)
 
 Speaker: General Kenobi
 
-## Bitcoin: Founders and Funding 
+## Bitcoin: Founders and Funding
 
 ![video](https://youtu.be/0671m9xhhNA)
 
 Speaker: Mike Jarmuz
 
-## Bitcoin Mining World Tour 
+## Bitcoin Mining World Tour
 
 ![video](https://youtu.be/WfMkeUgLKlo)
 
 Speakers: Timo Steipe & Luca Infeld
 
-## Bolt to the Future: Open Source Treasury Management for Your ⚡ Node 
+## Bolt to the Future: Open Source Treasury Management for Your ⚡ Node
 
 ![video](https://youtu.be/qIQ5J0npj0c)
 
@@ -126,6 +126,7 @@ Speakers: Wolf von Laer, Autumn Domingo, Adi Shankara, Arsh Molu
 Speakers: Anita Posch, Michael Bumann, Matěj Švancer, Mir Liponi
 
 ## Zapvertising: All Your Models Are Broken
+
 ![video](https://youtu.be/u8lLaCQJ24Y)
 
 Speakers: Carla & Walker
@@ -238,7 +239,7 @@ Speaker: Michael Bumann
 
 Speaker: Matthias Koller
 
-# Main Stage 
+# Main Stage
 
 ## BTC Prague 2023 Kick-Off
 
@@ -284,19 +285,19 @@ Speaker: Jan Pleskač
 
 ![video](https://youtu.be/qOlm-06kUKo)
 
-Speaker: Kevin Loaec 
+Speaker: Kevin Loaec
 
 ## Privacy & Anonymity: Securing the Digital Economy's Most Valuable Assets
 
 ![video](https://youtu.be/G7MhAXoVsyo)
 
-Speaker: Micah Anderson 
+Speaker: Micah Anderson
 
 ## We Have Entered the Age of Financial Tyranny
 
 ![video](https://youtu.be/vKsPfQkeo4s)
 
-Speaker: Lea Petrášová 
+Speaker: Lea Petrášová
 
 ## Regulations Are Not The Solution
 
@@ -346,7 +347,7 @@ Event: Conference Kick-Off
 
 ## Bitcoin Is FU Money
 
-![video](https://youtu.be/GUUH3HhDdkg) 
+![video](https://youtu.be/GUUH3HhDdkg)
 
 Speaker: Erik Dale
 
@@ -365,6 +366,7 @@ Speaker: niftynei
 ## Second LayersPanel
 
 ![video](https://youtu.be/qmlr01SKDX0)
+
 Speakers: Justin Moon, Scott Millar, John Carvalho, Stephan Livera
 
 ## Why You Should Run NODE
@@ -377,7 +379,7 @@ Speaker: Peter Todd
 
 ![video](https://youtu.be/8N8MYDCJ1Bg)
 
-Speaker: Svetski @ 
+Speaker: Svetski @
 
 ## Vexl: Bitcoin As It Was Intended
 
@@ -385,7 +387,7 @@ Speaker: Svetski @
 
 Speaker: Lea Petrášová
 
-## P2P & NoKYC Practices 
+## P2P & NoKYC Practices
 
 ![video](https://youtu.be/WxGowLFeW0E)
 
@@ -401,7 +403,7 @@ Speaker: Anita Posch
 ![video](https://youtu.be/TWRjPRkltZ0)
 Speaker: Ben Perrin
 
-## Bitcoin Is Justice 
+## Bitcoin Is Justice
 
 ![video](https://youtu.be/peHLVfE_wpU)
 Speakers: Andrey Khavryuchenko, Farida Nabourema, Lyudmyla Kozlovska
@@ -424,13 +426,13 @@ Speaker: BTCxZelko
 
 Speaker: Dušan Matuška
 
-## THERE IS NO SECOND BEST 
+## THERE IS NO SECOND BEST
 
 ![video](https://youtu.be/UADTd7gCuXo)
 
 Speaker: Michael Saylor
 
-## I WAS BORN AFTER BITCOIN 
+## I WAS BORN AFTER BITCOIN
 
 ![video](https://youtu.be/yLYQq1ohKlg)
 
@@ -454,13 +456,13 @@ Speakers: Jakub Vejmola, Roman Reher, Lunaticoin, Rogzy, Rikki
 
 Speaker: General Kenobi
 
-## "It's COMMUNITY that DID IT!" 
+## "It's COMMUNITY that DID IT!"
 
 ![video](https://youtu.be/NvD5Ea0GRIc)
 
 Speaker: Dennis
 
-## WE EACH NEED AN UNCORRUPTED HEART 🧡 
+## WE EACH NEED AN UNCORRUPTED HEART 🧡
 
 ![video](https://youtu.be/2MujON6c3Ko)
 
@@ -496,12 +498,13 @@ Speaker: Benjamin de Waal
 
 Speakers: Pavol Rusnák, Douglas Bakkum, Lawrence Nahum, Lunaticoin
 
-## WE HAVE LASER EYES - Michael Saylor at 
+## WE HAVE LASER EYES
 
 ![video](https://youtu.be/8Mhu6dxj7qk)
+
 Speaker: Michael Saylor
 
-## SKY IS THE LIMIT - Uncle Rockstar at 
+## SKY IS THE LIMIT
 
 ![video](https://youtu.be/r-PluvBbTPk)
 
@@ -513,7 +516,7 @@ Speaker: Uncle Rockstar
 
 Speaker: Johns Beharry
 
-## NEW WORLD OPENS when you WORK IN BITCOIN 
+## NEW WORLD OPENS when you WORK IN BITCOIN
 
 ![video](https://youtu.be/Ze8P2f6q6Zs)
 
@@ -549,7 +552,7 @@ Speaker: Andrey Khavryuchenko
 
 Speakers: Adam Back, Fabian Weber, Jaran Mellerud, Bob Burnett
 
-## STUDY BITCOIN 📢 CALL OUT BAD ACTORS❗ TELL THE TRUTH 
+## STUDY BITCOIN 📢 CALL OUT BAD ACTORS❗ TELL THE TRUTH
 
 ![video](https://youtu.be/596InlNtfD0)
 
@@ -569,7 +572,8 @@ Speaker: Anita Posch
 
 ## Bitcoin & Leadership
 
-![video](https://youtu.be/uteM8FWoA_s) 
+![video](https://youtu.be/uteM8FWoA_s)
+
 Speaker: Sophie von Laer
 
 ## European Bitcoiners
@@ -590,7 +594,7 @@ Speaker: Knut Svanholm
 
 Speaker: Matthew Mežinskis
 
-## “We’ve had the FIAT SCAM going on now for a CENTURY.”
+## We’ve had the FIAT SCAM going on now for a CENTURY
 
 ![video](https://youtu.be/zCfGGllOgIk)
 
@@ -599,6 +603,3 @@ Speaker: Saifedean Ammous
 ## BTC Prague 2023 Closing
 
 ![video](https://youtu.be/abqkGOFXIqw)
-
-
-

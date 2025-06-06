@@ -1,4 +1,4 @@
---- 
+---
 name: Breaking Bitcoin conference 2019
 description: Breaking bitcoin is an event for the technical community focusing on the security of Bitcoin and everything around it.
 ---
@@ -15,7 +15,7 @@ Speaker: Chris Belcher
 
 ![video](https://youtu.be/mcJa1YvzrFs?si=e8a85Eo5fXFj-Yj-)
 
-Speaker: Jonas Schnelli 
+Speaker: Jonas Schnelli
 
 ## Bitcoin Web Application Security
 
@@ -39,7 +39,7 @@ Speaker: Carl Dong
 
 ![video](https://youtu.be/JdvVKRTMwz8?si=mazJAoncOuGMAGNW)
 
-Speaker: Jonas Nick 
+Speaker: Jonas Nick
 
 ## Security and Attacks on Decentralized Mining Pools
 
@@ -99,7 +99,7 @@ Speaker: Gregory Sanders
 
 ![video](https://youtu.be/ABPOYFw9zAQ?si=2SjcIPOscy2xitfF)
 
-Seapker: Jimmy Song 
+Seapker: Jimmy Song
 
 ## Topological Analysis of Bitcoin's Lightning Network
 
@@ -111,9 +111,9 @@ Speaker: István András Seres
 
 ![video](https://youtu.be/Q9w9VCOrego?si=Q0UfRnCNdnxCl5YD)
 
-Speaker: Joost Jager 
+Speaker: Joost Jager
 
-# Panel 
+# Panels
 
 ## FUD (Perceived vs Real Risks in Bitcoin)
 
@@ -138,4 +138,3 @@ Panel with Wassim Alsindi, Aaron Van Wirdum, Max Hillebrand and Felix Weis
 ![video](https://youtu.be/orWfkdDWQzo?si=fdKFV94hPXUBiYo8)
 
 Panel with Michael Folkson, Olaoluwa Osuntokun, Justin Camarena and Matt Corallo
-

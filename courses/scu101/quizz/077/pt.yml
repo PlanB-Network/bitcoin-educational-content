@@ -1,0 +1,9 @@
+question: Por que é essencial proteger a sua caixa de correio?
+answer: Porque permite redefinir suas senhas
+wrong_answers:
+- Porque ela serve para receber newsletters
+- Porque contém a totalidade das suas senhas
+- Porque contém os seus dados bancários
+explanation: A caixa de correio é o ponto de acesso central para recuperar senhas
+  e comprometer vários contas em caso de falha.
+reviewed: false

@@ -1,22 +1,22 @@
---- 
+---
 name: Adopting Bitcoin 2022
 description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption. This novel situation presents both the challenge of onboarding users and the opportunity to learn from them, benefiting the entire ecosystem, from protocol and application developers to entrepreneurs, investors, and the many communities around the world that followed Bitcoin Beach's example by establishing circular Bitcoin economies.
 
---- 
+---
 
-# Bitfinex  Stage 
+# Bitfinex Stage
 
 ## Opening Remarks
 
 ![video](https://youtu.be/mECOICo9Aho?si=5zeWEuycPpuOBhra)
 
-Speaker: Chris Hunter 
+Speaker: Chris Hunter
 
-## Looking back to move forward 
+## Looking back to move forward
 
 ![video](https://youtu.be/oHJN_iMvkJg?si=ZRMUXrQqtE2y04CW)
 
-Speaker Gerson Martinez 
+Speaker Gerson Martinez
 
 ## Adoption progress in El Salvador
 
@@ -24,29 +24,23 @@ Speaker Gerson Martinez
 
 Panel hosted by Peter Young with Tristan Thoma, Stina Liland, Guillermo Contreras and Will Hernandez
 
-## Financial Freedom 
+## Financial Freedom
 
 ![video](https://youtu.be/bGqSzZg7GJ4?si=VOvpVIohEVYHBgMF)
 
-Speaker: Paolo Ardoino 
+Speaker: Paolo Ardoino
 
-## The Theory of Bitcoin Intermediaries 
+## The Theory of Bitcoin Intermediaries
 
 ![video](https://youtu.be/E_QH0mMeD5w?si=8rVvYJ-D8ORkuW_U)
 
-Speaker: Eric Yakes 
+Speaker: Eric Yakes
 
-## Stablecoins 
+## Stablecoins - Danger, distraction or intermediate step to embrace Bitcoin
 
 ![video](https://youtu.be/24oKl_Q3yzk?si=9M4NnL2aNz4xOvJy)
 
-Panel hosted by Shinobi with Nicolas Burtey, Paolo Ardoino and Sam Abbassi
-
-## Bitcoin Ekasi 
-
-![video](https://youtu.be/UZaYhl5gx0k?si=i_idCF26J5EZOC3o)
-
-Speaker: Hermann Buhr Vivier
+Panel hosted by Shinobi with Nicolas Burtey, Paolo Ardoino, and Sam Abbassi
 
 ## The Bitcoin Beach Whitepaper
 
@@ -54,29 +48,35 @@ Speaker: Hermann Buhr Vivier
 
 Speaker: Mike Peterson
 
+## Bitcoin Ekasi
+
+![video](https://youtu.be/UZaYhl5gx0k?si=i_idCF26J5EZOC3o)
+
+Speaker: Hermann Buhr Vivier
+
 ## El Zonte Medical Clinic & Pharmacy
 
 ![video](https://youtu.be/D7zDspY55gc?si=HfDJ5sG1VAyG8naU)
 
-As you may or may not know, El Zonte currently does not have a clinic or pharmacy of any kind for their community or the surrounding communities of 12,000 people. Suzie is a dentist who has partnered with 3 sisters in El Zonte (one is a physician and one will soon be graduating from dental school) to build a medical clinic, pharmacy and dental clinic all in one facility in El Zonte. The sisters are life long residents of El Zonte and 2 volunteer at Hope House. 
+As you may or may not know, El Zonte currently does not have a clinic or pharmacy of any kind for their community or the surrounding communities of 12,000 people. Suzie is a dentist who has partnered with 3 sisters in El Zonte (one is a physician and one will soon be graduating from dental school) to build a medical clinic, pharmacy and dental clinic all in one facility in El Zonte. The sisters are life long residents of El Zonte and 2 volunteer at Hope House.
 
-## Bitcoin Jungle 
+## Learnings from Bitcoin Jungle in Costa Rica
 
-![video](https://youtu.be/9j2qnvE4jN8?si=PaWTEkvL2ggK2Wam)
+![video](https://youtu.be/9j2qnvE4jN8)
 
 Panel by Francis Pouliot with Lee Salminen and Rich Scotford
 
-## Bitcoin Lake 
+## Bitcoin Lake in Guatemala
 
 ![video](https://youtu.be/lHTOEUS_v-Q?si=-ks3hjoCQXELk4HI)
 
 Speaker: Patrick Melder
 
-## Bitcoin Island 
+## Bitcoin Island
 
 ![video](https://youtu.be/3YHnEpJT6Cg?si=KbK5gEhvbVGChD8l)
 
-Speaker: Bill Hill 
+Speaker: Bill Hill
 
 ## Let a thousand Bitcoin Beaches bloom
 
@@ -90,11 +90,11 @@ Panel by Andrew Begin with Chimbera, Hermann Buhr Vivier, Kyle Murphy and Patric
 
 Speaker: Carla & Fran Finney
 
-## Growing up in a Bitcoin world 
+## Growing up in a Bitcoin world
 
 ![video](https://youtu.be/H1soSGwGN_E?si=H7g_UbCh554zJcQn)
 
-Speaker: Samantha De Waal 
+Speaker: Samantha De Waal
 
 ## From Crypto to Bitcoin
 
@@ -106,7 +106,7 @@ Fireside Chat with Stacy Herbert and Carol Souza
 
 ![video](https://youtu.be/yFIEjnjjr2Y?si=r5rBtq7MgNHzbWCb)
 
-Panel by Rodrigo Gomez with Milena Mayorga, Francis Pouliot and Prince Philip of Serbia and 
+Panel by Rodrigo Gomez with Milena Mayorga, Francis Pouliot and Prince Philip of Serbia and
 
 ## Currency of Love that Inspires Action for Peace
 
@@ -114,7 +114,7 @@ Panel by Rodrigo Gomez with Milena Mayorga, Francis Pouliot and Prince Philip of
 
 Presentation by Nozomi Hayase
 
-## Africa: Independence through bitcoin 
+## Africa: Independence through bitcoin
 
 ![video](https://youtu.be/8YZe_UuRSV8?si=GFYi5mfMDd1Yh1Pl)
 
@@ -126,29 +126,35 @@ Panel by Renata Rodrigues with Yamb Ntimba, Hermann Buhr Vivier, Bernard Parah a
 
 Speaker: Jeremy
 
-## Bitcoin Dedication 
+## Bitcoin Dedication
 
 ![video](https://youtu.be/pKYeJbT4o28?si=Qk42MBqxcw3UwGFl)
 
-Speaker:Roger 9000
+Singer: Roger 9000
+
+## Bitcoin is Speech
+
+![video](https://youtu.be/HxpDCKtUEwA?si=SU4FH6gDTb_y5d1T)
+
+Speaker: Akin Fernandez
 
 ## Sovereign Adoption of Bitcoin
 
 ![video](https://youtu.be/Lzyv5heylDg?si=gviU_Scxt9nboQJS)
 
-Speaker: Matthew Sigel 
+Speaker: Matthew Sigel
 
 ## Recap: Year 1 Chivo Wallet
 
 ![video](https://youtu.be/NmrD2WsBsw0?si=DT_pjDK4wtkUmo51)
 
-Panel by Ken Kruger with Alex Leishman, Tristan Thoma 
+Panel by Ken Kruger with Alex Leishman, Tristan Thoma
 
 ## Bitcoin Capital Markets
 
 ![video](https://youtu.be/TZ1YYqsuB0w?si=w-IiYwmwBpRTV1f1)
 
-Kyle Fry
+Speaker: Kyle Fry
 
 ## Tokenized sovereign debt as an alternative to IMF loans
 
@@ -190,7 +196,7 @@ Panel by Peter Young with Chris Hunter, Erick Chacon, Daniel Leiva Fortin, Franc
 
 ![video](https://youtu.be/8UsZuUwoQyI?si=Z8dXhLP9B5oUOP35)
 
-Nicolas Burtey
+Speaker: Nicolas Burtey
 
 ## Orange Pilling the World's Masses
 
@@ -202,7 +208,7 @@ Panel by Ulf Heyden with Paco, Riccardo Giorgio Frega, Ben De Waal, Alan Jackson
 
 ![video](https://youtu.be/YSZImpMJoas?si=CEGGCp0vRRl5DG5y)
 
-Yves Bennaim 
+Speaker: Yves Bennaim
 
 ## Earning Bitcoin
 
@@ -216,17 +222,11 @@ Panel by Stephan Livera with Obi Nwosu, Paul Itoi
 
 Speaker: Max Keiser
 
-## Investing in Lightning Network Companies 
+## Investing in Lightning Network Companies
 
 ![video](https://youtu.be/3nqCxXz55zA?si=iPbKxURl6RIzVmVe)
 
-Panel by Chris Hunter with Max Webster, Mike Jarmuz 
-
-## Bitcoin is Speech 
-
-![video](https://youtu.be/HxpDCKtUEwA?si=SU4FH6gDTb_y5d1T)
-
-Speaker: Akin Fernandez 
+Panel by Chris Hunter with Max Webster, Mike Jarmuz
 
 # Galoy Stage
 
@@ -234,7 +234,7 @@ Speaker: Akin Fernandez
 
 ![video](https://youtu.be/5ckIrGXLTa0?si=xI2wdeX6PDYshK1d)
 
-Speaker: Adam Gibson 
+Speaker: Adam Gibson
 
 ## State of the Lightning Network
 
@@ -264,7 +264,7 @@ Speaker: Rojas Echenique
 
 ![video](https://youtu.be/TiyXT1JnyNc?si=OKIywG0bu-Fk4Zrw)
 
-Speaker: Leo Weese 
+Speaker: Leo Weese
 
 ## You can do "what" with stablesats?
 
@@ -294,17 +294,17 @@ Speaker: John Carvalho
 
 Speaker: Peter Todd
 
-## Bitcoin developer education 
+## Bitcoin developer education
 
 ![video](https://youtu.be/NDi8-ZWwjoA?si=CN4KQIaU_Eo_7GiZ)
 
-Panel by Stephan Livera with Dulce Villarreal, Marina Spindler, Lucas Ferreira 
+Panel by Stephan Livera with Dulce Villarreal, Marina Spindler, Lucas Ferreira
 
 ## Pricing optionality
 
 ![video](https://youtu.be/wCTaQejllx0?si=aELSLVuO_jHxord2)
 
-Speaker: Pierre Berthet 
+Speaker: Pierre Berthet
 
 ## Adoption technologies
 
@@ -322,9 +322,9 @@ Speaker: Dusty Daemon
 
 ![video](https://youtu.be/djUvI4wpK54?si=XYDv3xTxM-6ef4uB)
 
-Speaker: Kenichi Kurimoto 
+Speaker: Kenichi Kurimoto
 
-## Everything about bitcoin mining
+## Everything to learn about bitcoin mining
 
 ![video](https://youtu.be/D3xCsMepXik?si=KmbnRVKIeWACbzrv)
 
@@ -334,7 +334,7 @@ Panel by Gerson Martinez with Ryan MacLeod, Josue Lopez
 
 ![video](https://youtu.be/zCbza-1lqQk?si=QWnrTsVjq25kaUwC)
 
-Speaker: Giacomo Zucco 
+Speaker: Giacomo Zucco
 
 ## Machankura
 
@@ -348,18 +348,17 @@ Speaker: Kgothatso Ngako
 
 Speaker: Paolo Ardoino
 
-## Integrating Lightning in a Bitcoin exchange
+## Integrating Lightning Network in a Bitcoin exchange
 
 ![video](https://youtu.be/BiLE9PKRQSM?si=i1xY7FW8BSginNnS)
 
-Speaker: Francis Pouliot 
+Speaker: Francis Pouliot
 
 ## Composability of Lightning
 
 ![video](https://youtu.be/nYr-MoqKG3Y?si=bzo0pBogfYt8fDg-)
 
 Speaker: Shinobi
-
 
 ## How transactions work under the hood
 
@@ -373,7 +372,7 @@ Speaker: Murch
 
 Speaker: Justin Carter
 
-## Liquid: Smart contracts for Lightning apps
+## Liquid: Smart contract layer for Lightning apps
 
 ![video](https://youtu.be/h86f2Y78__4?si=KHxYWIoIIBOSKllA)
 
@@ -397,7 +396,7 @@ Speaker: Burak Keceli
 
 ![video](https:/: Fireside Chat with Jon Atack and Stephan Livera
 
-##  The Wallets we use: What could go wrong?
+## The Wallets we use: What could go wrong?
 
 ![video](https://youtu.be/wsJ2JskIsAk?si=bWxhZYTMutRXg-zf)
 
@@ -407,7 +406,7 @@ Speaker: Leo Wandersleb
 
 ![video](https://youtu.be/f3jUEURQ5Vc?si=mtXh9QH-2krrHNZG)
 
-Speaker: Jesse Shrader 
+Speaker: Jesse Shrader
 
 ## Sidechains & Layers
 
@@ -439,25 +438,25 @@ Speaker: Stephen DeLorme
 
 ![video](https://youtu.be/UzOeQvIBn3I?si=TiCwhRge-3aGmxvA)
 
-Speaker: Michael Atwood 
+Speaker: Michael Atwood
 
 ## How to get your Grandma into bitcoin
 
 ![video](https://youtu.be/iz3PW0PdTcU?si=7R1xfs9l0U5EAaSO)
 
-Speaker: Joe Hall 
+Speaker: Joe Hall
 
 ## Reaching new demographics and markets
 
 ![video](https://youtu.be/HjhJGNAtako?si=f44RUBhFamYy9FpT)
 
-Speaker: Desiree Dickerson 
+Speaker: Desiree Dickerson
 
 ## Bitcoin Mining in El Salvador
 
 ![video](https://youtu.be/8icON17xBXw?si=uZMVzdE-2zfcOdNY)
 
-Fireside Chat with Gerson Martinez, Josue Lopez 
+Fireside Chat with Gerson Martinez, Josue Lopez
 
 ## Lightning routing and the price of anarchy
 
@@ -469,13 +468,13 @@ Speaker: Anthony Potdevin
 
 ![video](https://youtu.be/HIarA3kZMJw?si=vqMm7Jbg_R8T7WoM)
 
-Speaker: Michael Bumann 
+Speaker: Michael Bumann
 
 ## There is no universal truth
 
 ![video](https://youtu.be/U7XDM0VYtQg?si=2sbDUxIPuiKIRMsK)
 
-Speaker: Yves Bennaim 
+Speaker: Yves Bennaim
 
 ## Lightning Network Observability
 
@@ -487,7 +486,7 @@ Speaker: Aljaz Ceru
 
 ![video](https://youtu.be/q1SYjpmMWh0?si=XpEqeiWpFnmqSCSk)
 
-Speaker: Ed 
+Speaker: Ed
 
 ## Lightning development for non-technicals
 
@@ -495,7 +494,13 @@ Speaker: Ed
 
 Speaker: Mauricio Latinodos
 
-## Bringing low cost cold storage to the world 
+## The bitcoin educational layer
+
+![video](https://youtu.be/MyX6vUC7kls)
+
+Speaker: Rogzy
+
+## Bringing low cost cold storage to the world
 
 ![video](https://youtu.be/vmxkVMZV1-s?si=CGqbQZasZ3if6YSe)
 
@@ -515,7 +520,7 @@ Speaker: Ben De Waal
 
 ## Bitcoin mining with Small Modular Reactors
 
-![video](https://youtu.be/oA_mS--TaUw?si=BYoWHPabZvzYqVBr)
+![video](https://youtu.be/oA_mS--TaUw)
 
 Speaker: Ryan MacLeod
 
@@ -523,25 +528,25 @@ Speaker: Ryan MacLeod
 
 ![video](https://youtu.be/Fw-sfP73xcE?si=Y_pK2ZC7jA1wsO5z)
 
-Speaker: Oscar Lafarga 
+Speaker: Oscar Lafarga
 
 ## Why Film is the Best Educator
 
 ![video](https://youtu.be/XhAbYY-zelI?si=y4fqd78AGpLCgqze)
 
-Speaker: Bitcoin Shooter 
+Speaker: Bitcoin Shooter
 
 ## Bitcoin and Malign Adoption
 
-![video](https://youtu.be/1T5l56SFIMo?si=DuA9JRQ5NqNxvcVY)
+![video](https://youtu.be/1T5l56SFIMo)
 
-Speaker: Bitcoin Dad 
+Speaker: Bitcoin Dad
 
 ## Bitcoin Renaissance 2.0
 
 ![video](https://youtu.be/1MTxsJqjIE8?si=BvkmFztmTq7lbdrl)
 
-Speaker: Nozomi Hayase  
+Speaker: Nozomi Hayase
 
 ## Is Guatemala next to adopt Bitcoin?
 
@@ -549,7 +554,7 @@ Speaker: Nozomi Hayase
 
 Speaker: Piero Coen
 
-## Bitcoin adoption in Brazil
+## Historical inflation and Bitcoin adoption in Brazil
 
 ![video](https://youtu.be/ZfWHjBsWeAI?si=vKYCELXCgh1tRiHI)
 
@@ -567,21 +572,15 @@ Speaker: Niklas Anzinger
 
 Speaker: Dusan Matuska
 
-## The bitcoin educational layer
-
-![video](https://youtu.be/MyX6vUC7kls?si=eyLAdeR26FZ0NL2t)
-
-Speaker: Rogzy
-
 # Solution Stage
 
 ## LNBits
 
 ![video](https://youtu.be/n4f7moDjCDM?si=e0oXCeDGR1Bn-dmS)
 
-Speaker: Ben Arc 
+Speaker: Ben Arc
 
-## Seedsigner 
+## Seedsigner
 
 ![video](https://youtu.be/pE9N0Wr45H0?si=DSt5N3NAmArCPXwn)
 
@@ -589,7 +588,7 @@ Speaker: Ben Arc
 
 ![video](https://youtu.be/dazyUxf8yTE?si=ruG_wk0oLy0x0S7n)
 
-Speaker: Austin Mitchell 
+Speaker: Austin Mitchell
 
 ## How to build on Galoy
 
@@ -601,13 +600,13 @@ Speaker: Daniel Wingen
 
 ![video](https://youtu.be/qkTMOinIQJE?si=V4Zm9hUFhH5sTwe_)
 
-Speaker: Adam Soltys 
+Speaker: Adam Soltys
 
 ## Azteco
 
 ![video](https://youtu.be/-QyKU_nrHRo?si=bJ_BFu1BN1hYNEhT)
 
-Speaker: Akin Fernandez 
+Speaker: Akin Fernandez
 
 ## Bitcoin Beach Wallet
 
@@ -631,15 +630,15 @@ Speaker: Kyle Murphy
 
 ![video](https://youtu.be/p2JJbdfRuYA?si=wxaywVfzfyxYl-aR)
 
-Speaker: Sam Abbassi 
+Speaker: Sam Abbassi
 
 ## Crowdhealth
 
 ![video](https://youtu.be/1ZOzFRSvuY4?si=Ao8JVuUy22bfONJ2)
 
-Speaker: Jon Gordon 
+Speaker: Jon Gordon
 
-## Porta 
+## Porta
 
 ![video](https://youtu.be/hEgdohNV6mA?si=8x8ryexIhYmOCZxD)
 
@@ -657,7 +656,7 @@ Speaker: Edgar Borja
 
 Speaker: Rick Fisher
 
-## Tatacoa BTM 
+## Tatacoa BTM
 
 ![video](https://youtu.be/pxHFuAfmmcE?si=8uwLkWY96kiY_L_M)
 
@@ -667,7 +666,7 @@ Speaker: Daniel Trujillo
 
 ![video](https://youtu.be/bIgYbfrOBlY?si=2Yca4_ac-Lhh3c1W)
 
-Speaker: Lucas Ferreira 
+Speaker: Lucas Ferreira
 
 ## BTCMap.org
 
@@ -675,7 +674,7 @@ Speaker: Lucas Ferreira
 
 Speaker: secondl1ght
 
-## A thriving ecosystem
+## Time to shed light on a thriving ecosystem
 
 ![video](https://youtu.be/4QShVaMQ6ks?si=f7FESU0ckAWgEpJA)
 
@@ -717,7 +716,7 @@ Speaker: John Dennehy
 
 Speaker: Arun Nedun
 
-## Geyser Fund 
+## Geyser Fund
 
 ![video](https://youtu.be/3hJqOK4o7Mk?si=31I7DQYG9uhOEgnf)
 

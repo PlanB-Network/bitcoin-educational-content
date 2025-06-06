@@ -557,15 +557,18 @@ De seguida, definimos vários níveis de segurança:
 
 Por exemplo, pode utilizar a Sparrow Wallet como uma hot wallet:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Nível 2\*\*, utiliza uma carteira física e protegeu a sua lista de 12/24 palavras. É muitas vezes referido como "cold wallet" (carteira fria) porque as suas chaves são armazenadas num dispositivo que não está ligado à Internet. Neste caso, terá sempre de assinar cada transação com o seu dispositivo, o que torna os seus fundos menos acessíveis no dia a dia.
 
 Por exemplo, pode utilizar um Ledger, um Satochip ou um Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Nível 3**, utiliza uma carteira de nível 1 ou 2, mas adicionou uma frase-chave adicional. Neste caso, tenha em atenção que precisa de fazer uma cópia de segurança tanto da lista de 12/24 palavras **como\*\* da sua frase-chave. Idealmente, estas duas informações são armazenadas em dois locais diferentes.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Para saber mais sobre a utilização e o funcionamento da frase-passe BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Nível 4\*\*, utiliza um conjunto de carteiras para criar uma carteira "multisig", o que significa que são necessárias várias assinaturas para realizar uma transação. Neste caso, tenha em atenção que cada parte do multisig deve ser armazenada em locais diferentes. Esta abordagem é frequentemente considerada uma utilização avançada da Bitcoin, principalmente para gerir grandes quantidades e para fins empresariais.
@@ -829,7 +833,7 @@ Existem várias opções disponíveis quando se pretende instalar o seu próprio
 
 ![image](assets/en/53.webp)
 
-Uma segunda opção é utilizar um hardware dedicado para o efeito, como um Raspberry Pi 4 com um SSD suficientemente grande (cerca de ~1TB). Esta outra opção é mais cara se tiver de comprar o hardware, mas representa um pouco menos de 10,00 euros por ano em termos de consumo de eletricidade.
+Uma segunda opção é utilizar um hardware dedicado para o efeito, como um Raspberry Pi 4 com um SSD suficientemente grande (cerca de ~2TB). Esta outra opção é mais cara se tiver de comprar o hardware, mas representa um pouco menos de 10,00 euros por ano em termos de consumo de eletricidade.
 
 Do ponto de vista da largura de banda, considerando 1 bloco de 1MB a cada 10 minutos, corresponde aproximadamente a 5GB por mês.
 
@@ -1074,11 +1078,11 @@ Abordaremos este tópico em pormenor noutro curso, mas para simplificar, podemos
 
 - Solução simples em linha: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solução para comerciantes amadores: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solução para grandes estruturas ou bitcoiners apaixonados: Servidor BTCpay
 
@@ -1362,10 +1366,10 @@ Está pronto para aderir?
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 
-<isCourseExam>verdadeiro</isCourseExam>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusão
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-<isCourseConclusion>verdadeiro</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

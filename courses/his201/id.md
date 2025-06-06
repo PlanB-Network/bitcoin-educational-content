@@ -1235,14 +1235,6 @@ Aspek misterius yang mengelilingi pencipta Bitcoin ini dirangkum dengan baik ole
 >
 > Apa arti huruf S itu?"
 
-## Ulasan & Penilaian
-<chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Ujian Akhir
-<chapterId>39e43ec2-5b38-5174-882a-c1f7d284b9e6</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Komunitas Mengambil Alih
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 

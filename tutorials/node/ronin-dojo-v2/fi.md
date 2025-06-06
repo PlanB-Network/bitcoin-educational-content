@@ -323,6 +323,7 @@ Yksityiskohtainen opas on valmisteilla, joka opastaa sinut askel askeleelta läp
 Syvemmän ymmärryksen saamiseksi coinjoinista ja sen käytöstä Bitcoinissa, kutsun sinut myös tutustumaan tähän toiseen artikkeliin: Ymmärtäminen ja coinjoinin käyttö Bitcoinissa, jossa kerron kaiken mitä sinun tarvitsee tietää tästä tekniikasta.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ### Whirlpool Stat Toolin (WST) käyttö
 
 Suoritettuasi coinjoineja Whirlpoolin kanssa, on hyödyllistä arvioida tarkasti saavutettu yksityisyyden taso sekoitetuille UTXO:illesi. Tätä varten voit käyttää Python-työkalua *Whirlpool Stat Tool*. Tämä työkalu mahdollistaa sekä tulevien että menneiden anonset-pisteiden mittaamisen, samalla kun se analysoi niiden leviämistä altaassa.

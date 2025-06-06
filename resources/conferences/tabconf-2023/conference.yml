@@ -1,25 +1,21 @@
 id: 12ecdd6e-e357-4112-ac52-d953075cc550
 year: 2023
 name: Tab Conf 2023
-builder: TABConf
 location: Atlanta, USA
 language:
   - en
 links:
   website: https://2023.tabconf.com/
   twitter: https://twitter.com/tabconf
-tags:
-  - Bitcoiner
-  - technical
-  - lightning network
-
-# Proofreading metadata
 project_id: 1ccbbeae-ef92-4128-ad85-24f29e1759ca
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - development
+  - innovation

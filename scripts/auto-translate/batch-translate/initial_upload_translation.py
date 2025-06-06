@@ -79,14 +79,23 @@ def main():
     base_directories = [
         "../../../courses",
         "../../../professors",
-        "../../../resources/builders",
+        "../../../resources/projects/",
         "../../../resources/bet",
         "../../../resources/books",
         "../../../tutorials"
     ]
     
     supported_langs = load_supported_languages()
-    target_lang = get_target_language(supported_langs)
+    
+    if len(sys.argv) > 1:
+        # Non-interactive mode: target language is provided as a command-line argument
+        target_lang = sys.argv[1]
+        if target_lang not in [lang['code'] for lang in supported_langs['languages']]:
+            print(f"Error: Language '{target_lang}' is not supported.")
+            sys.exit(1)
+    else:
+        # Interactive mode: Prompt user for target language
+        target_lang = get_target_language(supported_langs)
     
     english_files = find_english_files(base_directories)
     
@@ -127,3 +136,4 @@ def main():
  
 if __name__ == "__main__":
     main()
+

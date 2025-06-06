@@ -1,67 +1,135 @@
 ---
-name: Sparrow
-
-description: Panduan Lengkap tentang Sparrow
+name: Sparrow Wallet
+description: Menginstal, mengonfigurasi, dan menggunakan Sparrow Wallet
 ---
-
 ![cover](assets/cover.webp)
 
-## Serangkaian video yang membahas tentang Dompet Bitcoin Sparrow. Panduan untuk pemula dan pengguna yang lebih lanjut.
+Sparrow Wallet adalah perangkat lunak manajemen portofolio Bitcoin yang dikembangkan oleh Craig Raw. Perangkat lunak sumber terbuka ini dihargai oleh para bitcoiners karena banyak fitur dan Interface yang intuitif.
 
-> _Panduan berikut ini dari Cole, terima kasih telah membagikannya kepada kami. Postingan asli: https://www.southernbitcoiner.com/sparrow-guides/_
+Ada dua cara untuk menggunakan Sparrow:
 
-Dompet Sparrow adalah standar emas untuk dompet bitcoin. Ini kaya fitur dengan fokus pada keamanan, privasi, dan kemudahan penggunaan. Apapun yang Anda inginkan dari sebuah dompet bitcoin, Sparrow dapat melakukannya.
 
-Karena Dompet Sparrow sangat kaya fitur, ini bisa sulit dinavigasi untuk pengguna baru. Itulah mengapa saya telah menyusun panduan Dompet Sparrow.
+- Seperti Hot Wallet, di mana kunci pribadi Anda disimpan di PC Anda.
+- Sebagai manajer Cold Wallet, dimana kunci pribadi disimpan pada Hardware Wallet. Dalam mode ini, Sparrow hanya memanipulasi informasi Wallet publik, melacak dana, menghasilkan alamat, dan membuat transaksi, tetapi tanda tangan Hardware Wallet diperlukan untuk membuat transaksi ini valid. Oleh karena itu, Sparrow dapat menggantikan aplikasi seperti Ledger Live atau Trezor Suite.
 
-Berikut adalah serangkaian video yang akan memandu Anda tentang cara menyiapkan Dompet Sparrow dan cara menggunakan banyak fiturnya.
+Sparrow mendukung dompet dengan tanda tangan tunggal dan multi tanda tangan, dan memungkinkan manajemen yang lancar untuk beberapa dompet. Sebagai contoh, Anda dapat secara bersamaan mengontrol satu Wallet yang terhubung ke Ledger, satu lagi ke Trezor, dan juga memiliki Hot Wallet.
 
-## Cara Mengunduh dan Memverifikasi Dompet Sparrow
+Perangkat lunak ini juga menawarkan fitur kontrol koin yang canggih, memungkinkan Anda untuk memilih dengan tepat UTXO mana yang akan digunakan dalam transaksi Anda untuk mengoptimalkan kerahasiaan Anda.
 
-Ketika bitcoin Anda berisiko, Anda harus memastikan bahwa Anda mengunduh perangkat lunak yang benar. Video ini akan menunjukkan kepada Anda cara mengunduh Dompet Sparrow, dan cara memverifikasi keaslian perangkat lunak.
+Dalam hal koneksi, Sparrow memungkinkan Anda terhubung ke node Bitcoin Anda sendiri, baik dari jarak jauh melalui Server Electrum, atau dengan Bitcoin Core. Anda juga dapat menggunakan node publik jika Anda belum memiliki node sendiri. Sambungan jarak jauh dibuat melalui Tor.
 
-![Sebuah video panduan tentang cara mengunduh dompet Sparrow dan memverifikasi keasliannya.](https://www.youtube.com/watch?v=MyDMvjGFdDE)
+## Pasang Sparrow Wallet
 
-Panduan penulisan: https://armantheparman.com/download-sparrow/
+Buka [halaman unduhan resmi Sparrow Wallet] (https://sparrowwallet.com/download/) dan pilih versi perangkat lunak yang sesuai dengan sistem operasi Anda.
 
-## Cara menghubungkan Dompet Sparrow ke Bitcoin core
+![Image](assets/fr/01.webp)
 
-Dompet Sparrow memungkinkan Anda untuk dengan mudah menghubungkan dompet Anda ke node bitcoin Anda jika mereka berjalan pada mesin yang sama. Ini untuk pengguna yang lebih lanjut, tetapi penting untuk kedaulatan diri dan privasi sejati. Jika Anda belum memiliki node yang disiapkan, lihat panduan Running Bitcoin.
+Penting untuk memeriksa integritas dan keaslian perangkat lunak sebelum menginstalnya. Jika Anda tidak tahu cara melakukannya, Anda bisa menemukan tutorial lengkapnya di sini:
 
-![Cara menghubungkan dompet Sparrow ke node inti bitcoin](https://www.youtube.com/watch?v=9Aw6OAXxE_Y)
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+Setelah Sparrow terinstal, Anda bisa melewatkan layar penjelasan awal dan langsung menuju ke layar manajemen koneksi.
 
-Panduan penulisan: https://armantheparman.com/sparrowcore/
+![Image](assets/fr/02.webp)
 
-## Cara menyiapkan Dompet Sparrow: membuat dompet, mengirim, menerima, praktik terbaik.
+## Menghubungkan ke jaringan Bitcoin
 
-Dompet Sparrow dibangun untuk pengguna lanjutan, dan pada awalnya, ini bisa sedikit membebani indra. Video ini akan memandu Anda melalui pengaturan awal, cara mengirim dan menerima, dan beberapa praktik terbaik di sepanjang jalan.
+Untuk berinteraksi dengan jaringan Bitcoin dan menyiarkan transaksi Anda, Sparrow harus terhubung ke node Bitcoin. Ada tiga cara utama untuk membuat koneksi ini:
 
-![Cara menyiapkan, mengirim dan menerima bitcoin praktik terbaik](https://youtu.be/7QCKSPIq0Ac)
 
-## Cara CoinJoin dengan Dompet Sparrow.
+- 🟡 Menggunakan simpul publik, yaitu menyambung ke simpul pihak ketiga yang mengizinkan koneksi tersebut. Jika Anda tidak memiliki node Bitcoin Anda sendiri, opsi ini memungkinkan Anda untuk memulai Sparrow dengan cepat. Akan tetapi, node yang Anda sambungkan akan melihat semua transaksi Anda, yang dapat membahayakan kerahasiaan Anda. Memiliki kontrol atas kunci Anda sangat penting, tetapi memiliki node Anda sendiri bahkan lebih baik. Jadi, gunakan opsi ini hanya jika Anda baru memulai, dengan tetap menyadari risiko privasi Anda.
+- 🟢 Menghubungkan ke node Bitcoin Core. Jika Anda memiliki node Bitcoin Core Anda sendiri, Anda dapat menyambungkannya ke Sparrow Wallet, baik secara lokal jika Bitcoin Core diinstal pada mesin yang sama, atau dari jarak jauh.
+- 🔵 Koneksi melalui server Electrum. Jika node Bitcoin Anda dilengkapi dengan Electrs, seperti halnya dengan solusi node-in-a-box seperti Umbrel atau Start9, Anda dapat menyambungkannya dari jarak jauh dari Sparrow.
 
----
+**Lebih baik menggunakan koneksi melalui Electrs atau Bitcoin Core pada node Anda sendiri untuk mengurangi kebutuhan untuk mempercayai pihak ketiga dan mengoptimalkan kerahasiaan Anda**
 
-***PERINGATAN:** Menyusul penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, alat Whirlpool tidak lagi berfungsi, bahkan bagi mereka yang menggunakannya di Dompet Sparrow. Namun, masih mungkin bahwa alat ini dapat diaktifkan kembali dalam beberapa minggu ke depan atau diluncurkan kembali dengan cara yang berbeda.*
+### Terhubung ke simpul publik 🟡
 
-_Kami terus mengikuti perkembangan kasus ini serta perkembangan terkait alat-alat yang terkait. Yakinlah bahwa kami akan memperbarui tutorial ini seiring dengan tersedianya informasi baru._
+Menghubungkan ke node publik sangat sederhana. Klik pada tab "*Public Server*".
 
-_Tutorial ini disediakan hanya untuk tujuan pendidikan dan informasi. Kami tidak mendukung atau mendorong penggunaan alat-alat ini untuk tujuan kriminal. Tanggung jawab setiap pengguna untuk mematuhi hukum di yurisdiksi mereka._
+![Image](assets/fr/03.webp)
 
----
+Pilih simpul dari daftar tarik-turun.
 
-Blockchain Bitcoin sepenuhnya transparan, dan menggunakan praktik buruk bisa sangat buruk untuk privasi keuangan Anda. Salah satu hal terbaik yang dapat Anda lakukan untuk merebut kembali privasi Anda adalah melalui CoinJoin. Berikut ini cara menggunakan Samourai Whirlpool CoinJoin dalam Dompet Sparrow.
+![Image](assets/fr/04.webp)
 
-![Coinjoin dengan sparrow](https://youtu.be/p24SxLI1ews)
+Kemudian klik "*Test Connection*".
 
-## Cara menangani perubahan CoinJoin yang tidak tercampur
-Saat mencampurkan koin Anda di Sparrow Wallet, Anda kemungkinan akan mendapatkan sisa koin yang tidak tercampur. HATI-HATI! Sisa koin ini dapat membocorkan informasi koin yang telah dicampur jika Anda tidak berhati-hati. Berikut ini adalah video yang menjelaskan bagaimana sisa koin yang tidak tercampur dapat membocorkan informasi Anda, dan 4 cara untuk menanganinya dengan tepat.
-![Menghadapi perubahan yang dapat membocorkan informasi](https://youtu.be/dnzZtgNQS0g)
+![Image](assets/fr/05.webp)
 
-## Cara aman memperbarui Sparrow Wallet
+Setelah terhubung, Sparrow Wallet akan menampilkan tanda centang kuning di sudut kanan bawah Interface untuk mengindikasikan bahwa Anda terhubung ke simpul publik.
 
-Lagi, ketika bitcoin Anda berisiko, lebih baik memverifikasi perangkat lunak yang Anda unduh. Berikut adalah panduan tentang cara aman memperbarui Sparrow Wallet Anda. Prosesnya pada dasarnya sama seperti mengunduh untuk pertama kali.
+![Image](assets/fr/06.webp)
 
-![cara aman memperbarui sparrow wallet](https://youtu.be/IThaolnDgSo)
+### Menghubungkan ke Bitcoin Core 🟢
 
-**_Terima kasih kepada southernbitcoiner karena telah berbagi panduan ini dengan kita semua_**
+Metode kedua untuk menyambung ke node Bitcoin adalah dengan menghubungkan Sparrow ke Bitcoin Core. Jika Bitcoin Core diinstal pada mesin yang sama, autentikasi akan dilakukan melalui file cookie. Jika Bitcoin Core berada di mesin jarak jauh, Anda harus menggunakan kata sandi yang ditetapkan dalam file `Bitcoin.conf`.
+
+Harap diperhatikan bahwa jika Anda menggunakan Bitcoin Core node yang dipangkas, Anda tidak akan dapat memulihkan Wallet yang berisi transaksi sebelum blok yang disimpan secara lokal. Akan tetapi, untuk Wallet baru yang dibuat di Sparrow, hal ini tidak akan menjadi masalah: transaksi baru Anda akan terlihat, bahkan dengan node yang dipangkas.
+
+Untuk mengonfigurasi node Bitcoin Core, Anda dapat membaca salah satu tutorial berikut, tergantung pada sistem operasi Anda:
+
+https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+Pada Sparrow, buka tab "*Bitcoin Core*".
+
+![Image](assets/fr/07.webp)
+
+**Dengan Bitcoin Core lokal:**
+
+Jika Bitcoin Core terinstal di komputer Anda, cari file `Bitcoin.conf` di antara file perangkat lunak. Jika file ini tidak ada, Anda dapat membuatnya. Buka file tersebut dengan editor teks dan masukkan baris berikut:
+
+```ini
+server=1
+````
+Sauvegardez ensuite vos modifications.
+Vous pouvez également effectuer cette configuration via l'interface graphique de Bitcoin-QT en naviguant dans "*Settings*" > "*Options...*" et en activant l'option "*Enable RPC server*".
+N'oubliez pas de redémarrer le logiciel après ces modifications.
+![Image](assets/fr/08.webp)
+Revenez ensuite à Sparrow Wallet et renseignez le chemin vers votre fichier de cookie, généralement situé dans le même dossier que le `bitcoin.conf`, selon votre système d'exploitation :
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
+![Image](assets/fr/09.webp)
+Laissez les autres paramètres par défaut, l'URL `127.0.0.1` et le port `8332`, puis cliquez sur "*Test Connection*".
+![Image](assets/fr/10.webp)
+La connexion est établie. Une coche verte apparaîtra en bas à droite pour indiquer que vous êtes connecté à un nœud Bitcoin Core.
+![Image](assets/fr/11.webp)
+**Avec Bitcoin Core à distance :**
+Si Bitcoin Core est installé sur une autre machine connectée sur le même réseau, commencez par localiser le fichier `bitcoin.conf` parmi les fichiers du logiciel. Si ce fichier n'existe pas encore, vous pouvez le créer. Ouvrez ce fichier avec un éditeur de texte et ajoutez la ligne suivante :
+```
+
+server=1
+
+```
+Après avoir modifié le fichier, assurez-vous de l'enregistrer dans le dossier approprié selon votre système d'exploitation :
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
+Il est également possible de réaliser cette manipulation via l'interface graphique de Bitcoin-QT. Accédez au menu "*Settings*", puis "*Options...*", et activez l'option "*Enable RPC server*" en cochant la case correspondante. Si le fichier `bitcoin.conf` n'existe pas, vous pouvez le créer directement depuis cette interface en cliquant sur "*Open Configuration File*".
+![Image](assets/fr/12.webp)
+Trouvez l'adresse IP de la machine qui héberge Bitcoin Core dans votre réseau local. Pour cela, vous pouvez utiliser un outil tel que [Angry IP Scanner](https://angryip.org/). Supposons, pour l'exemple, que l'adresse IP de votre nœud soit `192.168.1.18`.
+Dans le fichier `bitcoin.conf`, ajoutez les lignes suivantes, en configurant `rpcbind=192.168.1.18` pour correspondre à l'adresse IP de votre nœud.
+```
+
+[tangan]
+
+rpcbind = 127.0.0.1
+
+rpcbind = 192.168.1.18
+
+rpcallowip = 127.0.0.1
+
+rpcallowip=192.168.1.0/24
+
+```
+![Image](assets/fr/13.webp)
+Ajoutez également dans le fichier `bitcoin.conf` un identifiant et un mot de passe pour les connexions à distance. Assurez-vous de remplacer `loic` par votre nom d'utilisateur et `my_password` par un mot de passe fort :
+```
+
+rpcuser = loic
+
+rpcpassword = kata sandi saya
+
+```

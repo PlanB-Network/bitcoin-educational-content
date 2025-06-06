@@ -1,24 +1,22 @@
 id: 2e6a2b5d-57ec-4468-a22a-798b9b9db478
 year: 2024-06
 name: Mining Disrupt Conference 2024
-builder: Mining Disrupt
 location: Miami, USA
 language:
   - en
 links:
   website: https://miningdisrupt.com
   twitter: https://twitter.com/MiningDisrupt
-tags:
-  - mining
-  - hardware
-  - innovation
-
 project_id: 56624e97-e1a8-460e-b727-e0aa4da94aa8
 original_language: en
 proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
       - jramos0
-    reward: 0.21
+    reward: 0.29
+tags:
+  - mining
+  - hardware
+  - business

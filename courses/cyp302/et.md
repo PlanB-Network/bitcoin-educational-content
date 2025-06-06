@@ -1,7 +1,7 @@
 ---
 name: Sissejuhatus formaalsesse krüptograafiasse
 goal: Sügav sissejuhatus krüptograafia teadusesse ja praktikasse.
-objectives: 
+objectives:
 
   - Tutvuda Beale'i šifreeringute ja kaasaegsete krüptograafiliste meetoditega, et mõista krüptograafia põhilisi ja ajaloolisi mõisteid.
   - Süvenege arvuteooriasse, rühmadesse ja väljadesse, et omandada krüptograafia aluseks olevad põhilised matemaatilised mõisted.
@@ -291,7 +291,7 @@ Väljenduses "juhuslik muutuja" tähendab mõiste "juhuslik" lihtsalt "tõenäos
 
 **Ühetaoline muutuja** on juhusliku muutuja erijuhtum. See võib võtta kaks või enam väärtust, mis kõik on võrdse tõenäosusega. Joonisel 1 kujutatud juhuslik muutuja $X$ on selgelt ühtlane muutuja, sest mõlemad võimalikud tulemused esinevad tõenäosusega $0.5$. Siiski on palju juhuslikke muutujaid, mis ei ole ühetaolised muutujad.
 
-Võtame näiteks juhusliku muutuja $Y$. Sellel on tulemuse hulk $\\1, 2, 3, 8, 10\}$ ja järgmine tõenäosusjaotus:
+Võtame näiteks juhusliku muutuja $Y$. Sellel on tulemuse hulk $\{1, 2, 3, 8, 10}$ ja järgmine tõenäosusjaotus:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -2294,7 +2294,7 @@ Sellegipoolest saab RSA-probleemi kasutades, lisades sellele veidi tarka keeruku
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Lõpueksam
 
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

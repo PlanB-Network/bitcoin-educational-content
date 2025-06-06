@@ -1,0 +1,9 @@
+question: Quelles caractéristiques définit un bon mot de passe ?
+answer: Long, complexe et unique.
+wrong_answers:
+  - Court, simple et facile à retenir.
+  - Basé sur des informations personnelles.
+  - Identique pour tous les comptes.
+explanation: |
+  Un bon mot de passe doit être suffisamment long, complexe et ne doit pas être réutilisé.
+reviewed: false

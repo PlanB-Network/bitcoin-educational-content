@@ -1,0 +1,30 @@
+id: b6cf659a-1a49-4f20-80dd-32deac3fd70d
+test_only: true
+start_date: 2027-01-01 12:00:00
+end_date: 2027-01-01 14:00:00
+timezone: America/El_Salvador
+address_city_country: Antiguo Cuscatlan, El Salvador
+address_line_2:
+address_line_3:
+name: TEST - Charged in person (full)
+type: lecture
+book_online: false
+book_in_person: true
+price_dollars: 3
+available_seats: 0
+is_gdpr_compliance: true
+custom_tc_disclaimer: This is a test of custom gdpr message.
+description: A virtual world conference without compromise on experienced focused
+  on Lightning and Nostr.
+language:
+  - it
+  - es
+links:
+  website: https://www.planbtest.network
+  replay_url:
+  live_url:
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+tags:
+  - lightning
+  - node
+  - protocols

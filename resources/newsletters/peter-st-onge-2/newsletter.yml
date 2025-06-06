@@ -8,8 +8,9 @@ link:
 language: en
 description: |
   Weekly posts about Economics and Freedom.
+contributor_names:
+  - PaoloFoti
 tags:
   - finance
+  - market-trends
   - self-sovereignty
-contributors:
-  - hunt-wood

@@ -1,0 +1,9 @@
+question: Por que é aconselhável criar dois endereços de e-mail distintos?
+answer: Para separar as comunicações gerais da recuperação de conta.
+wrong_answers:
+  - Para separar comunicações profissionais das pessoais.
+  - Para criar várias contas e aumentar a visibilidade online.
+  - Para receber mais spam.
+explanation: |
+  Separar endereços de e-mail ajuda a reduzir riscos e a proteger melhor o acesso a contas críticas.
+reviewed: false

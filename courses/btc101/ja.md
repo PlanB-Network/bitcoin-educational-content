@@ -557,15 +557,18 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 例えば、Sparrow Wallet をホットウォレットとして使うことができる：
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - レベル 2\*\*では、物理的なウォレットを使用し、12/24 ワードのリストを確保します。あなたの鍵はインターネットに接続されていないデバイスに保存されるため、しばしば「コールドウォレット」と呼ばれます。この場合、取引のたびにデバイスで署名する必要があるため、日常的に資金にアクセスしにくくなります。
 
 例えば、Ledger、Satochip、Tapsigner を使うことができる：
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - レベル 3\*\*では、レベル 1 または 2 のウォレットを使用し、パスフレーズを追加します。この場合、12/24 ワードのリストとパスフレーズの両方をバックアップする必要があることに注意してください。理想的には、これら 2 つの情報は 2 つの異なる場所に保存されます。
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 BIP39 パスフレーズの使用と機能についての詳細はこちら：
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - レベル 4\*\*では、一連のウォレットを使って "マルチシグ "ウォレットを作成する。この場合、マルチシグの各部分は異なる場所に保管する必要があることに注意する。このアプローチはビットコインの高度な使用方法と見なされることが多く、主に巨額の管理や企業目的のために使用される。
@@ -829,7 +833,7 @@ Bob が自分の取引をビットコインネットワークに送信し、マ�
 
 ![image](assets/en/53.webp)
 
-第二の選択肢は、十分に大きな SSD（〜1TB 程度）を搭載した Raspberry Pi 4 など、この目的専用のハードウェアを使うことだ。この別の選択肢は、ハードウェアを購入しなければならない場合、より高価になるが、電力消費量に換算すると、年間 10,00 ユーロを少し下回る。
+第二の選択肢は、十分に大きな SSD（〜2TB 程度）を搭載した Raspberry Pi 4 など、この目的専用のハードウェアを使うことだ。この別の選択肢は、ハードウェアを購入しなければならない場合、より高価になるが、電力消費量に換算すると、年間 10,00 ユーロを少し下回る。
 
 帯域幅の観点から、10 分ごとに 1MB のブロックを 1 ブロックと考えると、1 ヶ月あたり約 5GB に相当する。
 
@@ -1074,11 +1078,11 @@ btc/ドルのペアは短期的に変動するが、ビットコインは 2100 �
 
 - シンプルなオンラインソリューションオープンノード
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - アマチュアのためのソリューション：スイス・ビットコイン・ペイ
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 大規模な組織や情熱的なビットコイナー向けのソリューション：BTCpay サーバー
 
@@ -1356,16 +1360,16 @@ AI を例にとれば、これらのテクノロジーは、ビデオゲーム�
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 最終試験
 
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
 
-<isCourseExam>真</isCourseExam>。
+<isCourseExam>true</isCourseExam>
 
 ## 結論
 
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
-<isCourseConclusion>真</isCourseConclusion>。
+<isCourseConclusion>true</isCourseConclusion>

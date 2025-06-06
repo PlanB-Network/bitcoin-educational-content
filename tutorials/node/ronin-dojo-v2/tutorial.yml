@@ -1,18 +1,9 @@
 id: 0ddb3854-6f38-4466-b4e2-f66c028e0dd8
-builder: Samourai
-tags:
-  - node
-  - Raspberry Pi
-  - privacy
-  - whirlpool
-  - Coinjoin
-
 category: bitcoin
 
 level: advanced
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
@@ -21,79 +12,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 24.37
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 12.24
+    contributor_names:
+    reward: 18.3
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 6.12
+    reward: 9.15
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 18.3
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 24.37
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 12.24
+    contributor_names:
+    reward: 18.3
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 18.3
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 36.51
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 12.24
+    contributor_names:
+    reward: 18.3
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 24.37
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 18.25
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 24.37
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 30.44
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 30.44
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 24.37
+tags:
+  - node
+  - DIY
+  - guides

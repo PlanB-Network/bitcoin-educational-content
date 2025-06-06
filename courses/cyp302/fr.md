@@ -1,7 +1,7 @@
 ---
 name: Introduction à la cryptographie formelle
 goal: Une introduction approfondie à la science et à la pratique de la cryptographie.
-objectives: 
+objectives:
 
   - Explorer les algorithmes de chiffrement de Beale et les méthodes cryptographiques modernes pour comprendre les concepts de base et historiques de la cryptographie.
   - Plongez dans la théorie des nombres, des groupes et des champs pour maîtriser les concepts mathématiques clés qui sous-tendent la cryptographie.
@@ -291,7 +291,7 @@ Dans l'expression "variable aléatoire", le terme "aléatoire" signifie simpleme
 
 Une **variable uniforme** est un cas particulier de variable aléatoire. Elle peut prendre deux ou plusieurs valeurs, toutes avec une probabilité égale. La variable aléatoire $X$ représentée dans la *Figure 1* est clairement une variable uniforme, puisque les deux résultats possibles se produisent avec une probabilité de 0,5$. Il existe cependant de nombreuses variables aléatoires qui ne sont pas des exemples de variables uniformes.
 
-Considérons, par exemple, la variable aléatoire $Y$. Elle possède un ensemble de résultats $\{1, 2, 3, 8, 10\}$ et la distribution de probabilité suivante :
+Considérons, par exemple, la variable aléatoire $Y$. Elle possède un ensemble de résultats $\{1, 2, 3, 8, 10}$ et la distribution de probabilité suivante :
 
 $$
 \Pr[Y = 1] = 0.25
@@ -542,7 +542,7 @@ Dans notre discussion sur les variables aléatoires et uniformes, nous avons ét
 
 Pour commencer, nous pouvons appeler une chaîne binaire de longueur $n$ **aléatoire** (ou **uniforme**), si elle est le résultat de l'échantillonnage d'une variable uniforme $S$ qui donne à chaque chaîne binaire d'une telle longueur $n$ une probabilité égale de sélection.
 
-Supposons, par exemple, l'ensemble de toutes les chaînes binaires de longueur 8 : $\{0000\00, 0000\ 0001, \ldots, 1111\ 1111\}$. (Il est courant d'écrire une chaîne de 8 bits en deux quartets, chacun étant appelé **nibble**) Appelons cet ensemble de chaînes **$S_8$**.
+Supposons, par exemple, l'ensemble de toutes les chaînes binaires de longueur 8 : $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (Il est courant d'écrire une chaîne de 8 bits en deux quartets, chacun étant appelé **nibble**) Appelons cet ensemble de chaînes **$S_8$**.
 
 Conformément à la définition ci-dessus, nous pouvons donc appeler aléatoire (ou uniforme) une chaîne binaire particulière de longueur 8, si elle est le résultat de l'échantillonnage d'une variable uniforme $S$ qui donne à chaque chaîne de **$S_8$** une probabilité égale de sélection. Étant donné que l'ensemble **$S_8$** comprend $2^8$ éléments, la probabilité de sélection lors de l'échantillonnage devrait être de $1/2^8$ pour chaque chaîne de l'ensemble.
 
@@ -1019,10 +1019,10 @@ Bob chiffre le message $M$ au moment $T_0$ avec la clé $K$ pour produire le tex
 
 Au chapitre 2, nous avons étudié le chiffrement par décalage, qui est un exemple de système de chiffrement symétrique très simple. Reprenons-le ici.
 
-Supposons un dictionnaire *D* qui assimile toutes les lettres de l'alphabet anglais, dans l'ordre, à l'ensemble des nombres $\{0,1,2,\Npoints,25\N}$. Supposons un ensemble de messages possibles **M**. Le chiffrement par décalage est donc un système de chiffrement défini comme suit :
+Supposons un dictionnaire *D* qui assimile toutes les lettres de l'alphabet anglais, dans l'ordre, à l'ensemble des nombres $\{0,1,2,\dots,25\N}$. Supposons un ensemble de messages possibles **M**. Le chiffrement par décalage est donc un système de chiffrement défini comme suit :
 
 
-- Sélectionner aléatoirement une clé $k$ parmi l'ensemble des clés possibles **K**, où **K** = ${0,1,2,\Npoints,25\N}$
+- Sélectionner aléatoirement une clé $k$ parmi l'ensemble des clés possibles **K**, où **K** = ${0,1,2,\dots,25\N}$
 - Chiffrer un message $m \in$ **M**, comme suit :
     - Séparer $m$ en ses lettres individuelles $m_0, m_1,\dots, m_i, \dots, m_l$
     - Convertir chaque $m_i$ en un nombre selon *D*
@@ -2294,7 +2294,7 @@ Néanmoins, en ajoutant un peu de complexité intelligente, le problème RSA peu
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Examen Final
 
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

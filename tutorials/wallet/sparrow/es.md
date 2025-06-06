@@ -1,69 +1,135 @@
 ---
-name: Sparrow
-
-description: Guía completa sobre Sparrow
+name: Gorrión Wallet
+description: Instalación, configuración y uso de Sparrow Wallet
 ---
-
 ![cover](assets/cover.webp)
 
-## Una serie de videos que cubren la Cartera de Bitcoin Sparrow. Guías para principiantes y usuarios más avanzados.
+Sparrow Wallet es un software de gestión de carteras Bitcoin de autocustodia desarrollado por Craig Raw. Este software de código abierto es apreciado por los bitcoiners por sus numerosas funciones y su Interface intuitivo.
 
-> _La siguiente guía pertenece a Cole, gracias por compartirla con nosotros. Publicación original: https://www.southernbitcoiner.com/sparrow-guides/_
+Hay dos formas de utilizar Sparrow:
 
-La cartera Sparrow es el estándar de oro para las carteras de Bitcoin. Es rica en funciones y se enfoca en la seguridad, privacidad y facilidad de uso. Todo lo que deseas de una cartera de Bitcoin, Sparrow puede hacerlo.
 
-Debido a que la cartera Sparrow está repleta de funciones, puede ser difícil de navegar para los usuarios más nuevos. Por eso he creado guías para la cartera Sparrow.
+- Como una Hot Wallet, donde sus claves privadas se almacenan en su PC.
+- Como gestor de Cold Wallet, donde las claves privadas se mantienen en un Hardware Wallet. En este modo, Sparrow sólo manipula información pública de Wallet, rastrea fondos, genera direcciones y construye transacciones, pero la firma de Hardware Wallet es necesaria para que estas transacciones sean válidas. Por tanto, puede sustituir a aplicaciones como Ledger Live o Trezor Suite.
 
-A continuación se muestran una serie de videos que te guiarán sobre cómo configurar la cartera Sparrow y cómo utilizar sus muchas funciones.
+Sparrow soporta monederos de firma única y multi-firma, y permite una gestión fluida de múltiples monederos. Por ejemplo, puedes controlar simultáneamente una Wallet conectada a una Ledger, otra a un Trezor, y tener también una Hot Wallet.
 
-## Cómo descargar y verificar la cartera Sparrow
+El software también ofrece funciones avanzadas de control de monedas, que le permiten elegir con precisión qué UTXO utilizar en sus transacciones para optimizar su confidencialidad.
 
-Cuando tu Bitcoin está en riesgo, debes asegurarte de descargar el software correcto. Este video te mostrará cómo descargar la cartera Sparrow y cómo verificar que el software sea auténtico.
+En términos de conexión, Sparrow te permite conectarte a tu propio nodo Bitcoin, ya sea remotamente a través de un Servidor Electrum, o con Bitcoin Core. También es posible usar un nodo público si aún no tienes uno propio. Las conexiones remotas se realizan a través de Tor.
 
-![Un video tutorial sobre cómo descargar la cartera Sparrow y verificar su autenticidad.](https://www.youtube.com/watch?v=MyDMvjGFdDE)
+## Instalar Sparrow Wallet
 
-Guía escrita: https://armantheparman.com/download-sparrow/
+Vaya a [la página oficial de descarga de Sparrow Wallet](https://sparrowwallet.com/download/) y elija la versión de software que corresponda a su sistema operativo.
 
-## Cómo conectar la cartera Sparrow a Bitcoin Core
+![Image](assets/fr/01.webp)
 
-La cartera Sparrow te permite conectar fácilmente tu cartera a tu nodo de Bitcoin si se están ejecutando en la misma máquina. Esto es para usuarios más avanzados, pero es importante para una verdadera soberanía y privacidad. Si no tienes un nodo configurado, consulta la guía de Ejecución de Bitcoin.
+Es importante comprobar la integridad y autenticidad del software antes de instalarlo. Si no sabes cómo hacerlo, encontrarás un completo tutorial aquí :
 
-![Cómo conectar la cartera Sparrow al nodo de Bitcoin Core](https://www.youtube.com/watch?v=9Aw6OAXxE_Y)
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+Una vez instalado Sparrow, puedes saltarte las pantallas explicativas iniciales e ir directamente a la pantalla de gestión de la conexión.
 
-Guía escrita: https://armantheparman.com/sparrowcore/
+![Image](assets/fr/02.webp)
 
-## Cómo configurar la cartera Sparrow: crear cartera, enviar, recibir, mejores prácticas.
+## Conexión a la red Bitcoin
 
-La cartera Sparrow está diseñada para usuarios avanzados y, al principio, puede ser un poco abrumadora. Este video te guiará a través de la configuración inicial, cómo enviar y recibir, y algunas mejores prácticas en el camino.
+Para interactuar con la red Bitcoin y transmitir sus transacciones, Sparrow debe estar conectado a un nodo Bitcoin. Hay tres formas principales de establecer esta conexión:
 
-![Cómo configurar, enviar y recibir Bitcoin - mejores prácticas](https://youtu.be/7QCKSPIq0Ac)
 
-## Cómo hacer CoinJoin con la cartera Sparrow.
+- 🟡 Utilizando un nodo público, es decir, conectándote a un nodo de terceros que permita este tipo de conexiones. Si no tienes tu propio nodo Bitcoin, esta opción te permite empezar a usar Sparrow rápidamente. Sin embargo, el nodo al que te conectes verá todas tus transacciones, lo que podría comprometer tu confidencialidad. Tener control sobre tus claves es esencial, pero tener tu propio nodo es aún mejor. Así que utiliza esta opción sólo si estás empezando, siendo consciente de los riesgos para tu privacidad.
+- 🟢 Conexión a un nodo Bitcoin Core. Si tienes tu propio nodo Bitcoin Core, puedes conectarlo a Sparrow Wallet, ya sea localmente si Bitcoin Core está instalado en la misma máquina, o remotamente.
+- 🔵 Conexión a través de un servidor Electrum. Si tu nodo Bitcoin está equipado con Electrs, como es el caso de las soluciones node-in-a-box como Umbrel o Start9, puedes conectarte a él remotamente desde Sparrow.
 
----
+**Es preferible utilizar una conexión a través de Electrs o Bitcoin Core en su propio nodo para reducir la necesidad de confiar en un tercero y optimizar su confidencialidad**
 
-***ADVERTENCIA:** Tras la detención de los fundadores de Samourai Wallet y la incautación de sus servidores el 24 de abril, la herramienta Whirlpool ha dejado de funcionar, incluso para aquellos que la utilizan en Sparrow Wallet. Sin embargo, sigue siendo posible que esta herramienta se reactive en las próximas semanas o se relance de una manera diferente.*
+### Conectarse a un nodo público 🟡
 
-_Estamos siguiendo de cerca la evolución de este caso así como los desarrollos relacionados con las herramientas asociadas. Ten la seguridad de que actualizaremos este tutorial a medida que estén disponibles nuevas informaciones._
+Conectarse a un nodo público es muy sencillo. Haz clic en la pestaña "*Servidor público*".
 
-_Este tutorial se proporciona únicamente con fines educativos e informativos. No respaldamos ni alentamos el uso de estas herramientas para fines criminales. Es responsabilidad de cada usuario cumplir con las leyes en su jurisdicción._
+![Image](assets/fr/03.webp)
 
----
+Seleccione un nodo de la lista desplegable.
 
-La cadena de bloques de Bitcoin es completamente transparente y el uso de malas prácticas puede ser terrible para tu privacidad financiera. Una de las mejores cosas que puedes hacer para recuperar tu privacidad es a través de CoinJoin. Aquí te mostramos cómo usar CoinJoin de Samourai Whirlpool dentro de la cartera Sparrow.
+![Image](assets/fr/04.webp)
 
-![Coinjoin con Sparrow](https://youtu.be/p24SxLI1ews)
+A continuación, haga clic en "*Probar conexión*".
 
-## Cómo lidiar con el cambio no mezclado de CoinJoin
+![Image](assets/fr/05.webp)
 
-Cuando mezcles tus monedas en la cartera Sparrow, es probable que te quede cambio no mezclado. ¡CUIDADO! Este cambio puede revelar la información de tus monedas mezcladas si no tienes cuidado. A continuación, hay un video que explica cómo el cambio no mezclado puede revelar información y 4 formas de manejarlo adecuadamente.
+Una vez conectado, Sparrow Wallet mostrará una marca amarilla en la esquina inferior derecha de Interface para indicar que estás conectado a un nodo público.
 
-![Cómo lidiar con el cambio que revela información](https://youtu.be/dnzZtgNQS0g)
+![Image](assets/fr/06.webp)
 
-## Cómo actualizar la cartera Sparrow de manera segura
+### Conexión a un Bitcoin Core 🟢
 
-Nuevamente, cuando tu Bitcoin está en riesgo, es mejor verificar el software que descargas. A continuación, hay una guía sobre cómo actualizar de manera segura tu cartera Sparrow. Esencialmente, es el mismo proceso que descargarla por primera vez.
+El segundo método para conectarse a un nodo Bitcoin es vincular Sparrow a un Bitcoin Core. Si el Bitcoin Core está instalado en la misma máquina, la autenticación será a través del archivo cookie. Si Bitcoin Core está en una máquina remota, necesitará usar la contraseña definida en el archivo `Bitcoin.conf`.
 
-![Cómo actualizar de manera segura la cartera Sparrow](https://youtu.be/IThaolnDgSo)
+Ten en cuenta que si utilizas un nodo Core Bitcoin podado, no podrás restaurar un Wallet que contenga transacciones anteriores a los bloques almacenados localmente. Sin embargo, para una nueva Wallet creada en Sparrow, esto no será un problema: tus nuevas transacciones serán visibles, incluso con un nodo podado.
 
-**_Gracias a southernbitcoiner por compartir esta guía con todos nosotros_**
+Para configurar un nodo Bitcoin Core, puede consultar uno de los siguientes tutoriales, en función de su sistema operativo:
+
+https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+En Sparrow, vaya a la pestaña "*Bitcoin Core*".
+
+![Image](assets/fr/07.webp)
+
+**Con Bitcoin Core local:**
+
+Si Bitcoin Core está instalado en su ordenador, localice el archivo `Bitcoin.conf` entre los archivos de software. Si este archivo no existe, puede crearlo. Ábralo con un editor de texto e inserte la siguiente línea:
+
+```ini
+server=1
+````
+Sauvegardez ensuite vos modifications.
+Vous pouvez également effectuer cette configuration via l'interface graphique de Bitcoin-QT en naviguant dans "*Settings*" > "*Options...*" et en activant l'option "*Enable RPC server*".
+N'oubliez pas de redémarrer le logiciel après ces modifications.
+![Image](assets/fr/08.webp)
+Revenez ensuite à Sparrow Wallet et renseignez le chemin vers votre fichier de cookie, généralement situé dans le même dossier que le `bitcoin.conf`, selon votre système d'exploitation :
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
+![Image](assets/fr/09.webp)
+Laissez les autres paramètres par défaut, l'URL `127.0.0.1` et le port `8332`, puis cliquez sur "*Test Connection*".
+![Image](assets/fr/10.webp)
+La connexion est établie. Une coche verte apparaîtra en bas à droite pour indiquer que vous êtes connecté à un nœud Bitcoin Core.
+![Image](assets/fr/11.webp)
+**Avec Bitcoin Core à distance :**
+Si Bitcoin Core est installé sur une autre machine connectée sur le même réseau, commencez par localiser le fichier `bitcoin.conf` parmi les fichiers du logiciel. Si ce fichier n'existe pas encore, vous pouvez le créer. Ouvrez ce fichier avec un éditeur de texte et ajoutez la ligne suivante :
+```
+
+servidor=1
+
+```
+Après avoir modifié le fichier, assurez-vous de l'enregistrer dans le dossier approprié selon votre système d'exploitation :
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
+Il est également possible de réaliser cette manipulation via l'interface graphique de Bitcoin-QT. Accédez au menu "*Settings*", puis "*Options...*", et activez l'option "*Enable RPC server*" en cochant la case correspondante. Si le fichier `bitcoin.conf` n'existe pas, vous pouvez le créer directement depuis cette interface en cliquant sur "*Open Configuration File*".
+![Image](assets/fr/12.webp)
+Trouvez l'adresse IP de la machine qui héberge Bitcoin Core dans votre réseau local. Pour cela, vous pouvez utiliser un outil tel que [Angry IP Scanner](https://angryip.org/). Supposons, pour l'exemple, que l'adresse IP de votre nœud soit `192.168.1.18`.
+Dans le fichier `bitcoin.conf`, ajoutez les lignes suivantes, en configurant `rpcbind=192.168.1.18` pour correspondre à l'adresse IP de votre nœud.
+```
+
+[mano]
+
+rpcbind=127.0.0.1
+
+rpcbind=192.168.1.18
+
+rpcallowip=127.0.0.1
+
+rpcallowip=192.168.1.0/24
+
+```
+![Image](assets/fr/13.webp)
+Ajoutez également dans le fichier `bitcoin.conf` un identifiant et un mot de passe pour les connexions à distance. Assurez-vous de remplacer `loic` par votre nom d'utilisateur et `my_password` par un mot de passe fort :
+```
+
+rpcuser=loic
+
+rpcpassword=mi_contraseña
+
+```

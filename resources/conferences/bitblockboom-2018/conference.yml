@@ -1,24 +1,18 @@
 id: 98f30950-d1e5-4b2a-9e71-8a706f763a1d
 year: 2018-07
 name: Bitblockboom 2018
-builder: BitBlockBoom
 location: Dallas, USA
 language:
   - en
 links:
   website: https://bitblockboom.com/
   twitter: https://twitter.com/bitblockboom
-tags:
-  - Bitcoiner
-  - General
-
-# Proofreading metadata
 project_id: bd452d8f-436f-4a0f-9243-4fc23a2f142f
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05

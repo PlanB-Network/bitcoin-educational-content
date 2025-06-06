@@ -2,57 +2,33 @@
 name: Elysium Geldbörse
 description: Einrichtung und Verwendung einer Elysium-Wallet
 ---
-![cover-elysium](assets/cover.webp)
+![image](assets/cover.webp)
 
 Elysium Wallet ist die erste nicht-pfändbare Software-Wallet des Schweizer Startup-Unternehmens Elysium Labs.
 
-Dank des innovativen Schlüsselverwaltungssystems können Sie auf Ihre digitalen Bestände mit Elementen zugreifen, die für Sie alltäglich sind: Benutzername, Hauptschlüssel, Passwort oder Passcode.
-
-Das ist richtig: Es ist nicht mehr unbedingt notwendig, eine Seed Phrase zu verwenden, um wieder Zugang zu Ihren digitalen Beständen zu erhalten.
-
-Diese Vereinfachung könnte die Verbreitung von Bitcoin auf der ganzen Welt beschleunigen.
+Dank des innovativen Schlüsselverwaltungssystems können Sie auf Ihre digitalen Bestände mit Elementen zugreifen, die für Sie alltäglich sind: Benutzername, Hauptschlüssel, Passwort oder Passcode. Das ist richtig: Es ist nicht mehr unbedingt notwendig, eine Seed Phrase zu verwenden, um wieder Zugang zu Ihren digitalen Vermögenswerten zu erhalten. Diese Vereinfachung könnte die Verbreitung von Bitcoin auf der ganzen Welt beschleunigen.
 
 ## Wie eröffne ich ein Konto?
 
-Laden Sie die Elysium Wallet App aus dem Apple Store oder von Google Play herunter.
+Laden Sie die Elysium Wallet App aus dem Apple Store oder Google Play herunter und öffnen Sie dann die Elysium Wallet App, die Sie auf Ihr Gerät heruntergeladen haben. Tippen Sie auf "Create a new wallet" (Neue Brieftasche erstellen), dann erscheint der Bildschirm mit den Nutzungsbestimmungen. Um die Bedingungen zu akzeptieren und mit der Einrichtung Ihres Kontos fortzufahren, tippen Sie auf "Einrichtung beginnen" und geben Sie dann Ihren Benutzernamen ein; beachten Sie bitte, dass das Profilbild anpassbar ist: Wählen Sie eines aus den angebotenen Optionen, indem Sie ein Foto machen oder ein Bild von Ihrem Gerät hochladen. Wenn Sie Ihre Wahl getroffen haben, tippen Sie auf "Weiter".
 
-Öffnen Sie die Elysium Wallet-App, die Sie auf Ihr Gerät heruntergeladen haben.
+![image](assets/en/02.webp)
 
-Tippen Sie auf "Neue Brieftasche erstellen".
+Elysium zeichnet sich durch seinen innovativen Multi-Faktor-Algorithmus aus, der Passkey, PassCode und PassWord kombiniert. PassKeys sind obligatorisch. Sie ermöglichen Ihnen eine schnelle und sichere Authentifizierung mit den integrierten Sicherheitsfunktionen Ihres Geräts, wie Face ID oder Fingerabdruckscan. Sie sind Ihr wichtigster Schutz und gewährleisten einen schnellen und sicheren Zugang.
 
-Ein Bildschirm mit den Nutzungsbedingungen wird angezeigt.
+![image](assets/en/03.webp)
 
-Um zu akzeptieren und mit der Einrichtung Ihres Kontos fortzufahren, tippen Sie auf "Einrichtung beginnen".
+Wählen Sie die zweite Stufe: PassCode oder PassWord; als nächstes müssen Sie eine zweite Sicherheitsstufe wählen:
 
-Geben Sie Ihren Benutzernamen ein.
 
-Das Profilbild ist anpassbar: Wählen Sie eines aus den angebotenen Optionen, indem Sie ein Foto machen oder ein Bild von Ihrem Gerät hochladen.
-
-Wenn Sie Ihre Wahl getroffen haben, tippen Sie auf "Weiter".
-
-![Open](assets/open.webp)
-
-Elysium zeichnet sich durch seinen innovativen Multi-Faktor-Algorithmus aus, der Passkey, PassCode und PassWord kombiniert.
-
-PassKeys sind obligatorisch.
-
-Sie ermöglichen Ihnen eine schnelle und sichere Authentifizierung mit den integrierten Sicherheitsfunktionen Ihres Geräts, wie Face ID oder Fingerabdruck-Scanning.
-
-Sie sind Ihr wichtigster Schutz und gewährleisten einen schnellen und sicheren Zugang.
-
-![Passkey](assets/passkey.webp)
-
-Wählen Sie die zweite Stufe: PassCode oder PassWort
-
-Als nächstes müssen Sie eine zweite Sicherheitsstufe wählen:
-
-- PassCode: 6-stelliger Code, der leicht zu merken ist. Perfekt, um eine zusätzliche Sicherheitsebene zu schaffen.
+- PassCode: ein 6-stelliger Code, der leicht zu merken ist. Perfekt, um eine zusätzliche Sicherheitsebene zu schaffen.
 - Passwort: Erstellen Sie ein sicheres Passwort mit mindestens 8 Zeichen, um die Sicherheit zu erhöhen.
+
 Sie müssen Passkeys in Verbindung mit einem PassCode oder PassWord verwenden.
 
-![secondfactor](assets/secondfactor.webp)
+![image](assets/en/04.webp)
 
-Hinweis: Um Ihr Konto einzurichten, benötigen Sie mindestens 2 Faktoren, von denen einer der Passkey sein muss.
+**Hinweis:** Um Ihr Konto einzurichten, benötigen Sie mindestens 2 Faktoren, von denen einer der Passkey sein muss.
 
 Um die Sicherheit weiter zu erhöhen, können Sie eine dritte Schutzebene hinzufügen (Passkey + PassCode + PassWord).
 
@@ -64,7 +40,7 @@ Wenn Sie PassCode als zweiten Faktor gewählt haben, können Sie PassWord als dr
 
 Sie können den dritten Sicherheitsfaktor während der Einrichtungsphase hinzufügen (siehe Bilder) oder später, indem Sie zu Einstellungen > Verbesserung der Sicherheit gehen.
 
-![thirdfactor](assets/thirdfactor.webp)
+![image](assets/en/05.webp)
 
 Sollten Sie jedoch einen der Faktoren vergessen haben, beachten Sie dies bitte:
 
@@ -76,73 +52,67 @@ Wir empfehlen dringend, alle drei Faktoren von Anfang an einzurichten, um maxima
 
 ## Wie kann ich eine Transaktion empfangen?
 
-Schritt 1: Öffnen Sie die Elysium-App und gehen Sie zum Hauptmenü. Tippen Sie auf "Empfangen".
+Öffnen Sie die Elysium-App und gehen Sie zum Hauptmenü, dann tippen Sie auf "Empfangen".
 
-![receive1](assets/receive1.webp)
+![image](assets/en/06.webp)
 
 Wählen Sie nun die Kette aus, auf der Sie die Zahlung erhalten möchten (Bitcoin oder Polygon), und Sie können den QR-Code Ihrer Elysium-Brieftasche einfach an die Person weitergeben, die Sie bezahlen muss, und sie wird sich um den Rest kümmern.
 
 ## Wie empfängt man eine Transaktion im Lightning Network?
 
-SCHRITT 1: Durch Tippen auf "Zahlung anfordern" fordern Sie eine Bitcoin-Zahlung über das Lightning Network an.
+**Schritt 1:** Durch Tippen auf "Zahlung anfordern" fordern Sie eine Bitcoin-Zahlung über das Lightning Network an.
 
-![requestpayment1](assets/requestpayment1.webp)
+![image](assets/en/07.webp)
 
-Schritt 2: Geben Sie den anzufordernden Betrag ein, wählen Sie die gewünschte Währung und fügen Sie gegebenenfalls eine Beschreibung hinzu.
+**Schritt 2:** Geben Sie den anzufordernden Betrag ein, wählen Sie die gewünschte Währung und fügen Sie gegebenenfalls eine Beschreibung hinzu.
 
-![requestpayment2](assets/requestpayment2.webp)
+![image](assets/en/08.webp)
 
-Hinweis: Für die erste Lightning Network (LN)-Zahlung zur Eröffnung des LN-Kanals wird eine geringe Gebühr erhoben. Danach sind alle weiteren Zahlungen kostenlos.
+**Hinweis:** Für die erste Lightning Network (LN)-Zahlung zur Eröffnung des LN-Kanals wird eine geringe Gebühr erhoben. Danach sind alle weiteren Zahlungen kostenlos.
 
 ## Wie versendet man eine Transaktion?
 
-SCHRITT 1: Gehen Sie zum Hauptmenü und tippen Sie auf "Senden".
+**Schritt 1:** Gehen Sie zum Hauptmenü und tippen Sie auf "Senden".
 
-![send1](assets/send1.webp)
+![image](assets/en/09.webp)
 
-SCHRITT 2: Scannen Sie den QR-Code des Empfängers von dessen Elysium Wallet, um den Kontakt automatisch in Ihrem Adressbuch zu speichern.
+**Schritt 2:** Scannen Sie den QR-Code des Empfängers aus dessen Elysium Wallet, um den Kontakt automatisch in Ihrem Adressbuch zu speichern. Alternativ können Sie die Adresse auch manuell kopieren und in das Empfängerfeld einfügen. Nachdem Sie den Empfänger ausgewählt oder zu Ihrem Adressbuch hinzugefügt haben, tippen Sie auf "Zahlung senden".
 
-Alternativ können Sie die Adresse auch manuell kopieren und in das Empfängerfeld einfügen.
-
-Nachdem Sie den Empfänger ausgewählt oder zu Ihrem Adressbuch hinzugefügt haben, tippen Sie auf "Zahlung senden".
-
-![payment1](assets/payment1.webp)
+![image](assets/en/10.webp)
 
 Sie haben den Kontakt bereits? Wählen Sie ihn direkt aus dem Adressbuch aus.
 
-![addressbook1](assets/addressbook1.webp)
+![image](assets/en/11.webp)
 
-SCHRITT 3: Geben Sie den Betrag ein, den Sie senden möchten, und wählen Sie das zu übertragende Gut aus.
+**Schritt 3:** Geben Sie den Betrag ein, den Sie senden möchten, und wählen Sie den Vermögenswert aus, den Sie übertragen möchten.
 
 Für BTC-Transaktionen können Sie Ihre bevorzugte Netzwerkgeschwindigkeit und die Gebühren auswählen (wie im dritten Bild gezeigt)
 
-![payment2](assets/payment2.webp)
+![image](assets/en/12.webp)
 
 Ihre Transaktion wurde abgeschickt! Sie können den aktuellen Kontostand und den Transaktionsstatus Ihrer Elysium-Wallet ganz einfach überprüfen.
 
-## Wie versendet man eine Transaktion im Lightning Network (LN)?
+## Wie sende ich eine Transaktion im Lightning Network?
 
-SCHRITT 1: Tippen Sie auf "Scannen", um den Scanner zu öffnen.
+![image](assets/en/13.webp)
 
-SCHRITT 2: Scannen Sie den LN QR-Code für die Bezahlung.
+**Schritt 1:** Tippen Sie auf "Scannen", um den Scanner zu öffnen.
 
-SCHRITT3: Überprüfen Sie die Zahlungsdetails und bestätigen Sie, dass alles korrekt ist.
+**Schritt 2:** Scannen Sie den LN-QR-Code für die Bezahlung.
 
-SCHRITT 4: Tippen Sie auf "Bestätigen", um die Transaktion abzuschließen.
+**Schritt 3:** Überprüfen Sie die Zahlungsangaben und bestätigen Sie, dass alles korrekt ist.
 
-![paymentLN1](assets/paymentLN1.webp)
+**Schritt 4:** Tippen Sie auf "Bestätigen", um die Transaktion abzuschließen.
 
 ## Wie kann man die Seed Phrase sehen?
 
 Gehen Sie zum Hauptmenü und tippen Sie auf "Hub". Wählen Sie Einstellungen und tippen Sie auf "Privaten Schlüssel extrahieren".
 
-![extract1](assets/extract1.webp)
+![image](assets/en/14.webp)
 
-Melden Sie sich mit Ihrem Hauptschlüssel an und geben Sie Ihr Passwort und/oder Ihren Passcode ein.
+Melden Sie sich mit Ihrem Hauptschlüssel an und geben Sie Ihr Passwort und/oder Ihren Passcode ein. Die Seed-Phrase wird im 24-Wort-Format angezeigt.
 
-Die Startphrase wird im 24-Wort-Format angezeigt.
-
-![seed1](assets/seed1.webp)
+![image](assets/en/15.webp)
 
 Teilen Sie es mit niemandem!
 
@@ -150,9 +120,7 @@ Teilen Sie es mit niemandem!
 
 Benötigen Sie Hilfe mit Elysium Wallet? Wir sind hier, um zu helfen!
 
-Laden Sie die App herunter.
-
-Hier erfahren Sie, wie Sie unseren Kundensupport direkt über die App kontaktieren können:
+Laden Sie die App herunter, und hier erfahren Sie, wie Sie sich direkt von der App aus mit unserem Kundensupport in Verbindung setzen können:
 
 1. Zum Hub gehen
 
@@ -160,7 +128,7 @@ Hier erfahren Sie, wie Sie unseren Kundensupport direkt über die App kontaktier
 
 3. Hilfe auswählen
 
-![help1](assets/help1.webp)
+![image](assets/en/16.webp)
 
 Es wird ein Formular angezeigt, in dem Sie das Problem beschreiben können.
 
@@ -168,4 +136,4 @@ Unser Team wird Ihnen so schnell wie möglich eine Lösung anbieten!
 
 Um einen Fehler zu melden oder uns ein Feedback zu geben, klicken Sie auf das Widget auf der Startseite:
 
-![help2](assets/help2.webp)
+![image](assets/en/17.webp)

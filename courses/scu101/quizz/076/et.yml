@@ -1,0 +1,9 @@
+question: Miks on soovitatav kasutada juhuslikult genereeritud paroole?
+answer: Et vastu seista jõurünnakutele.
+wrong_answers:
+  - Et neid oleks lihtsam meelde jätta.
+  - Et vähendada nende keerukust.
+  - Et vastu seista Sybil-rünnakutele.
+explanation: |
+  Juhuslikkus muudab paroolid raskemini äraarvatavaks katse-eksituse meetodil, tugevdades seeläbi nende turvalisust jõurünnakute vastu.
+reviewed: false

@@ -32,6 +32,7 @@ RGB 合约的结构类似于一个进化状态机。它以 "创世纪 "开始，
 要了解有关 RGB 协议工作原理的更多信息，我建议您参加这个综合培训课程：
 
 https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
 ## 兼容 RGB 的 Lightning 节点安装
 
 要编译和安装 `rgb-lightning-node` 二进制文件，我们首先要克隆软件源及其子模块，然后运行 .NET Framework：
@@ -371,4 +372,4 @@ curl -X 'GET' \
 
 我还推荐另一篇教程，其中介绍了如何使用 LNP/BP 协会开发的 RGB CLI 工具来创建 RGB 合同：
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

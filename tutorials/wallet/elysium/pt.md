@@ -1,171 +1,139 @@
 ---
-name: Elysium Wallet
-description: Setup and how to use an Elysium Wallet
+name: Carteira Elysium
+description: Configuração e como utilizar uma carteira Elysium
 ---
-![cover-elysium](assets/cover.webp)
+![image](assets/cover.webp)
 
-Elysium Wallet is the first non-custodial software wallet from Swiss startup Elysium Labs.
+A Elysium Wallet é a primeira carteira de software sem custódia da startup suíça Elysium Labs.
 
-Thanks to the innovative key management system, you can access your digital assets using elements that are part of everyday life: your username, passkey, password or passcode.
+Graças ao inovador sistema de gestão de chaves, pode aceder aos seus bens digitais utilizando elementos que fazem parte da sua vida quotidiana: o seu nome de utilizador, a sua chave de acesso, a sua palavra-passe ou o seu código de acesso. É isso mesmo: já não é estritamente necessário utilizar uma Seed Phrase para voltar a ter acesso aos seus activos digitais. Esta simplificação pode acelerar a difusão da Bitcoin em todo o mundo.
 
-That's right: it is no longer strictly necessary to use a Seed Phrase to regain access to your digital assets.
+## Como abrir uma conta?
 
-This simplification could accelerate the spread of Bitcoin around the world.
+Transfira a aplicação Elysium Wallet da Apple Store ou do Google Play e, em seguida, abra a aplicação Elysium Wallet que transferiu para o seu dispositivo. Toque em "Criar uma nova carteira" e, nessa altura, aparecerá o ecrã dos termos e condições de utilização. Para aceitar e prosseguir com a criação da sua conta, toque em "Iniciar configuração" e, em seguida, introduza o seu nome de utilizador; tenha em atenção que a imagem de perfil é personalizável: escolha uma das opções fornecidas, tirando uma fotografia ou carregando uma imagem do seu dispositivo. Quando tiver escolhido, toque em "Continuar".
 
-## How to Open an Account?
+![image](assets/en/02.webp)
 
-Download the Elysium Wallet App from the Apple Store or Google Play.
+O Elysium destaca-se pelo seu algoritmo multifactor inovador, que combina Passkey, PassCode e PassWord. As PassKeys são obrigatórias. Permitem-lhe autenticar-se de forma rápida e segura utilizando as funcionalidades de segurança incorporadas no seu dispositivo, como o Face ID ou a leitura de impressões digitais. São a sua principal camada de proteção, garantindo um acesso rápido e seguro.
 
-Open the Elysium Wallet app that you downloaded on your device.
+![image](assets/en/03.webp)
 
-Tap on "Create a new wallet".
+Escolha o seu segundo nível: PassCode ou PassWord; de seguida, terá de escolher um segundo nível de segurança:
 
-A screen with the terms and conditions of use will appear.
 
-To accept and proceed with the creation of your account, tap on "Begin Setup".
+- PassCode: código de 6 dígitos que é fácil de memorizar. Perfeito para adicionar uma camada extra de proteção.
+- Palavra-passe: Crie uma palavra-passe forte com, pelo menos, 8 caracteres, para aumentar ainda mais a segurança.
 
-Enter your username.
+As chaves de acesso devem ser utilizadas em conjunto com um código de acesso ou uma palavra-passe.
 
-The profile image is customizable: choose one from the options provided, by taking a photo or uploading an image from your device.
+![image](assets/en/04.webp)
 
-When you have chosen, tap "Continue".
+**Nota:** Para criar a sua conta, precisa de pelo menos 2 factores, um dos quais tem de ser a Passkey.
 
-![Open](assets/open.webp)
+Para aumentar ainda mais a segurança, pode adicionar uma terceira camada de proteção (Passkey + PassCode + PassWord).
 
-Elysium stands out for its innovative multi-factor algorithm, which combines Passkey, PassCode and PassWord.
+Combinação de camadas para máxima segurança
 
-PassKeys are mandatory.
+Utilizará sempre a Passkey como fator primário. Para a segunda camada, escolha PassCode ou PassWord.
 
-They allow you to authenticate quickly and securely using your device's built-in security features, such as Face ID or fingerprint scanning.
+Se escolheu o PassCode como segundo fator, pode adicionar o PassWord como terceira camada ou vice-versa. Esta abordagem flexível garante que os seus activos são protegidos de acordo com as suas preferências.
 
-They are your main layer of protection, ensuring fast and secure access.
+Pode adicionar o terceiro fator de segurança durante a fase de configuração (ver imagens) ou mais tarde, indo a Definições > Melhorar a segurança.
 
-![Passkey](assets/passkey.webp)
+![image](assets/en/05.webp)
 
-Choose your second level: PassCode or PassWord
+No entanto, se se esquecer de um dos factores, tenha isso em atenção:
 
-Next, you will need to choose a second level of security:
+Se tiver configurado os três factores, pode sempre alterá-los ou redefini-los a partir das definições.
 
-- PassCode: 6-digit code that is easy to remember. Perfect for adding an extra layer of protection.
-- Password: Create a strong password of at least 8 characters, adding even more security.
-You must use Passkeys in conjunction with a PassCode or PassWord.
+Infelizmente, se tiver configurado apenas dois factores e se esquecer de um, não existe qualquer opção de recuperação.
 
-![secondfactor](assets/secondfactor.webp)
+Recomendamos vivamente a configuração dos três factores desde o início para obter a máxima segurança e flexibilidade.
 
-Note: To set up your account, you need at least 2 factors, one of which must be the Passkey.
+## Como receber uma transação?
 
-To further increase security, you can add a third layer of protection (Passkey + PassCode + PassWord).
+Abra a aplicação Elysium e aceda ao menu principal, depois toque em "Receber".
 
-Combination of layers for maximum security
+![image](assets/en/06.webp)
 
-You will always use Passkey as the primary factor. For the second layer, choose PassCode or PassWord.
+Agora, selecione a cadeia em que quer receber o pagamento (Bitcoin ou Polygon) e pode simplesmente partilhar o código QR da sua carteira Elysium com a pessoa que precisa de lhe pagar, que ela tratará do resto.
 
-If you have chosen PassCode as the second factor, you can add PassWord as the third layer or vice versa. This flexible approach ensures that your assets are protected according to your preferences.
+## Como receber uma transação na Lightning Network?
 
-You can add the third security factor during the setup phase (see images) or later by going to Settings > Improve security.
+**Passo 1:** Ao tocar em "Request Payment" (Pedir pagamento) está a pedir um pagamento Bitcoin através da Lightning Network.
 
-![thirdfactor](assets/thirdfactor.webp)
+![image](assets/en/07.webp)
 
-However, if you forget one of the factors, please note that:
+**Passo 2:** Introduza o montante que pretende solicitar, selecione a moeda que pretende receber e adicione uma descrição, se necessário.
 
-If you have set up all three factors, you can always change or reset them from the settings.
+![image](assets/en/08.webp)
 
-Unfortunately, if you have only set up two factors and forget one, there is no recovery option.
+**Nota:** Existe uma pequena taxa para o primeiro pagamento Lightning Network (LN) para abrir o canal LN. Depois disso, todos os pagamentos subsequentes são gratuitos.
 
-We strongly recommend setting up all three factors from the beginning for maximum security and flexibility.
+## Como enviar uma transação?
 
-## How to receive a transaction?
+**Passo 1:** Aceda ao menu principal e toque em "Enviar".
 
-Step 1: Open the Elysium app and go to the main menu. Tap 'Receive'.
+![image](assets/en/09.webp)
 
-![receive1](assets/receive1.webp)
+**Passo 2:** Digitalize o código QR do destinatário a partir da sua carteira Elysium para guardar automaticamente o seu contacto no seu livro de endereços. Em alternativa, copie manualmente o endereço do destinatário e cole-o no campo do destinatário. Depois de selecionar o destinatário ou de o adicionar ao seu livro de endereços, toque em "Enviar pagamento".
 
-Now, select the chain you want to receive payment on (Bitcoin or Polygon) and you can simply share the QR code of your Elysium wallet with the person who needs to pay you, they will take care of the rest.
+![image](assets/en/10.webp)
 
-## How to Receive a Transaction in Lightning Network?
+Já tem o contacto? Escolha-o diretamente a partir do livro de endereços.
 
-STEP 1: By tapping “Request Payment” you request a Bitcoin payment via Lightning Network.
+![image](assets/en/11.webp)
 
-![requestpayment1](assets/requestpayment1.webp)
+**Passo 3:** Introduza o montante que pretende enviar e selecione o ativo que pretende transferir.
 
-Step 2: Enter the amount you want to request, select the currency you want to receive, and add a description if necessary.
+Para transacções BTC, pode selecionar a velocidade e as taxas da sua rede preferida (como mostra a terceira imagem)
 
-![requestpayment2](assets/requestpayment2.webp)
+![image](assets/en/12.webp)
 
-Note: There is a small fee for the first Lightning Network (LN) payment to open the LN channel. After that, all subsequent payments are free.
+A sua transação foi submetida! Pode facilmente verificar o saldo atualizado da sua carteira Elysium e o estado da transação.
 
-## How to send a transaction?
+## Como enviar uma transação na Lightning Network?
 
-STEP 1: Go to the main menu and tap "Send".
+![image](assets/en/13.webp)
 
-![send1](assets/send1.webp)
+**Passo 1:** Toque em "Digitalizar" para abrir o scanner.
 
-STEP 2: Scan the recipient's QR code from their Elysium Wallet to automatically save their contact to your address book.
+**Passo 2:** Digitalizar o código QR do LN para efetuar o pagamento.
 
-Alternatively, manually copy their address and paste it into the recipient field.
+**Passo 3:** Reveja os detalhes do pagamento e confirme se tudo está correto.
 
-After selecting the recipient or adding them to your address book, tap "Send Payment".
+**Passo 4:** Toque em "Confirmar" para concluir a transação.
 
-![payment1](assets/payment1.webp)
+## Como ver a frase-semente?
 
-Already have the contact? Choose it directly from the address book.
+Aceda ao menu principal e toque em "Hub". Selecione Definições e toque em "Extrair chave privada".
 
-![addressbook1](assets/addressbook1.webp)
+![image](assets/en/14.webp)
 
-STEP 3: Enter the amount you want to send and select the asset you want to transfer.
+Inicie sessão com a sua chave de acesso e introduza a sua palavra-passe e/ou código de acesso. A frase-semente será apresentada no formato de 24 palavras.
 
-For BTC transactions, you can select your preferred network speed and fees (as shown in the third image)
+![image](assets/en/15.webp)
 
-![payment2](assets/payment2.webp)
+Não o partilhe com ninguém!
 
-Your transaction has been submitted! You can easily check your Elysium Wallet's updated balance and transaction status.
+## Como contactar o apoio?
 
-## How to send a transaction in Lightning Network (LN)?
+Precisa de ajuda com a carteira Elysium? Estamos aqui para o ajudar!
 
-STEP 1: Tap "Scan" to open the scanner.
+Descarregue a aplicação e veja como pode contactar a nossa equipa de apoio ao cliente diretamente a partir da aplicação:
 
-STEP 2: Scan the LN QR code for payment.
+1. Ir para o Hub
 
-STEP3: Review the payment details and confirm everything is correct.
+2. Toque em Definições
 
-STEP4: Tap "Confirm" to complete the transaction.
+3. Selecionar Ajuda
 
-![paymentLN1](assets/paymentLN1.webp)
+![image](assets/en/16.webp)
 
-## How to see the Seed Phrase?
+Aparecerá um formulário onde pode descrever o problema que está a ter.
 
-Go to the main menu and tap "Hub". Select Settings and tap "Extract private key".
+Uma vez enviado, a nossa equipa responderá o mais rapidamente possível com uma solução!
 
-![extract1](assets/extract1.webp)
+Para comunicar um erro ou dar-nos a sua opinião, clique no widget na página inicial:
 
-Log in with your passkey and enter your password and/or passcode.
-
-The seed phrase will be displayed in 24-word format.
-
-![seed1](assets/seed1.webp)
-
-Don't share it with anyone!
-
-## How to contact support?
-
-Need help with Elysium Wallet? We're here to help!
-
-Download the App.
-
-Here's how you can contact our customer support team directly from the app:
-
-1. Go to Hub
-
-2. Tap Settings
-
-3. Select Help
-
-![help1](assets/help1.webp)
-
-A form will appear where you can describe the issue you are experiencing.
-
-Once submitted, our team will respond as soon as possible with a solution!
-
-To report a bug or provide us with feedback, click on the widget on the home page:
-
-![help2](assets/help2.webp)
+![image](assets/en/17.webp)

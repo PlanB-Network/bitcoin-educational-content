@@ -1,0 +1,9 @@
+question: Que vantagem oferece um provedor de e-mail seguro como o ProtonMail?
+answer: Respeito à privacidade e segurança reforçada.
+wrong_answers:
+  - Interface mais simples para iniciantes.
+  - Redução de funcionalidades para minimizar a superfície de ataque.
+  - Integração de um algoritmo para gerar e-mails automaticamente.
+explanation: |
+  O ProtonMail se destaca por sua política de privacidade e medidas de segurança aprimoradas.
+reviewed: false

@@ -49,7 +49,7 @@ Selle õpetuse jaoks on vaja kahte tarkvararakendust: Ledger Live Ledgeri seadis
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Nende kahe tarkvaraprogrammi puhul soovitan tungivalt kontrollida nii nende autentsust (GnuPG abil) kui ka nende terviklikkust (hashi kaudu) enne nende installimist oma masinasse. Kui te ei ole kindel, kuidas seda teha, võite järgida seda teist õpetust:
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Kuidas seadistada Ledger Nano?
 

@@ -4,10 +4,10 @@ subtopic: security
 level: beginner
 hours: 6
 
-professors:
-  - rabbit-hole
-  - zero-shock
-  - gate-fence
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+  - b04a2719-7745-4bd4-aec7-e23431f4db40
+  - b05f416c-fe76-429a-a46c-d5a8b0154a7b
 published_at: 2023-05-17
 # Proofreading metadata
 original_language: fr
@@ -15,80 +15,84 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.31
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.71
+    contributor_names:
+    reward: 7.01
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.71
+    contributor_names:
+    reward: 7.01
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.01
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
-    contributors_id:
+    contributor_names:
       - KryptoKeskus
     reward: 4.66
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 2.35
+    reward: 3.5
   - language: it
     last_contribution_date: 2024-07-14
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 3.5
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 13.92
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.71
+    contributor_names:
+    reward: 7.01
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.31
   - language: vi
     last_contribution_date: 2024-05-05
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 6.96
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.31
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 11.62
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 11.62
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.31
+tags:
+  - personal-security
+  - privacy
+  - good-practice

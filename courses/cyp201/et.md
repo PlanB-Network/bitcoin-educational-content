@@ -86,7 +86,7 @@ Need krüptograafilised hash-funktsioonid omavad mitmeid olulisi omadusi, mis mu
 
 #### 1. Pöördumatuse (eelkujutise vastupanu):
 
-Pöördumatuse all mõeldakse, et hashi on lihtne arvutada sisendinformatsioonist, kuid vastupidine arvutus, st sisendi leidmine hashi põhjal, on praktiliselt võimatu. See omadus muudab hash-funktsioonid ideaalseks unikaalsete digitaalsete sõrmejälgede loomiseks ilma algse informatsiooni ohustamata. Seda omadust nimetatakse sageli ühesuunaliseks funktsiooniks või "_lõksuukse funktsiooniks_".
+Pöördumatus tähendab, et on lihtne arvutada räsi sisendandmetest, kuid vastupidine arvutus, st sisendi leidmine räsi põhjal, on praktiliselt võimatu. See omadus teeb räsi funktsioonid ideaalseks unikaalsete digitaalsõrmejälgede loomiseks ilma algset teavet ohustamata.
 
 Antud näites on hashi `24f1b9…` saamine teades sisendit "_PlanB_" lihtne ja kiire. Kuid sõnumi "_PlanB_" leidmine teades ainult `24f1b9…` on võimatu.
 
@@ -2138,13 +2138,13 @@ Väärtuse teisendamiseks _bech32_ tähemärgiks kasutades seda tabelit, tuleb l
 Kõigi meie väärtuste kaardistamisel saame järgmise aadressi:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Jääb üle lisada HRP `bc`, mis näitab, et tegemist on Bitcoin'i peamise võrgu aadressiga, samuti eraldaja `1`, et saada täielik vastuvõtu aadress:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Selle _bech32_ tähestiku eripära on see, et see sisaldab kõiki tähestiku ja numbrite tähemärke, välja arvatud `1`, `b`, `i` ja `o`, et vältida visuaalset segadust sarnaste tähemärkide vahel, eriti nende sisestamisel või inimeste poolt lugemisel.

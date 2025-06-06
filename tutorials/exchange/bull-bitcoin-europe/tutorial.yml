@@ -1,17 +1,11 @@
 id: 0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-builder: Bull Bitcoin
-
-tags:
-  - investment
-  - guides
 
 category: centralized
 
 level: beginner
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 
@@ -21,90 +15,94 @@ proofreading:
   - language: fr
     last_contribution_date: 2024-12-27
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 0.41
+    reward: 0.58
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.52
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.81
+    contributor_names:
+    reward: 1.17
 
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.81
+    contributor_names:
+    reward: 1.17
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.17
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.52
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.52
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.88
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.17
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.23
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.52
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.81
+    contributor_names:
+    reward: 1.17
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.52
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.23
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.88
+tags:
+  - wallets
+  - investment
+  - business

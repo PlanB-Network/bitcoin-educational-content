@@ -1,7 +1,7 @@
 ---
 name: Einführung in die formale Kryptographie
 goal: Eine tiefgehende Einführung in die Wissenschaft und Praxis der Kryptographie.
-objectives: 
+objectives:
 
   - Erforschen Sie Beale-Chiffren und moderne kryptografische Methoden, um grundlegende und historische Konzepte der Kryptografie zu verstehen.
   - Vertiefen Sie sich in die Zahlentheorie, Gruppen und Felder, um die wichtigsten mathematischen Konzepte der Kryptographie zu beherrschen.
@@ -291,7 +291,7 @@ Im Ausdruck "Zufallsvariable" bedeutet der Begriff "zufällig" einfach "probabil
 
 Eine **uniforme Variable** ist ein Spezialfall einer Zufallsvariablen. Sie kann zwei oder mehr Werte annehmen, die alle die gleiche Wahrscheinlichkeit haben. Die in *Abbildung 1* dargestellte Zufallsvariable $X$ ist eindeutig eine gleichförmige Variable, da beide möglichen Ergebnisse mit einer Wahrscheinlichkeit von $0,5$ auftreten. Es gibt jedoch viele Zufallsvariablen, die nicht zu den gleichförmigen Variablen gehören.
 
-Betrachten wir zum Beispiel die Zufallsvariable $Y$. Sie hat eine Ergebnismenge $\{1, 2, 3, 8, 10\}$ und die folgende Wahrscheinlichkeitsverteilung:
+Betrachten wir zum Beispiel die Zufallsvariable $Y$. Sie hat eine Ergebnismenge $\{1, 2, 3, 8, 10}$ und die folgende Wahrscheinlichkeitsverteilung:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -1019,10 +1019,10 @@ Bob verschlüsselt die Nachricht $M$ zum Zeitpunkt $T_0$ mit dem Schlüssel $K$,
 
 In Kapitel 2 haben wir die Shift-Chiffre kennengelernt, die ein Beispiel für ein sehr einfaches symmetrisches Verschlüsselungsverfahren ist. Schauen wir sie uns hier noch einmal an.
 
-Nehmen wir ein Wörterbuch *D* an, das alle Buchstaben des englischen Alphabets der Reihe nach mit der Menge der Zahlen $\{0,1,2,\Punkte,25\}$ gleichsetzt. Angenommen, es gibt eine Menge möglicher Nachrichten **M**. Die Shift-Chiffre ist dann ein Verschlüsselungsverfahren, das wie folgt definiert ist:
+Nehmen wir ein Wörterbuch *D* an, das alle Buchstaben des englischen Alphabets der Reihe nach mit der Menge der Zahlen $\{0,1,2,\dots,25\}$ gleichsetzt. Angenommen, es gibt eine Menge möglicher Nachrichten **M**. Die Shift-Chiffre ist dann ein Verschlüsselungsverfahren, das wie folgt definiert ist:
 
 
-- Wähle zufällig einen Schlüssel $k$ aus der Menge der möglichen Schlüssel **K**, wobei **K** = $\{0,1,2,\Punkte,25\}$
+- Wähle zufällig einen Schlüssel $k$ aus der Menge der möglichen Schlüssel **K**, wobei **K** = $\{0,1,2,\dots,25\}$
 - Verschlüsseln Sie eine Nachricht $m \in$ **M**, wie folgt:
     - Trenne $m$ in seine einzelnen Buchstaben $m_0, m_1,\dots, m_i, \dots, m_l$
     - Wandle jedes $m_i$ in eine Zahl nach *D* um
@@ -2294,7 +2294,7 @@ Dennoch kann das RSA-Problem mit ein wenig cleverer Komplexität verwendet werde
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Abschlussprüfung
 
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

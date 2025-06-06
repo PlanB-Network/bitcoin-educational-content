@@ -1,87 +1,88 @@
 id: 080fd74b-6cad-441f-baa6-0e8c32935502
 author: Andy Hunt, Dave Thomas
 level: intermediate
-tags:
-  - software development
-  - programming
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.29
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.11
+    reward: 0.14
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.29
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.48
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.29
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.48
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
+tags:
+  - software
+  - good-practice
+  - development
+contributor_names:
+  - Rogzy-DB

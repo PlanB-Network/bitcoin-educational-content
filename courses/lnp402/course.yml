@@ -4,17 +4,16 @@ subtopic: lightning network
 level: expert
 hours: 16
 
-professors:
-  - radio-talent
-  - best-lion
-  - gift-hammer
-  - grain-habit
-
+professors_id:
+  - e7e63d59-ea19-4960-9446-61bd4dcc98f0
+  - 880c7fa7-8d4c-4c9b-81b4-bc61ed256516
+  - eae56800-59a7-473b-8b52-2c6dfc99bd33
+  - 4e2b0785-bd1f-4b1d-ad17-dc699eaf5756
 published_at: 2024-02-15
 
-contributors:
-  - rabbit-hole
-  - another-satoshi
+contributor_names:
+  - Rogzy-DB
+  - Asi0Flammeus
 
 # Proofreading metadata
 original_language: en
@@ -22,78 +21,82 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.31
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.21
+    contributor_names:
+    reward: 1.76
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.6
+    reward: 0.88
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.76
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.31
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.21
+    contributor_names:
+    reward: 1.76
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.76
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.42
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.21
+    contributor_names:
+    reward: 1.76
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.31
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.42
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.87
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.87
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.31
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.31
+tags:
+  - development
+  - lightning
+  - technical-analysis

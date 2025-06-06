@@ -1,0 +1,9 @@
+question: Nhà cung cấp email bảo mật như ProtonMail mang lại lợi ích gì?
+answer: Bảo vệ quyền riêng tư và tăng cường bảo mật.
+wrong_answers:
+  - Giao diện đơn giản hơn cho người mới bắt đầu.
+  - Giảm số lượng tính năng để hạn chế bề mặt tấn công.
+  - Tích hợp thuật toán để tự động tạo email.
+explanation: |
+  ProtonMail nổi bật với chính sách bảo mật và các biện pháp an ninh nâng cao.
+reviewed: false

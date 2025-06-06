@@ -1,7 +1,7 @@
 ---
 name: Johdatus muodolliseen kryptografiaan
 goal: Syväsukellus kryptografian tieteeseen ja käytäntöön.
-objectives: 
+objectives:
 
   - Tutustutaan Beale-salauksiin ja nykyaikaisiin salausmenetelmiin, jotta ymmärretään salakirjoituksen peruskäsitteitä ja historiallisia käsitteitä.
   - Syvenny lukuteoriaan, ryhmiin ja kenttiin ja hallitse salakirjoituksen taustalla olevat keskeiset matemaattiset käsitteet.
@@ -291,7 +291,7 @@ Ilmaisussa "satunnaismuuttuja" termi "satunnainen" tarkoittaa vain "todennäköi
 
 **yhtenäinen muuttuja** on satunnaismuuttujan erikoistapaus. Se voi saada kaksi tai useampia arvoja, joilla kaikilla on sama todennäköisyys. Kuvassa 1 esitetty satunnaismuuttuja $X$ on selvästi tasainen muuttuja, koska molemmat mahdolliset tulokset esiintyvät todennäköisyydellä $0.5$. On kuitenkin olemassa monia satunnaismuuttujia, jotka eivät ole yhdenmukaisia muuttujia.
 
-Tarkastellaan esimerkiksi satunnaismuuttujaa $Y$. Sillä on tulosjoukko $\{1, 2, 3, 8, 10\}$ ja seuraava todennäköisyysjakauma:
+Tarkastellaan esimerkiksi satunnaismuuttujaa $Y$. Sillä on tulosjoukko $\{1, 2, 3, 8, 10}$ ja seuraava todennäköisyysjakauma:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -2294,7 +2294,7 @@ RSA-ongelmaa voidaan kuitenkin käyttää sekä turvallisen julkisen avaimen sal
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Loppukoe
 
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

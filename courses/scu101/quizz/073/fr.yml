@@ -1,0 +1,9 @@
+question: Quel est l'avantage principal d'utiliser un gestionnaire de mots de passe ?
+answer: Se souvenir d'un seul mot de passe maître.
+wrong_answers:
+  - Ne plus créer de nouveaux mots de passe.
+  - Aider à mémoriser tous les mots de passe à l'aide de moyens mnémotechniques.
+  - Supprimer la nécessité d'avoir des comptes en ligne.
+explanation: |
+  L'utilisateur n'a besoin de retenir qu'un seul mot de passe pour accéder à tous les autres.
+reviewed: false

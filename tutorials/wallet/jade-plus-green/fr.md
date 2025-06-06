@@ -285,3 +285,4 @@ Félicitations, vous savez dorénavant comment configurer et utiliser le Jade Pl
 Pour aller plus loin, je vous recommande de consulter ce tutoriel sur le Jade Plus, où nous le configurons avec le logiciel Sparrow Wallet en mode QR. Vous y apprendrez également comment utiliser les paramètres avancés de votre hardware wallet :
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+

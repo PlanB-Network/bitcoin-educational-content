@@ -8,5 +8,3 @@ description: |
   Ominaisuuksiimme kuuluu valinta WireGuard-, OpenVPN- tai IPSec-protokollien välillä, AntiTracker, joka estää mainokset ja seuraimet, Killswitch/Palomuuri-vaihtoehto, yksityiset, lokitietoja keräämättömät DNS-palvelimet, moniportaiset VPN-reitit, portin uudelleenohjaus ja Obfsproxy sensuurin kiertämiseksi.
 
   Vaikka selvennämme, että VPN:t eivät voi saavuttaa nimettömyyttä tai estää tietojen keräämistä jättiläisiltä kuten Googlelta tai Facebookilta, vakuutamme, että luotettava VPN kuten meidän voi tehokkaasti salata tietosi ja DNS-pyynnöt, lisätä turvallisuutta luottamattomissa julkisissa verkoissa, peittää IP-osoitteesi sekä kiertää sensuuria tai maantieteellisiä estoja. Olemme luotettava osa yksityisyydensuojastrategiaasi, kunhan luotat meihin enemmän kuin internet-palveluntarjoajaasi.
-contributors:
-  - rabbit-hole

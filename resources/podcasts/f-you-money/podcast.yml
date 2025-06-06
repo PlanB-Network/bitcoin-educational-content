@@ -8,9 +8,10 @@ links:
   website: https://fyoumoneypod.com
 description: |
   O podcast focado em Bitcoin (e, esporadicamente, algumas shitcoins, quando é preciso pôr o dedo na ferida) falado em língua portuguesa.
-  
+
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - market-trends
+  - investment
+  - adoption

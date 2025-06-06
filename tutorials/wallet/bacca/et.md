@@ -140,5 +140,5 @@ Kui leidsid selle õpetuse kasulikuks, oleksin tänulik, kui jätaksid alla rohe
 
 Samuti soovitan vaadata seda GnuPG õpetust, mis selgitab, kuidas kontrollida tarkvara terviklikkust ja autentsust enne selle paigaldamist. See on oluline tava, eriti kui paigaldate portfellihaldustarkvara nagu Liana või Sparrow :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

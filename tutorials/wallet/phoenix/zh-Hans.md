@@ -1,190 +1,182 @@
 ---
-name: Phoenix
-
-description: 设置您的Phoenix钱包
+name: 凤凰城
+description: 安装和使用 Phoenix 钱包
 ---
+![cover](assets/cover.webp)
 
-![phoenix](assets/cover.webp)
+Phoenix 是一个自我托管的闪电钱包和节点，由法国一家专门从事基于闪电的软件解决方案的公司 ACINQ 开发。与中本聪钱包（Wallet of Satoshi）等由第三方托管比特币的闪电钱包不同，Phoenix 使用户能够完全控制自己的私钥。
 
-## 介绍
+Phoenix 作为一个真正的 Lightning 节点嵌入到您的手机中，会自动与 ACINQ 的 Lightning 节点打开通道。该应用基于 Lightning-KMP，这是一种使用 Kotlin 编写的跨平台 Lightning Network 实现，并针对移动钱包进行了优化。与其他 Lightning 节点解决方案不同，Phoenix 大大简化了管理。用户无需管理通道的开启和关闭，不需要运行 Bitcoin 节点，也不必管理 Lightning 网络上的流动性。Phoenix 会在后台处理所有这些技术操作。
 
-Phoenix是由Acinq团队创建的一款非托管式闪电网络钱包，该团队是闪电网络Eclair实现的背后力量。
+该应用程序将移动闪电钱包的易用性和便利性与真正的个人闪电节点的安全性和主权性相结合。Phoenix 使安全、高效、自主地使用闪电网络成为可能，同时还能享受流畅、直观的用户体验。
 
-请记住，Phoenix是一款专注于闪电网络支付的移动应用程序，但同时还支持链上支付，通过集成的交换功能。这意味着任何存入Phoenix的链上资金，都会立即被转换成一个闪电网络通道。
+作为回报，需要支付一定的费用：
 
-同时，如果您想向一个链上地址发送资金，Phoenix将会在内部从您的LN通道交换到链上目的地。请注意，所有这些交换都有成本，因为涉及到链上费用。
 
-在下面的“入门指南”部分，我们将引导您完成设置过程，并进一步解释如何使用Phoenix管理闪电网络流动性。
+- 通过 "闪电 "发送的费用为金额的 0.4% 加 4 个字节；
+- 如果通过 "闪电 "接收需要现金，则收取金额的 1%；
+- 每个通道的开启费用为 1000 萨特。
 
-## 重要资源
-- Phoenix官方网页 - [https://phoenix.acinq.co](https://phoenix.acinq.co)
-- 文档 / 常见问题页面 - [https://phoenix.acinq.co/faq](https://phoenix.acinq.co/faq)
-- [Github页面](https://github.com/ACINQ/phoenix/) | [Github发布页面](https://github.com/ACINQ/phoenix/releases)（直接下载apk）
-- [支持和讨论](https://github.com/ACINQ/phoenix/discussions)
-- [Acinq博客](https://acinq.co/blog) - 公告
+在我看来，Phoenix 是介于托管闪电投资组合和手动管理闪电节点之间的一种出色的中间解决方案。无论是初学者还是不想处理管理自己的LND或核心闪电的细节的高级用户，这款应用程序都同样适合。让我们来了解一下如何使用它！
 
-## 视频教程
+![Image](assets/fr/01.webp)
 
-![Phoenix: 比特币闪电网络钱包教程](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
+## 安装应用程序
 
-## 入门指南
+前往应用程序商店安装 Phoenix .NET Framework：
 
-这里是一个分步指南，介绍如何开始使用Phoenix，设置，进行/接收支付，管理流动性，备份/恢复过程。
 
-### 下载与设置
-您可以从以下位置下载并安装Phoenix：[App Store](https://apps.apple.com/us/app/phoenix-wallet/id1544097028) | [Google Play商店](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet) | [直接下载apk](https://github.com/ACINQ/phoenix/releases)
+- 在 [Google Play 商店](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet)；
+- 在 [App Store](https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB) 上。
 
-按照从欢迎屏幕开始的指示，一步步进行。
+![Image](assets/fr/02.webp)
 
-![](assets/screenshot2.webp)
+您也可以安装应用程序[使用其 GitHub 仓库中的 apk 文件](https://github.com/ACINQ/phoenix/releases)。
 
-您将被告知自动创建闪电网络通道的信息。
-从v2.0版本开始是一个重大升级，带来了“拼接”到Phoenix：
-- 单一动态通道，
-- 不再有1%的入站流动性费用
-- 更好的可预测性和控制
-- 无需信任的交换
+![Image](assets/fr/03.webp)
 
-查看[Phoenix博客文章](https://acinq.co/blog/phoenix-splicing-update)了解更多详情，特别是新的费用模型。
+## 创建投资组合
 
-![](assets/screenshot3.webp)
+应用程序启动后，点击 "*下一步*"按钮跳过演示，然后点击 "*开始*"。
 
-### 流动性快速指南
+![Image](assets/fr/04.webp)
 
-因此，一旦您接收/存入sats到这个钱包，它将自动与ACINQ节点开启通道。通常，通道的大小会略大于您存入的金额。所以每次存款您都会有一个新的通道，除非当您还没有完全耗尽通道并且收到了一个较小的支付，它将被重新填充。
+选择 "*创建新钱包*"。
 
-对于Phoenix闪电网络流动性，我们建议以下场景：
+![Image](assets/fr/05.webp)
 
-随着新版本v0.2.0引入了新的LN功能拼接。这意味着从现在开始，您不必再处理每次收到支付时许多新的小通道了。
+就这样，您的闪电钱包和节点就创建好了。
 
-如果入站流动性不足，Phoenix将增加您初始通道的大小，但这仍然会涉及链上费用。您可以在Phoenix设置中的支付选项和费用中设置该费用。
-因此，我们建议从一个大通道开始使用Phoenix，比如1-3-5M sats。与通道的大小相比，您的提交费用将微不足道，不会对您造成太大影响。此外，与每次存款支付至少3000 sats的费用4-5次（或任何次数您存入小额）相比，您只需支付一次开通通道的费用。
-如果您开始从该通道消费，请不要全部花光，因为Phoenix会关闭它。
+![Image](assets/fr/06.webp)
 
-如果您在通道中留有一些sats，并且从另一个LN钱包/存款来源再次充值，我们有两种情况需要考虑：
-- 如果新的存款金额大于您的通道容量，Phoenix将调整通道大小，并且您将支付额外费用。
-- 如果新的存款金额小于您的通道容量，则不会涉及任何费用。
+## 保存记忆短语
 
-因此，尝试根据您个人的消费需求来设置初始通道容量。在通道的限制内消费和替换不会再产生任何费用，使用这款钱包应用的体验将会很流畅。
+在开始之前，我们需要保存 12 个字的记忆短语。这个短语可以完全、不受限制地访问你所有的比特币。任何拥有这个短语的人都可以盗取你的资金，即使无法实际接触到你的手机。
 
-### 备份
-在接下来的屏幕中，您将被告知Phoenix应用将生成一个种子短语作为您钱包的备份。稍后这些种子词必须保存在一个安全的地方！
+这 12 个字的短语可以在手机丢失、被盗或损坏时恢复对比特币的访问。因此，小心保存并将其存放在安全的地方非常重要。
 
-![](assets/screenshot4.webp)
+您可以将其写在纸上，或者为了提高安全性，将其刻在不锈钢上，以防火灾、水灾或倒塌。选择何种媒介来书写您的助记符取决于您的安全策略，但如果您将凤凰城作为一个包含中等金额的消费组合，纸张就足够了。
 
-接下来的屏幕将指示您是想创建一个新钱包还是从种子短语恢复之前的钱包。
+有关保存和管理记忆短语的正确方法的更多信息，我强烈推荐大家阅读另一篇教程，尤其是初学者：
 
-![](assets/screenshot5.webp)
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-一旦新钱包被创建，您将被提醒应该备份种子短语。点击“备份钱包”按钮。
+点击界面顶部显示的信息 "*保存您的钱包...*"。
 
-![](assets/screenshot6.webp)
+![Image](assets/fr/07.webp)
 
-您将被提醒，这些来自种子的词非常重要且敏感，您应该保持它们的私密性。
+然后点击 "*保存我的钱包*"。
 
-![](assets/screenshot7.webp)
+![Image](assets/fr/08.webp)
 
-这些种子词您必须将它们保存在一个安全的地方，比如密码管理器（[KeePass](https://keepass.info/) 或 [Bitwarden](https://bitwarden.com/)），将这个密码管理器的数据库保存在一个离线的USB加密棒中以确保完全的安全。
+然后点击 "*查看我的密钥*"，将您的记忆短语保存在物理介质上。
 
-![](assets/screenshot8.webp)
+![Image](assets/fr/09.webp)
 
-### 接收支付
+选中界面底部的两个方框，确认备份已成功完成。
 
-在您开始接收之前，请阅读上一章节“流动性快速指南”。
+![Image](assets/fr/10.webp)
 
-现在，您已经准备好在您的Phoenix钱包中接收sats了！
+## 应用程序设置
 
-![](assets/screenshot9.webp)
+在进行首次交易之前，您可以点击界面左下方的齿轮图标来自定义设置。
 
-在Phoenix接收支付，您有以下选项：
-- 使用显示的QR码，代表一个“空”的Lightning发票
-- 编辑Lightning发票（见QR码下方的编辑按钮），您可以添加一定数量的sats，添加显示给付款人的评论
-- 使用/扫描一个LNURL-withdraw QR码
-- 从您的Phoenix钱包生成一个链上比特币地址。请记住，这笔支付将被“转换”成一个新的Lightning通道（如果您还没有开通一个）或调整现有Lightning通道的大小。
+![Image](assets/fr/11.webp)
 
-![](assets/screenshot10.webp)
+在 "*显示*"菜单中，你可以选择应用程序主题、比特币面值和本地法定货币。
 
-显示编辑新Lightning发票并为其生成新QR码的屏幕：
+![Image](assets/fr/12.webp)
 
-![](assets/screenshot11.webp)
+在 "*支付选项*"中，你可以找到闪电支付的各种高级设置。您可以保留默认设置。
 
-这是您可以生成链上BTC地址的屏幕，并被告知向此地址的支付将被“转换”成闪电网络流动性并涉及一些费用。
+![Image](assets/fr/13.webp)
 
-![](assets/screenshot12.webp)
+在 "*通道管理*"中，设置开通 "闪电 "通道时准备支付的最高费用。
 
-一旦支付完成，将显示确认屏幕，全部完成！
+![Image](assets/fr/14.webp)
 
-![](assets/screenshot13.webp)
-您可以为每笔收到的付款添加个人备注。这些备注不会保存在其他任何地方，只会保留在您的设备中。如果您恢复您的Phoenix钱包，这些备注将不会被恢复。这是一个用来跟踪您发送和接收的付款的有用功能。
-![](assets/screenshot14.webp)
+在 "*访问控制*"菜单中，我强烈建议您激活一个身份验证系统，以确保您手机上应用程序的访问安全。这将防止任何可以访问您未上锁手机的人访问 Phoenix 并盗取您的比特币。
 
-### 发送付款
+![Image](assets/fr/15.webp)
 
-发送付款是一个相当简单的过程，只需点击主屏幕上的“发送”按钮
+在 "*Electrum 服务器*"菜单中，如果您有一个 Electrs 服务器，您可以连接它来广播您的交易。
 
-![](assets/screenshot15.webp)
+![Image](assets/fr/16.webp)
 
-系统会提示您允许Phoenix应用访问设备相机，以便能够扫描QR码。
+为提高连接的保密性，请在 "*Tor*"菜单中启用通过 Tor 进行连接。虽然使用 Tor 可能会略微减慢您的支付速度，并且在接收时需要在前台打开 Phoenix 应用程序，但它能显著提高您的隐私保护。
 
-![](assets/screenshot16.webp)
+![Image](assets/fr/17.webp)
 
-在付款屏幕上，您有3个选项：
-- 从接收者的Lightning发票/LNURL中扫描QR码
-- 手动输入（粘贴），Lightning地址输入或LNURL-pay代码
-- 从本地磁盘加载QR图像
+## 在链上接收比特币
 
-![](assets/screenshot17.webp)
+首次使用时，您可以选择将链上资金存入凤凰钱包。您也可以直接从 "闪电"（Lightning）进行首次存款（见下一节），但无论哪种情况，开通第一个通道都需要支付额外费用。
 
-如您在此屏幕上看到的，付款请求已被扫描且详情已自动填写。您只需按“支付”按钮即可。
+点击 "*接收*"按钮。
 
-![](assets/screenshot18.webp)
+![Image](assets/fr/18.webp)
 
-一旦付款发送并确认，将显示一个包含付款简短详情的确认屏幕，包括支付的费用。如果您想查看更多付款详情，请点击“详情”按钮。
+扫一下右边的二维码，就会显示一个比特币接收地址。将您希望存入凤凰城的金额发送给它。
 
-![](assets/screenshot19.webp)
+![Image](assets/fr/19.webp)
 
-在详情屏幕上，您可以看到付款的技术详情，包括：付款哈希和请求、预图像、目的节点和持续时间。有时这些详情对于跟踪付款、调试或与接收者识别特定付款很有用。
+在链上收到的金额将首先显示为您的投资组合余额下的待定金额。资金需要经过 3 次确认后才能使用。
 
-![](assets/screenshot20.webp)
+![Image](assets/fr/20.webp)
 
-### 设置
+收到资金后，Phoenix 会自动为您打开一个闪电通道。现在，您可以通过闪电网络发送和接收比特币了。
 
-在设置菜单中，没有太多事情要做，Phoenix追求简洁。但这里有一个重要方面是管理支付通道和费用的菜单，您可以在这里设置您希望的费用水平。请记住，在内存池高费用环境中，您不应使用非常低的费用，否则您的支付和开通通道将会受阻和/或失败。
+![Image](assets/fr/21.webp)
 
-设置菜单中的其他选项：
-- 显示 - 切换到不同的颜色主题
-- Electrum服务器 - 检查您连接的Electrum服务器的状态或指定一个
-- Tor - 如果您想在Tor网络后面使用Phoenix
-- 应用访问设置 - 为Phoenix设置特定设备服务的权限
-- 恢复短语 - 如果您想检查种子词和/或进行新的备份
-- 通道列表 - 显示您的Lightning通道的状态和可用的流动性（进/出）
-- 日志 - 显示调试日志
-- 关闭所有通道 - 只有在您想要永久关闭您的Phoenix节点并将资金恢复到您的链上地址时才应使用的危险选项。稍后可以使用您的Phoenix种子短语通过Electrum钱包检索该地址。
+## 通过闪电接收比特币
 
-![](assets/screenshot21.webp)
+要通过闪电网络接收卫星，请点击 "*接收*"按钮。
 
-### 重置
+![Image](assets/fr/22.webp)
 
-如果您处于Phoenix应用出现问题的情况（不进行支付、不连接到Electrum服务器、无法接收支付）或您只是想将其移动到另一台设备，您必须确保两个方面：
-- 备份您的种子短语
-- 停止您设备中的应用 - 转到应用详情并强制停止服务
-- 如果您想将其移动到新设备，请从旧设备卸载它
-- 不要在多个设备上运行相同的Phoenix钱包！
+Phoenix 会生成一张 Lightning 发票。您既可以扫描它，也可以将它发送给希望向您转送卫星的人。
 
-![](assets/screenshot22.webp)
+![Image](assets/fr/23.webp)
 
-一旦您重新安装它或在新设备上安装它，点击“恢复”按钮并按照说明操作
+点击 "*编辑*"按钮，您可以在发票上添加付款人可以看到的说明，并定义付款人必须发送的具体金额。
 
-![](assets/screenshot23.webp)
-您不能使用从其他钱包应用生成的其他类型的种子。[在此处查看更多详情](https://walletsrecovery.org/)关于其他钱包类型及其种子和派生路径。并非所有的都兼容！
-![](assets/screenshot24.webp)
+![Image](assets/fr/24.webp)
 
-您必须按照特定顺序，逐一输入之前保存的种子词。输入完12个词后，点击“导入”按钮，完成操作。
+上述传统发票只能使用一次。如果要选择可重复使用的付款方式，您可以使用可重复使用的二维码，这是 BOLT12 的优惠。
 
-![](assets/screenshot25.webp)
+![Image](assets/fr/25.webp)
 
-几刻钟后，您将看到显示的之前的余额。同时，您将收到备份种子的提醒。如果您已经备份，可以直接进入菜单并选择“我已保存备份”。
+发票或 BOLT12 报价结算后，交易将显示在您的闪电钱包上。
 
-![](assets/screenshot26.webp)
+![Image](assets/fr/26.webp)
 
-完成！快乐的闪电网络体验！
+## 通过闪电发送比特币
+
+现在，您已经在凤凰城安装了 sats，可以通过闪电网络进行支付了。首先点击 "*发送*"按钮。
+
+![Image](assets/fr/27.webp)
+
+您可以选择多种方式。点击 "*扫描二维码*"，您可以扫描 Lightning 发票、BOLT12 报盘，甚至是用于链上支付的收货地址。
+
+![Image](assets/fr/28.webp)
+
+您也可以通过键盘在界面顶部的字段中手动输入这些信息，或输入闪电地址（BOLT12 或 LNURL）。也可以使用 "*粘贴*"按钮直接粘贴信息。
+
+![Image](assets/fr/29.webp)
+
+在这个例子中，我扫描了一张 10,000 萨特的发票。要付款，只需点击 "*Pay*"。
+
+![Image](assets/fr/30.webp)
+
+交易完成。
+
+![Image](assets/fr/31.webp)
+
+恭喜您，现在您知道如何配置和使用 Phoenix 了。如果您觉得本教程有用，请在下方留下绿色拇指，我将不胜感激。欢迎在您的社交网络上分享本文。感谢您的分享！
+
+要想更进一步，请查看 Alby Hub 的教程，这是另一种创新且易于使用的解决方案，可用于启动自己的闪电节点：
+
+https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
+要了解有关闪电网络技术操作的更多信息，您可以在 Plan ₿ Network 上找到 Fanis Michalakis 的精彩免费培训：
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -30,22 +30,31 @@ Teie Nakamochi-sõlme hallatakse mobiilirakenduse [BitBanana (Android)](https://
 
 3. Kasutage oma Nakamochiga ühendamiseks sõlme haldamise rakendust (Zeus või BitBanana):
 
+4. Avage rakendus ja skaneerige Nakamochi ekraanil kuvatavat QR-koodi.
 
-   - Avage rakendus ja skaneerige Nakamochi ekraanil kuvatavat QR-koodi.
+5. Lisaturvalisuse tagamiseks määrake oma seadmesse PIN-kood.
 
-4. Lisaturvalisuse tagamiseks määrake oma seadmesse PIN-kood.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+_Connect to power and write down your 24-word seed phrase_
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+_Oota, kuni Blockchain on järele jõudnud_
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+_Uue rahakoti loomine välklambilehel_
 
-_Note: Luba oma Nakamochi sõlme sünkroniseerida plokiahelaga. See protsess võib võtta aega, sõltuvalt teie internetiühendusest._
+![image](assets/en/04.webp)
+
+_Skaneeri QR-kood koos Node Management Appiga_
+
+![image](asset/en/05.webp)
+
+_Seadke lisaturvalisuse tagamiseks PIN-kood_
+
+**Märkus:** _Luba oma Nakamochi sõlme sünkroniseerida plokiahelaga. See protsess võib võtta aega, sõltuvalt teie internetiühendusest._
 
 ## Lightning Networki kohta
 
@@ -77,9 +86,11 @@ Kui teie Nakamochi on seadistatud ja ühendatud sõlme haldamise rakendusega, sa
 
 5. Klõpsake **"Ava kanal "**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-Lisateave: [Channels | Zeus Documentation](https://zeusln.app)
+_ZEUS Screenshot_
+
+Lisateave: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 
 ### Kanalite avamine BitBanana (Android):
 
@@ -93,7 +104,9 @@ Lisateave: [Channels | Zeus Documentation](https://zeusln.app)
 
 5. Sisestage lukustatud summa (valige koos oma kolleegiga või kasutage minimaalset fikseeritud summat tuntud sõlmede puhul).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+_Bitbanana Screenshot_
 
 Lisateave: [BitBanana](https://bitbanana.com)
 
@@ -107,4 +120,4 @@ Kui te ei vaja kanalit enam, võite selle sulgeda. See toiming arveldab teie ja 
 
 
 - [Nakamochist](https://nakamochi.io/)
-- [Tellige meie uudiskiri](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Tellige Nakamochi uudiskiri](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

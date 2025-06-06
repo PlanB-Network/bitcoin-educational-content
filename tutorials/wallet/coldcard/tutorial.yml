@@ -1,17 +1,11 @@
 id: 5d44dd94-423d-4e37-9a8c-3fc38b45ce59
-builder: Coinkite
 
 level: advanced
 
 category: hardware
 
-tags:
-  - self-custodial
-  - Open-source
-
-credits:
-  professor: write-school
-  link: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/
+professor_id: 8260ed86-de30-468b-88bc-6ed4140a24e2
+credit_link: https://agora256.com/creation-dune-cle-privee-bitcoin-avec-un-appareil-coldcard/
 
 # Proofreading metadata
 project_id: 317a3aa2-d9e0-49e2-8bb7-620ea76e4ea1
@@ -20,78 +14,82 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.55
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.33
+    contributor_names:
+    reward: 4.94
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1.66
+    reward: 2.47
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.94
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.55
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.33
+    contributor_names:
+    reward: 4.94
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.94
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.78
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.33
+    contributor_names:
+    reward: 4.94
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.55
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.78
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.55
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.16
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.16
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.55
+tags:
+  - wallets
+  - guides
+  - personal-security

@@ -86,7 +86,7 @@ Estas funciones hash criptográficas tienen varias características esenciales q
 
 #### 1. Irreversibilidad (resistencia a la imagen previa):
 
-La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero el cálculo inverso, es decir, encontrar la entrada a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original. Esta característica se conoce a menudo como una función unidireccional o una "_función de trampa_".
+La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero que el cálculo inverso, es decir, encontrar la entrada a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original.
 
 En el ejemplo dado, obtener el hash `24f1b9…` sabiendo la entrada "_PlanB_" es simple y rápido. Sin embargo, encontrar el mensaje "_PlanB_" solo sabiendo `24f1b9…` es imposible.
 
@@ -2180,13 +2180,13 @@ Para convertir un valor en un carácter _bech32_ usando esta tabla, simplemente 
 Al mapear todos nuestros valores, obtenemos la siguiente dirección:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 Todo lo que queda es añadir el HRP `bc`, que indica que es una dirección para la red principal de Bitcoin, así como el separador `1`, para obtener la dirección de recepción completa:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 La particularidad de este alfabeto _bech32_ es que incluye todos los caracteres alfanuméricos excepto `1`, `b`, `i` y `o` para evitar la confusión visual entre caracteres similares, especialmente durante su entrada o lectura por humanos.

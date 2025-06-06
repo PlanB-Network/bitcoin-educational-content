@@ -1,0 +1,9 @@
+question: Cos'è un gestore di password?
+answer: Uno strumento che memorizza, genera e gestisce le password.
+wrong_answers:
+  - Un software antivirus contro gli attacchi informatici.
+  - Un servizio di posta elettronica sicuro.
+  - Uno strumento di backup dei dati di identità personale.
+explanation: |
+  Il gestore di password centralizza l'archiviazione e la creazione delle password.
+reviewed: false

@@ -85,9 +85,11 @@ También puedes enriquecer tu copia de seguridad con información adicional rela
 Por otro lado, si utilizas una frase de contraseña, asegúrate de no escribirla en el mismo soporte que tu frase mnemotécnica. La finalidad de la frase de contraseña es proteger tu cartera en caso de robo. Para saber más sobre cómo utilizar una frase de contraseña, echa un vistazo a este tutorial complementario:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Una vez que hayas guardado tu frase mnemotécnica en un soporte físico, es muy recomendable que realices una prueba de recuperación mientras tu monedero recién creado aún está vacío. Esta prueba consiste en anotar una información de ejemplo, borrar deliberadamente el monedero vacío y, a continuación, intentar restaurarlo utilizando únicamente la copia de seguridad física de la frase mnemotécnica. Esto le permitirá comprobar que su copia de seguridad está completa y libre de errores de entrada. También le permitirá familiarizarse con el proceso de recuperación. De este modo, si necesitas recuperarla en el futuro, estarás mejor preparado y evitarás el estrés de un primer intento en una situación real. Para saber más sobre cómo realizar esta prueba, consulta este otro tutorial :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 Por último, está la cuestión del número de copias de seguridad. Esta elección depende totalmente de su situación personal. Limitar el número de copias, por ejemplo escribiendo su frase mnemotécnica una sola vez en un soporte, reduce el riesgo de robo, pero aumenta el riesgo de pérdida. A la inversa, hacer varias copias reduce el riesgo de pérdida, pero aumenta el riesgo de robo. Así que depende de ti encontrar el equilibrio adecuado para tus necesidades y determinar el número de copias que consideras más apropiado.
 
 ## Almacenamiento
@@ -117,4 +119,5 @@ Para ir un paso más allá y reforzar aún más tu estrategia de seguridad, te r
 Por eso le invito a realizar el curso de formación gratuito CYP201 ofrecido por Plan ₿ Network. Este curso de formación explica en detalle todo el funcionamiento de los monederos Bitcoin, lo que le permite dominar los aspectos técnicos esenciales para asegurar eficazmente sus fondos :
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar verde a continuación. No dudes en compartir este artículo en tus redes sociales. ¡Muchas gracias!

@@ -174,7 +174,7 @@ Sử dụng Sparrow có ưu điểm là khá dễ bắt đầu, nhanh chóng thi
 ### Cài đặt Sparrow Wallet
 Để bắt đầu, bạn rõ ràng cần phần mềm Sparrow Wallet. Bạn có thể trực tiếp tải xuống từ [trang web chính thức](https://sparrowwallet.com/download/) hoặc trên [GitHub của họ](https://github.com/sparrowwallet/sparrow/releases).
 
-Trước khi cài đặt phần mềm, việc xác minh chữ ký và tính toàn vẹn của tệp thực thi bạn vừa tải xuống sẽ rất quan trọng. Nếu bạn muốn biết thêm chi tiết về quy trình cài đặt và xác minh phần mềm Sparrow, tôi khuyên bạn nên đọc hướng dẫn khác này: *[Hướng dẫn Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
+Trước khi cài đặt phần mềm, việc xác minh chữ ký và tính toàn vẹn của tệp thực thi bạn vừa tải xuống sẽ rất quan trọng. Nếu bạn muốn biết thêm chi tiết về quy trình cài đặt và xác minh phần mềm Sparrow, tôi khuyên bạn nên đọc hướng dẫn khác này: *[Hướng dẫn Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 ### Tạo một Ví Phần mềm
 Sau khi cài đặt phần mềm, bạn sẽ cần tiến hành tạo một ví Bitcoin. Quan trọng cần lưu ý rằng để tham gia vào coinjoins, việc sử dụng một ví phần mềm (còn gọi là "ví nóng") là cần thiết. Do đó, **sẽ không thể thực hiện coinjoins với một ví được bảo mật bởi một ví cứng**.
@@ -343,7 +343,7 @@ Tiếp theo, bạn cần phải cẩn thận trong việc quản lý sự thay �
 Các hướng dẫn chi tiết về việc thực hiện những kỹ thuật khác nhau này sẽ sớm được cung cấp trên PlanB Network.
 
 **Tài Nguyên Bổ Sung:**
-[Hướng dẫn Video Ví Sparrow](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Hướng dẫn Video Ví Sparrow](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 [Hướng dẫn Video Ví Samourai](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Tài liệu Ví Samourai - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Chuỗi Tweet về CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);

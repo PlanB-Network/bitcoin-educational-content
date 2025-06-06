@@ -269,7 +269,7 @@ FUD rundt Bitcoin overdriver ofte bekymringer om dens miljøpåvirkning, krimine
 ## Kjøre Bitcoin
 
 <chapterId>5f638ec9-a6c1-5716-b27f-d837ab896eb1</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ### Installasjon av Bitcoin Core
 
@@ -756,7 +756,7 @@ Avslutningsvis er det avgjørende å kontinuerlig adressere disse åpne probleme
 ## Sikkerhetstenkning i Bitcoin
 
 <chapterId>0b97af0c-015a-54e3-a7f0-0f62ceb96c07</chapterId>
-<professor>because-drama</professor>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 ![Video](https://youtu.be/2f_rK74MB3U)
 
@@ -820,7 +820,7 @@ Konklusjonen er at det å forstå og integrere prinsipper for sikkerhet og påli
 ## Gratis og Åpen Kildekode Programvare (FLOSS) i Bitcoin
 
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
-<professor>because-drama</professor>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 ![Video](https://youtu.be/ln-FYziKqNY)
 
@@ -864,7 +864,7 @@ Avslutningsvis drives økonomien i åpen kildekode-programvare av bidrag fra fel
 ## Kryptografi i Bitcoin
 
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
-<professor>happy-panda</professor>
+<professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
 ![Video](https://youtu.be/QcK-Cl8B9QU)
 
@@ -923,7 +923,7 @@ Ved å mestre disse konseptene og holde seg til beste praksis, vil du være godt
 ## Bitcoins Styremodell
 
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
-<professor>because-drama</professor>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 ![Video](https://youtu.be/g_BcT5YkZUQ)
 
@@ -987,7 +987,7 @@ Konklusjonen er at Bitcoins fremtid og endringer bestemmes av brukernes kollekti
 ## Node Components in Bitcoin
 
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
-<professor>happy-panda</professor>
+<professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
 ![Video](https://youtu.be/hGS8Cuj5Zb4)
 
@@ -1089,7 +1089,7 @@ UTXO-settet representerer den nåværende tilstanden til Bitcoin, og lister alle
 ## Bitcoins Datastrukturer
 
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ![video](https://youtu.be/okvV9hqDOtM)
 
@@ -1376,7 +1376,7 @@ Konklusjonen er at parsing av Bitcoin-blokker og transaksjoner i Rust innebærer
 ## Oversikt over Bitcoin-programvare og Node-implementasjoner
 
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
-<professor>mad-salad</professor>
+<professorId>0b05838c-24af-43ff-93be-896c907e0bc1</professorId>
 
 ![Video](https://youtu.be/xOdz9GEiShM)
 
@@ -1646,7 +1646,7 @@ Ved å forstå disse komponentene, fra Bitcoin-noder og lommebøker til Bitcoin 
 ## Historien om Betalingskanaler
 
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
-<professor>best-lion</professor>
+<professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
 ![Video](https://youtu.be/VtpbCspK5T4)
 
@@ -1685,7 +1685,7 @@ Avslutningsvis gir forståelsen av den historiske konteksten og utfordringene ti
 ## Historien om Atomisk Ruting
 
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
-<professor>best-lion</professor>
+<professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
 ![Video](https://youtu.be/5OUgGHH6jPY)
 I våre tidligere diskusjoner dekket vi grunnleggende om enkle betalingskanaler. Disse kanalene lar to deltakere, la oss si Alice og Bob, utføre transaksjoner direkte med hverandre på en sømløs måte. Men, det er en åpenbar begrensning med denne modellen: Alice kan kun utføre transaksjoner med Bob og ikke med andre deltakere som Charlie, med mindre hun etablerer separate kanaler med hver av dem. Dette behovet for flere kanaler fører til ineffektivitet og skalérbarhetsproblemer, ettersom det ville være upraktisk for Alice å åpne en direkte kanal med alle hun trenger å utføre transaksjoner med.
@@ -1743,7 +1743,6 @@ Oppsummert sikrer korrekt noddrift atomiske betalinger, og Lightning Network sik
 ## BOLT Gjennomgang
 
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
-<professor>another-satoshi</professor>
 
 ![Video](https://youtu.be/1aIuKBkPlkg)
 
@@ -1867,7 +1866,6 @@ Avslutningsvis er det avgjørende for alle som ønsker å dykke ned i detaljene 
 ## Viktige LN Klienter
 
 <chapterId>a2ad8db4-aea2-5231-927c-616c53db31bf</chapterId>
-<professor>another-satoshi</professor>
 
 ![Video](https://youtu.be/a0Q_5dzpqKw)
 
@@ -2001,7 +1999,6 @@ Avslutningsvis er det avgjørende å forstå de ulike aspektene ved Lightning Ne
 ## Praktiske Utfordringer med LN
 
 <chapterId>014c7c40-aef7-58ac-b51f-33784463f482</chapterId>
-<professor>another-satoshi</professor>
 
 **(videoen vil være tilgjengelig snart)**
 
@@ -2113,7 +2110,7 @@ Ved å adressere disse utfordringene, vil Lightning Network fortsette å modnes,
 ## LN Fremtidig Evolusjon
 
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
-<professor>best-lion</professor>
+<professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
 ![Video](https://youtu.be/VXMON_nD650)
 
@@ -2168,7 +2165,7 @@ Ved å forstå og sette pris på disse utviklingene, kan vi anerkjenne det mange
 ## Protokoller på toppen av LN
 
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ![Video](https://youtu.be/KqBfPaXqU2U)
 
@@ -2248,7 +2245,7 @@ Utvidelsen og integrasjonen av Lightning-betalinger gjennom ulike protokoller og
 ## Essensielt om Bitcoin Mining
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-<professor>diamond-jar</professor>
+<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 ![Video](https://youtu.be/W3Ra0cdG02I)
 
@@ -2359,7 +2356,7 @@ Avslutningsvis er verdenen av Bitcoin-mining et komplekst, flerfasett domene som
 ## Forståelse av Joinmarket
 
 <chapterId>f109f64f-9b73-5fbf-8870-5d34d5b69df8</chapterId>
-<professor>happy-panda</professor>
+<professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
 ![Video](https://youtu.be/VFjccozVwc8)
 

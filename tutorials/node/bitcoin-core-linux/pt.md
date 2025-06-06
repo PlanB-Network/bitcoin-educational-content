@@ -1,5 +1,5 @@
 ---
-name: Noeud Bitcoin Core (linux)
+name: Bitcoin Core (Linux)
 description: Executando seu próprio nó com Bitcoin Core
 ---
 
@@ -129,3 +129,4 @@ Para verificar os logs do seu nó Bitcoin em relação à sua interação com o 
 > - Guia de configuração do Tor por Jon Atack
 
 Como sempre, se você tiver alguma dúvida, não hesite em compartilhá-la com a comunidade Agora256, estamos aprendendo juntos para sermos melhores amanhã do que somos hoje!
+

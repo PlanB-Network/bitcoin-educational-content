@@ -22,7 +22,7 @@ Nakamochiはビットコインとライトニングネットワークの両方�
 
 ## 中餅のセットアップはわずか5分
 
-### ステップ1: プラグインして始める
+### ステップ1：プラグインして始める
 
 1.中餅を電源とWi-Fiに接続する。
 
@@ -30,22 +30,31 @@ Nakamochiはビットコインとライトニングネットワークの両方�
 
 3.ノード管理アプリ（ZeusまたはBitBanana）を使用して、中餅に接続します：
 
+4.アプリを起動し、中餅に表示されたQRコードを読み取ってください。
 
-   - アプリを起動し、中餅に表示されたQRコードを読み取ってください。
+5.セキュリティ強化のため、デバイスにPINコードを設定してください。
 
-4.セキュリティ強化のため、デバイスにPINコードを設定してください。
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+電源に接続し、24語のシードフレーズを書き留める。
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+ブロックチェーンが追いつくまで待ってくれ
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+ライトニング・タブに新しい財布を設定する
 
-注意：中持ノードがブロックチェーンと同期するようにしてください。このプロセスはインターネット接続によって時間がかかる場合があります。
+![image](assets/en/04.webp)
+
+ノード管理アプリでQRコードをスキャンする
+
+![image](asset/en/05.webp)
+
+PINコードを設定してください。
+
+**注意:** _Nakamochiノードがブロックチェーンと同期できるようにしてください。このプロセスはインターネット接続によって時間がかかる場合があります。
 
 ## ライトニング・ネットワークについて
 
@@ -57,7 +66,7 @@ Lightning上の取引はブロックチェーンに直接記録されるので�
 
 #### 支払いチャネルの説明
 
-ライトニング・ネットワークは、ブロックチェーンと直接やり取りすることなく複数の取引を可能にする2者間の接続である決済チャネルを通じて運営されている。チャネルが開かれると、2者間の残高は取引のたびにこの第2層のLightningソリューション上で更新され、高速で低コストの支払いが保証される。チャネルのオープンとクローズのみがオンチェーンで記録されるため、ビットコインのブロックチェーン上の混雑が緩和される。この設計により、個々の取引は公開台帳に記録されないため、スケーラビリティとプライバシーが確保される。
+ライトニング・ネットワークは、ブロックチェーンと直接やり取りすることなく複数の取引を可能にする2者間の接続である決済チャネルを通じて運営されている。チャネルが開かれると、2者間の残高は取引のたびにこの第2層のLightningソリューション上で更新され、高速で低コストの支払いが保証される。チャネルのオープンとクローズのみがオンチェーンで記録され、ビットコイン・ブロックチェーンの混雑が緩和される。この設計により、個々の取引は公開台帳に記録されないため、スケーラビリティとプライバシーが確保される。
 
 **例:** アリスとボブはビットコインをコミットすることでチャンネルを開く。AliceがBobにBitcoinを送ると、彼らのオフチェーンの残高はオンチェーンの記録なしに即座に更新される。AliceがCharlieに支払い、AliceがCharlieに直接チャネルを持っていない場合、支払いはBobのチャネルを経由してCharlieに届く。仲介ノードを経由することで、直接接続がなくても確実に支払いが行われ、ネットワークが非常に効率的になる。
 
@@ -77,9 +86,11 @@ Lightning上の取引はブロックチェーンに直接記録されるので�
 
 5.チャンネルを開く」をクリックする。
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-詳しくは[チャンネル | Zeus ドキュメント](https://zeusln.app)
+ZEUSのスクリーンショット
+
+詳しくは[チャンネル | Zeus ドキュメント](https://docs.zeusln.app/)
 
 ### BitBanana (Android)でチャンネルを開く：
 
@@ -93,7 +104,9 @@ Lightning上の取引はブロックチェーンに直接記録されるので�
 
 5.ロックされた金額を入力します（ピアと一緒に選択するか、よく知られているノードの最小固定金額を使用します）。
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+ビットバナナのスクリーンショット
 
 詳細はこちら：[ビットバナナ](https://bitbanana.com)
 
@@ -107,4 +120,4 @@ Lightning上の取引はブロックチェーンに直接記録されるので�
 
 
 - [中持について](https://nakamochi.io/)
-- [ニュースレターの購読](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [中持メルマガ登録】(https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

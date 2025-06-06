@@ -1,0 +1,22 @@
+name: Ejara
+
+address_line_1: Douala, Cameroon
+address_line_2:
+address_line_3: 
+
+language:
+  - fr
+  - en
+
+links:
+  website: https://ejara.io/
+  twitter: https://x.com/EjaraApp
+  Github:
+  youtube:
+  nostr:
+
+tags:
+  - bitcoin
+  - investment
+
+category: exchange

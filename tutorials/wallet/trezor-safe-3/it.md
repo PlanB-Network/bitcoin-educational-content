@@ -205,7 +205,7 @@ Su Trezor Suite, fai clic sul pulsante "*Create new wallet*".
 
 
 
-Per un wallet standard, si può optare per il tipo di backup predefinito. In questo modo creai un wallet classico a sigla singola con una frase Mnemonica di 12 parole. Fai clic su "*Create wallet*".
+Per un wallet standard, si può optare per il tipo di backup predefinito. In questo modo crei un wallet classico a sigla singola con una frase Mnemonica di 12 parole. Fai clic su "*Create wallet*".
 
 
 

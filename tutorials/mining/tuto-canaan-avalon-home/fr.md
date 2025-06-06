@@ -17,7 +17,7 @@ Les satoshis générés par l'activité de mining ne compenseront jamais cet éc
 
 Selon moi il faut d'avantage voir ces appareils comme une manière simple de miner à la maison pour ceux qui le désire pour des raison personnelles: *obtenir des sats non KYC / pour jouer à la "loterie" en solominant / participer à la décentralisation du hashrate etc..*., tout en bénéficiant **en bonus** de la chaleur générée pour chauffer sa pièce en hiver. Pas comme un moyen de faire des économies dans la plupart des cas du moins (pays occidentaux).
 
-## Unboxing du Avalon Nano 3S
+## Caractéristiques et Unboxing du Avalon Nano 3S
 
 Dans un 1er temps voyons voir ce qui se cache à l'intérieur de la boite du Avalon Nano 3S.
 
@@ -30,17 +30,44 @@ Une fois la boite ouverte on y trouve une pochette cartonnée contenant un dongl
 
 ![image](assets/fr/04.webp)
 
-Au final une fois tout sorti du packaging voilà ce qu'on a sous la main: la machine elle-même bien sur, le manuel d'utilisation, le dongle wifi, la pointe metélique évoquée plus haut, et l'alimentation électrique de l'appareil.
+Au final une fois tout sorti du packaging voilà ce qu'on a sous la main: la machine elle-même bien sur, le manuel d'utilisation, le dongle wifi, la pointe métallique évoquée plus haut, et l'alimentation électrique de l'appareil. La carte bleue fournie n'est pas digne d'intérêt selon nous.
 
 ![image](assets/fr/05.webp)
 
+Ci-dessous un tableau récapitulatif des caractéristiques générales du Nano 3S.
 
-## Mise sous tension et connexion au réseau local
+| Caractéristique                                      | Valeur                                           |
+| ---------------------------------------------------- | ------------------------------------------------ |
+| Taux de hachage                                      | 6 Th/s +- 5%                                     |
+| Consommation d'énergie                               | 140 W                                            |
+| Bruit                                                | 30 - 40 dB                                       |
+| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)         |
+| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                     |
+| Plage d'entrée de l'appareil                         | 28V 5A continu                                   |
+| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                              |
+| Taille de la machine                                 | 205 mm de long, 115 mm de large, 58.5 mm de haut |
+| Poids de la machine                                  | 0.86 kg                                          |
+
+
+
+## Caractéristiques et Unboxing du Avalon Mini 3
+
+![image](assets/fr/24.webp)
+
+En ouvrant la boite le mode d'emploit est directement présenté à votre vue, mais plus important le module de réception WIFI est dissimulé sous l'autocollant blanc et rond situé à gauche du mode d'emploi. Vous en aurez besoin par la suite.
+
+![image](assets/fr/25.webp)
+
+En dessous du block de mousse se trouve l'appareil, puis une fois retiré de la boite, le block d'alimentation.
+![image](assets/fr/26.webp)
+
+![image](assets/fr/27.webp)
+## Mise sous tension et connexion au réseau local du Avalon Nano 3 S
 
 Une fois déballé, placer votre Avalon Mini 3 si possible à un endroit relativement dégagé pour permettre une bonne circulation de la chaleur. Ensuite commencez par insérer le petit module de réception Wifi comme montré ci-dessous:
 
 ![image](assets/fr/06.webp)
-Ensuite branché la fiche USB-C de l'alimentation dans le port USB-C de l'appareil pour l'alimenter électriquement
+Ensuite branchez la fiche USB-C de l'alimentation dans le port USB-C de l'appareil pour l'alimenter électriquement
 
 ![image](assets/fr/07.webp)
 ![image](assets/fr/08.webp)
@@ -66,7 +93,22 @@ On y voit un hashrate "fictif" car aucune poo; n'a encore été configurée, l'h
 
 ![image](assets/fr/15.webp)
 
+
+## Mise sous tension et connexion au réseau local du Avalon Mini 3
+
+De manière très similaire à ce qui vient d'être fait pour le Avalon Nano 3S, insérer le module de réception WIFI dans le port USB situé en dessous de l'appareil, branchez l'alimentation électrique et veillez à ce que le bouton de mise sous tension soit bien en position "1"
+
+![image](assets/fr/28.webp)
+
+Une fois ces étapes réalisé, l'écran LED de l'appareil s'allume et affiche le symbole 'bluetooth, signe qu'il est près à être connecté à votre réseau local grace à l'application Avalon Family.
+
+![image](assets/fr/29.webp)
+![image](assets/fr/30.webp)
+
+Procédez ensuite exactement de la même manière que celle décrite pour le cas du Avalon Nano 3S pour connecter votre Mini 3 au réseau local en utilisant l'application Avalon Family. Une fois cela fait, votre Mini 3 fera défiler sur son écran défilant les informations telles que son adresse IP, l'heure, le hashrate et la puissance électrique.
 ## Connexion  à une pool de minage
+
+**Cette partie est commune aux appareils Nano 3s et Mini 3, car les procédés sont strictement identiques**
 
 Que l'on veuille "solominer" ou bien miner "en pool" il va nous falloir nous connecter à une pool de minage. En effet notre appareil n'est qu'un vulgaire "hasheur" qui n'a aucune conscience du réseau Bitcoin. Le connecter à une pool lui permet d'avoir accès au réseau bitcoin via un noeud, et de recevoir des "template de blocks" sur lesquels travailler.
 
@@ -75,7 +117,7 @@ Que l'on veuille "solominer" ou bien miner "en pool" il va nous falloir nous con
 Sur l'application Avalon Family sélectionner l'appareil comme indiqué ci-dessous. Il vous sera alors automatiquement demandé de changer le mot de passe administrateur de la machine, cliquez sur "OK" si vous souhaitez le faire, ou sur cancel pour laisser le mot de passe d'accès par défaut "admin"
 ![image](assets/fr/16.webp)
 Ensuite sélectionnez "Settings", puis "Pool Config" et entrez les paramètres des 3 pools demandés.
-Ces pools servirons de backup dans le cas ou les services de l'une d'elle venaient à faire défaut, pour éviter que votre mineur de travaille pour rien
+Ces pools servirons de backup dans le cas ou les services de l'une d'elle venaient à faire défaut, pour éviter que votre mineur de travaille pour rien. Par défaut le hasrate sera pointé vers la pool #1
 
 Dans notre cas nous choisissons #1  Public Pool ([Plan ₿ Network - Public Pool](https://planb.network/fr/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1)) #2 CkPool et en choix numéro 3# Ocean ([Plan ₿ Network - Ocean Mining](https://planb.network/fr/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c))
 
@@ -84,14 +126,63 @@ Pour plus de détails sur la manière de se connecter à une pool de minage, veu
 
 En synthèse il nous faut:
 
-- l'adresse de la pool choisie généralement **stratum+tcp://xxxxxxxx: port**.
+- l'adresse de la pool choisie généralement **stratum+tcp://xxxxxxxx:port**.
 
-- le nom du "worker" composé de votre adresse bitcoin et du pseudo que vous choisissez pour votre appareil, les 2 étant séparés par un point: **bc1qxxxxxxxxxxx.MonAvalonNano3S**, par exemple
+- le nom du "worker" composé de *votre adresse bitcoin* et du *pseudo* que vous choisissez pour votre appareil, les 2 étant séparés par un *point*, par exemple:**bc1qxxxxxxxxxxxxxxx.MonAvalonNano3S**
 
 - la mot de passe qui est généralement toujours "**x**"
 
-Une fois les informations de pool renseignées, cliquez sur "Save"
+Une fois les informations de pool renseignées, cliquez sur "Save".
 
 ![image](assets/fr/18.webp)
 Redémarrez l'appareil comme demandé, et patientez quelques minutes que votre hashrate soit pointé vers votre pool de prédilection (#1)
 ### Utilisation du navigateur pour se connecter à une pool de minage
+
+Vous pouvez également réalisé ces opérations de connexion à une pool de minage et plus généralement, accéder à l'interface de gestion de votre appareil via votre navigateur préféré (ici Microsoft Edge) .
+
+Pour ce faire entrez l'adresse IP de l'appareil que l'ont peut voir sur l'écran de l'appareil en bas, ici dans notre exemple **192.168.144.6**
+
+![image](assets/fr/15.webp)
+
+S'affichera alors la page suivante, vous demandant d'ouvrir l'application Avalon Family et de scanner le QR code affiché avec l'application.
+
+![image](assets/fr/20.webp)
+
+Ouvrez donc l'application, et cliquez sur les 3 tirets en haut à droite, puis sur scan. Scannez le QR code du navigateur  puis tapez le mot de passe de l'application et cliquez sur OK 
+
+![image](assets/fr/21.webp)
+
+Vous voilà sur la page web vous permettant d'interagir avec votre Avalon. Il s'agit davantage d'un tableau de bord destiné à afficher les métriques de la machine, que d'un moyen de la paramétrer. 
+
+Mais les réglages de pool sont accessibles néanmoins de cette façon en cliquant sur **"Pool Config"** en bas à droite
+
+![image](assets/fr/22.webp)
+
+De la même manière qu'avec l'application mobile vous pouvez renseigner ici vos paramètres de pools.
+
+![image](assets/fr/23.webp)
+
+## Contrôler son appareil via l'application Avalon Family
+
+Nous avons désormais connecté nos 2 home miner à notre réseau local, puis pointé notre hashrate vers des pool de mining. Allons maintenant découvrir les fonctionnalités essentielles de nos machines à travers l'application  Avalon Family.
+
+### Avalon Nano 3S
+
+Dans l'application Avalon family cliquez sur l'icone correspondant au Avalon Nano 3S. 3 menus vous sont ensuite proposés "Work Mode", "Light control", et "Settings". Cliquer tout d'abord sur "Work Mode". Vous seront alors proposés 3 mode de puissances pour votre machine.
+
+**Low** : vous apporte environ 3 Th/s de hashrate pour 70W de consommation électrique
+**Medium**: vous apporte envrion 4.5 Th/s de hashrate pour 100W de consommation électrique
+**High**: vous apportera environ 6 Th/s de hashrate à la consommation maximale de 140W
+
+![image](assets/fr/31.webp)
+Revenons un cran en arrière pour explorer le menu "Light Control".
+Il s'agit ici purement de cosmétique. Tout en tas d'options sont proposées pour faire varier la couleur, l'intensité, la chaleur, éteindre la lumière pendant la nuit etc... Vous découvrirez tout cela par vous même très facilement.
+
+![image](assets/fr/32.webp)
+![image](assets/fr/33.webp)
+![image](assets/fr/34.webp)
+
+Enfin le dernier menu mis à notre disposition est le menu "Settings" que nous avons déjà aperçu pour se connecter à nos pool de minage. Il peremt donc de gérer ses pools, de changer le mot de passer d'accès administrateur de l'appareil, et d'observer différente métriques tel que la date de fin de garantie, la propreté du filtre, ou la manière de contacter le support en cas de défaillance.
+
+![image](assets/fr/35.webp)
+Pour l'entretien et afin d'essayer de garder un filtre aussi propre possible il est recommander d'utiliser un aspirateur et d'aspirer régulièrement au niveau des entrées et sortie d'air afin d'éviter l'encrassement.

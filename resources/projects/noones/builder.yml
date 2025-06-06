@@ -1,0 +1,23 @@
+name: Noones
+
+address_line_1: Panama City, Panama
+address_line_2:
+address_line_3: 
+
+language:
+  - fr
+  - en
+
+links:
+  website: https://noones.com/
+  twitter: https://x.com/noonesapp
+  Github:
+  youtube: https://www.youtube.com/@NoonesGlobal
+  nostr:
+
+tags:
+  - bitcoin
+  - exchange
+  - p2p
+
+category: exchange

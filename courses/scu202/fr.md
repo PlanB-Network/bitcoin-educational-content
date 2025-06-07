@@ -3259,11 +3259,11 @@ Dans ce chapitre, nous allons explorer progressivement les concepts de base des 
 
 L’histoire d’Internet remonte à la fin des années 1960, dans un contexte de recherche scientifique et militaire. Le projet initial, baptisé "ARPANET", fut lancé par l’agence américaine ARPA (devenue la DARPA) pour interconnecter plusieurs centres de recherche et permettre le partage de ressources.
 
-191
+![Image](assets/fr/191.webp)
 
 L’objectif était également de concevoir un réseau résilient, capable de continuer à fonctionner même si une partie de ses nœuds était détruite (une nécessité en pleine Guerre froide). ARPANET a permis de réaliser les premières communications entre ordinateurs distants en 1969.
 
-192
+![Image](assets/fr/192.webp)
 
 Au fil des décennies, le projet s’est élargi, notamment grâce à la standardisation des protocoles TCP/IP en 1983, qui sont devenus le socle technique commun de l’ensemble d'Internet. Dans les années 1990, l’apparition du *World Wide Web*, dont nous avons déjà parlé dans un chapitre précédant, a rendu Internet accessible au grand public en simplifiant l’accès aux documents via les navigateurs. Ce tournant majeur a transformé Internet en un outil de communication et d’information universel.
 
@@ -3283,7 +3283,7 @@ Concrètement, lorsque vous consultez un site web, par exemple en tapant une adr
 
 Ces données empruntent alors un chemin complexe. Elles transitent d’abord par votre routeur et votre modem domestiques, puis rejoignent l’infrastructure de votre fournisseur d’accès à Internet. De là, elles traversent potentiellement plusieurs réseaux intermédiaires (parfois des câbles transocéaniques, des routeurs de transit, des points d’échange Internet...) avant d’atteindre leur destination : le serveur du site que vous souhaitez consulter. Celui-ci renvoie à son tour les données (le contenu du site) en suivant un chemin inverse.
 
-193
+![Image](assets/fr/193.webp)
 
 On peut donc résumer Internet comme un immense réseau décentralisé, qui repose sur des règles communes, où chaque appareil peut potentiellement dialoguer avec un autre, où qu’il soit dans le monde. Mais cette ouverture, si elle permet les échanges numériques, nécessite aussi d’adopter une posture de vigilance : chaque action en ligne passe par des infrastructures que vous ne contrôlez pas, et la confidentialité de vos échanges dépend de la manière dont vous configurez et utilisez ces outils.
 
@@ -3317,7 +3317,7 @@ Le réseau local, ou "LAN" (*Local Area Network*), désigne l’ensemble des con
 
 Contrairement à Internet, qui est un réseau mondial et public, le réseau local est un espace privé, en partie isolé, conçu pour permettre aux appareils de communiquer entre eux, sans que leurs échanges ne quittent votre domicile. Par exemple, lorsque vous envoyez un fichier depuis votre ordinateur vers une imprimante connectée en Wi-Fi, ou que vous contrôlez une ampoule connectée via votre téléphone, ces communications se font exclusivement en local, sans transiter par un serveur distant.
 
-194
+![Image](assets/fr/194.webp)
 
 Ce fonctionnement repose sur un ensemble de technologies et de protocoles standards, parmi lesquels le plus important est le protocole IP. Chaque appareil de votre réseau local se voit attribuer une adresse IP locale (généralement au format `192.168.x.x`), qui sert à l’identifier de façon unique au sein de ce réseau. Cette adresse n’est pas visible depuis Internet. Seule votre adresse IP publique, partagée par tous les appareils via le modem, est exposée en dehors de votre domicile.
 
@@ -3334,7 +3334,7 @@ Le Wi-Fi (abréviation de "*Wireless Fidelity*") est une technologie de communic
 
 Mais cette facilité d’utilisation s’accompagne de risques spécifiques. Contrairement aux connexions filaires (comme Ethernet), les signaux Wi-Fi traversent les murs et peuvent être captés à plusieurs dizaines de mètres à la ronde. Cela signifie que des personnes situées à l’extérieur de votre domicile (dans la rue, dans un immeuble voisin, voire depuis un véhicule stationné à proximité) peuvent tenter de détecter votre réseau et de s’y connecter si celui-ci n’est pas correctement sécurisé.
 
-195
+![Image](assets/fr/195.webp)
 
 Un attaquant ayant accès à votre réseau Wi-Fi pourrait alors :
 - intercepter les données non chiffrées transitant sur le réseau (par exemple, des requêtes DNS ou du trafic HTTP) ;

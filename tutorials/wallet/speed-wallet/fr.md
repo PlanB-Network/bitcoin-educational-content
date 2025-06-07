@@ -6,6 +6,9 @@ description: Payez et échangez en bitcoins et en USDT instantanément
 
 Il existe assez de solutions de nos jours pour aider les bitcoiners à acquérir, stocker et échanger leur bitcoins. Aujourd'hui, nous partons à la découverte de Speed Wallet, un portefeuille Bitcoin et Lightning vous permettant d'effectuer des opérations aisément.
 
+
+![btc-session](https://www.youtube.com/watch?v=ywUNZ_sxr0Q)
+
 ## Qu'est ce que c'est Speed Wallet ?
 
 Pour les nouveaux bitcoiners, le choix du portefeuille qui sera utilisé pour vous permettre de stocker et échanger vos bitcoins est crucial et peut affecter la sécurité de vos avoirs.

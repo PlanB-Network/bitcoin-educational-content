@@ -115,7 +115,7 @@ Vajutage nupule "*Vastuvõtmine*".
 
 ![Image](assets/fr/18.webp)
 
-Bitcoini vastuvõtu aadressi avamiseks pühkige QR-koodi paremale. Saatke sellele summa, mida soovite Phoenixi abil hoiustada.
+Libistage QR-koodi vasakule, et näha Bitcoini vastuvõtuaadressi. Saatke sellele aadressile summa, mida soovite Phoenixisse hoiustada.
 
 ![Image](assets/fr/19.webp)
 

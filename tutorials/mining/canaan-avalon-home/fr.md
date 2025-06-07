@@ -21,7 +21,7 @@ Selon moi il faut davantage voir ces appareils comme une manière simple de mine
 
 ### Avalon Nano 3S
 
-Dans un 1er temps voyons voir ce qui se cache à l'intérieur de la boite du Avalon Nano 3S.
+Dans un 1er temps voyons voir ce qu'il se cache à l'intérieur de la boite du Avalon Nano 3S.
 
 ![image](assets/fr/01.webp)
 ![image](assets/fr/02.webp)
@@ -84,10 +84,10 @@ L'appareil va démarrer et le logo Avalon Nano s'affichera sur l'écran, suivi d
 Pour ce faire, rendez vous dans votre store d'application mobile, recherchez puis téléchargez l'application **Avalon Family**.
 
 ![image](assets/fr/11.webp)
-Une fois installée ouvrez-la, cliquez sur "Skip" en haut à droite, puis sur le bouton "Add" et enfin sur "Search". Veillez à avoir le Bluetooth activé sur votre smartphone, afin que la détection de l'appareil' se fasse sans problème.
+Une fois installée ouvrez-la, cliquez sur "Skip" en haut à droite, puis sur le bouton "Add" et enfin sur "Search". Veillez à avoir le Bluetooth activé sur votre smartphone, afin que la détection de l'appareil se fasse sans problème.
 
 ![image](assets/fr/12.webp)
-Une fois l'appareil détecté par l'application cliquez sur celui-ci, et choisissez "Connect". Vous arrivez enfin sur l'écran vous permettant de rentrer vos identifiants de connexion WIFI
+Une fois l'appareil détecté par l'application cliquez sur celui-ci, et choisissez "Connect". Vous arrivez enfin sur l'écran vous permettant de rentrer vos identifiants de connexion WIFI.
 ![image](assets/fr/13.webp)
 Une fois l'appareil connecté à votre réseau local, l'écran de celui-ci ressemblera désormais à ça:
 
@@ -137,10 +137,18 @@ Sur l'application Avalon Family sélectionner l'appareil comme indiqué ci-desso
 Ensuite sélectionnez "Settings", puis "Pool Config" et entrez les paramètres pour les 3 pools demandées.
 Les pools #2 et #3 serviront de backup dans le cas où les services de l'une d'elle venaient à faire défaut, pour éviter que votre mineur ne travaille pour rien. Par défaut le hashrate sera pointé vers la pool #1
 
-Dans notre cas nous choisissons:  #1  Public Pool ([Plan ₿ Network - Public Pool](https://planb.network/fr/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1)),  #2 CkPool et en choix numéro 3# Ocean ([Plan ₿ Network - Ocean Mining](https://planb.network/fr/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c))
+Dans notre cas nous choisissons:
+- 1 - Public Pool,
+- 2 - CkPool,
+- 3 - Ocean.
 
 ![image](assets/fr/17.webp)
-Pour plus de détails sur la manière de se connecter à une pool de minage, veuillez vous référer aux tutoriels indiqués ci-dessus.
+
+Pour plus de détails sur la manière de se connecter à une pool de minage, veuillez vous référer à ces tutoriels :
+
+https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+
+https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 En synthèse il nous faut:
 
@@ -153,10 +161,11 @@ En synthèse il nous faut:
 Une fois les informations de pool renseignées, cliquez sur "Save".
 
 ![image](assets/fr/18.webp)
-Redémarrez l'appareil comme demandé, et patientez quelques minutes que votre hashrate soit pointé vers votre pool de prédilection (#1)
+Redémarrez l'appareil comme demandé, et patientez quelques minutes que votre hashrate soit pointé vers votre pool de prédilection (#1).
+
 ### Utilisation du navigateur pour se connecter à une pool de minage
 
-Vous pouvez également réaliser ces opérations de connexion à une pool de minage et plus généralement, accéder à l'interface de gestion de votre appareil via votre navigateur préféré (ici Microsoft Edge) .
+Vous pouvez également réaliser ces opérations de connexion à une pool de minage et plus généralement, accéder à l'interface de gestion de votre appareil via votre navigateur préféré.
 
 Pour ce faire, tapez dans la barre de recherche du navigateur l'adresse IP de l'appareil que l'on peut voir sur l'écran en bas, ici dans notre exemple **192.168.144.6**
 
@@ -166,13 +175,13 @@ S'affichera alors la page suivante, vous demandant d'ouvrir l'application Avalon
 
 ![image](assets/fr/20.webp)
 
-Ouvrez donc l'application, et cliquez sur les 3 tirets en haut à droite, puis sur scan. Scannez le QR code du navigateur puis tapez le mot de passe administrateur de l'application et cliquez sur OK 
+Ouvrez donc l'application, et cliquez sur les 3 tirets en haut à droite, puis sur scan. Scannez le QR code du navigateur puis tapez le mot de passe administrateur de l'application et cliquez sur OK.
 
 ![image](assets/fr/21.webp)
 
 Vous voilà sur la page web vous permettant d'interagir avec votre Avalon. Il s'agit davantage d'un tableau de bord destiné à afficher les métriques de la machine, que d'un moyen de la paramétrer. 
 
-Mais les réglages de pool sont accessibles néanmoins de cette façon en cliquant sur **"Pool Config"** en bas à droite
+Mais les réglages de pool sont accessibles néanmoins de cette façon en cliquant sur **"Pool Config"** en bas à droite.
 
 ![image](assets/fr/22.webp)
 
@@ -194,8 +203,7 @@ Dans l'application Avalon family cliquez sur l'icone correspondant au Avalon Nan
 **High**: vous apportera environ 6 Th/s de hashrate à la consommation maximale de 140W
 
 ![image](assets/fr/31.webp)
-Revenons un cran en arrière pour explorer le menu "Light Control".
-Il s'agit ici purement de cosmétique. Tout en tas d'options sont proposées pour faire varier la couleur, l'intensité, la chaleur, ou éteindre les leds de l'appareil pendant la nuit etc... Vous découvrirez tout cela par vous-même très facilement.
+Revenons un cran en arrière pour explorer le menu "Light Control". Il s'agit ici purement de cosmétique. Tout un tas d'options sont proposées pour faire varier la couleur, l'intensité, la chaleur, ou éteindre les leds de l'appareil pendant la nuit etc... Vous découvrirez tout cela par vous-même très facilement.
 
 ![image](assets/fr/32.webp)
 ![image](assets/fr/33.webp)
@@ -219,7 +227,7 @@ Sélectionnez cette fois l'appareil Mini 3 dans le menu principal de l'applicati
   Le niveau "Super" quant à lui, correspond à une puissance de sortie de 650 W pour environ  30Th/s et 45 dB. Ce mode permet de régler une température ambiante maximale au-delà de laquelle l'appareil cessera de fonctionner.
 
 ![image](assets/fr/36.webp)
-- En mode "Mining", l'appareil fonctionne au régime maximal, sans possibilité de régler de température cible (en dehors de la limite intégrée à l'appareil en cas de surchauffe bien évidemment). Il s'agit de tirer parti au maximum des performances du miner. Ici la puissance de sortie approche les 800 W pour environ 37.5 Th/s et 50-55 dB de niveau sonore.
+- En mode "Mining", l'appareil fonctionne au régime maximal, sans possibilité de régler une température cible (en dehors de la limite intégrée à l'appareil en cas de surchauffe bien évidemment). Il s'agit de tirer parti au maximum des performances du miner. Ici la puissance de sortie approche les 800 W pour environ 37.5 Th/s et 50-55 dB de niveau sonore.
 
 ![image](assets/fr/37.webp)
 Enfin en mode "Night", votre Mini 3 fonctionne à son régime minimal avec un minimum de bruit. 400 W,  20 Th/s et 33 dB environ.

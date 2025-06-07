@@ -3241,63 +3241,160 @@ ___
 
 
 
-
-
-
-
-
-
 # Sécuriser son réseau local
 <partId>23e49e48-34c9-435c-a36f-1c86b0254275</partId>
 
 ## Mieux comprendre son réseau domestique
 <chapterId>8a7577e0-4a27-4331-a6d9-7a4c838fa720</chapterId>
 
-Notions générales : Internet, box, Wi-Fi, réseau local.  
-Routeur, IP locale, ports.
+La sécurité numérique commence souvent par une bonne maîtrise du réseau domestique. Votre réseau à domicile constitue le premier point d’entrée d’internet vers votre environnement personnel, et c'est bien internet qui représente la plus grosse menace à la fois pour votre sécurité et votre confidentialité.
 
+Comprendre comment fonctionne votre réseau local, comment transitent vos données et quels appareils assurent la gestion de ces flux est très important pour votre souveraineté numérique.
 
+Dans ce chapitre, nous allons explorer progressivement les concepts de base des réseaux domestiques, en partant de l'explication de ce qu'est Internet jusqu’à des détails concrets comme l’attribution des adresses IP locales et le rôle du routeur. L’objectif est de revenir sur les bases théoriques indispensables à la bonne compréhension du chapitre suivant, qui abordera des aspects plus pratiques.
 
+### Internet
 
+#### Brève histoire d'Internet
 
+L’histoire d’Internet remonte à la fin des années 1960, dans un contexte de recherche scientifique et militaire. Le projet initial, baptisé "ARPANET", fut lancé par l’agence américaine ARPA (devenue la DARPA) pour interconnecter plusieurs centres de recherche et permettre le partage de ressources.
 
+191
 
+L’objectif était également de concevoir un réseau résilient, capable de continuer à fonctionner même si une partie de ses nœuds était détruite (une nécessité en pleine Guerre froide). ARPANET a permis de réaliser les premières communications entre ordinateurs distants en 1969.
 
+192
 
+Au fil des décennies, le projet s’est élargi, notamment grâce à la standardisation des protocoles TCP/IP en 1983, qui sont devenus le socle technique commun de l’ensemble d'Internet. Dans les années 1990, l’apparition du *World Wide Web*, dont nous avons déjà parlé dans un chapitre précédant, a rendu Internet accessible au grand public en simplifiant l’accès aux documents via les navigateurs. Ce tournant majeur a transformé Internet en un outil de communication et d’information universel.
 
+#### C'est quoi Internet ?
 
+Internet, qui signifie littéralement "réseau interconnecté", est une infrastructure mondiale qui permet à des milliards d’appareils de communiquer entre eux. Il ne s’agit pas d’un service unique ni d’un lieu précis, mais plutôt d’un ensemble de réseaux informatiques publics et privés, interconnectés à l’échelle planétaire. Chaque acteur (particulier, entreprise, administration...) peut connecter son propre réseau au reste du monde, à condition de respecter certains protocoles techniques normalisés, qui permettent aux appareils de se comprendre.
 
+L’infrastructure d’Internet repose principalement sur deux protocoles :
+- **IP** (*Internet Protocol*) qui identifie chaque équipement connecté et achemine les paquets de données ;
+- **TCP** (*Transmission Control Protocol*) qui segmente le flux, assure le contrôle d’erreurs et remet les segments dans l’ordre.
 
-## Sécuriser son Wi-Fi en quelques étapes
+→ Pour les usages en temps réel où la fiabilité est moins importante que la latence (VoIP, DNS, streaming...), un autre protocole de transport est souvent utilisé à la place de TCP : UDP (*User Datagram Protocol*).
+
+Ces deux protocoles fonctionnent ensemble pour que les messages envoyés d’un point à un autre arrivent complets et dans le bon ordre.
+
+Concrètement, lorsque vous consultez un site web, par exemple en tapant une adresse dans votre navigateur, plusieurs opérations se déclenchent en arrière-plan. Tout d’abord, votre ordinateur ou votre smartphone doit convertir l’adresse lisible (comme par exemple `planb.network`) en une adresse IP, grâce à un service appelé DNS (*Domain Name System*). Une fois l’adresse IP du serveur web obtenue, les données peuvent être envoyées à destination.
+
+Ces données empruntent alors un chemin complexe. Elles transitent d’abord par votre routeur et votre modem domestiques, puis rejoignent l’infrastructure de votre fournisseur d’accès à Internet. De là, elles traversent potentiellement plusieurs réseaux intermédiaires (parfois des câbles transocéaniques, des routeurs de transit, des points d’échange Internet...) avant d’atteindre leur destination : le serveur du site que vous souhaitez consulter. Celui-ci renvoie à son tour les données (le contenu du site) en suivant un chemin inverse.
+
+193
+
+On peut donc résumer Internet comme un immense réseau décentralisé, qui repose sur des règles communes, où chaque appareil peut potentiellement dialoguer avec un autre, où qu’il soit dans le monde. Mais cette ouverture, si elle permet les échanges numériques, nécessite aussi d’adopter une posture de vigilance : chaque action en ligne passe par des infrastructures que vous ne contrôlez pas, et la confidentialité de vos échanges dépend de la manière dont vous configurez et utilisez ces outils.
+
+### Le rôle du modem et du routeur
+
+Dans la majorité des foyers modernes, l'accès à Internet passe par un appareil central qui joue le rôle de modem et de routeur. Le nom de cet appareil varie en fonction des pays (en France, on appelle ça une "Box Internet"). C'est grâce à cet appareil multifonction fourni par l'ISP que l'on peut se connecter au reste du réseau Internet.
+
+→ *ISP = Fournisseur d'accès à internet.*
+
+Cet appareil regroupe donc 2 fonctions principales :
+
+- **Le rôle de modem**
+
+Le modem (abréviation de "*modulator-demodulator*") est la composante chargée de faire la liaison entre le réseau de votre ISP et votre domicile. Il adapte les signaux électriques ou optiques reçus (via la fibre optique, le câble coaxial, l’ADSL ou le réseau mobile) en signaux numériques compréhensibles par vos appareils. À l’inverse, il convertit les données issues de vos équipements en un format transmissible sur l’infrastructure de l’opérateur. Cette étape est indispensable pour que votre réseau domestique puisse communiquer avec Internet.
+
+- **Le rôle de routeur**
+
+Le routeur est le cœur de votre réseau local. C’est lui qui répartit la connexion Internet entre tous vos appareils : ordinateurs, smartphones, objets connectés, imprimantes... Il attribue à chacun d’eux une adresse IP locale (distincte de votre IP publique visible sur Internet). Le routeur organise ensuite le trafic entrant et sortant en s’assurant que les données atteignent bien le bon appareil. Il peut aussi intégrer un pare-feu, filtrer les paquets réseau, ou encore gérer des règles de redirection de ports. Le NAT masque votre réseau local aux yeux d’Internet, en utilisant une adresse IP publique unique pour représenter tous vos appareils. Seul le routeur sait quel appareil local a initié telle ou telle requête.
+
+Dans certains pays, ces deux fonctions restent parfois réparties entre deux appareils distincts : un modem et un routeur.
+
+En pratique, un modem-routeur moderne embarque souvent d'autres fonctions complémentaires : un point d’accès Wi-Fi, un switch Ethernet, une interface d’administration, voire parfois un serveur de fichiers et d'autres fonctionnalités.
+
+Comprendre le rôle du modem-routeur est très important pour sécuriser son réseau local. Cet appareil constitue en quelque sorte la frontière entre le monde extérieur (Internet) et votre environnement numérique privé. Une mauvaise configuration, un mot de passe faible, ou un firmware obsolète peuvent transformer cette porte d’entrée en faille béante. À l’inverse, un modem-routeur bien configuré devient un rempart contre les intrusions.
+
+Dans le prochain chapitre, nous verrons comment optimiser cette configuration, identifier les points faibles fréquents, et reprendre le contrôle de cet appareil.
+
+### Le réseau local (LAN)
+
+Le réseau local, ou "LAN" (*Local Area Network*), désigne l’ensemble des connexions numériques internes à votre domicile. Il inclut tous les appareils connectés à votre routeur : ordinateurs, smartphones, tablettes, imprimantes...
+
+Contrairement à Internet, qui est un réseau mondial et public, le réseau local est un espace privé, en partie isolé, conçu pour permettre aux appareils de communiquer entre eux, sans que leurs échanges ne quittent votre domicile. Par exemple, lorsque vous envoyez un fichier depuis votre ordinateur vers une imprimante connectée en Wi-Fi, ou que vous contrôlez une ampoule connectée via votre téléphone, ces communications se font exclusivement en local, sans transiter par un serveur distant.
+
+194
+
+Ce fonctionnement repose sur un ensemble de technologies et de protocoles standards, parmi lesquels le plus important est le protocole IP. Chaque appareil de votre réseau local se voit attribuer une adresse IP locale (généralement au format `192.168.x.x`), qui sert à l’identifier de façon unique au sein de ce réseau. Cette adresse n’est pas visible depuis Internet. Seule votre adresse IP publique, partagée par tous les appareils via le modem, est exposée en dehors de votre domicile.
+
+Mais cette isolation apparente ne doit pas vous donner un faux sentiment de sécurité. Un réseau local mal configuré peut devenir une porte d’entrée pour des attaques, notamment dans les cas suivants :
+- Si des services ouverts (comme des partages de fichiers ou des interfaces d'administration) sont accessibles depuis Internet ;
+- Si le Wi-Fi n’est pas sécurisé (mot de passe faible ou système de chiffrement obsolète) ;
+- Si certains objets connectés communiquent en clair avec l’extérieur ou laissent des ports ouverts.
+
+Il est donc important de comprendre les flux internes de votre réseau et de maîtriser quels appareils peuvent interagir, à la fois entre eux et avec l’extérieur.
+
+### Le Wi-Fi
+
+Le Wi-Fi (abréviation de "*Wireless Fidelity*") est une technologie de communication sans fil permettant de connecter vos appareils à votre réseau local, sans qu’ils aient besoin d’être reliés par un câble. Cette technologie repose sur la transmission de données via des ondes radio, généralement sur les bandes de fréquence 2,4 GHz et 5 GHz (voire 6 GHz pour les réseaux Wi-Fi 6E et Wi-Fi 7).
+
+Mais cette facilité d’utilisation s’accompagne de risques spécifiques. Contrairement aux connexions filaires (comme Ethernet), les signaux Wi-Fi traversent les murs et peuvent être captés à plusieurs dizaines de mètres à la ronde. Cela signifie que des personnes situées à l’extérieur de votre domicile (dans la rue, dans un immeuble voisin, voire depuis un véhicule stationné à proximité) peuvent tenter de détecter votre réseau et de s’y connecter si celui-ci n’est pas correctement sécurisé.
+
+195
+
+Un attaquant ayant accès à votre réseau Wi-Fi pourrait alors :
+- intercepter les données non chiffrées transitant sur le réseau (par exemple, des requêtes DNS ou du trafic HTTP) ;
+- accéder à vos fichiers ou appareils s’ils sont mal protégés ;
+- injecter du contenu malveillant dans votre navigation ;
+- utiliser votre connexion Internet à votre insu, voire mener des attaques en ligne à partir de votre adresse IP publique.
+
+Pour vous prémunir contre ces menaces, il est impératif de sécuriser votre réseau Wi-Fi. Nous verrons comment le faire dans les prochains chapitres.
+
+### Les adresses IP locales
+
+Lorsque vous connectez un appareil à votre réseau domestique, il reçoit une adresse IP locale. Cette adresse est composée de quatre nombres séparés par des points (par exemple `192.168.1.14`). Elle sert à identifier de manière unique chaque appareil au sein de votre réseau local. C’est grâce à cette adresse que votre routeur sait à quel appareil envoyer les données (par exemple, une page web ou une vidéo que vous avez demandée).
+
+Il est important de comprendre que ces adresses IP locales ne sont pas visibles depuis Internet. Elles appartiennent à des plages réservées, définies par les standards internationaux, qui ne peuvent pas être utilisées sur le réseau public. Les trois plages d’adresses IP locales les plus courantes sont :
+- `192.168.0.0` à `192.168.255.255` (généralement pour les particuliers)
+- `10.0.0.0` à `10.255.255.255` (généralement pour les entreprises)
+- `172.16.0.0` à `172.31.255.255`
+
+Un même appareil peut donc avoir une adresse IP comme `192.168.1.42` chez vous, tandis qu’un autre utilisateur, dans un autre pays, aura un autre appareil avec la même adresse IP sur son propre réseau local, sans qu’il y ait jamais de conflit, car ces adresses ne sortent pas du réseau domestique. C’est le routeur qui assure la liaison entre votre réseau domestique et le réseau public d’Internet en traduisant ces adresses via un mécanisme appelé "NAT" (*Network Address Translation*).
+
+L’attribution des adresses IP locales se fait généralement de manière dynamique à l’aide du protocole DHCP (*Dynamic Host Configuration Protocol*). Lorsque vous connectez un nouvel appareil au réseau, ce dernier envoie une requête DHCP pour demander une adresse, et le routeur lui attribue une adresse libre disponible dans la plage définie. Cette adresse peut éventuellement varier dans le temps.
+
+Il est toutefois possible de configurer des adresses IP fixes pour certains appareils. Cela consiste à réserver une adresse précise pour un appareil donné, de manière permanente. C’est utile dans plusieurs cas, par exemple :
+- Pour accéder facilement à un serveur personnel ou à un NAS depuis un autre appareil ;
+- Pour imprimer à distance sur une imprimante réseau sans avoir à rechercher son adresse ;
+- Pour créer des règles de filtrage ou de redirection de port dans votre routeur.
+
+### Les ports réseau
+
+Pour bien comprendre le fonctionnement d’un réseau local, il faut savoir que chaque adresse IP (qu’elle soit locale ou publique) est associée à une série de ports numériques, numérotés de `0` à `65535`. Ces ports ne sont pas physiques : ce sont des points d’entrée ou de sortie virtuels qui permettent aux applications et services de dialoguer à travers le réseau.
+
+Chaque fois qu’un appareil communique via Internet ou un réseau local, il le fait en combinant une adresse IP et un numéro de port. Cela permet d’identifier non seulement à quel appareil envoyer les données, mais aussi à quelle application ou service spécifique sur cet appareil. Par exemple :
+
+- Le port `80` est utilisé pour accéder à des pages web en HTTP ;
+- Le port `443` est utilisé pour accéder à des pages web en HTTPS (connexion chiffrée) ;
+- Le port `22` est utilisé pour les connexions SSH ;
+- Les ports `25`, `465` et `587` servent à l’envoi d’e-mails (SMTP) ;
+- Le port `110` est utilisé pour la récupération des e-mails via le protocole POP3 ;
+- Le port `143` est utilisé pour la récupération des e-mails via le protocole IMAP ;
+- Le port `21` est utilisé pour les transferts de fichiers via le protocole FTP ;
+- Le port `53` est utilisé pour les requêtes DNS...
+
+On retrouve également l’utilisation de ces ports dans des systèmes comme Bitcoin ou Tor, où certains ports spécifiques sont utilisés par défaut pour assurer les communications entre les pairs ou le routage du trafic :
+
+- Le port `8333` est utilisé pour les connexions P2P sur Bitcoin mainnet ;
+- Le port `18333` est utilisé pour les connexions P2P sur Bitcoin testnet ;
+- Le port `8332` est utilisé pour l’interface RPC d’un nœud Bitcoin ;
+- Le port `9050` est utilisé par le proxy SOCKS5 de Tor ;
+- Le port `9150` est utilisé par le navigateur Tor (Tor Browser)...
+
+En d’autres termes, un port est comme une porte dédiée à un usage particulier. Lorsque vous visitez un site web, votre ordinateur ouvre un port source et envoie une requête à l’adresse IP du site distant, en ciblant le port `443` s’il s’agit d’une connexion chiffrée. Le serveur distant renvoie ensuite la réponse via ce même canal. Sur un routeur, cette notion de port est importante : il doit savoir à quel appareil et à quel port local rediriger les paquets de données entrants.
+
+Mais cette capacité d’ouverture de port introduit aussi un risque de sécurité. Un port laissé ouvert inutilement peut être détecté par des outils de scan réseau et exploité par des attaquants s’il est associé à un service vulnérable ou mal configuré. Cela revient à laisser une porte ouverte. Mais nous y reviendrons plus tard.
+
+Comprendre le fonctionnement de base de votre réseau domestique est donc très important. Une bonne maîtrise des bases de votre modem, du Wi-Fi, des routeurs, des adresses IP locales et des ports vous permet d’identifier des risques potentiels et d’agir en conséquence pour renforcer votre sécurité numérique.
+
+Dans ce premier chapitre, nous avons vu les concepts importants du réseau domestique. Dans le prochain chapitre, nous allons étudier comment sécuriser concrètement votre infrastructure internet locale et configurer correctement votre Wi-Fi pour optimiser votre sécurité.
+
+## Sécuriser son réseau domestique en quelques étapes
 <chapterId>d5577b2e-5247-4d10-8685-4906391e2cc1</chapterId>
-
-Changer les mots de passe et leur importance.  
-Choix du chiffrement.  
-Options à désactiver.
-
-
-
-
-
-
-
-
-
-
-## Les bonnes pratiques sur son réseau domestique
-<chapterId>175e0051-f506-486b-9b47-697b1f8b4ca2</chapterId>
-
-Mise à jour du firmware.  
-Surveillance des appareils connectés (outils, logiciels, tutoriels).  
-Réseau invité isolé.  
-Pratiques avancées (routeur libre, VLAN, VPN au niveau du routeur — à confirmer selon les cas d’usage).
-
-
-
-
-
-
-
 
 
 

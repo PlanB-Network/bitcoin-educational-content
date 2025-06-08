@@ -1,0 +1,8 @@
+question: Über welches Thema hat Condorcet nicht geschrieben?
+answer: Die Banken
+wrong_answers:
+  - Freiheit des Getreidehandels
+  - Hausarbeiten
+  - Sklaverei
+explanation: |
+  Condorcet schrieb über die Freiheit des Getreidehandels, die Corvée und die Sklaverei, aber er schrieb nicht über die Banken.

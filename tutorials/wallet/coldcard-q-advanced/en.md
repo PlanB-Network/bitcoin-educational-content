@@ -4,6 +4,8 @@ description: Using COLDCARD Q's advanced options
 ---
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/6L2hhT0J27s)
+
 In a previous tutorial, we covered the initial configuration of the COLDCARD Q and its basic functions for beginners. If you've just received your COLDCARD Q and haven't set it up yet, I recommend you start with that tutorial before continuing here:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

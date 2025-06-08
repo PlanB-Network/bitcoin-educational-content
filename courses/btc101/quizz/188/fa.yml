@@ -1,0 +1,8 @@
+question: BTCMap چیست؟
+answer: پلتفرمی که تمام فروشندگانی را که Bitcoin را می‌پذیرند، فهرست می‌کند.
+wrong_answers:
+  - نقشه‌ای از تمام معادن Bitcoin در جهان.
+  - نقشه‌ای از تمام صرافی‌های Bitcoin در جهان.
+  - نقشه‌ای از تمام کاربران Bitcoin در جهان.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: ابزار پذیرش Bitcoin برای سازمان‌های بزرگ یا علاقه‌مندان پرشور به Bitcoin چیست؟
+answer: سرور BTCpay.
+wrong_answers:
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  سرور BTCpay ابزاری برای پذیرش Bitcoin برای ساختارهای بزرگ یا بیت‌کوینرهای مشتاق است. راه‌حل‌های دیگر شامل OpenNode برای کسب‌وکارهای آنلاین ساده و Swiss Bitcoin Pay برای بازرگانان آماتور می‌باشد.
+reviewed: true

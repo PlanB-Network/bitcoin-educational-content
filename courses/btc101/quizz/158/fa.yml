@@ -1,0 +1,8 @@
+question: هدف از Proof of Work در شبکه Bitcoin چیست؟
+answer: Proof of Work صحت اطلاعات را بدون اعتماد به شخص ثالث تضمین می‌کند.
+wrong_answers:
+  - Proof of Work برای ایجاد بیت‌کوین‌های جدید با اعتماد به یک شخص ثالث استفاده می‌شود.
+  - Proof of Work برای تأیید تراکنش‌های Bitcoin با اعتماد به یک شخص ثالث استفاده می‌شود.
+  - Proof of Work برای تغییر پروتکل Bitcoin بدون اعتماد به شخص ثالث استفاده می‌شود.
+explanation: >-
+reviewed: true

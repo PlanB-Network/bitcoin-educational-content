@@ -1,0 +1,9 @@
+question: کدام الگوریتم کلید رمزنگاری Exchange در قلب عملیات BIP47 قرار دارد؟
+answer: ECDH
+wrong_answers:
+  - RSA
+  - الگمال
+  - دیفی-هلمن
+explanation: |
+  الگوریتم استفاده شده ECDH (Elliptic Curve Diffie-Hellman) است. این یک نوع از الگوریتم کلاسیک دیفی-هلمن است که از منحنی‌های بیضوی استفاده می‌کند.
+reviewed: false

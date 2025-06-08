@@ -1,0 +1,8 @@
+question: Ide apa yang disebut sebagai sofisme Montaigne?
+answer: Exchange adalah permainan zero-sum
+wrong_answers:
+  - Exchange adalah permainan penjumlahan positif
+  - Tergantung pada waktu dan tempat, Exchange terkadang merupakan permainan zero-sum, terkadang permainan positive-sum
+  - Exchange selalu tidak menguntungkan pihak yang lebih lemah
+explanation: |
+  Kekeliruan Montaigne adalah gagasan bahwa Exchange adalah permainan zero-sum, yaitu apa yang diperoleh seseorang, maka yang lain akan kalah. Gagasan ini salah, karena Exchange yang bersifat sukarela saling menguntungkan.

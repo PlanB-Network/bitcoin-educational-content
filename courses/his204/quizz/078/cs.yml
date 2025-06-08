@@ -1,0 +1,8 @@
+question: Jaký je Turgotův argument v knize Valeurs et monnaie?
+answer: Hodnota věcí závisí na subjektivním hodnocení lidí
+wrong_answers:
+  - Hodnota věcí závisí na jejich vnitřních vlastnostech
+  - Hodnotu věcí můžeme měřit pouze penězi
+  - Hodnota je určena prací
+explanation: |
+  Turgot hájí subjektivní teorii hodnoty, podle níž hodnota zboží závisí na užitku, který poskytuje jednotlivci, a na jeho osobním ocenění.

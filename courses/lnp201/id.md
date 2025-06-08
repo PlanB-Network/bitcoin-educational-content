@@ -968,7 +968,7 @@ Tujuan dari pelatihan ini adalah untuk memberikan Anda pemahaman yang komprehens
 
 Dalam bab awal, kita membahas bagaimana dua pihak, dengan membuka saluran pembayaran, dapat melakukan transaksi di luar blockchain Bitcoin. Berikut adalah langkah-langkah yang dibahas:
 
-- **Pembukaan Saluran**: Pembuatan saluran dilakukan melalui transaksi Bitcoin yang mengunci dana dalam alamat multisignature 2/2. Deposit ini mewakili saluran Lightning di blockchain.
+- **Pembukaan Saluran**: Pembuatan saluran dilakukan melalui transaksi Bitcoin yang mengunci dana dalam 2/2 multi-signature address (alamat multi-tanda tangan 2/2). Deposit ini mewakili saluran Lightning di blockchain.
 
 ![LNP201](assets/en/76.webp) 
 2. **Transaksi dalam Saluran**: Di saluran ini, kemudian dimungkinkan untuk melakukan banyak transaksi tanpa harus mempublikasikannya di blockchain. Setiap transaksi Lightning menciptakan keadaan baru dari saluran tersebut yang tercermin dalam transaksi komitmen.

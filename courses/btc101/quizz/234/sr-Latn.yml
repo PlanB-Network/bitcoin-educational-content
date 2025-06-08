@@ -1,8 +1,8 @@
-question: Koja je jedna od potencijalnih primena Lightning Network u svakodnevnom životu?
+question: Koja je jedna od potencijalnih primena Lightning mreže u svakodnevnom životu?
 answer: Instant naplata u trgovini.
 wrong_answers:
-  - Mining novi Bitcoini.
+  - Rudarenje novih Bitkoina.
   - Kreiranje novih kriptovaluta.
-  - Povećanje vrednosti Bitcoin.
+  - Povećanje vrednosti Bitkoina.
 explanation: >-
 reviewed: true

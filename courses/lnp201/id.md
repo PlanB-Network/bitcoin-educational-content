@@ -883,7 +883,7 @@ Untuk menyederhanakan, dalam protokol ini, pengirim yang menghasilkan rahasia ya
 - Faktur dikodekan dalam **bech32**, dengan pemisah `1` untuk memudahkan penyalinan dan bagian data yang berisi semua informasi yang diperlukan untuk memproses pembayaran.
 - Proses pembayaran lainnya berada di Lightning, terutama **LNURL-Withdraw** untuk memudahkan penarikan, dan **Keysend** untuk transfer langsung tanpa invoice.
 
-Di bab berikutnya, kita akan melihat bagaimana operator node dapat mengelola likuiditas di saluran mereka, agar tidak pernah terblokir dan selalu dapat mengirim dan menerima pembayaran di Lightning Network (Jaringan Lightning).
+Di bab berikutnya, kita akan melihat bagaimana operator node dapat mengelola likuiditas di saluran mereka, agar tidak pernah diblokir dan selalu dapat mengirim dan menerima pembayaran di Lightning Network   (Jaringan Lightning).
 
 ## Mengelola Likuiditas Anda
 
@@ -891,38 +891,38 @@ Di bab berikutnya, kita akan melihat bagaimana operator node dapat mengelola lik
 :::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
 
 
-Dalam bab ini, kita akan menjelajahi strategi untuk mengelola likuiditas secara efektif di Jaringan Lightning. Pengelolaan likuiditas bervariasi tergantung pada jenis pengguna dan konteks. Kita akan melihat prinsip utama dan teknik yang ada untuk lebih memahami cara mengoptimalkan pengelolaan ini.
+Dalam bab ini, kita akan membahas strategi untuk mengelola likuiditas secara efektif di Lightning Network (Jaringan Lightning). Pengelolaan likuiditas ada bermacam-macam tergantung pada jenis pengguna dan konteks. Kita akan melihat prinsip utama dan teknik yang ada untuk lebih memahami cara mengoptimalkan pengelolaan ini.
 
 ### Kebutuhan Likuiditas
 
 Ada tiga profil pengguna utama di Lightning, masing-masing dengan kebutuhan likuiditas spesifik:
 
-- **Pembayar**: Ini adalah orang yang melakukan pembayaran. Mereka membutuhkan likuiditas keluar untuk dapat mentransfer dana ke pengguna lain. Sebagai contoh, ini bisa jadi seorang konsumen.
-- **Penjual (atau Penerima Pembayaran)**: Ini adalah orang yang menerima pembayaran. Mereka membutuhkan likuiditas masuk untuk dapat menerima pembayaran ke node mereka. Sebagai contoh, ini bisa jadi sebuah bisnis atau toko online.
-- **Router**: Sebuah node perantara, sering kali spesialisasi dalam merutekan pembayaran, yang harus mengoptimalkan likuiditasnya di setiap saluran untuk merutekan sebanyak mungkin pembayaran dan mendapatkan biaya.
+- **Pembayar**: Ini adalah orang yang melakukan pembayaran. Mereka membutuhkan outgoing liquidity (likuiditas keluar) untuk dapat mentransfer dana ke pengguna lain. Sebagai contoh, ini bisa jadi seorang konsumen.
+- **Penjual (atau Penerima Pembayaran)**: Ini adalah orang yang menerima pembayaran. Mereka membutuhkan incoming liquidity (likuiditas masuk) untuk dapat menerima pembayaran ke node mereka. Sebagai contoh, ini bisa jadi sebuah bisnis atau toko online.
+- **Router**: Sebuah node perantara, sering kali dikhususkan dalam merutekan pembayaran, yang harus mengoptimalkan likuiditas di setiap saluran untuk merutekan sebanyak mungkin pembayaran dan mendapatkan biaya.
 
-Profil-profil ini jelas tidak tetap; seorang pengguna dapat beralih antara pembayar dan penerima pembayaran tergantung pada transaksi. Sebagai contoh, Bob bisa menerima gajinya di Lightning dari majikannya, menempatkannya dalam posisi "penjual" yang memerlukan likuiditas masuk. Selanjutnya, jika dia ingin menggunakan gajinya untuk membeli makanan, dia menjadi "pembayar" dan harus memiliki likuiditas keluar.
+Profil setiap pengguna tidak bersifat permanen; seorang pengguna dapat beralih antara pembayar dan penerima pembayaran tergantung pada transaksi. Sebagai contoh, Bob bisa menerima gajinya di Lightning dari pemberi kerjanya, menempatkannya dalam posisi "penjual" yang memerlukan likuiditas masuk. Selanjutnya, jika dia ingin menggunakan gajinya untuk membeli makanan, dia menjadi "pembayar" dan harus memiliki likuiditas keluar.
 
 Untuk lebih memahami, mari kita ambil contoh jaringan sederhana yang terdiri dari tiga node: pembeli (Alice), router (Suzie), dan penjual (Bob).
 
 ![LNP201](assets/en/71.webp)
 
-Bayangkan bahwa pembeli ingin mengirim 30.000 satoshi ke penjual dan pembayaran tersebut melewati node router. Setiap pihak kemudian harus memiliki jumlah likuiditas minimum dalam arah pembayaran:
+Bayangkan bahwa pembeli ingin mengirim 30.000 satoshi ke penjual dan pembayaran tersebut melewati node perantara. Setiap pihak kemudian harus memiliki jumlah likuiditas minimum dalam arah pembayaran:
 
-- Pembayar harus memiliki setidaknya 30.000 satoshi di sisi mereka dari saluran dengan router.
+- Pembayar harus memiliki setidaknya 30.000 satoshi di sisi mereka dari saluran dengan perantara.
 - Penjual harus memiliki saluran di mana 30.000 satoshi berada di sisi berlawanan untuk dapat menerimanya.
-- Router harus memiliki 30.000 satoshi di sisi pembayar dalam saluran mereka, dan juga 30.000 satoshi di sisi mereka dalam saluran dengan penjual, untuk dapat merutekan pembayaran.
+- Perantara harus memiliki 30.000 satoshi di sisi pembayar dalam saluran mereka, dan juga 30.000 satoshi di sisi mereka dalam saluran dengan penjual, untuk dapat merutekan/ mengirimkan pembayaran.
 
 ![LNP201](assets/en/72.webp)
 
 ### Strategi Manajemen Likuiditas
 
-Pembayar harus memastikan untuk memelihara likuiditas yang cukup di sisi saluran mereka untuk menjamin likuiditas keluar. Ini terbukti relatif sederhana, karena cukup dengan membuka saluran Lightning baru untuk memiliki likuiditas ini. Memang, dana awal yang terkunci dalam multisig on-chain sepenuhnya berada di sisi pembayar dalam saluran Lightning pada awalnya. Kapasitas pembayaran dengan demikian dijamin selama saluran dibuka dengan dana yang cukup. Ketika likuiditas keluar habis, cukup dengan membuka saluran baru.
-Di sisi lain, untuk penjual, tugasnya lebih kompleks. Untuk dapat menerima pembayaran, mereka harus memiliki likuiditas di sisi berlawanan dari saluran mereka. Oleh karena itu, membuka saluran saja tidak cukup: mereka juga harus melakukan pembayaran dalam saluran ini untuk memindahkan likuiditas ke sisi lain sebelum mereka dapat menerima pembayaran sendiri. Untuk beberapa profil pengguna Lightning, seperti pedagang, ada ketidakseimbangan yang jelas antara apa yang dikirim node mereka dan apa yang diterima, karena tujuan bisnis terutama adalah untuk mengumpulkan lebih banyak daripada yang dibelanjakan, untuk menghasilkan keuntungan. Untungnya, bagi pengguna ini dengan kebutuhan likuiditas masuk spesifik, beberapa solusi ada:
+Pembayar harus memastikan untuk memelihara likuiditas yang cukup di sisi saluran mereka untuk menjamin likuiditas keluar. Ini cukup sederhana, karena hanya dengan membuka saluran Lightning baru untuk memiliki likuiditas ini. Memang, dana awal yang terkunci dalam multisig on-chain sepenuhnya berada di sisi pembayar dalam saluran Lightning pada awalnya. Kapasitas pembayaran dengan demikian dijamin selama saluran dibuka dengan dana yang cukup. Ketika likuiditas keluar habis, cukup dengan membuka saluran baru.
+Di sisi lain, untuk penjual, tugasnya lebih kompleks. Untuk dapat menerima pembayaran, mereka harus memiliki likuiditas di sisi berlawanan dari saluran mereka. Oleh karena itu, membuka saluran saja tidak cukup: mereka juga harus melakukan pembayaran dalam saluran ini untuk memindahkan likuiditas ke sisi lain sebelum mereka dapat menerima pembayaran sendiri. Untuk beberapa profil pengguna Lightning, seperti pedagang, ada ketidakseimbangan yang jelas antara apa yang dikirim node mereka dan apa yang diterima, karena tujuan bisnis terutama adalah untuk mengumpulkan lebih banyak daripada yang dibelanjakan, untuk menghasilkan keuntungan. Untungnya, bagi pengguna ini dengan kebutuhan likuiditas masuk spesifik, ada beberapa solusi:
 
-- **Menarik saluran**: Pedagang mendapat keuntungan dari keuntungan karena volume pembayaran masuk yang diharapkan pada node mereka. Dengan mempertimbangkan hal ini, mereka dapat mencoba menarik node router yang mencari pendapatan dari biaya transaksi dan yang mungkin membuka saluran ke arah mereka, berharap untuk merutekan pembayaran mereka dan mengumpulkan biaya terkait.
-- **Pergerakan Likuiditas**: Penjual juga dapat membuka sebuah saluran dan mentransfer sebagian dana ke sisi yang berlawanan dengan membuat pembayaran fiktif ke node lain, yang akan mengembalikan uang tersebut dengan cara lain. Kita akan melihat di bagian selanjutnya bagaimana melaksanakan operasi ini.
-- **Pembukaan Segitiga**: Platform tersedia bagi node yang ingin membuka saluran secara kolaboratif, memungkinkan masing-masing untuk mendapatkan keuntungan dari likuiditas masuk dan keluar secara langsung. Sebagai contoh, [LightningNetwork+](https://lightningnetwork.plus/) menawarkan layanan ini. Jika Alice, Bob, dan Suzie ingin membuka saluran dengan 100.000 sats, mereka dapat sepakat di platform ini agar Alice membuka saluran ke arah Bob, Bob ke arah Suzie, dan Suzie ke arah Alice. Dengan cara ini, masing-masing memiliki 100.000 sats likuiditas keluar dan 100.000 sats likuiditas masuk, sambil hanya mengunci 100.000 sats.
+- **Membuat pihak lain tertarik untuk membuka saluran**: Pedagang mendapat keuntungan karena volume pembayaran masuk yang diharapkan pada node mereka. Dengan mempertimbangkan hal ini, pedagang dapat mencoba menarik node perantara yang mencari pendapatan dari biaya transaksi dan yang mungkin membuka saluran ke arah mereka, berharap untuk merutekan pembayaran mereka dan mengumpulkan biaya terkait.
+- **Pergerakan Likuiditas**: Penjual juga dapat membuka sebuah saluran dan mentransfer sebagian dana ke sisi yang berlawanan dengan membuat pembayaran fiktif ke node lain, yang akan mengembalikan uang tersebut dengan cara lain. Kita akan melihat di bagian selanjutnya bagaimana melaksanakan cara ini.
+- **Pembukaan Segitiga**: Platform tersedia bagi node yang ingin membuka saluran secara kolaboratif, memungkinkan masing-masing untuk mendapatkan keuntungan dari likuiditas masuk dan keluar secara langsung. Sebagai contoh, [LightningNetwork+](https://lightningnetwork.plus/) menawarkan layanan ini. Jika Alice, Bob, dan Suzie ingin membuka saluran dengan 100.000 sats, mereka dapat sepakat di platform ini agar Alice membuka saluran ke arah Bob, Bob ke arah Suzie, dan Suzie ke arah Alice. Dengan cara ini, masing-masing memiliki 100.000 sats likuiditas keluar dan 100.000 sats likuiditas masuk, dengan hanya mengunci 100.000 sats.
 
 ![LNP201](assets/en/73.webp)
 
@@ -930,22 +930,22 @@ Di sisi lain, untuk penjual, tugasnya lebih kompleks. Untuk dapat menerima pemba
 
 ![LNP201](assets/en/74.webp)
 
-Akhirnya, bagi router, yang tujuannya adalah untuk memaksimalkan jumlah pembayaran yang diproses dan biaya yang dikumpulkan, mereka harus:
+Akhirnya, bagi perantara, yang tujuannya adalah untuk memaksimalkan jumlah pembayaran yang diproses dan biaya yang dikumpulkan, mereka harus:
 
 - Membuka saluran yang dibiayai dengan baik dengan node strategis.
 - Secara rutin menyesuaikan distribusi dana di saluran sesuai dengan kebutuhan jaringan.
 
 ### Layanan Loop Out
 
-Layanan [Loop Out](https://lightning.engineering/loop/), yang ditawarkan oleh Lightning Labs, memungkinkan untuk memindahkan likuiditas ke sisi yang berlawanan dari saluran sambil mengklaim kembali dana tersebut di blockchain Bitcoin. Sebagai contoh, Alice mengirim 1 juta satoshi melalui Lightning ke node loop, yang kemudian mengembalikan dana tersebut kepadanya dalam bitcoin on-chain. Ini menyeimbangkan salurannya dengan 1 juta satoshi di setiap sisi, mengoptimalkan kapasitasnya untuk menerima pembayaran.
+Layanan [Loop Out](https://lightning.engineering/loop/), yang ditawarkan oleh Lightning Labs, memungkinkan untuk memindahkan likuiditas ke sisi yang berlawanan dari saluran sambil mengklaim kembali dana tersebut di blockchain Bitcoin. Sebagai contoh, Alice mengirim 1 juta satoshi melalui Lightning ke node loop, yang kemudian mengembalikan dana tersebut kepadanya di bitcoin on-chain. Ini menyeimbangkan salurannya dengan 1 juta satoshi di setiap sisi, mengoptimalkan kapasitas Alice untuk menerima pembayaran.
 
 ![LNP201](assets/en/75.webp)
 
-Oleh karena itu, layanan ini memungkinkan likuiditas masuk sambil mengklaim kembali bitcoin seseorang di on-chain, yang membantu untuk membatasi imobilisasi kas yang diperlukan untuk menerima pembayaran dengan Lightning.
+Oleh karena itu, layanan ini memungkinkan likuiditas masuk sambil mengklaim kembali bitcoin seseorang di Bitcoin on-chain, yang membantu untuk membatasi imobilisasi kas yang diperlukan untuk menerima pembayaran dengan Lightning.
 
-**Apa yang harus Anda ambil dari bab ini?**
+**Apa yang bisa Anda dapatkan dari bab ini?**
 
-- Untuk mengirim pembayaran di Lightning, Anda harus memiliki cukup likuiditas di sisi Anda dalam saluran Anda. Untuk meningkatkan kapasitas pengiriman ini, cukup buka saluran baru.
+- Untuk mengirim pembayaran di Lightning, Anda harus memiliki cukup likuiditas di sisi Anda dalam saluran Anda. Untuk meningkatkan kapasitas pengiriman ini, cukup dengan membuka saluran baru.
 - Untuk menerima pembayaran, Anda perlu memiliki likuiditas di sisi yang berlawanan dalam saluran Anda. Meningkatkan kapasitas penerimaan ini lebih kompleks, karena memerlukan orang lain untuk membuka saluran ke arah Anda, atau untuk membuat pembayaran (fiktif atau nyata) untuk memindahkan likuiditas ke sisi lain.
 - Memelihara likuiditas sesuai keinginan bisa menjadi lebih menantang tergantung pada penggunaan saluran. Itulah mengapa alat dan layanan ada untuk membantu menyeimbangkan saluran sesuai keinginan.
 
@@ -961,15 +961,18 @@ Di bab selanjutnya, saya mengusulkan untuk meninjau konsep-konsep paling penting
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 :::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
 
-Dalam bab terakhir ini yang menandai akhir dari pelatihan LNP201, saya mengusulkan untuk mengunjungi kembali konsep-konsep penting yang telah kita bahas bersama. Tujuan dari pelatihan ini adalah untuk memberikan Anda pemahaman yang komprehensif dan teknis tentang Lightning Network. Kita telah menemukan bagaimana Lightning Network mengandalkan blockchain Bitcoin untuk melakukan transaksi off-chain, sambil mempertahankan karakteristik fundamental dari Bitcoin, terutama ketiadaan kebutuhan untuk mempercayai node lain.
+Dalam bab terakhir ini yang menandai akhir dari pelatihan LNP201, saya mengusulkan untuk mengunjungi kembali konsep-konsep penting yang telah kita bahas bersama. 
+
+Tujuan dari pelatihan ini adalah untuk memberikan Anda pemahaman yang komprehensif dan teknis tentang Lightning Network. Kita telah membahas bagaimana Lightning Network mengandalkan blockchain Bitcoin untuk melakukan transaksi off-chain, dengan tetap mempertahankan karakteristik fundamental dari Bitcoin, terutama ketiadaan kebutuhan untuk mempercayai node lain.
 
 ### Saluran Pembayaran
 
-Dalam bab awal, kita menjelajahi bagaimana dua pihak, dengan membuka saluran pembayaran, dapat melakukan transaksi di luar blockchain Bitcoin. Berikut adalah langkah-langkah yang dibahas:
+Dalam bab awal, kita membahas bagaimana dua pihak, dengan membuka saluran pembayaran, dapat melakukan transaksi di luar blockchain Bitcoin. Berikut adalah langkah-langkah yang dibahas:
 
 - **Pembukaan Saluran**: Pembuatan saluran dilakukan melalui transaksi Bitcoin yang mengunci dana dalam alamat multisignature 2/2. Deposit ini mewakili saluran Lightning di blockchain.
 
-![LNP201](assets/en/76.webp) 2. **Transaksi dalam Saluran**: Di saluran ini, kemudian dimungkinkan untuk melakukan banyak transaksi tanpa harus mempublikasikannya di blockchain. Setiap transaksi Lightning menciptakan keadaan baru dari saluran yang tercermin dalam transaksi komitmen.
+![LNP201](assets/en/76.webp) 
+2. **Transaksi dalam Saluran**: Di saluran ini, kemudian dimungkinkan untuk melakukan banyak transaksi tanpa harus mempublikasikannya di blockchain. Setiap transaksi Lightning menciptakan keadaan baru dari saluran tersebut yang tercermin dalam transaksi komitmen.
 ![LNP201](assets/en/77.webp)
 
 - **Pengamanan dan Penutupan**: Peserta berkomitmen pada keadaan baru saluran dengan bertukar kunci pembatalan untuk mengamankan dana dan mencegah kecurangan. Kedua belah pihak dapat menutup saluran secara kooperatif dengan membuat transaksi baru di blockchain Bitcoin, atau sebagai pilihan terakhir melalui penutupan paksa. Opsi terakhir ini, meskipun kurang efisien karena lebih lama dan terkadang dinilai buruk dalam hal biaya, masih memungkinkan untuk pemulihan dana. Dalam kasus kecurangan, korban dapat menghukum penipu dengan memulihkan semua dana dari saluran di blockchain.
@@ -988,15 +991,15 @@ Setelah mempelajari saluran terisolasi, kita memperluas analisis kita ke jaringa
 
 ![LNP201](assets/en/80.webp)
 
-- **Onion Routing**: Untuk memastikan kerahasiaan pembayaran, onion routing menyembunyikan tujuan akhir ke node perantara. Node pengirim oleh karena itu harus menghitung seluruh rute, tetapi dalam ketiadaan informasi lengkap tentang likuiditas saluran, ia melanjutkan melalui percobaan berturut-turut untuk merutekan pembayaran.
+- **Onion Routing**: Untuk memastikan kerahasiaan pembayaran, onion routing menyembunyikan tujuan akhir dari node perantara. Node pengirim oleh karena itu harus menghitung seluruh rute, tetapi tanpa informasi lengkap tentang likuiditas saluran, prosesnya dilakukan melalui percobaan bertahap untuk merutekan pembayaran.
 
 ![LNP201](assets/en/81.webp)
 
 ### Manajemen Likuiditas
 
-Kita telah melihat bahwa manajemen likuiditas adalah tantangan di Lightning untuk memastikan aliran pembayaran yang lancar. Mengirim pembayaran relatif sederhana: hanya memerlukan pembukaan saluran. Namun, menerima pembayaran memerlukan likuiditas di sisi berlawanan dari saluran seseorang. Berikut adalah beberapa strategi yang dibahas:
+Kita telah melihat bahwa manajemen likuiditas adalah tantangan di Lightning untuk memastikan aliran pembayaran yang lancar. Mengirim pembayaran cenderung sederhana: hanya memerlukan pembukaan saluran. Namun, menerima pembayaran memerlukan likuiditas di sisi berlawanan dari saluran seseorang. Berikut adalah beberapa strategi yang dibahas:
 
-- **Menarik Saluran**: Dengan mendorong node lain untuk membuka saluran ke arah diri sendiri, pengguna memperoleh likuiditas masuk.
+- **Membuat Pihak Lain Tertarik untuk Membuka Saluran**: Dengan mendorong node lain untuk membuka saluran ke arah diri sendiri, pengguna memperoleh likuiditas masuk.
 
 - **Memindahkan Likuiditas**: Dengan mengirim pembayaran ke saluran lain, likuiditas berpindah ke sisi berlawanan.
 
@@ -1004,7 +1007,7 @@ Kita telah melihat bahwa manajemen likuiditas adalah tantangan di Lightning untu
 
 - **Menggunakan Layanan seperti Loop dan Pool**: Layanan ini memungkinkan untuk menyeimbangkan kembali atau membeli saluran dengan likuiditas di sisi berlawanan.
   ![LNP201](assets/en/83.webp)
-- **Pembukaan Kolaboratif**: Ada juga platform yang tersedia untuk terhubung melakukan pembukaan segitiga dan untuk memiliki likuiditas masuk.
+- **Pembukaan Kolaboratif**: Ada juga platform yang memungkinkan untuk melakukan pembukaan segitiga dan memiliki likuiditas masuk.
 
 ![LNP201](assets/en/84.webp)
 

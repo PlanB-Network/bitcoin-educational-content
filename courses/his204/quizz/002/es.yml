@@ -1,0 +1,8 @@
+question: ¿Qué rey fue ministro de Sully?
+answer: Enrique IV
+wrong_answers:
+  - Luis XIV
+  - Luis XV
+  - Luis XIII
+explanation: |
+  Maximilien de Béthune, duque de Sully, fue el principal ministro de Enrique IV. Desempeñó un papel clave en el restablecimiento de las finanzas reales y la recuperación económica del reino tras las Guerras de Religión.

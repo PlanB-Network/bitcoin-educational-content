@@ -1,0 +1,8 @@
+question: Porque é que, segundo Vauban, é correto e natural que todos paguem impostos?
+answer: Uma vez que o Estado oferece os seus serviços a todos, é justo que todos contribuam para os pagar
+wrong_answers:
+  - Porque o Estado pode arrecadar mais se tributar toda a população de uma só vez
+  - Uma vez que, ao longo da vida, cada pessoa é por vezes rica e por vezes pobre, é preferível tributar todos uniformemente
+  - Porque ajuda a financiar as guerras e a garantir a grandeza do reino
+explanation: |
+  Vauban acreditava que a tributação devia ser universal, uma vez que todos os cidadãos beneficiavam dos serviços do Estado, como a segurança, a justiça e as infra-estruturas. Por conseguinte, considerava justo que cada um contribuísse para o seu financiamento de acordo com as suas possibilidades.

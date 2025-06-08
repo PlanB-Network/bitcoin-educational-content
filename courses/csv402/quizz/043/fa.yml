@@ -1,4 +1,4 @@
-question: "RGB State Transition" در زمینه Lightning Network به چه معناست؟
+question: RGB State Transition در زمینه Lightning Network به چه معناست؟
 answer: به‌روزرسانی تخصیص دارایی RGB در معاملات Commitment ادغام شد
 wrong_answers:
   - یک وضعیت جدید از Multisig 2/2 بر روی زنجیره

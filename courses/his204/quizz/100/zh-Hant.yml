@@ -1,0 +1,8 @@
+question: 哪個銀行機構是 1789 年所作選擇的最終結果？
+answer: 法國銀行
+wrong_answers:
+  - 儲蓄銀行
+  - 農業信貸銀行
+  - 歐洲中央銀行
+explanation: |
+  法蘭西銀行 (Banque de France) 是 1789 年所做選擇的結果，杜邦 (Dupont de Nemours) 批評這些選擇導致金融權力過度集中，以及國家過度干預經濟。

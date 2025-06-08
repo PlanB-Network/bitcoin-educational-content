@@ -1,0 +1,8 @@
+question: Ketä kuuluisaa vankia Condorcet puolusti?
+answer: Le chevalier de la Barre
+wrong_answers:
+  - Jean Calas
+  - Louis Mandrin
+  - Lallyn kreivi
+explanation: |
+  Condorcet puolusti Chevalier de la Barrea, nuorta miestä, joka oli tuomittu kuolemaan jumalanpilkasta.

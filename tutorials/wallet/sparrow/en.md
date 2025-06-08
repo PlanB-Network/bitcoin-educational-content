@@ -4,6 +4,8 @@ description: Installing, configuring and using Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/yJpvfRl03Tw)
+
 Sparrow Wallet is a self-custody Bitcoin wallet management software developed by Craig Raw. This open-source software is appreciated by bitcoiners for its many features and intuitive Interface.
 
 There are two ways to use Sparrow:

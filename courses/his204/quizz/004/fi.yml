@@ -1,0 +1,8 @@
+question: Miksi Colbertin opetuslasten mukaan kaupankäynti on jatkuvaa sotaa?
+answer: Kansakunnat voivat rikastua vain toistensa kustannuksella
+wrong_answers:
+  - Sota-aluksia tarvitaan kaupan tukemiseen
+  - Kauppa kukoistaa parhaiten sodan aikana
+  - Kauppa on jatkuvaa kilpailua resursseista
+explanation: |
+  Merkantilistisessa näkemyksessä maailman varallisuutta pidetään kiinteänä määränä. Näin ollen yhden kansakunnan rikastuminen tapahtuu väistämättä muiden kustannuksella, mistä johtuu ajatus jatkuvasta "taloussodasta".

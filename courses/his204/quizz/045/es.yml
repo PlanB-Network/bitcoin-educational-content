@@ -1,0 +1,8 @@
+question: ¿Qué no se encuentra en L'Ami des hommes?
+answer: La industria languidece mientras la agricultura toma el relevo de la fabricación
+wrong_answers:
+  - Las naciones tienen intereses comunes
+  - El comercio debe ser libre entre todos los pueblos
+  - La necesidad de un gobierno fuerte y centralizado
+explanation: |
+  L'Ami des Hommes se centra en la agricultura y no critica el abandono de la industria manufacturera. Al contrario, considera que la agricultura es la única fuente de riqueza real.

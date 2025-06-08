@@ -1,0 +1,8 @@
+question: Publicado anónimamente, L'Ami des Hommes causó tal impresión que en un principio se atribuyó a ?
+answer: Montesquieu
+wrong_answers:
+  - Voltaire
+  - Diderot
+  - Rousseau
+explanation: |
+  L'Ami des Hommes se atribuyó primero a Montesquieu por su estilo e importancia, antes de que se descubriera que el autor era en realidad el marqués de Mirabeau.

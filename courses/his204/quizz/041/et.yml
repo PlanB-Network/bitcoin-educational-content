@@ -1,0 +1,8 @@
+question: Anonüümselt avaldatud L'Ami des Hommes avaldas sellist muljet, et algselt omistati see ?
+answer: Montesquieu
+wrong_answers:
+  - Voltaire
+  - Diderot
+  - Rousseau
+explanation: |
+  L'Ami des Hommes'ile omistati esmalt Montesquieu'le selle stiili ja tähtsuse tõttu, enne kui avastati, et autoriks oli tegelikult markii de Mirabeau.

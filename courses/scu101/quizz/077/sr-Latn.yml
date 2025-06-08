@@ -1,5 +1,8 @@
 question: Zašto je važno osigurati svoj email?
-answer: Jer vam omogućava da resetujete svoje lozinke
-wrong_answers: 
+answer: Zato što vam omogućava da resetujete svoje lozinke
+wrong_answers:
+  - Jer se koristi za primanje biltena
+  - Zato što sadrži sve vaše lozinke
+  - Jer sadrži vaše bankovne informacije
 explanation: Poštansko sanduče je centralna tačka pristupa za preuzimanje lozinki i
 reviewed: false

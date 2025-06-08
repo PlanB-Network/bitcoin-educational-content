@@ -1,0 +1,8 @@
+question: Millised on need kolm finantsvajadust, mille Turgot esitas oma kuulsas kirjas Louis XVI-le, kui ta liitus Contrôle Général'iga?
+answer: Pankrotti ei ole. Ei maksutõusu. Ei laenuvõtmist
+wrong_answers:
+  - Reformi ei toimu. Ei mingeid uusi makse. Ei mingeid uusi seadusi.
+  - Ei mingit uut sõda. Ei mingit maksutõusu. Ei laenuvõtmist
+  - Ei mingeid tarbetuid kulutusi. Ei mingeid privileege. Ei mingit soosimist.
+explanation: |
+  Turgot' kolm nõuet olid: mitte pankrotti, mitte maksutõusu, mitte laenuvõtmist. Ta uskus, et need kolm põhimõtet on riigi rahanduse taastamiseks ja majanduse elavdamiseks hädavajalikud.

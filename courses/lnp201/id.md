@@ -369,55 +369,54 @@ Sistem keamanan ini memastikan bahwa semua pihak mematuhi aturan Lightning Netwo
 
 Anda sekarang sudah mengetahui bagaimana saluran Lightning dibuka dan bagaimana transaksi dalam saluran ini bekerja. Pada bab selanjutnya, kita akan membahas berbagai cara untuk menutup saluran dan memulihkan bitcoin Anda di blockchain utama.
 
-## Menutup Channel (Saluran)
+## Menutup Saluran
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 :::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
+Dalam bab ini, kita akan membahas **penutupan saluran** di Lightning Network (Jaringan Lightning), yang dilakukan melalui transaksi Bitcoin, sama seperti membuka saluran. Setelah melihat bagaimana transaksi dalam saluran bekerja, sekarang saatnya untuk melihat cara menutup saluran dan memulihkan dana di blockchain Bitcoin.
 
-Dalam bab ini, kita akan membahas **penutupan channel (saluran)** di Lightning Network (Jaringan Lightning), yang dilakukan melalui transaksi Bitcoin, sama seperti membuka saluran. Setelah melihat bagaimana transaksi dalam saluran bekerja, sekarang saatnya untuk melihat cara menutup saluran dan memulihkan dana di blockchain Bitcoin.
+### Ringkasan terkait Siklus Hidup Saluran
 
-### Ringkasan terkait siklus hidup channel (saluran)
-
-**Siklus hidup channel (saluran)** dimulai dengan **pembukaannya**, melalui transaksi Bitcoin, kemudian transaksi Lightning dilakukan di dalamnya, dan akhirnya, ketika para pihak ingin mengambil kembali dana mereka, channel (saluran) **ditutup** melalui transaksi Bitcoin kedua. Transaksi perantara yang dibuat di Lightning diwakili oleh **transaksi komitmen** yang tidak dipublikasikan.
+**Siklus hidup saluran** dimulai dengan **pembukaannya**, melalui transaksi Bitcoin, kemudian transaksi Lightning dilakukan di dalamnya, dan akhirnya, ketika para pihak ingin mengambil kembali dana mereka, saluran **ditutup** melalui transaksi Bitcoin kedua. Transaksi perantara yang dibuat di Lightning diwakili oleh **transaksi komitmen** yang tidak dipublikasikan.
 
 ![LNP201](assets/en/29.webp)
 
 ### Tiga jenis penutupan saluran
 
-Ada tiga cara untuk menutup channel (saluran), yang disebut **yang baik, yang kasar, dan yang curang** (terinspirasi oleh Andreas Antonopoulos dalam _Mastering the Lightning Network_):
+Ada tiga cara untuk menutup saluran, yang disebut **yang baik, yang kasar, dan yang curang** (terinspirasi oleh Andreas Antonopoulos dalam _Mastering the Lightning Network_):
 
-- **Yang Baik**: **penutupan kooperatif**, di mana Alice dan Bob setuju untuk menutup channel (saluran).
-- **Yang Kasar**: **penutupan paksa**, di mana salah satu pihak memutuskan untuk menutup channel (saluran) dengan jujur, tetapi tanpa persetujuan pihak lain.
+- **Yang Baik**: **penutupan kooperatif**, di mana Alice dan Bob setuju untuk menutup saluran.
+- **Yang Kasar**: **penutupan paksa**, di mana salah satu pihak memutuskan untuk menutup saluran dengan jujur, tetapi tanpa persetujuan pihak lain.
 - **Yang Buruk**: **penutupan dengan kecurangan**, di mana salah satu pihak mencoba mencuri dana dengan mempublikasikan transaksi komitmen lama (transaksi komitmen manapun selain yang terakhir yang mencerminkan distribusi dana yang sebenarnya dan adil).
 
 Mari kita ambil contoh:
 
 - Alice memiliki **100.000 satoshi** dan Bob **30.000 satoshi**.
-- Distribusi ini tercermin dalam **2 transaksi komitmen** (masing-masing satu untuk setiap pengguna) yang tidak dipublikasikan, tetapi dapat dipublikasikan jika penutupan saluran.
+- Distribusi ini tercermin dalam **2 transaksi komitmen** (masing-masing satu untuk setiap pengguna) yang tidak dipublikasikan, tetapi dapat dipublikasikan jika menutup saluran.
 
 ![LNP201](assets/en/30.webp)
 
 ### Yang Baik: Penutupan Kooperatif
 
-Dalam **penutupan kooperatif**, Alice dan Bob setuju untuk menutup channel (saluran). Begini caranya:
+Dalam **penutupan kooperatif**, Alice dan Bob setuju untuk menutup saluran. Begini caranya:
 
-- Alice mengirim pesan ke Bob melalui protokol komunikasi Lightning untuk mengusulkan penutupan channel (saluran).
-- Bob setuju, dan kedua pihak tidak melakukan transaksi lebih lanjut di channel (saluran).
+- Alice mengirim pesan ke Bob melalui protokol komunikasi Lightning untuk mengusulkan penutupan saluran.
+- Bob setuju, dan kedua pihak tidak melakukan transaksi lebih lanjut di saluran tersebut.
 
 ![LNP201](assets/en/31.webp)
 
-- Alice dan Bob berdiskusi bersama biaya dari **transaksi penutupan**. Biaya ini umumnya dihitung berdasarkan pasar biaya Bitcoin pada saat penutupan. Penting untuk dicatat bahwa **selalu orang yang membuka channel (saluran)** (Alice dalam contoh kita) yang membayar biaya penutupan.
-- Mereka membuat **transaksi penutupan** baru. Transaksi ini menyerupai transaksi komitmen, tetapi tanpa timelock (penguncian waktu) atau mekanisme revocation (pencabutan), karena kedua pihak bekerja sama dan tidak ada risiko kecurangan. Transaksi penutupan kooperatif ini oleh karena itu berbeda dari transaksi komitmen.
-   Misalnya, jika Alice memiliki **100.000 satoshi** dan Bob **30.000 satoshi**, transaksi penutupan akan mengirim **100.000 satoshi** ke alamat Alice dan **30.000 satoshi** ke alamat Bob, tanpa batasan timelock (penguncian waktu). Setelah transaksi ini ditandatangani oleh kedua belah pihak, Alice akan mempublikasikannya. Setelah transaksi dikonfirmasi di blockchain Bitcoin, channel (saluran) Lightning akan resmi ditutup.
+- Alice dan Bob berdiskusi bersama mengenai biaya dari **transaksi penutupan**. Biaya ini umumnya dihitung berdasarkan pasar biaya Bitcoin pada saat penutupan. Penting untuk dicatat bahwa **selalu orang yang membuka saluran** (Alice dalam contoh kita) yang membayar biaya penutupan.
+- Mereka membuat **transaksi penutupan** baru. Transaksi ini menyerupai transaksi komitmen, tetapi tanpa timelock (penguncian waktu) atau mekanisme revocation (pembatalan), karena kedua pihak bekerja sama dan tidak ada risiko kecurangan. Transaksi penutupan kooperatif ini oleh karena itu berbeda dari transaksi komitmen.
+
+Misalnya, jika Alice memiliki **100.000 satoshi** dan Bob **30.000 satoshi**, transaksi penutupan akan mengirim **100.000 satoshi** ke alamat Alice dan **30.000 satoshi** ke alamat Bob, tanpa batasan timelock (penguncian waktu). Setelah transaksi ini ditandatangani oleh kedua belah pihak, Alice akan mempublikasikannya. Setelah transaksi dikonfirmasi di blockchain Bitcoin, saluran Lightning akan resmi ditutup.
    ![LNP201](assets/en/32.webp)
 
 **Penutupan kooperatif** adalah metode penutupan yang disukai karena cepat (tanpa timelock) dan biaya transaksi disesuaikan menurut kondisi pasar Bitcoin saat ini. Ini menghindari pembayaran yang terlalu sedikit, yang bisa berisiko memblokir transaksi di mempool, atau membayar terlalu banyak secara tidak perlu, yang mengakibatkan kerugian finansial yang tidak perlu bagi para peserta.
 
 ### Yang Kasar: Penutupan Paksa
 
-Ketika node Alice mengirim pesan ke Bob meminta penutupan kooperatif, jika Bob tidak merespon (misalnya, karena gangguan internet atau masalah teknis), Alice dapat melanjutkan dengan **penutupan paksa** dengan mempublikasikan **transaksi komitmen terakhir yang ditandatangani**.
-Dalam kasus ini, Alice akan mempublikasikan transaksi komitmen terakhir, yang mencerminkan keadaan saluran pada saat transaksi Lightning terakhir terjadi dengan distribusi dana yang benar.
+Ketika node Alice mengirim pesan ke Bob meminta penutupan kooperatif, jika Bob tidak merespon (misalnya, karena gangguan internet atau masalah teknis), Alice dapat melanjutkan dengan **penutupan paksa** dengan mempublikasikan **transaksi komitmen terakhir yang ditandatangani**. Dalam kasus ini, Alice akan mempublikasikan transaksi komitmen terakhir, yang mencerminkan keadaan saluran pada saat transaksi Lightning terakhir terjadi dengan distribusi dana yang benar.
 
 ![LNP201](assets/en/33.webp)
 
@@ -427,15 +426,15 @@ Transaksi ini mencakup **timelock (penguncian waktu)** untuk dana Alice, membuat
 
 Juga, biaya dari transaksi komitmen mungkin tidak sesuai pada saat penutupan, karena ditetapkan ketika transaksi dibuat, terkadang beberapa bulan sebelumnya. Umumnya, klien Lightning memperkirakan biaya lebih tinggi untuk menghindari masalah di masa depan, tetapi ini dapat menyebabkan biaya yang berlebihan, atau sebaliknya terlalu rendah.
 
-Secara ringkas, **penutupan paksa** adalah opsi terakhir ketika rekan tidak lagi merespon. Ini lebih lambat dan kurang ekonomis daripada penutupan kooperatif. Oleh karena itu, sebisa mungkin harus dihindari.
+Secara singkat, **penutupan paksa** adalah opsi terakhir ketika rekan di saluran tidak lagi merespon. Ini lebih lambat dan kurang ekonomis daripada penutupan kooperatif. Oleh karena itu, sebisa mungkin harus dihindari.
 
 ### Yang Buruk: Dengan Kecurangan
 
-Yang terakhir, penutupan dengan **kecurangan** terjadi ketika salah satu pihak mencoba mempublikasikan transaksi komitmen lama, seringkali di mana mereka memiliki lebih banyak dana daripada yang seharusnya. Misalnya, Alice mungkin mempublikasikan transaksi lama di mana dia memiliki **120.000 satoshi**, sementara dia sebenarnya hanya memiliki **100.000** sekarang.
+Yang terakhir, penutupan dengan **kecurangan** terjadi ketika salah satu pihak mencoba mempublikasikan transaksi komitmen lama, seringkali di mana mereka memiliki lebih banyak dana daripada yang seharusnya. Misalnya, Alice mungkin mempublikasikan transaksi lama di mana dia memiliki **120.000 satoshi**, sementara Alice sebenarnya hanya memiliki **100.000** sekarang.
 
 ![LNP201](assets/en/35.webp)
 
-Bob, untuk mencegah kecurangan ini, memantau mempool dan blockchain Bitcoin untuk memastikan Alice tidak mempublikasikan transaksi lama. Jika Bob mendeteksi upaya kecurangan, dia dapat menggunakan **kunci pembatalan** untuk mengambil dana Alice dan menghukumnya dengan mengambil seluruh dana channel (saluran). Karena Alice diblokir oleh timelock (penguncian waktu) pada outputnya (dana yang dimiliki Alice), Bob memiliki waktu untuk menggunakan dana tanpa timelock (penguncian waktu) di sisinya untuk mengambil seluruh dana yang ada di address (alamat) Bob.
+Bob, untuk mencegah kecurangan ini, memantau mempool dan blockchain Bitcoin untuk memastikan Alice tidak mempublikasikan transaksi lama. Jika Bob mendeteksi upaya kecurangan, dia dapat menggunakan **kunci pembatalan** untuk mengambil dana Alice dan menghukumnya dengan mengambil seluruh dana saluran. Karena Alice diblokir oleh timelock (penguncian waktu) pada outputnya (dana yang dimiliki Alice), Bob memiliki waktu untuk menggunakan dana tanpa timelock (penguncian waktu) di sisinya untuk mengambil seluruh dana yang ada di address (alamat) Bob.
 
 ![LNP201](assets/en/36.webp)
 
@@ -460,7 +459,7 @@ Ada tiga cara untuk menutup saluran:
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-Dalam bab ini, kita akan membahas bagaimana pembayaran di Lightning Network (Jaringan Lightning) dapat mencapai penerima meskipun mereka tidak terhubung langsung melalui saluran pembayaran (payment channel). Lightning memang merupakan **jaringan dari saluran-saluran pembayaran (network of payment channels)**, yang memungkinkan dana dikirim ke node yang jauh melalui saluran (atau channel) milik peserta lain. Kita akan membahas bagaimana pembayaran dialirkan melalui jaringan, bagaimana likuiditas bergerak antar saluran, dan bagaimana biaya transaksi dihitung.
+Dalam bab ini, kita akan membahas bagaimana pembayaran di Lightning Network (Jaringan Lightning) dapat mencapai penerima meskipun mereka tidak terhubung langsung melalui saluran pembayaran (payment channel). Lightning memang merupakan **jaringan dari saluran-saluran pembayaran (network of payment channels)**, yang memungkinkan dana dikirim ke node yang jauh melalui saluran (atau channel) milik peserta lain. Kita akan membahas bagaimana pembayaran dirutekan melalui jaringan, bagaimana likuiditas bergerak antar saluran, dan bagaimana biaya transaksi dihitung.
 
 ### Jaringan Saluran Pembayaran
 
@@ -475,16 +474,17 @@ Misalnya, bayangkan bahwa:
 
 ![LNP201](assets/en/37.webp)
 
-Jika Alice ingin mengirim dana ke Bob tanpa membuka saluran langsung dengan Bob, Alice harus melalui Suzie, dan setiap saluran perlu menyesuaikan likuiditas di setiap sisi. **Satoshi yang dikirim tetap dalam saluran masing-masing**; mereka sebenarnya tidak "melintasi" saluran, tetapi transfer dilakukan melalui penyesuaian likuiditas internal di setiap saluran.
+Jika Alice ingin mengirim dana ke Bob tanpa membuka saluran langsung dengan Bob, Alice harus melalui Suzie, dan setiap saluran perlu menyesuaikan likuiditas di setiap sisi. **Satoshi yang dikirim tetap dalam saluran masing-masing**; mereka sebenarnya tidak "berpindah" saluran, tetapi transfer dilakukan melalui penyesuaian likuiditas internal di setiap saluran.
 
 Misalkan Alice ingin mengirim **50.000 satoshi** ke Bob:
 
-- **Alice** mengirim 50.000 satoshi ke **Suzie** di saluran bersama mereka.
+- **Alice** mengirim 50.000 satoshi ke **Suzie** di saluran mereka.
 - **Suzie** mereplikasi transfer ini dengan mengirim 50.000 satoshi ke **Bob** di saluran mereka.
 
 ![LNP201](assets/en/38.webp)
-Dengan demikian, pembayaran dialihkan ke Bob melalui pergerakan likuiditas di setiap saluran. Di akhir operasi, Alice berakhir dengan 50.000 satoshi. Alice telah mentransfer 50.000 satoshi yang awalnya, Alice memiliki 100.000. Bob, di sisinya, berakhir dengan tambahan 50.000 satoshi. Untuk Suzie (node perantara), operasi ini netral: awalnya, dia memiliki 30.000 satoshi di salurannya dengan Alice dan 250.000 satoshi di salurannya dengan Bob, total 280.000 satoshi. Setelah operasi, dia memegang 80.000 satoshi di salurannya dengan Alice dan 200.000 satoshi di salurannya dengan Bob, yang merupakan jumlah yang sama seperti di awal.
-Transfer ini dengan demikian dibatasi oleh **likuiditas yang tersedia** dalam arah transfer.
+Dengan demikian, pembayaran dirutekan ke Bob melalui pergerakan likuiditas di setiap saluran. Di akhir transaksi, Alice berakhir dengan 50.000 satoshi. Alice telah mentransfer 50.000 satoshi, yang awalnya Alice memiliki 100.000. Bob, di sisinya, berakhir dengan tambahan 50.000 satoshi. Untuk Suzie (node perantara), transaksi ini netral: awalnya, dia memiliki 30.000 satoshi di salurannya dengan Alice dan 250.000 satoshi di salurannya dengan Bob, total 280.000 satoshi. Setelah operasi, dia memegang 80.000 satoshi di salurannya dengan Alice dan 200.000 satoshi di salurannya dengan Bob, sehingga total jumlahnya sama seperti di awal.
+
+Sehingga transfer ini dibatasi oleh **likuiditas yang tersedia** dalam arah transfer.
 
 ### Perhitungan Rute dan Batas Likuiditas
 
@@ -496,7 +496,7 @@ Mari kita ambil contoh teoretis dari jaringan lain dengan:
 
 ![LNP201](assets/en/39.webp)
 
-Jumlah maksimal yang dapat Alice kirim ke Bob adalah **90.000 satoshi**, karena Alice dibatasi oleh likuiditas terkecil yang tersedia di saluran dari **Suzie ke Carol**. Dalam arah sebaliknya (dari Bob ke Alice), tidak ada pembayaran yang mungkin karena sisi **Suzie** di saluran dengan **Alice** tidak memliki satoshi. Oleh karena itu, tidak ada **rute** yang dapat digunakan untuk transfer dari arah Bob ke Alice ini.
+Jumlah maksimum yang dapat Alice kirim ke Bob adalah **90.000 satoshi**, karena Alice dibatasi oleh likuiditas terkecil yang tersedia di saluran dari **Suzie ke Carol**. Dalam arah sebaliknya (dari Bob ke Alice), tidak ada pembayaran yang mungkin karena sisi **Suzie** di saluran dengan **Alice** tidak memliki satoshi. Oleh karena itu, tidak ada **rute** yang dapat digunakan untuk transfer dari arah Bob ke Alice ini.
 Alice mengirim **40.000 satoshi** ke Bob melalui saluran:
 
 - Alice mentransfer 40.000 satoshi ke salurannya dengan Suzie.
@@ -509,9 +509,9 @@ Alice mengirim **40.000 satoshi** ke Bob melalui saluran:
 
 ![LNP201](assets/en/41.webp)
 
-Seperti dalam contoh sebelumnya, setelah transaksi, node sumber (Alice) memiliki 40.000 satoshi lebih sedikit. Node perantara (Suzie dan Carol) mempertahankan jumlah total yang sama, membuat operasi netral bagi mereka. Akhirnya, node tujuan (Bob) menerima tambahan 40.000 satoshi.
+Seperti dalam contoh sebelumnya, setelah transaksi, node sumber (Alice) memiliki 40.000 satoshi lebih sedikit. Node perantara (Suzie dan Carol) mempertahankan jumlah total yang sama, membuat transaksi ini netral bagi mereka. Akhirnya, node tujuan (Bob) menerima tambahan 40.000 satoshi.
 
-Peran node perantara oleh karena itu sangat penting dalam fungsi Lightning Network. Mereka memfasilitasi transfer dengan menawarkan beberapa jalur untuk pembayaran. Untuk mendorong node ini menyediakan likuiditas mereka dan berpartisipasi dalam mengalihkan pembayaran, **biaya routing (pengalihan)** dibayarkan kepada mereka.
+Peran node perantara sangat penting dalam fungsi Lightning Network. Mereka memfasilitasi transfer dengan menawarkan beberapa jalur untuk pembayaran. Untuk mendorong node ini menyediakan likuiditas mereka dan berpartisipasi dalam mengalihkan pembayaran, **biaya routing** dibayarkan kepada mereka.
 
 ### Biaya Routing
 
@@ -521,14 +521,14 @@ Node perantara menerapkan biaya untuk memungkinkan pembayaran melewati saluran m
 - "**Biaya variabel**": persentase dari jumlah yang ditransfer, dihitung dalam **parts per milliion (ppm) atau per sejuta**. Biasanya, biayanya adalah **1 ppm** (1 satoshi per 1 juta satoshi yang ditransfer), tetapi biaya ini juga dapat disesuaikan.
    Biaya juga berbeda tergantung pada arah transfer. Misalnya, untuk transfer dari Alice ke Suzie, biaya Alice yang berlaku. Sebaliknya, dari Suzie ke Alice, biaya Suzie yang digunakan.
 
-Sebagai contoh, untuk sebuah saluran antara Alice dan Suzie, kita bisa memiliki:
+Sebagai contoh, untuk sebuah saluran antara Alice dan Suzie :
 
 - **Alice**: biaya dasar 1 sat dan 1 ppm untuk biaya variabel.
 - **Suzie**: biaya dasar 0.5 sat dan 10 ppm untuk biaya variabel.
 
 ![LNP201](assets/en/42.webp)
 
-Untuk lebih memahami bagaimana biaya bekerja, mari kita pelajari Lightning Network (Jaringan Lightning) yang sama seperti sebelumnya, tetapi sekarang dengan biaya routing (pengalihan) berikut:
+Untuk lebih memahami bagaimana biaya bekerja, mari kita pelajari Lightning Network (Jaringan Lightning) yang sama seperti sebelumnya, tetapi sekarang dengan biaya routing berikut:
 
 - Saluran **Alice - Suzie**: biaya dasar 1 satoshi dan 1 ppm untuk Alice.
 - Saluran **Suzie - Carol**: biaya dasar 0 satoshi dan 200 ppm untuk Suzie.
@@ -555,18 +555,18 @@ Likuiditas pun diperbarui:
 
 ### Onion Routing
 
-Untuk mengalirkan pembayaran dari pengirim ke penerima, Lightning Network menggunakan metode yang disebut "**onion routing**". Tidak seperti mengalirkan data klasik, di mana setiap alur menentukan arah data berdasarkan tujuan mereka, onion routing bekerja secara berbeda:
+Untuk merutekan pembayaran dari pengirim ke penerima, Lightning Network menggunakan metode yang disebut "**onion routing**". Tidak seperti merutekan data klasik, di mana setiap alur menentukan arah data berdasarkan tujuan mereka, onion routing bekerja secara berbeda:
 
 - **Node pengirim menghitung seluruh rute**: Alice, misalnya, menentukan bahwa pembayarannya harus melewati Suzie dan Carol sebelum mencapai Bob.
-- **Setiap node perantara hanya mengetahui tetangga terdekatnya**: Suzie hanya tahu bahwa dia menerima dana dari Alice dan dia harus mentransfernya ke Carol. Namun, Suzie tidak tahu apakah Alice adalah node sumber atau node perantara, dan dia juga tidak tahu apakah Carol adalah node penerima atau hanya node perantara lainnya. Prinsip ini juga berlaku untuk Carol dan semua node lain di jalur tersebut. Onion routing menjaga kerahasiaan transaksi dengan menyembunyikan identitas pengirim dan penerima akhir. Untuk memastikan node pengirim dapat menghitung rute lengkap ke penerima dalam onion routing, node tersebut harus memelihara **grafik jaringan** untuk mengetahui topologinya dan menentukan rute yang memungkikan.
+- **Setiap node perantara hanya mengetahui tetangga terdekatnya**: Suzie hanya tahu bahwa dia menerima dana dari Alice dan dia harus mentransfernya ke Carol. Namun, Suzie tidak tahu apakah Alice adalah node sumber atau node perantara, dan dia juga tidak tahu apakah Carol adalah node penerima atau hanya node perantara lainnya. Prinsip ini juga berlaku untuk Carol dan semua node lain di jalur tersebut. Onion routing menjaga kerahasiaan transaksi dengan menyembunyikan identitas pengirim dan penerima akhir. Untuk memastikan node pengirim dapat menghitung rute lengkap ke penerima dalam onion routing, node tersebut harus memelihara **grafik jaringan** untuk mengetahui topologinya dan menentukan rute yang memungkinkan.
 
   **Apa yang bisa Anda dapatkan dari bab ini?**
 
-- Di Lightning, pembayaran dapat dialihkan antar node yang tidak terhubung langsung melalui saluran perantara. Setiap node perantara ini memfasilitasi relay (dari satu node ke node lainnya) likuiditas.
+- Di Lightning, pembayaran dapat dirutekan antar node yang tidak terhubung langsung melalui saluran perantara. Setiap node perantara ini memfasilitasi relay likuiditas (dari satu node ke node lainnya).
 - Node perantara menerima komisi untuk layanannya, yang terdiri dari biaya tetap dan variabel.
 - Onion routing memungkinkan node pengirim untuk menghitung rute lengkap tanpa node perantara mengetahui pengirim atau penerima akhir.
 
-Dalam bab ini, kita telah menjelajahi pengalihan pembayaran di Jaringan Lightning. Namun, menimbulkan sebuah pertanyaan: apa ada yang bisa mencegah terjadinya node perantara tidak meneruskan ke tujuan berikutnya, dengan tujuan untuk mencegat transaksi tersebut? Inilah peran HTLC yang akan kita pelajari di bab berikutnya.
+Dalam bab ini, kita telah membahas perutean pembayaran di Jaringan Lightning. Namun, muncul sebuah pertanyaan: apa yang bisa mencegah node perantara dari tidak meneruskan ke node berikutnya yang bertujuan untuk menghambat transaksi tersebut? Inilah peran HTLC yang akan kita pelajari di bab berikutnya.
 
 ## HTLC – Hashed Time Locked Contract
 
@@ -576,7 +576,7 @@ Dalam bab ini, kita telah menjelajahi pengalihan pembayaran di Jaringan Lightnin
 
 Dalam bab ini, kita akan membahas bagaimana Lightning memungkinkan pembayaran untuk transit melalui node perantara tanpa perlu mempercayai mereka, berkat **HTLC** (_Hashed Time-Locked Contracts_). Kontrak pintar ini memastikan bahwa setiap node perantara hanya akan menerima dana dari salurannya jika ia meneruskan pembayaran ke penerima akhir, jika tidak, pembayaran tidak akan divalidasi.
 
-Masalah yang muncul untuk routing (pengalihan) pembayaran adalah perlunya kepercayaan pada node perantara, dan kepercayaan di antara node perantara itu sendiri. Untuk menggambarkannya, mari kita kembali ke contoh Lightning Network (Jaringan Lightning) yang disederhanakan dengan 3 node dan 2 saluran:
+Masalah yang muncul untuk routing pembayaran adalah perlunya kepercayaan pada node perantara, dan kepercayaan di antara node perantara itu sendiri. Untuk menggambarkannya, mari kita kembali ke contoh Lightning Network (Jaringan Lightning) yang disederhanakan dengan 3 node dan 2 saluran:
 
 - Alice memiliki saluran dengan Suzie.
 - Suzie memiliki saluran dengan Bob.
@@ -678,7 +678,7 @@ Akhirnya, dalam kasus *penutupan kooperatif* sementara masih ada HTLC aktif, Ali
 
 HTLC memungkinkan routing (perutean) pembayaran Lightning melalui beberapa node tanpa harus mempercayai mereka. Berikut adalah poin-poin kunci untuk diingat:
 
-- HTLC memastikan keamanan pembayaran melalui preimage (rahasi) dan waktu kedaluwarsa.
+- HTLC memastikan keamanan pembayaran melalui preimage (rahasia) dan waktu kedaluwarsa.
 - Resolusi atau kedaluwarsa dari HTLC mengikuti urutan tertentu: dimulai dari tujuan (penerima) menuju sumber (pengirim), untuk melindungi setiap node.
 - Selama HTLC tidak diselesaikan atau kedaluwarsa, HTLC dipertahankan sebagai output dalam transaksi komitmen terbaru.
 
@@ -880,7 +880,7 @@ Untuk menyederhanakan, dalam protokol ini, pengirim yang menghasilkan rahasia ya
 - Faktur dikodekan dalam **bech32**, dengan pemisah `1` untuk memudahkan penyalinan dan bagian data yang berisi semua informasi yang diperlukan untuk memproses pembayaran.
 - Proses pembayaran lainnya berada di Lightning, terutama **LNURL-Withdraw** untuk memudahkan penarikan, dan **Keysend** untuk transfer langsung tanpa invoice.
 
-Di bab berikutnya, kita akan melihat bagaimana operator node dapat mengelola likuiditas di saluran mereka, agar tidak pernah diblokir dan selalu dapat mengirim dan menerima pembayaran di Lightning Network   (Jaringan Lightning).
+Di bab berikutnya, kita akan melihat bagaimana operator node dapat mengelola likuiditas di saluran mereka, agar tidak pernah diblokir dan selalu dapat mengirim dan menerima pembayaran di Lightning Network (Jaringan Lightning).
 
 ## Mengelola Likuiditas Anda
 

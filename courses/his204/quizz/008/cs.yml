@@ -1,0 +1,8 @@
+question: Jaký typ daně Vauban ve svých spisech obhajoval?
+answer: Poměrná daň každý musí odvádět státu stejné procento ze svého příjmu
+wrong_answers:
+  - Progresivní zdanění sazba daně pro bohaté musí být vyšší než pro chudé
+  - Paušální daň bez ohledu na váš příjem, každý rok zaplatíte státu stejnou částku
+  - Regresivní zdanění daňové sazby pro chudé musí být vyšší než pro bohaté
+explanation: |
+  Vauban prosazoval poměrnou daň, tzv. královský desátek, který spočíval ve výběru desetiny (10 %) z příjmů všech Francouzů bez ohledu na jejich sociální postavení. Věřil, že tato daň bude spravedlivější a účinnější než stávající daňový systém.

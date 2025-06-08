@@ -1,0 +1,25 @@
+id: 08c3df81-8321-428e-88e4-03384d61c8e7
+name: LibreWolf
+
+links:
+  website: https://librewolf.net/
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - software
+  - privacy
+  - personal-security
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-06-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

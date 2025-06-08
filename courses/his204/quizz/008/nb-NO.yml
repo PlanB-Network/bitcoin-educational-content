@@ -1,0 +1,8 @@
+question: Hvilken type skatt gikk Vauban inn for i sine skrifter?
+answer: Proporsjonal skatt - alle må gi samme prosentandel av inntekten sin til staten
+wrong_answers:
+  - Progressiv beskatning - skattesatsen for de rike må være høyere enn for de fattige
+  - Den faste skatten, uavhengig av inntekten din, du betaler det samme beløpet hvert år til staten
+  - Regressiv beskatning Skattesatsene for fattige må være høyere enn for de rike
+explanation: |
+  Vauban tok til orde for en proporsjonal skatt, "den kongelige tiende", som besto i å kreve inn en tiendedel (10 %) av inntekten til alle franskmenn, uavhengig av sosial status. Han mente at denne skatten ville være mer rettferdig og mer effektiv enn det eksisterende skattesystemet.

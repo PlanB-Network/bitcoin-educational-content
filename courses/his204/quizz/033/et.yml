@@ -1,0 +1,8 @@
+question: Miks ta arvab, et salakaubandus on Prantsusmaal nii laialt levinud?
+answer: Kuna õigusnormid takistavad teatavate kaupade seaduslikku kaubandust, on paralleelturu avamine
+wrong_answers:
+  - Kuna Prantsusmaal on nii palju vaeseid inimesi, on nende ainus ressurss salakaubavedu
+  - Kuna protestantlik väljaränne on salakauba kasvulava
+  - Kuna tolliametnikud on korrumpeerunud
+explanation: |
+  Gournay uskus, et ülemäärane reguleerimine soodustab salakaubandust, sest see loob paralleelturud kaupadele, mille kaubandus on keelatud või mille suhtes kohaldatakse kõrgeid makse.

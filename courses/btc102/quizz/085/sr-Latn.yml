@@ -1,9 +1,0 @@
-question: Šta se koristi Hot Wallet u kontekstu Bitcoin?
-answer: Da redovno šaljete i primate bitkoine za svakodnevnu upotrebu.
-wrong_answers:
-  - Da sigurno čuvate bitkoine na duži rok.
-  - Da se iskopaju novi bitkoini.
-  - Da trgujete bitcoinima na Exchange platformi.
-explanation: |
-  Hot Wallet je tip Bitcoin Wallet koji je povezan na internet, što ga čini pogodnim za svakodnevne transakcije. Međutim, podložniji je hakovanju i krađi od Cold Wallet.
-reviewed: false

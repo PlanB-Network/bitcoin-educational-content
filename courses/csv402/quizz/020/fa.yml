@@ -1,0 +1,9 @@
+question: عنصر کلیدی که تضمین می‌کند Bob در طول یک State Transition در RGB یک دارایی دریافت کند چیست؟
+answer: یک Seal Definition جدید اشاره به UTXO از Bob دارد
+wrong_answers:
+  - یک تراکنش کنترلی بدون ارجاع به UTXO
+  - بیانیه‌ای عمومی از Alice
+  - یک امضای دوگانه که توسط Alice و Bob به اشتراک گذاشته شده است
+explanation: |
+  Seal Definition دارایی را به صورت رمزنگاری به UTXO از Bob متصل می‌کند و اطمینان حاصل می‌کند که او مالک آن است.
+reviewed: false

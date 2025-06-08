@@ -1,0 +1,9 @@
+question: گره RGB-lightning-node در اکوسیستم RGB چیست؟
+answer: یک daemon برای مدیریت کانال‌های Lightning سازگار با RGB
+wrong_answers:
+  - یک Wallet موبایل برای مدیریت دارایی‌های RGB
+  - یک سرور پروکسی به Exchange RGB لاگ‌ها
+  - یک ابزار Mining برای دارایی‌های RGB بر روی Bitcoin
+explanation: |
+  گره رعد و برق RGB یک Rust daemon است که برای ادغام دارایی‌های RGB در کانال‌های رعد و برق با افزودن انتقال حالت RGB به تراکنش‌های تعامل طراحی شده است.
+reviewed: false

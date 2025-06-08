@@ -1,0 +1,8 @@
+question: Which of these authors did not criticize the Physiocrats?
+answer: Condorcet
+wrong_answers:
+  - Voltaire
+  - Condillac
+  - Adam Smith
+explanation: |
+  Condorcet was rather sympathetic to the ideas of the Physiocrats, and even collaborated with them on certain projects.

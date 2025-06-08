@@ -1,0 +1,8 @@
+question: Mikä on Fysiokrateen lehden nimi?
+answer: Les Ephémérides du Citoyen
+wrong_answers:
+  - Les Ephémérides du Peuple (kansanedustajat)
+  - Uusi kansalainen
+  - Le Journal des Économistes
+explanation: |
+  Fysiokraattien sanomalehti oli "Les Éphémérides du Citoyen", jossa he levittivät ajatuksiaan ja taloudellisia analyysejaan.

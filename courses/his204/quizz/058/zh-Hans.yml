@@ -1,0 +1,8 @@
+question: 根据勒特罗姆的书名，如何描述贸易自由？
+answer: 永远有用，永不有害
+wrong_answers:
+  - 永远有利可图，永远有用
+  - 常常有利可图，总是合乎道德
+  - 有时有利，有时有害
+explanation: |
+  勒特罗姆写道："De l'intérêt social, par rapport à la valeur, à la circulation, à l'industrie et au commerce intérieur et extérieur"，在这篇文章中，他为自由贸易辩护，认为自由贸易对社会总是有益而无害的。

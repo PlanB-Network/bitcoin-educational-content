@@ -1,0 +1,9 @@
+question: پیشوند `wpkh` در یک توصیف‌گر به معنای "Witness Public Key Hash" است که به نوعی آدرس بیت‌کوین اشاره دارد که از SegWit (Segregated Witness) استفاده می‌کند. این نوع آدرس‌ها به عنوان آدرس‌های بومی SegWit شناخته می‌شوند و با کاهش کارمزد تراکنش‌ها و افزایش ظرفیت بلاک‌ها، به بهبود کارایی شبکه بیت‌کوین کمک می‌کنند.
+answer: پرداخت-به-شاهد-کلیدعمومی-Hash
+wrong_answers:
+  - پرداخت به کلید عمومی
+  - Pay-to-Script-Hash
+  - فیلمنامه شاهد Hash
+explanation: |
+  پیشوند `wpkh` نشان‌دهنده یک اسکریپت SegWit v0 با استفاده از آدرس‌های Pay-to-Witness-Public-Key-Hash است.
+reviewed: false

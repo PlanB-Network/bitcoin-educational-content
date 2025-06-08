@@ -1,9 +1,0 @@
-question: Koji je preporučeni Wallet za Hodlera da počne sa njim?
-answer: Cold Wallet kao Bitbox02, Trezor, ili Ledger.
-wrong_answers:
-  - Mobilna aplikacija Hot Wallet.
-  - Fizički Wallet.
-  - Papir Wallet.
-explanation: |
-  Za Hodlera, preporučljivo je početi sa Cold Wallet kao što su Bitbox02, Trezor, ili Ledger. Ovi uređaji nude sigurnost za bitkoine na duži rok.
-reviewed: false

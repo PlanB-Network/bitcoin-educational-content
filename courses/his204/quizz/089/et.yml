@@ -1,0 +1,8 @@
+question: Miks toetab Condillaci teooria oluliselt vabakaubanduse põhimõtet?
+answer: Sest kui kaubandus on alati vastastikku kasulik, siis ei ole mõtet seda piirata või keelata tolli kaudu
+wrong_answers:
+  - Sest Condillac näitas arvutustega, et vabakaubandus rikastab rahvast rohkem kui protektsionism
+  - Sest Condillac tõestas, et vabakaubandus on hea rahule
+  - Sest Condillac oli Adam Smithi sõber
+explanation: |
+  Condillaci teooria väidab, et Exchange on vastastikku kasulik, sest kumbki pool loobub sellest, mida ta kõige vähem väärtustab, et saada seda, mida ta kõige rohkem väärtustab. Järelikult ei ole vaja piirata või keelata kaubandust tolli või muude piirangutega.

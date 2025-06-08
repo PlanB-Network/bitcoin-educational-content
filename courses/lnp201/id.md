@@ -163,8 +163,8 @@ Tipe alamat ini secara tepat merupakan representasi di blockchain Bitcoin dari s
 
 - **Bitcoin address (alamat)** berasal dari public key (kunci publik), yang asalnya dari private key (kunci privat).
 - Dana pada Bitcoin dikunci oleh **skrip**, dan untuk bisa menggunakan dana tersebut, maka harus memenuhi kondisi skrip, yang umumnya memerlukan tanda tangan dengan private key (kunci privat) yang sesuai.
-- **UTXOs** adalah potongan-potongan bitcoin yang dikunci oleh skrip, dan setiap transaksi Bitcoin terdiri dari membuka kunci UTXO dan kemudian menciptakan satu atau lebih UTXO baru yang juga terkunci sebagai gantinya.
-- **2/2 multi-signature address (alamat multi-tanda tangan 2/2)** memerlukan tanda tangan dari private key (kunci privat) untuk bisa menggunakan dana di dalamnya. Address (alamat) spesifik ini digunakan dalam konteks Lightning untuk membuat payment channel (saluran pembayaran).
+- **UTXOs** adalah bagian-bagian bitcoin yang dikunci oleh skrip, dan setiap transaksi Bitcoin terdiri dari membuka kunci UTXO dan kemudian menciptakan satu atau lebih UTXO baru yang juga terkunci sebagai gantinya.
+- **2/2 multi-signature address (alamat multi-tanda tangan 2/2)** memerlukan dua tanda tangan dari private key (kunci privat) untuk bisa menggunakan dana di dalamnya. Address (alamat) spesifik ini digunakan dalam konteks Lightning untuk membuat payment channel (saluran pembayaran).
 
 Bab tentang Bitcoin ini mempersiapkan kita agar dapat memahami beberapa konsep penting untuk pembahasan berikutnya. Dalam bab selanjutnya, kita akan secara khusus membahas bagaimana cara pembukaan channel (saluran) pada Lightning Network (Jaringan Lightning).
 
@@ -182,7 +182,7 @@ Dalam bab ini, kita akan membahas lebih rinci bagaimana cara membuka payment cha
 
 ### Lightning Channel (Saluran Lightning)
 
-Seperti yang kita lihat di bab pertama, **payment channel (saluran pembayaran)** pada Lightning dapat digambarkan seperti "pipa" untuk bertukar dana antara dua pihak (**Alice** dan **Bob** dalam contoh kita). Kapasitas dari saluran ini sesuai dengan jumlah dana yang tersedia di setiap sisi. Dalam contoh kita, Alice memiliki **100.000 satoshi** dan Bob memiliki **30.000 satoshi**, memberikan **kapasitas total** sebesar **130.000 satoshi**.
+Seperti yang kita lihat di bab pertama, **payment channel (saluran pembayaran)** pada Lightning dapat digambarkan seperti "pipa" untuk bertukar dana antara dua pihak (**Alice** dan **Bob** dalam contoh kita). Kapasitas dari saluran ini sesuai dengan jumlah dana yang tersedia di setiap sisi. Dalam contoh kita, Alice memiliki **100.000 satoshi** dan Bob memiliki **30.000 satoshi**, menjadikan **kapasitas total** sebesar **130.000 satoshi**.
 
 ![LNP201](assets/en/09.webp)
 
@@ -191,7 +191,7 @@ Seperti yang kita lihat di bab pertama, **payment channel (saluran pembayaran)**
 Sangat penting untuk membedakan dengan jelas berbagai tingkatan pertukaran pada Lightning Network (Jaringan Lightning):
 
 - **Komunikasi peer-to-peer (protokol Lightning)**: Ini adalah pesan yang dikirimkan node-node Lightning satu sama lain untuk berkomunikasi. Kita akan menggambarkan pesan-pesan untuk komunikasi peer-to-peer ini dengan garis putus-putus hitam di dalam diagram.
-- **Payment channels (saluran pembayaran) (protokol Lightning)**: Ini adalah jalur untuk bertukar dana pada Lightning, yang akan kita gambarkan dengan garis hitam padat.
+- **Payment channels (saluran pembayaran) (protokol Lightning)**: Ini adalah jalur untuk bertukar dana pada Lightning, yang akan kita gambarkan dengan garis hitam.
 - **Transaksi Bitcoin (protokol Bitcoin)**: Ini adalah transaksi yang dilakukan onchain (di jaringan utama), yang akan kita gambarkan dengan garis oranye.
 
 ![LNP201](assets/en/10.webp)
@@ -199,7 +199,7 @@ Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui pr
 
 ### Langkah-langkah Membuka Lightning Channel (Saluran Lightning)
 
-- **Pertukaran pesan**: Alice ingin membuka saluran dengan Bob. Alice mengirimi Bob pesan yang berisi jumlah yang ingin dia setorkan ke dalam saluran (130.000 sats) dan public key (kunci publik) miliknya. Bob merespons dengan membagikan public key (kunci publik) milik Bob.
+- **Pertukaran pesan**: Alice ingin membuka saluran dengan Bob. Alice mengirimi Bob pesan yang berisi jumlah yang ingin dia setorkan ke dalam saluran (130.000 sats) dan public key (kunci publik) miliknya. Bob merespon dengan membagikan public key (kunci publik) milik Bob.
 
 ![LNP201](assets/en/11.webp)
 
@@ -207,7 +207,7 @@ Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui pr
 
 ![LNP201](assets/en/12.webp)
 
-- **Deposit transaction (transaksi setoran - awal pembukaan saluran)**: Alice menyiapkan transaksi Bitcoin untuk menyetorkan dana pada multisignature address (alamat multi-tandatangan) ini. Sebagai contoh, Alice mungkin memutuskan untuk mengirim **130.000 satoshi** ke multisignature address (alamat multi-tandatangan) ini. Transaksi ini **dibuat tetapi belum dipublikasikan** di blockchain.
+- **Deposit transaction (transaksi setoran - awal pembukaan saluran)**: Alice menyiapkan transaksi Bitcoin untuk menyetorkan dana pada multisignature address (alamat multi-tandatangan) ini. Sebagai contoh, Alice bisa saja memutuskan untuk mengirim **130.000 satoshi** ke multisignature address (alamat multi-tandatangan) ini. Transaksi ini **dibuat tetapi belum dipublikasikan** di blockchain.
 
 ![LNP201](assets/en/13.webp)
 
@@ -215,7 +215,7 @@ Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui pr
 
 ![LNP201](assets/en/14.webp)
 
-- **Tanda tangan Bob**: Alice mengirim deposit transaction (transaksi setoran) kepada Bob sebagai bukti dan memintanya untuk menandatangani withdrawal transaction (transaksi penarikan). Setelah tanda tangan Bob diperoleh pada transaksi penarikan, Alice merasa yakin bahwa dia dapat memulihkan dananya kapan saja, karena hanya tanda tangan Alice sendiri yang sekarang diperlukan untuk membuka multisignature.
+- **Tanda tangan Bob**: Alice mengirim deposit transaction (transaksi setoran) kepada Bob sebagai bukti dan memintanya untuk menandatangani withdrawal transaction (transaksi penarikan). Setelah tanda tangan Bob diperoleh pada withdrawal transaction (transaksi penarikan), Alice merasa yakin bahwa dia dapat memulihkan dananya kapan saja, karena hanya tanda tangan Alice sendiri yang sekarang diperlukan untuk membuka multisignature.
 
 ![LNP201](assets/en/15.webp)
 
@@ -225,14 +225,13 @@ Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui pr
 
 ### Kapan saluran dianggap sudah aktif?
 
-Saluran dianggap sudah buka setelah deposit transaction (transaksi setoran) dimasukkan ke dalam blok Bitcoin dan telah mencapai sejumlah konfirmasi tertentu (jumlah blok berikutnya).
+Saluran dianggap sudah dibuka setelah deposit transaction (transaksi setoran) dimasukkan ke dalam blok Bitcoin dan telah mencapai sejumlah konfirmasi tertentu (jumlah blok berikutnya).
 
 **Apa yang perlu Anda ingat dari bab ini?**
 
 - Membuka saluran dimulai dengan pertukaran **pesan** antara kedua pihak (pertukaran jumlah dan public key/ kunci publik).
 - Saluran dibentuk dengan membuat **2/2 multi-signature address (alamat multi-tanda tangan 2/2)** dan menyetorkan dana ke dalamnya melalui transaksi Bitcoin.
-- Pihak yang membuka saluran memastikan bahwa mereka dapat **memulihkan dana mereka** melalui withdrawal transaction (transaksi penarikan) yang ditandatangani oleh pihak lain sebelum mempublikasikan deposit transaction (transaksi setoran).
-
+  
 Pada bab selanjutnya, kita akan membahas cara kerja teknis transaksi Lightning dalam sebuah channel (saluran).
 
 ## Transaksi Komitmen
@@ -243,21 +242,21 @@ Pada bab selanjutnya, kita akan membahas cara kerja teknis transaksi Lightning d
 
 Dalam bab ini, kita akan membahas fungsi teknis dari sebuah transaksi dalam channel (saluran) di Lightning Network (Jaringan Lightning), yaitu ketika dana dipindahkan dari satu sisi channel (saluran) ke sisi lainnya.
 
-### Ringkasan terkait siklus hidup channel (saluran)
+### Ringkasan terkait Siklus Hidup Saluran
 
-Seperti yang telah dijelaskan sebelumnya, sebuah channel (saluran) Lightning dimulai dengan **pembukaan** melalui transaksi Bitcoin. Channel (saluran) tersebut dapat **ditutup** kapan saja, juga melalui transaksi Bitcoin. Di antara pembukaan dan penutupan tersebut, dalam jumlah yang tak terbatas transaksi dapat dilakukan di dalam channel (saluran) tersebut, tanpa harus melalui blockchain Bitcoin. Mari kita lihat apa yang terjadi selama transaksi di dalam channel (saluran).
+Seperti yang telah dijelaskan sebelumnya, sebuah saluran Lightning dimulai dengan **pembukaan** melalui transaksi Bitcoin. Saluran tersebut dapat **ditutup** kapan saja, juga melalui transaksi Bitcoin. Di antara pembukaan dan penutupan tersebut, dalam jumlah yang tak terbatas transaksi dapat dilakukan di dalam saluran tersebut, tanpa harus melalui blockchain Bitcoin. Mari kita lihat apa yang terjadi selama transaksi di dalam saluran.
 
 ![LNP201](assets/en/17.webp)
 
 ### Kondisi Awal Channel (Saluran)
 
-Pada saat membuka channel (saluran), Alice menyetorkan **130.000 satoshi** pada multisignature address (alamat multi tanda tangan). Sehingga, pada kondisi awal, semua dana berada di sisi Alice. Sebelum pembukaan channel (saluran), Alice juga membuat Bob menandatangani sebuah **withdrawal transaction (transaksi penarikan)**, yang memungkinkan Alice untuk mengambil kembali dananya jika Alice ingin menutup channel (saluran) tersebut.
+Pada saat membuka saluran, Alice menyetorkan **130.000 satoshi** pada multisignature address (alamat multi tanda tangan). Sehingga, pada kondisi awal, semua dana berada di sisi Alice. Sebelum pembukaan saluran, Alice juga membuat Bob menandatangani sebuah **withdrawal transaction (transaksi penarikan)**, yang memungkinkan Alice untuk mengambil kembali dananya jika Alice ingin menutup saluran tersebut.
 
 ![LNP201](assets/en/18.webp)
 
 ### Transaksi yang Tidak Dipublikasikan: Transaksi Komitmen
 
-Ketika Alice melakukan transaksi dalam channel (saluran) untuk mengirim dana ke Bob, sebuah transaksi Bitcoin baru dibuat untuk mencerminkan perubahan ini dalam distribusi dana. Transaksi ini, yang disebut **transaksi komitmen**, tidak dipublikasikan di blockchain tetapi mewakili kondisi baru channel (saluran) setelah transaksi di dalam channel (saluran) Lightning ini.
+Ketika Alice melakukan transaksi dalam saluran untuk mengirim dana ke Bob, sebuah transaksi baru Bitcoin dibuat untuk mencerminkan perubahan ini dalam distribusi dana. Transaksi ini, yang disebut **transaksi komitmen**, tidak dipublikasikan di blockchain tetapi mewakili kondisi baru saluran setelah transaksi di dalam saluran Lightning ini.
 
 Mari kita ambil contoh dengan Alice mengirim 30.000 satoshi ke Bob:
 
@@ -266,11 +265,11 @@ Mari kita ambil contoh dengan Alice mengirim 30.000 satoshi ke Bob:
   Untuk memvalidasi transfer ini, Alice dan Bob membuat **transaksi Bitcoin baru yang tidak dipublikasikan** yang akan mengirim **100.000 satoshi ke Alice** dan **30.000 satoshi ke Bob** dari multisignature address (alamat multi tanda tangan). Kedua pihak membangun transaksi ini secara independen, tetapi dengan data yang sama (jumlah dan address/ alamat). Setelah dibangun, masing-masing menandatangani transaksi dan bertukar tanda tangan dengan yang lain. Ini memungkinkan salah satu pihak untuk mempublikasikan transaksi kapan saja jika diperlukan untuk memulihkan bagian mereka dari saluran di blockchain Bitcoin utama.
   ![LNP201](assets/en/19.webp)
 
-### Proses Transfer: Invoice (Tagihan Pembayaran)
+### Proses Transfer: Invoice (Permintaan Pembayaran)
 
-Ketika Bob ingin menerima dana, dia mengirim Alice sebuah **invoice** untuk 30.000 satoshi. Alice kemudian melanjutkan untuk membayar invoice ini dengan melakukan transfer di dalam channel (saluran) tersebut. Seperti yang telah kita lihat, proses ini bergantung pada pembuatan dan penandatanganan **transaksi komitmen** baru.
+Ketika Bob ingin menerima dana, dia mengirim Alice sebuah **invoice** untuk 30.000 satoshi. Alice kemudian melanjutkan untuk membayar invoice ini dengan melakukan transfer di dalam saluran tersebut. Seperti yang telah kita lihat, proses ini bergantung pada pembuatan dan penandatanganan **transaksi komitmen** baru.
 
-Setiap transaksi komitmen mewakili distribusi dana baru dalam channel (saluran) setelah transfer. Dalam contoh ini, setelah transaksi, Bob memiliki 30.000 satoshi dan Alice memiliki 100.000 satoshi. Jika salah satu dari dua peserta memutuskan untuk mempublikasikan transaksi komitmen ini di blockchain, itu akan mengakibatkan penutupan saluran dan dana akan didistribusikan sesuai dengan distribusi terakhir ini.
+Setiap transaksi komitmen mewakili distribusi dana terbaru dalam saluran setelah transfer dilakukan. Dalam contoh ini, setelah transaksi, Bob memiliki 30.000 satoshi dan Alice memiliki 100.000 satoshi. Jika salah satu dari dua peserta memutuskan untuk mempublikasikan transaksi komitmen ini di blockchain, itu akan mengakibatkan penutupan saluran dan dana akan didistribusikan sesuai dengan distribusi terakhir ini.
 
 ![LNP201](assets/en/20.webp)
 
@@ -283,25 +282,24 @@ Mari kita ambil contoh lain: setelah transaksi pertama di mana Alice mengirim 30
 
 ![LNP201](assets/en/21.webp)
 
-Sekali lagi, transaksi ini tidak dipublikasikan di blockchain tetapi dapat dipublikasikan kapan saja jika channel (saluran) ditutup.
+Sekali lagi, transaksi ini tidak dipublikasikan di blockchain tetapi dapat dipublikasikan kapan saja jika saluran ditutup.
 
-Kesimpulannya, ketika dana ditransfer dalam channel (saluran) Lightning:
+Kesimpulannya, ketika dana ditransfer dalam saluran Lightning:
 
 - Alice dan Bob membuat **transaksi komitmen** baru, yang mencerminkan distribusi dana yang baru.
-- Transaksi Bitcoin ini **ditandatangani** oleh kedua belah pihak, namun **tidak dipublikasikan** di blockchain Bitcoin selama channel (saluran) masih dibuka.
+- Transaksi Bitcoin ini **ditandatangani** oleh kedua belah pihak, namun **tidak dipublikasikan** di blockchain Bitcoin selama saluran masih dibuka.
 - Transaksi komitmen memastikan bahwa setiap peserta dapat memulihkan dana mereka kapan saja di blockchain Bitcoin dengan mempublikasikan transaksi terakhir yang ditandatangani.
 
-Namun, sistem ini memiliki kelemahan, yang akan kita bahas di bab berikutnya. Kita akan melihat bagaimana setiap pihak dapat melindungi diri mereka dari upaya curang dari pihak lainnya.
+Namun, sistem ini memiliki kelemahan, yang akan kita bahas di bab berikutnya. Kita akan melihat bagaimana setiap pihak dapat melindungi diri mereka dari upaya curang pihak lainnya.
 
 ## Revocation Key (Kunci Pembatalan)
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 :::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
-Dalam bab ini, kita akan membahas lebih rinci tentang bagaimana cara kerja transaksi di Lightning Network (Jaringan Lightning) dengan membahas mekanisme yang ada untuk melindungi dari kecurangan, memastikan bahwa setiap pihak mematuhi aturan dalam sebuah channel (saluran).
 
 ### Ringkasan terkait Transaksi Komitmen
 
-Seperti yang telah dijelaskan sebelumnya, transaksi di Lightning bergantung pada **transaksi komitmen** yang tidak dipublikasikan. Transaksi ini mencerminkan distribusi dana saat ini di saluran. Ketika ada transaksi Lightning yang baru dilakukan, maka transaksi komitmen baru juga dibuat dan ditandatangani oleh kedua belah pihak untuk mencerminkan keadaan baru di saluran tersebut.
+Seperti yang telah dijelaskan sebelumnya, transaksi di Lightning bergantung pada **transaksi komitmen** yang tidak dipublikasikan. Transaksi ini mencerminkan distribusi dana terkini di channel (saluran). Ketika ada transaksi Lightning yang baru dilakukan, maka transaksi komitmen baru juga dibuat dan ditandatangani oleh kedua belah pihak untuk mencerminkan keadaan terbaru di saluran tersebut.
 
 Mari kita ambil contoh sederhana:
 
@@ -312,15 +310,15 @@ Mari kita ambil contoh sederhana:
 
 ![LNP201](assets/en/22.webp)
 
-Kapan saja, kedua belah pihak dapat mempublikasikan **transaksi komitmen terakhir** yang ditandatangani untuk menutup channel (saluran) dan memulihkan dana mereka.
+Kapan saja, kedua belah pihak dapat mempublikasikan **transaksi komitmen terakhir** yang ditandatangani untuk menutup saluran dan memulihkan dana mereka.
 
 ### Kekurangan: Kecurangan dengan Mempublikasikan Transaksi Lama
 
-Masalah dapat muncul jika salah satu pihak memutuskan untuk **berbuat curang** dengan mempublikasikan transaksi komitmen lama. Misalnya, Alice mempublikasikan transaksi komitmen yang lebih lama di mana Alice masih memiliki **100.000 satoshi**, meskipun sekarang Alice hanya memiliki **60.000** secara nyata. Ini akan memungkinkan Alice untuk mencuri **40.000 satoshi** dari Bob.
+Masalah dapat muncul jika salah satu pihak memutuskan untuk **berbuat curang** dengan mempublikasikan transaksi komitmen lama. Misalnya, Alice mempublikasikan transaksi komitmen yang lebih lama di mana Alice masih memiliki **100.000 satoshi**, meskipun kenyataannya sekarang Alice hanya memiliki **60.000**. Ini akan memungkinkan Alice untuk mencuri **40.000 satoshi** dari Bob.
 
 ![LNP201](assets/en/23.webp)
 
-Lebih buruk lagi, Alice dapat mempublikasikan withdrawal transaction (transaksi penarikan) pertama, yang sebelum channel (saluran) dibuka, di mana Alice memiliki **130.000 satoshi**, dan mencuri seluruh dana channel (saluran) tersebut.
+Lebih buruk lagi, Alice dapat mempublikasikan withdrawal transaction (transaksi penarikan) pertama, sebelum saluran dibuka, di mana Alice memiliki **130.000 satoshi**, dan mencuri seluruh dana saluran tersebut.
 
 ![LNP201](assets/en/24.webp)
 
@@ -328,19 +326,19 @@ Lebih buruk lagi, Alice dapat mempublikasikan withdrawal transaction (transaksi 
 
 Untuk mencegah kecurangan seperti yang dilakukan oleh Alice, di Lightning Network (Jaringan Lightning), **mekanisme keamanan** ditambahkan ke transaksi komitmen:
 
-- **Timelock (penguncian waktu)**: Setiap transaksi komitmen harus disertai timelock (penguncian waktu) untuk dana milik Alice. Timelock (penguncian waktu) adalah aturan dalam kontrak pintar yang menunda pencairan dana hingga waktu tertentu, agar transaksi bisa dimasukkan ke dalam blok di blockchain. Ini berarti bahwa Alice tidak bisa langsung mengambil dananya sampai sejumlah blok telah berlalu semenjak Alice mempublikasikan salah satu transaksi komitmen tersebut. Timelock (penguncian waktu) ini mulai berlaku sejak transaksi komitmen dikonfirmasi di blockchain. Durasi timelock (penguncian waktu) ini umumnya berdasarkan besar dana di channel (saluran), namun juga bisa diatur secara manual.
+- **Timelock (penguncian waktu)**: Setiap transaksi komitmen harus disertai timelock (penguncian waktu) untuk dana milik Alice. Timelock (penguncian waktu) adalah aturan dalam kontrak pintar yang menunda pencairan dana hingga waktu tertentu, agar transaksi bisa dimasukkan ke dalam blok di blockchain. Ini berarti bahwa Alice tidak bisa langsung mengambil dananya sampai sejumlah blok telah berlalu semenjak Alice mempublikasikan salah satu transaksi komitmen tersebut. Timelock (penguncian waktu) ini mulai berlaku sejak transaksi komitmen dikonfirmasi di blockchain. Durasi timelock (penguncian waktu) ini umumnya berdasarkan besar dana di saluran, namun juga bisa diatur secara manual.
 - **Revocation Key (Kunci Pembatalan)**: Dana milik Alice juga bisa diambil oleh Bob jika Bob memiliki **revocation key (kunci pembatalan)**. Kunci ini terdiri dari rahasia yang dipegang oleh Alice dan juga Bob. Rahasia ini berbeda untuk setiap transaksi komitmen. 
 
-Berkat dua mekanisme ini, Bob memiliki waktu untuk mendeteksi kecurangan Alice, dan menghukumn Alice dengan mengambil kembali semua dana dari channel (saluran) tersebut menggunakan revocation key (kunci pembatalan). Transaksi komitmen baru kita sekarang akan terlihat seperti ini:
+Berkat dua mekanisme ini, Bob memiliki waktu untuk mendeteksi kecurangan Alice, dan menghukum Alice dengan mengambil kembali semua dana dari saluran tersebut menggunakan revocation key (kunci pembatalan). Transaksi komitmen baru kita sekarang akan terlihat seperti ini:
 ![LNP201](assets/en/25.webp)
 
 Mari kita rinci bersama fungsi mekanisme ini.
 
 ### Proses Pembaruan Transaksi
 
-Ketika Alice dan Bob memperbarui status saluran dengan transaksi Lightning baru, mereka bertukar **rahasia** terlebih dahulu untuk transaksi komitmen sebelumnya (yang akan menjadi kadaluarsa dan memungkinkan disalahgunakan untuk menipu). Ini berarti bahwa, dalam status channel (saluran) yang baru:
+Ketika Alice dan Bob memperbarui status saluran dengan transaksi Lightning terbaru, mereka bertukar **rahasia** terlebih dahulu untuk transaksi komitmen sebelumnya (yang akan menjadi kadaluarsa dan memungkinkan disalahgunakan untuk menipu). Ini berarti bahwa, dalam status saluran yang baru:
 
-- Alice dan Bob memiliki transaksi komitmen baru yang mewakili distribusi dana saat ini setelah transaksi Lightning.
+- Alice dan Bob memiliki transaksi komitmen baru yang mewakili distribusi dana terkini setelah transaksi Lightning.
 - Masing-masing memiliki rahasia satu sama lain dari transaksi sebelumnya, yang memungkinkan mereka untuk menggunakan revocation key (kunci pembatalan) hanya jika salah satu dari mereka mencoba berbuat curang dengan mempublikasikan transaksi versi lama di mempool/ memory pool (tempat penyimpanan sementara transaksi-transaksi Bitcoin yang sudah valid, tapi belum masuk ke dalam blok di blockchain) node-node Bitcoin. Memang, untuk menghukum pihak lain, diperlukan untuk memegang kedua rahasia dan transaksi komitmen pihak lain, yang mencakup input yang ditandatangani. Tanpa transaksi ini, hanya revocation key (kunci pembatalan) saja tidak akan berguna. Satu-satunya cara untuk mendapatkan transaksi ini adalah dengan mengambilnya dari mempool (dalam transaksi yang menunggu konfirmasi) atau dalam transaksi yang sudah dikonfirmasi di blockchain selama timelock (penguncian waktu), yang membuktikan bahwa pihak lain mencoba curang, baik sengaja maupun tidak.
 
 Mari kita ambil contoh untuk memahami proses ini dengan baik:
@@ -349,11 +347,11 @@ Mari kita ambil contoh untuk memahami proses ini dengan baik:
 
 ![LNP201](assets/en/26.webp)
 
-- Bob ingin menerima 40.000 satoshi dari Alice melalui channel (saluran) Lightning mereka. Untuk melakukan ini:
-   - Bob mengirimkan invoice (tagihan pembayaran) kepada Alice bersama dengan rahasianya untuk revocation key (kunci pembatalan) transaksi komitmen sebelumnya.
-   - Sebagai tanggapan, Alice memberikan tanda tangannya untuk transaksi komitmen baru Bob, serta rahasianya untuk revocation key (kunci pembatalan) transaksi sebelumnya.
+- Bob ingin menerima 40.000 satoshi dari Alice melalui saluran Lightning mereka. Untuk melakukan ini:
+   - Bob mengirimkan invoice (permintaan pembayaran) kepada Alice bersama dengan rahasia Bob untuk revocation key (kunci pembatalan) transaksi komitmen sebelumnya.
+   - Sebagai tanggapan, Alice memberikan tanda tangannya untuk transaksi komitmen baru Bob, serta rahasia Alice untuk revocation key (kunci pembatalan) transaksi sebelumnya.
    - Akhirnya, Bob mengirimkan tanda tangannya untuk transaksi komitmen baru Alice.
-   - Pertukaran ini memungkinkan Alice untuk mengirim **40.000 satoshi** kepada Bob di Lightning melalui channel (saluran) mereka, dan transaksi komitmen baru sekarang mencerminkan distribusi dana baru ini.
+   - Pertukaran ini memungkinkan Alice untuk mengirim **40.000 satoshi** kepada Bob di Lightning melalui saluran mereka, dan transaksi komitmen baru sekarang mencerminkan distribusi dana terbaru ini.
 
 ![LNP201](assets/en/27.webp)
 
@@ -361,15 +359,15 @@ Mari kita ambil contoh untuk memahami proses ini dengan baik:
 
 ![LNP201](assets/en/28.webp)
 
-Meskipun, dalam kasus ini, Bob tidak memiliki kepentingan ekonomi untuk dalam percobaan kecurangan, jika Bob melakukan kecurangan, Alice juga mendapat manfaat dari perlindungan ini yang memberinya jaminan yang sama.
+Meskipun, dalam kasus ini, Bob tidak memiliki kepentingan ekonomi untuk melakukan percobaan kecurangan, jika Bob melakukan kecurangan, Alice juga mendapat manfaat dari perlindungan ini yang memberinya jaminan yang sama.
 
 **Apa yang bisa Anda dapatkan dari bab ini?**
 
-**Transaksi komitmen** di Lightning Network (Jaringan Lightning) mencakup mekanisme keamanan yang dapat mengurangi risiko kecurangan maupun insentif untuk melakukannya. Sebelum menandatangani transaksi komitmen baru, Alice dan Bob bertukar **rahasia** masing-masing untuk transaksi komitmen sebelumnya. Jika Alice mencoba mempublikasikan transaksi komitmen lama, Bob dapat menggunakan **revocation key (kunci pembatalan)** untuk mengambil alih semua dana sebelum Alice mengambilnya (karena Alice diblokir oleh timelock), yang menghukumnya karena mencoba curang.
+**Transaksi komitmen** di Lightning Network (Jaringan Lightning) mencakup mekanisme keamanan yang dapat mengurangi risiko kecurangan maupun insentif untuk melakukannya. Sebelum menandatangani transaksi komitmen baru, Alice dan Bob bertukar **rahasia** masing-masing untuk transaksi komitmen sebelumnya. Jika Alice mencoba mempublikasikan transaksi komitmen lama, Bob dapat menggunakan **revocation key (kunci pembatalan)** untuk mengambil alih semua dana sebelum Alice mengambilnya (karena Alice diblokir oleh timelock), yang menghukum Alice karena mencoba curang.
 
-Sistem keamanan ini memastikan bahwa semua pihak mematuhi aturan Lightning Network (Jaringan Lightning), dan mereka tidak dapat memperoleh keuntungan dari mempublikasikan transaksi komitmen lama.
+Sistem keamanan ini memastikan bahwa semua pihak mematuhi aturan Lightning Network, dan mereka tidak dapat memperoleh keuntungan dari mempublikasikan transaksi komitmen lama.
 
-Anda sekarang sudah mengetahui bagaimana saluran Lightning dibuka dan bagaimana transaksi dalam channel (saluran) ini bekerja. Pada bab selanjutnya, kita akan membahas berbagai cara untuk menutup saluran dan memulihkan bitcoin Anda di blockchain utama.
+Anda sekarang sudah mengetahui bagaimana saluran Lightning dibuka dan bagaimana transaksi dalam saluran ini bekerja. Pada bab selanjutnya, kita akan membahas berbagai cara untuk menutup saluran dan memulihkan bitcoin Anda di blockchain utama.
 
 ## Menutup Channel (Saluran)
 

@@ -5,7 +5,7 @@ objectives:
   - Memahami operasi saluran jaringan.
   - Membiasakan diri dengan istilah HTLC, LNURL, dan UTXO.
   - Menguasai manajemen likuiditas dan biaya LNN.
-  - Menyadari Lightning Network (Jaringan Lightning) sebagai sebuah jaringan.
+  - Menyadari Lightning Network sebagai sebuah jaringan.
   - Memahami penggunaan Lightning Network secara teoretis.
 ---
 
@@ -13,7 +13,7 @@ objectives:
 
 Memahami inti dari Lightning Network (Jaringan Lightning), sebuah sistem penting untuk masa depan transaksi Bitcoin. LNP201 adalah kursus teoretis tentang cara kerja teknis Lightning. Kursus ini menjelaskan fondasi dan mekanisme dari jaringan lapisan kedua ini, yang dirancang untuk membuat pembayaran Bitcoin cepat, ekonomis, dan dapat digunakan oleh banyak pengguna secara bersamaan.
 
-Berkat jaringan saluran pembayarannya, Lightning memungkinkan transaksi cepat dan aman tanpa mencatat setiap pertukaran di blockchain Bitcoin. Sepanjang bab, Anda akan belajar bagaimana pembukaan, pengelolaan, dan penutupan saluran bekerja, bagaimana pembayaran dialirkan melalui node perantara secara aman dengan meminimalkan kebutuhan akan kepercayaan, serta bagaimana mengelola likuiditas. Anda akan memahami apa itu transaksi komitmen, _HTLC_, _revocation key_ (kunci pembatalan), mekanisme hukuman, _onion routing_, dan _invoice_ (tagihan pembayaran).
+Berkat jaringan saluran pembayarannya, Lightning memungkinkan transaksi cepat dan aman tanpa mencatat setiap pertukaran di blockchain Bitcoin. Sepanjang bab, Anda akan belajar bagaimana pembukaan, pengelolaan, dan penutupan saluran bekerja, bagaimana pembayaran dirutekan melalui node perantara secara aman dengan meminimalkan kebutuhan akan kepercayaan, serta bagaimana mengelola likuiditas. Anda akan memahami apa itu transaksi komitmen, _HTLC_, _revocation key_ (kunci pembatalan), mekanisme hukuman, _onion routing_, dan _invoice_ (permintaan pembayaran).
 
 Entah Anda pemula dalam Bitcoin ataupun sudah berpengalaman, kursus ini akan memberikan informasi berharga untuk memahami dan menggunakan Lightning Network (Jaringan Lightning). Meskipun kami akan membahas beberapa dasar cara kerja Bitcoin di bagian awal, sangat penting untuk menguasai dasar-dasar penemuan Satoshi sebelum membahas lebih dalam LNP201.
 
@@ -29,8 +29,7 @@ Nikmati penemuan Anda!
 
 Selamat datang di kursus LNP201!
 
-Pelatihan ini bertujuan untuk memberikan pemahaman mendalam tentang teknis 
-Lightning Network (Jaringan Lightning), sebuah jaringan lapisan tambahan yang dirancang untuk memfasilitasi transaksi bitcoin dengan cepat dan seringkali dengan biaya lebih rendah. Anda akan secara bertahap memahami konsep mendasar yang mengatur Jaringan Lightning ini, mulai dari membuka saluran pembayaran hingga teknik routing dan manajemen likuiditas.
+Pelatihan ini bertujuan untuk memberikan pemahaman mendalam tentang teknis Lightning Network (Jaringan Lightning), sebuah jaringan lapisan tambahan yang dirancang untuk memfasilitasi transaksi bitcoin dengan cepat dan seringkali dengan biaya lebih rendah. Anda akan secara bertahap memahami konsep mendasar yang mengatur Jaringan Lightning ini, mulai dari membuka saluran pembayaran hingga teknik routing dan manajemen likuiditas.
 
 **Bagian 1: Dasar-Dasar**  
 Kita akan mulai dengan pengenalan umum tentang Lightning Network (Jaringan Lightning), untuk memahami dasar-dasar penting terkait Bitcoin, Address, UTXO, dan cara kerja transaksi. Hal-hal dasar ini sangat penting untuk memahami bagaimana Lightning Network (Jaringan Lightning) bergantung pada mekanisme blockchain yang melandasinya agar dapat beroperasi dengan aman.
@@ -39,13 +38,13 @@ Kita akan mulai dengan pengenalan umum tentang Lightning Network (Jaringan Light
 Pada bagian ini, kita akan membahas proses pembukaan saluran, yang merupakan landasan dari Lightning Network (Jaringan Lightning). Anda akan mempelajari bagaimana transaksi komitmen dibuat, peran revocation key (kunci pembatalan) dalam menjaga keamanan, serta bagaimana saluran dapat ditutup secara kolaboratif maupun sepihak. Setiap langkah akan dijelaskan secara rinci dan teknis agar Anda dapat memahami semua seluk beluknya dengan baik.
 
 **Bagian 3: Jaringan Likuiditas**  
-Lightning Network (Jaringan Lightning) tidak terbatas pada saluran pembayaran antar individu; ini adalah jaringan pembayaran nyata yang dapat digunakan secara luas. Kita akan melihat bagaimana transaksi dapat dialirkan melalui node perantara menggunakan HTLC. Bagian ini juga akan menjelaskan tantangan likuiditas masuk (_inbound_) dan keluar (_outbound_).
+Lightning Network (Jaringan Lightning) tidak terbatas pada saluran pembayaran antar individu, ini adalah jaringan pembayaran nyata yang dapat digunakan secara luas. Kita akan melihat bagaimana transaksi dapat dirutekan melalui node perantara menggunakan HTLC. Bagian ini juga akan menjelaskan tantangan likuiditas masuk (_inbound_) dan keluar (_outbound_).
 
 **Bagian 4: Alat-Alat Jaringan Lightning**  
-Bagian ini memperkenalkan berbagai alat praktis dalam Lightning Network (Jaringan Lightning), seperti *Invoice*, *LNURL*, dan *Keysend*. Anda juga akan mempelajari cara mengelola likuiditas saluran Anda, aspek penting untuk memastikan kelancaran pembayaran dan memaksimalkan efisiensi transaksi di Lightning.
+Bagian ini memperkenalkan berbagai fitur praktis dalam Lightning Network (Jaringan Lightning), seperti *Invoice*, *LNURL*, dan *Keysend*. Anda juga akan mempelajari cara mengelola likuiditas saluran Anda, aspek penting untuk memastikan kelancaran pembayaran dan memaksimalkan efisiensi transaksi di Lightning.
 
 **Bagian 5: Melangkah Lebih Jauh**  
-Sebagai penutup pelatihan ini, kita akan merangkum kembali konsep-konsep yang telah dibahas serta memberikan pengantar untuk topik-topik lanjutan bagi Anda yang ingin memperdalam pemhamanan tentang Lightning Network (Jaringan Lightning).
+Sebagai penutup pelatihan ini, kita akan merangkum kembali konsep-konsep yang telah dibahas serta memberikan pengantar untuk topik-topik lanjutan bagi Anda yang ingin memiliki pemahaman mendalam tentang Lightning Network (Jaringan Lightning).
 
 Siap untuk mengungkap mekanisme teknis di balik Lightning Network (Jaringan Lightning)? Ayo kita mulai!
 
@@ -73,7 +72,7 @@ Dalam contoh ini, Alice memiliki 100.000 satoshi, dan Bob memiliki 30.000, denga
 
 **Tapi apa itu satoshi?**
 
-**Satoshi** (atau "sat") adalah satuan nilai terkecil dari Bitcoin. Mirip dengan sen dalam euro, satoshi hanyalah pecahan dari Bitcoin. Satu satoshi sama dengan **0,00000001 Bitcoin**, atau satu per seratus juta dari satu Bitcoin. Penggunaan satoshi menjadi semakin praktis seiring dengan meningkatnya nilai Bitcoin.
+**Satoshi** (atau "sat") adalah satuan nilai terkecil dari Bitcoin. Mirip dengan sen dalam euro, satoshi hanyalah pecahan dari Bitcoin. Satu satoshi sama dengan **0,00000001 Bitcoin**, atau satu per seratus juta dari satu Bitcoin. Penggunaan satoshi menjadi semakin praktis seiring dengan naiknya nilai Bitcoin.
 
 ### Alokasi Dana dalam Saluran
 
@@ -85,13 +84,13 @@ Mari kita ambil contoh transaksi Lightning. Jika Alice ingin mengirim 40.000 sat
 
 ![LNP201](assets/en/03.webp)
 
-**Kapasitas saluran**, sebesar 130.000 satoshi, akan tetap sama. Yang berubah hanyalah penempatan dana antara Bob dan Alice. Sistem ini tidak memungkinkan seseorang mengirim dana melebihi saldo yang dimilikinya. Misalnya, jika Bob ingin mengirim kembali 80.000 satoshi ke Alice, hal tersebut tidak bisa dilakukan karena saldo Bob hanya 70.000 satoshi.
+**Kapasitas saluran**, sebesar 130.000 satoshi, akan tetap sama. Yang berubah hanyalah penempatan dana antara Bob dan Alice. Sistem ini tidak mengizinkan seseorang mengirim dana melebihi saldo yang dimilikinya. Misalnya, jika Bob ingin mengirim kembali 80.000 satoshi ke Alice, hal tersebut tidak bisa dilakukan karena saldo Bob hanya 70.000 satoshi.
 
 Cara lain untuk memahami alokasi dana adalah dengan memikirkan sebuah **slider** yang menunjukkan di mana dana tersebut berada di dalam saluran. Awalnya, dengan 100.000 satoshi untuk Alice dan 30.000 untuk Bob, slider secara logis berada di sisi Alice. Setelah transaksi 40.000 satoshi, slider akan bergerak sedikit ke sisi Bob, yang sekarang memiliki 70.000 satoshi.
 
 ![LNP201](assets/en/04.webp)
 
-Gambar ini untuk membayangkan keseimbangan dana dalam suatu saluran.
+Gambar ini dapat membantu untuk membayangkan jumlah dana dalam saluran tersebut.
 
 ### Aturan Dasar dari Saluran Pembayaran
 
@@ -104,7 +103,7 @@ Yang penting untuk dipahami adalah bahwa kapasitas saluran yang tetap ini membat
 
 - Kapasitas sebuah saluran bersifat tetap dan menjadi penentu jumlah maksimum yang dapat dikirim dalam satu transaksi.
 - Dana dalam saluran didistribusikan antara dua pihak, dan masing-masing hanya dapat mengirimkan dana kepada pihak lain sesuai dengan jumlah yang mereka miliki di sisi mereka.
-- Dengan demikian, Lightning Network (Jaringan Lightning) memungkinkan pertukaran dana yang cepat dan efisien, sambil tetap memperhatikan batasan yang ditetapkan oleh kapasitas saluran.
+- Lightning Network (Jaringan Lightning) memungkinkan pertukaran dana yang cepat dan efisien, dengan batasan yang ditetapkan oleh kapasitas saluran.
 
 Inilah akhir dari bab pertama ini, di mana kita telah memahami dasar dari Lightning Network (Jaringan Lightning). Pada bab berikutnya, kita akan membahas cara membuka channel (saluran) dan menggali lebih dalam konsep yang sudah dibahas di bab ini.
 
@@ -113,7 +112,7 @@ Inilah akhir dari bab pertama ini, di mana kita telah memahami dasar dari Lightn
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 :::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
-Bab ini cukup istimewa karena tidak secara langsung didedikasikan untuk Lightning, melainkan untuk Bitcoin. Memang, Lightning Network (Jaringan Lightning) adalah lapisan di atasnya Bitcoin. Oleh karena itu, sangat penting untuk memahami beberapa konsep dasar Bitcoin agar bisa mengerti cara kerja Lightning di bab-bab selanjutnya. Dalam bab ini, kita akan mengulas dasar-dasar alamat penerima (_receiving address_) Bitcoin, UTXOs, serta cara kerja transaksi Bitcoin.
+Bab ini cukup istimewa karena tidak secara langsung didedikasikan untuk Lightning, melainkan untuk Bitcoin. Memang, Lightning Network (Jaringan Lightning) adalah lapisan di atasnya Bitcoin. Oleh karena itu, sangat penting untuk memahami beberapa konsep dasar Bitcoin agar bisa mengerti cara kerja Lightning di bab-bab selanjutnya. Dalam bab ini, kita akan mengulas dasar-dasar receiving address (alamat penerima) Bitcoin, UTXOs, serta cara kerja transaksi Bitcoin.
 
 ### Bitcoin Address, Kunci Privat, dan Kunci Publik
 

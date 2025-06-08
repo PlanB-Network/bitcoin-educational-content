@@ -1,9 +1,9 @@
-question: Koja je jedna od potencijalnih posledica nepoštovanja propisa vaše zemlje prilikom kupovine Bitcoin?
+question: Koja je jedna od potencijalnih posledica nepoštovanja propisa vaše zemlje prilikom kupovine Bitkoina?
 answer: Možda se izlažete riziku.
 wrong_answers:
-  - Možete povećati cenu Bitcoin.
-  - Možete kontrolisati Supply od Bitcoin.
-  - Možete sprečiti druge da kupe Bitcoin.
+  - Možete povećati cenu Bitkoina.
+  - Možete kontrolisati ponudu od Bitkoina.
+  - Možete sprečiti druge da kupe Bitkoina.
 explanation: |
-  Tekst kursa pominje da nepoštovanje propisa vaše zemlje prilikom kupovine Bitcoin može predstavljati rizik.
+  Tekst kursa pominje da nepoštovanje propisa vaše zemlje prilikom kupovine Bitkoina može predstavljati rizik.
 reviewed: true

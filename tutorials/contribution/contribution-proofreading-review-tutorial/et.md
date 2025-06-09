@@ -138,14 +138,7 @@ NB. Soovitatav on vaadata läbi koodiaknas, kusjuures originaalsisu kuvatakse er
 
 ## 6. Reeglid, mida järgida sisu toimetamisel
 
-- Enne uue toimetamise alustamist teavitage sellest [Telegrami grupis](https://t.me/PlanBNetwork_ContentBuilder) või rääkige oma Plan ₿ Network koordinaatoriga. Nad avavad [issue]](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), kus saate kommenteerida, et alustate tööd.
-- On oluline alati kontrollida kursuse/tutoriali originaali ingliskeelset (või prantsuskeelset) versiooni toimetamise ajal. Ärge kartke teha kohandusi sujuvuse parandamiseks, kuid ärge muutke üldist algset tähendust.
-- LLM-tööriistad võivad tõlkida mõningaid Bitcoiniga seotud sõnu sõna-sõnalt, nagu näiteks Lightning Network, mis muutuks eesti keeles "Valguse Võrguks". Sellistes olukordades on soovitatav kasutada originaali ingliskeelset sõna parema selguse saavutamiseks, kui teie keele reeglid ei nõua iga sõna tõlkimist.
-- Kui leiate tsitaate, veenduge, et uuriksite veebis, et leida õige tõlge oma keeles.
-- ÄRGE tõlkige teksti alguses olevaid staatilisi sõnu, mida kasutatakse sisu kirjeldamiseks: "name", "description", "objectives".
-- Kui leiate tekstist "Plan ₿ Network", jätke see sellises originaalses vormis. Ärge tõlkige sõna "plan" ega sõna "network". Lisaks, ÄRGE kasutage artiklit, kui tutvustate Plan ₿ Network'i, ja käsitlege seda kaubamärgina. Sama kehtib "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL" kohta, mis peaksid samuti jääma originaalsesse vormi.
-- Pöörake tähelepanu kummalisele kirjavahemärgile nagu '\*\*\', mis võib tähendada vale kujutamist rasvase sümboli **. Kontrollige alati originaalset ingliskeelset teksti, et näha, kas rasvane tekst peaks seal olema. Üldiselt, et rasvast teksti kuvada, palun sisestage kaks tärni ** nii sõna/lause ette kui ka taha. Lisainfot markdown keele kohta leiate [siit](https://www.markdownguide.org/basic-syntax/)..
-- Kui olete oma korrektuuri lõpetanud, saate naasta koordinaatori avatud algse probleemi juurde, kommenteerida "Proofreading done" ja sisestada sinna oma PR-link.
+Lisateabe saamiseks Plan ₿ võrgus korrektuuri tegemisel keele- või formaadireeglite kohta järgige palun selles samas jaotises olevat õpetust "contribution-proofreading-guidelines"!
 
 ## 7. Oodake ülevaatamist
 

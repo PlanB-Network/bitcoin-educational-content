@@ -138,14 +138,7 @@ NB. Det anbefales å se gjennom i kodevinduet, med det opprinnelige innholdet vi
 
 ## 6. Reglar å følgje når du korrekturleser innhald
 
-- Før du startar på ein ny korrekturlesing, kunngjer det i [Telegram-gruppa](https://t.me/PlanBNetwork_ContentBuilder) eller fortel koordinatoren din i Plan ₿ Network. Dei vil opne eit [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), der du kan kommentere at du startar arbeidet.
-- Det er viktig å alltid sjekke den originale engelske (eller franske) versjonen av kurset/tutorialen når du korrekturleser. Kjenner deg fri til å gjere justeringar for å betre flyten, men ikkje endre den overordna originale tydinga.
-- LLM-verktøy kan bokstaveleg talt oversetje nokre ord knytt til Bitcoin, som Lightning Network, som ville bli "Lysnett" på norsk. I slike tilfelle er det tilrådd å bruke det originale engelske ordet for betre klarheit, med mindre språkreglane dine pålegg deg å oversetje kvart einaste ord.
-- Om du finn sitat, sørg for å gjere litt research på nettet for å finne den rette oversetjinga på språket ditt.
-- IKKJE oversett dei statiske orda i starten av teksten, som blir brukt til å beskrive innhaldet: "name", "description", "objectives".
-- Om du finn "Plan ₿ Network" i teksten, lat det stå i denne originale forma. Ikkje oversett ordet "plan" eller ordet "network". I tillegg, IKKJE bruk artikkelen når du introduserer Plan ₿ Network, og betrakt det som eit merke. Det same gjeld for "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", som også bør haldast i originalform.
-- Vær oppmerksom på merkelig tegnsetting som '\*\*\', som kan representere en dårlig gjengivelse av fet skrift-symbolet **. Sjekk alltid den originale engelske teksten for å se om det skal være fet tekst. Generelt, for å gjengi fet tekst, vennligst sett inn to stjerner ** både før og etter ordet/setningen. Du kan finne mer informasjon om markdown-språket [her](https://www.markdownguide.org/basic-syntax/).
-- Når du er ferdig med korrekturen, kan du gå tilbake til det første issue som vart opna av koordinatoren, kommentere med "Proofreading done" og sette inn PR-lenken din der.
+For mer informasjon om retningslinjene som skal følges ved korrekturlesing på Plan ₿ Network når det gjelder språk- eller formatregler, vennligst se på veiledningen "contribution-proofreading-guidelines" i denne samme seksjonen!
 
 ## 7. Vent på vurdering
 

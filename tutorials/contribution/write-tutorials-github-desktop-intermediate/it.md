@@ -4,10 +4,10 @@ description: Guida completa per proporre un tutorial su Plan ₿ Network utilizz
 ---
 ![cover](assets/cover.webp)
 
-Prima di seguire questo tutorial sull'aggiunta di un nuovo tutorial, è necessario aver completato alcuni passi preliminari. Se non l'hai ancora fatto, ti invito a consultare prima questo tutorial introduttivo e poi a tornare qui:
+Prima di seguire questo guida sull'aggiunta di un nuovo tutorial, è necessario aver completato alcuni passi preliminari. Se non l'hai ancora fatto, ti invito a consultare prima quest'altro tutorial introduttivo e poi a tornare qui:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
-Quindi, hai già:
+A questo punto, hai già:
 
 
 - Scelto il tema del tutorial;
@@ -28,7 +28,7 @@ Se preferisci non configurare il tuo ambiente locale, segui quest'altra guida pe
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Prerequisiti
 
-Software necessario per seguire questo tutorial:
+Software necessari per seguire questo tutorial:
 
 
 - [GitHub Desktop](https://desktop.github.com/);
@@ -56,7 +56,7 @@ Apri il browser e vai alla pagina del tuo fork del repository Plan ₿ Network. 
 
 ![TUTO](assets/fr/03.webp)
 
-Assicurati di essere nel ramo principale `dev`, quindi fai clic sul pulsante `Sync fork`. Se il tuo fork non è aggiornato, GitHub ti proporrà di aggiornare il tuo ramo. Procedi con l'aggiornamento. Se, al contrario, il tuo ramo è già aggiornato, GitHub ti informerà:
+Assicurati di essere nel ramo principale `dev`, quindi clicca sul pulsante `Sync fork`. Se il tuo fork non è aggiornato, GitHub ti proporrà di aggiornare il tuo ramo. Procedi con l'aggiornamento. Se, al contrario, il tuo ramo è già aggiornato, GitHub ti informerà:
 
 ![TUTO](assets/fr/04.webp)
 
@@ -78,7 +78,7 @@ Clicca su questo ramo, quindi clicca sul pulsante "New branch":
 
 Assicurati che il nuovo ramo sia basato sul repository sorgente, cioè `PlanB-Network/bitcoin-educational-content`.
 
-Nomina il tuo ramo in modo che il titolo sia chiaro sul suo scopo, usando i trattini per separare ogni parola. Per esempio, diciamo che il nostro obiettivo è scrivere un tutorial sull'uso del software Sparrow. In questo caso, il ramo di lavoro dedicato alla scrittura di questo tutorial potrebbe essere chiamato: `tuto-sparrow-wallet-loic`. Una volta inserito il nome appropriato, clicca su `Create branch` per confermare la creazione del ramo:
+Nomina il tuo ramo in modo che il titolo sia chiaro per il suo scopo, usando i trattini per separare ogni parola. Per esempio, diciamo che il nostro obiettivo è scrivere un tutorial sull'uso del software Sparrow. In questo caso, il ramo di lavoro dedicato alla scrittura di questo tutorial potrebbe essere chiamato: `tuto-sparrow-wallet-loic`. Una volta inserito il nome appropriato, clicca su `Create branch` per confermare la creazione del ramo:
 
 ![TUTO](assets/fr/09.webp)
 
@@ -134,8 +134,8 @@ Nel campo "ID GitHub del collaboratore", inserisci il tuo nome utente GitHub.
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
 Successivamente, è necessario compilare il proprio profilo professore. Ci sono diverse opzioni disponibili:
-- Inserisci le prime lettere del tuo nome nel campo "Professor Name". Il tuo nome apparirà nell'elenco a discesa "Prof. Suggestions" situato sotto. Selezionalo facendo clic su di esso;
-- In alternativa, puoi cliccare direttamente sul menu a discesa "Prof. Suggestions" e scegliere il tuo nome di professore.
+- Inserisci le prime lettere del tuo nome nel campo "Professor Name". Il tuo nome apparirà nell'elenco a discesa "Prof. Suggestions" situato sotto. Selezionalo cliccando su di esso;
+- In alternativa, puoi cliccare direttamente sul menù a discesa "Prof. Suggestions" e scegliere il tuo nome di professore.
 
 Questa azione riempirà automaticamente il tuo UUID di professore nel campo corrispondente.
 
@@ -153,11 +153,11 @@ Scegli una categoria principale per il tutorial. Quindi, seleziona una sottocate
 
 ![DATA-CREATOR-PY](assets/fr/43.webp)
 
-Determina il livello di difficoltà dell'tutorial.
+Determina il livello di difficoltà del tutorial.
 
 ![DATA-CREATOR-PY](assets/fr/44.webp)
 
-Sceglie un nome per la cartella creata appositamente per il tutorial. Il nome di questa cartella deve riflettere il software trattato nell'esercitazione, usando i trattini per separare le parole. Ad esempio, la cartella potrebbe chiamarsi `red-wallet`:
+Scegli un nome per la cartella creata appositamente per il tutorial. Il nome di questa cartella deve riflettere il software trattato nel tutorial, usando i trattini per separare le parole. Ad esempio, la cartella potrebbe chiamarsi `red-wallet`:
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
@@ -175,9 +175,9 @@ Una volta inserite e verificate tutte le informazioni, clicca su "Create tutoria
 
 ![DATA-CREATOR-PY](assets/fr/48.webp)
 
-A questo punto, si possono saltare la sezione "Without my Python script" e il passo 3, "Fill in the YAML file", poiché lo script ha già completato queste azioni per te. Passa direttamente al passo 4 e inizia a scrivere il tuo tutorial.
+A questo punto, si può saltare la sezione "Without my Python script" e il passo 3, "Fill in the YAML file", poiché lo script ha già completato queste azioni per te. Passa direttamente al punto 4 e inizia a scrivere il tuo tutorial.
 
-Per ulteriori informazioni su questo script Python, è possibile consultare il [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Per ulteriori informazioni su questo script Python, puoi consultare il [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 ### Senza il mio script Python
 
@@ -346,39 +346,39 @@ Aggiungi quindi il percorso dell'immagine di copertina all'inizio del tutorial. 
 ![cover-sparrow](assets/cover.webp)
 ```
 
-Questa sintassi è utile quando è necessario aggiungere un'immagine al tutorial. Il punto esclamativo indica che si tratta di un'immagine, con il testo alternativo (alt) specificato tra le parentesi. Il percorso dell'immagine è indicato tra le parentesi:
+Questa sintassi è utile quando è necessario aggiungere un'immagine al tutorial. Il punto esclamativo indica che si tratta di un'immagine, con il testo alternativo (alt) specificato tra le parentesi quadre. Il percorso dell'immagine è indicato tra le parentesi tonde:
 
 ![TUTO](assets/fr/23.webp)
 
 ## 5 - Aggiungere il logo e la copertina
 
-Nella cartella `assets` si deve aggiungere un file chiamato `logo.webp`, che servirà come miniatura per l'articolo. Questa immagine deve essere in formato `.webp` e deve rispettare una dimensione quadrata per armonizzarsi con l'interfaccia utente. È possibile scegliere il logo del software trattato nel tutorial o qualsiasi altra immagine pertinente, a condizione che sia libera da diritti. Inoltre, aggiungere anche un'immagine intitolata `cover.webp` nello stesso posto. Questa immagine verrà visualizzata nella parte superiore del tutorial. Assicurati che questa immagine, come il logo, rispetti i diritti d'uso e sia adatta al contesto del tutorial:
+Nella cartella `assets` si deve aggiungere un file chiamato `logo.webp`, che servirà come miniatura per l'articolo. Questa immagine deve essere in formato `.webp` e deve rispettare una dimensione quadrata per armonizzarsi con l'interfaccia utente. È possibile scegliere il logo del software trattato nel tutorial o qualsiasi altra immagine pertinente, a condizione che sia libera da diritti. Inoltre, aggiungi anche un'immagine intitolata `cover.webp` nello stesso posto. Questa immagine verrà visualizzata nella parte superiore del tutorial. Assicurati che questa immagine, come il logo, rispetti i diritti d'uso e sia adatta al contesto del tutorial:
 
 ## 6 - Scrittura del tutorial e aggiunta di immagini
 
-Continua a scrivere il tutorial redigendo il contenuto. Quando si desidera integrare un sottotitolo, applicare la formattazione markdown appropriata anteponendo al testo il prefisso `##`:
+Continua a scrivere il tutorial redigendo il contenuto. Quando desideri integrare un sottotitolo, applica la formattazione markdown appropriata anteponendo al testo il prefisso `##`:
 
 ![TUTO](assets/fr/24.webp)
 
-La sottocartella Lingua nella cartella `assets` è utilizzata per memorizzare i diagrammi e le immagini che accompagneranno il tutorial. Per quanto possibile, evita di inserire testo nelle immagini per rendere i contenuti accessibili a un pubblico internazionale. Naturalmente il software presentato conterrà del testo, ma se aggiungi diagrammi o indicazioni aggiuntive alle schermate del software, fallo senza testo o, se risulta indispensabile, usa l'inglese.
+La sottocartella Lingua nella cartella `assets` è utilizzata per memorizzare i diagrammi e le immagini che accompagneranno il tutorial. Per quanto possibile, evita di inserire testo nelle immagini per rendere i contenuti accessibili ad un pubblico internazionale. Naturalmente il software presentato conterrà del testo, ma se aggiungi diagrammi o indicazioni aggiuntive alle schermate del software, fallo senza testo o, se risulta indispensabile, usa l'inglese.
 
 ![TUTO](assets/fr/25.webp)
 
 Per nominare le immagini, è sufficiente utilizzare i numeri corrispondenti all'ordine di apparizione nel tutorial, formattati con due cifre (o tre cifre se il tutorial contiene più di 99 immagini). Ad esempio, nomina la prima immagine `01.webp`, la seconda `02.webp` e così via.
 
-Le immagini devono essere esclusivamente in formato `.webp`. Se necessario, è possibile utilizzare [il mio software di conversione delle immagini](https://github.com/LoicPandul/ImagesConverter).
+Le immagini devono essere esclusivamente in formato `.webp`. Se necessario, puoi utilizzare [il mio software di conversione delle immagini](https://github.com/LoicPandul/ImagesConverter).
 
 ![TUTO](assets/fr/26.webp)
 
-Per inserire un diagramma nel documento, utilizza il seguente comando Markdown, assicurandosi di specificare il testo alternativo appropriato e il percorso corretto dell'immagine:
+Per inserire un diagramma nel documento, utilizza il seguente comando Markdown, assicurandoti di specificare il testo alternativo appropriato e il percorso corretto dell'immagine:
 
 ```
 ![sparrow](assets/fr/01.webp)
 ```
 
-Il punto esclamativo all'inizio indica che si tratta di un'immagine. Il testo alternativo, che aiuta l'accessibilità e la SEO, è posto tra le parentesi quadrate. Infine, il percorso dell'immagine è indicato tra le parentesi tonde.
+Il punto esclamativo all'inizio indica che si tratta di un'immagine. Il testo alternativo, che aiuta l'accessibilità e la SEO, è posto tra le parentesi quadre. Infine, il percorso dell'immagine è indicato tra le parentesi tonde.
 
-Se desideri creare i tuoi diagrammi, assicurati di aderire al formato grafico di Plan ₿ Network per garantire la coerenza visiva:
+Se desideri creare i tuoi diagrammi, assicurati di avere lo stesso formato grafico di Plan ₿ Network per garantire la coerenza visiva:
 
 
 - Font**: Utilizza [Rubik](https://fonts.google.com/specimen/Rubik);
@@ -419,7 +419,7 @@ Si può controllare un'ultima volta che le modifiche siano corrette, quindi clic
 
 Una richiesta di pull è una richiesta di integrazione delle modifiche dal proprio ramo al ramo principale del repository Plan ₿ Network, che consente la revisione e la discussione delle modifiche prima della loro fusione.
 
-Verrete automaticamente reindirizzati nel vostro browser su GitHub alla pagina di preparazione della vostra richiesta di pull:
+Verrai automaticamente reindirizzato nel tuo browser su GitHub alla pagina di preparazione della tua richiesta di pull:
 
 ![TUTO](assets/fr/33.webp)
 

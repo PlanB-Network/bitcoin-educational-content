@@ -3416,7 +3416,7 @@ Si votre routeur n’est plus maintenu mais fonctionne correctement d’un point
 - **OpenWrt**, une distribution Linux spécialisée dans les routeurs, qui offre une grande flexibilité et des mises à jour régulières ;
 - **pfSense** et **OPNsense**, deux systèmes basés sur FreeBSD (type Unix) pour les pare-feux et routeurs x86.
 
-196
+![Image](assets/fr/196.webp)
 
 Ces systèmes permettent un contrôle plus fin des règles de pare-feu, des connexions sortantes et entrantes, de la segmentation réseau (VLAN), ou encore de la gestion des DNS, mais ils s’adressent davantage à des utilisateurs avancés.
 
@@ -3438,6 +3438,10 @@ Il est donc impératif de changer immédiatement les identifiants après l’ins
 - Et surtout, le mot de passe d’administration, qui protège l’accès à toute la configuration réseau, ainsi que le mot de passe du Wi-Fi.
 
 Ce mot de passe doit être long (40 caractères), complexe (chiffres, minuscules, majuscules et symboles), unique (ne pas être réutilisé ailleurs), et aléatoire. Je vous recommande évidemment d’utiliser un gestionnaire de mots de passe pour générer et conserver ces identifiants de manière sécurisée.
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Attention : il ne faut pas confondre le mot de passe d’administration du routeur (qui protège l’accès à sa configuration) avec le mot de passe du Wi-Fi (qui permet de se connecter au réseau sans fil). Ce sont deux éléments différents, et les deux doivent être modifiés.
 
@@ -3491,7 +3495,7 @@ Une des stratégies les plus efficaces pour renforcer la sécurité d’un rése
 
 Concrètement, chaque VLAN fonctionne comme un petit réseau autonome avec ses propres règles de communication. Les échanges entre VLANs sont bloqués par défaut ou strictement contrôlés. Cela empêche, par exemple, une TV connectée compromise d’atteindre votre ordinateur personnel ou votre NAS. Cette approche repose sur 2 des principes fondamentaux de la cybersécurité que nous avons déjà étudiés dans les chapitres précédents : le cloisonnement et le moindre privilège.
 
-197
+![Image](assets/fr/197.webp)
 
 Concrètement, voici quelques exemples de segmentation que vous pourriez faire :
 
@@ -3517,6 +3521,8 @@ Pour renforcer la confidentialité de votre navigation et bloquer certains conte
 
 - [AdGuard DNS](https://adguard-dns.io/) : facile à configurer, avec des options de blocage publicitaires et traqueurs.
 
+![Image](assets/fr/199.webp)
+
 Ensuite, activez un protocole de chiffrement des requêtes DNS pour empêcher qu’elles soient interceptées ou surveillées. Il existe principalement 2 protocoles pour faire ça :
 
 - **DoH (*DNS over HTTPS*)** : qui encapsule les requêtes DNS dans le protocole HTTPS, ce qui les rend indissociables du trafic web classique chiffré ;
@@ -3529,7 +3535,7 @@ Concrètement, ce chiffrement DNS et changement de serveur peut être mis en pla
 
 - Au niveau applicatif : certains logiciels, comme le navigateur Firefox, permettent de configurer directement des protocoles de chiffrement DNS, notamment DoH. Cette solution ne protège toutefois que les requêtes effectuées via l'application, et pas le reste de votre ordinateur.
 
-198
+![Image](assets/fr/198.webp)
 
 - Au niveau du système d’exploitation : certains OS intègrent nativement le support de DNS chiffré (DoT ou DoH), ce qui permet de sécuriser l’ensemble des requêtes DNS qui passent par la pile réseau du système. Cela ne sécurise donc pas l’ensemble de l’ordinateur ou du téléphone : les applications peuvent contourner ce paramétrage si elles sont configurées pour utiliser un autre résolveur DNS ou un protocole différent.
 
@@ -3538,6 +3544,8 @@ Concrètement, ce chiffrement DNS et changement de serveur peut être mis en pla
 Aussi, les routeurs-modems fournis par les ISP ne prennent pas toujours en charge ces fonctionnalités. En cas de limitations au niveau du routeur, plusieurs alternatives existent. Vous pouvez installer un client DNS chiffré manuellement sur chaque appareil, ajouter un routeur personnel derrière celui de l’ISP (capable de gérer le chiffrement DNS) ou bien déployer un serveur DNS local (par exemple, sur un Raspberry Pi) chargé de chiffrer et rediriger les requêtes DNS vers un résolveur sécurisé.
 
 Pour aller plus loin, vous pouvez aussi mettre en place une solution de filtrage DNS locale telle que Pi-hole ou AdGuard Home. Ces outils agissent comme un petit serveur DNS à l’intérieur de votre réseau et bloquent les requêtes vers les domaines connus pour héberger de la publicité, des traqueurs de navigation ou encore des sites de phishing ou malveillants. Ces outils vous permettent également de créer vos propres listes de blocage ou de personnaliser le filtrage selon les appareils connectés.
+
+![Image](assets/fr/200.webp)
 
 ### Accès distant sécurisé via VPN
 
@@ -3586,7 +3594,6 @@ Commencez par sauvegarder régulièrement la configuration de vos équipements r
 Enfin, pour améliorer la résilience de votre réseau face aux pannes électriques, investissez dans un onduleur. Ce dispositif fournit une alimentation de secours pendant quelques minutes en cas de coupure de courant, ce qui permet de continuer à utiliser Internet ou de s'assurer que les appareils critiques (NAS, routeur, point d'accès Wi-Fi...) s'éteignent proprement. Certains modèles peuvent aussi envoyer une commande d'arrêt automatique aux appareils reliés lorsqu’ils détectent que la batterie est faible.
 
 En suivant ces quelques étapes, vous construisez un environnement réseau robuste, sécurisé et respectueux de votre vie privée.
-
 
 # Partie finale
 <partId>28fae323-cce7-405a-be8d-d15739ca74df</partId>

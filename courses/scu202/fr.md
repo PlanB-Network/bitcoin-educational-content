@@ -3396,9 +3396,196 @@ Dans ce premier chapitre, nous avons vu les concepts importants du réseau domes
 ## Sécuriser son réseau domestique en quelques étapes
 <chapterId>d5577b2e-5247-4d10-8685-4906391e2cc1</chapterId>
 
+Comme nous l'avons découvert dans le chapitre précédent, sécuriser votre réseau domestique est très important pour protéger votre vie privée, vos données personnelles, et pour garantir votre souveraineté numérique.
 
+Après avoir revu les bases théoriques, ce chapitre va vous guider à travers des étapes claires, concrètes et efficaces pour renforcer la sécurité de votre réseau local.
 
+*Attention toutefois : les informations fournies ici restent générales, car Plan ₿ Network s’adresse à un public international. En fonction de vos spécificités locales et de votre ISP, certaines bonnes pratiques peuvent ne pas être mentionnées ici, ou s’appliquer de manière différente.*
 
+### Choisir et sécuriser votre matériel réseau
+
+La sécurité de votre réseau domestique commence par faire le choix du bon matériel qui en constitue la base : le routeur, ou dans certains cas un routeur-modem. Cet appareil assure la liaison entre votre réseau local et Internet. Il joue donc un rôle central dans la protection de vos données.
+
+Il est important de privilégier un équipement moderne, maintenu par son fabricant, et conforme aux standards de sécurité récents. Aujourd'hui (juin 2025), il est recommandé d’opter pour un appareil compatible avec le protocole de chiffrement WPA3 (*Wi-Fi Protected Access 3*), qui succède au WPA2 et corrige plusieurs de ses failles. Le WPA3 améliore notamment la résistance aux attaques par bruteforce sur les mots de passe Wi-Fi et introduit une meilleure isolation entre les clients du réseau.
+
+Un routeur compatible Wi-Fi 6, Wi-Fi 6E ou Wi-Fi 7 vous donnera des débits améliorés et surtout un support natif des technologies de sécurité modernes. À l’inverse, les équipements très anciens, notamment ceux qui ne reçoivent plus de mises à jour logicielles, peuvent comporter des vulnérabilités connues et non corrigées. Ils représentent donc un risque pour l’ensemble de votre réseau, même si vous les configurez correctement. Comparé aux téléphones portables ou aux ordinateurs, le routeur est un équipement que l’on a tendance à conserver pendant de nombreuses années. Pourtant, il peut être pertinent de le remplacer plus régulièrement, afin de bénéficier d’un modèle plus moderne et mieux sécurisé.
+
+Aussi, veillez à appliquer systématiquement les mises à jour du firmware de votre routeur. Ces mises à jour corrigent des failles, ajoutent de nouvelles fonctionnalités et renforcent la stabilité générale du système. Certains fabricants proposent une mise à jour automatique, mais dans certains cas, il faudra effectuer une vérification manuelle via l’interface d’administration du routeur. Tout comme pour votre téléphone, votre ordinateur, votre système d’exploitation ou vos logiciels, il est donc très important de mettre régulièrement à jour votre routeur. Vous pouvez d’ailleurs intégrer cette vérification dans une routine hebdomadaire, par exemple chaque dimanche, en dressant une liste de tous les éléments à contrôler et à maintenir à jour.
+
+Si votre routeur n’est plus maintenu mais fonctionne correctement d’un point de vue matériel, vous pouvez installer un firmware alternatif open-source, comme :
+- **OpenWrt**, une distribution Linux spécialisée dans les routeurs, qui offre une grande flexibilité et des mises à jour régulières ;
+- **pfSense** et **OPNsense**, deux systèmes basés sur FreeBSD (type Unix) pour les pare-feux et routeurs x86.
+
+196
+
+Ces systèmes permettent un contrôle plus fin des règles de pare-feu, des connexions sortantes et entrantes, de la segmentation réseau (VLAN), ou encore de la gestion des DNS, mais ils s’adressent davantage à des utilisateurs avancés.
+
+**En résumé, je vous conseille de :** 
+- choisir un routeur récent ;
+- maintenir son système à jour ;
+- envisager un firmware alternatif si nécessaire.
+
+### Changer les identifiants et mots de passe par défaut
+
+Une des erreurs les plus fréquentes (et les plus dangereuses) consiste à conserver les identifiants par défaut fournis par le fabricant du routeur, ou d'utiliser un mot de passe faible.
+
+Historiquement, les identifiants par défaut des routeurs étaient très peu sécurisés et souvent identiques pour tous les utilisateurs, comme le célèbre `admin/admin`. Ces identifiants de base étaient publics, documentés dans les manuels d’utilisation et largement recensés dans des bases de données utilisées par les attaquants. Dans ce cas, toute personne qui détecte la présence de votre routeur pouvait tenter un accès non autorisé simplement en testant ces combinaisons connues.
+
+Aujourd’hui, la plupart des fabricants attribuent un mot de passe unique et robuste à chaque routeur. Toutefois, même dans ce cas, je vous recommande de modifier les identifiants par défaut. Cela permet de réduire les risques liés à la chaîne logistique, et d’éviter que le mot de passe d’origine (parfois imprimé sur l’étiquette du routeur) ne compromette votre sécurité.
+
+Il est donc impératif de changer immédiatement les identifiants après l’installation de votre routeur :
+- Le nom d’utilisateur (si c'est possible) de l’interface d’administration ;
+- Et surtout, le mot de passe d’administration, qui protège l’accès à toute la configuration réseau, ainsi que le mot de passe du Wi-Fi.
+
+Ce mot de passe doit être long (40 caractères), complexe (chiffres, minuscules, majuscules et symboles), unique (ne pas être réutilisé ailleurs), et aléatoire. Je vous recommande évidemment d’utiliser un gestionnaire de mots de passe pour générer et conserver ces identifiants de manière sécurisée.
+
+Attention : il ne faut pas confondre le mot de passe d’administration du routeur (qui protège l’accès à sa configuration) avec le mot de passe du Wi-Fi (qui permet de se connecter au réseau sans fil). Ce sont deux éléments différents, et les deux doivent être modifiés.
+
+Enfin, certains routeurs modernes disposent de deux interfaces de gestion : une interface web locale (accessible via une adresse du type `192.168.1.1`) et une interface cloud (permettant une gestion à distance via Internet). Si cette dernière est activée par défaut, je vous conseille de la désactiver si vous ne l’utilisez pas, ou renforcez sa sécurité avec un mot de passe fort et éventuellement une authentification à deux facteurs (2FA) si disponible.
+
+### Sécuriser la configuration du routeur
+
+Le routeur est le cœur de votre réseau domestique. Sa configuration joue un rôle important dans la sécurité de tous les appareils connectés. Malheureusement, de nombreuses fonctions activées par défaut sur ces appareils peuvent involontairement exposer votre réseau à des attaques extérieures. Il est donc important de procéder à une revue complète des options activées, et de désactiver celles qui ne sont pas strictement nécessaires à vos usages.
+
+Certaines fonctionnalités sont à éviter ou à désactiver systématiquement :
+
+- **UPnP (*Universal Plug and Play*)** :
+
+Cette fonction permet aux appareils de votre réseau de demander au routeur d’ouvrir automatiquement des ports. Si cela facilite certains usages (jeux en ligne, caméras connectées...), cela ouvre également la porte à des applications malveillantes capables de modifier la configuration réseau sans votre autorisation. UPnP est l’une des principales causes d’exposition involontaire de services internes au monde extérieur.
+
+- **WPS (*Wi-Fi Protected Setup*)** :
+
+Conçu à l’origine pour simplifier la connexion des appareils au Wi-Fi sans saisir de mot de passe, ce système est basé sur un code PIN souvent faible et facilement attaquable par force brute. Je vous conseille de le désactiver.
+
+- **Accès distant (*Remote Management*)** :
+
+Certains routeurs permettent de se connecter à leur interface d’administration depuis l’extérieur, via Internet. Cette fonction augmente irraisonnablement la surface d'attaque de votre routeur. Désactivez-la complètement, sauf si vous avez un besoin spécifique de gestion à distance. Et même dans ce cas, préférez toujours utiliser un VPN.
+
+https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+
+- **Protocoles obsolètes ou non sécurisés** :
+
+Désactivez tout service d’administration qui utilise des protocoles en clair comme Telnet, FTP, HTTP non chiffré, ou encore SMBv1. Ces protocoles n’assurent ni confidentialité, ni intégrité des données échangées, et sont fréquemment ciblés par des logiciels malveillants. Si vous avez besoin d’un accès distant ou local, privilégiez uniquement des connexions via HTTPS (interface chiffrée), SSH ou SFTP selon le cas.
+
+- **Ping WAN / ICMP** :
+
+Certains routeurs répondent par défaut aux requêtes ICMP envoyées depuis l’extérieur (commande `ping`). Cela permet à un attaquant de vérifier que votre réseau est actif et accessible. Si vous n'en n'avez pas besoin, désactivez également cette réponse au niveau du pare-feu du routeur.
+
+Pour terminer, pensez à restreindre l’accès à l’interface d’administration du routeur aux seuls appareils de confiance, en limitant son accessibilité à des adresses IP spécifiques, si l’interface le permet. Certains firmwares comme OpenWrt offrent un contrôle très fin sur ces paramètres.
+
+### Renforcer la sécurité du réseau Wi-Fi
+
+Le réseau Wi-Fi est souvent le point d’entrée privilégié pour les intrusions dans un environnement domestique. Invisible à l’œil nu mais accessible depuis l’extérieur des murs de votre domicile, il constitue une cible facile pour quiconque se trouve à portée d’ondes.
+
+La première mesure importante est le choix du protocole de chiffrement. Activez systématiquement "*WPA3-Personal*", la norme la plus récente et la plus sécurisée. Elle protège non seulement les données échangées, mais empêche également certaines attaques connues.
+
+Le nom de votre réseau Wi-Fi, appelé "SSID" (*Service Set Identifier*), doit rester neutre. Évitez d’y inclure votre nom, votre adresse ou la marque du routeur. Un nom comme `MaisonDupont_WiFi6` donne déjà trop d'informations à un éventuel attaquant. Préférez un nom générique, sans signification particulière. Cela permet de limiter les informations disponibles pour du repérage passif ou du ciblage social.
+
+Une autre bonne pratique consiste à créer un réseau invité distinct de votre réseau principal. Ce réseau parallèle, souvent proposé nativement sur les routeurs modernes, permet de fournir une connexion Internet à vos invités sans qu’ils puissent accéder à vos autres appareils (ordinateurs, imprimantes, NAS...). Cela permet également de ne pas avoir à leur fournir le mot de passe de votre réseau principal. Pour aller plus loin, activez l’isolation client sur ce réseau invité : cela empêchera aussi les visiteurs de communiquer entre eux, ce qui réduit encore les risques liés à des appareils compromis.
+
+Enfin, ajustez la puissance d’émission de votre point d’accès Wi-Fi. Par défaut, de nombreux routeurs émettent un signal très puissant, parfois détectable bien au-delà de vos murs. Cela augmente votre surface d’exposition. Dans les paramètres avancés du routeur, réduisez la puissance d’émission au minimum suffisant pour couvrir votre logement. Si votre routeur le permet, vous pouvez également configurer la coupure automatique du Wi-Fi lorsqu’il n’est pas utilisé.
+
+### Segmentation du réseau
+
+Une des stratégies les plus efficaces pour renforcer la sécurité d’un réseau domestique est la segmentation. Elle consiste à diviser le réseau local en plusieurs sous-réseaux indépendants appelés "VLAN" (*Virtual Local Area Networks*). Ces VLANs permettent d'isoler les différents types d'appareils ou d'usages, même s’ils utilisent le même matériel physique (routeur, câblage, borne Wi-Fi...).
+
+Concrètement, chaque VLAN fonctionne comme un petit réseau autonome avec ses propres règles de communication. Les échanges entre VLANs sont bloqués par défaut ou strictement contrôlés. Cela empêche, par exemple, une TV connectée compromise d’atteindre votre ordinateur personnel ou votre NAS. Cette approche repose sur 2 des principes fondamentaux de la cybersécurité que nous avons déjà étudiés dans les chapitres précédents : le cloisonnement et le moindre privilège.
+
+197
+
+Concrètement, voici quelques exemples de segmentation que vous pourriez faire :
+
+- Un VLAN personnel : destiné à vos appareils de confiance comme les ordinateurs, smartphones ou serveurs personnels. C’est le segment principal où circulent vos données sensibles.
+
+- Un VLAN IoT : pour les objets connectés (ampoules, enceintes, caméras, TV intelligentes…). Ces appareils sont souvent peu sécurisés, moins mis à jour, et représentent une cible fréquente pour les attaques. Les isoler réduit considérablement le risque qu’un attaquant s’en serve comme point d’entrée sur votre réseau.
+
+- Un VLAN invités : réservé à vos amis ou votre famille lorsqu'il viennent chez vous. Il donne accès à Internet, mais aucun droit d'accès à vos équipements privés.
+
+Enfin, cette approche présente aussi des avantages en termes de performances et de gestion : elle permet de prioriser certains types de trafic, d’appliquer des règles de sécurité spécifiques selon le VLAN (pare-feu, limitation de débit, filtrage DNS...), et de mieux surveiller les comportements réseau anormaux. C’est donc une pratique que je vous recommande fortement.
+
+### Gestion avancée des DNS
+
+Le DNS (*Domain Name System*) est le service d’Internet qui traduit les adresses web compréhensibles par l’homme (par exemple `planb.network`) en adresses IP compréhensibles par les machines. Lorsqu’un appareil de votre réseau veut visiter un site, il interroge un serveur DNS pour obtenir l’adresse du serveur à contacter. Par défaut, ces requêtes DNS sont souvent envoyées en clair (non chiffrées) à votre ISP, ce qui permet à celui-ci (ou à un acteur tiers comme l'État) de voir tous les sites que vous consultez, même si leur contenu est chiffré via HTTPS.
+
+Pour renforcer la confidentialité de votre navigation et bloquer certains contenus indésirables dès la racine, vous pouvez prendre le contrôle de la résolution DNS au sein de votre réseau domestique. Commencez par remplacer les serveurs DNS fournis par défaut par des alternatives plus respectueuses de la vie privée comme :
+
+- [Quad9](https://quad9.net/) : intègre des listes de blocage de domaines malveillants et ne conserve aucun log nominatif de longue durée ;
+
+- [Cloudflare DNS](https://www.cloudflare.com/application-services/products/dns/) : rapide et engagé dans une politique stricte de non-conservation des logs ;
+
+- [NextDNS](https://nextdns.io/) : très personnalisable, avec des fonctionnalités avancées de filtrage et de statistiques ;
+
+- [AdGuard DNS](https://adguard-dns.io/) : facile à configurer, avec des options de blocage publicitaires et traqueurs.
+
+Ensuite, activez un protocole de chiffrement des requêtes DNS pour empêcher qu’elles soient interceptées ou surveillées. Il existe principalement 2 protocoles pour faire ça :
+
+- **DoH (*DNS over HTTPS*)** : qui encapsule les requêtes DNS dans le protocole HTTPS, ce qui les rend indissociables du trafic web classique chiffré ;
+
+- **DoT (*DNS over TLS*)** : qui crée un canal chiffré spécifique entre votre appareil et le serveur DNS ;
+
+- **DoQ (*DNS over QUIC*)** : transporte les requêtes DNS via le protocole QUIC basé sur UDP.
+
+Concrètement, ce chiffrement DNS et changement de serveur peut être mis en place à différents niveaux :
+
+- Au niveau applicatif : certains logiciels, comme le navigateur Firefox, permettent de configurer directement des protocoles de chiffrement DNS, notamment DoH. Cette solution ne protège toutefois que les requêtes effectuées via l'application, et pas le reste de votre ordinateur.
+
+198
+
+- Au niveau du système d’exploitation : certains OS intègrent nativement le support de DNS chiffré (DoT ou DoH), ce qui permet de sécuriser l’ensemble des requêtes DNS qui passent par la pile réseau du système. Cela ne sécurise donc pas l’ensemble de l’ordinateur ou du téléphone : les applications peuvent contourner ce paramétrage si elles sont configurées pour utiliser un autre résolveur DNS ou un protocole différent.
+
+- Au niveau du réseau : il est possible d'appliquer le chiffrement DNS à l’échelle de tout le réseau local via la configuration du routeur. Encore une fois, un routeur configuré en DoH/DoT ne voit que le trafic qui lui est effectivement envoyé. Donc un navigateur configuré pour contacter directement un résolveur distant échappe à ce contrôle. Pour réduire ces échappatoires, il faut bloquer le port 53 en clair et restreindre les destinations DoH/DoT non autorisées via le pare-feu du routeur.
+
+Aussi, les routeurs-modems fournis par les ISP ne prennent pas toujours en charge ces fonctionnalités. En cas de limitations au niveau du routeur, plusieurs alternatives existent. Vous pouvez installer un client DNS chiffré manuellement sur chaque appareil, ajouter un routeur personnel derrière celui de l’ISP (capable de gérer le chiffrement DNS) ou bien déployer un serveur DNS local (par exemple, sur un Raspberry Pi) chargé de chiffrer et rediriger les requêtes DNS vers un résolveur sécurisé.
+
+Pour aller plus loin, vous pouvez aussi mettre en place une solution de filtrage DNS locale telle que Pi-hole ou AdGuard Home. Ces outils agissent comme un petit serveur DNS à l’intérieur de votre réseau et bloquent les requêtes vers les domaines connus pour héberger de la publicité, des traqueurs de navigation ou encore des sites de phishing ou malveillants. Ces outils vous permettent également de créer vos propres listes de blocage ou de personnaliser le filtrage selon les appareils connectés.
+
+### Accès distant sécurisé via VPN
+
+Dans certains cas il est utile de pouvoir accéder à votre réseau domestique lorsque vous êtes en déplacement : consulter les fichiers d’un NAS, utiliser un nœud Bitcoin et Lightning, accéder à un serveur auto-hébergé, ou administrer votre réseau. Toutefois, cette connexion à distance doit impérativement être sécurisée.
+
+Le premier conseil est de ne jamais ouvrir directement un port sur votre routeur pour accéder à un appareil (par exemple via RDP, SSH ou FTP), car cela expose ce service à Internet entier, ce qui constitue une faille. Les attaques automatisées ciblant les ports ouverts sont nombreuses.
+
+La solution que je vous recommande est d’utiliser un VPN (*Virtual Private Network*), c’est-à-dire un tunnel chiffré entre votre appareil distant (ordinateur, smartphone…) et votre réseau local. Une fois connecté au VPN, vous pouvez accéder aux ressources de votre domicile comme si vous y étiez physiquement, et de manière sécurisée.
+
+Les deux principales solutions pour les particuliers sont :
+- WireGuard : moderne, rapide et léger ;
+- OpenVPN : plus ancien mais très mature et configurable.
+
+Voici un tutoriel complet sur Tailscale, une solution de VPN facile à configurer qui utilise WireGuard :
+
+https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+
+Vous pouvez héberger ce VPN directement sur un routeur compatible, sur un petit ordinateur (comme un Raspberry Pi) ou sur un serveur dédié à la maison. Vous pouvez également l'installer comme client directement sur chaque appareil.
+
+Mais un VPN ne sert pas uniquement pour l’accès distant. Vous pouvez aussi utiliser un client VPN classique sur vos appareils pour chiffrer l’ensemble de votre trafic sortant, même lorsque vous êtes en dehors de chez vous (Wi-Fi public, hôtel, université…). Dans ce cas, votre appareil se connecte à un serveur VPN tiers (commercial ou auto-hébergé), qui relaie ensuite vos connexions vers Internet. Cela masque votre adresse IP réelle auprès de l'ISP, protège vos données contre l’espionnage local et évite certaines formes de censure.
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+Enfin, il est aussi possible de configurer un VPN directement sur votre routeur, ce qui permet de protéger tous les appareils de votre domicile sans devoir installer un client VPN sur chacun d’eux.
+
+### Surveillance et détection
+
+Une fois votre réseau bien configuré et segmenté, il est important de ne pas se contenter d’une sécurité passive. La surveillance active de votre réseau local permet de détecter des comportements anormaux, des connexions non autorisées ou des signes d’intrusion. L’objectif est de repérer rapidement les problèmes avant qu’ils ne causent des dégâts.
+
+La première étape consiste à centraliser les journaux de sécurité (logs). Chaque appareil connecté au réseau génère des logs contenant des informations sur les connexions, les erreurs ou les activités suspectes. Plutôt que de consulter ces journaux individuellement, je vous conseille de les envoyer vers un serveur capable de les regrouper, trier et analyser. Des solutions comme Graylog ou Elastic Stack (ELK) permettent d’agréger ces logs dans une interface graphique où vous pouvez rechercher des événements spécifiques, créer des alertes ou visualiser l’activité du réseau.
+
+Ensuite, effectuez régulièrement un scan actif de votre réseau local, par exemple avec Nmap. Cela vous permet d’obtenir une vue de tous les appareils présents sur votre réseau, ainsi que les ports qu’ils ont ouverts. Si vous identifiez un appareil inconnu ou un service inhabituel, cela peut être le signe d’une attaque.
+
+Pour aller plus loin, vous pouvez mettre en place un IDS (*Intrusion Detection System*), voire un IPS (*Intrusion Prevention System*). Ces outils, comme Suricata ou Snort, surveillent en temps réel les flux réseau et détectent les signatures d’attaques connues (scans de ports, injections, connexions suspectes...). L’IDS alerte, tandis que l’IPS peut bloquer automatiquement certaines actions.
+
+Enfin, surveiller la consommation de bande passante est aussi un bon indicateur d’activité anormale. Si un appareil consomme soudainement beaucoup de données sans raison apparente, cela peut trahir un téléchargement non autorisé, une fuite de données, voire un appareil compromis. Des outils comme ntopng ou vnStat permettent de visualiser les flux entrants et sortants par appareil.
+
+### Sauvegarde et résilience
+
+Même avec un réseau parfaitement sécurisé, les pannes matérielles, les erreurs de configuration ou les événements imprévus (coupure de courant, surtension, défaillance d’un disque dur...) peuvent provoquer des pertes de données ou interrompre vos services. Pour garantir la continuité de votre environnement numérique et éviter de repartir de zéro en cas de problème, il est important de mettre en place une stratégie de sauvegarde et de résilience.
+
+Commencez par sauvegarder régulièrement la configuration de vos équipements réseau, en particulier celle du routeur. Ces fichiers de configuration peuvent souvent être exportés via l’interface d’administration. Conserver une copie permet de restaurer rapidement un système fonctionnel en cas de réinitialisation ou de remplacement d’un appareil. Je vous conseille également de chiffrer cette sauvegarde.
+
+Enfin, pour améliorer la résilience de votre réseau face aux pannes électriques, investissez dans un onduleur. Ce dispositif fournit une alimentation de secours pendant quelques minutes en cas de coupure de courant, ce qui permet de continuer à utiliser Internet ou de s'assurer que les appareils critiques (NAS, routeur, point d'accès Wi-Fi...) s'éteignent proprement. Certains modèles peuvent aussi envoyer une commande d'arrêt automatique aux appareils reliés lorsqu’ils détectent que la batterie est faible.
+
+En suivant ces quelques étapes, vous construisez un environnement réseau robuste, sécurisé et respectueux de votre vie privée.
 
 
 # Partie finale

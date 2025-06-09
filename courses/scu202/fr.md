@@ -726,8 +726,7 @@ En conclusion, il n’y a pas de meilleur environnement de bureau en soi, seulem
 Ce chapitre vous aura permis de mieux comprendre ce qu’est un environnement de bureau, ses composants clés, les différences entre les principales solutions disponibles, ainsi que les critères importants pour effectuer votre choix. Dans le prochain chapitre, vous allez pouvoir faire vos premiers pas sur Ubuntu, une distribution polyvalente et grand public.
 
 ## Premiers pas sur Ubuntu : tout ce qu’il faut savoir
-
-761407c4-bbac-41a4-830e-62624dd260fa
+<chapterId>7cea476d-f759-4c7e-8ca5-8b35bc79c682</chapterId>
 
 Ubuntu constitue aujourd’hui l’une des portes d’entrée les plus accessibles vers GNU/Linux : environnement GNOME soigné, dépôts très fournis, mises à jour de sécurité réactives et grosse communauté. C'est pourquoi j'ai choisi de présenter cette distribution.
 

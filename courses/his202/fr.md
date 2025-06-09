@@ -690,6 +690,143 @@ Cette construction s'est accompagnée en parallèle d'une amélioration de l'uti
 
 ## L'amélioration de l'utilisation (mars 2011–nov. 2011)
 
+Portefeuilles légers (Bitcoin Wallet for Android, Electrum, BitcoinSpinner), supports physiques (Bitbills, Casascius Coins), portefeuilles web (Blockchain.info)
+
+Mike Hearn, Andreas Schildbach, Thomas Voegtlin, Andreas Antonopoulos, Luke-Jr, Amir Taaki
+
+- Portefeuilles : Gavin Andresen, ["Why aren't bitcoin wallets encrypted?", 2011-06-24](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) ; ["Worth more than the computer they are stored on...", 2011-06-27](https://gavinthink.blogspot.com/2011/06/worth-more-than-computer-they-are.html)
+
+- Vitalik Buterin, "Bitcoin Wallet Reviews – Ease Of Use And Security", [2012](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/)
+
+- Problème de la conservation personnelle, Stefan Thomas, [nov. 2011](https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1) : "Some users protected their bitcoins by creating multiple backups, encrypting and storing them on thumb drives, on forensically scrubbed virgin computers without Internet connections, in the cloud, and on printouts stored in safe-deposit boxes. But even some sophisticated early adopters had trouble keeping their bitcoins safe. Stefan Thomas had three copies of his wallet yet inadvertently managed to erase two of them and lose his password for the third. In a stroke, he lost about 7,000 bitcoins, at the time worth about $140,000. 'I spent a week trying to recover it,' he says. 'It was pretty painful.'"
+
+- `wallet.dat`
+
+### Les applications dépositaires
+
+- Instawallet. Simple d'utilisation. Les fonds sont stockés côté serveur. 29 avril 2011 (jav) : https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378 https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/ ; repris par Bitcoin-Central le 6 mars 2012 : https://bitcointalk.org/index.php?topic=67602.msg786523#msg786523 ; piraté en 2013 : https://venturebeat.com/offbeat/bitcoin-wallet-instawallet-hacked/ https://mempool.space/tx/5c265c7f63176a07d8c1a90c336e8faac133e69b95eb29e69026377781ebdd1e ; procédure s'ensuivant : https://bitcointalk.org/index.php?topic=167215.0;all
+
+- Paymium, startup fondée en [juin 2011](https://web.archive.org/web/20111120231150/http://www.paymium.com/) par Gonzague Grandval, David François (davout), Pierre Noizat (Boussac), initialement dans le domaine des paiements, et dont le produit principal est une application de prévention de la fraude par carte bancaire. L'entreprise se tourne progressivement vers Bitcoin, faisant rapidement de Bitcoin-Central son produit phare \[QUAND ?\]
+
+- Paytunia : « Paytunia est une application révolutionnaire basée sur le protocole ouvert Bitcoin pour des paiements et des transferts d'argent en ligne sécurisés et faciles. » ("Paytunia is a groundbreaking application based on the open source Bitcoin protocol for secure, easy, online payments and money transfers.", [nov. 2011](https://web.archive.org/web/20111120231150/http://www.paymium.com/)), [lancement, 5/4/2012](https://bitcointalk.org/index.php?topic=75550.msg836770#msg836770) https://web.archive.org/web/20120322223342/https://paytunia.com/
+
+mention de Paytunia en mai 2012 (https://web.archive.org/web/20120514233205/https://bitcoin-central.net/), mentions légales en janvier 2013 (https://web.archive.org/web/20130120182340/https://bitcoin-central.net/)\], à tel point que celui-ci [prendra](https://bitcoin.fr/bitcoin-central-devient-paymium/) le nom de Paymium en 2014.
+
+### Les implémentations logicielles alternatives (mars–juillet 2011)
+
+Satoshi Nakamoto, [17 juin 2010](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) :
+
+> « Je ne pense pas qu'une seconde implémentation compatible de Bitcoin soit une bonne idée. Le modèle du système repose tellement sur le
+fait que tous les nœuds obtiennent des résultats exactement identiques qu'une deuxième implémentation constituerait une menace pour le
+réseau. La licence MIT est compatible avec toutes les autres licences et utilisations commerciales, il n'est donc pas nécessaire de la réécrire du point de vue juridique. »
+>
+> original: "I don't believe a second, compatible implementation of Bitcoin will ever be a good idea. So much of the design depends on all nodes getting exactly identical results in lockstep that a second implementation would be a menace to the network. The MIT license is compatible with all other licenses and commercial uses, so there is no need to rewrite it from a licensing standpoint."
+
+Discussions avec Mike Hearn : https://plan99.net/~mike/satoshi-emails/thread3.html
+
+Le 7 mars 2011, Mike Hearn [publie](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) son implémentation logicielle BitCoinJ. Comme il travaille pour Google, le code doit être attribué à la multinationale, mais la licence est libre ([Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)). L'implémentation met en œuvre la vérification de paiement simplifiée (SPV) telle que décrite dans le livre blanc, de sorte que des clients mobiles légers peuvent s'y connecter.
+
+Libbitcoin [21/7/2011](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791) ([archive nov. 2011](https://web.archive.org/web/20111110073728/https://bitcointalk.org/index.php?topic=30646.0), [5/10/2011](https://web.archive.org/web/20111007114746/http://bitcoinmedia.com/libbitcoin-set-to-be-first-full-node-alternat)), Amir Taaki, Patrick Strateman (phantomcircuit) : "rewrite bitcoin, make it super-pluggable, very easy to do and hack everything at every level, and very configurable") https://en.bitcoin.it/wiki/Libbitcoin https://web.archive.org/web/20120427221903/http://libbitcoin.org/ [freecoin ?](https://web.archive.org/web/20110514165027/http://bitcoinconsultancy.com/wiki/index.php/Freecoin)
+
+Manifeste, [oct. 2013](https://nakamotoinstitute.org/library/libbitcoin-manifesto/)
+
+### Les portefeuilles légers (mars 2011 – nov. 2011)
+
+Utilisation de Bitcoin : nœud complet ou service dépositaire (MyBitcoin)
+
+Au début de l'année 2011, l'utilisation de Bitcoin se fait de deux manières principales : soit directement, au moyen d'un nœud complet fonctionnant sur un ordinateur et demandant une certaine patience pour la gestion de la chaîne de bloc et la sauvegarde des clés privées ; soit indirectement, par le biais de l'application dépositaire MyBitcoin, qui permet de gérer ses bitcoins sans avoir à se soucier de gérer un logiciel complexe, et en utilisant un simple mot de passe pour accéder à un compte.
+
+Le problème est que les nouveaux utilisateurs et les usagers occasionnels se tournent rapidement vers la solution de facilité. Il y a ainsi une demande pour une solution intermédiaire donnant la possibilité de conserver ses fonds en évitant d'avoir à faire fonctionner toute l'infrastructure logicielle. En novembre 2010, c'est ainsi que Kiba met en place une [prime](https://bitcointalk.org/index.php?topic=1812.msg22319#msg22319) collective pour le développement d'un client Bitcoin sur mobile.
+
+Idée d'utiliser un nœud en tant que serveur distant (en lequel on a totalement confiance), Spesmilo : Amir Taaki, Luke-Jr, [14/2](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538)
+
+Le spesmilo est une ancienne unité monétaire internationale, proposée par René de Saussure en 1907.
+
+Quelques jours après la publication de BitCoinJ, le 11 mars, un autre développeur du nom d'Andreas Schildbach (Goonie) [dévoile](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) le prototype d'un portefeuille pour les téléphones utilisant le système d'exploitation Android, basé l'implémentation de Mike Hearn. Sobrement nommé *Bitcoin Wallet for Android*, celui-ci deviendra le premier modèle fonctionnel de portefeuille léger sur mobile.
+
+Le 29 juillet 2011, la fermeture de MyBitcoin confirme la nécessité d'une solution intermédiaire.
+
+Le 5 novembre, Thomas Voegtlin (ThomasV) [annonce](https://bitcointalk.org/index.php?topic=50936.msg607510#msg607510) la sortie d'Electrum, un portefeuille léger pour ordinateur dont le nom fait référence à l'électrum, alliage naturel d'or et d'argent, qui a notamment servi à frapper les premières pièces de monnaie en Lydie et en Grèce. La principale innovation est que la gestion des clés passe par un génération déterministe à partir d'une graine. Cela permet à l'utilisateur de récupérer ses fonds par le biais d'une phrase mnémotechnique de 12 mots. Le client se connecte à un réseau de serveurs spéciaux pour récupérer les transactions. La vérification de paiement simplifiée sera [ajoutée](https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) un an plus tard.
+
+![Graine et phrase mnémotechnique d'Electrum en 2012](assets/en/electrum-seed-mnemonic-2012.webp)
+
+Graine et phrase mnémotechnique d'Electrum en 2012 (source : [archive](https://web.archive.org/web/20120826021721/http://electrum-desktop.com:80/seed.html))
+
+BitcoinSpinner ([23/11/2011](https://bitcointalk.org/index.php?topic=52674.msg628527#msg628527)), Jan Moller (Jan), utilisation de [BCCAPI](https://en.bitcoin.it/wiki/BCCAPI)
+
+Portefeuille Armory, se voulant extrêmement sécurisé, stockage à froid (https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-wallets-in-armory), il intégrera bien plus tard le multisig (https://en.bitcoin.it/wiki/Armory) ; dépôt créé le 19/11/2011 : https://api.github.com/repos/etotheipi/BitcoinArmory ; forked by goatpig in February 2016 : https://github.com/goatpig/BitcoinArmory ; annonce par Alan Reiner (etotheipi),  3/1/2012 : https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650 https://web.archive.org/web/20120113202143/https://www.bitcoinarmory.com/
+
+crowfunding : https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0
+
+
+### Les portefeuilles web
+
+- Stefan Thomas (justmoon), bitcoinjs-lib, mai 2011 : [annonce sur BitcoinTalk, 5/5](https://bitcointalk.org/index.php?topic=7357.msg108003#msg108003), [GitHub](https://github.com/bitcoinjs/bitcoinjs-lib/), [first commit, 4/5](https://github.com/bitcoinjs/bitcoinjs-lib/commit/c0d740d2d4cd35ab18dc35e23936db42f17ad2ee)
+
+- Blockchain.info, Benjamin Reeves (piuk), août 2011 (explorateur de blocs), portefeuille web ? : https://bitcointalk.org/index.php?topic=40264.msg490783#msg490783 https://web.archive.org/web/20120519163609/https://bitcointalk.org/index.php?topic=40264.0 ; Nicolas Cary, ami d'université d'Erik Voorhees, qui l'a introduit à Bitcoin ; Peter Smith, PDG
+
+2012 : https://web.archive.org/web/20120108001717/https://blockchain.info/wallet/
+
+### Les portefeuilles papier
+
+Portefeuilles papier. BitAddress, par Pointbiz, 12 sept. 2011 : https://bitcointalk.org/index.php?topic=43496.msg519916#msg519916 https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0 https://web.archive.org/web/20110922230113/http://www.bitaddress.org/bitaddress.org-v0.6-SHA1-1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e.html 1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN
+
+Blockchain.info ("I printed out a paper wallet with Blockchain.", [9/01/2014](https://bitcointalk.org/index.php?topic=404604.msg4416710#msg4416710))
+
+### Les bitcoins physiques (Bitbills, Casascius coins)
+
+[BitBills](https://en.bitcoin.it/wiki/Bitbills) (mai 2011–mai 2012)
+
+First Bitcoin ATM, Todd Bethell, [7/9/2011](https://www.youtube.com/watch?v=Lnq2I-N-xYQ)
+
+Paper wallets de Casascius : https://web.archive.org/web/20110831102426/https://www.casascius.com/
+
+Mike Caldwell (Casascius), habite dans l'Utah, [Swipeclock](https://www.linkedin.com/company/swipeclock/), Casascius = "call a spade a spade" + cius (nom romain)
+
+« bitcoins de Casascius » ("Casascius coins") [6 sept. 2011](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883)–[27 nov. 2013](https://web.archive.org/web/20131203002016/https://www.casascius.com/)
+
+Objectif d'éducation : expliquer la cryptographie aux gens, Comme il l'[expliquera](https://bitcointalk.org/index.php?topic=41892.msg3727984#msg3727984) en 2013 (26/11) :
+
+> « Mon objectif, en introduisant les Casascius Coins, était de les utiliser comme outil pédagogique, afin d'aider le grand public à visualiser une pièce de monnaie virtuelle avec un objet fonctionnel tangible. »
+>
+> original: "My purpose in introducing Casascius Coins was as a teaching tool, to help the world at large visualize a virtual coin with a tactile functional object"
+
+[Vendus](https://web.archive.org/web/20111107191637/https://www.casascius.com/) sur le site Casascius. Aussi [vendus](https://web.archive.org/web/20111028171555/http://www.memorydealers.com/bieq.html) sur MemoryDealers à partir d'octobre
+
+![Les premiers bitcoins de Casascius en 2011](assets/en/casasciusphysicalbitcoins-2011.webp)
+
+Les premiers bitcoins de Casascius en 2011 (source : [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))
+
+Vente de bitcoin de Casascius dans un distributeur automatique au PorcFest 2012 : https://odysee.com/@adamkokesh:2/moment-in-monetary-history-bitcoin-by:9 (Adam Kokesh : https://web.archive.org/web/20120621190100/https://www.youtube.com/watch?v=F2K6nNj_LEE)
+
+Statistiques : https://casascius.uberbills.com/
+
+De quoi attirer les amateurs de numismatique...
+
+### Les portefeuilles mentaux
+
+brain wallet : https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/
+
+### Les premiers mélangeurs
+
+- Bitcoin n'est pas aussi anonyme qu'on ne le pense. Martin Harrigan, 24/7/2011 : https://www.dw.com/en/bitcoin-not-so-anonymous-irish-researcher-says/a-15276051
+
+"An Analysis of Anonymity in the Bitcoin System", Fergal Reid, Martin Harrigan (University College Dublin), submitted 22/7 : https://arxiv.org/PS_cache/arxiv/pdf/1107/1107.4524v1.pdf
+
+- Mixers, BitLaundry (la « blanchisserie de bitcoins ») : [créée](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823) en sept. 2010 par Peter Vessenes, [cédé](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) à Mike Gogulski en mai 2011 (a renoncé à sa citoyenneté étasunienne vers 2008–2011, le rendant apatride) : https://twitter.com/lugaxker/status/1668371550242848768
+
+- Vitalik Buterin, "The Battle Is On - Silk Road vs Government, and Bitcoin Anonymity", [2011-06-07 11:00:56 UTC](https://web.archive.org/web/20110610205500/http://bitcoinweekly.com/articles/the-battle-is-on-silk-road-vs-government-and-bitcoin-anonymity)
+
+- The Bitcoin Washing Machine, Tor, mai 2011 https://bitcointalk.org/index.php?topic=9512.msg137243#msg137243
+
+- OnionBC
+
+- Bitcoin Fog, Roman Sterlingov (Akemashite Omedetou), 27 octobre 2011 : https://bitcointalk.org/index.php?topic=50037.msg596034#msg596034 https://web.archive.org/web/20121102102447/https://bitcointalk.org/index.php?topic=50037.0 https://twitter.com/BitcoinFog/status/129629806181613568
+
+### Autres (2013)
+
+HD Wallets ? Premiers portefeuilles matériels ?
+
 # 2012
 
 ## La bataille pour P2SH

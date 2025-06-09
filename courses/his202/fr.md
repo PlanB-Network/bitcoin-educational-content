@@ -264,7 +264,7 @@ En avril, à la suite de la publication de [l'article de Forbes](https://www.for
 
 ![L'évolution du prix du bitcoin sur Mt. Gox en 2011](assets/en/great-bubble-2011-bitcoincom.webp)
 
-L'évolution du prix du bitcoin sur Mt. Gox en 2011 (source : Bitcoin Chart via [Bitcoin.com](https://news.bitcoin.com/look-bitcoin-bubble-will-next-one/))
+L'évolution du prix du bitcoin sur Mt. Gox en 2011 (source : Bitcoin Charts via [Bitcoin.com](https://news.bitcoin.com/look-bitcoin-bubble-will-next-one/))
 
 Cette hausse phénoménale est particulièrement bénéfique à Mt. Gox, qui voit ses chiffres exploser. Entre la reprise effective de Mark en mars et la fin du mois de mai, le nombre de comptes d'utilisateurs passe de 3 000 à 60 000. Au cours de la même période, le volume d'échange journalier passe lui de quelques milliers de dollars à plusieurs centaines de milliers de dollars. En juin, il dépasse même les deux millions de dollars pendant quelques jours !
 
@@ -466,7 +466,7 @@ En 2011, il déménage à Portsmouth dans le New Hampshire dans le cadre du Free
 
 Sa motivation est principalement idéologique : il est séduit par le caractère inarrêtable du système et par l'impossibilité de créer plus de monnaie que prévu. Il [voit](https://silverunderground.com/2011/06/bitcoin-the-separation-of-money-and-state/) en Bitcoin une incarnation de « la séparation entre la monnaie et l'État » (original: "the separation of money and state"). Il est en outre convaincu par la pratique agoriste promue par Samuel Konkin et [estime](https://bitcointalk.org/index.php?topic=34657.msg431717#msg431717) que « Bitcoin est à l'agorisme ce que les branchies sont au poisson », un rouage essentiel.
 
-En juin, Erik Voorhees achète une grande quantité de bitcoins, alors que le prix est au plus haut. Il [s'essaie](https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745) aussi au minage par processeur graphique, mais cela déplait à sa petite amie, et il est contraint de vendre ses machines. En septembre, il se rend à New York pour assister à la conférence organisée par Bruce Wagner, et y fait la connaissance de nombreux acteurs de l'écosystème.
+En juin, Erik Voorhees achète une grande quantité de bitcoins, alors que le prix est au plus haut. Il [s'essaie](https://bitcointalk.org/index.php?topic=24198.msg300745#msg300745) aussi au minage par processeur graphique, mais cela déplait à sa petite amie, et il est contraint de vendre ses machines. En août, il se rend à New York pour assister à la conférence organisée par Bruce Wagner, et y fait la connaissance de nombreux acteurs de l'écosystème.
 
 L'une des personnes qu'il rencontre à la conférence est Ira Miller (bearbones). Ce dernier est un jeune développeur originaire de l'Illinois et habitant alors à Denver, dans le Colorado. Malgré son profil plutôt technique, Ira Miller est lui aussi engagé politiquement. Suivant la tendance de sa famille, Ira Miller [était](https://isysd.medium.com/change-by-example-not-politics-or-money-e232c25d58a7) initialement social-démocrate (*liberal* dans le sens américain) et a voté pour Barack Obama en 2008. Cependant, il a foncièrement été déçu par les promesses non tenues et par les politiques hostiles à la liberté du camp démocrate. N'aimant pas beaucoup non plus le camp républicain, il s'est alors tourné vers le libertarianisme, soutenant Ron Paul.
 
@@ -514,185 +514,153 @@ Le politique constitue un élément essentiel de l'essor de Bitcoin entre 2011 e
 
 Pourtant, cet aspect idéologique était en opposition avec une force autrement plus attractive : celle de l'intérêt financier. Une tension s'est ainsi construite au cours de ces années entre les deux aspects. Mais avant cela, il fallait construire les outils permettant aux acteurs financiers de venir s'investir dans l'écosystème...
 
-## L'éclatement de la grande bulle de 2011 (août–déc. 2011)
-
-https://web.archive.org/web/20110925003655/http://www.betabeat.com/2011/09/15/despite-cyberattacks-and-overspeculation-bitcoin-economy-continues-to-evolve/
+## L'éclatement de la grande bulle de 2011 (août 2011–juin 2012)
 
 En juin 2011, l'engouement spéculatif de juin a été stoppé net par la piratage de Mt. Gox et par sa mise hors ligne pendant des jours. Le fiasco lié à la fermeture de MyBitcoin à la fin du mois de juillet a finalement provoqué le dégonflement de la bulle. Dans les jours qui ont suivi le prix a baissé en flèche jusqu'à 6 $, et a finit par tomber à 2 $ en novembre.
 
-Cet éclatement de la « grande bulle de 2011 » (original: "the Great Bubble of 2011") a bien évidemment attiré l'attention de la presse, qui s'est empressée de déclarée que Bitcoin était mort. Mais il a également été propice à la construction économique. La période de stagnation du prix a permis de développer des projets qui ont porté leurs fruits par la suite.
+Cet éclatement de la « grande bulle de 2011 » (original: "the Great Bubble of 2011") a bien évidemment attiré l'attention de la presse, qui s'est empressée de déclarer que Bitcoin était mort. Mais il a également été propice à la construction économique. La période de stagnation du prix a permis de développer des projets qui ont porté leurs fruits par la suite.
 
-### Traitement médiatique
+Parmi ces projets, on retrouve la plateforme de trading sur marge Bitcoinica, les bourses indépendantes GLBSE et MPEx, le service d'achat BitInstant et le site de poker en ligne Seals with Clubs.
 
-Rétrospective sur la bulle. Vitalik Buterin, juin 2012 : https://web.archive.org/web/20120618044628/http://bitcoinmagazine.net/anniversary-of-the-great-bubble-of-2011/
+### Le traitement médiatique
 
-Prix : 6 $ le 6/8/2011, 2 $ le 18/11/2011, 7 $ le 8/1/2012
+Après le sommet de 32 $ atteint le 8 juin, le piratage de Mt. Gox et la fermeture de MyBitcoin ont définitivement stoppé le mouvement spéculatif. Le prix s'effondre à 6 $ début août. L'exposition de Bitcoin au monde, couplée à la baisse du taux de change, donnent une bonne raison pour les critiques d'affluer.
 
-Capture de Bitcoin Charts, août 2011 : https://web.archive.org/web/20110727192503/http://bitcoincharts.com/markets/
+Le 7 août, Timothy Lee, rédacteur pour le site d'actualité technique Arstechnica et [sceptique](https://timothyblee.com/2011/04/19/bitcoins-collusion-problem/) à propos de Bitcoin depuis avril, [publie](https://www.forbes.com/sites/timothylee/2011/08/07/the-bitcoin-crash/) un article intitulé « Le krach du bitcoin » (original: "The Bitcoin Crash") dans lequel il explique que le bitcoin « ne semble pas avoir de valeur fondamentale du tout » (original: "the currency doesn't seem to have any fundamental value at all") et qu'« il n'y a pas de point d'arrêt logique à la baisse du prix du bitcoin » (original: "there's no logical stopping point to Bitcoin's price decline"), le processus étant d'après lui « en phase terminale » (original: "it's terminal"). Son argumentaire est récupéré le lendemain par Nicholas Jackson [dans The Atlantic](https://www.theatlantic.com/technology/archive/2011/08/the-bitcoin-economy-is-collapsing-with-no-sign-of-recovery/243253/), pour qui « l'économie de Bitcoin s'effondre sans montrer le moindre signe de reprise » (original: "The Bitcoin Economy Is Collapsing With No Sign of Recovery"), et par Adrian Covert [sur Gizmodo](https://gizmodo.com/the-bitcoin-is-dying-whatever-5828710), qui argue que « l'état de grâce est terminé » (original: "the honeymoon is over") et que « le bitcoin se meurt » (original: "The Bitcoin Is Dying").
 
-James Surowiecki, "Cryptocurrency", août 2011 : https://www.technologyreview.com/2011/08/23/191860/cryptocurrency/ ; *MIT Technology Review* September/October 2011
+D'autres critiques émergent entretemps, plutôt au niveau macroéconomique. En septembre, James Surowiecki, journaliste américain connu pour avoir publié *La Sagesse des foules* (original: "The Wisdom of Crowds") en 2004, [publie](https://www.technologyreview.com/2011/08/23/191860/cryptocurrency/) un réquisitoire contre Bitcoin dans la *MIT Technology Review*. Il accuse la limite du nombres de bitcoins d'encourager à la thésaurisation, ce qui l'empêcherait de devenir un intermédiaire d'échange, créant en dernier lieu une situation où « la grande majorité des bitcoins sont détenus par des personnes qui espèrent les vendre à d'autres personnes » (original: "the vast majority of bitcoins are held by people hoping to sell them to other people") et où . Le 7 septembre, Paul Krugman, économiste néokeynésien et lauréat du prix Nobel d'économie en 2008, [reprend](https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/) ce raisonnement dans un article publié sur le site *New York Times*, intitulé « Golden Cyberfetters » (« Cyberchaînes dorées » en français), en référence à l'ouvrage *Golden Fetters* de Barry Eichengreen, soutenant que la grande dépression des années 1930 a été la conséquence du système trop restrictif de l'étalon-or. Il argue que « Bitcoin a créé son propre modèle privé d'étalon-or, dans lequel la masse monétaire est fixe »  (original: "Bitcoin has created its own private gold standard world, in which the money supply is fixed rather than subject to increase via the printing press.") et que la déflation résultante a fait que « la valeur réelle des transactions en bitcoins a diminué au lieu d'augmenter » et « le produit brut réel en bitcoins a fortement chuté » (original: "The actual value of transactions in Bitcoins has fallen rather than rising. In effect, real gross Bitcoin product has fallen sharply.").
 
-Paul Krugman, "Golden Cyberfetters", septembre 2011 : https://archive.nytimes.com/krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/
+![Le premier article de Paul Krugman sur Bitcoin](assets/en/krugman-golden-cyberfetters-2011.webp)
 
-économiste néokeynésien, et prix Nobel d'économie (« cyberchaînes dorées » en français), référence à l'ouvrage *Golden Fetters* de Barry Eichengreen, qui soutient que la grande dépression des années 1930 a été due à l'étalon-or. Paul Krugman soutient qu'en fixant « la quantité totale de cybermonnaie » ("created its own private gold standard world, in which the money supply is fixed rather") mènerait au résultat suivant : thésaurisation, déflation et dépression ("hoarding, deflation, and depression")
+Le premier article de Paul Krugman sur Bitcoin (source : [archive](https://web.archive.org/web/20110909021607/http://krugman.blogs.nytimes.com/2011/09/07/golden-cyberfetters/) du New York Times)
 
-The Economist, "*The bursting of the Bitcoin bubble*", 21 octobre 2011 : https://web.archive.org/web/20181019113320/https://www.economist.com/babbage/2011/10/21/the-bursting-of-the-bitcoin-bubble
+Le 17 octobre, le prix du BTC tombe brutalement en-dessous des 3,2 $ enregistrant ainsi une baisse de plus de 90 % par rapport au sommet de la bulle, chose que ne manque pas de [rappeler](https://arstechnica.com/tech-policy/2011/10/bitcoin-implodes-down-more-than-90-percent-from-june-peak/) Timothy Lee le lendemain. Dans un article publié sur Arstechnica, il décrit les problèmes liés à l'utilisation de la cryptomonnaie, comme les piratages ou la volatilité. Il ne paie pas cher de la peau de Bitcoin, car « cinq mois de mauvaises nouvelles et de dépréciation ont causé de sérieux dommages » à sa réputation (original: "But the value of a currency is built on its reputation, and five months of bad news and depreciation have done serious damage."). Dans la même veine, un article de *The Economist* ayant pour [titre](https://web.archive.org/web/20181019113320/https://www.economist.com/babbage/2011/10/21/the-bursting-of-the-bitcoin-bubble) « L'éclatement de la bulle du bitcoin » (original: "The bursting of the Bitcoin bubble") est publié le 21 octobre.
 
-Benjamin Wallace, *Wired*, "The Rise and Fall of Bitcoin", 23 novembre 2011 : https://www.wired.com/2011/11/mf-bitcoin/
+![L'évolution du prix du bitcoin sur Mt. Gox entre juin et octobre 2011](assets/en/arstechnica-bitcoin-implodes-bitcoincharts-june-oct-2011.webp)
 
-Stefan Brands : "pyramid scheme"
+L'évolution du prix du bitcoin sur Mt. Gox entre juin et octobre 2011 (source : Bitcoin Charts via [Arstechnica](https://arstechnica.com/tech-policy/2011/10/bitcoin-implodes-down-more-than-90-percent-from-june-peak/))
 
-Timothy Lee, *Arstechnica*, "Bitcoin’s Comeback: Should Western Union Be Afraid?", [21/12/2011](https://arstechnica.com/tech-policy/2011/12/bitcoins-comeback-should-western-union-be-afraid/)
+Dans le mois qui suit, le taux de change peine à rebondir et connait même un nouveau creux le 18 novembre autour de 2 $. Le 23 novembre, le rédacteur Benjamin Wallace [publie](https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1) un article de fond dans Wired intitulé « The Rise and Fall of Bitcoin » (« L'essor et la chute du bitcoin » en français), qui, au-delà de son titre volontairement aguicheur, est de très bonne facture et aborde les problèmes rencontrés par les utilisateurs de Bitcoin. La période est en particulier difficile pour les mineurs, qui se sont procuré des processeurs graphiques pendant l'été, mais qui [constatent](https://bitcointalk.org/index.php?topic=47480.msg565196#msg565196) qu'il n'est plus rentable de miner avec. Certains sont même contraints de [vendre](https://bitcointalk.org/index.php?topic=48767.msg580225#msg580225) leur équipement.
 
-Rebecca Greenfield, *The Atlantic*, "The Bitcoin Collapse That Never Happened", [21/12/2011](https://web.archive.org/web/20120107225333/http://www.theatlanticwire.com/technology/2011/12/bitcoin-collapse-never-happened/46522/)
+Toutefois, malgré la chute du prix et les critiques, le cœur de la communauté est toujours actif et encaisse la volatilité extrême du cours avec philosophie. Bitcoin est un projet que les convaincus se sont engagés à construire et à faire prospérer. Certains membres de la communauté, [comme Amir Taaki](https://www.wired.com/2011/11/mf-bitcoin/), comparent le phénomène au « cycle de l'engouement » de Gartner (original: "hype cycle"), qui décrit que l'adoption d'une technique émergente doit passer par un « pic d'attente exagérée », puis par un « gouffre des désillusions » pour enfin un « plateau de productivité », comme cela a été le cas avec le Web et la bulle Internet.
 
-### Quelques autres plateformes de change
-
-BTC-e, cofondée par Alexander Vinnik et Aleksandr Bilyuchenko, [testée](https://bitcointalk.org/index.php?topic=29698.0) à partir du 17 juillet 2011, lancement le [7 août 2011](https://bitcointalk.org/index.php?topic=29698.msg437237#msg437237)
-
-Bitstamp, Nejc Kodrič, Damijan Merlak, Slovénie, 18 août 2011 : https://web.archive.org/web/20140430233930/https://bitcointalk.org/index.php?topic=20292.220 https://bitcointalk.org/index.php?topic=38578.msg472485#msg472485 (déplacée au Royaume-Uni en avril 2013, puis au Luxembourg en 2016)
-
-Crypto X Change, plateforme australienne, [10/11/2011](https://bitcointalk.org/index.php?topic=51457.msg613057#msg613057)
-
-OKPAY, service de paiement (russe ?), carte de paiement MasterCard, [07/11/2011](https://bitcointalk.org/index.php?topic=51403.msg612744#msg612744)
-
-### Trading sur marge : Bitcoinica
-
-Bitcoinica, [8 septembre 2011](https://bitcointalk.org/index.php?topic=42267.msg514429#msg514429), https://news.ycombinator.com/item?id=2973301
-
-JDC: Le succès est au rendez-vous dès le début. Durant les premières 24 heures, 3724 bitcoins sont échangés par 290 utilisateurs différents, soit l'équivalent de 19 000 $. Le volume sur les 7 premiers jours est 160 865 bitcoins, soit plus de 800 000 $ (source: https://web.archive.org/web/20111019032441/http://blog.bitcoinica.com/), faisant de Bitcoinica la deuxième plateforme de trading en termes de volume derrière Mt. Gox.
-
-https://bitcointalk.org/index.php?topic=49445.msg588749#msg588749
-
-### Titres financiers : GLBSE et MPEx
-
-L'absence de besoin d'autorisation de Bitcoin pousse les membres de la communauté à imaginer des utilisations allant plus loin que le simple échange monétaire et la spéculation. Ils envisagent ainsi de libéraliser l'investissement en fournissant un moyen d'émettre des actions et des obligations pour les sociétés de l'écosystème. Il s'agit de contourner des réglementations imposées notamment par la *Securities and Exchange Commission* aux États-Unis (l'équivalent américain de l'AMF), en [profitant](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) du caractère novateur de Bitcoin et du flou juridique qui l'entoure. L'idée est de créer un modèle alternatif au système financier classique, qui pourrait s'autoentrenir dans la démarche agoriste.
-
-L'un des individus s'impliquant dans ce mouvement est James McCarthy, qui utilise le pseudonyme Nefario sur le forum de Bitcoin (en référence au personnage du même nom dans le film d'animation *Moi, moche et méchant*). Celui-ci est un Irlandais vivant en Chine, qui occupe un poste de professeur d'anglais dans une université. Il s'intéresse à l'école autrichienne et aux idées des cypherpunks, [déclarant](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) lui-même être « en quelque sorte un cypherpunk ». (original: "something of a cypherpunk") Il a [découvert](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) l'existence de Bitcoin au cours de l'année 2010 et en a miné plus d'un millier. Il s'est ensuite impliqué dans plusieurs projets, dont le projet de magazine en ligne Bitcoin Weekly.
-
-![James McCarthy (Nefario) en février 2012](assets/en/nefario-tedxleeds-feb-2012.webp)
-
-James McCarthy (Nefario) en février 2012 (source : [archive](https://web.archive.org/web/20121008033716/https://www.tedxleeds.com/nefario-james-mccarthy/) de TEDxLeeds)
-
-https://en.bitcoin.it/wiki/GLBSE
-
-En avril 2011, James McCarthy [lance](https://bitcointalk.org/index.php?topic=6500.msg94943#msg94943) GLBSE (prononcé glib-zee), acronyme de *GLobal Bitcoin Stock Exchange*. Les utilisateurs passent par une interface en ligne de commande qui permet d'interagir avec le serveur de la plateforme. Le client est une version modifiée d'un logiciel développé par Amir Taaki. D'après le site web, la plateforme [permet](https://web.archive.org/web/20110427033244/http://glbse.com/) « d'émettre des actions pour lever des capitaux ; de verser des dividendes aux actionnaires ; de soumettre des résolutions aux actionnaires et d'obtenir leur vote ; d'émettre et de vendre des obligations ; d'emprunter et de prêter sur le marché ; d'effectuer et de recevoir des remboursements de prêts ; d'émettre des contrats à terme ; de méta-spéculer sur des sociétés non cotées (sur d'autres places boursières) ; et d'échanger tout ce qui précède avec d'autres tradeurs sur le marché ». (original: "Issue shares to raise capital; Pay dividends to shareholders; Put resolutions to shareholders and get their vote; Issue and sell bonds; Borrow and lend to the market; Make and recieve loan repayments; Issue futures contracts; Meta-trade on non listed companies (on other exchanges); And trade all of the above with other traders on the market")
-
-La première « IPO » (*Initial Public Offering*, usuellement traduit par « introduction en bourse » en français) est [réalisée](https://bitcointalk.org/index.php?topic=6838.msg100170#msg100170) à partir du 30 avril par un projet du nom de Ubitex, une plateforme de change en personne permettant de mettre en relation les acheteurs et les vendeurs présents dans une même région. L'opération consiste à vendre un certain nombre de parts (ici 1000) pour des bitcoins en échange de quoi les actionnaires bénéficieront des profits de l'entreprise. Le service voit le jour, mais son unique développeur [de 14 ans](https://bitcointalk.org/index.php?topic=6584.msg707259#msg707259), Nathaniel Theis alias Cuddlefish sur le forum, disparait brutalement, lorsque son ordinateur [tombe en panne](https://bitcointalk.org/index.php?topic=6584.msg414585#msg414585) en juillet.
-
-1100 BTC récupérés (d'une valeur d'environ 10 000 $) https://en.bitcoin.it/wiki/Ubitex
-
-Au début de l'automne, une trentaine d'actifs est [disponible](https://web.archive.org/web/20110923234458/http://charts.glbse.com/markets/) à l'échange sur la plateforme. En mars 2012, une version 2 de la plateforme [sort](https://bitcointalk.org/index.php?topic=73910.msg817887#msg817887).
-
-![Capture du site web de GLBSE le 17 août 2011](assets/en/glbse-20110817.webp)
-
-Capture du site web de GLBSE le 17 août 2011 (source : [archive](https://web.archive.org/web/20110817072049/http://glbse.com/))
-
-- Nefario refoulé des états-unis en juillet https://web.archive.org/web/20111104183542/http://blog.glbse.com/no-electronic-devices
-
-- bitoptions, mai 2011 : https://bitcointalk.org/index.php?topic=9611.msg138413#msg138413 https://bitcointalk.org/index.php?topic=12572.msg174313#msg174313
-
-- fermeture de GLBSE en octobre 2012
-
-Sources : https://web.archive.org/web/20110514152022/http://bitcoinweekly.com/articles/the-global-bitcoin-stock-exchange-and-why-it-matters https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global https://bitcoinmagazine.com/markets/global-bitcoin-stock-exchange-shuts-down-for-good-1349879479 https://bitcoinmagazine.com/culture/interview-with-glbses-nefario-1350319173
-
-http://trilema.com/2012/scammer-tag-nefario-theymos-others-known-and-unknown/
-
-Un autre projet de ce type voit le jour quelque temps plus tard grâce à un Roumain appelé Mircea Popescu.
-
-https://bitcoinmagazine.com/culture/mircea-popescu-bitcoin-philosopher-dead
-
-Ce Roumain controversé a créé le "Mircea Popescu's BTC Options trading Emporium" (MPOE) qui proposait des options d'achat (call) et de vente (put) de BTC. Devenu MPEx en 2012 pour aussi proposer des actions, il a fermé en 2016. Popescu est mort en 2021.
-
-Mircea Popescu est un personnage controversé. Roumain, originaire de Transylvanie, il est un auteur prolifique sur son blog [Trilema](http://trilema.com/archives-categories/) : il écrit sur tous les sujets (philosophie, politique, sexualité), dans un style volontairement provocateur, en roumain dans un premier temps. Il s'intéresse à Bitcoin à partir de l'été 2011 et commence à en [parler](http://trilema.com/2011/ce-este-bitcoin/) sur son blog. En août, il [ouvre](https://bitcointalk.org/index.php?topic=15672.msg444367#msg444367) le « Mircea Popescu's BTC Options Trading Emporium » (MPOE), qui [propose](https://web.archive.org/web/20110824221522/http://polimedia.us/bitcoin/options.php) des options d'achat (call) et de vente (put) de BTC. La plateforme est globalement rentable, réalisant plus de 140 BTC de bénéfices nets sur six mois. En avril 2012, après une [levée de fonds](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) recueillant plus de 3 000 BTC (par émission d'actions et d'obligations) et une phase bêta, la plateforme [devient](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) une bourse en bitcoins permettant d'émettre diverses actions (dont celle de MPOE) et est renommée MPEx (pour « Mircea Popescu's Exchange »).
-
-![Mircea Popescu, date indéterminée](assets/en/mircea-popescu-wired-2014-bitcoin-baron.webp)
-
-Mircea Popescu, date indéterminée (source: Mircea Popescu pour [Wired](https://web.archive.org/web/20140405150603/https://www.wired.com/2014/01/openbsd/))
-
-https://en.bitcoin.it/wiki/MPEx
-
-« MPOE est globalement rentable, ayant réalisé 140,383524440 BTC de bénéfices nets sur six mois sur la base de 8 172 BTC-mois de capital (en moyenne 1 362 BTC par mois). »
-
-"As you can see, MPOE is overall profitable, having realised 140.383524440 BTC in net profits over six months on the basis of 8 172 BTC-months in capital (on the average 1 362 BTC per month)."
-
-MPEx 11 avril 2012 : https://bitcointalk.org/index.php?topic=76239.0
-
-![Capture de MPEx, août 2012](assets/en/mpex-20120829.webp)
-
-Capture de MPEx, août 2012 (source : [archive](https://web.archive.org/web/20120829092213/http://polimedia.us/bitcoin/mpex.php))
-
-Contrats à terme, déc. 2012 : http://trilema.com/2012/futures-on-mpex/
-
-[Fermeture](http://trilema.com/2016/mpex-smpoe-closing-statement/) en 2016 ; mort de Popescu en 2021.
+Peu à peu, le prix remonte pour dépasser à nouveau 4 $ fin décembre, si bien que la presse est obligée d'admettre que Bitcoin n'est pas mort. Le 21 décembre, Timothy Lee [écrit](https://arstechnica.com/tech-policy/2011/12/bitcoins-comeback-should-western-union-be-afraid/) que « la stabilité apparente de la monnaie au cours du mois dernier \[l'a\] incité à y jeter un second coup d'œil » (original: "the currency's apparent stability over the last month has inspired us to give it a second look"). En particulier, il est amené à réfléchir ce qui donne de la valeur au bitcoin, trouve cette valeur non pas tant dans sa qualité de « monnaie alternative » que comme « méta-monnaie » permettant le « transfert de richesse à faible coût et sans réglementation entre les nations » (original: "Bitcoin is not so much an alternative currency as a 'metacurrency' that allows low-cost and regulation-free transfer of wealth between nations"), en concurrence avec Western Union.
 
 ### BitInstant, la plaque tournante du change en bitcoins
 
-Sources : https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/ https://www.youtube.com/watch?v=8TD5u_ocXds (12:46)
+Les plateformes de change se multiplient. Outre celles lancées pendant la phase haussière de la bulle, on voit plusieurs autres platefromes émerger pendant l'été. C'est le cas de BTC-e, [lancée](https://bitcointalk.org/index.php?topic=29698.msg437237#msg437237)) par les Russes Alexander Vinnik et Aleksandr Bilyuchenko le 7 août ; de Bitstamp, [mise en ligne](https://web.archive.org/web/20140430233930/https://bitcointalk.org/index.php?topic=20292.220) par les Slovènes Nejc Kodrič et Damijan Merlak le 19 août ; et de Crypto X Change, [inaugurée](https://bitcointalk.org/index.php?topic=51457.msg613057#msg613057) le 10 novembre par les Australiens Ken et Colin Armitt.
 
-Vit dans le sous-sol de la maison de ses parents à Midwood (quartier juif), à Brooklyn, New York. Il a grandi dans une famille juive syrienne orthodoxe très stricte.
+Toutefois, la plateforme Mt. Gox reste largement la plus utilisée. Cela pose problème aux (nombreux) clients occidentaux, car la plateforme est installée au Japon, et les dépôts et les retraits demandent de faire des virements internationaux pouvant durer des jours. Et PayPal censure toute activité relative au change de bitcoins.
+
+C'est ce que problème que tente de résoudre un jeune développeur gallois de 23 ans, appelé Gareth Nelson (garethnelsonuk), avec un service qui prendra le nom de BitInstant. Gareth a découvert Bitcoin au cours du printemps. Après s'être [intéressé](https://bitcointalk.org/index.php?topic=8780.msg131564#msg131564) au minage, il a [rencontré](https://bitcointalk.org/index.php?topic=9198.msg132990#msg132990) lui-même la difficulté d'envoyer de l'argent vers Mt. Gox, et a réalisé un échange de gré à gré pour se procurer des bitcoins.
+
+![Gareth Nelson vers 2011–2012](assets/en/gareth-nelson-bitinstant-2011.webp)
+
+Gareth Nelson vers 2011–2012 (source : [archive](https://web.archive.org/web/20130118073422/https://www.bitinstant.com/aboutus) de BitInstant.com)
+
+Le 13 juin vers 4 heures du matin (UTC), Gareth Nelson [publie](https://bitcointalk.org/index.php?topic=16134.msg210887#msg210887) sur le fourm une idée de service de « paiement rapide pour Mt. Gox ». Il s'agit de constituer un intermédiaire qui vire les fonds sur la plateforme de change, une fois que ceux-ci ont été reçus dans le pays d'origine, typiquement les États-Unis. Il écrit :
+
+> « Comme vous le savez, mtgox est connu pour être lent pour traiter les paiements et les encaissements. J'ai réfléchi à la possibilité de résoudre ce problème en créant un nouveau site qui utilisera l'API de mtgox pour accélérer les paiements (les utilisateurs paieront sur mon site et recevront instantanément des dollars de mtgox, déduction faite d'une petite commission de 1,5 %). »
+>
+> original: "As you know, mtgox is famously slow to pay into and cash out from. I've been pondering fixing this issue by setting up a new site which will make use of the mtgox API to speed up payments (users pay on my site, they get mtgox USD instantly minus a small 1.5% fee)."
+
+Il sait qu'il a les compétences techniques pour mettre en pratique cette idée, mais manque d'argent pour le rendre viable. C'est pourquoi il dit dans son message chercher des investisseurs pour le lancer. Et cela attire immédiatement l'attention d'un jeune New-Yorkais de 21 ans, utilisant le pseudonyme Yankee, appelé Charlie Shrem.
+
+Charlie Shrem est [issu](https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/) d'une famille juive syrienne orthodoxe très stricte, et a grandi dans le quartier de Midwood à Brooklyn. Son père travaille pour un détaillant de bijoux. Timide et maladroit lorsqu'il était enfant, il s'est réfugié dans l'informatique, a appris à coder tout seul et s'est fait connaître sur les forums de pirates informatiques en ligne. Au cours de ses années de lycée et d'université, il a participé au lancement de plusieurs entreprises, comme *Epiphany Design and Production*, un service de réparation d'imprimantes et d'ordinateurs ; et [Daily Checkout](https://web.archive.org/web/20110618225450/http://www.dailycheckout.com/), un site de commerce en ligne pour l'électronique fondé en mars 2009. Il s'est découvert un sens du commerce à ce moment-là.
 
 img: Photo de Charlie Shrem en 2011/2012
 
-BitInstant, cofondé en juin 2011 par Gareth Nelson (garethnelsonuk) et Charlie Shrem (Yankee).
+En 2011, Charlie fréquente encore le *Brooklyn College*, où il étudie pour obtenir une licence en économie et finance. Il vit encore dans le sous-sol de la maison familiale. D'après ses dires, il a [entendu parler](https://www.youtube.com/watch?v=XM2712vOyus&t=96s) de Bitcoin pour la première fois en 2009, lorsque l'organisation caritative pour laquelle il travaille, Tikvot, s'est faite geler son compte PayPal. Toutefois, son intérêt n'a réellement été capté que lorsqu'il a découvert Silk Road par le biais de l'article de Gawker publié le 1er juin 2009. Quelques heures après la parution de l'article, il a [publié](https://twitter.com/CharlieShrem/status/76021290842079232) un tweet pour se procurer du bitcoin ; étant lui-même consommateur de cannabis, il cherchait probablement à essayer la plateforme. Le 10 juin, il s'est [inscrit](https://web.archive.org/web/20111127073246/https://bitcointalk.org/index.php?action=profile;u=21181) sur le forum de Bitcoin, sous le pseudonyme Yankee.
 
-Charlie est jeune : il a 21 ans (né en 25 novembre 1989). Gareth est un Gallois de 23 ans ([source](https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/)).
+Ainsi, lorsque Gareth publie son annonce le 13 juin, Charlie est donc tout à fait à l'écoute. Il contacte ce dernier et ils trouvent un accord rapidement. De son côté, Charlie demande à ses parents de lui accorder un prêt de 10 000 $ ; son père refuse, mais sa mère accepte. Le soir même, Gareth [annonce](https://bitcointalk.org/index.php?topic=16472.msg214518#msg214518) qu'il a trouvé un investisseur en la personne de Charlie Shrem et dévoile le nom du projet : BitInstant.
 
-Charlie Shrem, s'inscrit le 10 juin sur le forum avec le pseudonyme [Yankee](https://web.archive.org/web/20111127073246/https://bitcointalk.org/index.php?action=profile;u=21181)
-
-13 juin, 04:04 UTC : [annonce](https://bitcointalk.org/index.php?topic=16134.msg210887#msg210887) de Gareth Nelson, recherche d'investisseurs ; 21:01 UTC : [annonce du projet BitInstant](https://bitcointalk.org/index.php?topic=16472.msg214518#msg214518)
-
-"startup installée à Brooklyn qui propose des crédits temporaires afin d'accélérer les transactions en bitcoins"
-
-Le service est lancé en septembre.
-
-Charlie Shrem dans le Bitcoin Show : [24/11/2011](https://www.youtube.com/watch?v=PxMazut6-0U)
+Ils développent le service au cours de l'été. Le 23 août, après une [phase bêta](https://bitcointalk.org/index.php?topic=36184.msg469342#msg469342) de deux semaines, BitInstant [ouvre](https://bitcointalk.org/index.php?topic=38914.msg476106#msg476106) ses portes au grand public. L'entreprise bénéficie d'un partenariat avec la plateforme de change TradeHill, si bien qu'elle rend possible les virements instantatnés vers cette dernière au moyen de Liberty Reserve ou de Dwolla. Le 21 novembre, Mt. Gox est finalement [ajouté](https://bitcointalk.org/index.php?topic=52476.msg626239#msg626239) au service.
 
 ![Capture du site de BitInstant, 26 janvier 2012](assets/en/bitinstant-howitworks-2012.webp)
 
 Capture du 26 janvier 2012 (source : [archive de Bitinstant.com](https://web.archive.org/web/20120126191036/https://bitinstant.com/))
 
-Investissement de Roger Ver [source](https://londonlovesbusiness.com/meet-bitcoin-jesus-roger-ver-the-millionaire-who-distributes-free-bitcoins/)
+En parallèle, Charlie Shrem fait la promotion de la startup en tant que cofondateur. En août, il participe à la conférence de Bruce Wagner à New York, et rencontre plusieurs acteurs de l'écosystème en personne. Le 10 septembre, il [participe](https://bitcointalk.org/index.php?topic=41932.msg510329#msg510329) à l'*Open Video Conference* organisée par la fondation Mozilla et l'École de droit de New York, pour intervenir dans un atelier sur les monnaies alternatives. Le 24 novembre, il [apparait](https://www.youtube.com/watch?v=PxMazut6-0U) dans le *Bitcoin Show* pour présenter BitInstant.
 
-En décembre, BitInstant [réalise](https://observer.com/2011/12/brooklyn-based-bitcoin-startup-bitinstant-raises-seed-round/) une levée de fonds auprès d'investisseurs providentiels. Le plus important d'entre eux n'est autre que Roger Ver, qui acquiert 15 % de la société et qui devient assez rapidement son directeur marketing. Roger Ver conseille à Charlie Shrem d'engager Erik Voorhees, qui devient le responsable de la communication et du marketing de la société en février 2012. Ira Miller est également intégré à l'équipe en tant que développeur.
-
-EDB : En parallèle se développe un service nommé BitInstant aux États-Unis, cofondé en juin 2011 par Gareth Nelson et Charlie Shrem, dont le rôle est de faciliter les transferts vers et depuis les plateformes de change. L'entreprise sert d'intermédiaire entre les clients et les plateformes et permet de rendre les dépôts (et les retraits) instantanés moyennant une commission. Charlie Shrem, jeune New-Yorkais d'origine juive syrienne, assure le rôle de PDG et devient rapidement la figure principale de l'entreprise. bien que d'autres personnes soient impliquées dans le projet comme Roger Ver et Erik Voorhees. Dès le début de l'année 2012, BitInstant propose diverses méthodes de transfert d'argent (Liberty Reserve, Dwolla, Paxum, dépôts d'espèces) pour interagir avec les principales plateformes de l'écosystème, dont notamment Mt. Gox qui est basée au Japon.
-
-En 2012, l'équipe est [composée](https://web.archive.org/web/20120626114419/https://www.bitinstant.com/aboutus) de quatre personnes : Gareth Nelson, Charlie Shrem, Erik Voorhees, Roger Ver. [photos](https://web.archive.org/web/20130118073422/https://www.bitinstant.com/aboutus)
+En décembre, BitInstant [réalise](https://observer.com/2011/12/brooklyn-based-bitcoin-startup-bitinstant-raises-seed-round/) une levée de fonds auprès d'investisseurs providentiels (*business angels*). Le plus important d'entre eux n'est autre que Roger Ver, qui acquiert 15 % de la société pour 120 000 $ et qui devient assez rapidement son directeur marketing. Roger Ver conseille à Charlie Shrem d'engager Erik Voorhees, qui devient le responsable de la communication et du marketing de la société en février 2012. Ira Miller est également intégré à l'équipe en tant que développeur. Même si Charlie Shrem n'est pas motivé politiquement en tant que tel, la fréquentation de ces personnes aura pour effet de modifier sa perception des choses.
 
 ![Erik Voorhees, Charlie Shrem et Ira Miller dans les locaux de BitInstant en février 2012](assets/en/bitinstant-2012-02-brian-patrick-eha.webp)
 
 Erik Voorhees, Charlie Shrem et Ira Miller dans les locaux de BitInstant en février 2012 (source : Brian Patrick Eha pour [Fortune](https://fortune.com/2017/06/26/bitcoin-blockchain-cryptocurrency-market/))
 
-Charlie Shrem n'est pas intialement motivé idéologiquement. Néanmoins, la fréquentation d'Erik Voorhees, d'Ira Miller et de Roger Ver modifie sa perception des choses au cours du temps.
+Au début de l'année 2012, BitInstant propose diverses méthodes de transfert d'argent (Liberty Reserve, Dwolla, Paxum, dépôts d'espèces) pour interagir avec les principales plateformes de l'écosystème. Le 2 janvier 2012, le volume total transféré [est](https://bitcointalk.org/index.php?topic=56392.msg671272#msg671272) de 1,2 million de dollars. Un nouveau site est [mis en ligne](https://bitcointalk.org/index.php?topic=74624.msg826565#msg826565) le 29 mars 2012.
 
-Ira Miller sur FreeTalkLive, [27/02/2012](https://www.youtube.com/watch?v=i4bSYVLQHvk)
+![Interface de BitInstant en juin 2012](assets/en/bitinstant-screenshot-20120630.webp)
 
-Nouveau site : https://bitcointalk.org/index.php?topic=74624.msg826565#msg826565
+Interface de BitInstant en juin 2012 (source : [archive de Bitinstant.com](https://web.archive.org/web/20120630110945/https://www.bitinstant.com/))
 
-[AVTM, 18/10/2012](https://www.youtube.com/watch?v=2BqpYbzZ3NI)
+### Le trading sur marge offert par Bitcoinica
 
-### Processeurs de paiement
+Les plateformes n'offrent que des manières d'échanger des monnaies classiques avec du bitcoin et n'intègrent aucune opération financière évoluée. En particulier, il manque une plateforme sur laquelle effectuer du trading sur marge (*margin trading*) permettant d'utiliser de l'effet de levier (*leverage*) et ouvrant la possibilité la vente à découvert (*short selling*). C'est pour répondre à ce besoin que la plateforme Bitcoinica est apparue.
 
-En septembre, des centaines de commerçants (en ligne) sont référencés sur le wiki : https://web.archive.org/web/20110919161327/https://en.bitcoin.it/wiki/Trade
+La plateforme Bitcoinica est [lancée](https://bitcointalk.org/index.php?topic=42267.msg514429#msg514429) le 8 septembre 2011 par un jeune Chinois de 17 ans qui se fait appeler Zhou Tong, de son vrai nom Ryan Tong Zhou. Celui-ci est un surdoué qui étudie alors à Singapour. Il est inspiré par le développement personnel, ayant notamment lu *Père riche, père pauvre* de Robert Kiyosaki et s'étant intéressé à la vie d'entrepreneurs à succès comme Tony Hsieh (de Zappos) et Steve Jobs (d'Apple). Il a également acquis des connaissances en développement web.
 
-BitPay, mai 2011, Tony Gallippi (https://bitcointalk.org/index.php?action=profile;u=31293) Stephen Pair (https://bitcointalk.org/index.php?action=profile;u=4399) https://web.archive.org/web/20120210233724/https://bit-pay.com/ https://web.archive.org/web/20120909120601/http://bitpay.com/ ; interview dans le Bitcoin Show : https://www.youtube.com/watch?v=UZAnM4FjTOg
+![Zhou Tong en janvier 2010](assets/en/zhou-tong-flickr-20100130.webp)
 
-"One of the most significant innovations for Bitcoin businesses is services like BitPay. BitPay functions as a fully fledged merchant system for Bitcoin, and markets itself specifically as a substitute for credit cards and PayPal. It's most important innovation, however, is instantly converting BTC received from customers into conventional currencies, effectively insulating vendors from the chaos of the Bitcoin exchange rate, making Bitcoin attractive to them despite its current instability." ([Vitalik Buterin](https://web.archive.org/web/20120104013914/http://bitcoinweekly.com/articles/bitcoin-for-merchants-part-ii))
+Zhou Tong en janvier 2010 (source : Zhou Tong sur [Flickr](https://www.flickr.com/photos/zhoutong/4359164894/))
 
-Bitcoin.com by TradeHill, sept. 2011 : https://web.archive.org/web/20110907014134/http://bitcoin.com/
+https://web.archive.org/web/20100210232513/http://www.zhoutong.me/
 
-- Martti Malmi, "1000 BTC for getting a major business to accept Bitcoin" (oct. 2011) https://bitcointalk.org/index.php?topic=46646.msg555039#msg555039
+Il a [entendu parler](https://bitcointalk.org/index.php?topic=67521.msg785510#msg785510) de Bitcoin à la fin de l'année 2010, mais ne s'y est réellement intéressé qu'au cours de l'été 2011, alors que la bulle spéculative faisait rage. Il a acheté ses premiers bitcoins à 8 dollars l'unité en août. Et il s'investit dans l'économie de Bitcoin en mettant au point Bitcoinica en une semaine.
 
-Commerçants : 100 en novembre 2011, 1 100 en octobre 2012 (source : https://www.scientificamerican.com/article/3-years-in-bitcoin-digital-money-gains-momentum/)
+Il présente Bitcoinica comme une « plateforme de trading de bitcoins avancée » (original: "Advanced Bitcoin Trading Platform"), qui est « élégante », « professionnelle » et « révolutionnaire » (original: "Elegant. Professional. Revolutionary."). La plateforme ne gère pas de portefeuille, les bitcoins étant conservés sur un compte dédié sur Mt. Gox. Les dépôts et retraits se font en bitcoins, par des codes Mt. Gox échangeables ou par virement bancaire international.
 
-12 décembre 2011 : Internet Archive accepte le bitcoin pour les dons https://blog.archive.org/2011/12/07/please-donate-to-the-internet-archive/#comment-79666
+![Interface de Bitcoinica en février 2012](assets/en/bitcoinica-screenshot-201202.webp)
+
+Interface de Bitcoinica en février 2012 (source : [archive de Bitcoinica.com](https://web.archive.org/web/20120209171119/http://bitcoinica.com/))
+
+Le succès est au rendez-vous dès le début. Durant les premières 24 heures, 3 724 bitcoins sont échangés par 290 utilisateurs différents, soit l'équivalent de 19 000 $. Le volume sur les 7 premiers jours [est](https://web.archive.org/web/20111019032441/http://blog.bitcoinica.com/) de 160 865 bitcoins, soit plus de 800 000 $, faisant de Bitcoinica la deuxième plateforme de trading en nombre de dollars échangés derrière Mt. Gox.
+
+La plateforme héberge notamment la spéculation : l'effet de levier permet de décupler les gains (et les pertes), ce qui convient aux gros joueurus qui souhaitent tout miser sur un mouvement de prix. Le succès spéculatif est tel que le fait de se faire liquider sur la plateforme acquiert sa propre [appellation](https://bitcointalk.org/index.php?topic=49445.msg588749#msg588749) : « get Zhou Tonged » (qu'on peut traduire par « se faire zhou-tonguer » en français). Cette expression [donne son nom](https://www.youtube.com/watch?v=kdvTkddp1F0) à la chaîne Youtube *Zhou Tonged*, qui est lancée en mars 2012 pour héberger des parodies musicales à propos de Bitcoin et du trading. La plateforme a également l'intérêt d'offrir de la vente à découverte et de permettre aux acteurs économiques (comme les commerçants détenant du bitcoin en réserve) de se couvrir contre une éventuelle baisse du cours.
+
+Début mars 2012, Bitcoinica accepte plus d'une dizaine de méthodes de dépôt et de retrait, dont le bitcoin directement, Liberty Reserve, PerfectMoney, Pecunix, ainsi que les virements SEPA en euros. Elle cumule alors quasiment autant de volume que Mt. Gox.
+
+### L'émission de titres financiers avec GLBSE
+
+L'absence de besoin d'autorisation de Bitcoin pousse les membres de la communauté à imaginer des utilisations allant plus loin que le simple échange monétaire et la spéculation. Ils envisagent ainsi de libéraliser l'investissement en fournissant un moyen d'émettre des actions et des obligations pour les sociétés de l'écosystème. Il s'agit de contourner des réglementations imposées notamment par la *Securities and Exchange Commission* aux États-Unis (l'équivalent américain de l'AMF), en [profitant](http://trilema.com/2012/the-reasons-why-bitcoin-securities-cant-be-regulated-by-the-sec/) du caractère novateur de Bitcoin et du flou juridique qui l'entoure. L'idée est de créer un modèle alternatif au système financier classique, qui pourrait s'autoentrenir dans la démarche agoriste.
+
+L'un des individus s'impliquant dans ce mouvement est James McCarthy, qui utilise le pseudonyme Nefario sur le forum de Bitcoin (en référence au personnage du même nom dans le film d'animation *Moi, moche et méchant*). Celui-ci est un Irlandais vivant en Chine, qui occupe un poste de professeur d'anglais dans une université. Il s'intéresse à l'école autrichienne et aux idées des cypherpunks, [déclarant](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) lui-même être « en quelque sorte un cypherpunk » (original: "something of a cypherpunk"). Il a [découvert](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) l'existence de Bitcoin au cours de l'année 2010 et en a miné plus d'un millier. Il s'est ensuite impliqué dans plusieurs projets, dont le projet de magazine en ligne Bitcoin Weekly.
+
+![James McCarthy (Nefario) en février 2012](assets/en/nefario-tedxleeds-feb-2012.webp)
+
+James McCarthy (Nefario) en février 2012 (source : [archive](https://web.archive.org/web/20121008033716/https://www.tedxleeds.com/nefario-james-mccarthy/) de TEDxLeeds)
+
+En avril 2011, James McCarthy [lance](https://bitcointalk.org/index.php?topic=6500.msg94943#msg94943) GLBSE (prononcé glib-zee), acronyme de *GLobal Bitcoin Stock Exchange*. Les utilisateurs passent par une interface en ligne de commande qui permet d'interagir avec le serveur de la plateforme. Le client est une version modifiée d'un logiciel développé par Amir Taaki. D'après le site web, la plateforme [permet](https://web.archive.org/web/20110427033244/http://glbse.com/) « d'émettre des actions pour lever des capitaux ; de verser des dividendes aux actionnaires ; de soumettre des résolutions aux actionnaires et d'obtenir leur vote ; d'émettre et de vendre des obligations ; d'emprunter et de prêter sur le marché ; d'effectuer et de recevoir des remboursements de prêts ; d'émettre des contrats à terme ; de méta-spéculer sur des sociétés non cotées (sur d'autres places boursières) ; et d'échanger tout ce qui précède avec d'autres tradeurs sur le marché » (original: "Issue shares to raise capital; Pay dividends to shareholders; Put resolutions to shareholders and get their vote; Issue and sell bonds; Borrow and lend to the market; Make and recieve loan repayments; Issue futures contracts; Meta-trade on non listed companies (on other exchanges); And trade all of the above with other traders on the market").
+
+![Capture du site web de GLBSE le 17 août 2011](assets/en/glbse-20110817.webp)
+
+Capture du site web de GLBSE le 17 août 2011 (source : [archive](https://web.archive.org/web/20110817072049/http://glbse.com/))
+
+La première « IPO » (*Initial Public Offering*, usuellement traduit par « introduction en bourse » en français) est [réalisée](https://bitcointalk.org/index.php?topic=6838.msg100170#msg100170) à partir du 30 avril par un projet du nom de Ubitex, une plateforme de change en personne permettant de mettre en relation les acheteurs et les vendeurs présents dans une même région. L'opération consiste à vendre un certain nombre de parts (ici 1 000) pour des bitcoins en échange de quoi les actionnaires bénéficieront des profits de l'entreprise. Le développeur unique du projet, Nathaniel Theis alias Cuddlefish sur le forum, récupère 1 100 BTC de cette façon, soit environ 10 000 $. Toutefois, ce dernier n'a [que 14 ans](https://bitcointalk.org/index.php?topic=6584.msg707259#msg707259) et manque de maturité : il fait brièvement fonctionner le service, mais il finit par disparaitre brutalement lorsque son ordinateur [tombe en panne](https://bitcointalk.org/index.php?topic=6584.msg414585#msg414585) en juillet, ne donnant plus signe de vie et ne remboursant pas les investisseurs.
+
+Malgré tout, GLBSE continue d'opérer. Au début de l'automne, une trentaine d'actifs est [disponible](https://web.archive.org/web/20110923234458/http://charts.glbse.com/markets/) à l'échange sur la plateforme. En mars 2012, la version 2 [sort](https://bitcointalk.org/index.php?topic=73910.msg817887#msg817887).
+
+### MPEx : des options et des actions
+
+Un autre projet de ce type qui voit le jour quelque temps plus tard est MPEx. Cette plateforme est l'œuvre d'un personnage hautement controversé nommé Mircea Popescu. Roumain, originaire de Transylvanie, il est un auteur prolifique sur son blog [Trilema](http://trilema.com/archives-categories/) : il écrit sur tous les sujets (philosophie, politique, sexualité), dans un style volontairement provocateur, en roumain dans un premier temps. Il s'intéresse à Bitcoin à partir de l'été 2011 et commence à en [parler](http://trilema.com/2011/ce-este-bitcoin/) sur son blog.
+
+![Mircea Popescu, date indéterminée](assets/en/mircea-popescu-wired-2014-bitcoin-baron.webp)
+
+Mircea Popescu, date indéterminée (source: Mircea Popescu pour [Wired](https://web.archive.org/web/20140405150603/https://www.wired.com/2014/01/openbsd/))
+
+En août, il [ouvre](https://bitcointalk.org/index.php?topic=15672.msg444367#msg444367) le « Mircea Popescu's BTC Options Trading Emporium » (MPOE), qui [propose](https://web.archive.org/web/20110824221522/http://polimedia.us/bitcoin/options.php) des options d'achat (call) et de vente (put) de BTC. Il copie en cela un service similaire appelé bitoption.org, [lancé](https://bitcointalk.org/index.php?topic=9611.msg138413#msg138413) en mai. La plateforme est globalement rentable, réalisant plus de 140 BTC de bénéfices nets sur six mois.
+
+Le 11 avril 2012, après une [levée de fonds](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) recueillant plus de 3 000 BTC (par émission d'actions et d'obligations) et une phase bêta, la plateforme [devient](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) une bourse en bitcoins permettant d'émettre diverses actions (dont celle de MPOE) et est renommée MPEx (pour « Mircea Popescu's Exchange »).
+
+![Capture de MPEx, août 2012](assets/en/mpex-20120829.webp)
+
+Capture de MPEx, août 2012 (source : [archive](https://web.archive.org/web/20120829092213/http://polimedia.us/bitcoin/mpex.php))
+
+La plateforme rencontrera un succès certain \[lequel ?\]. Elle hébergera notamment l'« IPO » de SatoshiDICE. Elle évoluera avec le temps, [intégrant](http://trilema.com/2012/futures-on-mpex/) les contrats à terme en décembre.
 
 ### Le poker et le jeu d'argent en ligne
 
-L'année 2011 est marquée par un mouvement de répression contre le poker en ligne. Le 15 avril a lieu un évènement qui sera surnommé le « vendredi noir » (original: "Black Friday") par les joueurs de poker : les sites de PokerStars, Full Tilt Poker et Absolute Poker (les trois principales plateformes aux États-Unis) sont fermés par le FBI. Elles sont accusés de contourner l'*Unlawful Internet Gambling Enforcement Act*, qui interdit aux banques d'autoriser des virements vers les plateformes de jeu d'argent en ligne. Pour ce faire, elles se [font](https://web.archive.org/web/20110419230512/http://www.justice.gov/usao/nys/pressreleases/April11/scheinbergetalindictmentpr.pdf) passer pour des commerçants qui vendent « des marchandises telles que des bijoux et des balles de golf » aux joueurs, afin de ne pas attirer les soucis de leurs banques. Cette fermeture est désastreuse pour le milieu du poker, qui régresse de plusieurs années en ce qui concerne l'activité en ligne.
-
-https://www.theguardian.com/world/2011/apr/24/online-poker-sites-shut-down-fbi https://www.pokernews.com/news/2022/11/full-tilt-poker-cheating-scandal-42534.htm https://en.wikipedia.org/wiki/United_States_v._Scheinberg https://web.archive.org/web/20110419194619/https://www.nytimes.com/2011/04/16/technology/16poker.html
+Enfin, l'un des derniers domaines qui se développe dans l'économie de Bitcoin au cours de cette période de baisse du prix est le jeu d'argent en ligne, et en particulier le poker. L'année 2011 est en effet marquée par un mouvement de répression contre le poker en ligne. Le 15 avril a lieu un évènement qui sera surnommé le « vendredi noir » (original: "Black Friday") par les joueurs de poker : les sites de PokerStars, Full Tilt Poker et Absolute Poker (les trois principales plateformes aux États-Unis) sont fermés par le FBI. Les plateformes sont accusés de contourner l'*Unlawful Internet Gambling Enforcement Act*, qui interdit aux banques d'autoriser des virements vers les plateformes de jeu d'argent en ligne. Pour ce faire, elles se [font](https://web.archive.org/web/20110419230512/http://www.justice.gov/usao/nys/pressreleases/April11/scheinbergetalindictmentpr.pdf) passer pour des commerçants qui vendent « des marchandises telles que des bijoux et des balles de golf » (original: "merchandise such as jewelry and golf balls") aux joueurs, afin de ne pas attirer les soucis de leurs banques. Cette fermeture est désastreuse pour le milieu du poker, qui régresse de plusieurs années en ce qui concerne l'activité en ligne.
 
 Bitcoin convient parfaitement. Le jeu d'argent est l'une des possibilités envisagées par Satoshi, lorsqu'il a intégré des fonctions pour une éventuelle application de poker dans la version 0.1 du code du logiciel \[voir HIS201, ch4\]. Bitcoin permet de [résoudre](https://web.archive.org/web/20110429052748/http://bitcoinweekly.com/articles/bitcoin-poker) le problème « en réduisant les risques de rétrofacturation et en limitant la capacité des États à bloquer les paiements ». (original: "Bitcoin seems to resolve many of those issues by reducing the issue of chargebacks and reducing the ability of governments to shut down payments.")
 
@@ -702,7 +670,7 @@ Une plateforme de poker en ligne en bitcoins existe déjà : il s'agit de Betco
 
 Capture du client de Betco.in en 2011 (source : [Hippich](https://www.youtube.com/watch?v=N6SjCgOY61E) sur Youtube)
 
-En 2011, avec le « vendredi noir », les plateformes se mutliplient : Moonco.in [ouvre](https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530) en juin (mais dérive rapidement vers un site de paris et est piratée en septembre) et BTC on Tilt [ouvre](https://web.archive.org/web/20110722145251/http://btcontilt.com/nice-start) en juillet.
+En 2011, avec le « vendredi noir », les plateformes se multiplient : Moonco.in [ouvre](https://bitcointalk.org/index.php?topic=23002.msg289530#msg289530) en juin (mais dérive rapidement vers un site de paris et est piratée en septembre) et BTC on Tilt [se lance](https://web.archive.org/web/20110722145251/http://btcontilt.com/nice-start) en juillet.
 
 La plateforme la plus emblématique [ouvre ses portes](https://web.archive.org/web/20111128155416/https://bitcointalk.org/index.php?topic=40077.0) à la fin du mois d'août. Il s'agit de Seals With Clubs (littéralement « phoques avec des trèfles »). Elle est lancée par un développeur anonyme, FreeMoney, qui a découvert Bitcoin lors du slashdotting de juillet 2010.
 
@@ -710,9 +678,15 @@ La plateforme la plus emblématique [ouvre ses portes](https://web.archive.org/w
 
 Capture du client de Seals with Clubs en 2013 (source : [ThePokerBank.com](https://www.thepokerbank.com/rooms/sealswithclubs/))
 
-[évoquée](https://forumserver.twoplustwo.com/28/discussion-poker-sites/seals-clubs-closed-see-new-swcpoker-thread-1248197/) sur le forum de TwoPlusTwo. [mise en avant](https://web.archive.org/web/20120308103542/https://www.youtube.com/watch?v=QXNb9h12AE8) par le joueur professionnel Bryan Micon, qui [déclare](https://bitcointalk.org/index.php?topic=11941.msg167263#msg167263) être « totalement fasciné par les bitcoins » (original: "totally enthralled with bitcoins"). (à partir de janvier 2012 https://bitcointalk.org/index.php?topic=56706.msg684747#msg684747 https://bitcointalk.org/index.php?topic=40077.msg704795#msg704795) (Reprise par Bryan Micon ? https://x.com/BryanMicon https://bitcointalk.org/index.php?action=profile;u=18106), devient [sealswithclubs.eu](https://bitcointalk.org/index.php?topic=40077.msg822567#msg822567) en mars 2012
+La plateforme reçoit en particulier le soutien du joueur professionnel Bryan Micon qui a découvert Bitcoin en juin et qui [déclare](https://bitcointalk.org/index.php?topic=11941.msg167263#msg167263) être « totalement fasciné par les bitcoins » (original: "totally enthralled with bitcoins"). Celui-ci [accompagne](https://bitcointalk.org/index.php?topic=40077.msg704795#msg704795) le développement à partir de janvier 2012. En mars, il [met en avant](https://web.archive.org/web/20120308103542/https://www.youtube.com/watch?v=QXNb9h12AE8) Seals with Clubs sur sa chaine Youtube. La plateforme sera exposée aux joueurs normaux, puisqu'elle sera [évoquée](https://forumserver.twoplustwo.com/28/discussion-poker-sites/seals-clubs-closed-see-new-swcpoker-thread-1248197/) en septembre 2012 sur le forum de TwoPlusTwo, l'un des forums les plus populaires pour les discussions relatives au poker.
 
-Le jeu d'argent en ligne avec Bitcoin se développe énormément à ce moment-là. Les casinos virtuels se multiplient, à tel point qu'un sous-forum consacé au domaine est obligé d'[ouvrir](https://bitcointalk.org/index.php?topic=39621.msg483368#msg483368) sur Bitcointalk en août. Une page de recensement (betwithbtc.com) est [créée](https://bitcointalk.org/index.php?topic=45566.msg543768#msg543768) par GoWest en septembre. Outre le poker, il y a du blackjack, de la roulette, des machines à sous, de la loterie, des paris sportifs et d'autres jeux originaux.
+En dehors du poker, le jeu d'argent avec Bitcoin se développe aussi énormément de manière générale. Les casinos virtuels se multiplient, à tel point qu'un sous-forum consacé au domaine est obligé d'[ouvrir](https://bitcointalk.org/index.php?topic=39621.msg483368#msg483368) sur Bitcointalk en août. Une page de recensement (betwithbtc.com) est [créée](https://bitcointalk.org/index.php?topic=45566.msg543768#msg543768) par le tradeur GoWest en septembre. Outre le poker, il y a du blackjack, de la roulette, des machines à sous, de la loterie, des paris sportifs et d'autres jeux originaux.
+
+### Une phase de construction
+
+L'éclatement de la grande bulle de 2011 à la fin de l'été a été un moment difficile pour la communauté de Bitcoin. Le prix en dollars a en effet connu une baisse de plus de 90 % par rapport à son sommet de juin. Toutefois, la période a été proprice à la construction. C'est ainsi que l'on a vu fleurir une multitude de services financiers qui ont contribué au succès ultérieur de Bitcoin. ... BitInstant, Bitcoinica, GLBSE et MPEx, Seals with Clubs ...
+
+Cette construction s'est accompagnée en parallèle d'une amélioration de l'utilisation de Bitcoin, qui s'est faite par le développement des portefeuilles. C'est l'objet du prochain chapitre.
 
 ## L'amélioration de l'utilisation (mars 2011–nov. 2011)
 
@@ -722,9 +696,9 @@ Le jeu d'argent en ligne avec Bitcoin se développe énormément à ce moment-l�
 
 ## L'apparition des premières cryptomonnaies alternatives
 
-## L'information et le lobbying (?)
+## L'essor commercial en 2012 : Silk Road contre BitPay
 
-## L'essor commercial (?)
+## L'information et le lobbying (?)
 
 # 2013
 

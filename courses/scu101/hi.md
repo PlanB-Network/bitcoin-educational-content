@@ -455,16 +455,6 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
-## बैकअप सेटअप
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-आपके निजी फ़ाइलों की सुरक्षा भी एक अहम मुद्दा है। यह ट्यूटोरियल आपको दिखाएगा कि प्रोटॉन ड्राइव का उपयोग करके एक प्रभावी बैकअप रणनीति कैसे बनाई जाए। जानिए कैसे इस सुरक्षित क्लाउड सॉल्यूशन का इस्तेमाल करके 3-2-1 मेथड अपनाएं: आपके डेटा की तीन कॉपियां दो अलग-अलग मीडिया पर, जिसमें एक कॉपी ऑफ़साइट हो। इससे आपकी संवेदनशील फ़ाइलों की पहुंच और सुरक्षा सुनिश्चित होती है:
-
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-और आपके USB ड्राइव या बाहरी Hard ड्राइव जैसी रिमूवेबल मीडिया पर सेव फाइल्स को सुरक्षित करने के लिए, मैं आपको VeraCrypt का उपयोग करके इन मीडिया को आसानी से एन्क्रिप्ट और डिक्रिप्ट करने का तरीका भी दिखाता हूँ:
-
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 ## ब्राउज़र और VPN बदलें
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -478,6 +468,16 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 साथ ही, टॉर ब्राउज़र का उपयोग करना सीखें, यह एक ऐसा ब्राउज़र है जो विशेष रूप से आपकी ऑनलाइन गोपनीयता की सुरक्षा के लिए बनाया गया है:
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+## बैकअप सेटअप
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+आपके निजी फ़ाइलों की सुरक्षा भी एक अहम मुद्दा है। यह ट्यूटोरियल आपको दिखाएगा कि प्रोटॉन ड्राइव का उपयोग करके एक प्रभावी बैकअप रणनीति कैसे बनाई जाए। जानिए कैसे इस सुरक्षित क्लाउड सॉल्यूशन का इस्तेमाल करके 3-2-1 मेथड अपनाएं: आपके डेटा की तीन कॉपियां दो अलग-अलग मीडिया पर, जिसमें एक कॉपी ऑफ़साइट हो। इससे आपकी संवेदनशील फ़ाइलों की पहुंच और सुरक्षा सुनिश्चित होती है:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+और आपके USB ड्राइव या बाहरी Hard ड्राइव जैसी रिमूवेबल मीडिया पर सेव फाइल्स को सुरक्षित करने के लिए, मैं आपको VeraCrypt का उपयोग करके इन मीडिया को आसानी से एन्क्रिप्ट और डिक्रिप्ट करने का तरीका भी दिखाता हूँ:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 # आगे बढ़ो
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>

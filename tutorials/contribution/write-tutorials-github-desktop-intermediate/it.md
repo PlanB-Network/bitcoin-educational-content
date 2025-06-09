@@ -1,26 +1,26 @@
 ---
-name: Contributo - Esercitazione con GitHub Desktop (intermedio)
+name: Come contribuire - Tutorial con GitHub Desktop (intermedio)
 description: Guida completa per proporre un tutorial su Plan ₿ Network utilizzando GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 
-Prima di seguire questo tutorial sull'aggiunta di un nuovo tutorial, è necessario aver completato alcuni passi preliminari. Se non l'avete ancora fatto, vi invito a consultare prima questo tutorial introduttivo e poi a tornare qui:
+Prima di seguire questo tutorial sull'aggiunta di un nuovo tutorial, è necessario aver completato alcuni passi preliminari. Se non l'hai ancora fatto, ti invito a consultare prima questo tutorial introduttivo e poi a tornare qui:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
-L'avete già fatto:
+Quindi, hai già:
 
 
-- Scegliere il tema del tutorial;
-- Contattare il team di Plan ₿ Network tramite [il gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
-- Scegliere gli strumenti di contribuzione.
+- Scelto il tema del tutorial;
+- Contatto il team di Plan ₿ Network tramite [il gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
+- Scelto i tuoi strumenti con i quali contribuire.
 
-In questa guida vedremo come aggiungere il vostro tutorial alla rete di Plan ₿ configurando il vostro ambiente locale con GitHub Desktop. Se siete già esperti di Git, questo tutorial molto dettagliato potrebbe non essere necessario per voi. Vi consiglio piuttosto di consultare quest'altro tutorial in cui presento solo le linee guida principali, senza una guida dettagliata passo-passo:
+In questa guida vedrai come aggiungere il tuo tutorial alla rete di Plan ₿ configurando il tuo ambiente locale con GitHub Desktop. Se sei già esperti di Git, questo tutorial molto dettagliato potrebbe non essere necessario per te. Ti consiglio piuttosto di consultare quest'altro tutorial in cui presento solo le linee guida principali, senza una guida dettagliata passo-passo:
 
 
 - Utenti esperti**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
-Se preferite non configurare il vostro ambiente locale, seguite quest'altra guida pensata per i principianti, in cui apportiamo le modifiche direttamente tramite l'interfaccia web di GitHub:
+Se preferisci non configurare il tuo ambiente locale, segui quest'altra guida pensata per i principianti, in cui apportiamo le modifiche direttamente tramite l'interfaccia web di GitHub:
 
 
 - Principianti (interfaccia web)**:
@@ -28,7 +28,7 @@ Se preferite non configurare il vostro ambiente locale, seguite quest'altra guid
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Prerequisiti
 
-Software necessario per seguire questa esercitazione:
+Software necessario per seguire questo tutorial:
 
 
 - [GitHub Desktop](https://desktop.github.com/);
@@ -37,14 +37,14 @@ Software necessario per seguire questa esercitazione:
 
 ![TUTO](assets/fr/01.webp)
 
-Prerequisiti prima di iniziare l'esercitazione:
+Prerequisiti prima di iniziare il tutorial:
 
 
 - Avere un [account GitHub](https://github.com/signup);
 - Avere un fork del [repository dei sorgenti di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Avere [un profilo di professore su Plan ₿ Network](https://planb.network/professors) (solo se si propone un tutorial completo).
 
-Se avete bisogno di aiuto per ottenere questi prerequisiti, le mie altre esercitazioni vi aiuteranno:
+Se hai bisogno di aiuto per ottenere questi prerequisiti, le mie altre esercitazioni ti aiuteranno:
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Una volta che tutto è a posto e l'ambiente locale è correttamente configurato con il proprio fork della rete Plan ₿, si può iniziare ad aggiungere il tutorial.
@@ -52,33 +52,33 @@ Una volta che tutto è a posto e l'ambiente locale è correttamente configurato 
 
 ## 1 - Creare un nuovo ramo
 
-Aprire il browser e andare alla pagina del proprio fork del repository Plan ₿ Network. Questo è il fork che avete creato su GitHub. L'URL del vostro fork dovrebbe essere simile a: `https://github.com/[nomeutente]/bitcoin-educational-content`:
+Apri il browser e vai alla pagina del tuo fork del repository Plan ₿ Network. Questo è il fork che hai creato su GitHub. L'URL del tuo fork dovrebbe essere simile a: `https://github.com/[nomeutente]/bitcoin-educational-content`:
 
 ![TUTO](assets/fr/03.webp)
 
-Assicurarsi di essere nel ramo principale `dev`, quindi fare clic sul pulsante `Sync fork`. Se il vostro fork non è aggiornato, GitHub vi proporrà di aggiornare il vostro ramo. Procedere con l'aggiornamento. Se, al contrario, il vostro ramo è già aggiornato, GitHub vi informerà:
+Assicurati di essere nel ramo principale `dev`, quindi fai clic sul pulsante `Sync fork`. Se il tuo fork non è aggiornato, GitHub ti proporrà di aggiornare il tuo ramo. Procedi con l'aggiornamento. Se, al contrario, il tuo ramo è già aggiornato, GitHub ti informerà:
 
 ![TUTO](assets/fr/04.webp)
 
-Aprite il software GitHub Desktop e assicuratevi che il vostro fork sia selezionato correttamente nell'angolo superiore sinistro della finestra:
+Apri il software GitHub Desktop e assicurati che il tuo fork sia selezionato correttamente nell'angolo superiore sinistro della finestra:
 
 ![TUTO](assets/fr/05.webp)
 
-Fare clic sul pulsante "Recupera origine". Se il repository locale è già aggiornato, GitHub Desktop non suggerirà alcuna azione aggiuntiva. In caso contrario, apparirà l'opzione `Pull origin`. Fare clic su questo pulsante per aggiornare il repository locale:
+Clicca sul pulsante "Fetch origin". Se il repository locale è già aggiornato, GitHub Desktop non suggerirà alcuna azione aggiuntiva. In caso contrario, apparirà l'opzione `Pull origin`. Clicca su questo pulsante per aggiornare il repository locale:
 
 ![TUTO](assets/fr/06.webp)
 
-Verificare che ci si trovi effettivamente nel ramo principale `dev`:
+Verifica che ci si trovi effettivamente nel ramo principale `dev`:
 
 ![TUTO](assets/fr/07.webp)
 
-Fare clic su questo ramo, quindi fare clic sul pulsante "Nuovo ramo":
+Clicca su questo ramo, quindi clicca sul pulsante "New branch":
 
 ![TUTO](assets/fr/08.webp)
 
-Assicurarsi che il nuovo ramo sia basato sul repository sorgente, cioè `PlanB-Network/bitcoin-educational-content`.
+Assicurati che il nuovo ramo sia basato sul repository sorgente, cioè `PlanB-Network/bitcoin-educational-content`.
 
-Nominate il vostro ramo in modo che il titolo sia chiaro sul suo scopo, usando i trattini per separare ogni parola. Per esempio, diciamo che il nostro obiettivo è scrivere un tutorial sull'uso del software Sparrow Wallet. In questo caso, il ramo di lavoro dedicato alla scrittura di questo tutorial potrebbe essere chiamato: `tuto-sparrow-wallet-loic`. Una volta inserito il nome appropriato, fare clic su `Crea ramo` per confermare la creazione del ramo:
+Nomina il tuo ramo in modo che il titolo sia chiaro sul suo scopo, usando i trattini per separare ogni parola. Per esempio, diciamo che il nostro obiettivo è scrivere un tutorial sull'uso del software Sparrow. In questo caso, il ramo di lavoro dedicato alla scrittura di questo tutorial potrebbe essere chiamato: `tuto-sparrow-wallet-loic`. Una volta inserito il nome appropriato, clicca su `Create branch` per confermare la creazione del ramo:
 
 ![TUTO](assets/fr/09.webp)
 

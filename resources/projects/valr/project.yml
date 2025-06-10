@@ -1,0 +1,21 @@
+name: VALR
+
+address_line_1: Johannesburg, South Africa
+address_line_2:
+address_line_3: 
+
+language:
+  - en
+
+links:
+  website: https://www.valr.com/
+  twitter: https://x.com/VALRdotcom
+  Github:
+  youtube: https://www.youtube.com/@VALRCryptoExchange
+  nostr:
+
+tags:
+  - bitcoin
+  - exchange
+
+category: exchange

@@ -6,4 +6,4 @@ wrong_answers:
   - To boil the oceans
 explanation: |
   Hashcash required a proof of work for each email received, which was supposed to limit spam.
-reviewed: false
+reviewed: true

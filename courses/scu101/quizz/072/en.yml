@@ -6,4 +6,4 @@ wrong_answers:
   - A backup tool for personal identity data.
 explanation: |
   A password manager centralizes the storage and creation of passwords.
-reviewed: false
+reviewed: true

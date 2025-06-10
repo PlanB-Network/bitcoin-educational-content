@@ -1,4 +1,4 @@
-question: Koji kriptografski ključ Exchange algoritam je u srcu BIP47 operacije?
+question: Koji algoritam za razmenu kriptografskkog ključa je u srcu BIP47 operacije?
 answer: ECDH
 wrong_answers:
   - RSA

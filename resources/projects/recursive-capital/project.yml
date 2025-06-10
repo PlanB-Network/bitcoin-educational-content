@@ -1,0 +1,22 @@
+name: Recursive Capital
+
+address_line_1: 1007 N Orange St, 4th Floor Suite, Wilmington, DE 19801, USA
+address_line_2:
+address_line_3: 
+
+language:
+  - en
+
+links:
+  website: https://rcrsv.xyz/
+  twitter: https://x.com/rcrsvcapital
+  Github:
+  youtube:
+  nostr: npub153nmydpjenm5xmkxfj3r0rfptlqdrk4582m7jlgxm0s5zcm0jtas5rpl7v
+
+tags:
+  - bitcoin
+  - vc
+  - africa
+
+category: investment

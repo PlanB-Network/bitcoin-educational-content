@@ -6,7 +6,7 @@ description: Complete guide to LNP2PBot and P2P bitcoin trading
 
 ## Introduction
 
-KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' confidentiality and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
+KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' privacy and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
@@ -246,7 +246,7 @@ Lnp2pbot has several advantages and disadvantages over other P2P exchange soluti
 ### Advantages of Lnp2pbot
 
 
-- No KYC required** : Unlike some platforms, Lnp2pbot does not require identity verification, thus preserving user confidentiality.
+- No KYC required** : Unlike some platforms, Lnp2pbot does not require identity verification, thus preserving user privacy.
 - Fast transactions**: Thanks to the Lightning network, transactions are almost instantaneous.
 - Low fees** : Transaction costs are lower than for traditional exchanges.
 - Mobile availability**: LNP2PBot is accessible via Telegram, making it easy to use on mobile devices.

@@ -73,7 +73,7 @@ At this stage choose _Onchain & Lightning 🔗⚡️_
 
 The screen changes quickly and VoucherBot proposes purchase denominations. They start from a minimum of €100.00 up to €900.00.
 
-In case of a first purchase, only the 100.00 €, Onchain and Lightning denominations are offered. To increase confidentiality, we suggest choosing _Lightning ⚡️_
+In case of a first purchase, only the 100.00 €, Onchain and Lightning denominations are offered. To increase privacy, we suggest choosing _Lightning ⚡️_
 
 ![image](assets/it/06.webp)
 

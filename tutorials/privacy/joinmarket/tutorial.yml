@@ -1,0 +1,24 @@
+id: 4581d8b0-0888-45c2-9545-d0a298b36f98
+
+
+category: on-chain
+
+level: expert
+
+professor_id: 0aece95a-7c5b-43c4-940c-4c8505de2470
+
+tags:
+- privacy
+- good-practice
+- risks
+- cypherpunk
+
+# Proofreading metadata
+original_language: it
+proofreading:
+  - language: it
+    last_contribution_date: 2025-05-18
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1

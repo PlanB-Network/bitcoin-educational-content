@@ -73,7 +73,7 @@ StonewallX2 ගනුදෙනුවක් Stonewall ගනුදෙනුවක
 ඔබට Stonewall X2 ගනුදෙනුවකදී ඔබට සහය වීමට කැමති සහකරුක් සොයා ගැනීමට අවශ්‍ය නම්, යවන අය සහ සහකරුන් සම්බන්ධ කර ගැනීමට Samourai පරිශීලකයින් විසින් නඩත්තු කරන මෙම Telegram කණ්ඩායම (අනධිකෘත) පිවිසිය හැක: [Make Every Spend a CoinJoin](https://t.me/EverySpendACoinjoin).
 
 
-[**-> Stonewall ගනුදෙනු පිළිබඳව වැඩිදුර ඉගෙන ගන්න**](https://planb.network/tutorials/privacy/On-Chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
+[**-> Stonewall ගනුදෙනු පිළිබඳව වැඩිදුර ඉගෙන ගන්න**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 
 ## Stonewall x2 ගනුදෙනුවක අරමුණ කුමක්ද?

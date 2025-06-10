@@ -5,5 +5,5 @@ wrong_answers:
   - The block size limit
   - The OP_NOP op codes
 explanation: |
-  This effective alert system allowed him, with the use of a private key, to warn the network nodes in case of a technical problem and to suspend some API commands.
-reviewed: false
+  This effective alert system allowed him to use a private key to warn the network nodes in case of a technical problem and suspend some API commands.
+reviewed: true

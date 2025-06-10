@@ -271,7 +271,7 @@ Izpolnite praznega prejemnika Address iz vašega Wallet. Bodite previdni, saj bo
 ![Image](assets/fr/32.webp)
 
 
-Če niste seznanjeni s tem, kako deluje samostojno skrbništvo Wallet, ponujamo vadnice za večino razpoložljivih rešitev [na Plan ₿ Network v razdelku "*Wallet*"](https://planb.network/tutorials/Wallet).
+Če niste seznanjeni s tem, kako deluje samostojno skrbništvo Wallet, ponujamo vadnice za večino razpoložljivih rešitev [na Plan ₿ Network v razdelku "*Wallet*"](https://planb.network/tutorials/wallet).
 
 
 ## Bitcoin විකිණීම

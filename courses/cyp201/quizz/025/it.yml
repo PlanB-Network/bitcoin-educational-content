@@ -3,7 +3,7 @@ answer: Aggregazione delle Chiavi
 wrong_answers:
   - Verifica in Batch
   - Malleabilità
-  - Compattazione della Firma
+  - Aggregazione delle Firme
 explanation: |
   Schnorr consente l'aggregazione di più chiavi pubbliche in una singola chiave.
 reviewed: false

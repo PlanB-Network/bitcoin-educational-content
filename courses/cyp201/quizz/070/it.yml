@@ -1,9 +1,9 @@
-question: Cosa rappresenta la profondità 0 nella gerarchia dei portafogli HD?
-answer: La chiave principale e il codice catena principale
+question: Cosa rappresenta la profondità (depth) 0 nella gerarchia dei wallet HD?
+answer: Le chiavi master e la master chain code
 wrong_answers:
-  - La catena esterna di indirizzi
+  - La chain esterna degli indirizzi
   - L'account predefinito
   - Il tipo di valuta
 explanation: |
-  La profondità 0 corrisponde alla chiave principale e al codice catena principale, che sono i punti di partenza per tutte le derivazioni in un portafoglio HD.
+  La profondità 0 corrisponde alle chiavi master e alla master chain code, che sono i punti di partenza per tutte le derivazioni in un wallet HD.
 recensito: false

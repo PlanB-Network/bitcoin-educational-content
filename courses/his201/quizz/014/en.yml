@@ -6,4 +6,4 @@ wrong_answers:
   - Satoshi Nakamoto
 explanation: |
   They described the concept in 1992. Markus Jakobsson and Ari Juels coined the term proof of work. Adam Back later adopted the concept for Hashcash.
-reviewed: false
+reviewed: true

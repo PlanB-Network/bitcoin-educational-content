@@ -170,7 +170,7 @@ Kliknite na dugme "*Receive*".
 ![Image](assets/fr/18.webp)
 
 
-Prevucite QR kod udesno da otkrijete Bitcoin koji prima Address. Pošaljite iznos koji želite da položite sa Phoenix.
+Prevucite QR kod ulevo da biste otkrili Bitcoin adresu za primanje. Pošaljite iznos koji želite da uplatite na Phoenix na tu adresu.
 
 
 ![Image](assets/fr/19.webp)

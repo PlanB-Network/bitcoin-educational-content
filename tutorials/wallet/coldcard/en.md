@@ -10,7 +10,7 @@ _Creating, backing up, and using a Bitcoin private key with a Coldcard device an
 
 ## Complete guide to generating a private key using a Coldcard and using it through the interface of your Bitcoin Core node!
 
-At the core of Bitcoin's network usage lies the concept of asymmetric cryptography: a pair of keys - one private and one public - that encrypt and decrypt data, a concept that ensures the confidentiality of communication.
+At the core of Bitcoin's network usage lies the concept of asymmetric cryptography: a pair of keys - one private and one public - that encrypt and decrypt data, a concept that ensures the privacy of communication.
 
 In the case of Bitcoin, by generating such a pair of private and public keys, we are able to store bitcoins (UTXO or Unspent Transaction Output) and sign transactions to spend them.
 

@@ -6,7 +6,7 @@ address_line_1: 1007 N Orange St, 4th Floor Suite, Wilmington, DE 19801, USA
 address_line_2:
 address_line_3: 
 
-language:
+original_language:
   - en
 
 links:

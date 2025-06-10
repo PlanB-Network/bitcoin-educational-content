@@ -115,7 +115,7 @@ Klicken Sie auf die Schaltfläche "*Empfangen*".
 
 ![Image](assets/fr/18.webp)
 
-Wischen Sie den QR-Code nach rechts, um eine Bitcoin-Empfangsadresse anzuzeigen. Senden Sie ihr den Betrag, den Sie bei Phoenix einzahlen möchten.
+Ziehen Sie den QR-Code nach links, um eine Bitcoin-Empfangsadresse anzuzeigen. Senden Sie den Betrag, den Sie auf Phoenix einzahlen möchten, an diese Adresse.
 
 ![Image](assets/fr/19.webp)
 

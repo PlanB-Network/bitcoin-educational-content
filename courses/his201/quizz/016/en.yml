@@ -5,5 +5,5 @@ wrong_answers:
   - RPOW (Hal Finney)
   - eCash (David Chaum)
 explanation: |
-  This was the first reference. It was added by Satoshi in August 2008 following his exchanges with Wei Dai.
-reviewed: false
+  This was the first reference. Satoshi added it in August 2008 following his exchanges with Wei Dai.
+reviewed: true

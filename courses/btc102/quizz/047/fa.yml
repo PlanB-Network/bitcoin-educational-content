@@ -1,0 +1,9 @@
+question: چه دستگاهی برای تأمین امنیت وجوه انباشته شده در بلندمدت توصیه می‌شود؟
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - لایتنینگ Wallet
+  - پلتفرم Exchange
+explanation: |
+  یک Hardware Wallet کلیدهای خصوصی را به صورت آفلاین ذخیره می‌کند و امنیت بیشتری برای مقادیر قابل توجه در بلندمدت فراهم می‌آورد.
+reviewed: false

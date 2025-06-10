@@ -1,0 +1,8 @@
+question: Mistä aiheesta Condorcet ei kirjoittanut?
+answer: Pankit
+wrong_answers:
+  - Viljakaupan vapaus
+  - Työtehtävät
+  - Orjuus
+explanation: |
+  Condorcet kirjoitti viljakaupan vapaudesta, corvéesta ja orjuudesta, mutta hän ei kirjoittanut pankeista.

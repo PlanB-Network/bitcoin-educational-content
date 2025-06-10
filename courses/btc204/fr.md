@@ -1958,7 +1958,7 @@ Pour réaliser un coinjoin via Whirlpool, le portefeuille doit générer plusieu
 
 ![BTC204](assets/fr/143.webp)
 
-Un portefeuille HD peut théoriquement dériver jusqu'à `2^(32/2)` comptes différents. Le compte initial, utilisé par défaut sur tous les portefeuilles Bitcoin, correspond à l'index `0'`.
+Un portefeuille HD peut théoriquement dériver jusqu'à `2^(31)` comptes différents. Le compte initial, utilisé par défaut sur tous les portefeuilles Bitcoin, correspond à l'index `0'`.
 
 Pour les portefeuilles adaptés à Whirlpool, 4 comptes sont utilisés pour répondre aux besoins du processus de ZeroLink :
 - Le compte **dépôt**, identifié par l'index `0'` ;
@@ -2391,7 +2391,7 @@ Pourtant, il serait intéressant de disposer de structures de transactions qui p
 
 Le payjoin est une structure spécifique de transaction Bitcoin qui permet d'améliorer la confidentialité des utilisateurs lors d'une dépense en collaborant avec le destinataire du paiement. 
 
-C'est en 2015 que LaurentMT évoquait pour la première fois cette méthode sous l'appellation de "*steganographic transactions*", selon un document accessible [ici](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Cette technique fut ensuite adoptée par le portefeuille Samourai Wallet, qui en 2018, fut le premier client à l'implémenter avec l'outil Stowaway. On retrouve également le concept du payjoin dans le [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) et le [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Plusieurs termes sont ainsi utilisés pour désigner un payjoin :
+C'est en 2015 que LaurentMT évoquait pour la première fois cette méthode sous l'appellation de "*steganographic transactions*", selon un document accessible [ici](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Cette technique fut ensuite adoptée par le portefeuille Samourai Wallet, qui en 2018, fut le premier client à l'implémenter avec l'outil Stowaway. On retrouve également le concept du payjoin dans le [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), le [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) et le [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Plusieurs termes sont ainsi utilisés pour désigner un payjoin :
 - Payjoin ;
 - Stowaway ;
 - P2EP (*Pay-to-End-Point*) ;

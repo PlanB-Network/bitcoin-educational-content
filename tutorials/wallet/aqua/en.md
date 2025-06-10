@@ -22,7 +22,7 @@ The aim of sidechains is to offer additional functionalities or technical improv
 
 ## What's Liquid?
 
-Liquid is a federated sidechain overlay for Bitcoin, developed by Blockstream to improve transaction speed, confidentiality and functionality. It uses a bilateral anchoring mechanism established on a federation to lock bitcoins on the main chain and create Liquid-bitcoins (L-BTC) in return, tokens circulating on Liquid while remaining backed by the original bitcoins.
+Liquid is a federated sidechain overlay for Bitcoin, developed by Blockstream to improve transaction speed, privacy and functionality. It uses a bilateral anchoring mechanism established on a federation to lock bitcoins on the main chain and create Liquid-bitcoins (L-BTC) in return, tokens circulating on Liquid while remaining backed by the original bitcoins.
 
 ![AQUA](assets/fr/02.webp)
 

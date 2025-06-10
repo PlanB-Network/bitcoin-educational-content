@@ -6,11 +6,13 @@ description: The bowless Lightning wallet.
 ![misty-breez-cover](assets/cover.webp)
 
 
+![video](https://youtu.be/mibKrTvtlyQ)
+
 Misty Breez is a Lightning self-holding wallet developed by Breez based on their Software Development Kit and the **Liquid** network developed by BlockStream.
 
 It comes with a completely new approach to operating without a Lightning node: a potential **GAME CHANGER** in Bitcoin inter-network transfers.
 
-In this tutorial, we'll describe how this portfolio works and give you a complete overview.
+In this tutorial, we'll describe how this wallet works and give you a complete overview.
 
 
 ## How does Misty Breez work?
@@ -45,7 +47,7 @@ In this tutorial, we'll be starting from an Android device. Nevertheless, each o
 
 Upon installation, Misty Breez gives you the option of creating a new wallet or restoring an old Lightning wallet for which you have the recovery words.
 
-In this tutorial, we choose to create a new portfolio.
+In this tutorial, we choose to create a new wallet.
 
 
 ⚠️Misty Breez is currently in the development phase, so we advise you to start with reasonable amounts.
@@ -55,7 +57,7 @@ In this tutorial, we choose to create a new portfolio.
 
 ### Save your recovery words :
 
-One of the first things you should do when creating a new portfolio is to back up your 12 recovery words.
+One of the first things you should do when creating a new wallet is to back up your 12 recovery words.
 
 Here are some tips on how to back up your backup phrase.
 
@@ -79,7 +81,7 @@ Find your local currency in the multitude of currencies accepted by Misty Breez.
 
 ### Making your first transactions
 
-If you're already familiar with the Breez portfolio, you won't be at all put off by Misty Breez's intuitive Interface.
+If you're already familiar with the Breez wallet, you won't be at all put off by Misty Breez's intuitive Interface.
 
 
 On the Interface **Balance** menu, click on the **Receive** option to create invoices to receive your bitcoins on your wallet.
@@ -106,7 +108,7 @@ Unlike the Breez wallet, which provides you with a Lightning node and asks you t
 Let's take a closer look behind the scenes.
 
 
-In reality, you own a Liquid portfolio which is associated with your Misty Breez portfolio. Logically, you'll be handling L-BTC (Liquid Bitcoin) at fixed rates associated with third-party submarine satoshis conversion services that will enable you to interoperate with the Lightning network.
+In reality, you own a Liquid wallet which is associated with your Misty Breez wallet. Logically, you'll be handling L-BTC (Liquid Bitcoin) at fixed rates associated with third-party submarine satoshis conversion services that will enable you to interoperate with the Lightning network.
 
 
 When you receive a payment on your Misty Breez wallet, your sender sends you satoshis which will go through a conversion service like Boltz (currently used by Misty Breez), to convert the satoshis sent into L-BTC which will be received on your Misty Breez wallet (associated Liquid wallet).
@@ -140,7 +142,7 @@ For the more experienced, there's also a menu **Preferences > Developers** that 
 - The version of the Breez Software Development Kit.
 - The public key of your Misty Breez wallet.
 - The borrower, the unique identifier derived from the primary public key.
-- Your portfolio balance.
+- Your wallet balance.
 - Tip Liquid, for sending small amounts of L-BTC.
 - The Bitcoin Tip, for sending small amounts of Bitcoin.
 
@@ -150,7 +152,7 @@ You can also perform certain actions, such as synchronizing with the Liquid netw
 
 ![dev-mode](assets/fr/09.webp)
 
-Congratulations! You now have a good understanding of the Misty Breez portfolio and its contribution to Bitcoin inter-network transactions. If you've found this tutorial useful, please give us a green thumb. We'd be delighted to hear from you.
+Congratulations! You now have a good understanding of the Misty Breez wallet and its contribution to Bitcoin inter-network transactions. If you've found this tutorial useful, please give us a green thumb. We'd be delighted to hear from you.
 
 
 To go further, I also recommend that you discover our tutorial on the Aqua wallet, which works in a similar way to Misty Breez :

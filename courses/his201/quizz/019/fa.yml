@@ -1,0 +1,9 @@
+question: نام پروتکل اعتباری توزیع‌شده‌ای که توسط رایان فوگر در سال 2004 طراحی شد و چندین بار توسط Satoshi ناکاموتو در نوشته‌هایش ذکر شده است، ریپل بود.
+answer: ریپل
+wrong_answers:
+  - امواج
+  - سونامی
+  - متورم
+explanation: |
+  در سال 2009، Satoshi [نوشت](https: //diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) که ریپل \[بود\] منحصر به فرد از این جهت که اعتماد را گسترش می‌داد به جای اینکه آن را متمرکز کند.
+reviewed: false

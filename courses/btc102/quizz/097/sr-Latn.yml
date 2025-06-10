@@ -1,9 +1,0 @@
-question: Koje su neke od platformi koje bi paranoični Bitcoiner mogao koristiti za kupovine između pojedinaca bez KYC-a?
-answer: Breskva, Robosats, Bisq, HodlHodl
-wrong_answers:
-  - Coinbase, Binance, Kraken
-  - PayPal, Venmo, Cash App
-  - Kreditna kartica, bankovni transfer, gotovina
-explanation: |
-  Poglavlje pominje Peach, Robosats, Bisq i HodlHodl kao platforme koje bi paranoični Bitkoin korisnik mogao koristiti za kupovine između pojedinaca bez KYC-a.
-reviewed: false

@@ -1,0 +1,8 @@
+question: ¿En qué autor se inspira Mirabeau en L'Ami des Hommes?
+answer: François Quesnay
+wrong_answers:
+  - Vincent de Gournay
+  - Richard Cantillon
+  - Adam Smith
+explanation: |
+  Mirabeau se inspiró en las ideas de François Quesnay y la fisiocracia, que destacaban la importancia de la agricultura y la libertad económica.

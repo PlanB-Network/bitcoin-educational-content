@@ -5,6 +5,7 @@ description: Discover and install Umbrel - Your Bitcoin node and home server
 
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/qFfhr4sApso)
 
 ## Introduction
 
@@ -487,7 +488,7 @@ Sparrow offers three connection modes:
 
 
 - Connect to your Electrs server
-- Combines confidentiality and performance
+- Combines privacy and performance
 
 
 **Electrs** configuration

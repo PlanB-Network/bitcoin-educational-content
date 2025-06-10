@@ -31,7 +31,7 @@ Pour fonctionner, un nœud Lightning doit être connecté en permanence au rése
 
 Pour une introduction théorique complète au Lightning Network, nous vous recommandons de suivre notre cours dédié :
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Ce cours vous permettra d'approfondir les concepts fondamentaux du Lightning Network avant de passer à la pratique avec votre nœud LND.
 
@@ -369,3 +369,4 @@ Faire fonctionner votre propre nœud LND sur Umbrel est une étape importante ve
 En suivant ce guide, vous devriez maintenant pouvoir installer LND, ouvrir des canaux, gérer votre liquidité et accéder à votre nœud à distance. N'hésitez pas à explorer progressivement les fonctionnalités avancées et les outils complémentaires à mesure que vous vous familiarisez avec l'écosystème.
 
 Rappelez-vous que la sécurité de vos fonds dépend de vos sauvegardes et de vos pratiques. Prenez le temps de comprendre chaque aspect avant d'engager des montants importants.
+

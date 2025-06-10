@@ -237,7 +237,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 # Ratkaisujen toteuttaminen.
 
-<partId>15ec9022-ba05-5549-87fc-cb8d82665f7b</partId>
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Sähköpostitilien hallinta
 

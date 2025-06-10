@@ -1,0 +1,9 @@
+question: نرخ کلی استفاده مجدد از Address در Bitcoin تقریباً در چه سطحی است؟
+answer: حدود 50٪
+wrong_answers:
+  - حدود ۵٪
+  - حدود ۱۵٪
+  - حدود 40٪
+explanation: |
+  از اوایل دهه ۲۰۱۰، نرخ کلی استفاده مجدد از Address بر روی Bitcoin در حدود ۵۰٪ نوسان داشته است.
+reviewed: false

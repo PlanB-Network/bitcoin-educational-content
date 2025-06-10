@@ -1,0 +1,9 @@
+question: اجزای اصلی یک Contract State هوشمند در RGB چیست؟
+answer: Global State و ایالت‌های تحت مالکیت
+wrong_answers:
+  - Commitment و Genesis
+  - Seal Definition و State Transition
+  - Valency و Contract Rights
+explanation: |
+  Global State شامل داده‌های عمومی است، در حالی که ایالت‌های مالکیت‌شده از طریق UTXOها با دارندگان خاصی مرتبط هستند.
+reviewed: false

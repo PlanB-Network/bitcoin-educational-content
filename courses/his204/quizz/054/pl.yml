@@ -1,0 +1,8 @@
+question: Który z tych autorów nie krytykował fizjokratów?
+answer: Condorcet
+wrong_answers:
+  - Wolter
+  - Condillac
+  - Adam Smith
+explanation: |
+  Condorcet był raczej przychylny ideom fizjokratów, a nawet współpracował z nimi przy niektórych projektach.

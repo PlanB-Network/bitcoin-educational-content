@@ -1,0 +1,8 @@
+question: Który filozof pisał w Ephémérides du Citoyen, czasopiśmie fizjokratów?
+answer: Diderot
+wrong_answers:
+  - Wolter
+  - Condorcet
+  - Rousseau
+explanation: |
+  Diderot współtworzył "Éphémérides du Citoyen", czasopismo fizjokratów, pisząc artykuły na tematy gospodarcze i społeczne.

@@ -1,5 +1,5 @@
 ---
-name: Pasoš - Fondacija
+name: Passport Core
 description: Konfigurisanje i korišćenje Passport Hardware Wallet u ručnom režimu
 ---
 ![cover](assets/cover.webp)
@@ -10,6 +10,7 @@ Pasoš je Bitcoin-samo Hardware Wallet, dizajniran od strane Foundation Devices,
 
 Pasoš "*Batch 2*" predstavljen u ovom vodiču je naslednik "*Founder's Edition*". Ističe se svojim premium dizajnom, ekranom visoke rezolucije u boji i ergonomskom fizičkom tastaturom. Radi u "*Air-Gap*" režimu, osiguravajući da privatni ključevi vašeg Wallet ostanu potpuno izolovani, sa mogućnošću komunikacije putem MicroSD kartice ili QR kodova. Uređaj je opremljen uklonjivom, punjivom Nokia BL-5C baterijom kapaciteta 1200 mAh. Ova neproprietarna baterija se lako može zameniti, jer je BL-5C model široko dostupan u prodavnicama.
 
+💡 **Ažuriranje:** Od marta 2025. godine, ovaj hardverski novčanik se više ne zove "Passport" ili "Passport V2", već "Passport Core".
 
 Što se tiče povezivanja, Passport je opremljen MicroSD portom, USB-C portom za punjenje i zadnjom kamerom za skeniranje QR kodova.
 

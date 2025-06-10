@@ -1,0 +1,8 @@
+question: Antes de la economía, ¿cuál era la profesión médica de Quesnay?
+answer: Cirujano
+wrong_answers:
+  - Dentista
+  - Enfermera
+  - Farmacéutico
+explanation: |
+  François Quesnay fue cirujano antes de convertirse en economista. Incluso fue el cirujano de Madame de Pompadour.

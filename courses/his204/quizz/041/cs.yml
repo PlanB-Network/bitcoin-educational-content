@@ -1,0 +1,8 @@
+question: Anonymně vydaný román L'Ami des Hommes zapůsobil natolik, že byl zpočátku připisován ?
+answer: Montesquieu
+wrong_answers:
+  - Voltaire
+  - Diderot
+  - Rousseau
+explanation: |
+  Kniha L'Ami des Hommes byla pro svůj styl a význam nejprve připisována Montesquieuovi, než se zjistilo, že jejím autorem je ve skutečnosti markýz de Mirabeau.

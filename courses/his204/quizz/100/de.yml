@@ -1,0 +1,8 @@
+question: Welches Bankinstitut ist die letzte Konsequenz aus den Entscheidungen von 1789, gegen die sich Dupont de Nemours ausgesprochen hat?
+answer: Banque de France
+wrong_answers:
+  - Die Sparkasse
+  - Crédit Agricole
+  - Die Europäische Zentralbank
+explanation: |
+  Die Banque de France ist eine Folge der Entscheidungen von 1789, die Dupont de Nemours als zu starke Zentralisierung der Finanzmacht und zu starke staatliche Eingriffe in die Wirtschaft kritisierte.

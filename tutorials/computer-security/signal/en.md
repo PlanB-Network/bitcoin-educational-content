@@ -5,7 +5,7 @@ description: Express yourself freely
 ![cover](assets/cover.webp)
 
 
-Signal is an end-to-end encrypted messaging application, designed to offer good confidentiality by default. Every message, call and file is protected by the Signal protocol, recognized as one of the most robust messaging protocols. It is reused by many other applications, including WathsApp, Facebook Messenger, Skype and Google Messages for RCS communications.
+Signal is an end-to-end encrypted messaging application, designed to offer good privacy by default. Every message, call and file is protected by the Signal protocol, recognized as one of the most robust messaging protocols. It is reused by many other applications, including WathsApp, Facebook Messenger, Skype and Google Messages for RCS communications.
 
 
 Signal was launched in 2014 by Moxie Marlinspike (pseudonym) and developed since 2018 by the Signal Foundation, a non-profit organization created with the support of Brian Acton (co-founder of WhatsApp).
@@ -17,7 +17,7 @@ Signal was launched in 2014 by Moxie Marlinspike (pseudonym) and developed since
 Compared with WhatsApp, Signal stands out for its transparency: the application's code, both client- and server-side, is entirely open source. This allows anyone to audit it, and in particular to check that encryption is applied as advertised.
 
 
-However, Signal relies on the use of a telephone number, which is its main weakness when it comes to anonymity compared with other solutions. Despite this, the application is, in my opinion, one of the most reliable in terms of security and confidentiality, thanks to its entirely open architecture and a widely adopted encryption protocol, and therefore tested and audited, unlike other more marginal applications.
+However, Signal relies on the use of a telephone number, which is its main weakness when it comes to anonymity compared with other solutions. Despite this, the application is, in my opinion, one of the most reliable in terms of security and privacy, thanks to its entirely open architecture and a widely adopted encryption protocol, and therefore tested and audited, unlike other more marginal applications.
 
 
 | Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |

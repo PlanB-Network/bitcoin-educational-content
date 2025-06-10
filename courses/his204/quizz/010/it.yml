@@ -1,0 +1,8 @@
+question: Perché, secondo Vauban, è giusto e naturale che tutti paghino le tasse?
+answer: Poiché lo Stato offre i suoi servizi a tutti, è giusto che tutti contribuiscano a pagarli
+wrong_answers:
+  - Perché lo Stato può raccogliere di più tassando tutta la popolazione in una volta sola
+  - Poiché nel corso della vita ognuno è a volte ricco e a volte povero, è meglio tassare tutti in modo uniforme
+  - Perché aiuta a finanziare le guerre e a garantire la grandezza del regno
+explanation: |
+  Vauban riteneva che la tassazione dovesse essere universale, poiché tutti i cittadini beneficiavano di servizi statali come la sicurezza, la giustizia e le infrastrutture. Riteneva quindi giusto che ognuno contribuisse al loro finanziamento in base alle proprie possibilità.

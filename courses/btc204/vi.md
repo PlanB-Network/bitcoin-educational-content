@@ -2060,7 +2060,7 @@ Nhờ hệ thống phí này, Whirlpool thực sự nổi bật so với các tr
 
 ![BTC204](assets/fr/143.webp)
 
-Về mặt lý thuyết, ví HD có thể tạo ra tối đa `2^(32/2)` tài khoản khác nhau. Tài khoản ban đầu, được sử dụng theo mặc định trên tất cả các ví Bitcoin, tương ứng với chỉ số `0'`.
+Về mặt lý thuyết, ví HD có thể tạo ra tối đa `2^(31)` tài khoản khác nhau. Tài khoản ban đầu, được sử dụng theo mặc định trên tất cả các ví Bitcoin, tương ứng với chỉ số `0'`.
 
 Đối với danh mục đầu tư được điều chỉnh cho Whirlpool, 4 tài khoản được sử dụng để đáp ứng nhu cầu của quy trình ZeroLink:
 
@@ -2525,8 +2525,7 @@ Tuy nhiên, sẽ rất thú vị khi có các cấu trúc giao dịch cho phép 
 
 Payjoin là một cấu trúc giao dịch Bitcoin cụ thể giúp tăng cường quyền riêng tư của người dùng khi chi tiêu bằng cách hợp tác với người nhận thanh toán.
 
-LaurentMT lần đầu tiên gọi phương pháp này là "*giao dịch ẩn mã*" vào năm 2015, theo một tài liệu có thể truy cập [tại đây](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Sau đó, kỹ thuật này được Samourai Wallet áp dụng, vào năm 2018 đã trở thành khách hàng đầu tiên triển khai nó với công cụ Stowaway. Khái niệm payjoin cũng có thể được tìm thấy trong [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) và [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Một số thuật ngữ được sử dụng để chỉ định payjoin:
-
+Vào năm 2015, LaurentMT lần đầu tiên đề cập đến phương pháp này dưới tên gọi "*steganographic transactions*", theo một tài liệu có thể truy cập [tại đây](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Kỹ thuật này sau đó được ví Samourai Wallet áp dụng, và vào năm 2018 trở thành ví đầu tiên triển khai nó bằng công cụ Stowaway. Khái niệm payjoin cũng xuất hiện trong [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) và [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/). Nhiều thuật ngữ khác nhau được sử dụng để chỉ payjoin:
 
 - Tham gia trả tiền;
 - Người trốn theo tàu;

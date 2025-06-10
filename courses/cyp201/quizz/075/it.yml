@@ -1,4 +1,4 @@
-question: Quale percorso di derivazione viene utilizzato per un account SegWit v0 in un descrittore standard?
+question: Quale derivation path viene utilizzato per un account SegWit v0 in un descriptor standard?
 answer: 84h/0h/0h
 wrong_answers:
   - 44h/0h/0h

@@ -70,7 +70,7 @@ Navigation on the device is straightforward: use the right button to scroll to t
 ## Prerequisites
 
 
-For this tutorial, I'm going to show you how to use the Trezor Safe 3 with [Sparrow Wallet portfolio management software](https://sparrowwallet.com/download/). If you haven't already installed this software, please do so now. If you need help, we also have a detailed tutorial on configuring Sparrow Wallet :
+For this tutorial, I'm going to show you how to use the Trezor Safe 3 with [Sparrow Wallet wallet management software](https://sparrowwallet.com/download/). If you haven't already installed this software, please do so now. If you need help, we also have a detailed tutorial on configuring Sparrow Wallet :
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -146,7 +146,7 @@ You can then skip the windows with the basic operating instructions.
 ![Image](assets/fr/14.webp)
 
 
-## Creating a Bitcoin portfolio
+## Creating a Bitcoin wallet
 
 
 On Trezor Suite, click on the "*Create new Wallet*" button.
@@ -155,7 +155,7 @@ On Trezor Suite, click on the "*Create new Wallet*" button.
 ![Image](assets/fr/15.webp)
 
 
-For a standard portfolio, you can opt for the default backup type. This creates a classic single-sig portfolio with a 12-word mnemonic phrase. Click on "*Create Wallet*".
+For a standard wallet, you can opt for the default backup type. This creates a classic single-sig wallet with a 12-word mnemonic phrase. Click on "*Create Wallet*".
 
 
 If you would like to learn more about the other backup options available on Trezor, including *Multi-share Backup*, I recommend you also consult this tutorial :
@@ -172,7 +172,7 @@ Accept the terms of use on Hardware Wallet.
 ![Image](assets/fr/17.webp)
 
 
-Press the right button again to create a new portfolio.
+Press the right button again to create a new wallet.
 
 
 ![Image](assets/fr/18.webp)
@@ -285,10 +285,10 @@ The configuration of your Safe 3 is now complete. If you wish, you can change th
 ![Image](assets/fr/31.webp)
 
 
-We won't be needing the Trezor Suite software any more, except to perform regular firmware updates on your Hardware Wallet, or if you'd like to run a recovery test. We're now going to use Sparrow to manage the portfolio, as this software is perfectly suited to Bitcoin-only use.
+We won't be needing the Trezor Suite software any more, except to perform regular firmware updates on your Hardware Wallet, or if you'd like to run a recovery test. We're now going to use Sparrow to manage the wallet, as this software is perfectly suited to Bitcoin-only use.
 
 
-## Setting up the portfolio on Sparrow Wallet
+## Setting up the wallet on Sparrow Wallet
 
 
 Start by downloading and installing Sparrow Wallet [from the official website](https://sparrowwallet.com/) on your computer, if you haven't already done so.
@@ -305,7 +305,7 @@ Click on the "*File*" tab, then on "*New Wallet*".
 ![Image](assets/fr/32.webp)
 
 
-Name your portfolio, then click on "*Create Wallet*".
+Name your wallet, then click on "*Create Wallet*".
 
 
 ![Image](assets/fr/33.webp)
@@ -344,7 +344,7 @@ I advise you to save this password in a password manager so you don't forget it.
 ![Image](assets/fr/38.webp)
 
 
-And now your portfolio has been imported into Sparrow Wallet!
+And now your wallet has been imported into Sparrow Wallet!
 
 
 ![Image](assets/fr/39.webp)

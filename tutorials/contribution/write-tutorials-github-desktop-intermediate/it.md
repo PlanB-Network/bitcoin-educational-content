@@ -427,7 +427,7 @@ Indica un titolo che riassuma brevemente le modifiche che si desidera unire al r
 
 ![TUTO](assets/fr/34.webp)
 
-La tua PR sarà quindi visibile nella scheda "Pull Request" del repository principale di Plan ₿ Network. Non devi far altro che attendere che un amministratore ti contatti per confermare la fusione del tuo contributo o per richiedere ulteriori modifiche.
+La tua PR sarà quindi visibile nella scheda "Pull Request" del repository principale di Plan ₿ Network. Non devi far altro che attendere che un amministratore ti contatti per confermare l'unione del tuo contributo al ramo principale o per richiedere ulteriori modifiche.
 
 ![TUTO](assets/fr/35.webp)
 
@@ -445,6 +445,6 @@ Se desideri apportare modifiche al tuo contributo dopo aver già presentato la P
 - Se la PR è ancora aperta e non è ancora stata unita, apporta le modifiche localmente rimanendo sullo stesso ramo. Una volta finalizzate le modifiche, usa il pulsante `Push origin` per aggiungere un nuovo commit alla PR ancora aperta;
 - Se la tua PR è già stato unita al ramo principale, devi ricominciare il processo creando un nuovo ramo e inviando una nuova PR. Assicurati che il repository locale sia sincronizzato con il repository di origine di Plan ₿ Network prima di procedere.
 
-Se incontri difficoltà tecniche nell'inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a chi contribuisce](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
+Se incontri difficoltà tecniche nell'inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a coloro che contribuiscono a Plan ₿ Network](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
 
 

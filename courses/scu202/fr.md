@@ -1475,14 +1475,6 @@ Cette autonomie technique constitue le socle indispensable pour aborder sereinem
 ## Authentification et cloisonnement des usages
 <chapterId>c8350e86-5581-4d51-8207-fd4ee48502a7</chapterId>
 
-Mot de passe, BIOS.  
-Cloisonnement des usages : multisession et gestion du compte root/admin.  
-Création de machines virtuelles.  
-Sandboxing.
-
-
-
-
 
 
 

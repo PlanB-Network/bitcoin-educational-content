@@ -11,10 +11,10 @@ description: Single-share and multi-share mnemonic phrases on Trezor
 ## New backup options on Trezor
 
 
-Since 2023, Trezor has been offering a new backup format called ***Single-share Backup***, gradually replacing the classic BIP39-based approach found on most portfolios. Unlike traditional 12- or 24-word mnemonic phrases, this new format is based on a single 20-word phrase derived from a standard developed by SatoshiLabs: **SLIP39**. The aim is to improve backup robustness and readability, while enabling smooth migration to a distributed backup model.
+Since 2023, Trezor has been offering a new backup format called ***Single-share Backup***, gradually replacing the classic BIP39-based approach found on most wallets. Unlike traditional 12- or 24-word mnemonic phrases, this new format is based on a single 20-word phrase derived from a standard developed by SatoshiLabs: **SLIP39**. The aim is to improve backup robustness and readability, while enabling smooth migration to a distributed backup model.
 
 
-This distributed model is called ***Multi-share Backup***. It's based on the same principle, but instead of generating a single mnemonic phrase, it splits it into several fragments called ***shares***, each of which is a mnemonic phrase in its own right. To restore the portfolio, a certain number of these *shares* (defined by a *threshold*) must be reunited. For example, in a 3-of-5 scheme, any 3 *shares* out of the 5 will restore the portfolio. Please note that Trezor's distributed backup system is different from multisig wallets. To spend your bitcoins, only your Hardware Wallet Trezor is required. Only one signature is required. Distribution applies only at the level of the mnemonic phrase, i.e. the backup.
+This distributed model is called ***Multi-share Backup***. It's based on the same principle, but instead of generating a single mnemonic phrase, it splits it into several fragments called ***shares***, each of which is a mnemonic phrase in its own right. To restore the wallet, a certain number of these *shares* (defined by a *threshold*) must be reunited. For example, in a 3-of-5 scheme, any 3 *shares* out of the 5 will restore the wallet. Please note that Trezor's distributed backup system is different from multisig wallets. To spend your bitcoins, only your Hardware Wallet Trezor is required. Only one signature is required. Distribution applies only at the level of the mnemonic phrase, i.e. the backup.
 
 
 ![Image](assets/fr/01.webp)
@@ -23,7 +23,7 @@ This distributed model is called ***Multi-share Backup***. It's based on the sam
 This system solves the problem of the single point of failure of the mnemonic phrase without the disadvantages associated with managing a Multisig or passphrase BIP39. The recovery process is no longer based on a single piece of information, but on several, with the added benefit of loss tolerance thanks to the threshold.
 
 
-Users who have created a portfolio with *Single-share Backup* can switch to *Multi-share Backup* at any time without having to migrate their portfolio. Receiving addresses and accounts will remain identical. The *Multi-share* system only affects the backup, while the rest of the portfolio remains unchanged.
+Users who have created a wallet with *Single-share Backup* can switch to *Multi-share Backup* at any time without having to migrate their wallet. Receiving addresses and accounts will remain identical. The *Multi-share* system only affects the backup, while the rest of the wallet remains unchanged.
 
 
 Multi-share Backup* is available on the Trezor Model T, Safe 3 and Safe 5. This feature is not supported by the Trezor Model One.
@@ -35,19 +35,19 @@ Multi-share Backup* is available on the Trezor Model T, Safe 3 and Safe 5. This 
 ## Shamir's Secret Sharing in SLIP39
 
 
-The cryptographic mechanism underlying *Multi-share* backups on Trezor is the *Shamir's Secret Sharing Scheme* (SSSS). Its principle is as follows: secret information (in this case, the seed of the portfolio) is transformed into a mathematical polynomial. Several points of this polynomial are then calculated, each of which becomes a share. The original secret is reconstructed by polynomial interpolation, by gathering a minimum number of points (the threshold).
+The cryptographic mechanism underlying *Multi-share* backups on Trezor is the *Shamir's Secret Sharing Scheme* (SSSS). Its principle is as follows: secret information (in this case, the seed of the wallet) is transformed into a mathematical polynomial. Several points of this polynomial are then calculated, each of which becomes a share. The original secret is reconstructed by polynomial interpolation, by gathering a minimum number of points (the threshold).
 
 
 No secret information can be deduced from a number of shares below the threshold, guaranteeing perfect theoretical security of the secret information. In other words, even an attacker with unlimited computing power cannot guess seed if the threshold is not reached.
 
 
-SLIP39 uses this scheme to distribute the seed portfolio. Each share is a 20-word sentence, built from a list of 1024 words (different from the BIP39 list).
+SLIP39 uses this scheme to distribute the seed wallet. Each share is a 20-word sentence, built from a list of 1024 words (different from the BIP39 list).
 
 
 ## Setting up a Multi-share Backup on a Trezor
 
 
-When creating your portfolio on Trezor, you have three different options:
+When creating your wallet on Trezor, you have three different options:
 
 
 - Use a classic BIP39 mnemonic phrase of 12 or 24 words;
@@ -55,10 +55,10 @@ When creating your portfolio on Trezor, you have three different options:
 - Configure multiple mnemonic phrases in Multi-share (SLIP39).
 
 
-If you opt for a Single-share SLIP39 mnemonic phrase, you'll be able to upgrade to a Multi-share at a later date without having to reset the portfolio. On the other hand, if you start with a classic BIP39 portfolio (12- or 24-word phrase), you won't be able to convert it directly to a Multi-share. You'll have to create a new Multi-share portfolio from scratch and transfer your funds from the old portfolio to the new one via one or more Bitcoin transactions. This is a more complex and costly operation. If you want to make this migration, I recommend you buy a new Hardware Wallet Trezor to avoid having to enter your seed on a portfolio software.
+If you opt for a Single-share SLIP39 mnemonic phrase, you'll be able to upgrade to a Multi-share at a later date without having to reset the wallet. On the other hand, if you start with a classic BIP39 wallet (12- or 24-word phrase), you won't be able to convert it directly to a Multi-share. You'll have to create a new Multi-share wallet from scratch and transfer your funds from the old wallet to the new one via one or more Bitcoin transactions. This is a more complex and costly operation. If you want to make this migration, I recommend you buy a new Hardware Wallet Trezor to avoid having to enter your seed on a wallet software.
 
 
-In this tutorial, we'll first look at how to set up a Multi-share when creating a portfolio, then, in a subsequent section, we'll see how to convert a Single-share to a Multi-share on an existing portfolio.
+In this tutorial, we'll first look at how to set up a Multi-share when creating a wallet, then, in a subsequent section, we'll see how to convert a Single-share to a Multi-share on an existing wallet.
 
 
 If you need help with the initial setup of your device, we also have a detailed tutorial for each Trezor model:
@@ -70,10 +70,10 @@ https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2
 
 https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-### On a new portfolio
+### On a new wallet
 
 
-You've now completed the initial configuration of your Trezor and are ready to create the portfolio. In Trezor Suite, click on the "*Create new Wallet*" button.
+You've now completed the initial configuration of your Trezor and are ready to create the wallet. In Trezor Suite, click on the "*Create new Wallet*" button.
 
 
 ![Image](assets/fr/02.webp)
@@ -85,7 +85,7 @@ Choose the "*Multi-share Backup*" option, then click on "*Create Wallet*".
 ![Image](assets/fr/03.webp)
 
 
-Accept the terms of use on your Trezor and confirm the creation of the portfolio.
+Accept the terms of use on your Trezor and confirm the creation of the wallet.
 
 
 ![Image](assets/fr/04.webp)
@@ -150,10 +150,10 @@ At the end of each share recording, you'll be asked to select the words in your 
 ![Image](assets/fr/11.webp)
 
 
-And that's it, you've successfully backed up your portfolio using the Multi-share option. You can now continue with the rest of the configuration instructions.
+And that's it, you've successfully backed up your wallet using the Multi-share option. You can now continue with the rest of the configuration instructions.
 
 
-### On an existing single-share portfolio
+### On an existing single-share wallet
 
 
 If you already have a Trezor wallet with a single-share backup (a SLIP39 mnemonic phrase, not the classic BIP39 phrase), and would like to improve the availability and security of your wallet backup, you can set up a multi-share system without having to transfer your bitcoins.
@@ -201,7 +201,7 @@ You can then choose the configuration of your Multi-share Backup by following th
 ![Image](assets/fr/18.webp)
 
 
-Once you've created your Multi-share Backup, you'll need to decide what to do with your original Single-share mnemonic phrase. As the Bitcoin portfolio remains the same, this single phrase will always allow access to it. This will depend on your security strategy, but in general, it's advisable to destroy this phrase to eliminate this single point of failure, which is precisely the aim of Multi-share Backup. If you decide to destroy it, make sure you do so securely, as **it still gives access to your bitcoins**.
+Once you've created your Multi-share Backup, you'll need to decide what to do with your original Single-share mnemonic phrase. As the Bitcoin wallet remains the same, this single phrase will always allow access to it. This will depend on your security strategy, but in general, it's advisable to destroy this phrase to eliminate this single point of failure, which is precisely the aim of Multi-share Backup. If you decide to destroy it, make sure you do so securely, as **it still gives access to your bitcoins**.
 
 
 Congratulations, you're now up to speed on the use of Single-share and Multi-share Backups on Trezor hardware wallets. If you'd like to take your wallet security a step further, take a look at this tutorial on BIP39 passphrases:

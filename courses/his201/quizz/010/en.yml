@@ -5,5 +5,5 @@ wrong_answers:
   - Marc Andreessen
   - Mark Zuckerberg
 explanation: |
-  The PayPal product was developed in 1999 by Confinity Inc., co-founded in December 1998 in San Francisco by Peter Thiel and Max Levchin.
-reviewed: false
+  The PayPal product was developed in 1999 by Confinity Inc., which was co-founded in December 1998 in San Francisco by Peter Thiel and Max Levchin.
+reviewed: true

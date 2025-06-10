@@ -1,14 +1,14 @@
 ---
-name: Bull Bitcoin Europa
+name: Bull Bitcoin
 description: Compra y venta de bitcoins en Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoin es una plataforma de intercambio exclusiva de Bitcoin fundada en 2013 en Canadá por Francis Pouliot, una figura emblemática del ecosistema Bitcoin. La filosofía de Bull Bitcoin es ofrecer a los usuarios herramientas para la soberanía financiera y la emancipación. La plataforma de intercambio no tiene custodia, lo que significa que siempre serás soberano sobre tus Bitcoins.
 
-Inicialmente disponible sólo en Canadá, la plataforma está ahora disponible en Europa, con una interfaz totalmente nueva y optimizada. Esta nueva versión de Bull Bitcoin solo está disponible actualmente en Europa. Permite comprar y vender bitcoins de forma rápida y sencilla, gracias al uso de Lightning y a las transferencias SEPA instantáneas. Con el tiempo, la plataforma también incluirá opciones para DCA, compras automáticas, órdenes limitadas y pagos de facturas en bitcoins.
+Inicialmente disponible solo en Canadá, la plataforma ahora está disponible en Europa y en muchos otros países, con una interfaz completamente nueva y optimizada. Esta nueva versión de Bull Bitcoin le permite comprar y vender bitcoins de manera simple y rápida gracias al uso de Lightning y transferencias SEPA instantáneas. También integra el pago de facturas en bitcoins. En el futuro, la plataforma también integrará opciones de DCA, compras automáticas y órdenes limitadas.
 
-Bull Bitcoin se esfuerza por ofrecer un servicio transparente sin cargos ocultos. Al igual que el resto de plataformas de intercambio en Europa, el uso de Bull Bitcoin requiere KYC (procedimiento de identificación del cliente).
+Bull Bitcoin se compromete a proporcionar un servicio transparente y sin tarifas ocultas. Tenga en cuenta que, como la mayoría de las plataformas de intercambio, el uso de Bull Bitcoin requiere realizar un procedimiento de KYC (conozca a su cliente).
 
 ## Registrarse en Bull Bitcoin
 

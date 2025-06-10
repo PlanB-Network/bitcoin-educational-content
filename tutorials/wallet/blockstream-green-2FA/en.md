@@ -36,7 +36,7 @@ This method significantly increases the security of your hot wallet, while leavi
 
 This constraint makes the 2FA option more suitable for a spending wallet, where regular transactions automatically renew timelocks. For a long-term savings wallet, this can be problematic, as you'll need to think about making a sweep transaction to yourself each year before the timelock expires.
 
-Another disadvantage of this security method is that you'll have to use minority script templates. This means that, from a confidentiality point of view, things get more complicated: very few people use the same type of script as you, making it easier for an outside observer to identify your wallet fingerprint. What's more, these scripts will incur higher transaction costs due to their larger size.
+Another disadvantage of this security method is that you'll have to use minority script templates. This means that, from a privacy point of view, things get more complicated: very few people use the same type of script as you, making it easier for an outside observer to identify your wallet fingerprint. What's more, these scripts will incur higher transaction costs due to their larger size.
 
 If you prefer not to use the 2FA option and simply wish to set up a "*singlesig*" wallet on Green, I invite you to consult this other tutorial :
 

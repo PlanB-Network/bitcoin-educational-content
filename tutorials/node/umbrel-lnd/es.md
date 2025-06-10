@@ -57,7 +57,7 @@ Para una introducción teórica completa a Lightning Network, le recomendamos qu
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Este curso le proporcionará una base completa de los conceptos fundamentales de Lightning Network, antes de pasar a la práctica con su nodo LND.
 

@@ -5,5 +5,5 @@ wrong_answers:
   - bit gold (Nick Szabo)
   - RPOW (Hal Finney)
 explanation: |
-  Despite their great similarities, the models of b-money, bit gold, and RPOW were not Satoshi's main inspiration, because he simply was not aware of them before August 2008.
-reviewed: false
+  Despite their great similarities, Satoshi's main inspiration was not the models of b-money, bit gold, and RPOW because he was simply not aware of them before August 2008.
+reviewed: true

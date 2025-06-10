@@ -5,5 +5,5 @@ wrong_answers:
   - Stack Overflow
   - Reddit
 explanation: |
-  On July 11, 2010, a presentation of Bitcoin written by Teppy was published on this popular site, which led to a massive influx of users.
-reviewed: false
+  On July 11, 2010, Teppy published a presentation on Bitcoin on this popular site, which led to a massive influx of users.
+reviewed: true

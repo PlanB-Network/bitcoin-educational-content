@@ -1,4 +1,4 @@
-question: Zašto bi manje često korišćeni tipovi pisma mogli biti lakše prepoznatljivi od široko korišćenih pisama?
+question: Zašto bi manje često korišćeni tipovi skripti mogli biti lakše prepoznatljivi od široko korišćenih skripti?
 answer: Zato što je grupa transakcija sa istim tipom skripte manja.
 wrong_answers:
   - Zato što zahtevaju više validacija od strane rudara.

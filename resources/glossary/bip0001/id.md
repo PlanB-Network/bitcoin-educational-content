@@ -8,4 +8,4 @@ Dokumen yang memaparkan alur proses untuk mengembangkan dan mengimplementasikan 
 - *Informasional*: informasi yang memberikan informasi umum tanpa secara langsung memengaruhi protokol;
 - *Proses*: jalur untuk pengusulan perubahan non-teknis, seperti prosedur dan pedoman.
 
-Kerangka kerja ini membuat pengembangan Bitcoin lebih sistematis, untuk memastikan pendekatan yang terkoordinasi dan transparan seiring perkembangannya. Metodologi BIP0001 nantinya akan digantikan oleh BIP0002.
+Kerangka kerja ini membuat pengembangan Bitcoin lebih sistematis, untuk memastikan pendekatan yang terkoordinasi dan transparan seiring perkembangannya. Metodologi BIP1 nantinya akan digantikan oleh BIP2.

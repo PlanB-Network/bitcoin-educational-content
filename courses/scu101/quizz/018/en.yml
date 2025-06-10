@@ -1,12 +1,9 @@
 question: What is the recommended practice for using an administrator account on Windows?
-answer: Create two separate accounts; an administrator account and an account for daily use.
+answer: Create two separate accounts - an administrator account and an account for daily use.
 wrong_answers:
-  - Use the administrator account for daily use, if the PC is not connected to internet.
-  - Create two separate administrator accounts; one for daily use and one for operating system administration.
+  - Use the administrator account daily if the PC is not connected to the internet.
+  - Create two separate administrator accounts - one for daily use and one for operating system administration.
   - Do not create an administrator account.
 explanation: |
-  Using an administrator account for daily use on Windows can
-  expose the system to more security risks. It is recommended
-  to create two separate accounts; one for administrative
-  tasks and another for daily use.
+  Using an administrator account for daily use on Windows can expose the system to more security risks. Two separate accounts should be created: one for administrative tasks and another for daily use.
 reviewed: true

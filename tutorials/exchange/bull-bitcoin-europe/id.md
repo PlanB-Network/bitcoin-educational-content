@@ -1,14 +1,14 @@
 ---
-name: Bull Bitcoin Eropa
+name: Bull Bitcoin
 description: Beli dan jual bitcoin di Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoin adalah platform pertukaran khusus Bitcoin yang didirikan pada tahun 2013 di Kanada oleh Francis Pouliot, seorang tokoh ikonik dalam ekosistem Bitcoin. Filosofi Bull Bitcoin adalah menawarkan alat kepada pengguna untuk kedaulatan dan emansipasi finansial. Platform pertukaran ini bersifat non-kustodian, yang berarti Anda selalu berdaulat atas Bitcoin Anda.
 
-Awalnya hanya tersedia di Kanada, platform ini sekarang tersedia di Eropa, dengan antarmuka baru yang dioptimalkan. Versi baru Bull Bitcoin saat ini hanya tersedia di Eropa. Ini memungkinkan Anda untuk membeli dan menjual bitcoin dengan cepat dan mudah, berkat penggunaan Lightning dan transfer SEPA instan. Nantinya, platform ini juga akan menyertakan opsi untuk DCA, pembelian otomatis, limit order, dan pembayaran tagihan dalam bentuk bitcoin.
+Awalnya hanya tersedia di Kanada, platform ini sekarang tersedia di Eropa dan banyak negara lain, dengan antarmuka baru yang dioptimalkan. Versi baru Bull Bitcoin ini memungkinkan Anda membeli dan menjual bitcoin dengan mudah dan cepat berkat penggunaan Lightning dan transfer SEPA instan. Ini juga mengintegrasikan pembayaran tagihan dalam bitcoin. Ke depannya, platform ini juga akan mengintegrasikan opsi DCA, pembelian otomatis, dan pesanan batas.
 
-Bull Bitcoin menyediakan layanan yang transparan tanpa biaya tersembunyi. Seperti semua platform pertukaran lainnya di Eropa, menggunakan Bull Bitcoin memerlukan KYC (prosedur identifikasi pelanggan).
+Bull Bitcoin berkomitmen untuk menyediakan layanan yang transparan tanpa biaya tersembunyi. Perlu dicatat bahwa, seperti kebanyakan platform pertukaran, penggunaan Bull Bitcoin memerlukan prosedur KYC (Kenali Pelanggan Anda).
 
 ## Daftar di Bull Bitcoin
 

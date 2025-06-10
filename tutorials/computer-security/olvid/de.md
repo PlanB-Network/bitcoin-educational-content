@@ -12,6 +12,9 @@ Olvid ist eine französische Instant-Messaging-Anwendung, die 2019 auf den Markt
 
 Alle Nachrichten werden Ende-zu-Ende mit einem originellen kryptografischen Protokoll verschlüsselt, das auch die Metadaten schützt: Niemand weiß, mit wem Sie sprechen und wann. Der Client-Code ist Open Source, aber der zentrale Server, der verschlüsselte Nachrichten weiterleitet, bleibt proprietär und wird auf AWS gehostet.
 
+Das Sicherheitsmodell von Olvid basiert auf einem zentralen Prinzip: dem vollständigen Verzicht auf eine vertrauenswürdige dritte Partei bei der Einrichtung digitaler Identitäten. Im Gegensatz zu den meisten verschlüsselten Messengern, die ein zentrales Verzeichnis zur Verwaltung der Benutzeridentitäten verwenden, verlässt sich Olvid auf keine zentrale Infrastruktur, um die Integrität der Kommunikation zu gewährleisten. Diese Architektur beseitigt somit die Risiken im Zusammenhang mit einer Kompromittierung des Verzeichnisses.
+
+Olvid verwendet dennoch einen zentralen Nachrichtenverteilungsserver, der jedoch ausschließlich eine logistische Funktion erfüllt: die asynchrone Übertragung verschlüsselter Nachrichten. Dieser Server ist an keinem Schritt der Verschlüsselung beteiligt, kennt weder die wahre Identität der Benutzer noch den Inhalt oder die Metadaten der Nachrichten (mit Ausnahme des öffentlichen Schlüssels des Empfängers, der für das Routing erforderlich ist). Er kann daher standardmäßig als feindlich angesehen werden, ohne die Gesamtsicherheit zu gefährden. Selbst wenn er kompromittiert würde, könnte er keinen Zugriff auf die Inhalte der Kommunikation ermöglichen. Olvid setzt also auf eine zentrale Nachrichtenverteilung (aus Gründen der Effizienz und Dienstqualität), garantiert aber gleichzeitig eine von dieser Infrastruktur unabhängige Sicherheit.
 
 
 Olvid bietet eine kostenlose Version und eine Abo-Version für 4,99 € pro Monat. Die kostenlose Version bietet den vollen Funktionsumfang, mit Ausnahme von Audio- und Videoanrufen (obwohl es möglich ist, diese zu empfangen), und ermöglicht keine Synchronisierung von Konten über mehrere Geräte hinweg. Wenn Sie also vorhaben, Ihr Smartphone ausschließlich zu verwenden und keine Anrufe tätigen müssen, ist Olvid eine ausgezeichnete Lösung.
@@ -21,26 +24,25 @@ Olvid bietet eine kostenlose Version und eine Abo-Version für 4,99 € pro Mona
 Olvid ist von ANSSI (der französischen Behörde für Cybersicherheit) zertifiziert. Diese Anwendung ist eine hervorragende Alternative zu den herkömmlichen Messaging-Diensten (WhatsApp, Facebook Messenger, WeChat...) für alle, die ihre Privatsphäre schützen wollen und gleichzeitig Wert auf eine einfache Nutzung legen.
 
 
-
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| **Olvid**                | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2019**              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| Anwendung            | E2EE 1:1      | E2EE Gruppen  | Anonyme Registrierung | Client-Lizenz open-source | Server-Lizenz open-source | Dezentraler Server   | Entstehungsjahr |
+| -------------------- | ------------- | ------------- | --------------------- | ------------------------- | ------------------------- | -------------------- | --------------- |
+| WhatsApp             | ✅             | ✅             | ❌                     | ❌                         | ❌                         | ❌                    | 2009            |
+| WeChat               | ❌             | ❌             | ❌                     | ❌                         | ❌                         | ❌                    | 2011            |
+| Facebook Messenger   | ✅             | 🟡 (optional) | ❌                     | ❌                         | ❌                         | ❌                    | 2011            |
+| Telegram             | 🟡 (optional) | ❌             | 🟡                    | ✅                         | ❌                         | ❌                    | 2013            |
+| LINE                 | ✅             | ✅             | ❌                     | ❌                         | ❌                         | ❌                    | 2011            |
+| Signal               | ✅             | ✅             | ❌                     | ✅                         | ✅                         | ❌                    | 2014            |
+| Threema              | ✅             | ✅             | ✅                     | ✅                         | ❌                         | ❌                    | 2012            |
+| Element (Matrix)     | ✅             | ✅             | ✅                     | ✅                         | ✅                         | 🟡 (föderiert)       | 2016            |
+| Delta Chat           | ✅             | ✅             | ✅                     | ✅                         | N/A                       | 🟡 (über E-Mail)     | 2017            |
+| Conversations (XMPP) | ✅             | ✅             | ✅                     | ✅                         | ✅                         | 🟡 (föderiert)       | 2014            |
+| Session              | ✅             | ✅             | ✅                     | ✅                         | ✅                         | ✅                    | 2020            |
+| SimpleX              | ✅             | ✅             | ✅                     | ✅                         | ✅                         | ✅                    | 2021            |
+| **Olvid**            | **✅**         | **✅**         | **✅**                 | **✅**                     | **❌**                     | 🟡(kein Verzeichnis) | **2019**        |
+| Keet                 | ✅             | ✅             | ✅                     | ❌                         | N/A                       | ✅                    | 2022            |
+| Jami                 | ✅             | ✅             | ✅                     | ✅                         | N/A                       | ✅                    | 2005            |
+| Briar                | ✅             | ✅             | ✅                     | ✅                         | N/A                       | ✅                    | 2018            |
+| Tox                  | ✅             | ✅             | ✅                     | ✅                         | N/A                       | ✅                    | 2013            |
 
 *E2EE = Ende-zu-Ende-Verschlüsselung*
 
@@ -110,7 +112,7 @@ Ihr Konto ist nun erstellt.
 
 Um den Verlust des Zugriffs auf Ihr Olvid-Konto zu verhindern, empfehlen wir Ihnen, automatische Sicherungen einzurichten. Öffnen Sie dazu die Einstellungen, indem Sie auf die drei Punkte oben rechts im Interface klicken und dann "*Einstellungen*" wählen.
 
-
+⚠️ **Achtung**: Seit Version 3.7 von Olvid wurde das Verfahren zum Sichern Ihrer Profile und Kontakte durch ein neues ersetzt. Dieses Tutorial zeigt noch die alte Version. Sie können die neue Version in deren FAQ entdecken: [💾 Sichern Ihrer Profile](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 
 ![Image](assets/fr/06.webp)
 

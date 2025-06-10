@@ -12,6 +12,9 @@ Olvid adalah aplikasi pesan instan Prancis yang diluncurkan pada tahun 2019, yan
 
 Semua pesan dienkripsi dari ujung ke ujung menggunakan protokol kriptografi asli, yang dirancang untuk melindungi metadata juga: tidak ada yang tahu dengan siapa Anda berbicara, atau kapan. Kode klien bersifat open source, tetapi server pusat yang digunakan untuk merutekan pesan terenkripsi tetap menjadi hak milik dan di-host di AWS.
 
+Model keamanan Olvid didasarkan pada prinsip penting: tidak adanya pihak ketiga tepercaya dalam proses pembentukan identitas digital. Berbeda dengan sebagian besar aplikasi pesan terenkripsi yang mengandalkan direktori terpusat untuk mengelola identitas pengguna, Olvid tidak bergantung pada infrastruktur terpusat apa pun untuk menjamin integritas komunikasi. Arsitektur ini menghilangkan risiko yang terkait dengan kompromi direktori.
+
+Meski begitu, Olvid menggunakan server pusat untuk distribusi pesan, tetapi perannya murni logistik: memastikan pengiriman asinkron pesan terenkripsi. Server ini tidak berperan dalam proses enkripsi, tidak mengetahui identitas asli pengguna, isi pesan, atau metadata (kecuali kunci publik penerima yang diperlukan untuk routing). Oleh karena itu, server ini dapat dianggap sebagai entitas yang tidak tepercaya secara default tanpa membahayakan keamanan sistem secara keseluruhan. Bahkan jika dikompromikan, server tersebut tidak dapat memberikan akses ke isi komunikasi. Olvid mengadopsi pendekatan distribusi terpusat demi efisiensi dan kualitas layanan, namun tetap mempertahankan keamanan yang independen dari infrastruktur tersebut.
 
 
 Olvid menawarkan versi gratis dan versi langganan dengan harga €4,99 per bulan. Versi gratisnya menawarkan fungsionalitas penuh, dengan pengecualian untuk melakukan panggilan audio dan video (meskipun memungkinkan untuk menerimanya), dan tidak mengizinkan sinkronisasi akun di beberapa perangkat. Jadi, jika Anda berencana untuk menggunakan ponsel cerdas Anda secara eksklusif, dan tidak perlu melakukan panggilan, Olvid adalah solusi yang tepat.
@@ -21,26 +24,25 @@ Olvid menawarkan versi gratis dan versi langganan dengan harga €4,99 per bulan
 Olvid disertifikasi oleh ANSSI (otoritas keamanan siber Prancis). Aplikasi ini adalah alternatif yang sangat baik untuk layanan pesan tradisional (WhatsApp, Facebook Messenger, WeChat...) bagi mereka yang mencari privasi dengan tetap mempertahankan kesederhanaan penggunaan.
 
 
-
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| **Olvid**                | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2019**              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| Aplikasi             | E2EE 1:1      | E2EE grup     | Pendaftaran anonim | Lisensi klien open-source | Lisensi server open-source | Server terdesentralisasi | Tahun pembuatan |
+| -------------------- | ------------- | ------------- | ------------------ | ------------------------- | -------------------------- | ------------------------ | --------------- |
+| WhatsApp             | ✅             | ✅             | ❌                  | ❌                         | ❌                          | ❌                        | 2009            |
+| WeChat               | ❌             | ❌             | ❌                  | ❌                         | ❌                          | ❌                        | 2011            |
+| Facebook Messenger   | ✅             | 🟡 (opsional) | ❌                  | ❌                         | ❌                          | ❌                        | 2011            |
+| Telegram             | 🟡 (opsional) | ❌             | 🟡                 | ✅                         | ❌                          | ❌                        | 2013            |
+| LINE                 | ✅             | ✅             | ❌                  | ❌                         | ❌                          | ❌                        | 2011            |
+| Signal               | ✅             | ✅             | ❌                  | ✅                         | ✅                          | ❌                        | 2014            |
+| Threema              | ✅             | ✅             | ✅                  | ✅                         | ❌                          | ❌                        | 2012            |
+| Element (Matrix)     | ✅             | ✅             | ✅                  | ✅                         | ✅                          | 🟡 (terfederasi)         | 2016            |
+| Delta Chat           | ✅             | ✅             | ✅                  | ✅                         | N/A                        | 🟡 (melalui email)       | 2017            |
+| Conversations (XMPP) | ✅             | ✅             | ✅                  | ✅                         | ✅                          | 🟡 (terfederasi)         | 2014            |
+| Session              | ✅             | ✅             | ✅                  | ✅                         | ✅                          | ✅                        | 2020            |
+| SimpleX              | ✅             | ✅             | ✅                  | ✅                         | ✅                          | ✅                        | 2021            |
+| **Olvid**            | **✅**         | **✅**         | **✅**              | **✅**                     | **❌**                      | 🟡(tidak ada direktori)  | **2019**        |
+| Keet                 | ✅             | ✅             | ✅                  | ❌                         | N/A                        | ✅                        | 2022            |
+| Jami                 | ✅             | ✅             | ✅                  | ✅                         | N/A                        | ✅                        | 2005            |
+| Briar                | ✅             | ✅             | ✅                  | ✅                         | N/A                        | ✅                        | 2018            |
+| Tox                  | ✅             | ✅             | ✅                  | ✅                         | N/A                        | ✅                        | 2013            |
 
 *E2EE = Enkripsi ujung ke ujung*
 
@@ -110,7 +112,7 @@ Akun Anda sekarang sudah dibuat.
 
 Untuk mencegah hilangnya akses ke akun Olvid Anda, kami sarankan untuk menyiapkan cadangan otomatis. Untuk melakukannya, buka pengaturan dengan mengeklik tiga titik di kanan atas Interface, lalu pilih "*Pengaturan*".
 
-
+⚠️ **Perhatian**: sejak versi 3.7 Olvid, prosedur untuk mencadangkan profil dan kontak Anda telah digantikan dengan yang baru. Tutorial ini masih menyajikan versi lama. Anda dapat menemukan versi baru di FAQ mereka: [💾 Mencadangkan profil Anda](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 
 ![Image](assets/fr/06.webp)
 

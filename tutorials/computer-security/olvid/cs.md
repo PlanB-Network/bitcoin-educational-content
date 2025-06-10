@@ -12,6 +12,9 @@ Olvid je francouzská aplikace pro zasílání rychlých zpráv, která byla spu
 
 Všechny zprávy jsou šifrovány end-to-end pomocí originálního kryptografického protokolu, který je navržen tak, aby chránil i metadata: nikdo neví, s kým a kdy mluvíte. Klientský kód je open source, ale centrální server používaný k směrování šifrovaných zpráv zůstává proprietární a je umístěn na AWS.
 
+Bezpečnostní model aplikace Olvid je založen na zásadním principu: úplné absenci důvěryhodné třetí strany při zavádění digitálních identit. Na rozdíl od většiny šifrovaných komunikátorů, které se spoléhají na centralizovaný adresář pro správu identit uživatelů, Olvid nezávisí na žádné centralizované infrastruktuře pro zajištění integrity komunikace. Tato architektura tak eliminuje rizika spojená s kompromitací adresáře.
+
+Olvid přesto využívá centrální server pro distribuci zpráv, ale ten je přísně omezen na logistickou roli: zajišťuje asynchronní přenos šifrovaných zpráv. Tento server se nepodílí na žádné fázi šifrování, nezná skutečné identity uživatelů ani obsah či metadata zpráv (kromě veřejného klíče příjemce, který je nutný pro směrování). Může být tedy považován za potenciálně nepřátelský bez ohrožení bezpečnosti systému. I kdyby byl kompromitován, neumožnil by přístup k obsahu komunikací. Olvid tedy centralizuje distribuci zpráv (z důvodů efektivity a kvality služeb), přičemž zaručuje bezpečnost nezávislou na této infrastruktuře.
 
 
 Olvid nabízí bezplatnou verzi a verzi s předplatným za 4,99 EUR měsíčně. Bezplatná verze nabízí plnou funkčnost s výjimkou uskutečňování audio a video hovorů (ačkoli je možné je přijímat) a neumožňuje synchronizaci účtu mezi více zařízeními. Pokud tedy plánujete používat výhradně chytrý telefon a nepotřebujete uskutečňovat hovory, je Olvid vynikajícím řešením.
@@ -21,26 +24,25 @@ Olvid nabízí bezplatnou verzi a verzi s předplatným za 4,99 EUR měsíčně.
 Společnost Olvid je certifikována ANSSI (francouzský úřad pro kybernetickou bezpečnost). Tato aplikace je vynikající alternativou k tradičním službám pro zasílání zpráv (WhatsApp, Facebook Messenger, WeChat...) pro ty, kteří hledají soukromí při zachování jednoduchosti používání.
 
 
-
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| **Olvid**                | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2019**              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| Aplikace             | E2EE 1:1       | E2EE skupiny   | Anonymní registrace | Licence klienta open-source | Licence serveru open-source | Decentralizovaný server | Rok vytvoření |
+| -------------------- | -------------- | -------------- | ------------------- | --------------------------- | --------------------------- | ----------------------- | ------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                       | 2009          |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                           | ❌                           | ❌                       | 2011          |
+| Facebook Messenger   | ✅              | 🟡 (volitelné) | ❌                   | ❌                           | ❌                           | ❌                       | 2011          |
+| Telegram             | 🟡 (volitelné) | ❌              | 🟡                  | ✅                           | ❌                           | ❌                       | 2013          |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                           | ❌                           | ❌                       | 2011          |
+| Signal               | ✅              | ✅              | ❌                   | ✅                           | ✅                           | ❌                       | 2014          |
+| Threema              | ✅              | ✅              | ✅                   | ✅                           | ❌                           | ❌                       | 2012          |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federovaný)         | 2016          |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                           | N/A                         | 🟡 (přes email)         | 2017          |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                           | ✅                           | 🟡 (federovaný)         | 2014          |
+| Session              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                       | 2020          |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                           | ✅                           | ✅                       | 2021          |
+| **Olvid**            | **✅**          | **✅**          | **✅**               | **✅**                       | **❌**                       | 🟡(žádný adresář)       | **2019**      |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                           | N/A                         | ✅                       | 2022          |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                       | 2005          |
+| Briar                | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                       | 2018          |
+| Tox                  | ✅              | ✅              | ✅                   | ✅                           | N/A                         | ✅                       | 2013          |
 
 *E2EE = End-to-end šifrování*
 
@@ -110,7 +112,7 @@ Váš účet je nyní vytvořen.
 
 Abyste zabránili ztrátě přístupu k účtu Olvid, doporučujeme nastavit automatické zálohování. Za tímto účelem otevřete nastavení kliknutím na tři tečky v pravém horním rohu okna Interface a poté vyberte možnost "*Nastavení*".
 
-
+⚠️ **Upozornění**: od verze 3.7 Olvid byla procedura pro zálohování vašich profilů a kontaktů nahrazena novou. Tento tutoriál stále prezentuje starou verzi. Novou verzi můžete objevit v jejich FAQ: [💾 Zálohování vašich profilů](https://www.olvid.io/faq/sauvegarder-vos-profils/)
 
 ![Image](assets/fr/06.webp)
 

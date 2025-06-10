@@ -327,7 +327,7 @@ Mais la réalité est tout autre, et la confusion vient plutôt d’un problème
 
 Enfin, si la croyance au libre arbitre est  une illusion dont il est extrêmement difficile de s’extraire, c’est qu’elle renvoie à une autre illusion qui l’alimente, l’illusion des causes finales que je vous propose d’étudier dans la prochaine vidéo.
 
-## 3.3 : L’illusion des causes finales.
+## L’illusion des causes finales.
 <chapterId>da2a7fb1-f1e9-5b56-822d-c73770de749d</chapterId>
 
 Bonjour,
@@ -540,6 +540,33 @@ C’est une manière de réfléchir qui permet de disséquer la nature humaine a
 Et de comprendre, probablement pour la première fois dans l’histoire de la philosophie, que l’on peut être lucide et heureux. 
 
 Et c’est la raison pour laquelle on dit souvent du spinozisme qu’elle est « la philosophie de la joie ».
+
+
+## La liberté, l’école autrichienne d’économie et la philosophie des cypherpunks 
+
+<chapterId>b54f2532-460c-11f0-a248-93ff24ef1d57</chapterId>
+
+
+Vous le savez maintenant, la liberté selon Spinoza est donc une prise de conscience de notre déterminisme. Sous la conduite de la raison et grâce à notre capacité d’agir, nous pouvons ainsi comprendre le mécanisme causal des servitudes afin de lutter contre elles, ne plus les subir, et ne plus agir contre nos propres intérêts. 
+Cette lucidité consiste finalement à ne plus vivre dans le nihilisme que décrira plus tard Friedrich Nietzsche (1844-1900) (image 4.3.1) pour qui les hommes se perdent dans des idéaux idéologiques, c’est-à-dire des fictions politiques ou religieuses, à cause desquelles ils nient le réel, s’infantilisent et se rendent malheureux. 
+C’est précisément le propos de la philosophie rationnelle des Lumières, et notamment grâce à Emmanuel Kant (1724-1804) (image 4.3.2) pour qui seul un individu éduqué, sous la conduite de la raison, peut penser par lui-même et déterminer, dans une démarche éthique, ce qui est « vrai », ou « bon », et ce qui est toxique. 
+En d’autres termes, dit-il, si nous pensons par nous-mêmes, si nous raisonnons en adulte rationnel et si nous nous évertuons, de ce fait, à nous attacher aux liens de causalité des choses, nous n’aurons plus besoin d'une autorité morale pour nous enseigner, par exemple, les vraies vertus de la religion ou les vraies valeurs éthiques dans les domaines politiques et économiques. 
+Un raisonnement qui fera le lien avec l’école d’économie libérale autrichienne née dans l’atmosphère intellectuelle extrêmement fertile de Vienne avant la première guerre mondiale. 
+Car c’est dans ce contexte que des intellectuels comme Carl Menger (1840-1921), Ludwig von Mises (1883-1979) et Friedrich Hayek (1899-1992) (image 4.3.3) vont poser les bases d’une nouvelle école d’obédience libérale à l’origine des convictions des cypherpunks à venir. Et donc de la création de Bitcoin.
+Menger et Mises établissent par exemple que toute connaissance doit se construire en fonction du lien de causalité des choses et ils proposent ainsi une nouvelle conception causale de l’économie. Notamment inspirés par l’esprit libéral développé quelques années auparavant par l’économiste français Frédéric Bastiat (1801-1850) (image 4.3.4). 
+Hayek, lui, considère que toutes décisions économiques expriment toujours une forme d’incertitude et d’ignorance et que le fait de ne pas la subir à cause de la morale, de croyances, de préjugés ou d’idéologies politiques, permet d’analyser correctement le comportement économique et, par extension, d’envisager ce qui est bon pour les individus, pour la société et pour l’État. 
+C’est ainsi que ces économistes autrichiens libéraux vont critiquer fermement toute idée socialiste, Hayek parle de « planisme », et toutes politiques morales qui s’en inspirent et ne conduisent, selon lui, qu’à la ruine. Donner le pouvoir économique aux gouvernements, forcément en retard d’informations et en décalage sur ce qu’il faut faire, ou pas est voué, selon eux, à l’échec.
+Par exemple, les Autrichiens considèrent que quand un État se donne, par la contrainte, le pouvoir de créer de l’argent pour gérer l’économie et résoudre les crises, le risque est qu’il n’est dès lors jamais plus capable de ne pas abuser de ce pouvoir. 
+Pourquoi ? Parce qu’il se retrouve alors toujours  dans une forme de servitude qui l’en empêche et le pousse donc, dirait Spinoza « à voir le meilleur, à l’approuver… mais à faire le pire ».
+Or, en bon spinoziste, Hayek explique justement dans une vidéo que « comme ce pouvoir ne peut lui être retiré sans violence, tout ce que l’on peut, c’est le faire grâce à une astuce et introduire un nouveau concept de monnaie que les gouvernements ne pourraient plus arrêter ». Un argument que reprendra Milton Friedman (1912-2006) (image 4.3.5) dans une interview dans laquelle il évoque à son tour cette nouvelle forme de monnaie numérique dans le contexte de l’internet naissant.
+Et ce sont bien ces arguments politiques et économiques défendus par les premiers cypherpunks, Eric Hughes (1953-), dans son « manifeste du cypherpunk », ou encore Timothy May (1951-2018) dans son « manifeste crypto anarchiste » (image 4.3.6) et que va reprendre Satoshi Nakamoto. Notamment lorsqu’il inscrit le titre du Times du 3 janvier 2009 dans le coinbase du bloc genesis de la Blockchain Bitcoin (image 4.3.7) pour illustrer la fin d’une époque, keynésienne, et le début d’une autre époque aux aspirations libérales, anarchistes et libertariennes.
+Le White Paper publié le 31 octobre 2008 présente ainsi Bitcoin comme un moyen d’échanger de la valeur sur internet sans tiers de confiance, en se fondant sur un protocole décentralisé. Une révolution « copernicienne » qui permet enfin aux hommes de retrouver leur capacité d’agir, c’est-à-dire leur liberté, leur liberté d’échanger, leur droit de propriété et le respect de leur vie privée. 
+Pourquoi ? Car Bitcoin permet de nous extraire de cette servitude à la façon de Spinoza, grâce à la raison, grâce au langage de Galilée que sont les mathématiques. Et comme le suggère Hayek, sans que les État puissent s’y opposer.
+Et de façon pacifique, sans contrainte et donc sans prosélytisme.
+C’est d’ailleurs le dernier parallèle que je ferai entre le spinozisme et Bitcoin pour montrer qu’il ne sert à rien de convaincre quiconque n’adhère pas à un concept copernicien ou disruptif autrement que par la raison, l’entendement, la curiosité ou la bonne volonté. 
+À rien et surtout pas par la contrainte, ni par la violence. Car le fait est que Copernic, Galilée, Newton, Darwin, Einstein, Hayek, Spinoza ou Satoshi Nakamoto n’ont ainsi jamais menacé quiconque ne croyait pas en leurs idées et en leurs démonstrations. 
+Je vous remercie de votre attention.
+
 
 
 

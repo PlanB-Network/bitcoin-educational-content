@@ -74,6 +74,7 @@ Det är viktigt att förstå att Bitcoin är ett nytt monetärt system som helt 
 
 **Avsnitt 6 - Framtiden för Bitcoin: Lightning Network**
 
+
     Kapitel 20 - En Kort Introduktion till Lightning Network
     Kapitel 21 - Användningsfall för Lightning Network
     Kapitel 22 - Röd Piller eller Blå Piller?

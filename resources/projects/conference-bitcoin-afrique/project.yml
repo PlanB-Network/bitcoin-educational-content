@@ -8,13 +8,12 @@ links:
 
 original_language: fr
 proofreading:
-  - language: en
-    last_contribution_date: 2025-05-20
   - language: fr
     last_contribution_date: 2025-05-20
     urgency: 1
     contributor_names: 
       - AlphonseMehounme
+    reward: 0
 tags:  
   - adoption
   - decentralization

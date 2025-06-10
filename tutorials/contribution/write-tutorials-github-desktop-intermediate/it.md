@@ -14,7 +14,7 @@ A questo punto, hai già:
 - Contatto il team di Plan ₿ Network tramite [il gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
 - Scelto i tuoi strumenti con i quali contribuire.
 
-In questa guida vedrai come aggiungere il tuo tutorial alla rete di Plan ₿ configurando il tuo ambiente locale con GitHub Desktop. Se sei già esperti di Git, questo tutorial molto dettagliato potrebbe non essere necessario per te. Ti consiglio piuttosto di consultare quest'altro tutorial in cui presento solo le linee guida principali, senza una guida dettagliata passo-passo:
+In questa guida vedrai come aggiungere il tuo tutorial alla rete di Plan ₿ configurando il tuo ambiente locale con GitHub Desktop. Se sei già esperto di GitHub, questo tutorial molto dettagliato potrebbe non essere necessario per te. Ti consiglio piuttosto di consultare quest'altro tutorial in cui presento solo le linee guida principali, senza una descrizione dettagliata passo-passo:
 
 
 - Utenti esperti**:
@@ -90,7 +90,7 @@ Ora, su GitHub Desktop, ci si dovrebbe trovare nel nuovo ramo. Ciò significa ch
 
 ![TUTORIAL](assets/fr/11.webp)
 
-Per ogni nuovo articolo che si desidera pubblicare, è necessario creare un nuovo ramo da `dev`. Un ramo in Git è una versione parallela del progetto, che consente di apportare modifiche senza influenzare il ramo principale, finché il lavoro non è pronto per essere unito.
+Per ogni nuovo articolo che si desidera pubblicare, è necessario creare un nuovo ramo da `dev`. Un ramo in GitHub è una versione parallela del progetto, che consente di apportare modifiche senza influenzare il ramo principale, finché il lavoro non è pronto per essere unito.
 
 ## 2 - Aggiungere i file del tutorial
 
@@ -117,7 +117,7 @@ Avvia quindi il software con il comando:
 python3 main.py
 ```
 
-Si aprirà un'interfaccia grafica (GUI). La prima volta sarà necessario inserire tutte le informazioni necessarie, ma negli utilizzi successivi lo script ricorderà le informazioni personali, per cui non sarà necessario inserirle di nuovo.
+Si aprirà un'interfaccia grafica [(GUI)](https://planb.network/resources/glossary/gui). La prima volta sarà necessario inserire tutte le informazioni necessarie, ma negli utilizzi successivi lo script ricorderà le informazioni personali, per cui non sarà necessario inserirle di nuovo.
 
 ![DATA-CREATOR-PY](assets/fr/37.webp)
 
@@ -395,7 +395,7 @@ Se desideri creare i tuoi diagrammi, assicurati di avere lo stesso formato grafi
 
 Una volta terminata la stesura del tutorial nella lingua desiderata, il passo successivo consiste nell'inviare una **Pull request**. L'amministratore si occuperà di aggiungere le traduzioni mancanti del tuo tutorial, grazie al nostro metodo di traduzione automatica con revisione umana.
 
-Per procedere con la richiesta di pull, apri il software GitHub Desktop. Il software dovrebbe rilevare automaticamente le modifiche apportate localmente al ramo rispetto al repository originale. Prima di continuare, verifica attentamente sul lato sinistro dell'interfaccia che le modifiche corrispondano a quanto previsto:
+Per procedere con la pull request, apri il software GitHub Desktop. Il software dovrebbe rilevare automaticamente le modifiche apportate localmente al ramo rispetto al repository originale. Prima di continuare, verifica attentamente sul lato sinistro dell'interfaccia che le modifiche corrispondano a quanto previsto:
 
 ![TUTO](assets/fr/28.webp)
 
@@ -417,9 +417,9 @@ Si può controllare un'ultima volta che le modifiche siano corrette, quindi clic
 
 ![TUTO](assets/fr/32.webp)
 
-Una richiesta di pull è una richiesta di integrazione delle modifiche dal proprio ramo al ramo principale del repository Plan ₿ Network, che consente la revisione e la discussione delle modifiche prima della loro fusione.
+Una pull request è una richiesta di integrazione delle modifiche dal proprio ramo al ramo principale del repository Plan ₿ Network, che consente la revisione e la discussione delle modifiche prima della loro fusione.
 
-Verrai automaticamente reindirizzato nel tuo browser su GitHub alla pagina di preparazione della tua richiesta di pull:
+Verrai automaticamente reindirizzato nel tuo browser su GitHub alla pagina di preparazione della tua pull request:
 
 ![TUTO](assets/fr/33.webp)
 

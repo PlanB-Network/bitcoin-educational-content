@@ -1085,7 +1085,9 @@ Idag fortsätter Bitcoin att överleva och växa ännu mer genom att integreras 
 
 Bitcoin kan ses som ett verktyg för att skapa en parallell ekonomi till fiatvalutor, eftersom det är möjligt att sälja varor eller tjänster och få betalt i bitcoin. Transaktioner kan göras direkt i Bitcoin, utan att behöva gå via en växlingsplattform, utan helt enkelt gå från en Bitcoin-plånbok till en annan.
 
-Bitcoin-ekonomin finns och utvecklas i vissa regioner i världen, som i El Salvador, där Bitcoin har varit ett lagligt betalningsmedel sedan 2021. Runt omkring oss finns det vissa individer, företag och organisationer som redan accepterar Bitcoin som betalningsmedel för sina produkter eller tjänster.
+Bitcoin-ekonomin existerar och utvecklas i vissa regioner av världen, som i El Salvador, där Bitcoin blev ett lagligt betalningsmedel 2021. Tyvärr, i januari 2025, antog församlingen en ny lag som berövade Bitcoin titeln "lagligt betalningsmedel", påstått efter att ha mottagit press från Internationella valutafonden. Enligt den nya lagen är människor inte längre skyldiga att acceptera Bitcoin i sina företag och kan inte längre betala skatter med det. Acceptans förblir frivillig.
+
+Trots detta finns det i El Salvador och i andra delar av världen allt fler individer, företag och organisationer som accepterar Bitcoin som betalningsmedel för sina produkter eller tjänster.
 
 ![image](assets/en/72.webp)
 

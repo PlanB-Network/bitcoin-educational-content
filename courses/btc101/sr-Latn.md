@@ -1542,7 +1542,9 @@ Danas, Bitkoin nastavlja da opstaje i još više raste integracijom u tradiciona
 Bitkoin se može smatrati alatom za stvaranje paralelne ekonomije u odnosu na fiat valute, jer je moguće prodavati robu ili usluge i biti plaćen u bitkoinu. Transakcije se mogu obavljati direktno u bitkoinu, bez potrebe za prolaskom kroz platformu za trgovanje, već jednostavno prenosom sa jednog Bitkoin novčanika na drugi.
 
 
-Bitkoin ekonomija postoji i razvija se u određenim regionima sveta, kao što je El Salvador, gde je bitkoin zakonsko sredstvo plaćanja od 2021. godine. Svuda oko nas postoje pojedinci, preduzeća i organizacije koje već prihvataju bitkoin kao sredstvo plaćanja za svoje proizvode ili usluge.
+Bitcoin ekonomija postoji i razvija se u određenim regionima sveta, kao što je El Salvador, gde je Bitcoin postao zakonito sredstvo plaćanja 2021. godine. Nažalost, u januaru 2025. godine, skupština je usvojila novi zakon koji je oduzeo Bitcoin-u titulu "zakonitog sredstva plaćanja", navodno nakon pritiska Međunarodnog monetarnog fonda. Prema novom zakonu, ljudi više nisu obavezni da prihvataju Bitcoin u svojim poslovima i više ne mogu plaćati poreze koristeći ga. Prihvatanje ostaje dobrovoljno.
+
+Ipak, u El Salvadoru i u drugim delovima sveta, sve više pojedinaca, preduzeća i organizacija prihvata Bitcoin kao sredstvo plaćanja za svoje proizvode ili usluge.
 
 
 ![image](assets/en/72.webp)

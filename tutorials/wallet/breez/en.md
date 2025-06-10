@@ -10,7 +10,7 @@ description: The Lightning wallet that puts you in control.
 Self-holding wallets are becoming the safest option for holding your bitcoins while benefiting from the power and advantages of Bitcoin's Lightning overlay. Breez, thanks to its approach, particularly stands out in this batch of wallets.
 
 
-## What is the Breez portfolio?
+## What is the Breez wallet?
 
 Breez is a self-custodial wallet created by the Breez company that gives you control over your bitcoins and, at the same time, offers innovative features all in one application.
 
@@ -25,10 +25,10 @@ Here, on Android, is the **Breez** application (not to be confused with Misty Br
 ![breez-wallet-ps](assets/fr/01.webp)
 
 
-## Getting to grips with the portfolio
+## Getting to grips with the wallet
 
 
-Breez gives you the option of creating a new wallet or restoring an existing Lightning wallet. In this tutorial, we'll create a new portfolio.
+Breez gives you the option of creating a new wallet or restoring an existing Lightning wallet. In this tutorial, we'll create a new wallet.
 
 
 ![creer-portefeuille](assets/fr/02.webp)
@@ -37,7 +37,7 @@ Breez gives you the option of creating a new wallet or restoring an existing Lig
 This is one of the advantages of Breez: you have the keys to full access to your bitcoins. You are the master of your bitcoins.
 
 
-⚠️ As the Breez portfolio is currently under development, we recommend that you make transactions with moderate amounts for the time being.
+⚠️ As the Breez wallet is currently under development, we recommend that you make transactions with moderate amounts for the time being.
 
 ![test-breez](assets/fr/03.webp)
 
@@ -50,17 +50,17 @@ The wallet synchronizes directly with the Bitcoin protocol and provides you with
 
 ### Save your keys
 
-The first thing to do when creating a Bitcoin/Lightning portfolio is to save its keys.
+The first thing to do when creating a Bitcoin/Lightning wallet is to save its keys.
 
 In the Menu, scroll down to **Preferences** then **Security**.
 
 Breez lets you save your 12 recovery words on a Google Drive or a remote personal server that you can configure.
 
-Then activate the **Chiffer backup** option: this will reveal the keywords in your portfolio that you can save manually.
+Then activate the **Chiffer backup** option: this will reveal the keywords in your wallet that you can save manually.
 
 ![sécurité](assets/fr/06.webp)
 
-Then follow the instructions to confirm your backup and connect your remote backup account to the Breez portfolio.
+Then follow the instructions to confirm your backup and connect your remote backup account to the Breez wallet.
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -89,7 +89,7 @@ Enter a description for your invoice, then the amount you wish to receive.
 ⚠️ For your first transaction on Breez, you will have to pay a channel opening and maintenance fee of **2500 satoshis**. Unlike most Lightning wallets, Breez provides you with an entire Lightning node infrastructure, giving you the freedom to manage your bitcoins. You'll have to open your own payment channels, and the freedom to communicate directly with the Lightning node from within the application.
 
 
-*Rest assured, you'll only have to pay this fee once, when you initialize your portfolio*
+*Rest assured, you'll only have to pay this fee once, when you initialize your wallet*
 
 ![receive-invoice](assets/fr/08.webp)
 
@@ -115,7 +115,7 @@ Then enter the Beneficiary's details or scan to initiate an invoice payment and 
 ![validate-send](assets/fr/10.webp)
 
 
-### The special feature of this portfolio.
+### The special feature of this wallet.
 
 Beyond being an intuitive wallet for storing bitcoins, Breez is an innovative ecosystem.
 
@@ -150,7 +150,7 @@ Once your inventory is complete, you can easily invoice your customers for these
 ![print-receipe](assets/fr/15.webp)
 
 
-- Access third-party services**: Breez integrates third-party services that allow you to take more action without having to leave the portfolio. These include Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- Access third-party services**: Breez integrates third-party services that allow you to take more action without having to leave the wallet. These include Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 ![apps](assets/fr/16.webp)
 

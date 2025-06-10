@@ -20,7 +20,7 @@ The network architecture is entirely decentralized and unfederated: servers don'
 SimpleX is entirely open-source (clients, protocols and servers), available on Android, iOS, Linux, Windows and macOS. Its local storage is encrypted and portable, so you can transfer a profile from one device to another without relying on a centralized server.
 
 
-SimpleX integrates all the classic features of messaging applications. However, its ergonomics remain less fluid than those of WhatsApp or Signal. It can also be more restrictive to use, especially when adding contacts. So, in my opinion, it's a relevant alternative to WhatsApp or Signal for users who place confidentiality at the heart of their priorities, and who are prepared, for that reason, to make a few concessions on day-to-day user comfort.
+SimpleX integrates all the classic features of messaging applications. However, its ergonomics remain less fluid than those of WhatsApp or Signal. It can also be more restrictive to use, especially when adding contacts. So, in my opinion, it's a relevant alternative to WhatsApp or Signal for users who place privacy at the heart of their priorities, and who are prepared, for that reason, to make a few concessions on day-to-day user comfort.
 
 
 | Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |

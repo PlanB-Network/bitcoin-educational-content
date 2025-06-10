@@ -745,7 +745,7 @@ Srećom, od 2017. godine, privatni ključ može biti predstavljen jednostavnom l
 Dakle, verovatnoća hakovanja vašeg Bitkoin novčanika je astronomski niska ako pratite dobre bezbednosne prakse koje ćemo detaljno opisati u sledećem odeljku.
 
 
-Imajte na umu da odaberete pravi novčanik za vaše potrebe i upotrebu: detaljni tutorijali o upravljanju i osiguravanju različitih novčanika dostupni su u [odeljku sa tutorijalima našeg univerziteta](https://planb.network/tutorials/Wallet).
+Imajte na umu da odaberete pravi novčanik za vaše potrebe i upotrebu: detaljni tutorijali o upravljanju i osiguravanju različitih novčanika dostupni su u [odeljku sa tutorijalima našeg univerziteta](https://planb.network/tutorials/wallet).
 
 
 Ako, tokom vašeg putovanja kroz zečju rupu, želite da saznate više o izgradnji bitkoin novčanika, od entropije do primanja adresa, preporučujemo CYP 201 kurs posvećen ovoj temi:
@@ -1678,7 +1678,7 @@ Postoji nekoliko načina za sticanje bitkoina, pri čemu je svaki podložan sops
 - DCA platforme
 
 
-Kao što smo već pomenuli, uobičajena metoda za akumulaciju bitkoina je Dollar Cost Averaging (DCA), koje podrazumeva redovnu kupovinu malih količina. Nekoliko platformi nudi ovu uslugu, kao što su one navedene na našoj [posvećenoj stranici](https://planb.network/tutorials/Exchange). Pored jednostavnosti postavljanja DCA, povlačenja na vaš novčanik su uglavnom automatska, što znači da ćete uvek imati kontrolu nad svojim sredstvima.
+Kao što smo već pomenuli, uobičajena metoda za akumulaciju bitkoina je Dollar Cost Averaging (DCA), koje podrazumeva redovnu kupovinu malih količina. Nekoliko platformi nudi ovu uslugu, kao što su one navedene na našoj [posvećenoj stranici](https://planb.network/tutorials/exchange). Pored jednostavnosti postavljanja DCA, povlačenja na vaš novčanik su uglavnom automatska, što znači da ćete uvek imati kontrolu nad svojim sredstvima.
 
 
 Danas su gotovo sva DCA rešenja relativno efikasna i imaju gotovo slične naknade, tako da će izbor više zavisiti od dostupnosti u vašoj zemlji.

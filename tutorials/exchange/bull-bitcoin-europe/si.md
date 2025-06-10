@@ -183,7 +183,7 @@ Preden začnete kupovati in prodajati Bitcoin na Bull, je pomembno razumeti, da 
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Lahko tudi raziščete [naše podrobne vadnice o najboljših denarnicah Bitcoin](https://planb.network/tutorials/Wallet).
+Lahko tudi raziščete [naše podrobne vadnice o najboljših denarnicah Bitcoin](https://planb.network/tutorials/wallet).
 
 
 පසුව "*Confirm Buy*" මත ක්ලික් කිරීමෙන් ඔබේ මිලදී ගැනීම තහවුරු කරන්න.

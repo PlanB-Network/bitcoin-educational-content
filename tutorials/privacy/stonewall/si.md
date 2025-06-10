@@ -61,7 +61,7 @@ Poglejmo si še enkrat naš primer z Alice v pekarni. Če bi želela opraviti tr
 සාරාංශයෙන්, Stonewall සහ Stonewall x2 ගනුදෙනු සමාන ව්‍යුහයක් බෙදා ගනී. එයින් දෙකේ වෙනස ඔවුන්ගේ සහයෝගී ස්වභාවයයි. Stonewall ගනුදෙනුව තනිවම සංවර්ධනය කරයි, සහයෝගය අවශ්‍ය නොවේ. එයට විරුද්ධව, Stonewall x2 ගනුදෙනුව ක්‍රියාත්මක කිරීමට පුද්ගලයින් දෙදෙනෙකු අතර සහයෝගය මත රඳා පවතී.
 
 
-[**-> Stonewall x2 ගනුදෙනු පිළිබඳව වැඩිදුරටත් ඉගෙන ගන්න**](https://planb.network/tutorials/privacy/On-Chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Stonewall x2 ගනුදෙනු පිළිබඳව වැඩිදුරටත් ඉගෙන ගන්න**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 ## Stonewall ගනුදෙනුවක අරමුණ කුමක්ද?

@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Panduan Lengkap Electrum, dari pemula hingga mahir
+description: Electrum Wallet: Panduan Lengkap dari Dasar hingga Tingkat Lanjut
 ---
 
 ![cover](assets/cover.webp)

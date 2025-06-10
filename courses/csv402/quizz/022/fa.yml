@@ -1,0 +1,9 @@
+question: کدام RGB Contract Operation یک حالت جدید ایجاد می‌کند بدون اینکه یک Seal را ببندد؟
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - فعال‌سازی Valency
+explanation: |
+  State Extension به شما اجازه می‌دهد تا یک حالت یا حقوق جدید (ظرفیت‌ها) ایجاد کنید، بدون اینکه Seal بلافاصله بسته شود.
+reviewed: false

@@ -22,11 +22,12 @@ address_line_3: Room No. 7
 # with year (at the end) to avoid duplication
 name: The ₿ Workshop in Lugano Bitcoin Event 2026
 
-# define the event category, 4 options:
+# define the event category, 5 options:
 # - workshop
 # - course
 # - conference
 # - lecture
+# - meetup
 type: workshop
 
 # Description

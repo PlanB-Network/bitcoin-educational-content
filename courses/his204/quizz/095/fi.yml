@@ -1,0 +1,8 @@
+question: Ketä ministeriä Condorcet vastusti puolustaessaan vapaakauppaa?
+answer: Necker
+wrong_answers:
+  - Calonne
+  - Trudaine
+  - Choiseul
+explanation: |
+  Condorcet vastusti Neckeriä vapaakauppaa koskevassa kysymyksessä ja puolusti taloudellisen liberalismin periaatteita.

@@ -1,0 +1,9 @@
+question: الگوریتم رمزنگاری بلوکی که به عنوان استاندارد AES پذیرفته شده است چیست؟
+answer: رمزنگاری Rijndael
+wrong_answers:
+  - DES
+  - RSA
+  - دیفی-هلمن
+explanation: |
+  رمزنگاری Rijndael به عنوان استاندارد رمزنگاری متقارن (AES) توسط NIST پذیرفته شد، به دلیل عملکرد بالا و امنیت آن.
+reviewed: false

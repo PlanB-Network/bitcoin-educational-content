@@ -1,0 +1,8 @@
+question: سوئیس Bitcoin Pay چیست؟
+answer: راه‌حلی برای بازرگانان آماتور جهت پذیرش Bitcoin.
+wrong_answers:
+  - یک بانک سوئیسی که Bitcoin را می‌پذیرد.
+  - یک Bitcoin Exchange از سوئیس.
+  - یک شرکت Mining که در سوئیس فعالیت می‌کند.
+explanation: >-
+reviewed: true

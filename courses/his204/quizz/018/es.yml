@@ -1,0 +1,8 @@
+question: ¿Qué son los efectos Cantillon?
+answer: Aumentar la cantidad de dinero en un país afecta a la distribución de la renta
+wrong_answers:
+  - Aumentar la cantidad de dinero influye en el comportamiento de las personas
+  - El aumento de la cantidad de dinero repercute en el importe de la deuda pública
+  - Aumentar la cantidad de dinero no tiene ningún efecto significativo
+explanation: |
+  Los efectos Cantillon describen cómo un aumento del Supply monetario afecta a los precios y las rentas de forma diferente en los distintos sectores de la economía. La inyección de dinero nuevo no se distribuye uniformemente, lo que crea distorsiones y desigualdades.

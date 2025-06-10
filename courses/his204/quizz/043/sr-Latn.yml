@@ -1,0 +1,8 @@
+question: Za koju knjigu je Mirabeau bio zatvoren?
+answer: Teorija oporezivanja
+wrong_answers:
+  - Prijatelj ljudi
+  - Esej o prirodi trgovine uopšte
+  - Društveni Contract
+explanation: |
+  Mirabeau je bio zatvoren zbog "La Théorie de l'Impôt", dela u kojem je kritikovao francuski poreski sistem.

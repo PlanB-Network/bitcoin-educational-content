@@ -1,14 +1,14 @@
 ---
-name: Bull Bitcoin Eurooppa
+name: Bull Bitcoin
 description: Osta ja myy bitcoineja Bull Bitcoinissa
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoin on Bitcoin-ekosysteemin ikonisen hahmon Francis Pouliotin vuonna 2013 Kanadassa perustama pelkän Bitcoinin vaihtojärjestelmä. Bull Bitcoinin filosofiana on tarjota käyttäjille työkaluja taloudelliseen suvereniteettiin ja vapautumiseen. Vaihtofoorumi ei ole huoltajapohjainen, mikä tarkoittaa, että pysyt aina suvereenina Bitcoineihisi.
 
-Alun perin vain Kanadassa saatavilla ollut alusta on nyt saatavilla Euroopassa, ja siinä on upouusi, optimoitu käyttöliittymä. Tämä Bull Bitcoinin uusi versio on tällä hetkellä saatavilla vain Euroopassa. Sen avulla voit ostaa ja myydä bitcoineja nopeasti ja helposti Lightningin ja välittömien SEPA-siirtojen ansiosta. Lopulta alusta sisältää myös vaihtoehtoja DCA:lle, automaattisille ostoille, rajatilauksille ja laskujen maksamiselle bitcoineilla.
+Alun perin vain Kanadassa saatavilla ollut alusta on nyt saatavilla Euroopassa ja monissa muissa maissa, täysin uudella optimoidulla käyttöliittymällä. Tämä uusi Bull Bitcoin -versio mahdollistaa bitcoinien ostamisen ja myymisen helposti ja nopeasti Lightningin ja välittömien SEPA-siirtojen avulla. Se integroi myös laskujen maksamisen bitcoineilla. Tulevaisuudessa alusta integroi myös DCA-vaihtoehdot, automaattiset ostot ja rajahintaiset tilaukset.
 
-Bull Bitcoin pyrkii tarjoamaan avointa palvelua ilman piilotettuja maksuja. Kuten kaikki muutkin vaihtopalvelut Euroopassa, Bull Bitcoinin käyttäminen edellyttää KYC:tä (asiakkaan tunnistamismenettely).
+Bull Bitcoin on sitoutunut tarjoamaan läpinäkyvän palvelun ilman piilokuluja. Huomaa, että kuten useimmat vaihtoalustat, Bull Bitcoinin käyttö edellyttää KYC (tunne asiakkaasi) -menettelyn suorittamista.
 
 ## Rekisteröidy Bull Bitcoiniin
 

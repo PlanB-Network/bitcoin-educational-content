@@ -1,0 +1,8 @@
+question: Kakav porez je Vauban zagovarao u svojim spisima?
+answer: Proporcionalni porez svi moraju dati isti procenat svog prihoda Državi
+wrong_answers:
+  - Progresivno oporezivanje stopa poreza za bogate mora biti viša nego za siromašne
+  - Paušalni porez bez obzira na vaš prihod, plaćate isti iznos svake godine vladi.
+  - Regresivno oporezivanje stope poreza za siromašne moraju biti više nego za bogate
+explanation: |
+  Vauban je zagovarao proporcionalni porez, "kraljev deseti deo", koji se sastojao u naplati desetog dela (10%) prihoda svih Francuza, bez obzira na njihov društveni status. Verovao je da bi ovaj porez bio pravedniji i efikasniji od postojećeg poreskog sistema.

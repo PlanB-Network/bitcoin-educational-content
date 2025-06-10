@@ -4,6 +4,8 @@ description: Installing, configuring and using Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/yJpvfRl03Tw)
+
 Sparrow Wallet is a self-custody Bitcoin wallet management software developed by Craig Raw. This open-source software is appreciated by bitcoiners for its many features and intuitive Interface.
 
 There are two ways to use Sparrow:
@@ -227,6 +229,7 @@ You can inscribe it on paper or, for added security, engrave it on stainless ste
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 **Obviously, you must never share these words on the Internet, as I do in this tutorial. This example wallet will be used only on the Testnet and will be deleted at the end of the tutorial.**
@@ -234,6 +237,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 You can also choose to add a passphrase BIP39 by clicking on the "*Use passphrase*" box. Warning: using a passphrase can be very useful, but if you don't understand how it works, it can be very risky. That's why I strongly advise you to read this short theoretical article on the subject:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Once you've saved your mnemonic and any passphrase to a physical medium, click on "*Confirm Backup*".
 
 ![Image](assets/fr/27.webp)
@@ -385,6 +389,7 @@ This takes you to a page detailing the elements of your transaction. Check that 
 It's important to keep the default Sighash. To understand why, take a look at this training course, in which I explain everything you need to know about Sighash:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 On the next screen, the options vary according to the type of wallet you are using:
 
 

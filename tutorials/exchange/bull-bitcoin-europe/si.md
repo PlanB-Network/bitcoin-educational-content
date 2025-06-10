@@ -1,5 +1,5 @@
 ---
-name: Bull Bitcoin Europe
+name: Bull Bitcoin
 description: Bull Bitcoin මත බිට්කොයින් මිලදී ගන්න සහ විකිණීමට.
 ---
 ![cover](assets/cover.webp)
@@ -7,12 +7,9 @@ description: Bull Bitcoin මත බිට්කොයින් මිලදී 
 
 Bull Bitcoin යනු 2013 දී කැනඩාවේ Francis Pouliot, Bitcoin පද්ධති පරිසරයේ ප්‍රතික පුරුෂයෙකු විසින් ආරම්භ කරන ලද Bitcoin පමණක් වන Exchange වේදිකාවකි. Bull Bitcoin හි දර්ශනය වන්නේ පරිශීලකයින්ට මූල්‍ය ස්වාධීනත්වය සහ නිදහස සඳහා මෙවලම් ලබා දීමයි. Exchange වේදිකාව අනුශාසක නොවන අතර, එය ඔබේ බිට්කොයින්වලට ඔබ සෑම විටම ස්වාධීනව පවතින බව අර්ථය වේ.
 
+මුල්ව Канඩාවේ පමණක් ලබා ගත හැකි වු මෙම වේදිකාව දැන් යුරෝපය සහ බොහෝ වෙනත් රටවල අළුතින් යාවත්කාලීන කළ අතුරුමුහුණතක් සමඟ ලබා ගත හැක. Bull Bitcoin හි මෙම නව අනුවාදය, Lightning සහ ක්ෂණික SEPA මාරු භාවිතයෙන්, බිට්කොයින් මිලදී ගැනීම සහ විකුණා දැමීම පහසු සහ ඉක්මනින් සිදු කිරීමට ඉඩ සලසයි. එමෙන්ම, බිට්කොයින් වලින් ගෙවීම් කිරීමටද මෙය එකතු කර ඇත. අනාගතයේදී, වේදිකාව DCA විකල්ප, ස්වයංක්‍රීය මිලදී ගැනීම් සහ සීමා නියෝග ඇතුළු කරනු ඇත.
 
-මුලින්ම කැනඩාවේ පමණක් ලබා ගත හැකි වූ මෙම වේදිකාව දැන් යුරෝපයේ ලබා ගත හැකි අතර, නවීන, සුමුදු Interface සමඟ ඇත. මෙම Bull Bitcoin නව අනුවාදය දැනට යුරෝපයේ පමණක් ලබා ගත හැක. එය ඔබට බිට්කොයින් ඉක්මනින් සහ පහසුවෙන් මිලදී ගැනීමට සහ විකිණීමට හැකියාව සලසයි, Lightning සහ ක්ෂණික SEPA මාරු භාවිතා කිරීමේ දායකත්වය නිසා. අවසානයේදී, වේදිකාව DCA, ස්වයංක්‍රීය මිලදී ගැනීම්, සීමා නියෝග සහ බිට්කොයින් වලින් බිල් ගෙවීම් සඳහා විකල්පයන් ද ඇතුළත් කරනු ඇත.
-
-
-Bull Bitcoin läbipaistev teenus, millel puuduvad varjatud tasud. Nagu kõik teisedki Exchange platvormid Euroopas, nõuab Bull Bitcoin kasutamine KYC-d (kliendi tuvastamise protseduur).
-
+Bull Bitcoin ව්‍යාජ ගාස්තු නොමැතිව පැහැදිලි සේවාවක් සැපයීමට කැපවී ඇත. බොහෝ හුවමාරු වේදිකාවන් මෙන්ම, Bull Bitcoin භාවිතා කිරීම සඳහා KYC (පාරිභෝගිකයා හඳුනා ගැනීමේ ක්‍රියාවලිය) අවශ්‍ය වේ.
 
 ## Bull Bitcoin تي رجسٽر ٿيو
 
@@ -186,7 +183,7 @@ Preden začnete kupovati in prodajati Bitcoin na Bull, je pomembno razumeti, da 
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Lahko tudi raziščete [naše podrobne vadnice o najboljših denarnicah Bitcoin](https://planb.network/tutorials/Wallet).
+Lahko tudi raziščete [naše podrobne vadnice o najboljših denarnicah Bitcoin](https://planb.network/tutorials/wallet).
 
 
 පසුව "*Confirm Buy*" මත ක්ලික් කිරීමෙන් ඔබේ මිලදී ගැනීම තහවුරු කරන්න.

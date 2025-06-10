@@ -1,0 +1,8 @@
+question: هدف اصلی Lightning Network چیست؟
+answer: برای تسهیل تراکنش‌های خرد.
+wrong_answers:
+  - برای افزایش ارزش Bitcoin.
+  - برای جایگزینی پروتکل Bitcoin.
+  - برای ایجاد یک ارز دیجیتال جدید.
+explanation: >-
+reviewed: true

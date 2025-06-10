@@ -1,0 +1,8 @@
+question: Který filozof psal do Ephémérides du Citoyen, časopisu fyziokratů?
+answer: Diderot
+wrong_answers:
+  - Voltaire
+  - Condorcet
+  - Rousseau
+explanation: |
+  Diderot přispíval do časopisu "Éphémérides du Citoyen", který vydávali fyziokraté, a psal články na ekonomická a sociální témata.

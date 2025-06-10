@@ -156,6 +156,12 @@ proofreading:
     contributor_names:
       - Showyuan
     reward: 13.68
+  - language: fa
+    last_contribution_date: 2025-05-24
+    urgency: 1
+    contributor_names:
+      - Arshia-r-m
+    reward: 10.86
 tags:
   - user-friendly
   - wallets

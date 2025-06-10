@@ -70,6 +70,7 @@ Nota che se utilizzi un nodo Bitcoin Core ["pruned"](https://planb.network/resou
 Per configurare un nodo Bitcoin Core, puoi consultare uno dei seguenti tutorial, a seconda del sistema operativo che utilizzi:
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Su Sparrow, vai alla scheda "*Bitcoin Core*".
@@ -167,7 +168,7 @@ La connessione è stabilita. Nell'angolo in basso a destra apparirà un segno di
 
 L'ultima opzione di connessione è l'utilizzo di un server Electrum da remoto. Questo metodo consente di connettersi al proprio nodo via Tor da un altro dispositivo e di sfruttare un indicizzatore per cercare più rapidamente i wallet su Sparrow. È particolarmente indicato se disponi di una soluzione node-in-a-box come Umbrel o Start9, che consentono di installare Electrum con un solo clic.
 
-Per farlo, procurati il Tor `.onion' Address del tuo server Electrum. Con Umbrel, ad esempio, lo trovi nell'applicazione Electrs.
+Per farlo, procurati il Tor `.onion` Address del tuo server Electrum. Con Umbrel, ad esempio, lo trovi nell'applicazione Electrs.
 
 ![Image](assets/fr/17.webp)
 

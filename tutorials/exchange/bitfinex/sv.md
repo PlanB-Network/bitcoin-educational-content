@@ -247,7 +247,7 @@ Om du är intresserad av Lightning Network har vi också en komplett utbildning 
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Efter att ha köpt dina första bitcoins har du självklart möjlighet att lämna dem på plattformen, men jag rekommenderar starkt att du överför dem till din egen Wallet i självförvaring. Om du ännu inte vet hur man använder en Bitcoin Wallet, inbjuder jag dig att utforska [avsnittet "Wallet" på Plan ₿ Network] (https://planb.network/tutorials/Wallet).
+Efter att ha köpt dina första bitcoins har du självklart möjlighet att lämna dem på plattformen, men jag rekommenderar starkt att du överför dem till din egen Wallet i självförvaring. Om du ännu inte vet hur man använder en Bitcoin Wallet, inbjuder jag dig att utforska [avsnittet "Wallet" på Plan ₿ Network] (https://planb.network/tutorials/wallet).
 
 
 ## 6 - Köpa och sälja bitcoins på Bitfinex

@@ -1,0 +1,8 @@
+question: Millist ideed on nimetatud Montaigne'i sofismiks?
+answer: Exchange on nullsummaline mäng
+wrong_answers:
+  - Exchange on positiivse summaga mäng
+  - Sõltuvalt ajast ja kohast on Exchange mõnikord nullsummaline mäng, mõnikord aga positiivsummaline mäng
+  - Exchange on alati nõrgemale poolele ebasoodne
+explanation: |
+  Montaigne'i eksitus on idee, et Exchange on nullsummamäng, st mida üks võidab, seda kaotab teine. See idee on vale, sest vabatahtlik Exchange on vastastikku kasulik.

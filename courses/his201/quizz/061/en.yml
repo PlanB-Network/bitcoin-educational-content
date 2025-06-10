@@ -5,5 +5,5 @@ wrong_answers:
   - gethash
   - getcredit
 explanation: |
-  It was published on October 1st. Satoshi included a modified version of this function in the main software on November 23rd.
-reviewed: false
+  It was published on October 1st. On November 23rd, Satoshi included a modified version of this function in the main software.
+reviewed: true

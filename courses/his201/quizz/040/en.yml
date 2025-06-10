@@ -5,5 +5,5 @@ wrong_answers:
   - 110,000
   - 11,000
 explanation: |
-   1,122,693 bitcoins according to a study by Whale Alert published in 2020. Satoshi ceased his mining activities in May 2010.
-reviewed: false
+   1,122,693 bitcoins, according to a study by Whale Alert published in 2020. Satoshi ceased his mining activities in May 2010.
+reviewed: true

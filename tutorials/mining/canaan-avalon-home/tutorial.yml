@@ -1,0 +1,25 @@
+id: 3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+
+project_id: 99807c56-f50b-4aa2-a0e2-9259ea6184ec
+
+tags:
+  - proof-of-work
+  - mining
+  - hardware
+
+category: hardware
+
+level: beginner
+
+professor_id: c7108417-5ba9-455e-b467-775cac83c9b5
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-29
+    urgency: 1
+    contributor_names:
+      - Skyman21m
+    reward: 0

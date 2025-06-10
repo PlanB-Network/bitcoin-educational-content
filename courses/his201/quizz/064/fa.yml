@@ -1,0 +1,9 @@
+question: نویسنده اولین مقاله معرفی Bitcoin که به زبان فرانسوی منتشر شد چه کسی بود؟
+answer: لوسین گروندین (grondilu)
+wrong_answers:
+  - لیونل دریکو (پلوم)
+  - آمائوری سشه (deadalnix)
+  - دیوید فرانسوا (داوو)
+explanation: |
+  این یک [متن](https: //linuxfr.org/news/connaissez-vous-les-bitcoins) بود که در ۳۰ سپتامبر ۲۰۱۰ در LinuxFr.org با عنوان آیا بیت‌کوین‌ها را می‌شناسید؟ منتشر شد.
+reviewed: false

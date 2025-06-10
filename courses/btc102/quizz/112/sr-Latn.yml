@@ -1,9 +1,0 @@
-question: Koja je svrha Cold Wallet u Bitcoin?
-answer: Da sigurno čuvate Bitcoine.
-wrong_answers:
-  - Da se iskopaju novi Bitcoini.
-  - Da trgujete Bitcoinima.
-  - Da konvertujete Bitcoine u druge kriptovalute.
-explanation: |
-  Cold Wallet, takođe poznat kao Hardware Wallet, je uređaj dizajniran za sigurno čuvanje Bitcoina. Ne koristi se za Mining nove Bitcoine, trgovanje Bitcoinima, ili konvertovanje Bitcoina u druge kriptovalute.
-reviewed: false

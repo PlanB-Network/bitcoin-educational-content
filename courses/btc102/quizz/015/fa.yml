@@ -1,0 +1,9 @@
+question: کدام سیستم معاملات سریع و کم‌هزینه را در Bitcoin امکان‌پذیر می‌کند؟
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - شبکه ریپل
+  - RGB
+explanation: |
+  Lightning Network یک راه‌حل دوم-Layer است که امکان تسویه سریع را فراهم می‌کند و هزینه تراکنش‌های BTC را کاهش می‌دهد.
+reviewed: false

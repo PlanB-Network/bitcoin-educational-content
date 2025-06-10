@@ -57,7 +57,7 @@ Lightning Networkの完全な理論的入門については、専用コースを
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 このコースでは、Lightning Networkの基本的なコンセプトを徹底的に学び、LNDノードの練習に進みます。
 

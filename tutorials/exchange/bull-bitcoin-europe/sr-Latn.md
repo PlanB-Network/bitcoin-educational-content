@@ -1,5 +1,5 @@
 ---
-name: Bull Bitcoin Europe
+name: Bull Bitcoin
 description: Kupite i prodajte bitkoine na Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
@@ -7,12 +7,9 @@ description: Kupite i prodajte bitkoine na Bull Bitcoin
 
 Bull Bitcoin je Bitcoin-only Exchange platforma osnovana 2013. godine u Kanadi od strane Francisa Pouliota, ikonične figure u Bitcoin ekosistemu. Filozofija Bull Bitcoin je da korisnicima ponudi alate za finansijski suverenitet i emancipaciju. Exchange platforma je ne-kustodijalna, što znači da uvek ostajete suvereni nad svojim Bitcoinima.
 
+Prvobitno dostupna samo u Kanadi, platforma je sada dostupna u Evropi i mnogim drugim zemljama sa potpuno novim, optimizovanim interfejsom. Ova nova verzija Bull Bitcoin omogućava jednostavno i brzo kupovanje i prodavanje bitkoina korišćenjem Lightning mreže i trenutnih SEPA transfera. Takođe integriše plaćanje računa u bitkoinima. U budućnosti, platforma će uključiti opcije DCA, automatske kupovine i limitirane naloge.
 
-U početku dostupna samo u Kanadi, platforma je sada dostupna u Evropi, sa potpuno novim, optimizovanim Interface. Ova nova verzija Bull Bitcoin trenutno je dostupna samo u Evropi. Omogućava vam da brzo i lako kupujete i prodajete bitkoine, zahvaljujući upotrebi Lightning-a i trenutnim SEPA transferima. Na kraju, platforma će takođe uključivati opcije za DCA, automatske kupovine, limitirane naloge i plaćanje računa u bitkoinima.
-
-
-Bull Bitcoin naglašava pružanje transparentne usluge bez skrivenih troškova. Kao i sve druge Exchange platforme u Evropi, korišćenje Bull Bitcoin zahteva KYC (procedura identifikacije klijenata).
-
+Bull Bitcoin se ponosi pružanjem transparentne usluge bez skrivenih troškova. Imajte na umu da, kao i većina berzi, korišćenje Bull Bitcoin zahteva sprovođenje KYC (procedura identifikacije klijenata).
 
 ## Registrujte se na Bull Bitcoin
 

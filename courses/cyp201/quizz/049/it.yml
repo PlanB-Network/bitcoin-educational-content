@@ -1,9 +1,9 @@
-question: Qual è lo scopo della frase mnemonica in un portafoglio Bitcoin HD?
+question: Qual è lo scopo della frase mnemonica in un wallet HD?
 answer: Derivare deterministicamente tutte le chiavi
 wrong_answers:
   - Firmare direttamente le transazioni
   - Criptare gli indirizzi Bitcoin
   - Generare un hash per gli UTXO
 explanation: |
-  La frase mnemonica consente la derivazione di tutte le chiavi private e pubbliche in un portafoglio, facilitando così il backup e il recupero.
+  La frase mnemonica consente la derivazione di tutte le chiavi private e pubbliche del wallet, facilitando così il backup e il ripristino.
 reviewed: false

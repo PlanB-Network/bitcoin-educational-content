@@ -1,7 +1,7 @@
-question: Perché l'irreversibilità è garantita in SHA256?
+question: Perché è garantita l'irreversibilità in SHA256?
 answer: Le operazioni utilizzate rimuovono informazioni e sono unidirezionali
 wrong_answers:
-  - I messaggi vengono criptati prima dell'hashing
+  - I messaggi vengono cifrati prima dell'hashing
   - I bit vengono riorganizzati casualmente
   - Ogni hash viene memorizzato in un database
 explanation: |

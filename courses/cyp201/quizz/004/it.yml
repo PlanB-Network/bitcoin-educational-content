@@ -1,9 +1,9 @@
-question: Quale combinazione di funzioni hash viene utilizzata per generare impronte digitali più corte in Bitcoin?
+question: Nel protocollo Bitcoin quale combinazione di funzioni hash viene utilizzata per generare impronte digitali più corte?
 answer: HASH160
 wrong_answers:
   - SHA512-SHA256
   - HASH256
   - SHA160
 explanation: |
-  HASH160 combina SHA256 e RIPEMD160 per generare impronte digitali di 160 bit, notevolmente per gli indirizzi Bitcoin.
+  HASH160 combina SHA256 e RIPEMD160 per generare impronte digitali di 160 bit, principalmente nella derivazione degli indirizzi Bitcoin.
 reviewed: false

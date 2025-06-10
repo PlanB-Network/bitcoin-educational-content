@@ -11,7 +11,7 @@ objectives:
 ---
 # Costruire su Liquid Network ed Elements
 
-Scoprite le caratteristiche e le funzionalità avanzate di Liquid Network ed Elements e imparate a utilizzare efficacemente questi strumenti per migliorare i vostri progetti di sviluppo. Questa formazione fornisce una base teorica e pratica completa, consentendovi di padroneggiare funzionalità quali "Confidential Transaction", "Issued Asset" e "Federated Block Signing" (Firma federata dei blocchi).
+Scoprirete le caratteristiche e le funzionalità avanzate di Liquid Network ed Elements e imparerete a utilizzare efficacemente questi strumenti per migliorare i vostri progetti di sviluppo. Questa formazione fornisce una base teorica e pratica completa, consentendovi di padroneggiare funzionalità quali "Confidential Transaction", "Issued Asset" e "Federated Block Signing" (Firma federata dei blocchi).
 
 Liquid, basato sul framework Elements, è progettato per migliorare la privacy, la scalabilità e la funzionalità delle soluzioni finanziarie e tecniche. In questo corso, acquisirete esperienza pratica con l'emissione e la gestione di asset, il "Federated 2-Way Peg" (Ancoraggio Federato bidirezionale) e l'uso di strumenti come `elementsd` ed `elements-cli`, consentendovi di creare soluzioni innovative su misura per le vostre esigenze.
 
@@ -32,9 +32,9 @@ Unisciti a noi per elevare le tue competenze, sbloccare il pieno potenziale di L
 
 Benvenuto al corso SID202!
 
-L'obiettivo di *Elements Academy* è di presentare e spiegare i concetti chiave di *Elements*, la piattaforma open-source su cui è costruita la sidechain Liquid. Al termine di questo corso, dovresti possedere una solida comprensione delle principali funzionalità di Elements, come le transazioni confidenziali e gli asset emessi, nonché dei processi coinvolti nel funzionamento di Elements Core. Ogni sezione del corso comprende lezioni con testi esplicativi e video, che si concludono con un quiz.
+L'obiettivo di *Elements Academy* è di presentare e spiegare i concetti chiave di *Elements*, la piattaforma open-source su cui è costruita la sidechain Liquid. Al termine di questo corso, dovresti possedere una solida comprensione delle principali funzionalità di Elements, come le confidential transactions e gli issued assets, nonché dei processi coinvolti nel funzionamento di Elements Core. Ogni sezione del corso comprende lezioni con testi esplicativi e video, che si concludono con un quiz.
 
-Questo corso mira a insegnarti come utilizzare e sviluppare con la piattaforma open-source Elements, con un'enfasi sulla rete Liquid. Scoprirai come queste tecnologie possano migliorare la privacy, la scalabilità e le funzionalità dei tuoi progetti di sviluppo. Che tu sia un principiante o uno sviluppatore esperto, questo corso ti fornirà una solida base per padroneggiare i concetti fondamentali di Elements e Liquid e le loro applicazioni pratiche.
+Questo corso mira a insegnarti come utilizzare e sviluppare con la piattaforma open-source Elements, con focus sulla rete Liquid. Scoprirai come queste tecnologie possano migliorare la privacy, la scalabilità e le funzionalità dei tuoi progetti di sviluppo. Che tu sia un principiante o uno sviluppatore esperto, questo corso ti fornirà una solida base per padroneggiare i concetti fondamentali di Elements e Liquid e le loro applicazioni pratiche.
 
 **Sezione 1: Introduzione**  
 Inizieremo con una panoramica completa dei concetti di Elements. Imparerai come questa piattaforma è stata progettata per fornire una base modulare e flessibile per la creazione di sidechain come Liquid. L'obiettivo è comprendere la struttura di Elements prima di passare alle applicazioni pratiche.
@@ -56,9 +56,9 @@ Pronto a scoprire il potenziale di Elements e della sidechain Liquid? Iniziamo!
 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
-Elements è una ["sidechain"](https://planb.network/resources/glossary/sidechain) collegata a una piattaforma blockchain, che consente di accedere a potenti funzionalità sviluppate dai membri della comunità, come le ["Confidential Transaction"](https://elementsproject.org/features/confidential-transactions) e le ["Issued Assets"](https://elementsproject.org/features#issuedassets).
+Elements è una ["sidechain"](https://planb.network/resources/glossary/sidechain) open source collegata a una piattaforma blockchain, che consente di accedere a potenti funzionalità sviluppate dai membri della comunità, come le ["Confidential Transaction"](https://elementsproject.org/features/confidential-transactions) e le ["Issued Assets"](https://elementsproject.org/features#issuedassets).
 
-Elements è, nella sua essenza, un protocollo che consente di ottenere il consenso riguardo alla storia delle transazioni e alle regole che governano il trasferimento e la creazione di asset memorizzati in un libro mastro distribuito della blockchain.
+Elements, nella sua essenza, è un protocollo che consente di ottenere il consenso riguardo alla storia delle transazioni e alle regole che governano il trasferimento e la creazione di asset memorizzati in un libro mastro distribuito della blockchain.
 
 Ulteriori informazioni di base su Elements sono disponibili sul sito web del progetto Elements (https://elementsproject.org/), sul blog ufficiale di Liquid (https://blog.liquid.net/) e sul portale degli sviluppatori (https://liquid.net/devs).
 
@@ -66,7 +66,7 @@ Ulteriori informazioni di base su Elements sono disponibili sul sito web del pro
 
 Lanciato nel 2015, Elements riduce i costi interni di sviluppo e ricerca e sfrutta la più recente tecnologia blockchain, aprendo molti nuovi casi d'uso per la sua implementazione. Una blockchain basata su Elements può funzionare come blockchain indipendente o essere collegata a un'altra e funzionare come sidechain. L'esecuzione di Elements come Sidechain consente di trasferire in modo verificabile gli asset tra blockchain diverse.
 
-Elements è stato sviluppato sulle basi del codice di Bitcoin, che è stato poi arricchito, e consente agli sviluppatori che hanno familiarità con l'API di Bitcoin di creare rapidamente, e a costi contenuti, blockchain funzionanti, e anche di testare progetti "proof-of-concept" (la proof-of-concept è una prova ottenuta da un progetto pilota, che viene eseguito per dimostrare che un prodotto, o un progetto, è realizzabile). Essendo costruito sulla base del codice di Bitcoin, Elements può anche funzionare come banco di prova per le modifiche al protocollo Bitcoin stesso.
+Elements è stato sviluppato sulle basi del codice di Bitcoin, che è stato poi sviluppato, e consente agli sviluppatori di familiarizzare con l'_API bitcoind_ in modo rapido e a costi contenuti, per creare blockchain funzionanti e anche di testare progetti "proof-of-concept" (la proof-of-concept è una prova ottenuta da un progetto pilota, che viene eseguito per dimostrare che un prodotto, o un progetto, è realizzabile). Essendo costruito sulla base del codice di Bitcoin, Elements può anche funzionare come banco di prova per le modifiche al protocollo Bitcoin stesso.
 
 Di seguito sono elencate alcune delle caratteristiche principali di Elements.
 

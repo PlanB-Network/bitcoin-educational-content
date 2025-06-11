@@ -1472,8 +1472,167 @@ Cette autonomie technique constitue le socle indispensable pour aborder sereinem
 # Sécuriser son ordinateur
 <partId>7fda3e41-ff0e-4fa0-8bd5-350d9ad5bbec</partId>
 
-## Authentification et cloisonnement des usages
+## Authentification et cloisonnement
 <chapterId>c8350e86-5581-4d51-8207-fd4ee48502a7</chapterId>
+
+La sécurité de votre ordinateur commence avec deux concepts importants en cybersécurité : l'authentification et le cloisonnement. Ces deux approches constituent la base pour protéger efficacement votre machine, préserver votre confidentialité et assurer votre souveraineté numérique. Dans ce chapitre, nous allons explorer en profondeur comment gérer ces aspects sur votre ordinateur.
+
+### Protéger l'accès à votre ordinateur
+
+Protéger l’accès physique et logiciel à votre ordinateur est la base de sa sécurisation. Une machine non sécurisée peut facilement devenir un point d’entrée pour un attaquant ou permettre une fuite de données sensibles, même sans connexion Internet. Que vous utilisiez Windows, macOS ou Linux, plusieurs mesures de base doivent être mises en place pour limiter les risques d’accès non autorisé.
+
+#### Mot de passe du système d’exploitation
+
+Le mot de passe de session (celui qui vous est demandé au démarrage ou à la sortie de veille) constitue la première barrière de protection contre les tentatives d’intrusion. Il permet d'empêcher qu’un tiers puisse accéder à vos données ou manipuler votre système si votre machine est volée ou laissée sans surveillance.
+
+Ce mot de passe doit être fort :
+- Il doit être suffisamment long. Je vous conseille actuellement (juin 2025) au minimum 20 caractères ;
+- Il doit combiner des lettres majuscules et minuscules, des chiffres et des caractères spéciaux ;
+- Il doit être le plus aléatoire possible, sans contenir le moindre lien avec des éléments de votre environnement direct ou indirect, tels qu’un nom, une date ou un lieu.
+
+201
+
+*Source : [Hive Systems](https://www.hivesystems.com/)*
+
+Un mot de passe complexe est forcément difficile à mémoriser. Je vous recommande donc d’utiliser un gestionnaire de mots de passe comme Bitwarden ou KeePass.
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
+Enfin, changez ce mot de passe régulièrement, environ tous les 3 à 6 mois, surtout si votre machine est utilisée dans des environnements partagés ou mobiles.
+
+#### Sécuriser l’accès au BIOS/UEFI
+
+La sécurité de votre ordinateur ne commence pas une fois le système d’exploitation lancé, mais dès les premiers instants du démarrage. Avant même que Windows, Linux ou macOS ne s’exécute, un programme intégré à la carte mère que l'on appelle BIOS ou UEFI, selon la génération de votre machine, prend le contrôle de la machine pour initialiser le matériel et lancer le processus de démarrage.
+
+Le BIOS (*Basic Input/Output System*) est le prédécesseur de l’UEFI (*Unified Extensible Firmware Interface*). L’UEFI est aujourd’hui le standard sur tous les ordinateurs modernes.
+
+Par défaut, l’accès à ces paramètres n’est pas protégé. Un attaquant disposant d’un accès physique à votre machine (dans un espace partagé, en cas de vol ou même temporairement à votre insu) pourrait entrer dans l’interface UEFI et modifier des réglages critiques. Il pourrait par exemple :
+- Désactiver le chiffrement du disque ou en effacer la clé de déchiffrement ;
+- Changer l’ordre de démarrage pour forcer le lancement d’un système externe depuis une clé USB ;
+- Désactiver des mécanismes de sécurité comme le démarrage sécurisé ;
+- Installer un malware au niveau du firmware de votre ordinateur...
+
+Pour vous protéger contre ces attaques offline, il est important de verrouiller l’accès au BIOS/UEFI par un mot de passe. Ce mot de passe est distinct de celui de votre système d’exploitation et empêche tout accès au BIOS/UEFI sans autorisation.
+
+Pour l’activer, cela va dépendre de votre modèle de carte mère, mais généralement il faut :
+- Redémarrer votre ordinateur ;
+- Juste après l’allumage, appuyer rapidement sur la touche spécifique à votre machine d'accès au BIOS/UEFI (`Del`, `F2`, `F10`, `Esc`...) ;
+- Dans l’interface qui s’affiche, rechercher les options de sécurité ou de mot de passe administrateur ;
+- Définir un mot de passe long, unique et aléatoire, puis faire une sauvegarde de ce mot de passe ;
+- Sauvegarder les changements et redémarrer l'ordinateur.
+
+203
+
+**Attention :** si vous perdez ce mot de passe, vous allez être bloqué et vous allez devoir réinitialiser la carte mère. Conservez donc bien ce mot de passe dans un gestionnaire de mots de passe ou dans un lieu physique sécurisé.
+
+En complément, activez la fonction "Secure Boot" si elle est disponible et pas encore activée. Ce mécanisme empêche tout code non signé ou altéré de s’exécuter au démarrage. C'est conçu pour bloquer les bootkits et rootkits, des types de malwares qui infectent l’amorçage de l’ordinateur, avant même que l’OS ne démarre.
+
+Sécuriser l’UEFI est une mesure souvent négligée mais absolument cruciale pour protéger votre machine contre des attaques avancées. C’est l’un des rares remparts contre les intrusions physiques ou les manipulations pré-système.
+
+#### Sécuriser l'accès physique à l'ordinateur
+
+La sécurisation d’un poste de travail ne se limite pas aux protections logicielles : si un individu malveillant accède physiquement à votre machine, il peut contourner bon nombre de barrières, ou compromettre le système à votre insu. C'est particulièrement vrai pour les ordinateurs portables, facilement transportables, mais également pour tout appareil laissé dans un espace partagé, ouvert au public ou même simplement accessible à d’autres personnes.
+
+L’un des risques les plus courants (mais sous-estimé) est de laisser un ordinateur sans surveillance, même pour quelques minutes, dans des lieux publiques comme une bibliothèque, une conférence, un open space, ou encore un hall d’hôtel. Il ne s’agit pas seulement d’un risque de vol de l'appareil : en quelques secondes, une personne malveillante peut y connecter une clé USB malveillante, installer un logiciel espion, modifier les paramètres de démarrage pour forcer un boot externe, ou capturer des identifiants en injectant keylogger matériel.
+
+Dans la même optique, je vous déconseille d’utiliser des accessoires ou périphériques externes non maîtrisés. Évitez d’insérer dans votre ordinateur une clé USB, un disque dur externe, un chargeur ou encore un dongle si l’origine de ces objets n’est pas connue (neuf ou appartenant à une personne de confiance). Certains accessoires apparemment anodins peuvent contenir des circuits capables d’exécuter des commandes malicieuses dès leur branchement. Inversement, ne prêtez pas vos propres accessoires ni ne les laissez sans surveillance dans des lieux accessibles : ils pourraient être échangés contre des versions compromises.
+
+Pour limiter les risques de vol physique, vous pouvez équiper un ordinateur fixe d’un système de verrouillage physique. La plupart des PC professionnels disposent d’un port de sécurité Kensington, permettant d’y fixer un câble d’ancrage en acier, que l’on attache à un élément fixe du mobilier. Il existe également des variantes pour les ordinateurs portables. Ces dispositifs n’offrent évidemment pas une protection absolue contre le vol, mais ils suffisent à dissuader les attaques opportunistes.
+
+202
+
+Par ailleurs, éteignez systématiquement votre machine lorsque vous vous absentez, surtout dans un environnement non sécurisé. Contrairement à la simple veille, un arrêt complet empêche le chargement de l’OS et protège contre certaines attaques ciblant la mémoire vive. Cela permet également d'activer la sécurité de votre BIOS/UEFI.
+
+Enfin, l’une des mesures les plus importantes pour vous protéger du vol est d’activer le chiffrement complet du disque. Cela protège vos données en les rendant inaccessibles sans mot de passe, même si le disque est extrait et branché sur une autre machine. Sur certains systèmes, ce chiffrement est activé par défaut :
+- macOS utilise FileVault ;
+- Windows utilise BitLocker, mais son activation dépend des machines et des versions de l'OS ;
+- Les distributions Linux ne chiffrent pas automatiquement le disque, sauf si l’option est choisie à l’installation. Vous pouvez utiliser LUKS pour chiffrer le disque.
+
+Dans tous les cas, le mot de passe de déchiffrement doit être fort, distinct de celui du système, et stocké dans un gestionnaire sécurisé. Si vous utilisez un disque externe ou une clé USB contenant des données sensibles, pensez également à les chiffrer individuellement avec des outils comme VeraCrypt.
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
+### Le principe du moindre privilège
+
+Le principe du moindre privilège est une règle fondamentale en cybersécurité selon laquelle chaque entité (un utilisateur humain, un logiciel, un processus système...) ne doit disposer que des droits strictement nécessaires à l’accomplissement de ses tâches. Autrement dit, il ne faut jamais accorder plus d'autorisations que nécessaire, car chaque permission supplémentaire augmente la surface d'attaque du système.
+
+Concrètement, sur votre ordinateur personnel, cela signifie que votre compte d’utilisateur principal ne doit pas avoir les droits administrateur pour les activités courantes : navigation web, consultation de mails, bureautique... En effet, si un logiciel malveillant est exécuté par un compte avec des droits élevés, il pourra modifier les fichiers système, installer des services persistants, ou désactiver les protections de sécurité. À l’inverse, s’il est exécuté dans un environnement restreint, ses capacités de nuisance seront limitées.
+
+Sur Windows, la plupart des utilisateurs ont par défaut un compte administrateur, alors que c'est une mauvaise pratique. Je vous recommande de créer un compte utilisateur standard pour vos usages quotidiens, et de laisser le compte administrateur pour les opérations qui en ont vraiment besoin. Lorsque vous essayez d’effectuer une tâche qui a besoin des privilèges élevés, Windows vous demandera simplement de saisir le mot de passe de l’administrateur plutôt que de simplement cliquer sur le bouton "*YES*".
+
+204
+
+Sous Linux, ce principe du moindre privilège est mieux appliqué par défaut. Vous avez par défaut un compte utilisateur avec des droits limités et vous pouvez élever vos privilèges temporairement avec la commande `sudo`. Cette commande permet d'exécuter une tâche spécifique avec les droits root, sans avoir à se connecter avec le compte *superuser*. Il est également possible de configurer `sudo` pour n’autoriser que certaines commandes selon les utilisateurs (via `/etc/sudoers`).
+
+![Image](assets/fr/064.webp)
+
+Sur macOS, bien que le premier compte créé dispose souvent de droits administratifs, le système utilise un mécanisme similaire à `sudo` : vous devez confirmer vos actions par mot de passe pour toute opération critique. Néanmoins, il est tout à fait possible de créer un compte utilisateur standard et de réserver le compte administrateur à un usage ponctuel, ce que je vous recommande si l’ordinateur est utilisé par plusieurs personnes.
+
+Ce cloisonnement ne concerne pas uniquement les utilisateurs humains. De nombreuses applications demandent des privilèges élevés à l’installation, puis continuent de fonctionner avec ces droits alors qu’ils ne sont plus nécessaires. Je vous conseille donc, dans la mesure du possible, de préférer les applications qui s’exécutent en mode utilisateur, de désinstaller les logiciels que vous n'utilisez plus et d’être vigilant lors des demandes d’élévation de privilèges.
+
+### Multisession : séparation des environnements
+
+Au-delà de la séparation entre comptes administrateurs et comptes standards, une bonne pratique complémentaire consiste à créer plusieurs sessions utilisateur distinctes sur un même ordinateur pour cloisonner les usages selon leur nature. Cette approche repose sur une logique simple : en compartimentant vos activités dans des environnements séparés, vous réduisez la surface d’attaque globale et limitez les conséquences d’un éventuel incident de sécurité.
+
+Tous les systèmes d’exploitation modernes permettent la création de plusieurs comptes utilisateur sur une même machine. Ces comptes disposent chacun de leur propre espace personnel : fichiers, applications, paramètres et sessions réseau ne sont pas partagés entre eux, sauf autorisation explicite.
+
+Par exemple, vous pourriez structurer vos sessions de cette manière :
+- Un compte dédié à votre activité professionnelle, où vous n’installez que les logiciels strictement nécessaires (suites bureautiques, outils de collaboration, messageries professionnelles...). Cette session ne doit pas servir à naviguer librement sur le web ni à tester des logiciels ;
+- Un compte pour les usages personnels, utilisé pour la navigation web quotidienne, les réseaux sociaux, le streaming, ou l’installation d’applications grand public. C’est typiquement la session la plus exposée aux attaques via le navigateur ou les téléchargements douteux ;
+- Un compte réservé aux activités sensibles, comme la consultation de comptes bancaires, la gestion de vos portefeuilles Bitcoin, ou tout autre usage qui nécessite un haut niveau de sécurité. Ce compte doit être utilisé exclusivement pour ces tâches, en limitant les logiciels installés au strict nécessaire et avec une configuration réseau plus stricte ;
+- Un compte invité ou fortement restreint, destiné exclusivement à un usage ponctuel par les membres de votre famille par exemple. Ce compte doit évidemment ne pas avoir de droits administrateurs et être limité dans ses accès.
+
+Il y a plusieurs intérêts à adopter cette approche. D’abord, les applications installées dans une session ne peuvent pas interférer avec celles des autres (sauf élévation de privilège). Ensuite, si une session est compromise, par exemple via un malware téléchargé, l’impact est généralement contenu dans les limites de ce compte. Cela signifie que vos documents professionnels ou vos portefeuilles Bitcoin resteront inaccessibles au logiciel malveillant si ceux-ci sont conservés dans une autre session correctement isolée.
+
+Sur Linux, cette séparation peut être renforcée par des mécanismes comme AppArmor ou SELinux, qui permettent de restreindre plus finement les droits d’accès de chaque session.
+
+205
+
+Il est important de noter que la multisession ne remplace pas l’usage d’un compte non administrateur, ni l’application du principe du moindre privilège. Elle vient le compléter en ajoutant une couche d’isolation logique, simple à mettre en place et particulièrement efficace pour un usage familial ou professionnel hybride.
+
+Enfin, une autre approche, plus radicale mais particulièrement efficace, consiste à consacrer un ordinateur distinct à chaque usage, par exemple : un laptop dédié exclusivement à l’activité professionnelle, un autre pour un usage personnel, et un troisième simple et bien sécurisé réservé aux activités sensibles.
+
+### Les machines virtuelles
+
+Les machines virtuelles (ou "VM") permettent de créer des environnements totalement isolés au sein de votre ordinateur. Une VM simule un ordinateur indépendant avec son propre système d’exploitation, ses propres applications et ses propres réglages, mais fonctionne en réalité comme un programme exécuté sur votre machine principale.
+
+Cette technologie repose sur un hyperviseur, un logiciel qui gère la création et l’exécution des VM. La solution la plus connue est VirtualBox, un logiciel open-source et multiplateforme. Il permet de créer facilement une VM en quelques clics en lui attribuant des ressources spécifiques.
+
+206
+
+En termes de sécurité informatique, un des grands avantages des machines virtuelles est leur capacité de cloisonnement. Une VM ne partage ni ses fichiers, ni ses processus, ni ses accès réseau avec le système hôte, sauf si vous configurez explicitement ces échanges. Donc si une VM est infectée par un malware ou si vous testez un logiciel sensible à l’intérieur, l’impact reste confiné à cette machine virtuelle : votre système principal reste intact, à condition que les paramètres d’isolation soient bien respectés (pas de dossiers partagés, pas de périphériques USB passés à la VM...).
+
+Une VM peut vous permettre de tester des logiciels suspects : si vous téléchargez un programme depuis une source peu fiable ou un site douteux, vous pouvez d’abord l'executer dans une VM pour observer son comportement en toute sécurité. Cela  peut aussi être utile pour naviguer sur des sites à risque : vous pouvez dédier une VM à la consultation de contenus web sensibles ou inconnus, ce qui réduit les chances d’attaques par scripts malveillants ou d’exploitation de vulnérabilités du navigateur. En bref : utiliser une VM vous permet d'isoler facilement un usage spécifique du reste de votre système.
+
+Enfin, il est important de comprendre que la sécurité apportée par les VM dépend de leur bonne configuration. Par défaut, certains hyperviseurs autorisent les échanges de fichiers entre l’hôte et la VM, ou permettent l’accès aux périphériques USB. Ces fonctions doivent être désactivées pour maximiser l’isolation.
+
+### Le Sandboxing
+
+Le sandboxing est une méthode de sécurité informatique qui consiste à exécuter une application ou un processus dans un environnement isolé et fortement restreint. L’objectif est de limiter strictement les interactions de cette application avec le reste du système. Si une menace survient, ses effets sont normalement contenus dans ce périmètre.
+
+Contrairement aux machines virtuelles, qui simulent un système d’exploitation complet avec ses propres ressources, le sandboxing est plus léger, plus rapide à déployer, et moins gourmand en ressources. Il repose sur des mécanismes de limitation des droits d’accès : à la mémoire, aux fichiers, au réseau, aux périphériques… Une application sandboxée peut, par exemple, lire un fichier temporaire mais ne jamais accéder à votre dossier personnel ou à votre système de fichiers.
+
+Voici quelques solutions concrètes pour faire du sandboxing en fonction de votre OS :
+
+**Windows** :
+- Windows Sandbox (uniquement disponible dans Windows 10/11 Pro et Entreprise) ;
+- Sandboxie Plus (open-source).
+
+**Linux** :
+- Firejail : un outil puissant et léger qui isole les applications à l’aide de profils prédéfinis. Il fonctionne bien avec de nombreux logiciels comme Firefox, VLC ou Telegram ;
+- Flatpak : comme nous avons déjà vu précédemment, ce n'est pas un logiciel de sanboxing en soit, mais un gestionnaire de paquet logiciel qui intègre du sandboxing : chaque application installée via Flatpak est isolée du système hôte par défaut, avec un contrôle fin des permissions (accès au micro, à la caméra, au réseau...).
+
+**macOS** :
+- Sur macOS le sandboxing est une fonctionnalité native intégrée au noyau, mais il n’est activé que si le développeur du logiciel le spécifie. Les applications de l'App Store sont automatiquement sandboxées, mais celles installées depuis le web (ou en ligne de commande) ne le sont pas par défaut.
+
+Enfin, même si le sandboxing offre une couche de protection efficace, il est important de comprendre qu'il ne remplace pas entièrement une VM ou un système bien cloisonné.
+
+Maintenant que nous avons abordé la sécurité de votre ordinateur via l’authentification et le cloisonnement des usages, dans le prochain chapitre, nous allons nous intéresser aux bonnes pratiques de maintenance pour renforcer encore davantage sa sécurité.
+
+
+
 
 
 

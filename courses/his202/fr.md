@@ -548,7 +548,7 @@ Peu à peu, le prix remonte pour dépasser à nouveau 4 $ fin décembre, si bie
 
 ### BitInstant, la plaque tournante du change en bitcoins
 
-Les plateformes de change se multiplient. Outre celles lancées pendant la phase haussière de la bulle, on voit plusieurs autres platefromes émerger pendant l'été. C'est le cas de BTC-e, [lancée](https://bitcointalk.org/index.php?topic=29698.msg437237#msg437237)) par les Russes Alexander Vinnik et Aleksandr Bilyuchenko le 7 août ; de Bitstamp, [mise en ligne](https://web.archive.org/web/20140430233930/https://bitcointalk.org/index.php?topic=20292.220) par les Slovènes Nejc Kodrič et Damijan Merlak le 19 août ; et de Crypto X Change, [inaugurée](https://bitcointalk.org/index.php?topic=51457.msg613057#msg613057) le 10 novembre par les Australiens Ken et Colin Armitt.
+Les plateformes de change se multiplient. Outre celles lancées pendant la phase haussière de la bulle, on voit plusieurs autres platefromes émerger pendant l'été. C'est le cas de BTC-e, [lancée](https://bitcointalk.org/index.php?topic=29698.msg437237#msg437237) par les Russes Alexander Vinnik et Aleksandr Bilyuchenko le 7 août ; de Bitstamp, [mise en ligne](https://web.archive.org/web/20140430233930/https://bitcointalk.org/index.php?topic=20292.220) par les Slovènes Nejc Kodrič et Damijan Merlak le 19 août ; et de Crypto X Change, [inaugurée](https://bitcointalk.org/index.php?topic=51457.msg613057#msg613057) le 10 novembre par les Australiens Ken et Colin Armitt.
 
 Toutefois, la plateforme Mt. Gox reste largement la plus utilisée. Cela pose problème aux (nombreux) clients occidentaux, car la plateforme est installée au Japon, et les dépôts et les retraits demandent de faire des virements internationaux pouvant durer des jours. Et PayPal censure toute activité relative au change de bitcoins.
 
@@ -574,7 +574,7 @@ En 2011, Charlie fréquente encore le *Brooklyn College*, où il étudie pour ob
 
 Ainsi, lorsque Gareth publie son annonce le 13 juin, Charlie est donc tout à fait à l'écoute. Il contacte ce dernier et ils trouvent un accord rapidement. De son côté, Charlie demande à ses parents de lui accorder un prêt de 10 000 $ ; son père refuse, mais sa mère accepte. Le soir même, Gareth [annonce](https://bitcointalk.org/index.php?topic=16472.msg214518#msg214518) qu'il a trouvé un investisseur en la personne de Charlie Shrem et dévoile le nom du projet : BitInstant.
 
-Ils développent le service au cours de l'été. Le 23 août, après une [phase bêta](https://bitcointalk.org/index.php?topic=36184.msg469342#msg469342) de deux semaines, BitInstant [ouvre](https://bitcointalk.org/index.php?topic=38914.msg476106#msg476106) ses portes au grand public. L'entreprise bénéficie d'un partenariat avec la plateforme de change TradeHill, si bien qu'elle rend possible les virements instantatnés vers cette dernière au moyen de Liberty Reserve ou de Dwolla. Le 21 novembre, Mt. Gox est finalement [ajouté](https://bitcointalk.org/index.php?topic=52476.msg626239#msg626239) au service.
+Ils développent le service au cours de l'été. Le 23 août, après une [phase bêta](https://bitcointalk.org/index.php?topic=36184.msg469342#msg469342) de deux semaines, BitInstant [ouvre](https://bitcointalk.org/index.php?topic=38914.msg476106#msg476106) ses portes au grand public. L'entreprise bénéficie d'un partenariat avec la plateforme de change TradeHill, si bien qu'elle rend possible les virements instantanés vers cette dernière au moyen de Liberty Reserve ou de Dwolla. Le 21 novembre, Mt. Gox est finalement [ajouté](https://bitcointalk.org/index.php?topic=52476.msg626239#msg626239) au service.
 
 ![Capture du site de BitInstant, 26 janvier 2012](assets/en/bitinstant-howitworks-2012.webp)
 
@@ -603,8 +603,6 @@ La plateforme Bitcoinica est [lancée](https://bitcointalk.org/index.php?topic=4
 ![Zhou Tong en janvier 2010](assets/en/zhou-tong-flickr-20100130.webp)
 
 Zhou Tong en janvier 2010 (source : Zhou Tong sur [Flickr](https://www.flickr.com/photos/zhoutong/4359164894/))
-
-https://web.archive.org/web/20100210232513/http://www.zhoutong.me/
 
 Il a [entendu parler](https://bitcointalk.org/index.php?topic=67521.msg785510#msg785510) de Bitcoin à la fin de l'année 2010, mais ne s'y est réellement intéressé qu'au cours de l'été 2011, alors que la bulle spéculative faisait rage. Il a acheté ses premiers bitcoins à 8 dollars l'unité en août. Et il s'investit dans l'économie de Bitcoin en mettant au point Bitcoinica en une semaine.
 
@@ -690,6 +688,10 @@ Cette construction s'est accompagnée en parallèle d'une amélioration de l'uti
 
 ## L'amélioration de l'utilisation (mars 2011–nov. 2011)
 
+La période du Far West de la finance a été propice à l'amélioration de l'utilisation par le développement des portefeuilles légers et des diverses manières de conserver des bitcoins. Lorsque Satoshi s'est mis en retrait en décembre 2010, les nouveaux arrivants n'avaient le choix qu'entre le logiciel principal (l'implémentation complète conservant l'intégralité de la chaine de blocs et relayant les nouvelles transactions et les nouveaux blocs) et les applications dépositaires comme MyBitcoin. Mais à partir de l'année 2011, ce dilemme a disparu.
+
+Diverses solutions ont surgi : les portefeuilles logiciels comme *Bitcoin Wallet for Android* et Electrum, les portefeuilles web comme Blockchain.info, les portefeuilles papier comme BitAddress, les supports physiques comme les Bitbills et les Casascius Coins. Des solutions pour acquérir plus de conidentialité ont émergé.
+
 Portefeuilles légers (Bitcoin Wallet for Android, Electrum, BitcoinSpinner), supports physiques (Bitbills, Casascius Coins), portefeuilles web (Blockchain.info)
 
 Mike Hearn, Andreas Schildbach, Thomas Voegtlin, Andreas Antonopoulos, Luke-Jr, Amir Taaki
@@ -698,19 +700,29 @@ Mike Hearn, Andreas Schildbach, Thomas Voegtlin, Andreas Antonopoulos, Luke-Jr, 
 
 - Vitalik Buterin, "Bitcoin Wallet Reviews – Ease Of Use And Security", [2012](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/)
 
-- Problème de la conservation personnelle, Stefan Thomas, [nov. 2011](https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1) : "Some users protected their bitcoins by creating multiple backups, encrypting and storing them on thumb drives, on forensically scrubbed virgin computers without Internet connections, in the cloud, and on printouts stored in safe-deposit boxes. But even some sophisticated early adopters had trouble keeping their bitcoins safe. Stefan Thomas had three copies of his wallet yet inadvertently managed to erase two of them and lose his password for the third. In a stroke, he lost about 7,000 bitcoins, at the time worth about $140,000. 'I spent a week trying to recover it,' he says. 'It was pretty painful.'"
+- Problème de la conservation personnelle, vol : virus... perte :  Stefan Thomas, [nov. 2011](https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1) : "Some users protected their bitcoins by creating multiple backups, encrypting and storing them on thumb drives, on forensically scrubbed virgin computers without Internet connections, in the cloud, and on printouts stored in safe-deposit boxes. But even some sophisticated early adopters had trouble keeping their bitcoins safe. Stefan Thomas had three copies of his wallet yet inadvertently managed to erase two of them and lose his password for the third. In a stroke, he lost about 7,000 bitcoins, at the time worth about $140,000. 'I spent a week trying to recover it,' he says. 'It was pretty painful.'"
 
 - `wallet.dat`
 
 ### Les applications dépositaires
 
-- Instawallet. Simple d'utilisation. Les fonds sont stockés côté serveur. 29 avril 2011 (jav) : https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378 https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/ ; repris par Bitcoin-Central le 6 mars 2012 : https://bitcointalk.org/index.php?topic=67602.msg786523#msg786523 ; piraté en 2013 : https://venturebeat.com/offbeat/bitcoin-wallet-instawallet-hacked/ https://mempool.space/tx/5c265c7f63176a07d8c1a90c336e8faac133e69b95eb29e69026377781ebdd1e ; procédure s'ensuivant : https://bitcointalk.org/index.php?topic=167215.0;all
+L'application la plus populaire, après la tristement célèbre MyBitcoin, est Instawallet. C'est une application web simple d'utilisation [lancée](https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) le 29 avril 2011 par Jan Vornberger (Jav), un jeune développeur allemand. C'est un service dépositaire : les fonds sont conservés « côté serveur », ce qui signifie que c'est Jan qui en a la garde. Elle ne nécessite pas d'inscription ; l'accès se fait par le biais d'une URL, comme `https://instawallet.org/w/rq2SB02ai6BnWaEBywAlP52cw7qwUAA`, qui est générée au cours de la première interaction avec le service et qui est sauvegardée dans le navigateur. Les utilisateurs ont une adresse Bitcoin attribuée qui leur permet de recevoir et d'envoyer des fonds. Les transferts internes (entre utilisateurs d'Instawallet) sont traités en interne et donc instantanés. De plus, à partir de la fin du mois de juillet, Instawallet [intègre](https://bitcointalk.org/index.php?topic=32818.msg409974#msg409974) un procédé de certification (appelé « green address ») permettant de prouver aux autres acteurs du marché qu'une transaction émise provient du service de sorte à ce que son traitement soit plus rapide, dans le cadre d'une relation de confiance.
 
-- Paymium, startup fondée en [juin 2011](https://web.archive.org/web/20111120231150/http://www.paymium.com/) par Gonzague Grandval, David François (davout), Pierre Noizat (Boussac), initialement dans le domaine des paiements, et dont le produit principal est une application de prévention de la fraude par carte bancaire. L'entreprise se tourne progressivement vers Bitcoin, faisant rapidement de Bitcoin-Central son produit phare \[QUAND ?\]
+![Interface d'Instawallet en juin 2012](assets/en/instawallet-screenshot-bitcoinmagazine-june-2012.webp)
 
-- Paytunia : « Paytunia est une application révolutionnaire basée sur le protocole ouvert Bitcoin pour des paiements et des transferts d'argent en ligne sécurisés et faciles. » ("Paytunia is a groundbreaking application based on the open source Bitcoin protocol for secure, easy, online payments and money transfers.", [nov. 2011](https://web.archive.org/web/20111120231150/http://www.paymium.com/)), [lancement, 5/4/2012](https://bitcointalk.org/index.php?topic=75550.msg836770#msg836770) https://web.archive.org/web/20120322223342/https://paytunia.com/
+Interface d'Instawallet en juin 2012 (source : [Bitcoin Magazine](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/))
 
-mention de Paytunia en mai 2012 (https://web.archive.org/web/20120514233205/https://bitcoin-central.net/), mentions légales en janvier 2013 (https://web.archive.org/web/20130120182340/https://bitcoin-central.net/)\], à tel point que celui-ci [prendra](https://bitcoin.fr/bitcoin-central-devient-paymium/) le nom de Paymium en 2014.
+Le 2 mars 2012, Jan [décide](https://bitcointalk.org/index.php?topic=67085.msg780164#msg780164) de fermer Instawallet n'ayant « ni le temps ni les ressources nécessaires pour continuer à assurer la maintenance du site » (original: "I don't have the time and resources to continue to support the site"). Le service est néanmoins [repris](https://bitcointalk.org/index.php?topic=67602.msg786523#msg786523) quelques jours plus tard par Paymium \[, qui le fera vivre jusqu'à son piratage fatal en avril 2013\].
+
+Paymium SAS est une société française [fondée](https://web.archive.org/web/20111120231150/http://www.paymium.com/) par Gonzague Grandval, Pierre Noizat (Boussac) et David François (Davout) en juin 2011. Elle se concentre initialement sur le domaine des paiements, et son produit principal est une application de prévention de la fraude par carte bancaire. Grâce à l'attrait de Pierre Noizat et de David François pour Bitcoin, elle devient progressivement une entreprise focalisée sur Bitcoin.
+
+Au début de l'année 2012, Paymium développe sa propre application dépositaire : Paytunia. L'application Paytunia est décrite comme « une application révolutionnaire basée sur le protocole ouvert Bitcoin pour des paiements et des transferts d'argent en ligne sécurisés et faciles » ("Paytunia is a groundbreaking application based on the open source Bitcoin protocol for secure, easy, online payments and money transfers." Elle est [lancée](https://bitcointalk.org/index.php?topic=75550.msg836770#msg836770) en avril 2012 sur Android. Les utilisateurs de Bitcoin-Central (la plateforme de change gérée par David François) [peuvent](https://web.archive.org/web/20120514233205/https://bitcoin-central.net/) également y accéder avec leur compte existant, les deux services utilisant le même système. Les transferts entre utilisateurs de Paytunia [sont](https://bitcointalk.org/index.php?topic=75550.msg836948#msg836948) traités de manière interne et sont donc instantanés.
+
+![Interface (en français) de l'application Paytunia en novembre 2012](assets/en/paytunia-fr-eenewseurope-nov-2012.webp)
+
+Interface (en français) de l'application Paytunia en novembre 2012 (source : [eeNews Europe](https://www.eenewseurope.com/en/bitcoin-enabled-euro-payment-solution-operates-as-a-mobile-e-wallet/))
+
+Paymium [relance](https://bitcointalk.org/index.php?topic=67602.msg786523#msg786523) également Instawallet en mars.
 
 ### Les implémentations logicielles alternatives (mars–juillet 2011)
 
@@ -754,16 +766,18 @@ Graine et phrase mnémotechnique d'Electrum en 2012 (source : [archive](https:/
 
 BitcoinSpinner ([23/11/2011](https://bitcointalk.org/index.php?topic=52674.msg628527#msg628527)), Jan Moller (Jan), utilisation de [BCCAPI](https://en.bitcoin.it/wiki/BCCAPI)
 
-Portefeuille Armory, se voulant extrêmement sécurisé, stockage à froid (https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-wallets-in-armory), il intégrera bien plus tard le multisig (https://en.bitcoin.it/wiki/Armory) ; dépôt créé le 19/11/2011 : https://api.github.com/repos/etotheipi/BitcoinArmory ; forked by goatpig in February 2016 : https://github.com/goatpig/BitcoinArmory ; annonce par Alan Reiner (etotheipi),  3/1/2012 : https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650 https://web.archive.org/web/20120113202143/https://www.bitcoinarmory.com/
-
-crowfunding : https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0
-
-
 ### Les portefeuilles web
 
 - Stefan Thomas (justmoon), bitcoinjs-lib, mai 2011 : [annonce sur BitcoinTalk, 5/5](https://bitcointalk.org/index.php?topic=7357.msg108003#msg108003), [GitHub](https://github.com/bitcoinjs/bitcoinjs-lib/), [first commit, 4/5](https://github.com/bitcoinjs/bitcoinjs-lib/commit/c0d740d2d4cd35ab18dc35e23936db42f17ad2ee)
 
-- Blockchain.info, Benjamin Reeves (piuk), août 2011 (explorateur de blocs), portefeuille web ? : https://bitcointalk.org/index.php?topic=40264.msg490783#msg490783 https://web.archive.org/web/20120519163609/https://bitcointalk.org/index.php?topic=40264.0 ; Nicolas Cary, ami d'université d'Erik Voorhees, qui l'a introduit à Bitcoin ; Peter Smith, PDG
+- Blockchain.info, Benjamin Reeves (piuk), août 2011 (explorateur de blocs), portefeuille web : https://bitcointalk.org/index.php?topic=40264.msg490783#msg490783 https://web.archive.org/web/20120519163609/https://bitcointalk.org/index.php?topic=40264.0 ; Nicolas Cary, ami d'université d'Erik Voorhees, qui l'a introduit à Bitcoin ; Peter Smith, PDG
+
+
+Benjamin Reeves (piuk), explorateur de blocs, [30/8/2011](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) : "I've created a site similar to block explorer with a couple of improvements: Includes orphaned blocks which can be used to track possible double spends; Estimates the actual volume of BTC transacted (not just BTC sent). The site can be found at: http://pi.uk.com/bitcoin"
+
+[15/10/2011](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) devient blockchain.info
+
+portefeuille web : [capture de janv. 2012](https://web.archive.org/web/20120108001717/blockchain.info/wallet)
 
 2012 : https://web.archive.org/web/20120108001717/https://blockchain.info/wallet/
 
@@ -777,6 +791,16 @@ Blockchain.info ("I printed out a paper wallet with Blockchain.", [9/01/2014](ht
 
 [BitBills](https://en.bitcoin.it/wiki/Bitbills) (mai 2011–mai 2012)
 
+"What are they? Bitbills are the first and only bitcoins in physical form.
+
+Why are they useful? Bitbills let you store and transfer bitcoins in person, just like cash. Also, Bitbills aren't vulnerable to digital attacks, making them the safest way to hold and use bitcoins.
+
+How do they work? Each Bitbill securely locks bitcoin data between layers of the card. If you would like to get non-physical bitcoins again, you can easily convert your Bitbill or trade them for digital bitcoins. Read more about how Bitbills work." https://web.archive.org/web/20111202011459/http://www.bitbills.com/
+
+![BitBills mis aux enchères par Charlie Lee en avril 2013](assets/en/bitbills-auctioned-by-coblee-april-2013.webp)
+
+BitBills [mis aux enchères](https://bitcointalk.org/index.php?topic=191292.msg1980753#msg1980753) par Charlie Lee en avril 2013 (source : Inversor Inteligente sur [Substack](https://inversorinteligente.substack.com/p/casascius-monedas-fisicas-de-bitcoin))
+
 First Bitcoin ATM, Todd Bethell, [7/9/2011](https://www.youtube.com/watch?v=Lnq2I-N-xYQ)
 
 Paper wallets de Casascius : https://web.archive.org/web/20110831102426/https://www.casascius.com/
@@ -787,7 +811,7 @@ Mike Caldwell (Casascius), habite dans l'Utah, [Swipeclock](https://www.linkedin
 
 Objectif d'éducation : expliquer la cryptographie aux gens, Comme il l'[expliquera](https://bitcointalk.org/index.php?topic=41892.msg3727984#msg3727984) en 2013 (26/11) :
 
-> « Mon objectif, en introduisant les Casascius Coins, était de les utiliser comme outil pédagogique, afin d'aider le grand public à visualiser une pièce de monnaie virtuelle avec un objet fonctionnel tangible. »
+> « Mon objectif, en introduisant les Casascius Coins, était de les utiliser comme outil pédagogique afin d'aider le grand public à visualiser une pièce de monnaie virtuelle avec un objet fonctionnel tangible. »
 >
 > original: "My purpose in introducing Casascius Coins was as a teaching tool, to help the world at large visualize a virtual coin with a tactile functional object"
 
@@ -807,7 +831,7 @@ De quoi attirer les amateurs de numismatique...
 
 brain wallet : https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/
 
-### Les premiers mélangeurs
+### Les premiers mélangeurs (confidentialité)
 
 - Bitcoin n'est pas aussi anonyme qu'on ne le pense. Martin Harrigan, 24/7/2011 : https://www.dw.com/en/bitcoin-not-so-anonymous-irish-researcher-says/a-15276051
 
@@ -823,9 +847,69 @@ brain wallet : https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-t
 
 - Bitcoin Fog, Roman Sterlingov (Akemashite Omedetou), 27 octobre 2011 : https://bitcointalk.org/index.php?topic=50037.msg596034#msg596034 https://web.archive.org/web/20121102102447/https://bitcointalk.org/index.php?topic=50037.0 https://twitter.com/BitcoinFog/status/129629806181613568
 
-### Autres (2013)
+- Tumbler de Silk Road ? https://bitcointalk.org/index.php?topic=3984.msg128554#msg128554
 
-HD Wallets ? Premiers portefeuilles matériels ?
+- fellowtraveller, Open Transactions, août 2010 : https://bitcointalk.org/index.php?topic=847.msg9976#msg9976 (eCash basé sur Bitcoin)
+
+- anonameous : "We really need a bitcoin mix or blind digital certificates on top of bitcoin to prevent financial network analysis though, Bitcoin is not an ideal solution by itself." https://bitcointalk.org/index.php?topic=175.msg57305#msg57305
+
+- Duncan Townsend (duncant), Blind Bitcoin Transfers, juin 2011 : https://bitcointalk.org/index.php?topic=12751.msg176590#msg176590 (eCash basé sur Bitcoin)
+
+- Réponse de hashcoin : https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793
+
+- Casascius, nov. 2011 : https://bitcointalk.org/index.php?topic=50037.msg609100#msg609100
+
+- Meni Rosenfeld, déc. 2011 : https://bitcointalk.org/index.php?topic=54266.msg646916#msg646916
+
+- https://bitcointalk.org/index.php?topic=106373.msg1256767#msg1256767
+
+- killerstorm, 2012 ? https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry
+
+- CoinJoin, août 2013, Gregory Maxwell : https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902
+
+### Les HD Wallets
+
+*Hierarchical Deterministic Wallets*
+
+Portefeuille Armory, se voulant extrêmement sécurisé, stockage à froid (https://web.archive.org/web/20120115015741/http://bitcoinarmory.com/index.php/using-offline-wallets-in-armory), il intégrera bien plus tard le multisig (https://en.bitcoin.it/wiki/Armory) ; dépôt créé le 19/11/2011 : https://api.github.com/repos/etotheipi/BitcoinArmory ; forked by goatpig in February 2016 : https://github.com/goatpig/BitcoinArmory ; annonce par Alan Reiner (etotheipi), 3/1/2012 : https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650 https://web.archive.org/web/20120113202143/https://www.bitcoinarmory.com/ ; crowdfunding, 18/2 : https://web.archive.org/web/20120515220140/https://bitcointalk.org/index.php?topic=64449.0
+
+BIP 32 : dérivation
+
+Pieter Wuille, BIP 32 https://github.com/bitcoin/bips/commit/be1741786684bb3a9f828b2f190ad3a0269c7ec3 https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198
+
+"Acknowledgements: Gregory Maxwell for the original idea of type-2 deterministic wallets, and many discussions about it. Alan Reiner for the implementation of this scheme in Armory, and the suggestions that followed from that."
+
+alternative par Mike Koss, [3/12/2012](https://gist.github.com/mckoss/4211704)
+
+https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki https://bitcoinism.blogspot.com/2013/07/reclaiming-financial-privacy-with-hd.html
+
+Marek Palatinus, Pavol Rusnak
+
+HD Wallets (BIP 32/39/44)
+
+BIP 39 : phrase mnémotechnique
+
+BIP 44 : structure hiérarchique https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
+Mycelium, [13/9/2013](https://bitcointalk.org/index.php?topic=293472.msg3143493#msg3143493) ; création du dépôt Github [13/6/2013](https://api.github.com/repos/mycelium-com/wallet-android) ; HD support, [7/10/2014](https://bitcointalk.org/index.php?topic=814907.msg9116818#msg9116818)
+
+### Premiers portefeuilles matériels
+
+premières puces matérielles
+
+- "offline key generation": [29/10/2010](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131)
+
+Les portefeuilles matériels nécessitent la dérivation des clés pour être utilisés de manière pratique : il faut une sauvegarde papier en cas de dysfonctionnement...
+
+- Trezor, 2012/2013 : https://web.archive.org/web/20130403104530/https://www.bitcointrezor.com/ https://web.archive.org/web/20130306144216/https://bitcointalk.org/index.php?topic=122438.0 ; Vitalik, "Slush Operator Announces USB Wallet Project" https://bitcoinmagazine.com/technical/slush-operator-announces-usb-wallet-project-1352395157
+
+Ledger, nov. 2014 : https://web.archive.org/web/20141121093353/https://www.ledgerwallet.com/
+
+---
+
+- Problème d'entropie, 2013 : https://bitcoinmagazine.com/technical/critical-vulnerability-found-in-android-wallets-1376273924
 
 # 2012
 

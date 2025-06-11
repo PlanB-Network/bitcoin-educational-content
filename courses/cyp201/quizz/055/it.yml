@@ -5,5 +5,5 @@ wrong_answers:
   - Tre parti di 170 bit
   - Quattro parti di 128 bit
 explanation: |
-  L'output di HMAC-SHA512 è diviso in due parti: la chiave privata principale (256 bit) e il codice catena principale (256 bit).
+  L'output di HMAC-SHA512 è diviso in due parti: la chiave master privata (256 bit) e master chain code (256 bit).
 reviewed: false

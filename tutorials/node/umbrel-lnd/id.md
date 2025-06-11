@@ -57,7 +57,7 @@ Untuk pengenalan teoretis yang lengkap mengenai Lightning Network, kami sarankan
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Kursus ini akan memberi Anda dasar yang menyeluruh dalam konsep dasar Lightning Network, sebelum melanjutkan ke praktik dengan node LND Anda.
 

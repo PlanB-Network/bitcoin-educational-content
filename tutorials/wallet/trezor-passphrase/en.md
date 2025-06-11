@@ -1,11 +1,11 @@
 ---
 name: passphrase BIP39 Trezor
-description: How do I add a passphrase to my Trezor portfolio?
+description: How do I add a passphrase to my Trezor wallet?
 ---
 ![cover](assets/cover.webp)
 
 
-A passphrase BIP39 is an optional password which, combined with the mnemonic phrase, provides an additional layer of security for deterministic and hierarchical Bitcoin portfolios. In this tutorial, we'll discover together how to set up a passphrase on your secure Bitcoin wallet on a Trezor (Safe 3, Safe 5 and Model One).
+A passphrase BIP39 is an optional password which, combined with the mnemonic phrase, provides an additional layer of security for deterministic and hierarchical Bitcoin wallets. In this tutorial, we'll discover together how to set up a passphrase on your secure Bitcoin wallet on a Trezor (Safe 3, Safe 5 and Model One).
 
 
 ![Image](assets/fr/01.webp)
@@ -19,13 +19,13 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 passphrase on Trezor is handled in the classic way if you've opted for the BIP39 standard during configuration (which I recommend if you don't need *Multi-share Backup*). What's special about Trezor is that you can either enter the passphrase directly on the Hardware Wallet, or via your computer's keyboard using the Trezor Suite software. This second option is considerably less secure, as the computer has an immensely larger attack surface than the Hardware Wallet. However, typing a complex passphrase may be faster on a conventional keyboard than on the Hardware Wallet, which could encourage the use of strong passphrases. So it's always better to use a passphrase, even if it has to be typed, than not to use one at all. It is important, however, to remain aware of the increased risk of numerical attacks that this implies.
 
 
-These options are not available on all Trezor-compatible portfolio management software. For example, for the Model One, passphrase can be entered via the keyboard on Sparrow Wallet. For Model T, Safe 3 and Safe 5 models, you must either use Trezor Suite or enter passphrase directly on Hardware Wallet, as the option of entering via Sparrow was disabled by HWI a few years ago.
+These options are not available on all Trezor-compatible wallet management software. For example, for the Model One, passphrase can be entered via the keyboard on Sparrow Wallet. For Model T, Safe 3 and Safe 5 models, you must either use Trezor Suite or enter passphrase directly on Hardware Wallet, as the option of entering via Sparrow was disabled by HWI a few years ago.
 
 
 ![Image](assets/fr/02.webp)
 
 
-In Trezor Suite, you have two different ways of managing passphrase demand. You can activate the "*passphrase*" option in the "*Device*" tab. If enabled, Trezor Suite and all other portfolio management software will systematically ask you to enter your passphrase each time you start up. If you prefer a more discreet approach to using a passphrase, you can keep the setting at "*Standard*". In this case, you'll need to manually access your Hardware Wallet's menu in the top left-hand corner, and click on the "*+ passphrase*" button each time you start it up.
+In Trezor Suite, you have two different ways of managing passphrase demand. You can activate the "*passphrase*" option in the "*Device*" tab. If enabled, Trezor Suite and all other wallet management software will systematically ask you to enter your passphrase each time you start up. If you prefer a more discreet approach to using a passphrase, you can keep the setting at "*Standard*". In this case, you'll need to manually access your Hardware Wallet's menu in the top left-hand corner, and click on the "*+ passphrase*" button each time you start it up.
 
 
 Before starting this tutorial, please ensure that you have already initialized your Trezor and generated your mnemonic phrase. If you haven't, and your Trezor is new, follow the model-specific tutorial available on Plan ₿ Network. Once you've completed this step, you can return to this tutorial.
@@ -76,7 +76,7 @@ Your Hardware Wallet will then display your passphrase. Make sure it matches you
 ![Image](assets/fr/06.webp)
 
 
-This will give you access to your passphrase-protected portfolio.
+This will give you access to your passphrase-protected wallet.
 
 
 ![Image](assets/fr/07.webp)
@@ -150,7 +150,7 @@ Your Hardware Wallet will display your passphrase. Make sure it matches your phy
 ![Image](assets/fr/15.webp)
 
 
-This will take you to your passphrase-protected portfolio.
+This will take you to your passphrase-protected wallet.
 
 
 ![Image](assets/fr/16.webp)

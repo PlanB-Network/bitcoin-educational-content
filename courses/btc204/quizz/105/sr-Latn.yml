@@ -3,6 +3,6 @@ answer: Poboljšava privatnost
 wrong_answers:
   - Povećava brzinu potvrde
   - Smanjuje troškove transakcija
-  - To obmanjuje primaoca
+  - Obmanjuje primaoca
 explanation: |
   Transakcija PayJoin poboljšava privatnost zainteresovanih strana obmanjujući analizu lanca.

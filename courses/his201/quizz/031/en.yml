@@ -5,5 +5,5 @@ wrong_answers:
   - eLD
   - RPOW
 explanation: |
-  It was on Ryan Fugger's project Google Group that he first heard about Bitcoin in April 2009. He immediately contacted Satoshi to ask questions.
-reviewed: false
+  Ryan Fugger first heard about Bitcoin on his Google Group project in April 2009. He immediately contacted Satoshi to ask questions.
+reviewed: true

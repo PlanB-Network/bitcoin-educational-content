@@ -1,14 +1,14 @@
 ---
-name: Toro Bitcoin Europa
+name: Bull Bitcoin
 description: Comprare e vendere bitcoin su Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
 
 Bull Bitcoin è una piattaforma di scambio di soli Bitcoin fondata nel 2013 in Canada da Francis Pouliot, una figura iconica dell'ecosistema Bitcoin. La filosofia di Bull Bitcoin è quella di offrire agli utenti strumenti per la sovranità e l'emancipazione finanziaria. La piattaforma di scambio non è depositaria, il che significa che l'utente rimane sempre sovrano sui propri Bitcoin.
 
-Inizialmente disponibile solo in Canada, la piattaforma è ora disponibile anche in Europa, con una nuovissima interfaccia ottimizzata. Questa nuova versione di Bull Bitcoin è attualmente disponibile solo in Europa. Consente di acquistare e vendere bitcoin in modo rapido e semplice, grazie all'utilizzo di Lightning e dei trasferimenti SEPA istantanei. In futuro, la piattaforma includerà anche opzioni per DCA, acquisti automatici, ordini limite e pagamenti di fatture in bitcoin.
+Inizialmente disponibile solo in Canada, la piattaforma è ora disponibile in Europa e in molti altri paesi, con un'interfaccia completamente nuova e ottimizzata. Questa nuova versione di Bull Bitcoin consente di acquistare e vendere bitcoin in modo semplice e rapido grazie all'utilizzo di Lightning e dei bonifici SEPA istantanei. Integra anche il pagamento delle fatture in bitcoin. In futuro, la piattaforma integrerà anche opzioni di DCA, acquisti automatici e ordini limite.
 
-Bull Bitcoin si impegna a fornire un servizio trasparente, senza spese nascoste. Come tutte le altre piattaforme di scambio in Europa, l'utilizzo di Bull Bitcoin richiede la KYC (procedura di identificazione del cliente).
+Bull Bitcoin si impegna a fornire un servizio trasparente senza costi nascosti. Si noti che, come la maggior parte delle piattaforme di scambio, l'utilizzo di Bull Bitcoin richiede l'esecuzione di una procedura KYC (Conosci il tuo cliente).
 
 ## Registrati su Bull Bitcoin
 

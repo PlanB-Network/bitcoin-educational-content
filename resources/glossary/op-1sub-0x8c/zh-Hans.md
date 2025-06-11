@@ -1,5 +1,5 @@
 ---
-term: OP_1SUB (0X8C)
+term: OP_1SUB (0x8C)
 
 ---
 从堆栈顶端的值中减去 `1`。

@@ -57,7 +57,7 @@ Navigating the device is very simple:
 ## Prerequisites
 
 
-For this tutorial, I'm going to show you how to use the Trezor Model One with [Sparrow Wallet portfolio management software](https://sparrowwallet.com/download/). If you haven't yet installed this software, please do so now. If you need help, we also have a detailed tutorial on configuring Sparrow Wallet :
+For this tutorial, I'm going to show you how to use the Trezor Model One with [Sparrow Wallet wallet management software](https://sparrowwallet.com/download/). If you haven't yet installed this software, please do so now. If you need help, we also have a detailed tutorial on configuring Sparrow Wallet :
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -109,7 +109,7 @@ Click on "*Continue*".
 ![Image](assets/fr/08.webp)
 
 
-## Creating a Bitcoin portfolio
+## Creating a Bitcoin wallet
 
 
 On Trezor Suite, click on the "*Create new Wallet*" button.
@@ -225,10 +225,10 @@ The configuration of your Model One is now complete. If you wish, you can change
 ![Image](assets/fr/21.webp)
 
 
-We won't be needing the Trezor Suite software any more, except to carry out regular firmware updates on your Hardware Wallet, or if you'd like to run a recovery test. We're now going to use Sparrow to manage the portfolio, as this software is perfectly suited to Bitcoin-only use.
+We won't be needing the Trezor Suite software any more, except to carry out regular firmware updates on your Hardware Wallet, or if you'd like to run a recovery test. We're now going to use Sparrow to manage the wallet, as this software is perfectly suited to Bitcoin-only use.
 
 
-## Setting up the portfolio on Sparrow Wallet
+## Setting up the wallet on Sparrow Wallet
 
 
 Start by downloading and installing Sparrow Wallet [from the official website](https://sparrowwallet.com/) on your computer, if you haven't already done so.
@@ -245,7 +245,7 @@ Click on the "*File*" tab, then on "*New Wallet*".
 ![Image](assets/fr/22.webp)
 
 
-Name your portfolio, then click on "*Create Wallet*".
+Name your wallet, then click on "*Create Wallet*".
 
 
 ![Image](assets/fr/23.webp)
@@ -295,7 +295,7 @@ I advise you to save this password in a password manager so you don't forget it.
 ![Image](assets/fr/29.webp)
 
 
-And now your portfolio has been imported into Sparrow Wallet!
+And now your wallet has been imported into Sparrow Wallet!
 
 
 ![Image](assets/fr/30.webp)

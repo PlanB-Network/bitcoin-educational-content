@@ -6,7 +6,7 @@ description: Complete guide to using Bisq 2 and exchanging bitcoins P2P
 
 ## Introduction
 
-KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' confidentiality and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
+KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' privacy and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
@@ -18,7 +18,7 @@ Bisq 2 is the new version of the popular decentralized Bisq exchange, launched i
 
 
 - Support for multiple privacy networks (Tor, I2P)
-- Multiple identities for greater confidentiality
+- Multiple identities for greater privacy
 - REST API for trading bots
 - Support for multiple wallet types
 - Role system with compulsory deposit in BSQ
@@ -31,7 +31,7 @@ This guide focuses exclusively on "Bisq Easy", the only protocol currently avail
 - Cross-platform desktop application
 - Several exchange protocols available
 - Decentralized P2P network
-- Focus on confidentiality (no KYC, use of Tor)
+- Focus on privacy (no KYC, use of Tor)
 - Non-custodial (you retain control of your funds)
 - Open source (AGPL)
 
@@ -327,7 +327,7 @@ To enhance your reputation on Bisq as a seller, conduct regular transactions and
 ### Benefits of Bisq 2
 
 
-- Maximum confidentiality**: No KYC, use of Tor
+- Maximum privacy**: No KYC, use of Tor
 - Decentralization**: No central server
 - Security**: Open source, non-custodial code
 - Intuitive interface**: simpler than Bisq 1
@@ -353,7 +353,7 @@ Although Bisq Easy is currently the only protocol available, several other proto
 - BSQ Swaps**: Instant atomic swaps between BSQ and BTC.
 - Liquid Swaps**: Exchange of assets on the Liquid network (USDT, BTC-L) via atomic swaps.
 - Monero Swaps**: Atomic exchanges between Bitcoin and Monero.
-- Liquid MuSig**: Version of the multisig protocol using L-BTC for lower costs and greater confidentiality.
+- Liquid MuSig**: Version of the multisig protocol using L-BTC for lower costs and greater privacy.
 - Submarine Swaps**: Exchanges between Bitcoin on the Lightning network and Bitcoin on-chain.
 - Stablecoin Swaps**: Atomic exchanges between Bitcoin and USD stablecoins.
 - Multisig Options**: Creation of P2P put and call options with BTC blocking in an on-chain multisig transaction.

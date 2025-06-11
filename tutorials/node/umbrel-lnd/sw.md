@@ -57,7 +57,7 @@ Kwa utangulizi kamili wa kinadharia kwa Lightning Network, tunapendekeza usome k
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Kozi hii itakupa msingi kamili wa dhana za kimsingi za Lightning Network, kabla ya kuendelea na mazoezi na nodi yako ya LND.
 

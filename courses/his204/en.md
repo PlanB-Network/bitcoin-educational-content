@@ -1197,7 +1197,7 @@ Here below, you'll find a selection of over thirty writings:
 <chapterId>a1e689d9-abd0-5dcb-ba56-a8d355d0a84f</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Final examination
+## Final Exam
 
 <chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>
 <isCourseExam>true</isCourseExam>

@@ -1,5 +1,5 @@
-question: Među ovim opcijama, koja nije metoda za automatski odabir delova?
-answer: Tihi Plaćanja
+question: Među ovim opcijama, koja nije metoda za automatski odabir UTXO delova?
+answer: Tiha Plaćanja 
 wrong_answers:
   - Branch-and-Bound
   - FIFO

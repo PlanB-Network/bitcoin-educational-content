@@ -6,4 +6,4 @@ wrong_answers:
   - To resist Sybil attacks.
 explanation: |
   Randomness makes passwords harder to guess through trial and error, thereby strengthening their security against brute-force attacks.
-reviewed: false
+reviewed: true

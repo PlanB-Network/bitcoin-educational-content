@@ -1490,7 +1490,7 @@ Ce mot de passe doit être fort :
 - Il doit combiner des lettres majuscules et minuscules, des chiffres et des caractères spéciaux ;
 - Il doit être le plus aléatoire possible, sans contenir le moindre lien avec des éléments de votre environnement direct ou indirect, tels qu’un nom, une date ou un lieu.
 
-201
+![Image](assets/fr/201.webp)
 
 *Source : [Hive Systems](https://www.hivesystems.com/)*
 
@@ -1523,7 +1523,7 @@ Pour l’activer, cela va dépendre de votre modèle de carte mère, mais géné
 - Définir un mot de passe long, unique et aléatoire, puis faire une sauvegarde de ce mot de passe ;
 - Sauvegarder les changements et redémarrer l'ordinateur.
 
-203
+![Image](assets/fr/203.webp)
 
 **Attention :** si vous perdez ce mot de passe, vous allez être bloqué et vous allez devoir réinitialiser la carte mère. Conservez donc bien ce mot de passe dans un gestionnaire de mots de passe ou dans un lieu physique sécurisé.
 
@@ -1541,7 +1541,7 @@ Dans la même optique, je vous déconseille d’utiliser des accessoires ou pér
 
 Pour limiter les risques de vol physique, vous pouvez équiper un ordinateur fixe d’un système de verrouillage physique. La plupart des PC professionnels disposent d’un port de sécurité Kensington, permettant d’y fixer un câble d’ancrage en acier, que l’on attache à un élément fixe du mobilier. Il existe également des variantes pour les ordinateurs portables. Ces dispositifs n’offrent évidemment pas une protection absolue contre le vol, mais ils suffisent à dissuader les attaques opportunistes.
 
-202
+![Image](assets/fr/202.webp)
 
 Par ailleurs, éteignez systématiquement votre machine lorsque vous vous absentez, surtout dans un environnement non sécurisé. Contrairement à la simple veille, un arrêt complet empêche le chargement de l’OS et protège contre certaines attaques ciblant la mémoire vive. Cela permet également d'activer la sécurité de votre BIOS/UEFI.
 
@@ -1562,7 +1562,7 @@ Concrètement, sur votre ordinateur personnel, cela signifie que votre compte d�
 
 Sur Windows, la plupart des utilisateurs ont par défaut un compte administrateur, alors que c'est une mauvaise pratique. Je vous recommande de créer un compte utilisateur standard pour vos usages quotidiens, et de laisser le compte administrateur pour les opérations qui en ont vraiment besoin. Lorsque vous essayez d’effectuer une tâche qui a besoin des privilèges élevés, Windows vous demandera simplement de saisir le mot de passe de l’administrateur plutôt que de simplement cliquer sur le bouton "*YES*".
 
-204
+![Image](assets/fr/204.webp)
 
 Sous Linux, ce principe du moindre privilège est mieux appliqué par défaut. Vous avez par défaut un compte utilisateur avec des droits limités et vous pouvez élever vos privilèges temporairement avec la commande `sudo`. Cette commande permet d'exécuter une tâche spécifique avec les droits root, sans avoir à se connecter avec le compte *superuser*. Il est également possible de configurer `sudo` pour n’autoriser que certaines commandes selon les utilisateurs (via `/etc/sudoers`).
 
@@ -1588,7 +1588,7 @@ Il y a plusieurs intérêts à adopter cette approche. D’abord, les applicatio
 
 Sur Linux, cette séparation peut être renforcée par des mécanismes comme AppArmor ou SELinux, qui permettent de restreindre plus finement les droits d’accès de chaque session.
 
-205
+![Image](assets/fr/205.webp)
 
 Il est important de noter que la multisession ne remplace pas l’usage d’un compte non administrateur, ni l’application du principe du moindre privilège. Elle vient le compléter en ajoutant une couche d’isolation logique, simple à mettre en place et particulièrement efficace pour un usage familial ou professionnel hybride.
 
@@ -1600,7 +1600,7 @@ Les machines virtuelles (ou "VM") permettent de créer des environnements totale
 
 Cette technologie repose sur un hyperviseur, un logiciel qui gère la création et l’exécution des VM. La solution la plus connue est VirtualBox, un logiciel open-source et multiplateforme. Il permet de créer facilement une VM en quelques clics en lui attribuant des ressources spécifiques.
 
-206
+![Image](assets/fr/206.webp)
 
 En termes de sécurité informatique, un des grands avantages des machines virtuelles est leur capacité de cloisonnement. Une VM ne partage ni ses fichiers, ni ses processus, ni ses accès réseau avec le système hôte, sauf si vous configurez explicitement ces échanges. Donc si une VM est infectée par un malware ou si vous testez un logiciel sensible à l’intérieur, l’impact reste confiné à cette machine virtuelle : votre système principal reste intact, à condition que les paramètres d’isolation soient bien respectés (pas de dossiers partagés, pas de périphériques USB passés à la VM...).
 

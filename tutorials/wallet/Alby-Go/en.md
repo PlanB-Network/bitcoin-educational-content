@@ -82,4 +82,4 @@ No bloat. No fuss. Lightning-fast.
 - 🧷 Add, remove and export wallets
 
 **💡 Need Help?**
-Visit getalby.com for support, updates, and community links.
+Visit getalby.com for support and updates.

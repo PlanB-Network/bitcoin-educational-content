@@ -2,4 +2,4 @@
 term: BIP0382
 
 ---
-Memperkenalkan fungsi `wpkh(KEY)` (Bayar-ke-Saksi-Kunci-PubKey-Hash) dan `wsh(SCRIPT)` (Bayar-ke-Saksi-Skrip-Hash) untuk deskriptor. Fungsi-fungsi ini menstandarkan cara untuk mendeskripsikan jenis skrip SegWit dalam deskriptor. BIP382 diimplementasikan bersama dengan semua BIP terkait deskriptor lainnya (kecuali BIP386) dalam versi 0.17 Bitcoin Core.
+Memperkenalkan fungsi `wpkh(KEY)` (_Pay-To-Witness-Public-Key-Hash_) dan `wsh(SCRIPT)` (_Pay-To-Witness-Script-Hash_) untuk deskriptor. Fungsi-fungsi ini menstandarisasi cara untuk mendeskripsikan jenis skrip SegWit dalam deskriptor. BIP382 diimplementasikan bersama dengan semua BIP terkait deskriptor lainnya (kecuali BIP386) dalam versi 0.17 Bitcoin Core.

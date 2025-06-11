@@ -24,11 +24,14 @@ Selon moi il faut davantage voir ces appareils comme une manière simple de mine
 Dans un 1er temps voyons voir ce qu'il se cache à l'intérieur de la boite du Avalon Nano 3S.
 
 ![image](assets/fr/01.webp)
+
+
 ![image](assets/fr/02.webp)
 
 Une fois la boite ouverte on y trouve une pochette cartonnée contenant un récepteur WIFI qu'il faudra comme on le verra par la suite, brancher sur le port USB de l'appareil pour que celui-ci soit en mesure de se connecter à votre réseau local. On y trouve également le manuel d'instruction ainsi qu'une tige métallique permettant de réinitialiser l'appareil aux paramètres d'usine si nécessaire.
 
 ![image](assets/fr/03.webp)
+
 
 ![image](assets/fr/04.webp)
 

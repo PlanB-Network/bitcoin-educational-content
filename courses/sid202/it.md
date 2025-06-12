@@ -102,21 +102,21 @@ Elements fornisce una soluzione tecnica ai problemi che gli utenti della blockch
 
 Elements supera questi problemi grazie all'uso della "Federated Block Signing" (Firma federata dei blocchi) e delle "Confidential Transaction" (Transazioni riservate).
 
-A differenza della rete Bitcoin, il processo di firma dei blocchi all'interno di Elements non si basa su Dynamic Membership Multiparty Signatures (DMMS) e Proof of Work (PoW). Elements utilizza invece una "Strong Federation" di firmatari, chiamati "Block Signers" (Firmatari dei Blocchi), che possono firmare e creare blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione _PoW_, che è soggetto a grandi variazioni di tempo dei blocchi a causa della sua distribuzione casuale di tipo Poisson. Il processo di "Federated Block Signing" consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi.
+A differenza della rete Bitcoin, il processo di firma dei blocchi all'interno di Elements non si basa su Dynamic Membership Multiparty Signatures (DMMS) e Proof of Work (PoW). Elements utilizza invece una "Strong Federation" di firmatari, chiamati "Block Signers" (Firmatari dei Blocchi), che possono firmare e creare blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni del processo di estrazione _PoW_, che è soggetto a grandi variazioni di tempo dei blocchi a causa della sua [distribuzione casuale di tipo Poisson](https://it.wikipedia.org/wiki/Distribuzione_di_Poisson). Il processo di "Federated Block Signing" consente di ottenere una creazione affidabile dei blocchi senza introdurre la necessità di una fiducia da parte di terzi.
 
 Elements può funzionare come sidechain di un'altra blockchain, come Bitcoin, o come blockchain autonoma senza dipendere da altre reti.
 
-Quando viene utilizzata come sidechain, la "Strong Federation" contiene anche membri che consentono il trasferimento sicuro e controllato di asset tra una chain principale e una sidechain Elements. Il trasferimento controllato di asset è chiamato "Federated 2-Way Peg" (Ancoraggio Federato a due Vie) e i membri che svolgono il ruolo di trasferimento degli asset sono chiamati ["Watchmen" (Guardiani)](https://planb.network/resources/glossary/watchmen).
+Quando viene utilizzata come sidechain, la "Strong Federation" contiene anche membri che consentono il trasferimento sicuro e controllato di asset tra una chain principale e una sidechain Elements. Il trasferimento controllato di asset è chiamato "Federated 2-Way Peg" (Ancoraggio Federato Bidirezionale) e i membri che svolgono il ruolo di trasferimento degli asset sono chiamati ["Watchmen" (Guardiani)](https://planb.network/resources/glossary/watchmen).
 
 I processi coinvolti nella gestione di una rete Elements e i ruoli dei partecipanti alla rete sono importanti per comprendere il funzionamento di Elements.
 
-Sia che venga implementata come sidechain o come blockchain indipendente, Elements si avvale di "initialfreecoins" di "Block Signers" (Firmatari dei Blocchi) per produrre i blocchi.
+Sia che venga implementata come sidechain o come blockchain indipendente, Elements si avvale di "Strong Federations" di "Block Signers" (Firmatari dei Blocchi) per produrre i blocchi.
 
 ### Strong Federations
 
 Elements utilizza un modello di consenso proposto per la prima volta da Blockstream, chiamato "Strong Federations". Una Strong Federation non ha bisogno di Proof of Work (PoW) e si affida invece alle azioni collettive di un gruppo di partecipanti reciprocamente diffidenti, chiamati "Functionaries" (Funzionari).
 
-I ruoli che un "Functionary" (Funzionario) può ricoprire all'interno di una "Strong Federations"  sono: "Block Signer" (Firmatario del Blocco) e "Watchman" (Guardiano). I Block Signers sono necessari se si esegue Elements in modalità sidechain o standalone blockchain, mentre i Watchmen sono necessari solo in una configurazione sidechain.
+I ruoli che un "Functionary" (Funzionario) può ricoprire all'interno di una "Strong Federations" sono: "Block Signer" (Firmatario del Blocco) e "Watchman" (Guardiano). I Block Signers sono necessari se si esegue Elements in modalità sidechain o standalone blockchain, mentre i Watchmen sono necessari solo in una configurazione sidechain.
 
 Le azioni che un membro di una Strong Federation può eseguire sono suddivise tra due ruoli distinti per migliorare la sicurezza e limitare i danni che un attaccante può causare.
 
@@ -126,32 +126,31 @@ Se combinati, i ruoli di questi partecipanti consentono a Elements di fornire si
 
 ### Block Signers
 
-Una blockchain come quella di Bitcoin viene estesa quando chiunque faccia parte di un gruppo dinamico di firmatari di blocchi estende la chain dimostrando la prova del lavoro svolto. La natura dinamica dell'insieme introduce i problemi di latenza propri di questi sistemi.
+Una blockchain come quella di Bitcoin viene estesa quando chiunque faccia parte di un gruppo dinamico di firmatari di blocchi allunga la chain dando prova del lavoro svolto. La natura dinamica dell'insieme introduce i problemi di latenza propri di questi sistemi.
 
 Utilizzando un insieme fisso di firmatari, il modello federato sostituisce l'insieme dinamico con un insieme noto e uno schema a più firme. La riduzione del numero di partecipanti necessari per estendere la blockchain aumenta la velocità e la scalabilità del sistema, mentre la convalida da parte di tutte le parti garantisce l'integrità della cronologia delle transazioni.
 
 La firma a blocchi federata consiste in diverse fasi:
 
-
-- Fase 1 - "Block Signers" (Firmatari del Blocco) propongono i blocchi candidati in modo circolare a tutti gli altri _"Block Signers"_ partecipanti.
+- Fase 1 - "Block Signers" (Firmatari del Blocco) propongono i blocchi candidati in modo circolare a tutti gli altri "Block Signers" partecipanti.
 - Fase 2 - Ogni Block Signers segnala la propria intenzione impegnandosi a firmare il blocco candidato.
 - Fase 3 - Se la soglia data per il preimpegno è soddisfatta, ogni "Block Signers" firma il blocco.
 - Fase 4 - Se la soglia di firma (che può essere diversa da quella della fase 3) è soddisfatta, il blocco viene accettato e inviato alla rete. La "Strong Federation"  ha raggiunto il consenso sull'ultimo blocco di transazioni.
 - Fase 5 - Il blocco successivo viene proposto dal successivo Block Signers in modo circolare e il processo si ripete.
 
-Poiché la generazione dei blocchi di una _"Strong Federation"_ non è probabilistica e si basa su un insieme fisso di firmatari, non sarà mai soggetta a riorganizzazioni multi-blocco. Ciò consente una significativa riduzione dei tempi di attesa associati alla conferma delle transazioni. Inoltre, elimina l'incentivo a estrarre per profitto (cioè le ricompense dei blocchi) e lo sostituisce con un incentivo a partecipare in modo produttivo a una rete in cui tutti i partecipanti hanno lo stesso obiettivo condiviso: garantire che la rete continui a funzionare in modo vantaggioso per tutti. Ciò avviene senza introdurre un singolo punto di fallimento o requisiti di fiducia più elevati.
+Poiché la generazione dei blocchi di una "Strong Federation" non è probabilistica e si basa su un insieme fisso di firmatari, non sarà mai soggetta a riorganizzazioni multi-blocco. Ciò consente una significativa riduzione dei tempi di attesa associati alla conferma delle transazioni. Inoltre, elimina l'incentivo a estrarre per profitto (per esempio, le ricompense dei blocchi) e lo sostituisce con un incentivo a partecipare in modo produttivo a una rete in cui tutti i partecipanti hanno lo stesso obiettivo condiviso: garantire che la rete continui a funzionare in modo vantaggioso per tutti. Ciò avviene senza introdurre un singolo punto di fallimento o requisiti di fiducia più elevati.
 
 ### Elements come sidechain - Watchmen e il Federated 2-Way Peg
 
-Se gestita come sidechain, alcuni membri della Strong Federation hanno un ruolo aggiuntivo da svolgere, quello degli "Watchmen". I Watchmen sono responsabili del trasferimento di asset in entrata e in uscita da una sidechain Elements, processi noti come `Peg-In` (Ancoraggio in Ingresso) e `Peg-Out` (Ancoraggio in Uscita).
+Se gestita come sidechain, alcuni membri della Strong Federation hanno un ruolo aggiuntivo da svolgere, quello degli "Watchmen". Gli Watchmen sono responsabili del trasferimento degli asset in entrata e in uscita da una sidechain Elements, processi noti come `Peg-In` (Ancoraggio in Ingresso) e `Peg-Out` (Ancoraggio in Uscita).
 
-Affinché una sidechain operi in modo affidabile, deve consentire ai partecipanti di verificare che la fornitura di asset sia controllata e verificabile. Una sidechain di Elements utilizza un _"Federated 2-Way Peg"_ (Ancoraggio Federato bidirezionale) per consentire il trasferimento bidirezionale di asset all'interno e all'esterno di una blockchain di Elements. Questo soddisfa i requisiti di emissione e trasferimento interchain dimostrabili.
+Affinché una sidechain operi in modo affidabile, deve consentire ai partecipanti di verificare che la fornitura di asset sia controllata e verificabile. Una sidechain di Elements utilizza un _"Federated 2-Way Peg"_ (Ancoraggio Federato bidirezionale) per consentire il trasferimento bidirezionale di asset all'interno e all'esterno di una blockchain di Elements. Questo soddisfa i requisiti di emissione e trasferimento inter-chain dimostrabili.
 
 La funzione "Federated 2-Way Peg" (Ancoraggio Federato a due Vie) consente a un asset di essere interoperabile con altre blockchain e rappresentativo dell'asset nativo di un'altra blockchain. Agganciando la propria blockchain a un'altra, è possibile estendere le capacità della mainchain (chain principale) e superare alcune delle sue limitazioni intrinseche.
 
 Ad alto livello, i trasferimenti nella sidechain avvengono quando qualcuno invia asset della mainchain a un indirizzo controllato da un "Watchmen multi-signature wallet" (il wallet multi-firma dei guardiani). Questo blocca di fatto gli asset sulla mainchain. Lo Watchmen convalida quindi la transazione e rilascia la stessa quantità di asset associati all'interno della sidechain. Gli asset rilasciati vengono inviati a un wallet della sidechain che può dimostrare di avere diritto agli asset originali della mainchain. Questo processo sposta effettivamente gli asset dalla mainchain alla sidechain.
 
-Per trasferire gli asset alla mainchain, un utente effettua una speciale transazione di peg-out sulla sidechain. Questa transazione viene controllata dai Watchmen, che poi firmano una transazione di spesa dal wallet multi-firma che controllano sulla mainchain. Un numero limite di partecipanti alla federazione deve firmare prima che la transazione sulla mainchain diventi valida. Quando i Watchmen rimandano un asset alla mainchain, distruggono anche l'importo corrispondente sulla sidechain, trasferendo di fatto gli asset tra le blockchain.
+Per trasferire gli asset alla mainchain, un utente effettua una speciale transazione di peg-out sulla sidechain. Questa transazione viene controllata dagli Watchmen, che poi firmano una transazione di spesa dal wallet multi-firma che controllano sulla mainchain. Un numero limite di partecipanti alla federazione deve firmare la transazione prima che diventi valida sulla mainchain. Quando gli Watchmen rimandano un asset alla mainchain, distruggono anche l'importo corrispondente sulla sidechain, trasferendo di fatto gli asset tra le blockchain.
 
 ## Impostazione ed esecuzione di Elements
 
@@ -161,7 +160,7 @@ Per trasferire gli asset alla mainchain, un utente effettua una speciale transaz
 
 Poiché Elements si fonda sul codice di base di Bitcoin, i componenti che costituiscono una rete funzionante sono molto simili.
 
-Il software del nodo Elements si chiama `elementsd` e viene eseguito come daemon (demone) sul computer dell'utente. Un daemon (demone) (o servizio in Windows) è un programma che viene eseguito come servizio in background senza richiedere il controllo diretto di un utente connesso.
+Il software Element nel nodo si chiama `elementsd` e viene eseguito come daemon (demone) sul computer dell'utente. Un daemon (o servizio in Windows) è un programma che viene eseguito come servizio in background senza richiedere il controllo diretto di un utente connesso.
 
 Nota: in questo documento ci riferiremo sempre a elementsd come versione del daemon (demone), ma tutto può essere fatto con elements-qt, a condizione che l'opzione server sia abilitata.
 
@@ -173,9 +172,9 @@ Poiché un nodo Elements può essere configurato passando i parametri all'avvio 
 
 ### L'archivio e la comunità del codice Elements
 
-Elements è un progetto open-source e il suo codice sorgente può essere trovato nel repository GitHub di Elements, all'indirizzo https://github.com/ElementsProject/elements. Il repository contiene i sorgenti dei programmi elementsd ed elements-cli, oltre a strumenti di installazione e compilazione di supporto, una suite di test e una certa documentazione didattica.
+Elements è un progetto open-source e il suo codice sorgente lo puoi trovare nel repository GitHub di Elements, all'indirizzo https://github.com/ElementsProject/elements. Il repository contiene i sorgenti dei programmi elementsd ed elements-cli, oltre a strumenti di installazione e compilazione di supporto, una suite di test e diversa documentazione didattica.
 
-A complemento del repository di codice, c'è anche il sito web https://elementsproject.org, una risorsa incentrata sulla comunità che contiene spiegazioni su cos'è Elements, come funziona e una sezione di tutorial completa. L'esercitazione si concentra sull'apprendimento di Elements seguendo esempi da riga di comando e mostra come costruire semplici applicazioni desktop e web su di esso. Il sito elenca anche i forum di discussione della comunità di Elements ed è ospitato su GitHub, consentendo alla comunità di contribuire ai contenuti del sito.
+A complemento del repository del codice, c'è anche il sito web https://elementsproject.org, una risorsa incentrata sulla comunità che contiene spiegazioni su cos'è Elements, come funziona e una sezione di tutorial completa. L'esercitazione si concentra sull'apprendimento di Elements seguendo esempi da riga di comando e mostra come costruire semplici applicazioni desktop e web su di esso. Il sito elenca anche i forum di discussione della comunità di Elements ed è ospitato su GitHub, consentendo alla comunità di contribuire ai contenuti del sito.
 
 Per eseguire Elements sul proprio computer è necessario innanzitutto clonare (scaricare una copia) del codice sorgente, installare tutte le dipendenze presenti nel codice e infine creare gli eseguibili del daemon (demone) e del client. Il software Elements è quindi pronto per essere configurato ed eseguito.
 
@@ -189,8 +188,8 @@ Le impostazioni vengono caricate dal file `elements.conf` designato o passate co
 
 Alcuni elementi possono essere modificati utilizzando questi parametri:
 
-- Il nome dell'asset predefinito utilizzato nelle implementazioni di _blockchain standalone_.
-- Il numero della risorsa iniziale creata.
+- Il nome dell'asset predefinito utilizzato nelle implementazioni di blockchain standalone.
+- Il numero di inital asset creati.
 - L'asset da utilizzare per il pagamento delle commissioni di transazione sulla rete.
 - La posizione di archiviazione dei file di dati della blockchain.
 - Le credenziali RPC utilizzate per connettersi a un nodo Bitcoin.
@@ -204,7 +203,7 @@ L'uso dei parametri sarà trattato più avanti nello svolgimento del corso, in r
 
 ### Operazioni di base con la riga di comando
 
-Questo corso mostra esempi che utilizzano il programma `elements-cli` per effettuare chiamate RPC a uno o più nodi Elements. Questo viene fatto da una sessione di terminale e per rendere i comandi più brevi verrà usato un `alias`. In base a questa convenzione, quando si vede qualcosa come i seguenti comandi:
+Questo corso mostra esempi che utilizzano il programma `elements-cli` per effettuare chiamate RPC a uno o più nodi Elements. Questo viene fatto da una sessione di terminale e per rendere i comandi più brevi verrà usato un `alias`. In base a questa convenzione, quando si vede qualcosa di simile ai seguenti comandi:
 
 ```bash
 e1-dae
@@ -247,7 +246,7 @@ Tutti gli indirizzi in Elements sono, per impostazione predefinita, offuscati ut
 
 ### Confidential Addresses e Confidential Transactions
 
-Per impostazione predefinita, quando si crea un nuovo indirizzo in Elements con il comando `getnewaddress`, viene creato come "Confidential Address" (Indirizzo Riservato).
+Per impostazione predefinita, quando si crea un nuovo indirizzo in Elements con il comando `getnewaddress`, viene creato un "Confidential Address" (Indirizzo Riservato).
 
 Per dimostrare le Confidential Transactions, faremo in modo che e2 invii a se stesso dei fondi e poi cerchi di visualizzare la transazione da e1. Questo dimostrerà la natura confidenziale delle transazioni in Elements.
 
@@ -275,7 +274,7 @@ Ora possiamo fare in modo che e2 invii dei fondi all'indirizzo che ha generato. 
 e2-cli sendtoaddress <address>
 ```
 
-Annotare l'ID della transazione. Confermare la transazione.
+Annota l'ID della transazione. Conferma la transazione.
 
 ```
 e2-cli -generate 101
@@ -289,25 +288,25 @@ e2-cli gettransaction <txid>
 
 Scorrendo i dettagli della transazione, si può notare che e2 è in grado di visualizzare gli importi inviati e ricevuti e l'asset transato. Si possono anche vedere le proprietà amountblinder e assetblinder, utilizzate per nascondere i dettagli da altri nodi non coinvolti nella transazione.
 
-Per controllare i dettagli della stessa transazione da e1, dobbiamo prima ottenere i dettagli della transazione grezza.
+Per controllare i dettagli della stessa transazione da e1, dobbiamo prima ottenere i dettagli della transazione in formato raw (grezza).
 
 ```
 e1-cli getrawtransaction <txid>
 ```
 
-Questo restituisce i dettagli grezzi della transazione. Se si guarda alla sezione vout, si può notare che ci sono tre istanze. Le prime due istanze sono gli importi di ricezione e di modifica, mentre la terza è la commissione della transazione. Di questi tre importi, quello della commissione è l'unico in cui è possibile vedere un valore, poiché la commissione stessa è sempre non evidenziata all'interno di Elements.
+Questo restituisce i dettagli grezzi della transazione. Se si guarda alla sezione vout, si può notare che ci sono tre istanze. Le prime due istanze sono gli importi di ricezione e di modifica, mentre la terza sono le fee della transazione. Di questi tre importi, quello delle fee è l'unico in cui è possibile vedere un valore, poiché le fee stesse sono sempre non offuscate all'interno di Elements.
 
 ### Blinding Keys
 
 Le prime due sezioni di vout mostrano dei "blinded ranges" (intervalli nascosti) di valori e di commitment data, i quali fungono da prova dell'importo effettivo e del tipo di asset transato.
 
-Anche se importassimo la chiave privata di e2 nel wallet di e1, quest'ultimo non sarebbe comunque in grado di vedere gli importi e il tipo di asset transato, perché non è ancora a conoscenza della blinding key utilizzata da e2. Lo dimostreremo importando la chiave privata utilizzata dal wallet di e2 in quello di e1. Per prima cosa dobbiamo esportare la chiave da e2.
+Anche se importassimo la chiave privata di e2 nel wallet di e1, quest'ultimo non sarebbe comunque in grado di vedere gli importi e il tipo di asset transato, perché non è ancora a conoscenza della blinding key utilizzata da e2. Tutto questo lo dimostriamo importando la chiave privata utilizzata dal wallet di e2 in quello di e1. Per prima cosa dobbiamo esportare la chiave da e2.
 
 ```
 e2-cli dumpprivkey <address>
 ```
 
-Quindi importarlo in e1.
+Quindi lo importiamo in e1.
 
 ```
 e1-cli importprivkey <privkey>
@@ -353,11 +352,11 @@ Per questa lezione è tutto, in bocca al lupo per il quiz e arrivederci alla pro
 
 :::video id=7ac63148-d730-496d-85d4-0032aaf09be1:::
 
-In questa sezione si spiega come utilizzare la funzione "Issued Assets" di Elements.
+In questa sezione verrà insegnato come utilizzare la funzione "Issued Assets" di Elements.
 
 Gli Issued Assets consentono di emettere e scambiare diversi tipi di asset tra i partecipanti alla rete Elements. Ogni nodo della rete può emettere i propri asset. Le emissioni possono rappresentare la proprietà fungibile di qualsiasi asset, compresi voucher, coupon, valute, depositi, obbligazioni, azioni, ecc. Gli asset emessi aprono la strada a scambi "trustless" (non basati sulla fiducia in terze parti), opzioni e altri smart contract avanzati che coinvolgono asset auto-generati.
 
-Un'"Issued Asset" beneficia anche di Confidential Transactions e può essere riemesso da chiunque detenga il token associato.
+Un "Issued Asset" beneficia anche di Confidential Transactions e può essere riemesso da chiunque detenga il token associato.
 
 Il primo passo è l'accesso a due nodi Elements, che chiameremo e1 ed e2. I nodi hanno resettato la blockchain e l'asset iniziale è stato diviso tra loro.
 
@@ -373,11 +372,11 @@ e1-cli listissuances
 e2-cli listissuances
 ```
 
-Come si può vedere, entrambi i nodi mostrano la stessa cronologia di emissione. Entrambi mostrano un asset, l'emissione iniziale di 21 milioni di Bitcoin creati all'inizializzazione della chain. È possibile vedere l'hex id dell'asset nei risultati dell'esecuzione del comando precedente e anche l'etichetta assegnata all'asset, che è "bitcoin".
+Come si può vedere, entrambi i nodi mostrano la stessa cronologia di emissione. Entrambi mostrano un asset, l'emissione iniziale di 21 milioni di Bitcoin creati all'inizializzazione della chain. È possibile vedere l'hex id dell'asset nei risultati dell'esecuzione del comando precedente e anche l'etichetta assegnata all'asset, che è 'bitcoin'.
 
-Vale la pena notare che all'asset predefinito viene sempre assegnata un'etichetta quando la chain viene inizializzata. Quando si rilasciano le proprie risorse, è possibile impostare le etichette per esse, cosa che faremo a breve. Prima di poterlo fare, dobbiamo emettere la nostra risorsa.
+Vale la pena notare che all'asset predefinito viene sempre assegnata un'etichetta quando la chain viene inizializzata. Quando si rilasciano i propri asset, è possibile impostare delle etichette per essi, cosa che faremo a breve. Prima di poterlo fare, dobbiamo emettere i nostri asset.
 
-Chiederemo a e1 di emettere la nuova risorsa. Per farlo, si utilizza il comando issueasset.
+Chiederemo a e1 di emettere i nuovi asset e per farlo, si utilizza il comando issueasset.
 
 ```
 e1-cli issueasset 100 1 false
@@ -385,23 +384,23 @@ e1-cli issueasset 100 1 false
 
 `issueasset` accetta 3 parametri.
 
-L'ammontare del nuovo asset da emettere, noi abbiamo usato 100. La quantità di token da creare (i token sono utilizzati per riemettere quantità di un asset), di cui abbiamo scelto 1. Il parametro finale indica a Elements di creare l'emissione dell'asset come "blinded" (offuscato) o "unblinded" (non offuscato). Utilizzeremo unblinded perché vogliamo visualizzare gli importi dell'emissione da e2 tra un minuto, quindi inseriremo `false`.
+L'ammontare del nuovo asset da emettere, noi abbiamo usato 100. La quantità di token da creare (i token sono utilizzati per riemettere quantità di un asset), noi abbiamo scelto 1. Il parametro finale indica a Elements di creare l'emissione dell'asset come "blinded" (offuscato) o "unblinded" (non offuscato). Utilizzeremo unblinded perché vogliamo visualizzare gli importi dell'emissione da e2 tra un minuto, quindi inseriremo `false`.
 
 L'esecuzione del comando restituisce i dati relativi all'emissione. Questi includono l'id della transazione, di cui si può fare una copia per un uso successivo, il valore hex unico della risorsa e il valore hex unico del token della risorsa.
 
-Generare un blocco per confermare la transazione di emissione.
+Generiamo un blocco per confermare la transazione di emissione.
 
 ```
 e1-cli -generate 1
 ```
 
-Eseguire nuovamente il comando `listissuances` su e1.
+Eseguiamo nuovamente il comando `listissuances` su e1.
 
 ```
 e1-cli listissuances
 ```
 
-Questo ci mostra che e1 è ora a conoscenza di due emissioni, l'emissione iniziale di bitcoin e i nostri nuovi asset emessi, di cui possiamo vedere 100 esemplari. Si noti il valore hex del nuovo asset e che non c'è un'etichetta di asset associata, come per l'emissione di bitcoin.
+Questo ci mostra che e1 è ora a conoscenza di due emissioni, l'emissione iniziale di bitcoin e i nostri nuovi asset emessi, di cui possiamo vedere 100 esemplari. Si noti il valore hex del nuovo asset e che non c'è un'etichetta associata all'asset, come per l'emissione di bitcoin.
 
 Controllate di nuovo l'elenco delle emissioni note di e2.
 
@@ -433,7 +432,7 @@ Ora importiamo l'indirizzo in e2. Per farlo, si usa il comando importaddress.
 e2-cli importaddress <the-issued-to-address>
 ```
 
-Se ora controlliamo l'elenco delle emissioni di e2.
+Ora controlliamo l'elenco delle emissioni di e2.
 
 ```
 e2-cli listissuances
@@ -445,7 +444,7 @@ Si può notare che il nostro asset appena emesso è ora incluso nell'elenco. Il 
 e1-cli stop
 ```
 
-Poi lo si riavvia con un parametro aggiuntivo che mappa l'hex dell'asset con l'etichetta fornita. Questo permette al nodo di visualizzare i dati sull'asset in un formato più leggibile. Se si preferisce, si può aggiungere questo parametro alla fine di `elements.conf`, in modo da non dover aggiungere l'argomento al _daemon (demone)_ ogni volta che lo si avvia. Per esempio:
+Poi lo si riavvia con un parametro aggiuntivo che mappa l'hex dell'asset con l'etichetta fornita. Questo permette al nodo di visualizzare i dati sull'asset in un formato più leggibile. Se si preferisce, si può aggiungere questo parametro alla fine di `elements.conf`, in modo da non dover aggiungere l'argomento al daemon (demone) ogni volta che lo si avvia. Per esempio:
 
 ```
 assetdir=5186d0bc8ed15e6ef85571bd2d8070573adf0e06fd4507082694526975ce4f35:My new asset (MNA)
@@ -475,21 +474,21 @@ Si può notare che il nodo e2 non ha accesso a questa etichetta, perché le etic
 e2-cli stop
 ```
 
-Riavviare con un'etichetta diversa assegnata all'esagono della nostra nuova risorsa.
+Riavviamo con un'etichetta diversa assegnata all'hex della nostra nuovo asset.
 
 ```
 e2-dae -assetdir=<assetid-here>:<another-name-for-the-new-asset>
 ```
 
-Emissioni di elenchi da e2.
+Elenchiamo le emissioni da e2.
 
 ```
 e2-cli listissuances
 ```
 
-Le etichette degli asset sono locali rispetto a ciascun nodo, solo l'esadecimale dell'asset viene riconosciuto dagli altri nodi della rete.
+Le etichette degli asset sono native rispetto a ciascun nodo, solo l'hex dell'asset viene riconosciuto dagli altri nodi della rete.
 
-La mappatura dell'etichetta con l'esadecimale dell'asset è utile quando si eseguono azioni come le transazioni e le interrogazioni sul saldo del wallet, in quanto consente di fare riferimento a un asset in modo abbreviato. Ad esempio, se volessimo inviare una parte del nostro nuovo asset (una quantità di 10) da e1 a e2 senza usare l'etichetta.
+La mappatura dell'etichette con l'hex dell'asset è utile quando si eseguono azioni come le transazioni e le interrogazioni sul saldo del wallet, in quanto consente di fare riferimento a un asset in modo abbreviato. Ad esempio, se volessimo inviare una parte del nostro nuovo asset (una quantità di 10) da e1 a e2 senza usare l'etichetta.
 
 Per prima cosa dobbiamo ottenere un indirizzo a cui inviare l'asset.
 
@@ -497,19 +496,19 @@ Per prima cosa dobbiamo ottenere un indirizzo a cui inviare l'asset.
 e2-cli getnewaddress
 ```
 
-Quindi utilizzare il comando sendtoaddress.
+Quindi utilizzamo il comando sendtoaddress.
 
 ```
 e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <asset-id-here>
 ```
 
-Confermare la transazione generando un blocco.
+Confermiamo la transazione generando un blocco.
 
 ```
 generate 1
 ```
 
-Verifica della ricezione dell'asset su e2.
+Verifichiamo la ricezione dell'asset su e2.
 
 ```
 e2-cli getwalletinfo
@@ -517,13 +516,13 @@ e2-cli getwalletinfo
 
 Possiamo vedere che l'asset è stato effettivamente ricevuto.
 
-Si noti che e2 mappa l'esadecimale dell'asset ricevuto e lo visualizza utilizzando la propria etichetta. Un modo più semplice per fare la stessa cosa sarebbe quello di utilizzare l'etichetta della risorsa di e1 durante l'invio.
+Si noti che e2 mappa l'hex dell'asset ricevuto e lo visualizza utilizzando la propria etichetta. Un modo più semplice per fare la stessa cosa sarebbe quello di utilizzare l'etichetta della risorsa di e1 durante l'invio.
 
 ```
 e1-cli sendtoaddress <address> 10 "" "" false false 1 UNSET false <name-of-the-new-asset>
 ```
 
-Dietro le quinte, Elements mappa le etichette locali in valori esadecimali per semplificare l'uso degli asset emessi.
+Dietro le quinte, Elements mappa le etichette native in valori hex per semplificare l'uso degli asset emessi.
 
 In questa sezione abbiamo visto come emettere ed etichettare gli asset. Nella prossima sezione vedremo come riemettere e distruggere le quantità di un'asset emesso.
 

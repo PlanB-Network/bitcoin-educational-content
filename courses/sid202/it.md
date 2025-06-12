@@ -538,7 +538,7 @@ La necessità di riemettere un'asset (crearne di più) o di distruggerne una qua
 
 La riemissione di un importo di un'asset richiede la proprietà del token associato che è stato creato insieme all'asset quando è stato inizialmente emesso.
 
-Quando si creano altri asset, non importa quale nodo abbia emesso l'asset in primo luogo, purché il nodo che sta riemettendo una quantità di asset sia in possesso di quello che viene comunemente chiamato token di riemissione dell'asset. Vedremo come creare inizialmente il token di riemissione, come usarlo per riemettere una quantità di asset e come trasferire il token di riemissione ad altri nodi, in modo che anch'essi abbiano il permesso di riemettere l'asset.
+Quando si creano altri asset, non importa quale nodo abbia emesso l'asset in primo luogo, purché il nodo che sta riemettendo una quantità di asset sia in possesso di quello che viene comunemente chiamato "asset's reissuance token" (token di riemissione dell'asset). Vedremo come creare inizialmente l'asset's reissuance token, come usarlo per riemettere una quantità di asset e come trasferire l'asset's reissuance token ad altri nodi, in modo che anch'essi abbiano il permesso di riemettere l'asset.
 
 Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e l'asset predefinito è stato diviso tra loro.
 
@@ -550,9 +550,9 @@ e1-cli issueasset 100 1 false
 
 Si noti l'ID dell'asset e anche quello del token (di riemissione).
 
-Poiché in seguito emetteremo altre asset da e2, dovremo prendere nota dell'ID della transazione in cui è stato emesso l'asset e utilizzarlo per importare l'indirizzo a cui è stato inviato l'asset.
+Poiché in seguito emetteremo altri asset da e2, dovremo prendere nota dell'ID della transazione in cui è stato emesso l'asset e utilizzarlo per importare l'indirizzo a cui è stato inviato l'asset.
 
-Confermare la transazione.
+Confermiamo la transazione.
 
 ```
 e1-cli -generate 1
@@ -564,7 +564,7 @@ Ora controlleremo i dettagli della transazione utilizzando il comando gettransac
 e1-cli gettransaction <txid>
 ```
 
-Scorrendo l'esadecimale dei dati della transazione, si vedrà che nella transazione e1 ha ricevuto 1 token di riemissione e 100 unità dell'asset associato.
+Scorrendo l'hex dei dati della transazione, si vedrà che nella transazione e1 ha ricevuto 1 token di riemissione e 100 unità dell'asset associato.
 
 Fate una copia dell'indirizzo per poterlo importare in e2.
 
@@ -588,13 +588,13 @@ Attualmente e1 detiene una quantità di asset e 1 token di riemissione, mentre e
 e1-cli getwalletinfo
 ```
 
-Si noti inoltre che e1 possiede una quantità minore di asset predefinita rispetto a prima, perché ha pagato un piccolo importo per coprire le commissioni di transazione. Questo importo deve essere riscosso da e1 quando il blocco creato viene maturato con una profondità di oltre 100 blocchi.
+Si noti inoltre che e1 possiede una quantità minore di asset predefinita rispetto a prima, perché ha pagato un piccolo importo per coprire le fee di transazione. Questo importo deve essere riscosso da e1 quando il blocco creato viene maturato con una profondità di oltre 100 blocchi.
 
 ```
 e2-cli getwalletinfo
 ```
 
-Poiché e1 detiene il token di riemissione, può riemetterne altri. Ciò avviene utilizzando il comando reissueasset. Facciamo in modo che e1 riemetta altri 100 asset.
+Poiché e1 detiene il token di riemissione, può riemetterne altri. Ciò avviene utilizzando il comando 'reissueasset'. Facciamo in modo che e1 riemetta altri 100 asset.
 
 ```
 e1-cli reissueasset <asset-id> 100
@@ -608,13 +608,13 @@ e1-cli getwalletinfo
 
 Si può notare che e1 ora detiene 200 unità dell'asset, come previsto.
 
-Poiché e2 non detiene una quantità di token di riemissione, riceveranno un errore se proveranno a riemettere l'asset.
+Poiché e2 non detiene una quantità di token di riemissione, riceveremo un errore se proviamo a riemettere l'asset.
 
 ```
 e2-cli reissueasset <asset-id> 100
 ```
 
-Notare il messaggio di errore.
+Notate il messaggio di errore.
 
 È possibile visualizzare i dettagli della riemissione da e1 utilizzando il comando listissuances.
 
@@ -624,19 +624,19 @@ e1-cli listissuances
 
 Si noti il flag `is_reissuance`.
 
-Se ora inviamo a e2 una quantità di token di riemissione, saranno in grado di riemettere loro stessi una quantità di asset. Per prima cosa abbiamo bisogno di un indirizzo a cui inviarlo. Vale la pena notare che il token di riemissione viene trattato come qualsiasi altro asset all'interno di Elements quando si inviano e si visualizzano i saldi e che può anche essere suddiviso in tagli più piccoli come qualsiasi altro asset, quindi non è necessario inviare 1 token di riemissione a e2 perché possa riemettere l'asset. Qualsiasi taglio sarà sufficiente. Generare un indirizzo per e2 per ricevere il token di riemissione.
+Se ora inviamo a e2 una quantità di token di riemissione, saremo in grado di riemettere da soli una quantità di asset. Per prima cosa abbiamo bisogno di un indirizzo a cui inviarli. Vale la pena notare che il token di riemissione viene trattato come qualsiasi altro asset all'interno di Elements quando si inviano e si visualizzano i saldi e che può anche essere suddiviso in tagli più piccoli come qualsiasi altro asset, quindi non è necessario inviare 1 token di riemissione a e2 perché possa riemettere l'asset. Qualsiasi taglio sarà sufficiente. Generate un indirizzo per e2 per ricevere il token di riemissione.
 
 ```
 e2-cli getnewaddress
 ```
 
-Quindi inviare una frazione del RIT da e1 a e2.
+Quindi inviamo una frazione del RIT (reissuance token) da e1 a e2.
 
 ```
 e1-cli sendtoaddress <address-of-e2> 0.1 "" "" false false 1 UNSET false <reissuance-token-id>
 ```
 
-Confermare la transazione.
+Confermiamo la transazione.
 
 ```
 e1-cli -generate 1
@@ -690,7 +690,7 @@ Impostiamo i nostri nodi in modo che richiedano la creazione di blocchi multisig
 
 Lo faremo usando alcuni nodi esistenti, salveremo i dati che producono e poi cancelleremo la chain in modo da poterla riavviare usando il nostro parametro signblockscript. Questo è necessario perché lo script fa parte delle regole di consenso della rete e deve essere impostato all'inizializzazione della chain. Non può essere aggiunto in un secondo momento a una chain già esistente.
 
-Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e l'asset predefinito è stata diviso tra loro.
+Avremo bisogno di accedere a due nodi Elements, che chiameremo e1 ed e2. I nodi sono stati resettati e l'asset predefinito è stato diviso tra loro.
 
 Assicurarsi che il parametro con_max_block_sig_size sia impostato a un valore elevato nel file elements.conf, altrimenti la firma a blocchi fallirà più avanti in questa sezione. Per questa esercitazione abbiamo impostato con_max_block_sig_size=2000.
 
@@ -720,7 +720,7 @@ e1-cli dumpprivkey <e1-address>
 e2-cli dumpprivkey <e2-address>
 ```
 
-Ora dobbiamo generare uno _script redeem_ con i requisiti di multi-firma 2 su 2. Per farlo, si utilizza il comando createmultisig, passando il primo parametro a 2 e fornendo due chiavi pubbliche. Sono queste chiavi che la proprietà deve essere dimostrata in seguito, quando il blocco viene creato.
+Ora dobbiamo generare uno [_script redeem_](https://planb.network/resources/glossary/redeemscript) con i requisiti di multi-firma 2 su 2. Per farlo, si utilizza il comando createmultisig, passando il primo parametro a 2 e fornendo due chiavi pubbliche. Sono queste chiavi, la cui proprietà deve essere dimostrata in seguito, quando il blocco viene creato.
 
 Entrambi i nodi, e1 o e2, possono generare il multisig.
 
@@ -804,7 +804,7 @@ Ora entrambi i nodi possono inviare il blocco hex completato. Lo faremo fare a e
 e1-cli submitblock <combined-signed-hex>
 ```
 
-Verifica della validità dell'invio.
+Verifichiamo la validità dell'invio.
 
 ```
 e1-cli getblockcount
@@ -816,9 +816,8 @@ Si può notare che sia e1 che e2 hanno accettato il blocco come valido e lo hann
 
 Per riassumere il processo. In questa sezione abbiamo:
 
-
 - Eseguito la proposta di un blocco.
-- Lo abbiamo fatto firmare a ciascun nodo.
+- Firmato il blocco da ciascun nodo.
 - Unito le firme.
 - Verificato che le firme siano valide e che soddisfino la soglia di riscrittura della chain.
 - Presentato il blocco.
@@ -833,11 +832,11 @@ Sebbene il processo appaia inizialmente complesso, la sequenza di firma dei bloc
 
 2. Viene creato un indirizzo multi-firma chiamato `signblockscript` utilizzando le chiavi pubbliche dei Federated Block Signers.
 
-3. Lo script di _reedem_ (riscatto) viene utilizzato per avviare una nuova blockchain.
+3. Il reedem script che viene utilizzato per avviare una nuova blockchain.
 
-4. Produzione in blocco (in corso)
+5. Produzione dei blocchi (in corso)
 
-5. I blocchi proposti vengono generati e scambiati per la firma.
+6. I blocchi proposti vengono generati e scambiati per la firma.
 
 Una volta che un numero soglia di firmatari ha firmato il blocco proposto, questo viene combinato e sottoposto alla rete. Se soddisfa i criteri del `signblockscript` della chain, i nodi lo accettano come blocco valido.
 

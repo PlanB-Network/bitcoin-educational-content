@@ -35,7 +35,7 @@ The Alby Browser Extension is available for:
 - All Chromium-based browsers (e.g., Chrome, Brave, Edge, Opera)
 - Firefox (Desktop & *Mobile*)
 
-Privacy and Security: The Alby Browser Extension is a self-custodial application. Your private keys are securely encrypted and stored on your device. You retain control over your assets and data.
+**Privacy and Security**: The Alby Browser Extension is a self-custodial application. Your private keys are securely encrypted and stored on your device. You retain control over your assets and data.
 
 For the most accurate and easy-to-follow instructions, check out [Alby's guides](https://guides.getalby.com/user-guide/browser-extension) 
 

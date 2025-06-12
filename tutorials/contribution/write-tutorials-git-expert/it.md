@@ -1,6 +1,6 @@
 ---
 name: Contributo - Tutorial Git (avanzato)
-description: Guida per utenti avanzati per fornire un tutorial su Plan ₿ Network con Git
+description: Guida per utenti avanzati per redigere un tutorial su Plan ₿ Network con Git
 ---
 ![cover](assets/cover.webp)
 

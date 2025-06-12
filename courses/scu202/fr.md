@@ -1631,28 +1631,213 @@ Enfin, même si le sandboxing offre une couche de protection efficace, il est im
 
 Maintenant que nous avons abordé la sécurité de votre ordinateur via l’authentification et le cloisonnement des usages, dans le prochain chapitre, nous allons nous intéresser aux bonnes pratiques de maintenance pour renforcer encore davantage sa sécurité.
 
-
-
-
-
-
-
-
-
 ## Réduire les failles par la maintenance
 <chapterId>71d7fd95-ce1d-43d8-9a66-be7b425857fc</chapterId>
 
-Mise à jour de l’OS : pourquoi et comment ?  
-Mise à jour des logiciels : comment faire selon le système (ex. `winget upgrade --all`), focus sur les logiciels critiques.  
-Désinstallation des logiciels inutilisés pour réduire la surface d'attaque.  
-Surveillance et audit système (quels logiciels?)
+Beaucoup imaginent qu’il suffit d’installer un antivirus ou de choisir un bon mot de passe pour être protégé sur son ordinateur. Pourtant, la sécurité informatique ne se résume pas à une simple configuration ponctuelle. La réalité est en effet bien plus complexe : la majorité des cyberattaques tirent parti de vulnérabilités présentes dans des systèmes ou des logiciels dépassés. Autrement dit, la sécurité informatique passe aussi par une maintenance régulière de votre machine.
+
+Dans ce chapitre, je vais vous guider pas à pas pour apprendre à maintenir efficacement votre ordinateur, et ainsi réduire autant que possible les risques de compromission.
+
+### La mise à jour du système d’exploitation
+
+Comme nous l'avons vu au début de cette formation, le système d'exploitation assure la gestion du matériel (processeur, mémoire, disques, périphériques...), l’exécution des programmes, l’organisation des fichiers, ainsi que la gestion des connexions réseau. Il s’agit donc d’un composant critique sur votre machine.
+
+#### Pourquoi mettre à jour son OS ?
+
+À cause de sa complexité, aucune version d’un OS n’est totalement exempte de vulnérabilités. On parle ici de plusieurs millions de lignes de code. Ces failles de sécurité peuvent être exploitées par des attaquants pour exécuter du code malveillant, obtenir des privilèges non autorisés ou compromettre l’ensemble du système. Certaines de ces vulnérabilités sont découvertes de manière responsable par des chercheurs en cybersécurité, d’autres sont déjà activement exploitées sans que le grand public en ait connaissance : on parle alors de failles "zero-day".
+
+Les éditeurs de systèmes d’exploitation publient régulièrement des mises à jour de sécurité qui visent précisément à corriger ces failles. Ne pas installer ces correctifs revient à laisser volontairement une porte ouverte aux attaques, même si vous pensez que votre usage est modeste ou que vos données ne valent rien.
+
+Il ne s’agit pas uniquement de corriger des bugs visibles, mais bien d’agir sur la surface d’attaque globale de votre système. Plus cette surface est réduite, moins les attaquants ont de leviers pour compromettre votre machine.
+
+Concrètement, je vous recommande d’activer les mises à jour automatiques. C'est une fonctionnalité disponible nativement sur tous les systèmes modernes. Windows Update, par exemple, gère cela par défaut sur les machines Windows 10 et 11. Sur macOS, les mises à jour de sécurité sont intégrées au système de mise à jour du système. Sur Linux, en fonction de la distribution utilisée, des outils comme `unattended-upgrades` (Debian/Ubuntu) ou `dnf-automatic` (Fedora) vous permettent de planifier les mises à jour.
+
+Enfin, gardez à l’esprit que dans de nombreux cas, certaines mises à jour critiques n’entrent en vigueur qu’après redémarrage. Il est donc important de redémarrer votre machine régulièrement, notamment après une mise à jour système. Mettre à jour votre système d’exploitation ne prend souvent que quelques minutes, mais cela constitue l’un des remparts les plus efficaces contre de nombreuses attaques.
+
+#### Comment mettre à jour son OS ?
+
+Même si les mises à jour automatiques sont activées sur votre système, il reste important de vérifier manuellement, à intervalles réguliers, qu’aucune mise à jour n’est en attente. Voyons ensemble comment procéder en fonction de votre système :
+
+- **Sous Windows**
+
+Windows intègre un gestionnaire de mises à jour centralisé appelé "*Windows Update*". Celui-ci permet de télécharger et d’installer automatiquement les mises à jour, les correctifs de sécurité, les pilotes de périphériques, et parfois même les microcodes pour le processeur.
+
+Pour vérifier manuellement l’état des mises à jour :
+
+```txt
+Settings → Windows Update → Check for updates
+```
+
+Pensez également à vérifier les mises à jour facultatives, dans ce même menu.
+
+- **Sous Linux**
+
+Les distributions Linux reposent sur un système de paquets maintenus par la communauté et les mainteneurs de votre distribution. Les mises à jour sont appliquées via le gestionnaire de paquets. 
+
+Sous Debian (donc Ubuntu) :
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+Si vous préférez utiliser une interface graphique, sur Ubuntu, il y a l’outil Software Updater qui permet de gérer les mises à jour facilement sans passer par le terminal.
+
+Sous Red Hat (Fedora) :
+
+```bash
+sudo dnf upgrade
+```
+
+Sous Arch Linux :
+
+```bash
+sudo pacman -Syu
+```
 
 
+- **Sous macOS**
 
+Apple centralise ses mises à jour système dans l’interface des paramètres. Pour vérifier leur disponibilité :
 
+```txt
+Apple menu → System Settings → General → Software Update
+```
 
+macOS propose de télécharger automatiquement les mises à jour de sécurité, du système et des applications intégrées via l’option "*Automatic Updates*" dans ce même menu.
 
+### La mise à jour des logiciels
 
+La sécurité de votre ordinateur ne dépend pas uniquement de votre système d’exploitation. Chaque logiciel installé représente un point d’entrée potentiel pour des attaques. Dès qu’un programme présente une faille de sécurité non corrigée, il peut être exploité pour compromettre votre système ou voler vos données.
+
+Certains logiciels sont plus sensibles que d’autres car ils interagissent directement avec l’extérieur ou manipulent des fichiers potentiellement hostiles. Parmi les logiciels les plus critiques, il y a :
+
+- **Les navigateurs web** : ils sont en première ligne face aux attaques, car ils traitent en temps réel des contenus non vérifiés et possèdent une surface d’attaque particulièrement grande. De plus, ils jouent un rôle central dans la protection de vos données personnelles. Et surtout, ils tendent aujourd’hui à remplacer de nombreux logiciels autrefois utilisés localement (clients mail, suites bureautiques, lecteurs multimédia...). Mais nous reviendrons plus en détail sur ce point dans la prochaine section du cours SCU 202 ;
+
+- **Les clients mail** : ils reçoivent des pièces jointes ou des liens provenant de sources extérieures incontrôlables et donc risquées ;
+
+- **Les outils de communication** (TeamViewer, Zoom, Signal, Teams…) : en raison de leur nature interactive, ils constituent des cibles pour des attaques d’espionnage ou des tentatives de prise de contrôle à distance. De la même manière que les clients mail, les outils de communication peuvent servir de vecteurs pour des tentatives de phishing ou la diffusion de pièces jointes malveillantes ;
+
+- **Les antivirus, pare-feu et autres solutions de détection** : ces outils bénéficient généralement de privilèges élevés, car ils scrutent en continu vos fichiers, vos processus et vos connexions réseau. Une base de signatures obsolète, une mauvaise configuration ou une vulnérabilité dans le logiciel lui-même peut permettre à un malware de passer inaperçu, voire de s’élever en privilèges.
+
+Tous ces risques ne découlent évidemment pas uniquement d’une mauvaise maintenance, mais il est important de porter une attention particulière à la mise à jour de ces logiciels sensibles. Ici, je simplifie, mais évidemment, tous vos autres logiciels doivent eux aussi être régulièrement mis à jour. Voyons justement comment faire en fonction de votre système d’exploitation.
+
+#### Sous Windows
+
+Sur Windows 11, l’utilitaire *Winget* est intégré au système. Il permet de lister et mettre à jour la plupart des logiciels installés sur votre ordinateur, directement via le terminal. Exécutez simplement dans Windows PowerShell :
+
+```CMD
+winget upgrade --all
+```
+
+Cette commande va interroger les dépôts publics pour rechercher les versions les plus récentes des logiciels que vous avez, et les met à jour automatiquement.
+
+Hélas, cette commande ne fonctionne pas pour tous les logiciels. C’est pourquoi, en complément, je vous recommande de tenir une liste de l’ensemble de vos logiciels et de vérifier manuellement leurs mises à jour de manière régulière, en particulier pour les applications sensibles. Pour les logiciels les plus critiques, comme votre antivirus ou votre navigateur web, je vous conseille de faire cette vérification au quotidien.
+
+#### Sous Linux (Debian/Ubuntu)
+
+La force des distributions Linux est leur gestion centralisée des logiciels. Le gestionnaire de paquets (`APT` dans le cas de Debian) permet de maintenir à jour le système et l’ensemble des logiciels installés via les dépôts officiels.
+
+De la même manière que pour la mise à jour de l'OS, pour effectuer une mise à jour globale de vos logiciels, il suffit d'exécuter dans un terminal :
+
+```bash
+sudo apt update && sudo apt upgrade
+```
+
+Cette commande de base rafraîchit la liste des paquets disponibles (`apt update`) puis applique les mises à jour nécessaires (`apt upgrade`).
+
+Pour une mise à jour plus complète, vous pouvez également utiliser cette commande :
+
+```bash
+sudo apt update \
+&& sudo apt full-upgrade -y \
+&& sudo apt autoremove -y \
+&& sudo apt autoclean
+```
+
+- `sudo apt full-upgrade` met à jour tous les paquets installés, y compris ceux qui nécessitent l’ajout ou la suppression de dépendances. `-y` permet de répondre automatiquement "oui" à toutes les confirmations que le gestionnaire de paquets pourrait vous demander ;
+- `sudo apt autoremove -y` : supprime les dépendances devenues inutiles ;
+- `sudo apt autoclean` : nettoie le cache des paquets obsolètes.
+
+Si vous avez des logiciels distribués sous forme de paquets Flatpak ou Snap, certains se mettent à jour automatiquement, mais vous pouvez tous les mettre à jour manuellement avec la commande :
+
+```bash
+flatpak update sudo snap refresh
+```
+
+#### Sous macOS
+
+Les logiciels installés via l’App Store peuvent être mis à jour facilement dans le menu suivant :
+
+```txt
+Apple menu → App Store → Update All
+```
+
+Vous pouvez également activer les mises à jour automatiques des applications dans les paramètres de l’App Store.
+
+Cependant, toutes les applications installées sur votre Mac ne proviennent pas de l’App Store. Pour les autres logiciels, il faudra effectuer les mises à jour manuellement. Comme pour les utilisateurs de Windows, je vous recommande donc de tenir une liste de l’ensemble de vos logiciels et de vérifier régulièrement s’ils disposent de nouvelles versions, en particulier pour ceux qui sont sensibles comme votre navigateur web.
+
+### La désinstallation des logiciels
+
+Dans une perspective de sécurité informatique, moins il y a de logiciels installés, moins il y a de portes d’entrée potentielles pour un attaquant. Chaque application installée sur votre système peut contenir des failles de sécurité, même si vous ne l’utilisez jamais. C’est ce qu’on appelle la surface d’attaque : plus elle est grande, plus les risques augmentent. Réduire cette surface en supprimant les logiciels inutiles est donc une mesure de prévention simple mais efficace.
+
+Certaines applications préinstallées ou des programmes installés pour un usage ponctuel peuvent rester sur votre ordinateur pendant des mois sans être utilisés, tout en continuant à recevoir des mises à jour ou à interagir avec votre système. Pire encore, si ces logiciels ne sont plus maintenus, ils peuvent comporter des vulnérabilités.
+
+#### Sous Windows
+
+Pour accéder à la liste des applications installées :
+
+```txt
+Settings → Apps → Installed apps
+```
+
+Parcourez cette liste de logiciels et supprimez tout ce que vous n’utilisez plus, ou dont vous ignorez l’utilité (après une rapide vérification sur internet si nécessaire). Soyez prudent avec les logiciels système, mais n’hésitez pas à désinstaller les jeux préinstallés, les outils de maintenance douteux ou les applications marketing.
+
+#### Sous Linux (Debian/Ubuntu)
+
+Ouvrez un terminal et exécutez la commande suivante pour supprimer un logiciel :
+
+```bash
+sudo apt remove name_of_the_software
+```
+
+Puis exécutez cette commande pour supprimer automatiquement les dépendances devenues inutiles :
+
+```bash
+sudo apt autoremove
+```
+
+#### Sous macOS
+
+Sous macOS, il existe principalement 2 méthodes : via *Launchpad* ou via le *Finder*. Si l’application a été téléchargée depuis l’App Store, ouvrez *Launchpad* (depuis le Dock ou le dossier `/Applications`), localisez l’application, puis maintenez la touche Option enfoncée ou effectuez un clic prolongé jusqu’à ce que les icônes se mettent à trembler. Cliquez ensuite sur la croix à côté de l’application, puis confirmez la suppression.
+
+Si le bouton de suppression n’apparaît pas, cela signifie que l’application n’a pas été installée depuis l’App Store. Dans ce cas, utilisez le *Finder*. Fermez d’abord l’application si elle est en cours d’exécution. Ouvrez le *Finder*, allez dans le dossier `/Applications`, sélectionnez l’application à supprimer, puis déplacez-la dans la corbeille. Enfin, videz la corbeille pour finaliser la désinstallation.
+
+#### N'oubliez pas les extensions de navigateur
+
+Les extensions et modules complémentaires de votre navigateur sont souvent oubliés, mais ils représentent eux aussi un vecteur d’attaque fréquent. Une extension malveillante ou obsolète peut intercepter vos données de navigation, injecter du code ou vous espionner discrètement.
+
+Accédez aux paramètres de vos navigateurs et désactivez ou supprimez toutes les extensions que vous n’utilisez pas ou que vous ne connaissez pas. Ne conservez que celles strictement nécessaires, provenant de sources de confiance et encore maintenues.
+
+### La surveillance et l'audit système
+
+La cybersécurité implique également une surveillance de l’activité du système. Cette approche proactive permet de repérer rapidement des comportements anormaux (connexions suspectes, processus inhabituels, tentatives d’accès non autorisées...) et d’intervenir avant qu’un incident grave ne survienne.
+
+Si vous mettez en place une routine d’audit (même basique) vous pouvez détecter tôt la présence d’un malware, d’un cheval de Troie dormant ou d’un logiciel espion. Cette surveillance peut être réalisée à l’aide d’outils spécialisés.
+
+#### Sous Windows
+
+Comme nous avons vu dans la partie précédente, Windows est historiquement plus exposé aux attaques informatiques, en raison de sa large adoption et de ses spécificités techniques. Il est donc important de compléter les protections de base par des outils de diagnostic avancés :
+
+- **Microsoft Defender** : sur Windows, disposer d’un bon antivirus est une base quasiment indispensable. Pendant de nombreuses années, Microsoft Defender (anciennement Windows Defender), l’antivirus intégré au système, était considéré comme peu fiable, et l’on recommandait plutôt de recourir à des solutions tierces. Mais ce logiciel s’est considérablement amélioré avec le temps, et il est aujourd’hui, selon moi, suffisant pour assurer une protection de base dans un usage personnel de l’ordinateur. Cela dit, il ne faut pas surestimer le rôle de l’antivirus : ce sont avant tout vos propres pratiques numériques qui assurent votre sécurité. L’un des avantages de Defender, c’est son intégration native à Windows. Il propose, en plus de sa protection en temps réel, des analyses complètes que vous pouvez programmer chaque semaine ou lancer manuellement à intervalles réguliers.
+
+- **Sysinternals Suite** : c'est un ensemble d’outils bien plus avancés proposés par Microsoft pour diagnostiquer, surveiller et dépanner Windows. Deux outils vous seront particulièrement utiles :
+    - *Process Monitor* : permet d’observer en temps réel les processus actifs, les accès fichiers, registres... ;
+    - *Autoruns* : affiche tous les programmes lancés au démarrage, ce qui vous aide à détecter rapidement un malware persistant ou une application qui ne devrait pas s’exécuter ;
+    - *Process Explorer* : surveille les processus et détecte les comportements suspects ;
+    - *TCPView* : visualise les connexions réseau actives (détection de connexions anormales) ;
+    - *Sigcheck* : vérifie les signatures numériques de fichiers (pour repérer du code malveillant).
+
+- **GlassWire** : un outil de surveillance réseau. Il trace les connexions entrantes et sortantes en temps réel, et vous alerte en cas d’activité inhabituelle.
 
 
 
@@ -1661,7 +1846,9 @@ Surveillance et audit système (quels logiciels?)
 ## Intégrité et authenticité des logiciels
 <chapterId>ffa06aeb-0b90-4271-a385-9a752c1bb5ed</chapterId>
 
-Comment vérifier un logiciel avant installation, et pourquoi c’est important.
+Comment vérifier un logiciel avant installation, et pourquoi c’est important :
+- Première partie sur l'explication théorique : de quoi on parle, c'est quoi concrètement, ça sert à quoi ?
+- Seconde partie sur l'explication pratique en mode tutoriel : comment le faire sur Windows, Linux et MacOS, avec options en ligne de commande et option via un logiciel spécialisé.
 
 
 

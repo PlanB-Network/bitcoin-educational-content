@@ -846,15 +846,15 @@ Una volta che un numero soglia di firmatari ha firmato il blocco proposto, quest
 
 :::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
-Elements è una piattaforma blockchain open-source di uso generale che può anche essere `pegged` (ancorata) a una blockchain esistente, come Bitcoin. Quando è collegato a un'altra blockchain, si dice che Elements opera come una `sidechain`. Le [sidechain](https://planb.network/it/resources/glossary/sidechain) consentono il trasferimento bidirezionale di asset da una chain all'altra. L'implementazione di Elements come sidechain consente di aggirare alcune delle limitazioni intrinseche della mainchain, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla mainchain.
+Elements è una piattaforma blockchain open-source di uso generale che può anche essere `pegged` (ancorata) a una blockchain esistente, come Bitcoin. Quando è collegato a un'altra blockchain, si dice che Elements opera come una `sidechain`. Le [sidechain](https://planb.network/resources/glossary/sidechain) consentono il trasferimento bidirezionale di asset da una chain all'altra. L'implementazione di Elements come sidechain consente di aggirare alcune delle limitazioni intrinseche della mainchain, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla mainchain.
 
-Mentre una sidechain è a conoscenza della mainchain e della sua cronologia delle transazioni, la mainchain non è a conoscenza della sidechain e non è necessaria per il suo funzionamento. Ciò consente alle sidechain di innovare senza restrizioni o ritardi associati alle proposte di miglioramento del protocollo della mainchain. Piuttosto che cercare di modificarlo direttamente, l'estensione del protocollo principale permette alla mainchain stessa di rimanere sicura e specializzata, sostenendo il buon funzionamento della sidechain.
+Mentre una sidechain è a conoscenza della mainchain e della sua cronologia delle transazioni, la mainchain non è a conoscenza della sidechain e non è necessaria per il suo funzionamento. Ciò consente alle sidechain di innovare senza restrizioni o ritardi associati alle proposte di miglioramento del protocollo della mainchain. Piuttosto che cercare di modificare il protocollo principale direttamente, lo si estende, consentendo alla catena principale di rimanere sicura e specializzata, sostenendo il buon funzionamento della sidechain.
 
 Estendendo le funzionalità di Bitcoin e sfruttando la sua sicurezza sottostante, una sidechain basata su Elements è in grado di fornire nuove funzionalità che in precedenza non erano disponibili per gli utenti della mainchain. Un esempio di sidechain basata su Elements in produzione è Liquid Network.
 
 Per inizializzare una blockchain Elements come sidechain, è necessario utilizzare il parametro di script federated peg. Questo parametro può essere impostato nel file di configurazione di un nodo o utilizzato all'avvio.
 
-Lo script federated peg definisce quali membri della "Strong Federation" possono svolgere funzioni di peg-in e peg-out. Questi funzionari sono chiamati `Watchmen`, in quanto controllano la mainchain e la sidechain alla ricerca di transazioni peg-in e `peg-out` valide e le eseguono se sono valide. `Peg-out` significa spostare gli asset pegged dalla sidechain alla mainchain e `peg-in` significa spostare gli asset pegged dalla mainchain alla sidechain. Quando diciamo `move into the sidechain` (spostare nella sidechain), in realtà intendiamo dire che i fondi vengono bloccati in un indirizzo multi-firma sulla mainchain e una quantità corrispondente dell'asset viene creata sulla sidechain Elements. Quando si dice `move out of the sidechain` (uscire dalla sidechain), si intende che gli asset vengono distrutti sulla sidechain di Elements e l'importo corrispondente viene rilasciato dai fondi bloccati sulla mainchain. Il permesso di eseguire le funzioni di peg-in e peg-out richiede che i functionaries dimostrino la proprietà delle chiavi pubbliche utilizzate nello script federated peg. Ciò avviene con l'uso delle chiavi private corrispondenti.
+Lo script federated peg definisce quali membri della "Strong Federation" possono svolgere funzioni di peg-in e peg-out. Questi funzionari sono chiamati `Watchmen`, in quanto controllano la mainchain e la sidechain alla ricerca di transazioni peg-in e peg-out valide e le eseguono se lo sono. `Peg-out` significa spostare gli asset pegged dalla sidechain alla mainchain e `peg-in` significa spostare gli asset pegged dalla mainchain alla sidechain. Quando diciamo `move into the sidechain` (spostare nella sidechain), in realtà intendiamo dire che i fondi vengono bloccati in un indirizzo multi-firma sulla mainchain e una quantità corrispondente dell'asset viene creata sulla sidechain Elements. Quando si dice `move out of the sidechain` (uscire dalla sidechain), si intende che gli asset vengono distrutti sulla sidechain di Elements e l'importo corrispondente viene rilasciato dai fondi bloccati sulla mainchain. Il permesso di eseguire le funzioni di peg-in e peg-out richiede che i functionaries dimostrino la proprietà delle chiavi pubbliche utilizzate nello script federated peg. Ciò avviene con l'uso delle chiavi private corrispondenti.
 
 Per creare uno script federated peg, quindi, è necessario che ogni nodo generi una chiave pubblica. Dobbiamo anche memorizzare le chiavi private associate per un uso successivo, poiché dovremo cancellare tutti i dati della chain esistente e inizializzare una nuova chain usando lo script federated peg. Questo perché lo script federated peg fa parte delle regole di consenso di una sidechain e non può essere applicato a una blockchain esistente, non ancorata, in un secondo momento.
 
@@ -886,7 +886,7 @@ e2-cli dumpprivkey <e2-address>
 
 Memorizziamo le chiavi private e pubbliche per un uso successivo.
 
-Ora dobbiamo cancellare i dati della blockchain e del wallet esistenti, poiché inizializzeremo una nuova chain utilizzando uno script federated peg. Potete farlo ora. Non dimenticate di avviare il daemon (demone) di Bitcoin, che ci servirà per il peg-in.
+Ora dobbiamo cancellare i dati della blockchain e dei wallet esistenti, poiché inizializzeremo una nuova chain utilizzando uno script federated peg. Potete farlo ora. Non dimenticate di avviare il daemon (demone) di Bitcoin, che ci servirà per il peg-in.
 
 Ora possiamo inizializzare una nuova chain con uno script federated peg creato utilizzando le chiavi pubbliche che abbiamo memorizzato in precedenza. I numeri che inseriamo e che circoscrivono le nostre chiavi pubbliche definiscono e delimitano il numero di chiavi utilizzate e la proprietà delle chiavi che deve essere dimostrata per effettuare il peg-in e il peg-out della nostra sidechain.
 
@@ -926,7 +926,7 @@ Si può notare che il comando crea un nuovo indirizzo mainchain e un nuovo scrip
 
 Come getnewaddress, getpeginaddress aggiunge un nuovo segreto al wallet del nodo chiamante, quindi è importante tenere conto del backup del file del wallet nel processo di gestione del nodo.
 
-Ora invieremo alcuni bitcoin dalla mainchain alla sidechain. Il nostro wallet di test di regressione della _mainchain_ contiene già alcuni fondi.
+Ora invieremo alcuni bitcoin dalla mainchain alla sidechain. Il nostro wallet di test di regressione della mainchain contiene già alcuni fondi.
 
 ```
 b-cli getwalletinfo
@@ -940,7 +940,7 @@ b-cli sendtoaddress <e1-pegin-address>
 
 Dobbiamo conservare l'ID di questa transazione perché ci servirà come prova di finanziamento in seguito.
 
-Ora possiamo vedere che il saldo del wallet della mainchain è diminuito dell'importo che abbiamo inviato, più un ulteriore piccolo importo per coprire le spese di transazione.
+Ora possiamo vedere che il saldo del wallet della mainchain è diminuito dell'importo che abbiamo inviato, più un ulteriore piccolo importo per coprire le fee di transazione.
 
 ```
 b-cli getwalletinfo
@@ -952,7 +952,7 @@ Dobbiamo far maturare nuovamente la transazione.
 b-cli generate 101
 ```
 
-Per far sì che il nostro nodo Elements rivendichi i fondi peg-in, dobbiamo ottenere la "prova" che la transazione peg-in è stata effettuata. La prova crittografica utilizza l'ID della transazione di finanziamento per calcolare il percorso di _Merkel_ e dimostra che la transazione è presente in un blocco confermato.
+Per far sì che il nostro nodo Elements rivendichi i fondi peg-in, dobbiamo ottenere la `prova` che la transazione peg-in è stata effettuata. La prova crittografica utilizza l'ID della transazione di finanziamento per calcolare il percorso di _Merkel_ e dimostra che la transazione è presente in un blocco confermato.
 
 ```
 b-cli gettxoutproof '["<tx-id>"]'
@@ -964,7 +964,7 @@ Abbiamo bisogno anche dei dati raw (grezzi) delle transazioni.
 b-cli getrawtransaction <tx-id>
 ```
 
-Con la prova e i dati raw della transazione peg-in, il nostro nodo Elements può ora rivendicare il peg-in utilizzando la transazione raw e la prova della transazione.
+Con la prova e i dati raw della transazione peg-in, il nostro nodo Elements può ora rivendicare il peg-in utilizzando la transazione raw e la prova della transazione stessa.
 
 ```
 e1-cli claimpegin <raw> <proof>
@@ -972,19 +972,19 @@ e1-cli claimpegin <raw> <proof>
 
 Si noti che c'è un terzo parametro opzionale che avremmo potuto fornire a claimpegin. Questo terzo parametro può essere usato per specificare l'indirizzo della chain laterale a cui inviare i fondi rivendicati. Nel nostro esempio non è stato necessario, poiché il comando è stato chiamato dallo stesso nodo che possiede l'indirizzo a cui sono destinati i fondi rivendicati.
 
-Controllo del saldo di e1.
+Contriamo il saldo di e1.
 
 ```
 e1-cli getwalletinfo
 ```
 
-Generare un blocco per confermare la richiesta.
+Generiamo un blocco per confermare la richiesta.
 
 ```
 e1-cli generate 1
 ```
 
-Controllo del saldo di e1.
+Contriamo il saldo di e1.
 
 ```
 e1-cli getwalletinfo
@@ -1004,19 +1004,19 @@ I fondi vengono inviati all'indirizzo della mainchain da un nodo Elements utiliz
 e1-cli sendtomainchain <new-address> 1
 ```
 
-Generazione di un blocco per confermare la transazione.
+Generiamo un blocco per confermare la transazione.
 
 ```
 e1-cli generate 1
 ```
 
-Controllare il saldo del wallet del nodo.
+Controlliamo il saldo del wallet del nodo.
 
 ```
 e1-cli getwalletinfo
 ```
 
-E vedere che il saldo è diminuito.
+Vediamo che il saldo è diminuito.
 
 In questa sezione abbiamo visto come:
 
@@ -1042,7 +1042,7 @@ Nota: I caratteri al di fuori delle chiavi pubbliche sono delimitatori che indic
 
 Prima che un peg-in (ancoraggio in ingresso) possa essere accettato da una sidechain di Elements, deve avere sufficienti conferme sulla mainchain. Ciò è necessario per evitare l'inflazione dell'offerta dell'asset pegged sulla sidechain di Elements che potrebbe essere causata da una riorganizzazione della mainchain.
 
-Brevi riorganizzazioni della testa della blockchain Bitcoin sono previste come parte del normale funzionamento del meccanismo di consenso Proof of Work (PoW). Per questo motivo, Elements accetta che un peg-in sia valido solo quando ha una profondità sufficiente all'interno della blockchain Bitcoin. Questo serve a evitare che Elements accetti lo stesso peg-in più di una volta.
+Brevi riorganizzazioni della punta della blockchain Bitcoin sono previste come parte del normale funzionamento del meccanismo di consenso Proof of Work (PoW). Per questo motivo, Elements accetta che un peg-in sia valido solo quando si raggiunge una profondità sufficiente all'interno della blockchain Bitcoin. Questo serve a evitare che Elements accetti lo stesso peg-in più di una volta.
 
 ### Peg-out (ancoraggio in uscita)
 
@@ -1060,9 +1060,9 @@ In questa sezione ci occuperemo di:
 
 - Inizializzare una nuova blockchain Elements con un asset predefinito chiamato `newasset`.
 
-- Specificare 1.000.000 di `newasset` da creare insieme a 2 token di riemissione per esso.
+- Specificare 1.000.000 di `newasset` da creare insieme a 2 token di riemissione per questi asset.
 
-- Reclamare tutte le coin `newasset` spendibili da chiunque.
+- Reclamare tutte le coin anyone-can-spend (chiunque può spendere) `newasset`.
 
 - Rivendicare tutti i token di riemissione anyone-can-spend (chiunque può spendere) per `newasset`.
 
@@ -1080,7 +1080,7 @@ e1-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=10000
 e2-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=100000000000000 -initialreissuancetokens=200000000
 ```
 
-Si noti che gli importi qui utilizzati sono nel taglio più piccolo che la rete può accettare, quindi i duecento milioni di token di riemissione equivalgono in realtà a due gettoni interi. Lo stesso vale per il taglio delle initial free coins.
+Si noti che gli importi qui utilizzati sono nel taglio più piccolo che la rete può accettare, quindi i duecento milioni di token di riemissione equivalgono in realtà a due gettoni interi. Lo stesso vale per il taglio delle "initial free coins".
 
 Controlliamo i saldi attuali del wallet del nostro nodo.
 
@@ -1100,7 +1100,7 @@ e1-cli getnewaddress
 e1-cli sendtoaddress <e1-address> 1000000 "" "" true
 ```
 
-Non è necessario specificare `newasset` come asset da inviare, poiché è già l'asset predefinito e quindi anche l'asset predefinito utilizzato per pagare le tariffe di rete.
+Non è necessario specificare `newasset` come asset da inviare, poiché è già l'asset predefinito e quindi anche l'asset predefinito utilizzato per pagare le fee di rete.
 
 All'interno di Elements, è possibile inviare più tipi di asset allo stesso indirizzo, quindi possiamo riutilizzare l'indirizzo appena generato per ricevere l'asset predefinito e usarlo come indirizzo di destinazione per i token di riemissione.
 
@@ -1108,7 +1108,7 @@ All'interno di Elements, è possibile inviare più tipi di asset allo stesso ind
 e1-cli sendtoaddress <e1-address> 1 "" "" false false 1 UNSET false <reissuance-token-id>
 ```
 
-Confermare le transazioni.
+Confermiamo le transazioni.
 
 ```
 e1-cli generate 101
@@ -1160,7 +1160,7 @@ Ora riemetteremo alcune delle risorse predefinite da e1. Si noti che la possibil
 e1-cli reissueasset newasset 100
 ```
 
-Abbiamo potuto usare l'etichetta di `newasset` invece di dover fornire il valore hex dell'_id_, perché una chain di elementi etichetta sempre il suo asset predefinito.
+Abbiamo potuto usare l'etichetta di `newasset` invece di dover fornire il valore _hex dell'id_, perché una chain di elementi etichetta sempre il suo asset predefinito.
 
 Verifichiamo che la riemissione dell'asset predefinito abbia funzionato:
 
@@ -1210,11 +1210,11 @@ Consente di specificare il nome dell'asset predefinito creato all'inizializzazio
 
 #### `initialfreecoins`
 
-Il numero (nell'equivalente dell'unità Satoshi di Bitcoin) dell'asset predefinito da creare.
+Il numero (nell'equivalente dell'unità satoshi di Bitcoin) dell'asset predefinito da creare.
 
 #### `initialreissuancetokens`
 
-Il numero (nell'equivalente dell'unità Satoshi di Bitcoin) dei token di riemissione per l'asset predefinito da creare. Senza questo valore sarebbe impossibile creare altri asset di default. Se non si vuole che sia possibile creare altri asset predefiniti, questo valore può essere impostato a zero o omesso.
+Il numero (nell'equivalente dell'unità satoshi di Bitcoin) dei token di riemissione per l'asset predefinito da creare. Senza questo valore sarebbe impossibile creare altri asset di default. Se non si vuole che sia possibile creare altri asset predefiniti, questo valore può essere impostato a zero o omesso.
 
 Utilizzando questi parametri, la procedura comune per avviare un nodo sarà simile a questa:
 
@@ -1224,7 +1224,7 @@ e1-dae -validatepegin=0 -defaultpeggedassetname=newasset -initialfreecoins=10000
 
 ### Operazioni di base
 
-Il parametro `defaultpeggedassetname` applica un'etichetta all'asset predefinito. Senza questa impostazione, la risorsa predefinita sarà automaticamente chiamata `bitcoin`. Nelle sezioni precedenti, quando abbiamo inviato asset emessi da noi stessi a un altro nodo, abbiamo dovuto specificare l'hex dell'asset o l'etichetta dell'asset applicato localmente per indicare a Elements quale risorsa stavamo inviando. Poiché `defaultpeggedassetname` si applica a tutti i nodi, non abbiamo bisogno di nominarlo quando lo inviamo, anche se il suo nome non è `bitcoin`. Ogni funzione che prima avrebbe inviato `bitcoin` per impostazione predefinita, ora invierà qualsiasi cosa si sia scelto di etichettare come asset predefinito.
+Il parametro `defaultpeggedassetname` applica un'etichetta all'asset predefinito. Senza questa impostazione, la risorsa predefinita sarà automaticamente chiamata `bitcoin`. Nelle sezioni precedenti, quando abbiamo inviato asset emessi da noi stessi a un altro nodo, abbiamo dovuto specificare l'hex dell'asset o l'etichetta dell'asset applicato nativamente per indicare a Elements quale risorsa stavamo inviando. Poiché `defaultpeggedassetname` si applica a tutti i nodi, non abbiamo bisogno di nominarlo quando lo inviamo, anche se il suo nome non è `bitcoin`. Ogni funzione che prima avrebbe inviato `bitcoin` per impostazione predefinita, ora invierà qualsiasi cosa si sia scelto di etichettare come asset predefinito.
 
 Per questo motivo, l'invio di 10 unità del nuovo asset predefinito a un indirizzo è semplice come:
 
@@ -1252,7 +1252,7 @@ In questo corso abbiamo imparato che Elements è un protocollo di rete open-sour
 
 Abbiamo visto che il codice sorgente e il sito web di Elements (https://github.com/ElementsProject/elements) sono ospitati su GitHub e che esistono forum di discussione della comunità, come Build On L2 (https://community.liquid.net/c/developers/) o Liquid Developers Telegram (https://t.me/liquid_devel), che possono essere utilizzati per saperne di più sulla distribuzione e lo sviluppo di applicazioni su Elements e Liquid. Sono state illustrate caratteristiche chiave come le "Confidential Transactions" e gli "Issued Assets", oltre a come i membri di una "Strong Federation" consentono la firma federata dei blocchi e il meccanismo 2-Way Peg (Ancoraggio Bilaterale). 
 
-Il passo successivo è quello di sfidare se stessi con un quiz cumulativo che copre tutte le sezioni precedenti, per poi iniziare il viaggio di Elements... buona fortuna!
+Il passo successivo è quello di sfidare se stessi con un quiz cumulativo che copre tutte le sezioni precedenti, per poi iniziare il viaggio in Elements... buona fortuna!
 
 # Sezione finale
 

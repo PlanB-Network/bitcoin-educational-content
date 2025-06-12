@@ -624,10 +624,10 @@ Se segui questo corso da solo, creare questo account potrebbe essere qualcosa ch
 #### Configurare un wallet Bitcoin in BTCPay Server
 
 BTCPay Server permette di configurare un wallet in due modi. Il primo è importare un wallet Bitcoin già esistente. L'importazione può essere fatta collegando un hardware wallet, importando un file del wallet, inserendo una chiave pubblica estesa, scansionando il codice QR di un wallet, o, meno consigliato, inserendo a mano una seed phrase di recupero del wallet precedentemente creato. In BTCPay Server, è anche possibile creare un nuovo wallet. Ci sono due modi possibili per configurare BTCPay Server quando si genera un nuovo wallet.
-L'opzione di hot wallet in BTCPay Server consente le funzionalità come 'Payjoin' o 'Liquid'. Tuttavia, c'è uno svantaggio: la seed phrase di recupero generata per questo wallet sarà memorizzata sul server, dove chiunque abbia il controllo come Amministratore potrebbe leggere la seed phrase di recupero. Poiché la tua chiave privata deriva dalla tua seed phrase di recupero, un attore malevolo potrebbe ottenere accesso ai tuoi fondi attuali e futuri!
+L'opzione di hot wallet in BTCPay Server consente le funzionalità come 'Payjoin' o 'Liquid'. Tuttavia, c'è uno svantaggio: la seed phrase di recupero generata per questo wallet sarà memorizzata sul server, dove, chiunque abbia il controllo come Amministratore, potrebbe leggere la seed phrase di recupero. Poiché la tua chiave privata deriva dalla tua seed phrase di recupero, un attore malevolo potrebbe ottenere accesso ai tuoi fondi attuali e futuri!
 Per mitigare tale rischio in BTCPay Server, un Amministratore può impostare in Impostazioni Server > Politiche > "Consenti ai non-amministratori di creare hot wallet per i loro negozi" su no, come impostazione predefinita. Per migliorare la sicurezza di questi hot wallet, l'amministratore del server dovrebbe abilitare l'autenticazione 2FA sugli account autorizzati ad avere hot wallet. Conservare le chiavi private su un server pubblico è pericoloso e comporta dei rischi. Alcuni sono simili ai rischi di Lightning Network (vedi il capitolo successivo per i rischi di Lightning Network).
 
-La seconda opzione che BTCPay Server offre per generare un nuovo wallet è creando un Watch-Only wallet (wallet di sola visualizzazione). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria seed phrase, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha collegato un Watch-Only wallet e per spendere i fondi ricevuti sul tuo Watch-Only wallet, vedi il capitolo 'Come Inviare', si potrà fare: sia utilizzando BTCPay Server Vault, la PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente la tua seed phrase.
+La seconda opzione che BTCPay Server offre per generare un nuovo wallet è creando un Watch-Only wallet (wallet di sola visualizzazione). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria seed phrase, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha collegato un [Watch-Only wallet](https://planb.network/resources/glossary/watch-only-wallet), per spendere i fondi ricevuti sul tuo Watch-Only wallet, vedi il capitolo 'Come Inviare', si potrà fare sia utilizzando BTCPay Server Vault, o la PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente la tua seed phrase.
 
 Hai creato un nuovo 'Negozio' nell'ultima parte. La procedura guidata di installazione continuerà chiedendo di "Impostare un wallet" o "Impostare un nodo Lightning". In questo esempio, seguirai la procedura guidata "Impostare un wallet" (1).
 
@@ -651,7 +651,7 @@ Se segui questo corso in aula, l'esempio attuale e il seed che abbiamo generato 
 
 ![immagine](assets/en/25.webp)
 
-(3) Continuando la procedura guidata del nuovo wallet, ora ti trovi nella sezione "Crea Watch-Only BTC wallet". Qui abbiamo la possibilità di impostare il tipo di indirizzo del wallet "Tipo di indirizzo". BTCPay Server consente di scegliere il tipo di indirizzo preferito e al momento della scrittura di questo corso, è ancora consigliato utilizzare gli indirizzi bech32. Scopri più dettagli sugli indirizzi nel primo capitolo di questa parte.
+(3) Continuando la procedura guidata del nuovo wallet, ora ti trovi nella sezione "Crea Watch-Only BTC wallet", dove abbiamo la possibilità di impostare il tipo di indirizzo del wallet "Tipo di indirizzo". BTCPay Server consente di scegliere il tipo di indirizzo preferito e, al momento della scrittura di questo corso, è ancora consigliato utilizzare gli indirizzi bech32. Scopri più dettagli sugli indirizzi nel primo capitolo di questa parte.
 
 - Segwit (bech32)
 - Gli indirizzi Native SegWit iniziano con `bc1q`.
@@ -690,7 +690,7 @@ Scegli Segwit (raccomandato) come tipo di indirizzo del wallet preferito.
 
 Questo è un metodo molto sicuro di usare Bitcoin. Come detto prima, solo tu dovresti avere accesso o conoscenza della tua seed phrase. Questa seed phrase dovrebbe essere utilizzata eslusicamente per questo corso. Troppi fattori, occhi indiscreti dei compagni di classe, sistemi non sicuri e molte altre situazioni rendono queste chiavi solo educative e non affidabili. Tuttavia, le chiavi generate devono comunque essere conservate per i successivi esempi del corso.
 
-Il primo metodo che utilizzeremo nella situazione attuale, anche se il meno sicuro, è annotare la seed phrase nell'ordine corretto. Una cartoncino per annotare la seed phrase viene fornito nel materiale del corso allo studente o, in alternativa è disponibile sull'account GitHub di BTCPay Server. Utilizzeremo questa carta per annotare le parole generate nel passaggio precedente. Assicurati di scriverle nell'ordine corretto. Dopo averle scritte, controllale rispetto a quanto fornito dal software per assicurarti di averle scritte correttamente. Una volta scritte, clicca sulla casella che indica di aver annotato correttamente la tua seed phrase.
+Il primo metodo che utilizzeremo nella situazione attuale, anche se il meno sicuro, è annotare la seed phrase nell'ordine corretto. Un cartoncino per annotare la seed phrase viene fornito nel [materiale del corso allo studente](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf) o, in alternativa è disponibile sull'account GitHub di BTCPay Server. Utilizzeremo questa carta per annotare le parole generate nel passaggio precedente. Assicurati di scriverle nell'ordine corretto. Dopo averle scritte, controllale rispetto a quanto fornito dal software per assicurarti di averle scritte correttamente. Una volta scritte, clicca sulla casella che indica di aver annotato correttamente la tua seed phrase.
 
 ### Esempio: Conservare la seed phrase con un Hardware Wallet
 
@@ -715,7 +715,7 @@ Non dare le tue chiavi SSH o l'account amministratore del server a nessun altro 
 In questa sezione, hai appreso quanto segue:
 
 - La visualizzazione delle transazioni del wallet Bitcoin e le sue varie categorizzazioni.
-- Le varie opzioni quando si invia da un wallet Bitcoin, dagli hardware wallet agli hot wallet.
+- Le varie opzioni quando si invia da un wallet Bitcoin, dagli hardware wallet, agli hot wallet.
 - Il problema del limite di gap affrontato quando si utilizzano la maggior parte dei wallet e come correggerlo.
 - Come generare un nuovo wallet Bitcoin all'interno di BTCPay Server, inclusa la memorizzazione delle chiavi in un hardware wallet e il backup della recovery phrase.
 
@@ -736,7 +736,7 @@ Collegare un nodo Lightning al proprio BTCPay Server funziona tramite un nodo pe
 
 L'amministratore del server può utilizzare il nodo Lightning interno di BTCPay Server. Indipendentemente dall'implementazione di Lightning, il collegamento al nodo Lightning interno è lo stesso.
 
-Andare in un negozio configurato in precedenza e cliccare sul wallet "Lightning" nel menu a sinistra. BTCPay Server offre due possibilità di configurazione, utilizzando il nodo interno (solo l'amministratore del server, per impostazione predefinita) o un nodo personalizzato (collegamento esterno). Gli amministratori del server possono cliccare sull'opzione "Usa nodo interno". Non è richiesta ulteriore configurazione. Cliccare sul pulsante "salva"  e controllare la notifica che indica "Nodo Lightning BTC aggiornato". Il negozio ha ora ottenuto con successo le capacità alla rete Lightning.
+Andare in un negozio configurato in precedenza e cliccare sul wallet "Lightning" nel menu a sinistra. BTCPay Server offre due possibilità di configurazione, utilizzando il nodo interno (solo l'amministratore del server, per impostazione predefinita) o un nodo personalizzato (collegamento esterno). Gli amministratori del server possono cliccare sull'opzione "Usa nodo interno". Non è richiesta ulteriore configurazione. Cliccare sul pulsante "salva"  e controllare la notifica che indica "Nodo Lightning BTC aggiornato". Il negozio ha ora ottenuto con successo le proprietà della rete Lightning.
 
 ### Collegare il nodo esterno (utente del server/proprietario del negozio)
 
@@ -744,7 +744,7 @@ Ai proprietari dei negozi non è in genere permesso utilizzare il nodo Lightning
 
 Andare in un negozio configurato in precedenza e cliccare su "Lightning" sotto i wallet nel menu a sinistra. Poiché ai proprietari dei negozi non è permesso utilizzare il nodo interno per impostazione predefinita, questa opzione è disabilitata. Utilizzare un nodo personalizzato è l'unica opzione disponibile.
 
-BTCPay Server richiede informazioni di connessione; le soluzioni precedenti (o di custodia) forniranno queste informazioni specifiche per implementare Lightning. All'interno di BTCPay Server, i proprietari dei negozi possono utilizzare le seguenti connessioni:
+BTCPay Server richiede informazioni di connessione e le soluzioni precedenti (o di custodia) forniranno queste informazioni specifiche per implementare Lightning. All'interno di BTCPay Server, i proprietari dei negozi possono utilizzare le seguenti connessioni:
 
 - C-lightning tramite connessione TCP o Unix domain socket
 - Lightning Charge tramite HTTPS
@@ -773,14 +773,14 @@ Dopo aver collegato il nodo Lightning interno, gli amministratori del server not
 - Servizi Lightning
   - Ride the Lightning (RTL).
 
-Cliccando sia sul logo di Ride the Lightning nella funzione "Servizi Lightning" sia su "Lightning" sotto i wallet nel menu a sinistra, gli amministratori del server possono accedere a RTL per la gestione del nodo Lightning.
+Cliccando sia sul logo di [Ride the Lightning](https://www.ridethelightning.info/) nella funzione "Servizi Lightning" sia su "Lightning" sotto i wallet nel menu a sinistra, gli amministratori del server possono accedere a RTL per la gestione del nodo Lightning.
 
 **!Nota!**
 
-Se il collegamento al nodo Lightning interno fallisce - Se la connessione interna fallisce, verificare che:
+Se il collegamento al nodo Lightning interno fallisce - Se la connessione interna fallisce, verifica che:
 
-1. Il nodo Bitcoin on-chain sia completamente sincronizzato
-2. Il nodo Lightning interno sia "Abilitato" in "Lightning" > "Impostazioni" > "Impostazioni Lightning BTC"
+1. Il nodo Bitcoin on-chain sia completamente sincronizzato.
+2. Il nodo Lightning interno sia "Abilitato" in "Lightning" > "Impostazioni" > "Impostazioni Lightning BTC".
 
 Se non riesci a connetterti al tuo nodo Lightning, prova a riavviare il server o leggi maggiori dettagli sulla documentazione ufficiale di BTCPay Server; https://docs.btcpayserver.org/Troubleshooting/. Non potrai accettare pagamenti Lightning nel tuo negozio fino a quando il tuo nodo Lightning non risulterà "Online". Prova a testare la tua connessione Lightning cliccando sul link "Informazioni Nodo Pubblico".
 
@@ -821,7 +821,7 @@ I proprietari dei negozi possono impostare parametri per migliorare l'esperienza
 
 #### LNURL
 
-I proprietari dei negozi possono scegliere di utilizzare o meno LNURL. Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 con il prefisso "lnurl". Il Lightning wallet dovrebbe decodificare l'URL, contattando l'URL in attesa di un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
+I proprietari dei negozi possono scegliere di utilizzare o meno [LNURL](https://planb.network/resources/glossary/lnurl). Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 con il prefisso "lnurl". Il Lightning wallet dovrebbe decodificare l'URL, contattando l'URL in attesa di un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
 
 - Abilitare LNURL
 - Modalità LNURL Classica
@@ -834,7 +834,7 @@ I proprietari dei negozi possono scegliere di utilizzare o meno LNURL. Un URL de
 
 Questa opzione è disponibile solo se sei l'Amministratore di questa istanza o se l'Amministratore ha modificato le impostazioni predefinite dove gli utenti possono utilizzare il nodo lightning interno.
 
-Come amministratore, clicca su Lightning wallet nella barra del menu a sinistra. BTCPay Server chiederà di utilizzare una delle due opzioni per connettere un Nodo Lightning, un nodo interno o un nodo esterno personalizzato. Clicca su Usa nodo interno e clicca su salva.
+Come amministratore, clicca su Lightning wallet nella barra del menu a sinistra. BTCPay Server chiederà di utilizzare una delle due opzioni per connettere un Nodo Lightning, un nodo interno o un nodo esterno personalizzato. Clicca su "Usa nodo interno" e clicca su "Salva".
 
 #### Gestire il tuo nodo Lightning (RTL)
 
@@ -848,7 +848,7 @@ Gestire il nodo Lightning è un compito per l'Amministratore del server. Questo 
   - Liquidità in uscita
 - Gestire utenti (peer) e canali
   - Utenti (peer) connessi
-  - Tariffe dei canali
+  - Fee dei canali
   - Stato dei canali
 - Effettuare backup frequenti dei stati del canale.
 - Controllare i rapporti di routing.
@@ -884,14 +884,14 @@ Passo 4: Clicca su salva, e il tuo negozio è ora connesso con un nodo Lightning
 
 **!Nota!**
 
-Non affidare mai ad una soluzione Lightning custodital per un valore inferiore a quanto sei disposto a perdere.
+Non affidare mai ad una soluzione di custodia Lightning per un valore superiore a quanto sei disposto a perdere.
 
 ### Riassunto delle Competenze
 
 In questa sezione hai imparato:
 
 - Come connettere un nodo Lightning interno o esterno
-- I contenuti e la funzione delle vari pulsanti relativi a Lightning nella Dashboard
+- I contenuti e la funzione dei vari pulsanti relativi a Lightning nella Dashboard
 - Come configurare il Lightning wallet utilizzando Voltage Surge o Alby
 
 ### Valutazione della Conoscenza e della Revisione Pratica

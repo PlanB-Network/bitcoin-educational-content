@@ -2837,6 +2837,10 @@ Techniquement, les messages sur Olvid sont chiffrés de bout en bout, grâce à 
 
 Cependant, l’infrastructure serveur reste propriétaire et centralisée, hébergée sur AWS (*Amazon Web Services*). Le code du client est open-source depuis quelques années, mais le code du serveur n’est pas publié, ce qui limite la transparence technique du système.
 
+Le modèle de sécurité d’Olvid repose sur un principe important : l’absence totale de tiers de confiance dans l’établissement des identités numériques. Contrairement à la majorité des messageries chiffrées qui s’appuient sur un annuaire centralisé pour gérer les identités des utilisateurs, Olvid ne dépend d’aucune infrastructure centralisée pour garantir l’intégrité des communications. Cette architecture élimine ainsi les risques liés à une compromission de l’annuaire.
+
+Olvid utilise néanmoins un serveur central de distribution des messages, mais celui-ci est strictement cantonné à un rôle logistique : il assure la transmission asynchrone des messages chiffrés. Ce serveur ne participe à aucune étape du chiffrement, ne connaît ni l’identité réelle des utilisateurs ni le contenu ou les métadonnées des messages (à l’exception de la clé publique du destinataire, nécessaire au routage). Il peut donc être considéré comme hostile par défaut sans remettre en cause la sécurité de l’ensemble. Même s’il était compromis, il ne permettrait aucun accès au contenu des communications. Olvid assume donc une centralisation de la distribution des messages (pour des raisons d’efficacité et de qualité de service) tout en garantissant une sécurité indépendante de cette infrastructure.
+
 Olvid propose deux versions :
 - Une version gratuite, qui offre toutes les fonctionnalités sauf l’émission d’appels audio et vidéo (réception uniquement) et la synchronisation multi-appareils ;
 - Une version payante à 4,99 € par mois qui débloque toutes les fonctionnalités.
@@ -2872,7 +2876,7 @@ Voici un tableau récapitulatif des principales applications de messagerie exist
 | Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2019              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
 | Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
 | Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
 | Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |

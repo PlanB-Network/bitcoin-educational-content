@@ -5,7 +5,7 @@ description: Guide for Alby Go mobile app
 
 ![cover-green](assets/cover.webp)
 
-# 🚀 Welcome to Alby Go – the easiest to use bitcoin lightning wallet
+# 🚀 Welcome to Alby Go – the easiest to use mobile wallet
 
 **Alby Go** is an open-source, easy-to-use mobile app, that acts as a wallet interface to bitcoin lightning nodes and wallets. Here’s how to get started and make the most of your experience.
 

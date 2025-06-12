@@ -11,8 +11,8 @@ description: Guide for Alby Go mobile app
 
 **✅ Supported & Known-Compatible Wallets/Nodes:**
 
-- **[Alby Hub Wallet](https://albyhub.com/)** *(recommended)*
-- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub Wallet**)
+- **[Alby Hub](https://albyhub.com/)** *(recommended)*
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
 - **Coinos** *(untested)*
 - **Primal** *(untested)*
 - **Minibits** *(untested)*

@@ -1680,7 +1680,11 @@ Sous Debian (donc Ubuntu) :
 sudo apt update && sudo apt upgrade -y
 ```
 
-Si vous préférez utiliser une interface graphique, sur Ubuntu, il y a l’outil Software Updater qui permet de gérer les mises à jour facilement sans passer par le terminal.
+213
+
+Si vous préférez utiliser une interface graphique, sur Ubuntu, il y a l’outil *Software Updater* qui permet de gérer les mises à jour facilement sans passer par le terminal.
+
+214
 
 Sous Red Hat (Fedora) :
 
@@ -1704,6 +1708,8 @@ Apple menu → System Settings → General → Software Update
 ```
 
 macOS propose de télécharger automatiquement les mises à jour de sécurité, du système et des applications intégrées via l’option "*Automatic Updates*" dans ce même menu.
+
+212
 
 ### La mise à jour des logiciels
 
@@ -1731,6 +1737,8 @@ winget upgrade --all
 
 Cette commande va interroger les dépôts publics pour rechercher les versions les plus récentes des logiciels que vous avez, et les met à jour automatiquement.
 
+211
+
 Hélas, cette commande ne fonctionne pas pour tous les logiciels. C’est pourquoi, en complément, je vous recommande de tenir une liste de l’ensemble de vos logiciels et de vérifier manuellement leurs mises à jour de manière régulière, en particulier pour les applications sensibles. Pour les logiciels les plus critiques, comme votre antivirus ou votre navigateur web, je vous conseille de faire cette vérification au quotidien.
 
 #### Sous Linux (Debian/Ubuntu)
@@ -1757,6 +1765,8 @@ sudo apt update \
 - `sudo apt full-upgrade` met à jour tous les paquets installés, y compris ceux qui nécessitent l’ajout ou la suppression de dépendances. `-y` permet de répondre automatiquement "oui" à toutes les confirmations que le gestionnaire de paquets pourrait vous demander ;
 - `sudo apt autoremove -y` : supprime les dépendances devenues inutiles ;
 - `sudo apt autoclean` : nettoie le cache des paquets obsolètes.
+
+215
 
 Si vous avez des logiciels distribués sous forme de paquets Flatpak ou Snap, certains se mettent à jour automatiquement, mais vous pouvez tous les mettre à jour manuellement avec la commande :
 
@@ -1800,6 +1810,8 @@ Ouvrez un terminal et exécutez la commande suivante pour supprimer un logiciel 
 sudo apt remove name_of_the_software
 ```
 
+216
+
 Puis exécutez cette commande pour supprimer automatiquement les dépendances devenues inutiles :
 
 ```bash
@@ -1809,6 +1821,8 @@ sudo apt autoremove
 #### Sous macOS
 
 Sous macOS, il existe principalement 2 méthodes : via *Launchpad* ou via le *Finder*. Si l’application a été téléchargée depuis l’App Store, ouvrez *Launchpad* (depuis le Dock ou le dossier `/Applications`), localisez l’application, puis maintenez la touche Option enfoncée ou effectuez un clic prolongé jusqu’à ce que les icônes se mettent à trembler. Cliquez ensuite sur la croix à côté de l’application, puis confirmez la suppression.
+
+210
 
 Si le bouton de suppression n’apparaît pas, cela signifie que l’application n’a pas été installée depuis l’App Store. Dans ce cas, utilisez le *Finder*. Fermez d’abord l’application si elle est en cours d’exécution. Ouvrez le *Finder*, allez dans le dossier `/Applications`, sélectionnez l’application à supprimer, puis déplacez-la dans la corbeille. Enfin, videz la corbeille pour finaliser la désinstallation.
 
@@ -1828,16 +1842,56 @@ Si vous mettez en place une routine d’audit (même basique) vous pouvez détec
 
 Comme nous avons vu dans la partie précédente, Windows est historiquement plus exposé aux attaques informatiques, en raison de sa large adoption et de ses spécificités techniques. Il est donc important de compléter les protections de base par des outils de diagnostic avancés :
 
-- **Microsoft Defender** : sur Windows, disposer d’un bon antivirus est une base quasiment indispensable. Pendant de nombreuses années, Microsoft Defender (anciennement Windows Defender), l’antivirus intégré au système, était considéré comme peu fiable, et l’on recommandait plutôt de recourir à des solutions tierces. Mais ce logiciel s’est considérablement amélioré avec le temps, et il est aujourd’hui, selon moi, suffisant pour assurer une protection de base dans un usage personnel de l’ordinateur. Cela dit, il ne faut pas surestimer le rôle de l’antivirus : ce sont avant tout vos propres pratiques numériques qui assurent votre sécurité. L’un des avantages de Defender, c’est son intégration native à Windows. Il propose, en plus de sa protection en temps réel, des analyses complètes que vous pouvez programmer chaque semaine ou lancer manuellement à intervalles réguliers.
+- **Microsoft Defender** : sur Windows, disposer d’un bon antivirus est une base quasiment indispensable. Pendant de nombreuses années, Microsoft Defender (anciennement Windows Defender), l’antivirus intégré au système, était considéré comme peu fiable, et l’on recommandait plutôt de recourir à des solutions tierces. Mais ce logiciel s’est considérablement amélioré avec le temps, et il est aujourd’hui, selon moi, suffisant pour assurer une protection de base dans un usage personnel. Cela dit, il ne faut pas surestimer le rôle de l’antivirus : ce sont avant tout vos propres pratiques numériques qui assurent votre sécurité. L’un des avantages de Defender, c’est son intégration native à Windows. Il propose, en plus de sa protection en temps réel, des analyses complètes que vous pouvez programmer chaque semaine ou lancer manuellement à intervalles réguliers.
 
-- **Sysinternals Suite** : c'est un ensemble d’outils bien plus avancés proposés par Microsoft pour diagnostiquer, surveiller et dépanner Windows. Deux outils vous seront particulièrement utiles :
+![Image](assets/fr/007.webp)
+
+- **Sysinternals Suite** : c'est un ensemble d’outils bien plus avancés proposés par Microsoft pour diagnostiquer, surveiller et dépanner Windows. Voici les principaux outils de cette suite :
     - *Process Monitor* : permet d’observer en temps réel les processus actifs, les accès fichiers, registres... ;
     - *Autoruns* : affiche tous les programmes lancés au démarrage, ce qui vous aide à détecter rapidement un malware persistant ou une application qui ne devrait pas s’exécuter ;
     - *Process Explorer* : surveille les processus et détecte les comportements suspects ;
     - *TCPView* : visualise les connexions réseau actives (détection de connexions anormales) ;
     - *Sigcheck* : vérifie les signatures numériques de fichiers (pour repérer du code malveillant).
 
+207
+
 - **GlassWire** : un outil de surveillance réseau. Il trace les connexions entrantes et sortantes en temps réel, et vous alerte en cas d’activité inhabituelle.
+
+208
+
+#### Sous Linux
+
+Sur une machine Linux bien maintenue et utilisée dans un cadre personnel, les risques sont moindres. Néanmoins, voici quelques outils avancés pour surveiller votre système :
+
+- **Fail2ban** : surveille les logs système à la recherche de tentatives d’accès infructueuses (comme des tentatives de connexion SSH par force brute). Lorsqu’un comportement suspect est détecté, il bannit temporairement l’adresse IP fautive via `iptables` ;
+
+217
+
+- **Lynis** : un outil d’audit de sécurité complet qui analyse votre système à la recherche de mauvaises configurations, de faiblesses connues ou d’écarts avec les bonnes pratiques. Il génère un rapport simple à lire, avec un score de sécurité et des recommandations.
+
+218
+
+#### Sous macOS
+
+macOS est réputé pour sa sécurité, en particulier grâce à ses politiques de signature des applications et à son architecture relativement fermée. Pour un usage personnel, une machine à jour avec les réglages par défaut offre déjà une sécurité correcte. Pour aller plus loin dans la surveillance de votre système, je vous conseille :
+
+- **KnockKnock** : scanne tous les éléments configurés pour s’exécuter au démarrage (agents, daemons, modules kernel…) et identifie ceux qui sont potentiellement suspects, non signés ou inconnus. Il permet de repérer rapidement les formes de persistance malveillante sur votre système.
+
+209
+
+### Conclusion : la sécurité est une affaire de régularité
+
+Une sécurité optimale de votre ordinateur ne s’obtient pas uniquement en installant une fois des outils spécifiques, mais par un entretien régulier, rigoureux et méthodique. Maintenir à jour votre système d’exploitation, assurer la mise à niveau de vos logiciels critiques, supprimer ce qui est inutile, et surveiller activement le système sont les piliers d’une bonne maintenance. De manière plus générale, ces bonnes pratiques s’appliquent à l’ensemble de vos outils numériques : objets connectés, serveurs, smartphones…
+
+Dans le prochain chapitre, nous verrons comment éviter concrètement d’installer des logiciels malveillants en apprenant à vérifier l’intégrité et l’authenticité des fichiers que vous téléchargez sur votre ordinateur.
+
+
+
+
+
+
+
+
 
 
 

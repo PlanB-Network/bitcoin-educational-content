@@ -275,7 +275,7 @@ git push origin tuto-green-wallet-loic
 ```
 
 
-- Una volta che il PR è stato unito, si può cancellare il ramo di lavoro.
+- Una volta che la PR è stata unita, si può cancellare il ramo di lavoro.
 
 ## Standard di creazione dei contenuti
 

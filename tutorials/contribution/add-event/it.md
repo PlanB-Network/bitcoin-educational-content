@@ -141,9 +141,9 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![evento](assets/36.webp)
 - Clicca sul pulsante `Create pull request`:
 ![evento](assets/37.webp)
-Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo controllerà e, se tutto è in ordine, lo unirà al repository principale di Plan ₿ Network. Dovresti vedere il tuo evento apparire sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un amministratore lo controllerà e, se tutto è in ordine, lo unirà al repository principale di Plan ₿ Network. Dovresti vedere il tuo evento apparire sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando il tuo PR non è validato, puoi consultararlo nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
+Assicurati di seguire il progresso della tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando il tuo PR non è validato, puoi consultararlo nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
 ![evento](assets/38.webp)
 Grazie mille per il tuo prezioso contributo! :)
 

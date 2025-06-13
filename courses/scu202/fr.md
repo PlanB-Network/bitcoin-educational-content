@@ -1886,26 +1886,214 @@ Une sécurité optimale de votre ordinateur ne s’obtient pas uniquement en ins
 Dans le prochain chapitre, nous verrons comment éviter concrètement d’installer des logiciels malveillants en apprenant à vérifier l’intégrité et l’authenticité des fichiers que vous téléchargez sur votre ordinateur.
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## Intégrité et authenticité des logiciels
 <chapterId>ffa06aeb-0b90-4271-a385-9a752c1bb5ed</chapterId>
 
-Comment vérifier un logiciel avant installation, et pourquoi c’est important :
-- Première partie sur l'explication théorique : de quoi on parle, c'est quoi concrètement, ça sert à quoi ?
-- Seconde partie sur l'explication pratique en mode tutoriel : comment le faire sur Windows, Linux et MacOS, avec options en ligne de commande et option via un logiciel spécialisé.
+Installer un logiciel sur son ordinateur est une opération qui semble anodine, mais qui représente en réalité un risque potentiel très sérieux pour votre sécurité informatique. En effet, les logiciels téléchargés peuvent être altérés ou infectés par des attaquants, qui profitent de cette opportunité pour injecter des virus, des chevaux de Troie, ou d'autres types de malware dans votre système.
 
+Vérifier l'intégrité et l'authenticité d'un logiciel avant son installation est donc une pratique très importante de sécurité, notamment lorsqu'il s'agit de logiciels sensibles comme des portefeuilles Bitcoin ou des gestionnaires de mots de passe. Cette pratique permet de s'assurer que le logiciel téléchargé correspond exactement à celui publié par le développeur original, sans altération. 
 
+Dans ce chapitre, nous allons découvrir ensemble en quoi consiste la vérification de l’intégrité et de l’authenticité d’un fichier, et comment la réaliser concrètement en fonction de votre système d’exploitation.
 
+### Pourquoi vérifier l'intégrité et l'authenticité des logiciels ?
+
+Lorsque vous téléchargez un logiciel depuis Internet, vous faites implicitement confiance à ce fichier pour s’exécuter sur votre machine. Or, cette confiance ne devrait jamais être aveugle. Il est donc important de comprendre deux notions fondamentales : l’intégrité et l’authenticité d’un fichier.
+
+#### Intégrité : s’assurer qu’aucune altération n’a eu lieu
+
+L’intégrité d’un fichier garantit qu’il n’a pas été modifié, intentionnellement ou non, entre le moment où il a été publié par le développeur et celui où vous l’avez téléchargé. Une modification, même infime, peut suffire à insérer du code malveillant dans un logiciel.
+
+Ces modifications ne sont pas visibles à l’œil nu : le fichier téléchargé peut parfaitement s’ouvrir et s’exécuter normalement, tout en exécutant en parallèle un comportement malveillant. D’où l’importance de vérifier son intégrité à l’aide d’empreintes cryptographiques (le hash).
+
+#### Authenticité : garantir que le logiciel vient bien de la bonne source
+
+Un fichier peut être intègre (non modifié), mais avoir été publié par une entité malveillante usurpant l’identité du développeur légitime. L’authenticité vise donc à confirmer que le fichier provient réellement de la source officielle, et non d’un imposteur, d’un site miroir non vérifié, ou d’un pirate qui aurait compromis le serveur de distribution.
+
+Cette vérification de l'origine est rendue possible par la signature numérique, un mécanisme cryptographique qui lie le fichier à la clé privée du développeur. Lorsque vous vérifiez cette signature à l’aide de la clé publique du développeur (distribuée via des canaux sûrs), vous vous assurez que le fichier provient bien de cette personne.
+
+En vérifiant à la fois l’authenticité (c’est-à-dire que le fichier d’installation provient bien de la bonne source) et l’intégrité (c’est-à-dire qu’il n’a pas été modifié depuis sa publication par le développeur légitime) vous vous assurez d’installer le bon logiciel. Cela permet de limiter considérablement les risques, car un fichier authentique et intègre n’est, en principe, pas malveillant (à moins que la source elle-même ne soit compromise ou malveillante).
+
+#### Les solutions techniques : hash et signature numérique
+
+Pour ce faire nous allons utiliser 2 outils cryptographiques. Le premier est le hachage. Un hash est une courte chaîne de caractères calculée de manière déterministe et imprédictible à partir du contenu d’un fichier, à l’aide d’un algorithme de hachage comme SHA-256. Deux fichiers strictement identiques auront exactement le même hash, mais à la moindre modification de ce fichier, le hash changera complètement.
+
+Le développeur légitime publie généralement le hash du fichier original sur son site officiel. De votre côté, vous allez calculer localement le hash du fichier d’installation que vous avez téléchargé, afin de comparer les deux. Si les deux empreintes correspondent, alors vous avez la certitude que le fichier téléchargé est bien intègre et n’a pas été altéré.
+
+Le second outil est la signature numérique, et plus précisément. Elle permet de vérifier l’authenticité du logiciel d'installation. Le développeur signe le fichier avec sa clé privée, et vous pouvez vérifier cette signature en utilisant la clé publique correspondante. Cela prouve non seulement que le fichier a été publié par la bonne personne.
+
+Ce système repose sur la cryptographie asymétrique et des outils comme GnuPG (en ligne de commande) ou Kleopatra (interface graphique pour Windows). Ces outils doivent être bien configurés, et la clé publique du développeur doit être vérifiée via un canal sûr (site officiel, fingerprint sur Twitter...). Voyons ensemble comment faire concrètement.
+
+Pour en savoir plus sur les fonctions de hachage cryptographiques et les signatures numériques, je vous invite à suivre le cours gratuit CYP 201 proposé sur Plan ₿ Network :
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
+### Vérifier l'intégrité et l'authenticité d'un logiciel
+
+#### Prérequis
+
+Si vous êtes sous Linux, GPG est préinstallé sur la plupart des distributions. Si ce n'est pas le cas, vous pouvez l'installer avec la commande suivante :
+
+```bash
+sudo apt install gnupg
+```
+
+232
+
+Pour macOS, si vous n'avez pas déjà installé le gestionnaire de paquets Homebrew, faites-le avec les commandes suivantes :
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+Puis installez GPG avec cette commande :
+
+```bash
+brew install gnupg
+```
+
+Pour Windows, si vous n'avez pas GPG, vous pouvez installer le logiciel [Gpg4win](https://www.gpg4win.org/).
+
+219
+
+#### Téléchargement des documents
+
+Pour commencer, vous allez avoir besoin de plusieurs documents relatifs au logiciel que vous souhaitez installer. Dans cet exemple, nous allons vérifier le logiciel *Sparrow Wallet*, un gestionnaire de portefeuille Bitcoin. Le processus sera similaire pour n’importe quel autre logiciel : il vous suffira simplement de trouver les bons fichiers nécessaires à la vérification.
+
+Rendez-vous sur le site officiel de [Sparrow Wallet dans la section "_Download_"](https://sparrowwallet.com/download/). Si vous souhaitez vérifier un autre logiciel, rendez-vous sur le site de ce logiciel.
+
+220
+
+Vous pouvez également aller [sur le dépôt GitHub du projet](https://github.com/sparrowwallet/sparrow/releases).
+
+221
+
+Téléchargez l'installateur du logiciel correspondant à votre système d'exploitation.
+
+222
+
+Vous allez également avoir besoin du hash du fichier, souvent appelé "_SHA256SUMS_" ou "_MANIFEST_".
+
+223
+
+Téléchargez aussi la signature PGP du fichier. C'est le document en `.asc`.
+
+224
+
+Assurez-vous de placer tous ces fichiers dans un même dossier pour faciliter les étapes suivantes.
+
+Enfin, vous aurez besoin de la clé publique du développeur pour vérifier la signature PGP. Cette clé est généralement disponible sur le site officiel du logiciel, sur le dépôt GitHub du projet, parfois sur les réseaux sociaux du développeur, ou encore sur des plateformes spécialisées comme Keybase.
+
+Dans le cas de *Sparrow Wallet*, vous pouvez retrouver la clé publique du développeur [Craig Raw sur Keybase](https://keybase.io/craigraw). Pour la télécharger directement depuis le terminal, exécutez la commande suivante :
+
+```bash
+curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
+```
+
+225
+
+233
+
+Pour vous assurer que vous utilisez bien la véritable clé publique du développeur, et non une clé usurpée par un attaquant, je vous recommande de croiser les sources : vérifiez que l’empreinte de la clé correspond bien sur Keybase, sur le site officiel du projet, ainsi que sur les éventuels réseaux sociaux ou canaux de communication du développeur.
+
+#### Vérification de la signature
+
+Le processus de vérification de la signature est identique sur Windows, macOS et Linux. Vous avez normalement déjà importé la clé publique lors de l’étape précédente, mais si ce n’est pas encore fait, vous pouvez l’importer à l’aide de la commande suivante :
+
+```bash
+gpg --import [key_path]
+```
+
+Remplacez `[key_path]` par l'emplacement du fichier de la clé publique du développeur.
+
+226
+
+Vérifiez la signature avec la commande suivante :
+
+```bash
+gpg --verify [file.asc]
+```
+
+Remplacez `[file.asc]` par le chemin du fichier de la signature. Dans le cas de Sparrow, ce fichier s'appelle par exemple "_sparrow-2.0.0-manifest.txt.asc_" pour la version 2.0.0.
+
+227
+
+234
+
+Si la signature est valide, GPG vous le confirmera explicitement. Vous pouvez alors passer à l’étape suivante, puisque cette vérification atteste de l’authenticité du fichier.
+
+228
+
+235
+
+#### Vérification du hash
+
+Maintenant que l’authenticité du fichier contenant les hashs est confirmée, il reste à vérifier l’intégrité du fichier d’installation en s’appuyant sur ce fichier authentifié. L’objectif est de comparer le hash de votre installeur avec celui indiqué dans le fichier `.asc`. Si les deux correspondent, cela garantit que le code du logiciel n’a subi aucune altération.
+
+Sur Windows, ouvrez un terminal et exécutez la commande suivante :
+
+```bash
+CertUtil -hashfile [file_path] SHA256 | findstr /v "hash"
+```
+
+Remplacez `[file_path]` par l'emplacement de l'installateur.
+
+229
+
+Le terminal vous renvoie le hash du logiciel téléchargé.
+
+230
+
+Comparez ensuite le résultat avec la valeur correspondante dans le fichier "_sparrow-2.0.0-manifest.txt_".
+
+231
+
+Dans mon cas, on voit que les deux hachages correspondent parfaitement.
+
+Sous macOS et Linux, le processus de vérification des hashs est automatisé : il n’est donc pas nécessaire de comparer manuellement les deux empreintes comme cela peut être le cas sous Windows.
+
+Exécutez simplement cette commande sous macOS :
+
+```bash
+shasum --check [file_name] --ignore-missing
+```
+
+Remplacez `[file_name]` par le nom du fichier authentifié contenant les hashs. Par exemple pour Sparrow Wallet version 2.0.0 :
+
+```bash
+shasum --check sparrow-2.0.0-manifest.txt --ignore-missing
+```
+
+Si les hachages correspondent, vous devriez avoir en sortie :
+
+```bash
+Sparrow-2.0.0.dmg: OK
+```
+
+Sous Linux, la commande est similaire :
+
+```bash
+sha256sum --check [file_name] --ignore-missing
+```
+
+Et si les hashs correspondent, vous devriez avoir en sortie :
+
+```bash
+sparrow_2.0.0-1_amd64.deb: OK
+```
+
+236
+
+Vous êtes maintenant assuré que le logiciel que vous avez téléchargé est à la fois authentique et intègre. Vous pouvez procéder à son installation sur votre machine.
+
+237
+
+La vérification de l’intégrité et de l’authenticité est une pratique assez simple, mais elle constitue une protection concrète et efficace contre la grande majorité des menaces liées au téléchargement et à l’installation de logiciels.
+
+Dans le prochain chapitre, nous aborderons plus en détail la question de la gestion des données. Nous verrons comment vous prémunir face à deux risques majeurs : la perte de données et le vol de données.
 
 
 

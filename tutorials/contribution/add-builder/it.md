@@ -1,12 +1,12 @@
 ---
-name: Aggiunta di un Builder
-description: Come proporre l'aggiunta di un nuovo builder sulla rete PlanB?
+name: Aggiunta di un builder
+description: Come proporre l'aggiunta di un nuovo builder su Plan ₿ Network?
 ---
 ![builder](assets/cover.webp)
 
-La missione di PlanB è fornire risorse educative di primo livello su Bitcoin, nel maggior numero di lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, il che consente a chiunque di partecipare all'arricchimento della piattaforma.
+La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin, nel maggior numero di lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, il che consente a chiunque di partecipare all'arricchimento della piattaforma.
 
-Vuoi aggiungere un nuovo "builder" Bitcoin al sito della rete PlanB e dare visibilità alla tua azienda o software, ma non sai come fare? Questo tutorial è per te!
+Vuoi aggiungere un nuovo "builder" Bitcoin al sito Plan ₿ Network e dare visibilità alla tua azienda o software, ma non sai come fare? Questo tutorial è per te!
 ![builder](assets/01.webp)
 - Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
 
@@ -17,13 +17,13 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![builder](assets/02.webp)
 - Clicca in alto a destra sul pulsante `Add file`, poi su `Create new file`:
 ![builder](assets/03.webp)
-- Se non hai mai contribuito ai contenuti della rete PlanB prima d'ora, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, il che ti consente di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
+- Se non hai mai contribuito ai contenuti di Plan ₿ Network prima d'ora, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, il che ti consente di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
 ![builder](assets/04.webp)
 - Arriverai quindi alla pagina di modifica di GitHub:
 ![builder](assets/05.webp)
 - Crea una cartella per la tua azienda. Per fare ciò, nella casella `Name your file...`, scrivi il nome della tua azienda in minuscolo con i trattini al posto degli spazi. Ad esempio, se la tua azienda si chiama "Bitcoin Baguette", dovresti scrivere `bitcoin-baguette`:
 ![builder](assets/06.webp)
-- Per validare la creazione della cartella, basta aggiungere uno slash dopo il nome nella stessa casella, per esempio: `bitcoin-baguette/`. Aggiungere uno slash crea automaticamente una cartella anziché un file:
+- Per validare la creazione della cartella, basta aggiungere uno slash `/` dopo il nome nella stessa casella, per esempio: `bitcoin-baguette/`. Aggiungere uno slash crea automaticamente una cartella anziché un file:
 ![builder](assets/07.webp)
 - In questa cartella, creerai un primo file YAML denominato `builder.yml`:
 ![builder](assets/08.webp)
@@ -110,7 +110,7 @@ category: educazione
 ![builder](assets/13.webp)
 - Clicca sulla tua immagine del profilo GitHub in alto a destra, poi su `Your Repositories`:
 ![builder](assets/14.webp)
-- Seleziona il tuo fork del repository PlanB Network:
+- Seleziona il tuo fork del repository Plan ₿ Network:
 ![builder](assets/15.webp)
 - Dovresti vedere una notifica in alto alla finestra con il tuo nuovo branch. Probabilmente si chiama `patch-1`. Cliccaci sopra:
 ![builder](assets/16.webp)
@@ -120,7 +120,7 @@ category: educazione
 ![builder](assets/18.webp)
 - Nella cartella della tua attività, clicca sul pulsante `Add file`, poi su `Create new file`:
 ![builder](assets/19.webp)
-- Nominare questa nuova cartella `assets` e confermarne la creazione mettendo uno slash `/` alla fine:
+- Nomina questa nuova cartella `assets` e conferma la creazione mettendo uno slash `/` alla fine:
 ![builder](assets/20.webp)
 - In questa cartella `assets`, crea un file chiamato `.gitkeep`:
 ![builder](assets/21.webp)
@@ -131,7 +131,7 @@ category: educazione
 ![builder](assets/24.webp)
 - Clicca sul pulsante `Add file`, poi su `Upload files`:
 ![builder](assets/25.webp)
-- Si aprirà una nuova pagina. Trascina e rilascia un'immagine della tua azienda o del tuo software nell'area. Questa immagine verrà visualizzata sul sito di PlanB Network:
+- Si aprirà una nuova pagina. Trascina e rilascia un'immagine della tua azienda o del tuo software nell'area. Questa immagine verrà visualizzata sul sito di Plan ₿ Network:
 ![builder](assets/26.webp)
 - Può essere il logo o un'icona:
 ![builder](assets/27.webp)
@@ -160,8 +160,8 @@ contributors:
  - 
 ```
 
-- Per la chiave `contributors`, puoi aggiungere il tuo identificativo di contributore a PlanB Network se ne hai uno. Se non lo hai, lascia questo campo vuoto.
-- Per la chiave `description`, devi semplicemente aggiungere un breve paragrafo che descrive la tua azienda o il tuo software. La descrizione deve essere nella stessa lingua del nome del file. Non è necessario tradurre questa descrizione in tutte le lingue supportate sul sito, poiché i team di PlanB lo faranno utilizzando il loro modello. Ad esempio, ecco come potrebbe apparire il tuo file:
+- Per la chiave `contributors`, puoi aggiungere il tuo identificativo di contributore Plan ₿ Network se ne hai uno. Se non lo hai, lascia questo campo vuoto.
+- Per la chiave `description`, devi semplicemente aggiungere un breve paragrafo che descrive la tua azienda o il tuo software. La descrizione deve essere nella stessa lingua del nome del file. Non è necessario tradurre questa descrizione in tutte le lingue supportate sul sito, poiché il team di Plan ₿ Network lo faranno utilizzando il loro modello. Ad esempio, ecco come potrebbe apparire il tuo file:
 ```yaml
 description: |
 Fondata nel 2017, Bitcoin Baguette è un'associazione con sede a Parigi dedicata all'organizzazione di meetup e workshop tecnici su Bitcoin. Riuniamo appassionati, esperti e menti curiose per esplorare e discutere le complessità della tecnologia Bitcoin. I nostri eventi offrono una piattaforma per la condivisione di conoscenze, networking e per approfondire la comprensione dei meccanismi interni di Bitcoin. Unisciti a noi a Bitcoin Baguette per far parte della comunità Bitcoin di Parigi e rimanere aggiornato con gli ultimi progressi nel campo.
@@ -184,8 +184,8 @@ contributors:
 ![builder](assets/43.webp)
 - Clicca sul pulsante `Create pull request`:
 ![builder](assets/44.webp)
-Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo integrerà nel repository principale di PlanB Network. Dovresti vedere apparire il tuo profilo builder sul sito web qualche giorno dopo.
+Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo integrerà nel repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo profilo builder sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando il tuo PR non è validato, puoi consultarlo nella scheda `Pull requests` sul repository GitHub di PlanB Network:
+Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando il tuo PR non è validato, puoi consultarlo nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
 ![builder](assets/45.webp)
 Grazie mille per il tuo prezioso contributo! :)

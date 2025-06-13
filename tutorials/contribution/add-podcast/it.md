@@ -1,12 +1,12 @@
 ---
-name: Aggiungere un Podcast alla Rete PlanB
-description: Come aggiungere un nuovo podcast alla Rete PlanB?
+name: Aggiungere un podcast su Plan ₿ Network
+description: Come aggiungere un nuovo podcast su Plan ₿ Network?
 ---
 ![podcast](assets/cover.webp)
 
-La missione di PlanB è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, permettendo a chiunque di partecipare all'arricchimento della piattaforma.
+La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, permettendo a chiunque di partecipare all'arricchimento della piattaforma.
 
-Stai cercando di aggiungere un podcast su Bitcoin al sito della Rete PlanB e aumentare la visibilità del tuo show, ma non sai come fare? Questo tutorial è per te!
+Stai cercando di aggiungere un podcast su Bitcoin al sito Plan ₿ Network e aumentare la visibilità del tuo show, ma non sai come fare? Questo tutorial è per te!
 ![podcast](assets/01.webp)
 - Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
 
@@ -17,13 +17,13 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![podcast](assets/02.webp)
 - Clicca in alto a destra sul pulsante `Add file`, poi su `Create new file`:
 ![podcast](assets/03.webp)
-- Se non hai mai contribuito al contenuto della Rete PlanB prima d'ora, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
+- Se non hai mai contribuito ai contenuti Plan ₿ Network prima d'ora, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
 ![podcast](assets/04.webp)
 - Arriverai quindi alla pagina di modifica di GitHub:
 ![podcast](assets/05.webp)
 - Crea una cartella per il tuo podcast. Per fare ciò, nella casella `Name your file...`, scrivi il nome del tuo podcast in minuscolo con i trattini al posto degli spazi. Ad esempio, se il tuo show si chiama "Super Podcast Bitcoin", dovresti scrivere `super-podcast-bitcoin`:
 ![podcast](assets/06.webp)
-- Per validare la creazione della cartella, basta aggiungere una barra dopo il nome del tuo podcast nella stessa casella, per esempio: `super-podcast-bitcoin/`. Aggiungere una barra crea automaticamente una cartella anziché un file:
+- Per validare la creazione della cartella, basta aggiungere uno slash `/` dopo il nome del tuo podcast nella stessa casella, per esempio: `super-podcast-bitcoin/`. Aggiungere una barra crea automaticamente una cartella anziché un file:
 ![podcast](assets/07.webp)
 - In questa cartella, creerai un primo file YAML chiamato `podcast.yml`:
 ![podcast](assets/08.webp)
@@ -97,7 +97,7 @@ contributors:
 ![podcast](assets/13.webp)
 - Clicca sulla tua immagine del profilo GitHub in alto a destra, poi su `Your Repositories`:
 ![podcast](assets/14.webp)
-- Seleziona il tuo fork del repository PlanB Network:
+- Seleziona il tuo fork del repository Plan ₿ Network:
 ![podcast](assets/15.webp)
 - Dovresti vedere una notifica in alto alla finestra con il tuo nuovo branch. Probabilmente si chiama `patch-1`. Cliccaci sopra:
 ![podcast](assets/16.webp)
@@ -106,7 +106,7 @@ contributors:
 - Torna alla cartella `resources/podcast/` e seleziona la cartella del podcast che hai appena creato nel commit precedente: ![podcast](assets/18.webp)
 - Nella tua cartella podcast, clicca sul pulsante `Add file`, poi su `Create new file`:
 ![podcast](assets/19.webp)
-- Nominare questa nuova cartella `assets` e confermarne la creazione aggiungendo una barra `/` alla fine:
+- Nomina questa nuova cartella `assets` e conferma la creazione aggiungendo uno slash `/` alla fine:
 ![podcast](assets/20.webp)
 - In questa cartella `assets`, crea un file chiamato `.gitkeep`:
 ![podcast](assets/21.webp)
@@ -118,7 +118,7 @@ contributors:
 ![podcast](assets/24.webp)
 - Clicca sul pulsante `Add file`, poi su `Upload files`:
 ![podcast](assets/25.webp)
-- Si aprirà una nuova pagina. Trascina e rilascia il logo del tuo podcast nell'area indicata. Questa immagine verrà visualizzata sul sito della Rete PlanB: ![podcast](assets/26.webp)
+- Si aprirà una nuova pagina. Trascina e rilascia il logo del tuo podcast nell'area indicata. Questa immagine verrà visualizzata sul sito Plan ₿ Network: ![podcast](assets/26.webp)
 - Attenzione, l'immagine deve essere quadrata, per adattarsi al meglio al nostro sito web: ![podcast](assets/27.webp)
 - Una volta caricata l'immagine, verifica che la casella `Commit directly to the patch-1 branch` sia selezionata, poi clicca su `Commit changes`: ![podcast](assets/28.webp)
 - Attenzione, la tua immagine deve essere denominata `logo` e deve essere in formato `.webp`. Il nome completo del file deve quindi essere: `logo.webp`: ![podcast](assets/29.webp)
@@ -130,7 +130,7 @@ contributors:
 - Dovresti vedere un messaggio che indica che il tuo ramo ha subito delle modifiche. Clicca sul pulsante `Compare & pull request`: ![podcast](assets/35.webp)
 - Aggiungi un titolo chiaro e una descrizione al tuo PR: ![podcast](assets/36.webp)
 - Clicca sul pulsante `Create pull request`: ![podcast](assets/37.webp)
-Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo unirà al repository principale della Rete PlanB. Dovresti vedere apparire il tuo podcast sul sito web qualche giorno dopo.
+Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo podcast sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Finché il tuo PR non è validato, puoi visualizzarlo nella scheda `Pull requests` sul repository GitHub della Rete PlanB: ![podcast](assets/38.webp)
+Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Finché il tuo PR non è validato, puoi visualizzarlo nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network: ![podcast](assets/38.webp)
 Grazie mille per il tuo prezioso contributo! :)

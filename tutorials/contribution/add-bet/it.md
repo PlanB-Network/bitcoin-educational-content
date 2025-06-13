@@ -45,11 +45,11 @@ tags:
 contributors:
   - 
 ```
-- **`builder`**: Indica l'identificativo della tua organizzazione su Plan ₿ Network. Se non hai ancora un identificativo "builder" per la tua azienda, puoi crearne uno seguendo questo tutorial.
+- **`Attività`**: Indica l'identificativo della tua attività su Plan ₿ Network. Se non hai ancora un identificativo attività per la tua azienda, puoi crearne uno seguendo questo tutorial.
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
- Se non ne possiedi uno, puoi semplicemente usare il tuo nome, il tuo pseudonimo o il nome della tua azienda senza aver creato un profilo builder.
+ Se non ne possiedi uno, puoi semplicemente usare il tuo nome, il tuo pseudonimo o il nome della tua azienda senza aver creato un profilo attività.
 - **`type`**: Seleziona la natura del tuo contenuto tra le seguenti due opzioni:
 	- `Educational Content` per contenuti educativi.
 	- `Visual Content` per altri tipi di contenuti diversi.

@@ -1,6 +1,6 @@
 ---
 name: Guida all'esecuzione della piattaforma Plan ₿ Network a livello locale
-description: Come è possibile eseguire il Plan ₿ Network in un ambiente locale per testare il mio contributo ai contenuti o la correzione/revisione dei contenuti didattici sul Plan ₿ Network?
+description: Come è possibile eseguire Plan ₿ Network in un ambiente locale per testare il mio contributo ai contenuti o la correzione/revisione dei contenuti didattici su Plan ₿ Network?
 ---
 ![github](assets/cover.webp)
 
@@ -8,12 +8,12 @@ description: Come è possibile eseguire il Plan ₿ Network in un ambiente local
 
 Questo tutorial fornisce istruzioni passo passo per configurare il sistema di gestione dell'apprendimento Bitcoin da Plan ₿ Network sulla vostra macchina locale, utilizzando Docker, chiavi fittizie e configurazioni personalizzate dei repository.
 
-Se non avete capito la parte precedente, non preoccupatevi: questo tutorial è per voi!
+Se non hai capito la parte precedente, non preoccuparti: questo tutorial è per te!
 
 ---
 ## **Come far funzionare il sistema di gestione dell'apprendimento Bitcoin a livello locale**
 
-Questa guida fornisce i passi dettagliati per configurare la piattaforma, gestire le chiavi fittizie e personalizzare i repository. Seguite i passi seguenti per evitare problemi comuni e configurare correttamente il vostro ambiente locale.
+Questa guida fornisce i passi dettagliati per configurare la piattaforma, gestire le chiavi fittizie e personalizzare i repository. Segui i passi seguenti per evitare problemi comuni e configurare correttamente il tuo ambiente locale.
 
 **1. Prerequisiti**
 
@@ -48,7 +48,7 @@ cp .env.example .env
 
 ⚠️ Questo è un passaggio obbligatorio, saltarlo comporterà errori come il rifiuto della connessione tra alcuni contenitori.
 
-Non dimenticate di aggiungere anche il vostro PAT dedicato a Github nel file
+Non dimenticare di aggiungere anche il tuo PAT dedicato a Github nel file
 
 ```markdown
 # Dummy Keys for External Services
@@ -62,14 +62,14 @@ SENDGRID_KEY=dummySendgridKey
 ---
 **4. Installare le dipendenze**
 
-assicurarsi di aver installato una versione di nodejs adeguata. A partire dal 2024-12, è stato dimostrato che la versione 22.12.0 (LTS) funziona.
+Assicurarsi di aver installato una versione di nodejs adeguata. A partire dal 2024-12, è stato dimostrato che la versione 22.12.0 (LTS) funziona.
 
 ⚠️ La versione del repository Ubuntu 22.04 di nodejs è 12.22.9: troppo vecchia per consentire l'installazione di pnpm
 
-Per installare nodejs, trovare le istruzioni [qui] (https://nodejs.org/en/download/package-manager); per esempio si può scegliere di usare il metodo di installazione `nvm`.
+Per installare nodejs, trovi le istruzioni [qui] (https://nodejs.org/en/download/package-manager); per esempio si può scegliere di usare il metodo di installazione `nvm`.
 
 ---
-Prima di avviare la fase di installazione di pnpm dei pacchetti necessari, assicurarsi che siano installate tutte le dipendenze; è possibile ottenere questo risultato eseguendo il seguente comando:
+Prima di avviare la fase di installazione di pnpm dei pacchetti necessari, assicurati che siano installate tutte le dipendenze; è possibile ottenere questo risultato eseguendo il seguente comando:
 
 ```bash
 sudo apt install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++ libpixman-1-dev
@@ -92,7 +92,7 @@ Nella cartella `../Bitcoin-learning-management-system/`, avviare l'ambiente di s
 docker compose up --build -V
 ```
 
-Se eseguite anche il comando successivo in questo modo, non vedrete i log nel vostro terminale.
+Se esegui anche il comando successivo in questo modo, non vedrai i log nel tuo terminale.
 
 ```bash
 docker compose up -d --build -V
@@ -170,24 +170,24 @@ docker compose up --build -V
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-Questa esercitazione assicura che la piattaforma sia configurata correttamente con chiavi fittizie, dipendenze installate e repository personalizzati come necessario. 🎉 Buona fortuna con la configurazione!
+Questo tutorial assicura che la piattaforma sia configurata correttamente con chiavi fittizie, dipendenze installate e repository personalizzati come necessario. 🎉 Buona fortuna con la configurazione!
 
 **Comandi per un aiuto supplementare**
 
-arrestare tutti i contenitori
+Arrestare tutti i contenitori
 
 ```
 docker compose down
 ```
 
-potare tutti i contenitori e i volumi esistenti
+Potare tutti i contenitori e i volumi esistenti
 
 ```
 docker container prune -f
 docker volume prune --all
 ```
 
-ricreare i contenitori con lo stesso comando usato nella guida ufficiale e lo script di sincronizzazione del pranzo:
+Ricreare i contenitori con lo stesso comando usato nella guida ufficiale e lancia lo script di sincronizzazione:
 
 ```
 docker-compose up --build -V

@@ -1,12 +1,12 @@
 ---
-name: Aggiunta di un builder
-description: Come proporre l'aggiunta di un nuovo builder su Plan ₿ Network?
+name: Aggiunta di una attività
+description: Come proporre l'aggiunta di una nuova attività su Plan ₿ Network?
 ---
 ![builder](assets/cover.webp)
 
 La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin, nel maggior numero di lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, il che consente a chiunque di partecipare all'arricchimento della piattaforma.
 
-Vuoi aggiungere un nuovo "builder" Bitcoin al sito Plan ₿ Network e dare visibilità alla tua azienda o software, ma non sai come fare? Questo tutorial è per te!
+Vuoi aggiungere una nuova attività Bitcoin al sito Plan ₿ Network e dare visibilità alla tua azienda o software, ma non sai come fare? Questo tutorial è per te!
 ![builder](assets/01.webp)
 - Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
 
@@ -150,7 +150,7 @@ category: educazione
 ![builder](assets/34.webp)
 - Clicca sul pulsante `Add file`, poi su `Create new file`:
 ![builder](assets/35.webp)
-- Crea un nuovo file YAML nominandolo con l'indicatore della tua lingua madre. Questo file sarà utilizzato per la descrizione del builder. Ad esempio, se voglio scrivere la mia descrizione in inglese, nominerò questo file `en.yml`:
+- Crea un nuovo file YAML nominandolo con l'indicatore della tua lingua madre. Questo file sarà utilizzato per la descrizione della tua attività. Ad esempio, se voglio scrivere la mia descrizione in inglese, nominerò questo file `en.yml`:
 ![builder](assets/36.webp)
 - Compila questo file YAML utilizzando questo template:
 ```yaml
@@ -184,7 +184,7 @@ contributors:
 ![builder](assets/43.webp)
 - Clicca sul pulsante `Create pull request`:
 ![builder](assets/44.webp)
-Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo integrerà nel repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo profilo builder sul sito web qualche giorno dopo.
+Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo integrerà nel repository principale di Plan ₿ Network. Dovresti vedere apparire il profilo della tua attività sul sito web qualche giorno dopo.
 
 Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando il tuo PR non è validato, puoi consultarlo nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
 ![builder](assets/45.webp)

@@ -1680,11 +1680,11 @@ Sous Debian (donc Ubuntu) :
 sudo apt update && sudo apt upgrade -y
 ```
 
-213
+![Image](assets/fr/213.webp)
 
 Si vous préférez utiliser une interface graphique, sur Ubuntu, il y a l’outil *Software Updater* qui permet de gérer les mises à jour facilement sans passer par le terminal.
 
-214
+![Image](assets/fr/214.webp)
 
 Sous Red Hat (Fedora) :
 
@@ -1709,7 +1709,7 @@ Apple menu → System Settings → General → Software Update
 
 macOS propose de télécharger automatiquement les mises à jour de sécurité, du système et des applications intégrées via l’option "*Automatic Updates*" dans ce même menu.
 
-212
+![Image](assets/fr/212.webp)
 
 ### La mise à jour des logiciels
 
@@ -1737,7 +1737,7 @@ winget upgrade --all
 
 Cette commande va interroger les dépôts publics pour rechercher les versions les plus récentes des logiciels que vous avez, et les met à jour automatiquement.
 
-211
+![Image](assets/fr/211.webp)
 
 Hélas, cette commande ne fonctionne pas pour tous les logiciels. C’est pourquoi, en complément, je vous recommande de tenir une liste de l’ensemble de vos logiciels et de vérifier manuellement leurs mises à jour de manière régulière, en particulier pour les applications sensibles. Pour les logiciels les plus critiques, comme votre antivirus ou votre navigateur web, je vous conseille de faire cette vérification au quotidien.
 
@@ -1766,7 +1766,7 @@ sudo apt update \
 - `sudo apt autoremove -y` : supprime les dépendances devenues inutiles ;
 - `sudo apt autoclean` : nettoie le cache des paquets obsolètes.
 
-215
+![Image](assets/fr/215.webp)
 
 Si vous avez des logiciels distribués sous forme de paquets Flatpak ou Snap, certains se mettent à jour automatiquement, mais vous pouvez tous les mettre à jour manuellement avec la commande :
 
@@ -1810,7 +1810,7 @@ Ouvrez un terminal et exécutez la commande suivante pour supprimer un logiciel 
 sudo apt remove name_of_the_software
 ```
 
-216
+![Image](assets/fr/216.webp)
 
 Puis exécutez cette commande pour supprimer automatiquement les dépendances devenues inutiles :
 
@@ -1822,7 +1822,7 @@ sudo apt autoremove
 
 Sous macOS, il existe principalement 2 méthodes : via *Launchpad* ou via le *Finder*. Si l’application a été téléchargée depuis l’App Store, ouvrez *Launchpad* (depuis le Dock ou le dossier `/Applications`), localisez l’application, puis maintenez la touche Option enfoncée ou effectuez un clic prolongé jusqu’à ce que les icônes se mettent à trembler. Cliquez ensuite sur la croix à côté de l’application, puis confirmez la suppression.
 
-210
+![Image](assets/fr/210.webp)
 
 Si le bouton de suppression n’apparaît pas, cela signifie que l’application n’a pas été installée depuis l’App Store. Dans ce cas, utilisez le *Finder*. Fermez d’abord l’application si elle est en cours d’exécution. Ouvrez le *Finder*, allez dans le dossier `/Applications`, sélectionnez l’application à supprimer, puis déplacez-la dans la corbeille. Enfin, videz la corbeille pour finaliser la désinstallation.
 
@@ -1853,11 +1853,11 @@ Comme nous avons vu dans la partie précédente, Windows est historiquement plus
     - *TCPView* : visualise les connexions réseau actives (détection de connexions anormales) ;
     - *Sigcheck* : vérifie les signatures numériques de fichiers (pour repérer du code malveillant).
 
-207
+![Image](assets/fr/207.webp)
 
 - **GlassWire** : un outil de surveillance réseau. Il trace les connexions entrantes et sortantes en temps réel, et vous alerte en cas d’activité inhabituelle.
 
-208
+![Image](assets/fr/208.webp)
 
 #### Sous Linux
 
@@ -1865,11 +1865,11 @@ Sur une machine Linux bien maintenue et utilisée dans un cadre personnel, les r
 
 - **Fail2ban** : surveille les logs système à la recherche de tentatives d’accès infructueuses (comme des tentatives de connexion SSH par force brute). Lorsqu’un comportement suspect est détecté, il bannit temporairement l’adresse IP fautive via `iptables` ;
 
-217
+![Image](assets/fr/217.webp)
 
 - **Lynis** : un outil d’audit de sécurité complet qui analyse votre système à la recherche de mauvaises configurations, de faiblesses connues ou d’écarts avec les bonnes pratiques. Il génère un rapport simple à lire, avec un score de sécurité et des recommandations.
 
-218
+![Image](assets/fr/218.webp)
 
 #### Sous macOS
 
@@ -1877,7 +1877,7 @@ macOS est réputé pour sa sécurité, en particulier grâce à ses politiques d
 
 - **KnockKnock** : scanne tous les éléments configurés pour s’exécuter au démarrage (agents, daemons, modules kernel…) et identifie ceux qui sont potentiellement suspects, non signés ou inconnus. Il permet de repérer rapidement les formes de persistance malveillante sur votre système.
 
-209
+![Image](assets/fr/209.webp)
 
 ### Conclusion : la sécurité est une affaire de régularité
 

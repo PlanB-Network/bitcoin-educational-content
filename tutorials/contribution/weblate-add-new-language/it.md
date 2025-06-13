@@ -10,14 +10,14 @@ Attualmente il nostro sito web offre una vasta gamma di lingue, e stiamo lavoran
 
 Se la tua lingua non è ancora disponibile sul nostro sito e vuoi aggiungerla, questo tutorial fa per te!
 
-Innanzitutto, assicurati di contattare il team di Plan ₿ Network tramite il nostro [gruppo Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Se non hai Telegram, puoi inviare un'e-mail a mari@planb.network. Assicurati di scrivere una piccola presentazione su chi sei e sulle lingue che parli.
+Innanzitutto, assicurati di contattare il team di Plan ₿ Network tramite il nostro [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder). Se non hai Telegram, puoi inviare un'e-mail a mari@planb.network. Assicurati di scrivere una piccola presentazione su chi sei e sulle lingue che parli.
 
 ## Verificare la presenza di una lingua su Weblate
 
 Per verificare se la tua lingua è già tra quelle su cui stiamo lavorando.
 
 
-- Vai su [la nostra piattaforma Weblate](https://weblate.planb.network/projects/planb-network-website/):
+- Vai sulla [nostra piattaforma Weblate](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 
@@ -34,13 +34,13 @@ Se la tua lingua non è presente, segui invece il tutorial sottostante per aggiu
 ## Aggiungere una nuova lingua su Plan ₿ Network
 
 
-- Il primo passo è creare un account su Weblate cliccando su "Registrati" nell'angolo in alto a destra (se hai bisogno di aiuto, puoi tornare al tutorial citato poco sopra).
-- Una volta creato l'account, vai al menu "Elementi del sito web" e seleziona la scheda "Lingue":
+- Il primo passo è creare un account su Weblate cliccando su "Register" nell'angolo in alto a destra (se hai bisogno di aiuto, puoi tornare al tutorial citato poco sopra).
+- Una volta creato l'account, vai al menù "Website elements" e seleziona la scheda "Languages":
 
 ![language](assets/03.webp)
 
 
-- Fai clic sul simbolo `+` in alto a sinistra della finestra:
+- Clicca sul simbolo `+` in alto a sinistra della finestra:
 
 ![language](assets/04.webp)
 
@@ -50,7 +50,7 @@ Se la tua lingua non è presente, segui invece il tutorial sottostante per aggiu
 ![language](assets/05.webp)
 
 
-- Fai clic su "Avvia nuova traduzione":
+- Clicca su "Start new translation":
 
 ![language](assets/06.webp)
 
@@ -60,7 +60,7 @@ Se la tua lingua non è presente, segui invece il tutorial sottostante per aggiu
 ![language](assets/07.webp)
 
 
-- Per iniziare a tradurre gli elementi statici del sito web, fai clic sul pulsante `Translate`: ![language](assets/08.webp)
+- Per iniziare a tradurre gli elementi statici del sito web, clicca sul pulsante `Translate`: ![language](assets/08.webp)
 
 Per essere guidato nel processo di traduzione, consulta il nostro tutorial dedicato qui sotto:
 

@@ -47,7 +47,7 @@ Prerequisiti prima di iniziare il tutorial:
 Se hai bisogno di aiuto per ottenere questi prerequisiti, le mie altre esercitazioni ti aiuteranno:
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Una volta che tutto è a posto e l'ambiente locale è correttamente configurato con il proprio fork della rete Plan ₿, si può iniziare ad aggiungere il tutorial.
+Una volta che tutto è a posto e l'ambiente locale è correttamente configurato con il proprio fork Plan ₿ Network, si può iniziare ad aggiungere il tutorial.
 
 
 ## 1 - Creare un nuovo ramo
@@ -443,7 +443,7 @@ Se desideri apportare modifiche al tuo contributo dopo aver già presentato la P
 
 
 - Se la PR è ancora aperta e non è ancora stata unita, apporta le modifiche localmente rimanendo sullo stesso ramo. Una volta finalizzate le modifiche, usa il pulsante `Push origin` per aggiungere un nuovo commit alla PR ancora aperta;
-- Se la tua PR è già stato unita al ramo principale, devi ricominciare il processo creando un nuovo ramo e inviando una nuova PR. Assicurati che il repository locale sia sincronizzato con il repository di origine di Plan ₿ Network prima di procedere.
+- Se la tua PR è già stata unita al ramo principale, devi ricominciare il processo creando un nuovo ramo e inviando una nuova PR. Assicurati che il repository locale sia sincronizzato con il repository di origine di Plan ₿ Network prima di procedere.
 
 Se incontri difficoltà tecniche nell'inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a coloro che contribuiscono a Plan ₿ Network](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
 

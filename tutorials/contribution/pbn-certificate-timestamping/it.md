@@ -99,7 +99,7 @@ Questo è un esempio del risultato:
 gpg: Firma effettuata lun 11 nov 2024, 00:39:04 CET
 gpg:                usando la chiave RSA 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                emittente "admin@planb.network"
-gpg: Buona firma da "PlanB Network (usata per la piattaforma PBN) <admin@planb.network>" [sconosciuto]
+gpg: Buona firma da "Plan ₿ Network (usata per la piattaforma PBN) <admin@planb.network>" [sconosciuto]
 ```
 
 Se vedi un messaggio come "FIRMA NON VALIDA", significa che il file è stato manomesso.

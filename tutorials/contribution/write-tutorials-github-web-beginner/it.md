@@ -56,7 +56,7 @@ Assicurati di essere nel ramo principale `dev`, quindi clicca sul pulsante "*Syn
 
 ![GITHUB](assets/fr/02.webp)
 
-Clicca sul ramo `dev`, quindi fornisci un nome al tuo ramo di lavoro in modo che il titolo rifletta chiaramente il suo scopo, usando i trattini per separare le parole. Per esempio, se il nostro obiettivo è scrivere un tutorial sull'uso di Green, il ramo potrebbe chiamarsi: `tuto-green-wallet-loic`. Dopo aver inserito un nome adeguato, clicca su "*Crea ramo*" per confermare la creazione del nuovo ramo basato su `dev`:
+Clicca sul ramo `dev`, quindi fornisci un nome al tuo ramo di lavoro in modo che il titolo rifletta chiaramente il suo scopo, usando i trattini per separare le parole. Per esempio, se il nostro obiettivo è scrivere un tutorial sull'uso di Green, il ramo potrebbe chiamarsi: `tuto-green-wallet-loic`. Dopo aver inserito un nome adeguato, clicca su "*Create branch*" per confermare la creazione del nuovo ramo basato su `dev`:
 
 ![GITHUB](assets/fr/03.webp)
 

@@ -226,9 +226,9 @@ Deja los demás parámetros por defecto, URL `127.0.0.1` y puerto `8332`, y haz 
 
 ![Image](assets/fr/36.webp)
 
-### Con mando a distancia Bitcoin Knots :
+### Con Bitcoin Knots en remoto:
 
-Si Bitcoin Knots está instalado en otra máquina conectada a la misma red, localice primero el archivo `Bitcoin.conf` entre los archivos de software. Si este archivo aún no existe, puede crearlo. Abra este archivo con un editor de texto y añada la siguiente línea:
+Si Bitcoin Knots está instalado en otra máquina conectada a la misma red, localiza primero el archivo `Bitcoin.conf` entre los archivos de software. Si este archivo aún no existe, puedes crearlo. Abre este archivo con un editor de texto y añade la siguiente línea:
 
 ```ini
 server=1
@@ -244,13 +244,13 @@ Después de editar el archivo, asegúrate de guardarlo en la carpeta adecuada pa
 
 |**Linux**|~/.Bitcoin|
 
-Esta operación también puede realizarse a través de los gráficos Interface de Bitcoin-QT. Vaya al menú "*Configuración*", luego a "*Opciones...*", y active la opción "*Habilitar servidor RPC*" marcando la casilla correspondiente. Si el archivo `Bitcoin.conf` no existe, puede crearlo directamente desde este Interface pulsando "*Abrir archivo de configuración*".
+Esta operación también puede realizarse a través de la Interface gráfica de Bitcoin-QT. Ve al menú "*Configuración*", luego a "*Opciones...*", y activa la opción "*Habilitar servidor RPC*" marcando la casilla correspondiente. Si el archivo `Bitcoin.conf` no existe, puedes crearlo directamente desde ésta Interface pulsando "*Abrir archivo de configuración*".
 
 ![Image](assets/fr/37.webp)
 
-Encuentre la IP Address de la máquina que aloja Nudos Bitcoin en su red local. Para ello, puede utilizar una herramienta como [Angry IP Scanner](https://angryip.org/). Asumamos, por el bien del argumento, que la IP Address de tu nodo es `192.168.1.18`.
+Encuentra la dirección IP de la máquina que aloja Bitcoin Knots en tu red local. Para ello, puedes utilizar una herramienta como [Angry IP Scanner](https://angryip.org/). Supongamos que la dirección IP de tu nodo es `192.168.1.18`.
 
-En el fichero `Bitcoin.conf`, añade las siguientes líneas, configurando `rpcbind=192.168.1.18` para que coincida con la IP Address de tu nodo.
+En el archivo `Bitcoin.conf`, añade las siguientes líneas, configurando `rpcbind=192.168.1.18` para que coincida con la dirección IP de tu nodo.
 
 ```ini
 [main]
@@ -262,7 +262,7 @@ rpcallowip=192.168.1.0/24
 
 ![Image](assets/fr/38.webp)
 
-Añada también un nombre de usuario y una contraseña para conexiones remotas al fichero `Bitcoin.conf`. Asegúrese de reemplazar `loic` con su nombre de usuario y `my_password` con una contraseña segura:
+Añade también un nombre de usuario y una contraseña para conexiones remotas al archivo `Bitcoin.conf`. Asegúrate de reemplazar `loic` con tu nombre de usuario y `my_password` con una contraseña segura:
 
 ```ini
 rpcuser=loic
@@ -271,18 +271,18 @@ rpcpassword=my_password
 
 ![Image](assets/fr/39.webp)
 
-Después de modificar y guardar el archivo, reinicie Bitcoin Knots.
+Después de modificar y guardar el archivo, reinicia Bitcoin Knots.
 
-Ahora puede ir a su software de gestión de cartera (por ejemplo, Sparrow Wallet o Liana). En Sparrow, vaya a la pestaña "*User / Pass*". Introduzca el nombre de usuario y la contraseña que ha configurado en el archivo `Bitcoin.conf`. Deja el resto de parámetros por defecto, es decir, URL "127.0.0.1" y puerto "8332". A continuación, haz clic en "*Probar conexión*".
+Ahora puedes ir a su software de gestión de billeteras (por ejemplo, Sparrow Wallet o Liana). En Sparrow, ve a la pestaña "*User / Pass*". Introduce el nombre de usuario y la contraseña que has configurado en el archivo `Bitcoin.conf`. Deja el resto de parámetros por defecto, es decir, URL "127.0.0.1" y puerto "8332". A continuación, haz clic en "*Probar conexión*".
 
 ![Image](assets/fr/40.webp)
 
 Se establece la conexión.
 
-Ahora ya lo sabes todo sobre la implementación alternativa de los Nudos Bitcoin.
+Ahora ya lo sabes todo sobre la implementación alternativa de Bitcoin Knots.
 
-Si este tutorial te ha resultado útil, te agradecería que dejaras un pulgar Green a continuación. No dudes en compartirlo en tus redes sociales. Muchas gracias
+Si este tutorial te ha resultado útil, te agradeceríamos que dejaras un Me gusta en verde a continuación. No dudes en compartirlo en tus redes sociales. Muchas gracias!
 
-También te recomiendo este otro tutorial en el que explico cómo configurar tu propio nodo Lightning:
+También te recomendamos este otro tutorial en el que explicamos cómo configurar tu propio nodo Lightning:
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

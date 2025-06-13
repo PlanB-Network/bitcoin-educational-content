@@ -130,7 +130,7 @@ contributors:
 - Dovresti vedere un messaggio che indica che il tuo ramo ha subito delle modifiche. Clicca sul pulsante `Compare & pull request`: ![podcast](assets/35.webp)
 - Aggiungi un titolo chiaro e una descrizione al tuo PR: ![podcast](assets/36.webp)
 - Clicca sul pulsante `Create pull request`: ![podcast](assets/37.webp)
-Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo podcast sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo podcast sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Finché il tuo PR non è validato, puoi visualizzarlo nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network: ![podcast](assets/38.webp)
+Assicurati di seguire il progresso della tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Finché la tua PR non è validata, puoi visualizzarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network: ![podcast](assets/38.webp)
 Grazie mille per il tuo prezioso contributo! :)

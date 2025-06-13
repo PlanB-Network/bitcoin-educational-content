@@ -184,8 +184,8 @@ contributors:
 ![builder](assets/43.webp)
 - Clicca sul pulsante `Create pull request`:
 ![builder](assets/44.webp)
-Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo integrerà nel repository principale di Plan ₿ Network. Dovresti vedere apparire il profilo della tua attività sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo integrerà nel repository principale di Plan ₿ Network. Dovresti vedere apparire il profilo della tua attività sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando il tuo PR non è validato, puoi consultarlo nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
+Assicurati di seguire il progresso della tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando la tua PR non è validata, puoi consultarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
 ![builder](assets/45.webp)
 Grazie mille per il tuo prezioso contributo! :)

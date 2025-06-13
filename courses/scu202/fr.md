@@ -1937,7 +1937,7 @@ Si vous êtes sous Linux, GPG est préinstallé sur la plupart des distribution
 sudo apt install gnupg
 ```
 
-232
+![Image](assets/fr/232.webp)
 
 Pour macOS, si vous n'avez pas déjà installé le gestionnaire de paquets Homebrew, faites-le avec les commandes suivantes :
 
@@ -1957,7 +1957,7 @@ brew install gnupg
 
 Pour Windows, si vous n'avez pas GPG, vous pouvez installer le logiciel [Gpg4win](https://www.gpg4win.org/).
 
-219
+![Image](assets/fr/219.webp)
 
 #### Téléchargement des documents
 
@@ -1965,23 +1965,23 @@ Pour commencer, vous allez avoir besoin de plusieurs documents relatifs au logic
 
 Rendez-vous sur le site officiel de [Sparrow Wallet dans la section "_Download_"](https://sparrowwallet.com/download/). Si vous souhaitez vérifier un autre logiciel, rendez-vous sur le site de ce logiciel.
 
-220
+![Image](assets/fr/220.webp)
 
 Vous pouvez également aller [sur le dépôt GitHub du projet](https://github.com/sparrowwallet/sparrow/releases).
 
-221
+![Image](assets/fr/221.webp)
 
 Téléchargez l'installateur du logiciel correspondant à votre système d'exploitation.
 
-222
+![Image](assets/fr/222.webp)
 
 Vous allez également avoir besoin du hash du fichier, souvent appelé "_SHA256SUMS_" ou "_MANIFEST_".
 
-223
+![Image](assets/fr/223.webp)
 
 Téléchargez aussi la signature PGP du fichier. C'est le document en `.asc`.
 
-224
+![Image](assets/fr/224.webp)
 
 Assurez-vous de placer tous ces fichiers dans un même dossier pour faciliter les étapes suivantes.
 
@@ -1993,9 +1993,9 @@ Dans le cas de *Sparrow Wallet*, vous pouvez retrouver la clé publique du déve
 curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
 ```
 
-225
+![Image](assets/fr/225.webp)
 
-233
+![Image](assets/fr/233.webp)
 
 Pour vous assurer que vous utilisez bien la véritable clé publique du développeur, et non une clé usurpée par un attaquant, je vous recommande de croiser les sources : vérifiez que l’empreinte de la clé correspond bien sur Keybase, sur le site officiel du projet, ainsi que sur les éventuels réseaux sociaux ou canaux de communication du développeur.
 
@@ -2009,7 +2009,7 @@ gpg --import [key_path]
 
 Remplacez `[key_path]` par l'emplacement du fichier de la clé publique du développeur.
 
-226
+![Image](assets/fr/226.webp)
 
 Vérifiez la signature avec la commande suivante :
 
@@ -2019,15 +2019,15 @@ gpg --verify [file.asc]
 
 Remplacez `[file.asc]` par le chemin du fichier de la signature. Dans le cas de Sparrow, ce fichier s'appelle par exemple "_sparrow-2.0.0-manifest.txt.asc_" pour la version 2.0.0.
 
-227
+![Image](assets/fr/227.webp)
 
-234
+![Image](assets/fr/234.webp)
 
 Si la signature est valide, GPG vous le confirmera explicitement. Vous pouvez alors passer à l’étape suivante, puisque cette vérification atteste de l’authenticité du fichier.
 
-228
+![Image](assets/fr/228.webp)
 
-235
+![Image](assets/fr/235.webp)
 
 #### Vérification du hash
 
@@ -2041,15 +2041,15 @@ CertUtil -hashfile [file_path] SHA256 | findstr /v "hash"
 
 Remplacez `[file_path]` par l'emplacement de l'installateur.
 
-229
+![Image](assets/fr/229.webp)
 
 Le terminal vous renvoie le hash du logiciel téléchargé.
 
-230
+![Image](assets/fr/230.webp)
 
 Comparez ensuite le résultat avec la valeur correspondante dans le fichier "_sparrow-2.0.0-manifest.txt_".
 
-231
+![Image](assets/fr/231.webp)
 
 Dans mon cas, on voit que les deux hachages correspondent parfaitement.
 
@@ -2085,11 +2085,11 @@ Et si les hashs correspondent, vous devriez avoir en sortie :
 sparrow_2.0.0-1_amd64.deb: OK
 ```
 
-236
+![Image](assets/fr/236.webp)
 
 Vous êtes maintenant assuré que le logiciel que vous avez téléchargé est à la fois authentique et intègre. Vous pouvez procéder à son installation sur votre machine.
 
-237
+![Image](assets/fr/237.webp)
 
 La vérification de l’intégrité et de l’authenticité est une pratique assez simple, mais elle constitue une protection concrète et efficace contre la grande majorité des menaces liées au téléchargement et à l’installation de logiciels.
 

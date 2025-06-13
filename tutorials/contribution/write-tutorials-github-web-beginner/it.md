@@ -1,6 +1,6 @@
 ---
 name: Contributo - Tutorial web GitHub (principiante)
-description: Guida completa ai tutorial di Plan ₿ Network con GitHub Web
+description: Guida completa ai tutorial Plan ₿ Network con GitHub Web
 ---
 ![cover](assets/cover.webp)
 
@@ -376,7 +376,7 @@ Inserisci un titolo che riassuma brevemente le modifiche che desideri unire al r
 
 ![GITHUB](assets/fr/38.webp)
 
-Il tuo PR sarà quindi visibile nella scheda "*Pull Request*" del repository principale di Plan ₿ Network. A questo punto non resta che attendere che un amministratore ti contatti per confermare che il tuo contributo sia stato unito o per richiedere ulteriori modifiche.
+La tua PR sarà quindi visibile nella scheda "*Pull Request*" del repository principale di Plan ₿ Network. A questo punto non resta che attendere che un amministratore ti contatti per confermare che il tuo contributo sia stato unito o per richiedere ulteriori modifiche.
 
 ![GITHUB](assets/fr/39.webp)
 

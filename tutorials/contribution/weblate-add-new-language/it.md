@@ -22,7 +22,7 @@ Per verificare se la tua lingua è già tra quelle su cui stiamo lavorando.
 ![language](assets/01.webp)
 
 
-- Nel menu `Elementi del sito` si trova un elenco di tutte le lingue in corso:
+- Nel menù `Elementi del sito` si trova un elenco di tutte le lingue in corso:
 
 ![language](assets/02.webp)
 
@@ -35,7 +35,7 @@ Se la tua lingua non è presente, segui invece il tutorial sottostante per aggiu
 
 
 - Il primo passo è creare un account su Weblate cliccando su "Registrati" nell'angolo in alto a destra (se hai bisogno di aiuto, puoi tornare al tutorial citato poco sopra).
-- Una volta creato l'account, vai al menu "Elementi del sito web" e seleziona la scheda "Lingue":
+- Una volta creato l'account, vai al menù "Elementi del sito web" e seleziona la scheda "Lingue":
 
 ![language](assets/03.webp)
 

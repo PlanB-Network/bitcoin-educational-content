@@ -1,29 +1,29 @@
 ---
-name: Aggiungere un Libro alla Rete PlanB
-description: Come aggiungere un nuovo libro alla Rete PlanB?
+name: Aggiungere un Libro su Plan ₿ Network
+description: Come aggiungere un nuovo libro su Plan ₿ Network?
 ---
 ![book](assets/cover.webp)
 
-La missione di PlanB è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, permettendo a chiunque di contribuire all'arricchimento della piattaforma.
+La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, permettendo a chiunque di contribuire all'arricchimento della piattaforma.
 
-**Vuoi aggiungere un libro relativo a Bitcoin sul sito della Rete PlanB e aumentare la visibilità del tuo lavoro, ma non sai come fare? Questo tutorial è per te!**
+**Vuoi aggiungere un libro relativo a Bitcoin sul sito Plan ₿ Network e aumentare la visibilità del tuo lavoro, ma non sai come fare? Questo tutorial è per te!**
 ![book](assets/01.webp)
 - Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di PlanB dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) nella sezione `resources/books/`:
+- Vai al [repository GitHub di Plan ₿ Network dedicato ai dati](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) nella sezione `resources/books/`:
 ![book](assets/02.webp)
 - Clicca in alto a destra sul pulsante `Add file`, poi su `Create new file`:
 ![book](assets/03.webp)
-- Se non hai mai contribuito ai contenuti della Rete PlanB prima d'ora, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
+- Se non hai mai contribuito ai contenuti Plan ₿ Network prima d'ora, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
 ![book](assets/04.webp)
 - Arriverai quindi alla pagina di modifica di GitHub:
 ![book](assets/05.webp)
 - Crea una cartella per il tuo libro. Per fare ciò, nella casella `Name your file...`, scrivi il nome del tuo libro in minuscolo con i trattini al posto degli spazi. Ad esempio, se il tuo libro si chiama "*Il Mio Libro su Bitcoin*", dovresti annotare `il-mio-libro-su-bitcoin`:
 ![book](assets/06.webp)
-- Per validare la creazione della cartella, basta aggiungere una barra dopo il nome del tuo libro nella stessa casella, per esempio: `il-mio-libro-su-bitcoin/`. Aggiungere una barra crea automaticamente una cartella anziché un file:
+- Per validare la creazione della cartella, basta aggiungere uno slash `/` dopo il nome del tuo libro nella stessa casella, per esempio: `il-mio-libro-su-bitcoin/`. Aggiungere uno slash crea automaticamente una cartella anziché un file:
 ![book](assets/07.webp)
 - In questa cartella, creerai un primo file YAML denominato `book.yml`:
 ![book](assets/08.webp)
@@ -70,7 +70,7 @@ tags:
 ![book](assets/13.webp)
 - Clicca sull'immagine del tuo profilo GitHub in alto a destra, poi su `Your Repositories`:
 ![book](assets/14.webp)
-- Seleziona il tuo fork del repository PlanB Network:
+- Seleziona il tuo fork del repository Plan ₿ Network:
 ![book](assets/15.webp)
 - Dovresti vedere una notifica in cima alla finestra con il tuo nuovo branch. Probabilmente si chiama `patch-1`. Cliccaci sopra:
 ![book](assets/16.webp)
@@ -80,7 +80,7 @@ tags:
 ![book](assets/18.webp)
 - Nella cartella del tuo libro, clicca sul pulsante `Add file`, poi su `Create new file`:
 ![book](assets/19.webp)
-- Nominare questa nuova cartella `assets` e confermarne la creazione mettendo uno slash `/` alla fine:
+- Nomina questa nuova cartella `assets` e conferma la creazione mettendo uno slash `/` alla fine:
 ![book](assets/20.webp)
 - In questa cartella `assets`, crea un file chiamato `.gitkeep`:
 ![book](assets/21.webp)
@@ -92,7 +92,7 @@ tags:
 ![book](assets/24.webp)
 - Clicca sul pulsante `Add file`, poi su `Upload files`:
 ![book](assets/25.webp)
-- Si aprirà una nuova pagina. Trascina e rilascia l'immagine di copertina del tuo libro nell'area. Questa immagine verrà visualizzata sul sito di PlanB Network:
+- Si aprirà una nuova pagina. Trascina e rilascia l'immagine di copertina del tuo libro nell'area. Questa immagine verrà visualizzata sul sito di Plan ₿ Network:
 ![book](assets/26.webp)
 - Attenzione, l'immagine deve essere nel formato di un libro, per adattarsi al meglio al nostro sito web, come per esempio:
 ![book](assets/27.webp)
@@ -108,7 +108,7 @@ tags:
 - Aggiungi un titolo e una descrizione al tuo commit, poi clicca su `Commit changes`:
 ![book](assets/33.webp)
 - Ritorna alla cartella del tuo libro: ![libro](assets/34.webp)
-- Clicca sul pulsante `Aggiungi file`, poi su `Crea nuovo file`:
+- Clicca sul pulsante `Add file`, poi su `Create new file`:
 ![libro](assets/35.webp)
 - Crea un nuovo file YAML nominandolo con l'indicatore della lingua del libro. Questo file verrà utilizzato per la descrizione del libro. Ad esempio, se voglio scrivere la mia descrizione in inglese, nominerò questo file `en.yml`:
 ![libro](assets/36.webp)
@@ -159,7 +159,7 @@ contributors:
 ![libro](assets/43.webp)
 - Clicca sul pulsante `Crea pull request`:
 ![libro](assets/44.webp)
-Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo unirà al repository principale della Rete PlanB. Dovresti vedere apparire il tuo libro sul sito web qualche giorno dopo.
+Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo libro sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fintanto che il tuo PR non è validato, puoi visualizzarlo nella scheda `Pull requests` sul repository GitHub della Rete PlanB.
+Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fintanto che il tuo PR non è validato, puoi visualizzarlo nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network.
 Grazie mille per il tuo prezioso contributo! :)

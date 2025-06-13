@@ -1,6 +1,6 @@
 ---
 name: Weblate - traduzione di elementi statici
-description: Come puoi partecipare alla traduzione degli elementi statici su planb.network?
+description: Come puoi partecipare alla traduzione degli elementi statici su Plan ₿ Network?
 ---
 ![cover](assets/cover.webp)
 

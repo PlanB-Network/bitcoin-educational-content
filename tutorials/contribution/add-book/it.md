@@ -153,13 +153,13 @@ contributors:
 ![libro](assets/40.webp)
 - Se tutto ti sembra corretto, ritorna alla radice del tuo fork:
 ![libro](assets/41.webp)
-- Dovresti vedere un messaggio che indica che il tuo branch è stato modificato. Clicca sul pulsante `Compara & crea pull request`:
+- Dovresti vedere un messaggio che indica che il tuo branch è stato modificato. Clicca sul pulsante `Compare & create pull request`:
 ![libro](assets/42.webp)
-- Aggiungi un titolo chiaro e una descrizione al tuo PR:
+- Aggiungi un titolo chiaro e una descrizione alla tua PR:
 ![libro](assets/43.webp)
-- Clicca sul pulsante `Crea pull request`:
+- Clicca sul pulsante `Create pull request`:
 ![libro](assets/44.webp)
-Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo libro sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un amministratore lo esaminerà ora e, se tutto è in ordine, lo unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo libro sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fintanto che il tuo PR non è validato, puoi visualizzarlo nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network.
+Assicurati di seguire il progresso della tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fintanto che la tua PR non è validata, puoi visualizzarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network.
 Grazie mille per il tuo prezioso contributo! :)

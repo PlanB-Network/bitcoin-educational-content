@@ -1,12 +1,12 @@
 ---
-name: Aggiungere un evento su Plan B Network
-description: Come suggerisco di aggiungere un nuovo evento su Plan B Network?
+name: Aggiungere un evento su Plan ₿ Network
+description: Come suggerisco di aggiungere un nuovo evento su Plan ₿ Network?
 ---
 ![evento](assets/cover.webp)
 
-La missione di PlanB è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, offrendo a chiunque l'opportunità di contribuire all'arricchimento della piattaforma.
+La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibile. Tutti i contenuti pubblicati sul sito sono open-source e ospitati su GitHub, offrendo a chiunque l'opportunità di contribuire all'arricchimento della piattaforma.
 
-Se vuoi aggiungere una conferenza su Bitcoin al sito della Rete PlanB e aumentare la visibilità del tuo evento, ma non sai come fare? Questo tutorial è per te!
+Se vuoi aggiungere una conferenza su Bitcoin al sito Plan ₿ Network e aumentare la visibilità del tuo evento, ma non sai come fare? Questo tutorial è per te!
 ![evento](assets/01.webp)
 - Prima di tutto, devi avere un account su GitHub. Se non sai come crearne uno, abbiamo realizzato un tutorial dettagliato per guidarti.
 
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![evento](assets/05.webp)
 - Crea una cartella per la tua conferenza. Per fare ciò, nella casella `Name your file...`, scrivi il nome della tua conferenza in minuscolo con trattini al posto degli spazi. Ad esempio, se la tua conferenza si chiama "Paris Bitcoin Conference", dovresti annotare `paris-bitcoin-conference`. Aggiungi anche l'anno della tua conferenza, per esempio: `paris-bitcoin-conference-2024`:
 ![evento](assets/06.webp)
-- Per validare la creazione della cartella, basta annotare una barra dopo il nome nella stessa casella, per esempio: `paris-bitcoin-conference-2024/`. Aggiungere una barra crea automaticamente una cartella anziché un file:
+- Per validare la creazione della cartella, basta inserire uno slash `/` dopo il nome nella stessa casella, per esempio: `paris-bitcoin-conference-2024/`. Aggiungere uno slash crea automaticamente una cartella anziché un file:
 ![evento](assets/07.webp)
 - In questa cartella, creerai un primo file YAML chiamato `events.yml`:
 ![evento](assets/08.webp)
@@ -97,7 +97,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![evento](assets/13.webp)
 - Clicca sulla tua immagine del profilo GitHub in alto a destra, poi su `Your Repositories`:
 ![evento](assets/14.webp)
-- Seleziona il tuo fork del repository PlanB Network:
+- Seleziona il tuo fork del repository Plan ₿ Network:
 ![evento](assets/15.webp)
 - Dovresti vedere una notifica in alto alla finestra con il tuo nuovo ramo. Probabilmente si chiama `patch-1`. Cliccaci sopra:
 ![evento](assets/16.webp)
@@ -107,7 +107,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![evento](assets/18.webp)
 - Nella cartella della tua conferenza, clicca sul pulsante `Add file`, poi su `Create new file`:
 ![evento](assets/19.webp)
-- Nominare questa nuova cartella `assets` e confermarne la creazione mettendo una barra `/` alla fine:
+- Nomina questa nuova cartella `assets` e conferma la creazione mettendo uno slash `/` alla fine:
 ![evento](assets/20.webp)
 - In questa cartella `assets`, crea un file chiamato `.gitkeep`:
 ![evento](assets/21.webp)
@@ -118,7 +118,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 - Ritorna alla cartella `assets`:
 ![evento](assets/24.webp)
 - Clicca sul pulsante `Add file`, poi su `Upload files`: ![evento](assets/25.webp)
-- Si aprirà una nuova pagina. Trascina e rilascia un'immagine che rappresenta la tua conferenza e che verrà visualizzata sul sito di PlanB Network:
+- Si aprirà una nuova pagina. Trascina e rilascia un'immagine che rappresenta la tua conferenza e che verrà visualizzata sul sito di Plan ₿ Network:
 ![evento](assets/26.webp)
 - Può essere il logo, una miniatura, o anche un poster:
 ![evento](assets/27.webp)
@@ -141,9 +141,9 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![evento](assets/36.webp)
 - Clicca sul pulsante `Create pull request`:
 ![evento](assets/37.webp)
-Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo controllerà e, se tutto è in ordine, lo unirà al repository principale di PlanB Network. Dovresti vedere il tuo evento apparire sul sito web qualche giorno dopo.
+Congratulazioni! Il tuo PR è stato creato con successo. Un amministratore lo controllerà e, se tutto è in ordine, lo unirà al repository principale di Plan ₿ Network. Dovresti vedere il tuo evento apparire sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando il tuo PR non è validato, puoi consultararlo nella scheda `Pull requests` sul repository GitHub di PlanB Network:
+Assicurati di seguire il progresso del tuo PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando il tuo PR non è validato, puoi consultararlo nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
 ![evento](assets/38.webp)
 Grazie mille per il tuo prezioso contributo! :)
 

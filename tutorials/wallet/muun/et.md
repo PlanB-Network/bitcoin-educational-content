@@ -10,7 +10,7 @@ Muun (https://muun.com/) on isehaldatav rahakott Bitcoinile ja Lightning võrgul
 
 ## videoõpetus
 
-![videoõpetus](https://youtu.be/uOl3_vjZKOA)
+![videoõpetus](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Rahakott - Täielik Kasutusjuhend
 

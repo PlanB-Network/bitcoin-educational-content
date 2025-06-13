@@ -10,7 +10,7 @@ Muun (https://muun.com/) je peněženka s vlastní správou pro bitcoin a lightn
 
 ## video tutoriál
 
-![video tutoriál](https://youtu.be/uOl3_vjZKOA)
+![video tutoriál](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Peněženka - Kompletní uživatelská příručka
 

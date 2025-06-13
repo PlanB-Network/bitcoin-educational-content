@@ -13,7 +13,7 @@ Muun (https://muun.com/) je samooskrbni Wallet za Bitcoin in lightning.
 ## වීඩියෝ උපකාරකය
 
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 
 ## Muun Wallet - සම්පූර්ණ පරිශීලක මාර්ගෝපදේශය

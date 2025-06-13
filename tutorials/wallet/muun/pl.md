@@ -13,7 +13,7 @@ Muun (https://muun.com/) jest samozwańczym Wallet dla Bitcoin i piorunów.
 ## samouczek wideo
 
 
-![video tutorial](https://youtu.be/uOl3_vjZKOA)
+![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 
 ## Muun Wallet - Kompletna instrukcja obsługi

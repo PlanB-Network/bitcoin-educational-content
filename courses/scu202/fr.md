@@ -2096,21 +2096,227 @@ La vérification de l’intégrité et de l’authenticité est une pratique ass
 Dans le prochain chapitre, nous aborderons plus en détail la question de la gestion des données. Nous verrons comment vous prémunir face à deux risques majeurs : la perte de données et le vol de données.
 
 
-
-
-
-
-
-
-
-
 ## Chiffrement et protection des données
 <chapterId>bcba9b26-72d2-446b-b23c-89927a2e857c</chapterId>
 
-Sauvegardes.  
-LUKS (Linux), VeraCrypt (Windows + supports externes).  
-Chiffrement de fichiers (GPG, Cryptomator).  
-Nettoyage des métadonnées (exiftool).
+La protection de vos données personnelles est un point important pour garantir votre souveraineté numérique, votre vie privée et votre sécurité. Les risques sur vos données sont multiples : piratage informatique, perte de matériel ou encore saisie physique. La mise en place de stratégies de sauvegarde et de chiffrement efficaces permet d’éviter la plupart de ces menaces potentielles.
+
+Dans ce chapitre, nous allons voir en détail comment sauvegarder et chiffrer vos données, ainsi que nettoyer les informations sensibles présentes sur vos documents.
+
+### Sauvegarder ses données
+
+#### Pourquoi sauvegarder ses données ?
+
+La sauvegarde régulière de vos données personnelles ou professionnelles est une mesure de sécurité absolument essentielle, souvent négligée jusqu’au jour où il est trop tard. Contrairement à une idée reçue, la sauvegarde n’est pas une tâche facultative ou réservée aux entreprises : elle concerne tout utilisateur d’un ordinateur. Que vous possédiez des documents de travail, des photos familiales, des document personnels, ou tout autre contenu sensible, ces données peuvent disparaître brutalement pour des raisons multiples :
+
+- Défaillance matérielle : les disques durs HDD et les disques SSD ont une durée de vie limitée. Sans signes avant-coureurs, ils peuvent tomber en panne et rendre les données inaccessibles.
+
+- Attaque informatique : certains logiciels malveillants, notamment les ransomwares, chiffrent vos fichiers localement et vous demandent une rançon en échange de la clé de déchiffrement. Sans sauvegarde indépendante, vous êtes à leur merci.
+
+- Erreur humaine : une mauvaise manipulation, une suppression accidentelle, ou un formatage involontaire peuvent entraîner une perte irréversible.
+
+- Catastrophe physique : un incendie, un dégât des eaux, un vol ou même une surtension électrique peuvent rendre votre matériel inutilisable en un instant.
+
+C’est pourquoi il faut mettre en place une stratégie de sauvegarde rigoureuse, planifiée et résiliente.
+
+#### La méthode 3-2-1 : un standard de sécurité robuste
+
+La règle dite du "3-2-1" est un standard reconnu dans le domaine de la sécurité informatique. Elle repose sur des principes simples mais redoutablement efficaces pour vous garantir une tolérance aux pannes et aux incidents. Voici en quoi elle consiste :
+
+- **3 copies de vos données** : cela inclut l’original (les fichiers sur votre ordinateur) et deux copies de sauvegarde supplémentaires.
+
+- **2 supports de stockage différents** : l’objectif est d’éviter qu’un problème matériel n’affecte tous vos supports à la fois. Par exemple, un disque dur externe + un cloud ; ou un NAS + votre ordinateur.
+
+- **1 copie hors site** : cette copie doit être située ailleurs que votre lieu principal (chez un proche, sur un serveur distant, dans un cloud sécurisé...). Elle vous protège contre les incidents locaux comme un incendie ou un cambriolage.
+
+Prenons l’exemple d’une utilisatrice standard, Alice, qui souhaite sécuriser ses données personnelles.
+
+Alice conserve une version de ses fichiers sur son ordinateur portable, où elle les utilise quotidiennement. Pour disposer d’au moins deux supports distincts, elle copie régulièrement (par exemple chaque lundi) l’ensemble de ses données sur une clé USB qu’elle garde chez elle. Afin de se prémunir contre le vol de ses fichiers en cas de perte ou de vol physique, Alice chiffre cette clé USB à l’aide d’un logiciel adapté (nous verrons comment procéder plus loin dans ce chapitre). 
+
+Avec cette configuration, Alice est déjà protégée contre de nombreuses menaces courantes. Toutefois, un risque subsiste : en cas d’incendie ou de cambriolage de son domicile, ses deux copies locales (l’ordinateur et la clé USB) pourraient disparaître en même temps. Pour pallier ce risque, elle décide donc d’utiliser un service de stockage cloud, sur lequel elle synchronise également ses fichiers de manière régulière.
+
+Alice respecte ainsi la règle du 3-2-1 : elle possède 3 copies de ses fichiers (ordinateur, clé USB, cloud), stockées sur au moins 2 supports différents (disque interne, clé USB, serveur distant), avec au moins 1 copie hors site (le serveur cloud).
+
+Cette stratégie lui garantit une excellente résilience : si son ordinateur tombe en panne, elle peut restaurer ses fichiers depuis la clé USB ou le cloud ; si le fournisseur de stockage cloud subit une panne majeure, elle dispose toujours de ses fichiers localement ; et même en cas de cambriolage où son laptop et sa clé USB seraient volés, elle pourra récupérer ses données via le service cloud.
+
+#### Automatiser pour éviter l’oubli
+
+Un des meilleurs moyens de garantir une bonne hygiène de sauvegarde est l’automatisation. Configurez vos outils pour que les sauvegardes s’exécutent automatiquement selon un calendrier (chaque nuit, chaque semaine…). Cela permet d’éviter les oublis et garantit une continuité même en cas d’indisponibilité temporaire de votre part.
+
+Concrètement, plusieurs solutions s’offrent à vous pour automatiser vos sauvegardes. Vous pouvez, par exemple, créer un script Python qui s’exécute automatiquement afin de copier vos données vers un support externe. C’est une solution simple et personnalisable.
+
+Si vous disposez d’un NAS, des outils comme *Syncthing* ou *Rclone* permettent d’automatiser les sauvegardes au sein de votre réseau local, sans passer par Internet.
+
+Pour automatiser les sauvegardes vers un service cloud, vous pouvez utiliser les logiciels d’intégration fournis par le fournisseur lui-même. C’est notamment le cas de *Proton Drive*, qui propose un client de synchronisation pour que vos fichiers locaux soient automatiquement copiés sur le cloud. Vous pouvez aussi opter pour des logiciels plus flexibles comme *Duplicati*, qui permet de planifier des sauvegardes chiffrées vers de nombreux services distants (Dropbox, Google Drive, Proton Drive, FTP, WebDAV, etc.).
+
+Pensez également à tester vos sauvegardes régulièrement, c’est-à-dire à vérifier que vous pouvez les restaurer. Une sauvegarde est inutile si elle est corrompue, incomplète ou illisible.
+
+Au-delà de la résilience de vos données, il est tout aussi important d’en protéger l’accès. Résilience et sécurité sont d’ailleurs souvent en tension : plus vous multipliez les copies de vos fichiers, plus vous augmentez leur surface d’attaque, et donc le risque qu’un attaquant puisse y accéder. C’est pourquoi le chiffrement de vos données est une étape indispensable. Voyons ensemble comment le mettre en place concrètement.
+
+### Chiffrement intégral de disques et supports externes
+
+L’un des piliers de la sécurité informatique personnelle repose sur le chiffrement des données stockées. En particulier, le chiffrement intégral des supports tels que les disques durs internes, les clés USB ou les disques externes permet de garantir que, même en cas de vol, de perte ou de compromission physique de l’équipement, aucune information ne pourra être lue sans disposer de la clé de déchiffrement.
+
+#### Pourquoi est-ce indispensable ?
+
+Lorsqu’un support de stockage n’est pas chiffré, il suffit de le brancher sur n’importe quel ordinateur pour accéder immédiatement à son contenu. Aucune barrière ne protège les fichiers. Cela signifie qu’en cas de vol de votre ordinateur portable ou de perte d’une simple clé USB, une personne mal intentionnée pourrait consulter vos documents personnels.
+
+Au-delà des enjeux liés à la vie privée, vos fichiers peuvent également représenter un véritable risque en matière de sécurité. Prenons un exemple concret : si vos sauvegardes contiennent une copie de vos pièces d’identité, un attaquant pourrait les exploiter pour usurper votre identité, ouvrir des comptes à votre nom ou même contracter des crédits bancaires en votre nom. Ce type de fuite d’information peut entraîner des conséquences graves, tant sur le plan personnel que professionnel.
+
+Le chiffrement intégral est comme un verrou : tant que le mot de passe n’est pas fourni, les données restent inexploitables. Même un attaquant équipé d’outils spécialisés en récupération de données ne pourra rien extraire sans la clé.
+
+#### Quelles solutions techniques selon votre système ?
+
+- **Linux (Debian) :**
+
+Sous Linux, la solution standard est LUKS (*Linux Unified Key Setup*). LUKS est un système de gestion de volumes chiffrés intégré dans la plupart des distributions. Lors de l'installation initiale du système, on va généralement vous proposer de chiffrer l'intégralité du disque de l'ordinateur. Je vous recommande évidemment vivement de l’activer. Une fois le chiffrement activé, le système demandera le mot de passe à chaque démarrage, avant même que l’OS ne se charge. Cela garantit qu’un accès physique au disque ne permet pas de contourner la sécurité.
+
+Si vous souhaitez chiffrer un disque externe ou une clé USB, cela peut également se faire en ligne de commande ou via l'interface graphique. Le disque devra être formaté, donc toutes les données existantes seront perdues si elles ne sont pas sauvegardées au préalable.
+
+**Via le terminal :**
+
+Assurez-vous d’avoir le paquet *cryptsetup* installé :
+
+```bash
+sudo apt update
+sudo apt install cryptsetup
+```
+
+Commencez par identifier votre clé USB avec la commande suivante :
+
+```bash
+lsblk
+```
+
+Vous devriez voir un périphérique du type `/dev/sdb` avec une partition associée, par exemple `/dev/sdb1`. Attention à sélectionner le bon disque, car il va être effacé !
+
+Pour chiffrer la clé, lancez la commande suivante pour initialiser le chiffrement :
+
+```bash
+sudo cryptsetup luksFormat /dev/sdb
+```
+
+Tapez "YES" en majuscules pour confirmer l’opération, puis choisissez et confirmez une passphrase robuste. Ce mot de passe vous permettra d'accéder à vos données : pensez à en faire une sauvegarde, car sans lui, l’accès aux données de la clé sera définitivement perdu.
+
+Déverrouillez et ouvrez le volume :
+
+```bash
+sudo cryptsetup open /dev/sdb encrypted_usb
+```
+
+Vous devrez saisir votre passphrase pour déverrouiller le volume. `encrypted_usb` est ici le nom donné au volume déchiffré.
+
+Formatez ensuite la partition déchiffrée. Pour un format Linux natif :
+
+```bash
+sudo mkfs.ext4 /dev/mapper/encrypted_usb
+```
+
+Ou, si vous souhaitez une compatibilité avec Windows :
+
+```bash
+sudo mkfs.vfat /dev/mapper/encrypted_usb
+```
+
+Montez la clé pour l’utiliser :
+
+```bash
+sudo mkdir -p /mnt/usb
+sudo mount /dev/mapper/encrypted_usb /mnt/usb
+```
+
+Vous pouvez désormais accéder à votre clé via le dossier `/mnt/usb`, lire et écrire des fichiers comme sur tout autre volume.
+
+Pour démonter et rechiffrer la clé :
+
+```bash
+sudo umount /mnt/usb
+sudo cryptsetup close encrypted_usb
+```
+
+Vous pouvez alors retirer votre clé USB en toute sécurité.
+
+Pour les prochaines utilisations de votre clé usb :
+
+```bash
+sudo cryptsetup open /dev/sdb encrypted_usb
+sudo mount /dev/mapper/encrypted_usb /mnt/usb
+# … you work on the usb …
+sudo umount /mnt/usb
+sudo cryptsetup close encrypted_usb
+```
+
+Si vous le souhaitez, vous pouvez également automatiser cette séquence à l’aide de scripts Python ou Bash.
+
+
+**Via GNOME Disks :**
+
+L’autre solution consiste à utiliser le logiciel GNOME Disks avec son interface graphique, ce qui est souvent plus simple que de passer par la ligne de commande.
+
+Normalement, cet utilitaire est déjà préinstallé sur Ubuntu. Si ce n’est pas le cas, vous pouvez l’installer manuellement avec la commande suivante :
+
+```bash
+sudo apt update
+sudo apt install -y gnome-disk-utility
+```
+
+Pour ouvrir le logiciel, rendez-vous dans le menu des applications d’Ubuntu et recherchez "*Disks*". Il est généralement présent par défaut dans le dossier "*Utilities*".
+
+Dans la colonne de gauche, repérez votre clé USB. Si une partition existe déjà, sélectionnez-la ; sinon, créez-en une nouvelle :
+- Cliquez sur le bouton "+" situé sous la liste des partitions ;
+- Choisissez "Standard Partition" puis validez.
+
+Sélectionnez ensuite la partition à chiffrer. Cliquez sur l’icône en forme de roue dentée, puis choisissez "Format Partition…".
+
+Dans la boîte de dialogue :
+- Dans "Nom du volume", entrez un nom (par exemple `usb`) ;
+- Sélectionnez le format "Internal disk for use with Linux systems only (Ext4)" ;
+- Cochez la case "Password protected volume (LUKS)".
+
+Saisissez et confirmez une passphrase robuste.
+
+Validez et patientez pendant le formatage complet de la partition (toutes les données seront effacées).
+
+Une fois le processus terminé, la partition apparaît avec un petit cadenas. Sélectionnez-la, puis cliquez sur le cadenas pour la déverrouiller.
+
+Saisissez le mot de passe, puis cliquez sur "Unlock".
+
+Le volume sera automatiquement monté et accessible depuis votre gestionnaire de fichiers, généralement dans le dossier `/media/username/usb`.
+
+Pour démonter la clé USB et réactiver le chiffrement, cliquez à nouveau sur l’icône de cadenas dans GNOME Disks.
+
+Enfin, cliquez sur le bouton en forme de flèche en haut à droite pour éjecter proprement la clé de votre PC. Lors des prochaines connexions, Ubuntu devrait détecter automatiquement votre clé chiffrée et vous demander le mot de passe sans avoir besoin d’ouvrir GNOME Disks.
+
+- **Windows :**
+
+Sous Windows, une solution native permet de chiffrer votre disque. Son activation est très simple : il vous suffit de vous rendre dans les paramètres "*Privacy & Security*" puis de cocher la case "*Device encryption*" dans le sous-menu du même nom. Les clés de récupération seront alors automatiquement enregistrées dans votre compte Microsoft associé.
+
+Si vous utilisez un compte local ou si votre machine ne prend pas en charge cette fonctionnalité de manière native, vous pouvez paramétrer *BitLocker* manuellement (le logiciel de chiffrement propriétaire de Microsoft). Mais il existe également des alternatives open source comme *VeraCrypt*.
+
+*VeraCrypt* est un logiciel libre, multiplateforme, compatible avec Windows, Linux et macOS. Il permet de chiffrer un disque entier, une partition, ou de créer un fichier-conteneur qui agit comme un disque virtuel sécurisé. L’interface de VeraCrypt permet de monter ce volume comme un disque classique, accessible uniquement après authentification.
+
+Pour en savoir plus sur cette solution, je vous invite à consulter ce tutoriel complet :
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
+
+- **macOS :**
+
+Sur macOS, le chiffrement du disque système repose sur *FileVault*, une fonctionnalité native accessible depuis les réglages de sécurité. Si votre Mac est équipé d’une puce Apple Silicon (M1, M2…) ou d’une puce T2, un chiffrement matériel est déjà activé en permanence. Toutefois, l’activation de FileVault vient ajouter une couche de sécurité supplémentaire en chiffrant l’intégralité du volume système.
+
+Une fois FileVault activé, vous devrez choisir une méthode de récupération en cas de perte de mot de passe : soit l’utilisation de votre compte *iCloud*, soit la génération d’une clé de secours unique. Cette clé doit impérativement être conservée hors ligne et en lieu sûr, car sa perte rendrait vos données définitivement inaccessibles.
+
+Pour ce qui est des supports de stockage externes (disques durs, clés USB…), le chiffrement se réalise via l’utilitaire de disque. Il vous faudra reformater complètement le volume :
+- sélectionnez le périphérique, cliquez sur "*Effacer*" ;
+- choisissez le schéma "*Table de partition GUID*" ;
+- puis choisissez un format de système de fichiers chiffré (*APFS* ou *Mac OS étendu*) ;
+- choisissez un mot de passe fort ;
+- cliquez sur "*Effacer*" puis sur "*OK*" et le chiffrement est terminé.
+
+Une fois le chiffrement en place, le disque externe ne pourra être monté qu’en saisissant ce mot de passe. Le système effectuera alors le déchiffrement à la volée.
+
+
+
 
 
 

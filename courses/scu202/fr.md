@@ -2135,9 +2135,13 @@ Alice conserve une version de ses fichiers sur son ordinateur portable, où elle
 
 Avec cette configuration, Alice est déjà protégée contre de nombreuses menaces courantes. Toutefois, un risque subsiste : en cas d’incendie ou de cambriolage de son domicile, ses deux copies locales (l’ordinateur et la clé USB) pourraient disparaître en même temps. Pour pallier ce risque, elle décide donc d’utiliser un service de stockage cloud, sur lequel elle synchronise également ses fichiers de manière régulière.
 
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
 Alice respecte ainsi la règle du 3-2-1 : elle possède 3 copies de ses fichiers (ordinateur, clé USB, cloud), stockées sur au moins 2 supports différents (disque interne, clé USB, serveur distant), avec au moins 1 copie hors site (le serveur cloud).
 
 Cette stratégie lui garantit une excellente résilience : si son ordinateur tombe en panne, elle peut restaurer ses fichiers depuis la clé USB ou le cloud ; si le fournisseur de stockage cloud subit une panne majeure, elle dispose toujours de ses fichiers localement ; et même en cas de cambriolage où son laptop et sa clé USB seraient volés, elle pourra récupérer ses données via le service cloud.
+
+![Image](assets/fr/255.webp)
 
 #### Automatiser pour éviter l’oubli
 
@@ -2147,7 +2151,11 @@ Concrètement, plusieurs solutions s’offrent à vous pour automatiser vos sauv
 
 Si vous disposez d’un NAS, des outils comme *Syncthing* ou *Rclone* permettent d’automatiser les sauvegardes au sein de votre réseau local, sans passer par Internet.
 
+![Image](assets/fr/253.webp)
+
 Pour automatiser les sauvegardes vers un service cloud, vous pouvez utiliser les logiciels d’intégration fournis par le fournisseur lui-même. C’est notamment le cas de *Proton Drive*, qui propose un client de synchronisation pour que vos fichiers locaux soient automatiquement copiés sur le cloud. Vous pouvez aussi opter pour des logiciels plus flexibles comme *Duplicati*, qui permet de planifier des sauvegardes chiffrées vers de nombreux services distants (Dropbox, Google Drive, Proton Drive, FTP, WebDAV, etc.).
+
+![Image](assets/fr/254.webp)
 
 Pensez également à tester vos sauvegardes régulièrement, c’est-à-dire à vérifier que vous pouvez les restaurer. Une sauvegarde est inutile si elle est corrompue, incomplète ou illisible.
 
@@ -2198,6 +2206,8 @@ sudo cryptsetup luksFormat /dev/sdb
 
 Tapez "YES" en majuscules pour confirmer l’opération, puis choisissez et confirmez une passphrase robuste. Ce mot de passe vous permettra d'accéder à vos données : pensez à en faire une sauvegarde, car sans lui, l’accès aux données de la clé sera définitivement perdu.
 
+![Image](assets/fr/238.webp)
+
 Déverrouillez et ouvrez le volume :
 
 ```bash
@@ -2205,6 +2215,8 @@ sudo cryptsetup open /dev/sdb encrypted_usb
 ```
 
 Vous devrez saisir votre passphrase pour déverrouiller le volume. `encrypted_usb` est ici le nom donné au volume déchiffré.
+
+![Image](assets/fr/239.webp)
 
 Formatez ensuite la partition déchiffrée. Pour un format Linux natif :
 
@@ -2217,6 +2229,8 @@ Ou, si vous souhaitez une compatibilité avec Windows :
 ```bash
 sudo mkfs.vfat /dev/mapper/encrypted_usb
 ```
+
+![Image](assets/fr/240.webp)
 
 Montez la clé pour l’utiliser :
 
@@ -2246,6 +2260,8 @@ sudo umount /mnt/usb
 sudo cryptsetup close encrypted_usb
 ```
 
+![Image](assets/fr/241.webp)
+
 Si vous le souhaitez, vous pouvez également automatiser cette séquence à l’aide de scripts Python ou Bash.
 
 
@@ -2266,30 +2282,50 @@ Dans la colonne de gauche, repérez votre clé USB. Si une partition existe déj
 - Cliquez sur le bouton "+" situé sous la liste des partitions ;
 - Choisissez "Standard Partition" puis validez.
 
+![Image](assets/fr/242.webp)
+
 Sélectionnez ensuite la partition à chiffrer. Cliquez sur l’icône en forme de roue dentée, puis choisissez "Format Partition…".
+
+![Image](assets/fr/243.webp)
 
 Dans la boîte de dialogue :
 - Dans "Nom du volume", entrez un nom (par exemple `usb`) ;
 - Sélectionnez le format "Internal disk for use with Linux systems only (Ext4)" ;
 - Cochez la case "Password protected volume (LUKS)".
 
+![Image](assets/fr/244.webp)
+
 Saisissez et confirmez une passphrase robuste.
+
+![Image](assets/fr/245.webp)
 
 Validez et patientez pendant le formatage complet de la partition (toutes les données seront effacées).
 
+![Image](assets/fr/246.webp)
+
 Une fois le processus terminé, la partition apparaît avec un petit cadenas. Sélectionnez-la, puis cliquez sur le cadenas pour la déverrouiller.
+
+![Image](assets/fr/247.webp)
 
 Saisissez le mot de passe, puis cliquez sur "Unlock".
 
+![Image](assets/fr/248.webp)
+
 Le volume sera automatiquement monté et accessible depuis votre gestionnaire de fichiers, généralement dans le dossier `/media/username/usb`.
+
+![Image](assets/fr/249.webp)
 
 Pour démonter la clé USB et réactiver le chiffrement, cliquez à nouveau sur l’icône de cadenas dans GNOME Disks.
 
 Enfin, cliquez sur le bouton en forme de flèche en haut à droite pour éjecter proprement la clé de votre PC. Lors des prochaines connexions, Ubuntu devrait détecter automatiquement votre clé chiffrée et vous demander le mot de passe sans avoir besoin d’ouvrir GNOME Disks.
 
+![Image](assets/fr/250.webp)
+
 - **Windows :**
 
 Sous Windows, une solution native permet de chiffrer votre disque. Son activation est très simple : il vous suffit de vous rendre dans les paramètres "*Privacy & Security*" puis de cocher la case "*Device encryption*" dans le sous-menu du même nom. Les clés de récupération seront alors automatiquement enregistrées dans votre compte Microsoft associé.
+
+![Image](assets/fr/251.webp)
 
 Si vous utilisez un compte local ou si votre machine ne prend pas en charge cette fonctionnalité de manière native, vous pouvez paramétrer *BitLocker* manuellement (le logiciel de chiffrement propriétaire de Microsoft). Mais il existe également des alternatives open source comme *VeraCrypt*.
 
@@ -2303,6 +2339,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 - **macOS :**
 
 Sur macOS, le chiffrement du disque système repose sur *FileVault*, une fonctionnalité native accessible depuis les réglages de sécurité. Si votre Mac est équipé d’une puce Apple Silicon (M1, M2…) ou d’une puce T2, un chiffrement matériel est déjà activé en permanence. Toutefois, l’activation de FileVault vient ajouter une couche de sécurité supplémentaire en chiffrant l’intégralité du volume système.
+
+![Image](assets/fr/252.webp)
 
 Une fois FileVault activé, vous devrez choisir une méthode de récupération en cas de perte de mot de passe : soit l’utilisation de votre compte *iCloud*, soit la génération d’une clé de secours unique. Cette clé doit impérativement être conservée hors ligne et en lieu sûr, car sa perte rendrait vos données définitivement inaccessibles.
 

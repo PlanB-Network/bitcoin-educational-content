@@ -1,4 +1,4 @@
-question: Perché una frase mnemonica di 24 parole è spesso considerata superflua per un portafoglio Bitcoin?
+question: Perché una frase mnemonica di 24 parole è spesso considerata superflua per un wallet Bitcoin?
 answer: Le chiavi derivate offrono solo 128 bit di sicurezza
 wrong_answers:
   - Il software non supporta frasi di 24 parole

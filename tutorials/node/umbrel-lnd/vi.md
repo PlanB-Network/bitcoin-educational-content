@@ -57,7 +57,7 @@ Thanh toán có thể được định tuyến qua nhiều kênh (nhờ các nú
 
 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Khóa học này sẽ cung cấp cho bạn nền tảng vững chắc về các khái niệm cơ bản của Lightning Network trước khi chuyển sang thực hành với nút LND của bạn.
 

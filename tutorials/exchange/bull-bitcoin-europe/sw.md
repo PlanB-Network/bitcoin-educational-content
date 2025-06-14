@@ -1,5 +1,5 @@
 ---
-name: Bull Bitcoin Ulaya
+name: Bull Bitcoin
 description: Nunua na uuze bitcoins kwenye Bull Bitcoin
 ---
 ![cover](assets/cover.webp)
@@ -7,12 +7,9 @@ description: Nunua na uuze bitcoins kwenye Bull Bitcoin
 
 Bull Bitcoin ni jukwaa la Bitcoin-pekee la Exchange lililoanzishwa mwaka wa 2013 nchini Kanada na Francis Pouliot, mtu mashuhuri katika mfumo ikolojia wa Bitcoin. Falsafa ya Bull Bitcoin ni kuwapa watumiaji zana za uhuru wa kifedha na ukombozi. Jukwaa la Exchange halina uhifadhi, ambayo ina maana kwamba daima unabaki kuwa huru juu ya Bitcoins zako.
 
+Awali ilipatikana tu Kanada, jukwaa hili sasa linapatikana Ulaya na katika nchi nyingi nyingine, likiwa na kiolesura kipya kilichoboreshwa. Toleo hili jipya la Bull Bitcoin linakuwezesha kununua na kuuza bitcoins kwa urahisi na haraka kwa kutumia Lightning na uhamisho wa SEPA wa papo hapo. Pia linajumuisha malipo ya ankara kwa kutumia bitcoins. Hapo baadaye, jukwaa litajumuisha chaguo za DCA, manunuzi ya kiotomatiki, na maagizo ya kikomo.
 
-Hapo awali inapatikana nchini Kanada pekee, jukwaa sasa linapatikana Ulaya, na Interface mpya kabisa, iliyoboreshwa. Toleo hili jipya la Bull Bitcoin linapatikana Ulaya pekee. Inakuwezesha kununua na kuuza bitcoins haraka na kwa urahisi, shukrani kwa matumizi ya Umeme na uhamisho wa papo hapo wa SEPA. Hatimaye, jukwaa pia litajumuisha chaguo za DCA, ununuzi wa kiotomatiki, maagizo ya kikomo na malipo ya bili katika bitcoins.
-
-
-Bull Bitcoin inasisitiza kutoa huduma ya uwazi bila malipo yaliyofichwa. Kama majukwaa mengine yote ya Exchange barani Ulaya, kutumia Bull Bitcoin kunahitaji KYC (utaratibu wa kumtambua mteja).
-
+Bull Bitcoin inajivunia kutoa huduma iliyo wazi bila ada zilizofichwa. Tafadhali kumbuka kuwa, kama ilivyo kwa ubadilishaji mwingi, kutumia Bull Bitcoin kunahitaji kukamilisha mchakato wa KYC (Kumjua Mteja Wako).
 
 ## Jisajili kwenye Bull Bitcoin
 

@@ -115,7 +115,7 @@ Klikk på knappen "*Mottak*".
 
 ![Image](assets/fr/18.webp)
 
-Sveip QR-koden til høyre for å avsløre en Bitcoin-mottakeradresse. Send den beløpet du ønsker å sette inn hos Phoenix.
+Dra QR-koden mot venstre for å vise en Bitcoin-mottaksadresse. Send beløpet du ønsker å sette inn på Phoenix til denne adressen.
 
 ![Image](assets/fr/19.webp)
 

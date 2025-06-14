@@ -115,7 +115,7 @@ Nhấp vào nút "*Nhận*".
 
 ![Image](assets/fr/18.webp)
 
-Vuốt mã QR sang phải để hiển thị địa chỉ nhận Bitcoin. Gửi số tiền bạn muốn gửi vào Phoenix.
+Vuốt mã QR sang trái để hiển thị địa chỉ nhận Bitcoin. Gửi số tiền bạn muốn nạp vào Phoenix đến địa chỉ đó.
 
 ![Image](assets/fr/19.webp)
 

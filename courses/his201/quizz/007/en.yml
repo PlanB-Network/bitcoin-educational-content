@@ -5,5 +5,5 @@ wrong_answers:
   - e-gold
   - GoldMoney
 explanation: |
-  This currency was available in the form of silver coins and representative notes, and then in digital form starting from 2003.
-reviewed: false
+  This currency was available in silver coins and representative notes and, starting in 2003, in digital form.
+reviewed: true

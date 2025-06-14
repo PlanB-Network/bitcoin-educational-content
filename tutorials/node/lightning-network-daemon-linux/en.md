@@ -21,7 +21,7 @@ In other words, with this implementation, you can :
 
 
 
-- Interact with the Lightning network**: You can use command lines to create Lightning portfolios, manage payment channels and routes, and much more, directly from your machine terminal.
+- Interact with the Lightning network**: You can use command lines to create Lightning wallets, manage payment channels and routes, and much more, directly from your machine terminal.
 - Linking a remote Bitcoin node or your own Bitcoin Core instance**: LND lets you link a Bitcoin instance and use it as your backend. To use this implementation, you don't need to run a Bitcoin Core instance on your machine.
 
 
@@ -261,7 +261,7 @@ Based on the contents of the `~/.LND/LND.conf` file, here are the details of the
 
 
 
-- noseedbackup**: Allows you to choose whether you want LND to perform automatic backups of your portfolios.  Setting this property to `0` allows you to manually save restore information in a personally chosen secure location.
+- noseedbackup**: Allows you to choose whether you want LND to perform automatic backups of your wallets.  Setting this property to `0` allows you to manually save restore information in a personally chosen secure location.
 
 
 
@@ -313,9 +313,9 @@ Once your installation has been completed and checked, you can start using it.
 Here are the essential commands to get you started.
 
 
-### Create a portfolio
+### Create a wallet
 
-Your Lightning portfolio is the first step in any action to manage your funds.
+Your Lightning wallet is the first step in any action to manage your funds.
 
 
 ⚠️ **IMPORTANT**: Take careful note of your 24-word **seed phrase**. You'll need it to recover your funds in the event of problems.

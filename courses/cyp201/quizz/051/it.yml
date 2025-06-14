@@ -1,9 +1,9 @@
-question: Qual è la principale differenza tra una passphrase e un codice PIN per un portafoglio Bitcoin?
-answer: La passphrase modifica la derivazione della chiave, non il codice PIN
+question: Qual è la principale differenza tra una passphrase e un PIN code per un wallet Bitcoin?
+answer: La passphrase modifica la derivazione delle chiavi, il PIN no
 wrong_answers:
-  - Il codice PIN è collegato alla frase mnemonica
-  - Il codice PIN è usato per criptare le transazioni ma non la passphrase
-  - Il codice PIN genera indirizzi Bitcoin
+  - Il PIN è collegato alla frase mnemonica
+  - Il PIN è usato per criptare le transazioni ma non la passphrase
+  - Il PIN genera indirizzi Bitcoin
 explanation: |
-  A differenza del codice PIN, la passphrase è direttamente coinvolta nel processo di derivazione della chiave e cambia le chiavi del portafoglio.
+  A differenza del PIN code, la passphrase è direttamente coinvolta nel processo di derivazione delle chiavi del wallet.
 recensito: false

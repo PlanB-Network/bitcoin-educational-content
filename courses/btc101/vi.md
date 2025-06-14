@@ -1093,7 +1093,9 @@ Ngày nay, Bitcoin tiếp tục tồn tại và phát triển hơn nữa bằng 
 
 Bitcoin có thể được xem là công cụ tạo ra nền kinh tế song song với tiền pháp định, vì có thể bán hàng hóa hoặc dịch vụ và được thanh toán bằng bitcoin. Giao dịch có thể được thực hiện trực tiếp bằng Bitcoin, không cần phải thông qua nền tảng trao đổi, mà chỉ cần chuyển từ ví Bitcoin này sang ví Bitcoin khác.
 
-Nền kinh tế Bitcoin tồn tại và đang phát triển ở một số khu vực trên thế giới, như ở El Salvador, nơi Bitcoin đã là phương tiện thanh toán hợp pháp kể từ năm 2021. Xung quanh chúng ta luôn có những cá nhân, doanh nghiệp và tổ chức đã chấp nhận Bitcoin làm phương tiện thanh toán cho sản phẩm hoặc dịch vụ của họ.
+Nền kinh tế Bitcoin tồn tại và đang phát triển ở một số khu vực trên thế giới, như ở El Salvador, nơi Bitcoin trở thành tiền tệ hợp pháp vào năm 2021. Thật không may, vào tháng 1 năm 2025, quốc hội đã thông qua một luật mới tước bỏ danh hiệu "tiền tệ hợp pháp" của Bitcoin, được cho là sau khi nhận được áp lực từ Quỹ Tiền tệ Quốc tế. Theo luật mới, mọi người không còn bị buộc phải chấp nhận Bitcoin trong doanh nghiệp của họ nữa và không thể thanh toán thuế bằng Bitcoin. Việc chấp nhận vẫn là tự nguyện.
+
+Tuy nhiên, ở El Salvador và ở những nơi khác trên thế giới, ngày càng có nhiều cá nhân, doanh nghiệp và tổ chức chấp nhận Bitcoin như một phương tiện thanh toán cho sản phẩm hoặc dịch vụ của họ.
 
 ![image](assets/en/72.webp)
 

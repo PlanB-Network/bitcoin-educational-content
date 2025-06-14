@@ -1062,7 +1062,9 @@ Saat ini, Bitcoin terus bertahan dan semakin berkembang dengan semakin diintegra
 
 Bitcoin dapat dilihat sebagai alat untuk menciptakan ekonomi paralel dengan mata uang fiat, karena memungkinkan untuk menjual barang atau jasa dan dibayar dengan bitcoin. Transaksi dapat dilakukan secara langsung dengan Bitcoin, tanpa perlu melalui platform pertukaran, tetapi cukup dengan berpindah dari dompet Bitcoin ke dompet Bitcoin lainnya.
 
-Ekonomi Bitcoin ada dan berkembang di beberapa wilayah tertentu di dunia, seperti di El Salvador, di mana Bitcoin telah menjadi alat pembayaran yang sah sejak tahun 2021. Di sekeliling kita ada beberapa individu, bisnis, dan organisasi yang telah menerima Bitcoin sebagai alat pembayaran untuk produk atau layanan mereka.
+Ekonomi Bitcoin ada dan sedang berkembang di daerah-daerah tertentu di dunia, seperti di El Salvador, di mana Bitcoin menjadi alat pembayaran yang sah pada tahun 2021. Sayangnya, pada Januari 2025, majelis mengesahkan undang-undang baru yang mencabut gelar "alat pembayaran yang sah" dari Bitcoin, diduga setelah menerima tekanan dari Dana Moneter Internasional. Di bawah undang-undang baru ini, orang-orang tidak lagi diwajibkan untuk menerima Bitcoin dalam bisnis mereka, dan tidak dapat lagi membayar pajak menggunakan Bitcoin. Penerimaan tetap bersifat sukarela.
+
+Namun, di El Salvador dan di bagian lain dunia, semakin banyak individu, bisnis, dan organisasi yang menerima Bitcoin sebagai alat pembayaran untuk produk atau layanan mereka.
 
 ![image](assets/en/72.webp)
 

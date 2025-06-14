@@ -1,4 +1,4 @@
-question: Koji tip skripte koristi isključivo Silent Payments?
+question: Koji tip skripte Silent Payments isključivo koristi?
 answer: P2TR
 wrong_answers:
   - P2WPKH

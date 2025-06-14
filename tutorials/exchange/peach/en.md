@@ -8,7 +8,7 @@ description: Complete guide to using Peach and exchanging bitcoins P2P
 
 ## Introduction
 
-KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' confidentiality and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
+KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' privacy and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
@@ -153,7 +153,7 @@ Country-specific payment systems :
 
 A Peach account is not a traditional login and password account. It's a file stored locally on your phone, which means Peach doesn't need to store your data or know your identity: you're in control. This file contains all your data, from your bitcoin wallet keys to your payment details.
 
-This approach guarantees greater confidentiality, but also implies greater responsibility. Losing your phone without a backup means losing access to your Peach account and funds. So it's crucial to back up this file and protect it with a strong password.
+This approach guarantees greater privacy, but also implies greater responsibility. Losing your phone without a backup means losing access to your Peach account and funds. So it's crucial to back up this file and protect it with a strong password.
 
 **Create your backups**
 
@@ -269,7 +269,7 @@ For optimum security, we recommend that you perform both types of backup.
 ### Peach benefits
 
 
-- No KYC required**: Preserves user confidentiality.
+- No KYC required**: Preserves user privacy.
 - No access to bank details**: Peach has no access to your bank details or your identity.
 - Intuitive interface**: Easy to use for intermediate users.
 - Open Source** : Source code is public and verifiable by the community.

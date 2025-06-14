@@ -170,7 +170,7 @@ Ob prvem zagonu imate možnost naložiti svoj Phoenix Wallet z On-Chain sredstvi
 ![Image](assets/fr/18.webp)
 
 
-QR කේතය දකුණට ස්වයිප් කර Bitcoin එකක් Address ලබා ගන්න. ඔබට Phoenix සමඟ තැන්පත් කිරීමට අවශ්‍ය මුදල එවන්න.
+Bitcoin ලැබීමේ ලිපිනයක් දැකීමට QR කේතය වමට ඇදන්න. ඔබ Phoenix වෙත තැන්පත් කිරීමට කැමති මුදල එම ලිපිනයට යවන්න.
 
 
 ![Image](assets/fr/19.webp)

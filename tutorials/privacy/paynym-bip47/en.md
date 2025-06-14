@@ -348,7 +348,7 @@ They do obtain the same shared secret because:
   **(x, y) = ka·Kb = ka·kb·G = kb·ka·G = kb·Ka**
 
 A potential attacker observing the insecure public network can only obtain the public keys of each party and the chosen curve parameters. As explained earlier, these two pieces of information alone do not allow for the determination of the private keys, so the attacker cannot access the secret.
-ECDH is an algorithm that allows for key exchange. It is often used alongside other cryptographic methods to define a protocol. For example, ECDH is used in the core of TLS (Transport Layer Security), a encryption and authentication protocol used for the internet transport layer. TLS uses ECDHE for key exchange, a variant of ECDH where the keys are ephemeral to provide persistent confidentiality. In addition to ECDHE, TLS also uses an authentication algorithm like ECDSA, an encryption algorithm like AES, and a hash function like SHA256.
+ECDH is an algorithm that allows for key exchange. It is often used alongside other cryptographic methods to define a protocol. For example, ECDH is used in the core of TLS (Transport Layer Security), a encryption and authentication protocol used for the internet transport layer. TLS uses ECDHE for key exchange, a variant of ECDH where the keys are ephemeral to provide persistent privacy. In addition to ECDHE, TLS also uses an authentication algorithm like ECDSA, an encryption algorithm like AES, and a hash function like SHA256.
 
 TLS defines the "s" in "https" and the small lock icon you see on your internet browser in the top left corner, which guarantee encrypted communication. So, you are currently using ECDH by reading this article, and you probably use it daily without realizing it.
 

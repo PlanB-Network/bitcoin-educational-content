@@ -8,4 +8,4 @@ Dalam RGB, _Contract State_ berhubungan dengan kondisi terkini dari _Contract_ p
 
 
 - _Global State_, yang mencakup properti publik _Contract_ (diimplementasikan pada _Genesis_ atau ditambahkan melalui pembaruan resmi);
-- _Owner State_, yang dimiliki oleh pemilik tertentu, yang diidentifikasi oleh UTXO mereka.
+- _Owned State_, yang dimiliki oleh pemilik tertentu, yang diidentifikasi oleh UTXO mereka.

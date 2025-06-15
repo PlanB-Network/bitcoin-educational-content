@@ -2,4 +2,4 @@
 term: KRIPTOLOGI
 
 ---
-Ilmu matematika yang berhubungan dengan kriptanalisis dan kriptografi.
+Ilmu matematika yang berhubungan dengan kriptoanalisis dan kriptografi.

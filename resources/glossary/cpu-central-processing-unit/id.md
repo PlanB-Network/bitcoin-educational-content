@@ -1,7 +1,7 @@
 ---
-term: CPU (UNIT PEMROSESAN PUSAT)
+term: CPU (CENTRAL PROCESSING UNIT)
 
 ---
-Komponen utama komputer yang bertanggung jawab untuk mengeksekusi instruksi mesin perangkat lunak. Dalam konteks Bitcoin, CPU pada awalnya digunakan untuk menambang oleh node sebelum diambil alih oleh penambangan GPU (kartu grafis), dan kemudian oleh penggunaan chip khusus yang dikenal sebagai "ASIC".
+Komponen utama komputer yang bertanggung jawab untuk mengeksekusi instruksi mesin perangkat lunak. Dalam konteks Bitcoin, CPU pada awalnya digunakan untuk menambang oleh node sebelum diambil alih oleh penambangan GPU (kartu grafis), dan kemudian oleh penggunaan _chip_ khusus yang dikenal sebagai "ASIC".
 
-> ► *Dalam bahasa Prancis, kita dapat menyebutnya sebagai "unité centrale de calcul" atau hanya "processeur".*
+> ► *Dalam bahasa Indonesia, kita dapat menyebutnya sebagai "CPU" atau hanya "prosesor".*

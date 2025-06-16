@@ -21,54 +21,59 @@ Postingan asli:
 
 ## Mengapa Electrum?
 
-Ini adalah panduan terperinci tentang cara menggunakan Electrum Bitcoin Wallet, dengan solusi untuk semua jebakan dan keanehannya - sesuatu yang saya kembangkan setelah beberapa tahun penggunaan, dan mengajar siswa tentang keamanan/privasi Bitcoin. Electrum bukanlah dompet Bitcoin terbaik bagi orang yang ingin menjaga segalanya semudah mungkin, dan lebih memilih untuk tetap pada level pemula. Sebaliknya, ini untuk orang yang adalah, atau bercita-cita menjadi, pengguna "power".
+Ini panduan lengkap cara pakai Electrum Bitcoin Wallet, termasuk solusi buat semua jebakan dan keanehan yang mungkin kamu temui—semua ini aku susun berdasarkan pengalaman pribadi selama beberapa tahun pakai Electrum dan ngajarin orang lain soal keamanan dan privasi di dunia Bitcoin.
 
-Untuk Bitcoiner baru, ini sangat baik hanya jika di bawah pengawasan pengguna berpengalaman untuk menunjukkan jalan. Jika belajar menggunakannya sendiri, itu akan aman asalkan mereka meluangkan waktu dan menggunakannya dalam lingkungan pengujian dengan hanya sejumlah kecil sats pada awalnya. Panduan ini mendukung upaya tersebut, tetapi ini juga merupakan referensi yang baik untuk siapa saja.
+Electrum bukan dompet Bitcoin yang cocok buat orang yang pengen segalanya serba gampang atau cuma mau main di level pemula. Sebaliknya, dompet ini emang didesain buat orang yang udah paham atau pengen naik level jadi pengguna “power user”.
 
-> Peringatan: Panduan ini besar. Jangan mencoba melakukan semua ini dalam satu hari. Lebih baik untuk menyimpan panduan dan mengikisnya dari waktu ke waktu.
+Buat Bitcoiner baru, Electrum ini bisa jadi pilihan oke asal ada pengguna yang lebih berpengalaman yang bisa bantu ngarahin dan nunjukin jalannya. Tapi kalau kamu mau belajar sendiri pun tetap aman kok—selama kamu sabar, luangin waktu, dan nyobainnya dulu di lingkungan yang aman (testing), cuma pake sedikit sats di awal. Panduan ini dibuat buat membantu proses itu. Tapi lebih dari itu, panduan ini juga cocok banget dijadiin referensi buat siapa pun yang pengen ngerti Electrum lebih dalam.
+
+> Peringatan: Panduan ini cukup panjang dan padat. Nggak perlu maksa buat ngerjain semuanya dalam sehari. Lebih baik simpan aja dulu, lalu pelajari sedikit demi sedikit seiring waktu.
 
 ## Mengunduh Electrum
 
-Idealnya, gunakan komputer Bitcoin khusus untuk transaksi Bitcoin Anda (Panduan saya untuk ini https://armantheparman.com/mint/) _(JUGA tersedia di bagian privasi)_. Tidak masalah untuk berlatih dengan jumlah kecil pada komputer "kotor" ketika Anda pertama kali belajar (siapa tahu berapa banyak malware tersembunyi yang telah terakumulasi di komputer reguler Anda selama bertahun-tahun - Anda tidak ingin memaparkan dompet Bitcoin Anda kepada mereka).
+Idealnya, kamu pakai komputer khusus cuma buat urusan Bitcoin—semacam "komputer Bitcoin" pribadi (aku juga punya panduannya di sini: [https://armantheparman.com/mint/], dan bisa kamu temuin juga di bagian privasi). Tapi nggak apa-apa kok kalau di awal kamu mau coba-coba dulu pakai komputer biasa, asal jumlah Bitcoinnya kecil. Soalnya, siapa yang tahu berapa banyak malware yang mungkin udah numpuk di laptop kamu selama bertahun-tahun? Kamu nggak mau kan dompet Bitcoin kamu terekspos sama ancaman-ancaman kayak gitu?
 
 Dapatkan Electrum dari https://electrum.org/.
 
 Klik tab Unduh di bagian atas.
 
-Klik pada tautan unduhan yang sesuai dengan komputer Anda. Komputer Linux atau Mac dapat menggunakan tautan Python (lingkaran merah). Komputer Linux dengan chip Intel atau AMD dapat menggunakan Appimage (lingkaran hijau; ini seperti file eksekusi Windows). Perangkat Raspberry Pi memiliki mikroprosesor ARM dan hanya dapat menggunakan versi Python (lingkaran merah), bukan Appimage, meskipun Pi menjalankan Linux. Lingkaran biru untuk Windows dan lingkaran hitam untuk Mac.
+Klik tautan unduhan yang sesuai dengan komputer kamu. Kalau kamu pakai Linux atau Mac, kamu bisa menggunakan versi Python (ditandai dengan lingkaran merah). Untuk pengguna Linux dengan chip Intel atau AMD, kamu juga bisa pilih AppImage (lingkaran hijau), yang fungsinya mirip seperti file eksekusi di Windows. Kalau kamu pakai Raspberry Pi, karena prosesornya ARM, kamu hanya bisa menggunakan versi Python (lingkaran merah), meskipun sistem operasinya juga Linux. Sementara itu, lingkaran biru ditujukan untuk pengguna Windows, dan lingkaran hitam untuk pengguna Mac.
 
 ![image](assets/1.webp)
 
 ## Memverifikasi Electrum
 
-Tujuan dari "memverifikasi" unduhan adalah untuk memastikan tidak satu bit data pun yang telah diubah. Ini mencegah Anda menggunakan versi perangkat lunak "diretas" yang berbahaya. Tidak masalah untuk melewatkan ini asalkan Anda hanya menggunakan salinan yang diunduh untuk berlatih, yaitu jangan gunakan dompet yang menyimpan uang serius. Kemudian, setelah Anda siap menggunakan Electrum untuk dana nyata Anda, Anda harus menghapus salinan Anda dan memulai dari awal, kali ini memverifikasi unduhan Anda.
-Untuk melakukan ini, kami menggunakan alat kriptografi kunci publik/privat – gpg, yang telah kami tulis panduannya di sini (https://armantheparman.com/gpg/). Alat gpg tersedia di semua sistem operasi Linux. Untuk Mac dan Windows, lihat link gpg untuk instruksi pengunduhan.
+Tujuan dari proses "verifikasi" saat mengunduh adalah untuk memastikan tidak ada satu bit pun data yang berubah. Ini penting agar kamu nggak tanpa sadar menjalankan versi software yang sudah diretas dan bisa membahayakan. Tapi, kalau kamu cuma mau latihan dan belum menyimpan Bitcoin beneran, kamu bisa lewati proses ini dulu—asal pastikan kamu nggak pakai dompet itu untuk menyimpan dana serius.
 
-Selain mengunduh perangkat lunak Electrum, untuk keamanan, Anda juga memerlukan TANDA TANGAN digital dari perangkat lunak tersebut. Ini adalah rangkaian teks (sebenarnya adalah angka yang dikodekan menggunakan teks) yang dihasilkan oleh pengembang dengan kunci gpg PRIVAT-nya. Menggunakan program gpg, kita kemudian dapat "menguji" TANDA TANGAN tersebut terhadap kunci PUBLIK-nya (dibuat dari kunci privat pengembang) yang dapat diakses oleh semua orang, dibandingkan dengan FILE unduhan.
+Nanti, kalau kamu sudah siap pakai Electrum untuk menyimpan Bitcoin sungguhan, hapus dulu salinan lamamu dan mulai dari awal lagi—kali ini pastikan kamu memverifikasi unduhannya.
+
+Untuk melakukan verifikasi ini, kita pakai alat kriptografi kunci publik dan privat yang disebut gpg. Panduan lengkapnya bisa kamu baca di sini: [https://armantheparman.com/gpg/]. Alat gpg biasanya sudah tersedia di semua sistem operasi Linux. Untuk pengguna Mac dan Windows, kamu bisa cek link tersebut juga untuk cara download dan instalasinya.
+
+Selain mengunduh perangkat lunak Electrum, demi keamanan kamu juga perlu mengunduh TANDA TANGAN digital dari perangkat lunak itu. Tanda tangan ini sebenarnya adalah rangkaian teks—yang isinya angka-angka terenkripsi—yang dibuat oleh si pengembang menggunakan kunci gpg privat miliknya. Dengan bantuan program gpg, kita bisa "mengujinya" atau memverifikasi tanda tangan tersebut dengan mencocokkannya terhadap kunci publik si pengembang (yang berasal dari kunci privat tadi, dan bisa diakses siapa pun). Proses ini akan membandingkan tanda tangan digital dengan file unduhan untuk memastikan bahwa file yang kamu dapat benar-benar asli dan belum dimodifikasi.
 
 Dengan kata lain, dengan tiga input (tanda tangan, kunci publik, dan file data), kita mendapatkan output benar atau salah untuk mengonfirmasi bahwa file tersebut tidak telah diubah.
 
-Untuk mendapatkan tanda tangan, klik pada link yang sesuai dengan file yang Anda unduh (lihat panah berwarna):
+Untuk mendapatkan tanda tangan, klik pada link yang sesuai dengan file yang kamu unduh (lihat panah berwarna):
 
 ![image](assets/2.webp)
 
-Mengklik link mungkin secara otomatis mengunduh file ke folder unduhan Anda, atau mungkin terbuka di browser. Jika terbuka di browser, Anda perlu menyimpan file tersebut. Anda dapat klik kanan dan pilih "simpan sebagai". Tergantung pada sistem operasi atau browser, Anda mungkin perlu klik kanan pada area ruang putih, bukan teksnya.
+Saat kamu mengklik link, file-nya bisa langsung terunduh ke folder unduhan, atau justru terbuka di browser. Kalau terbuka di browser, kamu perlu menyimpannya secara manual—caranya klik kanan lalu pilih “Simpan sebagai”. Perlu dicatat, tergantung sistem operasi atau browser yang kamu pakai, kadang kamu harus klik kanan di area kosong (bukan di teksnya) supaya opsi itu muncul.
 
-Berikut adalah tampilan teks yang diunduh. Anda dapat melihat ada beberapa tanda tangan – ini adalah tanda tangan oleh orang yang berbeda. Anda dapat memverifikasi masing-masing atau salah satunya. Saya akan menunjukkan kepada Anda cara memverifikasi hanya tanda tangan pengembang.
+Setelah file diunduh, tampilannya akan seperti ini. Kamu akan melihat ada beberapa tanda tangan—itu artinya file tersebut telah ditandatangani oleh beberapa orang yang berbeda. Kamu bisa memilih untuk memverifikasi semuanya, atau cukup salah satunya saja. Di panduan ini, saya akan tunjukkan cara memverifikasi tanda tangan milik pengembang saja.
 
 ![image](assets/3.webp)
 
-Selanjutnya, Anda perlu mendapatkan kunci publik ThomasV – dia adalah pengembang utama. Anda bisa mendapatkannya langsung dari dia, akun Keybase-nya, Github, atau orang lain, dari keyserver, atau dari situs web Electrum.
+Selanjutnya, kamu perlu mendapatkan kunci publik milik ThomasV—dia adalah pengembang utama Electrum. Kunci ini bisa kamu dapatkan langsung dari dia, lewat akun Keybase-nya, dari GitHub, melalui orang lain, dari keyserver, atau dari situs resmi Electrum.
 
-Mendapatkannya dari situs web Electrum sebenarnya adalah cara yang paling tidak aman, karena jika situs web ini berbahaya (hal yang sedang kita periksa) mengapa kita mendapatkan kunci publik dari sana (kunci publik bisa palsu)?
+Mendapatkan kunci publik dari situs web Electrum sebenarnya adalah cara yang paling tidak aman. Soalnya, kalau kita sedang memverifikasi apakah situs itu aman atau tidak, justru jadi kontradiktif kalau kita mengambil kunci publik dari sana—karena kunci publiknya bisa saja palsu kalau situsnya memang sudah disusupi.
 
-Untuk menjaga agar hal ini sederhana untuk sekarang, saya akan menunjukkan kepada Anda cara mendapatkannya dari situs web tersebut, tetapi ingatlah hal ini. Berikut adalah salinannya (https://github.com/spesmilo/electrum/blob/master/pubkeys/ThomasV.asc ) di GitHub yang dapat Anda bandingkan.
+Untuk sekarang, supaya tetap sederhana, saya akan tunjukkan cara mendapatkan kunci publiknya dari situs web Electrum. Tapi ingat, cara ini bukan yang paling aman—jadi tetap waspada. Sebagai perbandingan, kamu juga bisa cek salinan kunci yang sama di GitHub lewat tautan ini: https://github.com/spesmilo/electrum/blob/master/pubkeys/ThomasV.asc.
 
-Gulir ke bawah halaman sedikit untuk menemukan link ke kunci publik ThomasV (lingkaran merah di bawah). Klik dan unduh, atau jika membuka beberapa teks di browser, klik kanan untuk menyimpan.
+Scroll sedikit ke bawah halaman sampai kamu menemukan link menuju kunci publik ThomasV, yang ditandai dengan lingkaran merah di bawah ini. Klik link tersebut untuk mengunduh, atau jika tampilannya langsung terbuka sebagai teks di browser, klik kanan dan pilih “Simpan sebagai” untuk menyimpan file-nya.
 
 ![image](assets/4.webp)
 
-Anda sekarang memiliki 3 file baru, mungkin semuanya ada di folder unduhan. Tidak masalah di mana mereka berada, tetapi prosesnya menjadi lebih mudah jika Anda menaruh semuanya dalam folder yang sama.
+Sekarang kamu sudah punya tiga file baru, yang kemungkinan semuanya ada di folder unduhan. Sebenarnya tidak masalah di mana file-file itu disimpan, tapi akan jauh lebih praktis kalau kamu memindahkannya ke dalam satu folder yang sama—biar proses selanjutnya jadi lebih mudah dan rapi.
 
 Ketiga file tersebut:
 
@@ -78,15 +83,19 @@ Ketiga file tersebut:
 
 Buka terminal di Mac atau Linux, atau command prompt (CMD) di Windows.
 
-Navigasikan ke direktori Downloads (atau di mana pun Anda menaruh ketiga file tersebut). Jika Anda tidak tahu apa maksudnya, pelajari dari video singkat ini untuk Linux/Mac (https://www.youtube.com/watch?v=AO0jzD1hpXc) dan ini untuk Windows (https://www.youtube.com/watch?v=9zMWXD-xoxc). Ingat bahwa pada komputer Linux, nama direktori peka terhadap huruf besar-kecil.
-Di terminal, ketik ini untuk mengimpor kunci publik ThomasV ke dalam "keyring" komputer Anda (keyring adalah konsep abstrak - sebenarnya hanya sebuah file di komputer Anda):
+Sekarang, navigasikan ke folder Downloads (atau ke mana pun kamu menyimpan ketiga file tadi). Kalau kamu belum familiar dengan istilah “navigasi ke direktori”, kamu bisa pelajari dulu lewat video singkat ini untuk Linux/Mac: https://www.youtube.com/watch?v=AO0jzD1hpXc, dan ini untuk Windows: https://www.youtube.com/watch?v=9zMWXD-xoxc. Jangan lupa, kalau kamu pakai Linux, nama direktori itu peka terhadap huruf besar dan kecil—jadi pastikan penulisannya benar.
+Di terminal, ketik ini untuk mengimpor kunci publik ThomasV ke dalam "keyring" komputermu (keyring adalah konsep abstrak - sebenarnya hanya sebuah file di komputermu):
 ```bash
 gpg --import ThomasV.asc
 ```
 
-Pastikan nama file sesuai dengan yang telah Anda unduh. Perhatikan juga bahwa itu adalah tanda strip ganda bukan strip tunggal. Catat juga ada spasi sebelum dan setelah "--import". Kemudian tekan <enter>.
+Pastikan nama file sesuai dengan yang telah kamu unduh. Perhatikan juga bahwa itu adalah tanda strip ganda bukan strip tunggal. Catat juga ada spasi sebelum dan setelah "--import". Kemudian tekan <enter>.
 
-File seharusnya terimpor. Jika Anda mendapatkan kesalahan, periksa apakah Anda berada di direktori tempat file tersebut benar-benar ada. Untuk memeriksa direktori mana Anda berada (di Mac atau Linux), ketik pwd. Untuk melihat file apa saja yang ada di direktori tempat Anda berada (di Mac atau Linux), ketik ls. Anda seharusnya melihat file teks "ThomasV.asc" terdaftar, mungkin di antara file lainnya.
+Kalau prosesnya berjalan lancar, file seharusnya berhasil diimpor. Tapi kalau muncul error, kemungkinan besar kamu tidak berada di direktori tempat file itu sebenarnya disimpan.
+
+Untuk memastikan lokasi kamu saat ini di Mac atau Linux, ketik pwd. Ini akan menunjukkan direktori aktifmu sekarang. Lalu untuk melihat daftar file yang ada di situ, ketik ls.
+
+Kalau semuanya benar, kamu seharusnya bisa melihat file teks bernama ThomasV.asc muncul di daftar, mungkin bersama file lainnya.
 
 Kemudian kita menjalankan perintah untuk memverifikasi tanda tangan.
 
@@ -103,9 +112,9 @@ Perhatikan ada 4 "elemen" di sini, masing-masing dipisahkan oleh spasi. Saya tel
 
 Yang menarik, terkadang Anda bisa meninggalkan elemen ke-4 dan komputer menebak apa yang Anda maksud. Saya tidak yakin, tetapi saya percaya ini hanya berfungsi jika nama file hanya berbeda oleh "asc" di akhir.
 
-Jangan hanya menyalin nama file yang telah saya tunjukkan di sini - pastikan mereka cocok dengan nama file apa yang Anda miliki di sistem Anda.
+Jangan hanya menyalin nama file yang telah kita tunjukkan di sini - pastikan mereka cocok dengan nama file apa yang kamu miliki di sistem kamu.
 
-Tekan <enter> untuk menjalankan perintah. Anda seharusnya melihat "good signature from ThomasV" untuk menunjukkan keberhasilan. Akan ada beberapa kesalahan karena kita tidak memiliki kunci publik untuk tanda tangan orang lain yang terkandung dalam file tanda tangan (sistem menggabungkan tanda tangan dalam satu file mungkin berubah dalam versi selanjutnya). Juga, ada peringatan di bagian bawah yang bisa kita abaikan (ini memberi tahu kita bahwa kita belum secara eksplisit memberitahu komputer bahwa kita mempercayai kunci publik ThomasV).
+Tekan <enter> untuk menjalankan perintah. Kalau berhasil, kamu akan melihat tulisan “good signature from ThomasV” sebagai tanda verifikasi sukses. Mungkin akan muncul beberapa pesan error—itu wajar, karena kita belum punya kunci publik dari orang lain yang juga ikut menandatangani file tersebut (sistem tanda tangan gabungan dalam satu file ini bisa saja berubah di versi mendatang). Selain itu, akan ada peringatan di bagian bawah yang bisa kamu abaikan. Peringatan itu cuma bilang kalau kamu belum secara eksplisit menyatakan bahwa kamu “memercayai” kunci publik milik ThomasV—dan itu tidak jadi masalah untuk sekarang.
 
 Sekarang kita memiliki salinan Electrum yang telah diverifikasi dan aman untuk digunakan.
 
@@ -113,7 +122,7 @@ Sekarang kita memiliki salinan Electrum yang telah diverifikasi dan aman untuk d
 
 ### Menjalankan Electrum jika menggunakan Python
 
-Jika Anda mengunduh versi Python, inilah cara membuatnya bekerja. Anda akan melihat di halaman unduhan ini:
+Kalau kamu mengunduh versi Python, inilah cara membuatnya bekerja. Kamu akan melihat di halaman unduhan ini:
 
 ![image](assets/5.webp)
 
@@ -124,9 +133,9 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Salin teks kuning yang disorot, tempelkan ke terminal, dan tekan <enter>. Anda akan diminta kata sandi Anda, mungkin konfirmasi untuk melanjutkan, dan kemudian itu akan menginstal file-file tersebut ("dependencies").
+Salin teks kuning yang disorot, tempelkan ke terminal, dan tekan <enter>. Kamu akan diminta kata sandimu, mungkin konfirmasi untuk melanjutkan, dan setelahnya, proses menginstal file-file tersebut ("dependencies") dimulai.
 
-Anda juga perlu mengekstrak file yang dikompres ke direktori pilihan Anda. Anda dapat melakukan ini dengan antarmuka pengguna grafis, atau dari baris perintah (perintah yang disorot pink) - ingat nama file Anda mungkin berbeda. (Perhatikan bahwa ketika kita memverifikasi unduhan di bagian sebelumnya, itu adalah file zip yang kita verifikasi, bukan direktori yang diekstrak.)
+Setelah itu, kamu juga perlu mengekstrak file zip yang tadi kamu unduh ke folder pilihanmu. Ini bisa kamu lakukan lewat antarmuka grafis (tinggal klik kanan lalu pilih "Extract"), atau lewat baris perintah menggunakan perintah yang ditandai warna pink—ingat, nama file kamu bisa saja berbeda tergantung versi yang diunduh. Perlu diingat juga, yang kita verifikasi sebelumnya adalah file zip-nya, bukan folder hasil ekstraknya. Jadi pastikan kamu mengekstrak dari file zip yang sudah diverifikasi tadi.
 
 Ada opsi untuk "menginstal" menggunakan program PIP, tetapi ini tidak perlu, dan menambahkan langkah ekstra serta instalasi file. Cukup jalankan program menggunakan terminal untuk melewati semua itu.
 
@@ -146,7 +155,7 @@ Setelah Electrum berjalan, jendela terminal akan tetap terbuka. Jika Anda menutu
 
 ### Menjalankan Electrum dengan Appimage
 
-Ini sedikit lebih mudah, tapi tidak se-mudah file executable Windows. Tergantung pada versi Linux yang Anda gunakan, secara default, file Appimage mungkin memiliki atribut yang diset sehingga eksekusi tidak diizinkan oleh sistem. Kita harus mengubah ini. Jika Appimage Anda berfungsi, Anda dapat melewati langkah ini. Navigasikan ke tempat file berada, menggunakan terminal, lalu jalankan perintah ini:
+Langkah ini memang sedikit lebih mudah dibanding instalasi biasa, tapi tetap nggak semudah menjalankan file executable di Windows. Tergantung pada versi Linux yang kamu pakai, kadang file AppImage secara default tidak diizinkan untuk dieksekusi karena sistem belum memberikan izin. Nah, kita perlu mengubah pengaturannya dulu. Kalau AppImage-mu sudah bisa dijalankan, kamu bisa lewati langkah ini. Tapi kalau belum, navigasikan dulu ke folder tempat file AppImage itu berada lewat terminal, lalu jalankan perintah berikut:
 
 ```bash
 sudo chmod ug+x Electrum-4.1.5-x86_64.AppImage
@@ -160,7 +169,7 @@ Kemudian, Electrum akan berjalan dengan mengklik dua kali ikon Appimage.
 
 ### Menjalankan Electrum dengan Mac
 
-Cukup klik dua kali file yang diunduh (itu adalah “drive”). Sebuah jendela akan terbuka. Seret ikon Electrum di jendela ke desktop Anda, atau ke mana pun Anda ingin menyimpan program tersebut. Anda kemudian dapat “mengeluarkan” drive, dan menghapus drive (file yang diunduh).
+Cukup klik dua kali file yang diunduh (itu adalah “drive”). Sebuah jendela akan terbuka. Seret ikon Electrum di jendela ke desktopmu, atau ke mana pun kamu ingin menyimpan program tersebut. Setelah itu, kamu dapat “mengeluarkan” drive, dan menghapus drive (file yang diunduh).
 
 Untuk menjalankan program, cukup klik dua kali. Anda mungkin mendapatkan beberapa kesalahan spesifik Mac yang perlu dilewati.
 
@@ -170,15 +179,17 @@ Meskipun saya paling tidak suka Windows, ini adalah metode paling sederhana. Cuk
 
 ## Mulai dengan dompet dummy
 
-Ketika Anda pertama kali memuat Electrum, sebuah jendela akan terbuka seperti ini:
+Ketika kamu pertama kali memuat Electrum, sebuah jendela akan terbuka seperti ini:
 
 ![image](assets/6.webp)
 
-Kita akan memilih server Anda secara manual nanti, tetapi untuk sekarang, biarkan default dan auto-connect.
+Kita akan memilih servermu secara manual nanti, tetapi untuk sekarang, biarkan default dan auto-connect.
 
-Selanjutnya, buat dompet dummy – jangan pernah memasukkan dana ke dalam dompet ini. Tujuan dari dompet dummy ini adalah untuk melanjutkan melalui perangkat lunak dan memastikan semuanya berfungsi dengan baik sebelum Anda memuat dompet asli Anda. Kita mencoba menghindari secara tidak sengaja memberikan privasi dengan dompet asli. Jika Anda hanya berlatih, dompet yang Anda buat dapat dianggap sebagai dompet dummy.
+Selanjutnya, buatlah dompet dummy—ingat, jangan pernah memasukkan dana sungguhan ke dalam dompet ini. Tujuan dari dompet dummy adalah untuk sekadar mencoba-coba dan memastikan semua fitur di aplikasi berjalan lancar sebelum kamu benar-benar memuat dompet aslimu.
 
-Anda dapat membiarkan nama sebagai “default_wallet” atau mengubahnya sesuai yang Anda suka, dan klik next. Nanti, jika Anda memiliki beberapa dompet, Anda dapat menemukan dan membukanya pada tahap ini dengan pertama kali mengklik “Choose…”
+Kita sedang berusaha mencegah risiko privasi bocor secara nggak sengaja dari dompet utama. Jadi selama kamu masih dalam tahap latihan, dompet yang kamu buat bisa dianggap sebagai dompet dummy.
+
+Kamu bisa membiarkan nama dompet tetap sebagai “default_wallet”, atau menggantinya sesuai keinginan, lalu klik Next. Nantinya, kalau kamu punya beberapa dompet, kamu bisa memilih dan membukanya di tahap ini dengan mengklik tombol “Choose…” terlebih dahulu.
 
 ![image](assets/7.webp)
 
@@ -186,7 +197,7 @@ Pilih “Standard wallet” dan <Next>:
 
 ![image](assets/8.webp)
 
-Kemudian, pilih “I already have a seed”. Saya tidak ingin Anda terbiasa membuat seed Electrum, karena menggunakan protokolnya sendiri yang tidak kompatibel dengan dompet lain – inilah mengapa kita tidak mengklik “new seed”.
+Kemudian, pilih “I already have a seed”. Saya tidak ingin terbiasa membuat seed Electrum, karena menggunakan protokolnya sendiri yang tidak kompatibel dengan dompet lain – inilah mengapa kita tidak mengklik “new seed”.
 
 ![image](assets/9.webp)
 
@@ -201,9 +212,9 @@ Kemudian tempelkan kata-kata ke dalam Electrum. Berikut adalah contohnya:
 Electrum akan mencari kata-kata yang cocok dengan protokolnya sendiri. Kita harus melewati itu. Klik opsi, dan pilih BIP39 Seed:
 
 ![image](assets/12.webp)
-Benih kemudian menjadi valid. (Sebelum melakukan ini, Electrum mengharapkan sebuah benih Electrum sehingga benih ini dianggap tidak valid). Sebelum Anda klik lanjut, perhatikan teks yang mengatakan "Checksum OK". Ini penting (untuk dompet nyata yang mungkin Anda gunakan nanti) bahwa Anda melihat ini sebelum melanjutkan, karena ini mengonfirmasi validitas benih yang Anda masukkan. Peringatan di dekat bagian bawah dapat diabaikan, itu adalah keluhan pengembang Electrum tentang BIP39 dan klaim "FUD" mereka bahwa versi mereka (yang tidak kompatibel dengan dompet lain) lebih unggul.
+Setelah itu, seed yang kamu masukkan akan dianggap valid. (Sebelumnya, Electrum menganggap seed-nya tidak valid karena masih menunggu format seed milik Electrum sendiri.) Sebelum kamu lanjut ke langkah berikutnya, perhatikan baik-baik tulisan “Checksum OK”. Ini penting banget—terutama nanti kalau kamu pakai dompet sungguhan—karena tulisan itu menandakan bahwa seed yang kamu masukkan benar dan valid. Kalau kamu melihat peringatan di bagian bawah layar, nggak usah panik—itu cuma keluhan dari pengembang Electrum tentang standar BIP39. Mereka sering menganggap standar lain itu “FUD” dan merasa bahwa sistem mereka (yang memang tidak kompatibel dengan banyak dompet lain) lebih unggul. Tapi untuk saat ini, kamu bisa abaikan saja.
 
-> Sebuah penyimpangan cepat untuk peringatan penting. Tujuan dari checksum adalah untuk memastikan Anda memasukkan benih Anda tanpa kesalahan ketik. Checksum adalah bagian akhir dari benih (kata ke-12 menjadi kata checksum) yang secara matematis ditentukan oleh bagian awal dari benih (11 kata). Jika Anda mengetik sesuatu yang salah di awal, kata checksum tidak akan cocok secara matematis, dan perangkat lunak dompet akan memberi tahu Anda dengan peringatan. Ini tidak berarti bahwa benih tidak dapat digunakan untuk membuat Dompet Bitcoin yang fungsional. Bayangkan membuat dompet dengan kesalahan ketik, memuat dompet dengan bitcoin, kemudian suatu hari Anda mungkin perlu mengembalikan dompet, tetapi ketika Anda melakukannya, Anda tidak mereproduksi kesalahan ketik - Anda akan mengembalikan dompet yang salah! Sangat berbahaya bahwa Electrum akan membiarkan Anda melanjutkan membuat dompet jika checksum Anda tidak valid, jadi diingatkan, itu tanggung jawab Anda untuk memastikan. Dompet lain tidak akan membiarkan Anda melanjutkan, yang jauh lebih aman. Ini adalah salah satu hal yang saya maksud ketika saya mengatakan Electrum baik untuk digunakan, setelah Anda belajar menggunakannya dengan benar (pengembang Electrum harus memperbaiki ini).
+> Sedikit penyimpangan sebentar untuk membahas peringatan penting. Tujuan dari checksum adalah untuk memastikan kamu tidak salah ketik saat memasukkan seed. Jadi begini: kata terakhir dari seed (biasanya kata ke-12) adalah hasil checksum—ia dihitung secara matematis dari 11 kata sebelumnya. Kalau kamu salah ketik satu huruf atau satu kata saja di awal, maka kata terakhir tidak akan cocok secara matematis, dan dompet akan memperingatkan kamu. Tapi hati-hati, ini tidak berarti seed itu tidak bisa digunakan untuk membuat dompet Bitcoin yang berfungsi. Justru itu masalahnya: bayangkan kamu bikin dompet dengan seed yang salah ketik, lalu kamu isi dengan Bitcoin. Suatu hari kamu coba pulihkan dompet itu, tapi kamu lupa bahwa dulu pernah salah ketik—hasilnya kamu malah pulihkan dompet yang berbeda, dan dana kamu bisa hilang selamanya. Sayangnya, Electrum tidak memaksa kamu berhenti kalau seed yang kamu masukkan tidak lolos checksum. Ini sangat berbahaya, jadi kamu sendiri yang harus ekstra hati-hati. Dompet lain biasanya akan langsung menghentikan kamu jika seed salah—dan itu jauh lebih aman. Inilah salah satu alasan kenapa saya bilang Electrum adalah dompet yang bagus, tapi hanya setelah kamu benar-benar paham cara menggunakannya. Pengembang Electrum seharusnya memperbaiki hal ini, tapi sampai saat itu, tanggung jawabnya ada di tangan kamu.
 
 Perhatikan bahwa jika Anda ingin menambahkan passphrase, kesempatan untuk memilih itu ada di jendela opsi ini, tepat di bagian atas.
 

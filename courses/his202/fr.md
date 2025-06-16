@@ -316,7 +316,7 @@ Enfin, la dernière place de marché à apparaitre durant cette période est Tra
 
 ### Les piratages de juin
 
-Le succès financier du bitcoin attire également les pirates informatiques. L'absence d'intermédiaire et le relatif anonymat de Bitcoin est une caractéristique parfaite pour les voleurs, qui peuvent se saisir des bitcoins des autres, sans risquer de voir les fonds gelés. Le 13 juin, le premier piratage de grande envergure survient : un membre actif de la communauté utilisant le pseudonyme Allinvain se fait dérober [25 000 bitcoins](https://mempool.space/tx/4885ddf124a0f97b5a3775a12de0274d342d12842ebe59520359f976721ac8c3), soit près de 500 000 dollars. Il [partage](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423) son expérience sur le forum de Bitcoin, et l'affaire est relayée [dans la presse en ligne](https://www.forbes.com/sites/timworstall/2011/06/17/bitcoin-the-first-500000-theft/). Il [semblerait](https://web.archive.org/web/20140507013623/https://www.wired.com/2011/06/bitcoin-malware/) qu'il ait été la victime d'un cheval de Troie (logiciel malveillant) appelé Coinbit, qui récupère le fichier `wallet.dat` d'une machine fonctionnant sous Windows. Cela [pose la question](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) du chiffrement du portefeuille, une pratique qui sera généralisée bien plus tard. \[QUAND ?\]
+Le succès financier du bitcoin attire également les pirates informatiques. L'absence d'intermédiaire et le relatif anonymat de Bitcoin est une caractéristique parfaite pour les voleurs, qui peuvent se saisir des bitcoins des autres, sans risquer de voir les fonds gelés. Le 13 juin, le premier piratage de grande envergure survient : un membre actif de la communauté utilisant le pseudonyme Allinvain se fait dérober [25 000 bitcoins](https://mempool.space/tx/4885ddf124a0f97b5a3775a12de0274d342d12842ebe59520359f976721ac8c3), soit près de 500 000 dollars. Il [partage](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423) son expérience sur le forum de Bitcoin, et l'affaire est relayée [dans la presse en ligne](https://www.forbes.com/sites/timworstall/2011/06/17/bitcoin-the-first-500000-theft/). Il [semblerait](https://web.archive.org/web/20110618151605/https://www.wired.com/threatlevel/2011/06/bitcoin-malware/) qu'il ait été la victime d'un cheval de Troie (logiciel malveillant) appelé Coinbit, qui récupère le fichier `wallet.dat` d'une machine fonctionnant sous Windows. Cela [pose la question](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) du chiffrement du portefeuille, une pratique qui sera généralisée bien plus tard. \[QUAND ?\]
 
 Comme nous l'avons dit, Mt. Gox constitue un cible idéale. Elle est régulièrement la cible d'attaques par déni de service (par exemple le [1er mai](https://bitcointalk.org/index.php?topic=6931.msg101451#msg101451)). De plus, elle a déjà échappé au pire en mai, lorsqu'un pirate s'tait emparé de 300 000 BTC avant d'en rendre 297 000.
 
@@ -690,13 +690,15 @@ Cette construction s'est accompagnée en parallèle d'une amélioration de l'uti
 
 La période du Far West de la finance a été propice à l'amélioration de l'utilisation par le développement des portefeuilles légers et des diverses manières de conserver des bitcoins. Lorsque Satoshi s'est mis en retrait en décembre 2010, les nouveaux arrivants n'avaient le choix qu'entre le logiciel principal (l'implémentation complète conservant l'intégralité de la chaine de blocs et relayant les nouvelles transactions et les nouveaux blocs) et les applications dépositaires comme MyBitcoin. Mais à partir de l'année 2011, ce dilemme a disparu.
 
-Diverses solutions ont surgi : les portefeuilles logiciels comme *Bitcoin Wallet for Android* et Electrum, les portefeuilles web comme Blockchain.info, les portefeuilles papier comme BitAddress, les supports physiques comme les Bitbills et les Casascius Coins. Des solutions pour acquérir plus de conidentialité ont émergé.
+Diverses solutions ont surgi : les portefeuilles logiciels comme *Bitcoin Wallet for Android* et Electrum, les portefeuilles web comme Blockchain.info, les portefeuilles papier comme BitAddress, les supports physiques comme les Bitbills et les Casascius Coins. Des solutions pour acquérir plus de confidentialité ont émergé, notamment les mélangeurs comme BitLaundry.
 
-Portefeuilles légers (Bitcoin Wallet for Android, Electrum, BitcoinSpinner), supports physiques (Bitbills, Casascius Coins), portefeuilles web (Blockchain.info)
+Utilisation de Bitcoin : nœud complet ou service dépositaire (MyBitcoin)
+
+Au début de l'année 2011, l'utilisation de Bitcoin se fait de deux manières principales : soit directement, au moyen d'un nœud complet fonctionnant sur un ordinateur et demandant une certaine patience pour la gestion de la chaîne de bloc et la sauvegarde des clés privées ; soit indirectement, par le biais de l'application dépositaire MyBitcoin, qui permet de gérer ses bitcoins sans avoir à se soucier de gérer un logiciel complexe, et en utilisant un simple mot de passe pour accéder à un compte.
 
 Mike Hearn, Andreas Schildbach, Thomas Voegtlin, Andreas Antonopoulos, Luke-Jr, Amir Taaki
 
-- Portefeuilles : Gavin Andresen, ["Why aren't bitcoin wallets encrypted?", 2011-06-24](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) ; ["Worth more than the computer they are stored on...", 2011-06-27](https://gavinthink.blogspot.com/2011/06/worth-more-than-computer-they-are.html)
+- Portefeuilles : Gavin Andresen, [chiffrement du portefeuille, "Why aren't bitcoin wallets encrypted?", 2011-06-24](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) ; ["Worth more than the computer they are stored on...", 2011-06-27](https://gavinthink.blogspot.com/2011/06/worth-more-than-computer-they-are.html) ; [Satoshi, "later a good feature for a client version is to keep your private keys encrypted and you give your password each time you send"](https://plan99.net/~mike/satoshi-emails/thread3.html)
 
 - Vitalik Buterin, "Bitcoin Wallet Reviews – Ease Of Use And Security", [2012](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/)
 
@@ -722,70 +724,131 @@ Au début de l'année 2012, Paymium développe sa propre application dépositair
 
 Interface (en français) de l'application Paytunia en novembre 2012 (source : [eeNews Europe](https://www.eenewseurope.com/en/bitcoin-enabled-euro-payment-solution-operates-as-a-mobile-e-wallet/))
 
-Paymium [relance](https://bitcointalk.org/index.php?topic=67602.msg786523#msg786523) également Instawallet en mars.
-
 ### Les implémentations logicielles alternatives (mars–juillet 2011)
 
-Satoshi Nakamoto, [17 juin 2010](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) :
+La période est propice à la réécriture de l'implémentation. Le logiciel, qui s'appelle alors « Bitcoin » à l'époque, est en effet la seule qui existe. Satoshi est essentiellement opposé à la réécriture de l'implémentation, notamment pour ne pas compromettre le fonctionnement du minage. Dans un [message](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) publié en juin 2010 sur le forum, il écrivait déjà :
 
-> « Je ne pense pas qu'une seconde implémentation compatible de Bitcoin soit une bonne idée. Le modèle du système repose tellement sur le
-fait que tous les nœuds obtiennent des résultats exactement identiques qu'une deuxième implémentation constituerait une menace pour le
-réseau. La licence MIT est compatible avec toutes les autres licences et utilisations commerciales, il n'est donc pas nécessaire de la réécrire du point de vue juridique. »
+> « Je ne pense pas qu'une seconde implémentation compatible de Bitcoin soit une bonne idée. Le modèle dépend en grande partie du
+fait que tous les nœuds obtiennent des résultats exactement identiques, de sorte qu'une deuxième implémentation constituerait une menace pour le réseau. La licence MIT est compatible avec toutes les autres licences et utilisations commerciales, il n'est donc pas nécessaire de la réécrire du point de vue juridique. »
 >
 > original: "I don't believe a second, compatible implementation of Bitcoin will ever be a good idea. So much of the design depends on all nodes getting exactly identical results in lockstep that a second implementation would be a menace to the network. The MIT license is compatible with all other licenses and commercial uses, so there is no need to rewrite it from a licensing standpoint."
 
-Discussions avec Mike Hearn : https://plan99.net/~mike/satoshi-emails/thread3.html
+Toutefois, ce commentaire ne vaut pas pour les implémentations partielles, destinées à lire la chaine et à servir aux utilisateurs. C'est pourquoi il ne s'oppose pas au projet d'implémentation en Java de Mike Hearn, [estimant](https://plan99.net/~mike/satoshi-emails/thread4.html) qu'« une grande partie de la complexité peut être éliminée dans le cadre d'une réécriture propre comprenant uniquement des exigences relatives au client » (original: "Much complexity can be left behind in a clean rewrite with only client requirements").
 
-Le 7 mars 2011, Mike Hearn [publie](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) son implémentation logicielle BitCoinJ. Comme il travaille pour Google, le code doit être attribué à la multinationale, mais la licence est libre ([Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)). L'implémentation met en œuvre la vérification de paiement simplifiée (SPV) telle que décrite dans le livre blanc, de sorte que des clients mobiles légers peuvent s'y connecter.
+L'implémentation logicielle de Mike Hearn est BitCoinJ, qui est une mise en œuvre de la vérification de paiement simplifiée (SPV) telle que décrite dans le livre blanc, de sorte à interagir essentiellement avec les clients légers, notamment pour les téléphones utilisant le système d'exploitation Android. Il développe ce projet [à partir](https://plan99.net/~mike/satoshi-emails/thread3.html) de la fin de l'année 2010 et en [publie](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) une première version le 7 mars 2011. Comme Mike travaille en tant qu'ingénieur pour Google, le code doit être attribué à la multinationale, mais la licence (Apache 2) est libre.
 
-Libbitcoin [21/7/2011](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791) ([archive nov. 2011](https://web.archive.org/web/20111110073728/https://bitcointalk.org/index.php?topic=30646.0), [5/10/2011](https://web.archive.org/web/20111007114746/http://bitcoinmedia.com/libbitcoin-set-to-be-first-full-node-alternat)), Amir Taaki, Patrick Strateman (phantomcircuit) : "rewrite bitcoin, make it super-pluggable, very easy to do and hack everything at every level, and very configurable") https://en.bitcoin.it/wiki/Libbitcoin https://web.archive.org/web/20120427221903/http://libbitcoin.org/ [freecoin ?](https://web.archive.org/web/20110514165027/http://bitcoinconsultancy.com/wiki/index.php/Freecoin)
+Mais la ré-implémentation du protocole Bitcoin ne s'arrête pas là. En juillet 2011, après le départ de Satoshi, les membres de la *Bitcoin Consultancy* Amir Taaki (Genjix) et Patrick Strateman (Phantomcircuit) [lancent](https://bitcointalk.org/index.php?topic=30646.msg384791#msg384791) Libbitcoin, qui est une implémentation en C++ visant l'extensibilité, la scalabilité et configurabilité les plus élevées possibles. Leur objectif est de « réécrire bitcoin, de le rendre super-branchable, très facile à manipuler et à bidouiller à tous les niveaux, et très configurable » (original: "rewrite bitcoin, make it super-pluggable, very easy to do and hack everything at every level, and very configurable"). Le code est publié sous licence libre copyleft (AGPL), qui obligent ceux qui réutilisent le logiciel à publier leur travail avec la même licence.
 
-Manifeste, [oct. 2013](https://nakamotoinstitute.org/library/libbitcoin-manifesto/)
+![Logo de Libbitcoin en septembre 2013](assets/en/libbitcoin-logo-sept-2013.webp)
 
-### Les portefeuilles légers (mars 2011 – nov. 2011)
+Logo de Libbitcoin en septembre 2013 (source : [archive](https://web.archive.org/web/20130913065137/http://libbitcoin.dyne.org/) de libbitcoin.dyne.org)
 
-Utilisation de Bitcoin : nœud complet ou service dépositaire (MyBitcoin)
+En octobre, le logiciel [parvient](https://bitcointalk.org/index.php?topic=30646.msg553961#msg553961) à faire une vérification complète de la chaine. Amir Taaki rédige également un « Zen de Libbitcoin », structuré sur le même modèle que le Zen de Python, un ensemble de principes influençant la conception du langage de programmation Python. Il publiera également un [manifeste](https://libbitcoin.dyne.org/libbitcoin-manifesto.pdf) (*The Libbitcoin Manifesto*) en septembre 2013.
 
-Au début de l'année 2011, l'utilisation de Bitcoin se fait de deux manières principales : soit directement, au moyen d'un nœud complet fonctionnant sur un ordinateur et demandant une certaine patience pour la gestion de la chaîne de bloc et la sauvegarde des clés privées ; soit indirectement, par le biais de l'application dépositaire MyBitcoin, qui permet de gérer ses bitcoins sans avoir à se soucier de gérer un logiciel complexe, et en utilisant un simple mot de passe pour accéder à un compte.
+### Les portefeuilles légers
 
-Le problème est que les nouveaux utilisateurs et les usagers occasionnels se tournent rapidement vers la solution de facilité. Il y a ainsi une demande pour une solution intermédiaire donnant la possibilité de conserver ses fonds en évitant d'avoir à faire fonctionner toute l'infrastructure logicielle. En novembre 2010, c'est ainsi que Kiba met en place une [prime](https://bitcointalk.org/index.php?topic=1812.msg22319#msg22319) collective pour le développement d'un client Bitcoin sur mobile.
+Le problème des implémentations complètes est qu'elles demandent beaucoup de ressources et sont peu pratiques à utiliser pour beaucoup de monde. De plus, on ne peut pas les utiliser sur mobile. C'est pourquoi les nouveaux utilisateurs et les usagers occasionnels se tournent vers la solution de facilité : les applications dépositaires. En novembre 2010, Kiba met en place une [prime](https://bitcointalk.org/index.php?topic=1812.msg22319#msg22319) collective pour le développement d'un client Bitcoin sur mobile. Le 29 juillet 2011, la fermeture de MyBitcoin confirme la nécessité d'une solution intermédiaire. C'est ce qui catalyse le développement des protefeuilles légers (*lightweight wallets*).
 
-Idée d'utiliser un nœud en tant que serveur distant (en lequel on a totalement confiance), Spesmilo : Amir Taaki, Luke-Jr, [14/2](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538)
+Le première idée est d'utiliser un nœud en tant que serveur distant, en lequel l'utilisateur a totalement confiance. En février 2011, Amir Taaki [lance](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) un client logiciel permettant de gérer un portefeuille localement en se connectant à un nœud existant appelé Spesmilo. Il s'agit d'un client fonctionnant initialement sur Linux, mais qui est rapidement porté sur Windows. Le nom est une référence au spesmilo, ancienne unité monétaire internationale, proposée par le mathématicien suisse René de Saussure (le frère du linguiste, Ferdinand) en 1907, dans le cadre du projet espérantiste.
 
-Le spesmilo est une ancienne unité monétaire internationale, proposée par René de Saussure en 1907.
+![Interface de Spesmilo en février 2011](assets/en/spesmilo-english-screenshot-20110214.webp)
 
-Quelques jours après la publication de BitCoinJ, le 11 mars, un autre développeur du nom d'Andreas Schildbach (Goonie) [dévoile](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) le prototype d'un portefeuille pour les téléphones utilisant le système d'exploitation Android, basé l'implémentation de Mike Hearn. Sobrement nommé *Bitcoin Wallet for Android*, celui-ci deviendra le premier modèle fonctionnel de portefeuille léger sur mobile.
+Interface de Spesmilo en février 2011 (source : [Bitcoin Wiki](https://en.bitcoin.it/w/index.php?title=Spesmilo&oldid=8271))
 
-Le 29 juillet 2011, la fermeture de MyBitcoin confirme la nécessité d'une solution intermédiaire.
+Amir [est](https://bitcointalk.org/index.php?topic=1568.msg19443#msg19443) lui-même espérantophone et il traduit le logiciel en espéranto dès le premier jour. Il est rejoint par le développeur Luke-Jr qui l'aide à maintenir le logiciel. Ce dernier [ajoute](https://gitlab.com/bitcoin/spesmilo/-/commit/b889211e98111b243de2b11fe88caf91d069b2a5) au programme le système de [numération tonale](https://en.bitcoin.it/wiki/Tonal_Bitcoin), un système hexadécimal proposé par John W. Nystrom au XIXe siècle, où l'unité « bitcoin » égale 65 536 satoshis.
 
-Le 5 novembre, Thomas Voegtlin (ThomasV) [annonce](https://bitcointalk.org/index.php?topic=50936.msg607510#msg607510) la sortie d'Electrum, un portefeuille léger pour ordinateur dont le nom fait référence à l'électrum, alliage naturel d'or et d'argent, qui a notamment servi à frapper les premières pièces de monnaie en Lydie et en Grèce. La principale innovation est que la gestion des clés passe par un génération déterministe à partir d'une graine. Cela permet à l'utilisateur de récupérer ses fonds par le biais d'une phrase mnémotechnique de 12 mots. Le client se connecte à un réseau de serveurs spéciaux pour récupérer les transactions. La vérification de paiement simplifiée sera [ajoutée](https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) un an plus tard.
+Le projet Spesmilo est cependant abandonné en novembre 2011, au profit d'un projet autrement plus ambitieux : Electrum.
+
+L'autre idée, plus commode, est de faire usage de la vérification de paiement simplifiée (SPV), qui consiste à vérifier que les transactions appartiennent à la chaine de blocs sans devoir télécharger l'intégralité des données. Le 11 mars 2011, quelques jours après la publication de BitCoinJ, un développeur berlinois du nom d'Andreas Schildbach (Goonie) [dévoile](https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) le prototype d'un portefeuille pour les téléphones utilisant Android, basé sur l'implémentation de Mike Hearn. Sobrement nommé *Bitcoin Wallet for Android*, celui-ci devient le premier modèle fonctionnel de portefeuille léger sur mobile.
+
+https://groups.google.com/g/bitcoinj/c/fqUw1AKsxWI/m/pl6rzUSmUH4J
+
+![Andreas Schildbach à la conférence re:publica à Berlin en mai 2016](assets/en/andreas-schildbach-rpen-may-2016-twitter-holger-bleich.webp)
+
+Andreas Schildbach à la conférence re:publica à Berlin en mai 2016 (source : Holger Bleich sur [Twitter](https://twitter.com/_robinhob/status/727167827132727300))
+
+![Interface du Bitcoin Wallet for Android en juillet 2011](assets/en/bitcoin-wallet-android-july-2011.webp)
+
+Interface du Bitcoin Wallet for Android en juillet 2011 (source : Brandon Iles pour [Wired](https://web.archive.org/web/20110710020745/https://www.wired.com/gadgetlab/2011/07/bitcoin-android-app/))
+
+Problème de la confidentialité. Téléchargement du bloc complet (ce qui était prévu par Satoshi à l'origine), mais problème de bande passante. Bloom filters (BIP 37, https://github.com/bitcoin/bips/blob/master/bip-0037.mediawiki), proposés par Mike Hearn et Matt Corallo pour atténuer le problème.
+
+### Les portefeuilles déterministes
+
+Les portefeuilles déterministes (*deterministic wallets*) sont des portefeuilles qui intègrent la dérivation des clés : au lieu d'être générées individuellement de manière aléatoire comme cela est fait dans le logiciel principal, les clés privées sont dérivées de manière déterministe d'une information (appelée la graine) grâce à des fonctions cryptographiques. La connaissance de cette information permet à l'utilisateur de récupérer l'intégralité de ses fonds, ce qui simplifie grandement la sauvegarde du portefeuille. Il n'y a plus besoin d'enregistrer encore et encore le fichier `wallet.dat` !
+
+Les portefeuille déterministes sont largement issus des réflexions du développeur américain Gregory Maxwell. Partisan du logiciel libre, ce dernier est alors [contributeur](https://commons.wikimedia.org/wiki/User:Gmaxwell) pour Wikipedia depuis 2004 et travaille pour la fondation Xiph.org, où il participe au développement du codec audio Opus. En mai 2011, il commence à s'engager dans Bitcoin. Il [s'essaie](https://bitcointalk.org/index.php?topic=7171.msg119591#msg119591) au minage. Il écrit aussi beaucoup et devient rapidement un gros contributeur sur le forum et sur le canal IRC \#bitcoin-dev, où il utilise le pseudonyme Gmaxwell.
+
+![Gregory Maxwell en 2006](assets/en/gmaxwell-boat-2006-wikimedia.webp)
+
+Gregory Maxwell en 2006 (source : [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))
+
+Gregory Maxwell a beaucoup d'idées sur les façons d'améliorer l'utilisation de Bitcoin, et la dérivation des clés en fait partie. Le 18 juin, à la suite de [discussions](https://buildingbitcoin.org/bitcoin-dev/log-2011-06-08.html#l-1089) sur IRC, il rédige une description sur le forum. Il [écrit](https://bitcointalk.org/index.php?topic=19137.msg239768#msg239768) :
+
+> « Bitcoin devrait vraiment permettre et recommander par défaut l'utilisation de portefeuilles déterministes.   La sécurité supplémentaire apportée par les portefeuilles pré-générés actuels est relativement faible compte tenu de la manière dont la plupart des gens utilisent bitcoin. Et le fardeau des pertes dues à des sauvegardes incomplètes et à la pression accrue pour maintenir un seul portefeuille opérationnel est énorme. »
+>
+> "Bitcoin really ought to offer and default to using deterministic wallets.   The additional security of the current pre-generated ones is fairly small considering how most people use bitcoin and the liability of harm due to insufficient backups and increased pressure to keep a single wallet online is enormous."
+
+Il envisage deux types de dérivation. L'une (type 1) est simple et génère les clés privées directement à partir de la graine. L'autre (type 2) est plus complexe, mais permet de dériver les adresses d'une clé publique maitresse obtenue depuis la graine, sans accéder à la graine en question. Cela d'avoir un logiciel de traitement de paiements qui puisse générer une adresse à chaque transaction, sans que les clés privées ne soient exposées.
+
+Au cours de l'été, un développeur danois du nom de Jan Møller met au point une interface en Java appelée BCCAPI (pour *BitCoin Client API*). Celle-ci est [annoncée](https://bitcointalk.org/index.php?topic=36892.msg453652#msg453652) le 23 août. C'est une interface logicielle permettant de connecter un client fonctionnant sur téléphone Android à un serveur. Côté client, elle met en application la génération déterministe des clés privées, ne nécessitant pas de faire des sauvegardes régulières.
+
+Cette interface est utilisée en novembre quelques mois plus tard pour mettre en place un portefeuille léger appelé BitcoinSpinner, disponible sur Google Play. Celui-ci est [annoncé](https://bitcointalk.org/index.php?topic=52674.msg628527#msg628527) par Jan le 23 novembre. Il est officiellement géré par la société danoise Miracle A/S, que Jan [rejoint](https://bitcointalk.org/index.php?topic=53353.msg672264#msg672264) à la fin du mois de décembre.
+
+![Interface de BitcoinSpinner en juin 2012](assets/en/bitcoinspinner-june-2012.webp)
+
+Interface de BitcoinSpinner en juin 2012 (source : [Bitcoin Magazine](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/))
+
+Toutefois, BCCAPI [souffre](https://bitcointalk.org/index.php?topic=46493.msg571018#msg571018) de quelques défauts, qui font qu'il n'est pas au goût de tout le monde. D'une part, le code l'infrastructure logicielle du serveur, qui se base sur BitCoinJ, n'est pas encore publié, ce qui interdit de déployer d'autres serveurs. D'autre part, le fonctionnement du système garde en mémoire des transactions liées aux adresses gérées par un portefeuille afin de fournir le solde total, ce qui réduit la bande passante mais pose un problème de confidentialité.
+
+Ces défauts gênent particulièrement le Français Thomas Voegtlin, qui est alors chercheur en informatique pour l'Inria et qui utilise le pseudonyme ThomasV sur le forum. Il est intéressé pour contribuer et [cherche](https://bitcointalk.org/index.php?topic=46493.msg569756#msg569756) à mettre en place « des serveurs auxquels on n'a pas besoin d'être fidèle » (original: "I am thinking about servers you don't have to be faithful to"). Le 20 octobre, il [décide](https://bitcointalk.org/index.php?topic=46493.msg585227#msg585227) ainsi de « faire ça en partant à partir de zéro en python » (original: "I guess I will try to do it from scratch in python, using bitcoin-abe + bitcoind at the server side.").
+
+Le résultat est Electrum, qui [sort](https://bitcointalk.org/index.php?topic=50936.msg607510#msg607510) le 5 novembre. Son nom fait référence à l'électrum, alliage naturel d'or et d'argent, qui a notamment servi à frapper les premières pièces de monnaie en Lydie et en Grèce.
+
+![Thomas Voegtlin en 2006](assets/en/thomas-voegtlin-loria-2006.webp)
+
+Thomas Voegtlin en 2006 (source : [archive](https://web.archive.org/web/20060516200739/http://www.loria.fr/%7Evoegtlin/) de sa page personnelle)
+
+Le client se connecte à un réseau de serveurs spéciaux pour récupérer les transactions. Les serveurs fonctionnent avec le logiciel (bitcoind) et indexent toutes les transactions grâce au code de l'explorateur de blocs ABE. Dans ce portefeuille, la graine se présente sous la forme d'une chaine de caractères hexadécimaux ou bien d'une phrase mnémotechnique de 12 mots. Chaque mot est choisi dans une liste oprédéfinie ce qui permet de représenter les bits d'information.
 
 ![Graine et phrase mnémotechnique d'Electrum en 2012](assets/en/electrum-seed-mnemonic-2012.webp)
 
-Graine et phrase mnémotechnique d'Electrum en 2012 (source : [archive](https://web.archive.org/web/20120826021721/http://electrum-desktop.com:80/seed.html))
+Graine et phrase mnémotechnique d'Electrum en 2012 (source : [archive](https://web.archive.org/web/20120826021721/http://electrum-desktop.com:80/seed.html) du site d'Electrum)
 
-BitcoinSpinner ([23/11/2011](https://bitcointalk.org/index.php?topic=52674.msg628527#msg628527)), Jan Moller (Jan), utilisation de [BCCAPI](https://en.bitcoin.it/wiki/BCCAPI)
+Le 16 décembre, Electrum [intègre](https://bitcointalk.org/index.php?topic=50936.msg652435#msg652435) la dérivation de type 2, de sorte à ce que les adresses puissent être générées, sans accès à la graine. En octobre 2012, Thomas Voegtlin [ajoute](https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) également la vérification de paiement simplifiée à Electrum, ce qui en fait l'un des meilleurs portefeuilles légers de l'écosystème.
 
 ### Les portefeuilles web
 
 - Stefan Thomas (justmoon), bitcoinjs-lib, mai 2011 : [annonce sur BitcoinTalk, 5/5](https://bitcointalk.org/index.php?topic=7357.msg108003#msg108003), [GitHub](https://github.com/bitcoinjs/bitcoinjs-lib/), [first commit, 4/5](https://github.com/bitcoinjs/bitcoinjs-lib/commit/c0d740d2d4cd35ab18dc35e23936db42f17ad2ee)
 
-- Blockchain.info, Benjamin Reeves (piuk), août 2011 (explorateur de blocs), portefeuille web : https://bitcointalk.org/index.php?topic=40264.msg490783#msg490783 https://web.archive.org/web/20120519163609/https://bitcointalk.org/index.php?topic=40264.0 ; Nicolas Cary, ami d'université d'Erik Voorhees, qui l'a introduit à Bitcoin ; Peter Smith, PDG
+https://github.com/booo/node-bitcoin-p2p création le 27 août 2011 ; premier commit : Stefan Thomas — 12 mars 2011
 
+- Blockchain.info, Benjamin Reeves (piuk), août 2011 (explorateur de blocs), portefeuille web : https://bitcointalk.org/index.php?topic=40264.msg490783#msg490783 https://web.archive.org/web/20120519163609/https://bitcointalk.org/index.php?topic=40264.0 ;
 
-Benjamin Reeves (piuk), explorateur de blocs, [30/8/2011](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) : "I've created a site similar to block explorer with a couple of improvements: Includes orphaned blocks which can be used to track possible double spends; Estimates the actual volume of BTC transacted (not just BTC sent). The site can be found at: http://pi.uk.com/bitcoin"
+Benjamin Reeves (piuk), explorateur de blocs, [30/8/2011](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) : "I've created a site similar to block explorer with a couple of improvements: Includes orphaned blocks which can be used to track possible double spends; Estimates the actual volume of BTC transacted (not just BTC sent). The site can be found at: http://pi.uk.com/bitcoin" Il fait alors concurrence au site de Theymos, Bitcoin Bloc Explorer (BBE), et à [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), une alternative open-source destinée à être hébergée. Le site [devient](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) Blockchain.info en octobre.
 
-[15/10/2011](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) devient blockchain.info
+Le 1er décembre, un portefeuille est [ajouté](http://bitcointalk.org/index.php?topic=40264.msg636996#msg636996). Il est sobrement nommé My Wallet. L'utilisateur se connecte grâce à un identifiant et un mot de passe. Les clés privées sont chiffrées et stockées sur le serveur. L'utilisateur peut bénéficier de la visibilité apportée par l'explorateur de blocs.
 
-portefeuille web : [capture de janv. 2012](https://web.archive.org/web/20120108001717/blockchain.info/wallet)
+![Interface de My Wallet en décembre 2011](assets/en/blockchain-info-dec-2011-bitcointalk.webp)
 
-2012 : https://web.archive.org/web/20120108001717/https://blockchain.info/wallet/
+Interface de My Wallet en décembre 2011 (source : [archive](https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) de Bitcointalk)
+
+[capture de janv. 2012](https://web.archive.org/web/20120108001717/https://blockchain.info/wallet/)
+
+L'aspect pratique du portefeuille le rend très populaire. \[source ?\]
+
+En 2012, Benjamin Reeves réalise une levée de fonds. Ses deux cofondateurs sont Nicolas Cary, ami d'université d'Erik Voorhees, qui l'a introduit à Bitcoin ; et Peter Smith, qui devient PDG. Roger Ver investit dans la société.
 
 ### Les portefeuilles papier
+
+Stockage à froid (cold storage) https://en.bitcoin.it/wiki/Cold_storage
 
 Portefeuilles papier. BitAddress, par Pointbiz, 12 sept. 2011 : https://bitcointalk.org/index.php?topic=43496.msg519916#msg519916 https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0 https://web.archive.org/web/20110922230113/http://www.bitaddress.org/bitaddress.org-v0.6-SHA1-1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e.html 1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN
 
 Blockchain.info ("I printed out a paper wallet with Blockchain.", [9/01/2014](https://bitcointalk.org/index.php?topic=404604.msg4416710#msg4416710))
+
+Portefeuilles mentaux. hachage d'une longue phrase par SHA-256. https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/
+
 
 ### Les bitcoins physiques (Bitbills, Casascius coins)
 
@@ -807,6 +870,10 @@ Paper wallets de Casascius : https://web.archive.org/web/20110831102426/https:/
 
 Mike Caldwell (Casascius), habite dans l'Utah, [Swipeclock](https://www.linkedin.com/company/swipeclock/), Casascius = "call a spade a spade" + cius (nom romain)
 
+![Mike Caldwell en 2013](assets/en/mike-caldwell-casascius-2013-imdb.webp)
+
+Mike Caldwell en 2013 (source : [IMDb](https://www.imdb.com/fr/name/nm5669287/))
+
 « bitcoins de Casascius » ("Casascius coins") [6 sept. 2011](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883)–[27 nov. 2013](https://web.archive.org/web/20131203002016/https://www.casascius.com/)
 
 Objectif d'éducation : expliquer la cryptographie aux gens, Comme il l'[expliquera](https://bitcointalk.org/index.php?topic=41892.msg3727984#msg3727984) en 2013 (26/11) :
@@ -826,10 +893,6 @@ Vente de bitcoin de Casascius dans un distributeur automatique au PorcFest 2012�
 Statistiques : https://casascius.uberbills.com/
 
 De quoi attirer les amateurs de numismatique...
-
-### Les portefeuilles mentaux
-
-brain wallet : https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/
 
 ### Les premiers mélangeurs (confidentialité)
 
@@ -893,7 +956,7 @@ BIP 44 : structure hiérarchique https://github.com/bitcoin/bips/blob/master/b
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-Mycelium, [13/9/2013](https://bitcointalk.org/index.php?topic=293472.msg3143493#msg3143493) ; création du dépôt Github [13/6/2013](https://api.github.com/repos/mycelium-com/wallet-android) ; HD support, [7/10/2014](https://bitcointalk.org/index.php?topic=814907.msg9116818#msg9116818)
+Jan Møller, Mycelium, [13/9/2013](https://bitcointalk.org/index.php?topic=293472.msg3143493#msg3143493) ; création du dépôt Github [13/6/2013](https://api.github.com/repos/mycelium-com/wallet-android) ; HD support, [7/10/2014](https://bitcointalk.org/index.php?topic=814907.msg9116818#msg9116818) ; [screenshots](https://download.cnet.com/mycelium-bitcoin-wallet/3000-2057_4-75959638.html)
 
 ### Premiers portefeuilles matériels
 

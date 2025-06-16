@@ -1,0 +1,9 @@
+question: چه کسی به انتشار وایت پیپر در نوامبر 2008 واکنش مثبت نشان داد؟
+answer: هال فینی
+wrong_answers:
+  - جیمز ای. دونالد
+  - جان آر. لوین
+  - ری دیلینگر
+explanation: |
+  در 7 نوامبر، او به لیست نوشت که Bitcoin [به نظر می‌رسید] ایده‌ای بسیار امیدوارکننده باشد. دیگران بیشتر شکاک بودند. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: false

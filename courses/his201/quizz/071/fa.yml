@@ -1,0 +1,9 @@
+question: چه چیزی باعث خروج ناگهانی Satoshi Nakamoto در دسامبر 2010 شد؟
+answer: انتشار مقاله‌ای که Bitcoin و ویکی‌لیکس را مرتبط می‌کند
+wrong_answers:
+  - پذیرش Bitcoin توسط ویکی‌لیکس
+  - گاوین آندرسن کنترل کد را به دست می‌گیرد
+  - افزایش قیمت واحد Bitcoin
+explanation: |
+  با عنوان آیا رسوایی ویکی‌لیکس می‌تواند به ارز مجازی جدیدی منجر شود؟، این [مقاله](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html) در PC World، یکی از بزرگ‌ترین وب‌سایت‌های آمریکایی اختصاص داده شده به محاسبات، منتشر شد.
+reviewed: false

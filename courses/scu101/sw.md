@@ -44,7 +44,7 @@ Mafunzo haya ni juhudi shirikishi za maprofesa wetu watatu:
 
 - Renaud Lifchitz, mtaalam wa usalama wa mtandao
 - Théo Pantamis, PhD katika hesabu iliyotumika
-- Rogzy, Mkurugenzi Mtendaji wa DécouvreBitcoin
+- Rogzy, Mwenyekiti wa Plan ₿ Network
 
 Usafi wako wa kidijitali ni muhimu katika ulimwengu unaozidi kuwa wa kidijitali. Licha ya kuongezeka kwa mara kwa mara kwa utapeli na ufuatiliaji wa watu wengi, sio kuchelewa sana kuchukua hatua ya kwanza na kujilinda.
 
@@ -515,7 +515,7 @@ Kwa kufahamu ujuzi na zana hizi, utakuwa na vifaa vya kutosha vya kuvinjari ulim
 
 ### Udhibiti Bora wa Nenosiri na Uimarishaji wa Uthibitishaji: Mbinu ya Kiakademia
 
-Katika moduli ya mafunzo "Usalama 101" inayotolewa na Découvre Bitcoin ndani ya Chuo, tulijadili umuhimu wa wasimamizi wa nenosiri. Vipimo vitatu ni muhimu kuzingatia: kuunda, kusasisha, na utekelezaji wa manenosiri kwenye tovuti.
+Kuna vipengele vitatu muhimu vya kuzingatia unapozungumzia wasimamizi wa nywila: kuunda, kusasisha, na utekelezaji wa manenosiri kwenye tovuti.
 
 Kwa ujumla haipendekezi kutumia viendelezi vya kivinjari kwa kujaza nenosiri moja kwa moja. Zana hizi zinaweza kumfanya mtumiaji kuwa katika hatari zaidi ya mashambulizi ya hadaa. Renaud, mtaalam anayetambulika katika usalama wa mtandao, anapendelea usimamizi wa mwongozo kwa kutumia KeePass, ambayo inahusisha kunakili na kubandika nenosiri mwenyewe. Viendelezi vinaelekea kuongeza uso wa mashambulizi, vinaweza kupunguza kasi ya utendakazi wa kivinjari, na kwa hiyo kuwasilisha hatari kubwa. Kwa hivyo, utumiaji mdogo wa viendelezi kwenye kivinjari ni mazoezi yaliyopendekezwa.
 
@@ -541,9 +541,9 @@ Usalama wa kompyuta unaweza kuathiriwa na mazoea rahisi na utumiaji wa nenosiri 
 
 Inapaswa pia kuzingatiwa kuwa mtandao ni wa kati na kwa kiasi kikubwa chini ya udhibiti wa Marekani. Seva ya DNS inaweza kuwa chini ya udhibiti na mara nyingi hutumia DNS danganyifu kuzuia ufikiaji wa tovuti fulani. DNS ni itifaki ya zamani na isiyo na usalama wa kutosha, ambayo inaweza kusababisha masuala ya usalama. Itifaki mpya, kama vile DNSsec, zimeibuka lakini bado hazitumiki sana. Ili kuepuka udhibiti na kuzuia matangazo, inawezekana kuchagua watoa huduma mbadala wa DNS.'
 
-Njia mbadala za matangazo yanayoingiliana ni pamoja na Google DNS, OpenDNS, na huduma zingine huru. Itifaki ya kawaida ya DNS huacha hoja za DNS zionekane kwa mtoa huduma wa intaneti. DOH (DNS juu ya HTTPS) na DOT (DNS juu ya TLS) husimba muunganisho wa DNS kwa njia fiche, hivyo kutoa faragha na usalama zaidi. Itifaki hizi hutumika sana katika makampuni ya biashara kwa sababu ya usalama wao ulioimarishwa na zinaungwa mkono na Windows, Android na iPhone. Ili kutumia DOH na DOT, jina la mpangishi wa TLS lazima liandikwe badala ya IP Address. Watoa huduma za DOH na DOT bila malipo wanapatikana mtandaoni. DOH na DOT huboresha faragha na usalama kwa kuepuka mashambulizi ya "mtu katikati". Mawazo mengine muhimu
+Njia mbadala za matangazo yanayoingiliana ni pamoja na Google DNS, OpenDNS, na huduma zingine huru. Itifaki ya kawaida ya DNS huacha hoja za DNS zionekane kwa mtoa huduma wa intaneti. DOH (DNS juu ya HTTPS) na DOT (DNS juu ya TLS) husimba muunganisho wa DNS kwa njia fiche, hivyo kutoa faragha na usalama zaidi. Itifaki hizi hutumika sana katika makampuni ya biashara kwa sababu ya usalama wao ulioimarishwa na zinaungwa mkono na Windows, Android na iPhone. Ili kutumia DOH na DOT, jina la mpangishi wa TLS lazima liandikwe badala ya IP Address. Watoa huduma za DOH na DOT bila malipo wanapatikana mtandaoni. DOH na DOT huboresha faragha na usalama kwa kuepuka mashambulizi ya "mtu katikati".
 
-Kama sehemu ya moduli ya mafunzo ya "Security 101" kwenye Découvre Bitcoin Academy, tulijadili pia uthibitishaji wa Umeme. Mfumo huu hutoa kitambulisho tofauti kwa kila huduma, bila hitaji la kutoa barua pepe ya Address au maelezo ya kibinafsi. Kuna uwezekano wa kuwa na vitambulisho vilivyogatuliwa vinavyodhibitiwa na mtumiaji, lakini kuna ukosefu wa kusanifisha na kuhalalisha katika miradi ya utambulisho iliyogatuliwa. Wasimamizi wa vifurushi kama vile Nuget na Chocolaté, zinazoruhusu kupakua programu huria nje ya Duka la Microsoft, wanapendekezwa ili kuepuka mashambulizi mabaya. Kwa muhtasari, DNS ni muhimu kwa usalama wa mtandaoni, lakini ni muhimu kuwa macho dhidi ya mashambulizi yanayoweza kutokea kwenye seva za DNS.
+Pia inafaa kutaja mfumo unaoitwa "Lightning authentication". Mfumo huu hutoa kitambulisho tofauti kwa kila huduma, bila hitaji la kutoa barua pepe ya Address au maelezo ya kibinafsi. Kuna uwezekano wa kuwa na vitambulisho vilivyogatuliwa vinavyodhibitiwa na mtumiaji, lakini kuna ukosefu wa kusanifisha na kuhalalisha katika miradi ya utambulisho iliyogatuliwa. Wasimamizi wa vifurushi kama vile Nuget na Chocolaté, zinazoruhusu kupakua programu huria nje ya Duka la Microsoft, wanapendekezwa ili kuepuka mashambulizi mabaya. Kwa muhtasari, DNS ni muhimu kwa usalama wa mtandaoni, lakini ni muhimu kuwa macho dhidi ya mashambulizi yanayoweza kutokea kwenye seva za DNS.
 
 # Hitimisho
 

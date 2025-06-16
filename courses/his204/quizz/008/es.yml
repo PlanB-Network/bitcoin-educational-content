@@ -1,0 +1,8 @@
+question: ¿Qué tipo de impuesto defendía Vauban en sus escritos?
+answer: Impuesto proporcional todos deben aportar el mismo porcentaje de sus ingresos al Estado
+wrong_answers:
+  - Fiscalidad progresiva el tipo impositivo para los ricos debe ser superior al de los pobres
+  - El impuesto a tanto alzado: independientemente de tus ingresos, pagas la misma cantidad cada año al Estado
+  - Fiscalidad regresiva Los tipos impositivos para los pobres deben ser superiores a los de los ricos
+explanation: |
+  Vauban abogó por un impuesto proporcional, el "diezmo real", que consistía en recaudar la décima parte (10%) de los ingresos de todos los franceses, independientemente de su condición social. Creía que este impuesto sería más justo y eficaz que el sistema fiscal existente.

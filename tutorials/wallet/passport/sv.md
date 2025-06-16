@@ -1,5 +1,5 @@
 ---
-name: Pass - Stiftelse
+name: Passport Core
 description: Konfigurera och använda Passport Hardware Wallet i manuellt läge
 ---
 ![cover](assets/cover.webp)
@@ -10,6 +10,7 @@ Passport är en Hardware Wallet med endast Bitcoin, designad av Foundation Devic
 
 Passport "*Batch 2*" som presenteras i denna handledning är efterföljaren till "*Founder's Edition*". Den sticker ut med sin premiumdesign, högupplösta färgskärm och ergonomiska fysiska tangentbord. Den fungerar i "*Air-Gap*"-läge, vilket säkerställer att din Wallet:s privata nycklar förblir helt isolerade, med kommunikation möjlig via ett MicroSD-kort eller QR-koder. Enheten är utrustad med ett löstagbart, uppladdningsbart Nokia BL-5C-batteri med en kapacitet på 1200 mAh. Detta icke-proprietära batteri kan enkelt bytas ut, eftersom BL-5C-modellen är allmänt tillgänglig i butikerna.
 
+💡 **Uppdatering:** Sedan mars 2025 heter denna hårdvaruplånbok inte längre "Passport" eller "Passport V2", utan "Passport Core".
 
 När det gäller anslutningsmöjligheter är Passport utrustad med en MicroSD-port, en USB-C-port för laddning och en bakre kamera för att skanna QR-koder.
 

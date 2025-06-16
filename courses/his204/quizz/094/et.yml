@@ -1,0 +1,8 @@
+question: Miks Condorcet'i sõnul hirmutab vabadus inimesi?
+answer: Sest ta on liiga harjunud laskma valitsusel sekkuda kõikidesse asjadesse
+wrong_answers:
+  - Kuna seda ei ole Prantsusmaal kunagi proovitud
+  - Sest see nõuab vägivaldset revolutsiooni
+  - Sest see on kaose sünonüüm
+explanation: |
+  Condorcet uskus, et inimesed on harjunud riigi sekkumisega ja kardavad vabadust, sest nad ei oska seda kasutada.

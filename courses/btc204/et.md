@@ -2060,7 +2060,7 @@ Whirlpooli kaudu coinjoini loomiseks peab rahakott looma mitu eraldi kontot. See
 
 ![BTC204](assets/fr/143.webp)
 
-HD rahakott võib teoreetiliselt tuletada kuni `2^(32/2)` erinevaid kontosid. Algne konto, mida kasutatakse vaikimisi kõigis Bitcoini rahakottides, vastab `0'`indeksile.
+HD rahakott võib teoreetiliselt tuletada kuni `2^(31)` erinevaid kontosid. Algne konto, mida kasutatakse vaikimisi kõigis Bitcoini rahakottides, vastab `0'`indeksile.
 
 Whirlpoolile kohandatud portfellide puhul kasutatakse 4 kontot, et vastata ZeroLink protsessi vajadustele:
 
@@ -2525,8 +2525,7 @@ Siiski oleks huvitav, kui tehingustruktuurid võimaldaksid makseid teha praktili
 
 Payjoin on konkreetne Bitcoini tehingustruktuur, mis suurendab kasutaja privaatsust kulutuste tegemisel, tehes koostööd makse saajaga.
 
-LaurentMT nimetas seda meetodit esimest korda "*steganograafilisteks tehinguteks*" 2015. aastal, vastavalt dokumendile, mis on kättesaadav [siin](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt). Hiljem võttis selle tehnika kasutusele Samourai Wallet, mis 2018. aastal sai esimeseks kliendiks, kes rakendas seda Stowaway tööriistaga. Payjoini kontseptsiooniga saab tutvuda ka [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) ja [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki). Payjoini tähistamiseks kasutatakse mitmeid termineid:
-
+2015.aastal käsitles LaurentMT esmakordselt seda meetodit nimetuse "*steganographic transactions*" all, nagu on näha [siin](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt) olevas dokumendis. Selle tehnika võttis hiljem kasutusele Samourai Wallet, mis 2018. aastal oli esimene klient, kes selle rakendas tööriista Stowaway abil. Payjoin’i kontseptsiooni võib leida ka [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki) ja [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/) kirjeldustes. Payjoin’i tähistamiseks kasutatakse mitmeid termineid:
 
 - Payjoin ;
 - Stowaway;

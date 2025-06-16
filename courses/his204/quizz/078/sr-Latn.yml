@@ -1,0 +1,8 @@
+question: Koji je Turgotov argument u delu Valeurs et monnaie?
+answer: Vrednost stvari zavisi od subjektivnog vrednovanja ljudi.
+wrong_answers:
+  - Vrednost stvari zavisi od njihovih intrinzičnih kvaliteta
+  - Vrednost stvari možemo meriti samo novcem
+  - Vrednost se određuje radom
+explanation: |
+  Turgot brani subjektivnu teoriju vrednosti, prema kojoj vrednost dobra zavisi od korisnosti koju pruža pojedincu i njegove lične procene.

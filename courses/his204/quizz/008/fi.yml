@@ -1,0 +1,8 @@
+question: Minkälaista veroa Vauban kannatti kirjoituksissaan?
+answer: Suhteellinen vero Kaikkien on maksettava sama prosenttiosuus tuloistaan valtiolle
+wrong_answers:
+  - Progressiivinen verotus rikkaiden veroasteen on oltava korkeampi kuin köyhien
+  - Kiinteä vero, jossa maksat tuloistasi riippumatta vuosittain saman summan valtiolle
+  - Regressiivinen verotus Köyhien verokantojen on oltava korkeammat kuin rikkaiden verokantojen
+explanation: |
+  Vauban kannatti suhteellista veroa, "kuninkaallista kymmenystä", jonka tarkoituksena oli periä kymmenesosa (10 %) kaikkien ranskalaisten tuloista heidän sosiaalisesta asemastaan riippumatta. Hän uskoi, että tämä vero olisi oikeudenmukaisempi ja tehokkaampi kuin nykyinen verojärjestelmä.

@@ -5,5 +5,5 @@ wrong_answers:
   - Mancanza di aggregazione
   - Dimensione eccessiva delle firme
 explanation: |
-  SegWit ha corretto la malleabilità delle firme ECDSA, consentendo utilizzi come la Lightning Network.
+  SegWit ha corretto la malleabilità delle firme ECDSA, aprendo la strada a implementazioni come Lightning Network.
 reviewed: false

@@ -315,6 +315,7 @@ rpcpassword=my_password
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 
@@ -325,6 +326,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 將 Mnemonic 和任何 passphrase 儲存到實體媒體後，按一下「*確認備份*」。
 
 
@@ -551,6 +553,7 @@ Sparrow 會顯示一個摘要圖表，顯示您的輸入、輸出和交易費用
 
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 在下一個畫面中，選項會依您使用的 Wallet 類型而有所不同：
 
 

@@ -1,0 +1,9 @@
+question: چه نوع کلیدی با پیشوند zpub مرتبط است؟
+answer: یک کلید عمومی توسعه‌یافته برای SegWit V0 بر روی Mainnet
+wrong_answers:
+  - یک کلید خصوصی توسعه‌یافته برای SegWit V1 بر روی Mainnet
+  - یک کلید عمومی توسعه‌یافته برای Legacy بر روی Testnet
+  - کلید عمومی توسعه‌یافته برای SegWit V2 بر روی Testnet
+explanation: |
+  پیشوند zpub نشان‌دهنده یک کلید عمومی توسعه‌یافته برای اسکریپت‌های SegWit V0 بر روی Mainnet است.
+reviewed: false

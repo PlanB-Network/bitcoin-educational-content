@@ -27,6 +27,7 @@ Gå til [den offisielle nedlastingssiden for Sparrow Wallet] (https://sparrowwal
 Det er viktig å kontrollere programvarens integritet og autentisitet før du installerer den. Hvis du ikke vet hvordan du gjør dette, finner du en fullstendig veiledning her :
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Når Sparrow er installert, kan du hoppe over de innledende forklaringsskjermene og gå rett til skjermbildet for tilkoblingsadministrasjon.
 
 ![Image](assets/fr/02.webp)
@@ -69,7 +70,9 @@ Vær oppmerksom på at hvis du bruker en beskåret Bitcoin Core-node, vil du ikk
 For å konfigurere en Bitcoin Core-node kan du se en av følgende veiledninger, avhengig av operativsystemet ditt:
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+
 Gå til fanen "*Bitcoin Core*" på Sparrow.
 
 ![Image](assets/fr/07.webp)
@@ -218,6 +221,7 @@ Du kan gravere den på papir eller, for ekstra sikkerhet, gravere den på rustfr
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer Mnemonic frasen din, anbefaler jeg på det sterkeste å følge denne andre veiledningen, spesielt hvis du er nybegynner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 **Du må selvsagt aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Dette eksemplet Wallet vil kun bli brukt på Testnet og vil bli slettet ved slutten av veiledningen.**
@@ -225,6 +229,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Du kan også velge å legge til en passphrase BIP39 ved å klikke på "*Bruk passphrase*"-boksen. Advarsel: Det kan være svært nyttig å bruke en passphrase, men hvis du ikke forstår hvordan den fungerer, kan det være svært risikabelt. Derfor anbefaler jeg deg på det sterkeste å lese denne korte teoretiske artikkelen om emnet:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Når du har lagret Mnemonic og eventuelle passphrase på et fysisk medium, klikker du på "*Bekreft sikkerhetskopiering*".
 
 ![Image](assets/fr/27.webp)
@@ -376,6 +381,7 @@ Dette tar deg til en side med detaljer om Elements for transaksjonen din. Kontro
 Det er viktig å beholde standard Sighash. For å forstå hvorfor, kan du ta en titt på dette kurset, der jeg forklarer alt du trenger å vite om Sighash:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 På det neste skjermbildet varierer alternativene avhengig av hvilken type Wallet du bruker:
 
 

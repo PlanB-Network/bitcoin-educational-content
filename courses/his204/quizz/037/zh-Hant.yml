@@ -1,0 +1,8 @@
+question: 這些作家中，哪位不屬於 Gournay 圈子？
+answer: 杜邦
+wrong_answers:
+  - Véron de Forbonnais
+  - 圖爾戈
+  - 亞當-斯密
+explanation: |
+  Dupont de Nemours 是一位理論家，而不是 Gournay 圈子的成員。理論派的思想與古內圈子的思想接近，但他們形成了一個獨特的團體。

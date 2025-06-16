@@ -1,0 +1,8 @@
+question: Który z tych autorów nie należy do kręgu Gournay?
+answer: Dupont de Nemours
+wrong_answers:
+  - Véron de Forbonnais
+  - Turgot
+  - Adam Smith
+explanation: |
+  Dupont de Nemours był fizjokratą, a nie członkiem kręgu Gournaya. Fizjokraci mieli idee zbliżone do tych z kręgu Gournaya, ale tworzyli odrębną grupę.

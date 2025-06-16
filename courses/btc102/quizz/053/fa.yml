@@ -1,0 +1,9 @@
+question: کدام سرویس فهرستی از بازرگانانی که Bitcoin را در سراسر جهان می‌پذیرند ارائه می‌دهد؟
+answer: نقشه BTC
+wrong_answers:
+  - کوین‌مارکت‌کپ
+  - Bitcoin صحبت کنید
+  - سوئیس Bitcoin Pay
+explanation: |
+  BTC Map یک پلتفرم اختصاصی است که مکان‌های پذیرنده Bitcoin را در سراسر جهان شناسایی می‌کند.
+reviewed: false

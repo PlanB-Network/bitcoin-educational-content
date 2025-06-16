@@ -1,0 +1,9 @@
+question: چه کسی اولین بار Mining را با واحد پردازش گرافیکی (GPU) در سال 2010 پیاده‌سازی کرد؟
+answer: لاسلو هانیچز
+wrong_answers:
+  - سیگارکشیدن‌زیاد
+  - آرت‌فورز
+  - نیلز اشنایدر
+explanation: |
+  در آوریل ۲۰۱۰، او از محیط OpenCL برای درگیر کردن GPU در Bitcoin Mining استفاده کرد. در ۱۰ مه، او [اجرای خود](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100) را در انجمن منتشر کرد.
+reviewed: false

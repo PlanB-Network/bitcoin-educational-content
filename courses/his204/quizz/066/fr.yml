@@ -1,0 +1,8 @@
+question: Dans quel domaine l’entreprise Dupont de Nemours et Cie, fondée par le fils de l’économiste français, opère-t-elle ?
+answer: Chimie et biologie
+wrong_answers:
+  - Banque et assurance
+  - Textile
+  - Agroalimentaire
+explanation: |
+  Dupont de Nemours est une entreprise de chimie et de biologie, fondée par le fils de l'économiste Pierre-Samuel Dupont de Nemours.

@@ -1,9 +1,9 @@
 question: Šta utiče na težinu Bitcoin transakcije?
 answer: Broj ulaza i izlaza.
 wrong_answers:
-  - Veličina Blockchain.
+  - Veličina blokčejna.
   - Količina ulaza i izlaza.
   - Starost korišćenih UTXO-a.
 explanation: |
-  Što više ulaza i izlaza ima Bitcoin transakcija, to će biti teža u vB.
+  Što više ulaza i izlaza ima Bitcoin transakcija, to će biti teža u vB (virtual bajtovima).
 reviewed: false

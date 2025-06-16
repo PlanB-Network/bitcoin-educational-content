@@ -48,20 +48,22 @@ proofreading:
     contributor_names:
     reward: 3.6
   - language: ja
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 7.09
+      - yutaro21jp
+    reward: 3.55
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 3.6
   - language: ru
-    last_contribution_date:
+    last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
-    reward: 4.76
+      - Reshetenko
+    reward: 2.38
   - language: vi
     last_contribution_date:
     urgency: 1

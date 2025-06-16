@@ -1,0 +1,9 @@
+question: چه کسی پلتفرم Mt. Gox Exchange را در 18 ژوئیه 2010، یک هفته پس از رویداد بزرگ slashdotting Bitcoin ایجاد کرد؟
+answer: جد مک‌کالب
+wrong_answers:
+  - مارک کارپلس
+  - مارتتی مالمی
+  - گوین آندرسن
+explanation: |
+  او این بازار کارآمد را به صورت ناگهانی ایجاد کرد، وقتی متوجه شد که چقدر سخت است Bitcoin را در Exchange با دلار به دست آورد (به ویژه در بازار Bitcoin).
+reviewed: false

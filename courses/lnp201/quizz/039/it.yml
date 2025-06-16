@@ -6,3 +6,4 @@ wrong_answers:
   - Il canale non può essere chiuso fino alla scadenza dell'HTLC.
 explanation: |
   Durante una chiusura forzata, gli HTLC in sospeso sono rappresentati come output nelle transazioni di impegno, garantendo così la loro esecuzione o restituzione secondo le condizioni definite.
+reviewed: false

@@ -1,0 +1,9 @@
+question: نقش اصلی Bitcoin Address در یک تراکنش چیست؟
+answer: قفل کردن UTXOها در scriptPubKey
+wrong_answers:
+  - باز کردن UTXOها در scriptSig
+  - پایان تراکنش را اعلام کنید
+  - بلوک تأیید را شناسایی کنید
+explanation: |
+  یک Bitcoin Address در scriptPubKey جاسازی شده است تا UTXOها را قفل کند. این شرایط لازم برای باز کردن قفل وجوه را تعیین می‌کند.
+reviewed: false

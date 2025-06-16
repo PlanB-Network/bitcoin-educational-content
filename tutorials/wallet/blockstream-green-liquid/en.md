@@ -16,7 +16,7 @@ Today, the best-known sidechain is probably Liquid. In this tutorial, I'll first
 
 ## What is Liquid Network?
 
-Liquid is a federated sidechain overlay for Bitcoin, developed by Blockstream to improve transaction speed, confidentiality and functionality. It uses a bilateral anchoring mechanism established on a federation to lock bitcoins on the main chain and create Liquid-bitcoins (L-BTC) in return, tokens circulating on Liquid while remaining backed by the original bitcoins.
+Liquid is a federated sidechain overlay for Bitcoin, developed by Blockstream to improve transaction speed, privacy and functionality. It uses a bilateral anchoring mechanism established on a federation to lock bitcoins on the main chain and create Liquid-bitcoins (L-BTC) in return, tokens circulating on Liquid while remaining backed by the original bitcoins.
 
 ![LIQUID GREEN](assets/fr/02.webp)
 

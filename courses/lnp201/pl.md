@@ -2,7 +2,6 @@
 name: Teoretyczne wprowadzenie do Lightning Network
 goal: Odkryj Lightning Network z technicznego punktu widzenia
 objectives: 
-
   - Zrozumienie działania kanałów sieciowych.
   - Zapoznaj się z terminami HTLC, LNURL i UTXO.
   - Asymilacja zarządzania płynnością i opłat LNN.

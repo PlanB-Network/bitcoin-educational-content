@@ -1,9 +1,0 @@
-question: Koja je svrha sporog akumuliranja bitkoina?
-answer: Da pustite svojoj investicionoj strategiji da se razvija tokom vremena.
-wrong_answers:
-  - Da se iskopaju novi Bitcoini.
-  - Da trgujete Bitcoinima.
-  - Da konvertujete Bitcoine u druge kriptovalute.
-explanation: |
-  Postepeno akumuliranje bitkoina je strategija koja omogućava da se vaša investicija razvija tokom vremena. Ne koristi se za Mining nove bitkoine, trgovanje bitkoinima ili konvertovanje bitkoina u druge kriptovalute.
-reviewed: false

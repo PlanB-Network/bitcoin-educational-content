@@ -1,5 +1,5 @@
 ---
-name: Hộ chiếu - Nền tảng
+name: Passport Core
 description: Cấu hình và sử dụng ví phần cứng Passport ở chế độ thủ công
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Cấu hình và sử dụng ví phần cứng Passport ở chế đ
 Passport là ví phần cứng chỉ dành cho Bitcoin, được thiết kế bởi Foundation Devices, một công ty Mỹ được thành lập vào tháng 4 năm 2020 tại Boston.
 
 Passport "*Batch 2*" được giới thiệu trong hướng dẫn này là phiên bản kế nhiệm của "*Founder's Edition*". Nó nổi bật với thiết kế cao cấp, màn hình màu độ phân giải cao và bàn phím vật lý tiện dụng. Thiết bị hoạt động ở chế độ "*Air-Gap*", đảm bảo rằng khóa riêng tư của ví của bạn luôn được cách ly hoàn toàn, với việc trao đổi dữ liệu thông qua thẻ MicroSD hoặc mã QR. Thiết bị được trang bị pin sạc có thể tháo rời Nokia BL-5C dung lượng 1200 mAh. Pin này không độc quyền và có thể dễ dàng thay thế vì mẫu BL-5C có sẵn rộng rãi trên thị trường.
+
+💡 **Cập nhật:** Kể từ tháng 3 năm 2025, tên của ví phần cứng này không còn là "Passport" hay "Passport V2", mà là "Passport Core".
 
 Về khả năng kết nối, Passport được trang bị cổng MicroSD, cổng USB-C để sạc và camera sau để quét mã QR.
 
@@ -483,3 +485,4 @@ Xin chúc mừng, giờ bạn đã biết cách cấu hình và sử dụng Pass
 Để biết thêm thông tin, hãy xem hướng dẫn của chúng tôi về phần mềm Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

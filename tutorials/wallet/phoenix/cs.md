@@ -115,7 +115,7 @@ Klikněte na tlačítko "*Přijmout*".
 
 ![Image](assets/fr/18.webp)
 
-Přejetím QR kódu doprava se zobrazí adresa pro příjem bitcoinů. Pošlete na ni částku, kterou si přejete vložit do Phoenixu.
+Přejeďte QR kódem doleva a zobrazí se příjmová Bitcoinová adresa. Odešlete na ni částku, kterou si přejete vložit do peněženky Phoenix.
 
 ![Image](assets/fr/19.webp)
 

@@ -1,0 +1,9 @@
+question: بیت‌کوین‌تاک چیست؟
+answer: محلی برای بحث کاربران Bitcoin.
+wrong_answers:
+  - یک نرم‌افزار Bitcoin Mining.
+  - A Bitcoin Wallet.
+  - یک کنفرانس Bitcoin.
+explanation: |
+  انجمن BitcoinTalk مکانی برای بحث کاربران Bitcoin است. این انجمن توسط Satoshi ناکاموتو در 22 نوامبر 2009 ایجاد شد.
+reviewed: true

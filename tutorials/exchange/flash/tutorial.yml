@@ -11,11 +11,10 @@ tags:
 # Proofreading metadata
 
 original_language: fr
-proofreading: 
-- language: fr
-  last_contribution_date: 2025-05-03
-  urgency: 1
-  contributors_names: 
-    - heyolaniran
-  reward: 0
-
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-03
+    urgency: 1
+    contributors_names:
+      - heyolaniran
+    reward: 0

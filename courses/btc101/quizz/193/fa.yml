@@ -1,0 +1,8 @@
+question: یکی از ابتکاراتی که به دسترسی و راحتی بیشتر اقتصاد Bitcoin برای همه کمک می‌کند چیست؟
+answer: BTCMap.
+wrong_answers:
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
+explanation: >-
+reviewed: true

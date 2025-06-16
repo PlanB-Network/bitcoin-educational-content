@@ -1,0 +1,25 @@
+id: 16909a39-2484-408e-a118-4e34e249bb9a
+
+project_id: 0f162a42-9536-4229-88b6-ccda6a176e4d
+
+tags:
+  - lightning
+  - guides
+  - DIY
+
+category: lightning-network
+
+level: intermediate
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-05-20
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 0

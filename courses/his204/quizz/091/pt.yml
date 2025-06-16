@@ -1,0 +1,8 @@
+question: Que condenado famoso defendeu Condorcet?
+answer: O cavaleiro da Barre
+wrong_answers:
+  - Jean Calas
+  - Louis Mandrin
+  - O Conde de Lally
+explanation: |
+  Condorcet defendeu o Chevalier de la Barre, um jovem condenado à morte por blasfémia.

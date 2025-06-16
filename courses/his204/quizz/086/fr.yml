@@ -1,0 +1,8 @@
+question: Quelle idée a-t-on appelé le sophisme de Montaigne ?
+answer: L’échange est un jeu à somme nulle
+wrong_answers:
+  - L’échange est un jeu à somme positive
+  - Selon les temps et les lieux, l’échange est tantôt un jeu à somme nulle, tantôt un jeu à somme positive
+  - L'échange est toujours défavorable au plus faible
+explanation: |
+  Le sophisme de Montaigne est l'idée que l'échange est un jeu à somme nulle, c'est-à-dire que ce que l'un gagne, l'autre le perd. Cette idée est fausse, car l'échange volontaire est mutuellement bénéfique.

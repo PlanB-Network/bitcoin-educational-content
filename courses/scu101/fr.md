@@ -42,7 +42,7 @@ Cette formation est un effort commun de trois de nos professeurs :
 
 - Renaud Lifchitz, expert en cybersécurité
 - Théo Pantamis, docteur en mathématique appliquée
-- Rogzy, PDG de DécouvreBitcoin
+- Rogzy, Co-fondateur du Plan ₿ Network
 
 Votre hygiène numérique est cruciale dans un monde de plus en plus numérique. Malgré une constante augmentation du nombre de piratages informatiques et de la surveillance de masse, il n'est pas trop tard pour faire le premier pas et se protéger.
 
@@ -529,7 +529,7 @@ En maîtrisant ces compétences et outils, vous serez bien équipé pour navigue
 
 ### Gestion efficace des mots de passe et renforcement de l'authentification: une approche académique
 
-Dans le module de formation "Sécurité 101" proposé par Découvre Bitcoin au sein de l'Académie, nous avons abordé l'importance des gestionnaires de mots de passe. Trois dimensions sont essentielles à considérer : la création, l'actualisation et l'implémentation des mots de passe sur les sites web.
+Il y a trois dimensions clés à considérer lorsque l'on parle des gestionnaires de mots de passe : la création, l'actualisation et l'implémentation des mots de passe sur les sites web.
 
 Il est généralement déconseillé de recourir à des extensions de navigateur pour le remplissage automatique des mots de passe. Ces outils sont susceptibles de rendre l'utilisateur plus vulnérable face aux attaques de type phishing. Renaud, expert reconnu en cybersécurité, privilégie une gestion manuelle via KeePass, ce qui implique un copier-coller manuel du mot de passe. Les extensions tendent à augmenter la surface d'attaque, peuvent ralentir les performances du navigateur et présentent par conséquent un risque non négligeable. Ainsi, l'usage minimal d'extensions sur le navigateur est une pratique recommandée.
 
@@ -556,7 +556,7 @@ Il est également à noter que l'Internet est très centralisé et largement sou
 Des alternatives aux publicités intrusives incluent Google DNS, OpenDNS et d'autres services indépendants. Le protocole DNS standard laisse les requêtes DNS visibles pour le fournisseur d'accès à Internet. DOH (DNS over HTTPS) et DOT (DNS over TLS) permettent de chiffrer la connexion DNS, offrant une plus grande confidentialité et sécurité. Ces protocoles sont largement utilisés en entreprise en raison de leur sécurité renforcée et sont nativement supportés par Windows, Android et iPhone. Pour utiliser DOH et DOT, un nom d'hôte TLS doit être saisi à la place d'une adresse IP. Les fournisseurs gratuits de DOH et DOT sont disponibles en ligne. DOH et DOT améliorent la confidentialité et la sécurité en évitant les attaques de type "man in the middle".
 Autres considérations clés
 
-Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l'Académie, nous avons également discuté de l'authentification Lightning. Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.
+Il convient également de mentionner le système appelé "l'authentification Lightning". Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.
 
 # Section finale
 

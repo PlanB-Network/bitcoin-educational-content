@@ -1,0 +1,9 @@
+question: اگر Bob یک Invoice را به Alice برای 30,000 ساتوشی ارسال کند، چه اتفاقی می‌افتد؟
+answer: Alice یک Commitment Transaction ایجاد می‌کند تا 30,000 ساتوشی به Bob در کانال منتقل کند.
+wrong_answers:
+  - Alice باید یک کانال جدید برای انجام این انتقال باز کند.
+  - Bob به‌طور خودکار 30,000 ساتوشی را در Wallet خود دریافت می‌کند.
+  - Invoice از طریق یک تراکنش On-Chain در Bitcoin پرداخت می‌شود.
+explanation: |
+  وقتی Bob یک Invoice به Alice ارسال می‌کند، او یک Commitment Transaction جدید ایجاد و امضا می‌کند تا توزیع وجوه را تنظیم کند و بدین ترتیب 30,000 ساتوشی در کانال منتقل می‌شود.
+reviewed: false

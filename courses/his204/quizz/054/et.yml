@@ -1,0 +1,8 @@
+question: Milline neist autoritest ei kritiseerinud füsiokraate?
+answer: Condorcet
+wrong_answers:
+  - Voltaire
+  - Condillac
+  - Adam Smith
+explanation: |
+  Condorcet suhtus füsiokraatide ideedesse üsna mõistvalt ja tegi nendega teatud projektides isegi koostööd.

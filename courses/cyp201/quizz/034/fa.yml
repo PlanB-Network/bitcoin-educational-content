@@ -1,0 +1,9 @@
+question: کدام پرچم sighash بیشتر در تراکنش‌های Bitcoin استفاده می‌شود؟
+answer: SIGHASH_ALL
+wrong_answers:
+  - SIGHASH_NONE
+  - SIGHASH_SINGLE
+  - SIGHASH_ANYONECANPAY
+explanation: |
+  SIGHASH_ALL پرچم پیش‌فرض sighash است که تمامی ورودی‌ها و خروجی‌های یک تراکنش را پوشش می‌دهد و از هرگونه تغییر جلوگیری می‌کند.
+reviewed: false

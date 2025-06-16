@@ -1,0 +1,8 @@
+question: Mida ei leia L'Ami des hommes'ist?
+answer: Töötlev tööstus hääbub, kuna põllumajandus võtab tootmisest üle
+wrong_answers:
+  - Rahvastel on harmoonilised huvid
+  - Kaubandus peaks olema vaba kõigi rahvaste vahel
+  - Vajadus tugeva tsentraliseeritud valitsuse järele
+explanation: |
+  L'Ami des Hommes keskendub põllumajandusele ja ei kritiseeri tootmise hooletusse jätmist. Vastupidi, ta peab põllumajandust ainukeseks tegeliku jõukuse allikaks.

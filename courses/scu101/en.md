@@ -40,7 +40,7 @@ This training is a collaborative effort of three of our professors:
 
 - Renaud Lifchitz, cybersecurity expert
 - Théo Pantamis, PhD in applied mathematics
-- Rogzy, CEO of DécouvreBitcoin
+- Rogzy, Co-founder of Plan ₿ Network
 
 Your digital hygiene is crucial in an increasingly digital world. Despite the constant increase in hacking and mass surveillance, it is not too late to take the first step and protect yourself.
 In this training, we are not trying to make you an expert, anonymous, or invulnerable, as this is impossible. Instead, we offer you some simple and accessible solutions for everyone to start transforming your online habits and regain control of your digital sovereignty.
@@ -493,7 +493,7 @@ By mastering these skills and tools, you will be well-equipped to navigate the w
 
 ### Efficient Password Management and Authentication Strengthening: An Academic Approach
 
-In the training module "Security 101" offered by Découvre Bitcoin within the Academy, we discussed the importance of password managers. Three key dimensions to consider are the creation, updating, and implementation of passwords on websites.
+Three are key dimensions to consider when talking about password managers: the creation, updating, and implementation of passwords on websites.
 
 It is generally not recommended to use browser extensions for automatic password filling. These tools can make the user more vulnerable to phishing attacks. Renaud, a recognized expert in cybersecurity, prefers manual management using KeePass, which involves manually copying and pasting passwords into the application. Extensions tend to increase the attack surface, can slow down browser performance, and therefore present a significant risk. Thus, minimising the use of extensions on the browser is a recommended practice.
 
@@ -517,9 +517,9 @@ Computer security can be compromised by simple practices and the use of default 
 
 It is also worth noting that the Internet is highly centralized and largely under American control. The DNS server can be subject to censorship and often employs deceptive DNS to block access to certain sites. DNS is an outdated and insecure protocol that can lead to security issues. New protocols, such as DNSsec, have emerged but are still not widely used. To bypass censorship and ad blocking, it is possible to choose alternative DNS providers.'
 
-Alternatives to intrusive advertisements include Google DNS, OpenDNS, and other independent services. The standard DNS protocol leaves DNS queries visible to the Internet service provider. DOH (DNS over HTTPS) and DOT (DNS over TLS) encrypt the DNS connection, providing greater privacy and security. These protocols are widely used in enterprises due to their enhanced security and are natively supported by Windows, Android, and iPhone. To use DOH and DOT, a TLS hostname must be entered instead of an IP address. Free DOH and DOT providers are available online. DOH and DOT improve privacy and security by avoiding "man-in-the-middle" attacks. Other key considerations
+Alternatives to intrusive advertisements include Google DNS, OpenDNS, and other independent services. The standard DNS protocol leaves DNS queries visible to the Internet service provider. DOH (DNS over HTTPS) and DOT (DNS over TLS) encrypt the DNS connection, providing greater privacy and security. These protocols are widely used in enterprises due to their enhanced security and are natively supported by Windows, Android, and iPhone. To use DOH and DOT, a TLS hostname must be entered instead of an IP address. Free DOH and DOT providers are available online. DOH and DOT improve privacy and security by avoiding "man-in-the-middle" attacks.
 
-As part of the "Security 101" training module on Découvre Bitcoin Academy, we also discussed Lightning authentication. This system generates a different identifier for each service, without the need to provide an email address or personal information. It is possible to have user-controlled decentralized identities, but there is a lack of standardization and normalization in decentralized identity projects. Package managers such as NuGet and Chocolaté, which allow downloading open-source software outside of the Microsoft Store, are recommended to avoid malicious attacks. In summary, DNS is crucial for online security; however, it is essential to remain vigilant against potential attacks on DNS servers.
+It is also worth mentioning the system called "Lightning authentication", which generates a different identifier for each service, without the need to provide an email address or personal information. It is possible to have user-controlled decentralized identities, but there is a lack of standardization and normalization in decentralized identity projects. Package managers such as NuGet and Chocolaté, which allow downloading open-source software outside of the Microsoft Store, are recommended to avoid malicious attacks. In summary, DNS is crucial for online security; however, it is essential to remain vigilant against potential attacks on DNS servers.
 
 # Final Section
 

@@ -40,7 +40,7 @@ Denne opplæringen er et samarbeid mellom tre av våre professorer:
 
 - Renaud Lifchitz, ekspert på cybersikkerhet
 - Théo Pantamis, PhD i anvendt matematikk
-- Rogzy, CEO av DécouvreBitcoin
+- Rogzy, Medgründer av Plan ₿ Network
 
 Din digitale hygiene er avgjørende i en stadig mer digital verden. Til tross for den konstante økningen i hacking og masseovervåkning, er det ikke for sent å ta det første steget og beskytte deg selv.
 I denne opplæringen prøver vi ikke å gjøre deg til en ekspert, anonym eller usårbar, da dette er umulig. I stedet tilbyr vi deg noen enkle og tilgjengelige løsninger for alle for å starte transformasjonen av dine nettvaner og gjenvinne kontrollen over din digitale suverenitet.
@@ -474,7 +474,7 @@ Ved å mestre disse ferdighetene og verktøyene, vil du være godt utrustet til 
 
 ### Effektiv Passordhåndtering og Styrking av Autentisering: En Akademisk Tilnærming
 
-I opplæringsmodulen "Security 101" tilbudt av Découvre Bitcoin innenfor Akademiet, diskuterte vi viktigheten av passordadministratorer. Tre dimensjoner er essensielle å vurdere: opprettelse, oppdatering, og implementering av passord på nettsteder.
+Det er tre viktige dimensjoner å vurdere når man snakker om passordbehandlere: opprettelse, oppdatering, og implementering av passord på nettsteder.
 
 Det er generelt ikke anbefalt å bruke nettleserutvidelser for automatisk utfylling av passord. Disse verktøyene kan gjøre brukeren mer sårbar for phishing-angrep. Renaud, en anerkjent ekspert i cybersikkerhet, foretrekker manuell håndtering ved bruk av KeePass, som innebærer manuelt å kopiere og lime inn passordet. Utvidelser har en tendens til å øke angrepsflaten, kan senke nettleserens ytelse, og derfor utgjør en betydelig risiko. Dermed er minimal bruk av utvidelser på nettleseren en anbefalt praksis.
 
@@ -498,8 +498,8 @@ Datamaskinsikkerhet kan kompromitteres av enkle praksiser og bruk av standardpas
 
 Det bør også bemerkes at internett er sterkt sentralisert og i stor grad under amerikansk kontroll. DNS-serveren kan være gjenstand for sensur og bruker ofte bedragersk DNS for å blokkere tilgang til visse nettsteder. DNS er en gammel og utilstrekkelig sikker protokoll, som kan føre til sikkerhetsproblemer. Nye protokoller, som DNSsec, har dukket opp, men er fortsatt ikke mye brukt. For å omgå sensur og annonseblokkering, er det mulig å velge alternative DNS-leverandører.
 
-Alternativer til påtrengende annonser inkluderer Google DNS, OpenDNS og andre uavhengige tjenester. Standard DNS-protokollen lar DNS-forespørsler være synlige for internettleverandøren. DOH (DNS over HTTPS) og DOT (DNS over TLS) krypterer DNS-forbindelsen, og gir større personvern og sikkerhet. Disse protokollene brukes mye i bedrifter på grunn av deres forbedrede sikkerhet og støttes nativt av Windows, Android og iPhone. For å bruke DOH og DOT, må et TLS-vertsnavn angis i stedet for en IP-adresse. Gratis DOH- og DOT-leverandører er tilgjengelige på nettet. DOH og DOT forbedrer personvern og sikkerhet ved å unngå "man in the middle"-angrep. Andre nøkkelhensyn
-Som en del av "Security 101" treningsmodulen på Découvre Bitcoin Academy, diskuterte vi også Lightning-autentisering. Dette systemet genererer en forskjellig identifikator for hver tjeneste, uten behov for å oppgi en e-postadresse eller personlig informasjon. Det er mulig å ha brukerkontrollerte desentraliserte identiteter, men det er en mangel på standardisering og normalisering i prosjekter for desentralisert identitet. Pakkebehandlere som Nuget og Chocolaté, som tillater nedlasting av åpen kildekode-programvare utenfor Microsoft Store, anbefales for å unngå ondsinnede angrep. Sammenfattet er DNS avgjørende for online sikkerhet, men det er nødvendig å være årvåken mot potensielle angrep på DNS-servere.
+Alternativer til påtrengende annonser inkluderer Google DNS, OpenDNS og andre uavhengige tjenester. Standard DNS-protokollen lar DNS-forespørsler være synlige for internettleverandøren. DOH (DNS over HTTPS) og DOT (DNS over TLS) krypterer DNS-forbindelsen, og gir større personvern og sikkerhet. Disse protokollene brukes mye i bedrifter på grunn av deres forbedrede sikkerhet og støttes nativt av Windows, Android og iPhone. For å bruke DOH og DOT, må et TLS-vertsnavn angis i stedet for en IP-adresse. Gratis DOH- og DOT-leverandører er tilgjengelige på nettet. DOH og DOT forbedrer personvern og sikkerhet ved å unngå "man in the middle"-angrep.
+Det er også verdt å nevne systemet kalt "Lightning authentication". Dette systemet genererer en forskjellig identifikator for hver tjeneste, uten behov for å oppgi en e-postadresse eller personlig informasjon. Det er mulig å ha brukerkontrollerte desentraliserte identiteter, men det er en mangel på standardisering og normalisering i prosjekter for desentralisert identitet. Pakkebehandlere som Nuget og Chocolaté, som tillater nedlasting av åpen kildekode-programvare utenfor Microsoft Store, anbefales for å unngå ondsinnede angrep. Sammenfattet er DNS avgjørende for online sikkerhet, men det er nødvendig å være årvåken mot potensielle angrep på DNS-servere.
 
 # Siste seksjon
 

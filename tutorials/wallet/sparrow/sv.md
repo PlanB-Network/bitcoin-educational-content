@@ -315,6 +315,7 @@ För mer information om det rätta sättet att spara och hantera din Mnemonic-fr
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 
@@ -325,6 +326,7 @@ Du kan också välja att lägga till en passphrase BIP39 genom att klicka på ru
 
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 När du har sparat din Mnemonic och eventuella passphrase på ett fysiskt medium klickar du på "*Bekräfta säkerhetskopiering*".
 
 
@@ -551,6 +553,7 @@ Det är viktigt att behålla Sighash som standard. För att förstå varför, ta
 
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 På nästa skärm varierar alternativen beroende på vilken typ av Wallet du använder:
 
 

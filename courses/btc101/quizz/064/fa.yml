@@ -1,0 +1,9 @@
+question: دستور برای بررسی تعداد بیت‌کوین‌های در گردش در یک نود Bitcoin چیست؟
+answer: bitcoin-cli gettxoutsetinfo.
+wrong_answers:
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
+explanation: |
+  دستور برای تأیید مقدار بیت‌کوین‌های در گردش در یک نود Bitcoin، bitcoin-cli gettxoutsetinfo است. این دستور شفافیت و قابلیت تأیید را فراهم می‌کند و اعتماد به سیستم Bitcoin را تقویت می‌کند.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Mitä L'Ami des hommesissa ei ole?
+answer: Teollisuus hiipuu maatalouden siirtyessä teollisuuden tilalle
+wrong_answers:
+  - Kansakunnilla on sopusointuiset edut
+  - Kaupan tulisi olla vapaata kaikkien kansojen välillä
+  - Tarve vahvalle, keskitetylle hallitukselle
+explanation: |
+  L'Ami des Hommes keskittyy maatalouteen eikä kritisoi teollisuuden laiminlyöntiä. Päinvastoin, hän pitää maataloutta ainoana todellisen vaurauden lähteenä.

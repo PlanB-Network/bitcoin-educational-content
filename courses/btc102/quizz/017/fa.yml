@@ -1,0 +1,9 @@
+question: چه اصطلاحی به تقسیم برنامه‌ریزی‌شده یارانه Mining اشاره دارد؟
+answer: Halving
+wrong_answers:
+  - Fork
+  - دودویی کردن
+  - کوین‌بیس
+explanation: |
+  Halving به Halving از یارانه Mining هر 210,000 بلوک اشاره دارد.
+reviewed: false

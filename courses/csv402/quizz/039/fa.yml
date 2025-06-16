@@ -1,0 +1,9 @@
+question: کدام فرمان یک Contract را از Stash به یک فایل خارجی صادر می‌کند؟
+answer: RGB export '<ContractId>' myContractPBN.RGB
+wrong_answers:
+  - RGB دانلود '<ContractId>' myContractPBN.RGB
+  - RGB dump '<ContractId>' myContractPBN.RGB
+  - RGB مشکل '<ContractId>' myContractPBN.RGB
+explanation: |
+  دستور "RGB export" برای استخراج یک Contract از Stash و ذخیره آن به عنوان یک فایل برای اشتراک‌گذاری آسان استفاده می‌شود.
+reviewed: false

@@ -315,6 +315,7 @@ Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zar
 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ![Image](assets/fr/26.webp)
 
 
@@ -325,6 +326,7 @@ Możesz również dodać passphrase BIP39, klikając pole "*Użyj passphrase*". 
 
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Po zapisaniu Mnemonic i dowolnego passphrase na nośniku fizycznym kliknij "*Potwierdź kopię zapasową*".
 
 
@@ -551,6 +553,7 @@ Ważne jest, aby zachować domyślny Sighash. Aby zrozumieć dlaczego, zapoznaj 
 
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Na następnym ekranie opcje różnią się w zależności od używanego typu Wallet:
 
 

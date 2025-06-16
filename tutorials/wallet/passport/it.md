@@ -1,5 +1,5 @@
 ---
-name: Passaporto - Fondazione
+name: Passport Core
 description: Configurazione e utilizzo del portafoglio hardware Passport in modalità manuale
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Configurazione e utilizzo del portafoglio hardware Passport in moda
 Il Passport è un portafoglio hardware per soli Bitcoin, progettato da Foundation Devices, un'azienda americana fondata nell'aprile 2020 a Boston.
 
 Il Passport "*Batch 2*" presentato in questo tutorial è il successore della "*Founder's Edition*". Si distingue per il suo design premium, lo schermo a colori ad alta definizione e la tastiera fisica ergonomica. Funziona in modalità "*Air-Gap*", garantendo che le chiavi private del portafoglio rimangano completamente isolate, con trasferimenti possibili tramite una scheda MicroSD o codici QR. Il dispositivo è dotato di una batteria ricaricabile removibile Nokia BL-5C da 1200 mAh. Questa batteria non proprietaria è facilmente sostituibile, poiché il modello BL-5C è ampiamente disponibile sul mercato.
+
+💡 **Aggiornamento:** Da marzo 2025, questo wallet hardware non si chiama più "Passport" o "Passport V2", ma "Passport Core".
 
 Per quanto riguarda la connettività, il Passport è dotato di una porta MicroSD, una porta USB-C per la ricarica e una fotocamera posteriore per la scansione dei codici QR.
 
@@ -483,3 +485,4 @@ Congratulazioni, ora sapete come configurare e utilizzare Passport. Se questa gu
 Per ulteriori informazioni, consultare il nostro tutorial sul software Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

@@ -40,7 +40,7 @@ Tämä koulutus on kolmen professorimme yhteistyö:
 
 - Renaud Lifchitz, kyberturvallisuuden asiantuntija
 - Théo Pantamis, sovelletun matematiikan tohtori
-- Rogzy, DécouvreBitcoinin toimitusjohtaja
+- Rogzy, Plan ₿ Networkin perustaja
 
 Digitaalinen hygienia on ratkaisevan tärkeää yhä digitaalisemmassa maailmassa. Hakkeroinnin ja massavalvonnan jatkuvasta kasvusta huolimatta ei ole liian myöhäistä ottaa ensimmäistä askelta ja suojata itseäsi.
 Tässä koulutuksessa emme yritä tehdä sinusta asiantuntijaa, anonyymiä tai haavoittumatonta, sillä se on mahdotonta. Sen sijaan tarjoamme sinulle joitakin yksinkertaisia ja saavutettavia ratkaisuja kaikille aloittamaan online-tapojen muuttamisen ja digitaalisen suvereniteettisi takaisin saamisen.
@@ -237,7 +237,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 # Ratkaisujen toteuttaminen.
 
-<partId>15ec9022-ba05-5549-87fc-cb8d82665f7b</partId>
+<partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Sähköpostitilien hallinta
 
@@ -477,7 +477,7 @@ Hallitsemalla näitä taitoja ja työkaluja, olet hyvin varustautunut navigoimaa
 
 ### Tehokas salasanojen hallinta ja autentikoinnin vahvistaminen: Akateeminen lähestymistapa
 
-Koulutusmoduulissa "Security 101", jonka Découvre Bitcoin tarjoaa Akatemiassaan, keskustelimme salasanojen hallintajärjestelmien tärkeydestä. Kolme ulottuvuutta ovat olennaisia: salasanojen luominen, päivittäminen ja käyttöönotto verkkosivustoilla.
+Kolme keskeistä ulottuvuutta, jotka on otettava huomioon puhuessasi salasanojen hallinnasta:: salasanojen luominen, päivittäminen ja käyttöönotto verkkosivustoilla.
 Yleensä ei suositella selainlaajennusten käyttöä automaattiseen salasanojen täyttöön. Nämä työkalut voivat tehdä käyttäjästä haavoittuvaisemman phishing-hyökkäyksille. Renaud, tunnustettu kyberturvallisuuden asiantuntija, suosii manuaalista hallintaa käyttäen KeePassia, joka sisältää salasanan manuaalisen kopioimisen ja liittämisen. Laajennukset voivat lisätä hyökkäyspintaa, hidastaa selaimen suorituskykyä ja siten muodostaa merkittävän riskin. Näin ollen selainlaajennusten minimaalinen käyttö on suositeltavaa.
 
 Salasanojen hallintajärjestelmät yleensä kannustavat käyttämään lisäautentikointitekijöitä, kuten kaksivaiheista tunnistautumista. Optimaalisen turvallisuuden takaamiseksi on suositeltavaa säilyttää OTP:t (kertakäyttöiset salasanat) mobiililaitteessasi. AndoTP tarjoaa avoimen lähdekoodin ratkaisun OTP-koodien luomiseen ja säilyttämiseen puhelimessasi. Vaikka Google Authenticator mahdollistaa autentikointikoodien siementen viemisen, varmuuskopion luottamus Google-tilille on rajallinen. Siksi OTI- ja AndoTP-sovellukset ovat suositeltavia itsenäiseen OTP-hallintaan.
@@ -497,9 +497,9 @@ Suora autentikointi asiaankuuluvaan palveluun on mielenkiintoinen vaihtoehto rii
 ### Tietokoneturvallisuus: turvallisten käytäntöjen imperatiivit ja ihmisen huolimattomuuteen liittyvät riskit
 
 Tietokoneturvallisuus voi vaarantua yksinkertaisilla käytännöillä ja oletussalasanojen, kuten "admin", käytöllä. Monimutkaiset hyökkäykset eivät aina ole tarpeen tietokoneturvallisuuden vaarantamiseksi. Esimerkiksi erään YouTube-kanavan ylläpitäjän salasanat oli kirjoitettu yrityksen yksityiseen lähdekoodiin. Turvallisuusaukot ovat usein ihmisen huolimattomuuden tulosta.
-On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin amerikkalaisessa hallinnassa. DNS-palvelin voi olla sensuurin kohteena ja usein käyttää harhaanjohtavaa DNS:ää estääkseen pääsyn tietyille sivustoille. DNS on vanha ja riittämättömän turvallinen protokolla, mikä voi johtaa turvallisuusongelmiin. Uusia protokollia, kuten DNSsec, on kehitetty, mutta niitä ei vielä laajasti käytetä. Sensuurin ja mainosten eston kiertämiseksi on mahdollista valita vaihtoehtoisia DNS-palveluntarjoajia. Tunkeilevien mainosten vaihtoehtoja ovat Google DNS, OpenDNS ja muut riippumattomat palvelut. Standardi DNS-protokolla jättää DNS-kyselyt näkyviin internet-palveluntarjoajalle. DOH (DNS over HTTPS) ja DOT (DNS over TLS) salaavat DNS-yhteyden, tarjoten suurempaa yksityisyyttä ja turvallisuutta. Nämä protokollat ovat laajalti käytössä yrityksissä niiden parannetun turvallisuuden vuoksi ja niitä tuetaan natiivisti Windowsissa, Androidissa ja iPhonessa. DOH:n ja DOT:n käyttämiseksi TLS-isäntänimi on syötettävä IP-osoitteen sijaan. Ilmaisia DOH- ja DOT-palveluntarjoajia on saatavilla verkossa. DOH ja DOT parantavat yksityisyyttä ja turvallisuutta välttämällä "man in the middle" -hyökkäykset. Muita keskeisiä huomioita
+On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin amerikkalaisessa hallinnassa. DNS-palvelin voi olla sensuurin kohteena ja usein käyttää harhaanjohtavaa DNS:ää estääkseen pääsyn tietyille sivustoille. DNS on vanha ja riittämättömän turvallinen protokolla, mikä voi johtaa turvallisuusongelmiin. Uusia protokollia, kuten DNSsec, on kehitetty, mutta niitä ei vielä laajasti käytetä. Sensuurin ja mainosten eston kiertämiseksi on mahdollista valita vaihtoehtoisia DNS-palveluntarjoajia. Tunkeilevien mainosten vaihtoehtoja ovat Google DNS, OpenDNS ja muut riippumattomat palvelut. Standardi DNS-protokolla jättää DNS-kyselyt näkyviin internet-palveluntarjoajalle. DOH (DNS over HTTPS) ja DOT (DNS over TLS) salaavat DNS-yhteyden, tarjoten suurempaa yksityisyyttä ja turvallisuutta. Nämä protokollat ovat laajalti käytössä yrityksissä niiden parannetun turvallisuuden vuoksi ja niitä tuetaan natiivisti Windowsissa, Androidissa ja iPhonessa. DOH:n ja DOT:n käyttämiseksi TLS-isäntänimi on syötettävä IP-osoitteen sijaan. Ilmaisia DOH- ja DOT-palveluntarjoajia on saatavilla verkossa. DOH ja DOT parantavat yksityisyyttä ja turvallisuutta välttämällä "man in the middle" -hyökkäykset.
 
-Osana "Security 101" -koulutusmoduulia Découvre Bitcoin Academyssa keskustelimme myös Lightning-autentikoinnista. Tämä järjestelmä luo erilaisen tunnisteen kullekin palvelulle, ilman että tarvitsee antaa sähköpostiosoitetta tai henkilökohtaisia tietoja. On mahdollista omistaa käyttäjän hallitsemia hajautettuja identiteettejä, mutta hajautettujen identiteettiprojektien standardoinnissa ja normalisoinnissa on puutteita. Paketinhallintajärjestelmiä, kuten Nuget ja Chocolaté, jotka mahdollistavat avoimen lähdekoodin ohjelmiston lataamisen Microsoft Storen ulkopuolelta, suositellaan välttämään haitallisia hyökkäyksiä. Yhteenvetona DNS on ratkaisevan tärkeä online-turvallisuudelle, mutta on välttämätöntä pysyä valppaana mahdollisten hyökkäysten varalta DNS-palvelimia vastaan.
+On myös syytä mainita järjestelmä nimeltä "Lightning authentication".. Tämä järjestelmä luo erilaisen tunnisteen kullekin palvelulle, ilman että tarvitsee antaa sähköpostiosoitetta tai henkilökohtaisia tietoja. On mahdollista omistaa käyttäjän hallitsemia hajautettuja identiteettejä, mutta hajautettujen identiteettiprojektien standardoinnissa ja normalisoinnissa on puutteita. Paketinhallintajärjestelmiä, kuten Nuget ja Chocolaté, jotka mahdollistavat avoimen lähdekoodin ohjelmiston lataamisen Microsoft Storen ulkopuolelta, suositellaan välttämään haitallisia hyökkäyksiä. Yhteenvetona DNS on ratkaisevan tärkeä online-turvallisuudelle, mutta on välttämätöntä pysyä valppaana mahdollisten hyökkäysten varalta DNS-palvelimia vastaan.
 
 # Lopullinen osio
 

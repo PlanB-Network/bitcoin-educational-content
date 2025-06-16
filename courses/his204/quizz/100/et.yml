@@ -1,0 +1,8 @@
+question: Milline pangandusasutus on 1789. aastal tehtud valikute lõplik tagajärg, mille vastu Dupont de Nemours sõna võttis?
+answer: Banque de France
+wrong_answers:
+  - Hoiupank
+  - Crédit Agricole
+  - Euroopa Keskpank
+explanation: |
+  Banque de France on 1789. aastal tehtud valikute tagajärg, mida Dupont de Nemours kritiseeris finantsvõimu liigse tsentraliseerimise ja riigi liigse sekkumise eest majandusse.

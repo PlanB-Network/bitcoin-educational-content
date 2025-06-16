@@ -5,4 +5,4 @@ wrong_answers:
   - HD Wallet Seed
   - Blockchain Root
 explanation: |
-  La costante Bitcoin Seed viene utilizzata come chiave nella funzione HMAC-SHA512 per derivare la chiave privata principale e il codice catena principale.
+  La costante Bitcoin Seed viene utilizzata come chiave nella funzione HMAC-SHA512 per derivare chiave privata master e la master chain code.

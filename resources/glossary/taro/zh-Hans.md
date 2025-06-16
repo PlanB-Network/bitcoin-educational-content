@@ -2,4 +2,4 @@
 term: TARO
 
 ---
-Taproot Assets Protocol 的前身。
+Taproot 资产协议的前身。

@@ -1061,7 +1061,9 @@ V současné době bitcoin stále přežívá a ještě více roste díky tomu, 
 
 Bitcoin lze považovat za nástroj k vytvoření paralelní ekonomiky k fiat měnám, protože je možné prodávat zboží nebo služby a nechat si platit v bitcoinech. Transakce lze provádět přímo v bitcoinech, aniž by bylo nutné procházet směnnou platformou, ale jednoduše přecházet z bitcoinové peněženky do jiné.
 
-Bitcoinová ekonomika existuje a rozvíjí se v některých regionech světa, například v Salvadoru, kde je Bitcoin od roku 2021 zákonným platidlem. Všude kolem nás existují jednotlivci, podniky a organizace, které již přijímají Bitcoin jako platební prostředek za své produkty nebo služby.
+Bitcoinová ekonomika existuje a vyvíjí se v určitých regionech světa, jako je například El Salvador, kde se Bitcoin stal zákonným platidlem v roce 2021. Bohužel, v lednu 2025 shromáždění schválilo nový zákon, který Bitcoin zbavil titulu "zákonné platidlo", údajně po tlaku Mezinárodního měnového fondu. Podle nového zákona nejsou lidé povinni přijímat Bitcoin ve svých podnicích a již nemohou platit daně pomocí něj. Přijetí zůstává dobrovolné.
+
+Nicméně, v El Salvadoru a v dalších částech světa je stále více jednotlivců, podniků a organizací, které přijímají Bitcoin jako prostředek platby za své produkty nebo služby.
 
 ![image](assets/en/72.webp)
 

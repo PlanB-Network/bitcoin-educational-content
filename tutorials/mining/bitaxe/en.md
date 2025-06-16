@@ -2,6 +2,7 @@
 name: Setting Up a BitAxe
 description: How to set up a BitAxe?
 ---
+![video](https://youtu.be/QAwSXZ3L7Pc)
 
 ### Introduction
 

@@ -1,0 +1,8 @@
+question: V jakém oboru podniká společnost Dupont de Nemours et Cie, kterou založil syn francouzského ekonoma?
+answer: Chemie a biologie
+wrong_answers:
+  - Bankovnictví a pojišťovnictví
+  - Textil
+  - Potravinářský průmysl
+explanation: |
+  Dupont de Nemours je chemická a biologická společnost, kterou založil syn ekonoma Pierre-Samuel Dupont de Nemours.

@@ -1,0 +1,8 @@
+question: Minkä ministerin palveluksessa Dupont de Nemours työskenteli?
+answer: Turgot
+wrong_answers:
+  - Necker
+  - Calonne
+  - Colbert
+explanation: |
+  Dupont de Nemours työskenteli Ludvig XVI:n valtiovarainministerin Turgot'n kanssa ja auttoi toteuttamaan useita fysiokratian innoittamia talousuudistuksia.

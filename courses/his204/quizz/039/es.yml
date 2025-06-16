@@ -1,0 +1,8 @@
+question: ¿Durante qué década estuvo activo el círculo de Gournay?
+answer: La década de 1750
+wrong_answers:
+  - La década de 1740
+  - La década de 1760
+  - La década de 1770
+explanation: |
+  El círculo de Gournay estuvo activo en la década de 1750, un periodo de efervescencia intelectual en Francia.

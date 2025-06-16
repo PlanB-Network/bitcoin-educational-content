@@ -4,6 +4,8 @@ description: Using COLDCARD Q's advanced options
 ---
 ![cover](assets/cover.webp)
 
+![video](https://youtu.be/6L2hhT0J27s)
+
 In a previous tutorial, we covered the initial configuration of the COLDCARD Q and its basic functions for beginners. If you've just received your COLDCARD Q and haven't set it up yet, I recommend you start with that tutorial before continuing here:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
@@ -150,7 +152,7 @@ The "*Add If Wrong*" option, available in the "*Trick PIN*" menu, lets you confi
 
 ### Scramble Keys
 
-The Scramble Keys option allows you to scramble the digits displayed on your keypad buttons when entering your PIN code. This feature protects the confidentiality of your PIN code, even in the event of surveillance by people or cameras.
+The Scramble Keys option allows you to scramble the digits displayed on your keypad buttons when entering your PIN code. This feature protects the privacy of your PIN code, even in the event of surveillance by people or cameras.
 
 To activate this option, access the menu `Settings > Login Settings > Scramble Keys`.
 

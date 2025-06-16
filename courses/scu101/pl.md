@@ -59,7 +59,7 @@ Szkolenie to jest wspólnym wysiłkiem trzech naszych profesorów:
 
 - Renaud Lifchitz, ekspert ds. cyberbezpieczeństwa
 - Théo Pantamis, doktor matematyki stosowanej
-- Rogzy, dyrektor generalny DécouvreBitcoin
+- Rogzy, Współzałożyciel Plan ₿ Network
 
 
 Higiena cyfrowa ma kluczowe znaczenie w coraz bardziej cyfrowym świecie. Pomimo ciągłego wzrostu liczby włamań i masowej inwigilacji, nie jest jeszcze za późno na zrobienie pierwszego kroku i zabezpieczenie się.
@@ -734,7 +734,7 @@ Dzięki opanowaniu tych umiejętności i narzędzi będziesz dobrze przygotowany
 ### Skuteczne zarządzanie hasłami i wzmacnianie uwierzytelniania: Podejście akademickie
 
 
-W module szkoleniowym "Security 101" oferowanym przez Découvre Bitcoin w ramach Akademii omówiliśmy znaczenie menedżerów haseł. Należy wziąć pod uwagę trzy wymiary: tworzenie, aktualizowanie i wdrażanie haseł na stronach internetowych.
+Są trzy kluczowe wymiary, które należy wziąć pod uwagę, mówiąc o menedżerach haseł: tworzenie, aktualizowanie i wdrażanie haseł na stronach internetowych.
 
 
 Generalnie nie zaleca się używania rozszerzeń przeglądarki do automatycznego uzupełniania haseł. Narzędzia te mogą sprawić, że użytkownik będzie bardziej podatny na ataki phishingowe. Renaud, uznany ekspert w dziedzinie cyberbezpieczeństwa, preferuje ręczne zarządzanie za pomocą KeePass, które polega na ręcznym kopiowaniu i wklejaniu hasła. Rozszerzenia mają tendencję do zwiększania powierzchni ataku, mogą spowalniać wydajność przeglądarki, a tym samym stanowić poważne ryzyko. Dlatego zalecane jest minimalne korzystanie z rozszerzeń w przeglądarce.
@@ -771,10 +771,10 @@ Bezpieczeństwo komputera może być zagrożone przez proste praktyki i używani
 Należy również zauważyć, że Internet jest wysoce scentralizowany i w dużej mierze pod amerykańską kontrolą. Serwer DNS może podlegać cenzurze i często wykorzystuje zwodnicze DNS do blokowania dostępu do niektórych stron. DNS jest starym i niewystarczająco bezpiecznym protokołem, co może prowadzić do problemów z bezpieczeństwem. Pojawiły się nowe protokoły, takie jak DNSsec, ale nadal nie są one powszechnie stosowane. Aby ominąć cenzurę i blokowanie reklam, można wybrać alternatywnych dostawców DNS"
 
 
-Alternatywy dla natrętnych reklam obejmują Google DNS, OpenDNS i inne niezależne usługi. Standardowy protokół DNS pozostawia zapytania DNS widoczne dla dostawcy usług internetowych. DOH (DNS over HTTPS) i DOT (DNS over TLS) szyfrują połączenie DNS, zapewniając większą prywatność i bezpieczeństwo. Protokoły te są szeroko stosowane w przedsiębiorstwach ze względu na ich zwiększone bezpieczeństwo i są natywnie obsługiwane przez systemy Windows, Android i iPhone. Aby korzystać z DOH i DOT, należy wprowadzić nazwę hosta TLS zamiast adresu IP Address. Darmowi dostawcy DOH i DOT są dostępni online. DOH i DOT poprawiają prywatność i bezpieczeństwo, unikając ataków typu "man in the middle". Inne kluczowe kwestie
+Alternatywy dla natrętnych reklam obejmują Google DNS, OpenDNS i inne niezależne usługi. Standardowy protokół DNS pozostawia zapytania DNS widoczne dla dostawcy usług internetowych. DOH (DNS over HTTPS) i DOT (DNS over TLS) szyfrują połączenie DNS, zapewniając większą prywatność i bezpieczeństwo. Protokoły te są szeroko stosowane w przedsiębiorstwach ze względu na ich zwiększone bezpieczeństwo i są natywnie obsługiwane przez systemy Windows, Android i iPhone. Aby korzystać z DOH i DOT, należy wprowadzić nazwę hosta TLS zamiast adresu IP Address. Darmowi dostawcy DOH i DOT są dostępni online. DOH i DOT poprawiają prywatność i bezpieczeństwo, unikając ataków typu "man in the middle".
 
 
-W ramach modułu szkoleniowego "Security 101" na Akademii Découvre Bitcoin omówiliśmy również uwierzytelnianie Lightning. System ten generuje inny identyfikator dla każdej usługi, bez konieczności podawania adresu e-mail Address lub danych osobowych. Możliwe jest posiadanie zdecentralizowanych tożsamości kontrolowanych przez użytkowników, ale w projektach zdecentralizowanych tożsamości brakuje standaryzacji i normalizacji. Aby uniknąć złośliwych ataków, zaleca się stosowanie menedżerów pakietów, takich jak Nuget i Chocolaté, które umożliwiają pobieranie oprogramowania open source spoza sklepu Microsoft Store. Podsumowując, DNS ma kluczowe znaczenie dla bezpieczeństwa online, ale konieczne jest zachowanie czujności przed potencjalnymi atakami na serwery DNS.
+Warto również wspomnieć o systemie zwanym "Lightning authentication". System ten generuje inny identyfikator dla każdej usługi, bez konieczności podawania adresu e-mail Address lub danych osobowych. Możliwe jest posiadanie zdecentralizowanych tożsamości kontrolowanych przez użytkowników, ale w projektach zdecentralizowanych tożsamości brakuje standaryzacji i normalizacji. Aby uniknąć złośliwych ataków, zaleca się stosowanie menedżerów pakietów, takich jak Nuget i Chocolaté, które umożliwiają pobieranie oprogramowania open source spoza sklepu Microsoft Store. Podsumowując, DNS ma kluczowe znaczenie dla bezpieczeństwa online, ale konieczne jest zachowanie czujności przed potencjalnymi atakami na serwery DNS.
 
 
 # Sekcja końcowa

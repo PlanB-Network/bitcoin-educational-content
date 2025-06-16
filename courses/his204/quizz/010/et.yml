@@ -1,0 +1,8 @@
+question: Miks on Vauban'i sõnul õige ja loomulik, et kõik maksavad makse?
+answer: Kuna riik pakub oma teenuseid kõigile, siis on õiglane, et kõik peaksid nende eest tasuma
+wrong_answers:
+  - Sest riik saab kogu elanikkonna maksustamisega korraga rohkem raha koguda
+  - Kuna igaüks on oma elu jooksul mõnikord rikas ja mõnikord vaene, on parem maksustada kõiki ühtlaselt
+  - Sest see aitab rahastada sõdu ja tagada kuningriigi suurust
+explanation: |
+  Vauban uskus, et maksustamine peaks olema universaalne, sest kõik kodanikud saavad kasu sellistest riiklikest teenustest nagu turvalisus, õigusemõistmine ja infrastruktuur. Seetõttu pidas ta õiglaseks, et igaüks peaks nende rahastamiseks panustama vastavalt oma võimalustele.

@@ -170,7 +170,7 @@ Bonyeza kitufe cha "* Pokea *".
 ![Image](assets/fr/18.webp)
 
 
-Telezesha kidole msimbo wa QR kulia ili uonyeshe Bitcoin inayopokea Address. Itume kiasi unachotaka kuweka kwenye Phoenix.
+Buruta msimbo wa QR upande wa kushoto ili kufichua anwani ya kupokea Bitcoin. Tuma kiasi unachotaka kuweka kwenye Phoenix kwa anwani hiyo.
 
 
 ![Image](assets/fr/19.webp)

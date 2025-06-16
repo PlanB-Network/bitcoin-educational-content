@@ -1,4 +1,4 @@
-question: Koja je glavna razlika između CoinJoin i kustodijalnog miksera?
+question: Koja je glavna razlika između CoinJoin i kastodijalnog miksera?
 answer: CoinJoin vam omogućava da zadržite potpunu kontrolu nad svojim sredstvima.
 wrong_answers:
   - CoinJoin zahteva privremeno odricanje od starateljstva nad sredstvima.

@@ -1,0 +1,9 @@
+question: سیستم ارز خصوصی که Satoshi ناکاموتو به طور صریح در نوشته‌هایش به آن اشاره کرده است کدام است؟
+answer: لیبرتی رزرو
+wrong_answers:
+  - ای-گلد
+  - دلار لیبرتی
+  - ای-بولیون
+explanation: |
+  این یکی واقعاً در زمان Bitcoin هنوز فعال بود، برخلاف e-gold و Liberty Dollar. Satoshi همچنین [ذکر کرد](https: //bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix، یک ارز دیجیتال طلا که در سال 2002 ایجاد شد.
+reviewed: false

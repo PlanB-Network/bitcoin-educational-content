@@ -1,0 +1,8 @@
+question: Koja ideja je nazvana Montenjovim sofizmom?
+answer: Exchange je igra sa nultom sumom
+wrong_answers:
+  - Exchange je igra sa pozitivnom sumom
+  - U zavisnosti od vremena i mesta, Exchange je ponekad igra sa nultim zbirom, a ponekad igra sa pozitivnim zbirom.
+  - Exchange je uvek nepovoljan za slabiju stranu
+explanation: |
+  Montaigneova zabluda je ideja da je Exchange igra sa nultim zbirom, tj. ono što jedan dobije, drugi izgubi. Ova ideja je pogrešna, jer je dobrovoljni Exchange obostrano koristan.

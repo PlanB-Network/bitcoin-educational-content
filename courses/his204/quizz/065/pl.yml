@@ -1,0 +1,8 @@
+question: Gdzie spotkali się Adam Smith i fizjokraci?
+answer: W Paryżu
+wrong_answers:
+  - W Glasgow
+  - W Londynie
+  - Nigdy się nie spotkali
+explanation: |
+  Adam Smith poznał fizjokratów w Paryżu podczas podróży po Europie. Był pod wpływem ich pomysłów, ale także opracował własną teorię ekonomiczną, która różniła się od fizjokratyzmu pod pewnymi względami.

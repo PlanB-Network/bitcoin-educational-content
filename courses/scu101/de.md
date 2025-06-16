@@ -40,7 +40,7 @@ Dieses Training ist eine gemeinsame Anstrengung von drei unserer Professoren:
 
 - Renaud Lifchitz, Experte für Cybersicherheit
 - Théo Pantamis, Doktor der angewandten Mathematik
-- Rogzy, CEO von DécouvreBitcoin
+- Rogzy, Mitbegründer des Plan ₿ Network
 
 Ihre digitale Hygiene ist in einer immer digitaleren Welt von entscheidender Bedeutung. Trotz einer ständig steigenden Anzahl von Hackerangriffen und Massenüberwachung ist es noch nicht zu spät, den ersten Schritt zu tun und sich zu schützen.
 Dans dieser Schulung streben wir nicht danach, Sie zu Experten zu machen, anonym oder unangreifbar, das ist unmöglich. Stattdessen bieten wir Ihnen einige einfache und zugängliche Lösungen an, um Ihre Online-Gewohnheiten zu ändern und die Kontrolle über Ihre digitale Souveränität zurückzugewinnen.
@@ -489,7 +489,7 @@ Indem Sie diese Fähigkeiten und Tools beherrschen, sind Sie gut gerüstet, um e
 
 ### Effizientes Passwortmanagement und Stärkung der Authentifizierung: ein akademischer Ansatz
 
-Im Schulungsmodul "Sicherheit 101" von Découvre Bitcoin an der Akademie haben wir die Bedeutung von Passwortmanagern behandelt. Drei Dimensionen sind dabei wesentlich zu beachten: die Erstellung, Aktualisierung und Implementierung von Passwörtern auf Websites.
+Es gibt drei wichtige Dimensionen, die man berücksichtigen sollte, wenn man über Passwortmanager spricht: die Erstellung, Aktualisierung und Implementierung von Passwörtern auf Websites.
 
 Es wird im Allgemeinen davon abgeraten, Browsererweiterungen zur automatischen Passworteingabe zu verwenden. Diese Tools können den Benutzer anfälliger für Phishing-Angriffe machen. Renaud, ein anerkannter Experte für Cybersicherheit, bevorzugt eine manuelle Verwaltung mit KeePass, was eine manuelle Kopier- und Einfügeaktion des Passworts bedeutet. Erweiterungen neigen dazu, die Angriffsfläche zu vergrößern, können die Leistung des Browsers verlangsamen und stellen daher ein nicht zu vernachlässigendes Risiko dar. Daher wird empfohlen, den Einsatz von Erweiterungen im Browser auf ein Minimum zu beschränken.
 
@@ -516,7 +516,7 @@ Alternativen zu aufdringlicher Werbung sind unter anderem [Google DNS](https://d
 
 Weitere Schlüsselüberlegungen
 
-Im Rahmen des Lernmoduls "Sicherheit 101" von Entdecke Bitcoin auf der Akademie haben wir auch über die Lightning-Authentifizierung diskutiert. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
+Es ist auch erwähnenswert, dass es ein System namens "Lightning authentication" gibt. Dieses System generiert für jeden Dienst eine andere Kennung, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen. Es ist möglich, dezentralisierte Identitäten zu haben, die vom Benutzer kontrolliert werden, aber es fehlt an Normierung und Standardisierung in dezentralisierten Identitätsprojekten. Paketmanager wie Nuget und Chocolaté, die das Herunterladen von Open-Source-Software außerhalb des Microsoft Stores ermöglichen, werden empfohlen, um böswillige Angriffe zu verhindern. Zusammenfassend lässt sich sagen, dass das DNS für die Online-Sicherheit von entscheidender Bedeutung ist, aber es ist notwendig, wachsam gegenüber potenziellen Angriffen auf DNS-Server zu bleiben.
 
 # Abschluss
 

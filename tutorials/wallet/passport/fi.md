@@ -1,5 +1,5 @@
 ---
-name: Passi - Säätiö
+name: Passport Core
 description: Passport-laitteiston lompakon määrittäminen ja käyttö manuaalisessa tilassa
 ---
 ![cover](assets/cover.webp)
@@ -7,6 +7,8 @@ description: Passport-laitteiston lompakon määrittäminen ja käyttö manuaali
 Passport on pelkästään Bitcoinia käyttävä laitteistolompakko, jonka on suunnitellut huhtikuussa 2020 Bostonissa perustettu yhdysvaltalainen yritys Foundation Devices.
 
 Passport "*Batch 2*", jota esittelemme tässä oppaassa, on "*Founder's Edition*"-version seuraaja. Se erottuu premium-muotoilullaan, korkearesoluutioisella värinäytöllään ja ergonomisella fyysisellä näppäimistöllään. Se toimii "*Air-Gap*"-tilassa, mikä varmistaa, että lompakkosi yksityiset avaimet pysyvät täysin eristettyinä, ja tiedonsiirto tapahtuu MicroSD-kortin tai QR-koodien kautta. Laitteessa on irrotettava ja ladattava Nokia BL-5C akku, jonka kapasiteetti on 1200 mAh. Tämä vakiomalliakku on helposti vaihdettavissa, koska BL-5C-mallia on laajalti saatavilla kaupoista.
+
+💡 **Päivitys:** Maaliskuusta 2025 lähtien tämän laitelompakon nimi ei ole enää "Passport" tai "Passport V2", vaan "Passport Core".
 
 Liitettävyyden osalta Passportissa on MicroSD-portti, USB-C-portti latausta varten ja takakamera QR-koodien skannausta varten.
 
@@ -483,3 +485,4 @@ Onneksi olkoon, tiedät nyt, miten Passportin asetukset määritetään ja miten
 Lisätietoja on Liana-ohjelmiston oppaassa:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+

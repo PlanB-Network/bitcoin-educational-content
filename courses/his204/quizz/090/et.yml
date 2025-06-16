@@ -1,0 +1,8 @@
+question: Miks me ütleme, et Exchange-s anname alati vähem, et saada rohkem?
+answer: Sest me loobume alati millestki, mida hindame vähem, millegi eest, mida hindame rohkem
+wrong_answers:
+  - Sest see on lolluse mäng, kus me müüme oma tooteid kallimalt, kui nad väärt on
+  - Kuna rahal on väärtus, on iga müük rikastumine
+  - Sest müüjad on alati targemad kui ostjad
+explanation: |
+  Me anname seda, mida hindame vähem, et saada seda, mida hindame rohkem, muutes Exchange vastastikku kasulikuks.

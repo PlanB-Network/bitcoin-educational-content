@@ -12,7 +12,7 @@ https://twitter.com/ElectrumWallet
 https://electrum.org/
 https://electrum.readthedocs.io/
 
-> "Devo dire che quando ho trovato questa guida sono rimasto scioccato. Congratulazioni ad Arman the Parman per questo. Sarebbe stato un peccato non ospitarlo qui e tradurlo in quante più lingue possibili. Onestamente, consigli per quel tipo." Rogzy
+> "Devo dire che quando ho trovato questa guida sono rimasto scioccato. Congratulazioni ad Arman the Parman per questo. Sarebbe stato un peccato non ospitarlo qui e tradurlo in quante più lingue possibili. Quel ragazzo è consigliato, davvero." Rogzy
 
 ![Portafoglio desktop Electrum (Mac / Linux) - download, verifica, connessione al tuo nodo.](https://youtu.be/wHmQNcRWdHM)
 
@@ -175,7 +175,7 @@ Quando carichi per la prima volta Electrum, si aprirà una finestra come questa:
 
 Successivamente, seleziona manualmente il tuo server, ma per ora lascia le impostazioni predefinite e connessione automatica.
 
-Successivamente, crea un wallet fittizio: non mettere mai fondi in questo portafoglio. Lo scopo di questo wallet fittizio è quello di procedere attraverso il software e assicurarsi che tutto funzioni correttamente prima di caricare il tuo vero wallet. Stiamo cercando di evitare di rivelare accidentalmente la privacy con un wallet reale. Se stai solo facendo pratica, il wallet che crei può essere considerato comunque un wallet fittizio.
+Successivamente, crea un wallet fittizio: non mettere mai fondi in questo wallet. Lo scopo di questo wallet fittizio è quello di procedere attraverso il software e assicurarsi che tutto funzioni correttamente prima di caricare il tuo vero wallet. Stiamo cercando di evitare di rivelare accidentalmente la privacy con un wallet reale. Se stai solo facendo pratica, il wallet che crei può essere considerato comunque un wallet fittizio.
 
 Puoi lasciare il nome come "default_wallet" o cambiarlo a tuo piacimento e cliccare su Avanti. In seguito, se hai più wallet, puoi trovarli e aprirli in questa fase cliccando prima su "Choose..."
 
@@ -185,7 +185,7 @@ Scegli "Standard wallet" e <Next>:
 
 ![image](assets/8.webp)
 
-Quindi, seleziona "I already have a seed". Non voglio che tu prenda l'abitudine di creare una frase di recupero di Electrum, poiché utilizza il proprio protocollo che non è compatibile con altri wallet: ecco perché non clicchiamo su "new seed".
+Quindi, seleziona "I already have a seed". Non voglio che tu prenda l'abitudine di creare una frase di recupero con Electrum, poiché utilizza il proprio protocollo che non è compatibile con altri wallet: ecco perché non clicchiamo su "new seed".
 
 ![image](assets/9.webp)
 
@@ -234,7 +234,7 @@ Vai al menù in alto, visualizza, e seleziona "mostra indirizzi". Poi torna a vi
 
 ### Abilita Oneserver
 
-Di default, Electrum si connette a un nodo casuale. Si connette anche a molti altri nodi secondari. Non sono sicuro di quali dati vengano scambiati con questi nodi secondari, ma non vogliamo che ciò accada, per motivi di privacy. Anche se specifici un nodo, ad esempio il tuo nodo personale, questi molti altri nodi saranno comunque connessi, e non sono sicuro di quali informazioni vengano condivise. Tuttavia, è facile prevenirlo. Prima di mostrarti come specificare il tuo nodo personale, forzeremo Electrum a connettersi solo a un server alla volta.
+Di default, Electrum si connette a un nodo casuale. Si connette anche a molti altri nodi secondari. Non sono sicuro di quali dati vengano scambiati con questi nodi secondari, ma non vogliamo che ciò accada, per motivi di privacy. Anche se specifichi un nodo, ad esempio il tuo nodo personale, questi molti altri nodi saranno comunque connessi, e non sono sicuro di quali informazioni vengano condivise. Tuttavia, è facile prevenirlo. Prima di mostrarti come specificare il tuo nodo personale, forzeremo Electrum a connettersi solo a un server alla volta.
 
 > C'è un modo per farlo specificando "oneserver" dalla riga di comando, ma non raccomando questa modalità. Mostrerò un'alternativa che ritengo più semplice a lungo termine e meno probabile di farti connettere accidentalmente ad altri nodi.
 
@@ -435,15 +435,15 @@ Avrà un aspetto simile a questo (assicurati di includere i due punti e il numer
 
 > È utile sapere che questi indirizzi IP sono INTERNI alla tua rete domestica. Nessuno all'esterno può vederli e non sono sensibili. Sono un po' come le estensioni telefoniche in un'organizzazione grande che ti indirizzano a telefoni diversi.
 
-## Elimina il walleto fittizio
+## Elimina il wallet fittizio
 
-Ora ci siamo collegati con successo a un solo nodo. Questo è come Electrum si caricherà di default da ora in poi. Dovresti ora eliminare il wallet fittizio (Menù: file -> elimina), nel caso in cui invii accidentalmente fondi a questo portafoglio non sicuro (non è sicuro perché non l'abbiamo creato in modo sicuro).
+Ora ci siamo collegati con successo a un solo nodo. Questo è come Electrum si caricherà di default da ora in poi. Dovresti ora eliminare il wallet fittizio (Menù: file -> elimina), nel caso in cui invii accidentalmente fondi a questo wallet non sicuro (non è sicuro perché non l'abbiamo creato in modo sicuro).
 
 ## Crea un wallet di pratica
 
 Dopo aver eliminato il wallet fittizio, ricomincia e creane uno nuovo, allo stesso modo, solo che questa volta, annota le parole del seed e tienile abbastanza al sicuro.
 
-È una buona idea imparare come Electrum funziona con questo wallet di pratica, senza l'ingombrante hardware wallet (necessario per una sicurezza elevata). Metti solo una piccola quantità di bitcoin in questo walleto - Supponi che perderai questi soldi. Una volta diventato esperto, impara ad usare Electrum con un hardware wallet.
+È una buona idea imparare come Electrum funziona con questo wallet di pratica, senza l'ingombrante hardware wallet (necessario per una sicurezza elevata). Metti solo una piccola quantità di bitcoin in questo wallet - Supponi che perderai questi soldi. Una volta diventato esperto, impara ad usare Electrum con un hardware wallet.
 
 Nel nuovo wallet che hai creato, vedrai un elenco di indirizzi. Quelli verdi sono chiamati "indirizzi di ricezione". Sono il prodotto di 3 cose:
 
@@ -520,7 +520,7 @@ L'indirizzo è ora nella memoria del tuo computer.
 
 Ora vai su un exchange dove hai alcuni bitcoin e preleva una piccola quantità su questo indirizzo, diciamo 50.000 sats. Userò Coinbase come esempio perché è l'exchange più comunemente utilizzato, anche se sono nemici di Bitcoin e mi disgusta accedere a un vecchio account abbandonato per questo scopo.
 
-Accedi e clicCA sul pulsante Send/Receive, che oggi si trova nell'angolo in alto a destra della pagina web.
+Accedi e clicca sul pulsante Send/Receive, che oggi si trova nell'angolo in alto a destra della pagina web.
 
 ![image](assets/31.webp)
 
@@ -530,7 +530,7 @@ Ovviamente non ho fondi su Coinbase, ma immagina solo che ci siano fondi qui e s
 
 A seconda dell'exchange, potresti vedere i sats nel tuo wallet immediatamente o potrebbe esserci un ritardo di ore/giorni.
 
-Nota che Electrum ti mostrerà gli UTXO ricevute anche se non sono state confermate sulla blockchain. Gli UTXO che hai vengono lettI dalla lista di attesa di un nodo Bitcoin, o "mempool". Quando viene inserito in un blocco, vedrai i fondi come confermati.
+Nota che Electrum ti mostrerà gli UTXO ricevuti anche se non sono stati confermati sulla blockchain. Gli UTXO che hai vengono letti dalla lista di attesa di un nodo Bitcoin, o "mempool". Quando viene inserito in un blocco, vedrai i fondi come confermati.
 
 Ora che abbiamo un UTXO nel nostro WALLET, dovremmo etichettarlo. Solo noi possiamo vedere questa etichetta, non ha nulla a che fare con il registro pubblico. Tutte le nostre etichette Electrum sono visibili solo sul computer che stiamo utilizzando. Possiamo effettivamente salvare un file e usarlo per ripristinare tutte le nostre etichette su un computer diverso che esegue lo stesso wallet.
 
@@ -547,11 +547,11 @@ Ora, se andiamo alla scheda "monete" di Electrum, possiamo vedere due "monete ri
 Tornando alla scheda Indirizzi, se fai doppio clic sull'area "etichette" accanto all'indirizzo, potrai inserire del testo e premere <invio> per salvare:
 
 ![image](assets/35.webp)
-Questa è una buona pratica per tenere traccia di dove provengono i tuoi UTXO, se sono KYC-free o meno e quanto costa ogni UTXO (nel caso in cui tu abbia bisogno di venderli e calcolare le tasse che ti verranno sottratte dal governo).
+Questa è una buona pratica per tenere traccia di dove provengono i tuoi UTXO, se sono [KYC](https://planb.network/resources/glossary/kyc-know-your-customer)-free o meno e quanto costa ogni UTXO (nel caso in cui tu abbia bisogno di venderli e calcolare le tasse che ti verranno sottratte dal governo).
 
-Idealmente, dovresti evitare di accumulare più UTXO nello stesso indirizzo. Se decidi di farlo (non farlo), puoi etichettare ogni UTXO invece di tutte con la stessa etichetta utilizzando il metodo dell'indirizzo. Non puoi effettivamente andare alla scheda "monete" ed editare le etichette lì (no, sarebbe troppo intuitivo!). Devi andare alla scheda Cronologia, trovare la transazione, etichettarla e poi vedrai le etichette nella sezione delle monete. Le etichette che vedi nella sezione delle monete provengono dalle etichette degli indirizzi O dalle etichette della cronologia, ma qualsiasi etichetta della cronologia sovrascrive qualsiasi etichetta dell'indirizzo. Per fare il backup delle tue etichette su un file, puoi esportarle dal menù in alto, portafoglio -> etichette -> esporta.
+Idealmente, dovresti evitare di accumulare più UTXO nello stesso indirizzo. Se decidi di farlo (non farlo), puoi etichettare ogni UTXO invece di tutte con la stessa etichetta utilizzando il metodo dell'indirizzo. Non puoi effettivamente andare alla scheda "monete" ed editare le etichette lì (no, sarebbe troppo intuitivo!). Devi andare alla scheda Cronologia, trovare la transazione, etichettarla e poi vedrai le etichette nella sezione delle monete. Le etichette che vedi nella sezione delle monete provengono dalle etichette degli indirizzi O dalle etichette della cronologia, ma qualsiasi etichetta della cronologia sovrascrive qualsiasi etichetta dell'indirizzo. Per fare il backup delle tue etichette su un file, puoi esportarle dal menù in alto, wallet -> label -> export.
 
-Successivamente, spendiamo le monete dal primo indirizzo al secondo indirizzo. Clicca con il pulsante destro del mouse sul primo indirizzo e seleziona "spend from" (in realtà non è necessario in questo scenario, ma immagina di avere molti UTXO in molti indirizzi; utilizzando questa funzione, possiamo forzare il wallet a spendere solo gli UTXO che vogliamo. Se vogliamo selezionare più UTXO in più indirizzi, possiamo selezionare gli indirizzi con un clic del mouse sinistro tenendo premuto il tasto comando, quindi cliccare con il pulsante destro del mouse e selezionare "spend from"):
+Successivamente, spendiamo gli UTXO dal primo indirizzo al secondo indirizzo. Clicca con il pulsante destro del mouse sul primo indirizzo e seleziona "spend from" (in realtà non è necessario in questo scenario, ma immagina di avere molti UTXO in molti indirizzi; utilizzando questa funzione, possiamo forzare il wallet a spendere solo gli UTXO che vogliamo. Se vogliamo selezionare più UTXO in più indirizzi, possiamo selezionare gli indirizzi con un clic del mouse sinistro tenendo premuto il tasto comando, quindi cliccare con il pulsante destro del mouse e selezionare "spend from"):
 
 ![image](assets/36.webp)
 
@@ -628,14 +628,14 @@ Un processo simile è possibile con una transazione salvata come file. Prova a e
 
 Ora, tornando al pulsante "salva": questo non serve a salvare il testo della transazione. In realtà, dice al wallet Electrum di riconoscere questa transazione sul computer locale come un pagamento effettuato. Se lo fai per errore, vedrai la transazione con un'icona di un computer. Puoi cliccare con il tasto destro e cancellare la transazione: non preoccuparti, non puoi cancellare i bitcoin in questo modo. Electrum dimenticherà quindi che questa transazione è mai avvenuta e "rimborserà" i satoshi e li mostrerà nella posizione corretta in cui si trovano effettivamente.
 
-### Indirizzi di cambio
+### Indirizzi di resto
 
-Gli indirizzi di cambio sono interessanti. Devi capire gli UTXO per comprendere questa spiegazione. Se stai spendendo verso un indirizzo una quantità inferiore all'UTXO, allora i bitcoin rimanenti andranno al miner a meno che non venga specificato un output di cambio.
+Gli indirizzi di resto sono interessanti. Devi capire gli UTXO per comprendere questa spiegazione. Se stai spendendo verso un indirizzo una quantità inferiore all'UTXO, allora i bitcoin rimanenti andranno al miner a meno che non venga specificato un output di resto.
 Potresti avere un UTXO di 6,15 bitcoin e desiderare di spendere 0,15 bitcoin per donare a dei manifestanti oppressi da un governo "democratico" tirannico in qualche parte del mondo. Prenderesti quindi i 6,15 bitcoin (utilizzando la funzione "spend from" in Electrum) e li inseriresti in una transazione.
 
 Incolleresti l'indirizzo dei manifestanti nel campo "pay to", forse inseriresti "EndTheFed & WEF" nel campo "description" e per l'importo inseriresti 0,15 bitcoin e cliccheresti su "pay", quindi su "advanced".
 
-Nella schermata della transazione, nella finestra di input, vedresti l'UTXO da 6,15 bitcoin. Nella finestra di output, vedresti un indirizzo senza evidenziazione (questo è l'indirizzo dei manifestanti) con accanto 0,15 bitcoin. Vedresti anche un indirizzo giallo con leggermente meno di 6,0 bitcoin. Questo è l'indirizzo di cambio selezionato automaticamente dal wallet da uno dei suoi stessi indirizzi di cambio gialli. Lo scopo dell'indirizzo di cambio è consentire al wallet di mettere UTXO di resto al suo interno senza compromettere la disponibilità degli indirizzi di ricezione che potresti avere in programma o per cui hai inviato invoice. Se ad esempio verranno utilizzati successivamente dai clienti, non vuoi che il tuo wallet li utilizzi automaticamente e li riempia. È disordinato e dannoso per la privacy.
+Nella schermata della transazione, nella finestra di input, vedresti l'UTXO da 6,15 bitcoin. Nella finestra di output, vedresti un indirizzo senza evidenziazione (questo è l'indirizzo dei manifestanti) con accanto 0,15 bitcoin. Vedresti anche un indirizzo giallo con leggermente meno di 6,0 bitcoin. Questo è l'indirizzo di resto selezionato automaticamente dal wallet da uno dei suoi stessi indirizzi di resto gialli. Lo scopo dell'indirizzo di resto è consentire al wallet di mettere UTXO di resto al suo interno senza compromettere la disponibilità degli indirizzi di ricezione che potresti avere in programma o per cui hai inviato invoice. Se ad esempio verranno utilizzati successivamente dai clienti, non vuoi che il tuo wallet li utilizzi automaticamente e li riempia. È disordinato e dannoso per la privacy.
 
 Nota che, mentre regoli la fee di mining, l'importo dell'output di cambio si regolerà automaticamente, non l'importo del pagamento.
 
@@ -672,13 +672,13 @@ Creeremo un wallet regolare fittizio (questa volta aggiungendo un po' più di co
 
 Osserva le 12 parole casuali nella schermata sottostante e che ho inserito una frase segreta nel campo della frase segreta:
 
-FRASE SEGRETA: "Craig Wright è un bugiardo e un truffatore e dovrebbe essere in prigione. Inoltre, Ross Ulbricht dovrebbe essere rilasciato immediatamente dal carcere."
+FRASE SEGRETA: "Craig Wright is a liar and a fraud and belongs in jail. Also, Ross Ulbricht should be released from prison immediately."
 
-La frase segreta può essere lunga fino a 100 caratteri e idealmente dovrebbe essere inequivocabile e non troppo breve. Quella che ho usato io è solo per divertimento. In generale, suggerisco di evitare lettere maiuscole e simboli solo per ridurre lo stress nel tentativo di combinazioni se hai mai avuto problemi a ricordare la tua frase segreta.
+La frase segreta può essere lunga fino a 100 caratteri e idealmente dovrebbe essere inequivocabile e non troppo breve. Quella che ho usato io è solo per divertimento. In generale, se hai problemi a ricordare la tua passphrase, consiglio di evitare lettere maiuscole e simboli in modo da ridurre lo stress nel provare combinazioni.
 
 ![image](assets/48.webp)
 
-Successivamente, in Electrum, vai al menù file->nuovo/ripristina. Digita un nome univoco per creare un nuovo wallet e clicca su "avanti".
+Successivamente, in Electrum, vai al menù file->new/restore. Digita un nome univoco per creare un nuovo wallet e clicca su "next".
 
 ![image](assets/49.webp)
 
@@ -692,7 +692,7 @@ I passaggi successivi dovresti conoscerli ormai, quindi li elencherò senza imma
 - Lascia le impostazioni predefinite per la semantica dello script e il percorso di derivazione
 - Non è necessario aggiungere una password (blocca il wallet)
 
-Ora torna al sito di Ian Coleman, nella sezione "percorso di derivazione", e clicca sulla scheda "BIP 84" per selezionare la stessa semantica dello script predefinita in Electrum (Native Segwit).
+Ora torna al sito di Ian Coleman, nella sezione "derivation path", e clicca sulla scheda "BIP 84" per selezionare la stessa semantica dello script predefinita in Electrum (Native Segwit).
 
 ![image](assets/50.webp)
 
@@ -706,7 +706,7 @@ La chiave privata estesa dell'account può essere utilizzata per rigenerare comp
 
 Copia la "chiave pubblica estesa dell'account" negli appunti.
 
-Quindi vai su Electrum, lascia aperto il wallet che abbiamo creato in precedenza e vai su file->nuovo/ripristina. Il processo per creare il wallet è leggermente diverso rispetto a prima:
+Quindi vai su Electrum, lascia aperto il wallet che abbiamo creato in precedenza e vai su file->new/restore. Il processo per creare il wallet è leggermente diverso rispetto a prima:
 
 - wallet standard
 - Utilizza una chiave principale
@@ -721,7 +721,7 @@ Una ragione, e non la principale, è che potenzialmente puoi osservare il tuo wa
 
 Un'altra ragione è che è RICHIESTO per effettuare pagamenti se scegli di tenere le tue chiavi private fuori dal computer; ti spiego:
 
-> Gli hardware wallet (HW) sono stati creati in modo che un dispositivo possa conservare le tue chiavi private in modo sicuro (bloccate con un PIN), non espongono mai le chiavi a un computer (anche quando l'hardware wallet è collegato a un computer tramite un cavo) e non sono in grado di connettersi a Internet. Un dispositivo del genere non può effettuare transazioni da solo perché tutte le transazioni Bitcoin iniziano facendo riferimento a un UTXO (o più UTXO) sulla blockchain (che si trova su un nodo). Un wallet deve specificare l'ID della transazione in cui si trova l'UTXO e quale output della transazione deve essere speso. Solo dopo aver specificato l'input può essere creata una nuova transazione in primo luogo, figuriamoci firmarla. Gli hardware wallet non possono creare transazioni perché non hanno accesso a nessun UTXO: non sono collegati a nulla! Di solito viene estratta una chiave pubblica estesa dall'HW e gli indirizzi vengono quindi visualizzati su un computer: molte persone avranno familiarità con il software Ledger o Trezor Suite che mostra indirizzi e saldi sul loro computer - questo è un wallet di sola visualizzazione. Questi programmi possono creare transazioni, ma non possono firmarle. Possono solo far firmare le transazioni da HW che sono collegati a loro. L'HW prende la transazione appena generata dal wallet di sola visualizzazione, la firma e poi la invia di nuovo al computer per la trasmissione a un nodo. L'HW non può trasmettere da solo, lo fa il wallet di sola visualizzazione associato. In questo modo, i due wallet (wallet con chiave pubblica sul computer e wallet con chiave privata nell'HW) collaborano per generare, firmare e trasmettere, assicurandosi che le chiavi private rimangano isolate e lontane da un dispositivo connesso a Internet.
+> Gli hardware wallet (HWW) sono stati creati in modo che un dispositivo possa conservare le tue chiavi private in modo sicuro (bloccate con un PIN), non espongono mai le chiavi a un computer (anche quando l'hardware wallet è collegato a un computer tramite un cavo) e non sono in grado di connettersi a Internet. Un dispositivo del genere non può effettuare transazioni da solo perché tutte le transazioni Bitcoin iniziano facendo riferimento a un UTXO (o più UTXO) sulla blockchain (che si trova su un nodo). Un wallet deve specificare l'ID della transazione in cui si trova l'UTXO e quale output della transazione deve essere speso. Solo dopo aver specificato l'input può essere creata una nuova transazione in primo luogo, figuriamoci firmarla. Gli hardware wallet non possono creare transazioni perché non hanno accesso a nessun UTXO: non sono collegati a nulla! Di solito viene estratta una chiave pubblica estesa dall'HWW e gli indirizzi vengono quindi visualizzati su un computer: molte persone avranno familiarità con il software Ledger o Trezor Suite che mostra indirizzi e saldi sul loro computer - questo è un wallet di sola visualizzazione. Questi programmi possono creare transazioni, ma non possono firmarle. Possono solo far firmare le transazioni da HWW che sono collegati a loro. L'HWW prende la transazione appena generata dal wallet di sola visualizzazione, la firma e poi la invia di nuovo al computer per la trasmissione a un nodo. L'HWW non può trasmettere da solo, lo fa il wallet di sola visualizzazione associato. In questo modo, i due wallet (wallet con chiave pubblica sul computer e wallet con chiave privata nell'HWW) collaborano per generare, firmare e trasmettere, assicurandosi che le chiavi private rimangano isolate e lontane da un dispositivo connesso a Internet.
 
 ## Transazioni Bitcoin parzialmente firmate (PSBT)
 
@@ -744,19 +744,19 @@ Questa sarà la mia prima guida su come utilizzare un hardware wallet con Electr
 
 Prima di connettere il tuo vero wallet tramite ColdCard, spero tu abbia seguito i passaggi precedenti per caricare un wallet fittizio di Electrum e impostare i parametri di rete.
 
-Quindi, su ColdCard, inserisci la scheda SD. Sto assumendo che tu abbia già creato il tuo seed. Se stai accedendo al wallet con una passphrase, applicala ora. Scorri verso il basso e seleziona il menu Avanzate/Strumenti -> Esporta Portafoglio -> Portafoglio Electrum.
+Quindi, su ColdCard, inserisci la scheda SD. Sto dando per scontato che tu abbia già creato il tuo seed. Se stai accedendo al wallet con una passphrase, applicala ora. Scorri verso il basso e seleziona il menù Advanced/Tool -> Export wallet -> Electrum wallet.
 
 Puoi scorrere verso il basso e leggere il messaggio. Ti offre sempre di selezionare "1" per inserire un numero di conto diverso da zero (parte del percorso di derivazione), ma se hai seguito il mio consiglio, non hai modificato i percorsi di derivazione predefiniti, quindi non vorrai un numero di conto diverso da zero; premi semplicemente il segno di spunta per continuare.
 
 Quindi seleziona la semantica dello script. La maggior parte delle persone selezionerà "Native Segwit".
 
-Dirà "File del portafoglio Electrum scritto" e visualizzerà il nome del file. Fai un appunto mentale.
+Dirà "Electrum wallet file written" e visualizzerà il nome del file. Fai un appunto mentale.
 
 Quindi togli la scheda micro SD e inseriscila nel computer con Electrum.
 
 Alcuni sistemi operativi apriranno automaticamente l'esplora file quando inserisci la microSD. Molte persone vedranno il nuovo file del wallet e lo apriranno facendo doppio clic su di esso, e si chiederanno perché non funziona. Non è un ottimo design. In realtà, devi ignorare l'esplora file (chiudilo) e aprire il file del wallet utilizzando Electrum:
 
-Apri Electrum. Se è già aperto con un altro wallet, seleziona file -> nuovo. Stiamo cercando questa finestra:
+Apri Electrum. Se è già aperto con un altro wallet, seleziona file -> new. Stiamo cercando questa finestra:
 
 ![image](assets/52.webp)
 
@@ -819,15 +819,15 @@ Successivamente, crea un nuovo wallet:
 
 ### Transazioni utilizzando ColdCard
 
-Con il cavo collegato, le transazioni sono facili. La firma delle transazioni sarà senza soluzione di continuità.
+Con il cavo collegato, le transazioni sono facili. La firma delle transazioni sarà fluida.
 
 Se utilizzi il dispositivo in modo isolato, dovrai passare manualmente la transazione salvata tra i dispositivi utilizzando la scheda microSD. Ci sono alcuni trucchi.
 
-Dopo aver creato una transazione e finalizzata, devi cliccare sul pulsante di esportazione nell'angolo in basso a sinistra. Vedrai "salva su file" che, in modo controintuitivo, non è ciò che vogliamo. In realtà, devi prima andare all'ultima opzione di menù che dice "per hardware wallet" e quindi, all'interno di quella selezione, trovare l'altro "salva su file" e selezionarlo. Quindi salva il file sulla microSD, togli la scheda e inseriscila nel ColdCard. Ricorda che potresti dover applicare una passphrase per selezionare il wallet corretto. Lo schermo indicherà "pronto per la firma". Clicca sul segno di spunta, controlla la transazione e procedi confermando con il segno di spunta. Una volta fatto, togli la scheda e reinseriscila nel computer.
+Dopo aver creato una transazione e finalizzata, devi cliccare sul pulsante di esportazione nell'angolo in basso a sinistra. Vedrai "save to file" che, in modo controintuitivo, non è ciò che vogliamo. In realtà, devi prima andare all'ultima opzione di menù che dice "for hardware wallets" e quindi, all'interno di quella selezione, trovare l'altro "save to file" e selezionarlo. Quindi salva il file sulla microSD, togli la scheda e inseriscila nel ColdCard. Ricorda che potresti dover applicare una passphrase per selezionare il wallet corretto. Lo schermo indicherà "ready to sign". Clicca sul segno di spunta, controlla la transazione e procedi confermando con il segno di spunta. Una volta fatto, togli la scheda e reinseriscila nel computer.
 
-Quindi dobbiamo aprire la transazione utilizzando Electrum. La funzione è nascosta nel menù Strumenti -> Carica transazione. Naviga nel file system e trova il file. Ogni volta che firmi, ci saranno tre file. Il file originale salvato che ha creato il wallet di sola visualizzazione e due file creati da ColdCard (non so perché lo faccia). Uno dirà "firmato" e uno dirà "finale". Non è intuitivo, ma quello "firmato" non è utile, dobbiamo aprire la transazione "finale".
+Quindi dobbiamo aprire la transazione utilizzando Electrum. La funzione è nascosta nel menù tools -> load transaction. Naviga nel file system e trova il file. Ogni volta che firmi, ci saranno tre file. Il file originale salvato che ha creato il wallet di sola visualizzazione e due file creati da ColdCard (non so perché lo faccia). Uno dirà "firmato" e uno dirà "finale". Non è intuitivo, ma quello "firmato" non è utile, dobbiamo aprire la transazione "finale".
 
-Una volta caricata quella, puoi cliccare su "trasmetti" e il pagamento verrà effettuato.
+Una volta caricata quella, puoi cliccare su "Broadcast" e il pagamento verrà effettuato.
 
 ## Aggiornamento di Electrum e della directory nascosta ".electrum"
 
@@ -859,7 +859,7 @@ Come ho spiegato in precedenza, nella scheda degli indirizzi c'è una colonna de
 
 ![image](assets/54.webp)
 
-Quando sposti il tuo wallet Electrum su un altro computer, potresti voler conservare tutte queste note. Puoi eseguire il backup su un file utilizzando il menù, wallet -> etichette -> esporta, e quindi sul nuovo computer utilizzare wallet -> etichette -> importa.
+Quando sposti il tuo wallet Electrum su un altro computer, potresti voler conservare tutte queste note. Puoi eseguire il backup su un file utilizzando il menù, wallet -> labels -> export, e quindi sul nuovo computer utilizzare wallet -> labels -> import.
 
 ## Suggerimenti:
 

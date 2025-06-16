@@ -27,26 +27,135 @@ Cette formation s’adresse aux utilisateurs intermédiaires qui souhaitent alle
 ## Aperçu du cours
 <chapterId>7bf90137-7387-462d-884f-fe48e812b739</chapterId>
 
+Bienvenue dans la formation SCU 202, la suite de la formation SCU 101 qui vous mènera plus loin dans votre maîtrise de la sécurité informatique, en mettant l'accent sur la souveraineté individuelle, la protection de votre vie privée, et une gestion sécurisée de vos données personnelles.
 
+Cette formation complète se veut à la fois accessible aux utilisateurs intermédiaires et suffisamment approfondie pour satisfaire les utilisateurs avancés. Voici un aperçu de ce que vous allez découvrir tout au long de ce cours.
 
+### Partie 1 - Introduction
 
+La formation débutera par un rapide rappel des notions vues dans SCU 101. Cette révision garantira que vous êtes pleinement à jour sur les principes fondamentaux nécessaires pour bien aborder la suite.
 
+### Partie 2 - Du clic au terminal : maîtriser Linux
+
+Cette partie introduira le système GNU/Linux, pilier de la souveraineté numérique. Vous explorerez les différences entre Linux, Windows et macOS, vous découvrirez l’histoire passionnante de Linux et du logiciel libre, et vous comprendrez pourquoi Linux est souvent synonyme de sécurité et de liberté.
+
+Nous verrons ensuite comment choisir la distribution Linux la mieux adaptée à vos besoins et votre environnement de bureau. Enfin, vous ferez vos premiers pas sur Ubuntu avec un guide très détaillé d'installation et de configuration.
+
+![Image](assets/fr/064.webp)
+
+### Partie 3 - Sécuriser son ordinateur
+
+Vous apprendrez ici à renforcer radicalement la sécurité de votre ordinateur. Nous aborderons les méthodes pour protéger efficacement vos accès et cloisonner vos usages. Vous comprendrez l'importance des mises à jour régulières du système et des logiciels pour minimiser les failles potentielles.
+
+Vous serez également formés à vérifier l’intégrité et l’authenticité des logiciels téléchargés pour éviter toute infection ou compromission, ainsi qu'à utiliser efficacement le chiffrement pour sécuriser vos données personnelles et vos sauvegardes. Enfin, vous découvrirez pourquoi et comment nettoyer les métadonnées de vos fichiers pour protéger votre vie privée en ligne.
+
+![Image](assets/fr/235.webp)
+
+### Partie 4 - Le navigateur : un OS dans l'OS
+
+Le navigateur web est de nos jours omniprésent dans notre quotidien numérique, et il est souvent la cible privilégiée des attaques informatiques. Dans cette partie, nous allons retracer l’histoire des navigateurs et leur évolution.
+
+Vous découvrirez ensuite un panorama des moteurs de rendu et des navigateurs actuels, leurs forces et faiblesses, ainsi que des bonnes pratiques concrètes pour sécuriser au maximum votre navigation.
+
+![Image](assets/fr/098.webp)
+
+### Partie 5 - Reprendre le contrôle de son téléphone
+
+Nos smartphones sont aujourd’hui des extensions de notre vie personnelle et professionnelle, d'où l'importance de maîtriser leur sécurité. Nous explorerons en détail les différents systèmes d'exploitation mobiles, leurs avantages et leurs limites, tout en découvrant des alternatives open-source pour reprendre la pleine souveraineté de votre appareil.
+
+Vous apprendrez ensuite les bonnes pratiques de sécurisation quotidienne, des mises à jour jusqu'au cloisonnement de vos données personnelles et professionnelles. Enfin, vous découvrirez des outils de communication sécurisés et des applications open-source alternatives pour renforcer la confidentialité et la sécurité de votre mobile.
+
+![Image](assets/fr/142.webp)
+
+### Partie 6 - Sécuriser son réseau local
+
+Votre réseau domestique constitue un point névralgique essentiel en termes de sécurité. Nous commencerons par revoir comment fonctionne un réseau local, avant d'apprendre les étapes concrètes pour le sécuriser efficacement.
+
+Vous saurez choisir et configurer un routeur sécurisé, segmenter votre réseau, renforcer votre réseau Wi-Fi, et déployer des outils de surveillance pour détecter rapidement toute anomalie.
+
+![Image](assets/fr/193.webp)
+
+### Partie 7 - Partie finale
+
+Pour clôturer cette formation, vous pourrez tenter d'avoir votre diplôme en passant l'examen final, afin de vérifier votre compréhension des concepts abordés.
+
+274
+
+Prêt à prendre pleinement en main votre sécurité informatique, renforcer votre souveraineté individuelle et garantir votre confidentialité numérique ? Allons-y !
 
 
 ## Récapitulatif essentiel de SCU 101
 <chapterId>26cfac35-a3bb-4657-95b3-8508bedfa903</chapterId>
 
-Ici l'idée c'est de faire un gros recap de chaque section de SCU101 pour avoir un cours dans la continuité.
+Avant de débuter la formation SCU 202, je vous propose de revoir brièvement dans ce chapitre les notions fondamentales abordées dans la formation précédente : SCU 101. 
 
+D’ailleurs, si vous êtes encore débutant en informatique et que vous n’avez pas suivi SCU 101, je vous recommande vivement de commencer par cette première formation avant d’aborder celle-ci. Les bases abordées dans SCU 101 ne seront pas reprises ici. Je ne reviendrai donc pas sur les pratiques élémentaires de sécurité, ni sur l’utilisation des VPN, des gestionnaires de mots de passe ou encore de l’authentification à deux facteurs. Et pourtant, toutes ces notions sont essentielles à maîtriser avant de passer à des usages plus avancés que nous allons aborder dans les chapitres suivants.
 
+La formation SCU 101 était une formation d’introduction, conçue pour établir une base solide d’hygiène numérique à destination des utilisateurs débutants et intermédiaires en informatique. Elle avait pour objectif d’améliorer au quotidien sa sécurité, sa confidentialité et sa souveraineté numérique.
 
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
+### Naviguer en ligne de façon sécurisée
 
+La navigation internet représente souvent la porte d’entrée principale des menaces informatiques. Dans SCU 101, nous avons vu qu'il est important de rester vigilant face notamment aux téléchargements. Téléchargez uniquement des fichiers provenant de sources fiables, en privilégiant les logiciels libres (open source) qui bénéficient souvent d'une meilleure transparence et de contrôles par la communauté.
 
+Une autre bonne pratique vue dans la formation concerne les cookies, ces petits fichiers déposés sur votre ordinateur lors de vos visites sur des sites web. Vous devez régulièrement les supprimer ou les limiter pour préserver votre vie privée.
 
+De manière générale, une navigation sécurisée suppose une certaine prudence : ne cliquez pas sur des liens inconnus, évitez les sites douteux, et privilégiez l'utilisation d'un navigateur sécurisé et à jour.
 
+268
 
+### Comprendre les VPN et sécuriser sa connexion Internet
 
+SCU 101 vous a familiarisé avec la notion de VPN (réseau privé virtuel). Concrètement, un VPN chiffre votre trafic internet en créant un tunnel sécurisé vers un serveur distant. Néanmoins, tous les VPN ne se valent pas : privilégiez des fournisseurs transparents, fiables et avec inscription anonyme comme Mullvad, ProtonVPN ou IVPN. Ces VPN vous assurent une confidentialité optimale sans collecter vos données personnelles inutilement.
+
+Par ailleurs, nous avions vu que sur des réseaux Wi-Fi publics, la connexion est particulièrement exposée. Ainsi, l'usage d'un VPN est impératif, ou à défaut, connectez-vous uniquement à des sites en HTTPS pour protéger vos échanges.
+
+269
+
+### Utilisation prudente de votre ordinateur
+
+La sécurité passe également par la bonne connaissance de votre système d’exploitation (OS). Vous avez exploré les trois principaux OS : Windows, macOS et Linux, chacun possédant des particularités en matière de sécurité. Sur Windows notamment, un antivirus à jour est essentiel pour détecter et bloquer les logiciels malveillants.
+
+270
+
+SCU 101 vous rappelait aussi de ne jamais brancher des clés USB inconnues sur votre ordinateur, car elles peuvent contenir des malwares pouvant infecter immédiatement votre système.
+
+### Se protéger des cyberattaques et gérer ses sauvegardes
+
+Une partie essentielle de la formation SCU 101 concernait la compréhension des cyberattaques. Les virus ne surgissent pas seuls : ils nécessitent généralement votre intervention involontaire, comme le téléchargement d’un fichier infecté ou l’ouverture d’un lien frauduleux reçu par email.
+
+Parmi les attaques les plus courantes, vous avez abordé le phishing, technique consistant à envoyer des messages frauduleux pour vous inciter à dévoiler vos données sensibles. Face à ces attaques, vérifiez systématiquement les expéditeurs, évitez de cliquer sur des liens ou d'ouvrir des pièces jointes provenant de sources inconnues ou suspectes.
+
+Le ransomware constitue un autre danger majeur, bloquant vos données en les chiffrant afin de réclamer une rançon. Pour y faire face, la sauvegarde régulière de vos données est indispensable.
+
+271
+
+### Sécuriser efficacement vos boîtes mails
+
+SCU 101 insistait particulièrement sur l’importance de sécuriser votre messagerie électronique, véritable porte d’entrée vers tous vos autres comptes en ligne. Une boîte mail compromise permet à un pirate de réinitialiser les mots de passe de presque tous vos comptes via les procédures habituelles de récupération par mail.
+
+Ainsi, vous avez vu l’importance de créer des adresses mail dédiées sécurisées. Il est judicieux d'avoir une adresse mail spécifique réservée à la récupération de compte, distincte de votre adresse principale.
+
+272
+
+### L’importance des gestionnaires de mots de passe
+
+La sécurité numérique repose fortement sur la qualité de vos mots de passe. SCU 101 expliquait pourquoi utiliser un gestionnaire de mots de passe est essentiel : ces outils vous permettent de générer et stocker des mots de passe complexes, uniques et aléatoires pour chaque service utilisé.
+
+Les gestionnaires de mots de passe vous simplifient grandement la tâche, puisque vous n'avez à retenir qu’un seul mot de passe maître pour tous les autres.
+
+273
+
+### L’authentification à deux facteurs (2FA)
+
+Enfin, SCU 101 vous a sensibilisé à l’authentification à deux facteurs (2FA). Le principe consiste à réaliser une authentification en deux étapes distinctes : votre mot de passe habituel et une seconde étape, telle qu’un code temporaire généré par une application comme Google Authenticator ou Authy, ou encore une clé matérielle comme YubiKey.
+
+Le 2FA protège considérablement mieux vos comptes : même si votre mot de passe est compromis, l’accès reste impossible sans le second facteur. Attention, les codes envoyés par SMS ou email sont moins sûrs car susceptibles d’être interceptés ou détournés.
+
+___
+
+Ce rappel des fondamentaux va servir de base pour notre formation SCU 202, où nous irons beaucoup plus loin dans votre maîtrise des techniques de sécurité informatique, afin de mieux protéger votre souveraineté individuelle, votre vie privée et vos données personnelles de manière globale.
 
 # Du clic au terminal : maîtriser Linux
 <partId>e28895b3-2b09-4811-8031-5abc1f14fde2</partId>

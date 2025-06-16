@@ -2250,12 +2250,12 @@ sudo cryptsetup close encrypted_usb
 
 Vous pouvez alors retirer votre clé USB en toute sécurité.
 
-Pour les prochaines utilisations de votre clé usb :
+Pour les prochaines utilisations de votre clé USB :
 
 ```bash
 sudo cryptsetup open /dev/sdb encrypted_usb
 sudo mount /dev/mapper/encrypted_usb /mnt/usb
-# … you work on the usb …
+#### … you work on the usb …
 sudo umount /mnt/usb
 sudo cryptsetup close encrypted_usb
 ```
@@ -2353,30 +2353,172 @@ Pour ce qui est des supports de stockage externes (disques durs, clés USB…), 
 
 Une fois le chiffrement en place, le disque externe ne pourra être monté qu’en saisissant ce mot de passe. Le système effectuera alors le déchiffrement à la volée.
 
+#### Quelques recommandations pour vos sauvegardes chiffrées
+
+Avant de chiffrer un support, vous devez sauvegarder toutes les données qu’il contient (sauf s'il est vide, évidemment), car la procédure de chiffrement efface généralement le contenu initial.
+
+Le choix du mot de passe est également très important : il doit être long, complexe et unique, car il constitue la seule protection entre vos données et un tiers malveillant. Vous devez également en faire une sauvegarde, par exemple dans un gestionnaire de mots de passe, car contrairement aux services en ligne, il n’existe aucun mécanisme de récupération. Si vous oubliez votre mot de passe, les données sont définitivement perdues. 
+
+### Chiffrement sélectif de fichiers
+
+Dans certains cas, il n’est ni nécessaire ni pratique de chiffrer l’ensemble d’un disque dur ou d’un support externe. Vous pouvez alors opter pour un chiffrement sélectif, qui consiste à ne sécuriser que certains fichiers ou dossiers contenant des données sensibles.
+
+L’une des méthodes les plus connues pour chiffrer un fichier consiste à utiliser GPG. Cet outil repose sur la cryptographie asymétrique : vous disposez d’une paire de clés, l’une publique, que vous pouvez distribuer librement à vos correspondants, et l’autre privée, qui doit rester strictement secrète. Les fichiers sont chiffrés à l’aide de la clé publique du destinataire, mais ne peuvent être déchiffrés que par sa clé privée.
+
+Ce protocole est parfait pour échanger des fichiers sensibles de manière sécurisée avec d’autres personnes, sans partager un mot de passe. Pour un usage personnel ou ponctuel, GPG permet aussi un chiffrement symétrique : le fichier est alors protégé par un mot de passe unique que vous seul connaissez.
+
+Il y a également le logiciel open-source Cryptomator qui est une excellente alternative. Ce logiciel open-source permet de créer un coffre-fort : un dossier spécial dans lequel tous les fichiers déposés sont automatiquement chiffrés. Ce coffre peut être synchronisé avec des services cloud comme Dropbox, Google Drive ou Nextcloud sans que le fournisseur n’ait jamais accès aux données en clair. L’application est disponible sur tous les systèmes d’exploitation, y compris Android et iOS, et son utilisation ne nécessite aucune compétence technique particulière.
+
+256
+
+Enfin, il est également possible d'utiliser VeraCrypt en mode conteneur, qui permet de créer un fichier agissant comme une archive chiffrée, montable comme un disque.
+
+Maintenant que vous avez appris à protéger vos données personnelles contre la perte et le vol, nous allons nous intéresser dans le prochain chapitre à un autre aspect important : comment éviter que vos fichiers personnels ne deviennent des vecteurs d’attaque à travers leurs métadonnées.
 
 
-
-
-
-
-
-
-
-
-
-
-
-## Les réflexes à adopter au quotidien
+## Nettoyage des métadonnées
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
+À chaque fois que vous créez un fichier numérique, que ce soit une photo, un document bureautique, un fichier audio ou vidéo, celui-ci contient en arrière-plan des métadonnées. Ces informations ne sont pas visibles directement lorsque vous ouvrez le fichier, mais elles sont bel et bien présentes et peuvent contenir des éléments extrêmement sensibles.
 
+### Pourquoi les métadonnées représentent un risque ?
 
+Les métadonnées sont des données attachées à un fichier, dont le rôle est de fournir des informations contextuelles sur le contenu. Dans une image, cela peut inclure la date et l’heure de la prise de vue, les coordonnées GPS précises, le modèle de l’appareil photo ou du smartphone utilisé, et même parfois des réglages techniques. Dans un document texte, elles peuvent inclure le nom de l’auteur, celui de l’entreprise, l’identifiant de session de l’utilisateur, les horodatages de création et de modification, ou encore des commentaires internes laissés lors de l’édition.
 
+Ces métadonnées peuvent sembler anodines, mais elles peuvent être utilisées par des acteurs malveillants pour identifier l’auteur d’un fichier, localiser physiquement une personne, reconstituer des événements ou des habitudes, ou encore exploiter des failles logicielles à partir de la version du logiciel utilisé.
 
+Prenons un exemple concret : vous publiez sur un forum une photo censée être anonyme, prise depuis votre balcon. Si vous n’avez pas supprimé les métadonnées EXIF, un simple clic peut révéler les coordonnées GPS précises de votre domicile, le modèle de votre téléphone et la date exacte de la prise de la photo. De la même façon, un document PDF envoyé anonymement peut contenir votre nom complet dans ses propriétés.
 
+C’est pourquoi certaines plateformes de publication de médias ou de communication suppriment automatiquement les métadonnées de vos photos. C’est notamment le cas de X (Twitter), Instagram, Signal ou encore Session. En revanche, d’autres plateformes ne procèdent à aucune suppression : c’est le cas de la plupart des forums en ligne, de nombreux clients mail, ou encore lorsque vous publiez directement sur un site web.
 
+C’est donc un réflexe essentiel à adopter : dès qu’un fichier sort de votre sphère privée, vous devez penser à en nettoyer les métadonnées afin d’éviter de divulguer, à votre insu, des informations personnelles ou sensibles. Voyons ensemble comment procéder, en fonction de votre système d’exploitation.
 
+### Sur Linux (Debian)
 
+#### Utiliser ExifTool
+
+- **Étape 1 : Installer ExifTool**
+
+Le moyen le plus complet et fiable pour gérer et supprimer les métadonnées est l’outil ExifTool, développé par Phil Harvey. Il est compatible avec un grand nombre de formats de fichiers (JPG, PNG, PDF, MP3, DOCX...) et permet à la fois l’affichage et la suppression de métadonnées.
+
+Pour l’installer sur une distribution Debian (Ubuntu), ouvrez un terminal et tapez la commande :
+
+```bash
+sudo apt update
+sudo apt install libimage-exiftool-perl
+```
+
+Ce paquet installe `exiftool`, que vous pouvez ensuite utiliser directement en ligne de commande.
+
+259
+
+- **Étape 2 : Afficher les métadonnées d’un fichier**
+
+Pour voir toutes les métadonnées contenues dans un fichier, utilisez la commande suivante :
+
+```bash
+exiftool name.jpg
+```
+
+Remplacez `name.jpg` par le nom réel de votre fichier. Assurez-vous également d’être positionné dans le dossier contenant cette image. Par exemple, si j’ai une photo de la statue de Satoshi Nakamoto dans le dossier `/Downloads`, je peux afficher ses métadonnées en exécutant la commande suivante :
+
+```bash
+cd Downloads
+exiftool Satoshi-Nakamoto-Lugano.jpeg
+```
+
+260
+
+Vous verrez alors une longue liste d’attributs, avec potentiellement :
+- La date et l'heure de création ;
+- La localisation GPS ;
+- Le fabricant et modèle d’appareil photo ;
+- Le logiciel utilisé pour l’édition ;
+- Des informations sur l’auteur...
+
+Cela vous permet d’avoir une vue complète sur ce que vous vous apprêtez à publier ou à transmettre.
+
+- **Étape 3 : Supprimer les métadonnées**
+
+Pour effacer toutes les métadonnées d’un fichier image, utilisez la commande :
+
+```bash
+exiftool -all= name.jpg
+```
+
+261
+
+Cette commande crée automatiquement une copie du fichier original avec les métadonnées supprimées. L’original est conservé avec l’extension `_original` ajoutée à son nom.
+
+262
+
+Si vous ne voulez pas conserver l’original, vous pouvez le supprimer avec la commande :
+
+```bash
+exiftool -all= -overwrite_original name.jpg
+```
+
+Si on regarde de nouveau les métadonnées de notre fichier, on peut voir que toutes les métadonnées inutiles ou sensibles ont été supprimées.
+
+263
+
+- **Étape 4 : Nettoyer un dossier entier**
+
+Si vous avez plusieurs fichiers à traiter dans un même dossier, vous pouvez utiliser une commande générique comme :
+
+```bash
+exiftool -all= *.jpeg
+```
+
+Cela supprime les métadonnées de tous les fichiers JPEG présents dans le répertoire courant. Vous pouvez adapter l’extension selon vos besoins (`*.png`, `*.pdf`...).
+
+264
+
+#### Utiliser MAT2
+
+En alternative à ExifTool, vous pouvez utiliser l’outil MAT2 (*Metadata Anonymisation Toolkit v2*).
+
+- Installation de MAT2 :
+
+```bash
+sudo apt install mat2
+```
+
+265
+
+Une fois installé, vous pouvez l’utiliser en ligne de commande comme ceci :
+
+```bash
+mat2 fichier.pdf
+```
+
+266
+
+Par défaut, MAT2 ne modifie pas le fichier original : il crée une version nettoyée dans le même dossier avec le suffixe `-clean` ajouté.
+
+267
+
+Pour nettoyer tout un dossier, comme par exemple ici le dossier `/Downloads` :
+
+```bash
+mat2 ~/Downloads/*
+```
+
+### Autres plateformes (Windows et macOS)
+
+Sur Windows et macOS, il existe plusieurs méthodes pour supprimer les métadonnées de vos documents. Selon moi, la plus simple consiste à utiliser le logiciel open source [ExifCleaner](https://exifcleaner.com/). Cet outil léger dispose d’une interface graphique et permet de traiter la plupart des formats de fichiers par simple glisser-déposer. En déposant un ou plusieurs fichiers sur l’interface, le logiciel supprime automatiquement les métadonnées inutiles et remplace les fichiers originaux dans le même dossier. ExifCleaner est disponible sur Windows, macOS et Linux.
+
+Son utilisation est extrêmement simple : exécutez le logiciel, puis glissez et déposez un ou plusieurs fichiers dans la fenêtre.
+
+257
+
+Patientez quelques instants pendant que l’outil nettoie les métadonnées. Une fois le processus terminé, vous pourrez voir un résumé indiquant le nombre de métadonnées initiales et le nombre final. Toutes les informations superflues auront été supprimées.
+
+258
+
+Nettoyer les métadonnées des fichiers que vous partagez est donc une bonne pratique à adopter en matière de sécurité informatique. Grâce aux outils simples présentés dans ce chapitre, c’est une habitude que vous pouvez mettre en place facilement au quotidien.
+
+Nous arrivons à la fin de cette section consacrée à la sécurisation de votre ordinateur. Dans la partie suivante, nous allons étudier en profondeur l’un des logiciels les plus critiques de votre machine : le navigateur web. À lui seul, il centralise une grande partie de vos usages numériques, ce qui en fait une cible privilégiée, tant sur le plan de la sécurité informatique que sur celui de la confidentialité.
 
 
 # Le navigateur : un OS dans l'OS

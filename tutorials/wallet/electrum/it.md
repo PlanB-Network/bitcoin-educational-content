@@ -1,7 +1,7 @@
 ---
 name: Electrum
 
-description: Guida completa a Electrum, da zero all'eroe
+description: Guida completa a Electrum, da zero a eroe
 ---
 
 ![cover](assets/cover.webp)
@@ -20,15 +20,15 @@ https://electrum.readthedocs.io/
 
 ## Perché Electrum?
 
-Questa è una guida dettagliata su come utilizzare il portafoglio Bitcoin Electrum, con soluzioni per tutte le sue insidie e particolarità, qualcosa che ho sviluppato dopo diversi anni di utilizzo e insegnamento agli studenti sulla sicurezza/privacy di Bitcoin. Electrum non è il miglior portafoglio Bitcoin per chi vuole mantenere tutto il più semplice possibile e preferisce rimanere a livello principiante. Invece, è per chi è o aspira ad essere un utente "esperto".
+Questa è una guida dettagliata su come utilizzare il wallet Bitcoin Electrum, con soluzioni per tutte le sue insidie e particolarità, qualcosa che ho sviluppato dopo diversi anni di utilizzo e insegnamento agli studenti sulla sicurezza/privacy di Bitcoin. Electrum non è il miglior wallet Bitcoin per chi vuole mantenere tutto il più semplice possibile e preferisce rimanere a livello principiante. Invece, è per chi è o aspira ad essere un utente "esperto".
 
 Per il nuovo utente di Bitcoin, è eccellente solo se sotto la supervisione di un utente esperto che gli mostri la strada. Se si impara ad usarlo da soli, sarebbe sicuro a patto che si prenda il proprio tempo e lo si utilizzi in un ambiente di test con solo un piccolo numero di satoshi all'inizio. Questa guida supporta tale sforzo, ma è anche un buon punto di riferimento per chiunque altro.
 
-> Avviso: questa guida è grande. Non cercare di fare tutto questo in un solo giorno. È meglio salvare la guida e procedere gradualmente nel tempo.
+> Avviso: questa guida è lunga. Non cercare di fare tutto questo in un solo giorno. È meglio salvare la guida e procedere gradualmente nel tempo.
 
 ## Scaricare Electrum
 
-Idealmente, utilizzare un computer dedicato a Bitcoin per le proprie transazioni Bitcoin (la mia guida per questo https://armantheparman.com/mint/) _(DISPONIBILE anche nella sezione sulla privacy)_. Va bene esercitarsi con piccole quantità su un computer "sporco" quando si sta imparando (chissà quanti malware nascosti il tuo computer regolare ha accumulato nel corso degli anni - non vuoi esporre i tuoi portafogli Bitcoin ad essi).
+L'ideale è utilizzare un computer dedicato a Bitcoin per le proprie transazioni Bitcoin (la mia guida per questo https://armantheparman.com/mint/) _(DISPONIBILE anche nella sezione sulla privacy)_. Va bene esercitarsi con piccole quantità su un computer "sporco" quando si sta imparando (chissà quanti malware nascosti il tuo computer regolare ha accumulato nel corso degli anni - non vuoi esporre i tuoi wallet Bitcoin ad essi).
 
 Ottieni Electrum da https://electrum.org/.
 
@@ -40,18 +40,18 @@ Clicca sul link di download corrispondente al tuo computer. Qualsiasi computer L
 
 ## Verifica di Electrum
 
-Lo scopo della "verifica" del download è assicurarsi che nemmeno un singolo bit di dati sia stato manomesso. Ciò impedisce di utilizzare una versione "hackerata" e dannosa del software. Va bene saltare questa fase a patto che si utilizzi la copia scaricata solo per esercitarsi, ovvero non utilizzare portafogli che contengono denaro serio. Quindi, una volta pronti a utilizzare Electrum per i propri fondi reali, è necessario eliminare la propria copia e ricominciare, questa volta verificando il download.
+Lo scopo della "verifica" del download è assicurarsi che nemmeno un singolo bit di dati sia stato manomesso. Ciò impedisce di utilizzare una versione "hackerata" e dannosa del software. Va bene saltare questa fase a patto che si utilizzi la copia scaricata solo per esercitarsi, ovvero non utilizzare wallet che contengono denaro reale. Quindi, una volta pronti a utilizzare Electrum per i propri fondi reali, è necessario eliminare la propria copia e ricominciare, questa volta verificando il download.
 
 Per fare ciò, utilizziamo strumenti di crittografia a chiave pubblica/privata - gpg, di cui abbiamo scritto una guida qui (https://armantheparman.com/gpg/). Lo strumento gpg viene fornito con tutti i sistemi operativi Linux. Per Mac e Windows, consulta il link gpg per le istruzioni di download.
 Oltre al download del software Electrum, per motivi di sicurezza, è necessaria anche la FIRMA digitale del software. Si tratta di una stringa di testo (in realtà un numero codificato usando il testo) che lo sviluppatore ha prodotto con la sua chiave gpg PRIVATA. Utilizzando il programma gpg, possiamo quindi "testare" la FIRMA rispetto alla sua chiave PUBBLICA (creata dalla chiave privata dello sviluppatore) a cui tutti hanno accesso, rispetto al FILE di download.
 
 In altre parole, con i tre input (firma, chiave pubblica e file di dati), otteniamo un output vero o falso per confermare che il file non è stato manomesso.
 
-Per ottenere la firma, fai clic sul link corrispondente al file scaricato (vedi frecce colorate):
+Per ottenere la firma, clicca sul link corrispondente al file scaricato (vedi frecce colorate):
 
 ![image](assets/2.webp)
 
-Cliccando sul link potrebbe scaricare automaticamente il file nella cartella dei download, oppure potrebbe aprirsi nel browser. Se si apre nel browser, è necessario salvare il file. È possibile fare clic con il pulsante destro del mouse e selezionare "Salva con nome". A seconda del sistema operativo o del browser, potrebbe essere necessario fare clic con il pulsante destro del mouse nell'area dello spazio bianco, non sul testo.
+Cliccando sul link potrebbe scaricare automaticamente il file nella cartella dei download, oppure potrebbe aprirsi nel browser. Se si apre nel browser, è necessario salvare il file. È possibile cliccare con il pulsante destro del mouse e selezionare "Salva con nome". A seconda del sistema operativo o del browser, potrebbe essere necessario cliccare con il pulsante destro del mouse nell'area dello spazio bianco, non sul testo.
 
 Di seguito è riportato il testo scaricato. Puoi vedere che ci sono più firme, queste sono firme di persone diverse. Puoi verificare ognuna di esse. Ti mostrerò come verificare solo quella dello sviluppatore.
 
@@ -61,9 +61,9 @@ Successivamente, è necessario ottenere la chiave pubblica di ThomasV, che è il
 
 Ottenerla dal sito web di Electrum è in realtà il modo meno sicuro, perché se questo sito web è malintenzionato (proprio ciò che stiamo verificando), perché dovremmo ottenere una chiave pubblica da esso (la chiave pubblica potrebbe essere falsa)?
 
-Per tenerlo semplice per ora, ti mostrerò come ottenerla comunque dal sito web, ma tieni presente questo. Ecco la copia (https://github.com/spesmilo/electrum/blob/master/pubkeys/ThomasV.asc) su GitHub con cui puoi confrontarla.
+Per farla semplice per ora, ti mostrerò come ottenerla comunque dal sito web, ma tieni presente questo. Ecco la copia (https://github.com/spesmilo/electrum/blob/master/pubkeys/ThomasV.asc) su GitHub con cui puoi confrontarla.
 
-Scorri un po' verso il basso nella pagina per trovare il link alla chiave pubblica di ThomasV (cerchio rosso sotto). Fai clic su di esso e scaricalo, o se si apre del testo in un browser, fai clic con il pulsante destro del mouse per salvarlo.
+Scorri un po' verso il basso nella pagina per trovare il link alla chiave pubblica di ThomasV (cerchio rosso sotto). Clicca su di esso e scaricalo, o se si apre del testo in un browser, clicca con il pulsante destro del mouse per salvarlo.
 
 ![image](assets/4.webp)
 
@@ -84,7 +84,7 @@ Nel terminale, digita questo per importare la chiave pubblica di ThomasV nel "po
 gpg --import ThomasV.asc
 ```
 
-Assicurati che il nome del file corrisponda a quello che hai scaricato. Inoltre, nota che ci sono due trattini, non uno solo. Inoltre, nota che c'è uno spazio prima e dopo "--import". Poi premi <enter>.
+Assicurati che il nome del file corrisponda a quello che hai scaricato. Inoltre, nota che ci sono due trattini, non uno solo. Nota anche che c'è uno spazio prima e dopo "--import". Poi premi <enter>.
 
 Il file dovrebbe essere importato. Se ricevi un errore, controlla di essere nella directory in cui il file effettivamente si trova. Per verificare in quale directory ti trovi (su Mac o Linux), digita pwd. Per vedere quali file sono nella directory in cui ti trovi (su Mac o Linux), digita ls. Dovresti vedere elencato il file di testo "ThomasV.asc", eventualmente tra gli altri file.
 
@@ -105,7 +105,7 @@ A volte puoi omettere il quarto elemento e il computer indovina cosa intendi. No
 
 Non copiare semplicemente i nomi dei file che ho mostrato qui - assicurati che corrispondano al nome del file che hai sul tuo sistema.
 
-Premi <enter> per eseguire il comando. Dovresti vedere una "buona firma da ThomasV" per indicare il successo. Ci saranno alcuni errori perché non abbiamo le chiavi pubbliche per le firme delle altre persone che sono contenute nel file di firma (questo sistema di combinare le firme in un unico file potrebbe cambiare nelle versioni successive). Inoltre, c'è un avviso in fondo che possiamo ignorare (questo ci avvisa che non abbiamo esplicitamente detto al computer di fidarci della chiave pubblica di ThomasV).
+Premi <enter> per eseguire il comando. Dovresti vedere una "buona firma da ThomasV" per indicare che è andato a buon fine. Ci saranno alcuni errori perché non abbiamo le chiavi pubbliche per le firme delle altre persone che sono contenute nel file di firma (questo sistema di combinare le firme in un unico file potrebbe cambiare nelle versioni successive). Inoltre, c'è un avviso in fondo che possiamo ignorare (questo ci avvisa che non abbiamo esplicitamente detto al computer di fidarci della chiave pubblica di ThomasV).
 
 Ora abbiamo una copia verificata di Electrum che è sicura da usare.
 
@@ -153,7 +153,7 @@ sudo chmod ug+x Electrum-4.1.5-x86_64.AppImage
 
 "sudo" fornisce privilegi di superutente; "chmod" è un comando per cambiare la modalità, modificando chi può leggere, scrivere o eseguire; "ug+x" significa che stiamo modificando l'utente e il gruppo per consentire l'esecuzione.
 
-Modifica il nome del file per corrispondere alla tua versione.
+Modifica il nome del file in modo che corrisponda alla tua versione.
 
 Quindi, Electrum verrà eseguito facendo doppio clic sull'icona dell'Appimage.
 
@@ -167,7 +167,7 @@ Per eseguire il programma, basta fare doppio clic su di esso. Potresti ricevere 
 
 Nonostante il fatto che odio Windows più di tutto, questo è il metodo più semplice. Basta fare doppio clic sul file eseguibile per avviarlo.
 
-## Inizia con un portafoglio fittizio
+## Inizia con un wallet fittizio
 
 Quando carichi per la prima volta Electrum, si aprirà una finestra come questa:
 
@@ -175,21 +175,21 @@ Quando carichi per la prima volta Electrum, si aprirà una finestra come questa:
 
 Successivamente, seleziona manualmente il tuo server, ma per ora lascia le impostazioni predefinite e connessione automatica.
 
-Successivamente, crea un portafoglio fittizio: non mettere mai fondi in questo portafoglio. Lo scopo di questo portafoglio fittizio è quello di procedere attraverso il software e assicurarsi che tutto funzioni correttamente prima di caricare il tuo vero portafoglio. Stiamo cercando di evitare di rivelare accidentalmente la privacy con un portafoglio reale. Se stai solo facendo pratica, il portafoglio che crei può essere considerato comunque un portafoglio fittizio.
+Successivamente, crea un wallet fittizio: non mettere mai fondi in questo portafoglio. Lo scopo di questo wallet fittizio è quello di procedere attraverso il software e assicurarsi che tutto funzioni correttamente prima di caricare il tuo vero wallet. Stiamo cercando di evitare di rivelare accidentalmente la privacy con un wallet reale. Se stai solo facendo pratica, il wallet che crei può essere considerato comunque un wallet fittizio.
 
-Puoi lasciare il nome come "default_wallet" o cambiarlo a tuo piacimento e fare clic su Avanti. In seguito, se hai più portafogli, puoi trovarli e aprirli in questa fase facendo clic prima su "Scegli..."
+Puoi lasciare il nome come "default_wallet" o cambiarlo a tuo piacimento e cliccare su Avanti. In seguito, se hai più wallet, puoi trovarli e aprirli in questa fase cliccando prima su "Choose..."
 
 ![image](assets/7.webp)
 
-Scegli "Portafoglio standard" e <Avanti>:
+Scegli "Standard wallet" e <Next>:
 
 ![image](assets/8.webp)
 
-Quindi, seleziona "Ho già una frase di recupero". Non voglio che tu prenda l'abitudine di creare una frase di recupero di Electrum, poiché utilizza il proprio protocollo che non è compatibile con altri portafogli: ecco perché non clicchiamo su "nuova frase di recupero".
+Quindi, seleziona "I already have a seed". Non voglio che tu prenda l'abitudine di creare una frase di recupero di Electrum, poiché utilizza il proprio protocollo che non è compatibile con altri wallet: ecco perché non clicchiamo su "new seed".
 
 ![image](assets/9.webp)
 
-Vai su https://iancoleman.io/bip39/ e crea una frase di recupero fittizia. Prima, cambia il numero di parole a 12 (che è una pratica comune), quindi fai clic su "genera" e copia le parole nella casella negli appunti.
+Vai su https://iancoleman.io/bip39/ e crea una frase di recupero fittizia. Prima, cambia il numero di parole a 12 (che è una pratica comune), quindi clicca su "generate" e copia le parole nella casella negli appunti.
 
 ![image](assets/10.webp)
 
@@ -197,29 +197,29 @@ Quindi incolla le parole in Electrum. Ecco un esempio:
 
 ![image](assets/11.webp)
 
-Electrum cercherà parole che corrispondano al suo proprio protocollo. Dobbiamo bypassare questo. Fai clic su Opzioni e seleziona Frase di recupero BIP39:
+Electrum cercherà parole che corrispondano al suo protocollo. Dobbiamo bypassare questo. Clicca su "options" e seleziona Frase di recupero BIP39:
 
 ![image](assets/12.webp)
 
-Il seme diventa quindi valido. (Prima di fare ciò, Electrum si aspettava un seme di Electrum, quindi questo seme era considerato non valido). Prima di fare clic su Avanti, notare il testo che dice "Checksum OK". È importante (per il portafoglio reale che potresti utilizzare in seguito) vedere questo prima di procedere, poiché conferma la validità del seme inserito. L'avvertimento in fondo può essere ignorato, è solo una lamentela dello sviluppatore di Electrum riguardo a BIP39 e alle loro affermazioni "FUD" che la loro versione (che non è compatibile con altri portafogli) è superiore.
+Il seed diventa quindi valido. (Prima di fare ciò, Electrum si aspettava un seed di Electrum, quindi questo seed era considerato non valido). Prima di cliccare su "next", notare il testo che dice "Checksum OK". È importante (per il wallet reale che potresti utilizzare in seguito) vedere questo prima di procedere, poiché conferma la validità del seed inserito. L'avvertimento in fondo può essere ignorato, è solo una lamentela dello sviluppatore di Electrum riguardo a BIP39 e alle loro affermazioni "FUD" che la loro versione (che non è compatibile con altri wallet) è superiore.
 
-> Una breve deviazione per un avvertimento importante. Lo scopo del checksum è assicurarsi di aver inserito il seme senza errori di battitura. Il checksum è la parte finale del seme (la 12ª parola diventa la parola di checksum) che viene determinata matematicamente dalla prima parte del seme (11 parole). Se si dovesse digitare qualcosa di sbagliato all'inizio, la parola di checksum non corrisponderà matematicamente e il software del portafoglio ti avviserà con un avvertimento. Ciò non significa che il seme non possa essere utilizzato per creare un portafoglio Bitcoin funzionale. Immagina di creare un portafoglio con un errore di battitura, caricare il portafoglio con bitcoin e poi un giorno potresti aver bisogno di ripristinare il portafoglio, ma quando lo fai, non ricreerai l'errore di battitura: ripristinerai il portafoglio sbagliato! È piuttosto pericoloso che Electrum ti permetta di procedere con la creazione di un portafoglio se il checksum non è valido, quindi fai attenzione, è tua responsabilità assicurarti. Altri portafogli non ti permetteranno di procedere, il che è molto più sicuro. Questo è uno dei motivi per cui dico che Electrum è sicuro da usare, una volta che impari ad usarlo correttamente (gli sviluppatori di Electrum dovrebbero risolvere questo problema).
+> Una breve deviazione per un avvertimento importante. Lo scopo del [checksum](https://planb.network/resources/glossary/checksum) è assicurarsi di aver inserito il seed senza errori di battitura. Il checksum è la parte finale del seed (la 12ª parola diventa la parola di checksum) che viene determinata matematicamente dalla prima parte del seed (11 parole). Se si dovesse digitare qualcosa di sbagliato all'inizio, la parola di checksum non corrisponderà matematicamente e il software del wallet ti avviserà con un avvertimento. Ciò non significa che il seed non possa essere utilizzato per creare un wallet Bitcoin funzionale. Immagina di creare un wallet con un errore di battitura, caricare il wallet con bitcoin e poi un giorno potresti aver bisogno di ripristinare il wallet, ma quando lo fai, non ricreerai l'errore di battitura: ripristinerai il wallet sbagliato! È piuttosto pericoloso che Electrum ti permetta di procedere con la creazione di un wallet se il checksum non è valido, quindi fai attenzione, è tua responsabilità assicurarti. Altri wallet non ti permetteranno di procedere, il che è molto più sicuro. Questo è uno dei motivi per cui dico che Electrum è sicuro da usare, una volta che impari ad usarlo correttamente (gli sviluppatori di Electrum dovrebbero risolvere questo problema).
 
 Nota che se desideri aggiungere una passphrase, la possibilità di selezionarla si trova in questa finestra delle opzioni, proprio in alto.
 
-Dopo aver fatto clic su OK, verrai riportato alla schermata in cui hai digitato la frase del seme. Se hai selezionato un'opzione di passphrase, NON la inserisci insieme alle parole del seme (la richiesta per quella arriva dopo).
+Dopo aver cliccato su OK, verrai riportato alla schermata in cui hai digitato la frase seed. Se hai selezionato un'opzione di passphrase, NON la inserisci insieme alle parole del seed (la richiesta per quella arriva dopo).
 
-Se non hai richiesto una passphrase, vedrai questa schermata successiva: ulteriori opzioni per il tipo di script del tuo portafoglio e il percorso di derivazione, che puoi imparare qui (https://armantheparman.com/public-and-private-keys/), ma lascia semplicemente i valori predefiniti e procedi.
+Se non hai richiesto una passphrase, vedrai questa schermata successiva: ulteriori opzioni per il tipo di script del tuo wallet e il percorso di derivazione, che puoi imparare qui (https://armantheparman.com/public-and-private-keys/), ma lascia semplicemente i valori predefiniti e procedi.
 
 ![image](assets/13.webp)
 
-> Per ulteriori informazioni: la prima opzione ti consente di scegliere tra legacy (indirizzi che iniziano con "1"), pay-to-script-hash (indirizzi che iniziano con "3") o bech32/native segwit (indirizzi che iniziano con "bc1q"). Al momento della stesura, Electrum non supporta ancora taproot (indirizzi che iniziano con "bc1p"). La seconda opzione in questa finestra ti consente di modificare il percorso di derivazione. Ti consiglio di non modificarlo mai, soprattutto prima di capire cosa significa. Le persone sottolineeranno l'importanza di scrivere il percorso di derivazione in modo da poter recuperare il tuo portafoglio se necessario, ma se lo lasci come predefinito, probabilmente andrà tutto bene, quindi non preoccuparti, ma è comunque una buona pratica scrivere il percorso di derivazione.
+> Per ulteriori informazioni: la prima opzione ti consente di scegliere tra legacy (indirizzi che iniziano con "1"), pay-to-script-hash (indirizzi che iniziano con "3") o bech32/native segwit (indirizzi che iniziano con "bc1q"). Al momento della stesura, Electrum non supporta ancora taproot (indirizzi che iniziano con "bc1p"). La seconda opzione in questa finestra ti consente di modificare il percorso di derivazione. Ti consiglio di non modificarlo mai, soprattutto prima di capire cosa significa. Le persone sottolineeranno l'importanza di scrivere il percorso di derivazione in modo da poter recuperare il tuo wallet se necessario, ma se lo lasci come predefinito, probabilmente andrà tutto bene, quindi non preoccuparti, ma è comunque una buona pratica scrivere il percorso di derivazione.
 
-Successivamente, ti verrà data la possibilità di aggiungere una PASSWORD. Questa non deve essere confusa con "PASSPHRASE". Una password blocca il file sul tuo computer. Una passphrase fa parte della composizione della chiave privata. Poiché si tratta di un portafoglio fittizio, puoi lasciare la password vuota e procedere.
+Successivamente, ti verrà data la possibilità di aggiungere una PASSWORD. Questa non deve essere confusa con "PASSPHRASE". Una password blocca il file sul tuo computer. Una passphrase fa parte della composizione della chiave privata. Poiché si tratta di un wallet fittizio, puoi lasciare la password vuota e procedere.
 
 ![image](assets/14.webp)
 
-Riceverai una finestra pop-up riguardo alle notifiche delle nuove versioni (ti consiglio di selezionare no). Il portafoglio si genererà quindi da solo e sarà pronto all'uso (ma ricorda, questo portafoglio è destinato ad essere eliminato, è solo un portafoglio fittizio).
+Riceverai una finestra pop-up riguardo alle notifiche delle nuove versioni (ti consiglio di selezionare no). Il wallet si genererà quindi da solo e sarà pronto all'uso (ma ricorda, questo wallet è destinato ad essere eliminato, è solo un wallet fittizio).
 
 ![image](assets/15.webp)
 
@@ -227,10 +227,10 @@ Ci sono alcune cose che ti suggerisco di fare per configurare l'ambiente softwar
 
 ### Cambia le unità in BTC
 
-Vai al menu in alto, strumenti -> preferenze di Electrum, e lì nella scheda generale, troverai l'opzione per cambiare l'"unità di base" in BTC.
+Vai al menù in alto, strumenti -> preferenze di Electrum, e lì nella scheda generale, troverai l'opzione per cambiare l'"unità di base" in BTC.
 Abilita la scheda Indirizzi e Monete
 
-Vai al menu in alto, visualizza, e seleziona "mostra indirizzi". Poi torna a visualizza e seleziona "mostra monete".
+Vai al menù in alto, visualizza, e seleziona "mostra indirizzi". Poi torna a visualizza e seleziona "mostra monete".
 
 ### Abilita Oneserver
 
@@ -238,9 +238,9 @@ Di default, Electrum si connette a un nodo casuale. Si connette anche a molti al
 
 > C'è un modo per farlo specificando "oneserver" dalla riga di comando, ma non raccomando questa modalità. Mostrerò un'alternativa che ritengo più semplice a lungo termine e meno probabile di farti connettere accidentalmente ad altri nodi.
 
-Il motivo per cui stiamo usando un portafoglio fittizio è che se avessimo caricato il nostro vero portafoglio, con i nostri veri bitcoin, avremmo già involontariamente stabilito una connessione con un nodo casuale (anche se abbiamo selezionato "imposta server manualmente" all'inizio, si connette comunque a questi altri nodi secondari per qualche motivo (ehi sviluppatori di Electrum, dovreste risolvere questo problema). Se il nostro portafoglio fosse privato, sarebbe un disastro.
+Il motivo per cui stiamo usando un wallet fittizio è che se avessimo caricato il nostro vero wallet, con i nostri veri bitcoin, avremmo già involontariamente stabilito una connessione con un nodo casuale (anche se abbiamo selezionato "imposta server manualmente" all'inizio, si connette comunque a questi altri nodi secondari per qualche motivo (ehi sviluppatori di Electrum, dovreste risolvere questo problema). Se il nostro wallet fosse privato, sarebbe un disastro.
 
-Inoltre, non possiamo eseguire i passaggi che ti mostrerò di seguito senza prima caricare un qualche tipo di portafoglio. (Stiamo per modificare un file di configurazione che viene popolato e pronto per la modifica solo una volta caricato un portafoglio).
+Inoltre, non possiamo eseguire i passaggi che ti mostrerò di seguito senza prima caricare un qualche tipo di wallet. (Stiamo per modificare un file di configurazione che viene popolato e pronto per la modifica solo una volta caricato un wallet).
 
 **Chiudi Electrum (IMPORTANTE, se non lo fai, le modifiche che apporterai verranno cancellate).**
 
@@ -248,7 +248,7 @@ Inoltre, non possiamo eseguire i passaggi che ti mostrerò di seguito senza prim
 
 Apri il terminale in Linux o Mac (istruzioni per Windows in seguito):
 
-Dovresti trovarsi automaticamente nella cartella home. Da lì, vai alla cartella delle impostazioni nascoste di Electrum (questa è diversa rispetto alla posizione dell'applicazione).
+Dovresti trovarti automaticamente nella cartella home. Da lì, vai alla cartella delle impostazioni nascoste di Electrum (questa è diversa rispetto alla posizione dell'applicazione).
 
 ```
 cd .electrum
@@ -275,7 +275,7 @@ Si aprirà un editor di testo (chiamato nano) con il file di configurazione aper
 Cambia "false" in "true"; e non disturbare la sintassi (non eliminare la virgola o il punto e virgola).
 
 Premi <ctrl> x, per uscire, poi "y" per salvare, poi <invio> per confermare la modifica senza modificare il nome del file.
-Ora esegui di nuovo Electrum. Quindi clicca sul cerchio in basso a destra, che apre le impostazioni di rete. Poi, nella scheda panoramica in alto, vedrai "connesso a 1 nodo" - questo indica il successo.
+Ora esegui di nuovo Electrum. Quindi clicca sul cerchio in basso a destra, che apre le impostazioni di rete. Poi, nella scheda panoramica in alto, vedrai "connesso a 1 nodo" - questo indica che tutto è andato a buon fine.
 Appena sotto, vedrai un campo di testo e l'indirizzo del server è lì. Attualmente sei connesso a quel nodo casuale. Maggiori informazioni sulla connessione a un nodo nella prossima sezione.
 
 ### File di configurazione di Windows
@@ -300,7 +300,7 @@ Salva quindi il file ed esci.
 
 ## Connetti Electrum a un nodo
 
-Successivamente, vogliamo connettere il nostro portafoglio fittizio a un nodo a nostra scelta. Se non sei pronto per eseguire un nodo, puoi fare una delle seguenti cose:
+Successivamente, vogliamo connettere il nostro wallet fittizio a un nodo a nostra scelta. Se non sei pronto per eseguire un nodo, puoi fare una delle seguenti cose:
 
 1. Connetti a un nodo personale di un amico (richiede Tor)
 2. Connetti a un nodo di un'azienda affidabile
@@ -314,15 +314,15 @@ A proposito, ecco le istruzioni per eseguire il tuo nodo e queste sono le ragion
 
 L'unico motivo per farlo sarebbe se devi accedere alla blockchain e non hai a disposizione il tuo nodo (o quello di un amico).
 
-Connettiamoci al nodo di Bitaroo - Ci dicono che non raccolgono dati. Sono uno scambio solo Bitcoin, gestito da un appassionato di Bitcoin. Connettersi a loro richiede un po' di fiducia, ma è meglio che connettersi a un nodo casuale, che potrebbe essere una società di sorveglianza.
+Connettiamoci al nodo di Bitaroo - Ci dicono che non raccolgono dati. Sono un Exchange Bitcoin-only, gestito da un appassionato di Bitcoin. Connettersi a loro richiede un po' di fiducia, ma è meglio che connettersi a un nodo casuale, che potrebbe essere una società di sorveglianza.
 
-Accedi alle impostazioni di rete cliccando sul cerchio nella parte inferiore destra della finestra del portafoglio (il rosso indica non connesso, il verde indica connesso e il blu indica connesso tramite Tor).
+Accedi alle impostazioni di rete cliccando sul cerchio nella parte inferiore destra della finestra del wallet (il rosso indica non connesso, il verde indica connesso e il blu indica connesso tramite Tor).
 
 ![image](assets/16.webp)
 
-Una volta cliccato sull'icona del cerchio, apparirà una finestra popup: Il tuo portafoglio mostrerà "connesso a 1 nodo" poiché l'abbiamo forzato in precedenza.
+Una volta cliccato sull'icona del cerchio, apparirà una finestra popup: Il tuo wallet mostrerà "connesso a 1 nodo" poiché l'abbiamo forzato in precedenza.
 
-Deseleziona la casella "seleziona server automaticamente" e quindi nel campo Server, digita i dettagli di Bitaroo come mostrato:
+Deseleziona la casella "select server automatically" e quindi nel campo Server, digita i dettagli di Bitaroo come mostrato:
 
 ![image](assets/17.webp)
 
@@ -330,13 +330,13 @@ Chiudi la finestra e ora dovremmo essere connessi al nodo di Bitaroo. Per confer
 
 ### Connetti al tuo nodo
 
-Se hai il tuo nodo è fantastico. Se hai solo Bitcoin Core e non anche un SERVER Electrum, non sarai ancora in grado di connettere un PORTAFOGLIO Electrum al tuo nodo.
+Se hai il tuo nodo è fantastico. Se hai solo Bitcoin Core e non anche un SERVER Electrum, non sarai ancora in grado di connettere un WALLET Electrum al tuo nodo.
 
-> Nota: Electrum Server e Electrum Wallet sono cose diverse. Il server è un software necessario affinché il portafoglio Electrum possa comunicare con la blockchain di Bitcoin - Non so perché sia stato progettato in questo modo - forse per velocità, ma potrei sbagliarmi.
+> Nota: Electrum Server e Electrum Wallet sono cose diverse. Il server è un software necessario affinché il wallet Electrum possa comunicare con la blockchain di Bitcoin - Non so perché sia stato progettato in questo modo - forse per velocità, ma potrei sbagliarmi.
 >
-> Se esegui un pacchetto software di nodo come MyNode (quello che consiglio alle persone di iniziare), Raspiblitz (consigliato quando diventi più esperto) o Umbrel (personalmente non lo consiglio ancora perché ho riscontrato troppi problemi), allora sarai in grado di connettere il tuo portafoglio semplicemente inserendo l'indirizzo IP del computer (Raspberry Pi) su cui viene eseguito il nodo, seguito da due punti e 50002, come mostrato nell'immagine nella sezione precedente. (Più avanti ti mostrerò come trovare l'indirizzo IP del tuo nodo).
+> Se esegui un pacchetto software di nodo come MyNode (quello che consiglio alle persone di iniziare), Raspiblitz (consigliato quando diventi più esperto) o Umbrel (personalmente non lo consiglio ancora perché ho riscontrato troppi problemi), allora sarai in grado di connettere il tuo wallet semplicemente inserendo l'indirizzo IP del computer (Raspberry Pi) su cui viene eseguito il nodo, seguito da due punti e 50002, come mostrato nell'immagine nella sezione precedente. (Più avanti ti mostrerò come trovare l'indirizzo IP del tuo nodo).
 
-Apri le impostazioni di rete (clicca sul cerchio verde o rosso in basso a destra). Deseleziona la casella "seleziona server automaticamente", quindi inserisci il tuo indirizzo IP come ho fatto io, il tuo sarà diverso, ma i due punti e "50002" dovrebbero essere gli stessi.
+Apri le impostazioni di rete (clicca sul cerchio verde o rosso in basso a destra). Deseleziona la casella "select server automatically", quindi inserisci il tuo indirizzo IP come ho fatto io, il tuo sarà diverso, ma i due punti e "50002" dovrebbero essere gli stessi.
 
 ![image](assets/18.webp)
 
@@ -352,7 +352,7 @@ A volte, nonostante si faccia tutto correttamente, sembra rifiutarsi di connette
 
 ## TROVARE L'INDIRIZZO IP DEL TUO NODO
 
-Un indirizzo IP non è qualcosa che un utente comune sa come cercare e utilizzare. Ho aiutato molte persone a eseguire un nodo e poi a connettere i loro portafogli al nodo - un ostacolo spesso sembra essere la ricerca del suo indirizzo IP.
+Un indirizzo IP non è qualcosa che un utente comune sa come cercare e utilizzare. Ho aiutato molte persone a eseguire un nodo e poi a connettere i loro wallet al nodo - un ostacolo spesso sembra essere la ricerca del suo indirizzo IP.
 
 Per MyNode, puoi digitare nella finestra del browser:
 
@@ -374,7 +374,7 @@ se ciò non funziona, prova con una "s", così:
 https://mynode.local
 ```
 
-In questo modo accederai al dispositivo e potrai fare clic sul collegamento delle impostazioni (vedi il mio "cerchio" blu sotto) per mostrare questa schermata in cui è presente l'indirizzo IP:
+In questo modo accederai al dispositivo e potrai cliccare sul collegamento delle impostazioni (vedi il mio "cerchio" blu sotto) per mostrare questa schermata in cui è presente l'indirizzo IP:
 
 ![image](assets/19.webp)
 
@@ -435,38 +435,38 @@ Avrà un aspetto simile a questo (assicurati di includere i due punti e il numer
 
 > È utile sapere che questi indirizzi IP sono INTERNI alla tua rete domestica. Nessuno all'esterno può vederli e non sono sensibili. Sono un po' come le estensioni telefoniche in un'organizzazione grande che ti indirizzano a telefoni diversi.
 
-## Elimina il portafoglio fittizio
+## Elimina il walleto fittizio
 
-Ora ci siamo collegati con successo a un solo nodo. Questo è come Electrum si caricherà di default da ora in poi. Dovresti ora eliminare il portafoglio fittizio (Menu: file -> elimina), nel caso in cui invii accidentalmente fondi a questo portafoglio non sicuro (non è sicuro perché non l'abbiamo creato in modo sicuro).
+Ora ci siamo collegati con successo a un solo nodo. Questo è come Electrum si caricherà di default da ora in poi. Dovresti ora eliminare il wallet fittizio (Menù: file -> elimina), nel caso in cui invii accidentalmente fondi a questo portafoglio non sicuro (non è sicuro perché non l'abbiamo creato in modo sicuro).
 
-## Crea un portafoglio di pratica
+## Crea un wallet di pratica
 
-Dopo aver eliminato il portafoglio fittizio, ricomincia e ne crea uno nuovo, allo stesso modo, solo che questa volta, annota le parole del seed e tienile abbastanza al sicuro.
+Dopo aver eliminato il wallet fittizio, ricomincia e creane uno nuovo, allo stesso modo, solo che questa volta, annota le parole del seed e tienile abbastanza al sicuro.
 
-È una buona idea imparare come Electrum funziona con questo portafoglio di pratica, senza l'ingombrante portafoglio hardware (necessario per una sicurezza elevata). Metti solo una piccola quantità di bitcoin in questo portafoglio - Supponi che perderai questi soldi. Una volta diventato esperto, impara ad usare Electrum con un portafoglio hardware.
+È una buona idea imparare come Electrum funziona con questo wallet di pratica, senza l'ingombrante hardware wallet (necessario per una sicurezza elevata). Metti solo una piccola quantità di bitcoin in questo walleto - Supponi che perderai questi soldi. Una volta diventato esperto, impara ad usare Electrum con un hardware wallet.
 
-Nel nuovo portafoglio che hai creato, vedrai un elenco di indirizzi. Quelli verdi sono chiamati "indirizzi di ricezione". Sono il prodotto di 3 cose:
+Nel nuovo wallet che hai creato, vedrai un elenco di indirizzi. Quelli verdi sono chiamati "indirizzi di ricezione". Sono il prodotto di 3 cose:
 
-- La frase del seed
+- La frase seed
 - La passphrase
 - Il percorso di derivazione
 
-Il tuo nuovo portafoglio ha un insieme di indirizzi di ricezione che possono essere creati in modo matematico e riproducibile da qualsiasi portafoglio software che abbia il seed, la passphrase e il percorso di derivazione. Ce ne sono 4,3 miliardi! Più di quanti ne avrai bisogno. Electrum ti mostra solo i primi 20, e poi di più man mano che li utilizzi.
+Il tuo nuovo wallet ha un insieme di indirizzi di ricezione che possono essere creati in modo matematico e riproducibile da qualsiasi software wallet che abbia il seed, la passphrase e il percorso di derivazione. Ce ne sono 4,3 miliardi! Più di quanti ne avrai bisogno. Electrum ti mostra solo i primi 20, e poi di più man mano che li utilizzi.
 Ulteriori informazioni sulle chiavi private di Bitcoin possono essere trovate in questa guida.
 
 ![image](assets/23.webp)
 
-Questo è molto diverso da alcuni altri portafogli che presentano solo un indirizzo alla volta.
+Questo è molto diverso da alcuni altri wallet che presentano solo un indirizzo alla volta.
 
-Poiché hai inserito la frase seed nella creazione di questo portafoglio, Electrum ha la chiave privata per ciascuno degli indirizzi e la spesa da questi indirizzi è possibile.
+Poiché hai inserito la frase seed nella creazione di questo wallet, Electrum ha la chiave privata per ciascuno degli indirizzi e spendere attraverso questi indirizzi è possibile.
 
-Nota anche che ci sono indirizzi gialli, chiamati "indirizzi di cambio" - Questi sono solo un altro insieme di indirizzi di un diverso ramo matematico (ne esistono altri 4,3 miliardi). Sono utilizzati dal portafoglio per inviare automaticamente i fondi in eccesso nel portafoglio come resto. Ad esempio, se prendi 1,5 bitcoin e ne spendi 0,5 a un commerciante, il resto di 1,0 deve andare da qualche parte. Il tuo portafoglio lo spenderà all'indirizzo di cambio giallo vuoto successivo, altrimenti andrà al minatore! Per ulteriori informazioni su questo (UTXOs) consulta questa guida. (https://armantheparman.com/utxo/)
+Nota anche che ci sono indirizzi gialli, chiamati "indirizzi di cambio" - Questi sono solo un altro insieme di indirizzi di un diverso ramo matematico (ne esistono altri 4,3 miliardi). Sono utilizzati dal wallet per inviare automaticamente i fondi in eccesso nel wallet come resto. Ad esempio, se prendi 1,5 bitcoin e ne spendi 0,5 a un commerciante, il resto di 1,0 deve andare da qualche parte. Il tuo wallet lo spenderà all'indirizzo di cambio giallo vuoto successivo, altrimenti andrà al miner! Per ulteriori informazioni su questo (UTXOs) consulta questa guida. (https://armantheparman.com/utxo/)
 
 Successivamente, torna al sito delle chiavi private di Ian Colman e inserisci il seed (anziché generarne uno). Vedrai che le informazioni sulla chiave privata e pubblica cambiano; tutto ciò che segue dipende dalle cose sopra nella pagina.
 
-> Ricorda, non dovresti "mai" inserire il seed su un computer per il tuo vero portafoglio Bitcoin - il malware può rubarlo. Stiamo solo usando un portafoglio di pratica, per scopi di apprendimento, quindi va bene per ora.
+> Ricorda, non dovresti "mai" inserire il seed su un computer per il tuo vero wallet Bitcoin - il malware può rubarlo. Stiamo solo usando un wallet di pratica, per scopi di apprendimento, quindi va bene per ora.
 
-Scorri verso il basso e cambia il percorso di derivazione in BIP84 (segwit) per abbinarlo al tuo portafoglio Electrum cliccando sulla scheda BIP84.
+Scorri verso il basso e cambia il percorso di derivazione in BIP84 (segwit) per abbinarlo al tuo wallet Electrum cliccando sulla scheda BIP84.
 
 ![image](assets/24.webp)
 
@@ -474,7 +474,7 @@ Sotto, vedrai la chiave privata estesa dell'account e la chiave pubblica estesa 
 
 ![image](assets/25.webp)
 
-Vai su Electrum e confronta che corrispondano. C'è un menu in alto, portafoglio -> informazioni:
+Vai su Electrum e confronta che corrispondano. C'è un menù in alto, wallet -> information:
 
 ![image](assets/26.webp)
 
@@ -500,19 +500,19 @@ Perché abbiamo fatto tutto questo?
 
 Abbiamo preso le parole seed e le abbiamo inserite in due diversi programmi software indipendenti per assicurarci che ci stessero dando le stesse informazioni. Questo riduce significativamente il rischio che un codice malintenzionato si nasconda all'interno e ci dia false chiavi private o pubbliche, o indirizzi.
 
-La prossima cosa da fare è ricevere un piccolo test e spenderlo all'interno del portafoglio da un indirizzo a un altro.
+La prossima cosa da fare è ricevere un piccolo test e spenderlo all'interno del wallet da un indirizzo a un altro.
 
-## Testare il portafoglio (Impara ad usarlo)
+## Testare il wallet (Impara ad usarlo)
 
-Qui ti mostrerò come ricevere un UTXO nel tuo portafoglio e poi spostarlo (spenderlo) in un altro indirizzo all'interno del portafoglio. Si tratta di una quantità molto piccola che non ci dispiacerebbe rischiare di perdere.
+Qui ti mostrerò come ricevere un UTXO nel tuo wallet e poi spostarlo (spenderlo) in un altro indirizzo all'interno del wallet. Si tratta di una quantità molto piccola che non ci dispiacerebbe rischiare di perdere.
 
 Questo ha diversi scopi.
 
-- Dimostrerà che hai il potere di spendere monete nel nuovo portafoglio.
-- Dimostrerà come utilizzare il software Electrum per effettuare una spesa (e alcune funzionalità), prima di aggiungere ulteriori complessità per la sicurezza (utilizzando un portafoglio hardware o un computer air-gapped).
-- Rinforzerà l'idea che hai molteplici indirizzi tra cui scegliere per ricevere e spendere, all'interno dello stesso portafoglio.
+- Dimostrerà che puoi spendere UTXO nel nuovo wallet.
+- Dimostrerà come utilizzare il software Electrum per effettuare una spesa (e alcune funzionalità), prima di aggiungere ulteriori complessità per la sicurezza (utilizzando un hardware wallet o un computer air-gapped).
+- Rinforzerà l'idea che hai molteplici indirizzi tra cui scegliere per ricevere e spendere, all'interno dello stesso wallet.
 
-Apri il tuo test Electrum Wallet e clicca sulla scheda Indirizzi, quindi fai clic con il pulsante destro del mouse sul primo indirizzo e seleziona Copia -> Indirizzo:
+Apri il tuo test Electrum Wallet e clicca sulla scheda Indirizzi, quindi clicca con il pulsante destro del mouse sul primo indirizzo e seleziona Copy -> Address:
 
 ![image](assets/30.webp)
 
@@ -520,64 +520,64 @@ L'indirizzo è ora nella memoria del tuo computer.
 
 Ora vai su un exchange dove hai alcuni bitcoin e preleva una piccola quantità su questo indirizzo, diciamo 50.000 sats. Userò Coinbase come esempio perché è l'exchange più comunemente utilizzato, anche se sono nemici di Bitcoin e mi disgusta accedere a un vecchio account abbandonato per questo scopo.
 
-Accedi e fai clic sul pulsante Invia/Ricevi, che oggi si trova nell'angolo in alto a destra della pagina web.
+Accedi e clicCA sul pulsante Send/Receive, che oggi si trova nell'angolo in alto a destra della pagina web.
 
 ![image](assets/31.webp)
 
-Ovviamente non ho fondi su Coinbase, ma immagina solo che ci siano fondi qui e segui il procedimento: Incolla l'indirizzo da Electrum nel campo "A" come ho fatto io. Dovrai anche selezionare una quantità (suggerisco circa 50.000 sats). Non inserire un "messaggio opzionale" - Coinbase sta già raccogliendo abbastanza dei tuoi dati (e li sta vendendo), non c'è bisogno di aiutarli. Infine, fai clic su "Continua". Dopo di ciò, non so quali altre finestre popup potresti ricevere, sei da solo, ma il metodo è simile per tutti gli exchange.
+Ovviamente non ho fondi su Coinbase, ma immagina solo che ci siano fondi qui e segui il procedimento: Incolla l'indirizzo da Electrum nel campo "A" come ho fatto io. Dovrai anche selezionare una quantità (suggerisco circa 50.000 sats). Non inserire un "messaggio opzionale" - Coinbase sta già raccogliendo abbastanza dei tuoi dati (e li sta vendendo), non c'è bisogno di aiutarli. Infine, clicca su "Continue". Dopo di ciò, non so quali altre finestre popup potresti ricevere, sei da solo, ma il metodo è simile per tutti gli exchange.
 
 ![image](assets/32.webp)
 
-A seconda dell'exchange, potresti vedere i sats nel tuo portafoglio immediatamente o potrebbe esserci un ritardo di ore/giorni.
+A seconda dell'exchange, potresti vedere i sats nel tuo wallet immediatamente o potrebbe esserci un ritardo di ore/giorni.
 
-Nota che Electrum ti mostrerà le monete ricevute anche se non sono state confermate sulla blockchain. Le monete che hai vengono lette dalla lista di attesa di un nodo Bitcoin, o "mempool". Quando viene inserito in un blocco, vedrai i fondi come confermati.
+Nota che Electrum ti mostrerà gli UTXO ricevute anche se non sono state confermate sulla blockchain. Gli UTXO che hai vengono lettI dalla lista di attesa di un nodo Bitcoin, o "mempool". Quando viene inserito in un blocco, vedrai i fondi come confermati.
 
-Ora che abbiamo un UTXO nel nostro portafoglio, dovremmo etichettarlo. Solo noi possiamo vedere questa etichetta, non ha nulla a che fare con il registro pubblico. Tutte le nostre etichette Electrum sono visibili solo sul computer che stiamo utilizzando. Possiamo effettivamente salvare un file e usarlo per ripristinare tutte le nostre etichette su un computer diverso che esegue lo stesso portafoglio.
+Ora che abbiamo un UTXO nel nostro WALLET, dovremmo etichettarlo. Solo noi possiamo vedere questa etichetta, non ha nulla a che fare con il registro pubblico. Tutte le nostre etichette Electrum sono visibili solo sul computer che stiamo utilizzando. Possiamo effettivamente salvare un file e usarlo per ripristinare tutte le nostre etichette su un computer diverso che esegue lo stesso wallet.
 
 ### Crea un'etichetta per un UTXO
 
-Avevo bisogno di una donazione per questo portafoglio di prova, grazie a @Sathoarder per avermi fornito un UTXO attivo (10.000 sats), e un'altra persona (anonima) ha donato allo stesso indirizzo (5000 sats). Nota che ci sono 15.000 sats nel saldo del primo indirizzo e un totale di 2 transazioni (colonna di destra). In fondo, il saldo è di 10.000 sats confermati e altri 5.000 sats sono non confermati (ancora nella mempool).
+Avevo bisogno di una donazione per questo wallet di prova, grazie a @Sathoarder per avermi fornito un UTXO attivo (10.000 sats), e un'altra persona (anonima) ha donato allo stesso indirizzo (5000 sats). Nota che ci sono 15.000 sats nel saldo del primo indirizzo e un totale di 2 transazioni (colonna di destra). In fondo, il saldo è di 10.000 sats confermati e altri 5.000 sats sono non confermati (ancora nella mempool).
 
 ![image](assets/33.webp)
 
-Ora, se andiamo alla scheda Monete, possiamo vedere due "monete ricevute" o UTXO. Sono entrambi nello stesso indirizzo.
+Ora, se andiamo alla scheda "monete" di Electrum, possiamo vedere due "monete ricevute" o UTXO. Sono entrambi nello stesso indirizzo.
 
 ![image](assets/34.webp)
 
 Tornando alla scheda Indirizzi, se fai doppio clic sull'area "etichette" accanto all'indirizzo, potrai inserire del testo e premere <invio> per salvare:
 
 ![image](assets/35.webp)
-Questa è una buona pratica per tenere traccia di dove provengono le tue monete, se sono KYC-free o meno e quanto costa ogni UTXO (nel caso in cui tu abbia bisogno di venderle e calcolare le tasse che ti verranno sottratte dal governo).
+Questa è una buona pratica per tenere traccia di dove provengono i tuoi UTXO, se sono KYC-free o meno e quanto costa ogni UTXO (nel caso in cui tu abbia bisogno di venderli e calcolare le tasse che ti verranno sottratte dal governo).
 
-Idealmente, dovresti evitare di accumulare più monete nello stesso indirizzo. Se decidi di farlo (non farlo), puoi etichettare ogni moneta invece di tutte con la stessa etichetta utilizzando il metodo dell'indirizzo. Non puoi effettivamente andare alla scheda "monete" ed editare le etichette lì (no, sarebbe troppo intuitivo!). Devi andare alla scheda Cronologia, trovare la transazione, etichettarla e poi vedrai le etichette nella sezione delle monete. Le etichette che vedi nella sezione delle monete provengono dalle etichette degli indirizzi O dalle etichette della cronologia, ma qualsiasi etichetta della cronologia sovrascrive qualsiasi etichetta dell'indirizzo. Per fare il backup delle tue etichette su un file, puoi esportarle dal menu in alto, portafoglio -> etichette -> esporta.
+Idealmente, dovresti evitare di accumulare più UTXO nello stesso indirizzo. Se decidi di farlo (non farlo), puoi etichettare ogni UTXO invece di tutte con la stessa etichetta utilizzando il metodo dell'indirizzo. Non puoi effettivamente andare alla scheda "monete" ed editare le etichette lì (no, sarebbe troppo intuitivo!). Devi andare alla scheda Cronologia, trovare la transazione, etichettarla e poi vedrai le etichette nella sezione delle monete. Le etichette che vedi nella sezione delle monete provengono dalle etichette degli indirizzi O dalle etichette della cronologia, ma qualsiasi etichetta della cronologia sovrascrive qualsiasi etichetta dell'indirizzo. Per fare il backup delle tue etichette su un file, puoi esportarle dal menù in alto, portafoglio -> etichette -> esporta.
 
-Successivamente, spendiamo le monete dal primo indirizzo al secondo indirizzo. Fai clic con il pulsante destro del mouse sul primo indirizzo e seleziona "spendere da" (in realtà non è necessario in questo scenario, ma immagina di avere molte monete in molti indirizzi; utilizzando questa funzione, possiamo forzare il portafoglio a spendere solo le monete che vogliamo. Se vogliamo selezionare più monete in più indirizzi, possiamo selezionare gli indirizzi con un clic del mouse sinistro tenendo premuto il tasto comando, quindi fare clic con il pulsante destro del mouse e selezionare "spendere da"):
+Successivamente, spendiamo le monete dal primo indirizzo al secondo indirizzo. Clicca con il pulsante destro del mouse sul primo indirizzo e seleziona "spend from" (in realtà non è necessario in questo scenario, ma immagina di avere molti UTXO in molti indirizzi; utilizzando questa funzione, possiamo forzare il wallet a spendere solo gli UTXO che vogliamo. Se vogliamo selezionare più UTXO in più indirizzi, possiamo selezionare gli indirizzi con un clic del mouse sinistro tenendo premuto il tasto comando, quindi cliccare con il pulsante destro del mouse e selezionare "spend from"):
 
 ![image](assets/36.webp)
 
-Una volta fatto ciò, ci sarà una barra verde in fondo alla finestra del portafoglio che indica il numero di monete che hai selezionato e il totale disponibile da spendere.
+Una volta fatto ciò, ci sarà una barra verde in fondo alla finestra del wallet che indica il numero di UTXO che hai selezionato e il totale disponibile da spendere.
 
-Puoi anche spendere monete singole all'interno di un indirizzo ed escluderne altre nello stesso indirizzo, ma questo è sconsigliato perché stai lasciando monete in un indirizzo che è stato indebolito criptograficamente a causa della spesa di una delle monete (un'altra ragione per non mettere più monete in un unico indirizzo, oltre alle ragioni di privacy, è che dato che dovresti spenderle tutte se ne spendi una, questo diventa costoso inutilmente). Ecco come selezionare una singola moneta da un indirizzo condiviso, ma non farlo:
+Puoi anche spendere singoli UTXO all'interno di un indirizzo ed escluderne altrI nello stesso indirizzo, ma questo è sconsigliato perché stai lasciando UTXO in un indirizzo che è stato indebolito criptograficamente a causa della spesa di uno degli UTXO (un'altra ragione per non mettere più UTXO in un unico indirizzo, oltre alle ragioni di privacy, è che dato che dovresti spenderli tutte se ne spendi uno, questo diventa costoso inutilmente). Ecco come selezionare un singolo UTXO da un indirizzo condiviso, ma non farlo:
 
 ![image](assets/37.webp)
 
-Ora, abbiamo selezionato le due monete da spendere. Successivamente, decidiamo dove spenderle. Inviamole al secondo indirizzo. Dovremo copiare l'indirizzo in questo modo:
+Ora, abbiamo selezionato i due UTXO da spendere. Successivamente, decidiamo dove spenderli. Inviamoli al secondo indirizzo. Dovremo copiare l'indirizzo in questo modo:
 
 ![image](assets/38.webp)
 
-Quindi vai alla scheda "Invia" e incolla il secondo indirizzo nel campo "pagare a". Non è necessario aggiungere una descrizione; potresti farlo, ma puoi farlo in seguito modificando le etichette. Per l'importo, seleziona "Max" per spendere tutte le monete che abbiamo selezionato. Quindi clicca su "Paga" e poi clicca sul pulsante "avanzate" nella finestra popup che appare.
+Quindi vai alla scheda "Send" e incolla il secondo indirizzo nel campo "pay to". Non è necessario aggiungere una descrizione; potresti farlo, ma puoi farlo in seguito modificando le etichette. Per l'importo, seleziona "Max" per spendere tutti gli UTXO che abbiamo selezionato. Quindi clicca su "Pay" e poi clicca sul pulsante "advanced" nella finestra popup che appare.
 
 ![image](assets/39.webp)
 
-Clicca sempre su "avanzate" in questa fase in modo da poter avere un controllo preciso e verificare esattamente cosa c'è nella transazione. Ecco la transazione:
+Clicca sempre su "advanced" in questa fase in modo da poter avere un controllo preciso e verificare esattamente cosa c'è nella transazione. Ecco la transazione:
 
 ![image](assets/40.webp)
 
-Vediamo due finestre/box bianche interne. Quella superiore è la finestra degli input (quali monete vengono spese) e quella inferiore è gli output (dove vanno le monete).
-Nota, lo stato (in alto a sinistra) è "non firmato" per ora. L'"Importo inviato" è 0 perché le monete vengono trasferite all'interno del portafoglio. La commissione è di 481 sats. Nota che se fossero stati 480 sats, lo zero finale sarebbe stato omesso, come questo, 0.0000048 e per l'occhio stanco, questo può sembrare 48 sats - fai attenzione (qualcosa che gli sviluppatori di Electrum dovrebbero correggere).
-La dimensione della transazione si riferisce alla dimensione dei dati in byte, non all'importo di bitcoin. Il "sostituisci con commissione" è attivo per impostazione predefinita e ti consente di inviare nuovamente la transazione con una commissione più alta se necessario. Il LockTime ti consente di regolare quando la transazione è valida - non ho ancora giocato con quello, ma consiglio di non usarlo a meno che non comprendi appieno cosa stai facendo e hai avuto un po' di pratica con piccole quantità.
+Vediamo due finestre/box bianche interne. Quella superiore è la finestra degli input (quali UTXO vengono spesi) e quella inferiore è degli output (dove vanno gli UTXO).
+Nota, lo stato (in alto a sinistra) è "non firmato" per ora. L'"Importo inviato" è 0 perché gli UTXO vengono trasferiti all'interno del wallet. La commissione è di 481 sats. Nota che se fossero stati 480 sats, lo zero finale sarebbe stato omesso, come questo, 0.0000048 e per l'occhio stanco, questo può sembrare 48 sats - fai attenzione (qualcosa che gli sviluppatori di Electrum dovrebbero correggere).
+La dimensione della transazione si riferisce alla dimensione dei dati in byte, non all'importo di bitcoin. Il "[replace by fee](https://planb.network/resources/glossary/rbf-replacebyfee)" è attivo per impostazione predefinita e ti consente di inviare nuovamente la transazione con una commissione più alta se necessario. Il LockTime ti consente di regolare quando la transazione è valida - non ho ancora giocato con quello, ma consiglio di non usarlo a meno che non comprendi appieno cosa stai facendo e hai avuto un po' di pratica con piccole quantità.
 
-In fondo, abbiamo alcuni strumenti di regolazione delle commissioni di mining di fantasia. Tutto ciò che devi fare per i trasferimenti interni è impostarlo alla commissione minima di 1 sat/byte. Digita manualmente il numero nel campo della commissione target. Per verificare una commissione appropriata per un pagamento esterno, puoi consultare https://mempool.space per vedere quanto è occupato il mempool e vengono visualizzate alcune commissioni suggerite.
+In fondo, abbiamo alcuni strumenti sofisticati per la regolazione delle commissioni di mining. Tutto ciò che devi fare per i trasferimenti interni è impostarlo alla commissione minima di 1 sat/byte. Digita manualmente il numero nel campo della commissione target. Per verificare una commissione appropriata per un pagamento esterno, puoi consultare https://mempool.space per vedere quanto è occupata la mempool e vengono visualizzate alcune commissioni suggerite.
 
 ![image](assets/41.webp)
 
@@ -589,26 +589,26 @@ Qualcosa da notare qui: gli UTXO esistono solo all'interno di una transazione. P
 
 La seconda riga è la donazione di 10.000 sat. Ha un "0" accanto all'hash di transazione da cui proviene perché è il primo (e forse unico) output per quella transazione.
 
-Nella finestra inferiore, vediamo il nostro indirizzo. Nota che il totale di bitcoin degli input non corrisponde esattamente al totale degli output. La differenza va al minatore. Il minatore osserva la discrepanza in tutte le transazioni nel blocco che sta cercando di minare e aggiunge quel numero alla sua ricompensa. (Le commissioni di mining in questo modo sono completamente slegate dalla catena di transazioni e iniziano una nuova vita).
+Nella finestra inferiore, vediamo il nostro indirizzo. Nota che il totale di bitcoin degli input non corrisponde esattamente al totale degli output. La differenza va al miner. Il miner osserva la discrepanza in tutte le transazioni nel blocco che sta cercando di minare e aggiunge quel numero alla sua ricompensa. (Le commissioni di mining in questo modo sono completamente slegate dalla catena di transazioni e iniziano una nuova vita).
 
 Se regoliamo la commissione di mining, il valore dell'output cambierà automaticamente.
 
-> Vale la pena sottolineare qui: nota il colore degli indirizzi nella finestra di transazione. Ricorda che gli indirizzi verdi sono elencati nella scheda degli indirizzi. Se un indirizzo è evidenziato in verde (o giallo) in una finestra di transazione, allora Electrum ha riconosciuto l'indirizzo come uno dei suoi. Se l'indirizzo non ha evidenziazione, allora è un indirizzo esterno (esterno al portafoglio attualmente aperto) e dovresti controllarlo con particolare attenzione.
+> Vale la pena sottolineare qui: nota il colore degli indirizzi nella finestra di transazione. Ricorda che gli indirizzi verdi sono elencati nella scheda degli indirizzi. Se un indirizzo è evidenziato in verde (o giallo) in una finestra di transazione, allora Electrum ha riconosciuto l'indirizzo come uno dei suoi. Se l'indirizzo non ha evidenziazione, allora è un indirizzo esterno (esterno al wallet attualmente aperto) e dovresti controllarlo con particolare attenzione.
 
-Una volta che hai controllato tutto nella transazione e sei sicuro di essere soddisfatto delle monete che stai spendendo e di dove stanno andando, puoi fare clic su "finalizza".
+Una volta che hai controllato tutto nella transazione e sei sicuro di essere soddisfatto degli UTXO che stai spendendo e di dove stanno andando, puoi cliccare su "finalize".
 
 ![image](assets/42.webp)
 
-Dopo aver cliccato su "finalizza", non è più possibile apportare modifiche: se ne hai bisogno, devi chiudere questa finestra e ricominciare da capo. Nota che il pulsante "finalizza" è cambiato in "esporta" e sono comparsi nuovi pulsanti: "salva", "combina", "firma" e "trasmetti". Il pulsante "trasmetti" è disattivato perché la transazione non è firmata e quindi non valida in questa fase.
-Una volta che hai cliccato su "firma", se hai una password per il portafoglio, ti verrà richiesta e lo stato (in alto a destra) passerà da "non firmata" a "firmata". A questo punto, il pulsante "trasmetti" sarà disponibile.
+Dopo aver cliccato su "finalize", non è più possibile apportare modifiche: se ne hai bisogno, devi chiudere questa finestra e ricominciare da capo. Nota che il pulsante "finalize" è cambiato in "export" e sono comparsi nuovi pulsanti: "save", "combine", "sign" e "broadcast". Il pulsante "broadcast" è disattivato perché la transazione non è firmata e quindi non valida in questa fase.
+Una volta che hai cliccato su "sign", se hai una password per il wallet, ti verrà richiesta e lo stato (in alto a destra) passerà da "non firmata" a "firmata". A questo punto, il pulsante "broadcast" sarà disponibile.
 
-Dopo aver trasmesso, puoi chiudere la finestra della transazione. Se vai alla scheda degli indirizzi, vedrai che il primo indirizzo è vuoto e il secondo indirizzo ha 1 UTXO.
+Dopo aver cliccato su "broadcast", puoi chiudere la finestra della transazione. Se vai alla scheda degli indirizzi, vedrai che il primo indirizzo è vuoto e il secondo indirizzo ha 1 UTXO.
 
-Nota: Vedrai tutti questi cambiamenti anche prima che la transazione venga inserita in un blocco o "confermata". Questo perché Electrum aggiorna i saldi/le transazioni non solo in base ai dati della blockchain, ma anche ai dati della mempool. Non tutti i portafogli fanno questo.
+Nota: Vedrai tutti questi cambiamenti anche prima che la transazione venga inserita in un blocco o "confermata". Questo perché Electrum aggiorna i saldi/le transazioni non solo in base ai dati della blockchain, ma anche ai dati della mempool. Non tutti i wallet fanno questo.
 
 Qualcosa da sottolineare è che invece di trasmettere, possiamo salvare la transazione per dopo. Può essere salvata sia nello stato non firmato che in quello firmato.
 
-Clicca sul pulsante "esporta" (paradossalmente, NON cliccare sul pulsante "salva") e vedrai una serie di opzioni. La transazione è codificata con del testo e quindi può essere salvata in diversi modi.
+Clicca sul pulsante "export" (paradossalmente, NON cliccare sul pulsante "save") e vedrai una serie di opzioni. La transazione è codificata con del testo e quindi può essere salvata in diversi modi.
 
 ![image](assets/43.webp)
 
@@ -616,28 +616,28 @@ Salvare in un codice QR è molto interessante. Se scegli questa opzione, apparir
 
 ![image](assets/44.webp)
 
-Puoi quindi fare una foto del codice QR. Ci sono diverse cose che puoi fare con questo, ma per ora diciamo solo che lo stai caricando di nuovo nel portafoglio in seguito. Puoi chiudere Electrum, caricare di nuovo il portafoglio e andare al menu Strumenti:
+Puoi quindi fare una foto del codice QR. Ci sono diverse cose che puoi fare con questo, ma per ora diciamo solo che lo ricaricherai nel nuovo wallet più tardi. Puoi chiudere Electrum, caricare di nuovo il wallet e andare al menù Tools:
 
 ![image](assets/45.webp)
 
 Questo aprirà la fotocamera del tuo computer. Mostra quindi alla fotocamera la foto del codice QR sul tuo telefono e la transazione verrà caricata di nuovo, esattamente come l'hai lasciata.
 
-Non è intuitivo come caricare transazioni salvate, quindi fai attenzione. Caricare una transazione non è uno "strumento", ma l'opzione è nascosta nel menu Strumenti (un'altra cosa che gli sviluppatori di Electrum dovrebbero sistemare).
+Non è intuitivo come caricare transazioni salvate, quindi fai attenzione. Caricare una transazione non è uno "strumento", ma l'opzione è nascosta nel menù Strumenti (un'altra cosa che gli sviluppatori di Electrum dovrebbero sistemare).
 
-Un processo simile è possibile con una transazione salvata come file. Prova a esercitarti con uno dei due metodi, all'interno dello stesso portafoglio. Non lo spiegherò qui, ma puoi utilizzare questa funzione per passare una transazione tra lo stesso portafoglio su computer diversi, tra portafogli multi-firma e da e verso portafogli hardware. Ecco alcune istruzioni.
+Un processo simile è possibile con una transazione salvata come file. Prova a esercitarti con uno dei due metodi, all'interno dello stesso wallet. Non lo spiegherò qui, ma puoi utilizzare questa funzione per passare una transazione tra lo stesso wallet su computer diversi, tra wallet multi-firma e da e verso hardware wallet. Ecco alcune istruzioni.
 
-Ora, tornando al pulsante "salva": questo non serve a salvare il testo della transazione. In realtà, dice al portafoglio Electrum di riconoscere questa transazione sul computer locale come un pagamento effettuato. Se lo fai per errore, vedrai la transazione con un'icona di un computer. Puoi fare clic destro e cancellare la transazione: non preoccuparti, non puoi cancellare i bitcoin in questo modo. Electrum dimenticherà quindi che questa transazione è mai avvenuta e "rimborserà" i satoshi e li mostrerà nella posizione corretta in cui si trovano effettivamente.
+Ora, tornando al pulsante "salva": questo non serve a salvare il testo della transazione. In realtà, dice al wallet Electrum di riconoscere questa transazione sul computer locale come un pagamento effettuato. Se lo fai per errore, vedrai la transazione con un'icona di un computer. Puoi cliccare con il tasto destro e cancellare la transazione: non preoccuparti, non puoi cancellare i bitcoin in questo modo. Electrum dimenticherà quindi che questa transazione è mai avvenuta e "rimborserà" i satoshi e li mostrerà nella posizione corretta in cui si trovano effettivamente.
 
 ### Indirizzi di cambio
 
-Gli indirizzi di cambio sono interessanti. Devi capire gli UTXO per comprendere questa spiegazione. Se stai spendendo verso un indirizzo una quantità inferiore all'UTXO, allora i bitcoin rimanenti andranno al minatore a meno che non venga specificato un output di cambio.
+Gli indirizzi di cambio sono interessanti. Devi capire gli UTXO per comprendere questa spiegazione. Se stai spendendo verso un indirizzo una quantità inferiore all'UTXO, allora i bitcoin rimanenti andranno al miner a meno che non venga specificato un output di cambio.
 Potresti avere un UTXO di 6,15 bitcoin e desiderare di spendere 0,15 bitcoin per donare a dei manifestanti oppressi da un governo "democratico" tirannico in qualche parte del mondo. Prenderesti quindi i 6,15 bitcoin (utilizzando la funzione "spend from" in Electrum) e li inseriresti in una transazione.
 
 Incolleresti l'indirizzo dei manifestanti nel campo "pay to", forse inseriresti "EndTheFed & WEF" nel campo "description" e per l'importo inseriresti 0,15 bitcoin e cliccheresti su "pay", quindi su "advanced".
 
-Nella schermata della transazione, nella finestra di input, vedresti il 6,15 bitcoin UTXO. Nella finestra di output, vedresti un indirizzo senza evidenziazione (questo è l'indirizzo dei manifestanti) con accanto 0,15 bitcoin. Vedresti anche un indirizzo giallo con leggermente meno di 6,0 bitcoin. Questo è l'indirizzo di cambio selezionato automaticamente dal portafoglio da uno dei suoi stessi indirizzi di cambio gialli. Lo scopo dell'indirizzo di cambio è consentire al portafoglio di mettere monete di cambio al suo interno senza compromettere la disponibilità degli indirizzi di ricezione che potresti avere in programma o per cui hai inviato fatture. Se ad esempio verranno utilizzati successivamente dai clienti, non vuoi che il tuo portafoglio li utilizzi automaticamente e li riempia. È disordinato e dannoso per la privacy.
+Nella schermata della transazione, nella finestra di input, vedresti l'UTXO da 6,15 bitcoin. Nella finestra di output, vedresti un indirizzo senza evidenziazione (questo è l'indirizzo dei manifestanti) con accanto 0,15 bitcoin. Vedresti anche un indirizzo giallo con leggermente meno di 6,0 bitcoin. Questo è l'indirizzo di cambio selezionato automaticamente dal wallet da uno dei suoi stessi indirizzi di cambio gialli. Lo scopo dell'indirizzo di cambio è consentire al wallet di mettere UTXO di resto al suo interno senza compromettere la disponibilità degli indirizzi di ricezione che potresti avere in programma o per cui hai inviato invoice. Se ad esempio verranno utilizzati successivamente dai clienti, non vuoi che il tuo wallet li utilizzi automaticamente e li riempia. È disordinato e dannoso per la privacy.
 
-Nota che, mentre regoli la tassa di mining, l'importo dell'output di cambio si regolerà automaticamente, non l'importo del pagamento.
+Nota che, mentre regoli la fee di mining, l'importo dell'output di cambio si regolerà automaticamente, non l'importo del pagamento.
 
 ### Cambio manuale o pagamento a molti
 
@@ -645,30 +645,30 @@ Questa è una caratteristica davvero interessante di Electrum. Puoi accedervi in
 
 ![image](assets/46.webp)
 
-Puoi quindi inserire più destinazioni per il saldo UTXO che stai spendendo, come questo:
+Puoi quindi inserire più destinazioni per l'UTXO che stai spendendo, come questo:
 
 ![image](assets/47.webp)
 
 Incolla l'indirizzo, digita una virgola, quindi uno spazio, quindi l'importo, quindi <invio>, quindi fallo di nuovo. NON INSERIRE GLI IMPORTI NELLE FINESTRE "AMOUNT" - Electrum popolerà il totale qui mentre digiti gli importi singoli nella finestra "Pay to".
 
-Ciò ti consente di determinare manualmente dove va il cambio (ad esempio un indirizzo specifico nel tuo portafoglio o un altro portafoglio), oppure puoi pagare molte persone contemporaneamente. Se il tuo totale non è sufficientemente alto per corrispondere alla dimensione dell'UTXO, Electrum creerà comunque un output di cambio aggiuntivo per te.
+Ciò ti consente di determinare manualmente dove va il cambio (ad esempio un indirizzo specifico nel tuo wallet o un altro wallet), oppure puoi pagare molte persone contemporaneamente. Se il tuo totale non è sufficientemente alto per corrispondere alla dimensione dell'UTXO, Electrum creerà comunque un output di cambio aggiuntivo per te.
 
 La funzione Pay to Many consente anche la possibilità di creare i tuoi "PayJoins" o "CoinJoins" - al di fuori dello scopo di questo articolo, ma ho una guida qui. (https://armantheparman.com/cj/)
 
-## Portafogli
+## Wallets
 
-Voglio dimostrare un portafoglio Solo Visualizzazione utilizzando Electrum. Per farlo, devo prima definire "portafoglio". Ci sono due modi in cui "portafoglio" viene utilizzato in Bitcoin:
+Voglio mostrare un wallet di sola visualizzazione utilizzando Electrum. Per farlo, devo prima definire "wallet". Ci sono due modi in cui "wallet" viene utilizzato in Bitcoin:
 
-- Tipo A, "portafoglio" - si riferisce al software che mostra gli indirizzi e i saldi, ad esempio Electrum, Blue Wallet, Sparrow Wallet, ecc.
+- Tipo A, "wallet" - si riferisce al software che mostra gli indirizzi e i saldi, ad esempio Electrum, Blue, Sparrow, ecc.
 
-- Tipo B, "portafoglio" - si riferisce alla collezione unica di indirizzi associati alla combinazione del nostro seed_phrase/passphrase/derivation_path. Ci sono 8,6 miliardi di indirizzi in ogni portafoglio (4,3 miliardi di indirizzi di ricezione e 4,3 miliardi di indirizzi di cambio). Se cambi qualcosa nel seed phrase, passphrase o derivation path, ottieni un nuovo portafoglio inutilizzato con nuovi e tutti unici 8,6 miliardi di indirizzi vuoti.
+- Tipo B, "wallet" - si riferisce alla collezione unica di indirizzi associati alla combinazione del nostro seed_phrase/passphrase/derivation_path. Ci sono 8,6 miliardi di indirizzi in ogni wallet (4,3 miliardi di indirizzi di ricezione e 4,3 miliardi di indirizzi di cambio). Se cambi qualcosa nella seed phrase , passphrase o derivation path, ottieni un nuovo wallet inutilizzato con nuovi e tutti unici 8,6 miliardi di indirizzi vuoti.
 
-Quale tipo si sta riferendo quando si utilizza la parola "portafoglio" è ovvio nel contesto.
+Quale tipo si sta riferendo quando si utilizza la parola "wallet" è ovvio nel contesto.
 
-## Portafoglio Solo Visualizzazione - un esercizio
+## Wallet di sola visualizzazione - un esercizio
 
-Non è del tutto ovvio a cosa serve un portafoglio di osservazione, ma inizierò spiegando cos'è, come crearne uno di prova e poi torneremo al suo scopo più avanti quando spiegherò di più sui portafogli hardware. (Per una recensione approfondita su come utilizzare un portafoglio hardware e varie marche specifiche, vedi qui.)
-Creeremo un portafoglio regolare fittizio (questa volta aggiungendo un po' più di complessità con una frase segreta) e poi il corrispondente portafoglio di osservazione. Se vuoi, puoi copiare esattamente quello che ho fatto io o crearne uno tuo: questo portafoglio deve essere scartato, non utilizzarlo effettivamente. Inizia generando un seme di 12 parole utilizzando il sito di Ian Coleman.
+Non è del tutto ovvio a cosa serve un wallet di sola visualizzazione, ma inizierò spiegando cos'è, come crearne uno di prova e poi torneremo al suo scopo più avanti quando spiegherò di più sugli hardware wallet. (Per una recensione approfondita su come utilizzare un hardware wallet e varie marche specifiche, vedi qui.)
+Creeremo un wallet regolare fittizio (questa volta aggiungendo un po' più di complessità con una frase segreta) e poi il corrispondente wallet di sola visualizzazione. Se vuoi, puoi copiare esattamente quello che ho fatto io o crearne uno tuo: questo wallet deve essere scartato, non utilizzarlo effettivamente. Inizia generando un seed di 12 parole utilizzando il sito di Ian Coleman.
 
 Osserva le 12 parole casuali nella schermata sottostante e che ho inserito una frase segreta nel campo della frase segreta:
 
@@ -678,19 +678,19 @@ La frase segreta può essere lunga fino a 100 caratteri e idealmente dovrebbe es
 
 ![image](assets/48.webp)
 
-Successivamente, in Electrum, vai al menu file->nuovo/ripristina. Digita un nome univoco per creare un nuovo portafoglio e clicca su "avanti".
+Successivamente, in Electrum, vai al menù file->nuovo/ripristina. Digita un nome univoco per creare un nuovo wallet e clicca su "avanti".
 
 ![image](assets/49.webp)
 
 I passaggi successivi dovresti conoscerli ormai, quindi li elencherò senza immagini:
 
-- Portafoglio standard
-- Ho già un seme
+- wallet standard
+- Ho già un seed
 - Copia e incolla le 12 parole nella casella o inseriscile manualmente.
-- Clicca su "opzioni" e seleziona BIP39, e clicca anche sulla spunta della frase segreta ("estendi questo seme con parole personalizzate")
+- Clicca su "opzioni" e seleziona BIP39, e clicca anche sulla spunta della frase segreta ("estendi questo sedd con parole personalizzate")
 - Inserisci la tua frase segreta esattamente come hai fatto sulla pagina di Ian Coleman
-- Lascia le impostazioni predefinite per il semantica dello script e il percorso di derivazione
-- Non è necessario aggiungere una password (blocca il portafoglio)
+- Lascia le impostazioni predefinite per la semantica dello script e il percorso di derivazione
+- Non è necessario aggiungere una password (blocca il wallet)
 
 Ora torna al sito di Ian Coleman, nella sezione "percorso di derivazione", e clicca sulla scheda "BIP 84" per selezionare la stessa semantica dello script predefinita in Electrum (Native Segwit).
 
@@ -702,49 +702,49 @@ Le chiavi private e pubbliche estese sono appena sotto e cambiano quando apporti
 
 Vedrai anche le chiavi private/pubbliche estese BIP32: per ora, ignorale.
 
-La chiave privata estesa dell'account può essere utilizzata per rigenerare completamente il tuo portafoglio. La chiave pubblica estesa dell'account, tuttavia, può solo produrre una versione limitata dello stesso portafoglio (portafoglio di osservazione): se inserisci questa chiave in Electrum, produrrà comunque tutti gli 8,6 miliardi di indirizzi che avrebbe il seme o la chiave privata estesa, ma Electrum non avrà a disposizione chiavi private, quindi non sarà possibile effettuare transazioni. Facciamolo ora per dimostrare il punto:
+La chiave privata estesa dell'account può essere utilizzata per rigenerare completamente il tuo wallet. La chiave pubblica estesa dell'account, tuttavia, può solo produrre una versione limitata dello stesso wallet (wallet di sola lettura): se inserisci questa chiave in Electrum, produrrà comunque tutti gli 8,6 miliardi di indirizzi che avrebbe il seed o la chiave privata estesa, ma Electrum non avrà a disposizione chiavi private, quindi non sarà possibile effettuare transazioni. Facciamolo ora per dimostrare il punto:
 
 Copia la "chiave pubblica estesa dell'account" negli appunti.
 
-Quindi vai su Electrum, lascia aperto il portafoglio che abbiamo creato in precedenza e vai su file->nuovo/ripristina. Il processo per creare il portafoglio è leggermente diverso rispetto a prima:
+Quindi vai su Electrum, lascia aperto il wallet che abbiamo creato in precedenza e vai su file->nuovo/ripristina. Il processo per creare il wallet è leggermente diverso rispetto a prima:
 
-- Portafoglio standard
+- wallet standard
 - Utilizza una chiave principale
 - Incolla la chiave pubblica estesa nella casella e procedi
 - Non è necessario inserire una frase segreta; fa già parte della chiave pubblica estesa
 - Non è necessario inserire la semantica dello script e il percorso di derivazione
-- Non è necessario aggiungere una password (blocca il portafoglio)
-  Quando il portafoglio si carica, dovresti notare che vengono caricati esattamente gli stessi indirizzi di prima quando è stato inserito il seed. Dovresti anche notare in alto nella barra del titolo che dice "watching wallet". Questo portafoglio può mostrarti i tuoi indirizzi e i tuoi saldi (controllando i saldi tramite un nodo), ma non sei in grado di FIRMARE transazioni (perché il portafoglio di osservazione non ha chiavi private).
+- Non è necessario aggiungere una password (blocca il wallet)
+  Quando il wallet si carica, dovresti notare che vengono caricati esattamente gli stessi indirizzi di prima quando è stato inserito il seed. Dovresti anche notare in alto nella barra del titolo che dice "watching wallet". Questo wallet può mostrarti i tuoi indirizzi e i tuoi saldi (controllando i saldi tramite un nodo), ma non sei in grado di FIRMARE transazioni (perché il wallet di sola lettura non ha chiavi private).
   Allora qual è il punto?
 
-Una ragione, e non la principale, è che potenzialmente puoi osservare il tuo portafoglio e il suo saldo su un computer senza esporre le tue chiavi private a malware sul computer.
+Una ragione, e non la principale, è che potenzialmente puoi osservare il tuo wallet e il suo saldo su un computer senza esporre le tue chiavi private a malware sul computer.
 
-Un'altra ragione è che è RICHIESTO per effettuare pagamenti se scegli di tenere le tue chiavi private fuori dal computer; spiegherò:
+Un'altra ragione è che è RICHIESTO per effettuare pagamenti se scegli di tenere le tue chiavi private fuori dal computer; ti spiego:
 
-> I portafogli hardware (HWW) sono stati creati in modo che un dispositivo possa conservare le tue chiavi private in modo sicuro (bloccate con un PIN), non esporre mai le chiavi a un computer (anche quando collegato a un computer tramite un cavo) e non essere in grado di connettersi a Internet. Un dispositivo del genere non può effettuare transazioni da solo perché tutte le transazioni Bitcoin iniziano facendo riferimento a un UTXO (o più UTXO) sulla blockchain (che si trova su un nodo). Un portafoglio deve specificare l'ID della transazione in cui si trova l'UTXO e quale output della transazione deve essere speso. Solo dopo aver specificato l'input può essere creata una nuova transazione in primo luogo, figuriamoci firmarla. I portafogli hardware non possono creare transazioni perché non hanno accesso a nessun UTXO: non sono collegati a nulla! Di solito viene estratta una chiave pubblica estesa dall'HWW e gli indirizzi vengono quindi visualizzati su un computer: molte persone saranno familiari con il software Ledger o Trezor Suite che mostra indirizzi e saldi sul loro computer - questo è un portafoglio di osservazione. Questi programmi possono creare transazioni, ma non possono firmarle. Possono solo far firmare le transazioni da HWW che sono collegati a loro. L'HWW prende la transazione appena generata dal portafoglio di osservazione, la firma e poi la invia di nuovo al computer per la trasmissione a un nodo. L'HWW non può trasmettere da solo, lo fa il portafoglio di osservazione associato. In questo modo, i due portafogli (portafoglio con chiave pubblica sul computer e portafoglio con chiave privata nell'HWW) collaborano per generare, firmare e trasmettere, assicurandosi che le chiavi private rimangano isolate e lontane da un dispositivo connesso a Internet.
+> Gli hardware wallet (HW) sono stati creati in modo che un dispositivo possa conservare le tue chiavi private in modo sicuro (bloccate con un PIN), non espongono mai le chiavi a un computer (anche quando l'hardware wallet è collegato a un computer tramite un cavo) e non sono in grado di connettersi a Internet. Un dispositivo del genere non può effettuare transazioni da solo perché tutte le transazioni Bitcoin iniziano facendo riferimento a un UTXO (o più UTXO) sulla blockchain (che si trova su un nodo). Un wallet deve specificare l'ID della transazione in cui si trova l'UTXO e quale output della transazione deve essere speso. Solo dopo aver specificato l'input può essere creata una nuova transazione in primo luogo, figuriamoci firmarla. Gli hardware wallet non possono creare transazioni perché non hanno accesso a nessun UTXO: non sono collegati a nulla! Di solito viene estratta una chiave pubblica estesa dall'HW e gli indirizzi vengono quindi visualizzati su un computer: molte persone avranno familiarità con il software Ledger o Trezor Suite che mostra indirizzi e saldi sul loro computer - questo è un wallet di sola visualizzazione. Questi programmi possono creare transazioni, ma non possono firmarle. Possono solo far firmare le transazioni da HW che sono collegati a loro. L'HW prende la transazione appena generata dal wallet di sola visualizzazione, la firma e poi la invia di nuovo al computer per la trasmissione a un nodo. L'HW non può trasmettere da solo, lo fa il wallet di sola visualizzazione associato. In questo modo, i due wallet (wallet con chiave pubblica sul computer e wallet con chiave privata nell'HW) collaborano per generare, firmare e trasmettere, assicurandosi che le chiavi private rimangano isolate e lontane da un dispositivo connesso a Internet.
 
 ## Transazioni Bitcoin parzialmente firmate (PSBT)
 
 È possibile creare una transazione e salvarla su un file, successivamente ricaricarla, firmarla, salvarla, ricaricarla e infine trasmetterla - non sto dicendo che qualcuno debba farlo; è solo qualcosa che è possibile.
 
-Ora considera un portafoglio multisignature 3 su 5: 5 chiavi private creano un portafoglio e ne servono 3 per firmare completamente una transazione (vedi qui per saperne di più sulle chiavi dei portafogli multisignature). È possibile avere 5 diversi computer, ognuno con una delle cinque chiavi private.
+Ora considera un wallet multisignature 3 su 5: 5 chiavi private creano un wallet e ne servono 3 per firmare completamente una transazione (vedi qui per saperne di più sulle chiavi dei wallet multisignature). È possibile avere 5 diversi computer, ognuno con una delle cinque chiavi private.
 
 Il computer uno potrebbe generare una transazione e firmarla. Potrebbe quindi salvarla su un file e inviarla via email al computer due. Il computer due può quindi firmarla e potenzialmente salvare il file in un codice QR e trasmettere il QR tramite una chiamata Zoom al computer tre dall'altra parte del mondo. Il computer tre può catturare il QR, caricare la transazione in Electrum e firmare la transazione. Dopo le prime 2 firme, la transazione era una PSBT (transazione Bitcoin parzialmente firmata). Dopo la terza firma, la transazione diventa completamente firmata e valida, pronta per la trasmissione.
 Per saperne di più su PSBTS, consulta questa guida. (https://armantheparman.com/psbt/)
 
-## Utilizzare portafogli hardware con Electrum
+## Utilizzare hardware wallet con Electrum
 
-Ho una guida sull'utilizzo dei portafogli hardware in generale, che penso sia importante per le persone che sono nuove ai portafogli hardware, da leggere. (https://armantheparman.com/using-hwws/)
+Ho una guida sull'utilizzo degli hardware wallet in generale, che penso sia importante per le persone che sono nuove agli hardware wallet, da leggere. (https://armantheparman.com/using-hwws/)
 
-Ci sono anche guide su varie marche di portafogli hardware che si collegano a Sparrow Bitcoin Wallet, che puoi trovare qui. (https://armantheparman.com/hwws/)
+Ci sono anche guide su varie marche di hardware wallet che si collegano a Sparrow, che puoi trovare qui. (https://armantheparman.com/hwws/)
 
-Questa sarà la mia prima guida su come utilizzare un portafoglio hardware con Electrum - userò il portafoglio hardware ColdCard come esempio. Questo non è un manuale dettagliato sul ColdCard specificamente, quella guida si trova qui. Sto solo mostrando punti specifici di Electrum. (https://armantheparman.com/cc/)
+Questa sarà la mia prima guida su come utilizzare un hardware wallet con Electrum - userò l'hardware wallet ColdCard come esempio. Questo non è un manuale dettagliato su ColdCard nello specifico, quella guida si trova qui. Sto solo mostrando punti specifici di Electrum. (https://armantheparman.com/cc/)
 
 ### Connessione tramite scheda micro SD (air-gapped)
 
-Prima di connettere il tuo vero portafoglio tramite ColdCard, spero tu abbia seguito i passaggi precedenti per caricare un portafoglio fittizio di Electrum e impostare i parametri di rete.
+Prima di connettere il tuo vero wallet tramite ColdCard, spero tu abbia seguito i passaggi precedenti per caricare un wallet fittizio di Electrum e impostare i parametri di rete.
 
-Quindi, sul ColdCard, inserisci la scheda SD. Sto assumendo che tu abbia già creato il tuo seed. Se stai accedendo al portafoglio con una passphrase, applicala ora. Scorri verso il basso e seleziona il menu Avanzate/Strumenti -> Esporta Portafoglio -> Portafoglio Electrum.
+Quindi, su ColdCard, inserisci la scheda SD. Sto assumendo che tu abbia già creato il tuo seed. Se stai accedendo al wallet con una passphrase, applicala ora. Scorri verso il basso e seleziona il menu Avanzate/Strumenti -> Esporta Portafoglio -> Portafoglio Electrum.
 
 Puoi scorrere verso il basso e leggere il messaggio. Ti offre sempre di selezionare "1" per inserire un numero di conto diverso da zero (parte del percorso di derivazione), ma se hai seguito il mio consiglio, non hai modificato i percorsi di derivazione predefiniti, quindi non vorrai un numero di conto diverso da zero; premi semplicemente il segno di spunta per continuare.
 
@@ -754,15 +754,15 @@ Dirà "File del portafoglio Electrum scritto" e visualizzerà il nome del file. 
 
 Quindi togli la scheda micro SD e inseriscila nel computer con Electrum.
 
-Alcuni sistemi operativi apriranno automaticamente l'esplora file quando inserisci la microSD. Molte persone vedranno il nuovo file del portafoglio e lo apriranno facendo doppio clic su di esso, e si chiederanno perché non funziona. Non è un ottimo design. In realtà, devi ignorare l'esplora file (chiudilo) e aprire il file del portafoglio utilizzando Electrum:
+Alcuni sistemi operativi apriranno automaticamente l'esplora file quando inserisci la microSD. Molte persone vedranno il nuovo file del wallet e lo apriranno facendo doppio clic su di esso, e si chiederanno perché non funziona. Non è un ottimo design. In realtà, devi ignorare l'esplora file (chiudilo) e aprire il file del wallet utilizzando Electrum:
 
-Apri Electrum. Se è già aperto con un altro portafoglio, seleziona file -> nuovo. Stiamo cercando questa finestra:
+Apri Electrum. Se è già aperto con un altro wallet, seleziona file -> nuovo. Stiamo cercando questa finestra:
 
 ![image](assets/52.webp)
 
-Ecco il trucco, non è intuitivo. Fai clic su "scegli". Quindi naviga nel sistema di file sulla scheda microSD e trova il file del portafoglio e aprilo.
+Ecco il trucco, non è intuitivo. Clicca su "Choose". Quindi naviga nel sistema di file sulla scheda microSD e trova il file del wallet e aprilo.
 
-Ora hai aperto il portafoglio di osservazione corrispondente al tuo portafoglio hardware. Ottimo.
+Ora hai aperto il wallet di sola visualizzazione corrispondente al tuo hardware wallet. Ottimo.
 
 ### Connessione tramite cavo USB.
 
@@ -805,29 +805,29 @@ sudo udevadm control –reload-rules && sudo udevadm trigger
 
 Se ricevi un messaggio "group plugdev" già esistente, va bene, procedi. Dopo il secondo comando, non riceverai alcun feedback o risposta, procedi semplicemente al terzo comando.
 
-Potrebbe essere necessario scollegare e ricollegare il ColdCard al computer.
+Potrebbe essere necessario scollegare e ricollegare ColdCard al computer.
 
-Se non riesci ancora a connettere il ColdCard nonostante tutto ciò, ti consiglierei di provare ad aggiornare il firmware (guida disponibile a breve, ma per ora puoi trovare istruzioni sul sito del produttore).
+Se non riesci ancora a connettere ColdCard nonostante tutto ciò, ti consiglierei di provare ad aggiornare il firmware (guida disponibile a breve, ma per ora puoi trovare istruzioni sul sito del produttore).
 
-Successivamente, crea un nuovo portafoglio:
+Successivamente, crea un nuovo wallet:
 
-- Portafoglio standard
+- wallet standard
 - Utilizza un dispositivo hardware
 - Verrà eseguita una scansione per rilevare il tuo ColdCard. Procedi.
 - Seleziona la semantica dello script e il percorso di derivazione
-- Decidi se il file del portafoglio deve essere crittografato (consigliato)
+- Decidi se il file del wallet deve essere crittografato (consigliato)
 
-### Transazioni utilizzando il ColdCard
+### Transazioni utilizzando ColdCard
 
 Con il cavo collegato, le transazioni sono facili. La firma delle transazioni sarà senza soluzione di continuità.
 
 Se utilizzi il dispositivo in modo isolato, dovrai passare manualmente la transazione salvata tra i dispositivi utilizzando la scheda microSD. Ci sono alcuni trucchi.
 
-Dopo aver creato una transazione e finalizzata, devi fare clic sul pulsante di esportazione nell'angolo in basso a sinistra. Vedrai "salva su file" che, in modo controintuitivo, non è ciò che vogliamo. In realtà, devi prima andare all'ultima opzione di menu che dice "per portafogli hardware" e quindi, all'interno di quella selezione, trovare l'altro "salva su file" e selezionarlo. Quindi salva il file sulla microSD, togli la scheda e inseriscila nel ColdCard. Ricorda che potresti dover applicare una passphrase per selezionare il portafoglio corretto. Lo schermo indicherà "pronto per la firma". Fai clic sul segno di spunta, controlla la transazione e procedi confermando con il segno di spunta. Una volta fatto, togli la scheda e reinseriscila nel computer.
+Dopo aver creato una transazione e finalizzata, devi cliccare sul pulsante di esportazione nell'angolo in basso a sinistra. Vedrai "salva su file" che, in modo controintuitivo, non è ciò che vogliamo. In realtà, devi prima andare all'ultima opzione di menù che dice "per hardware wallet" e quindi, all'interno di quella selezione, trovare l'altro "salva su file" e selezionarlo. Quindi salva il file sulla microSD, togli la scheda e inseriscila nel ColdCard. Ricorda che potresti dover applicare una passphrase per selezionare il wallet corretto. Lo schermo indicherà "pronto per la firma". Clicca sul segno di spunta, controlla la transazione e procedi confermando con il segno di spunta. Una volta fatto, togli la scheda e reinseriscila nel computer.
 
-Quindi dobbiamo aprire la transazione utilizzando Electrum. La funzione è nascosta nel menu Strumenti -> Carica transazione. Naviga nel file system e trova il file. Ogni volta che firmi, ci saranno tre file. Il file originale salvato che ha creato il portafoglio di osservazione e due file creati dal ColdCard (non so perché lo faccia). Uno dirà "firmato" e uno dirà "finale". Non è intuitivo, ma quello "firmato" non è utile, dobbiamo aprire la transazione "finale".
+Quindi dobbiamo aprire la transazione utilizzando Electrum. La funzione è nascosta nel menù Strumenti -> Carica transazione. Naviga nel file system e trova il file. Ogni volta che firmi, ci saranno tre file. Il file originale salvato che ha creato il wallet di sola visualizzazione e due file creati da ColdCard (non so perché lo faccia). Uno dirà "firmato" e uno dirà "finale". Non è intuitivo, ma quello "firmato" non è utile, dobbiamo aprire la transazione "finale".
 
-Una volta caricata quella, puoi fare clic su "trasmetti" e il pagamento verrà effettuato.
+Una volta caricata quella, puoi cliccare su "trasmetti" e il pagamento verrà effettuato.
 
 ## Aggiornamento di Electrum e della directory nascosta ".electrum"
 
@@ -845,11 +845,11 @@ Linux:
 
 > /home/il_tuo_nome_utente/.electrum
 
-Nota il "." prima di "electrum" in Linux e Mac: indica che la cartella è nascosta. Inoltre, nota che questa directory viene creata (automaticamente) solo dopo aver eseguito Electrum per la prima volta. La directory contiene il file di configurazione di Electrum e anche la directory che contiene eventuali portafogli salvati.
-Se elimini il programma Electrum dal tuo computer, la cartella nascosta rimarrà, a meno che tu non la elimini attivamente anche tu.
-Per aggiornare Electrum, segui la stessa procedura che ho descritto all'inizio per scaricare e verificare. Avrai quindi due copie del programma sul tuo computer e potrai eseguire entrambe: ogni programma accederà alla stessa cartella nascosta di Electrum per la sua configurazione e l'accesso al portafoglio. Tutto ciò che abbiamo salvato, come l'unità di base, il nodo predefinito a cui connettersi, altre preferenze e l'accesso ai portafogli, rimarrà perché tutto ciò è salvato in quella cartella.
+Nota il "." prima di "electrum" in Linux e Mac: indica che la cartella è nascosta. Inoltre, nota che questa directory viene creata (automaticamente) solo dopo aver eseguito Electrum per la prima volta. La directory contiene il file di configurazione di Electrum e anche la directory che contiene eventuali wallet salvati.
+Se elimini il programma Electrum dal tuo computer, la cartella nascosta rimarrà, a meno che non la elimini attivamente anche tu.
+Per aggiornare Electrum, segui la stessa procedura che ho descritto all'inizio per scaricare e verificare. Avrai quindi due copie del programma sul tuo computer e potrai eseguire entrambe: ogni programma accederà alla stessa cartella nascosta di Electrum per la sua configurazione e l'accesso al wallet. Tutto ciò che abbiamo salvato, come l'unità di base, il nodo predefinito a cui connettersi, altre preferenze e l'accesso ai wallet, rimarrà perché tutto ciò è salvato in quella cartella.
 
-### Spostare Electrum e i portafogli su un altro computer
+### Spostare Electrum e i wallet su un altro computer
 
 Per fare ciò, puoi copiare i file del programma su una chiavetta USB e copiare anche la cartella .electrum. Quindi copiali o spostali sul nuovo computer. Non è necessario verificare nuovamente il programma. Assicurati di copiare la cartella .electrum nella posizione predefinita (ricorda di copiarla PRIMA di eseguire Electrum per la prima volta su quel computer, altrimenti verrà creata una cartella .electrum predefinita vuota e potresti confonderti).
 
@@ -859,7 +859,7 @@ Come ho spiegato in precedenza, nella scheda degli indirizzi c'è una colonna de
 
 ![image](assets/54.webp)
 
-Quando sposti il tuo portafoglio Electrum su un altro computer, potresti voler conservare tutte queste note. Puoi eseguire il backup su un file utilizzando il menu, portafoglio -> etichette -> esporta, e quindi sul nuovo computer utilizzare portafoglio -> etichette -> importa.
+Quando sposti il tuo wallet Electrum su un altro computer, potresti voler conservare tutte queste note. Puoi eseguire il backup su un file utilizzando il menù, wallet -> etichette -> esporta, e quindi sul nuovo computer utilizzare wallet -> etichette -> importa.
 
 ## Suggerimenti:
 

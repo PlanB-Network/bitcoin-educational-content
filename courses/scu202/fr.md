@@ -79,7 +79,7 @@ Vous saurez choisir et configurer un routeur sécurisé, segmenter votre réseau
 
 Pour clôturer cette formation, vous pourrez tenter d'avoir votre diplôme en passant l'examen final, afin de vérifier votre compréhension des concepts abordés.
 
-274
+![Image](assets/fr/274.webp)
 
 Prêt à prendre pleinement en main votre sécurité informatique, renforcer votre souveraineté individuelle et garantir votre confidentialité numérique ? Allons-y !
 
@@ -103,7 +103,7 @@ Une autre bonne pratique vue dans la formation concerne les cookies, ces petits 
 
 De manière générale, une navigation sécurisée suppose une certaine prudence : ne cliquez pas sur des liens inconnus, évitez les sites douteux, et privilégiez l'utilisation d'un navigateur sécurisé et à jour.
 
-268
+![Image](assets/fr/268.webp)
 
 ### Comprendre les VPN et sécuriser sa connexion Internet
 
@@ -111,13 +111,13 @@ SCU 101 vous a familiarisé avec la notion de VPN (réseau privé virtuel). Conc
 
 Par ailleurs, nous avions vu que sur des réseaux Wi-Fi publics, la connexion est particulièrement exposée. Ainsi, l'usage d'un VPN est impératif, ou à défaut, connectez-vous uniquement à des sites en HTTPS pour protéger vos échanges.
 
-269
+![Image](assets/fr/269.webp)
 
 ### Utilisation prudente de votre ordinateur
 
 La sécurité passe également par la bonne connaissance de votre système d’exploitation (OS). Vous avez exploré les trois principaux OS : Windows, macOS et Linux, chacun possédant des particularités en matière de sécurité. Sur Windows notamment, un antivirus à jour est essentiel pour détecter et bloquer les logiciels malveillants.
 
-270
+![Image](assets/fr/270.webp)
 
 SCU 101 vous rappelait aussi de ne jamais brancher des clés USB inconnues sur votre ordinateur, car elles peuvent contenir des malwares pouvant infecter immédiatement votre système.
 
@@ -129,7 +129,7 @@ Parmi les attaques les plus courantes, vous avez abordé le phishing, technique 
 
 Le ransomware constitue un autre danger majeur, bloquant vos données en les chiffrant afin de réclamer une rançon. Pour y faire face, la sauvegarde régulière de vos données est indispensable.
 
-271
+![Image](assets/fr/271.webp)
 
 ### Sécuriser efficacement vos boîtes mails
 
@@ -137,7 +137,7 @@ SCU 101 insistait particulièrement sur l’importance de sécuriser votre messa
 
 Ainsi, vous avez vu l’importance de créer des adresses mail dédiées sécurisées. Il est judicieux d'avoir une adresse mail spécifique réservée à la récupération de compte, distincte de votre adresse principale.
 
-272
+![Image](assets/fr/272.webp)
 
 ### L’importance des gestionnaires de mots de passe
 
@@ -145,7 +145,7 @@ La sécurité numérique repose fortement sur la qualité de vos mots de passe. 
 
 Les gestionnaires de mots de passe vous simplifient grandement la tâche, puisque vous n'avez à retenir qu’un seul mot de passe maître pour tous les autres.
 
-273
+![Image](assets/fr/273.webp)
 
 ### L’authentification à deux facteurs (2FA)
 

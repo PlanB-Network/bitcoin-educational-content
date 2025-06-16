@@ -2369,7 +2369,7 @@ Ce protocole est parfait pour échanger des fichiers sensibles de manière sécu
 
 Il y a également le logiciel open-source Cryptomator qui est une excellente alternative. Ce logiciel open-source permet de créer un coffre-fort : un dossier spécial dans lequel tous les fichiers déposés sont automatiquement chiffrés. Ce coffre peut être synchronisé avec des services cloud comme Dropbox, Google Drive ou Nextcloud sans que le fournisseur n’ait jamais accès aux données en clair. L’application est disponible sur tous les systèmes d’exploitation, y compris Android et iOS, et son utilisation ne nécessite aucune compétence technique particulière.
 
-256
+![Image](assets/fr/256.webp)
 
 Enfin, il est également possible d'utiliser VeraCrypt en mode conteneur, qui permet de créer un fichier agissant comme une archive chiffrée, montable comme un disque.
 
@@ -2410,7 +2410,7 @@ sudo apt install libimage-exiftool-perl
 
 Ce paquet installe `exiftool`, que vous pouvez ensuite utiliser directement en ligne de commande.
 
-259
+![Image](assets/fr/259.webp)
 
 - **Étape 2 : Afficher les métadonnées d’un fichier**
 
@@ -2427,7 +2427,7 @@ cd Downloads
 exiftool Satoshi-Nakamoto-Lugano.jpeg
 ```
 
-260
+![Image](assets/fr/260.webp)
 
 Vous verrez alors une longue liste d’attributs, avec potentiellement :
 - La date et l'heure de création ;
@@ -2446,11 +2446,11 @@ Pour effacer toutes les métadonnées d’un fichier image, utilisez la commande
 exiftool -all= name.jpg
 ```
 
-261
+![Image](assets/fr/261.webp)
 
 Cette commande crée automatiquement une copie du fichier original avec les métadonnées supprimées. L’original est conservé avec l’extension `_original` ajoutée à son nom.
 
-262
+![Image](assets/fr/262.webp)
 
 Si vous ne voulez pas conserver l’original, vous pouvez le supprimer avec la commande :
 
@@ -2460,7 +2460,7 @@ exiftool -all= -overwrite_original name.jpg
 
 Si on regarde de nouveau les métadonnées de notre fichier, on peut voir que toutes les métadonnées inutiles ou sensibles ont été supprimées.
 
-263
+![Image](assets/fr/263.webp)
 
 - **Étape 4 : Nettoyer un dossier entier**
 
@@ -2472,7 +2472,7 @@ exiftool -all= *.jpeg
 
 Cela supprime les métadonnées de tous les fichiers JPEG présents dans le répertoire courant. Vous pouvez adapter l’extension selon vos besoins (`*.png`, `*.pdf`...).
 
-264
+![Image](assets/fr/264.webp)
 
 #### Utiliser MAT2
 
@@ -2484,7 +2484,7 @@ En alternative à ExifTool, vous pouvez utiliser l’outil MAT2 (*Metadata Anony
 sudo apt install mat2
 ```
 
-265
+![Image](assets/fr/265.webp)
 
 Une fois installé, vous pouvez l’utiliser en ligne de commande comme ceci :
 
@@ -2492,11 +2492,11 @@ Une fois installé, vous pouvez l’utiliser en ligne de commande comme ceci :
 mat2 fichier.pdf
 ```
 
-266
+![Image](assets/fr/266.webp)
 
 Par défaut, MAT2 ne modifie pas le fichier original : il crée une version nettoyée dans le même dossier avec le suffixe `-clean` ajouté.
 
-267
+![Image](assets/fr/267.webp)
 
 Pour nettoyer tout un dossier, comme par exemple ici le dossier `/Downloads` :
 
@@ -2510,11 +2510,11 @@ Sur Windows et macOS, il existe plusieurs méthodes pour supprimer les métadonn
 
 Son utilisation est extrêmement simple : exécutez le logiciel, puis glissez et déposez un ou plusieurs fichiers dans la fenêtre.
 
-257
+![Image](assets/fr/257.webp)
 
 Patientez quelques instants pendant que l’outil nettoie les métadonnées. Une fois le processus terminé, vous pourrez voir un résumé indiquant le nombre de métadonnées initiales et le nombre final. Toutes les informations superflues auront été supprimées.
 
-258
+![Image](assets/fr/258.webp)
 
 Nettoyer les métadonnées des fichiers que vous partagez est donc une bonne pratique à adopter en matière de sécurité informatique. Grâce aux outils simples présentés dans ce chapitre, c’est une habitude que vous pouvez mettre en place facilement au quotidien.
 

@@ -391,7 +391,7 @@ Untuk Linux, gunakan baris perintah:
 ifconfig | grep inet
 ```
 
-Garis vertikal itu adalah simbol "pipe" dan Anda akan menemukannya di bawah tombol <delete>. Anda akan melihat beberapa output dan sebuah alamat IP. (Abaikan 127.0.0.1 itu bukan itu, dan abaikan netmask)
+Garis vertikal itu adalah simbol "pipe" dan kamu akan menemukannya di bawah tombol <delete>. Disitu, akan terlihat beberapa output dan sebuah alamat IP. (Abaikan 127.0.0.1 itu bukan itu, dan abaikan netmask)
 
 Untuk Windows, buka prompt perintah (cmd) dan ketik:
 
@@ -530,7 +530,7 @@ Selanjutnya, kita akan mengirim koin dari alamat pertama ke alamat kedua. Klik k
 
 Setelah kamu melakukan langkah tersebut, akan muncul bar berwarna hijau di bagian bawah jendela dompet yang menunjukkan berapa banyak koin yang sudah kamu pilih dan berapa total saldo yang tersedia untuk dibelanjakan.
 
-Anda memang bisa memilih satu koin (UTXO) dari sebuah alamat dan membiarkan koin lainnya tidak digunakan, tapi ini sangat tidak disarankan. Ketika Anda membelanjakan sebagian dari koin di suatu alamat, tanda tangan digital Anda membocorkan informasi kriptografis yang dapat digunakan untuk melemahkan keamanan alamat tersebut. Itu sebabnya, secara praktik terbaik, sebaiknya habiskan semua koin dari satu alamat sekaligus, lalu kirim kembalian ke alamat baru yang masih belum digunakan. Ini juga alasan mengapa menyimpan banyak koin di satu alamat bukan ide yang bagus—selain menurunkan privasi, ini juga berisiko dan bisa membuat biaya transaksi menjadi lebih mahal jika ingin memindahkan semuanya nanti. Namun, jika Anda tetap ingin tahu caranya, Anda bisa membuka tab “Coins” (Koin), lalu pilih UTXO tertentu dari daftar, klik kanan, dan pilih “Spend”. Tapi ingat, ini hanya untuk tujuan pembelajaran—jangan gunakan cara ini untuk transaksi sungguhan.
+Kita memang bisa memilih satu koin (UTXO) dari sebuah alamat dan membiarkan koin lainnya tidak digunakan, tapi ini sangat tidak disarankan. Ketika Anda membelanjakan sebagian dari koin di suatu alamat, tanda tangan digital milikmu membocorkan informasi kriptografis yang dapat digunakan untuk melemahkan keamanan alamat tersebut. Itu sebabnya, secara praktik terbaik, sebaiknya habiskan semua koin dari satu alamat sekaligus, lalu kirim kembalian ke alamat baru yang masih belum digunakan. Ini juga alasan mengapa menyimpan banyak koin di satu alamat bukan ide yang bagus—selain menurunkan privasi, ini juga berisiko dan bisa membuat biaya transaksi menjadi lebih mahal jika ingin memindahkan semuanya nanti. Namun, jika kamu tetap ingin tahu caranya, bisa langsung membuka tab “Coins” (Koin), lalu pilih UTXO tertentu dari daftar, klik kanan, dan pilih “Spend”. Tapi ingat, ini hanya untuk tujuan pembelajaran—jangan gunakan cara ini untuk transaksi sungguhan.
 
 ![image](assets/37.webp)
 
@@ -538,7 +538,7 @@ Sekarang, kita memiliki dua koin yang dipilih untuk dihabiskan. Selanjutnya, kit
 
 ![image](assets/38.webp)
 
-Kemudian pergi ke tab "Kirim", dan tempel alamat kedua di bidang "bayar ke". Tidak perlu menambahkan deskripsi; Anda bisa, tetapi Anda dapat melakukannya nanti dengan mengedit label. Untuk jumlahnya, pilih "Max" untuk menghabiskan semua koin yang kita pilih. Kemudian klik "Bayar", dan kemudian klik tombol "lanjutan" pada pop-up yang muncul.
+Kemudian pergi ke tab "Kirim", dan tempel alamat kedua di bidang "bayar ke". Tidak perlu menambahkan deskripsi; Kamu bisa, tetapi dapat melakukannya nanti dengan mengedit label. Untuk jumlahnya, pilih "Max" untuk menghabiskan semua koin yang kita pilih. Kemudian klik "Bayar", dan kemudian klik tombol "lanjutan" pada pop-up yang muncul.
 
 ![image](assets/39.webp)
 
@@ -549,9 +549,9 @@ Selalu klik "lanjutan" pada tahap ini agar kita bisa mendapatkan kontrol yang le
 Kita melihat dua kotak/jendela putih internal. Yang atas adalah jendela input (koin mana yang dihabiskan), dan yang bawah adalah output (kemana koin itu pergi).
 
 Perhatikan, status (kiri atas) adalah "belum ditandatangani" untuk saat ini. "Jumlah yang dikirim" adalah 0 karena koin sedang ditransfer dalam dompet. Biayanya adalah 481 sats. Perhatikan bahwa jika itu adalah 480 sats, nol terakhir akan dihilangkan, seperti ini, 0.0000048 dan bagi mata yang lelah, ini bisa terlihat seperti 48 sats – berhati-hatilah (sesuatu yang seharusnya diperbaiki oleh pengembang Electrum).
-Ukuran transaksi merujuk pada ukuran data dalam byte, bukan jumlah bitcoin. "Ganti dengan biaya" diaktifkan secara default, dan ini memungkinkan Anda untuk mengirim ulang transaksi dengan biaya yang lebih tinggi jika diperlukan. LockTime memungkinkan Anda untuk menyesuaikan kapan transaksi tersebut valid - Saya belum mencoba itu, tetapi menyarankan agar tidak menggunakannya kecuali Anda benar-benar memahami apa yang Anda lakukan dan telah berlatih dengan jumlah kecil.
+Ukuran transaksi merujuk pada ukuran data dalam byte, bukan jumlah bitcoin. "Ganti dengan biaya" diaktifkan secara default, dan ini memungkinkanmu untuk mengirim ulang transaksi dengan biaya yang lebih tinggi jika diperlukan. LockTime memungkinkan kita untuk menyesuaikan kapan transaksi tersebut valid - Saya belum mencoba itu, tetapi menyarankan agar tidak menggunakannya kecuali Anda benar-benar memahami apa yang kau lakukan dan telah berlatih dengan jumlah kecil.
 
-Di bagian bawah, kita memiliki beberapa alat penyesuaian biaya penambangan yang canggih. Yang perlu Anda lakukan untuk transfer internal adalah mengaturnya ke biaya minimum 1 sat/byte. Cukup ketikkan angka tersebut secara manual di kolom Target fee. Untuk memeriksa biaya yang sesuai untuk pembayaran eksternal, Anda dapat berkonsultasi dengan https://mempool.space untuk melihat seberapa sibuk mempool tersebut, dan beberapa biaya yang disarankan ditampilkan.
+Di bagian bawah, kita memiliki beberapa alat penyesuaian biaya penambangan yang canggih. Yang perlu kita lakukan untuk transfer internal adalah mengaturnya ke biaya minimum 1 sat/byte. Cukup ketikkan angka tersebut secara manual di kolom Target fee. Untuk memeriksa biaya yang sesuai untuk pembayaran eksternal, kamu dapat berkonsultasi dengan https://mempool.space untuk melihat seberapa sibuk mempool tersebut, dan beberapa biaya yang disarankan ditampilkan.
 
 ![image](assets/41.webp)
 
@@ -567,21 +567,21 @@ Di jendela bawah, kita melihat alamat kita. Perhatikan total bitcoin dari input 
 
 Jika kita menyesuaikan biaya penambangan, nilai output akan secara otomatis berubah.
 
-> Penting untuk diperhatikan di sini: Perhatikan warna alamat di jendela transaksi. Ingat bahwa alamat hijau terdaftar di tab alamatmu. Jika sebuah alamat disorot hijau (atau kuning) di jendela transaksi, maka Electrum telah mengenali alamat tersebut sebagai miliknya. Jika alamat tidak memiliki sorotan, maka itu adalah alamat eksternal (eksternal ke dompet yang saat ini terbuka), dan Anda harus memeriksanya dengan lebih hati-hati.
+> Penting untuk diperhatikan di sini: Perhatikan warna alamat di jendela transaksi. Ingat bahwa alamat hijau terdaftar di tab alamatmu. Jika sebuah alamat disorot hijau (atau kuning) di jendela transaksi, maka Electrum telah mengenali alamat tersebut sebagai miliknya. Jika alamat tidak memiliki sorotan, maka itu adalah alamat eksternal (eksternal ke dompet yang saat ini terbuka), dan kamu harus memeriksanya dengan lebih hati-hati.
 
-Setelah Anda memeriksa semua dalam transaksi dan yakin Anda senang dengan koin mana yang Anda belanjakan, dan kemana koin tersebut akan pergi, Anda dapat klik "finalise."
+Setelah memeriksa semua dalam transaksi dan senang dengan koin mana yang dibelanjakan, dan kemana koin tersebut akan pergi, Anda dapat klik "finalise."
 
 ![image](assets/42.webp)
 
-Setelah Anda klik "finalise", Anda tidak dapat lagi melakukan pengeditan - Jika Anda perlu, Anda harus menutup ini dan memulai lagi. Perhatikan tombol "finalise" telah berubah menjadi "export", dan tombol baru muncul: "save", "combine", "sign" dan "broadcast". Tombol "broadcast" tidak aktif karena transaksi belum ditandatangani dan sehingga tidak valid pada tahap ini.
+Setelah klik "finalise", kamu tidak dapat lagi melakukan pengeditan - Jika perlu, kamu harus menutup ini dan memulai lagi. Perhatikan tombol "finalise" telah berubah menjadi "export", dan tombol baru muncul: "save", "combine", "sign" dan "broadcast". Tombol "broadcast" tidak aktif karena transaksi belum ditandatangani dan sehingga tidak valid pada tahap ini.
 
-Setelah Anda klik sign, jika Anda memiliki password untuk dompet Anda akan diminta untuk itu, dan kemudian status (kanan atas) akan berubah dari "Unsigned" menjadi "Signed". Kemudian tombol "Broadcast" akan tersedia.
-Setelah Anda menyiarkan, Anda dapat menutup jendela transaksi. Jika Anda pergi ke tab alamat, Anda akan melihat alamat pertama kosong, dan alamat kedua memiliki 1 UTXO.
-Catatan: Anda akan melihat semua perubahan ini bahkan sebelum transaksi ditambang ke dalam blok, atau "dikonfirmasi". Ini karena Electrum memperbarui saldo/transaksi berdasarkan tidak hanya data blockchain, tetapi juga data mempool. Tidak semua dompet melakukan ini.
+Setelah klik sign, jika kamu memiliki password untuk dompet Anda akan diminta untuk itu, dan kemudian status (kanan atas) akan berubah dari "Unsigned" menjadi "Signed". Kemudian tombol "Broadcast" akan tersedia.
+Setelah menyiarkan, kamu dapat menutup jendela transaksi. Jika pergi ke tab alamat, kamu akan melihat alamat pertama kosong, dan alamat kedua memiliki 1 UTXO.
+Catatan: Kita akan melihat semua perubahan ini bahkan sebelum transaksi ditambang ke dalam blok, atau "dikonfirmasi". Ini karena Electrum memperbarui saldo/transaksi berdasarkan tidak hanya data blockchain, tetapi juga data mempool. Tidak semua dompet melakukan ini.
 
 Satu hal yang perlu diperhatikan adalah bahwa alih-alih menyiarkan, kita dapat menyimpan transaksi untuk nanti. Transaksi dapat disimpan baik dalam keadaan belum ditandatangani maupun sudah ditandatangani.
 
-Klik tombol "export" (paradoksnya, JANGAN klik tombol "save"), dan Anda akan melihat beberapa opsi. Transaksi dikodekan dengan teks, dan oleh karena itu dapat disimpan dalam beberapa cara.
+Klik tombol "export" (paradoksnya, JANGAN klik tombol "save"), dan kamu akan melihat beberapa opsi. Transaksi dikodekan dengan teks, dan oleh karena itu dapat disimpan dalam beberapa cara.
 
 ![image](assets/43.webp)
 
@@ -771,16 +771,16 @@ sudo groupadd plugdev
 sudo usermod -aG plugdev $(whoami)
 sudo udevadm control –reload-rules && sudo udevadm trigger
 ```
-Jika Anda mendapatkan pesan "group plugdev" sudah ada, itu tidak masalah, lanjutkan saja. Setelah perintah kedua, Anda tidak akan mendapatkan umpan balik/balasan, langsung saja lanjutkan ke perintah ketiga.
-Anda mungkin perlu memutuskan dan kemudian menyambungkan kembali ColdCard ke komputer.
+Jika kamu mendapatkan pesan "group plugdev" sudah ada, itu tidak masalah, lanjutkan saja. Setelah perintah kedua, kamu tidak akan mendapatkan umpan balik/balasan, langsung saja lanjutkan ke perintah ketiga.
+Kamu mungkin perlu memutuskan dan kemudian menyambungkan kembali ColdCard ke komputer.
 
-Jika setelah semua ini Anda masih tidak dapat menyambungkan ColdCard, saya akan mencoba memperbarui firmware (panduan segera, tapi untuk saat ini, Anda dapat menemukan instruksi di situs web produsen).
+Jika setelah semua ini masih tidak dapat menyambungkan ColdCard, saya akan mencoba memperbarui firmware (panduan segera, tapi untuk saat ini, Anda dapat menemukan instruksi di situs web produsen).
 
 Selanjutnya, buat dompet baru:
 
 - Dompet standar
 - Gunakan perangkat keras
-- Ini akan memindai dan mendeteksi ColdCard Anda. Lanjutkan.
+- Ini akan memindai dan mendeteksi ColdCard milikmu. Lanjutkan.
 - Pilih semantik skrip dan jalur derivasi
 - Putuskan apakah file dompet harus dienkripsi (disarankan)
 
@@ -788,49 +788,50 @@ Selanjutnya, buat dompet baru:
 
 Dengan kabel terhubung, transaksi menjadi mudah. Menandatangani transaksi akan lancar.
 
-Jika menggunakan perangkat dalam cara yang terisolasi dari jaringan, Anda harus secara manual memindahkan transaksi yang disimpan antar perangkat menggunakan kartu microSD. Ada beberapa trik.
+Jika menggunakan perangkat dalam cara yang terisolasi dari jaringan, kamu harus secara manual memindahkan transaksi yang disimpan antar perangkat menggunakan kartu microSD. Ada beberapa trik.
 
-Setelah membuat transaksi dan menyelesaikannya, Anda perlu mengklik tombol ekspor di sudut kiri bawah. Anda akan melihat "simpan ke file" yang secara kontraintuitif, bukan yang kita inginkan. Anda sebenarnya harus terlebih dahulu pergi ke opsi menu terakhir yang mengatakan "untuk dompet perangkat keras", dan kemudian, dari dalam pilihan itu, temukan "simpan ke file" lainnya dan pilih itu. Kemudian simpan file ke microSD, keluarkan kartu dan masukkan ke ColdCard. Ingat bahwa Anda mungkin perlu menerapkan passphrase untuk memilih dompet yang benar. Layar akan mengatakan siap untuk menandatangani. Klik tanda centang, periksa transaksi, dan lanjutkan dengan mengonfirmasi dengan tanda centang. Setelah selesai, keluarkan kartu, dan masukkan kembali ke komputer.
+Setelah membuat transaksi dan menyelesaikannya, kamu perlu mengklik tombol ekspor di sudut kiri bawah. Anda akan melihat "simpan ke file" yang secara kontraintuitif, bukan yang kita inginkan. Sebenarnya, kamu harus terlebih dahulu pergi ke opsi menu terakhir yang mengatakan "untuk dompet perangkat keras", dan kemudian, dari dalam pilihan itu, temukan "simpan ke file" lainnya dan pilih itu. Kemudian simpan file ke microSD, keluarkan kartu dan masukkan ke ColdCard. Ingat bahwa Anda mungkin perlu menerapkan passphrase untuk memilih dompet yang benar. Layar akan mengatakan siap untuk menandatangani. Klik tanda centang, periksa transaksi, dan lanjutkan dengan mengonfirmasi dengan tanda centang. Setelah selesai, keluarkan kartu, dan masukkan kembali ke komputer.
 
-Kemudian kita perlu membuka transaksi menggunakan electrum. Fungsinya tersembunyi di menu alat –> muat transaksi. Navigasikan sistem file dan temukan file tersebut. Akan ada tiga file setiap kali Anda menandatangani. File asli yang disimpan oleh Watching Wallet, dan dua yang dibuat oleh ColdCard (saya tidak tahu mengapa ini terjadi). Satu akan mengatakan "ditandatangani" dan satu akan mengatakan "final". Ini tidak intuitif tetapi yang "ditandatangani" tidak berguna, kita perlu membuka transaksi "final".
+Kemudian kita perlu membuka transaksi menggunakan electrum. Fungsinya tersembunyi di menu alat –> muat transaksi. Navigasikan sistem file dan temukan file tersebut. Akan ada tiga file setiap kali kamu menandatangani. File asli yang disimpan oleh Watching Wallet, dan dua yang dibuat oleh ColdCard (saya tidak tahu mengapa ini terjadi). Satu akan mengatakan "ditandatangani" dan satu akan mengatakan "final". Ini tidak intuitif tetapi yang "ditandatangani" tidak berguna, kita perlu membuka transaksi "final".
 
-Setelah Anda memuat itu, Anda dapat mengklik "siarkan" dan pembayaran akan dilakukan.
+Setelah termuat, kamu dapat mengklik "siarkan" dan pembayaran akan dilakukan.
 
 ## Memperbarui Electrum dan Direktori Tersembunyi ".electrum"
 
-Electrum berada di komputer Anda di dua tempat. Ada aplikasinya sendiri, dan ada folder konfigurasi tersembunyi. Folder tersebut berada di tempat yang berbeda tergantung pada sistem operasi Anda:
+Electrum berada di komputermu di dua tempat. Ada aplikasinya sendiri, dan ada folder konfigurasi tersembunyi. Folder tersebut berada di tempat yang berbeda tergantung pada sistem operasi komputermu:
 
 Windows:
 
-> C:/Users/nama_pengguna_anda_di_sini/AppData/Roaming/Electrum
+> C:/Users/nama_pengguna_di_sini/AppData/Roaming/Electrum
 
 Mac:
 
-> /Users/nama_pengguna_anda_di_sini/.electrum
+> /Users/nama_pengguna_di_sini/.electrum
 
 Linux:
 
-> /home/nama_pengguna_anda_di_sini/.electrum
+> /home/nama_pengguna_di_sini/.electrum
 
-Perhatikan bahwa “.” sebelum “electrum” di Linux dan Mac – itu menunjukkan direktori tersebut tersembunyi. Juga, perhatikan bahwa direktori ini hanya dibuat (secara otomatis) setelah Anda menjalankan Electrum untuk pertama kalinya. Direktori berisi file konfigurasi electrum dan juga direktori yang menyimpan dompet yang telah Anda simpan.
+Perhatikan bahwa “.” sebelum “electrum” di Linux dan Mac – itu menunjukkan direktori tersebut tersembunyi. Juga, perhatikan bahwa direktori ini hanya dibuat (secara otomatis) setelah menjalankan Electrum untuk pertama kalinya. Arahan berisi file konfigurasi electrum dan juga direktori yang menyimpan dompet yang telah Anda simpan.
 
-Jika Anda menghapus program Electrum dari komputer Anda, direktori tersembunyi akan tetap ada, kecuali Anda secara aktif menghapus itu juga.
-Untuk meningkatkan Electrum, Anda mengikuti prosedur yang sama seperti yang saya jelaskan di awal untuk mengunduh dan memverifikasi. Anda kemudian akan memiliki dua salinan program di komputer Anda, dan Anda dapat menjalankan salah satu dari mereka – setiap program akan mengakses folder electrum tersembunyi yang sama untuk konfigurasi dan akses dompetnya. Semua hal yang kita simpan, seperti unit dasar, node default untuk terhubung, preferensi lainnya, dan akses ke dompet, akan tetap ada karena semua itu disimpan di folder tersebut.
-### Memindahkan Electrum dan Dompet Anda ke komputer lain
+Jika perlu menghapus program Electrum dari komputermu, direktori tersembunyi akan tetap ada, kecuali jika secara aktif menghapus itu juga.
+Untuk meningkatkan Electrum, kita mengikuti prosedur yang sama seperti yang saya jelaskan di awal untuk mengunduh dan memverifikasi. Anda kemudian akan memiliki dua salinan program di komputer Anda, dan Anda dapat menjalankan salah satu dari mereka – setiap program akan mengakses folder electrum tersembunyi yang sama untuk konfigurasi dan akses dompetnya. Semua hal yang kita simpan, seperti unit dasar, node default untuk terhubung, preferensi lainnya, dan akses ke dompet, akan tetap ada karena semua itu disimpan di folder tersebut.
 
-Untuk melakukan ini, Anda dapat menyalin file program ke drive USB, dan juga menyalin direktori .electrum. Kemudian salin atau pindahkan ke komputer baru. Anda tidak perlu memverifikasi program lagi. Pastikan untuk menyalin direktori .electrum ke lokasi default (ingat untuk menyalinnya SEBELUM menjalankan Electrum untuk pertama kalinya di komputer tersebut, jika tidak, folder .electrum default yang kosong akan terisi, dan Anda mungkin akan bingung).
+### Memindahkan Electrum dan Dompet ke komputer lain
+
+Untuk melakukan ini, kita dapat menyalin file program ke drive USB, dan juga menyalin direktori .electrum. Kemudian salin atau pindahkan ke komputer baru. Nah, kita tidak perlu memverifikasi program lagi. Tapi pastikan untuk menyalin direktori .electrum ke lokasi default (ingat untuk menyalinnya SEBELUM menjalankan Electrum untuk pertama kalinya di komputer tersebut, jika tidak, folder .electrum default yang kosong akan terisi, dan kamu mungkin akan bingung).
 
 ## Label
 
-Seperti yang saya jelaskan sebelumnya, pada tab alamat, ada kolom label. Anda dapat mengklik dua kali di sana dan memasukkan catatan untuk diri Anda sendiri (hanya di komputer Anda, tidak publik, dan tidak di blockchain).
+Seperti yang saya jelaskan sebelumnya, pada tab alamat, ada kolom label. kamu dapat mengklik dua kali di sana dan memasukkan catatan untuk dirimu sendiri (hanya di komputer milikmu, tidak publik, dan tidak di blockchain).
 
 ![image](assets/54.webp)
 
-Ketika memindahkan dompet Electrum Anda ke komputer lain, Anda mungkin tidak ingin kehilangan semua catatan ini. Anda dapat mencadangkannya ke file menggunakan menu, dompet–> label –> ekspor, dan kemudian di komputer baru, gunakan dompet–>label–>impor.
+Ketika memindahkan dompet Electrum milikmu ke komputer lain, kamu mungkin tidak ingin kehilangan semua catatan ini. Kamu dapat mencadangkannya ke file menggunakan menu, dompet–> label –> ekspor, dan kemudian di komputer baru, gunakan dompet–>label–>impor.
 
 ## Tips:
 
-Jika Anda merasa sumber daya ini berguna, dan Anda ingin mendukung apa yang saya lakukan untuk Bitcoin, Anda dapat menyumbangkan beberapa sats di sini:
+Jika kalian merasa sumber daya ini berguna, dan ingin mendukung apa yang kami lakukan untuk Bitcoin, bisa menyumbangkan beberapa sats di sini:
 
 Alamat Lightning Statis: dandysack84@walletofsatoshi.com
 https://armantheparman.com/electrum/

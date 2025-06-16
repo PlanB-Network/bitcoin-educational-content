@@ -605,27 +605,27 @@ Ketika Anda mengklik tombol “save” setelah membuat transaksi, sebenarnya And
 
 Alamat perubahan itu menarik. kamu perlu memahami UTXO untuk memahami penjelasan ini. Jika kamu menghabiskan ke alamat jumlah yang lebih kecil dari UTXO, maka bitcoin yang tersisa akan pergi ke penambang kecuali output perubahan ditentukan.
 
-Kmu mungkin memiliki UTXO bitcoin 6.15 dan ingin menghabiskan 0.15 bitcoin untuk mendonasikan kepada beberapa pengunjuk rasa yang tertindas oleh pemerintah "demokratis" tirani di suatu tempat di dunia. Kemudian, kamu akan mengambil 6.15 bitcoin (menggunakan fungsi "spend from" di Electrum), dan memasukkannya dalam sebuah transaksi.
+Kamu mungkin memiliki UTXO bitcoin 6.15 dan ingin menghabiskan 0.15 bitcoin untuk mendonasikan kepada beberapa pengunjuk rasa yang tertindas oleh pemerintah "demokratis" tirani di suatu tempat di dunia. Kemudian, kamu akan mengambil 6.15 bitcoin (menggunakan fungsi "spend from" di Electrum), dan memasukkannya dalam sebuah transaksi.
 
-Anda akan menempelkan alamat para pengunjuk rasa di bidang "pay to", mungkin Anda akan menempatkan "EndTheFed & WEF" di bidang "description", dan untuk jumlahnya, Anda akan memasukkan 0.15 bitcoin dan klik "pay", lalu "advanced".
-Di layar transaksi, untuk jendela input, Anda akan melihat UTXO bitcoin sebesar 6.15. Untuk jendela output, Anda akan melihat sebuah alamat tanpa penyorotan (ini adalah alamat para pengunjuk rasa) dengan 0.15 bitcoin di sampingnya. Anda juga akan melihat alamat berwarna kuning dengan jumlah bitcoin sedikit kurang dari 6.0. Ini adalah alamat kembalian yang secara otomatis dipilih oleh dompet dari salah satu alamat kembalian kuning miliknya. Tujuan dari alamat kembalian adalah agar dompet dapat menaruh koin kembalian di dalamnya tanpa mengacaukan ketersediaan alamat penerima yang mungkin Anda rencanakan untuk digunakan, atau telah mengirimkan faktur untuknya. Jika mereka akan digunakan nanti oleh pelanggan, misalnya, Anda tidak ingin dompet Anda secara otomatis menggunakannya dan mengisinya. Ini berantakan dan buruk untuk privasi.
+Kamu akan menempelkan alamat para pengunjuk rasa di kolom "pay to", mungkin kamu akan menulis "EndTheFed & WEF" di kolom "description", lalu masukkan jumlahnya 0.15 bitcoin dan klik "pay", kemudian pilih "advanced".
+Di layar transaksi, untuk jendela input, kamu akan melihat UTXO bitcoin sebesar 6.15. Di jendela output, akan terlihat satu alamat tanpa sorotan (alamat para pengunjuk rasa) dengan 0.15 bitcoin di sampingnya. Lalu, ada satu alamat berwarna kuning dengan jumlah sedikit kurang dari 6.0 bitcoin. Itu adalah alamat kembalian yang secara otomatis dipilih oleh dompet dari daftar alamat kembalian miliknya sendiri. Alamat kembalian digunakan agar koin yang tersisa tidak masuk ke alamat penerima, yang mungkin akan digunakan lagi oleh orang lain atau untuk keperluan faktur. Ini penting agar tidak mengacaukan sistem dan menjaga privasi tetap terjaga.
 Perhatikan bahwa saat Anda menyesuaikan biaya penambangan, jumlah output kembalian akan secara otomatis menyesuaikan, bukan jumlah pembayaran.
 
 ### Perubahan manual atau bayar ke banyak
 
-Ini adalah fitur yang sangat menarik dari Electrum. Anda mengaksesnya seperti ini.
+Ini adalah fitur yang sangat menarik dari Electrum. Cara mengaksesnya seperti ini.
 
 ![image](assets/46.webp)
 
-Anda kemudian dapat memasukkan beberapa tujuan untuk saldo UTXO yang Anda belanjakan, seperti ini:
+Anda kemudian dapat memasukkan beberapa tujuan untuk saldo UTXO yang akan dibelanjakan, seperti ini:
 
 ![image](assets/47.webp)
 
-Tempel alamatnya, ketik koma, lalu spasi, lalu jumlahnya, lalu <enter>, lalu lakukan lagi. JANGAN MEMASUKKAN JUMLAH DALAM JENDELA “JUMLAH” – Electrum akan mengisi total di sini saat Anda mengetik jumlah individu di jendela “Bayar ke”.
+Tempel alamatnya, ketik koma, lalu spasi, lalu jumlahnya, lalu <enter>, lalu lakukan lagi. JANGAN MEMASUKKAN JUMLAH DALAM JENDELA “JUMLAH” – Electrum akan mengisi total di sini saat kamu mengetik jumlah individu di jendela “Bayar ke”.
 
-Ini memungkinkan Anda untuk secara manual menentukan kemana kembalian pergi (misalnya alamat tertentu di dompet Anda, atau dompet lain), atau Anda dapat membayar banyak orang sekaligus. Jika total Anda tidak cukup tinggi untuk mencocokkan ukuran UTXO, Electrum masih akan membuat output kembalian tambahan untuk Anda.
+Ini memungkinkanmu untuk secara manual menentukan kemana kembalian pergi (misalnya alamat tertentu di dompetmu, atau dompet lain), atau kamu dapat membayar banyak orang sekaligus. Jika totalnya tidak cukup tinggi untuk mencocokkan ukuran UTXO, Electrum masih akan membuat output kembalian tambahan untukmu.
 
-Fitur Bayar ke Banyak juga memungkinkan kemungkinan untuk membuat "PayJoins" atau "CoinJoins" Anda sendiri – di luar cakupan artikel ini, tetapi saya memiliki panduan di sini. (https://armantheparman.com/cj/)
+Fitur Bayar ke Banyak juga memungkinkan kemungkinan untuk membuat "PayJoins" atau "CoinJoins" punyamu sendiri – di luar cakupan artikel ini, tetapi saya memiliki panduan di sini. (https://armantheparman.com/cj/)
 
 ## Dompet
 
@@ -639,13 +639,13 @@ Tipe mana yang dimaksud seseorang saat menggunakan kata “dompet” jelas dalam
 
 ## Dompet Hanya Menonton – sebuah latihan
 
-Tidak sepenuhnya jelas apa guna dompet hanya menonton, tetapi saya akan mulai dengan menjelaskan apa itu, bagaimana membuat satu untuk latihan, dan kemudian kita akan kembali ke tujuannya nanti saat saya menjelaskan lebih lanjut tentang dompet perangkat keras. (Untuk ulasan mendalam tentang cara menggunakan dompet perangkat keras, dan berbagai merek spesifik, lihat di sini.)
-Kita akan membuat dompet reguler dummy (kali ini menambahkan sedikit lebih kompleksitas dengan passphrase), dan kemudian dompet pengamatannya. Jika Anda mau, Anda bisa menyalin yang saya buat persis, atau membuat milik Anda sendiri – dompet ini akan dibuang; jangan benar-benar menggunakannya. Mulailah dengan menghasilkan seed 12 kata menggunakan situs web Ian Coleman.
+Dompet hanya menonton adalah dompet yang tidak menyimpan kunci privat, sehingga tidak bisa mengirim Bitcoin, tapi tetap bisa melihat saldo, melacak transaksi, dan menerima pembayaran. Anda bisa membuatnya di Electrum dengan memilih opsi "watch-only" dan memasukkan kunci publik atau alamat. Dompet ini berguna untuk memantau dana tanpa risiko pencurian, dan akan lebih relevan saat kita membahas dompet perangkat keras nanti.
+Kita akan membuat dompet reguler dummy, kali ini dengan sedikit tambahan kompleksitas berupa passphrase, lalu kita buat dompet hanya-menonton dari sana. Anda bisa mengikuti langkah-langkah persis seperti saya, atau buat versi Anda sendiri—ingat, ini hanya latihan, jadi dompetnya akan dibuang dan jangan digunakan untuk menyimpan dana sungguhan. Langkah pertama: buka situs web Ian Coleman dan hasilkan seed 12 kata.
 Perhatikan 12 kata acak di tangkapan layar di bawah ini, dan bahwa saya telah memasukkan passphrase di bidang passphrase:
 
 PASSPHRASE: “Craig Wright adalah pembohong dan penipu dan layak berada di penjara. Juga, Ross Ulbricht seharusnya dibebaskan dari penjara segera.”
 
-Passphrase bisa sampai 100 karakter panjangnya, dan idealnya harus tidak ambigu dan tidak terlalu pendek – Yang saya gunakan hanya untuk bersenang-senang – Saya umumnya menyarankan menghindari huruf besar dan simbol hanya untuk mengurangi stres Anda dalam mencoba kombinasi jika Anda pernah memiliki masalah dengan mengingat passphrase Anda.
+Passphrase dapat terdiri hingga 100 karakter, dan sebaiknya tidak terlalu pendek maupun membingungkan. Gunakan kombinasi kata yang mudah Anda ingat, hindari huruf besar dan simbol agar lebih mudah diingat dan mengurangi stres jika suatu saat Anda perlu mengingatnya tanpa mencatat.
 
 ![image](assets/48.webp)
 
@@ -671,9 +671,9 @@ Kunci privat dan publik yang diperluas ada tepat di bawah, dan mereka berubah ke
 
 ![image](assets/51.webp)
 
-Anda juga akan melihat “BIP32 extended private/public” keys – ini untuk diabaikan untuk saat ini.
+Kamu juga akan melihat “BIP32 extended private/public” keys – ini untuk diabaikan untuk saat ini.
 
-Kunci privat diperluas akun dapat digunakan untuk sepenuhnya meregenerasi dompet Anda. Kunci publik diperluas akun, bagaimanapun, hanya dapat menghasilkan versi terbatas dari dompet yang sama (dompet pengamat) – Jika Anda memasukkan kunci ini di Electrum, itu masih akan menghasilkan semua 8,6 miliar alamat yang akan dihasilkan oleh seed atau kunci privat diperluas, tetapi tidak akan ada kunci privat yang tersedia untuk Electrum, jadi tidak ada pengeluaran yang mungkin. Mari kita lakukan sekarang untuk menunjukkan poinnya:
+Kunci privat diperluas memungkinkan regenerasi penuh dompet beserta kemampuan mengakses dan membelanjakan dana, sedangkan kunci publik diperluas hanya memungkinkan pembuatan dompet versi pengamat—tanpa akses untuk membelanjakan dana. Meski Electrum bisa menghasilkan seluruh alamat dari kunci publik diperluas, kunci privat tetap tak tersedia, jadi transaksi keluar tak dapat dilakukan. Sekarang, mari kita praktikkan untuk memperjelas hal ini.
 
 Salin “account extended public key” ke clipboard.
 
@@ -686,10 +686,9 @@ Kemudian pergi ke Electrum, biarkan dompet yang kita buat terbuka, dan pergi ke 
 - Tidak perlu memasukkan semantik skrip dan jalur derivasi
 - Tidak perlu menambahkan password (mengunci dompet)
 
-Ketika dompet dimuat, Anda seharusnya memperhatikan bahwa alamat yang sama persis dimuat seperti sebelumnya ketika seed dimasukkan. Anda juga seharusnya memperhatikan di bagian atas di bilah judul, tertulis “watching wallet”. Dompet ini dapat menunjukkan kepada Anda alamat Anda, dan saldo (dengan memeriksa saldo melalui node), tetapi Anda tidak dapat MENANDATANGANI transaksi (karena dompet pengamat tidak memiliki kunci privat).
-Lalu apa gunanya?
+Dompet hanya pengamat adalah jenis dompet yang memungkinkan pengguna memantau saldo dan aktivitas transaksi tanpa memiliki akses untuk membelanjakan dana, karena tidak menyimpan kunci privat. Dompet ini berguna untuk mengecek aktivitas dompet utama dari perangkat terpisah, mempermudah akuntansi atau audit, dan menerima dana secara aman tanpa risiko pencurian aset.
 
-Salah satu alasan, dan bukan alasan utama, adalah Anda dapat mengamati dompet dan saldo Anda di komputer tanpa mengungkapkan kunci privat Anda kepada malware apa pun di komputer tersebut.
+Salah satu alasan, dan bukan alasan utama, adalah dapat mengamati dompet dan saldo milikmu di komputer tanpa mengungkapkan kunci privatmu kepada malware apa pun di komputer tersebut.
 
 Alasan lainnya adalah hal tersebut DIPERLUKAN untuk melakukan pembayaran jika Anda memilih untuk menyimpan kunci privat Anda di luar komputer; saya akan menjelaskan:
 

@@ -1,0 +1,9 @@
+question: Kwa nini usalama wa mtandaoni ni muhimu kwa watumiaji wa Bitcoin?
+answer: Kwa sababu utapeli husababisha upotezaji usioweza kutenduliwa wa bitcoins
+wrong_answers:
+  - Kwa sababu benki huhakikisha fedha katika kesi ya hasara ya jumla ya Bitcoin
+  - Kwa sababu mtu anaweza kwenda jela kwa kupoteza bitcoins
+  - Kwa sababu mashambulizi husababisha mizigo mizito sana ya kiutawala
+explanation: |
+  Bila waamuzi, utapeli unamaanisha upotezaji wa uhakika wa bitcoins.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni faida gani kuu ya Bitcoin katika uso wa migogoro ya kifedha?
+answer: Kuhifadhi akiba dhidi ya mfumuko wa bei
+wrong_answers:
+  - Kuongezeka kwa viwango vya riba
+  - Kuhakikisha kurudi kwa kudumu
+  - Kutoa bima ya benki
+explanation: |
+  Bitcoin inatoa ulinzi dhidi ya kushuka kwa thamani ya sarafu kutokana na sera yake ya utoaji inayoweza kutabirika.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Condorcet alimtetea mfungwa gani maarufu?
+answer: Le chevalier de la Barre
+wrong_answers:
+  - Jean Calas
+  - Louis Mandrin
+  - Hesabu ya Lally
+explanation: |
+  Condorcet alimtetea Chevalier de la Barre, kijana aliyehukumiwa kifo kwa kukufuru.

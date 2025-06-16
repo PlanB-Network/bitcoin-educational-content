@@ -8,11 +8,11 @@ description: Kuanzisha VPN iliyolipiwa na bitcoins
 VPN ("*Virtual Private Network*") ni huduma inayoanzisha muunganisho salama na uliosimbwa kwa njia fiche kati ya simu au kompyuta yako na seva ya mbali inayodhibitiwa na mtoa huduma wa VPN.
 
 
-Kitaalam, unapounganisha kwa VPN, trafiki yako ya mtandao inaelekezwa kwingine kupitia handaki iliyosimbwa kwa seva ya VPN. Mchakato huu hufanya iwe vigumu kwa wahusika wengine, kama vile Watoa Huduma za Mtandao (ISPs) au watendaji hasidi, kuingilia au kusoma data yako. Seva ya VPN basi hufanya kama mpatanishi anayeunganisha kwa huduma unayotaka kutumia kwa niaba yako. Inaweka IP mpya Address kwa muunganisho wako, ambayo husaidia kuficha IP yako halisi ya Address kutoka kwa tovuti unazotembelea. Hata hivyo, kinyume na yale ambayo baadhi ya matangazo ya mtandaoni yanaweza kupendekeza, kutumia VPN hakukuruhusu kuvinjari mtandao bila kujulikana, kwani inahitaji aina ya uaminifu katika mtoa huduma wa VPN ambaye anaweza kuona trafiki yako yote.
+Kitaalam, unapounganisha kwa VPN, trafiki yako ya mtandao inaelekezwa kwingine kupitia handaki iliyosimbwa kwa seva ya VPN. Mchakato huu hufanya iwe vigumu kwa wahusika wengine, kama vile Watoa Huduma za Mtandao (ISPs) au watendaji hasidi, kuingilia au kusoma data yako. Seva ya VPN basi hufanya kama mpatanishi anayeunganisha kwa huduma unayotaka kutumia kwa niaba yako. Inaweka IP Address mpya kwa muunganisho wako, ambayo husaidia kuficha IP Address yako halisi ya kutoka kwa tovuti unazotembelea. Hata hivyo, kinyume na yale ambayo baadhi ya matangazo ya mtandaoni yanaweza kupendekeza, kutumia VPN hakukuruhusu kuvinjari mtandao bila kujulikana, kwani inahitaji aina ya uaminifu katika mtoa huduma wa VPN ambaye anaweza kuona trafiki yako yote.
 
 ![IVPN](assets/fr/01.webp)
 
-Faida za kutumia VPN ni nyingi. Kwanza, huhifadhi ufaragha wa shughuli zako za mtandaoni kutoka kwa Watoa Huduma za Intaneti au serikali, mradi tu mtoa huduma wa VPN hatashiriki maelezo yako. Pili, inalinda data yako, haswa wakati umeunganishwa kwa mitandao ya umma ya Wi-Fi, ambayo inaweza kuathiriwa na mashambulio ya MITM (man-in-the-katikati). Tatu, kwa kuficha IP yako Address, VPN hukuruhusu kupita vikwazo vya kijiografia na udhibiti, ili kufikia maudhui ambayo yasingepatikana au kuzuiwa katika eneo lako.
+Faida za kutumia VPN ni nyingi. Kwanza, huhifadhi ufaragha wa shughuli zako za mtandaoni kutoka kwa Watoa Huduma za Intaneti au serikali, mradi tu mtoa huduma wa VPN hatashiriki maelezo yako. Pili, inalinda data yako, haswa wakati umeunganishwa kwa mitandao ya umma ya Wi-Fi, ambayo inaweza kuathiriwa na mashambulio ya MITM (man-in-the-middle). Tatu, kwa kuficha IP yako Address, VPN hukuruhusu kupita vikwazo vya kijiografia na udhibiti, ili kufikia maudhui ambayo yasingepatikana au kuzuiwa katika eneo lako.
 
 
 Kama unavyoona, VPN huhamisha hatari ya uchunguzi wa trafiki kwa mtoaji wa VPN. Kwa hiyo, wakati wa kuchagua mtoa huduma wako wa VPN, ni muhimu kuzingatia data ya kibinafsi inayohitajika kwa usajili. Mtoa huduma akiomba maelezo kama vile nambari yako ya simu, barua pepe Address, maelezo ya kadi ya benki, au mbaya zaidi, Address yako ya posta, hatari ya kuhusisha utambulisho wako na trafiki yako huongezeka. Katika tukio la maelewano ya mtoa huduma au kunaswa kisheria, itakuwa rahisi kuhusisha trafiki yako na data yako ya kibinafsi. Kwa hivyo, inashauriwa kuchagua mtoa huduma ambaye hahitaji data yoyote ya kibinafsi na anayekubali malipo yasiyojulikana, kama vile bitcoins.
@@ -26,7 +26,7 @@ Katika somo hili, ninawasilisha suluhisho rahisi, la ufanisi na la bei ya VPN am
 
 IVPN ni huduma ya VPN iliyoundwa mahsusi kwa watumiaji wanaotafuta aina ya faragha. Tofauti na watoa huduma maarufu wa VPN ambao mara nyingi hutangazwa kwenye YouTube, IPP inajitokeza kwa uwazi wake, usalama na heshima ya faragha.
 
-Sera ya faragha ya IPP ni kali: hakuna maelezo ya kibinafsi yanayohitajika wakati wa kujisajili. Unaweza kufungua akaunti bila kutoa barua pepe Address, jina, au nambari ya simu. Kwa malipo, sio lazima kuweka maelezo ya kadi ya mkopo, kwani IVPN inakubali malipo katika bitcoins (onchain na umeme). Zaidi ya hayo, IPP inadai kutoweka kumbukumbu za shughuli, ambayo ina maana kwamba, kwa nadharia, trafiki yako ya mtandao haijarekodiwa na kampuni.
+Sera ya faragha ya IPP ni kali: hakuna maelezo ya kibinafsi yanayohitajika wakati wa kujisajili. Unaweza kufungua akaunti bila kutoa barua pepe Address, jina, au nambari ya simu. Kwa malipo, sio lazima kuweka maelezo ya kadi ya mkopo, kwani IVPN inakubali malipo katika bitcoins (onchain na Lightning). Zaidi ya hayo, IPP inadai kutoweka kumbukumbu za shughuli, ambayo ina maana kwamba, kwa nadharia, trafiki yako ya mtandao haijarekodiwa na kampuni.
 
 IVPN pia ni [chanzo huria](https://github.com/ivpn), kuhusu programu yake, programu-tumizi, na hata tovuti yao, inayomruhusu mtu yeyote kuthibitisha na kukagua misimbo yake. Pia hupitia ukaguzi huru wa usalama kila mwaka, ambao matokeo yake huchapishwa kwenye tovuti yao.
 
@@ -108,17 +108,17 @@ Katika ukurasa huo huo, chagua muda wa usajili wako kwa huduma.
 
 ![IVPN](assets/notext/10.webp)
 
-Kisha chagua njia yako ya kulipa. Kwa upande wangu, nitafanya malipo kupitia Lightning Network, kwa hiyo mimi bonyeza kitufe cha "*Bitcoin*".
+Kisha chagua njia yako ya kulipa. Kwa upande wangu, nitafanya malipo kupitia Lightning Network, kwa hiyo mimi nitabonyeza kitufe cha "*Bitcoin*".
 
 ![IVPN](assets/notext/11.webp)
 
-Hakikisha kuwa kila kitu kiko kama unavyopenda kisha ubofye kitufe cha "*Lipa kwa Umeme*".
+Hakikisha kuwa kila kitu kiko kama unavyopenda kisha ubofye kitufe cha "*Lipa kwa Lightning*".
 
 ![IVPN](assets/notext/12.webp)
 
-Umeme Invoice itawasilishwa kwako kwenye Seva yao ya BTCPay. Changanua msimbo wa QR na Umeme Wallet yako na uendelee na malipo.
+Lightning Invoice itawasilishwa kwako kwenye Seva yao ya BTCPay. Changanua msimbo wa QR na Lightning Wallet yako na uendelee na malipo.
 
-![IVPN](assets/notext/13.webp) Once the invoice is paid, click on the "*Return to IVPN*" button.
+![IVPN](assets/notext/13.webp) Baada ya ankara kulipwa, bofya kitufe cha "*Rudi kwa IPP*".
 
 ![IVPN](assets/notext/14.webp)
 
@@ -149,7 +149,7 @@ Kwa smartphone yako, utaratibu ni sawa. Bandika kitambulisho cha akaunti yako au
 ## Jinsi ya kutumia na kusanidi IPP?
 
 
-Kwa upande wa matumizi na mipangilio, ni rahisi sana. Kutoka kwa Interface kuu, unaweza kuwezesha au kuzima muunganisho kwa kutumia alama ya kuteua.
+Kwa upande wa matumizi na mipangilio, ni rahisi sana. Kutoka kwa Kiolesura kuu, unaweza kuwezesha au kuzima muunganisho kwa kutumia alama ya kuteua.
 
 ![IVPN](assets/notext/21.webp)
 

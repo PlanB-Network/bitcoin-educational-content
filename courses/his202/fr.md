@@ -702,7 +702,7 @@ Mike Hearn, Andreas Schildbach, Thomas Voegtlin, Andreas Antonopoulos, Luke-Jr, 
 
 - Vitalik Buterin, "Bitcoin Wallet Reviews – Ease Of Use And Security", [2012](https://web.archive.org/web/20120922131335/http://bitcoinmagazine.net/bitcoin-wallet-options/)
 
-- Problème de la conservation personnelle, vol : virus... perte :  Stefan Thomas, [nov. 2011](https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1) : "Some users protected their bitcoins by creating multiple backups, encrypting and storing them on thumb drives, on forensically scrubbed virgin computers without Internet connections, in the cloud, and on printouts stored in safe-deposit boxes. But even some sophisticated early adopters had trouble keeping their bitcoins safe. Stefan Thomas had three copies of his wallet yet inadvertently managed to erase two of them and lose his password for the third. In a stroke, he lost about 7,000 bitcoins, at the time worth about $140,000. 'I spent a week trying to recover it,' he says. 'It was pretty painful.'"
+- Problème de la conservation personnelle, vol : virus... perte :  Stefan Thomas, [nov. 2011](https://web.archive.org/web/20111124022726/http://www.wired.com/magazine/2011/11/mf_bitcoin/all/1) : "Some users protected their bitcoins by creating multiple backups, encrypting and storing them on thumb drives, on forensically scrubbed virgin computers without Internet connections, in the cloud, and on printouts stored in safe-deposit boxes. But even some sophisticated early adopters had trouble keeping their bitcoins safe. Stefan Thomas had three copies of his wallet yet inadvertently managed to erase two of them and lose his password for the third. In a stroke, he lost about 7,000 bitcoins, at the time worth about $140,000. 'I spent a week trying to recover it,' he says. 'It was pretty painful.'" – "I've lost bitcoins myself" [juin 2011](https://www.youtube.com/watch?v=3yoduTFjZW4&t=1820s)
 
 - `wallet.dat`
 
@@ -819,25 +819,29 @@ Le 16 décembre, Electrum [intègre](https://bitcointalk.org/index.php?topic=509
 
 ### Les portefeuilles web
 
-- Stefan Thomas (justmoon), bitcoinjs-lib, mai 2011 : [annonce sur BitcoinTalk, 5/5](https://bitcointalk.org/index.php?topic=7357.msg108003#msg108003), [GitHub](https://github.com/bitcoinjs/bitcoinjs-lib/), [first commit, 4/5](https://github.com/bitcoinjs/bitcoinjs-lib/commit/c0d740d2d4cd35ab18dc35e23936db42f17ad2ee)
+Une sorte de portefeuille hybride émerge également : le portefeuille web (*web wallet*).
 
-https://github.com/booo/node-bitcoin-p2p création le 27 août 2011 ; premier commit : Stefan Thomas — 12 mars 2011
+À partir de mars 2011, Stefan Thomas (justmoon), le producteur de la vidéo « *What is Bitcoin?* » et gestionnaire de WeUseCoins, travaille sur une bibliothèque Javascript (Node.js) pour interagir avec le protocole Bitcoin. Cette bibliothèque, appelée BitcoinJS, [sort](https://bitcointalk.org/index.php?topic=7357.msg108003#msg108003) le 5 mai. Elle permet aux développeurs web de déployer des clients fonctionnant dans le navigateur de l'utilisateur.
 
-- Blockchain.info, Benjamin Reeves (piuk), août 2011 (explorateur de blocs), portefeuille web : https://bitcointalk.org/index.php?topic=40264.msg490783#msg490783 https://web.archive.org/web/20120519163609/https://bitcointalk.org/index.php?topic=40264.0 ;
+![Présentation de la bibliothèque BitcoinJS par Stefan Thomas (de WeUseCoins) et Eric Brigham (de Trucoin)](https://www.youtube.com/watch?v=KTmFwnIRG9c)
 
-Benjamin Reeves (piuk), explorateur de blocs, [30/8/2011](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) : "I've created a site similar to block explorer with a couple of improvements: Includes orphaned blocks which can be used to track possible double spends; Estimates the actual volume of BTC transacted (not just BTC sent). The site can be found at: http://pi.uk.com/bitcoin" Il fait alors concurrence au site de Theymos, Bitcoin Bloc Explorer (BBE), et à [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), une alternative open-source destinée à être hébergée. Le site [devient](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) Blockchain.info en octobre.
+Présentation de la bibliothèque BitcoinJS par Stefan Thomas (de WeUseCoins) et Eric Brigham (de Trucoin)
 
-Le 1er décembre, un portefeuille est [ajouté](http://bitcointalk.org/index.php?topic=40264.msg636996#msg636996). Il est sobrement nommé My Wallet. L'utilisateur se connecte grâce à un identifiant et un mot de passe. Les clés privées sont chiffrées et stockées sur le serveur. L'utilisateur peut bénéficier de la visibilité apportée par l'explorateur de blocs.
+En août, Benjamin Reeves, un développeur britannique habitant à York, connu sous le pseudonyme Piuk sur le forum, exploite cette possibilité. En se [basant](https://web.archive.org/web/20180611012256/https://github.com/zootreeves/blockchain.info) sur l'implémentation de BitcoinJS, il [met au point](https://bitcointalk.org/index.php?topic=40264.msg500726#msg500726) un explorateur de blocs qui « inclut les blocs orphelins » (original: "Includes orphaned blocks which can be used to track possible double spends") et « estime le volume réel de BTC transactés » (original: "Estimates the actual volume of BTC transacted (not just BTC sent)"), qu'il héberge sur son site personnel. Il fait alors concurrence au Bitcoin Bloc Explorer (BBE) de Theymos, et à [ABE](https://bitcointalk.org/index.php?topic=22785.msg286515#msg286515), une alternative open-source destinée à être hébergée par les utilisateurs. Le site [change](https://bitcointalk.org/index.php?topic=40264.msg576916#msg576916) de nom de domaine en octobre et devient Blockchain.info.
+
+Le 1er décembre, Ben Reeves [intègre](http://bitcointalk.org/index.php?topic=40264.msg636996#msg636996) une fonctionnalité de portefeuille à la plateforme. Cette fonctionnalité, sobrement nommé My Wallet, permet à l'utilisateur de créer un compte et de se connecter grâce à un identifiant et un mot de passe. Les clés privées de son portefeuille sont chiffrées et stockées sur le serveur. L'utilisateur peut bénéficier de la visibilité apportée par l'explorateur de blocs.
 
 ![Interface de My Wallet en décembre 2011](assets/en/blockchain-info-dec-2011-bitcointalk.webp)
 
-Interface de My Wallet en décembre 2011 (source : [archive](https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) de Bitcointalk)
-
-[capture de janv. 2012](https://web.archive.org/web/20120108001717/https://blockchain.info/wallet/)
+Interface de My Wallet en décembre 2011 (source : [archive](https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) de Bitcointalk)
 
 L'aspect pratique du portefeuille le rend très populaire. \[source ?\]
 
-En 2012, Benjamin Reeves réalise une levée de fonds. Ses deux cofondateurs sont Nicolas Cary, ami d'université d'Erik Voorhees, qui l'a introduit à Bitcoin ; et Peter Smith, qui devient PDG. Roger Ver investit dans la société.
+En 2012, Ben Reeves réalise une levée de fonds. Ses deux cofondateurs sont Nicolas Cary, ami d'université d'Erik Voorhees, qui l'a introduit à Bitcoin ; et Peter Smith, qui devient PDG. Roger Ver investit dans la société.
+
+![Cadres de Blockchain.info, date indéterminée. De gauche à droite : Peter Smith, Nic Cary, Ben Reeves.](assets/en/blockchain-info-peter-smith-nic-cary-ben-reeves-photo-by-matt-tuzzolo-nyt-2014.webp)
+
+Cadres de Blockchain.info, date indéterminée. De gauche à droite : Peter Smith, Nic Cary, Ben Reeves. (source : Matt Tuzzolo pour le [New York Times](https://archive.nytimes.com/dealbook.nytimes.com/2014/10/06/blockchain-is-latest-bitcoin-start-up-to-lure-big-investment/))
 
 ### Les portefeuilles papier
 

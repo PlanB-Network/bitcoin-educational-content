@@ -533,13 +533,15 @@ Lancée en 2006, Linux Mint est une distribution dérivée d’Ubuntu, pensée p
 
 https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-Mint se distingue par sa simplicité, la présence par défaut de codecs multimédias et un outil de mise à jour bien conçu. En contrepartie, elle repose étroitement sur l’infrastructure d’Ubuntu, ce qui la rend dépendante de ses choix techniques (notamment au niveau du noyau ou des dépôts). Mint est particulièrement adaptée aux utilisateurs peu techniques ou à ceux qui souhaitent un système prêt à l’emploi, sans courbe d’apprentissage abrupte.
+Mint se distingue par sa simplicité, la présence par défaut de codecs multimédias et un outil de mise à jour bien conçu. En contrepartie, elle repose étroitement sur l’infrastructure d’Ubuntu, ce qui la rend dépendante de ses choix techniques (notamment au niveau du noyau ou des dépôts). Mint est particulièrement adaptée aux utilisateurs peu techniques ou à ceux qui souhaitent un système prêt à l’emploi, sans trop d’apprentissage.
 
 ![Image](assets/fr/021.webp)
 
 - **Zorin OS** :
 
-Créée en 2008 par une équipe irlandaise, Zorin OS vise explicitement les utilisateurs de Windows et macOS souhaitant une transition en douceur vers Linux. Elle repose sur Ubuntu LTS et propose une interface personnalisée qui peut imiter Windows ou macOS selon les préférences. L’installation est fluide, les logiciels essentiels sont préinstallés, et la version "Lite" permet de faire fonctionner le système sur des machines anciennes. Certaines éditions, comme la "Pro", sont payantes (environ 50€), mais la version gratuite reste tout à fait fonctionnelle. Zorin OS est un bon choix pour ceux qui cherchent un environnement visuellement familier, bien intégré et sans configuration manuelle.
+Créée en 2008 par une équipe irlandaise, Zorin OS vise explicitement les utilisateurs de Windows et macOS souhaitant une transition en douceur vers Linux. Elle repose sur Ubuntu LTS et propose une interface personnalisée qui peut imiter Windows ou macOS selon les préférences. 
+
+L’installation est fluide, les logiciels essentiels sont préinstallés, et la version "Lite" permet de faire fonctionner le système sur des machines anciennes. Certaines éditions, comme la "Pro", sont payantes (environ 50€), mais la version gratuite reste tout à fait fonctionnelle. Zorin OS est un bon choix pour ceux qui cherchent un environnement visuellement familier, bien intégré et sans configuration manuelle.
 
 ![Image](assets/fr/022.webp)
 
@@ -549,9 +551,9 @@ Lancée en 2011, elementary OS est une distribution basée sur Ubuntu qui mise a
 
 ![Image](assets/fr/023.webp)
 
-- **Pop! OS** :
+- **Pop!OS** :
 
-Développée par la société américaine System76, Pop! OS repose également sur Ubuntu. Elle cible à la fois les utilisateurs de bureau et les développeurs, avec une interface GNOME modifiée (et depuis peu un environnement maison appelé COSMIC). Pop! OS intègre par défaut des optimisations pour les GPU NVIDIA et propose un mode de gestion des fenêtres en mosaïque, très apprécié des pros. Le système reste simple à utiliser, mais propose également des fonctionnalités avancées prêtes à l’emploi. Il s’adresse aux utilisateurs intermédiaires, aux étudiants ou aux professionnels qui veulent un système efficace sans avoir à configurer leur environnement à la main.
+Développée par la société américaine System76, Pop!OS repose également sur Ubuntu. Elle cible à la fois les utilisateurs de bureau et les développeurs, avec une interface GNOME modifiée (et depuis peu un environnement maison appelé COSMIC). Pop!OS intègre par défaut des optimisations pour les GPU NVIDIA et propose un mode de gestion des fenêtres en mosaïque. Le système reste simple à utiliser, mais propose également des fonctionnalités avancées prêtes à l’emploi. Il s’adresse aux utilisateurs intermédiaires, aux étudiants ou aux professionnels qui veulent un système efficace sans avoir à configurer leur environnement à la main.
 
 ![Image](assets/fr/024.webp)
 
@@ -643,7 +645,9 @@ Whonix combine Debian avec le réseau Tor dans une architecture en deux VM (pass
 
 ![Image](assets/fr/037.webp)
 
-Ce panorama vous offre un aperçu de l’écosystème actuel des distributions Linux, et vous permet, selon votre profil technique et vos objectifs, de sélectionner la distribution la mieux adaptée à vos attentes. Dans le prochain chapitre de SCU 202, nous allons étudier plus précisément l’environnement pratique de Linux, en commençant par les environnements graphiques qui représentent la base de vos interactions quotidiennes avec le système.
+Ce panorama vous offre un aperçu de l’écosystème actuel des distributions Linux, et vous permet, selon votre profil technique et vos objectifs, de sélectionner la distribution la mieux adaptée à vos attentes.
+
+Dans le prochain chapitre de SCU 202, nous allons étudier plus précisément l’environnement pratique de Linux, en commençant par les environnements graphiques qui représentent la base de vos interactions quotidiennes avec le système.
 
 ## Les environnements de bureau Linux
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
@@ -664,7 +668,7 @@ Il est donc important, sous Linux, de bien distinguer toutes les couches : le no
 
 Un environnement de bureau dans une distribution Linux n’est pas une seule application, mais un ensemble cohérent de composants logiciels qui offrent une interface graphique complète pour interagir avec le système d’exploitation. Ces composants reposent sur plusieurs couches logicielles, qui s’articulent de la manière suivante :
 
-- **Un gestionnaire de fenêtres** : il dessine les bordures de fenêtres, gère leur placement, leur redimensionnement, les effets de transitions, etc. Par exemple : Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Un gestionnaire de fenêtres** : il dessine les bordures de fenêtres, gère leur placement, leur redimensionnement, les effets de transitions... Par exemple : Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 - **Un gestionnaire de fichiers** : il permet de naviguer dans l’arborescence des répertoires, de copier, déplacer ou supprimer des fichiers de manière visuelle. Exemples : Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
@@ -682,7 +686,7 @@ Un environnement de bureau dans une distribution Linux n’est pas une seule app
 
 - **Un serveur d'affichage** : c’est le logiciel qui se charge de la communication entre le système (via le noyau et les pilotes graphiques) et les applications graphiques. Il permet d'afficher des fenêtres à l'écran et de gérer les entrées clavier et souris. Le serveur d'affichage est souvent un composant différent de l'environnement de bureau, mais de plus en plus de systèmes adoptent Wayland, un protocole moderne où le rôle de serveur d’affichage peut être pris en charge directement par le gestionnaire de fenêtres (par exemple Mutter sous GNOME ou KWin sous KDE). On parle alors de "compositeur Wayland".
 
-Tous ces éléments reposent sur un toolkit graphique, c’est-à-dire une bibliothèque logicielle qui fournit les composants de base pour créer les interfaces graphiques : boutons, menus, champs de texte, etc. Les deux principaux toolkits sous Linux sont :
+Tous ces éléments reposent sur un toolkit graphique, c’est-à-dire une bibliothèque logicielle qui fournit les composants de base pour créer les interfaces graphiques : boutons, menus, champs de texte... Les deux principaux toolkits sous Linux sont :
 - GTK (*GIMP Toolkit*) : utilisé par GNOME, XFCE, Cinnamon, MATE...
 - Qt : utilisé par KDE Plasma, LXQt…
 
@@ -700,7 +704,7 @@ Lancé en 1997 et publié pour la première fois en 1999, GNOME ("*GNU Network O
 
 Techniquement, le compositeur Mutter combine la gestion des fenêtres et la pile Wayland, tout en restant compatible X11 grâce à XWayland. L’environnement fournit par défaut Nautilus pour la navigation de fichiers, GNOME Terminal pour la ligne de commande et un panneau de paramètres centralisé. Les possibilités de personnalisation de GNOME sont limitées nativement.
 
-C'est l'environnement par défaut des distributions Fedora Workstation, Ubuntu Workstation et de nombreuses autres orientées poste de travail.
+C'est l'environnement par défaut des distributions Fedora Workstation, Ubuntu et de nombreuses autres orientées poste de travail.
 
 #### KDE Plasma
 
@@ -732,7 +736,9 @@ LXQt est issu de la fusion en 2013 de deux projets distincts : LXDE (développé
 
 #### Cinnamon
 
-Cinnamon est un environnement de bureau moderne développé et maintenu par l’équipe de la distribution Linux Mint. Il a vu le jour en 2011 comme une réponse directe aux changements radicaux introduits par GNOME 3, jugés trop disruptifs par une partie de la communauté. Initialement, Cinnamon était un simple fork de GNOME Shell, mais il s’est progressivement affranchi de GNOME pour devenir un environnement de bureau à part entière, tout en continuant de reposer sur les bibliothèques GTK (notamment GTK 3).
+Cinnamon est un environnement de bureau moderne développé et maintenu par l’équipe de la distribution Linux Mint. Il a vu le jour en 2011 comme une réponse directe aux changements radicaux introduits par GNOME 3, jugés trop disruptifs par une partie de la communauté. 
+
+Initialement, Cinnamon était un simple fork de GNOME Shell, mais il s’est progressivement affranchi de GNOME pour devenir un environnement de bureau à part entière, tout en continuant de reposer sur les bibliothèques GTK (notamment GTK 3).
 
 Son objectif principal est de proposer une interface classique et intuitive, dans la continuité de ce que proposait GNOME 2 ou Windows : un menu d’applications en bas à gauche, une barre des tâches, une zone de notification et un bureau gérable. Cette approche conservatrice est particulièrement intéressante pour les utilisateurs débutants ou venant de Windows, qui y retrouvent rapidement leurs repères.
 
@@ -742,7 +748,7 @@ Son objectif principal est de proposer une interface classique et intuitive, dan
 
 MATE est un fork de GNOME 2, lancé en 2011, suite à l’arrivée de GNOME 3 et de son interface radicalement différente (GNOME Shell). MATE est né de cette volonté de préserver l’approche classique de l’environnement GNOME 2 tout en assurant sa maintenance et sa modernisation.
 
-Techniquement, MATE repose sur les bibliothèques GTK 3 (après avoir longtemps utilisé GTK 2), et maintient une structure modulaire : gestionnaire de fichiers (Caja), panneau de configuration, terminal, éditeur de texte, etc. Tous ces composants sont des forks des outils GNOME 2, continuellement mis à jour pour rester compatibles avec les systèmes modernes.
+Techniquement, MATE repose sur les bibliothèques GTK 3 (après avoir longtemps utilisé GTK 2), et maintient une structure modulaire : gestionnaire de fichiers (Caja), panneau de configuration, terminal, éditeur de texte... Tous ces composants sont des forks des outils GNOME 2, continuellement mis à jour pour rester compatibles avec les systèmes modernes.
 
 Son interface repose sur une logique de bureau traditionnelle : un ou deux panneaux (menu, zones de lancement rapide, horloge, zones de notification), un bureau avec icônes, et une organisation en fenêtres flottantes.
 
@@ -750,13 +756,13 @@ Son interface repose sur une logique de bureau traditionnelle : un ou deux panne
 
 ### Critères de choix
 
-Le choix de votre environnement de bureau sous GNU/Linux n’est pas anodin : il conditionne à la fois l’expérience utilisateur, la performance du système, ainsi que la compatibilité logicielle. Chaque DE repose sur des choix techniques (bibliothèques, architecture, gestionnaire de fenêtres, etc.) qui influent sur son apparence, son comportement, ses performances, et même ses exigences matérielles. Voici les principaux critères à considérer pour faire un choix éclairé.
+Le choix de votre environnement de bureau sous GNU/Linux n’est pas anodin : il conditionne à la fois l’expérience utilisateur, la performance du système, ainsi que la compatibilité logicielle. Chaque DE repose sur des choix techniques (bibliothèques, architecture, gestionnaire de fenêtres...) qui influent sur son apparence, son comportement, ses performances, et même ses exigences matérielles. Voici les principaux critères à considérer pour faire un choix éclairé.
 
 #### Les performances matérielles
 
 Chaque environnement de bureau a un poids système différent. Cela se mesure en termes de consommation de RAM, d’utilisation de CPU et de temps de démarrage :
-- Sur des machines anciennes ou peu puissantes (CPU monocœur, moins de 2 Go de RAM...), des environnements très légers comme LXQt, LXDE ou Xfce sont recommandés. Ils offrent une interface graphique complète, mais sans effets visuels ni dépendances lourdes ;
-- Les environnements intermédiaires, comme MATE ou Cinnamon, nécessitent un matériel un peu plus récent (4 à 6 Go de RAM recommandés), mais restent raisonnables.
+- Sur des machines anciennes ou peu puissantes (CPU monocœur, moins de 2 Go de RAM...), je vous recommande des environnements très légers comme LXQt, LXDE ou Xfce. Ils offrent une interface graphique complète, mais sans effets visuels ni dépendances lourdes ;
+- Les environnements intermédiaires, comme MATE ou Cinnamon, nécessitent un matériel un peu plus récent (4 à 6 Go de RAM recommandés), mais restent raisonnables ;
 - Des environnements modernes et riches comme GNOME ou KDE Plasma sont très complets, mais demandent plus de ressources, surtout si les effets graphiques sont activés. Ils conviennent à des machines récentes.
 
 #### Les préférences esthétiques et ergonomiques
@@ -776,7 +782,7 @@ L’usage principal de l'ordinateur va également orienter votre choix :
 
 #### La compatibilité avec la distribution choisie
 
-Chaque distribution GNU/Linux favorise un environnement par défaut, souvent mieux intégré, mieux testé, et accompagné d’outils dédiés, ainsi qu'installé par défaut. Il est toujours possible d’installer un autre environnement de bureau, mais cela peut occasionner des doublons de logiciels, des conflits de configuration, ou une expérience utilisateur moins cohérente. Le choix de votre environnement de bureau sera donc bien souvent influencé par celui de votre distribution Linux, ou, à l’inverse, c’est votre préférence pour un environnement de bureau spécifique qui pourra orienter votre choix de distribution.
+Chaque distribution GNU/Linux favorise un environnement par défaut, souvent mieux intégré, mieux testé, et accompagné d’outils dédiés, ainsi qu'installé par défaut. Il est toujours possible d’installer un autre environnement de bureau, mais cela peut occasionner des doublons de logiciels, des conflits de configuration, ou une expérience utilisateur moins cohérente. Le choix de votre environnement de bureau peut donc être influencé par celui de votre distribution Linux, ou, à l’inverse, c’est votre préférence pour un environnement de bureau spécifique qui pourra orienter votre choix de distribution.
 
 Notez qu’il existe parfois des variantes de certaines distributions, qu’elles soient maintenues par l’équipe du projet ou par des contributeurs externes, et qui intègrent un environnement de bureau différent de celui proposé par défaut (par exemple : Kubuntu, Lubuntu, Xubuntu...).
 
@@ -798,7 +804,7 @@ Voici les environnements de bureau des principales distributions :
 	- Fedora LXQt Spin → LXQt
 	- Fedora Cinnamon Spin → Cinnamon
 	- Fedora MATE-Compiz Spin → MATE
-	- Fedora SoaS, i3, etc. → environnements spécifiques
+	- Fedora SoaS, i3... → environnements spécifiques
 
 - Debian → GNOME (par défaut), choix possible entre KDE, Xfce, LXQt, Cinnamon, MATE lors de l’installation
 
@@ -837,7 +843,7 @@ Ce chapitre vous aura permis de mieux comprendre ce qu’est un environnement de
 
 Ubuntu constitue aujourd’hui l’une des portes d’entrée les plus accessibles vers GNU/Linux : environnement GNOME soigné, dépôts très fournis, mises à jour de sécurité réactives et grosse communauté. C'est pourquoi j'ai choisi de présenter cette distribution.
 
-Maîtriser son installation de bureau demande cependant de comprendre les mécanismes fondamentaux du système : gestion de paquets, ligne de commande, sécurité de base et bonnes pratiques quotidiennes. Dans ce chapitre, je vous accompagne pas à pas, de la configuration initiale jusqu’à l’installation d’outils de productivité et de développement, afin de disposer d’un poste de travail stable, sécurisé et efficace.
+Maîtriser son installation de bureau demande cependant de comprendre les mécanismes fondamentaux du système : gestion de paquets, ligne de commande, sécurité de base et bonnes pratiques quotidiennes. Dans ce chapitre, je vous accompagne pas à pas, de la configuration initiale jusqu’à l’installation d’outils de productivité et de développement, afin de disposer d’un poste de travail complet, sécurisé et efficace.
 
 ### Installation de la distribution Ubuntu
 
@@ -882,7 +888,7 @@ Dans le menu de démarrage, sélectionnez la clé USB (elle peut apparaître sou
 L’installateur vous proposera de :
 - choisir votre langue, votre fuseau horaire ;
 - connecter un réseau Wi-Fi ;
-- choisir le type d’installation (par défaut ou étendu) en fonction de si vous souhaitez avoir un système minimal ou bien déjà de nombreuses applications préinstallées ;
+- choisir le type d’installation (par défaut ou étendu) en fonction de si vous souhaitez avoir un système minimal ou déjà avec de nombreuses applications préinstallées ;
 - installer ou non des logiciels tiers (pilotes graphiques, codecs...).
 
 #### Choisir un type d’installation
@@ -891,7 +897,7 @@ Une fois Ubuntu lancé, l’assistant d’installation vous guide étape par ét
 
 - **Installation à côté de Windows (*dual boot*)**
 
-Si votre ordinateur contient déjà Windows, Ubuntu détectera automatiquement cette installation et proposera une cohabitation des 2 système d'exploitation :
+Si votre ordinateur contient déjà Windows, Ubuntu détectera automatiquement cette installation et proposera une cohabitation des 2 systèmes d'exploitation :
 - L’installateur va réduire la partition de Windows pour libérer de l’espace ;
 - Ubuntu s’installera dans cet espace libre, avec ses propres partitions ;
 - Un gestionnaire d’amorçage (GRUB) sera installé, ce qui vous permettra de choisir entre Windows et Ubuntu à chaque démarrage de l'ordinateur.
@@ -965,7 +971,7 @@ Chaque dépôt est divisé en sections. Ubuntu active par défaut quatre section
 * **universe** : les logiciels libres maintenus par la communauté. Exemples : GIMP, Inkscape, Audacity…
 * **multiverse** : les logiciels soumis à des restrictions légales (brevets, licences non libres). Leur disponibilité peut varier selon les pays. Exemples : certains codecs audio/vidéo, Steam…
 
-Chaque composant peut ensuite être décliné en plusieurs **canaux** ou **pockets** : `release`, `security`, `updates`, `backports`, etc., qui correspondent à la nature des mises à jour.
+Chaque composant peut ensuite être décliné en plusieurs canaux ou pockets : `release`, `security`, `updates`, `backports`, etc., qui correspondent à la nature des mises à jour.
 
 ### Premiers pas en ligne de commande
 
@@ -1002,7 +1008,7 @@ Variante :
 lsblk
 ```
 
-Affiche l’arborescence des disques et partitions connectées à votre système (très pratique pour identifier un disque USB, par exemple).
+Affiche l’arborescence des disques et partitions connectées à votre système (très pratique pour identifier un disque USB par exemple).
 
 - Changer de répertoire :
 
@@ -1101,7 +1107,7 @@ Cela ouvre un terminal complet avec les droits root. À utiliser avec précautio
 man command_name
 ```
 
-La commande `man` (*manual*) ouvre la documentation complète d’une commande. Naviguez avec les flèches ou `PgUp` / `PgDn`, et quittez avec `q`.
+La commande `man` (*manual*) ouvre la documentation complète d’une commande. Naviguez avec les flèches et quittez avec `q`.
 
 Exemple :
 
@@ -1115,7 +1121,9 @@ Pour un résumé rapide, utilisez :
 cp --help
 ```
 
-Ces premières commandes suffisent à effectuer la majorité des opérations de base dans votre terminal. Avec un peu de pratique, vous gagnerez en autonomie et en vitesse. Dans les prochaines partis, nous allons aller plus loin sur l’utilisation du terminal pour la gestion du système, des paquets et des outils de sécurité.
+Ces premières commandes suffisent à effectuer la majorité des opérations de base dans votre terminal. Avec un peu de pratique, vous gagnerez en autonomie et en vitesse.
+
+Dans les prochaines sections, nous allons aller plus loin sur l’utilisation du terminal pour la gestion du système, des paquets et des outils de sécurité.
 
 ### Gestion des paquets : APT, Snap et Flatpak
 
@@ -1303,7 +1311,7 @@ sudo apt autoremove --purge
 
 Cette commande supprime les paquets devenus obsolètes et les fichiers de configuration associés.
 
-Si vous avez installé des logiciels via les gestionnaires de paquet Snap ou Flatpak, vous pouvez utiliser ces deux commandes pour els mettre à jour également :
+Si vous avez installé des logiciels via les gestionnaires de paquet Snap ou Flatpak, vous pouvez utiliser ces deux commandes pour les mettre à jour également :
 
 ```bash
 sudo snap refresh
@@ -1332,7 +1340,7 @@ Maintenir votre système et vos logiciels à jour est un réflexe essentiel en s
 
 ### Pare-feu et durcissement réseau
 
-Un pare-feu est un outil de sécurité qui contrôle les connexions réseau entrantes et sortantes d’un ordinateur. Sur Ubuntu, il va vous servir à filtrer le trafic afin d’autoriser uniquement les communications légitimes et de bloquer celles qui pourraient être malveillantes. Cela permet par exemple d’empêcher des intrusions extérieures non sollicitées, afin de renforcer la protection de vos données et de votre système, même si vous n’êtes pas un utilisateur avancé.
+Un pare-feu est un outil de sécurité qui contrôle les connexions réseau entrantes et sortantes d’un ordinateur. Sur Ubuntu, il va vous servir à filtrer le trafic afin d’autoriser uniquement les communications légitimes et de bloquer celles qui pourraient être malveillantes. Cela permet par exemple d’empêcher des intrusions extérieures non sollicitées, afin de renforcer la protection de vos données et de votre système.
 
 Dès l’installation, sécuriser les communications réseau de votre machine est donc une étape importante. Ubuntu intègre un pare-feu standard : UFW (*Uncomplicated Firewall*). Il permet de gérer finement les connexions entrantes et sortantes, sans devoir écrire manuellement des règles complexes.
 
@@ -1398,11 +1406,11 @@ Une fois installé, lancez-le via le menu d’applications. Vous pourrez activer
 
 ![Image](assets/fr/089.webp)
 
-→ **Bonnes pratiques :** Même si vous n’exposez pas de service réseau à l’extérieur, un pare-feu reste utile pour bloquer certains types de scans ou d'accès. Pensez aussi à changer les ports par défaut pour certains services (comme SSH), à désactiver les services inutiles et à toujours tenir vos logiciels réseau à jour. Ce durcissement du réseau local est une première ligne de défense dans une stratégie de sécurité plus large, mais nous y reviendrons plus tard dans la formation.
+→ **Bonnes pratiques :** Même si vous n’exposez pas de service réseau à l’extérieur, un pare-feu reste utile pour bloquer certains types de scans ou d'accès. Pensez aussi à désactiver les services inutiles et à toujours tenir vos logiciels réseau à jour. Ce durcissement du réseau local est une première ligne de défense dans une stratégie de sécurité plus large, mais nous y reviendrons plus tard dans la formation.
 
 ### Connexion Internet et gestion réseau
 
-Sous Ubuntu, la gestion du réseau est assurée par *NetworkManager*, un service qui centralise les connexions filaires, Wi-Fi, VPN, modem, etc. Il fonctionne en tandem avec *netplan*, un outil de configuration de bas niveau qui définit les réglages réseau persistants dans des fichiers YAML. Ensemble, ces outils assurent à la fois la simplicité pour un usage quotidien et la robustesse pour des cas plus complexes (serveurs, configurations manuelles...).
+Sous Ubuntu, la gestion du réseau est assurée par *NetworkManager*, un service qui centralise les connexions filaires, Wi-Fi, VPN, modem... Il fonctionne en tandem avec *netplan*, un outil de configuration de bas niveau qui définit les réglages réseau persistants dans des fichiers YAML. Ensemble, ces outils assurent à la fois la simplicité pour un usage quotidien et la robustesse pour des cas plus complexes (serveurs, configurations manuelles...).
 
 #### Gestion via l’interface graphique
 
@@ -1411,7 +1419,7 @@ Pour la majorité des utilisateurs, l’interface graphique intégrée à GNOME 
 - gérer les connexions filaires, les proxys, ou les VPN ;
 - visualiser l'état actuel de chaque interface réseau.
 
-Ce mode de gestion est intuitif et couvre 99 % des besoins classiques sur un ordinateur personnel.
+Ce mode de gestion est intuitif et couvre la plupart des besoins classiques sur un ordinateur personnel.
 
 ![Image](assets/fr/090.webp)
 

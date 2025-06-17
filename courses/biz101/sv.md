@@ -463,53 +463,53 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ### Utmaningarna för företagskassan
 
-Företagskassan är den plats där man förvarar dyrbara saker. Ett sunt företag är väl kapitaliserat för att kunna hantera framtida osäkerhet och planera sina investeringar. Numera placeras en del av överskottet i finansiella tillgångar som anses ha hög "Liquid", till exempel obligationer, tidsbundna insättningar och så vidare.
+Kassan är den plats där man förvarar dyrbara saker. Ett sunt företag är väl kapitaliserat för att kunna hantera framtida osäkerhet och planera sina investeringar. Numera placeras en del av överskottet i finansiella tillgångar som anses ha hög "likviditet", till exempel obligationer, tidsbundna insättningar och så vidare.
 
 Under en mycket lång tidshorisont använder vissa företag illikvida tillgångar som fastigheter utan att inse vissa faror:
 
 
 - Illikviditet i händelse av kris
 - I slutändan ganska låg avkastning när avgifterna har dragits av
-- En avkastning som inte överträffar den reala inflationen, den för pengarna Supply (~7% per år, se nedan)
+- En avkastning som inte överstiger den verkliga inflationen – det vill säga tillväxttakten i penningmängden (cirka 7 % per år, se nedan).
 - Den dolda risken att fastigheter förlorar en del av sin "sparfunktion" till förmån för tillgångar som Bitcoin. Som ett resultat kan det återgå närmare sitt "användningsvärde": att ge skydd.
 
 Låt oss snabbt gå igenom den miljö som företagen verkar i.
 
-**Riktig inflation**: Till sina uppdragsgivares stora förtret har centralbankerna ett inflationsmål på 2% per år, vilket innebär en värdeminskning på 40% på 20 år. Om man lägger till perioder med mer uttalad inflation blir det tydligt att företag inte enbart kan använda valuta för att lagra frukterna av sitt arbete. De måste genomföra komplexa finansiella strategier, som med nödvändighet är förenade med en rad risker. Dessa strategier är uppenbarligen **otillgängliga för mycket små företag**, som redan är hårt upptagna av sin kärnverksamhet.
+**Verklig inflation**: Till förtret för sitt uppdrag har centralbankerna ett inflationsmål på 2% per år, vilket innebär en värdeminskning på 40% på 20 år. Om man lägger till perioder med mer uttalad inflation blir det tydligt att företag inte enbart kan använda valuta för att lagra frukterna av sitt arbete. De måste genomföra komplexa finansiella strategier, som ofta är förenade med en rad risker. Dessa strategier är uppenbarligen **otillgängliga för mycket små företag**, som redan är kraftigt upptagna av sin kärnverksamhet.
 
-**Dold inflation**: I ett skuldbaserat monetärt system med fraktionella reserver som stöds av centralbanker växer **den totala penningmängden Supply med i genomsnitt cirka 7 % per år** (t.ex. M1 i euroområdet eller USA). Det innebär att din "andel av kakan" halveras på bara några år - såvida du inte har privilegierad tillgång till den finansiella kranen och kan fortsätta att växa genom att belåna och köpa tillgångar snabbt till "gamla priser" innan de nyskapade pengarna driver upp dem. Detta är Cantillon-effekten, som delvis förklarar förmögenhetsöverföringen till de mer välbeställda, medan "kapitalet" felaktigt beskylls för att vara boven i dramat (se vår introduktion om kapital ovan).
+**Dold inflation**: I ett skuldbaserat monetärt system med fraktionella reserver som stöds av centralbanker växer **den totala penningmängden med i genomsnitt cirka 7 % per år** (t.ex. M1 i Eurozone eller USA). Det innebär att din "andel av kakan" halveras på bara några år - såvida du inte har privilegierad tillgång till det finansiella flödet och kan fortsätta att växa genom att belåna och köpa tillgångar snabbt till "gamla priser" innan de nyskapade pengarna driver upp dem. Detta är Cantillon-effekten, som delvis förklarar förmögenhetsöverföringen till de mer välbärgade, medan "kapitalet" felaktigt beskylls för att vara boven i dramat (se vår introduktion om kapital ovan).
 
-**Motpartsrisker**: Det nuvarande finansiella systemet är riskfyllt och det är inte säkert att du alltid har tillgång till "dina pengar" Utan att åberopa bilden av ett korthus måste det erkännas att finansinstitut privatiserar vinster och socialiserar förluster vid minsta kris. I ett system med "skriftenliga" pengar (pengar som registrerats i en Ledger) är pengarna på banken bara en "fordran"; du äger dem inte på riktigt och bankerna själva "har dem inte" (fraktionella reserver). Dessa pengar är på sätt och vis helt magiska. Vissa prestigefyllda banker som en gång i tiden hånade Bitcoin finns inte längre kvar idag, till exempel Credit Suisse.
+**Motpartsrisker**: Det nuvarande finansiella systemet är riskfyllt och det är inte säkert att du alltid har tillgång till "dina pengar". Utan att åberopa bilden av ett korthus måste det erkännas att finansinstitut privatiserar vinster och socialiserar förluster vid minsta kris. I ett system med "skriftenliga" pengar (pengar som registrerats i ett register) är pengarna på banken bara en "fordran"; du äger dem inte på riktigt och bankerna själva "har dem inte" (fraktionella reserver). Dessa pengar är på sätt och vis helt magiska. Vissa prestigefyllda banker som en gång i tiden hånade Bitcoin finns inte längre kvar idag, till exempel Credit Suisse.
 
 Denna brist på förtroende leder till ett uppsving för "innehavartillgångar" som guld (även om det är komplicerat att säkra, transportera och dela upp, etc.) och naturligtvis Bitcoin, nykomlingen.
 
 ### Bitcoin som en finansiell tillgång
 
-Bitcoin erbjuder ett radikalt alternativ. Det är **en innehavartillgång, utan någon central emittent**, är nästan omöjlig att beslagta och drar nytta av nätverkseffekter. "Sanna" Bitcoin-användare väljer att använda den för att lagra frukterna av sitt arbete, eftersom den ses som en värdebevarare som är resistent mot både censur och inflation. Tack vare nätverkseffekten, som illustreras av Metcalfes lag, ökar varje ny övertygad användare nätverkets värde; när antalet deltagare växer stiger Bitcoin:s nytta exponentiellt. Denna modell gör det till en distinkt och lovande form av kapital, byggd på användaradoption och förtroende.
+Bitcoin erbjuder ett radikalt alternativ. Det är **en innehavartillgång, utan någon central utgivare**, är nästan omöjlig att beslagta och drar nytta av nätverkseffekter. "Sanna" Bitcoin-användare väljer att använda den för att lagra frukterna av sitt arbete, eftersom den ses som en värdebevarare som är resistent mot både censur och inflation. Tack vare nätverkseffekten, som illustreras av Metcalfes lag, ökar varje ny övertygad användare nätverkets värde; när antalet deltagare växer stiger Bitcoins nytta exponentiellt. Denna modell gör det till en distinkt och lovande form av kapital, byggd på användaradoption och förtroende.
 
-Bitcoin är den **mesta Liquid-tillgången i världen** och fungerar 24/7 utan avbrott, till skillnad från traditionella finansmarknader som har stängningstider och "kretsbrytare" Denna likviditet gör det möjligt för användare att köpa eller sälja bitcoins när som helst, oavsett om det är som svar på goda eller dåliga nyheter (t.ex. missiluppskjutningar, krig etc.).
+Bitcoin är den **mest likvida tillgången i världen** och fungerar 24/7 utan avbrott, till skillnad från traditionella finansmarknader som har stängningstider och "avbrottsmekanismer". Denna likviditet gör det möjligt för användare att köpa eller sälja bitcoins när som helst, oavsett om det är som svar på goda eller dåliga nyheter (t.ex. missiluppskjutningar, krig etc.).
 
 Under ett decennium har Bitcoin uppvisat en genomsnittlig årlig tillväxt på mer än 60%. Denna unika utveckling har gjort det möjligt för långsiktiga innehavare att bevara sitt startkapital, till skillnad från andra instrument.
 
 Det finns dock flera viktiga faktorer att tänka på:
 
-För det första: **tidigare resultat garanterar inte framtida resultat**. Så länge Bitcoin förblir **säker och decentraliserad** kan man rimligen hoppas på en årlig prisuppgång på långt över 20% per år under det kommande decenniet, vilket gör det till ett livskraftigt verktyg för statskassan.
+För det första: **tidigare resultat garanterar inte framtida resultat**. Så länge Bitcoin förblir **säker och decentraliserad** kan man rimligen hoppas på en årlig prisuppgång på långt över 20% per år under det kommande decenniet, vilket gör det till ett livskraftigt verktyg för kassan.
 
 För det andra har Bitcoin hittills upplevt **4-årscykler**, vilket innebär att med en tidshorisont på mer än 4 år har spelet alltid varit lönsamt. För dem som ser Bitcoin som en investering kan en kortsiktig horisont (<4 år) vara riskfylld.
 
 ![BIZ101](assets/en/07.webp)
 
-*MICHAEL SAYLOR: "Den bästa prissignalen för Bitcoin är det 4-åriga enkla glidande medelvärdet."* Se ovanstående diagram.
+*MICHAEL SAYLOR: "Den bästa prissignalen för Bitcoin är det 4-åriga enkla rörliga medelvärdet."* Se ovanstående diagram.
 
-Dessutom är det tillrådligt att hålla sin exponering för Bitcoin **proportionell** i förhållande till sin förståelsenivå. Det är också viktigt att inte ha bråttom eller att försöka tajma marknaden perfekt.
+Dessutom är det lämpligt att hålla sin exponering för Bitcoin **proportionell** i förhållande till sin förståelsenivå. Det är också viktigt att inte ha bråttom eller att försöka tajma marknaden perfekt.
 
-Slutligen anses Bitcoin vara **flyktig**. För att vara exakt är dess pris uttryckt i enheter av fiat-pengar det. En del av denna volatilitet är naturlig för en fortfarande ung tillgång, men den förstärks också av närvaron av spekulanter som inte använder den som en långsiktig värdebevarare utan istället söker snabba vinster. Dessutom accentuerar hävstångshandel (användning av lånade medel för att öka handelspositionerna) både uppåtgående och nedåtgående prisrörelser, vilket förhindrar Bitcoin från att följa en rak uppåtgående bana. Detta leder till mer uttalade fluktuationer, men med tiden, när basen av engagerade användare växer, verkar denna volatilitet stabiliseras. Sammanfattningsvis är det **omöjligt att ha en tillgång som är lika högpresterande som Bitcoin utan volatilitet**, men du kan säkert ha mycket mindre högpresterande tillgångar med mindre volatilitet.
+Slutligen betraktas Bitcoin som **volatil**, men det är egentligen priset i fiatvaluta som uppvisar det. En del av denna volatilitet är naturlig för en fortfarande ung tillgång, men den förstärks också av närvaron av spekulanter som inte använder den som en långsiktig värdebevarare utan istället söker snabba vinster. Dessutom betonar hävstångshandel (användning av lånade medel för att öka handelspositionerna) både uppåtgående och nedåtgående prisrörelser, vilket förhindrar Bitcoin från att följa en rak uppåtgående bana. Detta leder till mer uttalade fluktuationer, men med tiden, när basen av engagerade användare växer, verkar denna volatilitet stabiliseras. Sammanfattningsvis är det **omöjligt att ha en tillgång som är lika högpresterande som Bitcoin utan volatilitet**, men du kan säkert ha mycket mindre högpresterande tillgångar med mindre volatilitet.
 
-### Bitcoin antagen av Wall Street
+### Bitcoin antas av Wall Street
 
 Att Bitcoin används av finansiella institutioner stärker ytterligare dess position på den globala marknaden.
 
-Nya uttalanden från **BlackRock** belyser Bitcoin:s potential som en värdebevarande tillgång och ett verktyg för portföljdiversifiering. Den globala institutionella jätten föreslog nyligen att **Bitcoin: s användartillväxt överträffar internet** eller mobiltelefoner, särskilt driven av **demografiska och generationsskiften**, samt ökande misstro mot traditionella finansinstitut (!). På grund av dess knappa, icke-suveräna och decentraliserade natur ser vissa investerare Bitcoin som ett säkert alternativ **i tider av finanspolitisk och monetär instabilitet**, rädsla eller störande geopolitiska händelser.
+Nya uttalanden från **BlackRock** belyser Bitcoins potential som en värdebevarande tillgång och ett verktyg för portföljdiversifiering. Den globala institutionella jätten föreslog nyligen att **Bitcoin: s användartillväxt överträffar internet** eller mobiltelefoner, särskilt driven av **demografiska och generationsskiften**, samt ökande misstro mot traditionella finansinstitut (!). På grund av dess knappa, icke-suveräna och decentraliserade natur ser vissa investerare Bitcoin som ett säkert alternativ **i tider av finanspolitisk och monetär instabilitet**, rädsla eller störande geopolitiska händelser.
 
 **Spot Bitcoin ETF**, som lanserades i januari 2024, har haft en fenomenal framgång - den **mest framgångsrika** ETF-lanseringen i historien - med nästan 20 miljarder dollar i nettoinflöden. från januari till november. Det är ungefär fyra gånger bättre än den näst bästa ETF-lanseringen, Nasdaq-100 QQQ. Dessa ETF:er ger enklare och mer reglerad tillgång till Bitcoin, vilket har **ytterligare legitimerat** det och lockat ett betydande inflöde av institutionellt kapital.
 

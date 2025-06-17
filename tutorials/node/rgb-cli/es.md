@@ -40,7 +40,7 @@ Una vez finalizada la instalación, el archivo :
 rgb
 ```
 
-Al ejecutar `rgb` (sin argumentos) aparece una lista de subcomandos disponibles, como `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`, etc. Puede cambiar el directorio de almacenamiento local (un alijo que contiene todos los registros, esquemas e implementaciones), elegir la red (testnet, mainnet) o configurar su servidor Electrum.
+Al ejecutar `rgb` (sin argumentos) aparece una lista de subcomandos disponibles, como `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`, etc. Puedes cambiar el directorio de almacenamiento local (una carpeta que contiene todos los registros, esquemas e implementaciones), elegir la red (testnet, mainnet) o configurar tu servidor Electrum.
 
 ![RGB-CLI](assets/fr/01.webp)
 
@@ -52,7 +52,7 @@ Cuando ejecutes el siguiente comando, verás que ya viene integrada por defecto 
 rgb interfaces
 ```
 
-Si esta interfaz no está integrada, clone el archivo :
+Si esta interfaz no está integrada, clona el archivo :
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-interfaces
@@ -64,7 +64,7 @@ Compílalo:
 cargo run
 ```
 
-A continuación, importe la interfaz que desee:
+A continuación, importa la interfaz que desees:
 
 ```bash
 rgb import interfaces/RGB20.rgb
@@ -72,13 +72,13 @@ rgb import interfaces/RGB20.rgb
 
 ![RGB-CLI](assets/fr/02.webp)
 
-Sin embargo, nos dicen que todavía no se ha importado ningún esquema al programa. Tampoco hay ningún contrato en el almacén. Para verlo, ejecute el comando :
+Sin embargo, nos dicen que todavía no se ha importado ningún esquema al programa. Tampoco hay ningún contrato en el almacén. Para verlo, ejecuta el comando :
 
 ```bash
 rgb schemata
 ```
 
-A continuación, puede clonar el repositorio para recuperar determinados esquemas:
+A continuación, puedes clonar el repositorio para recuperar determinados esquemas:
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-schemata
@@ -86,7 +86,7 @@ git clone https://github.com/RGB-WG/rgb-schemata
 
 ![RGB-CLI](assets/fr/03.webp)
 
-Este repositorio contiene, en su directorio `src/`, varios archivos Rust (por ejemplo `nia.rs`) que definen esquemas (NIA para "*Activo No Inflable*", UDA para "*Activo Digital Único*", etc.). Para compilar, puede ejecutar :
+Este repositorio contiene, en su directorio `src/`, varios archivos Rust (por ejemplo `nia.rs`) que definen esquemas (NIA para "*Activo No Inflable*", UDA para "*Activo Digital Único*", etc.). Para compilar, ejecuta:
 
 ```bash
 cd rgb-schemata
@@ -97,7 +97,7 @@ Esto genera varios archivos `.rgb` y `.rgba` correspondientes a los esquemas com
 
 ### Importación de esquemas e interfaces
 
-Ahora puede importar el esquema en `rgb` :
+Ahora puedes importar el esquema en `rgb` :
 
 ```bash
 rgb import schemata/NonInflatableAssets.rgb
@@ -117,16 +117,16 @@ Existen dos enfoques para crear un nuevo activo:
 
 
 - O bien utilizamos un script o código en Rust que construye un Contrato rellenando los campos del esquema (estado global, Estados Propios, etc.) y produce un archivo `.rgb` o `.rgba`;
-- O utilice directamente el subcomando `issue`, con un archivo YAML (o TOML) que describa las propiedades del token.
+- O utilizamos directamente el subcomando `issue`, con un archivo YAML (o TOML) que describa las propiedades del token.
 
 Puedes encontrar ejemplos en Rust en la carpeta `examples`, que ilustran cómo se construye un `ContractBuilder`, se rellena el `global state` (nombre del activo, ticker, suministro, fecha, etc.), se define el Owned State (a qué UTXO está asignado), y luego se compila todo esto en una *contratación de consignación* que puedes exportar, validar e importar a un alijo.
 
-La otra forma es editar manualmente un archivo YAML para personalizar el `ticker`, el `name`, el `supply`, etc. Supongamos que el archivo se llama `RGB20-demo.yaml`. Puede especificar :
+La otra forma es editar manualmente un archivo YAML para personalizar el `ticker`, el `name`, el `supply`, etc. Supongamos que el archivo se llama `RGB20-demo.yaml`. Puedes especificar :
 
 
 - `spec`: ticker, nombre, precisión ;
 - `terms`: un campo para avisos legales ;
-- `issuedSupply` : la cantidad de fichas emitidas ;
+- `issuedSupply` : la cantidad de monedas emitidas ;
 - `assignments`: indica el precinto de un solo uso (*definición del precinto*) y la cantidad desbloqueada.
 
 He aquí un ejemplo de archivo YAML a crear:
@@ -166,7 +166,7 @@ En mi caso, el identificador único del esquema (que debe ir entre comillas simp
 rgb issue 'RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k' ssi:anonymous rgb20-demo.yaml
 ```
 
-Si no conoce el ID del esquema, ejecute el comando :
+Si no conoces el ID del esquema, ejecuta el comando :
 
 ```bash
 rgb schemata
@@ -180,7 +180,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
-A continuación, el siguiente comando muestra los estados globales (nombre, ticker, suministro...) y la lista de estados propios, es decir, asignaciones (por ejemplo, 1 millón de fichas `PBN` definidas en UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+A continuación, el siguiente comando muestra los estados globales (nombre, ticker, suministro...) y la lista de estados propios, es decir, asignaciones (por ejemplo, 1 millón de monedas `PBN` definidas en UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -206,7 +206,7 @@ rgb import myContractPBN.rgb
 
 En la importación, si se trata de un simple *envío de contrato*, obtendremos un mensaje "`Importing consignment rgb`". Si se trata de un *envío de transición de estado* más grande, el comando será diferente (`rgb accept`).
 
-Para garantizar la validez, también puede utilizar la función de validación local. Por ejemplo, puede ejecutar :
+Para garantizar la validez, también se puede utilizar la función de validación local. Por ejemplo, puedes ejecutar :
 
 ```bash
 rgb validate myContract.rgb
@@ -226,19 +226,19 @@ Esto generará una carpeta con los detalles de todo el alijo.
 
 ## Transferencia y PSBT
 
-Para realizar una transferencia, necesitará manipular un monedero Bitcoin local para gestionar los compromisos `Tapret` u `Opret`.
+Para realizar una transferencia, necesitarás usar una billetera Bitcoin local para gestionar los compromisos `Tapret` u `Opret`.
 
-### Generar una factura
+### Generar un recibo
 
-En la mayoría de los casos, la interacción entre los participantes en un contrato (por ejemplo, Alice y Bob) tiene lugar a través de la generación de una factura. Si Alice quiere que Bob ejecute algo (una transferencia de tokens, una reemisión, una acción en un DAO, etc.), Alice crea una factura detallando sus instrucciones a Bob. Así tenemos :
+En la mayoría de los casos, la interacción entre los participantes en un contrato (por ejemplo, Alice y Bob) tiene lugar a través de la generación de un recibo. Si Alice quiere que Bob ejecute algo (una transferencia de tokens, una reemisión, una acción en un DAO, etc.), Alice crea un recibo detallando sus instrucciones a Bob. Así tenemos :
 
 
-- Alice** (el emisor de la factura) ;
-- Bob** (que recibe y ejecuta la factura).
+- Alice** (el emisor del recibo) ;
+- Bob** (que recibe y ejecuta el cobro).
 
-A diferencia de otros ecosistemas, una factura RGB no se limita a la noción de pago. Puede incluir cualquier solicitud vinculada al contrato: revocar una clave, votar, crear un grabado (*grabado*) en una NFT, etc. La operación correspondiente puede describirse en la interfaz del contrato. La operación correspondiente puede describirse en la interfaz del contrato.
+A diferencia de otros ecosistemas, una factura RGB no se limita a la noción de pago. Puede incluir cualquier solicitud vinculada al contrato: revocar una clave, votar, crear un grabado (*grabado*) en una NFT, etc. La operación correspondiente puede describirse en la interfaz del contrato.
 
-El siguiente comando genera una factura RGB:
+El siguiente comando genera un recibo RGB:
 
 ```bash
 $ rgb invoice $CONTRACT -i $INTERFACE $ACTION $STATE $SEAL
@@ -261,7 +261,7 @@ alice$ MY_UTXO=4960acc21c175c551af84114541eace09c14d3a1bb184809f7b80916f57f9ef8:
 alice$ rgb invoice $CONTRACT -i RGB20 --amount 100 $MY_UTXO
 ```
 
-La CLI generará una factura como :
+La CLI generará un recibo como :
 
 ```bash
 rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-...
@@ -271,10 +271,10 @@ Puede transmitirse a Bob a través de cualquier canal (texto, código QR, etc.).
 
 ### Realizar una transferencia
 
-Para transferir desde esta factura :
+Para transferir desde este recibo :
 
 
-- Bob (que tiene los tokens en su alijo) tiene un monedero Bitcoin. Necesita preparar una transacción Bitcoin (en forma de PSBT, por ejemplo `tx.psbt`) que gaste los UTXOs donde se encuentran los tokens RGB necesarios, más un UTXO para la moneda (intercambio) ;
+- Bob (que tiene los tokens en su alijo) tiene una billetera Bitcoin. Necesita preparar una transacción Bitcoin (en forma de PSBT, por ejemplo `tx.psbt`) que gaste los UTXOs donde se encuentran los tokens RGB necesarios, más un UTXO para la moneda (intercambio) ;
 - Bob ejecuta el siguiente comando:
 
 ```bash
@@ -303,7 +303,7 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 ```
 
 
-- Tan pronto como esta transacción se confirma en la cadena, la propiedad del activo se considera transferida a Alice. El monedero de Alice, monitorizando el minado de la transacción, ve aparecer en su alijo el nuevo Owned State.
+- Tan pronto como esta transacción se confirma en la cadena, la propiedad del activo se considera transferida a Alice. La billetera de Alice, monitorizando el minado de la transacción, ve aparecer en su alijo el nuevo Owned State.
 
 Ahora ya sabes cómo emitir y transferir un contrato RGB. Si este tutorial te ha resultado útil, te agradecería mucho que pusieras un pulgar verde abajo. No dudes en compartir este artículo en tus redes sociales. Muchas gracias
 

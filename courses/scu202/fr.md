@@ -17,7 +17,7 @@ L’objectif n’est pas seulement de connaître les bonnes pratiques : il s’a
 
 Au fil des modules, vous découvrirez comment vérifier l’intégrité des logiciels que vous installez, chiffrer efficacement vos données, utiliser votre navigateur et votre téléphone avec un minimum de fuite de données, et renforcer la sécurité de votre réseau domestique.
 
-Cette formation s’adresse aux utilisateurs intermédiaires qui souhaitent aller plus loin dans la maîtrise de leurs outils numériques. Elle repose sur une approche pragmatique, orientée autonomie et souveraineté, afin de construire un usage quotidien plus sûr et plus conscient de l'informatique, dans l'esprit du "*Don't Trust, Verify*".
+Ce cours s’adresse aux utilisateurs intermédiaires qui souhaitent aller plus loin dans la maîtrise de leurs outils numériques. Elle repose sur une approche pragmatique, orientée autonomie et souveraineté, afin de construire un usage quotidien plus sûr et plus conscient de l'informatique, dans l'esprit du "*Don't Trust, Verify*".
 
 +++
 
@@ -27,25 +27,23 @@ Cette formation s’adresse aux utilisateurs intermédiaires qui souhaitent alle
 ## Aperçu du cours
 <chapterId>7bf90137-7387-462d-884f-fe48e812b739</chapterId>
 
-Bienvenue dans la formation SCU 202, la suite de la formation SCU 101 qui vous mènera plus loin dans votre maîtrise de la sécurité informatique, en mettant l'accent sur la souveraineté individuelle, la protection de votre vie privée, et une gestion sécurisée de vos données personnelles.
-
-Cette formation complète se veut à la fois accessible aux utilisateurs intermédiaires et suffisamment approfondie pour satisfaire les utilisateurs avancés. Voici un aperçu de ce que vous allez découvrir tout au long de ce cours.
+Bienvenue dans le cours SCU 202, la suite du cours SCU 101 qui vous mènera plus loin dans votre maîtrise de la sécurité informatique, en mettant l'accent sur la souveraineté individuelle, la protection de votre vie privée, et une gestion sécurisée de vos données personnelles. Voici un aperçu de ce que vous allez découvrir tout au long de SCU 202.
 
 ### Partie 1 - Introduction
 
-La formation débutera par un rapide rappel des notions vues dans SCU 101. Cette révision garantira que vous êtes pleinement à jour sur les principes fondamentaux nécessaires pour bien aborder la suite.
+Le cours débutera par un rapide rappel des notions vues dans SCU 101. Cette révision garantira que vous êtes pleinement à jour sur les principes fondamentaux nécessaires pour bien aborder la suite.
 
 ### Partie 2 - Du clic au terminal : maîtriser Linux
 
-Cette partie introduira le système GNU/Linux, pilier de la souveraineté numérique. Vous explorerez les différences entre Linux, Windows et macOS, vous découvrirez l’histoire passionnante de Linux et du logiciel libre, et vous comprendrez pourquoi Linux est souvent synonyme de sécurité et de liberté.
+Cette partie introduira le système GNU/Linux, un pilier de la souveraineté numérique. Vous explorerez les différences entre Linux, Windows et macOS, vous découvrirez l’histoire passionnante de Linux et du logiciel libre, et vous comprendrez pourquoi Linux est souvent synonyme de sécurité et de liberté.
 
-Nous verrons ensuite comment choisir la distribution Linux la mieux adaptée à vos besoins et votre environnement de bureau. Enfin, vous ferez vos premiers pas sur Ubuntu avec un guide très détaillé d'installation et de configuration.
+Nous verrons ensuite comment choisir la distribution Linux la mieux adaptée à vos besoins et votre environnement de bureau. Enfin, vous ferez vos premiers pas sur Ubuntu avec un guide détaillé d'installation et de configuration.
 
 ![Image](assets/fr/064.webp)
 
 ### Partie 3 - Sécuriser son ordinateur
 
-Vous apprendrez ici à renforcer radicalement la sécurité de votre ordinateur. Nous aborderons les méthodes pour protéger efficacement vos accès et cloisonner vos usages. Vous comprendrez l'importance des mises à jour régulières du système et des logiciels pour minimiser les failles potentielles.
+Vous apprendrez ici à renforcer la sécurité de votre ordinateur. Nous aborderons les méthodes pour protéger efficacement vos accès et cloisonner vos usages. Vous comprendrez l'importance des mises à jour régulières du système et des logiciels pour minimiser les failles potentielles.
 
 Vous serez également formés à vérifier l’intégrité et l’authenticité des logiciels téléchargés pour éviter toute infection ou compromission, ainsi qu'à utiliser efficacement le chiffrement pour sécuriser vos données personnelles et vos sauvegardes. Enfin, vous découvrirez pourquoi et comment nettoyer les métadonnées de vos fichiers pour protéger votre vie privée en ligne.
 
@@ -69,7 +67,7 @@ Vous apprendrez ensuite les bonnes pratiques de sécurisation quotidienne, des m
 
 ### Partie 6 - Sécuriser son réseau local
 
-Votre réseau domestique constitue un point névralgique essentiel en termes de sécurité. Nous commencerons par revoir comment fonctionne un réseau local, avant d'apprendre les étapes concrètes pour le sécuriser efficacement.
+Votre réseau domestique constitue un point névralgique important en termes de sécurité. Nous commencerons par revoir comment fonctionne un réseau local, avant d'apprendre les étapes concrètes pour le sécuriser efficacement.
 
 Vous saurez choisir et configurer un routeur sécurisé, segmenter votre réseau, renforcer votre réseau Wi-Fi, et déployer des outils de surveillance pour détecter rapidement toute anomalie.
 
@@ -77,17 +75,17 @@ Vous saurez choisir et configurer un routeur sécurisé, segmenter votre réseau
 
 ### Partie 7 - Partie finale
 
-Pour clôturer cette formation, vous pourrez tenter d'avoir votre diplôme en passant l'examen final, afin de vérifier votre compréhension des concepts abordés.
+Pour clôturer ce cours, vous pourrez tenter d'avoir votre diplôme en passant l'examen final, afin de vérifier votre compréhension des concepts abordés.
 
 ![Image](assets/fr/274.webp)
 
-Prêt à prendre pleinement en main votre sécurité informatique, renforcer votre souveraineté individuelle et garantir votre confidentialité numérique ? Allons-y !
+Prêt à prendre pleinement en main votre sécurité informatique, renforcer votre souveraineté individuelle et garantir votre confidentialité en ligne ? Allons-y !
 
 
 ## Récapitulatif essentiel de SCU 101
 <chapterId>26cfac35-a3bb-4657-95b3-8508bedfa903</chapterId>
 
-Avant de débuter la formation SCU 202, je vous propose de revoir brièvement dans ce chapitre les notions fondamentales abordées dans la formation précédente : SCU 101. 
+Avant de débuter le cours SCU 202, je vous propose de revoir brièvement dans ce chapitre les notions fondamentales abordées dans le cours précédent : SCU 101. 
 
 D’ailleurs, si vous êtes encore débutant en informatique et que vous n’avez pas suivi SCU 101, je vous recommande vivement de commencer par cette première formation avant d’aborder celle-ci. Les bases abordées dans SCU 101 ne seront pas reprises ici. Je ne reviendrai donc pas sur les pratiques élémentaires de sécurité, ni sur l’utilisation des VPN, des gestionnaires de mots de passe ou encore de l’authentification à deux facteurs. Et pourtant, toutes ces notions sont essentielles à maîtriser avant de passer à des usages plus avancés que nous allons aborder dans les chapitres suivants.
 
@@ -119,7 +117,7 @@ La sécurité passe également par la bonne connaissance de votre système d’e
 
 ![Image](assets/fr/270.webp)
 
-SCU 101 vous rappelait aussi de ne jamais brancher des clés USB inconnues sur votre ordinateur, car elles peuvent contenir des malwares pouvant infecter immédiatement votre système.
+SCU 101 vous rappelait aussi de ne jamais brancher des clés USB inconnues sur votre ordinateur, car elles peuvent contenir des malwares pouvant infecter votre système.
 
 ### Se protéger des cyberattaques et gérer ses sauvegardes
 
@@ -127,7 +125,7 @@ Une partie essentielle de la formation SCU 101 concernait la compréhension des 
 
 Parmi les attaques les plus courantes, vous avez abordé le phishing, technique consistant à envoyer des messages frauduleux pour vous inciter à dévoiler vos données sensibles. Face à ces attaques, vérifiez systématiquement les expéditeurs, évitez de cliquer sur des liens ou d'ouvrir des pièces jointes provenant de sources inconnues ou suspectes.
 
-Le ransomware constitue un autre danger majeur, bloquant vos données en les chiffrant afin de réclamer une rançon. Pour y faire face, la sauvegarde régulière de vos données est indispensable.
+Le ransomware constitue un autre danger majeur, qui bloque vos données en les chiffrant afin de réclamer une rançon. Pour y faire face, la sauvegarde régulière de vos données est indispensable.
 
 ![Image](assets/fr/271.webp)
 
@@ -171,7 +169,7 @@ Avant d’entrer dans les détails techniques de Linux dans les prochains chapit
 
 Un système d’exploitation est un ensemble de programmes centraux qui agit comme intermédiaire entre l’utilisateur, les applications (qui sont également des logiciels) et le matériel informatique, c'est-à-dire, votre ordinateur. Il constitue la couche logicielle de base qui permet l’exploitation des ressources matérielles d’un ordinateur (processeur, mémoire, disques, périphériques...).
 
-Concrètement, le système d'exploitation reçoit, traite puis répond aux requêtes émises par vos logiciels, en utilisant au mieux les ressources de l'ordinateur à sa disposition. C’est lui qui gère l’exécution simultanée de plusieurs programmes, pilote les composants du PC, gère les connexions, permet la gestion des fichiers, et assure la sécurité des données et des utilisateurs grâce à des mécanismes d’autorisation et d’authentification.
+Concrètement, le système d'exploitation reçoit, traite puis répond aux requêtes émises par vos logiciels, en utilisant au mieux les ressources de l'ordinateur à sa disposition. C’est lui qui gère l’exécution simultanée de plusieurs programmes, pilote les composants du PC, gère les connexions, permet la gestion des fichiers, et assure la sécurité des données grâce à des mécanismes d’autorisation et d’authentification.
 
 ![Image](assets/fr/001.webp)
 
@@ -287,7 +285,7 @@ Unix peut être considéré comme une évolution et une réaction au système d�
 
 C’est à ce moment-là qu’émerge Unix, initialement baptisé "*UNICS*" pour "*UNiplexed Information and Computing Service*", en opposition directe à "*MULTiplexed Information and Computing Service*", l’acronyme de Multics. Cette nouvelle approche prône la simplicité, la modularité et l’efficacité, en rupture avec la complexité excessive de Multics.
 
-Cependant, dès les années 1970, Unix se développe dans un contexte de recherche, avant d’être diffusé largement dans les universités à partir de 1975, notamment à cause des restrictions antitrust qui frappaient AT&T. Cela favorise son adoption dans de nombreux laboratoires, comme à Berkeley, où naît la branche BSD (*Berkeley Software Distribution*). En parallèle, AT&T commence à commercialiser Unix dans les années 1980, ce qui entraîne une multiplication de versions propriétaires incompatibles entre elles (System V, Xenix, SunOS, AIX, Solaris, HP-UX...).
+Dès les années 1970, Unix se développe dans un contexte de recherche, avant d’être diffusé largement dans les universités à partir de 1975, notamment à cause des restrictions antitrust qui frappaient AT&T. Cela favorise son adoption dans de nombreux laboratoires, comme à Berkeley, où naît la branche BSD (*Berkeley Software Distribution*). En parallèle, AT&T commence à commercialiser Unix dans les années 1980, ce qui entraîne une multiplication de versions propriétaires incompatibles entre elles (System V, Xenix, SunOS, AIX, Solaris, HP-UX...).
 
 ![Image](assets/fr/012.webp)
 
@@ -357,9 +355,9 @@ Malgré leurs différences philosophiques, ces deux courants partagent des valeu
 
 GNU et Linux ne sont pas seulement une réussite technique : leur impact culturel et social est tout aussi important. Leur diffusion initiale s’est faite majoritairement via Internet, à travers des forums techniques, des mailing lists, puis rapidement à travers des distributions, c’est-à-dire des assemblages préconfigurés de logiciels autour du noyau Linux. Dès 1993, des distributions pionnières comme Slackware et Debian voient le jour, afin de faciliter l’accès au système d'exploitation GNU/Linux à un public plus large.
 
-Cette approche communautaire, ouverte et collaborative, permet à Linux d’évoluer rapidement, de manière décentralisée et participative. Chaque utilisateur peut contribuer au projet, que ce soit en codant, en documentant ou en testant. Cette dynamique de collaboration massive constitue une innovation sociale majeure dans l’univers informatique.
+Cette approche communautaire, ouverte et collaborative, permet à Linux d’évoluer rapidement, de manière décentralisée et participative. Chaque utilisateur peut contribuer au projet, que ce soit en codant, en documentant ou en testant. Cette dynamique de collaboration massive constitue une innovation sociale majeure dans l’univers de l'informatique.
 
-Comme nous l'avons vu dans le chapitre précédent, aujourd’hui, l’héritage de Linux s’étend bien au-delà des simples ordinateurs personnels : il domine le marché des serveurs Internet, alimente les supercalculateurs, constitue la base technique du système Android qui équipe des milliards de smartphones à travers le monde, et se trouve même au cœur d’innombrables appareils électroniques du quotidien (routeurs, téléviseurs connectés, objets connectés, etc.).
+Comme nous l'avons vu dans le chapitre précédent, aujourd’hui, l’héritage de Linux s’étend bien au-delà des simples ordinateurs personnels : il domine le marché des serveurs Internet, alimente les supercalculateurs, constitue la base technique du système Android qui équipe des milliards de smartphones à travers le monde, et se trouve même au cœur d’innombrables appareils électroniques du quotidien (routeurs, TV connectées, objets connectés...).
 
 GNU/Linux représente donc bien plus qu’un simple système d’exploitation : c’est une philosophie, une démarche technologique, culturelle et sociale fondée sur l’ouverture, la collaboration et la liberté numérique. Ces valeurs continuent d’influencer profondément la manière dont nous concevons, utilisons et partageons les technologies aujourd’hui.
 
@@ -368,7 +366,7 @@ GNU/Linux représente donc bien plus qu’un simple système d’exploitation : 
 ## Panorama des distributions Linux
 <chapterId>868f44d7-69ce-4493-b65e-daff00f3eb54</chapterId>
 
-Une distribution Linux (souvent abrégé "*distro*") est un système d’exploitation complet construit à partir du noyau Linux (et parfois avec des éléments de GNU), auquel viennent s’ajouter un ensemble cohérent de logiciels, de bibliothèques, de scripts d’initialisation et d’outils de gestion, afin de former un environnement prêt à l’usage. Une distribution Linux ne se limite donc pas au noyau, mais constitue une intégration globale de composants logiciels nécessaires au bon fonctionnement et à l'utilisation d'un ordinateur (ou tout autre appareil informatique).
+Une distribution Linux (souvent abrégé "*distro*") est un système d’exploitation complet construit à partir du noyau Linux (et souvent avec des éléments de GNU), auquel viennent s’ajouter un ensemble cohérent de logiciels, de bibliothèques, de scripts d’initialisation et d’outils de gestion, afin de former un environnement prêt à l’usage. Une distribution Linux ne se limite donc pas au noyau, mais constitue une intégration globale de composants logiciels nécessaires au bon fonctionnement et à l'utilisation d'un ordinateur (ou tout autre appareil informatique).
 
 Dans chaque distribution Linux, on retrouve :
 - le **noyau Linux**, qui communique avec le matériel et gère les ressources système (CPU, mémoire, disques...) ;

@@ -809,7 +809,7 @@ Le résultat est Electrum, qui [sort](https://bitcointalk.org/index.php?topic=50
 
 Thomas Voegtlin en 2006 (source : [archive](https://web.archive.org/web/20060516200739/http://www.loria.fr/%7Evoegtlin/) de sa page personnelle)
 
-Le client se connecte à un réseau de serveurs spéciaux pour récupérer les transactions. Les serveurs fonctionnent avec le logiciel (bitcoind) et indexent toutes les transactions grâce au code de l'explorateur de blocs ABE. Dans ce portefeuille, la graine se présente sous la forme d'une chaine de caractères hexadécimaux ou bien d'une phrase mnémotechnique de 12 mots. Chaque mot est choisi dans une liste oprédéfinie ce qui permet de représenter les bits d'information.
+Le client se connecte à un réseau de serveurs spéciaux pour récupérer les transactions. Les serveurs fonctionnent avec le logiciel (bitcoind) et indexent toutes les transactions grâce au code de l'explorateur de blocs ABE. Dans ce portefeuille, la graine se présente sous la forme d'une chaine de caractères hexadécimaux. À partir du 10 novembre, elle [est](https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674) également représentée sous la forme d'une phrase mnémotechnique de 12 mots. Chaque mot est choisi dans une liste prédéfinie ce qui permet de représenter les bits d'information.
 
 ![Graine et phrase mnémotechnique d'Electrum en 2012](assets/en/electrum-seed-mnemonic-2012.webp)
 
@@ -843,16 +843,23 @@ En 2012, Ben Reeves réalise une levée de fonds. Ses deux cofondateurs sont Nic
 
 Cadres de Blockchain.info, date indéterminée. De gauche à droite : Peter Smith, Nic Cary, Ben Reeves. (source : Matt Tuzzolo pour le [New York Times](https://archive.nytimes.com/dealbook.nytimes.com/2014/10/06/blockchain-is-latest-bitcoin-start-up-to-lure-big-investment/))
 
-### Les portefeuilles papier
+### Le stockage à froid et les portefeuilles papier
 
-Stockage à froid (cold storage) https://en.bitcoin.it/wiki/Cold_storage
+Détenir du bitcoin consiste simplement à garder une information à l'abri des menaces, qu'il s'agisse des aléas de la vie (perte) ou de la curiosité des autres personnes (vol). Cette information – la clé privée – peut être générée par des appareils n'étant jamais connectés à Internet. C'est ce qu'on appelle, [dès 2011](https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769), le stockage à froid (*cold storage*).
 
-Portefeuilles papier. BitAddress, par Pointbiz, 12 sept. 2011 : https://bitcointalk.org/index.php?topic=43496.msg519916#msg519916 https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0 https://web.archive.org/web/20110922230113/http://www.bitaddress.org/bitaddress.org-v0.6-SHA1-1cea2d8c437d49c550b9ec1cfc5d02ac85e8199e.html 1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN
+Le stockage à froid peut être réalisé en stockant ses clés privées sur un support de sauvegarde numérique, comme une clé USB. Mais une méthode beaucoup plus pratique est le portefeuille papier, qui est simplement une feuille de papier où se trouvent la clé privée et l'adresse publique. La clé peut être générée par n'importe quel portefeuille logiciel, à condition que l'appareil sur lequel il se trouve reste hors ligne.
 
-Blockchain.info ("I printed out a paper wallet with Blockchain.", [9/01/2014](https://bitcointalk.org/index.php?topic=404604.msg4416710#msg4416710))
+Un portefeuille papier peut également être généré avec un outil spécifique. Ce type d'outil voit ainsi le jour à partir de l'été 2011. Le principal d'entre eux est BitAddress, développé par Pointbiz, qui est [lancé](https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0). Il s'agit d'un outil codé en Javascript fonctionnant sur navigateur. L'interface invite l'utilisateur à créer de l'entropie pour optimiser la génération de nombres pseudo-aléatoires. La clé privée et l'adresse résultantes peuvent ensuite être imprimées pour être conservés en toute sécurité. Il peut bien évidemment (et c'est recommandé !) être utilisé sans connexion à Internet, en enregistrant la page HTML.
 
-Portefeuilles mentaux. hachage d'une longue phrase par SHA-256. https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/
+![Portefeuille papier généré avec BitAddress en septembre 2011](assets/en/bitaddress-paper-wallet-20110922.webp)
 
+Portefeuille papier généré avec BitAddress en septembre 2011 (source : [capture](https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) de BitAddress.org)
+
+Un autre outil qui apparait à ce moment-là est VanityGen, [créé](https://web.archive.org/web/20111104120932/https://bitcointalk.org/index.php?topic=25804.0) par Samr7 en juillet 2011. Il s'agit d'un logiciel permettant de créer une adresse personnalisée (*vanity address*), commençant par des caractères spécifiques, en testant un grand nombre de clés privées. Cela est utile pour identifier les adresses de donation des individus. Par exemple, l'adresse de Pointbiz pour sa maintenance de BitAdress est `1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN`.
+
+Enfin, la méthode la plus efficace pour se protéger contre le vol est celle du « portefeuille mental » (original: "brain wallet"), qui consiste à mémoriser une phrase secrète donnant accès aux bitcoins stockés à l'adresse qui correpond. Par exemple, la phrase secrète peut être hachés par SHA-256 pour obtenir la clé privée, donnant accès aux fonds. Cette méthode est [proposée](https://en.bitcoin.it/w/index.php?title=Brainwallet&oldid=23015) par Mike Caldwell (Casascius) et [mise en avant](https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) par Jon Matonis en mars 2012. Elle est néanmoins très peu sûre si l'entropie n'est pas suffisante. C'est plus une démonstration pratique de la puissance de Bitcoin qu'une application pérenne.
+
+https://en.bitcoin.it/w/index.php?title=Brainwallet&oldid=23015 https://bitcoinmagazine.com/technical/brain-wallets-the-what-and-the-how-1333845334 https://bitcointalk.org/index.php?topic=51397.msg846234#msg846234 https://web.archive.org/web/20120413041417/http://brainwallet.org/
 
 ### Les bitcoins physiques (Bitbills, Casascius coins)
 
@@ -870,13 +877,15 @@ BitBills [mis aux enchères](https://bitcointalk.org/index.php?topic=191292.msg1
 
 First Bitcoin ATM, Todd Bethell, [7/9/2011](https://www.youtube.com/watch?v=Lnq2I-N-xYQ)
 
-Paper wallets de Casascius : https://web.archive.org/web/20110831102426/https://www.casascius.com/
+Paper wallets de Casascius : https://web.archive.org/web/20110831102426/https://www.casascius.com/ https://bitcointalk.org/index.php?topic=34163.msg425990#msg425990
 
 Mike Caldwell (Casascius), habite dans l'Utah, [Swipeclock](https://www.linkedin.com/company/swipeclock/), Casascius = "call a spade a spade" + cius (nom romain)
 
 ![Mike Caldwell en 2013](assets/en/mike-caldwell-casascius-2013-imdb.webp)
 
 Mike Caldwell en 2013 (source : [IMDb](https://www.imdb.com/fr/name/nm5669287/))
+
+Il est fasciné par la cryptographie.
 
 « bitcoins de Casascius » ("Casascius coins") [6 sept. 2011](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883)–[27 nov. 2013](https://web.archive.org/web/20131203002016/https://www.casascius.com/)
 

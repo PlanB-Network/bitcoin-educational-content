@@ -2,7 +2,7 @@
 term: P2SH-P2WPKH
 
 ---
-P2SH-P2WPKH adalah singkatan dari *Pay to Script Hash - Pay to Witness Public Key hash*, yang merupakan model skrip standar yang digunakan untuk menetapkan ketentuan pengeluaran pada UTXO, juga dikenal sebagai "_Nested SegWit_".
+P2SH-P2WPKH adalah singkatan dari *Pay to Script Hash - Pay to Witness Public Key Hash*, yang merupakan model skrip standar yang digunakan untuk menetapkan ketentuan pengeluaran pada UTXO, juga dikenal sebagai "_Nested SegWit_".
 
 P2SH-P2WPKH diperkenalkan dengan implementasi SegWit pada bulan Agustus 2017. Skrip ini adalah P2WPKH yang dibungkus dalam P2SH. Skrip ini mengunci bitcoin berdasarkan _hash_ dari kunci publik. Perbedaannya dengan P2WPKH klasik adalah skrip ini dibungkus dengan `redeemScript` dari P2SH klasik.
 

@@ -2977,7 +2977,7 @@ Zen prend également en charge les extensions Firefox, ainsi que la synchronisat
 
 D’un point de vue sécurité et vie privée, Zen intègre un blocage natif des traqueurs tiers. Le navigateur ne collecte aucune donnée lui-même, et il permet également de désactiver la télémétrie Mozilla. Aussi, il rejette automatiquement les certificats SSL obsolètes ou non conformes.
 
-Zen Browser est donc une alternative intéressante si vous êtes à la recherche d’un environnement de navigation Gecko à la fois libre, innovant, épuré et respectueux de leur vie privée.
+Zen Browser est donc une alternative intéressante si vous êtes à la recherche d’un environnement de navigation Gecko à la fois libre, innovant, épuré et respectueux de votre vie privée.
 
 ### Navigateurs basés sur WebKit
 
@@ -3007,7 +3007,9 @@ Orion est entièrement développé par l’équipe de Kagi (connue pour son mote
 
 Enfin, je voudrais terminer ce panorama en vous exposant une alternative beaucoup moins connue et très marginale : les navigateurs en mode texte, dont le plus connu est [Lynx Browser](https://lynx.invisible-island.net/).
 
-Lynx est le plus ancien navigateur web encore maintenu (1992). Il fonctionne exclusivement en mode texte et s’utilise directement dans un terminal, sans interface graphique. Techniquement, Lynx ne prend en charge ni JavaScript, ni CSS, ni images, ce qui élimine toute exécution de code actif dans les pages web. Il interprète uniquement le code HTML brut, qu’il restitue sous forme de texte structuré. Cette approche radicalement minimaliste en fait l’un des navigateurs les plus sûrs qui soient : aucun script malveillant ne peut s’exécuter, aucune publicité intrusive ne s’affiche, et aucune fuite de données via des mécanismes modernes (canvas fingerprinting, trackers JS...) n’est possible.
+Lynx est le plus ancien navigateur web encore maintenu (1992). Il fonctionne exclusivement en mode texte et s’utilise directement dans un terminal, sans interface graphique. Techniquement, Lynx ne prend en charge ni JavaScript, ni CSS, ni images, ce qui élimine toute exécution de code actif dans les pages web. Il interprète uniquement le code HTML brut, qu’il restitue sous forme de texte structuré.
+
+Cette approche radicalement minimaliste en fait l’un des navigateurs les plus sûrs qui soient : aucun script malveillant ne peut s’exécuter, aucune publicité intrusive ne s’affiche, et aucune fuite de données via des mécanismes modernes (canvas fingerprinting, trackers JS...) n’est possible.
 
 ![Image](assets/fr/121.webp)
 
@@ -3082,11 +3084,11 @@ Pour vérifier manuellement la version et déclencher une mise à jour :
 sudo apt update && sudo apt upgrade firefox
 ```
 
-Mettre à jour son navigateur, ainsi que l’ensemble de ses logiciels et le système d’exploitation, est l’une des premières mesures concrètes à adopter en matière de cybersécurité.
+Mettre à jour son navigateur, ainsi que l’ensemble de ses logiciels et le système d’exploitation est l’une des premières mesures concrètes à adopter en matière de cybersécurité.
 
 ### Utiliser des mots de passe forts et uniques
 
-En matière de sécurité web, l’une des erreurs les plus répandues (et les plus dangereuses) est la réutilisation de mots de passe sur plusieurs sites. Cette pratique est à l’origine d’un effet domino redoutable : si un seul service est compromis (fuite de base de données, phishing, attaque par force brute, faille d’injection...), l’attaquant peut ensuite tester ce même mot de passe sur d'autres plateformes et accéder à des comptes critiques comme votre messagerie, vos comptes bancaires ou vos espaces professionnels.
+En matière de sécurité web, l’une des erreurs les plus répandues (et les plus dangereuses) est la réutilisation de mots de passe sur plusieurs sites. Cette pratique est à l’origine d’un effet domino redoutable : si un seul service est compromis (fuite de base de données, phishing, attaque par force brute...), l’attaquant peut ensuite tester ce même mot de passe sur d'autres plateformes et accéder à des comptes critiques comme votre messagerie, vos comptes bancaires ou vos espaces professionnels.
 
 Le premier principe à suivre pour les mots de passe est donc de ne pas les réutiliser. Chaque compte en ligne devrait être protégé par un mot de passe unique et complètement distinct des autres. Avoir un mot de passe unique pour chaque compte isole les attaques potentielles et en limite la portée.
 
@@ -3096,7 +3098,7 @@ Le second principe essentiel est la force du mot de passe. Un mot de passe est c
 
 Appliquer ces deux principes de sécurité des mots de passe (unicité et robustesse) peut s'avérer difficile au quotidien, car il est quasiment impossible de mémoriser un mot de passe unique, aléatoire et robuste pour tous nos comptes. C'est ici qu'intervient le gestionnaire de mots de passe.
 
-Un gestionnaire de mots de passe génère et stocke de manière sécurisée des mots de passe forts, ce qui vous permet d'accéder à tous vos comptes en ligne sans nécessité de les mémoriser individuellement. Vous n'avez à retenir qu'un seul mot de passe, le mot de passe maître, qui vous donne accès à l'ensemble de vos mots de passe sauvegardés dans le gestionnaire. L'utilisation d'un gestionnaire de mots de passe renforce votre sécurité en ligne, car il évite la réutilisation de mots de passe et génère systématiquement des mots de passe aléatoires. Mais il va également simplifier votre utilisation quotidienne de vos comptes en centralisant l'accès à vos informations sensibles.
+Un gestionnaire de mots de passe génère et stocke de manière sécurisée des mots de passe forts, ce qui vous permet d'accéder à tous vos comptes en ligne sans nécessité de les mémoriser individuellement. Vous n'avez à retenir qu'un seul mot de passe, le mot de passe maître, qui vous donne accès à l'ensemble de vos mots de passe sauvegardés dans le gestionnaire. L'utilisation d'un gestionnaire de mots de passe renforce votre sécurité en ligne, car il évite la réutilisation de mots de passe et génère systématiquement des mots de passe aléatoires.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -3405,12 +3407,12 @@ Certains constructeurs interdisent ou compliquent cette opération, voire désac
 - un renforcement du sandbox Android ;
 - des protections mémoire avancées ;
 - un contrôle granulaire des permissions ;
-- un chiffrement matériel indépendant de Google.
+- un chiffrement matériel indépendant de Google ;
 - etc.
 
 ![Image](assets/fr/136.webp)
 
-GrapheneOS n’intègre aucun composant propriétaire. L’utilisateur est libre d’ajouter ou non des services Google, mais ceux-ci sont strictement isolés (sandboxés dans des profils dédiés). Cela en fait un système extrêmement résistant aux attaques locales et à l’exploitation de failles système.
+GrapheneOS n’intègre aucun composant propriétaire. Vous êtes libre d’ajouter ou non des services Google, mais ceux-ci sont strictement isolés (sandboxés dans des profils dédiés). Cela en fait un système extrêmement résistant aux attaques locales et à l’exploitation de failles système.
 
 Graphene est uniquement compatible avec les Google Pixel récents (Pixel 6, 7, 8 et 9).
 
@@ -3440,7 +3442,7 @@ Le choix de votre système d’exploitation mobile doit se faire en connaissance
 
 Android standard (avec GMS) reste aujourd’hui la solution la plus répandue. Elle offre une compatibilité totale avec l’ensemble des applications Android, une grande simplicité d’utilisation et un accès immédiat aux services populaires (Play Store, Maps, Gmail...). Toutefois, cette facilité d’usage repose sur une forte intégration des services propriétaires de Google, avec une collecte de données systématique : position GPS, historique de navigation, métadonnées d’appels, préférences publicitaires... Il s’agit donc d’un choix peu adapté si vous êtes soucieux de votre souveraineté numérique ou de votre confidentialité.
 
-iOS, le système d’Apple, dispose d'un niveau de sécurité très élevé. Cependant, cette sécurité s’accompagne d’une fermeture extrême de l’environnement : l’utilisateur ne peut pas installer d’applications hors de l’App Store (sauf cas marginaux), ne peut pas modifier les comportements système, et dépend entièrement d’Apple pour la gestion du matériel, du stockage cloud et de la synchronisation. C’est un environnement efficace et robuste, mais qui sacrifie toute forme de personnalisation ou d’indépendance.
+iOS, le système d’Apple, dispose d'un niveau de sécurité élevé. Cependant, cette sécurité s’accompagne d’une fermeture extrême de l’environnement : l’utilisateur ne peut pas installer d’applications hors de l’App Store (sauf cas marginaux), ne peut pas modifier les comportements système, et dépend entièrement d’Apple pour la gestion du matériel, du stockage cloud et de la synchronisation. C’est un environnement efficace et robuste, mais qui sacrifie toute forme de personnalisation ou d’indépendance.
 
 GrapheneOS s’adresse aux profils les plus exigeants sur la sécurité et la confidentialité. Son niveau de sécurité impose toutefois des contraintes : peu d’appareils compatibles (uniquement des modèles Google Pixel récents), pas d’intégration automatique des services applicatifs tiers, et nécessité de configurer manuellement des outils alternatifs pour les mises à jour, le store ou les notifications. Si la confidentialité et la sécurité sont vos priorités, c'est clairement le meilleur choix.
 
@@ -4572,7 +4574,7 @@ Enfin, ajustez la puissance d’émission de votre point d’accès Wi-Fi. Par d
 
 Une des stratégies les plus efficaces pour renforcer la sécurité d’un réseau domestique est la segmentation. Elle consiste à diviser le réseau local en plusieurs sous-réseaux indépendants appelés "VLAN" (*Virtual Local Area Networks*). Ces VLANs permettent d'isoler les différents types d'appareils ou d'usages, même s’ils utilisent le même matériel physique (routeur, câblage, borne Wi-Fi...).
 
-Concrètement, chaque VLAN fonctionne comme un petit réseau autonome avec ses propres règles de communication. Les échanges entre VLANs sont bloqués par défaut ou strictement contrôlés. Cela empêche, par exemple, une TV connectée compromise d’atteindre votre ordinateur personnel ou votre NAS. Cette approche repose sur 2 des principes fondamentaux de la cybersécurité que nous avons déjà étudiés dans les chapitres précédents : le cloisonnement et le moindre privilège.
+Chaque VLAN fonctionne comme un petit réseau autonome avec ses propres règles de communication. Les échanges entre VLANs sont bloqués par défaut ou strictement contrôlés. Cela empêche, par exemple, une TV connectée compromise d’atteindre votre ordinateur personnel ou votre NAS. Cette approche repose sur 2 des principes fondamentaux de la cybersécurité que nous avons déjà étudiés dans les chapitres précédents : le cloisonnement et le moindre privilège.
 
 ![Image](assets/fr/197.webp)
 
@@ -4690,4 +4692,4 @@ En suivant ces quelques étapes, vous construisez un environnement réseau robus
 
 ## Conclusion
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
-<isCourseConclusion>true</isCourseConclusion>
+<isCourseConclusion>false</isCourseConclusion>

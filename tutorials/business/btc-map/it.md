@@ -6,7 +6,7 @@ description: Trovare luoghi dove spendere sats
 
 
 
-Mentre molti associano ancora Bitcoin a uno strumento di investimento e speculazione, il suo creatore Satoshi Nakamoto lo ha concepito principalmente come sistema di pagamento elettronico Peer-to-Peer. Tuttavia, è difficile sapere dove si possono spendere i bitcoin. Ma questo era prima di BTC Map.
+Mentre molti associano ancora Bitcoin solo come strumento di investimento e speculazione, il suo creatore Satoshi Nakamoto lo ha concepito principalmente come sistema di pagamento elettronico Peer-to-Peer. Tuttavia, è difficile sapere dove si possono spendere i bitcoin. Ma questo era prima di BTC Map.
 
 
 

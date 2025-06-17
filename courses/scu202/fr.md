@@ -1624,7 +1624,6 @@ La sécurité de votre ordinateur ne commence pas une fois le système d’explo
 Le BIOS (*Basic Input/Output System*) est le prédécesseur de l’UEFI (*Unified Extensible Firmware Interface*). L’UEFI est aujourd’hui le standard sur tous les ordinateurs modernes.
 
 Par défaut, l’accès à ces paramètres n’est pas protégé. Un attaquant disposant d’un accès physique à votre machine (dans un espace partagé, en cas de vol ou même temporairement à votre insu) pourrait entrer dans l’interface UEFI et modifier des réglages critiques. Il pourrait par exemple :
-- Désactiver le chiffrement du disque ou en effacer la clé de déchiffrement ;
 - Changer l’ordre de démarrage pour forcer le lancement d’un système externe depuis une clé USB ;
 - Désactiver des mécanismes de sécurité comme le démarrage sécurisé ;
 - Installer un malware au niveau du firmware de votre ordinateur...
@@ -1636,7 +1635,7 @@ Pour l’activer, cela va dépendre de votre modèle de carte mère, mais géné
 - Juste après l’allumage, appuyer rapidement sur la touche spécifique à votre machine d'accès au BIOS/UEFI (`Del`, `F2`, `F10`, `Esc`...) ;
 - Dans l’interface qui s’affiche, rechercher les options de sécurité ou de mot de passe administrateur ;
 - Définir un mot de passe long, unique et aléatoire, puis faire une sauvegarde de ce mot de passe ;
-- Sauvegarder les changements et redémarrer l'ordinateur.
+- Enregistrer les changements et redémarrer l'ordinateur.
 
 ![Image](assets/fr/203.webp)
 
@@ -1679,7 +1678,7 @@ Sur Windows, la plupart des utilisateurs ont par défaut un compte administrateu
 
 ![Image](assets/fr/204.webp)
 
-Sous Linux, ce principe du moindre privilège est mieux appliqué par défaut. Vous avez par défaut un compte utilisateur avec des droits limités et vous pouvez élever vos privilèges temporairement avec la commande `sudo`. Cette commande permet d'exécuter une tâche spécifique avec les droits root, sans avoir à se connecter avec le compte *superuser*. Il est également possible de configurer `sudo` pour n’autoriser que certaines commandes selon les utilisateurs (via `/etc/sudoers`).
+Sous Linux, ce principe du moindre privilège est mieux appliqué. Vous avez par défaut un compte utilisateur avec des droits limités et vous pouvez élever vos privilèges temporairement avec la commande `sudo`. Il est également possible de configurer `sudo` pour n’autoriser que certaines commandes selon les utilisateurs (via `/etc/sudoers`).
 
 ![Image](assets/fr/064.webp)
 
@@ -1689,7 +1688,7 @@ Ce cloisonnement ne concerne pas uniquement les utilisateurs humains. De nombreu
 
 ### Multisession : séparation des environnements
 
-Au-delà de la séparation entre comptes administrateurs et comptes standards, une bonne pratique complémentaire consiste à créer plusieurs sessions utilisateur distinctes sur un même ordinateur pour cloisonner les usages selon leur nature. Cette approche repose sur une logique simple : en compartimentant vos activités dans des environnements séparés, vous réduisez la surface d’attaque globale et limitez les conséquences d’un éventuel incident de sécurité.
+Au-delà de la séparation entre comptes administrateurs et comptes standards, une bonne pratique complémentaire consiste à créer plusieurs sessions utilisateur distinctes sur un même ordinateur pour cloisonner les usages selon leur nature. Cette approche repose sur une logique simple : en compartimentant vos activités dans des environnements séparés, vous réduisez la surface d’attaque de chaque environnement et limitez les conséquences d’un éventuel incident de sécurité.
 
 Tous les systèmes d’exploitation modernes permettent la création de plusieurs comptes utilisateur sur une même machine. Ces comptes disposent chacun de leur propre espace personnel : fichiers, applications, paramètres et sessions réseau ne sont pas partagés entre eux, sauf autorisation explicite.
 
@@ -1719,7 +1718,7 @@ Cette technologie repose sur un hyperviseur, un logiciel qui gère la création 
 
 En termes de sécurité informatique, un des grands avantages des machines virtuelles est leur capacité de cloisonnement. Une VM ne partage ni ses fichiers, ni ses processus, ni ses accès réseau avec le système hôte, sauf si vous configurez explicitement ces échanges. Donc si une VM est infectée par un malware ou si vous testez un logiciel sensible à l’intérieur, l’impact reste confiné à cette machine virtuelle : votre système principal reste intact, à condition que les paramètres d’isolation soient bien respectés (pas de dossiers partagés, pas de périphériques USB passés à la VM...).
 
-Une VM peut vous permettre de tester des logiciels suspects : si vous téléchargez un programme depuis une source peu fiable ou un site douteux, vous pouvez d’abord l'executer dans une VM pour observer son comportement en toute sécurité. Cela  peut aussi être utile pour naviguer sur des sites à risque : vous pouvez dédier une VM à la consultation de contenus web sensibles ou inconnus, ce qui réduit les chances d’attaques par scripts malveillants ou d’exploitation de vulnérabilités du navigateur. En bref : utiliser une VM vous permet d'isoler facilement un usage spécifique du reste de votre système.
+Une VM peut vous permettre de tester des logiciels suspects : si vous téléchargez un programme depuis une source peu fiable ou un site douteux, vous pouvez d’abord l'executer dans une VM pour observer son comportement en toute sécurité. Cela peut aussi être utile pour naviguer sur des sites à risque : vous pouvez dédier une VM à la consultation de contenus web sensibles ou inconnus, ce qui réduit les chances d’attaques par scripts malveillants ou d’exploitation de vulnérabilités du navigateur. En bref : utiliser une VM vous permet d'isoler facilement un usage spécifique du reste de votre système.
 
 Enfin, il est important de comprendre que la sécurité apportée par les VM dépend de leur bonne configuration. Par défaut, certains hyperviseurs autorisent les échanges de fichiers entre l’hôte et la VM, ou permettent l’accès aux périphériques USB. Ces fonctions doivent être désactivées pour maximiser l’isolation.
 
@@ -1759,11 +1758,11 @@ Comme nous l'avons vu au début de cette formation, le système d'exploitation a
 
 #### Pourquoi mettre à jour son OS ?
 
-À cause de sa complexité, aucune version d’un OS n’est totalement exempte de vulnérabilités. On parle ici de plusieurs millions de lignes de code. Ces failles de sécurité peuvent être exploitées par des attaquants pour exécuter du code malveillant, obtenir des privilèges non autorisés ou compromettre l’ensemble du système. Certaines de ces vulnérabilités sont découvertes de manière responsable par des chercheurs en cybersécurité, d’autres sont déjà activement exploitées sans que le grand public en ait connaissance : on parle alors de failles "zero-day".
+À cause de sa complexité, aucune version d’un OS n’est totalement exempte de vulnérabilités. On parle ici de plusieurs dizaines de millions de lignes de code. Ces failles de sécurité peuvent être exploitées par des attaquants pour exécuter du code malveillant, obtenir des privilèges non autorisés ou compromettre l’ensemble du système. Certaines de ces vulnérabilités sont découvertes de manière responsable par des chercheurs en cybersécurité, d’autres sont déjà activement exploitées sans que le grand public en ait connaissance : on parle alors de failles "zero-day".
 
 Les éditeurs de systèmes d’exploitation publient régulièrement des mises à jour de sécurité qui visent précisément à corriger ces failles. Ne pas installer ces correctifs revient à laisser volontairement une porte ouverte aux attaques, même si vous pensez que votre usage est modeste ou que vos données ne valent rien.
 
-Il ne s’agit pas uniquement de corriger des bugs visibles, mais bien d’agir sur la surface d’attaque globale de votre système. Plus cette surface est réduite, moins les attaquants ont de leviers pour compromettre votre machine.
+Il ne s’agit pas uniquement de corriger des bugs visibles, mais bien d’agir sur les vecteurs d’attaques de votre système. Moins il y a de vecteurs, moins les attaquants ont de leviers pour compromettre votre machine.
 
 Concrètement, je vous recommande d’activer les mises à jour automatiques. C'est une fonctionnalité disponible nativement sur tous les systèmes modernes. Windows Update, par exemple, gère cela par défaut sur les machines Windows 10 et 11. Sur macOS, les mises à jour de sécurité sont intégrées au système de mise à jour du système. Sur Linux, en fonction de la distribution utilisée, des outils comme `unattended-upgrades` (Debian/Ubuntu) ou `dnf-automatic` (Fedora) vous permettent de planifier les mises à jour.
 
@@ -1783,7 +1782,7 @@ Pour vérifier manuellement l’état des mises à jour :
 Settings → Windows Update → Check for updates
 ```
 
-Pensez également à vérifier les mises à jour facultatives, dans ce même menu.
+Pensez également à vérifier les mises à jour facultatives dans ce même menu.
 
 - **Sous Linux**
 
@@ -1935,7 +1934,7 @@ sudo apt autoremove
 
 #### Sous macOS
 
-Sous macOS, il existe principalement 2 méthodes : via *Launchpad* ou via le *Finder*. Si l’application a été téléchargée depuis l’App Store, ouvrez *Launchpad* (depuis le Dock ou le dossier `/Applications`), localisez l’application, puis maintenez la touche Option enfoncée ou effectuez un clic prolongé jusqu’à ce que les icônes se mettent à trembler. Cliquez ensuite sur la croix à côté de l’application, puis confirmez la suppression.
+Sous macOS, il existe principalement 2 méthodes : via le *Launchpad* ou via le *Finder*. Si l’application a été téléchargée depuis l’App Store, ouvrez *Launchpad* (depuis le Dock ou le dossier `/Applications`), localisez l’application, puis maintenez la touche Option enfoncée ou effectuez un clic prolongé jusqu’à ce que les icônes se mettent à trembler. Cliquez ensuite sur la croix à côté de l’application, puis confirmez la suppression.
 
 ![Image](assets/fr/210.webp)
 
@@ -1978,7 +1977,7 @@ Comme nous avons vu dans la partie précédente, Windows est historiquement plus
 
 Sur une machine Linux bien maintenue et utilisée dans un cadre personnel, les risques sont moindres. Néanmoins, voici quelques outils avancés pour surveiller votre système :
 
-- **Fail2ban** : surveille les logs système à la recherche de tentatives d’accès infructueuses (comme des tentatives de connexion SSH par force brute). Lorsqu’un comportement suspect est détecté, il bannit temporairement l’adresse IP fautive via `iptables` ;
+- **Fail2ban** : surveille les logs système à la recherche de tentatives d’accès infructueuses (comme des tentatives de connexion SSH par brute force). Lorsqu’un comportement suspect est détecté, il bannit temporairement l’adresse IP fautive via `iptables` ;
 
 ![Image](assets/fr/217.webp)
 
@@ -2026,7 +2025,7 @@ Un fichier peut être intègre (non modifié), mais avoir été publié par une 
 
 Cette vérification de l'origine est rendue possible par la signature numérique, un mécanisme cryptographique qui lie le fichier à la clé privée du développeur. Lorsque vous vérifiez cette signature à l’aide de la clé publique du développeur (distribuée via des canaux sûrs), vous vous assurez que le fichier provient bien de cette personne.
 
-En vérifiant à la fois l’authenticité (c’est-à-dire que le fichier d’installation provient bien de la bonne source) et l’intégrité (c’est-à-dire qu’il n’a pas été modifié depuis sa publication par le développeur légitime) vous vous assurez d’installer le bon logiciel. Cela permet de limiter considérablement les risques, car un fichier authentique et intègre n’est, en principe, pas malveillant (à moins que la source elle-même ne soit compromise ou malveillante).
+En vérifiant à la fois l’authenticité (c’est-à-dire que le fichier d’installation provient bien de la bonne source) et l’intégrité (c’est-à-dire qu’il n’a pas été modifié depuis sa publication par le développeur légitime) vous vous assurez d’installer le bon logiciel.
 
 #### Les solutions techniques : hash et signature numérique
 
@@ -2034,7 +2033,7 @@ Pour ce faire nous allons utiliser 2 outils cryptographiques. Le premier est le 
 
 Le développeur légitime publie généralement le hash du fichier original sur son site officiel. De votre côté, vous allez calculer localement le hash du fichier d’installation que vous avez téléchargé, afin de comparer les deux. Si les deux empreintes correspondent, alors vous avez la certitude que le fichier téléchargé est bien intègre et n’a pas été altéré.
 
-Le second outil est la signature numérique, et plus précisément. Elle permet de vérifier l’authenticité du logiciel d'installation. Le développeur signe le fichier avec sa clé privée, et vous pouvez vérifier cette signature en utilisant la clé publique correspondante. Cela prouve non seulement que le fichier a été publié par la bonne personne.
+Le second outil est la signature numérique. Elle permet de vérifier l’authenticité du logiciel d'installation. Le développeur signe le fichier contenant les hash avec sa clé privée, et vous pouvez vérifier cette signature en utilisant la clé publique correspondante. Cela prouve que le fichier a été publié par la bonne personne.
 
 Ce système repose sur la cryptographie asymétrique et des outils comme GnuPG (en ligne de commande) ou Kleopatra (interface graphique pour Windows). Ces outils doivent être bien configurés, et la clé publique du développeur doit être vérifiée via un canal sûr (site officiel, fingerprint sur Twitter...). Voyons ensemble comment faire concrètement.
 
@@ -2268,7 +2267,7 @@ Si vous disposez d’un NAS, des outils comme *Syncthing* ou *Rclone* permettent
 
 ![Image](assets/fr/253.webp)
 
-Pour automatiser les sauvegardes vers un service cloud, vous pouvez utiliser les logiciels d’intégration fournis par le fournisseur lui-même. C’est notamment le cas de *Proton Drive*, qui propose un client de synchronisation pour que vos fichiers locaux soient automatiquement copiés sur le cloud. Vous pouvez aussi opter pour des logiciels plus flexibles comme *Duplicati*, qui permet de planifier des sauvegardes chiffrées vers de nombreux services distants (Dropbox, Google Drive, Proton Drive, FTP, WebDAV, etc.).
+Pour automatiser les sauvegardes vers un service cloud, vous pouvez utiliser les logiciels d’intégration fournis par le fournisseur lui-même. C’est notamment le cas de *Proton Drive*, qui propose un client de synchronisation pour que vos fichiers locaux soient automatiquement copiés sur le cloud. Vous pouvez aussi opter pour des logiciels plus flexibles comme *Duplicati*, qui permet de planifier des sauvegardes chiffrées vers de nombreux services distants (Dropbox, Google Drive, Proton Drive, FTP, WebDAV...).
 
 ![Image](assets/fr/254.webp)
 
@@ -2284,7 +2283,7 @@ L’un des piliers de la sécurité informatique personnelle repose sur le chiff
 
 Lorsqu’un support de stockage n’est pas chiffré, il suffit de le brancher sur n’importe quel ordinateur pour accéder immédiatement à son contenu. Aucune barrière ne protège les fichiers. Cela signifie qu’en cas de vol de votre ordinateur portable ou de perte d’une simple clé USB, une personne mal intentionnée pourrait consulter vos documents personnels.
 
-Au-delà des enjeux liés à la vie privée, vos fichiers peuvent également représenter un véritable risque en matière de sécurité. Prenons un exemple concret : si vos sauvegardes contiennent une copie de vos pièces d’identité, un attaquant pourrait les exploiter pour usurper votre identité, ouvrir des comptes à votre nom ou même contracter des crédits bancaires en votre nom. Ce type de fuite d’information peut entraîner des conséquences graves, tant sur le plan personnel que professionnel.
+Au-delà des enjeux liés à la vie privée, vos fichiers peuvent également représenter un véritable risque en matière de sécurité. Prenons un exemple concret : si vos sauvegardes contiennent une copie de vos pièces d’identité, un attaquant pourrait les exploiter pour usurper votre identité, ouvrir des comptes bancaires ou crypto à votre nom ou même contracter des crédits bancaires en votre nom. Ce type de fuite d’information peut entraîner des conséquences graves, tant sur le plan personnel que professionnel.
 
 Le chiffrement intégral est comme un verrou : tant que le mot de passe n’est pas fourni, les données restent inexploitables. Même un attaquant équipé d’outils spécialisés en récupération de données ne pourra rien extraire sans la clé.
 
@@ -2382,9 +2381,7 @@ Si vous le souhaitez, vous pouvez également automatiser cette séquence à l’
 
 **Via GNOME Disks :**
 
-L’autre solution consiste à utiliser le logiciel GNOME Disks avec son interface graphique, ce qui est souvent plus simple que de passer par la ligne de commande.
-
-Normalement, cet utilitaire est déjà préinstallé sur Ubuntu. Si ce n’est pas le cas, vous pouvez l’installer manuellement avec la commande suivante :
+L’autre solution consiste à utiliser le logiciel GNOME Disks avec son interface graphique, ce qui est souvent plus simple que de passer par le terminal. Normalement, cet utilitaire est déjà préinstallé sur Ubuntu. Si ce n’est pas le cas, vous pouvez l’installer manuellement avec la commande suivante :
 
 ```bash
 sudo apt update
@@ -2393,9 +2390,7 @@ sudo apt install -y gnome-disk-utility
 
 Pour ouvrir le logiciel, rendez-vous dans le menu des applications d’Ubuntu et recherchez "*Disks*". Il est généralement présent par défaut dans le dossier "*Utilities*".
 
-Dans la colonne de gauche, repérez votre clé USB. Si une partition existe déjà, sélectionnez-la ; sinon, créez-en une nouvelle :
-- Cliquez sur le bouton "+" situé sous la liste des partitions ;
-- Choisissez "Standard Partition" puis validez.
+Dans la colonne de gauche, repérez votre clé USB. Si une partition existe déjà, sélectionnez-la ; sinon, créez-en une nouvelle : Cliquez sur le bouton "+" situé sous la liste des partitions.
 
 ![Image](assets/fr/242.webp)
 
@@ -2457,7 +2452,7 @@ Sur macOS, le chiffrement du disque système repose sur *FileVault*, une fonctio
 
 ![Image](assets/fr/252.webp)
 
-Une fois FileVault activé, vous devrez choisir une méthode de récupération en cas de perte de mot de passe : soit l’utilisation de votre compte *iCloud*, soit la génération d’une clé de secours unique. Cette clé doit impérativement être conservée hors ligne et en lieu sûr, car sa perte rendrait vos données définitivement inaccessibles.
+Une fois FileVault activé, vous devrez choisir une méthode de récupération en cas de perte de mot de passe : soit l’utilisation de votre compte *iCloud*, soit la génération d’une clé de secours unique. Cette clé doit impérativement être conservée en lieu sûr, car sa perte rendrait vos données définitivement inaccessibles.
 
 Pour ce qui est des supports de stockage externes (disques durs, clés USB…), le chiffrement se réalise via l’utilitaire de disque. Il vous faudra reformater complètement le volume :
 - sélectionnez le périphérique, cliquez sur "*Effacer*" ;
@@ -2482,7 +2477,7 @@ L’une des méthodes les plus connues pour chiffrer un fichier consiste à util
 
 Ce protocole est parfait pour échanger des fichiers sensibles de manière sécurisée avec d’autres personnes, sans partager un mot de passe. Pour un usage personnel ou ponctuel, GPG permet aussi un chiffrement symétrique : le fichier est alors protégé par un mot de passe unique que vous seul connaissez.
 
-Il y a également le logiciel open-source Cryptomator qui est une excellente alternative. Ce logiciel open-source permet de créer un coffre-fort : un dossier spécial dans lequel tous les fichiers déposés sont automatiquement chiffrés. Ce coffre peut être synchronisé avec des services cloud comme Dropbox, Google Drive ou Nextcloud sans que le fournisseur n’ait jamais accès aux données en clair. L’application est disponible sur tous les systèmes d’exploitation, y compris Android et iOS, et son utilisation ne nécessite aucune compétence technique particulière.
+Il y a également le logiciel Cryptomator qui est une excellente alternative. Ce logiciel open-source permet de créer un coffre-fort : un dossier spécial dans lequel tous les fichiers déposés sont automatiquement chiffrés. Ce coffre peut être synchronisé avec des services cloud comme Dropbox, Google Drive ou Nextcloud sans que le fournisseur n’ait jamais accès aux données en clair. L’application est disponible sur tous les systèmes d’exploitation, y compris Android et iOS, et son utilisation ne nécessite aucune compétence technique particulière.
 
 ![Image](assets/fr/256.webp)
 

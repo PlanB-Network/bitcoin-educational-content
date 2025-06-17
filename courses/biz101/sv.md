@@ -150,91 +150,91 @@ När en kund använder ett kreditkort i en butik läses kortet av kassaterminale
 
 ![BIZ101](assets/en/02.webp)
 
-Denna till synes enkla transaktion omfattar i själva verket över 15 steg, 7 mellanhänder och det tar i genomsnitt mellan 48 timmar och 5 dagar för handlaren att ta emot pengarna. Under de följande dagarna sker en clearing- och avvecklingsprocess. Kortnätverket sammanställer dagens transaktioner och samordnar överföringen av medel mellan inlösaren och utgivaren. En centralbank säkerställer att dessa interbankavvecklingar är korrekta och stabila. Så småningom får handlarens bankkonto nettobeloppet (minus avgifter) från inlösaren, och därmed är transaktionens livscykel avslutad.
+Denna till synes enkla transaktion omfattar i själva verket över 15 steg och involverar sju mellanhänder. Det tar i genomsnitt mellan 48 timmar och fem dagar innan handlaren faktiskt får pengarna. Under dessa dagar genomförs en clearing- och avvecklingsprocess, där kortnätverket samlar in dagens transaktioner och samordnar överföringen av medel mellan inlösaren och utgivaren. En centralbank säkerställer att mellanbanksavvecklingarna sker korrekt och stabilt. Slutligen sätts nettobeloppet (efter avgifter) in på handlarens bankkonto av inlösaren, och därmed är transaktionens livscykel avslutad.
 
 Sammantaget är denna process invecklad, tidskrävande och kostsam för vad som borde vara den enkla handlingen att flytta värde från en part till en annan.
 
 ### Jämförelse av betalningsmetoder
 
-| Betalningsmetod | Behövs auktorisation? | Tid för transaktionsgodkännande (Företagsvy) | Avvecklingshastighet (medel helt avvecklade) | Finalitet (enkel återföring) | Antal mellanhänder | Typiska avgifter (till betalningsmottagaren) | Betalningssätt
+| Betalningsmetod | Behövs auktorisation? | Tid för transaktionsgodkännande (Företagsvy) | Avvecklingshastighet (medel som är helt avvecklade) | Finalitet (enkel återföring) | Antal mellanhänder | Typiska avgifter (till betalningsmottagaren)
 
 | ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
 
-| **Kontanter** | Nej | Omedelbar (fysisk Exchange) | Omedelbar (ingen fördröjning) | Hög (irreversibel när den betalats) | Ingen | Ingen |
+| **Kontanter** | Nej | Omedelbar (fysiskt utbyte) | Omedelbar (ingen fördröjning) | Hög (irreversibel när den betalats) | Ingen | Ingen |
 
-| ** Checkar** | Ja (bankclearing) | Godkänd vid insättning (ej garanterad) | Flera dagar (checkclearingprocess) | Medium (kan studsa/stoppa före clearing) | Bank | **Låg till Medium** (bankavgifter) | ** Checkar** | Ja (bankclearing)
+| ** Checkar** | Ja (bankclearing) | Godkänd vid insättning (ej garanterad) | Flera dagar (process för checkclearing) | Medium (Kan returneras eller stoppas före clearing) | Bank | **Låg till medel** (bankavgifter)
 
-| **Trådöverföringar** | Ja (bank/nätverk) | Bekräftelse inom några timmar | Samma dag eller nästa dag (inrikes) | Hög (vanligtvis oåterkallelig när den skickats) | Banker, betalningsnätverk | **Medium**(fast/procentsats) |
+| **Banköverföringar** | Ja (bank/nätverk) | Bekräftelse inom några timmar | Samma dag eller nästa dag (inrikes) | Hög (vanligtvis irreversibel när den skickats) | Banker, betalningsnätverk | **Medel**(fast/procentsats) |
 
-| Betalningskort** | Ja (kortutgivarens auktorisering) | Sekunder till minuter (auktoriseringskod) | Några dagar (interbankavveckling) | Medelhög (återbetalningar möjliga) | Kortutgivare, kortinlösare, kortnätverk | **Variabel (1-3% av transaktionen)** | Betalningskort
+| Betalningskort** | Ja (kortutgivarens auktorisering) | Sekunder till minuter (auktoriseringskod) | Några dagar (mellanbanksavveckling) | Medel (återbetalningar möjliga) | Kortutgivare, kortinlösare, kortnätverk | **Variabel (1-3% av transaktionen)**
 
-| **Digitala plånböcker/mobilbetalning** | Ja (Wallet-leverantör/bank) | Sekunder (omedelbar bekräftelse) | Vanligtvis 1-2 dagar (beror på finansieringskälla) | Medium (återbetalning/tvist möjlig) | Banker, Wallet-operatörer | **Låg till Medium (varierar)** | **Digitala plånböcker/mobilbetalning** | Ja (Wallet-leverantör/bank)
+| **Digitala plånböcker/mobilbetalning** | Ja (Plånboksleverantör/bank) | Sekunder (omedelbar bekräftelse) | Vanligtvis 1-2 dagar (beror på finansieringskälla) | Medel (återbetalning/tvist möjlig) | Banker, plånboksoperatörer | **Låg till medel (varierar)** 
 
 ### Begränsningar i befintliga lösningar
 
 Den traditionella betalningsindustrin representerar en årlig ekonomi på cirka 2.200 miljarder dollar, vilket är ungefär en tiondel av USA:s BNP eller lika mycket som Frankrikes BNP. Eftersom valutor fungerar som nätverk med tillstånd finns det begränsad konkurrens, vilket gör att denna "tjänst" mer liknar en skatt som läggs på den produktiva ekonomin. Utöver de kostnadsbördor som detta skapar finns det flera andra begränsningar, vilka beskrivs nedan.
 
-| Begränsning | Förklaring | Konsekvenser
+| Begränsning | Förklaring | Påverkan
 
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 
-| Höga kortavgifter Växelavgifter (~0,3%), nätverksavgifter (fasta eller 0,3%-1%), terminal-/PSP-abonnemang och bankmarginaler (0,5%-1,7%) utgör tillsammans en betydande kostnad - som en global "skatt" på produktiva sektorer, som uppgår till biljoner dollar.     | Höjer handlarnas kostnader, minskar marginalerna och driver potentiellt upp konsumentpriserna.                  |
+Höga kortavgifter | Växelavgifter (~0,3%), nätverksavgifter (fasta eller 0,3%-1%), terminal/PSP-abonnemang och bankmarginaler (0,5%-1,7%) utgör tillsammans en betydande kostnad - som en global "skatt" på produktiva sektorer, som uppgår till biljoner dollar. | Höjer handlarnas kostnader, minskar marginalerna och driver potentiellt upp konsumentpriserna.        
 
-| Mycket långsam slutavveckling Avveckling av medel kan ta upp till 5 dagar, vilket saktar ner penningflödet och den totala ekonomiska aktiviteten.                                                                                                                                | Fördröjer likviditeten för handlare och minskar hastigheten på den ekonomiska cirkulationen.                        |
+Mycket långsam slutavveckling | Avveckling av medel kan ta upp till 5 dagar, vilket saktar ner penningflödet och den totala ekonomiska aktiviteten. | Fördröjer likviditeten för handlare och minskar hastigheten av den ekonomiska cirkulationen. 
 
-| Bedrägerier E-handelskanaler utsätts i hög grad för bedrägerier, vilket bidrar till betydande förluster (t.ex. 28 miljarder dollar). Återbetalningar kan uppgå till ~174 miljarder dollar globalt år 2024. Att hantera dessa tvister tar tid och orsakar mental belastning. | Ökade driftskostnader, komplexa åtgärder för att förebygga bedrägerier och minskat kundförtroende.       |
+Bedrägerier | E-handelskanaler utsätts i hög grad för bedrägerier, vilket bidrar till betydande förluster (t.ex. 28 miljarder dollar). Återbetalningar kan uppgå till ~174 miljarder dollar globalt år 2024. Att hantera dessa tvister tar tid och orsakar mental belastning. | Ökade driftskostnader, komplexa åtgärder för att förebygga bedrägerier och minskat kundförtroende.
 
-| Ytterligare säkerhetssteg (engångskoder, tvåfaktorsautentisering enligt PSD2) skapar friktion i kassan.                                                                                                                   | En mer komplicerad kassa leder till att fler kundvagnar överges och att försäljningen går förlorad.                       |
+Avbruten varukorg | Ytterligare säkerhetssteg (engångskoder, tvåfaktorsautentisering enligt PSD2) skapar friktion i kassan. | En mer komplicerad checkout leder till att fler kassor överges och att försäljningen går förlorad.
 
-| Höga minimibelopp för transaktioner Minimibelopp på kort kan tvinga handlare och konsumenter till obekväma pris- eller köpvillkor och avskräcka från transaktioner av mindre värde.                                                                       | Minskad kundnöjdhet och flexibilitet, vilket kan begränsa impulsköp eller köp av lågt värde.  |
+Höga minimibelopp för transaktioner | Minimibelopp på kort kan tvinga handlare och konsumenter till obekväma pris- eller köpvillkor och avskräcka från transaktioner av mindre värde.         | Minskad kundnöjdhet och flexibilitet, vilket kan begränsa impulsköp eller köp av lågt värde.
 
-| Långsamma förhandsgodkännanden Nuvarande system kan inte hantera transaktioner i millisekundshastighet eller stödja kontinuerliga betalningsflöden i realtid.                                                                                                                   | Det begränsar användningsområden som kräver omedelbara eller strömmande betalningar, vilket begränsar innovation och skalbarhet. |
+Långsamma förhandsgodkännanden | Nuvarande system kan inte hantera transaktioner i millisekundshastighet eller stödja kontinuerliga betalningsflöden i realtid. | Det begränsar användningsområden som kräver omedelbara eller strömmande betalningar, vilket begränsar innovation och skalbarhet.
 
-| Behov av ett bank- eller kortkonto För att få tillgång till dessa betalningsmetoder krävs ett anslutet bank- eller kortkonto, vilket automatiskt utesluter dem som saknar sådana konton.                                                                                                       | Det begränsar den finansiella integrationen och minskar tillgången för personer som saknar bank eller har en underbank.                 |
+Behov av ett bank- eller kortkonto | För att få tillgång till dessa betalningsmetoder krävs ett anslutet bank- eller kortkonto, vilket automatiskt utesluter dem som saknar sådana konton. | Det begränsar den finansiella integrationen och minskar tillgången för personer som saknar bank.
 
-| Upprepat skapande av onlinekonton Användare måste ofta skapa flera onlinekonton, vilket leder till trötthet, minskad bekvämlighet och ökad exponering av personuppgifter.                                                                                                | Det försämrar användarupplevelsen, skapar oro för integriteten och ökar risken för dataintrång.          |
+Upprepat skapande av onlinekonton | Användare måste ofta skapa flera onlinekonton, vilket leder till trötthet, minskad bekvämlighet och ökad exponering av personuppgifter. | Försämrar användarupplevelsen, skapar oro för integriteten och ökar risken för dataintrång.
 
-| Utländska Exchange (FX)-avgifter Avsaknaden av en universell beräkningsenhet tvingar fram kostsamma valutakonverteringar för gränsöverskridande transaktioner.                                                                                                                              | Det ger extra kostnader för internationell handel, vilket gör globala transaktioner mindre prisvärda.             |
+Utländsk valutaväxlingsavgifter | Avsaknaden av en universell beräkningsenhet tvingar fram kostsamma valutakonverteringar för gränsöverskridande transaktioner. | Det ger extra kostnader för internationell handel, vilket gör globala transaktioner mindre prisvärda.
 
 Precis som vi gick från att betala per minut för röstsamtal till att använda nästan gratis IP-baserad kommunikation, kan framväxten av mer öppna och effektiva nätverk omdefiniera betalningar, minska kostnader och mellanhänder samt främja nya affärsmodeller.
 
-## Bitcoin för företag: en ny valuta
+## Bitcoin för företag: en framväxande valuta
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
-**VAD ÄR Bitcoin? **
+**VAD ÄR BITCOIN? **
 
-Bitcoin är ett **peer-to-peer digitalt valutasystem Exchange** (elektroniska kontanter). Termen "Bitcoin" hänvisar till följande komponenter:
+Bitcoin är ett peer-to-peer-system för digitalt utbyte och handel (elektroniska kontanter). Termen "Bitcoin" hänvisar till följande komponenter:
 
 
-- Ett datorprotokoll** som underlättar värdeöverföring Exchange på internet utan mellanhänder, utan krav på tillstånd och pseudonymt. Det använder avancerade kryptografiska principer.
+- Ett datorprotokoll** som underlättar värdeöverföring på internet utan mellanhänder, utan krav på tillstånd samt pseudonymt. Det använder avancerade kryptografiska principer.
 - Ett fysiskt nätverk** av internetanslutna maskiner (noder, miners etc.) som drivs av privatpersoner och företag och som utgör ett decentraliserat system (utan någon central myndighet eller kontrollpunkt).
-- Kontoenheten** inom systemet. Det kommer aldrig att finnas mer än 21 miljoner bitcoins. Varje Bitcoin är delbar i 100 miljoner enheter som kallas "satoshis", uppkallad efter dess anonyma skapare.
+- Värdeenheten** inom systemet. Det kommer aldrig att finnas mer än 21 miljoner bitcoins. Varje bitcoin är delbar i 100 miljoner enheter som kallas "satoshis", uppkallad efter dess anonyma skapare.
 
-Tillsammans gör de Bitcoin till en **bärartillgång** och en digital valuta **utan utgivare**. Ownership är säkrad enbart genom att inneha den **privata kryptografiska nyckeln**, vilket ger full kontroll **utan mellanhänder eller betrodda tredje parter**. När Ownership överförs är **finaliteten** omedelbar: den nya innehavaren äger den helt utan att förlita sig på en central myndighet för skydd eller konvertibilitet. Transaktioner är **oföränderliga** - när de väl har registrerats på Blockchain kan de inte ändras eller raderas.
+Tillsammans gör de Bitcoin till en **innehavartillgång** och en digital valuta **utan utgivare**. Ägarskap är säkrat enbart genom innehav av den **privata kryptografiska nyckeln**, vilket ger full kontroll **utan mellanhänder eller betrodda tredje parter**. När ägarskap överförs är **finaliteten** omedelbar: den nya innehavaren äger den helt utan att förlita sig på en central myndighet för skydd eller konvertibilitet. Transaktioner är **oföränderliga** - när de väl har registrerats på blockkedjan kan de inte ändras eller raderas.
 
 ![BIZ101](assets/en/11.webp)
 
-Bitcoin har en fast penningpolitik, med ett **tak på 21 miljoner bitcoins**, av vilka ~19,8 miljoner redan har distribuerats. Detta gör den **deflationär**, med ett värde som ökar över tid när användarna lagrar besparingar och produktivitetsvinster i den.
+Bitcoin har en fast penningpolitik, med ett **tak på 21 miljoner bitcoins**, av vilka ~19,8 miljoner redan har distribuerats. Detta gör den **deflationär**, med ett värde som ökar över tid när användarna förvarar besparingar och produktivitetsvinster i den.
 
-Dess tekniska egenskaper överträffar guld och dollar tillsammans, vilket gör den till den hårdaste finansiella tillgången som någonsin skapats. Bitcoin är både en värdebevarare och ett medium för Exchange, en valuta i vardande. Föreställ dig att överföra värde från ett företags kassa till ett annat snabbt, utan mellanhänder, till minimal kostnad, utan bedrägeri, dygnet runt och utan att någon tredje part är inblandad.
+Dess tekniska egenskaper överträffar guld och dollar tillsammans, vilket gör den till den hårdaste finansiella tillgången som någonsin skapats. Bitcoin är både en värdebevarare och ett bytesmedel, en valuta som håller på att formas. Föreställ dig att snabbt överföra värde från ett företags kassa till ett annat, utan mellanhänder, till minimal kostnad, utan bedrägeri, dygnet runt och utan att någon tredje part är inblandad.
 
 ![BIZ101](assets/en/03.webp)
 
-Bitcoin bevarar effektivt sitt värde eftersom dess Ledger är manipuleringssäker. Dess värde ökar på grund av den sällsynta och begränsade Supply i kombination med det växande antalet Exchange-möjligheter, som drivs av det ökande antalet användare.
+Bitcoin bevarar effektivt sitt värde eftersom dess register är manipuleringssäkert. Dess värde ökar på grund av dess sällsynta och begränsade utbyd i kombination med det växande antalet växelmöjligheter, som drivs av det ökande antalet användare.
 
 Bitcoin är omvälvande eftersom det uppmuntrar oss att lära oss begrepp inom matematik, kryptografi, ekonomi och historia som vi aldrig har fått lära oss. Även om det ofta uppfattas som komplext är det i själva verket en innovation som är tillgänglig genom övning och experiment.
 
-Bitcoin utmanar oss att ompröva själva pengarnas natur. Kan du förklara vad pengar egentligen är? En löntagare eller entreprenör kan ägna 50 000 till 100 000 timmar av sitt liv åt att tjäna pengar, men hur många **ägnar ens 100 timmar åt att förstå dem bättre** och bevara dem? Bitcoin uppmuntrar oss att ifrågasätta de grundläggande orsakerna bakom vårt behov av pengar och vårt tidsperspektiv. Är pengar till för omedelbar lyx eller långsiktig motståndskraft? Vilka val skulle vi göra om vi hade en tillgång med värdeökning som gjorde att vi kunde skjuta upp våra inköp? Vilka samtal skulle vi vilja ha med oss själva om 20 eller 30 år?
+Bitcoin får oss att tänka om kring pengars grundläggande natur. Kan du förklara vad pengar egentligen är? En löntagare eller entreprenör kan ägna 50 000 till 100 000 timmar av sitt liv åt att tjäna pengar, men hur många **ägnar ens 100 timmar åt att förstå det bättre** och bevara det? Bitcoin uppmuntrar oss att ifrågasätta de grundläggande orsakerna bakom vårt behov av pengar och vårt tidsperspektiv. Är pengar till för omedelbar lyx eller långsiktig motståndskraft? Vilka val skulle vi göra om vi hade en tillgång med värdeökning som gjorde att vi kunde skjuta upp våra inköp? Vilka samtal skulle vi vilja ha med oss själva om 20 eller 30 år?
 
-**Bitcoin IDENTITETSKORT**
+**BITCOINS IDENTITETSKORT**
 
 
 - Ålder:** 15 år (3 januari 2009)
-- Dagligt Exchange-värde:** 10 miljarder USD (> CAC40)
+- Dagligt växlingsvärde:** 10 miljarder USD (> CAC40)
 - Börsvärde:** 1,8 biljoner dollar (> Meta, Visa, Silver ; < Apple, Google, Guld)
 - Användare:** ~100 till 200 miljoner (1-2% av världens befolkning)
-- Volatilitet:** Intrinsiskt ingen (1 Bitcoin = 1 Bitcoin), externt mycket hög (i fiatvalutabörser)
+- Volatilitet:** I grunden ingen (1 Bitcoin = 1 Bitcoin), externt mycket hög (i fiatvalutaväxling)
 - Prestanda:** Första transaktionen på 0,0009 dollar; nu 100 000 dollar (x100 miljoner)
 - Nätverkstillgänglighet (drifttid):** 100% sedan 2013
 - Dödförklarad eller kritiserad:** En gång i månaden
@@ -258,26 +258,26 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**VAD ÄR BLIXTAR? **
+**VAD ÄR LIGHTNING? **
 
-Lightning Network är **ett protokoll och ett nätverk** som underlättar Bitcoin-transaktioner med minimal interaktion med Bitcoin:s huvud Blockchain. Så här fungerar det:
+Lightning Network är **ett protokoll och ett nätverk** som underlättar Bitcoin-transaktioner med minimal interaktion med blockkedjan. Så här fungerar det:
 
 
-- Initial inställning:** Medel låses (spärras) på huvud Blockchain för att upprätta en betalningskanal mellan 2 parter.
+- Initial konfiguration:** Medel låses (escrow) på huvudblockkedjan för att upprätta en betalningskanal mellan två parter.
 - Betalningsnätverk:** Ett nät av betalningskanaler mellan flera parter utgör ett betalningsnätverk (routing och sammankoppling).
-- off-chain transaktioner:** Transaktioner sker mellan parter men publiceras **inte omedelbart** på Bitcoin:s huvud Blockchain (**"off-chain"**).
-- On-Chain avräkningar:** Endast **det slutliga saldot** av en kanals transaktioner publiceras på Bitcoin main Blockchain (**"On-Chain**"), vilket gör att många transaktioner kan ske under tiden. Denna buntning av flera betalningar minskar överbelastningen och sänker därmed avgifterna jämfört med att göra många On-Chain-transaktioner.
-- Kanalstängning:** En användare kan när som helst stänga sin kanal och återfå sin Bitcoin genom att publicera det senaste transaktionstillståndet. Detta är principen för transaktioner som är **"publicerbara" när som helst men "opublicerade"** tills det är nödvändigt. Utgången (kanalstängning) kan vara ensidig (beslutas av någon av de 2 parterna när som helst) eller ömsesidigt beslutad (vilket resulterar i lägre On-Chain-avgifter)
+- off-chain-transaktioner:** Transaktioner sker mellan parter men publiceras **inte omedelbart** på Bitcoins huvudblockkedja (**"off-chain"**).
+- On-chain-avveckling:** Endast **det slutliga saldot** av en kanals transaktioner publiceras på Bitcoins huvudblockkedja (**"on-chain**"), vilket gör att många transaktioner kan ske under tiden. Denna sammanfogning av flera betalningar minskar överbelastningen och sänker därmed avgifterna jämfört med att göra många on-chain-transaktioner.
+- Kanalstängning:** En användare kan när som helst stänga sin kanal och återfå sina bitcoin genom att publicera det senaste transaktionsstatuset. Detta är principen för transaktioner som är **"publicerbara" när som helst men "opublicerade"** tills det är nödvändigt. Avslutet (kanalstängning) kan vara ensidigt (beslutas av någon av de två parterna när som helst) eller ömsesidigt beslutat (vilket resulterar i lägre on-chain-avgifter)
 
 ![BIZ101](assets/en/04.webp)
 
-Detta tillvägagångssätt undviker långsamheten och komplexiteten i att utföra varje transaktion direkt på Bitcoin:s huvud Blockchain, som endast registrerar slutliga saldon och behåller sin säkerhet. Lightning Network är en Layer "ovanpå" Bitcoin men förblir förankrad i den.
+Detta tillvägagångssätt undviker långsamheten och komplexiteten i att utföra varje transaktion direkt på Bitcoins huvudblockkedja, som endast registrerar slutliga saldon och behåller sin säkerhet. Lightning Network är en nivå "ovanpå" Bitcoin men förblir förankrad i den.
 
 **Ett globalt betalningsnätverk**
 
 Protokollet skapar ett **nätverk** av maskiner där kanalerna bildar ett universellt betalningssystem. Dessa noder kan drivas fritt av privatpersoner eller företag, vilket gör det till ett helt öppet nätverk.
 
-Lightning Network möjliggör omedelbar värdeöverföring Exchange med ljusets hastighet. Det är som ett e-postprotokoll tillämpat på betalningar: ett nästa generations betalningsnätverk. Det förändrar radikalt hur "pengar" rör sig och gör det lika gratis och snabbt som dataöverföring på internet.
+Lightning Network möjliggör omedelbar värdeöverföring med ljusets hastighet. Det är som ett e-postprotokoll tillämpat på betalningar: ett nästa generations betalningsnätverk. Det förändrar radikalt hur "pengar" rör sig och gör det lika fritt och snabbt som dataöverföring på internet.
 
 ![BIZ101](assets/en/12.webp)
 
@@ -288,35 +288,35 @@ Lightning Network möjliggör omedelbar värdeöverföring Exchange med ljusets 
 - Låga avgifter:** Mycket lägre kostnader jämfört med traditionella banknätverk.
 - Lätt att ta i bruk:** Företag kan snabbt börja ta emot Lightning-betalningar med hjälp av en smartphone-app eller en betalningsknapp på sin webbplats.
 
-Lightning-infrastrukturen överträffar traditionella betalningssystem när det gäller hastighet, kostnad och energieffektivitet. I takt med att allt fler handlare anammar systemet kommer utvecklingen att accelerera: om betalningar kan gå förbi det begränsade interbanknätverket, varför då fortsätta att ge upp en betydande del av intäkterna till dagens mellanhänder?
+Lightning-infrastrukturen överträffar traditionella betalningssystem när det gäller hastighet, kostnad och energieffektivitet. I takt med att allt fler handlare anammar systemet kommer utvecklingen att accelerera: om betalningar kan gå förbi det begränsade mellanbanksnätverket, varför då fortsätta att ge upp en betydande del av intäkterna till dagens mellanhänder?
 
 **Oändliga användningsområden
 
 Lightnings tillämpningar sträcker sig långt bortom låga avgifter och snabbhet. Genom att erbjuda en helt kostnadsfri och omedelbar betalningsväg öppnas enorma möjligheter i hela ekonomin.
 
-**Förstärkning av Bitcoin:s Exchange-kapacitet: **
+**Förstärkning av Bitcoins utbyteskapacitet: **
 
-Lightning förstärker Bitcoin:s roll som ett "medium för Exchange" Genom att öka frekvensen och friheten för transaktioner förstärker den pengarnas primära funktion: att underlätta ekonomiska utbyten och värdeskapande för alla deltagare.
+Lightning förstärker Bitcoins roll som ett "bytesmedel". Genom att öka frekvensen och friheten för transaktioner förstärker den pengarnas primära funktion: att underlätta ekonomiska utbyten och värdeskapande för alla användare.
 
-Den framtida "smarta maskinekonomin" kommer att kräva ett ultrasnabbt och högfrekvent betalningssystem, en teknisk standard som endast Lightning kan uppfylla. Detta möjliggör skapandet av fler varor och tjänster. Eftersom Bitcoin:s Supply förblir begränsad kommer varje enhets köpkraft att öka. Bitcoin och Lightning växer sig starkare tillsammans i takt med att deras nätverk expanderar.
+Den framtida "smarta maskinekonomin" kommer att kräva ett ultrasnabbt och högfrekvent betalningssystem, en teknisk standard som endast Lightning kan uppfylla. Detta möjliggör skapandet av fler varor och tjänster. Eftersom Bitcoins utbud förblir begränsat kommer varje enhets köpkraft att öka. Bitcoin och Lightning växer sig starkare tillsammans i takt med att deras nätverk expanderar.
 
 Lightning ger en inblick i en framtid där alla verksamheter som har blivit internetbaserade också kommer att bli Bitcoin-baserade.
 
-**Bitcoin Betalningar på Lightning: Ett typiskt användningsfall för en handlare**
+**Bitcoin-betalningar på Lightning: Ett typiskt användningsfall för en handlare**
 
 Lightning Network är idealisk för Bitcoin-betalningar i fysiska butiker eller onlinebutiker tack vare sin snabbhet och betalningsförmåga.
 
 
-- Hastighet:** Lightning (~500 ms till några sekunder) är betydligt snabbare än Bitcoin:s huvudnätverk, där det kan ta cirka 30 minuter att bekräfta transaktioner. För stora inköp (långt över 1 000 USD) kan Bitcoin:s huvudnätverk fortfarande vara att föredra, eftersom hastigheten är mindre kritisk. Dessa detaljer är dock ofta dolda för den genomsnittliga användaren, eftersom applikationer hanterar dessa beslut sömlöst i bakgrunden.
-- Slutgiltighet:** När en betalning har gjorts på Lightning är den slutgiltig. Det finns ingen möjlighet till återbetalningar från tredje part eller bedrägerirelaterade tvister.
-- Avgifter:** Transaktionsavgifterna på Lightning Network är minimala och betalas av användaren, inte av säljaren. Handlare drabbas endast av avgifter om de senare behöver överföra sin Bitcoin till ett annat nätverk eller en annan tjänst.
+- Hastighet:** Lightning (~500 ms till några sekunder) är betydligt snabbare än Bitcoins huvudnätverk, där det kan ta cirka 30 minuter att bekräfta transaktioner. För stora inköp (långt över 1 000 USD) kan Bitcoins huvudnätverk fortfarande vara att föredra, eftersom hastigheten är mindre kritisk. Dessa detaljer är dock ofta dolda för den genomsnittliga användaren, eftersom applikationer hanterar dessa beslut sömlöst i bakgrunden.
+- Finalitet:** När en betalning har gjorts på Lightning är den slutgiltig. Det finns ingen möjlighet till återbetalningar från tredje part eller bedrägerirelaterade tvister.
+- Avgifter:** Transaktionsavgifterna på Lightning Network är minimala och betalas av användaren, inte av säljaren. Handlare drabbas endast av avgifter om de senare behöver överföra sina bitcoins till ett annat nätverk eller en annan tjänst.
 
-**BLIXTRANDE IDENTITETSKORT**
+**LIGHTNINGS IDENTITETSKORT**
 
 
 - Uppfinning:** 2015
 - Lansering:** 2016
-- Ålder:** 7 år (första transaktion: 28 december 2017)
+- Ålder:** 7 år (första transaktionen: 28 december 2017)
 - Nätverkets tekniska förmåga:** i stor skala kan det hantera 1.000 gånger fler omedelbara transaktioner än traditionella system.
 - Transaktionsstorlekar:** Från lika stora till 1.000 gånger mindre än traditionella system.
 - Transaktionshastighet:** Upp till 100 gånger snabbare.
@@ -325,17 +325,17 @@ Lightning Network är idealisk för Bitcoin-betalningar i fysiska butiker eller 
 - Energiförbrukning:** ~8% av det traditionella globala monetära systemet.
 - Kännetecken:**
     - Peer-to-peer
-    - Universal
-    - Utan tillstånd
-    - Bra integritet
+    - Universiell
+    - Tillståndsfri
+    - God integritet
     - Bevisad säkerhet
     - Hög tillgänglighet (utmärkt drifttid)
     - Kontrollerbar och anpassningsbar
 
-För mer information om det tekniska arbetet med Lightning Network föreslår jag också att du följer denna andra omfattande kurs:
+För mer information om det tekniska arbetet med Lightning Network föreslår jag också att du kollar in denna andra omfattande kurs:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
-# Bitcoin i eget förvar
+# Bitcoin i företagskassan
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
 
@@ -345,7 +345,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Ett sunt företag
 
-**Framtiden är osäker**, och företagen måste navigera i denna osäkerhet med ett tydligt fokus på att göra vinst och bevara kapital. Enligt österrikisk ekonomi är **vinster den ultimata signalen för ett företags hälsa** - de visar att verksamheten tillgodoser konsumenternas behov på ett effektivt sätt. Utan vinst kan ett företag inte upprätthålla sig självt, än mindre växa. För att ett företag ska förbli friskt måste det inte bara göra vinster utan också tänka framåt och **förvara kapital för framtida investeringar och utmaningar**.
+**Framtiden är osäker**, och företagen måste navigera i denna osäkerhet med ett tydligt fokus på att göra vinst och bevara kapital. Enligt österrikisk ekonomi är **vinster den ultimata signalen för ett företags hälsa** - de visar att verksamheten tillgodoser konsumenternas behov på ett effektivt sätt. Utan vinst kan ett företag inte upprätthålla sig självt, än mindre växa. För att ett företag ska förbli sunt måste det inte bara göra vinster utan också tänka framåt och **förvara kapital för framtida investeringar och utmaningar**.
 
 **Kapitalbevarande** är avgörande eftersom det gör det möjligt för företag att anpassa sig och ta vara på möjligheter på en oförutsägbar marknad. Detta innebär att man måste hitta en balans mellan att återinvestera vinster för att växa och att upprätthålla en finansiell buffert för att klara av eventuella nedgångar. Österrikisk ekonomi lyfter fram vikten av **"tidspreferens"**, vilket innebär att företag noggrant måste bestämma hur mycket de ska prioritera omedelbar avkastning jämfört med att investera för långsiktig framgång. Ett sunt företag håller sin finansiella grund stark, vilket säkerställer flexibilitet i både goda och dåliga tider.
 
@@ -353,21 +353,21 @@ Marknadssignaler som priser och konkurrens hjälper företag att fatta smarta be
 
 I slutändan innebär en sund verksamhet att man måste vara anpassningsbar, göra kloka finansiella val och alltid ha ett öga på framtiden. **Genom att fokusera på vinst, bevara kapital och reagera på marknadssignaler kan företag - stora som små - blomstra även under osäkra förhållanden**.
 
-### Har kapitalet en dygd?
+### Har kapital en dygd?
 
-**Hur kapitalet generellt framställs**
+**Hur kapital generellt framställs**
 
 Låt oss återupptäcka vad kapital verkligen är - en term som så ofta missförstås och uppfattas negativt i vårt samhälle.
 
-I traditionell ekonomisk teori (keynesiansk) ses kapital ofta förenklat som en homogen stock av fysiska eller finansiella tillgångar som främst används för att stimulera den samlade efterfrågan genom investeringar. Det förknippas ofta med koncentrationen av rikedom och den ekonomiska makt som innehas av en liten elit. I ett sammanhang där förmögenhetsklyftorna fortsätter att öka ser många kapital som en symbol för ekonomisk ojämlikhet, särskilt när ackumulerad förmögenhet inte verkar vara till någon nytta för majoriteten.
+I traditionell ekonomisk teori (keynesiansk) ses kapital ofta förenklat som ett homogent lager av fysiska eller finansiella tillgångar som främst används för att stimulera den samlade efterfrågan genom investeringar. Det förknippas ofta med koncentration av rikedom och den ekonomiska makt som innehas av en liten elit. I ett sammanhang där förmögenhetsklyftorna fortsätter att öka ser många kapital som en symbol för ekonomisk ojämlikhet, särskilt när ackumulerad förmögenhet inte verkar vara till någon nytta för majoriteten.
 
-"Kapitalet" framställs ofta som ett verktyg för exploatering, och detta perspektiv har haft stort inflytande på olika rörelser som ser kapitalet som något som i sig står i motsättning till arbetarnas intressen. Men är detta sant? Eller kan denna uppfattning vara förvrängd av:
+"Kapital" framställs ofta som ett verktyg för exploatering, och detta perspektiv har haft stort inflytande på olika rörelser som ser kapital som något som i sig står i motsättning till arbetarnas intressen. Men är detta sant? Eller kan denna uppfattning vara förvrängd av:
 
 1. Bristande förståelse för ekonomiska mekanismer (även hos ekonomerna själva)?
 
 2. Statlig interventionism och marknadsmanipulation?
 
-3. Förväxling mellan vänskapskapitalism och frimarknadskapitalism?
+3. Förväxling mellan klientkapitalism och frimarknadskapitalism?
 
 4. Mediernas framställning av ekonomiska kriser?
 
@@ -375,17 +375,17 @@ I traditionell ekonomisk teori (keynesiansk) ses kapital ofta förenklat som en 
 
 6. Den kulturella normaliseringen av antikapitalistisk retorik?
 
-Lyckligtvis tvingar Bitcoin oss att tänka om och utmana dessa förutfattade meningar. Det finns en tankeskola - den österrikiska ekonomiska skolan - som kan kasta ljus över dessa frågor och hjälpa oss att ompröva kapitalets sanna natur.
+Lyckligtvis får Bitcoin oss att tänka om och utmana dessa förutfattade meningar. Det finns en tankeskola - den österrikiska ekonomiska skolan - som kan kasta ljus över dessa frågor och hjälpa oss att ompröva kapitalets sanna natur.
 
-**Det var en gång en tid**
+**Det var en gång**
 
 Låt oss börja med en kort berättelse:
 
-"På en liten öde ö bor en ensam fiskare. Varje dag tillbringar han timmar med att fånga fisk med sina bara händer, en aktivitet som tar mycket av hans tid och energi. En dag får han en idé: att bygga ett spjut som gör det möjligt för honom att fiska mer effektivt. Men han vet att detta kommer att kräva en uppoffring.
+"På en liten öde ö bor en ensam fiskare. Varje dag tillbringar han timmar med att fånga fisk med sina bara händer, en aktivitet som tar mycket av hans tid och energi. En dag får han en idé: att tillverka ett spjut som gör det möjligt för honom att fiska mer effektivt. Men han vet att detta kommer att kräva en uppoffring.
 
-Innan han börjar tillverka spjutet bestämmer sig fiskaren för att lägga undan lite fisk för att klara sig under byggprocessen. Han äter mindre än vanligt under några dagar och sparar tillräckligt med fisk för att kunna fokusera på sitt projekt. Den sparade fisken utgör hans **kapital**, en liten reserv som gör det möjligt för honom att fullfölja sitt mål.
+Innan han börjar tillverka spjutet bestämmer sig fiskaren för att lägga undan lite fisk för att klara sig under tillverkningsprocessen. Han äter mindre än vanligt under några dagar och sparar tillräckligt med fisk för att kunna fokusera på sitt projekt. Den sparade fisken utgör hans **kapital**, en liten reserv som gör det möjligt för honom att fullfölja sitt mål.
 
-Medan han ägnar sin tid åt att bygga spjutet, förlitar han sig på sina reserver och fördröjer gärna några av sina omedelbara bekvämligheter (en återspegling av hans **tidspreferens**). Efter flera dagars Hard-arbete färdigställer han ett robust spjut.
+Medan han ägnar sin tid åt att tillverka spjutet, förlitar han sig på sina reserver och fördröjer gärna några av sina omedelbara bekvämligheter (en återspegling av hans **tidspreferens**). Efter flera dagars hårt arbete färdigställer han ett robust spjut.
 
 ![BIZ101](assets/en/05.webp)
 
@@ -395,31 +395,31 @@ Denna historia illustrerar den grundläggande roll som kapital, tålamod och fra
 
 ### Den österrikiska ekonomiska skolan och dess syn på kapital
 
-Austrian School of Economics har fått sitt namn efter sina grundare och tidiga bidragsgivare, som ursprungligen kom från Österrike. Namnet fastnade och skolan har sedan dess blivit nära förknippad med klassiskt liberalt tänkande, med betoning på individuell frihet, fria marknader och minimal statlig inblandning.
+Den österrikiska ekonomiska skolan har fått sitt namn efter sina grundare och tidiga bidragsgivare, som ursprungligen kom från Österrike. Namnet fastnade och skolan har sedan dess blivit nära förknippad med klassiskt liberalt tänkande, med betoning på individuell frihet, fria marknader och minimal statlig inblandning.
 
 **Det österrikiska perspektivet på kapital**
 
-Enligt den österrikiska synen är kapital djupt förknippat med idén att skjuta upp konsumtion för att bygga verktyg eller produktionsresurser som förbättrar framtida produktion. Denna process, som kallas kapitalackumulation, är central i den österrikiska ekonomiska teorin. Viktiga Elements i detta perspektiv inkluderar:
+Enligt den österrikiska synen är kapital djupt förknippat med idén att skjuta upp konsumtion för att bygga verktyg eller produktionsresurser som förbättrar framtida produktion. Denna process, som kallas kapitalackumulation, är central i den österrikiska ekonomiska teorin. Viktiga element i detta perspektiv inkluderar:
 
 
 - Tidspreferens och uppskjuten konsumtion**: Individer föredrar naturligtvis att konsumera nu snarare än senare, men de kan välja att skjuta upp konsumtionen om de förväntar sig större belöningar i framtiden. Genom att spara idag kan resurser investeras i kapitalvaror (verktyg, maskiner, infrastruktur) som förbättrar produktiviteten över tid. Samhällen eller individer med lägre tidspreferens sparar mer och investerar i långsiktiga projekt, vilket främjar en hållbar tillväxt.
 - Kapital som drivkraft för framtida produktion**: Kapitalvaror ses som mellanliggande verktyg som används för att producera slutliga konsumtionsvaror. Genom att samla på sig kapital kan företagare öka produktiviteten och skapa mer välstånd i framtiden. I stället för att producera konsumtionsvaror omedelbart kan resurserna till exempel användas för att bygga fabriker eller maskiner. Detta minskar visserligen den kortsiktiga konsumtionen, men den resulterande effektiviteten möjliggör större produktion och välstånd senare.
 - Indirekt produktion och effektivitet**: Österrikiska ekonomer, som Eugen Böhm-Bawerk, lyfte fram idén om indirekt produktion - längre och mer komplexa produktionsprocesser som involverar flera steg. Även om dessa processer tar tid ger de i slutändan mer effektiva och produktiva resultat, till exempel att bygga ett sågverk för att bearbeta trä i stället för att samla in stockar för hand.
-- Räntor som signaler**: Enligt den österrikiska synen speglar räntorna på ett naturligt sätt individers tidspreferenser. Höga räntor indikerar en preferens för omedelbar konsumtion, medan låga räntor uppmuntrar till sparande och långsiktiga investeringar. När centralbankerna manipulerar räntorna på konstgjord väg förvränger de dessa naturliga signaler, vilket leder till felallokerade resurser och ohållbara investeringar (malinvestering).
+- Räntor som signaler**: Enligt den österrikiska synen speglar räntorna på ett naturligt sätt individers tidspreferenser. Höga räntor indikerar en preferens för omedelbar konsumtion, medan låga räntor uppmuntrar till sparande och långsiktiga investeringar. När centralbankerna manipulerar räntorna på konstgjord väg förvränger de dessa naturliga signaler, vilket leder till felallokerade resurser och ohållbara investeringar.
 
 **Två former av kapital i moderna ekonomier**
 
-Inom ramen för det skuldbaserade monetära system som vi verkar i **finns det en andra typ av kapital**: ett som genereras omedelbart när en bank skapar ett lån genom en enkel kreditmekanism. Det handlar om skapande av likviditet ex nihilo, där banken lånar ut pengar som den egentligen inte har i förväg utan som den skapar utifrån ett löfte om återbetalning.
+Inom ramen för det skuldbaserade monetära system som vi verkar i **finns det en andra typ av kapital**: ett som genereras omedelbart när en bank skapar ett lån genom en enkel kreditmekanism. Det handlar om skapande av likviditet ex nihilo, där banken lånar ut pengar som den i förväg egentligen inte har, utan skapar dem baserat på ett löfte om återbetalning.
 
 Å ena sidan är det "österrikiska" kapitalet resultatet av verkliga besparingar, en process som innefattar genomtänkta ekonomiska beslut och noggranna uppoffringar. Å andra sidan är det kapital som genereras genom skapandet av skuldbaserade pengar en omedelbar och artificiell konstruktion. Dessa två typer av kapital, även om de **på ytan liknar varandra i sin användning för att finansiera projekt, är fundamentalt olika till sin natur**.
 
-Dessa två former av kapital bör aldrig blandas ihop, men i ett skuldbaserat system gör de ofta det, vilket **förvränger de ekonomiska signalerna** och ofta leder till felinvesteringar. Detta missförstånd belyser varför kapitalismen ofta får obefogad kritik
+Dessa två former av kapital bör aldrig blandas ihop, men i ett skuldbaserat system gör de ofta det, vilket **förvränger de ekonomiska signalerna** och leder ofta till felinvesteringar. Detta missförstånd belyser varför kapitalismen ofta får obefogad kritik.
 
-**Huvudfrågan med keynesianism**
+**Huvudproblemet med keynesianism**
 
-Den keynesianska politiken, som är allmänt accepterad av den globala eliten, manipulerar räntorna och stimulerar efterfrågan genom skuldsättning. Detta uppmuntrar resurser att flöda till kortsiktiga, ohållbara projekt, vilket förstärker ekonomiska cykler och fördröjer verklig tillväxt som är rotad i sunda besparingar och produktiva investeringar. Företagsledare ser denna skadliga politik på nära håll när sunda företag drivs in i övervärderade förvärv i jakt på överdriven avkastning, vilket undergräver organisk och hållbar tillväxt.
+Den keynesianska politiken, som är allmänt accepterad av den globala eliten, manipulerar räntorna och stimulerar efterfrågan genom skuldsättning. Detta uppmuntrar resurser att flöda till kortsiktiga, ohållbara projekt, vilket förstärker ekonomiska cykler och fördröjer verklig tillväxt som är rotad i sunda besparingar och produktiva investeringar. Företagsledare ser denna skadliga politik på nära håll när sunda företag drivs in i övervärderade förvärv i jakt på överdriven avkastning, vilket underminerar organisk och hållbar tillväxt.
 
-I en sådan miljö, hur kan "sunt" kapital - omsorgsfullt sparat av entreprenörer - konkurrera med artificiellt skapat "ohälsosamt" kapital? Dessutom urholkar den ensidiga expansionen av pengarna Supply köpkraften för sunt kapital, vilket förvärrar den ekonomiska desorienteringen och det samhälleliga missnöjet.
+I en sådan miljö, hur kan "sunt" kapital - omsorgsfullt sparat av entreprenörer - konkurrera med artificiellt skapat "ohälsosamt" kapital? Den obalanserade expansionen av penningmängden underminerar även köpkraften hos sunt kapital och fördjupar därmed både den ekonomiska förvirringen och det sociala missnöjet.
 
 **En glimt av hopp: Bitcoin**
 
@@ -427,25 +427,25 @@ Bitcoin erbjuder ett sätt att ackumulera och bevara kapital på lång sikt utan
 
 ### Mer om den österrikiska skolan inom nationalekonomi
 
-Den **Austrian School of Economics** är en tradition av ekonomiskt tänkande som värdesätter fria marknader, individuell frihet och vikten av mänskligt handlande i ekonomiska processer. Den kritiserar statliga ingripanden, särskilt när det gäller pengar och marknader, och hävdar att individer, vägledda av sina subjektiva preferenser, är de bästa bedömarna av sina egna intressen.
+Den **österrikiska ekonomiska skolan** är en tradition av ekonomiskt tänkande som värdesätter fria marknader, individuell frihet och vikten av mänskligt handlande i ekonomiska processer. Den kritiserar statliga ingripanden, särskilt när det gäller pengar och marknader, och hävdar att individer, vägledda av sina subjektiva preferenser, är de bästa bedömarna av sina egna intressen.
 
 **Nyckelpersoner inom den österrikiska skolan**
 
 
 - Carl Menger**: Grundaren av den österrikiska skolan, Menger, utvecklade teorin om subjektivt värde, som hävdar att värdet på varor beror på individuella preferenser snarare än produktionskostnader.
-- Ludwig von Mises**: Mises, en av hörnstenarna i den österrikiska skolan, introducerade praxeologi (teorin om mänskligt handlande) och skrev _Human Action_, en djupgående kritik av socialism och centralplanering.
-- Friedrich Hayek**: Hayek, som var elev till Mises, fick Nobelpriset i ekonomi 1974 för sitt arbete med decentraliserad kunskap och spontanitet på marknaden. I sin bok _The Road to Serfdom_ kritiserade han starkt centraliserad kontroll.
+- Ludwig von Mises**: En av hörnstenarna i den österrikiska skolan, Mises introducerade praxeologi (teorin om mänskligt handlande) och skrev _Human Action_, en djupgående kritik av socialism och centralplanering.
+- Friedrich Hayek**: Elev till Mises, Hayek fick Nobelpriset i ekonomi 1974 för sitt arbete med decentraliserad kunskap och spontanitet på marknaden. I sin bok _The Road to Serfdom_ kritiserade han starkt centraliserad kontroll.
 - Murray Rothbard**: Rothbard, som var en lärjunge till Mises och en stark förespråkare för libertarianism, utvecklade teorin om anarkokapitalism och föreställde sig ett statslöst samhälle som styrs av frivilliga avtal. Hans bok _Man, Economy, and State_ är ett banbrytande verk inom österrikisk ekonomi.
 
 **Andra inflytelserika ekonomer**
 
 
 - Milton Friedman**: Även om Friedman inte direkt förknippas med den österrikiska skolan stödde han många marknadsvänliga och liberala idéer. Hans monetaristiska politik skiljer sig från österrikiska tankar men delar deras kritik av överdriven statlig inblandning i ekonomin.
-- Frédéric Bastiat**: Bastiat var en fransk ekonom på 1800-talet som påverkade den österrikiska skolan med sina verk om frihandel och de osynliga konsekvenserna av ekonomisk politik. Hans essä _Vad som syns och vad som inte syns_ är en grundläggande text i den ekonomiska liberalismen.
+- Frédéric Bastiat**: Bastiat var en fransk ekonom på 1800-talet som påverkade den österrikiska skolan med sina verk om frihandel och de osynliga konsekvenserna av ekonomisk politik. Hans essä _What Is Seen and What Is Not Seen_ är en grundläggande text i den ekonomiska liberalismen.
 
 ![BIZ101](assets/en/06.webp)
 
-*Tillhörighet: Ludwig von Mises-institutet*
+*Källa: Ludwig von Mises-institutet*
 
 **Centrala bidrag och idéer**
 
@@ -456,13 +456,14 @@ För mer information om detta ämne:
 https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
-## Håller Bitcoin i skattkammaren
+
+## Innehav av Bitcoin i företagskassan
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
 
-### Utmaningarna för ett företags finansavdelning
+### Utmaningarna för företagskassan
 
-Skattkammaren är den plats där man förvarar dyrbara saker. Ett sunt företag är väl kapitaliserat för att kunna hantera framtida osäkerhet och planera sina investeringar. Numera placeras en del av överskottet i finansiella tillgångar som anses ha hög "Liquid", till exempel obligationer, tidsbundna insättningar och så vidare.
+Företagskassan är den plats där man förvarar dyrbara saker. Ett sunt företag är väl kapitaliserat för att kunna hantera framtida osäkerhet och planera sina investeringar. Numera placeras en del av överskottet i finansiella tillgångar som anses ha hög "Liquid", till exempel obligationer, tidsbundna insättningar och så vidare.
 
 Under en mycket lång tidshorisont använder vissa företag illikvida tillgångar som fastigheter utan att inse vissa faror:
 

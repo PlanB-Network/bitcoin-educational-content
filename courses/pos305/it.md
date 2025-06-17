@@ -906,11 +906,11 @@ Descrivi alcune delle varie opzioni per connettere un wallet Lightning al tuo ne
 
 <chapterId>410ff28b-a272-5c91-93e0-48d5b28c53ab</chapterId>
 
-BTCPay Server è un pacchetto software modulare. Tuttavia, ci sono dei standard che ogni istanza di BTCPay Server potrà avrere e con cui ogni Amministratore e/o gli utenti interagiranno. Inizianmo dalla Dashboard, il principale punto di ingresso di ogni BTCPay Server, dopo aver effettuato l'accesso. La Dashboard offre una panoramica delle prestazioni del tuo negozio, del saldo attuale del wallet e delle transazioni relative agli ultimi 7 giorni. Avendo una vista modulare, la Dashboard permette di creare dei pulsanti per usare i plugin. Per questa parte di corso, parleremo solo dei plugin/app standard e delle loro rispettive viste in tutto BTCPay Server.
+BTCPay Server è un pacchetto software modulare. Tuttavia, ci sono degli standard che ogni istanza di BTCPay Server potrà avere e con cui ogni Amministratore e/o gli utenti interagiranno. Inizianmo dalla Dashboard, il principale punto di ingresso di ogni BTCPay Server. Dopo aver effettuato l'accesso, la Dashboard offre una panoramica delle prestazioni del tuo negozio, del saldo attuale del wallet e delle transazioni relative agli ultimi 7 giorni. Avendo una vista modulare, la Dashboard permette di creare dei pulsanti per usare i plugin. In questa parte di corso, tratteremo solo dei plugin/app standard e delle loro rispettive viste in tutto BTCPay Server.
 
 ### Caselle della Dashboard
 
-All'interno della pagina principale della dashboard di BTCPay Server ci sono alcuni pulsanti standard disponibili. Questi pulsanti sono destinati al proprietario del negozio o all'Amministratore per gestire rapidamente il suo negozio in una rapida panoramica.
+All'interno della pagina principale della dashboard di BTCPay Server ci sono alcuni pulsanti standard disponibili. Questi pulsanti sono destinati al proprietario del negozio o all'Amministratore e servono per gestire rapidamente il proprio negozio in una panoramica rapida.
 
 - Saldo del wallet
 - Attività delle transazioni
@@ -963,17 +963,17 @@ Il componente delle Invoice recenti mostra le 6 ultime invoice generate dal tuo 
 
 ### Punto Vendita e Crowdfunding
 
-Poiché BTCPay Server offre un insieme di plugin o app standard, "Punto Vendita" e "Crowdfunding" sono i due principali plugin di BTCPay Server. Tramite ogni negozio e wallet, un utente di BTCPay Server, può generare quanti Punti Vendita o Crowdfunding, desidera. Ognuno creerà un nuovo componente sulla dashboard mostrando le prestazioni dei plugin.
+Poiché BTCPay Server offre un insieme di plugin o app standard, il "Punto Vendita" e il "Crowdfunding" sono i due principali plugin di BTCPay Server. Tramite ogni negozio e wallet, un utente di BTCPay Server, può generare quanti Punti Vendita o Crowdfunding, desidera e ognuno creerà un nuovo componente sulla dashboard mostrando le prestazioni dei plugin.
 
 ![immagine](assets/en/46.webp)
 
-Si noti la leggera differenza tra un "Punto di Vendita" e un componente "Crowdfund". L'Amministratore vede i primi articoli venduti nel componente di "Pinto Vendita". Nel pulsante "Crowdfund", questo obiettivo diventa l'obiettivo principale. Entrambi i componenti hanno pulsanti rapidi per gestire la rispettiva app e visualizzare le invoice recenti create dagli articoli principali o dai perk principali.
+Si noti la leggera differenza tra un "Punto di Vendita" e un "Crowdfund". L'Amministratore vede i "Top Item" (primi articoli) venduti nel componente di "Punto Vendita". Nel componente "Crowdfund", questo target diventa il "Top Perks" (obiettivo principale). Entrambi i componenti hanno pulsanti rapidi per gestire la rispettiva app e visualizzare le invoice recenti create dagli articoli principali o dai perk principali.
 
 ![immagine](assets/en/47.webp)
 
 **!Nota!**
 
-I grafici del saldo e le transazioni recenti sono disponibili solo per un metodo di pagamento on-chain. Le informazioni sui saldi e le transazioni di Lightning Network sono in fase di sviluppo. A partire dalla Versione 1.6.0 di BTCPay Server, sono disponibili i saldi base di Lightning Network.
+I grafici del saldo e le transazioni recenti sono disponibili solo per un metodo di pagamento on-chain. Le informazioni sui saldi e le transazioni di Lightning Network sono in fase di sviluppo. A partire dalla Versione 1.6.0 di BTCPay Server, sono ora disponibili i saldi di base su Lightning Network.
 
 ### Riepilogo delle competenze
 
@@ -990,7 +990,8 @@ Elenca quanti più componenti ricordi dalla Dashboard.
 
 <chapterId>e8faef7b-278d-550e-a511-bc3a442daf64</chapterId>
 
-All'interno del software BTCPay Server, conosciamo due tipi di impostazioni. Le impostazioni specifiche del BTCPay Server Store, trovate nel pulsante delle impostazioni nella barra del menu a sinistra sotto la Dashboard, e le impostazioni del BTCPay Server, trovate in fondo alla barra del menu, proprio sopra l'account. Le impostazioni specifiche del BTCPay Server Server possono essere visualizzate solo dagli amministratori del server.
+All'interno del software BTCPay Server, conosciamo due tipi di impostazioni. Le impostazioni specifiche del BTCPay Server Store, che si trovano nel pulsante delle impostazioni nella barra del menu a sinistra sotto la Dashboard, e le impostazioni del BTCPay Server, che si trovano in fondo alla barra del menu, proprio sopra l'account. Le impostazioni specifiche del Server in BTCPay Server possono essere visualizzate solo dagli amministratori del server stesso.
+
 Le impostazioni del negozio si suddividono in molte schede per categorizzare ogni insieme di impostazioni.
 
 - Generale
@@ -1006,7 +1007,7 @@ Le impostazioni del negozio si suddividono in molte schede per categorizzare ogn
 
 ### Generale
 
-Nella scheda delle Impostazioni Generali, i proprietari dei negozi impostano il loro branding e le condizioni predefinite di pagamento. Durante la configurazione iniziale del negozio, è stato nominato il negozio; questo sarà recuperato nelle impostazioni Generali sotto "Nome Negozio". Qui il proprietario del negozio può anche impostare il proprio sito web per abbinare il branding e un ID Negozio affinché l'Amministratore possa riconoscerlo nel database.
+Nella scheda delle Impostazioni Generali, i proprietari dei negozi impostano il loro branding e le condizioni predefinite di pagamento. Durante la configurazione iniziale del negozio, è stato dato un nome al negozio e questo potrà essere recuperato nelle impostazioni Generali sotto "Nome Negozio". Qui il proprietario del negozio può anche impostare il proprio sito web per abbinare il branding e un ID Negozio affinché l'Amministratore possa riconoscerlo nel database.
 
 #### Branding
 
@@ -1014,37 +1015,37 @@ Poiché BTCPay Server è [FOSS](https://planb.network/resources/glossary/foss), 
 
 #### Pagamento
 
-Nelle impostazioni dei pagamenti, i proprietari dei negozi impostano la valuta predefinita del loro negozio (sia in Bitcoin che in qualsiasi valuta fiat).
+Nelle impostazioni dei pagamenti, i proprietari dei negozi impostano la valuta predefinita del loro negozio (in Bitcoin o in qualsiasi valuta fiat).
 
-#### Permetti a chiunque di creare invoice
+#### Permetti a chiunque di creare le invoice
 
-Questa impostazione è pensata per gli sviluppatori o coloro i quali implementano nuove funzionalità su BTCPay Server. Con questa impostazione attivata per il tuo negozio, il mondo esterno può creare invoice sulla tua istanza di BTCPay Server.
+Questa impostazione è pensata per gli sviluppatori o coloro i quali implementano nuove funzionalità su BTCPay Server. Con questa impostazione attivata sul tuo negozio, il mondo esterno sarà in grado di creare invoice sulla tua istanza di BTCPay Server.
 
 #### Aggiungi una fee aggiuntiva (fee di rete) alle invoice
 
-Una funzionalità all'interno di BTCPay per proteggere i commercianti da [_attacchi di dust_](https://planb.network/resources/glossary/dusting-attack) o i clienti che generano un alto costo in commissioni. Ad esempio, il cliente ha creato un'invoice per 20$ e l'ha pagata parzialmente, pagando 1$ 20 volte fino a quando l'invoice è stata completamente pagata. Ora il commerciante ha una transazione più pesante, aumentando il costo di mining nel caso in cui decida di spostare quei fondi successivamente. Per impostazione predefinita, BTCPay applica una fee aggiuntiva all'importo totale dell'invoice per coprire quell'ulteriore costo per il commerciante quando l'invoice viene pagata con più transazioni. BTCPay offre diverse opzioni per personalizzare questa funzionalità di protezione. Puoi applicare una fee di rete:
+Una funzionalità all'interno di BTCPay per proteggere i commercianti da [_attacchi di dust_](https://planb.network/resources/glossary/dusting-attack) o dai clienti che generano un alto costo in commissioni. Ad esempio, il cliente ha creato un'invoice per 20$ e l'ha pagata parzialmente, pagando 1$ 20 volte fino a quando l'invoice è stata completamente pagata. Ora il commerciante ha una transazione più pesante, aumentando il costo di mining nel caso in cui decida di spostare quei fondi successivamente. Per impostazione predefinita, BTCPay applica una fee aggiuntiva all'importo totale dell'invoice per coprire quell'ulteriore costo per il commerciante quando l'invoice viene pagata con più transazioni. BTCPay offre diverse opzioni per personalizzare questa funzionalità di protezione. Puoi applicare una fee di rete:
 
 - Solo se il cliente effettua più di un pagamento per l'invoice (Nell'esempio sopra, se il cliente ha creato un'invoice per 20$ e ha pagato 1$, l'importo totale dovuto ora è 19$ + le fee di rete. Le fee di rete vengono applicate dopo il primo pagamento)
 - Su ogni pagamento (incluso il primo pagamento, nel nostro esempio, il totale sarà 20$ + fee di rete immediata, anche sul primo pagamento)
 - Non aggiungere mai la fee di rete (disabilita completamente la fee di rete)
 
-Sebbene protegga dalle transazioni dust, può anche riflettersi negativamente sulle attività commerciali se non comunicato correttamente ai clienti che potrebbero avere domande aggiuntive e pensare che li stiate facendo pagare troppo.
+Sebbene protegga dalle transazioni dust, può anche riflettersi negativamente sulle attività commerciali se non comunicato correttamente ai clienti che potrebbero avere domande aggiuntive e pensare che li stiate facendo pagare più del dovuto.
 
 #### L'invoice scade se l'intero importo non è stato pagato?
 
-Il timer dell'invoice è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo in bitcoin secondo i tassi di cambio fra bitcoin e fiat. Se il cliente non paga l'invoice entro il periodo definito, l'invoice è considerata scaduta. L'invoice invece è considerata "pagata" non appena la transazione è visibile sulla blockchain (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, 1-6). Il timer è personalizzabile in minuti.
+Il timer dell'invoice è impostato di default a 15 minuti. Il timer è un meccanismo di protezione contro la volatilità poiché blocca l'importo in bitcoin secondo i tassi di cambio fra bitcoin e fiat. Se il cliente non paga l'invoice entro il periodo definito, l'invoice è considerata scaduta. L'invoice invece è considerata "pagata" non appena la transazione è visibile sulla blockchain (0-conferme) ma considerata "completa" quando raggiunge il numero di conferme definito dal commerciante (solitamente, da 1 a 6). Il timer è personalizzabile in minuti.
 
 #### Considera l'invoice pagata anche se l'importo pagato è inferiore dell'X% rispetto al previsto?
 
-Quando un cliente utilizza direttamente un exchange per pagare un'invoice, quest'ultimo applica una piccola commissione. Questo significa che tale invoice non è considerata interamente completata. L'invoice ottiene lo stato "pagata parzialmente". Il commerciante ha la possibilità di impostare una percentuale per la quale si è disposti ad accettare delle invoice pagate in modo insufficiente.
+Quando un cliente utilizza direttamente un exchange per pagare un'invoice, quest'ultimo applica una piccola commissione. Questo significa che tale invoice non è considerata interamente completata. L'invoice ottiene lo stato "pagata parzialmente". Il commerciante ha quindi la possibilità di impostare una percentuale per la quale si è disposti ad accettare delle invoice pagate con un importo insufficiente.
 
 ### Tariffe
 
-In BTCPay Server, quando viene generata un'invoice, è sempre necessario recuperare il prezzo bitcoin/fiat più aggiornato e preciso possibile. Quando si crea un nuovo negozio in BTCPay Server, agli amministratori viene chiesto di impostare la loro fonte di prezzo preferita; dopo che il negozio è stato configurato, i proprietari del negozio possono sempre cambiare la loro fonte di prezzo in questa scheda.
+In BTCPay Server, quando viene generata un'invoice, è sempre necessario recuperare il prezzo bitcoin/fiat più aggiornato e preciso possibile. Quando si crea un nuovo negozio in BTCPay Server, agli amministratori viene chiesto di impostare la loro fonte di prezzo preferita. Dopo che il negozio è stato configurato, i proprietari del negozio possono sempre cambiare la loro fonte di prezzo in questa scheda.
 
 #### Script avanzati per le regole sulle fee
 
-Utilizzato principalmente dagli utenti esperti, che se attivato dà ai proprietari dei negozi la possibilità di creare script relativi alle fluttuazioni di prezzo e come addebitarle ai loro clienti.
+Utilizzato principalmente dagli utenti esperti, in quanto, se attivato, dà ai proprietari dei negozi la possibilità di creare script relativi alle fluttuazioni di prezzo e come addebitarli ai loro clienti.
 
 #### Test
 
@@ -1058,11 +1059,11 @@ La scheda Aspetto di controllo inizia con le impostazioni specifiche dell'invoic
 
 Metodi di pagamento predefiniti. BTCPay Server in una configurazione standard ha tre opzioni.
 
-- BTC (on-chain)
+- BTC ([On-chain](https://planb.network/resources/glossary/onchain))
 - BTC (LNURL-pay)
-- BTC ([Off-chain & Lightning](https://planb.network/it/resources/glossary/offchain))
+- BTC ([Off-chain & Lightning](https://planb.network/resources/glossary/offchain))
 
-Possiamo impostare parametri per il nostro negozio, dove un cliente interagirà solo con Lightning quando il prezzo è inferiore a un certo importo e viceversa per le transazioni On-chain quando X è maggiore di Y, anche se sarà presentare sempre l'opzione di pagamento [On-chain](https://planb.network/resources/glossary/onchain).
+Possiamo impostare parametri per il nostro negozio, dove un cliente interagirà solo con Lightning quando il prezzo è inferiore a un certo importo e viceversa per le transazioni On-chain quando X è maggiore di Y, anche se sarà presente sempre l'opzione di pagamento On-chain.
 
 ![immagine](assets/en/48.webp)
 
@@ -1072,7 +1073,7 @@ A partire dalla versione 1.7 di BTCPay Server, è stata introdotta una nuova int
 
 ![immagine](assets/en/49.webp)
 
-Quando un cliente interagisce con il negozio e genera un'invoice, esiste un limite di tempo per il pagamento dell'invoicde che andrà a scadenza. Per impostazione predefinita, BTCPay Server imposta questo timier a 5 minuti, anche se l'Amministratore può impostarlo come ritiene più appropriato. La pagina di checkout può essere ulteriormente personalizzata controllando i seguenti parametri:
+Quando un cliente interagisce con il negozio e genera un'invoice, esiste un limite di tempo per il pagamento dell'invoice che andrà a scadenza. Per impostazione predefinita, BTCPay Server imposta questo timier a 5 minuti, anche se l'Amministratore può impostarlo come ritiene più appropriato. La pagina di checkout può essere ulteriormente personalizzata controllando i seguenti parametri:
 
 - Festeggiare il pagamento mostrando dei coriandoli
 - Mostrare l'intestazione del negozio (Nome e logo)
@@ -1083,7 +1084,7 @@ Quando un cliente interagisce con il negozio e genera un'invoice, esiste un limi
 
 ![immagine](assets/en/50.webp)
 
-Quando il rilevamento automatico della lingua non è impostato, BTCPay Server, per impostazione predefinita, visualizzerà l'inglese. Un proprietario di negozio può cambiare questa impostazione predefinita nella sua lingua preferita.
+Quando il rilevamento automatico della lingua non è impostato, BTCPay Server, per impostazione predefinita, visualizzerà l'inglese. Il proprietario del negozio può cambiare questa impostazione predefinita nella sua lingua preferita.
 
 ![immagine](assets/en/51.webp)
 
@@ -1117,15 +1118,15 @@ Gli utenti del negozio sono coloro che il proprietario del negozio può gestire,
 
 Un proprietario di negozio potrebbe non trovare significativi i ruoli standard degli utenti. Un proprietario di negozio può definire, tramite le impostazioni dei ruoli personalizzatili, quali esigenze esatte devono esserci per ogni ruolo nella sua attività.
 
-(1) Per creare un nuovo ruolo, cliccare sul pulsante "+ Aggiungi ruolo".
+1) Per creare un nuovo ruolo, cliccare sul pulsante "+ Aggiungi ruolo".
 
 ![image](assets/en/57.webp)
 
-(2) Inserire un nome per il ruolo, ad esempio, "Cassiere".
+2) Inserire un nome per il ruolo, ad esempio, "Cassiere".
 
 ![image](assets/en/58.webp)
 
-(3) Configurare i singoli permessi per il ruolo.
+3) Configurare i singoli permessi per il ruolo.
 
 - Modificare i tuoi negozi.
 - Gestire i link di interscambio fra tuoi negozi.
@@ -1169,7 +1170,7 @@ I Webhook non sono destinati ad essere compatibili con l'API di Bitpay. Ci sono 
 - Webhook
 - Notifiche
 
-Utilizza solo l'URL di Notifica quando crei l'invoice tramite l'API di Bitpay.
+Utilizza solo l'URL di otifica quando crei l'invoice tramite l'API di Bitpay.
 
 ### Gestori di Pagamento
 
@@ -1207,14 +1208,14 @@ BTCPay Server ha semplificato la compilazione di queste informazioni utilizzando
 - Office365
 - SendGrid
 
-Utilizzando l'opzione di compilazione rapida, BTCPay Server pre-compilerà i campi per il server SMTP e la porta; ora, il proprietario del negozio deve solo inserire le sue credenziali in un indirizzo Email, Login (che di solito corrisponde al tuo indirizzo email) e la tua password. L'opzione avanzata che BTCPay Server offre nelle impostazioni email è quella di disabilitare i controlli di sicurezza del Certificato TLS; per default, questo è abilitato.
+Utilizzando l'opzione di compilazione rapida, BTCPay Server pre-compilerà i campi per il server SMTP e la relativa porta. Ora, il proprietario del negozio deve solo inserire le sue credenziali in un indirizzo Email, Login (che di solito corrisponde al tuo indirizzo email) e la sua password. L'opzione avanzata che BTCPay Server offre nelle impostazioni email è quella di disabilitare i controlli di sicurezza del Certificato TLS; per default, questo è abilitato.
 
 ![image](assets/en/66.webp)
 
 Con le regole Email, un proprietario di negozio può impostare eventi specifici per attivare email a indirizzi email specifici.
 
 - Invoice creata
-- Invoice ha ricevuto il pagamento
+- Invoice che ha ricevuto il pagamento
 - Invoice in elaborazione
 - Invoice scaduta
 - Invoice risolta
@@ -1233,25 +1234,25 @@ Quando si crea un nuovo modulo, BTCPay Server apre una nuova finestra richiedend
 
 ![image](assets/en/68.webp)
 
-Dopo che il proprietario del negozio ha dato un nome al modulo, è possibile anche attivare l'interruttore per "Consenti modulo per uso pubblico" su ON, diventerà verde. Ciò affinché il modulo venga utilizzato in ogni luogo visibile al cliente. Ad esempio, se un proprietario di negozio crea un'invoice separata non attraverso il suo Punto Vendita, potrebbe comunque voler raccogliere le informazioni dal cliente; questo interruttore su ON consente di raccogliere tali informazioni.
+Dopo che il proprietario del negozio ha dato un nome al modulo, è possibile anche attivare l'interruttore per "Consenti modulo per uso pubblico" su ON così diventerà verde. Ciò affinché il modulo venga utilizzato in ogni luogo visibile al cliente. Ad esempio, se un proprietario di negozio crea un'invoice separata non attraverso il suo Punto Vendita, potrebbe comunque voler raccogliere le informazioni dal cliente; questo interruttore su ON consente di raccogliere tali informazioni.
 
 ![image](assets/en/69.webp)
 
-Ogni modulo inizia con almeno un nuovo campo modulo. Il proprietario del negozio può scegliere quale tipo di campo dovrebbe essere;
+Ogni modulo inizia con almeno un nuovo campo modulo. Il proprietario del negozio può scegliere quale tipo di campo dovrebbe essere:
 
 - Testo
 - Numero
 - Password
 - Email
 - URL
-- Numeri di telefono
+- Numero di telefono
 - Data
 - Campi nascosti
 - Fieldset
 - Un'area di testo per commenti aperti.
 - Selettore di opzioni
 
-Ogni tipo viene fornito con i suoi parametri da compilare. Il proprietario del negozio può impostarlo secondo le sue preferenze. Sotto il primo campo creato, i proprietari di negozi possono continuare ad aggiungere nuovi campi a questo modulo.
+Ogni tipo viene fornito con i suoi parametri da compilare. Il proprietario del negozio può impostarlo secondo le proprie preferenze. Sotto il primo campo creato, i proprietari di negozi possono continuare ad aggiungere nuovi campi a questo modulo.
 
 ![image](assets/en/70.webp)
 
@@ -1259,29 +1260,29 @@ Ogni tipo viene fornito con i suoi parametri da compilare. Il proprietario del n
 
 BTCPay Server consente anche di costruire moduli in codice, in paricolare in fomrato JSON. Invece di guardare l'editor, i proprietari di negozi possono cliccare sul pulsante CODICE accanto all'editor, accedendo al codice. In una definizione di campo, possono essere impostati solo i seguenti campi; i valori dei campi sono memorizzati nei metadati dell'invoice:
 
-| Campo                 | Descrizione                                                                                                                                                                               |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| .fields.constant      | Se vero, il .value deve essere impostato nella definizione del modulo, e l'utente non sarà in grado di cambiare il valore del campo. (esempio: la versione della definizione del modulo)  |
-| .fields.type          | Il tipo di input HTML testo, radio, checkbox, password, nascosto, pulsante, colore, data, datetime-local, mese, settimana, tempo, email, numero, intervallo, ricerca, url, selezione, tel |
-| .fields.options       | Se .fields.type è select, l'elenco dei valori selezionabili                                                                                                                               |
-| .fields.options.text  | Il testo visualizzato per questa opzione                                                                                                                                                  |
-| .fields.options.value | Il valore del campo se questa opzione è selezionata                                                                                                                                       |
-| .fields.type=fieldset | Crea un fieldset HTML intorno ai .fields.fields figli (vedi sotto)                                                                                                                        |
-| .fields.name          | Il nome della proprietà JSON del campo come apparirà nei metadati dell'invoice                                                                                                           |
-| .fields.value         | Il valore predefinito del campo                                                                                                                                                           |
-| .fields.required      | se vero, il campo sarà obbligatorio                                                                                                                                                       |
-| .fields.label         | L'etichetta del campo                                                                                                                                                                     |
-| .fields.helpText      | Testo aggiuntivo per fornire una spiegazione per il campo                                                                                                                                 |
+| Campo                 | Descrizione                                                                                                                                                                                 |
+| --------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   |
+| .fields.constant      | Se vero, il _.value_ deve essere impostato nella definizione del modulo, e l'utente non sarà in grado di cambiare il valore del campo. (esempio: la versione della definizione del modulo)  |
+| .fields.type          | Il tipo di input HTML testo, radio, checkbox, password, nascosto, pulsante, colore, data, datetime-local, mese, settimana, tempo, email, numero, intervallo, ricerca, url, selezione, tel   |
+| .fields.options       | Se _.fields.type_ è selezionato, l'elenco dei valori sarà selezionabile                                                                                                                     |
+| .fields.options.text  | Il testo visualizzato per questa opzione                                                                                                                                                    |
+| .fields.options.value | Il valore del campo se questa opzione è selezionata                                                                                                                                         |
+| .fields.type=fieldset | Crea un fieldset HTML intorno ai _.fields.fields_ figli (vedi sotto)                                                                                                                        |
+| .fields.name          | Il nome della proprietà JSON del campo come apparirà nei metadati dell'invoice                                                                                                              |
+| .fields.value         | Il valore predefinito del campo                                                                                                                                                             |
+| .fields.required      | se vero, il campo sarà obbligatorio                                                                                                                                                         |
+| .fields.label         | L'etichetta del campo                                                                                                                                                                       |
+| .fields.helpText      | Testo aggiuntivo per fornire una spiegazione per il campo                                                                                                                                   |
 | .fields.fields        | È possibile organizzare i propri campi gerarchicamente, consentendo ai campi figli di essere annidati all'interno dei metadati dell'invoice. Questa struttura può aiutarti a organizzare e gestire meglio le informazioni raccolte, rendendone più facile l'accesso e la consultazione. Ad esempio, se hai un modulo che raccoglie informazioni sui clienti, puoi raggruppare i campi sotto un campo padre chiamato cliente. All'interno di questo campo padre, potresti avere campi figli come nome, Email e indirizzo. |
 
 Il nome del campo rappresenta il nome della proprietà JSON che memorizza il valore fornito dall'utente nei metadati dell'invoice. Alcuni nomi ben noti possono essere interpretati e modificare le impostazioni dell'invoice.
 
-| Nome del campo   | Descrizione             |
-| ---------------- | ----------------------- |
+| Nome del campo   | Descrizione            |
+| ---------------- | ---------------------- |
 | invoice_amount   | L'importo dell'invoice |
 | invoice_currency | La valuta dell'invoice |
 
-È possibile precompilare i campi di un'invocie automaticamente aggiungendo stringhe di query all'URL del modulo, come "?your_field=value".
+È possibile precompilare i campi di un'invocie automaticamente aggiungendo stringhe di query all'URL del modulo, come _"?your_field=value"_.
 
 Ecco alcuni casi d'uso per questa funzionalità:
 
@@ -1294,10 +1295,10 @@ Ecco alcuni casi d'uso per questa funzionalità:
 
 In questa sezione, hai appreso quanto segue:
 
-- La disposizione e le funzioni delle schede nelle Impostazioni del Negozio
+- La disposizione e le funzioni delle schede nelle Impostazioni del Negozio.
 - Una moltitudine di opzioni per regolare con precisione il trattamento dei tassi di cambio sottostanti, pagamenti parziali e altro ancora.
-- Personalizzare l'aspetto del checkout, inclusa l'abilitazione della chain princiape rispetto a Lightning in base al prezzo delle invoice.
-- Gestire livelli di accesso al negozio e permessi attraverso i ruoli.
+- Personalizzare l'aspetto del checkout, inclusa l'abilitazione della chain princiape rispetto a Lightning in base al prezzo dell'invoice.
+- Gestire livelli di accesso al negozio e dei permessi attraverso i ruoli.
 - Configurare email automatiche e trigger
 - Creare moduli personalizzati per raccogliere ulteriori informazioni sui clienti al momento del checkout.
 

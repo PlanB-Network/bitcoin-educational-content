@@ -249,7 +249,7 @@ macOS peut convenir aux utilisateurs qui valorisent la performance, la stabilit�
 
 ### GNU/Linux : liberté, contrôle et sécurité
 
-GNU/Linux se distingue fortement des deux précédents par son modèle libre et open-source. À la différence de Windows ou macOS, Linux n’est pas développé par une unique société, mais par une communauté mondiale de développeurs. Ce modèle communautaire garantit transparence, sécurité et flexibilité. Linux offre un contrôle total à ses utilisateurs, ce qui permet une personnalisation complète de l’environnement de travail. C'est intéressant particulièrement pour les utilisateurs avancés, les développeurs ou ceux qui souhaitent maîtriser parfaitement leur environnement numérique.
+GNU/Linux se distingue fortement des deux précédents par son modèle libre et open source. À la différence de Windows ou macOS, Linux n’est pas développé par une unique société, mais par une communauté mondiale de développeurs. Ce modèle communautaire garantit transparence, sécurité et flexibilité. Linux offre un contrôle total à ses utilisateurs, ce qui permet une personnalisation complète de l’environnement de travail. C'est intéressant particulièrement pour les utilisateurs avancés, les développeurs ou ceux qui souhaitent maîtriser parfaitement leur environnement numérique.
 
 Le principal atout de Linux réside dans sa robustesse, sa stabilité et son haut niveau de sécurité. Étant open-source, son code est auditable par tout utilisateur ou organisme, ce qui limite fortement les risques de logiciels malveillants ou de portes dérobées. Linux est très performant, consomme généralement moins de ressources que Windows, et se montre particulièrement adapté aux configurations matérielles modestes ou à usage intensif tel que le calcul, l’administration de serveurs ou la cybersécurité.
 
@@ -2497,7 +2497,7 @@ Les métadonnées sont des données attachées à un fichier, dont le rôle est 
 
 Ces métadonnées peuvent sembler anodines, mais elles peuvent être utilisées par des acteurs malveillants pour identifier l’auteur d’un fichier, localiser physiquement une personne, reconstituer des événements ou des habitudes, ou encore exploiter des failles logicielles à partir de la version du logiciel utilisé.
 
-Prenons un exemple concret : vous publiez sur un forum une photo censée être anonyme, prise depuis votre balcon. Si vous n’avez pas supprimé les métadonnées EXIF, un simple clic peut révéler les coordonnées GPS précises de votre domicile, le modèle de votre téléphone et la date exacte de la prise de la photo. De la même façon, un document PDF envoyé anonymement peut contenir votre nom complet dans ses propriétés.
+Prenons un exemple concret : vous publiez sur un forum une photo censée être anonyme. Si vous n’avez pas supprimé les métadonnées EXIF, un simple clic peut révéler les coordonnées GPS précises de votre domicile, le modèle de votre téléphone et la date exacte de la prise de la photo. De la même façon, un document PDF envoyé anonymement peut contenir votre nom complet dans ses propriétés.
 
 C’est pourquoi certaines plateformes de publication de médias ou de communication suppriment automatiquement les métadonnées de vos photos. C’est notamment le cas de X (Twitter), Instagram, Signal ou encore Session. En revanche, d’autres plateformes ne procèdent à aucune suppression : c’est le cas de la plupart des forums en ligne, de nombreux clients mail, ou encore lorsque vous publiez directement sur un site web.
 
@@ -2507,9 +2507,9 @@ C’est donc un réflexe essentiel à adopter : dès qu’un fichier sort de vot
 
 #### Utiliser ExifTool
 
-- **Étape 1 : Installer ExifTool**
-
 Le moyen le plus complet et fiable pour gérer et supprimer les métadonnées est l’outil ExifTool, développé par Phil Harvey. Il est compatible avec un grand nombre de formats de fichiers (JPG, PNG, PDF, MP3, DOCX...) et permet à la fois l’affichage et la suppression de métadonnées.
+
+- **Étape 1 : Installer ExifTool**
 
 Pour l’installer sur une distribution Debian (Ubuntu), ouvrez un terminal et tapez la commande :
 
@@ -2550,7 +2550,7 @@ Cela vous permet d’avoir une vue complète sur ce que vous vous apprêtez à p
 
 - **Étape 3 : Supprimer les métadonnées**
 
-Pour effacer toutes les métadonnées d’un fichier image, utilisez la commande :
+Pour effacer toutes les métadonnées inutiles d’un fichier, utilisez la commande :
 
 ```bash
 exiftool -all= name.jpg
@@ -2643,7 +2643,7 @@ Mais de nos jours, le navigateur est devenu bien plus qu’un simple logiciel : 
 
 Pourtant, il n’a pas toujours occupé cette place centrale. L'histoire des navigateurs est marquée par des cycles d’innovation, de compétition technologique, et parfois de domination monopolistique. Retracer cette histoire va nous aider à comprendre comment les navigateurs sont devenus si complexes, mais aussi pourquoi leur sécurité représente aujourd’hui un enjeu important.
 
-→ Le navigateur est souvent confondu, à tort, avec le moteur de recherche, notamment par les débutants. Pourtant, ces deux éléments sont bien distincts. Le navigateur web sert à afficher des sites internet, tandis que le moteur de recherche (qui est accessible depuis ce navigateur) permet de trouver des informations en ligne en indexant et en classant les pages web.
+→ Le navigateur est souvent confondu, à tort, avec le moteur de recherche. Pourtant, ces deux éléments sont bien distincts. Le navigateur web sert à afficher des sites internet, tandis que le moteur de recherche (qui est accessible depuis ce navigateur) permet de trouver des informations en ligne en indexant et en classant les pages web.
 
 ### Naissance et premiers navigateurs
 
@@ -2671,7 +2671,7 @@ Grâce à sa simplicité d’usage, sa compatibilité multiplateforme et sa rapi
 
 Le succès fulgurant de Netscape Navigator au milieu des années 1990 n’échappe pas à Microsoft, qui comprend rapidement l’importance stratégique du navigateur web dans l’avenir de l’informatique. En août 1995, quelques jours après la sortie de Windows 95, Microsoft lance la première version d’Internet Explorer, initialement fondée sur une licence commerciale du code source de Spyglass Mosaic (une version commerciale de Mosaic différente de celle développée au NCSA).
 
-La première version d’Internet Explorer est encore rudimentaire, mais Microsoft entame une politique de développement agressive. À partir de 1996, avec Internet Explorer 3.0, l’éditeur commence à intégrer son navigateur directement dans le système d’exploitation Windows, supprimant ainsi la nécessité pour l’utilisateur de télécharger un navigateur tiers. Cette intégration se renforce avec Internet Explorer 4.0 en 1997, qui introduit un nouveau moteur de rendu propriétaire nommé Trident. Ce moteur améliore considérablement la rapidité d’affichage des pages et s’intègre étroitement avec l’interface de Windows.
+La première version d’Internet Explorer est encore rudimentaire, mais Microsoft entame une politique de développement agressive. À partir de 1996, avec Internet Explorer 3.0, Microsoft commence à intégrer son navigateur directement dans le système d’exploitation Windows, supprimant ainsi la nécessité pour l’utilisateur de télécharger un navigateur tiers. Cette intégration se renforce avec Internet Explorer 4.0 en 1997, qui introduit un nouveau moteur de rendu propriétaire nommé Trident. Ce moteur améliore considérablement la rapidité d’affichage des pages et s’intègre étroitement avec l’interface de Windows.
 
 ![Image](assets/fr/097.webp)
 
@@ -2688,7 +2688,7 @@ Ce quasi-monopole entraîne un ralentissement majeur de l’innovation. Microsof
 
 Conscient de ne plus pouvoir rivaliser commercialement, Netscape décide en 1998 de libérer son code source et de le confier à la communauté. C’est la naissance du projet Mozilla, qui marque un tournant : le développement d’un navigateur libre, respectueux des standards, porté par une fondation indépendante.
 
-Ce projet vise à reconstruire entièrement le navigateur sur de nouvelles bases, avec un moteur de rendu plus moderne qui respectera les normes ouvertes du Web. L’objectif est clair : redonner au Web son ouverture et son interopérabilité, face à la mainmise croissante d’Internet Explorer. C’est de ce projet que naîtra, quelques années plus tard, Mozilla Firefox.
+Ce projet vise à reconstruire entièrement le navigateur sur de nouvelles bases, avec un moteur de rendu plus moderne qui respectera les normes ouvertes du Web. L’objectif est clair : redonner au Web son ouverture et son interopérabilité, face à la mainmise d’Internet Explorer. C’est de ce projet que naîtra, quelques années plus tard, Mozilla Firefox.
 
 ### Renouveau technologique : Mozilla Firefox et Safari
 
@@ -2767,7 +2767,7 @@ Conçu par Netscape, puis maintenu par la Mozilla Foundation, Gecko alimente le 
 
 Gecko a été à l’origine de plusieurs innovations. Cependant, sa base de code complexe et historique rend certaines évolutions lentes. 
 
-En termes de parts de marché, Gecko est aujourd'hui très loin derrière Blink, puisque Firefox est le suel navigateur majeur à l'utiliser. Il est tout de même utilisé à la marge par des navigateurs moins connus et moins utilisés, qui sont des forks de Firefox : Tor Browser, LibreWolf, Zen Browser, GNU IceCat, Waterfox, etc. Cela fait donc de Gecko un garant de la diversité du web fasse à la dominance de Blink.
+En termes de parts de marché, Gecko est aujourd'hui très loin derrière Blink, puisque Firefox est le seul navigateur majeur à l'utiliser. Il est tout de même utilisé à la marge par des navigateurs moins connus et moins utilisés, qui sont des forks de Firefox : Tor Browser, LibreWolf, Zen Browser, GNU IceCat, Waterfox... Cela fait donc de Gecko un garant de la diversité du web fasse à la dominance de Blink.
 
 ![Image](assets/fr/104.webp)
 
@@ -2817,7 +2817,7 @@ D’autre part, cette centralisation autour de Blink signifie que Google contrô
 
 De plus, la dépendance croissante à un unique moteur augmente le risque systémique pour l’écosystème web. Si Blink introduit une régression, un biais ou une faille, l’impact touche l’ensemble des utilisateurs. La diversité technologique joue ici un rôle de résilience, tout comme dans les systèmes d’exploitation ou les architectures logicielles.
 
-Aujourd’hui, Mozilla continue de jouer un rôle essentiel dans la défense d’un web ouvert, respectueux de la vie privée, et librement accessible. Firefox reste l’un des seuls navigateurs à ne pas reposer sur Chromium, et propose des innovations indépendantes. Mais sa survie dépend de sa capacité à maintenir une base d’utilisateurs suffisante et un financement pérenne.
+Aujourd’hui, Mozilla continue de jouer un rôle essentiel dans la défense d’un web ouvert, respectueux de la vie privée, et librement accessible. Firefox reste l’un des seuls navigateurs majeurs à ne pas reposer sur Chromium, et propose des innovations indépendantes. Mais sa survie dépend de sa capacité à maintenir une base d’utilisateurs suffisante et un financement pérenne.
 
 La domination de Blink n’est donc pas qu’une question technique : elle engage des enjeux politiques, économiques et sociétaux sur la gouvernance du web. À ce titre, encourager la pluralité des moteurs de rendu reste une bonne pratique en faveur d’un web plus neutre, plus sûr, et plus résilient.
 
@@ -2854,7 +2854,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 #### Brave
 
-[Brave](https://brave.com/) est basé sur Blink (tout comme Chrome), mais se distingue radicalement par son approche centrée sur la vie privée. Par défaut, Brave bloque les publicités et trackers, intègre *HTTPS Everywhere*, et propose des protections avancées contre le fingerprinting et les scripts tiers. Son modèle économique repose en partie sur la publicité intégrée respectueuse de la vie privée, mais celle-ci reste optionnelle et facilement désactivable.
+[Brave](https://brave.com/) est basé sur Blink (tout comme Chrome), mais se distingue radicalement par son approche centrée sur la privacy. Par défaut, Brave bloque les publicités et trackers, intègre *HTTPS Everywhere*, et propose des protections avancées contre le fingerprinting et les scripts tiers. Son modèle économique repose en partie sur la publicité intégrée respectueuse de la vie privée, mais celle-ci reste optionnelle et facilement désactivable.
 
 Brave est basé sur Chromium et l’ensemble de son code est disponible sur GitHub. Seules quelques parties mineures sont partiellement propriétaires. Globalement, Brave est donc très proche d’un navigateur open-source.
 
@@ -2862,7 +2862,7 @@ Brave est basé sur Chromium et l’ensemble de son code est disponible sur GitH
 
 Brave constitue donc une alternative performante à Chrome, qui combine rapidité, sécurité renforcée, meilleure confidentialité par défaut et une interface intuitive. Pour autant, je ne vous le recommanderais pas forcément, tout simplement car il repose sur Chromium. 
 
-Même si de nombreux navigateurs (y compris Brave) se basent sur Chromium tout en revendiquant une approche orientée vie privée, une enquête menée en 2024 a révélé l’intégration, par défaut, d’une API permettant à Google d’accéder à des informations sensibles sur le matériel de l’utilisateur (CPU, GPU, RAM), ainsi qu’à son activité sur les services Google. Cette API, intégrée sous forme d’extension non désactivable dans Chrome, était également présente dans plusieurs navigateurs dérivés comme Edge, Opera… et même Brave.
+Même si de nombreux navigateurs (y compris Brave) se basent sur Chromium tout en revendiquant une approche orientée privacy, une enquête menée en 2024 a révélé l’intégration, par défaut, d’une API permettant à Google d’accéder à des informations sensibles sur le matériel de l’utilisateur (CPU, GPU, RAM), ainsi qu’à son activité sur les services Google. Cette API, intégrée sous forme d’extension non désactivable dans Chrome, était également présente dans plusieurs navigateurs dérivés comme Edge, Opera… et même Brave.
 
 Bien que Brave ait depuis désactivé cette API, cette affaire illustre clairement la dépendance structurelle de ces navigateurs à Chromium, qui reste un projet profondément lié à l’écosystème Google. Ainsi, même les variantes de Chromium orientées vers la protection de la vie privée ne peuvent garantir une indépendance totale ni une protection complète des données utilisateur.
 
@@ -2896,7 +2896,7 @@ En termes de sécurité, Vivaldi inclut plusieurs fonctions de blocage des track
 
 [Opera](https://www.opera.com/) est un navigateur historique, puisqu'il existe depuis 1995. Il utilise désormais Blink après avoir abandonné son moteur propriétaire (*Presto*). Il dispose d'une interface moderne et de certaines fonctionnalités innovantes.
 
-Cependant, en termes de vie privée, Opera est très controversé : il appartient à une société chinoise depuis 2016, ce qui soulève des interrogations sur l’exploitation éventuelle des données utilisateurs. Opera inclut un VPN intégré (proxy plutôt qu’un véritable VPN complet), mais la politique de confidentialité n’est pas claire quant à la gestion des logs. Aussi, Opera est un navigateur propriétaire. Il est donc peu recommandé, surtout lorsque l'on recherche la confidentialité.
+Cependant, en termes de vie privée, Opera est très controversé : il appartient à une société chinoise depuis 2016, ce qui soulève des interrogations sur l’exploitation éventuelle des données utilisateur. Opera inclut un VPN intégré (proxy plutôt qu’un véritable VPN complet), mais la politique de confidentialité n’est pas claire quant à la gestion des logs. Aussi, Opera est un navigateur propriétaire. Il est donc peu recommandé, surtout lorsque l'on recherche la confidentialité.
 
 ![Image](assets/fr/113.webp)
 

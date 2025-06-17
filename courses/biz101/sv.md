@@ -509,47 +509,47 @@ Slutligen betraktas Bitcoin som **volatil**, men det är egentligen priset i fia
 
 Att Bitcoin används av finansiella institutioner stärker ytterligare dess position på den globala marknaden.
 
-Nya uttalanden från **BlackRock** belyser Bitcoins potential som en värdebevarande tillgång och ett verktyg för portföljdiversifiering. Den globala institutionella jätten föreslog nyligen att **Bitcoin: s användartillväxt överträffar internet** eller mobiltelefoner, särskilt driven av **demografiska och generationsskiften**, samt ökande misstro mot traditionella finansinstitut (!). På grund av dess knappa, icke-suveräna och decentraliserade natur ser vissa investerare Bitcoin som ett säkert alternativ **i tider av finanspolitisk och monetär instabilitet**, rädsla eller störande geopolitiska händelser.
+Nya uttalanden från **BlackRock** belyser Bitcoins potential som en värdebevarande tillgång och ett verktyg för portföljdiversifiering. Den globala institutionella jätten föreslog nyligen att **Bitcoins användartillväxt överträffar internet** eller mobiltelefoner, särskilt driven av **demografiska och generationsmässiga skiften**, samt ökande misstro mot traditionella finansinstitut (!). På grund av dess knappa, icke-suveräna och decentraliserade natur ser vissa investerare Bitcoin som ett säkert alternativ **i tider av finanspolitisk och monetär instabilitet**, rädsla eller störande geopolitiska händelser.
 
-**Spot Bitcoin ETF**, som lanserades i januari 2024, har haft en fenomenal framgång - den **mest framgångsrika** ETF-lanseringen i historien - med nästan 20 miljarder dollar i nettoinflöden. från januari till november. Det är ungefär fyra gånger bättre än den näst bästa ETF-lanseringen, Nasdaq-100 QQQ. Dessa ETF:er ger enklare och mer reglerad tillgång till Bitcoin, vilket har **ytterligare legitimerat** det och lockat ett betydande inflöde av institutionellt kapital.
+**Spot Bitcoin ETF**, som lanserades i januari 2024, har haft en fenomenal framgång - den **mest framgångsrika** ETF-lanseringen i historien, med nästan 20 miljarder dollar i nettoinflöden från januari till november. Det är ungefär fyra gånger bättre än den näst bästa ETF-lanseringen, Nasdaq-100 QQQ. Dessa ETF:er ger enklare och mer reglerad tillgång till Bitcoin, vilket har **ytterligare legitimerat** det och lockat ett betydande inflöde av institutionellt kapital.
 
-Bitcoin ETF:er leder med bred marginal när det gäller **institutionell adoption** - överträffar de tio snabbast växande ETF:erna - oavsett om det gäller antalet involverade institutioner eller storleken på förvaltade tillgångar (AUM). Framgången för dessa Bitcoin ETF:er understryker den växande efterfrågan på investeringsinstrument kopplade till digitala tillgångar och stärker därmed Bitcoin:s plats i det traditionella finansiella landskapet.
+Bitcoin ETF:er leder med bred marginal när det gäller **institutionell adoption** - överträffar de tio snabbast växande ETF:erna - oavsett om det gäller antalet involverade institutioner eller storleken på förvaltade tillgångar. Framgången för dessa Bitcoin ETF:er understryker den växande efterfrågan på investeringsinstrument kopplade till digitala tillgångar och stärker därmed Bitcoins plats i det traditionella finansiella landskapet.
 
-Bitcoin spelar nu på **marknaden** för "värdebevarare". Den representerar bara en droppe i havet när det gäller skala: bara cirka 1 800 miljarder USD jämfört med guldets 18 000 miljarder USD eller fastigheternas 500 000 miljarder USD. Men med en marknadsandel på cirka 0,1 procent finns det ett enormt utrymme för tillväxt, särskilt med tanke på att konkurrenterna kämpar för att locka nya användare.
+Bitcoin spelar nu som "värdebevarare på **marknaden**. Den representerar bara en droppe i havet när det gäller skala: bara cirka 1 800 miljarder USD jämfört med guldets 18 000 miljarder USD eller fastigheternas 500 000 miljarder USD. Men med en marknadsandel på cirka 0,1 procent finns det ett enormt utrymme för tillväxt, särskilt med tanke på att konkurrenterna kämpar för att locka nya användare.
 
-| Ticker | 1D Flöde (M USD) | 1W Flöde (M USD) | 1M Flöde (M USD) | 3M Flöde (M USD) | YTD Flöde (M USD) |
+| Ticker | 1D-flöde (M USD) | 1V-flöde (M USD) | 1M-flöde (M USD) | 3M-flöde (M USD) | YTD-flöde (M USD) |
 
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
 
-| **Summa** | +457,19 | +1.507,95 | +2.888,01 | +3.672,29 | **+20.262,94** | **Summa
+| **Summa** | +457,19 | +1.507,95 | +2.888,01 | +3.672,29 | **+20.262,94**
 
 | IBIT | +393,40 | +750,91 | +1.536,47 | +3.821,37 | +22.460,44 |
 
-| FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10.266,69 | FBTC
+| FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10.266,69 
 
-| ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2.647,32 |
+| ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2.647,32 
 
-| BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2.262,69 | | BITB
+| BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2.262,69 
 
-| HODL | +5,75 | +38,77 | +94,54 | +100,39 | +682,03 |
+| HODL | +5,75 | +38,77 | +94,54 | +100,39 | +682,03 
 
-| BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 | | BRRR
+| BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 
 
 | EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45
 
-| BTC | .00 | -3,13 | +36,59 | +419,18 | +419,18 |
+| BTC | .00 | -3,13 | +36,59 | +419,18 | +419,18 
 
 +6,43 | +19,25 | +47,30 | +56,41 | +394,82 | BTCO
 
-| BTCW | .00 | +2,84 | +6,04 | +146,69 | +217,47 |
+| BTCW | .00 | +2,84 | +6,04 | +146,69 | +217,47 
 
 | YBIT | -1,34 | -10,26 | +5,06 | +13,81 | +76,30
 
 | DEFI | .00 | .00 | .00 | -2,03 | -1,79 |
 
-| GBTC | .00 | +5,16 | -81,42 | -1503,84 | -20.141,85 |
+| GBTC | .00 | +5,16 | -81,42 | -1503,84 | -20.141,85 
 
-*20 miljarder dollar på 10 månader: Bitcoin ETFer uppnådde på mindre än ett år vad guld-ETFer tog 5 år att uppnå. Källor: Flöden av fondinvesteringar i USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
+*20 miljarder dollar på 10 månader: Bitcoin ETF:er uppnådde på mindre än ett år vad guld-ETFer tog sig 5 år att uppnå. Källor: Flöden av fondinvesteringar i USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
 ### Bitcoin i företagets verktygslåda
 
@@ -557,106 +557,106 @@ Den växande användningen av Bitcoin i USA påverkar också tankesättet på an
 
 Ur ett rent finansiellt perspektiv är Bitcoin erkänd som en diversifieringstillgång. Den är inte bara okorrelerad med andra tillgångsklasser, den verkar också frodas under perioder med nya likviditetsinjektioner - en annan sådan episod verkar börja med räntesänkningarna från ECB, Fed och Kina.
 
-Sammanfattningsvis passar Bitcoin perfekt för det vanligaste användningsfallet - att investera i överskott av statspapper under minst fyra år. Det är värt att kombinera den med en strategi för gradvis inträde: att investera fasta belopp med jämna mellanrum för att jämna ut inträdes- eller utträdespunkten.
+Sammanfattningsvis passar Bitcoin perfekt för det vanligaste användningsområdet - att investera i överskott av kassan under minst fyra år. Det är värt att kombinera den med en strategi för gradvis inträde: att investera fasta belopp med jämna mellanrum för att jämna ut inträdes- eller utträdespunkten.
 
-Andra användningsområden gör Bitcoin till exempel till en strategisk tillgång för finansförvaltningen:
+Andra användningsområden gör Bitcoin till en strategisk kassatillgång, till exempel:
 
 
 - Kunna ställa **kollateral** eller likviditet 24/7
 - Att kunna överföra till ett annat företags kassa **snabbt, när som helst**
-- Säkring mot **risk för Exchange i utländsk valuta**
+- Säkring mot **valutakursrisk**
 - Betalning till en **leverantör** som accepterar det, särskilt i nödsituationer
 
 ### Är Bitcoin för dyrt?
 
-Du behöver inte köpa exakt 1 Bitcoin, eftersom Bitcoin är delbart i underenheter som kallas satoshis, namngivna för att hedra dess anonyma skapare. En Bitcoin motsvarar **100 miljoner satoshis**, vilket gör det möjligt för användare att köpa, sälja eller handla även **mycket små fraktioner av en Bitcoin**. Faktum är att i Bitcoin:s källkod redovisas alla transaktioner i satoshis, och termen "Bitcoin" förekommer endast i "coinbase", den speciella transaktion som miners skapar för att få sin belöning.
+Du behöver inte köpa exakt 1 Bitcoin, eftersom Bitcoin är delbart i mindre enheter som kallas satoshis, namngivna för att hedra dess anonyma skapare. En bitcoin motsvarar **100 miljoner satoshis**, vilket gör det möjligt för användare att köpa, sälja eller handla även **mycket små fraktioner av en Bitcoin**. Faktum är att i Bitcoins källkod redovisas alla transaktioner i satoshis, och termen "Bitcoin" förekommer endast i "coinbase", den speciella transaktion som miners skapar för att få sin belöning.
 
-Dessutom kan summan 21 miljoner bitcoins - eller **2,1 kvadriljoner satoshis** - effektivt representeras av ett 64-bitars heltal. Detta innebär att trots ett högt pris per hel Bitcoin förblir den tillgänglig för ett brett spektrum av investerare tack vare dess delbarhet. Du behöver därför inte köpa en hel Bitcoin för att delta i nätverket eller investera i denna digitala tillgång.
+Dessutom kan det totala antalet 21 miljoner bitcoins - eller **2,1 kvadriljoner satoshis** - effektivt representeras av ett 64-bitars heltal. Detta innebär att trots ett högt pris per hel bitcoin förblir den tillgänglig för ett brett spektrum av investerare tack vare dess delbarhet. Du behöver därför inte köpa en hel Bitcoin för att delta i nätverket eller investera i denna digitala tillgång.
 
 ![BIZ101](assets/en/08.webp)
 
-Låt oss komma ihåg att dess relativt låga totala marknadsvärde, jämfört med andra tillgångar som aktier, guld eller fastigheter, gör att dess kapacitet för värdeökning är intakt. Eftersom penetrationen fortfarande är mycket låg (cirka 1% av världens befolkning) är det troligt att vi bara befinner oss i början av dess uppgång. Detta gör det till **den mest asymmetriska satsningen i vår generation**: det finns nu en mycket låg sannolikhet för att den kommer att falla till noll vid denna tidpunkt, och en stark sannolikhet för att den kommer att fortsätta att vinna mark.
+Låt oss komma ihåg att dess relativt låga totala marknadsvärde, jämfört med andra tillgångar som aktier, guld eller fastigheter, gör att dess kapacitet för värdeökning är intakt. Eftersom penetrationen fortfarande är mycket låg (cirka 1% av världens befolkning) är det troligt att vi bara befinner oss i början av dess uppgång. Detta gör det till **den mest asymmetriska satsningen i vår generation**: det finns nu en mycket låg sannolikhet för att den kommer att falla till noll vid denna tidpunkt, och en stark sannolikhet för att den kommer att fortsätta att få ökat inflytande.
 
-### Beslutet att allokera corporate treasury i Bitcoin
+### Beslutet att allokera företagskassan i Bitcoin
 
-**Beslutsprocessen** för att investera i Bitcoin kommer att påverkas starkt av din position inom företaget. Om du är **majoritetsägare är du fri** att fördela överskjutande likvida medel enligt din egen bedömning. Om du däremot är partner eller aktieägare inom en kollektiv beslutsstruktur måste du gå igenom gemensamma överläggningar, vilket kan komplicera saker och ting.
+**Beslutsprocessen** för att investera i Bitcoin kommer att påverkas starkt av din position inom företaget. Om du är **majoritetsägare är du fri** att fördela överskott av likvida medel enligt din egen bedömning. Om du däremot är partner eller aktieägare inom en kollektiv beslutsstruktur måste du gå igenom gemensamma överläggningar, vilket kan komplicera saker och ting.
 
-I detta andra scenario blir det viktigt att harmonisera olika synpunkter, eftersom det till stor del **beror på varje intressents förståelse av Bitcoin-tillgången**. Som talesättet lyder: "Bitcoin är allt som folk inte vet om datorer kombinerat med allt som de inte förstår om pengar." Även om en partner har ansträngt sig för att grundligt förstå Bitcoin kan det vara en utmaning att förmedla denna kunskap till andra. I sådana fall är det **tillrådligt att ta in en extern resurs** för att undvika att idén identifieras alltför nära med en individ, vilket kan generate motstånd.
+I detta andra scenario blir det viktigt att harmonisera olika synpunkter, eftersom det till stor del **beror på varje intressents förståelse av Bitcoin-tillgången**. Som talesättet lyder: "Bitcoin är allt som folk inte vet om datorer kombinerat med allt som de inte förstår om pengar." Även om en partner har ansträngt sig för att grundligt förstå Bitcoin kan det vara en utmaning att förmedla denna kunskap till andra. I sådana fall är det **tillrådligt att ta in en extern resurs** för att undvika att idén identifieras alltför nära med en individ, vilket kan generera motstånd.
 
-För närvarande är scenariot med en majoritetsägare som fattar beslut det mest representativa bland företag som innehar Bitcoin. Här är några verkliga exempel :
+För närvarande är scenariot med en majoritetsägare som fattar beslut det mest representativa bland företag som äger Bitcoin. Här är några verkliga exempel :
 
 
 - Oberoende yrkesutövare**: Konsulter, sjukvårdspersonal eller advokater som investerar en del av sin långsiktiga kassa i Bitcoin. I allmänhet har dessa yrkesutövare redan spar- eller tidsbundna depositionskonton med låg avkastning.
 - Chefer inom den tekniska sektorn**: En chef som sålde sitt företag och investerade en del av intäkterna från sitt personliga holdingbolag i Bitcoin för några år sedan. Idag har de en bekväm finansiell situation och återinvesterar i nya satsningar.
-- Ägare av mycket små företag** : Entreprenörer inom tjänster, jordbruk eller hantverk som har förstått Bitcoin:s potential och avsätter en del av sin kassa till den. Deras primära motivation ligger i diversifiering och den frihet som det ger
-- Börsnoterade företag** som MicroStrategy har skapat ett prejudikat genom att konvertera en betydande del av sin företagskassa till Bitcoin, vilket visar på ett globalt skifte i företagens kapitalallokeringsstrategier. Hösten 2024 hade många andra företag följt efter, vilket ytterligare legitimerade denna trend.
+- Ägare av mycket små företag**: Entreprenörer inom tjänster, jordbruk eller hantverk som har förstått Bitcoins potential och avsätter en del av sin kassa till den. Deras primära motivation ligger i diversifiering och den frihet som det ger.
+- Börsnoterade företag** som MicroStrategy har skapat ett prejudikat genom att konvertera en betydande del av sin företagskassa till Bitcoin, vilket visar på ett globalt skifte i företagens allokeringsstrategier. Hösten 2024 hade många andra företag följt efter, vilket ytterligare legitimerade denna trend.
 
-### Beskattning av Bitcoin som innehas av företag
+### Beskattning av Bitcoin som ägs av företag
 
 För företag som inte är strukturerade som separata juridiska personer - t.ex. enskilda firmor eller andra icke inkorporerade enheter - speglar beskattningen av Bitcoin-transaktioner ofta den behandling som tillämpas på enskilda personer. I många fall gäller samma regler för kapitalvinster eller inkomster, precis som de skulle göra om en individ sålde Bitcoin. Till exempel kan vinster i vissa länder betraktas som en del av entreprenörens personliga inkomst, som omfattas av **personliga inkomstskatteparenteser**.
 
-Men **incorporated businesses** - de som är föremål för bolagsskatt - drar ofta nytta av ett mer gynnsamt skatteramverk. Till skillnad från privatpersoner, som kan möta begränsningar när det gäller att kvitta vinster och förluster mellan olika tillgångsslag, kan företag i allmänhet integrera realiserade vinster eller förluster på Bitcoin-transaktioner direkt i sina årliga resultaträkningar. Detta kan leda till en mer flexibel och ibland mer fördelaktig skatteposition.
+Men **registrerade företag** - de som är föremål för bolagsskatt drar ofta nytta av ett mer gynnsamt skatteramverk. Till skillnad från privatpersoner, som kan möta begränsningar när det gäller att kvitta vinster och förluster mellan olika tillgångsslag, kan företag i allmänhet integrera realiserade vinster eller förluster på Bitcoin-transaktioner direkt i sina årliga resultaträkningar. Detta kan leda till en mer flexibel och ibland mer fördelaktig skatteposition.
 
 De specifika skattesatserna och skattebehandlingarna varierar betydligt mellan olika jurisdiktioner. I till exempel Frankrike och många andra västländer kan bolagsskatten ligga på cirka 25%, vilket kan vara lägre än den schablonskatt som privatpersoner betalar på investeringsvinster.
 
-På grund av dessa skillnader väljer **vissa företagare att köpa och inneha Bitcoin genom sina företagsstrukturer**, eftersom detta kan ge **mer effektiva skatteplaneringsmöjligheter**. Som alltid är det lämpligt att konsultera en skatteexpert som är bekant med reglerna i de relevanta jurisdiktionerna för att säkerställa efterlevnad och för att optimera skattestrategin.
+På grund av dessa skillnader väljer **vissa företagare att köpa och äga Bitcoin genom sina företagsstrukturer**, eftersom detta kan ge **mer effektiva skatteplaneringsmöjligheter**. Som alltid är det lämpligt att konsultera en skatteexpert som är bekant med reglerna i de relevanta jurisdiktionerna för att säkerställa efterlevnad och för att optimera skattestrategin.
 
-## Hur man förvärvar Bitcoin
+## Hur man skaffar Bitcoin
 
 <chapterId>1e6dbaf5-581a-49a4-8f37-3728e77bda17</chapterId>
 
 ### Tre metoder för förvärv
 
-Det finns tre sätt att förvärva Bitcoin:
+Det finns tre sätt att skaffa Bitcoin:
 
 ![BIZ101](assets/en/09.webp)
 
 
-- I Exchange för varor eller tjänster:**
+- I utbyte mot varor eller tjänster:**
 
-Eftersom Bitcoin fungerar som ett medium för Exchange är det möjligt att föreställa sig en cirkulär ekonomi. Även om detta fortfarande är ovanligt idag börjar fler och fler företag acceptera Bitcoin-betalningar - varför inte ditt? (Se vårt nästa kapitel)
+Eftersom Bitcoin fungerar som ett bytesmedel är det möjligt att föreställa sig en cirkulär ekonomi. Även om detta fortfarande är ovanligt idag börjar fler och fler företag acceptera Bitcoin-betalningar - varför inte ditt? (Se vårt nästa kapitel)
 
 
-- Mining Bitcoin:**
+- Mining:**
 
-Detta innebär att man tjänar belöningar på att använda Mining-maskiner. För icke-specialiserade företag är detta fortfarande relativt marginellt. Du kan delta genom mellanhänder som säljer eller hyr ut datorer, nätverk och underhåll till dig. Om du äger maskinerna kan du redovisa dem som avskrivningsbara tillgångar. I stor skala måste du noggrant beräkna avkastningen på investeringen eftersom marknaden är mycket konkurrensutsatt och kräver en god framförhållning när det gäller kostnader, särskilt el.
+Detta innebär att man tjänar belöningar på att använda mining-maskiner. För icke-specialiserade företag är detta fortfarande relativt marginellt. Du kan delta genom mellanhänder som säljer eller hyr ut datorer, nätverk och underhåll till dig. Om du äger maskinerna kan du redovisa dem som avskrivningsbara tillgångar. I stor skala måste du noggrant beräkna avkastningen på investeringen eftersom marknaden är mycket konkurrensutsatt och kräver en god framförhållning när det gäller kostnader, särskilt el.
 
-Om du vill lära dig mer om Mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar] (https://planb.network/tutorials/Mining).
+Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar] (https://planb.network/tutorials/Mining).
 
 
 - Köp av Bitcoin:**
 
-Detta är den absolut vanligaste metoden och sker antingen via peer-to-peer-börser eller, mer typiskt, på specialiserade handelsplattformar. Men när företag förvärvar Bitcoin som en tillgång i företagets kassa måste de följa robusta regleringsstandarder och förfaranden för kundkännedom (KYC). När de köper den på specialiserade handelsplattformar måste företagen vanligtvis tillhandahålla detaljerad företagsinformation, inklusive identitetshandlingar, finansiella rapporter och bevis på Address, för att uppfylla kraven på kundkännedom och bekämpning av penningtvätt (AML).
+Detta är den absolut vanligaste metoden och sker antingen via peer-to-peer-börser eller, mer typiskt, på specialiserade handelsplattformar. Men när företag skaffar Bitcoin som en tillgång i företagets kassa måste de följa robusta regleringsstandarder och Know-Your-Customer (KYC). När de handlar på specialiserade handelsplattformar måste företagen vanligtvis tillhandahålla detaljerad företagsinformation, inklusive identitetshandlingar, finansiella rapporter och bevis på adress, för att uppfylla kraven på kundkännedom och bekämpning av penningtvätt (AML).
 
-För att lära dig hur du öppnar ett företagskonto och använder det för att köpa, sälja och överföra bitcoins kan du kolla in dessa två handledningar som är speciellt utformade för företag och som täcker Kraken- och Bitfinex-plattformarna i sina företagsversioner:
+För att lära dig hur du öppnar ett företagskonto och använder det för att köpa, sälja och överföra bitcoins kan du kolla in dessa två handledningar som är speciellt utformade för företag och som innehåller plattformarna Kraken och Bitfinex i sina företagsversioner:
 
 https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Om du vill lära dig mer om metoder för att förvärva bitcoins via en Exchange eller peer-to-peer kan du [läsa avsnittet "Exchange" i våra handledningar](https://planb.network/tutorials/Exchange).
+Om du vill lära dig mer om metoder för att förvärva bitcoins via en börs eller peer-to-peer kan du [läsa avsnittet "Exchange" i våra handledningar](https://planb.network/tutorials/Exchange).
 
 ![BIZ101](assets/en/16.webp)
 
 ### Till vilket pris?
 
-Som tidigare nämnts är det inte bara omöjligt att förutse Bitcoin:s framtida pris, utan priset är också mycket volatilt på kort sikt. Historiskt sett har en pålitlig strategi varit att gradvis ackumulera med jämna mellanrum och ha en tidshorisont på fyra år eller mer.
+Som tidigare nämnts är det inte bara omöjligt att förutse Bitcoins framtida pris, utan priset är också mycket volatilt på kort sikt. Historiskt sett har en pålitlig strategi varit att gradvis ackumulera med jämna mellanrum och ha en tidshorisont på fyra år eller mer.
 
 ### Hur mycket ska du köpa?
 
-Kontraintuitivt är det förmodligen bäst att börja med ett mycket litet köp utan att tänka för mycket på det. En liten summa (som hundra euro eller dollar) kommer inte att skada dig på allvar, och den praktiska erfarenheten kommer att lära dig mycket mer, mycket snabbare, än någon mängd läsning.
+Kontraintuitivt är det förmodligen bäst att börja med ett mycket litet köp utan att tänka för mycket på det. En liten summa (som hundra euro eller dollar) kommer inte att göra skada, och den praktiska erfarenheten kommer att lära dig mycket mer, mycket snabbare, än någon mängd läsning.
 
 Som tidigare nämnts är det klokt att bara investera överskottslikviditet som du inte behöver på flera år. En dåligt genomtänkt strategi riskerar att försätta dig i en svår situation om du plötsligt behöver ta ut pengar vid en dålig tidpunkt.
 
-Förutom att börja i liten skala är det bra för företagens finansförvaltningar att anta en väl avvägd allokeringsstrategi. I ena änden av spektrumet har vissa företag, som MicroStrategy, tagit ett extremt tillvägagångssätt genom att avsätta en betydande del av sina överskottskassor till Bitcoin, vilket återspeglar en stark institutionell övertygelse. Omvänt kan en mer konservativ och förmodligen rationell strategi innebära att kanske omkring 5% av företagets likvida medel allokeras till Bitcoin, där potentiella vinster balanseras mot riskhantering och likviditetskrav.
+Förutom att börja i liten skala är det bra för företagens kassor att anta en väl avvägd allokeringsstrategi. I ena änden av spektrumet har vissa företag, som MicroStrategy, tagit ett extremt tillvägagångssätt genom att avsätta en betydande del av sina överskottskassor till Bitcoin, vilket återspeglar en stark institutionell övertygelse. Omvänt kan en mer konservativ och förmodligen rationell strategi innebära att kanske omkring 5% av företagets likvida medel allokeras till Bitcoin, där potentiella vinster balanseras mot riskhantering och likviditetskrav.
 
-Visualisera detta spektrum som en skala, från minimal exponering, som säkerställer att företaget behåller tillräcklig likviditet för operativa behov, till en aggressiv hållning som syftar till att utnyttja den förväntade långsiktiga värdeökningen för Bitcoin. Medan en aggressiv allokering kan ge högre avkastning, bidrar en blygsam allokering till att minska volatiliteten och säkerställa att företagets finansiella grund förblir säker samtidigt som man drar nytta av Bitcoin:s innovativa potential inom finansverksamheten.
+Visualisera detta spektrum som en skala, från minimal exponering, som säkerställer att företaget behåller tillräcklig likviditet för operativa behov, till en aggressiv hållning som syftar till att utnyttja den förväntade långsiktiga värdeökningen för Bitcoin. Medan en aggressiv allokering kan ge högre avkastning, bidrar en blygsam allokering till att minska volatiliteten och säkerställa att företagets finansiella grund förblir säker samtidigt som man drar nytta av Bitcoins innovativa potential inom finansverksamheten.
 
 ### Hur ofta?
 
-Det finns ingen Hard-regel. Att försöka tajma marknaden genom att jaga "dippar" kan vara mindre effektivt och mer stressande än att helt enkelt köpa med jämna mellanrum. Även erfarna investerare gör fel ibland. Att gå "all-in" på en gång kan vara ett tveeggat svärd.
+Det finns ingen strikt regel. Att försöka tajma marknaden genom att jaga "dippar" kan vara mindre effektivt och mer stressande än att helt enkelt köpa med jämna mellanrum. Även erfarna investerare gör fel ibland. Att gå "all-in" på en gång kan vara ett tvåsidigt svärd.
 
-I själva verket är Bitcoin: s potentiella uppskattning sådan att även om du skulle börja bara några år framöver, skulle du sannolikt fortfarande se långsiktiga vinster. Det är sant att det är troligt att stora prissvängningar kommer att minska i intensitet över tiden. Men som en deflationsvaluta är Bitcoin utformad för att effektivt lagra värde och återspegla produktivitetsvinsterna hos sina användare. För att dra en analogi: vi befinner oss för närvarande i "lanseringsfasen" av Bitcoin, en valuta i vardande, och ingen vet dess verkliga värde ännu. Senare, kanske om 20 eller 40 år, när den befinner sig i en stabil "kryssningsfas", kan den vara otroligt stabil och växa stadigt med samhällets produktivitetsvinster.
+I själva verket är Bitcoins potentiella uppgång sådan att även om du skulle börja bara några år framöver, skulle du sannolikt fortfarande se långsiktiga vinster. Det är sant att det är troligt att stora prissvängningar kommer att minska i intensitet över tiden, men som en deflationsvaluta är Bitcoin utformad för att effektivt förvara värde och återspegla produktivitetsvinsterna hos sina användare. För att dra en analogi: vi befinner oss för närvarande i "lanseringsfasen" av Bitcoin, en valuta under utformning, och ingen vet dess verkliga värde ännu. Senare, kanske om 20 eller 40 år, när den befinner sig i en stabil "kryssningsfas", kan den vara otroligt stabil och växa stadigt med samhällets produktivitetsvinster.
 
-Fastighetsbranschen upprepar ofta att "det alltid är rätt tid att köpa" och glömmer att om fastigheter skulle förlora sin funktion som värdebevarare - och övergå till tillgångar som Bitcoin - skulle priserna kunna återgå närmare sitt bruksvärde (skydd). Bitcoin tjänar däremot inget annat syfte än att lagra värde, vilket kan innebära att "det alltid är rätt tid att köpa" Framtiden får utvisa detta.
+Fastighetsbranschen upprepar ofta att "det alltid är rätt tid att köpa" och glömmer att om fastigheter skulle förlora sin funktion som värdebevarare - och övergå till tillgångar som Bitcoin - skulle priserna kunna återgå närmare sitt bruksvärde (logi). Bitcoin tjänar däremot inget annat syfte än att förvara värde, vilket kan innebära att "det alltid är rätt tid att köpa". Framtiden får utvisa detta.
 
 ![BIZ101](assets/en/13.webp)
 
@@ -664,16 +664,16 @@ Fastighetsbranschen upprepar ofta att "det alltid är rätt tid att köpa" och g
 
 ### I vilken form ska man köpa? (Metoder för förvaring)
 
-Du äger inte fysiskt Bitcoin. Istället har du en kryptografisk nyckel som gör att du kan överföra Ownership för vissa eller alla dina kontoenheter till en eller flera andra kryptografiska nycklar. Allt detta sker på Bitcoin Blockchain, som är replikerad över tiotusentals noder över hela världen.
+Du äger inte Bitcoin fysiskt. Istället har du en kryptografisk nyckel som gör att du kan överföra ägarskap för vissa eller alla dina kontoenheter till en eller flera andra kryptografiska nycklar. Allt detta sker på Bitcoins blockkedja, som är replikerad över tiotusentals noder över hela världen.
 
-Denna kryptografiska nyckel är ett extremt stort slumptal. För att förenkla användarupplevelsen representeras den ofta som en sekvens av 12 eller 24 ord. Dessa ord kan laddas på en fysisk enhet som kallas en "Hardware Wallet" Du måste dock förstå att bitcoins inte finns "inuti" den här enheten; den är helt enkelt ett verktyg för att kryptografiskt signera transaktioner och sända dem till nätverket. Det som verkligen betyder något är de 12 eller 24 orden, som måste hållas säkra.
+Denna kryptografiska nyckel är ett extremt stort slumptal. För att förenkla användarupplevelsen representeras den ofta som en sekvens av 12 eller 24 ord. Dessa ord kan överföras på en fysisk enhet som kallas en "hårdvaruplånbok". Du måste dock förstå att bitcoins inte finns "inuti" den här enheten; den är helt enkelt ett verktyg för att kryptografiskt signera transaktioner och sända dem till nätverket. Det som verkligen betyder något är de 12 eller 24 orden, som måste hållas säkra.
 
-Detta leder till frågan om förvaring: att inneha Bitcoin innebär att man innehar nyckeln/nycklarna. Antingen har du dem själv, eller så delegerar du uppgiften till en tredje part. Det finns också mellanliggande lösningar. Låt oss granska de vanligaste scenarierna:
+Detta leder till frågan om förvaring: att äga Bitcoin innebär att man äger nyckeln/nycklarna. Antingen har du dem själv, eller så delegerar du uppgiften till en tredje part. Det finns också mellanliggande lösningar. Låt oss granska de vanligaste scenarierna:
 
 
 - Självförvaring:**
 
-Detta är det alternativ som rekommenderas av riktiga Bitcoin-entusiaster, eftersom det överensstämmer med Bitcoin:s ursprungliga design. Du agerar som din egen bank: det finns ingen risk för att en tredje part lurar dig, men du är ansvarig för att säkra nyckeln/nycklarna. Du har full tillgång till dina pengar 24/7. I en affärsmiljö, om flera personer kan behöva göra transaktioner, behöver du lämpliga verktyg och rutiner för att hantera åtkomst och säkerhet.
+Detta är det alternativ som rekommenderas av Bitcoin-entusiaster, eftersom det överensstämmer med Bitcoins ursprungliga design. Du agerar som din egen bank: det finns ingen risk för att en tredje part lurar dig, men du är ansvarig för att säkra nyckeln/nycklarna. Du har full tillgång till dina pengar 24/7. I en affärsmiljö, om flera personer kan behöva göra transaktioner, behöver du lämpliga verktyg och rutiner för att hantera åtkomst och säkerhet.
 
 
 - Förvaring hos tredje part:**

@@ -5,7 +5,7 @@ objectives:
   - Comprendre le fonctionnement des systèmes d’exploitation modernes et faire un choix éclairé
   - Acquérir une autonomie technique sur Linux
   - Appliquer les bonnes pratiques de sécurité sur un poste de travail personnel
-  - Renforcer la sécurité de la navigation web et des usages mobiles par des outils open-source et des réglages adaptés
+  - Renforcer la sécurité de la navigation web et des usages mobiles par des outils open source et des réglages adaptés
   - Mettre en œuvre les protections nécessaires sur un réseau domestique
 ---
 
@@ -59,9 +59,9 @@ Vous découvrirez ensuite un panorama des moteurs de rendu et des navigateurs ac
 
 ### Partie 5 - Reprendre le contrôle de son téléphone
 
-Nos smartphones sont aujourd’hui des extensions de notre vie personnelle et professionnelle, d'où l'importance de maîtriser leur sécurité. Nous explorerons en détail les différents systèmes d'exploitation mobiles, leurs avantages et leurs limites, tout en découvrant des alternatives open-source pour reprendre la pleine souveraineté de votre appareil.
+Nos smartphones sont aujourd’hui des extensions de notre vie personnelle et professionnelle, d'où l'importance de maîtriser leur sécurité. Nous explorerons en détail les différents systèmes d'exploitation mobiles, leurs avantages et leurs limites, tout en découvrant des alternatives open source pour reprendre la pleine souveraineté de votre appareil.
 
-Vous apprendrez ensuite les bonnes pratiques de sécurisation quotidienne, des mises à jour jusqu'au cloisonnement de vos données personnelles et professionnelles. Enfin, vous découvrirez des outils de communication sécurisés et des applications open-source alternatives pour renforcer la confidentialité et la sécurité de votre mobile.
+Vous apprendrez ensuite les bonnes pratiques de sécurisation quotidienne, des mises à jour jusqu'au cloisonnement de vos données personnelles et professionnelles. Enfin, vous découvrirez des outils de communication sécurisés et des applications open source alternatives pour renforcer la confidentialité et la sécurité de votre mobile.
 
 ![Image](assets/fr/142.webp)
 
@@ -251,7 +251,7 @@ macOS peut convenir aux utilisateurs qui valorisent la performance, la stabilit�
 
 GNU/Linux se distingue fortement des deux précédents par son modèle libre et open source. À la différence de Windows ou macOS, Linux n’est pas développé par une unique société, mais par une communauté mondiale de développeurs. Ce modèle communautaire garantit transparence, sécurité et flexibilité. Linux offre un contrôle total à ses utilisateurs, ce qui permet une personnalisation complète de l’environnement de travail. C'est intéressant particulièrement pour les utilisateurs avancés, les développeurs ou ceux qui souhaitent maîtriser parfaitement leur environnement numérique.
 
-Le principal atout de Linux réside dans sa robustesse, sa stabilité et son haut niveau de sécurité. Étant open-source, son code est auditable par tout utilisateur ou organisme, ce qui limite fortement les risques de logiciels malveillants ou de portes dérobées. Linux est très performant, consomme généralement moins de ressources que Windows, et se montre particulièrement adapté aux configurations matérielles modestes ou à usage intensif tel que le calcul, l’administration de serveurs ou la cybersécurité.
+Le principal atout de Linux réside dans sa robustesse, sa stabilité et son haut niveau de sécurité. Étant open source, son code est auditable par tout utilisateur ou organisme, ce qui limite fortement les risques de logiciels malveillants ou de portes dérobées. Linux est très performant, consomme généralement moins de ressources que Windows, et se montre particulièrement adapté aux configurations matérielles modestes ou à usage intensif tel que le calcul, l’administration de serveurs ou la cybersécurité.
 
 ![Image](assets/fr/010.webp)
 
@@ -335,19 +335,19 @@ Très rapidement, ce noyau, initialement baptisé Freax puis renommé Linux (con
 
 → ***Tux*** : la mascotte et le logo du noyau Linux, créé en 1996 par Larry Ewing à l’aide du logiciel GIMP.
 
-### Philosophie de l’open-source et du logiciel libre
+### Philosophie de l’open source et du logiciel libre
 
-À mesure que Linux gagne en popularité dans les années 1990, un débat idéologique émerge autour des termes "logiciel libre" et "open-source", notamment à cause de la double signification du terme "*free*" en anglais.
+À mesure que Linux gagne en popularité dans les années 1990, un débat idéologique émerge autour des termes "logiciel libre" et "open source", notamment à cause de la double signification du terme "*free*" en anglais.
 
-Tandis que Richard Stallman et la FSF militent fermement pour l’idée du logiciel libre fondée sur des principes éthiques ("*free as in freedom*"), d’autres acteurs privilégient une approche plus pragmatique orientée sur l'ingénierie et centrée sur la transparence et l’efficacité technique du modèle ouvert. C’est en 1998 qu’est créée l’Open Source Initiative (OSI), qui introduit le terme "open-source" afin de séduire davantage les entreprises en mettant en avant les bénéfices économiques et techniques plutôt que des considérations idéologiques.
+Tandis que Richard Stallman et la FSF militent fermement pour l’idée du logiciel libre fondée sur des principes éthiques ("*free as in freedom*"), d’autres acteurs privilégient une approche plus pragmatique orientée sur l'ingénierie et centrée sur la transparence et l’efficacité technique du modèle ouvert. C’est en 1998 qu’est créée l’Open Source Initiative (OSI), qui introduit le terme "open source" afin de séduire davantage les entreprises en mettant en avant les bénéfices économiques et techniques plutôt que des considérations idéologiques.
 
-Richard Stallman critique ouvertement l’usage du terme "open-source", qu’il juge trop neutre, voire dépolitisé. Il insiste sur le terme "logiciel libre" pour souligner que la question centrale n’est pas technique, mais sociale : celle de la liberté des utilisateurs.
+Richard Stallman critique ouvertement l’usage du terme "open source", qu’il juge trop neutre, voire dépolitisé. Il insiste sur le terme "logiciel libre" pour souligner que la question centrale n’est pas technique, mais sociale : celle de la liberté des utilisateurs.
 
 ![Image](assets/fr/015.webp)
 
 *Source : Nathaniel Welch*
 
-La distinction entre les deux termes réside donc dans la motivation sous-jacente : le mouvement du logiciel libre promeut avant tout une philosophie de liberté individuelle et collective vis-à-vis du logiciel, tandis que l’open-source valorise principalement l’efficacité technique, la transparence et la collaboration en tant que moyens pour obtenir un meilleur produit.
+La distinction entre les deux termes réside donc dans la motivation sous-jacente : le mouvement du logiciel libre promeut avant tout une philosophie de liberté individuelle et collective vis-à-vis du logiciel, tandis que l’open source valorise principalement l’efficacité technique, la transparence et la collaboration en tant que moyens pour obtenir un meilleur produit.
 
 Malgré leurs différences philosophiques, ces deux courants partagent des valeurs communes comme la transparence, l’auditabilité du code source, l’indépendance vis-à-vis des fournisseurs, et la possibilité pour l’utilisateur final de comprendre, modifier et améliorer ses outils informatiques. Aujourd’hui encore, ces distinctions alimentent régulièrement débats et réflexions au sein des communautés techniques, notamment Bitcoin.
 
@@ -1475,7 +1475,7 @@ Nous aborderons plus en détail les navigateurs dans un prochain chapitre, afin 
 
 #### Email
 
-Thunderbird est le client de messagerie open-source de référence, développé également par Mozilla. Il prend en charge les comptes IMAP/POP, les calendriers, les extensions et le chiffrement OpenPGP.
+Thunderbird est le client de messagerie open source de référence, développé également par Mozilla. Il prend en charge les comptes IMAP/POP, les calendriers, les extensions et le chiffrement OpenPGP.
 
 ```bash
 sudo apt install thunderbird
@@ -1517,7 +1517,7 @@ sudo apt install ubuntu-restricted-extras
 
 #### Graphisme et création
 
-Pour la retouche photo et le dessin vectoriel, deux références open-source sont disponibles :
+Pour la retouche photo et le dessin vectoriel, deux références open source sont disponibles :
 
 ```bash
 sudo apt install gimp inkscape
@@ -1712,7 +1712,7 @@ Enfin, une autre approche, plus radicale mais particulièrement efficace, consis
 
 Les machines virtuelles (ou "VM") permettent de créer des environnements totalement isolés au sein de votre ordinateur. Une VM simule un ordinateur indépendant avec son propre système d’exploitation, ses propres applications et ses propres réglages, mais fonctionne en réalité comme un programme exécuté sur votre machine principale.
 
-Cette technologie repose sur un hyperviseur, un logiciel qui gère la création et l’exécution des VM. La solution la plus connue est VirtualBox, un logiciel open-source et multiplateforme. Il permet de créer facilement une VM en quelques clics en lui attribuant des ressources spécifiques.
+Cette technologie repose sur un hyperviseur, un logiciel qui gère la création et l’exécution des VM. La solution la plus connue est VirtualBox, un logiciel open source et multiplateforme. Il permet de créer facilement une VM en quelques clics en lui attribuant des ressources spécifiques.
 
 ![Image](assets/fr/206.webp)
 
@@ -1732,7 +1732,7 @@ Voici quelques solutions concrètes pour faire du sandboxing en fonction de votr
 
 **Windows** :
 - Windows Sandbox (uniquement disponible dans Windows 10/11 Pro et Entreprise) ;
-- Sandboxie Plus (open-source).
+- Sandboxie Plus (open source).
 
 **Linux** :
 - Firejail : un outil puissant et léger qui isole les applications à l’aide de profils prédéfinis. Il fonctionne bien avec de nombreux logiciels comme Firefox, VLC ou Telegram ;
@@ -2477,7 +2477,7 @@ L’une des méthodes les plus connues pour chiffrer un fichier consiste à util
 
 Ce protocole est parfait pour échanger des fichiers sensibles de manière sécurisée avec d’autres personnes, sans partager un mot de passe. Pour un usage personnel ou ponctuel, GPG permet aussi un chiffrement symétrique : le fichier est alors protégé par un mot de passe unique que vous seul connaissez.
 
-Il y a également le logiciel Cryptomator qui est une excellente alternative. Ce logiciel open-source permet de créer un coffre-fort : un dossier spécial dans lequel tous les fichiers déposés sont automatiquement chiffrés. Ce coffre peut être synchronisé avec des services cloud comme Dropbox, Google Drive ou Nextcloud sans que le fournisseur n’ait jamais accès aux données en clair. L’application est disponible sur tous les systèmes d’exploitation, y compris Android et iOS, et son utilisation ne nécessite aucune compétence technique particulière.
+Il y a également le logiciel Cryptomator qui est une excellente alternative. Ce logiciel open source permet de créer un coffre-fort : un dossier spécial dans lequel tous les fichiers déposés sont automatiquement chiffrés. Ce coffre peut être synchronisé avec des services cloud comme Dropbox, Google Drive ou Nextcloud sans que le fournisseur n’ait jamais accès aux données en clair. L’application est disponible sur tous les systèmes d’exploitation, y compris Android et iOS, et son utilisation ne nécessite aucune compétence technique particulière.
 
 ![Image](assets/fr/256.webp)
 
@@ -2705,7 +2705,7 @@ Firefox introduit également plusieurs innovations qui vont influencer durableme
 
 Sa légèreté, sa flexibilité et son respect des standards attirent rapidement les utilisateurs avancés, les développeurs web et tous ceux qui veulent une alternative plus ouverte qu’Internet Explorer. En 2005, Firefox dépasse les 10 % de parts de marché, une performance considérable face à un navigateur préinstallé sur tous les PC Windows.
 
-Pendant ce temps, Apple travaille de son côté à un navigateur maison pour macOS. En janvier 2003, Safari est officiellement lancé. Il repose sur WebKit, un moteur de rendu open-source dérivé de KHTML, développé initialement par le projet KDE pour son navigateur Konqueror. WebKit est apprécié pour sa légèreté, sa rapidité et sa simplicité de portage. Apple y apporte de nombreuses optimisations internes, notamment sur le traitement JavaScript, qui devient un enjeu central avec l’essor des applications web interactives.
+Pendant ce temps, Apple travaille de son côté à un navigateur maison pour macOS. En janvier 2003, Safari est officiellement lancé. Il repose sur WebKit, un moteur de rendu open source dérivé de KHTML, développé initialement par le projet KDE pour son navigateur Konqueror. WebKit est apprécié pour sa légèreté, sa rapidité et sa simplicité de portage. Apple y apporte de nombreuses optimisations internes, notamment sur le traitement JavaScript, qui devient un enjeu central avec l’essor des applications web interactives.
 
 ![Image](assets/fr/100.webp)
 
@@ -2856,7 +2856,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 [Brave](https://brave.com/) est basé sur Blink (tout comme Chrome), mais se distingue radicalement par son approche centrée sur la privacy. Par défaut, Brave bloque les publicités et trackers, intègre *HTTPS Everywhere*, et propose des protections avancées contre le fingerprinting et les scripts tiers. Son modèle économique repose en partie sur la publicité intégrée respectueuse de la vie privée, mais celle-ci reste optionnelle et facilement désactivable.
 
-Brave est basé sur Chromium et l’ensemble de son code est disponible sur GitHub. Seules quelques parties mineures sont partiellement propriétaires. Globalement, Brave est donc très proche d’un navigateur open-source.
+Brave est basé sur Chromium et l’ensemble de son code est disponible sur GitHub. Seules quelques parties mineures sont partiellement propriétaires. Globalement, Brave est donc très proche d’un navigateur open source.
 
 ![Image](assets/fr/111.webp)
 
@@ -2888,7 +2888,7 @@ Pour vérifier si vous êtes fondus dans la masse ou non via votre *fingerprint*
 
 [Vivaldi](https://vivaldi.com/), fondé par l’ancien CEO d’Opera, s'adresse aux utilisateurs avancés à la recherche d’une personnalisation poussée et de fonctionnalités avancées comme les panneaux latéraux, le gestionnaire d’onglets avancé ou encore la prise de notes intégrée.
 
-En termes de sécurité, Vivaldi inclut plusieurs fonctions de blocage des trackers et publicités, mais ces protections restent légèrement moins bonnes que sur Brave. Il est aussi moins transparent sur certains aspects, son code source n'étant que partiellement open-source. Malgré tout, il constitue une alternative intéressante, moins centrée sur la confidentialité stricte que Brave, mais plus respectueuse que Chrome ou Opera.
+En termes de sécurité, Vivaldi inclut plusieurs fonctions de blocage des trackers et publicités, mais ces protections restent légèrement moins bonnes que sur Brave. Il est aussi moins transparent sur certains aspects, son code source n'étant que partiellement open source. Malgré tout, il constitue une alternative intéressante, moins centrée sur la confidentialité stricte que Brave, mais plus respectueuse que Chrome ou Opera.
 
 ![Image](assets/fr/112.webp)
 
@@ -2930,7 +2930,7 @@ Mozilla est une organisation à but non lucratif, ce qui lui confère une certai
 
 ![Image](assets/fr/117.webp)
 
-Firefox est un navigateur open-source, distribué sous licence MPL (*Mozilla Public License*). Son code est totalement libre, modifiable, redistribuable, et fait l’objet de nombreuses contributions externes.
+Firefox est un navigateur open source, distribué sous licence MPL (*Mozilla Public License*). Son code est totalement libre, modifiable, redistribuable, et fait l’objet de nombreuses contributions externes.
 
 Firefox demeure une référence incontournable en matière de sécurité et de protection de la vie privée, malgré un léger retard technique sur certains aspects de performance face aux navigateurs basés sur Blink. Cela peut être un très bon navigateur, à condition de bien le paramétrer.
 
@@ -3128,7 +3128,7 @@ De plus, un VPN ne protège en rien contre les malwares, le pistage JavaScript o
 
 Aussi, il ne faut pas confondre les outils de VPN avec le réseau Tor, qui est un réseau décentralisé de relais chiffrés pour garantir un anonymat beaucoup plus fort. Tor est plus lent, mais bien plus robuste contre la surveillance globale qu'un VPN.
 
-Un bon VPN doit avoir une politique claire de non-journalisation, proposer des technologies modernes (notamment WireGuard), laisser la possibilité d'utiliser le service anonymement et offrir une base technique open-source ou auditée publiquement. Dans cet objectif, je vous conseille des outils comme Mullvad ou IVPN.
+Un bon VPN doit avoir une politique claire de non-journalisation, proposer des technologies modernes (notamment WireGuard), laisser la possibilité d'utiliser le service anonymement et offrir une base technique open source ou auditée publiquement. Dans cet objectif, je vous conseille des outils comme Mullvad ou IVPN.
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -3310,7 +3310,7 @@ Jusqu’ici, nous nous sommes principalement concentrés sur la sécurisation et
 
 À la différence des ordinateurs, les téléphones mobiles fonctionnent généralement avec des systèmes fermés, fortement contrôlés par leurs fabricants. C’est pourquoi, dans ce chapitre, je vous propose d’explorer les enjeux spécifiques liés aux systèmes d’exploitation mobiles.
 
-### Android : de l’open-source au contrôle par Google
+### Android : de l’open source au contrôle par Google
 
 #### Brève histoire d’Android
 
@@ -3322,7 +3322,7 @@ Google rachète la société Android Inc. en 2005 pour environ 50 millions de do
 
 Mais en janvier 2007, un événement marque un tournant majeur dans l’histoire du smartphone : Steve Jobs dévoile la première génération de l’iPhone. L’idée alors largement répandue selon laquelle un clavier physique était indispensable vole en éclats. L’iPhone introduit un appareil pensé pour un usage entièrement tactile et redéfinit à lui seul les attentes du marché.
 
-Face à cette révolution, Google est contraint de revoir entièrement l’orientation de son projet Android afin de le rendre compatible avec une interface tactile. C’est plus tard en 2007 que Google officialise la sortie d’Android comme un projet open-source reposant sur un noyau Linux modifié, sous le nom de *Android Open Source Project (AOSP)*.
+Face à cette révolution, Google est contraint de revoir entièrement l’orientation de son projet Android afin de le rendre compatible avec une interface tactile. C’est plus tard en 2007 que Google officialise la sortie d’Android comme un projet open source reposant sur un noyau Linux modifié, sous le nom de *Android Open Source Project (AOSP)*.
 
 Le premier appareil commercialisé sous Android, le *HTC Dream*, sort en 2008. Il propose un environnement encore rudimentaire, mais entièrement ouvert : les fabricants et opérateurs peuvent adapter librement le système à leurs besoins, tandis que les développeurs peuvent créer et distribuer des applications sans validation préalable. Cette approche séduit rapidement une communauté active et favorise l’adoption massive d’Android par de nombreux constructeurs.
 
@@ -3336,11 +3336,11 @@ Android connaît une ascension fulgurante : il dépasse iOS en parts de marché 
 
 ![Image](assets/fr/130.webp)
 
-#### Open-source vs Google
+#### Open source vs Google
 
 Le projet Android repose sur une dualité structurelle. D’un côté, l’AOSP (*Android Open Source Project*) représente la base libre du système : il comprend le noyau Linux, la pile logicielle système, une interface graphique minimale et un ensemble d’API. Ce socle est publié sous licence Apache 2.0, et reste accessible à tous. De l’autre côté, l’environnement réellement utilisé par la majorité des utilisateurs Android repose presque entièrement sur des composants propriétaires développés par Google : les *Google Mobile Services* (GMS).
 
-Ces composants ne sont pas open-source : ils ne peuvent être ni audités librement par la communauté, ni remplacés facilement. Pour pouvoir les préinstaller légalement sur leurs appareils, les fabricants doivent signer des accords de licence avec Google et se soumettre à des exigences techniques et commerciales strictes. Parmi ces conditions figurent notamment :
+Ces composants ne sont pas open source : ils ne peuvent être ni audités librement par la communauté, ni remplacés facilement. Pour pouvoir les préinstaller légalement sur leurs appareils, les fabricants doivent signer des accords de licence avec Google et se soumettre à des exigences techniques et commerciales strictes. Parmi ces conditions figurent notamment :
 - l’intégration obligatoire de plusieurs applications Google comme applications système non désinstallables ;
 - la mise en avant visuelle de certaines applications (Google Search, Play Store, Gemini...) sur l’écran d’accueil ;
 - l’usage exclusif des API Google pour des fonctions importantes telles que la synchronisation, les notifications push ou la géolocalisation.
@@ -3349,7 +3349,7 @@ Ces composants ne sont pas open-source : ils ne peuvent être ni audités librem
 
 Cela crée progressivement une dépendance structurelle pour les constructeurs de smartphones, et rend presque inévitable, pour l’utilisateur final, la transmission de données personnelles vers les serveurs de Google. Ces services visent à garantir une expérience utilisateur fluide et cohérente, mais centralisent également des fonctions sensibles comme la sauvegarde automatique des données, la géolocalisation passive, ou encore l’authentification permanente via un compte Google (souvent requis pour exploiter pleinement son appareil).
 
-Même si Android reste, en théorie, un système libre à sa base, la majorité des smartphones Android vendus dans le monde fonctionnent sur une version modifiée et enrichie par Google. Dans cette version, la couche open-source est largement dissimulée sous une surcouche propriétaire, verrouillée et intrusive.
+Même si Android reste, en théorie, un système libre à sa base, la majorité des smartphones Android vendus dans le monde fonctionnent sur une version modifiée et enrichie par Google. Dans cette version, la couche open source est largement dissimulée sous une surcouche propriétaire, verrouillée et intrusive.
 
 Pour réellement reprendre le contrôle, il est donc nécessaire de se tourner vers des alternatives comme les ROMs libres (GrapheneOS, CalyxOS, etc.), que nous aborderons plus loin dans ce cours.
 
@@ -3384,9 +3384,9 @@ Par ailleurs, l’intégration obligatoire d’iCloud dans la majorité des serv
 
 Enfin, sur le plan de la souveraineté numérique, iOS représente un environnement fermé : aucune autorité extérieure (ni utilisateur, ni organisation indépendante) ne peut vérifier ou modifier son fonctionnement. L’utilisateur est donc contraint de faire confiance à Apple à tous les niveaux : matériel, logiciel, réseau...
 
-### Alternatives open-source avec Android
+### Alternatives open source avec Android
 
-Comme nous venons de le voir, l’écosystème Android standard, dominé par Google, repose sur une version libre du système (AOSP) avec des composants propriétaires (GMS). Plusieurs projets open-source tirent parti d’AOSP pour proposer des systèmes d'exploitation alternatifs, plus respectueux de la vie privée, sans surcouches intrusives, et avec un meilleur contrôle utilisateur. Ces alternatives s’installent en remplacement du système d’origine, sous forme de ROM personnalisées. Elles permettent de reprendre le contrôle sur le logiciel, mais nécessitent aussi un contrôle matériel minimal, car elles ne sont compatibles qu’avec quelques appareils.
+Comme nous venons de le voir, l’écosystème Android standard, dominé par Google, repose sur une version libre du système (AOSP) avec des composants propriétaires (GMS). Plusieurs projets open source tirent parti d’AOSP pour proposer des systèmes d'exploitation alternatifs, plus respectueux de la vie privée, sans surcouches intrusives, et avec un meilleur contrôle utilisateur. Ces alternatives s’installent en remplacement du système d’origine, sous forme de ROM personnalisées. Elles permettent de reprendre le contrôle sur le logiciel, mais nécessitent aussi un contrôle matériel minimal, car elles ne sont compatibles qu’avec quelques appareils.
 
 #### Prérequis matériels et avertissement
 
@@ -3489,7 +3489,7 @@ Même sur les magasins officiels comme le Google Play Store ou l’App Store d�
 
 Avant toute installation, prenez donc le temps de vérifier plusieurs éléments : les permissions demandées, le nombre de téléchargements, la note globale, la date de dernière mise à jour, ainsi que les avis des utilisateurs.
 
-Sur Android, les magasins alternatifs open-source comme [F-Droid](https://f-droid.org/) offrent une solution plus éthique et souvent plus sécurisée : chaque application y est compilée à partir de sources libres, et auditée manuellement. Pour les applications propriétaires nécessaires, des outils comme [Aurora Store](https://auroraoss.com/) permettent d’accéder au Play Store sans compte Google, ce qui limite la collecte de données.
+Sur Android, les magasins alternatifs open source comme [F-Droid](https://f-droid.org/) offrent une solution plus éthique et souvent plus sécurisée : chaque application y est compilée à partir de sources libres, et auditée manuellement. Pour les applications propriétaires nécessaires, des outils comme [Aurora Store](https://auroraoss.com/) permettent d’accéder au Play Store sans compte Google, ce qui limite la collecte de données.
 
 ![Image](assets/fr/140.webp)
 
@@ -3540,7 +3540,7 @@ Le *Work Profile* est une fonctionnalité native d’Android (depuis Android 5.0
 
 ![Image](assets/fr/143.webp)
 
-L’outil Shelter est une application open-source qui exploite cette fonction *Work Profile* du système Android pour offrir aux utilisateurs non professionnels un moyen simple de créer un environnement isolé. Shelter peut être utilisé pour installer et exécuter des applications sensibles dans un espace protégé, ce qui réduit considérablement l’exposition de ces applications aux autres logiciels installés sur le téléphone.
+L’outil Shelter est une application open source qui exploite cette fonction *Work Profile* du système Android pour offrir aux utilisateurs non professionnels un moyen simple de créer un environnement isolé. Shelter peut être utilisé pour installer et exécuter des applications sensibles dans un espace protégé, ce qui réduit considérablement l’exposition de ces applications aux autres logiciels installés sur le téléphone.
 
 ![Image](assets/fr/144.webp)
 
@@ -3718,7 +3718,7 @@ SimpleX Chat, lancée en 2021, supprime totalement la notion d’identifiant uti
 
 Techniquement, les messages sont chiffrés de bout en bout et transitent via des serveurs relais. Ces relais n’ont jamais connaissance de l’expéditeur, du destinataire, ni de leurs clés. Une fois le message transmis, il est immédiatement effacé du serveur. SimpleX adopte une architecture non fédérée et décentralisée : les serveurs ne partagent aucun répertoire global et chaque utilisateur peut installer son propre relais. Cela contraste avec des solutions comme Matrix, où des serveurs fédérés conservent des traces des échanges.
 
-Le protocole est entièrement open-source : les clients, les serveurs et les protocoles sont publiquement accessibles et audités. SimpleX est disponible sur Android, iOS, Linux, Windows et macOS, avec un stockage local chiffré et portable, ce qui permet de transférer un profil sans serveur central. Chaque utilisateur peut aussi gérer plusieurs profils isolés, chacun disposant de ses propres paramètres, pseudonyme et photo. Cette flexibilité permet de séparer clairement vie privée, professionnelle ou pseudonymat.
+Le protocole est entièrement open source : les clients, les serveurs et les protocoles sont publiquement accessibles et audités. SimpleX est disponible sur Android, iOS, Linux, Windows et macOS, avec un stockage local chiffré et portable, ce qui permet de transférer un profil sans serveur central. Chaque utilisateur peut aussi gérer plusieurs profils isolés, chacun disposant de ses propres paramètres, pseudonyme et photo. Cette flexibilité permet de séparer clairement vie privée, professionnelle ou pseudonymat.
 
 L’ajout de contacts se fait via des liens temporaires ou des adresses statiques (des identifiants permanents mais révocables). On peut aussi choisir entre l’échange éphémère ou un mode plus classique, avec des contrôles fins sur la visibilité et les autorisations (par exemple, masquer son nom réel derrière un pseudonyme aléatoire et unique pour chaque contact).
 
@@ -3734,7 +3734,7 @@ Session, lancée en 2020 par l’Oxen Privacy Tech Foundation, est une applicati
 
 Sur le plan technique, Session implémente un chiffrement de bout en bout pour les messages, fichiers, appels audio et vocaux, ainsi que pour les groupes (jusqu’à 100 membres). Le routage des messages s’effectue via un réseau décentralisé reposant sur des serveurs de nœuds dont la conception est inspirée de l’architecture en oignon de Tor. Ce mécanisme offre une protection avancée contre la surveillance réseau, y compris de la part des fournisseurs d’accès Internet ou des acteurs étatiques.
 
-Le client et le serveur de Session sont open-source. Le logiciel est disponible sur Android, iOS, Windows, macOS et Linux, avec une option de synchronisation entre appareils via la phrase mnémonique semblable à celle utilisée dans les portefeuilles Bitcoin. Cette phrase donne un contrôle exclusif à l’utilisateur sur ses données, mais impose aussi une responsabilité importante en matière de sauvegarde.
+Le client et le serveur de Session sont open source. Le logiciel est disponible sur Android, iOS, Windows, macOS et Linux, avec une option de synchronisation entre appareils via la phrase mnémonique semblable à celle utilisée dans les portefeuilles Bitcoin. Cette phrase donne un contrôle exclusif à l’utilisateur sur ses données, mais impose aussi une responsabilité importante en matière de sauvegarde.
 
 https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
@@ -3746,7 +3746,7 @@ Keet, lancée en 2022 par Holepunch (une société soutenue par Tether et Bitfin
 
 Keet chiffre toutes les communications de bout en bout. L’inscription est totalement anonyme : aucun numéro de téléphone, e-mail ou identifiant n’est requis. Cela permet de conserver une confidentialité renforcée dès l’activation du service. Les appels vidéo sont de très haute qualité, et les transferts de fichiers sont sans limite de taille, ce qui le rend adapté à des usages professionnels et personnels.
 
-En revanche, bien que certains composants (cryptographie et réseau) soient publiés en open-source sur GitHub, l’interface cliente de Keet n’était pas entièrement ouverte au moment de la rédaction de SCU 202 (mai 2025). Holepunch a toutefois annoncé son intention de publier l’ensemble du code dans le futur.
+En revanche, bien que certains composants (cryptographie et réseau) soient publiés en open source sur GitHub, l’interface cliente de Keet n’était pas entièrement ouverte au moment de la rédaction de SCU 202 (mai 2025). Holepunch a toutefois annoncé son intention de publier l’ensemble du code dans le futur.
 
 Keet est disponible sur Android, iOS, Windows, macOS et Linux, avec une synchronisation possible entre appareils grâce à une phrase mnémonique.
 
@@ -3760,7 +3760,7 @@ Olvid, lancée en 2019, est une messagerie chiffrée française. Son point fort 
 
 Techniquement, les messages sur Olvid sont chiffrés de bout en bout, grâce à un protocole propriétaire conçu spécifiquement pour protéger non seulement le contenu des messages, mais aussi les métadonnées : personne, y compris le serveur central, ne peut savoir qui communique avec qui, ni quand. Ce modèle réduit significativement les risques d’espionnage et de surveillance.
 
-Cependant, l’infrastructure serveur reste propriétaire et centralisée, hébergée sur AWS (*Amazon Web Services*). Le code du client est open-source depuis quelques années, mais le code du serveur n’est pas publié, ce qui limite la transparence technique du système.
+Cependant, l’infrastructure serveur reste propriétaire et centralisée, hébergée sur AWS (*Amazon Web Services*). Le code du client est open source depuis quelques années, mais le code du serveur n’est pas publié, ce qui limite la transparence technique du système.
 
 Le modèle de sécurité d’Olvid repose sur un principe important : l’absence totale de tiers de confiance dans l’établissement des identités numériques. Contrairement à la majorité des messageries chiffrées qui s’appuient sur un annuaire centralisé pour gérer les identités des utilisateurs, Olvid ne dépend d’aucune infrastructure centralisée pour garantir l’intégrité des communications. Cette architecture élimine ainsi les risques liés à une compromission de l’annuaire.
 
@@ -3787,7 +3787,7 @@ Utiliser des services qui ne respectent pas ces deux prérequis revient à dél�
 Voici un tableau récapitulatif des principales applications de messagerie existantes et de leurs caractéristiques, tel qu’il est établi au moment où j’écris cette formation (mai 2025) :
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open source | Licence serveur open source | Serveur décentralisé | Année de création |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
@@ -3813,10 +3813,10 @@ La sécurité de vos communications électroniques dépend avant tout du choix d
 
 Pour l’instant, nous avons donc exploré comment sécuriser votre smartphone et comment sélectionner une application de messagerie fiable. Dans le chapitre suivant, je vous propose d’élargir cette étude à l’ensemble des grandes familles d’applications mobiles, afin de trouver des alternatives respectueuses de votre vie privée pour remplacer vos applications favorites. Qu’il s’agisse des emails, du stockage de fichiers, de la cartographie, des vidéos ou encore du streaming musical, quelles sont les applications open source qui s’offrent à vous ?
 
-## Applications open-source : les meilleures alternatives
+## Applications open source : les meilleures alternatives
 <chapterId>9c0e056c-45ce-407c-b4b6-f648bbc1f7d5</chapterId>
 
-Au delà des applications de messagerie instantanées, il est important de se rappeler que les autres applications de votre smartphones peuvent exploiter vos données à des fins commerciales. Heureusement, des alternatives open-source et respectueuses de votre vie privée existent. C'est ce que je souhaite vous présenter dans ce chapitre.
+Au delà des applications de messagerie instantanées, il est important de se rappeler que les autres applications de votre smartphones peuvent exploiter vos données à des fins commerciales. Heureusement, des alternatives open source et respectueuses de votre vie privée existent. C'est ce que je souhaite vous présenter dans ce chapitre.
 
 Je ne vais pas revenir ici sur les alternatives pour les navigateurs et les messageries instantanées, car nous en avons déjà parlé en détails dans les chapitres précédents.
 
@@ -3834,7 +3834,7 @@ FairEmail est une application Android complète et orientée sécurité. Elle pr
 
 - [K-9 Mail](https://k9mail.app)
 
-K-9 Mail est un client mail open-source Android, récemment intégré à l’écosystème Thunderbird de Mozilla. Il gère les comptes multiples, le chiffrement PGP via OpenKeychain, et fonctionne sans serveur intermédiaire.
+K-9 Mail est un client mail open source Android, récemment intégré à l’écosystème Thunderbird de Mozilla. Il gère les comptes multiples, le chiffrement PGP via OpenKeychain, et fonctionne sans serveur intermédiaire.
 
 ![Image](assets/fr/156.webp)
 
@@ -3852,13 +3852,13 @@ Tuta (anciennement "*Tutanota*") propose une solution complète d’email chiffr
 
 - [Proton Mail](https://proton.me/mail)
 
-Proton Mail est un service de messagerie sécurisé basé en Suisse, qui propose un chiffrement de bout en bout natif entre utilisateurs Proton. L’application mobile est open-source, sans publicité, et ne collecte aucune donnée personnelle lors de l’inscription. Proton Mail ne prend en charge que les comptes Proton, mais permet l’envoi chiffré même vers des adresses externes via un mot de passe.
+Proton Mail est un service de messagerie sécurisé basé en Suisse, qui propose un chiffrement de bout en bout natif entre utilisateurs Proton. L’application mobile est open source, sans publicité, et ne collecte aucune donnée personnelle lors de l’inscription. Proton Mail ne prend en charge que les comptes Proton, mais permet l’envoi chiffré même vers des adresses externes via un mot de passe.
 
 ![Image](assets/fr/159.webp)
 
 → Un système d'email repose sur 2 composants distincts : le fournisseur d’email (comme Gmail, Tuta ou Proton Mail) qui gère la réception, l’envoi et le stockage des messages via des serveurs ; et le client email, qui est l’application utilisée pour consulter et rédiger vos emails (comme Gmail l'application, Outlook, K-9 Mail ou Thunderbird). Le client peut se connecter à différents fournisseurs via des protocoles standard comme IMAP ou SMTP.
 
-Il est donc possible d’utiliser un client open-source respectueux de la vie privée tout en conservant, dans un premier temps, un compte chez un fournisseur plus classique. Certaines applications, comme Gmail, Proton Mail ou Tuta, proposent des clients email qui font également office de fournisseur de messagerie, et offrent donc une solution complète intégrant à la fois l’interface de lecture et le service d’envoi/réception des emails.
+Il est donc possible d’utiliser un client open source respectueux de la vie privée tout en conservant, dans un premier temps, un compte chez un fournisseur plus classique. Certaines applications, comme Gmail, Proton Mail ou Tuta, proposent des clients email qui font également office de fournisseur de messagerie, et offrent donc une solution complète intégrant à la fois l’interface de lecture et le service d’envoi/réception des emails.
 
 Pour le choix de votre fournisseur d'email, voici quelques suggestions :
 - [Proton Mail](https://proton.me/mail),
@@ -3883,7 +3883,7 @@ Elle ne contient ni publicité, ni suivi, ni collecte de données. L’applicati
 
 - [OsmAnd](https://osmand.net/)
 
-OsmAnd (*OpenStreetMap Automated Navigation Directions*) est une autre application de cartographie open-source très complète. Elle propose la navigation GPS hors ligne, des cartes détaillées (y compris les sentiers, pistes cyclables ou reliefs), et une personnalisation très poussée.
+OsmAnd (*OpenStreetMap Automated Navigation Directions*) est une autre application de cartographie open source très complète. Elle propose la navigation GPS hors ligne, des cartes détaillées (y compris les sentiers, pistes cyclables ou reliefs), et une personnalisation très poussée.
 
 Vous pouvez y activer différents calques (zones piétonnes, transports publics, etc.), définir des alertes de vitesse ou encore intégrer des cartes spécialisées comme celles pour la randonnée ou les itinéraires nautiques.
 
@@ -3907,7 +3907,7 @@ L’application prend en charge l’édition collaborative lorsqu’elle est con
 
 - [ONLYOFFICE](https://www.onlyoffice.com/)
 
-ONLYOFFICE est une suite bureautique open-source. Elle permet d’ouvrir et modifier des documents Word, Excel et PowerPoint directement sur mobile, même en local. Vous pouvez aussi la connecter à divers services cloud pour la synchronisation automatique, comme Nextcloud.
+ONLYOFFICE est une suite bureautique open source. Elle permet d’ouvrir et modifier des documents Word, Excel et PowerPoint directement sur mobile, même en local. Vous pouvez aussi la connecter à divers services cloud pour la synchronisation automatique, comme Nextcloud.
 
 ![Image](assets/fr/163.webp)
 
@@ -3919,7 +3919,7 @@ Les services comme Google Drive ou Dropbox stockent vos fichiers sur des serveur
 
 - [Nextcloud](https://nextcloud.com/)
 
-Nextcloud est une solution de cloud personnel open-source que vous pouvez héberger vous-même ou utiliser via un fournisseur de confiance. Elle permet de synchroniser, partager et éditer vos fichiers depuis votre smartphone, tout en conservant un contrôle total sur leur stockage.
+Nextcloud est une solution de cloud personnel open source que vous pouvez héberger vous-même ou utiliser via un fournisseur de confiance. Elle permet de synchroniser, partager et éditer vos fichiers depuis votre smartphone, tout en conservant un contrôle total sur leur stockage.
 
 Sur Android, vous pouvez installer l'application officielle Nextcloud mobile pour accéder à votre cloud personnel depuis n’importe où. Il est également possible d’y ajouter des fonctions comme la gestion de photos, la bureautique, le calendrier ou encore la messagerie.
 
@@ -3927,7 +3927,7 @@ Sur Android, vous pouvez installer l'application officielle Nextcloud mobile pou
 
 - [Material Files](https://github.com/zhanghai/MaterialFiles)
 
-Material Files est un gestionnaire de fichiers open-source, léger et épuré. Il permet de parcourir, déplacer, copier ou supprimer des fichiers localement sur votre appareil Android.
+Material Files est un gestionnaire de fichiers open source, léger et épuré. Il permet de parcourir, déplacer, copier ou supprimer des fichiers localement sur votre appareil Android.
 
 L'application ne contient ni publicité ni pisteurs, et ne demande aucune permission abusive. C'est donc une alternative intéressante à l’explorateur de fichiers fourni par Google, souvent intégré à d'autres services cloud propriétaires.
 
@@ -3941,13 +3941,13 @@ De nombreuses personnes utilisent des applications comme Google Calendar ou Outl
 
 - [Etar](https://github.com/Etar-Group/Etar-Calendar)
 
-Etar est un calendrier simple et efficace, entièrement open-source. Il peut fonctionner en local, mais permet aussi la synchronisation via CalDAV, un protocole standard pour synchroniser des agendas avec des services respectueux de la vie privée (comme Nextcloud ou EteSync).
+Etar est un calendrier simple et efficace, entièrement open source. Il peut fonctionner en local, mais permet aussi la synchronisation via CalDAV, un protocole standard pour synchroniser des agendas avec des services respectueux de la vie privée (comme Nextcloud ou EteSync).
 
 ![Image](assets/fr/166.webp)
 
 - [Simple Calendar](https://simplemobiletools.com/simplecalendar/)
 
-Cette application fait partie de la suite "*Simple Mobile Tools*". Elle ne nécessite aucun compte ni accès réseau, ce qui en fait une solution idéale pour une utilisation entièrement hors ligne. Vous pouvez y ajouter vos événements, définir des rappels, organiser des vues par jour, semaine ou mois. Comme le reste de la suite, l'application Simple Calendar est sans publicité, sans tracker, et 100 % open-source.
+Cette application fait partie de la suite "*Simple Mobile Tools*". Elle ne nécessite aucun compte ni accès réseau, ce qui en fait une solution idéale pour une utilisation entièrement hors ligne. Vous pouvez y ajouter vos événements, définir des rappels, organiser des vues par jour, semaine ou mois. Comme le reste de la suite, l'application Simple Calendar est sans publicité, sans tracker, et 100 % open source.
 
 ![Image](assets/fr/167.webp)
 
@@ -3959,7 +3959,7 @@ Tuta Calendar, développé par l'équipe derrière Tuta Mail, est un calendrier 
 
 - [Proton Calendar](https://proton.me/calendar)
 
-Proton Calendar offre également un chiffrement de bout en bout natif pour vos événements et leurs métadonnées. Il est accessible sur mobile (Android, iOS) et via un client web, avec une interface claire et intuitive. Le service permet la création de plusieurs calendriers, l’import/export d’événements et des options de partage. Le client web est open-source, mais les applications mobiles ne le sont pas encore totalement.
+Proton Calendar offre également un chiffrement de bout en bout natif pour vos événements et leurs métadonnées. Il est accessible sur mobile (Android, iOS) et via un client web, avec une interface claire et intuitive. Le service permet la création de plusieurs calendriers, l’import/export d’événements et des options de partage. Le client web est open source, mais les applications mobiles ne le sont pas encore totalement.
 
 ![Image](assets/fr/169.webp)
 
@@ -3985,13 +3985,13 @@ Son interface est un peu plus complexe que celle de QuillNote, mais elle reste p
 
 ### Gestionnaire de mots de passe
 
-De nombreux utilisateurs laissent leur navigateur stocker leurs mots de passe via des solutions comme Google Password Manager. Bien que pratique, ce type de gestion centralisée n’offre pas de chiffrement de bout en bout contrôlé par l’utilisateur, et expose vos identifiants à des risques en cas de compromission de votre compte Google. Pour une gestion plus sûre et souveraine de vos mots de passe, plusieurs alternatives open-source sont disponibles.
+De nombreux utilisateurs laissent leur navigateur stocker leurs mots de passe via des solutions comme Google Password Manager. Bien que pratique, ce type de gestion centralisée n’offre pas de chiffrement de bout en bout contrôlé par l’utilisateur, et expose vos identifiants à des risques en cas de compromission de votre compte Google. Pour une gestion plus sûre et souveraine de vos mots de passe, plusieurs alternatives open source sont disponibles.
 
 **Les alternatives :**
 
 - [Bitwarden](https://bitwarden.com/)
 
-Bitwarden est l’un des gestionnaires de mots de passe open-source les plus complets. Il chiffre tous vos identifiants localement, permet de générer des mots de passe forts, et propose une synchronisation chiffrée entre appareils.
+Bitwarden est l’un des gestionnaires de mots de passe open source les plus complets. Il chiffre tous vos identifiants localement, permet de générer des mots de passe forts, et propose une synchronisation chiffrée entre appareils.
 
 Vous pouvez utiliser les serveurs de Bitwarden, ou bien l’auto-héberger si vous le souhaitez pour un contrôle total. Son interface mobile est claire et fluide, avec une intégration parfaite dans le système Android ou iOS.
 
@@ -4023,37 +4023,37 @@ Cependant, tous les VPN ne se valent pas. Des services populaires comme NordVPN 
 
 - [Mullvad VPN](https://mullvad.net/)
 
-Mullvad est l’un des meilleurs VPN en termes de protection de la vie privée. Il ne demande aucun email, ni mot de passe : votre compte est lié à un simple numéro aléatoire. Le paiement peut se faire en bitcoins ou en espèces. Le client mobile est open-source, simple à utiliser et performant. Mullvad ne garde aucun log, ne suit pas ses utilisateurs, et publie régulièrement des audits de sécurité indépendants.
+Mullvad est l’un des meilleurs VPN en termes de protection de la vie privée. Il ne demande aucun email, ni mot de passe : votre compte est lié à un simple numéro aléatoire. Le paiement peut se faire en bitcoins ou en espèces. Le client mobile est open source, simple à utiliser et performant. Mullvad ne garde aucun log, ne suit pas ses utilisateurs, et publie régulièrement des audits de sécurité indépendants.
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 - [IVPN](https://www.ivpn.net/)
 
-IVPN est une autre excellente alternative axée sur la confidentialité. Il propose une interface mobile sobre et efficace, aucune collecte de logs, et permet de s’inscrire anonymement. Vous pouvez aussi payer en bitcoins. L’application intègre un pare-feu bloquant tout trafic hors VPN, ce qui peut être très utile sur smartphone. Les clients sont open-source.
+IVPN est une autre excellente alternative axée sur la confidentialité. Il propose une interface mobile sobre et efficace, aucune collecte de logs, et permet de s’inscrire anonymement. Vous pouvez aussi payer en bitcoins. L’application intègre un pare-feu bloquant tout trafic hors VPN, ce qui peut être très utile sur smartphone. Les clients sont open source.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 - [Proton VPN](https://protonvpn.com/)
 
-Développé par l’équipe de Proton, ce VPN offre un plan gratuit sans publicité. Proton VPN est basé en Suisse, soumis à des lois strictes sur la vie privée, et publie régulièrement des audits. LEs clients sont également open-source.
+Développé par l’équipe de Proton, ce VPN offre un plan gratuit sans publicité. Proton VPN est basé en Suisse, soumis à des lois strictes sur la vie privée, et publie régulièrement des audits. LEs clients sont également open source.
 
 ![Image](assets/fr/174.webp)
 
 ### Authentification 2FA
 
-L’authentification à deux facteurs (2FA) est une couche de sécurité supplémentaire qui s’ajoute à votre mot de passe. Elle repose souvent sur un code à usage unique généré toutes les 30 secondes par une application d’authentification. Ce code est basé sur un secret partagé entre votre appareil et le service en ligne, selon le protocole TOTP (*Time-based One-Time Password*). L’application la plus connue est Google Authenticator, mais elle n'est pas open-source et vous rend dépendant à l’écosystème Google.
+L’authentification à deux facteurs (2FA) est une couche de sécurité supplémentaire qui s’ajoute à votre mot de passe. Elle repose souvent sur un code à usage unique généré toutes les 30 secondes par une application d’authentification. Ce code est basé sur un secret partagé entre votre appareil et le service en ligne, selon le protocole TOTP (*Time-based One-Time Password*). L’application la plus connue est Google Authenticator, mais elle n'est pas open source et vous rend dépendant à l’écosystème Google.
 
 **Les alternatives :**
 
 - [Aegis Authenticator](https://getaegis.app/)
 
-Aegis est une application open-source très complète. Elle chiffre votre base de données 2FA avec un mot de passe, propose des sauvegardes exportables (également chiffrées), et permet de trier vos comptes par dossier. L’interface est claire, moderne, et la restauration sur un nouvel appareil est simple, tant que vous disposez du fichier de sauvegarde et du mot de passe associé.
+Aegis est une application open source très complète. Elle chiffre votre base de données 2FA avec un mot de passe, propose des sauvegardes exportables (également chiffrées), et permet de trier vos comptes par dossier. L’interface est claire, moderne, et la restauration sur un nouvel appareil est simple, tant que vous disposez du fichier de sauvegarde et du mot de passe associé.
 
 ![Image](assets/fr/175.webp)
 
 - [Ente Auth](https://ente.io/auth/)
 
-Ente Auth est une solution moderne, open-source, multiplateforme et dotée de sauvegardes chiffrées de bout en bout. Elle permet de synchroniser vos codes 2FA sur mobile, desktop et web de manière sécurisée. Vous pouvez également l’utiliser en mode hors ligne, sans sauvegarde cloud, ni création de compte.
+Ente Auth est une solution moderne, open source, multiplateforme et dotée de sauvegardes chiffrées de bout en bout. Elle permet de synchroniser vos codes 2FA sur mobile, desktop et web de manière sécurisée. Vous pouvez également l’utiliser en mode hors ligne, sans sauvegarde cloud, ni création de compte.
 
 Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation par tags, icônes personnalisées pour chaque service, notes, favoris, recherche intégrée, partage sécurisé de codes en équipe...
 
@@ -4061,7 +4061,7 @@ Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation p
 
 - [Authy](https://www.authy.com/)
 
-Authy propose la synchronisation 2FA sur plusieurs appareils, ce qui peut être pratique, mais l’application n’est pas open-source et nécessite un numéro de téléphone à l’inscription. Elle reste toutefois plus complète que Google Authenticator pour les débutants, notamment grâce à sa fonction de sauvegarde cloud.
+Authy propose la synchronisation 2FA sur plusieurs appareils, ce qui peut être pratique, mais l’application n’est pas open source et nécessite un numéro de téléphone à l’inscription. Elle reste toutefois plus complète que Google Authenticator pour les débutants, notamment grâce à sa fonction de sauvegarde cloud.
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -4077,7 +4077,7 @@ Les applications météo classiques comme AccuWeather ou Météo France collecte
 
 - [Geometric Weather](https://github.com/WangDaYeeeeee/GeometricWeather)
 
-Geometric Weather propose des prévisions détaillées, des widgets personnalisables, le tout sans publicité ni collecte intrusive. Son code est open-source. L'application prend en charge plusieurs fournisseurs météo.
+Geometric Weather propose des prévisions détaillées, des widgets personnalisables, le tout sans publicité ni collecte intrusive. Son code est open source. L'application prend en charge plusieurs fournisseurs météo.
 
 ![Image](assets/fr/177.webp)
 
@@ -4089,7 +4089,7 @@ Prognoza est une application minimaliste qui va droit à l'essentiel : afficher 
 
 - [Forecastie](https://github.com/martykan/forecastie)
 
-Application de météo simple, basée sur OpenWeatherMap, open-source, configurable, avec des widgets.
+Application de météo simple, basée sur OpenWeatherMap, open source, configurable, avec des widgets.
 
 ![Image](assets/fr/179.webp)
 
@@ -4109,7 +4109,7 @@ LibreTube est une application Android qui permet de visionner des vidéos YouTub
 
 - [NewPipe](https://newpipe.net/)
 
-NewPipe est un autre client YouTube alternatif. Léger, sans publicité, sans pisteur, et entièrement open-source, il permet de visionner, télécharger ou écouter en arrière-plan des vidéos issues de YouTube (et d’autres plateformes comme SoundCloud ou PeerTube). Aucune connexion à Google n’est requise. NewPipe fonctionne de manière totalement indépendante de l’application YouTube officielle, et ne nécessite aucun service Google pour fonctionner.
+NewPipe est un autre client YouTube alternatif. Léger, sans publicité, sans pisteur, et entièrement open source, il permet de visionner, télécharger ou écouter en arrière-plan des vidéos issues de YouTube (et d’autres plateformes comme SoundCloud ou PeerTube). Aucune connexion à Google n’est requise. NewPipe fonctionne de manière totalement indépendante de l’application YouTube officielle, et ne nécessite aucun service Google pour fonctionner.
 
 - [VLC Android](https://www.videolan.org/vlc/download-android.html)
 
@@ -4129,11 +4129,11 @@ Les claviers virtuels comme Gboard de Google ou SwiftKey de Microsoft sont omnip
 
 - [OpenBoard](https://github.com/dslul/openboard)
 
-OpenBoard est un clavier Android minimaliste, open-source, basé sur le clavier AOSP (*Android Open Source Project*). Il ne contient aucun composant propriétaire ni traqueur, et ne communique jamais avec des serveurs distants. L'autocorrection, la saisie prédictive et le dictionnaire personnel fonctionnent en local uniquement.
+OpenBoard est un clavier Android minimaliste, open source, basé sur le clavier AOSP (*Android Open Source Project*). Il ne contient aucun composant propriétaire ni traqueur, et ne communique jamais avec des serveurs distants. L'autocorrection, la saisie prédictive et le dictionnaire personnel fonctionnent en local uniquement.
 
 - [FlorisBoard](https://florisboard.org/)
 
-FlorisBoard propose une approche plus moderne et modulaire. Également open-source, il intègre des fonctionnalités avancées comme la saisie gestuelle, la disposition personnalisée des touches, ou encore la gestion multilingue. Tout le traitement des données se fait localement, sans connexion à des serveurs extérieurs. FlorisBoard est encore en développement, mais déjà tout à fait utilisable au quotidien pour celles et ceux qui souhaitent un clavier puissant, sans sacrifier leur vie privée.
+FlorisBoard propose une approche plus moderne et modulaire. Également open source, il intègre des fonctionnalités avancées comme la saisie gestuelle, la disposition personnalisée des touches, ou encore la gestion multilingue. Tout le traitement des données se fait localement, sans connexion à des serveurs extérieurs. FlorisBoard est encore en développement, mais déjà tout à fait utilisable au quotidien pour celles et ceux qui souhaitent un clavier puissant, sans sacrifier leur vie privée.
 
 ![Image](assets/fr/182.webp)
 
@@ -4145,7 +4145,7 @@ L’application Google Calculator, bien qu’efficace, reste un produit Google e
 
 - [OpenCalc](https://github.com/Darkempire78/OpenCalc)
 
-OpenCalc est une calculatrice open-source simple et rapide, parfaitement adaptée aux besoins du quotidien. Elle ne collecte aucune donnée et fonctionne entièrement hors ligne, sans publicité ni dépendance à un quelconque service externe.
+OpenCalc est une calculatrice open source simple et rapide, parfaitement adaptée aux besoins du quotidien. Elle ne collecte aucune donnée et fonctionne entièrement hors ligne, sans publicité ni dépendance à un quelconque service externe.
 
 ![Image](assets/fr/183.webp)
 
@@ -4157,7 +4157,7 @@ Le Google Play Store est la source par défaut d’applications sur la majorité
 
 - [F-Droid](https://f-droid.org/)
 
-F-Droid est un catalogue d'applications exclusivement open-source. Chaque logiciel disponible y est librement auditable et téléchargeable, sans publicité, ni suivi, ni dépendance aux services Google. L'application F-Droid elle-même ne nécessite pas de compte utilisateur.
+F-Droid est un catalogue d'applications exclusivement open source. Chaque logiciel disponible y est librement auditable et téléchargeable, sans publicité, ni suivi, ni dépendance aux services Google. L'application F-Droid elle-même ne nécessite pas de compte utilisateur.
 
 ![Image](assets/fr/184.webp)
 
@@ -4183,7 +4183,7 @@ Google Contacts, comme beaucoup d’applications par défaut sur Android, synchr
 
 - [Connect You](https://github.com/you-apps/ConnectYou)
 
-Connect You est une alternative open-source légère et sobre, pensée pour ceux qui souhaitent gérer leurs contacts localement, sans collecte de données ni synchronisation forcée avec un cloud tiers. Elle offre une interface intuitive, permet de trier, rechercher et modifier facilement vos entrées, et peut s'intégrer à des services CalDAV si vous utilisez un serveur de contacts auto-hébergé (par exemple via Nextcloud).
+Connect You est une alternative open source légère et sobre, pensée pour ceux qui souhaitent gérer leurs contacts localement, sans collecte de données ni synchronisation forcée avec un cloud tiers. Elle offre une interface intuitive, permet de trier, rechercher et modifier facilement vos entrées, et peut s'intégrer à des services CalDAV si vous utilisez un serveur de contacts auto-hébergé (par exemple via Nextcloud).
 
 ### Gestion de photos
 
@@ -4193,7 +4193,7 @@ Google Photos est très pratique pour sauvegarder automatiquement ses images dan
 
 - [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 
-Simple Gallery est une application open-source minimaliste qui fonctionne entièrement hors ligne. Elle fait partie de la suite *Simple Mobile Tools*. Elle vous permet de gérer, trier, afficher et éditer vos images sans qu’aucune donnée ne quitte votre appareil. Elle intègre aussi des fonctions de retouche, de protection par mot de passe, et une corbeille pour récupérer les éléments supprimés. Aucun traqueur, aucune synchronisation forcée : vos photos restent chez vous.
+Simple Gallery est une application open source minimaliste qui fonctionne entièrement hors ligne. Elle fait partie de la suite *Simple Mobile Tools*. Elle vous permet de gérer, trier, afficher et éditer vos images sans qu’aucune donnée ne quitte votre appareil. Elle intègre aussi des fonctions de retouche, de protection par mot de passe, et une corbeille pour récupérer les éléments supprimés. Aucun traqueur, aucune synchronisation forcée : vos photos restent chez vous.
 
 - [Aves](https://github.com/deckerst/aves)
 
@@ -4203,7 +4203,7 @@ Aves est une alternative avec une interface plus moderne. Elle prend permet une 
 
 - [Ente Photos](https://ente.io/)
 
-Ente Photos est un service open-source (clients + serveurs) de sauvegarde automatique de photos avec chiffrement de bout en bout. Vos images sont chiffrées sur l’appareil avant d’être envoyées, ce qui garantit que même les serveurs Ente ne peuvent y accéder. Ente propose aussi une version auto-hébergeable pour les utilisateurs avancés.
+Ente Photos est un service open source (clients + serveurs) de sauvegarde automatique de photos avec chiffrement de bout en bout. Vos images sont chiffrées sur l’appareil avant d’être envoyées, ce qui garantit que même les serveurs Ente ne peuvent y accéder. Ente propose aussi une version auto-hébergeable pour les utilisateurs avancés.
 
 ![Image](assets/fr/186.webp)
 
@@ -4221,11 +4221,11 @@ Adobe Acrobat Reader, très utilisé pour lire ou annoter des documents PDF, s'a
 
 - [MuPDF Viewer](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
 
-MuPDF Viewer est un lecteur PDF ultra-léger, rapide et totalement open-source. Il consomme très peu de ressources. Bien qu’il ne dispose pas de fonctions avancées comme l’annotation ou la signature, il remplit parfaitement sa mission : afficher vos documents, sans espionnage.
+MuPDF Viewer est un lecteur PDF ultra-léger, rapide et totalement open source. Il consomme très peu de ressources. Bien qu’il ne dispose pas de fonctions avancées comme l’annotation ou la signature, il remplit parfaitement sa mission : afficher vos documents, sans espionnage.
 
 - [MJ PDF Reader](https://gitlab.com/mudlej_android/mj_pdf_reader)
 
-MJ PDF Reader est une application simple et open-source qui permet de lire des fichiers PDF sans publicité ni connexion à un compte en ligne.
+MJ PDF Reader est une application simple et open source qui permet de lire des fichiers PDF sans publicité ni connexion à un compte en ligne.
 
 ### Téléphone
 
@@ -4235,7 +4235,7 @@ L’application Téléphone de Google, installée par défaut sur de nombreux sm
 
 - [Koler](https://github.com/Chooloo/koler)
 
-Koler est une application de téléphonie open-source, conçue pour être à la fois jolie, simple à utiliser et respectueuse de la vie privée. Elle propose une interface fluide et intuitive pour gérer vos appels, sans traqueurs ni analyse de données personnelles. En revanche, elle n'inclut pour le moment pas de filtrage d’appels avancé, ni d’intégration avec des services tiers.
+Koler est une application de téléphonie open source, conçue pour être à la fois jolie, simple à utiliser et respectueuse de la vie privée. Elle propose une interface fluide et intuitive pour gérer vos appels, sans traqueurs ni analyse de données personnelles. En revanche, elle n'inclut pour le moment pas de filtrage d’appels avancé, ni d’intégration avec des services tiers.
 
 ![Image](assets/fr/188.webp)
 
@@ -4247,7 +4247,7 @@ Google Translate est la référence en matière de traduction automatique, mais 
 
 - [TranslateYou](https://github.com/you-apps/TranslateYou)
 
-TranslateYou est une application de traduction open-source qui respecte la vie privée de ses utilisateurs. Elle fonctionne comme une interface pour différents moteurs de traduction (LibreTranslate, LingvaTranslate, Mozhi, DeepL...), et permet de choisir un service qui n’exploite pas vos données.
+TranslateYou est une application de traduction open source qui respecte la vie privée de ses utilisateurs. Elle fonctionne comme une interface pour différents moteurs de traduction (LibreTranslate, LingvaTranslate, Mozhi, DeepL...), et permet de choisir un service qui n’exploite pas vos données.
 
 Aucune publicité, pas de traqueurs, et une interface simple à utiliser font de TranslateYou une alternative pratique à Google Translate.
 
@@ -4255,13 +4255,13 @@ Aucune publicité, pas de traqueurs, et une interface simple à utiliser font de
 
 ### Scanneur de produits
 
-Yuka est largement utilisée pour scanner des produits alimentaires et cosmétiques et évaluer leur qualité, mais elle repose sur un modèle opaque, avec des critères de notation discutables, une base de données partiellement propriétaire et une application non open-source. De plus, son fonctionnement nécessite une connexion à un serveur centralisé, avec collecte potentielle de données d’usage.
+Yuka est largement utilisée pour scanner des produits alimentaires et cosmétiques et évaluer leur qualité, mais elle repose sur un modèle opaque, avec des critères de notation discutables, une base de données partiellement propriétaire et une application non open source. De plus, son fonctionnement nécessite une connexion à un serveur centralisé, avec collecte potentielle de données d’usage.
 
 **Les alternatives :**
 
 - [OpenFoodFacts](https://world.openfoodfacts.org/open-food-facts-mobile-app)
 
-OpenFoodFacts constitue une alternative bien plus transparente et respectueuse de la vie privée. Ce projet collaboratif open-source propose une base de données mondiale, alimentée par les contributions des utilisateurs. Les informations nutritionnelles, les ingrédients et les labels sont accessibles en toute transparence, sans collecte abusive de données.
+OpenFoodFacts constitue une alternative bien plus transparente et respectueuse de la vie privée. Ce projet collaboratif open source propose une base de données mondiale, alimentée par les contributions des utilisateurs. Les informations nutritionnelles, les ingrédients et les labels sont accessibles en toute transparence, sans collecte abusive de données.
 
 L’application mobile permet de scanner les codes-barres, d’accéder immédiatement aux fiches produits, et de contribuer soi-même à enrichir la base. Son fonctionnement est totalement libre, sans publicité ni traqueur.
 
@@ -4275,7 +4275,7 @@ Quick Share est désormais la norme sur Android. Ce logiciel, à l’origine dé
 
 - [Snapdrop](https://github.com/SnapDrop/snapdrop)
 
-Snapdrop est une alternative libre et open-source, sans installation nécessaire. Il permet le partage de fichiers entre appareils connectés au même réseau local, simplement via un navigateur web. Le transfert est direct (en pair-à-pair) et les données ne transitent jamais par un serveur distant.
+Snapdrop est une alternative libre et open source, sans installation nécessaire. Il permet le partage de fichiers entre appareils connectés au même réseau local, simplement via un navigateur web. Le transfert est direct (en pair-à-pair) et les données ne transitent jamais par un serveur distant.
 
 Une alternative intéressante est [PairDrop](https://github.com/schlagmichdoch/pairdrop) (un fork de Snapdrop) qui propose quelques fonctionnalités supplémentaires.
 
@@ -4285,7 +4285,7 @@ Warpinator, développé par Linux Mint, facilite le transfert de fichiers entre 
 
 - [LocalSend](https://localsend.org/)
 
-LocalSend est une autre alternative libre, complète et avec une interface soignée. Entièrement open-source, cette application permet de transférer des fichiers de manière décentralisée et chiffrée de bout en bout entre appareils connectés au même réseau local. Aucun serveur intermédiaire n’est utilisé, ce qui garantit que vos données ne quittent jamais votre réseau domestique.
+LocalSend est une autre alternative libre, complète et avec une interface soignée. Entièrement open source, cette application permet de transférer des fichiers de manière décentralisée et chiffrée de bout en bout entre appareils connectés au même réseau local. Aucun serveur intermédiaire n’est utilisé, ce qui garantit que vos données ne quittent jamais votre réseau domestique.
 
 ![Image](assets/fr/190.webp)
 
@@ -4297,7 +4297,7 @@ Les applications comme Goodreads, bien que largement utilisées, posent de séri
 
 - [Openreads](https://github.com/mateusz-bak/openreads)
 
-Openreads constitue une alternative open-source pour vous offrir un suivi de lecture respectueux de la vie privée. Cette application vous permet de créer une bibliothèque numérique personnelle, de suivre votre progression dans vos lectures, de noter et commenter les ouvrages, et d’accéder à des recommandations basées sur vos propres critères, sans analyse centralisée ni tracking. Toutes les données restent sur votre appareil ou sont synchronisées via des services auto-hébergés.
+Openreads constitue une alternative open source pour vous offrir un suivi de lecture respectueux de la vie privée. Cette application vous permet de créer une bibliothèque numérique personnelle, de suivre votre progression dans vos lectures, de noter et commenter les ouvrages, et d’accéder à des recommandations basées sur vos propres critères, sans analyse centralisée ni tracking. Toutes les données restent sur votre appareil ou sont synchronisées via des services auto-hébergés.
 
 ### Horloge, alarmes et minuteurs
 
@@ -4305,7 +4305,7 @@ Openreads constitue une alternative open-source pour vous offrir un suivi de lec
 
 - [Chrono](https://github.com/vicolo-dev/chrono)
 
-Disponible sur F-Droid et entièrement open-source, Chrono propose une interface moderne et épurée, sans publicité ni collecte de données. Elle permet de créer des alarmes personnalisables : répétition selon des jours précis ou des plages de dates, choix du son, intensité progressive, vibreur, ou encore tâches à réaliser pour désactiver l’alarme (résolution d’un calcul, relecture d’un texte...).
+Disponible sur F-Droid et entièrement open source, Chrono propose une interface moderne et épurée, sans publicité ni collecte de données. Elle permet de créer des alarmes personnalisables : répétition selon des jours précis ou des plages de dates, choix du son, intensité progressive, vibreur, ou encore tâches à réaliser pour désactiver l’alarme (résolution d’un calcul, relecture d’un texte...).
 
 L'application intègre également un minuteur et un chronomètre, avec enregistrement des tours (laps), statistiques, comparaisons de temps, et une gestion multi-timers. Vous pouvez configurer plusieurs fuseaux horaires, personnaliser le thème (couleurs, styles, animations), et même organiser vos alarmes et minuteurs avec des étiquettes.
 
@@ -4491,7 +4491,7 @@ Un routeur compatible Wi-Fi 6, Wi-Fi 6E ou Wi-Fi 7 vous donnera des débits amé
 
 Aussi, veillez à appliquer systématiquement les mises à jour du firmware de votre routeur. Ces mises à jour corrigent des failles, ajoutent de nouvelles fonctionnalités et renforcent la stabilité générale du système. Certains fabricants proposent une mise à jour automatique, mais dans certains cas, il faudra effectuer une vérification manuelle via l’interface d’administration du routeur. Tout comme pour votre téléphone, votre ordinateur, votre système d’exploitation ou vos logiciels, il est donc très important de mettre régulièrement à jour votre routeur. Vous pouvez d’ailleurs intégrer cette vérification dans une routine hebdomadaire, par exemple chaque dimanche, en dressant une liste de tous les éléments à contrôler et à maintenir à jour.
 
-Si votre routeur n’est plus maintenu mais fonctionne correctement d’un point de vue matériel, vous pouvez installer un firmware alternatif open-source, comme :
+Si votre routeur n’est plus maintenu mais fonctionne correctement d’un point de vue matériel, vous pouvez installer un firmware alternatif open source, comme :
 - **OpenWrt**, une distribution Linux spécialisée dans les routeurs, qui offre une grande flexibilité et des mises à jour régulières ;
 - **pfSense** et **OPNsense**, deux systèmes basés sur FreeBSD (type Unix) pour les pare-feux et routeurs x86.
 

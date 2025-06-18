@@ -233,8 +233,8 @@ Para realizar una transferencia, necesitarás usar una billetera Bitcoin local p
 En la mayoría de los casos, la interacción entre los participantes en un contrato (por ejemplo, Alice y Bob) tiene lugar a través de la generación de un recibo. Si Alice quiere que Bob ejecute algo (una transferencia de tokens, una reemisión, una acción en un DAO, etc.), Alice crea un recibo detallando sus instrucciones a Bob. Así tenemos :
 
 
-- Alice** (el emisor del recibo) ;
-- Bob** (que recibe y ejecuta el cobro).
+- **Alice** (el emisor del recibo) ;
+- **Bob** (que recibe y ejecuta el cobro).
 
 A diferencia de otros ecosistemas, una factura RGB no se limita a la noción de pago. Puede incluir cualquier solicitud vinculada al contrato: revocar una clave, votar, crear un grabado (*grabado*) en una NFT, etc. La operación correspondiente puede describirse en la interfaz del contrato.
 

@@ -20,7 +20,7 @@ Alby Hub es una herramienta muy adaptable. Puede satisfacer las necesidades tant
 En función de sus necesidades, Alby Hub está disponible en 4 configuraciones:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud :**
 
 Ideal para principiantes, esta primera opción es la opción en la nube de Alby. Permite desplegar un Hub directamente en un servidor gestionado por Alby, accesible a través de tu interfaz de Alby Hub. Aunque Alby gestiona el servidor, mantienes la soberanía sobre tus fondos, ya que tus claves están encriptadas con una contraseña que solo tú conoces. Sin embargo, tus claves deben permanecer desencriptadas en la RAM para que el nodo funcione, lo que teóricamente las expone a riesgo si alguien accede físicamente al servidor. Es un compromiso interesante para principiantes, pero es importante ser consciente de los riesgos.
 
@@ -29,17 +29,17 @@ La mayor ventaja de esta opción es que dispones de un nodo Lightning en funcion
 Alby Cloud es un servicio de pago [Consulta sus precios](https://albyhub.com/#pricing) para más detalles. La tarifa se deduce automáticamente de tu billetera a través de un cobro via Lightning emitido por Alby. Esto se realiza mediante una conexión NWC que configura tu nodo para pagar automáticamente las facturas de Alby relacionadas con tu suscripción.
 
 
-- Alby Hub con un nodo existente :**
+- **Alby Hub con un nodo existente :**
 
 Si ya dispones de un nodo alojado, por ejemplo en Umbrel o Start9, Alby Hub puede utilizarse como interfaz de gestión avanzada, del mismo modo que ThunderHub o RTL.
 
 
-- Alby Hub local :**
+- **Alby Hub local :**
 
 También es posible instalar Alby Hub directamente en tu PC, aunque esta opción es menos práctica, ya que tu PC debe permanecer activo en todo momento para acceder remotamente al nodo Lightning. Sin embargo, esta alternativa puede ser adecuada para tus necesidades específicas.
 
 
-- Alby Hub en un servidor personal :**
+- **Alby Hub en un servidor personal :**
 
 Para usuarios avanzados, Alby Hub puede ser desplegado en un servidor personal con un simple comando. Esta opción no está cubierta en este tutorial, pero puedes encontrar instrucciones detalladas [en el GitHub de Alby](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 

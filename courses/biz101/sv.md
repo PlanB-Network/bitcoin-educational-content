@@ -62,23 +62,21 @@ Sammanfattningsvis är valutor nätverk som är utformade för att flytta värde
 
 En bra valuta har flera viktiga egenskaper som gör den effektiv när det gäller att underlätta värdeöverföring. Här är en kortfattad förklaring av var och en av dem:
 
-
-- Säker**: En valuta måste skyddas mot stöld eller obehörig åtkomst, så att användarna kan hålla och överföra den med tillit. Säkerheten är avgörande för att skapa förtroende för systemet.
-- Förfalskningssäker**: En valuta måste vara extremt svår eller omöjlig att förfalska. Detta säkerställer att varje enhet är äkta, bibehåller sitt värde och förhindrar inflation som orsakas av att falska enheter kommer i omlopp. Historiskt sett har till exempel guld värderats inte bara för sin skönhet och sällsynthet, utan även för att det är extremt svårt att producera. Till skillnad från papperssedlar eller digitala poster kan man inte bara "göra" guld - det måste utvinnas ur jorden. Denna naturliga knapphet och svårigheten att producera har hjälpt guld att behålla sin status som en pålitlig värdebevarare och ett riktmärke för äkthet.
-- Sällsynt**: En bra valuta måste ha ett begränsat utbud eller kontrollerad utgivning. Knapphet säkerställer att dess värde bevaras över tid och förhindrar överproduktion, vilket skulle urholka köpkraften. Till exempel använde vissa indianstammar pärlor som en form av valuta. Inledningsvis var dessa pärlor svåra att producera, vilket gjorde att de behöll sin knapphet och sitt värde. Men när europeiska handelsmän började massproducera och översvämma marknaden med pärlor försvann deras sällsynthet. I takt med att utbudet steg förlorade pärlorna sin köpkraft, vilket underminerade deras roll som en pålitlig värdebevarare.
-- Utan krav på tillstånd**: Förr i tiden präglades valutor som guld- och silvermynt ofta av privatpersoner, lokala myndigheter eller köpmän som hade tillgång till råvarorna. Detta system fungerade ibland under avtal eller licenser som beviljats av kungar eller härskare. Med tiden centraliserade kungar och regeringar denna process för att få större kontroll över den ekonomiska stabiliteten, beskattningen och det monetära systemet. Ett känt exempel är **thaler**, ett silvermynt som först präglades 1518 i **Joachimsthal-dalen** (dagens Jáchymov i Tjeckien) av lokala gruvarbetare och myndigheter. Namnet "thaler" härstammar från det tyska ordet **"Thal"** som betyder "dal". Dessa mynt, som var kända för sitt högkvalitativa silver, kom att cirkulera över hela Europa. Med tiden utvecklades termen språkligt och geografiskt och gav så småningom upphov till namnet "dollar", som antogs i USA för dess valuta.
+- **Säker**: En valuta måste skyddas mot stöld eller obehörig åtkomst, så att användarna kan hålla och överföra den med tillit. Säkerheten är avgörande för att skapa förtroende för systemet.
+- **Förfalskningssäker**: En valuta måste vara extremt svår eller omöjlig att förfalska. Detta säkerställer att varje enhet är äkta, bibehåller sitt värde och förhindrar inflation som orsakas av att falska enheter kommer i omlopp. Historiskt sett har till exempel guld värderats inte bara för sin skönhet och sällsynthet, utan även för att det är extremt svårt att producera. Till skillnad från papperssedlar eller digitala poster kan man inte bara "göra" guld - det måste utvinnas ur jorden. Denna naturliga knapphet och svårigheten att producera har hjälpt guld att behålla sin status som en pålitlig värdebevarare och ett riktmärke för äkthet.
+- **Sällsynt**: En bra valuta måste ha ett begränsat utbud eller kontrollerad utgivning. Knapphet säkerställer att dess värde bevaras över tid och förhindrar överproduktion, vilket skulle urholka köpkraften. Till exempel använde vissa indianstammar pärlor som en form av valuta. Inledningsvis var dessa pärlor svåra att producera, vilket gjorde att de behöll sin knapphet och sitt värde. Men när europeiska handelsmän började massproducera och översvämma marknaden med pärlor försvann deras sällsynthet. I takt med att utbudet steg förlorade pärlorna sin köpkraft, vilket underminerade deras roll som en pålitlig värdebevarare.
+- **Utan krav på tillstånd**: Förr i tiden präglades valutor som guld- och silvermynt ofta av privatpersoner, lokala myndigheter eller köpmän som hade tillgång till råvarorna. Detta system fungerade ibland under avtal eller licenser som beviljats av kungar eller härskare. Med tiden centraliserade kungar och regeringar denna process för att få större kontroll över den ekonomiska stabiliteten, beskattningen och det monetära systemet. Ett känt exempel är **thaler**, ett silvermynt som först präglades 1518 i **Joachimsthal-dalen** (dagens Jáchymov i Tjeckien) av lokala gruvarbetare och myndigheter. Namnet "thaler" härstammar från det tyska ordet **"Thal"** som betyder "dal". Dessa mynt, som var kända för sitt högkvalitativa silver, kom att cirkulera över hela Europa. Med tiden utvecklades termen språkligt och geografiskt och gav så småningom upphov till namnet "dollar", som antogs i USA för dess valuta.
 
 I modern tid blev valutor helt tillåtna enligt seignioragesystemet, vilket innebär att endast auktoriserade enheter - som centralbanker eller finansministerier - kan prägla mynt eller trycka sedlar. Enskilda personer har inte längre laglig rätt att tillverka valutor, vilket säkerställer centraliserad kontroll över dess utgivning och utbud.
 
 I dag utmanas principen om seigniorage av kryptovalutan Bitcoin, som fungerar utan centraliserad kontroll. Bitcoin är ett "tillståndslöst" system där vem som helst kan delta i att använda valutan utan att be om tillstånd och att skapa den genom mining.  Denna decentralisering tar bort regeringarnas utgivningsmonopol, vilket väcker frågor om en potentiell återgång till konkurrensutsatta valutasystem på den fria marknaden.
 
-
-- Värdeenhet**: En valuta bör tillhandahålla ett standardmått för att jämföra värdet på varor och tjänster. Detta förenklar handeln och gör prissättningen transparent och konsekvent i alla transaktioner.
-- Hållbar**: En valuta måste tåla slitage över tid. Fysiska valutor, som mynt eller sedlar, ska tåla skador, medan digitala valutor måste kunna förvaras säkert utan risk för dataförlust.
-- Portabel**: En valuta måste vara lätt att transportera och använda för att möjliggöra handel över stora avstånd. Detta kan uppnås genom fysisk bärbarhet (lättviktiga mynt eller sedlar) eller digitala överföringssystem.
-- Delbar**: En valuta bör vara delbar i mindre enheter för att underlätta transaktioner av varierande storlek. Denna flexibilitet säkerställer att den är praktisk för både små inköp och storskalig handel.
-- Fungibel**: Alla enheter i en valuta måste vara utbytbara och ha samma värde. Till exempel måste en dollarsedel vara likvärdig med vilken annan dollarsedel som helst. Denna enhetlighet säkerställer rättvisa och enkelhet i transaktioner.
-- Igenkännlig**: En valuta måste vara lätt att identifiera och lita på. Fysiska valutor uppnår detta genom unik design och säkerhetsfunktioner, medan digitala valutor kan förlita sig på verifieringsprotokoll. Detta säkerställer en utbredd acceptans och minskar risken för bedrägerier.
+- **Värdeenhet**: En valuta bör tillhandahålla ett standardmått för att jämföra värdet på varor och tjänster. Detta förenklar handeln och gör prissättningen transparent och konsekvent i alla transaktioner.
+- **Hållbar**: En valuta måste tåla slitage över tid. Fysiska valutor, som mynt eller sedlar, ska tåla skador, medan digitala valutor måste kunna förvaras säkert utan risk för dataförlust.
+- **Portabel**: En valuta måste vara lätt att transportera och använda för att möjliggöra handel över stora avstånd. Detta kan uppnås genom fysisk bärbarhet (lättviktiga mynt eller sedlar) eller digitala överföringssystem.
+- **Delbar**: En valuta bör vara delbar i mindre enheter för att underlätta transaktioner av varierande storlek. Denna flexibilitet säkerställer att den är praktisk för både små inköp och storskalig handel.
+- **Fungibel**: Alla enheter i en valuta måste vara utbytbara och ha samma värde. Till exempel måste en dollarsedel vara likvärdig med vilken annan dollarsedel som helst. Denna enhetlighet säkerställer rättvisa och enkelhet i transaktioner.
+- **Igenkännlig**: En valuta måste vara lätt att identifiera och lita på. Fysiska valutor uppnår detta genom unik design och säkerhetsfunktioner, medan digitala valutor kan förlita sig på verifieringsprotokoll. Detta säkerställer en utbredd acceptans och minskar risken för bedrägerier.
 
 Dessa egenskaper gör att en valuta är praktisk, tillförlitlig och effektiv när det gäller att underlätta handel och lagra värde i en ekonomi.
 
@@ -130,12 +128,11 @@ Betalningssystem är metoder och infrastrukturer som möjliggör överföring av
 
 **Användning inom B2C och B2B:**
 
-
-- B2C (företag-till-konsument):**
+- **B2C (företag-till-konsument):**
     - Konsumenterna använder ofta kontanter, kort och digitala plånböcker för vardagliga inköp, t.ex. matvaror, online-shopping eller tjänster som samåkning.
     - Snabbhet, bekvämlighet och låga avgifter (för konsumenten) är ofta viktiga prioriteringar.
     - Kontaktlösa och mobila betalningar blir alltmer populära i detta område eftersom de är så enkla att använda.
-- B2B (företag-till-företag):**
+- **B2B (företag-till-företag):**
     - Företag förlitar sig ofta på banköverföringar, checkar och faktureringssystem för att betala leverantörer, betala stora räkningar eller hantera återkommande betalningar.
     - Fokus ligger ofta på spårbarhet, dokumentation och förmågan att hantera större transaktionsvärden.
     - Kortanvändning förekommer men tenderar att bli mindre vanligt på grund av högre avgifter och transaktionsgränser. Digitala lösningar som integrerade betalningsplattformar växer fram för att effektivisera och automatisera processerna för kund- och leverantörsreskontra.
@@ -162,11 +159,11 @@ Sammantaget är denna process invecklad, tidskrävande och kostsam för vad som 
 
 | **Kontanter** | Nej | Omedelbar (fysiskt utbyte) | Omedelbar (ingen fördröjning) | Hög (irreversibel när den betalats) | Ingen | Ingen |
 
-| ** Checkar** | Ja (bankclearing) | Godkänd vid insättning (ej garanterad) | Flera dagar (process för checkclearing) | Medium (Kan returneras eller stoppas före clearing) | Bank | **Låg till medel** (bankavgifter)
+| **Checkar** | Ja (bankclearing) | Godkänd vid insättning (ej garanterad) | Flera dagar (process för checkclearing) | Medium (Kan returneras eller stoppas före clearing) | Bank | **Låg till medel** (bankavgifter)
 
 | **Banköverföringar** | Ja (bank/nätverk) | Bekräftelse inom några timmar | Samma dag eller nästa dag (inrikes) | Hög (vanligtvis irreversibel när den skickats) | Banker, betalningsnätverk | **Medel**(fast/procentsats) |
 
-| Betalningskort** | Ja (kortutgivarens auktorisering) | Sekunder till minuter (auktoriseringskod) | Några dagar (mellanbanksavveckling) | Medel (återbetalningar möjliga) | Kortutgivare, kortinlösare, kortnätverk | **Variabel (1-3% av transaktionen)**
+| **Betalningskort** | Ja (kortutgivarens auktorisering) | Sekunder till minuter (auktoriseringskod) | Några dagar (mellanbanksavveckling) | Medel (återbetalningar möjliga) | Kortutgivare, kortinlösare, kortnätverk | **Variabel (1-3% av transaktionen)**
 
 | **Digitala plånböcker/mobilbetalning** | Ja (Plånboksleverantör/bank) | Sekunder (omedelbar bekräftelse) | Vanligtvis 1-2 dagar (beror på finansieringskälla) | Medel (återbetalning/tvist möjlig) | Banker, plånboksoperatörer | **Låg till medel (varierar)** 
 
@@ -202,14 +199,14 @@ Precis som vi gick från att betala per minut för röstsamtal till att använda
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
-**VAD ÄR BITCOIN? **
+**VAD ÄR BITCOIN?**
 
 Bitcoin är ett peer-to-peer-system för digitalt utbyte och handel (elektroniska kontanter). Termen "Bitcoin" hänvisar till följande komponenter:
 
 
-- Ett datorprotokoll** som underlättar värdeöverföring på internet utan mellanhänder, utan krav på tillstånd samt pseudonymt. Det använder avancerade kryptografiska principer.
-- Ett fysiskt nätverk** av internetanslutna maskiner (noder, miners etc.) som drivs av privatpersoner och företag och som utgör ett decentraliserat system (utan någon central myndighet eller kontrollpunkt).
-- Värdeenheten** inom systemet. Det kommer aldrig att finnas mer än 21 miljoner bitcoins. Varje bitcoin är delbar i 100 miljoner enheter som kallas "satoshis", uppkallad efter dess anonyma skapare.
+- **Ett datorprotokoll** som underlättar värdeöverföring på internet utan mellanhänder, utan krav på tillstånd samt pseudonymt. Det använder avancerade kryptografiska principer.
+- **Ett fysiskt nätverk** av internetanslutna maskiner (noder, miners etc.) som drivs av privatpersoner och företag och som utgör ett decentraliserat system (utan någon central myndighet eller kontrollpunkt).
+- **Värdeenheten** inom systemet. Det kommer aldrig att finnas mer än 21 miljoner bitcoins. Varje bitcoin är delbar i 100 miljoner enheter som kallas "satoshis", uppkallad efter dess anonyma skapare.
 
 Tillsammans gör de Bitcoin till en **innehavartillgång** och en digital valuta **utan utgivare**. Ägarskap är säkrat enbart genom innehav av den **privata kryptografiska nyckeln**, vilket ger full kontroll **utan mellanhänder eller betrodda tredje parter**. När ägarskap överförs är **finaliteten** omedelbar: den nya innehavaren äger den helt utan att förlita sig på en central myndighet för skydd eller konvertibilitet. Transaktioner är **oföränderliga** - när de väl har registrerats på blockkedjan kan de inte ändras eller raderas.
 
@@ -229,45 +226,43 @@ Bitcoin får oss att tänka om kring pengars grundläggande natur. Kan du förkl
 
 **BITCOINS IDENTITETSKORT**
 
+- **Ålder:** 15 år (3 januari 2009)
+- **Dagligt växlingsvärde:** 10 miljarder USD (> CAC40)
+- **Börsvärde:** 1,8 biljoner dollar (> Meta, Visa, Silver ; < Apple, Google, Guld)
+- **Användare:** ~100 till 200 miljoner (1-2% av världens befolkning)
+- **Volatilitet:** I grunden ingen (1 Bitcoin = 1 Bitcoin), externt mycket hög (i fiatvalutaväxling)
+- **Prestanda:** Första transaktionen på 0,0009 dollar; nu 100 000 dollar (x100 miljoner)
+- **Nätverkstillgänglighet (drifttid):** 100% sedan 2013
+- **Dödförklarad eller kritiserad:** En gång i månaden
 
-- Ålder:** 15 år (3 januari 2009)
-- Dagligt växlingsvärde:** 10 miljarder USD (> CAC40)
-- Börsvärde:** 1,8 biljoner dollar (> Meta, Visa, Silver ; < Apple, Google, Guld)
-- Användare:** ~100 till 200 miljoner (1-2% av världens befolkning)
-- Volatilitet:** I grunden ingen (1 Bitcoin = 1 Bitcoin), externt mycket hög (i fiatvalutaväxling)
-- Prestanda:** Första transaktionen på 0,0009 dollar; nu 100 000 dollar (x100 miljoner)
-- Nätverkstillgänglighet (drifttid):** 100% sedan 2013
-- Dödförklarad eller kritiserad:** En gång i månaden
-
-**Ett under av mänskligt samarbete
-
+**Ett under av mänskligt samarbete**
 
 - Helt och hållet **öppen källkod**
-- Juridisk person:** Ingen
-- VD:** Ingen
-- Riskkapitalinvesteringar:** Inga
-- Marknadsföring:** Ingen
-- FoU:** Volontärstyrd
-- Styrning:** Av användarna
-- Innovativ ekonomisk modell:** Blockskapande subventioneras av transaktionsavgifter (auktionsbaserad)
+- **Juridisk person:** Ingen
+- **VD:** Ingen
+- **Riskkapitalinvesteringar:** Inga
+- **Marknadsföring:** Ingen
+- **FoU:** Volontärstyrd
+- **Styrning:** Av användarna
+- **Innovativ ekonomisk modell:** Blockskapande subventioneras av transaktionsavgifter (auktionsbaserad)
 
 För mer information om Bitcoin, dess historia, hur det fungerar och hur det används, föreslår jag också att du följer denna andra omfattande kurs:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 ## Introduktion till Lightning Network
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**VAD ÄR LIGHTNING? **
+**VAD ÄR LIGHTNING?**
 
 Lightning Network är **ett protokoll och ett nätverk** som underlättar Bitcoin-transaktioner med minimal interaktion med blockkedjan. Så här fungerar det:
 
-
-- Initial konfiguration:** Medel låses (escrow) på huvudblockkedjan för att upprätta en betalningskanal mellan två parter.
-- Betalningsnätverk:** Ett nät av betalningskanaler mellan flera parter utgör ett betalningsnätverk (routing och sammankoppling).
-- off-chain-transaktioner:** Transaktioner sker mellan parter men publiceras **inte omedelbart** på Bitcoins huvudblockkedja (**"off-chain"**).
-- On-chain-avveckling:** Endast **det slutliga saldot** av en kanals transaktioner publiceras på Bitcoins huvudblockkedja (**"on-chain**"), vilket gör att många transaktioner kan ske under tiden. Denna sammanfogning av flera betalningar minskar överbelastningen och sänker därmed avgifterna jämfört med att göra många on-chain-transaktioner.
-- Kanalstängning:** En användare kan när som helst stänga sin kanal och återfå sina bitcoin genom att publicera det senaste transaktionsstatuset. Detta är principen för transaktioner som är **"publicerbara" när som helst men "opublicerade"** tills det är nödvändigt. Avslutet (kanalstängning) kan vara ensidigt (beslutas av någon av de två parterna när som helst) eller ömsesidigt beslutat (vilket resulterar i lägre on-chain-avgifter)
+- **Initial konfiguration:** Medel låses (escrow) på huvudblockkedjan för att upprätta en betalningskanal mellan två parter.
+- **Betalningsnätverk:** Ett nät av betalningskanaler mellan flera parter utgör ett betalningsnätverk (routing och sammankoppling).
+- **off-chain-transaktioner:** Transaktioner sker mellan parter men publiceras **inte omedelbart** på Bitcoins huvudblockkedja (**"off-chain"**).
+- **On-chain-avveckling:** Endast **det slutliga saldot** av en kanals transaktioner publiceras på Bitcoins huvudblockkedja (**"on-chain**"), vilket gör att många transaktioner kan ske under tiden. Denna sammanfogning av flera betalningar minskar överbelastningen och sänker därmed avgifterna jämfört med att göra många on-chain-transaktioner.
+- **Kanalstängning:** En användare kan när som helst stänga sin kanal och återfå sina bitcoin genom att publicera det senaste transaktionsstatuset. Detta är principen för transaktioner som är **"publicerbara" när som helst men "opublicerade"** tills det är nödvändigt. Avslutet (kanalstängning) kan vara ensidigt (beslutas av någon av de två parterna när som helst) eller ömsesidigt beslutat (vilket resulterar i lägre on-chain-avgifter)
 
 ![BIZ101](assets/en/04.webp)
 
@@ -284,17 +279,17 @@ Lightning Network möjliggör omedelbar värdeöverföring med ljusets hastighet
 **Viktiga fördelar:**
 
 
-- Hastighet:** Omedelbara transaktioner.
-- Låga avgifter:** Mycket lägre kostnader jämfört med traditionella banknätverk.
-- Lätt att ta i bruk:** Företag kan snabbt börja ta emot Lightning-betalningar med hjälp av en smartphone-app eller en betalningsknapp på sin webbplats.
+- **Hastighet:** Omedelbara transaktioner.
+- **Låga avgifter:** Mycket lägre kostnader jämfört med traditionella banknätverk.
+- **Lätt att ta i bruk:** Företag kan snabbt börja ta emot Lightning-betalningar med hjälp av en smartphone-app eller en betalningsknapp på sin webbplats.
 
 Lightning-infrastrukturen överträffar traditionella betalningssystem när det gäller hastighet, kostnad och energieffektivitet. I takt med att allt fler handlare anammar systemet kommer utvecklingen att accelerera: om betalningar kan gå förbi det begränsade mellanbanksnätverket, varför då fortsätta att ge upp en betydande del av intäkterna till dagens mellanhänder?
 
-**Oändliga användningsområden
+**Oändliga användningsområden**
 
 Lightnings tillämpningar sträcker sig långt bortom låga avgifter och snabbhet. Genom att erbjuda en helt kostnadsfri och omedelbar betalningsväg öppnas enorma möjligheter i hela ekonomin.
 
-**Förstärkning av Bitcoins utbyteskapacitet: **
+**Förstärkning av Bitcoins utbyteskapacitet:**
 
 Lightning förstärker Bitcoins roll som ett "bytesmedel". Genom att öka frekvensen och friheten för transaktioner förstärker den pengarnas primära funktion: att underlätta ekonomiska utbyten och värdeskapande för alla användare.
 
@@ -307,23 +302,23 @@ Lightning ger en inblick i en framtid där alla verksamheter som har blivit inte
 Lightning Network är idealisk för Bitcoin-betalningar i fysiska butiker eller onlinebutiker tack vare sin snabbhet och betalningsförmåga.
 
 
-- Hastighet:** Lightning (~500 ms till några sekunder) är betydligt snabbare än Bitcoins huvudnätverk, där det kan ta cirka 30 minuter att bekräfta transaktioner. För stora inköp (långt över 1 000 USD) kan Bitcoins huvudnätverk fortfarande vara att föredra, eftersom hastigheten är mindre kritisk. Dessa detaljer är dock ofta dolda för den genomsnittliga användaren, eftersom applikationer hanterar dessa beslut sömlöst i bakgrunden.
-- Finalitet:** När en betalning har gjorts på Lightning är den slutgiltig. Det finns ingen möjlighet till återbetalningar från tredje part eller bedrägerirelaterade tvister.
-- Avgifter:** Transaktionsavgifterna på Lightning Network är minimala och betalas av användaren, inte av säljaren. Handlare drabbas endast av avgifter om de senare behöver överföra sina bitcoins till ett annat nätverk eller en annan tjänst.
+- **Hastighet:** Lightning (~500 ms till några sekunder) är betydligt snabbare än Bitcoins huvudnätverk, där det kan ta cirka 30 minuter att bekräfta transaktioner. För stora inköp (långt över 1 000 USD) kan Bitcoins huvudnätverk fortfarande vara att föredra, eftersom hastigheten är mindre kritisk. Dessa detaljer är dock ofta dolda för den genomsnittliga användaren, eftersom applikationer hanterar dessa beslut sömlöst i bakgrunden.
+- **Finalitet:** När en betalning har gjorts på Lightning är den slutgiltig. Det finns ingen möjlighet till återbetalningar från tredje part eller bedrägerirelaterade tvister.
+- **Avgifter:** Transaktionsavgifterna på Lightning Network är minimala och betalas av användaren, inte av säljaren. Handlare drabbas endast av avgifter om de senare behöver överföra sina bitcoins till ett annat nätverk eller en annan tjänst.
 
 **LIGHTNINGS IDENTITETSKORT**
 
 
-- Uppfinning:** 2015
-- Lansering:** 2016
-- Ålder:** 7 år (första transaktionen: 28 december 2017)
-- Nätverkets tekniska förmåga:** i stor skala kan det hantera 1.000 gånger fler omedelbara transaktioner än traditionella system.
-- Transaktionsstorlekar:** Från lika stora till 1.000 gånger mindre än traditionella system.
-- Transaktionshastighet:** Upp till 100 gånger snabbare.
-- Avgifter:** Upp till 90% lägre.
-- Betalningens slutgiltighet:** Nära omedelbar (ofta ~500 millisekunder, ibland några sekunder).
-- Energiförbrukning:** ~8% av det traditionella globala monetära systemet.
-- Kännetecken:**
+- **Uppfinning:** 2015
+- **Lansering:** 2016
+- **Ålder:** 7 år (första transaktionen: 28 december 2017)
+- **Nätverkets tekniska förmåga:** i stor skala kan det hantera 1.000 gånger fler omedelbara transaktioner än traditionella system.
+- **Transaktionsstorlekar:** Från lika stora till 1.000 gånger mindre än traditionella system.
+- **Transaktionshastighet:** Upp till 100 gånger snabbare.
+- **Avgifter:** Upp till 90% lägre.
+- **Betalningens slutgiltighet:** Nära omedelbar (ofta ~500 millisekunder, ibland några sekunder).
+- **Energiförbrukning:** ~8% av det traditionella globala monetära systemet.
+- **Kännetecken:**
     - Peer-to-peer
     - Universiell
     - Tillståndsfri
@@ -335,6 +330,7 @@ Lightning Network är idealisk för Bitcoin-betalningar i fysiska butiker eller 
 För mer information om det tekniska arbetet med Lightning Network föreslår jag också att du kollar in denna andra omfattande kurs:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 # Bitcoin i företagskassan
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -402,10 +398,10 @@ Den österrikiska ekonomiska skolan har fått sitt namn efter sina grundare och 
 Enligt den österrikiska synen är kapital djupt förknippat med idén att skjuta upp konsumtion för att bygga verktyg eller produktionsresurser som förbättrar framtida produktion. Denna process, som kallas kapitalackumulation, är central i den österrikiska ekonomiska teorin. Viktiga element i detta perspektiv inkluderar:
 
 
-- Tidspreferens och uppskjuten konsumtion**: Individer föredrar naturligtvis att konsumera nu snarare än senare, men de kan välja att skjuta upp konsumtionen om de förväntar sig större belöningar i framtiden. Genom att spara idag kan resurser investeras i kapitalvaror (verktyg, maskiner, infrastruktur) som förbättrar produktiviteten över tid. Samhällen eller individer med lägre tidspreferens sparar mer och investerar i långsiktiga projekt, vilket främjar en hållbar tillväxt.
-- Kapital som drivkraft för framtida produktion**: Kapitalvaror ses som mellanliggande verktyg som används för att producera slutliga konsumtionsvaror. Genom att samla på sig kapital kan företagare öka produktiviteten och skapa mer välstånd i framtiden. I stället för att producera konsumtionsvaror omedelbart kan resurserna till exempel användas för att bygga fabriker eller maskiner. Detta minskar visserligen den kortsiktiga konsumtionen, men den resulterande effektiviteten möjliggör större produktion och välstånd senare.
-- Indirekt produktion och effektivitet**: Österrikiska ekonomer, som Eugen Böhm-Bawerk, lyfte fram idén om indirekt produktion - längre och mer komplexa produktionsprocesser som involverar flera steg. Även om dessa processer tar tid ger de i slutändan mer effektiva och produktiva resultat, till exempel att bygga ett sågverk för att bearbeta trä i stället för att samla in stockar för hand.
-- Räntor som signaler**: Enligt den österrikiska synen speglar räntorna på ett naturligt sätt individers tidspreferenser. Höga räntor indikerar en preferens för omedelbar konsumtion, medan låga räntor uppmuntrar till sparande och långsiktiga investeringar. När centralbankerna manipulerar räntorna på konstgjord väg förvränger de dessa naturliga signaler, vilket leder till felallokerade resurser och ohållbara investeringar.
+- **Tidspreferens och uppskjuten konsumtion**: Individer föredrar naturligtvis att konsumera nu snarare än senare, men de kan välja att skjuta upp konsumtionen om de förväntar sig större belöningar i framtiden. Genom att spara idag kan resurser investeras i kapitalvaror (verktyg, maskiner, infrastruktur) som förbättrar produktiviteten över tid. Samhällen eller individer med lägre tidspreferens sparar mer och investerar i långsiktiga projekt, vilket främjar en hållbar tillväxt.
+- **Kapital som drivkraft för framtida produktion**: Kapitalvaror ses som mellanliggande verktyg som används för att producera slutliga konsumtionsvaror. Genom att samla på sig kapital kan företagare öka produktiviteten och skapa mer välstånd i framtiden. I stället för att producera konsumtionsvaror omedelbart kan resurserna till exempel användas för att bygga fabriker eller maskiner. Detta minskar visserligen den kortsiktiga konsumtionen, men den resulterande effektiviteten möjliggör större produktion och välstånd senare.
+- **Indirekt produktion och effektivitet**: Österrikiska ekonomer, som Eugen Böhm-Bawerk, lyfte fram idén om indirekt produktion - längre och mer komplexa produktionsprocesser som involverar flera steg. Även om dessa processer tar tid ger de i slutändan mer effektiva och produktiva resultat, till exempel att bygga ett sågverk för att bearbeta trä i stället för att samla in stockar för hand.
+- **Räntor som signaler**: Enligt den österrikiska synen speglar räntorna på ett naturligt sätt individers tidspreferenser. Höga räntor indikerar en preferens för omedelbar konsumtion, medan låga räntor uppmuntrar till sparande och långsiktiga investeringar. När centralbankerna manipulerar räntorna på konstgjord väg förvränger de dessa naturliga signaler, vilket leder till felallokerade resurser och ohållbara investeringar.
 
 **Två former av kapital i moderna ekonomier**
 
@@ -431,17 +427,15 @@ Den **österrikiska ekonomiska skolan** är en tradition av ekonomiskt tänkande
 
 **Nyckelpersoner inom den österrikiska skolan**
 
-
-- Carl Menger**: Grundaren av den österrikiska skolan, Menger, utvecklade teorin om subjektivt värde, som hävdar att värdet på varor beror på individuella preferenser snarare än produktionskostnader.
-- Ludwig von Mises**: En av hörnstenarna i den österrikiska skolan, Mises introducerade praxeologi (teorin om mänskligt handlande) och skrev _Human Action_, en djupgående kritik av socialism och centralplanering.
-- Friedrich Hayek**: Elev till Mises, Hayek fick Nobelpriset i ekonomi 1974 för sitt arbete med decentraliserad kunskap och spontanitet på marknaden. I sin bok _The Road to Serfdom_ kritiserade han starkt centraliserad kontroll.
-- Murray Rothbard**: Rothbard, som var en lärjunge till Mises och en stark förespråkare för libertarianism, utvecklade teorin om anarkokapitalism och föreställde sig ett statslöst samhälle som styrs av frivilliga avtal. Hans bok _Man, Economy, and State_ är ett banbrytande verk inom österrikisk ekonomi.
+- **Carl Menger**: Grundaren av den österrikiska skolan, Menger, utvecklade teorin om subjektivt värde, som hävdar att värdet på varor beror på individuella preferenser snarare än produktionskostnader.
+- **Ludwig von Mises**: En av hörnstenarna i den österrikiska skolan, Mises introducerade praxeologi (teorin om mänskligt handlande) och skrev _Human Action_, en djupgående kritik av socialism och centralplanering.
+- **Friedrich Hayek**: Elev till Mises, Hayek fick Nobelpriset i ekonomi 1974 för sitt arbete med decentraliserad kunskap och spontanitet på marknaden. I sin bok _The Road to Serfdom_ kritiserade han starkt centraliserad kontroll.
+- **Murray Rothbard**: Rothbard, som var en lärjunge till Mises och en stark förespråkare för libertarianism, utvecklade teorin om anarkokapitalism och föreställde sig ett statslöst samhälle som styrs av frivilliga avtal. Hans bok _Man, Economy, and State_ är ett banbrytande verk inom österrikisk ekonomi.
 
 **Andra inflytelserika ekonomer**
 
-
-- Milton Friedman**: Även om Friedman inte direkt förknippas med den österrikiska skolan stödde han många marknadsvänliga och liberala idéer. Hans monetaristiska politik skiljer sig från österrikiska tankar men delar deras kritik av överdriven statlig inblandning i ekonomin.
-- Frédéric Bastiat**: Bastiat var en fransk ekonom på 1800-talet som påverkade den österrikiska skolan med sina verk om frihandel och de osynliga konsekvenserna av ekonomisk politik. Hans essä _What Is Seen and What Is Not Seen_ är en grundläggande text i den ekonomiska liberalismen.
+- **Milton Friedman**: Även om Friedman inte direkt förknippas med den österrikiska skolan stödde han många marknadsvänliga och liberala idéer. Hans monetaristiska politik skiljer sig från österrikiska tankar men delar deras kritik av överdriven statlig inblandning i ekonomin.
+- **Frédéric Bastiat**: Bastiat var en fransk ekonom på 1800-talet som påverkade den österrikiska skolan med sina verk om frihandel och de osynliga konsekvenserna av ekonomisk politik. Hans essä _What Is Seen and What Is Not Seen_ är en grundläggande text i den ekonomiska liberalismen.
 
 ![BIZ101](assets/en/06.webp)
 
@@ -466,7 +460,6 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 Kassan är den plats där man förvarar dyrbara saker. Ett sunt företag är väl kapitaliserat för att kunna hantera framtida osäkerhet och planera sina investeringar. Numera placeras en del av överskottet i finansiella tillgångar som anses ha hög "likviditet", till exempel obligationer, tidsbundna insättningar och så vidare.
 
 Under en mycket lång tidshorisont använder vissa företag illikvida tillgångar som fastigheter utan att inse vissa faror:
-
 
 - Illikviditet i händelse av kris
 - I slutändan ganska låg avkastning när avgifterna har dragits av
@@ -585,11 +578,10 @@ I detta andra scenario blir det viktigt att harmonisera olika synpunkter, efters
 
 För närvarande är scenariot med en majoritetsägare som fattar beslut det mest representativa bland företag som äger Bitcoin. Här är några verkliga exempel :
 
-
-- Oberoende yrkesutövare**: Konsulter, sjukvårdspersonal eller advokater som investerar en del av sin långsiktiga kassa i Bitcoin. I allmänhet har dessa yrkesutövare redan spar- eller tidsbundna depositionskonton med låg avkastning.
-- Chefer inom den tekniska sektorn**: En chef som sålde sitt företag och investerade en del av intäkterna från sitt personliga holdingbolag i Bitcoin för några år sedan. Idag har de en bekväm finansiell situation och återinvesterar i nya satsningar.
-- Ägare av mycket små företag**: Entreprenörer inom tjänster, jordbruk eller hantverk som har förstått Bitcoins potential och avsätter en del av sin kassa till den. Deras primära motivation ligger i diversifiering och den frihet som det ger.
-- Börsnoterade företag** som MicroStrategy har skapat ett prejudikat genom att konvertera en betydande del av sin företagskassa till Bitcoin, vilket visar på ett globalt skifte i företagens allokeringsstrategier. Hösten 2024 hade många andra företag följt efter, vilket ytterligare legitimerade denna trend.
+- **Oberoende yrkesutövare**: Konsulter, sjukvårdspersonal eller advokater som investerar en del av sin långsiktiga kassa i Bitcoin. I allmänhet har dessa yrkesutövare redan spar- eller tidsbundna depositionskonton med låg avkastning.
+- **Chefer inom den tekniska sektorn**: En chef som sålde sitt företag och investerade en del av intäkterna från sitt personliga holdingbolag i Bitcoin för några år sedan. Idag har de en bekväm finansiell situation och återinvesterar i nya satsningar.
+- **Ägare av mycket små företag**: Entreprenörer inom tjänster, jordbruk eller hantverk som har förstått Bitcoins potential och avsätter en del av sin kassa till den. Deras primära motivation ligger i diversifiering och den frihet som det ger.
+- **Börsnoterade företag** som MicroStrategy har skapat ett prejudikat genom att konvertera en betydande del av sin företagskassa till Bitcoin, vilket visar på ett globalt skifte i företagens allokeringsstrategier. Hösten 2024 hade många andra företag följt efter, vilket ytterligare legitimerade denna trend.
 
 ### Beskattning av Bitcoin som ägs av företag
 
@@ -611,20 +603,18 @@ Det finns tre sätt att skaffa Bitcoin:
 
 ![BIZ101](assets/en/09.webp)
 
-
-- I utbyte mot varor eller tjänster:**
+- **I utbyte mot varor eller tjänster:**
 
 Eftersom Bitcoin fungerar som ett bytesmedel är det möjligt att föreställa sig en cirkulär ekonomi. Även om detta fortfarande är ovanligt idag börjar fler och fler företag acceptera Bitcoin-betalningar - varför inte ditt? (Se vårt nästa kapitel)
 
-
-- Mining:**
+- **Mining:**
 
 Detta innebär att man tjänar belöningar på att använda mining-maskiner. För icke-specialiserade företag är detta fortfarande relativt marginellt. Du kan delta genom mellanhänder som säljer eller hyr ut datorer, nätverk och underhåll till dig. Om du äger maskinerna kan du redovisa dem som avskrivningsbara tillgångar. I stor skala måste du noggrant beräkna avkastningen på investeringen eftersom marknaden är mycket konkurrensutsatt och kräver en god framförhållning när det gäller kostnader, särskilt el.
 
 Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar] (https://planb.network/tutorials/Mining).
 
 
-- Köp av Bitcoin:**
+- **Köp av Bitcoin:**
 
 Detta är den absolut vanligaste metoden och sker antingen via peer-to-peer-börser eller, mer typiskt, på specialiserade handelsplattformar. Men när företag skaffar Bitcoin som en tillgång i företagets kassa måste de följa robusta regleringsstandarder och Know-Your-Customer (KYC). När de handlar på specialiserade handelsplattformar måste företagen vanligtvis tillhandahålla detaljerad företagsinformation, inklusive identitetshandlingar, finansiella rapporter och bevis på adress, för att uppfylla kraven på kundkännedom och bekämpning av penningtvätt (AML).
 
@@ -660,7 +650,7 @@ Fastighetsbranschen upprepar ofta att "det alltid är rätt tid att köpa" och g
 
 ![BIZ101](assets/en/13.webp)
 
-*Kredit: [Bitcoin Office] (https://Bitcoin.gob.sv/)*
+*Källa: [Bitcoin Office] (https://Bitcoin.gob.sv/)*
 
 ### I vilken form ska man köpa? (Metoder för förvaring)
 
@@ -670,18 +660,17 @@ Denna kryptografiska nyckel är ett extremt stort slumptal. För att förenkla a
 
 Detta leder till frågan om förvaring: att äga Bitcoin innebär att man äger nyckeln/nycklarna. Antingen har du dem själv, eller så delegerar du uppgiften till en tredje part. Det finns också mellanliggande lösningar. Låt oss granska de vanligaste scenarierna:
 
-
-- Självförvaring:**
+- **Självförvaring (Self-Custody):**
 
 Detta är det alternativ som rekommenderas av Bitcoin-entusiaster, eftersom det överensstämmer med Bitcoins ursprungliga design. Du agerar som din egen bank: det finns ingen risk för att en tredje part lurar dig, men du är ansvarig för att säkra nyckeln/nycklarna. Du har full tillgång till dina pengar 24/7. I en affärsmiljö, om flera personer kan behöva göra transaktioner, behöver du lämpliga verktyg och rutiner för att hantera åtkomst och säkerhet.
 
 
-- Förvaring hos tredje part:**
+- **Förvaring hos tredje part:**
 
 Till exempel kan en börs eller en köptjänst skapa ett konto åt dig, konvertera din traditionella valuta till Bitcoin och hålla den för din räkning med hjälp av sina säkerhetssystem. De flesta sådana tjänster låter dig ta ut dina bitcoins till en digital plånbok där du ensam har nyckeln. Innan du gör det äger du inte bitcoins på riktigt; du förlitar dig på deras löfte att betala tillbaka dig. Detta innebär en avvägning mellan säkerhetsrisker (deras kontra dina) och motpartsrisker (de kan gå i konkurs eller försvinna). Vissa företag tycker att detta är acceptabelt, även om det i allmänhet inte rekommenderas för långvarig lagring eller för 100% av din allokering. Förvaringstjänster kan också ta ut förvaringsavgifter.
 
 
-- "Pappers-Bitcoin" (ETF:er eller ETP:er):**
+- **"Pappers-Bitcoin" (ETF:er eller ETP:er):**
 
 Dessa är traditionella finansiella instrument som representerar fraktioner av Bitcoin och replikerar dess prisutveckling. Institutionen bakom produkten köper och innehar teoretiskt sett den underliggande Bitcoin. Dina bidrag och uttag görs i traditionell valuta (t.ex. dollar eller euro), inte i Bitcoin. Med undantag för vissa produkter som tillåter uttag i faktiska Bitcoin (för att undvika en skattepliktig händelse i vissa jurisdiktioner), innebär dessa instrument årliga förvaltningsavgifter. Här förlitar du dig på institutionens säkerhet och står inför motpartsrisk (till exempel om en regering beslutar att beslagta alla Bitcoin som innehas av institutioner, vilket hände med guld 1933 enligt USA:s Executive Order 6102). Deras främsta fördel är att de är lättillgängliga, eftersom de distribueras via traditionella finansiella kanaler. De kringgår behovet av att säkra kryptografiska nycklar men erbjuder inga av Bitcoins inneboende egenskaper: du kan inte använda Bitcoin-nätverket 24/7 för att flytta värde fritt utan tillstånd. De replikerar bara den finansiella prestandan, inte funktionaliteten eller suveräniteten hos Bitcoin självt.
 
@@ -698,12 +687,12 @@ Om du väljer "pappers-Bitcoin" vänder du dig till finansinstitut som banker el
 Om du väljer att köpa faktiska Bitcoin via en marknadsplats (börs) eller en mäklare har du flera huvudkategorier:
 
 
-- Stora internationella eller utländska plattformar:**
+- **Stora internationella eller utländska plattformar:**
 
 Exempel är Kraken, Coinbase eller Binance, som historiskt använts av många privatpersoner. Vissa har stött på problem, och det är svårt att göra en tydlig rekommendation. Ett råd: om du använder dem, lämna inte dina bitcoins där längre än nödvändigt.
 
 
-- Reglerade tjänsteleverantörer (registrerade tjänsteleverantörer av digitala tillgångar):**
+- **Reglerade tjänsteleverantörer (registrerade tjänsteleverantörer av digitala tillgångar):**
 
 Till exempel i Frankrike är plattformar som Paymium (börs) eller BullBitcoin (mäklare) kända för att ha äkta Bitcoin-entusiaster vid rodret och har byggt en stark meritlista. I USA har du tjänsteleverantörer som River eller Swann. I allmänhet är det viktigt att undersöka leverantörens bakgrund: deras rykte, meritlista, popularitet inom Bitcoin-samhället och om deras ledarskap är i linje med Bitcoins kärnvärderingar.
 
@@ -716,12 +705,12 @@ Till exempel i Frankrike är plattformar som Paymium (börs) eller BullBitcoin (
 Utöver avgifter och genomförandehastighet - som spelar mindre roll om du tänker långsiktigt (flera år) - bör ett företag också överväga:
 
 
-- Användargränssnitt:** Är plattformen användarvänlig?
-- Redovisningsfunktioner:** Åtminstone ha möjligheten att exportera transaktionshistorik i CSV-format.
-- Förvaring och säkerhet:** Håller plattformen bitcoins för din räkning, eller överför den ägarskap till dig? Vad är deras säkerhetsinställning? Har de "uttagsblockeringar" eller andra uttagsbegränsningar?
-- Kundsupport:** Kvaliteten, lyhördheten och den personliga hjälpen, särskilt när du kommer igång.
-- Rykte and etik:** Plattformens trovärdighet och värderingar.
-- Stöd för återkommande köp:** Om du planerar att samla Bitcoin över tid med schemalagda köp.
+- **Användargränssnitt:** Är plattformen användarvänlig?
+- **Redovisningsfunktioner:** Åtminstone ha möjligheten att exportera transaktionshistorik i CSV-format.
+- **Förvaring och säkerhet:** Håller plattformen bitcoins för din räkning, eller överför den ägarskap till dig? Vad är deras säkerhetsinställning? Har de "uttagsblockeringar" eller andra uttagsbegränsningar?
+- **Kundsupport:** Kvaliteten, lyhördheten och den personliga hjälpen, särskilt när du kommer igång.
+- **Rykte and etik:** Plattformens trovärdighet och värderingar.
+- **Stöd för återkommande köp:** Om du planerar att samla Bitcoin över tid med schemalagda köp.
 
 # Skräddarsydda Bitcoin-betalningslösningar för alla företag
 
@@ -742,32 +731,27 @@ Bitcoin är en infrastruktur för förtroende, vars första tillämpning är att
 Tänk nu på perspektivet för ett praktiskt företag vars kärnverksamhet inte har något att göra med Bitcoin. Varför skulle de välja att acceptera Bitcoin-betalningar?
 
 
-- Att bygga en Bitcoin-baserad företagskassa:**
+- **Att bygga en Bitcoin-baserad företagskassa:**
 
 Se vår tidigare artikel om att köpa Bitcoin. Oavsett om det beror på övertygelse eller som en diversifieringsstrategi väljer vissa yrkesverksamma att acceptera Bitcoin-betalningar. Vissa Bitcoiners hävdar att ju mindre ekonomiskt benäget ett företag är - vilket innebär att det varken har tid eller verktyg för att engagera sig i komplexa finansiella manövrer - **desto viktigare blir det för det företaget att betalas i den hårdaste formen av pengar**. På så sätt jämnas spelplanen ut, vilket gör det möjligt även för små, tidsbegränsade företag att bevara värdet utan att fastna i finansiella spel.
 
-
-- Att nå en ny demografisk grupp:**
+- **Att nå en ny demografisk grupp:**
 
 Antalet Bitcoin-användare växer och de har en betydande köpkraft. De kommer naturligtvis att söka sig till företag som accepterar deras valuta. Eftersom detta är den första universella, internetbaserade valutan kan du dessutom locka internationella kunder.
 
-
-- Ökad synlighet:**
+- **Ökad synlighet:**
 
 Genom att till exempel lista ditt företag på plattformar som BTCmap.org. I dag är det fortfarande få företag som accepterar Bitcoin, vilket gör att mun-till-mun-marknadsföring verkar till din fördel. Det får dig också att sticka ut från konkurrenterna.
 
-
-- Lägre avgifter:**
+- **Lägre avgifter:**
 
 Omedelbara Bitcoin-betalningar sker över Lightning Network. **Avgifterna är minimala och betalas av köparen**. Det finns inga avgifter för betalterminaler, inga misslyckade betalningsauktoriseringar och inga bedrägerier. Som jämförelse kostar betalningsindustrin (kort, terminaler, överföringar, PSP:er etc.) cirka 2,2 biljoner USD per år globalt. Lägg därtill återbetalningar och bedrägerier, och totalt sett "skummas" nästan en tiondel av motsvarande USA:s BNP av produktiva företag världen över bara för att överföra värde. Oavsett vilken verksamhet du bedriver är finansiella avgifter en börda som bör optimeras, och i vissa fall kan höga avgifter kväva vissa affärsmodeller.
 
-
-- Frihet och tillståndslöshet, 24/7:**
+- **Frihet och tillståndslöshet, 24/7:**
 
 Det är inte nödvändigt av att be om tillstånd för att använda Bitcoin. Vem som helst kan delta i ekonomin inom några minuter med hjälp av en smartphone-app. Du kan skicka eller ta emot en betalning från vem som helst - privatperson eller företag - när som helst, utan några schemabegränsningar eller förseningar.
 
-
-- Utnyttja fördelarna med Bitcoin-nätverket:**
+- **Utnyttja fördelarna med Bitcoin-nätverket:**
 
 Du behöver inte behålla dina betalningar i Bitcoin-form - särskilt inte om du behöver betala leverantörer eller betala in moms. Vissa tjänster kan konvertera hela eller delar av dina Bitcoin-betalningar till den valuta du väljer (t.ex. euro till ditt IBAN-nummer) mot en avgift. I det här scenariot kan fördelen med att acceptera Bitcoin ligga i att locka nya användare eller i Bitcoins fördelar (t.ex. lägre avgifter, drift dygnet runt och ingen risk för bedrägeri eller återbetalningar).
 

@@ -28,8 +28,8 @@ En otras palabras, con esta aplicación, podrás :
 
 
 
-- Interactuar con Lightning Network**: Podrás utilizar líneas de comandos para crear billeteras de Lightning Network, gestionar canales y rutas de pago, y mucho más, directamente desde el terminal de tu máquina.
-- Vincular un nodo remoto de Bitcoin o de tu propia instancia de Bitcoin Core**: LND te permite enlazar una instancia de Bitcoin y utilizarla como backend. Para usar esta implementación, no necesitarás ejecutar una instancia de Bitcoin Core en tu máquina.
+- **Interactuar con Lightning Network**: Podrás utilizar líneas de comandos para crear billeteras de Lightning Network, gestionar canales y rutas de pago, y mucho más, directamente desde el terminal de tu máquina.
+- **Vincular un nodo remoto de Bitcoin o de tu propia instancia de Bitcoin Core**: LND te permite enlazar una instancia de Bitcoin y utilizarla como backend. Para usar esta implementación, no necesitarás ejecutar una instancia de Bitcoin Core en tu máquina.
 
 
 
@@ -57,10 +57,10 @@ En este sentido, la ejecución de un nodo Lightning aumenta la seguridad e integ
 
 
 
-- Control total**: Gestiona tus propios canales de pago, conviértete en tu propio banco y sé dueño de tus activos.
-- Confidencialidad**: Realiza transacciones sin depender de terceros para proteger su privacidad.
-- Aprendizaje y autonomía**: Gracias a los comandos `lncli`, puedes comprender mejor los procesos subyacentes de Lightning aplicándote desde tu terminal.
-- Descentralización**: Participar activamente en el refuerzo y la descentralización del Bitcoin / Lightning Network.
+- **Control total**: Gestiona tus propios canales de pago, conviértete en tu propio banco y sé dueño de tus activos.
+- **Confidencialidad**: Realiza transacciones sin depender de terceros para proteger su privacidad.
+- **Aprendizaje y autonomía**: Gracias a los comandos `lncli`, puedes comprender mejor los procesos subyacentes de Lightning aplicándote desde tu terminal.
+- **Descentralización**: Participar activamente en el refuerzo y la descentralización del Bitcoin / Lightning Network.
 
 
 
@@ -83,7 +83,7 @@ Como LND está escrito en Go, necesitas asegurarte de que tienes el entorno GoLa
 
 
 
-- Requisitos de hardware:**
+- **Requisitos de hardware:**
 
 
 Para disfrutar de una experiencia fluida y sin problemas, tu máquina deberá tener la capacidad necesaria para ejecutar su nodo LND Lightning.
@@ -105,7 +105,7 @@ Necesitarás :
 
 
 
-- Instalar dependencias útiles:**
+- **Instalar dependencias útiles:**
 
 
 El siguiente comando te permitirá instalar en tu máquina las herramientas necesarias para ejecutar LND. Entre otras cosas, necesitarás instalar `Git`, una herramienta de versionado, y `make`, que puede ejecutar y construir la implementación de LND desde el código fuente.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Instala GoLang en tu máquina Linux**
+- **Instala GoLang en tu máquina Linux**
 
 
 
-A la fecha de este tutorial, LND requiere la versión 1.23.6 de Go*** para su instalación.
+A la fecha de este tutorial, LND requiere la ***versión 1.23.6 de Go*** para su instalación.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Configuración del entorno Go**
+- **Configuración del entorno Go**
 
 
 En tu archivo `~/.bashrc`, inicializa las siguientes variables de entorno para añadir Go a tu sistema Linux.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Comprobación de la instalación** (en francés)
+- **Comprobación de la instalación** (en francés)
 
 
 ```bash

@@ -1,11 +1,11 @@
 ---
-name: Canaan Avalon Nano 3S & Mini 3
+name: Canaan Avalon Mini 3
 description: Configurer son ASIC Avalon pour solominer ou miner en pool
 ---
 
 ![cover](assets/cover.webp)
 
-Dans ce tutoriel, nous allons passer en revue la mise en place de 2 appareils de la marque Canaan, permettant de facilement miner à la maison.
+Dans ce tutoriel, nous allons passer en revue la mise en place du Avalon Mini 3 de la marque Canaan, permettant de facilement miner à la maison.
 
 Jusque-là les machines ASIC (*Application Specific Integrated Circuit*) spécifiquement conçues pour effectuer une tâche donnée, en l'occurrence le calcul de hashs (SHA-256) pour miner du bitcoin, étaient particulièrement inadaptées à un usage domestique. Les nuisances en termes de bruit, de chaleur générée à évacuer, voir la nécessité d'adapter son installation électrique pour supporter l'énorme puissance de ces appareils empêchaient la plupart d'entre nous de participer.
 
@@ -13,46 +13,17 @@ Aujourd'hui Canaan, un des principaux fabricants de machines ASIC décide de s'a
 
 Ces appareils sont marketés comme étant pour l'un un chauffage d'appoint en ce qui concerne le **Avalon Nano 3S (140W)**, ou carrément comme un mini radiateur d'une puissance de **800W** pour le **Avalon Mini 3**.
 
+https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+
 Attention, la différence de prix avec des chauffages traditionnels de puissance équivalente ne permet pas, dans la grande majorité des cas, d'être gagnant financièrement. Les satoshis générés par l'activité de mining ne compenseront jamais cet écart de prix, à moins d'avoir accès à de l'électricité gratuite (surplus), ou très bon marché.
 
 Selon moi il faut davantage voir ces appareils comme une manière simple de miner à la maison pour ceux qui le désirent pour des raisons personnelles : *obtenir des sats non KYC / jouer à la "loterie" en solominant / participer à la décentralisation du hashrate etc..*., tout en bénéficiant **en bonus** de la chaleur générée pour chauffer sa pièce en hiver. Mais pas comme un moyen de faire des économies dans la plupart des cas du moins (pays occidentaux).
 
-##  Unboxing et Caractéristiques 
+## Unboxing et Caractéristiques 
 
 ### Avalon Nano 3S
 
-Dans un 1er temps voyons voir ce qu'il se cache à l'intérieur de la boite du Avalon Nano 3S.
-
-![image](assets/fr/01.webp)
-![image](assets/fr/02.webp)
-
-Une fois la boite ouverte on y trouve une pochette cartonnée contenant un récepteur WIFI qu'il faudra comme on le verra par la suite, brancher sur le port USB de l'appareil pour que celui-ci soit en mesure de se connecter à votre réseau local. On y trouve également le manuel d'instruction ainsi qu'une tige métallique permettant de réinitialiser l'appareil aux paramètres d'usine si nécessaire.
-
-![image](assets/fr/03.webp)
-
-![image](assets/fr/04.webp)
-
-Une fois tout sorti de la boite voilà ce qu'on a sous la main : la machine elle-même bien sûr, le manuel d'utilisation, le récepteur WIFI, la pointe métallique évoquée plus haut, et l'alimentation électrique de l'appareil. La carte bleue fournie n'est pas digne d'intérêt selon nous.
-
-![image](assets/fr/05.webp)
-
-Ci-dessous un tableau récapitulatif des spécifications techniques générales du Nano 3S :
-
-| Caractéristique                                      | Valeur                                                  |
-| ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
-
-
-
-### Avalon Mini 3
+Dans un 1er temps voyons voir ce qu'il se cache à l'intérieur de la boite du Avalon Mini 3.
 
 ![image](assets/fr/24.webp)
 
@@ -61,25 +32,23 @@ En ouvrant la boite le mode d'emploi est directement présenté à votre vue, ma
 ![image](assets/fr/25.webp)
 
 En dessous du bloc de mousse se trouve l'appareil, puis une fois retiré de la boite, le bloc d'alimentation.
+
 ![image](assets/fr/26.webp)
 
+
 ![image](assets/fr/27.webp)
+
 ## Mise sous tension et connexion au réseau local
 
-### Avalon Nano 3 S
+Une fois déballé, placez votre Avalon Mini 3 si possible à un endroit relativement dégagé pour permettre une bonne circulation de la chaleur. Ensuite commencez par insérer le petit module de réception WIFI dans le port USB situé en dessous de l'appareil, branchez l'alimentation électrique et veillez à ce que le bouton de mise sous tension soit bien en position "1".
 
-Une fois déballé, placez votre Avalon Mini 3 si possible à un endroit relativement dégagé pour permettre une bonne circulation de la chaleur. Ensuite commencez par insérer le petit module de réception WIFI comme montré ci-dessous:
+![image](assets/fr/28.webp)
 
-![image](assets/fr/06.webp)
-Branchez alors la fiche USB-C de l'alimentation dans le port USB-C de l'appareil pour l'alimenter électriquement.
+Une fois ces étapes réalisées, l'écran LED de l'appareil s'allume et affiche le symbole "Bluetooth", signe qu'il est prêt à être connecté à votre réseau local grâce à l'application Avalon Family.
 
-![image](assets/fr/07.webp)
-![image](assets/fr/08.webp)
+![image](assets/fr/29.webp)
 
-L'appareil va démarrer et le logo Avalon Nano s'affichera sur l'écran, suivi d'un logo de "téléphone portable" avec les mots "Veuillez configurer le réseau avec l'application Avalon Family", en anglais "Please Configure the Network With Avalon Family App".
-
-![image](assets/fr/09.webp)
-![image](assets/fr/10.webp)
+![image](assets/fr/30.webp)
 
 Pour ce faire, rendez vous dans votre store d'application mobile, recherchez puis téléchargez l'application **Avalon Family**.
 
@@ -89,27 +58,7 @@ Une fois installée ouvrez-la, cliquez sur "Skip" en haut à droite, puis sur le
 ![image](assets/fr/12.webp)
 Une fois l'appareil détecté par l'application cliquez sur celui-ci, et choisissez "Connect". Vous arrivez enfin sur l'écran vous permettant de rentrer vos identifiants de connexion WIFI.
 ![image](assets/fr/13.webp)
-Une fois l'appareil connecté à votre réseau local, l'écran de celui-ci ressemblera désormais à ça:
-
-![image](assets/fr/14.webp)
-
-On y voit un hashrate "fictif" car aucune pool n'a encore été configurée, l'heure, la date, la puissance et l'adresse IP de l'appareil, très utile si on veut avoir accès à l'interface de l'appareil via un PC et un navigateur (on verra cela plus loin).
-
-![image](assets/fr/15.webp)
-
-
-### Avalon Mini 3
-
-De manière très similaire à ce qui vient d'être fait pour le Avalon Nano 3S, insérez le module de réception WIFI dans le port USB situé en dessous de l'appareil, branchez l'alimentation électrique et veillez à ce que le bouton de mise sous tension soit bien en position "1".
-
-![image](assets/fr/28.webp)
-
-Une fois ces étapes réalisées, l'écran LED de l'appareil s'allume et affiche le symbole "Bluetooth", signe qu'il est prêt à être connecté à votre réseau local grâce à l'application Avalon Family.
-
-![image](assets/fr/29.webp)
-![image](assets/fr/30.webp)
-
-Procédez ensuite exactement de la même manière que celle décrite pour le cas du Avalon Nano 3S, pour connecter votre Mini 3 au réseau local en utilisant l'application Avalon Family. Une fois cela fait, votre Mini 3 fera défiler sur son écran les informations telles que son adresse IP, l'heure, le hashrate et la puissance électrique.
+Une fois l'appareil connecté à votre réseau local, votre Mini 3 fera défiler sur son écran les informations telles que son adresse IP, l'heure, le hashrate et la puissance électrique.
 
 Ci-dessous un tableau récapitulatif des spécifications techniques générales du Mini 3:
 
@@ -126,7 +75,7 @@ Ci-dessous un tableau récapitulatif des spécifications techniques générales 
 
 ## Connexion  à une pool de minage
 
-**Cette partie est commune aux appareils Nano 3s et Mini 3, car les procédés sont strictement identiques**
+**Cette partie est commune aux appareils Nano 3s et Mini 3, car les procédés sont strictement identiques.**
 
 Que l'on veuille "solominer" ou bien miner "en pool" il va nous falloir nous connecter à une pool de minage. En effet notre appareil n'est qu'un vulgaire "hasheur" qui n'a aucune conscience du réseau Bitcoin. Le connecter à une pool lui permet d'avoir accès au réseau bitcoin, et de recevoir des "template de blocs" sur lesquels travailler.
 
@@ -191,34 +140,9 @@ De la même manière qu'avec l'application mobile vous pouvez renseigner ici vos
 
 ## Contrôler son appareil via l'application Avalon Family
 
-Nous avons désormais connecté nos 2 home miners à notre réseau local, puis pointé notre hashrate vers des pools de mining. Allons maintenant découvrir les fonctionnalités essentielles de nos machines à travers l'application  Avalon Family.
+Nous avons désormais connecté notre home miner à notre réseau local, puis pointé notre hashrate vers des pools de mining. Allons maintenant découvrir les fonctionnalités essentielles de notre machine à travers l'application Avalon Family.
 
-### Avalon Nano 3S
-
-Dans l'application Avalon family cliquez sur l'icone correspondant au Avalon Nano 3S.
-3 menus vous sont ensuite proposés: "Work Mode", "Light control", et "Settings". Cliquez tout d'abord sur "Work Mode". Vous seront alors proposés 3 modes de puissance pour votre machine.
-
-**Low** : vous apporte environ 3 Th/s de hashrate pour 70W de consommation électrique
-**Medium**: vous apporte envrion 4.5 Th/s de hashrate pour 100W de consommation électrique
-**High**: vous apportera environ 6 Th/s de hashrate à la consommation maximale de 140W
-
-![image](assets/fr/31.webp)
-Revenons un cran en arrière pour explorer le menu "Light Control". Il s'agit ici purement de cosmétique. Tout un tas d'options sont proposées pour faire varier la couleur, l'intensité, la chaleur, ou éteindre les leds de l'appareil pendant la nuit etc... Vous découvrirez tout cela par vous-même très facilement.
-
-![image](assets/fr/32.webp)
-![image](assets/fr/33.webp)
-
-![image](assets/fr/34.webp)
-
-Enfin le dernier menu mis à notre disposition est le menu "Settings" que nous avons déjà aperçu pour se connecter à nos pools de minage. Il permet donc de gérer ses pools, de changer le mot de passe administrateur de l'appareil, et d'observer différentes métriques telles que la date de fin de garantie, la propreté du filtre, ou la manière de contacter le support en cas de défaillance.
-
-![image](assets/fr/35.webp)
-Pour l'entretien et afin d'essayer de garder un filtre aussi propre possible il est recommandé d'utiliser un aspirateur et d'aspirer régulièrement au niveau des entrées et sorties d'air afin d'éviter l'encrassement.
-
-### Avalon Mini 3
-
-Explorons désormais les options offertes pour le réglage du Avalon Mini 3, qui sont beaucoup plus complètes qu'avec le Nano 3S.
-Sélectionnez cette fois l'appareil Mini 3 dans le menu principal de l'application. Vous serez directement dirigés vers le menu permettant de gérer les modes de fonctionnement.
+Dans le menu principal de l'application Avalon family, cliquez sur l'icone correspondant au Avalon Mini 3. Vous serez directement dirigés vers le menu permettant de gérer les modes de fonctionnement.
 
 3 possibilités s'offrent à vous:  le mode "Heater", le mode "Mining" ou le mode "Night".
 
@@ -241,6 +165,7 @@ Là aussi vous pouvez définir une température cible au-delà de laquelle l'app
 Pour finir, vous pouvez là encore vous amuser à jouer avec les LED de votre Avalon via le menu "Display". Vous pourrez au choix faire défiler les informations pertinentes utiles au bon fonctionnement, choisir d'afficher l'heure, ou carrément une image custom (pixélisée).
 
 ![image](assets/fr/40.webp)
+
 ![image](assets/fr/41.webp)
 
 Le menu "Settings", quant à lui, permet comme dans le cas du Avalon Nano 3S de changer le mot de passe administrateur, les paramètres de pool, de consulter l'obstruction du filtre (situé en dessous de l'appareil), de contacter le support, ou les logs de l'appareil.
@@ -249,4 +174,8 @@ Le menu "Settings", quant à lui, permet comme dans le cas du Avalon Nano 3S de 
 
 Là encore le filtre situé en partie basse de l'appareil peut être nettoyé à l'aide d'un aspirateur, le plus régulièrement possible étant le mieux bien évidemment.
 
-Nous voilà arrivés au bout de ce tuto qui nous aura appris comment connecter nos appareils Avalon Nano 3 S et Mini 3 à notre réseau local, de pointer leur hashrate vers des pools de minage, et de naviguer à travers les options et les réglages grâce à l'application Avalon Family.
+Nous voilà arrivés au bout de ce tuto qui nous aura appris comment connecter notre appareil Avalon Mini 3 à notre réseau local, comment pointer son hashrate vers des pools de minage, et comment naviguer à travers les options et les réglages grâce à l'application Avalon Family.
+
+Pour aller plus loin, vous pouvez consulter notre tutoriel consacré à la version plus petite des Avalon : le Nano 3S.
+
+https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

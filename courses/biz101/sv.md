@@ -678,16 +678,16 @@ Detta är det alternativ som rekommenderas av Bitcoin-entusiaster, eftersom det 
 
 - Förvaring hos tredje part:**
 
-Till exempel kan en Exchange eller en köptjänst skapa ett konto åt dig, konvertera din traditionella valuta till Bitcoin och hålla den för din räkning med hjälp av sina säkerhetssystem. De flesta sådana tjänster låter dig ta ut dina bitcoins till en Wallet där du ensam har nyckeln. Innan du gör det äger du inte bitcoins på riktigt; du förlitar dig på deras löfte att betala tillbaka dig. Detta innebär en avvägning mellan säkerhetsrisker (deras kontra dina) och motpartsrisker (de kan gå i konkurs eller försvinna). Vissa företag tycker att detta är acceptabelt, även om det i allmänhet inte rekommenderas för långvarig lagring eller för 100% av din allokering. Förvaringsinstitut kan också ta ut förvaringsavgifter.
+Till exempel kan en börs eller en köptjänst skapa ett konto åt dig, konvertera din traditionella valuta till Bitcoin och hålla den för din räkning med hjälp av sina säkerhetssystem. De flesta sådana tjänster låter dig ta ut dina bitcoins till en digital plånbok där du ensam har nyckeln. Innan du gör det äger du inte bitcoins på riktigt; du förlitar dig på deras löfte att betala tillbaka dig. Detta innebär en avvägning mellan säkerhetsrisker (deras kontra dina) och motpartsrisker (de kan gå i konkurs eller försvinna). Vissa företag tycker att detta är acceptabelt, även om det i allmänhet inte rekommenderas för långvarig lagring eller för 100% av din allokering. Förvaringstjänster kan också ta ut förvaringsavgifter.
 
 
-- "Paper Bitcoin" (ETF:er eller ETP:er):**
+- "Pappers-Bitcoin" (ETF:er eller ETP:er):**
 
-Dessa är traditionella finansiella instrument som representerar fraktioner av Bitcoin och replikerar dess prisutveckling. Institutionen bakom produkten köper och innehar teoretiskt sett den underliggande Bitcoin. Dina bidrag och uttag görs i traditionell valuta (t.ex. dollar eller euro), inte i Bitcoin. Med undantag för vissa produkter som tillåter uttag i faktiska Bitcoin (för att undvika en skattepliktig händelse i vissa jurisdiktioner), innebär dessa instrument årliga förvaltningsavgifter. Här förlitar du dig på institutionens säkerhet och står inför motpartsrisk (till exempel om en regering beslutar att beslagta alla Bitcoin som innehas av institutioner, vilket hände med guld 1933 enligt USA:s Executive Order 6102). Deras främsta fördel är att de är lättillgängliga, eftersom de distribueras via traditionella finansiella kanaler. De kringgår behovet av att säkra kryptografiska nycklar men erbjuder inga av Bitcoin:s inneboende egenskaper: du kan inte använda Bitcoin-nätverket 24/7 för att flytta värde fritt utan tillstånd. De replikerar bara den finansiella prestandan, inte funktionaliteten eller suveräniteten hos Bitcoin självt.
+Dessa är traditionella finansiella instrument som representerar fraktioner av Bitcoin och replikerar dess prisutveckling. Institutionen bakom produkten köper och innehar teoretiskt sett den underliggande Bitcoin. Dina bidrag och uttag görs i traditionell valuta (t.ex. dollar eller euro), inte i Bitcoin. Med undantag för vissa produkter som tillåter uttag i faktiska Bitcoin (för att undvika en skattepliktig händelse i vissa jurisdiktioner), innebär dessa instrument årliga förvaltningsavgifter. Här förlitar du dig på institutionens säkerhet och står inför motpartsrisk (till exempel om en regering beslutar att beslagta alla Bitcoin som innehas av institutioner, vilket hände med guld 1933 enligt USA:s Executive Order 6102). Deras främsta fördel är att de är lättillgängliga, eftersom de distribueras via traditionella finansiella kanaler. De kringgår behovet av att säkra kryptografiska nycklar men erbjuder inga av Bitcoins inneboende egenskaper: du kan inte använda Bitcoin-nätverket 24/7 för att flytta värde fritt utan tillstånd. De replikerar bara den finansiella prestandan, inte funktionaliteten eller suveräniteten hos Bitcoin självt.
 
 ![BIZ101](assets/en/15.webp)
 
-Dessutom har den form i vilken du innehar Bitcoin en betydande inverkan på de säkerhetsåtgärder som krävs för att skydda din företagskassa. Oavsett om du väljer självförvaring, använder hårdvaruplånböcker med en eller flera signaturer etc. för att upprätthålla direkt kontroll över dina nycklar, eller delegerar denna uppgift till tredje parts förvaringstjänster eller ETF: er, har varje alternativ sin egen riskprofil. Självförvaring ger till exempel full tillgång men kräver rigorösa interna säkerhetsprotokoll, medan tredjepartslösningar minskar förvaltningsbördan på bekostnad av motpartsrisken. För att ytterligare illustrera skillnaderna beskriver detta diagram säkerhetsmodellen för varje förvaringstyp, vilket hjälper dig att välja det tillvägagångssätt som bäst passar din organisations behov :
+Dessutom har den form i vilken du innehar Bitcoin en betydande inverkan på de säkerhetsåtgärder som krävs för att skydda din företagskassa. Oavsett om du väljer självförvaring, använder hårdvaruplånböcker med en eller flera signaturer etc. för att upprätthålla direkt kontroll över dina nycklar, eller delegerar denna uppgift till tredje parts förvaringstjänster eller ETF: er, har varje alternativ sin egen riskprofil. Självförvaring ger till exempel full tillgång men kräver rigorösa interna säkerhetsprotokoll, medan tredjepartslösningar minskar förvaltningsbördan på bekostnad av motpartsrisken. För att ytterligare illustrera skillnaderna beskriver detta diagram säkerhetsmodellen för varje förvaringstyp, vilket hjälper dig att välja det tillvägagångssätt som bäst passar din organisations behov:
 
 ![BIZ101](assets/en/14.webp)
 
@@ -695,7 +695,7 @@ Dessutom har den form i vilken du innehar Bitcoin en betydande inverkan på de s
 
 Om du väljer "pappers-Bitcoin" vänder du dig till finansinstitut som banker eller online-börser.
 
-Om du väljer att köpa faktiska Bitcoin via en marknadsplats (Exchange) eller en mäklare har du flera huvudkategorier:
+Om du väljer att köpa faktiska Bitcoin via en marknadsplats (börs) eller en mäklare har du flera huvudkategorier:
 
 
 - Stora internationella eller utländska plattformar:**
@@ -705,145 +705,145 @@ Exempel är Kraken, Coinbase eller Binance, som historiskt använts av många pr
 
 - Reglerade tjänsteleverantörer (registrerade tjänsteleverantörer av digitala tillgångar):**
 
-Till exempel i Frankrike är plattformar som Paymium (Exchange) eller BullBitcoin (mäklare) kända för att ha äkta Bitcoin-entusiaster vid rodret och har byggt en solid meritlista. I USA har du tjänsteleverantörer som River eller Swann. I allmänhet är det viktigt att undersöka leverantörens stamtavla: deras rykte, meritlista, popularitet inom Bitcoin-samhället och om deras ledarskap är i linje med Bitcoin:s kärnvärden.
+Till exempel i Frankrike är plattformar som Paymium (börs) eller BullBitcoin (mäklare) kända för att ha äkta Bitcoin-entusiaster vid rodret och har byggt en stark meritlista. I USA har du tjänsteleverantörer som River eller Swann. I allmänhet är det viktigt att undersöka leverantörens bakgrund: deras rykte, meritlista, popularitet inom Bitcoin-samhället och om deras ledarskap är i linje med Bitcoins kärnvärderingar.
 
-**Exchange vs. Broker:**
+**Börs vs Mäklare:**
 
 
-- Med en **Exchange** kan du lägga köporder till det pris du väljer, men du måste vänta på verkställighet tills marknadspriset och säljarna stämmer överens.
+- Med en **börs** kan du lägga en köporder till det pris du väljer, men du måste vänta på genomförande tills marknadspriset och säljarna stämmer överens.
 - En **mäklare** erbjuder dig ett fast pris och kan genomföra transaktionen snabbare.
 
-Utöver avgifter och exekveringshastighet - som spelar mindre roll om du tänker långsiktigt (flera år) - bör ett företag också överväga:
+Utöver avgifter och genomförandehastighet - som spelar mindre roll om du tänker långsiktigt (flera år) - bör ett företag också överväga:
 
 
-- Användare Interface:** Är plattformen användarvänlig?
-- Redovisningsfunktioner:** Åtminstone möjligheten att exportera transaktionshistorik i CSV-format.
-- Förvaring och säkerhet:** Håller plattformen bitcoins för dina räkning, eller överför den Ownership till dig? Vad är deras säkerhetsinställning? Har de "uttagslås" eller andra uttagsbegränsningar?
+- Användargränssnitt:** Är plattformen användarvänlig?
+- Redovisningsfunktioner:** Åtminstone ha möjligheten att exportera transaktionshistorik i CSV-format.
+- Förvaring och säkerhet:** Håller plattformen bitcoins för din räkning, eller överför den ägarskap till dig? Vad är deras säkerhetsinställning? Har de "uttagsblockeringar" eller andra uttagsbegränsningar?
 - Kundsupport:** Kvaliteten, lyhördheten och den personliga hjälpen, särskilt när du kommer igång.
-- Reputation and Ethos:** Plattformens trovärdighet och värderingar.
+- Rykte and etik:** Plattformens trovärdighet och värderingar.
 - Stöd för återkommande köp:** Om du planerar att samla Bitcoin över tid med schemalagda köp.
 
 # Skräddarsydda Bitcoin-betalningslösningar för alla företag
 
 <partId>b2c8af88-6bfc-49b1-ad84-4c292c713b55</partId>
 
-## Tar emot Bitcoin som betalning
+## Ta emot Bitcoin som betalning
 
 <chapterId>99af1203-bc84-4acc-9780-f733e7998335</chapterId>
 
 För det första är det viktigt att förstå att Bitcoin är en störning i samma skala som internet.
 
-I början gjorde internetnätverket det möjligt att ta bort mellanhänder från kommunikationskanalerna, och sedan ledde denna infrastruktur till otaliga tidigare otänkbara tillämpningar. Vilket företag har idag inte en närvaro på nätet?
+Till en början möjliggjorde internet att mellanhänder kunde tas bort från kommunikationskanalerna. Denna infrastruktur banade sedan väg för otaliga tillämpningar som tidigare varit otänkbara. Vilket företag har idag inte någon form av närvaro på nätet?
 
-Bitcoin är en infrastruktur för förtroende, vars första tillämpning är att ta bort mellanhänder från lagring och Exchange av värdepengar. Andra för närvarande otänkbara tillämpningar kommer att uppstå på denna infrastruktur. Din första närvaro här motsvarar att ha en webbplats: en gateway till peer-to-peer-betalningar och värdeutbyten.
+Bitcoin är en infrastruktur för förtroende, vars första tillämpning är att eliminera mellanhänder vid förvaring och utbyte av värde – det vill säga pengar. På denna grund kommer andra, i dag otänkbara, tillämpningar att växa fram. Din första närvaro här motsvarar att ha en webbplats: en port till peer-to-peer-betalningar och värdeöverföringar.
 
 ![BIZ101](assets/en/17.webp)
 
 Tänk nu på perspektivet för ett praktiskt företag vars kärnverksamhet inte har något att göra med Bitcoin. Varför skulle de välja att acceptera Bitcoin-betalningar?
 
 
-- Att bygga en Bitcoin Treasury:**
+- Att bygga en Bitcoin-baserad företagskassa:**
 
-Se vår tidigare artikel om att köpa Bitcoin. Oavsett om det beror på övertygelse eller som en diversifieringsstrategi väljer vissa yrkesverksamma att acceptera Bitcoin-betalningar. Vissa Bitcoiners hävdar att ju mindre ekonomiskt benäget ett företag är - vilket innebär att det varken har tid eller verktyg för att engagera sig i komplexa finansiella manövrer - ** desto viktigare blir det för det företaget att betalas i den svåraste tillgängliga formen av pengar **. På så sätt jämnas spelplanen ut, vilket gör det möjligt även för små, tidsbegränsade företag att bevara värdet utan att fastna i finansiella spel.
+Se vår tidigare artikel om att köpa Bitcoin. Oavsett om det beror på övertygelse eller som en diversifieringsstrategi väljer vissa yrkesverksamma att acceptera Bitcoin-betalningar. Vissa Bitcoiners hävdar att ju mindre ekonomiskt benäget ett företag är - vilket innebär att det varken har tid eller verktyg för att engagera sig i komplexa finansiella manövrer - **desto viktigare blir det för det företaget att betalas i den hårdaste formen av pengar**. På så sätt jämnas spelplanen ut, vilket gör det möjligt även för små, tidsbegränsade företag att bevara värdet utan att fastna i finansiella spel.
 
 
 - Att nå en ny demografisk grupp:**
 
-Antalet Bitcoin-användare växer och de har en betydande köpkraft. De kommer naturligtvis att söka sig till företag som accepterar deras valuta. Eftersom detta är den första universella, internetbaserade valutan kan du dessutom locka internationella kunder på genomresa.
+Antalet Bitcoin-användare växer och de har en betydande köpkraft. De kommer naturligtvis att söka sig till företag som accepterar deras valuta. Eftersom detta är den första universella, internetbaserade valutan kan du dessutom locka internationella kunder.
 
 
 - Ökad synlighet:**
 
-Genom att lista ditt företag på plattformar som BTCmap.org, till exempel. Endast få företag accepterar för närvarande Bitcoin, så mun-till-mun fungerar till din fördel. Det skiljer dig också från dina konkurrenter.
+Genom att till exempel lista ditt företag på plattformar som BTCmap.org. I dag är det fortfarande få företag som accepterar Bitcoin, vilket gör att mun-till-mun-marknadsföring verkar till din fördel. Det får dig också att sticka ut från konkurrenterna.
 
 
 - Lägre avgifter:**
 
-Omedelbara Bitcoin-betalningar sker över Lightning Network. ** Avgifterna är minimala och betalas av köparen**. Det finns inga avgifter för betalterminaler, inga misslyckade betalningsauktoriseringar och inga bedrägerier. Som jämförelse kostar betalningsindustrin (kort, terminaler, överföringar, PSP:er etc.) cirka 2,2 biljoner USD per år globalt. Lägg därtill chargebacks och bedrägerier, och totalt sett "skummas" nästan en tiondel av motsvarande USA:s BNP av produktiva företag världen över bara för att överföra värde. Oavsett vilken verksamhet du bedriver är finansiella avgifter en börda som bör optimeras, och i vissa fall kan höga avgifter kväva vissa affärsmodeller.
+Omedelbara Bitcoin-betalningar sker över Lightning Network. **Avgifterna är minimala och betalas av köparen**. Det finns inga avgifter för betalterminaler, inga misslyckade betalningsauktoriseringar och inga bedrägerier. Som jämförelse kostar betalningsindustrin (kort, terminaler, överföringar, PSP:er etc.) cirka 2,2 biljoner USD per år globalt. Lägg därtill återbetalningar och bedrägerier, och totalt sett "skummas" nästan en tiondel av motsvarande USA:s BNP av produktiva företag världen över bara för att överföra värde. Oavsett vilken verksamhet du bedriver är finansiella avgifter en börda som bör optimeras, och i vissa fall kan höga avgifter kväva vissa affärsmodeller.
 
 
 - Frihet och tillståndslöshet, 24/7:**
 
-Det finns inget behov av att be om tillstånd för att använda Bitcoin. Vem som helst kan delta i ekonomin inom några minuter med hjälp av en smartphone-app. Du kan skicka eller ta emot en betalning från vem som helst - privatperson eller företag - när som helst, utan några schemaläggningsbegränsningar eller förseningar.
+Det är inte nödvändigt av att be om tillstånd för att använda Bitcoin. Vem som helst kan delta i ekonomin inom några minuter med hjälp av en smartphone-app. Du kan skicka eller ta emot en betalning från vem som helst - privatperson eller företag - när som helst, utan några schemabegränsningar eller förseningar.
 
 
 - Utnyttja fördelarna med Bitcoin-nätverket:**
 
-Du behöver inte behålla dina betalningar i Bitcoin-form - särskilt inte om du behöver betala leverantörer eller betala in moms. Vissa tjänster kan konvertera hela eller delar av dina Bitcoin-betalningar till den valuta du väljer (t.ex. euro till ditt IBAN-nummer) mot en avgift. I det här scenariot kan fördelen med att acceptera Bitcoin ligga i att locka nya användare eller i Bitcoin:s inneboende fördelar (t.ex. lägre avgifter, drift dygnet runt och ingen risk för bedrägeri eller återbetalningar).
+Du behöver inte behålla dina betalningar i Bitcoin-form - särskilt inte om du behöver betala leverantörer eller betala in moms. Vissa tjänster kan konvertera hela eller delar av dina Bitcoin-betalningar till den valuta du väljer (t.ex. euro till ditt IBAN-nummer) mot en avgift. I det här scenariot kan fördelen med att acceptera Bitcoin ligga i att locka nya användare eller i Bitcoins fördelar (t.ex. lägre avgifter, drift dygnet runt och ingen risk för bedrägeri eller återbetalningar).
 
 ### Vilken betalningslösning ska du välja?
 
 Det är relativt enkelt att börja ta emot Bitcoin-betalningar. För att välja rätt lösning bör du överväga egenskaperna hos de transaktioner du hanterar: det genomsnittliga betalningsbeloppet, transaktionsfrekvensen och om du kommer att acceptera betalningar i en fysisk miljö, online eller båda.
 
-Ditt tankesätt som handlare är också viktigt. Kör du ett enkelt test, eller förväntar du dig att Bitcoin blir en betydande och återkommande inkomstkälla? Om det är det senare behöver du en robust, omfattande och anpassningsbar installation.
+Ditt tankesätt som handlare är också viktigt. Kör du ett enkelt test, eller förväntar du dig att Bitcoin blir en betydande och återkommande inkomstkälla? Om det är det senare behöver du en robust, omfattande och anpassningsbar setup.
 
-Glöm inte att ta hänsyn till dina anställdas olika roller och var de befinner sig. I vilket scenario som helst, kom ihåg att du måste kunna tillhandahålla all nödvändig information till din revisor och effektivisera redovisningsprocessen.
+Glöm inte att ta hänsyn till dina anställdas olika roller och var de befinner sig. I vilket fall som helst, kom ihåg att du måste kunna tillhandahålla all nödvändig information till din revisor och effektivisera redovisningsprocessen.
 
 För att förenkla beslutsprocessen har vi definierat fyra olika affärsprofiler. I följande tabeller beskrivs de viktigaste egenskaperna och rekommenderade betalningslösningar för varje profil.
 
 ### Affärsprofilerna
 
-#### Profil 1 - Startprofilen
+#### Profil 1 - Nybörjare
 
-| Attribut | Startpunkten
+| Attribut | Nybörjare
 
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 
-| **State of Mind** | "prova min första fysiska betalning", "ta ett tips för mitt onlineinnehåll", "rikta in mig på mycket små intäkter" |
+| **Mental inställning** | "prova min första fysiska betalning", "ta emot dricks för mitt onlineinnehåll", "rikta in mig på mycket små intäkter" 
 
-| **Transaktionsfrekvens** | "första transaktionen för att lära sig", "tar betalt då och då"                                                                    |
+| **Transaktionsfrekvens** | "första transaktionen för att lära sig", "tar betalt då och då" 
 
-| **Exempel på affärstyp** | Kreativ ekonomi (innehållsskapare, bloggar, artiklar etc.), enstaka tips, enstaka personlig produktförsäljning, föreningar, enstaka evenemang
+| **Exempel på affärstyp** | Kreativ ekonomi (innehållsskapare, bloggar, artiklar etc.), enstaka dricks, enstaka personlig produktförsäljning, föreningar, enstaka evenemang 
 
-**Betalningstyp** | I allmänhet några cent till några euro/dollar; under ~300 euro/dollar per artikel |
+| **Betalningstyp** | I allmänhet några cent till några euro/dollar; under ~300 euro/dollar per produkt 
 
-| **Inställningarnas komplexitet** | Ingen |
+| **Komplexitet i inställningarna** | Ingen 
 
-| **Exempel på rekommenderad lösning** | En förvaringsblixt Wallet som Wallet i Satoshi eller en icke-förvaringsblixt Wallet som Phoenix |
+| **Exempel på rekommenderad lösning** | En Lightning-plånbok med förvaring hos tredje part (t.ex. Wallet of Satoshi), eller en där du själv har kontrollen, som Phoenix 
 
-**Merchant Interface** | Simple Bitcoin Lightning Wallet: en app på en mobiltelefon
+| **Handlarens gränssnitt** | Enkel Lightning-plånbok: en app på en mobiltelefon
 
-**Kund Interface** | Bitcoin QR-betalkod, skannad via kundens personliga Wallet
+| **Kundens gränssnitt** | Bitcoin QR-betalkod, skannad via kundens personliga digitala plånbok
 
-| Kunden betalar Bitcoin Lightning-avgifter plus eventuella tillämpliga appavgifter
+| **Avgifter** | Kunden betalar Bitcoin Lightning-avgifter plus eventuella tillämpliga appavgifter
 
-**Point of Sale Device** | Gratis smartphone-app eller ett alternativ för en fysisk terminal (t.ex. Bitcoinize)
+| **Point of Sale-enhet** | Gratis smartphone-app eller ett alternativ för en fysisk terminal (t.ex. Bitcoinize)
 
-**Hantering och roller** | Hantering av en enda app; minimal rolldifferentiering
+| **Hantering och roller** | Hantering av en enda app; minimal rolldifferentiering
 
-**Exporterad bokföring** | Grundläggande listor över transaktionshistorik
+| **Exporterad bokföring** | Grundläggande listor över transaktionshistorik
 
 | **API** | Nej
 
-#### Profil 2 - Det väsentliga
+#### Profil 2 - Det grundläggande
 
-| Attribut | Det väsentliga
+| Attribut | Det grundläggande
 
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 
-| "Jag accepterar Bitcoin i min verksamhet men förväntar mig inte någon betydande volym"
+| **Mental inställning** | "Jag accepterar Bitcoin i min verksamhet men förväntar mig inte någon betydande volym"
 
-**Transaktionsfrekvens** | Få transaktioner per månad | Få transaktioner per månad
+| **Transaktionsfrekvens** | Få transaktioner per månad 
 
-| Barer, restauranger, halvregelbunden försäljning av färska produkter eller produkter med direkt ursprung, flera butiker under samma ägare, kreativ ekonomi för konstnärer
+| **Exempel på affärstyp** | Barer, restauranger, återkommande försäljning av färska eller egenproducerade produkter, flera butiker under samma ägare, samt den kreativa ekonomin för konstnärer.
 
-** Betalningstyp** | Generellt från några euro/dollar till några hundra per artikel; under ~300 per artikel och under ~3.000 per månad |
+| **Betalningstyp** | Generellt från några euro/dollar till några hundra per artikel; under ~300 per artikel och under ~3.000 per månad 
 
-**Inställningarnas komplexitet** | Minimal (mobilapp) |
+| **Komplexitet i inställningarna** | Minimal (mobilapp) 
 
-| **Exempel på rekommenderad lösning** | Schweizisk Bitcoin-betalning
+| **Exempel på rekommenderad lösning** | Swiss Bitcoin Pay
 
-**Merchant Interface** | Simple Bitcoin Lightning Wallet: en app på en mobiltelefon; enkel fakturering med minimala detaljer |
+| **Handlarens gränssnitt** | Enkel Bitcoin Lightning-plånbok: en app på en mobiltelefon; enkel fakturering med minimala detaljer 
 
-**Kund Interface** | Bitcoin QR-betalkod, skannad via kundens personliga Wallet
+| **Kundens gränssnitt** | Bitcoin QR-betalkod, skannad via kundens personliga digitala plånbok
 
-** Avgifter** Typiskt <1% för att skicka till en Bitcoin Address och <1,5% för att konvertera till fiat
+| **Avgifter** Typiskt <1% för att skicka till en Bitcoin-adress och <1,5% för att konvertera till fiat
 
-**Point of Sale Device** | Gratis smartphone-app eller ett alternativ för en fysisk terminal (t.ex. Bitcoinize)
+**Point of Sale-enhet** | Gratis smartphone-app eller ett alternativ för en fysisk terminal (t.ex. Bitcoinize)
 
-| **Hantering och roller** | Möjlighet att endast sälja roller för anställda; online-dashboard för administration |
+| **Hantering och roller** | Alternativ för enbart säljfunktion för personal; webbaserad kontrollpanel för administration
 
-| **Redovisningsexport** | CSV-export med fullständig transaktionsinformation
+| **Exporterad bokföring** | CSV-export med fullständig transaktionsinformation
 
 **API** | Ja
 
@@ -853,29 +853,29 @@ För att förenkla beslutsprocessen har vi definierat fyra olika affärsprofiler
 
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-| **State of Mind** | - En betalningsmetod som alla andra för min e-handel - Eller gemensam förvaltning för en grupp företag som är redo för högre volymer |
+| **Mental inställning** | - En betalmetod som vilken som helst för min e-handel - Eller gemensam förvaltning för en grupp företag som är redo för högre volymer
 
-**Transaktionsfrekvens** | Flera transaktioner per dag
+| **Transaktionsfrekvens** | Flera transaktioner per dag
 
-| Exempel på företagstyper** | E-handelssajter med måttlig volym, små marknadsplatser, grupper av fysiska butiker (t.ex. Click & Collect), små och medelstora företag |
+| **Exempel på företagstyper** | E-handelssajter med måttlig volym, små marknadsplatser, grupper av fysiska butiker (t.ex. Click & Collect), små och medelstora företag 
 
-**Betalningstyp** | I allmänhet från några euro/dollar till några hundra; ingen fastställd gräns för betalningens storlek; mindre än 250 000 per år
+| **Betalningstyp** | I allmänhet från några euro/dollar till några hundra; ingen fastställd gräns för betalningens storlek; mindre än 250 000 per år
 
-| **Inställningskomplexitet** | Lätt till fullutrustad (lokal hosting eller molnhosting), kräver ofta en e-handelsbutik |
+| **Komplexitet i inställningar** | Enkel till fullutrustad (lokal hosting eller molnhosting), kräver ofta en e-handelsbutik
 
-| BTC Pay Server för e-handel och/eller fysiska miljöer; ZapRite, Musqet eller PayWithFlash för kassan, Be-BOP för en integrerad e-butik | **Exempel på rekommenderad lösning** | BTC Pay Server för e-handel och/eller fysiska miljöer
+| **Exempel på rekommenderad lösning** | BTC Pay Server för e-handel och/eller fysiska miljöer; ZapRite, Musqet eller PayWithFlash för kassan, Be-BOP för en integrerad e-butik
 
-**Merchant Interface** | Webbplats (mobil och stationär) med Invoice redigering, alternativ för kundvagn och skapande av betalknappar; automatisk fakturering med e-handelsintegration
+| **Handlarens gränssnitt** | Webbplats (mobil och desktop) med redigering av fakturor, varukorgsfunktioner och skapande av betalningsknappar; automatiserad fakturering med e-handelsintegration
 
-**Kund Interface** | Bitcoin QR-betalkod, skannad via kundens personliga Wallet
+| **Kundens gränssnitt** | Bitcoin QR-betalkod, skannad via kundens personliga digitala plånbok
 
-| **Avgifter** | Blandning av gratis backend med öppen källkod och betalda Lightning-hosting- / serviceavgifter; frontend-avgifterna inkluderar Bitcoin Lightning-avgifter och <1,5% konverteringsavgifter |
+| **Avgifter** | En kombination av kostnadsfri öppen källkod för backend och betalda avgifter för Lightning-hosting och tjänster; front-end-avgifterna inkluderar avgifter för Bitcoin Lightning samt växlingsavgifter på under 1,5 %.
 
-| **Point of Sale Device** | Webbplatsbutik, valfri fysisk display (t.ex. iPad som visar webbplatsen eller Bitcoin-terminal)
+| **Point of Sale-enhet** | Webbplatsbutik, valfri fysisk display (t.ex. iPad som visar webbplatsen eller Bitcoin-terminal)
 
-| **Hantering och roller** | Fullt utrustad butik med flera administratörsroller; anställda och kunder interagerar med systemet |
+| **Hantering och roller** | Fullt utrustad butik med flera administratörsroller; anställda och kunder interagerar med systemet
 
-| **Redovisningsexport** | CSV-export med fullständig transaktionsinformation
+| **Exporterad bokföring** | CSV-export med fullständig transaktionsinformation
 
 **API** | Ja
 
@@ -885,107 +885,111 @@ För att förenkla beslutsprocessen har vi definierat fyra olika affärsprofiler
 
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 
-| En strategisk betalningsmetod för verksamheten - Med viss utveckling för att integrera i tjänsteplattformen enligt specifika specifikationer
+| **Mental inställning** | - En strategisk betalmetod för verksamheten - Med viss utveckling för att integreras i tjänsteplattformen enligt specifika krav
 
-**Transaktionsfrekvens** | Obegränsad, högfrekventa transaktioner
+| **Transaktionsfrekvens** | Obegränsad, högfrekventa transaktioner
 
-**Exempel på företagstyper** | Medelstora företag, IT-tjänsteföretag, stora företag, stora marknadsplatser
+| **Exempel på företagstyper** | Medelstora företag, IT-tjänsteföretag, stora företag, stora marknadsplatser
 
-**Betalningstyp** | Valfri storlek eller volym
+| **Betalningstyp** | Valfri storlek eller volym
 
-**Inställningarnas komplexitet** | Medelhög till hög, beroende på val av arkitektur
+| **Komplexitet i inställningarna** | Medelhög till hög, beroende på val av arkitektur
 
-**Exempel på rekommenderad lösning** | Skräddarsydd arkitektur eller orkestrering av SaaS-hostade lösningar, eventuellt med hjälp av LSP-tjänster (*Lightning Service Provider*) från tredje part
+| **Exempel på rekommenderad lösning** | Skräddarsydd arkitektur eller orkestrering av SaaS-hostade lösningar, med möjlighet att använda tredjepartstjänster från LSP (Lightning Service Provider).
 
-**Merchant Interface** | Helt anpassade front-end- och back-end-gränssnitt som är helt integrerade i verksamhetens arbetsflöden och processer
+| **Handlarens gränssnitt** | Helt anpassade front-end- och back-end-gränssnitt som är helt integrerade i verksamhetens arbetsflöden och processer
 
-**Kund Interface** | Allt från en Bitcoin QR-betalkod till ett helt anpassat användargränssnitt och/eller API-integration
+| **Kundens gränssnitt** | Allt från en Bitcoin QR-betalkod till ett helt anpassat användargränssnitt och/eller API-integration
 
-| Kombination av interna utvecklings- och tredjepartsavgifter; kunden betalar Bitcoin Lightning-avgifter plus eventuella transaktionsavgifter från tjänsteleverantörer
+| **Avgifter** | En kombination av intern utveckling och avgifter till tredjepartsleverantörer; kunden betalar Bitcoin Lightning-avgifter samt eventuella transaktionsavgifter från tjänsteleverantörer
 
-**Point of Sale Device** | Kundanpassade lösningar skräddarsydda för företagsmiljön
+| **Point of Sale-enhet** | Kundanpassade lösningar skräddarsydda för företagsmiljön
 
-**Hantering och roller** | Helt anpassade roller inom försäljning, administration, devops, redovisning och finans
+| **Hantering och roller** | Helt anpassade roller inom försäljning, administration, devops, redovisning och finans
 
-**Export av redovisning** | Helt skräddarsydd export av redovisning
+| **Exporterad bokföring** | Helt skräddarsydd export av redovisning
 
-**API** | Ja
+| **API** | Ja
 
 I de följande kapitlen kommer vi att beskriva varje affärsprofil och de lösningar som är skräddarsydda för var och en av dem.
 
-## Förrätten
+## Nybörjaren
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-Starter-profilen är utformad för företag, kreatörer och individer som vill utforska Bitcoin-betalningar utan att engagera betydande resurser eller expertis. Dessa är vanligtvis de som hanterar en mycket liten volym transaktioner (kanske några tips, donationer eller tillfällig försäljning) och söker en enkel, lätt introduktion till Bitcoin- och Lightning Network-ekosystemet. Det viktigaste värdet med Starter-metoden ligger i den minimala installationen: i de flesta fall är allt som krävs en smartphone eller surfplatta utrustad med en grundläggande Lightning-kompatibel Wallet.
+Nybörjar-profilen är utformad för företag, kreatörer och individer som vill utforska Bitcoin-betalningar utan att engagera betydande resurser eller expertis. Dessa är vanligtvis de som hanterar en mycket liten volym transaktioner (kanske lite dricks, donationer eller tillfällig försäljning) och söker en enkel, lätt introduktion till Bitcoin och Lightning Network. Det viktigaste värdet med Nybörjar-metoden ligger i den minimala installationen: i de flesta fall är allt som krävs en smartphone eller surfplatta utrustad med en grundläggande Lightning-kompatibel plånbok.
 
 ![BIZ101-profiles](assets/en/18.webp)
 
-En av de avgörande egenskaperna hos denna profil är dess fokus på lågvolymsbetalningar som sällan överstiger några hundra euro eller dollar per månad. Denna blygsamma skala gör det till ett utmärkt val för alla som vill testa marknaden med Bitcoin, utan de komplexiteter som är förknippade med större volymer. Dessutom möjliggör det omedelbar praktisk inlärning; eftersom det finns färre operativa påtryckningar och mindre monetära insatser kan misstag begränsas och lärdomar dras snabbt. Från konstnärer som säljer handgjorda hantverk på helgmarknader till ideella grupper som tar emot engångsdonationer - användare i den här kategorin betonar ofta tillgänglighet och användarvänlighet framför avancerade funktioner.
+En av de avgörande egenskaperna hos denna profil är dess fokus på lågvolymsbetalningar som sällan överstiger några hundra euro eller dollar per månad. Denna blygsamma skala gör det till ett utmärkt val för alla som vill testa marknaden med Bitcoin, utan de komplexiteter som är förknippade med större volymer. Dessutom möjliggör det omedelbar praktisk inlärning; eftersom det finns färre operativa påtryckningar och mindre monetära insatser kan misstag begränsas och lärdomar dras snabbt. Från konstnärer som säljer handgjorda hantverk på helgmarknader till ideella grupper som tar emot engångsdonationer - användare i den här kategorin föredrar ofta tillgänglighet och användarvänlighet framför avancerade funktioner.
 
-De två vanligaste Wallet-konfigurationerna för Starter-profilen innebär att man måste välja mellan lösningar med och utan förvaring. En Wallet med förvaring (t.ex. Wallet av Satoshi eller Blink) låter en tredjepartstjänst hantera privata nycklar och backend-verksamhet, vilket minskar det tekniska ansvaret för användaren. Detta arrangemang är särskilt tilltalande för dem som värdesätter bekvämlighet framför allt och vill ha enklast möjliga onboarding. Å andra sidan placerar Lightning-plånböcker utan förmyndare (som Phoenix eller Breez) privata nycklar och full kontroll i händerna på företagaren, vilket ger större autonomi och integritet i Exchange för något mer initial ansträngning. I båda fallen är moderna gränssnitt vanligtvis så användarvänliga att vem som helst kan hantera viktiga uppgifter (generera en QR-kod, ange ett betalningsbelopp och bekräfta transaktioner) inom några minuter.
+De två vanligaste plånbokslösningarna för nybörjar-profilen handlar om att välja mellan custodial och non-custodial alternativ. En custodial-plånbok (som Wallet of Satoshi eller Blink) låter en tredjepart hantera de privata nycklarna och den tekniska infrastrukturen i bakgrunden, vilket minskar användarens tekniska ansvar. Denna lösning är särskilt tilltalande för dem som värdesätter bekvämlighet högst och vill ha en så enkel onboarding som möjligt. Å andra sidan ger non-custodial Lightning-plånböcker (som Phoenix eller Breez) företagsägaren full kontroll över de privata nycklarna och ökad självständighet och integritet – i utbyte mot en något högre tröskel i början. I båda fallen är moderna gränssnitt idag så användarvänliga att vem som helst kan hantera grundläggande funktioner – som att generera en QR-kod, ange ett belopp och bekräfta en transaktion – på bara några minuter.
 
 ![BIZ101-profiles](assets/en/19.webp)
 
-Även om säkerhetsfrågor kan verka mindre angelägna när transaktionerna är små, är det ändå viktigt att införa grundläggande skyddsåtgärder. Även en enda smartphone eller surfplatta som används för att ta emot Bitcoin-betalningar bör låsas med ett lösenord eller biometrisk säkerhet, och reservrutiner (som sträcker sig från att hålla reda på inloggningsuppgifter för en Wallet med vårdnadshavare till att skydda en seed-fras för en Wallet utan vårdnadshavare) måste tas på allvar. Personal som hanterar transaktioner i en fysisk miljö skulle ha nytta av att känna till grunderna: hur man öppnar appen, hur man presenterar en QR-kod för kunden och hur man kontrollerar att betalningen verkligen har kommit fram.
+Även om säkerhetsfrågor kan kännas mindre akuta vid små transaktioner, är det ändå avgörande att införa grundläggande skyddsåtgärder. Även en enda smartphone eller surfplatta som används för att ta emot Bitcoin-betalningar bör vara skyddad med lösenord eller biometrisk säkerhet. Dessutom måste rutiner för backup tas på allvar – från att hålla ordning på inloggningsuppgifter för en custodial-plånbok till att förvara en seed phrase för en non-custodial plånbok på ett säkert sätt. Personal som hanterar transaktioner i en fysisk miljö bör känna till grunderna: hur man öppnar appen, visar en QR-kod för kunden och kontrollerar att betalningen verkligen kommit in.
 
-Redovisning och rapportering är visserligen relativt enkla under Starter-profilen, men bör ändå övervägas noga. Även om transaktionsvolymerna kan vara minimala, förhindrar korrekta register förvirring längre fram och hjälper till att upprätthålla transparens vid finansiella revisioner eller skattedeklarationer. Många Wallet-applikationer gör det möjligt för användare att exportera en grundläggande transaktionshistorik som en CSV-fil; för ett litet företag eller en enskild entreprenör kan det vara mycket enklare att stämma av konton genom att spara dessa filer regelbundet. Det är också klokt att spåra det ungefärliga fiat-värdet (till exempel i euro eller dollar) vid den tidpunkt då varje transaktion tas emot. Eftersom Bitcoin:s pris kan fluktuera är det ovärderligt att ha ett register över omvandlingskurser för bokföring och skatteöverensstämmelse.
+Bokföring och rapportering är visserligen relativt enkla under nybörkar-profilen, men förtjänar ändå noggrann uppmärksamhet. Även om transaktionsvolymerna kan vara små, är det viktigt att behålla korrekta register för att undvika förvirring längre fram och för att upprätthålla transparens vid exempelvis revision eller skattedeklarationer. Många plånboksappar gör det möjligt att exportera en grundläggande transaktionshistorik som en CSV-fil. För ett mindre företag eller en enskild företagare kan det underlätta avstämningen betydligt att regelbundet spara dessa filer. Det är också klokt att notera det ungefärliga fiatvärdet (till exempel i euro eller dollar) vid tidpunkten då varje transaktion tas emot. Eftersom priset på Bitcoin kan variera är ett register över växlingskurser ovärderligt för både bokföring och skatteöverensstämmelse.
 
 ![BIZ101-profiles](assets/en/20.webp)
 
-För företag som vill komplettera sina fysiska eller personliga betalningar med donationer eller tips online är det nu enkelt att integrera en Lightning-tipsknapp eller donationswidget på en webbplats eller blogg. Plattformar som BTCPay Server erbjuder betalningsknappar som är enkla att konfigurera, medan vissa sociala medier och livestream-tjänster redan stöder Lightning-tips med adresser. Följaktligen kan även ett startföretag bygga ett blygsamt men globalt nätverk av beskyddare. Under tiden kan de som föredrar att inte hålla Bitcoin på lång sikt utforska partiell eller automatisk konvertering till fiatvaluta med hjälp av vissa depåplånböcker eller tjänster från tredje part. Även om detta alternativ innebär extra avgifter och möjliga KYC-skyldigheter, hjälper det företag att undvika Exchange-kursvolatilitet och upprätthålla sina befintliga finansiella arbetsflöden med minimal störning.
+För företag som vill komplettera sina fysiska eller personliga betalningar med online-donationer eller dricks, är det numera enkelt att integrera en Lightning-dricksknapp eller ett donationswidget på en webbplats eller blogg. Plattformar som BTCPay Server erbjuder lättkonfigurerade betalningsknappar, och vissa sociala medier och livestreamingtjänster har redan stöd för Lightning-dricks via adresser. På så sätt kan även ett företag i nybörjar-profilen bygga upp ett blygsamt – men globalt – nätverk av stödjare. Samtidigt kan den som inte vill behålla Bitcoin långsiktigt överväga delvis eller automatisk konvertering till fiatvaluta via vissa custodial-plånböcker eller tredjepartstjänster. Även om detta innebär extra avgifter och eventuella KYC-krav, kan det hjälpa företag att undvika växelkursvolatilitet och bibehålla sina befintliga ekonomiska rutiner med minimal störning.
 
-Ett enkelt användningsfall illustrerar hur alla dessa Elements kommer samman. Föreställ dig en lokal hantverkare som säljer hemlagad sylt på en lördagsmarknad. Beväpnad med en telefon som kör en förvaringsblixt Wallet ställer de in varje burks pris i euro; när en kund ber om att få betala i Bitcoin matar handlaren snabbt in motsvarande fiatbelopp och appen beräknar automatiskt den Sats som ska betalas. Den resulterande QR-koden skannas av kundens Wallet, betalningen avvecklas på några sekunder och hantverkaren vet direkt att transaktionen lyckades. I slutet av dagen kan alla transaktionsdetaljer exporteras för bokföring, och dagens saldo kan helt eller delvis skickas till en Exchange-plattform för att omvandlas till fiatvaluta.
+Ett enkelt användningsfall visar hur alla dessa delar hänger ihop. Föreställ dig en lokal hantverkare som säljer hemmagjord sylt på en lördagsmarknad. Med en mobiltelefon som kör en custodial Lightning-plånbok sätter hen priset per burk i euro. När en kund vill betala med Bitcoin matar säljaren snabbt in det motsvarande fiatbeloppet, och appen räknar automatiskt ut hur många sats som ska betalas. Den resulterande QR-koden skannas av kundens plånbok, betalningen genomförs på några sekunder, och hantverkaren får omedelbart bekräftelse på att transaktionen lyckats. I slutet av dagen kan alla transaktionsuppgifter exporteras för bokföring, och dagens saldo kan helt eller delvis skickas till en växlingstjänst för konvertering till fiatvaluta.
 
-Genom att balansera användarvänliga verktyg, minimala hårdvarukrav och enkel bokföring levererar Starter-lösningarna det väsentliga utan att överväldiga nykomlingar. Om transaktionsvolymerna ökar och företagets operativa krav utvecklas är det naturligt att uppgradera till de mer avancerade kategorierna som beskrivs i kommande kapitel.
+Genom att balansera användarvänliga verktyg, minimala hårdvarukrav och enkel bokföring levererar nybörjar-lösningarna det väsentliga utan att överväldiga nykomlingar. Om transaktionsvolymerna ökar och företagets operativa krav utvecklas är det naturligt att uppgradera till de mer avancerade kategorierna som beskrivs i kommande kapitel.
 
 För detaljerade anvisningar om rekommenderade plånböcker och grundläggande inställningar, se följande guider:
 
-**Självförvaltande LN plånböcker/noder:**
+**Non-custodial LN-plånböcker/noder:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
-**Frihetsberövande LN plånböcker:**
+
+**Custodial LN-plånböcker:**
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-## Det väsentliga
+
+## Det grundläggande
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
 
-Essential-profilen är lämplig för små och medelstora företag, eventuellt med anställda, som vill acceptera Bitcoin enkelt och snabbt utan att behöva avancerad teknisk kunskap, samtidigt som de har ett mer komplett och professionellt system än en enkel Wallet. Den här kategorin gäller oftast restauranger, caféer, barer eller små butiker som bara ser en handfull Bitcoin-betalningar varje månad, men som ändå vill ha en Interface som är både enkel och robust nog att hantera den dagliga verksamheten utan avbrott.
+Grundläggande-profilen passar små och medelstora företag, eventuellt med anställda, som vill ta emot bitcoin på ett enkelt och snabbt sätt – utan att behöva avancerad teknisk kunskap – men som ändå behöver ett mer komplett och professionellt system än en enkel plånbok. Denna kategori gäller oftast för restauranger, caféer, barer eller mindre butiker som endast tar emot ett fåtal Bitcoin-betalningar per månad, men som vill ha ett gränssnitt som är både lättanvänt och tillräckligt stabilt för att hantera den dagliga verksamheten utan avbrott.
 
-Till skillnad från Starter-profilen betraktar Essential-företag Bitcoin-betalningar som en löpande del av sitt intäktsflöde snarare än ett experiment. De arbetar fortfarande med relativt låga transaktionsvolymer, men frekvensen är tillräcklig för att ägare och anställda ska dra nytta av ett mer strukturerat och tillförlitligt system. Samtidigt förblir Essential-profilen fokuserad på enkelhet; även om den möjliggör praktiska instrumentpaneler och begränsad rollhantering, kräver den inte specialiserade IT-resurser eller komplexa integrationer.
+Till skillnad från nybörjar-profilen ser företag i grundläggande-kategorin vanligtvis Bitcoin-betalningar som en återkommande del av intäktsflödet, snarare än ett tillfälligt experiment. Transaktionsvolymerna är fortfarande relativt låga, men frekvensen är tillräcklig för att både ägare och anställda ska dra nytta av ett mer strukturerat och pålitligt system. Samtidigt förblir grundläggande-profilen fokuserad på enkelhet – den erbjuder smidiga översiktspaneler och viss rollhantering, men kräver varken specialiserad IT-kompetens eller komplexa integrationer.
 
-Teknikrekommendationer inom detta segment handlar ofta om **Swiss Bitcoin Pay**, en strömlinjeformad lösning för handlare som enkelt kan acceptera Bitcoin-betalningar. Den har en användarvänlig PoS-app som inte kräver någon teknisk expertis för de anställda. Till skillnad från vanliga Bitcoin-plånböcker fokuserar den enbart på att ta emot betalningar, vilket gör att de anställda kan använda enheten utan säkerhetsrisker. Flera PoS-appar kan anslutas till samma konto och kan användas på surfplattor, kassaregister, smartphones eller via en webbversion för datorer, med stöd för Android och iOS. Du kan också skapa en meny med de varor du säljer och deras tillhörande priser, så att den anställde helt enkelt kan välja en korg med varor till kunden på PoS och sedan debitera totalsumman.
+Teknikrekommendationer inom detta segment kretsar ofta kring **Swiss Bitcoin Pay** – en förenklad lösning som gör det enkelt för handlare att ta emot Bitcoin-betalningar. Den erbjuder en användarvänlig PoS-app (Point of Sale) som inte kräver någon teknisk expertis från personalens sida. Till skillnad från vanliga Bitcoin-plånböcker är lösningen helt fokuserad på att ta emot betalningar, vilket gör att anställda kan använda enheten utan säkerhetsrisker. Flera PoS-appar kan kopplas till samma konto och användas på surfplattor, kassasystem, smartphones eller via en webbversion för datorer, med stöd för både Android och iOS. Du kan dessutom skapa en produktmeny med artiklar och priser, så att personalen enkelt kan välja en varukorg åt kunden direkt i appen och därefter ta betalt för totalbeloppet.
 
 ![BIZ101-profiles](assets/en/21.webp)
 
-Betalningar kan antingen tas ut i Bitcoin till en specifik Address eller konverteras till fiatvaluta och sättas in på ett bankkonto dagligen. Swiss Bitcoin Pay automatiserar processen och hanterar Bitcoin- och Lightning Network-betalningar utan manuellt ingripande. Pengarna hålls kvar i högst 24 timmar innan de överförs. Även om det inte är helt icke-frihetsberövande som BTCPay Server, balanserar det bekvämlighet och säkerhet och kräver ingen KYC.
+Betalningar kan antingen tas ut i Bitcoin till en specifik adress eller konverteras till fiatvaluta och sättas in på ett bankkonto dagligen. Swiss Bitcoin Pay automatiserar processen och hanterar Bitcoin- och Lightning Network-betalningar utan manuellt ingripande. Pengarna hålls kvar i högst 24 timmar innan de överförs. Även om det inte är helt non-custodial som BTCPay Server, balanserar det bekvämlighet och säkerhet och kräver ingen KYC.
 
 ![BIZ101-profiles](assets/en/22.webp)
 
-Avgifterna är konkurrenskraftiga: 0,21% för det första året, sedan 1% för Bitcoin-betalningar och 1,5% för fiat-konverteringsbetalningar, inklusive Bitcoin-transaktionskostnader. Swiss Bitcoin Pay erbjuder en praktisk mellanväg mellan förvaringslösningar som Open Node och komplexa självhanterade system som BTCPay Server, som prioriterar enkelhet, säkerhet och ekonomisk autonomi.
+Avgifterna är konkurrenskraftiga: 0,21% för det första året, sedan 1% för Bitcoin-betalningar och 1,5% för fiat-konverteringsbetalningar, inklusive Bitcoin-transaktionskostnader. Swiss Bitcoin Pay erbjuder en praktisk mellanväg mellan custodial-lösningar som Open Node och komplexa självhanterade system som BTCPay Server, som prioriterar enkelhet, säkerhet och ekonomisk autonomi.
 
-Den här typen av upplägg gör det möjligt för personliga företag att generate betala fakturor snabbt, presentera QR-koder för sina kunder och acceptera Lightning- eller On-Chain-transaktioner med minimal friktion. Personalen behöver bara en kort introduktion för att hantera dessa betalningar, medan cheferna kan logga in på en instrumentpanel online för att stämma av den dagliga försäljningen och få tillgång till grundläggande rapporter. Den strömlinjeformade administrativa konsolen hjälper också mindre företag att spåra både fiat- och kryptointäkter från en enda Interface, vilket minskar förvirringen och minskar tiden som läggs på manuell bokföring.
+Denna typ av upplägg gör det möjligt för verksamheter med fysiska kundmöten att snabbt generera betalningsfakturor, visa QR-koder för kunderna och ta emot både Lightning- och on-chain-transaktioner med minimal friktion. Personalen behöver endast en kort introduktion för att kunna hantera betalningarna, medan chefer enkelt kan logga in på en onlinebaserad kontrollpanel för att stämma av dagens försäljning och ta del av grundläggande rapporter. Tillgången till ett förenklat administrativt gränssnitt hjälper även mindre verksamheter att följa både fiat- och kryptointäkter från ett och samma system, vilket minskar risken för förvirring och sparar tid vid manuell bokföring.
 
 ![BIZ101-profiles](assets/en/23.webp)
 
-En annan viktig fördel med Essential-metoden är betoningen på snabb driftsättning och minimala störningar. Lösningar som Swiss Bitcoin Pay kan sättas upp på några timmar snarare än dagar eller veckor. För en ägare eller chef för en restaurang med måttlig trafik är slutmålet till exempel att integrera Bitcoin-acceptans utan att orsaka förseningar i kassan eller förvirring bland personalen. När POS är konfigurerat kan chefen helt enkelt ge de anställda snabba instruktioner om hur de ska visa Invoice och verifiera att betalningen har godkänts. I bästa fall bekräftas kundens transaktion nästan omedelbart via Lightning Network, och företagets administrativa panel registrerar samtidigt en ny betalning i realtid.
+En annan viktig fördel med grundläggande-profilen är betoningen på snabb implementering och minimal störning i verksamheten. Lösningar som Swiss Bitcoin Pay kan sättas upp på några timmar istället för dagar eller veckor. För en ägare eller chef på en måttligt trafikerad restaurang är målet att integrera Bitcoin-betalningar utan att orsaka förseningar i kassan eller förvirring bland personalen. När PoS-systemet väl är konfigurerat, kan chefen enkelt ge personalen snabba instruktioner om hur man visar fakturan och verifierar att betalningen har genomförts. I bästa fall bekräftas kundens transaktion nästan omedelbart via Lightning-nätverket, och företagets administrationspanel registrerar samtidigt betalningen i realtid.
 
-Även om Essential-profilen inte kräver mycket sofistikerade redovisningssystem är det ändå klokt att upprätthålla korrekta transaktionsregister. Verktyg som Swiss Bitcoin Pay erbjuder CSV-exportfunktioner, vilket gör det möjligt för chefer att fånga fiat-ekvivalentvärdet för varje Bitcoin-försäljning och spåra det tillsammans med andra inkomstkällor. Denna dokumentationsnivå är tillräcklig för de flesta småföretag, och en rudimentär förståelse av Exchange-priser hjälper till med skattedeklaration och allmän ekonomisk tillsyn.
+Även om grundläggande-profilen inte kräver avancerade bokföringssystem, är det ändå klokt att föra ordentliga transaktionsregister. Verktyg som Swiss Bitcoin Pay erbjuder exportfunktioner i CSV-format, vilket gör det möjligt för chefer att registrera det fiat-ekvivalenta värdet av varje Bitcoin-försäljning och följa upp det tillsammans med övriga intäktskällor. Denna nivå av dokumentation är tillräcklig för de flesta småföretag, och en grundläggande förståelse för växlingskurser underlättar vid deklaration och generell ekonomisk uppföljning.
 
 ![BIZ101-profiles](assets/en/24.webp)
 
 Den mest lämpliga hybridlösningen för din profil är sannolikt Swiss Bitcoin Pay:
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-En annan lösning som är enkel att implementera, men som har nackdelen att den är 100% depåägd, är Open Node:
+
+En annan lösning som är enkel att implementera, men som har nackdelen att den är 100% custodial, är Open Node:
 
 https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 Om du är redo att smutsa ner dina händer och vill ha full kontroll över processen är BTCPay Server-programvaran ett utmärkt alternativ. Den största nackdelen med BTCPay Server är dock att dess installation och hantering är tidskrävande och kräver en viss nivå av teknisk expertis, men du kan följa våra guider:
 
 https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
@@ -995,9 +999,9 @@ Slutligen, som ett komplement till fysiska försäljningsställen, kan du överv
 
 <chapterId>4d5dfa50-c4d0-481c-ab95-1863a898750e</chapterId>
 
-Professional-profilen riktar sig till företag som har gått vidare från enstaka Bitcoin-betalningar eller betalningar med låg volym och nu söker en robust infrastruktur för att hantera flera dagliga transaktioner. Dessa företag har ofta verksamhet i flera kanaler (kanske en butik, en särskild e-handelswebbplats och till och med mobilförsäljning) och behöver därför betalningslösningar som kan integreras sömlöst i deras befintliga arbetsflöden. I många fall hanterar företag på den här nivån redan kassasystem, plattformar för onlineorderhantering och backoffice-verksamhet som kräver en tillförlitlig och skalbar lösning.
+Den professionella profilen riktar sig till företag som har gått vidare från enstaka Bitcoin-betalningar eller betalningar med låg volym och nu söker en robust infrastruktur för att hantera flera dagliga transaktioner. Dessa företag har ofta verksamhet i flera kanaler (kanske en butik, en särskild e-handelswebbplats och till och med mobilförsäljning) och behöver därför betalningslösningar som kan integreras sömlöst i deras befintliga arbetsflöden. I många fall hanterar företag på den här nivån redan kassasystem, plattformar för onlineorderhantering och backoffice-verksamhet som kräver en tillförlitlig och skalbar lösning.
 
-En av de definierande egenskaperna hos Professional-handlaren är behovet av **avancerade funktioner** och **anpassningsbara lösningar** som bibehåller effektiviteten även när transaktionsvolymerna växer. Till skillnad från Essential-användare, som kanske nöjer sig med ett strömlinjeformat verktyg som passar perfekt i en smartphone-app, kräver Professional-affärer vanligtvis funktioner som detaljerad Invoice-anpassning, sofistikerade rapporteringsinstrumentpaneler och möjlighet att tilldela flera administrativa roller.
+En av de definierande egenskaperna hos den professionella handlaren är behovet av **avancerade funktioner** och **anpassningsbara lösningar** som bibehåller effektiviteten även när transaktionsvolymerna växer. Till skillnad från de grundläggande användarna, som kanske nöjer sig med ett förenklat verktyg som passar perfekt i en smartphone-app, kräver professionella företag vanligtvis funktioner som detaljerad fakturaanpassning, sofistikerade rapporteringsinstrument och möjlighet att tilldela flera administrativa roller.
 
 ![BIZ101-profiles](assets/en/25.webp)
 
@@ -1013,24 +1017,25 @@ Dessutom kan verktyg som [Zaprite] (https://zaprite.com/) eller [Musqet] (https:
 
 ![BIZ101-profiles](assets/en/28.webp)
 
-Att implementera dessa tekniker i en professionell miljö innebär att man måste vara mycket uppmärksam på **operationell komplexitet**. Automatiserade faktureringsarbetsflöden, visning i flera valutor och synkronisering med befintliga lagersystem är alla kännetecken för en välintegrerad plattform. Möjligheten att exakt exportera transaktionsdata (oavsett om det är som CSV-filer, direkta API-anrop eller anpassade format) hjälper företag att effektivt stämma av Bitcoin-försäljningen med andra intäktsströmmar.
+Att implementera dessa teknologier i en professionell miljö innebär att noggrant beakta den **operationella komplexiteten**. Automatiserade faktureringsflöden, visning i flera valutor och synkronisering med befintliga lagersystem är kännetecken på en välintegrerad plattform. Möjligheten att exakt exportera transaktionsdata, oavsett om det sker via CSV-filer, direkta API-anrop eller anpassade format, gör det enklare för företag att samstämma bitcoinförsäljning med andra intäktsströmmar på ett effektivt sätt.
 
-Säkerhets- och rollhantering är en annan viktig faktor för Professional-användare. När de dagliga Bitcoin-transaktionerna ackumuleras blir kontroll av åtkomst till administrativa funktioner en viktig riskreducerande åtgärd. I många lösningar kan administratörer tilldela olika nivåer av behörighet (kanske begränsa vissa anställda till att visa transaktionshistorik och generera fakturor, medan andra får behörighet att hantera lager eller konfigurera systemomfattande inställningar ...). Denna hierarkiska struktur skyddar inte bara känsliga uppgifter utan effektiviserar också verksamheten genom att klargöra vilka medarbetare som har ansvar för varje del av betalningsinfrastrukturen.
+Säkerhet och rollhantering utgör en annan central aspekt för användare inom den professionella profilen. I takt med att dagliga Bitcoin-transaktioner ökar i antal, blir det avgörande att kontrollera åtkomsten till administrativa funktioner som en del av riskhanteringen. I många lösningar kan administratörer tilldela olika behörighetsnivåer – exempelvis kan vissa anställda begränsas till att endast se transaktionshistorik och skapa fakturor, medan andra ges rättigheter att hantera lager eller konfigurera systeminställningar. Denna hierarkiska struktur skyddar inte bara känslig data, utan effektiviserar även arbetsflöden genom att tydliggöra vilka medarbetare som ansvarar för respektive del av betalningsinfrastrukturen.
 
-När det gäller exempel från verkligheten kan man tänka sig en medelstor e-handelsbutik som specialiserar sig på tekniktillbehör. Företaget kan integrera BTC Pay Server i sin befintliga onlinebutik och automatiskt generera Bitcoin-betalningsadresser under kassan. Kunderna slutför sina inköp genom att skanna en Lightning eller On-Chain Address, och butikens plattform bekräftar omedelbart betalningen. Samtidigt uppdaterar ett internt system orderstatus och utlöser leveransaviseringar. Tack vare de avancerade rapporteringsfunktionerna kan ekonomiteamet enkelt granska den dagliga Bitcoin-försäljningen, exportera en konsoliderad Ledger för revision och spåra värdet på alla BTC-innehav som företaget beslutar att behålla.
+När det gäller exempel från verkligheten kan man tänka sig en medelstor e-handelsbutik som specialiserar sig på tekniktillbehör. Företaget kan integrera BTC Pay Server i sin befintliga onlinebutik och automatiskt generera Bitcoin-betalningsadresser vid checkout. Kunderna slutför sina inköp genom att skanna en Lightning eller On-Chain Address, och butikens plattform bekräftar omedelbart betalningen. Samtidigt uppdaterar ett internt system orderstatus och utlöser leveransaviseringar. Tack vare de avancerade rapporteringsfunktionerna kan ekonomiteamet enkelt granska den dagliga Bitcoin-försäljningen, exportera ett konsoliderat register för revision och spåra värdet på alla BTC-innehav som företaget beslutar att behålla.
 
 ![BIZ101-profiles](assets/en/29.webp)
 
-*[Kredit: Bitcoin Bazar-butik i Paris, Frankrike.] (https://bitcoinbazar.fr/)*
+*[Källa: Bitcoin Bazar-butik i Paris, Frankrike.] (https://bitcoinbazar.fr/)*
 
 För att gå djupare in på implementeringsdetaljer och utforska praktiska konfigurationer av BTC Pay Server, se följande kurs:
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+
 ## Företaget
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
 
-Enterprise-profilen står på toppen av Bitcoin-betalningsimplementeringar, skräddarsydd specifikt för stora företag, stora marknadsplatser och etablerade företag som kräver helt anpassade lösningar. Till skillnad från implementeringar i mindre skala eller på mellannivå integrerar Enterprise-verksamheter Bitcoin-betalningar i en bred väv av arbetsflöden och system, allt från försäljningsställen på plats till e-handelsbutiker, backoffice-redovisningsplattformar och sofistikerade ERP-ramverk.
+Företags-profilen står på toppen av Bitcoin-betalningsimplementeringar, skräddarsydd specifikt för stora företag, stora marknadsplatser och etablerade företag som kräver helt anpassade lösningar. Till skillnad från implementeringar i mindre skala eller på mellannivå integrerar företagsverksamheter Bitcoin-betalningar i en bred väv av arbetsflöden och system, allt från fysiska försäljningsställen till e-handelsbutiker, backoffice-redovisningsplattformar och sofistikerade ERP-ramverk.
 
 I den här skalan är det övergripande målet inte bara att acceptera Bitcoin, utan att göra det på ett sätt som är helt **anpassat till organisationens kärnprocesser**. Denna anpassning kan kräva specialiserad mjukvaruutveckling, oavsett om lösningen är helt skräddarsydd eller orkestrerad genom en SaaS-baserad infrastruktur som stöds av tredjeparts *Lightning Service Providers* (LSP). Sådana LSP:er kan hantera höga transaktionsvolymer och komplexa nätverkskonfigurationer som överstiger kapaciteten hos mer konventionella "out-of-the-box"-verktyg. Den resulterande arkitekturen omfattar därför ett brett spektrum av tekniska och affärsmässiga överväganden, från API-drivna integrationer till avancerade funktioner för finansförvaltning.
 

@@ -1094,93 +1094,90 @@ Nya infrastrukturer lyckas eftersom de är mer effektiva, och tidiga användare 
 *[Källa: BTC Map](https://btcmap.org/)*
 
 
-- **Nätverksstatistik:** Det totala antalet kanaler och den mängd Bitcoin som är låst i Lightning-nätverket är fortsatt stabil – med cirka 20 000 noder, 5 200 BTC och 60 000 kanaler. Dessa siffror speglar dock endast en del av nätverket och indikerar ett skifte i deltagarbasen, där färre privatpersoner och fler professionella aktörer nu deltar.
-- **Blixten som en bro mellan nätverk:** Lightning Network:s effektivitet och tillgänglighet har redan positionerat den som en bro till andra sammankopplade nätverk (t.ex. FediMint, Liquid, etc.).
+- **Nätverksstatistik:** Det totala antalet kanaler och den mängd Bitcoin som är låst i Lightning-nätverket är fortsatt stabil, med cirka 20 000 noder, 5 200 BTC och 60 000 kanaler. Dessa siffror speglar dock endast en del av nätverket och indikerar ett skifte i deltagarbasen, där färre privatpersoner och fler professionella aktörer nu deltar.
 
-**Wallet:s comeback**
+- **Lightning som en bro mellan nätverk:** Lightning Network:s effektivitet och tillgänglighet har redan positionerat den som en bro till andra sammankopplade nätverk (t.ex. FediMint, Liquid, etc.).
 
-Bitcoin och Lightning Network fullbordar den **digitala Wallet-revolutionen**. Nya webbtjänster tillåter nu **transaktioner utan att du behöver skapa ett konto** - din Wallet blir din identitet! Med protokoll som **Nostr Wallet Connect (NWC)** och **LN-URL-AUTH** kan plånböcker sömlöst autentisera användare och möjliggöra transaktioner utan traditionella konton. Borta är dagarna med kontotrötthet för enkla köp eller prenumerationer. Det finns inget behov av att tillhandahålla personlig information eller betalningsinformation som kan bli hackad och till salu på den mörka webben, vilket vi alltför ofta påminns om genom den senaste tidens händelser.
+**Plånbokens comeback**
+
+Bitcoin och Lightning Network fullbordar den **digitala plånboks-revolutionen**. Nya webbtjänster tillåter nu **transaktioner utan att du behöver skapa ett konto** - din plånbok blir din identitet! Med protokoll som **Nostr Wallet Connect (NWC)** och **LN-URL-AUTH** kan plånböcker sömlöst autentisera användare och möjliggöra transaktioner utan traditionella konton. Tiden är förbi då enkla köp eller prenumerationer krävde kontoregistreringar. Det finns inte längre något behov av att lämna ut personliga uppgifter eller betalningsinformation som riskerar att bli hackad och hamna till salu på darknet, något vi ständigt påminns om genom aktuella dataintrång och läckor.
 
 ![BIZ101](assets/en/10.webp)
 
 Morgondagens handlare kommer att anamma denna innovation och erbjuda kunderna en säkrare och mer sömlös upplevelse (med ett klick) som också respekterar deras integritet.
 
-# Bitcoin Redovisning
+# Bitcoin-bokföring
 
 <partId>d49d7595-a189-4e2b-bd60-c19e8e717aa2</partId>
 
-## Grundläggande principer för redovisning Bitcoin in Business
+## Grundläggande principer för bokföring av Bitcoin i företag
 
 <chapterId>84063061-ffdb-4b1f-b20b-588ffb146877</chapterId>
 
 Följande innehåll är endast avsett för utbildningsändamål och ska inte betraktas som finansiell eller redovisningsmässig rådgivning. Företag och privatpersoner uppmanas starkt att konsultera en kvalificerad revisor eller juridisk expert som är bekant med kryptovalutabestämmelser i sin specifika jurisdiktion innan de vidtar några åtgärder.
 
-### Bitcoin Nyckelbegrepp inom redovisning
+### Nyckelbegrepp inom Bitcoin-bokföring
 
-**Alla Bitcoin-transaktioner måste registreras och kan leda till en skattepliktig händelse**
+**Alla Bitcoin-transaktioner måste registreras och kan leda till skattekonsekvenser**
 
-Globalt klassificeras Bitcoin ofta inte som en valuta utan som en digital tillgång. Denna distinktion har en betydande inverkan på hur Bitcoin redovisas i företag, vilket påverkar skattskyldigheter, finansiell rapportering och efterlevnadskrav. Företag som accepterar Bitcoin som betalningsmetod eller använder det som ett verktyg för likvida medel måste förstå dessa regulatoriska nyanser.
+Globalt klassificeras Bitcoin ofta inte som en valuta utan som en digital tillgång. Denna distinktion har stor betydelse för hur Bitcoin redovisas i företag och påverkar skatteskyldighet, finansiell rapportering och regelefterlevnad. Företag som accepterar Bitcoin som betalningsmedel eller använder det som ett verktyg i sin kassastrategi måste förstå dessa regulatoriska nyanser.
 
-Den **viktigaste konsekvensen** att komma ihåg är att i de flesta jurisdiktioner skapar intjäning, försäljning, handel eller användning av Bitcoin för att göra inköp vanligtvis **en skattepliktig händelse** och vinster är föremål för kapitalvinstskatt.
+Den **viktigaste konsekvensen** att komma ihåg är att i de flesta jurisdiktioner skapar inkomst, försäljning, handel eller användning av Bitcoin för att göra inköp vanligtvis **en skattepliktig händelse** och vinster är föremål för kapitalvinstskatt.
 
 En annan aspekt av Bitcoin-redovisning är att skilja mellan två typer av kapitalvinster:
 
-
-- Latenta vinster/förluster:** Orealiserade vinster eller förluster baserade på värdet av Bitcoin som innehas vid slutet av en redovisningsperiod.
-- Effektiva vinster/förluster:** Realiserade vinster eller förluster när Bitcoin säljs eller byts ut under räkenskapsåret.
+- **Latenta vinster/förluster:** Orealiserade vinster eller förluster baserade på värdet av Bitcoin som innehas vid slutet av en redovisningsperiod.
+- **Effektiva vinster/förluster:** Realiserade vinster eller förluster när Bitcoin säljs eller byts ut under räkenskapsåret.
 
 Dessa beräkningar beror i hög grad på om Bitcoin innehas för långsiktig investering eller kortsiktig operativ användning. Dessutom måste företagen anpassa sina redovisningsmetoder till lokala skattestrukturer, eftersom reglerna varierar avsevärt mellan olika länder.
 
-Redovisning för företag som innehar Bitcoin är något besvärlig eftersom varje transaktion måste följas noggrant för att beräkna realiserade eller orealiserade vinster eller förluster. För varje försäljning som du gör genom att acceptera Bitcoin som betalningsform, eller varje gång du köper eller säljer Bitcoin, måste du registrera:
+Redovisning för företag som äger Bitcoin är något besvärlig eftersom varje transaktion måste följas noggrant för att beräkna realiserade eller orealiserade vinster eller förluster. För varje försäljning som du gör genom att acceptera Bitcoin som betalningsform, eller varje gång du köper eller säljer Bitcoin, måste du registrera:
 
-
-- den specifika tiden
+- den exakta tidpunkten
 - försäljningspriset (i fiat-valuta)
-- gW-335:s anskaffningspris (det pris till vilket Bitcoin ursprungligen förvärvades).
+- inköpspriset för Bitcoin (det pris till vilket Bitcoin ursprungligen förvärvades)
 
 Detta gör att du senare kan beräkna skillnaden för att fastställa vinsten eller förlusten.
 
-**Exempel:** Ett företag köper 1 BTC för 30 000 USD. Senare säljer det 0.5 BTC för 20,000 XNUMX $. För att beräkna vinsten eller förlusten måste företaget:
+**Exempel:** Ett företag köper 1 BTC för 30 000 USD. Senare säljer det 0.5 BTC för 20,000 USD. För att beräkna vinsten eller förlusten måste företaget:
 
+- Ha registrerat tid, fiat-kostnadspris och antal Bitcoin som förvärvats
+- Ha registrerat tid, fiat-försäljningspriset och antal Bitcoin som sålts
+- Beräkna kostnaden för såld Bitcoin: 0,5 BTC: 30 000 USD ÷ 2 = 15 000 USD
+- Jämför försäljningspris med anskaffningsvärde: 20 000 USD (försäljningspris) - 15 000 USD (inköpspris) = 5 000 USD i vinst
+- Uppdatera Bitcoin-innehavet med det nya anskaffningsvärdet
 
-- Har registrerat tid, fiat-kostnadspris och kvantitet för Bitcoin förvärvade
-- Har registrerat tiden, fiat-försäljningspriset och kvantiteten Bitcoin som sålts
-- Bestäm kostnaden för Bitcoin såld : 0,5 BTC: 30 000 $ ÷ 2 = 15 000 $.
-- Jämför försäljningspriset med självkostnadspriset: 20 000 USD (försäljningspris) - 15 000 USD (självkostnadspris) = 5 000 USD i vinst.
-- Uppdatera Bitcoin-innehaven med det nya kostnadspriset
+Denna process måste upprepas för varje transaktion, och Bitcoins fluktuerande pris gör registerföringen ännu mer besvärlig.
 
-Denna process måste upprepas för varje transaktion, och Bitcoin:s fluktuerande pris gör registerföringen ännu mer besvärlig.
+**Hur det skulle fungera om Bitcoin var en valuta?**
 
-**Hur det skulle fungera om Bitcoin var en valuta
+Om Bitcoin skulle behandlas som en valuta skulle företag hantera den som vilken annan valuta som helst i sitt redovisningssystem. I stället för att spåra anskaffningsvärde och realiserade/orealiserade vinster för varje transaktion, skulle Bitcoin-innehav helt enkelt registreras på ett valutakonto. Vid slutet av varje rapporteringsperiod skulle värdet av alla valutainnehav, inklusive Bitcoin, konverteras till redovisningsvalutan (t.ex. USD eller EUR) med hjälp av den aktuella växelkursen.
 
-Om Bitcoin skulle behandlas som en valuta skulle företag hantera den som vilken annan valuta som helst i sitt redovisningssystem. I stället för att spåra anskaffningsvärde och realiserade/orealiserade vinster för varje transaktion, skulle Bitcoin-innehav helt enkelt registreras på ett valutakonto. Vid slutet av varje rapporteringsperiod skulle värdet av alla valutainnehav, inklusive Bitcoin, konverteras till redovisningsvalutan (t.ex. USD eller EUR) med hjälp av den aktuella Exchange-kursen.
-
-**Uppdaterat exempel om Bitcoin redovisades som en valuta:**
+**Uppdaterat exempel om Bitcoin erkändes som en valuta:**
 
 
 - Ett företag innehar 1 BTC när Bitcoin är värt 30 000 USD. Senare använder företaget 0,5 BTC för en betalning när Bitcoin är värt 40 000 USD.
 - Företaget beräknar **inte** realiserad vinst eller förlust. Istället bokförs transaktionen som:
     - Betalning: 20 000 USD (0,5 BTC × 40 000 USD).
-    - Återstående Bitcoin-saldo: 0.5 BTC, nu värt 20 000 USD (uppdaterat till den aktuella Exchange-kursen).
+    - Återstående Bitcoin-saldo: 0.5 BTC, nu värt 20 000 USD (uppdaterat till den aktuella växelkursen).
 
-**Nyckelfördel om Bitcoin redovisades som en valuta:**
+**Nyckelfördel om Bitcoin erkändes som en valuta:**
 
 
 - Företaget behöver bara justera fiatekvivalenten för sina Bitcoin-innehav med jämna mellanrum (t.ex. för månads- eller årsrapporter), precis som för euro, yen eller andra valutor som det innehar.
-- Detta eliminerar behovet av spårning av kostnadsbasen på transaktionsnivå och förenklar redovisningen, särskilt för företag med frekventa Bitcoin-transaktioner.
+- Detta skulle eliminera behovet av att spåra anskaffningsvärde på transaktionsnivå och förenkla bokföringen, särskilt för företag med frekventa Bitcoin-transaktioner.
 
 Detta tillvägagångssätt skulle göra redovisningen av Bitcoin mycket enklare, minska de administrativa bördorna och anpassa sig till behandlingen av andra valutor, förutsatt att Bitcoin skulle erkännas fullt ut som sådan i juridiska och regleringsmässiga termer. Vi är inte där ännu.
 
-### Skillnader mellan individ och företag Bitcoin Redovisning
+### Skillnader mellan privat och företagsmässig bokföring av Bitcoin
 
 Den juridiska och redovisningsmässiga behandlingen av Bitcoin skiljer sig avsevärt mellan privatpersoner och företag. För privatpersoner kan vinster från Bitcoin-transaktioner bli föremål för inkomstskatt, ofta till en högre skattesats. Företag kan däremot dra nytta av potentiellt lägre bolagsskattesatser men måste följa striktare bokföringsstandarder.
 
 För företag kan Bitcoin klassificeras under olika konton beroende på dess avsedda användning:
 
-
-- Anläggningstillgångar:** För Bitcoin som innehas långsiktigt som en strategisk investering.
-- Lager:** För Bitcoin som används i produktionsprocesser (ett sällsynt användningsfall, t.ex. för professionella handlare).
-- Kontanter eller statskonton:** För Bitcoin som innehas som en Liquid-tillgång, främst för operativa transaktioner eller kortsiktig likviditetsförvaltning.
+- **Anläggningstillgångar:** För Bitcoin som ägs långsiktigt som en strategisk investering.
+- **Lager:** För Bitcoin som används i produktionsprocesser (ett sällsynt användningsfall, t.ex. för professionella handlare).
+- **Kontanter eller kassakonton:** För Bitcoin som ägs som en Liquid-tillgång, främst för operativa transaktioner eller kortsiktig likviditetsförvaltning.
 
 Valet av klassificering beror på företagets verksamhet och strategi, med konsekvenser för finansiell rapportering och skattskyldigheter. Kontrollera alltid lokala bestämmelser, eftersom dessa klassificeringar kan skilja sig åt mellan olika länder.
 
@@ -1190,17 +1187,15 @@ Det rättsliga erkännandet och behandlingen av Bitcoin varierar beroende på ju
 
 I de flesta länder kategoriseras Bitcoin som en digital tillgång, och dess behandling styrs av allmänna redovisningsstandarder. Företag måste redovisa Bitcoin-transaktioner enligt följande:
 
-
-- Redovisning av kapitalvinster/förluster:** Företag måste redovisa realiserade vinster eller förluster i sina finansiella resultat.
-- Värdering av latenta vinster/förluster:** Orealiserade vinster eller förluster måste ofta redovisas men påverkar kanske inte direkt den beskattningsbara inkomsten.
-- Överensstämmelse med redovisningsstandarder:** Företag måste integrera Bitcoin-transaktioner i vanliga bokföringsrutiner, vilket säkerställer transparens och noggrannhet.
+- **Redovisning av kapitalvinster/förluster:** Företag måste redovisa realiserade vinster eller förluster i sina finansiella resultat.
+- **Värdering av latenta vinster/förluster:** Orealiserade vinster eller förluster måste ofta redovisas men påverkar kanske inte direkt den beskattningsbara inkomsten.
+- **Överensstämmelse med redovisningsstandarder:** Företag måste integrera Bitcoin-transaktioner i vanliga bokföringsrutiner, vilket säkerställer transparens och noggrannhet.
 
 Tillvägagångssättet för Bitcoin-redovisning varierar beroende på geografi:
 
-
-- USA:** IRS klassificerar Bitcoin som **egendom, liknande aktier, obligationer eller fastigheter**. Denna klassificering innebär att alla transaktioner som involverar kryptovaluta, till exempel att tjäna, sälja, handla eller till och med använda den för att göra inköp, kan skapa en skattepliktig händelse och vinster är föremål för kapitalvinstskatt.
-- Europeiska unionen:** Medlemsländerna behandlar i allmänhet Bitcoin som en spekulativ tillgång snarare än en funktionell valuta. Därför är vinster ofta föremål för kapitalvinstskatt.
-- Asien:** Länder som Singapore och Japan har antagit progressiva regelverk och behandlar Bitcoin-transaktioner positivt i specifika sammanhang. Men Bitcoin redovisas i allmänhet som **immateriella tillgångar** och värderas till verkligt värde på balansdagen, med förändringar redovisade i resultaträkningen.
+- **USA:** IRS klassificerar Bitcoin som **egendom, liknande aktier, obligationer eller fastigheter**. Denna klassificering innebär att alla transaktioner som involverar kryptovaluta, till exempel att tjäna, sälja, handla eller till och med använda den för att göra inköp, kan skapa en skattepliktig händelse och vinster är föremål för kapitalvinstskatt.
+- **Europeiska unionen:** Medlemsländerna behandlar i allmänhet Bitcoin som en spekulativ tillgång snarare än en funktionell valuta. Därför är vinster ofta föremål för kapitalvinstskatt.
+- **Asien:** Länder som Singapore och Japan har antagit progressiva regelverk och behandlar Bitcoin-transaktioner positivt i specifika sammanhang. Men Bitcoin redovisas i allmänhet som **immateriell tillgång** och värderas till verkligt värde på rapporteringsdagen, med förändringar redovisade i resultaträkningen.
 
 Det är viktigt att förstå reglerna i det land där du är verksam och anpassa din redovisning därefter.
 
@@ -1208,64 +1203,57 @@ Det är viktigt att förstå reglerna i det land där du är verksam och anpassa
 
 Den snabba innovationstakten för kryptovalutor överträffar ofta regelverken. Sedan Bitcoin erkändes som en digital tillgång har globala regelverk uppdaterats stegvis, men det finns fortfarande luckor:
 
+- **Brist på rättspraxis:** Få rättsfall har klargjort specifika redovisningsprinciper, vilket lämnar utrymme för tolkning.
+- **Pågående debatter:** Frågor som den skattemässiga behandlingen av latenta förluster är fortfarande olösta i många jurisdiktioner.
+- **Komplexitet över gränserna:** Företag som är verksamma internationellt ställs inför utmaningar när de ska förena olika nationella redovisningsstandarder.
 
-- Brist på rättspraxis:** Få rättsfall har klargjort specifika redovisningsprinciper, vilket lämnar utrymme för tolkning.
-- Pågående debatter:** Frågor som den skattemässiga behandlingen av latenta förluster är fortfarande olösta i många jurisdiktioner.
-- Komplexitet över gränserna:** Företag som är verksamma internationellt ställs inför utmaningar när de ska förena olika nationella redovisningsstandarder.
-
-Trots dessa utmaningar ger många länders proaktiva hållning en solid grund för företag att införliva Bitcoin i sin verksamhet. Fortsatta uppdateringar och internationell harmonisering kommer att vara avgörande för Address framväxande komplexitet i redovisningen av kryptovalutor.
+Trots dessa utmaningar ger många länders proaktiva hållning en solid grund för företag att införliva Bitcoin i sin verksamhet. Fortsatta uppdateringar och internationell harmonisering kommer att vara avgörande för hantera framväxande komplexitet i redovisningen av kryptovalutor.
 
 ### Klassificering av Bitcoin i finansiella rapporter
 
-Bitcoin:s klassificering i finansiella rapporter varierar beroende på jurisdiktion och beror på dess avsedda användning inom ett företag. I stort sett behandlas Bitcoin som en digital tillgång, i likhet med lager, investering eller valuta, men med unika egenskaper som påverkar dess redovisningsbehandling.
+Bitcoins klassificering i finansiella rapporter varierar beroende på jurisdiktion och beror på dess avsedda användning inom ett företag. I stort sett behandlas Bitcoin som en digital tillgång, i likhet med lager, investering eller valuta, men med unika egenskaper som påverkar dess bokföringsbehandling.
 
+- **Digital tillgång eller immateriell tillgång**: Många jurisdiktioner, inklusive Frankrike och Europeiska unionen, klassificerar Bitcoin som en digital eller immateriell tillgång snarare än ett lagligt betalningsmedel. Denna klassificering kräver att företag redovisar Bitcoin på ett annat sätt än fiatvalutor.
+- **Lager**: Om ett företags kärnverksamhet innebär handel med Bitcoin, såsom kryptovalutabörser eller mäklare, klassificeras Bitcoin som lager. I detta fall följer värderingen standarder för lagerredovisning.
+- **Finansiell investering**: Företag som äger Bitcoin som en långsiktig tillgång kan klassificera den som en finansiell investering. I USA kan företag till exempel redovisa Bitcoin enligt Financial Accounting Standards Boards (FASB) riktlinjer och redovisa nedskrivningar när marknadsvärdena sjunker.
 
-- Digital tillgång eller immateriell tillgång**: Många jurisdiktioner, inklusive Frankrike och Europeiska unionen, klassificerar Bitcoin som en digital eller immateriell tillgång snarare än ett lagligt betalningsmedel. Denna klassificering kräver att företag redovisar Bitcoin på ett annat sätt än fiatvalutor.
-- Lager**: Om ett företags kärnverksamhet innebär handel med Bitcoin, såsom kryptovalutabörser eller mäklare, klassificeras Bitcoin som lager. I detta fall följer värderingen standarder för lagerredovisning.
-- Finansiell investering**: Företag som innehar Bitcoin som en långsiktig tillgång kan klassificera den som en finansiell investering. I USA kan företag till exempel redovisa Bitcoin enligt Financial Accounting Standards Boards (FASB) riktlinjer och redovisa nedskrivningar när marknadsvärdena sjunker.
-
-**Konsekvenser av klassificeringen :**
-
+**Konsekvenser av klassificeringen:**
 
 - Långsiktiga innehav kräver ofta prövning av nedskrivningsbehov och avskrivningar.
 - Aktiv handel eller betalningsrelaterade aktiviteter kräver ständig uppföljning av realiserade och orealiserade vinster och förluster.
 
 ### Värderingsmetoder
 
-Värderingsmetoder är redovisningstekniker som används för att fastställa kostnadsbasen för Bitcoin, vilket är viktigt för att korrekt beräkna vinster eller förluster under transaktioner. I allmänhet är det bäst att **upprätthålla ett alltid uppdaterat värde av nuvarande Bitcoin-innehavskostnader** i redovisningssystemet. Detta säkerställer transparens, efterlevnad av skatteregler och förhindrar att man hamnar på efterkälken när beräkningar måste utföras.
+Värderingsmetoder är bokföringstekniker som används för att fastställa kostnadsbasen för Bitcoin, vilket är viktigt för att korrekt beräkna vinster eller förluster under transaktioner. I allmänhet är det bäst att **alltid upprätthålla ett uppdaterat värde av nuvarande Bitcoin-innehavskostnader** i redovisningssystemet. Detta säkerställer transparens, efterlevnad av skatteregler och förhindrar att man hamnar på efterkälken när beräkningar måste utföras.
 
+- **Först in, först ut (FIFO)**: Denna metod, som är vanlig i jurisdiktioner som Australien och Indien, värderar Bitcoin baserat på den tidigaste anskaffningskostnaden. Detta kan bli ganska **komplicerat** eftersom det kan kräva att varje fraktion av en Bitcoin spåras separat när en försäljning sker.
+- **Vägd genomsnittlig kostnad (WAC)**: Ofta att föredra för transaktioner med stora volymer på grund av dess **enkelhet**, vilket man ser i länder som USA.
 
-- Först in, först ut (FIFO)**: Denna metod, som är vanlig i jurisdiktioner som Australien och Indien, värderar Bitcoin baserat på den tidigaste anskaffningskostnaden. Detta kan bli ganska **komplicerat** eftersom det kan kräva att varje fraktion av en Bitcoin spåras separat när en försäljning sker.
-- Viktad genomsnittlig kostnad (WAC)**: Ofta att föredra för transaktioner med stora volymer på grund av dess **enkelhet**, vilket man ser i länder som USA.
-
-Det rekommenderas starkt att upprätthålla en detaljerad arbetsbok som spårar Bitcoin-kostnader ** från det ögonblick ett företag börjar köpa Bitcoin eller acceptera det som betalning** för att säkerställa korrekt och organiserad bokföring. Denna övervägande ensam bör vara högst upp i åtanke när du väljer en mjukvarulösning för att acceptera Bitcoin-betalning eller för att köpa Bitcoin.
+Det rekommenderas starkt att upprätthålla en detaljerad arbetsbok som spårar Bitcoin-kostnader **från det ögonblick ett företag börjar köpa Bitcoin eller acceptera det som betalning** för att säkerställa korrekt och organiserad bokföring. Detta övervägande bör vara högst upp i åtanke när du väljer en mjukvarulösning för att acceptera Bitcoin-betalning eller för att köpa Bitcoin.
 
 ### Redovisning av transaktioner inom detalj- och e-handel
 
-Återförsäljare måste för varje transaktion registrera Bitcoin-till-fiat Exchange-satsen. I många länder använder företag till exempel Exchange-satsen vid försäljningstillfället för att beräkna moms.
+Återförsäljare måste för varje transaktion registrera  växelkursen av Bitcoin-till-fiat. I många länder använder företag växelkursen vid till exempel försäljningstillfället för att beräkna moms.
 
 Företag måste se till att de **betalningsverktyg** som de använder ger möjlighet till:
 
-
-- generate en Invoice med det lokala fiatbeloppet (euro, dollar, pund), moms eller andra lokala skatter, den Bitcoin denominerade motsvarigheten, datum och tid, Bitcoin Exchange kurs och Exchange källa etc
-- exportera alla betalningskvitton, åtminstone i ett .csv-format, med all ovanstående information, så att revisorn enkelt kan behandla dem
-- helst ha en bokföring av det uppdaterade värdet av kostnadsbasen för den aktuella Bitcoin som finns i kassan
+- att generera en faktura med det lokala fiatbeloppet (euro, dollar, pund), moms eller andra lokala skatter, den Bitcoin-denominerade motsvarigheten, datum och tid, Bitcoins växelkurs och växelkälla etc
+- att exportera alla betalningskvitton, åtminstone i ett .csv-format, med all ovanstående information, så att revisorn enkelt kan behandla dem
+- att helst ha en bokföring av det uppdaterade värdet av kostnadsbasen för de aktuella Bitcoins som finns i kassan
 
 ### Utmaningar
 
-
-- Volatilitet**: Priset på Bitcoin fluktuerar avsevärt, vilket skapar svårigheter att värdera innehav och förutsäga framtida finansiella resultat.
-- Regulatorisk granskning**: I länder som Kina begränsar Bitcoin:s begränsade status dess användning som en tillgång för statskassan.
-- Osäkerhet kring regelverket** : Bitcoin:s föränderliga regleringslandskap lämnar ofta företag i ovisshet. Till exempel kan förändringar i skattepolitiken, som i Indien eller USA, påverka redovisningsmetoderna över en natt.
-- Risker för felaktig hantering** : Felaktig klassificering eller underlåtenhet att övervaka Bitcoin-transaktioner kan leda till problem med efterlevnad, påföljder eller skada på anseendet.
-- Risker med rekvalificering**: Om en betydande del av ett företags kassa är placerad i Bitcoin utsätts företaget för potentiella förluster till följd av prisnedgångar. Detta kan få allvarliga konsekvenser, särskilt om sådana fall inträffar när betalningar till leverantörer, anställda eller skatter förfaller. Dessutom kan företagets ägare hållas ansvarig, vilket kan leda till böter eller andra juridiska problem, till exempel anklagelser om missbruk av företagets tillgångar.
+- **Volatilitet**: Priset på Bitcoin fluktuerar avsevärt, vilket skapar svårigheter att värdera innehav och förutsäga framtida finansiella resultat.
+- **Regulatorisk granskning**: I länder som Kina begränsar Bitcoins status dess användning som en tillgång för företagskassan.
+- **Osäkerhet kring regelverket**: Bitcoins föränderliga regleringslandskap lämnar ofta företag i ovisshet. Till exempel kan förändringar i skattepolitiken, som i Indien eller USA, påverka redovisningsmetoderna över en natt.
+- **Risker för felaktig hantering**: Felaktig klassificering eller misslyckande med att övervaka Bitcoin-transaktioner kan leda till problem med efterlevnad, påföljder eller skada anseenden.
+- **Risker med omvärdering**: Om en betydande del av ett företags kassa är placerad i Bitcoin utsätts företaget för potentiella förluster till följd av prisnedgångar. Detta kan få allvarliga konsekvenser, särskilt om sådana fall inträffar när betalningar till leverantörer, anställda eller skatter förfaller. Dessutom kan företagets ägare hållas ansvarig, vilket kan leda till böter eller andra juridiska problem, till exempel anklagelser om missbruk av företagets tillgångar.
 
 ## Verktyg och programvara för redovisning
 
 <chapterId>e7b31be5-1176-4835-944e-3cba1b7040fa</chapterId>
 
-När ett företag beslutar att integrera Bitcoin i sin redovisning förenklar olika verktyg och specialiserad programvara insamling och bearbetning av data. Bland de mest kända lösningarna finns [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/) och [ZenLedger](https://zenledger.io/). Dessa plattformar fokuserar främst på fyra aspekter:
-
+När ett företag beslutar att integrera Bitcoin i sin bokföring kan olika verktyg och specialiserad programvara förenkla insamling och bearbetning av data. Bland de mest kända lösningarna finns [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/) och [ZenLedger](https://zenledger.io/). Dessa plattformar fokuserar främst på fyra aspekter:
 
 - automatisk datainsamling;
 - konvertering av dessa uppgifter till format som är kompatibla med mer allmänna redovisningsprogram (QuickBooks, Xero, ERP);
@@ -1276,40 +1264,41 @@ De är ofta ett klokt komplement för stora organisationer med flera plånböcke
 
 ![BIZ101](assets/en/31.webp)
 
-En enkel "csv"-fil som innehåller transaktionshistoriken är dock ofta tillräcklig för de flesta småföretag. Målet är att för varje betalning dokumentera datum, belopp, motsvarande värde i euro/dollar och de relevanta Bitcoin-adresserna. De allra flesta Bitcoin-betalningslösningar (BTC Pay Server, Swiss Bitcoin Pay, etc.) eller Exchange-plattformar (Bitfinex, Kraken, Coinbase, etc.) erbjuder redan en mekanism för att exportera transaktionshistorik. Genom att tillhandahålla denna fil till en revisor blir det möjligt att effektivisera datainmatningen och tydligt skilja mellan inkommande och utgående flöden relaterade till Bitcoin.
+En enkel "csv"-fil som innehåller transaktionshistoriken är dock ofta tillräcklig för de flesta småföretag. Målet är att för varje betalning dokumentera datum, belopp, motsvarande värde i euro/dollar och de relevanta Bitcoin-adresserna. De allra flesta Bitcoin-betalningslösningar (BTC Pay Server, Swiss Bitcoin Pay, etc.) eller börs-plattformar (Bitfinex, Kraken, Coinbase, etc.) erbjuder redan en mekanism för att exportera transaktionshistorik. Genom att tillhandahålla denna fil till en revisor blir det möjligt att effektivisera datainmatningen och tydligt skilja mellan inkommande och utgående flöden relaterade till Bitcoin.
 
-För dem som själva förvarar sina Bitcoin är hanteringen av UTXO (*Unspent Transaction Outputs*) ett viktigt steg. Korrekt UTXO-märkning hjälper till att spåra ursprunget för varje BTC-fragment, skilja transaktioner relaterade till professionell aktivitet från de för personliga utgifter och underlätta spårbarhet för juridiska eller skattemässiga ändamål. Med de flesta bra Bitcoin Wallet-program kan du importera din Wallet med hjälp av din backup-fil (eller din xpub, beroende på din inställning) och märka UTXO:er baserat på deras ursprung eller destination. För att hjälpa dig, här är en komplett handledning tillägnad denna praxis:
+För dem som själva förvarar sina Bitcoin är hanteringen av UTXO (*Unspent Transaction Outputs*) ett viktigt steg. Korrekt UTXO-märkning hjälper till att spåra ursprunget för varje BTC-fragment, skilja transaktioner relaterade till professionell aktivitet från de för personliga utgifter och underlätta spårbarhet för juridiska eller skattemässiga ändamål. Med de flesta bra Bitcoinplånboks-program kan du importera din plånbok med hjälp av din backup-fil (eller din xpub, beroende på din inställning) och märka UTXO:er baserat på deras ursprung eller destination. För att hjälpa dig, här är en komplett handledning tillägnad denna praxis:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
-Slutligen, oavsett om du är en liten handlare eller ett mer etablerat företag, är det möjligt att **reglera en Invoice i Bitcoin**. Nyckeln är att dokumentera transaktionen korrekt. Om du betalar från en Wallet med egen förvaring är det perfekt att generate en transaktion som noterar Invoice-numret och syftet med betalningen i dina etiketter. Om du föredrar att reglera Invoice via en Exchange kommer du också att ha möjlighet att exportera ett kvitto eller en transaktionshistorik som du kan inkludera i din bokföring. Denna transparens kommer att förenkla spårningen och rapporteringen av alla dina BTC-operationer.
 
-## Praktiska exempel på Bitcoin-redovisning
+Slutligen, oavsett om du är en liten handlare eller ett mer etablerat företag, är det möjligt att **betala en faktura i Bitcoin**. Nyckeln är att dokumentera transaktionen korrekt. Om du betalar från en plånbok med egen förvaring är det perfekt att generera en transaktion som noterar fakturanumret och syftet med betalningen i dina etiketter. Om du föredrar att betala fakturor via en börs kommer du också att ha möjlighet att exportera ett kvitto eller en transaktionshistorik som du kan inkludera i din bokföring. Denna transparens kommer att förenkla spårningen och rapporteringen av alla dina BTC-operationer.
+
+## Praktiska exempel på Bitcoin-bokföring
 
 <chapterId>763f6f20-9181-495a-bf7d-b405899e65ec</chapterId>
 
 ### Användningsfall 1: Butik som konverterar Bitcoin-betalningar till euro
 
-**Scenario**: Ett litet bageri accepterar Bitcoin som betalningsmetod men konverterar omedelbart alla Bitcoin som tas emot till euro för att undvika exponering för kryptovalutans volatilitet.
+**Scenario**: Ett litet bageri accepterar Bitcoin som betalningsmetod men konverterar omedelbart alla Bitcoins som tas emot till euro för att undvika exponering för kryptovalutans volatilitet.
 
 **Exempel**:
 
 
-- Bitcoin omvandlingsfrekvens**: 1 Bitcoin = 40 000 EURO.
-- Transaktion 1**: Kunden köper flera bakverk för 20 euro.
-    - Bitcoin ekvivalent: (20 / 40.000) = 0,0005 Bitcoin = 50.000 Satoshis.
-    - Omvandlingsavgift: 1,5 % (20 euro × 0,015) = 0,30 euro.
+- **Bitcoins växlingskurs**: 1 Bitcoin = 40 000 euro.
+- **Transaktion 1**: Kunden köper flera bakverk för 20 euro.
+    - Bitcoins ekvivalent: (20 / 40.000) = 0,0005 Bitcoin = 50.000 Satoshis.
+    - Växlingsavgift: 1,5 % (20 euro × 0,015) = 0,30 euro.
     - Erhållet netto: 20 euro - 0,30 euro = 19,70 euro.
-- Transaktion 2**: Kunden köper kaffe för 5 euro.
-    - Bitcoin ekvivalent: (5 / 40.000) = 0,000125 Bitcoin = 12.500 Satoshis.
+- **Transaktion 2**: Kunden köper kaffe för 5 euro.
+    - Bitcoins ekvivalent: (5 / 40.000) = 0,000125 Bitcoin = 12.500 Satoshis.
     - Växlingsavgift: 1,5 % (5 euro × 0,015) = 0,075 euro.
     - Erhållet netto: 5 euro - 0,075 euro = 4,93 euro.
 
 **Sammanställning av transaktioner**:
 
 
-- Total försäljning**: 25 euro.
-- Total avgift**: 0,375 euro.
-- Mottagna euro netto**: 24,625 euro.
+- **Total försäljning**: 25 euro.
+- **Total avgift**: 0,375 euro.
+- **Mottagna euro netto**: 24,625 euro.
 
 **Redovisningsimplikationer**:
 
@@ -1325,24 +1314,23 @@ Slutligen, oavsett om du är en liten handlare eller ett mer etablerat företag,
 **Exempel**:
 
 
-- Bitcoin omvandlingsfrekvens**: 1 Bitcoin = 40 000 EURO.
-- Transaktion från kund**: Kunden köper bakverk för 50 euro.
-    - Bitcoin ekvivalent: (50 / 40.000) = 0,00125 Bitcoin = 125.000 Satoshis.
-    - Omräkning (50 %): Bitcoin till ett värde av 25 euro = 0,000625 Bitcoin = 62 500 satoshis.
-        - Omvandlingsavgift: 1,5 % (25 euro × 0,015) = 0,375 euro.
+- **Bitcoins växelkurs**: 1 Bitcoin = 40 000 euro.
+- **Transaktion från kund**: Kunden köper bakverk för 50 euro.
+    - Bitcoins ekvivalent: (50 / 40.000) = 0,00125 Bitcoin = 125.000 Satoshis.
+    - Konvertering (50 %): Bitcoin till ett värde av 25 euro = 0,000625 Bitcoin = 62 500 satoshis.
+        - Konverteringsavgift: 1,5 % (25 euro × 0,015) = 0,375 euro.
         - Nettobeloppet i euro: 25 euro - 0,375 euro = 24,625 euro.
     - Behålls i Bitcoin (50%): 62 500 Satoshis = 0,000625 Bitcoin.
 
 **Sammanfattning**:
 
 
-- Total försäljning**: 50 euro.
-- Avgifter**: 0,375 euro.
-- Mottagna euro netto**: 24,625 euro.
-- Bitcoin kvar**: 62.500 Satoshis.
+- **Total försäljning**: 50 euro.
+- **Avgifter**: 0,375 euro.
+- **Mottagna euro netto**: 24,625 euro.
+- **Bitcoin kvar**: 62.500 Satoshis.
 
 **Redovisningsimplikationer**:
-
 
 - Registrera den totala försäljningen (50 euro) som intäkt.
 - Dra av konverteringsavgifter (0,375 euro) som en kostnad.
@@ -1351,25 +1339,25 @@ Slutligen, oavsett om du är en liten handlare eller ett mer etablerat företag,
 
 ### Användningsfall 3: Professionell tjänst som behåller Bitcoin för långsiktig investering
 
-**Scenario**: En frilansande grafisk formgivare accepterar Bitcoin som betalning och behåller alla mottagna Bitcoin som en långsiktig investering.
+**Scenario**: En frilansande grafisk designer accepterar Bitcoin som betalning och behåller alla mottagna Bitcoin som en långsiktig investering.
 
 **Exempel**:
 
 
-- Bitcoin Konverteringskurs vid betalning**: 1 Bitcoin = 30 000 EURO.
-- Transaktion från kund**: Kunden betalar för tjänster till ett värde av 3 000 euro.
-    - Bitcoin-ekvivalent: (3 000 / 30 000) = 0,1 Bitcoin = 10 000 000 000 Satoshis.
-- Värdering vid årets slut**:
-    - Bitcoin Konverteringsgrad vid årets slut: 1 Bitcoin = 35 000 euro.
-    - Värdering av Bitcoin Holding: 0.1 Bitcoin × 35 000 EURO = 3 500 EURO.
+- **Bitcoins växelkurs vid betalning**: 1 Bitcoin = 30 000 EURO.
+- **Transaktion från kund**: Kunden betalar för tjänster till ett värde av 3 000 euro.
+    - Bitcoins ekvivalent: (3 000 / 30 000) = 0,1 Bitcoin = 10 000 000 000 Satoshis.
+- **Värdering vid årets slut**:
+    - Bitcoins växelkurs vid årets slut: 1 Bitcoin = 35 000 euro.
+    - Värdering av Bitcoin-innehav: 0.1 Bitcoin × 35 000 EURO = 3 500 EURO.
     - Orealiserad vinst: 3 500 euro - 3 000 euro = 500 euro.
 
 **Sammanfattning**:
 
 
-- Total intäkt redovisad**: 3 000 euro.
-- Bitcoin Holding**: 0.1 Bitcoin värderad till 3 500 euro i balansräkningen.
-- Orealiserad vinst**: 500 euro redovisades i finansiella noter men har inte realiserats som intäkt.
+- **Total intäkt redovisad**: 3 000 euro.
+- **Bitcoin-innehav**: 0.1 Bitcoin värderad till 3 500 euro i balansräkningen.
+- **Orealiserad vinst**: 500 euro redovisades i finansiella noter men har inte realiserats som intäkt.
 
 **Redovisningsimplikationer**:
 
@@ -1385,30 +1373,30 @@ Slutligen, oavsett om du är en liten handlare eller ett mer etablerat företag,
 **Exempel**:
 
 
-- Bitcoin Inköp från kunder**:
+- **Bitcoinbetalningar från kunder**:
     - Köp 1: 2 000 euro till 20 000 euro/BTC = 0,1 Bitcoin = 10 000 000 Satoshis.
     - Köp 2: 3 000 euro till 25 000 euro/BTC = 0,12 Bitcoin = 12 000 000 Satoshis.
     - Köp 3: 5 000 euro till 30 000 euro/BTC = 0,1667 Bitcoin = 16 670 000 Satoshis.
-    - Totalt innehav av Bitcoin**: 0.3867 Bitcoin = 38.670.000 Satoshis.
-- Värdering vid årets slut**:
+    - **Totalt innehav av Bitcoin**: 0.3867 Bitcoin = 38.670.000 Satoshis.
+- **Värdering vid årets slut**:
     - Bitcoin Pris vid årets slut: 40 000 euro/BTC.
     - Totalt värde: 0,3867 Bitcoin × 40 000 euro = 15 468 euro.
     - Orealiserad vinst: 15 468 euro - 10 000 euro (totalt anskaffningsvärde) = 5 468 euro.
-- Försäljning av 50% av Bitcoin**:
-    - Bitcoin Såld: 0,19335 Bitcoin.
+- **Försäljning av 50% av Bitcoin**:
+    - Sålda Bitcoin: 0,19335 Bitcoin.
     - Försäljningsintäkter: 0.19335 Bitcoin × 40.000 EURO = 7.734 EURO.
     - Kostnadsbas (vägt genomsnitt):
         - Total kostnad: 2 000 euro + 3 000 euro + 5 000 euro = 10 000 euro.
         - Vägt genomsnittspris: 10 000 euro / 0,3867 Bitcoin = 25 850 euro/BTC.
-        - Kostnad för sålda Bitcoin: 0,19335 Bitcoin × 25 850 euro = 4 999 euro.
+        - Kostnad för sålda Bitcoins: 0,19335 Bitcoin × 25 850 euro = 4 999 euro.
     - Realiserad vinst: 7 734 euro - 4 999 euro = 2 735 euro.
 
 **Sammanfattning**:
 
 
-- Bitcoin kvarvarande**: 0.19335 Bitcoin värderat till 7 734 euro (vid 40 000 euro/BTC).
-- Realiserad vinst**: 2 735 euro ingår i resultaträkningen.
-- Orealiserad vinst**: 5.468 euro redovisat i finansiella noter (inklusive orealiserat värde på kvarvarande Bitcoin).
+- **Kvarvarande Bitcoin**: 0.19335 Bitcoin värderat till 7 734 euro (vid 40 000 euro/BTC).
+- **Realiserad vinst**: 2 735 euro ingår i resultaträkningen.
+- **Orealiserad vinst**: 5.468 euro redovisat i finansiella noter (inklusive orealiserat värde på kvarvarande Bitcoin).
 
 **Redovisningsimplikationer**:
 

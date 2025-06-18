@@ -1542,7 +1542,7 @@ Murikino gihe, Bitcoin irabandanya kubaho no gukura mbere n’ukwinjira cane kan
 Bitcoin ishobora kubonwa nk’igikoresho gishobora kurema ubutunzi bubangabanganywe n'ubw'amafaranga ya fiat, kuko birashoboka kugurisha ibintu canke ibikorwa kandi ugahembwa Bitcoin. Ivy’ugucuruza bishobora gukorwa ataco bimaze muri Bitcoin, ataco bimaze guca ku rubuga rwa ukuvujisha, ariko gusa uva kurikungodo ya Bitcoin uja kuyindi.
 
 
-Ubutunzi bwa Bitcoin burahari kandi buriko buratera imbere mu turere tumwetumwe tw’isi, nka muri El Salvador, aho Bitcoin yabaye amafaranga yemewe kuva mu 2021. Nohirya nohino yacu hariho abantu, n'amashirahamwe azayemera Bitcoin nk'ikintu c'ukurihisha ibintu canke ibikorwa vyabo.
+Ubukungu bwa Bitcoin burahari kandi buriko buratera imbere mu turere tumwe tw’isi, nka muri El Salvador, aho Bitcoin yabaye amafaranga yemewe mu 2021. Ariko rero, ku wa 20 Nzero 2025, inama y'igihugu yemeje itegeko rishasha ryakuye Bitcoin ku izina ry' 'amafaranga yemewe', bivugwa ko nyuma yo gukurikirana igitutu c'ishirahamwe mpuzamakungu ry'ibifungurwa. Muri iri tegeko rishasha, abantu ntibakiri bategerezwa kwemera Bitcoin mu bucuruzi bwabo, kandi ntibashobora gukoresha Bitcoin mu kwishyura imisoro. Kwemera birakiri ku bushake.
 
 
 ![image](assets/en/72.webp)
@@ -1717,7 +1717,7 @@ Ni ngirakamaro kwemera ko KYC ari ikiganiro gihambaye mu bijanye muruganda rwa B
 ### Inyishu zitari iza KYC
 
 
-Ikindi, hariho amasoko menshi [amasoko] menshi (https://planb.network/inyigisho/Exchange) aho wogura ukagurisha ama Bitcoin kurubuga rw'ukuvunja ruri kubuhinga bwa bushingiye kubantu babiri. Muri rusangi, urashobora gufata ibi bikwirikira:
+Ikindi, hariho [amasoko menshi](https://planb.network/inyigisho/Exchange) aho wogura ukagurisha ama Bitcoin kurubuga rw'ukuvunja ruri kubuhinga bwa bushingiye kubantu babiri. Muri rusangi, urashobora gufata ibi bikwirikira:
 
 
 

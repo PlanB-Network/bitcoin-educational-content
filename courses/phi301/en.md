@@ -1592,12 +1592,6 @@ You can test the depth of your understanding by writing [mini-essay](https://www
 
 <isCourseReview>true</isCourseReview>
 
-## Final exam
-
-<chapterId>7778431c-9438-412a-b6fd-7f4d906b8983</chapterId>
-
-<isCourseExam>true</isCourseExam>
-
 ## Conclusion
 
 <chapterId>b77ed55c-b13a-430b-a212-37aab527b9e7</chapterId>

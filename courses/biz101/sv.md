@@ -669,7 +669,6 @@ Detta är det alternativ som rekommenderas av Bitcoin-entusiaster, eftersom det 
 
 Till exempel kan en börs eller en köptjänst skapa ett konto åt dig, konvertera din traditionella valuta till Bitcoin och hålla den för din räkning med hjälp av sina säkerhetssystem. De flesta sådana tjänster låter dig ta ut dina bitcoins till en digital plånbok där du ensam har nyckeln. Innan du gör det äger du inte bitcoins på riktigt; du förlitar dig på deras löfte att betala tillbaka dig. Detta innebär en avvägning mellan säkerhetsrisker (deras kontra dina) och motpartsrisker (de kan gå i konkurs eller försvinna). Vissa företag tycker att detta är acceptabelt, även om det i allmänhet inte rekommenderas för långvarig lagring eller för 100% av din allokering. Förvaringstjänster kan också ta ut förvaringsavgifter.
 
-
 - **"Pappers-Bitcoin" (ETF:er eller ETP:er):**
 
 Dessa är traditionella finansiella instrument som representerar fraktioner av Bitcoin och replikerar dess prisutveckling. Institutionen bakom produkten köper och innehar teoretiskt sett den underliggande Bitcoin. Dina bidrag och uttag görs i traditionell valuta (t.ex. dollar eller euro), inte i Bitcoin. Med undantag för vissa produkter som tillåter uttag i faktiska Bitcoin (för att undvika en skattepliktig händelse i vissa jurisdiktioner), innebär dessa instrument årliga förvaltningsavgifter. Här förlitar du dig på institutionens säkerhet och står inför motpartsrisk (till exempel om en regering beslutar att beslagta alla Bitcoin som innehas av institutioner, vilket hände med guld 1933 enligt USA:s Executive Order 6102). Deras främsta fördel är att de är lättillgängliga, eftersom de distribueras via traditionella finansiella kanaler. De kringgår behovet av att säkra kryptografiska nycklar men erbjuder inga av Bitcoins inneboende egenskaper: du kan inte använda Bitcoin-nätverket 24/7 för att flytta värde fritt utan tillstånd. De replikerar bara den finansiella prestandan, inte funktionaliteten eller suveräniteten hos Bitcoin självt.
@@ -696,8 +695,7 @@ Exempel är Kraken, Coinbase eller Binance, som historiskt använts av många pr
 
 Till exempel i Frankrike är plattformar som Paymium (börs) eller BullBitcoin (mäklare) kända för att ha äkta Bitcoin-entusiaster vid rodret och har byggt en stark meritlista. I USA har du tjänsteleverantörer som River eller Swann. I allmänhet är det viktigt att undersöka leverantörens bakgrund: deras rykte, meritlista, popularitet inom Bitcoin-samhället och om deras ledarskap är i linje med Bitcoins kärnvärderingar.
 
-**Börs vs Mäklare:**
-
+- **Börs vs Mäklare:**
 
 - Med en **börs** kan du lägga en köporder till det pris du väljer, men du måste vänta på genomförande tills marknadspriset och säljarna stämmer överens.
 - En **mäklare** erbjuder dig ett fast pris och kan genomföra transaktionen snabbare.
@@ -1048,8 +1046,8 @@ En av Bitcoins viktigaste fördelar är möjligheten att flytta pengar efter beh
 Om du börjar från noll - ingen butik, ingen programvara för produkthantering och inget POS-system (Point-of-Sale) - har du ett par alternativ:
 
 
-- Outsourcing:** Du kan outsourca skapandet av en webbplats med shoppingalternativ och sedan lägga till Bitcoin-betalningsmöjligheter vid sidan av traditionella lösningar i butiken.
-- Enkla lösningar:** Alternativt kan du använda plattformar som Accessing.app för att göra det själv. Viktiga fördelar inkluderar:
+- **Outsourcing:** Du kan outsourca skapandet av en webbplats med shoppingalternativ och sedan lägga till Bitcoin-betalningsmöjligheter vid sidan av traditionella lösningar i butiken.
+- **Enkla lösningar:** Alternativt kan du använda plattformar som Accessing.app för att göra det själv. Viktiga fördelar inkluderar:
     - Snabb och prisvärd etablering av en online- eller fysisk butik.
     - Lämplig för säsongsbetonade verksamheter, evenemang, restauranger eller butiker.
     - Definiera och hantera produkter för både fysisk försäljning och onlineförsäljning.
@@ -1066,7 +1064,6 @@ Lightning Network erbjuder överlägsen effektivitet och lägre avgifter, men in
 
 Nya infrastrukturer lyckas eftersom de är mer effektiva, och tidiga användare ansluter sig eftersom de medför konkreta fördelar. Här är några observationer om Lightning Network år 2024:
 
-
 - **Ultrasnabba transaktioner:** Transaktioner är ofta nästan omedelbara (<500 ms) och har en extremt låg felfrekvens.
 - **Professionalisering av nätverket:** Större aktörer säkerställer likviditet över nätverket, medan privatpersoner till stor del har slutat routa betalningar och nu främst driver så kallade "edge-noder".
 - **Förbättrad användarupplevelse:**  Mobilappar för enskilda användare har förbättrats avsevärt. Funktioner som splicing, statiska BOLT12-fakturor och betalningar utan bekräftelse (0-conf) är numera allmänt tillgängliga, vilket gör användarupplevelsen mer sömlös. Problem med interoperabilitet, som till exempel force-closes, utgör inte längre något större hinder.
@@ -1076,7 +1073,6 @@ Nya infrastrukturer lyckas eftersom de är mer effektiva, och tidiga användare 
 ![BIZ101-profiles](assets/en/30.webp)
 
 *[Källa: BTC Map](https://btcmap.org/)*
-
 
 - **Nätverksstatistik:** Det totala antalet kanaler och den mängd Bitcoin som är låst i Lightning-nätverket är fortsatt stabil, med cirka 20 000 noder, 5 200 BTC och 60 000 kanaler. Dessa siffror speglar dock endast en del av nätverket och indikerar ett skifte i deltagarbasen, där färre privatpersoner och fler professionella aktörer nu deltar.
 
@@ -1146,7 +1142,6 @@ Om Bitcoin skulle behandlas som en valuta skulle företag hantera den som vilken
     - Återstående Bitcoin-saldo: 0.5 BTC, nu värt 20 000 USD (uppdaterat till den aktuella växelkursen).
 
 **Nyckelfördel om Bitcoin erkändes som en valuta:**
-
 
 - Företaget behöver bara justera fiatekvivalenten för sina Bitcoin-innehav med jämna mellanrum (t.ex. för månads- eller årsrapporter), precis som för euro, yen eller andra valutor som det innehar.
 - Detta skulle eliminera behovet av att spåra anskaffningsvärde på transaktionsnivå och förenkla bokföringen, särskilt för företag med frekventa Bitcoin-transaktioner.
